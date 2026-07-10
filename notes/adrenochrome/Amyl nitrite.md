@@ -1,29 +1,48 @@
 ---
 title: Amyl nitrite
-description: '- Methemoglobinemia: A common result of Amyl nitrite exposure.'
+description: Amyl nitrite is a volatile alkyl nitrite vasodilator, historical cyanide antidote, and oxidizing inhalant that induces methemoglobinemia.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 tags:
   - chemical-compound
-aliases: []
+  - nitrite
+url: '#'
+source: '#'
+aliases: [Isoamyl nitrite]
 ---
+
 # Amyl nitrite
 
-[[Amyl nitrite]] is a chemical compound used medically as an antidote for cyanide poisoning and recreationally as an inhalant ("poppers"). It is a potent oxidizing agent that can cause acute [[Methemoglobinemia]].
+[[Amyl nitrite]] is a volatile **alkyl nitrite** (ester of nitrous acid) historically used medically for angina and as a component of the classic cyanide antidote kit, and recreationally as an inhalant ("poppers").
+
+## Chemical Properties & Mechanism of Action
+
+- Highly volatile, lipophilic liquid that releases nitric oxide and nitrite in vivo.
+- **Vasodilation:** liberated [[Nitric Oxide]] activates [[Soluble Guanylyl Cyclase]], raising cGMP and relaxing vascular smooth muscle — the basis of its anti-anginal and recreational effects.
+- **Cyanide antidote:** by intentionally oxidizing [[Hemoglobin]] to [[Methemoglobin]], amyl nitrite creates ferric iron that scavenges cyanide as cyanmethemoglobin, sparing mitochondrial cytochrome oxidase.
+
+## Toxicology & Adrenochrome Relevance
+
+> [!warning] Methemoglobinemia
+> The same oxidant property that makes amyl nitrite a cyanide antidote causes acute [[Methemoglobinemia]] when overused, producing [[Cyanosis]], hypoxia, and chocolate-brown blood. Severe cases are reversed with [[Methylene blue]] acting through [[NADH-dependent methemoglobin reductase]] ([[Diaphorase]]).
+
+Its one-electron oxidation of heme iron parallels the **autoxidation/redox** chemistry that produces [[Adrenochrome]] from [[Epinephrine]], connecting nitrite toxicology to the topic's central redox-cycling themes and [[Reactive Oxygen Species]] generation.
 
 ## Documents
 
-List of documents that mention this entity
-
   - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
-    - Chemicals/Nitrates/Nitrites: Amyl nitrite/Isobutyl nitrite ("poppers"), Sodium nitrite (suicide attempts or contaminated food), Aniline dyes, Nitrobenzene.
-
+    - Lists amyl/isobutyl nitrite ("poppers") among the nitrite oxidants that induce acquired methemoglobinemia.
 
 ## Connections
-- [[Methemoglobinemia]]: A common result of Amyl nitrite exposure.
-- [[Isobutyl nitrite]]: Another related compound with similar effects.
+
+  - [[Methemoglobinemia]]: Common consequence of amyl nitrite exposure.
+  - [[Isobutyl nitrite]]: Closely related alkyl nitrite with similar effects.
+  - [[Methemoglobin]]: Oxidized hemoglobin species formed (also its antidotal mechanism).
+  - [[Methylene blue]]: Antidote for severe methemoglobinemia.
+  - [[Nitric Oxide]]: Vasodilatory species released.
 
 ## Linking Summary
-- New links added: [[Amyl nitrite]], [[Isobutyl nitrite]], [[Methemoglobinemia]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Amyl nitrite]] ↔ [[Methemoglobinemia]], [[Amyl nitrite]] ↔ [[Isobutyl nitrite]], [[Amyl nitrite]] ↔ [[Amyl nitrite]]
+
+  - New links added: [[Methemoglobinemia]], [[Isobutyl nitrite]], [[Methemoglobin]], [[Hemoglobin]], [[Methylene blue]], [[Nitric Oxide]], [[Soluble Guanylyl Cyclase]], [[Cyanosis]], [[NADH-dependent methemoglobin reductase]], [[Diaphorase]], [[Adrenochrome]], [[Epinephrine]], [[Reactive Oxygen Species]]
+  - Strong connections to strengthen: Amyl nitrite ↔ Methemoglobinemia; Amyl nitrite ↔ Isobutyl nitrite
