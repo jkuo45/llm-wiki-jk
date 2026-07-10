@@ -80,7 +80,7 @@ Each triple is a JSON object with the following fields:
 
 ## Deduplication
 
-When updating an existing `_triples_<topic>.json`, do not duplicate identical triples (same subject + predicate + object). Use a merge strategy:
+When updating an existing `_triples.json`, do not duplicate identical triples (same subject + predicate + object). Use a merge strategy:
 
 - Different context → keep both contexts (array or separate entries)
 - Different confidence → keep the higher confidence level

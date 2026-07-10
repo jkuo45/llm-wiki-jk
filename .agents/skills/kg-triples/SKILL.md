@@ -5,7 +5,7 @@ description: Extract and visualize subject-object-relation triples from wiki doc
 
 # Knowledge Graph Triples Skill
 
-Extract factual triples from ingested wiki documents and entity notes to build a knowledge graph per topic. Each topic maintains a set of triple files prefixed with `_triples_<topic>` in JSON, DOT, and SVG formats.
+Extract factual triples from ingested wiki documents and entity notes to build a knowledge graph per topic. Each topic maintains a triple JSON file (`_triples.json`) in the topic directory, with graph visualizations (`.dot`, `.svg`) in `media/kg_graph/`.
 
 ## Workflow
 
@@ -32,7 +32,7 @@ See [TRIPLE_RULES.md](references/TRIPLE_RULES.md) for detailed extraction guidel
 Write the extracted triples to the appropriate topic directory:
 
 ```
-notes/<topic>/_triples_<topic>.json
+notes/<topic>/_triples.json
 ```
 
 Unless otherwise instructed, keep each `.json` file in sync with the documents ingested into that topic — update when new documents are added or existing ones are modified.
@@ -42,7 +42,7 @@ Unless otherwise instructed, keep each `.json` file in sync with the documents i
 Combine per-topic triples into a single file for cross-topic analysis:
 
 ```
-uv run scripts/03_merge_triples.py notes/<topic1>/_triples_<topic1>.json notes/<topic2>/_triples_<topic2>.json -o merged.json
+uv run scripts/03_merge_triples.py notes/<topic1>/_triples.json notes/<topic2>/_triples.json -o merged.json
 ```
 
 ### 4. Visualize Graph
@@ -50,7 +50,7 @@ uv run scripts/03_merge_triples.py notes/<topic1>/_triples_<topic1>.json notes/<
 Generate directed graph visualizations using the triples script:
 
 ```
-uv run scripts/03_visualize_triples.py notes/<topic>/_triples_<topic>.json <output_base> [--max-nodes N] [--min-edges N]
+uv run scripts/03_visualize_triples.py notes/<topic>/_triples.json <output_base> [--max-nodes N] [--min-edges N]
 ```
 
 This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, save to `tasks/task_output_[timestamp].svg` (and `.png`, `.dot`).

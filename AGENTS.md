@@ -183,6 +183,9 @@ Maintain link integrity by performing periodic audits:
 
 ## Subject Object Relation Triples
 
+- `notes/<topic>/_triples.json` — per-topic triple data (JSON)
+- `media/kg_graph/_triples_<topic>.{dot,svg}` — graph visualizations
+
 See `.agents/skills/kg-triples/SKILL.md` for the triple extraction workflow, JSON format, and graph visualization instructions.
 
 ## Entity Type Schema
