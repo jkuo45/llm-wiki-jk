@@ -66,6 +66,39 @@ The SRAC achieves senescent cell selectivity through **three layers of biologica
 - Improved tissue regeneration and reduced chronic "inflammaging."
 - Selective elimination of high-SASP senescent cells without systemic toxicity.
 
+## Biomarkers for SRAC Monitoring
+
+> [!info] Reference — SASP biomarker framework
+> Per [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|Wang et al. (2024, Nat Rev Mol Cell Biol)]], SASP products measured at a single time point cannot discriminate beneficial from detrimental senescence, so SRAC should track biomarkers **longitudinally** (pre, end of Phase 1, post-Phase 2, and during washout).
+
+### Primary SRAC readouts (already specified)
+- **IL-6, IL-1β, MCP-1 (CCL2)** — direct readouts of rapamycin-mediated SASP suppression in Phase 1.
+- **CXCL12** — fisetin-driven vascular-aging response; proposed to personalize the 1–2 week rapamycin washout duration.
+
+### Expanded panel to adopt (from the SASP review)
+- **SASP Atlas core set** (combinatorial plasma biomarker of senescence): [[GDF15]], stanniocalin-1, serpin-family proteins, and [[MMP]]s.
+- **Mortality-associated 5-factor panel**: GDF15, RAGE, VEGF-A, PARC ([[CCL18]]), and MMP-2 — strongly associated with all-cause mortality and useful as a global senescence-burden index for SRAC.
+- **Urine / urinary-EV panel** (non-invasive): IL-6, CCL2, MMP-7, MMP-8 — practical for repeated sampling across the phased protocol.
+- **Senolytic efficacy markers** (validated in Dasatinib + Quercetin trials): IL-6, [[MMP-9]], [[GM-CSF]] in plasma — applicable to the Phase 2 fisetin strike.
+
+### Mitochondrial redox-dial biomarker — [[SIRT3-SIRT4 Ratio]]
+
+The [[SIRT3-SIRT4 Ratio]] is a **predictive mitochondrial biomarker** for individual responsiveness to SRAC's own mitohormetic trigger (the AMM adrenochrome moiety + MB electron cycling in Phase 1). It sets the [[Hormetic Window]] for the protocol's redox signal by governing MnSOD (SOD2) activity:
+
+- **SIRT3** deacetylates and activates MnSOD (at Lys68/Lys122), converting superoxide → H₂O₂ for adaptive NRF2/ARE signaling.
+- **SIRT4** mono-ADP-ribosylates and inhibits MnSOD, sustaining elevated superoxide.
+
+The ratio therefore determines how the AMM-generated mitochondrial superoxide burst is processed:
+
+- **High ratio (SIRT3 dominant):** Superoxide is rapidly quenched → narrow hormetic window; SRAC's redox priming is well-tolerated but may under-signal for adaptive mitohormesis.
+- **Low ratio (SIRT4 dominant):** Superoxide persists → wide hormetic window; greater risk of oxidative damage, SASP flare, or cytokine-storm during senescent-cell lysis.
+
+> [!tip] Use in SRAC
+> Because the SRAC redox pulse and the SASP-suppression/readout are both redox-coupled, the [[SIRT3-SIRT4 Ratio]] acts as a **companion biomarker** to the SASP panel: it predicts *who* will tolerate and benefit from AMM/MB dosing, and can personalize the AMM dose and the MB low-end setting (0.5 mg) to keep the signal within each individual's hormetic window. [[Caloric Restriction]] and NAD⁺ precursors ([[NMN]]/[[NR]]) shift the ratio toward SIRT3 dominance, dovetailing with the SRAC redox-buffer logic.
+
+### Mechanistic rationale
+The review confirms rapamycin suppresses the SASP through the mTOR → IL-1α → MK2/ZFP36L1 axis and NF-κB, exactly the Phase 1 "brake." Tracking the expanded panel lets SRAC distinguish true SASP remodeling from transient SASP flares during senescent-cell lysis (cytokine-storm risk flagged in the original protocol).
+
 ## Connections
 
 - [[Adrenochrome monoaminoguanidine]]: Stabilized adrenochrome–aminoguanidine complex providing the hormetic ROS trigger + AGE inhibition.
@@ -80,13 +113,26 @@ The SRAC achieves senescent cell selectivity through **three layers of biologica
 - [[Senescence]]: The biological state targeted by the two-phase strategy.
 - [[Mitohormetic Redox-Relay]]: Shares MB and redox-hormesis logic with SRAC Phase 1.
 - [[Glyco-Oxidative Proteostasis Shield]]: Shares AMM with SRAC; GOPS focuses on glycation/proteostasis while SRAC focuses on senescence/SASP.
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications]]: Authoritative SASP biomarker framework (Wang et al., 2024) underpinning the SRAC monitoring panel.
+- [[GDF15]]: Core SASP Atlas marker and mortality-associated panel member; tracks global senescence burden.
+- [[MMP-9]]: Senolytic-efficacy marker (Dasatinib+Quercetin trials); applicable to Phase 2 fisetin strike.
+- [[GM-CSF]]: Plasma senolytic-efficacy marker per the SASP review.
+- [[CCL18]]: PARC — mortality-associated 5-factor panel member.
+- [[CXCL12]]: Fisetin-driven vascular-aging response; proposed to personalize rapamycin washout.
+- [[MMP-2]]: Mortality-associated panel member; matrix-remodeling SASP factor.
+- [[SIRT3-SIRT4 Ratio]]: Mitochondrial redox-dial biomarker predicting individual responsiveness to the AMM/MB hormetic trigger and the safe hormetic window for SRAC.
+- [[SIRT3]]: Deacetylates/activates MnSOD; high SIRT3/SIRT4 ratio → superoxide quenching → protective.
+- [[SIRT4]]: Inhibits MnSOD via mono-ADP-ribosylation; low SIRT3/SIRT4 ratio → persistent superoxide → oxidative risk.
+- [[MnSOD]]: Shared substrate whose activity is set by the SIRT3/SIRT4 ratio; processes the AMM-derived superoxide burst.
+- [[Hormetic Window]]: Determined by the SIRT3/SIRT4 ratio; defines the safe dosing range for SRAC's redox priming.
 
 ## Documents
 
 - [[tasks/outline_adrenochrome_combo_therapy|SRAC Outline]]
 - [[notes/adrenochrome/_document_ - (protocol) SRAC - senescent, ligand-conjugated|SRAC Protocol (Original)]]
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review (Wang et al., 2024)]]: Source for the expanded SRAC biomarker panel.
 
 ## Linking Summary
-- New links added: [[Adrenochrome monoaminoguanidine]], [[Methylene blue]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[NRF2]], [[SIRT1]], [[PGC-1α]], [[SASP]], [[Glutathione]], [[Inflammaging]], [[Advanced Glycation End Products]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SASP-Remodeling Aminochrome Complex]] ↔ [[Senescence]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[Adrenochrome monoaminoguanidine]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[Methylene blue]]
+- New links added: [[Adrenochrome monoaminoguanidine]], [[Methylene blue]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[NRF2]], [[SIRT1]], [[PGC-1α]], [[SASP]], [[Glutathione]], [[Inflammaging]], [[Advanced Glycation End Products]], [[GDF15]], [[MMP-9]], [[GM-CSF]], [[CCL18]], [[CXCL12]], [[MMP-2]], [[SASP Atlas]], [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications]], [[SIRT3-SIRT4 Ratio]], [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Hormetic Window]]
+- Suggested new entity notes to create: [[GDF15]], [[MMP-9]], [[GM-CSF]], [[CCL18]], [[CXCL12]], [[MMP-2]], [[SASP Atlas]]
+- Strong connections to strengthen: [[SASP-Remodeling Aminochrome Complex]] ↔ [[Senescence]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[Adrenochrome monoaminoguanidine]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[Methylene blue]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[SASP]] (biomarker framework)
