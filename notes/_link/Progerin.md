@@ -24,7 +24,7 @@ The accumulation of progerin leads to:
 
 ## Documents
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Centenarian SIRT6 variants (N308K/A313S) conferred resistance to progerin-induced senescence in hMSCs, preserving genome stability and suppressing LINE1 derepression. AAV-mediated CentSIRT6 delivery reduced LINE1 proteins in HGPS fibroblasts.
 
 ## Connections

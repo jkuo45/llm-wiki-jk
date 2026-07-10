@@ -164,7 +164,7 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Demonstrates that centenarian SIRT6 variants (N308K/A313S) elevate endogenous SIRT6 protein via weakened vimentin interaction, alter enzymatic activities (enhanced mADPr, reduced deacetylase), delay replicative senescence, and protect against progerin-induced stress. AAV-CentSIRT6 and Fucoidan-FV reduce LINE1 in HGPS fibroblasts.
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]

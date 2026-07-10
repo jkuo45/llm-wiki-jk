@@ -29,7 +29,7 @@ USP10 binds the C-terminal region of [[SIRT6]] (amino acids 298–355) and deubi
 
 ## Documents
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - USP10 knockdown reduced SIRT6 in WT but not CENT hMSCs, confirming the centenarian variant effect is USP10-independent.
 
 ## Linking Summary

@@ -21,7 +21,7 @@ In aging research, the *Ercc1*<sup>−/∆</sup> mouse is a well-established pro
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
     - Fisetin reduced p16<sup>INK4a</sup>-luciferase signal and senescence markers in *Ercc1*<sup>−/∆</sup> progeroid mice.
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - HGPS patient fibroblasts (AG11513) were used to test AAV-mediated CentSIRT6 gene therapy and Fucoidan-FV pharmacological activation. Both interventions reduced LINE1 ORF1p/ORF2p levels.
 
 ## Connections

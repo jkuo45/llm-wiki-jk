@@ -38,7 +38,7 @@ Fucoidan-FV activates SIRT6 by increasing SIRT6 protein abundance and enhancing 
 
 ## Documents
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Fucoidan-FV (50–100 µg/mL) reduced LINE1 ORF1p and ORF2p levels in HGPS patient fibroblasts, demonstrating pharmacological SIRT6 activation as a gerotherapeutic strategy.
 
 ## Linking Summary

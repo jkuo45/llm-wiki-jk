@@ -22,7 +22,7 @@ aliases: []
 
 ## Documents
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Centenarian SIRT6 variants (N308K/A313S) suppress progerin-induced LINE1 derepression in hMSCs. AAV-mediated CentSIRT6 delivery or Fucoidan-FV treatment reduces LINE1 ORF1p/ORF2p in HGPS fibroblasts.
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
