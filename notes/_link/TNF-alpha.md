@@ -50,6 +50,9 @@ List of documents that mention this entity
   - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
     - In this early phase, a predominant role is played by TNF-alpha and IL-1b, as proinflammatory mediators, as well as by NF- κ B as transcriptional factor required to sustain the inflammatory process.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) identifying TNF-α as a key SASP cytokine that activates NF-κB signaling in neighboring cells, creating a positive feedback loop that amplifies the inflammatory SASP and promotes cancer progression.
+
 
 ## Connections
 - [[Inflammation]] — interacts with TNF-alpha
@@ -67,6 +70,13 @@ List of documents that mention this entity
 - [[TRIM21]] — interacts with TNF-alpha
 - [[p65]] — interacts with TNF-alpha
 - [[NDUFS1]] — interacts with TNF-alpha
+- [[SASP]] — TNF-α is a key SASP cytokine; activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
+- [[Senescent Cells]] — TNF-α is secreted by senescent cells; promotes paracrine inflammation and cancer progression
+- [[p53]] — p53 restrains TNF-α expression; p53 loss amplifies SASP-driven cancer promotion
+- [[Tumor Microenvironment]] — TNF-α from senescent cells reshapes the tumor microenvironment to support cancer growth
+- [[Breast Cancer]] — TNF-α promotes breast cancer progression through NF-κB signaling
+- [[Prostate Cancer]] — TNF-α promotes prostate cancer progression and bone metastasis
+- [[Pancreatic Cancer]] — TNF-α from senescent stellate cells promotes pancreatic cancer progression
 ## Linking Summary
 - New links added: [[Inflammation]], [[NF-kappa B]], [[Apoptosis]], [[IL-1b]], [[Mitochondria]], [[Superoxide Radicals]], [[Respiratory Chain Complex I]], [[HO-1]], [[Glutathione Peroxidase]], [[Catalase]], [[Oxidative Stress]], [[Malondialdehyde]], [[Glutathione]], [[Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Obesity]], [[SIRT1]], [[SIRT7]]
 - Suggested new entity notes to create: [[Cytokines]], [[Pro-inflammatory response]], [[TNFR1]], [[TRADD]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Necroptosis]], [[Necrosome]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[IRS1]], [[Adiponectin]], [[MnSOD]]

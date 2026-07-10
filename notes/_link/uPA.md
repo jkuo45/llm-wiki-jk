@@ -36,6 +36,8 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Mentions uPA as a protease component of the SASP.
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review catalogs uPA among the proteolytic enzymes of the SASP, noting that senescent cells convert plasminogen to plasmin at the cell surface to activate MMPs and remodel the extracellular matrix. Through this cascade uPA promotes invasion, releases matrix-bound growth factors, and sustains paracrine senescence and fibrosis.
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) detailing the uPA/uPAR system as a key SASP component that promotes cancer cell invasion through ECM remodeling and plasmin generation.
 
 ## Connections
 

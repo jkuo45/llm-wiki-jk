@@ -80,6 +80,9 @@ List of documents that mention this entity
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|The SASP and its physiological and pathological implications]]
     - Discusses paracrine senescence mechanisms, beneficial roles in cancer suppression and tissue repair, and detrimental propagation in ageing and disease.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Shows how SASP from senescent fibroblasts promotes paracrine tumor progression: IL-6/IL-8 stimulate epithelial cell proliferation, MMPs enable invasion, VEGF drives angiogenesis, and chemokine gradients recruit immunosuppressive cells. p53 loss amplifies the pro-tumorigenic paracrine effects.
+
 ## Connections
 - [[Senescence-Associated Secretory Phenotype|SASP]] — the effector molecules driving paracrine senescence
 - [[Cellular Senescence]] — the state induced in neighbouring cells
@@ -88,12 +91,25 @@ List of documents that mention this entity
 - [[Notch]] — regulates establishment of paracrine senescence
 - [[IFITM3]] — exosomal protein mediating paracrine senescence; ageing biomarker
 - [[CCL2]] — SASP chemokine contributing to paracrine effects
-- [[VEGF]] — SASP growth factor with paracrine effects
+- [[VEGF]] — SASP growth factor with paracrine effects; drives angiogenesis to support tumor growth
 - [[Senolytic Therapy|Senolytics]] — eliminate source of paracrine senescence
 - [[Senomorphic Therapy]] — suppress SASP to reduce paracrine spread
 - [[Aging]] — paracrine senescence contributes to age-related tissue dysfunction
 - [[Cancer]] — paracrine senescence has both suppressive and promoting roles
 - [[Inflammaging]] — chronic low-grade inflammation propagated by paracrine senescence
+- [[IL-6]] — SASP cytokine that stimulates epithelial cell proliferation in a paracrine manner; drives cancer progression through JAK/STAT3 signaling
+- [[IL-8]] — SASP chemokine that recruits CXCR2+ cells to the tumor microenvironment; promotes paracrine invasion and angiogenesis
+- [[MMP1]] — SASP protease; paracrine degradation of type I collagen enables cancer cell invasion
+- [[MMP-3]] — SASP protease; paracrine ECM remodeling promotes cancer cell migration
+- [[MMP-9]] — SASP protease; paracrine basement membrane degradation enables cancer cell dissemination
+- [[HGF]] — SASP growth factor; paracrine stimulation of cancer cell proliferation and invasion
+- [[Amphiregulin]] — SASP growth factor; paracrine activation of EGFR signaling in prostate and breast cancer cells
+- [[Connective Tissue Growth Factor|CTGF]] — SASP matricellular protein; paracrine promotion of fibrosis and tumor progression
+- [[Tumor Microenvironment]] — Paracrine senescence reshapes the tumor microenvironment to support cancer growth
+- [[Prostate Cancer]] — SASP from senescent fibroblasts promotes prostate tumor progression through paracrine signaling
+- [[Breast Cancer]] — SASP from senescent fibroblasts promotes breast cancer cell proliferation through paracrine IL-6/IL-8
+- [[Pancreatic Cancer]] — SASP from senescent stellate cells promotes pancreatic cancer invasion through paracrine HGF/MMPs
+- [[p53]] — p53 restrains paracrine tumor-promoting effects; p53 loss amplifies SASP-driven cancer progression
 
 ## Linking Summary
 - New links added: [[Paracrine Senescence]], [[IL-1α]], [[TGFβ]], [[Notch]], [[IFITM3]], [[CCL2]], [[VEGF]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[CCL20]], [[DNA Damage Response]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[PI3K]], [[Akt]]

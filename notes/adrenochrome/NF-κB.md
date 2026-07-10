@@ -39,6 +39,15 @@ As described above, [[SIRT1]] deacetylates RelA at Lys310, reducing its transcri
 
 Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, sterile inflammation that drives age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and [[DNA Damage]]. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty. Therapeutic strategies targeting NF-κB, including [[SIRT1]] activators and [[RAGE]] antagonists, are under investigation to mitigate inflammaging and extend healthspan.
 
+## Connection to SASP
+
+NF-κB is the master transcriptional regulator of the [[Senescence-Associated Secretory Phenotype|SASP]]. In senescent cells, persistent [[DNA Damage|DNA damage]] signaling activates the IKK complex, leading to sustained NF-κB activation and transcription of SASP genes including [[IL-6]], [[IL-8]], [[TNFα]], [[MCP-1]], [[VEGF]], and matrix metalloproteinases. NF-κB-driven SASP expression is restrained by [[p53]], explaining why p53 loss amplifies the pro-tumorigenic effects of senescent cells. The NF-κB-SASP axis represents a key mechanism linking cellular senescence to [[Inflammaging|inflammaging]] and [[Cancer|cancer]] promotion.
+
+## Documents
+
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) establishing NF-κB as the master regulator of SASP gene expression. Shows NF-κB drives IL-6, IL-8, and other SASP factors, and that p53 restrains NF-κB-mediated SASP activation.
+
 ## Connections
 
 - [[Advanced Glycation End Products]]: It plays a key role in regulating the immune response to infection and is frequently activated by the interaction bet...
@@ -85,6 +94,17 @@ Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, steri
 - [[Insulin Resistance]]: This sustained activation promotes Insulin Resistance, [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and fr...
 - [[Atherosclerosis]]: This sustained activation promotes [[Insulin Resistance]], Atherosclerosis, [[Sarcopenia]], neurodegeneration, and fr...
 - [[Sarcopenia]]: This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], Sarcopenia, neurodegeneration, and fr...
+- [[Senescence-Associated Secretory Phenotype|SASP]]: NF-κB is the master transcriptional regulator of the SASP; drives IL-6, IL-8, VEGF, and MMP expression in senescent cells
+- [[Senescent Cells]]: NF-κB activation in senescent cells drives SASP gene expression; restrained by p53
+- [[p53]]: p53 restrains NF-κB-mediated SASP activation; p53 loss amplifies SASP and promotes cancer progression
+- [[VEGF]]: NF-κB drives VEGF transcription; SASP-driven angiogenesis promotes tumor growth
+- [[MMP1]]: NF-κB drives MMP1 expression; SASP proteases enable cancer cell invasion
+- [[MMP-3]]: NF-κB drives MMP-3 expression; SASP proteases remodel the extracellular matrix
+- [[MMP-9]]: NF-κB drives MMP-9 expression; SASP proteases degrade basement membranes
+- [[Tumor Microenvironment]]: NF-κB-driven SASP reshapes the tumor microenvironment to support cancer growth
+- [[Breast Cancer]]: NF-κB-driven SASP promotes breast cancer progression
+- [[Prostate Cancer]]: NF-κB-driven SASP promotes prostate cancer progression
+- [[Pancreatic Cancer]]: NF-κB-driven SASP promotes pancreatic cancer progression
 
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[RAGE]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]]

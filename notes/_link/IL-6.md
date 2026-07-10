@@ -45,27 +45,27 @@ List of documents that mention this entity
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review notes epigenetic regulators converge on the IL-6 locus: loss of H3K9me2/3 (KDM4 up, SUV39H1 down) and reduced H3K27me3 (JMJD3/KDM6B) at IL-6 promoters, plus H3K27ac/BRD4 and AP-1 at enhancers, derepress IL-6 as a core SASP cytokine.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) identifying IL-6 as the most prominent SASP cytokine, with direct control by persistent DNA-damage signaling (ATM/CHK2) independent of p53. Shows IL-6 drives paracrine tumor progression through JAK/STAT3 signaling in neighboring epithelial and endothelial cells.
+
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — IL-6 is a major SASP component
-- [[Senescent Cells]] — Produced by senescent cells
+- [[Senescence-Associated Secretory Phenotype|SASP]] — IL-6 is a major SASP component; the most prominent and robustly induced cytokine
+- [[Senescent Cells]] — Produced by senescent cells across all models of stress-induced and replicative senescence
 - [[Inflammation]] — IL-6 is a pro-inflammatory cytokine
 - [[Inflammaging]] — Contributes to chronic age-related inflammation
-- [[JAK]]/[[STAT3]] — IL-6 signals through the JAK/STAT3 pathway
-- [[NF-κB]] — Transcription of IL-6 is driven by NF-κB
+- [[JAK]]/[[STAT3]] — IL-6 signals through the JAK/STAT3 pathway; STAT3 amplifies SASP in autocrine loop
+- [[NF-κB]] — Transcription of IL-6 is driven by NF-κB; NF-κB is the master regulator of SASP
 - [[gp130]] — Signal-transducing receptor subunit for IL-6
 - [[MAPK]] / [[PI3K]] — Additional IL-6 downstream effector pathways
-- [[Epigenetic Alterations]] — IL-6 derepression is orchestrated by the senescent epigenome
-- [[KDM4]] — KDM4-mediated H3K9 loss at the IL-6 promoter promotes expression
-- [[EZH2]] — H3K27me3 at IL-6 is removed upon EZH2 inhibition to derepress SASP
-- [[BRD4]] — H3K27ac reader at IL-6 enhancers driving expression
-- [[AP-1]] — pioneer factor opening the IL-6 enhancer
-- [[Histone Variant]] — histone dynamics at the IL-6 locus
-- [[cGAS-STING Pathway]] — cGAS–STING–NF-κB activates IL-6
-- [[NF-κB]] — master transcription factor for IL-6
-- [[LINE-1]] — retrotransposon derepression feeds IL-6 via cGAS–STING
-- [[DNA Methylation]] — hypomethylation of IL-6-associated SASP genes
-- [[Senescence-Associated Heterochromatin Foci]] — IL-6 loci lie outside SAHF-mediated silencing
+- [[ATM]] — Persistent DNA damage signaling through ATM and CHK2 directly controls IL-6 secretion, independent of p53
+- [[p53]] — p53 restrains IL-6 expression; p53 loss amplifies SASP-driven cancer promotion
+- [[DNA Damage]] — DNA damage signaling is the primary trigger for IL-6 secretion in senescent cells
+- [[Tumor Microenvironment]] — IL-6 from senescent cells reshapes the tumor microenvironment to support cancer growth
+- [[Breast Cancer]] — IL-6 promotes breast cancer cell proliferation and survival through JAK/STAT3
+- [[Prostate Cancer]] — IL-6 is elevated in prostate cancer; promotes tumor progression
+- [[Pancreatic Cancer]] — IL-6 from senescent stellate cells promotes pancreatic cancer progression
+- [[Melanoma]] — IL-6 from senescent keratinocytes promotes melanoma progression
 
 ## Linking Summary
 

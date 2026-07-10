@@ -59,6 +59,9 @@ List of documents that mention this entity
     - In-depth explanation of SASP pathways and their role in senescent cells.
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review provides a comprehensive synthesis of senescent-cell biology, detailing how arrested cells characterized by SCAPs and SAHF produce the SASP via NF-κB, C/EBPβ, and cGAS–STING. It surveys the physiological and pathological implications of SASP-driven inflammaging across aging, fibrosis, cancer, and neurodegeneration, and discusses senolytic and senomorphic therapeutic strategies.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) detailing the cell-nonautonomous functions of senescent cells: how SASP factors (IL-6, IL-8, VEGF, MMPs) reshape the tissue microenvironment to promote cancer cell proliferation, invasion, angiogenesis, and immune evasion across breast, prostate, pancreatic, and skin cancers.
+
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
     - Fisetin selectively clears senescent T, NK, progenitor, and endothelial cells (but not macrophages/dendritic cells) in adipose tissue; clearance is cell-type specific and extends lifespan.
 
@@ -73,6 +76,22 @@ List of documents that mention this entity
 - [[Cancer]] — Senescent cells can both suppress and promote cancer
 - [[Senolytics]] — Target and clear senescent cells
 - [[Senomorphic Therapy]] — Modulate the SASP of senescent cells
+- [[IL-6]] — Core SASP cytokine; the most prominent and robustly secreted SASP factor; drives paracrine proliferation and inflammation
+- [[IL-8]] — Core SASP chemokine; recruits CXCR2+ immune cells and premalignant epithelial cells; promotes angiogenesis
+- [[VEGF]] — SASP growth factor that drives angiogenesis in the tumor microenvironment; secreted by senescent fibroblasts to support tumor vascularization
+- [[MMP1]] — SASP protease; degrades type I collagen to enable cancer cell invasion through the ECM
+- [[MMP-3]] — SASP protease; cleaves ECM components and activates pro-MMPs; promotes tissue remodeling and cancer cell migration
+- [[MMP-9]] — SASP protease; degrades type IV collagen in basement membranes; enables cancer cell dissemination
+- [[NF-κB]] — Master transcription factor that drives SASP gene expression; restrained by p53 in senescent cells
+- [[p53]] — Tumor suppressor that restrains pro-inflammatory SASP; p53 loss amplifies SASP and promotes cancer progression
+- [[DNA Damage]] — Persistent DNA damage signaling (ATM/CHK2) is the primary trigger for SASP induction
+- [[Paracrine Senescence]] — Senescent cells spread senescence to neighboring cells through SASP factors
+- [[Inflammaging]] — Accumulation of senescent cells drives chronic age-related inflammation
+- [[Tumor Microenvironment]] — Senescent cells reshape the tumor microenvironment through SASP secretion
+- [[Breast Cancer]] — Senescent fibroblasts in breast tissue secrete SASP factors (IL-6, IL-8, amphiregulin) that promote breast cancer progression
+- [[Prostate Cancer]] — Senescent fibroblasts secrete CTGF, amphiregulin, and SDF-1α that promote prostate tumor growth
+- [[Pancreatic Cancer]] — SASP from senescent stellate cells promotes pancreatic cancer invasion via HGF and MMPs
+- [[Melanoma]] — SASP from senescent keratinocytes recruits CXCR2+ melanocytes and promotes melanoma progression
 
 ## Linking Summary
 

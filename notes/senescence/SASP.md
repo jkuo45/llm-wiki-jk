@@ -246,6 +246,9 @@ List of documents that mention this entity
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|The SASP and its physiological and pathological implications]]
     - Comprehensive review covering SASP composition, dynamics, heterogeneity, biological functions, biomarkers, and senomorphic therapy. Nature Reviews Molecular Cell Biology (2024).
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) characterizing the SASP as a pro-inflammatory secretome that promotes tumor progression. Details SASP composition (IL-6, IL-8, GROα, VEGF, MMPs), regulatory mechanisms (p53 restraint, NF-κB activation, p16-independent SASP), and the dual role of senescence as both tumor suppressive and cancer-promoting via the SASP.
+
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - Various stress-induced senescence phenotypes differ from replicative senescence through specific senescence features including SASP composition.
 
@@ -301,11 +304,25 @@ List of documents that mention this entity
 - [[Autophagy Inducer]] — autophagy inducers suppress SASP and target immune aging
 - [[Immune System]] — SASP modulates immune cell phenotype and function
 - [[Atherosclerosis]] — chronic SASP promotes atherosclerosis
-- [[TNFA]] — pro-inflammatory SASP cytokine (TNF-α)
-- [[IL-1b]] — SASP interleukin
+- [[TNFA]] — pro-inflammatory SASP cytokine (TNF-α); activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
+- [[IL-1b]] — SASP interleukin; synergizes with IL-1α to drive IL-6/IL-8 transcription
 - [[Cytokines]] — class of SASP components
 - [[Chemokine]] — class of SASP components
 - [[Protease]] — class of SASP components
+- [[MMP1]] — SASP protease that degrades type I collagen; promotes cancer cell invasion and metastasis
+- [[MMP-3]] — SASP protease that cleaves ECM components and activates pro-MMPs; drives tissue remodeling and cancer invasion
+- [[MMP-9]] — SASP protease that degrades type IV collagen in basement membranes; enables cancer cell dissemination
+- [[HGF]] — SASP growth factor that inhibits cell competition-mediated cancer suppression; promotes cancer cell proliferation
+- [[GM-CSF]] — SASP factor that stimulates myeloid cell differentiation; recruits immunosuppressive MDSCs to the tumor microenvironment
+- [[CXCR2]] — receptor for CXCL1/CXCL8 SASP chemokines; mediates paracrine recruitment of premalignant epithelial cells
+- [[uPA]] — SASP protease that converts plasminogen to plasmin; initiates proteolytic cascade enabling cancer cell invasion
+- [[PAI-1]] — SASP factor that inhibits uPA; creates a uPA/PAI-1 axis that regulates ECM remodeling and fibrosis
+- [[Fibronectin]] — SASP-associated ECM protein; provides scaffold for cancer cell adhesion and migration
+- [[Prostaglandin E2|PGE2]] — lipid SASP mediator that promotes angiogenesis and immunosuppression in the tumor microenvironment
+- [[COX-2]] — enzyme that synthesizes PGE2; upregulated in senescent cells and drives pro-inflammatory SASP
+- [[Amphiregulin]] — SASP growth factor that activates EGFR signaling; promotes prostate and breast cancer cell proliferation
+- [[Connective Tissue Growth Factor|CTGF]] — SASP matricellular protein that promotes fibrosis and tumor progression
+- [[IGFBP]] — SASP factor family that modulates IGF signaling; context-dependent pro- or anti-tumorigenic effects
 
 ## Linking Summary
 

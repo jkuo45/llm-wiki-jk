@@ -101,9 +101,13 @@ List of documents that mention this entity
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review synthesizes how the senescent epigenetic landscape—A/B compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, and retrotransposon derepression—orchestrates SASP expression, with epigenetic modulators acting as senomorphics.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) framing senescence through the lens of antagonistic pleiotropy: initially tumor-suppressive but paradoxically cancer-promoting through the SASP. Details how p53 restrains the SASP while p16 induces arrest without SASP.
+
 ## Connections
 - [[Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
 - [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
+- [[Antagonistic Pleiotropy]]: The evolutionary theory explaining why senescence is both beneficial (tumor suppression) and deleterious (SASP-driven cancer promotion and aging).
 - [[p53]]: A central mediator of the senescence response.
 - [[Cellular Reprogramming]]: Senescence must be bypassed or suppressed for successful reprogramming.
 - [[Autophagy]]: Often plays a dual role in regulating or being regulated by the senescent state.

@@ -95,6 +95,9 @@ List of documents that mention this entity
   - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Reviews the dual role of senescence in cancer: tumor suppression through cell cycle arrest and immune surveillance vs. tumor promotion through chronic SASP-driven inflammation. The cGAS-STING pathway is identified as a key regulator of SASP in the cancer microenvironment, with focus on obesity-associated HCC and KRAS-LKB1 mutant lung cancer.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) detailing how the SASP promotes cancer progression across multiple tissue types: breast (GROα-stimulated proliferation), prostate (amphiregulin, SDF-1α), pancreatic (HGF-driven invasion), and melanoma (CXCR-2 ligands stimulating rare premalignant cells). Demonstrates p53 as a cell-nonautonomous tumor suppressor that restrains the SASP.
+
 
 ## Connections
 - [[Aging]] — Primary risk factor; shared epigenetic mechanisms
@@ -116,6 +119,22 @@ List of documents that mention this entity
 - **Molecular Targets**: Many therapeutic strategies target [[Integrins]] using motifs like the [[RGD peptide]] or the [[CendR motif]] to enhance drug delivery.
 - **Cellular Environment**: The [[ECM]] (Extracellular Matrix) and proteins like [[Fibronectin]], [[Fibrinogen]], and [[Vitronectin]] play crucial roles in tumor structure and signaling.
 - **Novel Mechanisms**: Agents like [[Ivermectin]] may affect [[Glutamate-gated Cl- channels]] or [[GABA]] receptors, suggesting complex mechanisms beyond traditional pathways.## Additional Content from Topic Directory
+- [[NF-κB]] — Master regulator of SASP gene expression in senescent cells; drives transcription of IL-6, IL-8, VEGF, and MMPs that promote cancer progression
+- [[p53]] — Tumor suppressor that restrains SASP; p53 loss amplifies SASP-driven cancer promotion
+- [[IL-6]] — Core SASP cytokine; drives cancer cell proliferation through JAK/STAT3 signaling; elevated in breast, prostate, and pancreatic cancers
+- [[IL-8]] — Core SASP chemokine; recruits CXCR2+ cells to the tumor microenvironment; promotes angiogenesis and invasion
+- [[VEGF]] — SASP growth factor; drives tumor angiogenesis; therapeutic target for anti-angiogenic therapy
+- [[MMP1]] — SASP protease; degrades type I collagen to enable cancer cell invasion
+- [[MMP-3]] — SASP protease; cleaves ECM components; promotes cancer cell migration
+- [[MMP-9]] — SASP protease; degrades basement membranes; enables cancer cell dissemination
+- [[Tumor Microenvironment]] — SASP reshapes the tumor microenvironment to support cancer growth
+- [[Metastasis]] — SASP proteases (MMPs) and growth factors (VEGF, HGF) enable cancer cell dissemination
+- [[Angiogenesis]] — SASP-driven VEGF and PGE2 promote new blood vessel formation to feed tumors
+- [[Inflammation]] — Chronic SASP-driven inflammation creates a pro-tumorigenic microenvironment
+- [[Breast Cancer]] — Senescent fibroblasts secrete IL-6, IL-8, and amphiregulin that promote breast cancer progression
+- [[Prostate Cancer]] — Senescent fibroblasts secrete CTGF, amphiregulin, and SDF-1α that promote prostate tumor growth
+- [[Pancreatic Cancer]] — SASP from senescent stellate cells promotes pancreatic cancer invasion via HGF and MMPs
+- [[Melanoma]] — SASP from senescent keratinocytes recruits CXCR2+ melanocytes and promotes melanoma progression
 
 # Cancer
 
