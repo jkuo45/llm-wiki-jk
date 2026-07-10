@@ -78,6 +78,21 @@ The ratio itself is dynamically regulated:
 - **PGC-1α** drives mitochondrial biogenesis, increasing SOD2 expression proportionally to the existing SIRT3/SIRT4 ratio.
 - **Aging** is associated with declining SIRT3 activity and rising SIRT4, narrowing the hormetic window and increasing vulnerability to mitochondrial stressors.
 
+## Documents
+
+List of documents in the wiki that mention this entity
+
+  - [[outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00|Adrenochrome (MB, AG) Protocol Outline]]
+    - Noted as a predictive biomarker for individual responsiveness to the MRR mitohormetic pulse, setting the hormetic window via MnSOD regulation.
+  - [[_document_ - MRR - mitohormesis|MRR Mitohormesis (Gemini analysis)]]
+    - Cited as a predictive biomarker determining whether the adrenochrome/carbazochrome-derived signal is adaptive or toxic.
+  - [[_document_ - MRR - mitohormesis, MB, NAD|MRR Mitohormesis (MB, NAD)]]
+    - Listed among MRR dosing rationale as a biomarker for individual hormetic responsiveness.
+  - [[_document_ - combo therapy (MRR, SRAC, GOPS) gemini|Combo Therapy (MRR, SRAC, GOPS) Gemini]]
+    - Described as a predictive biomarker for the MRR pulse's adaptive vs. toxic outcome.
+  - [[task_output_research-scientist_combo_therapy_11_JUN_2026|Research-Scientist Combo Therapy Output]]
+    - Flagged as a biomarker for individual responsiveness to the MRR mitohormetic trigger.
+
 ## Connections
 
 - [[SIRT3]] — Deacetylates and activates MnSOD at K68/K122
@@ -94,7 +109,8 @@ The ratio itself is dynamically regulated:
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with SIRT3 axis
 - [[Caloric Restriction]] — Shifts ratio toward SIRT3 dominance
 - [[Adrenochrome]] — Redox-cycling compound whose superoxide output is processed by ratio-determined MnSOD activity
-- [[Redox Vaccination]] — Adaptive response enabled by ratio-dependent MnSOD induction
+  - [[Redox Vaccination]] — Adaptive response enabled by ratio-dependent MnSOD induction
+  - [[Hormetic Window]] — Directly determined by the ratio; the relevant biomarker threshold for adrenochrome-derived hormesis
 
 ## Linking Summary
 - New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Adrenochrome]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]

@@ -12,6 +12,9 @@ _[pimagedine](https://pubmed.ncbi.nlm.nih.gov/14568006/)_
 
 **MRR (Mitohormetic Redox Relay, mitochondria)** - A mechanism where mild oxidative or metabolic stress triggers adaptive, protective responses within mitochondria, enhancing cellular resilience and longevity.
 
+> [!tip] Predictive biomarker — [[SIRT3/SIRT4 Ratio]]
+> The [[SIRT3/SIRT4 Ratio]] (mitochondrial sirtuin redox dial) is a predictive **biomarker** for individual responsiveness to adrenochrome-derived hormesis: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance versus retention, and thus whether the MRR pulse is adaptive or toxic.
+
 **GOPS (Glycation and AGEs, ER, peroxisomes)** - Targets the accumulation of Advanced Glycation End-products (AGEs) and limits oxidative stress caused by protein glycation to mitigate structural and functional decline in tissues.
 
 **SRAC (Senescent Cells, lysosomes, SNC's)** - Focuses on the targeted clearance (senolysis) or modulation of senescent cells to reduce the secretion of pro-inflammatory factors (SASP), rejuvenating tissue microenvironments.

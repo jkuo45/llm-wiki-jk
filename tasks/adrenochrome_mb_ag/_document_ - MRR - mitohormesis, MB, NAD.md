@@ -68,6 +68,7 @@ The protocol aims for a controlled "pulse" of mitochondrial matrix superoxide to
 
 - Pulse → Adaptation → Cleanup: Low-dose carbazochrome creates a mitohormetic ROS signal → Nrf2 + SIRT1/AMPK/PGC-1α (fueled by NAD+ precursors) → biogenesis/antioxidant upregulation. Methylene blue manages electrons to keep it controlled. Urolithin A clears damaged mitochondria post-pulse.
 - Dosing strategy: Aims for signaling specificity (low carbazochrome avoids hemostatic/vascular dominance). Timing (e.g., pulsed vs. daily) isn't specified but would matter for hormesis.
+- **Predictive biomarker:** The [[SIRT3/SIRT4 Ratio]] serves as a **biomarker** for individual responsiveness to the MRR pulse — it sets the [[Hormetic Window]] by governing MnSOD-mediated superoxide clearance vs. retention, determining whether the carbazochrome/adrenochrome signal is adaptive or toxic.
 ### Strengths of the Logic
 
 Aligns with known biology of mitohormesis, redox signaling, and mitochondrial quality control. Individual agents target complementary nodes.

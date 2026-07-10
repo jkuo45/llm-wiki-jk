@@ -38,6 +38,9 @@ The **[[Mitohormetic Redox-Relay]] (MRR)** is a highly structured and biochemica
 - **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular [[NADH]]/[[NAD⁺|NAD⁺]] ratio toward [[NAD⁺|NAD⁺]].
 - **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly [[NAD⁺|NAD⁺]]-dependent. By priming the system with [[NAD⁺|NAD⁺]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out [[PGC-1α]]/[[SIRT1]]-driven [[Mitochondrial Biogenesis]].
 
+> [!tip] Predictive biomarker — [[SIRT3/SIRT4 Ratio]]
+> The [[SIRT3/SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the carbazochrome/adrenochrome-derived signal is adaptive or toxic.
+
 #### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)
 
 - **The Science:** [[Autophagy]] and selective [[Mitophagy]] are essential for clearing dysfunctional [[Mitochondria]] that fail to recover from stress.
