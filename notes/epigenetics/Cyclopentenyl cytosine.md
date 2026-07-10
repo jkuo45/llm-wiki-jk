@@ -2,10 +2,16 @@
 title: Cyclopentenyl cytosine
 description: Cyclopentenyl cytosine (CPEC) is a synthetic cytidine analog and potent inhibitor of CTP synthetase, depleting pyrimidine pools and inducing cellular senescence and apoptosis in cancer and viral-infected cells.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-07-10
 tags:
   - chemical-compound
-aliases: []
+  - nucleoside-analog
+  - antimetabolite
+  - senescence
+  - anticancer
+aliases:
+  - CPEC
+  - Cyclopentenylcytosine
 ---
 
 # Cyclopentenyl cytosine
@@ -22,6 +28,14 @@ CPEC belongs to the broader class of [[Nucleoside Analog]] antimetabolites. Its 
 - **Nucleotide pool imbalance**: Depletion of CTP and downstream dCTP disrupts DNA replication and RNA transcription fidelity.
 - **Senescence and apoptosis induction**: Sustained pyrimidine starvation activates DNA damage responses (including [[TP53]]-associated checkpoints), leading to growth arrest, [[Senescence]], and, at higher concentrations, [[Apoptosis]].
 - **Antiviral activity**: Viruses with high pyrimidine demand (e.g., cytomegalovirus, hepatitis B) are selectively vulnerable because they rely heavily on host or viral nucleotide metabolism.
+
+## Cellular Effects and Senescence
+
+Exposure of cultured cancer cells and primary fibroblasts to CPEC results in sustained CTP depletion, leading to replication stress, S-phase arrest, and activation of the DNA damage checkpoint. CPEC induces a stable senescent phenotype characterized by enlarged flattened morphology, senescence-associated β-galactosidase (SA-β-gal) activity, upregulation of [[TP53]] and [[CDKN1A|p21]]^WAF1/CIP1, and secretion of [[SASP|senescence-associated secretory phenotype]] factors. The p53-p21 axis is a primary effector of CPEC-induced senescence, as p53-null cells resist both cell cycle arrest and the senescent phenotype following CPEC treatment.
+
+## Preclinical Anticancer Activity
+
+CPEC has demonstrated antiproliferative activity against a range of human cancer cell lines, including breast, lung, colon, and leukemia models, with IC50 values in the nanomolar to low micromolar range. In murine xenograft models, CPEC suppressed tumor growth and prolonged survival, though clinical development has been limited by dose-dependent toxicities including myelosuppression and gastrointestinal epithelial damage.
 
 ## Physiological and Pathological Relevance
 
@@ -48,9 +62,14 @@ List of documents that mention this entity
 - [[Senescence]] - cellular state induced by pyrimidine starvation.
 - [[Apoptosis]] - death pathway engaged at higher doses.
 - [[TP53]] - tumor suppressor linking nucleotide stress to arrest.
+- [[DNA synthesis]] - impaired by CTP/dCTP depletion.
+- [[RNA synthesis]] - transcription fidelity compromised by pyrimidine imbalance.
+- [[Antimetabolite]] - mechanistic class of CPEC as a metabolic antagonist.
+- [[Replication stress]] - triggered by nucleotide depletion and S-phase arrest.
+- [[SASP|Senescence-Associated Secretory Phenotype]] - downstream secretome induced by CPEC-driven senescence.
 
 ## Linking Summary
 
-- New links added: [[CTP Synthetase]], [[Nucleoside Analog]], [[Senescence]], [[Apoptosis]], [[TP53]], [[Cancer]], [[Chemotherapy]]
-- Suggested new entity notes to create: [[CTP Synthetase]], [[Uridine Rescue]]
-- Strong connections to strengthen: [[Cyclopentenyl cytosine]] ↔ [[CTP Synthetase]]
+- New links added: [[CTP Synthetase]], [[Nucleoside Analog]], [[Senescence]], [[Apoptosis]], [[TP53]], [[Cancer]], [[Chemotherapy]], [[DNA synthesis]], [[RNA synthesis]], [[Antimetabolite]], [[Replication stress]], [[SASP|Senescence-Associated Secretory Phenotype]]
+- Suggested new entity notes to create: [[CTP Synthetase]], [[Uridine Rescue]], [[Uridine-Cytidine Kinase 2]], [[Senescence-Associated β-Galactosidase]]
+- Strong connections to strengthen: [[Cyclopentenyl cytosine]] ↔ [[CTP Synthetase]], [[Cyclopentenyl cytosine]] ↔ [[Senescence]], [[Cyclopentenyl cytosine]] ↔ [[Antimetabolite]]
