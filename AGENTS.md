@@ -79,8 +79,6 @@ When marking up wiki links in the ingested document, apply these rules systemati
 
 ### Semantic Metadata & Properties (Open Knowledge Format, OKF)
 
-When creating or updating a note, include the following frontmatter block. Refer to `entity _type_1` schema for category values.
-
 #### **Frontmatter**
 
 - **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
@@ -152,7 +150,7 @@ List of documents in the wiki that mention this entity
 
 ```
 
-## Orphan Link Resolution (on user request):
+## Orphan Link Resolution:
 
 Maintain link integrity by performing periodic audits:
 
@@ -169,7 +167,7 @@ Maintain link integrity by performing periodic audits:
   - **Triple-Bracket Errors**: Fix malformed links like `[[[rapamycin]]` → `[[Rapamycin]]` (remove the extra opening bracket).
   - **Composite Entity Splitting**: Detect single wiki links bundling multiple distinct entities via `/`, `&`, or parenthetical groupings (e.g., `[[IIS (DAF-16/FOXO)]]`). Split into separate `[[Entity1]]`/`[[Entity2]]` links. Keep as-single-linked cases where `/` denotes the same entity under alternative names (e.g., `[[p62/SQSTM1]]` → `[[p62]]`, `[[Smac/DIABLO]]` → `[[Smac DIABLO]]`). Handle piped display-text variants in the same pass.
 
-## Overlapping Link Resolution (on user request):
+## Overlapping Link Resolution:
 
 - **Directory structure clarification**: `notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
 - **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist.
