@@ -6,6 +6,7 @@ updated: 2026-07-07
 tags:
   - scientific-concept
 aliases: []
+protected: true
 ---
 
 # Pathogenic Threshold of Neuromelanin

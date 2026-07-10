@@ -6,6 +6,7 @@ updated: 2026-07-09
 tags:
   - medical-condition
 aliases: []
+protected: true
 ---
 
 # Hepatocellular Carcinoma

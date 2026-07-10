@@ -11,6 +11,7 @@ tags:
   - nitrative-stress
   - chemical-class
 aliases: [RNS, nitrogen free radicals]
+protected: true
 ---
 # Reactive Nitrogen Species
 

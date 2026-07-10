@@ -8,6 +8,7 @@ updated: 2026-07-06
 tags:
   - receptor
 aliases: []
+protected: true
 ---
 
 # Triple-negative Breast Cancer

@@ -9,6 +9,7 @@ tags:
   - methylation
   - biological-process
 aliases: []
+protected: true
 ---
 
 # DNA Methylation

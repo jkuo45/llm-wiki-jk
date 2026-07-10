@@ -8,6 +8,7 @@ updated: 2024-07-04
 tags:
   - biological-molecule
 aliases: []
+protected: true
 ---
 
 # DNAmGrimAge

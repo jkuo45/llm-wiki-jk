@@ -12,6 +12,7 @@ tags:
   - enzyme
   - nad+
 aliases: [NOX, NADPH oxidase complex, NOX family]
+protected: true
 ---
 # NADPH Oxidase
 

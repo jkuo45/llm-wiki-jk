@@ -11,6 +11,7 @@ tags:
   - uric-acid
   - enzyme
 aliases: [XO, xanthine oxidoreductase, XOR]
+protected: true
 ---
 # Xanthine Oxidase
 

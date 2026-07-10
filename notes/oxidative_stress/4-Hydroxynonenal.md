@@ -8,6 +8,7 @@ updated: 2026-07-04
 tags:
   - chemical-compound
 aliases: [4-HNE, 4-hydroxy-2-nonenal, HNE]
+protected: true
 
 ---
 

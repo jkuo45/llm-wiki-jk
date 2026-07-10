@@ -6,6 +6,7 @@ updated: 2026-07-07
 tags:
   - medical-condition
 aliases: []
+protected: true
 ---
 
 # Prostate Cancer

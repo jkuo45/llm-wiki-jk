@@ -12,6 +12,7 @@ tags:
 aliases:
   - Inducible Changes in the Epigenome
   - ICE mice
+protected: true
 ---
 
 # ICE Mouse

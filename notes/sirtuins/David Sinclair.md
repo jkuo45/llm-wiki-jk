@@ -9,6 +9,7 @@ updated: 2026-07-07
 tags:
   - organization
 aliases: [David A. Sinclair, Sinclair]
+protected: true
 ---
 
 # David Sinclair

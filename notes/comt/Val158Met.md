@@ -8,6 +8,7 @@ updated: 2026-07-04
 tags:
   - gene
 aliases: [rs4680, COMT Val158Met]
+protected: true
 
 ---
 

@@ -9,6 +9,7 @@ tags:
   - chemical-compound
 aliases: [SirReal2, SirReal-2]
 source: s41392-022-01257-8
+protected: true
 ---
 
 

@@ -9,6 +9,7 @@ tags:
   - redox-biology
   - chemical-class
 aliases: [radicals, free radical species]
+protected: true
 ---
 
 # Free Radicals

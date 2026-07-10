@@ -11,6 +11,7 @@ tags:
   - dna-damage
   - biological-molecule
 aliases: [•OH, hydroxyl radical, OH radical]
+protected: true
 ---
 # Hydroxyl Radicals
 

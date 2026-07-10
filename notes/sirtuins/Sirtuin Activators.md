@@ -14,6 +14,7 @@ source: #
 aliases:
   - Sirtuin-activating compounds (class)
   - STACs
+protected: true
 ---
 
 # Sirtuin Activators

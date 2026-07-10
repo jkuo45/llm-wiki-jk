@@ -15,6 +15,7 @@ aliases:
   - Leuco-aminochrome
   - Leucoaminochrome
   - Leuko-adrenochrome
+protected: true
 ---
 
 # Leukoaminochrome

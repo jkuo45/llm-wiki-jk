@@ -8,6 +8,7 @@ updated: 2026-07-03
 tags:
   - chemical-compound
 aliases: [UBCS039]
+protected: true
 
 
 ---

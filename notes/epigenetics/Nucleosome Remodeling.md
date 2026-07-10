@@ -8,6 +8,7 @@ updated: 2024-07-04
 tags:
   - biological-process
 aliases: []
+protected: true
 ---
 
 # Nucleosome Remodeling

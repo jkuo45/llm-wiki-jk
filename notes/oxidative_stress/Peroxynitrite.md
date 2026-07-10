@@ -11,6 +11,7 @@ tags:
   - nitrative-stress
   - biological-molecule
 aliases: [ONOO−, peroxynitrite anion]
+protected: true
 ---
 # Peroxynitrite
 

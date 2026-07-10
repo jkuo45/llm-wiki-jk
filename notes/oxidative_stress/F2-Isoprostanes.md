@@ -7,6 +7,7 @@ tags:
   - chemical-class
   - oxidative-stress
 aliases: [F2-IsoPs, 8-iso-PGF2α, 15-F₂t-IsoP, Isoprostanes]
+protected: true
 ---
 
 # F2-Isoprostanes

@@ -9,6 +9,7 @@ tags:
   - lipid-peroxidation
   - biological-molecule
 aliases: [MDA]
+protected: true
 ---
 
 # Malondialdehyde

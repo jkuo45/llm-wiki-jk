@@ -9,6 +9,7 @@ tags:
   - protein
   - epigenetics
 aliases: []
+protected: true
 ---
 
 # Histone Variant

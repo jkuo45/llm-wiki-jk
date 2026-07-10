@@ -8,6 +8,7 @@ tags: [biological-process, cancer, tumor-development]
 aliases: [Carcinogenesis, Tumor Formation, Neoplastic Transformation, Oncogenesis]
 url: #
 source: #
+protected: true
 ---
 
 # Tumorigenesis

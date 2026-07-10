@@ -13,6 +13,7 @@ aliases:
   - yeast Sir2
   - ScSir2
   - MAR1
+protected: true
 ---
 
 

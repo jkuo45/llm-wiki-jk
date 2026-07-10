@@ -8,6 +8,7 @@ updated: 2026-07-06
 tags:
   - scientific-concept
 aliases: [SIRT3/SIRT4 balance, mitochondrial sirtuin ratio, Sirtuin redox dial]
+protected: true
 
 ---
 
