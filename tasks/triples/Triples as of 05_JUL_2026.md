@@ -1,6 +1,4 @@
 
-## triples overview (as of 05_JUL_2026)
-
 ---
 
 > - Mechanistic extraction — what it produces, predicate types, use cases, and what 80–99% means
