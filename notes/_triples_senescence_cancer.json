@@ -1,0 +1,3754 @@
+[
+  {
+    "subject": "Senescence",
+    "predicate": "is_a_type_of",
+    "object": "Cell Cycle Arrest",
+    "context": "Senescence is a state of permanent, proliferation-competent cell-cycle arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_induced_by",
+    "object": "DNA Damage",
+    "context": "DNA damage stabilizes p53 and activates DDR signaling that induces senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_induced_by",
+    "object": "Oxidative Stress",
+    "context": "Reactive oxygen species and oxidative insults can provoke stress-induced senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_induced_by",
+    "object": "Telomere Attrition",
+    "context": "Progressive telomere shortening triggers replicative senescence at the Hayflick limit.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_induced_by",
+    "object": "Oncogene Activation",
+    "context": "Activated oncogenes such as RAS and BRAF generate replicative stress and DDR signaling triggering OIS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "produces",
+    "object": "SASP",
+    "context": "The SASP is the major secretory output of senescent cells, mediating paracrine and systemic effects.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "forms",
+    "object": "SAHF",
+    "context": "SAHF are DAPI-dense heterochromatin structures assembled in senescent human cells to silence proliferation genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_enforced_by",
+    "object": "p53/p21 Pathway",
+    "context": "DNA damage stabilizes p53 which transcriptionally induces p21, inhibiting CDK2 and enforcing G1/S arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_enforced_by",
+    "object": "p16/Rb Pathway",
+    "context": "p16 inhibits CDK4/CDK6, maintaining Rb in hypophosphorylated growth-suppressive state, stabilizing arrest long-term.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "inhibits",
+    "object": "E2F",
+    "context": "Both p53/p21 and p16/Rb axes converge on suppression of E2F target genes required for S-phase entry.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_characterized_by",
+    "object": "Lamin B1 Loss",
+    "context": "Senescent cells show reduced Lamin B1, detaching lamina-associated domains from the nuclear periphery.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "accumulates_with",
+    "object": "Aging",
+    "context": "Senescent cell burden rises exponentially in multiple tissues with age, driving age-related dysfunction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "suppresses_tumor",
+    "object": "Cancer",
+    "context": "Senescence halts proliferation of damaged and oncogene-stressed cells, acting as an initial barrier to cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "can_promote",
+    "object": "Cancer",
+    "context": "In established tumors, chronic SASP from senescent cells can paradoxically promote cancer progression.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_therapeutic_target_of",
+    "object": "Senolytics",
+    "context": "Genetic or pharmacological clearance of p16-positive senescent cells in mice delays age-related dysfunction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "is_modulated_by",
+    "object": "Senomorphics",
+    "context": "Senomorphics suppress the deleterious SASP of senescent cells without eliminating the cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence",
+    "predicate": "blocks",
+    "object": "Cellular Reprogramming",
+    "context": "Senescence is a major barrier to induced pluripotency; OSKM factors can trigger p53-mediated senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_a_type_of",
+    "object": "Secretory Phenotype",
+    "context": "The SASP is a hypersecretory state characterized by upregulation of hundreds of factors including cytokines, chemokines, growth factors, and proteases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "NF-\u03baB",
+    "context": "NF-\u03baB is the master regulator of SASP interleukins, cytokines, chemokines, and growth factors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "cGAS-STING Pathway",
+    "context": "The cGAS-STING complex promotes SASP through interferon signaling, activated by cytoplasmic DNA.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "mTOR",
+    "context": "mTOR promotes SASP protein production through translation of IL-1\u03b1 and stabilization of SASP transcripts via MK2/ZFP36L1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "p38 MAPK",
+    "context": "p38 MAPK was the first protein shown to activate NF-\u03baB-mediated SASP independent of DDR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "JAK-STAT3",
+    "context": "JAK-STAT3 interacts with p38 MAPK and mTOR to promote pro-inflammatory SASP and age-related frailty.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_restrained_by",
+    "object": "p53",
+    "context": "In most contexts p53 restrains pro-inflammatory SASP factors; loss of p53 amplifies SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "p16",
+    "context": "p16 overexpression induces a DDR-free senescent state with a unique SASP profile including IGFBP3 and ISG15.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_induced_by",
+    "object": "LINE-1",
+    "context": "Cytoplasmic LINE1 cDNA triggers interferon signaling, reinforcing SASP factor production in deep senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_induced_by",
+    "object": "Cytoplasmic Chromatin Fragments",
+    "context": "CCF elicit DNA damage responses and activate cGAS-STING-NF-\u03baB to induce SASP in recipient cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Rapamycin",
+    "context": "Rapamycin reduces pro-inflammatory SASP by interfering with mTOR and p38 MAPK-IL-1\u03b1-NF-\u03baB pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Metformin",
+    "context": "Metformin inhibits NF-\u03baB signaling in fibroblasts, macrophages, and senescent endothelial cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Resveratrol",
+    "context": "Resveratrol inhibits pro-inflammatory SASP cytokines via SIRT1/NF-\u03baB.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Apigenin",
+    "context": "Apigenin reduces breast cancer aggressiveness by inhibiting NF-\u03baB-dependent SASP factors and CXCL10.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Nutlin 3a",
+    "context": "Nutlin 3a suppresses pro-inflammatory SASP by stabilizing p53 via MDM2 inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "BRD4",
+    "context": "BRD4 is recruited to senescence-activated enhancers, contributing to SASP factor expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "KDM4",
+    "context": "KDM4 reduces H3K9 and H3K36 methylation, promoting SASP factor expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_repressed_by",
+    "object": "EZH2",
+    "context": "EZH2 (PRC2) represses pro-inflammatory SASP factors including CCL2, CXCL9, CXCL10.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_repressed_by",
+    "object": "SIRT1",
+    "context": "SIRT1 reduces H3K9 and H4K16 acetylation in IL-6 and IL-8 promoter regions, suppressing SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "AP-1",
+    "context": "AP-1 is a pioneer factor that opens SASP enhancers and drives NF-\u03baB-regulated SASP genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "drives",
+    "object": "Paracrine Senescence",
+    "context": "SASP factors including IL-1\u03b1, TGF\u03b2, VEGF, CCL2 autocrinally reinforce and induce paracrine arrest in neighbouring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "drives",
+    "object": "Inflammaging",
+    "context": "Chronic SASP from accumulated senescent cells is a major driver of age-related sterile inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "recruits",
+    "object": "Natural Killer Cells",
+    "context": "SASP chemokines CCL2, CCL5, CXCL1, CXCL10 recruit NK cells for senescent cell clearance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "recruits",
+    "object": "Macrophages",
+    "context": "SASP factors promote macrophage migration and modulate macrophage phenotype toward pro-inflammatory M1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": "VEGF secreted as part of SASP stimulates angiogenesis in the cancer microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "promotes",
+    "object": "Fibrosis",
+    "context": "Chronic SASP promotes fibrosis through TGF\u03b2-mediated pro-fibrotic signaling and MMP-mediated matrix remodeling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "IL-6",
+    "context": "IL-6 is a prototypical SASP cytokine, essential mediator of paracrine effects and biomarker of aging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "IL-8",
+    "context": "IL-8 is a prototypical SASP chemokine, essential mediator of paracrine effects of senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "IL-1\u03b1",
+    "context": "IL-1\u03b1 is an apical SASP amplifier; cleavage by caspases is essential for SASP regulatory functions.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "TGF\u03b2",
+    "context": "TGF\u03b2 is a SASP factor that promotes paracrine senescence, fibrosis, and immune-suppressive conditions.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "VEGF",
+    "context": "VEGF is a SASP growth factor that stimulates angiogenesis in the cancer microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "MMP-3",
+    "context": "MMP-3 is a SASP matrix metalloproteinase associated with tissue damage and cancer cell metastasis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "CCL2",
+    "context": "CCL2 (MCP-1) is a SASP chemokine regulated by IL-1\u03b1 and IL-1\u03b2, strong chemoattractant for monocytes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "TNF\u03b1",
+    "context": "TNF\u03b1 is a pro-inflammatory SASP cytokine that contributes to immune modulation and inflammaging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "GATA4",
+    "context": "GATA4 activates NF-\u03baB via TRAF3IP2 and promotes pro-inflammatory SASP through inhibition of autophagy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_regulated_by",
+    "object": "METTL3/METTL14",
+    "context": "The METTL3-METTL14 m6A-methyltransferase complex promotes SASP factor expression by enhancer-promoter looping.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Ruxolitinib",
+    "context": "Ruxolitinib is a JAK1/2 inhibitor that reduces SASP cytokines IL-6 and IL-8 in senescent fibroblasts.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "is_suppressed_by",
+    "object": "Lamivudine",
+    "context": "Lamivudine (3TC) is a nucleoside reverse transcriptase inhibitor that inhibits LINE1 propagation, reducing cGAS-STING-NF-\u03baB SASP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "are_a_type_of",
+    "object": "Senescence",
+    "context": "Senescent cells are cells that have entered a state of stable, essentially irreversible cell-cycle arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "produce",
+    "object": "SASP",
+    "context": "Senescent cells are the producers of the SASP, which mediates most non-cell-autonomous effects.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "resist",
+    "object": "Apoptosis",
+    "context": "Senescent cells upregulate SCAPs including Bcl-2 family proteins and PI3K/Akt survival signaling, resisting apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "have_type",
+    "object": "SCAPs",
+    "context": "SCAPs are the pro-survival network that makes senescent cells resistant to apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "are_cleared_by",
+    "object": "Senolytics",
+    "context": "Senolytics selectively induce apoptosis in senescent cells by disabling SCAPs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "are_modulated_by",
+    "object": "Senomorphics",
+    "context": "Senomorphics suppress the SASP of senescent cells without eliminating the cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "accumulate_with",
+    "object": "Aging",
+    "context": "Senescent cells accumulate with age and correlate with age-related tissue dysfunction and the epigenetic clock.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "exhibit",
+    "object": "SAMD",
+    "context": "Senescent cells exhibit senescence-associated mitochondrial dysfunction including reduced OXPHOS and elevated ROS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "are_cleared_by",
+    "object": "Natural Killer Cells",
+    "context": "NK cells directly kill senescent cells through NKG2D receptor recognition of stress ligands.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "are_cleared_by",
+    "object": "Macrophages",
+    "context": "Macrophages phagocytose senescent cells; SASP factors polarize them toward pro-inflammatory M1 phenotype.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "are_cleared_by",
+    "object": "Senescence Surveillance",
+    "context": "Senescence surveillance is the immune-mediated clearance of senescent cells serving as a fail-safe tumor suppression mechanism.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "promote",
+    "object": "Inflammaging",
+    "context": "Accumulation of senescent cells and their SASP drives chronic sterile inflammation with aging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "target",
+    "object": "SCAPs",
+    "context": "Senolytics disable SCAPs (BCL-2 family, PI3K/Akt) that sustain senescent cells, triggering apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "clear",
+    "object": "Senescent Cells",
+    "context": "Senolytics selectively kill senescent cells while sparing proliferating and quiescent healthy cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "reduce",
+    "object": "SASP",
+    "context": "By eliminating senescent cells, senolytics remove the source of SASP, reducing the secretory burden.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "reduce",
+    "object": "Inflammaging",
+    "context": "Senolytics alleviate inflammaging by clearing the senescent cells that produce chronic SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "alleviate",
+    "object": "Aging",
+    "context": "Clearing senescent cells in aged rodents improves healthspan and alleviates multiple age-related diseases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "include",
+    "object": "Dasatinib",
+    "context": "Dasatinib is a tyrosine kinase inhibitor that is part of the D+Q senolytic combination.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "include",
+    "object": "Quercetin",
+    "context": "Quercetin is a flavonoid that inhibits BCL-2 family proteins and PI3K, part of D+Q combination.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "include",
+    "object": "Fisetin",
+    "context": "Fisetin is the most potent flavonoid senolytic in a 10-compound screen, extending lifespan in aged mice.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "include",
+    "object": "Navitoclax",
+    "context": "Navitoclax is a potent BCL-2/BCL-XL inhibitor, effective but limited by thrombocytopenia toxicity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "trigger",
+    "object": "Apoptosis",
+    "context": "By disabling SCAPs, senolytics permit BAX/BAK-mediated MOMP and caspase activation in senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytics",
+    "predicate": "are_complementary_to",
+    "object": "Senomorphics",
+    "context": "Senolytics address the driver (the cell) while senomorphics address the effector (the secretome).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "targets",
+    "object": "SCAPs",
+    "context": "Senolytic therapy transiently disables SCAPs including BCL-2/BCL-XL and PI3K/Akt to push senescent cells across the apoptotic threshold.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "uses",
+    "object": "Dasatinib",
+    "context": "Dasatinib is part of the foundational D+Q senolytic combination (Zhu et al., Nat Med 2015).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "uses",
+    "object": "Quercetin",
+    "context": "Quercetin is a flavonoid component of the D+Q senolytic combination.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "uses",
+    "object": "Fisetin",
+    "context": "Fisetin is a natural flavonoid senolytic with broad tissue activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "uses",
+    "object": "Navitoclax",
+    "context": "Navitoclax (ABT-263) is a BCL-2/BCL-XL inhibitor used as a senolytic agent.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "reduces",
+    "object": "SASP",
+    "context": "By eliminating the source cells, senolytic therapy reduces SASP burden and the associated inflammaging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "is_complementary_to",
+    "object": "Senomorphic Therapy",
+    "context": "Senolytics and senomorphics are complementary approaches: one kills cells, the other suppresses SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "is_tested_for",
+    "object": "Idiopathic Pulmonary Fibrosis",
+    "context": "D+Q improved physical function in an IPF pilot study (NCT02874989).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "is_tested_for",
+    "object": "Diabetic Kidney Disease",
+    "context": "D+Q tested in a pilot/phase trial for diabetic kidney disease (NCT02848131).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senolytic Therapy",
+    "predicate": "is_tested_for",
+    "object": "Osteoarthritis",
+    "context": "Senolytics tested for pain and function in osteoarthritis (NCT04210986).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "Senomorphics suppress the harmful secretory and signaling activity of senescent cells, particularly the SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "is_complementary_to",
+    "object": "Senolytic",
+    "context": "Senolytics kill senescent cells while senomorphics dampen SASP/pro-inflammatory signaling without cell death.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "targets",
+    "object": "mTOR",
+    "context": "mTOR inhibitors suppress SASP by interfering with mTOR-dependent translation of SASP factors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "targets",
+    "object": "NF-\u03baB",
+    "context": "NF-\u03baB inhibitors are a key class of senomorphics targeting the master SASP regulator.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "targets",
+    "object": "p38 MAPK",
+    "context": "p38 MAPK inhibitors suppress SASP from fibroblasts of older donors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "targets",
+    "object": "JAK-STAT3",
+    "context": "JAK-STAT3 inhibitors reduce pro-inflammatory SASP and age-related frailty.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "targets",
+    "object": "BRD4",
+    "context": "BRD4 inhibitors (BET inhibitors) are senomorphic SASP suppressors that block enhancer-driven SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "targets",
+    "object": "KDM4",
+    "context": "KDM4 inhibitors are candidate senomorphics that block SASP factor expression.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Senomorphic",
+    "predicate": "is_exhibited_by",
+    "object": "Fisetin",
+    "context": "Fisetin exhibits both senolytic and senomorphic activities, suppressing SASP at lower exposure.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "Senomorphic therapies modulate senescence-associated properties, particularly the SASP, without cytotoxicity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "reduces",
+    "object": "Inflammaging",
+    "context": "Senomorphics reduce chronic low-grade inflammation driven by SASP without eliminating senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "reduces",
+    "object": "Paracrine Senescence",
+    "context": "By suppressing SASP, senomorphics reduce paracrine spread of senescence to neighboring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "uses",
+    "object": "Rapamycin",
+    "context": "Rapamycin suppresses SASP by interfering with mTOR and p38 MAPK-IL-1\u03b1-NF-\u03baB pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "uses",
+    "object": "Metformin",
+    "context": "Metformin inhibits NF-\u03baB signaling in fibroblasts, macrophages, and senescent endothelial cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "uses",
+    "object": "Ruxolitinib",
+    "context": "Ruxolitinib is a JAK1/2 inhibitor that reduces SASP cytokines IL-6 and IL-8.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "uses",
+    "object": "Resveratrol",
+    "context": "Resveratrol inhibits pro-inflammatory SASP cytokines via SIRT1/NF-\u03baB.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphic Therapy",
+    "predicate": "uses",
+    "object": "Nutlin 3a",
+    "context": "Nutlin 3a is an MDM2 inhibitor that stabilizes p53, suppressing the pro-inflammatory SASP arm.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapeutic",
+    "predicate": "encompasses",
+    "object": "Senolytics",
+    "context": "Senotherapeutic is the umbrella term spanning both senolytics (cell elimination) and senomorphics (SASP suppression).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapeutic",
+    "predicate": "encompasses",
+    "object": "Senomorphics",
+    "context": "Senotherapeutic spans both senolytics and senomorphics as complementary strategies.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapeutic",
+    "predicate": "targets",
+    "object": "Senescence",
+    "context": "Senotherapeutics selectively target senescent cells to mitigate aging and age-related disease.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapeutic",
+    "predicate": "improves",
+    "object": "Healthspan",
+    "context": "Clearing senescent cells in murine models improves healthspan and restores tissue function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapy",
+    "predicate": "encompasses",
+    "object": "Senolytic",
+    "context": "Senotherapy is divided into senolytics (cell elimination) and senomorphics (SASP suppression).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapy",
+    "predicate": "encompasses",
+    "object": "Senomorphic",
+    "context": "Senotherapy includes both senolytic and senomorphic approaches to mitigate senescence-driven pathology.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senotherapy",
+    "predicate": "targets",
+    "object": "SASP",
+    "context": "Senotherapy targets the SASP as the primary secretory phenotype driving senescence-associated pathology.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_induced_by",
+    "object": "SASP",
+    "context": "SASP factors secreted by senescent cells induce senescence in neighbouring healthy cells, spreading the phenotype.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_regulated_by",
+    "object": "Notch",
+    "context": "Notch signaling is essential for establishing paracrine senescence and weakens secondary SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_mediated_by",
+    "object": "IL-1\u03b1",
+    "context": "IL-1\u03b1 is a primary SASP factor that induces paracrine senescence in neighboring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_mediated_by",
+    "object": "TGF\u03b2",
+    "context": "TGF\u03b2 is a SASP factor promoting paracrine senescence via Smad and PI3K/Akt suppression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_mediated_by",
+    "object": "IFITM3",
+    "context": "IFITM3 is enriched in exosomes from senescent cells and mediates paracrine senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_suppressed_by",
+    "object": "Senolytics",
+    "context": "Senolytics eliminate the source cells, preventing further paracrine spread of senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_suppressed_by",
+    "object": "Senomorphics",
+    "context": "Senomorphics suppress SASP production, reducing paracrine spread to neighboring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "contributes_to",
+    "object": "Aging",
+    "context": "Paracrine senescence explains why small numbers of senescent cells can drive disproportionate tissue dysfunction with age.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": "Paracrine senescence amplifies chronic inflammation by spreading senescent phenotypes through tissues.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "suppresses_tumor",
+    "object": "Cancer",
+    "context": "In cancer settings paracrine senescence reinforces arrest in premalignant cells and recruits immune clearance.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "can_promote",
+    "object": "Cancer",
+    "context": "In established tumors paracrine senescence from TIS cells can promote cancer progression via SASP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Paracrine Senescence",
+    "predicate": "is_spread_via",
+    "object": "Exosomes",
+    "context": "Extracellular vesicles including exosomes carry cargo such as IFITM3 that transmit senescence signals.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": "Senescence surveillance is the immune-mediated clearance of senescent cells, a fail-safe tumor suppression mechanism.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "is_driven_by",
+    "object": "SASP",
+    "context": "SASP factors act as find-me and activate-me signals for immune cells in senescence surveillance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "is_mediated_by",
+    "object": "Natural Killer Cells",
+    "context": "NK cells directly kill senescent cells through NKG2D receptor recognition of stress ligands.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "is_mediated_by",
+    "object": "Macrophages",
+    "context": "Macrophages phagocytose senescent cells recruited by SASP chemokines.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "is_enhanced_by",
+    "object": "cGAS-STING Pathway",
+    "context": "cGAS-STING in senescent cells promotes type-I interferon production enhancing NK and T cell killing.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "is_impaired_by",
+    "object": "Aging",
+    "context": "Declining NK cell and T cell function with age permits senescent cell accumulation and tumor development.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "is_impaired_by",
+    "object": "Immunosenescence",
+    "context": "Age-related immune decline compromises senescence surveillance, allowing senescent cell accumulation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SCAPs",
+    "predicate": "protect",
+    "object": "Senescent Cells",
+    "context": "SCAPs are pro-survival mechanisms that raise the apoptotic threshold, allowing senescent cells to persist.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SCAPs",
+    "predicate": "inhibit",
+    "object": "Apoptosis",
+    "context": "SCAPs including BCL-2 family proteins and PI3K/Akt signaling inhibit apoptosis in senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SCAPs",
+    "predicate": "include",
+    "object": "Bcl-2",
+    "context": "BCL-2 family members are key anti-apoptotic proteins upregulated as part of SCAPs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SCAPs",
+    "predicate": "include",
+    "object": "PI3K/Akt",
+    "context": "PI3K/Akt survival kinase signaling is a major pro-growth cascade within SCAPs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SCAPs",
+    "predicate": "are_targeted_by",
+    "object": "Senolytics",
+    "context": "Senolytics disable SCAPs by neutralizing anti-apoptotic BCL-2 family members and survival kinases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SCAPs",
+    "predicate": "are_activated_by",
+    "object": "SAMD",
+    "context": "Senescent cells deploy mitochondrial adaptations within SCAPs to survive despite mitochondrial stress.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "is_a_type_of",
+    "object": "Mitochondrial Dysfunction",
+    "context": "SAMD refers to the impairment of mitochondrial structure and function that is a hallmark of senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": "SAMD is an active driver of the SASP through ROS elevation and mtDNA release activating cGAS-STING.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "releases",
+    "object": "mtDNA",
+    "context": "Minority MOMP in SAMD releases mtDNA into the cytosol without triggering apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": "Released mtDNA from SAMD activates the cGAS-STING innate-immune sensor driving type I interferon and NF-\u03baB SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "elevates",
+    "object": "Reactive Oxygen Species",
+    "context": "Dysfunctional mitochondrial complexes elevate ROS causing further DNA damage and amplifying arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "activates",
+    "object": "NF-\u03baB",
+    "context": "Mitochondrial ROS from SAMD activate NF-\u03baB and stress kinases including p38 MAPK.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "is_suppressed_by",
+    "object": "Metformin",
+    "context": "Metformin improves mitochondrial function and has senomorphic effects relevant to SAMD.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SAMD",
+    "predicate": "is_suppressed_by",
+    "object": "Resveratrol",
+    "context": "Resveratrol acts as an antioxidant to quench ROS from dysfunctional mitochondria.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "silences",
+    "object": "E2F",
+    "context": "SAHF durably repress E2F-dependent S-phase genes, reinforcing stable proliferation arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "is_assembled_by",
+    "object": "HIRA/ASF1a",
+    "context": "HIRA-ASF1a deposits macroH2A and core histones, establishing H3K9me3-marked heterochromatin at SAHF.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "is_mediated_by",
+    "object": "Retinoblastoma Protein",
+    "context": "Hypophosphorylated Rb recruits HIRA/ASF1a and HDACs to E2F target loci for SAHF assembly.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "is_enriched_in",
+    "object": "H3K9me3",
+    "context": "SAHF are enriched in trimethylated H3K9 (H3K9me3), a mark of transcriptionally silent heterochromatin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "is_enriched_in",
+    "object": "macroH2A",
+    "context": "macroH2A histone variant is enriched in SAHF and required for their assembly.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "accompanies",
+    "object": "Lamin B1 Loss",
+    "context": "SAHF formation accompanies loss of Lamin B1 as the nuclear periphery reorganizes in senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAHF",
+    "predicate": "reinforces",
+    "object": "Senescence",
+    "context": "SAHF are a hallmark of senescence that enforce stable, tumor-suppressive arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SADS",
+    "predicate": "is_a_type_of",
+    "object": "Heterochromatin Decompaction",
+    "context": "SADS is the decompaction of constitutive pericentromeric/pericentrosomal satellite heterochromatin in senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SADS",
+    "predicate": "influences",
+    "object": "SASP",
+    "context": "SADS-generated contacts interact with inflammatory SASP gene loci, altering their chromatin state.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SADS",
+    "predicate": "is_distinct_from",
+    "object": "SAHF",
+    "context": "SADS affects constitutive heterochromatin independently of SAHF, which affects facultative heterochromatin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SADS",
+    "predicate": "connects_to",
+    "object": "LINE-1",
+    "context": "Satellite-repeat derepression in SADS connects to retrotransposon/LINE-1 and HERV activation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Immunosenescence",
+    "predicate": "is_a_type_of",
+    "object": "Aging",
+    "context": "Immunosenescence is the systemic deterioration of immune function that accompanies aging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Immunosenescence",
+    "predicate": "is_associated_with",
+    "object": "Inflammaging",
+    "context": "Immunosenescence is accompanied by inflammaging, a chronic state of innate immune activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Immunosenescence",
+    "predicate": "is_partially_reversed_by",
+    "object": "Rapamycin",
+    "context": "Autophagy inducers including rapamycin provide potential to partially reverse systemic immunosenescence.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Immunosenescence",
+    "predicate": "is_partially_reversed_by",
+    "object": "Metformin",
+    "context": "Metformin is an autophagy inducer with potential to partially reverse immunosenescence.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Immunosenescence",
+    "predicate": "is_partially_reversed_by",
+    "object": "Spermidine",
+    "context": "Spermidine is an autophagy inducer with potential to partially reverse immunosenescence.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Immunosenescence",
+    "predicate": "impairs",
+    "object": "T Cell",
+    "context": "Immunosenescence features perturbed memory responses, especially in T cell immunity, with accumulation of memory T cell subsets.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_a_type_of",
+    "object": "Senescence",
+    "context": "TIS is a form of cellular senescence provoked by cytotoxic cancer therapies including chemotherapy and radiation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "Doxorubicin",
+    "context": "Doxorubicin is a DNA-damaging chemotherapeutic that provokes therapy-induced senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "Etoposide",
+    "context": "Etoposide is a genotoxic stressor that induces therapy-induced senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "generates",
+    "object": "DNA-SCARS",
+    "context": "Genotoxic stress in TIS generates persistent DNA damage foci termed DNA-SCARS which are precursors to CCF.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "produces",
+    "object": "SASP",
+    "context": "TIS cells display a pro-inflammatory secretome including SASP factors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "can_promote",
+    "object": "Cancer",
+    "context": "Chronic SASP from TIS cells may promote therapy resistance, fibrosis, and aging phenotypes.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_modulated_by",
+    "object": "Senomorphics",
+    "context": "Epigenetic inhibitors (BET/KDM4/DOT1L) in oncology trials could be repurposed to tame TIS-associated inflammation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": "NF-\u03baB is the master transcription factor regulating SASP gene expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_activated_by",
+    "object": "p38 MAPK",
+    "context": "p38 MAPK activates NF-\u03baB-mediated SASP independent of DDR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_activated_by",
+    "object": "GATA4",
+    "context": "GATA4 activates NF-\u03baB via TRAF3IP2 and promotes pro-inflammatory SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_inhibited_by",
+    "object": "Metformin",
+    "context": "Metformin inhibits NF-\u03baB signaling in fibroblasts, macrophages, and senescent endothelial cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_inhibited_by",
+    "object": "Rapamycin",
+    "context": "Rapamycin interferes with the p38 MAPK-IL-1\u03b1-NF-\u03baB pathway to suppress SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_inhibited_by",
+    "object": "Apigenin",
+    "context": "Apigenin inhibits NF-\u03baB-dependent SASP factors and CXCL10.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_inhibited_by",
+    "object": "Nutlin 3a",
+    "context": "Nutlin 3a stabilizes p53 which suppresses NF-\u03baB-driven pro-inflammatory SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-\u03baB",
+    "predicate": "is_inhibited_by",
+    "object": "Glucocorticoids",
+    "context": "Glucocorticoids block pro-inflammatory SASP by impairing IL-1\u03b1-mediated NF-\u03baB activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "activates",
+    "object": "SASP",
+    "context": "The cGAS-STING complex promotes SASP through interferon signaling, activated by cytoplasmic DNA.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "is_activated_by",
+    "object": "mtDNA",
+    "context": "mtDNA released by minority MOMP activates cGAS-STING, driving type I interferon and NF-\u03baB SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "is_activated_by",
+    "object": "Cytoplasmic Chromatin Fragments",
+    "context": "CCF are sensed by cGAS-STING to drive NF-\u03baB-mediated SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "is_activated_by",
+    "object": "LINE-1",
+    "context": "Cytoplasmic LINE1 cDNA triggers interferon signaling through cGAS-STING, reinforcing SASP in deep senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "enhances",
+    "object": "Senescence Surveillance",
+    "context": "cGAS-STING in senescent cells promotes type-I interferon production enhancing NK and T cell killing.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "is_inhibited_by",
+    "object": "Lamivudine",
+    "context": "Lamivudine (3TC) inhibits LINE1 propagation, reducing cGAS-STING-NF-\u03baB SASP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": "mTOR promotes SASP protein production through translation of IL-1\u03b1 and stabilization of SASP transcripts via MK2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "is_inhibited_by",
+    "object": "Rapamycin",
+    "context": "Rapamycin suppresses SASP by inhibiting mTOR-dependent translation of SASP factors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "is_inhibited_by",
+    "object": "Metformin",
+    "context": "Metformin activates AMPK which inhibits mTOR to suppress pro-inflammatory SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p38 MAPK",
+    "predicate": "activates",
+    "object": "NF-\u03baB",
+    "context": "p38 MAPK was the first protein shown to activate NF-\u03baB-mediated SASP independent of DDR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p38 MAPK",
+    "predicate": "stabilizes",
+    "object": "SASP",
+    "context": "p38 MAPK stabilizes SASP transcripts in the tumor microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p38 MAPK",
+    "predicate": "is_inhibited_by",
+    "object": "SB203580",
+    "context": "SB203580 is a p38 MAPK inhibitor that suppresses SASP from fibroblasts of older donors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "JAK-STAT3",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": "JAK-STAT3 interacts with p38 MAPK and mTOR to promote pro-inflammatory SASP and age-related frailty.",
+    "confidence": "high"
+  },
+  {
+    "subject": "JAK-STAT3",
+    "predicate": "is_inhibited_by",
+    "object": "Ruxolitinib",
+    "context": "Ruxolitinib is a JAK1/2 inhibitor that reduces SASP cytokines IL-6 and IL-8 in senescent fibroblasts.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "induces",
+    "object": "p21 CIP1",
+    "context": "DNA damage stabilizes p53 which transcriptionally induces p21 to inhibit CDK2 and enforce G1/S arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "restrains",
+    "object": "SASP",
+    "context": "In most contexts p53 restrains pro-inflammatory SASP factors; loss of p53 amplifies SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "regulates_exosome_production",
+    "object": "Senescent Cells",
+    "context": "STEAP3 and VPS32 are p53 targets regulating exosome production during senescence.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "p21 CIP1",
+    "predicate": "inhibits",
+    "object": "CDK2",
+    "context": "p21 inhibits Cyclin-Dependent Kinase 2 (CDK2) and enforces G1/S arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p21 CIP1",
+    "predicate": "supports",
+    "object": "Early SASP",
+    "context": "p21 supports an early secretory phenotype including CXCL14 and IGFBP3, placing stressed cells under immunosurveillance.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "p16",
+    "predicate": "inhibits",
+    "object": "CDK4",
+    "context": "p16 inhibits Cyclin-Dependent Kinase 4 (CDK4), maintaining Rb in hypophosphorylated state.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p16",
+    "predicate": "inhibits",
+    "object": "CDK6",
+    "context": "p16 inhibits Cyclin-Dependent Kinase 6 (CDK6), stabilizing long-term arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p16",
+    "predicate": "maintains",
+    "object": "Retinoblastoma Protein",
+    "context": "p16 keeps Rb in its hypophosphorylated, growth-suppressive state for stable arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p16",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": "p16 overexpression induces a DDR-free senescent state with a unique p53-dependent SASP profile (PASP).",
+    "confidence": "medium"
+  },
+  {
+    "subject": "p16",
+    "predicate": "is_a_biomarker_of",
+    "object": "Senescence",
+    "context": "p16 is the stronger correlate of in vivo senescent cell accumulation with age and an in vivo senescence biomarker.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "is_a_type_of",
+    "object": "Senolytic",
+    "context": "Fisetin is the most potent flavonoid senolytic in a 10-compound screen.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": "Fisetin extends median and maximal lifespan in aged mice by clearing senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "extends",
+    "object": "Healthspan",
+    "context": "Fisetin extends healthspan in aged mice by clearing senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": "Fisetin selectively clears senescent T, NK, progenitor, and endothelial cells in adipose tissue.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "Fisetin suppresses SASP factor expression including IL-6, IL-8, and MCP-1 in multiple tissues.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "exhibits",
+    "object": "Senomorphic",
+    "context": "At lower exposure fisetin can suppress SASP and NF-\u03baB/IL-6 signaling consistent with senomorphic effect.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Dasatinib",
+    "predicate": "is_a_type_of",
+    "object": "Senolytic",
+    "context": "Dasatinib is a tyrosine kinase inhibitor used in the D+Q senolytic combination.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quercetin",
+    "predicate": "is_a_type_of",
+    "object": "Senolytic",
+    "context": "Quercetin is a flavonoid that inhibits BCL-2 family proteins and PI3K, used in D+Q.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Navitoclax",
+    "predicate": "is_a_type_of",
+    "object": "Senolytic",
+    "context": "Navitoclax is a potent BCL-2/BCL-XL inhibitor used as a senolytic.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Navitoclax",
+    "predicate": "inhibits",
+    "object": "Bcl-xL",
+    "context": "Navitoclax (ABT-263) blocks BCL-2/BCL-XL/BCL-W but is limited by thrombocytopenia.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "is_a_type_of",
+    "object": "Senomorphic",
+    "context": "Rapamycin is a key senomorphic agent that suppresses SASP by inhibiting mTOR-dependent translation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": "Rapamycin inhibits mTOR to suppress SASP protein production and p38 MAPK-IL-1\u03b1-NF-\u03baB signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "is_an",
+    "object": "Autophagy Inducer",
+    "context": "Rapamycin is an autophagy inducer that clears damaged organelles and limits inflammasome activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "is_a_type_of",
+    "object": "Senomorphic",
+    "context": "Metformin is a senomorphic agent that inhibits NF-\u03baB signaling and activates AMPK.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "Metformin activates AMPK which inhibits mTOR to suppress pro-inflammatory SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "inhibits",
+    "object": "SASP",
+    "context": "Resveratrol inhibits pro-inflammatory SASP cytokines via SIRT1/NF-\u03baB pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "Resveratrol activates SIRT1 which reduces H3K9 and H4K16 acetylation at SASP gene promoters.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "suppress",
+    "object": "SASP",
+    "context": "SIRT1 reduces H3K9 and H4K16 acetylation in IL-6 and IL-8 promoter regions, suppressing SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammaging",
+    "predicate": "is_driven_by",
+    "object": "SASP",
+    "context": "Chronic SASP from accumulated senescent cells is a major driver of age-related sterile inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammaging",
+    "predicate": "is_associated_with",
+    "object": "Aging",
+    "context": "Inflammaging is the chronic low-grade inflammation that increases with age and senescent cell burden.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammaging",
+    "predicate": "is_reduced_by",
+    "object": "Senolytics",
+    "context": "Senolytics reduce inflammaging by clearing the senescent cells that produce chronic SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammaging",
+    "predicate": "is_reduced_by",
+    "object": "Senomorphics",
+    "context": "Senomorphics reduce chronic low-grade inflammation driven by SASP without eliminating senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammaging",
+    "predicate": "contributes_to",
+    "object": "Cardiovascular Disease",
+    "context": "Chronic SASP-driven inflammation contributes to atherosclerosis and cardiovascular disease.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammaging",
+    "predicate": "contributes_to",
+    "object": "Osteoarthritis",
+    "context": "SASP-driven inflammation contributes to osteoarthritis pathology.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aging",
+    "predicate": "causes",
+    "object": "Senescent Cell Accumulation",
+    "context": "Senescent cell burden rises exponentially in multiple tissues with age.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aging",
+    "predicate": "impairs",
+    "object": "Senescence Surveillance",
+    "context": "Declining NK cell and T cell function with age impairs senescence surveillance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aging",
+    "predicate": "causes",
+    "object": "Immunosenescence",
+    "context": "Aging causes systemic deterioration of immune function known as immunosenescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aging",
+    "predicate": "is_alleviated_by",
+    "object": "Senolytics",
+    "context": "Clearing senescent cells in aged rodents improves healthspan and alleviates age-related dysfunction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IL-6",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "IL-6 is a prototypical SASP cytokine, essential mediator of paracrine effects and biomarker of aging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IL-8",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "IL-8 is a prototypical SASP chemokine essential for paracrine effects of senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IL-1\u03b1",
+    "predicate": "amplifies",
+    "object": "SASP",
+    "context": "IL-1\u03b1 is an apical SASP amplifier; cleavage by caspases is essential for SASP regulatory functions.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IL-1\u03b1",
+    "predicate": "induces",
+    "object": "Paracrine Senescence",
+    "context": "IL-1\u03b1 is a primary SASP factor that induces paracrine senescence in neighboring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TGF\u03b2",
+    "predicate": "promotes",
+    "object": "Paracrine Senescence",
+    "context": "TGF\u03b2 is a SASP factor promoting paracrine senescence via Smad and PI3K/Akt suppression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TGF\u03b2",
+    "predicate": "promotes",
+    "object": "Fibrosis",
+    "context": "TGF\u03b2 is a SASP factor associated with pro-fibrotic phenotype and pulmonary fibrosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGF",
+    "predicate": "stimulates",
+    "object": "Angiogenesis",
+    "context": "VEGF is a SASP growth factor that stimulates angiogenesis in the cancer microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL2",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "CCL2 (MCP-1) is a SASP chemokine regulated by IL-1\u03b1 and IL-1\u03b2, strong chemoattractant for monocytes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "LINE-1",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": "Cytoplasmic LINE1 cDNA triggers interferon signaling through cGAS-STING, reinforcing SASP in deep senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "LINE-1",
+    "predicate": "is_repressed_by",
+    "object": "RB1",
+    "context": "RB1 decline derepresses LINE-1 in senescence, contributing to retrotransposon activation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "LINE-1",
+    "predicate": "is_repressed_by",
+    "object": "SIRT6",
+    "context": "SIRT6 loss derepresses LINE-1 in senescence, contributing to retrotransposon-driven inflammation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "LINE-1",
+    "predicate": "is_inhibited_by",
+    "object": "Lamivudine",
+    "context": "Lamivudine (3TC) inhibits LINE1 propagation, reducing cGAS-STING-NF-\u03baB SASP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "BRD4",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": "BRD4 is recruited to senescence-activated enhancers, contributing to SASP factor expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KDM4",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": "KDM4 reduces H3K9 and H3K36 methylation, promoting SASP factor expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "EZH2",
+    "predicate": "represses",
+    "object": "SASP",
+    "context": "EZH2 (PRC2) represses pro-inflammatory SASP factors including CCL2, CXCL9, CXCL10.",
+    "confidence": "high"
+  },
+  {
+    "subject": "AP-1",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": "AP-1 is a pioneer factor that opens SASP enhancers and drives NF-\u03baB-regulated SASP genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DNA Methylation",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": "Global hypomethylation and focal hypermethylation define the senescent transcriptome and SASP gene expression.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Natural Killer Cells",
+    "predicate": "kill",
+    "object": "Senescent Cells",
+    "context": "NK cells directly kill senescent cells through NKG2D receptor recognition of stress ligands MICA, MICB, ULBP2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Natural Killer Cells",
+    "predicate": "are_recruited_by",
+    "object": "SASP",
+    "context": "SASP chemokines CCL2, CCL5, CXCL1, CXCL10 recruit NK cells for senescent cell clearance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Macrophages",
+    "predicate": "phagocytose",
+    "object": "Senescent Cells",
+    "context": "Macrophages phagocytose senescent cells; SASP factors polarize them toward pro-inflammatory M1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "T Cell",
+    "predicate": "participate_in",
+    "object": "Senescence Surveillance",
+    "context": "CD4+ and CD8+ T cells recognize senescent cell antigens and orchestrate the immune response.",
+    "confidence": "high"
+  },
+  {
+    "subject": "T Cell",
+    "predicate": "are_impaired_by",
+    "object": "Immunosenescence",
+    "context": "Immunosenescence features perturbed memory responses, especially in T cell immunity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "Autophagy suppresses SASP by clearing damaged organelles and restraining inflammasome activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "is_impaired_in",
+    "object": "Senescence",
+    "context": "Impaired mitophagy in senescent cells permits accumulation of ROS-emitting organelles.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Autophagy Inducer",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "Autophagy inducers clear damaged organelles and limit inflammasome activation, suppressing SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cytoplasmic Chromatin Fragments",
+    "predicate": "activate",
+    "object": "cGAS-STING Pathway",
+    "context": "CCF are sensed by cGAS-STING to drive NF-\u03baB-mediated SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cytoplasmic Chromatin Fragments",
+    "predicate": "are_generated_from",
+    "object": "DNA-SCARS",
+    "context": "DNA-SCARS are precursors to cytoplasmic chromatin fragments in therapy-induced senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cytoplasmic Chromatin Fragments",
+    "predicate": "may_emerge_from",
+    "object": "SAHF",
+    "context": "CCF may emerge from heterochromatinized or SAHF regions in senescent cells.",
+    "confidence": "low"
+  },
+  {
+    "subject": "Minority MOMP",
+    "predicate": "releases",
+    "object": "mtDNA",
+    "context": "Sublethal mitochondrial outer membrane permeabilization by BAX/BAK releases mtDNA into the cytosol.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Minority MOMP",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": "mtDNA released by minority MOMP activates cGAS-STING, driving SASP without full cell death.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Minority MOMP",
+    "predicate": "is_restrained_by",
+    "object": "SCAPs",
+    "context": "SCAPs including BCL-2 family proteins restrain MOMP to keep senescent cells alive despite mitochondrial stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mtDNA",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": "mtDNA released into the cytosol activates cGAS-STING, driving type I interferon and NF-\u03baB SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "H3K9me3",
+    "predicate": "enriched_in",
+    "object": "SAHF",
+    "context": "SAHF are enriched in trimethylated H3K9, a mark of transcriptionally silent heterochromatin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "H3K27ac",
+    "predicate": "marks",
+    "object": "SASP Enhancers",
+    "context": "H3K27ac marks senescence-activated super-enhancers that drive SASP expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lamin B1",
+    "predicate": "is_lost_in",
+    "object": "Senescence",
+    "context": "Reduced Lamin B1 detaches lamina-associated domains from the nuclear periphery in senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "can_be_induced_by",
+    "object": "Paracrine Senescence",
+    "context": "In established tumors paracrine senescence from TIS cells can promote cancer progression via SASP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_suppressed_by",
+    "object": "Senescence Surveillance",
+    "context": "Clearance of oncogene-induced senescent cells in benign lesions prevents progression to malignancy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_suppressed_by",
+    "object": "Senescence",
+    "context": "Senescence halts proliferation of damaged and oncogene-stressed cells, acting as a barrier to cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cardiovascular Disease",
+    "predicate": "is_treated_by",
+    "object": "Senomorphic Therapy",
+    "context": "Senomorphic therapies are being evaluated for mitigating vascular SASP in cardiovascular disease.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Osteoarthritis",
+    "predicate": "is_treated_by",
+    "object": "Senolytics",
+    "context": "Senolytics are tested for osteoarthritis pain and function in clinical trials.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Idiopathic Pulmonary Fibrosis",
+    "predicate": "is_treated_by",
+    "object": "Senolytic Therapy",
+    "context": "D+Q improved physical function in an IPF pilot study.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_characterized_by",
+    "object": "Hallmarks of Cancer",
+    "context": "Cancer development is driven by the acquisition of core biological capabilities defined as the Hallmarks of Cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "evades",
+    "object": "Apoptosis",
+    "context": "Evasion of apoptosis is a core hallmark of cancer, enabling survival of damaged and malignant cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "undergoes",
+    "object": "Metabolic Reprogramming",
+    "context": "Tumor cells undergo metabolic reprogramming including the Warburg Effect to support rapid proliferation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "induces",
+    "object": "Angiogenesis",
+    "context": "Tumors induce angiogenesis through VEGF to provide blood supply for growth and metastasis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "shares_epigenetic_features_with",
+    "object": "Aging",
+    "context": "Cancer and aging share a meta-hallmark of epigenetic instability including global hypomethylation and site-specific hypermethylation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "PI3K/Akt/mTOR Pathway",
+    "context": "The PI3K/Akt/mTOR pathway is frequently dysregulated in cancer, promoting proliferation and survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "MAPK/ERK Pathway",
+    "context": "The MAPK/ERK pathway is frequently dysregulated in cancer, promoting proliferative signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "Wnt",
+    "context": "Wnt signaling is frequently dysregulated in cancer, promoting proliferation and stemness.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "JAK2/STAT3",
+    "context": "JAK2/STAT3 signaling is frequently dysregulated in cancer, promoting survival and inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "NF-\u03baB",
+    "context": "NF-\u03baB signaling is frequently dysregulated in cancer, promoting survival and inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "YAP1",
+    "context": "The Hippo pathway involving YAP1 is dysregulated in cancer, promoting proliferation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "EGFR",
+    "context": "EGFR is an oncogenic receptor tyrosine kinase that drives proliferative signaling in multiple cancers.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "HER2",
+    "context": "HER2 overexpression or amplification drives aggressive breast cancer subtypes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_suppressed_by",
+    "object": "p53",
+    "context": "p53 is a tumor suppressor that induces cell cycle arrest, senescence, or apoptosis in response to DNA damage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_suppressed_by",
+    "object": "BRCA",
+    "context": "BRCA1/BRCA2 are tumor suppressors essential for homologous recombination DNA repair; mutations predispose to breast and ovarian cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_evidenced_by",
+    "object": "Ki-67",
+    "context": "Ki-67 is a marker of high proliferative activity, used to assess tumor growth rate.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "evades",
+    "object": "Immune System",
+    "context": "Cancer evades immune destruction through immune checkpoint molecules like PD-L1 and immunosuppressive mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "Cisplatin",
+    "context": "Cisplatin is a platinum-based chemotherapy agent used across multiple cancer types.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "docetaxel",
+    "context": "Docetaxel is a taxane chemotherapy agent used in breast, lung, and other cancers.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "trastuzumab",
+    "context": "Trastuzumab is a targeted therapy antibody against HER2 used in HER2-positive breast cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin is being repositioned as an anticancer agent, inhibiting proliferation and inducing cell death.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "Fenbendazole",
+    "context": "Fenbendazole is being investigated for anticancer activity through microtubule interference and metabolic modulation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "melittin",
+    "context": "Melittin from honeybee venom shows selective cytotoxicity against breast cancer and other malignancies.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "Nutlins",
+    "context": "Nutlins restore p53 function by blocking the MDM2-p53 interaction in tumors with wild-type p53.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "BH3 mimetics",
+    "context": "BH3 mimetics restore apoptosis by displacing pro-apoptotic effectors from anti-apoptotic Bcl-2 family proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_treated_by",
+    "object": "BET inhibitors",
+    "context": "BET inhibitors downregulate MYC and suppress NF-\u03baB-dependent transcription in MYC-driven cancers.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "overcomes",
+    "object": "Multidrug Resistance",
+    "context": "Multidrug resistance through efflux pumps like P-gp is a major cause of treatment failure.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Aging",
+    "context": "Aging is the primary risk factor for cancer development due to accumulated epigenetic and genetic damage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_linked_to",
+    "object": "Oxidative Stress",
+    "context": "Oxidative stress can induce DNA damage leading to gene mutations and oncogene activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "uses",
+    "object": "Integrins",
+    "context": "Integrins and FAK signaling are therapeutic targets for drug delivery using RGD peptides and CendR motifs.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_evasion_of",
+    "object": "Hallmarks of Cancer",
+    "context": "Resisting cell death via apoptosis is a core hallmark of cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "has_pathway",
+    "object": "Intrinsic Pathway",
+    "context": "The intrinsic (mitochondrial) pathway of apoptosis is initiated by internal stimuli such as DNA damage and oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "has_pathway",
+    "object": "Extrinsic Pathway",
+    "context": "The extrinsic (death receptor) pathway of apoptosis is initiated by ligand binding to cell surface death receptors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "has_pathway",
+    "object": "Endoplasmic Reticulum Pathway",
+    "context": "The ER pathway is a third initiation route triggered by ER stress and unfolded protein response.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "converges_at",
+    "object": "Common Pathway",
+    "context": "Both intrinsic and extrinsic pathways converge at the common execution phase involving caspase-3, -6, and -7.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_inhibited_by",
+    "object": "IAPs",
+    "context": "Inhibitor of Apoptosis Proteins (IAPs) are endogenous inhibitors of caspases that block apoptosis execution.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_inhibited_by",
+    "object": "Bcl-2",
+    "context": "Anti-apoptotic Bcl-2 family proteins prevent MOMP and block the intrinsic pathway of apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_restored_by",
+    "object": "BH3 mimetics",
+    "context": "BH3 mimetics restore apoptosis in cancer cells by neutralizing anti-apoptotic Bcl-2 family members.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_induced_by",
+    "object": "TRAIL",
+    "context": "TRAIL selectively induces apoptosis in cancer cells by binding to death receptors DR4 and DR5.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_induced_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin induces apoptosis in cancer cells through multiple signaling pathways.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_induced_by",
+    "object": "Fenbendazole",
+    "context": "Fenbendazole induces apoptosis through oxidative stress and p53 activation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_induced_by",
+    "object": "melittin",
+    "context": "Melittin induces caspase-3-dependent apoptosis in breast cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Apoptosis",
+    "predicate": "is_induced_by",
+    "object": "Gossypol",
+    "context": "Gossypol is a natural BH3 mimetic that binds Bcl-2 family proteins to restore apoptosis.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Intrinsic Pathway",
+    "predicate": "is_regulated_by",
+    "object": "Bcl-2 family",
+    "context": "The Bcl-2 family of proteins acts as the primary gatekeeper at the mitochondrial level of the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Intrinsic Pathway",
+    "predicate": "involves",
+    "object": "MOMP",
+    "context": "MOMP is the decisive, largely irreversible event of the intrinsic pathway, releasing cytochrome c and Smac.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Intrinsic Pathway",
+    "predicate": "activates",
+    "object": "Apoptosome",
+    "context": "Cytochrome c binds to Apaf-1 and pro-caspase-9 to form the apoptosome complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Intrinsic Pathway",
+    "predicate": "activates",
+    "object": "Caspase-9",
+    "context": "Caspase-9 is the primary initiator protease of the intrinsic pathway, activated by the apoptosome.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Intrinsic Pathway",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": "XIAP is a potent endogenous inhibitor of both Caspase-9 and Caspase-3 in the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Intrinsic Pathway",
+    "predicate": "is_inhibited_by",
+    "object": "Bcl-2",
+    "context": "Bcl-2 is an anti-apoptotic regulator that prevents MOMP and blocks the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Extrinsic Pathway",
+    "predicate": "is_initiated_by",
+    "object": "TRAIL",
+    "context": "TRAIL binds to death receptors DR4 and DR5 to initiate the extrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Extrinsic Pathway",
+    "predicate": "forms",
+    "object": "DISC",
+    "context": "Ligand binding to death receptors recruits FADD and pro-caspase-8 to form the Death-Inducing Signaling Complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Extrinsic Pathway",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": "Caspase-8 is activated within the DISC and directly cleaves executioner caspases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Extrinsic Pathway",
+    "predicate": "links_to",
+    "object": "Intrinsic Pathway",
+    "context": "Caspase-8 cleaves Bid to truncated Bid, which activates the intrinsic pathway, linking the two major apoptotic pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Extrinsic Pathway",
+    "predicate": "is_suppressed_by",
+    "object": "SRC kinase",
+    "context": "SRC, FYN, and LYN phosphorylate Caspase-8 at Tyr380, suppressing its activity and promoting cell survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Extrinsic Pathway",
+    "predicate": "is_restored_by",
+    "object": "SHP1",
+    "context": "SHP1 is a phosphatase that dephosphorylates Caspase-8 at Tyr380/397 to restore its pro-apoptotic function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_driven_by",
+    "object": "Bax",
+    "context": "Bax undergoes activation and oligomerization to form pores in the outer mitochondrial membrane during MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_driven_by",
+    "object": "Bak",
+    "context": "Bak cooperates with Bax in pore formation during mitochondrial outer membrane permeabilization.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_inhibited_by",
+    "object": "Bcl-2",
+    "context": "Pro-survival Bcl-2 family members preserve mitochondrial membrane integrity and prevent MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_inhibited_by",
+    "object": "Bcl-xL",
+    "context": "Bcl-xL is a pro-survival protein that preserves mitochondrial membrane integrity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_inhibited_by",
+    "object": "Mcl-1",
+    "context": "Mcl-1 is an anti-apoptotic protein that maintains mitochondrial integrity and opposes MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "releases",
+    "object": "Cytochrome c",
+    "context": "Following MOMP, Cytochrome c is released from the mitochondrial intermembrane space into the cytoplasm.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "releases",
+    "object": "Smac-DIABLO",
+    "context": "Smac/DIABLO is co-released with cytochrome c during MOMP to neutralize IAPs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_inhibited_by",
+    "object": "Bim",
+    "context": "Bim is a BH3-only protein that activates Bax/Bak by neutralizing pro-survival Bcl-2 members.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_inhibited_by",
+    "object": "Bid",
+    "context": "Bid is a BH3-only protein that activates Bax/Bak after cleavage by Caspase-8.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_regulated_by",
+    "object": "p53",
+    "context": "p53 integrates diverse stresses including DNA damage and oxidative stress to regulate the MOMP threshold.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "is_restored_by",
+    "object": "BH3 mimetics",
+    "context": "BH3 mimetics such as venetoclax push cells toward MOMP by neutralizing anti-apoptotic Bcl-2 proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MOMP",
+    "predicate": "contributes_to",
+    "object": "Cancer",
+    "context": "MOMP failure underpins the survival of cancer cells and their resistance to chemotherapy and radiotherapy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosome",
+    "predicate": "is_composed_of",
+    "object": "Apaf-1",
+    "context": "Apaf-1 is the structural scaffold of the apoptosome, containing CARD, NB-ARC, and WD40 domains.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosome",
+    "predicate": "is_triggers_by",
+    "object": "Cytochrome c",
+    "context": "Cytochrome c binds the Apaf-1 WD40 domain, triggering dATP-dependent oligomerization into the apoptosome.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosome",
+    "predicate": "activates",
+    "object": "Caspase-9",
+    "context": "The apoptosome concentrates pro-caspase-9 via CARD-CARD interactions, enabling induced proximity and activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosome",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": "Active Caspase-9 from the apoptosome cleaves and activates executioner Caspase-3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosome",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": "XIAP can suppress Caspase-9 at the apoptosome; Smac/DIABLO relieves this inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Apoptosome",
+    "predicate": "is_prevented_by",
+    "object": "Bcl-2",
+    "context": "Overexpression of Bcl-2 family anti-apoptotics blocks Cytochrome c release and apoptosome formation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DISC",
+    "predicate": "is_formed_by",
+    "object": "Fas",
+    "context": "The DISC forms on intracellular tails of death receptors including Fas, DR4, DR5, and TNFR1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DISC",
+    "predicate": "is_formed_by",
+    "object": "DR4",
+    "context": "DR4 is a death receptor that forms the DISC upon TRAIL binding.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DISC",
+    "predicate": "is_formed_by",
+    "object": "DR5",
+    "context": "DR5 is a death receptor that forms the DISC upon TRAIL binding.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DISC",
+    "predicate": "uses",
+    "object": "FADD",
+    "context": "FADD is the core structural adaptor protein of the DISC that recruits pro-caspase-8.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DISC",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": "The DISC facilitates proximity-induced auto-activation of Caspase-8.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "regulates",
+    "object": "MOMP",
+    "context": "The Bcl-2 family controls mitochondrial outer membrane permeabilization through pro- and anti-apoptotic members.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bcl-2",
+    "context": "Bcl-2 is the founding anti-apoptotic member of the Bcl-2 family.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bcl-xL",
+    "context": "Bcl-xL is an anti-apoptotic member that preserves mitochondrial membrane integrity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Mcl-1",
+    "context": "Mcl-1 is an anti-apoptotic member frequently upregulated in cancer as a resistance mechanism.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bax",
+    "context": "Bax is a pro-apoptotic effector that forms pores in the mitochondrial membrane.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bak",
+    "context": "Bak is a pro-apoptotic effector that cooperates with Bax in MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bim",
+    "context": "Bim is a BH3-only protein that activates Bax/Bak by neutralizing pro-survival members.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bid",
+    "context": "Bid is a BH3-only protein activated by Caspase-8 that links extrinsic to intrinsic apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Puma",
+    "context": "Puma is a BH3-only protein transcriptionally induced by p53 that activates Bax/Bak.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Noxa",
+    "context": "Noxa is a BH3-only protein transcriptionally induced by p53 that antagonizes Mcl-1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-2 family",
+    "predicate": "is_dysregulated_in",
+    "object": "Cancer",
+    "context": "Dysregulation of the balance between pro- and anti-apoptotic Bcl-2 family members is a hallmark of cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_activated_by",
+    "object": "Caspase-9",
+    "context": "Caspase-9 is the upstream initiator caspase that cleaves and activates Caspase-3 in the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_activated_by",
+    "object": "Caspase-8",
+    "context": "Caspase-8 is the upstream initiator caspase that cleaves and activates Caspase-3 in the extrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "PARP1",
+    "context": "Caspase-3 cleaves PARP1 at DEVD site, inactivating DNA repair and conserving ATP for apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "Lamins",
+    "context": "Caspase-3 cleaves nuclear lamins, dismantling the nuclear lamina leading to nuclear condensation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "ICAD",
+    "context": "Caspase-3 cleaves ICAD to release CAD, which fragments nuclear DNA in a hallmark of apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": "XIAP directly binds and inhibits Caspase-3 executioner activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_suppressed_by",
+    "object": "p38 MAPK",
+    "context": "p38 MAPK phosphorylates Caspase-3 at Ser150, suppressing its activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_enhanced_by",
+    "object": "PKC\u03b4",
+    "context": "PKC\u03b4 directly enhances Caspase-3 activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_induced_by",
+    "object": "melittin",
+    "context": "Melittin treatment induces cleaved caspase-3 in triple-negative breast cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-3",
+    "predicate": "is_induced_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin increases Caspase-3 expression in colorectal cancer cells, indicating apoptosis-inducing effects.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "is_activated_at",
+    "object": "DISC",
+    "context": "Caspase-8 is activated within the DISC upon ligand binding to death receptors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": "Caspase-8 directly cleaves and activates executioner Caspase-3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "Bid",
+    "context": "Caspase-8 cleaves Bid into truncated Bid (tBid), linking the extrinsic to the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "is_inhibited_by",
+    "object": "SRC kinase",
+    "context": "SRC, FYN, and LYN phosphorylate Caspase-8 at Tyr380, suppressing activity and promoting survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "is_inhibited_by",
+    "object": "LYN",
+    "context": "LYN phosphorylates Caspase-8 at Tyr465 to suppress its pro-apoptotic activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "is_restored_by",
+    "object": "SHP1",
+    "context": "SHP1 dephosphorylates Caspase-8 at Tyr380/397 to restore its pro-apoptotic function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-8",
+    "predicate": "is_suppressed_by",
+    "object": "p38 MAPK",
+    "context": "p38 MAPK phosphorylates Caspase-8 at Ser364, suppressing its activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_activated_at",
+    "object": "Apoptosome",
+    "context": "Caspase-9 is activated at the apoptosome through induced proximity and autocleavage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": "Active Caspase-9 cleaves and activates executioner Caspase-3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": "XIAP is a potent endogenous inhibitor of Caspase-9; Smac-DIABLO relieves this inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "Akt",
+    "context": "Akt phosphorylates Caspase-9 at Ser196 to inhibit its activity, particularly in prostate and colon cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "ERK",
+    "context": "ERK phosphorylates Caspase-9 at Thr125, suppressing its activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "p38 MAPK",
+    "context": "p38 MAPK phosphorylates Caspase-9 at Thr125, suppressing its activity and mitotic cell death.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_activated_by",
+    "object": "c-ABL",
+    "context": "c-ABL tyrosine kinase phosphorylates Caspase-9 at Tyr153 to promote its autocleavage and activation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "PKC\u03b6",
+    "context": "PKC\u03b6 phosphorylates Caspase-9 at Ser144 to inhibit its pro-apoptotic function.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "IAPs",
+    "predicate": "inhibit",
+    "object": "Caspase-3",
+    "context": "IAPs including XIAP bind and inhibit Caspase-3 executioner activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IAPs",
+    "predicate": "inhibit",
+    "object": "Caspase-7",
+    "context": "IAPs including XIAP inhibit Caspase-7 executioner activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IAPs",
+    "predicate": "inhibit",
+    "object": "Caspase-9",
+    "context": "IAPs including XIAP inhibit Caspase-9 initiator activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IAPs",
+    "predicate": "are_antagonized_by",
+    "object": "Smac-DIABLO",
+    "context": "Smac/DIABLO neutralizes IAPs by binding their BIR domains, relieving caspase inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IAPs",
+    "predicate": "are_overexpressed_in",
+    "object": "Cancer",
+    "context": "IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "inhibits",
+    "object": "Caspase-9",
+    "context": "XIAP directly binds and inhibits Caspase-9, the initiator of the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "inhibits",
+    "object": "Caspase-3",
+    "context": "XIAP directly binds and inhibits Caspase-3 executioner activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "is_stabilized_by",
+    "object": "Akt",
+    "context": "Akt phosphorylates XIAP at Ser87, stabilizing the protein by inhibiting autoubiquitination.",
+    "confidence": "high"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "is_degraded_by",
+    "object": "TBK1",
+    "context": "TBK1 phosphorylates XIAP at Ser430, triggering autoubiquitination and proteasomal degradation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "is_downregulated_by",
+    "object": "miR-24",
+    "context": "miR-24 downregulates XIAP expression, reducing the apoptosis threshold in cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "is_downregulated_by",
+    "object": "miR-7",
+    "context": "miR-7 downregulates XIAP expression, reducing the apoptosis threshold in cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "XIAP",
+    "predicate": "is_antagonized_by",
+    "object": "Smac-DIABLO",
+    "context": "Smac/DIABLO is an endogenous antagonist that binds XIAP and relieves its caspase inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Survivin",
+    "predicate": "is_a_member_of",
+    "object": "IAPs",
+    "context": "Survivin (BIRC5) is a member of the IAP family with dual roles in apoptosis inhibition and cell division.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Survivin",
+    "predicate": "is_overexpressed_in",
+    "object": "Cancer",
+    "context": "Survivin is highly expressed in most human cancers but nearly undetectable in normal adult tissues.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Survivin",
+    "predicate": "confers_resistance_to",
+    "object": "Chemotherapy",
+    "context": "Survivin overexpression is associated with resistance to chemotherapy and radiotherapy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Survivin",
+    "predicate": "confers_resistance_to",
+    "object": "docetaxel",
+    "context": "Survivin overexpression confers resistance to docetaxel in non-small-cell lung cancer.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Smac-DIABLO",
+    "predicate": "antagonizes",
+    "object": "XIAP",
+    "context": "Smac/DIABLO directly binds XIAP BIR domains to neutralize its caspase inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Smac-DIABLO",
+    "predicate": "antagonizes",
+    "object": "Survivin",
+    "context": "Smac/DIABLO binds and neutralizes Survivin among other IAPs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Smac-DIABLO",
+    "predicate": "is_released_from",
+    "object": "MOMP",
+    "context": "Smac/DIABLO is released from mitochondria following MOMP alongside Cytochrome c.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Smac-DIABLO",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": "By neutralizing IAPs, Smac/DIABLO relieves the brakes on caspase activation and promotes apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Smac-DIABLO",
+    "predicate": "synergizes_with",
+    "object": "TRAIL",
+    "context": "Smac mimetics often synergize with TRAIL to induce apoptosis in resistant cancer cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "is_a_tumor_suppressor",
+    "object": "Cancer",
+    "context": "p53 is a central tumor suppressor that induces cell cycle arrest, senescence, or apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "is_inhibited_by",
+    "object": "MDM2",
+    "context": "MDM2 is the primary negative regulator of p53, targeting it for ubiquitin-mediated proteasomal degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "is_restored_by",
+    "object": "Nutlins",
+    "context": "Nutlins block the MDM2-p53 interaction, stabilizing p53 to induce arrest or apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "induces",
+    "object": "Puma",
+    "context": "p53 transcriptionally induces Puma, a BH3-only protein that activates the intrinsic apoptotic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "induces",
+    "object": "Noxa",
+    "context": "p53 transcriptionally induces Noxa, a BH3-only protein that antagonizes Mcl-1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "regulates",
+    "object": "MOMP",
+    "context": "p53 integrates diverse stresses to regulate the MOMP threshold through transcriptional activation of BH3-only proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "is_mutated_in",
+    "object": "Cancer",
+    "context": "The p53 pathway is inactivated in most cancers, frequently by mutation or MDM2 amplification.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDM2",
+    "predicate": "degrades",
+    "object": "p53",
+    "context": "MDM2 acts as an E3 ubiquitin ligase that targets p53 for proteasomal degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDM2",
+    "predicate": "blocks",
+    "object": "p53",
+    "context": "MDM2 binds the N-terminal transactivation domain of p53, blocking its ability to activate target genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDM2",
+    "predicate": "is_inhibited_by",
+    "object": "Nutlins",
+    "context": "Nutlins are cis-imidazoline analogs that potently and selectively inhibit the MDM2-p53 interaction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDM2",
+    "predicate": "is_amplified_in",
+    "object": "Cancer",
+    "context": "MDM2 gene is frequently amplified or overexpressed in many cancers, leading to p53 inactivation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDM2",
+    "predicate": "is_downregulated_by",
+    "object": "Fenbendazole",
+    "context": "Fenbendazole downregulates MDM2, thereby activating p53 in certain tumor cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Nutlins",
+    "predicate": "inhibit",
+    "object": "MDM2",
+    "context": "Nutlins occupy the MDM2 p53-binding pocket, preventing p53 binding and degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nutlins",
+    "predicate": "stabilize",
+    "object": "p53",
+    "context": "By blocking MDM2, Nutlins stabilize p53, which accumulates and induces transcription of p21 and pro-apoptotic BH3-only proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nutlins",
+    "predicate": "induce",
+    "object": "Senescence",
+    "context": "Sustained p53 activation by nutlins can enforce senescence in some contexts.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Nutlins",
+    "predicate": "induce",
+    "object": "Apoptosis",
+    "context": "Nutlins reactivate the p53 tumor-suppressor network, triggering apoptosis in susceptible tumor cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BRCA",
+    "predicate": "repairs",
+    "object": "DNA Damage",
+    "context": "BRCA1 and BRCA2 proteins are essential for homologous recombination repair of DNA double-strand breaks.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BRCA",
+    "predicate": "predisposes_to",
+    "object": "Breast Cancer",
+    "context": "BRCA1 mutations confer 55-70% lifetime breast cancer risk.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BRCA",
+    "predicate": "predisposes_to",
+    "object": "ovarian cancer",
+    "context": "BRCA1 mutations confer 40-60% ovarian cancer risk.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BRCA",
+    "predicate": "is_targeted_by",
+    "object": "PARP inhibitors",
+    "context": "PARP inhibitors exploit synthetic lethality in BRCA-mutant tumors by blocking base-excision repair.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BRCA",
+    "predicate": "is_evaluated_by",
+    "object": "melittin",
+    "context": "Melittin is evaluated for selectivity against BRCA-mutant tumor cell lines.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "VEGF",
+    "predicate": "drives",
+    "object": "Angiogenesis",
+    "context": "VEGF is the paramount driver of tumor neovascularization by stimulating endothelial proliferation and migration.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGF",
+    "predicate": "is_induced_by",
+    "object": "HIF-1\u03b1",
+    "context": "Hypoxia stabilizes HIF-1\u03b1, which transcriptionally activates the VEGFA gene.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGF",
+    "predicate": "is_a_hallmark",
+    "object": "Hallmarks of Cancer",
+    "context": "VEGF-mediated angiogenesis is one of the core hallmarks of cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGF",
+    "predicate": "enables",
+    "object": "Metastasis",
+    "context": "VEGF-built tumor vasculature provides routes for metastatic dissemination.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "VEGF",
+    "predicate": "is_targeted_by",
+    "object": "Tyrosine Kinase Inhibitors",
+    "context": "VEGFR tyrosine kinase inhibitors (sunitinib, sorafenib) block VEGF signaling in tumors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PD-L1",
+    "predicate": "enables",
+    "object": "Immune Evasion",
+    "context": "PD-L1 expression on cancer cells inhibits T cell activity, allowing immune evasion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PD-L1",
+    "predicate": "is_expressed_in",
+    "object": "triple-negative breast cancer",
+    "context": "PD-L1 expression is high in triple-negative breast cancer and HER2-enriched breast cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PD-L1",
+    "predicate": "is_reduced_by",
+    "object": "melittin",
+    "context": "Melittin significantly reduces PD-L1 expression in tumors, potentially improving antitumoral immune responses.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "HER2",
+    "predicate": "is_targeted_by",
+    "object": "trastuzumab",
+    "context": "Trastuzumab is a monoclonal antibody that targets HER2 in HER2-positive breast cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HER2",
+    "predicate": "is_targeted_by",
+    "object": "melittin",
+    "context": "Melittin suppresses HER2 phosphorylation and activation in breast carcinoma cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "HER2",
+    "predicate": "drives",
+    "object": "Breast Cancer",
+    "context": "HER2 overexpression or amplification plays an important role in aggressive breast cancer subtypes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metabolic Reprogramming",
+    "predicate": "is_a_hallmark",
+    "object": "Hallmarks of Cancer",
+    "context": "Deregulating cellular energetics is a core hallmark of cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metabolic Reprogramming",
+    "predicate": "includes",
+    "object": "Warburg Effect",
+    "context": "The Warburg Effect is the preference for aerobic glycolysis even when oxygen is plentiful.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metabolic Reprogramming",
+    "predicate": "involves",
+    "object": "GLUT1",
+    "context": "GLUT1 is a glucose transporter upregulated during metabolic reprogramming in cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metabolic Reprogramming",
+    "predicate": "involves",
+    "object": "Hexokinase 2",
+    "context": "Hexokinase 2 is a glycolytic enzyme upregulated during metabolic reprogramming.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metabolic Reprogramming",
+    "predicate": "involves",
+    "object": "Pyruvate Kinase M2",
+    "context": "Pyruvate Kinase M2 is an enzyme isoform upregulated during metabolic reprogramming.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metabolic Reprogramming",
+    "predicate": "is_inhibited_by",
+    "object": "Fenbendazole",
+    "context": "Fenbendazole suppresses glycolysis by downregulating glucose uptake and inhibiting Hexokinase 2.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Warburg Effect",
+    "predicate": "involves",
+    "object": "Glycolysis",
+    "context": "The Warburg Effect is characterized by increased glycolysis followed by lactate fermentation even with oxygen.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Warburg Effect",
+    "predicate": "produces",
+    "object": "Lactate",
+    "context": "Lactate production from the Warburg Effect acidifies the tumor microenvironment, promoting invasion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Warburg Effect",
+    "predicate": "is_driven_by",
+    "object": "MYC",
+    "context": "The oncogene MYC drives the Warburg Effect by upregulating glycolytic genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Warburg Effect",
+    "predicate": "is_driven_by",
+    "object": "HIF-1\u03b1",
+    "context": "HIF-1\u03b1 transcriptionally activates glycolytic genes during the Warburg Effect.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Warburg Effect",
+    "predicate": "is_suppressed_by",
+    "object": "p53",
+    "context": "p53 loss is associated with the Warburg Effect; wild-type p53 promotes oxidative phosphorylation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "EMT",
+    "predicate": "enables",
+    "object": "Metastasis",
+    "context": "EMT is the initiating cellular program for carcinoma invasion and metastatic dissemination.",
+    "confidence": "high"
+  },
+  {
+    "subject": "EMT",
+    "predicate": "is_a_hallmark",
+    "object": "Hallmarks of Cancer",
+    "context": "Activating invasion and metastasis through EMT is a core hallmark of cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "EMT",
+    "predicate": "is_induced_by",
+    "object": "TGF-\u03b2",
+    "context": "TGF-\u03b2 is a major EMT-inducing cytokine that activates EMT transcription factors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "EMT",
+    "predicate": "is_inhibited_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin inhibits EMT across multiple cancers, suppressing EMT-TF expression and restoring E-cadherin.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "EMT",
+    "predicate": "promotes",
+    "object": "Chemotherapy Resistance",
+    "context": "EMT generates cancer stem-cell-like states that confer resistance to conventional chemotherapy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "drive",
+    "object": "Chemotherapy Resistance",
+    "context": "CSCs maintain activity during treatment and rapidly proliferate when the environment is suitable.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "are_regulated_by",
+    "object": "PAK1",
+    "context": "The PAK1-STAT3 axis is a significant regulatory pathway for CSC formation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "are_regulated_by",
+    "object": "STAT3",
+    "context": "STAT3 is a downstream effector of PAK1 in cancer stem cell regulation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "are_inhibited_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin preferentially targets and inhibits CSCs in breast cancer cells, suppressing Nanog, Oct4, and Sox2.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "express",
+    "object": "Nanog",
+    "context": "Nanog is a key protein associated with CSC self-renewal and differentiation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "express",
+    "object": "Oct4",
+    "context": "Oct4 is a key transcription factor associated with CSC pluripotency.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "express",
+    "object": "Sox2",
+    "context": "Sox2 is a key transcription factor associated with CSC self-renewal.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "bind",
+    "object": "Bcl-2",
+    "context": "BH3 mimetics occupy the hydrophobic BH3-binding groove of anti-apoptotic Bcl-2 family proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "bind",
+    "object": "Bcl-xL",
+    "context": "BH3 mimetics like ABT-737 and ABT-263 bind Bcl-xL with high affinity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "do_not_bind",
+    "object": "Mcl-1",
+    "context": "ABT-737 and ABT-263 do not inhibit Mcl-1, which is a major resistance mechanism.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "induce",
+    "object": "MOMP",
+    "context": "BH3 mimetics displace pro-apoptotic effectors from anti-apoptotic grooves, unleashing Bax/Bak to form MOMP pores.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "restore",
+    "object": "Apoptosis",
+    "context": "BH3 mimetics restore the apoptotic machinery in cancer cells by neutralizing anti-apoptotic defenses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "include",
+    "object": "ABT-737",
+    "context": "ABT-737 is a first-generation pan-inhibitor of Bcl-2, Bcl-xL, and Bcl-w.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "include",
+    "object": "ABT-263",
+    "context": "ABT-263 (navitoclax) is an orally bioavailable BH3 mimetic targeting Bcl-2, Bcl-xL, and Bcl-w.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "include",
+    "object": "Gossypol",
+    "context": "Gossypol is a natural BH3 mimetic that binds Bcl-2, Bcl-xL, and Mcl-1.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "BH3 mimetics",
+    "predicate": "synergize_with",
+    "object": "Chemotherapy",
+    "context": "BH3 mimetics synergize with chemotherapy and BTK inhibitors in cancer treatment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ABT-737",
+    "predicate": "inhibits",
+    "object": "Bcl-2",
+    "context": "ABT-737 binds with high affinity to the hydrophobic grooves of Bcl-2, Bcl-xL, and Bcl-w.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ABT-737",
+    "predicate": "inhibits",
+    "object": "Bcl-xL",
+    "context": "ABT-737 binds Bcl-xL with high affinity but not Mcl-1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ABT-737",
+    "predicate": "does_not_inhibit",
+    "object": "Mcl-1",
+    "context": "Resistance to ABT-737 is often mediated by Mcl-1, which it does not inhibit.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ABT-263",
+    "predicate": "inhibits",
+    "object": "Bcl-2",
+    "context": "ABT-263 binds with high affinity to Bcl-2, Bcl-xL, and Bcl-w.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ABT-263",
+    "predicate": "causes",
+    "object": "Thrombocytopenia",
+    "context": "ABT-263 causes thrombocytopenia due to Bcl-xL inhibition, which is essential for platelet survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ABT-263",
+    "predicate": "is_predecessor",
+    "object": "ABT-737",
+    "context": "ABT-263 was developed to overcome the poor solubility of ABT-737.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Gossypol",
+    "predicate": "binds",
+    "object": "Bcl-2",
+    "context": "Gossypol binds the hydrophobic grooves of anti-apoptotic Bcl-2 family members including Bcl-2 and Bcl-xL.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Gossypol",
+    "predicate": "binds",
+    "object": "Mcl-1",
+    "context": "Gossypol is one of the few agents that can target Mcl-1.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Gossypol",
+    "predicate": "restores",
+    "object": "Apoptosis",
+    "context": "By neutralizing Bcl-2 family anti-apoptotics, gossypol restores the cell's ability to undergo apoptosis.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "BET inhibitors",
+    "predicate": "downregulate",
+    "object": "MYC",
+    "context": "BET inhibitors displace BET proteins from chromatin, selectively downregulating MYC and its transcriptional program.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BET inhibitors",
+    "predicate": "suppress",
+    "object": "NF-\u03baB",
+    "context": "BET inhibitors suppress NF-\u03baB-dependent transcription of inflammatory cytokines.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BET inhibitors",
+    "predicate": "suppress",
+    "object": "SASP",
+    "context": "BET inhibitors suppress SASP gene transcription by displacing BRD4 from SASP gene promoters.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BET inhibitors",
+    "predicate": "target",
+    "object": "BRD4",
+    "context": "BET inhibitors target BRD4, a key BET family member that binds acetylated histones at super-enhancer regions.",
+    "confidence": "high"
+  },
+  {
+    "subject": "BET inhibitors",
+    "predicate": "are_a_type_of",
+    "object": "Senomorphic",
+    "context": "BET inhibitors are proposed as senomorphic agents that suppress SASP without eliminating senescent cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "PAK1",
+    "context": "Ivermectin primarily acts as a PAK1 inhibitor in various tumors.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "YAP1",
+    "context": "Ivermectin inhibits YAP1 activity in gastric and liver cancers.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Wnt",
+    "context": "Ivermectin inhibits the Wnt pathway in breast and colorectal cancers.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Akt/mTOR",
+    "context": "Ivermectin inhibits the Akt/mTOR pathway to induce autophagy in cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": "Ivermectin induces apoptosis in cancer cells through multiple signaling pathways.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Ivermectin induces autophagy in cancer cells through mTOR inhibition.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "Pyroptosis",
+    "context": "Ivermectin induces pyroptosis as a form of programmed cell death in cancer.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "EMT",
+    "context": "Ivermectin inhibits epithelial-mesenchymal transition across multiple cancers.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "reverses",
+    "object": "Multidrug Resistance",
+    "context": "Ivermectin reverses multidrug resistance by inhibiting P-gp and downregulating its expression.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Cancer Stem Cells",
+    "context": "Ivermectin preferentially targets CSCs by regulating the PAK1-STAT3 axis.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "is_repositioned_from",
+    "object": "Drug Repositioning",
+    "context": "Ivermectin is a prime example of drug repositioning, originally an antiparasitic agent now studied for cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "synergizes_with",
+    "object": "Cisplatin",
+    "context": "Ivermectin shows synergistic effects with cisplatin in cancer treatment.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "synergizes_with",
+    "object": "docetaxel",
+    "context": "Ivermectin shows synergistic effects with docetaxel in cancer treatment.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "synergizes_with",
+    "object": "paclitaxel",
+    "context": "Ivermectin shows synergistic effects with paclitaxel in cancer treatment.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "interferes_with",
+    "object": "Microtubule",
+    "context": "Fenbendazole acts as a microtubule destabilizing agent, similar to vincristine but with lower toxicity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "suppresses",
+    "object": "Glycolysis",
+    "context": "Fenbendazole suppresses glycolysis by downregulating glucose uptake and inhibiting Hexokinase 2.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "activates",
+    "object": "p53",
+    "context": "Fenbendazole downregulates MDM2, thereby activating p53 in tumor cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": "Fenbendazole induces apoptosis through oxidative stress and p53 activation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "is_a_type_of",
+    "object": "Benzimidazole",
+    "context": "Fenbendazole is a broad-spectrum benzimidazole anthelmintic agent.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "is_repositioned_from",
+    "object": "Drug Repositioning",
+    "context": "Fenbendazole is being investigated for drug repositioning in cancer therapy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "disrupts",
+    "object": "Cell Membrane",
+    "context": "Melittin forms transmembrane pores in cancer cell membranes, inducing cell death.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "EGFR",
+    "context": "Melittin suppresses the phosphorylation and activation of EGFR in breast cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "HER2",
+    "context": "Melittin suppresses the phosphorylation and activation of HER2 in breast cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "induces",
+    "object": "Caspase-3",
+    "context": "Melittin induces cleaved caspase-3-dependent apoptosis in triple-negative breast cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "reduces",
+    "object": "PD-L1",
+    "context": "Melittin significantly reduces PD-L1 expression in tumors, potentially improving immune responses.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "synergizes_with",
+    "object": "docetaxel",
+    "context": "Melittin enhances the effect of docetaxel in breast cancer treatment.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "synergizes_with",
+    "object": "Cisplatin",
+    "context": "Melittin enhances the effect of cisplatin in cancer treatment.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Multidrug Resistance",
+    "predicate": "is_mediated_by",
+    "object": "P-gp",
+    "context": "P-glycoprotein is an ABC transporter that pumps chemotherapy drugs out of cancer cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Multidrug Resistance",
+    "predicate": "is_reversed_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin reverses MDR by inhibiting P-gp and downregulating its expression via EGFR/ERK/Akt/NF-\u03baB.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Multidrug Resistance",
+    "predicate": "is_driven_by",
+    "object": "EGFR",
+    "context": "EGFR signaling can upregulate MDR-associated protein expression.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Multidrug Resistance",
+    "predicate": "is_driven_by",
+    "object": "Akt",
+    "context": "Akt signaling can upregulate P-gp expression, contributing to multidrug resistance.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Multidrug Resistance",
+    "predicate": "is_driven_by",
+    "object": "NF-\u03baB",
+    "context": "NF-\u03baB signaling can upregulate MDR-associated protein expression.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Drug Repositioning",
+    "predicate": "includes",
+    "object": "Ivermectin",
+    "context": "Ivermectin is being repositioned from an antiparasitic agent to an anticancer drug.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Drug Repositioning",
+    "predicate": "includes",
+    "object": "Fenbendazole",
+    "context": "Fenbendazole is being investigated for repositioning in cancer therapy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_a_type_of",
+    "object": "Senescence",
+    "context": "TIS is a subtype of cellular senescence triggered by genotoxic cancer therapies.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "Cisplatin",
+    "context": "Cisplatin is a DNA-damaging chemotherapeutic that provokes therapy-induced senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "docetaxel",
+    "context": "Docetaxel and other chemotherapeutics can trigger therapy-induced senescence.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "produces",
+    "object": "SASP",
+    "context": "TIS cells develop a pro-inflammatory SASP via NF-\u03baB and cGAS-STING signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "has_dual_role_in",
+    "object": "Cancer",
+    "context": "TIS can suppress tumors acutely through arrest but promote relapse through chronic SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_cleared_by",
+    "object": "Senescence Surveillance",
+    "context": "SASP factors from TIS cells recruit NK cells, macrophages, and T cells for immune clearance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_cleared_by",
+    "object": "Senolytic",
+    "context": "Senolytics like ABT-737 and D+Q can selectively eliminate TIS cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_suppressed_by",
+    "object": "Senomorphic Therapy",
+    "context": "Senomorphics like rapamycin and metformin suppress TIS-associated SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_enforced_by",
+    "object": "p53/p21 Pathway",
+    "context": "Genotoxic stress stabilizes p53 which induces p21 to enforce G1/S arrest in TIS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_enforced_by",
+    "object": "p16/Rb Pathway",
+    "context": "Sustained TIS arrest is locked in by p16-mediated inhibition of CDK4/6.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_resisted_by",
+    "object": "SCAPs",
+    "context": "TIS cells upregulate senescent cell anti-apoptotic pathways (Bcl-2 family, PI3K/Akt) allowing survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Endoplasmic Reticulum Pathway",
+    "predicate": "is_a_type_of",
+    "object": "Apoptosis",
+    "context": "The ER pathway is a third initiation route for apoptosis triggered by ER stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Endoplasmic Reticulum Pathway",
+    "predicate": "is_triggered_by",
+    "object": "Hypoxia",
+    "context": "Hypoxia and glucose starvation cause ER stress that triggers the ER apoptotic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Endoplasmic Reticulum Pathway",
+    "predicate": "converges_at",
+    "object": "Common Pathway",
+    "context": "Activated caspases from the ER pathway eventually converge on the common execution phase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TGF-\u03b2",
+    "predicate": "induces",
+    "object": "EMT",
+    "context": "TGF-\u03b2 is a major EMT-inducing cytokine that activates EMT transcription factors Snail, Slug, ZEB1/2, and Twist.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PAK1",
+    "predicate": "regulates",
+    "object": "Cancer Stem Cells",
+    "context": "The PAK1-STAT3 axis is a significant regulatory pathway for cancer stem cell formation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "PAK1",
+    "predicate": "is_inhibited_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin primarily acts as a PAK1 inhibitor in various tumors.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "YAP1",
+    "predicate": "promotes",
+    "object": "Cancer",
+    "context": "The Hippo pathway involving YAP1 is dysregulated in cancer, promoting proliferation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "YAP1",
+    "predicate": "is_inhibited_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin inhibits YAP1 activity in gastric and liver cancers.",
+    "confidence": "medium"
+  }
+]
