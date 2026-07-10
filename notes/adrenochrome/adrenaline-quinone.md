@@ -7,6 +7,7 @@ updated: 2026-07-04
 tags:
   - chemical-compound
 aliases: []
+protected: true
 ---
 
 # adrenaline-quinone

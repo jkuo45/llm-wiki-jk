@@ -9,6 +9,7 @@ tags:
 aliases:
   - Adrenochrome semiquinone
   - Semiquinone radical
+protected: true
 ---
 
 

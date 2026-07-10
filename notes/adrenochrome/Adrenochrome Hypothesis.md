@@ -7,6 +7,7 @@ updated: 2026-07-04
 tags:
   - scientific-theory
 aliases: []
+protected: true
 ---
 
 # Adrenochrome Hypothesis

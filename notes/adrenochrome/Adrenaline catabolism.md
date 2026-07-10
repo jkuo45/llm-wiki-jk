@@ -6,6 +6,7 @@ updated: 2026-07-04
 tags:
   - biological-process
 aliases: []
+protected: true
 ---
 # Adrenaline catabolism
 

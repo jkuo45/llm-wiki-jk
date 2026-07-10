@@ -8,6 +8,7 @@ updated: 2026-07-04
 tags:
   - scientific-concept
 aliases: []
+protected: true
 ---
 
 # Glyco-Oxidative Proteostasis Shield
