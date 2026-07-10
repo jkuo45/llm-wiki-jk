@@ -8,6 +8,7 @@ tags:
   - protein
   - autophagy
 aliases: [LC3, GABARAP family]
+protected: true
 
 ---
 

@@ -9,6 +9,7 @@ tags:
   - biological-process
   - autophagy
 aliases: [autophagy]
+protected: true
 
 ---
 

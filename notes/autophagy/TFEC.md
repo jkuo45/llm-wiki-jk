@@ -6,6 +6,7 @@ updated: 2026-07-04
 tags:
   - gene
 aliases: [transcription factor EC]
+protected: true
 ---
 # TFEC
 

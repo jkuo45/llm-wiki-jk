@@ -9,6 +9,7 @@ tags:
   - protein
   - autophagy
 aliases: [ATG16-like 1]
+protected: true
 
 ---
 

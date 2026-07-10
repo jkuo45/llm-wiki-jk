@@ -8,6 +8,7 @@ tags:
   - protein
   - autophagy
 aliases: [ATG9A]
+protected: true
 ---
 # Atg9
 

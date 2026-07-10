@@ -7,6 +7,7 @@ updated: 2026-07-04
 tags:
   - protein
 aliases: [GABARAPL2, Golgi-associated ATPase enhancer of 16 kDa]
+protected: true
 ---
 # GATE-16
 

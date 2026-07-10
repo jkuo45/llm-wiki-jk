@@ -9,6 +9,7 @@ tags:
   - protein
   - autophagy
 aliases: [ATG14L, Barkor]
+protected: true
 ---
 
 # Atg14

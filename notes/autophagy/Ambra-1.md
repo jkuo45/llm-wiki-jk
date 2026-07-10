@@ -7,6 +7,7 @@ updated: 2026-07-04
 tags:
   - protein
 aliases: [activating molecule in Beclin1-regulated autophagy]
+protected: true
 ---
 # Ambra-1
 

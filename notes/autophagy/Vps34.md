@@ -8,6 +8,7 @@ updated: 2026-07-04
 tags:
   - enzyme
 aliases: [PIK3C3, class III PI3K]
+protected: true
 
 ---
 

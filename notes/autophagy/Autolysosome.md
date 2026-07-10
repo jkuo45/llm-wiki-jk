@@ -10,6 +10,7 @@ tags:
   - autophagy
   - lysosome
 aliases: [autophagic lysosome, autolysosomal compartment]
+protected: true
 
 ---
 
