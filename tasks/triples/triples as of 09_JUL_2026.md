@@ -35,7 +35,7 @@
 | Top objects       | chemical (40), enzyme (13), protein (11), biological_process (11), medical_condition (9)        |
 | Top predicates    | is (11), induces (6), promotes (5), activates (4), binds_to (4)                                 |
 
-<img src="media/kg_graph/_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_adrenochrome.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/adrenochrome/_triples.json)
 
@@ -55,7 +55,7 @@
 | Top objects       | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3)              |
 | Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)                  |
 
-<img src="media/kg_graph/_triples_autophagy.svg" alt="autophagy triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_autophagy.svg" alt="autophagy triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_autophagy.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/autophagy/_triples.json)
 
@@ -75,7 +75,7 @@
 | Top objects       | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3) |
 | Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                      |
 
-<img src="media/kg_graph/_triples_comt.svg" alt="comt triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_comt.svg" alt="comt triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_comt.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/comt/_triples.json)
 
@@ -98,7 +98,7 @@
 > [!warning]
 > Epigenetics uses co-occurrence extraction, not mechanistic. Confidence % reflects textual proximity, not biological causation. This graph is for discovery and hypothesis generation, not pathway verification.
 
-<img src="media/kg_graph/_triples_epigenetics.svg" alt="epigenetics triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_epigenetics.svg" alt="epigenetics triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_epigenetics.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/epigenetics/_triples.json)
 
@@ -118,7 +118,7 @@
 | Top objects       | Parkinson's Disease (28), Neuromelanin (25), Dopamine (8), Neuroinflammation (7), Alpha-Synuclein (6) |
 | Top predicates    | bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)       |
 
-<img src="media/kg_graph/_triples_neuromelanin.svg" alt="neuromelanin triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_neuromelanin.svg" alt="neuromelanin triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_neuromelanin.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/neuromelanin/_triples.json)
 
@@ -138,7 +138,7 @@
 | Top objects       | Lipid Peroxidation (9), Superoxide Radicals (8), Hydrogen Peroxide (7), NF-kappa B (7), Nitric Oxide (6) |
 | Top predicates    | produces (13), causes (13), activates (11), contributes to (9), reduces (7)                     |
 
-<img src="media/kg_graph/_triples_oxidative_stress.svg" alt="oxidative stress triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_oxidative_stress.svg" alt="oxidative stress triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_oxidative_stress.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/oxidative_stress/_triples.json)
 
@@ -158,7 +158,7 @@
 | Top objects       | SIRT1 (8), Mitochondria (6), NFKB (6), SIRT6 (5), AMPK (4)                                     |
 | Top predicates    | deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)             |
 
-<img src="media/kg_graph/_triples_sirtuins.svg" alt="sirtuins triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_sirtuins.svg" alt="sirtuins triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_sirtuins.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/sirtuins/_triples.json)
 
@@ -178,7 +178,7 @@
 | Top objects       | SASP (36), Senolytics (8), Senescence (8), Aging (7), Senomorphics (7)                            |
 | Top predicates    | is_suppressed_by (13), is_a_type_of (12), is_regulated_by (12), is_inhibited_by (11), is_induced_by (9) |
 
-<img src="media/kg_graph/_triples_senescence.svg" alt="senescence triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_senescence.svg" alt="senescence triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_senescence.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/senescence/_triples.json)
 
@@ -198,7 +198,7 @@
 | Top objects       | Ivermectin (9), Bcl-2 (9), Cancer (9), Apoptosis (8), p53 (7)                                    |
 | Top predicates    | is_inhibited_by (24), is_driven_by (15), inhibits (13), includes (12), is_induced_by (11)         |
 
-<img src="media/kg_graph/_triples_cancer.svg" alt="cancer triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_cancer.svg" alt="cancer triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_cancer.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/notes/cancer/_triples.json)
 
@@ -219,7 +219,7 @@
 > [!tip]
 > The merged graph reveals how senescence and cancer intersect mechanistically. Shared hubs — **p53**, **NF-κB**, **BRD4**, **SCAPs**, **Aging** — are the bridges between tumor suppression and the senescence-associated secretory phenotype. These are the high-value targets for therapies that address both age-related tissue decline and cancer risk simultaneously.
 
-<img src="media/kg_graph/_triples_senescence_cancer.svg" alt="senescence + cancer merged triples" width="100%" style="max-height: 750px;">
+<img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_senescence_cancer.svg" alt="senescence + cancer merged triples" width="100%" style="max-height: 750px;">
 
 [full size .svg](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/media/kg_graph/_triples_senescence_cancer.svg) · [link to .json](https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/refs/heads/dev/tasks/triples/triples_senescence_cancer.json)
 
