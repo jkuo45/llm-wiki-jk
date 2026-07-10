@@ -187,6 +187,51 @@ The algorithm uses $O(n \log n)$ sorting. See [[Algorithm Notes#Sorting]] for de
 Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 ````
 
+## Document Enrichment Pattern
+
+When enriching an existing entity note with information from an ingested document, follow this pattern to ensure substantive context is woven into the entity body, not just appended as a reference.
+
+### Steps
+
+1. **Identify** which facts/mechanisms from the document are NEW to this entity
+2. **Place** each fact in the most relevant body section using callout attribution
+3. **Connect** each new fact to related entities in the Connections section
+4. **Attribute** the source in both the body callout and the Documents section
+
+### Callout Attribution Pattern
+
+Use `> [!info]` callouts to attribute document-derived insights within entity body sections:
+
+```markdown
+### Mechanism of Action
+
+- Existing content about IL-6 signaling...
+
+> [!info] Source: [[SASP: The Dark Side of Tumor Suppression]]
+> IL-6 secretion is directly controlled by persistent DNA-damage signaling through ATM and CHK2, independent of the p53 pathway.
+
+- Additional existing content...
+```
+
+### Connections Pattern
+
+Each new connection must describe HOW the entities interact, not just that they are related:
+
+```markdown
+## Connections
+
+- [[ATM]] — Persistent DNA damage signaling through ATM and CHK2 directly controls IL-6 secretion, independent of p53
+- [[p53]] — p53 restrains IL-6 expression; p53 loss amplifies SASP-driven cancer promotion
+- [[Tumor Microenvironment]] — IL-6 from senescent cells reshapes the tumor microenvironment to support cancer growth
+```
+
+### Anti-Patterns to Avoid
+
+- **Don't** only update the Documents section — every document insight must appear in at least one body section
+- **Don't** write vague connections — always include mechanism, pathway, or direction of effect
+- **Don't** skip the callout attribution — readers need to know where the insight came from
+- **Don't** duplicate the same fact in multiple body sections — place it in the most relevant section once
+
 ## References
 
 - [Obsidian Flavored Markdown](https://help.obsidian.md/obsidian-flavored-markdown)
