@@ -242,7 +242,7 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 ## Linking Summary:
 
 - New links added: [[SIRT1]], [[Sirtuins]], [[Caloric Restriction]], [[Epigenome]], [[Heterochromatin]], [[Aging]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Diabetes Mellitus]], [[Resveratrol]]
-- Suggested new entity notes to create: [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
+- Suggested new entity notes to create: [[NAD+]], [[PGC-1α]], [[Sirtuin Activators]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Sirtuins]], [[SIRT1]] ↔ [[Caloric Restriction]]
 
 - New links added: [[Autophagy]], [[Atg]], [[FoxO1]], [[FOXO3a]], [[Caloric Restriction]], [[Intermittent Fasting]], [[AMPK]]

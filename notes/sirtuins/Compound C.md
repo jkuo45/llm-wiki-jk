@@ -23,7 +23,7 @@ Compound C is a reversible [[ATP]]-competitive inhibitor of AMPK (K_i ≈ 109 nM
 Compound C is used to establish whether downstream effects of [[Adrenochrome]] and other redox-active compounds are AMPK-dependent:
 
 - Demonstrating that [[Adrenochrome]]-induced [[TFEB]] nuclear translocation and autophagic enhancement require [[AMPK]] activity.
-- Testing whether adrenochrome's upregulation of [[PGC-1alpha|PGC-1α]] and [[Mitochondrial Biogenesis]] proceeds through [[AMPK]].
+- Testing whether adrenochrome's upregulation of [[PGC-1α|PGC-1α]] and [[Mitochondrial Biogenesis]] proceeds through [[AMPK]].
 - Dissecting [[SIRT1]]–[[AMPK]] cross-talk: AMPK can activate [[SIRT1]] via [[NAMPT]]-mediated [[NAD+]] elevation, and Compound C helps determine directionality—i.e., whether a SIRT1 effect is upstream (activating AMPK) or downstream of AMPK in a given context.
 
 ## Broader Signaling Context
@@ -40,12 +40,12 @@ Because Compound C inhibits ATP-binding kinases broadly, prolonged exposure can 
 - [[TFEB]] — downstream effector whose adrenochrome-induced nuclear translocation is AMPK-dependent
 - [[Adrenochrome]] — compound whose AMPK-dependent effects are validated using Compound C
 - [[SIRT1]] — downstream node in AMPK–NAD⁺ axis
-- [[PGC-1alpha]] — transcriptional target activated via AMPK
+- [[PGC-1α]] — transcriptional target activated via AMPK
 - [[Autophagy]] — AMPK-dependent process triggered by adrenochrome
 - [[NAMPT]] — AMPK upregulates NAMPT to elevate NAD⁺ and activate SIRT1
 
 ## Linking Summary
 
-- New links added: [[AMPK]], [[TFEB]], [[Adrenochrome]], [[SIRT1]], [[PGC-1alpha]], [[Autophagy]], [[NAD+]], [[NAMPT]], [[CaMKKβ]], [[BMP]], [[ATP]]
+- New links added: [[AMPK]], [[TFEB]], [[Adrenochrome]], [[SIRT1]], [[PGC-1α]], [[Autophagy]], [[NAD+]], [[NAMPT]], [[CaMKKβ]], [[BMP]], [[ATP]]
 - Suggested new entity notes to create: [[AICAR]], [[A-769662]], [[LKB1]]
 - Strong connections to strengthen: [[Compound C]] ↔ [[AMPK]]
