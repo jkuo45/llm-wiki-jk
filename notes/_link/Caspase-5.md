@@ -1,5 +1,5 @@
 ---
-title: Caspase 5
+title: Caspase-5
 description: Human inflammatory caspase of the non-canonical inflammasome; cleaves gasdermin D to form pyroptotic pores and participates in IL-1α processing relevant to the SASP.
 created: 2026-07-07
 updated: 2026-07-08
@@ -9,12 +9,12 @@ tags:
   - sasp
   - inflammasome
   - caspase
-aliases: [Caspase 5, CASP5]
+aliases: [Caspase-5, CASP5]
 ---
 
-# Caspase 5
+# Caspase-5
 
-Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspase 11]] (mouse) and [[Caspase 4]] (human). It is best known for its role in the non-canonical inflammasome: in response to cytosolic danger signals it oligomerizes and cleaves [[Gasdermin D]], generating plasma-membrane pores that drive [[Pyroptosis]] and release of inflammatory mediators. In the context of senescence, caspase 5 (and its orthologs) also contributes to [[IL-1α]] processing, a regulatory step embedded in the [[SASP|Senescence-Associated Secretory Phenotype]].
+Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspase-11]] (mouse) and [[Caspase-4]] (human). It is best known for its role in the non-canonical inflammasome: in response to cytosolic danger signals it oligomerizes and cleaves [[Gasdermin D]], generating plasma-membrane pores that drive [[Pyroptosis]] and release of inflammatory mediators. In the context of senescence, caspase 5 (and its orthologs) also contributes to [[IL-1α]] processing, a regulatory step embedded in the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -42,13 +42,13 @@ Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspa
 ## Connections
 
 - [[IL-1α]]: Caspase 5 cleaves IL-1α
-- [[Caspase 4]]: Human paralog of caspase 5 in the non-canonical inflammasome
-- [[Caspase 11]]: Mouse ortholog with overlapping non-canonical functions
+- [[Caspase-4]]: Human paralog of caspase 5 in the non-canonical inflammasome
+- [[Caspase-11]]: Mouse ortholog with overlapping non-canonical functions
 - [[Gasdermin D]]: Substrate cleaved by caspase 5 to form pyroptotic pores
 - [[Caspase-1]]: Cooperates with caspase 5 in inflammasome amplification
 - [[SASP|Senescence-Associated Secretory Phenotype]]: Caspase 5 activates SASP through IL-1α
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[Caspase 4]], [[Caspase 11]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
+- New links added: [[IL-1α]], [[Caspase-4]], [[Caspase-11]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Strong connections to strengthen: Caspase 5 ↔ [[IL-1α]] activation, Caspase 5 ↔ [[Gasdermin D]]

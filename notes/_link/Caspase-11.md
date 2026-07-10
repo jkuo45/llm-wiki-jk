@@ -1,5 +1,5 @@
 ---
-title: Caspase 11
+title: Caspase-11
 description: Mouse inflammatory caspase of the non-canonical inflammasome; detects cytosolic LPS, cleaves gasdermin D to form pyroptotic pores, and participates in IL-1α processing relevant to the SASP.
 created: 2026-07-07
 updated: 2026-07-08
@@ -9,12 +9,12 @@ tags:
   - sasp
   - inflammasome
   - caspase
-aliases: [Caspase 11, CASP11, Casp11]
+aliases: [Caspase-11, CASP11, Casp11]
 ---
 
-# Caspase 11
+# Caspase-11
 
-Caspase 11 is the mouse inflammatory (non-canonical) caspase that is the functional ortholog of human [[Caspase 4]] and [[Caspase 5]]. It is the canonical cytosolic sensor of Gram-negative bacterial LPS: direct binding of LPS to the caspase-11 CARD induces oligomerization, auto-cleavage, and activation. Activated caspase 11 cleaves [[Gasdermin D]] to form plasma-membrane pores that drive [[Pyroptosis]], and it cooperates with [[Caspase-1]] to mature IL-1β/IL-18. In senescence biology, caspase 11 (and its human orthologs) also contributes to [[IL-1α]] processing, a regulatory step within the [[SASP|Senescence-Associated Secretory Phenotype]].
+Caspase 11 is the mouse inflammatory (non-canonical) caspase that is the functional ortholog of human [[Caspase-4]] and [[Caspase-5]]. It is the canonical cytosolic sensor of Gram-negative bacterial LPS: direct binding of LPS to the caspase-11 CARD induces oligomerization, auto-cleavage, and activation. Activated caspase 11 cleaves [[Gasdermin D]] to form plasma-membrane pores that drive [[Pyroptosis]], and it cooperates with [[Caspase-1]] to mature IL-1β/IL-18. In senescence biology, caspase 11 (and its human orthologs) also contributes to [[IL-1α]] processing, a regulatory step within the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -42,13 +42,13 @@ Caspase 11 is the mouse inflammatory (non-canonical) caspase that is the functio
 ## Connections
 
 - [[IL-1α]]: Caspase 11 cleaves IL-1α
-- [[Caspase 4]]: Human ortholog of caspase 11
-- [[Caspase 5]]: Human paralog with overlapping functions
+- [[Caspase-4]]: Human ortholog of caspase 11
+- [[Caspase-5]]: Human paralog with overlapping functions
 - [[Gasdermin D]]: Substrate cleaved by caspase 11 to form pyroptotic pores
 - [[Caspase-1]]: Cooperates with caspase 11 in inflammasome amplification
 - [[SASP|Senescence-Associated Secretory Phenotype]]: Caspase 11 activates SASP through IL-1α
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[Caspase 4]], [[Caspase 5]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
+- New links added: [[IL-1α]], [[Caspase-4]], [[Caspase-5]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Strong connections to strengthen: Caspase 11 ↔ [[IL-1α]] activation, Caspase 11 ↔ [[Gasdermin D]]

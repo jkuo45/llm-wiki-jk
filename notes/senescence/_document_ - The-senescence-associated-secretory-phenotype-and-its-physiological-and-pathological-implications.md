@@ -51,7 +51,7 @@ As the first-discovered SASP components, proteins are by far the most characteri
 
 #### Interleukins and Cytokines
 
-[[IL-1α]] and [[Interleukin 1β|IL-1β]] are among the most widely studied SASP factors. They can be secreted into the extracellular environment or intracellularly activate other key SASP interleukins such as [[IL-6]] and [[IL-8]], which can reinforce proliferation arrest, induce [[Paracrine Senescence|paracrine senescence]] and mediate immune responses. The cleavage of IL-1α by [[Caspase 5]] or [[Caspase 11]] is essential for the regulatory functions of the SASP.
+[[IL-1α]] and [[Interleukin 1β|IL-1β]] are among the most widely studied SASP factors. They can be secreted into the extracellular environment or intracellularly activate other key SASP interleukins such as [[IL-6]] and [[IL-8]], which can reinforce proliferation arrest, induce [[Paracrine Senescence|paracrine senescence]] and mediate immune responses. The cleavage of IL-1α by [[Caspase-5]] or [[Caspase-11]] is essential for the regulatory functions of the SASP.
 
 > [!note] IL-1α Translocation
 > Cleaved IL-1α can rapidly move from the cell surface to the nucleus, depending on copper and/or calcium homeostasis and on the calcium-binding protein [[S100A13]], and activates transcription of other pro-inflammatory SASP factors. Moreover, miR-146a and/or miR-146b act downstream of IL-1α to regulate IL-6 and IL-8 in senescent cells.
