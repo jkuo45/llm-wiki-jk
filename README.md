@@ -2,30 +2,30 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table
-| topic | updated | documents | entities | words | disk | wiki |
-| :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 09_JUL_2026 | 16 | 1005 | 567,657 | 4.59 MB | [[notes/_link/README\|link]] |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 09_JUL_2026 | 19 | 263 | 204,584 | 2.07 MB | [[notes/adrenochrome/README\|link]] |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 09_JUL_2026 | 11 | 233 | 157,412 | 1.44 MB | [[notes/autophagy/README\|link]] |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 09_JUL_2026 | 9 | 261 | 225,315 | 2.11 MB | [[notes/cancer/README\|link]] |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 09_JUL_2026 | 2 | 35 | 21,068 | 0.52 MB | [[notes/comt/README\|link]] |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 09_JUL_2026 | 10 | 195 | 212,261 | 4.92 MB | [[notes/epigenetics/README\|link]] |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 09_JUL_2026 | 2 | 84 | 59,162 | 0.81 MB | [[notes/neuromelanin/README\|link]] |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 09_JUL_2026 | 1 | 65 | 69,198 | 0.96 MB | [[notes/oxidative_stress/README\|link]] |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) | 09_JUL_2026 | 3 | 21 | 27,950 | 0.22 MB | [[notes/senescence/README\|link]] |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 09_JUL_2026 | 8 | 120 | 182,915 | 1.63 MB | [[notes/sirtuins/README\|link]] |
-| --- | --- | ---: | ---: | ---: | ---: | --- |
-| **subtotal** | 09_JUL_2026 | **81** | **2282** | **1,727,522** | **19.26 MB** | |
+| topic | updated | documents | entities | words | disk |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 10_JUL_2026 | 16 | 1008 | 569,680 | 4.60 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 10_JUL_2026 | 19 | 263 | 204,725 | 1.87 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]] | 09_JUL_2026 | 11 | 233 | 157,474 | 1.29 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 9 | 263 | 226,982 | 2.18 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) [[notes/comt/README\|wiki]] | 09_JUL_2026 | 2 | 35 | 21,070 | 0.20 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 09_JUL_2026 | 10 | 195 | 212,297 | 4.01 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 09_JUL_2026 | 2 | 84 | 59,164 | 0.54 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 09_JUL_2026 | 1 | 65 | 69,228 | 0.64 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 10_JUL_2026 | 4 | 22 | 35,589 | 0.35 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 09_JUL_2026 | 8 | 120 | 182,939 | 1.52 MB |
+| --- | --- | ---: | ---: | ---: | ---: |
+| **subtotal** | 10_JUL_2026 | **82** | **2288** | **1,739,148** | **17.20 MB** |
 <!-- END GENERATED: summary_table -->
 
-_\*notes directory only_\*
+**_\*Summary Table: notes directory only_\***
 
 ---
 
 ## 📝 updates
 
-> [!NOTE] Current
-> NAD+, Sirtuins, `task_output` updates, SASP documents, etc.
+> [!NOTE] Currently Reading
+> Senescence, NAD+, Sirtuins, `task_output` updates, SASP documents, etc.
 
 ### 📌 notable:
 
@@ -43,7 +43,6 @@ _\*notes directory only_\*
 - 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md)
   - Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
   - 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
-
 ---
 
 ### 📅 recent:
@@ -81,8 +80,9 @@ _\*notes directory only_\*
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 
 <!-- GENERATED: document_list -->
-## Documents (81 total)
+## Documents (82 total)
 
+- `senescence`: [The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20The%20Senescence-Associated%20Secretory%20Phenotype%20The%20Dark%20Side%20of%20Tumor%20Suppression.md) [[notes/senescence/_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression.md|wiki]] (10_JUL_2026 11:58 AM PDT)
 - `adrenochrome`: [as senotherapeutic agent](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20as%20senotherapeutic%20agent.md) [[notes/adrenochrome/_document_ - as senotherapeutic agent.md|wiki]] (09_JUL_2026 09:55 PM PDT)
 - `senescence`: [Fisetin is a senotherapeutic that extends health and lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[notes/senescence/_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md|wiki]] (09_JUL_2026 09:55 PM PDT)
 - `senescence`: [SASP, senescent cells, grok](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20SASP%2C%20senescent%20cells%2C%20grok.md) [[notes/senescence/_document_ - SASP, senescent cells, grok.md|wiki]] (09_JUL_2026 09:55 PM PDT)
