@@ -11,13 +11,15 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 09_JULY_2026 02:41 PM PDT
-- Total count of entities: 237
+- Total count of entities: 253
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
 | [[ACE Inhibitors]]                               | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
+| [[ACTH]] | 09_Jul_2026 07:00 PM | Chemical Compound | Hormone, HPA Axis, Stress Response |
 | [[Acetyl-L-Carnitine]]                           | 08_Jul_2026 12:00 PM | Chemical Compound      | Aging, Mitochondria                             |
 | [[Acute Respiratory Distress Syndrome]]          | 08_Jul_2026 11:28 AM | Medical Condition      | Pulmonology, Critical Care                      |
+| [[ADP]] | 09_Jul_2026 07:00 PM | Biological Molecule | Energy Metabolism, Mitochondria |
 | [[Aging]]                                        | 29_May_2026 08:20 AM | Biological Process     | Epigenetics, Oxidative Stress, Yamanaka Factors |
 | [[Akt]]                                          | 29_May_2026 08:20 AM | Protein                | Cancer, Signaling                               |
 | [[Albuminuria]]                                  | 08_Jul_2026 12:00 PM | Medical Condition      | Nephrology, Diabetes                            |
@@ -33,11 +35,13 @@ This directory contains entities that span across multiple topics within the kno
 | [[Aryl Hydrocarbon Receptor]]                    | 08_Jul_2026 12:00 PM | Receptor               | Immunology, Kynurenine Pathway                  |
 | [[Ascorbic Acid]]                                | 29_May_2026 08:20 AM | Chemical Compound      | Nutrition, Oxidative Stress                     |
 | [[Atherosclerosis]]                              | 29_May_2026 08:20 AM | Medical Condition      | Cardiovascular                                  |
+| [[Autonomic Nervous System]] | 09_Jul_2026 07:00 PM | Biological Process | Autonomic Nervous System, HRV, Recovery |
 | [[Autophagy]]                                    | 29_May_2026 08:20 AM | Biological Process     | Longevity, Proteostasis                         |
 | [[Bax]]                                           | 09_Jul_2026 12:00 PM | Protein                | Apoptosis, Bcl-2 Family                         |
 | [[Biphasic Dose-Response Curve]]                       | 09_Jul_2026 02:41 PM | Scientific Concept     | Hormesis, Dose-Response, Pharmacology           |
 | [[Bid]]                                           | 09_Jul_2026 12:00 PM | Protein                | Apoptosis, Bcl-2 Family, BH3-only               |
 | [[Breast Cancer]]                                | 29_May_2026 08:20 AM | Medical Condition      | Cancer                                          |
+| [[Brown Adipose Tissue]] | 09_Jul_2026 07:00 PM | Anatomy | Thermogenesis, Mitochondria, Mitohormesis |
 | [[Caloric Restriction]]                          | 29_May_2026 08:20 AM | Biological Process     | Longevity                                       |
 | [[Cancer]]                                       | 29_May_2026 08:20 AM | Medical Condition      | Oncology                                        |
 | [[Cardiovascular Disease]]                       | 29_May_2026 08:20 AM | Medical Condition      | Cardiology                                      |
@@ -47,6 +51,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Colorectal Cancer]]                            | 29_May_2026 08:20 AM | Medical Condition      | Cancer                                          |
 | [[COMT]]                                         | 31_May_2026 01:00 PM | Enzyme                 | Metabolism, Genetics                            |
 | [[CPEO]]                                         | 09_Jul_2026 12:00 PM | Medical Condition      | Mitochondrial Disorder, Myopathy                |
+| [[Cortisol]] | 09_Jul_2026 07:00 PM | Chemical Compound | Glucocorticoid, Stress Hormone, HPA Axis |
 | [[Cross-linking]]                                | 08_Jul_2026 12:00 PM | Chemical Process       | Aging, Glycation                                |
 | [[Cytochrome C]]                                 | 09_Jul_2026 12:00 PM | Protein                | Electron Transport, Apoptosis, Retrograde Signaling |
 | [[Cyclic Guanosine Monophosphate]]               | 08_Jul_2026 11:28 AM | Biological Molecule    | Signal Transduction, Nitric Oxide Pathway       |
@@ -78,6 +83,10 @@ This directory contains entities that span across multiple topics within the kno
 | [[Guanylate Cyclase]]                            | 08_Jul_2026 11:28 AM | Enzyme                 | Signal Transduction, Nitric Oxide Pathway       |
 | [[Hepatic Stellate Cells]]                       | 09_Jul_2026 01:00 PM | Cell Type              | Liver, Fibrosis, Cancer                         |
 | [[Histamine Intolerance]]                        | 08_Jul_2026 11:28 AM | Medical Condition      | Histamine, Food Sensitivity                     |
+| [[hs-CRP]] | 09_Jul_2026 07:00 PM | Diagnostic Test | Inflammation, Biomarker, Cardiovascular Risk |
+| [[Heat Shock Proteins]] | 09_Jul_2026 07:00 PM | Protein | Chaperone, Heat Shock Response, Mitohormesis |
+| [[Heart Rate Variability]] | 09_Jul_2026 07:00 PM | Biological Process | HRV, Autonomic Nervous System, Recovery |
+| [[HIIT]] | 09_Jul_2026 07:00 PM | Biological Process | Exercise, Mitohormesis, Mitochondrial Biogenesis |
 | [[Human Growth Hormone]]                         | 08_Jul_2026 12:00 PM | Protein                | Hormone, Longevity, mTOR                        |
 | [[Hutchinson-Gilford Progeria Syndrome]]         | 31_May_2026 06:45 PM | Medical Condition      | Epigenetics, Yamanaka Factors                   |
 | [[Hydrogen Peroxide]]                            | 29_May_2026 08:20 AM | Chemical Compound      | Oxidative Stress                                |
@@ -106,6 +115,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Long COVID]]                                   | 08_Jul_2026 11:28 AM | Medical Condition      | Post-viral, Mitochondrial Dysfunction           |
 | [[Magnesium]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Mineral                                         |
 | [[MAPK]]                                         | 29_May_2026 08:20 AM | Protein                | Signaling                                       |
+| [[MCT Oil]] | 09_Jul_2026 07:00 PM | Chemical Compound | Lipid, Supplement, Mitochondrial Fuel |
 | [[MELAS]]                                        | 09_Jul_2026 12:00 PM | Medical Condition      | Mitochondrial Disorder, Neurology               |
 | [[Melatonin]]                                    | 29_May_2026 08:20 AM | Biological Molecule    | Hormone, Sleep                                  |
 | [[Metformin]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Diabetes, Longevity                             |
@@ -143,10 +153,13 @@ This directory contains entities that span across multiple topics within the kno
 | [[p53]]                                          | 29_May_2026 08:20 AM | Protein                | Cancer, DNA Repair                              |
 | [[Parkinson's Disease]]                          | 29_May_2026 08:20 AM | Medical Condition      | Neurodegeneration                               |
 | [[PDE5 Inhibitors]]                              | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
+| [[Parasympathetic Nervous System]] | 09_Jul_2026 07:00 PM | Biological Process | Autonomic Nervous System, Vagus Nerve, Recovery |
 | [[Pentose Phosphate Pathway]]                    | 08_Jul_2026 11:28 AM | Biological Process     | Metabolism, Redox                               |
 | [[Phenelzine]]                                   | 08_Jul_2026 11:28 AM | Medical Product        | Pharmacology, Psychiatry                        |
 | [[Phenothiazine]]                                | 08_Jul_2026 12:00 PM | Chemical Class         | Phenothiazine, Redox                            |
+| [[Photobiomodulation]] | 09_Jul_2026 07:00 PM | Biological Process | Light Therapy, Mitochondria, Mitohormesis |
 | [[PI3K]]                                         | 29_May_2026 08:20 AM | Protein                | Signaling, Cancer                               |
+| [[PQQ]] | 09_Jul_2026 07:00 PM | Chemical Compound | Redox Cofactor, Supplement, Mitochondrial Biogenesis |
 | [[Pneumonitis]]                                  | 08_Jul_2026 12:00 PM | Medical Condition      | Pulmonary, Adverse Effect                       |
 | [[Promethazine]]                                 | 08_Jul_2026 12:00 PM | Chemical Compound      | Phenothiazine, Antihistamine                    |
 | [[Proteostasis]]                                 | 08_Jul_2026 12:00 PM | Biological Process     | Aging, Protein Quality                          |
@@ -180,6 +193,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Stem Cells]]                                   | 08_Jul_2026 12:00 PM | Cell Type              | Regeneration, Aging                             |
 | [[Stomatitis]]                                   | 08_Jul_2026 12:00 PM | Medical Condition      | Adverse Effect, Mucosal                         |
 | [[Substantia Nigra]]                             | 29_May_2026 08:20 AM | Anatomy                | Neuroscience                                    |
+| [[Sympathetic Nervous System]] | 09_Jul_2026 07:00 PM | Biological Process | Autonomic Nervous System, Stress, HRV |
 | [[Superoxide Dismutase]]                         | 29_May_2026 08:20 AM | Enzyme                 | Antioxidant                                     |
 | [[TDO]]                                          | 08_Jul_2026 12:00 PM | Enzyme                 | Kynurenine Pathway, Metabolism                  |
 | [[TFAM]]                                         | 08_Jul_2026 12:00 PM | Protein                | Mitochondrial, Transcription Factor             |
@@ -197,6 +211,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Ventral Tegmental Area]]                       | 29_May_2026 08:20 AM | Anatomy                | Neuroscience                                    |
 | [[Very Low Density Lipoprotein]]                 | 08_Jul_2026 12:00 PM | Biological Molecule    | Cardiovascular, Lipid                           |
 | [[Vitamin E]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Antioxidant                                     |
+| [[UCP1]] | 09_Jul_2026 07:00 PM | Protein | Mitochondrial Carrier, Thermogenesis, Mitohormesis |
 | [[Bioavailability]]                               | 09_Jul_2026 12:00 PM | Scientific Concept     | Pharmacokinetics, Drug Delivery                 |
 | [[Cyclodextrins]]                                | 09_Jul_2026 12:00 PM | Chemical Class         | Drug Delivery, Excipient                       |
 | [[Fisetin]]                                      | 09_Jul_2026 12:00 PM | Chemical Compound      | Flavonoids, Senolytic, Aging                    |
@@ -254,3 +269,5 @@ This directory contains entities that span across multiple topics within the kno
 | [[Nucleoside Reverse Transcriptase Inhibitor]]    | 09_JULY_2026 02:41 PM PDT | Chemical Compound      | Senescence, Antiretroviral, Inflammaging        |
 | [[Therapy-Induced Senescence]]                    | 09_JULY_2026 02:41 PM PDT | Biological Process     | Senescence, DNA Damage, SASP                     |
 | [[Senotherapy]]                                   | 09_JULY_2026 02:41 PM PDT | Therapeutic Strategy   | Senescence, Aging, SASP                         |
+
+| [[Zone 2 Cardio]] | 09_Jul_2026 07:00 PM | Biological Process | Exercise, Aerobic, Mitohormesis |

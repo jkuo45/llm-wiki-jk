@@ -56,6 +56,9 @@ List of documents that mention this entity
     - Numerous target proteins, including histone and non-histone, have been shown to be modified by SIRTs, and participates in the regulation of multiple fundamental cellular functions including glucose, and lipid metabolism, Mitochondrial Biogenesis, DNA repair...
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Frames mitochondrial biogenesis as the adaptive payoff of hormetic stress, driven by AMPK/PGC-1α/SIRT1/NRF2 and monitored via HRV and blood markers.
+
 ## Connections
 
 - [[AMPK]]: Upstream activator of PGC-1α; AMPK and SIRT1 cooperate to induce [[Mitochondrial Biogenesis]].

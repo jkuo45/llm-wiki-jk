@@ -44,6 +44,12 @@ The vagus exemplifies that neuromelanin-associated vulnerability is not confined
 - [[Alpha-synuclein]]: Pathology spreading via vagal pathways.
 - [[Aging]]: Drives neuromelanin accrual toward threshold.
 
+
+## Documents
+
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Drives parasympathetic (vagal) tone; high vagal tone raises HRV and enables the recovery that makes stress hormetic.
+
 ## Linking Summary
 - New links added: [[Dorsal Motor Nucleus of the Vagus]], [[Medulla Oblongata]], [[Parkinson's Disease]], [[Locus Coeruleus]], [[Substantia Nigra Pars Compacta]], [[Neuromelanin]], [[Alpha-synuclein]], [[Aging]], [[Pathogenic Threshold of Neuromelanin]].
 - Suggested new entity notes to create: [[Enteric Nervous System]], [[Braak Staging]], [[Vagotomy]].

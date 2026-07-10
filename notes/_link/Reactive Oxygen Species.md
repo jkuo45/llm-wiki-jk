@@ -95,6 +95,9 @@ List of documents that mention this entity
     - Sirt3 suppresses tumor growth via regulating hypoxia-inducible factor 1α and suppressing Reactive Oxygen Species (Bell et al. ).
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - The transient acute ROS spike from HIIT is the trigger that activates AMPK/PGC-1α/SIRT1/NRF2 downstream pathways.
+
 ## Connections
 - [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.

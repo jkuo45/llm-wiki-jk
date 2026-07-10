@@ -73,6 +73,9 @@ List of documents that mention this entity
     - The effect of SIRT1, SIRT 2, and SIRT6 on Nuclear erythroid 2-related factor 2 (NRF2): NRF2 is a leucine transcription factor that plays extremely important roles in antioxidant response element (ARE)-dependent transcriptional regulation of defense genes.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Listed as a key stress-response pathway activated by polyphenols (EGCG) and sulforaphane to boost antioxidant defenses during mitohormesis.
+
 ## Connections
 - [[Keap1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
 - [[Antioxidant Response Element]] — DNA binding site for NRF2 target gene activation

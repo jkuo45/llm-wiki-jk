@@ -185,6 +185,9 @@ List of documents that mention this entity
     - Sirtuins in mammals: insights into their biological function Shaday MICHAN and David SINCLAIR Department of Pathology, Paul F. Glenn Laboratories for the Biological Mechanisms of Aging, Harvard Medical School, 77 Ave Louis Pasteur, Boston, MA, U.S.A.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by NMN/NR supplementation.
+
 ## Connections
 
 - [[SIRT2]]: - **Class I**: SIRT1, SIRT2, and [[SIRT3]] (possess robust deacetylase activity).

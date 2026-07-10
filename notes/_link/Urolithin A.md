@@ -41,6 +41,9 @@ List of documents that mention this entity
     - Cleanup: Urolithin A (Mitophagy inducer). 1.2 Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - A potent mitophagy inducer (a core mitohormetic mechanism); taken with a fat-containing meal to enhance absorption.
+
 ## Connections
 - [[Mitohormetic Redox-Relay]] — interacts with Urolithin A
 - [[Carbazochrome]] — interacts with Urolithin A

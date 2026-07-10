@@ -28,6 +28,12 @@ Fasting is the voluntary abstinence from food and caloric beverages for a define
 - [[Mitochondria]] — fasting promotes mitochondrial biogenesis and efficiency
 - [[Inflammation]] — fasting reduces inflammatory markers
 
+
+## Documents
+
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Activates AMPK and mitophagy; the 3–4 h pre-sleep food-free window is emphasized to improve overnight HRV.
+
 ## Linking Summary
 - New links added: [[Intermittent Fasting]], [[Autophagy]], [[AMPK]], [[mTORC1]], [[SIRT1]], [[IGF1]], [[Ketone Bodies]], [[Longevity]], [[Mitochondria]], [[Inflammation]], [[Metabolic Health]], [[Neuroprotection]], [[Cancer Prevention]]
 - Suggested new entity notes to create: [[Time-Restricted Feeding]], [[Metabolic Switch]]

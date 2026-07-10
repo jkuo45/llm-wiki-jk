@@ -56,6 +56,9 @@ Because HRV fluctuates constantly based on your thoughts, breathing, and posture
 - **Overnight Tracking (Recommended):** Wearables like the Oura Ring, Whoop, or Garmin track your HRV continuously throughout the night, providing a highly accurate average that reflects your recovery from the previous day.
 - **Morning Snapshot:** If using an Apple Watch or chest strap (like Polar H10 paired with the EliteHRV app), take the reading immediately upon waking, lying down, breathing normally for 2–3 minutes before looking at your phone or starting your day.
 
+> [!important] HRV as the Recovery Dashboard
+> If [[Mitohormesis]] is the accelerator pedal for longevity and energy, [[Heart Rate Variability|HRV]] is your dashboard telling you exactly when it is safe to push the engine and when you need to pull over and refuel. Adaptive stress is only hormetic when followed by adequate recovery.
+
 In short, if mitohormesis is the accelerator pedal for longevity and energy, HRV is your dashboard telling you exactly when it is safe to push the engine and when you need to pull over and refuel.
 
 ## Visualizing Mitohormesis, Recovery, and HRV
@@ -95,8 +98,8 @@ If you track your HRV using a spreadsheet, Notion, or your wearable's native app
 | Zone | HRV Behavior | What Is Happening | Action |
 | --- | --- | --- | --- |
 | **Green Zone** (Adaptive) | Daily HRV stays within or slightly above your baseline range. | [[Mitohormesis]] in action. Your body is successfully adapting to the stressors you are throwing at it. | Keep training; you can safely apply another hormetic stressor. |
-| **Yellow Zone** (Acute Strain) | Daily HRV drops 15–20% below baseline for 1–2 days. | Acute stress response. Your [[Mitochondria\|mitochondria]] and nervous system are actively working to adapt. | Prioritize passive recovery (light walking, good sleep, clean nutrition). Do not add intense stressors today. |
-| **Red Zone** (Chronic Under-Recovery) | 7-day average HRV drops and stays below your baseline band for 3+ consecutive days. | System failure. The hormetic limit has been exceeded. Mitohormesis has crossed over into chronic systemic [[Inflammation\|inflammation]] or overtraining. | Stop all intense stressors immediately. Focus purely on deep sleep, hydration, and stress reduction until the baseline recovers. |
+| **Yellow Zone** (Acute Strain) | Daily HRV drops 15–20% below baseline for 1–2 days. | Acute stress response. Your [[Mitochondria|mitochondria]] and nervous system are actively working to adapt. | Prioritize passive recovery (light walking, good sleep, clean nutrition). Do not add intense stressors today. |
+| **Red Zone** (Chronic Under-Recovery) | 7-day average HRV drops and stays below your baseline band for 3+ consecutive days. | System failure. The hormetic limit has been exceeded. Mitohormesis has crossed over into chronic systemic [[Inflammation|inflammation]] or overtraining. | Stop all intense stressors immediately. Focus purely on deep sleep, hydration, and stress reduction until the baseline recovers. |
 
 ### How to Set This Up in Your Own Tools
 
@@ -229,13 +232,16 @@ If there is one variable that will instantly improve your overnight HRV, it is s
 
 ### Key Mechanisms
 
-Mitohormesis relies on creating a temporary, acute increase in [[Reactive Oxygen Species|reactive oxygen species (ROS)]] or a transient cellular energy deficit. This activates key nutrient-sensing and stress-response pathways like [[AMPK]], [[PGC-1α]], [[Sirtuins|SIRT1]], and [[Nrf2]]. Together, these pathways drive [[Mitochondrial Biogenesis|mitochondrial biogenesis]] (creating new mitochondria), stimulate [[Mitophagy]] (clearing old/dysfunctional mitochondria), and boost the cell's internal antioxidant defense systems, leaving you with a highly efficient, resilient metabolic engine.
+> [!info] The Mitohormetic Trigger
+> Mitohormesis relies on creating a temporary, acute increase in [[Reactive Oxygen Species|reactive oxygen species (ROS)]] or a transient cellular energy deficit.
+
+Mitohormesis relies on creating a temporary, acute increase in [[Reactive Oxygen Species|reactive oxygen species (ROS)]] or a transient cellular energy deficit. This activates key nutrient-sensing and stress-response pathways like [[AMPK]], [[PGC-1α]], [[Sirtuins|SIRT1]], and [[NRF2]]. Together, these pathways drive [[Mitochondrial Biogenesis|mitochondrial biogenesis]] (creating new mitochondria), stimulate [[Mitophagy]] (clearing old/dysfunctional mitochondria), and boost the cell's internal antioxidant defense systems, leaving you with a highly efficient, resilient metabolic engine.
 
 ### Dietary Recommendations
 
 - **Prioritized foods, nutrients, and supplements:**
-  - **Polyphenol-rich foods (xenohormetins):** Blueberries, dark chocolate (cacao), green tea ([[EGCG]]), and extra virgin olive oil. These plant defense compounds act as mild stressors that activate the [[Nrf2]] and sirtuin pathways.
-  - **Cruciferous vegetables:** Broccoli sprouts (rich in [[Sulforaphane]]) for potent Nrf2 activation and upregulation of Phase II detoxification enzymes.
+  - **Polyphenol-rich foods (xenohormetins):** Blueberries, dark chocolate (cacao), green tea ([[EGCG]]), and extra virgin olive oil. These plant defense compounds act as mild stressors that activate the [[NRF2]] and sirtuin pathways.
+  - **Cruciferous vegetables:** Broccoli sprouts (rich in [[Sulforaphane]]) for potent [[NRF2]] activation and upregulation of Phase II detoxification enzymes.
   - **Omega-3 fatty acids (EPA/DHA):** Wild-caught salmon, sardines, or algae oil to optimize mitochondrial membrane fluidity and reduce systemic baseline [[Inflammation|inflammation]].
   - **CoQ10 / Ubiquinol & PQQ:** For optimal [[Electron Transport Chain|electron transport chain]] function and synergistic stimulation of mitochondrial biogenesis.
   - **MCT oil (caprylic acid / C8):** Provides a direct, efficient mitochondrial fuel that increases endogenous ketone production, acting as a signaling molecule to promote mitohormesis.
@@ -263,7 +269,7 @@ Mitohormesis relies on creating a temporary, acute increase in [[Reactive Oxygen
 - **Light, temperature, and environmental exposures:**
   - **Cold exposure:** Cold plunges or cold showers (1–3 minutes) activate [[Brown Adipose Tissue|brown adipose tissue]] and induce [[UCP1|uncoupling protein 1 (UCP1)]], leading to increased mitochondrial density.
   - **Heat exposure:** Sauna use (15–20 mins) induces [[Heat Shock Proteins|heat shock proteins (HSPs)]] which repair misfolded proteins and support mitochondrial function.
-  - **Photobiomodulation:** Daily exposure to morning sunlight or targeted red/near-infrared light therapy directly stimulates [[Cytochrome c Oxidase|cytochrome c oxidase (Complex IV)]] in the mitochondria, enhancing [[ATP]] production.
+  - **Photobiomodulation:** Daily exposure to morning sunlight or targeted red/near-infrared light therapy directly stimulates [[Complex IV|cytochrome c oxidase (Complex IV)]] in the mitochondria, enhancing [[ATP]] production.
 
 - **Other high-impact behaviors:**
   - **Circadian alignment & sleep hygiene:** [[Melatonin]] is a critical, mitochondria-targeted antioxidant. Ensure complete darkness during sleep to maximize its endogenous production.
@@ -300,4 +306,4 @@ Mitohormesis relies on creating a temporary, acute increase in [[Reactive Oxygen
 > This document was generated via Google AI Studio. Original grounding citations referenced NAD+ circadian biology, Urolithin A mitophagy induction, and creatine energetics; readers should consult primary literature for specific dosing evidence.
 
 > [!info] Suggested new entity notes
-> The following concepts are linked but do not yet have notes in the vault and may warrant creation: [[PQQ]], [[MCT Oil]], [[UCP1]], [[Brown Adipose Tissue]], [[Heat Shock Proteins]], [[Photobiomodulation]], [[HIIT]], [[Zone 2 Cardio]], [[hs-CRP]], [[Intermittent Fasting]].
+> All concepts flagged at ingestion have since been created or resolved: [[PQQ]], [[MCT Oil]], [[UCP1]], [[Brown Adipose Tissue]], [[Heat Shock Proteins]], [[Photobiomodulation]], [[HIIT]], [[Zone 2 Cardio]], [[hs-CRP]], [[Intermittent Fasting]] (pre-existing), plus [[Heart Rate Variability]], [[Autonomic Nervous System]], [[Parasympathetic Nervous System]], [[Sympathetic Nervous System]], and [[ADP]].

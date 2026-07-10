@@ -85,6 +85,9 @@ List of documents that mention this entity
     - Mechanistic studies of acute liver injury demonstrated activation of a pathway involving SIRT1 and multipotent mesenchymal stromal/stem cell-mediated AMPK α in Macrophages, resulting in deacetylation of spliced X-boxbinding protein 1 and subsequent inhibiti...
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Activated by fasting/caloric restriction and exercise to drive mitophagy and mitochondrial biogenesis; constant snacking abolishes the AMPK signal needed for mitophagy.
+
 ## Connections
 - **[[SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.
 - **[[Metformin]]**: A common drug used to activate AMPK and study its anti-aging effects.

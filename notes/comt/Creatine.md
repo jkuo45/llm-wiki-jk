@@ -37,6 +37,9 @@ List of documents that mention this entity
     - Creatine to take the strain off the methylation cycle: About 40% of Methyl groups are used in the body to synthesize Creatine. Thus, adding in Creatine (low doses) may help to take the strain off the Methylation Pathways.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Recycles ADP back into ATP to buffer cellular energy pools and protect HRV during hard training; taken post-workout with carbohydrates.
+
 ## Connections
 
 - [[Methylation Cycle]]: Creatine synthesis is the largest consumer of methyl groups.

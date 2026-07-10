@@ -75,6 +75,9 @@ List of documents that mention this entity
     - Pancreatic diseases: The incidence of Inflammation (AP) has increased globally to approximately 34 cases per 100,000 persons annually with an increased risk of death. Currently, few studies have explored the effects of SIRTs on AP.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Chronically suppressed HRV crosses mitohormesis into systemic inflammation/overtraining; omega-3s and NRF2 activators lower baseline inflammation.
+
 ## Connections
 - [[Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
 - [[Adrenochrome]] ↔ An oxidative byproduct formed at sites of inflammation.

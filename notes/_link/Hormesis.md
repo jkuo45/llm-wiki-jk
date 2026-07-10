@@ -86,6 +86,9 @@ List of documents that mention this entity
   - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
     - Reframes hormesis as a *network-topology* property: any drug-target embedded in an [[Incoherent Bivalent Motif]] (with a [[Saturated Enzymatic Regime]] backward link) can show a [[Biphasic Dose-Response Curve]], predicting and explaining hormesis rather than treating it as toxicity.
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Frames the entire protocol as applied hormesis — acute pulsed stress followed by deep recovery, avoiding chronic destructive stress.
+
 ## Connections
 - [[Incoherent Bivalent Motif]] — the minimal network structure that generates hormesis
 - [[Biphasic Dose-Response Curve]] — the quantitative signature of hormesis
