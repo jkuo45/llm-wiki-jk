@@ -16,7 +16,7 @@
 | neuromelanin     | **97.7%** | 218   | 25         | `bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)` | mechanistic      |
 | oxidative_stress | **99.2%** | 236   | 127        | `produces (13), causes (13), activates (11), contributes to (9), reduces (7)`               | mechanistic      |
 | sirtuins         | **97.7%** | 311   | 125        | `deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)`       | mechanistic      |
-| **senescence**   | **87.4%** | 270   | 108        | `is_suppressed_by (13), is_a_type_of (12), is_regulated_by (12), is_inhibited_by (11)`     | mechanistic      |
+| **senescence**   | **87.4%** | 270   | 108        | `is_suppressed_by (13), is_a_type_of (12), is_regulated_by (12), is_inhibited_by (11)`      | mechanistic      |
 | **cancer**       | **71.8%** | 266   | 102        | `is_inhibited_by (24), is_driven_by (15), inhibits (13), includes (12), is_induced_by (11)` | mechanistic      |
 
 ---
