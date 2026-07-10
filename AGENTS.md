@@ -15,6 +15,14 @@
   - Contains task outputs. Default to saving task outputs to this directory.
 - **Heading and sub-heading enumeration**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
 
+## Retrieval Guidelines:
+
+When answering questions about biomedical topics, prioritize information sources in this order:
+
+1. **Notes first** — Search the `notes/` directory (including `_link/`) for relevant entity notes. Use content from existing wiki notes as the primary basis for your answer.
+2. **LLM knowledge & biomedical context** — If the notes do not fully address the question, supplement with general biomedical knowledge. Clearly distinguish between information sourced from the wiki and information drawn from general knowledge.
+3. **Cross-reference** — Where possible, link back to relevant entity notes in your response (e.g., `[[Entity Name]]`) to reinforce the knowledge graph and surface related concepts.
+
 ## Document Ingestion Workflow:
 
 **Prerequisites:** Documents with `_document_` prefix.
