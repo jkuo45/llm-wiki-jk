@@ -12,6 +12,7 @@ tags:
   - intercellular-signaling
 aliases: [Bystander senescence, secondary senescence]
 protected: true
+---
 
 # Paracrine Senescence
 
@@ -85,6 +86,7 @@ List of documents that mention this entity
 
 ## Connections
 - [[SASP|Senescence-Associated Secretory Phenotype]] — the effector molecules driving paracrine senescence
+- [[Paracrine Reprogramming]] — sister process; SASP alters differentiation status (stemness, EMT, lineage) of neighbours rather than inducing arrest
 - [[Cellular Senescence]] — the state induced in neighbouring cells
 - [[IL-1α]] — primary SASP factor inducing paracrine senescence
 - [[TGFβ]] — SASP factor promoting paracrine senescence in tumour microenvironments
