@@ -94,5 +94,5 @@ NLRP3 hyperactivation is implicated in [[Gout]], [[Type 2 Diabetes Mellitus]], [
 
 ## Linking Summary
 - New links added: [[Inflammation]], [[Mitochondria]], [[Reactive Oxygen Species]], [[NFKB]], [[SIRT1]], [[SIRT3]]
-- Suggested new entity notes to create: [[Caspase-1]], [[IL-1beta]]
+- Suggested new entity notes to create: [[Caspase-1]], [[IL-1β]]
 - Strong connections to strengthen: [[NLRP3]] ↔ [[Mitochondrial Dysfunction]], [[SIRT1]] ↔ [[NLRP3]], [[SIRT3]] ↔ [[NLRP3]]

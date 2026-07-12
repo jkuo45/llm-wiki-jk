@@ -19,7 +19,7 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 
 ## Biological Role
 - **Activation:** Inactive in the cytoplasm (bound to IκB); oxidative stress triggers its translocation to the nucleus.
-- **Gene Regulation:** Induces the expression of over 500 genes, including pro-inflammatory cytokines ([[TNF-alpha]], [[IL-1b]]), adhesion molecules ([[VCAM-1]]), and enzymes ([[NADPH Oxidase]]).
+- **Gene Regulation:** Induces the expression of over 500 genes, including pro-inflammatory cytokines ([[TNF-alpha]], [[IL-1β]]), adhesion molecules ([[VCAM-1]]), and enzymes ([[NADPH Oxidase]]).
 
 ## Impact on Oxidative Stress
 - **Feed-Forward Loop:** ROS activate NF-κB, which in turn induces genes that produce more ROS and inflammation, potentially leading to chronic disease states.
@@ -50,12 +50,12 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[NRF2]], [[p62]], [[HO-1]], [[Alpha-Lipoic Acid]], [[Neurodegenerative Diseases]], [[Cancer]], [[Bcl-xL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[Proteasome]], [[Inflammation]], [[Inflammatory Bowel Disease]], [[Vitamin E]], [[Sulforaphane]]
 - Suggested new entity notes to create: [[NEMO]], [[IkappaBalpha]], [[TNFAIP3 Polymorphisms]], [[CBP]]/[[P300]], [[Dimethyl fumarate]]
-- New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[Oxidative Stress]], [[Atherosclerosis]]
+- New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1β]], [[VCAM-1]], [[NADPH Oxidase]], [[Oxidative Stress]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[IkappaB]], [[IKK Complex]], [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[NF-kappa B]] ↔ [[Oxidative Stress]]
 ## Canonical and Non-Canonical Pathways
 
-NF-κB activation proceeds through two distinct signaling cascades that converge on nuclear translocation of different dimeric complexes. The **canonical pathway** is triggered by [[TNF-alpha]], [[IL-1b]], [[LPS|bacterial lipopolysaccharide]], and [[Reactive Oxygen Species|ROS]], leading to activation of the IκB kinase (IKK) complex composed of IKKα (CHUK), IKKβ (IKBKB), and the regulatory subunit NEMO (IKKγ). Activated IKKβ phosphorylates IκB proteins (primarily IκBα) at Ser-32 and Ser-36, triggering K48-linked polyubiquitination by the β-TrCP E3 ligase and subsequent 26S proteasomal degradation. Freed NF-κB dimers (predominantly p50/RelA) translocate to the nucleus within minutes. The **non-canonical pathway** is activated by a distinct set of signals including [[CD40L]], [[BAFF|BAFF/BLyS]], [[Lymphotoxin β]], and [[RANKL]], leading to NIK (NF-κB-inducing kinase)-dependent IKKα homodimer activation. IKKα phosphorylates p100 (NF-κB2), causing its partial proteasomal processing to p52, which then dimerizes with RelB and translocates to the nucleus. The non-canonical pathway operates on a slower timescale (hours) and is essential for [[Secondary Lymphoid Organ|secondary lymphoid organ]] development, B cell maturation, and [[osteoclastogenesis]].
+NF-κB activation proceeds through two distinct signaling cascades that converge on nuclear translocation of different dimeric complexes. The **canonical pathway** is triggered by [[TNF-alpha]], [[IL-1β]], [[LPS|bacterial lipopolysaccharide]], and [[Reactive Oxygen Species|ROS]], leading to activation of the IκB kinase (IKK) complex composed of IKKα (CHUK), IKKβ (IKBKB), and the regulatory subunit NEMO (IKKγ). Activated IKKβ phosphorylates IκB proteins (primarily IκBα) at Ser-32 and Ser-36, triggering K48-linked polyubiquitination by the β-TrCP E3 ligase and subsequent 26S proteasomal degradation. Freed NF-κB dimers (predominantly p50/RelA) translocate to the nucleus within minutes. The **non-canonical pathway** is activated by a distinct set of signals including [[CD40L]], [[BAFF|BAFF/BLyS]], [[Lymphotoxin β]], and [[RANKL]], leading to NIK (NF-κB-inducing kinase)-dependent IKKα homodimer activation. IKKα phosphorylates p100 (NF-κB2), causing its partial proteasomal processing to p52, which then dimerizes with RelB and translocates to the nucleus. The non-canonical pathway operates on a slower timescale (hours) and is essential for [[Secondary Lymphoid Organ|secondary lymphoid organ]] development, B cell maturation, and [[osteoclastogenesis]].
 
 ## Redox-Sensitive Regulatory Cysteines
 

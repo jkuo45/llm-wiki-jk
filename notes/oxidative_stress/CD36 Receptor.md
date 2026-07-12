@@ -27,13 +27,13 @@ CD36 serves as a receptor for [[Thrombospondin-1]] (TSP-1), a matricellular prot
 CD36 facilitates long-chain fatty acid translocation across cell membranes in adipose tissue, heart, and skeletal muscle. Under conditions of [[Oxidative Stress]], CD36-mediated fatty acid uptake promotes intracellular [[Lipotoxicity]] and diacylglycerol (DAG) accumulation, activating [[Protein kinase C]] (PKC) isoforms that impair insulin signaling. Elevated CD36 expression correlates with insulin resistance in [[Diabetes Mellitus]] and [[Metabolic Syndromes]].
 
 ### Regulation by Oxidative Stress and Inflammatory Pathways
-CD36 expression is induced by [[Oxidized LDL]] itself, [[TNF-alpha]], [[IL-1b]], and [[TGF-beta]] in a redox-dependent manner. The CD36 promoter contains binding sites for [[NF-kappa B]] and [[PPARγ]], both of which are activated by ROS. CD36 also acts as a co-receptor for [[Toll-like Receptor]] 2 and 6 ([[Toll-like Receptor|TLR2/6]]), mediating sterile inflammation in response to oxLDL and [[Amyloid Beta]], thereby linking [[Oxidative Stress]] to innate immune activation.
+CD36 expression is induced by [[Oxidized LDL]] itself, [[TNF-alpha]], [[IL-1β]], and [[TGF-beta]] in a redox-dependent manner. The CD36 promoter contains binding sites for [[NF-kappa B]] and [[PPARγ]], both of which are activated by ROS. CD36 also acts as a co-receptor for [[Toll-like Receptor]] 2 and 6 ([[Toll-like Receptor|TLR2/6]]), mediating sterile inflammation in response to oxLDL and [[Amyloid Beta]], thereby linking [[Oxidative Stress]] to innate immune activation.
 
 ### Clinical Relevance
 CD36 deficiency in humans is rare but associated with altered lipid metabolism and myocardial fatty acid uptake defects. In [[Atherosclerosis]], CD36 blockade reduces [[Foam Cells]] formation and plaque development in murine models. Soluble CD36 (sCD36) is being investigated as a circulating biomarker of [[Oxidative Stress]] and [[Cardiovascular Disease]] risk.
 
 ## Linking Summary (New Additions)
-- New links added: [[Macrophage]], [[Apoptosis]], [[Diabetes Mellitus]], [[Metabolic Syndromes]], [[PPARγ]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[NF-kappa B]], [[Toll-like Receptor]], [[Cardiovascular Disease]], [[p38 MAPK]], [[Oxidized LDL]]
+- New links added: [[Macrophage]], [[Apoptosis]], [[Diabetes Mellitus]], [[Metabolic Syndromes]], [[PPARγ]], [[TNF-alpha]], [[IL-1β]], [[TGF-beta]], [[NF-kappa B]], [[Toll-like Receptor]], [[Cardiovascular Disease]], [[p38 MAPK]], [[Oxidized LDL]]
 - Suggested new entity notes to create: [[Foam Cells]], [[Thrombospondin-1]], [[Fyn kinase]], [[Lipotoxicity]], [[Protein kinase C]], [[Soluble CD36]]
 - Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Oxidized LDL]], [[CD36 Receptor]] ↔ [[PPARγ]]
 
@@ -64,7 +64,7 @@ List of documents that mention this entity
 - [[Diabetes Mellitus]]: Elevated CD36 expression correlates with insulin resistance in Diabetes Mellitus and [[Metabolic Syndromes]].
 - [[Metabolic Syndromes]]: Elevated CD36 expression correlates with insulin resistance in [[Diabetes Mellitus]] and Metabolic Syndromes.
 - [[TNF-alpha]]: ### Regulation by Oxidative Stress and Inflammatory Pathways CD36 expression is induced by [[Oxidized LDL]] itself, T...
-- [[IL-1b]]: ### Regulation by Oxidative Stress and Inflammatory Pathways CD36 expression is induced by [[Oxidized LDL]] itself, [...
+- [[IL-1β]]: ### Regulation by Oxidative Stress and Inflammatory Pathways CD36 expression is induced by [[Oxidized LDL]] itself, [...
 - [[TGF-beta]]: ### Regulation by Oxidative Stress and Inflammatory Pathways CD36 expression is induced by [[Oxidized LDL]] itself, [...
 - [[NF-kappa B]]: The CD36 promoter contains binding sites for NF-kappa B and [[PPARγ]], both of which are activated by ROS.
 - [[Toll-like Receptor]]: CD36 also acts as a co-receptor for Toll-like Receptor 2 and 6 ([[Toll-like Receptor|TLR2/6]]), mediating sterile inf...

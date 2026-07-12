@@ -28,7 +28,7 @@ Three distinct NOS isoforms, encoded by separate genes, differ in regulation, ti
 ### Inducible NOS (iNOS, NOS2)
 - **Gene**: NOS2 (chromosome 17q11.2-q12)
 - **Expression**: [[Macrophage|Macrophages]], [[Neutrophils]], hepatocytes, vascular smooth muscle, endothelial cells (induced)
-- **Regulation**: Transcriptionally regulated by [[NF-kappa B]], [[TNF-alpha]], [[IL-1b]], and [[LPS]]; calcium-independent once expressed
+- **Regulation**: Transcriptionally regulated by [[NF-kappa B]], [[TNF-alpha]], [[IL-1β]], and [[LPS]]; calcium-independent once expressed
 - **Function**: High-output NO production for [[Innate Immunity|innate immune defense]]; sustained NO at nanomolar–micromolar levels mediates [[Macrophage]] killing of pathogens
 
 ### Endothelial NOS (eNOS, NOS3)
@@ -78,7 +78,7 @@ When BH₄ or L-arginine are limiting, the NOS dimer reduces O₂ instead of L-a
 
 ### Triggers for Uncoupling
 1. **BH₄ oxidation**: [[Peroxynitrite]] (ONOO⁻) rapidly oxidizes BH₄ to BH₂ (k ≈ 10⁶ M⁻¹s⁻¹), which cannot support coupled NO synthesis
-2. **L-arginine depletion**: Arginase upregulation (by [[TNF-alpha]] and [[IL-1b]]) and [[ADMA]] accumulation reduce substrate availability
+2. **L-arginine depletion**: Arginase upregulation (by [[TNF-alpha]] and [[IL-1β]]) and [[ADMA]] accumulation reduce substrate availability
 3. **Cysteine oxidation**: [[Reactive Oxygen Species]] oxidize the zinc-thiolate cluster (Cys96 and Cys101) in eNOS, disrupting dimerization
 4. **S-glutathionylation**: eNOS S-glutathionylation at Cys689 and Cys908 switches eNOS from NO to O₂⁻• production
 

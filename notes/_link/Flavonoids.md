@@ -56,7 +56,7 @@ Flavonoids regulate endogenous antioxidant and pro-oxidant enzymes:
 ### Anti-Inflammatory Signaling
 Flavonoids suppress [[Inflammation]] through:
 - **Inhibition of [[NF-kappa B]]**: Blocking IκB phosphorylation and p65 nuclear translocation
-- **Suppression of [[TNF-alpha]] and [[IL-1b]] production**: Reducing pro-inflammatory cytokine release
+- **Suppression of [[TNF-alpha]] and [[IL-1β]] production**: Reducing pro-inflammatory cytokine release
 - **Modulation of [[MAPK]] signaling**: Attenuating p38 and JNK phosphorylation
 - **Activation of [[FOXO]] transcription factors**: Promoting expression of antioxidant genes like [[Catalase]] and [[Superoxide Dismutase]]
 ## Bioavailability and Phase II Metabolism

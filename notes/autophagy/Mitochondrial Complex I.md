@@ -21,7 +21,7 @@ aliases: [NADH dehydrogenase, Complex I]
 - Inhibition reduces mitochondrial [[Reactive Oxygen Species|ROS]] production, oxidative stress, and [[Senescence]].
 
 ## Immune Impact
-- Reducing ROS production via complex 1 inhibition dampens the secretion of proinflammatory [[Cytokines|cytokines]] such as [[IL-6]] and [[IL-1b]].
+- Reducing ROS production via complex 1 inhibition dampens the secretion of proinflammatory [[Cytokines|cytokines]] such as [[IL-6]] and [[IL-1β]].
 
 ## Function
 
@@ -44,10 +44,10 @@ List of documents that mention this entity
 - [[Senescence]]: - Inhibition reduces mitochondrial [[Reactive Oxygen Species|ROS]] production, oxidative stress, and Senescence.
 - [[Cytokines]]: ## Immune Impact - Reducing ROS production via complex 1 inhibition dampens the secretion of proinflammatory cytokine...
 - [[IL-6]]: ## Immune Impact - Reducing ROS production via complex 1 inhibition dampens the secretion of proinflammatory [[Cytoki...
-- [[IL-1b]]: ## Immune Impact - Reducing ROS production via complex 1 inhibition dampens the secretion of proinflammatory [[Cytoki...
+- [[IL-1β]]: ## Immune Impact - Reducing ROS production via complex 1 inhibition dampens the secretion of proinflammatory [[Cytoki...
 - [[Mitophagy]]: Its dysfunction generates ROS and triggers Mitophagy.
 
 ## Linking Summary
-- New links added: [[Mitochondria]], [[Metformin]], [[AMPK]], [[Reactive Oxygen Species]], [[Senescence]], [[Cytokines]], [[IL-6]], [[IL-1b]]
-- Suggested new entity notes to create: , [[IL-1b]]
+- New links added: [[Mitochondria]], [[Metformin]], [[AMPK]], [[Reactive Oxygen Species]], [[Senescence]], [[Cytokines]], [[IL-6]], [[IL-1β]]
+- Suggested new entity notes to create: , [[IL-1β]]
 - Strong connections to strengthen: [[Mitochondrial Complex I]] ↔ [[Metformin]], [[Mitochondrial Complex I]] ↔ [[AMPK]]

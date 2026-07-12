@@ -13,7 +13,7 @@ aliases: []
 
 # Inflammation
 **Inflammation** is the body's complex biological response to harmful stimuli, such as pathogens, damaged cells, or irritants. It is a key context for the production of [[Adrenochrome]].
-Inflammation is a complex biological response of body tissues to harmful stimuli, characterized by the release of cytokines like [[TNF-alpha]] and [[IL-1b]] and the activation of [[NF-kappa B]].
+Inflammation is a complex biological response of body tissues to harmful stimuli, characterized by the release of cytokines like [[TNF-alpha]] and [[IL-1β]] and the activation of [[NF-kappa B]].
 ## Role in [[Adrenochrome]] Formation
 Inflammation creates the ideal conditions for the [[Oxidation]] of [[Epinephrine]]:
 - **Neutrophil Recruitment:** [[Neutrophils]] are recruited to the site of inflammation, where they release [[Myeloperoxidase]] and generate [[Reactive Oxygen Species]] (ROS) during the respiratory burst.
@@ -86,6 +86,6 @@ List of documents that mention this entity
 - [[Myeloperoxidase]] ↔ The enzyme that catalyzes this process during the inflammatory response.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[Advanced Glycation End Products]], [[NFκB]], [[Cytokines]], [[Adrenochrome]], [[Epinephrine]], [[Hydrogen Peroxide]], [[IL-1b]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[NF-kappa B]], [[Neuromelanin]], [[Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]], [[TNFα]], [[IL-6]], [[Interleukin 1β]], [[NLRP3 Inflammasome]], [[Caspase-1]], [[NAD(P)H Oxidase]], [[COMT]], [[MAO]], [[GlyNAC]], [[Glutathione]]
+- New links added: [[TFEB]], [[Advanced Glycation End Products]], [[NFκB]], [[Cytokines]], [[Adrenochrome]], [[Epinephrine]], [[Hydrogen Peroxide]], [[IL-1β]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[NF-kappa B]], [[Neuromelanin]], [[Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]], [[TNFα]], [[IL-6]], [[Interleukin 1β]], [[NLRP3 Inflammasome]], [[Caspase-1]], [[NAD(P)H Oxidase]], [[COMT]], [[MAO]], [[GlyNAC]], [[Glutathione]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]], [[Hypochlorous Acid]]
   - Strong connections to strengthen: [[Inflammation]] ↔ [[TFEB]], Advanced Glycation End Products ↔ [[Inflammation]], [[Inflammation]] ↔ [[Neutrophils]], [[Inflammation]] ↔ [[TNF-alpha]], [[Inflammation]] ↔ Adrenochrome, NLRP3 Inflammasome ↔ Oxidative Stress

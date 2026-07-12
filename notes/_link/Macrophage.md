@@ -16,7 +16,7 @@ aliases: []
 ## Origin & Polarization
 Macrophage ontogeny follows two major developmental pathways. Embryonic precursors from the yolk sac and fetal liver seed tissues during development, giving rise to self-renewing tissue-resident populations that persist throughout adult life without significant input from the [[Bone Marrow]]. In contrast, inflammatory macrophages arise from circulating [[Monocytes]] that extravasate into tissues upon recruitment by chemokines such as [[CCL2]] (MCP-1). These monocyte-derived cells differentiate into macrophages at sites of inflammation and generally have a more transient lifespan than their tissue-resident counterparts.
 
-Macrophage polarization describes the phenotypic and functional spectrum along which these cells adapt to microenvironmental cues. The M1 (classical activation) program is induced by [[Lipopolysaccharide]] and [[Interferon-gamma]], signaling through [[NF-kappaB]] and STAT1 to produce pro-inflammatory mediators including [[TNF-alpha]], [[IL-1beta]], [[IL-6]], reactive oxygen species, and nitric oxide. M1 macrophages are potently microbicidal and are critical for intracellular pathogen clearance. The M2 (alternative activation) program is driven by [[IL-4]] and [[IL-13]] through [[STAT6]] signaling, promoting anti-inflammatory functions, tissue repair, and fibrosis via expression of [[Arginase-1]], [[IL-10]], and [[TGF-beta]]. In vivo, macrophage polarization represents a continuous spectrum rather than a strict binary, with cells frequently adopting mixed phenotypes that reflect local signals and temporal dynamics.
+Macrophage polarization describes the phenotypic and functional spectrum along which these cells adapt to microenvironmental cues. The M1 (classical activation) program is induced by [[Lipopolysaccharide]] and [[Interferon-gamma]], signaling through [[NF-kappaB]] and STAT1 to produce pro-inflammatory mediators including [[TNF-alpha]], [[IL-1β]], [[IL-6]], reactive oxygen species, and nitric oxide. M1 macrophages are potently microbicidal and are critical for intracellular pathogen clearance. The M2 (alternative activation) program is driven by [[IL-4]] and [[IL-13]] through [[STAT6]] signaling, promoting anti-inflammatory functions, tissue repair, and fibrosis via expression of [[Arginase-1]], [[IL-10]], and [[TGF-beta]]. In vivo, macrophage polarization represents a continuous spectrum rather than a strict binary, with cells frequently adopting mixed phenotypes that reflect local signals and temporal dynamics.
 
 ## Functions
 Macrophages perform an extraordinary range of effector functions central to both host defense and tissue homeostasis.
@@ -25,7 +25,7 @@ Macrophages perform an extraordinary range of effector functions central to both
 
 **Antigen Presentation.** Macrophages process phagocytosed material and display peptide fragments on [[MHC Class II]] molecules to [[CD4+ T Cells]], providing essential co-stimulatory signals (CD80/CD86) that shape adaptive immune responses. This bridges innate recognition with T-cell-mediated immunity.
 
-**Cytokine and Chemokine Production.** Activated macrophages secrete a broad repertoire of signaling molecules, including [[TNF-alpha]], [[IL-1beta]], [[IL-6]], [[IL-12]], [[CCL2]], and [[CXCL10]], which orchestrate local and systemic inflammatory responses, recruit additional immune cells, and modulate [[Th1]]/[[Th2]] polarization.
+**Cytokine and Chemokine Production.** Activated macrophages secrete a broad repertoire of signaling molecules, including [[TNF-alpha]], [[IL-1β]], [[IL-6]], [[IL-12]], [[CCL2]], and [[CXCL10]], which orchestrate local and systemic inflammatory responses, recruit additional immune cells, and modulate [[Th1]]/[[Th2]] polarization.
 
 **Tissue Remodeling.** Macrophages produce matrix metalloproteinases ([[MMP-9]] and others) and growth factors that remodel extracellular matrix and regulate fibroblast proliferation, contributing to both constructive tissue repair and pathological fibrosis.
 
@@ -38,7 +38,7 @@ Macrophages perform an extraordinary range of effector functions central to both
 ## Macrophage-Autophagy Link
 The intersection of macrophage biology and [[Autophagy]] is critical for effective immune function. **Xenophagy** represents a direct cell-autonomous defense in which intracellular pathogens such as [[Mycobacterium tuberculosis]] are captured within [[Autophagosomes]] and delivered to [[Lysosomes]] for destruction. This pathway requires recognition of pathogen-associated molecular patterns and recruitment of autophagy adaptors including [[p62]].
 
-**Inflammasome regulation** depends on autophagy to maintain immune homeostasis. Autophagic degradation of damaged mitochondria (mitophagy) and aggregation-prone proteins limits the activation of the [[NLRP3 Inflammasome]], preventing excessive [[IL-1beta]] and [[IL-18]] secretion. Impaired autophagy in macrophages thus predisposes to hyperinflammatory states.
+**Inflammasome regulation** depends on autophagy to maintain immune homeostasis. Autophagic degradation of damaged mitochondria (mitophagy) and aggregation-prone proteins limits the activation of the [[NLRP3 Inflammasome]], preventing excessive [[IL-1β]] and [[IL-18]] secretion. Impaired autophagy in macrophages thus predisposes to hyperinflammatory states.
 
 **Antigen presentation** is enhanced by autophagy, which delivers cytosolic antigens to the MHC class II loading compartment, enabling macrophages to present endogenous antigens on MHC II—a process typically associated with professional antigen-presenting cells.
 
@@ -86,7 +86,7 @@ List of documents that mention this entity
 - [[Microglia]] — tissue-resident macrophages of the central nervous system
 - [[Osteoclasts]] — bone-resident macrophage lineage cells responsible for bone resorption
 - [[TNF-alpha]] — pro-inflammatory cytokine; primary effector of M1 macrophages
-- [[IL-1beta]] — pro-inflammatory cytokine; processed by NLRP3 inflammasome
+- [[IL-1β]] — pro-inflammatory cytokine; processed by NLRP3 inflammasome
 - [[IL-6]] — pleiotropic cytokine; produced by activated macrophages
 - [[CCL2]] — chemokine that recruits monocytes to sites of inflammation
 - [[MHC Class II]] — antigen-presenting molecule upregulated on macrophages for T-cell activation
@@ -97,6 +97,6 @@ List of documents that mention this entity
 - [[Checkpoint Inhibitor]] — immunotherapy; combinations with TAM reprogramming under investigation
 
 ## Linking Summary
-- New links added: [[Autophagy]], [[TFEB]], [[TFE3]], [[Innate Immune System]], [[Monocyte]], [[Bone Marrow]], [[Inflammation]], [[NLRP3 Inflammasome]], [[p62]], [[Kupffer Cells]], [[Microglia]], [[Osteoclasts]], [[TNF-alpha]], [[IL-1beta]], [[IL-6]], [[CCL2]], [[MHC Class II]], [[Lipopolysaccharide]], [[Atherosclerosis]], [[HIV]], [[CSF1R]], [[Checkpoint Inhibitor]]
+- New links added: [[Autophagy]], [[TFEB]], [[TFE3]], [[Innate Immune System]], [[Monocyte]], [[Bone Marrow]], [[Inflammation]], [[NLRP3 Inflammasome]], [[p62]], [[Kupffer Cells]], [[Microglia]], [[Osteoclasts]], [[TNF-alpha]], [[IL-1β]], [[IL-6]], [[CCL2]], [[MHC Class II]], [[Lipopolysaccharide]], [[Atherosclerosis]], [[HIV]], [[CSF1R]], [[Checkpoint Inhibitor]]
 - Suggested new entity notes to create: [[Kupffer Cells]], [[LC3-associated phagocytosis]], [[Efferocytosis]], [[Tumor-Associated Macrophages]], [[Macrophage Activation Syndrome]]
   - Strong connections to strengthen: [[Macrophage]] ↔ Autophagy, [[Macrophage]] ↔ [[Inflammation]], [[Macrophage]] ↔ [[TFEB]], [[Macrophage]] ↔ NLRP3 Inflammasome

@@ -17,7 +17,7 @@ aliases: [gp91phox, CYBB, NADPH oxidase 2, Cytochrome b-245 heavy chain]
 
 ## Structure & Activation
 
-NOX2 is a transmembrane flavocytochrome that transfers electrons from cytosolic [[NADPH]] to molecular oxygen to produce [[Superoxide Radicals]]. Its catalytic core comprises six transmembrane α-helices, two heme groups, and a C-terminal FAD/NADPH-binding domain. Full enzymatic activity requires assembly with regulatory subunits: [[p22ᵖʰᵒˣ]] (membrane-bound stabilizer), [[p47ᵖʰᵒˣ]] (organizer), [[p67ᵖʰᵒˣ]] (activator), [[p40ᵖʰᵒˣ]], and the small GTPase [[Rac1]]/[[Rac2]]. Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], [[TNF-alpha]], [[IL-1b]], and [[Angiotensin II]].
+NOX2 is a transmembrane flavocytochrome that transfers electrons from cytosolic [[NADPH]] to molecular oxygen to produce [[Superoxide Radicals]]. Its catalytic core comprises six transmembrane α-helices, two heme groups, and a C-terminal FAD/NADPH-binding domain. Full enzymatic activity requires assembly with regulatory subunits: [[p22ᵖʰᵒˣ]] (membrane-bound stabilizer), [[p47ᵖʰᵒˣ]] (organizer), [[p67ᵖʰᵒˣ]] (activator), [[p40ᵖʰᵒˣ]], and the small GTPase [[Rac1]]/[[Rac2]]. Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], [[TNF-alpha]], [[IL-1β]], and [[Angiotensin II]].
 
 ## Role in Immunity
 
@@ -41,11 +41,11 @@ In [[Neutrophils]] and [[Macrophage|macrophages]], NOX2 generates high local con
 - [[p40ᵖʰᵒˣ]]: Full enzymatic activity requires assembly with regulatory subunits: [[p22ᵖʰᵒˣ]] (membrane-bound stabilizer), [[p47ᵖʰᵒ...
 - [[Rac1]]: Full enzymatic activity requires assembly with regulatory subunits: [[p22ᵖʰᵒˣ]] (membrane-bound stabilizer), [[p47ᵖʰᵒ...
 - [[Rac2]]: Full enzymatic activity requires assembly with regulatory subunits: [[p22ᵖʰᵒˣ]] (membrane-bound stabilizer), [[p47ᵖʰᵒ...
-- [[Phorbol myristate acetate]]: Activation is triggered by PMA, [[LPS]], [[TNF-alpha]], [[IL-1b]], and [[Angiotensin II]].
-- [[LPS]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], LPS, [[TNF-alpha]], [[IL-1b]], and [[Angiotensin II]].
-- [[TNF-alpha]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], TNF-alpha, [[IL-1b]], and [[Angiotensin II]].
-- [[IL-1b]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], [[TNF-alpha]], IL-1b, and [[Angiotensin II]].
-- [[Angiotensin II]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], [[TNF-alpha]], [[IL-1b]], and Angiotensin II.
+- [[Phorbol myristate acetate]]: Activation is triggered by PMA, [[LPS]], [[TNF-alpha]], [[IL-1β]], and [[Angiotensin II]].
+- [[LPS]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], LPS, [[TNF-alpha]], [[IL-1β]], and [[Angiotensin II]].
+- [[TNF-alpha]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], TNF-alpha, [[IL-1β]], and [[Angiotensin II]].
+- [[IL-1β]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], [[TNF-alpha]], IL-1b, and [[Angiotensin II]].
+- [[Angiotensin II]]: Activation is triggered by [[Phorbol myristate acetate|PMA]], [[LPS]], [[TNF-alpha]], [[IL-1β]], and Angiotensin II.
 - [[Neutrophils]]: In Neutrophils and [[Macrophage|macrophages]], NOX2 generates high local concentrations of superoxide in the phagosom...
 - [[Macrophage]]: In [[Neutrophils]] and macrophages, NOX2 generates high local concentrations of superoxide in the phagosome, which di...
 - [[Hydrogen Peroxide]]: In [[Neutrophils]] and [[Macrophage|macrophages]], NOX2 generates high local concentrations of superoxide in the phag...
@@ -63,6 +63,6 @@ In [[Neutrophils]] and [[Macrophage|macrophages]], NOX2 generates high local con
 - [[Endothelial Dysfunction]]: - **[[Cardiovascular Disease]]**: NOX2-derived superoxide in the vascular wall consumes [[Nitric Oxide|NO]], impairin...
 
 ## Linking Summary
-- New links added: [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Angiotensin II]], [[Cardiovascular Disease]], [[Chronic Granulomatous Disease]], [[Endothelial Dysfunction]], [[Hydrogen Peroxide]], [[Hypochlorous Acid]], [[IL-1b]], [[Ischemia-reperfusion Injury]], [[LPS]], [[Macrophage]], [[Myeloperoxidase]], [[NADPH]], [[Neurodegeneration]], [[Neutrophils]], [[Nitrative Stress]], [[Nitric Oxide]], [[Parkinson's Disease]], [[Phorbol myristate acetate]], [[Rac1]], [[Rac2]], [[Respiratory Burst]], [[Superoxide Radicals]], [[TNF-alpha]], [[p22ᵖʰᵒˣ]], [[p40ᵖʰᵒˣ]], [[p47ᵖʰᵒˣ]], [[p67ᵖʰᵒˣ]]
+- New links added: [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Angiotensin II]], [[Cardiovascular Disease]], [[Chronic Granulomatous Disease]], [[Endothelial Dysfunction]], [[Hydrogen Peroxide]], [[Hypochlorous Acid]], [[IL-1β]], [[Ischemia-reperfusion Injury]], [[LPS]], [[Macrophage]], [[Myeloperoxidase]], [[NADPH]], [[Neurodegeneration]], [[Neutrophils]], [[Nitrative Stress]], [[Nitric Oxide]], [[Parkinson's Disease]], [[Phorbol myristate acetate]], [[Rac1]], [[Rac2]], [[Respiratory Burst]], [[Superoxide Radicals]], [[TNF-alpha]], [[p22ᵖʰᵒˣ]], [[p40ᵖʰᵒˣ]], [[p47ᵖʰᵒˣ]], [[p67ᵖʰᵒˣ]]
 - Suggested new entity notes to create: [[Phorbol myristate acetate]], [[Rac2]], [[p22ᵖʰᵒˣ]], [[p40ᵖʰᵒˣ]], [[p47ᵖʰᵒˣ]], [[p67ᵖʰᵒˣ]]
 - Strong connections to strengthen: [[NOX2]] ↔ [[Amyotrophic Lateral Sclerosis]], [[NOX2]] ↔ [[Chronic Granulomatous Disease]], [[NOX2]] ↔ [[Ischemia-reperfusion Injury]]
