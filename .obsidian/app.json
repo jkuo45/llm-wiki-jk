@@ -5,7 +5,7 @@
     "/.*AGENTS\\.md/",
     "/.*GEMINI\\.md/",
     "/.*index\\.md/",
-    "/(^|\\/)(\\[document\\]|_document_).*/",
+    "/(^|\\/)(\\_document_).*/",
     "/^tasks//",
     "/^prompts//"
   ],
