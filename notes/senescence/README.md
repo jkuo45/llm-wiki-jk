@@ -25,27 +25,30 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 10_July_2026 12:00 PM PDT
-- Total count of entities: 19
+- Last updated: 11_July_2026 12:00 PM PDT
+- Total count of entities: 22
 
-| entity                                        |     datetime updated     | entity_type_1            |    relevance_1     | sentiment_1 | justification                                                                               |
-| :-------------------------------------------- | :----------------------: | :----------------------- | :----------------: | :---------: | :------------------------------------------------------------------------------------------ |
-| [[Senescence]]                                | 09_July_2026 12:00 PM PDT | Biological Process       |         10         |      0      | The senescence program itself; hub of the topic. |
-| [[Senescent Cells]]                           | 09_July_2026 12:00 PM PDT | Biological Process       |         10         |     -1      | The arrested, apoptosis-resistant cells that accumulate with age. |
-| [[SASP|Senescence-Associated Secretory Phenotype]]| 09_July_2026 12:00 PM PDT | Biological Process       |         10         |     -1      | The SASP is the pro-inflammatory effector arm of senescence. |
-| [[Paracrine Senescence]]                      | 09_July_2026 12:00 PM PDT | Biological Process       |         9          |     -1      | Bystander spread of senescence through SASP factors. |
-| [[Therapy-Induced Senescence]]                | 09_July_2026 12:00 PM PDT | Biological Process       |         9          |     -1      | Senescence provoked by chemo/radiation; a major model and clinical concern. |
-| [[Immunosenescence]]                          | 09_July_2026 12:00 PM PDT | Biological Process       |         8          |     -1      | Age-related deterioration of immune function with senescence-like features. |
-| [[Senescence Surveillance]]                   | 09_July_2026 12:00 PM PDT | Biological Process       |         8          |      1      | Immune-mediated clearance of senescent cells. |
-| [[Senescence-associated mitochondrial dysfunction]] | 09_July_2026 12:00 PM PDT | Biological Process       |         8          |     -1      | SAMD drives SASP via ROS and mtDNA release. |
-| [[Senescence-Associated Heterochromatin Foci]] | 09_July_2026 12:00 PM PDT | Biological Structure     |         8          |      0      | DAPI-dense heterochromatin enforcing arrest. |
-| [[Senescence-Associated Distension of Satellites]] | 09_July_2026 12:00 PM PDT | Biological Structure     |         7          |      0      | Decompaction of pericentromeric heterochromatin in senescence. |
-| [[Senescent cell anti-apoptotic pathways]]    | 09_July_2026 12:00 PM PDT | Biological Process       |         9          |     -1      | SCAPs let senescent cells resist apoptosis. |
-| [[Senolytics]]                                | 09_July_2026 12:00 PM PDT | Pharmacological Action   |         9          |      1      | Drugs that selectively kill senescent cells. |
-| [[Senolytic]]                                 | 09_July_2026 12:00 PM PDT | Pharmacological Action   |         8          |      1      | A single senolytic compound/intervention. |
-| [[Senolytic Therapy]]                         | 09_July_2026 12:00 PM PDT | Therapeutic Strategy     |         9          |      1      | Therapeutic strategies exploiting SCAPs to eliminate senescent cells. |
-| [[Senomorphic]]                               | 09_July_2026 12:00 PM PDT | Pharmacological Action   |         8          |      1      | Suppresses SASP without killing senescent cells. |
-| [[Senomorphic Therapy]]                       | 09_July_2026 12:00 PM PDT | Therapeutic Strategy     |         8          |      1      | Therapies targeting NF-kB, mTOR, JAK-STAT, cGAS-STING to suppress SASP. |
-| [[Senotherapeutic]]                           | 09_July_2026 12:00 PM PDT | Pharmacological Action   |         8          |      1      | Umbrella term for any intervention targeting senescent cells. |
-| [[Senotherapy]]                               | 09_July_2026 12:00 PM PDT | Therapeutic Strategy     |         8         |      1      | Class of interventions mitigating effects of senescence on aging. |
-| [[Acute Stress-Associated Phenotype]]          | 10_July_2026 12:00 PM PDT | Biological Process       |         7         |     -1      | Acute ATM/TRAF6/TAK1 stress response that transitions into the chronic SASP; blocked by apigenin via PRDX6/HSPA8. |
+| entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
+| :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
+| [[Senescence]]                                      | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |      0      | The senescence program itself; hub of the topic.                                                                  |
+| [[Senescent Cells]]                                 | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The arrested, apoptosis-resistant cells that accumulate with age.                                                 |
+| [[SASP\|Senescence-Associated Secretory Phenotype]] | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The SASP is the pro-inflammatory effector arm of senescence.                                                      |
+| [[Paracrine Senescence]]                            | 09_July_2026 12:00 PM PDT | Biological Process     |      9      |     -1      | Bystander spread of senescence through SASP factors.                                                              |
+| [[Paracrine Reprogramming]]                         | 11_July_2026 12:00 PM PDT | Biological Process     |      8      |      0      | SASP factors alter the differentiation status (stemness, EMT, lineage) of neighbouring cells; dual role.          |
+| [[CCL20]]                                           | 11_July_2026 12:00 PM PDT | Chemical Compound      |      5      |     -1      | SASP CC-chemokine (MIP-3α); CCR6 axis recruits TH17 cells and drives paracrine arrest.                            |
+| [[Myeloid-Derived Suppressor Cells]]                | 11_July_2026 12:00 PM PDT | Cell Type              |      6      |     -1      | Immunosuppressive myeloid cells recruited/expanded by SASP (GM-CSF, CCL2, IL-6); impair senescent-cell clearance. |
+| [[Therapy-Induced Senescence]]                      | 09_July_2026 12:00 PM PDT | Biological Process     |      9      |     -1      | Senescence provoked by chemo/radiation; a major model and clinical concern.                                       |
+| [[Immunosenescence]]                                | 09_July_2026 12:00 PM PDT | Biological Process     |      8      |     -1      | Age-related deterioration of immune function with senescence-like features.                                       |
+| [[Senescence Surveillance]]                         | 09_July_2026 12:00 PM PDT | Biological Process     |      8      |      1      | Immune-mediated clearance of senescent cells.                                                                     |
+| [[Senescence-associated mitochondrial dysfunction]] | 09_July_2026 12:00 PM PDT | Biological Process     |      8      |     -1      | SAMD drives SASP via ROS and mtDNA release.                                                                       |
+| [[Senescence-Associated Heterochromatin Foci]]      | 09_July_2026 12:00 PM PDT | Biological Structure   |      8      |      0      | DAPI-dense heterochromatin enforcing arrest.                                                                      |
+| [[Senescence-Associated Distension of Satellites]]  | 09_July_2026 12:00 PM PDT | Biological Structure   |      7      |      0      | Decompaction of pericentromeric heterochromatin in senescence.                                                    |
+| [[Senescent cell anti-apoptotic pathways]]          | 09_July_2026 12:00 PM PDT | Biological Process     |      9      |     -1      | SCAPs let senescent cells resist apoptosis.                                                                       |
+| [[Senolytics]]                                      | 09_July_2026 12:00 PM PDT | Pharmacological Action |      9      |      1      | Drugs that selectively kill senescent cells.                                                                      |
+| [[Senolytic]]                                       | 09_July_2026 12:00 PM PDT | Pharmacological Action |      8      |      1      | A single senolytic compound/intervention.                                                                         |
+| [[Senolytic Therapy]]                               | 09_July_2026 12:00 PM PDT | Therapeutic Strategy   |      9      |      1      | Therapeutic strategies exploiting SCAPs to eliminate senescent cells.                                             |
+| [[Senomorphic]]                                     | 09_July_2026 12:00 PM PDT | Pharmacological Action |      8      |      1      | Suppresses SASP without killing senescent cells.                                                                  |
+| [[Senomorphic Therapy]]                             | 09_July_2026 12:00 PM PDT | Therapeutic Strategy   |      8      |      1      | Therapies targeting NF-kB, mTOR, JAK-STAT, cGAS-STING to suppress SASP.                                           |
+| [[Senotherapeutic]]                                 | 09_July_2026 12:00 PM PDT | Pharmacological Action |      8      |      1      | Umbrella term for any intervention targeting senescent cells.                                                     |
+| [[Senotherapy]]                                     | 09_July_2026 12:00 PM PDT | Therapeutic Strategy   |      8      |      1      | Class of interventions mitigating effects of senescence on aging.                                                 |
+| [[Acute Stress-Associated Phenotype]]               | 10_July_2026 12:00 PM PDT | Biological Process     |      7      |     -1      | Acute ATM/TRAF6/TAK1 stress response that transitions into the chronic SASP; blocked by apigenin via PRDX6/HSPA8. |
