@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 12_July_2026 12:00 PM PDT
-- Total count of entities: 24
+- Last updated: 13_July_2026 12:00 PM PDT
+- Total count of entities: 26
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
@@ -54,3 +54,5 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[Acute Stress-Associated Phenotype]]               | 10_July_2026 12:00 PM PDT | Biological Process     |      7      |     -1      | Acute ATM/TRAF6/TAK1 stress response that transitions into the chronic SASP; blocked by apigenin via PRDX6/HSPA8. |
 | [[Activin A]]                                        | 12_July_2026 12:00 PM PDT | Growth Factor          |      5      |      0      | TGF-β family SASP component; ALK4/SMAD2/3 mediates paracrine senescence alongside TGF-β1 and BMP2.               |
 | [[CDKN2B]]                                           | 12_July_2026 12:00 PM PDT | Kinase Inhibitor       |      6      |      0      | Encodes p15^INK4b; key CDK inhibitor induced by TGF-β in paracrine senescence; cooperates with p21.              |
+| [[BrdU]]                                             | 13_July_2026 12:00 PM PDT | Chemical Compound      |      3      |      0      | Thymidine analog proliferation marker; reduced BrdU incorporation is a readout of senescence-associated arrest.   |
+| [[VEGFc]]                                            | 13_July_2026 12:00 PM PDT | Growth Factor          |      5      |     -1      | VEGF-C SASP growth factor induced during OIS; promotes lymphangiogenesis/angiogenesis and paracrine signalling.  |
