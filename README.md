@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 13_JUL_2026 | 19 | 1068 | 645,358 | 5.16 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 11_JUL_2026 | 19 | 263 | 204,870 | 1.87 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 13_JUL_2026 | 19 | 1153 | 679,154 | 5.43 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 13_JUL_2026 | 19 | 268 | 206,650 | 1.89 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]] | 11_JUL_2026 | 10 | 232 | 156,933 | 1.28 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 9 | 263 | 227,559 | 2.19 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 9 | 262 | 227,163 | 2.18 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) [[notes/comt/README\|wiki]] | 09_JUL_2026 | 2 | 35 | 21,070 | 0.20 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 10_JUL_2026 | 9 | 192 | 197,094 | 3.78 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 13_JUL_2026 | 9 | 197 | 199,541 | 3.80 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 09_JUL_2026 | 2 | 84 | 59,164 | 0.54 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 11_JUL_2026 | 1 | 64 | 67,653 | 0.63 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 13_JUL_2026 | 8 | 40 | 69,890 | 0.72 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 11_JUL_2026 | 8 | 120 | 182,946 | 1.52 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 13_JUL_2026 | 9 | 41 | 81,530 | 0.87 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 13_JUL_2026 | 8 | 121 | 183,251 | 1.52 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 13_JUL_2026 | **87** | **2361** | **1,832,537** | **17.90 MB** |
+| **subtotal** | 13_JUL_2026 | **88** | **2457** | **1,882,109** | **18.34 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -80,8 +80,9 @@
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 
 <!-- GENERATED: document_list -->
-## Documents (87 total)
+## Documents (88 total)
 
+- `senescence`: [JCI -Expanding roles of cGAS-STING signaling in neuroinflammation](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20JCI%20-Expanding%20roles%20of%20cGAS-STING%20signaling%20in%20neuroinflammation.md) [[notes/senescence/_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation.md|wiki]] (13_JUL_2026 01:27 PM PDT)
 - `senescence`: [acosta2013_paracrine_senescence](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20acosta2013_paracrine_senescence.md) [[notes/senescence/_document_ - acosta2013_paracrine_senescence.md|wiki]] (13_JUL_2026 07:51 AM PDT)
 - `autophagy`: [Autophagy takes it all – autophagy inducers target immune aging](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20takes%20it%20all%20%E2%80%93%20autophagy%20inducers%20target%20immune%20aging.md) [[notes/autophagy/_document_ - Autophagy takes it all – autophagy inducers target immune aging.md|wiki]] (11_JUL_2026 10:07 PM PDT)
 - `oxidative_stress`: [Oxidative Stress Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md|wiki]] (11_JUL_2026 10:07 PM PDT)
