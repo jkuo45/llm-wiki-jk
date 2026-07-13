@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 13_JUL_2026 | 19 | 1153 | 679,154 | 5.43 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 13_JUL_2026 | 19 | 1163 | 684,803 | 5.47 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 13_JUL_2026 | 19 | 268 | 206,650 | 1.89 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]] | 11_JUL_2026 | 10 | 232 | 156,933 | 1.28 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 9 | 262 | 227,163 | 2.18 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) [[notes/comt/README\|wiki]] | 09_JUL_2026 | 2 | 35 | 21,070 | 0.20 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 13_JUL_2026 | 9 | 197 | 199,541 | 3.80 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 09_JUL_2026 | 2 | 84 | 59,164 | 0.54 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 13_JUL_2026 | 2 | 73 | 53,389 | 0.50 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 11_JUL_2026 | 1 | 64 | 67,653 | 0.63 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 13_JUL_2026 | 9 | 41 | 81,530 | 0.87 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 13_JUL_2026 | 8 | 121 | 183,251 | 1.52 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 13_JUL_2026 | **88** | **2457** | **1,882,109** | **18.34 MB** |
+| **subtotal** | 13_JUL_2026 | **88** | **2456** | **1,881,983** | **18.34 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
