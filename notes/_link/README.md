@@ -10,8 +10,8 @@ updated: 2026-07-09
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 10_JULY_2026 12:00 PM PDT
-- Total count of entities: 285
+- Last updated: 13_JULY_2026 12:00 PM PDT
+- Total count of entities: 317
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -302,4 +302,35 @@ This directory contains entities that span across multiple topics within the kno
 | [[VER155008]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | HSPA8 inhibitor, Senomorphic, SASP |
 | [[WNT16B]] | 10_JULY_2026 12:00 PM PDT | Protein | SASP, Chemoresistance, Wnt |
 | [[Zscan4]] | 10_JULY_2026 12:00 PM PDT | Gene | SASP, Transcription Factor, Feedforward |
-| [[Chemoresistance]] | 10_JULY_2026 12:00 PM PDT | Biological Process | Cancer, Therapy Resistance, SASP |
+| [[Chemoresistance]] | 10_JULY_2026 12:00 PM PDT | Biological Process | Cancer, Therapy Resistance, SASP || [[CD9]] | 13_JULY_2026 12:00 PM PDT | Cell Surface Marker | Immunology, Exosomes, Cancer |
+| [[CD86]] | 13_JULY_2026 12:00 PM PDT | Cell Surface Marker | Immunology, Antigen Presentation, T cells |
+| [[CD206]] | 13_JULY_2026 12:00 PM PDT | Cell Surface Marker | Immunology, Macrophage, M2 Polarization |
+| [[TCA cycle]] | 13_JULY_2026 12:00 PM PDT | Metabolic Pathway | Metabolism, Mitochondria, Bioenergetics |
+| [[Allosteric Regulation]] | 13_JULY_2026 12:00 PM PDT | Regulatory Mechanism | Enzyme Regulation, Biochemistry, Signaling |
+| [[Messenger RNA]] | 13_JULY_2026 12:00 PM PDT | Nucleic Acid | Gene Expression, Transcription, Translation |
+| [[Locked Nucleic Acid]] | 13_JULY_2026 12:00 PM PDT | Nucleic Acid Analog | Antisense, Research Tool, RNA |
+| [[Nicotinamide nucleotide transhydrogenase]] | 13_JULY_2026 12:00 PM PDT | Enzyme | NAD+, Mitochondria, Redox |
+| [[Mitochondrial Uncoupling]] | 13_JULY_2026 12:00 PM PDT | Mitochondrial Process | Thermogenesis, Bioenergetics, Mitochondria |
+| [[Neuron]] | 13_JULY_2026 12:00 PM PDT | Cell Type | Neuroscience, Nervous System |
+| [[MAP2]] | 13_JULY_2026 12:00 PM PDT | Cytoskeletal Protein | Neuron, Microtubule, Neuroscience |
+| [[Synaptophysin]] | 13_JULY_2026 12:00 PM PDT | Synaptic Protein | Neuron, Synapse, Neuroscience |
+| [[Iba1]] | 13_JULY_2026 12:00 PM PDT | Microglial Marker | Microglia, Neuroinflammation, Neuroscience |
+| [[Atrial natriuretic peptide]] | 13_JULY_2026 12:00 PM PDT | Peptide Hormone | Cardiovascular, Renal, Natriuresis |
+| [[Troponin]] | 13_JULY_2026 12:00 PM PDT | Cardiac Biomarker | Cardiology, Myocardium, Biomarker |
+| [[MCC950]] | 13_JULY_2026 12:00 PM PDT | Small Molecule Inhibitor | NLRP3 Inflammasome, Inflammation, Senescence |
+| [[Histone Demethylase]] | 13_JULY_2026 12:00 PM PDT | Enzyme | Epigenetics, Chromatin, Histone Modification |
+| [[SAH]] | 13_JULY_2026 12:00 PM PDT | Metabolite | Methylation, Epigenetics, One-Carbon Metabolism |
+| [[TMG]] | 13_JULY_2026 12:00 PM PDT | Methyl Donor | Methylation, Epigenetics, Liver |
+| [[Knockout mouse]] | 13_JULY_2026 12:00 PM PDT | Experimental Model | Genetics, Animal Model |
+| [[C57BL/6]] | 13_JULY_2026 12:00 PM PDT | Experimental Model | Mouse Strain, Animal Model |
+| [[HEK293]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Cell Culture, Transfection |
+| [[SH-SY5Y]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Neuroblastoma, Neuron Model, Neuroscience |
+| [[RAW264.7]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Macrophage, Immunology |
+| [[HeLa]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Cancer, Cell Culture |
+| [[MEF]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Fibroblast, Development, Cell Culture |
+| [[Chondrocytes]] | 13_JULY_2026 12:00 PM PDT | Cell Type | Cartilage, Musculoskeletal, Osteoarthritis |
+| [[Platelets]] | 13_JULY_2026 12:00 PM PDT | Cell Type | Hematology, Hemostasis, Thrombosis |
+| [[Platelet aggregation]] | 13_JULY_2026 12:00 PM PDT | Biological Process | Hemostasis, Cardiovascular, Thrombosis |
+| [[IL-18]] | 13_JULY_2026 12:00 PM PDT | Cytokine | Inflammation, Inflammasome, SASP |
+| [[BNP]] | 13_JULY_2026 12:00 PM PDT | Peptide Hormone | Cardiovascular, Cardiac Biomarker, Natriuresis |
+| [[Kidney]] | 13_JULY_2026 12:00 PM PDT | Anatomy | Renal, Filtration, AGE Clearance |

@@ -79,6 +79,7 @@ updated: 2026-07-09
 | [[MDL-801]] | Chemical Compound | Potent synthetic SIRT6 allosteric activator; more potent than parent MDL-800; anti-fibrotic |
 | [[Cyanidin]] | Chemical Compound | Natural anthocyanidin (berries); 50×+ SIRT6 activation in vitro; H3K9/H3K56 deacetylation |
 | [[Fucoidan]] | Chemical Compound | Sulfated polysaccharide; SIRT6 activator that elevates SIRT6 and enhances mADPr activity; mimics centenarian SIRT6 variant effects |
+| [[Glu230]] | Amino Acid Residue | Glutamate 230 (E230) in the SIRT1 N-terminal domain; required for resveratrol allosteric binding and activation |
 
 #### Sirtuin Inhibitors
 

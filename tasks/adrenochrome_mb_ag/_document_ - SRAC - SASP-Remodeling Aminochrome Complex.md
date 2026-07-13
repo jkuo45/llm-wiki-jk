@@ -99,7 +99,7 @@ The ratio therefore determines how the AMM-generated mitochondrial superoxide bu
 - **Low ratio (SIRT4 dominant):** Superoxide persists → wide hormetic window; greater risk of oxidative damage, SASP flare, or cytokine-storm during senescent-cell lysis.
 
 > [!tip] Use in SRAC
-> Because the SRAC redox pulse and the SASP-suppression/readout are both redox-coupled, the [[SIRT3-SIRT4 Ratio]] acts as a **companion biomarker** to the SASP panel: it predicts _who_ will tolerate and benefit from AMM/MB dosing, and can personalize the AMM dose and the MB low-end setting (0.5 mg) to keep the signal within each individual's hormetic window. [[Caloric Restriction]] and NAD⁺ precursors ([[NMN]]/[[NR]]) shift the ratio toward SIRT3 dominance, dovetailing with the SRAC redox-buffer logic.
+> Because the SRAC redox pulse and the SASP-suppression/readout are both redox-coupled, the [[SIRT3-SIRT4 Ratio]] acts as a **companion biomarker** to the SASP panel: it predicts _who_ will tolerate and benefit from AMM/MB dosing, and can personalize the AMM dose and the MB low-end setting (0.5 mg) to keep the signal within each individual's hormetic window. [[Caloric Restriction]] and NAD⁺ precursors ([[NMN]]/[[Nicotinamide Riboside]]) shift the ratio toward SIRT3 dominance, dovetailing with the SRAC redox-buffer logic.
 
 ### Mechanistic rationale
 
@@ -134,8 +134,8 @@ The review confirms rapamycin suppresses the SASP through the mTOR → IL-1α �
 
 ## Documents
 
-- [[tasks/outline_adrenochrome_combo_therapy|SRAC Outline]]
-- [[_document_ - (protocol) SRAC - senescent, ligand-conjugated|SRAC Protocol (Original)]]
+- [[task_output_research-scientist_combo_therapy_11_JUN_2026|SRAC Outline]]
+- [[_document_ - SRAC - SASP-Remodeling Aminochrome Complex|SRAC Protocol (Original)]]
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review (Wang et al., 2024)]]: Source for the expanded SRAC biomarker panel.
 
 ## Linking Summary

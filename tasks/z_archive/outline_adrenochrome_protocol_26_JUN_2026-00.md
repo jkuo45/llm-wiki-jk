@@ -12,11 +12,11 @@ Compounds may be found in natural foods: such as wheat germ, edamame, soy beans,
 | Mechanism | Compound                | target          |
 | --------- | ----------------------- | --------------- | --------------- |
 | MRR       | [[NAD+]], NMN, NR       | mitochondria    |
-| MRR       | [[                      | Urolithin A]]   | mitochondria    |
+| MRR       | [[Urolithin A\|Urolithin A]]   | mitochondria    |
 | MRR       | [[Methylene blue]]      | mitochondria    |
 | **[-]**   | [[Creatine]]            | mitochrondia    |
 | GOPS      | [[Carnosine]], [[EDTA]] | ER/peroxisomes  |
 | GOPS      | [[Spermidine]]          | ER/peroxisomes  |
 | SRAC      | [[Rapamycin]]           | lysosomes/SNC's |
-| SRAC      | [[                      | Fisetin]]       | lysosomes/SNC's |
+| SRAC      | [[Fisetin\|Fisetin]]       | lysosomes/SNC's |
 | SRAC      | [[GlyNAC]]              | lysosomes/SNC's |

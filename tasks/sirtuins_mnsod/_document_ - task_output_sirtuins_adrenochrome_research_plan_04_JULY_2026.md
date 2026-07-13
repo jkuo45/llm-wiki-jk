@@ -108,7 +108,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
 
 - **[[Epigenetic Clock]] Measurement:**
    - In parallel with the 12-week in vivo [[MDL-800]] study proposed in the original report, add an adrenochrome-only and adrenochrome + MDL-800 arm.
-   - Measure Horvath mouse [[Epigenetic Clock|epigenetic clock]] across [[Liver|liver]], [[Heart|heart]], [[Hippocampus|hippocampus]], and [[Kidney|kidney]].
+   - Measure Horvath mouse [[Epigenetic Clock|epigenetic clock]] across [[Liver|liver]], [[Heart disease|heart]], [[Hippocampus|hippocampus]], and [[Kidney|kidney]].
    - Test whether adrenochrome-containing regimens produce greater age-reversal than MDL-800 alone.
 
 ---
@@ -196,7 +196,7 @@ The prior report identified [[CD38]] as the primary [[NAD+]] sink during [[Aging
    - Use 22-month-old [[C57BL/6]] mice.
    - Four arms (n=8/group): (i) vehicle; (ii) adrenochrome (5 μg/kg, i.p., 3×/week); (iii) low-dose [[Daratumumab]] (0.1 mg/kg, i.v., 1×/week); (iv) combination.
    - After 8 weeks, sacrifice and measure:
-     - Tissue NAD+/NADH in [[Liver|liver]], [[Skeletal Muscle|skeletal muscle]], [[Brain|brain]], [[Heart|heart]] (LC-MS/MS).
+     - Tissue NAD+/NADH in [[Liver|liver]], [[Skeletal Muscle|skeletal muscle]], [[Brain|brain]], [[Heart disease|heart]] (LC-MS/MS).
      - SIRT1 and SIRT3 target engagement (ac-[[p53]] K382, ac-[[MnSOD]] K68 — Western blot).
      - [[Mitochondria|Mitochondrial]] respiratory capacity ([[Seahorse XF Analyzer|Seahorse XFe96]] on isolated muscle [[Mitochondria|mitochondria]]).
    - Assess safety: echocardiography, methemoglobin levels, [[Liver|liver]] enzymes.
@@ -242,7 +242,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
      - [[SIRT1]] protein (Western blot).
      - [[p65|RelA/p65]] acetylation (K310) by IP-Western.
      - [[SASP]] factor secretion ([[IL-6]], [[IL-8]], [[Matrix Metalloproteinases|MMP-3]], [[Matrix Metalloproteinases|MMP-13]] — multiplex ELISA).
-     - [[Senescence-Associated Beta-Galactosidase|Senescence-associated β-galactosidase]] staining.
+     - [[SA-beta-gal|Senescence-associated β-galactosidase]] staining.
    - Determine whether combination therapy produces greater SASP suppression than either agent alone.
 
 - **Endothelial Function (In Vitro):**

@@ -6,7 +6,7 @@ This protocol outlines a hypothetical framework for replenishing[[_document_ - A
 
 ### Primary Compounds
 
-- **[[_document_ -  adrenochrome - Adrenochrome]] (C₉H₉NO₃):** The active quinone. Due to its inherent instability, it must be sourced as a high-purity (HPLC-grade) reference standard and maintained in a lyophilized state until administration.
+- **[[Adrenochrome]] (C₉H₉NO₃):** The active quinone. Due to its inherent instability, it must be sourced as a high-purity (HPLC-grade) reference standard and maintained in a lyophilized state until administration.
 - **[[Leuco-adrenochrome]] ((S)-1-Methylindoline-3,5,6-triol):** The reduced, colorless form. This is the preferred substrate for replenishment as it is more stable than the oxidized form and is reported to have lower acute toxicity and potential anti-anxiety properties.
 - **[[Carbazochrome]]:** A stabilized semicarbazone derivative. While traditionally used as a hemostatic agent, it serves as a viable pharmaceutical alternative if natural adrenochrome is too reactive for the intended delivery system.
 

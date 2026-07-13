@@ -8,7 +8,7 @@ To maintain a controlled systemic concentration of[[_document_ - Adrenochrome (p
 
 ## Phase I: Compound Stabilization and Preparation
 
-Pure[[_document_ - Adrenochrome (pubchem)]] (C₉H₉NO₃) is inherently unstable, prone to rearrangement into [[Adrenolutin]] or polymerization into [[Melanin]].
+Pure[[_document_ - Adrenochrome (pubchem)]] (C₉H₉NO₃) is inherently unstable, prone to rearrangement into [[Adrenolutin]] or polymerization into [[Melanins]].
 
 ### A. Formulation Parameters
 

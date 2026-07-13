@@ -5,9 +5,9 @@
 
 ### Overview of the Compounds
 
-- **[[Aminoguanidine]] (Pimagedine):** A selective inhibitor of [[Inducible Nitric Oxide Synthase|inducible nitric oxide synthase (iNOS)]], the enzyme responsible for producing high levels of [[Nitric Oxide|nitric oxide]] during [[Inflammation]]. It is also an inhibitor of [[Diamine Oxidase|diamine oxidase (DAO)]] and prevents the formation of advanced glycation end-products ([[AGEs]]), which are implicated in diabetic complications.
+- **[[Aminoguanidine]] (Pimagedine):** A selective inhibitor of [[Inducible Nitric Oxide Synthase|inducible nitric oxide synthase (iNOS)]], the enzyme responsible for producing high levels of [[Nitric Oxide|nitric oxide]] during [[Inflammation]]. It is also an inhibitor of [[Diamine Oxidase|diamine oxidase (DAO)]] and prevents the formation of advanced glycation end-products ([[Advanced Glycation End Products]]), which are implicated in diabetic complications.
 
-- **[[Methylene blue]] (Methylthioninium chloride):** A versatile synthetic dye and medication, FDA-approved to treat [[Methemoglobinemia]]. Pharmacologically, it inhibits [[Soluble Guanylyl Cyclase|soluble guanylyl cyclase (sGC)]] — the downstream receptor for [[Nitric Oxide|nitric oxide]] — and acts as a non-specific inhibitor of [[Nitric Oxide Synthase|nitric oxide synthase (NOS)]]. It is also a potent [[MAO inhibition|monoamine oxidase inhibitor]] (specifically [[MAO-A]]).
+- **[[Methylene blue]] (Methylthioninium chloride):** A versatile synthetic dye and medication, FDA-approved to treat [[Methemoglobinemia]]. Pharmacologically, it inhibits [[Soluble Guanylyl Cyclase|soluble guanylyl cyclase (sGC)]] — the downstream receptor for [[Nitric Oxide|nitric oxide]] — and acts as a non-specific inhibitor of [[Nitric Oxide Synthase|nitric oxide synthase (NOS)]]. It is also a potent [[Monoamine Oxidase Inhibitor|monoamine oxidase inhibitor]] (specifically [[Monoamine oxidase]]).
 
 ---
 
@@ -75,7 +75,7 @@ While both are valued in laboratory research, they differ in clinical status:
 
 ### Safety and Interaction Considerations
 
-- **[[Serotonin Syndrome]]:** Methylene blue is a potent [[MAO-A]] inhibitor. If combined with serotonergic medications (such as [[Selective Serotonin Reuptake Inhibitors|SSRIs]] or [[Serotonin-Norepinephrine Reuptake Inhibitors|SNRIs]], or certain pain relievers), it can cause a life-threatening accumulation of [[Serotonin]].
+- **[[Serotonin Syndrome]]:** Methylene blue is a potent [[Monoamine oxidase]] inhibitor. If combined with serotonergic medications (such as [[Selective Serotonin Reuptake Inhibitors|SSRIs]] or [[Serotonin-Norepinephrine Reuptake Inhibitors|SNRIs]], or certain pain relievers), it can cause a life-threatening accumulation of [[Serotonin]].
 
 - **[[Glucose-6-Phosphate Dehydrogenase|G6PD Deficiency]]:** Methylene blue can cause severe hemolysis in individuals with [[Glucose-6-Phosphate Dehydrogenase|glucose-6-phosphate dehydrogenase (G6PD)]] deficiency.
 
@@ -85,7 +85,7 @@ While both are valued in laboratory research, they differ in clinical status:
 
 ## Documents
 
-- [[Nitric Oxide Pathway Inhibitors|Nitric Oxide Pathway Inhibitors]]
+- [[iNOS|Nitric Oxide Pathway Inhibitors]]
   - Source chat thread comparing aminoguanidine and methylene blue as nitric oxide pathway modulators.
 
 ## Connections
@@ -98,5 +98,5 @@ While both are valued in laboratory research, they differ in clinical status:
 ## Linking Summary
 
 - New links added: [[Aminoguanidine]], [[Methylene blue]], [[Nitric Oxide]], [[Inducible Nitric Oxide Synthase]], [[Endothelial Nitric Oxide Synthase]], [[Soluble Guanylyl Cyclase]], [[Cyclic Guanosine Monophosphate]], [[Methemoglobinemia]], [[Diamine Oxidase]], [[Serotonin Syndrome]], [[Glucose-6-Phosphate Dehydrogenase]], [[Histamine Intolerance]], [[Septic Shock]], [[Vasoplegic Shock]], [[Norepinephrine]], [[Serotonin]].
-- Suggested new entity notes to create: [[AGEs]], [[MAO-A]] (if not covered by MAO notes).
+- Suggested new entity notes to create: [[Advanced Glycation End Products]], [[Monoamine oxidase]] (if not covered by MAO notes).
 - Strong connections to strengthen: [[Aminoguanidine]] ↔ [[Inducible Nitric Oxide Synthase]]; [[Methylene blue]] ↔ [[Soluble Guanylyl Cyclase]].

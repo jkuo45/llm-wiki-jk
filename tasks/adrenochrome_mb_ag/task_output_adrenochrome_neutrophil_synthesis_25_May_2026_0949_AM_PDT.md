@@ -36,7 +36,7 @@ The primary catalyst for this conversion is [[Myeloperoxidase]] (MPO), an enzyme
 
 ## Phase III: Stabilization of the Bio-Synthetic Product
 
-[[_document_ -  adrenochrome - Adrenochrome]] generated in a biological environment is highly transient and must be stabilized to prevent further oxidation into [[Melanins]] or rearrangement.
+[[Adrenochrome]] generated in a biological environment is highly transient and must be stabilized to prevent further oxidation into [[Melanins]] or rearrangement.
 
 ### A. Quenching the Burst
 

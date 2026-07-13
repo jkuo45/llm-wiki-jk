@@ -42,7 +42,7 @@ Free, non-conjugated [[Adrenochrome]] is highly unstable and is known to be card
 
 #### Historical Focus vs. Modern Anti-Aging Models
 
-Though there is a vast body of literature on [[Aminoguanidine]] as an [[Anti-aging|anti-aging]] and anti-glycation agent, research on **adrenochrome monoaminoguanidine** specifically has remained almost entirely confined to its capillary-stabilizing, anti-hemorrhagic, and radioprotective properties. Systematic evaluation of this specific derivative in modern, long-term models of aging, [[Collagen]] cross-linking, or age-related metabolic dysfunction is currently lacking in peer-reviewed literature.
+Though there is a vast body of literature on [[Aminoguanidine]] as an [[Successful Aging|anti-aging]] and anti-glycation agent, research on **adrenochrome monoaminoguanidine** specifically has remained almost entirely confined to its capillary-stabilizing, anti-hemorrhagic, and radioprotective properties. Systematic evaluation of this specific derivative in modern, long-term models of aging, [[Collagen]] cross-linking, or age-related metabolic dysfunction is currently lacking in peer-reviewed literature.
 
 ### Summary
 
@@ -69,7 +69,7 @@ The premise that [[Adrenochrome]] could selectively induce [[Apoptosis]] in thes
 
 ### The Senomorphic Hypothesis: SASP Modulation
 
-[[Senomorphics]] suppress the pro-inflammatory transcription of the [[Senescence-Associated Secretory Phenotype]] (SASP) without directly killing the senescent cell, effectively shifting it into a less harmful, quiescent-like state. Adrenochrome could theoretically exert a senomorphic effect through covalent modification and transcription factor crosstalk:
+[[Senomorphics]] suppress the pro-inflammatory transcription of the [[SASP]] (SASP) without directly killing the senescent cell, effectively shifting it into a less harmful, quiescent-like state. Adrenochrome could theoretically exert a senomorphic effect through covalent modification and transcription factor crosstalk:
 
 - **Electrophilic Covalent Modification:** [[Aminochromes]] are strong [[Electrophile|electrophiles]] capable of reacting with nucleophilic sulfhydryl ([[Cysteine]]) groups on cellular proteins via [[Michael addition]]. Key upstream regulators of the SASP—such as [[IKK complex|IKK (IκB kinase)]] and the [[p65]] subunit of [[NF-κB]]—rely on critical cysteine residues for their activation and DNA-binding capacity. Covalent modification of these residues by low concentrations of adrenochrome could permanently inhibit [[NF-κB]] signaling, thereby blunting the transcription of major SASP factors like [[IL-6]] and [[IL-8]].
 - **NRF2-Mediated SASP Suppression:** Electrophilic stress also modifies [[Keap1]], releasing the transcription factor [[NRF2]] to upregulate [[Antioxidant Response Element|antioxidant response elements]] (ARE). Active Nrf2 signaling is known to mutually antagonize [[NF-κB]] and directly repress the transcription of several pro-inflammatory cytokine genes, potentially enforcing a quiescent, non-secretory phenotype in the senescent cell.
