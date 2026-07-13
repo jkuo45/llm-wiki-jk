@@ -4,13 +4,15 @@ description: The cGAS-STING complex is an innate immune sensor that detects cyto
   DNA and activates inflammatory interferon signalling, playing a crucial role in SASP
   activation and age-related inflammation.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-07-13
 tags:
   - biological-process
   - senescence
   - innate-immunity
   - inflammation
   - signaling-pathway
+  - neuroinflammation
+  - neurodegeneration
 aliases: [cGAS–STING, cyclic GMP-AMP synthase-stimulator of interferon genes, STING pathway]
 ---
 
@@ -59,9 +61,20 @@ cGAS–STING intersects with [[p38 MAPK]], [[JAK]]–[[STAT3]], and [[mTORC1|mTO
 - **cGAS inhibitors**: Suppress SASP activation.
 These constitute a major arm of [[Senomorphic Therapy]].
 
+## Role in Neuroinflammation & Neurodegeneration
+
+> [!info] Source: [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+> cGAS–STING is a central driver of chronic [[Neuroinflammation]] across brain disorders, active in [[Microglia]], [[Astrocytes]], [[Neuron|neurons]], and [[Endothelial Cells|endothelial cells]].
+
+- **Convergent proteinopathy trigger:** [[Amyloid Beta|Aβ]], [[Tau|tau]], [[Alpha-synuclein|α-synuclein]], mutant [[SOD1]], [[TDP-43]], and mutant [[Huntingtin|huntingtin]] converge on [[mtDNA]] leakage (via [[Mitochondrial Permeability Transition Pore|mPTP]]/[[VDAC1]]/[[BAX]]) to activate the pathway; the [[Tau|tau]]–[[PQBP1]] complex activates cGAS DNA-independently.
+- **Maladaptive glial states:** Sustained cGAS–STING/[[Type I Interferon|IFN-I]] signaling promotes pro-inflammatory microglia and reactive [[Astrocytes]] (neurotoxic A1), drives [[Astrocyte Senescence|astrocyte senescence]], and generates a distinct IFN-I microglial subpopulation—separate from [[Disease-Associated Microglia|DAM]]—that correlates with synapse loss and cognitive decline.
+- **Cognitive resilience:** In tauopathy, microglial cGAS/IFN-I restrains neuronal [[MEF2C]] resilience programs; pharmacological cGAS inhibition phenocopies the protective [[APOE3 Christchurch]] (R136S) allele. AD risk alleles [[APOE4]] and [[TREM2]] R47H synergistically amplify the pathway.
+- **Propagation:** [[cGAMP]] spreads via [[Gap Junction|gap junctions]] (CX36) and [[PANX1]] channels; neuronal [[IFNAR1]] transmits microglial IFN-I to neurons.
+- **BBB & periphery:** Endothelial activation disrupts the [[Blood-Brain Barrier|BBB]] (via [[Pyroptosis]]); microglial STING protects it. [[Hematopoietic Stem Cell|HSCs]] suppress the pathway to maintain quiescence.
+
 ## Clinical / Pathological Relevance
 
-cGAS–STING hyperactivation is implicated in sterile inflammation of ageing, lupus-like autoimmunity (TREX1 deficiency), and SASP-driven fibrosis and cancer progression. Its inhibition is a leading strategy to blunt [[Inflammaging]] without eliminating senescent cells.
+cGAS–STING hyperactivation is implicated in sterile inflammation of ageing, lupus-like autoimmunity (TREX1 deficiency), SASP-driven fibrosis and cancer progression, and chronic [[Neuroinflammation]] in [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Huntington's Disease]], and [[Frontotemporal Dementia]]. Its inhibition ([[cGAS Inhibitors]] RU.521/TDI; [[STING Inhibitors]] H151) is a leading strategy to blunt [[Inflammaging]] and neurodegeneration—though the pathway's homeostatic roles mandate context-dependent, cell-type–selective modulation.
 
 #
 
@@ -77,6 +90,9 @@ List of documents that mention this entity
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review describes how cytoplasmic chromatin fragments (enriched for heterochromatin marks) and derepressed retrotransposons (LINE-1, HERV) activate cGAS–STING–NF-κB to drive SASP and inflammaging.
+
+  - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+    - Comprehensive review of cGAS–STING in the brain: canonical/noncanonical mechanisms, proteinopathy triggers, glial state regulation, BBB integrity, peripheral immune surveillance, and therapeutic targeting in neurodegeneration.
 
 ## Connections
 - [[SASP|Senescence-Associated Secretory Phenotype]] — cGAS–STING is a key driver of SASP factor transcription
@@ -104,6 +120,15 @@ List of documents that mention this entity
 - [[BRD4]] — H3K27ac reader at SASP enhancers downstream of cGAS–STING
 - [[KDM4]] — opens chromatin at SASP loci downstream of cGAS–STING–NF-κB
 - [[EZH2]] — H3K27me3 deposition restrains SASP at cGAS–STING target genes
+- [[Neuroinflammation]] — cGAS–STING is a central driver across brain disorders
+- [[Microglia]] — dominant cellular source of cGAS in the diseased brain
+- [[Type I Interferon]] — principal maladaptive output driving neurodegeneration
+- [[PQBP1]] — adaptor for DNA-independent cGAS activation by tau
+- [[MEF2C]] — neuronal resilience program restrained by microglial cGAS/IFN-I
+- [[APOE4]] / [[TREM2]] — AD risk alleles amplifying the pathway
+- [[APOE3 Christchurch]] — resilience allele phenocopied by cGAS inhibition
+- [[IFNAR1]] — neuronal receptor transmitting microglial IFN-I
+- [[Blood-Brain Barrier]] — context-dependent regulation by endothelial vs microglial STING
 
 ## Linking Summary
 - New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]]

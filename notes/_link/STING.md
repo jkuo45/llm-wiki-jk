@@ -3,7 +3,7 @@ title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-07-13
 tags:
   - innate-immunity
   - cgas-sting-pathway
@@ -22,7 +22,7 @@ aliases:
 
 # STING
 
-STING (Stimulator of Interferon Genes), also known as [[TMEM173]], MITA, ERIS, MPYS, or NET23, is a 379-amino acid transmembrane protein of the endoplasmic reticulum (ER) membrane that functions as a central signaling adaptor in the innate immune response to cytosolic DNA. STING is activated by cyclic dinucleotides (CDNs) produced by bacterial cGAS, or by host 2'3'-cGAMP produced by cGAS upon sensing cytosolic DNA. STING activates TBK1 → IRF3 → type I interferon (IFN-α/β) production, and also NF-κB → pro-inflammatory cytokines. It plays a critical role in defense against viral and bacterial infection, detection of damaged self-DNA, tumor immunity, and autoinflammatory disease.
+STING (Stimulator of Interferon Genes), also known as [[STING]], MITA, ERIS, MPYS, or NET23, is a 379-amino acid transmembrane protein of the endoplasmic reticulum (ER) membrane that functions as a central signaling adaptor in the innate immune response to cytosolic DNA. STING is activated by cyclic dinucleotides (CDNs) produced by bacterial cGAS, or by host 2'3'-cGAMP produced by cGAS upon sensing cytosolic DNA. STING activates TBK1 → IRF3 → type I interferon (IFN-α/β) production, and also NF-κB → pro-inflammatory cytokines. It plays a critical role in defense against viral and bacterial infection, detection of damaged self-DNA, tumor immunity, and autoinflammatory disease.
 
 ## Structure & Domains
 
@@ -68,6 +68,21 @@ STING serves multiple protective roles in host defense and homeostasis:
 
 **Neurodegeneration**: Mitochondrial DNA released from damaged mitochondria activates cGAS-STING in microglia, driving neuroinflammation implicated in Alzheimer's disease, Parkinson's disease, and amyotrophic lateral sclerosis (ALS). STING inhibition has emerged as a therapeutic strategy for neurodegenerative conditions.
 
+## Noncanonical, Nuclear & Context-Dependent Functions
+
+> [!info] Source: [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+> STING signaling extends well beyond canonical [[IRF3]]/[[Type I Interferon|IFN-I]] output:
+> - **Autophagy & lysosomes:** Activated STING drives [[LC3]] lipidation from [[ERGIC]] membranes and promotes [[TFEB]] dephosphorylation/nuclear translocation, inducing [[Lysosomal Biogenesis|lysosomal]] and autophagy genes.
+> - **Nuclear envelope pool:** A [[Nuclear Envelope]]-localized STING pool interacts with the [[Aryl Hydrocarbon Receptor]] to enhance its transcriptional activity.
+> - **cGAS-independent activation:** Organelle stress ([[Endoplasmic Reticulum Stress|ER stress]], endolysosomal dysfunction, impaired STING degradation) can activate STING independent of cGAS—supported by [[NPC1]] deficiency and [[C9orf72]] loss of function—positioning STING as a broad integrator of cellular stress.
+
+> [!warning] STING is not uniformly deleterious in the aging brain
+> While endothelial STING activation disrupts the [[Blood-Brain Barrier|BBB]], microglial STING **preserves** hippocampal BBB integrity during aging. Genetic STING loss reduces [[Cellular Senescence|senescence]] yet paradoxically accelerates cognitive/motor decline and raises the DNA-damage marker γH2A.X ([[H2A.X]]). In peripheral immunity, STING activation can be protective—inducing [[Regulatory T cells|Treg]] and regulatory [[B Cells|B cell]] responses and maintaining [[Hematopoietic Stem Cell|HSC]] quiescence.
+
+## Neuronal STING
+
+Though primarily an immune adaptor, neuronal STING restricts viral replication in *Drosophila* and promotes axonal regeneration in [[Retinal Ganglion Cells|retinal ganglion cells]] and [[Dorsal Root Ganglion|dorsal root ganglion]] neurons; its loss causes [[Nociceptor|nociceptor]] hyperexcitability via dysregulated IFN-I. STING inhibition reduces death of [[TDP-43]]-treated iPSC-derived motor neurons.
+
 **Cancer immunotherapy**: STING agonists — including diABZI (a potent non-nucleotide agonist), MSA-2 (a systemic CDN analog), and ADU-S100 (an intratumoral CDN) — are being developed to activate anti-tumor immunity by stimulating type I interferon production within the tumor microenvironment. These agents are in clinical trials for various solid tumors and hematologic malignancies.
 
 **Autoimmune disease**: Inappropriate STING activation contributes to lupus-like autoimmunity, where self-DNA from apoptotic cells triggers chronic cGAS-STING signaling. Therapeutic strategies under development include STING antagonists (e.g., HCl-560), neutralizing antibodies, and inhibition of upstream cGAS activity.
@@ -81,6 +96,9 @@ List of documents that mention this entity
   - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
     - It was proposed that TFEB activation in TREX1-deficient cells causes an expansion of the lysosomal system, resulting in activation of STING, TBK1 and the transcription factors IRF3 and IRF7, and leading to ISGs expression (Hasan et al 2013).
 
+  - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+    - Reviews STING's noncanonical autophagy/lysosome (TFEB, LC3) and nuclear-envelope (AHR) functions, cGAS-independent activation by organelle stress, and its context-dependent, sometimes protective role in the aging CNS and peripheral immunity.
+
 
 ## Connections
 
@@ -90,11 +108,15 @@ List of documents that mention this entity
 - [[Autophagy]] — STING induces autophagy via LC3 lipidation
 - [[LC3]] — marker of autophagosome formation, lipidated during STING-mediated autophagy
 - [[Inflammation]] — STING drives pro-inflammatory cytokine production via NF-κB
-- [[TFEB]] — transcription factor involved in lysosomal biogenesis, interacts with STING trafficking
+- [[TFEB]] — transcription factor for lysosomal biogenesis, activated by STING trafficking
+- [[Aryl Hydrocarbon Receptor]] — nuclear-envelope STING enhances AHR transcriptional activity
+- [[Blood-Brain Barrier]] — microglial STING preserves BBB integrity; endothelial STING disrupts it
+- [[Hematopoietic Stem Cell]] — HSCs suppress STING to maintain quiescence
+- [[NPC1]] / [[C9orf72]] — lysosomal defects drive cGAS-independent STING activation
+- [[Nociceptor]] — neuronal STING loss causes nociceptor hyperexcitability
 
 ## Linking Summary
 
-- New links added: [[TMEM173]], [[TRAF6]], [[LC3]], [[Inflammation]], [[TBK1]]
-- Existing links retained: [[Immune System]], [[TFEB]]
-- Suggested new entity notes to create: [[cGAS]], [[IRF3]], [[2'3'-cGAMP]], [[NF-kB]], [[SAVI]], [[Aicardi-Goutières Syndrome]], [[Type I Interferon]]
-  - Strong connections to strengthen: [[STING]] ↔ [[TBK1]], [[STING]] ↔ [[Inflammation]]
+- New links added: [[ERGIC]], [[Nuclear Envelope]], [[Aryl Hydrocarbon Receptor]], [[NPC1]], [[C9orf72]], [[Endoplasmic Reticulum Stress]], [[Blood-Brain Barrier]], [[H2A.X]], [[Regulatory T cells]], [[B Cells]], [[Hematopoietic Stem Cell]], [[Retinal Ganglion Cells]], [[Dorsal Root Ganglion]], [[Nociceptor]], [[TDP-43]], [[Type I Interferon]], [[Cellular Senescence]]
+- Suggested new entity notes to create: [[cGAMP]], [[STING]], [[STING]], [[STING Inhibitors]]
+  - Strong connections to strengthen: [[STING]] ↔ [[TFEB]], [[STING]] ↔ [[Blood-Brain Barrier]], [[STING]] ↔ [[Aryl Hydrocarbon Receptor]]

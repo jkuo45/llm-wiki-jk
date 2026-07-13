@@ -3,8 +3,8 @@ title: cGAMP
 description: 2'3'-cyclic GMP-AMP; a cyclic dinucleotide second messenger produced by cGAS that activates STING
 type: entity
 created: 2026-07-09
-updated: 2026-07-09
-tags: [biological-molecule, cgas-sting, innate-immunity, senescence, cancer]
+updated: 2026-07-13
+tags: [biological-molecule, cgas-sting, innate-immunity, senescence, cancer, neuroinflammation]
 aliases: [2'3'-cGAMP, Cyclic GMP-AMP, cGAS product]
 url: #
 source: #
@@ -14,7 +14,7 @@ source: #
 
 ## Overview
 
-cGAMP (2'3'-cyclic GMP-AMP) is a cyclic dinucleotide synthesized by **[[cGAS]]** upon detection of cytosolic [[DNA]]. It functions as a second messenger that binds and activates **[[STING]]**, triggering a [[type I interferon]] response. cGAMP is central to the [[cGAS-STING Pathway]] and plays a key role in [[Senescence|senescent]] cell immune surveillance.
+cGAMP (2'3'-cyclic GMP-AMP) is a cyclic dinucleotide synthesized by **[[cGAS]]** upon detection of cytosolic [[DNA]]. It functions as a second messenger that binds and activates **[[STING]]**, triggering a [[Type I Interferon]] response. cGAMP is central to the [[cGAS-STING Pathway]] and plays a key role in [[Senescence|senescent]] cell immune surveillance.
 
 ## Mechanism
 
@@ -36,7 +36,7 @@ In senescent cells, [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin frag
 
 ## Documents
 
-- [[_document_ - Cellular senescence and senescence_associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING]]
+- [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING]]
   - Describes cGAMP as the key second messenger linking cGAS activation to STING-dependent SASP in senescent cancer cells.
 
 ## Connections
@@ -50,5 +50,5 @@ In senescent cells, [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin frag
 ## Linking Summary
 
 - New links added: [[cGAS]], [[STING]], [[TBK1]], [[IRF3]], [[ENPP1]]
-- Suggested new entity notes to create: [[type I interferon]] (if not existing), [[STING agonist]]
+- Suggested new entity notes to create: [[Type I Interferon]] (if not existing), [[STING agonist]]
 - Strong connections to strengthen: [[cGAMP]] ↔ [[cGAS]] ↔ [[STING]] (core signaling axis)

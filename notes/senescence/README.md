@@ -28,11 +28,16 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 - Last updated: 13_July_2026 12:00 PM PDT
 - Total count of entities: 26
 
+## Documents
+
+- [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+  - JCI review (2026) on cGAS-STING in brain disorders. Senescence-relevant angles: [[Astrocyte Senescence|astrocyte senescence]], [[Cellular Senescence]] in glia (amplified by [[APOE4]]/[[TREM2]]), senescent-cell cGAS-STING via [[Micronuclei|micronuclear envelope rupture]] ([[Barrier-to-Autointegration Factor 1|BAF1]] loss), and [[Senomorphic]]-style suppression of the cGAS-STING/SASP axis. Core entities: [[cGAS]], [[STING]], [[cGAS-STING Pathway]], [[Microglia]], [[Neuroinflammation]].
+
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
 | [[Senescence]]                                      | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |      0      | The senescence program itself; hub of the topic.                                                                  |
 | [[Senescent Cells]]                                 | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The arrested, apoptosis-resistant cells that accumulate with age.                                                 |
-| [[SASP\|Senescence-Associated Secretory Phenotype]] | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The SASP is the pro-inflammatory effector arm of senescence.                                                      |
+| [[SASP|Senescence-Associated Secretory Phenotype]] | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The SASP is the pro-inflammatory effector arm of senescence.                                                      |
 | [[Paracrine Senescence]]                            | 09_July_2026 12:00 PM PDT | Biological Process     |      9      |     -1      | Bystander spread of senescence through SASP factors.                                                              |
 | [[Paracrine Reprogramming]]                         | 11_July_2026 12:00 PM PDT | Biological Process     |      8      |      0      | SASP factors alter the differentiation status (stemness, EMT, lineage) of neighbouring cells; dual role.          |
 | [[CCL20]]                                           | 11_July_2026 12:00 PM PDT | Chemical Compound      |      5      |     -1      | SASP CC-chemokine (MIP-3α); CCR6 axis recruits TH17 cells and drives paracrine arrest.                            |
