@@ -2,7 +2,7 @@
 
 Goal: optimize for mitohormesis, autophagy
 
-[[Methylene Blue]] ([methylthioninium chloride](https://pubmed.ncbi.nlm.nih.gov/15918829/)): oxidative pulse, mitohormetic stressor
+[[Methylene blue]] ([methylthioninium chloride](https://pubmed.ncbi.nlm.nih.gov/15918829/)): oxidative pulse, mitohormetic stressor
 
 [[Aminoguanidine HCL]] ([pimagedine](https://pubmed.ncbi.nlm.nih.gov/14568006/)): control quinone reactivity, inhibit AGE's
 
@@ -48,7 +48,7 @@ Goal: optimize for mitohormesis, autophagy
 
 ---
 
-### [[Methylene Blue]]: Oral vs. Intravenous
+### [[Methylene blue]]: Oral vs. Intravenous
 
 #### **Pharmacokinetics & Bioavailability**
 

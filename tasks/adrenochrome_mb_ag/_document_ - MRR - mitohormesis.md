@@ -35,11 +35,11 @@ The **[[Mitohormetic Redox-Relay]] (MRR)** is a highly structured and biochemica
 
 #### 1.3. Fuel: [[Nicotinamide Riboside]]/[[Nicotinamide Mononucleotide]] (The Bioenergetic Engine)
 
-- **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular [[NADH]]/[[NAD⁺|NAD⁺]] ratio toward [[NAD⁺|NAD⁺]].
-- **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly [[NAD⁺|NAD⁺]]-dependent. By priming the system with [[NAD⁺|NAD⁺]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out [[PGC-1α]]/[[SIRT1]]-driven [[Mitochondrial Biogenesis]].
+- **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular [[NADH]]/[[NAD+|NAD⁺]] ratio toward [[NAD+|NAD⁺]].
+- **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly [[NAD+|NAD⁺]]-dependent. By priming the system with [[NAD+|NAD⁺]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out [[PGC-1α]]/[[SIRT1]]-driven [[Mitochondrial Biogenesis]].
 
-> [!tip] Predictive biomarker — [[SIRT3/SIRT4 Ratio]]
-> The [[SIRT3/SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the carbazochrome/adrenochrome-derived signal is adaptive or toxic.
+> [!tip] Predictive biomarker — [[SIRT3-SIRT4 Ratio]]
+> The [[SIRT3-SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the carbazochrome/adrenochrome-derived signal is adaptive or toxic.
 
 #### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)
 
@@ -84,7 +84,7 @@ To transition this theoretical relay into an empirical protocol, the following i
 
   - [[Carbazochrome]] → transient [[Superoxide anion]] pulse → activates [[NRF2]]/[[Antioxidant Response Element|ARE]] and [[PGC-1α]] (mitohormesis)
   - [[Methylene blue]] → electron shunt at Complex I/II → buffers ROS while maintaining ATP synthesis
-  - [[Nicotinamide Riboside]] / [[Nicotinamide Mononucleotide]] → [[NAD⁺|NAD⁺]] precursors → fuel for [[SIRT1]]/[[SIRT3]]-dependent [[Mitochondrial Biogenesis]]
+  - [[Nicotinamide Riboside]] / [[Nicotinamide Mononucleotide]] → [[NAD+|NAD⁺]] precursors → fuel for [[SIRT1]]/[[SIRT3]]-dependent [[Mitochondrial Biogenesis]]
   - [[Urolithin A]] → [[Mitophagy]] inducer → clears depolarized [[Mitochondria]]
   - [[Carbazochrome]] → potential [[Autophagy]] inhibition (via [[Carbazochrome sulfonic acid]]) → may counteract [[Urolithin A]]
   - [[Carbazochrome]] → [[Hemostatics|hemostatic]] agent → theoretical risk of [[Vasoconstriction]]

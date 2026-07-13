@@ -39,7 +39,7 @@ cell survival.
 
 **The Isomerase-Mediated Survival Switch**
 
-- **Mechanism**: In response to survival cytokines (e.g., GM-CSF), the **[[ERK]]** (ERK1/2) pathway phosphorylates **[[Bax]]** at **Thr167**.
+- **Mechanism**: In response to survival cytokines (e.g., GM-CSF), the **[[ERK]]** (ERK1/2) pathway phosphorylates **[[BAX]]** at **Thr167**.
 - **The Pin1 Interaction**: This creates a pThr-Pro motif recognized by the peptidyl-prolyl isomerase **[[Pin1]]**. Pin1 binding catalyzes a conformational change that locks Bax in an inactive state, preventing its translocation to the mitochondria and subsequent oligomerization.
 - **Biological Outcome**: This mechanism protects cells (notably eosinophils) from apoptosis. Disruption of the ERK-Bax-Pin1 complex or inhibition of Pin1 triggers Bax activation and MOMP.
 - **Context Dependency**: While ERK-mediated Thr167 phosphorylation is pro-survival, the same site can be targeted by JNK or p38 under stress to promote apoptosis, suggesting Pin1 acts as the critical switch for the pro-survival outcome.
@@ -48,7 +48,7 @@ cell survival.
 
 **Licensing the "Mitochondrial Killer"**
 
-- **Mechanism**: **[[Bak]]** is maintained in an inactive state on the mitochondria through inhibitory phosphorylation at **Tyr108**.
+- **Mechanism**: **[[BAK]]** is maintained in an inactive state on the mitochondria through inhibitory phosphorylation at **Tyr108**.
 - **The Phosphatases**: For Bak to be activated, it must be dephosphorylated at Tyr108. This "licensing" is mediated by the **[[PTPN family]]**, primarily **PTPN5** (STEP), along with **PTPN2** and **PTPN23**.
 - **The K-RAS/ERK Blockade**: In K-RAS mutated cancers (e.g., colon cancer), hyperactive ERK1/2 phosphorylates and **inactivates PTPN5**. This locks Bak in its inactive, phosphorylated state, providing a profound resistance to apoptosis.
 - **Cancer Connection**: Genetic loss or downregulation of PTPN2 and PTPN23 is common in T-cell leukemias and epithelial cancers, raising the threshold for Bak activation.

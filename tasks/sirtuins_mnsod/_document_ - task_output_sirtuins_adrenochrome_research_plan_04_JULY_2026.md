@@ -39,7 +39,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
 
 **Hypothesis 1A:** Cells with high [[SIRT3-SIRT4 Ratio|SIRT3/SIRT4 ratios]] will rapidly quench adrenochrome-derived superoxide, limiting its [[Hormesis|hormetic]] signal. Cells with low SIRT3/SIRT4 ratios (aged [[Cardiomyocytes|cardiomyocytes]], renal tubular epithelial cells) will exhibit amplified superoxide from equivalent adrenochrome doses, narrowing the [[Hormetic Window|hormetic window]] and shifting toward toxicity.
 
-**Hypothesis 1B:** Sub-toxic adrenochrome exposure upregulates SIRT3 expression through a retrograde [[ROS]]→[[AMPK]]→[[PGC-1alpha|PGC-1α]]→SIRT3 signaling cascade, constituting an adaptive feedback loop. SIRT3 induction would represent a "[[Redox Vaccination|redox vaccination]]" mechanism: prior sub-lethal adrenochrome exposure protects against subsequent oxidative challenge through SIRT3-mediated [[MnSOD]] enhancement.
+**Hypothesis 1B:** Sub-toxic adrenochrome exposure upregulates SIRT3 expression through a retrograde [[ROS]]→[[AMPK]]→[[PGC-1α|PGC-1α]]→SIRT3 signaling cascade, constituting an adaptive feedback loop. SIRT3 induction would represent a "[[Redox Vaccination|redox vaccination]]" mechanism: prior sub-lethal adrenochrome exposure protects against subsequent oxidative challenge through SIRT3-mediated [[MnSOD]] enhancement.
 
 ### Proposed Experimental Design
 
@@ -147,7 +147,7 @@ The prior report highlighted the paradox of [[SIRT2]]: it stabilizes [[TFEB]] [[
 - **Microglial [[NLRP3 Inflammasome|NLRP3]] Suppression:**
    - Treat primary [[Microglia|microglia]] with [[LPS]] (100 ng/mL, 4 h) to prime NLRP3, then add [[ATP]] (5 mM) + adrenochrome (1–100 nM).
    - Measure:
-     - [[Interleukin 1beta|IL-1β]] and [[IL-18]] release ([[ELISA|ELISA]]).
+     - [[Interleukin 1β|IL-1β]] and [[IL-18]] release ([[ELISA|ELISA]]).
      - [[ASC|ASC]] speck formation ([[Immunofluorescence|immunofluorescence]]).
      - [[Caspase-1|Caspase-1]] cleavage (Western blot).
      - [[NRF2|Nrf2]] nuclear translocation and [[HO-1]] expression.
@@ -225,7 +225,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
 ### Proposed Experimental Design
 
 - **miRNA Profiling in Senescent Cells:**
-   - Induce [[Cellular Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1beta|IL-1β]] (10 ng/mL, 7 days).
+   - Induce [[Cellular Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1β|IL-1β]] (10 ng/mL, 7 days).
    - Treat with sub-toxic adrenochrome (10 nM, 48 h).
    - Perform small [[RNA-seq]] to quantify changes in [[miR-217]], [[miR-543]], [[miR-378]], and all known age-associated miRs.
    - Validate top hits by [[TaqMan|TaqMan]] [[qPCR]].

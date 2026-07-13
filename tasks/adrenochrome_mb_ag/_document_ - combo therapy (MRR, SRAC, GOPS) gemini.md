@@ -116,8 +116,8 @@ An analysis of the biochemical mechanisms, potential synergies, critical scienti
 - **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular ratio of [[NADH]] to [[NAD+]] toward **NAD+**.
 - **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly NAD+-dependent. By priming the system with NAD+ precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out the PGC-1α/SIRT1-driven [[Mitochondrial Biogenesis]] initiated by the oxidative pulse.
 
-> [!tip] Predictive biomarker — [[SIRT3/SIRT4 Ratio]]
-> The [[SIRT3/SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the adrenochrome/carbazochrome-derived signal is adaptive or toxic.
+> [!tip] Predictive biomarker — [[SIRT3-SIRT4 Ratio]]
+> The [[SIRT3-SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the adrenochrome/carbazochrome-derived signal is adaptive or toxic.
 
 #### Cleanup: Urolithin A (The Quality Control)
 

@@ -28,7 +28,7 @@ tags:
 
 **Yes, there are profound similarities — and a critical mechanistic convergence — between [[MnSOD]]'s reaction in the [[Sirtuins|sirtuin]] ([[Resveratrol|resveratrol]]) document and its role in the [[Adrenochrome]] pathway.** Both contexts describe MnSOD as the mitochondrial matrix enzyme that dismutates [[Superoxide|superoxide (O₂⁻)]] into [[Hydrogen Peroxide|hydrogen peroxide (H₂O₂)]], but they converge on this same reaction from opposite directions: one as a longevity-promoting [[Antioxidant|antioxidant]] mechanism, the other as a [[Hormesis|hormetic]] signaling relay triggered by [[Redox Cycling|redox-cycling]] stress.
 
-The key insight is that **adrenochrome-derived superoxide is the exact substrate that [[SIRT3]]-activated MnSOD processes**, making the two pathways mechanistically coupled through shared substrate, shared enzyme, and shared downstream effectors ([[PGC-1alpha|PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB|NF-κB]]).
+The key insight is that **adrenochrome-derived superoxide is the exact substrate that [[SIRT3]]-activated MnSOD processes**, making the two pathways mechanistically coupled through shared substrate, shared enzyme, and shared downstream effectors ([[PGC-1α|PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB|NF-κB]]).
 
 ---
 
@@ -48,7 +48,7 @@ From the sirtuins document (`_document_ - sirtuins (resveratrol), gemini.md`, li
             ▼                         ▼
     Deacetylates [[MnSOD]]    Deacetylates [[OSCP]]
             │                         │
-     Scavenges [[ROS]] /       Boosts [[ATP synthase|ATP Synthase]] /
+     Scavenges [[ROS]] /       Boosts [[ATP Synthase|ATP Synthase]] /
     Limits [[Mitochondria|Mitochondrial]] Damage     Improves Respiration
 ```
 
@@ -72,7 +72,7 @@ From the adrenochrome pathway documents (primarily `[[Mitohormetic Redox-Relay|M
                                                                                ([[SIRT4]] inhibits)
 ```
 
-**Mechanism:** [[Adrenochrome]] undergoes [[Redox Cycling|redox cycling]] — it is one-electron reduced (by [[Mitochondria|mitochondrial]] [[Respiratory chain complex I|Complex I]] or [[Complex III|III]]) to a [[Adrenochrome Semiquinone Radical|semiquinone radical]], which transfers its electron to O₂, generating [[Superoxide|superoxide]] and regenerating adrenochrome. This is a catalytic, self-sustaining cycle. The superoxide produced is then dismutated by [[MnSOD]] via the identical reaction:
+**Mechanism:** [[Adrenochrome]] undergoes [[Redox Cycling|redox cycling]] — it is one-electron reduced (by [[Mitochondria|mitochondrial]] [[Respiratory Chain Complex I|Complex I]] or [[Complex III|III]]) to a [[Adrenochrome Semiquinone Radical|semiquinone radical]], which transfers its electron to O₂, generating [[Superoxide|superoxide]] and regenerating adrenochrome. This is a catalytic, self-sustaining cycle. The superoxide produced is then dismutated by [[MnSOD]] via the identical reaction:
 
 > **2 O₂⁻ + 2H⁺ → H₂O₂ + O₂**
 
@@ -111,9 +111,9 @@ Both pathways activate the same transcriptional program through the same superox
 
 | Downstream Effector | Sirtuin Context | Adrenochrome Context |
 |--------------------|-----------------|---------------------|
-| **[[PGC-1alpha|PGC-1α]]** | [[SIRT1]] deacetylates PGC-1α → [[Mitochondrial Biogenesis|mitochondrial biogenesis]] | Adrenochrome-derived H₂O₂ activates PGC-1α via [[AMPK]] → [[SOD2]] upregulation |
+| **[[PGC-1α|PGC-1α]]** | [[SIRT1]] deacetylates PGC-1α → [[Mitochondrial Biogenesis|mitochondrial biogenesis]] | Adrenochrome-derived H₂O₂ activates PGC-1α via [[AMPK]] → [[SOD2]] upregulation |
 | **[[FOXO3a]]** | SIRT1 deacetylates FOXO3a → upregulates SOD2, [[Catalase]] | FOXO3a activated by [[ROS]] → antioxidant gene program |
-| **[[AMPK]]** | [[Resveratrol]] activates AMPK via [[CaMKKbeta|CaMKKβ]] | H₂O₂ from MnSOD reaction activates AMPK |
+| **[[AMPK]]** | [[Resveratrol]] activates AMPK via [[CaMKKβ|CaMKKβ]] | H₂O₂ from MnSOD reaction activates AMPK |
 | **[[NFKB|NF-κB]]** | SIRT1 deacetylates NF-κB → anti-inflammatory | NF-κB transcriptionally upregulates MnSOD as negative feedback |
 | **[[NRF2]]** | [[NAD+]]-[[SIRT1]] axis supports NRF2 | H₂O₂ diffuses to cytosol → NRF2 activation |
 
@@ -121,8 +121,8 @@ Both pathways activate the same transcriptional program through the same superox
 
 Both pathways embody the **[[Mitohormesis|mitohormesis]]** principle — mild [[Mitochondria|mitochondrial]] stress (whether from ETC leak in sirtuin context, or from adrenochrome [[Redox Cycling|redox cycling]]) generates [[ROS]] that activates adaptive defense programs:
 
-- **Sirtuin document:** [[Resveratrol]] → [[PDE4]] inhibition → [[cAMP]] ↑ → [[CaMKKbeta|CaMKKβ]] → [[AMPK]] → [[NAMPT]] → [[NAD+]] ↑ → [[SIRT1]] ↑ → [[PGC-1alpha|PGC-1α]]/[[FOXO3a]] → [[Mitochondrial Biogenesis|mitochondrial biogenesis]] + [[Antioxidant|antioxidant]] upregulation
-- **Adrenochrome pathway:** [[Adrenochrome]] [[Redox Cycling|redox cycling]] → O₂⁻ → [[MnSOD]] → H₂O₂ → [[AMPK]] → [[PGC-1alpha|PGC-1α]] → [[SOD2]] ↑ + [[NRF2]] → antioxidant program
+- **Sirtuin document:** [[Resveratrol]] → [[PDE4]] inhibition → [[cAMP]] ↑ → [[CaMKKβ|CaMKKβ]] → [[AMPK]] → [[NAMPT]] → [[NAD+]] ↑ → [[SIRT1]] ↑ → [[PGC-1α|PGC-1α]]/[[FOXO3a]] → [[Mitochondrial Biogenesis|mitochondrial biogenesis]] + [[Antioxidant|antioxidant]] upregulation
+- **Adrenochrome pathway:** [[Adrenochrome]] [[Redox Cycling|redox cycling]] → O₂⁻ → [[MnSOD]] → H₂O₂ → [[AMPK]] → [[PGC-1α|PGC-1α]] → [[SOD2]] ↑ + [[NRF2]] → antioxidant program
 
 Both are **positive feedback loops** where initial [[ROS]] exposure triggers enhanced antioxidant capacity, protecting against subsequent oxidative challenge.
 
@@ -134,7 +134,7 @@ Both are **positive feedback loops** where initial [[ROS]] exposure triggers enh
 
 | Feature | Sirtuin Context | Adrenochrome Context |
 |---------|----------------|---------------------|
-| **Superoxide source** | Baseline ETC leak ([[Respiratory chain complex I|Complex I]]/[[Complex III|III]]) | Adrenochrome [[Redox Cycling|redox cycling]] (catalytic, self-sustaining) |
+| **Superoxide source** | Baseline ETC leak ([[Respiratory Chain Complex I|Complex I]]/[[Complex III|III]]) | Adrenochrome [[Redox Cycling|redox cycling]] (catalytic, self-sustaining) |
 | **Superoxide flux** | Low, constitutive | High, amplified (adrenochrome is regenerated each cycle) |
 | **Redox cycling** | No (one-electron leak) | Yes (semiquinone radical regenerates parent compound) |
 
@@ -162,7 +162,7 @@ The sirtuin document does not frame [[MnSOD]] activity in terms of a hormetic wi
 
 **Rationale:** If [[Adrenochrome]] (or its stabilized derivative [[Carbazochrome]]) generates superoxide via catalytic [[Redox Cycling|redox cycling]], and if this superoxide is the primary substrate for [[MnSOD]], then:
 
-- Sub-toxic adrenochrome exposure should **upregulate [[SIRT3]] expression** via a retrograde [[ROS]] → [[AMPK]] → [[PGC-1alpha|PGC-1α]] → SIRT3 feedback loop
+- Sub-toxic adrenochrome exposure should **upregulate [[SIRT3]] expression** via a retrograde [[ROS]] → [[AMPK]] → [[PGC-1α|PGC-1α]] → SIRT3 feedback loop
 - SIRT3 induction should **increase MnSOD deacetylation** (measurable by Western blot for acetyl-K68/K122)
 - The resulting MnSOD activation should **enhance cellular resistance** to subsequent oxidative challenge (a "[[Redox Vaccination|redox vaccination]]" effect)
 - This protective effect should be **abolished in SIRT3 knockout cells** or **blocked by [[SIRT4]] overexpression**
@@ -195,7 +195,7 @@ The SIRT3/SIRT4 ratio may predict individual responsiveness to adrenochrome-deri
 ### Synergy with Known Sirtuin Activators
 
 Combining adrenochrome [[Redox Cycling|redox cycling]] with:
-- **[[Resveratrol]]** ([[SIRT1]] activator → [[PGC-1alpha|PGC-1α]] → [[SOD2]] transcription)
+- **[[Resveratrol]]** ([[SIRT1]] activator → [[PGC-1α|PGC-1α]] → [[SOD2]] transcription)
 - **[[Honokiol]]** ([[SIRT3]] activator → [[MnSOD]] deacetylation)
 - **[[NMN]]/[[Nicotinamide Riboside|NR]]** ([[NAD+]] precursor → fuels all sirtuins)
 
@@ -214,7 +214,7 @@ The [[MnSOD]] reaction in both the [[Sirtuins|sirtuin]] ([[Resveratrol|resveratr
 - **Shared substrate** ([[Superoxide|superoxide]])
 - **Shared enzyme** ([[MnSOD]]/[[SOD2]])
 - **Shared regulators** ([[SIRT3]] activation, [[SIRT4]] inhibition)
-- **Shared downstream effectors** ([[PGC-1alpha|PGC-1α]], [[AMPK]], [[FOXO3a]], [[NFKB|NF-κB]], [[NRF2]])
+- **Shared downstream effectors** ([[PGC-1α|PGC-1α]], [[AMPK]], [[FOXO3a]], [[NFKB|NF-κB]], [[NRF2]])
 - **Shared [[Mitohormesis|mitohormetic]] logic** (adaptive [[ROS]] signaling)
 
 The critical difference is the **source and kinetics** of superoxide: constitutive ETC leak (sirtuin context) vs. catalytic [[Redox Cycling|redox cycling]] (adrenochrome context). This difference implies that adrenochrome may be a more potent, but also more dangerous, activator of the SIRT3-MnSOD axis — requiring careful dose-titration to remain within the [[Hormetic Window|hormetic window]].
@@ -225,6 +225,6 @@ The critical difference is the **source and kinetics** of superoxide: constituti
 
 ## Linking Summary
 
-- New links added: [[MnSOD]], [[SOD2]], [[SIRT3]], [[SIRT4]], [[PGC-1alpha]], [[FOXO3a]], [[AMPK]], [[NFKB]], [[NRF2]], [[Resveratrol]], [[Honokiol]], [[Carbazochrome]], [[Adrenochrome]], [[Mitohormesis]], [[Redox Cycling]], [[Superoxide]], [[Hydrogen Peroxide]], [[NAD+]], [[NMN]], [[Nicotinamide Riboside]]
+- New links added: [[MnSOD]], [[SOD2]], [[SIRT3]], [[SIRT4]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB]], [[NRF2]], [[Resveratrol]], [[Honokiol]], [[Carbazochrome]], [[Adrenochrome]], [[Mitohormesis]], [[Redox Cycling]], [[Superoxide]], [[Hydrogen Peroxide]], [[NAD+]], [[NMN]], [[Nicotinamide Riboside]]
 - Suggested new entity notes to create: None beyond existing vault inventory — all entities above have existing notes.
 - Strong connections to strengthen: [[MnSOD]] ↔ [[SIRT3]] ↔ [[Adrenochrome]], [[SIRT3-SIRT4 Ratio]] ↔ [[Hormetic Window]]

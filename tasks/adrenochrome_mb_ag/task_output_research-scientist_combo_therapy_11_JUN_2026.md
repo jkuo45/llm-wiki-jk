@@ -33,7 +33,7 @@ This document outlines novel combination therapies leveraging the redox-cycling 
 ### Composition
 
 - **Trigger:** [[Carbazochrome]] (stabilized adrenochrome derivative) at sub-micromolar concentrations.
-- **Amplifier:** [[Methylene Blue]] (mitochondrial electron cycler).
+- **Amplifier:** [[Methylene blue]] (mitochondrial electron cycler).
 - **Fuel:** Nicotinamide Riboside (NR) or NMN (NAD+ precursors).
 - **Cleanup:** Urolithin A (mitophagy inducer).
 
@@ -43,7 +43,7 @@ This document outlines novel combination therapies leveraging the redox-cycling 
 - **Pathway Activation:** This "oxidative pulse" activates the **Nrf2/ARE** antioxidant response and stimulates **PGC-1α** via the SIRT1/AMPK axis (primed by NR/NMN).
 - **Electron Shunting:** Methylene blue acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing runaway ROS generation while maintaining the signaling pulse.
 - **Selective Mitophagy:** Urolithin A ensures increased mitochondrial turnover results in clearance of dysfunctional organelles.
-- **Predictive biomarker:** The [[SIRT3/SIRT4 Ratio]] serves as a **biomarker** for individual responsiveness to the MRR pulse — it sets the [[Hormetic Window]] by governing MnSOD-mediated superoxide clearance vs. retention, determining whether the adrenochrome/carbazochrome signal is adaptive or toxic.
+- **Predictive biomarker:** The [[SIRT3-SIRT4 Ratio]] serves as a **biomarker** for individual responsiveness to the MRR pulse — it sets the [[Hormetic Window]] by governing MnSOD-mediated superoxide clearance vs. retention, determining whether the adrenochrome/carbazochrome signal is adaptive or toxic.
 
 ### Expected Outcomes
 

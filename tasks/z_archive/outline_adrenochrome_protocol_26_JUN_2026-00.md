@@ -13,7 +13,7 @@ Compounds may be found in natural foods: such as wheat germ, edamame, soy beans,
 | --------- | ----------------------------------------------- | --------------- |
 | MRR       | [[NAD+]], NMN, NR                               | mitochondria    |
 | MRR       | [[Urolithin A\|Urolithin A]] | mitochondria    |
-| MRR       | [[Methylene Blue]]                              | mitochondria    |
+| MRR       | [[Methylene blue]]                              | mitochondria    |
 | **[-]**   | [[Creatine]]                                    | mitochrondia    |
 | GOPS      | [[Carnosine]], [[EDTA]]                         | ER/peroxisomes  |
 | GOPS      | [[Spermidine]]                                  | ER/peroxisomes  |
