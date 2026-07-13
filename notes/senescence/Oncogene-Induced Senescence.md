@@ -4,7 +4,7 @@ description: Oncogene-Induced Senescence (OIS) is a biological process in which
   normal cells expressing activated oncogenes enter a state of permanent cell cycle
   arrest, functioning as an intrinsic tumor-suppressive barrier against malignant transformation.
 created: 2024-01-01
-updated: 2026-07-11
+updated: 2026-07-12
 tags:
   - biological-process
   - senescence
@@ -52,6 +52,9 @@ List of documents that mention this entity
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review shows OIS undergoes B-to-A compartment switching at SASP genes (condensin-bound), enhancer remodeling at the TAD scale, and HMGB2 protection of SASP loci from SAHF silencing; AP-1/BRD4/EZH2/KDM4 orchestrate the SASP epigenetically.
 
+  - [[_document_ - acosta2013_paracrine_senescence|Acosta et al., 2013 — Inflammasome controls paracrine senescence]]
+    - Demonstrated that OIS cells transmit senescence to neighbouring normal cells via SASP factors (paracrine senescence). Identified the inflammasome–IL-1α axis as the master SASP regulator and TGF-β family ligands as major paracrine mediators. Showed in vivo paracrine senescence in mouse liver, skin, and human SSA models.
+
 ## Connections
 
 ### Oncogenic Triggers
@@ -85,6 +88,9 @@ List of documents that mention this entity
 - [[CXCR2]]: Receptor for OIS SASP chemokines that recruit immune cells for senescent-cell clearance
 - [[Notch]]: Regulates the OIS SASP and switch between early and late secretory programs
 
+> [!info] Paracrine Senescence from OIS (Acosta et al., 2013)
+> OIS cells can transmit senescence to neighbouring normal cells via secreted SASP factors — a phenomenon termed [[Paracrine Senescence]]. Co-culture experiments demonstrated that IMR90 ER:RAS or MEK:ER cells undergoing OIS arrest normal IMR90 fibroblasts in trans. This occurs between different cell types (HMEC OIS → IMR90) and is mediated by soluble factors (conditioned medium is sufficient). The SASP components TGF-β family ligands, VEGF, CCL2, and CCL20 mediate paracrine senescence, with TGF-β playing the major role via p15^INK4b/p21^CIP1 induction. Paracrine senescence was demonstrated in vivo in mouse liver (Nras[G12V]), mouse skin papillomas (K5-Sos Egfr), and human sessile serrated adenomas.
+
 ### Epigenetic Regulation of the SASP
 - [[Epigenetic Alterations]]: Compartment switching and enhancer remodeling orchestrate the OIS SASP
 - [[DNA Methylation]]: OIS shows focal hypermethylation of PRC2 target genes, establishing a cancer-prone epigenetic landscape
@@ -105,6 +111,7 @@ List of documents that mention this entity
 - [[Navitoclax]]: Bcl-2/Bcl-xL inhibitor senolytic effective against OIS cells
 - [[Bcl-2]]: Anti-apoptotic target exploited by Navitoclax to kill OIS cells
 - [[Bcl-xL]]: Anti-apoptotic target exploited by Navitoclax to kill OIS cells
+- [[Paracrine Senescence]]: OIS cells transmit senescence to neighbouring normal cells via secreted SASP factors, expanding the senescent footprint of preneoplastic lesions
 
 ## Linking Summary
 - New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic Drugs]], [[Cancer]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]]

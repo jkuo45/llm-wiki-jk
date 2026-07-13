@@ -3,7 +3,7 @@ title: Senescence notes
 aliases: []
 description: Index of wiki notes for cellular senescence and senotherapeutics
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-12
 ---
 # Senescence
 
@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 11_July_2026 02:00 PM PDT
-- Total count of entities: 22
+- Last updated: 12_July_2026 12:00 PM PDT
+- Total count of entities: 24
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
@@ -52,3 +52,5 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[Senotherapeutic]]                                 | 09_July_2026 12:00 PM PDT | Pharmacological Action |      8      |      1      | Umbrella term for any intervention targeting senescent cells.                                                     |
 | [[Senotherapy]]                                     | 09_July_2026 12:00 PM PDT | Therapeutic Strategy   |      8      |      1      | Class of interventions mitigating effects of senescence on aging.                                                 |
 | [[Acute Stress-Associated Phenotype]]               | 10_July_2026 12:00 PM PDT | Biological Process     |      7      |     -1      | Acute ATM/TRAF6/TAK1 stress response that transitions into the chronic SASP; blocked by apigenin via PRDX6/HSPA8. |
+| [[Activin A]]                                        | 12_July_2026 12:00 PM PDT | Growth Factor          |      5      |      0      | TGF-β family SASP component; ALK4/SMAD2/3 mediates paracrine senescence alongside TGF-β1 and BMP2.               |
+| [[CDKN2B]]                                           | 12_July_2026 12:00 PM PDT | Kinase Inhibitor       |      6      |      0      | Encodes p15^INK4b; key CDK inhibitor induced by TGF-β in paracrine senescence; cooperates with p21.              |

@@ -5,7 +5,7 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
 created: 2024-01-01
-updated: 2026-07-07
+updated: 2026-07-12
 tags:
   - biological-process
   - senescence
@@ -260,6 +260,9 @@ List of documents that mention this entity
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review showing that senescent nuclei undergo epigenetic reprogramming (A/B compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, retrotransposon derepression) that orchestrates SASP expression; epigenetic modulators can act as senomorphics.
+
+  - [[_document_ - acosta2013_paracrine_senescence|Acosta et al., 2013 — Inflammasome controls paracrine senescence]]
+    - Identified the inflammasome–IL-1α axis as the master upstream regulator of the SASP. IL-1α expression alone phenocopies the full SASP. Multiple SASP components (TGF-β family ligands, VEGF, CCL2, CCL20) mediate paracrine senescence. Showed the SASP is controlled by canonical inflammasome (caspase-1/ASC/NLRP3) activation during OIS.
 
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
     - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a SASP — a cellular state beneficial in embryonic development, tissue repair and regeneration; autophagy inducers can target immune aging driven by SASP.

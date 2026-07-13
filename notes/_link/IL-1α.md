@@ -2,7 +2,7 @@
 title: IL-1α
 description: Interleukin-1 alpha is a cell-associated pro-inflammatory cytokine and master upstream initiator of the SASP via NF-κB and mTOR-regulated translation.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-07-12
 tags:
   - cytokine
   - biological-molecule
@@ -26,6 +26,9 @@ IL-1α is constitutively expressed as a 31-kDa precursor that localizes to the n
 - It initiates the cascade that induces IL-6, IL-8, and other NF-κB–dependent SASP components.
 - It promotes [[Paracrine Senescence]] and recruits innate immune cells for surveillance.
 
+> [!important] Master Upstream SASP Regulator (Acosta et al., 2013)
+> IL-1α expression alone phenocopies the full SASP of OIS cells, activating multiple SASP components including IL-6, IL-8, CCL2, and CCL20. Caspase-1 or IL-1R inhibitors — but not TGFBR1 inhibitors — blunt SASP component expression during OIS, placing IL-1α processing by the inflammasome upstream of the entire SASP. IL-1α inhibition partially prevents SASP induction by TGF-β, but the converse is not true, confirming IL-1α's dominant regulatory position. In vivo, IL-1R inhibitor reduces senescent hepatocyte burden in a Nras[G12V] liver model.
+
 ## Clinical / Pathological Relevance
 - Elevated IL-1α drives [[Inflammaging]] and chronic inflammatory disease.
 - Inhibiting IL-1α (e.g., canakinumab, anakinra) is a [[Senomorphic Therapy|senomorphic]] strategy to blunt harmful SASP.
@@ -40,6 +43,9 @@ List of documents that mention this entity
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review lists IL-1α among the upstream SASP regulators (with DNA damage, C/EBPβ, GATA4, p38 MAPK, mTOR, JAK–STAT, NOTCH) whose outputs are shaped by the epigenetic landscape that orchestrates downstream SASP expression.
+
+  - [[_document_ - acosta2013_paracrine_senescence|Acosta et al., 2013 — Inflammasome controls paracrine senescence]]
+    - Demonstrated that IL-1α expression alone phenocopies the full SASP; identified the inflammasome–IL-1α axis as the master upstream regulator of SASP-driven paracrine senescence. IL-1R inhibitor reduced senescent cell burden in vivo.
 
 ## Connections
 
