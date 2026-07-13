@@ -17,11 +17,13 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a sequential senomorphic-s
 
 > [!warning] Protocol Revision (08–09 July 2026)
 > **Two revisions applied:**
+>
 > 1. **Nanoparticle delivery removed** — replaced with AMM (adrenochrome monoaminoguanidine, a pre-stabilized complex) + Methylene Blue (mitochondrial self-targeting). No physical targeting vehicle needed.
 > 2. **Sequential dosing** — rapamycin and fisetin are administered sequentially, not concurrently, to resolve the senomorphic/senolytic timing conflict.
-> See [[task_output_SRAC_revision_log_08_JULY_2026|revision log]] for full rationale.
+>    See [[task_output_SRAC_revision_log_08_JULY_2026|revision log]] for full rationale.
 
 ## Strategy Components
+
 - **Modulator:** [[Adrenochrome monoaminoguanidine|AMM]] (stabilized adrenochrome–aminoguanidine complex; sub-micromolar, intermittent oral dosing). Provides redox trigger + AGE inhibition in a single stable molecule.
 - **Amplifier:** [[Methylene blue|MB]] (mitochondrial electron cycler; 0.5–2 mg daily). Self-targets mitochondria via membrane potential; dampens runaway ROS from AMM while maintaining the hormetic signal.
 - **Brake:** [[Rapamycin|Rapamycin]] (mTOR inhibitor; 5 mg weekly, **Phase 1 only**).
@@ -29,7 +31,7 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a sequential senomorphic-s
 - **Buffer:** [[GlyNAC]] (Glycine + N-Acetylcysteine; daily, **continuous across both phases**).
 
 > [!info] Rapamycin shows a biphasic (hormetic) dose-response
-> Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
+> Cerrillo, Vidakovic & Míguez (2026, _bioRxiv_ 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated _in vitro_. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 
 ## Mechanism of Action (MOA)
 
@@ -60,6 +62,7 @@ The SRAC achieves senescent cell selectivity through **three layers of biologica
 6. **Autophagy priming:** Rapamycin in Phase 1 activates autophagy. Autophagy-primed senescent cells may be more susceptible to fisetin-induced apoptosis.
 
 ## Expected Outcomes
+
 - Significant reduction in systemic SASP biomarkers (IL-6, IL-1β, MCP-1).
 - Reduced AGE accumulation and protein cross-linking (AMM aminoguanidine moiety).
 - Improved mitochondrial function (MB electron shuttling).
@@ -72,10 +75,12 @@ The SRAC achieves senescent cell selectivity through **three layers of biologica
 > Per [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|Wang et al. (2024, Nat Rev Mol Cell Biol)]], SASP products measured at a single time point cannot discriminate beneficial from detrimental senescence, so SRAC should track biomarkers **longitudinally** (pre, end of Phase 1, post-Phase 2, and during washout).
 
 ### Primary SRAC readouts (already specified)
+
 - **IL-6, IL-1β, MCP-1 (CCL2)** — direct readouts of rapamycin-mediated SASP suppression in Phase 1.
 - **CXCL12** — fisetin-driven vascular-aging response; proposed to personalize the 1–2 week rapamycin washout duration.
 
 ### Expanded panel to adopt (from the SASP review)
+
 - **SASP Atlas core set** (combinatorial plasma biomarker of senescence): [[GDF15]], stanniocalin-1, serpin-family proteins, and [[MMP]]s.
 - **Mortality-associated 5-factor panel**: GDF15, RAGE, VEGF-A, PARC ([[CCL18]]), and MMP-2 — strongly associated with all-cause mortality and useful as a global senescence-burden index for SRAC.
 - **Urine / urinary-EV panel** (non-invasive): IL-6, CCL2, MMP-7, MMP-8 — practical for repeated sampling across the phased protocol.
@@ -94,9 +99,10 @@ The ratio therefore determines how the AMM-generated mitochondrial superoxide bu
 - **Low ratio (SIRT4 dominant):** Superoxide persists → wide hormetic window; greater risk of oxidative damage, SASP flare, or cytokine-storm during senescent-cell lysis.
 
 > [!tip] Use in SRAC
-> Because the SRAC redox pulse and the SASP-suppression/readout are both redox-coupled, the [[SIRT3-SIRT4 Ratio]] acts as a **companion biomarker** to the SASP panel: it predicts *who* will tolerate and benefit from AMM/MB dosing, and can personalize the AMM dose and the MB low-end setting (0.5 mg) to keep the signal within each individual's hormetic window. [[Caloric Restriction]] and NAD⁺ precursors ([[NMN]]/[[NR]]) shift the ratio toward SIRT3 dominance, dovetailing with the SRAC redox-buffer logic.
+> Because the SRAC redox pulse and the SASP-suppression/readout are both redox-coupled, the [[SIRT3-SIRT4 Ratio]] acts as a **companion biomarker** to the SASP panel: it predicts _who_ will tolerate and benefit from AMM/MB dosing, and can personalize the AMM dose and the MB low-end setting (0.5 mg) to keep the signal within each individual's hormetic window. [[Caloric Restriction]] and NAD⁺ precursors ([[NMN]]/[[NR]]) shift the ratio toward SIRT3 dominance, dovetailing with the SRAC redox-buffer logic.
 
 ### Mechanistic rationale
+
 The review confirms rapamycin suppresses the SASP through the mTOR → IL-1α → MK2/ZFP36L1 axis and NF-κB, exactly the Phase 1 "brake." Tracking the expanded panel lets SRAC distinguish true SASP remodeling from transient SASP flares during senescent-cell lysis (cytokine-storm risk flagged in the original protocol).
 
 ## Connections
@@ -129,10 +135,11 @@ The review confirms rapamycin suppresses the SASP through the mTOR → IL-1α �
 ## Documents
 
 - [[tasks/outline_adrenochrome_combo_therapy|SRAC Outline]]
-- [[notes/adrenochrome/_document_ - (protocol) SRAC - senescent, ligand-conjugated|SRAC Protocol (Original)]]
+- [[_document_ - (protocol) SRAC - senescent, ligand-conjugated|SRAC Protocol (Original)]]
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review (Wang et al., 2024)]]: Source for the expanded SRAC biomarker panel.
 
 ## Linking Summary
+
 - New links added: [[Adrenochrome monoaminoguanidine]], [[Methylene blue]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[NRF2]], [[SIRT1]], [[PGC-1α]], [[SASP]], [[Glutathione]], [[Inflammaging]], [[Advanced Glycation End Products]], [[GDF15]], [[MMP-9]], [[GM-CSF]], [[CCL18]], [[CXCL12]], [[MMP-2]], [[SASP Atlas]], [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications]], [[SIRT3-SIRT4 Ratio]], [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Hormetic Window]]
 - Suggested new entity notes to create: [[GDF15]], [[MMP-9]], [[GM-CSF]], [[CCL18]], [[CXCL12]], [[MMP-2]], [[SASP Atlas]]
 - Strong connections to strengthen: [[SASP-Remodeling Aminochrome Complex]] ↔ [[Senescence]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[Adrenochrome monoaminoguanidine]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[Methylene blue]], [[SASP-Remodeling Aminochrome Complex]] ↔ [[SASP]] (biomarker framework)
