@@ -8,6 +8,7 @@ tags: [gene, oncogene, cancer, signaling]
 aliases: [Kirsten rat sarcoma virus, KRAS proto-oncogene, GTPase KRas]
 url: #
 source: #
+protected: true
 ---
 
 # KRAS

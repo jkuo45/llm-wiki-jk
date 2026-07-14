@@ -70,7 +70,7 @@ List of documents that mention this entity
 - [[Aging]] — telomere attrition is one of the nine hallmarks of aging
 - [[Cellular Senescence]] — critically short telomeres trigger irreversible growth arrest
 - [[Senescence]] — replicative senescence driven by telomere shortening
-- [[SASP]] — senescent cells with short telomeres secrete pro-inflammatory factors
+- [[SASP|Senescence-Associated Secretory Phenotype]] — senescent cells with short telomeres secrete pro-inflammatory factors
 - [[DNA Damage]] — unprotected telomeres activate the DDR
 - [[Genomic Instability]] — critically short telomeres cause chromosome fusions and breakage-fusion-bridge cycles
 - [[Telomerase]] — reverse transcriptase that counteracts telomere shortening
@@ -93,6 +93,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Aging]], [[Cellular Senescence]], [[Senescence]], [[SASP]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
+- New links added: [[Aging]], [[Cellular Senescence]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
 - Suggested new entity notes to create: [[Telomere]], [[Shelterin Complex]], [[T-loop]], [[ALT (Alternative Lengthening of Telomeres)]], [[Telomere Biology Disorders]], [[Idiopathic Pulmonary Fibrosis]], [[Dyskeratosis Congenita]], [[Imetelstat]], [[TA-65]]
   - Strong connections to strengthen: Telomere Attrition ↔ Hallmarks of Aging, Telomere Attrition ↔ Replicative Senescence, Telomere Attrition ↔ [[Telomerase]], Telomere Attrition ↔ Cellular Senescence

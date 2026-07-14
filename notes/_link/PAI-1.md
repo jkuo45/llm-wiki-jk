@@ -14,7 +14,7 @@ aliases: [PAI-1, SERPINE1, Plasminogen Activator Inhibitor-1]
 
 # PAI-1
 
-**Plasminogen activator inhibitor-1 (PAI-1)**, also known as SERPINE1, is a serine protease inhibitor that is a key component of the [[Senescence-Associated Secretory Phenotype|SASP]] and a leading plasma biomarker of the senescent burden.
+**Plasminogen activator inhibitor-1 (PAI-1)**, also known as SERPINE1, is a serine protease inhibitor that is a key component of the [[SASP|Senescence-Associated Secretory Phenotype]] and a leading plasma biomarker of the senescent burden.
 
 ## Mechanism of Action & Signaling
 
@@ -37,7 +37,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — A key serine protease inhibitor in SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — A key serine protease inhibitor in SASP
 - [[Senescent Cells]] — Secreted by senescent cells
 - [[uPA]] — Inhibits urokinase plasminogen activator
 - [[Senescence]] — Promotes senescence in an autocrine manner
@@ -45,5 +45,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[uPA]], [[Senescence]], [[TGFβ]], [[GDF15]], [[RAGE]], [[VEGF]], [[PARC]], [[CCL18]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[uPA]], [[Senescence]], [[TGFβ]], [[GDF15]], [[RAGE]], [[VEGF]], [[PARC]], [[CCL18]]
   - Strong connections to strengthen: [[PAI-1]] ↔ SASP mortality signature, [[PAI-1]] ↔ fibrosis

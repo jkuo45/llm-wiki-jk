@@ -15,7 +15,7 @@ aliases: [TAK1, MAP3K7, TGFβ-activated kinase 1]
 
 # TAK1
 
-TAK1 (TGFβ-activated kinase 1), also known as MAP3K7, is a mitogen-activated protein kinase kinase kinase (MAP3K) that activates [[p38 MAPK]] and [[mTORC1|mTOR]] signaling to promote the [[Senescence-Associated Secretory Phenotype|SASP]].
+TAK1 (TGFβ-activated kinase 1), also known as MAP3K7, is a mitogen-activated protein kinase kinase kinase (MAP3K) that activates [[p38 MAPK]] and [[mTORC1|mTOR]] signaling to promote the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -43,10 +43,10 @@ Because TAK1 controls NF-κB and p38 outputs, it is a candidate target in inflam
 - [[ATM]]: ATM activates TAK1
 - [[IKK complex]]: TAK1 phosphorylates IKK to activate NF-κB
 - [[NFKB|NF-κB]]: TAK1 drives NF-κB via IKK
-- [[Senescence-Associated Secretory Phenotype|SASP]]: TAK1 promotes SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: TAK1 promotes SASP
 
 ## Linking Summary
 
 - New links added: [[IKK complex]], [[NFKB|NF-κB]], [[ATM]]
   - Suggested new entity notes to create: [[MAP3K7]], [[TAB1]], [[MKK3]]
-  - Strong connections to strengthen: [[TAK1]] ↔ [[p38 MAPK]], [[TAK1]] ↔ [[SASP]], [[TAK1]] ↔ [[NFKB|NF-κB]]
+  - Strong connections to strengthen: [[TAK1]] ↔ [[p38 MAPK]], [[TAK1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TAK1]] ↔ [[NFKB|NF-κB]]

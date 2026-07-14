@@ -47,7 +47,7 @@ List of documents that mention this entity
 - [[Apoptosis]]: ALA modulates apoptotic thresholds via caspase regulation.
 
 ## Linking Summary
-- New links added in this revision: [[Reactive Nitrogen Species]], [[Peroxynitrite]], [[NRF2]], [[Keap1]], [[AMPK]], [[Pro-inflammatory Cytokines]], [[TNF-alpha]], [[IL-1b]], [[Fatty acid oxidation]], [[Metabolic Syndromes]], [[Diabetic Neuropathy]], [[Malondialdehyde]], [[Age-Related Macular Degeneration]], [[Apoptosis]], [[Ascorbic Acid]], [[Diabetes Mellitus]]
+- New links added in this revision: [[Reactive Nitrogen Species]], [[Peroxynitrite]], [[NRF2]], [[Keap1]], [[AMPK]], [[Pro-inflammatory Cytokines]], [[TNF-alpha]], [[IL-1β]], [[Fatty acid oxidation]], [[Metabolic Syndromes]], [[Diabetic Neuropathy]], [[Malondialdehyde]], [[Age-Related Macular Degeneration]], [[Apoptosis]], [[Ascorbic Acid]], [[Diabetes Mellitus]]
 - Suggested new entity notes to create: [[Lipoyl Synthase]], [[ALADIN Trial]]
 - New links added: [[Vitamin C]], [[Vitamin E]], [[Glutathione]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Hypochlorous Acid]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Dihydrolipoic Acid]], [[Metal Chelation]]
@@ -62,7 +62,7 @@ The ALA/DHLA redox couple has a highly negative reduction potential (−0.32 V f
 
 ## Signaling and Gene Regulation
 
-Beyond direct antioxidant chemistry, ALA modulates redox-sensitive transcription factors. It activates the [[NRF2]]/ARE pathway by modifying reactive cysteine residues on [[Keap1]], leading to nuclear translocation of Nrf2 and induction of phase II detoxification enzymes (glutathione S-transferases, NAD(P)H:quinone oxidoreductase 1, heme oxygenase-1). Simultaneously, ALA inhibits [[NF-kappa B]] activation by preventing IκB phosphorylation and degradation, suppressing [[Pro-inflammatory Cytokines]] such as [[TNF-alpha]] and [[IL-1b]]. This dual Nrf2 activation and NF-κB suppression underlies ALA's anti-inflammatory properties. Additionally, ALA [[AMPK|activates AMPK]] in skeletal muscle and liver, enhancing [[Glutathione|glucose uptake]] and [[Fatty acid oxidation|fatty acid oxidation]], suggesting therapeutic utility in [[Diabetes Mellitus|insulin resistance]] and [[Metabolic Syndromes]].
+Beyond direct antioxidant chemistry, ALA modulates redox-sensitive transcription factors. It activates the [[NRF2]]/ARE pathway by modifying reactive cysteine residues on [[Keap1]], leading to nuclear translocation of Nrf2 and induction of phase II detoxification enzymes (glutathione S-transferases, NAD(P)H:quinone oxidoreductase 1, heme oxygenase-1). Simultaneously, ALA inhibits [[NF-kappa B]] activation by preventing IκB phosphorylation and degradation, suppressing [[Pro-inflammatory Cytokines]] such as [[TNF-alpha]] and [[IL-1β]]. This dual Nrf2 activation and NF-κB suppression underlies ALA's anti-inflammatory properties. Additionally, ALA [[AMPK|activates AMPK]] in skeletal muscle and liver, enhancing [[Glutathione|glucose uptake]] and [[Fatty acid oxidation|fatty acid oxidation]], suggesting therapeutic utility in [[Diabetes Mellitus|insulin resistance]] and [[Metabolic Syndromes]].
 
 ## Clinical Applications
 

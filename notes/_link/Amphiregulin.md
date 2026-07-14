@@ -14,7 +14,7 @@ aliases: [Amphiregulin, AREG, AR]
 
 # Amphiregulin
 
-**Amphiregulin (AREG)** is an epidermal growth factor (EGF)-family ligand of the [[EGFR]] (ERBB1) receptor and a conserved growth-factor component of the [[Senescence-Associated Secretory Phenotype|SASP]].
+**Amphiregulin (AREG)** is an epidermal growth factor (EGF)-family ligand of the [[EGFR]] (ERBB1) receptor and a conserved growth-factor component of the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -41,7 +41,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — A growth factor component of SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — A growth factor component of SASP
 - [[Senescent Cells]] — Secreted by senescent cells
 - [[EGFR]] — AREG activates the EGFR
 - [[Cancer]] — Can promote tumor growth
@@ -49,5 +49,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[EGFR]], [[Cancer]], [[MAPK]], [[PI3K]], [[Akt]]
-  - Strong connections to strengthen: [[Amphiregulin]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[Amphiregulin]] ↔ [[EGFR]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[EGFR]], [[Cancer]], [[MAPK]], [[PI3K]], [[Akt]]
+  - Strong connections to strengthen: [[Amphiregulin]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Amphiregulin]] ↔ [[EGFR]]

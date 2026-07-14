@@ -36,7 +36,7 @@ Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Fla
 
 ## Senotherapeutic Efficacy (Yousefzadeh et al., 2018)
 
-In a 10-flavonoid screen, [[Fisetin]] was the most potent [[Senolytic|senolytic]], outperforming [[Quercetin]] at 5 µM. In progeroid *Ercc1*<sup>−/∆</sup> and aged wild-type mice, acute (oral gavage, 100 mg/kg) or chronic (dietary 500 ppm) fisetin reduced *p16*<sup>Ink4a</sup>, *p21*<sup>Cip1</sup>, and [[Senescence-Associated Secretory Phenotype|SASP]] markers across fat, spleen, liver, kidney, and CD3<sup>+</sup> [[T Cell|T cells]], and lowered [[Oxidative Stress|oxidative stress]] (↓4-HNE, ↑GSH:GSSG). In human adipose explants it reduced SA-β-gal<sup>+</sup> cells and SASP factors [[IL-6]], [[IL-8]], [[MCP-1]]. Critically, feeding fisetin to mice beginning at ~85 weeks of age extended both median and maximal [[Lifespan|lifespan]] and reduced age-related pathology — the first [[Senolytic|senolytic]] shown to extend both [[Healthspan|healthspan]] and [[Lifespan|lifespan]] when started late in life, via a hit-and-run mechanism (benefit persisted through drug-free washout).
+In a 10-flavonoid screen, [[Fisetin]] was the most potent [[Senolytic|senolytic]], outperforming [[Quercetin]] at 5 µM. In progeroid *Ercc1*<sup>−/∆</sup> and aged wild-type mice, acute (oral gavage, 100 mg/kg) or chronic (dietary 500 ppm) fisetin reduced *p16*<sup>Ink4a</sup>, *p21*<sup>Cip1</sup>, and [[SASP|Senescence-Associated Secretory Phenotype]] markers across fat, spleen, liver, kidney, and CD3<sup>+</sup> [[T Cell|T cells]], and lowered [[Oxidative Stress|oxidative stress]] (↓4-HNE, ↑GSH:GSSG). In human adipose explants it reduced SA-β-gal<sup>+</sup> cells and SASP factors [[IL-6]], [[IL-8]], [[MCP-1]]. Critically, feeding fisetin to mice beginning at ~85 weeks of age extended both median and maximal [[Lifespan|lifespan]] and reduced age-related pathology — the first [[Senolytic|senolytic]] shown to extend both [[Healthspan|healthspan]] and [[Lifespan|lifespan]] when started late in life, via a hit-and-run mechanism (benefit persisted through drug-free washout).
 
 ## Bioavailability and Nanodelivery (Szymczak & Cielecka-Piontek, 2023)
 
@@ -76,7 +76,7 @@ List of documents that mention this entity
 - [[Senolytic]]: Fisetin is the most potent flavonoid senolytic identified to date.
 - [[Senomorphic]]: At lower exposure fisetin also suppresses SASP/NF-κB signaling.
 - [[Healthspan]] / [[Lifespan]]: Extended in aged mice by late-life fisetin intervention.
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Suppressed by fisetin across tissues and human adipose.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Suppressed by fisetin across tissues and human adipose.
 - [[Bioavailability]]: Major limitation (~44.1%); addressed by nanodelivery.
 - [[Nanoparticles]] / [[Liposomes]] / [[Nanoemulsions]] / [[Cyclodextrins]] / [[Nanocrystals]]: Delivery platforms improving fisetin exposure.
 - [[Flavonol]]: Fisetin is a flavonol subclass flavonoid.
@@ -84,10 +84,10 @@ List of documents that mention this entity
 
 ---
 
-- New links added (ingestion batch, 09 Jul 2026): [[Senolytic]], [[Senomorphic]], [[Healthspan]], [[Lifespan]], [[Senescence-Associated Secretory Phenotype]], [[Bioavailability]], [[Nanoparticles]], [[Liposomes]], [[Nanoemulsions]], [[Cyclodextrins]], [[Nanocrystals]], [[Flavonol]], [[IL-6]], [[IL-8]], [[MCP-1]], [[T Cell|T Cells]], [[Oxidative Stress]], [[SNEDDS]], [[Inulin]]
-- Strong connections to strengthen: [[Fisetin]] ↔ [[Senolytic]], [[Fisetin]] ↔ [[Healthspan]]/[[Lifespan]], [[Fisetin]] ↔ [[Bioavailability]], [[Fisetin]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added (ingestion batch, 09 Jul 2026): [[Senolytic]], [[Senomorphic]], [[Healthspan]], [[Lifespan]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Bioavailability]], [[Nanoparticles]], [[Liposomes]], [[Nanoemulsions]], [[Cyclodextrins]], [[Nanocrystals]], [[Flavonol]], [[IL-6]], [[IL-8]], [[MCP-1]], [[T Cell|T Cells]], [[Oxidative Stress]], [[SNEDDS]], [[Inulin]]
+- Strong connections to strengthen: [[Fisetin]] ↔ [[Senolytic]], [[Fisetin]] ↔ [[Healthspan]]/[[Lifespan]], [[Fisetin]] ↔ [[Bioavailability]], [[Fisetin]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
 
 ## Linking Summary
-- New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]], [[Rapamycin]], [[GlyNAC]], [[Senolytic]], [[Senomorphic]], [[Healthspan]], [[Lifespan]], [[Senescence-Associated Secretory Phenotype]], [[Bioavailability]], [[Nanoparticles]], [[Liposomes]], [[Nanoemulsions]], [[Cyclodextrins]], [[Nanocrystals]], [[Flavonol]], [[IL-6]], [[IL-8]], [[MCP-1]], [[T Cell|T Cells]], [[Oxidative Stress]], [[SNEDDS]], [[Inulin]]
+- New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]], [[Rapamycin]], [[GlyNAC]], [[Senolytic]], [[Senomorphic]], [[Healthspan]], [[Lifespan]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Bioavailability]], [[Nanoparticles]], [[Liposomes]], [[Nanoemulsions]], [[Cyclodextrins]], [[Nanocrystals]], [[Flavonol]], [[IL-6]], [[IL-8]], [[MCP-1]], [[T Cell|T Cells]], [[Oxidative Stress]], [[SNEDDS]], [[Inulin]]
 - Suggested new entity notes to create: 
   - Strong connections to strengthen: [[Fisetin]] ↔ SASP-Remodeling Aminochrome Complex, [[Fisetin]] ↔ COMT Inhibitors, [[Fisetin]] ↔ Senomorphics, [[Fisetin]] ↔ [[Rapamycin]], [[Fisetin]] ↔ GlyNAC, [[Fisetin]] ↔ [[Senolytic]], [[Fisetin]] ↔ [[Bioavailability]]

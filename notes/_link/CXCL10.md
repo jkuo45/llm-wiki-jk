@@ -16,7 +16,7 @@ aliases:
 
 # CXCL10
 
-CXCL10 (C-X-C motif chemokine ligand 10), also known as IP-10 (interferon gamma-induced protein 10), is an ELR− (non-ELR) C-X-C chemokine that binds [[CXCR3]] (and CXCR3B splice variant). Unlike ELR+ CXC chemokines it is not angiogenic/neutrophil-directed; instead it recruits T cells and natural killer cells and is a key immunosurveillance arm of the [[Senescence-Associated Secretory Phenotype|SASP]] (Coppé et al., 2010, PMID 20723158).
+CXCL10 (C-X-C motif chemokine ligand 10), also known as IP-10 (interferon gamma-induced protein 10), is an ELR− (non-ELR) C-X-C chemokine that binds [[CXCR3]] (and CXCR3B splice variant). Unlike ELR+ CXC chemokines it is not angiogenic/neutrophil-directed; instead it recruits T cells and natural killer cells and is a key immunosurveillance arm of the [[SASP|Senescence-Associated Secretory Phenotype]] (Coppé et al., 2010, PMID 20723158).
 
 ## Mechanism of Action & Signaling
 
@@ -48,9 +48,9 @@ CXCL10 (C-X-C motif chemokine ligand 10), also known as IP-10 (interferon gamma-
 - [[cGAS-STING Pathway|cGAS–STING]]: cGAS–STING pathway regulates CXCL10
 - [[EZH2]]: EZH2 represses CXCL10 in senescent tumor cells
 - [[STAT1]]: STAT1 mediates IFN-driven CXCL10 transcription
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL10 is an immunomodulatory SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL10 is an immunomodulatory SASP factor
 
 ## Linking Summary
 
-- New links added: [[CXCR3]], [[CXCL11]], [[cGAS-STING Pathway|cGAS–STING]], [[EZH2]], [[STAT1]], [[NF-κB]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
+- New links added: [[CXCR3]], [[CXCL11]], [[cGAS-STING Pathway|cGAS–STING]], [[EZH2]], [[STAT1]], [[NF-κB]], [[p38 MAPK]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
   - Strong connections to strengthen: [[CXCL10]] ↔ [[CXCR3]], [[CXCL10]] ↔ immune surveillance

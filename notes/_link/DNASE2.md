@@ -36,10 +36,10 @@ DNASE2 deficiency in mice causes severe chronic polyarthritis and lethal anemia 
 
 - [[cGAS-STING Pathway|cGAS–STING]]: DNASE2 downregulation triggers cGAS–STING
 - [[TREX1]]: Both DNASE2 and TREX1 degrade cytoplasmic DNA
-- [[Senescence-Associated Secretory Phenotype|SASP]]: DNASE2 loss promotes SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: DNASE2 loss promotes SASP
 - [[Senescent Cells]]: DNASE2 is downregulated in senescence
 
 ## Linking Summary
 
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[TREX1]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]]
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[TREX1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]]
   - Strong connections to strengthen: [[DNASE2]] ↔ cGAS–STING, [[DNASE2]] ↔ cytoplasmic DNA clearance

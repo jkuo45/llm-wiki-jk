@@ -13,8 +13,8 @@ aliases: []
 Inflammaging is a state of chronic, low-grade, systemic inflammation that develops with advanced age and is a major risk factor for many age-related diseases.
 **Inflammaging** is a term used to describe the chronic, low-grade, systemic inflammation that often accompanies [[Aging]]. It is considered a significant risk factor for many age-related diseases.
 ## Characteristics
-- **Pro-inflammatory Environment**: Elevated levels of systemic [[Cytokines|pro-inflammatory cytokines]] like [[IL-6]], [[TNFA]], and [[IL-1b]].
-- **[[Senescence]]-Driven**: Partly caused by the accumulation of senescent cells and their [[Senescence-Associated Secretory Phenotype]] (SASP).
+- **Pro-inflammatory Environment**: Elevated levels of systemic [[Cytokines|pro-inflammatory cytokines]] like [[IL-6]], [[TNFA]], and [[IL-1β]].
+- **[[Senescence]]-Driven**: Partly caused by the accumulation of senescent cells and their [[SASP|Senescence-Associated Secretory Phenotype]] (SASP).
 - **[[Innate Immune System]] Activation**: Chronic activation of innate immune pathways in the absence of acute infection.
 ## Health Impact
 Inflammaging contributes to the pathogenesis of various conditions, including:
@@ -52,12 +52,12 @@ List of documents that mention this entity
 - [[Cytokines]] — interacts with Inflammaging
 - [[IL-6]] — pleiotropic pro-inflammatory cytokine; core SASP component
 - [[TNFA]] — interacts with Inflammaging
-- [[IL-1b]] — interacts with Inflammaging
+- [[IL-1β]] — interacts with Inflammaging
 - [[Senescence]] — interacts with Inflammaging
-- [[Senescence-Associated Secretory Phenotype]] — interacts with Inflammaging
+- [[SASP|Senescence-Associated Secretory Phenotype]] — interacts with Inflammaging
 - [[Innate Immune System]] — interacts with Inflammaging
 - [[Epigenetic Alterations]] — epigenetic derepression of retroelements drives inflammaging
-- [[SASP]] — chronic SASP is a major contributor to inflammaging
+- [[SASP|Senescence-Associated Secretory Phenotype]] — chronic SASP is a major contributor to inflammaging
 - [[LINE-1]] — LINE-1 cDNA activates cGAS–STING–driven inflammaging
 - [[cGAS-STING Pathway]] — cytosolic retroelement DNA triggers inflammaging via cGAS–STING
 - [[Cytoplasmic Chromatin Fragments]] — CCF is another cytosolic DNA source for inflammaging
@@ -68,6 +68,6 @@ List of documents that mention this entity
 - [[RB1]] — RB1 loss derepresses LINE-1 fueling inflammaging
 - [[SIRT6]] — SIRT6 loss derepresses LINE-1 promoting inflammaging
 ## Linking Summary
-- New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1b]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
-- Suggested new entity notes to create: [[Systemic Inflammation]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
+- New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1β]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
+- Suggested new entity notes to create: [[Systemic Inflammation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
   - Strong connections to strengthen: [[Inflammaging]] ↔ Cellular Senescence, [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]

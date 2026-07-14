@@ -48,6 +48,6 @@ Inhibition of HERV (and LINE-1) reverse transcriptase by [[Nucleoside Reverse Tr
 
 ## Linking Summary
 
-- New links added: [[Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[LINE-1]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[DNA Methylation]], [[Inflammaging]], [[SASP]], [[Senomorphic]]
+- New links added: [[Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[LINE-1]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[DNA Methylation]], [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]]
 - Suggested new entity notes to create: [[HERV-K]], [[Retrovirus-like Particle]], [[cGAS-STING Pathway]]
-- Strong connections to strengthen: [[Human Endogenous Retrovirus]] ↔ [[SASP]] (cGAS–STING), [[Human Endogenous Retrovirus]] ↔ [[Nucleoside Reverse Transcriptase Inhibitor]] (therapy)
+- Strong connections to strengthen: [[Human Endogenous Retrovirus]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (cGAS–STING), [[Human Endogenous Retrovirus]] ↔ [[Nucleoside Reverse Transcriptase Inhibitor]] (therapy)

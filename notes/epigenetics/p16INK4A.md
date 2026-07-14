@@ -8,6 +8,7 @@ updated: 2024-07-04
 tags:
   - protein
 aliases: []
+protected: true
 ---
 
 # p16INK4A
@@ -39,7 +40,7 @@ p16^INK4a^ accumulation is a hallmark of tissue aging. In [[Hematopoietic Stem C
 ## Open Questions
 
 - Does p16^INK4a^-independent senescence (e.g., via [[p21|CDKN1A/p21]]) produce biologically distinct senescent subtypes with different responses to senolytics?
-- What upstream signals drive the progressive, non-stochastic accumulation of p16^INK4a^ in individual cells with age — is it primarily [[DNA Damage]], mitochondrial dysfunction, or [[SASP|SASP-mediated paracrine signaling]]?
+- What upstream signals drive the progressive, non-stochastic accumulation of p16^INK4a^ in individual cells with age — is it primarily [[DNA Damage]], mitochondrial dysfunction, or [[SASP|Senescence-Associated Secretory Phenotype]]?
 
 ## Documents
 
@@ -79,7 +80,7 @@ List of documents that mention this entity
 - [[Epigenetic Clock]]: - **Biomarker Utility:** p16^INK4a^ mRNA and protein levels in peripheral blood T cells correlate with chronological ...
 - [[p21]]: - Does p16^INK4a^-independent senescence (e.g., via CDKN1A/p21) produce biologically distinct senescent subtypes with...
 - [[DNA Damage]]: - Does p16^INK4a^-independent senescence (e.g., via [[p21|CDKN1A/p21]]) produce biologically distinct senescent subty...
-- [[SASP]]: - Does p16^INK4a^-independent senescence (e.g., via [[p21|CDKN1A/p21]]) produce biologically distinct senescent subty...
+- [[SASP|Senescence-Associated Secretory Phenotype]]: - Does p16^INK4a^-independent senescence (e.g., via [[p21|CDKN1A/p21]]) produce biologically distinct senescent subty...
 
 ## Linking Summary
 - New links added: [[Senescence]], [[CDK Inhibitor]], [[SAHF]], [[Polycomb Group Proteins]], [[CDKN2A]], [[Senolytic Drugs]], [[p53]]

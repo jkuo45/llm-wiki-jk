@@ -17,7 +17,7 @@ aliases:
 
 # Condensin
 
-Condensin is a structural maintenance of chromosomes (SMC) complex that compacts and organizes chromatin. In senescence, condensin (the SMC2–SMC4 core, often condensin I/II) shows increased binding at B-to-A compartment-switching regions, regions that are enriched for SASP genes and coincide with their upregulation — placing condensin within the 3D-genome rewiring that governs the [[SASP]].
+Condensin is a structural maintenance of chromosomes (SMC) complex that compacts and organizes chromatin. In senescence, condensin (the SMC2–SMC4 core, often condensin I/II) shows increased binding at B-to-A compartment-switching regions, regions that are enriched for SASP genes and coincide with their upregulation — placing condensin within the 3D-genome rewiring that governs the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Overview
 
@@ -50,10 +50,10 @@ Condensin itself is challenging to target selectively, but its placement within 
 - [[NFKB]]: SASP master regulator whose locus occupies active A compartments
 - [[HMGB2]]: boundary/architecture factor shaping SASP chromatin
 - [[METTL3]]: enhancer–promoter looping driver of SASP
-- [[SASP]]: condensin-enriched switching regions upregulate SASP genes
+- [[SASP|Senescence-Associated Secretory Phenotype]]: condensin-enriched switching regions upregulate SASP genes
 
 ## Linking Summary
 
-- New links added: [[NFKB]], [[HMGB2]], [[METTL3]], [[METTL14]], [[SASP]], [[Senescence]], [[Topologically Associating Domain]]
+- New links added: [[NFKB]], [[HMGB2]], [[METTL3]], [[METTL14]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Topologically Associating Domain]]
 - Suggested new entity notes to create: [[Condensin I]], [[Condensin II]], [[SMC Complex]], [[BA-switching Region]]
-- Strong connections to strengthen: [[Condensin]] ↔ [[SASP]] (compartment switching), [[Condensin]] ↔ [[HMGB2]] (3D-genome architecture)
+- Strong connections to strengthen: [[Condensin]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (compartment switching), [[Condensin]] ↔ [[HMGB2]] (3D-genome architecture)

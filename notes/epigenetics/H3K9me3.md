@@ -6,6 +6,7 @@ updated: 2026-07-06
 tags:
   - biological-molecule
 aliases: []
+protected: true
 ---
 
 # H3K9me3

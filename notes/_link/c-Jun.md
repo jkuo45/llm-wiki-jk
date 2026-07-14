@@ -54,6 +54,6 @@ AP-1/c-Jun is a difficult direct drug target, but the downstream readers (BRD4, 
 
 ## Linking Summary
 
-- New links added: [[AP-1]], [[BRD4]], [[HDAC4]], [[HDAC3]], [[CEBPα]], [[H3K27ac]], [[SASP]], [[Senomorphic]], [[Oncogene-Induced Senescence]]
+- New links added: [[AP-1]], [[BRD4]], [[HDAC4]], [[HDAC3]], [[CEBPα]], [[H3K27ac]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[Oncogene-Induced Senescence]]
 - Suggested new entity notes to create: [[c-Fos]], [[JNK]], [[AP-1]]
-- Strong connections to strengthen: [[c-Jun]] ↔ [[SASP]] (pioneer opening), [[c-Jun]] ↔ [[BRD4]] (enhancer co-occupation)
+- Strong connections to strengthen: [[c-Jun]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (pioneer opening), [[c-Jun]] ↔ [[BRD4]] (enhancer co-occupation)

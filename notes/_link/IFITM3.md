@@ -43,11 +43,11 @@ Its exosomal enrichment makes IFITM3 a non-invasive readout of senescence load a
 ## Connections
 
 - [[Paracrine Senescence|paracrine senescence]]: IFITM3 induces paracrine senescence
-- [[Senescence-Associated Secretory Phenotype|SASP]]: IFITM3 is elevated in SASP-associated exosomes
+- [[SASP|Senescence-Associated Secretory Phenotype]]: IFITM3 is elevated in SASP-associated exosomes
 - [[Inflammaging]]: systemic senescence contributor
 - [[ISG15]]: co-induced interferon program
 
 ## Linking Summary
 
-- New links added: [[Paracrine Senescence|paracrine senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]], [[ISG15]]
+- New links added: [[Paracrine Senescence|paracrine senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[ISG15]]
   - Strong connections to strengthen: [[IFITM3]] ↔ ageing biomarker, [[IFITM3]] ↔ paracrine senescence

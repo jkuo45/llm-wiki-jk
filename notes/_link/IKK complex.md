@@ -22,7 +22,7 @@ In resting cells, NF-κB dimers (p50/[[p65]]) are sequestered in the cytoplasm b
 
 ## Role in Senescence / SASP
 
-The IKK complex is a key mediator of [[NFKB|NF-κB]] activation in [[Senescent Cells]] and a master driver of the [[Senescence-Associated Secretory Phenotype|SASP]]. NF-κB is necessary and, in cooperation with C/EBPβ, sufficient for SASP transcription (Chien et al., 2011, PMID 21876164). In senescence, persistent DDR and cytokine/receptor signals keep IKKβ active, sustaining IκBα turnover and nuclear NF-κB, which transcribes IL-6, IL-8, chemokines, and matrix metalloproteinases. Because the IKK–NF-κB module intersects with JAK/STAT and p38–MK2 axes, it integrates transcriptional and post-transcriptional layers of the SASP. Inhibiting IKKβ (or upstream [[TAK1]]) suppresses SASP secretion, marking the complex as a central senomorphic node.
+The IKK complex is a key mediator of [[NFKB|NF-κB]] activation in [[Senescent Cells]] and a master driver of the [[SASP|Senescence-Associated Secretory Phenotype]]. NF-κB is necessary and, in cooperation with C/EBPβ, sufficient for SASP transcription (Chien et al., 2011, PMID 21876164). In senescence, persistent DDR and cytokine/receptor signals keep IKKβ active, sustaining IκBα turnover and nuclear NF-κB, which transcribes IL-6, IL-8, chemokines, and matrix metalloproteinases. Because the IKK–NF-κB module intersects with JAK/STAT and p38–MK2 axes, it integrates transcriptional and post-transcriptional layers of the SASP. Inhibiting IKKβ (or upstream [[TAK1]]) suppresses SASP secretion, marking the complex as a central senomorphic node.
 
 ## Clinical / Pathological Relevance
 
@@ -45,10 +45,10 @@ List of documents that mention this entity
 - [[IKKbeta]] — Catalytic kinase that phosphorylates IκBα
 - [[TAK1]] — Upstream activator of the IKK complex
 - [[Senescent Cells]] — Mediates NF-κB activation in senescent cells
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Drives transcription of SASP genes
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Drives transcription of SASP genes
 
 ## Linking Summary
 
   - New links added: [[IKKbeta]], [[TAK1]], [[IkappaBalpha]], [[NFKB|NF-κB]]
   - Suggested new entity notes to create: [[IKKalpha]], [[NEMO]], [[β-TrCP]]
-  - Strong connections to strengthen: [[IKK complex]] ↔ [[NFKB|NF-κB]], [[IKK complex]] ↔ [[TAK1]], [[IKK complex]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[IKK complex]] ↔ [[NFKB|NF-κB]], [[IKK complex]] ↔ [[TAK1]], [[IKK complex]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

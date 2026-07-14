@@ -17,7 +17,7 @@ aliases:
 
 # METTL3
 
-METTL3 (methyltransferase-like 3) is the catalytic subunit of the METTL3–METTL14 heterodimer, the principal mammalian "writer" of N6-methyladenosine ([[N6-methyladenosine|m6A]]) methylation on nuclear RNAs. Beyond its canonical role in RNA modification, METTL3 redistributes across the genome during cellular senescence and, in an enzymatic-activity-independent manner, promotes enhancer–promoter (EP) contacts that drive expression of the [[Senescence-Associated Secretory Phenotype|SASP]].
+METTL3 (methyltransferase-like 3) is the catalytic subunit of the METTL3–METTL14 heterodimer, the principal mammalian "writer" of N6-methyladenosine ([[N6-methyladenosine|m6A]]) methylation on nuclear RNAs. Beyond its canonical role in RNA modification, METTL3 redistributes across the genome during cellular senescence and, in an enzymatic-activity-independent manner, promotes enhancer–promoter (EP) contacts that drive expression of the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Overview
 
@@ -49,11 +49,11 @@ Because METTL3–METTL14 and other epigenetic modulators can suppress SASP witho
 
 - [[N6-methyladenosine]]: METTL3 is the catalytic writer of m6A on RNA
 - [[METTL14]]: heterodimeric partner required for METTL3 targeting and activity
-- [[SASP]]: METTL3–METTL14 rewires enhancers to drive SASP transcription
+- [[SASP|Senescence-Associated Secretory Phenotype]]: METTL3–METTL14 rewires enhancers to drive SASP transcription
 - [[AP-1]]: converges with METTL3 on senescence-activated enhancers
 
 ## Linking Summary
 
-- New links added: [[N6-methyladenosine]], [[METTL14]], [[SASP]], [[AP-1]], [[BRD4]], [[Condensin]], [[HMGB2]], [[Oncogene-Induced Senescence]], [[Senomorphic]]
+- New links added: [[N6-methyladenosine]], [[METTL14]], [[SASP|Senescence-Associated Secretory Phenotype]], [[AP-1]], [[BRD4]], [[Condensin]], [[HMGB2]], [[Oncogene-Induced Senescence]], [[Senomorphic]]
 - Suggested new entity notes to create: [[METTL14]], [[m6A Reader]], [[Enhancer-Promoter Looping]]
-- Strong connections to strengthen: [[METTL3]] ↔ [[SASP]] (3D-genome rewiring), [[METTL3]] ↔ [[Senomorphic]] (senomorphic repurposing)
+- Strong connections to strengthen: [[METTL3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (3D-genome rewiring), [[METTL3]] ↔ [[Senomorphic]] (senomorphic repurposing)

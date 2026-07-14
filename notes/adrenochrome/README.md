@@ -15,7 +15,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 
 ## Maintenance
 
-- Last updated: 08_Jul_2026 12:00 PM PDT
+- Last updated: 13_JULY_2026 12:00 PM PDT
 - Total count of entities: 358
 
 | entity                                              |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                                             |
@@ -364,7 +364,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Wound Healing]]                                   | 14_Jun_2026 12:00 PM | Biological Process     |           7            |           1            | Physiological process impaired by high AGE levels in diabetic patients.                                   |
 | [[Xenohormesis]]                                    | 12_Jun_2026 10:00 AM | Scientific Theory      |           7            |           1            | Hypothesis of cross-species stress signaling.                                                             |
 | [[aak-2]]                                           |     17_Jun_2026      | Gene                   |           7            |           1            | C. elegans AMPK ortholog, a key regulator of energy and lifespan.                                         |
-| [[adrenaline-quinone]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Essential intermediate in the pathway; positive driver of cyclization.                                    |
+| [[Adrenaline-quinone]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Essential intermediate in the pathway; positive driver of cyclization.                                    |
 | [[c-Jun N-terminal kinase]]                         |     17_Jun_2026      | Enzyme                 |           7            |           -1           | Stress-activated protein kinase often promoting apoptosis.                                                |
 | [[c-Myc]]                                           |     17_Jun_2026      | Gene                   |           7            |           0            | Transcription factor driving cell proliferation and metabolism.                                           |
 | [[cco-1]]                                           |     17_Jun_2026      | Gene                   |           7            |           1            | Cytochrome c oxidase subunit; knockdown extends lifespan in models.                                       |
@@ -377,6 +377,11 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[nuo-6]]                                           | 12_Jun_2026 10:00 AM | Gene                   |           7            |           1            | Complex I subunit gene linked to longevity.                                                               |
 | [[o-quinone]]                                       | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Crucial reactive intermediate in the catecholamine oxidation; positive driver.                            |
 |                                                     |
+| [[SASP-Remodeling Aminochrome Complex]] | 13_JULY_2026 12:00 PM PDT | Scientific Concept | 10 | 1 | Emerging concept linking aminochrome/adrenochrome redox state to SASP remodeling in senescence. |
+| [[Redox Optimization]] | 13_JULY_2026 12:00 PM PDT | Scientific Concept | 8 | 1 | Protocol concept for maintaining reducing potential (NAD+/NADH, glutathione) during adrenochrome handling. |
+| [[Redox Battery]] | 13_JULY_2026 12:00 PM PDT | Scientific Concept | 8 | 1 | Conceptual buffering system stabilizing transient adrenochrome in the protocol. |
+| [[Isatin]] | 13_JULY_2026 12:00 PM PDT | Chemical Compound | 7 | 1 | Indole alkaloid and MAO inhibitor structurally related to indolequinones/adrenochrome. |
+| [[Geraldol]] | 13_JULY_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Fisetin-related flavonoid with senolytic and antioxidant properties. |
 
 ## Consolidated to notes/\_link/
 

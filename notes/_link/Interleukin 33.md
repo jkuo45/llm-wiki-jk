@@ -40,11 +40,11 @@ IL-33 is constitutively expressed in the nucleus of endothelial and stromal cell
 
 - [[Interleukin 1β|IL-1β]]: IL-33 is IL-1β-dependent
 - [[Hepatocellular Carcinoma]]: IL-33 promotes hepatocellular carcinoma
-- [[Senescence-Associated Secretory Phenotype|SASP]]: IL-33 is a SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: IL-33 is a SASP factor
 - [[NF-κB]] / [[MAPK]]: IL-33 downstream signaling
 - [[Senescence]]: IL-33 links senescence to cancer
 
 ## Linking Summary
 
-- New links added: [[Interleukin 1β|IL-1β]], [[Hepatocellular Carcinoma]], [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[MAPK]], [[Senescence]]
+- New links added: [[Interleukin 1β|IL-1β]], [[Hepatocellular Carcinoma]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[MAPK]], [[Senescence]]
   - Strong connections to strengthen: [[Interleukin 33]] ↔ [[Interleukin 1β|IL-1β]], [[Interleukin 33]] ↔ [[Hepatocellular Carcinoma]]

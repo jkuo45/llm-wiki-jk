@@ -110,12 +110,12 @@ List of documents that mention this entity
   - [[Fibrinolysis]]: Plasminogen is the central zymogen of the fibrinolytic system
   - [[Thrombin]]: Counterpart in the coagulation cascade; thrombin generates fibrin, plasmin (from plasminogen) degrades it
   - [[Extracellular Matrix]]: Plasmin (from plasminogen) degrades ECM components and activates pro-MMPs
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: Plasminogen activation is controlled by the uPA/PAI-1 SASP axis
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Plasminogen activation is controlled by the uPA/PAI-1 SASP axis
   - [[Angiogenesis]]: Plasminogen is the precursor for both plasmin (pro-angiogenic) and angiostatin (anti-angiogenic)
 
 ## Linking Summary
 
-  - New links added: [[Plasmin]], [[Tissue Plasminogen Activator|tPA]], [[uPA]], [[PAI-1]], [[Angiostatin]], [[MMP-12]], [[MMP-3]], [[MMP-9]], [[Fibrinolysis]], [[Thrombin]], [[Extracellular Matrix]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Angiogenesis]]
+  - New links added: [[Plasmin]], [[Tissue Plasminogen Activator|tPA]], [[uPA]], [[PAI-1]], [[Angiostatin]], [[MMP-12]], [[MMP-3]], [[MMP-9]], [[Fibrinolysis]], [[Thrombin]], [[Extracellular Matrix]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Angiogenesis]]
   - Suggested new entity notes to create: [[Alpha-2-Antiplasmin]], [[TAFI]], [[Fibrin]], [[D-dimer]], [[uPAR]], [[Factor XII]]
   - Strong connections to strengthen: [[Plasminogen]] ↔ [[Plasmin]], [[Plasminogen]] ↔ [[Tissue Plasminogen Activator|tPA]], [[Plasminogen]] ↔ [[Angiostatin]]
   - Justification: Plasminogen is the central node connecting fibrinolysis (via plasmin), anti-angiogenesis (via angiostatin), and the SASP (via uPA/PAI-1). Its dual fate—conversion to either plasmin or angiostatin—positions it as a critical molecular switch in health and disease.

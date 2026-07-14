@@ -23,7 +23,7 @@ Cytokine binding induces dimerization of cognate receptor chains, bringing their
 
 ## Role in Senescence / SASP
 
-The JAK/STAT axis is a central amplifier of the [[Senescence-Associated Secretory Phenotype|SASP]]. Senescent cells secrete [[IL-6]], [[IL-8]], and other cytokines that engage neighboring cells in an autocrine/paracrine loop: IL-6 binding to gp130 activates JAK1/JAK2 → [[STAT3]], sustaining a self-reinforcing inflammatory transcriptional program (Coppé et al., 2008, PMID 18694530). Genetic or pharmacological blockade of JAK/STAT collapses SASP expression, indicating the pathway is not merely correlative but necessary for SASP maintenance. Because JAK/STAT signaling also promotes proliferation in some contexts, its inhibition is exploited as a **senomorphic** strategy — dampening the deleterious secretome without killing cells.
+The JAK/STAT axis is a central amplifier of the [[SASP|Senescence-Associated Secretory Phenotype]]. Senescent cells secrete [[IL-6]], [[IL-8]], and other cytokines that engage neighboring cells in an autocrine/paracrine loop: IL-6 binding to gp130 activates JAK1/JAK2 → [[STAT3]], sustaining a self-reinforcing inflammatory transcriptional program (Coppé et al., 2008, PMID 18694530). Genetic or pharmacological blockade of JAK/STAT collapses SASP expression, indicating the pathway is not merely correlative but necessary for SASP maintenance. Because JAK/STAT signaling also promotes proliferation in some contexts, its inhibition is exploited as a **senomorphic** strategy — dampening the deleterious secretome without killing cells.
 
 ## Clinical / Pathological Relevance
 
@@ -44,7 +44,7 @@ List of documents that mention this entity
 - [[STAT1]] — JAK1/JAK2 phosphorylates STAT1 in interferon signaling
 - [[IL-6]] — IL-6 signals through the JAK/STAT pathway
 - [[IL-8]] — IL-8 is a JAK/STAT-regulated SASP factor
-- [[Senescence-Associated Secretory Phenotype|SASP]] — JAK amplifies and sustains SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — JAK amplifies and sustains SASP
 - [[Senescent Cells]] — Active in senescent cells
 - [[Senomorphic Therapy]] — JAK inhibitors are potential senomorphics
 - [[Ruxolitinib]] — JAK1/2 inhibitor with senomorphic activity
@@ -54,4 +54,4 @@ List of documents that mention this entity
 
   - New links added: [[STAT1]], [[IL-8]], [[Ruxolitinib]], [[NFKB|NF-κB]]
   - Suggested new entity notes to create: [[JAK2]], [[TYK2]], [[STAT6]], [[SOCS Proteins]]
-  - Strong connections to strengthen: [[JAK]] ↔ [[STAT3]], [[JAK]] ↔ [[SASP]], [[JAK]] ↔ [[Senomorphic Therapy]]
+  - Strong connections to strengthen: [[JAK]] ↔ [[STAT3]], [[JAK]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[JAK]] ↔ [[Senomorphic Therapy]]

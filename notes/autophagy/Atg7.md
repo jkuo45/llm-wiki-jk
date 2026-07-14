@@ -8,6 +8,7 @@ tags:
   - enzyme
   - autophagy
 aliases: [ubiquitin-like conjugating enzyme]
+protected: true
 
 ---
 

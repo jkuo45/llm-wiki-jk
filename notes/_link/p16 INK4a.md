@@ -76,7 +76,7 @@ List of documents that mention this entity
 - [[Retinoblastoma Protein|Rb]] — downstream effector of p16; mediates cell cycle arrest
 - [[p21 CIP1|p21]] — cooperates with p16 in senescence and SASP regulation
 - [[p53]] — p16-dependent SASP is p53-dependent
-- [[Senescence-Associated Secretory Phenotype|SASP]] — p16 regulates a distinct SASP profile
+- [[SASP|Senescence-Associated Secretory Phenotype]] — p16 regulates a distinct SASP profile
 - [[IGFBP3]] — p16-dependent SASP component
 - [[ISG15]] — p16-dependent SASP component
 - [[CXCL14]] — p16-dependent SASP factor promoting immunosurveillance
@@ -89,4 +89,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[p16 INK4a|p16]], [[CDKN2A]], [[Retinoblastoma Protein|Rb]], [[p21 CIP1|p21]], [[IGFBP3]], [[ISG15]], [[CXCL14]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[E2F]], [[Oncogene-Induced Senescence|OIS]], [[Senescence-Associated Heterochromatin Foci|SAHF]], [[Osteoarthritis]], [[Cardiovascular Disease]], [[Idiopathic Pulmonary Fibrosis]]
 - Suggested new entity notes to create: [[Palbociclib]], [[Ribociclib]], [[CDK4/6 Inhibitors]]
-  - Strong connections to strengthen: p16 INK4a ↔ Cellular Senescence, p16 INK4a ↔ [[SASP]], p16 INK4a ↔ [[p21 CIP1|p21]], p16 ↔ [[Aging]]
+  - Strong connections to strengthen: p16 INK4a ↔ Cellular Senescence, p16 INK4a ↔ [[SASP|Senescence-Associated Secretory Phenotype]], p16 INK4a ↔ [[p21 CIP1|p21]], p16 ↔ [[Aging]]

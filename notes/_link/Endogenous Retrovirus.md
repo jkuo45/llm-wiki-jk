@@ -17,7 +17,7 @@ aliases:
 
 # Endogenous Retrovirus
 
-Endogenous retroviruses (ERVs) are retroviral sequences that infected the germline of ancestors and became permanently integrated into host genomes, propagating vertically as inherited elements. Present across vertebrates (including mice and humans, where the human subset is termed [[Human Endogenous Retrovirus|HERV]]), ERVs are normally kept silent by DNA methylation and repressive histone marks. In senescence and aging, their epigenetic silencing collapses, yielding viral transcripts and proteins that activate innate immunity and contribute to the [[SASP]] and [[Inflammaging|inflammaging]].
+Endogenous retroviruses (ERVs) are retroviral sequences that infected the germline of ancestors and became permanently integrated into host genomes, propagating vertically as inherited elements. Present across vertebrates (including mice and humans, where the human subset is termed [[Human Endogenous Retrovirus|HERV]]), ERVs are normally kept silent by DNA methylation and repressive histone marks. In senescence and aging, their epigenetic silencing collapses, yielding viral transcripts and proteins that activate innate immunity and contribute to the [[SASP|Senescence-Associated Secretory Phenotype]] and [[Inflammaging|inflammaging]].
 
 ## Definition
 
@@ -48,6 +48,6 @@ Blocking ERV (and LINE-1) reverse transcription with [[Nucleoside Reverse Transc
 
 ## Linking Summary
 
-- New links added: [[Human Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[KAP1]], [[HP1alpha]], [[Sirtuin 6]], [[RB1]], [[SUV39H1]], [[KDM4]], [[EZH2]], [[JMJD3]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[SASP]], [[Inflammaging]]
+- New links added: [[Human Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[KAP1]], [[HP1alpha]], [[Sirtuin 6]], [[RB1]], [[SUV39H1]], [[KDM4]], [[EZH2]], [[JMJD3]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
 - Suggested new entity notes to create: [[ERV LTR]], [[RIG-I-like Receptor]], [[cGAS-STING Pathway]]
-- Strong connections to strengthen: [[Endogenous Retrovirus]] ↔ [[SASP]] (innate immune), [[Endogenous Retrovirus]] ↔ [[Nucleoside Reverse Transcriptase Inhibitor]] (therapy)
+- Strong connections to strengthen: [[Endogenous Retrovirus]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (innate immune), [[Endogenous Retrovirus]] ↔ [[Nucleoside Reverse Transcriptase Inhibitor]] (therapy)

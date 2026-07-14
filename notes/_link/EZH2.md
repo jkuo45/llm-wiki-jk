@@ -37,7 +37,7 @@ List of documents that mention this entity
 
 ## Connections
 - [[EZH2]] — related entity
-- [[SASP]] — EZH2-mediated H3K27me3 represses SASP loci; its inhibition derepresses SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — EZH2-mediated H3K27me3 represses SASP loci; its inhibition derepresses SASP
 - [[Epigenetic Alterations]] — EZH2 is a core writer of the senescent epigenetic landscape
 - [[Histone Variant]] — EZH2 methylates histones whose variant replacement marks senescence
 - [[KDM4]] — KDM4 opposes EZH2 by erasing H3K9 at SASP loci
@@ -51,6 +51,6 @@ List of documents that mention this entity
 - [[IL-6]] / [[IL-8]] — SASP cytokines repressed by EZH2 H3K27me3
 
 ## Linking Summary
-- New links added: [[EZH2]], [[SASP]], [[Epigenetic Alterations]], [[Histone Variant]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[BRD4]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[IL-6]], [[IL-8]]
-  - Strong connections to strengthen: [[EZH2]] ↔ [[SASP]], [[EZH2]] ↔ [[KDM4]], [[EZH2]] ↔ [[Epigenetic Alterations]]
+- New links added: [[EZH2]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Histone Variant]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[BRD4]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[IL-6]], [[IL-8]]
+  - Strong connections to strengthen: [[EZH2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[EZH2]] ↔ [[KDM4]], [[EZH2]] ↔ [[Epigenetic Alterations]]
 

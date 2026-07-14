@@ -9,6 +9,7 @@ tags:
   - mitochondria
   - biological-molecule
 aliases: [superoxide, O₂•⁻, O2-]
+protected: true
 ---
 
 # Superoxide Radicals

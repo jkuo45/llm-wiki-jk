@@ -16,7 +16,7 @@ aliases:
 
 # HDAC3
 
-HDAC3 is a class I histone deacetylase (along with HDAC1/2/8) that removes acetyl groups from histone and non-histone substrates, generally repressing transcription. In senescence, HDAC3 forms a functional complex with the catalytically inactive reader [[HDAC4]], which is recruited to [[H3K27ac]]-marked senescence-activated enhancers; together they buffer the [[AP-1]]-driven program that drives [[SASP]] expression.
+HDAC3 is a class I histone deacetylase (along with HDAC1/2/8) that removes acetyl groups from histone and non-histone substrates, generally repressing transcription. In senescence, HDAC3 forms a functional complex with the catalytically inactive reader [[HDAC4]], which is recruited to [[H3K27ac]]-marked senescence-activated enhancers; together they buffer the [[AP-1]]-driven program that drives [[SASP|Senescence-Associated Secretory Phenotype]] expression.
 
 ## Overview
 
@@ -49,10 +49,10 @@ Class I HDAC inhibitors (e.g., entinostat, vorinostat, romidepsin) target HDAC3 
 - [[HDAC4]]: class IIa reader partner that recruits HDAC3
 - [[H3K27ac]]: acetylation mark at buffered SASP enhancers
 - [[AP-1]]: pioneer factor whose program HDAC3 helps restrain
-- [[SASP]]: HDAC3 restrains SASP enhancer activation
+- [[SASP|Senescence-Associated Secretory Phenotype]]: HDAC3 restrains SASP enhancer activation
 
 ## Linking Summary
 
-- New links added: [[HDAC4]], [[H3K27ac]], [[AP-1]], [[BRD4]], [[CEBPα]], [[SASP]], [[Senomorphic]]
+- New links added: [[HDAC4]], [[H3K27ac]], [[AP-1]], [[BRD4]], [[CEBPα]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]]
 - Suggested new entity notes to create: [[NCoR]], [[SMRT]], [[Class I HDAC]]
-- Strong connections to strengthen: [[HDAC3]] ↔ [[HDAC4]] (reader–deacetylase complex), [[HDAC3]] ↔ [[SASP]] (enhancer buffering)
+- Strong connections to strengthen: [[HDAC3]] ↔ [[HDAC4]] (reader–deacetylase complex), [[HDAC3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (enhancer buffering)

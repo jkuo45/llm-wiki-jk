@@ -55,6 +55,6 @@ Because KAP1/SIRT6 silencing of retrotransposons limits SASP, strategies that pr
 
 ## Linking Summary
 
-- New links added: [[Sirtuin 6]], [[HP1alpha]], [[LINE-1]], [[RB1]], [[Inflammaging]], [[SASP]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[Senomorphic]]
+- New links added: [[Sirtuin 6]], [[HP1alpha]], [[LINE-1]], [[RB1]], [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[Senomorphic]]
 - Suggested new entity notes to create: [[SETDB1]], [[TRIM Family]], [[cGAS-STING Pathway]]
 - Strong connections to strengthen: [[KAP1]] ↔ [[Sirtuin 6]] (SIRT6 ribosylation), [[KAP1]] ↔ [[LINE-1]] (retrotransposon silencing)

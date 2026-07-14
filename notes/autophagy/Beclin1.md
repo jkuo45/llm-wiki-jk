@@ -8,6 +8,7 @@ updated: 2026-07-05
 tags:
   - protein
 aliases: [BECN1, ATG6, Coiled-coil myosin-like BCL2-interacting protein]
+protected: true
 
 ---
 

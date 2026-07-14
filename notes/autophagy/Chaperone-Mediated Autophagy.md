@@ -8,6 +8,7 @@ tags:
   - biological-process
   - autophagy
 aliases: [CMA]
+protected: true
 
 ---
 

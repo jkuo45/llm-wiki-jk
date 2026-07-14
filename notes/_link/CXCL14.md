@@ -46,9 +46,9 @@ CXCL14 (C-X-C motif chemokine ligand 14), also known as BRAK (breast and kidney-
 - [[Retinoblastoma Protein|Rb]]: Rb activation supports CXCL14 expression
 - [[p53]]: p53 induces CXCL14
 - [[Macrophages]]: CXCL14 recruits macrophages for surveillance
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL14 is an immunomodulatory SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL14 is an immunomodulatory SASP factor
 
 ## Linking Summary
 
-- New links added: [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[p53]], [[Macrophages]], [[Apoptosis]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[p53]], [[Macrophages]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
   - Strong connections to strengthen: [[CXCL14]] ↔ p21/Rb, [[CXCL14]] ↔ immunosurveillance

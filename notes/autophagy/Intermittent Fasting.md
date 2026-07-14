@@ -46,6 +46,9 @@ List of documents that mention this entity
     - Accumulated evidence suggests that Intermittent Fasting or Caloric Restriction can lead to the induction of adaptive autophagy and increase Longevity of eukaryotic cells.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Time-restricted feeding (8–10 h window) is presented as the simplest way to activate AMPK and mitophagy.
+
 ## Connections
 
 - [[Autophagy]]: It is widely studied for its ability to induce Autophagy and improve metabolic health.

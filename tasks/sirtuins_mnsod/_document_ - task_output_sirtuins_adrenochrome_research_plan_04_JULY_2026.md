@@ -39,7 +39,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
 
 **Hypothesis 1A:** Cells with high [[SIRT3-SIRT4 Ratio|SIRT3/SIRT4 ratios]] will rapidly quench adrenochrome-derived superoxide, limiting its [[Hormesis|hormetic]] signal. Cells with low SIRT3/SIRT4 ratios (aged [[Cardiomyocytes|cardiomyocytes]], renal tubular epithelial cells) will exhibit amplified superoxide from equivalent adrenochrome doses, narrowing the [[Hormetic Window|hormetic window]] and shifting toward toxicity.
 
-**Hypothesis 1B:** Sub-toxic adrenochrome exposure upregulates SIRT3 expression through a retrograde [[ROS]]→[[AMPK]]→[[PGC-1alpha|PGC-1α]]→SIRT3 signaling cascade, constituting an adaptive feedback loop. SIRT3 induction would represent a "[[Redox Vaccination|redox vaccination]]" mechanism: prior sub-lethal adrenochrome exposure protects against subsequent oxidative challenge through SIRT3-mediated [[MnSOD]] enhancement.
+**Hypothesis 1B:** Sub-toxic adrenochrome exposure upregulates SIRT3 expression through a retrograde [[ROS]]→[[AMPK]]→[[PGC-1α|PGC-1α]]→SIRT3 signaling cascade, constituting an adaptive feedback loop. SIRT3 induction would represent a "[[Redox Vaccination|redox vaccination]]" mechanism: prior sub-lethal adrenochrome exposure protects against subsequent oxidative challenge through SIRT3-mediated [[MnSOD]] enhancement.
 
 ### Proposed Experimental Design
 
@@ -108,7 +108,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
 
 - **[[Epigenetic Clock]] Measurement:**
    - In parallel with the 12-week in vivo [[MDL-800]] study proposed in the original report, add an adrenochrome-only and adrenochrome + MDL-800 arm.
-   - Measure Horvath mouse [[Epigenetic Clock|epigenetic clock]] across [[Liver|liver]], [[Heart|heart]], [[Hippocampus|hippocampus]], and [[Kidney|kidney]].
+   - Measure Horvath mouse [[Epigenetic Clock|epigenetic clock]] across [[Liver|liver]], [[Heart disease|heart]], [[Hippocampus|hippocampus]], and [[Kidney|kidney]].
    - Test whether adrenochrome-containing regimens produce greater age-reversal than MDL-800 alone.
 
 ---
@@ -147,7 +147,7 @@ The prior report highlighted the paradox of [[SIRT2]]: it stabilizes [[TFEB]] [[
 - **Microglial [[NLRP3 Inflammasome|NLRP3]] Suppression:**
    - Treat primary [[Microglia|microglia]] with [[LPS]] (100 ng/mL, 4 h) to prime NLRP3, then add [[ATP]] (5 mM) + adrenochrome (1–100 nM).
    - Measure:
-     - [[Interleukin 1beta|IL-1β]] and [[IL-18]] release ([[ELISA|ELISA]]).
+     - [[Interleukin 1β|IL-1β]] and [[IL-18]] release ([[ELISA|ELISA]]).
      - [[ASC|ASC]] speck formation ([[Immunofluorescence|immunofluorescence]]).
      - [[Caspase-1|Caspase-1]] cleavage (Western blot).
      - [[NRF2|Nrf2]] nuclear translocation and [[HO-1]] expression.
@@ -193,10 +193,10 @@ The prior report identified [[CD38]] as the primary [[NAD+]] sink during [[Aging
    - Determine whether adrenochrome suppresses CD38 transcription via Nrf2-mediated repression of [[NFKB|NF-κB]] at the CD38 promoter ([[ChIP-seq|ChIP-qPCR]]).
 
 - **In Vivo NAD+ Rescue in Aged Mice:**
-   - Use 22-month-old [[C57BL/6]] mice.
+   - Use 22-month-old [[C57BL-6]] mice.
    - Four arms (n=8/group): (i) vehicle; (ii) adrenochrome (5 μg/kg, i.p., 3×/week); (iii) low-dose [[Daratumumab]] (0.1 mg/kg, i.v., 1×/week); (iv) combination.
    - After 8 weeks, sacrifice and measure:
-     - Tissue NAD+/NADH in [[Liver|liver]], [[Skeletal Muscle|skeletal muscle]], [[Brain|brain]], [[Heart|heart]] (LC-MS/MS).
+     - Tissue NAD+/NADH in [[Liver|liver]], [[Skeletal Muscle|skeletal muscle]], [[Brain|brain]], [[Heart disease|heart]] (LC-MS/MS).
      - SIRT1 and SIRT3 target engagement (ac-[[p53]] K382, ac-[[MnSOD]] K68 — Western blot).
      - [[Mitochondria|Mitochondrial]] respiratory capacity ([[Seahorse XF Analyzer|Seahorse XFe96]] on isolated muscle [[Mitochondria|mitochondria]]).
    - Assess safety: echocardiography, methemoglobin levels, [[Liver|liver]] enzymes.
@@ -225,7 +225,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
 ### Proposed Experimental Design
 
 - **miRNA Profiling in Senescent Cells:**
-   - Induce [[Cellular Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1beta|IL-1β]] (10 ng/mL, 7 days).
+   - Induce [[Cellular Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1β|IL-1β]] (10 ng/mL, 7 days).
    - Treat with sub-toxic adrenochrome (10 nM, 48 h).
    - Perform small [[RNA-seq]] to quantify changes in [[miR-217]], [[miR-543]], [[miR-378]], and all known age-associated miRs.
    - Validate top hits by [[TaqMan|TaqMan]] [[qPCR]].
@@ -242,7 +242,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
      - [[SIRT1]] protein (Western blot).
      - [[p65|RelA/p65]] acetylation (K310) by IP-Western.
      - [[SASP]] factor secretion ([[IL-6]], [[IL-8]], [[Matrix Metalloproteinases|MMP-3]], [[Matrix Metalloproteinases|MMP-13]] — multiplex ELISA).
-     - [[Senescence-Associated Beta-Galactosidase|Senescence-associated β-galactosidase]] staining.
+     - [[SA-beta-gal|Senescence-associated β-galactosidase]] staining.
    - Determine whether combination therapy produces greater SASP suppression than either agent alone.
 
 - **Endothelial Function (In Vitro):**
@@ -250,7 +250,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
    - Evaluate monocyte adhesion assay: visualize THP-1 adhesion to HUVEC monolayers under flow conditions.
 
 - **In Vivo [[Osteoarthritis]] Model:**
-   - Use 18-month-old [[C57BL/6]] mice with age-associated spontaneous knee OA.
+   - Use 18-month-old [[C57BL-6]] mice with age-associated spontaneous knee OA.
    - Intra-articular injection of: (i) vehicle; (ii) adrenochrome (1 μg); (iii) [[Locked Nucleic Acid|LNA]]-antagomir pool; (iv) combination.
    - Assess OARSI histological score of articular cartilage, SIRT1 expression ([[Immunohistochemistry|IHC]]), and [[Macrophage|macrophage]] polarization ([[CD86]] vs. [[CD206]] IHC) in synovium.
 

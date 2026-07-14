@@ -26,7 +26,7 @@ aliases: [Mitochondrial outer membrane permeabilization, MOMP]
 ## Role in Senescence
 
 - MOMP acts as a switch between [[Apoptosis]] and [[Cellular Senescence]]: the outcome depends on the extent and reversibility of pore formation.
-- Sublethal MOMP releases [[mtDNA]] and other mitochondrial DAMPs into the cytosol without triggering full apoptosis, activating cGAS–STING and driving the [[Senescence-Associated Secretory Phenotype|SASP]].
+- Sublethal MOMP releases [[mtDNA]] and other mitochondrial DAMPs into the cytosol without triggering full apoptosis, activating cGAS–STING and driving the [[SASP|Senescence-Associated Secretory Phenotype]].
 - Because [[Senescent cell anti-apoptotic pathways|SCAPs]] restrain BAX/BAK, many senescent cells live in a state of chronic, low-level MOMP.
 
 ## Clinical / Pathological Relevance

@@ -8,7 +8,7 @@ updated: 2026-07-05
 tags:
   - enzyme
 aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1]
-
+protected: true
 ---
 
 # ULK1

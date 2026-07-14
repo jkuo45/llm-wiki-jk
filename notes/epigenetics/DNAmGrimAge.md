@@ -8,6 +8,7 @@ updated: 2024-07-04
 tags:
   - biological-molecule
 aliases: []
+protected: true
 ---
 
 # DNAmGrimAge
@@ -39,7 +40,7 @@ The difference between DNAmGrimAge and chronological age — *GrimAge accelerati
 
 ## Senescence and Rejuvenation Context
 
-- **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP]] factor levels, linking the clock to [[Cellular Senescence|senescence]].
+- **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor levels, linking the clock to [[Cellular Senescence|senescence]].
 - **[[Partial Reprogramming]]:** In vitro cyclic [[OSKM]] expression in human cells resets DNAmGrimAge to a younger state.
 - **[[Caloric Restriction]]:** Long-term CR in primates reduces GrimAge acceleration.
 - **Senolytics:** Early clinical trials ([[Dasatinib]]+[[Quercetin]]) show trends toward reduced GrimAge age in some participants.
@@ -78,9 +79,9 @@ List of documents that mention this entity
 - [[SAA2]]: - **Plasma protein surrogates:** DNAm-based estimates of [[ADM]], [[B2M]], [[Cystatin C]], [[GDF15]], [[GSTP1]], [[Le...
 - [[TIMP1]]: - **Plasma protein surrogates:** DNAm-based estimates of [[ADM]], [[B2M]], [[Cystatin C]], [[GDF15]], [[GSTP1]], [[Le...
 - [[PAI-1]]: - **Plasma protein surrogates:** DNAm-based estimates of [[ADM]], [[B2M]], [[Cystatin C]], [[GDF15]], [[GSTP1]], [[Le...
-- [[p16INK4A]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue p16INK4A expression and [[SASP]] factor leve...
-- [[SASP]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and SASP factor leve...
-- [[Cellular Senescence]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP]] factor ...
+- [[p16INK4A]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue p16INK4A expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor leve...
+- [[SASP|Senescence-Associated Secretory Phenotype]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and SASP factor leve...
+- [[Cellular Senescence]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor ...
 - [[Partial Reprogramming]]: - **Partial Reprogramming:** In vitro cyclic [[OSKM]] expression in human cells resets DNAmGrimAge to a younger state.
 - [[OSKM]]: - **[[Partial Reprogramming]]:** In vitro cyclic OSKM expression in human cells resets DNAmGrimAge to a younger state.
 - [[Caloric Restriction]]: - **Caloric Restriction:** Long-term CR in primates reduces GrimAge acceleration.
@@ -89,6 +90,6 @@ List of documents that mention this entity
 - [[Illumina Infinium MethylationEPIC]]: **Data generation:** Illumina Infinium MethylationEPIC (850K) array is the standard platform.
 
 ## Linking Summary
-- New links added: [[Aging]], [[Epigenetic Clock]], [[Senescence]], [[Biomarkers]], [[SASP]], [[Partial Reprogramming]], [[Caloric Restriction]], [[Senolytic Drugs]]
+- New links added: [[Aging]], [[Epigenetic Clock]], [[Senescence]], [[Biomarkers]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Partial Reprogramming]], [[Caloric Restriction]], [[Senolytic Drugs]]
 - Suggested new entity notes to create: [[PhenoAge]], [[GrimAge2]], [[Horvath Clock]], [[Hannum Clock]]
 - Strong connections to strengthen: [[DNAmGrimAge]] ↔ [[Epigenetic Clock]], [[DNAmGrimAge]] ↔ [[Aging]]

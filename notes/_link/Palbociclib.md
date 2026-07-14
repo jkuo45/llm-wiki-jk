@@ -25,7 +25,7 @@ At clinically relevant concentrations (0.1–1 µM in vitro), palbociclib induce
   - Enlarged, flattened morphology
   - [[SA-beta-gal]] positivity (detectable at day 5–7)
   - [[SAHF]] formation
-  - [[SASP]] activation ([[IL-6]], [[IL-8]], [[CXCL1]])
+  - [[SASP|Senescence-Associated Secretory Phenotype]] activation ([[IL-6]], [[IL-8]], [[CXCL1]])
   - Persistent [[DNA Damage Response|DDR signaling]] (γH2AX foci remain even after drug washout)
 ## Research Applications
 Compared to [[Doxorubicin]] or [[Etoposide]], palbociclib induces senescence with minimal [[DNA Damage|DNA damage]], allowing study of RB1-dependent senescence without confounding genotoxicity. It is the preferred agent for:
@@ -65,6 +65,6 @@ List of documents that mention this entity
 - [[CDK4]] — interacts with Palbociclib
 - [[CDK6]] — interacts with Palbociclib
 ## Linking Summary
-- New links added: [[CDK4]]/[[CDK6]], [[TFEB]], [[Senescence]], [[CDK Inhibitor]], [[SA-beta-gal]], [[SASP]], [[RB1]], [[Breast Cancer]]
+- New links added: [[CDK4]]/[[CDK6]], [[TFEB]], [[Senescence]], [[CDK Inhibitor]], [[SA-beta-gal]], [[SASP|Senescence-Associated Secretory Phenotype]], [[RB1]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[CDK4]], [[CDK6]], [[Ibrance]], [[Therapeutic Senescence]]
   - Strong connections to strengthen: [[Palbociclib]] ↔ [[TFEB]], [[Palbociclib]] ↔ [[Senescence]], [[Palbociclib]] ↔ CDK Inhibitor

@@ -22,7 +22,7 @@ PKD is activated downstream of protein kinase C and G-protein-coupled receptors,
 
 ## Role in Senescence / SASP
 
-PKD is a redox-sensitive regulator of the [[Senescence-Associated Secretory Phenotype|SASP]]. In senescent cells, accumulated [[Mitochondrial ROS|mitochondrial ROS]] and oxidative damage activate PKD, which in turn drives [[NFKB|NF-κB]]-dependent transcription of SASP components such as [[IL-6]] and [[IL-8]], connecting oxidative stress to SASP composition. Because PKD sits between the redox milieu and NF-κB, it helps determine both the magnitude and the qualitative profile of the senescent secretome. Targeting PKD therefore offers a route to modulate SASP through redox/inflammatory nodes rather than via direct cytotoxic senolysis.
+PKD is a redox-sensitive regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]. In senescent cells, accumulated [[Mitochondrial ROS|mitochondrial ROS]] and oxidative damage activate PKD, which in turn drives [[NFKB|NF-κB]]-dependent transcription of SASP components such as [[IL-6]] and [[IL-8]], connecting oxidative stress to SASP composition. Because PKD sits between the redox milieu and NF-κB, it helps determine both the magnitude and the qualitative profile of the senescent secretome. Targeting PKD therefore offers a route to modulate SASP through redox/inflammatory nodes rather than via direct cytotoxic senolysis.
 
 ## Clinical / Pathological Relevance
 
@@ -42,11 +42,11 @@ PKD isoforms are implicated in cancer (proliferation, migration, epithelial–me
 - [[IkappaBalpha]]: PKD promotes IκBα degradation
 - [[IL-6]]: PKD regulates IL-6 expression
 - [[IL-8]]: PKD regulates IL-8 expression
-- [[Senescence-Associated Secretory Phenotype|SASP]]: PKD modulates SASP gene expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: PKD modulates SASP gene expression
 - [[Mitochondrial ROS|Mitochondrial ROS]]: Oxidative stress is a key PKD activator
 
 ## Linking Summary
 
 - New links added: [[IKK complex]], [[IKKbeta]], [[IkappaBalpha]], [[Mitochondrial ROS|Mitochondrial ROS]]
   - Suggested new entity notes to create: [[PKD1]], [[Reactive Oxygen Species]]
-  - Strong connections to strengthen: [[Protein Kinase D]] ↔ [[NFKB|NF-κB]], [[Protein Kinase D]] ↔ [[SASP]], [[Protein Kinase D]] ↔ oxidative stress
+  - Strong connections to strengthen: [[Protein Kinase D]] ↔ [[NFKB|NF-κB]], [[Protein Kinase D]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Protein Kinase D]] ↔ oxidative stress

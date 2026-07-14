@@ -25,8 +25,8 @@ aliases: []
 [[Leuco-adrenochrome]] is central to the oxidative degradation of [[Epinephrine]]. The pathway proceeds as follows:
 
 - **[[Epinephrine]] (Adrenaline):** The starting [[Catecholamine]].
-- **[[adrenaline-quinone]]:** Through oxidation (often [[Autoxidation]] at physiological pH or via enzymatic activity), [[Epinephrine]] loses electrons to form the highly reactive [[Electrophile|electrophilic]] intermediate [[adrenaline-quinone]].
-- **[[Leuco-adrenochrome]]:** Cyclization of [[adrenaline-quinone]] occurs, yielding the leuco-form (the "white" or reduced form), (S)-1-Methylindoline-3,5,6-triol.
+- **[[Adrenaline-quinone]]:** Through oxidation (often [[Autoxidation]] at physiological pH or via enzymatic activity), [[Epinephrine]] loses electrons to form the highly reactive [[Electrophile|electrophilic]] intermediate [[Adrenaline-quinone]].
+- **[[Leuco-adrenochrome]]:** Cyclization of [[Adrenaline-quinone]] occurs, yielding the leuco-form (the "white" or reduced form), (S)-1-Methylindoline-3,5,6-triol.
 - **[[Adrenochrome]]:** Further oxidation of [[Leuco-adrenochrome]] results in the formation of [[Adrenochrome]], which is distinctly colored (red/pink/orange) due to its extended conjugated system.
 
 > [!warning] Key Characteristic
@@ -63,7 +63,7 @@ There is limited direct research on specific interactions between [[Leuco-adreno
 
 #### Indirect/Related Interactions via the Oxidation Pathway
 
-[[Leuco-adrenochrome]] is the reduced intermediate formed when [[Epinephrine]] cyclizes after initial oxidation to [[adrenaline-quinone]]. This pathway intersects with [[Hemoglobin]]/[[Erythrocytes|red blood cell]] chemistry primarily through [[Reactive Oxygen Species]] (ROS) and [[Autoxidation]] processes:
+[[Leuco-adrenochrome]] is the reduced intermediate formed when [[Epinephrine]] cyclizes after initial oxidation to [[Adrenaline-quinone]]. This pathway intersects with [[Hemoglobin]]/[[Erythrocytes|red blood cell]] chemistry primarily through [[Reactive Oxygen Species]] (ROS) and [[Autoxidation]] processes:
 
 - **[[Oxyhemoglobin]] [[Autoxidation]] to [[Methemoglobin]]:** The spontaneous autoxidation of [[Oxyhemoglobin]] (HbO₂) to [[Methemoglobin]] generates [[Superoxide anion]] (O₂⁻). These radicals (and [[Hydrogen Peroxide]]) can co-oxidize [[Epinephrine]] to [[Adrenochrome]]. This process is well-documented and used as an [[Assay]] for superoxide production.
 
@@ -85,7 +85,7 @@ No strong evidence shows direct binding of [[Leuco-adrenochrome]] to [[Hemoglobi
 #### Key Degradation Pathways
 
 [[Epinephrine]] undergoes [[Autoxidation]] in aqueous solutions, especially under exposure to air (oxygen), light, heat, or higher pH:
-1. [[Epinephrine]] → [[adrenaline-quinone]] → [[Leuco-adrenochrome]] → [[Adrenochrome]] (pink/red-violet) → further [[Polymerization]] to [[Melanins|melanin-like]] brown pigments.
+1. [[Epinephrine]] → [[Adrenaline-quinone]] → [[Leuco-adrenochrome]] → [[Adrenochrome]] (pink/red-violet) → further [[Polymerization]] to [[Melanins|melanin-like]] brown pigments.
 2. [[Racemization]] (L- to D-epinephrine) reduces potency, as the D-isomer is less active.
 3. Trace metal ions (e.g., iron, aluminum) catalyze oxidation; interactions with [[Bisulfite]] antioxidants can form additional degradants like [[Adrenochrome sulfonate]] under light.
 
@@ -120,7 +120,7 @@ No strong evidence shows direct binding of [[Leuco-adrenochrome]] to [[Hemoglobi
 
 ## Connections
 
-  - [[Epinephrine]] → [[Oxidation]] → [[adrenaline-quinone]] → [[Leuco-adrenochrome]] → [[Adrenochrome]]
+  - [[Epinephrine]] → [[Oxidation]] → [[Adrenaline-quinone]] → [[Leuco-adrenochrome]] → [[Adrenochrome]]
   - [[Leuco-adrenochrome]] ↔ [[Redox cycle]] with [[Adrenochrome]] (cycling generates [[Superoxide anion]])
   - [[Oxyhemoglobin]] → [[Autoxidation]] → [[Methemoglobin]] + [[Superoxide anion]] → co-oxidizes [[Epinephrine]] to [[Adrenochrome]]
   - [[Leuco-adrenochrome]] → [[Reference standard]] / [[Impurity marker]] in [[Epinephrine]] [[Quality Control]]
@@ -129,6 +129,6 @@ No strong evidence shows direct binding of [[Leuco-adrenochrome]] to [[Hemoglobi
 
 ## Linking Summary
 
-  - New links added: [[Leuco-adrenochrome]], [[adrenaline-quinone]], [[Autoxidation]], [[Redox cycle]], [[Reference standard]], [[Impurity marker]], [[Adrenochrome Hypothesis]], [[Schizophrenia]], [[Dopamine hypothesis]], [[Quality Control]], [[Anaphylaxis]], [[Cardiac arrest]], [[HPLC]], [[LC-MS]], [[Argon]], [[Nitrogen gas]], [[Certificate of Analysis]], [[H-NMR]], [[Mass Spectrometry]], [[Hemoglobin]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Methemoglobinemia]], [[Assay]], [[Erythrocytes]], [[Alcoholism]], [[Central Nervous System]], [[Polymerization]], [[Racemization]], [[Bisulfite]], [[Adrenochrome sulfonate]], [[Sodium Metabisulfite]], [[Cysteine]], [[Thioglycerol]], [[Chelating agents]], [[EpiPen]], [[Symjepi]], [[Neffy]], [[Allosteric Regulation]], [[Central Nervous System]]
-  - Suggested new entity notes to create: [[Leuco-adrenochrome]], [[adrenaline-quinone]], [[Autoxidation]], [[Redox cycle]], [[Impurity marker]], [[Anaphylaxis]], [[Cardiac arrest]], [[HPLC]], [[LC-MS]], [[Argon]], [[Nitrogen gas]], [[Certificate of Analysis]], [[H-NMR]], [[Mass Spectrometry]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Assay]], [[Erythrocytes]], [[Polymerization]], [[Racemization]], [[Bisulfite]], [[Adrenochrome sulfonate]], [[Sodium Metabisulfite]], [[Cysteine]], [[Thioglycerol]], [[EpiPen]], [[Symjepi]], [[Neffy]], [[Allosteric Regulation]]
+  - New links added: [[Leuco-adrenochrome]], [[Adrenaline-quinone]], [[Autoxidation]], [[Redox cycle]], [[Reference standard]], [[Impurity marker]], [[Adrenochrome Hypothesis]], [[Schizophrenia]], [[Dopamine hypothesis]], [[Quality Control]], [[Anaphylaxis]], [[Cardiac arrest]], [[HPLC]], [[LC-MS]], [[Argon]], [[Nitrogen gas]], [[Certificate of Analysis]], [[H-NMR]], [[Mass Spectrometry]], [[Hemoglobin]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Methemoglobinemia]], [[Assay]], [[Erythrocytes]], [[Alcoholism]], [[Central Nervous System]], [[Polymerization]], [[Racemization]], [[Bisulfite]], [[Adrenochrome sulfonate]], [[Sodium Metabisulfite]], [[Cysteine]], [[Thioglycerol]], [[Chelating agents]], [[EpiPen]], [[Symjepi]], [[Neffy]], [[Allosteric Regulation]], [[Central Nervous System]]
+  - Suggested new entity notes to create: [[Leuco-adrenochrome]], [[Adrenaline-quinone]], [[Autoxidation]], [[Redox cycle]], [[Impurity marker]], [[Anaphylaxis]], [[Cardiac arrest]], [[HPLC]], [[LC-MS]], [[Argon]], [[Nitrogen gas]], [[Certificate of Analysis]], [[H-NMR]], [[Mass Spectrometry]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Assay]], [[Erythrocytes]], [[Polymerization]], [[Racemization]], [[Bisulfite]], [[Adrenochrome sulfonate]], [[Sodium Metabisulfite]], [[Cysteine]], [[Thioglycerol]], [[EpiPen]], [[Symjepi]], [[Neffy]], [[Allosteric Regulation]]
   - Strong connections to strengthen: [[Epinephrine]] ↔ [[Leuco-adrenochrome]], [[Leuco-adrenochrome]] ↔ [[Adrenochrome]], [[Hemoglobin]] ↔ [[Superoxide anion]], [[Epinephrine]] ↔ [[Sodium Metabisulfite]] (formulation stability)

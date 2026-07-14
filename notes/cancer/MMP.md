@@ -26,7 +26,7 @@ Matrix Metalloproteinases (MMPs) are a family of zinc-dependent [[endopeptidases
 
 ## Role in Senescence & SASP
 
-MMPs are core [[SASP]] components secreted by senescent cells. [[MMP-1]], [[MMP-3]], and [[MMP-10]] are consistently upregulated in the SASP transcriptome. They degrade ECM components, remodel the tissue microenvironment, and release sequestered growth factors. MMP activity from senescent [[Hepatic Stellate Cells|hepatic stellate cells]] contributes to liver fibrosis resolution and, paradoxically, to conditions favoring [[Hepatocellular Carcinoma]].
+MMPs are core [[SASP|Senescence-Associated Secretory Phenotype]] components secreted by senescent cells. [[MMP-1]], [[MMP-3]], and [[MMP-10]] are consistently upregulated in the SASP transcriptome. They degrade ECM components, remodel the tissue microenvironment, and release sequestered growth factors. MMP activity from senescent [[Hepatic Stellate Cells|hepatic stellate cells]] contributes to liver fibrosis resolution and, paradoxically, to conditions favoring [[Hepatocellular Carcinoma]].
 
 ## Role in Cancer
 
@@ -44,7 +44,7 @@ MMPs are core [[SASP]] components secreted by senescent cells. [[MMP-1]], [[MMP-
 
 ## Connections
 
-- [[SASP]]: MMPs are a major functional category of SASP factors
+- [[SASP|Senescence-Associated Secretory Phenotype]]: MMPs are a major functional category of SASP factors
 - [[Extracellular Matrix]]: Substrate for MMP proteolytic activity
 - [[Hepatic Stellate Cells]]: Senescent HSCs secrete MMPs in liver
 - [[Tumor Microenvironment]]: Remodeled by MMP activity
@@ -54,4 +54,4 @@ MMPs are core [[SASP]] components secreted by senescent cells. [[MMP-1]], [[MMP-
 
 - New links added: [[MMP-1]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[MT1-MMP]], [[basement membrane]], [[endopeptidases]]
 - Suggested new entity notes to create: [[Tissue Inhibitors of Metalloproteinases]] (TIMPs)
-- Strong connections to strengthen: [[MMP]] ↔ [[SASP]] (senescence secretion), [[MMP]] ↔ [[Metastasis]] (invasion)
+- Strong connections to strengthen: [[MMP]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senescence secretion), [[MMP]] ↔ [[Metastasis]] (invasion)

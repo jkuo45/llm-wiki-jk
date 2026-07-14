@@ -16,7 +16,7 @@ aliases:
 
 # GATA4
 
-GATA4 is a zinc-finger transcription factor of the GATA family, best known for governing cardiac and endodermal development. In the context of cellular senescence, GATA4 is a stress-inducible factor that functions as a regulator of the [[Senescence-Associated Secretory Phenotype|SASP]], acting alongside [[NFKB|NF-κB]], [[CEBPβ|C/EBPβ]], and DNA-damage signaling to sustain inflammatory secretome expression.
+GATA4 is a zinc-finger transcription factor of the GATA family, best known for governing cardiac and endodermal development. In the context of cellular senescence, GATA4 is a stress-inducible factor that functions as a regulator of the [[SASP|Senescence-Associated Secretory Phenotype]], acting alongside [[NFKB|NF-κB]], [[CEBPβ|C/EBPβ]], and DNA-damage signaling to sustain inflammatory secretome expression.
 
 ## Overview
 
@@ -48,11 +48,11 @@ Because GATA4 sits upstream of SASP, its modulation is a candidate [[Senomorphic
 
 - [[NFKB]]: master SASP regulator cooperating with GATA4
 - [[CEBPβ]]: fellow SASP transcription factor
-- [[SASP]]: GATA4 drives SASP expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: GATA4 drives SASP expression
 - [[DNA Damage Response]]: upstream stress signal stabilizing GATA4
 
 ## Linking Summary
 
-- New links added: [[NFKB]], [[CEBPβ]], [[SASP]], [[DNA Damage Response]], [[p38 MAPK]], [[mTOR]], [[Senomorphic]]
+- New links added: [[NFKB]], [[CEBPβ]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage Response]], [[p38 MAPK]], [[mTOR]], [[Senomorphic]]
 - Suggested new entity notes to create: [[CEBPβ]], [[GATA Family]], [[Autophagy of GATA4]]
-- Strong connections to strengthen: [[GATA4]] ↔ [[SASP]] (SASP regulation), [[GATA4]] ↔ [[NFKB]] (inflammatory cooperation)
+- Strong connections to strengthen: [[GATA4]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (SASP regulation), [[GATA4]] ↔ [[NFKB]] (inflammatory cooperation)

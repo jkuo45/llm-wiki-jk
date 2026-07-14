@@ -15,7 +15,7 @@ aliases: [Monocyte, CD14+ Monocytes, CD14+CD16+ Monocytes]
 
 # Monocytes
 
-**Monocytes** are circulating mononuclear leukocytes of the innate immune system that serve as precursors to tissue [[Macrophages]] and dendritic cells. They are produced in the bone marrow, circulate in blood for 1–3 days, and then migrate into tissues where they differentiate into specialised macrophage populations. Monocytes are critical effectors of [[Inflammation|inflammatory]] responses, wound healing, tissue remodelling, and immune surveillance. Their dysregulation is implicated in atherosclerosis, neuroinflammation, and the [[Senescence-Associated Secretory Phenotype|SASP]].
+**Monocytes** are circulating mononuclear leukocytes of the innate immune system that serve as precursors to tissue [[Macrophages]] and dendritic cells. They are produced in the bone marrow, circulate in blood for 1–3 days, and then migrate into tissues where they differentiate into specialised macrophage populations. Monocytes are critical effectors of [[Inflammation|inflammatory]] responses, wound healing, tissue remodelling, and immune surveillance. Their dysregulation is implicated in atherosclerosis, neuroinflammation, and the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Ontogeny & Subsets
 
@@ -118,13 +118,13 @@ List of documents that mention this entity
   - [[NF-κB]]: Transcription factor activated in monocytes by inflammatory stimuli; drives cytokine and MMP expression
   - [[VCAM-1]]: Adhesion molecule on activated endothelium that mediates monocyte adhesion and transmigration
   - [[Atherosclerosis]]: Monocyte infiltration into the arterial intima is an early event in atherogenesis
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: Senescent cells secrete chemokines that recruit monocytes to the tissue microenvironment
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Senescent cells secrete chemokines that recruit monocytes to the tissue microenvironment
   - [[Inflammaging]]: Monocyte-derived macrophages sustain chronic low-grade inflammation in ageing tissues
   - [[Bone Marrow]]: Monocytes are produced in the bone marrow from common myeloid progenitors
 
 ## Linking Summary
 
-  - New links added: [[Macrophages]], [[CCL2]], [[MMP-12]], [[Inflammation]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[VCAM-1]], [[Atherosclerosis]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]], [[Bone Marrow]]
+  - New links added: [[Macrophages]], [[CCL2]], [[MMP-12]], [[Inflammation]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[VCAM-1]], [[Atherosclerosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Bone Marrow]]
   - Suggested new entity notes to create: [[CCR2]], [[CCL7]], [[M-CSF]], [[GM-CSF]], [[Foam Cells]], [[Tumour-Associated Macrophages]]
   - Strong connections to strengthen: [[Monocytes]] ↔ [[Macrophages]], [[Monocytes]] ↔ [[CCL2]], [[Monocytes]] ↔ [[Atherosclerosis]], [[Monocytes]] ↔ [[MMP-12]]
   - Justification: Monocytes are the circulating precursors of tissue macrophages and a central cell type in inflammation, atherosclerosis, and the SASP. The CCL2→monocyte→macrophage axis is a fundamental pathway in inflammatory disease.

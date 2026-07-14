@@ -27,7 +27,7 @@ Non-coding RNAs act as "fine-tuners" of the epigenetic landscape and are highly 
 *   **[[MicroRNA]] (miRNAs):** Levels of "senescence-associated miRNAs" (like miR-34a) rise with age, inhibiting pro-survival pathways in cardiomyocytes and endothelial cells.
 *   **Long Non-coding RNAs (lncRNAs):** The lncRNA **ANRIL** is one of the strongest genetic/epigenetic risk factors for CHD, regulating the loci that control cell cycle progression and senescence.
 ### 4. Pathophysiological Impact: [[Cellular Senescence]]
-The convergence of these epigenetic changes leads to cellular senescence—a state where cells stop dividing but remain metabolically active, secreting pro-inflammatory cytokines ([[SASP]]). 
+The convergence of these epigenetic changes leads to cellular senescence—a state where cells stop dividing but remain metabolically active, secreting pro-inflammatory cytokines ([[SASP|Senescence-Associated Secretory Phenotype]]). 
 *   In the coronary arteries, senescent endothelial cells lose their ability to repair the vessel wall, while senescent macrophages drive chronic inflammation, accelerating [[Atherosclerosis]].
 ### 5. Therapeutic Potential
 Unlike genetic mutations, epigenetic marks are reversible. This has led to interest in "epigenetic editing" and pharmacological inhibitors—such as [[HDAC]] inhibitors or [[DNA Methyltransferase]] (DNMT) inhibitors—to "reset" the epigenetic clock and retard the progression of CHD.
@@ -50,6 +50,6 @@ List of documents that mention this entity
 - **[[Aging]]**: The dominant risk factor for CHD, characterized by profound epigenetic drift.
 
 ## Linking Summary
-- New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Cellular Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
+- New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Cellular Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
 - Suggested new entity notes to create: [[ANRIL]], [[Cardiac Fibrosis]], [[Vascular Smooth Muscle Cells]], [[Endothelial Dysfunction]].
   - Strong connections to strengthen: Coronary Heart Disease ↔ [[Atherosclerosis]], Coronary Heart Disease ↔ [[Aging]]

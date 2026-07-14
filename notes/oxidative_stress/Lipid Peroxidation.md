@@ -9,6 +9,7 @@ tags:
   - free-radicals
   - chemical-process
 aliases: [LPO]
+protected: true
 ---
 
 # Lipid Peroxidation

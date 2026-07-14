@@ -231,7 +231,7 @@ For the remaining sirtuins, therapeutic strategies generally focus on **inhibiti
 | **[[SIRT7]]** | Nucleolus | Deacetylation | None prominent | H3K18, ribosome biogenesis |
 
 > [!tip] Universal NAD+ Boosters
-> To boost NAD+ levels, precursors like **NMN (Nicotinamide Mononucleotide)** and **NR (Nicotinamide Riboside)** serve as universal, indirect pan-sirtuin activators by raising the concentration of their required co-substrate.
+> To boost NAD+ levels, precursors like **NMN (Nicotinamide Mononucleotide)** and **[[NR]] (Nicotinamide Riboside)** serve as universal, indirect pan-sirtuin activators by raising the concentration of their required co-substrate.
 
 ---
 

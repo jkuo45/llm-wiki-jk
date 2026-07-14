@@ -24,7 +24,7 @@ List of documents that mention this entity
   - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
     - Keywords: Centenarians, microbes, metabolites, inflammation, Immunosenescence, Cognition, functional potential, healthy aging 1\.
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Study of two linked missense variants in SIRT6 (N308K/A313S) enriched in Ashkenazi Jewish centenarians. The variants elevate SIRT6 protein, enhance mADPr activity, delay senescence, and suppress LINE1 derepression.
 
 ## Connections

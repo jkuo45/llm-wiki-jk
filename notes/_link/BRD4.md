@@ -15,7 +15,7 @@ aliases: [BRD4, Bromodomain-containing protein 4]
 
 # BRD4
 
-BRD4 (Bromodomain-containing protein 4) is an epigenetic reader protein that binds acetylated lysine residues on histones via its two tandem bromodomains and is recruited to senescence-activated enhancers in oncogene-induced senescence (OIS). It drives expression of [[Senescence-Associated Secretory Phenotype|SASP]] factors without perturbing the cell-cycle arrest that defines the senescent state.
+BRD4 (Bromodomain-containing protein 4) is an epigenetic reader protein that binds acetylated lysine residues on histones via its two tandem bromodomains and is recruited to senescence-activated enhancers in oncogene-induced senescence (OIS). It drives expression of [[SASP|Senescence-Associated Secretory Phenotype]] factors without perturbing the cell-cycle arrest that defines the senescent state.
 
 ## Mechanism of Action & Signaling
 
@@ -40,7 +40,7 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: BRD4 regulates SASP gene expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: BRD4 regulates SASP gene expression
 - [[Oncogene-Induced Senescence|OIS]]: BRD4 is recruited to senescence-activated enhancers in OIS
 - [[NF-κB]]: cooperates with BRD4 at SASP enhancers
 - [[p38 MAPK]]: upstream signaling reinforcing BRD4 occupancy
@@ -56,5 +56,5 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Oncogene-Induced Senescence|OIS]], [[NF-κB]], [[p38 MAPK]], [[CDK9]], [[Epigenetic Alterations]], [[Histone Variant]], [[AP-1]], [[cGAS-STING Pathway]], [[KDM4]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Oncogene-Induced Senescence|OIS]], [[NF-κB]], [[p38 MAPK]], [[CDK9]], [[Epigenetic Alterations]], [[Histone Variant]], [[AP-1]], [[cGAS-STING Pathway]], [[KDM4]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
 - Strong connections to strengthen: [[BRD4]] ↔ SASP regulation, [[BRD4]] ↔ OIS, [[BRD4]] ↔ BET inhibitors (senomorphic)

@@ -26,7 +26,7 @@ aliases: [mtDNA, mitochondrial DNA, mitochondrial genome]
 
 ## Role in Senescence
 
-In [[Senescent Cells]], [[Senescence-associated mitochondrial dysfunction|mitochondrial dysfunction]] and miMOMP cause cytosolic mtDNA accumulation. This activates the [[cGAS-STING Pathway|cGAS-STING]] innate-immune sensor (cGAS binds mtDNA, generating cGAMP that activates STING → [[TBK1]]/[[IRF3]] and [[NF-κB]]), driving type I interferons and pro-inflammatory cytokines that are core components of the [[Senescence-Associated Secretory Phenotype|SASP]] (Dougherty et al., 2019/2020; PMID 31624094; Glück et al., 2020).
+In [[Senescent Cells]], [[Senescence-associated mitochondrial dysfunction|mitochondrial dysfunction]] and miMOMP cause cytosolic mtDNA accumulation. This activates the [[cGAS-STING Pathway|cGAS-STING]] innate-immune sensor (cGAS binds mtDNA, generating cGAMP that activates STING → [[TBK1]]/[[IRF3]] and [[NF-κB]]), driving type I interferons and pro-inflammatory cytokines that are core components of the [[SASP|Senescence-Associated Secretory Phenotype]] (Dougherty et al., 2019/2020; PMID 31624094; Glück et al., 2020).
 
 ## Retrograde Signaling
 
@@ -54,7 +54,7 @@ List of documents that mention this entity
 ## Connections
 - [[cGAS-STING Pathway|cGAS-STING]] — Activates the cGAS-STING innate immune sensor
 - [[Minority MOMP]] — Released into the cytosol via miMOMP
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Induces SASP production
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Induces SASP production
 - [[Senescence-associated mitochondrial dysfunction|SAMD]] — A consequence of mitochondrial dysfunction in senescence
 - [[Inflammaging]] — Drives sterile inflammation in aging
 - [[Mitophagy]] — defective clearance promotes mtDNA leakage
@@ -62,5 +62,5 @@ List of documents that mention this entity
 - [[Apoptosis]] — MOMP releases mtDNA during cell death
 
 ## Linking Summary
-- New links added: [[cGAS-STING Pathway|cGAS-STING]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Mitophagy]], [[BAX]], [[BAK]], [[Apoptosis]], [[TBK1]], [[IRF3]], [[NF-κB]], [[ATF4]], [[AMPK]], [[Idiopathic Pulmonary Fibrosis]]
+- New links added: [[cGAS-STING Pathway|cGAS-STING]], [[Minority MOMP]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Mitophagy]], [[BAX]], [[BAK]], [[Apoptosis]], [[TBK1]], [[IRF3]], [[NF-κB]], [[ATF4]], [[AMPK]], [[Idiopathic Pulmonary Fibrosis]]
   - Strong connections to strengthen: [[mtDNA]] ↔ [[cGAS-STING Pathway]], mtDNA ↔ SAMD, mtDNA ↔ [[Inflammaging]]

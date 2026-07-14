@@ -12,6 +12,7 @@ tags:
   - enzyme
   - nad+
 aliases: [NOX, NADPH oxidase complex, NOX family]
+protected: true
 ---
 # NADPH Oxidase
 
@@ -31,7 +32,7 @@ NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose primary
 ## Structural Organization and Catalytic Mechanism
 All NOX isoforms share a conserved catalytic core: the **NOX (gp91phox)** transmembrane subunit, which contains six transmembrane α-helices, two heme groups (coordinated by four histidine residues in helices III and V), and a cytoplasmic C-terminal NADPH- and FAD-binding domain. The electron transfer proceeds in a linear chain: NADPH → FAD → heme1 (inner) → heme2 (outer) → O₂ on the extracellular/luminal side, producing superoxide. The overall reaction is: $NADPH + 2O_2 \rightarrow NADP^+ + 2O_2^{\bullet-} + H^+$.
 
-The phagocyte NOX2 system requires the assembly of multiple cytosolic subunits for activation: **p47phox** (organizer), **p67phox** (activator), **p40phox**, and the small GTPase **Rac1/2** (Rac2 in neutrophils, Rac1 in other cell types). Upon stimulation (by bacterial peptides, phorbol esters, or pro-inflammatory cytokines such as [[TNF-alpha]] and [[IL-1b]]), p47phox becomes phosphorylated by [[Protein Kinase C]] (PKC), triggering translocation of the entire cytosolic complex to the membrane, where it docks with the transmembrane flavocytochrome b₅₅₈ (p22phox + gp91phox). This assembly is required for electron flow; in its absence, the enzyme is catalytically silent.
+The phagocyte NOX2 system requires the assembly of multiple cytosolic subunits for activation: **p47phox** (organizer), **p67phox** (activator), **p40phox**, and the small GTPase **Rac1/2** (Rac2 in neutrophils, Rac1 in other cell types). Upon stimulation (by bacterial peptides, phorbol esters, or pro-inflammatory cytokines such as [[TNF-alpha]] and [[IL-1β]]), p47phox becomes phosphorylated by [[Protein Kinase C]] (PKC), triggering translocation of the entire cytosolic complex to the membrane, where it docks with the transmembrane flavocytochrome b₅₅₈ (p22phox + gp91phox). This assembly is required for electron flow; in its absence, the enzyme is catalytically silent.
 
 ## Isoform Diversity and Tissue Distribution
 | Isoform | Primary Tissue Expression | Key Features |
@@ -79,7 +80,7 @@ List of documents that mention this entity
 - [[Inflammation]]: NOX-derived ROS are central mediators of inflammatory signaling.
 
 ## Linking Summary
-- New links added: [[TNF-alpha]], [[IL-1b]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidants]], [[Nitric Oxide]]
+- New links added: [[TNF-alpha]], [[IL-1β]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidants]], [[Nitric Oxide]]
 - Suggested new entity notes to create: [[GKT137831]], [[GSK2795039]], [[Apocynin]], [[Rac GTPase]], [[p47phox]], [[Flavocytochrome b558]]
 - New links added: [[Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-kappa B]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[Respiratory Burst]], [[NOX2]], [[NOX4]]

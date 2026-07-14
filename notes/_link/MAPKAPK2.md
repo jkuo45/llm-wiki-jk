@@ -23,7 +23,7 @@ p38 MAPK phosphorylates MK2 on Thr222 (human), activating the kinase and relievi
 
 ## Role in Senescence / SASP
 
-MK2 is a critical regulator of the [[Senescence-Associated Secretory Phenotype|SASP]] through its control of mRNA stability (Freund et al., 2011, PMID 21130033). In senescent cells, persistent [[p38 MAPK]] signaling keeps MK2 active, which stabilizes transcripts for [[IL-6]], [[IL-8]], CXCL1/2, and [[MCP-1]], maintaining the inflammatory secretome of [[Senescent Cells]] even after transcriptional initiation wanes. Pharmacological inhibition of p38 or MK2, or MK2 silencing, sharply reduces SASP factor secretion without reversing the DNA-damage-induced cell-cycle arrest — hallmarks of a senomorphic mechanism operating at the post-transcriptional level. The p38–MK2 axis therefore acts as a translational/decay rheostat that determines the magnitude and duration of the SASP.
+MK2 is a critical regulator of the [[SASP|Senescence-Associated Secretory Phenotype]] through its control of mRNA stability (Freund et al., 2011, PMID 21130033). In senescent cells, persistent [[p38 MAPK]] signaling keeps MK2 active, which stabilizes transcripts for [[IL-6]], [[IL-8]], CXCL1/2, and [[MCP-1]], maintaining the inflammatory secretome of [[Senescent Cells]] even after transcriptional initiation wanes. Pharmacological inhibition of p38 or MK2, or MK2 silencing, sharply reduces SASP factor secretion without reversing the DNA-damage-induced cell-cycle arrest — hallmarks of a senomorphic mechanism operating at the post-transcriptional level. The p38–MK2 axis therefore acts as a translational/decay rheostat that determines the magnitude and duration of the SASP.
 
 ## Clinical / Pathological Relevance
 
@@ -44,11 +44,11 @@ List of documents that mention this entity
 - [[HSP27]] — Phosphorylates HSP27
 - [[AUF1]] — Inactivates AUF1 to stabilize SASP mRNAs
 - [[ZFP36L1]] — Phosphorylates ZFP36L1/TTP to block decay of ARE-mRNAs
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Stabilizes SASP factor transcripts
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Stabilizes SASP factor transcripts
 - [[Senomorphic Therapy]] — The p38-MK2 axis is a senomorphic target
 
 ## Linking Summary
 
   - New links added: [[ZFP36L1]]
   - Suggested new entity notes to create: [[MCP-1]], [[ARE (AU-rich element)]]
-  - Strong connections to strengthen: [[MAPKAPK2]] ↔ [[p38 MAPK]], [[MAPKAPK2]] ↔ [[SASP]], [[MAPKAPK2]] ↔ [[Senomorphic Therapy]]
+  - Strong connections to strengthen: [[MAPKAPK2]] ↔ [[p38 MAPK]], [[MAPKAPK2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[MAPKAPK2]] ↔ [[Senomorphic Therapy]]

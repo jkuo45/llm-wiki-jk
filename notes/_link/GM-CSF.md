@@ -14,7 +14,7 @@ aliases: [GM-CSF, CSF2, Granulocyte-macrophage colony-stimulating factor]
 
 # GM-CSF
 
-**GM-CSF (granulocyte-macrophage colony-stimulating factor, CSF2)** is a hematopoietic cytokine that is part of the [[Senescence-Associated Secretory Phenotype|SASP]]. It is measured as a circulating biomarker of senescent-cell burden and of senolytic-therapy efficacy in clinical studies.
+**GM-CSF (granulocyte-macrophage colony-stimulating factor, CSF2)** is a hematopoietic cytokine that is part of the [[SASP|Senescence-Associated Secretory Phenotype]]. It is measured as a circulating biomarker of senescent-cell burden and of senolytic-therapy efficacy in clinical studies.
 
 ## Mechanism of Action & Signaling
 
@@ -37,12 +37,12 @@ GM-CSF binds the heterodimeric GM-CSFR, composed of a specific α-chain (CD116) 
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: GM-CSF is a SASP biomarker
+- [[SASP|Senescence-Associated Secretory Phenotype]]: GM-CSF is a SASP biomarker
 - [[Senolytic Therapy|senolytic therapy]]: GM-CSF is measured to assess therapy efficacy
 - [[JAK]] / [[STAT5]]: GM-CSF signals via JAK2/STAT5
 - [[Macrophages]] / [[Neutrophils]]: GM-CSF recruits and activates myeloid cells
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senolytic Therapy|senolytic therapy]], [[JAK]], [[STAT5]], [[MAPK]], [[PI3K]], [[Macrophages]], [[Neutrophils]]
-  - Strong connections to strengthen: [[GM-CSF]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]] biomarker, [[GM-CSF]] ↔ [[Senolytic Therapy|senolytic therapy]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic Therapy|senolytic therapy]], [[JAK]], [[STAT5]], [[MAPK]], [[PI3K]], [[Macrophages]], [[Neutrophils]]
+  - Strong connections to strengthen: [[GM-CSF]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] biomarker, [[GM-CSF]] ↔ [[Senolytic Therapy|senolytic therapy]]

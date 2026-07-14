@@ -47,7 +47,7 @@ Dietary NMN is rapidly degraded in the gut by the enzyme CD38 and intestinal alk
 
 - [[NAD+]] — direct biosynthetic precursor; NMN is converted to NAD+ by NMNAT
 - [[NAMPT]] — rate-limiting enzyme in the NAD+ salvage pathway that converts nicotinamide to NMN
-- [[Nicotinamide Riboside]] — another NAD+ precursor; NR is phosphorylated to NMN before entering the NAD+ pool
+- [[Nicotinamide Riboside]] — another NAD+ precursor; [[NR]] is phosphorylated to NMN before entering the NAD+ pool
 - [[Sirtuins]] — NMN indirectly activates all sirtuins by boosting NAD+ availability
 - [[Caloric Restriction]] — NMN supplementation mimics CR-induced NAD+ elevation
 - [[CD38]] — degrades NMN; CD38 inhibitors preserve NMN levels

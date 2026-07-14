@@ -1,32 +1,50 @@
 ---
 title: Vincristine
-description: 'Chemical properties: Vincristine is a chemical substance with defined'
-  molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.
+description: Vincristine is a Vinca alkaloid chemotherapeutic that inhibits microtubule polymerization, arresting mitosis; dose-limiting peripheral neuropathy is characteristic.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 tags:
   - chemical-compound
+  - chemotherapy
+  - alkaloid
+url: '#'
+source: '#'
 aliases: [Oncovin]
-
 ---
 
 # Vincristine
 
-**Chemical properties:** Vincristine is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.
+**Vincristine (Oncovin)** is a natural **Vinca alkaloid** isolated from the Madagascar periwinkle (*Catharanthus roseus*) and a cornerstone cytotoxic chemotherapeutic.
 
-**Biological activity:** Vincristine interacts with cellular targets including enzymes, receptors, and ion channels. Its pharmacological effects depend on concentration, route of exposure, and metabolic fate.
+## Chemical Properties & Mechanism of Action
 
-**Research and therapeutic applications:** Vincristine is used in biomedical research as a tool compound to probe biological mechanisms. It has clinical applications in disease treatment and prevention.
+- A complex dimeric indole–indoline alkaloid.
+- **Microtubule-targeting agent:** binds β-[[Tubulin]] at the vinca domain, inhibiting microtubule polymerization and destabilizing the mitotic spindle.
+- **Consequence:** cells arrest at the metaphase–anaphase transition of [[Mitosis]] (M-phase block), and rapidly dividing cells undergo [[Apoptosis]]. This is the opposite mechanistic pole from taxanes, which *stabilize* microtubules.
 
-**Safety and toxicity:** The safety profile of Vincristine depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
+## Applications
 
-#
+> [!info] Combination chemotherapy
+> Vincristine is a component of many curative regimens — e.g. CHOP/R-CHOP for lymphoma, VAD, and childhood acute lymphoblastic leukemia protocols — valued for its efficacy and, unusually for a cytotoxic, relatively mild myelosuppression. It is administered intravenously (intrathecal administration is fatal).
+
+> [!warning] Dose-limiting neurotoxicity
+> Because axonal transport depends on microtubules, vincristine's hallmark toxicity is a cumulative, dose-limiting **peripheral neuropathy** (sensory and autonomic), distinguishing it from its analogue vinblastine, whose limiting toxicity is myelosuppression.
+
+## Documents
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin as an Anticancer Drug]]
+    - References vincristine as an established microtubule-targeting chemotherapeutic and comparator when discussing repurposed anticancer agents and multidrug resistance (P-gp).
 
 ## Connections
-- [[Vincristine]] — related entity
+
+  - [[Tubulin]]: Molecular target (vinca binding domain).
+  - [[Mitosis]]: Arrested by spindle disruption.
+  - [[Apoptosis]]: Induced following mitotic arrest.
+  - [[Chemotherapy]]: Vincristine is a mainstay cytotoxic agent.
+  - [[P-gp]]: Efflux transporter mediating vincristine resistance.
 
 ## Linking Summary
-- New links added: [[Vincristine]]
-  - Strong connections to strengthen: [[Vincristine]] ↔ [[Vincristine]]
 
+  - New links added: [[Tubulin]], [[Mitosis]], [[Apoptosis]], [[Chemotherapy]], [[P-gp]]
+  - Strong connections to strengthen: Vincristine ↔ Tubulin; Vincristine ↔ Mitosis

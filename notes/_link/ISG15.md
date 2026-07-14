@@ -42,11 +42,11 @@ Its presence indicates a senescence program skewed toward innate immunity rather
 ## Connections
 
 - [[p16 INK4a|p16]]: ISG15 is induced by p16 overexpression
-- [[Senescence-Associated Secretory Phenotype|SASP]]: ISG15 is an interferon pathway SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: ISG15 is an interferon pathway SASP factor
 - [[cGAS-STING Pathway|cGAS–STING]]: upstream of ISG-rich SASP
 - [[Senescent Cells]]: immune clearance context
 
 ## Linking Summary
 
-- New links added: [[p16 INK4a|p16]], [[Senescence-Associated Secretory Phenotype|SASP]], [[cGAS-STING Pathway|cGAS–STING]], [[Senescent Cells]]
+- New links added: [[p16 INK4a|p16]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway|cGAS–STING]], [[Senescent Cells]]
   - Strong connections to strengthen: [[ISG15]] ↔ [[p16]], [[ISG15]] ↔ interferon response

@@ -1,32 +1,50 @@
 ---
 title: Hydroxychloroquine
-description: 'Chemical properties: Hydroxychloroquine is a chemical substance'
-  with defined molecular structure, functional groups, and physicochemical properties
-  that determine its biological activity.
+description: Hydroxychloroquine is a 4-aminoquinoline antimalarial and immunomodulator that also inhibits autophagy by raising lysosomal pH.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 tags:
   - chemical-compound
+  - pharmacology
+url: '#'
+source: '#'
 aliases: [HCQ, Plaquenil]
-
 ---
 
 # Hydroxychloroquine
 
-**Chemical properties:** Hydroxychloroquine is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.
+**Hydroxychloroquine (HCQ)** is a 4-aminoquinoline derivative of chloroquine, differing by a hydroxyl group that improves its safety margin. It is a weak base and a lipophilic amine that accumulates in acidic organelles.
 
-**Biological activity:** Hydroxychloroquine interacts with cellular targets including enzymes, receptors, and ion channels. Its pharmacological effects depend on concentration, route of exposure, and metabolic fate.
+## Chemical Properties & Pharmacodynamics
 
-**Research and therapeutic applications:** Hydroxychloroquine is used in biomedical research as a tool compound to probe biological mechanisms. It has clinical applications in disease treatment and prevention.
+- **Lysosomotropic action:** as a weak base, HCQ concentrates in and neutralizes the acidic [[Lysosome]], raising intraluminal pH and impairing acid-dependent hydrolase activity.
+- **Autophagy inhibition:** by blocking [[Autophagy|autophagosome–lysosome]] fusion and lysosomal degradation, HCQ is a widely used pharmacological **autophagy inhibitor** in research and oncology trials.
+- **Immunomodulation:** it interferes with antigen processing, [[Toll-like Receptor]] (TLR7/9) signaling, and cytokine production, dampening inflammatory and autoimmune activity.
 
-**Safety and toxicity:** The safety profile of Hydroxychloroquine depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
+## Pharmacokinetics & Applications
 
-#
+- Well absorbed orally with a very long half-life (~40 days) due to extensive tissue accumulation; metabolized by [[CYP2D6]]/[[CYP3A4]].
+- **Clinical uses:** malaria prophylaxis/treatment, systemic lupus erythematosus, and [[Rheumatoid Arthritis]] (a disease-modifying antirheumatic drug).
+- **Research use:** combined with chemotherapy to block cytoprotective autophagy in [[Cancer]] cells.
+
+> [!warning] Toxicity
+> Chronic high-dose HCQ can cause irreversible retinopathy (bull's-eye maculopathy) and, rarely, [[Cardiomyopathy]] and QT prolongation. Because it inhibits autophagy, prolonged use may impair cellular quality-control pathways relevant to aging.
+
+## Documents
+
+  - No documents in the vault currently reference this entity.
 
 ## Connections
-- [[Hydroxychloroquine]] — related entity
+
+  - [[Autophagy]]: HCQ is a canonical autophagy inhibitor.
+  - [[Lysosome]]: Site of HCQ accumulation and pH neutralization.
+  - [[Rheumatoid Arthritis]]: A major clinical indication.
+  - [[Toll-like Receptor]]: Endosomal TLR signaling is dampened by HCQ.
+  - [[Cancer]]: Investigated as an autophagy-blocking adjunct.
 
 ## Linking Summary
-- New links added: [[Hydroxychloroquine]]
-  - Strong connections to strengthen: [[Hydroxychloroquine]] ↔ [[Hydroxychloroquine]]
 
+  - New links added: [[Autophagy]], [[Lysosome]], [[Rheumatoid Arthritis]], [[Toll-like Receptor]], [[Cancer]], [[CYP2D6]], [[CYP3A4]], [[Cardiomyopathy]]
+  - Suggested new entity notes to create: [[Malaria]], [[Systemic Lupus Erythematosus]]
+  - Strong connections to strengthen: Hydroxychloroquine ↔ Autophagy; Hydroxychloroquine ↔ Lysosome

@@ -68,6 +68,7 @@ The protocol aims for a controlled "pulse" of mitochondrial matrix superoxide to
 
 - Pulse → Adaptation → Cleanup: Low-dose carbazochrome creates a mitohormetic ROS signal → Nrf2 + SIRT1/AMPK/PGC-1α (fueled by NAD+ precursors) → biogenesis/antioxidant upregulation. Methylene blue manages electrons to keep it controlled. Urolithin A clears damaged mitochondria post-pulse.
 - Dosing strategy: Aims for signaling specificity (low carbazochrome avoids hemostatic/vascular dominance). Timing (e.g., pulsed vs. daily) isn't specified but would matter for hormesis.
+- **Predictive biomarker:** The [[SIRT3-SIRT4 Ratio]] serves as a **biomarker** for individual responsiveness to the MRR pulse — it sets the [[Hormetic Window]] by governing MnSOD-mediated superoxide clearance vs. retention, determining whether the carbazochrome/adrenochrome signal is adaptive or toxic.
 ### Strengths of the Logic
 
 Aligns with known biology of mitohormesis, redox signaling, and mitochondrial quality control. Individual agents target complementary nodes.
@@ -98,7 +99,7 @@ Strongly recommend professional medical oversight, bloodwork, and caution—espe
 - [[Nicotinamide Mononucleotide]]: Direct NAD+ precursor alternative to NR
 - [[Urolithin A]]: Selective mitophagy inducer for mitochondrial quality control
 - [[Mitohormesis]]: Core scientific framework — adaptive response to mild mitochondrial stress
-- [[Nrf2]]: Master transcription factor activated by the oxidative pulse
+- [[NRF2]]: Master transcription factor activated by the oxidative pulse
 - [[SIRT1]]: NAD+-dependent deacetylase activating PGC-1α
 - [[AMPK]]: Energy sensor activating PGC-1α synergistically with SIRT1
 - [[PGC1-α]]: Master regulator of mitochondrial biogenesis
@@ -106,6 +107,6 @@ Strongly recommend professional medical oversight, bloodwork, and caution—espe
 
 ## Linking Summary
 
-- New links added: [[Carbazochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Urolithin A]], [[Mitohormesis]], [[Nrf2]], [[SIRT1]], [[AMPK]], [[PGC1-α]], [[Redox Cycling]], [[NAD+]], [[Autophagy]], [[Mitophagy]], [[Spermidine]], [[Carnosine]], [[Aminoguanidine]]
+- New links added: [[Carbazochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Urolithin A]], [[Mitohormesis]], [[NRF2]], [[SIRT1]], [[AMPK]], [[PGC1-α]], [[Redox Cycling]], [[NAD+]], [[Autophagy]], [[Mitophagy]], [[Spermidine]], [[Carnosine]], [[Aminoguanidine]]
 - Suggested new entity notes to create: None — all key entities already have notes in the vault
 - Strong connections to strengthen: [[Carbazochrome]] ↔ [[Mitohormesis]], [[Methylene blue]] ↔ [[Mitochondrial Dynamics]], [[Urolithin A]] ↔ [[Mitophagy]]

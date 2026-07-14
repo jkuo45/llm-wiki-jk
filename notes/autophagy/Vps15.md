@@ -7,6 +7,7 @@ updated: 2026-07-04
 tags:
   - protein
 aliases: [PIK3R4, phosphoinositide 3-kinase regulatory subunit 4]
+protected: true
 ---
 # Vps15
 

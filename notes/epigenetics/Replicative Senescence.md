@@ -9,6 +9,7 @@ tags:
   - biological-process
   - senescence
 aliases: []
+protected: true
 ---
 
 # Replicative Senescence
@@ -25,7 +26,7 @@ The ensuing signaling cascade phosphorylates and stabilizes [[p53|p53]], driving
 
 1. **Irreversible growth arrest:** Cannot be reversed by mitogenic stimulation or even [[p53]] inactivation (once p16^INK4a^ is engaged).
 2. **[[SA-beta-gal]] activity:** Increased lysosomal β-galactosidase activity at pH 6.0, the most widely used senescence biomarker.
-3. **[[SASP]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
+3. **[[SASP|Senescence-Associated Secretory Phenotype]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
 4. **[[SAHF]]:** Senescence-associated heterochromatin foci that repress proliferation-promoting genes.
 5. **Resistance to [[Apoptosis|apoptosis]]** via upregulation of [[Bcl-2 family]] anti-apoptotic proteins.
 
@@ -78,9 +79,9 @@ List of documents that mention this entity
 - [[G1 Phase]]: p21 inhibits [[CDK2|CDK2]]-[[Cyclin E|CyclinE]], maintaining [[RB1]] in its active hypophosphorylated form and enforc...
 - [[p16INK4A]]: In human cells, this arrest is reinforced by p16^INK4a^ upregulation in a subset of cells (the "senescence timer"), e...
 - [[SA-beta-gal]]: **SA-beta-gal activity:** Increased lysosomal β-galactosidase activity at pH 6.0, the most widely used senescence bio...
-- [[SASP]]: **SASP:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
-- [[IL-6]]: **[[SASP]]:** Secretion of pro-inflammatory cytokines (IL-6, [[IL-8]]), chemokines, and matrix metalloproteinases.
-- [[IL-8]]: **[[SASP]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], IL-8), chemokines, and matrix metalloproteinases.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: **SASP:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
+- [[IL-6]]: **[[SASP|Senescence-Associated Secretory Phenotype]]:** Secretion of pro-inflammatory cytokines (IL-6, [[IL-8]]), chemokines, and matrix metalloproteinases.
+- [[IL-8]]: **[[SASP|Senescence-Associated Secretory Phenotype]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], IL-8), chemokines, and matrix metalloproteinases.
 - [[SAHF]]: **SAHF:** Senescence-associated heterochromatin foci that repress proliferation-promoting genes.
 - [[Apoptosis]]: **Resistance to apoptosis** via upregulation of [[Bcl-2 family]] anti-apoptotic proteins.
 - [[Bcl-2 family]]: **Resistance to [[Apoptosis|apoptosis]]** via upregulation of Bcl-2 family anti-apoptotic proteins.
@@ -100,7 +101,7 @@ List of documents that mention this entity
 - [[Partial Reprogramming]]: - **Partial Reprogramming:** Transient [[OSKM]] expression can erase senescence-associated epigenetic marks and resto...
 - [[OSKM]]: - **[[Partial Reprogramming]]:** Transient OSKM expression can erase senescence-associated epigenetic marks and resto...
 - [[Epigenetic Alterations]]: RS undergoes epigenetic methylation aging and chromatin remodeling orchestrating SASP
-- [[SASP]]: RS SASP driven by compartment switching, enhancer remodeling, and SASP-gene hypomethylation
+- [[SASP|Senescence-Associated Secretory Phenotype]]: RS SASP driven by compartment switching, enhancer remodeling, and SASP-gene hypomethylation
 - [[Senescence-Associated Heterochromatin Foci]]: SAHF prominent in RS; their disruption reduces SASP
 - [[Histone Variant]]: histone variants accumulate and shape RS SASP
 - [[DNA Methylation]]: RS shows global hypomethylation and SASP-gene hypomethylation
@@ -115,6 +116,6 @@ List of documents that mention this entity
 - [[Inflammaging]]: chronic RS SASP drives inflammaging
 
 ## Linking Summary
-- New links added: [[Senescence]], [[Telomere Attrition]], [[DNA Damage]], [[p53]], [[Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]], [[Inflammaging]]
+- New links added: [[Senescence]], [[Telomere Attrition]], [[DNA Damage]], [[p53]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Hayflick limit]], [[Shelterin complex]], [[TRF2]], [[Telomerase]]
 - Strong connections to strengthen: [[Replicative Senescence]] ↔ [[Senescence]], [[Replicative Senescence]] ↔ [[Telomere Attrition]]

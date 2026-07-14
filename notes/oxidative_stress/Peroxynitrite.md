@@ -11,6 +11,7 @@ tags:
   - nitrative-stress
   - biological-molecule
 aliases: [ONOO−, peroxynitrite anion]
+protected: true
 ---
 # Peroxynitrite
 
@@ -45,7 +46,7 @@ Peroxynitrite is centrally implicated in diverse pathologies:
 - **[[Cardiovascular Disease]]**: Peroxynitrite-mediated depletion of [[Nitric Oxide]] impairs endothelium-dependent vasodilation, a hallmark of endothelial dysfunction and the earliest stage of [[Atherosclerosis]]. 3-Nitrotyrosine is elevated in human atherosclerotic plaques, and plasma nitrotyrosine levels independently predict cardiovascular events. In [[Ischemia-reperfusion Injury]], peroxynitrite produced during early reperfusion causes [[Mitochondrial Dysfunction]] and [[Apoptosis]] of cardiomyocytes.
 - **[[Neurodegenerative Diseases]]**: Peroxynitrite nitrates [[Alpha-synuclein]] in Lewy bodies ([[Parkinson's Disease]]), [[Tau]] protein in neurofibrillary tangles ([[Alzheimer's Disease]]), and TDP-43 aggregates ([[Amyotrophic Lateral Sclerosis]]). Nitrated alpha-synuclein is more prone to aggregation and is resistant to proteasomal degradation, suggesting a direct role in disease progression. Peroxynitrite-induced [[Mitochondrial Dysfunction]] in [[Dopaminergic Neurons]] is an early and critical event in [[Parkinson's Disease]] pathogenesis.
 - **[[Diabetes Mellitus]]**: Peroxynitrite contributes to β-cell destruction in type 1 diabetes and to insulin resistance in type 2 diabetes through nitration of [[Insulin Receptor Substrate]] (IRS) proteins.
-- **[[Inflammation]]**: Inflammatory cytokines ([[TNF-alpha]], [[IL-1b]], [[IFN-γ]]) synergistically upregulate iNOS and NOX2, creating a "perfect storm" for peroxynitrite production in [[Macrophage|macrophages]], [[Microglia]], and [[Neutrophils]].
+- **[[Inflammation]]**: Inflammatory cytokines ([[TNF-alpha]], [[IL-1β]], [[IFN-γ]]) synergistically upregulate iNOS and NOX2, creating a "perfect storm" for peroxynitrite production in [[Macrophage|macrophages]], [[Microglia]], and [[Neutrophils]].
 
 Therapeutic strategies include low-molecular-weight peroxynitrite decomposition catalysts (e.g., **FeTMPyP**, **FeTPPS** — iron porphyrins that catalytically isomerize ONOO⁻ to NO₃⁻), [[Uric Acid]] (a physiological peroxynitrite scavenger whose levels are dramatically elevated in humans compared to other mammals), [[Selenium]]-based compounds (ebselen — a GPx mimetic), and [[Melatonin]].
 
@@ -65,7 +66,7 @@ List of documents that mention this entity
 - [[Inflammation]]: Inducible NOS (iNOS) and NOX2 are co-expressed in activated immune cells.
 
 ## Linking Summary
-- New links added: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[DNA Damage]], [[Glutathione]], [[Mitochondria]], [[Apoptosis]], [[8-oxo-2'-deoxyguanosine]], [[Atherosclerosis]], [[Ischemia-reperfusion Injury]], [[Mitochondrial Dysfunction]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Diabetes Mellitus]], [[TNF-alpha]], [[IL-1b]], [[Macrophage]], [[Neutrophils]], [[Melatonin]], [[Selenium]], [[Uric Acid]]
+- New links added: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[DNA Damage]], [[Glutathione]], [[Mitochondria]], [[Apoptosis]], [[8-oxo-2'-deoxyguanosine]], [[Atherosclerosis]], [[Ischemia-reperfusion Injury]], [[Mitochondrial Dysfunction]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Diabetes Mellitus]], [[TNF-alpha]], [[IL-1β]], [[Macrophage]], [[Neutrophils]], [[Melatonin]], [[Selenium]], [[Uric Acid]]
 - Suggested new entity notes to create: [[3-Nitrotyrosine]], [[Carbonate Radical Anion]], [[Nitro-fatty Acids]], [[Ebselen]], [[FeTMPyP]], [[8-Nitroguanine]]
 - New links added: [[Superoxide Radicals]], [[Nitric Oxide]], [[Immunity]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Nitrative Stress]], [[Tyrosine Nitration]]

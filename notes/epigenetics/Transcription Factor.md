@@ -40,7 +40,7 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 
 - **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and [[Bax]]; acetylation by [[P300]] at K120/K164 enhances pro-senescence activity.
 - **[[E2F]]:** Proliferation-driving TFs that are silenced in senescence by RB1-mediated chromatin compaction.
-- **[[NFκB]]:** Master regulator of the [[SASP]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- **[[NFκB]]:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
 - **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[SIRT1]] to control stress resistance.
 - **[[NRF2]]:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].
 
@@ -97,9 +97,9 @@ List of documents that mention this entity
 - [[p21]]: - **[[p53]]:** Master senescence inducer; activates CDKN1A/p21 and [[Bax]]; acetylation by [[P300]] at K120/K164 enha...
 - [[Bax]]: - **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and Bax; acetylation by [[P300]] at K120/K164 ...
 - [[E2F]]: - **E2F:** Proliferation-driving TFs that are silenced in senescence by RB1-mediated chromatin compaction.
-- [[NFκB]]: - **NFκB:** Master regulator of the [[SASP]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
-- [[SASP]]: - **[[NFκB]]:** Master regulator of the SASP; its activity increases with age, driving [[Inflammaging|inflammaging]].
-- [[Inflammaging]]: - **[[NFκB]]:** Master regulator of the [[SASP]]; its activity increases with age, driving inflammaging.
+- [[NFκB]]: - **NFκB:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- [[SASP|Senescence-Associated Secretory Phenotype]]: - **[[NFκB]]:** Master regulator of the SASP; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- [[Inflammaging]]: - **[[NFκB]]:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving inflammaging.
 - [[FOXO3]]: - **FOXO3:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[SIRT1]] to control stress resistance.
 - [[SIRT1]]: - **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by SIRT1 to control stress resistance.
 - [[NRF2]]: - **NRF2:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].

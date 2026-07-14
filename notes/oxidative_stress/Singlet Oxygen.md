@@ -11,6 +11,7 @@ tags:
   - photosensitization
   - biological-molecule
 aliases: [¹O₂, 1O2]
+protected: true
 ---
 # Singlet Oxygen
 

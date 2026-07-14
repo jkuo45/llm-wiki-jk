@@ -17,7 +17,7 @@ aliases:
 
 # DOT1L
 
-DOT1L (disruptor of telomeric silencing 1-like), also known as KMT4, is the only known methyltransferase for histone H3 lysine 79 (H3K79). It deposits H3K79me1/2/3 across gene bodies of active genes. In senescence, DOT1L knockdown prevents emergence of the [[SASP]] while leaving the senescence growth arrest unaffected, making it a candidate [[Senomorphic|senomorphic]] target.
+DOT1L (disruptor of telomeric silencing 1-like), also known as KMT4, is the only known methyltransferase for histone H3 lysine 79 (H3K79). It deposits H3K79me1/2/3 across gene bodies of active genes. In senescence, DOT1L knockdown prevents emergence of the [[SASP|Senescence-Associated Secretory Phenotype]] while leaving the senescence growth arrest unaffected, making it a candidate [[Senomorphic|senomorphic]] target.
 
 ## Overview
 
@@ -50,10 +50,10 @@ The DOT1L inhibitor EPZ-5676 (pinometostat) is in Phase 1 clinical trials for ML
 - [[MLL1]]: fellow H3 methyltransferase and senomorphic SASP regulator
 - [[KDM4]]: fellow senomorphic histone modifier
 - [[BRD4]]: fellow senomorphic reader target
-- [[SASP]]: DOT1L required for SASP but not arrest
+- [[SASP|Senescence-Associated Secretory Phenotype]]: DOT1L required for SASP but not arrest
 
 ## Linking Summary
 
-- New links added: [[MLL1]], [[KDM4]], [[BRD4]], [[SASP]], [[Senomorphic]], [[Senescence]], [[H3K79me]]
+- New links added: [[MLL1]], [[KDM4]], [[BRD4]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[Senescence]], [[H3K79me]]
 - Suggested new entity notes to create: [[H3K79me]], [[53BP1]], [[EPZ-5676]]
-- Strong connections to strengthen: [[DOT1L]] ↔ [[SASP]] (senomorphic), [[DOT1L]] ↔ [[MLL1]] (H3 methylation SASP axis)
+- Strong connections to strengthen: [[DOT1L]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senomorphic), [[DOT1L]] ↔ [[MLL1]] (H3 methylation SASP axis)

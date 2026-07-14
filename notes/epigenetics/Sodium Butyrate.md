@@ -24,7 +24,7 @@ At 1–5 mM in cell culture, sodium butyrate induces potent growth arrest and fe
 
 - **Mechanism:** Transcriptional activation of [[p21|CDKN1A/p21]] through increased promoter [[H3K9ac]]/[[H4K12ac]], independent of [[p53]].
 - **Phenotype:** [[SA-beta-gal]] positivity, flattened morphology, [[SAHF]] formation.
-- **[[SASP]] profile:** Induces [[IL-8]] and [[CXCL1]] but represses [[IL-6]] in some cell types — a distinct SASP signature from genotoxic senescence.
+- **[[SASP|Senescence-Associated Secretory Phenotype]] profile:** Induces [[IL-8]] and [[CXCL1]] but represses [[IL-6]] in some cell types — a distinct SASP signature from genotoxic senescence.
 - **Cell type specificity:** More potent in [[HCT116]], [[HT29]], [[HeLa]]; weaker in primary [[Fibroblast|fibroblasts]].
 
 ## Physiological Relevance
@@ -64,10 +64,10 @@ List of documents that mention this entity
 - [[p53]]: - **Mechanism:** Transcriptional activation of [[p21|CDKN1A/p21]] through increased promoter [[H3K9ac]]/[[H4K12ac]], ...
 - [[SA-beta-gal]]: - **Phenotype:** SA-beta-gal positivity, flattened morphology, [[SAHF]] formation.
 - [[SAHF]]: - **Phenotype:** [[SA-beta-gal]] positivity, flattened morphology, SAHF formation.
-- [[SASP]]: - **SASP profile:** Induces [[IL-8]] and [[CXCL1]] but represses [[IL-6]] in some cell types — a distinct SASP signat...
-- [[IL-8]]: - **[[SASP]] profile:** Induces IL-8 and [[CXCL1]] but represses [[IL-6]] in some cell types — a distinct SASP signat...
-- [[CXCL1]]: - **[[SASP]] profile:** Induces [[IL-8]] and CXCL1 but represses [[IL-6]] in some cell types — a distinct SASP signat...
-- [[IL-6]]: - **[[SASP]] profile:** Induces [[IL-8]] and [[CXCL1]] but represses IL-6 in some cell types — a distinct SASP signat...
+- [[SASP|Senescence-Associated Secretory Phenotype]]: - **SASP profile:** Induces [[IL-8]] and [[CXCL1]] but represses [[IL-6]] in some cell types — a distinct SASP signat...
+- [[IL-8]]: - **[[SASP|Senescence-Associated Secretory Phenotype]] profile:** Induces IL-8 and [[CXCL1]] but represses [[IL-6]] in some cell types — a distinct SASP signat...
+- [[CXCL1]]: - **[[SASP|Senescence-Associated Secretory Phenotype]] profile:** Induces [[IL-8]] and CXCL1 but represses [[IL-6]] in some cell types — a distinct SASP signat...
+- [[IL-6]]: - **[[SASP|Senescence-Associated Secretory Phenotype]] profile:** Induces [[IL-8]] and [[CXCL1]] but represses IL-6 in some cell types — a distinct SASP signat...
 - [[HCT116]]: - **Cell type specificity:** More potent in HCT116, [[HT29]], [[HeLa]]; weaker in primary [[Fibroblast|fibroblasts]].
 - [[HT29]]: - **Cell type specificity:** More potent in [[HCT116]], HT29, [[HeLa]]; weaker in primary [[Fibroblast|fibroblasts]].
 - [[HeLa]]: - **Cell type specificity:** More potent in [[HCT116]], [[HT29]], HeLa; weaker in primary [[Fibroblast|fibroblasts]].
@@ -80,6 +80,6 @@ List of documents that mention this entity
 - [[Suberoylanilide hydroxamic acid]]: [[Trichostatin A]] (TSA; IC50 ~1 nM) or SAHA are preferred when isoform selectivity is not required.
 
 ## Linking Summary
-- New links added: [[HDAC]], [[Histone Acetylation]], [[Senescence]], [[p21]], [[SASP]], [[Butyrate]]
+- New links added: [[HDAC]], [[Histone Acetylation]], [[Senescence]], [[p21]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Butyrate]]
 - Suggested new entity notes to create: [[GPR41]], [[GPR43]], [[Trichostatin A]]
 - Strong connections to strengthen: [[Sodium Butyrate]] ↔ [[HDAC]], [[Sodium Butyrate]] ↔ [[Senescence]]

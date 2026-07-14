@@ -1,45 +1,47 @@
 ---
 title: Astrocytes
-description: Astrocytes are the most abundant glial cell type in the central
-  nervous system. They perform essential homeostatic functions including synaptic
-  support, Neurotransmitter recycling, Blood-Brain ...
-created: 2026-07-04
-updated: 2026-07-06
-tags:
-  - cell-type
-aliases: [Astroglia]
-
+description: Star-shaped glia that support neurons and, when activated via cGAS-STING, adopt neurotoxic A1/senescent states in neurodegeneration.
+type: entity
+created: 2026-07-13
+updated: 2026-07-13
+tags: [cell-type, glia, neuroinflammation, cgas-sting]
+aliases: [Astrocyte]
 ---
 
 # Astrocytes
 
-**Astrocytes** are the most abundant glial cell type in the central nervous system. They perform essential homeostatic functions including synaptic support, [[Neurotransmitter]] recycling, [[Blood-Brain Barrier]] maintenance, and metabolic coupling with [[Neurons]].
+## Overview
 
-## Functions
+[[Astrocytes]] are the most abundant glial cell type in the [[Central Nervous System|CNS]], providing metabolic, structural, and homeostatic support to [[Neuron|neurons]] and contributing to the formation and maintenance of the [[Blood-Brain Barrier|blood-brain barrier]]. Under chronic stress or proteotoxic insult, astrocytes become reactive, and sustained activation of the [[cGAS-STING Pathway|cGAS-STING]] pathway drives a maladaptive transition toward the neurotoxic A1 phenotype and a [[Cellular Senescence|senescent]] state.
 
-- **Synaptic Support** — astrocytes ensheath synapses and regulate [[Glutamate]] clearance via [[EAAT1]]/[[EAAT2]] transporters, preventing excitotoxicity
-- **Metabolic Coupling** — astrocytes provide [[Lactate]] to neurons via the [[Astrocyte-Neuron Lactate Shuttle]] (ANLS) under [[GLUT1]]-mediated glucose uptake
-- **Blood-Brain Barrier** — astrocytic end-feet surround [[Endothelial cells]] and induce [[Tight Junction]] formation via [[Sonic Hedgehog]] and [[Angiopoietin-1]] signaling
-- [[Glymphatic System]] — aquaporin-4 ([[AQP4]]) channels on astrocytic end-feet drive cerebrospinal fluid flow and waste clearance
-- [[Calcium Signaling]] — astrocytes exhibit intracellular [[Ca²⁺]] waves that propagate intercellularly via [[Gap Junctions]], modulating local neural activity
+## cGAS-STING–Driven Astrocyte Activation
 
-## Pathology
+Astrocytic [[cGAS]] responds to extracellular pathological cues, including [[Amyloid Beta|Aβ]] and [[Tau|tau]], as well as released [[mtDNA]], engaging the same cytosolic DNA-sensing axis active in [[Microglia]]. Once activated, cGAS-STING signaling promotes the A1 reactive astrocyte program and induces astrocyte senescence, characterized by a [[SASP|senescence-associated secretory phenotype]] that amplifies [[Neuroinflammation]]. Crucially, astrocyte-specific deletion of [[cGAS]] robustly attenuates neurotoxicity in neurodegeneration models, demonstrating that astrocyte-intrinsic cGAS-STING is a major contributor to neuronal injury rather than a passive bystander.
 
-Reactive [[Astrogliosis]] occurs in response to CNS injury, infection, and neurodegeneration. Astrocyte dysfunction contributes to [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], and [[Multiple Sclerosis]]. In [[Aging]], astrocytes become less supportive and more inflammatory.
+## Astrocyte–Microglia Crosstalk
 
-#
+Reactive astrocytes and [[Microglia]] engage in bidirectional paracrine signaling, propagating [[Type I Interferon|IFN-I]] and pro-inflammatory cytokine responses that together reshape the glial landscape. This glia-to-neuron communication sustains chronic inflammation and synaptic dysfunction in diseases such as [[Alzheimer's Disease|Alzheimer's disease]] and [[Parkinson's Disease|Parkinson's disease]], where cGAS-STING inhibition can shift astrocytes from the A1 toward a more neuroprotective A2 state.
+
+## Documents
+
+  - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+    - In this JCI review, astrocytic cGAS-STING is shown to drive neurotoxic A1 astrocyte polarization and astrocyte senescence; astrocyte-specific cGAS deletion reduces neurotoxicity, and astrocyte cGAS responds to extracellular tau/Aβ and mtDNA.
 
 ## Connections
-- [[Neurons]] — astrocytes provide metabolic and structural support to neurons
-- [[Blood-Brain Barrier]] — astrocytic end-feet are integral to barrier integrity
-- [[Glutamate]] — astrocytes clear synaptic glutamate to prevent excitotoxicity
-- [[Lactate]] — shuttled from astrocytes to neurons for oxidative metabolism
-- [[Aquaporin-4]] — water channel on astrocytic end-feet; drives glymphatic flow
-- [[Alzheimer's Disease]] — astrocyte dysfunction contributes to neuroinflammation
-- [[Aging]] — astrocyte support declines with age
-- [[Neurodegeneration]] — reactive astrogliosis is a hallmark of CNS pathology
+
+  - [[cGAS]]: astrocyte-intrinsic DNA sensor responding to extracellular tau/Aβ and mtDNA
+  - [[Microglia]]: bidirectional paracrine amplification of neuroinflammation
+  - [[Cellular Senescence]]: cGAS-STING induces astrocyte SASP and senescence
+  - [[Type I Interferon]]: downstream IFN-I programs drive A1 polarization
+  - [[Blood-Brain Barrier]]: astrocytes are structural partners of the BBB
+  - [[Amyloid Beta]]: extracellular Aβ activates astrocytic cGAS-STING
+  - [[Tau]]: extracellular tau is an astrocytic cGAS-STING trigger
+  - [[Neuroinflammation]]: A1/senescent astrocytes sustain chronic inflammation
 
 ## Linking Summary
-- New links added: [[Neurons]], [[Glutamate]], [[EAAT1]], [[EAAT2]], [[Lactate]], [[Glucose]], [[GLUT1]], [[Blood-Brain Barrier]], [[Endothelial cells]], [[Tight Junction]], [[Aquaporin-4]], [[AQP4]], [[Glymphatic System]], [[Calcium Signaling]], [[Gap Junctions]], [[Astrogliosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Multiple Sclerosis]], [[Aging]], [[Neurodegeneration]]
-- Suggested new entity notes to create: [[Astrocyte-Neuron Lactate Shuttle]], [[Tripartite synapse]], [[EAAT2]], [[Reactive astrogliosis]], [[Glia limitans]]
-  - Strong connections to strengthen: [[Astrocytes]] ↔ Neurons, [[Astrocytes]] ↔ Blood-Brain Barrier, [[Astrocytes]] ↔ [[Aging]]
+
+- New links added: [[Astrocytes]], [[Central Nervous System]], [[Neuron]], [[Blood-Brain Barrier]], [[cGAS-STING Pathway]], [[Microglia]], [[Cellular Senescence]], [[SASP]], [[Type I Interferon]], [[Amyloid Beta]], [[Tau]], [[mtDNA]], [[Neuroinflammation]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
+- Suggested new entity notes to create: [[Astrocyte Senescence]], [[SASP]], [[Astrocytes|A1 astrocytes]]
+- Strong connections to strengthen:
+    - [[Astrocytes]] ↔ [[Microglia]]
+    - [[Astrocytes]] ↔ [[cGAS]]

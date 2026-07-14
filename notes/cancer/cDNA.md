@@ -28,7 +28,7 @@ Cytoplasmic DNA accumulation is a hallmark of [[Senescence]]. Sources include:
 - [[Mitochondrial DNA]] release from dysfunctional mitochondria.
 - [[Micronuclei]] rupture.
 
-These DNA species activate the [[cGAS-STING Pathway]] to drive [[SASP]].
+These DNA species activate the [[cGAS-STING Pathway]] to drive [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ---
 

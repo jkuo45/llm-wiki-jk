@@ -14,7 +14,7 @@ aliases: [Nutlin 3a, Nutlin-3a, Nutlin-3]
 
 # Nutlin 3a
 
-Nutlin-3a is a cis-imidazoline small molecule that inhibits MDM2 and stabilizes [[p53]], with context-dependent senolytic, senescence-inducing, and [[Senomorphic Therapy|senomorphic]] effects on the [[Senescence-Associated Secretory Phenotype|SASP]].
+Nutlin-3a is a cis-imidazoline small molecule that inhibits MDM2 and stabilizes [[p53]], with context-dependent senolytic, senescence-inducing, and [[Senomorphic Therapy|senomorphic]] effects on the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -36,11 +36,11 @@ Clinical derivatives (RG7112, idasanutlin) advanced in trials for MDM2-amplified
 
 - [[p53]]: Nutlin 3a stabilizes p53
 - [[MDM2]]: Direct molecular target of nutlin-3a
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Nutlin 3a suppresses SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Nutlin 3a suppresses SASP
 - [[Senomorphic Therapy|senomorphic therapies]]: Nutlin 3a is a senomorphic agent
 - [[Senolytic Therapy|senolytic therapies]]: Nutlin 3a can clear p53-wt senescent cells
 
 ## Linking Summary
 
-- New links added: [[p53]], [[MDM2]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senomorphic Therapy|senomorphic therapies]], [[Senolytic Therapy]], [[p21]]
+- New links added: [[p53]], [[MDM2]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic Therapy|senomorphic therapies]], [[Senolytic Therapy]], [[p21]]
   - Strong connections to strengthen: [[Nutlin 3a]] ↔ [[p53]], [[Nutlin 3a]] ↔ SASP suppression

@@ -1,34 +1,42 @@
 ---
 title: The sirtuin family in health and disease
-description: Signal Transduction and Targeted Therapy
-source: s41392-022-01257-8.pdf
+description: Review of the sirtuin (SIRT) family in health and disease, covering structure, cellular biology (inflammation, metabolism, oxidative stress, apoptosis, autophagy, proliferation, migration), and roles across cancer, cardiovascular, respiratory, digestive, and nervous system diseases.
+source: https://doi.org/10.1038/s41392-022-01257-8
+published: 2022-11-18
+created: 2026-07-09
+updated: 2026-07-09
+type: document
 tags:
+  - review
+  - sirtuins
   - pdf
   - parsed
+authors:
+  - Qi-Jun Wu
+  - Tie-Ning Zhang
+  - Huan-Huan Chen
+  - Xue-Fei Yu
+  - Jia-Le Lv
+  - Yu-Yang Liu
+  - Ya-Shu Liu
+  - Gang Zheng
+  - Jun-Qi Zhao
+  - Yi-Fan Wei
+  - Jing-Yi Guo
+  - Fang-Hua Liu
+  - Qing Chang
+  - Yi-Xiao Zhang
+  - Cai-Gang Liu
+  - Yu-Hong Zhao
 aliases: []
 ---
 
+## The sirtuin family in health and disease
 
-	
-Signal Transduction and Targeted Therapy 
+> [!abstract] Abstract
+> Sirtuins (SIRTs) are NAD+-dependent [[HDAC|histone deacetylases]] regulating critical signaling pathways in prokaryotes and eukaryotes, and are involved in numerous biological processes. Currently, seven mammalian homologs of yeast [[Sir2 (yeast)|Sir2]] named [[SIRT1|SIRT1]] to [[SIRT7|SIRT7]] have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions. Notably, this protein family plays a variety of important roles in cellular biology such as inflammation, metabolism, oxidative stress, and [[Apoptosis|apoptosis]], etc., thus, it is considered a potential therapeutic target for different kinds of pathologies including cancer, cardiovascular disease, respiratory disease, and other conditions. Moreover, identification of SIRT modulators and exploring the functions of these different modulators have prompted increased efforts to discover new small molecules, which can modify SIRT activity. Furthermore, several randomized controlled trials have indicated that different interventions might affect the expression of SIRT protein in human samples, and supplementation of SIRT modulators might have diverse impact on physiological function in different participants. In this review, we introduce the history and structure of the SIRT protein family, discuss the molecular mechanisms and biological functions of seven members of the SIRT protein family, elaborate on the regulatory roles of SIRTs in human disease, summarize [[Sirtinol|SIRT inhibitors]] and activators, and review related clinical studies. 
 
-www.nature.com/sigtrans 
-
-**==> picture [23 x 20] intentionally omitted <==**
-
-## REVIEW ARTICLE **OPEN** 
-
-## The sirtuin family in health and disease 
-
-Qi-Jun Wu[1,2,3,4] , Tie-Ning Zhang[5] , Huan-Huan Chen[6] , Xue-Fei Yu[2,5] , Jia-Le Lv[1,2,4] , Yu-Yang Liu[1,2,4] , Ya-Shu Liu[1,2,4] , Gang Zheng[1,2,4] , Jun-Qi Zhao[1,2,4] , Yi-Fan Wei[1,2,4] , Jing-Yi Guo[1,2,4] , Fang-Hua Liu[1,2,4] , Qing Chang[1,2,4] , Yi-Xiao Zhang[7] , Cai-Gang Liu 8 ✉ and Yu-Hong Zhao[1,2,4][✉] 
-
-Sirtuins (SIRTs) are NAD+-dependent [[HDAC|histone deacetylases]] regulating critical signaling pathways in prokaryotes and eukaryotes, and are involved in numerous biological processes. Currently, seven mammalian homologs of yeast [[Sir2 (yeast)|Sir2]] named [[SIRT1|SIRT1]] to [[SIRT7|SIRT7]] have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions. Notably, this protein family plays a variety of important roles in cellular biology such as inflammation, metabolism, oxidative stress, and [[Apoptosis|apoptosis]], etc., thus, it is considered a potential therapeutic target for different kinds of pathologies including cancer, cardiovascular disease, respiratory disease, and other conditions. Moreover, identification of SIRT modulators and exploring the functions of these different modulators have prompted increased efforts to discover new small molecules, which can modify SIRT activity. Furthermore, several randomized controlled trials have indicated that different interventions might affect the expression of SIRT protein in human samples, and supplementation of SIRT modulators might have diverse impact on physiological function in different participants. In this review, we introduce the history and structure of the SIRT protein family, discuss the molecular mechanisms and biological functions of seven members of the SIRT protein family, elaborate on the regulatory roles of SIRTs in human disease, summarize [[Sirtinol|SIRT inhibitors]] and activators, and review related clinical studies. 
-
-## Signal Transduction and Targeted Therapy (2022) 7:402 
-
-; https://doi.org/10.1038/s41392-022-01257-8 
-
-## INTRODUCTION 
+## Introduction 
 
 The sirtuin (SIRT) protein family, which are conserved proteins belonging to class III [[HDAC|histone deacetylases]], comprises seven members.[1] Notably, SIRTs share a [[NAD+|nicotine adenine dinucleotide]] + (NAD) + -binding catalytic domain and may act specifically on different substrates depending on the biological processes in which they are involved.[2] The sequence and length of SIRTs are different in both their N- and C-terminal domains, partially explaining their different localization and functions.[2] Recently, more and more studies have shown their association with and involvement in different pathologies, such as (but not restricted to) cancer and cardiovascular diseases (CVDs).[3][–][6] Additionally, increasing evidence supported the potential use of SIRT modulators for the treatment of different kinds of diseases,[7][–][11] suggesting the critical roles of SIRTs in the diseases. Herein, to enhance our understanding of SIRTs, we provide a comprehensive summary of the roles of SIRTs in health and various diseases. 
 
@@ -39,20 +47,6 @@ The history of SIRTs can be traced to founding member [[Sir2 (yeast)|Sir2]] near
 knowledge has greatly improved exploration of its function. In the late 1990s, a study confirmed that [[Sir2 (yeast)|Sir2]] prolonged the [[Longevity|lifespan]] of yeast by inhibiting genomic instability. Loss of [[Sir2 (yeast)|Sir2]] significantly shortened the [[Longevity|lifespan]] of yeast, while an additional copy of [[Sir2 (yeast)|Sir2]] prolonged it by about 40%.[16] Later evidence showed that [[Sir2 (yeast)|Sir2]] had NAD + -dependent [[HDAC|HDAC]] enzymatic activity, which provided a molecular framework in which NAD-dependent histone deacetylation could be connected to genomic silencing and ageing in yeast, and possibly to higher eukaryotic metabolism as well, opening a new chapter of [[Sir2 (yeast)|Sir2]] enzymology.[17] [[Sir2 (yeast)|Sir2]]’s key role in the molecular mechanism of [[Senescence|senescence]] in [[C. elegans|Caenorhabditis elegans]] was also later demonstrated.[18] As [[Sir2 (yeast)|Sir2]] homologous genes have been successively isolated in bacteria, plants and mammals, the [[Sir2 (yeast)|Sir2]] homologous proteins in all species have been collectively referred to as SIRTs.[19][,][20] 
 
 Currently, seven mammalian homologs of yeast [[Sir2 (yeast)|Sir2]] named [[SIRT1|SIRT1]] to [[SIRT7|SIRT7]] have been identified, which are well-known as the β-NAD + or NAD + -dependent enzymes.[21][–][23] Figure 1 shows a historical timeline summarizing studies on milestones in SIRT family members. Regarding to the molecular structures, [[SIRT1|SIRT1]]-7 share a chemically and structurally conserved catalytic core in general and there may be subtle differences in the infrastructure of active site.[24] In detail, X-ray crystalline diffraction reveals that the catalytic core includes two bilobed globular domains consisting of approximately 275 amino acids residues, 
-
-> 1Liaoning Key Laboratory of Precision Medical Research on Major Chronic Disease, Shengjing Hospital of China Medical University, Shenyang, China; 2Department of Clinical Epidemiology, Shengjing Hospital of China Medical University, Shenyang, China;[3] Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, China;[4] Clinical Research Center, Shengjing Hospital of China Medical University, Shenyang, China;[5] Department of Pediatrics, Shengjing Hospital of China Medical University, Shenyang, China;[6] Department of Oncology, Shengjing Hospital of China Medical University, Shenyang, China;[7] Department of Urology, Shengjing Hospital of China Medical University, Shenyang, China and[8] Department of Cancer, Breast Cancer Center, Shengjing Hospital of China Medical University, Shenyang, China Correspondence: Cai-Gang Liu (angel-s205@163.com) or Yu-Hong Zhao (zhaoyuhong@sj-hospital.org) These authors contributed equally: Qi-Jun Wu, Tie-Ning Zhang 
-
-Received: 30 August 2022 Revised: 10 November 2022 Accepted: 18 November 2022 
-
-**==> picture [133 x 12] intentionally omitted <==**
-
-© The Author(s) 2022 
-
-The sirtuin family in health and disease Wu et al. 
-
-2 
-
-**==> picture [229 x 92] intentionally omitted <==**
 
 Fig. 1 The historical timeline on milestones in SIRT family members 
 
@@ -72,29 +66,15 @@ The effect of SIRTs in inflammatory cells: The cells involved in the inflammator
 
 The effect of SIRTs on inflammatory mediators: Inflammatory mediators are chemicals produced during inflammation that cause an inflammatory response. In response to the inflammatory process, inflammatory cells release specialized substances, including vasoactive amines and peptides, eicosanoids, proinflammatory cytokines and acute-phase proteins, which mediate the inflammatory process by preventing further tissue damage and ultimately resulting in healing and restoration of tissue function.[52] Overexpressed or activated SIRTs, mainly [[SIRT1|SIRT1]]–3, can reduce the inflammatory response through anti-inflammatory effects, such as [[TNFα|TNF-α]], a multifunctional proinflammatory cytokine, which is produced by [[Macrophages|macrophages]]/ monocytes during acute inflammation, and plays a critical role with orchestrating the cytokine cascade in various inflammatory 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-3 
-
-**==> picture [499 x 387] intentionally omitted <==**
-
 Fig. 2 Overview of the roles of SIRTs in inflammation. a SIRTs mainly play an anti-inflammatory effect by regulating inflammatory mediators, however, early inhibition of SIRT2 may prevent neuroinflammation evidenced by reduced levels of GFAP, IL-β, IL-6, and TNF-α; (b) SIRTs could negatively regulate several pro-inflammatory cytokines; (c) SIRTs are involved in the regulation of NF-κB signaling pathway. https:// biorender.com. ABCA1 ATP‑binding cassette A1, ABCG1 ATP‑binding cassette G1, Arf alternative reading frame, CaMKKβ Ca(2 + )/calmodulindependent protein kinase kinase β, CCR7 C‑C chemokine receptor type 7, CRIF1 CR6-interacting factor1, CTLA4 cytotoxic T lymphocyte–associated antigen 4, CTRP1 C1q/tumor necrosis factor-related protein 1, DBC1 deleted in breast cancer 1, DEPTOR DEP– domain containing mTOR-interacting protein, DMP1 dentin matrix protein-1, Ebi3 Epstein-Barr virus induced gene 3, FGF21 fibroblast growth factor 21, FXR farnesoid X receptor, GFAP glial fibrillary acidic protein, HIF-α hypoxia-inducible factor-alpha, HMGB1 high-mobility group box 1, HNF4α hepatocyte nuclear factor 4α, HO1 heme oxygenase-1, ICOS inducible T cell co-stimulator, IFN-γ interferon-γ, IKKβ inhibitor kappa B kinaseβ, IRAK interleukin-1 receptor-associated kinase, IRF9 interferon regulatory factor 9, LXR liver X receptor, MCP monocyte chemotactic protein, MCPIP1 MCP-1 induced protein, MIP-2 macrophage inflammatory protein-2, MKP-1 mitogen-activated protein kinase phosphatase-1, NT5C3A pyrimidine 5'-nucleotidase, PAI-1 plasminogen activator inhibitor-1, PARP-1 peroxisome proliferator-activated receptor 1, PGRN progranulin, RORγt RAR-related orphan receptor γ-t, TAK1 transforming growth factor β activated kinase-1, TM thrombomodulin, VCAM-1 vascular cell adhesion molecule-1, XBP1 X-box binding protein 1 
 
-diseases.[53] For instance, increased [[SIRT1|SIRT1]] protein expression can reduce acetylation of the [[NFKB|NF-κB]] [[p65|p65]] subunit, which results in the suppression of [[TNFα|TNF-α]]-induced [[NFKB|NF-κB]] transcriptional activation and reduction of [[TNFα|TNF-α]] secretion in a [[SIRT1|SIRT1]]-dependent manner.[54][,][55] In addition, [[SIRT1|SIRT1]] knockdown increased, while [[SIRT1|SIRT1]] activator treatment decreased [[TNFα|TNF-α]] secretion from [[Macrophages|macrophages]].[55] One recent study verified that [[SIRT6|SIRT6]] suppressed inflammatory responses and downregulated the expression of inflammatory factors [[IL-6|IL-6]] and [[TNFα|TNF-α]] via the [[NFKB|NF-κB]] pathway.[56] For example, both [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] inhibited [[TNFα|TNF-α]]-induced inflammation of vascular adventitial fibroblasts through [[ROS|ROS]] and the [[Akt|Akt]] signaling pathway.[57] [[SIRT1|SIRT1]] exerted anti-inflammatory effects against [[IL-1b|IL-1β]]-mediated pro-inflammatory stress through the 
+diseases.[53] For instance, increased [[SIRT1|SIRT1]] protein expression can reduce acetylation of the [[NFKB|NF-κB]] [[p65|p65]] subunit, which results in the suppression of [[TNFα|TNF-α]]-induced [[NFKB|NF-κB]] transcriptional activation and reduction of [[TNFα|TNF-α]] secretion in a [[SIRT1|SIRT1]]-dependent manner.[54][,][55] In addition, [[SIRT1|SIRT1]] knockdown increased, while [[SIRT1|SIRT1]] activator treatment decreased [[TNFα|TNF-α]] secretion from [[Macrophages|macrophages]].[55] One recent study verified that [[SIRT6|SIRT6]] suppressed inflammatory responses and downregulated the expression of inflammatory factors [[IL-6|IL-6]] and [[TNFα|TNF-α]] via the [[NFKB|NF-κB]] pathway.[56] For example, both [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] inhibited [[TNFα|TNF-α]]-induced inflammation of vascular adventitial fibroblasts through [[ROS|ROS]] and the [[Akt|Akt]] signaling pathway.[57] [[SIRT1|SIRT1]] exerted anti-inflammatory effects against [[IL-1β|IL-1β]]-mediated pro-inflammatory stress through the 
 
-[[Toll-like Receptor|Toll-like receptor 2]] ([[Toll-like Receptor|TLR2]])/[[SIRT1|SIRT1]]/[[NFKB|NF-κB]] pathway.[58] [[SIRT1|SIRT1]] deficiency increased microvascular inflammation in obese septic mice, while [[Resveratrol|resveratrol]] treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule ([[ICAM-1|ICAM-1]]) expression accompanied by increased [[SIRT1|SIRT1]] expression and improved survival.[59] In addition, [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] inhibited inflammation by decreasing pro-inflammatory cytokines such as IL-6, IL-β, cytochrome oxidase subunit 2 and [[ICAM-1|ICAM-1]].[60] Moreover, [[SIRT1|SIRT1]] exerted anti-inflammatory effects against [[IL-1b|IL-1β]]-mediated proinflammatory stress through the [[Toll-like Receptor|TLR2]]/[[SIRT1|SIRT1]]/[[NFKB|NF-κB]] pathway.[58] [[SIRT1|SIRT1]] deficiency increased microvascular inflammation in obese septic mice, while [[Resveratrol|resveratrol]] treatment decreased leukocyte/platelet adhesion and E-selectin/[[ICAM-1|ICAM-1]] expression accompanied by increased [[SIRT1|SIRT1]] expression and improved survival.[59] 
+[[Toll-like Receptor|Toll-like receptor 2]] ([[Toll-like Receptor|TLR2]])/[[SIRT1|SIRT1]]/[[NFKB|NF-κB]] pathway.[58] [[SIRT1|SIRT1]] deficiency increased microvascular inflammation in obese septic mice, while [[Resveratrol|resveratrol]] treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule ([[ICAM-1|ICAM-1]]) expression accompanied by increased [[SIRT1|SIRT1]] expression and improved survival.[59] In addition, [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] inhibited inflammation by decreasing pro-inflammatory cytokines such as IL-6, IL-β, cytochrome oxidase subunit 2 and [[ICAM-1|ICAM-1]].[60] Moreover, [[SIRT1|SIRT1]] exerted anti-inflammatory effects against [[IL-1β|IL-1β]]-mediated proinflammatory stress through the [[Toll-like Receptor|TLR2]]/[[SIRT1|SIRT1]]/[[NFKB|NF-κB]] pathway.[58] [[SIRT1|SIRT1]] deficiency increased microvascular inflammation in obese septic mice, while [[Resveratrol|resveratrol]] treatment decreased leukocyte/platelet adhesion and E-selectin/[[ICAM-1|ICAM-1]] expression accompanied by increased [[SIRT1|SIRT1]] expression and improved survival.[59] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
+Recently, [[SIRT2|SIRT2]] as modulators have been shown to be effective in inhibiting lipopolysaccharide-stimulated production of [[TNFα|TNF-α]] to suppress neuroinflammation.[61][,][62] Moreover, Kurundkar et al. have determined that [[SIRT3|SIRT3]] deficiency altered the proinflammatory responses of [[Macrophages|macrophages]] to lipopolysaccharides, with a greater increase in [[TNFα|TNF-α]] production.[63] Several studies have also shown an anti-inflammatory effect of [[SIRT3|SIRT3]], which downregulates [[IL-1β|IL-1β]] and [[NLRP3|IL-18]], inhibits inflammasomes and attenuates oxidative stress.[64][,][65] [[SIRT3|SIRT3]] KO mice have significantly increased inflammatory cell infiltration.[66] These studies highlight the critical role of [[SIRT3|SIRT3]] in the process of inflammation. In conclusion, then, as one of the most important pro-inflammatory cytokines, inflammatory mediators are closely regulated by the SIRT protein family and is widely involved in inflammation. 
 
-The sirtuin family in health and disease Wu et al. 
-
-4 
-
-Recently, [[SIRT2|SIRT2]] as modulators have been shown to be effective in inhibiting lipopolysaccharide-stimulated production of [[TNFα|TNF-α]] to suppress neuroinflammation.[61][,][62] Moreover, Kurundkar et al. have determined that [[SIRT3|SIRT3]] deficiency altered the proinflammatory responses of [[Macrophages|macrophages]] to lipopolysaccharides, with a greater increase in [[TNFα|TNF-α]] production.[63] Several studies have also shown an anti-inflammatory effect of [[SIRT3|SIRT3]], which downregulates [[IL-1b|IL-1β]] and [[NLRP3|IL-18]], inhibits inflammasomes and attenuates oxidative stress.[64][,][65] [[SIRT3|SIRT3]] KO mice have significantly increased inflammatory cell infiltration.[66] These studies highlight the critical role of [[SIRT3|SIRT3]] in the process of inflammation. In conclusion, then, as one of the most important pro-inflammatory cytokines, inflammatory mediators are closely regulated by the SIRT protein family and is widely involved in inflammation. 
-
-Currently, the SIRT family mainly exerts an anti-inflammatory effect in response to tissue stress or disease development, but there are exceptions. For example, early [[SIRT2|SIRT2]] inhibition prevented neuroinflammation evidenced by reduced levels of glial fibrillary acidic protein, [[IL-1b|IL-1β]], IL-6 and [[TNFα|TNF-α]] and by increased levels of glutamate receptor subunits GluN2A, GluN2B and GluA1; however, [[SIRT2|SIRT2]] inhibition was unable to reverse cognitive decline or neuroinflammation.[67] In this case, [[SIRT2|SIRT2]] exhibited a temporary proinflammatory effect. Furthermore, both pro- and anti-inflammatory effects have been attributed to [[SIRT2|SIRT2]] and [[SIRT3|SIRT3]].[68] Single deficiency of [[SIRT2|SIRT2]] or [[SIRT3|SIRT3]] had minor or no impact on the antimicrobial innate immune responses, while [[SIRT2|SIRT2]]/3[−][/][−] [[Macrophages|macrophages]] secreted increased levels of both proinflammatory and anti-inflammatory cytokines.[68] From these results, then, most SIRT proteins appear to play anti-inflammatory roles, but limited reports have found the opposite effect, as just described for [[SIRT2|SIRT2]]. These inconsistent results might be due to the specificity of [[SIRT2|SIRT2]] mechanisms in the SIRT family, or may be temporary effects manifested at different stages of the disease process. Therefore, more research is needed to explore the reasons for these discrepancies. 
+Currently, the SIRT family mainly exerts an anti-inflammatory effect in response to tissue stress or disease development, but there are exceptions. For example, early [[SIRT2|SIRT2]] inhibition prevented neuroinflammation evidenced by reduced levels of glial fibrillary acidic protein, [[IL-1β|IL-1β]], IL-6 and [[TNFα|TNF-α]] and by increased levels of glutamate receptor subunits GluN2A, GluN2B and GluA1; however, [[SIRT2|SIRT2]] inhibition was unable to reverse cognitive decline or neuroinflammation.[67] In this case, [[SIRT2|SIRT2]] exhibited a temporary proinflammatory effect. Furthermore, both pro- and anti-inflammatory effects have been attributed to [[SIRT2|SIRT2]] and [[SIRT3|SIRT3]].[68] Single deficiency of [[SIRT2|SIRT2]] or [[SIRT3|SIRT3]] had minor or no impact on the antimicrobial innate immune responses, while [[SIRT2|SIRT2]]/3[−][/][−] [[Macrophages|macrophages]] secreted increased levels of both proinflammatory and anti-inflammatory cytokines.[68] From these results, then, most SIRT proteins appear to play anti-inflammatory roles, but limited reports have found the opposite effect, as just described for [[SIRT2|SIRT2]]. These inconsistent results might be due to the specificity of [[SIRT2|SIRT2]] mechanisms in the SIRT family, or may be temporary effects manifested at different stages of the disease process. Therefore, more research is needed to explore the reasons for these discrepancies. 
 
 Overall, SIRTs can act in concert or compensate each other for certain immune functions.[68] It is also worth noting that the effects of various SIRTs may differ between diseases, or even have opposite effects. Therefore, research on SIRTs has left a number of gaps which require further exploration to pinpoint the role of the SIRT family in inflammatory responses and the underlying mechanisms of action, which may account for the different results. 
 
@@ -106,23 +86,17 @@ The effect of SIRTs on inflammatory pathway components: The signaling pathway of
 
 [[NFKB|NF-κB]] exists in multiple forms, with the heterodimer of [[p65|p65]] ([[p65|RelA]], Rel associated protein) and [[p50|p50]] subunits ([[p65|p65]]/ [[p50|p50]]) being the most prevalent species.[74] In the absence of 
 
-stimulation, [[NFKB|NF-κB]] is normally present in the cytoplasm in an inactive form. Upon stimulation by various pro-inflammatory cytokines (such as [[IL-1b|IL-1β]], IL-6 and [[TNFα|TNF-α]]), [[NFKB|NF-κB]] rapidly translocates to the nucleus and regulates the transcription or expression of target genes.[75][,][76] In addition, [[NFKB|NF-κB]] activity can be modulated by [[Histone Modification|PTMs]] of proteins, such as acetylation.[77] Most members of the SIRT family are involved in regulation of the [[NFKB|NF-κB]] pathway, primarily including [[SIRT1|SIRT1]], [[SIRT2|SIRT2]], [[SIRT6|SIRT6]], and [[SIRT7|SIRT7]]. 
+stimulation, [[NFKB|NF-κB]] is normally present in the cytoplasm in an inactive form. Upon stimulation by various pro-inflammatory cytokines (such as [[IL-1β|IL-1β]], IL-6 and [[TNFα|TNF-α]]), [[NFKB|NF-κB]] rapidly translocates to the nucleus and regulates the transcription or expression of target genes.[75][,][76] In addition, [[NFKB|NF-κB]] activity can be modulated by [[Histone Modification|PTMs]] of proteins, such as acetylation.[77] Most members of the SIRT family are involved in regulation of the [[NFKB|NF-κB]] pathway, primarily including [[SIRT1|SIRT1]], [[SIRT2|SIRT2]], [[SIRT6|SIRT6]], and [[SIRT7|SIRT7]]. 
 
 Growing evidence suggests the significant role of SIRTs in the regulation of inflammation. [[SIRT1|SIRT1]] has anti-inflammatory effects mediated by the deacetylation and inactivation of the [[p65|p65]] subunit of [[NFKB|NF-κB]].[78] [[SIRT1|SIRT1]] inhibits the transcriptional activity of [[NFKB|NF-κB]] via deacetylation of the [[p65|p65]] subunit at Ac-Lys310.[78] Furthermore, the finding that lower [[SIRT1|SIRT1]] activity levels may increase the expression of [[NFKB|NF-κB]], thus driving inflammation,[79] also highlight the important role of [[SIRT1|SIRT1]] during inflammation. 
 
 Repression of [[NFKB|NF-κB]] activity is responsible for the antiinflammatory effect of [[SIRT6|SIRT6]].[80] For instance, [[SIRT6|SIRT6]] attenuated [[NFKB|NF-κB]] expression by deacetylating histone [[Histone H3|H3K9]] in the promoters of [[NFKB|NF-κB]] target genes, hence decreasing inflammation.[80] Additionally, [[SIRT6|SIRT6]] overexpression suppressed [[NFKB|NF-κB]]-mediated inflammatory responses in [[Osteoarthritis|OA]] development.[81] Since nuclear [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] deacetylate [[p65|RelA/p65]] and support its degradation by the proteasome, decreases in both [[SIRT1|SIRT1]] or [[SIRT6|SIRT6]] levels/activity increase NFκB activity and amplify pro-inflammatory gene expression during chronic inflammation.[82] 
 
-Evidence concerning the role of [[SIRT7|SIRT7]] in inflammatory processes has been somewhat inconsistent. In terms of mediating an anti-inflammatory response, knockdown of [[SIRT7|SIRT7]] promoted the translocation of [[NFKB|NF-κB]] p-[[p65|p65]] to the nucleus and subsequently increased the secretion of downstream inflammatory cytokines, while [[SIRT7|SIRT7]] overexpression had the opposite effect.[83][,][84] However, evidence also suggested that loss of [[SIRT7|SIRT7]] promoted the translocation of [[NFKB|NF-κB]] [[p65|p65]] to the cytoplasm.[85] Thus, the roles of [[SIRT7|SIRT7]] in [[p65|p65]] translocation is controversial. In addition, the decline of [[SIRT7|SIRT7]] upregulated the levels of pro-inflammatory cytokines including [[IL-1b|IL-1β]] and IL-6 in human umbilical vein endothelial cells, while overexpression of [[SIRT7|SIRT7]] effectively alleviated the inflammatory response.[86] However, several studies have also revealed a pro-inflammatory role for [[SIRT7|SIRT7]]. For example, [[SIRT7|SIRT7]]-kidney-specific KO mice exhibited diminished inflammation with a reduction in the level of multiple inflammatory factors such as [[TNFα|TNF-α]], [[IL-1b|IL-1β]] and IL-6, and suppression of nuclear [[NFKB|NF-κB]] [[p65|p65]] accumulation.[87] These contradictory results imply that the regulatory effects of [[SIRT7|SIRT7]] on the inflammatory process may be variable under specific pathologies, which will need further study.[84] 
+Evidence concerning the role of [[SIRT7|SIRT7]] in inflammatory processes has been somewhat inconsistent. In terms of mediating an anti-inflammatory response, knockdown of [[SIRT7|SIRT7]] promoted the translocation of [[NFKB|NF-κB]] p-[[p65|p65]] to the nucleus and subsequently increased the secretion of downstream inflammatory cytokines, while [[SIRT7|SIRT7]] overexpression had the opposite effect.[83][,][84] However, evidence also suggested that loss of [[SIRT7|SIRT7]] promoted the translocation of [[NFKB|NF-κB]] [[p65|p65]] to the cytoplasm.[85] Thus, the roles of [[SIRT7|SIRT7]] in [[p65|p65]] translocation is controversial. In addition, the decline of [[SIRT7|SIRT7]] upregulated the levels of pro-inflammatory cytokines including [[IL-1β|IL-1β]] and IL-6 in human umbilical vein endothelial cells, while overexpression of [[SIRT7|SIRT7]] effectively alleviated the inflammatory response.[86] However, several studies have also revealed a pro-inflammatory role for [[SIRT7|SIRT7]]. For example, [[SIRT7|SIRT7]]-kidney-specific KO mice exhibited diminished inflammation with a reduction in the level of multiple inflammatory factors such as [[TNFα|TNF-α]], [[IL-1β|IL-1β]] and IL-6, and suppression of nuclear [[NFKB|NF-κB]] [[p65|p65]] accumulation.[87] These contradictory results imply that the regulatory effects of [[SIRT7|SIRT7]] on the inflammatory process may be variable under specific pathologies, which will need further study.[84] 
 
 [[SIRT2|SIRT2]] also participates in inflammatory responses. Inhibition of [[SIRT2|SIRT2]] enhanced microglial activation and the release of pro-inflammatory cytokines via acetylation-dependent upregulation of [[NFKB|NF-κB]] transcriptional activity.[88] [[SIRT2|SIRT2]] reduced the levels of pro-inflammatory cytokines and ameliorated the severity of arthritis by deacetylating the [[p65|p65]] subunit of [[NFKB|NF-κB]],[89] further demonstrating the role of [[SIRT2|SIRT2]] activation in suppression of the inflammatory response. In summary, SIRTs are found to interfere with the [[NFKB|NF-κB]] signaling pathway by preventing [[NFKB|NF-κB]] translocation, influencing its expression and regulating its interactions, thereby having an anti-inflammatory function. Understanding the underlying molecular mechanisms of [[NFKB|NF-κB]] pathway activation and its effects on inflammation may guide an approach to designing better pharmacological targets for alleviating inflammation and related therapies. 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-5 
-
-(2) The activation of [[NLRP3|NLRP3]] aggravates inflammation [[NLRP3|NLRP3]] is an important component of the [[NLRP3|NLRP3 inflammasome]] complex involved in inflammation.[90][,][91] It is believed that activation of the [[NLRP3|NLRP3 inflammasome]] occurs in two sequential steps — first, it must be primed, and then it can be activated.[71] When the body suffers from inflammatory disease, damage-associated molecules directly engage [[Toll-like Receptor|TLR4]] and then quickly activate the [[NFKB|NF-κB]] signaling pathway, resulting in augmented expression of [[NLRP3|NLRP3]];[92][–][94] this in turn generates inflammatory cytokines such as [[IL-1b|IL-1β]], [[NLRP3|IL-18]], [[TNFα|TNF-α]] and transforming growth factor-beta ([[TGF-β|TGF-β]]) which aggravate inflammation.[95] Some studies have found that SIRTs, especially [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]], act on [[NLRP3|NLRP3]] to exert anti-inflammatory functions. For example, [[SIRT1|SIRT1]] plays an important protective role in the inflammation mediated by the attenuation of [[NLRP3|NLRP3]] activity, which is the best characterized inflammasome.[96][,][97] Mechanistic studies of acute liver injury[98] demonstrated activation of a pathway involving [[SIRT1|SIRT1]] and multipotent mesenchymal stromal/stem cell-mediated [[AMPK|AMPK]] α in [[Macrophages|macrophages]], resulting in deacetylation of spliced X-boxbinding protein 1 and subsequent inhibition of the [[NLRP3|NLRP3 inflammasome]]. 
+(2) The activation of [[NLRP3|NLRP3]] aggravates inflammation [[NLRP3|NLRP3]] is an important component of the [[NLRP3|NLRP3 inflammasome]] complex involved in inflammation.[90][,][91] It is believed that activation of the [[NLRP3|NLRP3 inflammasome]] occurs in two sequential steps — first, it must be primed, and then it can be activated.[71] When the body suffers from inflammatory disease, damage-associated molecules directly engage [[Toll-like Receptor|TLR4]] and then quickly activate the [[NFKB|NF-κB]] signaling pathway, resulting in augmented expression of [[NLRP3|NLRP3]];[92][–][94] this in turn generates inflammatory cytokines such as [[IL-1β|IL-1β]], [[NLRP3|IL-18]], [[TNFα|TNF-α]] and transforming growth factor-beta ([[TGF-β|TGF-β]]) which aggravate inflammation.[95] Some studies have found that SIRTs, especially [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]], act on [[NLRP3|NLRP3]] to exert anti-inflammatory functions. For example, [[SIRT1|SIRT1]] plays an important protective role in the inflammation mediated by the attenuation of [[NLRP3|NLRP3]] activity, which is the best characterized inflammasome.[96][,][97] Mechanistic studies of acute liver injury[98] demonstrated activation of a pathway involving [[SIRT1|SIRT1]] and multipotent mesenchymal stromal/stem cell-mediated [[AMPK|AMPK]] α in [[Macrophages|macrophages]], resulting in deacetylation of spliced X-boxbinding protein 1 and subsequent inhibition of the [[NLRP3|NLRP3 inflammasome]]. 
 
 It was reported that [[Mitophagy|mitophagy]]/autophagy blockade leads to the accumulation of damaged mitochondria generating [[ROS|ROS]], and this in turn activates the [[NLRP3|NLRP3 inflammasome]].[99] For instance, a study carried out by Zhao et al. suggested that the mechanism of action by which [[SIRT3|SIRT3]] protects against tissue damage involved the attenuation of [[ROS|ROS]] production and reduction of [[NLRP3|NLRP3]] activity, resulting in the inhibition of oxidative stress and the downregulation of proinflammatory cytokines.[64] However, little information is available on the relationship between [[SIRT3|SIRT3]] and [[NLRP3|NLRP3]]; thus, further research is necessary to determine whether [[SIRT3|SIRT3]] has a direct effect on the [[NLRP3|NLRP3 inflammasome]]. 
 
@@ -130,7 +104,8 @@ It was reported that [[Mitophagy|mitophagy]]/autophagy blockade leads to the acc
 
 Current studies have mainly elucidated the role of the SIRT family in the inflammatory response. However, exploration of the molecular mechanism underlying how SIRTs affect inflammation is still limited, especially studies examining the interaction of [[SIRT1|SIRT1]] with noncoding RNAs. For example, [[MicroRNA|microRNAs]] ([[MicroRNA|miRNAs]]) can negatively regulate inflammation by repressing [[SIRT1|SIRT1]]. Downregulation of [[MicroRNA|miRNAs]] such as miR217 and miR-543 mitigated the inflammatory response by regulating the [[SIRT1|SIRT1]]/[[AMPK|AMPK]]/[[NFKB|NF-κB]] signaling pathway.[100] In the same way, [[MicroRNA|miR-378]] reduced [[SIRT1|SIRT1]] activity and facilitated the inflammatory pathway involving [[NFKB|NF-κB]]-TNFα by targeting 5'-[[AMPK|AMPK]] subunit gamma-2.[101] In addition, the RNase monocyte chemoattractant protein-induced protein 1 alleviated inflammatory responses by promoting the expression of [[SIRT1|SIRT1]] mediated via [[MicroRNA|miR-9]].[102] Furthermore, [[SIRT1|SIRT1]] targets the [[p53|p53]]/[[MicroRNA|miR-22]] axis to suppress inflammation, cyclooxygenase (COX)-2 and [[iNOS|inducible nitric oxide synthase]] ([[iNOS|iNOS]]) expression.[103] These studies suggest that the regulation of SIRTs by noncoding RNAs may be a promising therapeutic strategy for inflammation-related diseases. 
 
-Conclusion: In summary, the SIRT family is involved in inflammation via various mechanisms. Although the details of SIRTdependent regulation of inflammation are becoming clear, many unanswered questions remain. For example, further studies are needed to explore whether depletion of SIRTs is a common pathological change in the occurrence and development of inflammation-related diseases. Further attention is also needed to resolve some of the conflicting data and better understand the critical role of the SIRT family in the inflammatory response. 
+> [!abstract]
+> Conclusion: In summary, the SIRT family is involved in inflammation via various mechanisms. Although the details of SIRTdependent regulation of inflammation are becoming clear, many unanswered questions remain. For example, further studies are needed to explore whether depletion of SIRTs is a common pathological change in the occurrence and development of inflammation-related diseases. Further attention is also needed to resolve some of the conflicting data and better understand the critical role of the SIRT family in the inflammatory response. 
 
 The contradictory roles of the SIRT family in inflammation may result from their regulation of common signaling pathways under specific pathologic conditions. While determining what role the SIRT family plays in inflammation, researchers should also target its mechanism of action in order to lay the foundation for subsequent clinical translational studies. To summarize, we have focused on introducing relevant studies and the beneficial effects of the SIRT family through its regulation of inflammatory pathways, providing an important reference point for future studies. 
 
@@ -139,14 +114,6 @@ The role of SIRTs in metabolism. Metabolism is the general term for a series of 
 The effect of SIRTs on glucose metabolism: Glucose metabolism refers to a series of complex chemical reactions after glucose, glycogen and other substances enter the body, including anaerobic [[Glycolysis|glycolysis]] of glucose, aerobic oxidation, synthesis and decomposition of glycogen, and [[Gluconeogenesis|gluconeogenesis]].[111][,][112] Abnormal glucose metabolism and [[Insulin Signaling|insulin resistance]] might cause metabolic diseases such as diabetes.[113][–][115] The roles of SIRTs in glucose metabolism have been established. For example, [[SIRT1|SIRT1]] is a key positive regulator of systemic insulin sensitivity and regulates pancreatic insulin secretion, thus contributing to increased systemic insulin sensitivity, which triggers glucose uptake and utilization.[116][–][118] Mechanistically, [[SIRT1|SIRT1]] participates in the regulation of glucose metabolism by upregulating [[AMPK|AMPK]], and activation of [[AMPK|AMPK]] can ameliorate the glucose metabolic imbalance.[116][,][119] Upregulated [[SIRT1|SIRT1]] may reverse the development of diabetes by targeting the [[AMPK|AMPK]]/acetyl CoA carboxylase signaling pathway.[117] Similarly, decreased levels of [[SIRT1|SIRT1]] may lead to [[AMPK|AMPK]] deficiency, thereby impairing the improvement in glucose tolerance.[119] Meanwhile, there are an interdependent relationship between [[AMPK|AMPK]] and [[SIRT1|SIRT1]],[120][,][121] and activation of [[SIRT1|SIRT1]] and its downstream signaling pathways could also be improperly triggered in [[AMPK|AMPK]]-deficient states.[121] Additionally, [[SIRT1|SIRT1]] increases insulin sensitivity and lowers blood sugar by downregulating [[PTP1B|protein tyrosine phosphatase 1B]], a key negative regulatory protein in the insulin signal transduction pathway.[118] Thus, high expression of [[SIRT1|SIRT1]] is benefit for maintaining blood sugar stability via the regulatory proteins of insulin signaling. However, the relationship between [[SIRT1|SIRT1]] and other molecules (e.g., [[AMPK|AMPK]] and [[PTP1B|protein tyrosine phosphatase 1B]]) that are closely associated with blood glucose regulation is still worth further exploration. 
 
 [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] also participate in glucose metabolism. The limited whole-body benefit of increasing hepatic [[SIRT3|SIRT3]] during the development of diet-induced [[Insulin Signaling|insulin resistance]], which can be considered a pre-diabetic state, has also been demonstrated.[122] Mechanistically, [[SIRT3|SIRT3]] negatively regulates aerobic [[Glycolysis|glycolysis]] by inhibiting [[HIF-1α|HIF-1α]].[123] [[SIRT6|SIRT6]] takes part in the maintenance of glucose metabolic homeostasis in the whole body and in local tissues such as liver and skeletal muscle.[124][,][125] For instance, [[SIRT6|SIRT6]] in pancreatic β cells deacetylated [[FoxO1|FoxO1]] and subsequently increased the expression of glucosedependent transporter 2 to maintain the glucose-sensing ability of pancreatic β cells and systemic glucose tolerance.[126] Improvement in [[SIRT6|SIRT6]]-mediated insulin signaling transduction has been 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-6 
-
-**==> picture [499 x 287] intentionally omitted <==**
 
 Fig. 3 Overview of the roles of SIRTs in cell metabolism. SIRTs participate in glucose metabolism, lipid metabolism, and other metabolisms via interacting with metabolism-related genes and enzymes. (i) In the nuclear, SIRT1 and SIRT6 activate the transcription factors HIF2α and HIF1α respectively through different manners and subsequently improve glycolysis. Besides, SIRT1 regulates gluconeogenesis by activating PGC1α and inhabiting FOXO1, thereby affecting the transcriptional activation of their target genes. SIRT1 also promotes fatty acid oxidation by activating PGC1α and promoting the expression of target genes. Besides the positive regulation, SIRT1 and SIRT6 suppress SREBP1 and transcriptionally represses lipogenesis. (ii) In cytoplasm, SIRT2 deacetylates and activates the rate-limiting enzyme PEPCK and promotes gluconeogenesis during low nutrient condition. Moreover, SIRT2 inhabits ACLY and deters lipid synthesis. (iii) Regarding SIRTs in mitochondria, SIRT4 and SIRT5 reduces PDH activity which converts pyruvate to acetyl CoA. Both SIRT3 and SIRT4 target GDH, but their enzymatic activities are opposite. Besides GDH, SIRT3 also improves IDH2 and LCAD activity, thus enhancing cellular respiration and stimulating β-oxidation of fatty acids. Moreover, SIRT5 represses IDH2 activity and may disrupt glutamine metabolism through GLS. Activation and inhibition effects are displayed in “arrows” and “inhibitors”, respectively. https://biorender.com. ACC acetyl-CoA carboxylase, ACLY ATP citrate lyase, ANT2 adenine nucleotide translocase 2, Bmal1 brain-muscle-Arnt-like protein-1, CDK2 cyclin-dependent kinase 2, ChREBP carbohydrate response elementbinding protein, CPS1 carbamoyl phosphate synthetase 1, CPT1 carnitine palmitoyl transferase 1 A, eIF5A eukaryotic initiation factor 5A, GDH glutamate dehydrogenase, GLUT glucose transporter, HIF1/2α hypoxia-Inducible Factor-1/2α, HK2 hexokinase 2, HSF1 heat shock factor 1, IDH2 isocitrate dehydrogenase 2, LCAD long chain acyl CoA dehydrogenase, MCD malonyl CoA decarboxylase, MBD1 methyl-CpG-binding domain protein 1, MDH1 malate dehydrogenases 1, m-TORc1/2 mTOR complex 1/2, MyoD myogenic differentiation factor, NNMT nicotinamide N-methyl transferase, PARP poly (ADP-ribose) polymerase, PDH pyruvate dehydrogenase, PEPCK1 phosphoenolpyruvate carboxykinase, PFK phosphofructokinase-1, PK pyruvate kinase, PTP1B protein-tyrosine phosphatase 1B, RIPK1/3 receptor interacting protein kinases 1/3, SLC1A5 solute carrier family 1 member 5, SREBP1 sterol regulatory element binding protein 1, TRAP1 tumor necrosis factor receptor-associated protein 1, Tsc2 tuberous sclerosis complex 2, ZEB1 zinc finger E-box binding homeobox 1 
 
@@ -158,17 +125,12 @@ The effect of SIRTs on lipid metabolism: Lipid metabolism means that most of the
 
 Qiang et al. found that [[SIRT1|SIRT1]]-dependent [[cAMP|cAMP]] Response Element Binding protein (Creb) deacetylation regulates lipid metabolism.[131] Mechanistically, Lys136 is a substrate for SIRT1dependent deacetylation that affects Creb activity by preventing cyclic adenosine monophosphate ([[cAMP|cAMP]])-dependent phosphorylation, leading to the promotion of hepatic lipid accumulation and secretion. Moreover, [[SIRT1|SIRT1]] activates [[AMPK|AMPK]], which leads to lipid-lowering effects in vitro and in vivo.[132] [[SIRT2|SIRT2]] prevents liver steatosis and lipid metabolic disorders by deacetylation of hepatocyte nuclear factor 4α.[133] Additionally, [[SIRT3|SIRT3]] acts as a bridge in the lipid metabolism pathway. For example, pancreatic [[SIRT3|SIRT3]] deficiency promoted hepatic steatosis by enhancing 5-hydroxytryptamine synthesis in mice with diet-induced [[Obesity|obesity]].[134] In addition, roles for [[SIRT5|SIRT5]] and [[SIRT6|SIRT6]] were identified in lipid metabolism.[135][–][138] For instance, [[SIRT5|SIRT5]] inhibited preadipocyte differentiation and lipid deposition by activating [[AMPK|AMPK]] and repressing [[MAPK|MAPK]] signaling pathways, which has been verified in obese mice.[135] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-7 
-
 Compared with control wild-type mice, [[SIRT6|SIRT6]]-KO mice had a significant increase in both body weight and fat mass and exhibited glucose intolerance and [[Insulin Signaling|insulin resistance]].[138] Mechanistically, SIRT6KO decreased expression of the adiponectin gene and [[Akt|Akt]] in white adipose tissue, while expression of the thermogenic gene UCP1 was diminished in brown adipose tissue.[138] 
 
 The effect of SIRTs on other metabolism: [[SIRT3|SIRT3]] and [[SIRT4|SIRT4]] have been found to play roles in regulating glutamine metabolism. In detail, Gonzalez-Herrera et al. reported that loss of [[SIRT3|SIRT3]] promoted glutamine use in nucleotide biosynthesis.[139] Conversely, [[SIRT4|SIRT4]] inhibited glutamine metabolism in [[Colorectal Cancer|colorectal cancer]] cells, thereby acting as a tumor suppressor.[140] In addition, [[SIRT3|SIRT3]] affected mitochondrial metabolic reprogramming by activating the [[AMPK|AMPK]]/[[PGC1-α|peroxisome proliferator-activated receptor-γ coactivator-1α]] ([[PGC1-α|PGC-1α]]) pathway, thereby maintaining the stability of mitochondrial membrane potential as well as mitochondrial structure.[141] Moreover, silencing [[SIRT6|SIRT6]] influenced collagen metabolism in human dermal fibroblasts by affecting the synthesis and degradation of collagen.[142] 
 
-Conclusion: As shown in the previous findings, [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] have been more frequently studied than other SIRTs in regulating human body metabolism, mainly through their effect on glucose and lipid metabolism. However, only a few studies have focused on the roles of other SIRT proteins, in particular [[SIRT2|SIRT2]] and [[SIRT7|SIRT7]]. In the future, research should be focused on the role of these other SIRTs in regulating different metabolism subtypes. Overall, clarifying the various participating mechanisms of SIRTs in metabolism might provide future new ideas for research and novel therapeutic targets for the treatment of abnormal metabolism, thereby lessening the burden imposed on society by human lipid metabolism-related diseases. 
+> [!abstract]
+> Conclusion: As shown in the previous findings, [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] have been more frequently studied than other SIRTs in regulating human body metabolism, mainly through their effect on glucose and lipid metabolism. However, only a few studies have focused on the roles of other SIRT proteins, in particular [[SIRT2|SIRT2]] and [[SIRT7|SIRT7]]. In the future, research should be focused on the role of these other SIRTs in regulating different metabolism subtypes. Overall, clarifying the various participating mechanisms of SIRTs in metabolism might provide future new ideas for research and novel therapeutic targets for the treatment of abnormal metabolism, thereby lessening the burden imposed on society by human lipid metabolism-related diseases. 
 
 The role of SIRTs in oxidative stress. Oxidative stress is considered to be an important factor in cell damage and is usually caused by the overproduction of [[ROS|ROS]]. Under physiological conditions, [[ROS|ROS]] are produced at low levels and are scavenged by the endogenous antioxidant system. When [[ROS|ROS]] exceed the scavenging capacity, however, cellular oxidative stress damage occurs.[143] Oxidative stress plays an important role in the pathological process of various diseases.[144] Recently, accumulating studies have shown that the SIRT protein family participates in the process of oxidative stress. Notably, SIRT proteins contribute to cellular tolerance to oxidative stress by regulating many genes and their related signaling pathways (as shown in Fig. 4). Herein, we review the regulation of different target genes or proteins by SIRTs, with the aim of understanding their mechanistic effects in the process of antioxidant stress damage. 
 
@@ -184,14 +146,6 @@ The effect of [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]] on FoxOs: A family of SIRT tar
 
 The effect of [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]] on [[PGC1-α|PGC-1α]]: [[PGC1-α|PGC-1α]] is a coactivator of [[PPARγ|peroxisome proliferator-activated receptor-γ]], which can act to block oxidative stress damage by scavenging excess [[ROS|ROS]], inducing antioxidant enzyme expression and maintaining mitochondrial function.[167] [[SIRT1|SIRT1]] can activate [[PGC1-α|PGC-1α]] through 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-8 
-
-**==> picture [499 x 315] intentionally omitted <==**
-
 Fig. 4 Overview of the roles of SIRTs in oxidative stress. a The overall roles of SIRTs in regulating cellular oxidative stress. The effect of SIRTs on oxidative stress is mainly via affecting the following proteins, mainly including Nrf2, FOXOs and SOD. SIRT1 and SIRT6 could indirectly affecting Nrf2 signaling, thereby regulating oxidative stress. SIRT3 activates FOXO3, which leads to increasement of MnSOD, allowing for the elimination of ROS. In addition, SIRT1, SIRT2, and SIRT6 could upregulate the expression of SOD, then reducing the ROS and inhibiting the oxidative stress; (b) The regulatory effects of SIRTs on main proteins in oxidative stress. SIRT1 downregulation by NF-κB leads to oxidative stress. Moreover, SIRT3 regulates ROS generation, causing suppression of NF-κB activation, and SIRT6 reduces NF-kB activation and represses oxidative stress. c The roles of SIRTs in regulation of transcription factors. SIRT1 increases the expression of FOXO1, reducing the production of ROS and oxidative stress. SIRT1 inhibits oxidative stress by deacetylating P53 protein. Besides, SIRT1 could activate PGC-1α and alleviate oxidative stress injury. d The proteins less studied that activate or inhibit SIRT1. Activation and inhibition effects are displayed in green and red arrows, respectively. https://biorender.com. AT1 angiotensin type 1, ATF6 activating transcription factor 6, Bach1 BTB domain and CNC homolog 1, BIP binding immunoglobulin protein, CD36 cluster of differentiation 36, CHOP C/EBP-homologous protein, CoQ10 coenzyme Q10, COX2 cyclooxygenase-2, CPEB-1 cytoplasmic polyadenylation element binding protein 1, DPP4 dipeptidyl peptidase-4, DRG2 GTP-binding protein 2, FASTK Fas-activated serine/threonine kinase, FNDC5 fibronectin type III domain-containing 5, GCN5 general control non-repressed protein 5, GDF11 Growth differentiation factor 11, Hcy homocysteine, hnRNP heterogeneous nuclear ribonucleoprotein F, HO-1 heme oxygenase 1, Keap-1 kelch-like ECH-associated protein 1, LDH lactate dehydrogenase, LOX-1 lectin-like oxidized low-density lipoprotein receptor-1, Lsd lysine-specific demethylase 1, MIF migration inhibitory factor, MPO myeloperoxidase, NEU1 neuraminidase 1, NRLP3 NOD-like receptor thermal protein domain associated protein 3, OGG-1 BER enzyme 8oxoG DNA glycosylase I, PDGFR-α platelet derived growth factor receptor α, PGAM2 glycolytic enzyme phosphoglycerate mutase 2, PRMT protein arginine methyltransferase, α-SMA smooth muscle alpha actin, TIGAR TP53-induced glycolysis and apoptosis regulator, timp-1 tissue inhibitor of metalloproteinase 1, TOPK T‑lymphokine‑activated killer cell‑originated protein kinase, UCP2 uncoupling protein 2, Wt1 Wilms' tumor 1, Wt2 Wilms' tumor 2 
 
 deacetylation, scavenge [[ROS|ROS]] caused by oxidative stress, and alleviate oxidative stress injury. Activation of the [[SIRT1|SIRT1]]-[[PGC1-α|PGC-1α]] axis implies activation of antioxidant defense mechanisms, alleviating mitochondrial oxidative stress.[168][–][170] Additionally, [[PGC1-α|PGC-1α]] and [[SIRT3|SIRT3]] can interact directly. [[PGC1-α|PGC-1α]] increased respiratory capacity and reduced oxidative stress through [[SIRT3|SIRT3]]-mediated reduction of mitochondrial [[ROS|ROS]].[171][,][172] Furthermore, loss of [[SIRT3|SIRT3]] resulted in the expression of [[PGC1-α|PGC-1α]], which produced a decrease in mitochondrial respiration. Inhibition of [[SIRT3|SIRT3]] reduced [[PGC1-α|PGC-1α]] expression and mitochondrial function, thereby lowering oxidative stress resistance.[173][,][174] Thus, both [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]] may interact with [[PGC1-α|PGC-1α]] in order to resist oxidative stress damage. 
@@ -200,19 +154,14 @@ The effect of [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] on [[p53|p53]]: [[p53|p53]] is
 
 regulating different target proteins and further induce cellular responses.[175] [[p53|p53]] exerted pro-oxidant activity and promoted oxidative damage by regulating its transcriptional targets, including [[p53|p53]]-inducible gene 3, [[Glutathione|glutathione]]/NADH, p-[[FOXO3a|FoxO3a]] and B-cell lymphoma -2-associated-X-protein ([[Bax|Bax]]).[176] In contrast, [[p53|p53]] can act as an antioxidant factor to suppress oxidative stress by regulating several redox-related proteins, such as [[MnSOD|MnSOD]], [[Glutathione Peroxidase|glutathione peroxidase]] 1, and Jun N-terminal kinase ([[JNK|JNK]]).[176] When cells are under oxidative stress, multiple sites in the N-terminal of [[p53|p53]] are phosphorylated and multiple lysine sites in the C-terminal are acetylated.[177] [[SIRT1|SIRT1]] has a negative regulatory effect on [[p53|p53]]; for example, depletion of [[SIRT1|SIRT1]] abolished the increase in oxidative stress induced by [[p53|p53 acetylation]] in THP-1 cells.[178] [[SIRT1|SIRT1]] activation also reversed [[p53|p53]] expression and accumulation brought on by [[Hydrogen Peroxide|H2O2]]-induced oxidative stress.[179] The small molecule activator [[SRT2104|SRT2104]] enhanced renal [[SIRT1|SIRT1]] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-9 
-
 expression and activity and deacetylated [[p53|p53]], resulting in activation of antioxidant signaling.[180] As for the role of [[SIRT6|SIRT6]] in oxidative stress, relevant studies have been limited. For instance, [[SIRT6|SIRT6]] protected cardiomyocytes by inhibiting [[p53|p53]]/Fas-dependent cell death and augmenting endogenous antioxidant defense mechanisms.[181] Hence, [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] can inhibit [[p53|p53]] activity through deacetylation and reduce oxidative factor expression, promoting resistance to oxidative stress injury. 
 
 The effect of [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] on [[NFKB|NF-κB]]: [[NFKB|NF-κB]] is a nuclear transcription factor. Activated [[NFKB|NF-κB]] factors promote the production of [[ROS|ROS]] that damage tissues and organs.[182] When oxidative stress occurs, enhanced [[ROS|ROS]] activity can stimulate the activation of [[NFKB|NF-κB]] and induce the expression of [[ICAM-1|ICAM-1]] and monocyte chemotactic factor 1, which further activate [[NFKB|NF-κB]] and lead to oxidative stress.[183] SIRTs inhibited transcription by deacetylating the [[NFKB|NF-κB]] subunit Rel/[[p65|p65]], reducing the production of oxygen radicals.[79] [[SIRT1|SIRT1]], [[SIRT3|SIRT3]] and [[SIRT6|SIRT6]] inhibited the transcriptional activity of [[NFKB|NF-κB]] through deacetylation, thereby resisting oxidative stress injury. For example, downregulation of [[SIRT1|SIRT1]] protein levels by [[NFKB|NF-κB]] led to oxidative stress.[184] In addition, [[SIRT3|SIRT3]] regulated [[ROS|ROS]] generation, causing suppression of [[NFKB|NF-κB]] activation and oxygen radicals.[185] Moreover, loss of [[SIRT6|SIRT6]] in cutaneous wounds aggravated the proinflammatory response by increasing [[NFKB|NF-κB]] activation and promoting oxidative stress.[186] Therefore, [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] can block oxidative stress damage by inhibiting [[NFKB|NF-κB]] activity. 
 
 The effect of SIRTs on oxidative stress through other pathways: Many molecules are upstream regulators of SIRTs and have a regulatory effect on them under oxidative stress. For example, the expression of [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] was decreased by oxidative stressdependent [[MicroRNA|miR-34a]] activation in epithelial cells.[187] [[SIRT5|SIRT5]] was upregulated by Krüppel-like factor (KLF) 6 silencing, thereby reducing oxidative stress.[188] Meanwhile, SIRTs target many downstream factors, such as [[HIF-1α|HIF-1α]] and [[eNOS|eNOS]], and then participate in regulating oxidative stress. Activation of [[HIF-1α|HIF-1α]] is associated with oxidative stress and can regulate [[ROS|ROS]] formation through direct or indirect effects.[189] For example, [[SIRT4|SIRT4]] reduced the accumulation of [[ROS|ROS]] by inhibiting [[HIF-1α|HIF-1α]], which is also an important mechanism underlying [[SIRT4|SIRT4]] activity in oxidative stress.[190][,][191] In addition, [[eNOS|eNOS]] dysfunction in an oxidative stress environment led to increased generation of [[ROS|ROS]]. SIRTs play important roles in regulating the activity of [[eNOS|eNOS]] as well. For instance, upregulation of [[SIRT1|SIRT1]] reduced [[eNOS|eNOS]] acetylation (inactive state) and enhanced [[eNOS|eNOS]] phosphorylation (active state).[192] Activation of the [[SIRT1|SIRT1]]/[[eNOS|eNOS]] pathway has been found to reduce [[ROS|ROS]] production by inhibiting [[NFKB|NF-κB]] expression.[193] In brief, the mechanisms by which SIRTs regulate oxidative stress are diverse, and there are many more regulatory pathways that need to be verified. 
 
-Conclusion: Together, these aforementioned studies reflect the importance of the SIRT protein family in oxidative stress and can be expected to stimulate future research in order to decipher the SIRT protein mechanisms. As summarized in Fig. 4, SIRTs are involved in the regulation of redox homeostasis and oxidative stress involving many key genes and molecules. Indeed, SIRTs play important roles in maintaining intracellular homeostasis which keeps cells healthy, making them ideal for redox regulation studies. Additionally, SIRTs enhance intracellular homeostasis by acting synergistically through different mechanisms. 
+> [!abstract]
+> Conclusion: Together, these aforementioned studies reflect the importance of the SIRT protein family in oxidative stress and can be expected to stimulate future research in order to decipher the SIRT protein mechanisms. As summarized in Fig. 4, SIRTs are involved in the regulation of redox homeostasis and oxidative stress involving many key genes and molecules. Indeed, SIRTs play important roles in maintaining intracellular homeostasis which keeps cells healthy, making them ideal for redox regulation studies. Additionally, SIRTs enhance intracellular homeostasis by acting synergistically through different mechanisms. 
 
 Further in-depth studies are needed to identify and elucidate the exact role of each SIRT and to determine whether different SIRTs have functional redundancy or overlapping roles in homeostasis, which may be important for regulating oxidative stress in cells and important pathological manifestations. SIRTs should be developed as modulators of redox-related diseases, and may also 
 
@@ -230,25 +179,11 @@ The effect of [[SIRT1|SIRT1]] on [[Apoptosis|apoptosis]] by targeting [[Apoptosi
 
    - plays a central role in the prevalence of diseases related to [[Apoptosis|apoptosis]].[205][–][207] [[SIRT1|SIRT1]] regulates [[p53|p53]] deacetylation, which is associated with the [[Apoptosis|apoptosis]]-inhibiting signaling pathway, mainly including the [[p53|p53]]-induced death domain protein Pidd,[208] [[p21|p21]], [[Bax|Bax]]/[[Bad|Bad]] and [[Caspases|caspases]].[209] For example, Zeng et al. reported that an extract of Anoectochilus roxburghii flavonoids reduced neuron [[Apoptosis|apoptosis]] by positively regulating [[SIRT1|SIRT1]] expression, thereby reducing expression of the [[Apoptosis|apoptosis]]-related molecules [[p53|p53]], [[p21|p21]] and [[Caspase-3|caspase-3]], while increasing the ratio of B-cell lymphoma (Bcl)-2/[[Bax|Bax]].[210] [[SIRT1|SIRT1]] also participated in the regulation of [[p53|p53]] protein through 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-10 
-
-**==> picture [499 x 479] intentionally omitted <==**
-
 Fig. 5 Overview of the roles of SIRTs in apoptosis. SIRT protein family has functions in both physiological conditions and diseases by regulating the acetylation modification and/or influencing various apoptosis-related proteins by crosstalk of pathways. Meanwhile, they can also be regulated by the molecules in the aforementioned process, such as microRNA, FoxO1, FoxO3a, TNF-α and NF-κB. a The roles of SIRT1 in regulating apoptosis by targeting apoptosis-related proteins and pathways; (b) The roles of SIRT3 in regulating apoptosis by targeting apoptosis-related proteins and pathways; (c) The roles of SIRT2, SIRT4 and SIRT5 in regulating apoptosis by targeting apoptosis-related proteins and pathways; (d) The roles of SIRT6 in regulating apoptosis by targeting apoptosis-related proteins and pathways; (e) The roles of SIRT7 in regulating apoptosis by targeting apoptosis-related proteins and pathways. https://biorender.com. ATM ataxia telangiectasia mutated, Cyt C cytochrome c, ELA elabela, GAPDH glyceraldehyde 3-phosphate dehydrogenase, HIC1 hypermethylated in cancer-1, HIPK2 homeodomain-interacting protein kinase-2, INZ inauhzin, JAK2 janus kinase 2, MALAT1 metastasis-associated lung adenocarcinoma transcript 1, Mcl-1 myeloid cell leukemia 1, MicRNA microRNA, MST1 mammalian sterile 20-like kinase 1, PLD2 phospholipase D2, RORA retinoid-related orphan receptor α, TSPYL2 testis-specific protein y-encoded-like 2, Yap yes-associated protein, ZMAT1 zinc finger matrin-type 1 
 
 direct deacetylation. For example, [[SIRT1|SIRT1]] deacetylating [[p53|p53]] at Lys379 inhibited [[p53|p53]]-dependent [[Apoptosis|apoptosis]].[211] In addition, [[SIRT1|SIRT1]] can regulate the [[p53|p53]] signaling pathway by targeting proteins. The overexpression of [[SIRT1|SIRT1]] resulted in markedly reduced mRNA and protein expression levels of [[p53|p53]] signaling pathway-related molecules (including [[p53|p53]] and [[Bax|Bax]]) in vitro, but increased Bcl mRNA and protein expression.[212] [[p53|p53]] expression gradually decreased with 
 
 increasing [[SIRT1|SIRT1]] levels, thus indicating a gradual decrease in [[Apoptosis|apoptosis]].[213] These findings thus show that [[SIRT1|SIRT1]] inhibits [[Apoptosis|apoptosis]] via inactivation of [[p53|p53]], suggesting a critical role for [[SIRT1|SIRT1]] in regulating the [[p53|p53]] signaling pathway. (2) The [[SIRT1|SIRT1]]/[[NFKB|NF-κB]] pathway is mainly involved in inflammation-induced [[Apoptosis|apoptosis]] Regarding the mechanism underlying [[SIRT1|SIRT1]] involvement in [[Apoptosis|apoptosis]], [[NFKB|NF-κB]] ([[p65|p65]]) acetylation was significantly 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-11 
 
 increased after inhibition/deletion of [[SIRT1|SIRT1]].[214] A large number of studies have shown that [[SIRT1|SIRT1]] mediates [[NFKB|NF-κB]] pathway modulation to mitigate inflammasome signaling and cellular [[Apoptosis|apoptosis]].[203][,][214][,][215] For example, [[SIRT1|SIRT1]] overexpression promoted mouse B lymphocytes cell proliferation, inhibited [[Apoptosis|apoptosis]], and upregulated pro-inflammatory cytokines by inhibiting the [[NFKB|NF-κB]] pathway.[216] Additionally, activating the [[NFKB|NF-κB]] signaling pathway could ultimately induce [[Apoptosis|apoptosis]] through regulation of the inflammatory process.[217] Silencing interferon regulatory factor 9 curbed activity of the [[NFKB|NF-κB]] signaling pathway by upregulating [[SIRT1|SIRT1]], which further inhibited [[TNFα|TNF-α]] induced changes in inflammatory cytokine secretion and promoted [[Apoptosis|apoptosis]].[218] Therefore, it appears to be a double-edged sword that [[SIRT1|SIRT1]] regulates [[NFKB|NF-κB]] signaling to affect cellular inflammatory activation and [[Apoptosis|apoptosis]] in different spatiotemporal dependencies. 
 
@@ -276,12 +211,6 @@ On the other hand, [[SIRT2|SIRT2]] can promote [[Apoptosis|apoptosis]] mediated 
 
 - kinase-3 β ([[GSK3β|GSK-3β]])/[[Bax|Bax]], [[Bax|Bax]]/[[Bcl-2|Bcl-2]] and bad/Bcl-x/L ratios regulate [[Apoptosis|apoptosis]].[250][,][251] [[SIRT3|SIRT3]] overexpression promoted [[Apoptosis|apoptosis]] by enhancing [[Caspase-9|caspase 9]] cleavage in [[Hepatocellular Carcinoma|HCC]] cells,[252] and [[SIRT3|SIRT3]] depletion 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-12 
-
 downregulated cleaved [[Caspase-3|caspase 3]] levels in [[Lung Cancer|LC]] cells.[253] In contrast, several studies have found that [[SIRT3|SIRT3]] has an anti-apoptotic effect. [[SIRT3|SIRT3]] deficiency resulted in significantly increased [[Apoptosis|apoptosis]], increased [[Bax|Bax]] and [[Caspase-3|caspase 3]] mRNA levels, and decreased [[Bcl-2|Bcl-2]] mRNA levels in septic mice,[254] and also significantly increased [[Caspase-3|caspase 3]] expression in [[SIRT3|SIRT3]]-KO mice. Thus, [[SIRT3|SIRT3]] plays different roles in different diseases, both pro- and anti-apoptotic. A typical example is when [[SIRT3|SIRT3]] expression inhibited the growth of cancer cells by promoting [[Apoptosis|apoptosis]] and [[Necroptosis|necroptosis]]. In a stress injury disease model, [[SIRT3|SIRT3]] inhibited [[Apoptosis|apoptosis]] and exerted a protective effect against various stressors. For example, [[SIRT3|SIRT3]] deficiency produced more melanocyte [[Apoptosis|apoptosis]] by inducing severe mitochondrial dysfunction and [[Cytochrome c|cytochrome c]] release into the cytoplasm.[255] However, more research is needed in the future to determine whether [[SIRT3|SIRT3]] promotes or inhibits [[Apoptosis|apoptosis]] of the [[Caspase-3|caspase 3]] pathway in different types of diseases. 
 
 FoxO transcription factors are downstream targets of the serine/threonine [[Akt|protein kinase B]]/[[Akt|Akt]], which promotes [[Apoptosis|apoptosis]] signaling by affecting multiple mitochondriatargeting proteins.[256] [[SIRT3|SIRT3]] acetylation modulated [[FoxO1|FoxO1]] and exerted apoptotic effects.[51] In addition, [[SIRT3|SIRT3]] posttranslationally upregulated [[FOXO3a|FoxO3a]] activity through deacetylation, dephosphorylation and deubiquitination to regulate [[Apoptosis|apoptosis]].[257] Meanwhile, non-coding RNAs act as upstream regulators of [[SIRT3|SIRT3]] to regulate [[Apoptosis|apoptosis]]. For example, the miR-297 antagomir affected [[Apoptosis|apoptosis]] by targeting [[SIRT3|SIRT3]] to reduce the extent of IκBα and [[NFKB|NF-κB]] phosphorylation and prevent activation of [[NLRP3|NLRP3]].[258] A similar study confirmed that [[SIRT3|SIRT3]] was also a target of miR421.[259] Studies of the upstream and downstream regulatory mechanisms of [[SIRT3|SIRT3]] regulating [[Apoptosis|apoptosis]] are few and more research will be required in this area. 
@@ -304,27 +233,14 @@ In conclusion, [[SIRT1|SIRT1]] acts on autophagy-related proteins and transcript
 
 - (2) Upstream and downstream signaling pathway of [[SIRT1|SIRT1]] in autophagy 
 
-Conclusion: In conclusion, one of the most extensive biological functions of the SIRT protein family is to participate in the process of [[Apoptosis|apoptosis]]. As a family of bidirectional regulatory proteins, the function of SIRTs appears to be reversible depending on the 
+> [!abstract]
+> Conclusion: In conclusion, one of the most extensive biological functions of the SIRT protein family is to participate in the process of [[Apoptosis|apoptosis]]. As a family of bidirectional regulatory proteins, the function of SIRTs appears to be reversible depending on the 
 
 [[AMPK|AMPK]] is an evolutionarily conserved serine/threonineprotein kinase. Under various physiological and pathological conditions, [[AMPK|AMPK]] acts as an activator of [[SIRT1|SIRT1]] and is involved in the regulation of autophagy. For example, 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-13 
-
-**==> picture [436 x 601] intentionally omitted <==**
 
 inositol polyphosphate multi kinase enhances autophagyrelated transcription by stimulating [[AMPK|AMPK]]-dependent [[SIRT1|SIRT1]] activation.[282] [[AMPK|AMPK]] can also be activated as a downstream molecule of [[SIRT1|SIRT1]]. [[SIRT1|SIRT1]] promoted autophagy via [[AMPK|AMPK]] activation.[283] Autophagy impairment is mediated by 
 
 downregulation of [[SIRT1|SIRT1]]/[[FOXO3a|FoxO3a]]/[[AMPK|AMPK]]/ peroxisome proliferators-activated receptors (PPAR)-α signaling.[284] The [[SIRT1|SIRT1]] activator [[Resveratrol|resveratrol]] increases [[cAMP|cAMP]] content, expression of protein kinase A, as well as the activity of [[AMPK|AMPK]]. Besides, [[Resveratrol|resveratrol]] pretreatment reduces tumor necrosis 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-14 
 
 Fig. 6 Overview of the roles of SIRTs in autophagy. SIRTs can regulate a series of substrates involved in the process of macroautophagy and mitophagy. Meanwhile, they can also be regulated by a series of molecules in the aforementioned process. SIRTs are all involved in the regulation of macroautophagy, of which AMPK/mTOR signaling is the most common pathway. In addition, SIRT1, SIRT3, SIRT4, and SIRT5 are also involved in PINK1/Parkin-mediated mitophagy or Bnip3-mediated mitophagy. https://biorender.com. ACE2 angiotensin-converting enzyme 2, ATGL adipose triglyceride lipase, Bnip3 BCL2 interacting protein 3, CERKL ceramide kinase-like protein; circ, circular RNA; CUL4B, cullin 4B, eEF2 eukaryotic elongation factor-2, eEF2K eukaryotic elongation factor-2 kinase, EGFR epidermal growth factor receptor, ESRRA estrogen-related receptor α, FBXW7 F-box and WD repeat domain-containing 7, FoxM1 forkhead box M1, G6Pase-α glucose-6-phosphatase-α, GAS5 growth arrest specific 5, Hes‑1 hairy and enhancer of split‑1, HIF1α hypoxia-inducible factor 1 α, HIST1H1C histone cluster 1 H1 family member c, IPMK inositol polyphosphate multikinase, LDHB lactate dehydrogenase B, lncR long non-coding RNA, miR miRNA, NAT10 nucleolar ‑ protein N-acetyltransferase 10, NMNAT1 nicotinamide mononucleotide adenylyltransferase 1, Notch 1 Notch homolog 1, OPA1 optic atrophy 1, p53 tumor protein p53, PINK PTEN induced putative kinase, PLIN5 perilipin 5, PTEN phosphatase and tensin homolog, SQSTM1/ p62 sequestosome 1, TFEB transcription factor EB, TUG1 taurine-upregulated gene 1, TyrRS tyrosyl transfer-RNA synthetase, Ube2v1 ubiquitinconjugating E2 enzyme variant 1 
 
@@ -350,19 +266,14 @@ Mitochondria represent a major source of [[ROS|ROS]] that affect mitochondrial f
 
 Unlike [[SIRT4|SIRT4]], which inhibits autophagy, the role of [[SIRT5|SIRT5]] in regulating autophagy is contradictory. In the case of inhibition of autophagy by [[SIRT5|SIRT5]], mitochondrial size is increased and [[Mitophagy|mitophagy]] decreased upon [[SIRT5|SIRT5]] overexpression, whereas the opposite effect is observed in [[SIRT5|SIRT5]]-silenced cells or upon 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-15 
-
 treatment with the [[SIRT5|SIRT5]] inhibitor MC3482.[302] However, [[SIRT5|SIRT5]] could enhance autophagy in [[Gastric Cancer|GC]] cells via the [[AMPK|AMPK]]/[[mTOR|mTOR]] pathway.[309] Additionally, [[SIRT5|SIRT5]]-induced deacetylation of lactate dehydrogenase B triggers hyperactivation of autophagy; a key event in tumorigenesis.[310] Succinyl-proteomics in brown adipose tissue of normal and [[SIRT5|SIRT5]] KO mice. Overacylation due to [[SIRT5|SIRT5]] deficiency leads to defective autophagy/ [[Mitophagy|mitophagy]].[311] Besides their functions in energy metabolism and mitochondrial respiratory chain complexes, all three mtSIRTs participate in the regulation of mitochondrial morphology/ dynamics. They seem to promote mitochondrial fusion and/or inhibit fission, and thus might attenuate mitophagic clearance of dysfunctional mitochondria.[302] At present, the mechanism of action of mtSIRTs on autophagy is still unclear. 
 
 Effect of [[SIRT6|SIRT6]] on autophagy is mainly through inhibition of Aktrelated pathway: [[SIRT6|SIRT6]] is essential for the regulation of autophagy in cells. For example, overexpression of the [[SIRT6|SIRT6]] gene could inhibit [[Apoptosis|apoptosis]] and induce autophagy, which might be involved in repairing kidney damage caused by lipopolysaccharide (LPS).[312] Autophagy controls [[Cellular Senescence|cellular senescence]] by eliminating damaged cellular components and is negatively regulated by [[Akt|Akt]] signaling through [[mTOR|mTOR]]. [[SIRT6|SIRT6]] overexpression induces autophagy via attenuation of [[IGF1|insulin-like growth factor]] ([[IGF1|IGF]])/[[Akt|Akt]]/[[mTOR|mTOR]] signaling.[313] Lu et al. revealed that [[SIRT6|SIRT6]] positively regulates autophagy in cardiomyocytes. Mechanistically, [[SIRT6|SIRT6]] promotes nuclear retention of [[FOXO3a|FoxO3]] transcription factor via attenuating [[Akt|Akt]] signaling, which is responsible for autophagic activation.[314] [[SIRT6|SIRT6]] can be inhibited by upstream [[MicroRNA|miR-122]], resulting in a significant reduction in the levels of elabela, thereby preventing [[Angiotensin II|Ang II]]-mediated loss of autophagy.[315] However, the mechanism of [[SIRT6|SIRT6]] promotion of autophagy needs further study. 
 
 Effect of [[SIRT7|SIRT7]] on autophagy needs further investigation: There are few studies about the effects of [[SIRT7|SIRT7]] in autophagy. For example, silencing [[FoxM1|forkhead box M1]] promotes [[Apoptosis|apoptosis]] and autophagy through the [[SIRT7|SIRT7]]/[[mTOR|mTOR]]/[[IGF1|IGF]]2 pathway in GC cells.[316] [[SIRT7|SIRT7]] protects against chondrocyte degeneration in [[Osteoarthritis|OA]] via autophagic activation.[317] [[SIRT7|SIRT7]] depletion significantly inhibits androgen-induced autophagy in LNCap and 22Rv1 cells (in vitro). [[SIRT7|SIRT7]] plays an important role in tumor growth and metastases and immunohistochemical analysis of 93 specimens and bioinformatic analysis revealed that [[SIRT7|SIRT7]] expression was positively associated with androgen receptor (AR) (in vivo).[318] [[SIRT7|SIRT7]] promotes prostate cancer autophagy indirectly via the AR signaling pathway.[318] These results suggest that [[SIRT7|SIRT7]] plays a positive role in promoting [[Apoptosis|apoptosis]]. However, the number of studies on [[SIRT7|SIRT7]] is still limited and further research is needed. 
 
-Conclusion: Autophagy is a highly conserved catabolic process and a major cellular pathway for the degradation of long-lived proteins and cytoplasmic organelles. Growing evidence has suggested that the SIRT protein family plays an important role in pathophysiology by mediating autophagy, maintaining cellular homeostasis, integrating cellular energy metabolism, and clearing damaged and waste cells. Although there is still a lot of work to be done, based on the current research, it is confident that the SIRT family might become a target for future research on autophagy. Investigating the exact mechanism of SIRT-mediated autophagy in different diseases is a new field to be explored in the future. Further studies should focus on the biological mechanism of SIRT co-regulating autophagy with various molecular signals and its role in different subcellular localization. Moreover, autophagy modulators of SIRTs may also provide new pharmacological targets. 
+> [!abstract]
+> Conclusion: Autophagy is a highly conserved catabolic process and a major cellular pathway for the degradation of long-lived proteins and cytoplasmic organelles. Growing evidence has suggested that the SIRT protein family plays an important role in pathophysiology by mediating autophagy, maintaining cellular homeostasis, integrating cellular energy metabolism, and clearing damaged and waste cells. Although there is still a lot of work to be done, based on the current research, it is confident that the SIRT family might become a target for future research on autophagy. Investigating the exact mechanism of SIRT-mediated autophagy in different diseases is a new field to be explored in the future. Further studies should focus on the biological mechanism of SIRT co-regulating autophagy with various molecular signals and its role in different subcellular localization. Moreover, autophagy modulators of SIRTs may also provide new pharmacological targets. 
 
 Role of SIRTs in cell proliferation. Cell proliferation is the process by which a cell grows and divides to produce two daughter cells.[319][–][321] 
 
@@ -378,14 +289,6 @@ Effect of [[SIRT3|SIRT3]] on cell proliferation: [[SIRT3|SIRT3]], the major deac
 
 Effect of [[SIRT4|SIRT4]] on cell proliferation: [[SIRT4|SIRT4]] inhibits proliferation of several types of cancer cells. For example, [[SIRT4|SIRT4]] inhibits the proliferation of cancer cells by inhibiting glutamine metabolism.[341][,][342] In addition, cell proliferation due to repression of [[SIRT4|SIRT4]] by the [[mTORC1|mTORC1]] pathway has been identified.[343] Moreover, [[SIRT4|SIRT4]] is the molecular switch mediating cellular proliferation through 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-16 
-
-**==> picture [499 x 365] intentionally omitted <==**
-
 Fig. 7 Overview of the roles of SIRTs in cell proliferation. (i) SIRTs participate in regulating cell proliferation by affecting a group of downstream proteins, including p53, p65, STAT3, FOXO1, AMPK, etc. (ii) SIRTs are also regulated by a series of ncRNAs and proteins, such as lncRNA PVT1, miR-34a, IFN-γ, MDM2, PRARα, eNOS, TCF3, etc, and subsequently promote or inhibit cell proliferation directly. (iii) In addition, SIRTs could activate or inhibit several signaling pathways, which perform important roles in cell proliferation, including JAK2/STAT3 signaling pathway, Wnt/β-catenin signaling pathway, PI3K/AKT signaling pathway, Notch signaling pathway, and ERK/STAT3 signaling pathway. Activation and inhibition effects are displayed in green and red arrows, respectively. https://biorender.com. ACAT1 acetyl coenzyme A acyltransferase1, Bmi-1 B-cell-specific Moloney murine leukemia virus integrationsite-1, CCAR2 cell cycle and apoptosis regulator protein 2, CDK9 cyclin-dependent kinase9, Drp1 dynamin-related protein 1, Erα estrogen receptor α, FASN fatty acid synthase, GLP-1 glucagon-like peptide-1, H1 histone1, HIF-2α hypoxia inducible factor-2α, K-Ras p21, MEF2D myocyte enhancer factor 2D, mitoCOX-2 mitochondria cyclooxygenase-2, MRP migration inhibitory-factor related protein, mTORC1 mTOR complex 1, Pcsk9 proprotein convertase subtilisin/kexin type 9, PD-L1 programmed death 1-ligand 1, POLD1 DNA polymerase delta 1, Pol-I DNA polymerase I, BBC3 Bcl-2 binding component 3, Rb retinoblastoma protein, SPEBP1 phosphatidylethanolamine binding protein 1, STAT1 signal transducer and activator of transcription 1, TCF3 transcription factor 3, Twist1 twist family bHLH transcription factor 1, ZEB2 zinc finger E-box binding homeobox 1 
 
 glutaminase (GLS)-mediated activation of the [[Akt|Akt]]/GSK3β/CyclinD1 pathway; mechanically, [[SIRT4|SIRT4]] suppression activates glutaminase, thereby initiating [[Akt|Akt]] activation.[344] 
@@ -396,17 +299,12 @@ functions in regulating proliferation of different cell types. However, the dist
 
 Effect of [[SIRT6|SIRT6]] on cell proliferation: [[SIRT6|SIRT6]] is also reported to regulate cell proliferation in a bilateral manner via influencing downstream molecules, such as [[AMPK|AMPK]], [[ERK|ERK]], [[Wnt|Wnt]] signaling and the [[MAPK|MAPK]] pathway. [[SIRT6|SIRT6]] promotes expression of [[COX-2|COX-2]] by repressing [[AMPK|AMPK]] signaling, thereby increasing cell proliferation.[351] Moreover, overexpression of [[SIRT6|SIRT6]] promotes cell proliferation via upregulating he phosphorylation of [[ERK|ERK]].[352] In addition, [[SIRT6|SIRT6]] deletion promotes hematopoietic stem cell proliferation through aberrant activation of [[Wnt|Wnt]] signaling.[353] Using genetic and biochemical studies in vitro and in human multiple myeloma xenograft models, Cea et al. found that [[SIRT6|SIRT6]] depletion enhanced cell proliferation via upregulating expression of [[MAPK|MAPK]].[354] In conclusion, [[SIRT6|SIRT6]] has both promotive and inhibitory effects on 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-17 
-
 cell proliferation. The different results of [[SIRT6|SIRT6]] in regulating cell proliferation need further study. 
 
 Effect of [[SIRT7|SIRT7]] on cell proliferation: Previous studies have shown that [[SIRT7|SIRT7]] has a positive role in regulating cell proliferation.[355] Upregulation of [[SIRT7|SIRT7]] protects against the proliferation of vascular smooth muscle cells (VSMCs) in [[Atherosclerosis|atherosclerosis]].[355] Similarly, [[SIRT7|SIRT7]] deficiency attenuates VSMC proliferation, thus attenuating neointimal formation following vascular injury.[356] Moreover, [[SIRT7|SIRT7]] depletion inhibits cancer cell proliferation by suppressing AR signaling and activating p38[[MAPK|MAPK]].[318][,][357] 
 
-Conclusion: The direct and indirect involvement of SIRTs in proliferation could provide new ideas and evidence in support of potential research and as therapeutic targets. This might be meaningful for the treatment of abnormal proliferation in the future, thereby reducing the human disease burden related to proliferation. However, at present, research is still focused on the effect of SIRTs on carcinoma, and other molecular mechanisms of proliferation is less researched. Therefore, research on other molecular mechanisms of proliferation should be increased in the future. More evidence from in vitro and in vivo models for different kinds of diseases to confirm undefined molecular mechanisms of proliferation as yet is awaited. Roles of SIRTs in cell migration and invasion. Migration and invasion are vital phenotypes both in physiological and pathological status. They allow normal cells to change position within tissues during embryonic morphogenesis, wound healing, and immune-cell trafficking.[358][,][359] Specifically, in human cancers, they allow neoplastic cells to enter lymphatic and blood vessels for undergoing metastatic growth in distant organs.[360][,][361] An increasing number of studies have shown that SIRTs play important roles in the molecular mechanisms of cell migration and invasion, such as regulation of [[TGF-β|TGF-β]] signaling and epithelialto-mesenchymal transition ([[EMT|EMT]]).[362][,][363] Since these two phenotypes are hallmarks during tumor progression, we introduced the potential roles of SIRT protein family in cell migration and invasion, mainly depending on cancers (Fig. 8). 
+> [!abstract]
+> Conclusion: The direct and indirect involvement of SIRTs in proliferation could provide new ideas and evidence in support of potential research and as therapeutic targets. This might be meaningful for the treatment of abnormal proliferation in the future, thereby reducing the human disease burden related to proliferation. However, at present, research is still focused on the effect of SIRTs on carcinoma, and other molecular mechanisms of proliferation is less researched. Therefore, research on other molecular mechanisms of proliferation should be increased in the future. More evidence from in vitro and in vivo models for different kinds of diseases to confirm undefined molecular mechanisms of proliferation as yet is awaited. Roles of SIRTs in cell migration and invasion. Migration and invasion are vital phenotypes both in physiological and pathological status. They allow normal cells to change position within tissues during embryonic morphogenesis, wound healing, and immune-cell trafficking.[358][,][359] Specifically, in human cancers, they allow neoplastic cells to enter lymphatic and blood vessels for undergoing metastatic growth in distant organs.[360][,][361] An increasing number of studies have shown that SIRTs play important roles in the molecular mechanisms of cell migration and invasion, such as regulation of [[TGF-β|TGF-β]] signaling and epithelialto-mesenchymal transition ([[EMT|EMT]]).[362][,][363] Since these two phenotypes are hallmarks during tumor progression, we introduced the potential roles of SIRT protein family in cell migration and invasion, mainly depending on cancers (Fig. 8). 
 
 Effect of [[SIRT1|SIRT1]] on cell migration and invasion: [[SIRT1|SIRT1]] deacetylates many key proteins, which also contain transcription factors, mainly involved in [[EMT|EMT]] and integrin adhesion, thereby regulating cell migration and invasion.[271][,][363] [[EMT|EMT]] is the most well-established example of changes in cell–cell adhesion, which refers to nonepithelial cells that are loosely embedded in an [[ECM|ECM]].[364] Integrin adhesion activates pathways including [[TGF-β|TGF-β]], phosphatidylinositol-4,5-bisphosphate 3-kinase ([[PI3K|PI3K]])/[[Akt|Akt]], and [[AMPK|AMPK]] signaling pathways. 
 
@@ -422,14 +320,6 @@ Effect of [[SIRT3|SIRT3]]–[[SIRT5|5]] on cell migration and invasion: [[SIRT3|
 
 [[SIRT5|SIRT5]] regulates cell migration and invasion in several cancer cells. For example, Dang et al. found that [[SIRT5|SIRT5]] promoted migration and invasion of HCC cells.[385] The opposite findings were reported by Yao et al. in that the inhibition of [[SIRT5|SIRT5]] increased migration and invasion of HCC in hypoxic microenvironments.[386] This inconsistent phenomenon might be attributed to the hypoxic status of tumor microenvironments. 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-18 
-
-**==> picture [499 x 439] intentionally omitted <==**
-
 Fig. 8 Overview of the roles of SIRTs in cell migration and invasion. SIRTs coordinate a multi-faceted regimen to control cell migration and invasion. In the nucleus, SIRT1, SIRT6, and SIRT7 may affect many key proteins, which also contain transcription factors, mainly involved in EMT process, TGF-β signaling, PI3K/Akt signaling, MMPs signaling, and AMPK signaling pathways, etc, thereby regulating cell migration and invasion. In the cytosol, SIRT2 could suppress cell migration and invasion by deacetylating target proteins such as AKR1C1 and IDH1. In mitochondria, SIRT3, SIRT4, and SIRT5 could participate in regulating cell migration and invasion via influencing various molecular mechanisms such as integrin adhesion and EMT. Activation and inhibition effects are displayed in green and red arrows, respectively. https:// biorender.com. α7nAChR alpha7 subtype of nicotinic acetylcholine receptors, ISRE IFN-stimulated response element 
 
 However, further studies are required for illustrating its deeper regulatory mechanisms. 
@@ -438,13 +328,8 @@ Effect of [[SIRT6|SIRT6]] and [[SIRT7|SIRT7]] on cell migration and invasion: [[
 
 shown that [[SIRT7|SIRT7]] promotes CRC cell invasion through the inhibition of E‐cadherin, which is the most important protein in [[EMT|EMT]].[389] Furthermore, [[SIRT7|SIRT7]] is overexpressed in EC cells compared with normal endometrial cells. [[SIRT7|SIRT7]] downregulation inhibits the invasiveness of EC cells.[390] 
 
-Conclusion: Taken together, the above-discussed findings suggest that SIRT proteins are involved in regulating cell migration and invasion during physiological processes and the development of human cancers. However, current research mainly focuses on the function of [[SIRT1|SIRT1]] in regulating cell migration and invasion. Much work is still needed to pinpoint the precise molecular mechanisms governing the functions of other SIRTs, especially [[SIRT6|SIRT6]] and [[SIRT7|SIRT7]], under those conditions. It is meaningful to continue to explore the role of SIRT proteins in other diseases, 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-19 
+> [!abstract]
+> Conclusion: Taken together, the above-discussed findings suggest that SIRT proteins are involved in regulating cell migration and invasion during physiological processes and the development of human cancers. However, current research mainly focuses on the function of [[SIRT1|SIRT1]] in regulating cell migration and invasion. Much work is still needed to pinpoint the precise molecular mechanisms governing the functions of other SIRTs, especially [[SIRT6|SIRT6]] and [[SIRT7|SIRT7]], under those conditions. It is meaningful to continue to explore the role of SIRT proteins in other diseases, 
 
 which might provide future beneficial alternatives against those devastating diseases. 
 
@@ -466,21 +351,7 @@ LC: LC is the leading cause of cancer-related deaths and the second most diagnos
 
 Evidence has suggested that SIRTs are key factors involved in tumor development and treatment in LC.[418][,][419] Regarding LC progression, the SIRTs play conflicting roles. [[SIRT1|SIRT1]] upregulated by SNHG10 suppresses [[non-small-cell lung cancer|NSCLC]] cell proliferation, as a tumor suppressor.[420] Overexpression of [[SIRT1|SIRT1]] protects [[non-small-cell lung cancer|NSCLC]] cells against osteopontin-induced [[NFKB|NF-κB]] [[p65|p65]] acetylation and [[EMT|EMT]], thus attenuating OPN-induced cell proliferation, migration and invasion.[421] However, [[SIRT1|SIRT1]] upregulated by circ_0001946, could promote cell growth in lung adenocarcinoma by activating the [[Wnt signaling|Wnt/β-catenin]] signaling pathway.[422] [[SIRT2|SIRT2]] and [[SIRT6|SIRT6]] have been shown to exert both pro- and anticarcinogenic effects in the process of LC. For example, [[SIRT2|SIRT2]] suppressed the migration of [[non-small-cell lung cancer|NSCLC]] cells by deacetylating AKR1C1, and inhibiting transactivation of [[STAT3|STAT3]] target genes.[379] In addition, [[SIRT2|SIRT2]] deacetylates the K100 residue of glycolytic enzyme phosphoglycerate mutase and facilitates its activation, resulting in enhanced [[NADPH|NADPH]] production and accelerated tumor growth in [[non-small-cell lung cancer|NSCLC]] cells.[423] Similarly, [[SIRT6|SIRT6]] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-20 
-
-**==> picture [394 x 601] intentionally omitted <==**
-
 Fig. 9 The roles of SIRTs in cancers. SIRTs are involved in a series of malignancies, including BC, LC, liver cancer, GC, PC, colorectal cancer, OC, EC, CC, malignant glioma, and leukemia. SIRTs act as tumor promoters (marked in red color), tumor suppressors (marked in green color), or both suppressor and promoter (marked in blue color). Major events in solid tumor development consist of tumor initiation, tumor proliferation, and tumor metastasis. Between these events, processes including cell proliferation, oxidative stress, apoptosis, angiogenesis, EMT, migration and invasion are promoted or inhibited. Depending on the tumor location, the metastasis site also varies, including lymph nodes, distant organs, liver, adjacent organs, etc. https://biorender.com 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-21 
 
 illustrates opposite functions in the promotion of LC development, as tumor suppressor and promoter.[424][,][425] For instance, [[SIRT6|SIRT6]] can coordinate with chromatin remodeler chromodomain-helicaseDNA-binding 4 to promote chromatin relaxation and DNA repair, thereby exerting an anticarcinogenic role in LC.[424] In contrast, [[SIRT6|SIRT6]] can also drive [[EMT|EMT]] and metastasis in [[non-small-cell lung cancer|NSCLC]] via snaildependent transrepression of KLF4.[425] This dual action of these SIRTs might depend upon the cellular context, tumor types, cancer stage, and their involvement in various cellular pathways,[392][,][418] and further studies are needed to explore the exact mechanisms underlying their dual roles in LC. 
 
@@ -507,12 +378,6 @@ Therapeutic advances targeting SIRTs are currently being explored as it is sugge
 CRC ranks third in terms of cancer incidence worldwide and is the second most common cause of cancer deaths.[394] Previous studies have shown that [[SIRT1|SIRT1]] and [[SIRT7|SIRT7]] are increased,[389][,][445] whereas [[SIRT2|SIRT2]], [[SIRT4|SIRT4]] and [[SIRT6|SIRT6]] are decreased in human CRC tissues compared to normal tissue, which suggests that SIRTs are potential diagnostic biomarkers for CRC.[446][–][448] SIRTs are potential prognostic factors for CRC. For instance, overexpression of [[SIRT5|SIRT5]] is correlated with poor prognosis in patients with CRC, while [[SIRT6|SIRT6]] expression is related to improved survival.[448][,][449] However, there still a need for further studies that make more clear analyses to verify the roles of SIRTs as biomarkers of CRC, such as receiver operating characteristic curve, sensitivity and specificity analyses. 
 
 The pleiotropic roles of SIRTs in the regulation of tumor cell metabolism and cell death are strongly linked to the progression of CRC. [[SIRT1|SIRT1]] has been found to affect CRC in a dose-dependent manner by regulating glutamine metabolism and apoptotic pathways. Heterozygous deletion of [[SIRT1|SIRT1]] induces [[c-Myc|c-Myc]] expression, enhancing glutamine metabolism and subsequent proliferation, autophagy and cancer formation. In contrast, homozygous deletion of [[SIRT1|SIRT1]] triggers apoptotic pathways, increases cell death, diminishes autophagy, and reduces cancer formation.[450] The dosedependent regulation of cellular metabolism and [[Apoptosis|apoptosis]] by [[SIRT1|SIRT1]] mechanistically contributes to the observed dual roles of [[SIRT1|SIRT1]] in tumorigenesis. SIRTs have an anticarcinogenic action via modulation of CRC-related metabolism. [[SIRT2|SIRT2]]-dependent IDH1 deacetylation regulates cellular metabolism and inhibits liver metastasis of CRC.[381] [[SIRT4|SIRT4]] upregulates [[Cadherin|E-cadherin]] expression and suppresses proliferation, migration and invasion through inhibition of glutamine metabolism in CRC cells.[140] In addition to the anticarcinogenic effects of SIRTs, [[SIRT5|SIRT5]] contributes to colorectal carcinogenesis by enhancing glutaminolysis in a deglutarylation-dependent manner.[449] SIRTs exert their regulatory function in CRC development through the modulation of several autophagy-related pathways. In particular, [[SIRT5|SIRT5]] can deacetylate lactate dehydrogenase B, thus promoting hyperactivation of autophagy and tumorigenesis in CRC.[310] 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-22 
 
 Recent evidence highlights that SIRTs are involved in various tumor processes related to chemoresistance and radioresistance in CRC. For example, overexpression of [[SIRT3|SIRT3]] improves anticancer drug resistance of CRC cells through [[Superoxide|superoxide]] dismutase (SOD) 2 and [[PGC1-α|PGC-1α]] regulation.[451] In addition, [[SIRT4|SIRT4]] increases the sensitivity of CRC cells to chemotherapeutic drug [[Cisplatin|5-fluorouracil]] by inhibiting the cell cycle.[447] Regarding radioresistance of CRC, FoxQ1-mediated [[SIRT1|SIRT1]] upregulation augments expression and nuclear translocation of [[Wnt signaling|β-catenin]] and benefits CRC-related intestinal pathological bacteria, thereby enhancing the radioresistance of CRC cells.[452] 
 
@@ -546,33 +411,20 @@ CC is one of the most severe and prevalent female malignancies and a global heal
 
 SIRTs are implicated in tumor development and chemotherapy resistance in gynecological cancer including OC, EC, and CC, thus SIRTs might serve as indicators of prognosis and as promising therapeutic targets for gynecological cancer. However, evidence about the roles of SIRTs in gynecological cancer is still limited, so more studies are needed to further explore the underlying molecular mechanism by which SIRTs regulate tumor processes in these cancers. 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-23 
-
 Glioma: Glioma is the most common and malignant primary tumor of the central nervous system, with a poor prognosis, especially [[glioblastoma|glioblastoma]].[474] [[SIRT1|SIRT1]] and [[SIRT7|SIRT7]] are upregulated,[475][,][476] while [[SIRT3|SIRT3]] and [[SIRT6|SIRT6]] are downregulated in [[Glioma|glioma]] tissues compared with normal or adjacent brain tissues.[477][,][478] Glioma patients with higher [[SIRT1|SIRT1]] or [[SIRT3|SIRT3]] expression exhibit worse prognosis, whereas downregulation of [[SIRT5|SIRT5]] is significantly correlated with shorter survival time in [[glioblastoma|glioblastoma]]. These situations have suggested that SIRTs are promising prognostic biomarkers of [[Glioma|glioma]] and might be involved in tumor progression.[475][,][477][,][479] [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] exert a tumor suppressor effect in [[Glioma|glioma]]. [[SIRT1|SIRT1]]-mediated [[p21|p21]]-Activated kinase 1-deacetylation at K420 hinders autophagy and [[glioblastoma|glioblastoma]] growth.[480] Besides, [[SIRT6|SIRT6]] suppresses [[Glioma|glioma]] cell growth via induction of [[Apoptosis|apoptosis]], inhibition of oxidative stress, and inhibition of the activation of the [[JAK2|JAK2]]/[[STAT3|STAT3]] signaling pathway.[478] On the contrary, [[SIRT3|SIRT3]] and [[SIRT7|SIRT7]] are reported to play positive roles in the development of [[Glioma|glioma]]. [[SIRT3|SIRT3]] can stabilize [[Ku70|Ku70]]–[[Bax|Bax]] interaction to enhance [[Glioma|glioma]] cell viability.[477] Moreover, [[SIRT7|SIRT7]] affects the malignancy of [[Glioma|glioma]] cells mainly by promoting [[Glioma|glioma]] proliferation and invasion through [[ERK|ERK]] and [[STAT3|STAT3]] signaling.[476] Evidence also suggests that SIRTs participate in the transformation of chemoresistance and radioresistance in [[Glioma|glioma]]. For instance, [[SIRT1|SIRT1]] inhibition increases the sensitivity of [[Glioma|glioma]] cells for temozolomide via facilitation of intracellular [[ROS|ROS]] generation.[475] In addition, [[CDK1|CDK1]]-mediated [[SIRT3|SIRT3]] activation could enhance mitochondrial function and contribute to adaptive radioresistance in [[Glioma|glioma]] cells.[481] Therefore, SIRTs are potential biomarkers for the prognosis and diagnosis of [[Glioma|glioma]] and promising therapeutic targets. 
 
 Leukemia: Leukemia is a malignant clonal disease of hematopoietic stem cells, and most leukemias are sporadic and their specific etiology remains elusive.[482] SIRTs participate in the development and therapeutic resistance of [[leukemia|leukemia]]. [[SIRT1|SIRT1]] promotes [[T Lymphocyte|T cell]] acute lymphoblastic [[leukemia|leukemia]] progression by regulating the phosphorylation and degradation of [[p27|p27]] through deacetylating [[CDK2|cyclin-dependent kinase 2]].[483] [[SIRT2|SIRT2]] is overexpressed in primary acute myeloid [[leukemia|leukemia]] blasts, and [[SIRT2|SIRT2]] activation by [[NAMPT|NAMPT]] reduces proliferation and induces [[Apoptosis|apoptosis]] in human acute myeloid [[leukemia|leukemia]], possibly via the [[Akt|Akt]]/[[GSK3β|GSK-3β]]/[[Wnt signaling|β-catenin]] pathway.[335] Inhibition of [[SIRT2|SIRT2]] suppresses the in vitro growth and in vivo engraftment of [[T Lymphocyte|T cell]] acute lymphoblastic [[leukemia|leukemia]] cells via diminished LIM domain only 2 (LMO2) deacetylation.[484] This dual action in tumor development of [[SIRT2|SIRT2]] might be due to different types of [[leukemia|leukemia]]. 
 
 Regarding [[leukemia|leukemia]] treatment, the combination of chemotherapeutics with SIRT modulators could provide a novel therapeutic strategy. For example, pharmacological targeting or RNAi-mediated knockdown of [[SIRT1|SIRT1]] inhibits cell growth and sensitizes AML cells to tyrosine kinase inhibitor treatment.[485] Moreover, shSIRT6-induced DNA repair deficiencies are potently synergistic with [[NAMPT|NAMPT]] targeting in acute myeloid [[leukemia|leukemia]] treatment, which shows promising in vivo efficacy compared with monotherapy.[486] [[SIRT7|SIRT7]] expression increases with the positive response to treatment, but shows reduction when patients progress or relapse, which suggests that [[SIRT7|SIRT7]] potentially serves as a general biomarker for monitoring treatment response in myeloid stem cell disorders.[487] Accordingly, these results suggest that targeting SIRTs represents an attractive therapeutic strategy and provides a rationale for the novel combination-based treatments for [[leukemia|leukemia]]. 
 
-Conclusion: We have reviewed the role of different SIRTs in diverse cancers, focusing on them as new anticancer therapeutic targets. Various investigations have indicated that different SIRTs show differential patterns of expression depending upon the pathological subtype, tumor grade and stage. It could be 
+> [!abstract]
+> Conclusion: We have reviewed the role of different SIRTs in diverse cancers, focusing on them as new anticancer therapeutic targets. Various investigations have indicated that different SIRTs show differential patterns of expression depending upon the pathological subtype, tumor grade and stage. It could be 
 
 concluded that SIRTs serve as prognostic factors/biomarkers in patients with cancer. The discrepancy in the role of SIRTs in tumor progression and tumor chemoresistance or radioresistance might be attributed to various tumor types, stages, microenvironment, and their involvement in various tumor processes, such as cellular metabolism, cell death, cell cycle, and DNA damage/repair. Notably, several SIRTs exert a dual action in cancer. Thus, figuring out the underlying mechanisms and conditions that enable their opposing roles in cancer might be one of the main challenges and of great therapeutic significance. Collectively, SIRTs could be utilized as promising target molecules to be used as potential biomarkers for diagnosis and prognosis in patients with cancer. A variety of available SIRT modulators could be developed and further utilized to promote treatment efficacy of various cancers by themselves or, more likely, in combination with different anticancer drugs. 
 
 SIRTs and CVDs. Over the past decades, the incidence of CVDs, such as [[Heart Failure|heart failure]], [[Atherosclerosis|atherosclerosis]], and [[Hypertension|hypertension]], has been increasing.[488] CVDs are the major cause of mortality worldwide.[489][,][490] According to the Global Burden of Disease Study 2019, prevalent cases of total CVDs have increased from 271 million to 523 million in 204 countries and territories between 1990 and 2019. The number of CVD deaths has also increased from 12.1 million to 18.6 million.[491] Epigenetic modification plays a critical role in the occurrence and development of CVD[488] and regulates the function and expression level of CVD-related genes through DNA methylation, histone modification, and non-coding RNA mechanism.[492] Therefore, SIRT protein family has received much attention in CVD research due to its crucial role in regulating histone deacetylation.[488] In addition to [[HDAC|HDAC]] function, SIRTs also have multiple non-[[HDAC|histone deacetylase]] and mono-ADP-ribosyl transferase activities.[493] These functions also play an important role in CVDs (Fig. 10). SIRTs regulate crucial pathological processes, such as cell proliferation, cell [[Senescence|senescence]], DNA damage, oxidative 
 
-**==> picture [229 x 202] intentionally omitted <==**
-
 Fig. 10 The roles of SIRTs in circulatory system. SIRT1, SIRT3 and SIRT6 play protective roles in CVDs, such as cardiac fibrosis, heart failure, atherosclerosis, and MI/R injury. In addition, the protective effect of SIRT2 is observed in cardiac hypertrophy, cardiac fibrosis, as well as atherosclerosis. Furthermore, SIRT4 has a protective effect on atherosclerosis and MI/R injury. However, SIRT4 may have an adverse effect on cardiac hypertrophy and fibrosis. In contrast, SIRT5 plays protective role in cardiac hypertrophy and fibrosis, and similar protective effect is also observed in MI/R injury. Finally, the protective effect of SIRT7 is observed in cardiac hypertrophy and atherosclerosis. https://biorender.com 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-24 
 
 stress, inflammation, and cell metabolism, thereby influencing the occurrence and development of CVDs.[493][,][494] 
 
@@ -600,12 +452,6 @@ In addition, other SIRTs affect [[Cardiac Fibrosis|cardiac fibrosis]]. For examp
 
 Overall, SIRTs play an important role in [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis. [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] might protect against [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis by affecting important biological processes and regulating downstream signaling pathways, such as autophagy and [[TGF-β|TGF-β]]/[[SMAD3|Smad3]] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-25 
-
 pathways. Of note, [[SIRT1|SIRT1]] might have bidirectional effects on [[Cardiac Hypertrophy|cardiac hypertrophy]], which might be dependent on the degree of [[SIRT1|SIRT1]] expression. Furthermore, [[SIRT2|SIRT2]] and [[SIRT5|SIRT5]] might also have protective effects on [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis. In contrast, [[SIRT4|SIRT4]] might exacerbate [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis. Evidence has suggested that [[SIRT7|SIRT7]] has a protective effect on [[Cardiac Hypertrophy|cardiac hypertrophy]], but its effect on [[Cardiac Fibrosis|cardiac fibrosis]] is inconsistent. Considering that there are few studies on [[SIRT7|SIRT7]] in [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis, further research is needed in the future. 
 
 Heart failure: Heart failure is the most common endpoint of most CVDs,[524] affecting an estimated 64.3 million people worldwide.[391][,][525] It is a complex disease and involves various molecular and cellular alterations that affect the cardiac structure and impair the contractile function.[526] However, the underlying mechanisms of [[Heart Failure|heart failure]] remain not fully understood.[527] Recently, growing evidence has suggested that SIRTs play key roles during the process of [[Heart Failure|heart failure]]. The following section summarizes this evidence. 
@@ -625,12 +471,6 @@ Atherosclerosis: Atherosclerosis is a chronic inflammatory disease[4] that resul
 Compared to [[SIRT1|SIRT1]], a relatively limited number of studies have explored the roles of other SIRTs in [[Atherosclerosis|atherosclerosis]]. [[SIRT2|SIRT2]] decreases atherosclerotic plaque formation in [[LDL|LDL]] receptordeficient mice by regulating [[Macrophage|macrophage]] polarization.[552] [[SIRT3|SIRT3]] gene expression is associated with endothelial cell [[Apoptosis|apoptosis]] in [[Atherosclerosis|atherosclerosis]] rats,[553] and [[SIRT3|SIRT3]]/[[SOD2|SOD2]] signaling can be activated by circ_0,003,423, thereby protecting human umbilical vein endothelial cells from [[Oxidized LDL|oxLDL]]-induced dysfunction.[554] [[SIRT4|SIRT4]] suppresses the [[PI3K|PI3K]]/[[Akt|Akt]]/[[NFKB|NF-κB]] signaling pathway and relieves [[Oxidized LDL|oxLDL]]-induced human umbilical vein endothelial cells injury.[555] [[SIRT6|SIRT6]] protects against endothelial dysfunction, VSMC [[Senescence|senescence]], and [[Atherosclerosis|atherosclerosis]] in mice.[201][,][556][,][557] In addition, [[SIRT6|SIRT6]] overexpression reduces [[Oxidized LDL|oxLDL]] uptake in RAW [[Macrophages|macrophages]], and [[SIRT6|SIRT6]] knockdown enhances it and increases the expression of [[Macrophage|macrophage]] scavenger receptor 1.[558] Finally, [[SIRT7|SIRT7]] has been reported to regulate the VSMC proliferation and migration via the [[Wnt signaling|Wnt/β-catenin]] signaling pathway, which provides a promising therapeutic strategy for anti-[[Atherosclerosis|atherosclerosis]].[559] 
 
 In conclusion, the role of [[SIRT1|SIRT1]] in [[Atherosclerosis|atherosclerosis]] has received extensive attention. [[SIRT1|SIRT1]] deficiency in endothelial cells, VSMCs, and monocytes/[[Macrophages|macrophages]] promotes [[Atherosclerosis|atherosclerosis]].[560] Therefore, [[SIRT1|SIRT1]] might be a potential therapeutic target for the treatment of [[Atherosclerosis|atherosclerosis]]. Other SIRTs might also have 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-26 
 
 protective effects on [[Atherosclerosis|atherosclerosis]]. However, due to a relatively low number of studies, the relevant mechanisms need to be further explored in the future. 
 
@@ -656,17 +496,10 @@ SIRTs also play important roles in the complications of [[Hypertension|hypertens
 
 These findings indicate that SIRTs have protective effects on the occurrence and development of [[Hypertension|hypertension]] and might be valuable predictive biomarkers as well as promising therapeutic targets for [[Hypertension|hypertension]] complications. However, relevant mechanisms still need to be further explored, especially for [[SIRT2|SIRT2]], [[SIRT4|SIRT4]], [[SIRT5|SIRT5]], and [[SIRT7|SIRT7]], which have not been extensively investigated. 
 
-Conclusion: This section summarized the effects of SIRTs on CVDs. The effects of [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] have received extensive attention. Most studies have shown that they have a protective effect on CVDs, such as [[Cardiac Fibrosis|cardiac fibrosis]], [[Heart Failure|heart failure]], [[Atherosclerosis|atherosclerosis]], and M/IR injury. Compared to [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]], studies on [[SIRT2|SIRT2]], [[SIRT4|SIRT4]], [[SIRT5|SIRT5]], and [[SIRT7|SIRT7]] are relatively limited, even though they play important roles in CVDs. The protective effects of [[SIRT2|SIRT2]], [[SIRT5|SIRT5]], and [[SIRT7|SIRT7]] in several CVDs (e.g., hypertrophy) have been observed. Of note, [[SIRT4|SIRT4]] might aggravate [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis. Overall, SIRTs are promising therapeutic targets, and the pharmacological modulation of SIRTs can be used in the prevention and treatment of CVDs. 
+> [!abstract]
+> Conclusion: This section summarized the effects of SIRTs on CVDs. The effects of [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] have received extensive attention. Most studies have shown that they have a protective effect on CVDs, such as [[Cardiac Fibrosis|cardiac fibrosis]], [[Heart Failure|heart failure]], [[Atherosclerosis|atherosclerosis]], and M/IR injury. Compared to [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]], studies on [[SIRT2|SIRT2]], [[SIRT4|SIRT4]], [[SIRT5|SIRT5]], and [[SIRT7|SIRT7]] are relatively limited, even though they play important roles in CVDs. The protective effects of [[SIRT2|SIRT2]], [[SIRT5|SIRT5]], and [[SIRT7|SIRT7]] in several CVDs (e.g., hypertrophy) have been observed. Of note, [[SIRT4|SIRT4]] might aggravate [[Cardiac Hypertrophy|cardiac hypertrophy]] and fibrosis. Overall, SIRTs are promising therapeutic targets, and the pharmacological modulation of SIRTs can be used in the prevention and treatment of CVDs. 
 
 SIRTs and respiratory system diseases. Respiratory diseases are one of the biggest threats to human health.[590] Common respiratory diseases, including [[Asthma|asthma]], [[COPD|chronic obstructive pulmonary disease]] ([[COPD|COPD]]), lung fibrosis (LF), coronavirus disease 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-27 
-
-**==> picture [229 x 156] intentionally omitted <==**
 
 Fig. 11 The roles of SIRTs in respiratory system. SIRTs are involved in common respiratory diseases including COPD, asthma, lung fibrosis, COVID-19, and other lung injured diseases. SIRT1, SIRT3 and SIRT6 play protective effects in COPD, and these three members also have a positive effect on asthma. However, SIRT2 and SIRT7 could aggravate the occurrence of asthma. In lung fibrosis, the positive effects of SIRT1, SIRT3, SIRT6 and SIRT7 have been demonstrated. Besides, SIRT3 and SIRT6 contribute to the remission of lung injury, whereas SIRT1 play dual effects on the disease. Moreover, the activation of SIRT1 can effectively alleviate ventilator or paraquatinduced lung injury. Finally, SIRTs are also associated with COVID-19. https://biorender.com 
 
@@ -690,12 +523,6 @@ Due to the preferential mitochondrial association with extended life span in hum
 
 It is possible that [[SIRT6|SIRT6]] participates in the inhibition of cellular fibrosis by regulating the [[TGF-beta1|TGF-β1]] signaling pathway. [[SIRT6|SIRT6]] can also be an ambitious target molecule for understanding the pathogenesis of [[Pulmonary Hypertension|IPF]] through the inhibitory role in [[TGF-β|TGF-β]]-induced [[Cellular Senescence|cellular senescence]].[616] Additionally, Chen et al. have shown that targeting [[SIRT6|SIRT6]] is a potential novel therapeutic strategy for [[Pulmonary Hypertension|pulmonary fibrosis]] that involves inactivating the [[TGF-beta1|TGF-β1]]/[[SMAD2|Smad2]] signaling pathway.[617] Furthermore, [[SIRT6|SIRT6]] prevents [[TGF-beta1|TGF-β1]]-induced lung myofibroblast differentiation by inhibiting the [[TGF-beta1|TGF-β1]]/[[SMAD2|Smad2]] and [[NFKB|NF-κB]] signaling pathways.[618] [[SIRT6|SIRT6]] also inhibits [[EMT|EMT]] during [[Pulmonary Hypertension|IPF]] by inactivating [[TGF-beta1|TGF-β1]]/[[SMAD3|Smad3]] signaling,[619] highlighting the critical 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-28 
-
 role of [[SIRT6|SIRT6]] in LF. Moreover, all SIRTs show a tendency to be expressed at lower levels in fibroblasts from patients compared to controls, but the greatest decrease is observed with [[SIRT7|SIRT7]].[620] Furthermore, the decline in [[SIRT7|SIRT7]] in LF has a profibrotic effect, which is mediated by changes in [[SMAD3|Smad3]] levels.[620] 
 
 The above evidence shows that [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], [[SIRT6|SIRT6]], and [[SIRT7|SIRT7]] are beneficial for preventing and improving the pathogenesis of LF. However, the modulatory roles of other SIRT members remain unclear. Mazumder et al. have reviewed the regulatory roles of under-reported SIRTs (mainly [[SIRT2|SIRT2]], [[SIRT4|SIRT4]], and [[SIRT5|SIRT5]], which lack direct reported associations with LF) in basic cellular and mitochondrial metabolic pathways critical to LF.[607] Overall, they have suggested that SIRTs appear to exert a protective action in LF, except [[SIRT2|SIRT2]], which might have a pro-fibrotic action given its proinflammatory effects observed in [[Asthma|asthma]].[607] In summary, studies on the function of SIRTs in regulating LF have potential. 
@@ -718,21 +545,14 @@ These results suggest that SIRT protein family plays an important role in mainta
 
 Coronavirus disease 2019: In December of 2019, a new strain of coronavirus, severe acute respiratory syndrome–coronavirus 2, was first identified and called [[COVID-19|COVID-19]].[648] The disease has been recognized as pandemic by the World Health Organization. A dysregulated inflammatory profile plays an important role in [[COVID-19|COVID-19]] pathogenesis.[649] It has been reported that the SIRT family has a part in this mechanism. The unbalanced [[p53|p53]]/[[SIRT1|SIRT1]] axis might impact lymphocyte homeostasis in [[COVID-19|COVID-19]] patients.[649] [[COVID-19|COVID-19]] can be characterized not only by an increase in [[p53|p53]] transcription in circulating lymphocytes, but also by a persistently activated [[p53|p53]] form, possibly due to the low level of [[SIRT1|SIRT1]].[649] Therefore, increased [[SIRT1|SIRT1]] expression might help to alleviate the pathogenesis of [[COVID-19|COVID-19]]. Additionally, serum [[SIRT3|SIRT3]] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-29 
-
 levels are associated with the clinical outcome and prognosis of [[COVID-19|COVID-19]] patients.[650] [[SIRT3|SIRT3]] levels are markedly lower in severe patients compared to those in the mild/moderate patients, indicating a positive role of [[SIRT3|SIRT3]] in alleviating [[COVID-19|COVID-19]]. 
 
 In conclusion, SIRTs are involved in [[COVID-19|COVID-19]] and may provide a new therapeutic strategy. However, the impact of SIRTs on regulation of inflammatory homeostasis in severe and mild cases of [[COVID-19|COVID-19]] remains to be determined. 
 
-Conclusion: This section discusses how the SIRT family plays a vital role in various molecular pathways in the respiratory system. SIRTs might be targets for respiratory system-related adverse health events. Increased activity of individual SIRTs often has beneficial effects in pathophysiological conditions, whereas reduced activity is usually associated with disease conditions.[651] This also seems to apply to the respiratory system diseases. In addition, epigenetic alteration is implied in the occurrence and development of various respiratory diseases.[652] Since SIRTs are NAD-dependent deacetylases, their deacetylation activity via epigenetics might be a new research strategy. However, detailed epigenetic roles of SIRTs in the respiratory system still need to be further explored. 
+> [!abstract]
+> Conclusion: This section discusses how the SIRT family plays a vital role in various molecular pathways in the respiratory system. SIRTs might be targets for respiratory system-related adverse health events. Increased activity of individual SIRTs often has beneficial effects in pathophysiological conditions, whereas reduced activity is usually associated with disease conditions.[651] This also seems to apply to the respiratory system diseases. In addition, epigenetic alteration is implied in the occurrence and development of various respiratory diseases.[652] Since SIRTs are NAD-dependent deacetylases, their deacetylation activity via epigenetics might be a new research strategy. However, detailed epigenetic roles of SIRTs in the respiratory system still need to be further explored. 
 
 SIRTs and digestive system diseases. Digestive system diseases, including fatty liver diseases (FLDs), liver and intestinal ischemiareperfusion injury (IRI), [[Aging|HBV]], pancreas diseases, and inflammatory bowel diseases (IBDs), are the most common clinical diseases.[653][,][654] Increasing evidence has suggested that changes in SIRT activity and expression are associated with etiology of various digestive diseases.[280][,][655] As discussed below, SIRTs play an important role in maintaining the homeostasis of digestive system function and participating in the occurrence and development of digestive diseases (Fig. 12). 
-
-**==> picture [229 x 175] intentionally omitted <==**
 
 Fig. 12 The roles of SIRTs in digestive system, mainly including FLDs, liver and intestinal ischemia-reperfusion injury, HBV infection, pancreas diseases, and IBDs. In FLDs, SIRT1, SIRT2, SIRT3, and SIRT4 could provide protective effects, while the role of SIRT7 may be harmful. Notably, the effects of SIRT1, SIRT2, SIRT3, and SIRT4 may be dual effects; in different causes of liver injury, SIRT3 and SIRT6 are beneficial, while SIRT1 plays dual roles; in HBV infection, SIRT3, SIRT4, and SIRT6 can block viral replication, SIRT1, SIRT2, and SIRT5 may contribute to the HBV-induced pathomechanism in nontransformed hepatocytes, while the effect of SIRT7 could be dual; in liver ischemia-reperfusion injury and intestinal ischemia-reperfusion injury, SIRT1 and SIRT3 could reduce tissue damage, and SIRT6 could also protect intestinal ischemia/reperfusion injury, while SIRT2 augments liver ischemia-reperfusion injury; SIRT2, SIRT3, SIRT5, and SIRT7 have a protective role in inflammatory bowel diseases, however, SIRT1 may play opposite role; in other digestive diseases, SIRT1 acts inconsistently. https://biorender.com 
 
@@ -745,12 +565,6 @@ The disease spectrum of FLDs, with high-fat/high-calorie diets, heavy alcohol co
 These include [[PPAR-alpha|PPAR-α]], [[PPARγ|PPAR-γ]] co-activator 1 alpha, and NFκB.[666][–][668] Moreover, [[Fibrosis|liver fibrosis]], oxidative stress, and related gene expression are significantly elevated in hepatocyte-specific [[SIRT6|SIRT6]]-KO mice with [[NASH|nonalcoholic steatohepatitis]].[158][,][669] 
 
 The beneficial effects of [[SIRT2|SIRT2]]-5 on FLD might also be mediated by various biological mechanisms. Although related studies on [[SIRT2|SIRT2]] are limited, it has been demonstrated that [[SIRT2|SIRT2]] prevented [[Non-alcoholic Fatty Liver Disease|NAFLD]] by deacetylation of hepatocyte nuclear factor 4α, a master regulator of gene expression for bile acid, lipids, and glucose metabolism.[670] [[SIRT3|SIRT3]] and [[SIRT5|SIRT5]] improve mitochondrial function and increase mitochondrial [[Fatty acid oxidation|fatty acid oxidation]] to relieve hepatic steatosis.[671][,][672] For example, hepatic overexpression of [[SIRT3|SIRT3]] improves mitochondrial function by deacetylation of mitochondrial trifunctional proteins and long-chain acylcoenzyme A dehydrogenase.[671][,][672] In systematic [[SIRT5|SIRT5]] KO mice, impaired mitochondrial medium-chain [[Fatty acid oxidation|fatty acid oxidation]] drove periportal macrovascular steatosis.[673] Results from in vitro models have shown that [[SIRT4|SIRT4]] upregulation might inhibit high fat diet-induced lipid accumulation, inflammation, and fibrogenesis through the [[SIRT4|SIRT4]]/[[SMAD4|Smad4]] axis. It can also inhibit hepatic stellate cell activation.[662][,][674] Although SIRTs are involved in FLD as protective factors in most studies, the high expression of [[SIRT1|SIRT1]], [[SIRT2|SIRT2]], [[SIRT4|SIRT4]], and [[SIRT7|SIRT7]] in patients with alcoholic hepatitis or [[Non-alcoholic Fatty Liver Disease|NAFLD]] and upregulation of [[SIRT3|SIRT3]] after chronic alcohol exposure in mouse liver might highlight their harmful effects.[224][,][661][,][675][,][676] Results from in vitro studies have suggested that elevated monocyte [[SIRT1|SIRT1]] and [[SIRT7|SIRT7]] levels can prevent p-[[FOXO3a|FoxO3]] formation and cause a defect in [[Apoptosis|apoptosis]] in alcoholic hepatitis.[224] Although hepatocyte 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-30 
 
 [[Apoptosis|apoptosis]] is related to disease severity, proinflammatory hepatic [[Macrophages|macrophages]] also undergo [[Apoptosis|apoptosis]] in response to alcohol. Therefore, [[Apoptosis|apoptosis]] serves as a mechanism that suppresses the inflammatory response in alcoholic liver disease.[677] These results suggest that high [[SIRT1|SIRT1]] and [[SIRT7|SIRT7]] levels in myeloid cells could be a primary event leading to enhanced inflammation, possibly owing to the deleterious consequence of [[Apoptosis|apoptosis]].[677] Intestinal [[SIRT1|SIRT1]] also exerted a partially harmful effect on alcoholic liver disease by intensifying hepatic [[Ferroptosis|ferroptosis]] and inflammation due to the imbalance of gut microbiota.[678] Thus, it is logical to speculate that intestinal [[SIRT1|SIRT1]] might act as a proinflammatory factor. [[SIRT2|SIRT2]] appears to have a deleterious effect on hepatic fibrosis via the [[SIRT2|SIRT2]]/[[ERK|ERK]]/[[c-Myc|c-Myc]] axis.[675] Moreover, in both [[Non-alcoholic Fatty Liver Disease|NAFLD]] and alcoholic fatty liver disease mouse models, liver-specific [[SIRT3|SIRT3]] knockdown alleviated alcoholic feedinginduced liver injury and lipid accumulation, which was associated with improved autophagy induction.[676][,][679] In addition, [[SIRT4|SIRT4]] might have harmful effects on [[Non-alcoholic Fatty Liver Disease|NAFLD]], and its molecular mechanism may be partly associated with deacetylating and destabilizing mitochondrial trifunctional protein-α.[661] 
 
@@ -787,12 +601,6 @@ In the acute liver failure induced by D-galactosamine/LPS, a dramatic decrease i
 Additionally, [[SIRT1|SIRT1]] may have beneficial effects on autoimmune hepatitis. For instance, an in vivo study showed that [[SIRT1|SIRT1]]-null mice developed an autoimmunelike disease related with the accumulation of immune complexes in the liver.[700] Meanwhile, evidence also suggested that the activation of [[SIRT1|SIRT1]] by [[Resveratrol|resveratrol]] could protected against concanavalin A-induced autoimmune hepatitis in aged mice by repressing the expression of p66[shc] .[701] Interestingly, pregnancy induces a state of immune tolerance, which can lead to spontaneous improvement of clinical symptoms of autoimmune hepatitis.[702] As for mechanism, this may be associated with the activation of [[SIRT1|SIRT1]] by chorionic gonadotropin signaling.[702] 
 
 Moreover, [[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and [[SIRT6|SIRT6]] may play important roles in [[Liver|cirrhosis]].[665][,][669][,][703] The study suggested that [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] were decreased at protein level in the livers of patients with [[Liver|cirrhosis]].[665][,][669] Besides, an in vivo study also suggested that enhanced expression of [[SIRT3|SIRT3]] by curcumin 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-31 
 
 had protective effects on [[Liver|cirrhosis]].[703] However, the exact molecular mechanism regarding [[Liver|cirrhosis]] should be further explored. 
 
@@ -834,12 +642,6 @@ Studies have demonstrated the beneficial effects of [[SIRT1|SIRT1]], [[SIRT3|SIR
 
    - associated enterocolitis and necrotizing enterocolitis, [[SIRT1|SIRT1]] was downregulated and involved in inflammation.[729][,][730] [[SIRT1|SIRT1]] can be suppressed via [[MicroRNA|miR-132]] and miR-212 or downregulated retinoid-related orphan receptor α by exosomal miR-18a-5p and then activate the [[NFKB|NF-κB]] signaling pathway, [[NLRP3|NLRP3 inflammasome]], and [[Caspase-1|caspase-1]]-mediated [[Pyroptosis|pyroptosis]], thereby encouraging the inflammatory response in Hirschsprung-associated enterocolitis mice.[729][,][731] Similarly, [[SIRT1|SIRT1]] activation might decrease the damage caused by necrotizing enterocolitis by decreasing proinflammatory 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-32 
-
 - cytokines and oxidative stress proteins and by increasing the anti‑inflammatory cytokine pathway.[730][,][732] [[SIRT1|SIRT1]] alleviated the inflammatory response and intestinal epithelial barrier dysfunction by regulating the expression and inactivation of [[HIF-1α|HIF-1α]].[730] In conclusion, current studies on intestinal system 
 
 - diseases have mostly focused on [[Inflammation|IBD]]. There are limited studies on other SIRTs, except [[SIRT1|SIRT1]], which is a field worthy of further development. In addition, both protective and deleterious effects of [[SIRT1|SIRT1]] have been explored in intestinal diseases. The proinflammatory effects of [[SIRT1|SIRT1]] and regulation of different immune cells might play an important role in aggravating intestinal diseases. As SIRTs have various biological functions in intestinal diseases, they and their underlying mechanisms are promising novel targets for studying the development of intestinal diseases. 
@@ -856,8 +658,6 @@ Alzheimer’s disease (AD): AD is the most common neurodegenerative disorder tha
 
 Amyloid beta (Aβ) is a normal and soluble product of neuronal metabolism,[738] and Aβ-mediated extracellular senile plaque is regarded as one of the major pathological lesions of AD.[739] Previous evidence has suggested that SIRTs played important roles in the regulation of Aβ.[739] For example, in vitro study has shown that overexpression of [[SIRT1|SIRT1]] could reduce Aβ-induced [[Senescence|senescence]] and mitochondrial dysfunctions,[740] and related 
 
-**==> picture [229 x 157] intentionally omitted <==**
-
 Fig. 13 The role of SIRTs in nervous system, mainly including AD, HD, PD, brain injury, epilepsy, neuroinflammation, SCI, multiple sclerosis and ALS. SIRT1, SIRT3, and SIRT6 have protective effects on AD, multiple scierosis and amyotrophic lateral scierosis. SIRT1 plays a major protective role in HD. In PD, SIRT1 and SIRT3 provide protective effects. In addition, SIRT1, SIRT3, and SIRT5 are beneficial in both brain injury and epilepsy. SIRT1, SIRT2, and SIRT3 have roles in protecting against neuroinflammation. SIRT1 and SIRT6 could also protect SCI. Notably, the effects of SIRT2 may be harmful on AD, HD, PD, and brain injury. https://biorender.com 
 
 mechanism studies have suggested that [[SIRT1|SIRT1]] could regulate Rho-associated kinase 1 or inflammation to attenuate the accumulation of Aβ.[740][–][742] Similarly, [[SIRT3|SIRT3]] also protects neurons against Aβ pathology and excitotoxicity.[743] In contrast, [[SIRT2|SIRT2]] may have adverse effect on Aβ pathology, and in vivo study has revealed that the suppression of [[SIRT2|SIRT2]] deacetylase activity could alleviate Aβ pathology and cognitive deficits in the AD mouse model.[744] As for the molecular mechanism, [[SIRT2|SIRT2]] could influence the β‐secretase 1 by directly deacetylates reticulon 4B protein, thereby affecting the production of Aβ and ultimately promoting the development of AD.[744] 
@@ -867,12 +667,6 @@ Tau is the major microtubule-associated protein of a mature neuron, and it is a 
 In the healthy brain, high levels of H4K16ac and low levels of [[SIRT2|SIRT2]] coexist with Fzd1 and Fzd7 promoters. A recent study reported a novel role of nuclear [[SIRT2|SIRT2]] in regulating Fzd receptors in AD, wherein nuclear [[SIRT2|SIRT2]] was hyperactivated in AD and [[FoxO1|FoxO1]] recruited [[SIRT2|SIRT2]] to Fzd1 and Fzd7 promoters, leading to a reduction in H4K16ac deacetylation.[752] These findings suggest that [[SIRT2|SIRT2]] inhibition is an attractive target for ameliorating the pathological effects of AD. 
 
 Several studies have shown that autophagy deficits occur in the early stage of AD, which contribute to the process of AD.[753] SIRTregulated autophagy impairment plays a key role in the neurodegenerative process of AD. [[Beclin1|Beclin-1]] acetylation impairs the [[Autophagic Flux|autophagic flux]], which contributes to neurodegeneration in AD. Another study showed that [[SIRT1|SIRT1]] enhances the deacetylation 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-33 
 
 of [[Beclin1|Beclin-1]], thus suggesting the beneficial role of [[SIRT1|SIRT1]] in promoting autophagy in AD neurodegeneration.[270] The loss of function of [[SIRT2|SIRT2]] either through AK1 (a specific [[SIRT2|SIRT2]] inhibitor) or through [[SIRT2|SIRT2]] KO recovers microtubule stabilization and improves autophagy.[299] 
 
@@ -899,12 +693,6 @@ Brain injury such as IRI and [[Stroke|stroke]]: Brain injury, such as IRI and [[
 Several studies have also shown the protective effects of mitochondrial [[SIRT3|SIRT3]] and [[SIRT5|SIRT5]] in IRI. Mitochondrial [[SIRT3|SIRT3]] acts as a prosurvival factor to protect neurons from excitotoxic injury and exerts a protective role in ischemic [[Stroke|stroke]] by regulating the [[HIF-1α|HIF-1α]]/ [[VEGF|vascular endothelial growth factor]] signaling pathway in astrocytes.[775][,][776] Additionally, [[SIRT3|SIRT3]] was found to be downregulated in response to cerebral IRI; therefore, strategies to enhance [[SIRT3|SIRT3]] activity and activate the [[Wnt signaling|Wnt/β-catenin]] pathway could be therapeutic targets for treating cerebral IRI.[777] [[SIRT5|SIRT5]] has also been shown to mediate IR-induced brain damage by increasing the permeability of blood-brain barrier through degradation of the tight junction protein occluding.[778] 
 
 Notably, [[SIRT2|SIRT2]] appears to have detrimental roles in an array of neurological disorders such as PD and HD. The current study demonstrated the neuroprotective effects of [[SIRT2|SIRT2]] inhibition in ischemic [[Stroke|stroke]] and identified the downregulation of the [[Akt|Akt]]/ [[FOXO3a|FoxO3a]] and [[MAPK|MAPK]] pathways as intermediary mechanisms that might contribute to the reduction in apoptotic cell death by [[SIRT2|SIRT2]] inhibition.[248] In clinical practice, [[SIRT2|SIRT2]] might serve as a marker of acute ischemic [[Stroke|stroke]] (AIS) risk and prognosis. Serum [[SIRT2|SIRT2]] expression was increased in patients with AIS as compared to that 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-34 
 
 in non-AIS patients with high [[Stroke|stroke]] risk factors. This finding supports the role of [[SIRT2|SIRT2]] in facilitating disease monitoring and prognosis in patients with AIS.[779] 
 
@@ -934,17 +722,10 @@ SCI is a devastating condition with few effective treatments. Because posttrauma
 
 Diverse causes of neuropathic pain are associated with excessive inflammation in both the peripheral and central nervous system, which might contribute to the initiation and maintenance of persistent pain.[803] SIRTs might serve as a potential therapeutic target for treating neuropathic pain. [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] deacetylases are reported to exert neuroprotective effects on neuroinflammation.[61] [[SIRT1|SIRT1]] activation attenuated Mn-induced oxidative stress and neuroinflammation in adult mice.[804] Overexpression of [[SIRT2|SIRT2]] alleviates neuropathic pain and neuroinflammation.[805] The [[SIRT2|SIRT2]] inhibitor AK-7 exacerbates traumatic brain injury through a potential mechanism involving increased acetylation and nuclear translocation of [[NFKB|NF-κB]] [[p65|p65]], resulting in the upregulation of [[NFKB|NF-κB]] target genes and proinflammatory cytokines.[88] Another study suggested a key protective role of microglial [[SIRT2|SIRT2]] in amnesic deficits associated with neuroinflammation.[806] [[SIRT2|SIRT2]]-deficient mice ([[SIRT2|SIRT2]](−/−)) showed morphological changes in microglia and an increase in proinflammatory cytokines upon intracortical injection of LPS.[807] [[SIRT3|SIRT3]] also regulates mitochondrial oxidative stress response and neuroinflammation. [[SIRT3|SIRT3]]-induced Mst1-[[JNK|JNK]]-SRV2 signaling pathway protected against neuroinflammation-mediated cell damage in BV-2 microglia.[808] LPS induces oxidative stress and neuroinflammation in BV2 cells, which might be mediated in part by the downregulation of triggering receptor expressed on myeloid cells 2 and [[SIRT3|SIRT3]]. Triggering receptor expressed on myeloid cells 2 overexpression ameliorates LPS-induced oxidative stress and neuroinflammation by enhancing [[SIRT3|SIRT3]] function through NAD + .[809] Here, [[SIRT1|SIRT1]]-3 show anti-neuroinflammatory effects. More research is required to elucidate whether these SIRTs affect neuroinflammation and neuropathic pain through the same or different mechanisms. 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-35 
-
-**==> picture [499 x 339] intentionally omitted <==**
-
 Fig. 14 The roles of SIRTs in diabetes and related target organs injury. a SIRT1, SIRT2, SIRT3, SIRT4, and SIRT6 are associated with pathological processes in the occurrence and development of DM. SIRT1 and SIRT2 have dual functions, including both improving insulin sensitivity and reducing insulin responsiveness. SIRT3, SIRT4, and SIRT6 mainly exert protective effect on DM. b SIRT1, SIRT3, SIRT4, and SIRT7 play protective roles in diabetic nephropathy. Low levels of SIRT1 and SIRT3 are associated with renal fibrosis and reduced expressions of SIRT1, SIRT4, and SIRT7 are related to podocyte apoptosis. c Increasing SIRT1 expression can exert protective effect during the development of neuropathy in sensory neuron of spinal cord. Moreover, SIRT1 could also reverse neuron damage in hippocampus. In addition, SIRT3 may inhibit neuropathy in sciatic nerve. d SIRT1, SIRT3, and SIRT6 are reduced in the pathological process of diabetic retinopathy. Additionally, SIRT1 is reduced during the damage of blood-retinal barrier. e SIRT1, SIRT3, and SIRT6 act protective roles in the development of diabetic cardiomyopathy, which consists of heart failure, cardiac fibrosis, cardiac hypertrophy, myocardial infarction, vascular injury and atherosclerosis. https://biorender.com. HOTAIR HOX transcript antisense RNA, Mff mitochondrial fission factor, SGLT2 sodium-dependent glucose transporters 2 
 
-Conclusion: An increasing number of studies predict that the effects of various SIRTs on neurological diseases might be different or even contrasting. However, it is worth noting that positive intervention of SIRT activity, such as through upregulation of SIRTs-activating molecules, might have profound therapeutic benefits on various nervous system diseases. The long-term effects of decreased SIRT levels per se or in chronic neurodegenerative conditions is an important question for future studies. Therefore, in the research process, we should discover new mechanisms of action to elucidate the different results. Additionally, research should be based not only on cellular and animal models but also on the relationship between inflammatory SIRTs and diseases from human epidemiology. 
+> [!abstract]
+> Conclusion: An increasing number of studies predict that the effects of various SIRTs on neurological diseases might be different or even contrasting. However, it is worth noting that positive intervention of SIRT activity, such as through upregulation of SIRTs-activating molecules, might have profound therapeutic benefits on various nervous system diseases. The long-term effects of decreased SIRT levels per se or in chronic neurodegenerative conditions is an important question for future studies. Therefore, in the research process, we should discover new mechanisms of action to elucidate the different results. Additionally, research should be based not only on cellular and animal models but also on the relationship between inflammatory SIRTs and diseases from human epidemiology. 
 
 SIRTs and endocrine system diseases. Endocrine system regulation is important for the maintenance of homeostasis, and it controls hormonal functions under physiological conditions and behaviors as well as adaptations to social environments.[810] Endocrine system disorders lead to various diseases such as [[Diabetes Mellitus|DM]], [[Obesity|obesity]], and [[Metabolic Syndrome|metabolic syndrome]], which causes heavy disease burden worldwide.[811] The activation of SIRT proteins enhances metabolic efficiency and upregulates mitochondrial oxidative metabolism, which are important for 
 
@@ -953,12 +734,6 @@ metabolic balance of human body.[46] A growing number of studies have shown that
 DM: Globally, more than 425 million people are living with DM, and its prevalence is expected to increase at least 50% by 2045.[818] Worldwide, DM is the leading cause of blindness, nontraumatic lower extremity amputations, peripheral neuropathy, and endstage kidney diseas.[819][–][822] Numerous reports have suggested that SIRTs, especially [[SIRT1|SIRT1]]-3, [[SIRT5|SIRT5]], and [[SIRT6|SIRT6]], are associated with biological processes that participate in the development and progression of diabetes, such as glucose metabolism, mitochondrial function, and resistance against cellular stress.[26][,][823][,][824] The expression of SIRTs in patients with DM has been reported inconsistently. The expression of [[SIRT1|SIRT1]]-3 is reduced in patients with DM,[825][–][827] while the expression of [[SIRT5|SIRT5]] and [[SIRT6|SIRT6]] is elevated.[350][,][828] Thus, the altered expression of SIRT proteins might affect the progression of DM. 
 
 SIRT proteins play important roles in the occurrence and development of DM by regulating glucose metabolism and 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-36 
 
 maintaining insulin homeostasis.[6] [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] have been found to have dual function in the development of DM, which might be due to the biological process occurring in the cells from different types of tissues or organs. For instance, [[SIRT1|SIRT1]] overexpression could improve insulin sensitivity and reduce [[Insulin Signaling|insulin resistance]],[829][,][830] while the downregulation of [[SIRT1|SIRT1]] inhibits insulin-stimulated glucose transport in adipocytes in particular by inhibiting insulin signaling.[831] Conversely, hepatic [[SIRT1|SIRT1]] knockdown prevented fasting hyperglycemia by decreasing hepatic glucose production and increasing hepatic insulin responsiveness.[832] [[SIRT2|SIRT2]] could also promote glucose-dependent hepatic glucose uptake by deacetylating K126 of glucokinase regulatory protein.[833] In contrast, the downregulation of [[SIRT2|SIRT2]] ameliorated the reduced activity of [[Akt|Akt]] and increased insulinstimulated glucose uptake in insulin-resistant neuro-2a cells.[834] However, the detailed molecular mechanisms of these bilateral roles remain unclear and need further investigation. 
 
@@ -982,12 +757,6 @@ DN is the most prevalent diabetic complication, and at least 50% of individuals 
 
 DR is a common and specific microvascular complication of DM and remains the leading cause of preventable blindness in working-aged people.[853] It is identified in one third of patients with DM and is associated with increased risk of lifethreatening systemic vascular complications, including [[Stroke|stroke]], coronary heart disease, and [[Heart Failure|heart failure]].[853] Current studies have shown that [[SIRT1|SIRT1]] can alleviate DR;[129] however, related studies are still limited. Previous studies have revealed that overexpression of [[SIRT1|SIRT1]] prevents the increase in capillary cell [[Apoptosis|apoptosis]] and formation of degenerative capillaries,[854] reduces DM-induced inflammation in the retina, and improves DM-induced visual function impairment.[129] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-37 
-
 DCM is also a distinct form of heart disease that represents a major cause of death and disability in patients with diabetes, particularly in the more prevalent [[Type 2 Diabetes Mellitus|type 2 diabetes]] patient population.[855] The activation of [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]] contributes to inhibit the development of DCM. For example, [[SIRT1|SIRT1]] activation inhibits [[ROS|ROS]] generation-induced oxidative stress and fibrosis, thereby attenuating DCM.[856] The activation of [[SIRT3|SIRT3]] also regulates fibrosis, inflammation, [[Apoptosis|apoptosis]], and oxidative stress in diabetic myocardial tissue[149] and attenuates DCM through the reduction in [[p53|p53 acetylation]] and TP53-induced [[Glycolysis|glycolysis]] and [[Apoptosis|apoptosis]] regulator expression together with upregulation of 6-phosphofructo-2-kinase/ fructose-2,6-bisphosphatase isoform 3, which are the key regulators of phosphofructokinase and [[Glycolysis|glycolysis]].[842] In contrast, [[SIRT3|SIRT3]] deficiency aggravated hyperglycemic mitochondrial damage, increased [[ROS|ROS]] accumulation, promoted [[Necroptosis|necroptosis]], possibly activated the [[NLRP3|NLRP3 inflammasome]], and finally exacerbated DCM in mice.[857] 
 
 Therefore, [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]] show positive effects in a variety of diabetic complications, including DKD, DN, DR, and DCM, which indicated that these two SIRTs could serve as promising therapeutic targets in the clinical treatment of DMrelated target organ damage. However, the molecular mechanisms of other SIRTs in regulating diabetic complications are not fully understood and require further studies. 
@@ -1006,17 +775,10 @@ Other metabolic disorders: SIRT proteins are correlated with the occurrence and 
 
 Moreover, [[SIRT1|SIRT1]] could confront [[Metabolic Syndrome|metabolic syndrome]] by inhibiting inflammation. Mechanistically, post-transcriptional stabilization of [[SIRT1|SIRT1]] by HuR repressed inflammation and hyperglycemia and induced E-selectin release and endothelial cell activation to counter [[Metabolic Syndrome|metabolic syndrome]].[817] These findings show the protective roles of [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] in the development of various metabolic disorders. Although limited studies have been conducted on this topic, the modulation of SIRT proteins is thought to play a crucial role in the development and progression of metabolic disorders and is expected to be a therapeutic strategy of metabolic disorders. 
 
-Conclusion: In this section, we have reviewed the role of different SIRT proteins in diverse endocrine system diseases, and current studies are mainly focused on [[SIRT1|SIRT1]]-3 and [[SIRT6|SIRT6]]. Generally, SIRTs play protective roles in the occurrence and progression of a variety of endocrine system diseases. Of note, [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] exert a dual effect on the progression of DM, while [[SIRT6|SIRT6]] overexpression exacerbates diet-induced [[Obesity|obesity]]. Therefore, clarifying the specific mechanism of [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] in DM or revealing the mechanisms underlying their different effects might be of great significance for the clinical treatment of DM. Overall, SIRT proteins are promising therapeutic targets, and the pharmacological modulation of SIRTs could be used to prevent and treat endocrine system diseases. 
+> [!abstract]
+> Conclusion: In this section, we have reviewed the role of different SIRT proteins in diverse endocrine system diseases, and current studies are mainly focused on [[SIRT1|SIRT1]]-3 and [[SIRT6|SIRT6]]. Generally, SIRTs play protective roles in the occurrence and progression of a variety of endocrine system diseases. Of note, [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] exert a dual effect on the progression of DM, while [[SIRT6|SIRT6]] overexpression exacerbates diet-induced [[Obesity|obesity]]. Therefore, clarifying the specific mechanism of [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] in DM or revealing the mechanisms underlying their different effects might be of great significance for the clinical treatment of DM. Overall, SIRT proteins are promising therapeutic targets, and the pharmacological modulation of SIRTs could be used to prevent and treat endocrine system diseases. 
 
 SIRTs and urogenital system diseases. Urogenital system diseases include both urinary system diseases and genital system diseases which can contribute to the loss of some physiological functions, including reabsorption of nutrients, regulation of the balance of – electrolytes and fluid, maintenance of acid base homeostasis, and sexual reproduction.[871][,][872] Thus, urogenital system diseases impose a serious economic and health burden on human development. Increasing evidence suggests that SIRT protein family activity and expression are associated with the occurrence and progression of various urogenital system diseases.[873][–][876] Kidney disease is the most common urinary system disease, and can be divided into acute kidney disease and [[Chronic Kidney Disease|CKD]] according to the disease state.[877] Therefore, in this 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-38 
-
-**==> picture [229 x 221] intentionally omitted <==**
 
 Fig. 15 The roles of SIRTs in genitourinary system. SIRT protein family is involved in common of urogenital system including acute kidney disease, CKD (such as kidney fibrosis, kidney stone, aginginduced kidney injury, and vascular calcification in kidney), and genital system disease (mainly including erectile function, reproductive damage, male infertility, PCOS and endometriosis). SIRT1 play a protective effect in aforementioned disease. Moreover, the positive effects of SIRT3 and SIRT6 have been demonstrated in acute kidney disease, kidney fibrosis, vascular calcification in kidney, and male infertility. However, SIRT3 also play a protective role in kidney stone and PCOS, and SIRT6 is protectively associated aging-induced kidney injury. Besides, SIRT4-5 contribute to the remission of male infertility. Additionally, SIRT2 and SIRT7 can aggravate the occurrence of acute kidney disease, and SIRT2 also can aggravate the occurrence of kidney fibrosis. https://biorender.com 
 
@@ -1035,12 +797,6 @@ There have been limited studies carried out on the associations between [[SIRT2|
 In conclusion, the SIRT protein family could play an important role in [[Renal Failure|AKI]] by regulating multiple cellular and physiologic processes including, [[Apoptosis|apoptosis]], oxidative stress, and mitochondrial function. Therefore, exploring treatment strategies using the SIRT protein family in [[Renal Failure|AKI]] is a promising area. 
 
 Chronic kidney disease: [[Chronic Kidney Disease|CKD]] is characterized by progressive kidney dysfunction of at least three months duration, it affects about 10% of adults worldwide, and is ranked fourteenth in the list of leading causes of death.[894][–][896] According to the World Health Organization estimates, 864,226 deaths (or 1.5% of deaths worldwide) were attributable to [[Chronic Kidney Disease|CKD]] in 2012.[896] [[Chronic Kidney Disease|CKD]] arises from many heterogeneous disease pathways that alter the function and structure of the kidney irreversibly, over months or years. Diabetes and [[Hypertension|hypertension]] are the main causes of [[Chronic Kidney Disease|CKD]] in all high-income and middle-income countries, and many low-income countries.[896] We describe details of associations between the SIRT protein family and both diabetic nephropathy and hypertensive nephropathy in the sections on endocrine system disease and cardiovascular system disease, respectively. In this section, we 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-39 
 
 introduce the effects of the SIRT protein family on other types of [[Chronic Kidney Disease|CKD]], including kidney fibrosis, kidney stones, aging-induced kidney injury, and [[Vascular calcification|vascular calcification]] ([[Vascular calcification|VC]]) in the kidney. 
 
@@ -1068,21 +824,16 @@ Evidence of the effect [[SIRT1|SIRT1]] and [[SIRT6|SIRT6]] on aging-induced kidn
 
 The pathophysiology of [[Chronic Kidney Disease|CKD]] is complex and the etiologies diverse. There are still various unexplored associations between the SIRT protein family (such as [[SIRT2|SIRT2]], [[SIRT4|SIRT4]], [[SIRT5|SIRT5]], and [[SIRT7|SIRT7]]) and different CKDs. Thus, these associations require more in-depth investigation. It could be implied that [[SIRT1|SIRT1]] is an important survival factor and a potential therapeutic target in [[Chronic Kidney Disease|CKD]]. 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-40 
-
 Genital system diseases: To date, only a few studies have explored the SIRT protein family and genital system diseases. Two studies have emphasized the protective effect of [[Resveratrol|resveratrol]] in erectile function and reproductive damage (caused by nicotine), which could positively modulate [[SIRT1|SIRT1]].[919][,][920] Moreover, through an improved level of [[SIRT1|SIRT1]], polyunsaturated fatty acids supplementation attenuates oxidative damage in testis by reinforcing the antioxidant defense system.[876] In addition, to investigate [[SIRT1|SIRT1]] regarding adjuvant strategies in the treatment of male infertility, dysregulation of [[SIRT1|SIRT1]] and mitochondrial SIRT ([[SIRT3|SIRT3]]–[[SIRT5|5]]) genes were associated with human male infertility.[921][,][922] In female genital system disease, a limited number of studies have paid attention to [[PCOS|PCOS]] and endometriosis. [[PCOS|PCOS]] patients had higher [[SIRT1|SIRT1]] levels than healthy controls[923] and involvement of the [[SIRT1|SIRT1]]/[[AMPK|AMPK]] axis in autophagy activation in [[PCOS|PCOS]].[924] [[SIRT3|SIRT3]] deficiency in granulosa cells of [[PCOS|PCOS]] patients might potentially induce impaired oocytes in [[PCOS|PCOS]].[925] Furthermore, previous studies only explored the association between [[SIRT1|SIRT1]] and endometriosis. For example, one study suggested that [[SIRT1|SIRT1]] was over-expressed in eutopic endometrium of women with endometriosis and likely participates in the pathogenesis of endometriosis.[926] Another two studies demonstrated that [[Resveratrol|resveratrol]] has therapeutic potential[601] and [[MicroRNA|miRNA]]-34a[927] might provide a potential biomarker for endometriosis therapeutics. 
 
 In summary, current studies on the SIRT protein family and genital system disease are still in their infancy, and more research is needed in the future to explore these associations. 
 
-Conclusion: In conclusion, current studies have successfully highlighted the critical role of [[SIRT1|SIRT1]] in urogenital and genital system diseases. However, at the molecular level, previous studies did not concentrate on certain pathways; thus, the mechanism of the effect of [[SIRT1|SIRT1]] was inconsistent between different studies. Furthermore, although other SIRT proteins have not been as extensively studied as [[SIRT1|SIRT1]], the important effect of these proteins in urogenital disease should not be ignored. The association between the SIRT protein family and urogenital disease could still be a new direction for further research. 
+> [!abstract]
+> Conclusion: In conclusion, current studies have successfully highlighted the critical role of [[SIRT1|SIRT1]] in urogenital and genital system diseases. However, at the molecular level, previous studies did not concentrate on certain pathways; thus, the mechanism of the effect of [[SIRT1|SIRT1]] was inconsistent between different studies. Furthermore, although other SIRT proteins have not been as extensively studied as [[SIRT1|SIRT1]], the important effect of these proteins in urogenital disease should not be ignored. The association between the SIRT protein family and urogenital disease could still be a new direction for further research. 
 
 SIRTs and motor system diseases. Diseases of the motor system focus on abnormal bone metabolism and diseases resulting from skeletal muscle dysfunction, mainly including [[Osteoarthritis|OA]], [[Osteoporosis|osteoporosis]], [[Aging|IDD]] and skeletal muscle atrophy. In addition to the body’s own self-regulatory mechanisms, exogenous factors such as aging, mechanical stimulation, estrogen, and [[Obesity|obesity]] are involved in the process of bone metabolism and skeletal muscle function.[928] SIRTs are considered promising regulatory genes for bone and skeletal muscle metabolism, involved in processes such as differentiation of bone marrow MSCs, osteoblast viability, skeletal muscle fiber type conversion, endoplasmic reticulum stress and atrophy.[929] Therefore, in this section, we focus on the functions of SIRTs in diseases of the locomotor system and the regulatory roles. 
 
-[[Osteoarthritis|OA]]: [[Osteoarthritis|OA]] is the most common joint disease, and is a type of degenerative disease.[930] Chondrocyte [[Senescence|senescence]] and [[Apoptosis|apoptosis]], [[ECM|ECM]] degradation with synovial inflammation, and dysfunction of the subchondral bone are the core pathological changes in [[Osteoarthritis|OA]].[931] SIRTs may have different roles in influencing chondrocyte activity. Notably, [[SIRT1|SIRT1]] is the best studied SIRT in [[Osteoarthritis|OA]], and negatively regulates important cellular biological processes impairing chondrocytes activity, including [[Apoptosis|apoptosis]] and [[ECM|ECM]] degradation. For example, [[SIRT1|SIRT1]] may reduce [[Apoptosis|apoptosis]] and [[ECM|ECM]] degradation in [[Osteoarthritis|OA]] chondrocytes via the [[Wnt signaling|Wnt/β-catenin]] signaling pathway to counteract aging-induced [[Osteoarthritis|OA]].[932] Furthermore, [[SIRT1|SIRT1]] is regulated by the circ0001103/[[MicroRNA|miR-375]] axis, which attenuates [[IL-1b|IL-1β]]-induced chondrocyte [[Apoptosis|apoptosis]] and [[ECM|ECM]] degradation.[933] In addition, [[SIRT1|SIRT1]] can influence mitochondrial function, defense oxidative stress and 
+[[Osteoarthritis|OA]]: [[Osteoarthritis|OA]] is the most common joint disease, and is a type of degenerative disease.[930] Chondrocyte [[Senescence|senescence]] and [[Apoptosis|apoptosis]], [[ECM|ECM]] degradation with synovial inflammation, and dysfunction of the subchondral bone are the core pathological changes in [[Osteoarthritis|OA]].[931] SIRTs may have different roles in influencing chondrocyte activity. Notably, [[SIRT1|SIRT1]] is the best studied SIRT in [[Osteoarthritis|OA]], and negatively regulates important cellular biological processes impairing chondrocytes activity, including [[Apoptosis|apoptosis]] and [[ECM|ECM]] degradation. For example, [[SIRT1|SIRT1]] may reduce [[Apoptosis|apoptosis]] and [[ECM|ECM]] degradation in [[Osteoarthritis|OA]] chondrocytes via the [[Wnt signaling|Wnt/β-catenin]] signaling pathway to counteract aging-induced [[Osteoarthritis|OA]].[932] Furthermore, [[SIRT1|SIRT1]] is regulated by the circ0001103/[[MicroRNA|miR-375]] axis, which attenuates [[IL-1β|IL-1β]]-induced chondrocyte [[Apoptosis|apoptosis]] and [[ECM|ECM]] degradation.[933] In addition, [[SIRT1|SIRT1]] can influence mitochondrial function, defense oxidative stress and 
 
 inhibit [[Senescence|senescence]] of chondrocytes. [[SIRT1|SIRT1]] can reverse homocysteine-induced deleterious changes in chondrocytes that lead to [[Osteoarthritis|OA]] via the [[SIRT1|SIRT1]]/[[PGC1-α|PGC-1α]]/[[PPARγ|PPAR-γ]] cascade, including mitochondrial dysfunction and accumulation of oxidative stress.[934][,][935] [[SIRT1|SIRT1]] also improves the resistance of cartilage to oxidative stress by inhibiting [[EGFR|epidermal growth factor receptor]] ubiquitination, thereby alleviating [[Osteoarthritis|OA]].[936] Moreover, although there are many mechanisms affecting [[Cellular Senescence|cellular senescence]], [[SIRT1|SIRT1]] can inhibit chondrocyte [[Senescence|senescence]] and [[Osteoarthritis|OA]] by negatively regulating the [[Wnt signaling|Wnt/β-catenin]] signaling pathway.[937] 
 
@@ -1093,12 +844,6 @@ Overall, [[SIRT1|SIRT1]]-3, and [[SIRT6|SIRT6]] have different effects on the vi
 Osteoporosis: Osteoporosis is defined as a systemic skeletal disease characterized by low bone mass and deterioration of bone tissue microarchitecture, which increases bone fragility and fracture susceptibility.[941] Bone exhibits continuous self-renewal, with replacement of old bone by new bone through osteoclastmediated bone resorption and osteoblast-mediated bone formation, thereby repairing microstructural damage to bone, a process called bone reconstruction.[942] In dynamic bone reconstruction, SIRTs not only promote osteoblast differentiation and inhibit osteoclast differentiation, but also inhibit osteoclast bone resorption, ensuring a positive balance between bone metabolism and increased bone mass through multiple pathways.[943] [[SIRT1|SIRT1]] KO mice have a low bone mass phenotype.[944] Therefore, due to the confluence of cellular aging, energy metabolism and bone metabolism, SIRTs are of great significance in the study of [[Osteoporosis|osteoporosis]] pathogenesis. 
 
 Oxidative stress and aging are important factors that regulate the osteogenic differentiation process, and these can also be regulated by [[SIRT1|SIRT1]] and thus are anti-[[Osteoporosis|osteoporosis]].[945] For instance, [[SIRT1|SIRT1]] overexpression increased osteoblast osteogenesis through [[FOXO3a|FoxO3a]] deacetylation and oxidative stress inhibition.[946] Overexpression of [[SIRT1|SIRT1]] might also reduce oxidative stress through the [[FoxO1|FoxO1]] and [[Wnt signaling|β-catenin]] signaling pathways.[222] In addition, [[SIRT1|SIRT1]] plays a protective role in [[Osteoporosis|osteoporosis]] by regulating bone metabolism. For example, [[SIRT1|SIRT1]] is regulated by the [[HIF-1α|HIF-1α]] signaling pathway, which deacetylates sclerostin and activates the [[Wnt signaling|Wnt/β-catenin]] signaling pathway, leading to increased bone anabolism in [[Osteoporosis|osteoporosis]].[947] In postmenopausal [[Osteoporosis|osteoporosis]], [[SIRT6|SIRT6]] has been found to inhibit age-related bone loss by stabilizing ER alpha in preosteoblastic cells.[948] Moreover, SIRTs not only regulate oxidative stress and aging signaling pathways to resist [[Osteoporosis|osteoporosis]], but can also be activated by small molecule drugs such as [[Resveratrol|resveratrol]] to affect bone metabolism. In 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-41 
 
 [[Osteoporosis|osteoporosis]], [[SIRT1|SIRT1]] is activated by [[Resveratrol|resveratrol]] and subsequently restores the levels of serum markers alkaline phosphatase and osteocalcin by inhibiting the [[NFKB|NF-κB]] signaling pathway, which has a protective effect against [[Osteoporosis|osteoporosis]].[949][,][950] 
 
@@ -1112,7 +857,8 @@ In conclusion, SIRTs, including [[SIRT1|SIRT1]]-3, and [[SIRT6|SIRT6]], are invo
 
 Skeletal muscle atrophy: Skeletal muscle atrophy, which is the accelerated degradation of skeletal muscle proteins, mainly involves a variety of chronic diseases, aging, and long-term muscle inactivity.[958] SIRTs inhibit skeletal muscle atrophy and are associated with mechanisms such as mitochondrial dysfunction, autophagy and metabolism. For example, [[SIRT1|SIRT1]] inhibited druginduced mitochondrial dysfunction and thus alleviated skeletal muscle atrophy by activating its downstream signaling [[PGC1-α|PGC-1α]].[959] Moreover, [[SIRT2|SIRT2]] effectively inhibited the [[Autophagic Flux|autophagic flux]], thus maintaining protein metabolism homeostasis in skeletal muscle.[960] [[SIRT3|SIRT3]]-mediated cellular metabolism has an inhibitory effect in skeletal muscle atrophy. [[Angiotensin II|Ang II]] caused skeletal muscle atrophy, and [[SIRT3|SIRT3]] deficiency enhanced [[Angiotensin II|Ang II]]-induced fiber type transformation and mitochondrial metabolic reprogramming, exacerbating skeletal muscle atrophy.[961] The incidence of skeletal muscle atrophy and sarcopenia is increasing year by year.[962] As the research on SIRTs in skeletal muscle physiological and pathological processes continues to advance, SIRTs could be used as targets for the prevention and treatment of skeletal musclerelated diseases. 
 
-Conclusion: SIRTs are key nodes in several degenerative diseases of aging, including [[Osteoarthritis|OA]], [[Osteoporosis|osteoporosis]], and [[Aging|IDD]]. SIRTs play a key role 
+> [!abstract]
+> Conclusion: SIRTs are key nodes in several degenerative diseases of aging, including [[Osteoarthritis|OA]], [[Osteoporosis|osteoporosis]], and [[Aging|IDD]]. SIRTs play a key role 
 
 in bone homeostasis and can maintain the balance between bone formation and resorption by regulating the ratio of osteoblasts to osteoclasts. SIRTs enhance the viability of osteoblasts under unfavorable conditions by resisting [[Senescence|senescence]], inhibiting [[Apoptosis|apoptosis]] and promoting autophagy. Therefore, given the critical role of the SIRTs pathway in bone homeostasis, it is likely to be a potential therapeutic target, laying a solid foundation for further studies in the future. 
 
@@ -1126,14 +872,6 @@ Therefore, SIRTs have very important regulatory roles in aging through participa
 
 In view of the dual involvement of SIRTs in many biological processes, many laboratories have developed both [[Sirtinol|SIRT inhibitors]] and activators, which might act as tools for studying SIRT function and potentially as treatments for different conditions and 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-42 
-
-**==> picture [499 x 429] intentionally omitted <==**
-
 Fig. 16 Structures of most relevant SIRT activators 
 
 diseases. Generally, activators have better therapeutic potential than inhibitors. This might partly be attributed to higher target specificity in the enzyme family and fewer side effects.[976] However, compared to inhibitors, the number of activators is small. The following sections describe in detail the most relevant [[Sirtinol|SIRT inhibitors]] and activators identified so far. 
@@ -1144,33 +882,19 @@ chalcones butein and isoliquiritigenin, the flavones [[Fisetin|fisetin]] and [[Q
 
 As natural compounds did not show high activity on [[SIRT1|SIRT1]], more potent compounds with a greater substrate-binding affinity for [[SIRT1|SIRT1]] have been synthesized. SRT compounds, such as SRT1460 (EC1.5 = 2.9 μM),[983] [[SRT1720|SRT1720]] (EC1.5 = 0.16 μM),[983] [[SRT2104|SRT2104]] (EC1.5 = 0.43 μM),[984] SRT2183 (EC1.5 = 0.36 μM),[983] and SRT3025 (EC1.5 < 1 μM),[985][,][986] were identified in 2007 as selective [[SIRT1|SIRT1]] activators, which were more potent than [[Resveratrol|resveratrol]].[983] 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-43 
-
 They played important roles in the treatment of physiological and pathological conditions.[983][,][987][,][988] For example, employment of SRT compounds in diet-induced and genetically obese mice improved insulin sensitivity and glucose tolerance, stimulated [[Mitochondrial Biogenesis|mitochondrial biogenesis]], and regulated lipid metabolism, thus had beneficial effects on weight loss.[983] Due to these promising activities, some SRT compounds have been evaluated in various clinical trials for the treatment of different conditions and diseases.[989] [[SRT2104|SRT2104]] was the most common intervention for healthy participants and [[Type 2 Diabetes Mellitus|type 2 diabetes]] patients in randomized controlled trials (RCTs).[8][,][990][,][991] 
 
 The development of [[SIRT6|SIRT6]] activators was initially stimulated by early studies showing that free fatty acids containing 14–18 carbons acted as weak [[SIRT6|SIRT6]] activators.[992] [[UBCS039|UBCS039]] is a pyrrolo[1,2-a]quinoxaline reported as the first synthetic activator of [[SIRT6|SIRT6]] deacetylase activity (EC50 = 38 μM).[993] Evidence shows that [[UBCS039|UBCS039]] induced a time-dependent activation of autophagy and induced deacetylation of [[SIRT6|SIRT6]]-targeted histone in several human tumor cell lines.[994] The bis benzenesulfonamide-based prodrug [[UBCS039|MDL-800]] is also reported to be a potent and selective [[SIRT6|SIRT6]] activator with an EC50 value of 10.3 μM.[995] [[UBCS039|MDL-800]] decreased both H3K9ac and H3K56ac at a concentration of 10 µM and showed a dose-dependent effect in Bel7405, PLC/PRF/ 5, and Bel7402 cell lines at 24 h and 48 h.[995] Additionally, [[UBCS039|MDL-800]] decreased [[TGF-beta1|TGF-β1]]-induced activation of myofibroblast and [[ECM|ECM]] production by regulating [[SIRT6|SIRT6]]-dependent [[Wnt signaling|β-catenin]] acetylation and the [[TGF-beta1|TGF-β1]]/Smad signaling pathway.[907] 
 
 [[Sirtinol|SIRT inhibitors]]. Compared to [[Resveratrol|SIRT activators]], more studies have been conducted on [[Sirtinol|SIRT inhibitors]]. A range of potent inhibitors were identified through a variety of development strategies, such as mechanism/structure based, or simply by virtual screening.[976] Most studies focused on the inhibition of human [[SIRT1|SIRT1]] and/or [[SIRT2|SIRT2]]. These available inhibitors are divided into several structural groups based on their mechanism of action and structural features (Supplementary Table 2). Figure 17 shows the structures of these inhibitors. 
 
-Nicotinamide and its analogs: Nicotinamide riboside (NR) and [[Nicotinamide Mononucleotide|NMN]] are important precursors of NAD, in that NAD biosynthesis involves the conversion of [[Nicotinamide|nicotinamide]] to [[Nicotinamide Mononucleotide|NMN]] and subsequent conversion of [[Nicotinamide Mononucleotide|NMN]] to NAD.[996] And the production of [[Nicotinamide Mononucleotide|NMN]] is the key rate-limiting factor in mammalian NAD biosynthesis.[996] Thus, NR and [[Nicotinamide Mononucleotide|NMN]] might affect SIRT activity mainly by affecting the synthesis of NAD. Nicotinamide and its analog, AK-7, are reported to be [[Sirtinol|SIRT inhibitors]]. Of these, [[Nicotinamide|nicotinamide]] is the endogenous inhibitor of SIRTs, which is formed from NAD + during catalysis. Nicotinamide inhibits [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] with IC50 values of approximately 120 μM and 100 μM for [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]], respectively.[997][,][998] Nicotinamide can inhibit the growth and viability of human prostate cancer cells through inhibition of [[SIRT1|SIRT1]].[999] In addition, it blocks proliferation and induces [[Apoptosis|apoptosis]] of chronic lymphocytic [[leukemia|leukemia]] cells.[1000] AK-7, a benzamide (a [[Nicotinamide|nicotinamide]] mimic)-containing compound, shows selective [[SIRT2|SIRT2]] inhibition.[1001] An in vivo study showed that AK-7 improved behavioral and neuropathological phenotypes, prolonged survival, and improved HD neuropathology in R6/2 HD mice.[1002] Furthermore, AK-7 limited the ability of adoptively transferred antigen-specific CD4 + [[T Lymphocyte|T cells]] to cause autoimmune encephalomyelitis in mice and limited disease in lupus-prone MRL/lpr mice.[1003] This might support the development of [[SIRT2|SIRT2]] inhibitors as potential therapeutics for these diseases. 
+Nicotinamide and its analogs: [[NR]] and [[NMN]] are important precursors of NAD, in that NAD biosynthesis involves the conversion of [[Nicotinamide|nicotinamide]] to [[NMN]] and subsequent conversion of [[NMN]] to NAD.[996] And the production of [[NMN]] is the key rate-limiting factor in mammalian NAD biosynthesis.[996] Thus, [[NR]] and [[NMN]] might affect SIRT activity mainly by affecting the synthesis of NAD. Nicotinamide and its analog, AK-7, are reported to be [[Sirtinol|SIRT inhibitors]]. Of these, [[Nicotinamide|nicotinamide]] is the endogenous inhibitor of SIRTs, which is formed from NAD + during catalysis. Nicotinamide inhibits [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] with IC50 values of approximately 120 μM and 100 μM for [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]], respectively.[997][,][998] Nicotinamide can inhibit the growth and viability of human prostate cancer cells through inhibition of [[SIRT1|SIRT1]].[999] In addition, it blocks proliferation and induces [[Apoptosis|apoptosis]] of chronic lymphocytic [[leukemia|leukemia]] cells.[1000] AK-7, a benzamide (a [[Nicotinamide|nicotinamide]] mimic)-containing compound, shows selective [[SIRT2|SIRT2]] inhibition.[1001] An in vivo study showed that AK-7 improved behavioral and neuropathological phenotypes, prolonged survival, and improved HD neuropathology in R6/2 HD mice.[1002] Furthermore, AK-7 limited the ability of adoptively transferred antigen-specific CD4 + [[T Lymphocyte|T cells]] to cause autoimmune encephalomyelitis in mice and limited disease in lupus-prone MRL/lpr mice.[1003] This might support the development of [[SIRT2|SIRT2]] inhibitors as potential therapeutics for these diseases. 
 
 β-naphthol-containing inhibitors: β-naphthol acts as a key group for several [[Sirtinol|SIRT inhibitors]], including [[Splitomicin|splitomicin]], [[Sirtinol|sirtinol]], [[Salermide|salermide]], HR-73, and [[Cambinol|cambinol]]. Both [[Sirtinol|sirtinol]] and [[Splitomicin|splitomicin]] were identified through cell-based screens of more than 1000 compounds in yeast.[1004][,][1005] Splitomicin inhibits human [[SIRT1|SIRT1]] 
 
 and [[SIRT2|SIRT2]] with an IC50 value of 96 μM and 113 μM in vitro, respectively.[9] Treatment with this molecule reduces deacetylase activity, enhances tissue factor mRNA expression in stimulated endothelial cells, and enhances NF-kB/[[p65|p65]] nuclear translocation.[1006] In addition, evidence showed that [[Splitomicin|splitomicin]] could reversed both ischemic preconditioning-mediated lysine deacetylation and ischemic preconditioning-induced cardioprotection.[1007] Sirtinol ([[SIRT1|SIRT1]] IC50 = 131 μM;[1008] [[SIRT2|SIRT2]] IC50 = 3858 μM[1005][,][1008] ) has been shown to induce apoptotic and autophagic cell death in MCF-7 human [[Breast Cancer|breast cancer]] cells.[1009] Sirtinol induced [[Senescence|senescence]]-like growth arrest in human LC H1299 cells and induced [[Senescence|senescence]]-like growth arrest as well as apoptotic and autophagic cell death [[Breast Cancer|breast cancer]] MCF-7 cells.[1009][,][1010] Structure-activity relationship studies on [[Sirtinol|sirtinol]] resulted in improved analogs such as [[Salermide|salermide]], which has a greater inhibitory effect on [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] than [[Sirtinol|sirtinol]].[1011] Salermide was reported to induce the reactivation of proapoptotic genes that were aberrantly repressed in cancer cells by SIRT1mediated [[Histone H4|H4K16]] deacetylation.[1011] Also, [[Salermide|salermide]] had potent antiproliferative on human [[leukemia|leukemia]] MOLT4 cell lines, human breast MDA-MB-231, and colon RKO cancer cell lines and played an inhibitory role in colorectal carcinoma cancer stem cells.[1012] HR-73 was identified as a [[Splitomicin|splitomicin]] derivative, which inhibits the activity of [[SIRT1|SIRT1]] in vitro with an IC50 lower than 5 μM.[1013] It can decrease human immunodeficiency virus transcription through Tat acetylation.[1013] Cambinol, a β-naphthol derivative, is the most promising SIRT inhibitor in this class of compounds.[1014] It inhibits human [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]] with IC50 values of 56 and 59 μM in vitro, respectively,[240] and reduces the expression of poorly differentiated markers α-fetoprotein and glypican, and impairs cell migration in a dose-dependent manner.[1015] It was also reported to reduce the expression of [[c-Myc|N-Myc]] protein and upregulate the expression of the other [[SIRT1|SIRT1]] target genes including early growth response 1, Kv channel interacting protein 4, and phospholipase C beta 1.[1016] 
 
 Indole derivatives: Large-scale fluorescence screening led to the emergence of pure indole [[Sir2 (yeast)|Sir2]] inhibitors in 2005, which are the only series of compounds with a simple indole as the scaffold identified to date.[1017] These compounds include [[EX-527|EX-527]], AC93253, inauhzin, and Ro31–8220. They act as inhibitors of [[SIRT1|SIRT1]], which enhance cell survival and [[p53|p53 acetylation]].[1018] [[EX-527|EX-527]], also called Selisistat, is the first known selective (over [[SIRT2|SIRT2]]/3) and cell-permeable [[SIRT1|SIRT1]] (IC50 = 0.098 μM) inhibitor.[1019] Evidence showed that [[EX-527|EX-527]] decreased tumor growth in endometrial and LC cells xenografted mice.[469][,][1020] Additionally, [[EX-527|EX-527]] could decrease the viability of control HHUA cells and the survival of HEC151 cells and reduce [[Cisplatin|cisplatin]] resistance in HEC1[[T Lymphocyte|B cells]] with mutated and non-functional [[p53|p53]].[469] AC-93253, a compound containing a modified indole ring, preferentially inhibits [[SIRT2|SIRT2]] (IC50 = 6 μM)[1021] and triggers the downregulation of [[Melanoma|melanoma]] progression markers and the inhibition of [[Melanoma|melanoma]] cell proliferation.[1022] Another indole derivative, inauhzin, inhibits the deacetylase activity of [[SIRT1|SIRT1]] with an IC50 value of 0.72 μM.[1023] Inauhzin has potent anticancer activity and represses the growth of xenograft tumors derived from human LC H460 and colon cancer HCT116 cells harboring [[p53|p53]].[1023] Also, inauhzin was found to induce ribosomal stress and the RPL11/RPL5[[MDM2|murine double minute 2]] ([[MDM2|MDM2]]) interaction, activating [[p53|p53]], and suppress cancer cell growth by dually targeting [[SIRT1|SIRT1]] and inosine monophosphate dehydrogenase 2.[1024] SIRTs use NAD as a cosubstrate, whereas kinases use ATP as a co-substrate. Given that both NAD and ATP contain an adenosine moiety, kinase inhibitors might inhibit SIRTs. For example, a nM [[PKC|PKC]] inhibitor, Ro31–8220, shows inhibitory activity against [[SIRT1|SIRT1]] and [[SIRT2|SIRT2]], with IC50 values of 3.5 μM against [[SIRT1|SIRT1]] and 0.8 μM against [[SIRT2|SIRT2]].[1025] In a human neuroblastoma cell line, Ro31–8220 was found to reduce [[PKC|PKC]] activity and the tau phosphorylation pattern.[1026] 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-44 
-
-**==> picture [499 x 445] intentionally omitted <==**
 
 Fig. 17 Structures of most relevant SIRT inhibitors 
 
@@ -1181,14 +905,6 @@ Tenovins: Through phenotypic screening of 30,000 drug-like small molecules able 
 The poor water solubility of [[Tenovins|tenovin-1]] prevents the accurate determination of an IC50 value, whereas IC50 values of [[Tenovins|tenovin-6]] with better water solubility have been reported as follows: [[SIRT1|SIRT1]] IC50 = 21 μM; [[SIRT2|SIRT2]] IC50 = 10 μM;[1030] [[SIRT3|SIRT3]] IC50 = 67 μM.[1030] Both compounds decrease tumor growth in vitro at one-digit micromolar concentrations, and delay tumor growth in vivo without significant general toxicity.[1030] In the BL2 and ARN8 mouse xenograft model, [[Tenovins|tenovin-1]] could reduce tumor growth,[1030] while [[Tenovins|tenovin-6]] was found to delay the growth of xenograft tumors derived from ARN8 cells.[1030] 
 
 Other [[Sirtinol|SIRT inhibitors]]: Many other types of compounds have been reported as [[Sirtinol|SIRT inhibitors]]. Some of them are worth mentioning. Suramin, a polyanionic urea derivative, was originally used as an adenosine receptor antagonist for the treatment of trypanosomiasis and has antiviral and anticancer activity.[1031] It was later found to be a potent SIRT inhibitor with an IC50 of 297 nM, 1150 nM, and 22 μM for [[SIRT1|SIRT1]], [[SIRT2|SIRT2]], and [[SIRT5|SIRT5]], respectively.[1032][,][1033] Suramin has multiple biological effects, such as protection against disc degeneration, perturbation of 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-45 
-
-**==> picture [499 x 252] intentionally omitted <==**
 
 Fig. 18 Characteristics of included randomized controlled trials by (a) regions; (b) condition of subject; (c) examination of tissue and samples; (d) years of recruitment and publication; (e) interventions 
 
@@ -1208,126 +924,50 @@ Sixty-three RCTs included participants with more than 10 different diseases and 
 
 With regard to the intervention/comparison in the study, about half of the studies (n = 34, 47.9%) focused on dietary interventions such as vitamin D and caloric restriction, with a few studies focusing on exercise interventions (n = 11, 15.5%) as well as drug and surgical treatments (n = 6, 8.5%). For example, supplementation of 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-46 
-
 ||Table 1.<br>Summary of published clinical trials on the expression of Sirtuin|Trial [ref]<br>Year<br>Phase Participant<br>Intervention/ Comparison<br>Sample size of<br>intervention/<br>comparison<br>Outcome<br>Main fndings|NCT022584381065<br>2022 N/A<br>Overweight or<br>obese adults<br>• MICRO (5 min brisk walking<br>each hour for 9 h)<br>• ONE (45 min/d continuous<br>brisk walking bout)<br>• SED (sedentary CON)<br>20 (cross-over)<br>Skeletal muscle mitochondrial<br>respiration and molecular<br>adaptations<br>ONE and MICRO enhanced SIRT<br>signaling expression<br>IRCT201406183664N121066<br>2022 N/A<br>[[Non-alcoholic Fatty Liver Disease|NAFLD]] patients<br>• Turmeric powder (six 500-mg<br>capsules)<br>• Placebo (six placebo capsules,<br>for 12 weeks)<br>23/23<br>Blood pressure and serum levels<br>of [[SIRT1|SIRT1]] and adiponectin<br>Turmeric effectively improved [[SIRT1|SIRT1]]<br>levels in patients with [[Non-alcoholic Fatty Liver Disease|NAFLD]]<br>NCT010033921067<br>2022 N/A<br>Healthy adults<br>• Pure Arabica coffee<br>• Blended (Arabica + Robusta)<br>coffee (450 to 600 mL/day for<br>8 weeks)<br>20/33<br>Blood [[SIRT1|SIRT1]], lipids, and<br>homocysteine<br>Both Arabica and blended coffees<br>increased serum [[SIRT1|SIRT1]] concentration<br>U1111-1237-82311068<br>2022 N/A<br>[[Chronic Kidney Disease|CKD]] patients<br>• RT (3 times per week)<br>• RT with BFR (3 times per week,<br>for 6 months)<br>• CON group<br>35/35/35<br>Kidney function<br>[[SIRT1|SIRT1]] increased in the RT and<br>RT+BFR groups<br>NCT024805041069<br>2021 N/A<br>Abdominally obese<br>subjects<br>• Intermittent CR (consumed<br>400/600 kcal (female/male) on<br>two non-consecutive days with<br>normal energy intake rest of<br>the week)<br>• Continuous CR (reduced their<br>energy intake evenly for seven<br>days, for one year)<br>48/54<br>[[SIRT1|SIRT1]] concentrations<br>Effects on [[SIRT1|SIRT1]] concentrations after<br>1 year of CR are sex and BMI-related.<br>Intermittent CR regimen affected<br>[[SIRT1|SIRT1]] to a stronger extent than<br>continuous CR<br>CTRI/2017/05/0085891046<br>2021 N/A<br>RA<br>• Yoga practice (fve times a<br>week for 120 min duration<br>per session)<br>• Non-yoga group (maintain<br>their normal day to day<br>physical activities with no<br>change, for 8 weeks)<br>35/35<br>Changes in disease activity and<br>functional status<br>The mRNA expression levels of [[SIRT1|SIRT1]]<br>were not found to be different<br>statistically in the yoga vs. non-<br>yoga group<br>DRKS000143221070<br>2021 N/A<br>Healthy elderly<br>participants<br>• Exercise (a warm-up and two<br>passes of a strength endurance<br>circuit for 12 weeks)<br>• Exercise and dietary<br>counseling (dietary counseling<br>prior to initiation of the<br>exercise program)<br>• Exercise and CO<br>supplementation (maintain<br>their habitual diet<br>supplemented with capsules<br>providing 2.0 g of CO per day)<br>• CON<br>14/8/9/9<br>SIRT activities ([[SIRT1|SIRT1]], [[SIRT3|SIRT3]], and<br>[[SIRT5|SIRT5]] in blood)<br>The activity of [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]]<br>increased in response to the exercise<br>intervention<br>CAAE:<br>73,585,317.0.0000.54401050<br>2021 N/A<br>Non-diabetic<br>obese women<br>• RYGB (three analyzes were<br>carried out, one day before<br>13<br>ER‑stress and infammation on<br>subcutaneous adipose tissue<br>At 3 and 6 months after RYGB, the<br>expression of [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]]<br>increased compared to the baseline.|
 |---|---|---|---|
-
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-47 
 
 ||Table 1.<br>continued|Trial [ref]<br>Year<br>Phase Participant<br>Intervention/ Comparison<br>Sample size of<br>intervention/<br>comparison<br>Outcome<br>Main fndings|surgery and 3 and 6 months<br>after the surgical procedure)<br>After 3 and 6 months, the expression<br>of [[SIRT1|SIRT1]] was positively correlated<br>with the BMI changes in the same<br>period.<br>IRCT20090822002365N231071<br>2021 N/A<br>Obese women with<br>mild to moderate<br>depressive symptoms<br>• Co- supplementation group<br>(receiving a 50,000 IU VD soft<br>gel weekly + a 250-mg<br>magnesium tablet daily)<br>• VD (receiving a 50,000 IU VD<br>soft gel weekly + a<br>magnesium placebo daily)<br>• Magnesium group (receiving a<br>VD placebo weekly + a 250-<br>mg magnesium tablet daily)<br>• CON (receiving a VD placebo<br>weekly + a magnesium<br>placebo daily, for 8 weeks)<br>25/26/26/25<br>Anthropometric indices,<br>depressive symptoms, serum<br>levels of [[BDNF|BDNF]], infammation,<br>and [[SIRT1|SIRT1]]<br>[[SIRT1|SIRT1]] increased signifcantly in the 3<br>intervention groups. VD plus<br>magnesium supplementation has<br>benefcial infuences on [[SIRT1|SIRT1]]<br>IRCT20141025019669N131072<br>2021 N/A<br>T2D patients<br>• Oral ellagic acid (180 mg<br>once daily)<br>• Placebo (a capsule containing<br>wheat four once daily, for<br>8 weeks)<br>21/21<br>IR and Fetuin-A and<br>serum [[SIRT1|SIRT1]]<br>Ellagic acid supplementation<br>signifcantly increased [[SIRT1|SIRT1]] levels<br>compared with the placebo group<br>IRCT201604202365N111073<br>2020 N/A<br>Obese T2D patients<br>• VD (50,000 IU/week)<br>• Placebo (50,000 IU/week, for<br>8 weeks)<br>42/43<br>Serum 25-OH VD, [[SIRT1|SIRT1]], Irisin,<br>HbA1c, IR indexes, fasting blood<br>sugar, and serum insulin<br>The increase of serum [[SIRT1|SIRT1]] in the<br>intervention group was signifcant.<br>VD supplementation may improve<br>T2D by decreasing HbA1c and<br>increasing [[SIRT1|SIRT1]] and irisin in VD<br>defcient T2D patients<br>IRCT20091114002709N501042<br>2020 N/A<br>Overweight or obese<br>patients with [[PCOS|PCOS]]<br>• Curcumin (500 mg three<br>times daily)<br>• Placebo (1500 mg/day of<br>maltodextrin, for 12 weeks)<br>34/33<br>Oxidative stress enzymes, [[SIRT1|SIRT1]]<br>gene expression<br>Curcumin non-signifcantly increased<br>gene expression of [[SIRT1|SIRT1]]<br>IRCT2016061128392N11074<br>2020 N/A<br>T2D patients<br>• Cinnamon (three capsules of 1<br>g cinnamon extract daily)<br>• Placebo (microcrystalline<br>cellulose daily, for 8 weeks)<br>20/19<br>Expression of systemic<br>infammation factors, [[NFKB|NF-κB]],<br>and [[SIRT1|SIRT1]]<br>Cinnamon supplementation has no<br>benefcial effects in reduction of<br>[[SIRT1|SIRT1]] levels in T2D patients<br>IRCT201512102017N261040<br>2020 N/A<br>CAD<br>• Crocin (30 mg/d)<br>• Saffron aqueous extract<br>(30 mg/d)<br>• Placebo (for 8 weeks)<br>22/23/20<br>Gene expression of [[SIRT1|SIRT1]], 5'-<br>[[AMPK|AMPK]], LOX1, [[NFKB|NF-κB]], and [[MCP-1|MCP-1]]<br>Crocin may have benefcial effects on<br>CAD patients by increasing the gene<br>expression of [[SIRT1|SIRT1]] and [[AMPK|AMPK]].<br>IRCT2015080823559N11075<br>2020 N/A<br>[[COPD|COPD]]<br>• CLA (a soft gel capsule<br>contains CLA 3.2 g daily)<br>•Placebo (the same amount soft<br>gel capsule, for 6 weeks)<br>40/42<br>Forced expiratory volume in<br>one second, BODE index, serum<br>levels of IL-6 and [[SIRT1|SIRT1]]<br>Serum levels of [[SIRT1|SIRT1]] signifcantly<br>increased in the<br>supplementation group<br>IRCT20131117015424N21076<br>2020 N/A<br>Obese adults<br>• α-LA (2 capsules containing<br>600 mg α-LA 1 h before lunch<br>and dinner along with a<br>CR diet)<br>25/25/25/25<br>Anthropometric measurements,<br>serum levels of vascular<br>endothelial growth factor, [[Nitric Oxide|NO]],<br>[[SIRT1|SIRT1]], and PGC1-α<br>SIRT increased signifcantly in the α-<br>LA+Faradic group compared to the<br>control group. It is possible thatα-LA<br>and Faradic have synergic anti-|
 |---|---|---|---|
 
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
 The sirtuin family in health and disease 
 
-48 
-
-Wu et al. 
 
 ||Table 1.<br>continued|Trial [ref]<br>Year<br>Phase Participant<br>Intervention/ Comparison<br>Sample size of<br>intervention/<br>comparison<br>Outcome<br>Main fndings|• Faradic (performed Faradic<br>exercise for 8 weeks and<br>3 sessions of 60 min<br>per week)<br>• α-LA+faradic (received both<br>2 capsules daily containing<br>600 mg and Faradic exercise<br>along with a weight loss<br>regimen)<br>• CON (receive 2 placebo<br>capsules containing 600 mg<br>wheat four with CR diet)<br>[[Obesity|obesity]] effects and exert their effects<br>through increasing the serum level of<br>SIRT and PGC<br>IRCT20091114002709N511077<br>2020 N/A<br>UC<br>• Selenomethionine (200 g/day)<br>• Placebo (capsules contained<br>rice four, for 10 weeks)<br>50/50<br>Expression of [[SIRT1|SIRT1]] and PGC-<br>1α genes<br>Selenium supplementation caused a<br>signifcant decrease in the<br>infammatory response of the colon<br>by a signifcant increase in the<br>expression of the [[SIRT1|SIRT1]] gene<br>REF/2016/01/0105001043<br>2020 N/A<br>RA<br>• YBLI (yogic practices for fve<br>times a week for 120 min<br>duration per session)<br>• Non-yoga group (follow<br>normal day to day physical<br>activities with no change in<br>the routine, for 8 weeks)<br>33/33<br>Changes in disease activity; The<br>levels of psycho-neuro-immune<br>axis markers and the expression<br>patterns of following genes: IL-<br>6, [[TNFα|TNF-α]], [[NFKB|NF-κB]] 1, [[TGF-β|TGF-β]], and<br>[[CD28|CTLA4]]; Change in QOL of RA<br>patients.<br>A marked improvement in the mind-<br>body communicative markers was<br>seen, which is indicated by increased<br>levels of [[BDNF|BDNF]], DHEAS,βendorphins,<br>and [[SIRT1|SIRT1]], followed by 8 weeks of<br>YBLI in RA patients<br>IRCT2016042717254N51078<br>2019 N/A<br>Overweight or obese<br>T2D patients<br>• GC (3 g of GC powder per day)<br>• Placebo (3 g of rusk powder<br>per day, for 10 weeks)<br>41/42<br>Physical activity level, dietary<br>intake, anthropometric<br>measurements, glycemic<br>indices, blood lipids, and<br>[[SIRT1|SIRT1]] levels<br>GC can decrease HbA1c, insulin level,<br>IR, and TG level via increase in [[SIRT1|SIRT1]]<br>concentration in T2D patients<br>IRCT201608223320N131079<br>2019 N/A<br>Obese subjects with<br>VD defciency<br>• VD group (receiving weight<br>loss diet + a bolus dose of<br>50000 IU cholecalciferol)<br>• Placebo group (receiving<br>weight loss diet + placebo<br>pearls contained edible<br>paraffn, every Friday right<br>after lunch, for 12 weeks)<br>22/22<br>Changes in TC, [[LDL|LDL]]-C, TG and<br>[[LDL|HDL]]-C and [[SIRT1|SIRT1]]<br>No signifcant effect of VD<br>supplementation in combination of<br>energy restriction on serum lipids<br>profle and [[SIRT1|SIRT1]] in obese subjects<br>with VD defciency was found<br>REF/2014/09/0075321044<br>2019 N/A<br>Parents of<br>retinoblastoma<br>patients<br>•YBLI program (fve sessions per<br>week for 12 weeks)<br>86<br>Psychological stress and QOL<br>YBLI led to a signifcant increase in<br>the levels of [[SIRT1|SIRT1]]<br>IRCT20161102030649N11041<br>2019 N/A<br>CAD<br>•Crocetin (one capsule of 10 mg<br>per day)<br>• Placebo (one capsule of<br>placebo per day, for two<br>months)<br>24/21<br>The atherogenesis related<br>markers like [[SIRT1|SIRT1]], LOX1,<br>ICAM1, VCAM1, and [[MCP-1|MCP-1]]; the<br>clinical outcomes, lipid profle,<br>dietary intake, appetite, and<br>h-FABP<br>The expression of [[SIRT1|SIRT1]] gene<br>statistically changed between the<br>studied groups at the end of the trial.<br>The relative increase in the gene<br>expressions of [[SIRT1|SIRT1]] in isolated<br>PBMCs in the crocetin group were<br>signifcant at the end of the trial in<br>comparison with the placebo||
 |---|---|---|---|---|
 
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-49 
-
 ||Table 1.<br>continued|Trial [ref]<br>Year<br>Phase Participant<br>Intervention/ Comparison<br>Sample size of<br>intervention/<br>comparison<br>Outcome<br>Main fndings|NCT028861691080<br>2018 N/A<br>Health employees<br>• HFM+SIO (100 g of buttered<br>bread and sweetened coffee,<br>also included 15 mL of<br>commercial SIO)<br>• HFM (100 g of buttered bread<br>and sweetened coffee with a<br>2-week washout period)<br>42 (cross-over)<br>Carbohydrate metabolism and<br>gene expression of [[SIRT1|SIRT1]]<br>A higher concentration of fasting<br>triacylglycerides and [[SIRT1|SIRT1]]<br>expression at 4 hours post SIO. [[SIRT1|SIRT1]]<br>expression correlates with<br>postprandial insulin sensitivity<br>NCT017547921081<br>2018 N/A<br>Obese subjects<br>• PEB for 12 weeks<br>13<br>PBMCs, VAT and SAT<br>The consumption of a PEB increased<br>[[SIRT1|SIRT1]] protein expression in PBMCs<br>NCT034395921082<br>2018 N/A<br>Obese patients with<br>pre-diabetic<br>condition/normo-<br>glycemic condition<br>• A hypocaloric diet added to<br>[[Metformin|metformin]] therapy (850 mg<br>twice a day)<br>•A hypocaloric diet plus placebo<br>20/38<br>Infammatory cytokines and<br>[[SIRT1|SIRT1]] levels in subcutaneous<br>abdominal fat<br>An inverse correlation was found<br>between subcutaneous fat<br>expression of [[SIRT1|SIRT1]] and myocardial<br>performance index<br>IRCT2015121317254N41083<br>2018 N/A<br>Obese patients<br>with [[Non-alcoholic Fatty Liver Disease|NAFLD]]<br>• GC (3 g/day)<br>•Placebo (toastfour 3 g/day, for<br>3 months)<br>43/44<br>Serum [[SIRT1|SIRT1]] and infammation<br>GC supplementation could improve<br>some biomarkers related to fatty liver<br>including infammation and [[SIRT1|SIRT1]] in<br>overweight/obese [[Non-alcoholic Fatty Liver Disease|NAFLD]] patients<br>REF/2014/09/0075321045<br>2018 N/A<br>MDD patients<br>• YMLI (included sessions fve<br>days per week for 12 weeks)<br>• CON<br>29/29<br>Changes in severity of MDD.<br>Changes in the levels of blood<br>biomarkers related to<br>neuroplasticity<br>YMLI signifcantly increased [[SIRT1|SIRT1]].<br>Increased [[SIRT1|SIRT1]] and [[Telomerase|telomerase]]<br>activity and decreased cortisol<br>signifcantly predicted this<br>association<br>IRCT201206144010N81084<br>2018 N/A<br>T2D patients<br>• PJ (250 mL daily)<br>•Placebo (250 ml corresponding<br>control beverages of similar<br>color and energy content daily,<br>for 12 weeks)<br>22/22<br>Plasma concentrations of<br>soluble [[ICAM-1|ICAM-1]], soluble VCAM-<br>1, and soluble E-selectin; [[NFKB|NF-κB]]<br>[[p65|p65]] and [[SIRT1|SIRT1]] in the PBMC.<br>Compared with the placebo group,<br>[[SIRT1|SIRT1]] was signifcantly higher in the<br>PJ group<br>NCT017144791085<br>2017 N/A<br>Health adults<br>• LC+CHO+EAA (treadmill<br>walking, wearing a vest equal<br>to 30% of body mass + 46 g<br>CHO and 10 g EEAs)<br>• CE+CHO+EAA (CE+46 g<br>CHO and 10 g EAAs)<br>• LC+CON (treadmill walking,<br>wearing a vest equal to 30% of<br>body mass + non-nutritive<br>drinks)<br>• CE+CON (CE+non-nutritive<br>drinks)<br>6/7/5/7<br>Mitochondrial Biogenesis-<br>Related Gene Expression<br>[[SIRT1|SIRT1]] expression postexercise was<br>higher for CON than for CHO+EAA<br>treatments<br>NCT019397821086<br>2017 N/A<br>Healthy volunteers<br>and T2D patients<br>• Breakfast and lunch<br>• Only lunch<br>32 (cross-over)<br>Clock gene expression and<br>postprandial glycemia<br>In healthy individuals, the expression<br>level of [[SIRT1|SIRT1]] was lower after<br>breakfast. In individuals with T2D,<br>[[SIRT1|SIRT1]] only slightly, but signifcantly,<br>decreased after breakfast. In healthy<br>individuals, the expression level of<br>[[SIRT1|SIRT1]] was higher after lunch on<br>breakfast and lunch day<br>NCT022537321087<br>2017 N/A|
 |---|---|---|---|
 
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
 The sirtuin family in health and disease 
 
-50 
-
-Wu et al. 
 
 ||Table 1.<br>continued|Trial [ref]<br>Year<br>Phase Participant<br>Intervention/ Comparison<br>Sample size of<br>intervention/<br>comparison<br>Outcome<br>Main fndings|Early/mid-stage PD<br>patients and<br>sedentary seniors<br>• 3-month combined strength-<br>endurance supervised exercise<br>training program<br>11 (PD patients)<br>+ 11 (sedentary<br>seniors)<br>REE, glucose metabolism,<br>adiposity, and 31P- muscle<br>energy metabolism<br>Improvements in fasting glycemia<br>were positively associated with<br>muscle function and the expression<br>of [[SIRT1|SIRT1]]<br>NCT022615451088<br>2017 N/A<br>T2D patients<br>• n-3 PUFA supplement (3 soft<br>gels daily)<br>• Placebo (3 soft gels daily, for<br>10 weeks)<br>44/41<br>Circulating level of adiponectin<br>and mRNA expression of<br>AdipoR1, AdipoR2 and [[SIRT1|SIRT1]]<br>No signifcant changes were<br>observed for [[SIRT1|SIRT1]] expression<br>NCT004291951089<br>2016 N/A<br>MetS patients<br>• HSFA<br>• HMUFA<br>• LFHCC diets supplemented<br>with long-chain n-3 PUFA<br>(LFHCC supplemented with<br>high-oleic sunfower seed oil<br>capsules) for 12 weeks<br>17/18/20/20<br>Advanced glycation and<br>product metabolism<br>Consumption of HMUFA and LFHCC<br>n-3 diets produced higher [[SIRT1|SIRT1]]<br>mRNA levels compared to the<br>other diets<br>NCT006922371047<br>2016 N/A<br>T2D patients<br>• Sildenafl (100 mg/day)<br>• Placebo (for 12 weeks)<br>29/25<br>Anthropometric and metabolic<br>parameters<br>Up-regulation of [[SIRT1|SIRT1]], a known<br>target of [[MicroRNA|miR-22]]-3p, was found in<br>both serum and subcutaneous fat in<br>sildenafl-treated subjects. Treatment<br>with PDE5 inhibitors in humans and<br>murine models of diabetes improves<br>VAT, targeting [[SIRT1|SIRT1]] through a<br>modulation of [[MicroRNA|miR-22]]-3p expression<br>NCT013631411090<br>2016 N/A<br>Obese individuals<br>with the MetS<br>• AGE diet<br>• Regular diet<br>51/49<br>IR<br>The L-AGE diet markedly enhanced<br>the protective factors [[SIRT1|SIRT1]]<br>NCT021320911091<br>2015 N/A<br>Healthy non-obese<br>participants<br>• IF+antioxidant (vitamin C<br>500 mg twice each day and<br>vitamin E 400 IU/day)<br>• IF+placebo capsules<br>17 (cross-over)<br>Expression of genes refecting<br>aging and oxidative stress;<br>dietary satisfaction; diet<br>compliance<br>A marginal increase (2.7%) was<br>detected in [[SIRT3|SIRT3]] expression due to<br>the IF diet<br>NCT017659461048<br>2015 N/A<br>Prediabetic patients<br>• Metformin (1500 mg/day)<br>• Placebo (for 2 months)<br>19/19<br>Effects of [[Metformin|metformin]] on<br>metabolic parameters, [[Longevity|longevity]]<br>pathway effectors, [[AMPK|AMPK]]<br>activation, chromatin<br>accessibility of the [[SIRT1|SIRT1]]<br>promoter, [[Telomere Attrition|telomere]] length, and<br>the N-glycan profle<br>Metformin increased [[SIRT1|SIRT1]]<br>expression<br>NCT020119061092<br>2015 N/A<br>CAD patients<br>• OE (4 g/day of n-3 fatty acids<br>and 400 IU of vitamin E)<br>• OP (4 g/day of n-3 fatty acids<br>and vitamin E placebo)<br>• PP (received both n-3 fatty<br>acids and vitamin E placebo<br>soft gels) for 2 months<br>21/20/19<br>[[SIRT1|SIRT1]] and [[PGC1-α|PGC-1α]] gene<br>expression and serum levels of<br>antioxidant enzymes<br>Gene expression of [[SIRT1|SIRT1]] and PGC-<br>1α increased signifcantly in the OE<br>group. Supplementation of n-3 fatty<br>acids in combination with vitamin E<br>may have benefcial effects on CAD<br>patients by increasing gene<br>expression of [[SIRT1|SIRT1]] and [[PGC1-α|PGC-1α]]<br>NCT021225751093<br>2015 N/A<br>Healthy volunteers<br>• 24-hour fast/ then was fed a<br>fxed-calorie meal<br>19<br>[[NLRP3|NLRP3]] infammasome<br>activation<br>In a human [[Macrophage|macrophage]] line,<br>depletion of the mitochondrial-<br>enriched SIRT deacetylase [[SIRT3|SIRT3]]<br>increased [[NLRP3|NLRP3]] infammasome<br>activation in association with||
 |---|---|---|---|---|
 
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-51 
-
 ||Table 1.<br>continued|Trial [ref]<br>Year<br>Phase Participant<br>Intervention/ Comparison<br>Sample size of<br>intervention/<br>comparison<br>Outcome<br>Main fndings|excessive mitochondrial [[ROS|ROS]]<br>production. Nutrient levels regulate<br>the [[NLRP3|NLRP3]] infammasome, in part<br>through [[SIRT3|SIRT3]]-mediated<br>mitochondrial homeostatic control<br>PACTR2014070008561351049<br>2015 N/A<br>Obese patients with/<br>without T2D<br>• Obese patients without T2D<br>received fenofbrate 160 mg/<br>day<br>• Obese patients with T2D<br>received fenofbrate 160 mg/<br>day<br>• Obese patients with T2D<br>received fenofbrate (160 mg/<br>day) and pioglitazone (15 mg/<br>day), for eight weeks<br>15/15/14<br>Serum [[SIRT1|SIRT1]] and fetuin A<br>[[SIRT1|SIRT1]] levels in obese patients with<br>T2D were signifcantly lower than its<br>levels in obese patients. Fenofbrate,<br>alone and in combination with<br>pioglitazone, signifcantly increased<br>[[SIRT1|SIRT1]] level<br>ACTRN126130008747181094<br>2015 N/A<br>Middle-aged,<br>inactive men<br>• SSG (3d/week)<br>• CYC (3d/week)<br>• Normal activity and dietary<br>patterns, for 8 weeks<br>10/11/11<br>The effcacy to improve risk-<br>factors associated with the<br>prevention of T2D<br>There were no differences within or<br>between conditions for protein<br>content of [[SIRT1|SIRT1]]<br>NCT018900701095<br>2014 N/A<br>Healthy volunteers<br>• Baseline (fasting)<br>• FRW (fasting + 250 mL<br>red wine)<br>• MM<br>• MMRW (MM+250 mL<br>red wine)<br>• McD<br>• McD+250 mL red wine<br>24 (cross-over)<br>Oxidized [[LDL|LDL]] level, oxidative<br>and infammatory gene<br>expression<br>[[SIRT2|SIRT2]] expression increased<br>signifcantly in comparison of FRW<br>versus MMRW. The value of the<br>Pearson coeffcient shows a positive<br>correlation between [[SIRT2|SIRT2]] and<br>[[Catalase|catalase]] expression in McD and<br>MMRW as well as a negative<br>correlation between expression of<br>[[SIRT2|SIRT2]] and C-C motif ligand 5 in MM<br>and McD<br>NCT006912101096<br>2013 I<br>Relapsed/refractory<br>biopsy proven<br>lymphoma patients<br>• A vorinostat fxed dose of<br>400 mg orally on days 1 to 14<br>of a 21-day cycle. Niacinamide<br>was given orally on days 1<br>through 14 of a 21-day cycle<br>and escalated as follows:<br>20 mg/kg, 40 mg/kg, 60 mg/kg,<br>80 mg/kg, and 100 mg/kg.<br>25<br>Maximal tolerated dose and<br>dose-limiting toxicity of<br>vorinostat and niacinamide in<br>combination; Overall response<br>rate and duration of response<br>Treatment of diffuse large B-cell<br>lymphoma with the combination of<br>SIRT and deacetylase inhibitors leads<br>to synergistic cytotoxicity and<br>acetylation of Bcl6 and [[p53|p53]]|α-LA alpha-lipoic acid, AdipoR adiponectin receptor, [[BDNF|BDNF]] [[BDNF|brain-derived neurotrophic factor]], BFR blood fow restriction, BMI body mass index, BODE BMI, airway obstruction, dyspnea, exercise tolerance, CAD<br>coronary artery disease,CEcycle ergometry,CHOcarbohydrate,CKDchronic kidney disease,CLAconjugated linoleic acid,COcalanusfnmarchicus oil,CONcontrol,COPDchronic obstructive pulmonary disease,<br>CR caloric restriction, [[CD28|CTLA4]] cytotoxic T-lymphocyte-associated protein 4, CYC continuous stationary cycling, DHEAS dehydroepiandrosterone sulfate, EAA essential amino acid, ER endoplasmic reticulum, GC<br>green cardamom, HbA1c hemoglobin A1c,[[LDL|HDL]]-C low high density lipoprotein cholesterol, h-FABP heart-type fatty acid binding protein, HFM high-saturated fat, HMUFA high monounsaturated fatty acid, HSFA<br>high saturated fatty acid, ICAM1 intercellular adhesion molecule 1, IF intermittent fasting, IR [[Insulin Signaling|insulin resistance]], L-AGE restricted AGE intake, LC load carriage, [[LDL|LDL]] low density lipoprotein, [[LDL|LDL]]-C low-density<br>lipoprotein cholesterol,LFHCClow-fat, high-complex carbohydrate,LOX1lectin-like [[Oxidized LDL|oxidized LDL]] receptor 1,McDMcDonald’s meal,MDDmajor depressive disorder,MetSmetabolic syndrome,MMMediterranean<br>meal, [[Non-alcoholic Fatty Liver Disease|NAFLD]] [[Non-alcoholic Fatty Liver Disease|nonalcoholic fatty liver disease]], [[Nitric Oxide|NO]] [[Nitric Oxide|nitric oxide]], PBMC peripheral blood mononuclear cell, [[PCOS|PCOS]] polycystic ovarian syndrome, PD Parkinson’s disease, PDE5 phosphodiesterase type 5, PEB pinitol-<br>enriched beverage,PJpomegranate juice,PUFApolyunsaturated fatty acid,QOLquality of life,RArheumatoid arthritis,REEresting energy expenditure,RTresistance training,RYGBRoux-en-Y gastric bypass,SAT<br>subcutaneous adipose tissue,SIOsacha inchi oil,SIRTsirtuin,SSGsmall-sided game,T2Dtype 2 diabetes,TCtotal cholesterol,TGtriglyceride,UCulcerative colitis,VATvisceral adipose tissue,VCAM1vascular cell<br>adhesion molecule 1, VD vitamin D, YBLI yoga-based lifestyle intervention, YMLI yoga-and meditation-based lifestyle intervention|
 |---|---|---|---|---|
-
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-52 
 
 ||Table 2.<br>Summary of published clinical trials on Sirtuin activators|Trial [ref]<br>Year<br>Phase<br>Participant<br>Intervention/<br>Comparison<br>Sample size of intervention/<br>comparison<br>Outcome<br>Main Findings|NCT022459321056<br>2020 N/A<br>[[COPD|COPD]]<br>• Resveratrol (150 mg/day)<br>• Placebo (for 4 weeks)<br>11/10<br>Mitochondrial function<br>Muscle [[Mitochondrial Biogenesis|mitochondrial biogenesis]]<br>regulators [[SIRT1|SIRT1]] was not improved<br>by [[Resveratrol|resveratrol]]. An unexpected<br>decline was shown in lean mass with<br>[[Resveratrol|resveratrol]] supplementation in<br>patients with [[COPD|COPD]]<br>IRCT20181029041490N1978<br>2019 N/A<br>Patients with T2D and CHD<br>• Resveratrol (500 mg/day)<br>• Placebo (for 4 weeks)<br>28/28<br>IR<br>Resveratrol upregulated [[PPARγ|PPAR-γ]] and<br>[[SIRT1|SIRT1]] in PBMC of [[Type 2 Diabetes Mellitus|T2DM]] patients<br>with CHD<br>IRCT201511233664N161058<br>2018 N/A<br>[[Non-alcoholic Fatty Liver Disease|NAFLD]] patients<br>• The CR diet (prescribed low-<br>calorie diet)<br>• Resveratrol (600 mg/day)<br>• Placebo capsules (600 mg/<br>day starch, for 12 weeks)<br>30/30/30<br>Anthropometric indices,<br>metabolic parameters, and<br>serum [[SIRT1|SIRT1]] levels<br>No signifcant changes were seen in<br>[[SIRT1|SIRT1]] levels in any group<br>NCT016688361052<br>2018 N/A<br>Healthy subjects<br>• Resveratrol (500 mg/day)<br>•CR (1000 cal/day, for 30 days)<br>24/24<br>Gene expression of [[SIRT1|SIRT1]] and<br>endogenous secretory receptor<br>Both [[Resveratrol|resveratrol]] supplementation<br>and CR stimulated [[SIRT1|SIRT1]] serum<br>concentrations<br>NCT022448791054<br>2018 N/A<br>T2D patients<br>• Resveratrol (500 mg/day)<br>• Resveratrol (40 mg/day)<br>• Placebo (inert<br>microcellulose) for 6 months<br>43/43/42<br>Association between changes<br>in [[SIRT1|SIRT1]] level and variation in<br>H3K56ac value<br>Increased [[SIRT1|SIRT1]] expression was<br>associated with signifcant H3K56ac<br>content reduction and increased<br>serum antioxidant activity in T2D<br>patients. [[SIRT1|SIRT1]]-mediated changes in<br>the epigenome and in the<br>antioxidant, response might impact<br>on diabetes-associated risk factors<br>NCT015048547<br>2017 II<br>Mild-moderate AD patients<br>• Resveratrol (500 mg orally<br>once daily and a dose<br>escalation by 500-mg<br>increments every 13 weeks,<br>ending with 1000 mg<br>twice daily)<br>• Placebo (matching placebo,<br>for 52 weeks)<br>19/19<br>Safety and tolerability as well as<br>effects on AD biomarkers and<br>volumetric MRI<br>Resveratrol decreases CSF [[MMP1|MMP9]],<br>modulates neuro-infammation, and<br>induces adaptive immunity. [[SIRT1|SIRT1]]<br>activation may be a viable target for<br>treatment or prevention of<br>neurodegenerative disorders<br>NCT01031108990<br>2017 I<br>T2D patients<br>• Oral [[SRT2104|SRT2104]] (2.0 g/day)<br>• Placebo (Sirtris<br>Pharmaceuticals 2.0 g/day,<br>for 28 days)<br>15/14<br>Pharmacokinetics of SRT2014;<br>Cardiovascular effects of<br>[[SRT2104|SRT2104]]; Endogenous<br>fbrinolysis and monocyte and<br>platelet activation; Metabolic<br>effects<br>Short-term [[SIRT1|SIRT1]] activation in<br>humans is well tolerated and has<br>predominantly neutral effects on<br>markers of endothelial function and<br>platelet-monocyte function<br>NCT014534911061<br>2016 N/A<br>Patients with mild to<br>moderate UC<br>• [[SRT2104|SRT2104]] (500 mg/day)<br>• [[SRT2104|SRT2104]] (50 mg/day, for<br>8 weeks)<br>13/13<br>Colonic exposure, safety, and<br>clinical activity of [[SRT2104|SRT2104]]<br>[[SRT2104|SRT2104]] did not demonstrate<br>signifcant clinical activity in mild to<br>moderately active UC<br>NCT01031108991<br>2016 I<br>Healthy cigarette smokers<br>and T2D patients<br>• Oral [[SRT2104|SRT2104]] (2.0 g/day)<br>• Placebo (2.0 g/day, for<br>28 days)<br>11/13 (healthy<br>cigarette<br>smokers);7/8 (T2D<br>patients)<br>Pulse wave analysis and<br>velocity; blood pressure<br>Compared to placebo, treatment<br>with [[SRT2104|SRT2104]] was associated with a<br>signifcant reduction in<br>augmentation pressure. [[SRT2104|SRT2104]]<br>may improve arterial compliance in|
 |---|---|---|---|
 
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-53 
-
 ||Table 2.<br>continued|Trial [ref]<br>Year<br>Phase<br>Participant<br>Intervention/<br>Comparison<br>Sample size of intervention/<br>comparison<br>Outcome<br>Main Findings|otherwise healthy cigarette smokers<br>and in people with T2D, without<br>affecting resting measures of blood<br>pressure<br>NCT016688361053<br>2016 N/A<br>Healthy participants<br>• Resveratrol (500 mg/day)<br>• Low-calorie diet (1000 cal/<br>day, for 30 days)<br>24/24<br>Serum lipid parameter, glucose,<br>insulin, oxidative stress,<br>C-reactive protein, and [[SIRT1|SIRT1]]<br>CR and [[Resveratrol|resveratrol]] signifcantly<br>increased plasma concentrations<br>of [[SIRT1|SIRT1]]<br>NCT011541011097<br>2015 IIa<br>Stable plaque-psoriasis<br>• [[SRT2104|SRT2104]] (250 mg/day)<br>• [[SRT2104|SRT2104]] (500 mg/day)<br>• [[SRT2104|SRT2104]] (1000 mg/day)<br>• Placebo, for 84<br>consecutive days<br>9/12/11/7<br>The change in histological<br>assessments of skin biopsies of<br>psoriatic lesions; the<br>assessment of effect of [[SRT2104|SRT2104]]<br>on Psoriasis Area Severity Index<br>and Physician Global<br>Assessment scores in patients<br>with moderate to severe plaque<br>psoriasis<br>Substantial improvement was found<br>in 9 subjects following 84 days of<br>treatment with [[SRT2104|SRT2104]]. Although<br>absorption was relatively linear with<br>dose, we did not observe a dose-<br>response in the histology endpoint<br>NCT010141171055<br>2015 N/A<br>Healthy, nonsmoking, male<br>volunteers<br>• [[SRT2104|SRT2104]] (2.0 g/day)<br>• Placebo on days 1–6 and<br>[[SRT2104|SRT2104]] (2.0 g) on day 7<br>• Placebo, for seven<br>consecutive days<br>8/8/8<br>LPS-induced IL-6 and IL-8<br>release; LPS-induced<br>coagulation; LPS-induced<br>leukocyte transcriptional<br>responses<br>[[SRT2104|SRT2104]] attenuated LPS-induced<br>release of the cytokines IL-6 and IL-8.<br>[[SRT2104|SRT2104]] also reduced the LPS-<br>induced acute phase protein<br>response (C-reactive protein).<br>[[SRT2104|SRT2104]] inhibited activation of<br>coagulation, as refected by lower<br>plasma levels of the prothrombin<br>fragment F1+2. Activation of the<br>vascular endothelium and the<br>fbrinolytic system was not<br>infuenced by [[SRT2104|SRT2104]]<br>EudraCT number 2009-<br>010720-261098<br>2014 II<br>T2D patients<br>• [[SRT2104|SRT2104]] (0.25 g/day)<br>• [[SRT2104|SRT2104]] (0.5 g/day)<br>• [[SRT2104|SRT2104]] (1.0 g/day)<br>• [[SRT2104|SRT2104]] (2.0 g/day)<br>• Placebo (once daily, for<br>28 days)<br>45/46/45/45/46<br>Changes in fasting and post-<br>prandial glucose and insulin<br>Treatment with [[SRT2104|SRT2104]] for 28 days<br>did not result in improved glucose<br>or insulin control. Treatment with<br>[[SRT2104|SRT2104]] was associated with<br>improvement in lipid profles<br>NCT011509551059<br>2014 N/A<br>Obese males<br>• Trans-[[Resveratrol|resveratrol]] (500 mg<br>three times per day)<br>•Placebo (three times per day,<br>for 5 weeks)<br>12/12<br>Effect of body composition and<br>age on GH-stimulated STAT5b<br>phosphorylation and [[IGF1|IGF-1]],<br>SOCS2, and CISH mRNA in<br>muscle and fat; The impact of<br>[[Resveratrol|resveratrol]] treatment on GH<br>activity; Impact of inhibiting or<br>knocking down [[SIRT1|SIRT1]] on effects<br>of GH in vitro.<br>Resveratrol administration had no<br>impact on body composition, serum<br>[[IGF1|IGF-1]], or GH signaling in vivo, and<br>[[SIRT1|SIRT1]] knock down or inhibition did<br>not affect GH signaling in vitro<br>NCT011509551060<br>2013 N/A<br>Obese but otherwise<br>healthy men<br>• Trans-[[Resveratrol|resveratrol]] (500 mg<br>thrice daily)<br>• Placebo (thrice daily, for<br>4 weeks)<br>12/12<br>Insulin sensitivity<br>Short-term supplementation with<br>high-dose [[Resveratrol|resveratrol]] is not<br>associated with detectable<br>physiological effects in obese<br>subjects with modest IR|
 |---|---|---|---|
 
-
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-54 
-
 ||Table 2.<br>continued|Trial [ref]<br>Year<br>Phase<br>Participant<br>Intervention/<br>Comparison<br>Sample size of intervention/<br>comparison<br>Outcome<br>Main Findings|NCT010311088<br>2013 I<br>Healthy volunteers<br>• [[SRT2104|SRT2104]] (2.0 g/day)<br>• Placebo (Sirtris<br>Pharmaceuticals Inc, for<br>28 days)<br>24 (cross-over)<br>Lipid profle and vascular,<br>endothelial, and platelet<br>function<br>Compared with placebo, serum lipid<br>profle improved during [[SRT2104|SRT2104]]<br>administration, with reductions in<br>serum TC, [[LDL|LDL]]-C, and TG<br>concentrations. [[SIRT1|SIRT1]] activation may<br>have a benefcial role in patients at<br>risk of developing or with<br>established cardiovascular disease<br>NCT008233811057<br>2012 N/A<br>Non-obese,<br>postmenopausal women<br>• Resveratrol supplementation<br>(75 mg/day)<br>• CR targeted to achieve a 5%<br>weight loss within 12 weeks<br>• Placebo, for 12 weeks<br>15/15/14<br>Metabolic function<br>Resveratrol did not affect its putative<br>molecular targets, including [[AMPK|AMPK]]<br>and [[SIRT1|SIRT1]], in either skeletal muscle<br>or adipose tissue|AD Alzheimer’s disease,AMPKadenosine monophosphate-activated protein kinase,CHD coronary heart disease,CISHcytokine-inducible SH, [[COPD|COPD]] [[COPD|chronic obstructive pulmonary disease]], CR caloric restriction,<br>CSFcerebrospinalfuid,GHgrowth hormone,H3K56ac histone 3 acetylation at the 56 lysine residue,ILinterleukin, IRinsulin resistance,[[LDL|LDL]]-Clow-density lipoprotein cholesterol, LPSlipopolysaccharide,[[Non-alcoholic Fatty Liver Disease|NAFLD]]<br>[[Non-alcoholic Fatty Liver Disease|nonalcoholic fatty liver disease]],PBMCperipheral blood mononuclear cell,SIRTsirtuin,SOCS2suppressor of cytokine signaling 2,STAT5bsignal transducer and activator of transcription 5b,T2Dtype 2 diabetes,TC<br>total cholesterol, TG triglyceride, UC ulcerative colitis||
 |---|---|---|---|---|---|
-
-
 
 crocin or crocetin effectively improved gene expression of [[SIRT1|SIRT1]] in coronary artery disease patients compared with the placebo.[1040][,][1041] However, curcumin, administered to 67 overweight or obese patients with polycystic ovarian syndrome, led to a nonsignificant increase in [[SIRT1|SIRT1]] expression, after 12 weeks compared to placebo.[1042] With regard to exercise intervention, three RCTs in India highlighted that a yoga-based lifestyle intervention led to a significant increase in [[SIRT1|SIRT1]].[1043][–][1045] On the contrary, among 70 [[Rheumatoid Arthritis|rheumatoid arthritis]] patients, the mRNA expression levels of [[SIRT1|SIRT1]] were not found to be statistically different in the yoga vs. non-yoga group.[1046] As for medical treatment, three RCTs demonstrated that treatment with sildenafil, [[Metformin|metformin]], fenofibrate alone or in combination with pioglitazone up-regulated [[SIRT1|SIRT1]] gene expression.[1047][–][1049] In addition, after Roux-en-Y gastric bypass, the expression of [[SIRT1|SIRT1]] and [[SIRT3|SIRT3]] increased compared to the baseline in 13 obese, non-diabetic patients.[1050] 
 
 Only 23.9% (n = 17) of published RCTs explored the effects of [[Resveratrol|SIRT activators]] on physiological function. As a well-known SIRT activator,[1051] [[Resveratrol|resveratrol]] (n = 10, 14.1%) received more attention compared with [[SRT2104|SRT2104]] (n = 7, 9.9%) in these studies. Several RCTs showed that [[Resveratrol|resveratrol]] supplementation could effectively increase the expression or concentration of [[SIRT1|SIRT1]].[978][,][1052][–][1054] Moreover, [[Resveratrol|resveratrol]] performed important physiological functions by activating [[SIRT1|SIRT1]], such as beneficial effects on neuroinflammation and adaptive immunity.[7] Similarly, SRT2014 played an important role by activating [[SIRT1|SIRT1]], such as reduction in endotoxin-induced cytokine release and coagulation activation.[1055] However, some intervention studies reported that [[Resveratrol|resveratrol]] did not affect its putative molecular target.[1056][–][1058] For example, a double-blind randomized placebo-controlled proof-of-concept study conducted in the Netherlands suggested that the muscle [[Mitochondrial Biogenesis|mitochondrial biogenesis]] regulator [[SIRT1|SIRT1]] was not improved by [[Resveratrol|resveratrol]].[1056] A few studies suggested that significant clinical activities were not observed after supplementation with [[Resveratrol|resveratrol]] and SRT2014.[1059][–][1061] 
 
-As shown in Table 2, three RCTs (4.2%) focused on the impact of [[Nicotinamide|nicotinamide]], a known SIRT inhibitor,[976] on physiological function in different patients.[1062][–][1064] However, all three studies suggested that [[Nicotinamide|nicotinamide]] might not act through its putative molecular target. For example, findings from a long-term human clinical trial reported that NR supplementation did not affect SIRT activity in human skeletal muscle.[1064] In addition, a clinical study evaluating the pharmacodynamics efficacy of [[Nicotinamide|nicotinamide]] as an inhibitor of SIRT revealed that over 12 months of [[Nicotinamide|nicotinamide]] treatment, no sustained inhibitions of SIRT activity were detected.[1063] This might be attributed to the small sample size and short intervention duration in these three RCTs. Thus, further studies are needed to explore [[Nicotinamide|nicotinamide]] as a clinical therapeutic method by inhibiting SIRT activity. 
+As shown in Table 2, three RCTs (4.2%) focused on the impact of [[Nicotinamide|nicotinamide]], a known SIRT inhibitor,[976] on physiological function in different patients.[1062][–][1064] However, all three studies suggested that [[Nicotinamide|nicotinamide]] might not act through its putative molecular target. For example, findings from a long-term human clinical trial reported that [[NR]] supplementation did not affect SIRT activity in human skeletal muscle.[1064] In addition, a clinical study evaluating the pharmacodynamics efficacy of [[Nicotinamide|nicotinamide]] as an inhibitor of SIRT revealed that over 12 months of [[Nicotinamide|nicotinamide]] treatment, no sustained inhibitions of SIRT activity were detected.[1063] This might be attributed to the small sample size and short intervention duration in these three RCTs. Thus, further studies are needed to explore [[Nicotinamide|nicotinamide]] as a clinical therapeutic method by inhibiting SIRT activity. 
 
 Although several published RCTs have shown inconsistent findings, most studies have suggested that dietary, exercise, and drug interventions can enhance SIRT signaling, and [[Resveratrol|SIRT activators]] played an important role in physiological functions by activating SIRTs. Given the important impact of the SIRT protein family on health and disease, the relatively small number of trials, study limitations and single study sites, further larger sample, longer intervention period, and multicenter RCTs are needed. 
 
-## CONCLUSION 
+## Conclusion
 
 Since the discovery of the SIRT family members, the understanding of this protein family has become increasingly comprehensive and profound. The studies summarized herein provide strong evidence that SIRTs play important roles in the body. Considering that the roles of SIRTs vary in different types of biological processes and human diseases, it will be of great significance to focus attention on the mechanisms regarding the seven SIRTs under different conditions and the specific function of 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-55 
 
 each SIRT. Recent advances in technology (e.g., development of omics, gene KO and knockin) may facilitate elucidation of the specific molecular mechanisms of SIRTs, providing new perspectives for the pathogenesis of human diseases and targets for treatments. Clinical trials to verify the biomarkers and therapeutic potential of SIRTs are still lacking and are warranted in the future. Thus, this review has systematically highlighted the recent advances with respect to the role of SIRTs, which may aid the design of future research, and thereby reveal the diagnostic and therapeutic potential of SIRTs. 
 
@@ -1369,21 +1009,21 @@ each SIRT. Recent advances in technology (e.g., development of omics, gene KO an
 
 17. Imai, S., Armstrong, C. M., Kaeberlein, M. & Guarente, L. Transcriptional silencing and longevity protein Sir2 is an NAD-dependent histone deacetylase. Nature 403, 795–800 (2000). 
 
-## AUTHOR CONTRIBUTIONS 
+## Author contributions
 
 Q.- J. W., T. -N. Z., and Y. -H. Z. provided the conceptual idea and design of this study and wrote the manuscript. H. -H. C., X. -F. Y., J. -L. L., Y. -Y. L., Y. -S. L., G. Z., J. -Q. Z., Y. -F. W,. J. -Y. G., F.-H. L., Q. C., Y. -X. Z., and C. -G. L. performed literature searching and wrote the manuscript. H. -H. C., X. -F. Y., J. -L. L., Y. -Y. L., Y. -S. L., G. Z., J. -Q. Z., Y. -F. W., and J. -Y. G. made the figures and tables and wrote the manuscript. All authors listed have made a substantial contribution to this work. All authors have read and approved the article. Q. -J. W. and T. -N. Z. contributed equally to this work. We thank the research team (Ya-Lin Zhang, Lu Zhao, Zhu-Xi Liu, and Si-Tian Zang from Shengjing Hospital of China Medical University) for their efforts in data collection and preparation. 
 
-## FUNDING 
+## Funding
 
 This work was supported by the National Key R&D Program of China (No. 2017YFC0907401 to Y. -H. Z. and No. 2022YFC2704200 to Q. -J. W.), Natural Science Foundation of China (No. 82073647 to Q. -J.-W. No. 82102254 to T. -N. Z., and No. 81902607 to Y. -X. Z.), LiaoNing Revitalization Talents Program (No. XLYC1907102 to Q. -J. W. and No. XLYC1802095 to Y. -H. Z.), the JieBangGuaShuai Project of Liaoning Province (No. 2021JH1/1040050 to Y. -H. Z.), Outstanding Scientific Fund of Shengjing Hospital (Q. -J. W. and Y. -H. Z.), and 345 Talent Project of Shengjing Hospital of China Medical University (Q. -J. W., T. N. Z., and Y. -X. Z.). 
 
-## ADDITIONAL INFORMATION 
+## Additional information
 
 Supplementary information The online version contains supplementary material available at https://doi.org/10.1038/s41392-022-01257-8. 
 
 Competing interests: The authors declare no competing interests. 
 
-## REFERENCES 
+## References
 
 1. North, B. J. & Verdin, E. Sirtuins: Sir2-related NAD-dependent protein deacetylases. Genome Biol. 5, 224 (2004). 
 
@@ -1426,12 +1066,6 @@ Competing interests: The authors declare no competing interests.
 33. Haigis, M. C. et al. SIRT4 inhibits glutamate dehydrogenase and opposes the effects of calorie restriction in pancreatic beta cells. Cell 126, 941–954 (2006). 
 
 34. Nakagawa, T., Lomb, D. J., Haigis, M. C. & Guarente, L. SIRT5 Deacetylates carbamoyl phosphate synthetase 1 and regulates the urea cycle. Cell 137, 560–570 (2009). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-56 
 
 35. Mostoslavsky, R. et al. Genomic instability and aging-like phenotype in the absence of mammalian SIRT6. Cell 124, 315–329 (2006). 
 
@@ -1548,12 +1182,6 @@ The sirtuin family in health and disease Wu et al.
 91. Cassel, S. L. & Sutterwala, F. S. Sterile inflammatory responses mediated by the NLRP3 inflammasome. Eur. J. Immunol. 40, 607–611 (2010). 
 
 92. Jin, X. et al. Dietary fatty acid regulation of the NLRP3 inflammasome via the TLR4/NF-kappaB signaling pathway affects chondrocyte pyroptosis. Oxid. Med. Cell Longev. 2022, 3711371 (2022). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-57 
 
 93. Bauernfeind, F. G. et al. Cutting edge: NF-kappaB activating pattern recognition and cytokine receptors license NLRP3 inflammasome activation by regulating NLRP3 expression. J. Immunol. 183, 787–791 (2009). 
 
@@ -1675,12 +1303,6 @@ The sirtuin family in health and disease Wu et al.
 
 151. Li, M. et al. Sirt3 modulates fatty acid oxidation and attenuates cisplatin-induced AKI in mice. J. Cell Mol. Med. 24, 5109–5121 (2020). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-58 
-
 152. Wang, X. X. et al. SIRT6 protects cardiomyocytes against ischemia/reperfusion injury by augmenting FoxO3alpha-dependent antioxidant defense mechanisms. Basic Res. Cardiol. 111, 13 (2016). 
 
 153. Tang, W., Jiang, Y. F., Ponnusamy, M. & Diallo, M. Role of Nrf2 in chronic liver disease. World J. Gastroenterol. 20, 13079–13087 (2014). 
@@ -1792,12 +1414,6 @@ The sirtuin family in health and disease Wu et al.
 206. Sun, P., Yu, H., Zhang, W. Q., Hu, M. & Lv, R. Lentivirus-mediated siRNA targeting VEGF inhibits gastric cancer growth in vivo. Oncol. Rep. 28, 1687–1692 (2012). 
 
 207. Yarahmadi, S. et al. Inhibition of sirtuin 1 deacetylase by miR-211-5p provides a mechanism for the induction of cell death in breast cancer cells. Gene 711, 143939 (2019). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-59 
 
 208. Lin, Y., Ma, W. & Benchimol, S. Pidd, a new death-domain-containing protein, is induced by p53 and promotes apoptosis. Nat. Genet 26, 122–127 (2000). 
 
@@ -1912,12 +1528,6 @@ The sirtuin family in health and disease Wu et al.
 263. Li, W., Yang, Y., Li, Y., Zhao, Y. & Jiang, H. Sirt5 attenuates cisplatin-induced acute kidney injury through regulation of Nrf2/HO-1 and Bcl-2. Biomed. Res. Int. 2019, 4745132 (2019). 
 
 264. Wood, M., Rymarchyk, S., Zheng, S. & Cen, Y. Trichostatin A inhibits deacetylation of histone H3 and p53 by SIRT6. Arch. Biochem. Biophys. 638, 8–17 (2018). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-60 
 
 265. Vakhrusheva, O. et al. Sirt7 increases stress resistance of cardiomyocytes and prevents apoptosis and inflammatory cardiomyopathy in mice. Circ. Res. 102, 703–710 (2008). 
 
@@ -2034,12 +1644,6 @@ The sirtuin family in health and disease Wu et al.
 321. Thompson, B. J. Developmental control of cell growth and division in Drosophila. Curr. Opin. Cell Biol. 22, 788–794 (2010). 
 
 322. Gaglia, G. et al. Temporal and spatial topography of cell proliferation in cancer. Nat. Cell Biol. 24, 316–326 (2022). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-61 
 
 323. Cordero-Espinoza, L. et al. Dynamic cell contacts between periportal mesenchyme and ductal epithelium act as a rheostat for liver cell proliferation. Cell Stem Cell 28, 1907–1921.e1908 (2021). 
 
@@ -2161,12 +1765,6 @@ The sirtuin family in health and disease Wu et al.
 
 382. Liu, L. et al. SIRT3 inhibits gallbladder cancer by induction of AKT-dependent ferroptosis and blockade of epithelial-mesenchymal transition. Cancer Lett. 510, 93–104 (2021). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-62 
-
 383. Sun, H. et al. SIRT4 acts as a tumor suppressor in gastric cancer by inhibiting cell proliferation, migration, and invasion. Onco. Targets Ther. 11, 3959–3968 (2018). 
 
 384. Li, D. J. et al. Nicotinic ACh receptor alpha7 inhibits PDGF-induced migration of vascular smooth muscle cells by activating mitochondrial deacetylase sirtuin 3. Br. J. Pharmacol. 176, 4388–4401 (2019). 
@@ -2280,12 +1878,6 @@ The sirtuin family in health and disease Wu et al.
 438. Sun, R. et al. Loss of SIRT5 promotes bile acid-induced immunosuppressive microenvironment and hepatocarcinogenesis. J. Hepatol. 77, 453–466 (2022). 
 
 439. Bai, L. et al. Overexpression of SLC25A51 promotes hepatocellular carcinoma progression by driving aerobic glycolysis through activation of SIRT5. Free Radic. Biol. Med 182, 11–22 (2022). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-63 
 
 440. Yang, H. et al. Sirtuin-mediated deacetylation of hnRNP A1 suppresses glycolysis and growth in hepatocellular carcinoma. Oncogene 38, 4915–4931 (2019). 
 
@@ -2407,12 +1999,6 @@ The sirtuin family in health and disease Wu et al.
 
 499. Shen, T. et al. SIRT1 functions as an important regulator of estrogen-mediated cardiomyocyte protection in angiotensin II-induced heart hypertrophy. Oxid. Med. Cell Longev. 2014, 713894 (2014). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-64 
-
 500. Li, J. et al. Sirtuin 1 represses PKC-ζ activity through regulating interplay of acetylation and phosphorylation in cardiac hypertrophy. Br. J. Pharm. 176, 416–435 (2019). 
 
 501. Sundaresan, N. R. et al. The deacetylase SIRT1 promotes membrane localization and activation of Akt and PDK1 during tumorigenesis and cardiac hypertrophy. Sci. Signal 4, ra46 (2011). 
@@ -2529,12 +2115,6 @@ The sirtuin family in health and disease Wu et al.
 
 557. Liu, Z., Wang, J., Huang, X., Li, Z. & Liu, P. Deletion of sirtuin 6 accelerates endothelial dysfunction and atherosclerosis in apolipoprotein E-deficient mice. Transl. Res. 172, 18–29.e12 (2016). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-65 
-
 558. Arsiwala, T. et al. Sirt6 deletion in bone marrow-derived cells increases atherosclerosis - Central role of macrophage scavenger receptor 1. J. Mol. Cell Cardiol. 139, 24–32 (2020). 
 
 559. Zheng, J. et al. SIRT7 regulates the vascular smooth muscle cells proliferation and migration via Wnt/β-catenin signaling pathway. Biomed. Res. Int. 2018, 4769596 (2018). 
@@ -2648,12 +2228,6 @@ The sirtuin family in health and disease Wu et al.
 613. Sime, P. J., Xing, Z., Graham, F. L., Csaky, K. G. & Gauldie, J. Adenovectormediated gene transfer of active transforming growth factor-beta1 induces prolonged severe fibrosis in rat lung. J. Clin. Invest. 100, 768–776 (1997). 
 
 614. Jablonski, R. P. et al. SIRT3 deficiency promotes lung fibrosis by augmenting alveolar epithelial cell mitochondrial DNA damage and apoptosis. Faseb J. 31, 2520–2532 (2017). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-66 
 
 615. Cheresh, P. et al. SIRT3 overexpression ameliorates asbestos-induced pulmonary fibrosis, mt-DNA damage, and lung fibrogenic monocyte recruitment. Int. J. Mol. Sci. 22, 6856 (2021). 
 
@@ -2771,12 +2345,6 @@ The sirtuin family in health and disease Wu et al.
 
 672. Nassir, F., Arndt, J. J., Johnson, S. A. & Ibdah, J. A. Regulation of mitochondrial trifunctional protein modulates nonalcoholic fatty liver disease in mice. J. Lipid Res. 59, 967–973 (2018). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-67 
-
 673. Goetzman, E. S. et al. Impaired mitochondrial medium-chain fatty acid oxidation drives periportal macrovesicular steatosis in sirtuin-5 knockout mice. Sci. Rep. 10, 18367 (2020). 
 
 674. Wang, H. et al. miRNA-130b-5p promotes hepatic stellate cell activation and the development of liver fibrosis by suppressing SIRT4 expression. J. Cell Mol. Med. 25, 7381–7394 (2021). 
@@ -2884,12 +2452,6 @@ The sirtuin family in health and disease Wu et al.
 725. Bennett, C. L. et al. The immune dysregulation, polyendocrinopathy, enteropathy, X-linked syndrome (IPEX) is caused by mutations of FOXP3. Nat. Genet 27, 20–21 (2001). 
 
 726. Hu, Y. et al. MicroRNA-351-5p aggravates intestinal ischaemia/reperfusion injury through the targeting of MAPK13 and Sirtuin-6. Br. J. Pharm. 175, 3594–3609 (2018). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-68 
 
 727. Wang, Z. et al. SIRT3-mediated deacetylation of PRDX3 alleviates mitochondrial oxidative damage and apoptosis induced by intestinal ischemia/reperfusion injury. Redox Biol. 28, 101343 (2020). 
 
@@ -3004,12 +2566,6 @@ The sirtuin family in health and disease Wu et al.
 782. Deeb, O. & Nabulsi, M. Exploring multiple sclerosis (MS) and amyotrophic lateral scler osis (ALS) as neurodegenerative diseases and their treatments: a review study. Curr. Top. Med. Chem. 20, 2391–2403 (2020). 
 
 783. Molnar-Kasza, A. et al. Evaluation of neuropathological features in the SOD1G93A low copy number transgenic mouse model of amyotrophic lateral sclerosis. Front Mol. Neurosci. 14, 681868 (2021). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-69 
 
 784. Lee, J. C. et al. Region-specific changes in the immunoreactivity of SIRT1 expression in the central nervous system of SOD1(G93A) transgenic mice as an in vivo model of amyotrophic lateral sclerosis. Brain Res 1433, 20–28 (2012). 
 
@@ -3127,12 +2683,6 @@ The sirtuin family in health and disease Wu et al.
 
 841. Cole, J. B. & Florez, J. C. Genetics of diabetes mellitus and diabetes complications. Nat. Rev. Nephrol. 16, 377–390 (2020). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-70 
-
 842. Li, L., Zeng, H., He, X. & Chen, J. X. Sirtuin 3 alleviates diabetic cardiomyopathy by regulating TIGAR and cardiomyocyte metabolism. J. Am. Heart Assoc. 10, e018913 (2021). 
 
 843. Yang, H. et al. Hippocampal insulin resistance and the Sirtuin 1 signaling pathway in diabetes-induced cognitive dysfunction. Neural Regen. Res 16, 2465–2474 (2021). 
@@ -3249,12 +2799,6 @@ The sirtuin family in health and disease Wu et al.
 
 899. Schnaper, H. W. Renal fibrosis. Methods Mol. Med 117, 45–68 (2005). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-71 
-
 900. United States Renal Data System 2003 Annual Data Report. Division of Kidney, Urologic and Hematologic Diseases, NIDDK/NIH, Department of Health and Human Services, Bethesda, MD (2003). 
 
 901. Isaka, Y. Targeting TGF-beta signaling in kidney fibrosis. Int. J. Mol. Sci. 19, 2532 (2018). 
@@ -3368,12 +2912,6 @@ The sirtuin family in health and disease Wu et al.
 955. Song, Y. et al. Sirtuin 3-dependent mitochondrial redox homeostasis protects against AGEs-induced intervertebral disc degeneration. Redox Biol. 19, 339–353 (2018). 
 
 956. Wang, J. et al. Small molecule natural compound agonist of SIRT3 as a therapeutic target for the treatment of intervertebral disc degeneration. Exp. Mol. Med. 50, 1–14 (2018). 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-72 
 
 957. Kang, L., Hu, J., Weng, Y., Jia, J. & Zhang, Y. Sirtuin 6 prevents matrix degradation through inhibition of the NF-kappaB pathway in intervertebral disc degeneration. Exp. Cell Res. 352, 322–332 (2017). 
 
@@ -3497,12 +3035,6 @@ The sirtuin family in health and disease Wu et al.
 
 1017. Napper, A. D. et al. Discovery of indoles as potent and selective inhibitors of the deacetylase SIRT1. J. Med. Chem. 48, 8045–8054 (2005). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-73 
-
 1018. Solomon, J. M. et al. Inhibition of SIRT1 catalytic activity increases p53 acetylation but does not alter cell survival following DNA damage. Mol. Cell Biol. 26, 28–38 (2006). 
 
 1019. Broussy, S., Laaroussi, H. & Vidal, M. Biochemical mechanism and biological effects of the inhibition of silent information regulator 1 (SIRT1) by EX-527 (SEN0014196 or selisistat). J. Enzym. Inhib. Med. Chem. 35, 1124–1136 (2020). 
@@ -3603,12 +3135,6 @@ The sirtuin family in health and disease Wu et al.
 
 1067. Goncalinho, G. H. F. et al. Effects of coffee on sirtuin-1, homocysteine, and cholesterol of healthy adults: does the coffee powder matter? J. Clin. Med. 11, 2985 (2022). 
 
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
-The sirtuin family in health and disease Wu et al. 
-
-74 
-
 1068. Deus, L. A. et al. Metabolic and hormonal responses to chronic blood-flow restricted resistance training in chronic kidney disease: a randomized trial. Appl. Physiol. Nutr. Metab. 47, 183–194 (2022). 
 
 1069. Opstad, T. B., Sundfor, T., Tonstad, S. & Seljeflot, I. Effect of intermittent and continuous caloric restriction on Sirtuin1 concentration depends on sex and body mass index. Nutr. Metab. Cardiovasc. Dis. 31, 1871–1878 (2021). 
@@ -3671,9 +3197,4 @@ The sirtuin family in health and disease Wu et al.
 
 1098. Baksi, A. et al. A phase II, randomized, placebo-controlled, double-blind, multidose study of SRT2104, a SIRT1 activator, in subjects with type 2 diabetes. Br. J. Clin. Pharm. 78, 69–77 (2014). 
 
-Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http:// creativecommons.org/licenses/by/4.0/. 
-
-© The Author(s) 2022 
-
-Signal Transduction and Targeted Therapy (2022) 7:402 
-
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http:// creativecommons.org/licenses/by/4.0/.

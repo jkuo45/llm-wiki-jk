@@ -36,11 +36,11 @@ FDA-approved for myelofibrosis, polycythemia vera, and steroid-refractory acute 
 
 - [[JAK]]: Ruxolitinib inhibits JAK
 - [[STAT3]]: Ruxolitinib blocks STAT3 signaling
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Ruxolitinib reduces SASP cytokines
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Ruxolitinib reduces SASP cytokines
 - [[Senomorphic Therapy|senomorphic therapies]]: Ruxolitinib is a senomorphic agent
 - [[Inflammaging]]: Ruxolitinib reduces age-related inflammation
 
 ## Linking Summary
 
-- New links added: [[JAK]], [[STAT3]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senomorphic Therapy|senomorphic therapies]], [[Inflammaging]], [[IL-6]], [[IL-8]]
+- New links added: [[JAK]], [[STAT3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic Therapy|senomorphic therapies]], [[Inflammaging]], [[IL-6]], [[IL-8]]
   - Strong connections to strengthen: [[Ruxolitinib]] ↔ JAK-STAT, [[Ruxolitinib]] ↔ SASP reduction

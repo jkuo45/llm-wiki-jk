@@ -28,7 +28,7 @@ Damage-Associated Molecular Patterns (DAMPs) are endogenous molecules released f
 
 ## Role in Senescence
 
-Senescent cells secrete and release DAMPs as part of the [[SASP]]. Cytosolic [[Cytoplasmic Chromatin Fragments|chromatin fragments]] and [[mitochondrial DNA]] act as DAMPs that activate [[cGAS]], driving STING-dependent SASP expression. [[HMGB1]] release from senescent cells further amplifies inflammatory signaling.
+Senescent cells secrete and release DAMPs as part of the [[SASP|Senescence-Associated Secretory Phenotype]]. Cytosolic [[Cytoplasmic Chromatin Fragments|chromatin fragments]] and [[mitochondrial DNA]] act as DAMPs that activate [[cGAS]], driving STING-dependent SASP expression. [[HMGB1]] release from senescent cells further amplifies inflammatory signaling.
 
 ## Role in Cancer
 
@@ -47,7 +47,7 @@ Senescent cells secrete and release DAMPs as part of the [[SASP]]. Cytosolic [[C
 
 - [[PAMP]]: Microbial counterparts to DAMPs; both activate pattern recognition receptors
 - [[cGAS-STING Pathway]]: DAMP-sensing pathway activated by cytosolic DNA
-- [[SASP]]: Senescence-associated secretory phenotype driven by DAMP signaling
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Senescence-associated secretory phenotype driven by DAMP signaling
 - [[Inflammasome]]: Activated by DAMPs such as uric acid and ATP
 - [[Immunogenic Cell Death]]: DAMP release from dying cancer cells triggers antitumor immunity
 

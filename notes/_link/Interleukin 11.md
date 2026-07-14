@@ -42,11 +42,11 @@ Because IL-11 is low in youth and rises with age, it is a tractable [[Senomorphi
 
 - [[SIRT1]]: SIRT1 downregulation activates IL-11
 - [[Idiopathic Pulmonary Fibrosis|pulmonary fibrosis]]: IL-11 is associated with pulmonary fibrosis
-- [[Senescence-Associated Secretory Phenotype|SASP]]: IL-11 is a SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: IL-11 is a SASP factor
 - [[gp130]] / [[STAT3]]: IL-11 signals via IL-11Rα–gp130–JAK–STAT3
 - [[Osteoporosis]]: IL-11 drives age-related bone loss
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Idiopathic Pulmonary Fibrosis|pulmonary fibrosis]], [[Senescence-Associated Secretory Phenotype|SASP]], [[gp130]], [[STAT3]], [[MAPK]], [[PI3K]], [[Osteoporosis]]
+- New links added: [[SIRT1]], [[Idiopathic Pulmonary Fibrosis|pulmonary fibrosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[gp130]], [[STAT3]], [[MAPK]], [[PI3K]], [[Osteoporosis]]
   - Strong connections to strengthen: [[Interleukin 11]] ↔ [[SIRT1]], [[Interleukin 11]] ↔ [[Idiopathic Pulmonary Fibrosis|fibrosis]], [[Interleukin 11]] ↔ [[Osteoporosis]]

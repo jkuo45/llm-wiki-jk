@@ -117,7 +117,7 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[Hydrogen Peroxide]]             | 27_May_2026 08:21 AM | Chemical Compound   | 10          | 1           | Key signaling molecule in hormesis and redox biology.                                   |
 | [[Hydroxyl Radicals]]                         | 04_July_2026 08:00 PM | Biological Molecule | 10          | -1          | Highly reactive and damaging ROS; primary cause of oxidative damage.                    |
 | [[Hypochlorous Acid]]                         | 04_July_2026 08:00 PM | Chemical Compound   | 8           | 0           | Potent oxidant used by the immune system to kill pathogens.                             |
-| [[IL-1b]]                                     | 04_July_2026 08:00 PM | Protein             | 7           | -1          | Pro-inflammatory cytokine that promotes and is promoted by ROS.                         |
+| [[IL-1β]]                                     | 04_July_2026 08:00 PM | Protein             | 7           | -1          | Pro-inflammatory cytokine that promotes and is promoted by ROS.                         |
 | [[Immunity]]                                  | 04_July_2026 08:00 PM | Biological Process  | 9           | 1           | Biological process using ROS as defense; depends on redox balance.                      |
 | [[Inflammation]]                  | 27_May_2026 11:17 AM | Biological Process  | 9           | -1          | Chronic state linked to ROS production and tissue damage.                               |
 | [[Ionizing Radiation]]                        | 04_July_2026 08:00 PM | Scientific Concept  | 8           | -1          | Exogenous stressor that generates ROS and causes DNA damage.                            |

@@ -14,7 +14,7 @@ aliases: [Thioredoxin-interacting protein, VDUP1, TBP-2, Thioredoxin-binding pro
 
 ## Structure and Mechanism
 
-TXNIP is an α-arrestin family protein that, under basal conditions, binds reduced [[Thioredoxin]] (TRX) at its active-site cysteines (Cys32, Cys35), inhibiting TRX's reductive/antioxidant activity. When oxidants accumulate, TRX is oxidized and releases TXNIP. Free TXNIP translocates to the [[NLRP3 Inflammasome]], directly binding NLRP3 and promoting ASC speck formation, caspase-1 activation, and maturation of [[IL-1b|IL-1β]] and IL-18. By suppressing TRX, TXNIP also elevates intracellular ROS (loss of thioredoxin antioxidant buffering), reinforcing the oxidative signal—a positive feedback loop between redox stress and inflammation.
+TXNIP is an α-arrestin family protein that, under basal conditions, binds reduced [[Thioredoxin]] (TRX) at its active-site cysteines (Cys32, Cys35), inhibiting TRX's reductive/antioxidant activity. When oxidants accumulate, TRX is oxidized and releases TXNIP. Free TXNIP translocates to the [[NLRP3 Inflammasome]], directly binding NLRP3 and promoting ASC speck formation, caspase-1 activation, and maturation of [[IL-1β|IL-1β]] and IL-18. By suppressing TRX, TXNIP also elevates intracellular ROS (loss of thioredoxin antioxidant buffering), reinforcing the oxidative signal—a positive feedback loop between redox stress and inflammation.
 
 ## Metabolic Regulation
 
@@ -33,7 +33,7 @@ Because TXNIP bridges redox and inflammation, it is a candidate drug target. [[V
 - [[Thioredoxin]]: TXNIP binds and inhibits reduced TRX, its canonical interaction.
 - [[Oxidative Stress]]: Oxidation of TRX releases TXNIP, amplifying redox signaling.
 - [[NLRP3 Inflammasome]]: TXNIP directly binds NLRP3 to trigger caspase-1 activation.
-- [[IL-1b]]: TXNIP-dependent inflammasome matures IL-1β and IL-18.
+- [[IL-1β]]: TXNIP-dependent inflammasome matures IL-1β and IL-18.
 - [[ChREBP]]: Glucose-responsive transcription factor inducing TXNIP.
 - [[MondoA]]: Partner of ChREBP in TXNIP glucose induction.
 - [[Diabetes Mellitus]]: Hyperglycemia-induced TXNIP drives β-cell inflammasome death.

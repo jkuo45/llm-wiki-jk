@@ -20,7 +20,7 @@ aliases: []
 ## Role in [[Aging]] and Epigenetics
 - **The Epigenetic-Apoptosis Axis:** [[Epigenetics]] serves as a regulatory layer determining cell survival. Hypermethylation of pro-apoptotic genes (like *FAS*, *BAX*, or *TP53*) can prevent the clearance of damaged cells, increasing [[Cancer]] risk.
 - **[[Sirtuins]]s:** Sirtuins like [[SIRT1]] and [[SIRT6]] (dependent on NAD+) modulate p53 to balance survival and apoptosis.
-- **Apoptosis Resistance:** During aging, some damaged cells become resistant to apoptosis and enter [[Cellular Senescence]], secreting pro-inflammatory cytokines ([[SASP]]) that drive **Inflammaging**.
+- **Apoptosis Resistance:** During aging, some damaged cells become resistant to apoptosis and enter [[Cellular Senescence]], secreting pro-inflammatory cytokines ([[SASP|Senescence-Associated Secretory Phenotype]]) that drive **Inflammaging**.
 - **Neurodegeneration:** Excessive apoptosis in post-mitotic tissues leads to neuron loss in [[Alzheimer's Disease]] and [[Parkinson's Disease]].
 ## Role in Cancer Research
 - **Markers:** Common markers include [[Caspase-3|cleaved caspase-3]] and [[Annexin V]] binding.
@@ -119,6 +119,6 @@ List of documents that mention this entity
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
 
 ## Linking Summary
-- New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].
+- New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]], [[necrosis]], [[Caspases]].
   - Strong connections to strengthen: [[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ Cellular Senescence, [[Apoptosis]] ↔ [[p53]], [[Apoptosis]] ↔ [[Mitochondrial Dysfunction]].

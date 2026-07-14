@@ -6,6 +6,7 @@ updated: 2026-07-07
 tags:
   - medical-condition
 aliases: []
+protected: true
 ---
 
 # Prostate Cancer
@@ -46,6 +47,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - Implications of FoxO1 in Prostate Cancer will be discussed below .
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) showing senescent fibroblasts secrete SASP factors (CTGF, amphiregulin, SDF-1α) that promote prostate tumor progression through paracrine signaling.
+
 
 ## Connections
 
@@ -57,6 +61,12 @@ List of documents that mention this entity
 - [[Metastasis]] - Bone dissemination defines lethal prostate cancer.
 - [[BRCA1]] / [[BRCA2]] - DNA-repair genes influencing risk and PARP inhibitor use.
 - [[Hallmarks of Cancer]] - Framework for understanding prostate tumor biology.
+- [[SASP|Senescence-Associated Secretory Phenotype]] - Senescent fibroblasts secrete SASP factors (CTGF, amphiregulin, IL-6, IL-8) that promote prostate tumor progression
+- [[Senescent Cells]] - Senescent fibroblasts in the tumor stroma drive prostate cancer through paracrine SASP signaling
+- [[IL-6]] - SASP cytokine; elevated in prostate cancer; promotes tumor cell proliferation through JAK/STAT3
+- [[VEGF]] - SASP growth factor; drives angiogenesis in prostate cancer microenvironment
+- [[CTGF]] - SASP matricellular protein; secreted by senescent fibroblasts; promotes prostate tumor growth
+- [[Amphiregulin]] - SASP growth factor; activates EGFR signaling in prostate cancer cells
 
 ## Linking Summary
 

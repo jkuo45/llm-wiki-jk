@@ -22,7 +22,7 @@ In resting cells, IRF3 is cytoplasmic and auto-inhibited through an intramolecul
 
 ## Role in Senescence / SASP
 
-IRF3 is a key downstream effector of the [[cGAS-STING Pathway|cGAS-STING]] pathway in senescence. Senescent cells accumulate cytosolic chromatin fragments and micronuclei from genomic instability; these activate cGAS→STING→[[TBK1]], which phosphorylates IRF3. Activated IRF3 induces type I interferons and a subset of SASP factors in [[Senescent Cells]], contributing an interferon-rich branch of the secretome distinct from the NF-κB/IL-6 arm (cytoplasmic DNA–cGAS–STING–IRF3 signaling in senescence: Dou et al., 2017, PMID 28388424). IRF3 therefore helps shape both the magnitude and composition of the [[Senescence-Associated Secretory Phenotype|SASP]], particularly its immunostimulatory and autocrine reinforcing character.
+IRF3 is a key downstream effector of the [[cGAS-STING Pathway|cGAS-STING]] pathway in senescence. Senescent cells accumulate cytosolic chromatin fragments and micronuclei from genomic instability; these activate cGAS→STING→[[TBK1]], which phosphorylates IRF3. Activated IRF3 induces type I interferons and a subset of SASP factors in [[Senescent Cells]], contributing an interferon-rich branch of the secretome distinct from the NF-κB/IL-6 arm (cytoplasmic DNA–cGAS–STING–IRF3 signaling in senescence: Dou et al., 2017, PMID 28388424). IRF3 therefore helps shape both the magnitude and composition of the [[SASP|Senescence-Associated Secretory Phenotype]], particularly its immunostimulatory and autocrine reinforcing character.
 
 ## Clinical / Pathological Relevance
 
@@ -44,10 +44,10 @@ List of documents that mention this entity
 - [[STING]] — STING recruits TBK1 to activate IRF3
 - [[IFN-β]] — Induces type I interferon production
 - [[Senescent Cells]] — Active in senescent cells
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Drives SASP factor production
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Drives SASP factor production
 
 ## Linking Summary
 
   - New links added: [[STING]], [[TBK1]]
   - Suggested new entity notes to create: [[Type I Interferon]], [[TBK1]], [[ISG (interferon-stimulated gene)]]
-  - Strong connections to strengthen: [[IRF3]] ↔ [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]] ↔ [[SASP]], [[IRF3]] ↔ [[Inflammaging]]
+  - Strong connections to strengthen: [[IRF3]] ↔ [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[IRF3]] ↔ [[Inflammaging]]

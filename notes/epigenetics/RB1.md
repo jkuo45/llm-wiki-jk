@@ -47,7 +47,7 @@ List of documents that mention this entity
 - [[E2F]] - transcription factor inhibited by pRb.
 - [[Tumor Suppressor Gene]] - RB1 is a canonical member.
 - [[LINE-1]] - RB1 heterochromatinizes LINE-1 5′UTRs; its senescence decline derepresses them
-- [[SASP]] - RB1 loss-driven LINE-1 derepression feeds cGAS–STING–NF-κB SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] - RB1 loss-driven LINE-1 derepression feeds cGAS–STING–NF-κB SASP
 - [[Epigenetic Alterations]] - RB1 helps maintain the senescent epigenetic landscape
 - [[Senescence-Associated Heterochromatin Foci]] - RB1 drives SAHF assembly
 - [[cGAS-STING Pathway]] - RB1 restrains retroelement DNA that activates cGAS–STING
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Retinoblastoma Protein]], [[Restriction Point]], [[G1 Phase]], [[E2F]], [[Tumor Suppressor Gene]], [[Cell Cycle]], [[Quiescence]], [[G0 Phase]], [[CDK4/6 Inhibitor]], [[LINE-1]], [[SASP]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[cGAS-STING Pathway]], [[Histone Variant]], [[DNA Methylation]], [[SIRT6]]
+- New links added: [[Retinoblastoma Protein]], [[Restriction Point]], [[G1 Phase]], [[E2F]], [[Tumor Suppressor Gene]], [[Cell Cycle]], [[Quiescence]], [[G0 Phase]], [[CDK4/6 Inhibitor]], [[LINE-1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[cGAS-STING Pathway]], [[Histone Variant]], [[DNA Methylation]], [[SIRT6]]
 - Suggested new entity notes to create: [[CDK4/6 Inhibitor]], [[p16^INK4a^]], [[Pocket Protein]]
 - Strong connections to strengthen: [[RB1]] ↔ [[Cell Cycle]], [[RB1]] ↔ [[Quiescence]]

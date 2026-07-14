@@ -38,9 +38,9 @@ Notch is a validated oncology target (γ-secretase inhibitors and anti-Notch ant
 - [[IL-6]]: IL-6 is a late SASP factor regulated by Notch
 - [[IL-8]]: IL-8 is a late SASP factor regulated by Notch
 - [[Paracrine Senescence|paracrine senescence]]: Notch is essential for paracrine senescence
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Notch regulates SASP dynamics
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Notch regulates SASP dynamics
 
 ## Linking Summary
 
-- New links added: [[CEBPβ|C/EBPβ]], [[TGFβ]], [[IL-6]], [[IL-8]], [[Paracrine Senescence|paracrine senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-1α]], [[NF-κB]]
+- New links added: [[CEBPβ|C/EBPβ]], [[TGFβ]], [[IL-6]], [[IL-8]], [[Paracrine Senescence|paracrine senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-1α]], [[NF-κB]]
   - Strong connections to strengthen: [[Notch]] ↔ SASP dynamics, [[Notch]] ↔ paracrine senescence

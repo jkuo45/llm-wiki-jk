@@ -7,6 +7,7 @@ tags:
   - enzyme
   - epigenetics
 aliases: []
+protected: true
 ---
 
 # DNMT1

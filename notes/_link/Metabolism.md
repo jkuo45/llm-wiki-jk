@@ -59,7 +59,7 @@ Metabolic dysfunction underlies many of the most prevalent diseases worldwide. *
 
 **Aging-associated metabolic decline** involves reduced mitochondrial function, decreased [[NAD+]] levels, impaired [[AMPK]] signaling, and reduced [[Autophagy]] efficiency. These changes contribute to insulin resistance, sarcopenia, and increased susceptibility to metabolic disease in older adults.
 
-**Therapeutic targeting** of metabolic pathways is an active area of pharmacology. [[Metformin]], a first-line therapy for type 2 diabetes, activates AMPK and inhibits hepatic gluconeogenesis. [[Rapamycin]] (sirolimus) inhibits [[mTORC1]], extending lifespan in model organisms and currently under investigation for anti-aging effects. Sirtuin-activating compounds (STACs) such as resveratrol activate SIRT1, though clinical translation remains challenging. NAD⁺ precursors including nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) aim to restore age-depleted NAD⁺ levels, with promising preclinical and early clinical data.
+**Therapeutic targeting** of metabolic pathways is an active area of pharmacology. [[Metformin]], a first-line therapy for type 2 diabetes, activates AMPK and inhibits hepatic gluconeogenesis. [[Rapamycin]] (sirolimus) inhibits [[mTORC1]], extending lifespan in model organisms and currently under investigation for anti-aging effects. Sirtuin-activating compounds (STACs) such as resveratrol activate SIRT1, though clinical translation remains challenging. NAD⁺ precursors including [[NMN]] and [[NR]] aim to restore age-depleted NAD⁺ levels, with promising preclinical and early clinical data.
 
 # 
 

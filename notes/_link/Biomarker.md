@@ -26,7 +26,7 @@ A **biomarker** (biological marker) is a measurable indicator of a biological st
 
 ## Applications in Aging
 
-[[Epigenetic Clocks]] ([[Horvath Clock]], [[DNAm PhenoAge]]) are [[Biomarkers of Aging]] that predict biological age from [[DNA Methylation]] patterns. [[Inflammatory]] biomarkers ([[IL-6]], [[CRP]], [[TNFα]]) and [[SASP]] components track [[Inflammaging]].
+[[Epigenetic Clocks]] ([[Horvath Clock]], [[DNAm PhenoAge]]) are [[Biomarkers of Aging]] that predict biological age from [[DNA Methylation]] patterns. [[Inflammatory]] biomarkers ([[IL-6]], [[CRP]], [[TNFα]]) and [[SASP|Senescence-Associated Secretory Phenotype]] components track [[Inflammaging]].
 
 #
 
@@ -40,9 +40,9 @@ A **biomarker** (biological marker) is a measurable indicator of a biological st
 - [[PARP inhibitors]] — synthetic lethality in BRCA-mutated cancers; predicted by biomarker status
 - [[HER2]] — predictive biomarker for trastuzumab in breast cancer
 - [[Inflammaging]] — chronic low-grade inflammation detected by inflammatory biomarkers
-- [[SASP]] — senescence-associated secretory phenotype; source of aging biomarkers
+- [[SASP|Senescence-Associated Secretory Phenotype]] — senescence-associated secretory phenotype; source of aging biomarkers
 
 ## Linking Summary
-- New links added: [[Diagnosis]], [[Prognosis]], [[Medicine]], [[Troponin]], [[Myocardial infarction]], [[HbA1c]], [[Diabetes Mellitus]], [[Breast Cancer]], [[HER2]], [[trastuzumab]], [[BRCA1]], [[BRCA2]], [[PARP inhibitors]], [[LDL Cholesterol]], [[Statins]], [[Blood Pressure]], [[Cardiovascular Disease]], [[Creatinine]], [[Kidney]], [[Epigenetic Clock]], [[Horvath Clock]], [[DNAm PhenoAge]], [[IL-6]], [[CRP]], [[TNFα]], [[SASP]], [[Inflammaging]], [[Biomarkers of Aging]], [[DNA Methylation]], [[Inflammation]], [[Oncotype DX]]
+- New links added: [[Diagnosis]], [[Prognosis]], [[Medicine]], [[Troponin]], [[Myocardial infarction]], [[HbA1c]], [[Diabetes Mellitus]], [[Breast Cancer]], [[HER2]], [[trastuzumab]], [[BRCA1]], [[BRCA2]], [[PARP inhibitors]], [[LDL Cholesterol]], [[Statins]], [[Blood Pressure]], [[Cardiovascular Disease]], [[Creatinine]], [[Kidney]], [[Epigenetic Clock]], [[Horvath Clock]], [[DNAm PhenoAge]], [[IL-6]], [[CRP]], [[TNFα]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Biomarkers of Aging]], [[DNA Methylation]], [[Inflammation]], [[Oncotype DX]]
 - Suggested new entity notes to create: [[Diagnostic biomarker]], [[Predictive biomarker]], [[Prognostic biomarker]], [[Surrogate endpoint]], [[Biomarkers of aging]], [[Inflammatory biomarkers]], [[Biomarker validation]]
   - Strong connections to strengthen: [[Biomarker]] ↔ Diagnosis, [[Biomarker]] ↔ Epigenetic Clock, [[Biomarker]] ↔ [[Inflammation]]

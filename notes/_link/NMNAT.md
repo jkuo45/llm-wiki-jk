@@ -59,7 +59,7 @@ The chaperone function positions NMNAT2 at the intersection of [[NAD+]] metaboli
 
 **Therapeutic strategies**: Multiple approaches are being explored to boost NMNAT activity or circumvent its age-related decline:
 
-- **NAD+ precursors**: Supplementation with [[Nicotinamide Mononucleotide]] (NMN) or [[Nicotinamide Riboside]] (NR) bypasses the need for NMNAT-mediated [[NAD+]] synthesis by providing downstream substrates, though this does not address the chaperone function.
+- **NAD+ precursors**: Supplementation with [[NMN]] or [[NR]] bypasses the need for NMNAT-mediated [[NAD+]] synthesis by providing downstream substrates, though this does not address the chaperone function.
 - **Gene therapy**: Viral vector-mediated overexpression of NMNAT2 in specific neuronal populations is under investigation as a disease-modifying strategy for neurodegenerative conditions.
 - **Small molecule activators**: High-throughput screens have identified compounds that stabilize NMNAT2 protein or enhance its chaperone activity, representing a pharmacological approach to preserving both its enzymatic and protective functions.
 - **NAD+-boosting strategies in aging**: NMNAT is a central target in the broader field of NAD+ restoration for longevity, as its activity determines the flux through the salvage pathway — the dominant route for [[NAD+]] maintenance in most adult tissues.
@@ -73,7 +73,7 @@ NMNAT also interacts with other NAD+-consuming pathways. Activation of [[PARP]] 
 List of documents that mention this entity
 
   - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
-    - Alternatively, NR can be turned into NAM by purine nucleoside phosphorylase (NP), which is subsequently converted to NAD + via NMN by NMNAT (Figure 1).
+    - Alternatively, [[NR]] can be turned into NAM by purine nucleoside phosphorylase (NP), which is subsequently converted to NAD + via NMN by NMNAT (Figure 1).
 
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - Most studies of SIRT1 in the brain have focused on its role in neuroprotection, stemming from a discovery by Milbrandt and colleagues that an NAD[+] biosynthetic enzyme, NMNAT (nicotinate mononucleotide adenylyltransferase), is primarily responsible for pro...

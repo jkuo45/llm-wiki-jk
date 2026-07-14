@@ -7,6 +7,7 @@ updated: 2026-07-04
 tags:
   - protein
 aliases: [GABA type A receptor-associated protein]
+protected: true
 ---
 # GABARAP
 

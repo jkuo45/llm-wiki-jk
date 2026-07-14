@@ -16,7 +16,7 @@ aliases:
 
 # Enhancer-Promoter Looping
 
-Enhancer–promoter looping (EP looping) is the physical folding of chromatin that brings a distal enhancer into close spatial proximity with the promoter of its target gene, enabling enhancer-bound transcription factors and co-activators to engage the basal transcription machinery. In cellular senescence, large-scale rewiring of the EP network is a primary mechanism by which the epigenetic landscape activates [[SASP]] genes, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+Enhancer–promoter looping (EP looping) is the physical folding of chromatin that brings a distal enhancer into close spatial proximity with the promoter of its target gene, enabling enhancer-bound transcription factors and co-activators to engage the basal transcription machinery. In cellular senescence, large-scale rewiring of the EP network is a primary mechanism by which the epigenetic landscape activates [[SASP|Senescence-Associated Secretory Phenotype]] genes, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -49,10 +49,10 @@ Because EP-loop formation depends on readers/writers (BRD4, p300, METTL3/14, HDA
 - [[H3K27ac]]: Active-enhancer mark at looped SASP enhancers.
 - [[AP-1]]: Pioneer factor that opens SASP enhancers for looping.
 - [[BRD4]]: Reader at looped enhancers driving SASP.
-- [[SASP]]: EP rewiring drives SASP transcription.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: EP rewiring drives SASP transcription.
 
 ## Linking Summary
 
-- New links added: [[Topologically Associating Domain]], [[Super-enhancer]], [[H3K27ac]], [[H3K4me1]], [[AP-1]], [[BRD4]], [[CEBPα]], [[NFKB]], [[METTL3]], [[HMGB2]], [[IL-6]], [[IL-8]], [[SASP]], [[Senomorphic]], [[Senescence]]
+- New links added: [[Topologically Associating Domain]], [[Super-enhancer]], [[H3K27ac]], [[H3K4me1]], [[AP-1]], [[BRD4]], [[CEBPα]], [[NFKB]], [[METTL3]], [[HMGB2]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[CTCF]], [[Cohesin]], [[Enhancer RNA]]
-- Strong connections to strengthen: [[Enhancer-Promoter Looping]] ↔ [[Super-enhancer]]; [[Enhancer-Promoter Looping]] ↔ [[SASP]]
+- Strong connections to strengthen: [[Enhancer-Promoter Looping]] ↔ [[Super-enhancer]]; [[Enhancer-Promoter Looping]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

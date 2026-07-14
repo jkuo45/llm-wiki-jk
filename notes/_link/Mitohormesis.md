@@ -121,6 +121,9 @@ List of documents that mention this entity
   - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014 Review]]
     - The original concept paper by Yun and Finkel that formally introduced mitohormesis. It covers the yeast retrograde response, the UPRmt, mitokine hypotheses, ROS signaling, the xenohormesis hypothesis, and the clinical implications of hormetic interventions like metformin and exercise.
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - A practical framework using HRV wearables to dose mitohormetic stressors (exercise, fasting, heat/cold) with a nutrition/supplement protocol (NAD+ boosters, Urolithin A, creatine) supporting mitochondrial adaptation.
+
 ## Connections
 - [[Oxidative Stress]] — Low-level ROS are the signaling molecules
 - [[Exercise]] — Induces mitohormetic adaptations

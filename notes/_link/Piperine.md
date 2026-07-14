@@ -1,31 +1,52 @@
 ---
 title: Piperine
-description: 'Chemical properties: Piperine is a chemical substance with defined'
-  molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.
+description: Piperine is the pungent alkaloid of black pepper and a bioavailability enhancer that inhibits CYP3A4, P-glycoprotein, and glucuronidation.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 tags:
   - chemical-compound
-aliases: []
+  - alkaloid
+url: '#'
+source: '#'
+aliases: [1-Piperoylpiperidine]
 ---
 
 # Piperine
 
-**Chemical properties:** Piperine is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.
+**Piperine** is the principal pungent alkaloid of black pepper (*Piper nigrum*) and long pepper (*Piper longum*), responsible for their characteristic sharp taste.
 
-**Biological activity:** Piperine interacts with cellular targets including enzymes, receptors, and ion channels. Its pharmacological effects depend on concentration, route of exposure, and metabolic fate.
+## Chemical Properties & Classification
 
-**Research and therapeutic applications:** Piperine is used in biomedical research as a tool compound to probe biological mechanisms. It has clinical applications in disease treatment and prevention.
+- An amide alkaloid (a piperidine coupled to a piperic-acid moiety with a methylenedioxyphenyl ring), poorly water-soluble and lipophilic.
+- A TRPV1 agonist, which accounts for its pungency and thermogenic sensation.
 
-**Safety and toxicity:** The safety profile of Piperine depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
+## Pharmacodynamics — Bioavailability Enhancement
 
-#
+> [!info] "Bioenhancer"
+> Piperine's most exploited property is its ability to raise the [[Bioavailability]] of co-administered compounds. It inhibits intestinal and hepatic [[CYP3A4]] and other cytochrome P450 enzymes, the efflux transporter [[P-gp|P-glycoprotein]], and phase-II conjugation (UDP-glucuronosyltransferases). The classic example is a ~20-fold increase in [[Curcumin]] bioavailability. Similar enhancement has been explored for [[Fisetin]] and other poorly absorbed [[Polyphenols|polyphenols]] and [[Flavonoids]].
+
+## Applications
+
+- Widely used as an adjuvant in nutraceutical formulations to overcome rapid first-pass metabolism of flavonoids.
+- Reported intrinsic antioxidant, anti-inflammatory, and thermogenic activities in preclinical studies.
+
+> [!warning] Interaction caution
+> Because it inhibits drug-metabolizing enzymes and transporters, piperine can raise plasma levels of many prescription drugs, creating a risk of herb–drug interactions.
+
+## Documents
+
+  - No documents in the vault currently reference this entity.
 
 ## Connections
-- [[Piperine]] — related entity
+
+  - [[Bioavailability]]: Piperine enhances oral bioavailability of co-administered agents.
+  - [[Curcumin]]: Classic beneficiary of piperine co-administration.
+  - [[CYP3A4]]: Metabolic enzyme inhibited by piperine.
+  - [[P-gp]]: Efflux transporter inhibited by piperine.
+  - [[Fisetin]]: Flavonoid whose bioavailability may be enhanced.
 
 ## Linking Summary
-- New links added: [[Piperine]]
-  - Strong connections to strengthen: [[Piperine]] ↔ [[Piperine]]
 
+  - New links added: [[Bioavailability]], [[Curcumin]], [[CYP3A4]], [[P-gp]], [[Fisetin]], [[Polyphenols]], [[Flavonoids]]
+  - Strong connections to strengthen: Piperine ↔ Bioavailability; Piperine ↔ Curcumin

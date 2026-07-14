@@ -70,6 +70,12 @@ PGC-1α integrates [[Caloric Restriction]] signals:
 - [[Mitochondrial Biogenesis]] — PGC-1α is the master regulator
 - [[Neurodegeneration]] — PGC-1α loss sensitises neurons to oxidative damage (MPTP, kainic acid)
 
+
+## Documents
+
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - HIIT generates the acute ROS/lactate spike that triggers PGC-1α, the master regulator of mitochondrial biogenesis.
+
 ## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]]
 - Suggested new entity notes to create: [[PPARGC1A]], [[ERRalpha]], [[PRMT1]], [[Mitochondrial Biogenesis]], [[MPTP]], [[Oxidative Phosphorylation]]

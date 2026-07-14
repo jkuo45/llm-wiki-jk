@@ -12,6 +12,7 @@ aliases:
   - 2'-O-acetyl-ADP-ribose
   - O-acetyl-ADP-ribose
   - acetyl-ADP-ribose
+protected: true
 ---
 
 

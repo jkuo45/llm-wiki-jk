@@ -9,6 +9,7 @@ tags:
   - biological-process
   - senescence
 aliases: []
+protected: true
 ---
 
 # Stress-Induced Premature Senescence
@@ -35,7 +36,7 @@ SIPS proceeds through a conserved three-phase sequence:
 
 **Phase II (24–72 h):** p21 drives [[G1 Phase|G1/S]] arrest. If the stress is removed, a subset of cells may resume cycling, but a "decision point" — influenced by stress severity, [[p16INK4A]] induction, and [[RB1]] hypophosphorylation levels — commits cells to irreversible arrest.
 
-**Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at [[E2F]] target loci, [[SASP|SASP]] emerges, and resistance to [[Apoptosis|apoptosis]] develops.
+**Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at [[E2F]] target loci, [[SASP|Senescence-Associated Secretory Phenotype]] emerges, and resistance to [[Apoptosis|apoptosis]] develops.
 
 ## SIPS vs. Replicative Senescence
 
@@ -95,11 +96,11 @@ List of documents that mention this entity
 - [[RB1]]: If the stress is removed, a subset of cells may resume cycling, but a "decision point" — influenced by stress severit...
 - [[SAHF]]: **Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at ...
 - [[E2F]]: **Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at ...
-- [[SASP]]: **Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at ...
+- [[SASP|Senescence-Associated Secretory Phenotype]]: **Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at ...
 - [[Apoptosis]]: **Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at ...
 - [[Senolytic Drugs]]: - High-throughput screening of potential Senolytic Drugs.
 
 ## Linking Summary
-- New links added: [[Senescence]], [[Oxidative Stress]], [[DNA Damage]], [[DNA Damage Response]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]]
+- New links added: [[Senescence]], [[Oxidative Stress]], [[DNA Damage]], [[DNA Damage Response]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]]
 - Suggested new entity notes to create: [[SIPS model]], [[SIPS vs replicative senescence]]
 - Strong connections to strengthen: [[Stress-Induced Premature Senescence]] ↔ [[Oxidative Stress]], [[Stress-Induced Premature Senescence]] ↔ [[Senescence]]

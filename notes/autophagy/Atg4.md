@@ -9,6 +9,7 @@ tags:
   - enzyme
   - autophagy
 aliases: [autophagy-related cysteine protease]
+protected: true
 ---
 
 # Atg4

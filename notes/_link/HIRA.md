@@ -29,7 +29,7 @@ HIRA functions as part of a conserved chaperone complex that includes [[ASF1a]] 
 
 Dissection of SAHF revealed that each chromosome condenses into a single heterochromatin focus, marked by repressive histone modifications such as [[H3K9me3]], H3K9me2, [[H3K27me3]], H4K20me3 and [[DNA Methylation|DNA methylation]] (Zhang et al., 2007, PMID 17339329; Chandra et al., 2012, PMID 22817894). Several studies established that HIRA, together with [[ASF1a]] and [[UBN1]], is essential for SAHF formation (Zhang et al., 2005, Dev. Cell 8:19–30; Banumathy et al., 2009, PMID 19103796; Ye et al., 2007, PMID 17339329). Preventing HIRA translocation to [[PML]] nuclear bodies blocks SAHF formation (Zhang et al., 2005). Rai et al. (2014, PMID 25401360) showed that HIRA orchestrates a dynamic chromatin landscape in senescence and is required for suppression of neoplasia.
 
-Although SAHF are not essential for the cell-cycle arrest itself, their disruption correlates with reduced [[SASP]] expression — for example, HIRA depletion lowers SASP (Dasgupta et al., 2024). Whether SAHF or HIRA are strictly necessary for SASP remains unresolved, and robust punctate SAHF are absent in many in vivo and mouse contexts (Kennedy et al., 2010, PMID 20543843). HIRA also cooperates with p62/[[SQSTM1]] and [[PML]] to regulate inflammation during senescence (Dasgupta et al., 2024, Mol. Cell 84:3271–3287).
+Although SAHF are not essential for the cell-cycle arrest itself, their disruption correlates with reduced [[SASP|Senescence-Associated Secretory Phenotype]] expression — for example, HIRA depletion lowers SASP (Dasgupta et al., 2024). Whether SAHF or HIRA are strictly necessary for SASP remains unresolved, and robust punctate SAHF are absent in many in vivo and mouse contexts (Kennedy et al., 2010, PMID 20543843). HIRA also cooperates with p62/[[SQSTM1]] and [[PML]] to regulate inflammation during senescence (Dasgupta et al., 2024, Mol. Cell 84:3271–3287).
 
 ## Mechanistic Details
 
@@ -50,7 +50,7 @@ Because epigenetic regulators such as HIRA modulate SAHF and SASP without necess
 - [[PML]]: Nuclear bodies to which HIRA relocalizes; required for SAHF assembly.
 - [[Senescence-Associated Heterochromatin Foci]]: HIRA-dependent facultative heterochromatin structures.
 - [[H3.3]]: The histone variant deposited by HIRA.
-- [[SASP]]: SAHF disruption via HIRA depletion correlates with reduced SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SAHF disruption via HIRA depletion correlates with reduced SASP.
 
 ## Linking Summary
 

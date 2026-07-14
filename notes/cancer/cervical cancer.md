@@ -8,6 +8,7 @@ updated: 2026-07-06
 tags:
   - medical-condition
 aliases: []
+protected: true
 ---
 
 # Cervical Cancer

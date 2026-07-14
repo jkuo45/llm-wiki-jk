@@ -49,11 +49,11 @@ Cathepsin L inhibitors (e.g., RO5461111, KGP94) are explored in oncology and fib
 
 - [[H3.3]]: histone H3 variant cleaved by cathepsin L1
 - [[BRD4]]: protects H3.3 from clipping at senescence loci
-- [[SASP]]: clipping enhances SASP transcription
+- [[SASP|Senescence-Associated Secretory Phenotype]]: clipping enhances SASP transcription
 - [[H3K27ac]]: mark appearing at clipped, accessible loci
 
 ## Linking Summary
 
-- New links added: [[H3.3]], [[BRD4]], [[SASP]], [[H3K27ac]], [[H3K122ac]], [[H3K4me3]], [[Senomorphic]], [[Histone Variant]]
+- New links added: [[H3.3]], [[BRD4]], [[SASP|Senescence-Associated Secretory Phenotype]], [[H3K27ac]], [[H3K122ac]], [[H3K4me3]], [[Senomorphic]], [[Histone Variant]]
 - Suggested new entity notes to create: [[H3.3cs1]], [[H3.3]], [[Cathepsin Family]]
-- Strong connections to strengthen: [[Cathepsin L1]] ↔ [[H3.3]] (clipping), [[Cathepsin L1]] ↔ [[SASP]] (variant-driven)
+- Strong connections to strengthen: [[Cathepsin L1]] ↔ [[H3.3]] (clipping), [[Cathepsin L1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (variant-driven)

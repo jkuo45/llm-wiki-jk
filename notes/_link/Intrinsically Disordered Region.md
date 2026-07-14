@@ -28,7 +28,7 @@ aliases:
 
 ## Documents
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - The centenarian SIRT6 mutations reside within the C-terminal IDR. IDR-mediated weakened interaction with vimentin elevates SIRT6 levels.
 
 ## Connections

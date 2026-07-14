@@ -39,7 +39,7 @@ KDM4 enzymes are established epigenetic drivers of the SASP: genetic or pharmaco
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: KDM4 promotes SASP expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: KDM4 promotes SASP expression
 - [[EZH2]]: KDM4 and EZH2 have opposing effects on histone methylation
 - [[NF-κB]]: gains access to KDM4-opened SASP loci
 - [[p38 MAPK]]: upstream inducer of KDM4 in senescence
@@ -55,5 +55,5 @@ KDM4 enzymes are established epigenetic drivers of the SASP: genetic or pharmaco
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[EZH2]], [[NF-κB]], [[p38 MAPK]], [[Epigenetic Alterations]], [[Histone Variant]], [[cGAS-STING Pathway]], [[BRD4]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[IL-6]], [[IL-8]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[EZH2]], [[NF-κB]], [[p38 MAPK]], [[Epigenetic Alterations]], [[Histone Variant]], [[cGAS-STING Pathway]], [[BRD4]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[IL-6]], [[IL-8]]
 - Strong connections to strengthen: [[KDM4]] ↔ SASP regulation, [[KDM4]] ↔ epigenetics, [[KDM4]] ↔ heterochromatin

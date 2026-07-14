@@ -23,7 +23,7 @@ Senescent cells accumulate cytosolic DNA—leaked [[mtDNA]] and chromatin fragme
 ## Role in Senescence / SASP
 
 - IFN-β is a primary readout of cytosolic DNA–cGAS-STING activation in [[Senescent Cells]].
-- It reinforces the senescent state via ISG-mediated arrest and [[Senescence-associated heterochromatin foci|SAHF]] formation.
+- It reinforces the senescent state via ISG-mediated arrest and [[Senescence-Associated Heterochromatin Foci|SAHF]] formation.
 - It coordinates innate immune recognition/clearance of senescent cells, but when chronic, the persistent type I IFN signature drives sterile [[Inflammaging]] and tissue dysfunction.
 
 ## Clinical / Pathological Relevance
@@ -44,10 +44,10 @@ List of documents that mention this entity
 - [[IRF3]] — Transcription factor that induces IFN-β
 - [[STING]] / [[TBK1]] — Upstream cGAS-STING signaling
 - [[Senescent Cells]] — Produced by senescent cells
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Contributes to the SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Contributes to the SASP
 - [[mtDNA]] / [[Inflammaging]] — Drives sterile inflammation
 
 ## Linking Summary
 
-  - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]], [[STING]], [[TBK1]], [[Senescent Cells]], [[Senescence-Associated Secretory Phenotype|SASP]], [[mtDNA]], [[Inflammaging]], [[ISG15]], [[JAK]]
+  - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]], [[STING]], [[TBK1]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[mtDNA]], [[Inflammaging]], [[ISG15]], [[JAK]]
   - Strong connections to strengthen: [[IFN-β]] ↔ [[cGAS-STING Pathway|cGAS-STING]], [[IFN-β]] ↔ [[Inflammaging]]

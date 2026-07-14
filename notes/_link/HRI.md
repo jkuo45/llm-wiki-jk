@@ -1,23 +1,38 @@
 ---
 title: HRI
-description: Heme-regulated inhibitor (also known as EIF2AK1), a kinase that phosphorylates
-  EIF2A to initiate the Integrated Stress Response. While classically activated by
-  heme deficiency, HRI is also the cyto...
+description: Heme-regulated inhibitor (HRI, EIF2AK1) is a serine/threonine kinase that phosphorylates eIF2α to repress translation and initiate the integrated stress response; it is activated by heme deficiency and by mitochondrial stress via DELE1.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 tags:
   - enzyme
-aliases: []
+  - kinase
+  - stress-signaling
+aliases: [EIF2AK1, Heme-regulated inhibitor]
 ---
+
 # HRI
 
-Heme-regulated inhibitor (also known as EIF2AK1), a kinase that phosphorylates [[EIF2A]] to initiate the [[Integrated Stress Response]]. While classically activated by heme deficiency, HRI is also the cytosolic effector of mitochondrial stress signaling via [[DELE1]].
+**Overview:** [[HRI]] (heme-regulated inhibitor), also known as EIF2AK1, is a serine/threonine protein kinase of the eIF2α kinase family. It is the principal translator of heme status into translational control.
+
+**Mechanism of action:** HRI phosphorylates the α subunit of eukaryotic initiation factor 2 (eIF2α), reducing ternary-complex formation and globally repressing [[Translation|translation]] to conserve resources and limit damaged-protein synthesis. Classically, HRI is activated by [[Heme|heme]] deficiency (e.g., during iron deprivation or certain anemias), when its inhibitory heme ligand is absent.
+
+**Mitochondrial stress branch:** Beyond heme sensing, HRI is the cytosolic effector of mitochondrial proteotoxic stress. Mitochondrial stress activates the OMA1 protease, which cleaves DELE1; the released DELE1 fragment translocates to the cytosol and activates HRI, engaging the [[Integrated Stress Response]] (ISR) independently of PERK/GCN2.
+
+**Physiological relevance:** By coupling iron/hemoglobin availability and mitochondrial integrity to translational control, HRI protects cells from proteotoxic and oxidative injury and coordinates adaptive stress responses.
+
+#
+
+## Documents
+
+  - No documents in the vault currently reference this entity.
 
 ## Connections
-
-- [[EIF2A]]: Heme-regulated inhibitor (also known as EIF2AK1), a kinase that phosphorylates EIF2A to initiate the [[Integrated Str...
-- [[Integrated Stress Response]]: Heme-regulated inhibitor (also known as EIF2AK1), a kinase that phosphorylates [[EIF2A]] to initiate the Integrated S...
-- [[DELE1]]: While classically activated by heme deficiency, HRI is also the cytosolic effector of mitochondrial stress signaling ...
+  - [[Integrated Stress Response]]: HRI is a core eIF2α kinase initiating the ISR.
+  - [[DELE1]]: Cytosolic fragment that activates HRI under mitochondrial stress.
+  - [[Mitochondria]]: Source of the mitochondrial stress signal sensed by HRI.
+  - [[Translation]]: HRI represses translation via eIF2α phosphorylation.
 
 ## Linking Summary
-- New links added: [[EIF2A]], [[Integrated Stress Response]], [[DELE1]]
+  - New links added: [[Integrated Stress Response]], [[DELE1]], [[Mitochondria]], [[Translation]]
+  - Suggested new entity notes to create: [[EIF2A]], [[Heme]], [[OMA1]], [[eIF2α]]
+  - Strong connections to strengthen: [[HRI]] ↔ [[Integrated Stress Response]], [[HRI]] ↔ [[DELE1]]

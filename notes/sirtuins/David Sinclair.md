@@ -9,6 +9,7 @@ updated: 2026-07-07
 tags:
   - organization
 aliases: [David A. Sinclair, Sinclair]
+protected: true
 ---
 
 # David Sinclair
@@ -33,9 +34,16 @@ Sinclair's work established the "sirtuins as longevity genes" paradigm and the i
 - [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]: NAD⁺ precursors central to his rejuvenation research.
 - [[Geroscience]]: A field he helped establish.
 - [[Sirtris Pharmaceuticals]]: Company he co-founded to develop STACs.
+- [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Information Theory of Aging]]: Frameworks he developed positing epigenetic information loss as the driver of aging.
+- [[ICE Mouse]]: Mammalian model from his lab testing RCM via mutation-free DSBs.
+
+## Documents
+
+  - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+    - Summarizes Sinclair's RCM hypothesis and the ICE mouse evidence supporting epigenetic information loss as a cause of mammalian aging.
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Cellular Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]], [[Sirtris Pharmaceuticals]], [[GlaxoSmithKline]], [[Harvard Medical School]]
-- Suggested new entity notes to create: [[Information Theory of Aging]], [[SRT1720]], [[SRT2104]]
-- Strong connections to strengthen: [[David Sinclair]] ↔ [[SIRT1]], [[David Sinclair]] ↔ [[NAD+]]
+- New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Cellular Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]], [[Sirtris Pharmaceuticals]], [[GlaxoSmithKline]], [[Harvard Medical School]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Information Theory of Aging]], [[ICE Mouse]]
+- Suggested new entity notes to create: [[SRT1720]], [[SRT2104]]
+- Strong connections to strengthen: [[David Sinclair]] ↔ [[SIRT1]], [[David Sinclair]] ↔ [[NAD+]], [[David Sinclair]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]

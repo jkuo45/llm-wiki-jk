@@ -9,6 +9,7 @@ tags:
   - protein
   - autophagy
 aliases: []
+protected: true
 ---
 
 # Atg13

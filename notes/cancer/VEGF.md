@@ -35,6 +35,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - SIRT1 promotes Cisplatin resistance of non-small-cell lung cancer cells by elevating VEGF A expression. SIRT1 is upregulated in Cisplatin-resistant non-small-cell lung cancer tissues and cells compared to Cisplatin-sensitive groups.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) identifying VEGF as a key SASP factor that drives angiogenesis in the tumor microenvironment. Shows senescent fibroblasts secrete VEGF that promotes new blood vessel formation to support tumor growth and metastasis.
+
 
 ## Connections
 
@@ -45,6 +48,13 @@ List of documents that mention this entity
 - [[Tyrosine Kinase Inhibitors]]: VEGFR TKIs block VEGF signaling.
 - [[Metastasis]]: VEGF-built vessels enable dissemination.
 - [[Hallmarks of Cancer]]: Angiogenesis is a core cancer hallmark.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: VEGF is a key SASP growth factor; senescent cells secrete VEGF to drive angiogenesis in the tumor microenvironment
+- [[Senescent Cells]]: Senescent fibroblasts secrete VEGF that promotes new blood vessel formation to support tumor growth
+- [[p53]]: p53 restrains VEGF expression; p53 loss amplifies SASP-driven angiogenesis
+- [[NF-κB]]: NF-κB drives VEGF transcription in senescent cells
+- [[Tumor Microenvironment]]: VEGF from senescent cells reshapes the tumor microenvironment to support cancer growth
+- [[Breast Cancer]]: VEGF drives angiogenesis in breast cancer; therapeutic target for bevacizumab
+- [[Prostate Cancer]]: VEGF promotes angiogenesis in prostate cancer microenvironment
 
 ## Linking Summary
 

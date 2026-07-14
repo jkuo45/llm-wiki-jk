@@ -56,7 +56,7 @@ Key hallmarks of immune aging include:
 
 - **Thymic involution:** By age 50, the thymus has largely atrophied, reducing naive T cell production and narrowing the T cell repertoire available for responding to novel antigens.
 - **T cell exhaustion and senescence:** Accumulation of CD28− CD57+ senescent T cells with shortened [[Telomere Attrition|telomeres]], reduced proliferative capacity, and a pro-inflammatory secretory profile.
-- **Inflammaging:** Elevated basal levels of [[TNFα]], IL-6, and C-reactive protein, driven partly by [[NFKB|NF-κB]] activation from accumulated cellular damage, senescent cell [[SASP]] (senescence-associated secretory phenotype), and persistent CMV infection.
+- **Inflammaging:** Elevated basal levels of [[TNFα]], IL-6, and C-reactive protein, driven partly by [[NFKB|NF-κB]] activation from accumulated cellular damage, senescent cell [[SASP|Senescence-Associated Secretory Phenotype]] (senescence-associated secretory phenotype), and persistent CMV infection.
 - **Impaired vaccine responses:** Elderly individuals produce lower antibody titers and weaker cellular immunity after vaccination, necessitating high-dose or adjuvanted formulations.
 - **Increased susceptibility:** Higher rates of respiratory infections, reactivation of latent viruses (CMV, VZV), reduced cancer immunosurveillance, and poorer outcomes from [[SARS-CoV-2]] and other novel pathogens.
 
@@ -104,7 +104,7 @@ List of documents that mention this entity
 - [[Neutrophils]] — first-responder innate immune cells
 - [[Macrophage]] — phagocytic innate immune cells with antigen presentation capacity
 - [[Reactive Oxygen Species]] — ROS produced during respiratory burst for microbial killing
-- [[SASP]] — secretory phenotype of senescent cells driving chronic inflammation
+- [[SASP|Senescence-Associated Secretory Phenotype]] — secretory phenotype of senescent cells driving chronic inflammation
 - [[Rapamycin]] — mTORC1 inhibitor with immunomodulatory and longevity effects
 - [[Metformin]] — AMPK activator with anti-inflammatory and longevity potential
 - [[Senolytics]] — drugs targeting senescent cells to reduce inflammaging
@@ -129,6 +129,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Inflammaging]], [[Immunosenescence]], [[NFKB]], [[TNFα]], [[NLRP3]], [[Toll-like Receptor]], [[Pro-inflammatory Cytokines]], [[T Lymphocyte]], [[Neutrophils]], [[Macrophage]], [[Reactive Oxygen Species]], [[SASP]], [[Rapamycin]], [[Metformin]], [[Senolytics]], [[HIV]], [[SARS-CoV-2]], [[Rheumatoid Arthritis]], [[Breast Cancer]], [[Melanoma]], [[Glioma]], [[Multiple Myeloma]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[DNA Damage]], [[Genomic Instability]], [[Autophagy]], [[Apoptosis]], [[Telomere Attrition]], [[p16]], [[Bone Marrow]], [[Hematopoiesis]], [[Aging]]
+- New links added: [[Inflammaging]], [[Immunosenescence]], [[NFKB]], [[TNFα]], [[NLRP3]], [[Toll-like Receptor]], [[Pro-inflammatory Cytokines]], [[T Lymphocyte]], [[Neutrophils]], [[Macrophage]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Rapamycin]], [[Metformin]], [[Senolytics]], [[HIV]], [[SARS-CoV-2]], [[Rheumatoid Arthritis]], [[Breast Cancer]], [[Melanoma]], [[Glioma]], [[Multiple Myeloma]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[DNA Damage]], [[Genomic Instability]], [[Autophagy]], [[Apoptosis]], [[Telomere Attrition]], [[p16]], [[Bone Marrow]], [[Hematopoiesis]], [[Aging]]
 - Suggested new entity notes to create: [[Pathogens]], [[Lymphocytes]], [[Dendritic Cells]], [[Natural Killer Cells]], [[Antibodies]], [[Complement System]]
   - Strong connections to strengthen: Immune System ↔ Gut Microbiome, Immune System ↔ [[Inflammation]], Immune System ↔ [[Aging]]

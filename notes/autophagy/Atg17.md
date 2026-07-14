@@ -8,6 +8,7 @@ tags:
   - protein
   - autophagy
 aliases: [RB1CC1, FIP200]
+protected: true
 ---
 # Atg17
 

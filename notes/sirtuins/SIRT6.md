@@ -12,6 +12,7 @@ aliases:
   - Sirtuin 6
   - nuclear sirtuin 6
   - SIRT6 ADP-ribosyl transferase
+protected: true
 ---
 
 
@@ -125,7 +126,7 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 - **[[LINE-1]]** — SIRT6 represses LINE1; centenarian variants suppress progerin-induced LINE1 derepression.
 - **[[Hutchinson-Gilford Progeria Syndrome]]** — AAV-CentSIRT6 reduces LINE1 in HGPS fibroblasts.
 - **[[Mesenchymal Stromal Cells]]** — hMSC model used to study centenarian SIRT6 variant effects on senescence.
-- **[[SASP]]** — SIRT6 restraint of LINE-1 curbs cGAS–STING–driven SASP.
+- **[[SASP|Senescence-Associated Secretory Phenotype]]** — SIRT6 restraint of LINE-1 curbs cGAS–STING–driven SASP.
 - **[[Epigenetic Alterations]]** — SIRT6 is a chromatin-associated epigenetic regulator of senescence.
 - **[[Cytoplasmic Chromatin Fragments]]** — SIRT6 limits cytosolic DNA sources feeding SASP.
 - **[[cGAS-STING Pathway]]** — SIRT6 repression of retroelements dampens cGAS–STING SASP.
@@ -141,9 +142,9 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 
 ## 8. Linking Summary
 
-- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
-- **Suggested New Notes to Create**: [[PARP1]]
-- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]]
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
+- **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 
 ## Documents
 
@@ -164,10 +165,13 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
 
-  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Demonstrates that centenarian SIRT6 variants (N308K/A313S) elevate endogenous SIRT6 protein via weakened vimentin interaction, alter enzymatic activities (enhanced mADPr, reduced deacetylase), delay replicative senescence, and protect against progerin-induced stress. AAV-CentSIRT6 and Fucoidan-FV reduce LINE1 in HGPS fibroblasts.
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review notes SIRT6 is enriched at the 5′UTR of LINE-1 loci where it mono-ADP-ribosylates KAP1 to promote HP1α-mediated heterochromatinization; senescence-associated SIRT6 loss derepresses LINE-1, fueling cGAS–STING–driven SASP and inflammaging.
+
+  - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+    - Lists SIRT6 among chromatin modifiers (with SIRT1, HDAC1, PARP1) that relocalize to DNA damage sites during repair in the RCM framework; situates RCM within the Information Theory of Aging and the ICE mouse model.
 
 

@@ -269,7 +269,7 @@ The overlap between COMT-inhibitory and senolytic concentration ranges is uncert
 - [[Dopamine]]
 - [[Epinephrine]]
 - [[SASP]]
-- [[Nrf2]]
+- [[NRF2]]
 - [[AMPK]]
 - [[mTOR]]
 - [[SAH]]

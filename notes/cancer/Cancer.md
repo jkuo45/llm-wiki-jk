@@ -11,6 +11,7 @@ aliases:
   - Malignancy
   - Tumor
   - Neoplasm
+protected: true
 
 ---
 
@@ -94,6 +95,9 @@ List of documents that mention this entity
   - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Reviews the dual role of senescence in cancer: tumor suppression through cell cycle arrest and immune surveillance vs. tumor promotion through chronic SASP-driven inflammation. The cGAS-STING pathway is identified as a key regulator of SASP in the cancer microenvironment, with focus on obesity-associated HCC and KRAS-LKB1 mutant lung cancer.
 
+  - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
+    - Foundational review (Coppé et al., 2010) detailing how the SASP promotes cancer progression across multiple tissue types: breast (GROα-stimulated proliferation), prostate (amphiregulin, SDF-1α), pancreatic (HGF-driven invasion), and melanoma (CXCR-2 ligands stimulating rare premalignant cells). Demonstrates p53 as a cell-nonautonomous tumor suppressor that restrains the SASP.
+
 
 ## Connections
 - [[Aging]] — Primary risk factor; shared epigenetic mechanisms
@@ -105,7 +109,7 @@ List of documents that mention this entity
 - [[Ascorbic Acid]] (as a potential prooxidant therapy)
 - **[[DNA Methylation]]**: The primary epigenetic mark that is dysregulated in both aging and cancer.
 - **[[Cellular Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
-- **[[SASP]]**: The senescence-associated secretory phenotype mediates the paracrine effects of senescent cells, driving chronic inflammation and tumor promotion in the cancer microenvironment.
+- **[[SASP|Senescence-Associated Secretory Phenotype]]**: The senescence-associated secretory phenotype mediates the paracrine effects of senescent cells, driving chronic inflammation and tumor promotion in the cancer microenvironment.
 - **[[cGAS-STING Pathway]]**: An innate immune sensor of cytoplasmic DNA that drives SASP factor expression in senescent cells; plays context-dependent roles in cancer (tumor suppression via immune surveillance vs. tumor promotion via chronic inflammation).
 - **[[Genomic Instability]]**: A consequence of epigenetic erosion that facilitates the acquisition of cancer-driving mutations.
 - [[Yamanaka Factors]]: Used in research to reprogram cancer cells.
@@ -115,6 +119,22 @@ List of documents that mention this entity
 - **Molecular Targets**: Many therapeutic strategies target [[Integrins]] using motifs like the [[RGD peptide]] or the [[CendR motif]] to enhance drug delivery.
 - **Cellular Environment**: The [[ECM]] (Extracellular Matrix) and proteins like [[Fibronectin]], [[Fibrinogen]], and [[Vitronectin]] play crucial roles in tumor structure and signaling.
 - **Novel Mechanisms**: Agents like [[Ivermectin]] may affect [[Glutamate-gated Cl- channels]] or [[GABA]] receptors, suggesting complex mechanisms beyond traditional pathways.## Additional Content from Topic Directory
+- [[NF-κB]] — Master regulator of SASP gene expression in senescent cells; drives transcription of IL-6, IL-8, VEGF, and MMPs that promote cancer progression
+- [[p53]] — Tumor suppressor that restrains SASP; p53 loss amplifies SASP-driven cancer promotion
+- [[IL-6]] — Core SASP cytokine; drives cancer cell proliferation through JAK/STAT3 signaling; elevated in breast, prostate, and pancreatic cancers
+- [[IL-8]] — Core SASP chemokine; recruits CXCR2+ cells to the tumor microenvironment; promotes angiogenesis and invasion
+- [[VEGF]] — SASP growth factor; drives tumor angiogenesis; therapeutic target for anti-angiogenic therapy
+- [[MMP1]] — SASP protease; degrades type I collagen to enable cancer cell invasion
+- [[MMP-3]] — SASP protease; cleaves ECM components; promotes cancer cell migration
+- [[MMP-9]] — SASP protease; degrades basement membranes; enables cancer cell dissemination
+- [[Tumor Microenvironment]] — SASP reshapes the tumor microenvironment to support cancer growth
+- [[Metastasis]] — SASP proteases (MMPs) and growth factors (VEGF, HGF) enable cancer cell dissemination
+- [[Angiogenesis]] — SASP-driven VEGF and PGE2 promote new blood vessel formation to feed tumors
+- [[Inflammation]] — Chronic SASP-driven inflammation creates a pro-tumorigenic microenvironment
+- [[Breast Cancer]] — Senescent fibroblasts secrete IL-6, IL-8, and amphiregulin that promote breast cancer progression
+- [[Prostate Cancer]] — Senescent fibroblasts secrete CTGF, amphiregulin, and SDF-1α that promote prostate tumor growth
+- [[Pancreatic Cancer]] — SASP from senescent stellate cells promotes pancreatic cancer invasion via HGF and MMPs
+- [[Melanoma]] — SASP from senescent keratinocytes recruits CXCR2+ melanocytes and promotes melanoma progression
 
 # Cancer
 
@@ -145,7 +165,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: [[Oncogene Activation]], [[DNA Damage]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
 
-- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP]], [[Epigenetic Clock]].
+- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Oncogene]], [[Tumor Suppressor]], [[Telomere]], [[Telomerase]].
 - Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]]
 
@@ -177,7 +197,7 @@ Cancer is often described as having a "hyperaged" epigenetic profile. Research s
 While they share many features, some hallmarks of aging act in opposition to cancer:
 
 *   **Telomere Attrition:** A hallmark of aging that limits cell lifespan. It prevents cancer by inducing senescence; cancer cells must bypass this (e.g., via telomerase reactivation) to become immortal.
-*   **[[Cellular Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP]]) can later promote tumor growth in the surrounding tissue.
+*   **[[Cellular Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP|Senescence-Associated Secretory Phenotype]]) can later promote tumor growth in the surrounding tissue.
 *   **[[Epigenetic Clock]]s:** Tumors typically show significantly higher "epigenetic ages" than the chronological age of the patient, reflecting their rapid and disorganized cellular proliferation.
 
 
@@ -239,8 +259,8 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 ## Linking Summary
 - New links added: [[Aging]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]], [[Cancer]] ↔ [[cGAS-STING Pathway]], [[Cancer]] ↔ [[SASP]], [[Cancer]] ↔ [[Cellular Senescence]]
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[Oncogene Activation]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]], [[Cancer]] ↔ [[cGAS-STING Pathway]], [[Cancer]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]] ↔ [[Cellular Senescence]]
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[Oncogene Activation]]
 - Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[Oncogene Activation]]# Cancer
 
 **Cancer** is a large group of diseases characterized by uncontrolled cell growth with the potential to invade or spread to other parts of the body. It shares a "meta-hallmark" of epigenetic instability with aging.
@@ -299,7 +319,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: [[Oncogene Activation]], [[DNA Damage]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
 
-- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP]], [[Epigenetic Clock]].
+- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Oncogene]], [[Tumor Suppressor]], [[Telomere]], [[Telomerase]].
 - Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]]
 
@@ -331,7 +351,7 @@ Cancer is often described as having a "hyperaged" epigenetic profile. Research s
 While they share many features, some hallmarks of aging act in opposition to cancer:
 
 *   **Telomere Attrition:** A hallmark of aging that limits cell lifespan. It prevents cancer by inducing senescence; cancer cells must bypass this (e.g., via telomerase reactivation) to become immortal.
-*   **[[Cellular Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP]]) can later promote tumor growth in the surrounding tissue.
+*   **[[Cellular Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP|Senescence-Associated Secretory Phenotype]]) can later promote tumor growth in the surrounding tissue.
 *   **[[Epigenetic Clock]]s:** Tumors typically show significantly higher "epigenetic ages" than the chronological age of the patient, reflecting their rapid and disorganized cellular proliferation.
 
 

@@ -44,7 +44,7 @@ Plasmin has broad substrate specificity:
 Plasmin activity is tightly regulated at multiple levels:
 
 - **α2-Antiplasmin (α2-AP):** The primary rapid-acting inhibitor of plasmin. Forms a 1:1 stoichiometric complex with free plasmin in plasma (half-life ~0.1 seconds), ensuring that plasmin generated systemically is immediately neutralised. This prevents widespread proteolysis outside the clot microenvironment.
-- **[[PAI-1]]:** Inhibits [[uPA]] and tPA, indirectly controlling plasmin generation. PAI-1 is itself a key [[Senescence-Associated Secretory Phenotype|SASP]] factor, linking plasmin regulation to senescence and ageing.
+- **[[PAI-1]]:** Inhibits [[uPA]] and tPA, indirectly controlling plasmin generation. PAI-1 is itself a key [[SASP|Senescence-Associated Secretory Phenotype]] factor, linking plasmin regulation to senescence and ageing.
 - **PAI-2:** Inhibits uPA less efficiently than PAI-1; expressed in placenta and monocytes.
 - **Thrombin-Activatable Fibrinolysis Inhibitor (TAFI):** Removes C-terminal lysine residues from partially degraded fibrin, reducing plasminogen and tPA binding and thus attenuating fibrinolysis.
 - **Fibrin itself:** Paradoxically, fibrin serves as both the substrate and a cofactor that accelerates plasminogen activation by tPA, creating a localised positive feedback at the clot surface.
@@ -68,7 +68,7 @@ Plasminogen is essential for embryonic development (PLG-knockout mice show growt
 
 ## Role in Senescence / SASP
 
-Plasmin generation is tightly linked to the [[Senescence-Associated Secretory Phenotype|SASP]]:
+Plasmin generation is tightly linked to the [[SASP|Senescence-Associated Secretory Phenotype]]:
 
 - **uPA/PAI-1 axis:** [[uPA]] is secreted by [[Senescent Cells]] and converts plasminogen to plasmin at the cell surface. Its inhibitor [[PAI-1]] is one of the most robust SASP biomarkers, creating a regulatory loop that controls plasmin generation in the senescent microenvironment.
 - **Pro-MMP activation:** Plasmin activates latent MMPs (MMP-3, MMP-9, MMP-12), amplifying the ECM-degrading capacity of the SASP beyond what any single protease achieves alone.
@@ -136,7 +136,7 @@ List of documents that mention this entity
   - [[MMP-12]]: Macrophage metalloelastase activated by plasmin; MMP-12 reciprocally cleaves plasminogen to generate angiostatin
   - [[Thrombin]]: Counterpart in the coagulation cascade; thrombin generates fibrin, plasmin degrades it
   - [[Extracellular Matrix]]: Plasmin degrades ECM components (fibronectin, laminin, collagen IV) and activates pro-MMPs
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: Plasmin generation is controlled by the uPA/PAI-1 SASP axis
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Plasmin generation is controlled by the uPA/PAI-1 SASP axis
   - [[VEGF]]: Matrix-bound VEGF is released by plasmin cleavage, linking fibrinolysis to angiogenesis
   - [[Inflammation]]: Plasmin activates complement and generates chemotactic fragments that recruit immune cells
   - [[Neutrophils]]: Recruited by plasmin-generated chemotactic fragments during inflammation
@@ -144,7 +144,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[uPA]], [[PAI-1]], [[Plasminogen]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Thrombin]], [[Extracellular Matrix]], [[Senescence-Associated Secretory Phenotype|SASP]], [[VEGF]], [[Inflammation]], [[Neutrophils]], [[Ischemic Stroke]]
+  - New links added: [[uPA]], [[PAI-1]], [[Plasminogen]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Thrombin]], [[Extracellular Matrix]], [[SASP|Senescence-Associated Secretory Phenotype]], [[VEGF]], [[Inflammation]], [[Neutrophils]], [[Ischemic Stroke]]
   - Suggested new entity notes to create: [[Tissue Plasminogen Activator]], [[Alpha-2-Antiplasmin]], [[TAFI]], [[Fibrin]], [[D-dimer]]
   - Strong connections to strengthen: [[Plasmin]] ↔ [[uPA]], [[Plasmin]] ↔ [[PAI-1]], [[Plasmin]] ↔ [[MMP-12]], [[Plasmin]] ↔ [[Thrombin]]
   - Justification: The uPA→plasmin→MMP activation cascade is the central proteolytic axis in ECM remodelling and the SASP. The plasmin/thrombin balance (fibrinolysis vs. coagulation) is a fundamental homeostatic mechanism. The Plasmin↔MMP-12 reciprocal activation loop is particularly significant for inflammation resolution and angiostatin generation.

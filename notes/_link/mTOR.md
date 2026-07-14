@@ -91,7 +91,7 @@ List of documents that mention this entity
     - Review of mTOR as the central longevity-regulating pathway and rapamycin's mechanisms of action.
 
   - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
-    - Models the full mTOR-PI3K cascade (mTOR ↔ [[mTORC1]]/[[mTORC2]], [[PI3K]], [[Akt]], [[IRS1]], [[S6K1/2]], [[PTEN]], [[PP2A]], [[FKBP12]]) and shows rapamycin hormesis arises from an [[Incoherent Bivalent Motif]] centered on mTORC1.
+    - Models the full mTOR-PI3K cascade (mTOR ↔ [[mTORC1]]/[[mTORC2]], [[PI3K]], [[Akt]], [[IRS1]], [[SK61_2]], [[PTEN]], [[PP2A]], [[FKBP12]]) and shows rapamycin hormesis arises from an [[Incoherent Bivalent Motif]] centered on mTORC1.
 
 ## Connections
 - **[[Incoherent Bivalent Motif]]**: the mTORC1-centered network motif generating rapamycin hormesis
@@ -105,7 +105,7 @@ List of documents that mention this entity
 - [[PI3K]]: Part of the same signaling axis.
 - [[melittin]]: Suppresses mTOR activity.
 - [[Ivermectin]]: Inhibits the mTOR pathway, leading to programmed cell death.
-- [[SASP]]: mTOR promotes SASP protein production
+- [[SASP|Senescence-Associated Secretory Phenotype]]: mTOR promotes SASP protein production
 - [[Epigenetic Alterations]]: mTOR intersects the epigenetic regulation of SASP
 - [[NF-κB]]: mTOR cooperates with NF-κB in SASP regulation
 - [[p38 MAPK]]: p38 MAPK and mTOR converge on SASP
@@ -113,6 +113,6 @@ List of documents that mention this entity
 - [[Senomorphic]]: mTOR inhibitors act as senomorphics suppressing SASP
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]], [[SASP]], [[Epigenetic Alterations]], [[NF-κB]], [[p38 MAPK]], [[cGAS-STING Pathway]], [[Senomorphic]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[S6K1/2]], [[PI3K]], [[Akt]], [[IRS1]], [[PTEN]], [[PP2A]], [[FKBP12]]
+- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[NF-κB]], [[p38 MAPK]], [[cGAS-STING Pathway]], [[Senomorphic]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[SK61_2]], [[PI3K]], [[Akt]], [[IRS1]], [[PTEN]], [[PP2A]], [[FKBP12]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]], [[Autophagy]]
   - Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ Autophagy, Nutrient Sensing ↔ [[mTOR]]

@@ -41,10 +41,10 @@ TOP1cc are essential for cGAS–STING activation in senescence:
 
 - [[cGAS-STING Pathway|cGAS–STING]]: TOP1cc assist cGAS recognition of DNA
 - [[G3BP1]]: Both TOP1cc and G3BP1 assist cGAS
-- [[Senescence-Associated Secretory Phenotype|SASP]]: TOP1cc are essential for SASP regulation
+- [[SASP|Senescence-Associated Secretory Phenotype]]: TOP1cc are essential for SASP regulation
 - [[Senescent Cells]]: context of CCF release
 
 ## Linking Summary
 
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[G3BP1]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]]
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[G3BP1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]]
   - Strong connections to strengthen: [[TOP1]] ↔ cGAS, [[TOP1]] ↔ SASP regulation

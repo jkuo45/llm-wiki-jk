@@ -13,7 +13,7 @@ aliases: [Epithelial-to-mesenchymal transition, EMT, epithelial mesenchymal tran
 
 # Epithelial-to-mesenchymal transition
 
-**Epithelial-to-mesenchymal transition (EMT)** is a biological process in which polarized, adherent epithelial cells lose apical-basal polarity and cell–cell junctions and acquire mesenchymal traits—motility, invasiveness and resistance to apoptosis—resembling mesenchymal stem cells. The [[Senescence-Associated Secretory Phenotype|SASP]] of [[Senescent Cells]] can induce EMT in neighboring cancer cells, coupling chronic senescence to tumor aggressiveness.
+**Epithelial-to-mesenchymal transition (EMT)** is a biological process in which polarized, adherent epithelial cells lose apical-basal polarity and cell–cell junctions and acquire mesenchymal traits—motility, invasiveness and resistance to apoptosis—resembling mesenchymal stem cells. The [[SASP|Senescence-Associated Secretory Phenotype]] of [[Senescent Cells]] can induce EMT in neighboring cancer cells, coupling chronic senescence to tumor aggressiveness.
 
 ## Mechanism of Action & Signaling
 
@@ -37,7 +37,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — SASP factors like TGF-β and IL-6 promote EMT
+- [[SASP|Senescence-Associated Secretory Phenotype]] — SASP factors like TGF-β and IL-6 promote EMT
 - [[Cancer]] — EMT is a driver of cancer progression and metastasis
 - [[Metastasis]] — EMT facilitates cancer cell invasion and migration
 - [[TGF-β]] — A key SASP factor that induces EMT
@@ -46,8 +46,8 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Cancer]], [[Metastasis]], [[TGF-β]], [[IL-6]], [[IL-8]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[NF-κB]], [[STAT3]], [[Snail]], [[Zeb1]], [[Fibrosis]], [[Tumor Microenvironment]], [[Wnt]], [[Notch]]
-  - Strong connections to strengthen: Epithelial-to-mesenchymal transition ↔ Cancer, Epithelial-to-mesenchymal transition ↔ [[SASP]], Epithelial-to-mesenchymal transition ↔ [[Metastasis]], Epithelial-to-mesenchymal transition ↔ [[Mesenchymal-to-Epithelial Transition]], Epithelial-to-mesenchymal transition ↔ [[Cellular Reprogramming]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Metastasis]], [[TGF-β]], [[IL-6]], [[IL-8]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[NF-κB]], [[STAT3]], [[Snail]], [[Zeb1]], [[Fibrosis]], [[Tumor Microenvironment]], [[Wnt]], [[Notch]]
+  - Strong connections to strengthen: Epithelial-to-mesenchymal transition ↔ Cancer, Epithelial-to-mesenchymal transition ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Epithelial-to-mesenchymal transition ↔ [[Metastasis]], Epithelial-to-mesenchymal transition ↔ [[Mesenchymal-to-Epithelial Transition]], Epithelial-to-mesenchymal transition ↔ [[Cellular Reprogramming]]
 
 ## Additional Context (Cellular Reprogramming / Development)
 

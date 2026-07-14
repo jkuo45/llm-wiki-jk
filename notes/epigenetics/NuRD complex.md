@@ -6,6 +6,7 @@ updated: 2026-07-06
 tags:
   - protein
 aliases: []
+protected: true
 ---
 
 # NuRD complex

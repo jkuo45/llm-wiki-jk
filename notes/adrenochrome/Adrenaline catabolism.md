@@ -6,6 +6,7 @@ updated: 2026-07-04
 tags:
   - biological-process
 aliases: []
+protected: true
 ---
 # Adrenaline catabolism
 
@@ -37,7 +38,7 @@ List of documents that mention this entity
 
 2. **Deamination by MAO**: [[MAO]] (monoamine oxidase) oxidatively deaminates epinephrine to 3,4-dihydroxymandelaldehyde, which is further reduced or oxidized to 3,4-dihydroxymandelic acid or, following COMT action, to VMA. In the central nervous system, MAO-A is the primary isoform responsible for epinephrine and norepinephrine metabolism, while MAO-B preferentially acts on dopamine.
 
-3. **Oxidative Cyclization (Adrenochrome Pathway)**: Under conditions of elevated oxidative stress, epinephrine undergoes two-electron oxidation of the catechol ring to form [[adrenaline-quinone]], which cyclizes to [[Leuco-adrenochrome]] and then [[Adrenochrome]]. This route bypasses both COMT and MAO entirely and represents a shunt toward highly reactive oxidation products.
+3. **Oxidative Cyclization (Adrenochrome Pathway)**: Under conditions of elevated oxidative stress, epinephrine undergoes two-electron oxidation of the catechol ring to form [[Adrenaline-quinone]], which cyclizes to [[Leuco-adrenochrome]] and then [[Adrenochrome]]. This route bypasses both COMT and MAO entirely and represents a shunt toward highly reactive oxidation products.
 
 ## Relative Flux Under Normal vs Stress Conditions
 
@@ -63,6 +64,6 @@ Several biochemical parameters divert epinephrine away from COMT/MAO and toward 
 - **Ascorbate deficiency**: Vitamin C efficiently reduces the semiquinone radical back to epinephrine; deficiency removes this protective recycling pathway.
 
 ## Linking Summary
-- New links added: [[Metanephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]], [[MAO]], [[COMT]], [[Catecholamines]], [[Adrenochrome]]
+- New links added: [[Metanephrine]], [[Adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]], [[MAO]], [[COMT]], [[Catecholamines]], [[Adrenochrome]]
 - Suggested new entity notes to create: [[Epinephrine Half-Life]]
 - Strong connections to strengthen: [[Adrenaline catabolism]] ↔ [[Adrenochrome Pathway]], [[Adrenaline catabolism]] ↔ [[COMT]], [[Adrenaline catabolism]] ↔ [[MAO]]

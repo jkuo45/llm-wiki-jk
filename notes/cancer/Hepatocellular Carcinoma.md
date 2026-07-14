@@ -6,6 +6,7 @@ updated: 2026-07-09
 tags:
   - medical-condition
 aliases: []
+protected: true
 ---
 
 # Hepatocellular Carcinoma
@@ -26,7 +27,7 @@ Curative options (resection, ablation, transplantation) apply to early disease. 
 
 ## The Senescence-SASP-cGAS-STING Axis in HCC
 
-A growing body of evidence establishes [[Senescence|cellular senescence]] of [[Hepatic Stellate Cells|hepatic stellate cells (HSC)]] as a critical driver of obesity-associated HCC through the [[SASP|senescence-associated secretory phenotype (SASP)]] and the [[cGAS-STING Pathway|cGAS-STING signaling pathway]].
+A growing body of evidence establishes [[Senescence|cellular senescence]] of [[Hepatic Stellate Cells|hepatic stellate cells (HSC)]] as a critical driver of obesity-associated HCC through the [[SASP|Senescence-Associated Secretory Phenotype]] and the [[cGAS-STING Pathway|cGAS-STING signaling pathway]].
 
 ### Gut Microbiota-DCA-Senescence Axis
 
@@ -96,7 +97,7 @@ List of documents that mention this entity
 - [[Tumor Microenvironment]]: Stromal niche enabling growth.
 - [[Hepatic Stellate Cells]]: Senescent HSC produce SASP factors that drive obesity-associated HCC.
 - [[Senescence]]: HSC senescence is a key initiating event in obesity-associated HCC.
-- [[SASP]]: The secretory phenotype from senescent HSC promotes HCC through IL-1β and COX-2/PGE2.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: The secretory phenotype from senescent HSC promotes HCC through IL-1β and COX-2/PGE2.
 - [[cGAS-STING Pathway]]: Drives SASP factor transcription in senescent HSC; STING knockout attenuates HCC.
 - [[Deoxycholic Acid]]: Gut metabolite that induces HSC senescence in obesity.
 - [[Gut Microbiome]]: Obesity-altered microbiota produce DCA, driving the senescence-SASP-HCC axis.
@@ -106,6 +107,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NFκB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
+- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NFκB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
 - Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]], [[Therapy-Induced Senescence]], [[Cytoplasmic Chromatin Fragments]]
-- Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]
+- Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]

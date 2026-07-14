@@ -12,6 +12,7 @@ aliases:
   - Oxidative stress
   - OS
   - Redox imbalance
+protected: true
 
 ---
 
@@ -309,7 +310,7 @@ ROS are potent inducers of [[Stress-Induced Premature Senescence|premature senes
 2. **Telomere dysfunction:** Oxidative damage accelerates [[Telomere Attrition|telomere shortening]] 5–10-fold beyond replication-dependent loss.
 3. **p38 MAPK activation:** H₂O₂ activates [[p38 MAPK]], which upregulates [[p16INK4A]] and [[p21|p21^CIP1^]].
 4. **Mitochondrial dysfunction:** ROS-induced mtDNA mutations impair electron transport, creating a vicious cycle of further ROS production.
-5. **[[SASP]] induction:** ROS activate [[NF-κB]] and [[AP-1]], driving SASP gene transcription.
+5. **[[SASP|Senescence-Associated Secretory Phenotype]] induction:** ROS activate [[NF-κB]] and [[AP-1]], driving SASP gene transcription.
 
 ## Epigenetic Consequences of Oxidative Stress
 

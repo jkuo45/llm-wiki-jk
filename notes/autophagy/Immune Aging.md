@@ -17,7 +17,7 @@ aliases: [immunosenescence]
 ## Key Features
 - **[[Thymic Involution]]**: The shrinking of the thymus, leading to reduced production of naïve [[T Cell|T cells]].
 - **[[Inflammaging]]**: A state of chronic, low-grade systemic inflammation.
-- **[[Senescence]]**: Accumulation of senescent immune cells with a [[Senescence-Associated Secretory Phenotype]] (SASP).
+- **[[Senescence]]**: Accumulation of senescent immune cells with a [[SASP|Senescence-Associated Secretory Phenotype]] (SASP).
 - **Altered Cell Dynamics**: Changes in the proportions and functions of various immune cell subsets.
 
 ## Clinical Implications
@@ -42,8 +42,8 @@ List of documents that mention this entity
 - [[Thymic Involution]]: ## Key Features - **Thymic Involution**: The shrinking of the thymus, leading to reduced production of naïve [[T Cell...
 - [[T Cell]]: ## Key Features - **[[Thymic Involution]]**: The shrinking of the thymus, leading to reduced production of naïve T ce...
 - [[Inflammaging]]: - **Inflammaging**: A state of chronic, low-grade systemic inflammation.
-- [[Senescence]]: - **Senescence**: Accumulation of senescent immune cells with a [[Senescence-Associated Secretory Phenotype]] (SASP).
-- [[Senescence-Associated Secretory Phenotype]]: - **[[Senescence]]**: Accumulation of senescent immune cells with a Senescence-Associated Secretory Phenotype (SASP).
+- [[Senescence]]: - **Senescence**: Accumulation of senescent immune cells with a [[SASP|Senescence-Associated Secretory Phenotype]] (SASP).
+- [[SASP|Senescence-Associated Secretory Phenotype]]: - **[[Senescence]]**: Accumulation of senescent immune cells with a Senescence-Associated Secretory Phenotype (SASP).
 - [[Atherosclerosis]]: ## Clinical Implications Immune aging is a major driver of age-related morbidity and mortality, contributing to condi...
 - [[Cancer]]: ## Clinical Implications Immune aging is a major driver of age-related morbidity and mortality, contributing to condi...
 - [[COVID-19]]: ## Clinical Implications Immune aging is a major driver of age-related morbidity and mortality, contributing to condi...
@@ -55,6 +55,6 @@ List of documents that mention this entity
 - [[Exercise]]: ## Therapeutic Strategies Interventions targeting immune aging include [[Autophagy Inducer|autophagy inducers]] like ...
 
 ## Linking Summary
-- New links added: [[Immunosenescence]], [[Immune System]], [[Thymic Involution]], [[T Cell]], [[Inflammaging]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Atherosclerosis]], [[Cancer]], [[COVID-19]], [[Autophagy Inducer]], [[Rapamycin]], [[Metformin]], [[Spermidine]], [[Dietary Restriction]], [[Exercise]]
+- New links added: [[Immunosenescence]], [[Immune System]], [[Thymic Involution]], [[T Cell]], [[Inflammaging]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Atherosclerosis]], [[Cancer]], [[COVID-19]], [[Autophagy Inducer]], [[Rapamycin]], [[Metformin]], [[Spermidine]], [[Dietary Restriction]], [[Exercise]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immune Aging]] ↔ [[Autophagy Inducer]], [[Immune Aging]] ↔ [[Immunosenescence]]

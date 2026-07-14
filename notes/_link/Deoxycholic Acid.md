@@ -30,7 +30,7 @@ DCA is the key molecular link between obesity-associated [[Gut Microbiome|gut dy
 1. **Obesity** → altered [[Gut Microbiome|gut microbiota]] → increased DCA production
 2. **DCA reaches the liver** via portal circulation
 3. **DCA induces [[DNA Damage]]** and senescence in HSC
-4. **Senescent HSC** secrete [[SASP|SASP factors]] ([[IL-1β]], [[COX-2]]/[[Prostaglandin E2|PGE2]]) via the [[cGAS-STING Pathway|cGAS-STING signaling pathway]]
+4. **Senescent HSC** secrete [[SASP|Senescence-Associated Secretory Phenotype]] ([[IL-1β]], [[COX-2]]/[[Prostaglandin E2|PGE2]]) via the [[cGAS-STING Pathway|cGAS-STING signaling pathway]]
 5. **SASP-driven inflammation** creates a pro-tumorigenic microenvironment promoting HCC
 
 ## Mechanism of Senescence Induction
@@ -60,7 +60,7 @@ List of documents that mention this entity
 - [[Hepatocellular Carcinoma]] — DCA drives obesity-associated HCC through HSC senescence
 - [[Hepatic Stellate Cells]] — DCA targets HSC to induce senescence and SASP
 - [[Senescence]] — DCA-induced DNA damage triggers HSC senescence
-- [[SASP]] — Senescent HSC secrete SASP factors in response to DCA
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Senescent HSC secrete SASP factors in response to DCA
 - [[Gut Microbiome]] — Microbial 7α-dehydroxylation produces DCA
 - [[Obesity]] — Increases DCA production via gut microbiota alterations
 - [[cGAS-STING Pathway]] — Drives SASP transcription in DCA-senesced HSC
@@ -70,6 +70,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Deoxycholic Acid]], [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP]], [[Gut Microbiome]], [[Obesity]], [[cGAS-STING Pathway]], [[DNA Damage]], [[Bile Acid]], [[COX-2]], [[Prostaglandin E2]], [[IL-1β]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Reactive Oxygen Species]], [[DNA Damage Response]]
+- New links added: [[Deoxycholic Acid]], [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Gut Microbiome]], [[Obesity]], [[cGAS-STING Pathway]], [[DNA Damage]], [[Bile Acid]], [[COX-2]], [[Prostaglandin E2]], [[IL-1β]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Reactive Oxygen Species]], [[DNA Damage Response]]
 - Suggested new entity notes to create: [[Bile Acid Sequestrants]], [[7α-dehydroxylase]]
 - Strong connections to strengthen: [[Deoxycholic Acid]] ↔ [[Hepatocellular Carcinoma]], [[Deoxycholic Acid]] ↔ [[Hepatic Stellate Cells]], [[Deoxycholic Acid]] ↔ [[Senescence]], [[Deoxycholic Acid]] ↔ [[Gut Microbiome]], [[Deoxycholic Acid]] ↔ [[Obesity]]

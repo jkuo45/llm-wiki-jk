@@ -39,13 +39,13 @@ List of documents that mention this entity
 
 - [[MAPKAPK2|MK2]] — Phosphorylated by MK2
 - [[p38 MAPK]] — Downstream of p38 MAPK signaling
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Contributes to SASP mRNA stability
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Contributes to SASP mRNA stability
 - [[Apoptosis]] — HSP27 can inhibit apoptosis
 - [[Senescent Cells]] — Elevated and functional in senescent cells
 
 ## Linking Summary
 
-  - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Apoptosis]], [[Senescent Cells]], [[IL-6]], [[IL-8]], [[Ivermectin]], [[EGFR]], [[HER2]], [[erlotinib]], [[cetuximab]], [[Metastasis]], [[Oxidative Stress]], [[Cytochrome c]], [[ASK1]], [[Glutathione]]
+  - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Senescent Cells]], [[IL-6]], [[IL-8]], [[Ivermectin]], [[EGFR]], [[HER2]], [[erlotinib]], [[cetuximab]], [[Metastasis]], [[Oxidative Stress]], [[Cytochrome c]], [[ASK1]], [[Glutathione]]
   - Suggested new entity notes to create: [[MAPKAPK-2]], [[OGX-427]], [[HSPB1]]
   - Strong connections to strengthen: [[HSP27]] ↔ [[MAPKAPK2|MK2]], [[HSP27]] ↔ SASP mRNA stability, [[HSP27]] ↔ [[Ivermectin]], [[HSP27]] ↔ [[EGFR]]
 

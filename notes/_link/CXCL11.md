@@ -45,10 +45,10 @@ CXCL11 (C-X-C motif chemokine ligand 11), also known as I-TAC (interferon-induci
 - [[CXCR3]]: CXCL11 binds to CXCR3 receptor
 - [[CXCL10]]: CXCL10 is a related CXCR3-binding SASP chemokine
 - [[STAT1]]: STAT1 mediates IFN-driven CXCL11 transcription
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL11 is a pro-tumorigenic SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL11 is a pro-tumorigenic SASP factor
 - [[Cancer]]: CXCL11 promotes breast cancer aggressiveness
 
 ## Linking Summary
 
-- New links added: [[CXCR3]], [[CXCL10]], [[STAT1]], [[NF-κB]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Cancer]]
+- New links added: [[CXCR3]], [[CXCL10]], [[STAT1]], [[NF-κB]], [[p38 MAPK]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]]
   - Strong connections to strengthen: [[CXCL11]] ↔ [[CXCR3]], [[CXCL11]] ↔ cancer progression

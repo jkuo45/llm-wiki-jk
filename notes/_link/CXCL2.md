@@ -15,7 +15,7 @@ aliases:
 
 # CXCL2
 
-CXCL2 (C-X-C motif chemokine ligand 2), also known as GROβ (growth-regulated oncogene beta) or MIP-2α (human homolog of mouse MIP-2), is an ELR+ C-X-C chemokine that signals through [[CXCR2]] (and weakly through CXCR1). Like [[CXCL1]] and [[CXCL3]], it is an archetypal neutrophil chemoattractant and a conserved member of the [[Senescence-Associated Secretory Phenotype|SASP]] (Coppé et al., 2008, PMID 18948995).
+CXCL2 (C-X-C motif chemokine ligand 2), also known as GROβ (growth-regulated oncogene beta) or MIP-2α (human homolog of mouse MIP-2), is an ELR+ C-X-C chemokine that signals through [[CXCR2]] (and weakly through CXCR1). Like [[CXCL1]] and [[CXCL3]], it is an archetypal neutrophil chemoattractant and a conserved member of the [[SASP|Senescence-Associated Secretory Phenotype]] (Coppé et al., 2008, PMID 18948995).
 
 ## Mechanism of Action & Signaling
 
@@ -48,9 +48,9 @@ CXCL2 (C-X-C motif chemokine ligand 2), also known as GROβ (growth-regulated on
 - [[CXCL3]]: CXCL3 is a related SASP chemokine
 - [[NF-κB]]: NF-κB regulates CXCL2 expression
 - [[IL-8]]: IL-8 is a co-induced ELR+ CXC SASP chemokine sharing CXCR2
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL2 is a SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL2 is a SASP chemokine
 
 ## Linking Summary
 
-- New links added: [[CXCR2]], [[CXCL1]], [[CXCL3]], [[NF-κB]], [[AP-1]], [[CEBPβ|C/EBPβ]], [[p38 MAPK]], [[IL-8]], [[IL-6]], [[Macrophages]], [[Neutrophils]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[CXCL2]] ↔ [[CXCR2]], [[CXCL2]] ↔ [[SASP]]
+- New links added: [[CXCR2]], [[CXCL1]], [[CXCL3]], [[NF-κB]], [[AP-1]], [[CEBPβ|C/EBPβ]], [[p38 MAPK]], [[IL-8]], [[IL-6]], [[Macrophages]], [[Neutrophils]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+  - Strong connections to strengthen: [[CXCL2]] ↔ [[CXCR2]], [[CXCL2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

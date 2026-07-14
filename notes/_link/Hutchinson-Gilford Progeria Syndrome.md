@@ -18,7 +18,7 @@ HGPS is caused by a sporadic mutation in the **LMNA gene**. This mutation leads 
 The presence of progerin causes profound changes in the cell's [[Epigenome]]:
 *   **[[DNA Damage]] and [[Genomic Instability]]**: The disorganized nucleus leads to significant DNA damage and structural abnormalities in the genome.
 *   **Loss of [[Heterochromatin]]**: Cells from HGPS patients show a massive loss of repressive heterochromatin, particularly the **H3K9me3** mark, leading to aberrant gene expression.
-*   **[[Senescence]]**: Progeria cells enter senescence prematurely and secrete pro-inflammatory factors (the [[Senescence-Associated Secretory Phenotype|SASP]]).
+*   **[[Senescence]]**: Progeria cells enter senescence prematurely and secrete pro-inflammatory factors (the [[SASP|Senescence-Associated Secretory Phenotype]]).
 ## Therapeutic Approaches and Yamanaka Factors
 In the context of [[Yamanaka Factors]], research has used [[OSKM]] factors to generate [[Partial Reprogramming]] in vivo in progeroid mouse models. 
 - Transient expression of these factors can improve the phenotype and extend the lifespan of mice with HGPS-like symptoms.

@@ -36,7 +36,7 @@ PML-NBs concentrate the machinery (HIRA complex, histone-modifying enzymes) need
 
 ## Clinical and Therapeutic Relevance
 
-PML is a classic tumor suppressor whose loss characterizes acute promyelocytic leukemia (targeted by arsenic trioxide). In aging, its role in SAHF/heterochromatin positions PML within the epigenetic control of [[SASP]] and senescence. Modulating PML-body function could inform [[Senomorphic|senomorphic]] strategies, albeit with care given its tumor-suppressive role (see [[KDM4]], [[BRD4]]).
+PML is a classic tumor suppressor whose loss characterizes acute promyelocytic leukemia (targeted by arsenic trioxide). In aging, its role in SAHF/heterochromatin positions PML within the epigenetic control of [[SASP|Senescence-Associated Secretory Phenotype]] and senescence. Modulating PML-body function could inform [[Senomorphic|senomorphic]] strategies, albeit with care given its tumor-suppressive role (see [[KDM4]], [[BRD4]]).
 
 ## Documents
 
@@ -49,10 +49,10 @@ PML is a classic tumor suppressor whose loss characterizes acute promyelocytic l
 - [[SQSTM1]]: Co-operates with PML/HIRA to regulate senescence inflammation.
 - [[RB1]]: PML-body partner reinforcing arrest.
 - [[BRD4]]: PML-body-associated reader.
-- [[SASP]]: PML/HIRA axis modulates SASP via SAHF.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: PML/HIRA axis modulates SASP via SAHF.
 
 ## Linking Summary
 
-- New links added: [[HIRA]], [[Senescence-Associated Heterochromatin Foci]], [[SQSTM1]], [[RB1]], [[BRD4]], [[SASP]], [[H3K9me3]], [[H3K27me3]], [[KDM4]], [[Senomorphic]], [[Senescence]]
+- New links added: [[HIRA]], [[Senescence-Associated Heterochromatin Foci]], [[SQSTM1]], [[RB1]], [[BRD4]], [[SASP|Senescence-Associated Secretory Phenotype]], [[H3K9me3]], [[H3K27me3]], [[KDM4]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[PML-NB]], [[DAXX]], [[SUMO]]
 - Strong connections to strengthen: [[PML]] ↔ [[HIRA]]; [[PML]] ↔ [[Senescence-Associated Heterochromatin Foci]]

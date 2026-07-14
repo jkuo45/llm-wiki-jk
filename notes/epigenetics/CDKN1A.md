@@ -57,5 +57,5 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[p21]], [[p53]], [[Cyclin-Dependent Kinase]], [[Cellular Senescence]], [[DNA Damage Response]], [[Tumor Suppressor]], [[Cell Cycle]], [[Chromatin Remodeling]], [[Apoptosis]], [[Autophagy]], [[Aging]], [[Geroscience]], [[Busulfan]], [[Aphidicolin]], [[CDKN1B]], [[CDKN1C]]
-- Suggested new entity notes to create: [[WAF1/CIP1]], [[SASP]]
+- Suggested new entity notes to create: [[WAF1/CIP1]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Strong connections to strengthen: [[CDKN1A]] ↔ [[p53]], [[CDKN1A]] ↔ [[Cellular Senescence]]

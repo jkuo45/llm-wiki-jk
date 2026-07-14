@@ -22,7 +22,7 @@ aliases: [7-KC, 7-oxocholesterol, 5-cholesten-3β-ol-7-one]
 ## Biological Effects
 
 - **Pro-apoptotic**: Induces cell death in endothelial cells, macrophages, vascular smooth muscle cells, and neurons.
-- **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1b]], [[IL-6]], [[TNF-alpha]], and [[MCP-1]].
+- **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1β]], [[IL-6]], [[TNF-alpha]], and [[MCP-1]].
 - **[[Ferroptosis]] Sensitization**: 7-KC can synergize with iron to promote lipid peroxidation and ferroptotic death.
 - **Anti-angiogenic**: Inhibits endothelial tube formation and VEGF signaling at high concentrations.
 
@@ -39,11 +39,11 @@ aliases: [7-KC, 7-oxocholesterol, 5-cholesten-3β-ol-7-one]
 - [[Singlet Oxygen]]: 7-KC is produced via cholesterol 7-hydroperoxide intermediates formed by Singlet Oxygen or free radical attack.
 - [[Oxidative Stress]]: It accumulates in atherosclerotic plaques (up to 10% of total sterol), oxidized LDL, and in cells under oxidative str...
 - [[Caspase-3]]: Its mechanism of cytotoxicity involves ROS-dependent mitochondrial membrane permeabilization, cytochrome c release, a...
-- [[NF-kappa B]]: - **Pro-inflammatory**: Activates NF-kappa B, upregulates [[IL-1b]], [[IL-6]], [[TNF-alpha]], and [[MCP-1]].
-- [[IL-1b]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates IL-1b, [[IL-6]], [[TNF-alpha]], and [[MCP-1]].
-- [[IL-6]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1b]], IL-6, [[TNF-alpha]], and [[MCP-1]].
-- [[TNF-alpha]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1b]], [[IL-6]], TNF-alpha, and [[MCP-1]].
-- [[MCP-1]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1b]], [[IL-6]], [[TNF-alpha]], and MCP-1.
+- [[NF-kappa B]]: - **Pro-inflammatory**: Activates NF-kappa B, upregulates [[IL-1β]], [[IL-6]], [[TNF-alpha]], and [[MCP-1]].
+- [[IL-1β]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates IL-1b, [[IL-6]], [[TNF-alpha]], and [[MCP-1]].
+- [[IL-6]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1β]], IL-6, [[TNF-alpha]], and [[MCP-1]].
+- [[TNF-alpha]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1β]], [[IL-6]], TNF-alpha, and [[MCP-1]].
+- [[MCP-1]]: - **Pro-inflammatory**: Activates [[NF-kappa B]], upregulates [[IL-1β]], [[IL-6]], [[TNF-alpha]], and MCP-1.
 - [[Ferroptosis]]: - **Ferroptosis Sensitization**: 7-KC can synergize with iron to promote lipid peroxidation and ferroptotic death.
 - [[Atherosclerosis]]: 7-KC is a biomarker and mediator of Atherosclerosis, plaque vulnerability, and [[Cardiovascular Disease]].
 - [[Cardiovascular Disease]]: 7-KC is a biomarker and mediator of [[Atherosclerosis]], plaque vulnerability, and Cardiovascular Disease.
@@ -53,6 +53,6 @@ aliases: [7-KC, 7-oxocholesterol, 5-cholesten-3β-ol-7-one]
 - [[PON1]]: PON1 (paraoxonase 1) can hydrolyze 7-KC and other oxidized lipid species, contributing to HDL's anti-atherogenic effe...
 
 ## Linking Summary
-- New links added: [[Age-related Macular Degeneration]], [[Alzheimer's Disease]], [[Apoptosis]], [[Atherosclerosis]], [[Cardiovascular Disease]], [[Caspase-3]], [[Cholesterol]], [[Ferroptosis]], [[IL-1b]], [[IL-6]], [[Lipid Peroxidation]], [[MCP-1]], [[NF-kappa B]], [[Nonalcoholic Steatohepatitis]], [[Oxidative Stress]], [[PON1]], [[ROS]], [[Singlet Oxygen]], [[TNF-alpha]]
+- New links added: [[Age-related Macular Degeneration]], [[Alzheimer's Disease]], [[Apoptosis]], [[Atherosclerosis]], [[Cardiovascular Disease]], [[Caspase-3]], [[Cholesterol]], [[Ferroptosis]], [[IL-1β]], [[IL-6]], [[Lipid Peroxidation]], [[MCP-1]], [[NF-kappa B]], [[Nonalcoholic Steatohepatitis]], [[Oxidative Stress]], [[PON1]], [[ROS]], [[Singlet Oxygen]], [[TNF-alpha]]
 - Suggested new entity notes to create: [[Age-related Macular Degeneration]]
 - Strong connections to strengthen: [[7-Ketocholesterol]] ↔ [[Age-related Macular Degeneration]], [[7-Ketocholesterol]] ↔ [[Nonalcoholic Steatohepatitis]], [[7-Ketocholesterol]] ↔ [[Cardiovascular Disease]]

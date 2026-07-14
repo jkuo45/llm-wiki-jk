@@ -8,6 +8,7 @@ tags:
   - enzyme
   - autophagy
 aliases: [ULK1, Unc-51-like kinase 1]
+protected: true
 ---
 # Atg1
 

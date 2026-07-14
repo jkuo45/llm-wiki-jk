@@ -18,7 +18,7 @@ aliases: []
 *   **Faulty [[DNA Repair]]**: As we age, the efficiency of DNA repair mechanisms often declines, allowing damage to accumulate.
 ### 2. Consequences
 *   **[[Cancer]]**: Genomic instability is a prerequisite for the development of most cancers, as it allows for the accumulation of mutations in oncogenes and tumor suppressors.
-*   **[[Cellular Senescence]]**: Severe or irreparable DNA damage can trigger senescence, where the cell stops dividing and begins secreting pro-inflammatory factors (the [[SASP]]).
+*   **[[Cellular Senescence]]**: Severe or irreparable DNA damage can trigger senescence, where the cell stops dividing and begins secreting pro-inflammatory factors (the [[SASP|Senescence-Associated Secretory Phenotype]]).
 *   **Progeria**: Human premature aging syndromes, such as [[Werner Syndrome]] and [[HGPS]], are often caused by mutations in genes involved in maintaining genomic stability.
 ### 3. Epigenetic Influence
 Epigenetic factors like [[SIRT6]] play a crucial role in maintaining genomic stability by recruiting repair proteins to sites of damage and keeping repetitive elements silenced.
@@ -45,6 +45,6 @@ List of documents that mention this entity
 - **[[Transposable Elements]]**: Mobile genetic elements whose activation drives instability.
 
 ## Linking Summary
-- New links added: [[Genomic Instability]], [[Aging]], [[DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[DNA Repair]], [[Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
+- New links added: [[Genomic Instability]], [[Aging]], [[DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[DNA Repair]], [[Cancer]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
 - Suggested new entity notes to create: [[Aneuploidy]], [[Micronuclei]], [[Somatic Mutations]]
   - Strong connections to strengthen: Genomic Instability ↔ [[Aging]], Genomic Instability ↔ [[DNA Damage]]

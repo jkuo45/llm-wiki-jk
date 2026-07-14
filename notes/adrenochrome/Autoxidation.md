@@ -14,7 +14,7 @@ aliases: []
 **Autoxidation** is any oxidation that occurs in open air or in presence of oxygen (and sometimes UV radiation) and forms peroxides and hydroperoxides.
 
 ## Role in Catecholamines
-Catecholamines like [[Epinephrine]] are prone to autoxidation, especially at physiological or alkaline pH. This process leads to the formation of [[adrenaline-quinone]], [[Leuco-adrenochrome]], and eventually [[Adrenochrome]] and [[Melanins]].
+Catecholamines like [[Epinephrine]] are prone to autoxidation, especially at physiological or alkaline pH. This process leads to the formation of [[Adrenaline-quinone]], [[Leuco-adrenochrome]], and eventually [[Adrenochrome]] and [[Melanins]].
 
 ## Significance in Formulations
 Autoxidation is the primary degradation pathway for pharmaceutical [[Epinephrine]], leading to loss of potency and the formation of colored byproducts. This is mitigated by using [[Antioxidants]] and [[Chelating agents]].
@@ -49,6 +49,6 @@ Transition metals serve as potent catalysts of catecholamine autoxidation. Iron 
 Formulation approaches to suppress autoxidation in epinephrine-containing preparations include: (1) [[Antioxidants]] such as [[Sodium Metabisulfite]] or [[Ascorbic Acid]], which act as sacrificial reductants that intercept propagating radicals; (2) [[Chelating agents]] like [[EDTA]] that sequester catalytic transition metals; (3) headspace purging with inert gases (Nitrogen, [[Argon]]) to reduce dissolved oxygen; (4) acidic pH buffering (pH 2.5–4.0) where the catechol is protonated and less reactive toward one-electron oxidation; and (5) packaging in opaque, oxygen-impermeable containers to exclude light and atmospheric oxygen. Despite these measures, trace levels of adrenochrome and related oxidation products remain unavoidable in aged formulations, serving as quality markers for pharmaceutical stability assessment.
 
 ## Linking Summary
-- New links added: [[Adrenochrome]], [[Antioxidants]], [[Chelating agents]], [[Epinephrine]], [[Leuco-adrenochrome]], [[Melanins]], [[Oxidative Stress]], [[adrenaline-quinone]]
+- New links added: [[Adrenochrome]], [[Antioxidants]], [[Chelating agents]], [[Epinephrine]], [[Leuco-adrenochrome]], [[Melanins]], [[Oxidative Stress]], [[Adrenaline-quinone]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Autoxidation]] ↔ [[Leuco-adrenochrome]], [[Autoxidation]] ↔ [[adrenaline-quinone]], [[Autoxidation]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Autoxidation]] ↔ [[Leuco-adrenochrome]], [[Autoxidation]] ↔ [[Adrenaline-quinone]], [[Autoxidation]] ↔ [[Oxidative Stress]]

@@ -13,6 +13,7 @@ source: https://en.wikipedia.org/wiki/Tumor_microenvironment
 aliases:
   - TME
   - Tumor Microenvironment
+protected: true
 ---
 
 # Tumour Microenvironment

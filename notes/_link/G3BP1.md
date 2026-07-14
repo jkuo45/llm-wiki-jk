@@ -37,11 +37,11 @@ G3BP1 is required for cytosolic-DNA-driven SASP: loss of G3BP1 attenuates cGAS�
 ## Connections
 
 - [[cGAS-STING Pathway|cGAS–STING]]: G3BP1 assists cGAS recognition of DNA
-- [[Senescence-Associated Secretory Phenotype|SASP]]: G3BP1 is essential for SASP regulation
+- [[SASP|Senescence-Associated Secretory Phenotype]]: G3BP1 is essential for SASP regulation
 - [[TOP1]]: TOP1cc cooperate with G3BP1 to license cGAS
 - [[Senescent Cells]]: context of CCF release
 
 ## Linking Summary
 
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[Senescence-Associated Secretory Phenotype|SASP]], [[TOP1]], [[Senescent Cells]]
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[SASP|Senescence-Associated Secretory Phenotype]], [[TOP1]], [[Senescent Cells]]
 - Strong connections to strengthen: [[G3BP1]] ↔ cGAS, [[G3BP1]] ↔ cytoplasmic DNA sensing

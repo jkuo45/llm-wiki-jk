@@ -30,7 +30,7 @@ TIS engages the same core arrest machinery as other forms of [[Senescence]]:
 
 1. **p53/[[p21 CIP1|p21]] axis**: Genotoxic stress stabilizes [[p53]], which transcriptionally induces p21. p21 inhibits [[CDK2]]/cyclin E, enforcing G1/S arrest.
 2. **p16/[[Retinoblastoma Protein|Rb]] axis**: Sustained arrest is locked in by p16-mediated inhibition of [[CDK4 6|CDK4/6]], maintaining Rb in its hypophosphorylated, growth-suppressive state.
-3. **[[SASP|SASP activation]]**: TIS cells typically develop a pro-inflammatory [[SASP]] via [[NFκB]] and [[cGAS-STING Pathway|cGAS-STING signaling]], driven by persistent DNA damage signaling and accumulation of [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]].
+3. **[[SASP|Senescence-Associated Secretory Phenotype]]**: TIS cells typically develop a pro-inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] via [[NFκB]] and [[cGAS-STING Pathway|cGAS-STING signaling]], driven by persistent DNA damage signaling and accumulation of [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]].
 4. **Apoptosis resistance**: Upregulation of [[Senescent cell anti-apoptotic pathways|SCAPs]] (Bcl-2 family, PI3K/Akt) allows TIS cells to survive despite genotoxic injury.
 
 ## Dual Role in Cancer
@@ -61,7 +61,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Senescence]] — TIS is a subtype of cellular senescence
-- [[SASP]] — TIS cells secrete SASP factors via DDR and cGAS-STING
+- [[SASP|Senescence-Associated Secretory Phenotype]] — TIS cells secrete SASP factors via DDR and cGAS-STING
 - [[DNA Damage]] — The initiating trigger for TIS
 - [[DNA Damage Response]] — DDR signaling enforces TIS arrest
 - [[p53]] — Master regulator of TIS through p21 induction
@@ -76,6 +76,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Therapy-Induced Senescence]], [[Senescence]], [[SASP]], [[DNA Damage]], [[DNA Damage Response]], [[p53]], [[p21 CIP1|p21]], [[p16 INK4a|p16]], [[cGAS-STING Pathway]], [[Senolytic]], [[Senomorphic Therapy]], [[Breast Cancer]], [[Cytoplasmic Chromatin Fragments]], [[Senescence Surveillance]], [[Chemotherapy]], [[Etoposide]], [[Cisplatin]], [[Palbociclib]], [[CDK4 6]], [[CDK2]], [[Retinoblastoma Protein|Rb]], [[NFκB]], [[IL-6]], [[CXCL10]], [[CCL2]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Prostaglandin E2]], [[ABT-737]], [[Dasatinib]], [[Quercetin]], [[BET inhibitors]], [[Rapamycin]], [[Metformin]], [[Senescent cell anti-apoptotic pathways|SCAPs]]
+- New links added: [[Therapy-Induced Senescence]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[DNA Damage Response]], [[p53]], [[p21 CIP1|p21]], [[p16 INK4a|p16]], [[cGAS-STING Pathway]], [[Senolytic]], [[Senomorphic Therapy]], [[Breast Cancer]], [[Cytoplasmic Chromatin Fragments]], [[Senescence Surveillance]], [[Chemotherapy]], [[Etoposide]], [[Cisplatin]], [[Palbociclib]], [[CDK4 6]], [[CDK2]], [[Retinoblastoma Protein|Rb]], [[NFκB]], [[IL-6]], [[CXCL10]], [[CCL2]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Prostaglandin E2]], [[ABT-737]], [[Dasatinib]], [[Quercetin]], [[BET inhibitors]], [[Rapamycin]], [[Metformin]], [[Senescent cell anti-apoptotic pathways|SCAPs]]
 - Suggested new entity notes to create: [[Ionizing Radiation]], [[BET inhibitors]]
-- Strong connections to strengthen: [[Therapy-Induced Senescence]] ↔ [[Senescence]], [[Therapy-Induced Senescence]] ↔ [[SASP]], [[Therapy-Induced Senescence]] ↔ [[Senolytic]], [[Therapy-Induced Senescence]] ↔ [[Breast Cancer]]
+- Strong connections to strengthen: [[Therapy-Induced Senescence]] ↔ [[Senescence]], [[Therapy-Induced Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Therapy-Induced Senescence]] ↔ [[Senolytic]], [[Therapy-Induced Senescence]] ↔ [[Breast Cancer]]

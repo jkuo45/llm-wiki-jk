@@ -15,7 +15,7 @@ aliases:
 
 # Pioneer Factor
 
-A pioneer factor is a transcription factor with the unique ability to bind its motif within closed, nucleosome-occupied chromatin and to initiate local chromatin opening, thereby licensing subsequent binding of other factors and activation of previously silent genes. In senescence, pioneer factors such as [[AP-1]] are the initial drivers that open enhancers at [[SASP]] and senescence genes, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+A pioneer factor is a transcription factor with the unique ability to bind its motif within closed, nucleosome-occupied chromatin and to initiate local chromatin opening, thereby licensing subsequent binding of other factors and activation of previously silent genes. In senescence, pioneer factors such as [[AP-1]] are the initial drivers that open enhancers at [[SASP|Senescence-Associated Secretory Phenotype]] and senescence genes, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -48,10 +48,10 @@ Targeting pioneer-factor–driven enhancer opening (e.g., AP-1, or downstream re
 - [[Super-enhancer]]: Opened by pioneer factors; drives SASP.
 - [[H3K27ac]]: Enhancer mark installed after pioneer opening; read by BRD4.
 - [[BRD4]]: Reader recruited to pioneer-opened enhancers.
-- [[SASP]]: Pioneer factors initiate SASP enhancer activation.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Pioneer factors initiate SASP enhancer activation.
 
 ## Linking Summary
 
-- New links added: [[AP-1]], [[c-Jun]], [[Super-enhancer]], [[H3K27ac]], [[H3K4me1]], [[BRD4]], [[CEBPα]], [[P300]], [[HDAC4]], [[SASP]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
+- New links added: [[AP-1]], [[c-Jun]], [[Super-enhancer]], [[H3K27ac]], [[H3K4me1]], [[BRD4]], [[CEBPα]], [[P300]], [[HDAC4]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
 - Suggested new entity notes to create: [[FOXA1]], [[SWI/SNF]], [[GATA4]]
 - Strong connections to strengthen: [[Pioneer Factor]] ↔ [[AP-1]]; [[Pioneer Factor]] ↔ [[Super-enhancer]]

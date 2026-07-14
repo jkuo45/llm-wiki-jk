@@ -7,6 +7,7 @@ tags:
   - scientific-concept
   - epigenetics
 aliases: []
+protected: true
 ---
 
 # Epigenetic Clock

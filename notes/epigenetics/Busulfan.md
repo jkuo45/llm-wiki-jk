@@ -53,5 +53,5 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[DNA Damage]], [[Chemotherapy]], [[Bone Marrow Transplantation]], [[DNA Crosslink]], [[Cancer]], [[Senescence]], [[p53]], [[p21]], [[Cyclophosphamide]], [[Fludarabine]], [[DNA Replication]]
-- Suggested new entity notes to create: [[Busulfan Lung]], [[Sinusoidal Obstruction Syndrome]], [[SASP]], [[Myeloablative Conditioning]]
+- Suggested new entity notes to create: [[Busulfan Lung]], [[Sinusoidal Obstruction Syndrome]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Myeloablative Conditioning]]
 - Strong connections to strengthen: [[Busulfan]] ↔ [[Senescence]], [[Busulfan]] ↔ [[DNA Damage]]

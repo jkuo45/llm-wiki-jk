@@ -9,6 +9,7 @@ tags:
   - biological-molecule
   - oxidative-stress
 aliases: [3-NT, Nitrotyrosine, m-nitrotyrosine]
+protected: true
 
 ---
 

@@ -17,7 +17,7 @@ aliases:
 
 # MLL1
 
-MLL1 (mixed-lineage leukemia 1), also known as KMT2A (histone-lysine N-methyltransferase 2A), is a histone methyltransferase that deposits the activating mark histone H3 lysine 4 trimethylation ([[H3K4me3]]) at promoters of actively transcribed genes. In senescence, MLL1 emerges as an unexpected brake on the [[SASP]]: its depletion or inhibition reduces SASP expression without releasing the senescence growth arrest, doing so primarily by impairing the [[DNA Damage Response|DNA damage response (DDR)]] rather than by removing H3K4me3.
+MLL1 (mixed-lineage leukemia 1), also known as KMT2A (histone-lysine N-methyltransferase 2A), is a histone methyltransferase that deposits the activating mark histone H3 lysine 4 trimethylation ([[H3K4me3]]) at promoters of actively transcribed genes. In senescence, MLL1 emerges as an unexpected brake on the [[SASP|Senescence-Associated Secretory Phenotype]]: its depletion or inhibition reduces SASP expression without releasing the senescence growth arrest, doing so primarily by impairing the [[DNA Damage Response|DNA damage response (DDR)]] rather than by removing H3K4me3.
 
 ## Overview
 
@@ -50,10 +50,10 @@ MLL1/KMT2A inhibitors (e.g., menin-MLL1 interaction blockers such as revumenib/s
 - [[EZH2]]: opposing H3K27me3 methyltransferase in senescence enhancer balance
 - [[H3K4me3]]: activating mark deposited by MLL1
 - [[DNA Damage Response]]: MLL1 loss impairs DDR, suppressing SASP
-- [[SASP]]: MLL1 is a senomorphic SASP regulator
+- [[SASP|Senescence-Associated Secretory Phenotype]]: MLL1 is a senomorphic SASP regulator
 
 ## Linking Summary
 
-- New links added: [[EZH2]], [[H3K4me3]], [[H3K27me3]], [[DNA Damage Response]], [[SASP]], [[KDM4]], [[DOT1L]], [[Senomorphic]], [[Senescence]]
+- New links added: [[EZH2]], [[H3K4me3]], [[H3K27me3]], [[DNA Damage Response]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[H3K4me3]], [[WRAD Complex]], [[Menin]]
-- Strong connections to strengthen: [[MLL1]] ↔ [[SASP]] (DDR-dependent senomorphic), [[MLL1]] ↔ [[EZH2]] (H3K4me3/H3K27me3 balance)
+- Strong connections to strengthen: [[MLL1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (DDR-dependent senomorphic), [[MLL1]] ↔ [[EZH2]] (H3K4me3/H3K27me3 balance)

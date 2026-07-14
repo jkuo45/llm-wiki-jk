@@ -12,6 +12,7 @@ aliases:
   - Sirtuin 7
   - nucleolar sirtuin
   - SIRT7 RNA Pol I activator
+protected: true
 ---
 
 

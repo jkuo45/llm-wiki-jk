@@ -13,7 +13,7 @@ aliases: [PDGFAA, PDGF-AA, Platelet-derived growth factor AA]
 
 # PDGFAA
 
-**PDGFAA (platelet-derived growth factor AA)** is a PDGF-A homodimer secreted by senescent fibroblasts and endothelial cells at sites of cutaneous injury. It induces myofibroblast differentiation and is required for optimal tissue repair, illustrating a beneficial role of the [[Senescence-Associated Secretory Phenotype|SASP]] (Demaria et al., PMID 24702405).
+**PDGFAA (platelet-derived growth factor AA)** is a PDGF-A homodimer secreted by senescent fibroblasts and endothelial cells at sites of cutaneous injury. It induces myofibroblast differentiation and is required for optimal tissue repair, illustrating a beneficial role of the [[SASP|Senescence-Associated Secretory Phenotype]] (Demaria et al., PMID 24702405).
 
 ## Mechanism of Action & Signaling
 
@@ -36,12 +36,12 @@ PDGF-AA binds preferentially the PDGF receptor α ([[PDGFR]]α/CD140a), activati
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: PDGFAA is a SASP growth factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: PDGFAA is a SASP growth factor
 - [[PDGFR]]: PDGF-AA signals through PDGFRα
 - [[Apoptosis]]: PDGFAA contributes to tissue repair
 - [[Senescent Cells]]: PDGF-AA is secreted by senescent cells at wounds
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[PDGFR]], [[PI3K]], [[MAPK]], [[Senescent Cells]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[PDGFR]], [[PI3K]], [[MAPK]], [[Senescent Cells]]
   - Strong connections to strengthen: [[PDGFAA]] ↔ wound healing, [[PDGFAA]] ↔ myofibroblast differentiation, [[PDGFAA]] ↔ [[Senescent Cells]]

@@ -30,7 +30,7 @@ Vimentin is a hallmark of EMT and is overexpressed in aggressive cancers, where 
 
 ## Documents
 
-- [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+- [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
   - Vimentin was identified as the most significantly altered SIRT6-interacting partner via IP-MS. The centenarian N308K mutation weakens SIRT6-vimentin binding, elevating SIRT6 protein and conferring stress resistance.
 
 ## Connections

@@ -112,11 +112,11 @@ List of documents that mention this entity
 - [[Cachexia]] — chronic TNFα causes muscle wasting
 - [[Insulin Resistance]] — TNFα impairs insulin signaling via JNK-IRS-1
 - [[Sepsis]] — TNFα is the primary mediator of septic shock
-- [[SASP]] — IL-6, IL-1β, and TNFα are core SASP components
+- [[SASP|Senescence-Associated Secretory Phenotype]] — IL-6, IL-1β, and TNFα are core SASP components
 - [[Macrophages]] — major source of TNFα production
 - [[TACE Inhibitors]] — potential therapeutic strategy
 
 ## Linking Summary
-- New links added: [[Macrophages]], [[T Cells]], [[Natural Killer Cells]], [[TNFR1]], [[TNFR2]], [[TRADD]], [[RIPK1]], [[TRAF2]], [[IKK complex]], [[IKKα]], [[IKKbeta]], [[NEMO]], [[IkappaBalpha]], [[NFκB]], [[p65]], [[p50]], [[JNK]], [[p38 MAPK]], [[ERK]], [[ASK1]], [[AP-1]], [[Caspase-8]], [[Caspase-3]], [[FADD]], [[RIPK3]], [[Necroptosis]], [[TACE]], [[ADAM17]], [[Interleukin 1β]], [[IL-6]], [[IL-8]], [[COX-2]], [[ICAM-1]], [[VCAM-1]], [[CRP]], [[Acute Phase Response]], [[Cachexia]], [[Sarcopenia]], [[Insulin Resistance]], [[IRS1]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[Certolizumab]], [[Golimumab]], [[Rheumatoid Arthritis]], [[Psoriasis]], [[Crohn's Disease]], [[Ulcerative Colitis]], [[Ankylosing Spondylitis]], [[Sepsis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Endothelial Dysfunction]], [[Foam Cell]], [[Tuberculosis]], [[Lupus]], [[Demyelinating Disease]], [[SASP]], [[Inflammaging]]
+- New links added: [[Macrophages]], [[T Cells]], [[Natural Killer Cells]], [[TNFR1]], [[TNFR2]], [[TRADD]], [[RIPK1]], [[TRAF2]], [[IKK complex]], [[IKKα]], [[IKKbeta]], [[NEMO]], [[IkappaBalpha]], [[NFκB]], [[p65]], [[p50]], [[JNK]], [[p38 MAPK]], [[ERK]], [[ASK1]], [[AP-1]], [[Caspase-8]], [[Caspase-3]], [[FADD]], [[RIPK3]], [[Necroptosis]], [[TACE]], [[ADAM17]], [[Interleukin 1β]], [[IL-6]], [[IL-8]], [[COX-2]], [[ICAM-1]], [[VCAM-1]], [[CRP]], [[Acute Phase Response]], [[Cachexia]], [[Sarcopenia]], [[Insulin Resistance]], [[IRS1]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[Certolizumab]], [[Golimumab]], [[Rheumatoid Arthritis]], [[Psoriasis]], [[Crohn's Disease]], [[Ulcerative Colitis]], [[Ankylosing Spondylitis]], [[Sepsis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Endothelial Dysfunction]], [[Foam Cell]], [[Tuberculosis]], [[Lupus]], [[Demyelinating Disease]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Type II transmembrane protein]], [[TACE inhibitors]], [[Demyelinating disease]], [[Paradoxical inflammation]], [[TRIF]], [[TLR4]]
-  - Strong connections to strengthen: [[TNFα]] ↔ NFκB, [[TNFα]] ↔ [[Inflammation]], [[TNFα]] ↔ [[Apoptosis]], [[TNFα]] ↔ Insulin Resistance, [[TNFα]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[TNFα]] ↔ NFκB, [[TNFα]] ↔ [[Inflammation]], [[TNFα]] ↔ [[Apoptosis]], [[TNFα]] ↔ Insulin Resistance, [[TNFα]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

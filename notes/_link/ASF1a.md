@@ -28,7 +28,7 @@ ASF1a adopts a β-sandwich fold that engages the H3–H4 dimer at the H3 β-shee
 
 ## Role in Senescence and SAHF
 
-Dissection of SAHF established that the HIRA/ASF1a/UBN1 pathway is essential for their formation (Zhang et al., 2005, PMID 15680342). Banumathy et al. (2009, PMID 19103796) showed human UBN1 is an ortholog of yeast Hpc2p with an essential role in the HIRA/ASF1a chromatin-remodeling pathway in senescent cells. Depletion of ASF1a blocks the heterochromatic condensation that builds SAHF, mirroring the effect of HIRA loss. SAHF disruption, in turn, correlates with reduced [[SASP]] expression.
+Dissection of SAHF established that the HIRA/ASF1a/UBN1 pathway is essential for their formation (Zhang et al., 2005, PMID 15680342). Banumathy et al. (2009, PMID 19103796) showed human UBN1 is an ortholog of yeast Hpc2p with an essential role in the HIRA/ASF1a chromatin-remodeling pathway in senescent cells. Depletion of ASF1a blocks the heterochromatic condensation that builds SAHF, mirroring the effect of HIRA loss. SAHF disruption, in turn, correlates with reduced [[SASP|Senescence-Associated Secretory Phenotype]] expression.
 
 ## Mechanistic Details
 
@@ -48,10 +48,10 @@ Because the HIRA/ASF1a/UBN1 axis modulates SAHF and SASP without abolishing grow
 - [[UBN1]]: Third subunit of the HIRA/ASF1a complex.
 - [[H3.3]]: Histone variant chaperoned by ASF1a→HIRA.
 - [[Senescence-Associated Heterochromatin Foci]]: ASF1a required for SAHF.
-- [[SASP]]: SAHF disruption via ASF1a depletion reduces SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SAHF disruption via ASF1a depletion reduces SASP.
 
 ## Linking Summary
 
-- New links added: [[HIRA]], [[UBN1]], [[H3.3]], [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[Chromatin Remodeling]], [[Senescence]]
+- New links added: [[HIRA]], [[UBN1]], [[H3.3]], [[Senescence-Associated Heterochromatin Foci]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[Chromatin Remodeling]], [[Senescence]]
 - Suggested new entity notes to create: [[ASF1b]], [[CAF-1]]
 - Strong connections to strengthen: [[ASF1a]] ↔ [[HIRA]]; [[ASF1a]] ↔ [[Senescence-Associated Heterochromatin Foci]]

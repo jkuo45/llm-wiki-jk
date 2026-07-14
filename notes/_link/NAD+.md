@@ -69,6 +69,9 @@ List of documents that mention this entity
     - Notably, SIRTs share a NAD+ + (NAD) + -binding catalytic domain and may act specifically on different substrates depending on the biological processes in which they are involved.
 
 
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - The coenzyme Sirtuins use for DNA repair and mitochondrial biogenesis; NAD+ peaks circadianly in the morning, so [[NMN]]/[[NR]] are taken on waking.
+
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes
 - [[Caloric Restriction]] — Increases NAD+ levels, activating sirtuins

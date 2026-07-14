@@ -24,7 +24,7 @@ SLC19A1 (Reduced Folate Carrier 1, RFC1) is a transmembrane transporter that med
 
 ## Role in cGAS-STING Signaling
 
-SLC19A1-mediated import of [[cGAMP]] allows transfer of STING activation signals between cells. When [[cGAS]] produces cGAMP in one cell, cGAMP can be exported and then imported by neighboring cells via SLC19A1, propagating the [[type I interferon]] response. This paracrine cGAMP signaling amplifies [[SASP]] in the [[Tumor Microenvironment]].
+SLC19A1-mediated import of [[cGAMP]] allows transfer of STING activation signals between cells. When [[cGAS]] produces cGAMP in one cell, cGAMP can be exported and then imported by neighboring cells via SLC19A1, propagating the [[type I interferon]] response. This paracrine cGAMP signaling amplifies [[SASP|Senescence-Associated Secretory Phenotype]] in the [[Tumor Microenvironment]].
 
 ## Role in Cancer
 

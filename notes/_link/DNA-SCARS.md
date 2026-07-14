@@ -15,7 +15,7 @@ aliases:
 
 # DNA-SCARS
 
-DNA-SCARS (DNA segments with chromatin alterations reinforcing senescence) are persistent, spatially distinct nuclear structures that form at sites of unresolved DNA damage in senescent cells. First characterized by Rodier et al. (2011, PMID 21138974), DNA-SCARS sustain the DNA-damage response (DDR) that maintains the senescence growth arrest and promote secretion of inflammatory cytokines that constitute the [[SASP]]. They are discussed in the npj Aging review as persistent DDR foci that may evict histones from nucleosomes, increasing chromatin flexibility for transcriptional reprogramming (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+DNA-SCARS (DNA segments with chromatin alterations reinforcing senescence) are persistent, spatially distinct nuclear structures that form at sites of unresolved DNA damage in senescent cells. First characterized by Rodier et al. (2011, PMID 21138974), DNA-SCARS sustain the DNA-damage response (DDR) that maintains the senescence growth arrest and promote secretion of inflammatory cytokines that constitute the [[SASP|Senescence-Associated Secretory Phenotype]]. They are discussed in the npj Aging review as persistent DDR foci that may evict histones from nucleosomes, increasing chromatin flexibility for transcriptional reprogramming (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -48,12 +48,12 @@ Because SCARS sustain SASP, resolving persistent DDR (e.g., enhancing repair or 
 
 - [[H2A.X]]: γ-H2A.X marks DNA-SCARS.
 - [[Cytoplasmic Chromatin Fragments]]: SCARS may be precursors to CCF.
-- [[SASP]]: SCARS sustain inflammatory secretion.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SCARS sustain inflammatory secretion.
 - [[IL-6]]: SASP cytokine induced downstream of SCARS.
 - [[Senescence]]: SCARS reinforce arrest.
 
 ## Linking Summary
 
-- New links added: [[H2A.X]], [[Cytoplasmic Chromatin Fragments]], [[SASP]], [[IL-6]], [[IL-8]], [[NFKB]], [[Senomorphic]], [[KDM4]], [[BRD4]], [[DOT1L]], [[DNA Damage]], [[Senescence]]
+- New links added: [[H2A.X]], [[Cytoplasmic Chromatin Fragments]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-6]], [[IL-8]], [[NFKB]], [[Senomorphic]], [[KDM4]], [[BRD4]], [[DOT1L]], [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: [[53BP1]], [[ATM]], [[p21]]
 - Strong connections to strengthen: [[DNA-SCARS]] ↔ [[H2A.X]]; [[DNA-SCARS]] ↔ [[Cytoplasmic Chromatin Fragments]]

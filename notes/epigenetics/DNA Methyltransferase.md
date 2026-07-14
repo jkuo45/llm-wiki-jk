@@ -8,6 +8,7 @@ tags:
   - enzyme
   - methylation
 aliases: [DNMT]
+protected: true
 ---
 
 # DNA Methyltransferase

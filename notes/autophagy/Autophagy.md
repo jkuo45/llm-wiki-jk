@@ -8,6 +8,7 @@ tags:
   - biological-process
   - autophagy
 aliases: [Macroautophagy]
+protected: true
 ---
 # Autophagy
 
@@ -89,6 +90,9 @@ List of documents that mention this entity
 
   - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
     - Reviews mTORC1→ULK1 blockade of autophagy and rapamycin's autophagic rejuvenation across models.
+
+  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+    - Recovery-day low-carb, high-fat eating encourages fat oxidation and autophagy as a gentle, healthy stressor.
 
 ## Connections
 - [[Aging]] — Autophagy declines with age; its induction extends lifespan

@@ -32,7 +32,7 @@ This delayed, thresholded response of the indirect path is what generates the do
 
 ## In the mTOR-PI3K / Rapamycin Example
 
-The authors' full mass-action model of the [[mTOR|mTOR]]-[[PI3K]] pathway reproduces rapamycin's hormesis and shows that the activation of [[S6K1/2]] by [[mTORC1]] has a significantly lower Michaelis-Menten constant than other interactions—i.e., the backward link (mTORC1 → [[IRS1]], controlled by S6K1/2) is saturated, matching the requirement [^1].
+The authors' full mass-action model of the [[mTOR|mTOR]]-[[PI3K]] pathway reproduces rapamycin's hormesis and shows that the activation of [[SK61_2]] by [[mTORC1]] has a significantly lower Michaelis-Menten constant than other interactions—i.e., the backward link (mTORC1 → [[IRS1]], controlled by S6K1/2) is saturated, matching the requirement [^1].
 
 ## Relationship to Enzyme Kinetics
 
@@ -49,11 +49,11 @@ Closely tied to [[Michaelis-Menten Kinetics]]; the saturation regime is the Vmax
 - [[Biphasic Dose-Response Curve]] — the resulting non-monotonic signature
 - [[Hormesis]] — the broader phenomenon
 - [[Michaelis-Menten Kinetics]] — the kinetic framework defining saturation
-- [[Rapamycin]] / [[mTORC1]] / [[S6K1/2]] / [[IRS1]] — the saturated backward link in the rapamycin example
+- [[Rapamycin]] / [[mTORC1]] / [[SK61_2]] / [[IRS1]] — the saturated backward link in the rapamycin example
 
 ## Linking Summary
 
-- New links added: [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Hormesis]], [[Michaelis-Menten Kinetics]], [[Rapamycin]], [[mTORC1]], [[S6K1/2]], [[IRS1]], [[PI3K]], [[mTOR]]
+- New links added: [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Hormesis]], [[Michaelis-Menten Kinetics]], [[Rapamycin]], [[mTORC1]], [[SK61_2]], [[IRS1]], [[PI3K]], [[mTOR]]
 - Suggested new entity notes to create: [[Michaelis-Menten Kinetics]], [[Incoherent Bivalent Motif]]
 - Strong connections to strengthen: [[Saturated Enzymatic Regime]] ↔ [[Incoherent Bivalent Motif]]; [[Saturated Enzymatic Regime]] ↔ [[Biphasic Dose-Response Curve]]
 

@@ -8,6 +8,7 @@ updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: [AMM, Glyco-oxidative modulator]
+protected: true
 ---
 # Adrenochrome monoaminoguanidine
 

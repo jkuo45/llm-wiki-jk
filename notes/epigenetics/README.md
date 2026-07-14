@@ -13,7 +13,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 
 ## Maintenance
 
-- Last updated: 09_JULY_2026 02:41 PM PDT
+- Last updated: 13_JULY_2026 12:00 PM PDT
 - Total count of entities: 218
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
@@ -213,7 +213,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[SA-beta-gal]] | 13_Jun_2026 12:00 PM PDT | Scientific Concept | 7 | 0 | The most widely used enzymatic biomarker for identifying senescent cells in vitro and in vivo. |
 | [[Saccharomyces cerevisiae]]                         | 04_Jun_2026 09:15 PM | Organism         | 5                        | 0                        | Yeast model essential for the discovery of sirtuins and basic mechanisms of histone modification.           |
 | [[SAHF]]                                             | 04_Jun_2026 09:15 PM | Anatomy                | 7                        | -1                       | Senescence-associated heterochromatin foci that contribute to permanent gene silencing in senescent cells.  |
-| [[SASP]]                                 | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | -1                       | Senescence-associated secretory phenotype; a pro-inflammatory program driven by epigenetic remodeling.      |
+| [[SASP|Senescence-Associated Secretory Phenotype]]                                 | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | -1                       | Senescence-associated secretory phenotype; a pro-inflammatory program driven by epigenetic remodeling.      |
 | [[Senescence]]                           | 04_Jun_2026 09:15 PM | Biological Process     | 9                        | -1                       | State of permanent cell cycle arrest characterized by profound chromatin remodeling and the SASP.           |
 | [[Senolytic Drugs]] | 13_Jun_2026 12:00 PM PDT | Pharmacological Action | 9 | 1 | Therapeutics designed to selectively eliminate senescent cells to improve healthspan. |
 | [[Senolytics]]                           | 04_Jun_2026 09:15 PM | Pharmacological Action | 7                        | 1                        | Compounds that selectively eliminate senescent cells, potentially reversing age-related epigenetic drift.   |
@@ -341,6 +341,11 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | 28_May_2026 09:05 AM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
 | 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
 | [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] | 09_JULY_2026 02:41 PM PDT | document | 10 | 0 | npj Aging review (Dasgupta et al., 2024) on how the dynamic epigenetic landscape (chromatin compartment switching, 3D genome rewiring, histone marks/variants, DNA methylation, retrotransposon derepression) orchestrates SASP expression in senescence; anchor source for senescence/epigenetics entities. |
+| [[miR-217]] | 13_JULY_2026 12:00 PM PDT | Biological Molecule | 6 | 0 | microRNA implicated in senescence and epigenetic regulation of aging. |
+| [[miR-378]] | 13_JULY_2026 12:00 PM PDT | Biological Molecule | 6 | 0 | microRNA regulating metabolism and stress responses; senescence-associated. |
+| [[miR-543]] | 13_JULY_2026 12:00 PM PDT | Biological Molecule | 6 | 0 | microRNA involved in fibrosis, senescence, and epigenetic control. |
+| [[Drosha]] | 13_JULY_2026 12:00 PM PDT | Enzyme | 9 | 0 | Core Microprocessor component processing pri-miRNAs to pre-miRNAs. |
+| [[DGCR8]] | 13_JULY_2026 12:00 PM PDT | Protein | 9 | 0 | Microprocessor double-stranded RNA-binding partner of Drosha. |
 ## Consolidated to notes/_link/
 
 - [[Epithelial-to-Mesenchymal Transition]] — merged into `notes/_link/Epithelial-to-mesenchymal transition.md` (canonical casing).
