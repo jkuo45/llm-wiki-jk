@@ -35,7 +35,7 @@ mRNA abundance and integrity reflect gene expression states in health and diseas
 
 ## Documents
 
-- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: mRNA is discussed as a target/tool for modulating gene expression in the research plan.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: mRNA is discussed as a target/tool for modulating gene expression in the research plan.
 - [[task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations reference mRNA-targeted nucleic acid approaches.
 
 ## Connections

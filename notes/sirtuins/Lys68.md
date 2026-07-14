@@ -64,9 +64,9 @@ MnSOD acetylation at Lys68/Lys122 is used as an indirect surrogate for SIRT3 act
     - States SIRT3 deacetylates MnSOD at K68 and K122 to boost superoxide scavenging.
   - [[task_output_sirtuins_recommendations_03_JULY_2026|Sirtuin Recommendations (03 JUL 2026)]]
     - Proposes dual SIRT3 activation / SIRT4 inhibition; cites ac-Lys68/Lys122 Western blot as a target-engagement endpoint.
-  - [[task_output_sirtuins_adrenochrome_mnsod_06_JULY_2026|MnSOD in Sirtuin vs. Adrenochrome Pathways (06 JUL 2026)]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026|MnSOD in Sirtuin vs. Adrenochrome Pathways (06 JUL 2026)]]
     - Establishes SIRT3 deacetylates MnSOD at Lys68/Lys122 and couples it to adrenochrome-derived superoxide.
-  - [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026|Adrenochrome Research Plan (04 JUL 2026)]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026|Adrenochrome Research Plan (04 JUL 2026)]]
     - Uses acetyl-K68/K122 and MitoSOX as readouts of the SIRT3/SIRT4-MnSOD redox rheostat.
 
 ## Linking Summary

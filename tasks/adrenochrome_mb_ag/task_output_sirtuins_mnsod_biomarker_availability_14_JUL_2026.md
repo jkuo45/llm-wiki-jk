@@ -66,7 +66,7 @@ Maps each non-invasive/accessible surrogate readout from the **Alternatives — 
 
 ## Documents
 
-- [[task_output_feasibility_sirtuins_biomarker_14_JULY_2026|SIRT3/SIRT4 Biomarker Feasibility & MnSOD Redox Axis]]
+- [[task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026|SIRT3/SIRT4 Biomarker Feasibility & MnSOD Redox Axis]]
   - Source of the Alternatives surrogate panel that this product map operationalizes.
 
 ## Connections

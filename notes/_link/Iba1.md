@@ -30,7 +30,7 @@ Iba1 immunostaining reveals microgliosis in neurodegeneration, neuroinflammation
 
 ## Documents
 
-- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Iba1 referenced as a microglial marker for assessing neuroinflammation in the research plan.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: Iba1 referenced as a microglial marker for assessing neuroinflammation in the research plan.
 
 ## Connections
 

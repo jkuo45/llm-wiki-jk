@@ -29,7 +29,7 @@ Loss or abnormal phosphorylation of MAP2 disrupts dendritic integrity and is ass
 
 ## Documents
 
-- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: MAP2 listed as a dendritic neuronal marker for assessing neuronal integrity.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: MAP2 listed as a dendritic neuronal marker for assessing neuronal integrity.
 
 ## Connections
 

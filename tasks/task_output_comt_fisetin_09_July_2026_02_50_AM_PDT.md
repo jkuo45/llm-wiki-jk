@@ -6,7 +6,7 @@
 
 ---
 
-## Executive Summary
+##  Summary
 
 Fisetin (3,3′,4′,7-tetrahydroxyflavone) is a natural flavonoid with demonstrated senolytic, neuroprotective, anti-inflammatory, and antioxidant properties. It is also a validated inhibitor of catechol-O-methyltransferase (COMT), with IC₅₀ values in the low micromolar range (2.6–5.8 µM) against human liver COMT. This dual activity—simultaneously clearing senescent cells and modulating catecholamine/dopamine metabolism—creates a pharmacologically interesting but mechanistically complex intersection. This report evaluates the empirical basis for COMT modulation by fisetin, its implications for longevity research, and proposes a rigorous experimental plan.
 
@@ -72,7 +72,7 @@ Fisetin's senolytic properties are well-validated:
 
 #### Potential Benefits:
 
-- **Dopamine augmentation in prefrontal cortex:** COMT is the primary dopamine-degrading enzyme in the PFC. Moderate COMT inhibition could enhance working memory and executive function, particularly in individuals with the Val/Val (fast COMT) genotype. This is relevant because aging is associated with declining prefrontal dopamine tone.
+- **Dopamine augmentation in prefrontal cortex:** COMT is the primary dopamine-degrading enzyme in the PFC. Moderate COMT inhibition could enhance working memory and  function, particularly in individuals with the Val/Val (fast COMT) genotype. This is relevant because aging is associated with declining prefrontal dopamine tone.
 
 - **Estrogen metabolism modulation:** COMT methylates catechol estrogens (2-OH-E₂, 4-OH-E₂) to less genotoxic methoxyestrogens. Inhibition by fisetin could shift estrogen metabolism, with complex tissue-dependent consequences. 2-Methoxyestradiol (2-MeO-E₂) is anti-angiogenic and pro-apoptotic; reduced formation could theoretically be disadvantageous in cancer contexts, but the net effect depends on tissue estrogen levels and local COMT expression.
 

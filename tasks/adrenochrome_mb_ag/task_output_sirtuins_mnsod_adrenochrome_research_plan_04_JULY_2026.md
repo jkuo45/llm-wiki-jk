@@ -11,7 +11,7 @@
 
 ---
 
-## Executive Summary
+## Summary
 
 This research plan bridges two previously independent domains: the [[Sirtuins|sirtuin]] [[NAD+]]-dependent deacetylase network ([[SIRT1]]–[[SIRT7]]) and the aminochrome redox system centered on [[Adrenochrome]] (3-hydroxy-1-methyl-2,3-dihydro-1H-indole-5,6-dione). Rather than treating adrenochrome as a mere toxic byproduct of [[Catecholamine|catecholamine]] [[Oxidation|oxidation]], we propose that sub-toxic, controlled adrenochrome [[Redox Cycling|redox cycling]] generates discrete [[ROS|ROS]] signals that intersect with sirtuin biology at five mechanistically distinct nodes, corresponding to each of the five therapeutic recommendations from our prior strategic analysis.
 

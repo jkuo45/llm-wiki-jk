@@ -29,25 +29,25 @@
 >
 > Senescence, NAD+, Sirtuins, `task_output` updates, SASP documents, etc.
 >
-> - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
+> - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
 > - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
-> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
-> - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
+> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
+> - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 > - [triple (graph) kg as of 09_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/triples/triples_as_of_09_JUL_2026.md) [[triples_as_of_09_JUL_2026|wiki]] 
 
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
-- ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
+- ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
     - [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
     - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
     - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
     - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
     - 🀄️ (zh-TW): 目前尚無臨床驗證的比率檢測方法；SIRT3/SIRT4蛋白僅限研究環境以西方墨點法或ELISA測定，替代性指標（MnSOD乙醯化、MitoSOX、8-OHdG）可間接反映但尚未標準化，新興非侵入性替代指標包括循環游離粒線體DNA與血漿乙醯肉鹼圖譜。
-- 📚 [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[task_output_autophagy_and_cancer_13_JUL_2026|wiki]]
+- 📚 [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[task_output_autophagy_and_cancer_13_JUL_2026|wiki]]
     - Examines autophagy's dual role during cancer chemotherapy: primarily pro-survival in established tumours (shielding cancer cells from metabolic stress and treatment), yet context-dependent with emerging evidence for tumor-suppressive and treatment-enhancing roles.
     - 🀄️ (zh-TW): 探討自噬在癌症化療中的雙重角色——主要為已建立腫瘤的存活機制（保護癌細胞免受代謝壓力與治療損傷），但具情境依賴性，新興證據顯示其亦具腫瘤抑制與治療增強作用。
-- 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
+- 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
     - Comprehensive review of the seven mammalian sirtuins (SIRT1–7), NAD⁺-dependent deacetylases regulating inflammation, metabolism, oxidative stress, and apoptosis, with roles in cancer, CVD, and other diseases; surveys SIRT modulators in clinical trials.
     - 🀄️ (zh-TW): 綜述七種哺乳動物去乙醯酶（SIRT1–7），為NAD⁺依賴性酵素，調控發炎、代謝、氧化壓力與細胞凋亡，在癌症、心血管疾病等病理中扮演角色，並回顧SIRT調節劑的臨床試驗。
 - 💊 [Nicotinamide Riboside — Current State of Research](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|wiki]]
@@ -80,7 +80,7 @@ example: suggested schedule (Resveratrol, and Creatine)
 - 🍇 [[Resveratrol]] (therapeutic levels, calculation):
 	- Polyphenolic stilbene and prototypical SIRT1 activator; therapeutic dose (500 mg) requires ~263 L of red wine (~351 bottles, ~1,778 glasses) or ~46–150 lbs of grapes — daily intake impossible from food alone, supplements required due to poor oral bioavailability (~1–2%).
 	- 🀄️ (zh-TW): 多酚類芪烯醇與原型SIRT1激活劑；治療劑量（500毫克）需約263公升紅酒（約351瓶、1,778杯）或46–150磅葡萄——每日攝入量無法從食物獲取，因口服生物利用度低（約1–2%），需依賴補充劑。
-- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/sirtuins_mnsod/_document_%20-%20task_output_sirtuins_recommendations_03_JULY_2026.md) [[task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
+- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md) [[task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
     - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
     - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]

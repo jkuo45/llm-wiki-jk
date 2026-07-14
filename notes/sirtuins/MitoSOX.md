@@ -53,9 +53,9 @@ MitoSOX is a standard *in vitro* readout for sirtuin redox interventions. In the
     - Lists MitoSOX among surrogate markers (with MnSOD Lys68/Lys122 acetylation and 8-OHdG) for ratio-dependent SIRT3 activity.
   - [[task_output_sirtuins_recommendations_03_JULY_2026|Sirtuin Recommendations (03 JUL 2026)]]
     - Uses MitoSOX as a target-engagement endpoint for combined SIRT3 activation / SIRT4 inhibition.
-  - [[task_output_sirtuins_adrenochrome_mnsod_06_JULY_2026|MnSOD in Sirtuin vs. Adrenochrome Pathways (06 JUL 2026)]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026|MnSOD in Sirtuin vs. Adrenochrome Pathways (06 JUL 2026)]]
     - Positions MitoSOX as the readout of adrenochrome-derived superoxide processed by MnSOD.
-  - [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026|Adrenochrome Research Plan (04 JUL 2026)]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026|Adrenochrome Research Plan (04 JUL 2026)]]
     - Employs MitoSOX burst kinetics to test the SIRT3/SIRT4-MnSOD redox rheostat.
 
 ## Linking Summary

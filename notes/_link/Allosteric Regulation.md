@@ -34,7 +34,7 @@ Allosteric dysregulation contributes to metabolic disorders, cancer, and channel
 
 ## Documents
 
-- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Discusses allosteric regulation of metabolic enzymes relevant to sirtuin/adrenochrome research.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: Discusses allosteric regulation of metabolic enzymes relevant to sirtuin/adrenochrome research.
 - [[task_output_sirtuins_recommendations_03_JULY_2026]]: Recommends leveraging allosteric control points in metabolic intervention.
 
 ## Connections

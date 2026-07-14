@@ -35,7 +35,7 @@ LNA-based drugs (e.g., miravirsen, oligonucleotide therapeutics) demonstrate cli
 
 ## Documents
 
-- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: LNA oligonucleotides are proposed as a nucleic-acid strategy to modulate target gene expression.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: LNA oligonucleotides are proposed as a nucleic-acid strategy to modulate target gene expression.
 
 ## Connections
 

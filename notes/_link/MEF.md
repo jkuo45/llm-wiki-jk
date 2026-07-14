@@ -37,7 +37,7 @@ Primary MEFs undergo replicative [[Senescence]] driven by telomere shortening an
 
   - [[tbl_senescent_compounds_normalized]]
     - MEF cited as a primary fibroblast model in senescent compound records.
-  - [[task_output_sirtuins_adrenochrome_mnsod_06_JULY_2026]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026]]
     - MEF proposed for mitochondrial and senescence assays in sirtuin/MnSOD work.
 
 ## Connections
