@@ -4,7 +4,6 @@
 
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
-- Documents with the `_document_` prefix in the filename are source documents awaiting ingestion. They live in the `raw/` directory until processed.
   - Depending on task, they may or may not be included in context, counts.
 - `notes` directory:
   - Contains files for wiki, directories within represent topics.
@@ -25,11 +24,10 @@ When answering questions about biomedical topics, prioritize information sources
 
 ## Document Ingestion Workflow:
 
-**Prerequisites:** Documents with `_document_` prefix.
 
 | Step                          | Action                                                                                                                                                                                                                                                                                                                                                                                                          | Output                                             |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter, callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the `raw/_document_` file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file overwriting the `_document_`. |
+| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter, callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file. |
 | **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.                                              | New/updated entity notes / enriched existing notes |
 | **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.    |
 | **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                                                                 | Updated README with new entities.                  |
