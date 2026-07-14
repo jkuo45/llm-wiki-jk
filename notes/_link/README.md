@@ -322,7 +322,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[SAH]] | 13_JULY_2026 12:00 PM PDT | Metabolite | Methylation, Epigenetics, One-Carbon Metabolism |
 | [[TMG]] | 13_JULY_2026 12:00 PM PDT | Methyl Donor | Methylation, Epigenetics, Liver |
 | [[Knockout mouse]] | 13_JULY_2026 12:00 PM PDT | Experimental Model | Genetics, Animal Model |
-| [[C57BL/6]] | 13_JULY_2026 12:00 PM PDT | Experimental Model | Mouse Strain, Animal Model |
+| [[C57BL-6]] | 13_JULY_2026 12:00 PM PDT | Experimental Model | Mouse Strain, Animal Model |
 | [[HEK293]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Cell Culture, Transfection |
 | [[SH-SY5Y]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Neuroblastoma, Neuron Model, Neuroscience |
 | [[RAW264.7]] | 13_JULY_2026 12:00 PM PDT | Cell Line | Macrophage, Immunology |

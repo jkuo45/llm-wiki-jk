@@ -206,14 +206,14 @@ tags:
 
   - **Window / adaptive-response biomarkers**
 
-| Window biomarker | Available assay | Market availability | Notes |
-| --- | --- | --- | --- |
-| [[SIRT3-SIRT4 Ratio]] | Western/IHC, research ELISA (SIRT3 kits exist); requires normalized tissue | **NOT clinically available** | Biggest gap — the key predictive biomarker of window position is unmeasurable routinely |
-| [[Heart Rate Variability]] | Consumer wearables (Oura, Whoop, Garmin, Apple Watch, Polar) | Ubiquitous | Real-time trend, not absolute; best live window monitor |
-| 8-OHdG | Urine ELISA/EIA (Doctor's Data, Cayman, Nordic) | **Commercial, non-invasive** | DNA oxidative-damage safety marker |
-| [[Methemoglobin]] | Co-oximetry (LabCorp/Quest) | Routine | MB / hemolysis safety |
-| OCR / mtDNA:nDNA | Seahorse (OCR); qPCR (mtDNA:nDNA) | Research / specialty | Not clinical |
-| Nuclear [[TFEB]] translocation | Immunofluorescence imaging | Research only | No clinical assay |
+| Window biomarker               | Available assay                                                            | Market availability          | Notes                                                                                   |
+| ------------------------------ | -------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------- |
+| [[SIRT3-SIRT4 Ratio]]          | Western/IHC, research ELISA (SIRT3 kits exist); requires normalized tissue | **NOT clinically available** | Biggest gap — the key predictive biomarker of window position is unmeasurable routinely |
+| [[Heart Rate Variability]]     | Consumer wearables (Oura, Whoop, Garmin, Apple Watch, Polar)               | Ubiquitous                   | Real-time trend, not absolute; best live window monitor                                 |
+| 8-OHdG                         | Urine ELISA/EIA (Doctor's Data, Cayman, Nordic)                            | **Commercial, non-invasive** | DNA oxidative-damage safety marker                                                      |
+| [[Methemoglobin]]              | Co-oximetry (LabCorp/Quest)                                                | Routine                      | MB / hemolysis safety                                                                   |
+| OCR / mtDNA:nDNA               | Seahorse (OCR); qPCR (mtDNA:nDNA)                                          | Research / specialty         | Not clinical                                                                            |
+| Nuclear [[TFEB]] translocation | Immunofluorescence imaging                                                 | Research only                | No clinical assay                                                                       |
 
   - **Key takeaways for titration**
     - **Routinely measurable & actionable:** [[Rapamycin]] (TDM), [[Glutathione]]/GSH, 8-OHdG, [[Methemoglobin]], [[Heart Rate Variability]]. These are sufficient to run the SRAC/GOPS arms and gate safety.

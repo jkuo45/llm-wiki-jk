@@ -193,7 +193,7 @@ The prior report identified [[CD38]] as the primary [[NAD+]] sink during [[Aging
    - Determine whether adrenochrome suppresses CD38 transcription via Nrf2-mediated repression of [[NFKB|NF-κB]] at the CD38 promoter ([[ChIP-seq|ChIP-qPCR]]).
 
 - **In Vivo NAD+ Rescue in Aged Mice:**
-   - Use 22-month-old [[C57BL/6]] mice.
+   - Use 22-month-old [[C57BL-6]] mice.
    - Four arms (n=8/group): (i) vehicle; (ii) adrenochrome (5 μg/kg, i.p., 3×/week); (iii) low-dose [[Daratumumab]] (0.1 mg/kg, i.v., 1×/week); (iv) combination.
    - After 8 weeks, sacrifice and measure:
      - Tissue NAD+/NADH in [[Liver|liver]], [[Skeletal Muscle|skeletal muscle]], [[Brain|brain]], [[Heart disease|heart]] (LC-MS/MS).
@@ -250,7 +250,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
    - Evaluate monocyte adhesion assay: visualize THP-1 adhesion to HUVEC monolayers under flow conditions.
 
 - **In Vivo [[Osteoarthritis]] Model:**
-   - Use 18-month-old [[C57BL/6]] mice with age-associated spontaneous knee OA.
+   - Use 18-month-old [[C57BL-6]] mice with age-associated spontaneous knee OA.
    - Intra-articular injection of: (i) vehicle; (ii) adrenochrome (1 μg); (iii) [[Locked Nucleic Acid|LNA]]-antagomir pool; (iv) combination.
    - Assess OARSI histological score of articular cartilage, SIRT1 expression ([[Immunohistochemistry|IHC]]), and [[Macrophage|macrophage]] polarization ([[CD86]] vs. [[CD206]] IHC) in synovium.
 

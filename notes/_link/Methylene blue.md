@@ -69,7 +69,7 @@ In the [[SASP-Remodeling Aminochrome Complex]] strategy, Methylene blue serves a
     - Methylene blue (first-line for symptomatic or high-level cases): 1–2 mg/kg IV over 5 minutes. It acts as a cofactor to enhance NADPH-methemoglobin reductase pathway, reducing MetHb back to Hemoglobin.
 
   - [[_document_ - MRR - mitohormesis|mitohormesis]]
-    - Amplifier: Methylene blue (Mitochondrial electron cycler). Fuel: Nicotinamide Riboside (NR) or Nicotinamide Mononucleotide (NAD+ precursors).
+    - Amplifier: Methylene blue (Mitochondrial electron cycler). Fuel: [[NR]] or [[NMN]] (NAD+ precursors).
 
   - [[_document_ -  (protocol) MRR - mitohormesis, MB, NAD|MRR Protocol]]
     - Acts as alternative electron carrier bypassing damaged Complex I/III in the Mitohormetic Redox-Relay strategy.

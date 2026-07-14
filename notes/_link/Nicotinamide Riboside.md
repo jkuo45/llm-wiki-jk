@@ -18,18 +18,18 @@ aliases:
 
 # Nicotinamide Riboside
 
-**Nicotinamide Riboside (NR)** is a naturally occurring pyridine nucleoside form of vitamin B3 (niacin) and a direct precursor to [[NAD+]] (nicotinamide adenine dinucleotide). NR is phosphorylated by nicotinamide riboside kinases (NRK1/NRK2) to form [[NMN]] (nicotinamide mononucleotide), which is then adenylylated by NMNAT to produce NAD+.
+**Nicotinamide Riboside ([[NR]])** is a naturally occurring pyridine nucleoside form of vitamin B3 (niacin) and a direct precursor to [[NAD+]] (nicotinamide adenine dinucleotide). [[NR]] is phosphorylated by nicotinamide riboside kinases (NRK1/NRK2) to form [[NMN]] (nicotinamide mononucleotide), which is then adenylylated by NMNAT to produce NAD+.
 
 ## Mechanism as a Pan-Sirtuin Activator
 
-Like [[NMN]], NR functions as a **universal indirect pan-sirtuin activator** by raising cellular NAD+ levels. Since all seven mammalian sirtuins ([[SIRT1]]–[[SIRT7]]) require NAD+ as an obligate co-substrate, NR supplementation potentiates the catalytic activity of the entire sirtuin family, including SIRT1-mediated deacetylation of [[PGC-1α]], [[FOXO3a]], and [[NFKB|NF-κB]].
+Like [[NMN]], [[NR]] functions as a **universal indirect pan-sirtuin activator** by raising cellular NAD+ levels. Since all seven mammalian sirtuins ([[SIRT1]]–[[SIRT7]]) require NAD+ as an obligate co-substrate, [[NR]] supplementation potentiates the catalytic activity of the entire sirtuin family, including SIRT1-mediated deacetylation of [[PGC-1α]], [[FOXO3a]], and [[NFKB|NF-κB]].
 
 ## Therapeutic Relevance
 
-- **NAD+ Restoration**: NR effectively raises NAD+ levels in multiple tissues, including brain, liver, and muscle, particularly in aged or metabolically stressed organisms.
-- **Metabolic Health**: NR supplementation improves mitochondrial function, fatty acid oxidation, and glucose tolerance in preclinical models.
-- **Neuroprotection**: NR crosses the blood-brain barrier and restores neuronal NAD+ pools, offering protection against age-related cognitive decline and neurodegeneration.
-- **Longevity**: Like caloric restriction, NR supplementation extends lifespan in model organisms by activating sirtuin-dependent pathways.
+- **NAD+ Restoration**: [[NR]] effectively raises NAD+ levels in multiple tissues, including brain, liver, and muscle, particularly in aged or metabolically stressed organisms.
+- **Metabolic Health**: [[NR]] supplementation improves mitochondrial function, fatty acid oxidation, and glucose tolerance in preclinical models.
+- **Neuroprotection**: [[NR]] crosses the blood-brain barrier and restores neuronal NAD+ pools, offering protection against age-related cognitive decline and neurodegeneration.
+- **Longevity**: Like caloric restriction, [[NR]] supplementation extends lifespan in model organisms by activating sirtuin-dependent pathways.
 
 # 
 
@@ -49,11 +49,11 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[NMN]] — NR is phosphorylated to NMN before entering the NAD+ pool
-- [[NAD+]] — direct biosynthetic product; NR is a key precursor
-- [[Sirtuins]] — NR indirectly activates all sirtuins by boosting NAD+ availability
-- [[Caloric Restriction]] — NR supplementation mimics CR-induced NAD+ elevation
-- [[CD38]] — degrades NAD+; CD38 inhibitors potentiate NR's NAD+-boosting effects
+- [[NMN]] — [[NR]] is phosphorylated to NMN before entering the NAD+ pool
+- [[NAD+]] — direct biosynthetic product; [[NR]] is a key precursor
+- [[Sirtuins]] — [[NR]] indirectly activates all sirtuins by boosting NAD+ availability
+- [[Caloric Restriction]] — [[NR]] supplementation mimics CR-induced NAD+ elevation
+- [[CD38]] — degrades NAD+; CD38 inhibitors potentiate [[NR]]'s NAD+-boosting effects
 
 ---
 

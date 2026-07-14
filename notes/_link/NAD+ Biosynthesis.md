@@ -23,18 +23,18 @@ aliases:
 [[NAD+ Biosynthesis]] comprises the cellular pathways that produce [[NAD+]], the redox and signaling cofactor central to energy metabolism, [[Sirtuins]] activity, and DNA repair. Total NAD+ declines with [[Aging]], making biosynthesis a longevity-relevant process.
 
 ## Pathways
-Three routes replenish NAD+: (1) the [[NAD+ Salvage Pathway]], wherein [[NAMPT]] converts nicotinamide to NMN, the rate-limiting step; (2) the Preiss-Handler pathway from [[Vitamin B3]]/nicotinic acid via [[Niacin]] and NMNAT to NAD+; and (3) a minor de novo route from tryptophan. Extracellular precursors—[[Nicotinamide Riboside]] (NR) and [[Nicotinamide Mononucleotide]] ([[NMN]])—are phosphorylated/absorbed via [[NMRK1]]/[[NMRK2]] and NMNAT.
+Three routes replenish NAD+: (1) the [[NAD+ Salvage Pathway]], wherein [[NAMPT]] converts nicotinamide to NMN, the rate-limiting step; (2) the Preiss-Handler pathway from [[Vitamin B3]]/nicotinic acid via [[Niacin]] and NMNAT to NAD+; and (3) a minor de novo route from tryptophan. Extracellular precursors—[[NR]] and [[NMN]]—are phosphorylated/absorbed via [[NMRK1]]/[[NMRK2]] and NMNAT.
 
 ## Mechanism & Consumption
 NAD+ is consumed by [[Sirtuins]], [[PARP]] (especially [[PARP1]]) during [[DNA Damage]] repair, and [[CD38]] in immune/calcium signaling; these sinks drain the pool in aging and inflammation. Biosynthesis must offset this flux to maintain [[Redox Homeostasis]] and mitochondrial function.
 
 ## Redox, Sirtuins & Longevity
-Robust NAD+ biosynthesis underpins [[Mitochondrial Dysfunction]] resistance, [[Mitohormesis]], and [[Caloric Restriction]] benefits. Supplementing precursors (NR, [[NMN]], [[Niacin]]) and supporting [[NAMPT]] are leading [[Healthspan]] strategies. Balanced biosynthesis also tempers [[Inflammaging]] and supports [[Autophagy]], positioning it at the nexus of redox, sirtuin, and longevity biology.
+Robust NAD+ biosynthesis underpins [[Mitochondrial Dysfunction]] resistance, [[Mitohormesis]], and [[Caloric Restriction]] benefits. Supplementing precursors ([[NR]], [[NMN]], [[Niacin]]) and supporting [[NAMPT]] are leading [[Healthspan]] strategies. Balanced biosynthesis also tempers [[Inflammaging]] and supports [[Autophagy]], positioning it at the nexus of redox, sirtuin, and longevity biology.
 
 ## Documents
 
   - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside Review]]
-    - Comprehensive review of NR and NAD+ biosynthesis/therapeutics.
+    - Comprehensive review of [[NR]] and NAD+ biosynthesis/therapeutics.
   - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NMN/NR Dietary Contribution]]
     - Details precursor contributions to NAD+ pools.
 

@@ -22,7 +22,7 @@ A **knockout mouse** is a genetically modified mouse strain in which one or more
 
 ## Origin and Methodology
 
-The classical workflow uses [[C57BL/6]] or 129/Sv-derived ES cells, introducing a targeting construct that disrupts the coding sequence or exon of interest. Chimeric offspring are bred to germline transmission, and heterozygous progeny are intercrossed to yield homozygous knockouts. Conditional knockouts (e.g., Cre-loxP systems) permit tissue- or time-specific gene ablation, reducing developmental lethality.
+The classical workflow uses [[C57BL-6]] or 129/Sv-derived ES cells, introducing a targeting construct that disrupts the coding sequence or exon of interest. Chimeric offspring are bred to germline transmission, and heterozygous progeny are intercrossed to yield homozygous knockouts. Conditional knockouts (e.g., Cre-loxP systems) permit tissue- or time-specific gene ablation, reducing developmental lethality.
 
 ## Common Research Uses
 
@@ -43,12 +43,12 @@ Knockout models reveal whether a gene promotes or suppresses tumorigenesis and a
 
 ## Connections
 
-  - [[C57BL/6]]: Most common background strain used to generate and maintain knockout lines.
+  - [[C57BL-6]]: Most common background strain used to generate and maintain knockout lines.
   - [[MEF]]: Mouse embryonic fibroblasts derived from knockout embryos serve as an in vitro validation platform.
   - [[Apoptosis]]: Frequently assayed phenotype in knockout survival and tumor studies.
 
 ## Linking Summary
 
-- New links added: [[C57BL/6]], [[MEF]], [[mTOR]], [[Mitochondria]], [[Apoptosis]], [[Aging]], [[Cancer]], [[Neurodegeneration]]
+- New links added: [[C57BL-6]], [[MEF]], [[mTOR]], [[Mitochondria]], [[Apoptosis]], [[Aging]], [[Cancer]], [[Neurodegeneration]]
 - Suggested new entity notes: [[Gene Knockout]], [[CRISPR-Cas9]], [[Cre-loxP System]]
-- Strong connections: [[Knockout mouse]] ↔ [[C57BL/6]]; [[Knockout mouse]] ↔ [[MEF]]
+- Strong connections: [[Knockout mouse]] ↔ [[C57BL-6]]; [[Knockout mouse]] ↔ [[MEF]]

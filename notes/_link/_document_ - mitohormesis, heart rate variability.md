@@ -157,7 +157,7 @@ To pair your physiological recovery (HRV) and cellular stress adaptation (mitoho
 
 These supplements support the energy production ([[ATP]]) and recycling ([[Mitophagy]]) pathways of your [[Mitochondria]], but they must be timed to respect your circadian biology.
 
-#### NMN, NR, or NAD+ (NAD+ Boosters)
+#### NMN, [[NR]], or NAD+ (NAD+ Boosters)
 
 - **Why:** [[NAD+]] is the essential coenzyme that [[Sirtuins]] use to repair [[DNA Damage]] and stimulate [[Mitochondrial Biogenesis]]. NAD+ levels naturally follow a circadian rhythm, peaking in the morning.
 - **When to take:** Morning (within 1 hour of waking). Taking them in the evening can cause alertness or sleep disruptions for some individuals, which will directly depress your overnight HRV.
@@ -245,7 +245,7 @@ Mitohormesis relies on creating a temporary, acute increase in [[Reactive Oxygen
   - **Omega-3 fatty acids (EPA/DHA):** Wild-caught salmon, sardines, or algae oil to optimize mitochondrial membrane fluidity and reduce systemic baseline [[Inflammation|inflammation]].
   - **CoQ10 / Ubiquinol & PQQ:** For optimal [[Electron Transport Chain|electron transport chain]] function and synergistic stimulation of mitochondrial biogenesis.
   - **MCT oil (caprylic acid / C8):** Provides a direct, efficient mitochondrial fuel that increases endogenous ketone production, acting as a signaling molecule to promote mitohormesis.
-  - **NAD+ precursors (NMN or NR):** Support the NAD+/SIRT1 axis, crucial for mitochondrial health and energy sensing.
+  - **NAD+ precursors ([[NMN]] or [[NR]]):** Support the NAD+/SIRT1 axis, crucial for mitochondrial health and energy sensing.
 
 - **Foods and substances to avoid or minimize:**
   - **Refined carbohydrates and sugars:** Cause excess, uncoupled ROS production without the hormetic benefit.

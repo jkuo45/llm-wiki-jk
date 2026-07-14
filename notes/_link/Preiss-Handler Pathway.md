@@ -56,4 +56,4 @@ The pathway underpins why [[Vitamin B3]] and tryptophan status influence NAD+ av
   - New links added: [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Niacin]], [[Vitamin B3]], [[Tryptophan]], [[NAD+ Salvage Pathway]], [[NAMPT]], [[Kynurenine Pathway]], [[Aging]], [[Longevity]], [[PARP]]
   - Suggested new entity notes to create: [[Quinolinate]], [[Kynurenine Pathway]]
   - Strong connections to strengthen: [[Preiss-Handler Pathway]] ↔ [[NAD+ Salvage Pathway]]; [[Preiss-Handler Pathway]] ↔ [[NAD+]]
-  - Justification: The Preiss-Handler pathway is the de novo NAD+ source; linking to salvage, NMN/NR, and vitamin B3 situates it in the vault's NAD+ metabolism network.
+  - Justification: The Preiss-Handler pathway is the de novo NAD+ source; linking to salvage, [[NMN]]/[[NR]], and vitamin B3 situates it in the vault's NAD+ metabolism network.

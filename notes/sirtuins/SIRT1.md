@@ -297,7 +297,7 @@ SIRT1 deacetylates a broad spectrum of non-histone substrates beyond its canonic
 
 ## Activation by NAD⁺ Precursors and Resveratrol
 
-SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stilbenoid]], directly binds SIRT1, enhancing its affinity for both acetylated substrate and NAD⁺, leading to ~8-fold activation of deacetylase activity. However, the in vivo activation mechanism of resveratrol remains controversial, with evidence for indirect activation via [[AMPK]] and [[PDE]] inhibition. NAD⁺ precursors [[Nicotinamide Mononucleotide]] (NMN) and [[Nicotinamide Riboside]] (NR) elevate cellular NAD⁺ levels, relieving nicotinamide-mediated inhibition and driving SIRT1-dependent deacetylation. [[Sirtuin activating compounds]] (STACs), including [[SRT1720]] and [[SRT2104]], demonstrate SIRT1-dependent metabolic benefits in preclinical models though clinical translation has been challenging.
+SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stilbenoid]], directly binds SIRT1, enhancing its affinity for both acetylated substrate and NAD⁺, leading to ~8-fold activation of deacetylase activity. However, the in vivo activation mechanism of resveratrol remains controversial, with evidence for indirect activation via [[AMPK]] and [[PDE]] inhibition. NAD⁺ precursors [[NMN]] and [[NR]] elevate cellular NAD⁺ levels, relieving nicotinamide-mediated inhibition and driving SIRT1-dependent deacetylation. [[Sirtuin activating compounds]] (STACs), including [[SRT1720]] and [[SRT2104]], demonstrate SIRT1-dependent metabolic benefits in preclinical models though clinical translation has been challenging.
 
 ## Role in Mitochondrial Function and Stress Resistance
 

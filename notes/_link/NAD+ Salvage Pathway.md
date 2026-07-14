@@ -85,7 +85,7 @@ NAMPT expression oscillates with circadian rhythm, creating daily oscillations i
 ## Pathological Roles
 
 ### Ageing
-The age-related decline in NAMPT and NAD+ is a hallmark of ageing. Reduced NAD+ impairs sirtuin activity, DNA repair, mitochondrial function, and metabolic homeostasis. NAD+ repletion (via NMN, NR, or NAMPT activators) extends lifespan and healthspan in model organisms.
+The age-related decline in NAMPT and NAD+ is a hallmark of ageing. Reduced NAD+ impairs sirtuin activity, DNA repair, mitochondrial function, and metabolic homeostasis. NAD+ repletion (via [[NMN]], [[NR]], or NAMPT activators) extends lifespan and healthspan in model organisms.
 
 ### Neurodegeneration
 NMNAT2 is lost early in Alzheimer's disease. NAD+ decline impairs neuronal survival and promotes neuroinflammation. NAD+ repletion strategies are being explored for Alzheimer's, Parkinson's, and Huntington's diseases.
@@ -101,7 +101,7 @@ NAMPT is overexpressed in many cancers, supporting the high metabolic and DNA re
 
 ## Clinical Relevance
 
-- **NAD+ precursors:** Nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) are dietary supplements that bypass NAMPT to directly boost NAD+ levels. Clinical trials are evaluating their efficacy for ageing, metabolic disease, and neurodegeneration.
+- **NAD+ precursors:** [[NR]] and [[NMN]] are dietary supplements that bypass NAMPT to directly boost NAD+ levels. Clinical trials are evaluating their efficacy for ageing, metabolic disease, and neurodegeneration.
 - **NAMPT inhibitors:** FK866 (APO866) and CHS-828 are NAMPT inhibitors in clinical trials for cancer, leveraging NAD+ depletion to selectively kill tumour cells.
 - **Exercise:** Exercise upregulates NAMPT in skeletal muscle, increasing NAD+ biosynthesis and mitochondrial biogenesis.
 - **Circadian disruption:** Shift work and jet lag disrupt NAMPT oscillations, contributing to metabolic dysfunction.
@@ -138,6 +138,6 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[NAD+]], [[SIRT1]], [[SIRT3]], [[NMN]], [[PARP1]], [[CD38]], [[AMPK]], [[Circadian Rhythm]], [[Skeletal Muscle]], [[Inflammation]], [[Aging]]
-  - Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[NR (Nicotinamide Riboside)]], [[Visfatin]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]]
+  - Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[Visfatin]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]]
   - Strong connections to strengthen: [[NAD+ Salvage Pathway]] ↔ [[SIRT1]], [[NAD+ Salvage Pathway]] ↔ [[NAD+]], [[NAD+ Salvage Pathway]] ↔ [[Aging]]
   - Justification: The NAD+ salvage pathway is the central metabolic axis linking nutrient sensing (AMPK), epigenetic regulation (Sirtuins), DNA repair (PARPs), and ageing. Its age-related decline is a fundamental mechanism of metabolic and functional deterioration.

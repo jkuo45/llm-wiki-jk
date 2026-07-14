@@ -70,7 +70,7 @@ List of documents that mention this entity
 
 
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - The coenzyme Sirtuins use for DNA repair and mitochondrial biogenesis; NAD+ peaks circadianly in the morning, so NMN/NR are taken on waking.
+    - The coenzyme Sirtuins use for DNA repair and mitochondrial biogenesis; NAD+ peaks circadianly in the morning, so [[NMN]]/[[NR]] are taken on waking.
 
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes

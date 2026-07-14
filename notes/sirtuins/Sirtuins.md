@@ -137,7 +137,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
   - **SRT1720, SRT2104, SRT2183, SRT3025**: Highly potent compounds that bind SIRT1 with high affinity, improving metabolic homeostasis and lifespan in models of obesity.
 - **NAD+ Precursors (Pan-Sirtuin Activators)**:
   - **[[NMN]] (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; elevates NAD+ to fuel all sirtuins.
-  - **[[Nicotinamide Riboside]] (NR)**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
+  - **[[NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 - **SIRT6-Specific Activators**:
   - **UBCS039**: The first synthetic activator of SIRT6 deacetylase activity.
   - **MDL-800**: A potent, highly selective allosteric activator of SIRT6 that reduces myofibroblast differentiation and accelerates wound healing.
@@ -187,7 +187,7 @@ List of documents that mention this entity
 
 
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by NMN/NR supplementation.
+    - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by [[NMN]]/[[NR]] supplementation.
 
 ## Connections
 
@@ -209,7 +209,7 @@ List of documents that mention this entity
 - [[AMPK]]: - **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[AMPK|AMPK]]**, coordi...
 - [[Resveratrol]]: - **Natural Polyphenols**: - **Resveratrol**: The first identified allosteric activator of SIRT1.
 - [[NMN]]: - **NAD+ Precursors (Pan-Sirtuin Activators)**: - **NMN (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; eleva...
-- [[Nicotinamide Riboside]]: - **Nicotinamide Riboside (NR)**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
+- [[Nicotinamide Riboside]]: - **[[NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NFKB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]

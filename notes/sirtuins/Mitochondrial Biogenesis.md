@@ -29,7 +29,7 @@ PGC-1α acts as the master coactivator, induced by AMPK, p38 MAPK, and [[SIRT1]]
 - [[SIRT1]] deacetylates and activates [[PGC-1α]], the master regulator of [[Mitochondrial Biogenesis]]. This axis is critical for [[Exercise|exercise]] adaptation and [[Insulin Sensitivity|insulin sensitivity]].
 - [[SIRT3]] promotes mitochondrial protein deacetylation and supports [[OXPHOS|OXPHOS]] efficiency, which is coupled to mitochondrial biogenesis programs.
 - [[SIRT7]] couples glucose sensing to [[Mitochondrial Biogenesis]] via arginine methylation signaling in response to energy stress.
-- [[NAD+]] availability directly regulates sirtuin-dependent [[Mitochondrial Biogenesis]]; [[Nicotinamide Mononucleotide|NMN]] and [[Nicotinamide Riboside|NR]] supplementation can boost this pathway.
+- [[NAD+]] availability directly regulates sirtuin-dependent [[Mitochondrial Biogenesis]]; [[NMN]] and [[NR]] supplementation can boost this pathway.
 
 ## Physiological Role
 

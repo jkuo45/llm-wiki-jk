@@ -34,18 +34,18 @@ Low SIRT3/SIRT4  → Sustained O₂⁻ → Amplified ROS signaling → Stress/to
 
 ### Hormetic Window Control
 
-The SIRT3/SIRT4 ratio directly defines the **[[Hormetic Window]]** — the dose range over which mitochondrial stress triggers adaptive responses rather than damage. This concept is central to the **[[Mitohormetic Redox-Relay]]** framework, where adrenochrome-derived superoxide is the primary signaling output:
+The SIRT3/SIRT4 ratio directly defines the **[[Hormetic Window]]** — the dose range over which mitochondrial stress triggers adaptive responses rather than damage. This concept is central to the **[[Mitohormetic Redox-Relay]]** framework, where methylene blue-derived superoxide is the primary signaling output:
 
-- **High ratio (SIRT3 dominant):** Narrow hormetic window. Adrenochrome redox cycling is rapidly quenched. Cells are protected but may miss adaptive signaling.
+- **High ratio (SIRT3 dominant):** Narrow hormetic window. Methylene blue redox cycling is rapidly quenched. Cells are protected but may miss adaptive signaling.
 - **Low ratio (SIRT4 dominant):** Wide hormetic window. Superoxide persists, amplifying ROS-dependent signaling (NRF2, HIF-1α, ATF4). Protective at moderate doses, toxic at high doses.
-- **Intermediate ratio:** Optimal hormetic range. Sufficient superoxide for adaptive signaling, with enough MnSOD activity to prevent oxidative damage.
+- **Intermediate ratio:** Optimal hormetic range. Sufficient superoxide for adaptive signaling, with enough MnSOD activity to prevent oxidative damage. [[Aminoguanidine]] acts as the pulse-terminating scavenger that closes this window once the adaptive signal is established.
 
 ### Tissue-Specific Variation
 
 The SIRT3/SIRT4 ratio varies across tissues, explaining differential vulnerability to mitochondrial stressors:
 
 - **Heart:** High SIRT3 expression. Robust MnSOD activity protects against ischemia-reperfusion injury and cardiac hypertrophy. SIRT4 overexpression aggravates angiotensin II-induced cardiac hypertrophy by inhibiting MnSOD.
-- **Brain:** Lower baseline SIRT3/SIRT4. Greater susceptibility to adrenochrome-mediated oxidative damage; may explain neurotoxicity at lower thresholds.
+- **Brain:** Lower baseline SIRT3/SIRT4. Greater susceptibility to methylene blue-mediated oxidative damage; may explain neurotoxicity at lower thresholds.
 - **Liver:** Moderate ratio. Hepatic SIRT3 is induced by [[Caloric Restriction]], shifting the ratio toward protection during fasting.
 - **Pancreatic β-cells:** SIRT4 regulates insulin secretion via GDH. The ratio intersects metabolic and redox signaling.
 
@@ -58,17 +58,17 @@ Manipulating the SIRT3/SIRT4 ratio is a therapeutic strategy for mitochondrial d
 - **NAD⁺ precursors** ([[NMN]], [[NR]]) boost both sirtuins equally but may preferentially benefit SIRT3 due to its higher NAD⁺ affinity.
 - **Carbazochrome dosing** must be calibrated to the tissue-specific SIRT3/SIRT4 ratio to remain within the hormetic window.
 
-## Role in Adrenochrome Pathway
+## Role in Methylene Blue (MRR) Pathway
 
-In the adrenochrome redox cycling pathway, the SIRT3/SIRT4 ratio is the critical determinant of cellular fate:
+In the methylene blue (MB) redox-cycling arm of the MRR (mitohormesis redox relay) protocol, the SIRT3/SIRT4 ratio is the critical determinant of cellular fate:
 
-1. Adrenochrome (or [[Carbazochrome]]) undergoes one-electron reduction by mitochondrial Complex I or III, generating a semiquinone radical.
-2. The semiquinone transfers its electron to O₂, producing superoxide and regenerating adrenochrome (catalytic cycle).
+1. Methylene blue (or [[Carbazochrome]]) accepts electrons from the mitochondrial electron transport chain (Complex I/III) and undergoes redox cycling, generating superoxide.
+2. The MB semiquinone/leucomethylene-blue couple transfers its electron to O₂, producing superoxide and regenerating MB (catalytic cycle).
 3. **MnSOD** dismutates this superoxide — but its activity is set by the SIRT3/SIRT4 ratio.
-4. **High ratio:** Superoxide is cleared → H₂O₂ activates NRF2/ARE → antioxidant gene upregulation → adaptive protection.
+4. **High ratio:** Superoxide is cleared → H₂O₂ activates NRF2/ARE → antioxidant gene upregulation → adaptive protection. [[Aminoguanidine]], as a carbonyl/AGE scavenger and mild SOD-mimetic, confines the signal within the hormetic window and terminates the pulse once adaptation is established.
 5. **Low ratio:** Superoxide accumulates → oxidative damage to lipids, proteins, DNA → cell death.
 
-This makes the SIRT3/SIRT4 ratio a **predictive biomarker** for individual responsiveness to adrenochrome-derived hormesis and a **pharmacological target** for modulating the hormetic window.
+This makes the SIRT3/SIRT4 ratio a **predictive biomarker** for individual responsiveness to methylene blue-derived hormesis and a **pharmacological target** for modulating the hormetic window.
 
 ## Regulation of the Ratio
 
@@ -86,7 +86,7 @@ List of documents in the wiki that mention this entity
   - [[outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00|Adrenochrome (MB, AG) Protocol Outline]]
     - Noted as a predictive biomarker for individual responsiveness to the MRR mitohormetic pulse, setting the hormetic window via MnSOD regulation.
   - [[_document_ - MRR - mitohormesis|MRR Mitohormesis (Gemini analysis)]]
-    - Cited as a predictive biomarker determining whether the adrenochrome/carbazochrome-derived signal is adaptive or toxic.
+    - Cited as a predictive biomarker determining whether the methylene blue/carbazochrome-derived signal is adaptive or toxic.
   - [[_document_ - MRR - mitohormesis, MB, NAD|MRR Mitohormesis (MB, NAD)]]
     - Listed among MRR dosing rationale as a biomarker for individual hormetic responsiveness.
   - [[_document_ - combo therapy (MRR, SRAC, GOPS) gemini|Combo Therapy (MRR, SRAC, GOPS) Gemini]]
@@ -105,14 +105,17 @@ List of documents in the wiki that mention this entity
 - [[Hormetic Window]] — Directly determined by the ratio
 - [[Mitohormetic Redox-Relay]] — Therapeutic framework dependent on ratio optimization
 - [[Carbazochrome]] — Redox-cycling agent whose effects are ratio-dependent
+- [[Methylene Blue]] — Primary MRR redox cycler whose superoxide output is processed by ratio-determined MnSOD activity
+- [[Aminoguanidine]] — Carbonyl/AGE scavenger and pulse-terminating agent that confines the methylene blue signal within the hormetic window
 - [[AMPK]] — Upstream regulator of SIRT3 expression
 - [[PGC1-α]] — Drives SOD2 expression; modulated by the ratio
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with SIRT3 axis
 - [[Caloric Restriction]] — Shifts ratio toward SIRT3 dominance
-- [[Adrenochrome]] — Redox-cycling compound whose superoxide output is processed by ratio-determined MnSOD activity
+- [[Methylene Blue]] — Redox-cycling compound whose superoxide output is processed by ratio-determined MnSOD activity
   - [[Redox Vaccination]] — Adaptive response enabled by ratio-dependent MnSOD induction
-  - [[Hormetic Window]] — Directly determined by the ratio; the relevant biomarker threshold for adrenochrome-derived hormesis
+  - [[Hormetic Window]] — Directly determined by the ratio; the relevant biomarker threshold for methylene blue-derived hormesis
 
 ## Linking Summary
-- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Adrenochrome]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
+- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
+- Removed: [[Adrenochrome]] (replaced by [[Methylene Blue]] as the MRR redox cycler; [[Aminoguanidine]] added as pulse-terminating scavenger)
 - Suggested new entity notes to create: [[Mitochondrial Redox Dial]]
