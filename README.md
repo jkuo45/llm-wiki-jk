@@ -1,10 +1,12 @@
 # llm-wiki-jk
 
 <!-- GENERATED: summary_table -->
+
 ## Summary Table
+
 | topic                                                                                                                          | updated     | documents | entities |     words     |     disk     |
 | :----------------------------------------------------------------------------------------------------------------------------- | :---------- | :-------: | :------: | :-----------: | :----------: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]]                                  | 13_JUL_2026 |    19     |   1164   |    684,775    |   5.47 MB    |
+| [\_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]]                                 | 13_JUL_2026 |    19     |   1164   |    684,775    |   5.47 MB    |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]]             | 13_JUL_2026 |    19     |   268    |    206,650    |   1.89 MB    |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]]                      | 11_JUL_2026 |    10     |   232    |    156,933    |   1.28 MB    |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]]                               | 10_JUL_2026 |     9     |   262    |    227,163    |   2.18 MB    |
@@ -15,6 +17,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]]                   | 13_JUL_2026 |     9     |    41    |    81,530     |   0.87 MB    |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]]                         | 13_JUL_2026 |     8     |   121    |    183,369    |   1.52 MB    |
 | **subtotal**                                                                                                                   | 13_JUL_2026 |  **88**   | **2457** | **1,882,073** | **18.34 MB** |
+
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -24,7 +27,9 @@
 ## 📝 updates
 
 > [!NOTE] Currently Reading
+>
 > Senescence, NAD+, Sirtuins, `task_output` updates, SASP documents, etc.
+>
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
 > - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
 > - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
@@ -36,26 +41,27 @@
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
-	- [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
-	- SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
-	  - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
-	  - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
-	  - 🀄️ (zh-TW): 目前尚無臨床驗證的比率檢測方法；SIRT3/SIRT4蛋白僅限研究環境以西方墨點法或ELISA測定，替代性指標（MnSOD乙醯化、MitoSOX、8-OHdG）可間接反映但尚未標準化，新興非侵入性替代指標包括循環游離粒線體DNA與血漿乙醯肉鹼圖譜。
+  - [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
+  - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
+  - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
+  - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
+  - 🀄️ (zh-TW): 目前尚無臨床驗證的比率檢測方法；SIRT3/SIRT4蛋白僅限研究環境以西方墨點法或ELISA測定，替代性指標（MnSOD乙醯化、MitoSOX、8-OHdG）可間接反映但尚未標準化，新興非侵入性替代指標包括循環游離粒線體DNA與血漿乙醯肉鹼圖譜。
 - 📚 [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[task_output_autophagy_and_cancer_13_JUL_2026|wiki]]
-	- Examines autophagy's dual role during cancer chemotherapy: primarily pro-survival in established tumours (shielding cancer cells from metabolic stress and treatment), yet context-dependent with emerging evidence for tumor-suppressive and treatment-enhancing roles.
-	  - 🀄️ (zh-TW): 探討自噬在癌症化療中的雙重角色——主要為已建立腫瘤的存活機制（保護癌細胞免受代謝壓力與治療損傷），但具情境依賴性，新興證據顯示其亦具腫瘤抑制與治療增強作用。
+  - Examines autophagy's dual role during cancer chemotherapy: primarily pro-survival in established tumours (shielding cancer cells from metabolic stress and treatment), yet context-dependent with emerging evidence for tumor-suppressive and treatment-enhancing roles.
+  - 🀄️ (zh-TW): 探討自噬在癌症化療中的雙重角色——主要為已建立腫瘤的存活機制（保護癌細胞免受代謝壓力與治療損傷），但具情境依賴性，新興證據顯示其亦具腫瘤抑制與治療增強作用。
 - 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
-	- Comprehensive review of the seven mammalian sirtuins (SIRT1–7), NAD⁺-dependent deacetylases regulating inflammation, metabolism, oxidative stress, and apoptosis, with roles in cancer, CVD, and other diseases; surveys SIRT modulators in clinical trials.
-	  - 🀄️ (zh-TW): 綜述七種哺乳動物去乙醯酶（SIRT1–7），為NAD⁺依賴性酵素，調控發炎、代謝、氧化壓力與細胞凋亡，在癌症、心血管疾病等病理中扮演角色，並回顧SIRT調節劑的臨床試驗。
+  - Comprehensive review of the seven mammalian sirtuins (SIRT1–7), NAD⁺-dependent deacetylases regulating inflammation, metabolism, oxidative stress, and apoptosis, with roles in cancer, CVD, and other diseases; surveys SIRT modulators in clinical trials.
+  - 🀄️ (zh-TW): 綜述七種哺乳動物去乙醯酶（SIRT1–7），為NAD⁺依賴性酵素，調控發炎、代謝、氧化壓力與細胞凋亡，在癌症、心血管疾病等病理中扮演角色，並回顧SIRT調節劑的臨床試驗。
 - 💊 [Nicotinamide Riboside — Current State of Research](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|wiki]]
-	- Reviews NR as an NAD⁺ precursor for treating metabolic, cardiovascular, and neurodegenerative disorders, covering bioavailability, safety, and potential against SARS-CoV-2.
-	  - 🀄️ (zh-TW): 探討菸醯胺核醣苷（NR）作為NAD⁺前驅物，用於治療代謝、心血管及神經退化性疾病，涵蓋生物利用度、安全性及對抗SARS-CoV-2的潛力。
+  - Reviews NR as an NAD⁺ precursor for treating metabolic, cardiovascular, and neurodegenerative disorders, covering bioavailability, safety, and potential against SARS-CoV-2.
+  - 🀄️ (zh-TW): 探討菸醯胺核醣苷（NR）作為NAD⁺前驅物，用於治療代謝、心血管及神經退化性疾病，涵蓋生物利用度、安全性及對抗SARS-CoV-2的潛力。
 - ⚡ [Oxidative Stress: Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[_document_ - Oxidative Stress Harms and Benefits for Human Health|wiki]]
-	- Describes ROS as a double-edged sword: physiological roles in signaling/immunity vs. pathological roles in cancer, diabetes, and CVD; discusses therapeutic exploitation of oxidative stress.
-	  - 🀄️ (zh-TW): 闡述活性氧（ROS）的雙面性——在訊息傳遞與免疫中的生理角色，與在癌症、糖尿病、心血管疾病中的病理作用，並討論氧化壓力的治療性應用。
+  - Describes ROS as a double-edged sword: physiological roles in signaling/immunity vs. pathological roles in cancer, diabetes, and CVD; discusses therapeutic exploitation of oxidative stress.
+  - 🀄️ (zh-TW): 闡述活性氧（ROS）的雙面性——在訊息傳遞與免疫中的生理角色，與在癌症、糖尿病、心血管疾病中的病理作用，並討論氧化壓力的治療性應用。
 - 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|wiki]]
-	- Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
-	  - 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
+  - Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
+  - 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
+
 ---
 
 ### 📅 recent:
@@ -63,21 +69,22 @@
 `from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
 
 - 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/sirtuins_mnsod/_document_%20-%20task_output_sirtuins_recommendations_03_JULY_2026.md) [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
-	- Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
-	  - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
+  - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
+- 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
 - 🤖 [Learning to Replicate Expert Judgment in Financial Tasks](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/_document_%20-%20Learning%20to%20Replicate%20Expert%20Judgment%20in%20Financial%20Tasks.md) [[_document_ - Learning to Replicate Expert Judgment in Financial Tasks|wiki]]
-	- Demonstrates that models fine-tuned on expert-labeled financial data outperform frontier LLMs on information-filtering tasks at a fraction of the cost, advancing the concept of "differentiated intelligence."
-	  - 🀄️ (zh-TW): 展示以專家標註金融數據微調的模型，在資訊篩選任務上以極低成本超越前沿LLM，推動「差異化智能」概念。
+  - Demonstrates that models fine-tuned on expert-labeled financial data outperform frontier LLMs on information-filtering tasks at a fraction of the cost, advancing the concept of "differentiated intelligence."
+- 🀄️ (zh-TW): 展示以專家標註金融數據微調的模型，在資訊篩選任務上以極低成本超越前沿LLM，推動「差異化智能」概念。
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
-	- Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
-	  - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
+  - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
+- 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
 - 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[_document_ - Creatine in Health and Disease|wiki]]
-	- Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
-	  - 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
+  - Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
+- 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
 
 ---
 
 <!-- GENERATED: document_list -->
+
 ## Documents (88 total)
 
 - `_link`: [mitohormesis, heart rate variability](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20mitohormesis%2C%20heart%20rate%20variability.md) [[notes/_link/_document_ - mitohormesis, heart rate variability.md|wiki]] (13_JUL_2026 05:20 PM PDT)
@@ -117,7 +124,7 @@
 - `_link`: [Humanin a harbinger of mitochondrial-derived peptides?](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Humanin%20a%20harbinger%20of%20mitochondrial-derived%20peptides%3F.md) [[notes/_link/_document_ - Humanin a harbinger of mitochondrial-derived peptides?.md|wiki]] (09_JUL_2026 03:21 AM PDT)
 - `_link`: [Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Fisetin%E2%80%94In%20Search%20of%20Better%20Bioavailability%E2%80%94From%20Macro%20to%20Nano%20Modifications%20A%20Review.md) [[notes/_link/_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review.md|wiki]] (09_JUL_2026 03:04 AM PDT)
 - `adrenochrome`: [Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Know...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) [[notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md|wiki]] (08_JUL_2026 10:45 PM PDT)
-- `_link`: [Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Aminoguanidine%20An%20AGE%20Product%20Inhibitor%20%20Antiaging%20Systems%20Articles.md) [[notes/_link/_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Aminoguanidine An AGE Product Inhibitor Antiaging Systems Articles](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Aminoguanidine%20An%20AGE%20Product%20Inhibitor%20%20Antiaging%20Systems%20Articles.md) [[notes/_link/_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 - `_link`: [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[notes/_link/_document_ - Creatine in Health and Disease.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 - `_link`: [IDO01, NAD+, KP Pathway, grok](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20IDO01%2C%20NAD%2B%2C%20KP%20Pathway%2C%20grok.md) [[notes/_link/_document_ - IDO01, NAD+, KP Pathway, grok.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 - `_link`: [Methylene Blue - StatPearls](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Methylene%20Blue%20-%20StatPearls.md) [[notes/_link/_document_ - Methylene Blue - StatPearls.md|wiki]] (08_JUL_2026 09:35 PM PDT)
