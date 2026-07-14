@@ -20,7 +20,7 @@ Our analysis reveals critical, targetable pathways that govern key [[Hallmarks o
 
 The mitochondrial sirtuins, [[SIRT3]] and [[SIRT4]], exhibit strikingly divergent, antagonistic roles in [[Mitochondria|mitochondrial]] homeostasis, [[Oxidative Stress|oxidative stress]], and tissue remodeling:
 
-- **[[SIRT3]]** is highly protective. It deacetylates and activates **[[MnSOD|manganese superoxide dismutase (MnSOD/SOD2)]]** at residues **Lys68** and **Lys122**, dramatically increasing its [[Reactive Oxygen Species|reactive oxygen species (ROS)]] scavenging capacity. It also deacetylates **[[OSCP]]** (a subunit of the mitochondrial [[ATP Synthase|F1Fo-ATPase]]), optimizing ATP synthase coupling and bioenergetics. Additionally, SIRT3 deacetylates **[[LKB1]]**, which activates the **[[AMPK]]/[[PGC-1α]]** pathway to drive [[Mitochondrial Biogenesis|mitochondrial biogenesis]], and represses **[[HIF-1α]]** to suppress aerobic glycolysis. At the organ level, SIRT3 prevents [[Cardiac Hypertrophy|cardiac hypertrophy]] and renal tubulointerstitial [[Fibrosis|fibrosis]] by inhibiting the pro-fibrotic **[[TGF-beta|TGF-β]]/[[SMAD3|Smad3]]** pathway.
+- **[[SIRT3]]** is highly protective. It deacetylates and activates **[[MnSOD|manganese superoxide dismutase (MnSOD/SOD2)]]** at residues **[[Lys68]]** and **[[Lys122]]**, dramatically increasing its [[Reactive Oxygen Species|reactive oxygen species (ROS)]] scavenging capacity. It also deacetylates **[[OSCP]]** (a subunit of the mitochondrial [[ATP Synthase|F1Fo-ATPase]]), optimizing ATP synthase coupling and bioenergetics. Additionally, SIRT3 deacetylates **[[LKB1]]**, which activates the **[[AMPK]]/[[PGC-1α]]** pathway to drive [[Mitochondrial Biogenesis|mitochondrial biogenesis]], and represses **[[HIF-1α]]** to suppress aerobic glycolysis. At the organ level, SIRT3 prevents [[Cardiac Hypertrophy|cardiac hypertrophy]] and renal tubulointerstitial [[Fibrosis|fibrosis]] by inhibiting the pro-fibrotic **[[TGF-beta|TGF-β]]/[[SMAD3|Smad3]]** pathway.
 - **[[SIRT4]]** exhibits opposing, pathological effects in cardiac tissue. It mono-[[ADP-ribosylation|ADP-ribosylates]] and inhibits **[[Glutamate Dehydrogenase (GDH)|glutamate dehydrogenase (GDH)]]**, restricting glutamine-derived [[TCA cycle|TCA cycle]] flux. Crucially, SIRT4 overexpression _aggravates_ [[Angiotensin II|angiotensin II (Ang II)]]-induced [[Cardiac Hypertrophy|cardiac hypertrophy]] by _inhibiting_ [[MnSOD]] activity, which increases [[Mitochondrial ROS|mitochondrial ROS]]. Conversely, global SIRT4 [[Knockout mouse|knockout (KO)]] mice are highly resistant to Ang II-induced fibrosis and hypertrophy.
 
 ```
@@ -45,7 +45,7 @@ While [[SIRT3]] activation has been widely investigated, the opposing interactio
 ### Proposed Experimental Design & Methodology
 
 - **In Vitro Validation:** Treat primary human [[Cardiomyocytes|cardiomyocytes]] and renal tubular epithelial cells (TECs) with [[Angiotensin II|angiotensin II]] to induce hypertrophy/fibrosis. Evaluate the efficacy of combining a SIRT3 direct activator (e.g., **[[Honokiol]]** or **[[Dihydromyricetin]]**) with a novel, selective small-molecule SIRT4 inhibitor (to be designed or screened via high-throughput in silico docking of the GDH/MnSOD-interaction pocket).
-- **Target Engagement Endpoints:** Measure acetylation levels of MnSOD at K68/K122 via Western blot; measure [[Mitochondrial ROS|mitochondrial ROS]] using MitoSOX; evaluate ATP synthesis and respiratory coupling using [[Seahorse XF Analyzer|Seahorse XFe96]].
+- **Target Engagement Endpoints:** Measure acetylation levels of MnSOD at [[K68]]/[[K122]] via Western blot; measure [[Mitochondrial ROS|mitochondrial ROS]] using [[MitoSOX]]; evaluate ATP synthesis and respiratory coupling using [[Seahorse XF Analyzer|Seahorse XFe96]].
 - **In Vivo Efficacy:** Utilize wild-type and cardiac-specific SIRT4 [[Knockout mouse|KO]] mice subjected to chronic Ang II infusion via osmotic minipumps. Administer [[Honokiol]] in combination with SIRT4 inhibitors. Assess left ventricular hypertrophy via echocardiography, and evaluate collagen deposition via Masson's trichrome staining.
 
 ---
@@ -173,13 +173,13 @@ Bypassing direct sirtuin pocket binders by targeting the post-transcriptional re
 
 ## Strategic Translation Roadmap
 
-| Discovery Phase                       | Target Sirtuin                 | Target Pathway           | Primary Agent                                   | Key Outcome                                                          |                                                                   |                         |
-| :------------------------------------ | :----------------------------- | :----------------------- | :---------------------------------------------- | :------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------- |
-| **Phase I: In Silico / Screening**    | [[SIRT4]] / [[SIRT3]]          | [[MnSOD]] Redox Axis     | Selective SIRT4 Inhibitors + [[Honokiol]]       | Synergistic suppression of [[Mitochondrial ROS                       | mitochondrial ROS]] and [[Cardiac Hypertrophy                     | cardiac fibrosis]]      |
-| **Phase II: Target Validation**       | [[SIRT6]]                      | [[H3K9ac]] / [[H3K56ac]] | [[MDL-800]] / [[MDL-801]] derivatives           | [[DNA Repair                                                         | DNA double-strand break]] repair and biological age reversal      |                         |
-| **Phase III: Pathway Mapping**        | [[SIRT2]] / [[TFEB]]           | [[Lysosome]]             | [[Lysosome Biogenesis]]                         | Cellular-selective SIRT2-TFEB peptides                               | Enhanced autophagic clearance without neurodegenerative [[Tubulin | tubulin]] deacetylation |
-| **Phase IV: Preclinical Repurposing** | Systemic ([[SIRT1]]/[[SIRT3]]) | [[CD38]] Glycohydrolase  | Ultra-low-dose [[Daratumumab]] / [[Isatuximab]] | Sustained systemic [[NAD+]] restoration and multi-organ rejuvenation |                                                                   |                         |
-| **Phase V: [[Epigenetic Alterations   | Epigenetic]] Therapy**         | [[SIRT1]]                | miR-217/543/378                                 | LNP-encapsulated LNA Antagomirs                                      | Localized endothelial and cartilage anti-inflammatory therapy     |                         |
+| Discovery Phase | Target Sirtuin | Target Pathway | Primary Agent | Key Outcome |
+| :--- | :--- | :--- | :--- | :--- |
+| **Phase I: In Silico / Screening** | [[SIRT4]] / [[SIRT3]] | [[MnSOD\|MnSOD]] Redox Axis | Selective SIRT4 Inhibitors + [[Honokiol]] | Synergistic suppression of [[Mitochondrial ROS\|mitochondrial ROS]] and [[Cardiac Hypertrophy\|cardiac fibrosis]] |
+| **Phase II: Target Validation** | [[SIRT6]] | [[H3K9ac]] / [[H3K56ac]] | [[MDL-800]] / [[MDL-801]] derivatives | [[DNA Repair\|DNA double-strand break]] repair and biological age reversal |
+| **Phase III: Pathway Mapping** | [[SIRT2]] / [[TFEB]] | [[Lysosome]] | Cellular-selective SIRT2-TFEB peptides | Enhanced autophagic clearance without neurodegenerative [[Tubulin\|tubulin]] deacetylation |
+| **Phase IV: Preclinical Repurposing** | Systemic ([[SIRT1]]/[[SIRT3]]) | [[CD38]] Glycohydrolase | Ultra-low-dose [[Daratumumab]] / [[Isatuximab]] | Sustained systemic [[NAD+\|NAD+]] restoration and multi-organ rejuvenation |
+| **Phase V: Epigenetic Therapy** | [[SIRT1]] | miR-217/543/378 | LNP-encapsulated LNA Antagomirs | Localized endothelial and cartilage anti-inflammatory therapy |
 
 ---
 
