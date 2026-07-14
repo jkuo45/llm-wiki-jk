@@ -79,6 +79,13 @@ The ratio itself is dynamically regulated:
 - **PGC-1α** drives mitochondrial biogenesis, increasing SOD2 expression proportionally to the existing SIRT3/SIRT4 ratio.
 - **Aging** is associated with declining SIRT3 activity and rising SIRT4, narrowing the hormetic window and increasing vulnerability to mitochondrial stressors.
 
+## Availability of SIRT3/SIRT4 Biomarkers
+
+Currently, no clinically validated assay exists for directly measuring the SIRT3/SIRT4 ratio in patients. SIRT3 and SIRT4 protein levels are typically assessed via Western blot or ELISA in research settings, while enzyme activity assays (deacetylase for SIRT3, mono-ADP-ribosyltransferase for SIRT4) remain confined to laboratory workflows. Surrogate markers—MnSOD acetylation status at Lys68/Lys122, mitochondrial superoxide probes (MitoSOX), and urinary 8-OHdG—offer indirect readouts of ratio-dependent activity but lack standardization. Tissue biopsy is required for direct measurement, limiting translational application; circulating cell-free mitochondrial DNA and plasma acetyl-carnitine profiles are being explored as non-invasive proxies but await validation.
+
+> [!tip] zh-TW
+> 目前尚無臨床驗證的方法可直接測量患者體內的SIRT3/SIRT4比率。SIRT3與SIRT4蛋白水平通常僅在研究環境中以西方墨點法或ELISA測定，酵素活性分析（SIRT3去乙醯酶活性、SIRT4單-ADP-核糖基轉移酶活性）仍局限於實驗室流程。替代性指標——包括MnSOD在Lys68/Lys122的乙醯化狀態、粒線體超氧陰離子探針（MitoSOX）及尿液8-OHdG——可間接反映比率相關活性，但尚未標準化。直接測量需組織切片，限制了臨床轉化應用；循環游離粒線體DNA與血漿乙醯肉鹼圖譜作為非侵入性替代指標正在探索中，尚待驗證。
+
 ## Documents
 
 List of documents in the wiki that mention this entity
