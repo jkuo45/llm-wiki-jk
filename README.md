@@ -68,18 +68,19 @@
 
 `from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
 
-- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/sirtuins_mnsod/_document_%20-%20task_output_sirtuins_recommendations_03_JULY_2026.md) [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
-    - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
-    - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
-- 🤖 [Learning to Replicate Expert Judgment in Financial Tasks](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/_document_%20-%20Learning%20to%20Replicate%20Expert%20Judgment%20in%20Financial%20Tasks.md) [[_document_ - Learning to Replicate Expert Judgment in Financial Tasks|wiki]]
-    - Demonstrates that models fine-tuned on expert-labeled financial data outperform frontier LLMs on information-filtering tasks at a fraction of the cost, advancing the concept of "differentiated intelligence."
-    - 🀄️ (zh-TW): 展示以專家標註金融數據微調的模型，在資訊篩選任務上以極低成本超越前沿LLM，推動「差異化智能」概念。
-- 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
-    - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
-    - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
 - 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[_document_ - Creatine in Health and Disease|wiki]]
 	- Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
 	- 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
+- 🍇 [[Resveratrol]] (therapeutic levels, calculation):
+	- Polyphenolic stilbene and prototypical SIRT1 activator; therapeutic dose (500 mg) requires ~263 L of red wine (~351 bottles, ~1,778 glasses) or ~46–150 lbs of grapes — daily intake impossible from food alone, supplements required due to poor oral bioavailability (~1–2%).
+	- 🀄️ (zh-TW): 多酚類芪烯醇與原型SIRT1激活劑；治療劑量（500毫克）需約263公升紅酒（約351瓶、1,778杯）或46–150磅葡萄——每日攝入量無法從食物獲取，因口服生物利用度低（約1–2%），需依賴補充劑。
+- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/sirtuins_mnsod/_document_%20-%20task_output_sirtuins_recommendations_03_JULY_2026.md) [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
+    - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
+    - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
+- 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
+    - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
+    - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
+
 
 ---
 
