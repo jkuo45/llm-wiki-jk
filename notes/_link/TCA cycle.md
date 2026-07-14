@@ -37,7 +37,7 @@ TCA intermediates ("anaplerosis/cataplerosis") feed biosynthesis (heme, amino ac
 ## Documents
 
 - [[task_output_review_notes_epinephrine_sirtuins_06_July_2026]]: Reviews TCA cycle flux in the context of epinephrine and sirtuin-mediated metabolic regulation.
-- [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations referencing TCA cycle activity for metabolic intervention strategies.
+- [[task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations referencing TCA cycle activity for metabolic intervention strategies.
 
 ## Connections
 

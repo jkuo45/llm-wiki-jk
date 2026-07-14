@@ -36,8 +36,8 @@ Neuronal loss or dysfunction underlies neurodegeneration, stroke, and neuropsych
 ## Documents
 
 - [[task_output_research-scientist_research_plan_11_JUN_2026]]: Neuron health and protection framed within the research plan.
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Neurons discussed as target cells for sirtuin/adrenochrome neuroprotection.
-- [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations address neuronal metabolic resilience.
+- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Neurons discussed as target cells for sirtuin/adrenochrome neuroprotection.
+- [[task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations address neuronal metabolic resilience.
 
 ## Connections
 

@@ -36,7 +36,7 @@ ANP deficiency or resistance contributes to salt-sensitive hypertension and hear
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: ANP referenced as a cardiovascular hormone relevant to the research plan's physiological endpoints.
+- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: ANP referenced as a cardiovascular hormone relevant to the research plan's physiological endpoints.
 
 ## Connections
 

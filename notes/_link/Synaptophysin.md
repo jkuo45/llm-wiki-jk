@@ -34,7 +34,7 @@ Reduced synaptophysin levels indicate synaptic loss, a hallmark of aging and neu
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Synaptophysin included as a synaptic marker to assess neuronal connectivity and protection.
+- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Synaptophysin included as a synaptic marker to assess neuronal connectivity and protection.
 
 ## Connections
 

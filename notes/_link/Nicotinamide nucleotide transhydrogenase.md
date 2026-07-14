@@ -34,7 +34,7 @@ NNT deficiency (e.g., the C57BL/6J mouse Nnt mutation) impairs redox control and
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: NNT is discussed as a mitochondrial redox enzyme relevant to sirtuin/adrenochrome metabolic research.
+- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: NNT is discussed as a mitochondrial redox enzyme relevant to sirtuin/adrenochrome metabolic research.
 
 ## Connections
 

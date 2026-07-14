@@ -35,7 +35,7 @@ Dysregulated histone demethylases drive cancer, developmental disorders, and agi
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Histone demethylases discussed in the context of epigenetic/metabolic regulation strategies.
+- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Histone demethylases discussed in the context of epigenetic/metabolic regulation strategies.
 
 ## Connections
 

@@ -53,7 +53,7 @@ aliases:
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]
+- [[task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]
   - Notes that adrenochrome's quinone moiety can modify the Drosha/DGCR8 Microprocessor complex, potentially altering pri-miRNA processing.
 
 ## Connections
