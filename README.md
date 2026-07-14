@@ -80,7 +80,7 @@ example: suggested schedule (Resveratrol, and Creatine)
 - 🍇 [[Resveratrol]] (therapeutic levels, calculation):
 	- Polyphenolic stilbene and prototypical SIRT1 activator; therapeutic dose (500 mg) requires ~263 L of red wine (~351 bottles, ~1,778 glasses) or ~46–150 lbs of grapes — daily intake impossible from food alone, supplements required due to poor oral bioavailability (~1–2%).
 	- 🀄️ (zh-TW): 多酚類芪烯醇與原型SIRT1激活劑；治療劑量（500毫克）需約263公升紅酒（約351瓶、1,778杯）或46–150磅葡萄——每日攝入量無法從食物獲取，因口服生物利用度低（約1–2%），需依賴補充劑。
-- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/sirtuins_mnsod/_document_%20-%20task_output_sirtuins_recommendations_03_JULY_2026.md) [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
+- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/sirtuins_mnsod/_document_%20-%20task_output_sirtuins_recommendations_03_JULY_2026.md) [[task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
     - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
     - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
