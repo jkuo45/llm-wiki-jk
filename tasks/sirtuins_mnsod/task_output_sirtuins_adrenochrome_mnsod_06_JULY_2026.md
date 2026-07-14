@@ -1,6 +1,5 @@
 ---
 title: "MnSOD in Sirtuin Signaling vs. Adrenochrome Pathway: A Comparative Mechanistic Analysis"
-type: document
 category: document
 aliases:
   - MnSOD Sirtuin Adrenochrome Comparison

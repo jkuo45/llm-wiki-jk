@@ -5,7 +5,6 @@ source: https://doi.org/10.1038/s41392-022-01257-8
 published: 2022-11-18
 created: 2026-07-09
 updated: 2026-07-09
-type: document
 tags:
   - review
   - sirtuins

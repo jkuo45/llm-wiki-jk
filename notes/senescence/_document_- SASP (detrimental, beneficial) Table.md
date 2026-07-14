@@ -3,7 +3,6 @@ title: SASP Detrimental and Beneficial Functions (Table)
 description: Reference tables summarizing the detrimental and beneficial functions of the
   senescence-associated secretory phenotype (SASP), the most relevant SASP factors, their
   mechanisms, and representative examples.
-type: document
 published: 2024-01-01
 created: 2026-07-11
 source: Derived from the SASP review (Nature Reviews Molecular Cell Biology, 2024)

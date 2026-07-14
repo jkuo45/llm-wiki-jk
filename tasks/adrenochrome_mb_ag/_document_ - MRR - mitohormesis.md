@@ -1,7 +1,6 @@
 ---
 title: Mitohormetic Redox-Relay (MRR) — A Multi-Component Mitochondrial Rejuvenation Strategy
 description: Analysis of the Mitohormetic Redox-Relay (MRR) therapeutic concept combining carbazochrome (stabilized adrenochrome derivative) as a hormetic trigger, methylene blue as an electron shunt/safety valve, NR/NMN as NAD+ precursors for bioenergetic fueling, and urolithin A for mitophagic clearance of damaged mitochondria.
-type: document
 created: 2026-06-15
 updated: 2026-07-09
 source: https://aistudio.google.com/u/0/prompts/1lOCjFhT2_W-ommfvnR4nTSJeOK9RSWhI

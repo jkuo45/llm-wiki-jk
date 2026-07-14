@@ -1,7 +1,6 @@
 ---
 title: Adrenochrome as a Senotherapeutic Agent — A Mechanistic Hypothesis
 description: Research analysis exploring the potential of adrenochrome and aminochromes as senotherapeutic agents, examining both senolytic (ROS-driven selective apoptosis) and senomorphic (SASP modulation) mechanisms, along with critical risks including neurotoxicity, cardiotoxicity, and chemical instability.
-type: document
 created: 2026-06-12
 updated: 2026-07-09
 source: https://aistudio.google.com/u/0/prompts/1dUnGPJMseILUBEm2USHgALdKQmyhYupF

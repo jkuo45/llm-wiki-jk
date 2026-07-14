@@ -4,7 +4,6 @@ description: >-
   Landmark study demonstrating that SASP factors from oncogene-induced senescent cells
   induce paracrine senescence in neighboring normal cells via TGF-β family ligands, VEGF,
   CCL2, and CCL20, with the inflammasome-IL-1α axis as the master upstream regulator.
-type: document
 published: 2013-06-16
 created: 2026-07-12
 source: "10.1038/ncb2784"

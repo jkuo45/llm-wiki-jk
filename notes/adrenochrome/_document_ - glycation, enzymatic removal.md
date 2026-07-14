@@ -1,7 +1,6 @@
 ---
 title: Enzymatic Removal and Prevention of Advanced Glycation End Products (AGEs)
 description: Overview of the three lines of enzymatic defense against AGE accumulation — prevention via dicarbonyl detoxification (glyoxalase system, PARK7/DJ-1, AKRs/ALDHs), reversal of early-stage glycation (FN3K, FAOD/Amadoriases), and degradation of established AGE crosslinks (cathepsins, MMPs, bacterial glucosepane-cleaving enzymes including HemF-like, BluB-like, and QueE-like homologs).
-type: document
 created: 2026-06-15
 updated: 2026-07-09
 source: https://aistudio.google.com/u/0/prompts/1DBtfou8fym5oJZALtMyVLngxRkUmhe6F

@@ -1,5 +1,4 @@
 ---
-type: document
 title: "Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins: Mechanistic Connections and Longevity Implications"
 source: Synthesis from vault knowledge base and primary literature
 author:

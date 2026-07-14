@@ -1,7 +1,6 @@
 ---
 title: Mitohormesis, Heart Rate Variability, and Recovery Tracking
 description: A practical framework for visualizing and optimizing mitohormesis and heart rate variability (HRV) using wearables, plus a nutrition and supplementation protocol to support mitochondrial adaptation.
-type: document
 published:
 created: 2026-06-23
 source: https://aistudio.google.com/u/0/prompts/1ib03yGB3D6tGCG582wL8ADb4oalmD_Up

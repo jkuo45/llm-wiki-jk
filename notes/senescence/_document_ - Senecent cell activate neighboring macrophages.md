@@ -4,7 +4,6 @@ description: >-
   Research synthesis on how senescent cells translocate IL-1α to the cell surface
   through the SASP, thereby activating neighbouring macrophages to amplify
   chronic inflammation via juxtacrine and paracrine signaling loops.
-type: document
 published: 2026-07-11
 created: 2026-07-11
 source: Multi-source research synthesis

@@ -1,7 +1,6 @@
 ---
 title: Adrenochrome — Formation, Chemical Stability, and Factors Affecting Cyclization
 description: Overview of the chemical mechanism of adrenochrome formation from epinephrine (catechol oxidation, o-quinone formation, intramolecular Michael addition cyclization to indoline-5,6-dione), factors that slow or prevent the reaction (pH, antioxidants, metal chelation, temperature, light), the inherent instability of adrenochrome (polymerization to melanins, half-life), and the biological anti-adrenochrome defense systems (GSH, SOD, MAO/COMT).
-type: document
 created: 2026-05-17
 updated: 2026-07-09
 source: https://aistudio.google.com/u/0/prompts/1dRO36_hNUA6IkRsYL0Sq9fBKp3hjnLGQ

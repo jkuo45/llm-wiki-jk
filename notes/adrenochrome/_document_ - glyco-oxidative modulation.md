@@ -1,7 +1,6 @@
 ---
 title: Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator
 description: Analysis of adrenochrome monoaminoguanidine (AMM, S-Adchnon, adrenochrome guanylhydrazone) as a dual-action glyco-oxidative modulator — combining the indoline-dione core of adrenochrome with aminoguanidine, a known inhibitor of Advanced Glycation End Products (AGEs), to simultaneously target oxidative damage and protein cross-linking.
-type: document
 created: 2026-06-12
 updated: 2026-07-09
 source: https://aistudio.google.com/u/0/prompts/1MyzjFK-JfaKQO3zMMs8vsHWtSkuDav5N

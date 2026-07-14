@@ -16,7 +16,6 @@ tags:
   - sasp
   - cgas-sting
   - inflammaging
-type: document
 ---
 . 2019 Dec 27;111(2):304–311. doi: [10.1111/cas.14266](https://doi.org/10.1111/cas.14266)
 

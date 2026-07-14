@@ -1,7 +1,6 @@
 ---
 title: "The role of the dynamic epigenetic landscape in senescence: orchestrating SASP expression"
 description: "Review of how senescent cells undergo epigenetic reprogramming (chromatin compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, retrotransposon derepression) that orchestrates Senescence-Associated Secretory Phenotype (SASP) expression, and how epigenetic modulators can act as senomorphics."
-type: document
 published: 2024-10-09
 created: 2026-07-09
 source: https://doi.org/10.1038/s41514-024-00172-2

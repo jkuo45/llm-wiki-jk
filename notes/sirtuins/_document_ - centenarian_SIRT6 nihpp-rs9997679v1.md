@@ -1,7 +1,6 @@
 ---
 title: Centenarian SIRT6 variants elevate SIRT6 protein and enhance cellular senescence resistance
 description: This preprint reports that two linked missense variants in SIRT6 (N308K and A313S) enriched in Ashkenazi Jewish centenarians elevate endogenous SIRT6 protein levels through weakened interaction with vimentin, alter enzymatic activities (enhanced mono-ADP-ribosyltransferase, reduced deacetylase), delay replicative senescence, and confer resistance to progerin-induced stress. AAV-delivered CentSIRT6 and pharmacological activation with Fucoidan-FV mitigate LINE1 derepression in progeria fibroblasts.
-type: document
 published: 2026-06-19
 created: 2026-07-09
 source: https://doi.org/10.21203/rs.3.rs-9997679/v1

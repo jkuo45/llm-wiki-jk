@@ -1,7 +1,6 @@
 ---
 title: Repurposing the plant-derived compound apigenin for senomorphic effect in antiaging pipelines
 description: 2024 bioRxiv preprint that screens a natural-product library and identifies apigenin as a senomorphic agent. Apigenin targets peroxiredoxin 6 (PRDX6), suppresses its iPLA2 activity, and disrupts HSPA8 crosstalk with ATM/p38 MAPK, blocking the transition from the acute stress-associated phenotype (ASAP) to the SASP. Demonstrates geroprotection and chemosensitization in vivo.
-type: document
 published: 2024-09-10
 created: 2026-07-10
 source: https://doi.org/10.1101/2024.09.09.611999

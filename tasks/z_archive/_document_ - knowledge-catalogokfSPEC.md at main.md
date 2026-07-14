@@ -6,7 +6,6 @@ published:
 created: 2026-07-04
 description: Google Cloud Knowledge Catalog Tools and Samples. Contribute to GoogleCloudPlatform/knowledge-catalog development by creating an account on GitHub.
 tags:
-type: document
 ---
 ## Open Knowledge Format (OKF)
 

@@ -1,6 +1,5 @@
 ---
 title: "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑"
-type: document
 category: document
 aliases:
   - Resveratrol Sirtuin Activators

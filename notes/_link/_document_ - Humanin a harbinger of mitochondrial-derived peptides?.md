@@ -1,6 +1,5 @@
 ---
 title: "Humanin: a harbinger of mitochondrial-derived peptides?"
-type: document
 published: 2013-02-08
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3641182/"
 created: 2026-06-21

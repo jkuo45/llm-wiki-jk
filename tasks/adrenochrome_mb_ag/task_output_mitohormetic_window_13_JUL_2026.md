@@ -1,7 +1,6 @@
 ---
 title: Mitohormetic Window — Difficulty Review & Personalized Protocol (75 kg healthy male)
 description: Focused analysis of the difficulty of titrating the mitohormetic window within the adrenochrome (MB, AG) protocol, integrating diet, exercise, components, supplements, and IV preference for low-bioavailability agents. Scenario healthy male, middle age, 75 kg.
-type: document
 published: 2026-07-13
 created: 2026-07-13
 source: #

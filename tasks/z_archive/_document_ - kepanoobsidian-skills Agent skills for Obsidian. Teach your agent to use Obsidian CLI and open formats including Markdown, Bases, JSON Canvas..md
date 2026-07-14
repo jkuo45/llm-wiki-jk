@@ -6,7 +6,6 @@ published:
 created: 2026-07-04
 description: Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. - kepano/obsidian-skills
 tags:
-type: document
 ---
 Agent Skills for use with Obsidian.
 

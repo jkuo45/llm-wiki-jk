@@ -13,7 +13,6 @@ author:
   - Karashash Absatarova
 published: 2026-06-04
 created: 2026-07-13
-type: document
 tags:
   - review
   - idiopathic-pulmonary-fibrosis
