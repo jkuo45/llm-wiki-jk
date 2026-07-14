@@ -12,7 +12,7 @@ authors:
     affiliation: Helen and Robert Appel Alzheimer Disease Research Institute, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, New York, USA
   - name: Li Gan
     affiliation: Helen and Robert Appel Alzheimer Disease Research Institute, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, New York, USA
-    correspondence: Belfer Research Building, 413 East 69th Street, New York, New York 10021, USA. Email: lig2033@med.cornell.edu
+    correspondence: "Belfer Research Building, 413 East 69th Street, New York, New York 10021, USA. Email: lig2033@med.cornell.edu"
 published: 2026-06-01
 created: 2026-07-10
 description: JCI Review on canonical and noncanonical cGAS-STING signaling and its expanding roles in glial activation, neuronal homeostasis, blood-brain barrier integrity, and neuroinflammation across neurodegenerative diseases, including therapeutic targeting strategies.
@@ -24,8 +24,8 @@ tags:
   - innate-immunity
   - microglia
   - type-i-interferon
-type: "document"
 ---
+
 [Abstract](#section-abstract)
 
 The cyclic GMP-AMP synthase–stimulator of interferon genes ([[cGAS-STING Pathway|cGAS-STING]]) pathway is a central mediator of [[Cytosol|cytosolic]] DNA–induced [[Innate Immune System|innate immune]] responses, driving the production of [[Type I Interferon|type I IFNs]] and [[Pro-inflammatory Cytokines|pro-inflammatory cytokines]]. Beyond its canonical role in cytosolic DNA sensing, increasing attention has been directed toward the noncanonical functions of [[cGAS]] and [[STING]], particularly within the [[Nucleus|nucleus]]. Recent studies implicate dysregulated cGAS-STING signaling in [[Neurodegenerative Disease|neurodegenerative diseases]] and brain [[Aging|aging]], with a prominent contribution to glial activation–associated [[Neuroinflammation]], a hallmark of many neurological disorders. In this Review, we first summarize the molecular mechanisms underlying the canonical cGAS-STING pathway in DNA sensing and innate immune activation. We then discuss emerging noncanonical roles of cGAS in [[Chromatin]] organization and RNA metabolism, drawing on insights from evolutionary conservation and protein interactome analyses. Finally, we outline the involvement of cGAS-STING signaling in diverse aspects of brain function, including glial state regulation, neuronal homeostasis, [[Blood-Brain Barrier|blood-brain barrier]] integrity, and peripheral immune surveillance, highlighting their contributions to neuroinflammation and neuropathology. We also summarize current pharmacological inhibitors targeting cGAS and STING and discuss their therapeutic potential for modulating cGAS-STING signaling to manage brain disorders.
