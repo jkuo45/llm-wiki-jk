@@ -104,6 +104,9 @@ List of documents that mention this entity
   - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
     - Foundational review (Coppé et al., 2010) framing senescence through the lens of antagonistic pleiotropy: initially tumor-suppressive but paradoxically cancer-promoting through the SASP. Details how p53 restrains the SASP while p16 induces arrest without SASP.
 
+  - [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Cellular senescence and SASP in tumor progression]]
+    - Comprehensive review (Dong et al., 2024) covering all types of CS (RS, OIS, TIS, SARS-CoV-2-induced, rare), biomarkers, SASP composition, and the double-edged role of SASP in tumor progression. Details the p53/p21 and p16/RB pathways in senescence induction, SASP components reshaping the TME (IL-1, IL-6, Galectin-9, EVs), and therapeutic strategies including senolytics (D+Q, ABT-263, BETd, ADCs, galactose nanoparticles) and senomorphics (NF-κB inhibitors, JAK/STAT inhibitors, mTOR modulators).
+
 ## Connections
 - [[Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
 - [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.

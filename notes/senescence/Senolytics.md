@@ -56,6 +56,8 @@ protected: true
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames senolytics as agents that target SCAPs to selectively push senescent cells into apoptosis while sparing healthy cells, thereby reducing the SASP burden and inflammaging. By eliminating the secreting cell rather than only the secretome, they complement senomorphics and address senescence-driven pathology across aging and disease models.
 
+- [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Dong et al. 2024 Senescence and SASP in Tumors]]: Details newer senolytic strategies in cancer: BET family protein degraders (ARV825) targeting BRD4/NHEJ repair; CAR-T cells targeting uPAR for liver cancer and fibrosis; antibody-drug conjugates (ADCs) using beta-2 microglobulin (B2M) and apolipoprotein D (ApoD) as markers; galacto-oligosaccharide nanoparticle delivery systems activated by SA-β-gal; and galactose-modified doxorubicin prodrugs. Emphasizes intermittent dosing as optimal for senolytic administration and highlights the "one-two punch" combination strategy of inducing senescence followed by senolytic clearance.
+
 ## Connections
 
 - [[Cellular Senescence]] — targets

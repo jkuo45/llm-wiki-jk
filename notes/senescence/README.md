@@ -3,11 +3,11 @@ title: Senescence notes
 aliases: []
 description: Index of wiki notes for cellular senescence and senotherapeutics
 created: 2026-07-09
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 # Senescence
 
-This directory contains notes and research regarding [[Senescence|cellular senescence]] — a state of permanent cell-cycle arrest triggered by diverse stresses and orchestrated by the [[p53]]/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[RB1|Rb]] pathways, sustained by the [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci|SAHF]], and chromatin remodeling. It covers senescence subtypes ([[Replicative Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Stress-Induced Premature Senescence]]), [[Senescent Cells]] and their [[Senescence Surveillance|immune clearance]], [[Senescence-associated mitochondrial dysfunction|mitochondrial dysfunction]], [[Paracrine Senescence|paracrine spread]], [[Immunosenescence]], and [[Senotherapeutic|senotherapeutics]] ([[Senolytic|senolytics]], [[Senomorphic|senomorphics]]).
+This directory contains notes and research regarding [[Senescence|cellular senescence]] — a state of permanent cell-cycle arrest triggered by diverse stresses and orchestrated by the [[p53]]/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[RB1|Rb]] pathways, sustained by the [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci|SAHF]], and chromatin remodeling. It covers senescence subtypes ([[Replicative Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Stress-Induced Premature Senescence]]), [[Senescent Cells]] and their [[Senescence Surveillance|immune clearance]], [[Senescence-associated mitochondrial dysfunction|mitochondrial dysfunction]], [[Paracrine Senescence|paracrine spread]], [[Immunosenescence]], [[Tumor Microenvironment|TME]] interactions via SASP components like [[Galectin-9]] and [[PD-L1]], and [[Senotherapeutic|senotherapeutics]] ([[Senolytic|senolytics]], [[Senomorphic|senomorphics]]).
 
 
   **entity_relevance_score_1 (1-10)**: This score measures the centrality of the entity to the core senescence program and its therapeutic targeting.
@@ -26,12 +26,15 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 ## Maintenance
 
 - Last updated: 13_July_2026 12:00 PM PDT
-- Total count of entities: 26
+- Total count of entities: 29
 
 ## Documents
 
 - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
   - JCI review (2026) on cGAS-STING in brain disorders. Senescence-relevant angles: [[Astrocyte Senescence|astrocyte senescence]], [[Cellular Senescence]] in glia (amplified by [[APOE4]]/[[TREM2]]), senescent-cell cGAS-STING via [[Micronuclei|micronuclear envelope rupture]] ([[Barrier-to-Autointegration Factor 1|BAF1]] loss), and [[Senomorphic]]-style suppression of the cGAS-STING/SASP axis. Core entities: [[cGAS]], [[STING]], [[cGAS-STING Pathway]], [[Microglia]], [[Neuroinflammation]].
+
+- [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Dong et al. 2024 Senescence and SASP in Tumors]]
+  - Comprehensive review (Dong et al., 2024, Molecular Cancer, PMC11365203) covering senescence types (RS, OIS, TIS, rare forms), biomarkers (SA-β-gal, p16, p21), SASP composition, and the double-edged SASP role in tumors: beneficial (immune surveillance via [[NK Cells|NK]] and [[CD8+ T cells|CD8+ T cells]] recruitment, cell-cycle arrest) vs. detrimental (EMT, stemness, angiogenesis, [[Tumor Microenvironment|TME]] remodeling). Therapeutic strategies: senolytics ([[Dasatinib]], [[Quercetin]], [[Navitoclax]], BET degraders, ADCs, galactose nanoparticles) and senomorphics (NF-κB, JAK/STAT, mTOR inhibitors). Highlights [[Galectin-9]] and [[PD-L1]] as SASP factors reshaping the TME.
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
@@ -61,3 +64,6 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[CDKN2B]]                                           | 12_July_2026 12:00 PM PDT | Kinase Inhibitor       |      6      |      0      | Encodes p15^INK4b; key CDK inhibitor induced by TGF-β in paracrine senescence; cooperates with p21.              |
 | [[BrdU]]                                             | 13_July_2026 12:00 PM PDT | Chemical Compound      |      3      |      0      | Thymidine analog proliferation marker; reduced BrdU incorporation is a readout of senescence-associated arrest.   |
 | [[VEGFc]]                                            | 13_July_2026 12:00 PM PDT | Growth Factor          |      5      |     -1      | VEGF-C SASP growth factor induced during OIS; promotes lymphangiogenesis/angiogenesis and paracrine signalling.  |
+| [[Tumor Microenvironment]]                           | 13_July_2026 12:00 PM PDT | Biological Structure   |      7      |      0      | Cross-topic entity; SASP reshapes TME via immunosuppression, angiogenesis, and EMT; placed in _link/ hub.         |
+| [[Galectin-9]]                                       | 13_July_2026 12:00 PM PDT | Cytokine              |      5      |     -1      | SASP immunosuppressive lectin; increases Tregs and M2 macrophages; impairs anti-tumor immunity in TME.           |
+| [[PD-L1]]                                            | 13_July_2026 12:00 PM PDT | Immune Checkpoint      |      7      |     -1      | SASP-associated immune checkpoint; CD73/adenosine and Galectin-9 axis contribute to immunosuppression in TME.   |

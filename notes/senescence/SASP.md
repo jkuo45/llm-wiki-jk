@@ -327,6 +327,16 @@ List of documents that mention this entity
 - [[Connective Tissue Growth Factor|CTGF]] — SASP matricellular protein that promotes fibrosis and tumor progression
 - [[IGFBP]] — SASP factor family that modulates IGF signaling; context-dependent pro- or anti-tumorigenic effects
 
+### Galectin-9
+
+> [!info] Source: Dong et al. 2024 (PMC11365203)
+> Tarallo et al. first reported that senescent cells secrete [[Galectin-9]] in melanoma. Galectin-9 has immunosuppressive effects in the TME, promoting T cell apoptosis, increasing Treg and M2 macrophage polarization, and impairing anti-tumor immune responses. Some reports suggest Galectin-9 can also inhibit melanoma metastasis, highlighting context-dependent roles.
+
+### Extracellular Vesicles
+
+> [!info] Source: Dong et al. 2024 (PMC11365203)
+> [[Extracellular Vesicles]] have emerged as crucial intermediaries within SASP. Suppression of small EV release induces DNA damage and apoptosis-like death in senescent cells. The vesicular secretome induces diverse effects depending on cellular environment, driven by varied EV cargos (proteins, nucleic acids, lipids). Since EVs are found in all bodily fluids, they are valuable targets for liquid biopsy and potential treatment of age-related diseases.
+
 ## Linking Summary
 
 - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Cellular Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[BMI1]], [[CXCR2]], [[CXCR3]], [[Caspase-5]], [[Caspase-11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Cytoplasmic Chromatin Fragments]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Histone Variant]]
