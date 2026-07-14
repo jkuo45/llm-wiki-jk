@@ -125,8 +125,11 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 
 List of documents that mention this entity
 
-  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
-    - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
+   - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+     - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - Polyphenols including resveratrol, quercetin, and curcumin are identified as Sirtuin-activating compounds (STACs) that engage SIRT1.
 
 
 ## Connections
@@ -140,6 +143,7 @@ List of documents that mention this entity
 - [[Caloric Restriction]]: Polyphenols mimic CR effects via SIRT1/AMPK
 - [[Melatonin]]: Synergistic antioxidant with polyphenols
 - [[NRF2]]: Key downstream mediator of polyphenol benefits
+- [[STACs]]: Polyphenols function as STACs activating SIRT1; [[SIRT1]]: Polyphenols activate SIRT1.
 
 ## Linking Summary
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]]

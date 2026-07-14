@@ -58,6 +58,9 @@ protected: true
 
 - [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Dong et al. 2024 Senescence and SASP in Tumors]]: Details newer senolytic strategies in cancer: BET family protein degraders (ARV825) targeting BRD4/NHEJ repair; CAR-T cells targeting uPAR for liver cancer and fibrosis; antibody-drug conjugates (ADCs) using beta-2 microglobulin (B2M) and apolipoprotein D (ApoD) as markers; galacto-oligosaccharide nanoparticle delivery systems activated by SA-β-gal; and galactose-modified doxorubicin prodrugs. Emphasizes intermittent dosing as optimal for senolytic administration and highlights the "one-two punch" combination strategy of inducing senescence followed by senolytic clearance.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Senolytics (D+Q, procyanidin C1) reduce senescent cell burden and attenuate experimental lung fibrosis; a D+Q IPF pilot improved physical function.
+
 ## Connections
 
 - [[Cellular Senescence]] — targets
@@ -67,6 +70,8 @@ protected: true
 - [[Senescent cell anti-apoptotic pathways|SCAPs]] — inhibits
 - [[Dasatinib]] / [[Quercetin]] — D+Q combination
 - [[Navitoclax]] — BCL-2/BCL-XL inhibitor
+- [[Idiopathic Pulmonary Fibrosis]]: Senolytics are a leading disease-modifying strategy in IPF.
+- [[Bcl-2|BCL-2]]: Senolytics target BCL-2 family pro-survival pathways.
 
 ## Linking Summary
 

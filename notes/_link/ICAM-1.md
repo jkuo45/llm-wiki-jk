@@ -29,12 +29,16 @@ aliases: [Intercellular Adhesion Molecule 1, CD54]
 
 List of documents that mention this entity
 
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
+   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+     - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - Resveratrol inhibits ICAM-1 expression via Nrf2/ARE signaling, reducing monocyte adhesion in atherosclerosis.
 
 
 ## Connections
 - [[ICAM-1]] — related entity
+- [[NRF2]]: Resveratrol inhibits ICAM-1 through Nrf2/ARE; [[Resveratrol]]: Resveratrol downregulates ICAM-1.
 
 ## Linking Summary
 - New links added: [[ICAM-1]]

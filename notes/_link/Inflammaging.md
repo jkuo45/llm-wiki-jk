@@ -44,8 +44,10 @@ List of documents that mention this entity
     - This is a trade-off: reducing age-related Inflammaging and NAD+ consumption via CD38 could blunt beneficial acute immune responses. 2.
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
-    - Review attributes inflammaging to epigenetic derepression of retrotransposable elements (LINE-1, HERV): heterochromatin decompaction and DNA hypomethylation let L1/HERV cDNA activate cGAS–STING, driving SASP-like interferon inflammation.
+     - Review attributes inflammaging to epigenetic derepression of retrotransposable elements (LINE-1, HERV): heterochromatin decompaction and DNA hypomethylation let L1/HERV cDNA activate cGAS–STING, driving SASP-like interferon inflammation.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Inflammaging establishes a microenvironment that promotes both induction and persistence of cellular senescence in IPF lung tissue.
 
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
@@ -67,6 +69,7 @@ List of documents that mention this entity
 - [[NF-κB]] — central effector of inflammaging transcription
 - [[RB1]] — RB1 loss derepresses LINE-1 fueling inflammaging
 - [[SIRT6]] — SIRT6 loss derepresses LINE-1 promoting inflammaging
+- [[Cellular Senescence]]: Inflammaging promotes senescence induction/persistence in IPF.
 ## Linking Summary
 - New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1β]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]

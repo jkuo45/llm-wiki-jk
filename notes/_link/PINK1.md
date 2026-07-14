@@ -47,6 +47,9 @@ List of documents that mention this entity
   - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
     - Under conditions of loss of mitochondrial membrane potential, PINK1 kinase induces recruitment of the cytosolic E3 ligase Parkin to the outer mitochondrial membrane. Parkin-mediated ubiquitination of select outer mitochondrial membrane proteins,
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Reduced PINK1 and impaired mitophagy drive accumulation of dysfunctional mitochondria and ROS in senescent IPF epithelial cells, promoting lung fibrosis.
+
 
 ## Connections
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
@@ -64,6 +67,8 @@ List of documents that mention this entity
 - [[Omi HtrA2]] — interacts with PINK1
 - [[Mitochondrial Unfolded Protein Response]] — interacts with PINK1
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
+- [[Mitophagy]]: PINK1 loss impairs mitophagy, sustaining mitochondrial ROS in senescence
+- [[Mitochondrial Dysfunction]]: PINK1 deficiency promotes mitochondrial dysfunction in IPF
 ## Linking Summary
 - New links added: [[Parkin]], [[Mitophagy]]
   - Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]

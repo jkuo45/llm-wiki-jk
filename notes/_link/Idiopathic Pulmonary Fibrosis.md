@@ -32,6 +32,9 @@ IPF is almost invariably fatal within 3–5 years; antifibrotics (pirfenidone, n
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review links IPF to a pro-fibrotic SASP from senescent lung fibroblasts, highlighting IL-11 and leukotrienes as key mediators that drive fibroblast-to-myofibroblast transition and collagen deposition. It notes that SIRT1 downregulation de-represses IL-11 and that senolytic clearance reduces fibrosis, establishing IPF as a leading indication for senotherapeutics.
 
+- [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+  - The review establishes IPF as a senescence-driven disorder in which senescent alveolar type II cells and fibroblasts (via SASP) fuel fibrotic remodeling, and summarizes senolytic/senomorphic strategies including the D+Q pilot.
+
 ## Connections
 
 - [[Interleukin 11|IL-11]]: IL-11 is associated with pulmonary fibrosis
@@ -39,6 +42,9 @@ IPF is almost invariably fatal within 3–5 years; antifibrotics (pirfenidone, n
 - [[SASP|Senescence-Associated Secretory Phenotype]]: SASP factors drive IPF pathology
 - [[Dasatinib]]: Senolytic component (D+Q) tested in IPF
 - [[Quercetin]]: Senolytic component (D+Q) tested in IPF
+- [[Alveolar Type II Cells]]: Senescent AT2 cells accumulate prior to fibrosis and seed the profibrotic SASP loop
+- [[NEMO]]: NEMO relays DDR to NF-κB/SASP in senescence
+- [[Senolytics]]: D+Q senolytic pilot improved IPF physical function
 
 ## Linking Summary
 

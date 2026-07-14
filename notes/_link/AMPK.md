@@ -85,13 +85,17 @@ List of documents that mention this entity
     - Mechanistic studies of acute liver injury demonstrated activation of a pathway involving SIRT1 and multipotent mesenchymal stromal/stem cell-mediated AMPK α in Macrophages, resulting in deacetylation of spliced X-boxbinding protein 1 and subsequent inhibiti...
 
 
-  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - Activated by fasting/caloric restriction and exercise to drive mitophagy and mitochondrial biogenesis; constant snacking abolishes the AMPK signal needed for mitophagy.
+   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+     - Activated by fasting/caloric restriction and exercise to drive mitophagy and mitochondrial biogenesis; constant snacking abolishes the AMPK signal needed for mitophagy.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - SIRT1 is part of the AMPK-centered energy-sensing network; AMPK activation raises NAD+ (via NAMPT) to activate SIRT1, with reciprocal feed-forward regulation.
 
 ## Connections
 - **[[SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.
 - **[[Metformin]]**: A common drug used to activate AMPK and study its anti-aging effects.
 - **[[Autophagy]]**: A downstream process regulated by AMPK that is essential for cellular cleanup.
+- [[NAMPT]]: AMPK phosphorylates NAMPT to raise NAD+ and activate SIRT1; [[SIRT1]]: SIRT1 and AMPK reciprocally activate.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]., [[SASP|Senescence-Associated Secretory Phenotype]]

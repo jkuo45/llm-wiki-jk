@@ -67,6 +67,9 @@ List of documents that mention this entity
 
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames SAMD, mtDNA release, and cGAS–STING as central SASP-activating mechanisms, with impaired mitochondria generating ROS and undergoing minority MOMP to leak mtDNA. This mitochondrial stress activates type-I interferon and NF-κB–dependent SASP and links senescence to inflammaging, Lamin B1 loss, and paracrine spread, making SAMD a tractable senomorphic target.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - In IPF, senescence-associated mitochondrial dysfunction (impaired PINK1/mitophagy, ROS) sustains the SASP and fibroblast activation.
+
 ## Connections
 - [[Senescent Cells]] — SAMD is a hallmark of senescent cells
 - [[mtDNA]] — Leads to mtDNA release into cytosol
@@ -76,6 +79,8 @@ List of documents that mention this entity
 - [[Mitophagy]] — impaired clearance of damaged mitochondria in SAMD
 - [[Reactive Oxygen Species]] — elevated ROS in SAMD
 - [[Bcl-2]] — SCAPs maintain mitochondrial survival
+- [[PINK1]]: PINK1/mitophagy loss drives SAMD in IPF
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SAMD fuels SASP via ROS
 
 ## Linking Summary
 - New links added: [[Senescent Cells]], [[mtDNA]], [[cGAS-STING Pathway|cGAS-STING]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Minority MOMP]], [[Mitophagy]], [[Reactive Oxygen Species]], [[Bcl-2]], [[BAX]], [[BAK]], [[Oxidative Phosphorylation]], [[Apoptosis]], [[Inflammaging]], [[Lamin B1]], [[Paracrine Senescence]], [[Idiopathic Pulmonary Fibrosis]], [[Metformin]], [[Resveratrol]]

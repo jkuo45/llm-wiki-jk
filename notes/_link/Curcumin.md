@@ -46,8 +46,10 @@ List of documents that mention this entity
     - e|5‐aza‐2′‐deoxycytidine]]), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), and Histone Methyltransferase (BRD4770); (4) Inhibitors o...
 
   - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
-    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+     - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Curcumin and its analog EF24 suppress oxidative-stress-induced epithelial senescence and modulate PTEN-related signaling in IPF.
 
 ## Connections
 
@@ -56,6 +58,8 @@ List of documents that mention this entity
 - [[Senescence]] — Induced at higher concentrations
 - [[Oxidative Stress]] — Dual pro/antioxidant effects
 - [[Piperine]] — Bioavailability enhancer
+- [[EF24]]: Curcumin's analog EF24 shares its anti-senescence mechanism.
+- [[PTEN]]: Curcumin modulates PTEN-related anti-senescence pathways.
 
 ## Additional Content from Topic Directory
 

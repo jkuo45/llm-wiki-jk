@@ -265,10 +265,12 @@ List of documents that mention this entity
     - Identified the inflammasome–IL-1α axis as the master upstream regulator of the SASP. IL-1α expression alone phenocopies the full SASP. Multiple SASP components (TGF-β family ligands, VEGF, CCL2, CCL20) mediate paracrine senescence. Showed the SASP is controlled by canonical inflammasome (caspase-1/ASC/NLRP3) activation during OIS.
 
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
-    - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a SASP — a cellular state beneficial in embryonic development, tissue repair and regeneration; autophagy inducers can target immune aging driven by SASP.
+     - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a SASP — a cellular state beneficial in embryonic development, tissue repair and regeneration; autophagy inducers can target immune aging driven by SASP.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - In IPF, the SASP (IL-6, IL-8, TGF-β, MMPs) mediates paracrine senescence and fibroblast activation; mTOR/NF-κB/IL-1α regulate its production.
 
 ## Connections
-
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
 - [[Senescence]] — SASP is a hallmark feature of the senescent state
 - [[Inflammaging]] — chronic SASP is a major driver of age-related inflammation
@@ -326,6 +328,9 @@ List of documents that mention this entity
 - [[Amphiregulin]] — SASP growth factor that activates EGFR signaling; promotes prostate and breast cancer cell proliferation
 - [[Connective Tissue Growth Factor|CTGF]] — SASP matricellular protein that promotes fibrosis and tumor progression
 - [[IGFBP]] — SASP factor family that modulates IGF signaling; context-dependent pro- or anti-tumorigenic effects
+- [[NF-κB|NF-κB]]: NF-κB transcriptionally regulates SASP cytokines (IL-6/IL-8/TNF-α).
+- [[mTOR]]: mTOR enhances SASP translation.
+- [[Connective Tissue Growth Factor|CTGF]]: SASP includes CTGF driving fibroblast activation.
 
 ### Galectin-9
 

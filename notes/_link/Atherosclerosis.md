@@ -51,14 +51,18 @@ List of documents that mention this entity
   - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
     - The Oxidative Stress theory has been associated with Atherosclerosis and has prompted a multitude of studies to evaluate the effects of Antioxidants on Cardiovascular Disease prevention.
 
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - Upregulation of SIRT7 protects against the proliferation of vascular smooth muscle cells (VSMCs) in Atherosclerosis. Similarly, SIRT7 deficiency attenuates VSMC proliferation, thus attenuating neointimal formation following vascular injury.
+   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+     - Upregulation of SIRT7 protects against the proliferation of vascular smooth muscle cells (VSMCs) in Atherosclerosis. Similarly, SIRT7 deficiency attenuates VSMC proliferation, thus attenuating neointimal formation following vascular injury.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - SIRT1 activation (including endothelium-specific overexpression and resveratrol) attenuates atherosclerosis; TMAO promotes it while SIRT1 counteracts TMAO-driven inflammation.
 
 
 ## Connections
 - **[[Cardiovascular Disease]]**: Atherosclerosis is the underlying cause of most cardiovascular diseases.
 - **[[Cellular Senescence]]**: Vascular senescence contributes to plaque vulnerability and arterial stiffness.
 - **[[DNA Methylation]]**: Key marker for measuring biological age and vascular health.
+- [[SIRT1]]: SIRT1 activation reduces atherosclerosis; [[Trimethylamine N-oxide]]: TMAO promotes atherosclerosis opposed by SIRT1.
 
 ## Linking Summary
 - New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]

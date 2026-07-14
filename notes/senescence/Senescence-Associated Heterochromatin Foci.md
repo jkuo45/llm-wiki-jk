@@ -73,6 +73,8 @@ List of documents that mention this entity
 - [[DNA Methylation]]: part of the repressive chromatin organizing SAHF
 - [[AP-1]]: pioneer factor that opens SASP enhancers outside SAHF
 - [[Cytoplasmic Chromatin Fragments]]: CCF may emerge from heterochromatinized/SAHF regions
+- [[Alveolar Type II Cells]]: SAHF stabilize senescence in IPF AT2 cells.
+- [[Epigenetic Alterations|Epigenetics]]: Epigenetic drift predisposes AT2 cells to senescence.
 
 ## Linking Summary
 - New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Cellular Senescence]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[Cytoplasmic Chromatin Fragments]]

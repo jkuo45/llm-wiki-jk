@@ -42,10 +42,14 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - The effect of SIRT1 and SIRT3 on FoxOs: A family of SIRT targets are class O mammalian forkhead transcription factors (FoxO1, FOXO3a, FOXO4 and FOXO) which participate in regulating oxidative stress.
 
+  - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+    - SIRT1 deacetylates FOXO transcription factors, shifting output from apoptosis to stress survival/autophagy, and forms a feed-forward loop with FOXO1.
 
 ## Connections
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
+- [[FoxO1]]: SIRT1 and FOXO1 form a mutual positive feedback loop.
+- [[Autophagy]]: SIRT1-deacetylated FOXO promotes autophagy.
 ## Linking Summary
 - New links added: [[Apoptosis]], [[Autophagy]], [[Atrogin-1]], [[MuRF1]], [[Akt]]
   - Strong connections to strengthen: [[Akt]] ↔ [[FOXO]]

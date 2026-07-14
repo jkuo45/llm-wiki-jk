@@ -39,16 +39,19 @@ Senolytics alleviate frailty, [[Osteoporosis]], [[Cardiovascular Disease|cardiov
 ## Documents
 
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
-    - Identifies [[Fisetin]] as the most potent flavonoid senolytic in a 10-compound screen and shows it extends health- and lifespan in aged mice.
+     - Identifies [[Fisetin]] as the most potent flavonoid senolytic in a 10-compound screen and shows it extends health- and lifespan in aged mice.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Individual senolytics (quercetin, dasatinib, procyanidin C1, EF24) are profiled for senescence clearance and antifibrotic effects in IPF.
 
 ## Connections
-
   - [[Senescence]]: The cellular state senolytics target.
   - [[Senescent Cells]]: The cells selectively killed.
   - [[SASP|Senescence-Associated Secretory Phenotype]]: Suppressed when senescent cells are cleared.
   - [[Fisetin]]: Potent natural senolytic.
   - [[Quercetin]] / [[Dasatinib]]: Foundational D+Q combination.
   - [[Senomorphic]]: Contrast — suppresses phenotype without killing.
+  - [[Idiopathic Pulmonary Fibrosis]]: Senolytics tested in IPF models and a pilot trial.
 
 ## Linking Summary
 

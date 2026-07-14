@@ -174,6 +174,9 @@ List of documents that mention this entity
 - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
   - Currently, seven mammalian homologs of yeast Sir2 (yeast) named SIRT1 to SIRT7 have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions.
 
+- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+  - Chaqour (2026) positions SIRT1 as a context-dependent 'shapeshifter' linking metabolism, stress, and disease across cardiovascular, metabolic, neurovascular, and oncogenic domains via deacetylation of >40 substrates.
+
 ## Connections
 
 - [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
@@ -194,7 +197,10 @@ List of documents that mention this entity
 - [[SIRT3]] — mitochondrial counterpart; both deacetylate AceCS isoforms (cytoplasmic vs. mitochondrial)
 - [[FoxO1]] / [[FOXO3a]] / FOXO4 — forkhead transcription factors regulated by SIRT1 deacetylation
 - **[[Sirtuins]]**: The family of proteins to which SIRT1 belongs.
-- **[[Aging]]**: SIRT1 is a central regulator of the aging process.## Linking Summary
+- **[[Aging]]**: SIRT1 is a central regulator of the aging process.
+- [[BMAL1]]: SIRT1 deacetylates BMAL1 to gate circadian NAD+ oscillations.
+- [[Trimethylamine N-oxide]]: SIRT1 attenuates TMAO-driven vascular inflammation.
+- [[STACs]]: STACs (resveratrol, SRT2104) activate SIRT1.## Linking Summary
 
 - New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC1-α]], [[Resveratrol]], [[Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FoxO1]], [[FOXO3a]], [[UCP2]], [[NFKB|NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]], [[MyoD]]
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[NMNAT]], [[MEF2D]], [[PML]]

@@ -33,8 +33,13 @@ List of documents that mention this entity
     - It was also confirmed that IVM inhibited tumor growth in a dose-dependent manner, and Dasatinib had improved efficacy. 2.5.
 
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Dasatinib+quercetin is the lead senolytic combination in IPF; a phase I pilot showed improved physical function and acceptable safety.
+
 ## Connections
 - [[Dasatinib]] — related entity
+- [[Senolytics]]: Dasatinib is a senolytic component (with quercetin) clearing senescent cells via BCL-2/PI3K-AKT.
+- [[Idiopathic Pulmonary Fibrosis]]: D+Q pilot improved IPF physical function.
 
 ## Linking Summary
 - New links added: [[Dasatinib]]

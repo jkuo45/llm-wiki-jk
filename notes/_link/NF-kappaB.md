@@ -27,6 +27,9 @@ aliases: [NF-kappaB, Nuclear Factor kappa B, RelA, p65, NF-kB]
 - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
   - NF-κB is the master regulator of SASP.
 
+- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+  - SIRT1 deacetylates RelA/p65 to suppress NF-κB-driven inflammation; its role via NF-κB is dualistic (pro- and anti-tumorigenic) across contexts.
+
 ## Connections
 
 - [[NFKB]] — Canonical note for this entity
@@ -34,6 +37,8 @@ aliases: [NF-kappaB, Nuclear Factor kappa B, RelA, p65, NF-kB]
 - [[SIRT1]] — Deacetylates RelA/p65 Lys310
 - [[Inflammation]] — Master transcriptional driver of inflammatory pathology
 - [[Senescent Cells]] — Drives SASP expression in senescent cells
+- [[SIRT1]]: SIRT1 deacetylates and inhibits NF-κB.
+- [[Inflammation]]: SIRT1 dampens NF-κB inflammation.
 
 ## Linking Summary
 

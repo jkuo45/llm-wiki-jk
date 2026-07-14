@@ -18,6 +18,7 @@ updated: 2026-07-09
 | [[_document_ - sirtuins (resveratrol), gemini\|Sirtuins & Resveratrol]]                                                                               | Sirtuins and resveratrol notes                                                |
 | [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1\|Centenarian SIRT6 Variants Study]]                                                               | Centenarian SIRT6 variants (N308K/A313S) elevate SIRT6 via vimentin, alter enzymatic activities, delay senescence (2026)                     |
 | [[_document_ - relocalization of sirtuins - chromatin modifiers, grok\|RCM Hypothesis (Grok)]]                                                        | Grok summary of the Relocalization of Chromatin Modifiers (RCM) Hypothesis and the Information Theory of Aging                                |
+| [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics\|SIRT1: Protein Roles at the Nexus (Chaqour 2026)]] | Review positioning SIRT1 as a context-dependent "shapeshifter" NAD⁺-deacetylase linking metabolism, stress, and disease (cardio, metabolic, neurovascular, oncogenic) |
 
 ## Entity Notes
 
@@ -64,6 +65,7 @@ updated: 2026-07-09
 | [[OAADPr]] | Biological Molecule | 2′-*O*-acetyl-ADP-ribose; unique by-product of sirtuin deacetylation; TRPM2 activator |
 | [[cADPR]] | Biological Molecule | Cyclic ADP-ribose; calcium-mobilizing second messenger synthesized from NAD⁺ by CD38 |
 | [[cAMP]] | Biological Molecule | Cyclic AMP second messenger; mediates indirect resveratrol SIRT1 activation via PDE4/AMPK |
+| [[Trimethylamine N-oxide]] | Biological Molecule | Gut microbiota-derived metabolite (TMAO); promotes atherosclerosis; SIRT1 attenuates its vascular inflammation |
 
 ### Pharmacological Agents
 
@@ -100,6 +102,7 @@ updated: 2026-07-09
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
 | [[Caloric Restriction]] | Scientific Concept | Dietary longevity intervention; activates SIRT1/SIRT3; requires Sir2 in yeast/flies |
+| [[Circadian Rhythm]] | Biological Process | ~24h oscillator (BMAL1/CLOCK) gated by SIRT1 via circadian NAD⁺ (NAMPT) oscillations |
 | [[ADP-ribosylation]] | Biological Process | Post-translational modification; mono-ADP-ribosylation catalyzed by SIRT4 and SIRT6 |
 
 ### Key Regulatory Proteins (Sirtuin Targets/Effectors)
@@ -150,6 +153,10 @@ updated: 2026-07-09
 | [[Histone H4]] | Protein | Core histone; deacetylated at K16 by SIRT1 and SIRT2; mitotic chromatin condensation |
 | [[Histone H2A.Z]] | Protein | Histone variant; deacetylated by SIRT1 at K115/K121; protects against cardiac hypertrophy |
 | [[Hes1 and Hey2]] | Protein | bHLH Notch repressors; interact with SIRT1; modulate transcriptional repression |
+| [[BMAL1]] | Protein | Core circadian clock TF; deacetylated/activated by SIRT1; drives NAMPT/NAD⁺ rhythmicity |
+| [[CLOCK]] | Protein | Core circadian clock TF; heterodimerizes with BMAL1; deacetylated/activated by SIRT1 |
+| [[Liver X Receptor]] | Protein | Nuclear receptor (LXR); deacetylated/modulated by SIRT1 in lipid/cholesterol metabolism |
+| [[Lipid Metabolism]] | Biological Process | Synthesis/oxidation of lipids; gated by SIRT1 via PGC-1α, LXR, FOXO, CREB |
 | [[HOXA10]] | Protein | Homeobox transcription factor; interacts with SIRT2; embryogenesis |
 | [[p33ING1b]] | Protein | Inhibitor of growth protein 1; inhibits SIRT1 deacetylation of p53; tumour suppressor |
 

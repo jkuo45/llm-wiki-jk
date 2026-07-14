@@ -46,10 +46,12 @@ The ASAP→SASP transition is also a target of other senomorphics: [[Rutin]] dis
     - Review discusses epigenetic modulators—inhibitors of KDM4, DOT1L, BRD4, HMGB2, and NRTIs targeting LINE-1/HERV reverse transcriptase—as senomorphics that suppress SASP without disrupting growth arrest.
 
   - [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
-    - 2024 bioRxiv preprint: apigenin is a natural senomorphic that directly targets PRDX6, suppresses its iPLA2 activity, and disrupts HSPA8 crosstalk with ATM/p38 MAPK to block the ASAP→SASP transition; demonstrates in vivo geroprotection and chemosensitization.
+     - 2024 bioRxiv preprint: apigenin is a natural senomorphic that directly targets PRDX6, suppresses its iPLA2 activity, and disrupts HSPA8 crosstalk with ATM/p38 MAPK to block the ASAP→SASP transition; demonstrates in vivo geroprotection and chemosensitization.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Senomorphics (mTOR/NF-κB/JAK-STAT targeting) and polyphenols suppress SASP and oxidative stress in IPF without eliminating senescent cells.
 
 ## Connections
-
   - [[Senolytic]]: Sister senotherapeutic strategy (cell clearance).
   - [[Senescence]]: The cellular state modulated.
   - [[SASP|Senescence-Associated Secretory Phenotype]]: Primary target of suppression.
@@ -70,7 +72,9 @@ The ASAP→SASP transition is also a target of other senomorphics: [[Rutin]] dis
    - [[HSPA8]]: bridge node linking ATM and p38 MAPK whose crosstalk apigenin disrupts
    - [[Acute Stress-Associated Phenotype]]: ASAP→SASP transition blocked by senomorphics
    - [[MJ33]] / [[VER155008]]: PRDX6-PLA2 / HSPA8 inhibitors that phenocopy senomorphic SASP suppression
-   - [[Rutin]] / [[5Z-7-oxozeaenol]]: additional ASAP/SASP-transition senomorphics
+    - [[Rutin]] / [[5Z-7-oxozeaenol]]: additional ASAP/SASP-transition senomorphics
+    - [[SASP]]: Senomorphics suppress SASP activity.
+    - [[mTOR]]: mTOR is a senomorphic target.
 
 ## Linking Summary
 

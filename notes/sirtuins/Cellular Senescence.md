@@ -71,8 +71,10 @@ List of documents that mention this entity
     - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead to compensatory mechanisms such as deregulated nutrient sensing, Mitochondrial Dysfunction, and C...
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - Autophagy controls Cellular Senescence by eliminating damaged cellular components and is negatively regulated by Akt signaling through mTOR. SIRT6 overexpression induces autophagy via attenuation of IGF1 (IGF1)/Akt/mTOR signaling.
+     - Autophagy controls Cellular Senescence by eliminating damaged cellular components and is negatively regulated by Akt signaling through mTOR. SIRT6 overexpression induces autophagy via attenuation of IGF1 (IGF1)/Akt/mTOR signaling.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Reframes IPF senescence as a systems-level, self-reinforcing network (DDR→telomere→mitochondria→NF-κB→SASP→TGF-β) rather than passive aging.
 
 ## Connections
 
@@ -82,6 +84,8 @@ List of documents that mention this entity
 - [[Caloric Restriction]] — Delays senescence onset via SIRT1/[[NAD+]]-dependent pathways
 - [[Intermittent Fasting]] — May reduce senescent cell burden through metabolic reprogramming
 - [[SIRT6]] — Deficiency accelerates senescence via heterochromatin loss
+- [[Alveolar Type II Cells]]: AT2 cells are the primary senescent epithelial population in IPF.
+- [[Idiopathic Pulmonary Fibrosis]]: Senescence is a central driver of IPF fibrosis.
 
 ## Linking Summary
 

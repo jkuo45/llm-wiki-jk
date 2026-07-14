@@ -68,8 +68,10 @@ List of documents that mention this entity
     - Keywords ADP-ribosyl transferase activity; Caloric Restriction; deacetylase activity; Resveratrol; Sir2 (yeast) (silent information regulator 2); Sirtuins (SIRT1–SIRT
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
+     - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Listed among polyphenols with senescence-modulating activity; protects via mitochondrial function and inflammatory (SIRT1/NF-κB) signaling in fibrotic settings.
 
 ## Connections
 - [[SIRT1]] — Primary molecular target
@@ -83,6 +85,8 @@ List of documents that mention this entity
 - **[[Geroscience]]**: A major focus of research into natural longevity molecules.
 - [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
 - [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
+- [[SIRT1]]: Resveratrol activates SIRT1 to protect mitochondrial/inflammatory pathways.
+- [[SASP]]: Resveratrol modulates SASP in senescence.
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
   - Strong connections to strengthen: [[Resveratrol]] ↔ Caloric Restriction, [[Resveratrol]] ↔ [[SIRT1]]## Additional Content from Topic Directory
 

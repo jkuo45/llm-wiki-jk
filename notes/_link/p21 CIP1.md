@@ -69,7 +69,10 @@ CDKN1A is a canonical p53 target; its loss cooperates with p53 mutation in tumou
 List of documents that mention this entity
 
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|The SASP and its physiological and pathological implications]]
-    - Reviews p21's role in supporting early SASP (CXCL14, IGFBP3) and its cooperation with p16 in senescence regulation.
+     - Reviews p21's role in supporting early SASP (CXCL14, IGFBP3) and its cooperation with p16 in senescence regulation.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - p21^CIP1 is induced by p53/DDR in IPF senescent alveolar epithelium and serves as a senescence marker.
 
 ## Connections
 - [[Cellular Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest
@@ -85,6 +88,8 @@ List of documents that mention this entity
 - [[Oncogene-Induced Senescence|OIS]] — p21 mediates OIS with p16
 - [[Senolytic Therapy|Senolytics]] — p21-expressing cells are targets
 - [[Aging]] — p21 expression increases with age-related senescence
+- [[p53]]: p21^CIP1 is induced downstream of p53 in IPF senescence.
+- [[Alveolar Type II Cells]]: p21^CIP1 marks senescent AT2 cells.
 
 ## Linking Summary
 - New links added: [[p21 CIP1|p21]], [[CDKN1A]], [[p53]], [[Retinoblastoma Protein|Rb]], [[CXCL14]], [[IGFBP3]], [[Cyclin-Dependent Kinase 2|CDK2]], [[DNA Damage Response]], [[Oncogene-Induced Senescence|OIS]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[E2F]], [[Inflammaging]]

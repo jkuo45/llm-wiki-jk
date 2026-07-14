@@ -64,6 +64,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Subsequently, Sir2 (yeast) has been found to function in transcriptional repression at ribosomal DNA loci, at silent mating-type loci and in Telomere Attrition, and this increasing knowledge has greatly improved exploration of its function.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - IPF arises partly from telomere attrition — telomerase (TERT/TERC) mutations and accelerated shortening drive AT2 replicative senescence and feed mitochondrial ROS.
+
 
 ## Connections
 
@@ -90,6 +93,8 @@ List of documents that mention this entity
 - [[Caloric Restriction]] — associated with slower telomere shortening rates
 - [[Replicative Senescence]] — the Hayflick limit is driven by progressive telomere attrition
 - [[Hallmarks of Aging]] — telomere attrition is classified as a primary hallmark
+- [[Alveolar Type II Cells]] — Telomere shortening drives AT2 replicative senescence and loss of regenerative capacity
+- [[p53]] — Critically short telomeres trigger sustained p53 activation in IPF epithelium
 
 ## Linking Summary
 

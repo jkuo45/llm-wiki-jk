@@ -26,7 +26,7 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 ## Maintenance
 
 - Last updated: 13_July_2026 12:00 PM PDT
-- Total count of entities: 29
+- Total count of entities: 35
 
 ## Documents
 
@@ -35,6 +35,9 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 - [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Dong et al. 2024 Senescence and SASP in Tumors]]
   - Comprehensive review (Dong et al., 2024, Molecular Cancer, PMC11365203) covering senescence types (RS, OIS, TIS, rare forms), biomarkers (SA-β-gal, p16, p21), SASP composition, and the double-edged SASP role in tumors: beneficial (immune surveillance via [[NK Cells|NK]] and [[CD8+ T cells|CD8+ T cells]] recruitment, cell-cycle arrest) vs. detrimental (EMT, stemness, angiogenesis, [[Tumor Microenvironment|TME]] remodeling). Therapeutic strategies: senolytics ([[Dasatinib]], [[Quercetin]], [[Navitoclax]], BET degraders, ADCs, galactose nanoparticles) and senomorphics (NF-κB, JAK/STAT, mTOR inhibitors). Highlights [[Galectin-9]] and [[PD-L1]] as SASP factors reshaping the TME.
+
+- [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+  - Narrative review synthesizing senescence mechanisms in [[Idiopathic Pulmonary Fibrosis|IPF]]—[[Telomere Attrition|telomere attrition]], [[Mitochondrial Dysfunction|mitochondrial dysfunction]], [[TGFβ|TGF-β]], and the [[SASP]]—and senolytic/senomorphic strategies ([[Dasatinib|dasatinib]]+[[Quercetin|quercetin]] pilot, polyphenols). Core entities: [[Alveolar Type II Cells]], [[Fibroblast]], [[NEMO]], [[PINK1]], [[EF24]], [[Hesperetin]], [[Luteoloside]].
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
@@ -67,3 +70,9 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[Tumor Microenvironment]]                           | 13_July_2026 12:00 PM PDT | Biological Structure   |      7      |      0      | Cross-topic entity; SASP reshapes TME via immunosuppression, angiogenesis, and EMT; placed in _link/ hub.         |
 | [[Galectin-9]]                                       | 13_July_2026 12:00 PM PDT | Cytokine              |      5      |     -1      | SASP immunosuppressive lectin; increases Tregs and M2 macrophages; impairs anti-tumor immunity in TME.           |
 | [[PD-L1]]                                            | 13_July_2026 12:00 PM PDT | Immune Checkpoint      |      7      |     -1      | SASP-associated immune checkpoint; CD73/adenosine and Galectin-9 axis contribute to immunosuppression in TME.   |
+| [[Alveolar Type II Cells]]                             | 13_July_2026 12:00 PM PDT | Cell Type              |      8      |     -1      | Surfactant lung progenitor; most senescence-vulnerable epithelial population in IPF; SASP seeds fibroblast activation. |
+| [[Fibroblast]]                                        | 13_July_2026 12:00 PM PDT | Cell Type              |      8      |     -1      | Mesenchymal ECM producer; senescent IPF fibroblasts resist apoptosis and amplify fibrogenic signaling. |
+| [[NEMO]]                                             | 13_July_2026 12:00 PM PDT | Protein                |      6      |      0      | IKKγ scaffold; relays DDR (ATM) to NF-κB/SASP in senescence. |
+| [[EF24]]                                              | 13_July_2026 12:00 PM PDT | Chemical Compound      |      5      |      0      | Curcumin analog; suppresses oxidative-stress epithelial senescence via PTEN/PI3K. |
+| [[Hesperetin]]                                       | 13_July_2026 12:00 PM PDT | Chemical Compound      |      4      |      0      | Citrus flavonoid; restores autophagy/reduces ROS, antifibrotic in IPF. |
+| [[Luteoloside]]                                       | 13_July_2026 12:00 PM PDT | Chemical Compound      |      4      |      0      | Flavonoid glycoside; autophagy-restoring, antifibrotic in IPF. |

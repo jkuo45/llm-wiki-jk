@@ -35,8 +35,11 @@ List of documents that mention this entity
   - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
     - Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrates | | Activates AMPK | | | Upregulates NAMPT → Increases NAD+ | | \ / ` A.
 
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - SIRT2 is overexpressed in primary acute myeloid leukemia blasts, and SIRT2 activation by NAMPT reduces proliferation and induces Apoptosis in human acute myeloid leukemia, possibly via the Akt/GSK3β/Wnt signaling pathway.
+   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+     - SIRT2 is overexpressed in primary acute myeloid leukemia blasts, and SIRT2 activation by NAMPT reduces proliferation and induces Apoptosis in human acute myeloid leukemia, possibly via the Akt/GSK3β/Wnt signaling pathway.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - NAMPT is the rate-limiting NAD+ salvage enzyme transcriptionally driven by BMAL1/CLOCK, producing circadian NAD+ oscillations that gate SIRT1 activation.
 
 
 ## Connections
@@ -44,6 +47,7 @@ List of documents that mention this entity
 - **[[SIRT1]]**: Primary nuclear deacetylase whose activity is highly sensitive to NAMPT-mediated NAD⁺ levels.
 - **[[AMPK|AMPK]]**: Key metabolic sensor that upregulates NAMPT to restore cellular energy charge.
 - **[[Nicotinamide Mononucleotide|NMN]]**: The direct enzymatic product of NAMPT.
+- [[BMAL1]]: BMAL1/CLOCK drive NAMPT expression for circadian NAD+; [[SIRT1]]: NAMPT-derived NAD+ gates SIRT1.
 
 ## Linking Summary
 - New links added: [[NAD+]], [[Aging]], [[SIRT1]], [[AMPK]], [[Nicotinamide Mononucleotide]], [[NMNAT]], [[PARP1]], [[Toll-like Receptor]], [[Hallmarks of Aging]], [[Diabetes Mellitus]], [[cAMP]]

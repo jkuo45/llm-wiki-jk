@@ -67,7 +67,10 @@ The INK4a/ARF locus is the most frequently altered region in human cancer (CDKN2
 List of documents that mention this entity
 
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|The SASP and its physiological and pathological implications]]
-    - Reviews p16 as a senescence marker and its role in regulating a DDR-free SASP profile (PASP) distinct from NF-κB-associated SASP.
+     - Reviews p16 as a senescence marker and its role in regulating a DDR-free SASP profile (PASP) distinct from NF-κB-associated SASP.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - p16^INK4a is elevated in IPF alveolar epithelium at fibroblast foci and is a candidate (low-specificity) senescence biomarker.
 
 ## Connections
 - [[Cellular Senescence]] — p16 is a core effector of senescence growth arrest
@@ -85,6 +88,8 @@ List of documents that mention this entity
 - [[Cyclin-Dependent Kinase 6|CDK6]] — inhibited by p16
 - [[Aging]] — p16 expression increases with age
 - [[Senescence-Associated Heterochromatin Foci|SAHF]] — Rb-dependent SAHF supported by p16
+- [[Alveolar Type II Cells]]: p16^INK4a marks senescent AT2 cells in IPF.
+- [[Idiopathic Pulmonary Fibrosis]]: p16^INK4a expression tracks IPF epithelial senescence.
 
 ## Linking Summary
 - New links added: [[p16 INK4a|p16]], [[CDKN2A]], [[Retinoblastoma Protein|Rb]], [[p21 CIP1|p21]], [[IGFBP3]], [[ISG15]], [[CXCL14]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[E2F]], [[Oncogene-Induced Senescence|OIS]], [[Senescence-Associated Heterochromatin Foci|SAHF]], [[Osteoarthritis]], [[Cardiovascular Disease]], [[Idiopathic Pulmonary Fibrosis]]
