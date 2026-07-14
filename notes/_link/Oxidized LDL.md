@@ -31,8 +31,15 @@ List of documents that mention this entity
 - [[Endothelial Dysfunction]] — oxLDL impairs NO bioavailability
 - [[CD36 Receptor]] — Major scavenger receptor for oxLDL
 - [[Lipid Peroxidation]] — The process that generates oxLDL
+- [[Foam Cells]] — Oxidized LDL uptake by macrophages leads to foam cell formation
+- [[LDL]] — Oxidized LDL is the modified form of LDL
+- [[Macrophages]] — Macrophages take up oxidized LDL, accumulating cholesterol
+- [[Cholesterol Efflux]] — Oxidized LDL impairs cholesterol efflux capacity
+- [[Resveratrol]] — Resveratrol protects LDL against oxidation
 
-## Linking Summary
-- New links added: [[Atherosclerosis]], [[Endothelial Dysfunction]], [[CD36 Receptor]], [[Lipid Peroxidation]], [[Myeloperoxidase]], [[Reactive Oxygen Species]]
-- Suggested new entity notes to create: [[Lox-1]], [[Scavenger Receptor]], [[Foam Cells]]
-  - Strong connections to strengthen: Oxidized LDL ↔ [[Atherosclerosis]]
+## Documents
+
+- [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+  - LDL oxidation by copper or γ-radiolysis produces conjugated dienes and alters apoB; resveratrol inhibits LDL oxidation in a concentration-dependent manner.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]

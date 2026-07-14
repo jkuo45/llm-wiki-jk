@@ -15,6 +15,9 @@ aliases: []
 Vitamin E is a group of eight fat-soluble compounds that include four tocopherols and four tocotrienols.
 ## Function
 It acts as a potent antioxidant, particularly in preventing [[Lipid Peroxidation]] and protecting cell membranes.
+
+> [!info] Source: [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+> Vitamin E (α-tocopherol) was used as a positive control in DPPH free radical scavenging assays. At identical concentrations (10 and 25 µM), resveratrol exhibited equivalent DPPH scavenging activity to vitamin E. Vitamin E (10 µM) also restored HDL3-mediated cholesterol efflux in macrophages under oxidative stress.
 ## isoforms
 - α-tocopherol
 - γ-tocopherol
@@ -30,6 +33,9 @@ Research has shown that [[COMT]] variants can impact the efficacy and safety of 
 ## Documents
 
 List of documents that mention this entity
+
+  - [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+    - Vitamin E (α-tocopherol) used as positive control; resveratrol exhibited equivalent DPPH scavenging activity; vitamin E restored cholesterol efflux under oxidative stress.
 
   - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
     - Medication and vitamin interactions with COMT: Vitamin E and COMT: A 10-year follow-up to a trial on Vitamin E (Alpha-tocopherol) supplementation showed that the COMT rs4680 variants impacted the risk of Cancer.

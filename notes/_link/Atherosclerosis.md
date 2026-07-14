@@ -36,6 +36,9 @@ Unlike genetic mutations, epigenetic marks are potentially reversible:
 
 List of documents that mention this entity
 
+  - [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+    - Demonstrates that resveratrol inhibits lipoprotein oxidation and enhances cholesterol efflux via ABCA1, protecting against foam cell formation and early atherogenesis.
+
   - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
     - Microvascular and macrovascular damage, seen in diabetes, is attributed to the accumulation of AGEs in tissues, but it is also associated with Atherosclerosis, Alzheimer's Disease, End Stage Renal Disease, Rheumatoid Arthritis, Sarcopenia, cataracts, and ot...
 
@@ -63,6 +66,18 @@ List of documents that mention this entity
 - **[[Cellular Senescence]]**: Vascular senescence contributes to plaque vulnerability and arterial stiffness.
 - **[[DNA Methylation]]**: Key marker for measuring biological age and vascular health.
 - [[SIRT1]]: SIRT1 activation reduces atherosclerosis; [[Trimethylamine N-oxide]]: TMAO promotes atherosclerosis opposed by SIRT1.
+- [[Macrophages]] — Macrophage cholesterol accumulation and foam cell formation are hallmarks of early atherogenesis
+- [[LDL]] — Oxidized LDL drives plaque formation; its uptake by macrophages leads to foam cell formation
+- [[HDL]] — Anti-atherogenic; protects LDL against oxidation and mediates reverse cholesterol transport
+- [[Cholesterol Efflux]] — Critical protective mechanism that removes excess cholesterol from macrophages; impaired by oxidative stress
+- [[Reverse Cholesterol Transport]] — The process by which HDL removes cholesterol from peripheral tissues to the liver
+- [[ABCA1]] — Promotes cholesterol efflux to apoA-1; upregulated by resveratrol and LXR
+- [[ABCG1]] — Promotes cholesterol efflux to mature HDL particles
+- [[Lipid Peroxidation]] — Key driver of LDL and HDL oxidation in atherosclerotic plaque progression
+- [[Oxidative Stress]] — Impairs HDL function and macrophage cholesterol efflux; accelerates atherogenesis
+- [[Foam Cells]] — Formed when macrophages accumulate cholesterol; hallmark of early atherosclerotic lesions
+- [[Resveratrol]] — Inhibits lipoprotein oxidation and enhances cholesterol efflux; atheroprotective
+- [[NF-kappaB]] — Pro-inflammatory transcription factor driving atherosclerotic inflammation
 
 ## Linking Summary
 - New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]

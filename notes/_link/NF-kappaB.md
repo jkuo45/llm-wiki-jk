@@ -20,6 +20,9 @@ aliases: [NF-kappaB, Nuclear Factor kappa B, RelA, p65, NF-kB]
 
 ## Documents
 
+- [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+  - Resveratrol suppresses NF-κB activation in macrophages; NF-κB drives inflammatory signaling in atherosclerotic plaque progression.
+
 - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
   - Transcription factors that have a dual inhibitory/activating function (TP53 and NFKB).
 - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
@@ -39,6 +42,9 @@ aliases: [NF-kappaB, Nuclear Factor kappa B, RelA, p65, NF-kB]
 - [[Senescent Cells]] — Drives SASP expression in senescent cells
 - [[SIRT1]]: SIRT1 deacetylates and inhibits NF-κB.
 - [[Inflammation]]: SIRT1 dampens NF-κB inflammation.
+- [[Atherosclerosis]] — NF-κB drives pro-inflammatory signaling in atherosclerotic plaques
+- [[Macrophages]] — NF-κB activation in macrophages promotes inflammatory cytokine production in atherosclerosis
+- [[Resveratrol]] — Resveratrol suppresses NF-κB activation in macrophages (Br J Pharmacol 1999)
 
 ## Linking Summary
 

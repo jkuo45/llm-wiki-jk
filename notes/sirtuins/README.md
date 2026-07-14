@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-07-09
+updated: 2026-07-13
 ---
 # Sirtuins
 
@@ -19,6 +19,7 @@ updated: 2026-07-09
 | [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1\|Centenarian SIRT6 Variants Study]]                                                               | Centenarian SIRT6 variants (N308K/A313S) elevate SIRT6 via vimentin, alter enzymatic activities, delay senescence (2026)                     |
 | [[_document_ - relocalization of sirtuins - chromatin modifiers, grok\|RCM Hypothesis (Grok)]]                                                        | Grok summary of the Relocalization of Chromatin Modifiers (RCM) Hypothesis and the Information Theory of Aging                                |
 | [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics\|SIRT1: Protein Roles at the Nexus (Chaqour 2026)]] | Review positioning SIRT1 as a context-dependent "shapeshifter" NAD⁺-deacetylase linking metabolism, stress, and disease (cardio, metabolic, neurovascular, oncogenic) |
+| [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound\|Berrougui et al., Atherosclerosis 2009]] | Resveratrol inhibits lipoprotein oxidation and enhances cholesterol efflux via ABCA1; protects HDL3 functionality; atheroprotective dual mechanism |
 
 ## Entity Notes
 
@@ -104,6 +105,12 @@ updated: 2026-07-09
 | [[Caloric Restriction]] | Scientific Concept | Dietary longevity intervention; activates SIRT1/SIRT3; requires Sir2 in yeast/flies |
 | [[Circadian Rhythm]] | Biological Process | ~24h oscillator (BMAL1/CLOCK) gated by SIRT1 via circadian NAD⁺ (NAMPT) oscillations |
 | [[ADP-ribosylation]] | Biological Process | Post-translational modification; mono-ADP-ribosylation catalyzed by SIRT4 and SIRT6 |
+| [[Reverse Cholesterol Transport]] | Biological Process | Process of moving cholesterol from peripheral tissues to liver via HDL; anti-atherogenic pathway |
+| [[Cholesterol Efflux]] | Biological Process | First step of RCT; removal of cholesterol from cells via ABCA1, ABCG1, SR-BI |
+| [[Cholesterol Influx]] | Biological Process | Uptake of cholesterol into cells; opposing process to cholesterol efflux |
+| [[Lipid Peroxidation]] | Chemical Process | Oxidative degradation of lipids; produces conjugated dienes; key process in atherosclerosis |
+| [[Foam Cells]] | Cell Type | Cholesterol-laden macrophages; hallmark of early atherosclerotic lesions |
+| [[French Paradox]] | Scientific Concept | Low CVD in France despite high-fat diet; attributed to red wine polyphenols |
 
 ### Key Regulatory Proteins (Sirtuin Targets/Effectors)
 
@@ -167,6 +174,24 @@ updated: 2026-07-09
 | [[PDE4]] | Enzyme | Phosphodiesterase 4; competitively inhibited by resveratrol; prevents cAMP degradation |
 | [[Epac1]] | Protein | Exchange protein directly activated by cAMP 1; triggers Ca²⁺ release from ER |
 | [[CaMKKβ]] | Enzyme | Ca²⁺/calmodulin-dependent kinase kinase β; phosphorylates/activates AMPK |
+
+### Lipoproteins & Cholesterol Transport
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[HDL]] | Biological Molecule | Anti-atherogenic lipoprotein; mediates reverse cholesterol transport; carries PON1 |
+| [[LDL]] | Biological Molecule | Lipoprotein carrying cholesterol to peripheral tissues; oxidation drives atherosclerosis |
+| [[Apolipoprotein A1]] | Protein | Primary protein of HDL; specific acceptor for ABCA1-mediated cholesterol efflux |
+| [[Apolipoprotein B]] | Protein | Primary protein of LDL; altered by oxidation; ligand for LDL receptor |
+| [[ABCA1]] | Transporter | Mediates cholesterol efflux to lipid-poor apoA-1; initiator of HDL biogenesis |
+| [[ABCG1]] | Transporter | Transfers cholesterol to mature HDL particles; co-regulated with ABCA1 by LXR |
+| [[SR-BI]] | Receptor | Bidirectional cholesterol transporter; mediates cholesterol flux between cells and HDL |
+| [[PON1]] | Enzyme | HDL-associated antioxidant enzyme; protects against lipid peroxidation |
+| [[Cholesterol]] | Biological Molecule | Sterol lipid; elevated levels drive atherosclerosis; regulated by RCT |
+| [[Oxidized LDL]] | Biological Molecule | Oxidatively modified LDL; taken up by macrophages to form foam cells |
+| [[Conjugated Dienes]] | Biological Molecule | Products of lipid peroxidation; markers of LDL/HDL oxidation |
+| [[Oxidative Stress]] | Scientific Concept | Imbalance between ROS and antioxidants; impairs HDL function and cholesterol efflux |
+| [[Antioxidant]] | Pharmacological Action | Substance inhibiting oxidation; protects lipoproteins from oxidative damage |
 
 ### CD38 & Anti-CD38 Therapeutics
 
