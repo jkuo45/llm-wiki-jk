@@ -10,8 +10,8 @@ updated: 2026-07-09
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 13_JULY_2026 12:00 PM PDT
-- Total count of entities: 317
+- Last updated: 14_JULY_2026 12:00 PM PDT
+- Total count of entities: 321
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -334,3 +334,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[IL-18]] | 13_JULY_2026 12:00 PM PDT | Cytokine | Inflammation, Inflammasome, SASP |
 | [[BNP]] | 13_JULY_2026 12:00 PM PDT | Peptide Hormone | Cardiovascular, Cardiac Biomarker, Natriuresis |
 | [[Kidney]] | 13_JULY_2026 12:00 PM PDT | Anatomy | Renal, Filtration, AGE Clearance |
+| [[Honokiol]] | 14_JULY_2026 12:00 PM PDT | Chemical Compound | Neuroprotection, Neuropharmacology, Magnoliaceae, Anxiety |
+| [[Magnolol]] | 14_JULY_2026 12:00 PM PDT | Chemical Compound | Neuroprotection, Neuropharmacology, Magnoliaceae |
+| [[GABA_A receptor]] | 14_JULY_2026 12:00 PM PDT | Receptor | Inhibitory Neurotransmission, CNS, Neuropharmacology |
+| [[NMDA receptor]] | 14_JULY_2026 12:00 PM PDT | Receptor | Excitatory Neurotransmission, Glutamate, Excitotoxicity |

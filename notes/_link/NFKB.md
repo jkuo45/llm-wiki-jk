@@ -9,6 +9,7 @@ tags:
   - protein
 aliases:
   - NF-κB
+  - NF-kappaB
   - Nuclear Factor kappa B
   - RelA
   - p65
@@ -107,6 +108,9 @@ List of documents that mention this entity
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review identifies NF-κB as the master regulator of SASP, with cytoplasmic chromatin fragment/cGAS–STING signalling and the H3K27ac–AP-1–BRD4 axis converging on NF-κB to drive SASP in senescent cells.
 
+  - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
+    - Honokiol suppresses NF-κB activation (downstream of [[PKC]] and [[MAPK]]) reducing [[TNF-alpha|TNFα]], [[Nitric Oxide|NO]], and [[COX-2]] in macrophages, microglia, and dendritic cells — underpinning its analgesic and anti-neuroinflammatory actions.
+
 
 ## Connections
 
@@ -126,8 +130,9 @@ List of documents that mention this entity
 - **[[EZH2]]** — deposits H3K27me3; its inhibition derepresses NF-κB SASP genes.
 - **[[LINE-1]]** — retrotransposon cDNA activates cGAS–STING–NF-κB SASP.
 - **[[IL-6]]** / **[[IL-8]]** / **[[IL-1α]]** — NF-κB-driven SASP cytokines.
+- **[[Honokiol]]** — Inhibits NF-κB to reduce TNFα/NO/COX-2 in immune and glial cells.
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]], [[Honokiol]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
   - Strong connections to strengthen: SIRT1 ↔ [[NFKB]], SIRT6 ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]
 

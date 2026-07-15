@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [Aβ]
+aliases: [Aβ, Amyloid beta]
 
 ---
 
@@ -23,10 +23,16 @@ aliases: [Aβ]
 
 #
 
+## Documents
+
+  - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
+    - Honokiol and [[Magnolol]] significantly reduce β-amyloid (Aβ)-induced neuronal death and a *Magnolia officinalis* extract prevents LPS-induced memory deficits via antiamyloidogenic effects.
+
 ## Connections
-- [[Amyloid Beta]] — related entity
+- [[Alzheimer's Disease]] — Aβ aggregation is the central pathogenic event in AD pathology.
+- [[Honokiol]] — Reduces Aβ-induced neuronal death via antioxidant, Ca<sup>2+</sup>-suppressing, and anti-caspase-3 effects.
 
 ## Linking Summary
-- New links added: [[Amyloid Beta]]
-  - Strong connections to strengthen: Amyloid Beta ↔ Amyloid Beta
+- New links added: [[Alzheimer's Disease]], [[Honokiol]]
+  - Strong connections to strengthen: Amyloid Beta ↔ Alzheimer's Disease, Amyloid Beta ↔ Honokiol
 

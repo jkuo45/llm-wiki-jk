@@ -81,6 +81,9 @@ List of documents that mention this entity
   - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
     - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
 
+  - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
+    - Honokiol and [[Magnolol]] significantly reduce β-[[Amyloid beta|amyloid (Aβ)]]-induced neuronal death (PC12 cells) via reduced ROS, suppressed Ca<sup>2+</sup>, and inhibited caspase-3; a *Magnolia officinalis* extract prevents LPS-induced memory deficits through antineuroinflammatory and antiamyloidogenic effects.
+
 
 ## Connections
 - **[[Aging]]**: The primary risk factor for AD, characterized by significant epigenetic changes.
@@ -90,6 +93,8 @@ List of documents that mention this entity
 - [[Induced Pluripotent Stem Cells]]: Used for disease modeling and exploring regenerative therapies.
 - [[Disease Modeling]]: iPSCs help in understanding the pathophysiology of Alzheimer's.
 - [[Rejuvenation]]: Some research overlaps with efforts to reverse age-related cognitive decline.
+- [[Honokiol]]: Reduces Aβ-induced neuronal death and LPS-driven memory deficits via anti-neuroinflammatory and antiamyloidogenic effects.
+- [[Amyloid beta]]: Core pathogenic species whose toxicity is mitigated by honokiol/magnolol.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Celastrol]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]]., [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]], [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Neuroinflammation]]
