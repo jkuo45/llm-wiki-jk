@@ -33,7 +33,7 @@
 > - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
 > - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
-> - [triple (graph) kg as of 09_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/triples/triples_as_of_09_JUL_2026.md) [[triples_as_of_09_JUL_2026|wiki]] 
+> - [kg-triples as of 09_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/triples/triples_as_of_09_JUL_2026.md) [[triples_as_of_09_JUL_2026|wiki]] 
 
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
