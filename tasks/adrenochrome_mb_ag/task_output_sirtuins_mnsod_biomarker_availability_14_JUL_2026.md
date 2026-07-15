@@ -18,7 +18,7 @@ tags:
 Maps each non-invasive/accessible surrogate readout from the **Alternatives — Surrogate MnSOD-Redox Panel** section of `task_output_feasibility_sirtuins_biomarker_14_JULY_2026.md` to real commercial products with links.
 
 > [!note] Research-stage caveat
-> MnSOD acK68/122 + ADP-ribosylation PTM immunoassays and MitoSOX remain research-grade and are not yet standardized commercial kits (per the source document's feasibility assessment). The surrogates below are the deployable, non-invasive/accessible layer of the "Mitochondrial Redox Dial."
+> MnSOD acK68/122 + ADP-ribosylation PTM immunoassays and [[MitoSOX]] remain research-grade and are not yet standardized commercial kits (per the source document's feasibility assessment). The surrogates below are the deployable, non-invasive/accessible layer of the "Mitochondrial Redox Dial."
 
 ## Urinary 8-OHdG and 8-iso-PGF2α — NOAEL / oxidative-damage ceiling
 

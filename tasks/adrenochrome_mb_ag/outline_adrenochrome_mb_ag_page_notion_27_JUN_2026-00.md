@@ -1,5 +1,6 @@
 ---
 title: mb, aminoguanidine
+description: outline to sync with obsidian and notion
 ---
 
 ---
