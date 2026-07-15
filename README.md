@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 14_JUL_2026 | 21 | 1195 | 702,170 | 5.65 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 14_JUL_2026 | 23 | 1201 | 711,597 | 5.75 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 14_JUL_2026 | 19 | 268 | 206,638 | 1.89 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]] | 14_JUL_2026 | 11 | 233 | 167,904 | 1.36 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 8 | 261 | 221,291 | 2.10 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) [[notes/comt/README\|wiki]] | 09_JUL_2026 | 2 | 35 | 21,070 | 0.20 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) [[notes/comt/README\|wiki]] | 09_JUL_2026 | 2 | 34 | 20,468 | 0.19 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 14_JUL_2026 | 9 | 197 | 199,523 | 3.80 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 13_JUL_2026 | 2 | 73 | 53,389 | 0.50 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 11_JUL_2026 | 1 | 64 | 67,653 | 0.63 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 14_JUL_2026 | 12 | 43 | 98,535 | 1.03 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 14_JUL_2026 | 10 | 131 | 196,730 | 1.62 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 14_JUL_2026 | 10 | 131 | 197,727 | 1.63 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_JUL_2026 | **95** | **2500** | **1,934,903** | **18.78 MB** |
+| **subtotal** | 14_JUL_2026 | **97** | **2505** | **1,944,725** | **18.88 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -90,8 +90,10 @@ example: suggested schedule (Resveratrol, and Creatine)
 ---
 
 <!-- GENERATED: document_list -->
-## Documents (95 total)
+## Documents (97 total)
 
+- `_link`: [creatine anti-cancer trace](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20creatine%20anti-cancer%20trace.md) [[notes/_link/_document_ - creatine anti-cancer trace.md|wiki]] (14_JUL_2026 11:54 PM PDT)
+- `_link`: [Neuro-Modulating Effects of Honokiol A Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Neuro-Modulating%20Effects%20of%20Honokiol%20A%20Review.md) [[notes/_link/_document_ - Neuro-Modulating Effects of Honokiol A Review.md|wiki]] (14_JUL_2026 07:49 PM PDT)
 - `_link`: [Humanin a harbinger of mitochondrial-derived peptides?](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Humanin%20a%20harbinger%20of%20mitochondrial-derived%20peptides%3F.md) [[notes/_link/_document_ - Humanin a harbinger of mitochondrial-derived peptides?.md|wiki]] (14_JUL_2026 12:21 PM PDT)
 - `_link`: [Mitohormesis - 2014_FEB](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Mitohormesis%20-%202014_FEB.md) [[notes/_link/_document_ - Mitohormesis - 2014_FEB.md|wiki]] (14_JUL_2026 12:21 PM PDT)
 - `_link`: [Mitohormesis - 2023_NOV](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Mitohormesis%20-%202023_NOV.md) [[notes/_link/_document_ - Mitohormesis - 2023_NOV.md|wiki]] (14_JUL_2026 12:21 PM PDT)
