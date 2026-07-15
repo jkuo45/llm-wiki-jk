@@ -37,6 +37,13 @@
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
+- ℹ️ Caloric Restriction/Spermidine/Rapamycin (trace):
+	- 📊 [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[task_output_cr_vs_spermidine_autophagy_15_July_2026|wiki]] [[task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW|wiki(zh-TW)]]
+	- Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
+	- 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
+- 🔎 Graphify directed graph - query knowledge graph (trace nodes)
+	- https://github.com/Graphify-Labs/graphify
+	- https://graph.johnnykuo.com/
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
     - [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
     - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
