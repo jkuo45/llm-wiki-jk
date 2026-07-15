@@ -14,6 +14,9 @@ def format_number(n):
     return f"{n:,}"
 
 
+EXCLUDED_TOPICS = {"graphify-out"}
+
+
 def get_git_commit_date(filepath, repo_root):
     """Get the last commit date for a file from git history."""
     try:
@@ -82,7 +85,10 @@ def get_dir_size_and_count(directory):
     total_words = 0
     for dirpath, dirnames, filenames in os.walk(directory):
         # Optional: skip hidden directories like .git if any
-        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        dirnames[:] = [
+            d for d in dirnames
+            if not d.startswith(".") and d not in EXCLUDED_TOPICS
+        ]
         for f in filenames:
             if not f.startswith("."):
                 fp = os.path.join(dirpath, f)
@@ -190,7 +196,8 @@ def main():
         repo_root = os.getcwd()
 
     topics = sorted([
-        d for d in os.listdir(notes_dir) if os.path.isdir(os.path.join(notes_dir, d))
+        d for d in os.listdir(notes_dir)
+        if os.path.isdir(os.path.join(notes_dir, d)) and d not in EXCLUDED_TOPICS
     ])
 
     topic_data = []

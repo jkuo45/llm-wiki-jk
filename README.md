@@ -10,13 +10,12 @@
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 8 | 261 | 221,291 | 2.10 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) [[notes/comt/README\|wiki]] | 09_JUL_2026 | 2 | 35 | 21,070 | 0.20 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 14_JUL_2026 | 9 | 197 | 199,523 | 3.80 MB |
-| [graphify-out](https://github.com/jkuo45/llm-wiki/tree/dev/notes/graphify-out) [[notes/graphify-out/README\|wiki]] | --- | 0 | 0 | 0 | 0.50 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 13_JUL_2026 | 2 | 73 | 53,389 | 0.50 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 11_JUL_2026 | 1 | 64 | 67,653 | 0.63 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 14_JUL_2026 | 12 | 43 | 98,535 | 1.03 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 14_JUL_2026 | 10 | 131 | 196,730 | 1.62 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_JUL_2026 | **95** | **2500** | **1,934,903** | **19.28 MB** |
+| **subtotal** | 14_JUL_2026 | **95** | **2500** | **1,934,903** | **18.78 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
