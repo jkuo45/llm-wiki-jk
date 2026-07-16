@@ -1,15 +1,13 @@
 ---
 title: "Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease"
-source: "https://www.nature.com/articles/s41514-025-00291-4"
+source: https://www.nature.com/articles/s41514-025-00291-4
 author:
   - "[[Adam J. Hruby]]"
   - "[[Ryo Higuchi-Sanabria]]"
 published: 2025-12-15
 created: 2026-07-10
-description: "Senescent cells, characterized by a state of irreversible proliferative arrest and inflammatory profile, have emerged as drivers of age-related decline. Growing evidence suggests that alterations in mitochondrial function and morphology play a key role in the induction and maintenance of senescence, as well as in promotion of the proinflammatory senescence-associated secretory phenotype (SASP). In this review, we seek to survey the relationship between mitochondrial dysfunction and senescence, focusing on the consequences of changes in oxidative phosphorylation efficiency, calcium handling, mitochondrial metabolites, mitochondrial dynamics and quality control, and release of damage-associated molecular patterns. We first describe these changes before illustrating the pathways and mechanisms through which mitochondrial dysfunction results in cell cycle arrest and the SASP. Lastly, we showcase evidence relating cellular senescence to neurodegenerative disease and propose that mitochondrial dysfunction may act as a bridge between the two."
+description: Senescent cells, characterized by a state of irreversible proliferative arrest and inflammatory profile, have emerged as drivers of age-related decline. Growing evidence suggests that alterations in mitochondrial function and morphology play a key role in the induction and maintenance of senescence, as well as in promotion of the proinflammatory senescence-associated secretory phenotype (SASP). In this review, we seek to survey the relationship between mitochondrial dysfunction and senescence, focusing on the consequences of changes in oxidative phosphorylation efficiency, calcium handling, mitochondrial metabolites, mitochondrial dynamics and quality control, and release of damage-associated molecular patterns. We first describe these changes before illustrating the pathways and mechanisms through which mitochondrial dysfunction results in cell cycle arrest and the SASP. Lastly, we showcase evidence relating cellular senescence to neurodegenerative disease and propose that mitochondrial dysfunction may act as a bridge between the two.
 tags:
-  - "clippings"
-type: "document"
 ---
 ## Abstract
 
