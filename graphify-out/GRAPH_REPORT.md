@@ -1,496 +1,523 @@
-# Graph Report - tasks  (2026-07-16)
+# Graph Report - notes  (2026-07-16)
 
 ## Corpus Check
-- Large corpus: 134 files · ~592,858 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
+- 2573 files · ~2,233,800 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 832 nodes · 772 edges · 143 communities (64 shown, 79 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.88)
+- 10745 nodes · 214958 edges · 99 communities (86 shown, 13 thin omitted)
+- Extraction: 23% EXTRACTED · 77% INFERRED · 0% AMBIGUOUS · INFERRED: 166370 edges (avg confidence: 0.75)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- Adrenochrome & Redox Biology
-- Fenbendazole Anticancer
-- Adrenochrome Chemistry
-- Benzimidazole Drug Repurposing
-- Inflammasome & Aging
-- Ivermectin Cancer Mechanisms
-- Ivermectin Signaling Pathways
-- TFEB Lysosome Biogenesis
-- Autophagy & Epigenetics
-- Caspase & Apoptosis
-- Ivermectin Parasitology
-- Adrenochrome NF-κB Inflammation
-- AGEs & Glycation Aging
-- Pomegranate & Urolithin A
-- TFEB ALR & Lysosomal
-- SIRT6 DNA Repair
-- Financial AI Expert Judgment
-- TFEB Phosphorylation Network
-- Quiescence & Cell Cycle
-- HLH-30 Starvation Response
-- Community 20
-- Community 21
-- Community 22
-- Community 23
-- Community 24
-- Community 25
-- Community 26
-- Community 27
-- Community 28
-- Community 29
-- Community 30
-- Community 31
-- Community 32
-- Community 33
-- Community 34
-- Community 35
-- Community 36
-- Community 37
-- Community 38
-- Community 39
-- Community 40
-- Community 41
-- Community 42
-- Community 43
-- Community 44
-- Community 45
-- Community 46
-- Community 47
-- Community 48
-- Community 49
-- Community 50
-- Community 51
-- Community 52
-- Community 53
-- Community 54
-- Community 55
-- Community 56
-- Community 57
-- Community 58
-- Community 59
-- Community 60
-- Community 61
-- Community 62
-- Community 63
-- Community 64
-- Community 65
-- Community 66
-- Community 67
-- Community 68
-- Community 69
-- Community 70
-- Community 71
-- Community 72
-- Community 73
-- Community 74
-- Community 75
-- Community 76
-- Community 77
-- Community 78
-- Community 79
-- Community 80
-- Community 81
-- Community 82
-- Community 83
-- Community 84
-- Community 85
-- Community 86
-- Community 87
-- Community 88
-- Community 89
-- Community 90
-- Community 91
-- Community 92
-- Community 93
-- Community 94
-- Community 95
-- Community 96
-- Community 97
-- Community 98
-- Community 99
-- Community 100
-- Community 101
-- Community 102
-- Community 103
-- Community 104
-- Community 105
-- Community 106
-- Community 107
-- Community 108
-- Community 109
-- Community 110
-- Community 111
-- Community 112
-- Community 113
-- Community 114
-- Community 115
-- Community 116
-- Community 117
-- Community 118
-- Community 119
-- Community 120
-- Community 121
-- Community 122
-- Community 123
-- Community 124
-- Community 125
-- Community 126
-- Community 127
-- Community 128
-- Community 129
-- Community 130
-- Community 131
-- Community 132
-- Community 133
-- Community 134
-- Community 135
-- Community 136
-- Community 137
-- Community 138
-- Community 139
-- Community 140
-- Community 141
-- Community 142
+- Oxidative Stress & DNA Damage
+- Neurodegeneration & Dopamine Toxicity
+- Cancer Therapeutics (BCL-2 Family)
+- Cancer Chemotherapy Mechanisms
+- Advanced Glycation End Products
+- Stem Cells & Epigenetics
+- Cancer Signaling (NF-kB, TGF-b)
+- Epigenomics & Gene Regulation
+- TGF-b/Activin/BMP Signaling
+- Adrenal Physiology & Endocrinology
+- mTOR Signaling & Inhibitors
+- Metabolic Enzymes & Acetylation
+- Antiparasitic Drug Repurposing
+- Autophagy & Neurodegeneration
+- Energy Metabolism & Transporters
+- Neuromelanin & Parkinson Disease
+- Cholesterol & Oxysterol Signaling
+- Mitohormesis & Stress Response
+- Targeted Cancer Therapy
+- Chromatin Remodeling & BRD4
+- Gut Microbiome & Aging
+- Methylation & COMT Biology
+- ABC Transporters & Peroxisomes
+- Autophagy Regulation & Fasting
+- NK Cells & Immune Checkpoint
+- Neurodegeneration & Blood-Brain Barrier
+- DNA Repair & Alkylation
+- Sirtuin Biology & NAD+
+- Basement Membrane & Cell Migration
+- Single-Cell & Vascular Biology
+- Chromatin Remodeling & BAF Complex
+- Kidney Injury & Amyloid
+- Autophagy Machinery (PIKfyve)
+- Alzheimers & Inflammasome
+- RAF-MEK-ERK Signaling
+- Autophagy Induction & AMPK
+- ER Stress & Unfolded Protein Response
+- Blood Gas Analysis & ICU Medicine
+- Insulin/AKT/DAF-2 Longevity Pathway
+- NF-kB Canonical Pathway
+- Fibrosis & Bleomycin Injury
+- NAD+ Metabolism & CD38
+- Extracellular Matrix & Fibrosis
+- PGC-1a & Mitochondrial Biogenesis
+- Cell Division & Mitosis
+- Metabolic Syndrome & Aquaporins
+- Synaptic Plasticity & CAMKII
+- BMP Signaling & Bone Formation
+- Sphingolipid Storage Diseases
+- Inflammasome & Inflammaging
+- Dopamine & Basal Ganglia
+- Proteasome & Deubiquitinases
+- Cell Cycle & PKC Signaling
+- Creatine Metabolism
+- Dietary Intervention & Cognition
+- Neuromelanin Imaging
+- Infectious Disease & HIV
+- Mitochondrial-Derived Peptides
+- Sirtuin Relocalization & Epigenetics
+- Brain Bioenergetics & Aging
+- Muscle Cachexia & Wasting
+- Calcium Signaling & BDNF
+- ALS & Creatine Kinase
+- DNA Radiation Damage
+- GATOR/LKB1 Amino Acid Sensing
+- HPA Axis & Chronic Pain
+- Adherens Junction & Cell Polarity
+- IAP/Smac & Apoptosis
+- Glutamine Metabolism & TLR Signaling
+- CRISPR Gene Editing
+- Biological Aging & Vaccination
+- Leishmaniasis Treatment
+- Mitochondrial Therapy & Aging
+- GABA Signaling & Anxiolysis
+- Rheumatoid Arthritis & Autoimmunity
+- Epigenetic Biomarkers of Aging
+- EPR Spectroscopy & Copper
+- Demyelination & Leukodystrophy
+- Adipokines & Glucose Homeostasis
+- Glutathione Synthesis & Bile Acids
+- Amyloid Processing & Secretases
+- Clinical Biomarkers & Diagnostics
+- Actin Cytoskeleton Dynamics
+- CFS & Chronic Stress
+- Methylation Pathway (SAH/TMG)
+- Thymic Rejuvenation
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
+- Isolated Document
 
 ## God Nodes (most connected - your core abstractions)
-1. `Ivermectin` - 28 edges
-2. `SIRT1` - 28 edges
-3. `Adrenochrome` - 28 edges
-4. `Ivermectin` - 27 edges
-5. `Adrenochrome` - 26 edges
-6. `Urolithin A` - 23 edges
-7. `TFEB` - 23 edges
-8. `Fenbendazole` - 21 edges
-9. `Fenbendazole` - 20 edges
-10. `Melittin` - 20 edges
+1. `Oxidative Stress` - 2035 edges
+2. `Cancer` - 1901 edges
+3. `Inflammation` - 1845 edges
+4. `Apoptosis` - 1477 edges
+5. `Autophagy` - 1432 edges
+6. `Aging` - 1361 edges
+7. `SASP` - 1321 edges
+8. `_document_ - sirtuins in health and disease s41392-022-01257-8` - 1249 edges
+9. `Reactive Oxygen Species` - 1244 edges
+10. `Mitochondria` - 1200 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Fenbendazole` --semantically_similar_to--> `Ivermectin anticancer triples graph`  [INFERRED] [semantically similar]
-  z_archive/01_task_output_triples_fenbendazole.svg → z_archive/01_task_output_triples_ivermectin_anticancer.png
-- `Melittin` --semantically_similar_to--> `Ivermectin anticancer triples graph`  [INFERRED] [semantically similar]
-  z_archive/01_task_output_triples_honeybee_melittin.svg → z_archive/01_task_output_triples_ivermectin_anticancer.png
-- `Epigenetic Aging` --conceptually_related_to--> `microRNA`  [INFERRED]
-  adrenchrome_inflammaging/_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md → adrenchrome_inflammaging/_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md
-- `Transcriptomic Aging` --conceptually_related_to--> `microRNA`  [INFERRED]
-  adrenchrome_inflammaging/_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md → adrenchrome_inflammaging/_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md
-- `Apoptosis` --semantically_similar_to--> `Apoptosis`  [INFERRED] [semantically similar]
-  z_archive/01_task_output_triples_fenbendazole.svg → z_archive/01_task_output_triples_honeybee_melittin.svg
+- `Apoptosis` --conceptually_related_to--> `Apoptotic bodies`  [INFERRED]
+  notes/_link/14-3-3.md → notes/cancer/membrane blebbing.md
+- `Apoptosis` --conceptually_related_to--> `APP`  [INFERRED]
+  notes/_link/14-3-3.md → notes/_link/5xFAD.md
+- `Apoptosis` --conceptually_related_to--> `Appetite`  [INFERRED]
+  notes/_link/14-3-3.md → notes/_link/GDF15.md
+- `Apoptosis` --conceptually_related_to--> `Aquaporins`  [INFERRED]
+  notes/_link/14-3-3.md → notes/_link/Aquaporins.md
+- `Apoptosis` --conceptually_related_to--> `AR`  [INFERRED]
+  notes/_link/14-3-3.md → notes/cancer/Ubiquitination.md
 
-## Hyperedges (group relationships)
-- **AIM2 inflammasome assembly and activation in IPF alveolar macrophages** — tasks_adrenchrome_inflammaging__document__drosha_dependent_aim2_inflammasome_activation_contributes_to_lung_inflammation_during_idiopathic_pulmonary_fibrosis_aim2, tasks_adrenchrome_inflammaging__document__drosha_dependent_aim2_inflammasome_activation_contributes_to_lung_inflammation_during_idiopathic_pulmonary_fibrosis_asc, tasks_adrenchrome_inflammaging__document__drosha_dependent_aim2_inflammasome_activation_contributes_to_lung_inflammation_during_idiopathic_pulmonary_fibrosis_caspase1, tasks_adrenchrome_inflammaging__document__drosha_dependent_aim2_inflammasome_activation_contributes_to_lung_inflammation_during_idiopathic_pulmonary_fibrosis_il1b, tasks_adrenchrome_inflammaging__document__drosha_dependent_aim2_inflammasome_activation_contributes_to_lung_inflammation_during_idiopathic_pulmonary_fibrosis_il18 [EXTRACTED 1.00]
-- **Microprocessor-dependent miRNA biogenesis pathway from pri-miRNA to RISC** — tasks_adrenchrome_inflammaging__document__the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis_dgcr8, tasks_adrenchrome_inflammaging__document__the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis_drosha, tasks_adrenchrome_inflammaging__document__the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis_microprocessor, tasks_adrenchrome_inflammaging__document__the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis_mirna, tasks_adrenchrome_inflammaging__document__the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis_dicer, tasks_adrenchrome_inflammaging__document__the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis_argonaute [EXTRACTED 1.00]
-- **Five phosphorylation/dephosphorylation switches regulating apoptosis in cancer** — tasks_caspase_task_output_caspase_01_jun_2026_caspase8, tasks_caspase_task_output_caspase_01_jun_2026_shp1, tasks_caspase_task_output_caspase_01_jun_2026_caspase7, tasks_caspase_task_output_caspase_01_jun_2026_pak2, tasks_caspase_task_output_caspase_01_jun_2026_bax, tasks_caspase_task_output_caspase_01_jun_2026_pin1, tasks_caspase_task_output_caspase_01_jun_2026_bak, tasks_caspase_task_output_caspase_01_jun_2026_ptpn5, tasks_caspase_task_output_caspase_01_jun_2026_xiap, tasks_caspase_task_output_caspase_01_jun_2026_tbk1, tasks_caspase_task_output_caspase_01_jun_2026_akt [EXTRACTED 1.00]
-- **Adrenochrome-MnSOD-SIRT3 Hormetic Redox Axis** — adrenochrome_research_plan_11_jun_2026_adrenochrome, sirtuins_mnsod_06_jul_2026_mnsod, sirtuins_mnsod_06_jul_2026_sirt3 [INFERRED 1.00]
-- **miRNA-SIRT1-NF-kB SASP Regulatory Circuit** — research_plan_04_jul_2026_mir217, research_plan_04_jul_2026_sirt1, sirtuins_mnsod_06_jul_2026_nfkb [INFERRED 1.00]
-- **SIRT3-SIRT4-MnSOD Mitochondrial Redox Rheostat** — sirtuins_mnsod_06_jul_2026_sirt3, sirtuins_mnsod_06_jul_2026_sirt4, sirtuins_mnsod_06_jul_2026_mnsod [INFERRED 1.00]
-- **Expert Judgment Training Recipe** — tasks_z_archive__document___learning_to_replicate_expert_judgment_in_financial_tasks_expert_judgment_finetuning, tasks_z_archive__document___learning_to_replicate_expert_judgment_in_financial_tasks_grpo, tasks_z_archive__document___learning_to_replicate_expert_judgment_in_financial_tasks_cispo_loss, tasks_z_archive__document___learning_to_replicate_expert_judgment_in_financial_tasks_opd, tasks_z_archive__document___learning_to_replicate_expert_judgment_in_financial_tasks_interleaved_batching, tasks_z_archive__document___learning_to_replicate_expert_judgment_in_financial_tasks_qwen3_235b [EXTRACTED 1.00]
-- **KG Extraction Styles Comparison** — tasks_triples_triples_as_of_09_jul_2026_mechanistic_extraction, tasks_triples_triples_as_of_09_jul_2026_co_occurrence_extraction, tasks_triples_triples_as_of_09_jul_2026_kg_confidence_as_cohesion_metric [EXTRACTED 1.00]
-- **Fenbendazole Anticancer Mechanism Cluster** — tasks_z_archive_01_task_output_triples_fenbendazole_svg_glycolysis, tasks_z_archive_01_task_output_triples_fenbendazole_svg_glucose_uptake, tasks_z_archive_01_task_output_triples_fenbendazole_svg_oxidative_stress, tasks_z_archive_01_task_output_triples_fenbendazole_svg_apoptosis, tasks_z_archive_01_task_output_triples_fenbendazole_svg_microtubule, tasks_z_archive_01_task_output_triples_fenbendazole_svg_p21_mediated_cell_cycle_arrest [EXTRACTED 1.00]
-- **Melittin Signaling Pathway Inhibition Cluster** — tasks_z_archive_01_task_output_triples_honeybee_melittin_svg_pi3k_akt_mtor_axis, tasks_z_archive_01_task_output_triples_honeybee_melittin_svg_mapk, tasks_z_archive_01_task_output_triples_honeybee_melittin_svg_jak2_stat3, tasks_z_archive_01_task_output_triples_honeybee_melittin_svg_nfkappab, tasks_z_archive_01_task_output_triples_honeybee_melittin_svg_akt_signaling [EXTRACTED 1.00]
-- **Fenbendazole Cancer Targets Cluster** — tasks_z_archive_01_task_output_triples_fenbendazole_svg_h4iie_hepatocellular_carcinoma_cells, tasks_z_archive_01_task_output_triples_fenbendazole_svg_5_fluorouracil_resistant_colorectal_cancer_cells, tasks_z_archive_01_task_output_triples_fenbendazole_svg_ovarian_cancer, tasks_z_archive_01_task_output_triples_fenbendazole_svg_diffuse_large_b_cell_lymphoma [EXTRACTED 1.00]
-- **hyper_05_ivermectin_discovery_nobel** — ivermectin_anticancer_satoshi_omura, ivermectin_anticancer_william_campbell, ivermectin_anticancer_nobel_prize_2015, ivermectin_anticancer_ivermectin, ivermectin_anticancer_avermectin [INFERRED 1.00]
-- **hyper_05_ivermectin_anticancer_mechanisms** — ivermectin_anticancer_ivermectin, ivermectin_anticancer_akt_mtor_pathway, ivermectin_anticancer_wnt_pathway, ivermectin_anticancer_yap1, ivermectin_anticancer_pak1, ivermectin_anticancer_kpnb1, ivermectin_anticancer_pglycoprotein, ivermectin_anticancer_glutamate_gated_cl_channels, ivermectin_anticancer_ns3_helicase, ivermectin_anticancer_hsp27_phosphorylation [INFERRED 1.00]
-- **hyper_05_ivermectin_clinical_uses_parasitic** — ivermectin_japan_ivermectin, ivermectin_japan_onchocerciasis, ivermectin_japan_lymphatic_filariasis, ivermectin_japan_strongyloidiasis, ivermectin_japan_scabies, ivermectin_japan_diethylcarbamazine, ivermectin_japan_mectizan, ivermectin_japan_mectizan_donation_program [INFERRED 1.00]
-- **SIRT1 Histone Deacetylation Substrates** — tasks_z_archive_task_output_05_july_2026_sirtuins_triples_sirt1, tasks_z_archive_task_output_05_july_2026_sirtuins_triples_histone_h4_lys16, tasks_z_archive_task_output_05_july_2026_sirtuins_triples_histone_h3_lys14, tasks_z_archive_task_output_05_july_2026_sirtuins_triples_histone_h1_lys9_lys26 [EXTRACTED 1.00]
-- **Urolithin A Antioxidant Enzyme Upregulation** — tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_urolithin_a, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_glutathione_s_transferases, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_glutathione_peroxidase, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_superoxide_dismutase [EXTRACTED 1.00]
-- **Urolithin A Growth/Inflammation Signaling Inhibition** — tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_urolithin_a, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_mtor_pathway, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_pi3k, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_akt, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_nf_kb_pathway, tasks_z_archive_task_output_ua_20_june_2026_08_35_pm_pdt_mtorc1 [EXTRACTED 1.00]
-- **Anti-cancer drug mechanisms via pathway modulation** — tasks_z_archive_fenbendazole, tasks_z_archive_melittin, tasks_z_archive_pi3k_akt_mtor_axis, tasks_z_archive_mapk, tasks_z_archive_jak2_stat3, tasks_z_archive_nfkb [INFERRED 0.75]
-- **Glycation-Oxidative Stress-Aging axis** — tasks_z_archive_glycation, tasks_z_archive_oxidative_stress_glycation, tasks_z_archive_advanced_glycation_end_products, tasks_z_archive_rage, tasks_z_archive_aging, tasks_z_archive_reactive_oxygen_species [EXTRACTED 1.00]
-- **AGE-mediated suppression of antioxidant defenses** — tasks_z_archive_advanced_glycation_end_products, tasks_z_archive_catalase_activity, tasks_z_archive_glutathione_peroxidase_activity, tasks_z_archive_glutathione_reductase_activity [EXTRACTED 1.00]
-- **Mitohormesis ISR-OMA1-DELE1-ATF4 axis** — task_output_mitohormesis_triples_mitochondrial_stress, task_output_mitohormesis_triples_oma1, task_output_mitohormesis_triples_dele1, task_output_mitohormesis_triples_dele1s, task_output_mitohormesis_triples_hri, task_output_mitohormesis_triples_phosphorylation_eif2alpha, task_output_mitohormesis_triples_atf4 [INFERRED 1.00]
-- **Quiescence G1 arrest via Rb-APC/C Cdh1-Skp2/p27 axis** — task_output_quiescence_svg_hypophosphorylated_rb, task_output_quiescence_svg_apc_c_cdh1, task_output_quiescence_svg_skp2, task_output_quiescence_svg_p27, task_output_quiescence_svg_geminin, task_output_quiescence_svg_e2f1 [INFERRED 1.00]
-- **AGE-RAGE-NF-κB inflammatory cascade** — task_output_triples_svg_ages, task_output_triples_svg_age_rage_interaction, task_output_triples_svg_nfkb_activation, task_output_triples_svg_nfkb, task_output_triples_svg_tnfa, task_output_triples_svg_il6, task_output_triples_svg_nadh_oxidase, task_output_triples_svg_intracellular_oxidative_stress [INFERRED 1.00]
-- **Epinephrine-to-Adrenochrome Oxidation Pathway** — z_archive_task_output_triples_adrenochrome_20260525_120000_epinephrine, z_archive_task_output_triples_adrenochrome_20260525_120000_ros, z_archive_task_output_triples_adrenochrome_20260525_120000_mpo, z_archive_task_output_triples_adrenochrome_20260525_120000_o_quinone, z_archive_task_output_triples_adrenochrome_20260525_120000_michael_addition, z_archive_task_output_triples_adrenochrome_20260525_120000_adrenaline_quinone, z_archive_task_output_triples_adrenochrome_20260525_120000_adrenochrome, z_archive_task_output_triples_adrenochrome_20260525_120000_leuco_adrenochrome [INFERRED]
-- **Adrenochrome Toxicity Mechanisms** — z_archive_task_output_triples_adrenochrome_20260525_120000_adrenochrome, z_archive_task_output_triples_adrenochrome_20260525_120000_cardiotoxicity, z_archive_task_output_triples_adrenochrome_20260525_120000_cell_necrosis, z_archive_task_output_triples_adrenochrome_20260525_120000_arrhythmias, z_archive_task_output_triples_adrenochrome_20260525_120000_coronary_artery_constriction, z_archive_task_output_triples_adrenochrome_20260525_120000_hemolysis, z_archive_task_output_triples_adrenochrome_20260525_120000_lipid_peroxidation, z_archive_task_output_triples_adrenochrome_20260525_120000_mitochondrial_function, z_archive_task_output_triples_adrenochrome_20260525_120000_oxidative_phosphorylation, z_archive_task_output_triples_adrenochrome_20260525_120000_methemoglobin_formation [INFERRED]
-- **Adrenochrome Senolytic and Glyco-oxidative Axis** — z_archive_task_output_triples_adrenochrome_20260613_171316_adrenochrome, z_archive_task_output_triples_adrenochrome_20260613_171316_senotherapeutic, z_archive_task_output_triples_adrenochrome_20260613_171316_senolysis, z_archive_task_output_triples_adrenochrome_20260613_171316_sasp, z_archive_task_output_triples_adrenochrome_20260613_171316_nfkb_signaling, z_archive_task_output_triples_adrenochrome_20260613_171316_keap1, z_archive_task_output_triples_adrenochrome_20260613_171316_amg, z_archive_task_output_triples_adrenochrome_20260613_171316_aminoguanidine, z_archive_task_output_triples_adrenochrome_20260613_171316_ages, z_archive_task_output_triples_adrenochrome_20260613_171316_dicarbonyl [INFERRED]
-- **Adrenochrome induces senescence-related processes** — tasks_z_archive_adrenochrome_svg_adrenochrome, tasks_z_archive_adrenochrome_svg_senomorphic_agent, tasks_z_archive_adrenochrome_svg_senolysis, tasks_z_archive_adrenochrome_svg_quiescent_like_state, tasks_z_archive_adrenochrome_svg_sasp [INFERRED]
-- **Ivermectin synergizes with multiple anticancer drugs** — tasks_z_archive_ivermectin_svg_ivermectin, tasks_z_archive_ivermectin_svg_tamoxifen, tasks_z_archive_ivermectin_svg_cisplatin, tasks_z_archive_ivermectin_svg_paclitaxel, tasks_z_archive_ivermectin_svg_enzalutamide, tasks_z_archive_ivermectin_svg_docetaxel, tasks_z_archive_ivermectin_svg_gemcitabine [INFERRED]
-- **Ivermectin inhibits multiple oncogenic pathways** — tasks_z_archive_ivermectin_svg_ivermectin, tasks_z_archive_ivermectin_svg_akt_mtor_pathway, tasks_z_archive_ivermectin_svg_wnt_pathway, tasks_z_archive_ivermectin_svg_yap1, tasks_z_archive_ivermectin_svg_pak1, tasks_z_archive_ivermectin_svg_kpnb1 [INFERRED]
-- **hyperedge_11_1** — z_archive_task_output_triples_lysosome_biogenesis_biogenesis, z_archive_task_output_triples_lysosome_biogenesis_protein_delivery, z_archive_task_output_triples_lysosome_biogenesis_reformation, z_archive_task_output_triples_lysosome_biogenesis_transcriptional_reg, z_archive_task_output_triples_lysosome_biogenesis_lysosome [INFERRED]
-- **hyperedge_11_2** — z_archive_task_output_triples_lysosome_biogenesis_tfeb, z_archive_task_output_triples_lysosome_biogenesis_tfe3, z_archive_task_output_triples_lysosome_biogenesis_clear_element, z_archive_task_output_triples_lysosome_biogenesis_lysosomal_gene_expr, z_archive_task_output_triples_lysosome_biogenesis_mtor, z_archive_task_output_triples_lysosome_biogenesis_calcineurin, z_archive_task_output_triples_lysosome_biogenesis_cdk4, z_archive_task_output_triples_lysosome_biogenesis_cdk6, z_archive_task_output_triples_lysosome_biogenesis_carm1, z_archive_task_output_triples_lysosome_biogenesis_zkscan3 [INFERRED]
-- **hyperedge_11_3** — task_output_triples_mxl3_hlh30_fasting, task_output_triples_mxl3_hlh30_mxl3, task_output_triples_mxl3_hlh30_hlh30, task_output_triples_mxl3_hlh30_mxl3_nuclear_delocalization, task_output_triples_mxl3_hlh30_hlh30_nuclear_translocation, task_output_triples_mxl3_hlh30_lysosomal_lipase_genes, task_output_triples_mxl3_hlh30_autophagy_genes, task_output_triples_mxl3_hlh30_lysosomal_biogenesis, task_output_triples_mxl3_hlh30_starvation_survival, task_output_triples_mxl3_hlh30_lipophagy, task_output_triples_mxl3_hlh30_lipl1, task_output_triples_mxl3_hlh30_lipl3 [INFERRED]
-- **TFEB/TFE3 phosphorylation regulatory network** — tfeb_tfe3_mtorc1, tfeb_tfe3_p38_mapk, tfeb_tfe3_calcineurin, tfeb_tfe3_gsk3beta, tfeb_tfe3_erk2, tfeb_tfe3_cdk4_6, tfeb_tfe3_pp2a, tfeb_tfe3_ampk, tfeb_tfe3_akt, tfeb_tfe3_pkcbeta, tfeb_tfe3_map4k3, tfeb_tfe3_tfeb_s211, tfeb_tfe3_tfeb_s142, tfeb_tfe3_tfeb_s122, tfeb_tfe3_tfeb_s401, tfeb_tfe3_tfeb_s134, tfeb_tfe3_tfeb_s138, tfeb_tfe3_tfeb_s109, tfeb_tfe3_tfeb_s114, tfeb_tfe3_tfeb_s466, tfeb_tfe3_tfeb_s467, tfeb_tfe3_tfeb_s469, tfeb_tfe3_tfeb_s461, tfeb_tfe3_tfeb_s3, tfeb_tfe3_tfe3_s321 [INFERRED 1.00]
-- **TFEB expression and synthesis regulation** — tfeb_tfe3_pgc1alpha, tfeb_tfe3_xbp1, tfeb_tfe3_myc, tfeb_tfe3_smad3, tfeb_tfe3_mettl3, tfeb_tfe3_alkbh5, tfeb_tfe3_spermidine, tfeb_tfe3_pdcd4, tfeb_tfe3_tfeb_expression, tfeb_tfe3_tfeb_synthesis, tfeb_tfe3_tfeb_translation [INFERRED 1.00]
-- **TFEB post-translational modifications, nuclear dynamics, and disease associations** — tfeb_tfe3_acat1, tfeb_tfe3_gcn5, tfeb_tfe3_sirt1, tfeb_tfe3_stub1, tfeb_tfe3_tnks1, tfeb_tfe3_seta, tfeb_tfe3_oxidation, tfeb_tfe3_s_sulfhydration, tfeb_tfe3_tfeb_c212, tfeb_tfe3_14_3_3, tfeb_tfe3_crm1, tfeb_tfe3_tfeb_nuclear_translocation, tfeb_tfe3_tfe3_nuclear_translocation, tfeb_tfe3_tfeb_nuclear_export, tfeb_tfe3_phosphorylated_tfeb, tfeb_tfe3_phosphorylated_tfe3, tfeb_tfe3_starvation, tfeb_tfe3_mitophagy, tfeb_tfe3_er_stress, tfeb_tfe3_tfeb_dysregulation, tfeb_tfe3_birt_hogg_dube_syndrome, tfeb_tfe3_renal_cell_carcinoma, tfeb_tfe3_translocation_rcc, tfeb_tfe3_pda, tfeb_tfe3_pancreatic_cancer_growth, tfeb_tfe3_lysosomal_storage_disorders, tfeb_tfe3_neurodegenerative_diseases, tfeb_tfe3_ischemic_injury, tfeb_tfe3_metabolic_disorders, tfeb_tfe3_inflammation [INFERRED 1.00]
+## Communities (99 total, 13 thin omitted)
 
-## Communities (143 total, 79 thin omitted)
+### Community 0 - "Oxidative Stress & DNA Damage"
+Cohesion: 0.03
+Nodes (625): 1400W, 2-OH-dATP, 3-Nitrotyrosine, 4-HNE, 4-Hydroxynonenal, 5hmC, 8-hydroxy-2'-deoxyguanosine, 8-Hydroxyadenine (+617 more)
 
-### Community 0 - "Adrenochrome & Redox Biology"
+### Community 1 - "Neurodegeneration & Dopamine Toxicity"
 Cohesion: 0.05
-Nodes (57): Adrenochrome, Adrenochrome Monoaminoguanidine, Autophagy, Cardiotoxicity, Glutathione, Hormesis, Hormetic Window, Mitohormesis (+49 more)
+Nodes (383): 1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine, 2,2'-Dithiodipyridine, 2-deoxy-D-glucose, 5-S-Cysteinyl-Dopamine, 5-S-Glutathionyl-Dopamine, 6-OHDA, aak-2, Abram Hoffer (+375 more)
 
-### Community 1 - "Fenbendazole Anticancer"
-Cohesion: 0.05
-Nodes (43): 5-fluorouracil-resistant Colorectal Cancer cells, Animal parasitic infections, Apoptosis, Benzimidazole, Bleomycin-induced pulmonary fibrosis, CYP2C19, CYP2J2, Diffuse large B-cell lymphoma (+35 more)
-
-### Community 2 - "Adrenochrome Chemistry"
-Cohesion: 0.05
-Nodes (42): acidic environment, adrenaline-quinone, Adrenochrome, adrenolutin, alkaline environment, Adrenochrome monoaminoguanidine, Adrenochrome monosemicarbazone, arrhythmias (+34 more)
-
-### Community 3 - "Benzimidazole Drug Repurposing"
+### Community 2 - "Cancer Therapeutics (BCL-2 Family)"
 Cohesion: 0.06
-Nodes (37): 5-fluorouracil-resistant Colorectal Cancer cells, Akt signaling, Albendazole, animal parasitic infections, antiparasitic agent, Apoptosis, Benzimidazole, bleomycin-induced pulmonary fibrosis (+29 more)
+Nodes (355): HSP90β, A1-Bfl-1, A-1331852, ABT-199, ABT-263, ABT-737, ABVD, Actin (+347 more)
 
-### Community 4 - "Inflammasome & Aging"
-Cohesion: 0.08
-Nodes (32): AIM2 Inflammasome, Alveolar Macrophages, ASC, Caspase-1, DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis, DROSHA, IL-18, Interleukin-1β (+24 more)
+### Community 3 - "Cancer Chemotherapy Mechanisms"
+Cohesion: 0.05
+Nodes (317): 4-Hydroxycyclophosphamide, 5-Azacytidine, 7+3 Regimen, ABCB1, Abemaciclib, Actinomycin D, Acute Myeloid Leukemia, Aflatoxin (+309 more)
 
-### Community 5 - "Ivermectin Cancer Mechanisms"
+### Community 4 - "Advanced Glycation End Products"
+Cohesion: 0.05
+Nodes (315): 1,3-Di(5-amino-5-carboxypentyl)-4-methylimida...
+- [[1,3-Di(5-amino-5-carboxypentyl)-4-methylimidazolium, 1,3-Di(5-amino-5-carboxypentyl)-4-methylimida...
+- [[Carboxyethyllysine, 1,3-Di(5-amino-5-carboxypentyl)-4-methylimidazolium, 2-Acetyl-1-pyrroline, 3-..., 3-...
+- [[Advanced Glycation End Products, 3-amino-1,2,4-triazine, 3-deoxyglucosone (+307 more)
+
+### Community 5 - "Stem Cells & Epigenetics"
 Cohesion: 0.07
-Nodes (29): Akt/mTOR pathway, angiogenesis, avermectin, Cancer Stem Cells, cisplatin, DDX23/miR-12 signaling pathway, docetaxel, enzalutamide (+21 more)
+Nodes (303): Activin, Adaptive Immunity, Allogeneic Therapy, Assembloids, Ataxia, ATXN1, ATXN3, Axin (+295 more)
 
-### Community 6 - "Ivermectin Signaling Pathways"
+### Community 6 - "Cancer Signaling (NF-kB, TGF-b)"
+Cohesion: 0.06
+Nodes (284): NFκB, TGF-β3, 10-hydroxy-2-decenoic acid, ADCC, adolapin, AGE-RAGE Pathway, AKT, ALCAR (+276 more)
+
+### Community 7 - "Epigenomics & Gene Regulation"
+Cohesion: 0.06
+Nodes (284): 3D Genome Organization, ^50, 5-mC, ^62, ^85, AAV, Active Promoters, Age Acceleration (+276 more)
+
+### Community 8 - "TGF-b/Activin/BMP Signaling"
 Cohesion: 0.07
-Nodes (28): Akt/mTOR pathway, angiogenesis, avermectin, Cancer Stem Cells, cisplatin, DDX23/miR-12 signaling pathway, docetaxel, enzalutamide (+20 more)
+Nodes (282): 7α-dehydroxylase, Acriflavine, Activin A, ACTRIIA, Adrenochrome derivatives, Aggrecan, ALK4, ALK5 (+274 more)
 
-### Community 7 - "TFEB Lysosome Biogenesis"
+### Community 9 - "Adrenal Physiology & Endocrinology"
+Cohesion: 0.05
+Nodes (280): 21-Hydroxylase Deficiency, ACE Inhibitors, Acetylcholine, Acidosis, ACTH, Action Potential, Acute coronary syndrome, Addison's Disease (+272 more)
+
+### Community 10 - "mTOR Signaling & Inhibitors"
+Cohesion: 0.06
+Nodes (267): 14-3-3 Proteins, 4E-BP1, 4E-BP2, 4E-BP3, actin polymerization, Akt Kinase, Allosteric inhibitor, AMP (+259 more)
+
+### Community 11 - "Metabolic Enzymes & Acetylation"
+Cohesion: 0.05
+Nodes (257): 26S Proteasome, 30-nm Fiber, AAV1, AceCS1, AceCS2, Acetyl-CoA, ACSS2 in cancer, ADAM17 (+249 more)
+
+### Community 12 - "Antiparasitic Drug Repurposing"
 Cohesion: 0.08
-Nodes (28): ACAT1, Autophagy-lysosomal genes, Birt-Hogg-Dube syndrome, cellular energy homeostasis, CLEAR Element, GCN5, innate immune response, insulin signaling (+20 more)
+Nodes (256): Satoshi Ōmura, 3-BrPA, African Programme for Onchocerciasis Control, AKT/mTOR, Albendazole, Albendazole sulfoxide, Andy Crump, Anthelmintic (+248 more)
 
-### Community 8 - "Autophagy & Epigenetics"
+### Community 13 - "Autophagy & Neurodegeneration"
+Cohesion: 0.05
+Nodes (250): GSK3β, TGF-β, –, 14-3-3 protein, 3-MA, ACA...
+- [[Mevalonate Pathway, ACAT1, Acetylation (+242 more)
+
+### Community 14 - "Energy Metabolism & Transporters"
+Cohesion: 0.07
+Nodes (231): 2,4-Dinitrophenol, 2-Chlorophenothiazine, ABC transporters, Active Transport, Adam Ostrovsky, Adenine, Adenylyl Cyclase, ADP (+223 more)
+
+### Community 15 - "Neuromelanin & Parkinson Disease"
+Cohesion: 0.10
+Nodes (212): β2-microglobulin, 5,6-Dihydroxyindole, 5,6-Dihydroxyindole-2-Carboxylic Acid, 5,6-indolequinone, 6-hydroxydopamine, A30P Mutation, A53T, Alpha-synuclein (+204 more)
+
+### Community 16 - "Cholesterol & Oxysterol Signaling"
+Cohesion: 0.06
+Nodes (208): Retinoid X receptor α, 12-LOX, 15-LOX, 25-hydroxycholesterol, 5-LOX, 7β-hydroxycholesterol, 7-Ketocholesterol, 8-iso-PGF2α (+200 more)
+
+### Community 17 - "Mitohormesis & Stress Response"
+Cohesion: 0.07
+Nodes (205): eIF2α, ACO1, Alice Ting's lab, alkyne-biotin, ANKZF1, Antidotum Mithridaticum, Antimycin A, Arndt-Schulz Law (+197 more)
+
+### Community 18 - "Targeted Cancer Therapy"
+Cohesion: 0.05
+Nodes (205): 5-Fluorouracil, 5-FU, ABBV-075, Abiraterone, Abraxas, acetylated lysine, Adagrasib, Adenocarcinoma (+197 more)
+
+### Community 19 - "Chromatin Remodeling & BRD4"
+Cohesion: 0.11
+Nodes (192): Adenovirus E1A, AF10, AP-1, ASF1a, ASF1b, ATRX, BA-switching Region, BET Protein (+184 more)
+
+### Community 20 - "Gut Microbiome & Aging"
+Cohesion: 0.07
+Nodes (178): 2-deoxy-D-gluco...
+- [[Neurodegeneration, 2-deoxy-D-gluco...
+- [[NRF2, Absorption, Acetate, Acetate Kinase, Actinobacteria, Activities of Daily Living, AICAR (+170 more)
+
+### Community 21 - "Methylation & COMT Biology"
+Cohesion: 0.12
+Nodes (172): 4'-O-methyl-EGCG, ABCB10, Adenosylcobalamin, ADHD, Alpha-tocopherol, Aspirin, Berberine, Berberis (+164 more)
+
+### Community 22 - "ABC Transporters & Peroxisomes"
 Cohesion: 0.08
-Nodes (24): Beclin1, CREB, E2F1, eNOS (endothelial nitric oxide synthase), FoxO1, FOXO3a, FOXO4, Histone H1 (Lys9, Lys26) (+16 more)
+Nodes (166): ABCD1, ACE2, Adapter Ligation, Adrenoleukodystrophy, Beta-Oxidation, Betacoronavirus, Bulk RNA-seq, Cerebral Amyloid Angiopathy (+158 more)
 
-### Community 9 - "Caspase & Apoptosis"
-Cohesion: 0.13
-Nodes (21): Akt, Apoptosis, BAK, BAX, Caspase-3, Caspase-7, Caspase-8, Caspase-9 (+13 more)
-
-### Community 10 - "Ivermectin Parasitology"
-Cohesion: 0.10
-Nodes (20): Blood-brain barrier, Brugia malayi, Diethylcarbamazine, Endectocide, Hypersensitivity reactions, Ivermectin, Lymphatic Filariasis, Mectizan (+12 more)
-
-### Community 11 - "Adrenochrome NF-κB Inflammation"
-Cohesion: 0.10
-Nodes (20): Adrenochrome, Adrenochrome monoaminoguanidine, Advanced Glycation End-products, Aminoguanidine, Antioxidant Response Element, arrhythmias, Carbazochrome, epinephrine (+12 more)
-
-### Community 12 - "AGEs & Glycation Aging"
+### Community 23 - "Autophagy Regulation & Fasting"
 Cohesion: 0.11
-Nodes (20): Advanced Glycation End Products, Aging, Amadori products, Caenorhabditis elegans, Catalase activity, Collagen, Drosophila melanogaster, Elastic fibers (+12 more)
+Nodes (162): 14-3-3σ, 2-Hydroxypropyl-β-cyclodextrin, A2A receptor, Acid Hydrolases, Aging, Alternate-day Fasting, Alzheim...
+- [[Cancer, AMBRA1 (+154 more)
 
-### Community 13 - "Pomegranate & Urolithin A"
-Cohesion: 0.11
-Nodes (19): Akt, Almond, Atrogin-1, Ellagitannins, Glutathione peroxidase, Glutathione S-transferases, Gut microbiota, Mitochondrial autophagy (+11 more)
+### Community 24 - "NK Cells & Immune Checkpoint"
+Cohesion: 0.10
+Nodes (154): 3-Hydroxykynurenine, Allograft Rejection, Antigen-Presenting Cells, Arginase-1, ARNT, Aryl Hydrocarbon Receptor, Autophagosomes, B18R (+146 more)
 
-### Community 14 - "TFEB ALR & Lysosomal"
-Cohesion: 0.14
-Nodes (16): Autophagic Lysosome Reformation, calcineurin, CARM1, CDK4, CDK6, CLEAR Element, HLH-30, lifespan (+8 more)
-
-### Community 15 - "SIRT6 DNA Repair"
-Cohesion: 0.14
-Nodes (14): AMPK, Base excision repair, GATA5, HIF-1α, IGF-Akt signaling, JAK2/STAT3 pathway, Mono-ADP-ribosyl transferase, NF-κB p65 (RelA) (+6 more)
-
-### Community 16 - "Financial AI Expert Judgment"
-Cohesion: 0.21
-Nodes (13): Bridgewater AIA Labs, CISPO Loss with Asymmetric Clipping, Differentiated Intelligence, Expert Annotation Verification Scheme, Expert Judgment Fine-tuning, Financial Information Filtering, GRPO (Group Relative Policy Optimization), Interleaved Batching (+5 more)
-
-### Community 17 - "TFEB Phosphorylation Network"
+### Community 25 - "Neurodegeneration & Blood-Brain Barrier"
 Cohesion: 0.17
-Nodes (13): Calcineurin, CDK4/6, ERK2, mTORC1, p38 MAPK, PP2A, TFE3 at S321, TFEB at S109 (+5 more)
+Nodes (152): 5-methyltetrahydrofolate, 5xFAD, Adaptive Immune System, Amyloid Beta, APOE3 Christchurch, APOE4, Astrocyte Senescence, Astrocytes (+144 more)
 
-### Community 18 - "Quiescence & Cell Cycle"
+### Community 26 - "DNA Repair & Alkylation"
+Cohesion: 0.08
+Nodes (143): 53BP1, 8-oxo-dG, ABH2, ABH3, Adult-Onset Progeria, Aflatoxin B1, AlkB homolog, Alkylation (+135 more)
+
+### Community 27 - "Sirtuin Biology & NAD+"
+Cohesion: 0.09
+Nodes (141): 8-OHdG, ACADS, ADP-ribosylation, AGK2, Allosteric Activator, Allosteric Regulation, Alpha-ketoglutarate, Alpha-Synuclein Toxicity (+133 more)
+
+### Community 28 - "Basement Membrane & Cell Migration"
+Cohesion: 0.09
+Nodes (141): Agrin, Alport Syndrome, Basal Lamina, Basement Membrane, Biliary epithelial cells, Biological Process, c-Met, Cabozantinib (+133 more)
+
+### Community 29 - "Single-Cell & Vascular Biology"
+Cohesion: 0.10
+Nodes (138): 10x Genomics, ACKR3, ACTA2, Ada N Okereke, Allison B Herman, β-arrestin, Bioavailability, C57BL-6 (+130 more)
+
+### Community 30 - "Chromatin Remodeling & BAF Complex"
+Cohesion: 0.08
+Nodes (138): 11q23, Alternative Splicing, AT-hooks, ATAC-seq, AU-15330, BAF complex, Bone Marrow Niche, BRG1 (+130 more)
+
+### Community 31 - "Kidney Injury & Amyloid"
+Cohesion: 0.08
+Nodes (132): A2E, Acute Kidney Injury, AFP, albumin, Alkaline Phosphatase, ALT, AMD, Ammonia (+124 more)
+
+### Community 32 - "Autophagy Machinery (PIKfyve)"
+Cohesion: 0.12
+Nodes (126): AAK1, AP2, AP4, Apilimod, Arp2/3, Atg18, Aut..., Aut...
+- [[PIKfyve (+118 more)
+
+### Community 33 - "Alzheimers & Inflammasome"
+Cohesion: 0.10
+Nodes (123): Alzheimer's Disease...
+- [[Alzheimer's Disease, Alzheimer's Disease...
+- [[Atherosclerosis, Alzheimer's Disease...
+- [[Type 2 Diabetes Mellitus, Anakinra, ARE (AU-rich element), ASC Speck, AUF1, Autoinflammation (+115 more)
+
+### Community 34 - "RAF-MEK-ERK Signaling"
+Cohesion: 0.08
+Nodes (123): ARAF, Aspartate, B-Raf, Baricitinib, BCR-ABL, Binimetinib, BRAF, BRAF V600E (+115 more)
+
+### Community 35 - "Autophagy Induction & AMPK"
+Cohesion: 0.09
+Nodes (113): 2-DG, A...
+- [[Adaptive Immune Response, Acylcarnitines, Adaptive Immune Response, Adenylate Cyclase, Aggrephagy, AMP-Activated Protein Kinase, Auto...
+- [[Autophagy (+105 more)
+
+### Community 36 - "ER Stress & Unfolded Protein Response"
+Cohesion: 0.10
+Nodes (110): 4-PBA, 4-Phenylbutyrate, ALS, amino acid metabolism, apolipoprotein, Asns, ATF4, ATF6 (+102 more)
+
+### Community 37 - "Blood Gas Analysis & ICU Medicine"
+Cohesion: 0.13
+Nodes (110): ABG, Acetoacetate, Acute Respiratory Distress Syndrome, Amyl nitrite, Anesthesia, Aniline dyes, Anion gap, Anion gap (calculation) (+102 more)
+
+### Community 38 - "Insulin/AKT/DAF-2 Longevity Pathway"
+Cohesion: 0.14
+Nodes (110): Acid Phosphatase, AK...
+- [[AGE-1, AK...
+- [[AKT-1, AK...
+- [[DAF-2, AKT-1, AKT-2, Amino Acid Sensing, Atg15 (+102 more)
+
+### Community 39 - "NF-kB Canonical Pathway"
+Cohesion: 0.11
+Nodes (109): NF-κB, Acute Phase Response, Ankyrin Repeat, Atypical IκB, BCL-3, C/EBP family, c-Rel, Canonical NF-κB Activation (+101 more)
+
+### Community 40 - "Fibrosis & Bleomycin Injury"
+Cohesion: 0.13
+Nodes (106): 293T, 5Z-7-oxozeaenol, Acute Stress-Associated Phenotype, aiPLA2, Amphiregulin, ANGPTL4, Apigenin, Arachidonic acid (+98 more)
+
+### Community 41 - "NAD+ Metabolism & CD38"
+Cohesion: 0.13
+Nodes (106): Acetyl-CoA Synthetase, Adenosine Pathway, ADP-ribose, ADP-ribosyl cyclase, Axon Degeneration, BMAL1, BST1, cADPR (+98 more)
+
+### Community 42 - "Extracellular Matrix & Fibrosis"
+Cohesion: 0.14
+Nodes (100): AAT Augmentation Therapy, Alpha-1 Antitrypsin, Alpha-2-Antiplasmin, Angiomotin, Angiostatin, Cancer Progression, CCL18, CD63 (+92 more)
+
+### Community 43 - "PGC-1a & Mitochondrial Biogenesis"
+Cohesion: 0.11
+Nodes (89): PGC1α, PGC1-α, Anaplerosis, ATP5B, Autonomic Nervous System, CaMK, CoQ10, COXIV (+81 more)
+
+### Community 44 - "Cell Division & Mitosis"
+Cohesion: 0.15
+Nodes (89): Anaphase, Anaphase-Promoting Complex/Cyclosome, Aneuploidy, AURKA, Binary Fission, BUB1, BUBR1, Cell Division (+81 more)
+
+### Community 45 - "Metabolic Syndrome & Aquaporins"
+Cohesion: 0.09
+Nodes (87): ACC1, Akero Therapeutics, AMG 876, Amgen, Amino acid transporters, Aquaporins, ATP production, BCCP domain (+79 more)
+
+### Community 46 - "Synaptic Plasticity & CAMKII"
+Cohesion: 0.16
+Nodes (84): CamKIIα, Adenosine, Adult neurogenesis, AMPA receptor, Amphetamine, Amygdala, Anhedonia, Atomoxetine (+76 more)
+
+### Community 47 - "BMP Signaling & Bone Formation"
+Cohesion: 0.13
+Nodes (84): ACVR1, Bardoxolone methyl, BMP Signaling Pathway, BMPR2, Bone formation, Chordin, COL1A1, Collagen type I (+76 more)
+
+### Community 48 - "Sphingolipid Storage Diseases"
+Cohesion: 0.10
+Nodes (78): Acid Ceramidase, Acid Sphingomyelinase, AMT-130, Bone Remodeling, Brineura, Cathepsin A, Cathepsin H, Cathepsin L (+70 more)
+
+### Community 49 - "Inflammasome & Inflammaging"
+Cohesion: 0.19
+Nodes (75): Interleukin 1β, Adrenochrome → Inflammaging Trace, AIM2, Alveolar Macrophages, Antagomirs, Antisense Oligonucleotide, Argonaute, ASC (+67 more)
+
+### Community 50 - "Dopamine & Basal Ganglia"
+Cohesion: 0.15
+Nodes (75): 18F-Fluorodopa PET, Addiction, Akinesia, Aromatic L-Amino Acid Decarboxylase, Basal Ganglia, Bradykinesia, Caudate Nucleus, Cholinergic interneurons (+67 more)
+
+### Community 51 - "Proteasome & Deubiquitinases"
+Cohesion: 0.12
+Nodes (75): 19S regulatory particle, 20S core particle, AML, Bortezomib, CBL, CBL family, CLL, Cyclins (+67 more)
+
+### Community 52 - "Cell Cycle & PKC Signaling"
+Cohesion: 0.10
+Nodes (72): PKCδ, Atypical PKC, Aurora A, BH3-only, Bora, Bro1 Domain, CARD, Caspase Recruitment Domain (+64 more)
+
+### Community 53 - "Creatine Metabolism"
+Cohesion: 0.21
+Nodes (70): Acute Kidney Injury (AKI), adipogenesis, Blood Urea Nitrogen (BUN), Cerebral Creatine Deficiency, Cerebral Creatine Deficiency Syndrome, Cimetidine, Creatine, Creatine Synthesis Deficiency (+62 more)
+
+### Community 54 - "Dietary Intervention & Cognition"
+Cohesion: 0.16
+Nodes (68): Depression-like Behavior, Dermis, Dietary Intervention, Dietary Supplementation, Dietary Supplements, Disability, Disease, Dorsolateral Prefrontal Cortex (+60 more)
+
+### Community 55 - "Neuromelanin Imaging"
+Cohesion: 0.19
+Nodes (65): Clathrin-mediated Endocytosis, DHICA Oxidase, Lewy Neurites, Melanosome, Neuromelanin Imaging, Neurotransmission, Nicotinic acetylcholine receptors, Pale Bodies (+57 more)
+
+### Community 56 - "Infectious Disease & HIV"
+Cohesion: 0.17
+Nodes (61): AIDS, Antiretroviral, BART miRNAs, Benzyl benzoate, Burkitt Lymphoma, CD21, CD40 receptor, Crotamiton (+53 more)
+
+### Community 57 - "Mitochondrial-Derived Peptides"
+Cohesion: 0.20
+Nodes (59): 12S Ribosomal RNA, 16S Ribosomal RNA, Adiposity, Albumin Fusion, Amyloid Precursor Protein, CEL-1, Ciliary Neurotrophic Factor Receptor, CPEO (+51 more)
+
+### Community 58 - "Sirtuin Relocalization & Epigenetics"
 Cohesion: 0.18
-Nodes (11): CDK inhibitors, DNA replication stress, miR-489, Mitophagy, Primary cilium, Quiescence, Quiescent cells, reversible proliferative arrest (+3 more)
+Nodes (53): Antagonistic Pleiotropy, bHLH Transcription Factors, Chromatin Modifiers, Cisplatin Resistance, David Sinclair, _document_ - relocalization of sirtuins - chromatin modifiers, grok, Double-Strand Break, Epigenetic Landscape (+45 more)
 
-### Community 19 - "HLH-30 Starvation Response"
-Cohesion: 0.18
-Nodes (11): ageing, autophagy genes, HLH-30, Insulin signaling, lysosomal biogenesis, lysosomal lipase genes, MAX, MXL-3 (+3 more)
+### Community 59 - "Brain Bioenergetics & Aging"
+Cohesion: 0.24
+Nodes (50): Autism, Balance, Birth Asphyxia, Blood Lipid Levels, Blood Supply, Bone Density, Bone Loss, Brain (+42 more)
 
-### Community 20 - "Community 20"
-Cohesion: 0.22
-Nodes (9): Advanced Glycation End-products (AGEs), Adrenochrome monoaminoguanidine, Aminoguanidine, Cell membranes, Dicarbonyl intermediates, Glyco-oxidative modulator, Hemostatic capillary stabilizer, Indoline-dione core (+1 more)
+### Community 60 - "Muscle Cachexia & Wasting"
+Cohesion: 0.21
+Nodes (49): Activin Type IIB Receptor, Atrogin-1, Bone, Cachexia, Cytosolic CK, Duchenne Muscular Dystrophy, Dystrophin, Energy Buffering (+41 more)
 
-### Community 21 - "Community 21"
+### Community 61 - "Calcium Signaling & BDNF"
+Cohesion: 0.19
+Nodes (48): A-769662, Appetite, ARE Element, BDNF, Butein, Ca2+, Ca2+ Signaling, Calmodulin (+40 more)
+
+### Community 62 - "ALS & Creatine Kinase"
+Cohesion: 0.23
+Nodes (46): Amyotrophic Lateral Sclerosis (ALS), Arginine Glycine Amidinotransferase, Autonomic Dysreflexia, Ca2+ Overload, CAG repeat, Chorea, Chorioretinal Degeneration, Choroid (+38 more)
+
+### Community 63 - "DNA Radiation Damage"
+Cohesion: 0.19
+Nodes (43): Amifostine, Aplastic Anemia, ATM kinase, base lesions, Bone Marrow Microenvironment, Bone Marrow Transplantation, Bystander effect, Clustered DNA damage (+35 more)
+
+### Community 64 - "GATOR/LKB1 Amino Acid Sensing"
+Cohesion: 0.23
+Nodes (40): AMPK-related kinases, BRSK1, BRSK2, Cache Domain, CASTOR1, CASTOR2, GATOR1, GATOR2 (+32 more)
+
+### Community 65 - "HPA Axis & Chronic Pain"
 Cohesion: 0.25
-Nodes (8): APC/C Cdh1, CDK inhibitor, Geminin, Hypophosphorylated Rb, MCM loading, p21 (CDKN1A), p27 (CDKN1B), Skp2
+Nodes (39): American College of Rheumatology (ACR), Central Sensitization, Cognitive Dysfunction, Growth Hormone, Hypothalamic-Pituitary-Adrenal (HPA) Axis, Irritable Bowel Syndrome (IBS), Migraine, Pain Processing (+31 more)
 
-### Community 22 - "Community 22"
-Cohesion: 0.25
-Nodes (8): Cellular Senescence, DNA Damage, Replication Fork Stalling, γH2A.X foci, p53-p21 pathway, SA-β-Gal, Thymidine & BrdU, p53
-
-### Community 23 - "Community 23"
-Cohesion: 0.25
-Nodes (8): Adrenochrome, Cardiotoxicity, Keap1, NF-kB signaling, Quiescence, SASP, Senolysis, Senotherapeutic agent
-
-### Community 24 - "Community 24"
+### Community 66 - "Adherens Junction & Cell Polarity"
 Cohesion: 0.29
-Nodes (7): Body fat mass, Complex I, FGF21, GDF15, Metformin, Mitokine, Myokine
+Nodes (37): Actin Cytoskeleton, ADH-1, Adherens Junction, Alpha-catenin, Beta-catenin, Cadherin, Cadherin Switch, CDH2 (+29 more)
 
-### Community 25 - "Community 25"
-Cohesion: 0.29
-Nodes (7): ALKBH5, METTL3, MYC, PGC-1alpha, SMAD3, TFEB expression, XBP1
+### Community 67 - "IAP/Smac & Apoptosis"
+Cohesion: 0.26
+Nodes (35): Ala-Val-Pro-Ile, Ankylosing spondylitis, AVPI peptide, BIR3, BIR Domain, Birinapant, Caspase, Certolizumab pegol (+27 more)
 
-### Community 26 - "Community 26"
+### Community 68 - "Glutamine Metabolism & TLR Signaling"
+Cohesion: 0.31
+Nodes (35): ASCT2, Biomass Synthesis, Glutaminase Inhibitors, Strength, T Cells, Therapeutic Efficacy of Antidepressant Medications, TLR-2, TLR-3 (+27 more)
+
+### Community 69 - "CRISPR Gene Editing"
+Cohesion: 0.27
+Nodes (32): Base editing, Basic helix-loop-helix, BCL11A, Cas9, Casgevy, CRISPR, CRISPRa, CRISPRi (+24 more)
+
+### Community 70 - "Biological Aging & Vaccination"
+Cohesion: 0.28
+Nodes (32): Biological Aging, Cardiovascular System, CD9, Cognitive Decline, _document_ - Shingles vaccine may slow biological aging and reduce inflammation, _document_ - SRAC - senescent, ligand-conjugated, Epigenetic Aging, Frailty (+24 more)
+
+### Community 71 - "Leishmaniasis Treatment"
+Cohesion: 0.41
+Nodes (31): Amastigote, Amphotericin B, Antimonials, Culture, Cutaneous Leishmaniasis, Hepatosplenomegaly, Kala-azar, Leishmania (+23 more)
+
+### Community 72 - "Mitochondrial Therapy & Aging"
+Cohesion: 0.34
+Nodes (30): Active Ingredient, Adenine Nucleotide Translocator (ANT), Adenosine Diphosphate (ADP), Adenosine Triphosphate (ATP), Adjunctive Anticancer Therapeutic Intervention, Adjunctive Nutritional Therapy, Adult-onset Obesity, Age-related Muscle Condition (+22 more)
+
+### Community 73 - "GABA Signaling & Anxiolysis"
+Cohesion: 0.39
+Nodes (30): Anxiolysis, Bicuculline, Bilobalide, Calcium, Cholinergic, Diazepam, GABA_A receptor, Gastrodin (+22 more)
+
+### Community 74 - "Rheumatoid Arthritis & Autoimmunity"
 Cohesion: 0.33
-Nodes (7): lysosomal Ca2+ efflux, Endocytic Lysosome Reformation, Phagocytic Lysosome Reformation, PIKfyve, PtdIns(3,5)P2, SLC-36.1, TRPML1
+Nodes (26): α1-antitrypsin, 3-Chlorotyrosine, ACPA, Adalimumab, anti-citrullinated protein antibodies, Anti-TNF therapy, Auranofin, Autoimmune disorder (+18 more)
 
-### Community 27 - "Community 27"
-Cohesion: 0.33
-Nodes (6): AGEs, Alzheimer's disease, arterial stiffness, extracellular matrix, NO synthase activity, sarcopenia
+### Community 75 - "Epigenetic Biomarkers of Aging"
+Cohesion: 0.42
+Nodes (23): ADM, B2M, GrimAge2, GSTP1, Illumina Infinium MethylationEPIC, Le...
+- [[p16INK4A, Le...
+- [[PAI-1, Le...
+- [[PECAM1 (+15 more)
 
-### Community 28 - "Community 28"
-Cohesion: 0.33
-Nodes (6): Inflammation, ischemic injury, Lysosomal Storage Disorders, metabolic disorders, neurodegenerative diseases, TFEB dysregulation
+### Community 76 - "EPR Spectroscopy & Copper"
+Cohesion: 0.43
+Nodes (22): Aging Research, Copper, Copper centers, DEPMPO, DMPO, Electron, Electron spin, g-factor (+14 more)
 
-### Community 29 - "Community 29"
-Cohesion: 0.40
-Nodes (5): Amino Acid Response Element, ATF4, Phosphorylation of eIF2alpha, Serine biosynthesis, Transsulfuration
+### Community 77 - "Demyelination & Leukodystrophy"
+Cohesion: 0.49
+Nodes (22): Demyelination, Galactocerebroside, Guillain-Barré Syndrome, Lactate, Leukodystrophies, Lipid, MCT1, MOG (+14 more)
 
-### Community 30 - "Community 30"
-Cohesion: 0.40
-Nodes (5): ATFS-1 nuclear translocation, DELE1, Integrated Stress Response, Mitochondrial stress, OMA1
+### Community 78 - "Adipokines & Glucose Homeostasis"
+Cohesion: 0.39
+Nodes (19): Adipokines, Adipose Tissue, AS160, _document_ - Creatine in Health and Disease, Glucagon, Glucagon-like Peptide-1, Glucagon Receptor, Glucose Management (+11 more)
 
-### Community 31 - "Community 31"
-Cohesion: 0.70
-Nodes (5): Co-occurrence Extraction, KG Confidence as Cohesion Metric, KG Triples Status Report (09 Jul 2026), Mechanistic Extraction, Senescence-Cancer Merged Graph
+### Community 79 - "Glutathione Synthesis & Bile Acids"
+Cohesion: 0.38
+Nodes (19): Bile Acids, Coenzyme A, CRP, _document_ -  (protocol)  SRAC - senescent, ligand-conjugated, Endothelial Function, F2-Isoprostanes, Glutamate-Cysteine Ligase, γ-Glutamyl Cycle (+11 more)
 
-### Community 32 - "Community 32"
-Cohesion: 0.40
-Nodes (5): AGE accumulation, AGE cross-links, Epicatechin, glycemic control, Physical exercise
+### Community 80 - "Amyloid Processing & Secretases"
+Cohesion: 0.44
+Nodes (17): ADAM10, Aducanumab, Amyloid Beta Peptide, Amyloid Plaques, APP, Beta-amyloid, Beta-Secretase 1, Clathrin (+9 more)
 
-### Community 33 - "Community 33"
-Cohesion: 0.40
-Nodes (5): Akt, AMPK, TFEB at S466, TFEB at S467, TFEB at S469
+### Community 81 - "Clinical Biomarkers & Diagnostics"
+Cohesion: 0.43
+Nodes (17): Biomarker, Biomarker validation, Blood Pressure, Diagnosis, Diagnostic biomarker, DNAm PhenoAge, HbA1c, Inflammatory biomarkers (+9 more)
 
-### Community 34 - "Community 34"
-Cohesion: 0.50
-Nodes (5): ER stress, Mitophagy, Starvation, TFE3 nuclear translocation, TFEB nuclear translocation
+### Community 82 - "Actin Cytoskeleton Dynamics"
+Cohesion: 0.66
+Nodes (16): Actin-Binding Proteins, Arp2/3 Complex, CapZ, Cofilin, F-actin, Filopodia, Formins, G-actin (+8 more)
 
-### Community 35 - "Community 35"
-Cohesion: 0.40
-Nodes (5): Lysosome biogenesis, MYC, lysosomal protein delivery, lysosome reformation, transcriptional regulation
+### Community 83 - "CFS & Chronic Stress"
+Cohesion: 0.71
+Nodes (13): Advanced Glycation End-products (AGEs), Lung Ischemia, Malignant Cells, ME/CFS, Medium, Memory, Mental Health, Metabolic Regulator (+5 more)
 
-### Community 36 - "Community 36"
-Cohesion: 0.50
-Nodes (4): ATFS-1, Lon Protease, Nucleus, UPRmt
+### Community 84 - "Methylation Pathway (SAH/TMG)"
+Cohesion: 0.71
+Nodes (10): 3-Deazaadenosine, Neplanocin A, Phosphatidylcholine, SAH, SAM, task_output_comt_fisetin_09_July_2026_02_50_AM_PDT, tbl_senescent_compounds_normalized, tbl_senescent_compounds_raw (+2 more)
 
-### Community 37 - "Community 37"
-Cohesion: 0.50
-Nodes (4): Cdc48, Stalled proteins, TOM complex, Ubx2
-
-### Community 38 - "Community 38"
-Cohesion: 0.50
-Nodes (4): Cis1, Mistargeted TA proteins, Msp1, PDR3
-
-### Community 39 - "Community 39"
-Cohesion: 0.50
-Nodes (4): Cytosol, DELE1-S, eIF2alpha, HRI
-
-### Community 40 - "Community 40"
-Cohesion: 0.50
-Nodes (4): HSF1, Mitoprotein-Induced Stress Response, Proteasome subunits, RPN4
-
-### Community 41 - "Community 41"
-Cohesion: 0.67
-Nodes (4): LIPL-1, LIPL-3, Lipophagy, lysosomal lipase
-
-### Community 42 - "Community 42"
-Cohesion: 0.50
-Nodes (4): AGE-RAGE interaction, intracellular oxidative stress, NAD(P)H oxidase, NF-κB activation
-
-### Community 43 - "Community 43"
-Cohesion: 0.50
-Nodes (4): CTP Synthetase, Gemcitabine, Hydroxyurea, Ribonucleotide Reductase (RNR)
-
-### Community 44 - "Community 44"
-Cohesion: 0.67
-Nodes (3): 2015 Nobel Prize in Physiology or Medicine, Satoshi Omura, William C. Campbell
-
-### Community 45 - "Community 45"
-Cohesion: 0.67
-Nodes (3): Mitochondrial dysfunction, Parkin-dependent Mitophagy, PINK1
-
-### Community 46 - "Community 46"
-Cohesion: 0.67
-Nodes (3): Mitochondrial membrane proteins, Protein aggregation, UBQLN
-
-### Community 47 - "Community 47"
-Cohesion: 0.67
-Nodes (3): Fasting, HLH-30 nuclear translocation, MXL-3 nuclear delocalization
-
-### Community 48 - "Community 48"
-Cohesion: 0.67
-Nodes (3): Advanced glycation end products, Maillard reaction, reducing sugar and amino acids
-
-### Community 49 - "Community 49"
-Cohesion: 0.67
-Nodes (3): cardiovascular mortality, chronic kidney disease, CML
-
-### Community 50 - "Community 50"
-Cohesion: 0.67
-Nodes (3): circulating AGEs, Exercise, Metformin
-
-### Community 51 - "Community 51"
-Cohesion: 0.67
-Nodes (3): IL-6, NF-κB, TNFα
-
-### Community 52 - "Community 52"
-Cohesion: 0.67
-Nodes (3): Albendazole, Antiparasitic agent, Mebendazole
-
-### Community 53 - "Community 53"
-Cohesion: 0.67
-Nodes (3): NAD+, Nicotinamide Mononucleotide, Nicotinamide Riboside
-
-### Community 54 - "Community 54"
-Cohesion: 0.67
-Nodes (3): Advanced Glycation End Products formation, Aminoguanidine, carbonyl trap
-
-### Community 55 - "Community 55"
-Cohesion: 0.67
-Nodes (3): 2015 Nobel Prize in Physiology or Medicine, Satoshi Ōmura, William C. Campbell
-
-### Community 56 - "Community 56"
-Cohesion: 0.67
-Nodes (3): 14-3-3, phosphorylated TFE3, phosphorylated TFEB
-
-### Community 57 - "Community 57"
-Cohesion: 0.67
-Nodes (3): GSK3beta, TFEB at S134, TFEB at S138
-
-### Community 58 - "Community 58"
-Cohesion: 0.67
-Nodes (3): Oxidation, S-sulfhydration, TFEB C212
-
-### Community 59 - "Community 59"
-Cohesion: 0.67
-Nodes (3): Aminochromes, NADPH-cytochrome P450 reductase, NQO1
-
-### Community 60 - "Community 60"
-Cohesion: 0.67
-Nodes (3): CASTOR1, GATOR2, Sestrin2
-
-### Community 61 - "Community 61"
-Cohesion: 0.67
-Nodes (3): degradative center, Lysosome, signaling hub
-
-### Community 62 - "Community 62"
-Cohesion: 0.67
-Nodes (3): ELT-3, STA-2, V-ATPase gene expression
-
-### Community 63 - "Community 63"
-Cohesion: 0.67
-Nodes (3): Rab5 inactivation, Rab7 activation, Rab switch
+### Community 85 - "Thymic Rejuvenation"
+Cohesion: 1.00
+Nodes (3): Gregory D Sempowski, Melissa S Ventevogel, _document_ - Thymic Rejuvenation and Aging
 
 ## Knowledge Gaps
-- **595 isolated node(s):** `Interleukin-1β`, `IL-18`, `ASC`, `Idiopathic Pulmonary Fibrosis`, `Alveolar Macrophages` (+590 more)
+- **63 isolated node(s):** `AMP`, `ApoE`, `BACE1`, `CDKN2A`, `CHK1` (+58 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **79 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `SIRT1` connect `Autophagy & Epigenetics` to `Community 106`, `Community 107`, `Community 108`, `SIRT6 DNA Repair`, `Community 22`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `Urolithin A` connect `Pomegranate & Urolithin A` to `Community 106`, `Community 107`, `Community 108`, `SIRT6 DNA Repair`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **What connects `Interleukin-1β`, `IL-18`, `ASC` to the rest of the system?**
-  _595 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Adrenochrome & Redox Biology` be split into smaller, more focused modules?**
-  _Cohesion score 0.05451127819548872 - nodes in this community are weakly interconnected._
-- **Should `Fenbendazole Anticancer` be split into smaller, more focused modules?**
-  _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
-- **Should `Adrenochrome Chemistry` be split into smaller, more focused modules?**
-  _Cohesion score 0.04994192799070848 - nodes in this community are weakly interconnected._
-- **Should `Benzimidazole Drug Repurposing` be split into smaller, more focused modules?**
-  _Cohesion score 0.057057057057057055 - nodes in this community are weakly interconnected._
+- **Why does `Apoptosis` connect `Cancer Therapeutics (BCL-2 Family)` to `Oxidative Stress & DNA Damage`, `Neurodegeneration & Dopamine Toxicity`, `Cancer Chemotherapy Mechanisms`, `Advanced Glycation End Products`, `Stem Cells & Epigenetics`, `Cancer Signaling (NF-kB, TGF-b)`, `Epigenomics & Gene Regulation`, `TGF-b/Activin/BMP Signaling`, `Adrenal Physiology & Endocrinology`, `mTOR Signaling & Inhibitors`, `Metabolic Enzymes & Acetylation`, `Antiparasitic Drug Repurposing`, `Autophagy & Neurodegeneration`, `Energy Metabolism & Transporters`, `Neuromelanin & Parkinson Disease`, `Cholesterol & Oxysterol Signaling`, `Mitohormesis & Stress Response`, `Targeted Cancer Therapy`, `Chromatin Remodeling & BRD4`, `Gut Microbiome & Aging`, `Methylation & COMT Biology`, `ABC Transporters & Peroxisomes`, `Autophagy Regulation & Fasting`, `NK Cells & Immune Checkpoint`, `Neurodegeneration & Blood-Brain Barrier`, `DNA Repair & Alkylation`, `Sirtuin Biology & NAD+`, `Basement Membrane & Cell Migration`, `Single-Cell & Vascular Biology`, `Chromatin Remodeling & BAF Complex`, `Kidney Injury & Amyloid`, `Autophagy Machinery (PIKfyve)`, `Alzheimers & Inflammasome`, `RAF-MEK-ERK Signaling`, `Autophagy Induction & AMPK`, `ER Stress & Unfolded Protein Response`, `Blood Gas Analysis & ICU Medicine`, `Insulin/AKT/DAF-2 Longevity Pathway`, `NF-kB Canonical Pathway`, `Fibrosis & Bleomycin Injury`, `NAD+ Metabolism & CD38`, `Extracellular Matrix & Fibrosis`, `Cell Division & Mitosis`, `Metabolic Syndrome & Aquaporins`, `Synaptic Plasticity & CAMKII`, `BMP Signaling & Bone Formation`, `Sphingolipid Storage Diseases`, `Inflammasome & Inflammaging`, `Dopamine & Basal Ganglia`, `Proteasome & Deubiquitinases`, `Cell Cycle & PKC Signaling`, `Creatine Metabolism`, `Dietary Intervention & Cognition`, `Neuromelanin Imaging`, `Infectious Disease & HIV`, `Mitochondrial-Derived Peptides`, `Sirtuin Relocalization & Epigenetics`, `Brain Bioenergetics & Aging`, `Muscle Cachexia & Wasting`, `Calcium Signaling & BDNF`, `ALS & Creatine Kinase`, `DNA Radiation Damage`, `Adherens Junction & Cell Polarity`, `IAP/Smac & Apoptosis`, `CRISPR Gene Editing`, `GABA Signaling & Anxiolysis`, `Adipokines & Glucose Homeostasis`, `Amyloid Processing & Secretases`, `Clinical Biomarkers & Diagnostics`?**
+  _High betweenness centrality (0.054) - this node is a cross-community bridge._
+- **Why does `Cancer` connect `Antiparasitic Drug Repurposing` to `Oxidative Stress & DNA Damage`, `Neurodegeneration & Dopamine Toxicity`, `Cancer Therapeutics (BCL-2 Family)`, `Cancer Chemotherapy Mechanisms`, `Advanced Glycation End Products`, `Stem Cells & Epigenetics`, `Cancer Signaling (NF-kB, TGF-b)`, `Epigenomics & Gene Regulation`, `TGF-b/Activin/BMP Signaling`, `Adrenal Physiology & Endocrinology`, `mTOR Signaling & Inhibitors`, `Metabolic Enzymes & Acetylation`, `Autophagy & Neurodegeneration`, `Energy Metabolism & Transporters`, `Neuromelanin & Parkinson Disease`, `Cholesterol & Oxysterol Signaling`, `Mitohormesis & Stress Response`, `Targeted Cancer Therapy`, `Chromatin Remodeling & BRD4`, `Gut Microbiome & Aging`, `Methylation & COMT Biology`, `ABC Transporters & Peroxisomes`, `Autophagy Regulation & Fasting`, `NK Cells & Immune Checkpoint`, `Neurodegeneration & Blood-Brain Barrier`, `DNA Repair & Alkylation`, `Sirtuin Biology & NAD+`, `Basement Membrane & Cell Migration`, `Single-Cell & Vascular Biology`, `Chromatin Remodeling & BAF Complex`, `Kidney Injury & Amyloid`, `Autophagy Machinery (PIKfyve)`, `Alzheimers & Inflammasome`, `RAF-MEK-ERK Signaling`, `Autophagy Induction & AMPK`, `ER Stress & Unfolded Protein Response`, `Blood Gas Analysis & ICU Medicine`, `Insulin/AKT/DAF-2 Longevity Pathway`, `NF-kB Canonical Pathway`, `Fibrosis & Bleomycin Injury`, `NAD+ Metabolism & CD38`, `Extracellular Matrix & Fibrosis`, `PGC-1a & Mitochondrial Biogenesis`, `Cell Division & Mitosis`, `Metabolic Syndrome & Aquaporins`, `Synaptic Plasticity & CAMKII`, `BMP Signaling & Bone Formation`, `Sphingolipid Storage Diseases`, `Inflammasome & Inflammaging`, `Proteasome & Deubiquitinases`, `Cell Cycle & PKC Signaling`, `Creatine Metabolism`, `Infectious Disease & HIV`, `Mitochondrial-Derived Peptides`, `Sirtuin Relocalization & Epigenetics`, `Brain Bioenergetics & Aging`, `Calcium Signaling & BDNF`, `ALS & Creatine Kinase`, `GATOR/LKB1 Amino Acid Sensing`, `Adherens Junction & Cell Polarity`, `IAP/Smac & Apoptosis`, `Glutamine Metabolism & TLR Signaling`, `CRISPR Gene Editing`, `Biological Aging & Vaccination`, `Mitochondrial Therapy & Aging`, `EPR Spectroscopy & Copper`, `Glutathione Synthesis & Bile Acids`, `Amyloid Processing & Secretases`, `Methylation Pathway (SAH/TMG)`?**
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **Why does `Autophagy` connect `Autophagy & Neurodegeneration` to `Oxidative Stress & DNA Damage`, `Neurodegeneration & Dopamine Toxicity`, `Cancer Therapeutics (BCL-2 Family)`, `Cancer Chemotherapy Mechanisms`, `Advanced Glycation End Products`, `Stem Cells & Epigenetics`, `Cancer Signaling (NF-kB, TGF-b)`, `Epigenomics & Gene Regulation`, `TGF-b/Activin/BMP Signaling`, `Adrenal Physiology & Endocrinology`, `mTOR Signaling & Inhibitors`, `Metabolic Enzymes & Acetylation`, `Antiparasitic Drug Repurposing`, `Energy Metabolism & Transporters`, `Neuromelanin & Parkinson Disease`, `Cholesterol & Oxysterol Signaling`, `Mitohormesis & Stress Response`, `Targeted Cancer Therapy`, `Chromatin Remodeling & BRD4`, `Gut Microbiome & Aging`, `Methylation & COMT Biology`, `ABC Transporters & Peroxisomes`, `Autophagy Regulation & Fasting`, `NK Cells & Immune Checkpoint`, `Neurodegeneration & Blood-Brain Barrier`, `DNA Repair & Alkylation`, `Sirtuin Biology & NAD+`, `Basement Membrane & Cell Migration`, `Single-Cell & Vascular Biology`, `Chromatin Remodeling & BAF Complex`, `Kidney Injury & Amyloid`, `Autophagy Machinery (PIKfyve)`, `Alzheimers & Inflammasome`, `RAF-MEK-ERK Signaling`, `Autophagy Induction & AMPK`, `ER Stress & Unfolded Protein Response`, `Blood Gas Analysis & ICU Medicine`, `Insulin/AKT/DAF-2 Longevity Pathway`, `Fibrosis & Bleomycin Injury`, `NAD+ Metabolism & CD38`, `Extracellular Matrix & Fibrosis`, `PGC-1a & Mitochondrial Biogenesis`, `Cell Division & Mitosis`, `Metabolic Syndrome & Aquaporins`, `Synaptic Plasticity & CAMKII`, `Sphingolipid Storage Diseases`, `Inflammasome & Inflammaging`, `Dopamine & Basal Ganglia`, `Proteasome & Deubiquitinases`, `Cell Cycle & PKC Signaling`, `Creatine Metabolism`, `Neuromelanin Imaging`, `Mitochondrial-Derived Peptides`, `Brain Bioenergetics & Aging`, `Calcium Signaling & BDNF`, `ALS & Creatine Kinase`, `GATOR/LKB1 Amino Acid Sensing`, `HPA Axis & Chronic Pain`, `Adherens Junction & Cell Polarity`, `IAP/Smac & Apoptosis`, `Biological Aging & Vaccination`, `GABA Signaling & Anxiolysis`, `Rheumatoid Arthritis & Autoimmunity`, `Epigenetic Biomarkers of Aging`, `Adipokines & Glucose Homeostasis`, `Glutathione Synthesis & Bile Acids`, `Amyloid Processing & Secretases`, `Clinical Biomarkers & Diagnostics`?**
+  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+- **Are the 680 inferred relationships involving `Oxidative Stress` (e.g. with `Oxidized LDL` and `Oximetry`) actually correct?**
+  _`Oxidative Stress` has 680 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 1113 inferred relationships involving `Cancer` (e.g. with `Cancer-Associated Fibroblasts` and `Cancer Cells`) actually correct?**
+  _`Cancer` has 1113 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 796 inferred relationships involving `Inflammation` (e.g. with `Inflammatory` and `Inflammatory and/or Muscle Damage`) actually correct?**
+  _`Inflammation` has 796 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 881 inferred relationships involving `Apoptosis` (e.g. with `Apoptosome` and `Apoptotic bodies`) actually correct?**
+  _`Apoptosis` has 881 INFERRED edges - model-reasoned connections that need verification._
