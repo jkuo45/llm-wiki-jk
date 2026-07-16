@@ -8,6 +8,7 @@
 - `notes` directory:
   - Contains files for wiki, directories within represent topics.
   - Each markdown file within that topic can be counted as a single entity.
+  - Each entity filename (`.md`) must be unique across all of `notes/` (including `notes/_link/` and all topic directories). Obsidian resolves wiki links globally by filename, so duplicates cause ambiguity.
 - `raw` directory:
   - Contains documents that have not yet been ingested into `notes/`. These are waiting to be processed through the Document Ingestion Workflow.
 - `tasks` directory:
