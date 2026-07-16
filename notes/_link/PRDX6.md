@@ -1,7 +1,6 @@
 ---
 title: PRDX6
 description: Peroxiredoxin 6 (PRDX6), a 1-Cys peroxiredoxin with peroxidase, iPLA2, and LPCAT activities; the direct molecular target of apigenin's senomorphic suppression of the SASP in senescent cells.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

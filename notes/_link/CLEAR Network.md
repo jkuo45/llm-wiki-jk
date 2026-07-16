@@ -1,7 +1,6 @@
 ---
 title: CLEAR Network
 description: The Coordinated Lysosomal Expression and Regulation network, a transcriptional program centered on TFEB/TFE3 that coordinates lysosomal biogenesis and autophagy gene expression.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: BAK
 description: Pro-apoptotic Bcl-2 family effector constitutively anchored to the outer mitochondrial membrane; oligomerizes with BAX to execute mitochondrial outer membrane permeabilization.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

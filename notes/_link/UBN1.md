@@ -1,7 +1,6 @@
 ---
 title: UBN1
 description: Ubinuclein 1, the metazoan-specific subunit of the HIRA histone chaperone complex required together with HIRA and ASF1a for SAHF formation in senescence.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

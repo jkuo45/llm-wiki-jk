@@ -1,7 +1,6 @@
 ---
 title: hs-CRP
 description: High-sensitivity C-reactive protein, a sensitive circulating marker of low-grade systemic inflammation and a proxy for recovery and mitohormetic status.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Chondrocytes
 description: The resident cells of cartilage responsible for synthesizing and maintaining the extracellular matrix.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

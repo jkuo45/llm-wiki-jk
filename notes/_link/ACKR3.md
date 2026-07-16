@@ -1,7 +1,6 @@
 ---
 title: ACKR3
 description: Atypical chemokine receptor 3 (ACKR3, formerly CXCR7) is a scavenger/decoy receptor for CXCL12 that regulates chemokine gradients and signaling, implicated in vascular aging, cancer, and development.
-type: entity
 protected: false
 created: 2026-07-15
 updated: 2026-07-15

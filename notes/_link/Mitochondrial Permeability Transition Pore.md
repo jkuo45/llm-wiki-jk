@@ -1,7 +1,6 @@
 ---
 title: Mitochondrial Permeability Transition Pore
 description: Cyclosporin A-sensitive megachannel whose sustained opening causes mitochondrial swelling, outer-membrane rupture, and cell death.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

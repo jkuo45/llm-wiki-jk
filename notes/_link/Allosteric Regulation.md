@@ -1,7 +1,6 @@
 ---
 title: Allosteric Regulation
 description: Modulation of protein function through binding of an effector at a site distinct from the active site, inducing conformational change.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: TLR4
 description: Toll-like receptor 4, a cell-surface innate immune receptor for LPS that signals through both MyD88 and TRIF adaptors to drive inflammation.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

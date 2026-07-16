@@ -1,7 +1,6 @@
 ---
 title: Tumorigenesis
 description: The multi-step process by which normal cells transform into cancer cells through accumulation of genetic and epigenetic alterations
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-process, cancer, tumor-development]

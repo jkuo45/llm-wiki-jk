@@ -1,7 +1,6 @@
 ---
 title: Nrf2
 description: Transcription factor (NF-E2-related factor 2) that orchestrates the antioxidant and detoxification response by binding ARE/EpRE elements.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

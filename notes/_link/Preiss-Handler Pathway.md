@@ -1,7 +1,6 @@
 ---
 title: Preiss-Handler Pathway
 description: The de novo biosynthetic route to NAD+ from tryptophan/niacin via quinolinate, named for the Preiss-Handler reaction.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

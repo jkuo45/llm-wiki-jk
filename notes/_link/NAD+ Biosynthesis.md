@@ -1,7 +1,6 @@
 ---
 title: NAD+ Biosynthesis
 description: Enzymatic routes that generate nicotinamide adenine dinucleotide, spanning de novo, salvage, and Preiss-Handler pathways that fuel sirtuins, PARPs, and redox metabolism.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

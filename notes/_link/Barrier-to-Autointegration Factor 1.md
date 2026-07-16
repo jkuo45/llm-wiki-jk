@@ -1,7 +1,6 @@
 ---
 title: Barrier-to-Autointegration Factor 1
 description: A chromatin-associated protein that binds the nuclear envelope and regulates cGAS localization and activity.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, chromatin, nuclear-envelope]

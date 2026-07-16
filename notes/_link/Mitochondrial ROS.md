@@ -1,7 +1,6 @@
 ---
 title: Mitochondrial ROS
 description: Mitochondrial ROS (mtROS) are Reactive Oxygen Species generated primarily at Complex I and Complex III of the electron transport chain; they drive oxidative damage at high levels but mediate adaptive signaling at low levels.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

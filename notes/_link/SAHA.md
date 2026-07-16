@@ -1,7 +1,6 @@
 ---
 title: SAHA
 description: SAHA (vorinostat) is a hydroxamic-acid pan-HDAC inhibitor and the first FDA-approved histone deacetylase inhibitor, increasing histone acetylation and derepressing gene expression.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Metabolites
 description: Metabolites are the small-molecule intermediates and end products of enzyme-catalyzed metabolism; their collective profile (the metabolome) shifts with age and microbiome composition.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

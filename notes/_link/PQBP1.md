@@ -1,7 +1,6 @@
 ---
 title: PQBP1
 description: Polyglutamine binding protein 1, an intranuclear RNA-binding protein that adapts monomeric tau to cGAS to activate cGAS-STING independently of DNA.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, rna-binding-protein, innate-immunity, tauopathy, cgas-sting]

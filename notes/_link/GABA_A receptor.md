@@ -1,7 +1,6 @@
 ---
 title: GABA_A receptor
 description: A ligand-gated chloride channel and the principal inhibitory receptor in the CNS; target of benzodiazepines, barbiturates, and neuroactive phytochemicals such as honokiol and magnolol.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

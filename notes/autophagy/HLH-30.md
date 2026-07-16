@@ -1,7 +1,6 @@
 ---
 title: HLH-30
 description: HLH-30 (Helix-loop-helix 30) is the C. elegans orthologue of the mammalian transcription factor TFEB/TFE3, serving as a master regulator of autophagy and lysosome biogenesis that drives lifespan extension, stress resistance, and nutrient mobilization.
-type: entity
 protected: false
 created: 2026-07-04
 updated: 2026-07-14

@@ -1,7 +1,6 @@
 ---
 title: Horvath Clock
 description: A pan-tissue epigenetic clock estimating chronological age from DNA methylation at 353 CpG sites, applicable across the human body.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: MLL1
 description: Histone-lysine N-methyltransferase 2A (KMT2A), the major H3K4me3 methyltransferase that restrains SASP by sustaining the DNA damage response in senescent cells.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

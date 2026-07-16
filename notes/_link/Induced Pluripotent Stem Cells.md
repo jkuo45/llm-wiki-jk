@@ -1,7 +1,6 @@
 ---
 title: Induced Pluripotent Stem Cells
 description: Patient-derived iPSCs used to model human cGAS-STING signaling in neurons, microglia, astrocytes, and motor neurons.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, stem-cell, in-vitro-model]

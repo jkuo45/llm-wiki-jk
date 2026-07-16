@@ -1,7 +1,6 @@
 ---
 title: Blood-Brain Barrier
 description: The neurovascular interface that restricts CNS immune infiltration, dynamically regulated by cell-type-specific cGAS-STING signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, neurovascular, cns-barrier]

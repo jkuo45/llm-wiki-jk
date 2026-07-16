@@ -1,7 +1,6 @@
 ---
 title: Senescence-Messaging Secretome
 description: Alternative name for the SASP emphasizing its role as a communication network between senescent cells and their microenvironment
-type: entity
 protected: false
 created: 2025-07-10
 updated: 2025-07-10

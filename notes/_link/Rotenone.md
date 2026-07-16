@@ -1,7 +1,6 @@
 ---
 title: Rotenone
 description: Rotenone is a naturally occurring isoflavonoid pesticide and classic Complex I inhibitor used to model Parkinson's disease through mitochondrial dysfunction and oxidative stress.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

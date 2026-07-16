@@ -1,7 +1,6 @@
 ---
 title: ATR
 description: Ataxia Telangiectasia and Rad3-related protein kinase, a central sensor of replication stress and single-stranded DNA that activates the DNA damage checkpoint and drives senescence
-type: entity
 protected: false
 created: 2026-07-04
 updated: 2026-07-13

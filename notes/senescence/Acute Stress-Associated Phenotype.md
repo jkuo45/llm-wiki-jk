@@ -1,7 +1,6 @@
 ---
 title: Acute Stress-Associated Phenotype
 description: The ASAP is the rapid, acute cellular response to stress (ATM/TRAF6/TAK1 activation) that precedes and can transition into the chronic senescence-associated secretory phenotype (SASP).
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

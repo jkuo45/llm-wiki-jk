@@ -1,7 +1,6 @@
 ---
 title: CDH5
 description: Vascular endothelial cadherin (VE-cadherin), the principal adhesion molecule at endothelial adherens junctions
-type: entity
 protected: false
 created: 2026-07-15
 updated: 2026-07-15

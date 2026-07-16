@@ -1,7 +1,6 @@
 ---
 title: Rubicon
 description: A RUN domain-containing protein that inhibits the Beclin 1–Vps34 autophagy complex and negatively regulates autophagosome formation and endocytic maturation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

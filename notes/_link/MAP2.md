@@ -1,7 +1,6 @@
 ---
 title: MAP2
 description: Microtubule-associated protein 2, a dendritic cytoskeletal protein of neurons important for microtubule stabilization and neuronal morphology.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

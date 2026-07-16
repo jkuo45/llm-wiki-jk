@@ -4,7 +4,6 @@ description: >-
   5-bromo-2'-deoxyuridine (BrdU) is a thymidine analog incorporated into
   replicating DNA, used experimentally as a proliferation/DNA-synthesis marker;
   reduced BrdU incorporation is a readout of senescence-associated growth arrest.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

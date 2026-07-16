@@ -1,7 +1,6 @@
 ---
 title: Extracellular Vesicles
 description: Membrane-bound particles that package cGAMP and mtDNA to propagate cGAS-STING activation between CNS cells.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-structure, intercellular-signaling, cgas-sting, neuroinflammation]

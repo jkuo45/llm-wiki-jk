@@ -1,7 +1,6 @@
 ---
 title: N6-methyladenosine
 description: The most abundant internal mRNA methylation mark (m6A), deposited by the METTL3-METTL14 writer complex and implicated in senescence-associated transcriptomic and 3D-genome remodeling.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

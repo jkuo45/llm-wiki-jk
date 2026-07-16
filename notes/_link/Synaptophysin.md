@@ -1,7 +1,6 @@
 ---
 title: Synaptophysin
 description: Synaptic vesicle glycoprotein (SYP) used as a pan-neuronal presynaptic marker reflecting synaptic density and connectivity.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: Proteobacteria
 description: Proteobacteria is a major phylum of Gram-negative bacteria, including many pathogens; its increased abundance in the gut is frequently associated with dysbiosis, inflammation, and aging-related inflammaging.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

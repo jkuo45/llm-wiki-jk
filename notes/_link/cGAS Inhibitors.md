@@ -1,7 +1,6 @@
 ---
 title: cGAS Inhibitors
 description: Experimental small molecules that suppress cGAS enzymatic activity to dampen cGAS-STING–driven neuroinflammation.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [drug-class, compound, cgas-inhibitor, cgas-sting]

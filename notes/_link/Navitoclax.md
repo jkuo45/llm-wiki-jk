@@ -1,7 +1,6 @@
 ---
 title: Navitoclax
 description: Navitoclax (ABT-263) is an orally bioavailable BH3-mimetic that inhibits BCL-2/BCL-xL/BCL-w, acting as a senolytic and anticancer agent limited by thrombocytopenia.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

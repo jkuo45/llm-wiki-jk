@@ -1,7 +1,6 @@
 ---
 title: Glutathione S-Transferase
 description: A family of phase II detoxifying enzymes that conjugate glutathione to electrophilic substrates, regulated by the NRF2–ARE pathway and implicated in cellular antioxidant defense and mitophagy.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

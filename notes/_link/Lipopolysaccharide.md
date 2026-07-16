@@ -1,7 +1,6 @@
 ---
 title: Lipopolysaccharide
 description: Gram-negative bacterial outer-membrane endotoxin (LPS) that activates Toll-like receptor 4 and drives sterile and septic inflammation, redox stress, and inflammaging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

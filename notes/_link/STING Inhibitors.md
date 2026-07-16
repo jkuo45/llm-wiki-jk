@@ -1,7 +1,6 @@
 ---
 title: STING Inhibitors
 description: Experimental small molecules that block STING signaling to reduce neuroinflammation and neuronal death.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [drug-class, compound, sting-inhibitor, cgas-sting]

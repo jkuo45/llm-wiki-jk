@@ -1,7 +1,6 @@
 ---
 title: Isourolithin A
 description: Isourolithin A is a gut-microbial ellagitannin metabolite and isomer of urolithin A, sharing mitophagy-inducing and antioxidant activities.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

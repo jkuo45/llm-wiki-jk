@@ -1,7 +1,6 @@
 ---
 title: HSPA8
 description: Heat shock cognate protein 70 (HSPA8 / HSC70), a constitutively expressed HSP70 family chaperone that bridges ATM and p38 MAPK signaling and is the interaction node disrupted by apigenin to suppress the SASP in senescent cells.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

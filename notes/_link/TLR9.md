@@ -1,7 +1,6 @@
 ---
 title: TLR9
 description: Endosomal Toll-like receptor that senses unmethylated CpG DNA and modulates cGAS expression in a context-dependent manner.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, receptor, innate-immunity]

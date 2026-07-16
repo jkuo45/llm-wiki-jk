@@ -1,7 +1,6 @@
 ---
 title: Liquid-Liquid Phase Separation
 description: A physical process by which intrinsically disordered proteins assemble into membraneless condensates, exploited by noncanonical cGAS for nuclear scaffolding.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-process, biophysics, phase-separation]

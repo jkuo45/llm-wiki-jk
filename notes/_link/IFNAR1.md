@@ -1,7 +1,6 @@
 ---
 title: IFNAR1
 description: Interferon alpha/beta receptor subunit 1, the type I interferon receptor subunit that transmits microglial IFN-I signaling to neurons.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [receptor, type-i-interferon, neuroinflammation, signal-transduction]

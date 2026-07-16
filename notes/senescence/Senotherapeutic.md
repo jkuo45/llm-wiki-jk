@@ -1,7 +1,6 @@
 ---
 title: Senotherapeutic
 description: A therapeutic that targets cellular senescence, either by eliminating senescent cells (senolytics) or suppressing their harmful phenotype (senomorphics).
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

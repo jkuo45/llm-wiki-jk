@@ -1,7 +1,6 @@
 ---
 title: H2A.X
 description: H2A histone variant whose Ser139-phosphorylated form (γ-H2A.X) marks DNA double-strand breaks and is required for DNA-damage-induced senescence and SASP.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

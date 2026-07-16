@@ -1,7 +1,6 @@
 ---
 title: Vincristine
 description: Vincristine is a Vinca alkaloid chemotherapeutic that inhibits microtubule polymerization, arresting mitosis; dose-limiting peripheral neuropathy is characteristic.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

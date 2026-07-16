@@ -1,7 +1,6 @@
 ---
 title: Micronuclei
 description: Aberrant nuclear structures formed from missegregated chromosomes that serve as cGAS-STING DNA-sensing platforms.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-structure, micronuclei, genomic-instability, dna-sensing]

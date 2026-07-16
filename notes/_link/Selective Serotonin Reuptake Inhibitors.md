@@ -1,7 +1,6 @@
 ---
 title: Selective Serotonin Reuptake Inhibitors
 description: Selective serotonin reuptake inhibitors (SSRIs) are a major class of antidepressants that raise synaptic serotonin; dangerous with MAO inhibitors.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

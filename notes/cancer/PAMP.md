@@ -1,7 +1,6 @@
 ---
 title: PAMP
 description: Pathogen-Associated Molecular Patterns; conserved microbial molecules recognized by pattern recognition receptors to activate innate immunity
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-molecule, innate-immunity, inflammation, cancer]

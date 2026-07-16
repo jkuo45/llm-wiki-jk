@@ -1,7 +1,6 @@
 ---
 title: PD-L1
 description: Programmed death-ligand 1, a transmembrane protein that inhibits T-cell function by binding to PD-1, serving as a key immune checkpoint in cancer and inflammation
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -3,7 +3,6 @@ title: MMP-13
 description: Matrix metalloproteinase 13 (collagenase-3), a SASP protease that degrades type II
   collagen and remodels the extracellular matrix, contributing to osteoarthritis and age-related
   tissue pathology.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

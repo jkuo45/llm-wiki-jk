@@ -1,7 +1,6 @@
 ---
 title: Rb
 description: Retinoblastoma protein, a master regulator of the G1/S cell cycle checkpoint whose hypophosphorylated state enforces senescence by sequestering E2F transcription factors
-type: entity
 protected: false
 created: 2026-07-04
 updated: 2026-07-13

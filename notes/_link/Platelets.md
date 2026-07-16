@@ -1,7 +1,6 @@
 ---
 title: Platelets
 description: Anucleate cytoplasmic fragments derived from megakaryocytes that mediate hemostasis and thrombosis.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

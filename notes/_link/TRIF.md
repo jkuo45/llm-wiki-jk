@@ -1,7 +1,6 @@
 ---
 title: TRIF
 description: TIR-domain-containing adaptor protein inducing interferon-β (TRIF/TICAM1), the sole adaptor for TLR3 signaling and a key branch of TLR4 signaling that activates IRF3, NF-κB, and STAT1.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

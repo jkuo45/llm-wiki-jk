@@ -1,7 +1,6 @@
 ---
 title: Retrograde Signaling
 description: A pathway of communication from the mitochondria to the cell that influences cellular and organismal activities
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: PGC-1α
 description: Peroxisome proliferator-activated receptor gamma coactivator 1-alpha, the master transcriptional coactivator of mitochondrial biogenesis and oxidative metabolism, deacetylated and activated by SIRT1.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

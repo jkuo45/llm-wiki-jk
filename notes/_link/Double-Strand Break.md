@@ -1,7 +1,6 @@
 ---
 title: Double-Strand Break
 description: A lesion in which both strands of the DNA duplex are severed, triggering coordinated DNA damage responses and the recruitment of chromatin modifiers to repair sites.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

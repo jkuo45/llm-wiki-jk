@@ -1,7 +1,6 @@
 ---
 title: cDNA
 description: Complementary DNA synthesized from an RNA template by reverse transcriptase; also used to refer to cytoplasmic DNA fragments in the context of cGAS-STING signaling
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-molecule, genetics, molecular-biology, cancer]

@@ -1,7 +1,6 @@
 ---
 title: PhenoAge
 description: A second-generation epigenetic clock trained on a composite of clinical blood biomarkers to estimate biological age and all-cause mortality risk.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Endothelial-to-Mesenchymal Transition
 description: A transdifferentiation process by which endothelial cells lose their characteristic endothelial traits and acquire mesenchymal/contractile features, implicated in vascular aging and fibrosis.
-type: entity
 protected: false
 created: 2026-07-15
 updated: 2026-07-15

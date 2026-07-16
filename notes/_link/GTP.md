@@ -1,7 +1,6 @@
 ---
 title: GTP
 description: Guanosine triphosphate, a purine nucleotide substrate required by cGAS to synthesize 2'3'-cGAMP.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [compound, nucleotide, purine-nucleotide, cgas-sting]

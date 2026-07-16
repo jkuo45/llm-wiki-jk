@@ -1,7 +1,6 @@
 ---
 title: Mutations
 description: Permanent alterations to the DNA sequence; contrasted with reversible epigenetic information loss in the Information Theory of Aging and RCM hypothesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

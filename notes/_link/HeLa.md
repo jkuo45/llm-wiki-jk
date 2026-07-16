@@ -1,7 +1,6 @@
 ---
 title: HeLa
 description: The first immortal human cell line, derived from cervical adenocarcinoma, foundational to modern cell biology.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: KRAS
 description: A proto-oncogene encoding a small GTPase in the RAS family; frequently mutated in cancer, including lung, colorectal, and pancreatic cancers
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [gene, oncogene, cancer, signaling]

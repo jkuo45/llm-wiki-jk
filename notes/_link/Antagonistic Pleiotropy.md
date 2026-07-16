@@ -1,7 +1,6 @@
 ---
 title: Antagonistic Pleiotropy
 description: An evolutionary concept wherein a trait beneficial to early-life fitness becomes detrimental later in life, proposed as the reason RCM evolved as a short-term survival response that drives aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

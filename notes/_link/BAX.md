@@ -1,7 +1,6 @@
 ---
 title: BAX
 description: Pro-apoptotic Bcl-2 family effector protein that oligomerizes in the outer mitochondrial membrane to drive mitochondrial outer membrane permeabilization (MOMP) and apoptotic cell death.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -3,7 +3,6 @@ title: HLA-E
 description: A non-classical MHC class Ib molecule that engages the inhibitory NKG2A/CD94 receptor
   to suppress NK and CD8+ T cell killing; upregulated by SASP cytokines to enable senescent-cell
   and cancer immune evasion.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

@@ -1,7 +1,6 @@
 ---
 title: Parasympathetic Nervous System
 description: The "rest, digest, and repair" branch of the autonomic nervous system, governed by the vagus nerve, that raises HRV and drives recovery from hormetic stress.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

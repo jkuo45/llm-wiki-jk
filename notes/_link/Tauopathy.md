@@ -1,7 +1,6 @@
 ---
 title: Tauopathy
 description: Neurodegenerative diseases characterized by pathological aggregation of the microtubule-associated protein tau.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [disease, tauopathy, neurodegeneration, protein-aggregation]

@@ -1,7 +1,6 @@
 ---
 title: Bleomycin
 description: A genotoxic glycopeptide antibiotic used to induce cellular senescence (therapy-induced senescence, TIS) in senescence research and as a clinical chemotherapeutic.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

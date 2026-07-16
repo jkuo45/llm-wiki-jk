@@ -1,7 +1,6 @@
 ---
 title: B Cells
 description: Antibody-producing adaptive lymphocytes that infiltrate the CNS in neurodegeneration and are shaped by cGAS-STING signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, lymphocyte, adaptive-immunity, neuroinflammation]

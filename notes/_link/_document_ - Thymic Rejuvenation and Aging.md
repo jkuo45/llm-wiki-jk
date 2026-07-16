@@ -9,7 +9,6 @@ created: 2026-07-10
 description: "The thymus is a vital organ for homeostatic maintenance of the peripheral immune system. It is within this mediastinal tissue that T cells develop and are extensively educated and exported to the periphery for establishment of a functional and ..."
 tags:
   - "clippings"
-type: "document"
 ---
 . Author manuscript; available in PMC: 2014 Aug 1.
 

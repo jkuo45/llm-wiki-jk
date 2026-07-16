@@ -1,7 +1,6 @@
 ---
 title: HDAC1
 description: Histone deacetylase 1 — a class I HDAC that maintains gene-expression programs at specific genomic loci and relocalizes to DNA damage sites, featuring in the RCM hypothesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

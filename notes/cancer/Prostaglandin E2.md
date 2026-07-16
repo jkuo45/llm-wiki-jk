@@ -1,7 +1,6 @@
 ---
 title: Prostaglandin E2
 description: A bioactive lipid mediator produced from arachidonic acid via COX-2; a key SASP component with immunosuppressive activity in cancer
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-molecule, inflammation, senescence, cancer, immune-suppression]

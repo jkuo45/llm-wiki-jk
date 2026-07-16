@@ -1,7 +1,6 @@
 ---
 title: Ischemic Stroke
 description: Ischemic stroke is acute brain injury from arterial occlusion and hypoxia-ischemia; methylene blue has investigational neuroprotective relevance.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

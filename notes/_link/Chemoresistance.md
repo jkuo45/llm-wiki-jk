@@ -1,7 +1,6 @@
 ---
 title: Chemoresistance
 description: Resistance of cancer cells to chemotherapy; in the apigenin study, senescence-associated secretory phenotype (SASP) factors from therapy-damaged stromal cells confer chemoresistance that apigenin reverses.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

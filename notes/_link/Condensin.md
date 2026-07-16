@@ -1,7 +1,6 @@
 ---
 title: Condensin
 description: The SMC2-SMC4 condensin complex that binds B-to-A compartment-switching regions in senescent cells, where its enrichment coincides with upregulation of SASP genes.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

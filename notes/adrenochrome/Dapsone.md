@@ -1,7 +1,6 @@
 ---
 title: Dapsone
 description: Dapsone is a sulfone antibiotic and anti-inflammatory drug; its hydroxylamine metabolite is a leading cause of drug-induced methemoglobinemia and hemolysis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

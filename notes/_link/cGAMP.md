@@ -1,7 +1,6 @@
 ---
 title: cGAMP
 description: 2'3'-cyclic GMP-AMP; a cyclic dinucleotide second messenger produced by cGAS that activates STING
-type: entity
 created: 2026-07-09
 updated: 2026-07-13
 tags: [biological-molecule, cgas-sting, innate-immunity, senescence, cancer, neuroinflammation]

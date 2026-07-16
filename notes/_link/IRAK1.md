@@ -1,7 +1,6 @@
 ---
 title: IRAK1
 description: Interleukin-1 receptor-associated kinase 1, an upstream kinase in IL-1R/TLR signaling whose inhibition by apigenin contributes to SASP suppression.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

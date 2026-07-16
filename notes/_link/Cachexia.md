@@ -1,7 +1,6 @@
 ---
 title: Cachexia
 description: A multifactorial syndrome of severe body-weight loss, muscle and fat wasting driven by systemic inflammation and catabolic signaling, complicating chronic disease.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

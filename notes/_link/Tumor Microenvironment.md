@@ -1,7 +1,6 @@
 ---
 title: Tumor Microenvironment
 description: The complex ecosystem of stromal cells, immune cells, vasculature, extracellular matrix, and signaling molecules surrounding and interacting with tumor cells
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

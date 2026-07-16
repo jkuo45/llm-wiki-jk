@@ -1,7 +1,6 @@
 ---
 title: Exosomes
 description: Small extracellular vesicles (30-150 nm) that mediate intercellular communication by transferring proteins, lipids, and nucleic acids
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-molecule, cell-communication, senescence, cancer, extracellular-vesicles]

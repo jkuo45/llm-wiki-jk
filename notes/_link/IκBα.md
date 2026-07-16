@@ -1,7 +1,6 @@
 ---
 title: IκBα
 description: The inhibitory subunit of the NF-κB complex; degraded upon senescence stress and reversed by apigenin/VER155008, curtailing NF-κB activation and the SASP.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

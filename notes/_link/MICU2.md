@@ -1,7 +1,6 @@
 ---
 title: MICU2
 description: Mitochondrial calcium uptake regulator that cooperates with MICU1 to keep the MCU pore closed at low cytosolic Ca2+, reinforcing the uptake threshold.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

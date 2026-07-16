@@ -1,7 +1,6 @@
 ---
 title: Telomere
 description: Repetitive nucleoprotein caps at chromosome ends that protect genomic integrity and shorten with age and cell division.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

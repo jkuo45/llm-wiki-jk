@@ -1,7 +1,6 @@
 ---
 title: Atrial natriuretic peptide
 description: Cardiac hormone (ANP) secreted by atrial cardiomyocytes that promotes natriuresis, diuresis, and vasodilation to lower blood pressure and volume.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

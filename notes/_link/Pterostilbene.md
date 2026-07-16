@@ -1,7 +1,6 @@
 ---
 title: Pterostilbene
 description: A natural dimethylated stilbenoid polyphenol from blueberries that activates sirtuins and AMPK, mimicking caloric restriction.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: mTOR Inhibitor
 description: A pharmacological agent that suppresses the mechanistic target of rapamycin, inducing autophagy and mimicking caloric restriction.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

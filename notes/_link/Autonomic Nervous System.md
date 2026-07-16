@@ -1,7 +1,6 @@
 ---
 title: Autonomic Nervous System
 description: The involuntary branch of the peripheral nervous system (sympathetic and parasympathetic) that regulates visceral function and, via HRV, mirrors recovery capacity.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

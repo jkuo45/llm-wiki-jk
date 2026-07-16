@@ -1,7 +1,6 @@
 ---
 title: CXCR4
 description: C-X-C chemokine receptor type 4 (CD184), the principal receptor for CXCL12 (SDF-1), implicated in stem cell homing, cancer metastasis, HIV entry, and vascular aging.
-type: entity
 created: 2026-07-15
 updated: 2026-07-15
 tags:

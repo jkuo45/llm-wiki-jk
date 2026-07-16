@@ -2,7 +2,6 @@
 title: E-cadherin
 description: Epithelial cadherin (CDH1), a calcium-dependent cell-cell adhesion protein whose loss
   marks epithelial-to-mesenchymal transition; referenced in the SASP tumorigenesis module.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

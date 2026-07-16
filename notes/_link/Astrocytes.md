@@ -1,7 +1,6 @@
 ---
 title: Astrocytes
 description: Star-shaped glia that support neurons and, when activated via cGAS-STING, adopt neurotoxic A1/senescent states in neurodegeneration.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, glia, neuroinflammation, cgas-sting]

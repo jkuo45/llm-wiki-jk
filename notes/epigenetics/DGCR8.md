@@ -1,7 +1,6 @@
 ---
 title: DGCR8
 description: Double-stranded RNA-binding protein and heme-dependent cofactor of Drosha; forms the Microprocessor complex to recognize pri-miRNA during miRNA biogenesis.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

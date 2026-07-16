@@ -1,7 +1,6 @@
 ---
 title: Pericytes
 description: Perivascular cells of the neurovascular unit whose cGAS activation destabilizes the blood-brain barrier in tauopathy.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, vascular, neurovascular]

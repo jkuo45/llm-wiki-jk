@@ -1,7 +1,6 @@
 ---
 title: OMA1
 description: OMA1 is a mitochondrial inner-membrane zinc metalloprotease activated by mitochondrial stress; it cleaves OPA1 and DELE1 to couple dynamics, mitophagy, and the integrated stress response.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Nicotinamide nucleotide transhydrogenase
 description: Mitochondrial inner-membrane enzyme (NNT) that transfers hydride from NADH to NADP+, coupling to proton translocation.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

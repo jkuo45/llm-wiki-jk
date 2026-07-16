@@ -1,7 +1,6 @@
 ---
 title: Neuron
 description: Excitable eukaryotic cell of the nervous system specialized for receiving, integrating, and transmitting electrical and chemical signals.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

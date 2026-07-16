@@ -1,7 +1,6 @@
 ---
 title: ICE Mouse
 description: Inducible Changes in the Epigenome (ICE) mouse — a mammalian model using I-PpoI to induce mutation-free double-strand breaks, demonstrating RCM-driven epigenetic aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

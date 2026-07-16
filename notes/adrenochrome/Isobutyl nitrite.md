@@ -1,7 +1,6 @@
 ---
 title: Isobutyl nitrite
 description: Isobutyl nitrite is an alkyl nitrite inhalant ("popper") and potent oxidizing agent that induces methemoglobinemia by oxidizing hemoglobin iron.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

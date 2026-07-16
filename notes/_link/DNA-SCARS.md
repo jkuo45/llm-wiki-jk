@@ -1,7 +1,6 @@
 ---
 title: DNA-SCARS
 description: Persistent nuclear DNA damage foci (DNA segments with chromatin alterations reinforcing senescence) that sustain growth arrest and inflammatory cytokine secretion in senescence.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

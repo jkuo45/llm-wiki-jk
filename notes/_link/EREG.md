@@ -1,7 +1,6 @@
 ---
 title: EREG
 description: Epiregulin, a transmembrane EGFR ligand and SASP factor secreted by senescent stromal cells that drives cancer chemoresistance; circulating EREG is reversed by apigenin in vivo.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

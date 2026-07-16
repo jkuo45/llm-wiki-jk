@@ -1,7 +1,6 @@
 ---
 title: Respiratory Chain Complex I
 description: Complex I (NADH:ubiquinone oxidoreductase) is the largest ETC enzyme; it oxidizes NADH, reduces ubiquinone, pumps protons, and is a major superoxide source.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

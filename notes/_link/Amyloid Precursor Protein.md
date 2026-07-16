@@ -1,7 +1,6 @@
 ---
 title: Amyloid Precursor Protein
 description: A type I transmembrane protein whose proteolytic cleavage produces amyloid-beta peptides implicated in Alzheimer's Disease
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

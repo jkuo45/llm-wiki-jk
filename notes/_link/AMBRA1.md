@@ -1,7 +1,6 @@
 ---
 title: AMBRA1
 description: An autophagy and cell-cycle regulator that activates the Beclin 1–Vps34 complex during starvation and targets D-type cyclins for degradation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

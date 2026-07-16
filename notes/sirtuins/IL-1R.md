@@ -1,7 +1,6 @@
 ---
 title: IL-1R
 description: Interleukin-1 receptor — the receptor for IL-1 cytokines (IL-1α/IL-1β) that initiates MyD88/IRAK/TRAF6-dependent NF-κB signaling; a pro-inflammatory node modulated by sirtuins.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

@@ -1,7 +1,6 @@
 ---
 title: PECAM1
 description: Platelet endothelial cell adhesion molecule 1 (CD31), a transmembrane glycoprotein expressed on endothelial cells and immune cells
-type: entity
 protected: false
 created: 2026-07-15
 updated: 2026-07-15

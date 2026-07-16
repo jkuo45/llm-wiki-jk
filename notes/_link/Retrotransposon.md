@@ -1,7 +1,6 @@
 ---
 title: Retrotransposon
 description: Mobile genetic elements that copy themselves within the genome via an RNA intermediate; normally silenced by chromatin modifiers, but can be de-repressed by epigenetic dysregulation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

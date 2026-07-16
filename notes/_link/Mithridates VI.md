@@ -1,7 +1,6 @@
 ---
 title: Mithridates VI
 description: Mithridates VI, King of Pontus (c. 134–63 BCE), practiced gradual poison exposure (Mithridatism), a historical precursor to the modern concept of Hormesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

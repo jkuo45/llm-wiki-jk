@@ -1,7 +1,6 @@
 ---
 title: H3K9ac
 description: Acetylation of histone H3 at lysine 9 (H3K9ac) — an euchromatic, transcription-permissive mark that is removed by the sirtuins SIRT1 and SIRT6 to impose gene silencing, suppress NF-κB, and facilitate DNA repair.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

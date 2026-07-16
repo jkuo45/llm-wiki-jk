@@ -1,7 +1,6 @@
 ---
 title: Astrocyte Senescence
 description: Acquisition of a senescence-associated phenotype by astrocytes, driven by cGAS-STING signaling in neurodegenerative disease.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-process, astrocyte-senescence, cellular-senescence, neuroinflammation]

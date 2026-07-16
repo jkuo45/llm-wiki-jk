@@ -1,7 +1,6 @@
 ---
 title: Hallmarks of Aging
 description: The hallmarks of aging are the interconnected molecular and cellular changes that drive progressive loss of physiological integrity across organisms.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

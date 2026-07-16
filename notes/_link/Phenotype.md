@@ -1,7 +1,6 @@
 ---
 title: Phenotype
 description: A phenotype is the set of observable characteristics or traits of an organism—morphological, developmental, biochemical, physiological, and behavioral—shaped by genotype and environment.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

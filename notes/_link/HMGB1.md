@@ -1,7 +1,6 @@
 ---
 title: HMGB1
 description: High Mobility Group Box 1, a nuclear alarmin and potent SASP factor released from senescent cells that drives inflammation and immune activation via TLR and RAGE signaling
-type: entity
 protected: false
 created: 2026-07-04
 updated: 2026-07-13

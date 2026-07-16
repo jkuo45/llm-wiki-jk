@@ -1,7 +1,6 @@
 ---
 title: c-Jun
 description: Jun proto-oncogene (JUN), an AP-1 family pioneer transcription factor that opens senescence-associated SASP enhancers and partially enforces the senescence growth arrest.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Nociceptor
 description: Sensory neurons whose cGAS-STING signaling drives chronic neuropathic pain and regulates axonal regeneration.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, sensory-neuron, pain, cgas-sting]

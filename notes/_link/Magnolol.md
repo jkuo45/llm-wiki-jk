@@ -1,7 +1,6 @@
 ---
 title: Magnolol
 description: A biphenyl neolignan from Magnolia species, structural analog of honokiol, with neuroprotective, anxiolytic, anti-inflammatory, antibacterial, and antioxidant activities.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

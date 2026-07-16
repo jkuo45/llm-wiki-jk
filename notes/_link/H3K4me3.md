@@ -1,7 +1,6 @@
 ---
 title: H3K4me3
 description: Trimethylation of histone H3 at lysine 4, an activating promoter mark enriched at active gene promoters whose redistribution in senescence impacts SASP and DDR gene regulation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

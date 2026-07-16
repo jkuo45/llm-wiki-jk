@@ -1,7 +1,6 @@
 ---
 title: Glutamate
 description: Major excitatory neurotransmitter whose excessive synaptic signaling drives excitotoxicity, mitochondrial dysfunction, and redox injury in neurodegeneration.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

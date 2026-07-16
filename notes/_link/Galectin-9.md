@@ -1,7 +1,6 @@
 ---
 title: Galectin-9
 description: A member of the galectin family of β-galactoside-binding lectins with dual roles in immune regulation and tumor biology
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

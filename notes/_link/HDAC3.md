@@ -1,7 +1,6 @@
 ---
 title: HDAC3
 description: Histone deacetylase 3, a class I HDAC that partners with the reader HDAC4 to restrain AP-1-driven SASP enhancer activation in senescence.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Propionate
 description: Propionate is a three-carbon short-chain fatty acid produced by gut microbiota fermentation of fiber; it fuels hepatic gluconeogenesis and modulates appetite, immunity, and inflammation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

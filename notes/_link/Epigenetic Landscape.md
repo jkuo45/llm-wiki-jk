@@ -1,7 +1,6 @@
 ---
 title: Epigenetic Landscape
 description: The ensemble of chromatin states, histone modifications, and DNA methylation that defines cellular identity and gene-expression potential; proposed to erode progressively with age.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Peroxiredoxin 3
 description: Mitochondrial 2-Cys peroxiredoxin that reduces hydrogen peroxide and peroxynitrite using thioredoxin-2 as electron donor.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

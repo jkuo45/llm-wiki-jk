@@ -1,7 +1,6 @@
 ---
 title: ACTH
 description: Adrenocorticotropic hormone, the anterior-pituitary peptide that drives adrenal cortisol release as the effector arm of the HPA-axis stress response.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

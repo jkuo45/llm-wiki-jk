@@ -1,7 +1,6 @@
 ---
 title: PDE
 description: Phosphodiesterases, a superfamily of enzymes that hydrolyze the second messengers cAMP and cGMP, modulating cyclic-nucleotide signaling intersected by sirtuin and AMPK pathways.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: METTL3
 description: Methyltransferase-like 3, the catalytic subunit of the m6A writer complex that also reshapes enhancer-promoter contacts to drive SASP in senescence.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

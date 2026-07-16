@@ -1,7 +1,6 @@
 ---
 title: NPC1
 description: Niemann-Pick C1, a lysosomal/cholesterol-trafficking protein that restrains cGAS-STING activation at the nuclear envelope.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, gene, lysosomal-protein, cgas-sting]

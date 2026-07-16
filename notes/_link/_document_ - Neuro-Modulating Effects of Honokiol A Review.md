@@ -11,7 +11,6 @@ created: 2026-07-14
 description: "Honokiol is a poly-phenolic compound that exerts neuroprotective properties through a variety of mechanisms. It has therapeutic potential in anxiety, pain, cerebrovascular injury, epilepsy, and cognitive disorders including Alzheimer's disease. It ..."
 tags:
   - clippings
-type: document
 ---
 
 Woodbury A, Yu SP, Wei L, García P. Neuro-Modulating Effects of Honokiol: A Review. *Front Neurol*. 2013 Sep 11;4:130. doi: [10.3389/fneur.2013.00130](https://doi.org/10.3389/fneur.2013.00130)

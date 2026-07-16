@@ -1,7 +1,6 @@
 ---
 title: WNT16B
 description: A Wnt ligand and canonical SASP factor secreted by therapy-damaged stromal cells that promotes cancer therapy resistance; its expression is suppressed by apigenin.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

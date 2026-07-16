@@ -1,7 +1,6 @@
 ---
 title: TNF Signaling
 description: The TNF/TNF receptor signaling pathway; a KEGG pathway significantly inhibited by apigenin in senescent cells alongside NF-κB.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

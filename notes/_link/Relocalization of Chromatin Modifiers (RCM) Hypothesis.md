@@ -1,7 +1,6 @@
 ---
 title: Relocalization of Chromatin Modifiers (RCM) Hypothesis
 description: An aging framework proposing that progressive loss of epigenetic information arises from the repeated recruitment of chromatin-modifying proteins (sirtuins, HDACs, PARP1) away from their genomic loci to DNA repair sites.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

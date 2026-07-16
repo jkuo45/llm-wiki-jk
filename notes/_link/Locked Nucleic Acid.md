@@ -1,7 +1,6 @@
 ---
 title: Locked Nucleic Acid
 description: Locked Nucleic Acid (LNA), a nucleic acid analog with a 2'-O,4'-C methylene bridge that confers high binding affinity and nuclease resistance.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

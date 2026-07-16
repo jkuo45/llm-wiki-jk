@@ -1,7 +1,6 @@
 ---
 title: ZBP1
 description: Cytosolic Z-nucleic-acid sensor that triggers PANoptosis and cell death, including in viral encephalitis via STING/MAVS.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, receptor, innate-immunity]

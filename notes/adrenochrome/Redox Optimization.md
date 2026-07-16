@@ -1,7 +1,6 @@
 ---
 title: Redox Optimization
 description: A conceptual adrenochrome-protocol term describing the active maintenance of reducing potential (NAD+/NADH and glutathione buffering) during adrenochrome handling.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

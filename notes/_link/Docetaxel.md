@@ -1,7 +1,6 @@
 ---
 title: Docetaxel
 description: A taxane chemotherapeutic that, like mitoxantrone, induces senescence and chemoresistance in cancer models; its senescence-driven resistance is suppressed by apigenin.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

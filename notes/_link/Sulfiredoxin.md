@@ -1,7 +1,6 @@
 ---
 title: Sulfiredoxin
 description: ATP-dependent enzyme that reduces hyperoxidized (sulfinic acid) peroxiredoxins back to their active form, restoring antioxidant capacity.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Connective Tissue Growth Factor
 description: CTGF is a matricellular protein and key SASP factor that promotes fibrosis, tumor progression, and extracellular matrix remodeling
-type: entity
 protected: false
 created: 2025-07-10
 updated: 2025-07-10

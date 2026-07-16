@@ -1,7 +1,6 @@
 ---
 title: Nucleus Accumbens
 description: The nucleus accumbens (NAc) is a ventral striatal brain region central to reward, motivation, reinforcement learning, and the actions of drugs of abuse.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

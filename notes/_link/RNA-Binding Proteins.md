@@ -1,7 +1,6 @@
 ---
 title: RNA-Binding Proteins
 description: A diverse protein class that binds RNA to regulate processing, and which cGAS scaffolds in the nucleus to maintain homeostasis.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein-class, gene-class, rna-metabolism]

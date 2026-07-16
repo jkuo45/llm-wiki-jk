@@ -1,7 +1,6 @@
 ---
 title: Procyanidin C1
 description: A flavonoid (oligomeric proanthocyanidin) with senotherapeutic (senolytic/senomorphic) activity that extends healthspan and lifespan in mice.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

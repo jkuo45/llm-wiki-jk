@@ -3,7 +3,6 @@ title: CDKN2B
 description: >-
   CDKN2B encodes p15INK4b, a cyclin-dependent kinase inhibitor that blocks CDK4/6
   and enforces G1 arrest; it is a key effector of TGF-β-mediated paracrine senescence.
-type: entity
 protected: false
 created: 2026-07-12
 updated: 2026-07-12

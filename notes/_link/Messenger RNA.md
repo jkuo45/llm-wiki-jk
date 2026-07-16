@@ -1,7 +1,6 @@
 ---
 title: Messenger RNA
 description: Messenger RNA (mRNA), the ribonucleic acid transcript that conveys genetic information from DNA to the ribosome for protein synthesis.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

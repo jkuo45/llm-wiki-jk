@@ -20,7 +20,6 @@ tags:
   - "tumor-microenvironment"
   - "senolytics"
   - "senomorphics"
-type: "document"
 ---
 
 ## Abstract

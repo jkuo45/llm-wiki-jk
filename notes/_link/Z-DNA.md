@@ -1,7 +1,6 @@
 ---
 title: Z-DNA
 description: Left-handed, noncanonical double-helical DNA conformation recognized by cGAS and ZBP1 as a structural sensor of nucleic-acid stress.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [nucleic-acid, biological-structure, dna-structure]

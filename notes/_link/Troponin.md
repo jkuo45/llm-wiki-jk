@@ -1,7 +1,6 @@
 ---
 title: Troponin
 description: Contractile regulatory protein complex (TnC, TnI, TnT) of striated muscle; cardiac troponin I/T are specific biomarkers of myocardial injury.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

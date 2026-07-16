@@ -1,7 +1,6 @@
 ---
 title: Sirtuin Activators
 description: Endogenous and small-molecule agents that enhance sirtuin deacetylase activity, mimetic of calorie restriction, used to promote metabolic health, autophagy, and longevity.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

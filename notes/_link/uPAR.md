@@ -1,7 +1,6 @@
 ---
 title: uPAR
 description: Urokinase plasminogen activator receptor (CD87), a GPI-anchored membrane protein that localizes uPA activity to the cell surface and promotes invasion
-type: entity
 protected: false
 created: 2025-07-10
 updated: 2025-07-10

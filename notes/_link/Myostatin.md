@@ -1,7 +1,6 @@
 ---
 title: Myostatin
 description: A secreted TGF-β family member (GDF-8) that acts as a negative regulator of skeletal muscle mass; its inhibition promotes muscle growth.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

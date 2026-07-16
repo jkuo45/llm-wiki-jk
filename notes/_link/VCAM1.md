@@ -3,7 +3,6 @@ title: VCAM1
 description: Vascular cell adhesion molecule 1, a cell-surface adhesion glycoprotein and SASP
   factor that mediates leukocyte adhesion, promotes fibrosis, and is a marker of endothelial
   senescence and inflammaging.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

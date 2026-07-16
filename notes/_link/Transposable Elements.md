@@ -1,7 +1,6 @@
 ---
 title: Transposable Elements
 description: Transposable elements ("jumping genes") are mobile DNA sequences whose age-related derepression drives genomic instability and inflammation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

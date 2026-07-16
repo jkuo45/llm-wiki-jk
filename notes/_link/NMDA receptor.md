@@ -1,7 +1,6 @@
 ---
 title: NMDA receptor
 description: A glutamate-gated ion channel central to excitatory neurotransmission, synaptic plasticity, and Ca2+ signaling; implicated in seizures, stroke, and excitotoxicity, and a target of honokiol.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

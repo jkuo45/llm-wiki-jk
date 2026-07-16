@@ -1,7 +1,6 @@
 ---
 title: Vimentin
 description: Vimentin is a type III intermediate filament protein that provides structural support to the cytoskeleton and is involved in cell integrity, motility, autophagy, vesicle trafficking, and proteostasis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

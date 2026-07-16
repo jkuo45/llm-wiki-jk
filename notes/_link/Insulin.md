@@ -1,7 +1,6 @@
 ---
 title: Insulin
 description: Pancreatic anabolic peptide hormone regulating glucose uptake, lipid synthesis, and growth; central to metabolic health, mTOR/AMPK balance, and aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

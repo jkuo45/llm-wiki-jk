@@ -1,7 +1,6 @@
 ---
 title: Photobiomodulation
 description: Red/near-infrared light therapy that stimulates mitochondrial cytochrome c oxidase (Complex IV) to enhance ATP production and recovery.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

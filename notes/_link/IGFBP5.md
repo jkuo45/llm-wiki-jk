@@ -2,7 +2,6 @@
 title: IGFBP5
 description: Insulin-like growth factor-binding protein 5, a SASP factor that modulates IGF signaling
   and contributes to senescence reinforcement, developmental patterning, and tissue remodeling.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

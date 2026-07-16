@@ -1,7 +1,6 @@
 ---
 title: Lamin A
 description: Lamin A is a nuclear-envelope intermediate-filament protein encoded by LMNA; defective processing produces progerin and drives progeroid syndromes.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

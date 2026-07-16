@@ -1,7 +1,6 @@
 ---
 title: Cortisol
 description: The primary glucocorticoid stress hormone released by the adrenal cortex that mobilizes energy and, when chronically elevated, suppresses HRV and recovery.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

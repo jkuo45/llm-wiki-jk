@@ -1,7 +1,6 @@
 ---
 title: MEF2C
 description: Myocyte enhancer factor 2C, a transcription factor orchestrating neuronal resilience and axon morphology gene networks suppressed by cGAS-STING/IFN-I signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [transcription-factor, neuron, cognitive-resilience, tauopathy, cgas-sting]

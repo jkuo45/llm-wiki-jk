@@ -1,7 +1,6 @@
 ---
 title: TMG
 description: Trimethylglycine (betaine), a methyl-donor osmolyte that supports methionine synthesis via betaine-homocysteine S-methyltransferase.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

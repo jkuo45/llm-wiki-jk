@@ -1,7 +1,6 @@
 ---
 title: TLR3
 description: Toll-like receptor 3, an endosomal pattern-recognition receptor that binds double-stranded RNA and triggers antiviral/inflammatory signaling exclusively through the TRIF adaptor.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

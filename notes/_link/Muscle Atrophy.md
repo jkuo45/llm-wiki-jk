@@ -1,7 +1,6 @@
 ---
 title: Muscle Atrophy
 description: The pathological loss of skeletal muscle mass and function resulting from accelerated protein degradation (UPS, autophagy-lysosome) and suppressed protein synthesis (mTORC1/FOXO), relevant to disuse, aging, and disease.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

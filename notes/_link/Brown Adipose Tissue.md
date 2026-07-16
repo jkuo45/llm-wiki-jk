@@ -1,7 +1,6 @@
 ---
 title: Brown Adipose Tissue
 description: Mitochondria-rich thermogenic fat that expends energy as heat via UCP1; activated by cold exposure, a classic mitohormetic stimulus.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

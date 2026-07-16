@@ -1,7 +1,6 @@
 ---
 title: Pioneer Factor
 description: Transcription factor capable of binding and opening closed/repressive chromatin, exemplified in senescence by AP-1, which initiates enhancer opening to drive SASP gene activation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: ADP
 description: Adenosine diphosphate, the low-energy adenine nucleotide regenerated to ATP by creatine phosphate and oxidative phosphorylation; a key signal of cellular energy deficit in mitohormesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

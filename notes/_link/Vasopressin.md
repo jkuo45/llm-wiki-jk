@@ -1,7 +1,6 @@
 ---
 title: Vasopressin
 description: Posterior-pituitary peptide hormone regulating water homeostasis and vasoconstriction; implicated in brain aging, redox stress, and autophagy modulation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

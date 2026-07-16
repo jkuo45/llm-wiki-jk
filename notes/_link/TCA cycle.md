@@ -1,7 +1,6 @@
 ---
 title: TCA cycle
 description: Tricarboxylic acid (Krebs) cycle, the central mitochondrial pathway oxidizing acetyl-CoA to CO2 while generating NADH, FADH2, and GTP.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: Interferon-Stimulated Genes
 description: Collection of genes transcriptionally induced by type I interferon signaling that encode antiviral and inflammatory effector proteins.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-process, interferon, innate-immunity, neuroinflammation, cgas-sting]

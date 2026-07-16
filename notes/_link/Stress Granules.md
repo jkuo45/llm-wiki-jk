@@ -1,7 +1,6 @@
 ---
 title: Stress Granules
 description: Cytoplasmic ribonucleoprotein condensates that sequester RNA-binding proteins such as TDP-43 and interface with innate immune signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-structure, ribonucleoprotein, organelle]

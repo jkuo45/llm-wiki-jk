@@ -1,7 +1,6 @@
 ---
 title: Senescence-Associated Distension of Satellites
 description: Decompaction of pericentromeric/pericentrosomal satellite heterochromatin in senescent cells that creates new DNA-DNA contacts with inflammatory SASP loci and influences their regulation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

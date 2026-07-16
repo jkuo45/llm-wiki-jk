@@ -1,7 +1,6 @@
 ---
 title: Histone Demethylase
 description: Enzyme that removes methyl groups from histone lysine or arginine residues, dynamically regulating chromatin state and gene expression.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

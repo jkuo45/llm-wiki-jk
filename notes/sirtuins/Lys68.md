@@ -1,7 +1,6 @@
 ---
 title: Lys68
 description: Lysine 68 (K68) of mitochondrial MnSOD/SOD2 — an acetylation site deacetylated and activated by SIRT3, cooperating with Lys122 to control superoxide dismutation.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-16

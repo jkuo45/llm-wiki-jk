@@ -1,7 +1,6 @@
 ---
 title: Phospholipase A2
 description: A family of lipolytic enzymes that hydrolyze phospholipids to release arachidonic acid; the iPLA2 activity of PRDX6 is the apigenin-inhibited domain underlying SASP suppression.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

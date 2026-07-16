@@ -1,7 +1,6 @@
 ---
 title: Heart Rate Variability
 description: The beat-to-beat variation in interbeat intervals, a noninvasive marker of autonomic balance and recovery capacity used to guide hormetic stress dosing.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

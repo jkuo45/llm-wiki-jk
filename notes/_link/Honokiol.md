@@ -1,7 +1,6 @@
 ---
 title: Honokiol
 description: A lipid-soluble biphenyl neolignan from Magnolia species with pleiotropic neuroprotective, anxiolytic, analgesic, anti-inflammatory, and anti-tumor activities.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

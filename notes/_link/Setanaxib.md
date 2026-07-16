@@ -1,7 +1,6 @@
 ---
 title: Setanaxib
 description: Setanaxib (GKT137831) is a first-in-class selective NADPH oxidase NOX1/NOX4 inhibitor developed to reduce ROS-driven fibrosis and inflammation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

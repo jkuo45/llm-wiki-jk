@@ -1,7 +1,6 @@
 ---
 title: Creatine anti-cancer trace
 description: Synthesized trace of how creatine connects to anti-cancer properties, drawn from the vault wiki and the Creatine in Health and Disease review.
-type: document
 created: 2026-07-14
 source: # graphify query + notes/_link/_document_ - Creatine in Health and Disease.md
 tags:

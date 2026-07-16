@@ -2,7 +2,6 @@
 title: BMP
 description: Bone morphogenetic proteins, a subfamily of TGFβ-superfamily growth factors that
   act as developmental SASP factors contributing to patterning, morphogenesis, and tissue growth.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

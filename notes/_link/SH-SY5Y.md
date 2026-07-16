@@ -1,7 +1,6 @@
 ---
 title: SH-SY5Y
 description: A human neuroblastoma cell line differentiated into neuron-like cells, widely used as a dopaminergic neuron model.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

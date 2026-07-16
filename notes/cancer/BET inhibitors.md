@@ -1,7 +1,6 @@
 ---
 title: BET inhibitors
 description: A class of epigenetic drugs that inhibit BET (Bromodomain and Extra-Terminal) family proteins, blocking recognition of acetylated lysines on histones
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [chemical-class, epigenetic, cancer-therapy, senescence]

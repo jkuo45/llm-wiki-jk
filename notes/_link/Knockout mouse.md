@@ -1,7 +1,6 @@
 ---
 title: Knockout mouse
 description: A genetically engineered mouse in which a specific gene has been inactivated (knocked out) to study gene function in vivo.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: Senotherapy
 description: Therapeutic strategies that target senescent cells or their secreted phenotype to treat age-related disease, encompassing senolytics (cell elimination) and senomorphics (SASP suppression).
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

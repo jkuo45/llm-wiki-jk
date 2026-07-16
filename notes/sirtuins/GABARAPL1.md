@@ -1,7 +1,6 @@
 ---
 title: GABARAPL1
 description: GABA type A receptor-associated protein-like 1, an ATG8-family ubiquitin-like protein essential for autophagosome biogenesis, LC3 lipidation, and selective autophagy.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

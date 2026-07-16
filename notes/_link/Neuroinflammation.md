@@ -1,7 +1,6 @@
 ---
 title: Neuroinflammation
 description: Immune response within the central nervous system that drives pathology in neurodegenerative disease and brain injury.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-process, neuroinflammation, innate-immunity, cns, inflammation, parkinsons-disease]

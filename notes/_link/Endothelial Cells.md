@@ -1,7 +1,6 @@
 ---
 title: Endothelial Cells
 description: Cerebrovascular lining cells that express cGAS-STING and, when activated, disrupt the blood-brain barrier via pyroptosis and inflammation.
-type: entity
 created: 2026-07-13
 updated: 2026-07-15
 tags: [cell-type, vascular, neurovascular]

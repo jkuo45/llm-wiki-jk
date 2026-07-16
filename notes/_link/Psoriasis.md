@@ -1,7 +1,6 @@
 ---
 title: Psoriasis
 description: Psoriasis is a chronic immune-mediated inflammatory skin disease driven by the IL-23/Th17 axis, causing hyperproliferative, scaly plaques.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

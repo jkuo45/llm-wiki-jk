@@ -1,7 +1,6 @@
 ---
 title: ACTA2
 description: Smooth muscle alpha-actin (α-SMA), the major actin isoform in vascular smooth muscle cells and a marker of mesenchymal/myofibroblast differentiation
-type: entity
 protected: false
 created: 2026-07-15
 updated: 2026-07-15

@@ -1,7 +1,6 @@
 ---
 title: APOE4
 description: Apolipoprotein E epsilon 4 allele, the major genetic risk factor for Alzheimer's disease that amplifies cGAS-STING/IFN-I microglial signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [gene, protein, alzheimer-risk, microglia, neuroinflammation]

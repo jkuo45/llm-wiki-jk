@@ -1,7 +1,6 @@
 ---
 title: Successful Aging
 description: Successful aging is a multidimensional concept encompassing avoidance of disease/disability, maintained physical and cognitive function, and sustained social engagement.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

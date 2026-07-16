@@ -1,7 +1,6 @@
 ---
 title: Meningeal Lymphatic System
 description: Dural lymphatic vessels that drain CNS antigens and cGAS-STING–derived inflammatory products to cervical lymph nodes.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, lymphatic, central-nervous-system, neuroimmunology]

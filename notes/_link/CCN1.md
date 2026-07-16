@@ -2,7 +2,6 @@
 title: CCN1
 description: Cellular communication network factor 1 (CYR61), a matricellular SASP protein that
   promotes wound healing, fibroblast senescence, and tissue regeneration through integrin signaling.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

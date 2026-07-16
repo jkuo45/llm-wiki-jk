@@ -1,7 +1,6 @@
 ---
 title: NPM1
 description: Nucleophosmin, a nucleolar chaperone identified as a shared ATM/p38 MAPK interactor in senescent cells; unlike HSPA8, its interaction with these kinases is not disrupted by apigenin.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Naked Mole Rat
 description: A long-lived, cancer-resistant rodent model exhibiting muted cGAS-STING signaling despite genomic instability.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [organism, animal-model, longevity-model]

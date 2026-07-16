@@ -1,7 +1,6 @@
 ---
 title: Central Nervous System
 description: The brain and spinal cord, the anatomical compartment in which cGAS-STING signaling regulates glial activation, neuronal homeostasis, and neuroinflammation.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, neuroanatomy, neuroinflammation, cgas-sting]

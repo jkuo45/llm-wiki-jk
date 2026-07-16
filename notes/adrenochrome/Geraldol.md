@@ -1,7 +1,6 @@
 ---
 title: Geraldol
 description: A 3'-O-methylated flavonoid related to fisetin with senolytic and antioxidant properties relevant to adrenochrome-associated oxidative stress and senescence.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

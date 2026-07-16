@@ -1,7 +1,6 @@
 ---
 title: Disease-Associated Microglia
 description: A defined microglial activation signature in neurodegeneration, distinct from the cGAS-driven IFN-I-enriched microglial state.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, microglia, neurodegeneration, glial-state]

@@ -11,7 +11,6 @@ created: 2026-07-10
 description: "Cellular senescence is a tumor-suppressive mechanism that permanently arrests cells at risk for malignant transformation. However, accumulating evidence shows that senescent cells can have deleterious effects on the tissue microenvironment. The most ..."
 tags:
   - "clippings"
-type: "document"
 ---
 . Author manuscript; available in PMC: 2014 Sep 18.
 

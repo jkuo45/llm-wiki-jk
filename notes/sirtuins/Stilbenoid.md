@@ -1,7 +1,6 @@
 ---
 title: Stilbenoid
 description: Class of plant polyphenols built on a stilbene scaffold (1,2-diarylethene), including resveratrol and pterostilbene, with sirtuin-activating and antioxidant activities.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

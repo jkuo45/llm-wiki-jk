@@ -1,7 +1,6 @@
 ---
 title: HDAC4
 description: Histone deacetylase 4, a catalytically inactive class IIa HDAC that acts as an epigenetic reader of H3K27ac and normally buffers the AP-1-driven SASP program until it is degraded upon senescence entry.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Iba1
 description: Ionized calcium-binding adaptor molecule 1 (AIF1), a microglial/macrophage actin-crosslinking protein used as a marker of myeloid cells.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

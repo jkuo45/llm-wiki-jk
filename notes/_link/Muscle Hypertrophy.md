@@ -1,7 +1,6 @@
 ---
 title: Muscle Hypertrophy
 description: The increase in skeletal muscle cross-sectional area and mass through gains in contractile protein, driven by mechanical loading and anabolic signaling.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

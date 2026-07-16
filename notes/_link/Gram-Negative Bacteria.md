@@ -1,7 +1,6 @@
 ---
 title: Gram-Negative Bacteria
 description: Bacteria whose outer membrane contains lipopolysaccharide (LPS/endotoxin); major drivers of innate immune activation, inflammation, and mitochondrial oxidative stress relevant to aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

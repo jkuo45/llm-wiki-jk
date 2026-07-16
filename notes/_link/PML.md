@@ -1,7 +1,6 @@
 ---
 title: PML
 description: Promyelocytic leukemia tumor suppressor protein that nucleates PML nuclear bodies, the scaffolds to which HIRA relocalizes to drive SAHF formation in senescence.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

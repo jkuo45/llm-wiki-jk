@@ -27,7 +27,6 @@ tags:
   - sasp
   - cardiovascular
   - senolytic
-type: document
 ---
 
 ## ABSTRACT

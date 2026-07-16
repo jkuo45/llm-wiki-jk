@@ -1,7 +1,6 @@
 ---
 title: Drosha
 description: Nuclear RNase III enzyme that, with DGCR8, forms the Microprocessor complex and initiates miRNA biogenesis by cleaving pri-miRNA into pre-miRNA.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

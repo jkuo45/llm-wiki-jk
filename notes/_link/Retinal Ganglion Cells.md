@@ -1,7 +1,6 @@
 ---
 title: Retinal Ganglion Cells
 description: CNS projection neurons vulnerable in glaucoma whose cGAS-STING activation drives cell death and vision loss.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cell-type, neuron, central-nervous-system, cgas-sting]

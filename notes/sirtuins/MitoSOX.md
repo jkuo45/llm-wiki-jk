@@ -1,7 +1,6 @@
 ---
 title: MitoSOX
 description: MitoSOX Red — a mitochondria-targeted fluorescent probe that detects superoxide (O₂⁻) production, used as a readout of mitochondrial oxidative stress shaped by sirtuin activity.
-type: entity
 protected: false
 created: 2026-07-14
 updated: 2026-07-14

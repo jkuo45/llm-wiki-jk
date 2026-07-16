@@ -1,7 +1,6 @@
 ---
 title: FPRL1
 description: A formyl-peptide receptor-like G-protein-coupled receptor that serves as a functional receptor for Humanin
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

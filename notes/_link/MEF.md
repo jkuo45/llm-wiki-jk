@@ -1,7 +1,6 @@
 ---
 title: MEF
 description: Mouse embryonic fibroblasts, primary cells isolated from mouse embryos and widely used in cell biology and senescence studies.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

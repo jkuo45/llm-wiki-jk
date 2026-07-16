@@ -1,7 +1,6 @@
 ---
 title: C9orf72
 description: C9orf72, an ALS/FTD-associated gene whose repeat expansions drive cGAS-STING activation via nucleocytoplasmic transport defects and DNA damage.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [gene, protein, als-gene, cgas-sting]

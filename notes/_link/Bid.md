@@ -1,7 +1,6 @@
 ---
 title: Bid
 description: A pro-apoptotic BH3-only protein of the Bcl-2 family that links extrinsic death receptor signaling to the intrinsic mitochondrial apoptotic pathway
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

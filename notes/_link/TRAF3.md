@@ -1,7 +1,6 @@
 ---
 title: TRAF3
 description: TNF receptor-associated factor 3, an E3 ubiquitin ligase adaptor that links TLR/TRIF and antiviral receptors to IRF3-mediated interferon induction.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

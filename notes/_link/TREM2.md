@@ -1,7 +1,6 @@
 ---
 title: TREM2
 description: Triggering receptor expressed on myeloid cells 2, a microglial immunoglobulin-superfamily receptor that gates cGAS-STING/IFN-I signaling and senescence.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [receptor, microglia, neuroinflammation, innate-immunity]
