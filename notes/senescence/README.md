@@ -3,7 +3,7 @@ title: Senescence notes
 aliases: []
 description: Index of wiki notes for cellular senescence and senotherapeutics
 created: 2026-07-09
-updated: 2026-07-13
+updated: 2026-07-15
 ---
 # Senescence
 
@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 13_July_2026 12:00 PM PDT
-- Total count of entities: 35
+- Last updated: 15_July_2026 11:00 AM PDT
+- Total count of entities: 38
 
 ## Documents
 
@@ -36,8 +36,11 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 - [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Dong et al. 2024 Senescence and SASP in Tumors]]
   - Comprehensive review (Dong et al., 2024, Molecular Cancer, PMC11365203) covering senescence types (RS, OIS, TIS, rare forms), biomarkers (SA-β-gal, p16, p21), SASP composition, and the double-edged SASP role in tumors: beneficial (immune surveillance via [[NK Cells|NK]] and [[CD8+ T cells|CD8+ T cells]] recruitment, cell-cycle arrest) vs. detrimental (EMT, stemness, angiogenesis, [[Tumor Microenvironment|TME]] remodeling). Therapeutic strategies: senolytics ([[Dasatinib]], [[Quercetin]], [[Navitoclax]], BET degraders, ADCs, galactose nanoparticles) and senomorphics (NF-κB, JAK/STAT, mTOR inhibitors). Highlights [[Galectin-9]] and [[PD-L1]] as SASP factors reshaping the TME.
 
-- [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
-  - Narrative review synthesizing senescence mechanisms in [[Idiopathic Pulmonary Fibrosis|IPF]]—[[Telomere Attrition|telomere attrition]], [[Mitochondrial Dysfunction|mitochondrial dysfunction]], [[TGFβ|TGF-β]], and the [[SASP]]—and senolytic/senomorphic strategies ([[Dasatinib|dasatinib]]+[[Quercetin|quercetin]] pilot, polyphenols). Core entities: [[Alveolar Type II Cells]], [[Fibroblast]], [[NEMO]], [[PINK1]], [[EF24]], [[Hesperetin]], [[Luteoloside]].
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Narrative review synthesizing senescence mechanisms in [[Idiopathic Pulmonary Fibrosis|IPF]]—[[Telomere Attrition|telomere attrition]], [[Mitochondrial Dysfunction|mitochondrial dysfunction]], [[TGFβ|TGF-β]], and the [[SASP]]—and senolytic/senomorphic strategies ([[Dasatinib|dasatinib]]+[[Quercetin|quercetin]] pilot, polyphenols). Core entities: [[Alveolar Type II Cells]], [[Fibroblast]], [[NEMO]], [[PINK1]], [[EF24]], [[Hesperetin]], [[Luteoloside]].
+
+  - [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025 — Fisetin Reverses Age-Related Endothelial Dysfunction]]
+    - Single-cell transcriptomics study showing fisetin eliminates senescent ECs in vivo, identifies CXCL12 as the key SASP factor driving age-related endothelial dysfunction via NO suppression, mitochondrial ROS, and EndoMT. Core entities: [[Fisetin]], [[CXCL12]], [[Endothelial Cells]], [[Endothelial Dysfunction]], [[Endothelial-to-Mesenchymal Transition]], [[ACKR3]].
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
@@ -76,3 +79,7 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[EF24]]                                              | 13_July_2026 12:00 PM PDT | Chemical Compound      |      5      |      0      | Curcumin analog; suppresses oxidative-stress epithelial senescence via PTEN/PI3K. |
 | [[Hesperetin]]                                       | 13_July_2026 12:00 PM PDT | Chemical Compound      |      4      |      0      | Citrus flavonoid; restores autophagy/reduces ROS, antifibrotic in IPF. |
 | [[Luteoloside]]                                       | 13_July_2026 12:00 PM PDT | Chemical Compound      |      4      |      0      | Flavonoid glycoside; autophagy-restoring, antifibrotic in IPF. |
+| [[Endothelial Cells]]                                 | 15_July_2026 11:00 AM PDT | Cell Type              |      8      |     -1      | Most senescence-susceptible vascular cell type; senescent ECs secrete CXCL12 as key SASP factor driving endothelial dysfunction. |
+| [[Endothelial-to-Mesenchymal Transition]]              | 15_July_2026 11:00 AM PDT | Biological Process     |      7      |     -1      | Transdifferentiation of ECs driven by SASP/CXCL12; mechanism of age-related endothelial dysfunction. |
+| [[ACKR3]]                                              | 15_July_2026 11:00 AM PDT | Receptor               |      5      |      0      | CXCL12 scavenger receptor; altered Cxcl12-Ackr3 vs Cxcl12-Cxcr4 signaling in senescent ECs with aging. |
+| [[CXCR4]]                                              | 15_July_2026 11:00 AM PDT | Receptor               |      5      |      0      | Principal CXCL12 receptor; Cxcl12-Cxcr4 interactions decrease with aging in senescent ECs. |

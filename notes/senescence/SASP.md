@@ -44,6 +44,7 @@ Proteins are the most characterized SASP components, comprising interleukins and
 - [[CXCL5]]: Secreted by blastocysts from aged oocytes; binds to CXCR2 and is detrimental to pre-implantation embryos used for in vitro fertilization in older women.
 - [[CXCL10]]: Secreted by ROS-induced senescent hepatocytes; enhances natural killer cell activity by binding to [[CXCR3]].
 - [[CXCL11]]: Secreted by therapy-induced senescent endothelial cells; increases breast cancer aggressiveness.
+- [[CXCL12]] (SDF-1): A homeostatic ELR− chemokine and SASP factor that binds [[CXCR4]] and [[ACKR3]]. In vascular aging, *Cxcl12* [[MRNA|mRNA]] is the most highly upregulated SASP factor in senescent [[Endothelial Cells|endothelial cells]] — it causally drives [[Endothelial Dysfunction|endothelial dysfunction]] by suppressing [[Nitric Oxide|NO]], promoting mitochondrial [[Reactive Oxygen Species|ROS]], and inducing [[Endothelial-to-Mesenchymal Transition|EndoMT]]. [[Fisetin]] normalizes CXCL12 to improve vascular function. Also a well-established pro-metastatic factor that cooperates with [[MMP|MMPs]] to guide cancer metastasis.
 - [[CXCL14]]: In p21-driven SASP, promotes immunosurveillance by recruiting macrophages.
 
 #### Growth Factors
@@ -270,6 +271,9 @@ List of documents that mention this entity
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - In IPF, the SASP (IL-6, IL-8, TGF-β, MMPs) mediates paracrine senescence and fibroblast activation; mTOR/NF-κB/IL-1α regulate its production.
 
+  - [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025 — Fisetin Reverses Age-Related Endothelial Dysfunction]]
+    - Establishes the circulating SASP milieu as a causal driver of age-related endothelial dysfunction; identifies CXCL12 as the key SASP factor mediating NO suppression, mitochondrial ROS, and EndoMT; shows that fisetin senolytic treatment reduces circulating SASP burden and normalizes CXCL12 to rescue endothelial function.
+
 ## Connections
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
 - [[Senescence]] — SASP is a hallmark feature of the senescent state
@@ -309,6 +313,11 @@ List of documents that mention this entity
 - [[Autophagy Inducer]] — autophagy inducers suppress SASP and target immune aging
 - [[Immune System]] — SASP modulates immune cell phenotype and function
 - [[Atherosclerosis]] — chronic SASP promotes atherosclerosis
+- [[Endothelial Dysfunction]] — circulating SASP milieu causally drives age-related endothelial dysfunction via NO suppression, mitochondrial ROS, and EndoMT
+- [[CXCL12]] — key SASP chemokine mediating age-related endothelial dysfunction; the most highly upregulated SASP factor in senescent ECs with aging
+- [[Endothelial-to-Mesenchymal Transition]] — SASP/CXCL12-driven transdifferentiation process underlying age-related vascular dysfunction
+- [[Endothelial Cells]] — primary senolytic target in the vasculature; ECs are the most senescence-susceptible cell type and secrete CXCL12 as a key SASP factor
+- [[Fisetin]] — senolytic that reduces circulating SASP burden and normalizes CXCL12 to reverse age-related endothelial dysfunction
 - [[TNFA]] — pro-inflammatory SASP cytokine (TNF-α); activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
 - [[IL-1β]] — SASP interleukin; synergizes with IL-1α to drive IL-6/IL-8 transcription
 - [[Cytokines]] — class of SASP components
