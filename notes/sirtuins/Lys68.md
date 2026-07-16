@@ -3,7 +3,7 @@ title: Lys68
 description: Lysine 68 (K68) of mitochondrial MnSOD/SOD2 — an acetylation site deacetylated and activated by SIRT3, cooperating with Lys122 to control superoxide dismutation.
 protected: false
 created: 2026-07-14
-updated: 2026-07-16
+updated: 2026-07-16T17:00:00Z
 tags:
   - amino-acid-residue
   - sirtuin-substrate-site
@@ -39,6 +39,39 @@ Lys68 (with [[Lys122]]) is the shared downstream node of an antagonistic mitocho
 
 [[Adrenochrome]] undergoes catalytic [[Redox Cycling|redox cycling]] that generates superoxide — the exact substrate of SIRT3-activated MnSOD. The two pathways are coupled through shared substrate, enzyme, and downstream effectors ([[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB|NF-κB]]); sub-toxic adrenochrome exposure may upregulate SIRT3 through a retrograde ROS→AMPK→PGC-1α→SIRT3 loop (a "[[Redox Vaccination|redox vaccination]]" effect), increasing MnSOD deacetylation at Lys68/Lys122.
 
+##  Role in Inflammaging/Inflammation
+
+Lys68 sits at the intersection of mitochondrial redox defense and systemic inflammatory signaling. The connection is indirect, mediated through superoxide/ROS as the shared currency.
+
+### The Oxidative Burden Link
+
+- **[[Inflammation]]** drives ROS production via neutrophil respiratory burst and [[NF-κB]] activation, generating superoxide — the exact substrate processed by MnSOD at Lys68.
+- **[[Inflammaging]]** (chronic, age-related inflammation) creates sustained superoxide pressure, placing chronic demand on Lys68 deacetylation by [[SIRT3]].
+
+### The Vicious Cycle
+
+With aging, SIRT3 expression and activity decline → Lys68 remains acetylated → MnSOD is less active → mitochondrial ROS accumulates → feeds back into NF-κB activation → amplifies inflammaging. This creates a self-reinforcing loop:
+
+> [!warning] Feed-forward loop
+> Inflammaging (chronic [[IL-6]], [[IL-1β]], NF-κB) → sustained ROS/superoxide production → MnSOD at Lys68 overwhelmed (SIRT3 declining with age) → mitochondrial oxidative stress accumulates → feeds back into NF-κB activation → more inflammaging.
+
+### SIRT3/SIRT4 Ratio as Therapeutic Node
+
+The **[[SIRT3-SIRT4 Ratio|SIRT3/SIRT4 ratio]]** at Lys68 is a potential therapeutic target for inflammaging. Boosting SIRT3 (via [[Honokiol]], [[Dihydromyricetin]], or NAD+ precursors) could restore MnSOD deacetylation at Lys68 and break the inflammatory ROS feedback loop.
+
+### Inflammaging-Driven Effectors
+
+Inflammaging directly activates several pathways connected to the Lys68 axis:
+- [[IKK complex]] → NF-κB → pro-inflammatory gene transcription
+- [[GATA4]] → senescence-associated secretory phenotype (SASP)
+- [[IFITM3]], [[IL-18]] → innate immune amplification
+- [[IRF3]] → interferon signaling, sustaining chronic inflammation
+
+### Key Insight
+
+Lys68 does not directly sense inflammation — rather, inflammaging increases the oxidative load that Lys68-MnSOD must handle. When SIRT3 function declines with age (a hallmark of inflammaging), Lys68 acetylation rises, MnSOD activity falls, and the system tips toward chronic oxidative stress that perpetuates the inflammatory state.
+
+
 ## Biomarker Relevance
 
 MnSOD acetylation at Lys68/Lys122 is used as an indirect surrogate for SIRT3 activity (together with [[MitoSOX]] and urinary 8-OHdG).
@@ -54,6 +87,8 @@ MnSOD acetylation at Lys68/Lys122 is used as an indirect surrogate for SIRT3 act
   - [[MitoSOX]]: Probe reflecting the superoxide burden Lys68 deacetylation reduces.
   - [[Adrenochrome]]: Redox-cycling source of the superoxide that MnSOD processes.
   - [[Hormetic Window]]: Bounds the protective vs. toxic outcome of MnSOD redox handling.
+  - [[Inflammaging]]: Age-related chronic inflammation that increases oxidative demand on Lys68-MnSOD.
+  - [[Inflammation]]: Acute/chronic inflammatory ROS production is the oxidative substrate Lys68-MnSOD must clear.
 
 ## Documents
 
@@ -70,6 +105,6 @@ MnSOD acetylation at Lys68/Lys122 is used as an indirect surrogate for SIRT3 act
 
 ## Linking Summary
 
-- New links added: [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Lys122]], [[SIRT3-SIRT4 Ratio]], [[Honokiol]], [[Dihydromyricetin]], [[MitoSOX]], [[Adrenochrome]], [[Hormetic Window]], [[ADP-ribosylation]], [[ROS]], [[Oxidative Stress]], [[Angiotensin II]], [[Cardiac Hypertrophy]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB]], [[Redox Cycling]], [[Redox Vaccination]], [[SOD2]]
+- New links added: [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Lys122]], [[SIRT3-SIRT4 Ratio]], [[Honokiol]], [[Dihydromyricetin]], [[MitoSOX]], [[Adrenochrome]], [[Hormetic Window]], [[ADP-ribosylation]], [[ROS]], [[Oxidative Stress]], [[Angiotensin II]], [[Cardiac Hypertrophy]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB]], [[Redox Cycling]], [[Redox Vaccination]], [[SOD2]], [[Inflammaging]], [[Inflammation]], [[IL-6]], [[IL-1β]], [[IKK complex]], [[GATA4]], [[IFITM3]], [[IL-18]], [[IRF3]]
 - Suggested new entity notes to create: [[SOD2]], [[Hormetic Window]], [[Redox Vaccination]], [[Adrenochrome]]
-- Strong connections to strengthen: [[Lys68]] ↔ [[SIRT3]]; [[Lys68]] ↔ [[SIRT4]]; [[Lys68]] ↔ [[MnSOD]]
+- Strong connections to strengthen: [[Lys68]] ↔ [[SIRT3]]; [[Lys68]] ↔ [[SIRT4]]; [[Lys68]] ↔ [[MnSOD]]; [[Lys68]] ↔ [[Inflammaging]]
