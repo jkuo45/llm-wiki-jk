@@ -186,13 +186,6 @@ Maintain link integrity by performing periodic audits:
     - `notes/_link/HIF-1α.md`
     - `notes/_link/NAD+.md`
 
-## Subject Object Relation Triples
-
-- `notes/<topic>/_triples.json` — per-topic triple data (JSON)
-- `media/kg_graph/_triples_<topic>.{dot,svg}` — graph visualizations
-
-See `.agents/skills/kg-triples/SKILL.md` for the triple extraction workflow, JSON format, and graph visualization instructions.
-
 ## Entity Type Schema
 
 See `.agents/skills/obsidian-markdown/references/ENTITY_TYPES.md` for the full schema of `entity_type_1` values. The `entity_type_1` category should be one of the tag values in entity frontmatter.
