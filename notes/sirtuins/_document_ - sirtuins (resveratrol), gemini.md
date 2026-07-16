@@ -146,7 +146,7 @@ Over the years, researchers have identified several natural and synthetic compou
 #### Mechanisms of Action
 
 - **Direct Binding and Expression:** Honokiol has been shown to physically interact with SIRT3, increasing its deacetylase activity and upregulating its protein expression.
-- **Targeting MnSOD (Manganese Superoxide Dismutase):** Once activated, SIRT3 deacetylates MnSOD (at lysine residues K68 and K122). Deacetylated MnSOD becomes highly active, converting damaging superoxide radicals into hydrogen peroxide, which dramatically lowers mitochondrial oxidative stress.
+- **Targeting MnSOD (Manganese Superoxide Dismutase):** Once activated, SIRT3 deacetylates MnSOD (at lysine residues [[Lys68]] and K122). Deacetylated MnSOD becomes highly active, converting damaging superoxide radicals into hydrogen peroxide, which dramatically lowers mitochondrial oxidative stress.
 - **Enhancing ATP Synthesis:** SIRT3 deacetylates **[[OSCP]]** (oligomycin-sensitivity conferring protein), a subunit of the mitochondrial F1Fo-ATPase. This modification optimizes ATP synthase coupling, boosting cellular energy output while minimizing mitochondrial "leakage" and fission.
 
 #### Physiological Impact

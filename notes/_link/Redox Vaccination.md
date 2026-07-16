@@ -4,7 +4,7 @@ description: Redox Vaccination is the hypothesis that sub-toxic exposure to redo
   compounds (such as Carbazochrome, a stabilized Adrenochrome derivative) upregulates
   SIRT3 expression through a retro...
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-16
 tags:
   - scientific-concept
   - oxidative-stress
@@ -23,7 +23,7 @@ The redox vaccination mechanism unfolds through a defined signaling hierarchy:
 4. **AMPK activation:** H₂O₂ oxidizes and inhibits protein phosphatases, leading to [[AMPK]] phosphorylation and activation.
 5. **PGC-1α induction:** Activated AMPK phosphorylates [[PGC1-α]] (Thr177, Ser538), enhancing its transcriptional activity.
 6. **SIRT3 upregulation:** PGC-1α drives SIRT3 transcription, increasing mitochondrial deacetylase capacity.
-7. **MnSOD activation:** Elevated SIRT3 deacetylates MnSOD at K68/K122, dramatically increasing its superoxide-scavenging activity.
+7. **MnSOD activation:** Elevated SIRT3 deacetylates MnSOD at [[Lys68]]/K122, dramatically increasing its superoxide-scavenging activity.
 8. **Feedback loop:** Enhanced MnSOD activity lowers steady-state superoxide, but the elevated SIRT3/MnSOD axis remains primed for faster response to future oxidative challenges.
 ```
 Carbazochrome → Redox Cycling → O₂⁻ → MnSOD → H₂O₂
@@ -62,7 +62,7 @@ The parallel to immunological vaccination is mechanistically precise:
 | Experiment | Model | Protocol | Expected Outcome |
 |-----------|-------|----------|-----------------|
 | **1. SIRT3 induction** | HeLa or primary hepatocytes | Carbazochrome (50–200 nM) × 24h → Western blot for SIRT3 | Dose-dependent SIRT3 protein increase |
-| **2. MnSOD acetylation** | Same cells | IP with anti-SOD2 → Western with anti-acetyl-Lys | Reduced acetyl-K68/K122 signal (indicating SIRT3 activation) |
+| **2. MnSOD acetylation** | Same cells | IP with anti-SOD2 → Western with anti-acetyl-Lys | Reduced acetyl-[[Lys68]]/K122 signal (indicating SIRT3 activation) |
 | **3. Redox vaccination** | SIRT3-WT vs. SIRT3-KO MEFs | Pre-treat with sub-toxic carbazochrome → challenge with H₂O₂ or rotenone → viability | Protection in WT, abolished in KO |
 | **4. SIRT4 opposition** | SIRT4-overexpressing cells | Repeat experiment 3 | SIRT4 overexpression widens the window (higher carbazochrome dose needed) |
 | **5. Temporal dynamics** | Time-course (0–48h) | Measure SIRT3 mRNA/protein at multiple time points | SIRT3 peaks at 12–24h, persists for 48h |

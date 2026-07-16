@@ -2,7 +2,7 @@
 title: Manganese Superoxide Dismutase (MnSOD/SOD2)
 description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the SOD2 gene and imported into the mitochondrial matrix.
 created: 2026-07-04
-updated: 2026-07-14
+updated: 2026-07-16
 tags:
   - protein
   - antioxidant
@@ -24,28 +24,28 @@ aliases:
 
 MnSOD is a ~25 kDa nuclear-encoded protein synthesized as a precursor with an N-terminal mitochondrial targeting sequence that is cleaved upon import into the matrix. The mature enzyme assembles into a homotetramer, each monomer binding one manganese ion at the active site. The catalytic cycle alternates between Mn³⁺ and Mn²⁺ oxidation states: superoxide reduces Mn³⁺ to Mn²⁺ while being oxidized to O₂, and a second superoxide oxidizes Mn²⁺ back to Mn³⁺ while being reduced to H₂O₂. The H₂O₂ product is then detoxified by [[Catalase]] and peroxiredoxins/glutathione peroxidases. Because superoxide itself is a poor signaling molecule but a potent source of downstream radicals (via [[Fenton Reaction|Fenton chemistry]] generating hydroxyl radical), MnSOD activity determines the redox tone of the matrix.
 
-A ring of **11 positively charged residues** surrounds the active-site channel, including Lys68. This positive charge is essential for attracting the negatively charged superoxide substrate into the catalytic core (Borgstahl et al. 1992).
+A ring of **11 positively charged residues** surrounds the active-site channel, including [[Lys68]]. This positive charge is essential for attracting the negatively charged superoxide substrate into the catalytic core (Borgstahl et al. 1992).
 
 ## Lysine Acetylation Sites
 
-MnSOD contains multiple reversible acetyl-lysine residues that regulate its enzymatic activity. Four sites have been identified in both humans and mice by mass spectrometry: **K53, K68, K89, and K122** (with additional sites K130, K154, K194, K221 reported in some studies). These lysines are evolutionarily conserved across species from yeast to mammals.
+MnSOD contains multiple reversible acetyl-lysine residues that regulate its enzymatic activity. Four sites have been identified in both humans and mice by mass spectrometry: **K53, [[Lys68]], K89, and K122** (with additional sites K130, K154, K194, K221 reported in some studies). These lysines are evolutionarily conserved across species from yeast to mammals.
 
 ### Lys68 — The Human Primary Site
 
 [[Lys68]] is the **primary acetylation site in human MnSOD** (Chen et al. 2011, EMBO Reports):
 
-- Acetylation at K68 **negatively regulates** MnSOD activity — the K68Q acetylation-mimetic mutant showed ~60% decreased specific activity
-- K68 is part of the ring of positively charged residues surrounding the active-site channel. Acetylation neutralizes the positive charge, reducing affinity for both the Mn³⁺ cofactor and superoxide substrate
-- **iTRAQ mass spectrometry**: [[SIRT3]] overexpression decreased K68-acetylated MnSOD from 54.2% → 35.7%; SIRT3 knockdown increased it to **87.7%**
+- Acetylation at [[Lys68]] **negatively regulates** MnSOD activity — the K68Q acetylation-mimetic mutant showed ~60% decreased specific activity
+- [[Lys68]] is part of the ring of positively charged residues surrounding the active-site channel. Acetylation neutralizes the positive charge, reducing affinity for both the Mn³⁺ cofactor and superoxide substrate
+- **iTRAQ mass spectrometry**: [[SIRT3]] overexpression decreased [[Lys68]]-acetylated MnSOD from 54.2% → 35.7%; SIRT3 knockdown increased it to **87.7%**
 - K68R (deacetylation-mimic) did **not** increase activity like K122R — suggesting K68 has a structural role beyond just acetylation status
 
-> [!warning] The K68 peroxidase switch
-> K68-acetylated MnSOD **destabilizes the homotetramer**, shifting it to a **monomeric form**. The monomer gains **40-fold increased peroxidase activity** (instead of dismutase activity). This means K68-Ac converts MnSOD from a superoxide scavenger into a **pro-oxidant** — generating H₂O₂ via peroxidase chemistry rather than clearing superoxide. This drives HIF2α stabilization → stemness genes (Oct4, Sox2, Nanog) → breast cancer invasiveness (Zhu et al. 2019, Nature Communications).
+> [!warning] The [[Lys68]] peroxidase switch
+> [[Lys68]]-acetylated MnSOD **destabilizes the homotetramer**, shifting it to a **monomeric form**. The monomer gains **40-fold increased peroxidase activity** (instead of dismutase activity). This means [[Lys68]]-Ac converts MnSOD from a superoxide scavenger into a **pro-oxidant** — generating H₂O₂ via peroxidase chemistry rather than clearing superoxide. This drives HIF2α stabilization → stemness genes (Oct4, Sox2, Nanog) → breast cancer invasiveness (Zhu et al. 2019, Nature Communications).
 
-**Disease associations of K68-Ac:**
+**Disease associations of [[Lys68]]-Ac:**
 
-- **Breast cancer**: K68-Ac is enriched in luminal B subtype; promotes tamoxifen, cisplatin, and doxorubicin resistance via mitochondrial metabolic reprogramming (Gao et al. 2021)
-- **Stemness reprogramming**: K68-Ac → mtROS → HIF2α → Oct4/Sox2/Nanog → cancer stem cell phenotype (He et al. 2019, PNAS)
+- **Breast cancer**: [[Lys68]]-Ac is enriched in luminal B subtype; promotes tamoxifen, cisplatin, and doxorubicin resistance via mitochondrial metabolic reprogramming (Gao et al. 2021)
+- **Stemness reprogramming**: [[Lys68]]-Ac → mtROS → HIF2α → Oct4/Sox2/Nanog → cancer stem cell phenotype (He et al. 2019, PNAS)
 - **Hypertension**: SOD2-K68R deacetylation-mimetic mice were **completely protected** from angiotensin II-induced hypertension — no increase in mitochondrial superoxide, preserved endothelial NO, protected vasorelaxation (Dikalova et al. 2024, AJP Heart)
 
 ### Lys122 — The Mouse Primary Site
@@ -64,15 +64,15 @@ MnSOD contains multiple reversible acetyl-lysine residues that regulate its enzy
 
 Three laboratories published simultaneously in 2010 identifying different "primary" acetylation sites:
 
-- **Chen lab**: K68 (human cells)
+- **Chen lab**: [[Lys68]] (human cells)
 - **Tao/Gius lab**: K122 (mouse cells)
 - **Qiu/Chen lab**: K53 and K89 (mouse cells)
 
 This likely reflects species-specific differences in acetylation patterns, cellular context, and methodological approaches. Recent work suggests **all sites contribute** — MnSOD contains multiple reversible acetyl-lysines that are differentially regulated by cellular context, stress type, and metabolic state.
 
-### K68 vs K122 — Functional Comparison
+### [[Lys68]] vs K122 — Functional Comparison
 
-| Feature | K68 | K122 |
+| Feature | [[Lys68]] | K122 |
 |---------|-----|------|
 | **Species prominence** | Human (primary) | Mouse (primary) |
 | **Structural location** | Active-site channel ring (α1/α2 helices) | Tetramer interface |
@@ -83,7 +83,7 @@ This likely reflects species-specific differences in acetylation patterns, cellu
 
 ### The Goldilocks Problem
 
-K68 must cycle between acetylated and deacetylated states. Too much acetylation → cancer, drug resistance, hypertension. Too little → cardiomyopathy, senescence. MnSOD K68R knock-in mice (constitutively deacetylated, always "on") developed **dilated cardiomyopathy** at 4 months with increased cellular senescence and lipid peroxidation (Schell et al. 2025). Any therapy must restore **dynamic cycling**, not lock the switch.
+[[Lys68]] must cycle between acetylated and deacetylated states. Too much acetylation → cancer, drug resistance, hypertension. Too little → cardiomyopathy, senescence. MnSOD K68R knock-in mice (constitutively deacetylated, always "on") developed **dilated cardiomyopathy** at 4 months with increased cellular senescence and lipid peroxidation (Schell et al. 2025). Any therapy must restore **dynamic cycling**, not lock the switch.
 
 ## Sirtuin Regulation
 
@@ -96,29 +96,29 @@ MnSOD is a paradigm of sirtuin-mediated metabolic control:
 
 The opposing effects of SIRT3 and SIRT4 create the **[[SIRT3/SIRT4 Ratio]]**, a molecular redox dial that determines MnSOD activity and the mitochondrial [[Hormetic Window]].
 
-## Therapeutic Targeting of K68 Acetylation
+## Therapeutic Targeting of [[Lys68]] Acetylation
 
-No direct K68-targeting drug exists. The primary therapeutic strategy is **indirect — activating SIRT3** to restore deacetylation capacity:
+No direct [[Lys68]]-targeting drug exists. The primary therapeutic strategy is **indirect — activating SIRT3** to restore deacetylation capacity:
 
 **SIRT3 Activators (preclinical):**
 
 | Compound | Status | Mechanism | Key Finding |
 |----------|--------|-----------|-------------|
-| [[Honokiol]] | Preclinical | SIRT3 activator | Reverses cardiac hypertrophy; deacetylates MnSOD K68/K122 |
-| C12 | Preclinical (Lu et al. 2017) | Direct SIRT3 activator | Crystal structure solved (PDB: 5gxo); promotes K68 deacetylation |
-| 2-APQC | Preclinical (Fu et al. 2024) | Structure-based SIRT3 activator | Reduced K68 and K122 acetylation in cardiomyocytes |
+| [[Honokiol]] | Preclinical | SIRT3 activator | Reverses cardiac hypertrophy; deacetylates MnSOD [[Lys68]]/K122 |
+| C12 | Preclinical (Lu et al. 2017) | Direct SIRT3 activator | Crystal structure solved (PDB: 5gxo); promotes [[Lys68]] deacetylation |
+| 2-APQC | Preclinical (Fu et al. 2024) | Structure-based SIRT3 activator | Reduced [[Lys68]] and K122 acetylation in cardiomyocytes |
 | SKLB-11A | Preclinical (2025) | Allosteric SIRT3 activator | First-in-class; submicromolar affinity; prevents cardiotoxicity |
 | SZC-6 | Preclinical (Liu et al. 2025) | Coumarin-based allosteric activator | Stronger than C12; protects against diabetic kidney disease |
-| DHP compounds | Tool compounds | 1,4-dihydropyridine-based | ~5-fold SIRT3 activation; confirmed K68 deacetylation in cells |
+| DHP compounds | Tool compounds | 1,4-dihydropyridine-based | ~5-fold SIRT3 activation; confirmed [[Lys68]] deacetylation in cells |
 
 > [!note] Clinical status
-> No SIRT3-targeting molecule has yet entered clinical trials (PMC12917608, 2025). The most promising near-term path is allosteric SIRT3 activators like SZC-6 or SKLB-11A, which restore dynamic K68 cycling rather than locking the switch.
+> No SIRT3-targeting molecule has yet entered clinical trials (PMC12917608, 2025). The most promising near-term path is allosteric SIRT3 activators like SZC-6 or SKLB-11A, which restore dynamic [[Lys68]] cycling rather than locking the switch.
 
 **Other approaches:**
 
-- **Caloric restriction / fasting**: 36h fasting deacetylates K68 (Tao et al. 2010) — validated but adherence-limited
+- **Caloric restriction / fasting**: 36h fasting deacetylates [[Lys68]] (Tao et al. 2010) — validated but adherence-limited
 - **GC4419** (Galera Therapeutics): SOD mimetic that chemically replaces MnSOD function; was in Phase III trials for radiation-induced esophagitis — bypasses acetylation entirely
-- **NAD+ precursors** ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]): Fuel SIRT3 activity; indirect K68 deacetylation
+- **NAD+ precursors** ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]): Fuel SIRT3 activity; indirect [[Lys68]] deacetylation
 
 ## Physiological and Pathological Role
 
@@ -143,7 +143,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[SIRT3]] — Directly deacetylates MnSOD at K68/K122, boosting enzymatic activity
+- [[SIRT3]] — Directly deacetylates MnSOD at [[Lys68]]/K122, boosting enzymatic activity
 - [[SIRT1]] — Upregulates SOD2 transcription via FOXO3a signaling
 - [[SIRT6]] — Upregulates MnSOD via AMPK-dependent pathway
 - [[SIRT4]] — Inhibits MnSOD activity via ADP-ribosylation

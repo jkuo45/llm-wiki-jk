@@ -4,7 +4,7 @@ description: Lysine 68 (K68) of mitochondrial MnSOD/SOD2 — an acetylation site
 type: entity
 protected: false
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-16
 tags:
   - amino-acid-residue
   - sirtuin-substrate-site
