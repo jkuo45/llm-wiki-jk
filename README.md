@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 16_JUL_2026 | 23 | 1250 | 732,970 | 5.91 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 16_JUL_2026 | 23 | 1269 | 737,785 | 5.95 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 16_JUL_2026 | 19 | 268 | 206,966 | 1.89 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]] | 16_JUL_2026 | 11 | 233 | 167,902 | 1.36 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 16_JUL_2026 | 8 | 261 | 221,446 | 2.10 MB |
@@ -12,10 +12,10 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 16_JUL_2026 | 9 | 197 | 199,947 | 3.80 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 13_JUL_2026 | 2 | 73 | 53,389 | 0.50 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 11_JUL_2026 | 1 | 64 | 67,653 | 0.63 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 16_JUL_2026 | 13 | 44 | 107,852 | 1.10 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 16_JUL_2026 | 14 | 45 | 129,246 | 1.45 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 16_JUL_2026 | 10 | 130 | 197,847 | 1.63 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 16_JUL_2026 | **98** | **2554** | **1,976,440** | **19.13 MB** |
+| **subtotal** | 16_JUL_2026 | **99** | **2574** | **2,002,649** | **19.51 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -97,11 +97,12 @@ example: suggested schedule (Resveratrol, and Creatine)
 ---
 
 <!-- GENERATED: document_list -->
-## Documents (98 total)
+## Documents (99 total)
 
 <details>
-<summary><strong>Documents (98 total)</strong> — click to expand</summary>
+<summary><strong>Documents (99 total)</strong> — click to expand</summary>
 
+- `senescence`: [Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Mitochondrial%20dysfunction%20in%20cellular%20senescence%20a%20bridge%20to%20neurodegenerative%20disease.md) [[notes/senescence/_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease.md|wiki]] (16_JUL_2026 03:40 PM PDT)
 - `_link`: [Neuro-Modulating Effects of Honokiol A Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Neuro-Modulating%20Effects%20of%20Honokiol%20A%20Review.md) [[notes/_link/_document_ - Neuro-Modulating Effects of Honokiol A Review.md|wiki]] (16_JUL_2026 10:22 AM PDT)
 - `_link`: [Plant flavone apigenin An emerging anticancer agent](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Plant%20flavone%20apigenin%20An%20emerging%20anticancer%20agent.md) [[notes/_link/_document_ - Plant flavone apigenin An emerging anticancer agent.md|wiki]] (16_JUL_2026 10:22 AM PDT)
 - `_link`: [Thymic Rejuvenation and Aging](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Thymic%20Rejuvenation%20and%20Aging.md) [[notes/_link/_document_ - Thymic Rejuvenation and Aging.md|wiki]] (16_JUL_2026 10:22 AM PDT)
@@ -205,16 +206,16 @@ example: suggested schedule (Resveratrol, and Creatine)
 <!-- END GENERATED: document_list -->
 
 <!-- GENERATED: task_list -->
-## Tasks (54 total)
+## Tasks (46 total)
 
 <details>
-<summary><strong>Tasks (54 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (46 total)</strong> — click to expand</summary>
 
+- [`adrenchrome_inflammaging/` _document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md) [[tasks/adrenchrome_inflammaging/_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md|wiki]] (16_JUL_2026 12:33 PM PDT)
+- [`adrenchrome_inflammaging/` _document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation durin...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md) [[tasks/adrenchrome_inflammaging/_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md|wiki]] (16_JUL_2026 12:33 PM PDT)
+- [`adrenchrome_inflammaging/` _document_ - Shingles vaccine may slow biological aging and reduce inflammation](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md) [[tasks/adrenchrome_inflammaging/_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md|wiki]] (16_JUL_2026 12:33 PM PDT)
+- [`adrenchrome_inflammaging/` _document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog A...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md) [[tasks/adrenchrome_inflammaging/_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md|wiki]] (16_JUL_2026 12:33 PM PDT)
 - [`adrenchrome_inflammaging/` task_output_trace_16_JUL_2026-00](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/task_output_trace_16_JUL_2026-00.md) [[tasks/adrenchrome_inflammaging/task_output_trace_16_JUL_2026-00.md|wiki]] (16_JUL_2026 12:30 PM PDT)
-- [`adrenchrome_inflammaging/` _document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog A...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md) [[tasks/adrenchrome_inflammaging/_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md|wiki]] (16_JUL_2026 12:13 PM PDT)
-- [`adrenchrome_inflammaging/` _document_ - Shingles vaccine may slow biological aging and reduce inflammation](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md) [[tasks/adrenchrome_inflammaging/_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md|wiki]] (16_JUL_2026 12:12 PM PDT)
-- [`adrenchrome_inflammaging/` _document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation durin...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md) [[tasks/adrenchrome_inflammaging/_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md|wiki]] (16_JUL_2026 12:12 PM PDT)
-- [`adrenchrome_inflammaging/` _document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md) [[tasks/adrenchrome_inflammaging/_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md|wiki]] (16_JUL_2026 12:12 PM PDT)
 - [task_output_caspase_01_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_caspase_01_JUN_2026.md) [[tasks/task_output_caspase_01_JUN_2026.md|wiki]] (16_JUL_2026 10:55 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_fisetin_sasp_cxcl12_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md) [[tasks/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md|wiki]] (16_JUL_2026 10:17 AM PDT)
 - [`adrenochrome_mb_ag/` outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md) [[tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md|wiki]] (15_JUL_2026 09:53 PM PDT)
@@ -236,8 +237,6 @@ example: suggested schedule (Resveratrol, and Creatine)
 - [task_output_sirtuins_resveratrol_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_sirtuins_resveratrol_zh-TW.md) [[tasks/task_output_sirtuins_resveratrol_zh-TW.md|wiki]] (14_JUL_2026 12:21 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - MRR - mitohormesis](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md) [[tasks/adrenochrome_mb_ag/_document_ - MRR - mitohormesis.md|wiki]] (14_JUL_2026 12:21 PM PDT)
 - [`adrenochrome_mb_ag/` task_output_mitohormetic_window_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md) [[tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md|wiki]] (14_JUL_2026 12:21 PM PDT)
-- [`z_archive/` _document_ - kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Obsidian CL...](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/_document_%20-%20kepanoobsidian-skills%20Agent%20skills%20for%20Obsidian.%20Teach%20your%20agent%20to%20use%20Obsidian%20CLI%20and%20open%20formats%20including%20Markdown%2C%20Bases%2C%20JSON%20Canvas..md) [[tasks/z_archive/_document_ - kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas..md|wiki]] (14_JUL_2026 12:21 PM PDT)
-- [`z_archive/` _document_ - knowledge-catalogokfSPEC.md at main](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/_document_%20-%20knowledge-catalogokfSPEC.md%20at%20main.md) [[tasks/z_archive/_document_ - knowledge-catalogokfSPEC.md at main.md|wiki]] (14_JUL_2026 12:21 PM PDT)
 - [`adrenochrome_mb_ag/` task_output_adrenochrome_neutrophil_protocol_25_May_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md) [[tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md|wiki]] (14_JUL_2026 10:22 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_adrenochrome_neutrophil_synthesis_25_May_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md) [[tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md|wiki]] (14_JUL_2026 10:22 AM PDT)
 - [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[tasks/task_output_autophagy_and_cancer_13_JUL_2026.md|wiki]] (13_JUL_2026 07:26 PM PDT)
@@ -245,20 +244,14 @@ example: suggested schedule (Resveratrol, and Creatine)
 - [`adrenochrome_mb_ag/` _document_ - MB, AG nitric oxide pathway signaling](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md) [[tasks/adrenochrome_mb_ag/_document_ - MB, AG nitric oxide pathway signaling.md|wiki]] (13_JUL_2026 12:31 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - SRAC - SASP-Remodeling Aminochrome Complex](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md) [[tasks/adrenochrome_mb_ag/_document_ - SRAC - SASP-Remodeling Aminochrome Complex.md|wiki]] (13_JUL_2026 12:31 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - combo therapy (MRR, SRAC, GOPS) gemini](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md) [[tasks/adrenochrome_mb_ag/_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md|wiki]] (13_JUL_2026 12:31 PM PDT)
-- [`z_archive/` task_output_adrenochrome_protocol-02](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/task_output_adrenochrome_protocol-02.md) [[tasks/z_archive/task_output_adrenochrome_protocol-02.md|wiki]] (13_JUL_2026 12:31 PM PDT)
-- [`z_archive/` task_output_adrenochrome_protocol-03](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/task_output_adrenochrome_protocol-03.md) [[tasks/z_archive/task_output_adrenochrome_protocol-03.md|wiki]] (13_JUL_2026 12:31 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - MRR - mitohormesis, MB, NAD](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md) [[tasks/adrenochrome_mb_ag/_document_ - MRR - mitohormesis, MB, NAD.md|wiki]] (13_JUL_2026 11:32 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_research-scientist_combo_therapy_11_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md) [[tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md|wiki]] (13_JUL_2026 11:32 AM PDT)
 - [`triples/` triples_as_of_05_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/triples/triples_as_of_05_JUL_2026.md) [[tasks/triples/triples_as_of_05_JUL_2026.md|wiki]] (10_JUL_2026 12:05 PM PDT)
 - [`triples/` triples_as_of_09_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/triples/triples_as_of_09_JUL_2026.md) [[tasks/triples/triples_as_of_09_JUL_2026.md|wiki]] (10_JUL_2026 12:05 PM PDT)
 - [`adrenochrome_mb_ag/` task_output_adrenochrome_gap_analysis_09_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md) [[tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md|wiki]] (10_JUL_2026 12:04 AM PDT)
-- [`z_archive/` tbl_senescent_compounds_raw](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/tbl_senescent_compounds_raw.md) [[tasks/z_archive/tbl_senescent_compounds_raw.md|wiki]] (09_JUL_2026 11:01 PM PDT)
-- [`z_archive/` _document_ - Learning to Replicate Expert Judgment in Financial Tasks](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/_document_%20-%20Learning%20to%20Replicate%20Expert%20Judgment%20in%20Financial%20Tasks.md) [[tasks/z_archive/_document_ - Learning to Replicate Expert Judgment in Financial Tasks.md|wiki]] (09_JUL_2026 06:05 PM PDT)
-- [`z_archive/` _document_ - Learning to Replicate Expert Judgment in Financial Tasks_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/_document_%20-%20Learning%20to%20Replicate%20Expert%20Judgment%20in%20Financial%20Tasks_zh-TW.md) [[tasks/z_archive/_document_ - Learning to Replicate Expert Judgment in Financial Tasks_zh-TW.md|wiki]] (09_JUL_2026 06:05 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - SRAC - senescent, ligand-conjugated](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md) [[tasks/adrenochrome_mb_ag/_document_ - SRAC - senescent, ligand-conjugated.md|wiki]] (09_JUL_2026 03:46 PM PDT)
 - [`adrenochrome_mb_ag/` task_output_SRAC_revision_log_08_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md) [[tasks/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md|wiki]] (09_JUL_2026 03:46 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - GOPS - glyco-oxidative proteostasis](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md) [[tasks/adrenochrome_mb_ag/_document_ - GOPS - glyco-oxidative proteostasis.md|wiki]] (09_JUL_2026 02:44 AM PDT)
-- [`z_archive/` task_output_slides_seven_topics_2026_JUN](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/z_archive/task_output_slides_seven_topics_2026_JUN.md) [[tasks/z_archive/task_output_slides_seven_topics_2026_JUN.md|wiki]] (09_JUL_2026 02:07 AM PDT)
 - [task_output_physiologist_shred_vs_bulk](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_physiologist_shred_vs_bulk.md) [[tasks/task_output_physiologist_shred_vs_bulk.md|wiki]] (09_JUL_2026 12:20 AM PDT)
 - [task_output_alphafold_report_NAD+_26_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md) [[tasks/task_output_alphafold_report_NAD+_26_JUN_2026.md|wiki]] (20_JUN_2026 08:00 PM PDT)
 - [tbl_senescent_compounds_normalized](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/tbl_senescent_compounds_normalized.md) [[tasks/tbl_senescent_compounds_normalized.md|wiki]] (14_JUN_2026 02:04 PM PDT)
