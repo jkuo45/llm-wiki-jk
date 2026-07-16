@@ -210,7 +210,7 @@ example: suggested schedule (Resveratrol, and Creatine)
 <details>
 <summary><strong>Tasks (50 total)</strong> — click to expand</summary>
 
-- [`adrenochrome_mb_ag/` task_output_adrenochrome_inflammaging_trace_16_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_adrenochrome_inflammaging_trace_16_JUL_2026.md) [[tasks/adrenochrome_mb_ag/task_output_adrenochrome_inflammaging_trace_16_JUL_2026.md|wiki]] (16_JUL_2026 11:30 AM PDT)
+- [`adrenchrome_inflammaging/` task_output_adrenochrome_inflammaging_trace_16_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenchrome_inflammaging/task_output_adrenochrome_inflammaging_trace_16_JUL_2026.md) [[tasks/adrenchrome_inflammaging/task_output_adrenochrome_inflammaging_trace_16_JUL_2026.md|wiki]] (16_JUL_2026 11:44 AM PDT)
 - [task_output_caspase_01_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_caspase_01_JUN_2026.md) [[tasks/task_output_caspase_01_JUN_2026.md|wiki]] (16_JUL_2026 10:55 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_fisetin_sasp_cxcl12_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md) [[tasks/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md|wiki]] (16_JUL_2026 10:17 AM PDT)
 - [`adrenochrome_mb_ag/` outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md) [[tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md|wiki]] (15_JUL_2026 09:53 PM PDT)
