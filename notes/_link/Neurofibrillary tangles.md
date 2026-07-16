@@ -1,32 +1,31 @@
 ---
-title: Neurofibrillary tangles
-description: 'Etiology and pathophysiology: Neurofibrillary tangles is a medical'
-  condition characterized by specific pathological changes in cellular, tissue, or
-  organ function. Its development involves gene...
-created: 2026-07-04
-updated: 2026-07-04
+title: Neurofibrillary Tangles
+description: Intracellular aggregates of hyperphosphorylated tau protein, a hallmark pathology of Alzheimer's disease and other tauopathies.
+created: 2026-07-16
+updated: 2026-07-16
 tags:
-  - medical-condition
-aliases: [NFTs]
-
+  - protein
+aliases:
+  - Tau tangles
+  - NFTs
 ---
 
-# Neurofibrillary tangles
+## Overview
 
-**Etiology and pathophysiology:** Neurofibrillary tangles is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
-
-**Clinical presentation:** Neurofibrillary tangles presents with characteristic signs and symptoms that reflect the underlying pathophysiology. Diagnosis is based on clinical evaluation, laboratory tests, and imaging studies.
-
-**Disease mechanisms:** The pathogenesis of Neurofibrillary tangles involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
-
-**Therapeutic strategies:** Management of Neurofibrillary tangles includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
-
-#
+Neurofibrillary tangles (NFTs) are intraneuronal aggregates of hyperphosphorylated [[Tau]] protein that form paired helical filaments. They are a defining pathological feature of [[Alzheimer's Disease]] and other [[Tauopathies]]. Hyperphosphorylated tau detaches from [[Microtubules]], disrupting axonal transport, and aggregates into insoluble fibrils that impair [[Mitochondria|mitochondrial]] trafficking and function. The spread of tau pathology correlates with cognitive decline and is mechanistically linked to [[Cellular Senescence]] via tau-induced mitochondrial stress and neuroinflammation.
 
 ## Connections
-- [[Neurofibrillary tangles]] — related entity
+
+- [[Alzheimer's Disease]] — NFTs are a core pathological hallmark of AD
+- [[Tau]] — The protein component of NFTs
+- [[β-Amyloid]] — Works synergistically with tau pathology in AD
+- [[Mitochondria]] — Tau aggregation disrupts mitochondrial transport and function
+- [[Cellular Senescence]] — Tau pathology induces senescence-like states in neurons
+
+## Documents
+
+- [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease|Hruby & Higuchi-Sanabria 2025]] — Discusses tau hyperphosphorylation and aggregation as a senescence-related pathology in Alzheimer's disease.
 
 ## Linking Summary
-- New links added: [[Neurofibrillary tangles]]
-  - Strong connections to strengthen: Neurofibrillary tangles ↔ Neurofibrillary tangles
 
+- New links added: [[Alzheimer's Disease]], [[Tau]], [[β-Amyloid]], [[Mitochondria]], [[Cellular Senescence]]

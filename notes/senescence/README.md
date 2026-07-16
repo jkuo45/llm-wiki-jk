@@ -3,7 +3,7 @@ title: Senescence notes
 aliases: []
 description: Index of wiki notes for cellular senescence and senotherapeutics
 created: 2026-07-09
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 # Senescence
 
@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 15_July_2026 11:00 AM PDT
-- Total count of entities: 38
+- Last updated: 16_July_2026 12:30 PM PDT
+- Total count of entities: 49
 
 ## Documents
 
@@ -41,6 +41,9 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
   - [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025 — Fisetin Reverses Age-Related Endothelial Dysfunction]]
     - Single-cell transcriptomics study showing fisetin eliminates senescent ECs in vivo, identifies CXCL12 as the key SASP factor driving age-related endothelial dysfunction via NO suppression, mitochondrial ROS, and EndoMT. Core entities: [[Fisetin]], [[CXCL12]], [[Endothelial Cells]], [[Endothelial Dysfunction]], [[Endothelial-to-Mesenchymal Transition]], [[ACKR3]].
+
+  - [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease|Hruby & Higuchi-Sanabria 2025 — Mitochondrial Dysfunction in Senescence Bridges Neurodegeneration]]
+    - Comprehensive npj Aging review (Dec 2025) surveying mitochondrial dysfunction in senescence — OXPHOS/ROS, Ca2+ handling, mitophagy, metabolic shifts, DAMPs — and its mechanistic link to Alzheimer's, Parkinson's, and Huntington's diseases. Core entities: [[Mitochondria]], [[Oxidative Phosphorylation]], [[Mitophagy]], [[cGAS-STING Pathway]], [[NLRP3]], [[NAD+]], [[MERCS]], [[Cyclophilin D]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Metformin]], [[Methylene blue]].
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
@@ -83,3 +86,14 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[Endothelial-to-Mesenchymal Transition]]              | 15_July_2026 11:00 AM PDT | Biological Process     |      7      |     -1      | Transdifferentiation of ECs driven by SASP/CXCL12; mechanism of age-related endothelial dysfunction. |
 | [[ACKR3]]                                              | 15_July_2026 11:00 AM PDT | Receptor               |      5      |      0      | CXCL12 scavenger receptor; altered Cxcl12-Ackr3 vs Cxcl12-Cxcr4 signaling in senescent ECs with aging. |
 | [[CXCR4]]                                              | 15_July_2026 11:00 AM PDT | Receptor               |      5      |      0      | Principal CXCL12 receptor; Cxcl12-Cxcr4 interactions decrease with aging in senescent ECs. |
+| [[Denham Harman]]                                      | 16_July_2026 12:30 PM PDT | Person                 |      2      |      0      | Originator of free radical and MFRTA theories; historical context. |
+| [[Mus musculus]]                                       | 16_July_2026 12:30 PM PDT | Organism               |      3      |      0      | Primary mammalian model for in vivo senescence and neurodegeneration studies. |
+| [[ITPR2]]                                              | 16_July_2026 12:30 PM PDT | Gene                   |      4      |      0      | ER calcium channel at MERCS; mediates ER-to-mitochondria Ca²⁺ transfer in senescence. |
+| [[MDH1]]                                               | 16_July_2026 12:30 PM PDT | Enzyme                 |      2      |      0      | Cytosolic malate dehydrogenase; NAD⁺/NADH shuttle in metabolic rewiring of senescence. |
+| [[MDH2]]                                               | 16_July_2026 12:30 PM PDT | Enzyme                 |      2      |      0      | Mitochondrial malate dehydrogenase; TCA cycle and NAD⁺/NADH shuttle. |
+| [[SNCA]]                                               | 16_July_2026 12:30 PM PDT | Gene                   |      4      |     -1      | α-synuclein gene; Parkinson's pathology linked to mitochondrial-senescence axis. |
+| [[HTT]]                                                | 16_July_2026 12:30 PM PDT | Gene                   |      4      |     -1      | Huntingtin gene; CAG expansion drives mitochondrial dysfunction and senescence in HD. |
+| [[Immune Surveillance]]                                | 16_July_2026 12:30 PM PDT | Biological Process     |      7      |      1      | Age-related decline permits senescent cell accumulation; key clearance mechanism. |
+| [[Neurofibrillary Tangles]]                             | 16_July_2026 12:30 PM PDT | Protein                |      5      |     -1      | Hyperphosphorylated tau aggregates in AD; linked to mitochondrial-senescence crosstalk. |
+| [[Stress-Induced Senescence]]                           | 16_July_2026 12:30 PM PDT | Biological Process     |      9      |     -1      | Senescence triggered by genotoxic/mitochondrial/oxidative stress; major subtype. |
+| [[Flavonoid]]                                           | 16_July_2026 12:30 PM PDT | Chemical Class         |      4      |      0      | Polyphenolic class; quercetin, fisetin are senolytics sourced from flavonoids. |
