@@ -173,6 +173,11 @@ def main():
         help="Directory containing topics (default: notes)",
     )
     parser.add_argument(
+        "--tasks_dir",
+        default="tasks",
+        help="Directory containing task outputs (default: tasks)",
+    )
+    parser.add_argument(
         "--output",
         default="README.md",
         help="Path to the output README file (default: README.md)",
@@ -268,6 +273,36 @@ def main():
                 "words": word_count,
             })
 
+    # --- Scan tasks directory for .md files (recursive) ---
+    task_data = []
+    tasks_dir = args.tasks_dir
+    if os.path.isdir(tasks_dir):
+        for dirpath, dirnames, filenames in os.walk(tasks_dir):
+            dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+            for fname in sorted(filenames):
+                if fname.endswith(".md") and not fname.startswith("."):
+                    fpath = os.path.join(dirpath, fname)
+                    if os.path.isfile(fpath):
+                        rel_path = os.path.relpath(fpath, ".")
+                        git_dt = get_git_commit_date(fpath, repo_root)
+                        if git_dt:
+                            mtime_dt = git_dt.astimezone()
+                        else:
+                            mtime_dt = datetime.fromtimestamp(
+                                os.path.getmtime(fpath)
+                            ).astimezone()
+                        mtime_str = mtime_dt.strftime(
+                            "%d_%b_%Y %I:%M %p %Z"
+                        ).upper()
+                        word_count = count_words(fpath)
+                        task_data.append({
+                            "date": mtime_str,
+                            "datetime": mtime_dt,
+                            "path": rel_path,
+                            "words": word_count,
+                        })
+        task_data.sort(key=lambda x: x["datetime"], reverse=True)
+
     # Prepare new content
     new_timestamp = get_timestamp()
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
@@ -315,15 +350,45 @@ def main():
             f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']})"
         )
 
+    # Build task list
+    task_list_lines = []
+    for t in task_data:
+        basename = os.path.basename(t["path"])
+        display_name = re.sub(r"\.md$", "", basename)
+        if len(display_name) > 100:
+            display_name = display_name[:97].rstrip() + "..."
+        # Show subfolder prefix when file is not in tasks root
+        rel = os.path.relpath(t["path"], tasks_dir)
+        prefix = os.path.dirname(rel)
+        if prefix:
+            display_name = f"`{prefix}/` {display_name}"
+        task_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(t['path'], safe='/')}"
+        task_wiki = f"[[{t['path']}|wiki]]"
+        task_list_lines.append(
+            f"- [{display_name}]({task_gh}) {task_wiki} ({t['date']})"
+        )
+
     # Build marker-delimited sections
     summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
-    doc_list_content = f"## Documents ({len(document_data)} total)\n\n" + "\n".join(
-        docs_list
+    doc_list_content = (
+        f"## Documents ({len(document_data)} total)\n\n"
+        "<details>\n"
+        f"<summary><strong>Documents ({len(document_data)} total)</strong> — click to expand</summary>\n\n"
+        + "\n".join(docs_list)
+        + "\n\n</details>"
+    )
+    task_list_content = (
+        f"## Tasks ({len(task_data)} total)\n\n"
+        "<details>\n"
+        f"<summary><strong>Tasks ({len(task_data)} total)</strong> — click to expand</summary>\n\n"
+        + "\n".join(task_list_lines)
+        + "\n\n</details>"
     )
 
     sections = {
         "summary_table": summary_table_content,
         "document_list": doc_list_content,
+        "task_list": task_list_content,
     }
 
     # Read existing README if present
