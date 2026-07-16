@@ -273,6 +273,8 @@ List of documents that mention this entity
 
   - [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025 — Fisetin Reverses Age-Related Endothelial Dysfunction]]
     - Establishes the circulating SASP milieu as a causal driver of age-related endothelial dysfunction; identifies CXCL12 as the key SASP factor mediating NO suppression, mitochondrial ROS, and EndoMT; shows that fisetin senolytic treatment reduces circulating SASP burden and normalizes CXCL12 to rescue endothelial function.
+  - [[task_output_trace_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+    - Positions the SASP as the canonical driver of inflammaging downstream of adrenochrome → DGCR8/Drosha Microprocessor → Senescence in the shortest-path cascade.
 
 ## Connections
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
@@ -280,6 +282,9 @@ List of documents that mention this entity
 - [[Inflammaging]] — chronic SASP is a major driver of age-related inflammation
 - [[NF-κB]] — master transcription factor regulating SASP gene expression
 - [[mTORC1]] — regulates SASP translation; inhibited by rapamycin
+- [[DGCR8]] — Microprocessor cofactor; its dysfunction triggers senescence/SASP in the adrenochrome trace
+- [[Drosha]] — Microprocessor enzyme; elevated DROSHA promotes AIM2 inflammasome inflammation
+- [[Adrenochrome]] — electrophilic quinone upstream of Microprocessor dysfunction → SASP
 - [[cGAS-STING Pathway|cGAS–STING]] — detects cytoplasmic DNA to drive SASP factor transcription
 - [[Senolytic Therapy|Senolytics]] — drugs that clear senescent cells, eliminating SASP source
 - [[Senomorphic Therapy]] — modulates SASP without killing senescent cells

@@ -3,7 +3,7 @@ title: Drosha
 description: Nuclear RNase III enzyme that, with DGCR8, forms the Microprocessor complex and initiates miRNA biogenesis by cleaving pri-miRNA into pre-miRNA.
 protected: false
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-16
 tags:
   - enzyme
   - mirna
@@ -54,6 +54,12 @@ aliases:
 
 - [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]
   - Discusses adrenochrome's quinone moiety potentially modifying the Drosha/DGCR8 Microprocessor complex and altering pri-miRNA processing.
+- [[_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal|DGCR8 is essential for miRNA biogenesis and silencing of ES cell self-renewal]]
+  - DGCR8 knockout (and by extension Drosha) globally abolishes miRNA production and blocks ES cell self-renewal silencing.
+- [[_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis|DGCR8 and its Drosophila homolog are required for miRNA biogenesis]]
+  - Co-IP shows Drosha interacts with DGCR8 in an RNA-independent manner within the functional Microprocessor.
+- [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-Dependent AIM2 Inflammasome Activation in IPF]]
+  - Elevated DROSHA in IPF alveolar macrophages promotes AIM2 inflammasome activation, caspase-1 cleavage, and IL-1β/IL-18 release.
 
 ## Connections
 
@@ -61,12 +67,22 @@ aliases:
 - [[Dicer]]: Cytoplasmic RNase III performing the second cleavage step downstream of Drosha.
 - [[Exportin-5]]: Transports Drosha-generated pre-miRNA to the cytoplasm.
 - [[MicroRNA]]: End product class whose biogenesis Drosha initiates.
+- [[Ribonuclease III]]: Drosha is a class 2 RNase III enzyme.
 - [[miR-217]] / [[miR-378]] / [[miR-543]]: Senescence-associated miRNAs whose maturation depends on Microprocessor activity.
+- [[Adrenochrome]]: Electrophilic quinone proposed to covalently modify Drosha/DGCR8.
+- [[AIM2]]: Drosha promotes AIM2 inflammasome activation in IPF.
+- [[ASC]]: Downstream adaptor nucleating the AIM2 inflammasome.
+- [[Caspase-1]]: Activated downstream of DROSHA→AIM2 in IPF macrophages.
+- [[Idiopathic Pulmonary Fibrosis]]: Disease context of elevated DROSHA.
+- [[Senescence]]: Microprocessor dysfunction unleashes senescence programs.
+- [[Inflammaging]]: Bridge node linking Microprocessor perturbation to chronic inflammation.
+- [[Alveolar Macrophages]]: Cellular site of DROSHA elevation in IPF.
 
 ## Linking Summary
 
-- New links added: [[DGCR8]], [[Microprocessor complex]], [[MicroRNA]], [[Dicer]], [[Exportin-5]], [[Argonaute]], [[RISC]], [[Senescence]], [[SASP]], [[Adrenochrome]]
+- New links added: [[DGCR8]], [[Microprocessor complex]], [[MicroRNA]], [[Dicer]], [[Exportin-5]], [[Argonaute]], [[RISC]], [[Senescence]], [[SASP]], [[Adrenochrome]], [[Ribonuclease III]], [[AIM2]], [[ASC]], [[Caspase-1]], [[Idiopathic Pulmonary Fibrosis]], [[Inflammaging]], [[Alveolar Macrophages]]
 - Suggested new entity notes to create: [[Microprocessor complex]], [[Ribonuclease III]], [[Exportin-5]], [[RISC]]
 - Strong connections to strengthen:
   - [[Drosha]] ↔ [[DGCR8]]
   - [[Drosha]] ↔ [[Dicer]]
+  - [[Drosha]] ↔ [[Inflammaging]]

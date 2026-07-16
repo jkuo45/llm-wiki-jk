@@ -86,14 +86,22 @@ List of documents that mention this entity
 
   - [[_document_ - neutrophils role in adrenochrome production|neutrophils role in adrenochrome production]]
     - Modern research focuses more on its cardiovascular and chronic disease implications than on adrenochrome per se. pmc.
-
+  - [[task_output_trace_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+    - Graphify shortest-path analysis linking adrenochrome (electrophilic quinone) → DGCR8/Drosha Microprocessor → Senescence/SASP → Inflammaging, with the myocardial/neutrophil tissue route as a parallel path.
 
 ## Connections
 - [[Epinephrine]] ↔ Direct precursor via oxidation.
-- [[Aminochromes]] ↔ Class of molecules to which adrenochrome belongs.
+- [[Aminochrones]] ↔ Class of molecules to which adrenochrome belongs.
 - [[Redox Cycling]] ↔ Mechanism of ROS amplification.
 - [[Neutrophils]] ↔ Cellular site of production during inflammation.
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
+- [[DGCR8]] ↔ Covalent target: adrenochrome's quinone moiety may modify the heme-binding Microprocessor cofactor.
+- [[Drosha]] ↔ Covalent target: adrenochrome may modify Drosha, altering pri-miRNA processing.
+- [[Microprocessor complex]] ↔ Molecular hinge where adrenochrome translates into epigenetic perturbation.
+- [[Senescence]] ↔ Microprocessor dysfunction unleashes senescence programs.
+- [[SASP|Senescence-Associated Secretory Phenotype]] ↔ SASP is the canonical driver of inflammaging downstream of senescence.
+- [[Inflammaging]] ↔ Terminal node of the adrenochrome trace; aging increases adrenochrome-pathway flux.
+- [[AIM2]] ↔ Parallel (DROSHA-promoted) inflammasome axis feeding inflammation.
 
 ## Linking Summary
 - New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Sodium Potassium ATPase]], [[MAP Kinase]], [[NFκB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]

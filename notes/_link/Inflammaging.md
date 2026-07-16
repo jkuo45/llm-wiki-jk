@@ -49,6 +49,15 @@ List of documents that mention this entity
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Inflammaging establishes a microenvironment that promotes both induction and persistence of cellular senescence in IPF lung tissue.
 
+  - [[task_output_trace_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+    - Shortest-path analysis: adrenochrome (electrophilic quinone) → DGCR8/Drosha Microprocessor → Senescence → SASP → Inflammaging, plus a myocardial/neutrophil tissue route (adrenochrome → Myocardial Infarction → Neutrophils → Inflammation).
+
+  - [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-Dependent AIM2 Inflammasome Activation in IPF]]
+    - Elevates DROSHA in IPF alveolar macrophages → AIM2 inflammasome → caspase-1/IL-1β/IL-18, a macrophage-level driver of inflammaging.
+
+  - [[_document_ - Shingles vaccine may slow biological aging and reduce inflammation|Shingles vaccine may slow biological aging and reduce inflammation]]
+    - Shingles vaccination associated with lower chronic inflammation (inflammaging) and slower epigenetic/transcriptomic aging — a modulator of the inflammaging state.
+
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Cytokines]] — interacts with Inflammaging
@@ -70,6 +79,14 @@ List of documents that mention this entity
 - [[RB1]] — RB1 loss derepresses LINE-1 fueling inflammaging
 - [[SIRT6]] — SIRT6 loss derepresses LINE-1 promoting inflammaging
 - [[Cellular Senescence]]: Inflammaging promotes senescence induction/persistence in IPF.
+- [[Adrenochrome]]: Electrophilic quinone upstream of Microprocessor dysfunction feeding inflammaging (trace).
+- [[DGCR8]]: Microprocessor cofactor; bridge node in the adrenochrome → inflammaging path.
+- [[Drosha]]: Microprocessor enzyme; elevated DROSHA promotes AIM2 inflammasome inflammation.
+- [[Microprocessor complex]]: Hinge where metabolite/epigenetic perturbation translates to inflammaging.
+- [[AIM2]]: DNA-sensing inflammasome driving innate immune inflammation.
+- [[Idiopathic Pulmonary Fibrosis]]: Age-related disease where chronic inflammation/fibrosis coexist.
+- [[Shingles Vaccine]]: Intervention associated with lower inflammaging.
+- [[Varicella Zoster Virus]]: Reactivation source of chronic inflammatory stress.
 ## Linking Summary
 - New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1β]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
