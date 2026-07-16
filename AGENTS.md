@@ -101,7 +101,6 @@ When marking up wiki links in the ingested document, apply these rules systemati
 ```
 title: # Name of entity, index of topic, name of document, etc.
 description: # Short description (if chat thread, summarize)
-type: entity # [entity | document | index]
 protected: false # [true | false] Prevents relocation to _link/ when true
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
