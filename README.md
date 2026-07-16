@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 14_JUL_2026 | 23 | 1201 | 711,597 | 5.75 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) [[notes/_link/README\|wiki]] | 15_JUL_2026 | 23 | 1204 | 714,446 | 5.77 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) [[notes/adrenochrome/README\|wiki]] | 14_JUL_2026 | 19 | 268 | 206,638 | 1.89 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) [[notes/autophagy/README\|wiki]] | 14_JUL_2026 | 11 | 233 | 167,904 | 1.36 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) [[notes/cancer/README\|wiki]] | 10_JUL_2026 | 8 | 261 | 221,291 | 2.10 MB |
@@ -12,10 +12,10 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) [[notes/epigenetics/README\|wiki]] | 14_JUL_2026 | 9 | 197 | 199,523 | 3.80 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) [[notes/neuromelanin/README\|wiki]] | 13_JUL_2026 | 2 | 73 | 53,389 | 0.50 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) [[notes/oxidative_stress/README\|wiki]] | 11_JUL_2026 | 1 | 64 | 67,653 | 0.63 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 14_JUL_2026 | 12 | 43 | 98,535 | 1.03 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/notes/senescence) [[notes/senescence/README\|wiki]] | 15_JUL_2026 | 13 | 44 | 107,799 | 1.10 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) [[notes/sirtuins/README\|wiki]] | 14_JUL_2026 | 10 | 131 | 197,727 | 1.63 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_JUL_2026 | **97** | **2505** | **1,944,725** | **18.88 MB** |
+| **subtotal** | 15_JUL_2026 | **98** | **2509** | **1,956,838** | **18.98 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -97,8 +97,9 @@ example: suggested schedule (Resveratrol, and Creatine)
 ---
 
 <!-- GENERATED: document_list -->
-## Documents (97 total)
+## Documents (98 total)
 
+- `senescence`: [Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/senescence/_document_%20-%20Senolytic%20Treatment%20With%20Fisetin%20Reverses%20Age%E2%80%90Related%20Endothelial%20Dysfunction%20Partially%20Mediated%20by%20SASP%20Factor%20CXCL12.md) [[notes/senescence/_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12.md|wiki]] (15_JUL_2026 07:10 PM PDT)
 - `_link`: [creatine anti-cancer trace](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20creatine%20anti-cancer%20trace.md) [[notes/_link/_document_ - creatine anti-cancer trace.md|wiki]] (14_JUL_2026 11:54 PM PDT)
 - `_link`: [Neuro-Modulating Effects of Honokiol A Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Neuro-Modulating%20Effects%20of%20Honokiol%20A%20Review.md) [[notes/_link/_document_ - Neuro-Modulating Effects of Honokiol A Review.md|wiki]] (14_JUL_2026 07:49 PM PDT)
 - `_link`: [Humanin a harbinger of mitochondrial-derived peptides?](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Humanin%20a%20harbinger%20of%20mitochondrial-derived%20peptides%3F.md) [[notes/_link/_document_ - Humanin a harbinger of mitochondrial-derived peptides?.md|wiki]] (14_JUL_2026 12:21 PM PDT)
