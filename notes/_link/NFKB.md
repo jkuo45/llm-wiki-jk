@@ -112,6 +112,11 @@ List of documents that mention this entity
     - Honokiol suppresses NF-κB activation (downstream of [[PKC]] and [[MAPK]]) reducing [[TNF-alpha|TNFα]], [[Nitric Oxide|NO]], and [[COX-2]] in macrophages, microglia, and dendritic cells — underpinning its analgesic and anti-neuroinflammatory actions.
 
 
+## Non-Canonical Caspase-8 Scaffolding
+
+> [!info] Phosphorylated Caspase-8 Activates NF-κB
+> When [[Caspase-8]] is phosphorylated by [[Src]] at Tyr380, it loses its apoptotic function and instead acts as a scaffolding protein that recruits [[FAK]], Calpain-2, and PI3K. This complex activates [[NFKB]] and [[mTORC1]], promoting cell migration, metastasis, and survival signaling. Tumors that silence [[SHP1]] maintain Caspase-8 in this pro-survival, pro-migratory state.
+
 ## Connections
 
 - **[[SIRT1]]** — Direct physical interactor and deacetylase of RelA/p65 Lys³¹⁰.

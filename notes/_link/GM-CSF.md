@@ -2,7 +2,7 @@
 title: GM-CSF
 description: Granulocyte-macrophage colony-stimulating factor is a SASP cytokine that recruits and activates myeloid cells and serves as a senolytic-therapy response biomarker.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-07-16
 tags:
   - cytokine
   - sasp
@@ -13,6 +13,11 @@ aliases: [GM-CSF, CSF2, Granulocyte-macrophage colony-stimulating factor]
 ---
 
 # GM-CSF
+
+## Role in Apoptotic Regulation
+
+> [!info] GM-CSF Activates the ERK-Bax-Pin1 Survival Axis
+> GM-CSF activates the [[ERK2]] pathway, which phosphorylates [[BAX]] at Thr167. This creates a recognition motif for [[Pin1]], which locks BAX in an inactive state, preventing mitochondrial translocation and protecting cells (notably eosinophils) from apoptosis. This mechanism links growth factor signaling to the apoptotic threshold through post-translational regulation of BAX.
 
 **GM-CSF (granulocyte-macrophage colony-stimulating factor, CSF2)** is a hematopoietic cytokine that is part of the [[SASP|Senescence-Associated Secretory Phenotype]]. It is measured as a circulating biomarker of senescent-cell burden and of senolytic-therapy efficacy in clinical studies.
 
@@ -41,8 +46,11 @@ GM-CSF binds the heterodimeric GM-CSFR, composed of a specific α-chain (CD116) 
 - [[Senolytic Therapy|senolytic therapy]]: GM-CSF is measured to assess therapy efficacy
 - [[JAK]] / [[STAT5]]: GM-CSF signals via JAK2/STAT5
 - [[Macrophages]] / [[Neutrophils]]: GM-CSF recruits and activates myeloid cells
+- [[ERK2]]: GM-CSF activates ERK2, which phosphorylates BAX at Thr167
+- [[BAX]]: GM-CSF-ERK signaling phosphorylates BAX to prevent apoptosis
+- [[Pin1]]: GM-CSF-ERK signaling creates the Pin1 recognition motif on BAX
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic Therapy|senolytic therapy]], [[JAK]], [[STAT5]], [[MAPK]], [[PI3K]], [[Macrophages]], [[Neutrophils]]
-  - Strong connections to strengthen: [[GM-CSF]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] biomarker, [[GM-CSF]] ↔ [[Senolytic Therapy|senolytic therapy]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic Therapy|senolytic therapy]], [[JAK]], [[STAT5]], [[MAPK]], [[PI3K]], [[Macrophages]], [[Neutrophils]], [[ERK2]], [[BAX]], [[Pin1]]
+  - Strong connections to strengthen: [[GM-CSF]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] biomarker, [[GM-CSF]] ↔ [[Senolytic Therapy|senolytic therapy]], [[GM-CSF]] ↔ [[ERK2]], [[GM-CSF]] ↔ [[BAX]]

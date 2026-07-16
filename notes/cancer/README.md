@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 09_July_2026 01:00 PM PDT
-- Total count of entities: 299
+- Last updated: 16_July_2026 12:00 PM PDT
+- Total count of entities: 316
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -243,6 +243,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Glutamine]] | 06_July_2026 12:00 PM PDT | Amino Acid | 8 | 0 | Conditional essential amino acid and primary fuel source for rapidly dividing cells, including cancer cells. |
 | [[Oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
 | [[Tumour Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
+| [[task_output_caspase_01_JUN_2026]] | 16_July_2026 12:00 PM PDT | Document | 9 | 0 | Research report on five critical phosphorylation switches in apoptotic signaling: Caspase-8/SHP1, Caspase-7/PAK2, BAX/Pin1, BAK/PTPN5, XIAP/TBK1. |
 
 ## Consolidated to notes/_link/
 
@@ -250,3 +251,18 @@ The following entities were moved to `notes/_link/` as cross-topic shared notes 
 
 - [[CK2]] — casein kinase 2; merged into `notes/_link/CK2.md`
 - [[HSP27]] — heat shock protein 27; merged into `notes/_link/HSP27.md`
+- [[Caspase-8]] — initiator caspase of extrinsic pathway; central hub in `notes/_link/Caspase-8.md`
+- [[Caspase-7]] — executioner caspase regulated by PAK2; central hub in `notes/_link/Caspase-7.md`
+- [[Caspase-9]] — initiator caspase of intrinsic pathway; central hub in `notes/_link/Caspase-9.md`
+- [[Caspase-3]] — primary executioner caspase; central hub in `notes/_link/Caspase-3.md`
+- [[XIAP]] — inhibitor of apoptosis protein; central hub in `notes/_link/XIAP.md`
+- [[PAK2]] — p21-activated kinase 2; central hub in `notes/_link/PAK2.md`
+- [[Pin1]] — peptidyl-prolyl isomerase; central hub in `notes/_link/Pin1.md`
+- [[PTPN5]] — STEP phosphatase; central hub in `notes/_link/PTPN5.md`
+- [[SHP1]] — PTPN6 phosphatase; central hub in `notes/_link/SHP1.md`
+- [[Src]] — proto-oncogenic tyrosine kinase; central hub in `notes/_link/Src.md`
+- [[FAK]] — focal adhesion kinase; central hub in `notes/_link/FAK.md`
+- [[IKKepsilon]] — inducible I kappa B kinase; central hub in `notes/_link/IKKepsilon.md`
+- [[TRAIL]] — TNF-related apoptosis-inducing ligand; central hub in `notes/_link/TRAIL.md`
+- [[FasL]] — Fas ligand; central hub in `notes/_link/FasL.md`
+- [[JNK]] — c-Jun N-terminal kinase; central hub in `notes/_link/JNK.md`

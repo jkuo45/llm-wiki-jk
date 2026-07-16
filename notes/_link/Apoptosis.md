@@ -32,9 +32,20 @@ aliases: []
 ## Role in [[Cellular Reprogramming]]
 - Apoptosis serves as a barrier to reprogramming efficiency. The stress of viral transduction and over-expression of factors like [[c-Myc]] triggers [[p53]]-mediated apoptosis.
 - High rates of apoptosis among transduced cells significantly lower the efficiency of generating [[Induced Pluripotent Stem Cells]].
+## Post-Translational Regulation of Apoptotic Effectors
+
+> [!important] Five Critical Phosphorylation Switches
+> The apoptotic network is regulated by multiple phosphorylation/dephosphorylation switches that determine cell fate:
+> - **[[Caspase-8]]**: Phosphorylated by [[Src]] at Tyr380 (blocks apoptosis, promotes migration); dephosphorylated by [[SHP1]] (restores apoptotic sensitivity)
+> - **[[Caspase-7]]**: Phosphorylated and inhibited by [[PAK2]] at Ser30/Thr173/Ser239 (drives chemoresistance in breast cancer)
+> - **[[BAX]]**: Phosphorylated by [[ERK2]] at Thr167 and bound by [[Pin1]] (pro-survival); or by [[JNK]]/[[p38 MAPK]] at same site (pro-apoptosis)
+> - **[[BAK]]**: Maintained inactive by Tyr108 phosphorylation; dephosphorylated by [[PTPN5]] to "license" activation
+> - **[[XIAP]]**: Degraded via [[TBK1]]/[[IKKepsilon]] phosphorylation at Ser430 (pro-apoptosis); stabilized by [[Akt]] phosphorylation at Ser87 (pro-survival)
+
 ## Related Entities
-- **Proteins:** [[p53]], [[Caspase-3]], [[Bax]], [[Bcl-2]], [[SIRT1]], [[Beclin1]]
-- **Molecules:** [[Reactive Oxygen Species]], [[Cytochrome c]], [[Ascorbic Acid]], [[melittin]], [[Ivermectin]]
+- **Proteins:** [[p53]], [[Caspase-3]], [[Caspase-7]], [[Caspase-8]], [[Caspase-9]], [[Bax]], [[Bcl-2]], [[BAK]], [[XIAP]], [[SIRT1]], [[Beclin1]]
+- **Regulators:** [[SHP1]], [[PAK2]], [[Pin1]], [[PTPN5]], [[TBK1]], [[Src]], [[FAK]]
+- **Molecules:** [[Reactive Oxygen Species]], [[Cytochrome c]], [[Ascorbic Acid]], [[melittin]], [[Ivermectin]], [[TRAIL]], [[FasL]]
 - **Processes:** [[Autophagy]], [[Cellular Senescence]], [[DNA Damage]], [[Epigenetics]], [[Inflammation]]
 
 #

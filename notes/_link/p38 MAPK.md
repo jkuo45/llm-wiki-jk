@@ -10,6 +10,11 @@ tags:
 aliases: []
 ---
 # p38 MAPK
+
+## BAX Regulation
+
+> [!info] p38 MAPK Phosphorylates BAX at Thr167
+> Under stress conditions, [[p38 MAPK]] can phosphorylate [[BAX]] at **Thr167**, the same residue targeted by [[ERK2]] for survival signaling. Unlike ERK-mediated phosphorylation (which promotes [[Pin1]] binding and BAX inactivation), p38-mediated phosphorylation promotes BAX activation and apoptosis. This makes Thr167 a molecular coincidence detector where the cellular context determines the outcome.
 [[p38 MAPK]] is a mitogen-activated protein kinase that promotes [[Apoptosis]] by phosphorylating [[Bim]] and [[Bax]], enhancing their pro-apoptotic activities.
 ### Merged from notes/autophagy/p38 MAPK.md
 p38 mitogen-activated protein kinase (p38 MAPK) is a signaling molecule that regulates [[TFEB]] by phosphorylating it at S211 (inhibitory) or S401 (activating), depending on the cellular context.
