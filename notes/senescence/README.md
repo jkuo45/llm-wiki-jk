@@ -25,8 +25,11 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 16_July_2026 12:30 PM PDT
-- Total count of entities: 67
+- Last updated: 16_July_2026 09:00 PM PDT
+- Total count of entities: 49
+
+> [!note] Cross-topic entities relocated to `_link/`
+> The following 18 entities are referenced across multiple topics and were moved to `notes/_link/` as the single source of truth (consolidated 16_July_2026): 1,3-Bisphosphoglycerate, Aminooxyacetate, CCCP, Citric Acid Cycle, CpG Islands, Cyclin A, Cyclin B, Damage-Associated Molecular Patterns, Glyceraldehyde 3-Phosphate, LeucoMB, Malate Dehydrogenase, Malate-Aspartate Shuttle, Malate, Mesenchymal Stem Cells, Oxaloacetate, Plasmacytoid Dendritic Cells, S-Nitrosoglutathione Reductase, c-Fos.
 
 ## Documents
 
