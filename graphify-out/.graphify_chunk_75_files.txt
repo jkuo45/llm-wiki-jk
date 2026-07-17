@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Endocytic Lysosome Reformation.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Energy Homeostasis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Ezetimibe.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/FACT complex.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/FIP200.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/FNIP1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/FNIP2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Folliculin.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Foxp3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/GABARAP.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/GATE-16.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/GATOR1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/GATOR2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/GCN5.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/GSK3β.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Glucosylation.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Glutaminase.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Glutamine Metabolism.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/HDACs.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/HLH-30.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/HNRNPD.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/HepG2.md

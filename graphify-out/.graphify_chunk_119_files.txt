@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - berrougui2009_resveratrol_as_atheroprotective_compound.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - centenarian_SIRT6 nihpp-rs9997679v1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - relocalization of sirtuins - chromatin modifiers, grok.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/_document_ - sirtuins in health and disease s41392-022-01257-8.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/cADPR.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/cAMP.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/p33ING1b.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/p73.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/γ-H2AX.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenchrome_inflammaging/_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenchrome_inflammaging/_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenchrome_inflammaging/_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenchrome_inflammaging/_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - GOPS - glyco-oxidative proteostasis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - MB, AG nitric oxide pathway signaling.md

@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg14.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg15.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg16.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg16L1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg17.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg4.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg5.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg7.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg8.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Atg9.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autolysosome.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autophagic Flux.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autophagic Lysosome Reformation.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autophagosome.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autophagy Inducer.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autophagy Inhibitor.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Autophagy.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/B Cell.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/BEC-1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/BRCA1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Beclin1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Beta-Oxidation.md

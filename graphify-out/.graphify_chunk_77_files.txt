@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Lysosomal Acid Lipase.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Lysosomal Lipolysis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Lysosomal Localization.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Lysosomal Storage Disorders.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MALAT1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MAP4K3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MAPK Signaling.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MAX.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/METTL3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MXL-3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MYC.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Macroautophagy.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MiT Family Translocation RCC.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MiT-TFE family.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/MiTF TFE family.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Microautophagy.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Mitochondrial Complex I.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Mucopolysaccharidosis-IIIA.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Multiple Sulfatase Deficiency.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/NHR-49.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Neuronal Ceroid Lipofuscinosis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Nuclear Export.md

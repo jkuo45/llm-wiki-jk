@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - MRR - mitohormesis, MB, NAD.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - MRR - mitohormesis.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - Mitohormetic Redox-Relay.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - SRAC - SASP-Remodeling Aminochrome Complex.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - SRAC - senescent, ligand-conjugated.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md
+/Users/johnnykuo/Documents/llm-wiki-jk/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md
