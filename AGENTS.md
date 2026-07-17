@@ -175,7 +175,7 @@ Maintain link integrity by performing periodic audits:
 ## Overlapping Link Resolution:
 
 - **Directory structure clarification**: `notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
-- **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist.
+- **Prevention check**: Before creating any new entity, verify a file with the same name does not already exist.
 - When a new entity is identified as overlapping, merge (append) its content into the `notes/_link/` version so that it is centrally linked in `notes/_link/` directory.
 - **Protected entities**: Entity files with `protected: true` in their frontmatter must NEVER be moved to `_link/`. This includes all topic hubs (files whose name matches their parent directory) plus any other files explicitly flagged. The frontmatter is the single source of truth — no hardcoded list is maintained.
 - If the entity already exists in `notes/_link/` directory, append/merge the wiki entries.
@@ -185,7 +185,3 @@ Maintain link integrity by performing periodic audits:
     - `notes/_link/Inflammation.md`
     - `notes/_link/HIF-1α.md`
     - `notes/_link/NAD+.md`
-
-## Entity Type Schema
-
-See `.agents/skills/obsidian-markdown/references/ENTITY_TYPES.md` for the full schema of `entity_type_1` values. The `entity_type_1` category should be one of the tag values in entity frontmatter.
