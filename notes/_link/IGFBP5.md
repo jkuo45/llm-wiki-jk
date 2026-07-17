@@ -40,7 +40,7 @@ aliases: [IGFBP5, IGFBP-5, insulin-like growth factor-binding protein 5]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists IGFBP5 among the beneficial SASP factors (with BMPs and MMPs) that contribute to embryogenesis; TGFβ and IGFBP5 support neural tube and forelimb development.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists IGFBP5 among the beneficial SASP factors (with BMPs and MMPs) that contribute to embryogenesis; TGFβ and IGFBP5 support neural tube and forelimb development.
 
 ## Connections
 

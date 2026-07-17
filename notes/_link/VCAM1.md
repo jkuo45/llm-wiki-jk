@@ -42,7 +42,7 @@ aliases: [VCAM-1, CD106, Vascular cell adhesion molecule 1]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists VCAM1 among the SASP factors (with IL-1α, IL-1β, IL-6, IL-8, CCL2, MMP2, TGFβ) that propagate cell death, excessive matrix production, and fibrosis in normal tissue.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists VCAM1 among the SASP factors (with IL-1α, IL-1β, IL-6, IL-8, CCL2, MMP2, TGFβ) that propagate cell death, excessive matrix production, and fibrosis in normal tissue.
 
 ## Connections
 

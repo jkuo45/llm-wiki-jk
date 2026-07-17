@@ -44,7 +44,7 @@ aliases: [HLA-E, MHC class Ib, HLA class I histocompatibility antigen E]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Describes how the SASP cytokines IL-6 and IL-8 activate HLA-E to blunt the activities of NK cells and CD8+ T cells, contributing to cancer immune evasion.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Describes how the SASP cytokines IL-6 and IL-8 activate HLA-E to blunt the activities of NK cells and CD8+ T cells, contributing to cancer immune evasion.
 
 ## Connections
 

@@ -40,7 +40,7 @@ aliases: [E-cadherin, CDH1, Epithelial cadherin, Cadherin-1]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists E-cadherin among the SASP-associated tumorigenesis factors (with IL-6, IL-8, CCL5, CXCL5, CXCL12, VEGF, HGF) that promote cancer cell proliferation, migration, metastasis, and angiogenesis.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists E-cadherin among the SASP-associated tumorigenesis factors (with IL-6, IL-8, CCL5, CXCL5, CXCL12, VEGF, HGF) that promote cancer cell proliferation, migration, metastasis, and angiogenesis.
 
 ## Connections
 

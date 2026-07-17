@@ -40,7 +40,7 @@ aliases: [CCN1, CYR61, CCN family member 1, cellular communication network facto
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists CCN1 among the beneficial SASP factors (with PDGFAA, IL-1α, IL-6, CCL2) that promote tissue regeneration by recruiting immune cells and stimulating stromal-cell proliferation and differentiation.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists CCN1 among the beneficial SASP factors (with PDGFAA, IL-1α, IL-6, CCL2) that promote tissue regeneration by recruiting immune cells and stimulating stromal-cell proliferation and differentiation.
 
 ## Connections
 

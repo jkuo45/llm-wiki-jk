@@ -39,7 +39,7 @@ aliases: [BMP, BMPs, Bone morphogenetic protein, Bone morphogenetic proteins]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists BMPs among the beneficial SASP factors (with MMPs and IGFBP5) that contribute to embryogenesis, patterning, and growth.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists BMPs among the beneficial SASP factors (with MMPs and IGFBP5) that contribute to embryogenesis, patterning, and growth.
 
 ## Connections
 
