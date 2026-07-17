@@ -8,7 +8,7 @@ Goal: optimize for mitohormesis, autophagy
 
 ---
 
-**[[_document_ - MRR - mitohormesis, MB, NAD|MRR]] ([[Mitohormetic Redox-Relay]], mitochondria)** - A mechanism where mild oxidative or metabolic stress triggers adaptive, protective responses within mitochondria, enhancing cellular resilience and longevity.
+**[[_document_ - MRR - mitohormesis, MB, NAD|MRR]] ([[_document_ - Mitohormetic Redox-Relay]], mitochondria)** - A mechanism where mild oxidative or metabolic stress triggers adaptive, protective responses within mitochondria, enhancing cellular resilience and longevity.
 
 **[[_document_ - GOPS - glyco-oxidative proteostasis|GOPS ]]([Glycation]() and AGEs, ER, peroxisomes)** - Targets the accumulation of Advanced Glycation End-products (AGEs) and limits oxidative stress caused by protein glycation to mitigate structural and functional decline in tissues.
 

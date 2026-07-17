@@ -34,7 +34,7 @@ Low SIRT3/SIRT4  → Sustained O₂⁻ → Amplified ROS signaling → Stress/to
 
 ### Hormetic Window Control
 
-The SIRT3/SIRT4 ratio directly defines the **[[Hormetic Window]]** — the dose range over which mitochondrial stress triggers adaptive responses rather than damage. This concept is central to the **[[Mitohormetic Redox-Relay]]** framework, where methylene blue-derived superoxide is the primary signaling output:
+The SIRT3/SIRT4 ratio directly defines the **[[Hormetic Window]]** — the dose range over which mitochondrial stress triggers adaptive responses rather than damage. This concept is central to the **[[_document_ - Mitohormetic Redox-Relay]]** framework, where methylene blue-derived superoxide is the primary signaling output:
 
 - **High ratio (SIRT3 dominant):** Narrow hormetic window. Methylene blue redox cycling is rapidly quenched. Cells are protected but may miss adaptive signaling.
 - **Low ratio (SIRT4 dominant):** Wide hormetic window. Superoxide persists, amplifying ROS-dependent signaling (NRF2, HIF-1α, ATF4). Protective at moderate doses, toxic at high doses.
@@ -110,7 +110,7 @@ List of documents in the wiki that mention this entity
 - [[Dihydromyricetin]] — SIRT3 activator that shifts ratio toward protection
 - [[Mitohormesis]] — The ratio defines the hormetic response threshold
 - [[Hormetic Window]] — Directly determined by the ratio
-- [[Mitohormetic Redox-Relay]] — Therapeutic framework dependent on ratio optimization
+- [[_document_ - Mitohormetic Redox-Relay]] — Therapeutic framework dependent on ratio optimization
 - [[Carbazochrome]] — Redox-cycling agent whose effects are ratio-dependent
 - [[Methylene Blue]] — Primary MRR redox cycler whose superoxide output is processed by ratio-determined MnSOD activity
 - [[Aminoguanidine]] — Carbonyl/AGE scavenger and pulse-terminating agent that confines the methylene blue signal within the hormetic window
@@ -123,6 +123,6 @@ List of documents in the wiki that mention this entity
   - [[Hormetic Window]] — Directly determined by the ratio; the relevant biomarker threshold for methylene blue-derived hormesis
 
 ## Linking Summary
-- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
+- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
 - Removed: [[Adrenochrome]] (replaced by [[Methylene Blue]] as the MRR redox cycler; [[Aminoguanidine]] added as pulse-terminating scavenger)
 - Suggested new entity notes to create: [[Mitochondrial Redox Dial]]

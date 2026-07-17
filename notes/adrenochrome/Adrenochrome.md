@@ -60,7 +60,7 @@ Beyond cardiotoxicity, adrenochrome formation has been documented in [[Septic Sh
 
 ## Research Gaps and Future Directions
 
-Critical unresolved questions include the development of sensitive and specific mass spectrometry-based assays for adrenochrome quantification in human plasma, the characterization of its full receptor-independent signaling repertoire (including [[MAP Kinase]] and [[NFκB]] pathway modulation), and the therapeutic potential of pharmacological scavengers such as [[N-Acetylcysteine]] and [[Ascorbic Acid]] in pathologies driven by aminochrome formation. The [[Mitohormetic Redox-Relay]] strategy exploits ultralow-dose adrenochrome to trigger adaptive mitochondrial responses, representing a paradigm shift from viewing adrenochrome solely as a toxin to a potential hormetic agent at sub-cytotoxic concentrations.
+Critical unresolved questions include the development of sensitive and specific mass spectrometry-based assays for adrenochrome quantification in human plasma, the characterization of its full receptor-independent signaling repertoire (including [[MAP Kinase]] and [[NFκB]] pathway modulation), and the therapeutic potential of pharmacological scavengers such as [[N-Acetylcysteine]] and [[Ascorbic Acid]] in pathologies driven by aminochrome formation. The [[_document_ - Mitohormetic Redox-Relay]] strategy exploits ultralow-dose adrenochrome to trigger adaptive mitochondrial responses, representing a paradigm shift from viewing adrenochrome solely as a toxin to a potential hormetic agent at sub-cytotoxic concentrations.
 
 ## Documents
 
@@ -86,7 +86,7 @@ List of documents that mention this entity
 
   - [[_document_ - neutrophils role in adrenochrome production|neutrophils role in adrenochrome production]]
     - Modern research focuses more on its cardiovascular and chronic disease implications than on adrenochrome per se. pmc.
-  - [[task_output_trace_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+  - [[task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
     - Graphify shortest-path analysis linking adrenochrome (electrophilic quinone) → DGCR8/Drosha Microprocessor → Senescence/SASP → Inflammaging, with the myocardial/neutrophil tissue route as a parallel path.
 
 ## Connections
@@ -104,6 +104,6 @@ List of documents that mention this entity
 - [[AIM2]] ↔ Parallel (DROSHA-promoted) inflammasome axis feeding inflammation.
 
 ## Linking Summary
-- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Sodium Potassium ATPase]], [[MAP Kinase]], [[NFκB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]
+- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Sodium Potassium ATPase]], [[MAP Kinase]], [[NFκB]], [[N-Acetylcysteine]], [[_document_ - Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[Schizophrenia]], [[Adrenochrome Hypothesis]]
-- Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome]] ↔ [[Mitohormetic Redox-Relay]]
+- Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome]] ↔ [[_document_ - Mitohormetic Redox-Relay]]

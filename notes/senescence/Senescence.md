@@ -108,7 +108,7 @@ List of documents that mention this entity
 
   - [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Cellular senescence and SASP in tumor progression]]
     - Comprehensive review (Dong et al., 2024) covering all types of CS (RS, OIS, TIS, SARS-CoV-2-induced, rare), biomarkers, SASP composition, and the double-edged role of SASP in tumor progression. Details the p53/p21 and p16/RB pathways in senescence induction, SASP components reshaping the TME (IL-1, IL-6, Galectin-9, EVs), and therapeutic strategies including senolytics (D+Q, ABT-263, BETd, ADCs, galactose nanoparticles) and senomorphics (NF-κB inhibitors, JAK/STAT inhibitors, mTOR modulators).
-  - [[task_output_trace_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+  - [[task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
     - Places Senescence on the shortest path from adrenochrome (via DGCR8/Drosha Microprocessor dysfunction) to inflammaging through the SASP.
 
 ## Connections

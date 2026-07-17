@@ -115,13 +115,13 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with the vaccination axis
 - [[NRF2]] — Activated alongside AMPK; provides complementary antioxidant protection
 - [[Hormetic Window]] — Defines the dose range over which vaccination occurs
-- [[Mitohormetic Redox-Relay]] — Therapeutic framework incorporating redox vaccination
+- [[_document_ - Mitohormetic Redox-Relay]] — Therapeutic framework incorporating redox vaccination
 - [[Redox Cycling]] — The chemical mechanism generating the initial ROS signal
 - [[Ischemic Preconditioning]] — Parallel preconditioning phenomenon
 - [[Mithridatism]] — Historical precedent for tolerance through sub-lethal exposure
 - [[Honokiol]] — SIRT3 activator that could serve as a positive control or adjuvant
 
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
+- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
 - Suggested new entity notes to create: [[Redox Memory]], [[Pharmacological Preconditioning]]
   - Strong connections to strengthen: Redox Vaccination ↔ [[SIRT3]]/[[SIRT4]] ratio, Redox Vaccination ↔ Mitohormetic Redox-Relay

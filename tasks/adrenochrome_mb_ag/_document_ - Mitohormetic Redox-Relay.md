@@ -19,6 +19,7 @@ protected: true
 The **Mitohormetic Redox-Relay (MRR)** is a therapeutic strategy designed to address mitochondrial dysfunction by using a controlled, low-amplitude oxidative pulse to trigger adaptive stress responses ([[Mitohormesis]]) while simultaneously providing bioenergetic support and ensuring the clearance of damaged organelles.
 
 ## Strategy Components
+
 - **Trigger:** [[Carbazochrome]] (a stabilized [[Adrenochrome]] derivative) used at sub-micromolar concentrations to induce controlled [[Redox Cycling]] and generate a [[Superoxide anion]] signaling pulse.
 - **Amplifier/Shunt:** [[Methylene blue]], which acts as an alternative mitochondrial electron carrier, bypassing damaged complexes and preventing runaway ROS generation.
 - **Fuel:** [[NAD+]] precursors like [[Nicotinamide Riboside]] or [[Nicotinamide Mononucleotide]] to prime the [[SIRT1]]/[[AMPK]]/[[PGC1-α]] axis.
@@ -201,4 +202,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[SIRT1]], [[AMPK]], [[PGC1-α]], [[Urolithin A]], [[Mitophagy]], [[NRF2]], [[Mitochondrial Biogenesis]], [[Complex I]], [[Complex III]], [[SOD2]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose Tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion Injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[PINK1]], [[Parkin]], [[Heart Failure]], [[Metabolic Syndrome]], [[Insulin Sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox Homeostasis]], [[Amino acid metabolism]], [[NRF1]], [[ERRalpha]], [[Proteostasis]], [[Hormetic Window]], [[Redox Vaccination]], [[SIRT3]]/[[SIRT4]] ratio
 - Suggested new entity notes to create: [[Redox Relay Therapeutics]]
-- Strong connections to strengthen: [[Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]
+- Strong connections to strengthen: [[_document_ - Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]

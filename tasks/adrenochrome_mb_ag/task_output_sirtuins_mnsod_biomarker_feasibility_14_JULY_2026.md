@@ -61,7 +61,7 @@ Low  SIRT3/SIRT4  → sustained O₂⁻   → long superoxide dwell  → WIDE wi
 Intermediate      → optimal dwell   → OPTIMAL window
 ```
 
-Aging shifts the ratio toward SIRT4 dominance, **narrowing** the window — exactly the concern for middle-aged subjects in the [[Mitohormetic Redox-Relay|MRR]] framework.
+Aging shifts the ratio toward SIRT4 dominance, **narrowing** the window — exactly the concern for middle-aged subjects in the [[_document_ - Mitohormetic Redox-Relay|MRR]] framework.
 
 ### The axis is *both* a determinant and an indicator
 

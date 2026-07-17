@@ -44,9 +44,9 @@ The primary mechanism underlying carbazochrome's clinical effects is stabilizati
 
 A critical distinction between carbazochrome and its parent [[Adrenochrome]] is that the semicarbazone modification at the C3 carbonyl position blocks the one-electron reduction to the semiquinone radical that is essential for redox cycling. Consequently, carbazochrome does not amplify [[Superoxide anion]] production, even at concentrations 100-fold above its therapeutic range. This structural modification also prevents polymerization into melanin-like pigments and abrogates the thiol reactivity that underlies [[Adrenochrome]]'s capacity to deplete intracellular [[Glutathione]]. Thus, while [[Adrenochrome]] exerts cytotoxicity through oxidative mechanisms, carbazochrome is essentially redox-silent under biological conditions — a safety feature that enables its clinical use at therapeutic doses.
 
-## Role in the [[Mitohormetic Redox-Relay]] Strategy
+## Role in the [[_document_ - Mitohormetic Redox-Relay]] Strategy
 
-In the [[Mitohormetic Redox-Relay]] protocol, carbazochrome is deployed at ultralow (nanomolar) concentrations that are orders of magnitude below cytotoxic thresholds. At these concentrations, carbazochrome generates a precisely calibrated burst of superoxide from Complex III of the [[Electron Transport Chain]], detectable as a transient (15–30 minute) increase in the mitochondrial [[NADH]]/NAD⁺ ratio. This signal engages the [[NRF2]]-ARE transcriptional program and the [[SIRT1]]-[[PGC1-α]]-[[PPARδ]] axis, producing a sustained upregulation of mitochondrial biogenesis, antioxidant defenses, and autophagy without triggering cell death or senescence. The advantage over [[Adrenochrome]] is pharmacological stability: carbazochrome's defined chemical structure, consistent purity, and predictable pharmacokinetics make it a superior candidate for dose-controlled hormetic interventions.
+In the [[_document_ - Mitohormetic Redox-Relay]] protocol, carbazochrome is deployed at ultralow (nanomolar) concentrations that are orders of magnitude below cytotoxic thresholds. At these concentrations, carbazochrome generates a precisely calibrated burst of superoxide from Complex III of the [[Electron Transport Chain]], detectable as a transient (15–30 minute) increase in the mitochondrial [[NADH]]/NAD⁺ ratio. This signal engages the [[NRF2]]-ARE transcriptional program and the [[SIRT1]]-[[PGC1-α]]-[[PPARδ]] axis, producing a sustained upregulation of mitochondrial biogenesis, antioxidant defenses, and autophagy without triggering cell death or senescence. The advantage over [[Adrenochrome]] is pharmacological stability: carbazochrome's defined chemical structure, consistent purity, and predictable pharmacokinetics make it a superior candidate for dose-controlled hormetic interventions.
 
 ## Documents
 
@@ -62,8 +62,8 @@ List of documents that mention this entity
 ## Connections
 - [[Adrenochrome]] ↔ The parent molecule from which carbazochrome is derived.
 - [[Cardiotoxicity]] ↔ While adrenochrome is linked to cardiotoxicity, its derivative carbazochrome is used therapeutically in different contexts.
-- [[Mitohormetic Redox-Relay]] ↔ Strategy utilizing carbazochrome for mitochondrial rejuvenation.
+- [[_document_ - Mitohormetic Redox-Relay]] ↔ Strategy utilizing carbazochrome for mitochondrial rejuvenation.
 
 ## Linking Summary
-- New links added: [[Carbazochrome]], [[Adrenochrome]], [[Cardiotoxicity]], [[Mitohormetic Redox-Relay]], [[NRF2]], [[PGC1-α]], [[Retinal Hemorrhage]], [[Hemorrhagic Cystitis]], [[Cyclophosphamide]], [[Hereditary Hemorrhagic Telangiectasia]], [[Scurvy]], [[Corticosteroid]], [[Vascular Endothelium]], [[Histamine]], [[Bradykinin]], [[Vascular Endothelial Growth Factor]], [[Myosin Light Chain Kinase]], [[Ca²⁺]]/[[Calmodulin]], [[Claudin-5]], [[Occludin]], [[Cerebral Edema]], [[Glutathione]], [[Electron Transport Chain]], [[NADH]], [[SIRT1]], [[PPARδ]], [[AMPK]]
-- Strong connections to strengthen: [[Carbazochrome]] ↔ [[Adrenochrome]], [[Carbazochrome]] ↔ [[Mitohormetic Redox-Relay]]
+- New links added: [[Carbazochrome]], [[Adrenochrome]], [[Cardiotoxicity]], [[_document_ - Mitohormetic Redox-Relay]], [[NRF2]], [[PGC1-α]], [[Retinal Hemorrhage]], [[Hemorrhagic Cystitis]], [[Cyclophosphamide]], [[Hereditary Hemorrhagic Telangiectasia]], [[Scurvy]], [[Corticosteroid]], [[Vascular Endothelium]], [[Histamine]], [[Bradykinin]], [[Vascular Endothelial Growth Factor]], [[Myosin Light Chain Kinase]], [[Ca²⁺]]/[[Calmodulin]], [[Claudin-5]], [[Occludin]], [[Cerebral Edema]], [[Glutathione]], [[Electron Transport Chain]], [[NADH]], [[SIRT1]], [[PPARδ]], [[AMPK]]
+- Strong connections to strengthen: [[Carbazochrome]] ↔ [[Adrenochrome]], [[Carbazochrome]] ↔ [[_document_ - Mitohormetic Redox-Relay]]

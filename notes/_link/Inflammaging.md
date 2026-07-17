@@ -49,7 +49,7 @@ List of documents that mention this entity
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Inflammaging establishes a microenvironment that promotes both induction and persistence of cellular senescence in IPF lung tissue.
 
-  - [[task_output_trace_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+  - [[task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
     - Shortest-path analysis: adrenochrome (electrophilic quinone) → DGCR8/Drosha Microprocessor → Senescence → SASP → Inflammaging, plus a myocardial/neutrophil tissue route (adrenochrome → Myocardial Infarction → Neutrophils → Inflammation).
 
   - [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-Dependent AIM2 Inflammasome Activation in IPF]]

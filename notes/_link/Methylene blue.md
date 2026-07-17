@@ -57,7 +57,7 @@ Methylene blue is a potent [[Monoamine Oxidase Inhibitor]] (MAO-A), raising syna
 
 ## Mitohormetic Redox-Relay (MRR)
 
-In the [[Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Amplifier" and mitochondrial electron cycler. It acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing the potential for runaway ROS generation while maintaining the signaling pulse induced by [[Carbazochrome]].
+In the [[_document_ - Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Amplifier" and mitochondrial electron cycler. It acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing the potential for runaway ROS generation while maintaining the signaling pulse induced by [[Carbazochrome]].
 
 ## SASP-Remodeling Aminochrome Complex (SRAC)
 
@@ -102,7 +102,7 @@ In the [[SASP-Remodeling Aminochrome Complex]] strategy, Methylene blue serves a
 - [[Glucose-6-Phosphate Dehydrogenase]] — contraindication (hemolysis risk)
 - [[Vasoplegic Shock]] — off-label rescue therapy
 - [[Ifosfamide]] — encephalopathy treatment
-- [[Mitohormetic Redox-Relay]] — interacts with
+- [[_document_ - Mitohormetic Redox-Relay]] — interacts with
 - [[Carbazochrome]] — interacts with
 - [[Hormetic Window]] — low-dose benefit, high-dose harm
 - [[Phenothiazine]] — parent scaffold; free 10-N + position-5 sulfur required for MB-like electron-carrier neuroprotection

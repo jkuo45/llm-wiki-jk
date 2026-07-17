@@ -13,9 +13,9 @@ aliases: []
 ---
 
 > [!info] Source
-> AI-generated research analysis from Google AI Studio examining the [[Mitohormetic Redox-Relay]] (MRR) — a multi-component therapeutic strategy combining [[Carbazochrome]], [[Methylene blue]], [[Nicotinamide Riboside]]/[[Nicotinamide Mononucleotide]], and [[Urolithin A]] to counteract [[Mitochondrial Dysfunction]] through controlled [[Mitohormesis]].
+> AI-generated research analysis from Google AI Studio examining the [[_document_ - Mitohormetic Redox-Relay]] (MRR) — a multi-component therapeutic strategy combining [[Carbazochrome]], [[Methylene blue]], [[Nicotinamide Riboside]]/[[Nicotinamide Mononucleotide]], and [[Urolithin A]] to counteract [[Mitochondrial Dysfunction]] through controlled [[Mitohormesis]].
 
-The **[[Mitohormetic Redox-Relay]] (MRR)** is a highly structured and biochemically coherent approach to tackling [[Mitochondrial Dysfunction|mitochondrial decay]]. By combining a controlled, localized pro-oxidant stimulus ([[Mitohormesis|hormesis]]) with concurrent metabolic buffering, bioenergetic fueling, and targeted organelle clearance, the strategy addresses several classic failure modes of mitochondrial therapeutics (such as the "antioxidant paradox," where blunt antioxidants inadvertently suppress adaptive signaling).
+The **[[_document_ - Mitohormetic Redox-Relay]] (MRR)** is a highly structured and biochemically coherent approach to tackling [[Mitochondrial Dysfunction|mitochondrial decay]]. By combining a controlled, localized pro-oxidant stimulus ([[Mitohormesis|hormesis]]) with concurrent metabolic buffering, bioenergetic fueling, and targeted organelle clearance, the strategy addresses several classic failure modes of mitochondrial therapeutics (such as the "antioxidant paradox," where blunt antioxidants inadvertently suppress adaptive signaling).
 
 ---
 
@@ -90,6 +90,6 @@ To transition this theoretical relay into an empirical protocol, the following i
 
 ## Linking Summary
 
-  - New links added: [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Carbazochrome sulfonic acid]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Urolithin A]], [[Mitohormesis]], [[Mitochondrial Biogenesis]], [[Seahorse XF Analyzer]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[HO-1]], [[NQO1]], [[NADH]], [[Cytochrome c]], [[Platelets]], [[Platelet aggregation]], [[Endothelial cells]], [[Vasoconstriction]]
-  - Suggested new entity notes to create: [[Mitohormetic Redox-Relay]], [[Carbazochrome sulfonic acid]], [[Seahorse XF Analyzer]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[HO-1]], [[Platelet aggregation]], [[Vasoconstriction]]
+  - New links added: [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Carbazochrome sulfonic acid]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Urolithin A]], [[Mitohormesis]], [[Mitochondrial Biogenesis]], [[Seahorse XF Analyzer]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[HO-1]], [[NQO1]], [[NADH]], [[Cytochrome c]], [[Platelets]], [[Platelet aggregation]], [[Endothelial cells]], [[Vasoconstriction]]
+  - Suggested new entity notes to create: [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome sulfonic acid]], [[Seahorse XF Analyzer]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[HO-1]], [[Platelet aggregation]], [[Vasoconstriction]]
   - Strong connections to strengthen: [[Carbazochrome]] ↔ [[Adrenochrome]] (structural relationship), [[Mitohormesis]] ↔ [[Mitochondrial Dysfunction]], [[Methylene blue]] ↔ [[NADH]] (electron shunting), [[Urolithin A]] ↔ [[Mitophagy]]

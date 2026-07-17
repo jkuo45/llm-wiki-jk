@@ -32,7 +32,7 @@ AMM is the **modulator** component of the [[SASP-Remodeling Aminochrome Complex]
 
 ## Glyco-Oxidative Modulation
 
-Adrenochrome monoaminoguanidine functions as a **glyco-oxidative modulator** — a hybrid agent that simultaneously targets both glycation and oxidative stress pathways. The aminoguanidine moiety scavenges reactive dicarbonyl species ([[Methylglyoxal]], [[Glyoxal]]), preventing them from forming [[Advanced Glycation End Products]], while the adrenochrome moiety engages the [[Mitohormetic Redox-Relay]] to induce adaptive stress responses.
+Adrenochrome monoaminoguanidine functions as a **glyco-oxidative modulator** — a hybrid agent that simultaneously targets both glycation and oxidative stress pathways. The aminoguanidine moiety scavenges reactive dicarbonyl species ([[Methylglyoxal]], [[Glyoxal]]), preventing them from forming [[Advanced Glycation End Products]], while the adrenochrome moiety engages the [[_document_ - Mitohormetic Redox-Relay]] to induce adaptive stress responses.
 
 ## Documents
 
@@ -54,6 +54,6 @@ List of documents that mention this entity
 - [[Carnosine]]: Metal chelator co-administered in GOPS to prevent Fenton chemistry and stabilize the aminochrome moiety.
 
 ## Linking Summary
-- New links added: [[Adrenochrome]], [[Advanced Glycation End Products]], [[Aminoguanidine]], [[Autophagy]], [[Carbazochrome]], [[Glyco-Oxidative Proteostasis Shield]], [[Glyoxal]], [[Hemostatics]], [[Hormesis]], [[Methylglyoxal]], [[Mitohormetic Redox-Relay]], [[o-quinone]], [[Spermidine]], [[Carnosine]]
+- New links added: [[Adrenochrome]], [[Advanced Glycation End Products]], [[Aminoguanidine]], [[Autophagy]], [[Carbazochrome]], [[Glyco-Oxidative Proteostasis Shield]], [[Glyoxal]], [[Hemostatics]], [[Hormesis]], [[Methylglyoxal]], [[_document_ - Mitohormetic Redox-Relay]], [[o-quinone]], [[Spermidine]], [[Carnosine]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Adrenochrome monoaminoguanidine]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[Adrenochrome monoaminoguanidine]] ↔ [[Advanced Glycation End Products]], [[Adrenochrome monoaminoguanidine]] ↔ [[Mitohormetic Redox-Relay]], [[Adrenochrome monoaminoguanidine]] ↔ [[Spermidine]], [[Adrenochrome monoaminoguanidine]] ↔ [[Carnosine]]
+- Strong connections to strengthen: [[Adrenochrome monoaminoguanidine]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[Adrenochrome monoaminoguanidine]] ↔ [[Advanced Glycation End Products]], [[Adrenochrome monoaminoguanidine]] ↔ [[_document_ - Mitohormetic Redox-Relay]], [[Adrenochrome monoaminoguanidine]] ↔ [[Spermidine]], [[Adrenochrome monoaminoguanidine]] ↔ [[Carnosine]]
