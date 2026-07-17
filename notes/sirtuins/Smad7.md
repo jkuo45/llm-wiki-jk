@@ -29,7 +29,7 @@ This mechanism is notable because, by degrading the TGF-β inhibitor Smad7, SIRT
 
 ## Physiological and Pathological Relevance
 
-TGF-β is a double-edged cytokine: it drives protective tissue repair but, when chronic, promotes fibrosis in kidney, liver, heart, and lung. The SIRT1–Smad7 axis modulates this balance. In diabetic nephropathy and other [[Kidney Diseases]], reduced SIRT1 activity may stabilize Smad7 and alter apoptotic thresholds. More broadly, the interplay reflects how [[SIRT1]] interfaces with the TGF-β superfamily, a pathway also linked to [[Cellular Senescence]] and [[Aging]]-associated fibrosis.
+TGF-β is a double-edged cytokine: it drives protective tissue repair but, when chronic, promotes fibrosis in kidney, liver, heart, and lung. The SIRT1–Smad7 axis modulates this balance. In diabetic nephropathy and other [[Kidney Diseases]], reduced SIRT1 activity may stabilize Smad7 and alter apoptotic thresholds. More broadly, the interplay reflects how [[SIRT1]] interfaces with the TGF-β superfamily, a pathway also linked to [[Senescence]] and [[Aging]]-associated fibrosis.
 
 ## Documents
 

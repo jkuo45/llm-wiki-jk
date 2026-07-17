@@ -21,7 +21,7 @@ ATP synthase (also known as Complex V) is a large multi-subunit enzyme complex e
 - [[Oxidative Phosphorylation]] — ATP synthase catalyzes the terminal step of OXPHOS
 - [[Electron Transport Chain]] — ETC complexes I-IV establish the proton gradient that ATP synthase utilizes
 - [[Mitochondrial Membrane Potential]] — The proton-motive force (ΔΨm) drives ATP synthase rotational catalysis
-- [[Cellular Senescence]] — Loss of ΔΨm in senescence impairs ATP synthase function, reducing ATP production and contributing to bioenergetic failure
+- [[Senescence]] — Loss of ΔΨm in senescence impairs ATP synthase function, reducing ATP production and contributing to bioenergetic failure
 
 ## Linking Summary
 

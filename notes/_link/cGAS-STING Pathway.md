@@ -22,7 +22,7 @@ The **cyclic GMP–AMP synthase–stimulator of interferon genes (cGAS–STING)*
 
 ## Mechanism in Senescence
 
-During [[Cellular Senescence]], cGAS–STING is activated by cytoplasmic DNA from multiple sources:
+During [[Senescence]], cGAS–STING is activated by cytoplasmic DNA from multiple sources:
 
 ### Cytoplasmic DNA Sources
 1. **Cytoplasmic Chromatin Fragments (CCFs)**: Downregulation of [[DNASE2]] and [[TREX1]] in senescent cells reduces degradation and permits accumulation of chromosomal DNA fragments.

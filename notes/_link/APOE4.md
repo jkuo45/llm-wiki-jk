@@ -34,12 +34,12 @@ Unlike the deleterious APOE4 allele, the rare [[APOE3 Christchurch]] (R136S) var
   - [[Microglia]]: Cell type in which APOE4 primes inflammatory and senescent states.
   - [[Alzheimer's Disease]]: Strongest common genetic risk factor.
   - [[Amyloid Beta]]: Pathology elevated in APOE4 carriers.
-  - [[Cellular Senescence]]: APOE4 drives senescence-like microglial phenotype.
+  - [[Senescence]]: APOE4 drives senescence-like microglial phenotype.
   - [[Lipid Metabolism]]: ApoE is a central lipid transport protein and TREM2 ligand.
 
 ## Linking Summary
 
-- New links added: [[APOE4]], [[TREM2]], [[APOE3 Christchurch]], [[cGAS-STING Pathway]], [[Microglia]], [[Alzheimer's Disease]], [[Amyloid Beta]], [[Cellular Senescence]], [[Lipid Metabolism]]
+- New links added: [[APOE4]], [[TREM2]], [[APOE3 Christchurch]], [[cGAS-STING Pathway]], [[Microglia]], [[Alzheimer's Disease]], [[Amyloid Beta]], [[Senescence]], [[Lipid Metabolism]]
 - Suggested new entity notes to create: [[APOE]]
 - Strong connections to strengthen:
     - [[APOE4]] ↔ [[TREM2]]

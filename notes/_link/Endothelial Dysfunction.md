@@ -31,7 +31,7 @@ Endothelial dysfunction is most commonly quantified non-invasively by [[Flow-Med
 ## SASP Milieu and Cellular Senescence as Drivers
 
 > [!info] Source: [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025]]
-> The circulating [[SASP]] milieu was established as a causal driver of age-related [[Endothelial Dysfunction|endothelial dysfunction]] through [[Cellular Senescence]] induction. [[Fisetin]] (a [[Senolytic|senolytic]]) improved endothelial function by eliminating senescent [[Endothelial Cells|endothelial cells]] and reducing circulating [[CXCL12]].
+> The circulating [[SASP]] milieu was established as a causal driver of age-related [[Endothelial Dysfunction|endothelial dysfunction]] through [[Senescence]] induction. [[Fisetin]] (a [[Senolytic|senolytic]]) improved endothelial function by eliminating senescent [[Endothelial Cells|endothelial cells]] and reducing circulating [[CXCL12]].
 
 Key mechanisms:
 - **Cellular Senescence**: [[Endothelial Cells|ECs]] are the most senescence-susceptible vascular cell type; aging increases senescent EC burden 10.7-fold
@@ -81,7 +81,7 @@ List of documents that mention this entity
 - [[Diabetes Mellitus]]: Hyperglycemia drives endothelial dysfunction via multiple pathways.
 - [[Tetrahydrobiopterin]]: Critical cofactor whose depletion causes eNOS uncoupling.
 - [[SASP|Senescence-Associated Secretory Phenotype]]: The circulating SASP milieu is a causal driver of age-related endothelial dysfunction
-- [[Cellular Senescence]]: Senescent EC accumulation directly contributes to endothelial dysfunction with aging
+- [[Senescence]]: Senescent EC accumulation directly contributes to endothelial dysfunction with aging
 - [[Endothelial Cells]]: ECs are the most senescence-susceptible vascular cell type; senescent ECs secrete SASP factors that propagate dysfunction
 - [[CXCL12]]: Key SASP chemokine causally mediating age-related endothelial dysfunction through NO suppression, mitochondrial ROS, and EndoMT
 - [[Fisetin]]: Senolytic that reverses age-related endothelial dysfunction by eliminating senescent ECs and normalizing CXCL12

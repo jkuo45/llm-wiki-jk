@@ -12,11 +12,11 @@ aliases:
 
 ## Overview
 
-Immune surveillance refers to the continuous monitoring of tissues by the [[Immune System]] to detect and eliminate threats such as [[Pathogens]], malignant cells, and [[Cellular Senescence|senescent cells]]. Senescent cells are normally cleared by [[Natural Killer Cells]] and [[Macrophages]] through surface ligands (e.g., [[NKG2D ligands]], [[SASP]] components). Age-related decline in immune surveillance contributes to the accumulation of senescent cells, driving tissue dysfunction and age-related pathology.
+Immune surveillance refers to the continuous monitoring of tissues by the [[Immune System]] to detect and eliminate threats such as [[Pathogens]], malignant cells, and [[Senescence|senescent cells]]. Senescent cells are normally cleared by [[Natural Killer Cells]] and [[Macrophages]] through surface ligands (e.g., [[NKG2D ligands]], [[SASP]] components). Age-related decline in immune surveillance contributes to the accumulation of senescent cells, driving tissue dysfunction and age-related pathology.
 
 ## Connections
 
-- [[Cellular Senescence]] — Senescent cells are normally cleared by immune surveillance
+- [[Senescence]] — Senescent cells are normally cleared by immune surveillance
 - [[SASP]] — Senescence-associated secretory phenotype modulates immune clearance
 - [[Aging]] — Declining immune surveillance permits senescent cell accumulation
 - [[Senolytics]] — Pharmacological clearance may compensate for failed immune surveillance
@@ -28,4 +28,4 @@ Immune surveillance refers to the continuous monitoring of tissues by the [[Immu
 
 ## Linking Summary
 
-- New links added: [[Cellular Senescence]], [[SASP]], [[Aging]], [[Senolytics]], [[NK Cells]]
+- New links added: [[Senescence]], [[SASP]], [[Aging]], [[Senolytics]], [[NK Cells]]

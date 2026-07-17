@@ -47,7 +47,7 @@ protected: true
 
 ## Related
 
-- [[Cellular Senescence]]
+- [[Senescence]]
 - [[Aging]]
 - [[SASP|Senescence-Associated Secretory Phenotype]]
 - [[Senescent cell anti-apoptotic pathways|SCAPs]]
@@ -63,7 +63,7 @@ protected: true
 
 ## Connections
 
-- [[Cellular Senescence]] — targets
+- [[Senescence]] — targets
 - [[Senescent Cells]] — clears
 - [[Aging]] — alleviates
 - [[SASP|Senescence-Associated Secretory Phenotype]] — reduces burden

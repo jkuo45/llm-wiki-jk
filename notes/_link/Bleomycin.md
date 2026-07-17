@@ -32,16 +32,16 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Cellular Senescence]] — BLEO is a canonical TIS inducer.
+- [[Senescence]] — BLEO is a canonical TIS inducer.
 - [[Therapy-Induced Senescence]] — The senescence modality BLEO models.
 - [[DNA Damage Response]] — BLEO triggers DDR foci and senescence.
 - [[Apigenin]] — Tested for SASP suppression in BLEO-senescent cells.
 - [[Mitoxantrone]] — Alternative chemotherapeutic TIS inducer.
 - [[Alveolar Type II Cells]]: Bleomycin induces AT2 senescence preceding fibrosis.
-- [[Cellular Senescence]]: Bleomycin model demonstrates senescence-driven fibrosis.
+- [[Senescence]]: Bleomycin model demonstrates senescence-driven fibrosis.
 
 ## Linking Summary
 
-- New links added: [[Cellular Senescence]], [[Therapy-Induced Senescence]], [[DNA Damage Response]], [[Apigenin]], [[Mitoxantrone], [SASP]]
+- New links added: [[Senescence]], [[Therapy-Induced Senescence]], [[DNA Damage Response]], [[Apigenin]], [[Mitoxantrone], [SASP]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Bleomycin]] ↔ [[Therapy-Induced Senescence]]

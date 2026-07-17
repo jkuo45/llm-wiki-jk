@@ -35,7 +35,7 @@ tags:
 | Node                    | Degree | Community Role                      |
 | ----------------------- | ------ | ----------------------------------- |
 | [[Senescence]]          | 89     | Core senescence hub                 |
-| [[Cellular Senescence]] | 76     | Core senescence hub                 |
+| [[Senescence]] | 76     | Core senescence hub                 |
 | [[SASP]]                | 62     | Upstream driver of all pathology    |
 | [[NF-κB]]               | 38     | SASP transcription factor           |
 | [[mTOR]]                | 35     | SASP amplifier, autophagy inhibitor |

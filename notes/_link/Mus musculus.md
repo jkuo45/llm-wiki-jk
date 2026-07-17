@@ -13,11 +13,11 @@ aliases:
 
 ## Overview
 
-[*Mus musculus*] is the common house mouse and a premier mammalian model organism for biomedical research. Its relatively short lifespan, genetic tractability, and physiological similarity to humans make it indispensable for studying [[Aging]], [[Cellular Senescence]], and [[Neurodegenerative Disease]]. Common senescence models include naturally aged mice, irradiation-induced senescence, and genetically accelerated models such as [[BubR1]] hypomorphic mice and [[p21]] knockout models.
+[*Mus musculus*] is the common house mouse and a premier mammalian model organism for biomedical research. Its relatively short lifespan, genetic tractability, and physiological similarity to humans make it indispensable for studying [[Aging]], [[Senescence]], and [[Neurodegenerative Disease]]. Common senescence models include naturally aged mice, irradiation-induced senescence, and genetically accelerated models such as [[BubR1]] hypomorphic mice and [[p21]] knockout models.
 
 ## Connections
 
-- [[Cellular Senescence]] — Primary model organism for in vivo senescence studies
+- [[Senescence]] — Primary model organism for in vivo senescence studies
 - [[Alzheimer's Disease]] — Transgenic models ([[3xTg-AD]], [[APP/PS1]], [[rTg(tauP301L)4510]])
 - [[Parkinson's Disease]] — Models include [[PS19]] transgenic mice
 - [[Huntington's Disease]] — Models include [[R6/1]], [[R6/2]], [[YAC128]]
@@ -30,4 +30,4 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Aging]], [[Cellular Senescence]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Senolytics]]
+- New links added: [[Aging]], [[Senescence]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Senolytics]]

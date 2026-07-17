@@ -40,7 +40,7 @@ The difference between DNAmGrimAge and chronological age — *GrimAge accelerati
 
 ## Senescence and Rejuvenation Context
 
-- **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor levels, linking the clock to [[Cellular Senescence|senescence]].
+- **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor levels, linking the clock to [[Senescence|senescence]].
 - **[[Partial Reprogramming]]:** In vitro cyclic [[OSKM]] expression in human cells resets DNAmGrimAge to a younger state.
 - **[[Caloric Restriction]]:** Long-term CR in primates reduces GrimAge acceleration.
 - **Senolytics:** Early clinical trials ([[Dasatinib]]+[[Quercetin]]) show trends toward reduced GrimAge age in some participants.
@@ -81,7 +81,7 @@ List of documents that mention this entity
 - [[PAI-1]]: - **Plasma protein surrogates:** DNAm-based estimates of [[ADM]], [[B2M]], [[Cystatin C]], [[GDF15]], [[GSTP1]], [[Le...
 - [[p16INK4A]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue p16INK4A expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor leve...
 - [[SASP|Senescence-Associated Secretory Phenotype]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and SASP factor leve...
-- [[Cellular Senescence]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor ...
+- [[Senescence]]: - **Senescent cell burden:** GrimAge acceleration correlates with tissue [[p16INK4A]] expression and [[SASP|Senescence-Associated Secretory Phenotype]] factor ...
 - [[Partial Reprogramming]]: - **Partial Reprogramming:** In vitro cyclic [[OSKM]] expression in human cells resets DNAmGrimAge to a younger state.
 - [[OSKM]]: - **[[Partial Reprogramming]]:** In vitro cyclic OSKM expression in human cells resets DNAmGrimAge to a younger state.
 - [[Caloric Restriction]]: - **Caloric Restriction:** Long-term CR in primates reduces GrimAge acceleration.

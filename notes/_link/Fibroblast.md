@@ -14,7 +14,7 @@ protected: false
 
 # Fibroblast
 
-[[Fibroblast|Fibroblasts]] are mesenchymal cells responsible for synthesizing and remodeling the [[ECM|extracellular matrix (ECM)]]. In [[Idiopathic Pulmonary Fibrosis|idiopathic pulmonary fibrosis (IPF)]], [[Fibroblast|fibroblasts]]—particularly those adjacent to fibroblast foci—become a central effector of fibrotic remodeling, and their acquisition of a [[Cellular Senescence|senescent]], apoptosis-resistant, profibrotic phenotype is a defining feature of disease.
+[[Fibroblast|Fibroblasts]] are mesenchymal cells responsible for synthesizing and remodeling the [[ECM|extracellular matrix (ECM)]]. In [[Idiopathic Pulmonary Fibrosis|idiopathic pulmonary fibrosis (IPF)]], [[Fibroblast|fibroblasts]]—particularly those adjacent to fibroblast foci—become a central effector of fibrotic remodeling, and their acquisition of a [[Senescence|senescent]], apoptosis-resistant, profibrotic phenotype is a defining feature of disease.
 
 ## Senescent Fibroblasts in IPF
 
@@ -39,6 +39,6 @@ IPF-derived [[Fibroblast|fibroblasts]] exhibit a senescent phenotype characteriz
 
 ## Linking Summary
 
-- New links added: [[Idiopathic Pulmonary Fibrosis]], [[Cellular Senescence]], [[SASP]], [[Alveolar Type II Cells]], [[TGFβ]], [[PTEN]], [[PI3K]], [[Akt]], [[Connective Tissue Growth Factor]], [[Senolytics]], [[ECM]], [[Apoptosis]], [[SMAD2]], [[IL-6]], [[IL-8]], [[Matrix Metalloproteinase]]
+- New links added: [[Idiopathic Pulmonary Fibrosis]], [[Senescence]], [[SASP]], [[Alveolar Type II Cells]], [[TGFβ]], [[PTEN]], [[PI3K]], [[Akt]], [[Connective Tissue Growth Factor]], [[Senolytics]], [[ECM]], [[Apoptosis]], [[SMAD2]], [[IL-6]], [[IL-8]], [[Matrix Metalloproteinase]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Fibroblast]] ↔ [[Idiopathic Pulmonary Fibrosis]], [[Fibroblast]] ↔ [[SASP]]

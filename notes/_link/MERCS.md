@@ -20,7 +20,7 @@ Mitochondria-ER contact sites (MERCS), also known as mitochondria-associated ER 
 ## Role in Cellular Senescence
 
 > [!info] Source: [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease]]
-> The number of MERCS increases in [[Cellular Senescence|senescence]]. Artificial linkage of mitochondria to the ER promotes senescence, while the senolytic [[Quercetin]] preserves MERCS to improve mitochondrial morphology and function. MERCS localize fusion/fission machinery, and their increased abundance in senescence may contribute to altered [[Mitochondrial Dynamics]] and Ca^2+^ handling via [[ITPR2]] and [[MCU]].
+> The number of MERCS increases in [[Senescence|senescence]]. Artificial linkage of mitochondria to the ER promotes senescence, while the senolytic [[Quercetin]] preserves MERCS to improve mitochondrial morphology and function. MERCS localize fusion/fission machinery, and their increased abundance in senescence may contribute to altered [[Mitochondrial Dynamics]] and Ca^2+^ handling via [[ITPR2]] and [[MCU]].
 
 ## Role in Neurodegenerative Disease
 
@@ -35,11 +35,11 @@ Mitochondria-ER contact sites (MERCS), also known as mitochondria-associated ER 
 - [[MCU]] — Mitochondrial Ca^2+^ uptake channel that receives Ca^2+^ at MERCS
 - [[Mitochondrial Permeability Transition Pore]] — Activated by Ca^2+^ overload from increased MERCS activity
 - [[Mitochondrial Dynamics]] — MERCS regulate fission/fusion by localizing DRP1 and other machinery
-- [[Cellular Senescence]] — MERCS increase in senescence; artificial linkage promotes senescence
+- [[Senescence]] — MERCS increase in senescence; artificial linkage promotes senescence
 - [[Alzheimer's Disease]] — MERCS are altered in AD, contributing to Ca^2+^ dysregulation
 - [[Quercetin]] — Preserves MERCS in senescent cardiomyocytes, improving mitochondrial function
 
 ## Linking Summary
 
-- New links added: [[Endoplasmic Reticulum]], [[Calcium]], [[ITPR2]], [[MCU]], [[Mitochondrial Permeability Transition Pore]], [[Mitochondrial Dynamics]], [[Cellular Senescence]], [[Alzheimer's Disease]], [[Quercetin]]
+- New links added: [[Endoplasmic Reticulum]], [[Calcium]], [[ITPR2]], [[MCU]], [[Mitochondrial Permeability Transition Pore]], [[Mitochondrial Dynamics]], [[Senescence]], [[Alzheimer's Disease]], [[Quercetin]]
 - Suggested new entity notes to create: None

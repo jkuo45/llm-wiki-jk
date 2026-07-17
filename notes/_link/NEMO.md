@@ -19,7 +19,7 @@ protected: false
 
 ## Role in DNA Damage Response and Senescence
 
-NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to inflammatory signaling. In the context of [[Cellular Senescence|cellular senescence]], activation of [[ATM]] within the DDR pathway promotes [[NF-kappaB|NF-κB]] signaling through **NEMO-dependent mechanisms**, thereby initiating transcription of pro-inflammatory [[SASP|SASP]] mediators.
+NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to inflammatory signaling. In the context of [[Senescence|cellular senescence]], activation of [[ATM]] within the DDR pathway promotes [[NF-kappaB|NF-κB]] signaling through **NEMO-dependent mechanisms**, thereby initiating transcription of pro-inflammatory [[SASP|SASP]] mediators.
 
 > [!info] Source: [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
 > Activation of [[ATM]] within the [[DNA Damage|DDR pathway]] promotes [[NF-kappaB|NF-κB]] signaling through NEMO-dependent mechanisms, thereby initiating the transcription of pro-inflammatory mediators that constitute the [[SASP]].
@@ -36,10 +36,10 @@ NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to 
 - [[ATM]] — DDR kinase that engages NEMO to relay DNA damage into NF-κB signaling.
 - [[IKK complex]] / [[IKKbeta]] — Core kinase partners scaffolded by NEMO.
 - [[SASP]] — NEMO-dependent NF-κB activation initiates SASP mediator transcription in senescence.
-- [[Cellular Senescence]] — NEMO links genotoxic stress to the senescence-associated secretory program.
+- [[Senescence]] — NEMO links genotoxic stress to the senescence-associated secretory program.
 
 ## Linking Summary
 
-- New links added: [[NF-kappaB]], [[ATM]], [[IKK complex]], [[IKKbeta]], [[SASP]], [[Cellular Senescence]], [[DNA Damage]], [[TAK1]]
+- New links added: [[NF-kappaB]], [[ATM]], [[IKK complex]], [[IKKbeta]], [[SASP]], [[Senescence]], [[DNA Damage]], [[TAK1]]
 - Suggested new entity notes to create: [[IKK complex]], [[IKKbeta]], [[TAK1]]
 - Strong connections to strengthen: [[NEMO]] ↔ [[NF-kappaB]], [[NEMO]] ↔ [[SASP]]

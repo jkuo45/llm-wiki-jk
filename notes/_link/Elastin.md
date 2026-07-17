@@ -126,12 +126,12 @@ List of documents that mention this entity
   - [[Lysyl Oxidase]]: Crosslinks tropoelastin monomers into insoluble elastin polymers; essential for elastin assembly
   - [[Reactive Oxygen Species]]: ROS damage elastin directly and upregulate elastinolytic MMPs
   - [[Glycation]]: AGE crosslinks stiffen elastin fibres and reduce elasticity with age
-  - [[Cellular Senescence]]: Senescent fibroblasts secrete MMP-12 that degrades elastin; EDPs promote paracrine senescence
+  - [[Senescence]]: Senescent fibroblasts secrete MMP-12 that degrades elastin; EDPs promote paracrine senescence
   - [[SASP|Senescence-Associated Secretory Phenotype]]: Elastin degradation is a central output of the proteolytic SASP
 
 ## Linking Summary
 
-  - New links added: [[MMP-12]], [[MMP-9]], [[MMP-3]], [[MMP-2]], [[Collagen]], [[Arterial Stiffness]], [[COPD]], [[Emphysema]], [[Atherosclerosis]], [[Lysyl Oxidase]], [[Reactive Oxygen Species]], [[Glycation]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]
+  - New links added: [[MMP-12]], [[MMP-9]], [[MMP-3]], [[MMP-2]], [[Collagen]], [[Arterial Stiffness]], [[COPD]], [[Emphysema]], [[Atherosclerosis]], [[Lysyl Oxidase]], [[Reactive Oxygen Species]], [[Glycation]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]
   - Suggested new entity notes to create: [[Elastokines]], [[Elastin-Binding Protein]], [[Neutrophil Elastase]], [[Williams Syndrome]], [[Cutis Laxa]], [[Fibrillin]]
   - Strong connections to strengthen: [[Elastin]] ↔ [[MMP-12]], [[Elastin]] ↔ [[COPD]], [[Elastin]] ↔ [[Arterial Stiffness]], [[Elastin]] ↔ [[Skin Aging]]
   - Justification: Elastin degradation by MMP-12 is the defining feature of MMP-12 biology and a central mechanism in skin ageing, COPD, and arterial stiffening. The elastin→EDP→EBP→MMP positive feedback loop is a key amplifier of age-related tissue deterioration.

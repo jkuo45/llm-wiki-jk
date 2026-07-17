@@ -12,7 +12,7 @@ aliases:
 
 ## Overview
 
-Neurofibrillary tangles (NFTs) are intraneuronal aggregates of hyperphosphorylated [[Tau]] protein that form paired helical filaments. They are a defining pathological feature of [[Alzheimer's Disease]] and other [[Tauopathies]]. Hyperphosphorylated tau detaches from [[Microtubules]], disrupting axonal transport, and aggregates into insoluble fibrils that impair [[Mitochondria|mitochondrial]] trafficking and function. The spread of tau pathology correlates with cognitive decline and is mechanistically linked to [[Cellular Senescence]] via tau-induced mitochondrial stress and neuroinflammation.
+Neurofibrillary tangles (NFTs) are intraneuronal aggregates of hyperphosphorylated [[Tau]] protein that form paired helical filaments. They are a defining pathological feature of [[Alzheimer's Disease]] and other [[Tauopathies]]. Hyperphosphorylated tau detaches from [[Microtubules]], disrupting axonal transport, and aggregates into insoluble fibrils that impair [[Mitochondria|mitochondrial]] trafficking and function. The spread of tau pathology correlates with cognitive decline and is mechanistically linked to [[Senescence]] via tau-induced mitochondrial stress and neuroinflammation.
 
 ## Connections
 
@@ -20,7 +20,7 @@ Neurofibrillary tangles (NFTs) are intraneuronal aggregates of hyperphosphorylat
 - [[Tau]] — The protein component of NFTs
 - [[β-Amyloid]] — Works synergistically with tau pathology in AD
 - [[Mitochondria]] — Tau aggregation disrupts mitochondrial transport and function
-- [[Cellular Senescence]] — Tau pathology induces senescence-like states in neurons
+- [[Senescence]] — Tau pathology induces senescence-like states in neurons
 
 ## Documents
 
@@ -28,4 +28,4 @@ Neurofibrillary tangles (NFTs) are intraneuronal aggregates of hyperphosphorylat
 
 ## Linking Summary
 
-- New links added: [[Alzheimer's Disease]], [[Tau]], [[β-Amyloid]], [[Mitochondria]], [[Cellular Senescence]]
+- New links added: [[Alzheimer's Disease]], [[Tau]], [[β-Amyloid]], [[Mitochondria]], [[Senescence]]

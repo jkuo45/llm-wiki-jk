@@ -15,7 +15,7 @@ The blood-brain barrier (BBB) is a highly selective neurovascular interface that
 
 ## Cell-Type-Specific cGAS-STING Effects on Barrier Integrity
 
-cGAS-STING signaling exerts opposing effects on BBB integrity depending on the cellular compartment. Microglial [[STING]] signaling is protective: it preserves hippocampal BBB integrity during aging, such that STING deficiency paradoxically accelerates cognitive and motor decline despite reducing [[Cellular Senescence|senescence]]. In contrast, endothelial STING activation and pericyte [[cGAS]] activation disrupt the barrier. Endothelial cGAS-STING, triggered by damaged [[mtDNA]], drives [[Type I Interferon|IFN-I]] signaling and [[Pyroptosis]], breaching the barrier and permitting leukocyte infiltration. Pericyte cGAS activation similarly destabilizes the neurovascular unit in tauopathy.
+cGAS-STING signaling exerts opposing effects on BBB integrity depending on the cellular compartment. Microglial [[STING]] signaling is protective: it preserves hippocampal BBB integrity during aging, such that STING deficiency paradoxically accelerates cognitive and motor decline despite reducing [[Senescence|senescence]]. In contrast, endothelial STING activation and pericyte [[cGAS]] activation disrupt the barrier. Endothelial cGAS-STING, triggered by damaged [[mtDNA]], drives [[Type I Interferon|IFN-I]] signaling and [[Pyroptosis]], breaching the barrier and permitting leukocyte infiltration. Pericyte cGAS activation similarly destabilizes the neurovascular unit in tauopathy.
 
 ## BBB Breakdown in Neurodegeneration
 

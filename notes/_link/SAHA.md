@@ -25,7 +25,7 @@ aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
 ## Applications
 
 > [!info] Epigenetic therapy and aging
-> Beyond oncology (cutaneous T-cell lymphoma), SAHA is a key research tool for probing the [[Epigenetics|epigenome]]. Because HDAC activity shapes [[Epigenetic Alterations]] during aging and [[Cellular Senescence]], HDAC inhibitors are studied for their ability to remodel chromatin, and are contrasted with [[Sirtuins|sirtuin]]-based NAD⁺-dependent deacetylation.
+> Beyond oncology (cutaneous T-cell lymphoma), SAHA is a key research tool for probing the [[Epigenetics|epigenome]]. Because HDAC activity shapes [[Epigenetic Alterations]] during aging and [[Senescence]], HDAC inhibitors are studied for their ability to remodel chromatin, and are contrasted with [[Sirtuins|sirtuin]]-based NAD⁺-dependent deacetylation.
 
 > [!warning] Toxicity
 > Common adverse effects include fatigue, gastrointestinal upset, [[Thrombocytopenia]], and QT prolongation.
@@ -42,12 +42,12 @@ aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
   - [[HDAC inhibitors]]: SAHA is the prototypical member.
   - [[Histone Acetylation]]: Increased by HDAC blockade.
   - [[Epigenetics]]: Core field of action.
-  - [[Cellular Senescence]]: Modulated by chromatin remodeling.
+  - [[Senescence]]: Modulated by chromatin remodeling.
   - [[Apoptosis]]: Induced in malignant cells.
   - [[Sirtuins]]: NAD⁺-dependent deacetylases contrasted with classical HDACs.
 
 ## Linking Summary
 
-  - New links added: [[HDAC inhibitors]], [[Histone Acetylation]], [[Epigenetics]], [[Epigenetic Alterations]], [[Cellular Senescence]], [[Apoptosis]], [[Sirtuins]], [[p21]], [[Thrombocytopenia]], [[H4K5ac]]
+  - New links added: [[HDAC inhibitors]], [[Histone Acetylation]], [[Epigenetics]], [[Epigenetic Alterations]], [[Senescence]], [[Apoptosis]], [[Sirtuins]], [[p21]], [[Thrombocytopenia]], [[H4K5ac]]
   - Suggested new entity notes to create: [[T-cell Lymphoma]]
   - Strong connections to strengthen: SAHA ↔ HDAC inhibitors; SAHA ↔ Histone Acetylation

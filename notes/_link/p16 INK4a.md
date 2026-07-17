@@ -16,7 +16,7 @@ aliases: [p16, CDKN2A, p16INK4a, INK4a]
 
 # p16 INK4a
 
-**p16^INK4a^** (encoded by the [[CDKN2A]] gene, at the INK4a/ARF locus) is a cyclin-dependent kinase inhibitor and one of the most established markers of [[Cellular Senescence]]. It enforces permanent G1 arrest and, notably, governs a **DDR-free SASP profile (PASP)** distinct from the classical NF-κB–driven secretome (Kumari et al., 2021; PMID 33660965; theoretical foundation in Campisi/Kuilman SASP literature).
+**p16^INK4a^** (encoded by the [[CDKN2A]] gene, at the INK4a/ARF locus) is a cyclin-dependent kinase inhibitor and one of the most established markers of [[Senescence]]. It enforces permanent G1 arrest and, notably, governs a **DDR-free SASP profile (PASP)** distinct from the classical NF-κB–driven secretome (Kumari et al., 2021; PMID 33660965; theoretical foundation in Campisi/Kuilman SASP literature).
 
 ## Mechanism of Action
 
@@ -73,7 +73,7 @@ List of documents that mention this entity
     - p16^INK4a is elevated in IPF alveolar epithelium at fibroblast foci and is a candidate (low-specificity) senescence biomarker.
 
 ## Connections
-- [[Cellular Senescence]] — p16 is a core effector of senescence growth arrest
+- [[Senescence]] — p16 is a core effector of senescence growth arrest
 - [[Senescence]] — most well-known senescence marker
 - [[CDKN2A]] — gene encoding p16^INK4a^
 - [[Retinoblastoma Protein|Rb]] — downstream effector of p16; mediates cell cycle arrest

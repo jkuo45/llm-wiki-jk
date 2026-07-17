@@ -29,9 +29,9 @@ The mitochondrial free radical theory of aging (MFRTA), proposed by [[Denham Har
 - [[Mitochondria]] — Both source and target of ROS
 - [[mtDNA]] — Susceptible to oxidative damage, perpetuating the vicious cycle
 - [[Oxidative Phosphorylation]] — Process that generates ROS as byproducts
-- [[Cellular Senescence]] — Mitochondrial ROS drives senescence, linking MFRTA to this aging hallmark
+- [[Senescence]] — Mitochondrial ROS drives senescence, linking MFRTA to this aging hallmark
 
 ## Linking Summary
 
-- New links added: [[Free Radical Theory of Aging]], [[Denham Harman]], [[Reactive Oxygen Species]], [[Mitochondria]], [[mtDNA]], [[Oxidative Phosphorylation]], [[Hallmarks of Aging]], [[Cellular Senescence]]
+- New links added: [[Free Radical Theory of Aging]], [[Denham Harman]], [[Reactive Oxygen Species]], [[Mitochondria]], [[mtDNA]], [[Oxidative Phosphorylation]], [[Hallmarks of Aging]], [[Senescence]]
 - Suggested new entity notes to create: None

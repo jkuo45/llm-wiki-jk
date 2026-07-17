@@ -31,7 +31,7 @@ Whereas genetic inheritance relies on the fidelity of the DNA template itself, e
 
 ## Physiological and Pathological Relevance
 
-Epigenetic inheritance stabilizes cellular identity and is essential for normal development. Its failure contributes to disease: loss of imprinting causes disorders such as Beckwith-Wiedemann and Prader-Willi/Angelman syndromes; aberrant inheritance of silencing marks drives [[Cancer]] progression and [[Cellular Senescence]]. Age-related "epigenetic drift" — stochastic gains and losses of methylation transmitted through divisions — is increasingly viewed as a primary [[Aging]] hallmark. Understanding these processes informs reprogramming, [[Induced Pluripotent Stem Cells]], and [[Rejuvenation]] strategies.
+Epigenetic inheritance stabilizes cellular identity and is essential for normal development. Its failure contributes to disease: loss of imprinting causes disorders such as Beckwith-Wiedemann and Prader-Willi/Angelman syndromes; aberrant inheritance of silencing marks drives [[Cancer]] progression and [[Senescence]]. Age-related "epigenetic drift" — stochastic gains and losses of methylation transmitted through divisions — is increasingly viewed as a primary [[Aging]] hallmark. Understanding these processes informs reprogramming, [[Induced Pluripotent Stem Cells]], and [[Rejuvenation]] strategies.
 
 ## Connections
 
@@ -44,6 +44,6 @@ Epigenetic inheritance stabilizes cellular identity and is essential for normal 
 
 ## Linking Summary
 
-- New links added: [[DNA Methylation]], [[Histone Modification]], [[Genomic Imprinting]], [[Non-Coding RNA]], [[Aging]], [[Epigenetics]], [[Cancer]], [[Cellular Senescence]], [[Induced Pluripotent Stem Cells]], [[Rejuvenation]]
+- New links added: [[DNA Methylation]], [[Histone Modification]], [[Genomic Imprinting]], [[Non-Coding RNA]], [[Aging]], [[Epigenetics]], [[Cancer]], [[Senescence]], [[Induced Pluripotent Stem Cells]], [[Rejuvenation]]
 - Suggested new entity notes to create: [[Transgenerational Epigenetic Inheritance]], [[Mitotic Inheritance]], [[Reader-Writer Complex]]
 - Strong connections to strengthen: [[Epigenetic Inheritance]] ↔ [[Genomic Imprinting]], [[Epigenetic Inheritance]] ↔ [[DNA Methylation]]

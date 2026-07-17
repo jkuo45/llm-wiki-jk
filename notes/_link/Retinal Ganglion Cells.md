@@ -33,13 +33,13 @@ Because STING activation promotes RGC loss, pharmacological inhibition of the [[
   - [[TLR9]]: cGAS/TLR9 interplay in retina
   - [[DNA Damage]]: retinal stress engaging cGAS
   - [[Mitochondria]]: mitochondrial stress in RGC degeneration
-  - [[Cellular Senescence]]: cGAS-STING–associated stress state
+  - [[Senescence]]: cGAS-STING–associated stress state
   - [[Neuroinflammation]]: retinal innate immune activation
   - [[Apoptosis]]: RGC death pathway
 
 ## Linking Summary
 
-- New links added: [[Retinal Ganglion Cells]], [[cGAS-STING Pathway]], [[STING]], [[TLR9]], [[DNA Damage]], [[Mitochondria]], [[Cellular Senescence]], [[Neuroinflammation]], [[Apoptosis]]
+- New links added: [[Retinal Ganglion Cells]], [[cGAS-STING Pathway]], [[STING]], [[TLR9]], [[DNA Damage]], [[Mitochondria]], [[Senescence]], [[Neuroinflammation]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Retinal Ganglion Cells|glaucoma]], [[Retinal Pigment Epithelium]], [[Retinal Ganglion Cells|optic nerve]]
 - Strong connections to strengthen:
     - [[Retinal Ganglion Cells]] ↔ [[cGAS-STING Pathway]]

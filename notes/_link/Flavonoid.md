@@ -20,7 +20,7 @@ Flavonoids are a diverse class of [[Polyphenol|polyphenolic]] compounds widely d
 - [[Fisetin]] — A flavonol with potent senolytic activity
 - [[Senolytics]] — Several flavonoids function as senolytics
 - [[Antioxidant]] — Flavonoids are canonical dietary antioxidants
-- [[Cellular Senescence]] — Flavonoids can both prevent and eliminate senescent cells
+- [[Senescence]] — Flavonoids can both prevent and eliminate senescent cells
 
 ## Documents
 
@@ -28,4 +28,4 @@ Flavonoids are a diverse class of [[Polyphenol|polyphenolic]] compounds widely d
 
 ## Linking Summary
 
-- New links added: [[Quercetin]], [[Fisetin]], [[Senolytics]], [[Antioxidant]], [[Cellular Senescence]]
+- New links added: [[Quercetin]], [[Fisetin]], [[Senolytics]], [[Antioxidant]], [[Senescence]]

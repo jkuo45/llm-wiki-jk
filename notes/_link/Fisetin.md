@@ -45,14 +45,14 @@ In a 10-flavonoid screen, [[Fisetin]] was the most potent [[Senolytic|senolytic]
 ## Vascular Aging and Endothelial Function (Mahoney et al., 2025)
 
 > [!info] Source: [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025 — Fisetin Reverses Age-Related Endothelial Dysfunction]]
-> In a study using young (6 mo) and old (27 mo) [[C57BL/6|C57BL/6N mice]], intermittent oral [[Fisetin]] (100 mg/kg/day; 1 week on / 2 weeks off / 1 week on) was administered to assess its effects on vascular [[Cellular Senescence]] and [[Endothelial Dysfunction|endothelial function]] via [[Single-cell RNA-seq|single-cell transcriptomics]].
+> In a study using young (6 mo) and old (27 mo) [[C57BL/6|C57BL/6N mice]], intermittent oral [[Fisetin]] (100 mg/kg/day; 1 week on / 2 weeks off / 1 week on) was administered to assess its effects on vascular [[Senescence]] and [[Endothelial Dysfunction|endothelial function]] via [[Single-cell RNA-seq|single-cell transcriptomics]].
 >
 > Key findings:
 > - [[Endothelial Cells|ECs]] were the most senescence-susceptible vascular cell type; their senescent burden increased 10.7-fold with aging and was eliminated by fisetin
 > - [[Fisetin]] reversed the aging transcriptomic profile of senescent ECs back to young levels (no significant DARs between old fisetin and young vehicle)
 > - The [[SASP]] factor *[[CXCL12|Cxcl12]]* [[MRNA|mRNA]] was the most highly upregulated transcript in senescent ECs and was restored to young levels by fisetin
 > - Circulating [[CXCL12]] protein was elevated with aging and normalized by fisetin
-> - Fisetin plasma prevented SASP-induced [[Cellular Senescence]], rescued [[Nitric Oxide|NO]] production (20% improvement), reduced mitochondrial [[Reactive Oxygen Species|superoxide]] (58% reduction), and blocked [[Endothelial-to-Mesenchymal Transition|EndoMT]]
+> - Fisetin plasma prevented SASP-induced [[Senescence]], rescued [[Nitric Oxide|NO]] production (20% improvement), reduced mitochondrial [[Reactive Oxygen Species|superoxide]] (58% reduction), and blocked [[Endothelial-to-Mesenchymal Transition|EndoMT]]
 > - CXCL12 add-back to fisetin plasma recapitulated age-related [[Endothelial Dysfunction|endothelial dysfunction]], confirming CXCL12 as the key mediator
 
 ## Documents

@@ -24,7 +24,7 @@ Importantly, the role of STING in barrier integrity is context dependent and cel
 ## Senescence and Endothelial Dysfunction
 
 > [!info] Source: [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025]]
-> [[Endothelial Cells|Endothelial cells (ECs)]] are the most [[Cellular Senescence|senescence]]-susceptible vascular cell type, with senescent EC burden increasing 10.7-fold with aging in the aorta. [[Fisetin]] (a [[Senolytic|senolytic]]) selectively eliminates senescent ECs in vivo.
+> [[Endothelial Cells|Endothelial cells (ECs)]] are the most [[Senescence|senescence]]-susceptible vascular cell type, with senescent EC burden increasing 10.7-fold with aging in the aorta. [[Fisetin]] (a [[Senolytic|senolytic]]) selectively eliminates senescent ECs in vivo.
 
 Key aging-related changes in ECs:
 - **Senescent EC signature**: Identified via [[Single-cell RNA-seq]]; found 12 EC subclusters, with subcluster 10 representing the senescent EC population expressing *[[p21 CIP1|Cdkn1a]]*, *[[p16 INK4a|Cdkn2a]]*, and [[SASP]] factors
@@ -54,7 +54,7 @@ Key aging-related changes in ECs:
   - [[Microglia]]: Counterpart whose STING protects the BBB
   - [[Pyroptosis]]: Endothelial cell-death mode breaching the barrier
   - [[mtDNA]]: Major trigger of endothelial cGAS-STING
-  - [[Cellular Senescence]]: ECs are the most senescence-susceptible vascular cell type; senescent burden increases 10.7-fold with aging
+  - [[Senescence]]: ECs are the most senescence-susceptible vascular cell type; senescent burden increases 10.7-fold with aging
   - [[Senolytic]]: Fisetin effectively eliminates senescent ECs in vivo; ECs are the primary senolytic target in the vasculature
   - [[SASP|Senescence-Associated Secretory Phenotype]]: Senescent ECs actively secrete SASP factors, especially CXCL12
   - [[CXCL12]]: Key SASP chemokine secreted by senescent ECs; drives age-related endothelial dysfunction through autocrine/paracrine signaling

@@ -28,7 +28,7 @@ The DDR can be broadly divided into several stages: sensing, signal transduction
 3. **Effector Responses**: The signaling cascade activates several distinct effector pathways:
     - **DNA Repair**: Depending on the nature of the lesion, the cell employs various repair mechanisms, such as [[Base Excision Repair]], [[Nucleotide Excision Repair]], [[Homologous Recombination]], or [[Non-Homologous End Joining]].
     - **Cell Cycle Arrest**: To prevent the propagation of damaged DNA, the DDR induces cell cycle arrest. This is primarily mediated through the [[p53]]/[[p21]] pathway, which halts the cell cycle at the G1/S or G2/M checkpoints.
-    - **Apoptosis or Senescence**: If the DNA damage is too extensive to be repaired, the DDR signaling can trigger [[Apoptosis]] (programmed cell death) or [[Cellular Senescence]] (permanent cell cycle arrest) to prevent the damaged cell from becoming cancerous.
+    - **Apoptosis or Senescence**: If the DNA damage is too extensive to be repaired, the DDR signaling can trigger [[Apoptosis]] (programmed cell death) or [[Senescence]] (permanent cell cycle arrest) to prevent the damaged cell from becoming cancerous.
 
 ## Clinical Relevance
 
@@ -51,11 +51,11 @@ List of documents that mention this entity
 - [[p53]] - A central mediator of DDR-induced cell cycle arrest and apoptosis.
 - [[p21]] - A primary effector of p53-mediated cell cycle arrest.
 - [[Apoptosis]] - A final outcome of the DDR when damage is irreparable.
-- [[Cellular Senescence]] - An alternative outcome of the DDR for damaged cells.
+- [[Senescence]] - An alternative outcome of the DDR for damaged cells.
 - [[DNA Repair]] - The primary goal of many DDR pathways.
 
 ## Linking Summary:
 
-- New links added: [[ATM]], [[ATR]], [[p53]], [[p21]], [[Apoptosis]], [[Cellular Senescence]], [[DNA Repair]]
+- New links added: [[ATM]], [[ATR]], [[p53]], [[p21]], [[Apoptosis]], [[Senescence]], [[DNA Repair]]
 - Suggested new entity notes to create: [[DNA-PK]], [[Base Excision Repair]], [[Nucleotide Excision Repair]], [[Homologous Recombination]], [[Non-Homologous End Joining]]
 - Strong connections to strengthen: [[DNA Damage Response]] ↔ [[p53]]

@@ -24,7 +24,7 @@ In the context of [[Oxidative Stress]], the most important repair pathway is [[B
 - Link to aging: Accumulation of unrepaired DNA damage is a primary hallmark of aging and contributor to cellular senescence.
 ## Related
 - [[Genomic Instability]]
-- [[Cellular Senescence]]
+- [[Senescence]]
 - [[DNA Damage]]
 
 #

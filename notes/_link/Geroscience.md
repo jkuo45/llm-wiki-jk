@@ -17,7 +17,7 @@ aliases: []
 Geroscience focuses on a set of interconnected biological drivers that characterize the aging process across species. These include:
 *   **[[Epigenetic Alterations]]**: Changes in [[DNA Methylation]] and [[Histone Modification]].
 *   **[[Genomic Instability]]**: The accumulation of DNA damage.
-*   **[[Cellular Senescence]]**: The accumulation of "zombie" cells that promote inflammation.
+*   **[[Senescence]]**: The accumulation of "zombie" cells that promote inflammation.
 *   **Loss of Proteostasis**: The failure of cellular "quality control" for proteins (often involving [[Autophagy]]).
 ### 2. Therapeutic Interventions (Geroprotectors)
 Geroscience researchers are investigating various "geroprotective" strategies to extend human healthspan:
@@ -46,6 +46,6 @@ List of documents that mention this entity
 - **[[Caloric Restriction]]**: The most widely studied intervention in the field.
 
 ## Linking Summary
-- New links added: [[Geroscience]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[Metformin]], [[Resveratrol]], [[Spermidine]], [[Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
+- New links added: [[Geroscience]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Senescence]], [[Autophagy]], [[Metformin]], [[Resveratrol]], [[Spermidine]], [[Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
 - Suggested new entity notes to create: [[Healthspan]], [[Geroprotectors]], [[Hallmarks of Aging]]
   - Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]

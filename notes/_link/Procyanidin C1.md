@@ -33,12 +33,12 @@ List of documents that mention this entity
 - [[Senolytic]] — PCC1 is a canonical natural senolytic.
 - [[Apigenin]] — Comparator; apigenin is senomorphic whereas PCC1 is senolytic.
 - [[Senomorphic]] — Contrast class in the same screen.
-- [[Cellular Senescence]] — PCC1 clears senescent cells.
+- [[Senescence]] — PCC1 clears senescent cells.
 - [[Senolytics]]: Procyanidin C1 is a senolytic acting via BCL-2.
 - [[Idiopathic Pulmonary Fibrosis]]: Antifibrotic in pulmonary fibrosis models.
 
 ## Linking Summary
 
-- New links added: [[Senolytic]], [[Apigenin]], [[Senomorphic]], [[Cellular Senescence]]
+- New links added: [[Senolytic]], [[Apigenin]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Procyanidin C1]] ↔ [[Senolytic]]

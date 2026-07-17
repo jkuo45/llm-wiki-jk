@@ -38,9 +38,9 @@ List of documents that mention this entity
 - [[Immunotherapy]] — often combined with chemotherapy
 - [[Targeted Therapy]] — precision medicine approach complementary to chemotherapy
 - [[Radiotherapy]] — frequently combined with chemotherapy
-- [[Cellular Senescence]] — chemotherapy can induce senescence
+- [[Senescence]] — chemotherapy can induce senescence
 
 ## Linking Summary
-- New links added: [[Cancer]], [[Alkylating Agents]], [[Antimetabolites]], [[Topoisomerase Inhibitors]], [[Cisplatin]], [[Carboplatin]], [[Oxaliplatin]], [[Taxanes]], [[Anthracyclines]], [[Vinca Alkaloids]], [[DNA Damage]], [[Mitosis]], [[DNA Replication]], [[Apoptosis]], [[Immunotherapy]], [[Radiotherapy]], [[Targeted Therapy]], [[Autophagy]], [[Cellular Senescence]]
+- New links added: [[Cancer]], [[Alkylating Agents]], [[Antimetabolites]], [[Topoisomerase Inhibitors]], [[Cisplatin]], [[Carboplatin]], [[Oxaliplatin]], [[Taxanes]], [[Anthracyclines]], [[Vinca Alkaloids]], [[DNA Damage]], [[Mitosis]], [[DNA Replication]], [[Apoptosis]], [[Immunotherapy]], [[Radiotherapy]], [[Targeted Therapy]], [[Autophagy]], [[Senescence]]
 - Suggested new entity notes to create: [[Myelosuppression]], [[Peripheral Neuropathy]], [[Chemoresistance]]
   - Strong connections to strengthen: [[Chemotherapy]] ↔ Cancer, [[Chemotherapy]] ↔ [[DNA Damage]]

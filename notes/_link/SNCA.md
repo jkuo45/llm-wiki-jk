@@ -13,13 +13,13 @@ aliases:
 
 ## Overview
 
-*SNCA* encodes [[α-synuclein]] (α-syn), a small, intrinsically disordered presynaptic protein involved in [[Synaptic Vesicle]] trafficking and [[Neurotransmitter]] release. Misfolded α-synuclein aggregates into [[Lewy Bodies]], the pathological hallmark of [[Parkinson's Disease|Parkinson's disease]]. SNCA mutations (A53T, A30P, E46K) and gene multiplications cause familial PD. In the context of [[Cellular Senescence]], α-synuclein aggregates can induce mitochondrial dysfunction, [[Oxidative Stress]], and a senescence-like state in dopaminergic neurons.
+*SNCA* encodes [[α-synuclein]] (α-syn), a small, intrinsically disordered presynaptic protein involved in [[Synaptic Vesicle]] trafficking and [[Neurotransmitter]] release. Misfolded α-synuclein aggregates into [[Lewy Bodies]], the pathological hallmark of [[Parkinson's Disease|Parkinson's disease]]. SNCA mutations (A53T, A30P, E46K) and gene multiplications cause familial PD. In the context of [[Senescence]], α-synuclein aggregates can induce mitochondrial dysfunction, [[Oxidative Stress]], and a senescence-like state in dopaminergic neurons.
 
 ## Connections
 
 - [[Parkinson's Disease]] — SNCA is the central genetic and pathological driver
 - [[Lewy Bodies]] — Pathological aggregates of α-synuclein
-- [[Cellular Senescence]] — α-synuclein aggregates can induce senescence-associated phenotypes
+- [[Senescence]] — α-synuclein aggregates can induce senescence-associated phenotypes
 - [[Mitochondria]] — α-synuclein disrupts mitochondrial function, contributing to Parkinson's
 - [[Oxidative Stress]] — SNCA pathology both causes and is exacerbated by ROS
 
@@ -29,4 +29,4 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Parkinson's Disease]], [[Lewy Bodies]], [[Cellular Senescence]], [[Mitochondria]], [[Oxidative Stress]]
+- New links added: [[Parkinson's Disease]], [[Lewy Bodies]], [[Senescence]], [[Mitochondria]], [[Oxidative Stress]]

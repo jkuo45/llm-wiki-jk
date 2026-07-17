@@ -18,7 +18,7 @@ Mitochondrial quality control encompasses the integrated network of processes th
 ## Role in Cellular Senescence
 
 > [!info] Source: [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease]]
-> Impaired mitochondrial quality control is a central feature of [[Cellular Senescence|senescence]]. Senescent cells exhibit reduced mitophagy (driven by [[PINK1]]/[[Parkin]]/[[p62]] pathway impairment), downregulation of fission machinery ([[DRP1]]/[[FIS1]]), and altered fusion dynamics, leading to accumulation of dysfunctional, elongated mitochondria that produce excessive [[Reactive Oxygen Species|ROS]]. These defects reinforce the senescent phenotype and promote the [[SASP]] through [[NLRP3]] inflammasome and [[JNK]] signaling.
+> Impaired mitochondrial quality control is a central feature of [[Senescence|senescence]]. Senescent cells exhibit reduced mitophagy (driven by [[PINK1]]/[[Parkin]]/[[p62]] pathway impairment), downregulation of fission machinery ([[DRP1]]/[[FIS1]]), and altered fusion dynamics, leading to accumulation of dysfunctional, elongated mitochondria that produce excessive [[Reactive Oxygen Species|ROS]]. These defects reinforce the senescent phenotype and promote the [[SASP]] through [[NLRP3]] inflammasome and [[JNK]] signaling.
 
 ## Connections
 
@@ -26,10 +26,10 @@ Mitochondrial quality control encompasses the integrated network of processes th
 - [[Mitochondrial Dynamics]] — Fission/fusion balance determines mitochondrial morphology and turnover
 - [[PINK1]]/[[Parkin]] — Key mitophagy pathway; impaired in senescence and [[Parkinson's Disease]]
 - [[DRP1]]/[[FIS1]] — Fission machinery; downregulated in senescent cells
-- [[Cellular Senescence]] — Quality control failure drives senescence-associated mitochondrial dysfunction
+- [[Senescence]] — Quality control failure drives senescence-associated mitochondrial dysfunction
 - [[Neurodegenerative Disease]] — Quality control defects are shared between senescence and neurodegeneration
 
 ## Linking Summary
 
-- New links added: [[Mitophagy]], [[Mitochondrial Dynamics]], [[PINK1]], [[Parkin]], [[DRP1]], [[FIS1]], [[Cellular Senescence]], [[SASP]]
+- New links added: [[Mitophagy]], [[Mitochondrial Dynamics]], [[PINK1]], [[Parkin]], [[DRP1]], [[FIS1]], [[Senescence]], [[SASP]]
 - Suggested new entity notes to create: None

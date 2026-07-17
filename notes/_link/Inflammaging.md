@@ -78,7 +78,7 @@ List of documents that mention this entity
 - [[NF-κB]] — central effector of inflammaging transcription
 - [[RB1]] — RB1 loss derepresses LINE-1 fueling inflammaging
 - [[SIRT6]] — SIRT6 loss derepresses LINE-1 promoting inflammaging
-- [[Cellular Senescence]]: Inflammaging promotes senescence induction/persistence in IPF.
+- [[Senescence]]: Inflammaging promotes senescence induction/persistence in IPF.
 - [[Adrenochrome]]: Electrophilic quinone upstream of Microprocessor dysfunction feeding inflammaging (trace).
 - [[DGCR8]]: Microprocessor cofactor; bridge node in the adrenochrome → inflammaging path.
 - [[Drosha]]: Microprocessor enzyme; elevated DROSHA promotes AIM2 inflammasome inflammation.

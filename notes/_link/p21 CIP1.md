@@ -16,7 +16,7 @@ aliases: [p21, CDKN1A, p21CIP1, CIP1]
 
 # p21 CIP1
 
-**p21^CIP1^** (encoded by the [[CDKN1A]] gene) is a cyclin-dependent kinase inhibitor and the principal downstream effector of [[p53]]-mediated cell-cycle arrest. It is one of the most widely studied regulators of [[Cellular Senescence]] and supports an *early* secretory phenotype with immunosurveillance functions (Kuilman & Peeper, 2009, PMID 19239896; Coppé et al., 2008, PMID 18779463).
+**p21^CIP1^** (encoded by the [[CDKN1A]] gene) is a cyclin-dependent kinase inhibitor and the principal downstream effector of [[p53]]-mediated cell-cycle arrest. It is one of the most widely studied regulators of [[Senescence]] and supports an *early* secretory phenotype with immunosurveillance functions (Kuilman & Peeper, 2009, PMID 19239896; Coppé et al., 2008, PMID 18779463).
 
 ## Mechanism of Action
 
@@ -75,7 +75,7 @@ List of documents that mention this entity
     - p21^CIP1 is induced by p53/DDR in IPF senescent alveolar epithelium and serves as a senescence marker.
 
 ## Connections
-- [[Cellular Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest
+- [[Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest
 - [[p53]] — transcriptional activator of p21
 - [[CDKN1A]] — gene encoding p21^CIP1^
 - [[p16 INK4a|p16]] — cooperates with p21 in senescence and SASP regulation

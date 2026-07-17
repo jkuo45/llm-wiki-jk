@@ -11,7 +11,7 @@ aliases: [Astrocyte]
 
 ## Overview
 
-[[Astrocytes]] are the most abundant glial cell type in the [[Central Nervous System|CNS]], providing metabolic, structural, and homeostatic support to [[Neuron|neurons]] and contributing to the formation and maintenance of the [[Blood-Brain Barrier|blood-brain barrier]]. Under chronic stress or proteotoxic insult, astrocytes become reactive, and sustained activation of the [[cGAS-STING Pathway|cGAS-STING]] pathway drives a maladaptive transition toward the neurotoxic A1 phenotype and a [[Cellular Senescence|senescent]] state.
+[[Astrocytes]] are the most abundant glial cell type in the [[Central Nervous System|CNS]], providing metabolic, structural, and homeostatic support to [[Neuron|neurons]] and contributing to the formation and maintenance of the [[Blood-Brain Barrier|blood-brain barrier]]. Under chronic stress or proteotoxic insult, astrocytes become reactive, and sustained activation of the [[cGAS-STING Pathway|cGAS-STING]] pathway drives a maladaptive transition toward the neurotoxic A1 phenotype and a [[Senescence|senescent]] state.
 
 ## cGAS-STING–Driven Astrocyte Activation
 
@@ -30,7 +30,7 @@ Reactive astrocytes and [[Microglia]] engage in bidirectional paracrine signalin
 
   - [[cGAS]]: astrocyte-intrinsic DNA sensor responding to extracellular tau/Aβ and mtDNA
   - [[Microglia]]: bidirectional paracrine amplification of neuroinflammation
-  - [[Cellular Senescence]]: cGAS-STING induces astrocyte SASP and senescence
+  - [[Senescence]]: cGAS-STING induces astrocyte SASP and senescence
   - [[Type I Interferon]]: downstream IFN-I programs drive A1 polarization
   - [[Blood-Brain Barrier]]: astrocytes are structural partners of the BBB
   - [[Amyloid Beta]]: extracellular Aβ activates astrocytic cGAS-STING
@@ -39,7 +39,7 @@ Reactive astrocytes and [[Microglia]] engage in bidirectional paracrine signalin
 
 ## Linking Summary
 
-- New links added: [[Astrocytes]], [[Central Nervous System]], [[Neuron]], [[Blood-Brain Barrier]], [[cGAS-STING Pathway]], [[Microglia]], [[Cellular Senescence]], [[SASP]], [[Type I Interferon]], [[Amyloid Beta]], [[Tau]], [[mtDNA]], [[Neuroinflammation]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
+- New links added: [[Astrocytes]], [[Central Nervous System]], [[Neuron]], [[Blood-Brain Barrier]], [[cGAS-STING Pathway]], [[Microglia]], [[Senescence]], [[SASP]], [[Type I Interferon]], [[Amyloid Beta]], [[Tau]], [[mtDNA]], [[Neuroinflammation]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
 - Suggested new entity notes to create: [[Astrocyte Senescence]], [[SASP]], [[Astrocytes|A1 astrocytes]]
 - Strong connections to strengthen:
     - [[Astrocytes]] ↔ [[Microglia]]

@@ -29,7 +29,7 @@ protected: true
 
 ## Role in Senescence and Aging
 
-- **macroH2A1:** Accumulates during [[Cellular Senescence|senescence]] and is enriched in [[SAHF|SAHF]]. It compacts chromatin at proliferation genes and is required for the stable repression of E2F targets. Knockdown of macroH2A1 partially reverses the senescence proliferative arrest.
+- **macroH2A1:** Accumulates during [[Senescence|senescence]] and is enriched in [[SAHF|SAHF]]. It compacts chromatin at proliferation genes and is required for the stable repression of E2F targets. Knockdown of macroH2A1 partially reverses the senescence proliferative arrest.
 - **H3.3:** Turnover at promoters slows with age, leading to a "stiffening" of the promoter chromatin landscape and reduced transcriptional responsiveness. H3.3 accumulates at telomeres and repetitive elements in aged cells, potentially contributing to heterochromatin loss.
 - **H2A.Z:** Levels decrease during aging at promoters of metabolic genes, correlating with transcriptional decline in aged tissues. H2A.Z loss at the [[CDKN2A]] locus contributes to p16^INK4a^ activation.
 
@@ -74,7 +74,7 @@ List of documents that mention this entity
 - [[FACT]]: | Variant | Histone Family | Incorporation Complex | Function | |---|---|---|---| | [[H3.3]] | H3 | [[HIRA]] (at prom...
 - [[DNA Damage Response]]: | Variant | Histone Family | Incorporation Complex | Function | |---|---|---|---| | [[H3.3]] | H3 | [[HIRA]] (at prom...
 - [[H2A.B]]: | Variant | Histone Family | Incorporation Complex | Function | |---|---|---|---| | [[H3.3]] | H3 | [[HIRA]] (at prom...
-- [[Cellular Senescence]]: - **macroH2A1:** Accumulates during senescence and is enriched in [[SAHF|SAHF]].
+- [[Senescence]]: - **macroH2A1:** Accumulates during senescence and is enriched in [[SAHF|SAHF]].
 - [[CDKN2A]]: H2A.Z loss at the CDKN2A locus contributes to p16^INK4a^ activation.
 - [[CUT&Tag]]: - **CUT&Tag** and [[ChIP-seq]] with variant-specific antibodies to map genomic distribution.
 - [[ChIP-seq]]: - **[[CUT&Tag]]** and ChIP-seq with variant-specific antibodies to map genomic distribution.

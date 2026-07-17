@@ -31,6 +31,6 @@ FIS1 (mitochondrial fission 1 protein) is an outer [[Mitochondria|mitochondrial]
 
 ## Linking Summary
 
-- New links added: [[DRP1]], [[OPA1]], [[MFN1]], [[Mitophagy]], [[Mitochondrial Fission]], [[Cellular Senescence]]
+- New links added: [[DRP1]], [[OPA1]], [[MFN1]], [[Mitophagy]], [[Mitochondrial Fission]], [[Senescence]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[FIS1]] ↔ [[DRP1]] (core fission machinery)

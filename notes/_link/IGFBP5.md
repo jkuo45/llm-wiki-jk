@@ -26,7 +26,7 @@ aliases: [IGFBP5, IGFBP-5, insulin-like growth factor-binding protein 5]
 ## Mechanism of Action & Regulation
 
 - By sequestering IGFs, IGFBP5 can dampen pro-survival [[PI3K]]/[[Akt]] signaling, reinforcing senescence-associated growth arrest.
-- IGFBP5 is induced during [[Cellular Senescence|senescence]] and can act in an autocrine/paracrine manner to promote and propagate the senescent state.
+- IGFBP5 is induced during [[Senescence|senescence]] and can act in an autocrine/paracrine manner to promote and propagate the senescent state.
 
 ## Role in Senescence / SASP
 
@@ -48,12 +48,12 @@ aliases: [IGFBP5, IGFBP-5, insulin-like growth factor-binding protein 5]
 - [[IGF-1]]: IGFBP5 binds and modulates IGF-1 bioavailability
 - [[IGF1R]]: IGFBP5 regulates IGF access to its receptor
 - [[TGFβ]]: co-secreted developmental SASP factor in embryonic patterning
-- [[Cellular Senescence]]: IGFBP5 reinforces senescence-associated growth arrest
+- [[Senescence]]: IGFBP5 reinforces senescence-associated growth arrest
 - [[IGFBP3]]: related IGFBP-family SASP factor with overlapping IGF-modulating roles
 - [[PI3K]]: IGFBP5 dampens IGF-driven PI3K/Akt survival signaling
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF-1]], [[IGF1R]], [[TGFβ]], [[Cellular Senescence]], [[IGFBP3]], [[PI3K]], [[Akt]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF-1]], [[IGF1R]], [[TGFβ]], [[Senescence]], [[IGFBP3]], [[PI3K]], [[Akt]]
 - Suggested new entity notes to create: [[IGFBP]]
 - Strong connections to strengthen: [[IGFBP5]] ↔ [[IGF-1]], [[IGFBP5]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

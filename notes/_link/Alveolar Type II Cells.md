@@ -23,7 +23,7 @@ AT2 cells reside along the alveolar wall, synthesize and secrete pulmonary surfa
 
 ## Vulnerability to Senescence in IPF
 
-A 2026 narrative review on [[Cellular Senescence|cellular senescence]] in IPF identifies [[Alveolar Type II Cells|AT2 cells]] as the most senescence-vulnerable epithelial population in the diseased lung:
+A 2026 narrative review on [[Senescence|cellular senescence]] in IPF identifies [[Alveolar Type II Cells|AT2 cells]] as the most senescence-vulnerable epithelial population in the diseased lung:
 
 > [!info] Source: [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
 > In IPF-affected lungs, AT2 cells demonstrate elevated expression of [[p16 INK4a|p16^INK4a]] and [[p21 CIP1|p21^CIP1]] alongside [[DNA Damage|DNA damage response]] activation, consistent with stress-induced premature senescence. Premature epithelial senescence can occur independently of chronological aging (triggered by environmental exposure, oxidative injury, smoking, [[Mitochondrial Dysfunction|mitochondrial dysfunction]], viral infection, and repeated microinjury) and compromises epithelial repair, facilitating fibrotic remodeling.
@@ -36,7 +36,7 @@ Critically shortened [[Telomere|telomeres]] in AT2 cells—driven by [[Telomere 
 ## Connections
 
 - [[Idiopathic Pulmonary Fibrosis]] — Senescent AT2 cells are a central pathogenic feature; their SASP drives fibroblast activation.
-- [[Cellular Senescence]] — AT2 cells are the most senescence-vulnerable lung epithelial population in IPF.
+- [[Senescence]] — AT2 cells are the most senescence-vulnerable lung epithelial population in IPF.
 - [[p16 INK4a]] / [[p21 CIP1]] — Cell-cycle inhibitors elevated in senescent AT2 cells.
 - [[Telomere Attrition]] — Telomere shortening in AT2 cells drives replicative senescence and loss of regenerative capacity.
 - [[SASP]] — Secreted by senescent AT2 cells to propagate paracrine fibrosis.
@@ -44,6 +44,6 @@ Critically shortened [[Telomere|telomeres]] in AT2 cells—driven by [[Telomere 
 
 ## Linking Summary
 
-- New links added: [[Idiopathic Pulmonary Fibrosis]], [[Cellular Senescence]], [[p16 INK4a]], [[p21 CIP1]], [[Telomere Attrition]], [[Telomerase]], [[p53]], [[SASP]], [[Senescent Cells]], [[Fibroblast]], [[Mitochondrial Dysfunction]], [[DNA Damage]]
+- New links added: [[Idiopathic Pulmonary Fibrosis]], [[Senescence]], [[p16 INK4a]], [[p21 CIP1]], [[Telomere Attrition]], [[Telomerase]], [[p53]], [[SASP]], [[Senescent Cells]], [[Fibroblast]], [[Mitochondrial Dysfunction]], [[DNA Damage]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Alveolar Type II Cells]] ↔ [[Idiopathic Pulmonary Fibrosis]], [[Alveolar Type II Cells]] ↔ [[SASP]]

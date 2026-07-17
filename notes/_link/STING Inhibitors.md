@@ -19,7 +19,7 @@ By targeting STING itself, these inhibitors interrupt both canonical cGAS-depend
 
 ## Context-Dependent Effects
 
-Therapeutic use of STING inhibitors requires caution because STING signaling is context dependent: genetic STING deficiency reduces [[Cellular Senescence|senescence]] yet paradoxically accelerates cognitive and motor decline, and microglial STING helps preserve [[Blood-Brain Barrier]] integrity during aging. Some inhibitors may therefore compromise barrier-protective functions even as they reduce parenchymal inflammation, underscoring the need for cell-type–selective delivery in [[Neurodegeneration]].
+Therapeutic use of STING inhibitors requires caution because STING signaling is context dependent: genetic STING deficiency reduces [[Senescence|senescence]] yet paradoxically accelerates cognitive and motor decline, and microglial STING helps preserve [[Blood-Brain Barrier]] integrity during aging. Some inhibitors may therefore compromise barrier-protective functions even as they reduce parenchymal inflammation, underscoring the need for cell-type–selective delivery in [[Neurodegeneration]].
 
 ## Documents
 

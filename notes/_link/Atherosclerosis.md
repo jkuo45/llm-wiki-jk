@@ -63,7 +63,7 @@ List of documents that mention this entity
 
 ## Connections
 - **[[Cardiovascular Disease]]**: Atherosclerosis is the underlying cause of most cardiovascular diseases.
-- **[[Cellular Senescence]]**: Vascular senescence contributes to plaque vulnerability and arterial stiffness.
+- **[[Senescence]]**: Vascular senescence contributes to plaque vulnerability and arterial stiffness.
 - **[[DNA Methylation]]**: Key marker for measuring biological age and vascular health.
 - [[SIRT1]]: SIRT1 activation reduces atherosclerosis; [[Trimethylamine N-oxide]]: TMAO promotes atherosclerosis opposed by SIRT1.
 - [[Macrophages]] — Macrophage cholesterol accumulation and foam cell formation are hallmarks of early atherogenesis
@@ -80,6 +80,6 @@ List of documents that mention this entity
 - [[NF-kappaB]] — Pro-inflammatory transcription factor driving atherosclerotic inflammation
 
 ## Linking Summary
-- New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]
+- New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]], [[Endothelial Dysfunction]].
   - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ DNA Methylation, Advanced Glycation End Products ↔ [[Atherosclerosis]]

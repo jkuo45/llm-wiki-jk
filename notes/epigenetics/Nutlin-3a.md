@@ -12,7 +12,7 @@ aliases: []
 
 # Nutlin-3a
 
-**Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-[[p53]] interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a stabilizes and activates [[p53|p53]], inducing cell cycle arrest, [[Cellular Senescence|senescence]], or [[Apoptosis|apoptosis]] depending on cellular context.
+**Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-[[p53]] interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a stabilizes and activates [[p53|p53]], inducing cell cycle arrest, [[Senescence|senescence]], or [[Apoptosis|apoptosis]] depending on cellular context.
 
 ## Mechanism
 
@@ -57,7 +57,7 @@ List of documents that mention this entity
 
 - [[MDM2]]: **Nutlin-3a** is a potent, selective small-molecule inhibitor of the MDM2-[[p53]] interaction.
 - [[p53]]: **Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-p53 interaction.
-- [[Cellular Senescence]]: By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a...
+- [[Senescence]]: By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a...
 - [[Apoptosis]]: By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a...
 - [[p21]]: - Selective activation of p53 target genes (CDKN1A/p21, [[Bax]], [[Puma]], [[Noxa]], [[TIGAR]]).
 - [[Bax]]: - Selective activation of p53 target genes ([[p21|CDKN1A/p21]], Bax, [[Puma]], [[Noxa]], [[TIGAR]]).

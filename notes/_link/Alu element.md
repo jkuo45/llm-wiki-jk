@@ -17,7 +17,7 @@ aliases: []
 
 **Normal Functions:** Alu sequences influence genome architecture—providing splice sites, polyadenylation signals, and transcription-factor binding motifs, and contributing to [[Gene Expression]] regulation. They are a major source of human genetic variation (insertion/deletion polymorphisms) and evolutionary innovation.
 
-**Role in Aging and Senescence:** In [[Cellular Senescence]] and stressed cells, loss of epigenetic silencing permits Alu (and other SINE) transcription. The resulting double-stranded RNA and cytoplasmic retrotransposition intermediates trigger innate immune sensing (cGAS-STING, RIG-I-like pathways) and contribute to the senescence-associated secretory phenotype (SASP). Accumulating [[Genomic Instability]] and derepressed retroelements are recognized hallmarks of aging.
+**Role in Aging and Senescence:** In [[Senescence]] and stressed cells, loss of epigenetic silencing permits Alu (and other SINE) transcription. The resulting double-stranded RNA and cytoplasmic retrotransposition intermediates trigger innate immune sensing (cGAS-STING, RIG-I-like pathways) and contribute to the senescence-associated secretory phenotype (SASP). Accumulating [[Genomic Instability]] and derepressed retroelements are recognized hallmarks of aging.
 
 **Pathology:** Aberrant Alu insertion can disrupt genes and cause disease (e.g., cancers, neurovascular disorders). Therapeutic interest centers on epigenetic reactivation of silencing and on targeting SASP driven by retroelement activation.
 
@@ -32,12 +32,12 @@ aliases: []
 
   - [[Transposable Elements]]: Alu is the most abundant human SINE family.
   - [[Genomic Instability]]: Derepressed Alu mobility contributes to instability.
-  - [[Cellular Senescence]]: Alu reactivation drives SASP in senescent cells.
+  - [[Senescence]]: Alu reactivation drives SASP in senescent cells.
   - [[Gene Expression]]: Alu sequences modulate transcription and splicing.
   - [[Epigenetic Alterations]]: Loss of silencing permits Alu transcription in aging.
 
 ## Linking Summary
 
-  - New links added: [[Transposable Elements]], [[Genomic Instability]], [[Cellular Senescence]], [[Gene Expression]], [[Epigenetic Alterations]]
+  - New links added: [[Transposable Elements]], [[Genomic Instability]], [[Senescence]], [[Gene Expression]], [[Epigenetic Alterations]]
   - Suggested new entity notes to create: [[SINE]], [[LINE-1]], [[SASP|Senescence-Associated Secretory Phenotype]]
-  - Strong connections to strengthen: [[Alu element]] ↔ [[Cellular Senescence]], [[Alu element]] ↔ [[Genomic Instability]]
+  - Strong connections to strengthen: [[Alu element]] ↔ [[Senescence]], [[Alu element]] ↔ [[Genomic Instability]]

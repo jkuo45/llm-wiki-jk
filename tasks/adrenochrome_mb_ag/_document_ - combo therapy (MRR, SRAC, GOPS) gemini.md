@@ -54,7 +54,7 @@ The molecular design of [[Adrenochrome monoaminoguanidine]] represents a highly 
 
 This research hypothesis explores a highly compelling, albeit double-edged, area of [[Geroscience|biogerontology]]: the potential of [[Aminochromes]] (specifically [[Adrenochrome]]) to act as [[Senolytic Therapy|senotherapeutic]] agents.
 
-By analyzing the biochemical pathways of [[Cellular Senescence|cellular senescence]], [[Redox Homeostasis|redox homeostasis]], and aminochrome chemistry, we can evaluate the feasibility, mechanisms, and major challenges of utilizing these compounds as [[Senolytics]] or [[Senomorphics]].
+By analyzing the biochemical pathways of [[Senescence|cellular senescence]], [[Redox Homeostasis|redox homeostasis]], and aminochrome chemistry, we can evaluate the feasibility, mechanisms, and major challenges of utilizing these compounds as [[Senolytics]] or [[Senomorphics]].
 
 ### The Senolysis Hypothesis: ROS-Driven Selective Apoptosis
 

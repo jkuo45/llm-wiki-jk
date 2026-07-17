@@ -11,7 +11,7 @@ aliases: []
 
 ## Overview
 
-[[Astrocyte Senescence]] is the acquisition by [[Astrocytes]] of a stable growth-arrested, pro-inflammatory state akin to [[Cellular Senescence|cellular senescence]]. Senescent astrocytes contribute to [[Neuroinflammation]] and [[Neurodegeneration|neurodegeneration]] by adopting neurotoxic phenotypes and secreting a [[SASP|senescence-associated secretory phenotype]] rich in cytokines and proteases. In the context of [[Neurodegenerative Disease|neurodegenerative disease]], cGAS-STING signaling has been identified as a key contributor to astrocyte senescence, particularly in mouse models of [[Parkinson's Disease|PD]].
+[[Astrocyte Senescence]] is the acquisition by [[Astrocytes]] of a stable growth-arrested, pro-inflammatory state akin to [[Senescence|cellular senescence]]. Senescent astrocytes contribute to [[Neuroinflammation]] and [[Neurodegeneration|neurodegeneration]] by adopting neurotoxic phenotypes and secreting a [[SASP|senescence-associated secretory phenotype]] rich in cytokines and proteases. In the context of [[Neurodegenerative Disease|neurodegenerative disease]], cGAS-STING signaling has been identified as a key contributor to astrocyte senescence, particularly in mouse models of [[Parkinson's Disease|PD]].
 
 ## cGAS-STING Contribution
 
@@ -30,7 +30,7 @@ Astrocytes exist along a continuum from homeostatic to reactive states. Under cG
 
   - [[Astrocytes]]: the cell type undergoing senescence.
   - [[cGAS-STING Pathway]]: upstream driver of astrocyte senescence and A1 polarization.
-  - [[Cellular Senescence]]: broader senescence framework of which this is a glial instance.
+  - [[Senescence]]: broader senescence framework of which this is a glial instance.
   - [[SASP]]: secretory phenotype secreted by senescent astrocytes.
   - [[Neuroinflammation]]: process amplified by senescent astrocytes.
   - [[Parkinson's Disease]]: model where astrocytic cGAS deletion is protective.
@@ -39,8 +39,8 @@ Astrocytes exist along a continuum from homeostatic to reactive states. Under cG
 
 ## Linking Summary
 
-- New links added: [[Astrocytes]], [[cGAS-STING Pathway]], [[Cellular Senescence]], [[SASP]], [[Neuroinflammation]], [[Parkinson's Disease]], [[Inflammaging]], [[Reactive Oxygen Species]], [[cGAS]], [[STING]]
-- Suggested new entity notes to create: [[Astrocytes]], [[SASP]], [[Cellular Senescence]]
+- New links added: [[Astrocytes]], [[cGAS-STING Pathway]], [[Senescence]], [[SASP]], [[Neuroinflammation]], [[Parkinson's Disease]], [[Inflammaging]], [[Reactive Oxygen Species]], [[cGAS]], [[STING]]
+- Suggested new entity notes to create: [[Astrocytes]], [[SASP]], [[Senescence]]
 - Strong connections to strengthen:
     - [[Astrocyte Senescence]] ↔ [[Astrocytes]]
     - [[cGAS-STING Pathway]] ↔ [[SASP]]

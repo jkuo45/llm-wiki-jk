@@ -30,7 +30,7 @@ While less direct than its effect on histones, AMPK influences DNA methylation p
 The decline of AMPK signaling in old age leads to several downstream epigenetic failures:
 *   **Loss of Proteostasis:** Reduced AMPK activity impairs [[Autophagy]], leading to the accumulation of damaged proteins.
 *   **Mitochondrial Decay:** Without AMPK-driven epigenetic activation of mitochondrial biogenesis genes, mitochondrial function declines.
-*   **[[Cellular Senescence]]:** The failure of AMPK to maintain proper chromatin structure can trigger the [[SASP|Senescence-Associated Secretory Phenotype]] (Senescence-Associated Secretory Phenotype).
+*   **[[Senescence]]:** The failure of AMPK to maintain proper chromatin structure can trigger the [[SASP|Senescence-Associated Secretory Phenotype]] (Senescence-Associated Secretory Phenotype).
 ### Merged from notes/autophagy/AMPK.md
 AMP-activated protein kinase (AMPK) is a key energy sensor that phosphorylates [[TFEB]] at serine clusters (S466, S467, S469) to enhance its transcriptional activity.
 
@@ -98,6 +98,6 @@ List of documents that mention this entity
 - [[NAMPT]]: AMPK phosphorylates NAMPT to raise NAD+ and activate SIRT1; [[SIRT1]]: SIRT1 and AMPK reciprocally activate.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]., [[SASP|Senescence-Associated Secretory Phenotype]]
+- New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]., [[SASP|Senescence-Associated Secretory Phenotype]]
 - Suggested new entity notes to create: [[Energy Homeostasis]], [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC1-α]]., [[mTORC1]], [[PGC1-α]]
   - Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]], [[AMPK]] ↔ SIRT1, [[AMPK]] ↔ [[Aging]], Caloric Restriction ↔ [[AMPK]]

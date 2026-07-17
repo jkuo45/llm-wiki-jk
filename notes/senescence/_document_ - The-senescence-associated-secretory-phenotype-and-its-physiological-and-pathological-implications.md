@@ -19,11 +19,11 @@ tags:
 # The Senescence-Associated Secretory Phenotype and Its Physiological and Pathological Implications
 
 > [!abstract] Abstract
-> [[Cellular Senescence]] is a state of terminal growth arrest associated with the upregulation of different cell cycle inhibitors, mainly [[p16 INK4a|p16]] and [[p21 CIP1|p21]], structural and metabolic alterations, chronic [[DNA Damage Response|DNA damage responses]], and a hypersecretory state known as the [[SASP|Senescence-Associated Secretory Phenotype]]. The SASP is the major mediator of the paracrine effects of senescent cells in their tissue microenvironment and of various local and systemic biological functions.
+> [[Senescence]] is a state of terminal growth arrest associated with the upregulation of different cell cycle inhibitors, mainly [[p16 INK4a|p16]] and [[p21 CIP1|p21]], structural and metabolic alterations, chronic [[DNA Damage Response|DNA damage responses]], and a hypersecretory state known as the [[SASP|Senescence-Associated Secretory Phenotype]]. The SASP is the major mediator of the paracrine effects of senescent cells in their tissue microenvironment and of various local and systemic biological functions.
 
 ## Introduction
 
-[[Cellular Senescence]] is a state of stable terminal proliferation arrest. Because cells can transit to a senescent state as a consequence of various stressors, different types of senescence have been historically named after their inducer:
+[[Senescence]] is a state of stable terminal proliferation arrest. Because cells can transit to a senescent state as a consequence of various stressors, different types of senescence have been historically named after their inducer:
 
 - **Replicative senescence** — cells passaged in culture until they reach irreversible proliferation arrest
 - **[[Oncogene-Induced Senescence]] (OIS)** — cells overexpressing an oncogene, primarily [[RAS]]

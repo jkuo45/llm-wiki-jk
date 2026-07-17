@@ -13,11 +13,11 @@ aliases:
 
 ## Overview
 
-Stress-induced senescence (SIS) is a form of [[Cellular Senescence]] triggered by acute cellular stressors rather than replicative exhaustion. Inducers include [[Genotoxic Agent|genotoxic agents]] (radiation, chemotherapy), [[Oxidative Stress]], [[Oncogene]] activation ([[Oncogene-Induced Senescence]]), [[Mitochondria|mitochondrial]] dysfunction (mitochondrial dysfunction-associated senescence, MiDAS), [[Epigenetic]] disruption, and [[Proteotoxic Stress]]. SIS engages the [[p53]]-[[p21]] and [[p16]]-[[RB]] tumor suppressor pathways, leading to stable cell cycle arrest and activation of the [[SASP]].
+Stress-induced senescence (SIS) is a form of [[Senescence]] triggered by acute cellular stressors rather than replicative exhaustion. Inducers include [[Genotoxic Agent|genotoxic agents]] (radiation, chemotherapy), [[Oxidative Stress]], [[Oncogene]] activation ([[Oncogene-Induced Senescence]]), [[Mitochondria|mitochondrial]] dysfunction (mitochondrial dysfunction-associated senescence, MiDAS), [[Epigenetic]] disruption, and [[Proteotoxic Stress]]. SIS engages the [[p53]]-[[p21]] and [[p16]]-[[RB]] tumor suppressor pathways, leading to stable cell cycle arrest and activation of the [[SASP]].
 
 ## Connections
 
-- [[Cellular Senescence]] — SIS is a subtype of cellular senescence
+- [[Senescence]] — SIS is a subtype of cellular senescence
 - [[Oncogene-Induced Senescence]] — Related form triggered by oncogenic signaling
 - [[Mitochondrial Dysfunction]] — MiDAS is a specific form of SIS
 - [[p53]] — Key mediator of SIS
@@ -32,4 +32,4 @@ Stress-induced senescence (SIS) is a form of [[Cellular Senescence]] triggered b
 
 ## Linking Summary
 
-- New links added: [[Cellular Senescence]], [[Oncogene-Induced Senescence]], [[Mitochondrial Dysfunction]], [[p53]], [[p16]], [[SASP]], [[Genotoxic Agent]], [[Oxidative Stress]]
+- New links added: [[Senescence]], [[Oncogene-Induced Senescence]], [[Mitochondrial Dysfunction]], [[p53]], [[p16]], [[SASP]], [[Genotoxic Agent]], [[Oxidative Stress]]

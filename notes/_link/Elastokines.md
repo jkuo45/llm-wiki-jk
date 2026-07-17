@@ -116,7 +116,7 @@ List of documents that mention this entity
   - [[Reactive Oxygen Species]]: ROS upregulate MMP-12, increasing elastokine generation
   - [[Inflammation]]: Elastokines are chemotactic for monocytes and macrophages, promoting inflammatory cell recruitment
   - [[Macrophages]]: Recruited by elastokines; activated macrophages produce MMP-12 that generates more elastokines
-  - [[Cellular Senescence]]: Elastokines promote paracrine senescence in neighbouring fibroblasts
+  - [[Senescence]]: Elastokines promote paracrine senescence in neighbouring fibroblasts
   - [[Angiogenesis]]: Elastokines promote tumour angiogenesis via EBP-mediated VEGF upregulation
   - [[COPD]]: Elastokines contribute to protease-antiprotease imbalance in emphysema
   - [[Arterial Stiffness]]: Elastokines contribute to arterial stiffening by promoting ECM degradation and calcification
@@ -124,7 +124,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Elastin]], [[MMP-12]], [[MMP-9]], [[MMP-3]], [[Reactive Oxygen Species]], [[Inflammation]], [[Macrophages]], [[Cellular Senescence]], [[Angiogenesis]], [[COPD]], [[Arterial Stiffness]], [[Skin Aging]]
+  - New links added: [[Elastin]], [[MMP-12]], [[MMP-9]], [[MMP-3]], [[Reactive Oxygen Species]], [[Inflammation]], [[Macrophages]], [[Senescence]], [[Angiogenesis]], [[COPD]], [[Arterial Stiffness]], [[Skin Aging]]
   - Suggested new entity notes to create: [[Elastin-Binding Protein]], [[Galectin-3]], [[VGVAPG]]
   - Strong connections to strengthen: [[Elastokines]] ↔ [[MMP-12]], [[Elastokines]] ↔ [[Elastin]], [[Elastokines]] ↔ [[COPD]], [[Elastokines]] ↔ [[Skin Aging]]
   - Justification: Elastokines are the key signalling intermediaries that convert passive elastin degradation into an active amplification loop. The elastokine–EBP–MMP axis is the central mechanism driving the feed-forward cycle of tissue deterioration in ageing.

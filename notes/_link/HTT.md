@@ -13,7 +13,7 @@ aliases:
 
 ## Overview
 
-*HTT* encodes huntingtin (Htt), a large (~350 kDa) scaffold protein implicated in [[Vesicle Trafficking]], [[Transcription]], and [[Mitochondria|mitochondrial]] dynamics. An expanded [[CAG repeat]] (≥36) in exon 1 produces a [[Polyglutamine]] (polyQ) tract in the N-terminus, causing mutant HTT (mHTT) to misfold and aggregate. mHTT disrupts mitochondrial function, impairs [[Mitophagy]], and induces [[Oxidative Stress]], contributing to [[Cellular Senescence|senescence-like]] phenotypes in striatal neurons.
+*HTT* encodes huntingtin (Htt), a large (~350 kDa) scaffold protein implicated in [[Vesicle Trafficking]], [[Transcription]], and [[Mitochondria|mitochondrial]] dynamics. An expanded [[CAG repeat]] (≥36) in exon 1 produces a [[Polyglutamine]] (polyQ) tract in the N-terminus, causing mutant HTT (mHTT) to misfold and aggregate. mHTT disrupts mitochondrial function, impairs [[Mitophagy]], and induces [[Oxidative Stress]], contributing to [[Senescence|senescence-like]] phenotypes in striatal neurons.
 
 ## Connections
 
@@ -21,7 +21,7 @@ aliases:
 - [[Polyglutamine]] — The pathogenic repeat motif in mHTT
 - [[Mitochondria]] — mHTT disrupts mitochondrial trafficking, fission/fusion, and bioenergetics
 - [[Mitophagy]] — Impaired by mHTT aggregates
-- [[Cellular Senescence]] — mHTT induces senescence-like states in neurons and glia
+- [[Senescence]] — mHTT induces senescence-like states in neurons and glia
 
 ## Documents
 
@@ -29,4 +29,4 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Huntington's Disease]], [[Polyglutamine]], [[Mitochondria]], [[Mitophagy]], [[Cellular Senescence]]
+- New links added: [[Huntington's Disease]], [[Polyglutamine]], [[Mitochondria]], [[Mitophagy]], [[Senescence]]

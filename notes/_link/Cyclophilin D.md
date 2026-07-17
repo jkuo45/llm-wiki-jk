@@ -32,5 +32,5 @@ Cyclophilin D (CypD) is a mitochondrial matrix protein encoded by the *PPIF* gen
 
 ## Linking Summary
 
-- New links added: [[Mitochondrial Permeability Transition Pore]], [[Calcium]], [[SIRT3]], [[Alzheimer's Disease]], [[Senolytic]], [[Cellular Senescence]]
+- New links added: [[Mitochondrial Permeability Transition Pore]], [[Calcium]], [[SIRT3]], [[Alzheimer's Disease]], [[Senolytic]], [[Senescence]]
 - Suggested new entity notes to create: None

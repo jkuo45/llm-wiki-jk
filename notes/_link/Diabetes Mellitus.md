@@ -18,7 +18,7 @@ Research has shown that chronic hyperglycemia can lead to lasting changes in the
 *   **[[Histone Modification]]s**: High glucose levels can alter histone acetylation and methylation, particularly affecting genes involved in inflammation and oxidative stress (e.g., through the activity of [[SIRT1]] or [[mTOR]]).
 ## 2. Links to [[Aging]]
 Diabetes and aging share many biological hallmarks:
-*   **[[Cellular Senescence]]**: Elevated glucose promotes the accumulation of senescent cells, particularly in the vasculature and kidneys.
+*   **[[Senescence]]**: Elevated glucose promotes the accumulation of senescent cells, particularly in the vasculature and kidneys.
 *   **[[Epigenetic Clock]]**: Studies using epigenetic clocks (like [[DNAmGrimAge]]) have shown that individuals with type 2 diabetes often have a higher biological age than their chronological age.
 ## 3. Therapeutic Intersection
 Many anti-aging interventions, such as [[Metformin]] and [[Resveratrol]], were originally studied or used for their ability to improve insulin sensitivity and manage diabetes, highlighting the deep connection between metabolic health and longevity.
@@ -60,6 +60,6 @@ List of documents that mention this entity
 - **[[DNA Methylation]]**: A key mechanism by which "metabolic memory" is stored in cells.
 
 ## Linking Summary
-- New links added: [[Diabetes Mellitus]], [[Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[SIRT1]], [[mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Metformin]], [[Resveratrol]], [[Metabolic Syndromes]]
+- New links added: [[Diabetes Mellitus]], [[Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[SIRT1]], [[mTOR]], [[Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Metformin]], [[Resveratrol]], [[Metabolic Syndromes]]
 - Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]]
   - Strong connections to strengthen: Diabetes Mellitus ↔ [[Aging]], Diabetes Mellitus ↔ [[Metformin]]

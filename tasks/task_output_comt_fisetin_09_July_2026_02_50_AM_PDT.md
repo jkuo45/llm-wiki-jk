@@ -274,6 +274,6 @@ The overlap between COMT-inhibitory and senolytic concentration ranges is uncert
 - [[mTOR]]
 - [[SAH]]
 - [[SAMe]]
-- [[Cellular Senescence]]
+- [[Senescence]]
 - [[Aging]]
 - [[Pharmacokinetics]]

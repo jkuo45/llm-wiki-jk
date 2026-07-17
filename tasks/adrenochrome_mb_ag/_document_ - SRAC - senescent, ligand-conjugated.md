@@ -211,7 +211,7 @@ Bottom line: Diet provides a safe, low-level background of fisetin and supportiv
 - [[Rapamycin]]: mTOR inhibitor suppressing SASP and decoupling ROS from inflammation
 - [[Fisetin]]: Flavonoid senolytic agent exploiting the primed/stressed state
 - [[GlyNAC]]: Redox buffer protecting healthy tissue during senolytic treatment
-- [[Cellular Senescence]]: Target biological state — cell cycle arrest with SASP
+- [[Senescence]]: Target biological state — cell cycle arrest with SASP
 - [[SASP]]: Pro-inflammatory secretome targeted by rapamycin
 - [[Senolytics]]: Pharmacological class of agents selectively eliminating senescent cells
 - [[Nanoparticles]]: Delivery system for adrenochrome to improve targeting and stability
@@ -219,6 +219,6 @@ Bottom line: Diet provides a safe, low-level background of fisetin and supportiv
 
 ## Linking Summary
 
-- New links added: [[Adrenochrome]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[Cellular Senescence]], [[SASP]], [[Senolytics]], [[Senomorphics]], [[Autophagy]], [[NFκB]], [[mTOR]], [[Glutathione]], [[Oxidative Stress]], [[Inflammaging]], [[Lifespan]]
+- New links added: [[Adrenochrome]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[Senescence]], [[SASP]], [[Senolytics]], [[Senomorphics]], [[Autophagy]], [[NFκB]], [[mTOR]], [[Glutathione]], [[Oxidative Stress]], [[Inflammaging]], [[Lifespan]]
 - Suggested new entity notes to create: [[CD9]], [[uPAR]] (senescent cell surface markers for nanoparticle targeting)
-- Strong connections to strengthen: [[Adrenochrome]] ↔ [[Senolytics]], [[Adrenochrome]] ↔ [[Cellular Senescence]], [[Rapamycin]] ↔ [[SASP]], [[Fisetin]] ↔ [[Senolytics]]
+- Strong connections to strengthen: [[Adrenochrome]] ↔ [[Senolytics]], [[Adrenochrome]] ↔ [[Senescence]], [[Rapamycin]] ↔ [[SASP]], [[Fisetin]] ↔ [[Senolytics]]

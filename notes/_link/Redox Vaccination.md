@@ -97,7 +97,7 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 ## Limitations and Open Questions
 - **Duration of memory:** How long does SIRT3/MnSOD upregulation persist after a single redox vaccination pulse? Unknown.
 - **Dose calibration:** The optimal carbazochrome dose for vaccination (vs. toxicity) may vary by tissue and individual [[SIRT3]]/[[SIRT4]] ratio.
-- **Chronic exposure risk:** Repeated redox cycling could promote [[Cellular Senescence]] or [[DNA Damage]] if the hormetic window is exceeded.
+- **Chronic exposure risk:** Repeated redox cycling could promote [[Senescence]] or [[DNA Damage]] if the hormetic window is exceeded.
 - **Inter-individual variability:** Genetic polymorphisms in [[FOXO3a]], [[NRF2]], and [[SIRT3]] may shift the vaccination threshold.
 
 #
@@ -122,6 +122,6 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - [[Honokiol]] — SIRT3 activator that could serve as a positive control or adjuvant
 
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Cellular Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
+- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
 - Suggested new entity notes to create: [[Redox Memory]], [[Pharmacological Preconditioning]]
   - Strong connections to strengthen: Redox Vaccination ↔ [[SIRT3]]/[[SIRT4]] ratio, Redox Vaccination ↔ Mitohormetic Redox-Relay

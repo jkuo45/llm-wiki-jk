@@ -26,7 +26,7 @@ In COPD, oxidative stress is elevated from dual sources: exogenous (cigarette sm
 - **Antiprotease inactivation**: ROS oxidize and inactivate α₁-antitrypsin and other antiproteases, permitting uncontrolled elastase-mediated tissue destruction.
 - **NF-κB activation**: Oxidants activate [[NF-kappa B]], sustaining cytokine (TNF-α, IL-8) transcription.
 - **HDAC2 inactivation**: [[Peroxynitrite]] (formed from NO + O₂•⁻) nitrates and inactivates histone deacetylase 2, blunting the anti-inflammatory response to corticosteroids—a key reason COPD is steroid-resistant.
-- **Impaired [[DNA Repair]]** and accelerated [[Cellular Senescence]] in lung epithelium.
+- **Impaired [[DNA Repair]]** and accelerated [[Senescence]] in lung epithelium.
 - **[[Hypoxia]]**: Exacerbations worsen tissue hypoxia, further increasing [[Mitochondria]]l ROS.
 
 ## Biomarkers and End-Organ Effects
@@ -54,10 +54,10 @@ List of documents that mention this entity
 - [[Peroxynitrite]]: Nitrates HDAC2, causing corticosteroid resistance.
 - [[Emphysema]]: Protease–antioxidant imbalance destroys alveolar walls.
 - [[Pulmonary Hypertension]]: Consequence of COPD endothelial oxidative dysfunction.
-- [[Cellular Senescence]]: Oxidant-accelerated senescence of lung epithelium.
+- [[Senescence]]: Oxidant-accelerated senescence of lung epithelium.
 
 ## Linking Summary
 
 - New links added: [[DNA Repair]], [[Emphysema]], [[Hypoxia]], [[Asthma]], [[Pulmonary Hypertension]]
 - Suggested new entity notes to create: [[Immunosenescence]], [[Respiratory Burst]], [[Metabolic Syndromes]]
-- Strong connections to strengthen: [[Chronic Obstructive Pulmonary Disease]] ↔ [[Reactive Oxygen Species]], [[Chronic Obstructive Pulmonary Disease]] ↔ [[Pulmonary Hypertension]], [[Chronic Obstructive Pulmonary Disease]] ↔ [[Cellular Senescence]]
+- Strong connections to strengthen: [[Chronic Obstructive Pulmonary Disease]] ↔ [[Reactive Oxygen Species]], [[Chronic Obstructive Pulmonary Disease]] ↔ [[Pulmonary Hypertension]], [[Chronic Obstructive Pulmonary Disease]] ↔ [[Senescence]]

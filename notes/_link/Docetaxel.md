@@ -25,10 +25,10 @@ aliases: [Docetaxel, DTX, Taxotere]
 - [[Mitoxantrone]] — Alternative chemotherapeutic comparator.
 - [[Apigenin]] — Suppresses docetaxel-associated senescence chemoresistance.
 - [[Chemoresistance]] — Phenotype reversed by apigenin.
-- [[Cellular Senescence]] — Docetaxel can induce therapy-associated senescence.
+- [[Senescence]] — Docetaxel can induce therapy-associated senescence.
 
 ## Linking Summary
 
-- New links added: [[Mitoxantrone]], [[Apigenin]], [[Chemoresistance]], [[Cellular Senescence]]
+- New links added: [[Mitoxantrone]], [[Apigenin]], [[Chemoresistance]], [[Senescence]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Docetaxel]] ↔ [[Chemoresistance]]

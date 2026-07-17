@@ -31,7 +31,7 @@ Maintenance methylation is essential for cellular identity: it preserves the tis
 The efficiency and expression of DNMT1 decline as organisms [[Aging|age]].
 
 - **Epigenetic Drift:** Reduced DNMT1 activity leads to gradual loss of methylation marks over successive divisions, contributing to the global hypomethylation seen in aged tissues.
-- **[[Cellular Senescence]]**: Decreased DNMT1 levels have been linked to senescence pathways, as loss of repressive methylation can de-repress loci such as *CDKN2A* (p16INK4a).
+- **[[Senescence]]**: Decreased DNMT1 levels have been linked to senescence pathways, as loss of repressive methylation can de-repress loci such as *CDKN2A* (p16INK4a).
 
 ## Clinical Relevance
 
@@ -56,6 +56,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[DNA Methylation]], [[DNA Methyltransferase]], [[DNA Replication]], [[Aging]], [[Cellular Senescence]], [[Cell Division]], [[DNMT3a]], [[DNMT3b]], [[UHRF1]], [[Embryonic Stem Cells]], [[Genomic Imprinting]], [[X-Chromosome Inactivation]], [[Cancer]]
+- New links added: [[DNA Methylation]], [[DNA Methyltransferase]], [[DNA Replication]], [[Aging]], [[Senescence]], [[Cell Division]], [[DNMT3a]], [[DNMT3b]], [[UHRF1]], [[Embryonic Stem Cells]], [[Genomic Imprinting]], [[X-Chromosome Inactivation]], [[Cancer]]
 - Suggested new entity notes to create: [[Maintenance Methylation]], [[Hemi-methylated DNA]], [[PCNA]]
 - Strong connections to strengthen: [[DNMT1]] ↔ [[DNA Methylation]], [[DNMT1]] ↔ [[Aging]]

@@ -101,7 +101,7 @@ List of documents that mention this entity
 - [[Mitophagy]] — Selective mitochondrial autophagy
 - [[p62]] — Autophagy adapter protein
 - [[Lysosome]] — Terminal degradation compartment
-- **[[Cellular Senescence]]**: Impaired autophagy is a major driver of the senescent state.
+- **[[Senescence]]**: Impaired autophagy is a major driver of the senescent state.
 - **[[Neurodegenerative Diseases]]**: The failure of autophagy to clear protein aggregates is a hallmark of diseases like Alzheimer's.
 - [[Ivermectin]]: Induces cytostatic autophagy by blocking the [[PAK1]]/[[Akt]] axis.
 - [[Akt]]: Central regulator of autophagy via [[mTOR]].
@@ -151,11 +151,11 @@ Small and long non-coding RNAs act as "fine-tuners" of the autophagy program.
 The relationship between epigenetics and autophagy is bidirectional:
 1.  **Epigenetic changes** reduce autophagy.
 2.  **Reduced autophagy** fails to clear damaged epigenetic modifiers (like DNMTs or [[HDAC]]s).
-3.  **Accumulated modifiers** further alter the [[Epigenome]], creating a feedback loop that accelerates [[Cellular Senescence]] and age-related diseases like [[Alzheimer's Disease]] and other [[Neurodegenerative Diseases]].
+3.  **Accumulated modifiers** further alter the [[Epigenome]], creating a feedback loop that accelerates [[Senescence]] and age-related diseases like [[Alzheimer's Disease]] and other [[Neurodegenerative Diseases]].
 
 
 ## Linking Summary:
-- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[Alzheimer's Disease]], [[Neurodegenerative Diseases]].
+- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Senescence]], [[Alzheimer's Disease]], [[Neurodegenerative Diseases]].
 - Suggested new entity notes to create: [[Autophagosome]], [[Mitophagy]], [[Beclin1]], [[Atg5]].
 - Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[SIRT1]]
 
@@ -325,11 +325,11 @@ Small and long non-coding RNAs act as "fine-tuners" of the autophagy program.
 The relationship between epigenetics and autophagy is bidirectional:
 1.  **Epigenetic changes** reduce autophagy.
 2.  **Reduced autophagy** fails to clear damaged epigenetic modifiers (like DNMTs or [[HDAC]]s).
-3.  **Accumulated modifiers** further alter the [[Epigenome]], creating a feedback loop that accelerates [[Cellular Senescence]] and age-related diseases like [[Alzheimer's Disease]] and other [[Neurodegenerative Diseases]].
+3.  **Accumulated modifiers** further alter the [[Epigenome]], creating a feedback loop that accelerates [[Senescence]] and age-related diseases like [[Alzheimer's Disease]] and other [[Neurodegenerative Diseases]].
 
 
 ## Linking Summary:
-- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[Alzheimer's Disease]], [[Neurodegenerative Diseases]].
+- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Senescence]], [[Alzheimer's Disease]], [[Neurodegenerative Diseases]].
 - Suggested new entity notes to create: [[Autophagosome]], [[Mitophagy]], [[Beclin1]], [[Atg5]].
 - Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[SIRT1]]
 

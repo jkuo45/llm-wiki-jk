@@ -27,7 +27,7 @@ aliases: [TEs, Jumping genes]
 > [!important] Derepression during aging
 > TEs are silenced by [[Heterochromatin]], DNA methylation, and repressive histone marks (e.g. H3K9me3). Age-related [[Epigenetic Alterations]] and heterochromatin erosion — including declining [[SIRT6]] and loss of Piwi/KRAB-ZNF control — allow TE reactivation. Mobilized [[LINE-1]] elements cause insertional mutagenesis and [[Genomic Instability]], and their cytoplasmic cDNA activates the [[cGAS-STING Pathway]], fueling [[Inflammaging]] and the senescence-associated secretory phenotype.
 
-TE reactivation is therefore both a marker and a driver of [[Cellular Senescence]], and nucleoside reverse-transcriptase inhibitors have been explored to suppress it.
+TE reactivation is therefore both a marker and a driver of [[Senescence]], and nucleoside reverse-transcriptase inhibitors have been explored to suppress it.
 
 ## Documents
 
@@ -45,9 +45,9 @@ TE reactivation is therefore both a marker and a driver of [[Cellular Senescence
   - [[Epigenetics]]: Governs TE silencing/derepression.
   - [[cGAS-STING Pathway]]: Senses TE-derived cytoplasmic DNA.
   - [[SIRT6]]: Represses LINE-1 elements.
-  - [[Cellular Senescence]]: Promoted by TE reactivation.
+  - [[Senescence]]: Promoted by TE reactivation.
 
 ## Linking Summary
 
-  - New links added: [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Heterochromatin]], [[Epigenetics]], [[Epigenetic Alterations]], [[Endogenous Retrovirus]], [[Human Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[SIRT6]], [[Inflammaging]], [[Cellular Senescence]]
+  - New links added: [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Heterochromatin]], [[Epigenetics]], [[Epigenetic Alterations]], [[Endogenous Retrovirus]], [[Human Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[SIRT6]], [[Inflammaging]], [[Senescence]]
   - Strong connections to strengthen: Transposable Elements ↔ LINE-1; Transposable Elements ↔ Genomic Instability; Transposable Elements ↔ cGAS-STING Pathway

@@ -11,7 +11,7 @@ aliases: [NMR]
 
 ## Overview
 
-The naked mole rat (*Heterocephalus glaber*) is an extraordinarily long-lived, eusocial subterranean rodent that displays remarkable resistance to cancer and age-related disease. It has become a premier comparative model for studying [[Cellular Senescence]], genomic stability, and innate immunity. Intriguingly, naked mole rats maintain high levels of genomic instability yet exhibit muted inflammatory signaling, including restrained [[cGAS-STING Pathway]] activity — a phenotype that illuminates mechanisms of [[Neuroinflammation]] restraint and resilience.
+The naked mole rat (*Heterocephalus glaber*) is an extraordinarily long-lived, eusocial subterranean rodent that displays remarkable resistance to cancer and age-related disease. It has become a premier comparative model for studying [[Senescence]], genomic stability, and innate immunity. Intriguingly, naked mole rats maintain high levels of genomic instability yet exhibit muted inflammatory signaling, including restrained [[cGAS-STING Pathway]] activity — a phenotype that illuminates mechanisms of [[Neuroinflammation]] restraint and resilience.
 
 ## Muted cGAS-STING as a Longevity Adaptation
 
@@ -32,14 +32,14 @@ The naked mole rat offers a natural experiment in cGAS-STING restraint: its abil
   - [[cGAS-STING Pathway]]: naturally muted inflammatory output in this species
   - [[Chromatin]]: site of prolonged cGAS retention in naked mole rat
   - [[DNA Repair]]: enhanced by naked mole rat cGAS
-  - [[Cellular Senescence]]: model of delayed senescence despite instability
+  - [[Senescence]]: model of delayed senescence despite instability
   - [[Type I Interferon]]: dampened IFN-I contributes to resilience
   - [[Neuroinflammation]]: restrained relative to short-lived mammals
 
 ## Linking Summary
 
-- New links added: [[Naked Mole Rat]], [[cGAS]], [[cGAS-STING Pathway]], [[Chromatin]], [[DNA Repair]], [[Cellular Senescence]], [[Type I Interferon]], [[Neuroinflammation]]
+- New links added: [[Naked Mole Rat]], [[cGAS]], [[cGAS-STING Pathway]], [[Chromatin]], [[DNA Repair]], [[Senescence]], [[Type I Interferon]], [[Neuroinflammation]]
 - Suggested new entity notes to create: [[Naked Mole Rat|cancer resistance]], [[Naked Mole Rat|comparative longevity]]
 - Strong connections to strengthen:
-    - [[Naked Mole Rat]] ↔ [[Cellular Senescence]] (resilience model)
+    - [[Naked Mole Rat]] ↔ [[Senescence]] (resilience model)
     - [[Naked Mole Rat]] ↔ [[APOE3 Christchurch]] (parallel resilience paradigms)

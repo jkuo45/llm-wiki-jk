@@ -19,7 +19,7 @@ A typical HTS campaign begins with a defined assay (biochemical, cell-based, or 
 
 ## Applications in Epigenetics & Reprogramming
 
-In regenerative and aging research, HTS is deployed to discover small molecules that modulate [[Reprogramming]] efficiency, control [[Pluripotency]], or clear senescent cells. Notably, HTS campaigns have identified [[Senolytic Drugs]] — compounds such as navitoclax and fisetin derivatives — that selectively induce apoptosis of [[Cellular Senescence|senescent cells]] by exploiting their pro-survival networks. HTS also screens for epigenetic modulators (e.g., [[Histone Methyltransferase]] or demethylase inhibitors) and for compounds that remodel chromatin states such as [[H3K27me3]].
+In regenerative and aging research, HTS is deployed to discover small molecules that modulate [[Reprogramming]] efficiency, control [[Pluripotency]], or clear senescent cells. Notably, HTS campaigns have identified [[Senolytic Drugs]] — compounds such as navitoclax and fisetin derivatives — that selectively induce apoptosis of [[Senescence|senescent cells]] by exploiting their pro-survival networks. HTS also screens for epigenetic modulators (e.g., [[Histone Methyltransferase]] or demethylase inhibitors) and for compounds that remodel chromatin states such as [[H3K27me3]].
 
 ## Physiological & Translational Relevance
 
@@ -40,6 +40,6 @@ False positives (aggregators, fluorescent artifacts, cytotoxicity) require confi
 
 ## Linking Summary
 
-- New links added: [[Drug Discovery]], [[Reprogramming]], [[Senolytic Drugs]], [[Induced Pluripotent Stem Cells]], [[Histone Methyltransferase]], [[H3K27me3]], [[Pluripotency]], [[Cellular Senescence]], [[Cancer]]
+- New links added: [[Drug Discovery]], [[Reprogramming]], [[Senolytic Drugs]], [[Induced Pluripotent Stem Cells]], [[Histone Methyltransferase]], [[H3K27me3]], [[Pluripotency]], [[Senescence]], [[Cancer]]
 - Suggested new entity notes to create: [[CRISPR Screen]], [[Phenotypic Screening]], [[Navitoclax]]
 - Strong connections to strengthen: [[High-Throughput Screening]] ↔ [[Drug Discovery]], [[High-Throughput Screening]] ↔ [[Senolytic Drugs]]

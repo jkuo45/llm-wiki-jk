@@ -15,7 +15,7 @@ aliases:
 
 ## Overview
 
-Calcium (Ca^2+^) is a divalent cation that functions as a universal second messenger in virtually all eukaryotic cells. Cytosolic Ca^2+^ concentrations are tightly regulated through a coordinated system of channels, pumps, and exchangers localized to the plasma membrane, [[Endoplasmic Reticulum]] (ER), and [[Mitochondria]]. Mitochondrial Ca^2+^ uptake, primarily mediated by the [[MCU|mitochondrial calcium uniporter (MCU)]], plays a central role in modulating [[ATP]] production, [[Apoptosis]], and [[Cellular Senescence|senescence]].
+Calcium (Ca^2+^) is a divalent cation that functions as a universal second messenger in virtually all eukaryotic cells. Cytosolic Ca^2+^ concentrations are tightly regulated through a coordinated system of channels, pumps, and exchangers localized to the plasma membrane, [[Endoplasmic Reticulum]] (ER), and [[Mitochondria]]. Mitochondrial Ca^2+^ uptake, primarily mediated by the [[MCU|mitochondrial calcium uniporter (MCU)]], plays a central role in modulating [[ATP]] production, [[Apoptosis]], and [[Senescence|senescence]].
 
 ## Mitochondrial Calcium Handling
 
@@ -40,6 +40,6 @@ Calcium (Ca^2+^) is a divalent cation that functions as a universal second messe
 
 ## Linking Summary
 
-- New links added: [[MCU]], [[ITPR2]], [[MERCS]], [[Mitochondrial Permeability Transition Pore]], [[Endoplasmic Reticulum]], [[Oxidative Phosphorylation]], [[Apoptosis]], [[Cellular Senescence]]
+- New links added: [[MCU]], [[ITPR2]], [[MERCS]], [[Mitochondrial Permeability Transition Pore]], [[Endoplasmic Reticulum]], [[Oxidative Phosphorylation]], [[Apoptosis]], [[Senescence]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Calcium]] ↔ [[Mitochondria]] (central signaling axis in aging and disease)

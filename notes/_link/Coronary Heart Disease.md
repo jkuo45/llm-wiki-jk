@@ -21,12 +21,12 @@ DNA methylation (DNAm) is the most studied epigenetic mark in CHD and aging.
 ### 2. [[Histone Modification]]s
 Aging shifts the balance of histone marks, typically leading to a more "open" [[Chromatin]] state that allows for the expression of pro-inflammatory and pro-fibrotic genes.
 *   **Loss of Repressive Marks:** A decrease in repressive marks (like H3K27me3) is observed in aging hearts, which can trigger the reactivation of "fetal" gene programs and promote cardiac fibrosis.
-*   **[[Sirtuins]]s:** [[SIRT1]], a key anti-aging protein, declines with age. This leads to increased histone acetylation, which promotes [[Cellular Senescence]] and inflammation in the vascular wall.
+*   **[[Sirtuins]]s:** [[SIRT1]], a key anti-aging protein, declines with age. This leads to increased histone acetylation, which promotes [[Senescence]] and inflammation in the vascular wall.
 ### 3. [[Non-coding RNA]] (ncRNAs)
 Non-coding RNAs act as "fine-tuners" of the epigenetic landscape and are highly sensitive to aging.
 *   **[[MicroRNA]] (miRNAs):** Levels of "senescence-associated miRNAs" (like miR-34a) rise with age, inhibiting pro-survival pathways in cardiomyocytes and endothelial cells.
 *   **Long Non-coding RNAs (lncRNAs):** The lncRNA **ANRIL** is one of the strongest genetic/epigenetic risk factors for CHD, regulating the loci that control cell cycle progression and senescence.
-### 4. Pathophysiological Impact: [[Cellular Senescence]]
+### 4. Pathophysiological Impact: [[Senescence]]
 The convergence of these epigenetic changes leads to cellular senescence—a state where cells stop dividing but remain metabolically active, secreting pro-inflammatory cytokines ([[SASP|Senescence-Associated Secretory Phenotype]]). 
 *   In the coronary arteries, senescent endothelial cells lose their ability to repair the vessel wall, while senescent macrophages drive chronic inflammation, accelerating [[Atherosclerosis]].
 ### 5. Therapeutic Potential
@@ -50,6 +50,6 @@ List of documents that mention this entity
 - **[[Aging]]**: The dominant risk factor for CHD, characterized by profound epigenetic drift.
 
 ## Linking Summary
-- New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Cellular Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
+- New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
 - Suggested new entity notes to create: [[ANRIL]], [[Cardiac Fibrosis]], [[Vascular Smooth Muscle Cells]], [[Endothelial Dysfunction]].
   - Strong connections to strengthen: Coronary Heart Disease ↔ [[Atherosclerosis]], Coronary Heart Disease ↔ [[Aging]]

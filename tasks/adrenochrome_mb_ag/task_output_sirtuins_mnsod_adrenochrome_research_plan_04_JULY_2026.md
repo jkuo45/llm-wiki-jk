@@ -98,7 +98,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
    - Compare to [[MDL-800]] as positive control; assess additivity/synergy via combination index (CI) analysis.
 
 - **[[DNA Repair|DNA Repair]] Kinetics in Senescent [[Fibroblast|Fibroblasts]]:**
-   - Induce [[Cellular Senescence|senescence]] in IMR-90 [[Fibroblast|fibroblasts]] via [[Ionizing Radiation|ionizing radiation]] (10 Gy).
+   - Induce [[Senescence|senescence]] in IMR-90 [[Fibroblast|fibroblasts]] via [[Ionizing Radiation|ionizing radiation]] (10 Gy).
    - Treat cells with vehicle, adrenochrome (10 nM), [[MDL-800]] (10 μM), or combination.
    - Measure:
      - [[γ-H2AX]] and [[53BP1]] foci clearance ([[Immunofluorescence|immunofluorescence]], 0–24 h post-irradiation).
@@ -225,7 +225,7 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
 ### Proposed Experimental Design
 
 - **miRNA Profiling in Senescent Cells:**
-   - Induce [[Cellular Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1β|IL-1β]] (10 ng/mL, 7 days).
+   - Induce [[Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1β|IL-1β]] (10 ng/mL, 7 days).
    - Treat with sub-toxic adrenochrome (10 nM, 48 h).
    - Perform small [[RNA-seq]] to quantify changes in [[miR-217]], [[miR-543]], [[miR-378]], and all known age-associated miRs.
    - Validate top hits by [[TaqMan|TaqMan]] [[qPCR]].

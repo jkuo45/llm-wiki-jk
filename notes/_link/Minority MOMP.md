@@ -25,7 +25,7 @@ aliases: [Minority MOMP, miMOMP, sublethal MOMP]
 
 ## Role in Senescence
 
-- miMOMP is a critical link between [[Apoptosis]] and [[Cellular Senescence]]: damaged cells survive and instead broadcast their stressed state through the SASP.
+- miMOMP is a critical link between [[Apoptosis]] and [[Senescence]]: damaged cells survive and instead broadcast their stressed state through the SASP.
 - Released mtDNA drives a chronic, type I interferon–biased SASP that sustains [[Inflammaging]].
 - By keeping the cell alive but inflammatory, miMOMP explains how senescent cells accumulate despite possessing active apoptotic machinery.
 - Interrupting miMOMP–cGAS–STING signaling is a strategy to blunt the senescence phenotype without killing the cell (senomorphic) or to sensitize it to [[Senolytics]].

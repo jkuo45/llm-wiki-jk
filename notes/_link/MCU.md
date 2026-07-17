@@ -15,7 +15,7 @@ aliases:
 
 ## Overview
 
-The mitochondrial calcium uniporter (MCU) is a Ca^2+^ selective ion channel located in the inner [[Mitochondria|mitochondrial]] membrane that mediates Ca^2+^ uptake from the intermembrane space into the matrix. MCU is the primary route for mitochondrial Ca^2+^ entry, driven by the negative [[Mitochondrial Membrane Potential]] (ΔΨm). It plays essential roles in [[ATP]] production, [[Apoptosis]], [[Cellular Senescence|senescence]], and [[Calcium]] homeostasis.
+The mitochondrial calcium uniporter (MCU) is a Ca^2+^ selective ion channel located in the inner [[Mitochondria|mitochondrial]] membrane that mediates Ca^2+^ uptake from the intermembrane space into the matrix. MCU is the primary route for mitochondrial Ca^2+^ entry, driven by the negative [[Mitochondrial Membrane Potential]] (ΔΨm). It plays essential roles in [[ATP]] production, [[Apoptosis]], [[Senescence|senescence]], and [[Calcium]] homeostasis.
 
 ## Role in Cellular Senescence
 
@@ -32,5 +32,5 @@ The mitochondrial calcium uniporter (MCU) is a Ca^2+^ selective ion channel loca
 
 ## Linking Summary
 
-- New links added: [[Calcium]], [[ITPR2]], [[Mitochondrial Membrane Potential]], [[Mitochondrial Permeability Transition Pore]], [[MERCS]], [[Cellular Senescence]]
+- New links added: [[Calcium]], [[ITPR2]], [[Mitochondrial Membrane Potential]], [[Mitochondrial Permeability Transition Pore]], [[MERCS]], [[Senescence]]
 - Suggested new entity notes to create: None

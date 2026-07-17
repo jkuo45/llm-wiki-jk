@@ -27,7 +27,7 @@ By determining which proteins are made and in what amount, translation converts 
 
 ## Pathology & Research Relevance
 
-Dysregulated translation underlies [[Cancer]], where oncogenic [[RAS]]/PI3K–AKT–mTOR signaling drives global and mRNA-specific upregulation supporting proliferation. Mutations in ribosomal proteins and translation factors cause ribosomopathies; viral hijacking of the translational apparatus is central to infection. Translation inhibitors (e.g., cycloheximide, rapamycin via mTOR) are research and therapeutic tools. Conversely, translational reprogramming during cellular [[Reprogramming]] and in [[Induced Pluripotent Stem Cells]] is an active field, as is the interplay between translation and [[Cellular Senescence]].
+Dysregulated translation underlies [[Cancer]], where oncogenic [[RAS]]/PI3K–AKT–mTOR signaling drives global and mRNA-specific upregulation supporting proliferation. Mutations in ribosomal proteins and translation factors cause ribosomopathies; viral hijacking of the translational apparatus is central to infection. Translation inhibitors (e.g., cycloheximide, rapamycin via mTOR) are research and therapeutic tools. Conversely, translational reprogramming during cellular [[Reprogramming]] and in [[Induced Pluripotent Stem Cells]] is an active field, as is the interplay between translation and [[Senescence]].
 
 ## Connections
 
@@ -40,6 +40,6 @@ Dysregulated translation underlies [[Cancer]], where oncogenic [[RAS]]/PI3K–AK
 
 ## Linking Summary
 
-- New links added: [[Ribosome]], [[Gene Expression]], [[mRNA]], [[Protein Synthesis]], [[Transcription]], [[Cell Cycle]], [[G1 Phase]], [[let-7 microRNA]], [[Cancer]], [[Induced Pluripotent Stem Cells]], [[Reprogramming]], [[Cellular Senescence]]
+- New links added: [[Ribosome]], [[Gene Expression]], [[mRNA]], [[Protein Synthesis]], [[Transcription]], [[Cell Cycle]], [[G1 Phase]], [[let-7 microRNA]], [[Cancer]], [[Induced Pluripotent Stem Cells]], [[Reprogramming]], [[Senescence]]
 - Suggested new entity notes to create: [[mTORC1]], [[Elongation Factor]], [[Ribosomopathy]]
 - Strong connections to strengthen: [[Translation]] ↔ [[Gene Expression]], [[Translation]] ↔ [[Ribosome]]

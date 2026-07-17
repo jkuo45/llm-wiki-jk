@@ -105,7 +105,7 @@ List of documents that mention this entity
 - [[p53]] — stabilized by nutlin 3a to suppress SASP
 - [[Rapamycin]] — key senomorphic agent inhibiting mTOR-dependent SASP
 - [[Metformin]] — senomorphic agent inhibiting NF-κB
-- [[Cellular Senescence]] — the cellular state being modulated
+- [[Senescence]] — the cellular state being modulated
 - [[Aging]] — age-related accumulation of senescent cells is the primary indication
 - [[Inflammaging]] — chronic low-grade inflammation senomorphics aim to reduce
 - [[Paracrine Senescence]] — suppressed by reducing SASP output

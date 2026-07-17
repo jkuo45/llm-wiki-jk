@@ -18,14 +18,14 @@ aliases:
 
 ## Connection to RCM and Aging
 
-Within the [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], repeated recruitment of modifiers such as [[SIRT6]] and [[HDAC1]] to [[Double-Strand Break|DNA repair sites]] can disrupt their silencing function, de-repressing retrotransposons. This contributes to genomic instability and inflammation during aging and [[Cellular Senescence|senescence]].
+Within the [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], repeated recruitment of modifiers such as [[SIRT6]] and [[HDAC1]] to [[Double-Strand Break|DNA repair sites]] can disrupt their silencing function, de-repressing retrotransposons. This contributes to genomic instability and inflammation during aging and [[Senescence|senescence]].
 
 ## Connections
 
   - [[SIRT6]]: Heterochromatin-associated sirtuin that represses retrotransposons.
   - [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]: Loss of silencing as a downstream consequence.
   - [[LINE-1]]: A representative human retrotransposon.
-  - [[Cellular Senescence]]: State in which de-repression fuels inflammation.
+  - [[Senescence]]: State in which de-repression fuels inflammation.
 
 ## Documents
 
@@ -34,6 +34,6 @@ Within the [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], repeated 
 
 ## Linking Summary
 
-  - New links added: [[Chromatin Modifiers]], [[LINE-1]], [[SIRT6]], [[HDAC1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Double-Strand Break]], [[Cellular Senescence]]
+  - New links added: [[Chromatin Modifiers]], [[LINE-1]], [[SIRT6]], [[HDAC1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Double-Strand Break]], [[Senescence]]
   - Suggested new entity notes to create: [[Chromatin Modifiers]]
   - Strong connections to strengthen: [[Retrotransposon]] ↔ [[SIRT6]]
