@@ -26,7 +26,7 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 ## Maintenance
 
 - Last updated: 16_July_2026 12:30 PM PDT
-- Total count of entities: 49
+- Total count of entities: 67
 
 ## Documents
 
@@ -97,3 +97,21 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[Neurofibrillary Tangles]]                             | 16_July_2026 12:30 PM PDT | Protein                |      5      |     -1      | Hyperphosphorylated tau aggregates in AD; linked to mitochondrial-senescence crosstalk. |
 | [[Stress-Induced Senescence]]                           | 16_July_2026 12:30 PM PDT | Biological Process     |      9      |     -1      | Senescence triggered by genotoxic/mitochondrial/oxidative stress; major subtype. |
 | [[Flavonoid]]                                           | 16_July_2026 12:30 PM PDT | Chemical Class         |      4      |      0      | Polyphenolic class; quercetin, fisetin are senolytics sourced from flavonoids. |
+| [[Citric Acid Cycle]]                                  | 16_July_2026 12:30 PM PDT | Metabolic Pathway      |      4      |      0      | TCA cycle generating NADH/NAD+; its flux sets the NAD+/NADH ratio perturbed in senescence. |
+| [[Malate Dehydrogenase]]                               | 16_July_2026 12:30 PM PDT | Enzyme                 |      3      |      0      | Oxaloacetate↔malate interconversion; cytosolic MDH1 loss lowers NAD+ and induces senescence. |
+| [[Malate-Aspartate Shuttle]]                           | 16_July_2026 12:30 PM PDT | Metabolic Pathway      |      3      |      0      | Cytosolic-mitochondrial NADH shuttle; blocking it with aminooxyacetate induces senescence. |
+| [[Malate]]                                             | 16_July_2026 12:30 PM PDT | Metabolite             |      3      |      0      | TCA/shuttle intermediate; its NAD+-linked equilibrium governs senescence. |
+| [[Oxaloacetate]]                                       | 16_July_2026 12:30 PM PDT | Metabolite             |      3      |      0      | TCA entry intermediate; oxaloacetate-malate node sets cytosolic NAD+/NADH. |
+| [[Glyceraldehyde 3-Phosphate]]                         | 16_July_2026 12:30 PM PDT | Metabolite             |      3      |      0      | Glycolytic triose converted by GAPDH using NAD+; flux constrained in senescence. |
+| [[1,3-Bisphosphoglycerate]]                            | 16_July_2026 12:30 PM PDT | Metabolite             |      3      |      0      | High-energy glycolytic intermediate; its NAD+-dependent formation falls in senescence. |
+| [[Cyclin A]]                                           | 16_July_2026 12:30 PM PDT | Cell-Cycle Protein     |      4      |      0      | S/G2 cyclin; HuR-stabilized mRNA downregulated in senescence, aiding arrest. |
+| [[Cyclin B]]                                           | 16_July_2026 12:30 PM PDT | Cell-Cycle Protein     |      4      |      0      | G2/M cyclin; HuR-stabilized mRNA downregulated in senescence, aiding arrest. |
+| [[c-Fos]]                                              | 16_July_2026 12:30 PM PDT | Transcription Factor   |      4      |      0      | AP-1 proto-oncogene; HuR-stabilized mRNA downregulated in senescence, aiding arrest. |
+| [[CpG Islands]]                                        | 16_July_2026 12:30 PM PDT | Genomics               |      4      |     -1      | Unmethylated mtDNA CpG motifs recognized by TLR9, driving SASP inflammation. |
+| [[Damage-Associated Molecular Patterns]]               | 16_July_2026 12:30 PM PDT | Innate Immunity         |      6      |     -1      | Mitochondrial DAMPs (mtDNA, cardiolipin, TFAM) drive cGAS-STING/NLRP3 SASP. |
+| [[CCCP]]                                               | 16_July_2026 12:30 PM PDT | Chemical Compound      |      4      |      0      | Mitochondrial uncoupler; depletes mitochondria and abrogates senescence/SASP. |
+| [[Aminooxyacetate]]                                    | 16_July_2026 12:30 PM PDT | Chemical Compound      |      3      |      0      | Malate-aspartate shuttle inhibitor; lowers cytosolic NAD+/NADH and induces senescence. |
+| [[S-Nitrosoglutathione Reductase]]                     | 16_July_2026 12:30 PM PDT | Enzyme                 |      4      |     -1      | GSNOR; reduced activity hyper-nitrosylates Parkin, impairing mitophagy in senescence. |
+| [[LeucoMB]]                                            | 16_July_2026 12:30 PM PDT | Metabolite             |      3      |      1      | Reduced methylene blue; donates electrons to complex IV, enhancing mitochondria and delaying senescence. |
+| [[Mesenchymal Stem Cells]]                             | 16_July_2026 12:30 PM PDT | Cell Type              |      5      |      1      | MSC mitochondria reverse senescence; mesenchymal state acquired during EndoMT. |
+| [[Plasmacytoid Dendritic Cells]]                       | 16_July_2026 12:30 PM PDT | Cell Type              |      4      |     -1      | pDCs internalize TFAM-mtDNA via RAGE/TLR9, producing inflammatory factors in senescence. |
