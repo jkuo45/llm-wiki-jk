@@ -9,8 +9,8 @@ updated: 2026-07-06
 
 ## Maintenance
 
-- Last updated: 04_July_2026 08:00 PM PDT
-- Total count of entities: 73
+- Last updated: 17_July_2026 10:35 AM PDT
+- Total count of entities: 75
 
 This directory contains notes and research on **oxidative stress**, its generation via reactive oxygen species (ROS), mitochondrial function, and enzymes such as [[NADPH Oxidase]] and [[Myeloperoxidase]]. It covers the resulting biochemical effects (lipid peroxidation, DNA damage, protein oxidation) and its **dual role** as both a source of damage and an essential cellular signal.
 
@@ -158,3 +158,5 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[VCAM-1]]                                    | 04_July_2026 08:00 PM | Protein             | 7           | -1          | Adhesion molecule; its expression is a marker of oxidative vascular stress.             |
 | [[Vitamin E]]                     | 27_May_2026 11:14 AM | Chemical Compound   | 9           | 1           | Primary lipid-soluble antioxidant protecting membranes.                                 |
 | [[Xanthine Oxidase]]                          | 04_July_2026 08:00 PM | Enzyme              | 9           | 0           | Enzyme that generates superoxide; involved in gout and vascular damage.                 |
+| [[Lipid peroxyl radical]]                     | 17_July_2026 10:35 AM | Chemical Compound   | 10          | -1          | Chain-propagating species in lipid peroxidation; formed when L• reacts with O₂.         |
+| [[Lipid hydroperoxide]]                       | 17_July_2026 10:35 AM | Chemical Compound   | 10          | -1          | Primary stable product of lipid peroxidation; accumulates in ferroptosis.               |

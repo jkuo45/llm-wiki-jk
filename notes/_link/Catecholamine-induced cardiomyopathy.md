@@ -29,9 +29,13 @@ Clinical features include chest pain, dyspnea, and acute heart failure; ECG show
 - [[Oxidative Stress]] - key downstream mechanism of catecholamine toxicity
 - [[Mitochondria]] - site of ROS generation and energy failure in injury
 - [[Pheochromocytoma]] - common endocrine cause of the syndrome
+- [[Takotsubo Cardiomyopathy]] - prototypical stress-induced form; terms often used synonymously
+- [[Lipid Peroxidation]] - downstream execution mechanism via adrenochrome redox cycling
+- [[Adrenochrome]] - redox-cycling *o*-quinone that amplifies lipid peroxidation in the myocardium
+- [[Aminochromes]] - class of catecholamine oxidation products including adrenochrome, sharing redox-cycling toxicity
 
 ## Linking Summary
 
-- New links added: [[Catecholamines]], [[Norepinephrine]], [[Cardiomyopathy]], [[Oxidative Stress]], [[Mitochondria]], [[Pheochromocytoma]]
-- Suggested new entity notes to create: [[Takotsubo Cardiomyopathy]], [[Contraction-band Necrosis]]
-  - Strong connections to strengthen: Catecholamine-induced cardiomyopathy ↔ Oxidative Stress
+- New links added: [[Takotsubo Cardiomyopathy]], [[Lipid Peroxidation]], [[Adrenochrome]], [[Aminochromes]]
+- Suggested new entity notes to create: [[Contraction-band Necrosis]]
+- Strong connections to strengthen: [[Catecholamine-induced cardiomyopathy]] ↔ [[Oxidative Stress]], [[Catecholamine-induced cardiomyopathy]] ↔ [[Lipid Peroxidation]], [[Catecholamine-induced cardiomyopathy]] ↔ [[Adrenochrome]]

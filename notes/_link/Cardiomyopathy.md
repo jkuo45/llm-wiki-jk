@@ -41,7 +41,7 @@ aliases: []
 ## Linking Summary
 
 - New links added: [[Cardiomyocyte]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Catecholamine-induced cardiomyopathy]], [[Catecholamine]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]]
-- Suggested new entity notes to create: [[Takotsubo Cardiomyopathy]], [[Natriuretic Peptides]]
+- Suggested new entity notes to create: [[Natriuretic Peptides]]
 - Strong connections to strengthen: [[Cardiomyopathy]] ↔ [[Heart Failure]], [[Cardiomyopathy]] ↔ [[Catecholamine-induced cardiomyopathy]]
 
 Justification: Heart failure is the shared endpoint and catecholamine-induced cardiomyopathy the vault-relevant subtype; takotsubo and natriuretic peptides are common referents lacking notes.
