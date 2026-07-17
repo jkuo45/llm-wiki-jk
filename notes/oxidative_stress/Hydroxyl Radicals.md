@@ -4,7 +4,7 @@ description: Hydroxyl radicals ($\bullet OH$) are the most reactive and destruct
   species among all reactive oxygen species (ROS) in biological systems. They have
   a very short half-life and react instantly wi...
 created: 2026-05-09
-updated: 2026-07-04
+updated: 2026-07-17
 tags:
   - oxidative-stress
   - ros
@@ -37,6 +37,10 @@ Because hydroxyl radicals react at diffusion-limited rates ($k \approx 10^9$–$
 ## DNA Damage and Mutagenesis
 Hydroxyl radicals attack both the deoxyribose backbone and purine/pyrimidine bases. Hydrogen abstraction from the C4' position of deoxyribose produces a carbon-centered sugar radical that leads to single-strand breaks. Attack on guanine at C8 generates 8-oxodG, which mismatches with adenine during replication, causing G→T transversions — a mutational signature found in [[p53]] mutations in lung, breast, and colorectal cancers. Hydroxyl radicals also produce thymine glycol, 5-hydroxycytosine, and 8-hydroxyadenine, each with distinct miscoding properties. The [[DNA Repair]] enzyme [[OGG1]] (8-oxoguanine glycosylase) excises 8-oxodG via the base excision repair (BER) pathway; polymorphisms in OGG1 are associated with elevated cancer risk. When repair capacity is overwhelmed, accumulated hydroxyl radical-induced lesions drive [[Genomic Instability]], a hallmark of [[Cancer]] and [[Aging]].
 
+## Role in Adrenochrome Formation
+
+Hydroxyl radical is a potent oxidant that participates in the radical chain process of [[Epinephrine]] [[Oxidation]], driving the formation of [[Adrenochrome]] from adrenaline. This creates a positive feedback loop: [[Adrenochrome]] redox cycling generates [[Superoxide Radicals]] and [[Hydrogen Peroxide]], which via [[Fenton Reaction|Fenton chemistry]] produce more hydroxyl radicals, accelerating further catecholamine oxidation. This mechanism is central to [[Catecholamine-induced cardiomyopathy]] and [[Takotsubo Cardiomyopathy]], where catecholamine surge → hydroxyl radical formation → [[Lipid Peroxidation]] drives myocardial injury.
+
 ## Clinical and Pathological Significance
 Hydroxyl radicals are implicated in the pathogenesis of [[Ischemia-reperfusion Injury]], where reintroduction of O₂ after hypoxia provides [[Hydrogen Peroxide]] that reacts with the elevated pool of cytosolic Fe²⁺ liberated from damaged [[Mitochondria]] and degraded ferritin. In [[Neurodegenerative Diseases]], iron accumulation in the [[Substantia Nigra]] (in [[Parkinson's Disease]]) and in senile plaques (in [[Alzheimer's Disease]]) provides local catalysts for hydroxyl radical generation, contributing to neuronal loss. Chelation therapy with deferoxamine or the more brain-permeable deferiprone is under investigation as a strategy to limit hydroxyl radical-mediated neurotoxicity. In [[Atherosclerosis]], iron deposition within the arterial wall promotes LDL oxidation via hydroxyl radicals, accelerating plaque progression. The extreme reactivity of hydroxyl radicals makes direct scavenging impractical; therapeutic strategies therefore focus on upstream prevention — reducing [[Hydrogen Peroxide]] via [[Catalase]] and [[Glutathione Peroxidase]], sequestering transition metals, and limiting [[Superoxide Radicals]] production at its [[Mitochondria|mitochondrial]] and enzymatic sources.
 
@@ -47,10 +51,14 @@ List of documents that mention this entity
   - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
     - Superoxide Radicals (O 2 •−), Hydrogen Peroxide (H 2 O 2), Hydroxyl Radicals (•OH), and Singlet Oxygen (1 O 2) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[, \].
 
+  - [[task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026|Adrenochrome → Lipid Peroxidation Bridge]]
+    - Task output analyzing the mechanistic bridge between adrenochrome redox cycling and lipid peroxidation, identifying the hydroxyl radical as the direct chemical link between these processes.
+
 
 ## Connections
 - [[Oxidative Stress]]: The terminal and most harmful mediator of oxidative damage.
 - [[Hydrogen Peroxide]]: The primary precursor via transition metal catalysis.
+- [[Adrenochrome]]: Both promotes and is promoted by hydroxyl radical in a feed-forward loop via catecholamine oxidation and redox cycling.
 - [[Antioxidants]]: Hard to neutralize directly due to their extreme reactivity; defense relies on preventing their formation (e.g., via [[Catalase]] or metal sequestration).
 - [[Genomic Instability]]: Hydroxyl radical-induced DNA damage is a direct driver of genomic mutations.
 - [[p53]]: Frequently mutated at guanine residues susceptible to hydroxyl radical attack.

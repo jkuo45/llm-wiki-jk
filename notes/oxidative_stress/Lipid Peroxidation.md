@@ -2,7 +2,7 @@
 title: Peroxidation
 description: The oxidative degradation of lipids, or the formation of peroxides.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-17
 tags:
   - oxidative-stress
   - cell-membrane
@@ -41,6 +41,9 @@ List of documents that mention this entity
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - In addition, SIRT3 reduced ROS and Lipid Peroxidation by improving mitochondrial function via deacetylation of LKB1 and activation of AMPK. As previously mentioned, a feedback loop may exist between AMPK and SIRT3.
+
+  - [[task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026|Adrenochrome → Lipid Peroxidation Bridge]]
+    - Mechanistic bridge analysis confirming that the direct adrenochrome → ROS → hydroxyl radical → PUFA hydrogen abstraction route is chemically robust but underconnected in the wiki graph; proposes adrenochrome as a dual ferroptosis inducer.
 
 
 ## Connections
