@@ -19,6 +19,8 @@ source: graphify graph analysis + web research (PubMed 33010451, PMC 6555258, Na
 > Research synthesis identifying missing connections between the CD38 (community 78) and SARM1 (community 101) traces in the wiki knowledge graph.
 > Date: 17_JUL_2026
 
+> **STATUS UPDATE (17_JUL_2026):** Gap 1 is now RESOLVED in the current graph build. A direct edge `link_cd38 → link_sarm1` exists, and both nodes share `link_nad` (NAD+) and `link_cadpr` (cADPR) as neighbors. Full updated trace: `task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md`. Gaps 2–7 (NMN bridge, CZ-48, compartmentalization, consumer hierarchy, macrophage overlap) remain valid as AMBIGUOUS/hypothesized research directions.
+
 ## Executive Summary
 
 The graph has **no direct edge** between CD38 and SARM1 (graphify path returns "No path found"). Yet the published literature shows extensive mechanistic overlap: both are NAD+ glycohydrolases with nearly identical catalytic activities, both produce cADPR from NAD+, both have base-exchange activity to generate NAADP, and they are metabolically bridged by the **NMN** node — CD38 degrades NMN extracellularly, while SARM1 is activated by NMN accumulation intracellularly.
