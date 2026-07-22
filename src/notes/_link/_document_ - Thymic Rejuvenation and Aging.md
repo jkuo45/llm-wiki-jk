@@ -6,7 +6,7 @@ author:
   - "[[Gregory D Sempowski]]"
 published:
 created: 2026-07-10
-description: "The thymus is a vital organ for homeostatic maintenance of the peripheral immune system. It is within this mediastinal tissue that T cells develop and are extensively educated and exported to the periphery for establishment of a functional and ..."
+description: "The thymus is a vital organ for homeostatic maintenance of the peripheral immune system, where T cells develop and are educated before export to the periphery. Thymic involution with age reduces immune efficacy and increases susceptibility to infection, autoimmunity, and cancer. This review discusses thymic rejuvenation strategies including sex steroid ablation, cytokine therapy (IL-7, KGF, IL-22), and hormone therapy (growth hormone, ghrelin)."
 tags:
   - "clippings"
 ---

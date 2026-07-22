@@ -1,6 +1,6 @@
 ---
 title: Uric Acid
-description: Uric Acid (UA, 2,6,8-trihydroxypurine) is the end-product of purine metabolism in humans, produced by Xanthine Oxidase—mediated oxidation of hypoxanthine and xanthine. It functions as both a major ...
+description: Uric acid (UA, 2,6,8-trihydroxypurine) is the end-product of purine metabolism in humans, produced by xanthine oxidase-mediated oxidation of hypoxanthine and xanthine. It functions as both a major endogenous antioxidant in plasma and, at elevated concentrations, a pro-oxidant and crystallizing agent that activates the NLRP3 inflammasome. Hyperuricemia is an independent risk factor for gout, cardiovascular disease, and metabolic syndrome.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

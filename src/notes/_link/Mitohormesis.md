@@ -1,6 +1,6 @@
 ---
 title: Mitohormesis
-description: Mitohormesis is a biological process where low-level mitochondrial stress (e.g., mild Oxidative Stress) triggers adaptive cytoprotective responses that increase resilience and lifespan. Exercise...
+description: Mitohormesis is a biological process where low-level mitochondrial stress triggers adaptive cytoprotective responses that increase resilience and lifespan. Key mitohormetic interventions include exercise, caloric restriction, and metformin. The response is mediated through the Integrated Stress Response (DELE1-OMA1-HRI), UPRmt, and mitokine signaling via GDF15 and FGF21.
 created: 2026-07-04
 updated: 2026-07-22
 tags:

@@ -8,7 +8,7 @@ author:
   - "[[Judith Campisi]]"
 published:
 created: 2026-07-10
-description: "Cellular senescence is a tumor-suppressive mechanism that permanently arrests cells at risk for malignant transformation. However, accumulating evidence shows that senescent cells can have deleterious effects on the tissue microenvironment. The most ..."
+description: "Cellular senescence is a tumor-suppressive mechanism that permanently arrests cells at risk for malignant transformation. However, senescent cells can have deleterious effects on the tissue microenvironment through the acquisition of a Senescence-Associated Secretory Phenotype (SASP). This phenotype turns senescent fibroblasts into proinflammatory cells that secrete cytokines, chemokines, and proteases capable of promoting tumor progression."
 tags:
   - "clippings"
 ---

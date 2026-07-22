@@ -1,6 +1,6 @@
 ---
 title: IL-1b
-description: Interleukin-1 beta (IL-1b) is a cytokine protein that is an important mediator of the inflammatory response. Its production is often upregulated during chronic Inflammation and is closely linked wi...
+description: Interleukin-1 beta (IL-1β) is a potent pro-inflammatory cytokine and a key component of the Senescence-Associated Secretory Phenotype (SASP). It is processed by the NLRP3 inflammasome and activates NF-κB signaling to drive chronic inflammation in aging and disease. Elevated IL-1β contributes to inflammaging, atherosclerosis, and neurodegenerative conditions.
 created: 2026-05-09
 updated: 2026-07-11
 tags:

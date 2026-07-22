@@ -8,7 +8,7 @@ author:
   - "Paul García"
 published: 2013-09-11
 created: 2026-07-14
-description: "Honokiol is a poly-phenolic compound that exerts neuroprotective properties through a variety of mechanisms. It has therapeutic potential in anxiety, pain, cerebrovascular injury, epilepsy, and cognitive disorders including Alzheimer's disease. It ..."
+description: "Honokiol is a poly-phenolic compound that exerts neuroprotective properties through GABA-A receptor modulation, preservation of mitochondrial function, and inhibition of NF-κB-mediated inflammation. It has therapeutic potential in anxiety, pain, cerebrovascular injury, epilepsy, and cognitive disorders including Alzheimer's disease. This review summarizes the neuroprotective and anesthetic mechanisms of this Magnolia-derived lignan."
 tags:
   - clippings
 ---

@@ -6,7 +6,7 @@ author:
   - "[[Jeffery R Stout]]"
 published:
 created: 2026-06-26
-description: Although creatine has been mostly studied as an ergogenic aid for exercise, training, and sport, several health and potential therapeutic benefits have been reported. This is because creatine plays a critical role in cellular metabolism, ...
+description: Although creatine has been mostly studied as an ergogenic aid for exercise and sport, several health and therapeutic benefits have been reported. Creatine plays a critical role in cellular metabolism, particularly during metabolically stressed states, and limitations in creatine transport or storage can impair metabolism. This systematic review assesses the evidence for creatine supplementation in promoting general health, managing chronic disease, and aiding recovery from injury.
 tags:
   - "clippings"
 ---
