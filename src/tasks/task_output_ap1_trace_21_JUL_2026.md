@@ -24,23 +24,23 @@ updated: 2026-07-21
 
 ## Direct Connections (EXTRACTED — from wiki links)
 
-| Neighbor | Relation | Notes |
-|---|---|---|
-| [[SASP\|Senescence-Associated Secretory Phenotype]] | references (bidirectional) | AP-1 drives SASP enhancers |
-| [[NF-κB]] | references (bidirectional) | Co-regulator of inflammatory SASP genes |
-| [[BRD4]] | references | Co-binds H3K27ac at SASP super-enhancers |
-| [[cGAS-STING Pathway]] | references | Upstream DNA-sensing pathway to SASP |
-| [[IL-6]] | references | Core SASP cytokine, AP-1 target |
-| [[IL-8]] | references | Core SASP chemokine, AP-1 target |
-| [[TNFα]] | references | AP-1 activating cytokine |
-| [[Catalase]] | references | Antioxidant enzyme, AP-1 target |
-| [[Oxidative Stress]] | references (bidirectional) | ROS activate AP-1 via JNK/p38 |
-| [[RAGE]] | references | AGE-RAGE → MAPK → AP-1 axis |
-| [[Cellular Senescence]] | references | AP-1 is a pioneer factor for senescence program |
-| [[Replicative Senescence]] | references | AP-1 opens RS SASP enhancers |
-| [[Oncogene-Induced Senescence]] | references | AP-1 pioneer factor in OIS |
-| [[Senescence-Associated Secretory Phenotype\|The senescence-associated secretory phenotype...]] | references | Document link |
-| [[_document_ - The role of the dynamic epigenetic landscape in senescence...]] | references | Document link |
+| Neighbor                                                                                        | Relation                   | Notes                                           |
+| ----------------------------------------------------------------------------------------------- | -------------------------- | ----------------------------------------------- |
+| [[SASP\|Senescence-Associated Secretory Phenotype]]                                             | references (bidirectional) | AP-1 drives SASP enhancers                      |
+| [[NF-κB]]                                                                                       | references (bidirectional) | Co-regulator of inflammatory SASP genes         |
+| [[BRD4]]                                                                                        | references                 | Co-binds H3K27ac at SASP super-enhancers        |
+| [[cGAS-STING Pathway]]                                                                          | references                 | Upstream DNA-sensing pathway to SASP            |
+| [[IL-6]]                                                                                        | references                 | Core SASP cytokine, AP-1 target                 |
+| [[IL-8]]                                                                                        | references                 | Core SASP chemokine, AP-1 target                |
+| [[TNFα]]                                                                                        | references                 | AP-1 activating cytokine                        |
+| [[Catalase]]                                                                                    | references                 | Antioxidant enzyme, AP-1 target                 |
+| [[Oxidative Stress]]                                                                            | references (bidirectional) | ROS activate AP-1 via JNK/p38                   |
+| [[RAGE]]                                                                                        | references                 | AGE-RAGE → MAPK → AP-1 axis                     |
+| [[Cellular Senescence]]                                                                         | references                 | AP-1 is a pioneer factor for senescence program |
+| [[Replicative Senescence]]                                                                      | references                 | AP-1 opens RS SASP enhancers                    |
+| [[Oncogene-Induced Senescence]]                                                                 | references                 | AP-1 pioneer factor in OIS                      |
+| [[Senescence-Associated Secretory Phenotype\|The senescence-associated secretory phenotype...]] | references                 | Document link                                   |
+| [[_document_ - The role of the dynamic epigenetic landscape in senescence...]]                  | references                 | Document link                                   |
 
 Full neighbor list (66 total): see `graphify explain "AP-1"`.
 
@@ -90,7 +90,7 @@ AP-1 operates as a **stress-responsive pioneer transcription factor** at the int
 ## Links to Explore
 
 - [[AP-1]] — entity note
-- [[_link/SASP|Senescence-Associated Secretory Phenotype]]
+- [[SASP|Senescence-Associated Secretory Phenotype]]
 - [[NF-κB]] — AP-1's co-regulator in SASP
 - [[BRD4]] — co-binder at AP-1-opened enhancers
 - [[HDAC4]] — buffer restraining AP-1 in young cells

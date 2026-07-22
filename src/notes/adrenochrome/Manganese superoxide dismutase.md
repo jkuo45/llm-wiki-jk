@@ -23,7 +23,7 @@ MnSOD sits at the heart of a paradox central to [[Mitohormesis]]. Genetic or pha
 > [!info] Hormetic threshold
 > Mild MnSOD deficit signals "mitochondrial stress" without causing collapse, engaging the same adaptive circuitry triggered by calorie restriction and other longevity interventions.
 
-Sirtuin pathways ([[Sirtuins]]) and [[notes/oxidative_stress/Lipid Peroxidation]] of cardiolipin further modulate MnSOD-dependent signaling, linking antioxidant capacity to redox-coupled longevity networks.
+Sirtuin pathways ([[Sirtuins]]) and [[Lipid Peroxidation]] of cardiolipin further modulate MnSOD-dependent signaling, linking antioxidant capacity to redox-coupled longevity networks.
 
 ## Documents
 
@@ -44,6 +44,6 @@ Sirtuin pathways ([[Sirtuins]]) and [[notes/oxidative_stress/Lipid Peroxidation]
 
 ## Linking Summary
 
-  - New links added: [[Mitohormesis]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Sirtuins]], [[notes/oxidative_stress/Lipid Peroxidation]]
+  - New links added: [[Mitohormesis]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Sirtuins]], [[Lipid Peroxidation]]
   - Suggested new entity notes to create: 
   - Strong connections to strengthen: [[Manganese superoxide dismutase]] ↔ [[Mitohormesis]]

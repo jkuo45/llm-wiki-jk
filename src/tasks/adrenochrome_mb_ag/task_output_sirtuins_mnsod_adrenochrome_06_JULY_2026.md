@@ -59,7 +59,7 @@ This is presented as a constitutive, housekeeping [[Antioxidant|antioxidant]] fu
 
 ### In the Adrenochrome Pathway
 
-From the adrenochrome pathway documents (primarily `[[Mitohormetic Redox-Relay|Mitohormetic Redox-Relay.md]]` and `task_output_adrenochrome_sirtuin_research_plan_04_JULY_2026_02_41_AM_PDT.md`):
+From the adrenochrome pathway documents (primarily `[[Mitohormetic Redox-Relay]]` and `task_output_adrenochrome_sirtuin_research_plan_04_JULY_2026_02_41_AM_PDT.md`):
 
 ```
 [[Adrenochrome]] --(1e⁻ reduction)--> [[Adrenochrome Semiquinone Radical|Semiquinone radical]] --(+O₂)--> [[Superoxide|Superoxide]] + Adrenochrome (regenerated)

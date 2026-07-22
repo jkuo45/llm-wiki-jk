@@ -205,7 +205,7 @@ To make this bridge directly queryable in the next graph build:
 
 List of documents that mention this entity
 
-  - This is a task output that catalogs the relationship between [[Adrenochrome]] and [[Lipid Peroxidation]]. It also references [[notes/adrenochrome/Redox cycle.md]], [[notes/oxidative_stress/Lipid Peroxidation.md]], and [[notes/sirtuins/Compound C.md]] as source notes.
+  - This is a task output that catalogs the relationship between [[Adrenochrome]] and [[Lipid Peroxidation]]. It also references [[Redox cycle]], [[Lipid Peroxidation]], and [[Compound C]] as source notes.
 
 ## Connections
 
@@ -225,4 +225,4 @@ List of documents that mention this entity
   - [[Adrenochrome]] ↔ [[Lipid Peroxidation]] (direct mechanistic edge currently missing from graph)
   - [[Adrenochrome]] ↔ [[Ferroptosis]] (dual mechanism hypothesis)
   - [[Adrenochrome]] ↔ [[GPX4]] (electrophilic inhibition hypothesis)
-  - [[notes/adrenochrome/]] ↔ [[notes/oxidative_stress/]] (cross-topic linking gap)
+  - [[Adrenochrome index]] ↔ [[Oxidative_Stress notes]] (cross-topic linking gap)

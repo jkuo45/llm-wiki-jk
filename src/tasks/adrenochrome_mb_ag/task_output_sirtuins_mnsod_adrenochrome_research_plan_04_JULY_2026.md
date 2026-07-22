@@ -4,9 +4,9 @@
 **Date of Report:** 04_July_2026 02:41 AM PDT  
 **Reference Documents:**
 - `tasks/task_output_sirtuins_recommendations_03_JULY_2026_03_55_PM_PDT.md`
-- `notes/adrenochrome/[[Adrenochrome|Adrenochrome.md]]`
+- `notes/adrenochrome/[[Adrenochrome]]`
 - `tasks/task_output_adrenochrome_11_JUN_2026_research_plan.md`
-- `notes/adrenochrome/[[Mitohormetic Redox-Relay|Mitohormetic Redox-Relay.md]]`
+- `notes/adrenochrome/[[Mitohormetic Redox-Relay]]`
 - `notes/adrenochrome/_document_ - adrenochrome - as senotherapeutic agents.md`
 
 ---
