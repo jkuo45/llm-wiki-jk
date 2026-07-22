@@ -1,7 +1,6 @@
 ---
 title: Histone Methylation
 description: Histone methylation adds methyl groups to lysine or arginine residues on histones, activating or repressing transcription depending on the site and degree of methylation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

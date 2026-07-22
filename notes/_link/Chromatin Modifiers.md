@@ -1,7 +1,6 @@
 ---
 title: Chromatin Modifiers
 description: Proteins that establish and maintain chromatin states (sirtuins, HDACs, PARP1, writers/readers/erasers) and relocalize to DNA repair sites in the RCM hypothesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

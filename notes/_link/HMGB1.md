@@ -1,42 +1,110 @@
 ---
 title: HMGB1
-description: 'Overview: HMGB1 is a cellular protein with structural, signaling,'
-  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...
+description: High Mobility Group Box 1, a nuclear alarmin and potent SASP factor released from senescent cells that drives inflammation and immune activation via TLR and RAGE signaling
+protected: false
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-13
 tags:
   - protein
-aliases: [High Mobility Group Box 1]
-
+  - alarmin
+  - inflammation
+  - senescence
+  - sasp
+  - innate-immunity
+aliases:
+  - High Mobility Group Box 1
+  - HMGB-1
+  - amphoterin
 ---
 
-# HMGB1
+## Overview
 
-**Overview:** HMGB1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
+[[HMGB1]] (High Mobility Group Box 1) is a highly conserved, non-histone nuclear protein that functions as a DNA-binding architectural factor in chromatin and, when released extracellularly, acts as a potent alarmin (damage-associated molecular pattern, DAMP). HMGB1 is a key component of the [[SASP]] secreted by [[Senescent Cells]], where it serves as a central mediator of the inflammatory and immunomodulatory effects of cellular senescence.
 
-**Structure and domains:** HMGB1 contains conserved structural motifs that mediate its interactions with binding partners, nucleic acids, or lipid membranes. Post-translational modifications such as phosphorylation and ubiquitination regulate its activity.
+## Structure and Domains
 
-**Cellular function:** HMGB1 plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
+- 215 amino acid protein with two HMG-box DNA-binding domains (A-box and B-box) and an acidic C-terminal tail
+- Nuclear localization signals (NLS1 and NLS2) direct importin-α/β-mediated nuclear import
+- Acetylation, phosphorylation, and methylation of NLS regions prevent nuclear import, leading to cytoplasmic accumulation and secretion
+- No signal peptide; released via non-classical secretion pathways (exosomes, autophagosomes, lysosomal exocytosis, gasdermin D pores, and minor membrane rupture)
 
-**Pathological significance:** Altered expression or mutation of HMGB1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+## Dual Functions: Nuclear vs. Extracellular
 
-#
+### Nuclear Role
+- Architectural chromatin protein: bends DNA, facilitates nucleosome dynamics
+- Facilitates transcription, replication, DNA repair, and V(D)J recombination
+- Interacts with[[ p53]], NF-κB, and other transcription factors to regulate gene expression
 
-# 
+### Extracellular Role (Alarmin/DAMP)
+- Released from necrotic cells, activated immune cells, and [[Senescent Cells]] via SASP
+- Binds multiple receptors:
+  - **TLR2, TLR4**: Activate NF-κB and pro-inflammatory cytokine production
+  - **RAGE (Receptor for Advanced Glycation End Products)**: Activates MAPK, NF-κB; promotes cell migration and proliferation
+  - **CXCR4**: Chemotactic signaling
+- Initiates sterile inflammation and immune cell recruitment
+
+## Role in Cellular Senescence
+
+> [!info] Source: Dong et al. 2024
+> HMGB1 release from senescent cells is a central mediator of senescent phenotypes. Davalos et al. (2013) demonstrated that p53-dependent release of HMGB1 is essential for the establishment and maintenance of the senescent secretome. HMGB1 acts in an autocrine/paracrine manner to activate NF-κB and sustain SASP factor expression.
+
+### Mechanism of Release
+- During senescence, HMGB1 translocates from the nucleus to the cytoplasm in a p53-dependent manner
+- Cytoplasmic HMGB1 is actively secreted via non-classical pathways
+- Nuclear loss of HMGB1 also contributes to chromatin decompaction and SASP gene accessibility
+
+### SASP Amplification
+- Extracellular HMGB1 acts in an autocrine/paracrine loop to sustain NF-κB activation and SASP factor expression
+- HMGB1/TLR4/NF-κB signaling maintains the inflammatory phenotype of senescent cells
+- This positive feedback loop makes SASP self-reinforcing once initiated
+
+### Immunomodulatory Effects
+- Recruits and activates macrophages, dendritic cells, and neutrophils
+- Enhances antigen presentation and T-cell priming
+- Can promote both antitumor immunity (by recruiting immune cells to senescent tumors) and protumor inflammation (by sustaining chronic inflammation in the TME)
+
+## Pathological Significance
+
+### Cancer
+- HMGB1 released from senescent cells in the TME can be protumor (sustaining inflammation, angiogenesis, metastasis) or antitumor (recruiting immune cells for [[Senescence Surveillance]])
+- Tumor cell-derived HMGB1 promotes immune evasion when acting through RAGE
+- Serum HMGB1 levels are elevated in multiple cancers and correlate with poor prognosis
+
+### Aging
+- Chronic low-grade elevation of circulating HMGB1 contributes to [[Inflammaging|inflammaging]]
+- HMGB1-driven NF-κB activation is a key mechanism linking cellular senescence to age-related chronic inflammation
+- HMGB1 activates the NLRP3 [[Inflammasome]], amplifying IL-1β and IL-18 production
+
+### Sterile Inflammation
+- HMGB1 is a major mediator of sterile inflammation in tissue injury, ischemia-reperfusion injury, and metabolic disease
+- Blockade of HMGB1 (e.g., with anti-HMGB1 antibodies or glycyrrhizin) reduces inflammation in multiple disease models
+
+## Connections
+
+- [[SASP]] — HMGB1 is a key SASP component that amplifies the inflammatory secretome
+- [[Senescent Cells]] — Source of extracellular HMGB1 via p53-dependent release
+- [[NF-kappaB]] — HMGB1 activates NF-κB through TLR4/RAGE signaling, sustaining SASP
+- [[p53]] — p53-dependent HMGB1 nuclear export and release during senescence
+- [[Inflammaging]] — Chronic HMGB1 elevation contributes to age-related sterile inflammation
+- [[Inflammasome]] — HMGB1 activates NLRP3 inflammasome, amplifying IL-1β production
+- [[IL-1β]] — HMGB1/TLR4 signaling promotes IL-1β maturation and release
+- [[Tumor Microenvironment]] — HMGB1 released from senescent cells shapes the TME through immune recruitment
+- [[Senescence Surveillance]] — HMGB1 recruits immune cells for clearance of senescent tumor cells
+- [[RAGE]] — Receptor for HMGB1 that activates pro-inflammatory and pro-migratory signaling
+- [[TLR4]] — Toll-like receptor that mediates HMGB1-induced NF-κB activation
 
 ## Documents
 
-List of documents that mention this entity
-
-  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
-    - L-carnitine; CSCs, Cancer Stem Cells; DAMP, Damage-associated molecular pattern; EGFR, Epidermal growth factor receptor; EBV, Epstein-Barr virus; EMT, Epithelial mesenchymal-transition; GABA, Gamma-aminobutyric acid; GSDMD, Gasdermin D; HBV, Hepatitis B vir...
-
-
-## Connections
-- [[HMGB1]] — related entity
+- [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Cellular senescence and SASP in tumor progression and therapeutic opportunities]]
+  - Identifies HMGB1 as a SASP factor; references p53-dependent release as central mediator of senescent phenotypes
+- [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug]]
+  - Mentions HMGB1 in the context of DAMP signaling and immunogenic cell death
 
 ## Linking Summary
-- New links added: [[HMGB1]]
-  - Strong connections to strengthen: [[HMGB1]] ↔ [[HMGB1]]
 
+- New links added: [[Inflammasome]], [[Inflammaging]], [[RAGE]], [[TLR4]], [[Senescence Surveillance]]
+- Suggested new entity notes to create: None
+- Strong connections to strengthen:
+    - [[HMGB1]] ↔ [[SASP]]
+    - [[HMGB1]] ↔ [[NF-kappaB]]
+    - [[HMGB1]] ↔ [[Senescent Cells]]

@@ -1,7 +1,6 @@
 ---
 title: Neuroinflammation
 description: Immune response within the central nervous system that drives pathology in neurodegenerative disease and brain injury.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-process, neuroinflammation, innate-immunity, cns, inflammation, parkinsons-disease]
@@ -20,7 +19,7 @@ Neuroinflammation is orchestrated by both resident and infiltrating immune popul
 
 ## cGAS-STING as a Central Driver
 
-A unifying insight is that many [[Proteinopathy|proteinopathies]] ultimately generate cytosolic dsDNA — predominantly via [[mtDNA]] leakage from [[Mitochondrial Dysfunction|mitochondrial stress]] or from [[DNA Damage|genomic DNA damage]] — that activates [[cGAS]] and [[STING]]. This triggers [[IRF3]]- and [[NF-kappaB|NF-κB]]-dependent transcription of [[Type I Interferon|IFN-I]] and pro-inflammatory [[Cytokines]], establishing a self-reinforcing inflammatory loop. Noncanonical activation also occurs: the [[Tau|tau]]–[[PQBP1]] complex engages cGAS through direct protein–protein interaction, bypassing DNA entirely. Although cGAS-STING signaling is predominantly deleterious in chronic disease, it is context dependent — microglial STING preserves hippocampal [[Blood-Brain Barrier|BBB]] integrity during aging, complicating blanket pathway inhibition. Chronic neuroinflammation also intersects with [[Inflammaging]] and [[Cellular Senescence|cellular senescence]], contributing to age-related vulnerability.
+A unifying insight is that many [[Proteinopathy|proteinopathies]] ultimately generate cytosolic dsDNA — predominantly via [[mtDNA]] leakage from [[Mitochondrial Dysfunction|mitochondrial stress]] or from [[DNA Damage|genomic DNA damage]] — that activates [[cGAS]] and [[STING]]. This triggers [[IRF3]]- and [[NF-kappaB|NF-κB]]-dependent transcription of [[Type I Interferon|IFN-I]] and pro-inflammatory [[Cytokines]], establishing a self-reinforcing inflammatory loop. Noncanonical activation also occurs: the [[Tau|tau]]–[[PQBP1]] complex engages cGAS through direct protein–protein interaction, bypassing DNA entirely. Although cGAS-STING signaling is predominantly deleterious in chronic disease, it is context dependent — microglial STING preserves hippocampal [[Blood-Brain Barrier|BBB]] integrity during aging, complicating blanket pathway inhibition. Chronic neuroinflammation also intersects with [[Inflammaging]] and [[Senescence|cellular senescence]], contributing to age-related vulnerability.
 
 ## Parkinson's Disease & Neuromelanin-Specific Biology
 

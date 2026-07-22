@@ -73,6 +73,9 @@ List of documents that mention this entity
     - Moreover, SIRT6 deficiency in Macrophages resulted in inflammation with increases in acetylation and greater stability of the FoxO1. Conversely, the ectopic overexpression of SIRT6 in KO cells reduced the inflammatory response.
 
 
+- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+  - SIRT1 deacetylates FOXO1 to enhance transcriptional activity, while FOXO1 reciprocally activates SIRT1 expression — a positive feedback loop.
+
 ## Connections
 - [[SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship
 - [[Caloric Restriction]] — SIRT1-mediated FOXO1 deacetylation is a downstream effect of CR
@@ -80,6 +83,7 @@ List of documents that mention this entity
 - [[p53]] — parallel SIRT1 deacetylation target; both regulated in apoptosis/survival decisions
 - [[DAF-16]] — _C. elegans_ orthologue; required for sirtuin-mediated lifespan extension
 - [[FOXO3a]] — related family member also deacetylated by SIRT1
+- [[SIRT1]]: FOXO1 and SIRT1 form a mutual positive feedback loop.
 
 ## Linking Summary
 - New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]], [[SIRT1]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]

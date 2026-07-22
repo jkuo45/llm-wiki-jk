@@ -1,7 +1,6 @@
 ---
 title: Tazemetostat
 description: Tazemetostat (EPZ-6438) is a first-in-class oral EZH2 inhibitor approved for epithelioid sarcoma and EZH2-mutant follicular lymphoma.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

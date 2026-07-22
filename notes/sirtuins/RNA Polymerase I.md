@@ -29,11 +29,11 @@ The opposition of SIRT7 (activating) and SIRT1 (restraining) at the nucleolus hi
 
 ## Physiological and Pathological Relevance
 
-Pol I hyperactivation is a near-universal feature of cancer, making it a therapeutic target (e.g., CX-5461). Conversely, declining Pol I output contributes to the reduced protein synthesis and [[Cellular Senescence]] of ageing. SIRT7 deficiency in mice reduces rRNA synthesis and accelerates senescence, tying Pol I regulation to [[Aging]]. The p53 tumor suppressor represses Pol I under stress, and SIRT1-mediated p53 deacetylation relieves this repression — a further node connecting the DNA-damage response to ribosome production.
+Pol I hyperactivation is a near-universal feature of cancer, making it a therapeutic target (e.g., CX-5461). Conversely, declining Pol I output contributes to the reduced protein synthesis and [[Senescence]] of ageing. SIRT7 deficiency in mice reduces rRNA synthesis and accelerates senescence, tying Pol I regulation to [[Aging]]. The p53 tumor suppressor represses Pol I under stress, and SIRT1-mediated p53 deacetylation relieves this repression — a further node connecting the DNA-damage response to ribosome production.
 
 ## Connections
 
-- [[SIRT7]]: The primary sirtuin regulator of Pol I transcription; SIRT7 knockout mice exhibit reduced rRNA synthesis and [[Cellular Senescence|cellular senescence]].
+- [[SIRT7]]: The primary sirtuin regulator of Pol I transcription; SIRT7 knockout mice exhibit reduced rRNA synthesis and [[Senescence|cellular senescence]].
 - [[Ribosome Biogenesis]]: The downstream process driven by Pol I transcription.
 - [[p53]]: Represses Pol I transcription in response to stress; SIRT1 deacetylation of p53 relieves this repression.
 - [[Cancer]]: Hyperactivation of Pol I transcription is a hallmark of many cancers, making it a therapeutic target.
@@ -41,6 +41,6 @@ Pol I hyperactivation is a near-universal feature of cancer, making it a therape
 - [[Nucleolus]]: Subnuclear compartment housing Pol I transcription.
 
 ## Linking Summary
-- New links added: [[SIRT7]], [[SIRT1]], [[TAFI68]], [[NAD+]], [[Ribosome Biogenesis]], [[p53]], [[Cellular Senescence]], [[Cancer]], [[Nucleolus]]
+- New links added: [[SIRT7]], [[SIRT1]], [[TAFI68]], [[NAD+]], [[Ribosome Biogenesis]], [[p53]], [[Senescence]], [[Cancer]], [[Nucleolus]]
 - Suggested new entity notes to create: [[rDNA]], [[TIF-IB/SL1]]
 - Strong connections to strengthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT1]] ↔ [[TAFI68]]

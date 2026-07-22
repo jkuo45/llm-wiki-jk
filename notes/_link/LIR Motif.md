@@ -1,7 +1,6 @@
 ---
 title: LIR Motif
 description: The LC3-interacting region, a short hydrophobic peptide motif that directs autophagy receptors and cargo proteins to LC3/GABARAP family proteins on the phagophore.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -291,7 +291,7 @@ These thresholds are cell-type and context dependent, influenced by baseline [[N
 
 # Oxidative Stress
 
-**[[Oxidative Stress|Oxidative Stress]]** reflects an imbalance between the production of [[Reactive Oxygen Species|reactive oxygen species (ROS)]] and a biological system's capacity to detoxify them or repair the resulting damage. It is a hallmark driver of [[Aging|aging]] and a key trigger of [[Cellular Senescence|cellular senescence]].
+**[[Oxidative Stress|Oxidative Stress]]** reflects an imbalance between the production of [[Reactive Oxygen Species|reactive oxygen species (ROS)]] and a biological system's capacity to detoxify them or repair the resulting damage. It is a hallmark driver of [[Aging|aging]] and a key trigger of [[Senescence|cellular senescence]].
 
 ## ROS Sources and Species
 

@@ -27,7 +27,7 @@ In aging research, the *Ercc1*<sup>−/∆</sup> mouse is a well-established pro
 ## Connections
 
   - [[LMNA Gene]]: Genetic basis of HGPS.
-  - [[Cellular Senescence]]: Accelerated in progeria.
+  - [[Senescence]]: Accelerated in progeria.
   - [[Senolytic]]: Intervention tested in progeroid models.
   - [[Aging]]: Progeria models natural aging mechanisms.
   - [[Fisetin]]: Effective in progeroid mouse model.
@@ -39,4 +39,4 @@ In aging research, the *Ercc1*<sup>−/∆</sup> mouse is a well-established pro
 
 ## Linking Summary
 
-  - New links added: [[Progeria]], [[LMNA Gene]], [[Aging]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[SIRT6]], [[LINE-1]], [[Fucoidan]], [[Progerin]]
+  - New links added: [[Progeria]], [[LMNA Gene]], [[Aging]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[SIRT6]], [[LINE-1]], [[Fucoidan]], [[Progerin]]

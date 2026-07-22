@@ -1,7 +1,6 @@
 ---
 title: 5xFAD
 description: A transgenic mouse model of aggressive amyloid pathology used to study cGAS-STING in Alzheimer's disease.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [animal-model, disease-model, alzheimer-model]

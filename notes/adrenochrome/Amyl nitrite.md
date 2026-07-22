@@ -1,7 +1,6 @@
 ---
 title: Amyl nitrite
 description: Amyl nitrite is a volatile alkyl nitrite vasodilator, historical cyanide antidote, and oxidizing inhalant that induces methemoglobinemia.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

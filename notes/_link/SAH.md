@@ -1,7 +1,6 @@
 ---
 title: SAH
 description: S-adenosylhomocysteine, the immediate product of methylation reactions and a competitive inhibitor of methyltransferases.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

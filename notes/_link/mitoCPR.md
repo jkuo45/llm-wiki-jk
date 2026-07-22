@@ -1,7 +1,6 @@
 ---
 title: mitoCPR
 description: The mitochondrial compromised protein import response is a stress pathway activated when import through the TOM translocon stalls, clearing precursors via PDR3, Cis1, and Msp1/ATAD1.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

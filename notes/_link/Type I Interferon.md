@@ -1,7 +1,6 @@
 ---
 title: Type I Interferon
 description: Family of interferons (IFN-alpha/beta) produced downstream of innate immune sensors that drive antiviral and inflammatory transcriptional programs.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [cytokine, interferon, innate-immunity, neuroinflammation, cgas-sting]

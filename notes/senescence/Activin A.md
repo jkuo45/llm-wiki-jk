@@ -3,7 +3,6 @@ title: Activin A
 description: >-
   Activin A is a TGF-β family ligand that signals through ALK4/SMAD2/3 and is a
   SASP component mediating paracrine senescence.
-type: entity
 protected: false
 created: 2026-07-12
 updated: 2026-07-12

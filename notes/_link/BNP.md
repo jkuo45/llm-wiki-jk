@@ -1,7 +1,6 @@
 ---
 title: BNP
 description: B-type natriuretic peptide, a cardiac hormone released in response to myocardial stretch and used as a heart-failure biomarker.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

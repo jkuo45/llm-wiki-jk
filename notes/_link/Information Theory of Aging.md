@@ -1,7 +1,6 @@
 ---
 title: Information Theory of Aging
 description: A framework, advanced by David Sinclair, proposing that aging is primarily a loss of epigenetic/nuclear information ("software") rather than irreversible hardware damage such as mutations.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: SWI-SNF Complex
 description: A chromatin-remodeling complex recruited by noncanonical nuclear cGAS via LLPS to regulate transcription.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein-complex, chromatin-remodeling]

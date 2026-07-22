@@ -1,7 +1,6 @@
 ---
 title: 5Z-7-oxozeaenol
 description: A selective TAK1 inhibitor that diminishes the SASP by restraining the ATM-TRAF6-TAK1 axis; a pharmacological comparator for apigenin's ASAP→SASP blockade.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

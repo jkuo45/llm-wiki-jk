@@ -1,7 +1,6 @@
 ---
 title: Propolis
 description: A resinous mixture produced by honeybees from plant exudates, used in traditional medicine for its antimicrobial, anti-inflammatory, and anti-cancer properties
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [chemical-compound, apitherapy, natural-product, anti-inflammatory, cancer]

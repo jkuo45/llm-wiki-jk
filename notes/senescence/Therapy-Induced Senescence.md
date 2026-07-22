@@ -1,7 +1,6 @@
 ---
 title: Therapy-Induced Senescence
 description: Therapy-induced senescence (TIS), a senescence program triggered by chemotherapy, radiation, or other DNA-damaging treatments, characterized by DNA-SCARS, histone loss, and an inducible SASP.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

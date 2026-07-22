@@ -1,7 +1,6 @@
 ---
 title: ASF1a
 description: Anti-silencing function 1a histone chaperone that hands off H3.3–H4 to the HIRA complex and is essential for SAHF formation in senescent cells.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

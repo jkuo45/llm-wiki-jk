@@ -14,7 +14,7 @@ protected: true
 
 # Senolytic Drugs
 
-**Senolytic Drugs** are a pharmacological class of agents that selectively eliminate [[Cellular Senescence|senescent cells]]. Unlike conventional chemotherapeutics, senolytics exploit specific survival pathways that senescent cells upregulate to resist their own apoptotic program — a vulnerability known as senescent cell anti-apoptotic pathways (SCAPs).
+**Senolytic Drugs** are a pharmacological class of agents that selectively eliminate [[Senescence|senescent cells]]. Unlike conventional chemotherapeutics, senolytics exploit specific survival pathways that senescent cells upregulate to resist their own apoptotic program — a vulnerability known as senescent cell anti-apoptotic pathways (SCAPs).
 
 ## Mechanism of Action
 
@@ -65,7 +65,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Cellular Senescence]]: **Senolytic Drugs** are a pharmacological class of agents that selectively eliminate senescent cells.
+- [[Senescence]]: **Senolytic Drugs** are a pharmacological class of agents that selectively eliminate senescent cells.
 - [[SASP|Senescence-Associated Secretory Phenotype]]: Senescent cells acquire a complex anti-apoptotic network that protects them from their own [[SASP|Senescence-Associated Secretory Phenotype]]-associated c...
 - [[Bcl-2]]: - **BCL-2 family:** Bcl-2, [[Bcl-xL]], and [[Bcl-w]] are upregulated in many senescent cell types, blocking [[Bax]]/[...
 - [[Bcl-xL]]: - **BCL-2 family:** [[Bcl-2]], Bcl-xL, and [[Bcl-w]] are upregulated in many senescent cell types, blocking [[Bax]]/[...

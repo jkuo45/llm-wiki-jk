@@ -26,7 +26,7 @@ The **Adrenochrome semiquinone radical** is a transient, highly reactive free ra
 
 ## Physiological Context
 
-This radical species is a key driver of the cytotoxicity associated with [[Aminochromes]] in catecholaminergic neurons and cardiac tissue, specifically within the [[Mitohormetic Redox-Relay]].
+This radical species is a key driver of the cytotoxicity associated with [[Aminochromes]] in catecholaminergic neurons and cardiac tissue, specifically within the [[_document_ - Mitohormetic Redox-Relay]].
 
 ## Connections
 
@@ -35,7 +35,7 @@ This radical species is a key driver of the cytotoxicity associated with [[Amino
 - [[Superoxide anion]]: **ROS Generation:** The reaction with oxygen produces the Superoxide anion (O₂⁻•) and regenerates the parent [[Adreno...
 - [[Oxidative Stress]]: **ROS Generation:** The reaction with oxygen produces the [[Superoxide anion]] (O₂⁻•) and regenerates the parent [[Ad...
 - [[Aminochromes]]: This radical species is a key driver of the cytotoxicity associated with Aminochromes in catecholaminergic neurons an...
-- [[Mitohormetic Redox-Relay]]: This radical species is a key driver of the cytotoxicity associated with [[Aminochromes]] in catecholaminergic neuron...
+- [[_document_ - Mitohormetic Redox-Relay]]: This radical species is a key driver of the cytotoxicity associated with [[Aminochromes]] in catecholaminergic neuron...
 
 ## Linking Summary
 - Strong connections: [[Adrenochrome]] ↔ [[Redox Cycling]] ↔ [[Adrenochrome Semiquinone Radical]]

@@ -18,7 +18,7 @@ protected: true
 
 # Senescence-Associated Secretory Phenotype
 
-The **senescence-associated secretory phenotype (SASP)** is the major mediator of the paracrine effects of [[Cellular Senescence|senescent cells]] in their tissue microenvironment and of various local and systemic biological functions. It is a hypersecretory state characterized by the upregulation of hundreds of factors, including cytokines, chemokines, growth factors, extracellular matrix proteases, bioactive lipids, small extracellular vesicles, and non-coding nucleic acids.
+The **senescence-associated secretory phenotype (SASP)** is the major mediator of the paracrine effects of [[Senescence|senescent cells]] in their tissue microenvironment and of various local and systemic biological functions. It is a hypersecretory state characterized by the upregulation of hundreds of factors, including cytokines, chemokines, growth factors, extracellular matrix proteases, bioactive lipids, small extracellular vesicles, and non-coding nucleic acids.
 
 The SASP was first described in 2001 by Krtolica et al., who proposed that senescent cells secrete factors that modulate biological activities both locally and systemically. By 2008, multiple laboratories independently defined the SASP (or "senescence-messaging secretome") primarily as a collection of pro-inflammatory and growth-stimulating proteins.
 
@@ -44,6 +44,7 @@ Proteins are the most characterized SASP components, comprising interleukins and
 - [[CXCL5]]: Secreted by blastocysts from aged oocytes; binds to CXCR2 and is detrimental to pre-implantation embryos used for in vitro fertilization in older women.
 - [[CXCL10]]: Secreted by ROS-induced senescent hepatocytes; enhances natural killer cell activity by binding to [[CXCR3]].
 - [[CXCL11]]: Secreted by therapy-induced senescent endothelial cells; increases breast cancer aggressiveness.
+- [[CXCL12]] (SDF-1): A homeostatic ELR− chemokine and SASP factor that binds [[CXCR4]] and [[ACKR3]]. In vascular aging, *Cxcl12* [[MRNA|mRNA]] is the most highly upregulated SASP factor in senescent [[Endothelial Cells|endothelial cells]] — it causally drives [[Endothelial Dysfunction|endothelial dysfunction]] by suppressing [[Nitric Oxide|NO]], promoting mitochondrial [[Reactive Oxygen Species|ROS]], and inducing [[Endothelial-to-Mesenchymal Transition|EndoMT]]. [[Fisetin]] normalizes CXCL12 to improve vascular function. Also a well-established pro-metastatic factor that cooperates with [[MMP|MMPs]] to guide cancer metastasis.
 - [[CXCL14]]: In p21-driven SASP, promotes immunosurveillance by recruiting macrophages.
 
 #### Growth Factors
@@ -265,15 +266,25 @@ List of documents that mention this entity
     - Identified the inflammasome–IL-1α axis as the master upstream regulator of the SASP. IL-1α expression alone phenocopies the full SASP. Multiple SASP components (TGF-β family ligands, VEGF, CCL2, CCL20) mediate paracrine senescence. Showed the SASP is controlled by canonical inflammasome (caspase-1/ASC/NLRP3) activation during OIS.
 
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
-    - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a SASP — a cellular state beneficial in embryonic development, tissue repair and regeneration; autophagy inducers can target immune aging driven by SASP.
+     - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a SASP — a cellular state beneficial in embryonic development, tissue repair and regeneration; autophagy inducers can target immune aging driven by SASP.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - In IPF, the SASP (IL-6, IL-8, TGF-β, MMPs) mediates paracrine senescence and fibroblast activation; mTOR/NF-κB/IL-1α regulate its production.
+
+  - [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Mahoney et al. 2025 — Fisetin Reverses Age-Related Endothelial Dysfunction]]
+    - Establishes the circulating SASP milieu as a causal driver of age-related endothelial dysfunction; identifies CXCL12 as the key SASP factor mediating NO suppression, mitochondrial ROS, and EndoMT; shows that fisetin senolytic treatment reduces circulating SASP burden and normalizes CXCL12 to rescue endothelial function.
+  - [[task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
+    - Positions the SASP as the canonical driver of inflammaging downstream of adrenochrome → DGCR8/Drosha Microprocessor → Senescence in the shortest-path cascade.
 
 ## Connections
-
-- [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
+- [[Senescence]] — the SASP is the effector arm of the senescence program
 - [[Senescence]] — SASP is a hallmark feature of the senescent state
 - [[Inflammaging]] — chronic SASP is a major driver of age-related inflammation
 - [[NF-κB]] — master transcription factor regulating SASP gene expression
 - [[mTORC1]] — regulates SASP translation; inhibited by rapamycin
+- [[DGCR8]] — Microprocessor cofactor; its dysfunction triggers senescence/SASP in the adrenochrome trace
+- [[Drosha]] — Microprocessor enzyme; elevated DROSHA promotes AIM2 inflammasome inflammation
+- [[Adrenochrome]] — electrophilic quinone upstream of Microprocessor dysfunction → SASP
 - [[cGAS-STING Pathway|cGAS–STING]] — detects cytoplasmic DNA to drive SASP factor transcription
 - [[Senolytic Therapy|Senolytics]] — drugs that clear senescent cells, eliminating SASP source
 - [[Senomorphic Therapy]] — modulates SASP without killing senescent cells
@@ -307,6 +318,11 @@ List of documents that mention this entity
 - [[Autophagy Inducer]] — autophagy inducers suppress SASP and target immune aging
 - [[Immune System]] — SASP modulates immune cell phenotype and function
 - [[Atherosclerosis]] — chronic SASP promotes atherosclerosis
+- [[Endothelial Dysfunction]] — circulating SASP milieu causally drives age-related endothelial dysfunction via NO suppression, mitochondrial ROS, and EndoMT
+- [[CXCL12]] — key SASP chemokine mediating age-related endothelial dysfunction; the most highly upregulated SASP factor in senescent ECs with aging
+- [[Endothelial-to-Mesenchymal Transition]] — SASP/CXCL12-driven transdifferentiation process underlying age-related vascular dysfunction
+- [[Endothelial Cells]] — primary senolytic target in the vasculature; ECs are the most senescence-susceptible cell type and secrete CXCL12 as a key SASP factor
+- [[Fisetin]] — senolytic that reduces circulating SASP burden and normalizes CXCL12 to reverse age-related endothelial dysfunction
 - [[TNFA]] — pro-inflammatory SASP cytokine (TNF-α); activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
 - [[IL-1β]] — SASP interleukin; synergizes with IL-1α to drive IL-6/IL-8 transcription
 - [[Cytokines]] — class of SASP components
@@ -326,9 +342,22 @@ List of documents that mention this entity
 - [[Amphiregulin]] — SASP growth factor that activates EGFR signaling; promotes prostate and breast cancer cell proliferation
 - [[Connective Tissue Growth Factor|CTGF]] — SASP matricellular protein that promotes fibrosis and tumor progression
 - [[IGFBP]] — SASP factor family that modulates IGF signaling; context-dependent pro- or anti-tumorigenic effects
+- [[NF-κB|NF-κB]]: NF-κB transcriptionally regulates SASP cytokines (IL-6/IL-8/TNF-α).
+- [[mTOR]]: mTOR enhances SASP translation.
+- [[Connective Tissue Growth Factor|CTGF]]: SASP includes CTGF driving fibroblast activation.
+
+### Galectin-9
+
+> [!info] Source: Dong et al. 2024 (PMC11365203)
+> Tarallo et al. first reported that senescent cells secrete [[Galectin-9]] in melanoma. Galectin-9 has immunosuppressive effects in the TME, promoting T cell apoptosis, increasing Treg and M2 macrophage polarization, and impairing anti-tumor immune responses. Some reports suggest Galectin-9 can also inhibit melanoma metastasis, highlighting context-dependent roles.
+
+### Extracellular Vesicles
+
+> [!info] Source: Dong et al. 2024 (PMC11365203)
+> [[Extracellular Vesicles]] have emerged as crucial intermediaries within SASP. Suppression of small EV release induces DNA damage and apoptosis-like death in senescent cells. The vesicular secretome induces diverse effects depending on cellular environment, driven by varied EV cargos (proteins, nucleic acids, lipids). Since EVs are found in all bodily fluids, they are valuable targets for liquid biopsy and potential treatment of age-related diseases.
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Cellular Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[BMI1]], [[CXCR2]], [[CXCR3]], [[Caspase-5]], [[Caspase-11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Cytoplasmic Chromatin Fragments]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Histone Variant]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[BMI1]], [[CXCR2]], [[CXCR3]], [[Caspase-5]], [[Caspase-11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Cytoplasmic Chromatin Fragments]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Histone Variant]]
 - Suggested new entity notes to create: [[Senomorphics]], [[Bystander Senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]], [[SASP Index]], [[Atherosclerosis]], [[Autophagy Inducer]], [[Immune System]], [[TNFA]], [[IL-1β]], [[Cytokines]], [[Chemokine]], [[Protease]]
   - Strong connections to strengthen: [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ Cellular Senescence, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ NF-κB, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[mTORC1]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ Cancer, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Paracrine Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Apoptosis]]

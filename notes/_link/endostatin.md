@@ -1,7 +1,6 @@
 ---
 title: Endostatin
 description: 20 kDa anti-angiogenic C-terminal fragment of collagen XVIII, an endogenous inhibitor of endothelial proliferation and tumor vascularization with metabolic and aging relevance.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -41,7 +41,7 @@ created: 2026-07-10
 description: "Anttila et al. show that elevated OXPHOS is a hallmark of MYChigh breast cancers,where complex I-driven NAD+ regeneration sustains a glutamine-fueled TCA cycle tomeet anabolic demand. Co-inhibition of complex I and glutaminolysis breaks this circuit,exposing an MYC-selective synthetic lethal vulnerability."
 tags:
   - "clippings"
-type: "document"
+
 ---
 ## Highlights
 

@@ -1,7 +1,6 @@
 ---
 title: Nucleus
 description: The membrane-bound organelle housing chromatin, where cGAS exerts noncanonical functions in genome stability, RNA metabolism, and chromatin organization.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, organelle, chromatin, cgas-noncanonical]

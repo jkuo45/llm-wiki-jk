@@ -3,15 +3,15 @@ title: _Link notes
 aliases: []
 description: Index of wiki notes for _link
 created: 2026-07-06
-updated: 2026-07-09
+updated: 2026-07-17
 ---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 13_JULY_2026 12:00 PM PDT
-- Total count of entities: 317
+- Last updated: 17_JULY_2026 12:00 PM PDT
+- Total count of entities: 358
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -334,3 +334,44 @@ This directory contains entities that span across multiple topics within the kno
 | [[IL-18]] | 13_JULY_2026 12:00 PM PDT | Cytokine | Inflammation, Inflammasome, SASP |
 | [[BNP]] | 13_JULY_2026 12:00 PM PDT | Peptide Hormone | Cardiovascular, Cardiac Biomarker, Natriuresis |
 | [[Kidney]] | 13_JULY_2026 12:00 PM PDT | Anatomy | Renal, Filtration, AGE Clearance |
+| [[Honokiol]] | 14_JULY_2026 12:00 PM PDT | Chemical Compound | Neuroprotection, Neuropharmacology, Magnoliaceae, Anxiety |
+| [[Magnolol]] | 14_JULY_2026 12:00 PM PDT | Chemical Compound | Neuroprotection, Neuropharmacology, Magnoliaceae |
+| [[GABA_A receptor]] | 14_JULY_2026 12:00 PM PDT | Receptor | Inhibitory Neurotransmission, CNS, Neuropharmacology |
+| [[NMDA receptor]] | 14_JULY_2026 12:00 PM PDT | Receptor | Excitatory Neurotransmission, Glutamate, Excitotoxicity |
+| [[Alveolar Macrophages]] | 16_JULY_2026 12:00 PM PDT | Cell Type | Innate Immunity, Lung, Inflammaging |
+| [[Argonaute]] | 16_JULY_2026 12:00 PM PDT | Protein | miRNA, RNA Processing, Epigenetics |
+| [[Biological Aging]] | 16_JULY_2026 12:00 PM PDT | Biological Process | Aging, Geroscience, Inflammaging |
+| [[Bone marrow-derived macrophages]] | 16_JULY_2026 12:00 PM PDT | Cell Type | Innate Immunity, Inflammasome |
+| [[Cardiovascular System]] | 16_JULY_2026 12:00 PM PDT | Anatomy | Aging, Inflammaging |
+| [[Cognitive Decline]] | 16_JULY_2026 12:00 PM PDT | Syndrome | Neurology, Aging, Inflammaging |
+| [[Dicer]] | 16_JULY_2026 12:00 PM PDT | Enzyme | miRNA, RNA Processing, Epigenetics |
+| [[Double-stranded RNA-binding domain]] | 16_JULY_2026 12:00 PM PDT | Protein Domain | RNA Binding, miRNA |
+| [[Embryoid Bodies]] | 16_JULY_2026 12:00 PM PDT | Cell Culture Model | Stem Cells, Development |
+| [[Epigenetic Aging]] | 16_JULY_2026 12:00 PM PDT | Biological Process | Aging, Epigenetics, Inflammaging |
+| [[Exportin-5]] | 16_JULY_2026 12:00 PM PDT | Protein | Nucleocytoplasmic Transport, miRNA |
+| [[Frailty]] | 16_JULY_2026 12:00 PM PDT | Syndrome | Aging, Geriatric, Inflammaging |
+| [[Health and Retirement Study]] | 16_JULY_2026 12:00 PM PDT | Cohort Study | Epidemiology, Aging |
+| [[HeLa Cells]] | 16_JULY_2026 12:00 PM PDT | Cell Line | Cancer Cell, Cell Culture |
+| [[HEK 293]] | 16_JULY_2026 12:00 PM PDT | Cell Line | Cell Culture, Protein Expression |
+| [[Herpes Zoster]] | 16_JULY_2026 12:00 PM PDT | Disease | Viral Infection, Aging |
+| [[Leukemia inhibitory factor]] | 16_JULY_2026 12:00 PM PDT | Cytokine | Stem Cells, Signaling |
+| [[Microprocessor complex]] | 16_JULY_2026 12:00 PM PDT | Protein Complex | miRNA, Epigenetics, Inflammaging |
+| [[Murine embryonic fibroblast]] | 16_JULY_2026 12:00 PM PDT | Cell Type | Stem Cells, Cell Culture |
+| [[Postherpetic Neuralgia]] | 16_JULY_2026 12:00 PM PDT | Disease | Neurology, Pain, Viral Infection |
+| [[Retinoic Acid]] | 16_JULY_2026 12:00 PM PDT | Signaling Molecule | Differentiation, Development |
+| [[Ribonuclease III]] | 16_JULY_2026 12:00 PM PDT | Enzyme | RNA Processing, miRNA |
+| [[RISC]] | 16_JULY_2026 12:00 PM PDT | Protein Complex | miRNA, RNA Processing |
+| [[RNA Interference]] | 16_JULY_2026 12:00 PM PDT | Biological Process | RNA, Gene Regulation |
+| [[Shingles Vaccine]] | 16_JULY_2026 12:00 PM PDT | Vaccine | Intervention, Aging, Viral Infection |
+| [[Transcriptomic Aging]] | 16_JULY_2026 12:00 PM PDT | Biological Process | Aging, Transcriptomics, Inflammaging |
+| [[Varicella Zoster Virus]] | 16_JULY_2026 12:00 PM PDT | Virus | Pathogen, Viral Infection |
+| [[C11-BODIPY]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Assay, Ferroptosis, Lipid Peroxidation |
+| [[Docosahexaenoic acid]] | 17_JULY_2026 12:00 PM PDT | Lipid | PUFA, Oxidative Stress, Neuroscience |
+| [[Ferrostatin-1]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Ferroptosis, Antioxidant |
+| [[Hydroxyl Radicals]] | 17_JULY_2026 12:00 PM PDT | ROS | Oxidative Stress, DNA Damage, Lipid Peroxidation |
+| [[Liproxstatin-1]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Ferroptosis, Antioxidant |
+| [[Necrostatin-1]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Necroptosis, Cell Death |
+| [[Pheochromocytoma]] | 17_JULY_2026 12:00 PM PDT | Disease | Endocrine, Catecholamines, Adrenal |
+| [[RSL3]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Ferroptosis, GPX4 |
+| [[TBARS]] | 17_JULY_2026 12:00 PM PDT | Assay | Oxidative Stress, Lipid Peroxidation |
+| [[Z-VAD-FMK]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Apoptosis, Caspase Inhibitor, Cell Death |

@@ -1,7 +1,6 @@
 ---
 title: Lamin A
 description: Lamin A is a nuclear-envelope intermediate-filament protein encoded by LMNA; defective processing produces progerin and drives progeroid syndromes.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:
@@ -23,7 +22,7 @@ aliases: []
 ## Pathology & Clinical Relevance
 
 > [!important] Progerin and progeria
-> A silent point mutation in [[LMNA Gene|LMNA]] (c.1824C>T) activates a cryptic splice site, producing **[[Progerin]]** — a toxic lamin A that cannot be de-farnesylated. Progerin accumulation causes [[Hutchinson-Gilford Progeria Syndrome|HGPS]] ([[HGPS]]), characterized by nuclear blebbing, loss of [[Heterochromatin]] (reduced H3K9me3, HP1), [[Genomic Instability]], and premature [[Cellular Senescence]].
+> A silent point mutation in [[LMNA Gene|LMNA]] (c.1824C>T) activates a cryptic splice site, producing **[[Progerin]]** — a toxic lamin A that cannot be de-farnesylated. Progerin accumulation causes [[Hutchinson-Gilford Progeria Syndrome|HGPS]] ([[HGPS]]), characterized by nuclear blebbing, loss of [[Heterochromatin]] (reduced H3K9me3, HP1), [[Genomic Instability]], and premature [[Senescence]].
 
 Notably, low levels of progerin also accumulate during **normal [[Aging]]**, linking lamin A biology to physiological aging and making the nuclear lamina a model for studying [[Epigenetic Alterations]] and heterochromatin loss. Other LMNA mutations cause laminopathies including dilated cardiomyopathy and muscular dystrophies.
 
@@ -44,5 +43,5 @@ Notably, low levels of progerin also accumulate during **normal [[Aging]]**, lin
 
 ## Linking Summary
 
-  - New links added: [[HGPS]], [[Progerin]], [[LMNA Gene]], [[Aging]], [[Chromatin]], [[Heterochromatin]], [[Nuclear Pore Complex]], [[Genomic Instability]], [[Cellular Senescence]], [[Epigenetic Alterations]]
+  - New links added: [[HGPS]], [[Progerin]], [[LMNA Gene]], [[Aging]], [[Chromatin]], [[Heterochromatin]], [[Nuclear Pore Complex]], [[Genomic Instability]], [[Senescence]], [[Epigenetic Alterations]]
   - Strong connections to strengthen: Lamin A ↔ Progerin; Lamin A ↔ HGPS; Lamin A ↔ Heterochromatin

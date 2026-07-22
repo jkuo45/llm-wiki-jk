@@ -1,7 +1,6 @@
 ---
 title: PARP2
 description: PARP2 is a poly(ADP-ribose) polymerase that repairs DNA breaks using NAD+ and negatively regulates SIRT1, linking DNA damage to NAD+ availability and sirtuin activity.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

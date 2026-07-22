@@ -1,7 +1,6 @@
 ---
 title: Cytochrome C
 description: A mitochondrial electron carrier protein that, when released into the cytoplasm, triggers the intrinsic apoptotic pathway
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

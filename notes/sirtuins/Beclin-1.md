@@ -1,7 +1,6 @@
 ---
 title: Beclin-1
 description: Core autophagy initiator protein and subunit of the class III PI3K complex, integrating nutritional and stress signals with sirtuin-regulated lifespan pathways.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

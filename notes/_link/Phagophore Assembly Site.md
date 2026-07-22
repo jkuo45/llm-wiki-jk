@@ -1,7 +1,6 @@
 ---
 title: Phagophore Assembly Site
 description: The dedicated subcellular locus at which the autophagy machinery nucleates and elongates the phagophore, the precursor membrane of the autophagosome.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

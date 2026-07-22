@@ -1,7 +1,6 @@
 ---
 title: NUMTs
 description: Nuclear insertions of mitochondrial DNA origin, also known as nuclear mitochondrial DNA transfer
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

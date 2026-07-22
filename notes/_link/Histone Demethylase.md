@@ -1,7 +1,6 @@
 ---
 title: Histone Demethylase
 description: Enzyme that removes methyl groups from histone lysine or arginine residues, dynamically regulating chromatin state and gene expression.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -35,7 +34,7 @@ Dysregulated histone demethylases drive cancer, developmental disorders, and agi
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Histone demethylases discussed in the context of epigenetic/metabolic regulation strategies.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: Histone demethylases discussed in the context of epigenetic/metabolic regulation strategies.
 
 ## Connections
 

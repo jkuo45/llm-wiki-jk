@@ -1,7 +1,6 @@
 ---
 title: Bleomycin
 description: A genotoxic glycopeptide antibiotic used to induce cellular senescence (therapy-induced senescence, TIS) in senescence research and as a clinical chemotherapeutic.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:
@@ -24,16 +23,25 @@ aliases: [Bleomycin, BLEO, Blenoxane]
 
 Bleomycin is a standard tool for generating [[Therapy-Induced Senescence|therapy-induced senescence (TIS)]] in vitro, alongside ionizing radiation and topoisomerase II inhibitors such as [[Mitoxantrone]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - The bleomycin model shows senescent alveolar epithelial cells precede fibrotic remodeling, though it incompletely recapitulates chronic human IPF.
+
 ## Connections
 
-- [[Cellular Senescence]] — BLEO is a canonical TIS inducer.
+- [[Senescence]] — BLEO is a canonical TIS inducer.
 - [[Therapy-Induced Senescence]] — The senescence modality BLEO models.
 - [[DNA Damage Response]] — BLEO triggers DDR foci and senescence.
 - [[Apigenin]] — Tested for SASP suppression in BLEO-senescent cells.
 - [[Mitoxantrone]] — Alternative chemotherapeutic TIS inducer.
+- [[Alveolar Type II Cells]]: Bleomycin induces AT2 senescence preceding fibrosis.
+- [[Senescence]]: Bleomycin model demonstrates senescence-driven fibrosis.
 
 ## Linking Summary
 
-- New links added: [[Cellular Senescence]], [[Therapy-Induced Senescence]], [[DNA Damage Response]], [[Apigenin]], [[Mitoxantrone], [SASP]]
+- New links added: [[Senescence]], [[Therapy-Induced Senescence]], [[DNA Damage Response]], [[Apigenin]], [[Mitoxantrone], [SASP]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Bleomycin]] ↔ [[Therapy-Induced Senescence]]

@@ -36,8 +36,10 @@ In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an ada
 
 List of documents that mention this entity
 
-  - [[_document_ - MRR - mitohormesis|mitohormesis]]
-    - Verify Downstream Mitohormetic Transcriptional Activation: - Assay: In cell culture, measure nuclear translocation of NRF2 (via immunofluorescence or Western blot) and monitor the expression of downstream targets (HO-1, NQO1, PGC1-α) 4 to 24 hours post-trea...
+   - [[_document_ - MRR - mitohormesis|mitohormesis]]
+     - Verify Downstream Mitohormetic Transcriptional Activation: - Assay: In cell culture, measure nuclear translocation of NRF2 (via immunofluorescence or Western blot) and monitor the expression of downstream targets (HO-1, NQO1, PGC1-α) 4 to 24 hours post-trea...
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - HO-1 is the effector of the Nrf2-mediated antioxidant defense engaged by SIRT1-activating resveratrol.
 
 
 ## Connections
@@ -45,6 +47,7 @@ List of documents that mention this entity
 - [[Oxidative Stress]] — Primary inducer
 - [[Sulforaphane]] — Potent inducer via NRF2 activation
 - [[ARE]] — Promoter element driving HO-1 expression
+- [[NRF2]]: HO-1 is induced by Nrf2 in the SIRT1/resveratrol axis.
 
 ## Linking Summary
 - New links added: [[NRF2]], [[ARE]], [[Sulforaphane]], [[Oxidative Stress]], [[Hypoxia]], [[Antioxidant Response Element]]

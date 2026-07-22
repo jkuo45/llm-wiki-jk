@@ -1,7 +1,6 @@
 ---
 title: Connective Tissue Growth Factor
 description: CTGF is a matricellular protein and key SASP factor that promotes fibrosis, tumor progression, and extracellular matrix remodeling
-type: entity
 protected: false
 created: 2025-07-10
 updated: 2025-07-10
@@ -87,6 +86,9 @@ Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular pr
 - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
   - Identifies CTGF as a key SASP factor that promotes prostate tumor progression and fibrosis
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - CTGF secreted by senescent epithelial cells drives fibroblast proliferation and myofibroblast differentiation, amplifying ECM deposition in IPF.
+
 ## Connections
 
 - [[SASP|Senescence-Associated Secretory Phenotype]]: CTGF is a major SASP component secreted by senescent cells
@@ -94,6 +96,8 @@ Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular pr
 - [[Prostate Cancer]]: CTGF from senescent stroma promotes prostate tumor progression
 - [[TGF-β]]: CTGF synergizes with TGF-β to enhance fibrotic responses
 - [[Fibroblasts]]: CTGF is secreted by senescent fibroblasts in the tumor microenvironment
+- [[Senescent Cells]]: Senescent cells secrete CTGF to activate fibroblasts.
+- [[Fibroblast]]: CTGF drives fibroblast-to-myofibroblast transition.
 
 ## Linking Summary
 

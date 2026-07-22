@@ -1,7 +1,6 @@
 ---
 title: The Biochemical Basis of Hormesis
 description: Computational screening identifying the incoherent bivalent network motif and saturated-regime requirement as the minimal biochemical basis of drug hormesis, applied to rapamycin/mTOR-PI3K.
-type: document
 published: 2026-04-23
 created: 2026-07-09
 source: https://doi.org/10.64898/2026.04.20.719646

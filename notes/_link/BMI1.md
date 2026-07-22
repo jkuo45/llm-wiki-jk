@@ -14,7 +14,7 @@ aliases: [BMI1, Bmi-1, B-cell-specific Moloney murine leukemia virus integration
 
 # BMI1
 
-BMI1 (B-cell-specific Moloney murine leukemia virus integration site 1, gene *BMI1*) is a core subunit of Polycomb Repressive Complex 1 (PRC1) that maintains gene silencing through [[Ubiquitin]]-mediated histone H2A monoubiquitylation. It is a well-established senescence suppressor: by repressing the [[CDKN2A|INK4a/ARF (p16/p14ARF)]] locus, BMI1 preserves proliferative capacity, and its loss triggers premature [[Cellular Senescence]]. In the SASP context, BMI1 also negatively regulates the chemokine [[CCL2]] through an [[IL-1α]]-mediated mechanism in senescent mesenchymal stromal cells, tuning the inflammatory output of the [[SASP|Senescence-Associated Secretory Phenotype]].
+BMI1 (B-cell-specific Moloney murine leukemia virus integration site 1, gene *BMI1*) is a core subunit of Polycomb Repressive Complex 1 (PRC1) that maintains gene silencing through [[Ubiquitin]]-mediated histone H2A monoubiquitylation. It is a well-established senescence suppressor: by repressing the [[CDKN2A|INK4a/ARF (p16/p14ARF)]] locus, BMI1 preserves proliferative capacity, and its loss triggers premature [[Senescence]]. In the SASP context, BMI1 also negatively regulates the chemokine [[CCL2]] through an [[IL-1α]]-mediated mechanism in senescent mesenchymal stromal cells, tuning the inflammatory output of the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 

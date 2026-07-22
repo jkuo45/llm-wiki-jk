@@ -1,7 +1,6 @@
 ---
 title: UCP1
 description: Uncoupling protein 1, the BAT-resident mitochondrial carrier that dissipates the proton gradient as heat, enabling thermogenesis and cold-induced mitohormesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

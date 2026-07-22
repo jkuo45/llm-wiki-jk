@@ -1,7 +1,6 @@
 ---
 title: mitoRQC
 description: Mitochondrial ribosome quality control is a surveillance pathway that recognizes and degrades nascent polypeptides stalled on mitochondrial ribosomes, preventing proteotoxic accumulation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

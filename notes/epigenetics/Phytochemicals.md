@@ -25,7 +25,7 @@ Numerous phytochemicals are natural [[Epigenetic Modifiers]]. They inhibit [[His
 
 ## Physiological & Protective Effects
 
-Beyond [[Antioxidant]] scavenging, phytochemicals induce phase-II detoxification enzymes, modulate the [[Sirtuin]] network (e.g., resveratrol activation of [[SIRT1]]), and promote [[Cellular Senescence]] clearance when combined in senolytic strategies. They support metabolic homeostasis and may attenuate inflammaging. Their effects are generally cytoprotective at physiological doses but can be pro-oxidant or toxic at high concentrations.
+Beyond [[Antioxidant]] scavenging, phytochemicals induce phase-II detoxification enzymes, modulate the [[Sirtuin]] network (e.g., resveratrol activation of [[SIRT1]]), and promote [[Senescence]] clearance when combined in senolytic strategies. They support metabolic homeostasis and may attenuate inflammaging. Their effects are generally cytoprotective at physiological doses but can be pro-oxidant or toxic at high concentrations.
 
 ## Pathology & Research Relevance
 
@@ -50,6 +50,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Epigenetic Modifiers]], [[Antioxidant]], [[Cancer]], [[Sirtuin]], [[H3K27me3]], [[Histone Methyltransferase]], [[Aging]], [[Cellular Senescence]], [[Induced Pluripotent Stem Cells]], [[Tumorigenicity]]
+- New links added: [[Epigenetic Modifiers]], [[Antioxidant]], [[Cancer]], [[Sirtuin]], [[H3K27me3]], [[Histone Methyltransferase]], [[Aging]], [[Senescence]], [[Induced Pluripotent Stem Cells]], [[Tumorigenicity]]
 - Suggested new entity notes to create: [[Xenohormesis]], [[Resveratrol]], [[Sulforaphane]]
 - Strong connections to strengthen: [[Phytochemicals]] ↔ [[Epigenetic Modifiers]], [[Phytochemicals]] ↔ [[Sirtuin]]

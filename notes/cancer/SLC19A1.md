@@ -1,7 +1,6 @@
 ---
 title: SLC19A1
 description: Solute Carrier Family 19 Member 1; a folate and reduced folate carrier implicated in methotrexate transport and cGAMP import
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [transporter, folate, drug-transport, immunology, cancer]

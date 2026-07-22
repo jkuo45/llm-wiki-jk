@@ -4,7 +4,6 @@ description: >-
   VEGF-C (VEGFc) is a VEGF family lymphangiogenic/angiogenic growth factor
   induced as a SASP component during oncogene-induced senescence; it contributes
   to paracrine senescence signalling and tumour-associated angiogenesis.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

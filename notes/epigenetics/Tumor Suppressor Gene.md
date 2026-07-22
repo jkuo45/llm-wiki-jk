@@ -36,7 +36,7 @@ Epigenetic TSG silencing is reversible — unlike genetic inactivation — makin
 
 ## TSG Silencing and Senescence
 
-TSG inactivation is a major route of escape from [[Cellular Senescence|senescence]]. Loss of [[p53]] or [[RB1]] — or epigenetic silencing of [[CDKN2A]] — prevents OIS cells from mounting a stable arrest, allowing progression from adenoma to carcinoma. Conversely, TSGs are also effectors of senescence induction: p53 and RB1 are the non-redundant backbone of the senescence program, and their activation by [[Senolytic Drugs|senolytic therapies]] may enhance elimination of senescent cells.
+TSG inactivation is a major route of escape from [[Senescence|senescence]]. Loss of [[p53]] or [[RB1]] — or epigenetic silencing of [[CDKN2A]] — prevents OIS cells from mounting a stable arrest, allowing progression from adenoma to carcinoma. Conversely, TSGs are also effectors of senescence induction: p53 and RB1 are the non-redundant backbone of the senescence program, and their activation by [[Senolytic Drugs|senolytic therapies]] may enhance elimination of senescent cells.
 
 ## Therapeutic Reactivation Strategies
 
@@ -73,7 +73,7 @@ TSG inactivation is a major route of escape from [[Cellular Senescence|senescenc
 - [[RASSF1A]]: | TSG | Cancer Type | Mechanism | Epidrug Response | |---|---|---|---| | [[CDKN2A]] (p16^INK4a^) | Melanoma, pancreat...
 - [[VHL]]: | TSG | Cancer Type | Mechanism | Epidrug Response | |---|---|---|---| | [[CDKN2A]] (p16^INK4a^) | Melanoma, pancreat...
 - [[HDAC inhibitors]]: | TSG | Cancer Type | Mechanism | Epidrug Response | |---|---|---|---| | [[CDKN2A]] (p16^INK4a^) | Melanoma, pancreat...
-- [[Cellular Senescence]]: TSG inactivation is a major route of escape from senescence.
+- [[Senescence]]: TSG inactivation is a major route of escape from senescence.
 - [[Senolytic Drugs]]: Conversely, TSGs are also effectors of senescence induction: p53 and RB1 are the non-redundant backbone of the senesc...
 - [[DNMT inhibitors]]: **[[Epigenetic Modifiers]]:** DNMTi + [[HDAC inhibitors|HDACi]] combinations (e.g., Decitabine + Vorinostat).
 - [[Epigenome]]: **Demethylating priming:** Low-dose Decitabine cycles to reprogram the Epigenome before chemotherapy.

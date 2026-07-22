@@ -3,7 +3,7 @@ title: ERK2
 description: Extracellular regulated protein kinase 2 (ERK2) is a kinase that phosphorylates
   TFEB at S142, contributing to its cytosolic retention.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-16
 tags:
   - protein
 aliases: [Erk2]
@@ -14,6 +14,11 @@ Extracellular regulated protein kinase 2 (ERK2) is a kinase that phosphorylates 
 ERK2 (MAPK1) is a serine/threonine kinase in the [[MAPK Signaling]] cascade. It is activated by MEK1/2 and phosphorylates both cytoplasmic and nuclear targets regulating proliferation, differentiation, and survival.
 ## Autophagy Regulation
 ERK2 directly phosphorylates [[TFEB]] at Ser142, promoting its cytosolic retention via [[14-3-3 protein]] binding. This provides a growth factor signaling input to the CLEAR network.
+
+## BAX Phosphorylation and Apoptotic Regulation
+
+> [!info] ERK2–Pin1 Survival Switch via BAX Thr167
+> In response to survival cytokines (e.g., [[GM-CSF]]), ERK2 phosphorylates [[BAX]] at **Thr167**, creating a pThr-Pro motif recognized by the peptidyl-prolyl isomerase [[Pin1]]. Pin1 binding locks BAX in an inactive state, preventing mitochondrial translocation and oligomerization. This represents a pro-survival mechanism that can be overridden by stress kinases ([[JNK]], [[p38 MAPK]]) targeting the same residue.
 **ERK2** (Extracellular Signal-Regulated Kinase 2) is a member of the [[MAPK]] family that plays a vital role in the transmission of signals from cell surface receptors to the nucleus, influencing cell proliferation and survival.
 
 
@@ -41,6 +46,6 @@ List of documents that mention this entity
 - [[14-3-3 protein]] — interacts with ERK2
 - [[MAPK]] — mitogen-activated protein kinase cascade; transmits extracellular signals
 ## Linking Summary
-- New links added: [[TFEB]], [[MAPK]], [[Bmf]], [[Melanoma]]
+- New links added: [[TFEB]], [[MAPK]], [[Bmf]], [[Melanoma]], [[BAX]], [[Pin1]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[PTPN5]], [[Cancer]]
 - Suggested new entity notes to create: [[ERK Signaling]]
-  - Strong connections to strengthen: [[ERK2]] ↔ [[TFEB]], [[ERK2]] ↔ Bmf
+  - Strong connections to strengthen: [[ERK2]] ↔ [[TFEB]], [[ERK2]] ↔ Bmf, [[ERK2]] ↔ [[BAX]], [[ERK2]] ↔ [[Pin1]]

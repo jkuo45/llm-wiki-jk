@@ -1,7 +1,6 @@
 ---
 title: GATA4
 description: GATA binding protein 4, a stress-responsive transcription factor that cooperates with NF-κB and C/EBPβ to drive SASP expression in senescent cells.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Platelet aggregation
 description: The process by which activated platelets adhere to one another to form a hemostatic plug or pathological thrombus.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: Redox Battery
 description: A conceptual adrenochrome-protocol term describing a reservable pool of reducing equivalents (NAD+/NADH and glutathione) that buffers redox stress during adrenochrome handling.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

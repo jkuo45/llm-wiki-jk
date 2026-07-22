@@ -1,7 +1,6 @@
 ---
 title: Immune Checkpoint
 description: Inhibitory pathways in the immune system that maintain self-tolerance and are co-opted by tumors to evade immune destruction
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [scientific-concept, immunology, cancer, immunotherapy]

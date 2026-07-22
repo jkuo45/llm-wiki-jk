@@ -1,7 +1,6 @@
 ---
 title: Vasopressors
 description: Vasopressors are agents that raise blood pressure by vasoconstriction or inotropy; first-line for shock before rescue agents like methylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

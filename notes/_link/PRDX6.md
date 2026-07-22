@@ -1,7 +1,6 @@
 ---
 title: PRDX6
 description: Peroxiredoxin 6 (PRDX6), a 1-Cys peroxiredoxin with peroxidase, iPLA2, and LPCAT activities; the direct molecular target of apigenin's senomorphic suppression of the SASP in senescent cells.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:
@@ -35,7 +34,7 @@ PRDX6 is a ~25 kDa monomer. Unlike the 2-Cys peroxiredoxins, it contains a singl
 > [!info] Source: [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
 > In a 66-compound natural-product screen, apigenin was identified as a potent **senomorphic** agent. Affinity pull-down (Bio-APIG), DARTS, CETSA, SPR and MST converged on **PRDX6 as the direct binding target** of apigenin. Apigenin binds PRDX6 at **Cys91** and **Glu210** (SPR KD ≈ 0.237 µM; MST Kd ≈ 916 nM); mutating either residue ~10-fold weakens binding, and mutating both abolishes it. Critically, apigenin suppresses the **iPLA2** (not peroxidase) activity of PRDX6, which underlies its SASP-dampening effect.
 
-Apigenin restrains the [[SASP|senescence-associated secretory phenotype]] without reversing [[Cellular Senescence|cellular senescence]] (growth arrest and SA-β-Gal remain intact). Mechanistically, apigenin binding to PRDX6 blocks its PLA2 activity, which disrupts downstream activation of [[HSPA8]] and prevents HSPA8's interactions with [[ATM]] and [[p38 MAPK]], blocking the transition of the [[Acute Stress-Associated Phenotype|acute stress-associated phenotype (ASAP)]] into the chronic SASP[67]. The selective PRDX6-PLA2 inhibitor [[MJ33]] phenocopies apigenin, suppressing canonical SASP factors ([[IL-6]], [[IL-8|CXCL8]], [[IL-1α]], [[MMP1|MMP1/3]]) and inhibiting PI3K/Akt signaling. Co-IP/MS confirmed a physical interaction between PRDX6 and HSPA8 in senescent cells.
+Apigenin restrains the [[SASP|senescence-associated secretory phenotype]] without reversing [[Senescence|cellular senescence]] (growth arrest and SA-β-Gal remain intact). Mechanistically, apigenin binding to PRDX6 blocks its PLA2 activity, which disrupts downstream activation of [[HSPA8]] and prevents HSPA8's interactions with [[ATM]] and [[p38 MAPK]], blocking the transition of the [[Acute Stress-Associated Phenotype|acute stress-associated phenotype (ASAP)]] into the chronic SASP[67]. The selective PRDX6-PLA2 inhibitor [[MJ33]] phenocopies apigenin, suppressing canonical SASP factors ([[IL-6]], [[IL-8|CXCL8]], [[IL-1α]], [[MMP1|MMP1/3]]) and inhibiting PI3K/Akt signaling. Co-IP/MS confirmed a physical interaction between PRDX6 and HSPA8 in senescent cells.
 
 ## Physiological Function
 
@@ -65,6 +64,6 @@ PRDX6 is broadly expressed and protects against oxidative and peroxidative damag
 
 ## Linking Summary
 
-- New links added: [[Apigenin]], [[HSPA8]], [[SASP]], [[Acute Stress-Associated Phenotype]], [[NAC]], [[MJ33]], [[ATM]], [[p38 MAPK]], [[Peroxiredoxin]], [[PRDX1]], [[Cys91]], [[Glu210]], [[Arachidonic Acid]], [[Cellular Senescence]], [[Chemoresistance]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Ferroptosis]], [[IL-6]], [[IL-8]], [[IL-1α]], [[MMP1]]
+- New links added: [[Apigenin]], [[HSPA8]], [[SASP]], [[Acute Stress-Associated Phenotype]], [[NAC]], [[MJ33]], [[ATM]], [[p38 MAPK]], [[Peroxiredoxin]], [[PRDX1]], [[Cys91]], [[Glu210]], [[Arachidonic Acid]], [[Senescence]], [[Chemoresistance]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Ferroptosis]], [[IL-6]], [[IL-8]], [[IL-1α]], [[MMP1]]
 - Suggested new entity notes to create: [[PRDX1]] (peroxiredoxin reductase partner), [[aiPLA2]], [[LPCAT]]
 - Strong connections to strengthen: [[PRDX6]] ↔ [[Apigenin]], [[PRDX6]] ↔ [[HSPA8]], [[PRDX6]] ↔ [[SASP]]

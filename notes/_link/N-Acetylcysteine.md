@@ -1,7 +1,6 @@
 ---
 title: N-Acetylcysteine
 description: N-Acetylcysteine (NAC) is the N-acetyl derivative of L-cysteine; it acts as a mucolytic and, more importantly, as a precursor that replenishes intracellular Glutathione and supports antioxidant defense.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

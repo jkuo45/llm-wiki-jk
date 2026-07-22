@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BMAL1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BMI1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BMP.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BNIP3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BNP.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BRAF.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BRCA2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/BRD4.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bacteroidetes.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bafilomycin A1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bardoxolone methyl.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Barrier-to-Autointegration Factor 1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Base Excision Repair.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bcl-2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Beta Diversity.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Beta-amyloid.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bid.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bifidobacterium.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bilirubin.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Bioavailability.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Biological Aging.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/Biomarker.md

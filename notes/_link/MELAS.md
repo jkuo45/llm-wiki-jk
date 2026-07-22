@@ -1,7 +1,6 @@
 ---
 title: MELAS
 description: Mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes, a maternally inherited mitochondrial disorder
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

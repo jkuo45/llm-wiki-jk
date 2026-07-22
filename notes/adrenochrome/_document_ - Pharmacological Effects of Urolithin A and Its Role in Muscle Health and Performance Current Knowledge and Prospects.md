@@ -1,7 +1,6 @@
 ---
 title: 'Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects'
 description: Review of Urolithin A (UA), a gut-microbiota-derived metabolite of ellagitannins, covering its dietary sources, metabolism/bioavailability, pharmacological effects (mitophagy, antioxidant, anti-inflammatory, metabolic regulation), and its role in muscle health, performance, hypertrophy, and fatigue via AMPK, mTOR, NF-κB, PGC-1α, and FOXO signaling.
-type: document
 published: 2023-10-19
 created: 2026-06-20
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10609777/

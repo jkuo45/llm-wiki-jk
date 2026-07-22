@@ -21,7 +21,7 @@ p21 binds and inhibits a broad range of [[Cyclin-Dependent Kinase]] complexes (C
 
 ## Mechanism/Function
 
-p21 inhibits CDK complexes, preventing phosphorylation of the retinoblastoma protein (Rb) and halting the cell cycle at the G1/S (and, at high levels, G2/M) transition. This arrest allows time for DNA repair, or, if damage is irreparable, triggers [[Cellular Senescence]] or apoptosis. p21 also binds PCNA, inhibiting DNA polymerase δ/ε processivity and directly blocking DNA synthesis. Beyond the cell cycle, p21 modulates [[Chromatin Remodeling]], [[Apoptosis]], and [[Autophagy]].
+p21 inhibits CDK complexes, preventing phosphorylation of the retinoblastoma protein (Rb) and halting the cell cycle at the G1/S (and, at high levels, G2/M) transition. This arrest allows time for DNA repair, or, if damage is irreparable, triggers [[Senescence]] or apoptosis. p21 also binds PCNA, inhibiting DNA polymerase δ/ε processivity and directly blocking DNA synthesis. Beyond the cell cycle, p21 modulates [[Chromatin Remodeling]], [[Apoptosis]], and [[Autophagy]].
 
 ## Physiological & Pathological Function
 
@@ -49,13 +49,13 @@ List of documents that mention this entity
 
 - [[p53]] — p21 is the key downstream effector of p53-mediated arrest.
 - [[Cyclin-Dependent Kinase]] — p21 inhibits these enzymes to regulate the cell cycle.
-- [[Cellular Senescence]] — p21 induction is a primary driver of senescence.
+- [[Senescence]] — p21 induction is a primary driver of senescence.
 - [[DNA Damage Response]] — p21 mediates arrest in response to DNA damage.
 - [[Tumor Suppressor]] — p21 is a fundamental tumor-suppressor effector.
 - [[Cell Cycle]] — p21 is a major regulator of cycle progression.
 
 ## Linking Summary
 
-- New links added: [[p21]], [[p53]], [[Cyclin-Dependent Kinase]], [[Cellular Senescence]], [[DNA Damage Response]], [[Tumor Suppressor]], [[Cell Cycle]], [[Chromatin Remodeling]], [[Apoptosis]], [[Autophagy]], [[Aging]], [[Geroscience]], [[Busulfan]], [[Aphidicolin]], [[CDKN1B]], [[CDKN1C]]
+- New links added: [[p21]], [[p53]], [[Cyclin-Dependent Kinase]], [[Senescence]], [[DNA Damage Response]], [[Tumor Suppressor]], [[Cell Cycle]], [[Chromatin Remodeling]], [[Apoptosis]], [[Autophagy]], [[Aging]], [[Geroscience]], [[Busulfan]], [[Aphidicolin]], [[CDKN1B]], [[CDKN1C]]
 - Suggested new entity notes to create: [[WAF1/CIP1]], [[SASP|Senescence-Associated Secretory Phenotype]]
-- Strong connections to strengthen: [[CDKN1A]] ↔ [[p53]], [[CDKN1A]] ↔ [[Cellular Senescence]]
+- Strong connections to strengthen: [[CDKN1A]] ↔ [[p53]], [[CDKN1A]] ↔ [[Senescence]]

@@ -1,7 +1,6 @@
 ---
 title: Kidney
 description: The paired organs that filter blood, regulate fluid and electrolyte balance, and produce hormones.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

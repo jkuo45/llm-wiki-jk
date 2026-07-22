@@ -39,6 +39,31 @@ Howitz et al. (2003) identified resveratrol as an activator of mammalian [[SIRT1
 - Neuroprotection, anti-inflammation, tumour suppression
 - May also activate [[AMPK]] upstream of SIRT1
 
+## Atheroprotective Mechanisms
+
+> [!info] Source: [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+> Resveratrol exerts atheroprotection through a dual mechanism: (1) direct antioxidant protection of lipoproteins against oxidation, and (2) enhancement of [[Cholesterol Efflux]] from macrophages via [[ABCA1]] upregulation.
+
+### Lipoprotein Oxidation Inhibition
+
+- Resveratrol inhibits copper- and γ-radiolysis-induced [[LDL]] oxidation in a concentration-dependent manner (0–1 µM), extending the lag phase and reducing V_max of [[Conjugated Dienes]] formation
+- Protects [[HDL3]] from copper oxidation, preserving its capacity to mediate [[Cholesterol Efflux]]
+- Resveratrol's three phenolic hydroxyl groups enable it to associate with the lipid moiety of lipoproteins and prevent oxidation of unsaturated fatty acids
+- Acts as a potent chelator of free copper ions and can remove copper ions bound to apoB
+- Exhibits equivalent [[DPPH]] free radical scavenging activity to [[Vitamin E]] at identical concentrations
+
+### Cholesterol Homeostasis
+
+- Enhances [[Apolipoprotein A1|apoA-1]]-mediated [[Cholesterol Efflux]] in a dose-dependent manner (r² = 0.907, p < 0.05) by up-regulating [[ABCA1]] receptor expression
+- Reduces [[Cholesterol Influx]] into J774 macrophages in a dose-dependent manner (r² = 0.89, p = 0.015)
+- Induces [[Liver X Receptor|LXR-α]] expression in human monocyte-derived macrophages and represses lipid uptake genes LPL and SR-AII
+- Restores HDL3-mediated [[Cholesterol Efflux]] under [[Oxidative Stress]] (Fe/Asc) in both J774 and mouse peritoneal macrophages
+
+### French Paradox Connection
+
+- The "French paradox" — low CVD incidence despite high-fat diet — has been partly attributed to resveratrol in red wine
+- Animal studies show non-alcoholized red wine increases plasma [[HDL]] in rats and reduces total plasma [[Cholesterol]] in hamsters
+
 ## Alternative for Slow COMT
 
 Resveratrol lacks a catechol structure and does not compete for [[COMT]], making it a safe anti-inflammatory option for slow COMT individuals.
@@ -49,8 +74,11 @@ Resveratrol lacks a catechol structure and does not compete for [[COMT]], making
 
 List of documents that mention this entity
 
+  - [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+    - Demonstrates resveratrol's dual atheroprotective mechanism: inhibits lipoprotein oxidation and enhances cholesterol efflux via ABCA1 upregulation; protects HDL3 functionality under oxidative stress.
+
   - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
-    - Here are some alternative natural Anti-inflammatory supplements that don’t interact with COMT: - Berberine - Resveratrol - Melatonin - Hesperidin Methyl-donor supplements increase COMT reactions: The COMT enzyme needs Methyl groups for its reactions, and in...
+    - Here are some alternative natural Anti-inflammatory supplements that don't interact with COMT: - Berberine - Resveratrol - Melatonin - Hesperidin Methyl-donor supplements increase COMT reactions: The COMT enzyme needs Methyl groups for its reactions, and in...
 
   - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
     - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
@@ -68,8 +96,10 @@ List of documents that mention this entity
     - Keywords ADP-ribosyl transferase activity; Caloric Restriction; deacetylase activity; Resveratrol; Sir2 (yeast) (silent information regulator 2); Sirtuins (SIRT1–SIRT
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
+     - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Listed among polyphenols with senescence-modulating activity; protects via mitochondrial function and inflammatory (SIRT1/NF-κB) signaling in fibrotic settings.
 
 ## Connections
 - [[SIRT1]] — Primary molecular target
@@ -83,8 +113,22 @@ List of documents that mention this entity
 - **[[Geroscience]]**: A major focus of research into natural longevity molecules.
 - [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
 - [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
+- [[SIRT1]]: Resveratrol activates SIRT1 to protect mitochondrial/inflammatory pathways.
+- [[SASP]]: Resveratrol modulates SASP in senescence.
+- [[ABCA1]] — Upregulated by resveratrol; mediates cholesterol efflux to apoA-1
+- [[ABCG1]] — Co-regulated with ABCA1 by LXR; promotes cholesterol efflux to HDL
+- [[Cholesterol Efflux]] — Resveratrol enhances this process from macrophages
+- [[HDL]] — Resveratrol protects HDL from oxidation and preserves its cholesterol efflux capacity
+- [[LDL]] — Resveratrol protects LDL from copper- and radical-induced oxidation
+- [[Atherosclerosis]] — Resveratrol inhibits atherosclerotic progression via dual antioxidant and cholesterol efflux mechanisms
+- [[Lipid Peroxidation]] — Resveratrol inhibits lipid peroxidation in lipoproteins and macrophages
+- [[Oxidative Stress]] — Resveratrol counters oxidative stress in macrophages, restoring cholesterol efflux
+- [[Liver X Receptor]] — Resveratrol induces LXR-α expression, upregulating ABCA1 and ABCG1
+- [[French Paradox]] — Low CVD in France attributed partly to resveratrol in red wine
+- [[Polyphenols]] — Resveratrol is a polyphenolic stilbene
+- [[Cardiovascular Disease]] — Resveratrol is atheroprotective; reduces CVD risk factors
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
-  - Strong connections to strengthen: [[Resveratrol]] ↔ Caloric Restriction, [[Resveratrol]] ↔ [[SIRT1]]## Additional Content from Topic Directory
+  - Strong connections to strengthen: [[Resveratrol]] ↔ [[Caloric Restriction]], [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[ABCA1]]
 
 **Resveratrol** (3,5,4′-trihydroxystilbene) is a **polyphenolic stilbene** found naturally in the skin of grapes, red wine, and a variety of other plants. It is synthesised by plants in response to stress (biotic or abiotic). Resveratrol was identified as a **STAC (sirtuin activating compound)** — the prototypical pharmacological activator of [[SIRT1]] — and has been shown to extend lifespan in diverse organisms and improve metabolic health in mammals.
 

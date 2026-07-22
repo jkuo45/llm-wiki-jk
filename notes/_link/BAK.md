@@ -1,15 +1,17 @@
 ---
 title: BAK
 description: Pro-apoptotic Bcl-2 family effector constitutively anchored to the outer mitochondrial membrane; oligomerizes with BAX to execute mitochondrial outer membrane permeabilization.
-type: entity
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-16
 tags:
   - protein
   - apoptosis
   - mitochondrial
   - cell-death
   - redox
+  - phosphorylation
+  - phosphatase
+  - cancer
 url: #
 source: #
 aliases:
@@ -27,6 +29,11 @@ BAK contains BH1–BH3 domains and is held in check by anti-apoptotic partners s
 
 ## Mechanism of Action & MOMP
 Activated BAK hetero-oligomerizes with [[BAX]] and additional BAK subunits, permeabilizing the outer membrane and releasing [[Cytochrome C]] and [[Smac DIABLO]]. This initiates the [[Caspases]] cascade and the execution phase of death. The resulting leakage also amplifies [[Reactive Oxygen Species]] and can trigger [[Mitophagy]] via [[Parkin]].
+
+## Phosphorylation-Dependent Licensing
+
+> [!important] PTPN5-Mediated Dephosphorylation Licenses BAK
+> BAK is maintained in an inactive state on the mitochondria through inhibitory phosphorylation at **Tyr108**. For BAK to be activated, it must be dephosphorylated at this site. This "licensing" is mediated by the **[[PTPN5]]** (STEP), along with PTPN2 and PTPN23. In K-RAS mutated cancers (e.g., colon cancer), hyperactive ERK1/2 phosphorylates and **inactivates PTPN5**, locking BAK in its inactive state and providing profound resistance to apoptosis. Genetic loss or downregulation of PTPN2 and PTPN23 is common in T-cell leukemias and epithelial cancers, raising the threshold for BAK activation.
 
 ## Physiology, Redox & Longevity
 BAK-mediated permeabilization intersects with [[Mitochondrial Dysfunction]], senescent-cell survival, and [[Inflammaging]]. Cells that downregulate BAK/BAX resist death and contribute to the [[SASP|Senescence-Associated Secretory Phenotype]] in aging. Senotherapeutics and [[Nicotinamide Riboside]]-associated metabolic remodeling influence these pathways, positioning BAK as a longevity-relevant node linking apoptosis, mitophagy, and redox control.
@@ -52,6 +59,6 @@ BAK-mediated permeabilization intersects with [[Mitochondrial Dysfunction]], sen
 
 ## Linking Summary
 
-  - New links added: [[BAK]], [[BAX]], [[Bcl-2]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Bid]], [[Smac DIABLO]], [[Caspases]], [[Mitophagy]], [[Parkin]]
-  - Suggested new entity notes to create: [[Bid]], [[Mcl-1]], [[BH3-only proteins]]
-  - Strong connections to strengthen: [[BAK]] ↔ [[Mitophagy]], [[BAK]] ↔ [[Senescent Cells]]
+  - New links added: [[BAK]], [[BAX]], [[Bcl-2]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Bid]], [[Smac DIABLO]], [[Caspases]], [[Mitophagy]], [[Parkin]], [[PTPN5]], [[ERK2]], [[PTPN family]], [[Cancer]]
+  - Suggested new entity notes to create: [[Bid]], [[Mcl-1]], [[BH3-only proteins]], [[PTPN2]], [[PTPN23]]
+  - Strong connections to strengthen: [[BAK]] ↔ [[Mitophagy]], [[BAK]] ↔ [[Senescent Cells]], [[BAK]] ↔ [[PTPN5]]

@@ -1,7 +1,6 @@
 ---
 title: Metabolome
 description: The metabolome is the complete set of small-molecule chemicals—metabolic intermediates, hormones, and signaling metabolites—present in a biological sample, cell, or organism at a given time.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:

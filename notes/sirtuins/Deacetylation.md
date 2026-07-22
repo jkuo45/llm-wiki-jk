@@ -1,7 +1,6 @@
 ---
 title: Deacetylation
 description: Enzymatic removal of acetyl groups from lysine residues on proteins and other molecules, principally catalyzed by NAD+-dependent sirtuin deacetylases and opposing acetyltransferases.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

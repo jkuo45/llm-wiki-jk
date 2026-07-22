@@ -99,7 +99,7 @@ Loss-of-function mutations in [[TSC1]] or [[TSC2]] cause Tuberous Sclerosis, a n
 Chronic mTORC1 activation in [[Adipose Tissue]], [[Liver]], and [[Pancreatic β-cells]] contributes to [[Insulin Resistance]], [[Type 2 Diabetes Mellitus]], and [[Obesity]]. S6K1-mediated [[IRS1]] phosphorylation creates negative feedback that desensitizes PI3K-Akt signaling.
 
 ### Aging
-mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacological suppression of mTORC1 extends [[Lifespan]] across species (yeast, worms, flies, mice). [[Rapamycin]] and [[Rapalogs]] extend murine lifespan and delay multiple hallmarks of aging including [[Cellular Senescence]], [[Mitochondrial Dysfunction]], and [[Proteostasis]] decline. mTORC1 inhibition recapitulates many benefits of [[Caloric Restriction]].
+mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacological suppression of mTORC1 extends [[Lifespan]] across species (yeast, worms, flies, mice). [[Rapamycin]] and [[Rapalogs]] extend murine lifespan and delay multiple hallmarks of aging including [[Senescence]], [[Mitochondrial Dysfunction]], and [[Proteostasis]] decline. mTORC1 inhibition recapitulates many benefits of [[Caloric Restriction]].
 
 ### Therapeutic Targeting
 [[Rapamycin]] (sirolimus), [[Everolimus]], [[Temsirolimus]], and [[Ridaforolimus]] are FDA-approved [[mTOR inhibitors]] that target mTORC1 via allosteric FRB-domain binding. Second-generation [[ATP-competitive mTOR inhibitors]] (Torin, [[AZD8055]], [[INK128]]) target both mTORC1 and mTORC2 catalytic activity. [[Rapalogs]] are used as [[Immunosuppressants]], anticancer agents, and are under investigation as [[Geroprotectors]].
@@ -169,7 +169,7 @@ List of documents that mention this entity
 - [[S6K1]] — key downstream effector; phosphorylates multiple translational regulators
 - [[4E-BP1]] — translation repressor; released from eIF4E upon mTORC1 phosphorylation
 - [[TFEB]] — transcription factor for lysosomal genes; retained in cytosol by mTORC1
-- [[Cellular Senescence]] — mTORC1 drives senescence-associated secretory phenotype; inhibition reduces SASP
+- [[Senescence]] — mTORC1 drives senescence-associated secretory phenotype; inhibition reduces SASP
 - [[Aging]] — mTORC1 hyperactivation accelerates aging; inhibition extends lifespan
 - [[Tuberous Sclerosis]] — monogenic mTORC1 hyperactivation syndrome
 

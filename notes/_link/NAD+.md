@@ -72,6 +72,9 @@ List of documents that mention this entity
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - The coenzyme Sirtuins use for DNA repair and mitochondrial biogenesis; NAD+ peaks circadianly in the morning, so [[NMN]]/[[NR]] are taken on waking.
 
+- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+  - SIRT1 activity is gated by NAD+ availability; the BMAL1/CLOCK→NAMPT axis generates circadian NAD+ oscillations that rhythmically activate SIRT1.
+
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes
 - [[Caloric Restriction]] — Increases NAD+ levels, activating sirtuins
@@ -82,7 +85,9 @@ List of documents that mention this entity
 - [[Sir2 (yeast)]] — founding sirtuin; NAD⁺ dependence first established here
 - [[OAADPr]] — unique metabolic by-product of NAD⁺-dependent deacetylation
 - [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
-- [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation## Additional Content from Topic Directory
+- [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
+- [[NAMPT]]: NAMPT produces NAD+ in a circadian (BMAL1/CLOCK-driven) manner to gate SIRT1.
+- [[BMAL1]]: BMAL1/CLOCK drive rhythmic NAD+ and SIRT1 activation.## Additional Content from Topic Directory
 
 **[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[Metabolism]] and serves as a vital signaling molecule for various biological processes.
 

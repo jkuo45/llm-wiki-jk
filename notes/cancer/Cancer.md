@@ -108,7 +108,7 @@ List of documents that mention this entity
 - [[Reactive Oxygen Species]]
 - [[Ascorbic Acid]] (as a potential prooxidant therapy)
 - **[[DNA Methylation]]**: The primary epigenetic mark that is dysregulated in both aging and cancer.
-- **[[Cellular Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
+- **[[Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
 - **[[SASP|Senescence-Associated Secretory Phenotype]]**: The senescence-associated secretory phenotype mediates the paracrine effects of senescent cells, driving chronic inflammation and tumor promotion in the cancer microenvironment.
 - **[[cGAS-STING Pathway]]**: An innate immune sensor of cytoplasmic DNA that drives SASP factor expression in senescent cells; plays context-dependent roles in cancer (tumor suppression via immune surveillance vs. tumor promotion via chronic inflammation).
 - **[[Genomic Instability]]**: A consequence of epigenetic erosion that facilitates the acquisition of cancer-driving mutations.
@@ -165,7 +165,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: [[Oncogene Activation]], [[DNA Damage]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
 
-- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Clock]].
+- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Oncogene]], [[Tumor Suppressor]], [[Telomere]], [[Telomerase]].
 - Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]]
 
@@ -197,7 +197,7 @@ Cancer is often described as having a "hyperaged" epigenetic profile. Research s
 While they share many features, some hallmarks of aging act in opposition to cancer:
 
 *   **Telomere Attrition:** A hallmark of aging that limits cell lifespan. It prevents cancer by inducing senescence; cancer cells must bypass this (e.g., via telomerase reactivation) to become immortal.
-*   **[[Cellular Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP|Senescence-Associated Secretory Phenotype]]) can later promote tumor growth in the surrounding tissue.
+*   **[[Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP|Senescence-Associated Secretory Phenotype]]) can later promote tumor growth in the surrounding tissue.
 *   **[[Epigenetic Clock]]s:** Tumors typically show significantly higher "epigenetic ages" than the chronological age of the patient, reflecting their rapid and disorganized cellular proliferation.
 
 
@@ -259,8 +259,8 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 ## Linking Summary
 - New links added: [[Aging]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]], [[Cancer]] ↔ [[cGAS-STING Pathway]], [[Cancer]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]] ↔ [[Cellular Senescence]]
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[Oncogene Activation]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]], [[Cancer]] ↔ [[cGAS-STING Pathway]], [[Cancer]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]] ↔ [[Senescence]]
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[Oncogene Activation]]
 - Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[Oncogene Activation]]# Cancer
 
 **Cancer** is a large group of diseases characterized by uncontrolled cell growth with the potential to invade or spread to other parts of the body. It shares a "meta-hallmark" of epigenetic instability with aging.
@@ -319,7 +319,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: [[Oncogene Activation]], [[DNA Damage]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
 
-- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Clock]].
+- New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Oncogene]], [[Tumor Suppressor]], [[Telomere]], [[Telomerase]].
 - Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]]
 
@@ -351,7 +351,7 @@ Cancer is often described as having a "hyperaged" epigenetic profile. Research s
 While they share many features, some hallmarks of aging act in opposition to cancer:
 
 *   **Telomere Attrition:** A hallmark of aging that limits cell lifespan. It prevents cancer by inducing senescence; cancer cells must bypass this (e.g., via telomerase reactivation) to become immortal.
-*   **[[Cellular Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP|Senescence-Associated Secretory Phenotype]]) can later promote tumor growth in the surrounding tissue.
+*   **[[Senescence]]:** Initially acts as a tumor-suppressor mechanism by stopping the growth of damaged cells. However, the chronic presence of senescent cells and their secretion of pro-inflammatory factors ([[SASP|Senescence-Associated Secretory Phenotype]]) can later promote tumor growth in the surrounding tissue.
 *   **[[Epigenetic Clock]]s:** Tumors typically show significantly higher "epigenetic ages" than the chronological age of the patient, reflecting their rapid and disorganized cellular proliferation.
 
 

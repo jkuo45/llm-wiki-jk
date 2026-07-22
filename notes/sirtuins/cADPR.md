@@ -50,12 +50,7 @@ List of documents that mention this entity
 - **[[NAD+]]**: The precursor molecule from which cADPR is synthesized.
 - **[[Apoptosis|Apoptosis]]**: Regulated by calcium fluxes modulated by cADPR.
 
-## Linking Summary:
+## Linking Summary
 - New links added: [[CD38]], [[NAD+]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Ryanodine Receptors]], [[Oxytocin]]
 - Strong connections to strengthen: [[cADPR]] ↔ [[CD38]], [[cADPR]] ↔ [[NAD+]]
-
-## Linking Summary
-- New links added: [[Apoptosis]], [[CD38]], [[NAD+]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[cADPR (Cyclic ADP-ribose)]] ↔ [[Apoptosis]], [[cADPR (Cyclic ADP-ribose)]] ↔ [[NAD+]], [[cADPR (Cyclic ADP-ribose)]] ↔ [[CD38]]

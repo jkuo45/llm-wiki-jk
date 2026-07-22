@@ -69,12 +69,17 @@ PGC-1α integrates [[Caloric Restriction]] signals:
 - [[NAD+]] — elevated NAD⁺ → SIRT1 activation → PGC-1α deacetylation
 - [[Mitochondrial Biogenesis]] — PGC-1α is the master regulator
 - [[Neurodegeneration]] — PGC-1α loss sensitises neurons to oxidative damage (MPTP, kainic acid)
+- [[BMAL1]]: SIRT1→PGC-1α amplifies BMAL1/CLOCK expression.
+- [[Mitochondrial Biogenesis]]: PGC-1α deacetylation drives mitochondrial biogenesis.
 
 
 ## Documents
 
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - HIIT generates the acute ROS/lactate spike that triggers PGC-1α, the master regulator of mitochondrial biogenesis.
+
+  - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+    - SIRT1 deacetylates PGC-1α to activate mitochondrial biogenesis and amplify BMAL1/CLOCK circadian transcription factor expression.
 
 ## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]]

@@ -1,7 +1,6 @@
 ---
 title: HeLa
 description: The first immortal human cell line, derived from cervical adenocarcinoma, foundational to modern cell biology.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -37,7 +36,7 @@ As a model of HPV-driven carcinogenesis, HeLa informs [[Cancer]] mechanisms and 
 
   - [[tbl_senescent_compounds_normalized]]
     - HeLa listed among cell models in senescent compound screening records.
-  - [[_document_ - task_output_sirtuins_adrenochrome_mnsod_06_JULY_2026]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026]]
     - HeLa referenced for sirtuin/MnSOD expression and oxidative stress comparisons.
 
 ## Connections

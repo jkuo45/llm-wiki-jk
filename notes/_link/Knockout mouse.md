@@ -1,7 +1,6 @@
 ---
 title: Knockout mouse
 description: A genetically engineered mouse in which a specific gene has been inactivated (knocked out) to study gene function in vivo.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -34,11 +33,11 @@ Knockout models reveal whether a gene promotes or suppresses tumorigenesis and a
 
 ## Documents
 
-  - [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]
     - Knockout mouse models are proposed to validate sirtuin and MnSOD pathways in adrenochrome-related oxidative stress research.
-  - [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026]]
+  - [[task_output_sirtuins_recommendations_03_JULY_2026]]
     - Recommendations include knockout mouse studies to confirm candidate gene involvement in aging phenotypes.
-  - [[_document_ - task_output_sirtuins_adrenochrome_mnsod_06_JULY_2026]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026]]
     - Knockout designs are discussed for examining MnSOD and sirtuin contributions to mitochondrial function.
 
 ## Connections

@@ -1,7 +1,6 @@
 ---
 title: Zone 2 Cardio
 description: Low-to-moderate aerobic training sustained in the fat-oxidation zone; builds the mitochondrial base and supports recovery on non-hormetic days.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

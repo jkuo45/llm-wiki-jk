@@ -1,7 +1,6 @@
 ---
 title: Intrinsically Disordered Region
 description: Intrinsically disordered regions (IDRs) are protein segments that lack a fixed three-dimensional structure under physiological conditions, yet mediate critical protein-protein interactions, phase separation, and signaling.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

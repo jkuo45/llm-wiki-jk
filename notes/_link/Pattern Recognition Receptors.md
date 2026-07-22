@@ -1,7 +1,6 @@
 ---
 title: Pattern Recognition Receptors
 description: Germline-encoded innate immune sensors that detect pathogen-derived and endogenous nucleic acids and danger signals, initiating inflammatory responses.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [receptor, innate-immunity, nucleic-acid-sensing]

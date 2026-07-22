@@ -1,7 +1,6 @@
 ---
 title: Ryanodine Receptor
 description: Intracellular Ca2+ release channel of the sarcoplasmic/endoplasmic reticulum that supplies cytosolic Ca2+ signals to mitochondria.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

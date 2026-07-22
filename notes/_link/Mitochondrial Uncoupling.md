@@ -1,7 +1,6 @@
 ---
 title: Mitochondrial Uncoupling
 description: Dissipation of the proton motive force across the inner mitochondrial membrane, decoupling electron transport from ATP synthesis and releasing heat.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

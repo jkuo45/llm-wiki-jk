@@ -29,14 +29,22 @@ Therapeutic IL-1 blockade (e.g., anakinra, canakinumab) reduces cardiovascular e
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP implications]]
     - Discusses IL-1β as a cardinal SASP cytokine.
 
+  - [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-Dependent AIM2 Inflammasome Activation in IPF]]
+    - DROSHA deficiency suppressed AIM2 inflammasome-dependent IL-1β secretion in IPF alveolar macrophages.
+
 ## Connections
 
   - [[Caspase-1]]: The protease that cleaves pro-IL-1β into its active mature form.
   - [[NLRP3 Inflammasome]]: The multiprotein platform that activates caspase-1 upstream of IL-1β.
+  - [[AIM2]]: DROSHA promotes AIM2 inflammasome activation, driving IL-1β release in IPF alveolar macrophages [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-AIM2 IPF]]
+  - [[ASC]]: ASC specks concentrate caspase-1 that matures IL-1β
+  - [[Drosha]]: Elevated in IPF macrophages; promotes IL-1β secretion via AIM2
+  - [[Idiopathic Pulmonary Fibrosis]]: Disease context of DROSHA→AIM2→IL-1β lung inflammation
   - [[Inflammation]]: The systemic process IL-1β propagates.
+  - [[Inflammaging]]: Chronic IL-1β release contributes to age-related inflammation
 
 ## Linking Summary
 
-  - New links added: [[Caspase-1]], [[NLRP3 Inflammasome]], [[Inflammation]], [[Oxidative Stress]]
+  - New links added: [[Caspase-1]], [[NLRP3 Inflammasome]], [[Inflammation]], [[Oxidative Stress]], [[AIM2]], [[ASC]], [[Drosha]], [[Idiopathic Pulmonary Fibrosis]], [[Inflammaging]]
   - Suggested new entity notes to create: 
-  - Strong connections to strengthen: [[Interleukin 1β]] ↔ [[NLRP3 Inflammasome]]
+  - Strong connections to strengthen: [[Interleukin 1β]] ↔ [[NLRP3 Inflammasome]], [[Interleukin 1β]] ↔ [[AIM2]]

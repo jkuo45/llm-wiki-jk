@@ -1,7 +1,6 @@
 ---
 title: HSPA8
 description: Heat shock cognate protein 70 (HSPA8 / HSC70), a constitutively expressed HSP70 family chaperone that bridges ATM and p38 MAPK signaling and is the interaction node disrupted by apigenin to suppress the SASP in senescent cells.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:
@@ -17,7 +16,7 @@ aliases: [HSPA8, HSC70, Heat shock cognate protein 70, HSP70-8, HSC-70]
 
 # HSPA8
 
-**HSPA8** (heat shock cognate protein 70, commonly **HSC70**) is a constitutively expressed member of the [[HSP70|heat shock protein 70 family]]. It functions as a central chaperone — including a key role in [[Chaperone-Mediated Autophagy|chaperone-mediated autophagy]] (CMA), one of the main lysosome-autophagy proteolytic pathways. Deficient protein degradation via CMA compromises cellular proteostasis and activates signaling that culminates in [[Cellular Senescence|cellular senescence]][39].
+**HSPA8** (heat shock cognate protein 70, commonly **HSC70**) is a constitutively expressed member of the [[HSP70|heat shock protein 70 family]]. It functions as a central chaperone — including a key role in [[Chaperone-Mediated Autophagy|chaperone-mediated autophagy]] (CMA), one of the main lysosome-autophagy proteolytic pathways. Deficient protein degradation via CMA compromises cellular proteostasis and activates signaling that culminates in [[Senescence|cellular senescence]][39].
 
 ## Structure & Family Context
 
@@ -63,6 +62,6 @@ Critically, co-immunoprecipitation/MS demonstrated that **HSPA8 physically inter
 
 ## Linking Summary
 
-- New links added: [[PRDX6]], [[ATM]], [[p38 MAPK]], [[NF-κB]], [[TXNDC5]], [[Akt]], [[VEGF]], [[VER155008]], [[Chaperone-Mediated Autophagy]], [[NPM1]], [[SASP]], [[Acute Stress-Associated Phenotype]], [[Cellular Senescence]], [[Apigenin]], [[HSP70]], [[IκBβ]]
+- New links added: [[PRDX6]], [[ATM]], [[p38 MAPK]], [[NF-κB]], [[TXNDC5]], [[Akt]], [[VEGF]], [[VER155008]], [[Chaperone-Mediated Autophagy]], [[NPM1]], [[SASP]], [[Acute Stress-Associated Phenotype]], [[Senescence]], [[Apigenin]], [[HSP70]], [[IκBβ]]
 - Suggested new entity notes to create: [[IκBβ]], [[LAMP-2A]]
 - Strong connections to strengthen: [[HSPA8]] ↔ [[PRDX6]], [[HSPA8]] ↔ [[ATM]]/[[p38 MAPK]], [[HSPA8]] ↔ [[NF-κB]]

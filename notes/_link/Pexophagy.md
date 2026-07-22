@@ -1,7 +1,6 @@
 ---
 title: Pexophagy
 description: Pexophagy is the selective autophagic degradation of peroxisomes, maintaining peroxisome quality, number, and redox homeostasis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

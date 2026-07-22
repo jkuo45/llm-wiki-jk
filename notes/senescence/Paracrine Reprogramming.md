@@ -4,7 +4,6 @@ description: Paracrine reprogramming is the process by which SASP factors secret
   senescent cells alter the differentiation status of neighbouring cells, inducing
   stemness, dedifferentiation, transdifferentiation, or altered lineage commitment
   in a dose- and time-dependent manner.
-type: entity
 protected: true
 created: 2026-07-11
 updated: 2026-07-11

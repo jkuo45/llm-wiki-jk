@@ -1,7 +1,6 @@
 ---
 title: PANX1
 description: Pannexin-1 channel that releases cGAMP to the extracellular space for contact-independent intercellular cGAS-STING propagation.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, channel, cgas-sting, intercellular-signaling]

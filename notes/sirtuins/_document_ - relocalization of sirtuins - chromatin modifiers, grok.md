@@ -1,7 +1,6 @@
 ---
 title: The Relocalization of Chromatin Modifiers (RCM) Hypothesis
 description: Grok summary of the Relocalization of Chromatin Modifiers (RCM) Hypothesis — an aging framework from David Sinclair's lab positing that epigenetic information loss from repeated chromatin-modifier relocalization during DNA repair drives aging.
-type: document
 published:
 created: 2026-07-01
 source: https://x.com/i/grok?conversation=2070368639329685677

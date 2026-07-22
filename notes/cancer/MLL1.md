@@ -1,7 +1,6 @@
 ---
 title: MLL1
 description: Mixed Lineage Leukemia 1; a histone methyltransferase that catalyzes H3K4me3 at target gene promoters, regulating development and hematopoiesis
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [gene, enzyme, epigenetic, leukemia, cancer]

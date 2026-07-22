@@ -4,7 +4,7 @@ description: Redox Vaccination is the hypothesis that sub-toxic exposure to redo
   compounds (such as Carbazochrome, a stabilized Adrenochrome derivative) upregulates
   SIRT3 expression through a retro...
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-16
 tags:
   - scientific-concept
   - oxidative-stress
@@ -23,7 +23,7 @@ The redox vaccination mechanism unfolds through a defined signaling hierarchy:
 4. **AMPK activation:** H₂O₂ oxidizes and inhibits protein phosphatases, leading to [[AMPK]] phosphorylation and activation.
 5. **PGC-1α induction:** Activated AMPK phosphorylates [[PGC1-α]] (Thr177, Ser538), enhancing its transcriptional activity.
 6. **SIRT3 upregulation:** PGC-1α drives SIRT3 transcription, increasing mitochondrial deacetylase capacity.
-7. **MnSOD activation:** Elevated SIRT3 deacetylates MnSOD at K68/K122, dramatically increasing its superoxide-scavenging activity.
+7. **MnSOD activation:** Elevated SIRT3 deacetylates MnSOD at [[Lys68]]/K122, dramatically increasing its superoxide-scavenging activity.
 8. **Feedback loop:** Enhanced MnSOD activity lowers steady-state superoxide, but the elevated SIRT3/MnSOD axis remains primed for faster response to future oxidative challenges.
 ```
 Carbazochrome → Redox Cycling → O₂⁻ → MnSOD → H₂O₂
@@ -62,7 +62,7 @@ The parallel to immunological vaccination is mechanistically precise:
 | Experiment | Model | Protocol | Expected Outcome |
 |-----------|-------|----------|-----------------|
 | **1. SIRT3 induction** | HeLa or primary hepatocytes | Carbazochrome (50–200 nM) × 24h → Western blot for SIRT3 | Dose-dependent SIRT3 protein increase |
-| **2. MnSOD acetylation** | Same cells | IP with anti-SOD2 → Western with anti-acetyl-Lys | Reduced acetyl-K68/K122 signal (indicating SIRT3 activation) |
+| **2. MnSOD acetylation** | Same cells | IP with anti-SOD2 → Western with anti-acetyl-Lys | Reduced acetyl-[[Lys68]]/K122 signal (indicating SIRT3 activation) |
 | **3. Redox vaccination** | SIRT3-WT vs. SIRT3-KO MEFs | Pre-treat with sub-toxic carbazochrome → challenge with H₂O₂ or rotenone → viability | Protection in WT, abolished in KO |
 | **4. SIRT4 opposition** | SIRT4-overexpressing cells | Repeat experiment 3 | SIRT4 overexpression widens the window (higher carbazochrome dose needed) |
 | **5. Temporal dynamics** | Time-course (0–48h) | Measure SIRT3 mRNA/protein at multiple time points | SIRT3 peaks at 12–24h, persists for 48h |
@@ -97,7 +97,7 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 ## Limitations and Open Questions
 - **Duration of memory:** How long does SIRT3/MnSOD upregulation persist after a single redox vaccination pulse? Unknown.
 - **Dose calibration:** The optimal carbazochrome dose for vaccination (vs. toxicity) may vary by tissue and individual [[SIRT3]]/[[SIRT4]] ratio.
-- **Chronic exposure risk:** Repeated redox cycling could promote [[Cellular Senescence]] or [[DNA Damage]] if the hormetic window is exceeded.
+- **Chronic exposure risk:** Repeated redox cycling could promote [[Senescence]] or [[DNA Damage]] if the hormetic window is exceeded.
 - **Inter-individual variability:** Genetic polymorphisms in [[FOXO3a]], [[NRF2]], and [[SIRT3]] may shift the vaccination threshold.
 
 #
@@ -115,13 +115,13 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with the vaccination axis
 - [[NRF2]] — Activated alongside AMPK; provides complementary antioxidant protection
 - [[Hormetic Window]] — Defines the dose range over which vaccination occurs
-- [[Mitohormetic Redox-Relay]] — Therapeutic framework incorporating redox vaccination
+- [[_document_ - Mitohormetic Redox-Relay]] — Therapeutic framework incorporating redox vaccination
 - [[Redox Cycling]] — The chemical mechanism generating the initial ROS signal
 - [[Ischemic Preconditioning]] — Parallel preconditioning phenomenon
 - [[Mithridatism]] — Historical precedent for tolerance through sub-lethal exposure
 - [[Honokiol]] — SIRT3 activator that could serve as a positive control or adjuvant
 
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Cellular Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
+- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
 - Suggested new entity notes to create: [[Redox Memory]], [[Pharmacological Preconditioning]]
   - Strong connections to strengthen: Redox Vaccination ↔ [[SIRT3]]/[[SIRT4]] ratio, Redox Vaccination ↔ Mitohormetic Redox-Relay

@@ -20,7 +20,7 @@ aliases: []
 ## Role in [[Aging]] and Epigenetics
 - **The Epigenetic-Apoptosis Axis:** [[Epigenetics]] serves as a regulatory layer determining cell survival. Hypermethylation of pro-apoptotic genes (like *FAS*, *BAX*, or *TP53*) can prevent the clearance of damaged cells, increasing [[Cancer]] risk.
 - **[[Sirtuins]]s:** Sirtuins like [[SIRT1]] and [[SIRT6]] (dependent on NAD+) modulate p53 to balance survival and apoptosis.
-- **Apoptosis Resistance:** During aging, some damaged cells become resistant to apoptosis and enter [[Cellular Senescence]], secreting pro-inflammatory cytokines ([[SASP|Senescence-Associated Secretory Phenotype]]) that drive **Inflammaging**.
+- **Apoptosis Resistance:** During aging, some damaged cells become resistant to apoptosis and enter [[Senescence]], secreting pro-inflammatory cytokines ([[SASP|Senescence-Associated Secretory Phenotype]]) that drive **Inflammaging**.
 - **Neurodegeneration:** Excessive apoptosis in post-mitotic tissues leads to neuron loss in [[Alzheimer's Disease]] and [[Parkinson's Disease]].
 ## Role in Cancer Research
 - **Markers:** Common markers include [[Caspase-3|cleaved caspase-3]] and [[Annexin V]] binding.
@@ -32,10 +32,21 @@ aliases: []
 ## Role in [[Cellular Reprogramming]]
 - Apoptosis serves as a barrier to reprogramming efficiency. The stress of viral transduction and over-expression of factors like [[c-Myc]] triggers [[p53]]-mediated apoptosis.
 - High rates of apoptosis among transduced cells significantly lower the efficiency of generating [[Induced Pluripotent Stem Cells]].
+## Post-Translational Regulation of Apoptotic Effectors
+
+> [!important] Five Critical Phosphorylation Switches
+> The apoptotic network is regulated by multiple phosphorylation/dephosphorylation switches that determine cell fate:
+> - **[[Caspase-8]]**: Phosphorylated by [[Src]] at Tyr380 (blocks apoptosis, promotes migration); dephosphorylated by [[SHP1]] (restores apoptotic sensitivity)
+> - **[[Caspase-7]]**: Phosphorylated and inhibited by [[PAK2]] at Ser30/Thr173/Ser239 (drives chemoresistance in breast cancer)
+> - **[[BAX]]**: Phosphorylated by [[ERK2]] at Thr167 and bound by [[Pin1]] (pro-survival); or by [[JNK]]/[[p38 MAPK]] at same site (pro-apoptosis)
+> - **[[BAK]]**: Maintained inactive by Tyr108 phosphorylation; dephosphorylated by [[PTPN5]] to "license" activation
+> - **[[XIAP]]**: Degraded via [[TBK1]]/[[IKKepsilon]] phosphorylation at Ser430 (pro-apoptosis); stabilized by [[Akt]] phosphorylation at Ser87 (pro-survival)
+
 ## Related Entities
-- **Proteins:** [[p53]], [[Caspase-3]], [[Bax]], [[Bcl-2]], [[SIRT1]], [[Beclin1]]
-- **Molecules:** [[Reactive Oxygen Species]], [[Cytochrome c]], [[Ascorbic Acid]], [[melittin]], [[Ivermectin]]
-- **Processes:** [[Autophagy]], [[Cellular Senescence]], [[DNA Damage]], [[Epigenetics]], [[Inflammation]]
+- **Proteins:** [[p53]], [[Caspase-3]], [[Caspase-7]], [[Caspase-8]], [[Caspase-9]], [[Bax]], [[Bcl-2]], [[BAK]], [[XIAP]], [[SIRT1]], [[Beclin1]]
+- **Regulators:** [[SHP1]], [[PAK2]], [[Pin1]], [[PTPN5]], [[TBK1]], [[Src]], [[FAK]]
+- **Molecules:** [[Reactive Oxygen Species]], [[Cytochrome c]], [[Ascorbic Acid]], [[melittin]], [[Ivermectin]], [[TRAIL]], [[FasL]]
+- **Processes:** [[Autophagy]], [[Senescence]], [[DNA Damage]], [[Epigenetics]], [[Inflammation]]
 
 #
 
@@ -115,10 +126,10 @@ List of documents that mention this entity
 ## Connections
 - [[Mitochondria]]: The central organelle and sensor for the intrinsic apoptotic pathway.
 - [[Oxidative Stress]]: One of the most common physiological triggers for apoptosis.
-- [[Cellular Senescence]]: An alternative fate to apoptosis for damaged cells.
+- [[Senescence]]: An alternative fate to apoptosis for damaged cells.
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
 
 ## Linking Summary
-- New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].
+- New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]], [[necrosis]], [[Caspases]].
   - Strong connections to strengthen: [[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ Cellular Senescence, [[Apoptosis]] ↔ [[p53]], [[Apoptosis]] ↔ [[Mitochondrial Dysfunction]].

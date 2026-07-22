@@ -17,7 +17,7 @@ aliases: []
 
 **Physiological function:** Epithelia mediate barrier protection, selective absorption and secretion, ion and water transport, and sensory reception. They interface with the [[Immune System]] and the [[Gut Microbiome]] at mucosal surfaces, shaping tolerance and [[Inflammation]].
 
-**Pathological relevance:** Loss of polarity, accrual of DNA damage, and senescence drive [[Aging]]-related Barrier decline. Epithelial cells are the origin of the majority of human cancers; acquisition of migratory, invasive behavior through [[Epithelial-to-mesenchymal transition]] (EMT) underpins metastasis. Defective epithelial turnover and [[Cellular Senescence]] contribute to fibrosis and chronic disease.
+**Pathological relevance:** Loss of polarity, accrual of DNA damage, and senescence drive [[Aging]]-related Barrier decline. Epithelial cells are the origin of the majority of human cancers; acquisition of migratory, invasive behavior through [[Epithelial-to-mesenchymal transition]] (EMT) underpins metastasis. Defective epithelial turnover and [[Senescence]] contribute to fibrosis and chronic disease.
 
 #
 
@@ -33,9 +33,9 @@ aliases: []
   - [[Inflammation]]: Barrier breach drives inflammatory responses.
   - [[Cancer]]: Most carcinomas arise from epithelial cells.
   - [[Epithelial-to-mesenchymal transition]]: EMT underlies epithelial tumor invasion.
-  - [[Cellular Senescence]]: Senescent epithelia contribute to aging and fibrosis.
+  - [[Senescence]]: Senescent epithelia contribute to aging and fibrosis.
 
 ## Linking Summary
-  - New links added: [[Immune System]], [[Inflammation]], [[Cancer]], [[Epithelial-to-mesenchymal transition]], [[Cellular Senescence]], [[Gut Microbiome]], [[Aging]]
+  - New links added: [[Immune System]], [[Inflammation]], [[Cancer]], [[Epithelial-to-mesenchymal transition]], [[Senescence]], [[Gut Microbiome]], [[Aging]]
   - Suggested new entity notes to create: [[Tight Junctions]], [[Basement Membrane]], [[Epithelial Stem Cell]]
-  - Strong connections to strengthen: [[Epithelial cells]] ↔ [[Epithelial-to-mesenchymal transition]], [[Epithelial cells]] ↔ [[Cellular Senescence]]
+  - Strong connections to strengthen: [[Epithelial cells]] ↔ [[Epithelial-to-mesenchymal transition]], [[Epithelial cells]] ↔ [[Senescence]]

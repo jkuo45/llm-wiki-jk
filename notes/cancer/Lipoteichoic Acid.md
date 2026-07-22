@@ -1,7 +1,6 @@
 ---
 title: Lipoteichoic Acid
 description: A component of the Gram-positive bacterial cell wall that acts as a PAMP, recognized by TLR2 to activate innate immune responses
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-molecule, bacterial, pamp, innate-immunity, inflammation]

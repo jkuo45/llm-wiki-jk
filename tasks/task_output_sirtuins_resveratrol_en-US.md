@@ -1,6 +1,5 @@
 ---
 title: "Resveratrol in SIRT1 and Other Sirtuin Modulators"
-type: document
 category: document
 aliases:
   - Resveratrol Sirtuin Activators

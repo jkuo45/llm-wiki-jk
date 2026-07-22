@@ -28,7 +28,7 @@ aliases:
 Aging is typically characterized by epigenetic drift: a global loss of DNA methylation (hypomethylation) alongside site-specific gains in methylation (hypermethylation) at gene promoters.
 *   **Slowing the Clock:** CR significantly slows this drift. In mammalian models, CR maintains a "younger" methylation pattern across various tissues.
 *   **Human Evidence:** Clinical trials have demonstrated that CR can slow the pace of molecular aging in healthy humans, as measured by various epigenetic algorithms.
-*   **Gene Silencing:** CR promotes the silencing of pro-aging genes like p16INK4a (a marker of [[Cellular Senescence]]) and certain oncogenes, preventing their age-related increase.
+*   **Gene Silencing:** CR promotes the silencing of pro-aging genes like p16INK4a (a marker of [[Senescence]]) and certain oncogenes, preventing their age-related increase.
 
 ## 2. [[Histone Modification]]s and [[Chromatin]] Structure
 CR alters how DNA is packaged, keeping chromatin in a more stable, "youthful" state.
@@ -43,7 +43,7 @@ The epigenetic changes induced by CR converge on several critical pathways:
 *   **Metabolic Reprogramming:** CR induces epigenetic changes in genes related to lipid metabolism and inflammation, shifting the body from a "growth" mode to a "maintenance and repair" mode.
 
 ## Linking Summary:
-- New links added: [[Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Heterochromatin]], [[HDAC]].
+- New links added: [[Aging]], [[Epigenome]], [[DNA Methylation]], [[Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Heterochromatin]], [[HDAC]].
 - Suggested new entity notes to create: [[p16INK4A]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
   - Strong connections to strengthen: Caloric Restriction ↔ [[Aging]], Caloric Restriction ↔ SIRT1
 
@@ -104,8 +104,8 @@ List of documents that mention this entity
 ## Connections
 - **[[Aging]]**: CR is the gold standard for interventions that extend lifespan and healthspan across species.
 - **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.
-- **[[Cellular Senescence]]**: CR delays the accumulation of senescent cells by maintaining a more stable epigenetic state.
-- New links added: [[AMPK]], [[Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[SIRT1]], [[Sirtuins]]
+- **[[Senescence]]**: CR delays the accumulation of senescent cells by maintaining a more stable epigenetic state.
+- New links added: [[AMPK]], [[Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[SIRT1]], [[Sirtuins]]
   - Strong connections to strengthen: Caloric Restriction ↔ [[Aging]], Caloric Restriction ↔ Autophagy, Caloric Restriction ↔ [[Longevity]], Caloric Restriction ↔ SIRT1
 - [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
 - [[SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations

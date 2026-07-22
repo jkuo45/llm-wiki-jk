@@ -1,7 +1,6 @@
 ---
 title: Navitoclax
 description: Navitoclax (ABT-263) is an orally bioavailable BH3-mimetic that inhibits BCL-2/BCL-xL/BCL-w, acting as a senolytic and anticancer agent limited by thrombocytopenia.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:
@@ -26,7 +25,7 @@ aliases: [ABT-263]
 ## Applications
 
 > [!info] Senolytic activity
-> Senescent cells resist apoptosis through upregulated **senescent-cell anti-apoptotic pathways (SCAPs)**, notably BCL-xL. By inhibiting BCL-xL, navitoclax selectively kills many [[Senescent Cells]], making it a prototypical [[Senolytics|senolytic]] used to clear [[Cellular Senescence]] and reduce the [[SASP|Senescence-Associated Secretory Phenotype]] in aging and fibrotic disease models. It also shows antitumor activity in lymphoid malignancies.
+> Senescent cells resist apoptosis through upregulated **senescent-cell anti-apoptotic pathways (SCAPs)**, notably BCL-xL. By inhibiting BCL-xL, navitoclax selectively kills many [[Senescent Cells]], making it a prototypical [[Senolytics|senolytic]] used to clear [[Senescence]] and reduce the [[SASP|Senescence-Associated Secretory Phenotype]] in aging and fibrotic disease models. It also shows antitumor activity in lymphoid malignancies.
 
 > [!warning] Dose-limiting toxicity
 > Because platelets depend on BCL-xL for survival, navitoclax causes on-target **[[Thrombocytopenia]]**, which limits clinical dosing and has motivated development of more selective or targeted senolytics.
@@ -49,5 +48,5 @@ aliases: [ABT-263]
 
 ## Linking Summary
 
-  - New links added: [[Bcl-2]], [[BAX]], [[BAK]], [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Senolytics]], [[Senescent Cells]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Thrombocytopenia]]
+  - New links added: [[Bcl-2]], [[BAX]], [[BAK]], [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Senolytics]], [[Senescent Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Thrombocytopenia]]
   - Strong connections to strengthen: Navitoclax ↔ Senolytics; Navitoclax ↔ Bcl-2

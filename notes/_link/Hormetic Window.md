@@ -64,7 +64,7 @@ The hormetic window varies across tissues, creating therapeutic challenges:
 | **Skeletal [[Muscle]]** | Wide | Exercise-adapted, high PGC-1α | Exercise-induced mitohormesis is robust |
 | **Pancreatic β-cells** | Narrow | SIRT4-dependent insulin regulation | Metabolic stress easily overshoots |
 ## Role in the Mitohormetic Redox-Relay
-In the **[[Mitohormetic Redox-Relay]]** framework, the hormetic window is explicitly managed through dosing parameters:
+In the **[[_document_ - Mitohormetic Redox-Relay]]** framework, the hormetic window is explicitly managed through dosing parameters:
 | Parameter | Optimal Range | Consequence Outside Range |
 |-----------|--------------|--------------------------|
 | [[Carbazochrome]] concentration | 50–500 nM | <50 nM: insufficient signal; >500 nM: cytotoxicity |
@@ -92,7 +92,7 @@ In the **[[Mitohormetic Redox-Relay]]** framework, the hormetic window is explic
 - [[Mitohormesis]] — Mitochondrial-specific hormesis; window determines adaptive vs. damaging outcomes
 - [[SIRT3]]/[[SIRT4]] ratio — Primary molecular determinant of mitochondrial hormetic window width
 - [[MnSOD]] — Enzyme whose activity sets the superoxide clearance rate within the window
-- [[Mitohormetic Redox-Relay]] — Therapeutic framework that explicitly optimizes the window
+- [[_document_ - Mitohormetic Redox-Relay]] — Therapeutic framework that explicitly optimizes the window
 - [[Carbazochrome]] — Redox-cycling agent whose dosing must stay within the window
 - [[Methylene blue]] — Electron shunt that maintains the window by preventing ROS overshoot
 - [[Glutathione]] — Redox buffer that sets the lower threshold of the window
@@ -106,6 +106,6 @@ In the **[[Mitohormetic Redox-Relay]]** framework, the hormetic window is explic
 - [[Exercise]] — Acute mitohormetic stimulus whose benefits depend on window positioning
 
 ## Linking Summary
-- New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]], [[Biphasic Dose-Response Curve]], [[Incoherent Bivalent Motif]], [[Saturated Enzymatic Regime]]
+- New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]], [[Biphasic Dose-Response Curve]], [[Incoherent Bivalent Motif]], [[Saturated Enzymatic Regime]]
 - Suggested new entity notes to create: [[Hormetic Dose-Response Curve]], [[Therapeutic Window Optimization]]
   - Strong connections to strengthen: Hormetic Window ↔ [[SIRT3]]/[[SIRT4]] ratio, Hormetic Window ↔ Mitohormetic Redox-Relay

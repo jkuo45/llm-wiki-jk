@@ -1,7 +1,6 @@
 ---
 title: HIRA
 description: Histone chaperone that, with ASF1a and UBN1, deposits the H3.3 histone variant and is essential for senescence-associated heterochromatin foci (SAHF) formation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

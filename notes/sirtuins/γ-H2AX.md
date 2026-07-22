@@ -32,7 +32,7 @@ H2AX is a minor histone H2A variant (approximately 5–15% of total H2A) that is
 
 ## Physiological and Pathological Relevance
 
-Beyond acute repair, γ-H2AX is a biomarker of genomic instability in aging, cancer, and degenerative disease. Persistent γ-H2AX foci are a hallmark of [[Cellular Senescence|senescent cells]], where they mark unresolved DNA damage and telomere dysfunction (telomere dysfunction-induced foci, TIFs). They accumulate with age across tissues, reflecting declining DNA repair fidelity. In oncology, γ-H2AX is used as a pharmacodynamic biomarker to monitor the efficacy of [[DNA Repair]]-targeted therapies, including [[PARP inhibitors]], [[CDK inhibitors]], and [[Radiosensitizer|radiosensitizing agents]]. Elevated basal γ-H2AX is also observed in neurodegenerative and progeroid syndromes linked to defective sirtuin function.
+Beyond acute repair, γ-H2AX is a biomarker of genomic instability in aging, cancer, and degenerative disease. Persistent γ-H2AX foci are a hallmark of [[Senescence|senescent cells]], where they mark unresolved DNA damage and telomere dysfunction (telomere dysfunction-induced foci, TIFs). They accumulate with age across tissues, reflecting declining DNA repair fidelity. In oncology, γ-H2AX is used as a pharmacodynamic biomarker to monitor the efficacy of [[DNA Repair]]-targeted therapies, including [[PARP inhibitors]], [[CDK inhibitors]], and [[Radiosensitizer|radiosensitizing agents]]. Elevated basal γ-H2AX is also observed in neurodegenerative and progeroid syndromes linked to defective sirtuin function.
 
 ## Applications
 
@@ -47,11 +47,11 @@ Beyond acute repair, γ-H2AX is a biomarker of genomic instability in aging, can
 - [[53BP1]] — co-localizes at DSB sites; commonly co-assayed
 - [[DNA Repair]] — broader process for which γ-H2AX is the key marker
 - [[DNA Damage]] — trigger for H2AX phosphorylation
-- [[Cellular Senescence]] — persistent γ-H2AX foci as hallmark
+- [[Senescence]] — persistent γ-H2AX foci as hallmark
 - [[ATM]] — apical kinase phosphorylating H2AX after DSBs
 
 ## Linking Summary
 
-- New links added: [[Histone H2AX]], [[SIRT6]], [[53BP1]], [[DNA Repair]], [[DNA Damage]], [[Cellular Senescence]], [[ATM]], [[ATR]], [[MDC1]], [[RNF168]], [[BRCA1]], [[UBCS039]], [[MDL-800]], [[Homologous Recombination]], [[Non-Homologous End Joining]]
+- New links added: [[Histone H2AX]], [[SIRT6]], [[53BP1]], [[DNA Repair]], [[DNA Damage]], [[Senescence]], [[ATM]], [[ATR]], [[MDC1]], [[RNF168]], [[BRCA1]], [[UBCS039]], [[MDL-800]], [[Homologous Recombination]], [[Non-Homologous End Joining]]
 - Suggested new entity notes to create: [[Telomere Dysfunction-Induced Foci]], [[H3K56ac]]
 - Strong connections to strengthen: [[γ-H2AX]] ↔ [[SIRT6]], [[γ-H2AX]] ↔ [[53BP1]]

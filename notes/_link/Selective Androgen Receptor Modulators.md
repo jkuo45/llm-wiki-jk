@@ -1,7 +1,6 @@
 ---
 title: Selective Androgen Receptor Modulators
 description: Tissue-selective androgen receptor ligands that promote anabolism and muscle mass with reduced androgenic side effects versus testosterone.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

@@ -16,7 +16,7 @@ protected: true
 
 # Paracrine Senescence
 
-**Paracrine senescence** (also called bystander senescence or secondary senescence) is the process by which [[SASP|Senescence-Associated Secretory Phenotype]] secreted by senescent cells induce [[Cellular Senescence]] in neighbouring healthy cells, spreading the senescence phenotype through tissues. It explains why small numbers of senescent cells can drive disproportionate tissue dysfunction and why local senescent-cell burden amplifies with age (Acosta et al., 2013; PMID 23636316; Nelson et al., 2018, PMID 29902437).
+**Paracrine senescence** (also called bystander senescence or secondary senescence) is the process by which [[SASP|Senescence-Associated Secretory Phenotype]] secreted by senescent cells induce [[Senescence]] in neighbouring healthy cells, spreading the senescence phenotype through tissues. It explains why small numbers of senescent cells can drive disproportionate tissue dysfunction and why local senescent-cell burden amplifies with age (Acosta et al., 2013; PMID 23636316; Nelson et al., 2018, PMID 29902437).
 
 ## Mechanism
 
@@ -123,7 +123,7 @@ List of documents that mention this entity
 ## Connections
 - [[SASP|Senescence-Associated Secretory Phenotype]] — the effector molecules driving paracrine senescence
 - [[Paracrine Reprogramming]] — sister process; SASP alters differentiation status (stemness, EMT, lineage) of neighbours rather than inducing arrest
-- [[Cellular Senescence]] — the state induced in neighbouring cells
+- [[Senescence]] — the state induced in neighbouring cells
 - [[IL-1α]] — primary SASP factor inducing paracrine senescence; master upstream regulator of the SASP via inflammasome-mediated processing
 - [[TGFβ]] — SASP factor promoting paracrine senescence in tumour microenvironments; major mediator via p15^INK4b/p21^CIP1 induction
 - [[Notch]] — regulates establishment of paracrine senescence
@@ -165,7 +165,7 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[Bystander Effect]], [[Exosomes]], [[VEGFR2]], [[CCR2]]
   - Strong connections to strengthen:
     - [[Paracrine Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
-    - [[Paracrine Senescence]] ↔ [[Cellular Senescence]]
+    - [[Paracrine Senescence]] ↔ [[Senescence]]
     - [[Paracrine Senescence]] ↔ [[Aging]]
     - [[Paracrine Senescence]] ↔ [[Inflammaging]]
     - [[Paracrine Senescence]] ↔ [[Inflammasome]]

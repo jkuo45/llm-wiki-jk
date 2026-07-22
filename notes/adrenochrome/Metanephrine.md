@@ -1,7 +1,6 @@
 ---
 title: Metanephrine
 description: Metanephrine is the O-methylated metabolite of epinephrine produced by COMT; it is a key biomarker of catecholamine metabolism and pheochromocytoma.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

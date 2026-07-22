@@ -1,7 +1,6 @@
 ---
 title: Lysosomal Membrane Permeabilization
 description: The disruption of lysosomal membrane integrity that releases cathepsins and other hydrolases into the cytosol, triggering controlled cell death and inflammatory signaling.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

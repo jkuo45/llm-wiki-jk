@@ -1,7 +1,6 @@
 ---
 title: HP1alpha
 description: Heterochromatin protein 1 alpha (CBX5), a chromatin reader of H3K9me3 that, with KAP1 and SIRT6, silences LINE-1 retrotransposons whose derepression fuels SASP in senescence.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

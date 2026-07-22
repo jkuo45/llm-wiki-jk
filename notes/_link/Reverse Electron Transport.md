@@ -1,7 +1,6 @@
 ---
 title: Reverse Electron Transport
 description: Mitochondrial electron backflow from Complex II-derived ubiquinol to Complex I, a major source of superoxide under high membrane potential.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

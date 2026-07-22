@@ -36,6 +36,9 @@ TGFβ is secreted as a latent complex and activated in the extracellular space b
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames TGFβ as an early SASP factor involved in tissue remodelling, paracrine senescence, EMT, and immune suppression, activated extracellularly by integrins and proteases and signaling via SMAD2/3. It notes that TGFβ is later superseded by the NF-κB–driven arm, with the Notch pathway orchestrating the early-to-late SASP switch.
 
+- [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+  - In IPF, TGF-β both induces epithelial senescence (via PTEN loss/NF-κB) and is amplified by the SASP, forming a self-perpetuating profibrotic loop with SMAD2/3 and CTGF.
+
 ## Connections
 
 - [[Paracrine Senescence|paracrine senescence]]: TGFβ induces paracrine senescence
@@ -44,6 +47,9 @@ TGFβ is secreted as a latent complex and activated in the extracellular space b
 - [[SMAD2]] / [[SMAD3]]: TGFβ canonical SMAD effectors
 - [[Epithelial-to-mesenchymal transition|EMT]]: TGFβ drives EMT and fibrosis
 - [[Osteoporosis]]: TGFβ impairs bone repair in aging
+- [[PTEN]]: TGF-β suppresses PTEN to induce epithelial senescence via NF-κB
+- [[Senescence-Associated Secretory Phenotype|SASP]]: Senescent cells amplify TGF-β via SASP, closing a profibrotic loop
+- [[Connective Tissue Growth Factor]]: CTGF from senescent cells drives fibroblast-to-myofibroblast transition
 
 ## Linking Summary
 

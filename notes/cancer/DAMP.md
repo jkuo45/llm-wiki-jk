@@ -1,7 +1,6 @@
 ---
 title: DAMP
 description: Damage-Associated Molecular Patterns; endogenous molecules released from damaged or stressed cells that activate innate immunity
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [biological-molecule, innate-immunity, senescence, inflammation, cancer]

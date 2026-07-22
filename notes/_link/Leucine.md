@@ -1,7 +1,6 @@
 ---
 title: Leucine
 description: An essential branched-chain amino acid that acts as a potent nutrient signal activating mTORC1 to stimulate muscle protein synthesis.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

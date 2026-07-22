@@ -23,6 +23,9 @@ aliases: [ATP-binding Cassette G1]
 
 ## Documents
 
+  - [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+    - ABCG1 promotes cholesterol efflux from macrophage foam cells to HDL; co-regulated with ABCA1 by LXR-α; resveratrol elevates ABCG1 mRNA levels.
+
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]]
     - Discusses lipid metabolism and cholesterol transport pathways in the context of sirtuin-regulated metabolic homeostasis, where efflux transporters such as ABCG1 participate in maintaining cellular lipid balance.
 

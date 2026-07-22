@@ -1,7 +1,6 @@
 ---
 title: Mitochondrial-Derived Peptide
 description: Small bioactive peptides encoded within the mitochondrial genome that function as retrograde signals and endocrine factors
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

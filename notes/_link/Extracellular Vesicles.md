@@ -1,7 +1,6 @@
 ---
 title: Extracellular Vesicles
 description: Membrane-bound particles that package cGAMP and mtDNA to propagate cGAS-STING activation between CNS cells.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-structure, intercellular-signaling, cgas-sting, neuroinflammation]
@@ -25,10 +24,12 @@ Beyond soluble cargo, whole [[Mitochondria]] can be transferred between neurons 
 ## Documents
 
   - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
-    - The review describes EVs as packaging cGAMP/mtDNA to propagate cGAS-STING activation between microglia and neurons, acting as an intercellular alarm signal, and notes mitochondria can transfer via EVs.
+     - The review describes EVs as packaging cGAMP/mtDNA to propagate cGAS-STING activation between microglia and neurons, acting as an intercellular alarm signal, and notes mitochondria can transfer via EVs.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Stem-cell-derived extracellular vesicles are proposed to attenuate oxidative stress, modulate SASP, and reduce fibroblast activation in pulmonary fibrosis.
 
 ## Connections
-
   - [[cGAS-STING Pathway]]: EV cargo propagates activation between cells
   - [[cGAMP]]: second messenger packaged into EVs
   - [[mtDNA]]: mitochondrial DNA cargo triggering remote cGAS
@@ -37,6 +38,8 @@ Beyond soluble cargo, whole [[Mitochondria]] can be transferred between neurons 
   - [[Tunneling Nanotubes]]: alternative intercellular transfer route
   - [[Mitochondria]]: organelle transferred via EVs
   - [[Neuroinflammation]]: EV signaling amplifies network inflammation
+- [[SASP]]: EVs may modulate SASP activity.
+- [[Idiopathic Pulmonary Fibrosis]]: EVs are an emerging IPF senescence-targeted therapy.
 
 ## Linking Summary
 

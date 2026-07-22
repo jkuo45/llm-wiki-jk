@@ -1,7 +1,6 @@
 ---
 title: Adaptive Immune System
 description: Antigen-specific immunity (T/B cells) shaped by cGAS-STING priming and chemokine-driven CNS infiltration.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-process, immunity, cgas-sting, neuroinflammation]

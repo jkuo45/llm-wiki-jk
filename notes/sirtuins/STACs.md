@@ -67,8 +67,11 @@ STACs protect against axonal degeneration (Wallerian degeneration) and clear pat
 
 List of documents that mention this entity
 
-  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
-    - STACS (SIRTUIN ACTIVATING COMPOUNDS) The fact that additional _SIR2_ extends the lifespan of diverse organisms prompted a search for STACs (sirtuin activating compounds) that might extend lifespan in the absence of CR or genetic manipulation.
+   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+     - STACS (SIRTUIN ACTIVATING COMPOUNDS) The fact that additional _SIR2_ extends the lifespan of diverse organisms prompted a search for STACs (sirtuin activating compounds) that might extend lifespan in the absence of CR or genetic manipulation.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - The review catalogs polyphenol STACs (resveratrol, quercetin, curcumin, flavonoids, ellagic acid) that activate SIRT1, noting translation challenges.
 
 
 ## Connections & Related Concepts
@@ -88,6 +91,7 @@ List of documents that mention this entity
 - [[PGC-1α]]: However, subsequent structural biology and biophysical studies confirmed that STACs allosterically activate SIRT1 tow...
 - [[p53]]: However, subsequent structural biology and biophysical studies confirmed that STACs allosterically activate SIRT1 tow...
 - [[Beta-amyloid]]: ### Neuroprotection STACs protect against axonal degeneration (Wallerian degeneration) and clear pathogenic protein a...
+- [[SIRT1]]: STACs allosterically/indirectly activate SIRT1; [[Resveratrol]]: Resveratrol is the prototypical STAC.
 
 ## Linking Summary
 - New links added: [[Beta-amyloid]], [[Caloric Restriction]], [[PGC-1α]], [[Resveratrol]], [[SIRT1]], [[Xenohormesis]], [[p53]]

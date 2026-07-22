@@ -1,7 +1,6 @@
 ---
 title: Dorsal Root Ganglion
 description: Cluster of sensory neuron somata whose cGAS-STING activation contributes to neuropathic pain.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, sensory-neuron, peripheral-nervous-system, pain]

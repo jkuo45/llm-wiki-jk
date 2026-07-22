@@ -1,7 +1,6 @@
 ---
 title: Cerebrospinal Fluid
 description: Clear fluid filling CNS ventricles and subarachnoid space that conveys cGAMP and inflammatory mediators between brain and periphery.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biofluid, anatomical-structure, central-nervous-system, neuroimmunology]

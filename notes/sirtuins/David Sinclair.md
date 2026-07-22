@@ -20,7 +20,7 @@ protected: true
 
 - Identified [[SIRT1]] as a mediator of [[Caloric Restriction]] benefits and discovered [[Resveratrol]] as a [[STACs|STAC]] (small molecule activator of sirtuins) in a landmark 2003 study (PMID: 12939617), showing resveratrol extends yeast lifespan via Sir2 and later demonstrating parallel effects in higher organisms.
 - Authored seminal reviews defining the role of sirtuins in mammalian [[Longevity|longevity]] (Michan & Sinclair, 2007, PMID: 17571417), synthesizing the case that sirtuins couple nutrient availability to survival.
-- Demonstrated that [[NAD+]] repletion reverses [[Mitochondrial Dysfunction|mitochondrial dysfunction]] and [[Cellular Senescence|cellular senescence]] in aged mice, reviving interest in NAD⁺ precursor supplementation ([[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]]) as anti-aging interventions.
+- Demonstrated that [[NAD+]] repletion reverses [[Mitochondrial Dysfunction|mitochondrial dysfunction]] and [[Senescence|cellular senescence]] in aged mice, reviving interest in NAD⁺ precursor supplementation ([[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]]) as anti-aging interventions.
 - Co-founded [[Sirtris Pharmaceuticals]] (acquired by [[GlaxoSmithKline]]) to develop [[STACs]] as therapeutics, including SRT1720 and SRT2104, translating sirtuin science toward the clinic.
 
 ## Scientific Impact and Controversies
@@ -44,6 +44,6 @@ Sinclair's work established the "sirtuins as longevity genes" paradigm and the i
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Cellular Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]], [[Sirtris Pharmaceuticals]], [[GlaxoSmithKline]], [[Harvard Medical School]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Information Theory of Aging]], [[ICE Mouse]]
+- New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]], [[Sirtris Pharmaceuticals]], [[GlaxoSmithKline]], [[Harvard Medical School]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Information Theory of Aging]], [[ICE Mouse]]
 - Suggested new entity notes to create: [[SRT1720]], [[SRT2104]]
 - Strong connections to strengthen: [[David Sinclair]] ↔ [[SIRT1]], [[David Sinclair]] ↔ [[NAD+]], [[David Sinclair]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]

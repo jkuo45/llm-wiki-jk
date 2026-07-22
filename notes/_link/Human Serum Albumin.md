@@ -1,7 +1,6 @@
 ---
 title: Human Serum Albumin
 description: Human serum albumin (HSA) is the most abundant plasma protein and a biocompatible nanocarrier used for drug delivery, including fisetin-loaded HSA nanoparticles.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

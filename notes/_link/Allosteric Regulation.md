@@ -1,7 +1,6 @@
 ---
 title: Allosteric Regulation
 description: Modulation of protein function through binding of an effector at a site distinct from the active site, inducing conformational change.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -34,8 +33,8 @@ Allosteric dysregulation contributes to metabolic disorders, cancer, and channel
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Discusses allosteric regulation of metabolic enzymes relevant to sirtuin/adrenochrome research.
-- [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026]]: Recommends leveraging allosteric control points in metabolic intervention.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: Discusses allosteric regulation of metabolic enzymes relevant to sirtuin/adrenochrome research.
+- [[task_output_sirtuins_recommendations_03_JULY_2026]]: Recommends leveraging allosteric control points in metabolic intervention.
 
 ## Connections
 

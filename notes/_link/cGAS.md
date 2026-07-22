@@ -1,7 +1,6 @@
 ---
 title: cGAS
 description: Cyclic GMP-AMP synthase that senses cytosolic DNA to activate the cGAS-STING innate immune pathway, linking genome stress, senescence, and inflammaging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-13
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Heat Shock Proteins
 description: Conserved chaperones induced by proteotoxic and thermal stress that refold misfolded proteins and support mitochondrial and cellular proteostasis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

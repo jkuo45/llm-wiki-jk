@@ -1,7 +1,6 @@
 ---
 title: SERT
 description: Serotonin transporter (SLC6A4) that clears synaptic serotonin; target of SSRIs and modulator of mood, redox tone, and excitotoxic balance in aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

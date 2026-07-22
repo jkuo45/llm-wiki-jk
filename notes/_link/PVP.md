@@ -1,7 +1,6 @@
 ---
 title: PVP
 description: Polyvinylpyrrolidone (PVP, povidone) is a water-soluble synthetic polymer used as an excipient and nanoparticle stabilizer to improve the dissolution and bioavailability of poorly soluble drugs such as fisetin.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

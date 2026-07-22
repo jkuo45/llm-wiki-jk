@@ -1,7 +1,6 @@
 ---
 title: Barrier-to-Autointegration Factor 1
 description: A chromatin-associated protein that binds the nuclear envelope and regulates cGAS localization and activity.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, chromatin, nuclear-envelope]
@@ -20,7 +19,7 @@ BAF1 dynamically outcompetes [[cGAS]] for DNA binding and restricts cGAS activit
 
 ## BAF1 Loss and Senescence-Driven cGAS-STING
 
-A particularly disease-relevant insight is that loss of BAF1 in [[Cellular Senescence|senescent cells]] promotes cGAS-STING activation via micronuclear envelope rupture. When the nuclear envelope is compromised, chromatin and cytosol mix, freeing cGAS to sense DNA and trigger [[STING]]-dependent inflammation. This mechanism links nuclear envelope integrity — governed by BAF1 — to the chronic [[Inflammation]] and [[Barrier-to-Autointegration Factor 1|SASP]] that characterize aging and [[Neurodegenerative Disease|neurodegeneration]]. BAF1 thus sits at the interface of nuclear structure and innate immune signaling.
+A particularly disease-relevant insight is that loss of BAF1 in [[Senescence|senescent cells]] promotes cGAS-STING activation via micronuclear envelope rupture. When the nuclear envelope is compromised, chromatin and cytosol mix, freeing cGAS to sense DNA and trigger [[STING]]-dependent inflammation. This mechanism links nuclear envelope integrity — governed by BAF1 — to the chronic [[Inflammation]] and [[Barrier-to-Autointegration Factor 1|SASP]] that characterize aging and [[Neurodegenerative Disease|neurodegeneration]]. BAF1 thus sits at the interface of nuclear structure and innate immune signaling.
 
 ## Documents
 
@@ -33,13 +32,13 @@ A particularly disease-relevant insight is that loss of BAF1 in [[Cellular Senes
   - [[Nuclear Envelope]]: Structure where BAF1 positions and restrains cGAS
   - [[STING]]: Downstream effector activated upon BAF1 loss
   - [[Chromatin]]: Substrate shared by BAF1 and cGAS binding
-  - [[Cellular Senescence]]: State in which BAF1 loss activates cGAS-STING
+  - [[Senescence]]: State in which BAF1 loss activates cGAS-STING
   - [[DNA Damage]]: Envelope rupture exposes DNA to cGAS
   - [[Inflammation]]: Consequence of BAF1-loss-driven activation
 
 ## Linking Summary
 
-- New links added: [[Barrier-to-Autointegration Factor 1]], [[cGAS]], [[Nuclear Envelope]], [[STING]], [[Chromatin]], [[Cellular Senescence]], [[DNA Damage]], [[Inflammation]]
+- New links added: [[Barrier-to-Autointegration Factor 1]], [[cGAS]], [[Nuclear Envelope]], [[STING]], [[Chromatin]], [[Senescence]], [[DNA Damage]], [[Inflammation]]
 - Suggested new entity notes to create: [[Barrier-to-Autointegration Factor 1]], [[Barrier-to-Autointegration Factor 1]], [[SASP]]
 - Strong connections to strengthen:
     - [[Barrier-to-Autointegration Factor 1]] ↔ [[cGAS]]

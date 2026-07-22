@@ -56,8 +56,11 @@ List of documents that mention this entity
     - Numerous target proteins, including histone and non-histone, have been shown to be modified by SIRTs, and participates in the regulation of multiple fundamental cellular functions including glucose, and lipid metabolism, Mitochondrial Biogenesis, DNA repair...
 
 
-  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - Frames mitochondrial biogenesis as the adaptive payoff of hormetic stress, driven by AMPK/PGC-1α/SIRT1/NRF2 and monitored via HRV and blood markers.
+   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+     - Frames mitochondrial biogenesis as the adaptive payoff of hormetic stress, driven by AMPK/PGC-1α/SIRT1/NRF2 and monitored via HRV and blood markers.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - SIRT1 drives mitochondrial biogenesis via PGC-1α deacetylation, supporting metabolic and cardiovascular health.
 
 ## Connections
 
@@ -66,6 +69,7 @@ List of documents that mention this entity
 - [[Type 2 Diabetes Mellitus]]: Impaired [[Mitochondrial Biogenesis]] is a hallmark of insulin resistance.
 - [[Longevity]]: Enhanced [[Mitochondrial Biogenesis]] is associated with extended healthspan.
 - [[PGC-1α]]: Master coactivator linking SIRT1 to biogenesis.
+- [[SIRT1]]: SIRT1 deacetylates PGC-1α to induce mitochondrial biogenesis; SIRT1 is a master regulator of mitochondrial biogenesis.
 
 ## Linking Summary
 - New links added: [[PGC-1α]], [[SIRT1]], [[SIRT3]], [[SIRT7]], [[AMPK]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[TFEB]], [[Exercise]], [[Caloric Restriction]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Insulin Sensitivity]], [[Type 2 Diabetes Mellitus]], [[Longevity]], [[Reactive Oxygen Species]], [[Resveratrol]], [[Cold Exposure]]

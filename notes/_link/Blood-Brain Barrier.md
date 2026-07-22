@@ -1,7 +1,6 @@
 ---
 title: Blood-Brain Barrier
 description: The neurovascular interface that restricts CNS immune infiltration, dynamically regulated by cell-type-specific cGAS-STING signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, neurovascular, cns-barrier]
@@ -16,16 +15,19 @@ The blood-brain barrier (BBB) is a highly selective neurovascular interface that
 
 ## Cell-Type-Specific cGAS-STING Effects on Barrier Integrity
 
-cGAS-STING signaling exerts opposing effects on BBB integrity depending on the cellular compartment. Microglial [[STING]] signaling is protective: it preserves hippocampal BBB integrity during aging, such that STING deficiency paradoxically accelerates cognitive and motor decline despite reducing [[Cellular Senescence|senescence]]. In contrast, endothelial STING activation and pericyte [[cGAS]] activation disrupt the barrier. Endothelial cGAS-STING, triggered by damaged [[mtDNA]], drives [[Type I Interferon|IFN-I]] signaling and [[Pyroptosis]], breaching the barrier and permitting leukocyte infiltration. Pericyte cGAS activation similarly destabilizes the neurovascular unit in tauopathy.
+cGAS-STING signaling exerts opposing effects on BBB integrity depending on the cellular compartment. Microglial [[STING]] signaling is protective: it preserves hippocampal BBB integrity during aging, such that STING deficiency paradoxically accelerates cognitive and motor decline despite reducing [[Senescence|senescence]]. In contrast, endothelial STING activation and pericyte [[cGAS]] activation disrupt the barrier. Endothelial cGAS-STING, triggered by damaged [[mtDNA]], drives [[Type I Interferon|IFN-I]] signaling and [[Pyroptosis]], breaching the barrier and permitting leukocyte infiltration. Pericyte cGAS activation similarly destabilizes the neurovascular unit in tauopathy.
 
 ## BBB Breakdown in Neurodegeneration
 
 BBB breakdown promotes peripheral immune infiltration, alters the brain's extracellular milieu, and accelerates [[Neurodegenerative Disease|neurodegeneration]] across [[Alzheimer's Disease]], [[Parkinson's Disease]], and tauopathies. The divergent roles of cGAS-STING at the barrier — protective in microglia, disruptive in endothelial and perivascular cells — illustrate why blanket pathway inhibition is risky and argue for cell-type-selective therapeutic strategies. Preserving microglial STING while dampening vascular cGAS-STING may be key to maintaining barrier integrity and limiting disease progression.
 
 ## Documents
-
   - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
     - The review details that microglial STING protects BBB integrity while endothelial STING activation and pericyte cGAS disrupt it; BBB breakdown promotes immune infiltration and disease.
+
+  - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
+    - Honokiol readily crosses the BBB (and BCSFB) to reach CNS neurons and tumors, enabling its neuroprotective and anti-tumor actions.
+
 
 ## Connections
 
@@ -36,6 +38,7 @@ BBB breakdown promotes peripheral immune infiltration, alters the brain's extrac
   - [[cGAS]]: Sensor activated in vascular compartments
   - [[Pyroptosis]]: Endothelial death mode breaching the barrier
   - [[mtDNA]]: Trigger of vascular cGAS-STING activation
+  - [[Honokiol]]: Lipid-soluble neolignan that readily traverses the BBB to act centrally.
 
 ## Linking Summary
 

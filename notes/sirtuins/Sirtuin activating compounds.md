@@ -1,7 +1,6 @@
 ---
 title: Sirtuin activating compounds
 description: Specific small molecules that activate sirtuin deacetylases (STACs), including polyphenols, synthetic analogs, and NAD+ precursors, catalogued as chemical entities.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

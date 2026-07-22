@@ -16,7 +16,7 @@ aliases: [LMNB1, Lamin B1, lamin B1]
 
 # Lamin B1
 
-Lamin B1 (encoded by **LMNB1**) is a type B intermediate-filament protein of the nuclear lamina — the meshwork underlying the inner nuclear membrane. Its downregulation is one of the most conserved, cell-autonomous markers of [[Cellular Senescence]], occurring across replicative, oncogene-induced, and therapy-induced senescence in both human and mouse cells (Freund et al., 2012, PMID 22300562; Shah et al., 2013).
+Lamin B1 (encoded by **LMNB1**) is a type B intermediate-filament protein of the nuclear lamina — the meshwork underlying the inner nuclear membrane. Its downregulation is one of the most conserved, cell-autonomous markers of [[Senescence]], occurring across replicative, oncogene-induced, and therapy-induced senescence in both human and mouse cells (Freund et al., 2012, PMID 22300562; Shah et al., 2013).
 
 ## Mechanism of Action
 
@@ -53,12 +53,12 @@ List of documents that mention this entity
 
 ## Connections
 - [[Senescence-Associated Heterochromatin Foci|SAHF]]: Lamin B1 loss accompanies SAHF formation
-- [[Cellular Senescence]]: Lamin B1 loss is a marker of senescence
+- [[Senescence]]: Lamin B1 loss is a marker of senescence
 - [[Lamin A]]: Partner lamina protein; differentially regulated in senescence
 - [[Retinoblastoma Protein|Rb]] / [[p53]]: Transcriptional regulators of LMNB1 repression in senescence
 - [[cGAS-STING Pathway|cGAS-STING]]: Envelope defects feed cytosolic DNA sensing
 - [[Senomorphic Therapy]]: Lamin B1 preservation is a senomorphic strategy
 
 ## Linking Summary
-- New links added: [[Senescence-Associated Heterochromatin Foci|SAHF]], [[Cellular Senescence]], [[Lamin A]], [[Retinoblastoma Protein|Rb]], [[p53]], [[cGAS-STING Pathway|cGAS-STING]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[Senomorphic Therapy]], [[γ-H2AX]], [[p16 INK4a|p16]], [[p21 CIP1|p21]]
-  - Strong connections to strengthen: Lamin B1 ↔ [[Cellular Senescence]], Lamin B1 ↔ [[SAHF]], Lamin B1 ↔ [[cGAS-STING Pathway]]
+- New links added: [[Senescence-Associated Heterochromatin Foci|SAHF]], [[Senescence]], [[Lamin A]], [[Retinoblastoma Protein|Rb]], [[p53]], [[cGAS-STING Pathway|cGAS-STING]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[Senomorphic Therapy]], [[γ-H2AX]], [[p16 INK4a|p16]], [[p21 CIP1|p21]]
+  - Strong connections to strengthen: Lamin B1 ↔ [[Senescence]], Lamin B1 ↔ [[SAHF]], Lamin B1 ↔ [[cGAS-STING Pathway]]

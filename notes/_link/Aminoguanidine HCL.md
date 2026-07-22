@@ -75,7 +75,7 @@ In the adrenochrome (MB, AG) protocol, aminoguanidine HCL is paired with [[Methy
 - **Aminoguanidine (upstream):** iNOS inhibition → reduces pathological NO production
 - **Methylene Blue (downstream):** sGC inhibition → blocks cGMP-mediated vasodilation
 
-Together with adrenochrome's hormetic ROS pulse (via the [[Mitohormetic Redox-Relay]]), aminoguanidine HCL provides the **GOPS (Glycation and AGEs, ER, peroxisomes)** arm of the protocol — controlling glyco-oxidative damage and quinone reactivity while methylene blue provides the **MRR (Mitohormetic Redox Relay)** arm.
+Together with adrenochrome's hormetic ROS pulse (via the [[_document_ - Mitohormetic Redox-Relay]]), aminoguanidine HCL provides the **GOPS (Glycation and AGEs, ER, peroxisomes)** arm of the protocol — controlling glyco-oxidative damage and quinone reactivity while methylene blue provides the **MRR (Mitohormetic Redox Relay)** arm.
 
 ## Clinical History (Pimagedine)
 

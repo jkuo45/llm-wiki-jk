@@ -13,7 +13,7 @@ aliases:
 
 # PML
 
-**PML** (Promyelocytic Leukemia protein, also known as **TRIM19**) is a tripartite motif-containing protein that functions as the essential scaffold for **PML nuclear bodies (PML-NBs)**. PML-NBs are dynamic subnuclear macromolecular structures involved in a wide array of vital cellular processes, including tumor suppression, [[DNA Damage]] response, [[Apoptosis]], and [[Cellular Senescence]]. PML is a tumor suppressor whose locus is disrupted in acute promyelocytic leukemia (APL) by the t(15;17) translocation generating the PML–RARA fusion oncoprotein, the target of arsenic trioxide and retinoic acid therapy.
+**PML** (Promyelocytic Leukemia protein, also known as **TRIM19**) is a tripartite motif-containing protein that functions as the essential scaffold for **PML nuclear bodies (PML-NBs)**. PML-NBs are dynamic subnuclear macromolecular structures involved in a wide array of vital cellular processes, including tumor suppression, [[DNA Damage]] response, [[Apoptosis]], and [[Senescence]]. PML is a tumor suppressor whose locus is disrupted in acute promyelocytic leukemia (APL) by the t(15;17) translocation generating the PML–RARA fusion oncoprotein, the target of arsenic trioxide and retinoic acid therapy.
 
 ## Structure and PML Nuclear Bodies
 
@@ -49,11 +49,11 @@ List of documents that mention this entity
 - [[SIRT1]] — colocalizes with PML in nuclear bodies to deacetylate and suppress p53
 - [[p53]] — target of PML nuclear body recruitment and SIRT1-mediated deacetylation
 - [[HIC1]] — transcript repressor of SIRT1; also involved in the p53 tumor suppressive feedback loop
-- [[Cellular Senescence]] — process regulated by the PML–SIRT1–p53 axis
+- [[Senescence]] — process regulated by the PML–SIRT1–p53 axis
 - [[DNA Damage]] — stress that expands PML-NBs and recruits repair factors
 - [[p33ING1b]] — ING1 family member that also modulates SIRT1–p53
 
 ## Linking Summary
-- New links added: [[SIRT1]], [[p53]], [[HIC1]], [[Cellular Senescence]], [[DNA Damage]], [[p33ING1b]]
-- Suggested new entity notes to create: [[PML Nuclear Bodies]], [[Cellular Senescence]], [[PML-IV]], [[DAXX]]
+- New links added: [[SIRT1]], [[p53]], [[HIC1]], [[Senescence]], [[DNA Damage]], [[p33ING1b]]
+- Suggested new entity notes to create: [[PML Nuclear Bodies]], [[Senescence]], [[PML-IV]], [[DAXX]]
 - Strong connections to strengthen: [[PML]] ↔ [[SIRT1]], [[PML]] ↔ [[p53]]

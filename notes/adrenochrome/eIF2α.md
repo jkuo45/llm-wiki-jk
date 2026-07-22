@@ -27,7 +27,7 @@ Phosphorylated eIF2α sequesters the guanine nucleotide exchange factor eIF2B, p
 
 ## Role in Mitochondrial Signaling
 
-In the context of the [[Mitohormetic Redox-Relay]], mitochondrial matrix ROS activates [[OMA1]], which cleaves [[DELE1]]. Cleaved DELE1 translocates to the cytosol and binds [[HRI]], leading to eIF2α phosphorylation and subsequent [[ATF4]] translation. This OMA1-DELE1-HRI-eIF2α-ATF4 axis provides a direct signaling route from mitochondrial dysfunction to the nucleus.
+In the context of the [[_document_ - Mitohormetic Redox-Relay]], mitochondrial matrix ROS activates [[OMA1]], which cleaves [[DELE1]]. Cleaved DELE1 translocates to the cytosol and binds [[HRI]], leading to eIF2α phosphorylation and subsequent [[ATF4]] translation. This OMA1-DELE1-HRI-eIF2α-ATF4 axis provides a direct signaling route from mitochondrial dysfunction to the nucleus.
 
 ## Documents
 
@@ -44,5 +44,5 @@ List of documents that mention this entity
 - [[Integrated Stress Response]] ↔ The broader signaling network coordinated by eIF2α phosphorylation.
 
 ## Linking Summary
-- New links added: [[eIF2α]], [[Integrated Stress Response]], [[ATF4]], [[HRI]], [[DELE1]], [[OMA1]], [[Mitohormetic Redox-Relay]]
+- New links added: [[eIF2α]], [[Integrated Stress Response]], [[ATF4]], [[HRI]], [[DELE1]], [[OMA1]], [[_document_ - Mitohormetic Redox-Relay]]
 - Strong connections to strengthen: [[eIF2α]] ↔ [[ATF4]], [[eIF2α]] ↔ [[HRI]]

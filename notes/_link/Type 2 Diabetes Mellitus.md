@@ -36,8 +36,11 @@ List of documents that mention this entity
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
     - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
 
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - DCM is also a distinct form of heart disease that represents a major cause of death and disability in patients with diabetes, particularly in the more prevalent Type 2 Diabetes Mellitus patient population.
+   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+     - DCM is also a distinct form of heart disease that represents a major cause of death and disability in patients with diabetes, particularly in the more prevalent Type 2 Diabetes Mellitus patient population.
+
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - SIRT1 polymorphisms modulate T2DM susceptibility and vascular complications; SIRT1 overexpression protects against diabetes and obesity.
 
 
 ## Connections
@@ -46,6 +49,7 @@ List of documents that mention this entity
 - [[Caloric Restriction]] and [[Intermittent Fasting]]: Lifestyle interventions that improve T2DM via NAD+/sirtuin activation.
 - [[Resveratrol]]: A [[STACs|STAC]] shown to improve glucose homeostasis in T2DM models.
 - [[Nicotinamide Mononucleotide|NMN]] and [[Nicotinamide Riboside|NR]]: NAD+ precursors that enhance sirtuin activity and improve metabolic outcomes.
+- [[SIRT1]]: SIRT1 protects against T2DM and metabolic syndrome; [[Obesity]]: SIRT1 overexpression resists obesity.
 
 ## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[AMPK]], [[Insulin Sensitivity]], [[Insulin Secretion]], [[Insulin Resistance]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Glutamate Dehydrogenase (GDH)]], [[Inflammation]], [[Obesity]], [[Metabolic Syndromes]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Resveratrol]], [[STACs]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Aging]]

@@ -1,7 +1,6 @@
 ---
 title: Senotherapy
 description: Therapeutic strategies that target senescent cells or their secreted phenotype to treat age-related disease, encompassing senolytics (cell elimination) and senomorphics (SASP suppression).
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:
@@ -17,7 +16,7 @@ protected: true
 
 # Senotherapy
 
-Senotherapy is the class of interventions that aim to mitigate the deleterious effects of [[Cellular Senescence|cellular senescence]] on aging and age-related disease. It is generally divided into two complementary approaches: [[Senolytic|senolytics]], which selectively eliminate senescent cells, and [[Senomorphic|senomorphics]], which suppress the pro-inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] without killing the cell.
+Senotherapy is the class of interventions that aim to mitigate the deleterious effects of [[Senescence|cellular senescence]] on aging and age-related disease. It is generally divided into two complementary approaches: [[Senolytic|senolytics]], which selectively eliminate senescent cells, and [[Senomorphic|senomorphics]], which suppress the pro-inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] without killing the cell.
 
 ## Overview
 
@@ -46,6 +45,6 @@ Because the SASP is context-dependent — beneficial in acute senescence (wound 
 
 ## Linking Summary
 
-- New links added: [[Senolytic]], [[Senomorphic]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[BRD4]], [[NFKB]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Cellular Senescence]], [[Age-Related Diseases]]
+- New links added: [[Senolytic]], [[Senomorphic]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[BRD4]], [[NFKB]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence]], [[Age-Related Diseases]]
 - Suggested new entity notes to create: [[Senescent cell anti-apoptotic pathways]]
 - Strong connections to strengthen: [[Senotherapy]] ↔ [[Senomorphic]]; [[Senotherapy]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

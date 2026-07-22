@@ -1,7 +1,6 @@
 ---
 title: Proto-lysosomal Tubules
 description: Transient tubular membrane extensions that bud from endolysosomes to recycle limiting membrane and content during phagocytic lysosome reformation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

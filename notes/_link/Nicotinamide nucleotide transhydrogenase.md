@@ -1,7 +1,6 @@
 ---
 title: Nicotinamide nucleotide transhydrogenase
 description: Mitochondrial inner-membrane enzyme (NNT) that transfers hydride from NADH to NADP+, coupling to proton translocation.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -34,7 +33,7 @@ NNT deficiency (e.g., the C57BL/6J mouse Nnt mutation) impairs redox control and
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: NNT is discussed as a mitochondrial redox enzyme relevant to sirtuin/adrenochrome metabolic research.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: NNT is discussed as a mitochondrial redox enzyme relevant to sirtuin/adrenochrome metabolic research.
 
 ## Connections
 

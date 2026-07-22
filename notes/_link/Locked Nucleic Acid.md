@@ -1,7 +1,6 @@
 ---
 title: Locked Nucleic Acid
 description: Locked Nucleic Acid (LNA), a nucleic acid analog with a 2'-O,4'-C methylene bridge that confers high binding affinity and nuclease resistance.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -35,7 +34,7 @@ LNA-based drugs (e.g., miravirsen, oligonucleotide therapeutics) demonstrate cli
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: LNA oligonucleotides are proposed as a nucleic-acid strategy to modulate target gene expression.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: LNA oligonucleotides are proposed as a nucleic-acid strategy to modulate target gene expression.
 
 ## Connections
 

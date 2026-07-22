@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Thymic Involution.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Torin1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Translation Initiation.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Trehalose.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Tumor Suppressor.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/ULK1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/UPRE.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/V-ATPase.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Vps15.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Vps34.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/WHAMM.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/XBP1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Yoshinori Ohsumi.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/ZKSCAN3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Zellweger syndrome.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - Autophagy takes it all – autophagy inducers target immune aging.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - Lysosome biogenesis Regulation and functions.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md

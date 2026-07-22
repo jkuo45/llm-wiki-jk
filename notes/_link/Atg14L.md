@@ -1,7 +1,6 @@
 ---
 title: Atg14L
 description: A mammalian-specific subunit of the Vps34–Beclin 1 complex that directs autophagosome formation and endosome–autophagosome fusion to the phagophore.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

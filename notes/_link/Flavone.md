@@ -1,7 +1,6 @@
 ---
 title: Flavone
 description: The parent scaffold of flavonoids such as apigenin (4',5,7-trihydroxyflavone); the chemical class to which the senomorphic apigenin belongs.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

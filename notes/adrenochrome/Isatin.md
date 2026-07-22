@@ -1,7 +1,6 @@
 ---
 title: Isatin
 description: An endogenous indole alkaloid and monoamine oxidase inhibitor structurally related to indolequinones and adrenochrome, with neurological and redox-modulatory relevance.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: Synaptophysin
 description: Synaptic vesicle glycoprotein (SYP) used as a pan-neuronal presynaptic marker reflecting synaptic density and connectivity.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -34,7 +33,7 @@ Reduced synaptophysin levels indicate synaptic loss, a hallmark of aging and neu
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Synaptophysin included as a synaptic marker to assess neuronal connectivity and protection.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: Synaptophysin included as a synaptic marker to assess neuronal connectivity and protection.
 
 ## Connections
 

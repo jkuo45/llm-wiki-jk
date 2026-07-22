@@ -1,7 +1,6 @@
 ---
 title: Cyclic Dinucleotide
 description: Second messengers (e.g., 2′3′-cGAMP) and STING agonists that activate STING to drive type I interferon responses.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [compound, second-messenger, cgas-sting, innate-immunity]

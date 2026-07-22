@@ -18,7 +18,7 @@ aliases:
 
 ---
 
-## Executive Summary
+##  Summary
 
 Adrenochrome (3-hydroxy-1-methyl-2,3-dihydro-1H-indole-5,6-dione) has traditionally been dismissed as a toxic, non-functional byproduct of [[Epinephrine]] oxidation, primarily associated with [[Cardiotoxicity]] and neurodegenerative pathology.
 

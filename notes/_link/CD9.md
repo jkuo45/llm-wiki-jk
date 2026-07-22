@@ -1,7 +1,6 @@
 ---
 title: CD9
 description: Tetraspanin transmembrane protein that organizes membrane microdomains and mediates cell adhesion, migration, and vesicle trafficking.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

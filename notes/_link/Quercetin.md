@@ -37,13 +37,18 @@ List of documents that mention this entity
     - Natural inhibitors (e.g., apigenin, Quercetin) are weaker/more pleiotropic. Bottom line: CD38 inhibition is one of the more compelling NAD+-related anti-ag
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - The treatment by SITR1-activating compounds, including Quercetin (natural polyphenol) and SRT1720 (synthetic SIRT1 activator), might also support the beneficial role of SIRT1 in acute liver failure.
+     - The treatment by SITR1-activating compounds, including Quercetin (natural polyphenol) and SRT1720 (synthetic SIRT1 activator), might also support the beneficial role of SIRT1 in acute liver failure.
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Profiled as a dual senolytic/senomorphic flavonoid; dasatinib+quercetin reduces senescent cell burden and attenuates bleomycin-induced lung fibrosis.
 
 
 ## Connections
 - [[COMT]]: The enzyme responsible for quercetin's metabolism.
 - [[EGCG]]: Quercetin may enhance the bioavailability of EGCG by inhibiting COMT.
 - [[Dopamine]]: Levels may increase when COMT is inhibited by quercetin.
+- [[Senolytics]]: Quercetin is a core senolytic (with dasatinib) that reduces senescent-cell burden in IPF models.
+- [[Bleomycin]]: Dasatinib+quercetin attenuates bleomycin-induced lung fibrosis.
 
 ## Linking Summary
 - New links added: [[Flavonoids]], [[Anti-inflammatory]], [[COMT]], [[COMT Inhibitors]], [[Neurotransmitters]], [[Dopamine]], [[Norepinephrine]], [[EGCG]].

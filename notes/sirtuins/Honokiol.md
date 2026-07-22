@@ -4,7 +4,7 @@ description: Honokiol (HKL) is a bioactive biphenolic lignan extracted primarily
   the bark, seed cones, and leaves of Magnolia grandiflora and related Magnolia species.
   It has been used in traditional Chine...
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-16
 tags:
   - chemical-compound
 aliases:
@@ -25,7 +25,7 @@ aliases:
 Honokiol is one of the best-characterized natural activators of [[SIRT3]], the primary mitochondrial deacetylase:
 
 - **Direct Binding**: Honokiol physically interacts with SIRT3, increasing its deacetylase activity and upregulating its protein expression.
-- **MnSOD (MnSOD/SOD2) Deacetylation**: Activated SIRT3 deacetylates **Manganese Superoxide Dismutase (MnSOD/SOD2)** at K68 and K122 residues, dramatically increasing its ROS-scavenging activity and reducing mitochondrial oxidative stress.
+- **MnSOD (MnSOD/SOD2) Deacetylation**: Activated SIRT3 deacetylates **Manganese Superoxide Dismutase (MnSOD/SOD2)** at [[Lys68]] and K122 residues, dramatically increasing its ROS-scavenging activity and reducing mitochondrial oxidative stress.
 - **OSCP Deacetylation**: SIRT3 deacetylates **OSCP** (oligomycin-sensitivity conferring protein), a subunit of the mitochondrial F₁Fₒ-ATPase, optimizing ATP synthase coupling and boosting energy output while minimizing mitochondrial membrane leakage.
 
 ```
@@ -33,7 +33,7 @@ Honokiol is one of the best-characterized natural activators of [[SIRT3]], the p
       │
       ▼
 Direct binding → SIRT3 activation
-      ├── Deacetylates MnSOD (K68/K122) → ↓ ROS
+      ├── Deacetylates MnSOD ([[Lys68]]/K122) → ↓ ROS
       └── Deacetylates OSCP → ↑ ATP synthesis efficiency
 ```
 

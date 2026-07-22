@@ -28,7 +28,7 @@ Microglia are the **dominant source of [[cGAS]] expression in the diseased brain
 > Pathogenic proteins ([[Tau|tau]], [[Amyloid Beta|Aβ]], [[Alpha-synuclein|α-synuclein]]) activate microglial cGAS—via [[mtDNA]] leakage or the [[Tau|tau]]–[[PQBP1]] complex—triggering sustained [[IRF3]]/[[NF-kappaB|NF-κB]] inflammatory output. This generates a distinct IFN-I–enriched microglial subpopulation, separate from the canonical [[Disease-Associated Microglia|DAM]] program, that correlates with synapse loss and cognitive impairment.
 
 > [!important] Therapeutic uncoupling
-> Genetic or pharmacological cGAS/STING inhibition suppresses the **neurotoxic** inflammatory program while **preserving or augmenting phagocytosis**—cGAS deletion increases microglial recruitment to plaques and enhances [[Amyloid Beta|Aβ]] clearance. Pathogenic tau also drives microglial NF-κB to promote seed-competent [[Tau|tau]] export and propagation. AD risk alleles [[APOE4]] and [[TREM2]] R47H amplify cGAS-associated microglial [[Cellular Senescence|senescence]] ([[SASP]]).
+> Genetic or pharmacological cGAS/STING inhibition suppresses the **neurotoxic** inflammatory program while **preserving or augmenting phagocytosis**—cGAS deletion increases microglial recruitment to plaques and enhances [[Amyloid Beta|Aβ]] clearance. Pathogenic tau also drives microglial NF-κB to promote seed-competent [[Tau|tau]] export and propagation. AD risk alleles [[APOE4]] and [[TREM2]] R47H amplify cGAS-associated microglial [[Senescence|senescence]] ([[SASP]]).
 
 #
 

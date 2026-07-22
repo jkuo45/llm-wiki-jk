@@ -15,7 +15,7 @@ protected: true
 
 # SA-beta-gal
 
-[[SA-beta-gal]] (senescence-associated β-galactosidase) is a widely used [[Biomarker]] for identifying [[Cellular Senescence]]. It reflects an elevated lysosomal β-galactosidase activity detectable histochemically at pH 6.0 — distinctly more acidic than the pH optimum (~4) of constitutive lysosomal β-galactosidase. First described in 1995, the assay (typically using the chromogenic substrate X-gal) remains the most common rapid readout for senescent cells in culture and tissue.
+[[SA-beta-gal]] (senescence-associated β-galactosidase) is a widely used [[Biomarker]] for identifying [[Senescence]]. It reflects an elevated lysosomal β-galactosidase activity detectable histochemically at pH 6.0 — distinctly more acidic than the pH optimum (~4) of constitutive lysosomal β-galactosidase. First described in 1995, the assay (typically using the chromogenic substrate X-gal) remains the most common rapid readout for senescent cells in culture and tissue.
 
 ## Biochemistry & Detection
 
@@ -46,7 +46,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Replicative Senescence]] - telomere-driven form of senescence marked by SA-β-gal
-- [[Cellular Senescence]] - the arrested state SA-β-gal reports
+- [[Senescence]] - the arrested state SA-β-gal reports
 - [[Aging]] - context where senescent-cell burden rises
 - [[Tumor-Suppressor Loss-Induced Senescence]] - a senescence trigger
 - [[Senolytic Drugs]] - agents clearing SA-β-gal+ cells
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Replicative Senescence]], [[Cellular Senescence]], [[Aging]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Senolytic Drugs]], [[High-Throughput Screening]], [[Tumorigenicity]], [[Cancer]]
+- New links added: [[Replicative Senescence]], [[Senescence]], [[Aging]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Senolytic Drugs]], [[High-Throughput Screening]], [[Tumorigenicity]], [[Cancer]]
 - Suggested new entity notes to create: [[SASP|Senescence-Associated Secretory Phenotype]], [[p16INK4a]], [[SAHF]], [[CDKN1A]], [[Autophagy]]
-- Strong connections to strengthen: [[SA-beta-gal]] ↔ [[Cellular Senescence]], [[SA-beta-gal]] ↔ [[Senolytic Drugs]]
+- Strong connections to strengthen: [[SA-beta-gal]] ↔ [[Senescence]], [[SA-beta-gal]] ↔ [[Senolytic Drugs]]

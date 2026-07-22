@@ -1,7 +1,6 @@
 ---
 title: MCT Oil
 description: Medium-chain triglyceride oil (caprylic acid / C8) providing a rapid mitochondrial fuel that raises ketones and acts as a signaling molecule for mitohormesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

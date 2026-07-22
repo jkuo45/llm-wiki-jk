@@ -1,7 +1,6 @@
 ---
 title: Tunneling Nanotubes
 description: Actin-based intercellular conduits that transfer cGAS-STING products and signals between CNS cells.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [biological-structure, intercellular-signaling, cgas-sting, cytoskeleton]

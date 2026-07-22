@@ -4,7 +4,7 @@ description: Akt (also known as Protein Kinase B or PKB) is a serine/threonine-s
   protein kinase that plays a key role in multiple cellular processes such as glucose
   metabolism, apoptosis, cell prolif...
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-16
 tags:
   - protein
 aliases: []
@@ -73,6 +73,11 @@ List of documents that mention this entity
   - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
     - Akt is a central node of the mTOR-PI3K cascade: PI3K activates [[mTORC2]] via Akt, and Akt forms a positive-feedback loop activating [[IRS1]]; these feed the [[Incoherent Bivalent Motif]] centered on [[mTORC1]] that yields rapamycin hormesis.
 
+## Caspase and XIAP Regulation
+
+> [!important] Akt Stabilizes XIAP and Suppresses Caspase-9
+> Akt phosphorylates **[[XIAP]]** at **Ser87**, stabilizing XIAP and promoting tumor survival — the functional opposite of [[TBK1]]/[[IKKepsilon]]-mediated phosphorylation at Ser430, which triggers XIAP degradation. Akt also phosphorylates **[[Caspase-9]]** at Ser196 (human), directly suppressing its activity. These mechanisms make Akt a central node linking growth factor signaling to apoptotic threshold control in cancer.
+
 ## Connections
 - [[mTORC2]] — Akt is the major mTORC2 substrate (Ser473); mTORC2 drives survival/metabolism
 - [[Incoherent Bivalent Motif]] — Akt participates in the branches of the mTORC1-centered motif
@@ -81,6 +86,10 @@ List of documents that mention this entity
 - [[mTOR]]: A downstream target of Akt.
 - [[melittin]]: Suppresses Akt signaling in various cancer models.
 - [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
+- [[XIAP]]: Akt phosphorylates XIAP at Ser87 to stabilize it; opposing TBK1-mediated degradation.
+- [[Caspase-9]]: Akt phosphorylates Caspase-9 at Ser196 to suppress activity.
+- [[TBK1]]: Opposing kinase — TBK1 degrades XIAP while Akt stabilizes it.
+- [[Apoptosis]]: Akt suppresses apoptosis through XIAP stabilization and Caspase-9 phosphorylation.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[14-3-3 protein]], [[PI3K]], [[Target of rapamycin]], [[FOXO]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[IRS1]]

@@ -1,7 +1,6 @@
 ---
 title: Complex II
 description: Succinate dehydrogenase, the only TCA-cycle enzyme also embedded in the electron transport chain, oxidizing succinate and feeding electrons to ubiquinone.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Gap Junction
 description: Connexin-formed intercellular channels that permit direct transfer of cGAMP to amplify cGAS-STING signaling.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein-complex, intercellular-signaling, cgas-sting, neuroinflammation]

@@ -15,7 +15,6 @@ tags:
   - apigenin
   - flavonoid
   - cancer-chemoprevention
-type: "document"
 ---
 
 . Author manuscript; available in PMC: 2018 Dec 1.

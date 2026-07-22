@@ -1,7 +1,6 @@
 ---
 title: CPEO
 description: Chronic progressive external ophthalmoplegia, a mitochondrial myopathy associated with mtDNA abnormalities
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

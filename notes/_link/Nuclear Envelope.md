@@ -1,7 +1,6 @@
 ---
 title: Nuclear Envelope
 description: The double-membrane boundary of the nucleus that anchors cGAS via BAF1 and hosts STING and NPC1 regulation of cGAS activity.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [anatomical-structure, organelle, nuclear-membrane, cgas-sting]

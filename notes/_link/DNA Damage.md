@@ -51,7 +51,7 @@ The cellular response to DNA damage is orchestrated by the **[[DNA Damage Respon
 - **Damage Sensing** — [[MRE11]]-[[RAD50]]-[[NBS1]] (MRN complex) senses DSBs; [[RPA]] coats single-stranded DNA; [[PCNA]] detects replication stress
 - **Signal Transduction** — [[ATM]] (primary DSB sensor), [[ATR]] (replication stress sensor), [[DNA-PKcs]] (NHEJ pathway)
 - **Effector Activation** — [[CHK1]], [[CHK2]], [[p53]], [[BRCA1]], [[MDC1]], [[53BP1]]
-- **Cellular Outcomes** — [[Cell Cycle Arrest]], [[DNA Repair]], [[Apoptosis]], [[Cellular Senescence]], or [[Autophagy]]
+- **Cellular Outcomes** — [[Cell Cycle Arrest]], [[DNA Repair]], [[Apoptosis]], [[Senescence]], or [[Autophagy]]
 
 ### Key Signaling Kinases
 
@@ -77,7 +77,7 @@ The cellular response to DNA damage is orchestrated by the **[[DNA Damage Respon
 Defects in [[DNA Repair]] are causal in many hereditary cancer syndromes: [[BRCA1]]/[[BRCA2]] mutations ([[Breast Cancer]], [[ovarian cancer]]), [[MSH2]]/[[MLH1]] mutations ([[Lynch Syndrome]], [[Colorectal Cancer]]), [[XPA]]/[[XPC]] mutations ([[Xeroderma Pigmentosum]], 1000× increased [[Skin Cancer]] risk). Somatic mutations in DDR genes are found across all cancer types. [[PARP inhibitors]] ([[Olaparib]], [[Niraparib]]) exploit synthetic lethality in [[BRCA]]-deficient tumors.
 
 ### Aging
-Accumulation of DNA damage with age drives [[Stem Cell Exhaustion]] and [[Cellular Senescence]]. Accelerated aging syndromes result from DDR defects: [[Werner Syndrome]] ([[WRN]] helicase), [[Bloom Syndrome]] ([[BLM]] helicase), [[Ataxia Telangiectasia]] ([[ATM]] deficiency), [[Cockayne Syndrome]] ([[CSA]]/[[CSB]] mutations).
+Accumulation of DNA damage with age drives [[Stem Cell Exhaustion]] and [[Senescence]]. Accelerated aging syndromes result from DDR defects: [[Werner Syndrome]] ([[WRN]] helicase), [[Bloom Syndrome]] ([[BLM]] helicase), [[Ataxia Telangiectasia]] ([[ATM]] deficiency), [[Cockayne Syndrome]] ([[CSA]]/[[CSB]] mutations).
 
 ### Neurodegeneration
 Neurons are particularly vulnerable to DNA damage due to high [[Oxidative Stress]] and limited repair capacity. [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Amyotrophic Lateral Sclerosis]] all show elevated DNA damage levels.
@@ -120,7 +120,7 @@ List of documents that mention this entity
 - [[p53]] — tumor suppressor activated by DNA damage; transcriptionally regulates repair, apoptosis, senescence
 - [[Reactive Oxygen Species]] — major endogenous source of oxidative DNA damage
 - [[Oxidative Stress]] — promotes DNA damage via ROS production
-- [[Cellular Senescence]] — persistent DNA damage signaling drives senescence induction
+- [[Senescence]] — persistent DNA damage signaling drives senescence induction
 - [[Apoptosis]] — cell death pathway triggered by irreparable DNA damage
 - [[Cancer]] — genomic instability from DNA damage accumulation is a hallmark of cancer
 - [[Aging]] — age-related accumulation of DNA damage drives multiple aging hallmarks
@@ -131,6 +131,6 @@ List of documents that mention this entity
 - [[Epigenetics]] — DNA damage can alter DNA methylation and chromatin states
 
 ## Linking Summary
-- New links added: [[DNA]], [[DNA Mutation]], [[Reactive Oxygen Species]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Hydrolysis]], [[Cytosine]], [[Uracil]], [[Mismatch Repair]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Alkylation]], [[S-adenosylmethionine]], [[Ultraviolet Radiation]], [[Ionizing Radiation]], [[Cisplatin]], [[Doxorubicin]], [[Etoposide]], [[Cyclophosphamide]], [[Temozolomide]], [[Arsenic]], [[Cadmium]], [[ATM]], [[ATR]], [[DNA-PKcs]], [[CHK1]], [[CHK2]], [[p53]], [[BRCA1]], [[BRCA2]], [[RAD51]], [[H2AX]], [[γ-H2AX]], [[Base Excision Repair]], [[Nucleotide Excision Repair]], [[Non-Homologous End Joining]], [[Homologous Recombination]], [[OGG1]], [[APE1]], [[XRCC1]], [[Ku70]], [[Ku80]], [[MGMT]], [[PARP1]], [[PARP inhibitors]], [[Olaparib]], [[Niraparib]], [[Werner Syndrome]], [[Bloom Syndrome]], [[Ataxia Telangiectasia]], [[Cockayne Syndrome]], [[Xeroderma Pigmentosum]], [[Fanconi Anemia]], [[Lynch Syndrome]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Telomere]], [[Cellular Senescence]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Cancer]], [[Breast Cancer]], [[ovarian cancer]], [[Colorectal Cancer]], [[Skin Cancer]], [[Oxidative Stress]], [[Aging]]
+- New links added: [[DNA]], [[DNA Mutation]], [[Reactive Oxygen Species]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Hydrolysis]], [[Cytosine]], [[Uracil]], [[Mismatch Repair]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Alkylation]], [[S-adenosylmethionine]], [[Ultraviolet Radiation]], [[Ionizing Radiation]], [[Cisplatin]], [[Doxorubicin]], [[Etoposide]], [[Cyclophosphamide]], [[Temozolomide]], [[Arsenic]], [[Cadmium]], [[ATM]], [[ATR]], [[DNA-PKcs]], [[CHK1]], [[CHK2]], [[p53]], [[BRCA1]], [[BRCA2]], [[RAD51]], [[H2AX]], [[γ-H2AX]], [[Base Excision Repair]], [[Nucleotide Excision Repair]], [[Non-Homologous End Joining]], [[Homologous Recombination]], [[OGG1]], [[APE1]], [[XRCC1]], [[Ku70]], [[Ku80]], [[MGMT]], [[PARP1]], [[PARP inhibitors]], [[Olaparib]], [[Niraparib]], [[Werner Syndrome]], [[Bloom Syndrome]], [[Ataxia Telangiectasia]], [[Cockayne Syndrome]], [[Xeroderma Pigmentosum]], [[Fanconi Anemia]], [[Lynch Syndrome]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Telomere]], [[Senescence]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Cancer]], [[Breast Cancer]], [[ovarian cancer]], [[Colorectal Cancer]], [[Skin Cancer]], [[Oxidative Stress]], [[Aging]]
 - Suggested new entity notes to create: [[Direct Reversal repair]], [[AlkB homolog]], [[MRE11-RAD50-NBS1 complex]], [[Replication stress]], [[Clustered damage]], [[Synthetic lethality]], [[Genomic Instability]], [[Translesion synthesis]], [[Fanconi anemia pathway]]
   - Strong connections to strengthen: [[DNA Damage]] ↔ DNA Repair, [[DNA Damage]] ↔ [[Aging]], [[DNA Damage]] ↔ Cancer, [[DNA Damage]] ↔ Cellular Senescence, [[DNA Damage]] ↔ Oxidative Stress

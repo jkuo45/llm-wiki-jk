@@ -1,7 +1,6 @@
 ---
 title: Peroxiredoxin
 description: Peroxiredoxins (Prx) are a family of thioredoxin-dependent antioxidant peroxidases that reduce Hydrogen Peroxide, peroxynitrite, and organic hydroperoxides, guarding redox homeostasis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

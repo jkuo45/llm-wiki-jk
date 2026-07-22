@@ -1,7 +1,6 @@
 ---
 title: Sympathetic Nervous System
 description: The "fight, flight, or freeze" branch of the autonomic nervous system that releases catecholamines and cortisol, lowers HRV, and drives the acute stress response.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

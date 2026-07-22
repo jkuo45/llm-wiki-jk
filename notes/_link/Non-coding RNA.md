@@ -24,7 +24,7 @@ Non-coding RNAs interact deeply with other epigenetic marks:
 ### 3. Changes During [[Aging]]
 The expression of various ncRNAs changes predictably with age:
 *   **Inflammaging**: Certain miRNAs and lncRNAs promote the chronic inflammation seen in old age.
-*   **[[Cellular Senescence]]**: ncRNAs can regulate the entry into senescence and the composition of the [[SASP|Senescence-Associated Secretory Phenotype]].
+*   **[[Senescence]]**: ncRNAs can regulate the entry into senescence and the composition of the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 #
 
@@ -48,6 +48,6 @@ List of documents that mention this entity
 - **[[Transposable Elements]]**: Some ncRNAs are derived from or help to silence repetitive genomic elements.
 
 ## Linking Summary
-- New links added: [[Non-coding RNA]], [[Epigenome]], [[Aging]], [[MicroRNA]], [[Histone Methyltransferase]], [[Histone Deacetylase]], [[Epigenetics]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Transposable Elements]]
+- New links added: [[Non-coding RNA]], [[Epigenome]], [[Aging]], [[MicroRNA]], [[Histone Methyltransferase]], [[Histone Deacetylase]], [[Epigenetics]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Transposable Elements]]
 - Suggested new entity notes to create: [[lncRNA]], [[circRNA]], [[Xist]]
   - Strong connections to strengthen: Non-coding RNA ↔ Epigenetics, Non-coding RNA ↔ [[MicroRNA]]

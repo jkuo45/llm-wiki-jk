@@ -1,7 +1,6 @@
 ---
 title: Dysbiosis
 description: Disruption of the composition and functional balance of the commensal microbiota, linked to inflammation, metabolic disease, and accelerated aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: TDP-43
 description: TAR DNA-binding protein 43, an RNA-binding protein whose mitochondrial mislocalization in ALS/FTD triggers cGAS-STING activation via mtDNA release.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, rna-binding-protein, als, frontotemporal-dementia, mitochondrial-dysfunction, cgas-sting]

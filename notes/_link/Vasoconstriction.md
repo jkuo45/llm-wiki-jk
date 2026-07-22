@@ -1,7 +1,6 @@
 ---
 title: Vasoconstriction
 description: Vasoconstriction is the narrowing of blood vessels via smooth-muscle contraction, raising vascular resistance and blood pressure; methylene blue induces it in vasoplegic shock.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

@@ -21,6 +21,11 @@ aliases:
 
 Unlike [[Inducible Nitric Oxide Synthase]] (iNOS), eNOS is *not* inhibited by [[Aminoguanidine]], which is relatively selective for iNOS. This selectivity is why aminoguanidine can block inflammatory [[Vasodilation]] without abolishing normal blood-pressure regulation.
 
+## Documents
+
+  - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+    - SIRT1 deacetylates and activates eNOS to promote vasodilation and endothelial function; resveratrol enhances this SIRT1-dependent effect.
+
 ## Connections
 
 - [[Nitric Oxide]] — product
@@ -28,6 +33,7 @@ Unlike [[Inducible Nitric Oxide Synthase]] (iNOS), eNOS is *not* inhibited by [[
 - [[Inducible Nitric Oxide Synthase]] — inflammatory isoform spared by aminoguanidine
 - [[Aminoguanidine]] — selective iNOS inhibitor
 - [[Vasodilation]] / [[Vasoconstriction]] — vascular tone
+- [[SIRT1]]: SIRT1 deacetylates/activates eNOS; [[Resveratrol]]: Resveratrol enhances SIRT1-dependent eNOS activation.
 
 ## Linking Summary
 

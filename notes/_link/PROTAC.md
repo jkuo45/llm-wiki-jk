@@ -1,7 +1,6 @@
 ---
 title: PROTAC
 description: Proteolysis-targeting chimera technology proposed to degrade cGAS or STING for therapeutic pathway suppression.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [drug-class, compound, targeted-protein-degradation, cgas-sting]

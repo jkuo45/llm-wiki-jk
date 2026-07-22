@@ -31,12 +31,16 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Brain injury such as IRI and Stroke: Brain injury, such as IRI and Stroke, is a neurological disorder with high morbidity, high probability of mortality, and poor neurological outcome. The SIRT family is a highly potent therapeutic target to decrease IRI.
 
+  - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
+    - Honokiol reduces infarct volume by 20–70% in MCA occlusion models (pre- or post-ischemia) via antioxidant, anti-neutrophil, anti-NF-κB, and PSD95–[[nNOS]] disruption at the [[NMDA receptor]].
+
 
 ## Connections
 - [[Cardiovascular Disease]] — Shared risk factors
 - [[Ischemia-reperfusion Injury]] — Key pathological process
 - [[Aging]] — Primary risk factor
 - [[Hypertension]] — Major modifiable risk factor
+- [[Honokiol]] — Reduces ischemic infarct volume via antioxidant, anti-inflammatory, and PSD95–nNOS mechanisms.
 
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Inflammation]], [[Apoptosis]], [[Cardiovascular Disease]], [[Ischemia-reperfusion Injury]], [[Aging]]

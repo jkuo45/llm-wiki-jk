@@ -4,7 +4,7 @@ description: Dihydromyricetin (DHM), also known as Ampelopsin, is a natural flav
   (flavanonol/dihydroflavonol) found at high concentrations in Ampelopsis grossedentata
   (vine tea / rattan tea). It is one of ...
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-16
 tags:
   - chemical-compound
 aliases:
@@ -25,7 +25,7 @@ aliases:
 
 DHM activates [[SIRT3]], the primary mitochondrial deacetylase, through direct or expression-level effects:
 
-- **MnSOD Deacetylation**: Like [[Honokiol]], activated SIRT3 deacetylates MnSOD (SOD2) at K68 and K122, dramatically enhancing mitochondrial ROS scavenging.
+- **MnSOD Deacetylation**: Like [[Honokiol]], activated SIRT3 deacetylates MnSOD (SOD2) at [[Lys68]] and K122, dramatically enhancing mitochondrial ROS scavenging.
 - **Mitochondrial Function**: SIRT3 activation by DHM improves mitochondrial respiration and reduces oxidative damage.
 - **AMPK Co-activation**: DHM also activates [[AMPK]], which synergistically increases [[NAD+]] levels (via NAMPT upregulation) and further potentiates SIRT3 activity.
 

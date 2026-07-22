@@ -29,7 +29,7 @@ Satellite cell activation follows a defined transcription factor cascade:
 
 ## Aging
 
-Satellite cell number and function decline with age, contributing to [[Sarcopenia]]. This decline involves [[Cellular Senescence]], reduced [[Autophagy]], [[Mitochondrial Dysfunction]], and [[Notch Signaling]] impairment. [[Exercise]] and [[Caloric Restriction]] partially preserve satellite cell function in aged muscle.
+Satellite cell number and function decline with age, contributing to [[Sarcopenia]]. This decline involves [[Senescence]], reduced [[Autophagy]], [[Mitochondrial Dysfunction]], and [[Notch Signaling]] impairment. [[Exercise]] and [[Caloric Restriction]] partially preserve satellite cell function in aged muscle.
 
 #
 
@@ -40,7 +40,7 @@ Satellite cell number and function decline with age, contributing to [[Sarcopeni
 - [[Myogenin]] — terminal differentiation marker for myoblast fusion
 - [[Sarcopenia]] — age-related muscle loss; satellite cell decline contributes
 - [[Exercise]] — activates satellite cells and promotes muscle repair
-- [[Cellular Senescence]] — satellite cell senescence contributes to sarcopenia
+- [[Senescence]] — satellite cell senescence contributes to sarcopenia
 - [[Notch Signaling]] — governs satellite cell quiescence and self-renewal
 - [[Muscle Injury]] — triggers satellite cell activation and proliferation
 - [[HGF]] — hepatocyte growth factor; activates satellite cells after injury
@@ -48,6 +48,6 @@ Satellite cell number and function decline with age, contributing to [[Sarcopeni
 - [[Caloric Restriction]] — preserves satellite cell function in aging
 
 ## Linking Summary
-- New links added: [[Muscle Stem Cell]], [[Skeletal Muscle]], [[Basal Lamina]], [[Sarcolemma]], [[Pax7]], [[MyoD]], [[Myogenin]], [[Myf5]], [[Myoblasts]], [[G0 Phase]], [[Muscle Injury]], [[Exercise]], [[HGF]], [[c-Met]], [[Sarcopenia]], [[Cellular Senescence]], [[Autophagy]], [[Mitochondrial Dysfunction]], [[Notch Signaling]], [[Caloric Restriction]], [[Aging]]
+- New links added: [[Muscle Stem Cell]], [[Skeletal Muscle]], [[Basal Lamina]], [[Sarcolemma]], [[Pax7]], [[MyoD]], [[Myogenin]], [[Myf5]], [[Myoblasts]], [[G0 Phase]], [[Muscle Injury]], [[Exercise]], [[HGF]], [[c-Met]], [[Sarcopenia]], [[Senescence]], [[Autophagy]], [[Mitochondrial Dysfunction]], [[Notch Signaling]], [[Caloric Restriction]], [[Aging]]
 - Suggested new entity notes to create: [[Myogenic regulatory factors]], [[Muscle regeneration]], [[Self-renewal]], [[Satellite cell niche]], [[Quiescence]]
   - Strong connections to strengthen: Satellite Cell ↔ Skeletal Muscle, Satellite Cell ↔ Sarcopenia, Satellite Cell ↔ [[Exercise]]

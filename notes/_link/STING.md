@@ -77,7 +77,7 @@ STING serves multiple protective roles in host defense and homeostasis:
 > - **cGAS-independent activation:** Organelle stress ([[Endoplasmic Reticulum Stress|ER stress]], endolysosomal dysfunction, impaired STING degradation) can activate STING independent of cGAS—supported by [[NPC1]] deficiency and [[C9orf72]] loss of function—positioning STING as a broad integrator of cellular stress.
 
 > [!warning] STING is not uniformly deleterious in the aging brain
-> While endothelial STING activation disrupts the [[Blood-Brain Barrier|BBB]], microglial STING **preserves** hippocampal BBB integrity during aging. Genetic STING loss reduces [[Cellular Senescence|senescence]] yet paradoxically accelerates cognitive/motor decline and raises the DNA-damage marker γH2A.X ([[H2A.X]]). In peripheral immunity, STING activation can be protective—inducing [[Regulatory T cells|Treg]] and regulatory [[B Cells|B cell]] responses and maintaining [[Hematopoietic Stem Cell|HSC]] quiescence.
+> While endothelial STING activation disrupts the [[Blood-Brain Barrier|BBB]], microglial STING **preserves** hippocampal BBB integrity during aging. Genetic STING loss reduces [[Senescence|senescence]] yet paradoxically accelerates cognitive/motor decline and raises the DNA-damage marker γH2A.X ([[H2A.X]]). In peripheral immunity, STING activation can be protective—inducing [[Regulatory T cells|Treg]] and regulatory [[B Cells|B cell]] responses and maintaining [[Hematopoietic Stem Cell|HSC]] quiescence.
 
 ## Neuronal STING
 
@@ -117,6 +117,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[ERGIC]], [[Nuclear Envelope]], [[Aryl Hydrocarbon Receptor]], [[NPC1]], [[C9orf72]], [[Endoplasmic Reticulum Stress]], [[Blood-Brain Barrier]], [[H2A.X]], [[Regulatory T cells]], [[B Cells]], [[Hematopoietic Stem Cell]], [[Retinal Ganglion Cells]], [[Dorsal Root Ganglion]], [[Nociceptor]], [[TDP-43]], [[Type I Interferon]], [[Cellular Senescence]]
+- New links added: [[ERGIC]], [[Nuclear Envelope]], [[Aryl Hydrocarbon Receptor]], [[NPC1]], [[C9orf72]], [[Endoplasmic Reticulum Stress]], [[Blood-Brain Barrier]], [[H2A.X]], [[Regulatory T cells]], [[B Cells]], [[Hematopoietic Stem Cell]], [[Retinal Ganglion Cells]], [[Dorsal Root Ganglion]], [[Nociceptor]], [[TDP-43]], [[Type I Interferon]], [[Senescence]]
 - Suggested new entity notes to create: [[cGAMP]], [[STING]], [[STING]], [[STING Inhibitors]]
   - Strong connections to strengthen: [[STING]] ↔ [[TFEB]], [[STING]] ↔ [[Blood-Brain Barrier]], [[STING]] ↔ [[Aryl Hydrocarbon Receptor]]

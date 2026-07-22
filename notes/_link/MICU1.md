@@ -1,7 +1,6 @@
 ---
 title: MICU1
 description: Mitochondrial calcium uptake regulator that gates the MCU pore, preventing Ca2+ uptake at low matrix Ca2+ and enabling it at high cytosolic Ca2+.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

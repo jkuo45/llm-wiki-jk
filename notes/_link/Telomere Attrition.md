@@ -64,11 +64,14 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Subsequently, Sir2 (yeast) has been found to function in transcriptional repression at ribosomal DNA loci, at silent mating-type loci and in Telomere Attrition, and this increasing knowledge has greatly improved exploration of its function.
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - IPF arises partly from telomere attrition — telomerase (TERT/TERC) mutations and accelerated shortening drive AT2 replicative senescence and feed mitochondrial ROS.
+
 
 ## Connections
 
 - [[Aging]] — telomere attrition is one of the nine hallmarks of aging
-- [[Cellular Senescence]] — critically short telomeres trigger irreversible growth arrest
+- [[Senescence]] — critically short telomeres trigger irreversible growth arrest
 - [[Senescence]] — replicative senescence driven by telomere shortening
 - [[SASP|Senescence-Associated Secretory Phenotype]] — senescent cells with short telomeres secrete pro-inflammatory factors
 - [[DNA Damage]] — unprotected telomeres activate the DDR
@@ -90,9 +93,11 @@ List of documents that mention this entity
 - [[Caloric Restriction]] — associated with slower telomere shortening rates
 - [[Replicative Senescence]] — the Hayflick limit is driven by progressive telomere attrition
 - [[Hallmarks of Aging]] — telomere attrition is classified as a primary hallmark
+- [[Alveolar Type II Cells]] — Telomere shortening drives AT2 replicative senescence and loss of regenerative capacity
+- [[p53]] — Critically short telomeres trigger sustained p53 activation in IPF epithelium
 
 ## Linking Summary
 
-- New links added: [[Aging]], [[Cellular Senescence]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
+- New links added: [[Aging]], [[Senescence]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
 - Suggested new entity notes to create: [[Telomere]], [[Shelterin Complex]], [[T-loop]], [[ALT (Alternative Lengthening of Telomeres)]], [[Telomere Biology Disorders]], [[Idiopathic Pulmonary Fibrosis]], [[Dyskeratosis Congenita]], [[Imetelstat]], [[TA-65]]
   - Strong connections to strengthen: Telomere Attrition ↔ Hallmarks of Aging, Telomere Attrition ↔ Replicative Senescence, Telomere Attrition ↔ [[Telomerase]], Telomere Attrition ↔ Cellular Senescence

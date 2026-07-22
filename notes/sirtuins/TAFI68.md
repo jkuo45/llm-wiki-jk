@@ -32,7 +32,7 @@ The net rRNA output thus reflects a balance among SIRT1 (repressive), SIRT7 (act
 
 ## Physiological and Pathological Relevance
 
-Because ribosome biogenesis is hijacked in cancer and declines in [[Aging]], TAFI68 acetylation status is functionally important. SIRT1-mediated repression of Pol I via TAFI68 may protect cells from oncogenic overgrowth, while SIRT7-driven activation supports proliferation. The opposing sirtuin actions at the nucleolus (also seen with [[RNA Polymerase I]]) make TAFI68 a nexus connecting the [[Sirtuins]] to growth control, [[Cellular Senescence]], and tumor biology. Loss of SIRT7 recapitulates the senescent, low-rRNA phenotype, underscoring the physiological weight of this regulatory node.
+Because ribosome biogenesis is hijacked in cancer and declines in [[Aging]], TAFI68 acetylation status is functionally important. SIRT1-mediated repression of Pol I via TAFI68 may protect cells from oncogenic overgrowth, while SIRT7-driven activation supports proliferation. The opposing sirtuin actions at the nucleolus (also seen with [[RNA Polymerase I]]) make TAFI68 a nexus connecting the [[Sirtuins]] to growth control, [[Senescence]], and tumor biology. Loss of SIRT7 recapitulates the senescent, low-rRNA phenotype, underscoring the physiological weight of this regulatory node.
 
 ## Documents
 

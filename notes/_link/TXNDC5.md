@@ -1,7 +1,6 @@
 ---
 title: TXNDC5
 description: Thioredoxin domain-containing protein 5, a chaperone that synergizes with HSPA8 (HSC70) to drive NF-κB-mediated inflammatory signaling in rheumatoid arthritis fibroblasts.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

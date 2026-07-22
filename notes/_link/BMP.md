@@ -2,7 +2,6 @@
 title: BMP
 description: Bone morphogenetic proteins, a subfamily of TGFβ-superfamily growth factors that
   act as developmental SASP factors contributing to patterning, morphogenesis, and tissue growth.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11
@@ -40,7 +39,7 @@ aliases: [BMP, BMPs, Bone morphogenetic protein, Bone morphogenetic proteins]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists BMPs among the beneficial SASP factors (with MMPs and IGFBP5) that contribute to embryogenesis, patterning, and growth.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists BMPs among the beneficial SASP factors (with MMPs and IGFBP5) that contribute to embryogenesis, patterning, and growth.
 
 ## Connections
 
@@ -49,10 +48,10 @@ aliases: [BMP, BMPs, Bone morphogenetic protein, Bone morphogenetic proteins]
 - [[SMAD4]]: co-SMAD partner in canonical BMP signaling
 - [[IGFBP5]]: co-secreted developmental SASP factor
 - [[Matrix Metalloproteinase]]: co-acting developmental SASP factor in embryogenesis
-- [[Cellular Senescence]]: BMP signaling cooperates with programmed senescence in development
+- [[Senescence]]: BMP signaling cooperates with programmed senescence in development
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[TGFβ]], [[SMAD4]], [[IGFBP5]], [[Matrix Metalloproteinase]], [[MAPK]], [[Cellular Senescence]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[TGFβ]], [[SMAD4]], [[IGFBP5]], [[Matrix Metalloproteinase]], [[MAPK]], [[Senescence]]
 - Suggested new entity notes to create: [[SMAD1]], [[Noggin]]
 - Strong connections to strengthen: [[BMP]] ↔ [[TGFβ]], [[BMP]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

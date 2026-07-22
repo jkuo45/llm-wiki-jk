@@ -1,7 +1,6 @@
 ---
 title: TREM2
 description: Triggering receptor expressed on myeloid cells 2, a microglial immunoglobulin-superfamily receptor that gates cGAS-STING/IFN-I signaling and senescence.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [receptor, microglia, neuroinflammation, innate-immunity]
@@ -40,11 +39,11 @@ Because TREM2 both gates inflammatory signaling and supports microglial homeosta
   - [[Disease-Associated Microglia]]: TREM2-driven DAM program is distinct from TREM2-induced ISG/cGAS axis.
   - [[APOE3 Christchurch]]: Resilience variant contrasting TREM2/APOE4 risk axis.
   - [[Interferon-Stimulated Genes]]: Induced by TREM2 activity independently of DAM.
-  - [[Cellular Senescence]]: TREM2/APOE4 synergy drives senescence-like microglial state.
+  - [[Senescence]]: TREM2/APOE4 synergy drives senescence-like microglial state.
 
 ## Linking Summary
 
-- New links added: [[TREM2]], [[APOE4]], [[APOE3 Christchurch]], [[cGAS]], [[Microglia]], [[Astrocyte Senescence]], [[Disease-Associated Microglia]], [[Interferon-Stimulated Genes]], [[Cellular Senescence]], [[cGAS-STING Pathway]]
+- New links added: [[TREM2]], [[APOE4]], [[APOE3 Christchurch]], [[cGAS]], [[Microglia]], [[Astrocyte Senescence]], [[Disease-Associated Microglia]], [[Interferon-Stimulated Genes]], [[Senescence]], [[cGAS-STING Pathway]]
 - Suggested new entity notes to create: [[TREM2|R47H variant]], [[Disease-Associated Microglia]]
 - Strong connections to strengthen:
     - [[TREM2]] ↔ [[APOE4]]

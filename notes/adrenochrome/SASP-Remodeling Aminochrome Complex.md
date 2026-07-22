@@ -1,7 +1,6 @@
 ---
 title: SASP-Remodeling Aminochrome Complex
 description: A conceptual entity describing aminochrome (oxidized adrenochrome) interaction with the Senescence-Associated Secretory Phenotype, linking redox-driven senescence to indolequinone stress.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13

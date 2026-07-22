@@ -97,9 +97,9 @@ List of documents that mention this entity
 ## Connections
 - **[[DNA Methylation]]**: The primary epigenetic mark used to measure biological age.
 - [[Epigenetic Clock]]: Tools developed to quantify the aging process using DNA methylation data.
-- [[Cellular Senescence]]: A state of permanent cell cycle arrest that contributes to aging and is marked by distinct epigenetic changes.
+- [[Senescence]]: A state of permanent cell cycle arrest that contributes to aging and is marked by distinct epigenetic changes.
 
 ## Linking Summary
-- New links added: [[Autophagy]], [[Caloric Restriction]], [[Cancer]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Inflammation]], [[Lifespan]]
+- New links added: [[Autophagy]], [[Caloric Restriction]], [[Cancer]], [[Cardiovascular Disease]], [[Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]], [[Senescence]]., [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Inflammation]], [[Lifespan]]
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[Epigenetic Rejuvenation]], [[Inflammaging]], [[Senescence]], [[Yamanaka Factors]]
   - Strong connections to strengthen: [[Aging]] ↔ DNA Methylation, [[Aging]] ↔ Epigenetic Clock, [[Aging]] ↔ Mitochondrial Dysfunction, Advanced Glycation End Products ↔ [[Aging]]

@@ -45,10 +45,14 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Functional studies showed that SIRT3 reversed Bnip3 expression and promoted Bnip3-required Mitophagy activity via the ERK-CREB signaling pathway.
 
+  - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+    - CREB is listed among SIRT1's >40 deacetylation substrates; SIRT1 deacetylates CREB at Lys136 to regulate lipid metabolism, and CREB-regulated transcription coactivator 2 (CRTC2) is also a SIRT1 target.
+
 
 ## Connections
 
 - [[SIRT1]] — Deacetylates CREB at Lys136, modulating lipid metabolism gene programs
+- [[SIRT1]]: SIRT1 deacetylates CREB (K136) and CRTC2 to regulate lipid metabolism (Chaqour 2026)
 - [[Resveratrol]] — Activates cAMP/PKA/CREB signaling via PDE4 inhibition
 - [[cAMP]] — Second messenger that activates PKA, leading to CREB Ser133 phosphorylation
 - [[PDE4]] — Resveratrol inhibits PDE4, raising cAMP and activating CREB

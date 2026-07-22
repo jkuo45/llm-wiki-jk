@@ -1,7 +1,6 @@
 ---
 title: JMJD3
 description: Jumonji domain-containing protein 3 (KDM6B), an H3K27me3 demethylase that derepresses IL-6 and IL-8 SASP loci in senescent cells.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

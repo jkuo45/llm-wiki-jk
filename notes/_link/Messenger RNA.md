@@ -1,7 +1,6 @@
 ---
 title: Messenger RNA
 description: Messenger RNA (mRNA), the ribonucleic acid transcript that conveys genetic information from DNA to the ribosome for protein synthesis.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -35,8 +34,8 @@ mRNA abundance and integrity reflect gene expression states in health and diseas
 
 ## Documents
 
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: mRNA is discussed as a target/tool for modulating gene expression in the research plan.
-- [[_document_ - task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations reference mRNA-targeted nucleic acid approaches.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: mRNA is discussed as a target/tool for modulating gene expression in the research plan.
+- [[task_output_sirtuins_recommendations_03_JULY_2026]]: Recommendations reference mRNA-targeted nucleic acid approaches.
 
 ## Connections
 

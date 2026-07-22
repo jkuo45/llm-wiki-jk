@@ -1,7 +1,6 @@
 ---
 title: ERGIC
 description: ER–Golgi intermediate compartment where activated STING transits and assembles TBK1–IRF3 signaling complexes.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [organelle, trafficking, cgas-sting, endoplasmic-reticulum]

@@ -41,6 +41,9 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
     - Neuromelanin can reversibly bind and interact with amine containing neurotoxins, e.g., MPTP, to augment their actions in the terminal, eventually leading to the instability and degeneration of melanin-containing neurons due to Oxidative Stress and Mitochond...
 
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - Mitochondrial dysfunction (reduced PINK1/mitophagy → ROS) is a defining feature of senescent IPF epithelial cells, activating NF-κB/SASP and forming a self-reinforcing loop with senescence.
+
 
 ## Connections
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
@@ -50,6 +53,8 @@ List of documents that mention this entity
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[MPTP]] — interacts with Mitochondrial Dysfunction
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
+- [[PINK1]]: PINK1 deficiency underlies mitochondrial dysfunction in IPF senescence
+- [[NF-kappaB|NF-κB]]: Mitochondrial ROS activate NF-κB to drive SASP
 ## Linking Summary
 - New links added: [[TFEB]], [[Mitochondria]], [[Mitophagy]], [[Parkinson's Disease]], [[Substantia Nigra]], [[Oxidative Stress]], [[Neuromelanin]], [[MPTP]].
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]], [[ATP]], [[Complex I]], [[Mitophagy]].

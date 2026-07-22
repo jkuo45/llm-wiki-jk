@@ -62,6 +62,6 @@ List of documents that mention this entity
 
 ## Linking Summary:
 
-- New links added: [[p53]], [[Cellular Senescence]], [[CDK4]], [[CDK6]], [[CDK2]], [[CDK1]], [[Cyclin D]], [[S Phase]], [[G1 Phase]]
+- New links added: [[p53]], [[Senescence]], [[CDK4]], [[CDK6]], [[CDK2]], [[CDK1]], [[Cyclin D]], [[S Phase]], [[G1 Phase]]
 - Suggested new entity notes to create: [[CDKN2A]], [[CDKN1A]], [[CDKN1B]]
 - Strong connections to strengthen: [[CDK Inhibitor]] ↔ [[Cyclin-Dependent Kinase]], [[CDK Inhibitor]] ↔ [[Cell Cycle]]

@@ -1,7 +1,6 @@
 ---
 title: HIIT
 description: High-intensity interval training, a potent mitohormetic stimulus that generates an acute ROS and lactate spike to trigger PGC-1α and mitochondrial biogenesis.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

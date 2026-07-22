@@ -1,7 +1,6 @@
 ---
 title: Phenotype
 description: A phenotype is the set of observable characteristics or traits of an organism—morphological, developmental, biochemical, physiological, and behavioral—shaped by genotype and environment.
-type: entity
 created: 2024-01-01
 updated: 2026-07-09
 tags:
@@ -18,7 +17,7 @@ A **phenotype** is the set of observable characteristics or traits of an organis
 
 ## Levels & Types
 
-Phenotypes operate across scales: molecular (e.g., a protein's abundance), cellular (e.g., the [[SASP|Senescence-Associated Secretory Phenotype]] of a [[Cellular Senescence|senescent cell]]), tissue, organismal, and population. Traits may be morphological, physiological, biochemical, or behavioral, and can be quantitative (height, blood pressure) or qualitative (eye color, presence of a disease).
+Phenotypes operate across scales: molecular (e.g., a protein's abundance), cellular (e.g., the [[SASP|Senescence-Associated Secretory Phenotype]] of a [[Senescence|senescent cell]]), tissue, organismal, and population. Traits may be morphological, physiological, biochemical, or behavioral, and can be quantitative (height, blood pressure) or qualitative (eye color, presence of a disease).
 
 ## Phenotypic Plasticity & Aging
 
@@ -45,7 +44,7 @@ Phenotypes are the endpoint readouts of most biomedical study — from clinical 
 
 ## Linking Summary
 
-  - New links added: [[Genotype]], [[Epigenetics]], [[Aging]], [[Hallmarks of Aging]], [[Geroscience]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Cellular Senescence]]
+  - New links added: [[Genotype]], [[Epigenetics]], [[Aging]], [[Hallmarks of Aging]], [[Geroscience]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]]
   - Suggested new entity notes to create: [[Phenotypic Plasticity]]
   - Strong connections to strengthen: [[Phenotype]] ↔ [[Genotype]], [[Phenotype]] ↔ [[Epigenetics]]
   - Justification: Phenotypic plasticity explains environment-dependent trait expression and deserves a dedicated note.

@@ -1,7 +1,6 @@
 ---
 title: USP10
 description: USP10 (Ubiquitin Specific Peptidase 10) is a deubiquitinating enzyme (DUB) that stabilizes SIRT6 by binding its C-terminal region and removing ubiquitin chains, counteracting proteasomal degradation.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

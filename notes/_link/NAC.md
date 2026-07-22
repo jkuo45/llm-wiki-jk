@@ -1,7 +1,6 @@
 ---
 title: NAC
 description: N-acetylcysteine, a peroxidase/antioxidant inhibitor used as a comparator showing apigenin's SASP suppression is independent of PRDX6 peroxidase activity.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

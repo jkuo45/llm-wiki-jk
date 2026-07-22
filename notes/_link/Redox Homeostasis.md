@@ -1,7 +1,6 @@
 ---
 title: Redox Homeostasis
 description: The dynamic balance between oxidants and antioxidants that maintains cellular signaling and prevents oxidative damage; its erosion underlies aging and disease.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

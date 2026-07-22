@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/SRT1720.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/SRT2104.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/STACs.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Salermide.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Sir2 (yeast).md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/SirReal2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Sirtinol.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Sirtuin Activators.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Sirtuin activating compounds.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Sirtuins.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Smad7.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Splitomicin.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Stilbene.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Stilbenoid.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/TAFI68.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/TIMP3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/TRPM2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Tenovins.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Tumor Microenvironment.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/UBCS039.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/UCP2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/sirtuins/Warfarin.md

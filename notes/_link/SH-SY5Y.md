@@ -1,7 +1,6 @@
 ---
 title: SH-SY5Y
 description: A human neuroblastoma cell line differentiated into neuron-like cells, widely used as a dopaminergic neuron model.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -35,7 +34,7 @@ The line enables mechanistic dissection of dopaminergic neuron loss, oxidative d
 
 ## Documents
 
-  - [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]
     - SH-SY5Y proposed as a neuronal model to test adrenochrome and sirtuin effects on dopaminergic survival.
 
 ## Connections

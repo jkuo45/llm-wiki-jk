@@ -13,7 +13,7 @@ aliases: [Atm]
 
 # ATM
 [[ATM]] (Ataxia-telangiectasia mutated) is a protein kinase that coordinates the DNA damage response. It phosphorylates [[Bid]] at Ser61 and Ser78, leading to S phase arrest in response to DNA damage.
-**ATM (Ataxia-Telangiectasia Mutated)** is a ~350 kDa serine/threonine protein kinase belonging to the [[PI3K-related kinase]] (PIKK) family. It functions as the master initiator of the [[DNA Damage Response|DNA damage response (DDR)]] to [[DNA double-strand breaks]] (DSBs), orchestrating cell cycle checkpoint activation, chromatin remodeling, DNA repair, and — if damage is irreparable — [[Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
+**ATM (Ataxia-Telangiectasia Mutated)** is a ~350 kDa serine/threonine protein kinase belonging to the [[PI3K-related kinase]] (PIKK) family. It functions as the master initiator of the [[DNA Damage Response|DNA damage response (DDR)]] to [[DNA double-strand breaks]] (DSBs), orchestrating cell cycle checkpoint activation, chromatin remodeling, DNA repair, and — if damage is irreparable — [[Apoptosis|apoptosis]] or [[Senescence|senescence]].
 ## Mechanism of Activation
 In undamaged cells, ATM exists as an inactive dimer. Upon DSB detection, the [[MRN complex]] ([[MRE11]]-[[RAD50]]-[[NBS1]]) binds to DNA ends and recruits ATM. Interaction with the MRN complex promotes ATM monomerization and autophosphorylation at Ser1981, triggering kinase activity. Active ATM phosphorylates hundreds of substrates:
 - **[[H2AX]]** (at Ser139 → γH2AX): Marks damaged chromatin and recruits [[MDC1]], [[53BP1]], and [[BRCA1]] to amplify the damage signal.
@@ -26,7 +26,7 @@ ATM directly reshapes the [[Epigenome]] at DSB sites:
 2. **[[H3K9me3]] maintenance:** ATM phosphorylates [[KAP1]], which relieves [[CHD3]]-mediated nucleosome remodeling, transiently opening heterochromatin for repair.
 3. **[[DNA Methylation]] crosstalk:** ATM signaling can recruit [[DNMT1]] to repair sites, potentially establishing persistent methylation marks — an epigenetic "scar" that may contribute to age-related methylation drift.
 ## Role in Aging and Senescence
-ATM activity declines with age in human tissues, correlating with increased genomic instability. In [[Cellular Senescence|senescence]], ATM is required for the DDR-induced senescence program, but chronic ATM signaling paradoxically contributes to the [[SASP|Senescence-Associated Secretory Phenotype]] via [[NFκB]] activation. Inhibition of ATM in aged mice reduces sterile inflammation and improves tissue function in some contexts, suggesting a therapeutic window for ATM modulation in aging.
+ATM activity declines with age in human tissues, correlating with increased genomic instability. In [[Senescence|senescence]], ATM is required for the DDR-induced senescence program, but chronic ATM signaling paradoxically contributes to the [[SASP|Senescence-Associated Secretory Phenotype]] via [[NFκB]] activation. Inhibition of ATM in aged mice reduces sterile inflammation and improves tissue function in some contexts, suggesting a therapeutic window for ATM modulation in aging.
 ## Clinical Relevance
 - **Ataxia-Telangiectasia:** Biallelic ATM loss-of-function mutations cause the neurodegenerative disorder ataxia-telangiectasia, characterized by cerebellar degeneration, immunodeficiency, radiation sensitivity, and cancer predisposition.
 - **Cancer:** ATM somatic mutations are common in lymphoid malignancies, [[Breast Cancer|breast cancer]], and [[Pancreatic Cancer|pancreatic cancer]]. ATM-deficient tumors are selectively vulnerable to [[PARP inhibitors]] (e.g., [[Olaparib]]) and [[ATR inhibitors]].
@@ -54,7 +54,7 @@ List of documents that mention this entity
 - [[DNA Damage Response]] — interacts with ATM
 - [[DNA double-strand breaks]] — interacts with ATM
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
-- [[Cellular Senescence]] — stable cell cycle arrest; SASP secretion; aging hallmark
+- [[Senescence]] — stable cell cycle arrest; SASP secretion; aging hallmark
 - [[MRN complex]] — interacts with ATM
 - [[MRE11]] — interacts with ATM
 ## Linking Summary

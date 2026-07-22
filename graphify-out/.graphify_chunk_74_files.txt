@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Birt-Hogg-Dube syndrome.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/C. elegans.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CASTOR1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CASTOR2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CD8+ T Cell.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CDK46.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CLEAR Element.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CRM1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Caloric Restriction Mimetics.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Cathepsin K.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/CeTOR.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Celastrol.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Chaperone-Mediated Autophagy.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Cholesterol Metabolism.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/DAF-2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/DAF-7.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Deptor.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Dietary Restriction.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Dopamine Neuron.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/ERK Signaling.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/ESCRT.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/autophagy/Eltrombopag.md

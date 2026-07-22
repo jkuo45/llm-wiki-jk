@@ -1,7 +1,6 @@
 ---
 title: DunedinPACE
 description: A methylation-based estimator of the pace of biological aging that predicts aging-related decline and disease from a single timepoint.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

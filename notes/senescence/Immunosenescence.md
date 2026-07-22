@@ -10,6 +10,8 @@ tags:
   - senescence
 aliases: []
 protected: true
+---
+
 # Immunosenescence
 Immunosenescence refers to the gradual deterioration of the immune system associated with aging, leading to increased susceptibility to infections, autoimmune diseases, and cancer.
 **Immunosenescence** (or [[Immune Aging]]) is the systemic deterioration of immune function that accompanies [[Aging]].
@@ -20,11 +22,7 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 - Accompanied by [[Inflammaging]], a chronic state of innate immune activation.
 ## Reversal
 - Clinical implementation of [[Autophagy Inducer|autophagy inducers]] (e.g., [[Rapamycin]], [[Metformin]], [[Spermidine]]) provides potential to partially reverse systemic immunosenescence.
-
-
-#
-
-# 
+---
 
 ## Documents
 

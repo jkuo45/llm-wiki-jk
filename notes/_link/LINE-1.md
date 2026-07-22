@@ -35,7 +35,7 @@ aliases: []
 - [[Progerin]] — progerin induces LINE1 derepression; SIRT6 variants counteract this
 - [[Hutchinson-Gilford Progeria Syndrome]] — LINE1 reactivation driven by progerin in HGPS
 - [[Fucoidan]] — SIRT6 activator that reduces LINE1 protein levels
-- [[Cellular Senescence]] — LINE1 derepression contributes to senescence
+- [[Senescence]] — LINE1 derepression contributes to senescence
 - [[SASP|Senescence-Associated Secretory Phenotype]] — LINE-1 cDNA drives SASP via cGAS–STING–NF-κB
 - [[Epigenetic Alterations]] — retrotransposon derepression is a hallmark of the senescent epigenome
 - [[Senescence-Associated Heterochromatin Foci]] — L1 loci are packaged into heterochromatin that decompacts in senescence
@@ -52,6 +52,6 @@ aliases: []
 - [[Inflammaging]] — LINE-1 derepression underlies inflammaging
 
 ## Linking Summary
-- New links added: [[Transposable Elements]], [[Genomic Instability]], [[SIRT6]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Fucoidan]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[RB1]], [[DNA Methylation]], [[Histone Variant]], [[BRD4]], [[KDM4]], [[EZH2]], [[Inflammaging]]
+- New links added: [[Transposable Elements]], [[Genomic Instability]], [[SIRT6]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Fucoidan]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[RB1]], [[DNA Methylation]], [[Histone Variant]], [[BRD4]], [[KDM4]], [[EZH2]], [[Inflammaging]]
 - Strong connections to strengthen: [[LINE-1]] ↔ Transposable Elements, [[LINE-1]] ↔ Genomic Instability, [[LINE-1]] ↔ SIRT6
 

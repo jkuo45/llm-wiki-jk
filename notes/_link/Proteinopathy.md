@@ -1,7 +1,6 @@
 ---
 title: Proteinopathy
 description: Diseases driven by misfolded and aggregated proteins, sharing cytosolic dsDNA generation as a unifying trigger of cGAS-STING activation.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [disease, proteinopathy, neurodegeneration, protein-aggregation]

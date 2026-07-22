@@ -1,7 +1,6 @@
 ---
 title: Microbiome
 description: The collective community of commensal microbes and their metabolites that regulate host immunity, redox tone, and aging via the gut-brain and gut-NAD+ axes.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

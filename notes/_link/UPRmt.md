@@ -1,7 +1,6 @@
 ---
 title: UPRmt
 description: The mitochondrial unfolded protein response is a retrograde stress pathway that restores mitochondrial proteostasis and mediates mitohormetic lifespan extension.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

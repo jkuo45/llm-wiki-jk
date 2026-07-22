@@ -1,7 +1,6 @@
 ---
 title: Opioids
 description: Opioids are a class of analgesic drugs acting at opioid receptors; several (e.g., tramadol, meperidine) have serotonergic activity and pose serotonin-syndrome risk with MAO inhibitors such as methylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-09
 tags:

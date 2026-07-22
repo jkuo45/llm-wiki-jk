@@ -1,7 +1,6 @@
 ---
 title: Nrf2
 description: Transcription factor (NF-E2-related factor 2) that orchestrates the antioxidant and detoxification response by binding ARE/EpRE elements.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:
@@ -36,8 +35,10 @@ Nrf2 intersects with longevity pathways. It is co-activated by many [[Sirtuins]]
     - Links dietary phytochemicals to Nrf2 activation through xenohormetic pathways.
   - [[_document_ - as senotherapeutic agent|Senotherapeutic Agent]]
     - Describes Nrf2 activation as a senotherapeutic and redox-restorative strategy.
-  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Urolithin A]]
-    - Notes Nrf2 involvement in urolithin A-mediated mitochondrial quality and antioxidant effects.
+   - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Urolithin A]]
+     - Notes Nrf2 involvement in urolithin A-mediated mitochondrial quality and antioxidant effects.
+   - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+     - Resveratrol, a SIRT1-activating compound, confers vascular protection via Nrf2/HO-1–mediated antioxidant defense.
 
 ## Connections
 
@@ -45,7 +46,8 @@ Nrf2 intersects with longevity pathways. It is co-activated by many [[Sirtuins]]
   - [[Oxidative Stress]]: The primary stimulus that activates Nrf2 and the principal phenotype its target genes oppose.
   - [[ROS]]: Mitochondrial ROS act as retrograde signals that activate Nrf2 during mitohormesis.
   - [[Mitochondria]]: Source of the reactive oxygen signals and the organelle whose quality Nrf2-protective programs preserve.
-  - [[Autophagy]]: Nrf2 and autophagic programs are co-regulated stress-adaptive responses with overlapping targets.
+   - [[Autophagy]]: Nrf2 and autophagic programs are co-regulated stress-adaptive responses with overlapping targets.
+   - [[Resveratrol]]: Resveratrol activates Nrf2/HO-1 downstream of SIRT1; [[HO-1]]: Nrf2 activates HO-1 antioxidant defense.
 
 ## Linking Summary
 

@@ -2,7 +2,6 @@
 title: CCL20
 description: C-C motif chemokine ligand 20 (MIP-3α), a SASP chemokine that signals through
   CCR6 to recruit immune cells and contributes to paracrine senescence and inflammaging.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11

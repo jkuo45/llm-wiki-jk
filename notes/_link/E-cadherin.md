@@ -2,7 +2,6 @@
 title: E-cadherin
 description: Epithelial cadherin (CDH1), a calcium-dependent cell-cell adhesion protein whose loss
   marks epithelial-to-mesenchymal transition; referenced in the SASP tumorigenesis module.
-type: entity
 protected: false
 created: 2026-07-11
 updated: 2026-07-11
@@ -41,7 +40,7 @@ aliases: [E-cadherin, CDH1, Epithelial cadherin, Cadherin-1]
 
 ## Documents
 
-- [[_document_- SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists E-cadherin among the SASP-associated tumorigenesis factors (with IL-6, IL-8, CCL5, CXCL5, CXCL12, VEGF, HGF) that promote cancer cell proliferation, migration, metastasis, and angiogenesis.
+- [[_document_ - SASP (detrimental, beneficial) Table|SASP Detrimental & Beneficial Functions Table]]: Lists E-cadherin among the SASP-associated tumorigenesis factors (with IL-6, IL-8, CCL5, CXCL5, CXCL12, VEGF, HGF) that promote cancer cell proliferation, migration, metastasis, and angiogenesis.
 
 ## Connections
 

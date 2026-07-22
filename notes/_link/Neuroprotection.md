@@ -39,6 +39,9 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
     - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
 
+  - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
+    - Honokiol protects neurons via Na<sup>+</sup>/K<sup>+</sup>-ATPase preservation, [[Akt]] pro-survival phosphorylation, [[Mitochondria|mitochondrial]] protection, [[GABA_A receptor]] modulation, and suppression of [[Reactive Oxygen Species|ROS]]/[[Inflammation|inflammation]]; also disrupts PSD95–[[nNOS]] coupling at the [[NMDA receptor]] to prevent ischemic neurotoxicity.
+
 
 ## Connections
 
@@ -50,6 +53,8 @@ List of documents that mention this entity
 - [[Lysosomal Exocytosis]] - export route to relieve pigment load.
 - [[Neuroinflammation]] - inflammatory axis dampened for protection.
 - [[L-DOPA]] - symptomatic contrast to disease-modifying neuroprotection.
+- [[Honokiol]] - multitarget neuroprotectant (GABA<sub>A</sub>, NMDA/PSD95–nNOS, NF-κB, Akt, mitochondria) reducing infarct volume and Aβ toxicity.
+- [[Magnolol]] - honokiol analog with overlapping neuroprotective mechanisms.
 
 ## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Autophagy]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Lysosomal Exocytosis]], [[Neuroinflammation]], [[L-DOPA]], [[MPP+]], [[Selegiline]].

@@ -1,7 +1,6 @@
 ---
 title: ApiTox
 description: A standardized honeybee (Apis mellifera) venom preparation used in apitherapy research for its anti-inflammatory and anti-cancer properties
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [chemical-compound, apitherapy, bee-venom, cancer, inflammation]

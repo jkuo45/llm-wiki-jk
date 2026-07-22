@@ -64,6 +64,9 @@ List of documents that mention this entity
   - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Discusses senescence surveillance as a beneficial effect of SASP: short-term SASP-mediated immune recruitment clears pre-malignant cells, while failure of surveillance due to aging or immune dysfunction permits cancer development.
 
+  - [[_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities|Dong et al. 2024 Senescence and SASP in Tumors]]
+    - Details the mechanisms of SASP-mediated immunosurveillance: senescent cells generate SASP that regulates surrounding tissue microenvironment, activating CD4+ T cells via STAT1 and ICOS/ICOSL signaling. In mouse liver cancer models, p53-induced senescence suppresses macrophages, neutrophils, and NK cells, leading to tumor cell clearance via phagocytosis and NK cell activation. Tumor regression requires adaptive immunity when p53 is activated. IFN-γ synergizes with SASP to enhance antigen presentation and immune surveillance, leading to tumor cell rejection. SASP also recruits immune cells via CXCR2 to re-educate tumor-associated macrophages.
+
 ## Connections
 
 - [[Senescence]] — Senescence surveillance is the immune clearance arm of the senescence program

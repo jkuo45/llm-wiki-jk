@@ -117,7 +117,7 @@ The review confirms rapamycin suppresses the SASP through the mTOR → IL-1α �
 - [[SASP]]: The pro-inflammatory secretome targeted by rapamycin in Phase 1.
 - [[Advanced Glycation End Products]]: Inhibited by AMM's aminoguanidine moiety.
 - [[Senescence]]: The biological state targeted by the two-phase strategy.
-- [[Mitohormetic Redox-Relay]]: Shares MB and redox-hormesis logic with SRAC Phase 1.
+- [[_document_ - Mitohormetic Redox-Relay]]: Shares MB and redox-hormesis logic with SRAC Phase 1.
 - [[Glyco-Oxidative Proteostasis Shield]]: Shares AMM with SRAC; GOPS focuses on glycation/proteostasis while SRAC focuses on senescence/SASP.
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications]]: Authoritative SASP biomarker framework (Wang et al., 2024) underpinning the SRAC monitoring panel.
 - [[GDF15]]: Core SASP Atlas marker and mortality-associated panel member; tracks global senescence burden.

@@ -1,7 +1,6 @@
 ---
 title: AIM2
 description: Cytosolic double-stranded DNA sensor that assembles an inflammasome, driving pyroptosis and inflammatory cell death.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein, receptor, innate-immunity]
@@ -22,16 +21,32 @@ Unlike [[cGAS]], which synthesizes [[cGAMP]] to activate the [[cGAS-STING Pathwa
 
 AIM2 inflammasome assembly leads to Gasdermin-D pores and lytic [[Pyroptosis]], a form of inflammatory cell death that amplifies local tissue injury. Given that cGAS and AIM2 both surveil the cytosol for DNA, they form complementary but separable sentinels: cGAS broadcasts an interferon alarm, whereas AIM2 executes an inflammatory death sentence. Dysregulation of either pathway promotes chronic [[Inflammation]] and neuronal damage, making both attractive but context-dependent targets in neurological disease.
 
+## DROSHA–AIM2 axis in pulmonary fibrosis
+
+> [!info] Source: [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-Dependent AIM2 Inflammasome Activation in IPF]]
+> In [[Idiopathic Pulmonary Fibrosis|IPF]], both [[Drosha]] and AIM2 protein are elevated in [[Alveolar Macrophages|alveolar macrophages]] (human and bleomycin mouse). [[Drosha]] deficiency suppresses AIM2 inflammasome-dependent [[Caspase-1]] activation and [[Interleukin 1β|IL-1β]]/[[IL-18]] secretion; [[MicroRNA|miRNA]] transduction increases [[ASC]] speck formation required for AIM2 activation. Thus the [[Microprocessor complex|Microprocessor]] (via Drosha) promotes AIM2 inflammasome-driven lung inflammation — a macrophage-level parallel to the adrenochrome → DGCR8 → inflammaging bridge.
+
 ## Documents
 
   - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
     - The review lists AIM2 among the DNA-sensing PRRs and contrasts it with cGAS, TLR9, and ZBP1, noting that AIM2 activates inflammasomes in the cytosol. It frames AIM2 and cGAS as parallel DNA-sensing arms feeding different effector programs.
+  - [[_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis|DROSHA-Dependent AIM2 Inflammasome Activation in IPF]]
+    - DROSHA promotes AIM2 inflammasome activation and IL-1β/IL-18 release in IPF alveolar macrophages.
 
 ## Connections
 
   - [[cGAS]]: Parallel cytosolic DNA sensor engaging the STING/IFN axis instead
   - [[Inflammasome]]: Multiprotein complex assembled by AIM2 upon DNA binding
+  - [[ASC]]: Adaptor that nucleates the AIM2 inflammasome and ASC specks
+  - [[Caspase-1]]: Activated by the AIM2–ASC inflammasome; cleaves pro-IL-1β/pro-IL-18
+  - [[Interleukin 1β]]: Secreted downstream of AIM2 activation
+  - [[IL-18]]: Secreted downstream of AIM2 activation
   - [[Pyroptosis]]: Inflammatory lytic cell death driven by AIM2 activation
+  - [[Drosha]]: Promotes AIM2 inflammasome in IPF macrophages
+  - [[Microprocessor complex]]: Upstream regulator of the AIM2 axis
+  - [[Idiopathic Pulmonary Fibrosis]]: Disease context of elevated AIM2
+  - [[Alveolar Macrophages]]: Cellular site of AIM2 elevation in IPF
+  - [[Inflammaging]]: AIM2-driven inflammation contributes to chronic age-related inflammation
   - [[STING]]: Downstream of cGAS, distinct from AIM2 inflammasome output
   - [[Microglia]]: CNS cell type where DNA sensors drive neuroinflammation
   - [[mtDNA]]: Endogenous DNA source that can engage AIM2
@@ -39,8 +54,9 @@ AIM2 inflammasome assembly leads to Gasdermin-D pores and lytic [[Pyroptosis]], 
 
 ## Linking Summary
 
-- New links added: [[AIM2]], [[cGAS]], [[Inflammasome]], [[Pyroptosis]], [[STING]], [[Microglia]], [[mtDNA]], [[Neuroinflammation]]
-- Suggested new entity notes to create: [[ASC]], [[Caspase-1]], [[AIM2|gasdermin D]]
+- New links added: [[AIM2]], [[cGAS]], [[Inflammasome]], [[Pyroptosis]], [[STING]], [[Microglia]], [[mtDNA]], [[Neuroinflammation]], [[ASC]], [[Caspase-1]], [[Interleukin 1β]], [[IL-18]], [[Drosha]], [[Microprocessor complex]], [[Idiopathic Pulmonary Fibrosis]], [[Alveolar Macrophages]], [[Inflammaging]]
+- Suggested new entity notes to create: (none)
 - Strong connections to strengthen:
     - [[AIM2]] ↔ [[Inflammasome]]
+    - [[AIM2]] ↔ [[Inflammaging]]
     - [[cGAS]] ↔ [[cGAS-STING Pathway]]

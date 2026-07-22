@@ -1,7 +1,6 @@
 ---
 title: Fucoidan
 description: Fucoidan is a sulfated polysaccharide found in brown seaweeds (e.g., Fucus vesiculosus) that acts as a SIRT6 activator, elevating SIRT6 protein levels and enhancing mono-ADP-ribosyltransferase activity.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

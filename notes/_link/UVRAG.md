@@ -1,7 +1,6 @@
 ---
 title: UVRAG
 description: A tumor-suppressor protein that positively regulates autophagy by stabilizing the Beclin 1–Vps34 complex and is also required for endocytic trafficking.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

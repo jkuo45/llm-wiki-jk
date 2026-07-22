@@ -1,7 +1,6 @@
 ---
 title: Leuco-Adrenochrome — Chemical Intermediate, Analytical Reference, and Hemoglobin Interactions
 description: Overview of leuco-adrenochrome (S-1-methylindoline-3,5,6-triol), the reduced intermediate in epinephrine oxidation to adrenochrome. Covers the chemical pathway, redox cycling, historical context of the adrenochrome hypothesis, current use as a pharmaceutical reference standard and impurity marker, laboratory handling, interactions with hemoglobin/erythrocytes via ROS, and epinephrine formulation stability.
-type: document
 created: 2026-05-18
 updated: 2026-07-09
 source: https://aistudio.google.com/u/0/prompts/1uncj_9dpu_xQjnCXXWTdqgULljcr96yN

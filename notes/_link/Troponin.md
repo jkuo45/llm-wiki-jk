@@ -1,7 +1,6 @@
 ---
 title: Troponin
 description: Contractile regulatory protein complex (TnC, TnI, TnT) of striated muscle; cardiac troponin I/T are specific biomarkers of myocardial injury.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -36,9 +35,9 @@ Elevated cardiac troponin indicates myocardial damage in acute coronary syndrome
 
 ## Documents
 
-- [[task_output_adrenochrome_neutrophil_protocol_25_May_2026_0949_AM_PDT]]: Troponin measured as a cardiac safety/toxicity endpoint.
+- [[task_output_adrenochrome_neutrophil_protocol_25_May_2026]]: Troponin measured as a cardiac safety/toxicity endpoint.
 - [[task_output_adrenochrome_protocol-02]]: Troponin assessed in earlier adrenochrome protocol as myocardial injury marker.
-- [[_document_ - task_output_sirtuins_adrenochrome_research_plan_04_JULY_2026]]: Troponin listed among cardiovascular biomarkers in the research plan.
+- [[task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026]]: Troponin listed among cardiovascular biomarkers in the research plan.
 
 ## Connections
 

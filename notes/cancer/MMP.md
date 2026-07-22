@@ -1,7 +1,6 @@
 ---
 title: MMP
 description: Matrix Metalloproteinases; zinc-dependent endopeptidases that degrade extracellular matrix components and regulate the pericellular environment
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags: [enzyme, extracellular-matrix, senescence, cancer, inflammation]

@@ -1,7 +1,6 @@
 ---
 title: SUV39H1
 description: Suppressor of variegation 3-9 homolog 1 (KMT1A), the H3K9 trimethyltransferase whose senescence-associated decline licenses H3K9 demethylation and SASP expression.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

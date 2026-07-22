@@ -14,7 +14,7 @@ research **senescence-associated secretory phenotype (SASP)**
 
 en.wikipedia.org +1
 
-SASP is a hallmark feature of [[Cellular Senescence]] (alongside proliferative arrest and apoptosis resistance) and serves as the primary way senescent cells influence their microenvironment in both paracrine and autocrine manners. While senescence itself is a tumor-suppressive mechanism that prevents the proliferation of damaged cells, the SASP can have dual (beneficial and detrimental) effects depending on context, duration, and composition.
+SASP is a hallmark feature of [[Senescence]] (alongside proliferative arrest and apoptosis resistance) and serves as the primary way senescent cells influence their microenvironment in both paracrine and autocrine manners. While senescence itself is a tumor-suppressive mechanism that prevents the proliferation of damaged cells, the SASP can have dual (beneficial and detrimental) effects depending on context, duration, and composition.
 
 [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4166495/)
 

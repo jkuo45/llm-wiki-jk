@@ -1,0 +1,22 @@
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CK2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CLEAR Network.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CLOCK.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CML.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/COMT Inhibitors.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/COPD.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/COVID-19.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/COX-2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CPEO.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CUT&Tag.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL1.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL10.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL11.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL12.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL14.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCL5.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCR2.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCR3.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CXCR4.md
+/Users/johnnykuo/Documents/llm-wiki-jk/notes/_link/CYP2C9.md

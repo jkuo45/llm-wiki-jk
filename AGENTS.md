@@ -4,11 +4,11 @@
 
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
-- Documents with the `_document_` prefix in the filename are source documents awaiting ingestion. They live in the `raw/` directory until processed.
   - Depending on task, they may or may not be included in context, counts.
 - `notes` directory:
   - Contains files for wiki, directories within represent topics.
   - Each markdown file within that topic can be counted as a single entity.
+  - Each entity filename (`.md`) must be unique across all of `notes/` (including `notes/_link/` and all topic directories). Obsidian resolves wiki links globally by filename, so duplicates cause ambiguity.
 - `raw` directory:
   - Contains documents that have not yet been ingested into `notes/`. These are waiting to be processed through the Document Ingestion Workflow.
 - `tasks` directory:
@@ -25,11 +25,10 @@ When answering questions about biomedical topics, prioritize information sources
 
 ## Document Ingestion Workflow:
 
-**Prerequisites:** Documents with `_document_` prefix.
 
 | Step                          | Action                                                                                                                                                                                                                                                                                                                                                                                                          | Output                                             |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter (`type: document`), callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the `raw/_document_` file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file overwriting the `_document_`. |
+| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter, callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file. |
 | **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.                                              | New/updated entity notes / enriched existing notes |
 | **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.    |
 | **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                                                                 | Updated README with new entities.                  |
@@ -49,7 +48,7 @@ When marking up wiki links in the ingested document, apply these rules systemati
 - **Use display text when helpful** — `[[Retinoblastoma Protein|Rb]]` keeps readability while linking to the correct note.
 - **Callout key insights** — use `> [!info]`, `> [!tip]`, `> [!important]`, `> [!warning]` to highlight mechanistic details, clinical significance, and key experimental findings.
 - Add dedicated `Documents`,`Connections`, and `Linking Summary` sections listing important bidirectional connections with brief explanations.
-- **Outline format style** — only use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
+- **Outline format style** — remove enumeration from headings and subheadings. use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
 - **Maintain content consistency** - Ensure that all original content is intact (with wiki links).
 
 > [!note] Reference
@@ -103,7 +102,6 @@ When marking up wiki links in the ingested document, apply these rules systemati
 ```
 title: # Name of entity, index of topic, name of document, etc.
 description: # Short description (if chat thread, summarize)
-type: entity # [entity | document | index]
 protected: false # [true | false] Prevents relocation to _link/ when true
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -118,7 +116,6 @@ aliases: [] # Alternative names, abbreviations, acronyms
 ```
 title: # Full title of the source document, if chat thread rename
 description: # Short summary of the document, if chat thread summarize
-type: document
 published: YYYY-MM-DD # Original publication date
 created: YYYY-MM-DD # Date ingested into the vault
 source: # URL/DOI of the original source
@@ -178,7 +175,7 @@ Maintain link integrity by performing periodic audits:
 ## Overlapping Link Resolution:
 
 - **Directory structure clarification**: `notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
-- **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist.
+- **Prevention check**: Before creating any new entity, verify a file with the same name does not already exist.
 - When a new entity is identified as overlapping, merge (append) its content into the `notes/_link/` version so that it is centrally linked in `notes/_link/` directory.
 - **Protected entities**: Entity files with `protected: true` in their frontmatter must NEVER be moved to `_link/`. This includes all topic hubs (files whose name matches their parent directory) plus any other files explicitly flagged. The frontmatter is the single source of truth — no hardcoded list is maintained.
 - If the entity already exists in `notes/_link/` directory, append/merge the wiki entries.
@@ -188,14 +185,3 @@ Maintain link integrity by performing periodic audits:
     - `notes/_link/Inflammation.md`
     - `notes/_link/HIF-1α.md`
     - `notes/_link/NAD+.md`
-
-## Subject Object Relation Triples
-
-- `notes/<topic>/_triples.json` — per-topic triple data (JSON)
-- `media/kg_graph/_triples_<topic>.{dot,svg}` — graph visualizations
-
-See `.agents/skills/kg-triples/SKILL.md` for the triple extraction workflow, JSON format, and graph visualization instructions.
-
-## Entity Type Schema
-
-See `.agents/skills/obsidian-markdown/references/ENTITY_TYPES.md` for the full schema of `entity_type_1` values. The `entity_type_1` category should be one of the tag values in entity frontmatter.

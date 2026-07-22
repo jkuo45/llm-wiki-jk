@@ -1,7 +1,6 @@
 ---
 title: I-PpoI
 description: A homing endonuclease from the chloroplast genome of the green alga Chlamydomonas that introduces sequence-specific double-strand breaks; used in the ICE mouse to induce mutation-free DNA damage.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

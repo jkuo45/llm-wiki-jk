@@ -1,7 +1,6 @@
 ---
 title: APOE3 Christchurch
 description: Rare APOE3 R136S variant conferring resilience to Alzheimer's disease and dementia despite high amyloid pathology.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [gene, protein, alzheimer-resilience, microglia, neuroprotection]

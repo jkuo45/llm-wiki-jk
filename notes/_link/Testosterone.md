@@ -1,7 +1,6 @@
 ---
 title: Testosterone
 description: Principal male androgen regulating muscle, bone, and metabolic health; decline with age links to redox stress, mitochondrial dysfunction, and cardiovascular risk.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

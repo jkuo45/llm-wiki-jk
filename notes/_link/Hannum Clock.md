@@ -1,7 +1,6 @@
 ---
 title: Hannum Clock
 description: A blood-based epigenetic clock estimating chronological age from DNA methylation, trained on whole-blood samples.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

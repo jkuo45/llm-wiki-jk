@@ -1,7 +1,6 @@
 ---
 title: Geroprotectors
 description: Compounds or interventions that slow aging and extend healthspan by targeting the conserved hallmarks of aging.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:

@@ -1,7 +1,6 @@
 ---
 title: MEF
 description: Mouse embryonic fibroblasts, primary cells isolated from mouse embryos and widely used in cell biology and senescence studies.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -37,7 +36,7 @@ Primary MEFs undergo replicative [[Senescence]] driven by telomere shortening an
 
   - [[tbl_senescent_compounds_normalized]]
     - MEF cited as a primary fibroblast model in senescent compound records.
-  - [[_document_ - task_output_sirtuins_adrenochrome_mnsod_06_JULY_2026]]
+  - [[task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026]]
     - MEF proposed for mitochondrial and senescence assays in sirtuin/MnSOD work.
 
 ## Connections

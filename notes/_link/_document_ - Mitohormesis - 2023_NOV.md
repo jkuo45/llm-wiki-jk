@@ -4,7 +4,6 @@ description: Perturbation of mitochondrial function can trigger a host of cellul
   responses that seek to restore cellular metabolism, cytosolic proteostasis and redox
   homeostasis. In some cases, these responses persist even after the stress is relieved,
   leaving ...
-type: document
 published: 2023-11-07
 created: 2026-07-09
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10632604/

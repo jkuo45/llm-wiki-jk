@@ -6,7 +6,7 @@
 
 ---
 
-## Executive Summary
+##  Summary
 This report assesses the scientific and clinical feasibility of three novel combination therapies that leverage [[Adrenochrome]] and its derivatives as precision mitohormetic triggers. The strategies shift the paradigm from "metabolic toxicity" to "adaptive stress response," targeting mitochondrial biogenesis, cellular senescence (SASP), and proteostasis.
 
 ---

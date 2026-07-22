@@ -58,8 +58,3 @@ List of documents that mention this entity
 - New links added: [[CD38]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[SIRT3]], [[Aging]], [[Inflammaging]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
 - Suggested new entity notes to create: [[CD38 Inhibitors]]
 - Strong connections to strengthen: [[CD38 inhibitor 78c]] ↔ [[CD38]], [[CD38 inhibitor 78c]] ↔ [[NAD+]]
-
-## Linking Summary
-- New links added: [[Aging]], [[CD38]], [[Inflammaging]], [[Macrophage]], [[NAD+]], [[Neutrophils]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[SIRT1]], [[SIRT3]], [[Sirtuins]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[CD38 Inhibitor 78c]] ↔ [[Nicotinamide Mononucleotide]], [[CD38 Inhibitor 78c]] ↔ [[Nicotinamide Riboside]], [[CD38 Inhibitor 78c]] ↔ [[Inflammaging]]

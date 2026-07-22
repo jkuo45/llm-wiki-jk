@@ -1,7 +1,6 @@
 ---
 title: Redox Optimization
 description: A conceptual adrenochrome-protocol term describing the active maintenance of reducing potential (NAD+/NADH and glutathione buffering) during adrenochrome handling.
-type: entity
 protected: false
 created: 2026-07-13
 updated: 2026-07-13
@@ -25,7 +24,7 @@ Central to optimization is the buffering capacity of [[NAD+]]/NADH and [[Glutath
 
 ## Documents
 
-  - [[task_output_adrenochrome_neutrophil_protocol_25_May_2026_0949_AM_PDT]]
+  - [[task_output_adrenochrome_neutrophil_protocol_25_May_2026]]
     - Neutrophil-derived adrenochrome protocol that frames redox optimization as a core handling parameter.
 
 ## Connections

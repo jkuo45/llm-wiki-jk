@@ -11,7 +11,7 @@ aliases: [Age-associated diseases, Age-related disease]
 
 # Age-Related Diseases
 
-**Age-related diseases** are chronic conditions whose risk and prevalence rise with advancing age, driven by the hallmarks of aging: [[Cellular Senescence]], [[Inflammation]] (inflammaging), [[Oxidative Stress]], [[DNA Damage|DNA damage]], [[Epigenetics|epigenetic]] alterations, and [[Autophagy]] decline. Common examples include [[Cardiovascular Disease]], [[Cancer]], [[Alzheimer's Disease]], [[Osteoporosis]], [[Osteoarthritis]], [[Parkinson's Disease]], and [[Type 2 Diabetes]].
+**Age-related diseases** are chronic conditions whose risk and prevalence rise with advancing age, driven by the hallmarks of aging: [[Senescence]], [[Inflammation]] (inflammaging), [[Oxidative Stress]], [[DNA Damage|DNA damage]], [[Epigenetics|epigenetic]] alterations, and [[Autophagy]] decline. Common examples include [[Cardiovascular Disease]], [[Cancer]], [[Alzheimer's Disease]], [[Osteoporosis]], [[Osteoarthritis]], [[Parkinson's Disease]], and [[Type 2 Diabetes]].
 
 ## Connection to Senolytics
 
@@ -25,11 +25,11 @@ Senolytic interventions such as [[Fisetin]] and the [[Dasatinib]]+[[Quercetin]] 
 ## Connections
 
   - [[Inflammaging]]: Chronic sterile inflammation driving age-related disease.
-  - [[Cellular Senescence]]: A fundamental aging mechanism underlying many age-related diseases.
+  - [[Senescence]]: A fundamental aging mechanism underlying many age-related diseases.
   - [[Senolytic]]: Pharmacological strategy to alleviate age-related diseases.
 
 ## Linking Summary
 
-  - New links added: [[Age-Related Diseases]], [[Cellular Senescence]], [[Inflammation]], [[Oxidative Stress]], [[DNA Damage]], [[Epigenetics]], [[Autophagy]], [[Cardiovascular Disease]], [[Cancer]], [[Alzheimer's Disease]], [[Osteoporosis]], [[Osteoarthritis]], [[Parkinson's Disease]], [[Senolytic]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[Senescence]]
+  - New links added: [[Age-Related Diseases]], [[Senescence]], [[Inflammation]], [[Oxidative Stress]], [[DNA Damage]], [[Epigenetics]], [[Autophagy]], [[Cardiovascular Disease]], [[Cancer]], [[Alzheimer's Disease]], [[Osteoporosis]], [[Osteoarthritis]], [[Parkinson's Disease]], [[Senolytic]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[Senescence]]
   - Suggested new entity notes to create: 
-  - Strong connections to strengthen: [[Age-Related Diseases]] ↔ [[Cellular Senescence]], [[Age-Related Diseases]] ↔ [[Senolytic]]
+  - Strong connections to strengthen: [[Age-Related Diseases]] ↔ [[Senescence]], [[Age-Related Diseases]] ↔ [[Senolytic]]

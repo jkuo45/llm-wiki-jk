@@ -1,7 +1,6 @@
 ---
 title: Zscan4
 description: A transcription factor implicated in feedforward potentiation of the SASP during the transition from acute stress signaling to chronic senescence-associated secretion.
-type: entity
 created: 2026-07-10
 updated: 2026-07-10
 tags:

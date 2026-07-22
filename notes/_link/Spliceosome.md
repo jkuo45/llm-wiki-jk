@@ -1,7 +1,6 @@
 ---
 title: Spliceosome
 description: The macromolecular machinery that catalyzes pre-mRNA splicing, recruited and regulated by noncanonical nuclear cGAS.
-type: entity
 created: 2026-07-13
 updated: 2026-07-13
 tags: [protein-complex, rna-splicing]

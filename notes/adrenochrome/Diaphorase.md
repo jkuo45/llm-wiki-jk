@@ -1,7 +1,6 @@
 ---
 title: Diaphorase
 description: Diaphorase is an alternative name for NADH-dependent cytochrome b5 reductase, the enzyme that reduces methemoglobin back to functional hemoglobin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-09
 tags:

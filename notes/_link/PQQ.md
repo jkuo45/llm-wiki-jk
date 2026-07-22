@@ -1,7 +1,6 @@
 ---
 title: PQQ
 description: Pyrroloquinoline quinone, a redox cofactor and mitochondrial-biogenesis promoter that acts synergistically with CoQ10/ubiquinol.
-type: entity
 created: 2026-07-09
 updated: 2026-07-09
 tags:
