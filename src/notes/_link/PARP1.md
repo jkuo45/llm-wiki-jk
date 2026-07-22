@@ -4,7 +4,7 @@ description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-f
   enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-07-21
 tags:
   - enzyme
 aliases: [PARP-1, Poly(ADP-ribose) polymerase 1, ARTD1]
@@ -34,7 +34,23 @@ PARP1 plays essential roles in multiple nuclear processes. Its primary function 
 
 Beyond DNA repair, PARP1 regulates transcription by modulating the activity of factors such as NF-κB and AP-1, and it contributes to mitotic spindle assembly by PARylating tubulin and NuMA proteins at the mitotic apparatus. Telomere maintenance also depends on PARP1, which PARylates shelterin components to prevent telomere fusion and maintain replicative senescence checkpoints. In the immune response, PARP1 facilitates NF-κB activation and inflammatory gene expression, linking DNA damage sensing to innate immunity.
 
-A critical downstream consequence of excessive PARP1 activation is parthanatos: hyperactivation of PARP1 leads to massive [[NAD+]] consumption, which depletes cellular ATP pools and triggers a caspase-independent form of programmed cell death. During parthanatos, PAR polymers themselves translocate from the nucleus to the mitochondria, where they trigger the release of apoptosis-inducing factor (AIF) from the inner mitochondrial membrane. AIF then translocates to the nucleus and promotes large-scale DNA fragmentation. This pathway is implicated in neuronal death following ischemic injury, and understanding it has driven the development of neuroprotective PARP inhibitor strategies.
+PARP1 also regulates DNA repair enzymes at the post-translational level. [[PARP1]] poly(ADP-ribosyl)ates [[OGG1]], the bifunctional glycosylase that initiates [[Base Excision Repair]] of 8-oxoguanine lesions, stimulating OGG1's enzymatic activity. This regulatory connection links PARP1 activation to the removal of oxidative DNA damage, the most abundant class of endogenous DNA lesions.
+
+Through its PARylation activity, PARP1 participates in the regulation of [[Autophagy]]. PARsylation of [[ULK1]], [[TFEB]], and [[mTORC1]] components by PARP family enzymes — including PARP1 — modulates autophagic flux. PARP inhibitors such as [[Olaparib]] induce autophagy in cancer cells, suggesting that PARP1 restrains autophagy under basal conditions and that its inhibition relieves this brake.
+
+A critical downstream consequence of excessive PARP1 activation is parthanatos: hyperactivation of PARP1 leads to massive [[NAD+]] consumption, which depletes cellular ATP pools and triggers a caspase-independent form of programmed cell death. During parthanatos, PAR polymers themselves translocate from the nucleus to the mitochondria, where they trigger the release of apoptosis-inducing factor (AIF) from the inner mitochondrial membrane. AIF then translocates to the nucleus and promotes large-scale DNA fragmentation — a morphologically distinct cell death pathway separable from apoptosis, necroptosis, and ferroptosis. This pathway is implicated in neuronal death following ischemic stroke, myocardial infarction, neurodegenerative diseases, and other settings of genotoxic stress, and understanding it has driven the development of neuroprotective PARP inhibitor strategies.
+
+## NAD+ Consumer Network
+
+PARP1 is one of four major NAD⁺-consuming enzyme families — alongside [[CD38]], [[SARM1]], and the [[Sirtuins]] — that compete for a shared intracellular NAD⁺ pool. Each enzyme consumes NAD⁺ through distinct catalytic mechanisms: PARP1 polymerizes ADP-ribose for DNA repair signaling, CD38 and SARM1 hydrolyze NAD⁺ to produce calcium-mobilizing second messengers (cADPR, ADPR), and sirtuins cleave NAD⁺ to fuel lysine deacylation. Altering the activity of one consumer shifts the effective NAD⁺ availability for the others.
+
+The competitive relationship between PARP1 and [[SIRT1]] carries particular significance for aging and metabolism. Because both enzymes use NAD⁺ as substrate, chronic PARP1 activation — from accumulated DNA damage — can suppress SIRT1-dependent deacetylation of targets such as [[PGC-1α]], [[FOXO]] factors, and [[p53]], linking genomic instability to metabolic decline. PARP2 further represses SIRT1 by binding the *Sirt1* promoter directly and downregulating its transcription.
+
+Combined pharmacological inhibition of CD38 and PARP1 fully reversed LPS-induced NAD⁺ decline in macrophages where single-agent inhibition failed (Covarrubias et al. 2020, *Nature Metabolism*), demonstrating that NAD⁺-consumer redundancy buffers individual enzyme blockade. This finding has therapeutic implications for NAD⁺-boosting strategies targeting the aging NAD⁺ consumer network.
+
+## Chromatin Relocalization & Epigenetics
+
+Within the [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], PARP1 is one of the key [[Chromatin Modifiers]] — alongside [[SIRT1]], [[SIRT6]], and [[HDAC1]] — that relocate from their native genomic loci to sites of [[DNA Damage]], particularly [[Double-Strand Break|double-strand breaks (DSBs)]]. At damage sites, PARP1-dependent PARylation and chromatin remodeling facilitate repair factor access. After repair, these modifiers normally return to their original positions, but imperfect return over a lifetime of accumulated damage is proposed to erode the [[Epigenetic Landscape]], de-repress [[Retrotransposon|retrotransposons]], and drive age-related epigenetic drift. The ICE mouse model, which induces targeted DSBs without introducing mutations, demonstrates that repeated damage-recruitment cycles accelerate epigenetic aging phenotypes, consistent with PARP1's role in this mechanism.
 
 ## Pathology & Clinical Relevance
 
@@ -42,26 +58,30 @@ The therapeutic exploitation of PARP1 biology centers on synthetic lethality. In
 
 PARP1 hyperactivation is also implicated in ischemia–reperfusion injury. During stroke and myocardial infarction, oxidative DNA damage triggers excessive PARylation, depleting [[NAD+]] and [[ATP]] and driving cell death. PARPi have shown neuroprotective effects in preclinical stroke models by preserving cellular energy stores. In aging, age-related decline in PARP activity correlates with reduced DNA repair capacity and accumulation of genomic instability, suggesting that maintaining PARP1 function may be important for longevity. Species with longer lifespans tend to have higher basal PARP activity, supporting this association.
 
-PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine expression, positioning it as a potential target in chronic inflammatory conditions. PARP inhibitors have demonstrated anti-inflammatory effects in models of arthritis, colitis, and endotoxemia. The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regulation: because both enzymes consume [[NAD+]], hyperactive PARP1 can suppress SIRT1-dependent deacetylation and metabolic homeostasis, linking DNA damage to metabolic dysfunction. Recent research has also revealed roles for PARP1 in the regulation of gene expression through PARylation of transcription factors, RNA polymerase II, and chromatin-remodeling complexes, expanding its biological significance well beyond classical DNA repair.
+PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine expression, positioning it as a potential target in chronic inflammatory conditions. In the [[SASP|senescence-associated secretory phenotype]], the ATM–PARP1–IKK axis is acutely activated in advance of NF-κB signaling; PARP1 was initially shown to mediate NF-κB-associated SASP, with [[IκBζ]] acting as a selective co-activator for a subset of SASP genes (IL6, IL8). PARP inhibitors have demonstrated anti-inflammatory effects in models of arthritis, colitis, and endotoxemia.
 
-# 
+Nuclear [[cGAS]] interacts directly with PARP1, disrupting the PARP1–Timeless complex and thereby suppressing [[Homologous Recombination|homologous recombination]]. This cGAS–PARP1 interaction positions nuclear cGAS as a regulator of genome stability independent of its cytosolic DNA-sensing role. In contrast, cGAS from the long-lived [[Naked Mole Rat]] exhibits prolonged chromatin retention and enhances DNA repair, suggesting that PARP1–cGAS crosstalk may be tuned differently in long-lived species.
+
+The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regulation: because both enzymes consume [[NAD+]], hyperactive PARP1 can suppress SIRT1-dependent deacetylation and metabolic homeostasis, linking DNA damage to metabolic dysfunction. Combined CD38 + PARP1 inhibition fully rescues NAD⁺ levels where single agents fail, underscoring the therapeutic potential of targeting the NAD⁺ consumer network holistically. Recent research has also revealed roles for PARP1 in the regulation of gene expression through PARylation of transcription factors, RNA polymerase II, and chromatin-remodeling complexes, expanding its biological significance well beyond classical DNA repair.
 
 ## Documents
 
-List of documents that mention this entity
-
-  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
-    - PARP1 and PARP2 respond to DNA breaks in the nucleus and facilitate the process of DNA repair \[\].
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside Review]]
+    - PARP1 and PARP2 respond to DNA breaks in the nucleus, consuming NAD⁺ during repair and competing with sirtuins for the NAD⁺ pool.
+  - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
+    - Nuclear cGAS interacts with PARP1, disrupting the PARP1–Timeless complex to suppress homologous recombination.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Implications]]
+    - PARP1 mediates NF-κB-associated SASP via the ATM–PARP1–IKK axis; IκBζ is a downstream regulator of SASP genes.
 
 
 ## Connections
 
 - [[PARP2]] — related family member with ~20% catalytic activity, cooperates in DNA repair
-- [[NAD+]] — substrate consumed by PARP1 catalysis; PARP1 and [[SIRT1]] compete for this pool
+- [[NAD+]] — substrate consumed by PARP1 catalysis; competes with [[SIRT1]], [[CD38]], and [[SARM1]] for this pool
 - [[DNA Repair]] — PARP1 is the primary sensor and initiator of the SSB repair pathway
 - [[BRCA1]] — deficiency creates synthetic lethality with PARP inhibition
 - [[XRCC1]] — scaffold protein recruited by PARP1 for single-strand break repair
-- [[ATM]] — kinase recruited to DSBs with assistance from PARP1-dependent PARylation
+- [[ATM]] — kinase recruited to DSBs with assistance from PARP1-dependent PARylation; ATM–PARP1–IKK axis drives SASP
 - [[PARP inhibitors]] — therapeutic agents that exploit synthetic lethality in BRCA-mutant cancers
 - [[Apoptosis]] — excessive PARP1 activation triggers parthanatos, a caspase-independent cell death pathway
 - [[Chromatin]] — PARylation of histones remodels chromatin structure at damage sites
@@ -70,9 +90,23 @@ List of documents that mention this entity
 - [[DNA Damage]] — PARP1 is the primary detector of DNA strand breaks
 - [[Histone Modification]] — PARylation is a post-translational modification of histones
 - [[Oxidative Stress]] — oxidative DNA damage is a major activator of PARP1
+- [[CD38]] — competing NAD⁺ consumer; combined CD38 + PARP1 inhibition fully rescues NAD⁺
+- [[SIRT1]] — competing NAD⁺ consumer; hyperactive PARP1 suppresses SIRT1-dependent deacetylation
+- [[cGAS]] — nuclear cGAS binds PARP1, disrupting the PARP1–Timeless complex to suppress homologous recombination
+- [[OGG1]] — PARP1 poly(ADP-ribosyl)ates OGG1, stimulating its base excision repair activity
+- [[SASP]] — PARP1 mediates NF-κB-driven SASP via the ATM–PARP1–IKK axis
+- [[Autophagy]] — PARP1 restrains autophagy; PARP inhibitors (e.g., [[Olaparib]]) induce autophagy
+- [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]] — PARP1 is a relocalizing modifier recruited to DSBs
+- [[Ischemia-reperfusion Injury]] — PARP1 hyperactivation drives parthanatos in stroke and myocardial infarction
+- [[Caspase-3]] — cleaves and inactivates PARP1 during apoptosis as a canonical apoptotic marker
 
 ## Linking Summary
 
-- New links added: [[PARP2]], [[NAD+]], [[DNA Repair]], [[BRCA1]], [[XRCC1]], [[ATM]], [[PARP inhibitors]], [[Apoptosis]], [[Chromatin]], [[NF-κB]], [[Inflammation]], [[DNA Damage]], [[Histone Modification]], [[Oxidative Stress]], [[ATP]], [[SIRT1]]
-- Suggested new entity notes to create: [[PARG]], [[Parthanatos]]
-  - Strong connections to strengthen: [[PARP1]] ↔ DNA Repair, [[PARP1]] ↔ [[NAD+]], [[PARP1]] ↔ PARP inhibitors, [[PARP1]] ↔ BRCA1
+- New links added: [[PARP2]], [[NAD+]], [[DNA Repair]], [[BRCA1]], [[XRCC1]], [[ATM]], [[PARP inhibitors]], [[Apoptosis]], [[Chromatin]], [[NF-κB]], [[Inflammation]], [[DNA Damage]], [[Histone Modification]], [[Oxidative Stress]], [[ATP]], [[SIRT1]], [[CD38]], [[SARM1]], [[Sirtuins]], [[cGAS]], [[OGG1]], [[SASP]], [[Autophagy]], [[Olaparib]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Ischemia-reperfusion Injury]], [[Caspase-3]]
+- Suggested new entity notes to create: [[PARG]], [[Parthanatos]], [[AIF]]
+- Strong connections to strengthen:
+  - [[PARP1]] ↔ [[NAD+]] — substrate competition across the NAD⁺ consumer network (CD38, SARM1, sirtuins)
+  - [[PARP1]] ↔ [[SIRT1]] — metabolic crosstalk via NAD⁺ competition and PARP2-mediated transcriptional repression
+  - [[PARP1]] ↔ [[CD38]] — synergistic NAD⁺ rescue with combined inhibition
+  - [[PARP1]] ↔ [[cGAS]] — nuclear cGAS suppresses homologous recombination via PARP1 binding
+  - [[PARP1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]] — PARP1 relocation to DSBs drives epigenetic drift
