@@ -21,6 +21,10 @@ BNIP3L/NIX directly binds to [[LC3]] via its [[LIR Motif|LIR motif]] to trigger 
 
 Mitophagy dysfunction has been reported in neurons derived from patients with genetic forms of [[Parkinson's Disease|Parkinson's disease]], particularly those carrying mutations in [[PINK1]] (PARK6) or [[PARK2]] (PRKN). Overexpression of NIX has been shown to restore mitophagy in these neurons by activating a receptor-mediated pathway independent of PINK1/Parkin signaling. This provides theoretical support for NIX-mediated pathway compensation when the Parkin pathway is impaired.
 
+## Role in Erythroid Mitophagy (ERMIT)
+
+[[ERMIT|Erythroid mitophagy (ERMIT)]] is a specialized developmental form of mitophagy wherein BNIP3L/NIX drives programmed mitochondrial elimination during erythroblast maturation into [[Erythrocyte|erythrocytes]]. NIX is transcriptionally upregulated during erythroid differentiation and, through its [[LIR Motif|LIR motif]], docks directly to [[LC3]]/[[GABARAP]] on the phagophore. [[BIM]], another [[BH3-only protein]], cooperates with NIX to ensure complete clearance. NIX knockout mice develop anemia due to incomplete mitophagy, demonstrating a non-redundant requirement for BNIP3L in ERMIT. Unlike stress-induced mitophagy (driven by [[HIF1A]] under [[Hypoxia]]), ERMIT is developmentally programmed and occurs under normoxic conditions.
+
 ## Pathological Overactivation
 
 Following severe metabolic stress (such as [[Hypoxia|hypoxia]]/[[Ischemia-reperfusion Injury|ischemia]]), NIX is highly upregulated in neurons and mediates a burst of mitophagy by binding to [[LC3]]. In [[Parkinson's Disease|PD]] models, NIX can activate the [[JNK]] pathway via the POSH protein, inducing [[Apoptosis|apoptosis]]. In [[Huntington's Disease|HD]], the GTP hydrolase Rhes may trigger mitophagy via NIX to contribute to striatal cell death.
@@ -35,10 +39,13 @@ Following severe metabolic stress (such as [[Hypoxia|hypoxia]]/[[Ischemia-reperf
 - [[BNIP3]] — Related BNIP3 family member with similar mitophagy receptor function
 - [[JNK]] — NIX activates JNK pathway via POSH in PD models
 - [[Huntington's Disease]] — NIX may mediate striatal cell death via excessive mitophagy in HD
+- [[ERMIT]] — NIX is the essential driver of programmed erythroid mitophagy during RBC maturation
+- [[Erythrocyte]] — Mitochondrial clearance via NIX is required for mature RBC formation
 
 ## Linking Summary
 
-- New links added: [[BNIP3L]], [[NIX]]
+- New links added: [[BNIP3L]], [[NIX]], [[ERMIT]], [[Erythrocyte]]
 - Strong connections to strengthen:
   - [[BNIP3L]] ↔ [[LC3]] — Direct binding via LIR motif initiates mitophagy
   - [[BNIP3L]] ↔ [[Parkinson's Disease]] — NIX compensates for PINK1/Parkin loss in PD neurons
+  - [[BNIP3L]] ↔ [[ERMIT]] — NIX is essential for programmed erythroid mitophagy during RBC maturation

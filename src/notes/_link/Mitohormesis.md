@@ -2,7 +2,7 @@
 title: Mitohormesis
 description: Mitohormesis is a biological process where low-level mitochondrial stress (e.g., mild Oxidative Stress) triggers adaptive cytoprotective responses that increase resilience and lifespan. Exercise...
 created: 2026-07-04
-updated: 2026-07-09
+updated: 2026-07-22
 tags:
   - scientific-concept
   - mitochondria
@@ -141,6 +141,8 @@ List of documents that mention this entity
 - [[Humanin]] — Founding member of the MDP/mitokine family
 - [[Mitochondrial Unfolded Protein Response|UPRmt]] — Key quality control mechanism
 - [[Mitokines]] — Cell-non-autonomous signaling factors
+- [[NAD+ Biosynthesis]] — NAD+/SIRT1 axis drives mitohormetic transcriptional responses via PGC1-α; NAD+ decline with age impairs mitohormetic capacity
+- [[HIF1A]] — Hypoxia response is a canonical hormetic stress pathway; HIF1A converges with NAD+ signaling through shared neighbor [[Autophagy]]
 
 ## Linking Summary
 - New links added: [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[DELE1]], [[OMA1]], [[HRI]], [[Integrated Stress Response]], [[GDF15]], [[FGF21]], [[MOTS-c]], [[Humanin]], [[Mitochondrial-Derived Peptide]], [[ISR]], [[eIF2α]], [[PERK]], [[GCN2]], [[PKR]], [[HSF1]], [[NRF1]], [[PINK1]], [[Parkin]], [[HSP60]], [[HSP70]], [[ClpP]], [[LONP1]], [[FUNDC1]], [[OPA1]], [[TOMM70]], [[CHK1]], [[SSBP1]], [[cGAS-STING Pathway]], [[NLRP3]], [[HIF-1α]], [[Succinate]], [[Macrophages]], [[Ubiquitin-Proteasome System]], [[Proteasome]], [[mitoTAD]], [[mitoCPR]], [[mPOS]], [[MitoStores]], [[mitoRQC]], [[UPRam]], [[RPN4]], [[PDR3]], [[ATAD1]], [[VCP]], [[Cdc48]], [[TransitID]], [[Ferroptosis]], [[Cardiomyopathy]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Neurodegenerative Disease]], [[Cancer]], [[Metabolic Syndrome]], [[Urolithin A]], [[Tetracycline]], [[Antioxidants]], [[Xenohormesis]], [[Mithridates VI]], [[Antidotum Mithridaticum]]

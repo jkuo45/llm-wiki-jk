@@ -2,7 +2,7 @@
 title: NAD+ Biosynthesis
 description: Enzymatic routes that generate nicotinamide adenine dinucleotide, spanning de novo, salvage, and Preiss-Handler pathways that fuel sirtuins, PARPs, and redox metabolism.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-22
 tags:
   - biological-process
   - metabolism
@@ -27,6 +27,16 @@ Three routes replenish NAD+: (1) the [[NAD+ Salvage Pathway]], wherein [[NAMPT]]
 ## Mechanism & Consumption
 NAD+ is consumed by [[Sirtuins]], [[PARP]] (especially [[PARP1]]) during [[DNA Damage]] repair, and [[CD38]] in immune/calcium signaling; these sinks drain the pool in aging and inflammation. Biosynthesis must offset this flux to maintain [[Redox Homeostasis]] and mitochondrial function.
 
+## Autophagy and Mitophagy Axis
+NAD+ is a master metabolic rheostat for [[Autophagy]] and [[Mitophagy]]. NAD+ activates [[SIRT1]], a NAD+-dependent deacetylase that deacetylates:
+- **[[FOXO3a]]** → induces autophagy genes ([[LC3]], [[BNIP3]], [[GABARAPL1]])
+- **[[TFEB]]** → promotes lysosomal biogenesis and autophagic flux
+- **[[Atg5]], [[Atg7]], [[LC3]]** → directly activates core autophagy machinery
+
+Through this axis, NAD+ biosynthesis influences mitochondrial quality control: NAD+/SIRT1 drives [[FOXO3a]]-dependent expression of [[BNIP3]], a mitophagy receptor, while NAD+-dependent [[SIRT3]] regulates mitochondrial redox balance via [[SOD2]], modulating [[Reactive Oxygen Species|ROS]] signaling that stabilizes [[HIF1A]]. HIF1A in turn transactivates [[BNIP3]] and [[BNIP3L]], completing a NAD+ → mitophagy signaling cascade.
+
+This explains why NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) improve mitochondrial health and NAD+ decline with age leads to accumulation of dysfunctional mitochondria.
+
 ## Redox, Sirtuins & Longevity
 Robust NAD+ biosynthesis underpins [[Mitochondrial Dysfunction]] resistance, [[Mitohormesis]], and [[Caloric Restriction]] benefits. Supplementing precursors ([[NR]], [[NMN]], [[Niacin]]) and supporting [[NAMPT]] are leading [[Healthspan]] strategies. Balanced biosynthesis also tempers [[Inflammaging]] and supports [[Autophagy]], positioning it at the nexus of redox, sirtuin, and longevity biology.
 
@@ -47,6 +57,12 @@ Robust NAD+ biosynthesis underpins [[Mitochondrial Dysfunction]] resistance, [[M
   - [[Sirtuins]]: Major NAD+-consuming longevity enzymes.
   - [[PARP]]: DNA-repair consumers of NAD+.
   - [[CD38]]: Immune NAD+ sink elevated in aging.
+  - [[Autophagy]]: NAD+/SIRT1 axis activates autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
+  - [[Mitophagy]]: NAD+ influences mitochondrial quality control via SIRT1→FOXO3a→BNIP3 and SIRT3→ROS→HIF1A→BNIP3L axes
+  - [[HIF1A]]: Shared neighbors (Autophagy, Mitohormesis) connect NAD+-dependent metabolic signaling to hypoxia response
+  - [[FOXO3a]]: Deacetylated by SIRT1 to induce LC3B, BNIP3, GABARAPL1 and autophagy genes
+  - [[TFEB]]: Deacetylated by SIRT1 to drive lysosomal biogenesis and autophagic flux
+  - [[SIRT3]]: Mitochondrial NAD+-dependent deacetylase; regulates ROS production that stabilizes HIF1A
 
 ## Linking Summary
 

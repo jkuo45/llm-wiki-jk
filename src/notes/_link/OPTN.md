@@ -2,7 +2,7 @@
 title: OPTN
 description: Autophagy receptor that functions as a primary mitophagy receptor in the PINK1/Parkin pathway and also mediates anterograde axonal mitochondrial transport.
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 tags:
   - protein
   - autophagy
@@ -34,7 +34,8 @@ OPTN mutations have been identified as pathogenic in [[ALS|amyotrophic lateral s
 - [[TRAK1]] — Mitochondrial transport adaptor; forms complex with OPTN
 - [[KIF5B]] — Kinesin motor; forms complex with OPTN for axonal transport
 - [[ALS]] — OPTN mutations are pathogenic in ALS
-- [[Alzheimer's Disease]] — OPTN downregulated in AD via GSK-3β-mediated degradation
+- [[Alzheimer's Disease]] — OPTN downregulated in AD via GSK-3β-mediated degradation; connects AD to BNIP3-mediated mitophagy deficits
+- [[BNIP3]] — Alternative mitophagy path: NAD+ → Autophagy → Ubiquitination → OPTN → AD → BNIP3; BNIP3-mediated mitophagy deficits contribute to neuronal dysfunction in neurodegeneration
 
 ## Linking Summary
 

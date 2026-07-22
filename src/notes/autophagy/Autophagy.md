@@ -3,7 +3,7 @@ title: Autophagy
 description: Cellular degradation pathway that delivers cytoplasmic material to lysosomes
   for recycling; maintains energy homeostasis and quality control.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-22
 tags:
   - biological-process
   - autophagy
@@ -34,6 +34,16 @@ Cellular degradation pathway that delivers cytoplasmic material to lysosomes for
 2. **Nucleation**: [[PI3K]] Class III complex ([[Beclin1]], [[Vps34]], Atg14)
 3. **Elongation**: [[Atg12]]–[[Atg5]]–[[Atg16L1]] complex; [[LC3]] lipidation
 4. **Fusion**: Autophagosome + [[Lysosome]] → autolysosome
+
+## NAD+/SIRT1 Regulation
+
+[[NAD+]] acts as a metabolic rheostat for autophagy through the NAD+-dependent deacetylase [[SIRT1]]. Declining NAD+ with age suppresses SIRT1 activity, reducing autophagic capacity. SIRT1 deacetylates and activates:
+
+- **[[FOXO3a]]** — induces autophagy genes including [[LC3B]], [[BNIP3]], [[GABARAPL1]]
+- **[[TFEB]]** — promotes lysosomal biogenesis and autophagic flux
+- **[[Atg5]], [[Atg7]], [[LC3]]** — directly activates core autophagy machinery
+
+NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) restore SIRT1 activity and autophagic flux. This NAD+/SIRT1 axis converges with [[HIF1A]] signaling through shared regulators ([[Mitohormesis]], [[mTOR]], [[AMPK]]), linking metabolic state to hypoxia-responsive mitophagy via [[BNIP3]] and [[BNIP3L]].
 
 ## Aging and Longevity
 
@@ -273,6 +283,16 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 2. **Nucleation**: [[PI3K]] Class III complex ([[Beclin1]], [[Vps34]], Atg14)
 3. **Elongation**: [[Atg12]]–[[Atg5]]–[[Atg16L1]] complex; [[LC3]] lipidation
 4. **Fusion**: Autophagosome + [[Lysosome]] → autolysosome
+
+## NAD+/SIRT1 Regulation
+
+[[NAD+]] acts as a metabolic rheostat for autophagy through the NAD+-dependent deacetylase [[SIRT1]]. Declining NAD+ with age suppresses SIRT1 activity, reducing autophagic capacity. SIRT1 deacetylates and activates:
+
+- **[[FOXO3a]]** — induces autophagy genes including [[LC3B]], [[BNIP3]], [[GABARAPL1]]
+- **[[TFEB]]** — promotes lysosomal biogenesis and autophagic flux
+- **[[Atg5]], [[Atg7]], [[LC3]]** — directly activates core autophagy machinery
+
+NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) restore SIRT1 activity and autophagic flux. This NAD+/SIRT1 axis converges with [[HIF1A]] signaling through shared regulators ([[Mitohormesis]], [[mTOR]], [[AMPK]]), linking metabolic state to hypoxia-responsive mitophagy via [[BNIP3]] and [[BNIP3L]].
 
 ## Aging and Longevity
 

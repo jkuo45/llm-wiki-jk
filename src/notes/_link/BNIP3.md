@@ -1,10 +1,10 @@
 ---
 title: BNIP3
-description: 'Overview: BNIP3 is a cellular protein with structural, signaling,'
+description: "Overview: BNIP3 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...
+  and signaling networks that govern cel..."
 created: 2026-07-04
-updated: 2026-07-21
+updated: 2026-07-22
 tags:
   - protein
 aliases: [BCL2 Interacting Protein 3]
@@ -45,11 +45,15 @@ List of documents that mention this entity
 - [[Alzheimer's Disease]] — BNIP3 expression is reduced in AD brain tissues
 - [[Ischemia-reperfusion Injury]] — BNIP3 mediates delayed neuronal death following hypoxia/ischemia
 - [[Mitochondrial Permeability Transition Pore]] — BNIP3 insertion causes mPTP opening
+- [[OPTN]] — Alternative BNIP3 pathway: NAD+ → Autophagy → Ubiquitination → OPTN → AD → BNIP3; BNIP3-mediated mitophagy deficits in AD relate to this ubiquitin-dependent mitophagy route
+- [[NAD+ Biosynthesis]] — NAD+ drives SIRT1/FOXO3a axis that induces BNIP3 expression; NAD+ decline with age impairs BNIP3-mediated mitophagy
 
 ## Linking Summary
-- New links added: [[BNIP3]]
+- New links added: [[BNIP3]], [[OPTN]], [[NAD+ Biosynthesis]]
 - Strong connections to strengthen:
   - [[BNIP3]] ↔ [[LC3]] — Direct receptor-LC3 interaction initiates mitophagy
   - [[BNIP3]] ↔ [[HIF-1α]] — Hypoxia inducible; HIF-1α drives BNIP3 transcription
   - [[BNIP3]] ↔ [[BNIP3L|NIX]] — Related hypoxia-inducible mitophagy receptors
+  - [[BNIP3]] ↔ [[OPTN]] — Alternative ubiquitin-dependent mitophagy route connecting to AD pathology
+  - [[BNIP3]] ↔ [[NAD+ Biosynthesis]] — NAD+/SIRT1/FOXO3a axis induces BNIP3 expression
 
