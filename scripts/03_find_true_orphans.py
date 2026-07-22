@@ -2,7 +2,7 @@ import os
 import re
 import argparse
 
-def get_orphans(search_dir='notes'):
+def get_orphans(search_dir='src/notes'):
     links = set()
     files = set()
     
@@ -32,7 +32,7 @@ def get_orphans(search_dir='notes'):
                 content = file.read()
                 matches = link_pattern.findall(content)
                 for m in matches:
-                    # Normalize: take only the last part if it's a path (e.g., notes/_link/Entity)
+                    # Normalize: take only the last part if it's a path (e.g., src/notes/_link/Entity)
                     # and strip whitespace
                     entity_name = m.strip().split('/')[-1]
                     links.add(entity_name)
@@ -57,7 +57,7 @@ def get_orphans(search_dir='notes'):
 
 def main():
     parser = argparse.ArgumentParser(description="Find true orphan links (links without a corresponding entity file).")
-    parser.add_argument("--dir", default="notes", help="Directory containing entity files (default: notes)")
+    parser.add_argument("--dir", default="src/notes", help="Directory containing entity files (default: src/notes)")
     args = parser.parse_args()
 
     true_orphans = get_orphans(args.dir)

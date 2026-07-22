@@ -5,13 +5,13 @@
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
   - Depending on task, they may or may not be included in context, counts.
-- `notes` directory:
+- `src/notes` directory:
   - Contains files for wiki, directories within represent topics.
   - Each markdown file within that topic can be counted as a single entity.
-  - Each entity filename (`.md`) must be unique across all of `notes/` (including `notes/_link/` and all topic directories). Obsidian resolves wiki links globally by filename, so duplicates cause ambiguity.
+  - Each entity filename (`.md`) must be unique across all of `src/notes/` (including `src/notes/_link/` and all topic directories). Obsidian resolves wiki links globally by filename, so duplicates cause ambiguity.
 - `raw` directory:
-  - Contains documents that have not yet been ingested into `notes/`. These are waiting to be processed through the Document Ingestion Workflow.
-- `tasks` directory:
+  - Contains documents that have not yet been ingested into `src/notes/`. These are waiting to be processed through the Document Ingestion Workflow.
+- `src/tasks` directory:
   - Contains task outputs. Default to saving task outputs to this directory.
 - **Heading and sub-heading enumeration**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
 
@@ -19,7 +19,7 @@
 
 When answering questions about biomedical topics, prioritize information sources in this order:
 
-1. **Notes first** — Search the `notes/` directory (including `_link/`) for relevant entity notes. Use content from existing wiki notes as the primary basis for your answer.
+1. **Notes first** — Search the `src/notes/` directory (including `_link/`) for relevant entity notes. Use content from existing wiki notes as the primary basis for your answer.
 2. **LLM knowledge & biomedical context** — If the notes do not fully address the question, supplement with general biomedical knowledge. Clearly distinguish between information sourced from the wiki and information drawn from general knowledge.
 3. **Cross-reference** — Where possible, link back to relevant entity notes in your response (e.g., `[[Entity Name]]`) to reinforce the knowledge graph and surface related concepts.
 
@@ -30,7 +30,7 @@ When answering questions about biomedical topics, prioritize information sources
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter, callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file. |
 | **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.                                              | New/updated entity notes / enriched existing notes |
-| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.    |
+| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `src/notes/_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.    |
 | **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                                                                 | Updated README with new entities.                  |
 
 ### Wiki Link Markup Checklist (Step 1)
@@ -40,7 +40,7 @@ When marking up wiki links in the ingested document, apply these rules systemati
 - **Scan for all biomedical entities** — e.g. genes (`[[CDKN2A]]`), proteins (`[[p53]]`), enzymes (`[[COMT]]`), cytokines (`[[IL-6]]`), pathways (`[[NF-κB]]`), diseases (`[[Alzheimer's Disease]]`), drugs (`[[Rapamycin]]`), processes (`[[Apoptosis]]`), anatomical structures (`[[Adrenal gland]]`), cell types (`[[Macrophages]]`).
 - **Link first meaningful mention** — place the `[[wiki link]]` on the first occurrence that adds contextual value. Do not over-link every subsequent mention in the same paragraph. Only link to entities and terms that make sense contextually — avoid linking common words like 'cell' or 'protein' unless the linked note adds specific context.
 - **Use canonical note titles** — match exact filenames. If a note exists as `notes/_link/NAD+.md`, use `[[NAD+]]`, not `[[NAD⁺]]` or `[[Nicotinamide Adenine Dinucleotide]]` (unless an alias exists). Maintain consistency: use the same exact title for the same entity across files.
-- **Resolve existing notes first** — before creating a new `[[link]]`, check `notes/_link/` and `notes/<topic>/` for an existing note with that entity name. Use existing notes whenever possible.
+- **Resolve existing notes first** — before creating a new `[[link]]`, check `src/notes/_link/` and `src/notes/<topic>/` for an existing note with that entity name. Use existing notes whenever possible.
 - **Flag new entities** — if no note exists, use a clear `[[New Entity Name]]` link anyway (Obsidian will show it as unresolved). Prefer space to underscore in the entity name. Note these at the end of the document for later creation in Step 3.
 - **No path-prefixed links** — always use bare `[[Entity]]`, never `[[notes/topic/Entity]]` — they break when entities are reorganized.
 - **No wiki links in data files** — never create wiki links inside triples JSON, dot, or SVG files. Only `.md` files are valid wiki link targets.
@@ -174,14 +174,14 @@ Maintain link integrity by performing periodic audits:
 
 ## Overlapping Link Resolution:
 
-- **Directory structure clarification**: `notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
+- **Directory structure clarification**: `src/notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `src/notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
 - **Prevention check**: Before creating any new entity, verify a file with the same name does not already exist.
-- When a new entity is identified as overlapping, merge (append) its content into the `notes/_link/` version so that it is centrally linked in `notes/_link/` directory.
+- When a new entity is identified as overlapping, merge (append) its content into the `src/notes/_link/` version so that it is centrally linked in `src/notes/_link/` directory.
 - **Protected entities**: Entity files with `protected: true` in their frontmatter must NEVER be moved to `_link/`. This includes all topic hubs (files whose name matches their parent directory) plus any other files explicitly flagged. The frontmatter is the single source of truth — no hardcoded list is maintained.
-- If the entity already exists in `notes/_link/` directory, append/merge the wiki entries.
-- Although the entity file may be moved to `notes/_link/`, it should still remain on the README.md within that topic.
-- Maintain only the consolidated file in `notes/_link/` to ensure a single source of truth.
+- If the entity already exists in `src/notes/_link/` directory, append/merge the wiki entries.
+- Although the entity file may be moved to `src/notes/_link/`, it should still remain on the README.md within that topic.
+- Maintain only the consolidated file in `src/notes/_link/` to ensure a single source of truth.
   - Examples (since they are mentioned across topics in notes):
-    - `notes/_link/Inflammation.md`
-    - `notes/_link/HIF-1α.md`
-    - `notes/_link/NAD+.md`
+    - `src/notes/_link/Inflammation.md`
+    - `src/notes/_link/HIF-1α.md`
+    - `src/notes/_link/NAD+.md`

@@ -32,7 +32,7 @@ See [TRIPLE_RULES.md](references/TRIPLE_RULES.md) for detailed extraction guidel
 Write the extracted triples to the appropriate topic directory:
 
 ```
-notes/<topic>/_triples.json
+src/notes/<topic>/_triples.json
 ```
 
 Unless otherwise instructed, keep each `.json` file in sync with the documents ingested into that topic — update when new documents are added or existing ones are modified.
@@ -42,7 +42,7 @@ Unless otherwise instructed, keep each `.json` file in sync with the documents i
 Combine per-topic triples into a single file for cross-topic analysis:
 
 ```
-uv run scripts/03_merge_triples.py notes/<topic1>/_triples.json notes/<topic2>/_triples.json -o merged.json
+uv run scripts/03_merge_triples.py src/notes/<topic1>/_triples.json src/notes/<topic2>/_triples.json -o merged.json
 ```
 
 ### 4. Visualize Graph
@@ -50,10 +50,10 @@ uv run scripts/03_merge_triples.py notes/<topic1>/_triples.json notes/<topic2>/_
 Generate directed graph visualizations using the triples script:
 
 ```
-uv run scripts/03_visualize_triples.py notes/<topic>/_triples.json <output_base> [--max-nodes N] [--min-edges N]
+uv run scripts/03_visualize_triples.py src/notes/<topic>/_triples.json <output_base> [--max-nodes N] [--min-edges N]
 ```
 
-This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, save to `tasks/task_output_[timestamp].svg` (and `.png`, `.dot`).
+This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, save to `src/tasks/task_output_[timestamp].svg` (and `.png`, `.dot`).
 
 ## Rules Summary
 

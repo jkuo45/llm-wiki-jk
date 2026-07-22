@@ -41,8 +41,8 @@ def check_entities(notes_dir, link_dir):
             with open(readme, "r", encoding="utf-8") as f:
                 content = f.read()
                 for e in link_entities:
-                    # Match [[e]], [[notes/_link/e]], [[e|...]], or [[notes/_link/e|...]]
-                    pattern = rf"\[\[(notes/_link/)?{re.escape(e)}(\||\]\])"
+                    # Match [[e]], [[src/notes/_link/e]], [[e|...]], or [[src/notes/_link/e|...]]
+                    pattern = rf"\[\[(src/notes/_link/)?{re.escape(e)}(\||\]\])"
                     if re.search(pattern, content):
                         entity_to_readmes[e].append(readme)
         except Exception as ex:
@@ -63,13 +63,13 @@ def main():
     )
     parser.add_argument(
         "--notes_dir",
-        default="notes",
-        help="Directory containing topics (default: notes)",
+        default="src/notes",
+        help="Directory containing topics (default: src/notes)",
     )
     parser.add_argument(
         "--link_dir",
-        default="notes/_link",
-        help="Directory containing overlapping links (default: notes/_link)",
+        default="src/notes/_link",
+        help="Directory containing overlapping links (default: src/notes/_link)",
     )
     args = parser.parse_args()
 
