@@ -3,7 +3,7 @@ title: PINK1
 description: Mitochondrial serine/threonine kinase that recruits Parkin to damaged
   mitochondria to initiate mitophagy.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-21
 tags:
   - protein
 aliases: [PTEN-induced Kinase 1]
@@ -50,6 +50,8 @@ List of documents that mention this entity
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Reduced PINK1 and impaired mitophagy drive accumulation of dysfunctional mitochondria and ROS in senescent IPF epithelial cells, promoting lung fibrosis.
 
+  - [[_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection|Targeting Mitophagy for Neuroprotection]]
+    - Comprehensive review of PINK1 function in neuronal mitophagy: PINK1 acts as mitochondrial damage sensor, accumulates on OMM upon ΔΨm loss, and recruits Parkin. FBXO7 enhances PINK1-Parkin interaction. PINK1 phosphorylates Drp1 at S616 for synaptic maintenance. Aβ inhibits PINK1 activation in AD, creating a vicious cycle with ROS.
 
 ## Connections
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
@@ -66,6 +68,11 @@ List of documents that mention this entity
 - [[TRAP1]] — interacts with PINK1
 - [[Omi HtrA2]] — interacts with PINK1
 - [[Mitochondrial Unfolded Protein Response]] — interacts with PINK1
+- [[FBXO7]] — Scaffolding protein that accelerates PINK1-mediated Parkin recruitment
+- [[DRP1]] — PINK1 phosphorylates Drp1 at S616 to promote mitochondrial fission in synapses
+- [[G6PD]] — Glucose-6-phosphate dehydrogenase stabilizes PINK1 protein, regulating mitophagy independently of pentose phosphate pathway
+- [[BOK]] — BOK facilitates Parkin translocation; PINK1 is upstream of Parkin in mitophagy
+- [[Amyloid Beta]] — Aβ inhibits PINK1 activation in Alzheimer's disease, blocking mitophagy
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Mitophagy]]: PINK1 loss impairs mitophagy, sustaining mitochondrial ROS in senescence
 - [[Mitochondrial Dysfunction]]: PINK1 deficiency promotes mitochondrial dysfunction in IPF

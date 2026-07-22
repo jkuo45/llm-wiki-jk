@@ -4,7 +4,7 @@ description: An E3 ubiquitin ligase that plays a critical role in Mitophagy. It 
   recruited to damaged mitochondria by PINK1 and labels them for degradation by the
   lysosome.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-21
 tags:
   - protein
 aliases: [Parkin]
@@ -43,6 +43,8 @@ List of documents that mention this entity
   - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
     - Under conditions of loss of mitochondrial membrane potential, PINK1 kinase induces recruitment of the cytosolic E3 ligase Parkin to the outer mitochondrial membrane. Parkin-mediated ubiquitination of select outer mitochondrial membrane proteins,
 
+  - [[_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection|Targeting Mitophagy for Neuroprotection]]
+    - Comprehensive review of Parkin function in neuronal mitophagy: FBXO7 scaffolds PINK1-Parkin interaction; Parkin ubiquitinates Mfn1/2, Miro, VDAC1 for mitophagy. Tau fragments cause aberrant Parkin recruitment in AD. MUL1 compensates for Parkin loss. USP30 opposes Parkin-mediated ubiquitylation. BOK facilitates Parkin translocation by competing with MCL-1. SHP2-mediated Parkin Tyr143 dephosphorylation unlocks its E3 ligase activity.
 
 ## Connections
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
@@ -53,6 +55,16 @@ List of documents that mention this entity
 - [[Miro1]] — interacts with Parkin
 - [[VDAC1]] — interacts with Parkin
 - [[p62]] — interacts with Parkin
+- [[FBXO7]] — Scaffold that accelerates Parkin translocation to damaged mitochondria
+- [[MFN1]] — Parkin ubiquitinates Mfn1 to prevent refusion of damaged mitochondria
+- [[MFN2]] — Parkin ubiquitinates Mfn2; excessive ubiquitination drives mitochondrial fragmentation in PD
+- [[Miro1]] — Parkin ubiquitinates Miro for degradation to arrest mitochondrial motility
+- [[BOK]] — BOK facilitates Parkin translocation by competing with MCL-1
+- [[USP30]] — Deubiquitinase that opposes Parkin-mediated ubiquitylation
+- [[MUL1]] — Parallel/compensatory E3 ligase when Parkin function is impaired
+- [[SHP2]] — Phosphatase that activates Parkin via Tyr143 dephosphorylation
+- [[Lovastatin]] — SHP2 agonist that promotes Parkin activation
+- [[Tau Protein]] — N-terminal tau fragments cause aberrant Parkin recruitment to mitochondria in AD
 ## Linking Summary
 - New links added: [[PINK1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
   - Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]

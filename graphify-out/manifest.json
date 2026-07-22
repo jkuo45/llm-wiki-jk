@@ -235,9 +235,9 @@
     "semantic_hash": "d71c3c718a319d7dcfaa45a1753e25cf"
   },
   "notes/_link/AP-1.md": {
-    "mtime": 1783712128.1762767,
-    "ast_hash": "0e6c2bfabbb5fd64fc432140ef56227a",
-    "semantic_hash": "0e6c2bfabbb5fd64fc432140ef56227a"
+    "mtime": 1784689760.9655986,
+    "ast_hash": "66da6257792b9c59900d660af15b5d69",
+    "semantic_hash": "66da6257792b9c59900d660af15b5d69"
   },
   "notes/_link/APE1.md": {
     "mtime": 1783631420.0775137,
@@ -715,9 +715,9 @@
     "semantic_hash": "7e71a1721189e07c5d02a3d4dd609b94"
   },
   "notes/_link/BNIP3.md": {
-    "mtime": 1783631420.0846288,
-    "ast_hash": "46ed0b9830cb033e92c0db32bcb76059",
-    "semantic_hash": "46ed0b9830cb033e92c0db32bcb76059"
+    "mtime": 1784693297.8231854,
+    "ast_hash": "00b44632f89dda3d7c797e2043c596f7",
+    "semantic_hash": "00b44632f89dda3d7c797e2043c596f7"
   },
   "notes/_link/BNP.md": {
     "mtime": 1784222446.5592592,
@@ -4660,9 +4660,9 @@
     "semantic_hash": "ec09862cd9b51cc671865e89121aa2a7"
   },
   "notes/_link/PARP1.md": {
-    "mtime": 1783631420.1797972,
-    "ast_hash": "023a86e764a20f19127b3ce42ee4f8b2",
-    "semantic_hash": "023a86e764a20f19127b3ce42ee4f8b2"
+    "mtime": 1784691481.4127014,
+    "ast_hash": "fcb16f7a34d253c18307886511e2043e",
+    "semantic_hash": "fcb16f7a34d253c18307886511e2043e"
   },
   "notes/_link/PARP2.md": {
     "mtime": 1784222447.370534,
@@ -4750,9 +4750,9 @@
     "semantic_hash": "7c92ff4284ccf8eb8fadfa46f87ec595"
   },
   "notes/_link/PINK1.md": {
-    "mtime": 1784007214.945817,
-    "ast_hash": "938760ff189c72e67679478257bec48a",
-    "semantic_hash": "938760ff189c72e67679478257bec48a"
+    "mtime": 1784693270.7969575,
+    "ast_hash": "fe17477250364c754305ee588c666585",
+    "semantic_hash": "fe17477250364c754305ee588c666585"
   },
   "notes/_link/PKC.md": {
     "mtime": 1783631419.6922765,
@@ -4850,9 +4850,9 @@
     "semantic_hash": "50944e8670e410024296be571801f949"
   },
   "notes/_link/Parkin.md": {
-    "mtime": 1783631420.4563198,
-    "ast_hash": "6cc8f0f2823d480b69b83afc2bcca410",
-    "semantic_hash": "6cc8f0f2823d480b69b83afc2bcca410"
+    "mtime": 1784693283.112207,
+    "ast_hash": "0ea18f4b9df1f887286016068cf6e90b",
+    "semantic_hash": "0ea18f4b9df1f887286016068cf6e90b"
   },
   "notes/_link/Parkinson Disease.md": {
     "mtime": 1783712128.2204583,
@@ -9055,9 +9055,9 @@
     "semantic_hash": "57ab434445bea4f2aa9420f39dbcf986"
   },
   "notes/autophagy/_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md": {
-    "mtime": 1784339373.9840024,
-    "ast_hash": "5a5bacb23868bc31bb94e002fde589e4",
-    "semantic_hash": "5a5bacb23868bc31bb94e002fde589e4"
+    "mtime": 1784693110.5340936,
+    "ast_hash": "fca2cfcd351b60e41e9e92e5bf6f9e43",
+    "semantic_hash": "fca2cfcd351b60e41e9e92e5bf6f9e43"
   },
   "notes/autophagy/bHLH-LZ Transcription Factors.md": {
     "mtime": 1783631420.9951754,
@@ -12280,7 +12280,7 @@
     "semantic_hash": "7ce70f7283b3f71aacd355ada4b21812"
   },
   "notes/senescence/Immunosenescence.md": {
-    "mtime": 1784326510.539639,
+    "mtime": 1784690930.5409427,
     "ast_hash": "1dc90949de9d0db828c799812b42d60c",
     "semantic_hash": "1dc90949de9d0db828c799812b42d60c"
   },
@@ -13553,5 +13553,115 @@
     "mtime": 1784229129.898225,
     "ast_hash": "64749f63d83c198b0f594f7d2ee3acab",
     "semantic_hash": "64749f63d83c198b0f594f7d2ee3acab"
+  },
+  "notes/_link/BCL2L13.md": {
+    "mtime": 1784693177.3061435,
+    "ast_hash": "bca59eeaf5923d40c3de67cd9007f29a",
+    "semantic_hash": "bca59eeaf5923d40c3de67cd9007f29a"
+  },
+  "notes/_link/BNIP3L.md": {
+    "mtime": 1784693249.9307592,
+    "ast_hash": "6c8675c580a149d71d6a4db437587b6f",
+    "semantic_hash": "6c8675c580a149d71d6a4db437587b6f"
+  },
+  "notes/_link/BOK.md": {
+    "mtime": 1784693195.6537306,
+    "ast_hash": "c8f52c6515ee850cc36f80841901e358",
+    "semantic_hash": "c8f52c6515ee850cc36f80841901e358"
+  },
+  "notes/_link/FBXO7.md": {
+    "mtime": 1784693138.452357,
+    "ast_hash": "9e6e7e9b3711324f2b6d834dcce9be92",
+    "semantic_hash": "9e6e7e9b3711324f2b6d834dcce9be92"
+  },
+  "notes/_link/FKBP8.md": {
+    "mtime": 1784693181.4155369,
+    "ast_hash": "14ec86a277e96fd55fa29b57862729f3",
+    "semantic_hash": "14ec86a277e96fd55fa29b57862729f3"
+  },
+  "notes/_link/FUNDC1.md": {
+    "mtime": 1784693172.860218,
+    "ast_hash": "012413ebb27b83b9da242a122c4b739f",
+    "semantic_hash": "012413ebb27b83b9da242a122c4b739f"
+  },
+  "notes/_link/Homer1.md": {
+    "mtime": 1784693229.634426,
+    "ast_hash": "ad2c4b1146830e0cb89f8334170c8043",
+    "semantic_hash": "ad2c4b1146830e0cb89f8334170c8043"
+  },
+  "notes/_link/IP3R2.md": {
+    "mtime": 1784693226.1807795,
+    "ast_hash": "2c0bcf83637c9b32013053b221b6d0a0",
+    "semantic_hash": "2c0bcf83637c9b32013053b221b6d0a0"
+  },
+  "notes/_link/LRRK2.md": {
+    "mtime": 1784693205.2703967,
+    "ast_hash": "c8961352d7d63b094590e603f3832e5f",
+    "semantic_hash": "c8961352d7d63b094590e603f3832e5f"
+  },
+  "notes/_link/MUL1.md": {
+    "mtime": 1784693155.91576,
+    "ast_hash": "09288d702329e7be2db09dce8b38f84a",
+    "semantic_hash": "09288d702329e7be2db09dce8b38f84a"
+  },
+  "notes/_link/NDP52.md": {
+    "mtime": 1784693144.772462,
+    "ast_hash": "5c16058dc5c37929b0c3f89ca3c7dc0b",
+    "semantic_hash": "5c16058dc5c37929b0c3f89ca3c7dc0b"
+  },
+  "notes/_link/OPTN.md": {
+    "mtime": 1784693151.0567596,
+    "ast_hash": "37f47b4b5952ad221eb14a31315a721e",
+    "semantic_hash": "37f47b4b5952ad221eb14a31315a721e"
+  },
+  "notes/_link/PHB2.md": {
+    "mtime": 1784693186.4359531,
+    "ast_hash": "65d75db158acfcc7dd2629f8ab49dccf",
+    "semantic_hash": "65d75db158acfcc7dd2629f8ab49dccf"
+  },
+  "notes/_link/RNF185.md": {
+    "mtime": 1784693254.7632968,
+    "ast_hash": "e7362e9b926396d4725bbb4b0581bf52",
+    "semantic_hash": "e7362e9b926396d4725bbb4b0581bf52"
+  },
+  "notes/_link/Rab8.md": {
+    "mtime": 1784693222.7809613,
+    "ast_hash": "fa7d52c78499b042e40a45528de5c92e",
+    "semantic_hash": "fa7d52c78499b042e40a45528de5c92e"
+  },
+  "notes/_link/SNAPIN.md": {
+    "mtime": 1784693191.309789,
+    "ast_hash": "3174ad12831b32b1ef7cedd8657be109",
+    "semantic_hash": "3174ad12831b32b1ef7cedd8657be109"
+  },
+  "notes/_link/TOM20.md": {
+    "mtime": 1784693212.2264762,
+    "ast_hash": "48660398fc9576333a96aba205594bdc",
+    "semantic_hash": "48660398fc9576333a96aba205594bdc"
+  },
+  "notes/_link/TRAK1.md": {
+    "mtime": 1784693218.7270124,
+    "ast_hash": "8db80470d8727443cac3a705540ef84a",
+    "semantic_hash": "8db80470d8727443cac3a705540ef84a"
+  },
+  "notes/_link/UCHL1.md": {
+    "mtime": 1784693215.5148954,
+    "ast_hash": "53cb8cdd7b7760138edd688b4de2215f",
+    "semantic_hash": "53cb8cdd7b7760138edd688b4de2215f"
+  },
+  "notes/_link/USP30.md": {
+    "mtime": 1784693161.8884954,
+    "ast_hash": "e43962e6aeed32fea3f35168c30e5c95",
+    "semantic_hash": "e43962e6aeed32fea3f35168c30e5c95"
+  },
+  "notes/_link/VCP.md": {
+    "mtime": 1784693208.6738098,
+    "ast_hash": "6b193303b488d499dadbb5ee6d337be8",
+    "semantic_hash": "6b193303b488d499dadbb5ee6d337be8"
+  },
+  "tasks/task_output_ap1_trace_21_JUL_2026.md": {
+    "mtime": 1784689734.135136,
+    "ast_hash": "2308ad12752400b12f71831f5f902182",
+    "semantic_hash": "2308ad12752400b12f71831f5f902182"
   }
 }
