@@ -1,7 +1,11 @@
 ---
 title: s41514-026-00424-3_reference_mitophagy_neuroprotection
+description: "Targeting mitophagy for neuroprotection: mechanisms and therapeutic opportunities"
+published: 2026-05-27
+created: 2026-07-17
 source: s41514-026-00424-3_reference_mitophagy_neuroprotection.pdf
-tags: [pdf, parsed]
+tags: [pdf, parsed, autophagy, mitophagy, neurodegeneration]
+author: []
 ---
 
 ARTICLE IN PRESS 
