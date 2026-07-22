@@ -1,6 +1,6 @@
 ---
 title: CD38–SARM1 Research Gaps — Literature Investigation
-description: Targeted literature investigation of 4 high-priority research questions identified in the CD38-SARM1 bridging analysis. Examines: (1) whether CD38-mediated NMN depletion protects against SARM1 activation, (2) CD38 KO sensitization to SARM1, (3) combined CD38+SARM1 inhibition synergy, (4) CD38/SARM1 co-expression in microglia. Includes direct evidence, contradictory findings, and updated graph edge recommendations.
+description: "Targeted literature investigation of 4 high-priority research questions identified in the CD38-SARM1 bridging analysis. Examines: (1) whether CD38-mediated NMN depletion protects against SARM1 activation, (2) CD38 KO sensitization to SARM1, (3) combined CD38+SARM1 inhibition synergy, (4) CD38/SARM1 co-expression in microglia. Includes direct evidence, contradictory findings, and updated graph edge recommendations."
 created: 2026-07-17
 updated: 2026-07-17
 tags:

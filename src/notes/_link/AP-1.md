@@ -72,7 +72,7 @@ AP-1 activity increases with age across multiple tissues. It is a core component
 - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — Review identifies AP-1 as a pioneer factor that binds SASP enhancers in RS/OIS, opening closed chromatin to initiate SASP transcription; its program is unleashed upon HDAC4 degradation.
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications]] — Review shows AP-1 defines the temporal dynamics of the senescence-associated transcriptional network, including the SASP.
 - [[_document_ - Oxidative Stress Harms and Benefits for Human Health]] — Documents AP-1 activation by oxidants as a mechanism linking oxidative stress to inflammation.
-- [[task_output_ap1_trace_21_JUL_2026|Graph Trace: AP-1 as a Cross-Community Bridge]] — Graphify trace of AP-1's 66 connections across 4+ aging hallmarks.
+- [[task_output_AP1_trace_21_JUL_2026|Graph Trace: AP-1 as a Cross-Community Bridge]] — Graphify trace of AP-1's 66 connections across 4+ aging hallmarks.
 
 ## Connections
 

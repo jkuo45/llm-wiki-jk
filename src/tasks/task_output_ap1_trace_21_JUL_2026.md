@@ -36,7 +36,7 @@ updated: 2026-07-21
 | [[Catalase]]                                                                                    | references                 | Antioxidant enzyme, AP-1 target                 |
 | [[Oxidative Stress]]                                                                            | references (bidirectional) | ROS activate AP-1 via JNK/p38                   |
 | [[RAGE]]                                                                                        | references                 | AGE-RAGE → MAPK → AP-1 axis                     |
-| [[Cellular Senescence]]                                                                         | references                 | AP-1 is a pioneer factor for senescence program |
+| [[Senescent Cells\|Cellular Senescence]]                                                        | references                 | AP-1 is a pioneer factor for senescence program |
 | [[Replicative Senescence]]                                                                      | references                 | AP-1 opens RS SASP enhancers                    |
 | [[Oncogene-Induced Senescence]]                                                                 | references                 | AP-1 pioneer factor in OIS                      |
 | [[Senescence-Associated Secretory Phenotype\|The senescence-associated secretory phenotype...]] | references                 | Document link                                   |
