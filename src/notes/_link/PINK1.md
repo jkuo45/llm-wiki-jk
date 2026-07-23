@@ -63,6 +63,7 @@ List of documents that mention this entity
 - [[Presenilin-associated rhomboid-like protease]] — catalyzes reaction involving PINK1
 - [[Outer mitochondrial membrane]] — interacts with PINK1
 - [[Ubiquitin]] — interacts with PINK1
+- [[MFN2]] — PINK1 phosphorylates MFN2, priming it for Parkin-mediated ubiquitination and mitophagy
 - [[Mitochondrial Complex I]] — interacts with PINK1
 - [[NDUFA10]] — interacts with PINK1
 - [[TRAP1]] — interacts with PINK1

@@ -29,6 +29,14 @@ Cardiolipin is a doubly phosphorylated glycerophospholipid with four fatty acid 
 - **Mitochondrial Dynamics** — Required for [[Mitophagy]] receptor recruitment and mitochondrial fission/fusion
 - **Apoptosis** — Cardiolipin externalization to the outer membrane serves as an "eat-me" signal for phagocytes and anchors [[Cytochrome C]] to the inner membrane; its peroxidation releases Cytochrome C, initiating the intrinsic apoptosis pathway
 
+### Role in Mitochondrial Fusion and Fission
+
+> [!info] Source: [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
+> Cardiolipin is an obligate cofactor for inner-membrane fusion: L-OPA1 binds cardiolipin on liposomes and GTP hydrolysis by OPA1 drives fusion; removing cardiolipin abolishes fusion even when L-OPA1 is present on both membranes. Cardiolipin also interacts with DRP1 to stimulate its oligomerization and GTPase activity, promoting fission — so it bidirectionally regulates mitochondrial dynamics.
+
+- **[[Mitochondrial Fusion]]** — Cardiolipin is required for [[OPA1]]-mediated inner-membrane fusion.
+- **[[Mitochondrial Fission]]** — Cardiolipin binds and activates [[DRP1]] oligomerization.
+
 ## Role as a Mitochondrial DAMP
 
 During [[Mitochondrial Dysfunction]] — caused by oxidative stress, toxins, or inflammatory stimuli — cardiolipin is oxidized (particularly by ROS) and externalized to the outer mitochondrial membrane. Damaged or ruptured mitochondria then release oxidized cardiolipin into the cytosol, where it directly activates the [[NLRP3]] inflammasome. This mechanism connects mitochondrial damage to sterile inflammation:
@@ -55,6 +63,9 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Cardiolipin is identified as a mitochondrial DAMP that activates NLRP3, linking mitochondrial dysfunction to IL-1β secretion in senescent cells.
 
+  - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
+    - Cardiolipin is an obligate cofactor for OPA1-mediated inner-membrane fusion and activates DRP1 oligomerization for fission, bidirectionally regulating mitochondrial dynamics.
+
 ## Connections
 
 - [[NLRP3]] — Oxidized cardiolipin directly activates the NLRP3 inflammasome
@@ -68,8 +79,12 @@ List of documents that mention this entity
 - [[Inflammasome|NLRP3 inflammasome]] — Cardiolipin is a key endogenous NLRP3 activator
 - [[Inflammaging]] — Chronic cardiolipin release contributes to age-related NLRP3 activation
 - [[Mitophagy]] — Cardiolipin is required for mitophagy receptor recruitment
+- [[OPA1]] — Cardiolipin is an obligate cofactor for OPA1-mediated inner-membrane fusion
+- [[DRP1]] — Cardiolipin binds and activates DRP1 oligomerization for fission
+- [[Mitochondrial Fusion]] — Cardiolipin is required for inner-membrane fusion
+- [[Mitochondrial Fission]] — Cardiolipin promotes DRP1-driven fission
 
 ## Linking Summary
 
-- New links added: [[Mitochondrial Membrane Potential]], [[Mitochondrial ROS]], [[Mitophagy]], [[Cytochrome C]], [[Inflammasome|NLRP3 inflammasome]], [[Mitochondrial Permeability Transition Pore]]
-- Strong connections to strengthen: [[Cardiolipin]] ↔ [[NLRP3]], [[Cardiolipin]] ↔ [[Mitochondrial Dysfunction]], [[Cardiolipin]] ↔ [[Oxidative Stress]]
+- New links added: [[Mitochondrial Membrane Potential]], [[Mitochondrial ROS]], [[Mitophagy]], [[Cytochrome C]], [[Inflammasome|NLRP3 inflammasome]], [[Mitochondrial Permeability Transition Pore]], [[OPA1]], [[DRP1]], [[Mitochondrial Fusion]], [[Mitochondrial Fission]]
+- Strong connections to strengthen: [[Cardiolipin]] ↔ [[NLRP3]], [[Cardiolipin]] ↔ [[Mitochondrial Dysfunction]], [[Cardiolipin]] ↔ [[Oxidative Stress]], [[Cardiolipin]] ↔ [[OPA1]], [[Cardiolipin]] ↔ [[DRP1]]

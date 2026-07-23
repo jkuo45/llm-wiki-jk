@@ -29,6 +29,9 @@ Through OPA1 processing, OMA1 sits at the intersection of mitochondrial dynamics
   - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023 Review]]
     - Covers OMA1-mediated stress signaling and its role in mitochondrial quality control and mitohormesis.
 
+  - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
+    - OMA1 cleaves OPA1 at the S1 site to generate short-form S-OPA1, which (with L-OPA1) drives inner-membrane fusion.
+
 ## Connections
 
   - [[OPA1]]: Principal OMA1 substrate; cleaved to drive fragmentation.
@@ -36,6 +39,9 @@ Through OPA1 processing, OMA1 sits at the intersection of mitochondrial dynamics
   - [[Mitochondrial Membrane Potential]]: Loss of ΔΨm is a primary OMA1 activator.
   - [[Mitophagy]]: Downstream consequence of OPA1 cleavage.
   - [[Parkin]] / [[PINK1]]: Cooperative mitophagy regulators.
+  - [[YME1L]]: Constitutively cleaves OPA1 at S2/S3; with OMA1 sets the L/S-OPA1 ratio.
+  - [[Mitochondrial Fusion]]: S-OPA1 (OMA1-generated) cooperates with L-OPA1 for IMM fusion.
+  - [[Mitochondrial Fission]]: Opposing process whose imbalance OMA1 helps resolve.
 
 ## Linking Summary
 

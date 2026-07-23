@@ -10,8 +10,8 @@ updated: 2026-07-17
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 17_JULY_2026 12:00 PM PDT
-- Total count of entities: 358
+- Last updated: 23_JULY_2026 04:00 PM PDT
+- Total count of entities: 389
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -375,3 +375,34 @@ This directory contains entities that span across multiple topics within the kno
 | [[RSL3]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Ferroptosis, GPX4 |
 | [[TBARS]] | 17_JULY_2026 12:00 PM PDT | Assay | Oxidative Stress, Lipid Peroxidation |
 | [[Z-VAD-FMK]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Apoptosis, Caspase Inhibitor, Cell Death |
+| [[Adenosine Triphosphate]] | 23_JULY_2026 04:00 PM PDT | Biological Molecule | Mitochondria, Energy Metabolism |
+| [[Apolipoprotein E]] | 23_JULY_2026 04:00 PM PDT | Protein | Lipoprotein, Cardiovascular |
+| [[Charcot-Marie-Tooth Disease Type 2A]] | 23_JULY_2026 04:00 PM PDT | Disease | Neuropathy, Mitochondria |
+| [[DNM2]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fission |
+| [[Dominant Optic Atrophy]] | 23_JULY_2026 04:00 PM PDT | Disease | Neuropathy, Mitochondria |
+| [[Endosymbiosis]] | 23_JULY_2026 04:00 PM PDT | Biology Concept | Evolution, Mitochondria |
+| [[Fzo]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fusion |
+| [[HDAC6]] | 23_JULY_2026 04:00 PM PDT | Enzyme | Mitochondria, Deacetylase |
+| [[INF2]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fission, Actin |
+| [[Inner Mitochondrial Membrane]] | 23_JULY_2026 04:00 PM PDT | Mitochondria Structure | Mitochondria |
+| [[Kinesin]] | 23_JULY_2026 04:00 PM PDT | Protein | Motor Protein, Transport |
+| [[Left Ventricular Hypertrophy]] | 23_JULY_2026 04:00 PM PDT | Disease | Cardiovascular, Mitochondria |
+| [[Mgm1]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fusion |
+| [[MID49]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fission |
+| [[MID51]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fission |
+| [[Mitochondrial DNA]] | 23_JULY_2026 04:00 PM PDT | Mitochondria Structure | Mitochondria, Nucleic Acid |
+| [[Mitochondrial Fusion]] | 23_JULY_2026 04:00 PM PDT | Biological Process | Mitochondria, Dynamics |
+| [[Mitochondrial Fission]] | 23_JULY_2026 04:00 PM PDT | Biological Process | Mitochondria, Dynamics |
+| [[Mitochondrial Integrity]] | 23_JULY_2026 04:00 PM PDT | Biology Concept | Mitochondria |
+| [[Mitochondrial Intermembrane Space]] | 23_JULY_2026 04:00 PM PDT | Mitochondria Structure | Mitochondria |
+| [[Mitochondrial Matrix]] | 23_JULY_2026 04:00 PM PDT | Mitochondria Structure | Mitochondria |
+| [[Mitochondrial Targeting Sequence]] | 23_JULY_2026 04:00 PM PDT | Protein Domain | Mitochondria |
+| [[Miro]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Transport |
+| [[Milton]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Transport |
+| [[MFF]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Fission |
+| [[Outer Mitochondrial Membrane]] | 23_JULY_2026 04:00 PM PDT | Mitochondria Structure | Mitochondria |
+| [[Platelet-Derived Growth Factor]] | 23_JULY_2026 04:00 PM PDT | Signaling Molecule | Growth Factor, Cardiovascular |
+| [[Protein Kinase A]] | 23_JULY_2026 04:00 PM PDT | Enzyme | Kinase, Signaling |
+| [[Serine]] | 23_JULY_2026 04:00 PM PDT | Amino Acid | Protein, Phosphorylation |
+| [[YME1L]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Protease |
+| [[Mdivi-1]] | 23_JULY_2026 04:00 PM PDT | Small Molecule | Mitochondria, Fission Inhibitor |

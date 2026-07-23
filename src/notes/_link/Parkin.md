@@ -56,6 +56,8 @@ List of documents that mention this entity
 - [[VDAC1]] — interacts with Parkin
 - [[p62]] — interacts with Parkin
 - [[FBXO7]] — Scaffold that accelerates Parkin translocation to damaged mitochondria
+- [[MFN2]] — Parkin ubiquitylates PINK1-phosphorylated MFN2, targeting it for mitophagy
+- [[DRP1]] — Parkin ubiquitylates DRP1, driving its proteasomal degradation and reducing fission
 - [[MFN1]] — Parkin ubiquitinates Mfn1 to prevent refusion of damaged mitochondria
 - [[MFN2]] — Parkin ubiquitinates Mfn2; excessive ubiquitination drives mitochondrial fragmentation in PD
 - [[Miro1]] — Parkin ubiquitinates Miro for degradation to arrest mitochondrial motility

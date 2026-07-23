@@ -28,9 +28,20 @@ FIS1 (mitochondrial fission 1 protein) is an outer [[Mitochondria|mitochondrial]
 - [[Mitophagy]] — Mitochondrial fission via FIS1 is a prerequisite for mitophagy; reduced FIS1 impairs mitophagy
 - [[MFN1]] — Mitofusin 1 promotes fusion, functionally opposing FIS1 action in mitochondrial dynamics
 - [[Alzheimer's Disease]] — FIS1 expression changes in favor of fission in AD brain, unlike the elongation seen in senescence
+- [[Mitochondrial Fission]] — FIS1 is a core OMM adaptor for DRP1-mediated fission
+- [[MFF]] — Fellow DRP1 recruiter; works with FIS1, MID49, MID51
+- [[MID49]] / [[MID51]] — Additional DRP1-recruiting adaptors
+
+## Documents
+
+  - [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease|Mitochondrial dysfunction in cellular senescence]]
+    - FIS1 downregulation in senescence yields elongated mitochondria and impaired mitophagy.
+
+  - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
+    - FIS1 is an OMM adaptor (with MFF, MID49, MID51) that recruits DRP1 to drive mitochondrial fission.
 
 ## Linking Summary
 
-- New links added: [[DRP1]], [[OPA1]], [[MFN1]], [[Mitophagy]], [[Mitochondrial Fission]], [[Senescence]]
+- New links added: [[DRP1]], [[OPA1]], [[MFN1]], [[Mitophagy]], [[Mitochondrial Fission]], [[Senescence]], [[MFF]], [[MID49]], [[MID51]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[FIS1]] ↔ [[DRP1]] (core fission machinery)

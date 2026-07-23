@@ -35,6 +35,11 @@ protected: true
 
 SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[SOD2]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
 
+### Regulation of Mitochondrial Dynamics
+
+> [!info] Source: [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
+> SIRT3 deacetylates [[OPA1]] at Lys926 and Lys931 in its GTPase effector domain, raising OPA1 GTPase activity and enhancing [[Mitochondrial Fusion|mitochondrial fusion]] during stress.
+
 # SIRT3
 
 **SIRT3** (Sirtuin 3) is a **mitochondrial sirtuin** classified in phylogenetic **Class Ib** alongside yeast Hst2, [[SIRT2]], and sirtuins from other fungi and protozoa. It is the primary deacetylase in the mitochondrial matrix, playing key roles in energy metabolism, thermogenesis, mitochondrial biogenesis, and reactive oxygen species (ROS) regulation.
@@ -113,6 +118,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
 
+  - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
+    - SIRT3 deacetylates OPA1 (Lys926/Lys931) to activate fusion during stress.
+
 
 ## Connections
 
@@ -125,6 +133,8 @@ List of documents that mention this entity
 - [[Caloric Restriction]] — SIRT3 is induced by CR; mediates metabolic adaptations
 - [[PGC1-α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
+- [[OPA1]] — SIRT3 deacetylates OPA1 (Lys926/Lys931), activating fusion
+- [[Mitochondrial Fusion]] — SIRT3 enhances fusion via OPA1 deacetylation
 
 
 
