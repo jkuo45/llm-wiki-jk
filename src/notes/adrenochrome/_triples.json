@@ -1043,6 +1043,76 @@
     "confidence": "high"
   },
   {
+    "subject": "Isatin",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Isatin is an indole alkaloid",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isourolithin A",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Isourolithin A is a gut-microbial metabolite",
+    "confidence": "high"
+  },
+  {
+    "subject": "L-lactate",
+    "predicate": "has_type",
+    "object": "biological_molecule",
+    "context": "L-lactate is a physiological stereoisomer of lactate",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leukoaminochrome",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Leukoaminochrome is the reduced form of aminochrome",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lipase inhibitor",
+    "predicate": "has_type",
+    "object": "pharmacological_action",
+    "context": "Lipase inhibitor suppresses lipase activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Liposome Encapsulation",
+    "predicate": "has_type",
+    "object": "drug_delivery",
+    "context": "Liposome encapsulation is a formulation technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "Low-Density Lipoprotein",
+    "predicate": "has_type",
+    "object": "biological_molecule",
+    "context": "LDL is the principal cholesterol-transporting lipoprotein",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAVS",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "MAVS is a mitochondrial antiviral signaling protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "MITF",
+    "predicate": "has_type",
+    "object": "transcription_factor",
+    "context": "MITF is a master regulator of melanocyte development",
+    "confidence": "high"
+  },
+  {
+    "subject": "Manganese superoxide dismutase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "MnSOD is a mitochondrial antioxidant enzyme",
+    "confidence": "high"
+  },
+  {
     "subject": "Inflammation",
     "predicate": "drives",
     "object": "Adrenochrome formation",
@@ -1692,5 +1762,404 @@
     "object": "senescent cell marker",
     "context": "B2M is a component of MHC class I enriched on senescent cell surfaces",
     "confidence": "medium"
+  },
+  {
+    "subject": "Isatin",
+    "predicate": "inhibits",
+    "object": "MAO",
+    "context": "Isatin is a reversible, selective MAO inhibitor, particularly toward MAO-B",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isatin",
+    "predicate": "modulates",
+    "object": "Dopamine flux",
+    "context": "Isatin limits MAO-driven oxidative deamination of Dopamine and Adrenaline",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isatin",
+    "predicate": "engages",
+    "object": "Glutathione",
+    "context": "Isatin exhibits pro-oxidant and electrophilic behavior capable of engaging thiols such as Glutathione",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isobutyl nitrite",
+    "predicate": "induces",
+    "object": "Methemoglobinemia",
+    "context": "Inhalation of isobutyl nitrite can trigger severe acquired Methemoglobinemia",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isobutyl nitrite",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": "Nitrite oxidizes the ferrous iron of Hemoglobin to the ferric state, forming Methemoglobin",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isobutyl nitrite",
+    "predicate": "structurally_similar_to",
+    "object": "Amyl nitrite",
+    "context": "Isobutyl nitrite is a volatile alkyl nitrite like Amyl nitrite",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isourolithin A",
+    "predicate": "isomer_of",
+    "object": "Urolithin A",
+    "context": "Isourolithin A is a structural isomer of Urolithin A",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isourolithin A",
+    "predicate": "derived_from",
+    "object": "Ellagic acid",
+    "context": "Isourolithin A is produced by gut bacteria from dietary Ellagic acid and ellagitannins",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isourolithin A",
+    "predicate": "induces",
+    "object": "Mitophagy",
+    "context": "Isourolithin A can stimulate Mitophagy, the selective clearance of damaged mitochondria",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isourolithin A",
+    "predicate": "mitigates",
+    "object": "Oxidative Stress",
+    "context": "Isourolithin A exhibits antioxidant and anti-inflammatory activity, mitigating Oxidative Stress",
+    "confidence": "high"
+  },
+  {
+    "subject": "Jeanho Yun",
+    "predicate": "co_authored_with",
+    "object": "Toren Finkel",
+    "context": "Yun co-authored the 2014 Mitohormesis paper with Toren Finkel",
+    "confidence": "high"
+  },
+  {
+    "subject": "Jeanho Yun",
+    "predicate": "researches",
+    "object": "Mitohormesis",
+    "context": "Yun's most prominent contribution is co-authorship of the Mitohormesis concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Keap1",
+    "predicate": "regulates",
+    "object": "Nrf2",
+    "context": "Keap1 regulates the degradation and nuclear translocation of Nrf2",
+    "confidence": "high"
+  },
+  {
+    "subject": "Keap1",
+    "predicate": "senses",
+    "object": "Adrenochrome",
+    "context": "Adrenochrome and its redox-cycling products act as electrophiles that can modify Keap1 sensor cysteines",
+    "confidence": "high"
+  },
+  {
+    "subject": "Keap1",
+    "predicate": "activated_by",
+    "object": "Aminochromes",
+    "context": "Electrophilic Aminochromes induce their own detoxification by upregulating NQO1, HO-1",
+    "confidence": "high"
+  },
+  {
+    "subject": "L-lactate",
+    "predicate": "produced_by",
+    "object": "PARK7",
+    "context": "PARK7 stereospecifically converts Methylglyoxal into L-lactate",
+    "confidence": "high"
+  },
+  {
+    "subject": "L-lactate",
+    "predicate": "detoxified_from",
+    "object": "Methylglyoxal",
+    "context": "L-lactate is a direct product of dicarbonyl detoxification from Methylglyoxal",
+    "confidence": "high"
+  },
+  {
+    "subject": "LC-MS",
+    "predicate": "detects",
+    "object": "Leuco-adrenochrome",
+    "context": "LC-MS is used for highly sensitive identification of Leuco-adrenochrome in biological samples",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leuco-adrenochrome",
+    "predicate": "catalyzed_by",
+    "object": "Tyrosinase",
+    "context": "Two-electron pathway catalyzed by Tyrosinase does not generate reactive intermediates",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leuco-adrenochrome",
+    "predicate": "generates",
+    "object": "Superoxide anion",
+    "context": "The one-electron pathway proceeds through semiquinone radical that reduces oxygen to Superoxide anion",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leukoaminochrome",
+    "predicate": "central_to",
+    "object": "Redox Cycling",
+    "context": "The leukoaminochrome-aminochrome couple is central to Redox Cycling of adrenochrome",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leukoaminochrome",
+    "predicate": "condenses_into",
+    "object": "Neuromelanin",
+    "context": "In catecholaminergic neurons, leukoaminochrome intermediates condense and oxidize into Neuromelanin",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leukoaminochrome",
+    "predicate": "detoxified_by",
+    "object": "NQO1",
+    "context": "Two-electron reduction by NQO1 safely channels the leuco form away from semiquinone formation",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lidocaine",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": "Lidocaine is recognized as a cause of acquired Methemoglobinemia",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lidocaine",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": "Lidocaine and its metabolites oxidize ferroheme of Hemoglobin to ferriheme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lifespan",
+    "predicate": "extended_by",
+    "object": "Caloric Restriction",
+    "context": "Caloric Restriction has been shown to increase lifespan",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lifespan",
+    "predicate": "extended_by",
+    "object": "Rapamycin",
+    "context": "mTORC1 inhibition by Rapamycin extends murine lifespan",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lifespan",
+    "predicate": "extended_by",
+    "object": "Metformin",
+    "context": "Metformin activates AMPK and extends lifespan",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lifespan",
+    "predicate": "extended_by_overexpression_of",
+    "object": "SIRT1",
+    "context": "SIRT1 overexpression extends murine lifespan on high-fat diet",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lifespan",
+    "predicate": "extended_by_overexpression_of",
+    "object": "SIRT6",
+    "context": "SIRT6 overexpression extends male mouse lifespan",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lipase inhibitor",
+    "predicate": "reduces_absorption_of",
+    "object": "Advanced Glycation End Products",
+    "context": "Lipase inhibition reduces intestinal absorption of dietary AGEs",
+    "confidence": "high"
+  },
+  {
+    "subject": "Liposome Encapsulation",
+    "predicate": "delivers",
+    "object": "Adrenochrome",
+    "context": "Liposomal formulations can shield encapsulated catecholamine-derived species from rapid autoxidation",
+    "confidence": "high"
+  },
+  {
+    "subject": "Low-Density Lipoprotein",
+    "predicate": "risk_factor_for",
+    "object": "Atherosclerosis",
+    "context": "Elevated plasma LDL is the cardinal risk factor for Atherosclerosis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Low-Density Lipoprotein",
+    "predicate": "modified_by",
+    "object": "Advanced Glycation End Products",
+    "context": "Glycated-oxidized LDL is avidly taken up by macrophage scavenger receptors",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lungs",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": "The lungs are a significant site for oxidative metabolism of Epinephrine into Adrenochrome",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lungs",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": "Local or circulating adrenaline is oxidized to Adrenochrome in the lung environment",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysine",
+    "predicate": "reacts_in",
+    "object": "Maillard Reaction",
+    "context": "Lysine is one of the primary amino acids that reacts with reducing sugars in the Maillard Reaction",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysine",
+    "predicate": "forms",
+    "object": "Pyrraline",
+    "context": "Lysine reacts with reducing sugars to form AGEs like Pyrraline",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAO",
+    "predicate": "deaminates",
+    "object": "Catecholamines",
+    "context": "MAO catalyzes the oxidative deamination of monoamines including Catecholamines",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAO",
+    "predicate": "shifts_to",
+    "object": "Adrenochrome",
+    "context": "When MAO is inhibited, substrate flux shifts toward non-enzymatic Oxidation to Adrenochrome",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAO",
+    "predicate": "produces",
+    "object": "Hydrogen Peroxide",
+    "context": "MAO catalysis produces Hydrogen Peroxide as a stoichiometric by-product",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAVS",
+    "predicate": "activated_by",
+    "object": "Retinoic-acid-inducible protein I-like receptor",
+    "context": "RLRs detect viral RNA and interact with MAVS to activate innate immune response",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAVS",
+    "predicate": "recruits",
+    "object": "TRAF2",
+    "context": "MAVS aggregates recruit TRAF2, TRAF6, and RIPK1 to activate innate immune response",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAVS",
+    "predicate": "activates",
+    "object": "NFκB",
+    "context": "MAVS signaling activates NFκB and interferon production",
+    "confidence": "high"
+  },
+  {
+    "subject": "MITF",
+    "predicate": "regulates",
+    "object": "Tyrosine Hydroxylase",
+    "context": "MITF drives expression of melanin synthesis machinery including tyrosinase",
+    "confidence": "high"
+  },
+  {
+    "subject": "MITF",
+    "predicate": "controls_synthesis_of",
+    "object": "Melanins",
+    "context": "MITF is the master regulator of melanocyte development and pigment production",
+    "confidence": "high"
+  },
+  {
+    "subject": "MITF",
+    "predicate": "influences",
+    "object": "Neuromelanin",
+    "context": "MITF and MiT/TFE network coordinate lysosomal clearance influencing neuronal pigment accumulation",
+    "confidence": "high"
+  },
+  {
+    "subject": "MITF",
+    "predicate": "linked_to",
+    "object": "Parkinson's Disease",
+    "context": "Neuromelanin accumulation in Substantia Nigra is linked to Parkinson's Disease",
+    "confidence": "high"
+  },
+  {
+    "subject": "MITF",
+    "predicate": "modulated_by",
+    "object": "mTOR",
+    "context": "MITF activity is modulated by nutrient-sensing inputs via mTOR",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard Reaction",
+    "predicate": "produces",
+    "object": "Advanced Glycation End Products",
+    "context": "The Maillard reaction is responsible for endogenous formation of AGEs",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard Reaction",
+    "predicate": "forms",
+    "object": "Schiff base",
+    "context": "The Maillard reaction initiates with formation of an unstable Schiff base",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard Reaction",
+    "predicate": "hallmark_of",
+    "object": "Aging",
+    "context": "Accumulation of Maillard reaction products is a hallmark of Aging",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard Reaction",
+    "predicate": "accelerated_by",
+    "object": "Hyperglycemia",
+    "context": "Maillard reaction is highly accelerated in Hyperglycemia",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard Reaction",
+    "predicate": "activates",
+    "object": "NFκB",
+    "context": "RAGE mediates pathological response to Maillard products, activating NFκB",
+    "confidence": "high"
+  },
+  {
+    "subject": "Manganese superoxide dismutase",
+    "predicate": "central_to",
+    "object": "Mitohormesis",
+    "context": "MnSOD sits at the heart of a paradox central to Mitohormesis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Manganese superoxide dismutase",
+    "predicate": "dismutates",
+    "object": "Superoxide anion",
+    "context": "MnSOD catalyzes the dismutation of Superoxide anion into oxygen and Hydrogen Peroxide",
+    "confidence": "high"
+  },
+  {
+    "subject": "Manganese superoxide dismutase",
+    "predicate": "partial_suppression_extends",
+    "object": "Lifespan",
+    "context": "Partial reduction of MnSOD activity paradoxically extends Lifespan in flies and worms",
+    "confidence": "high"
   }
 ]
