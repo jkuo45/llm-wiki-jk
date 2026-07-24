@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Three.js Graph Visualization</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
+  #graph { flex: 1; position: relative; }
+  #sidebar { width: 300px; background: #1a1a2e; border-left: 1px solid #2a2a4e; display: flex; flex-direction: column; overflow: hidden; }
+  #search-wrap { padding: 12px; border-bottom: 1px solid #2a2a4e; }
+  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; }
+  #search:focus { border-color: #4E79A7; }
+  #search-results { max-height: 200px; overflow-y: auto; padding: 4px 12px; border-bottom: 1px solid #2a2a4e; display: none; }
+  .search-item { padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .search-item:hover { background: #2a2a4e; }
+  #info-panel { padding: 16px; border-bottom: 1px solid #2a2a4e; min-height: 180px; }
+  #info-panel h3 { font-size: 12px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.1em; }
+  #info-content { font-size: 13px; color: #ccc; line-height: 1.7; }
+  #info-content .field { margin-bottom: 6px; }
+  #info-content .field b { color: #e0e0e0; }
+  #info-content .empty { color: #555; font-style: italic; }
+  .neighbor-link { display: block; padding: 4px 8px; margin: 3px 0; border-radius: 4px; cursor: pointer; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
+  .neighbor-link:hover { background: #2a2a4e; }
+  #neighbors-list { max-height: 200px; overflow-y: auto; margin-top: 6px; }
+  #legend-wrap { flex: 1; overflow-y: auto; padding: 12px; }
+  #legend-wrap h3 { font-size: 12px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .legend-item { display: flex; align-items: center; gap: 8px; padding: 5px 4px; cursor: pointer; border-radius: 4px; font-size: 12px; transition: background 0.15s; }
+  .legend-item:hover { background: #2a2a4e; }
+  .legend-item.dimmed { opacity: 0.3; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .legend-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .legend-count { color: #666; font-size: 11px; min-width: 24px; text-align: right; }
+  #stats { padding: 10px 14px; border-top: 1px solid #2a2a4e; font-size: 11px; color: #555; }
+  #legend-controls { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; padding: 4px 0; }
+  #legend-controls label { display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 12px; color: #aaa; user-select: none; }
+  #legend-controls label:hover { color: #e0e0e0; }
+  .legend-cb, #select-all-cb { appearance: none; -webkit-appearance: none; width: 14px; height: 14px; border: 1.5px solid #3a3a5e; border-radius: 3px; background: #0f0f1a; cursor: pointer; position: relative; flex-shrink: 0; }
+  .legend-cb:checked, #select-all-cb:checked { background: #4E79A7; border-color: #4E79A7; }
+  .legend-cb:checked::after, #select-all-cb:checked::after { content: ''; position: absolute; left: 3.5px; top: 1px; width: 4px; height: 7px; border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(45deg); }
+  #select-all-cb:indeterminate { background: #4E79A7; border-color: #4E79A7; }
+  #select-all-cb:indeterminate::after { content: ''; position: absolute; left: 2px; top: 5px; width: 8px; height: 2px; background: #fff; border: none; transform: none; }
+  
+  /* Tooltip */
+  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 250px; }
+  #tooltip.visible { opacity: 1; }
+  
+  /* Controls overlay */
+  #controls { position: absolute; bottom: 16px; left: 16px; display: flex; gap: 8px; z-index: 10; }
+  #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; transition: all 0.15s; }
+  #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
+  #controls button.active { background: #4E79A7; border-color: #4E79A7; }
+  
+  /* Loading overlay */
+  #loading { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #0f0f1a; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; }
+  #loading.hidden { display: none; }
+  #loading h2 { color: #e0e0e0; margin-bottom: 16px; font-size: 18px; }
+  #loading p { color: #888; font-size: 13px; }
+  .spinner { width: 40px; height: 40px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div id="graph">
+  <div id="loading">
+    <div class="spinner"></div>
+    <h2>Loading Graph Data</h2>
+    <p id="load-status">Initializing...</p>
+  </div>
+  <div id="tooltip"></div>
+  <div id="controls">
+    <button id="btn-reset" title="Reset camera">Reset View</button>
+    <button id="btn-physics" title="Toggle physics simulation">Physics</button>
+    <button id="btn-labels" title="Toggle labels">Labels</button>
+    <button id="btn-edges" title="Toggle edges">Edges</button>
+  </div>
+</div>
+<div id="sidebar">
+  <div id="search-wrap">
+    <input id="search" type="text" placeholder="Search nodes..." autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <div id="info-panel">
+    <h3>Node Info</h3>
+    <div id="info-content"><span class="empty">Click a node to inspect it</span></div>
+  </div>
+  <div id="legend-wrap">
+    <h3>Communities</h3>
+    <div id="legend-controls">
+      <label><input type="checkbox" id="select-all-cb" checked>Select All</label>
+    </div>
+    <div id="legend"></div>
+  </div>
+  <div id="stats"></div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+// ============================================================
+// Data Loading
+// ============================================================
+const loadStatus = document.getElementById('load-status');
+
+async function loadData() {
+  loadStatus.textContent = 'Loading nodes...';
+  const nodesResp = await fetch('nodes.json');
+  const RAW_NODES = await nodesResp.json();
+  
+  loadStatus.textContent = 'Loading edges...';
+  const edgesResp = await fetch('edges.json');
+  const RAW_EDGES = await edgesResp.json();
+  
+  loadStatus.textContent = 'Loading legend...';
+  const legendResp = await fetch('legend.json');
+  const LEGEND = await legendResp.json();
+  
+  return { RAW_NODES, RAW_EDGES, LEGEND };
+}
+
+const { RAW_NODES, RAW_EDGES, LEGEND } = await loadData();
+loadStatus.textContent = 'Building graph...';
+
+// ============================================================
+// Build adjacency map
+// ============================================================
+const nodeMap = new Map();
+RAW_NODES.forEach(n => nodeMap.set(n.id, n));
+
+const adjacency = new Map();
+RAW_EDGES.forEach(e => {
+  if (!adjacency.has(e.from)) adjacency.set(e.from, []);
+  if (!adjacency.has(e.to)) adjacency.set(e.to, []);
+  adjacency.get(e.from).push({ target: e.to, edge: e });
+  adjacency.get(e.to).push({ target: e.from, edge: e });
+});
+
+// ============================================================
+// Three.js Setup
+// ============================================================
+const container = document.getElementById('graph');
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0f0f1a);
+
+const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 10000);
+camera.position.set(0, 0, 300);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setSize(container.clientWidth, container.clientHeight);
+renderer.setPixelRatio(window.devicePixelRatio);
+container.appendChild(renderer.domElement);
+
+const labelRenderer = new CSS2DRenderer();
+labelRenderer.setSize(container.clientWidth, container.clientHeight);
+labelRenderer.domElement.style.position = 'absolute';
+labelRenderer.domElement.style.top = '0';
+labelRenderer.domElement.style.pointerEvents = 'none';
+container.appendChild(labelRenderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.05;
+controls.minDistance = 50;
+controls.maxDistance = 2000;
+controls.zoomSpeed = 1.2;
+
+// Lighting
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+scene.add(ambientLight);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+directionalLight.position.set(100, 100, 100);
+scene.add(directionalLight);
+const backLight = new THREE.DirectionalLight(0x4E79A7, 0.3);
+backLight.position.set(-100, -50, -100);
+scene.add(backLight);
+
+// ============================================================
+// Node Objects
+// ============================================================
+const nodeObjects = new Map();
+const nodeMeshes = [];
+const labelObjects = new Map();
+const hiddenCommunities = new Set();
+
+const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
+
+function createNodeMesh(nodeData) {
+  const radius = Math.max(1.5, nodeData.size * 0.4);
+  const material = new THREE.MeshPhongMaterial({
+    color: new THREE.Color(nodeData.color.background),
+    emissive: new THREE.Color(nodeData.color.background),
+    emissiveIntensity: 0.15,
+    shininess: 60,
+    transparent: true,
+    opacity: 0.92,
+  });
+  
+  const mesh = new THREE.Mesh(sphereGeometry, material);
+  mesh.scale.set(radius, radius, radius);
+  mesh.userData = { nodeId: nodeData.id, nodeData };
+  return mesh;
+}
+
+// Initialize positions using community clusters
+const communityCenters = new Map();
+const communityAngle = new Map();
+let communityIndex = 0;
+const clusterRadius = 200;
+
+LEGEND.forEach(c => {
+  const angle = (communityIndex / LEGEND.length) * Math.PI * 2;
+  const r = clusterRadius * (0.5 + 0.5 * Math.random());
+  communityCenters.set(c.cid, new THREE.Vector3(
+    Math.cos(angle) * r,
+    (Math.random() - 0.5) * clusterRadius * 0.5,
+    Math.sin(angle) * r
+  ));
+  communityAngle.set(c.cid, angle);
+  communityIndex++;
+});
+
+RAW_NODES.forEach(n => {
+  const mesh = createNodeMesh(n);
+  const center = communityCenters.get(n.community) || new THREE.Vector3(0, 0, 0);
+  const spread = 40 + n.degree * 3;
+  mesh.position.set(
+    center.x + (Math.random() - 0.5) * spread,
+    center.y + (Math.random() - 0.5) * spread,
+    center.z + (Math.random() - 0.5) * spread
+  );
+  
+  scene.add(mesh);
+  nodeMeshes.push(mesh);
+  nodeObjects.set(n.id, mesh);
+});
+
+// ============================================================
+// Edge Objects
+// ============================================================
+const edgeObjects = [];
+const edgeGroup = new THREE.Group();
+scene.add(edgeGroup);
+
+RAW_EDGES.forEach(e => {
+  const fromMesh = nodeObjects.get(e.from);
+  const toMesh = nodeObjects.get(e.to);
+  if (!fromMesh || !toMesh) return;
+  
+  const points = [fromMesh.position.clone(), toMesh.position.clone()];
+  const geometry = new THREE.BufferGeometry().setFromPoints(points);
+  
+  const opacity = e.color.opacity * 0.6;
+  const material = new THREE.LineBasicMaterial({
+    color: 0x4a4a6a,
+    transparent: true,
+    opacity: opacity,
+    linewidth: 1,
+  });
+  
+  const line = new THREE.Line(geometry, material);
+  line.userData = { edge: e, fromMesh, toMesh };
+  edgeGroup.add(line);
+  edgeObjects.push(line);
+});
+
+// ============================================================
+// Labels (only for high-degree nodes initially)
+// ============================================================
+let showLabels = true;
+const labelThreshold = 15;
+
+function createLabel(nodeData, mesh) {
+  const div = document.createElement('div');
+  div.className = 'node-label';
+  div.textContent = nodeData.label;
+  div.style.cssText = `
+    color: #e0e0e0;
+    font-size: 10px;
+    padding: 2px 6px;
+    background: rgba(15, 15, 26, 0.8);
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: none;
+    text-shadow: 0 0 4px rgba(0,0,0,0.8);
+  `;
+  const label = new CSS2DObject(div);
+  label.position.copy(mesh.position);
+  label.position.y += mesh.scale.y + 2;
+  label.visible = showLabels && nodeData.degree >= labelThreshold;
+  scene.add(label);
+  labelObjects.set(nodeData.id, label);
+}
+
+RAW_NODES.forEach(n => {
+  const mesh = nodeObjects.get(n.id);
+  if (mesh) createLabel(n, mesh);
+});
+
+// ============================================================
+// 3D Force-Directed Layout
+// ============================================================
+let physicsEnabled = false;
+let physicsIterations = 0;
+const maxPhysicsIterations = 300;
+
+const velocities = new Map();
+RAW_NODES.forEach(n => {
+  velocities.set(n.id, new THREE.Vector3(0, 0, 0));
+});
+
+function applyForces() {
+  if (!physicsEnabled) return;
+  
+  const repulsionStrength = 500;
+  const attractionStrength = 0.005;
+  const damping = 0.85;
+  const centerGravity = 0.001;
+  const maxVelocity = 10;
+  
+  const positions = [];
+  nodeMeshes.forEach(m => positions.push(m.position));
+  
+  // Repulsion between nodes (sample for performance)
+  const sampleSize = Math.min(200, nodeMeshes.length);
+  const step = Math.max(1, Math.floor(nodeMeshes.length / sampleSize));
+  
+  for (let i = 0; i < nodeMeshes.length; i += step) {
+    const meshA = nodeMeshes[i];
+    const velA = velocities.get(meshA.userData.nodeId);
+    
+    for (let j = i + step; j < nodeMeshes.length; j += step) {
+      const meshB = nodeMeshes[j];
+      const velB = velocities.get(meshB.userData.nodeId);
+      
+      const dx = meshA.position.x - meshB.position.x;
+      const dy = meshA.position.y - meshB.position.y;
+      const dz = meshA.position.z - meshB.position.z;
+      const distSq = dx * dx + dy * dy + dz * dz + 0.01;
+      const dist = Math.sqrt(distSq);
+      
+      if (dist > 200) continue;
+      
+      const force = repulsionStrength / distSq;
+      const fx = (dx / dist) * force;
+      const fy = (dy / dist) * force;
+      const fz = (dz / dist) * force;
+      
+      velA.x += fx;
+      velA.y += fy;
+      velA.z += fz;
+      velB.x -= fx;
+      velB.y -= fy;
+      velB.z -= fz;
+    }
+  }
+  
+  // Attraction along edges
+  edgeObjects.forEach(line => {
+    const { fromMesh, toMesh, edge } = line.userData;
+    const velFrom = velocities.get(edge.from);
+    const velTo = velocities.get(edge.to);
+    
+    const dx = toMesh.position.x - fromMesh.position.x;
+    const dy = toMesh.position.y - fromMesh.position.y;
+    const dz = toMesh.position.z - fromMesh.position.z;
+    const dist = Math.sqrt(dx * dx + dy * dy + dz * dz + 0.01);
+    
+    const idealLength = 50 + (fromMesh.userData.nodeData.degree + toMesh.userData.nodeData.degree) * 0.5;
+    const force = (dist - idealLength) * attractionStrength;
+    
+    const fx = (dx / dist) * force;
+    const fy = (dy / dist) * force;
+    const fz = (dz / dist) * force;
+    
+    velFrom.x += fx;
+    velFrom.y += fy;
+    velFrom.z += fz;
+    velTo.x -= fx;
+    velTo.y -= fy;
+    velTo.z -= fz;
+  });
+  
+  // Center gravity
+  nodeMeshes.forEach(mesh => {
+    const vel = velocities.get(mesh.userData.nodeId);
+    vel.x -= mesh.position.x * centerGravity;
+    vel.y -= mesh.position.y * centerGravity;
+    vel.z -= mesh.position.z * centerGravity;
+  });
+  
+  // Apply velocities with damping
+  nodeMeshes.forEach(mesh => {
+    const vel = velocities.get(mesh.userData.nodeId);
+    vel.multiplyScalar(damping);
+    
+    // Clamp velocity
+    const speed = vel.length();
+    if (speed > maxVelocity) {
+      vel.multiplyScalar(maxVelocity / speed);
+    }
+    
+    mesh.position.add(vel);
+    
+    // Update label position
+    const label = labelObjects.get(mesh.userData.nodeId);
+    if (label) {
+      label.position.copy(mesh.position);
+      label.position.y += mesh.scale.y + 2;
+    }
+  });
+  
+  // Update edge positions
+  edgeObjects.forEach(line => {
+    const { fromMesh, toMesh } = line.userData;
+    const positions = line.geometry.attributes.position;
+    positions.setXYZ(0, fromMesh.position.x, fromMesh.position.y, fromMesh.position.z);
+    positions.setXYZ(1, toMesh.position.x, toMesh.position.y, toMesh.position.z);
+    positions.needsUpdate = true;
+  });
+  
+  physicsIterations++;
+  if (physicsIterations >= maxPhysicsIterations) {
+    physicsEnabled = false;
+    document.getElementById('btn-physics').classList.remove('active');
+  }
+}
+
+// ============================================================
+// Raycasting & Interaction
+// ============================================================
+const raycaster = new THREE.Raycaster();
+raycaster.params.Points = { threshold: 2 };
+const mouse = new THREE.Vector2();
+const tooltip = document.getElementById('tooltip');
+let hoveredNode = null;
+let selectedNode = null;
+
+function onMouseMove(event) {
+  const rect = container.getBoundingClientRect();
+  mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  
+  raycaster.setFromCamera(mouse, camera);
+  const intersects = raycaster.intersectObjects(nodeMeshes);
+  
+  if (intersects.length > 0) {
+    const mesh = intersects[0].object;
+    if (mesh.userData.nodeData) {
+      hoveredNode = mesh;
+      container.style.cursor = 'pointer';
+      
+      const nodeData = mesh.userData.nodeData;
+      tooltip.innerHTML = `<b>${esc(nodeData.label)}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
+      tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
+      tooltip.classList.add('visible');
+    }
+  } else {
+    hoveredNode = null;
+    container.style.cursor = 'default';
+    tooltip.classList.remove('visible');
+  }
+}
+
+function onClick(event) {
+  if (hoveredNode) {
+    selectNode(hoveredNode.userData.nodeId);
+  } else {
+    deselectNode();
+  }
+}
+
+container.addEventListener('mousemove', onMouseMove);
+container.addEventListener('click', onClick);
+
+function selectNode(nodeId) {
+  selectedNode = nodeId;
+  const mesh = nodeObjects.get(nodeId);
+  if (!mesh) return;
+  
+  // Highlight selected node
+  nodeMeshes.forEach(m => {
+    const mat = m.material;
+    if (m.userData.nodeId === nodeId) {
+      mat.emissiveIntensity = 0.5;
+      mat.opacity = 1;
+    } else {
+      mat.emissiveIntensity = 0.15;
+      mat.opacity = 0.3;
+    }
+  });
+  
+  // Highlight connected edges
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    if (edge.from === nodeId || edge.to === nodeId) {
+      line.material.opacity = 0.8;
+      line.material.color.set(0x4E79A7);
+    } else {
+      line.material.opacity = 0.05;
+    }
+  });
+  
+  // Show connected nodes with full opacity
+  const neighbors = adjacency.get(nodeId) || [];
+  const neighborIds = new Set(neighbors.map(n => n.target));
+  neighborIds.add(nodeId);
+  
+  nodeMeshes.forEach(m => {
+    if (neighborIds.has(m.userData.nodeId)) {
+      m.material.opacity = 0.9;
+      m.material.emissiveIntensity = 0.3;
+    }
+  });
+  
+  showInfo(nodeId);
+  
+  // Focus camera on node
+  const targetPos = mesh.position.clone();
+  const cameraOffset = new THREE.Vector3(80, 40, 80);
+  const newCameraPos = targetPos.clone().add(cameraOffset);
+  
+  animateCamera(newCameraPos, targetPos);
+}
+
+function deselectNode() {
+  selectedNode = null;
+  
+  nodeMeshes.forEach(m => {
+    m.material.emissiveIntensity = 0.15;
+    m.material.opacity = 0.92;
+  });
+  
+  edgeObjects.forEach(line => {
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+    line.material.color.set(0x4a4a6a);
+  });
+  
+  document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it</span>';
+}
+
+function animateCamera(targetPosition, lookAtTarget) {
+  const startPos = camera.position.clone();
+  const startTarget = controls.target.clone();
+  const duration = 800;
+  const startTime = Date.now();
+  
+  function animate() {
+    const elapsed = Date.now() - startTime;
+    const t = Math.min(1, elapsed / duration);
+    const eased = 1 - Math.pow(1 - t, 3);
+    
+    camera.position.lerpVectors(startPos, targetPosition, eased);
+    controls.target.lerpVectors(startTarget, lookAtTarget, eased);
+    controls.update();
+    
+    if (t < 1) {
+      requestAnimationFrame(animate);
+    }
+  }
+  animate();
+}
+
+// ============================================================
+// Node Info Panel
+// ============================================================
+function esc(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function showInfo(nodeId) {
+  const n = nodeMap.get(nodeId);
+  if (!n) return;
+  
+  const neighbors = adjacency.get(nodeId) || [];
+  const neighborItems = neighbors.map(({ target, edge }) => {
+    const nb = nodeMap.get(target);
+    const color = nb ? nb.color.background : '#555';
+    const label = edge.label ? ` — ${esc(edge.label)}` : '';
+    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nb ? nb.label : target)}${label}</span>`;
+  }).join('');
+  
+  document.getElementById('info-content').innerHTML = `
+    <div class="field"><b>${esc(n.label)}</b></div>
+    <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
+    <div class="field">Community: ${esc(n.community_name)}</div>
+    <div class="field">Source: ${esc(n.source_file || '-')}</div>
+    <div class="field">Degree: ${n.degree}</div>
+    ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+  `;
+}
+
+document.addEventListener('click', e => {
+  const el = e.target.closest('.neighbor-link');
+  if (el && el.dataset.nid !== undefined) {
+    selectNode(el.dataset.nid);
+  }
+});
+
+// ============================================================
+// Search
+// ============================================================
+const searchInput = document.getElementById('search');
+const searchResults = document.getElementById('search-results');
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.toLowerCase().trim();
+  searchResults.innerHTML = '';
+  if (!q) { searchResults.style.display = 'none'; return; }
+  
+  const matches = RAW_NODES.filter(n => n.label.toLowerCase().includes(q)).slice(0, 20);
+  if (!matches.length) { searchResults.style.display = 'none'; return; }
+  
+  searchResults.style.display = 'block';
+  matches.forEach(n => {
+    const el = document.createElement('div');
+    el.className = 'search-item';
+    el.textContent = n.label;
+    el.style.borderLeft = `3px solid ${n.color.background}`;
+    el.style.paddingLeft = '8px';
+    el.onclick = () => {
+      selectNode(n.id);
+      searchResults.style.display = 'none';
+      searchInput.value = '';
+    };
+    searchResults.appendChild(el);
+  });
+});
+
+document.addEventListener('click', e => {
+  if (!searchResults.contains(e.target) && e.target !== searchInput) {
+    searchResults.style.display = 'none';
+  }
+});
+
+// ============================================================
+// Community Legend
+// ============================================================
+const selectAllCb = document.getElementById('select-all-cb');
+
+function updateSelectAllState() {
+  const total = LEGEND.length;
+  const hidden = hiddenCommunities.size;
+  selectAllCb.checked = hidden === 0;
+  selectAllCb.indeterminate = hidden > 0 && hidden < total;
+}
+
+selectAllCb.addEventListener('change', () => {
+  const hide = !selectAllCb.checked;
+  toggleAllCommunities(hide);
+});
+
+function toggleAllCommunities(hide) {
+  document.querySelectorAll('.legend-item').forEach(item => {
+    hide ? item.classList.add('dimmed') : item.classList.remove('dimmed');
+  });
+  document.querySelectorAll('.legend-cb').forEach(cb => {
+    cb.checked = !hide;
+  });
+  
+  LEGEND.forEach(c => {
+    if (hide) hiddenCommunities.add(c.cid); else hiddenCommunities.delete(c.cid);
+  });
+  
+  RAW_NODES.forEach(n => {
+    const mesh = nodeObjects.get(n.id);
+    if (mesh) {
+      mesh.visible = !hide || !hiddenCommunities.has(n.community);
+    }
+    const label = labelObjects.get(n.id);
+    if (label) {
+      label.visible = mesh && mesh.visible && showLabels && n.degree >= labelThreshold;
+    }
+  });
+  
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    const fromNode = nodeMap.get(edge.from);
+    const toNode = nodeMap.get(edge.to);
+    line.visible = (!fromNode || !hiddenCommunities.has(fromNode.community)) && 
+                   (!toNode || !hiddenCommunities.has(toNode.community));
+  });
+  
+  updateSelectAllState();
+}
+
+const legendEl = document.getElementById('legend');
+LEGEND.forEach(c => {
+  const item = document.createElement('div');
+  item.className = 'legend-item';
+  
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.className = 'legend-cb';
+  cb.checked = true;
+  cb.addEventListener('change', (e) => {
+    e.stopPropagation();
+    if (cb.checked) {
+      hiddenCommunities.delete(c.cid);
+      item.classList.remove('dimmed');
+    } else {
+      hiddenCommunities.add(c.cid);
+      item.classList.add('dimmed');
+    }
+    
+    RAW_NODES.filter(n => n.community === c.cid).forEach(n => {
+      const mesh = nodeObjects.get(n.id);
+      if (mesh) mesh.visible = cb.checked;
+      const label = labelObjects.get(n.id);
+      if (label) label.visible = cb.checked && showLabels && n.degree >= labelThreshold;
+    });
+    
+    edgeObjects.forEach(line => {
+      const { edge } = line.userData;
+      const fromNode = nodeMap.get(edge.from);
+      const toNode = nodeMap.get(edge.to);
+      if (fromNode && fromNode.community === c.cid || toNode && toNode.community === c.cid) {
+        line.visible = cb.checked;
+      }
+    });
+    
+    updateSelectAllState();
+  });
+  
+  item.innerHTML = `
+    <div class="legend-dot" style="background:${c.color}"></div>
+    <span class="legend-label">${c.label}</span>
+    <span class="legend-count">${c.count}</span>
+  `;
+  item.prepend(cb);
+  
+  item.onclick = (e) => {
+    if (e.target === cb) return;
+    cb.checked = !cb.checked;
+    cb.dispatchEvent(new Event('change'));
+  };
+  
+  legendEl.appendChild(item);
+});
+
+// ============================================================
+// Controls
+// ============================================================
+document.getElementById('btn-reset').addEventListener('click', () => {
+  deselectNode();
+  animateCamera(new THREE.Vector3(0, 0, 300), new THREE.Vector3(0, 0, 0));
+});
+
+document.getElementById('btn-physics').addEventListener('click', (e) => {
+  physicsEnabled = !physicsEnabled;
+  e.target.classList.toggle('active', physicsEnabled);
+  if (physicsEnabled) {
+    physicsIterations = 0;
+  }
+});
+
+document.getElementById('btn-labels').addEventListener('click', (e) => {
+  showLabels = !showLabels;
+  e.target.classList.toggle('active', showLabels);
+  
+  labelObjects.forEach((label, nodeId) => {
+    const nodeData = nodeMap.get(nodeId);
+    const mesh = nodeObjects.get(nodeId);
+    label.visible = showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
+  });
+});
+
+document.getElementById('btn-edges').addEventListener('click', (e) => {
+  edgeGroup.visible = !edgeGroup.visible;
+  e.target.classList.toggle('active', edgeGroup.visible);
+});
+
+// Initialize button active states
+document.getElementById('btn-labels').classList.add('active');
+document.getElementById('btn-edges').classList.add('active');
+
+// ============================================================
+// Stats
+// ============================================================
+document.getElementById('stats').textContent = `${RAW_NODES.length} nodes · ${RAW_EDGES.length} edges · ${LEGEND.length} communities`;
+
+// ============================================================
+// Animation Loop
+// ============================================================
+function animate() {
+  requestAnimationFrame(animate);
+  
+  if (physicsEnabled) {
+    applyForces();
+  }
+  
+  controls.update();
+  renderer.render(scene, camera);
+  labelRenderer.render(scene, camera);
+}
+
+// ============================================================
+// Resize Handler
+// ============================================================
+window.addEventListener('resize', () => {
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+  renderer.setSize(width, height);
+  labelRenderer.setSize(width, height);
+});
+
+// ============================================================
+// Initialize
+// ============================================================
+document.getElementById('loading').classList.add('hidden');
+animate();
+</script>
+</body>
+</html>
