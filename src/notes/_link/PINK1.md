@@ -12,7 +12,7 @@ aliases: [PTEN-induced Kinase 1]
 Mitochondrial serine/threonine kinase that recruits Parkin to damaged mitochondria to initiate mitophagy.
 PTEN-induced kinase 1, a mitochondrial serine/threonine-protein kinase that acts as a sensor of mitochondrial health. It recruits [[Parkin]] to damaged mitochondria to initiate [[Mitophagy]].
 ## Mitochondrial Targeting and Processing
-Pink1 (PTEN-induced putative kinase 1, encoded by [[PINK1]]) is a 581-amino acid serine/threonine kinase synthesized in the cytosol and targeted to mitochondria via an N-terminal [[Mitochondrial targeting sequence]] (MTS; residues 1–34). The protein is imported through the [[Translocase of the outer membrane]] (TOM) and [[Translocase of the inner membrane]] (TIM) complexes. In healthy mitochondria, Pink1 is processed by [[Mitochondrial processing peptidase]] (MPP) and [[Presenilin-associated rhomboid-like protease]] (PARL), which cleave the MTS and a C-terminal transmembrane domain, respectively. The cleaved fragment is released into the cytosol for proteasomal degradation.
+Pink1 (PTEN-induced putative kinase 1, encoded by [[PINK1]]) is a 581-amino acid serine/threonine kinase synthesized in the cytosol and targeted to mitochondria via an N-terminal [[Mitochondrial targeting sequence]] (MTS; residues 1–34). The protein is imported through the [[Translocase of the Outer Mitochondrial Membrane|Translocase of the outer membrane]] (TOM) and [[Translocase of the Inner Mitochondrial Membrane|Translocase of the inner membrane]] (TIM) complexes. In healthy mitochondria, Pink1 is processed by [[Mitochondrial processing peptidase]] (MPP) and [[PARL|Presenilin-associated rhomboid-like protease]] (PARL), which cleave the MTS and a C-terminal transmembrane domain, respectively. The cleaved fragment is released into the cytosol for proteasomal degradation.
 ## Stabilization on Depolarized Mitochondria
 When mitochondria lose their membrane potential (Δψₘ) due to damage, toxin exposure, or age-related dysfunction, Pink1 import is arrested such that the full-length protein accumulates on the [[Outer mitochondrial membrane]]. Transmembrane insertion via the TOM complex positions the kinase domain facing the cytosol, where it dimerizes and becomes catalytically active. This Δψₘ-dependent stabilization makes Pink1 a sensitive and specific sensor of mitochondrial health.
 ## Kinase Activity and Substrates
@@ -57,10 +57,10 @@ List of documents that mention this entity
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[Mitochondrial targeting sequence]] — interacts with PINK1
-- [[Translocase of the outer membrane]] — catalyzes reaction involving PINK1
-- [[Translocase of the inner membrane]] — catalyzes reaction involving PINK1
+- [[Translocase of the Outer Mitochondrial Membrane|Translocase of the outer membrane]] — catalyzes reaction involving PINK1
+- [[Translocase of the Inner Mitochondrial Membrane|Translocase of the inner membrane]] — catalyzes reaction involving PINK1
 - [[Mitochondrial processing peptidase]] — catalyzes reaction involving PINK1
-- [[Presenilin-associated rhomboid-like protease]] — catalyzes reaction involving PINK1
+- [[PARL|Presenilin-associated rhomboid-like protease]] — catalyzes reaction involving PINK1
 - [[Outer mitochondrial membrane]] — interacts with PINK1
 - [[Ubiquitin]] — interacts with PINK1
 - [[MFN2]] — PINK1 phosphorylates MFN2, priming it for Parkin-mediated ubiquitination and mitophagy

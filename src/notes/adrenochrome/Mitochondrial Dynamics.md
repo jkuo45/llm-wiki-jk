@@ -69,7 +69,7 @@ Aging is consistently associated with a shift toward mitochondrial fragmentation
 
 List of documents that mention this entity
 
-  - [[_document_ - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans|Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans]]
+  - [[Mitohormesis|Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans]]
     - Mentioned in this document
 
   - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
@@ -110,4 +110,4 @@ List of documents that mention this entity
   - Suggested new entity notes to create: none ([[Mitochondrial Fusion]] and [[Mitochondrial Fission]] now exist)
 - Strong connections to strengthen: [[Mitochondrial Dynamics]] ↔ [[Cellular Homeostasis]]
 - New links added: [[MFN1]], [[MFN2]], [[OPA1]], [[DRP1]], [[FIS1]], [[MFF]], [[OMA1]], [[YME1L]], [[Parkin]], [[PINK1]], [[Akt]], [[SIRT3]], [[NRF2]], [[PGC1-α]], [[Menadione]], [[2-deoxy-D-glucose]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Cardiotoxicity]], [[Aging]], [[Mitochondrial calcium uniporter]], [[Endoplasmic Reticulum]], [[Calcium signaling]]
-- Suggested new entity notes to create: [[MiD49]], [[MiD51]], [[Mdivi-1]], [[MAMs (Mitochondria-Associated Membranes)]]
+- Suggested new entity notes to create: none (MiD49, MiD51, Mdivi-1, and MAMs now exist)

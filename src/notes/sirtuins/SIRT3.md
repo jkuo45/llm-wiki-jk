@@ -94,8 +94,8 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 List of documents that mention this entity
 
-  - [[_document_ - MRR - mitohormesis|mitohormesis]]
-    - The MRR Synergy: Downstream mitohormetic transcriptional responses (specifically the deacetylation of PGC1-α by SIRT1 and SIRT3) are highly NAD+-dependent. By priming the system with NAD+ precursors like [[NR]] or [[NMN]], the "fuel" for the MRR is ensured, preventing a bottleneck at the level of SIRT3 activity and maximizing the antioxidant response.
+  - [[Mitohormesis|mitohormesis]]
+    - The MRR Synergy: Downstream mitohormetic transcriptional responses (specifically the deacetylation of PGC1-α by SIRT1 and SIRT3) are highly NAD+-dependent. By priming the system with NAD+ precursors like [[Nicotinamide Riboside|NR]] or [[NMN]], the "fuel" for the MRR is ensured, preventing a bottleneck at the level of SIRT3 activity and maximizing the antioxidant response.
 
   - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
     - One reason may be that the basal metabolism status is carefully controlled by suppressive control checkpoints like SIRT3, PTEN, etc.
@@ -140,7 +140,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC1-α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
-- Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue (BAT)]]
+- Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue|Brown Adipose Tissue (BAT)]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 - New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]# SIRT3
