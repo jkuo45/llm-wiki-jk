@@ -82,7 +82,7 @@ Polyphenols exhibit **hormesis**—low-dose beneficial, high-dose potentially ha
 - Activation of NRF2, SIRT1, [[AMPK]]
 - Enhancement of [[Mitochondrial Biogenesis]]
 - Improved [[Glutathione]] levels
-- Suppression of [[NF-kappa B]] and [[Inflammation]]
+- Suppression of [[NF-κB]] and [[Inflammation]]
 ### High-Dose Pro-Oxidant Effects (≥100 µM)
 - **Autoxidation**: Polyphenol → semiquinone → quinone + O₂⁻•
 - **Reduction of Fe³⁺ to Fe²⁺**: Promoting Fenton chemistry

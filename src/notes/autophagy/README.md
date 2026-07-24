@@ -168,7 +168,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Osteoclast]]                                | 09_Jun_2026 10:15 AM PDT | Cell Type                |         7          |      1      | Bone-resorbing cell regulated by TFEB/MITF. |
 | [[p62]]                                       | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Receptor protein that binds to LC3 and ubiquitinated cargo for degradation. |
 | [[PERK]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |      1      | ER stress sensor activating TFEB/TFE3. |
-| [[PGC1-α]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Master regulator of mitochondrial biogenesis and mitophagy. |
+| [[PGC-1α]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Master regulator of mitochondrial biogenesis and mitophagy. |
 | [[Polyamine]]                                 | 09_Jun_2026 10:15 AM PDT | Chemical Class           |         9          |      1      | Polyamines like spermidine are potent inducers of autophagy. |
 | [[PPAR-alpha]]                                | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Regulates lipid catabolism and TFEB-mediated fasting response. |
 | [[PPARγ]]                                     | 09_Jun_2026 10:15 AM PDT | Receptor                 |         7          |      1      | Nuclear receptor linking lipid metabolism to autophagy regulation. |

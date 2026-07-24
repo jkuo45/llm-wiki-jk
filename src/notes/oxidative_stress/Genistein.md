@@ -45,7 +45,7 @@ Genistein suppresses ROS generation by:
 ### Tyrosine Kinase Inhibition and Redox Signaling
 
 Genistein is a broad-spectrum **protein tyrosine kinase (PTK) inhibitor** that competes with [[ATP]] at the catalytic domain. This property links genistein to redox signaling:
-- **Inhibition of [[EGFR]] and [[Src]] kinases**: Blocking downstream [[MAPK]]/[[NF-kappa B]] signaling that amplifies oxidative stress
+- **Inhibition of [[EGFR]] and [[Src]] kinases**: Blocking downstream [[MAPK]]/[[NF-κB]] signaling that amplifies oxidative stress
 - **Suppression of [[TNF-alpha]] signaling**: Reducing NF-κB-mediated pro-inflammatory and pro-oxidant gene expression
 - **Modulation of [[PI3K]]/[[Akt]] pathway**: Affecting [[mTOR]]-dependent redox balance
 

@@ -24,7 +24,7 @@ The primary driver is chronic [[Inflammation]] of the airways, most often trigge
 In COPD, oxidative stress is elevated from dual sources: exogenous (cigarette smoke contains high concentrations of [[Reactive Oxygen Species]]) and endogenous (activated inflammatory cells—[[Neutrophils]] and [[Macrophage]]s—generate ROS via [[Respiratory Burst]] through NOX2). Consequences include:
 
 - **Antiprotease inactivation**: ROS oxidize and inactivate α₁-antitrypsin and other antiproteases, permitting uncontrolled elastase-mediated tissue destruction.
-- **NF-κB activation**: Oxidants activate [[NF-kappa B]], sustaining cytokine (TNF-α, IL-8) transcription.
+- **NF-κB activation**: Oxidants activate [[NF-κB]], sustaining cytokine (TNF-α, IL-8) transcription.
 - **HDAC2 inactivation**: [[Peroxynitrite]] (formed from NO + O₂•⁻) nitrates and inactivates histone deacetylase 2, blunting the anti-inflammatory response to corticosteroids—a key reason COPD is steroid-resistant.
 - **Impaired [[DNA Repair]]** and accelerated [[Senescence]] in lung epithelium.
 - **[[Hypoxia]]**: Exacerbations worsen tissue hypoxia, further increasing [[Mitochondria]]l ROS.
@@ -50,7 +50,7 @@ List of documents that mention this entity
 - [[Oxidative Stress]]: Central unifying mechanism amplifying inflammation and tissue destruction.
 - [[Reactive Oxygen Species]]: Smoke-derived and cell-derived ROS drive damage.
 - [[Inflammation]]: Oxidative stress and inflammation form a bidirectional feed-forward loop.
-- [[NF-kappa B]]: Redox-activated transcription factor sustaining cytokine production.
+- [[NF-κB]]: Redox-activated transcription factor sustaining cytokine production.
 - [[Peroxynitrite]]: Nitrates HDAC2, causing corticosteroid resistance.
 - [[Emphysema]]: Protease–antioxidant imbalance destroys alveolar walls.
 - [[Pulmonary Hypertension]]: Consequence of COPD endothelial oxidative dysfunction.

@@ -49,8 +49,8 @@ List of documents that mention this entity
 - [[Bad]]: Inhibited by PAK1 phosphorylation.
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[PI3K]], [[Akt]], [[MAPK]], [[MEK1_2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]], [[Ivermectin]].
-- Suggested new entity notes to create: [[PI3K]], [[MEK1_2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]].
+- New links added: [[Apoptosis]], [[PI3K]], [[Akt]], [[MAPK]], [[MEK1_2]], [[ERK1_2]], [[NF-κB]], [[Wnt]], [[Ivermectin]].
+- Suggested new entity notes to create: [[PI3K]], [[MEK1_2]], [[ERK1_2]], [[NF-κB]], [[Wnt]].
 - Strong connections to strengthen: [[PAK1]] ↔ [[Ivermectin]], [[PAK1]] ↔ [[MAPK]]
 - New links added: [[Bad]], [[RAF1]], [[Phosphorylation]], [[NFκB]]
 - Suggested new entity notes to create:

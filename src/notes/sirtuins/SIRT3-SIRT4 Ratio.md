@@ -115,7 +115,7 @@ List of documents in the wiki that mention this entity
 - [[Methylene Blue]] — Primary MRR redox cycler whose superoxide output is processed by ratio-determined MnSOD activity
 - [[Aminoguanidine]] — Carbonyl/AGE scavenger and pulse-terminating agent that confines the methylene blue signal within the hormetic window
 - [[AMPK]] — Upstream regulator of SIRT3 expression
-- [[PGC1-α]] — Drives SOD2 expression; modulated by the ratio
+- [[PGC-1α]] — Drives SOD2 expression; modulated by the ratio
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with SIRT3 axis
 - [[Caloric Restriction]] — Shifts ratio toward SIRT3 dominance
 - [[Methylene Blue]] — Redox-cycling compound whose superoxide output is processed by ratio-determined MnSOD activity
@@ -123,6 +123,6 @@ List of documents in the wiki that mention this entity
   - [[Hormetic Window]] — Directly determined by the ratio; the relevant biomarker threshold for methylene blue-derived hormesis
 
 ## Linking Summary
-- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
+- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC-1α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
 - Removed: [[Adrenochrome]] (replaced by [[Methylene Blue]] as the MRR redox cycler; [[Aminoguanidine]] added as pulse-terminating scavenger)
 - Suggested new entity notes to create: [[Mitochondrial Redox Dial]]

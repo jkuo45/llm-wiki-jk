@@ -21,7 +21,7 @@ PPARα is a nuclear receptor (NR1C1) that forms heterodimers with [[RXR]] and bi
 PPARα is a master regulator of lipid metabolism, controlling [[Beta-Oxidation]], [[Ketogenesis]], and [[Lipoprotein]] metabolism in the liver and skeletal muscle. It also induces [[Autophagy]] and [[Peroxisome]] proliferation.
 ## Autophagy Connection
 
-PPARα activation promotes hepatic [[Lipophagy]] and [[Autophagic Flux]] during fasting or [[Ketogenic Diet]]. [[PGC1-α]] acts as a PPARα coactivator, linking mitochondrial biogenesis to autophagy regulation.
+PPARα activation promotes hepatic [[Lipophagy]] and [[Autophagic Flux]] during fasting or [[Ketogenic Diet]]. [[PGC-1α]] acts as a PPARα coactivator, linking mitochondrial biogenesis to autophagy regulation.
 
 ## Documents
 
@@ -47,7 +47,7 @@ List of documents that mention this entity
 - [[Lipophagy]]: PPARα activation promotes hepatic Lipophagy and [[Autophagic Flux]] during fasting or [[Ketogenic Diet]].
 - [[Autophagic Flux]]: PPARα activation promotes hepatic [[Lipophagy]] and Autophagic Flux during fasting or [[Ketogenic Diet]].
 - [[Ketogenic Diet]]: PPARα activation promotes hepatic [[Lipophagy]] and [[Autophagic Flux]] during fasting or Ketogenic Diet.
-- [[PGC1-α]]: PGC1-α acts as a PPARα coactivator, linking mitochondrial biogenesis to autophagy regulation.
+- [[PGC-1α]]: PGC1-α acts as a PPARα coactivator, linking mitochondrial biogenesis to autophagy regulation.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Metabolism]]

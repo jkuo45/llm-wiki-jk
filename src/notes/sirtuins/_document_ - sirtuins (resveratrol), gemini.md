@@ -56,7 +56,7 @@ Subsequent structural biology and biochemical studies resolved this, demonstrati
 
 - **Binding Site:** Resveratrol binds to a specific region within the N-terminal domain (NTD) of SIRT1 (specifically requiring the **Glutamate 230 (E230)** residue).
 - **Conformational Change:** Upon binding, resveratrol stabilizes the interaction between SIRT1's NTD and the substrate.
-- **Substrate Selectivity:** This binding induces a conformational change that lowers the Michaelis constant (Km) of SIRT1 for specific target proteins. This means SIRT1 develops a much higher affinity for key physiological substrates, such as **[[PGC1-α]]** and **[[FOXO3a]]**, promoting their deacetylation even at lower baseline levels.
+- **Substrate Selectivity:** This binding induces a conformational change that lowers the Michaelis constant (Km) of SIRT1 for specific target proteins. This means SIRT1 develops a much higher affinity for key physiological substrates, such as **[[PGC-1α]]** and **[[FOXO3a]]**, promoting their deacetylation even at lower baseline levels.
 
 #### B. Indirect Activation (The AMPK-PDE Axis)
 
@@ -75,7 +75,7 @@ Once activated by resveratrol, SIRT1 deacetylates several downstream transcripti
 
 #### PGC-1α (Mitochondrial Biogenesis)
 
-- **Mechanism:** SIRT1 deacetylates **[[PGC1-α]]** (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
+- **Mechanism:** SIRT1 deacetylates **[[PGC-1α]]** (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
 - **Result:** Deacetylated PGC-1α becomes active, migrating to the nucleus to drive the transcription of nuclear and mitochondrial genes. This leads to **[[Mitochondrial Biogenesis]]**, increased oxygen consumption, and enhanced oxidative phosphorylation (OXPHOS).
 
 #### FOXO Transcription Factors (Stress Resistance & Autophagy)
@@ -222,7 +222,7 @@ For the remaining sirtuins, therapeutic strategies generally focus on **inhibiti
 
 | Sirtuin | Localization | Activity | Notable Activators | Key Targets / Effects |
 |---------|-------------|----------|-------------------|----------------------|
-| **[[SIRT1]]** | Nucleus / Cytoplasm | Deacetylation | [[Resveratrol]], [[SRT1720]] | [[PGC1-α]], [[FOXO3a]], [[NFKB\|NF-κB]]; metabolic homeostasis |
+| **[[SIRT1]]** | Nucleus / Cytoplasm | Deacetylation | [[Resveratrol]], [[SRT1720]] | [[PGC-1α]], [[FOXO3a]], [[NFKB\|NF-κB]]; metabolic homeostasis |
 | **[[SIRT2]]** | Cytoplasm | Deacetylation | None prominent (inhibitors used) | Microtubule/tubulin regulation |
 | **[[SIRT3]]** | Mitochondria | Deacetylation | [[Honokiol]], [[Dihydromyricetin]] | [[MnSOD]], [[OSCP]]; mitochondrial biogenesis, ROS reduction |
 | **[[SIRT4]]** | Mitochondria | ADP-ribosylation, Lipoamidase | None prominent | GDH regulation, insulin secretion |

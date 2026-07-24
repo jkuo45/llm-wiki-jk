@@ -99,5 +99,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]., [[SASP|Senescence-Associated Secretory Phenotype]]
-- Suggested new entity notes to create: [[Energy Homeostasis]], [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC1-α]]., [[mTORC1]], [[PGC1-α]]
+- Suggested new entity notes to create: [[Energy Homeostasis]], [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC-1α]]., [[mTORC1]], [[PGC-1α]]
   - Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]], [[AMPK]] ↔ SIRT1, [[AMPK]] ↔ [[Aging]], Caloric Restriction ↔ [[AMPK]]

@@ -132,7 +132,7 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[NADPH Oxidase]]                             | 04_July_2026 08:00 PM | Enzyme              | 10          | 0           | Major source of deliberate ROS for signaling and immunity.                              |
 | [[Neurodegeneration]]                         | 04_July_2026 08:00 PM | Biological Process  | 9           | -1          | Process of neuron loss where oxidative stress is a primary mechanism.                   |
 | [[Neutrophils]]                   | 27_May_2026 11:17 AM | Cell Type           | 8           | 0           | Immune cells that use respiratory burst (ROS) to kill pathogens.                        |
-| [[NF-kappa B]]                                | 04_July_2026 08:00 PM | Protein             | 9           | -1          | Redox-sensitive transcription factor that drives chronic inflammation.                  |
+| [[NF-κB]]                                | 04_July_2026 08:00 PM | Protein             | 9           | -1          | Redox-sensitive transcription factor that drives chronic inflammation.                  |
 | [[Nitrative Stress]]                          | 04_July_2026 08:00 PM | Scientific Concept  | 9           | -1          | Damage caused by reactive nitrogen species (RNS).                                       |
 | [[Nitric Oxide Synthase]]                     | 04_July_2026 08:00 PM | Enzyme              | 9           | 1           | Enzyme producing nitric oxide, a critical signaling molecule.                           |
 | [[Nitric Oxide]]                  | 25_May_2026 05:23 PM | Biological Molecule | 10          | 1           | Essential signaling molecule for vascular health and neurotransmission.                 |

@@ -30,7 +30,7 @@ LKB1 is the primary upstream kinase that activates [[AMPK]] in response to energ
 
 1. **Energy Stress Detection**: Rising AMP:ATP or ADP:ATP ratios are sensed by AMPK, which undergoes conformational changes promoting LKB1-mediated phosphorylation.
 2. **Phosphorylation**: LKB1 phosphorylates AMPK at **Thr172** within the activation loop of the AMPK α-subunit, increasing AMPK activity by >100-fold.
-3. **Downstream Effects**: Activated AMPK phosphorylates a broad network of substrates including [[ULK1]], [[TSC2]], [[Raptor]], [[PFKFB3]], and [[PGC1-α]], switching cells from anabolic (ATP-consuming) to catabolic (ATP-producing) metabolism.
+3. **Downstream Effects**: Activated AMPK phosphorylates a broad network of substrates including [[ULK1]], [[TSC2]], [[Raptor]], [[PFKFB3]], and [[PGC-1α]], switching cells from anabolic (ATP-consuming) to catabolic (ATP-producing) metabolism.
 
 LKB1 also phosphorylates and activates 12 other AMPK-related kinases (ARKs), including [[NUAK1]]/[[NUAK2]], [[SIK1]]-[[SIK3]], [[BRSK1]]/[[BRSK2]], [[QSK]]/[[MARK1]]-[[MARK4]], and [[SNRK]], which regulate cell polarity, neuronal development, and gene expression.
 

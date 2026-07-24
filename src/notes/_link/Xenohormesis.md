@@ -28,7 +28,7 @@ This logic provides an adaptive rationale for the health benefits of dietary phy
 ## Specific Examples
 ### [[Resveratrol]]
 Resveratrol (3,5,4′-trihydroxy-*trans*-stilbene) is a stilbenoid polyphenol produced by Grapes, Peanuts, and [[Japanese knotweed]] in response to fungal infection, UV radiation, and mechanical stress. At low micromolar concentrations, resveratrol:
-- Activates [[SIRT1]] indirectly (via [[AMPK]] and [[cAMP]]/[[Epac1]]/[[CaMKKβ]] signaling), enhancing [[PGC1-α]] deacetylation.
+- Activates [[SIRT1]] indirectly (via [[AMPK]] and [[cAMP]]/[[Epac1]]/[[CaMKKβ]] signaling), enhancing [[PGC-1α]] deacetylation.
 - Induces the [[NRF2]]/[[ARE]] pathway, upregulating [[NQO1]] and [[HO-1]].
 - Inhibits [[mTORC1]] via [[Sestrin2]]/[[GATOR2]]/[[TSC2]] signaling.
 - Enhances [[Mitochondrial Biogenesis]] and [[Fatty acid oxidation]].
@@ -44,7 +44,7 @@ Its low oral [[Bioavailability]] (due to rapid glucuronidation) actually support
 Xenohormetic compounds converge on a limited set of conserved sensors:
 | Target | Xenohormetic Activators | Downstream Effects |
 |--------|-------------------------|-------------------|
-| [[SIRT1]] | [[Resveratrol]], [[Piceatannol]], [[Butein]] | [[PGC1-α]] activation, [[FOXO3a]] deacetylation |
+| [[SIRT1]] | [[Resveratrol]], [[Piceatannol]], [[Butein]] | [[PGC-1α]] activation, [[FOXO3a]] deacetylation |
 | [[NRF2]] | [[Sulforaphane]], [[Curcumin]], [[Epicatechin]] | [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]] |
 | [[AMPK]] | [[Resveratrol]], [[Berberine]], [[Quercetin]] | [[mTOR]] inhibition, [[Autophagy]], [[Fatty acid oxidation]] |
 | [[HSF1]] | [[Hydroxytyrosol]], [[Geranylgeranylacetone]] | [[HSP70]], [[HSP27]] chaperones |
@@ -84,9 +84,9 @@ List of documents that mention this entity
 - [[cAMP]] — interacts with Xenohormesis
 - [[Epac1]] — interacts with Xenohormesis
 - [[CaMKKβ]] — interacts with Xenohormesis
-- [[PGC1-α]] — interacts with Xenohormesis
+- [[PGC-1α]] — interacts with Xenohormesis
 - [[ARE]] — interacts with Xenohormesis
 ## Linking Summary
-- New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NFκB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
+- New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC-1α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NFκB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
 - Suggested new entity notes to create: [[Dietary Phytochemicals as Signaling Molecules]], [[Xenohormetic Dosing Protocol]]
   - Strong connections to strengthen: [[Xenohormesis]] ↔ Evolutionary Medicine, [[Xenohormesis]] ↔ Glyco-Oxidative Proteostasis Shield, [[Xenohormesis]] <-> [[Hormesis]]

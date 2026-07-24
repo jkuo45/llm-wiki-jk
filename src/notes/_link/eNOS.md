@@ -34,7 +34,7 @@ Uncoupled eNOS is a major contributor to [[Endothelial Dysfunction|endothelial d
 ## SIRT1 Regulation
 [[SIRT1]] directly deacetylates eNOS at multiple lysine residues (including K496 and K506), enhancing its enzymatic activity. Deacetylation promotes eNOS homodimerization and increases its affinity for calmodulin and [[NAD+]] cofactors. [[Resveratrol]]-activated SIRT1 potently increases eNOS expression and NO output, a mechanism central to resveratrol's cardioprotective and vasodilatory effects.
 ## Physiological Role
-eNOS is highly expressed in endothelial cells lining the vasculature. Its NO product regulates vascular tone, inhibits platelet aggregation, suppresses leukocyte adhesion, and modulates [[Mitochondrial Biogenesis]] via [[PGC1-α]] activation. eNOS uncoupling — where the enzyme produces [[Superoxide]] instead of NO — is a hallmark of endothelial dysfunction in [[Atherosclerosis]], [[Hypertension]], and [[Diabetes]].
+eNOS is highly expressed in endothelial cells lining the vasculature. Its NO product regulates vascular tone, inhibits platelet aggregation, suppresses leukocyte adhesion, and modulates [[Mitochondrial Biogenesis]] via [[PGC-1α]] activation. eNOS uncoupling — where the enzyme produces [[Superoxide]] instead of NO — is a hallmark of endothelial dysfunction in [[Atherosclerosis]], [[Hypertension]], and [[Diabetes]].
 
 #
 
@@ -55,7 +55,7 @@ List of documents that mention this entity
 - [[SIRT1]] — Deacetylates and activates eNOS, promoting NO production and vasodilation
 - [[Resveratrol]] — Activates SIRT1, which upregulates eNOS expression and activity
 - [[NAD+]] — Essential cofactor for both SIRT1 deacetylase activity and eNOS catalysis
-- [[PGC1-α]] — NO from eNOS stimulates PGC-1α, driving mitochondrial biogenesis
+- [[PGC-1α]] — NO from eNOS stimulates PGC-1α, driving mitochondrial biogenesis
 - [[Nitric Oxide]] — Primary enzymatic product; key vasodilatory signaling molecule
 - [[AMPK]] — Phosphorylates eNOS at Ser1177, activating it in parallel to SIRT1
 

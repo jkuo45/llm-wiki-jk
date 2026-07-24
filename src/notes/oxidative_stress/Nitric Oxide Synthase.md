@@ -28,7 +28,7 @@ Three distinct NOS isoforms, encoded by separate genes, differ in regulation, ti
 ### Inducible NOS (iNOS, NOS2)
 - **Gene**: NOS2 (chromosome 17q11.2-q12)
 - **Expression**: [[Macrophage|Macrophages]], [[Neutrophils]], hepatocytes, vascular smooth muscle, endothelial cells (induced)
-- **Regulation**: Transcriptionally regulated by [[NF-kappa B]], [[TNF-alpha]], [[IL-1β]], and [[LPS]]; calcium-independent once expressed
+- **Regulation**: Transcriptionally regulated by [[NF-κB]], [[TNF-alpha]], [[IL-1β]], and [[LPS]]; calcium-independent once expressed
 - **Function**: High-output NO production for [[Innate Immunity|innate immune defense]]; sustained NO at nanomolar–micromolar levels mediates [[Macrophage]] killing of pathogens
 
 ### Endothelial NOS (eNOS, NOS3)

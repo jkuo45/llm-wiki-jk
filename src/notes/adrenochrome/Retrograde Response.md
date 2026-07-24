@@ -19,7 +19,7 @@ Originally characterized in [[S. cerevisiae]], the retrograde response involves 
 
 ## Function in Mammals
 
-While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors like [[NFκB]] (via calcineurin-dependent activation), [[Retinoid X receptor α]], [[PGC1-α]], and [[c-Jun N-terminal kinase]] (JNK). It serves as a compensatory mechanism for metabolic defects and is a key component of [[Mitohormesis]]. Recent studies suggest mammalian retrograde signaling also involves mitochondrial calcium transients shaped by the [[Mitochondrial calcium uniporter]] (MCU) and metabolic cofactors like NAD+/NADH.
+While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors like [[NFκB]] (via calcineurin-dependent activation), [[Retinoid X receptor α]], [[PGC-1α]], and [[c-Jun N-terminal kinase]] (JNK). It serves as a compensatory mechanism for metabolic defects and is a key component of [[Mitohormesis]]. Recent studies suggest mammalian retrograde signaling also involves mitochondrial calcium transients shaped by the [[Mitochondrial calcium uniporter]] (MCU) and metabolic cofactors like NAD+/NADH.
 
 ## Related Concepts
 
@@ -76,7 +76,7 @@ Retrograde signaling is increasingly recognized as a central mechanism of longev
 - [[ATP]]: It allows the cell to sense mitochondrial dysfunction and reconfigure metabolism, such as increasing glycolytic produ...
 - [[NFκB]]: While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors lik...
 - [[Retinoid X receptor α]]: While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors lik...
-- [[PGC1-α]]: While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors lik...
+- [[PGC-1α]]: While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors lik...
 - [[c-Jun N-terminal kinase]]: While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors lik...
 - [[Mitohormesis]]: It serves as a compensatory mechanism for metabolic defects and is a key component of Mitohormesis.
 - [[Mitochondrial calcium uniporter]]: Recent studies suggest mammalian retrograde signaling also involves mitochondrial calcium transients shaped by the Mi...
@@ -117,7 +117,7 @@ Retrograde signaling is increasingly recognized as a central mechanism of longev
 - [[Urolithin A]]: Interventions that activate mitochondrial stress responses in a controlled manner — such as mild respiratory chain in...
 
 ## Linking Summary
-- New links added: [[Mitochondria]], [[Rtg1]], [[Rtg3]], [[ATP]], [[NFKB]], [[PGC1-α]], [[JNK]], [[Mitohormesis]]
+- New links added: [[Mitochondria]], [[Rtg1]], [[Rtg3]], [[ATP]], [[NFKB]], [[PGC-1α]], [[JNK]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Rtg1]], [[Rtg3]]
 - Strong connections to strengthen: [[Retrograde Response]] ↔ [[Mitochondria]]
 - Suggested new entity notes to create: [[R-box Sequence]], [[CIT2]]

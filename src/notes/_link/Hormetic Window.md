@@ -99,13 +99,13 @@ In the **[[_document_ - Mitohormetic Redox-Relay]]** framework, the hormetic win
 - [[Thioredoxin]] — Redox buffer that complements glutathione
 - [[NRF2]] — Master regulator of antioxidant defense; activated within the window
 - [[AMPK]] — Energy sensor that triggers mitohormetic adaptation within the window
-- [[PGC1-α]] — Drives mitochondrial biogenesis in response to window-appropriate stress
+- [[PGC-1α]] — Drives mitochondrial biogenesis in response to window-appropriate stress
 - [[Redox Vaccination]] — Adaptive window widening through sub-toxic preconditioning
 - [[FOXO3a]] — Genetic polymorphisms shift individual windows
 - [[Caloric Restriction]] — Chronic mitohormetic intervention whose benefits depend on window positioning
 - [[Exercise]] — Acute mitohormetic stimulus whose benefits depend on window positioning
 
 ## Linking Summary
-- New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]], [[Biphasic Dose-Response Curve]], [[Incoherent Bivalent Motif]], [[Saturated Enzymatic Regime]]
+- New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC-1α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]], [[Biphasic Dose-Response Curve]], [[Incoherent Bivalent Motif]], [[Saturated Enzymatic Regime]]
 - Suggested new entity notes to create: [[Hormetic Dose-Response Curve]], [[Therapeutic Window Optimization]]
   - Strong connections to strengthen: Hormetic Window ↔ [[SIRT3]]/[[SIRT4]] ratio, Hormetic Window ↔ Mitohormetic Redox-Relay

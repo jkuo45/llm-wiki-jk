@@ -18,7 +18,7 @@ aliases: [Estrogen-Related Receptor Alpha, ESRRA, ERR1, NR3B1]
 ## Function
 
 ERRα transcriptionally activates genes involved in:
-- [[Mitochondrial Biogenesis]] — coactivated by [[PGC1-α]] and [[PPARγ Coactivator 1β]]; regulates [[NRF1]], [[NRF2]] (GABPA), and [[TFAM]] 
+- [[Mitochondrial Biogenesis]] — coactivated by [[PGC-1α]] and [[PPARγ Coactivator 1β]]; regulates [[NRF1]], [[NRF2]] (GABPA), and [[TFAM]] 
 - [[Oxidative Phosphorylation]] — upregulates [[Electron Transport Chain]] subunits ([[NDUFS1]], [[COXIV]], [[ATP5B]])
 - [[Fatty acid metabolism]] — activates [[MCAD]], [[LCAD]], [[CPT1b]], and [[PDK4]]
 - [[TCA Cycle]] — induces [[Isocitrate Dehydrogenase]], [[Succinate Dehydrogenase]], [[Fumarase]]
@@ -26,7 +26,7 @@ ERRα transcriptionally activates genes involved in:
 
 ## Regulation
 
-ERRα is constitutively active once expressed. Its activity is tightly controlled by [[PGC1-α]] coactivation and interaction with corepressors ([[NRIP1]]/[[RIP140]]). [[Metabolic Stress]] ([[Exercise]], [[Caloric Restriction]], [[Cold Exposure]]) upregulates ERRα via PGC-1α.
+ERRα is constitutively active once expressed. Its activity is tightly controlled by [[PGC-1α]] coactivation and interaction with corepressors ([[NRIP1]]/[[RIP140]]). [[Metabolic Stress]] ([[Exercise]], [[Caloric Restriction]], [[Cold Exposure]]) upregulates ERRα via PGC-1α.
 
 ## Clinical Relevance
 
@@ -35,7 +35,7 @@ ERRα drives bioenergetic reprogramming in [[Breast Cancer]] (basal-like and [[T
 #
 
 ## Connections
-- [[PGC1-α]] — master coactivator of ERRα for mitochondrial gene expression
+- [[PGC-1α]] — master coactivator of ERRα for mitochondrial gene expression
 - [[Mitochondrial Biogenesis]] — ERRα regulates mitochondrial DNA replication and transcription
 - [[Oxidative Phosphorylation]] — ERRα activates nuclear-encoded OXPHOS genes
 - [[Nuclear Receptor]] — ERRα is an orphan member of the nuclear receptor superfamily
@@ -46,6 +46,6 @@ ERRα drives bioenergetic reprogramming in [[Breast Cancer]] (basal-like and [[T
 - [[NRF1]] / [[TFAM]] — ERRα targets for mitochondrial transcription and genome maintenance
 
 ## Linking Summary
-- New links added: [[Nuclear Receptor]], [[Estrogen Receptor]], [[Mitochondrial Biogenesis]], [[Oxidative Phosphorylation]], [[Fatty acid]], [[PGC1-α]], [[PPARγ Coactivator 1β]], [[NRF1]], [[NRF2]], [[TFAM]], [[Electron Transport Chain]], [[NDUFS1]], [[MCAD]], [[LCAD]], [[CPT1b]], [[PDK4]], [[TCA Cycle]], [[PINK1]], [[Mitophagy]], [[NRIP1]], [[Exercise]], [[Caloric Restriction]], [[Cold Exposure]], [[Breast Cancer]], [[Triple-negative]], [[Insulin Sensitivity]], [[Hepatic Gluconeogenesis]], [[Mitochondria]]
+- New links added: [[Nuclear Receptor]], [[Estrogen Receptor]], [[Mitochondrial Biogenesis]], [[Oxidative Phosphorylation]], [[Fatty acid]], [[PGC-1α]], [[PPARγ Coactivator 1β]], [[NRF1]], [[NRF2]], [[TFAM]], [[Electron Transport Chain]], [[NDUFS1]], [[MCAD]], [[LCAD]], [[CPT1b]], [[PDK4]], [[TCA Cycle]], [[PINK1]], [[Mitophagy]], [[NRIP1]], [[Exercise]], [[Caloric Restriction]], [[Cold Exposure]], [[Breast Cancer]], [[Triple-negative]], [[Insulin Sensitivity]], [[Hepatic Gluconeogenesis]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Orphan nuclear receptor]], [[NR3B subfamily]], [[ERRβ]], [[ERRγ]], [[PGC-1 coactivator family]]
   - Strong connections to strengthen: [[ERRalpha]] ↔ Mitochondrial Biogenesis, [[ERRalpha]] ↔ PGC1-α, [[ERRalpha]] ↔ Oxidative Phosphorylation

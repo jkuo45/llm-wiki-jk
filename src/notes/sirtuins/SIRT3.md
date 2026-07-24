@@ -68,7 +68,7 @@ SIRT3 deacetylates and thereby activates **[[AceCS2]]**, the mitochondrial isofo
 SIRT3 is induced in **brown adipose tissue (BAT)** during cold exposure, where it promotes expression of mitochondrial genes including:
 
 - **UCP1** (uncoupling protein 1, critical for thermogenesis)
-- **[[PGC1-α]]** (master regulator of mitochondrial biogenesis)
+- **[[PGC-1α]]** (master regulator of mitochondrial biogenesis)
 - **Cytochrome c oxidase subunits II and IV** (COX II and COX IV)
 - **ATP synthase**
 
@@ -131,7 +131,7 @@ List of documents that mention this entity
 - [[NAD+]] — obligatory co-substrate
 - [[OAADPr]] — by-product of deacetylation
 - [[Caloric Restriction]] — SIRT3 is induced by CR; mediates metabolic adaptations
-- [[PGC1-α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
+- [[PGC-1α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
 - [[OPA1]] — SIRT3 deacetylates OPA1 (Lys926/Lys931), activating fusion
 - [[Mitochondrial Fusion]] — SIRT3 enhances fusion via OPA1 deacetylation
@@ -139,7 +139,7 @@ List of documents that mention this entity
 
 
 ## Linking Summary
-- New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC1-α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
+- New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue|Brown Adipose Tissue (BAT)]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 - New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]

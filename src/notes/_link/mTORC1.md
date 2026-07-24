@@ -75,7 +75,7 @@ mTORC1 drives [[Cell Growth]] by increasing protein and lipid synthesis. Cells l
 mTORC1 inhibits [[Autophagy]] by phosphorylating [[ULK1]] and [[ULK2]] at Ser757, disrupting the ULK1-[[AMPK]] interaction. mTORC1 also phosphorylates TFEB and [[TFE3]], preventing [[Lysosomal Biogenesis]]. Pharmacological mTORC1 inhibition with [[Rapamycin]] or [[Torin]] is a potent inducer of autophagy.
 
 ### Metabolism
-mTORC1 promotes [[Glycolysis]] via HIF-1α stabilization, increases [[Nucleotide Synthesis]] via [[ATF4]] signaling, and drives [[Mitochondrial Biogenesis]] through [[PGC1-α]] and [[YY1]] coactivation.
+mTORC1 promotes [[Glycolysis]] via HIF-1α stabilization, increases [[Nucleotide Synthesis]] via [[ATF4]] signaling, and drives [[Mitochondrial Biogenesis]] through [[PGC-1α]] and [[YY1]] coactivation.
 
 ### Immune Function
 mTORC1 is critical for [[T Cell]] activation, [[B Cell]] differentiation, and [[Dendritic Cell]] function. In T cells, mTORC1 promotes [[effector T cell]] (Th1, Th17) differentiation, while mTORC2 favors [[Treg]] development.
@@ -174,6 +174,6 @@ List of documents that mention this entity
 - [[Tuberous Sclerosis]] — monogenic mTORC1 hyperactivation syndrome
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC1-α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[PI3K]], [[Akt]], [[FKBP12]]
+- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC-1α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[PI3K]], [[Akt]], [[FKBP12]]
 - Suggested new entity notes to create: [[TOR signaling]], [[Rag GTPase]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapalogs]], [[Geroprotectors]]
   - Strong connections to strengthen: [[mTORC1]] ↔ mTORC2, [[mTORC1]] ↔ Autophagy, [[mTORC1]] ↔ TSC2, [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]

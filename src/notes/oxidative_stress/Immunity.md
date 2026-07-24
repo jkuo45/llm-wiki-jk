@@ -20,7 +20,7 @@ Immunity is the capability of multicellular organisms to resist harmful microorg
 [[Oxidative Stress]] is fundamentally intertwined with the immune response. Phagocytes, such as [[Neutrophils]] and macrophages, utilize a process called [[Respiratory Burst]] to produce high concentrations of [[Reactive Oxygen Species]] (ROS) and [[Reactive Nitrogen Species]] (RNS) to destroy invading pathogens.
 
 ## Redox Signaling in Immunity
-Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that regulate the activation of immune cells and the production of [[Pro-inflammatory Cytokines]] via pathways like [[NF-kappa B]].
+Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that regulate the activation of immune cells and the production of [[Pro-inflammatory Cytokines]] via pathways like [[NF-κB]].
 
 ## Documents
 
@@ -46,9 +46,9 @@ List of documents that mention this entity
 - [[Mitochondrial Dysfunction]]: Impairs immune cell metabolism and redox signaling.
 
 ## Linking Summary
-- New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC1-α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]
+- New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC-1α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]
 - Suggested new entity notes to create: [[Itaconate]], [[T Cell Polarization]], [[Succinate]], [[CGD]], [[Rac GTPase]]
-- New links added: [[Oxidative Stress]], [[Neutrophils]], [[Respiratory Burst]], [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Signaling Molecules]], [[Pro-inflammatory Cytokines]], [[NF-kappa B]], [[Inflammation]], [[NADPH Oxidase]]
+- New links added: [[Oxidative Stress]], [[Neutrophils]], [[Respiratory Burst]], [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Signaling Molecules]], [[Pro-inflammatory Cytokines]], [[NF-κB]], [[Inflammation]], [[NADPH Oxidase]]
 - Suggested new entity notes to create: [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[Immunity]] ↔ [[Respiratory Burst]]
 ## Phagocyte NADPH Oxidase: The NOX2 System
@@ -57,7 +57,7 @@ The professional phagocyte NADPH oxidase (NOX2) is the central enzymatic engine 
 
 ## Macrophage Redox Biology and iNOS
 
-Macrophages utilize both [[NADPH Oxidase|NOX2]] and the inducible isoform of [[Nitric Oxide Synthase]] (iNOS, NOS2) to produce [[Nitric Oxide]] (NO) and [[Reactive Oxygen Species|ROS]] simultaneously. Under inflammatory stimulation (e.g., [[LPS|bacterial lipopolysaccharide]] + [[IFN-γ|interferon-γ]]), iNOS is transcriptionally induced via [[NF-kappa B]] and [[STAT1|STAT1 signaling]], generating micromolar concentrations of NO. The simultaneous production of NO and superoxide by iNOS and NOX2 yields [[Peroxynitrite]] at diffusion-limited rates. Peroxynitrite nitrates tyrosine residues on bacterial proteins (forming 3-nitrotyrosine), inactivates bacterial [[Iron-Sulfur Clusters|iron-sulfur cluster]] enzymes, and damages [[Bacterial DNA|bacterial DNA]]. In alternatively activated (M2) macrophages, arginine metabolism shifts toward [[Arginase|arginase I]] instead of iNOS, producing [[Ornithine]] and [[Polyamine]] that promote tissue repair and fibrosis, illustrating how redox pathway choice determines [[Macrophage Polarization|macrophage polarization]].
+Macrophages utilize both [[NADPH Oxidase|NOX2]] and the inducible isoform of [[Nitric Oxide Synthase]] (iNOS, NOS2) to produce [[Nitric Oxide]] (NO) and [[Reactive Oxygen Species|ROS]] simultaneously. Under inflammatory stimulation (e.g., [[LPS|bacterial lipopolysaccharide]] + [[IFN-γ|interferon-γ]]), iNOS is transcriptionally induced via [[NF-κB]] and [[STAT1|STAT1 signaling]], generating micromolar concentrations of NO. The simultaneous production of NO and superoxide by iNOS and NOX2 yields [[Peroxynitrite]] at diffusion-limited rates. Peroxynitrite nitrates tyrosine residues on bacterial proteins (forming 3-nitrotyrosine), inactivates bacterial [[Iron-Sulfur Clusters|iron-sulfur cluster]] enzymes, and damages [[Bacterial DNA|bacterial DNA]]. In alternatively activated (M2) macrophages, arginine metabolism shifts toward [[Arginase|arginase I]] instead of iNOS, producing [[Ornithine]] and [[Polyamine]] that promote tissue repair and fibrosis, illustrating how redox pathway choice determines [[Macrophage Polarization|macrophage polarization]].
 
 ## T Cell Redox Regulation and the Glutathione Axis
 
@@ -69,5 +69,5 @@ Activated immune cells undergo a metabolic switch from oxidative phosphorylation
 
 ## Oxidative Stress and Immune Senescence
 
-[[Immunosenescence]] and [[Inflammaging]] are driven in part by lifelong accumulation of oxidative damage to immune cells. In aged [[Neutrophils]], NOX2 activity is reduced but mitochondrial ROS are elevated, impairing bacterial killing while increasing bystander tissue damage. [[Hematopoietic Stem Cell|Hematopoietic stem cells]] (HSCs) accumulate oxidative DNA damage over time, leading to a myeloid-biased differentiation skew and impaired lymphopoiesis. The [[p38 MAPK]] pathway, activated by ROS-induced stress signaling, suppresses HSC self-renewal. Caloric restriction and [[Metformin]] partially reverse these age-related immune changes by reducing [[Reactive Oxygen Species|ROS]] production through [[AMPK]]/[[PGC1-α]]-mediated [[Mitochondria|mitochondrial]] biogenesis and antioxidant enzyme induction.
+[[Immunosenescence]] and [[Inflammaging]] are driven in part by lifelong accumulation of oxidative damage to immune cells. In aged [[Neutrophils]], NOX2 activity is reduced but mitochondrial ROS are elevated, impairing bacterial killing while increasing bystander tissue damage. [[Hematopoietic Stem Cell|Hematopoietic stem cells]] (HSCs) accumulate oxidative DNA damage over time, leading to a myeloid-biased differentiation skew and impaired lymphopoiesis. The [[p38 MAPK]] pathway, activated by ROS-induced stress signaling, suppresses HSC self-renewal. Caloric restriction and [[Metformin]] partially reverse these age-related immune changes by reducing [[Reactive Oxygen Species|ROS]] production through [[AMPK]]/[[PGC-1α]]-mediated [[Mitochondria|mitochondrial]] biogenesis and antioxidant enzyme induction.
 

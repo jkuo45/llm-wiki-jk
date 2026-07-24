@@ -53,7 +53,7 @@ Sulforaphane is released by the action of [[myrosinase]] enzyme on glucoraphanin
 
 ## Additional Mechanisms
 
-- **[[NF-kappa B]] Inhibition**: Sulforaphane suppresses NF-κB activation by inhibiting IKKβ phosphorylation and p65 nuclear translocation.
+- **[[NF-κB]] Inhibition**: Sulforaphane suppresses NF-κB activation by inhibiting IKKβ phosphorylation and p65 nuclear translocation.
 - **[[Ferroptosis]] Modulation**: SFN upregulates GPx4 and ferritin via NRF2, protecting against ferroptosis.
 - **[[HDAC]] Inhibition**: Sulforaphane is a weak HDAC inhibitor, increasing histone acetylation and expression of tumor suppressor genes.
 - **[[AMPK]] Activation**: SFN activates AMPK, promoting mitochondrial biogenesis and autophagy.

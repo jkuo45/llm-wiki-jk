@@ -15,7 +15,7 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 [[Ivermectin]] has been found to inhibit CRC cell proliferation and induce [[Apoptosis]].
 ## Mechanisms
 - **Wnt Inhibition:** Ivermectin inhibits the [[Wnt]]/β-catenin pathway, reducing the expression of downstream genes like AXIN2, LGR5, and ASCL2.
-- **Multidrug Resistance Reversal:** Ivermectin reverses drug resistance (e.g., to vincristine) by inhibiting [[P-gp]] expression via the [[EGFR]]/[[ERK]]/[[Akt]]/[[NF-kappa B]] pathway.
+- **Multidrug Resistance Reversal:** Ivermectin reverses drug resistance (e.g., to vincristine) by inhibiting [[P-gp]] expression via the [[EGFR]]/[[ERK]]/[[Akt]]/[[NF-κB]] pathway.
 - **EGFR Targeting:** Ivermectin enhances the activity of anti-EGFR drugs like [[cetuximab]].
 ## Role of Autophagy
 - Autophagy exhibits complex roles in CRC, acting as both a tumor suppressor in early stages and a survival mechanism for established tumors.

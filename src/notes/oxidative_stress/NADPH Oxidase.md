@@ -27,7 +27,7 @@ NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose primary
 
 ## Impact on Health
 - **Oxidative Stress:** Overactivity is a major driver of tissue damage in [[Cardiovascular Disease]], [[Diabetes Mellitus]], and neurodegenerative disorders.
-- **Inflammation:** ROS produced by NOX enzymes activate pro-inflammatory transcription factors like [[NF-kappa B]].
+- **Inflammation:** ROS produced by NOX enzymes activate pro-inflammatory transcription factors like [[NF-κB]].
 
 ## Structural Organization and Catalytic Mechanism
 All NOX isoforms share a conserved catalytic core: the **NOX (gp91phox)** transmembrane subunit, which contains six transmembrane α-helices, two heme groups (coordinated by four histidine residues in helices III and V), and a cytoplasmic C-terminal NADPH- and FAD-binding domain. The electron transfer proceeds in a linear chain: NADPH → FAD → heme1 (inner) → heme2 (outer) → O₂ on the extracellular/luminal side, producing superoxide. The overall reaction is: $NADPH + 2O_2 \rightarrow NADP^+ + 2O_2^{\bullet-} + H^+$.
@@ -75,13 +75,13 @@ List of documents that mention this entity
 ## Connections
 - [[Superoxide Radicals]]: The primary product (except NOX4).
 - [[Hydrogen Peroxide]]: NOX4 primarily produces $H_2O_2$.
-- [[NF-kappa B]]: Often activated by NOX-derived ROS.
+- [[NF-κB]]: Often activated by NOX-derived ROS.
 - [[Respiratory Burst]]: NOX2 is the catalytic engine of the phagocyte respiratory burst.
 - [[Inflammation]]: NOX-derived ROS are central mediators of inflammatory signaling.
 
 ## Linking Summary
 - New links added: [[TNF-alpha]], [[IL-1β]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidants]], [[Nitric Oxide]]
 - Suggested new entity notes to create: [[GKT137831]], [[GSK2795039]], [[Apocynin]], [[Rac GTPase]], [[p47phox]], [[Flavocytochrome b558]]
-- New links added: [[Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-kappa B]], [[Hydrogen Peroxide]]
+- New links added: [[Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-κB]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[Respiratory Burst]], [[NOX2]], [[NOX4]]
 - Strong connections to strengthen: [[NADPH Oxidase]] ↔ [[Superoxide Radicals]]

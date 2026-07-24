@@ -73,7 +73,7 @@ Oxidative stress has been linked to several neurological diseases (i.e., [[Parki
 
 ### 4.4. Respiratory Disease and Oxidative Stress
 
-Several researches pointed out that lung diseases such as [[Asthma]] and [[Chronic Obstructive Pulmonary Disease|chronic obstructive pulmonary disease (COPD)]], determined by systemic and local chronic inflammation, are linked to oxidative stress \[[^33] – [^35]\]. Oxidants are known to enhance inflammation via the activation of different kinases involving pathways and transcription factors like [[NF-kappa B]] and [[AP-1]] \[[^34], [^35]\].
+Several researches pointed out that lung diseases such as [[Asthma]] and [[Chronic Obstructive Pulmonary Disease|chronic obstructive pulmonary disease (COPD)]], determined by systemic and local chronic inflammation, are linked to oxidative stress \[[^33] – [^35]\]. Oxidants are known to enhance inflammation via the activation of different kinases involving pathways and transcription factors like [[NF-κB]] and [[AP-1]] \[[^34], [^35]\].
 
 ### 4.5. Rheumatoid Arthritis and Oxidative Stress
 
@@ -192,7 +192,7 @@ Antioxidants, as class of compounds able to counteract oxidative stress and miti
 We can reach to the conclusion that oxidative stress, as phenomenon, although being one of the major harms to individuals' wellness and health, it can also be exploited as a treatment tool when and if we will be able to operate a fine tuning of this process inside human organism.
 
 ### Linking Summary:
-- New links added: [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Glutathione]], [[Alpha-Lipoic Acid]], [[NF-kappa B]], [[Apoptosis]], [[Mitochondria]], [[Nitric Oxide]], [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1β]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]]
+- New links added: [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Glutathione]], [[Alpha-Lipoic Acid]], [[NF-κB]], [[Apoptosis]], [[Mitochondria]], [[Nitric Oxide]], [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1β]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]]
 - Suggested new entity notes to create: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1β]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]], [[Lipid Peroxidation]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Reactive Oxygen Species]], [[Mitochondria]] ↔ [[Apoptosis]], [[Glutathione]] ↔ [[Glutathione Peroxidase]]
 

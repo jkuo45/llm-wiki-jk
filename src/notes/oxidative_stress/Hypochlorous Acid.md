@@ -72,7 +72,7 @@ HOCl-modified [[Apolipoprotein B]] in LDL enhances foam cell formation, and 3-ch
 In [[Chronic Obstructive Pulmonary Disease]] and [[Asthma]], MPO activity in airway [[Neutrophils]] generates HOCl that:
 - **Inactivates [[Alpha-1 Antitrypsin]]**: Destroying the major antiprotease shield, leading to [[Emphysema]]
 - **Impairs [[Catalase]] and [[Glutathione Peroxidase]]**: Depleting airway antioxidant defenses
-- **Induces [[Mucus]] hypersecretion**: Through direct irritation and [[NF-kappa B]] activation
+- **Induces [[Mucus]] hypersecretion**: Through direct irritation and [[NF-κB]] activation
 
 ### Renal Disease
 In chronic kidney disease, HOCl-modified proteins (advanced oxidation protein products, AOPPs) accumulate and serve as biomarkers of oxidative damage and predictors of cardiovascular mortality.

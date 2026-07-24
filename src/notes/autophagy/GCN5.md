@@ -20,7 +20,7 @@ GCN5 contains an N-terminal bromodomain that recognizes acetylated lysines and a
 
 ## Mechanism of Action & Targets
 
-GCN5 acetylates histone H3 at K9, K14, and K18 to open chromatin at metabolic and stress-responsive gene promoters. Among non-histone substrates, GCN5 acetylates [[PGC1-α]], suppressing mitochondrial biogenesis, and acetylates [[TFEB]] at K274 and K279. Acetylation of TFEB reduces its dimerization with TFEB/TFE3 and weakens binding to CLEAR (coordinated lysosomal expression and regulation) elements in the promoters of lysosomal and autophagy genes. This places GCN5 in direct opposition to the [[SIRT1]] deacetylase, which activates TFEB by removing the same acetyl marks, and to [[SIRT3]]/[[SIRT6]] more broadly. Nutrient excess and inflammatory signals that elevate GCN5 activity therefore repress [[Lysosome]] biogenesis and autophagic flux, whereas SIRT1-dependent deacetylation promotes it.
+GCN5 acetylates histone H3 at K9, K14, and K18 to open chromatin at metabolic and stress-responsive gene promoters. Among non-histone substrates, GCN5 acetylates [[PGC-1α]], suppressing mitochondrial biogenesis, and acetylates [[TFEB]] at K274 and K279. Acetylation of TFEB reduces its dimerization with TFEB/TFE3 and weakens binding to CLEAR (coordinated lysosomal expression and regulation) elements in the promoters of lysosomal and autophagy genes. This places GCN5 in direct opposition to the [[SIRT1]] deacetylase, which activates TFEB by removing the same acetyl marks, and to [[SIRT3]]/[[SIRT6]] more broadly. Nutrient excess and inflammatory signals that elevate GCN5 activity therefore repress [[Lysosome]] biogenesis and autophagic flux, whereas SIRT1-dependent deacetylation promotes it.
 
 ## Physiological & Pathological Relevance
 
@@ -41,7 +41,7 @@ List of documents that mention this entity
 
 - [[TFEB]]: GCN5 acetylates TFEB at K274/K279, blocking dimerization and DNA binding to suppress lysosomal-autophagy genes.
 - [[SIRT1]]: Deacetylase that antagonizes GCN5, reactivating TFEB and promoting [[Autophagy]].
-- [[PGC1-α]]: GCN5 acetylation target whose mitochondrial biogenesis function is suppressed.
+- [[PGC-1α]]: GCN5 acetylation target whose mitochondrial biogenesis function is suppressed.
 - [[Lysosome]]: TFEB target tissue whose biogenesis is restrained by GCN5 acetylation.
 - [[Autophagy]]: Catabolic program repressed when GCN5 inhibits TFEB.
 - [[Aging]]: Acetylation-mediated autophagic decline links GCN5 to senescence phenotypes.
@@ -49,6 +49,6 @@ List of documents that mention this entity
 - [[SIRT3]]: Related deacetylase in the Sirtuin family modulating metabolic and autophagic tone.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[SIRT1]], [[PGC1-α]], [[Lysosome]], [[Autophagy]], [[Aging]], [[Cancer]], [[SIRT3]], [[SIRT6]]
+- New links added: [[TFEB]], [[SIRT1]], [[PGC-1α]], [[Lysosome]], [[Autophagy]], [[Aging]], [[Cancer]], [[SIRT3]], [[SIRT6]]
 - Suggested new entity notes to create: [[Acetylation]], [[SIRT6]], [[CLEAR Network]]
 - Strong connections to strengthen: [[GCN5]] ↔ [[TFEB]], [[GCN5]] ↔ [[SIRT1]]

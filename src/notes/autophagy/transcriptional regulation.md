@@ -11,7 +11,7 @@ aliases: []
 ---
 # transcriptional regulation
 
-Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case of [[TFEB]] involves multiple factors such as [[PGC1-α]], [[XBP1]], and self-regulation.
+Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case of [[TFEB]] involves multiple factors such as [[PGC-1α]], [[XBP1]], and self-regulation.
 
 ## Mechanisms
 
@@ -28,7 +28,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[TFEB]]: Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case o...
-- [[PGC1-α]]: Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case o...
+- [[PGC-1α]]: Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case o...
 - [[XBP1]]: Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case o...
 - [[TFE3]]: Autophagy gene transcription is controlled by [[TFEB]], TFE3, [[FOXO]], [[ATF4]], [[XBP1]], [[PPARα]], [[SREBP1]], an...
 - [[FOXO]]: Autophagy gene transcription is controlled by [[TFEB]], [[TFE3]], FOXO, [[ATF4]], [[XBP1]], [[PPARα]], [[SREBP1]], an...
@@ -38,6 +38,6 @@ List of documents that mention this entity
 - [[ZKSCAN3]]: Autophagy gene transcription is controlled by [[TFEB]], [[TFE3]], [[FOXO]], [[ATF4]], [[XBP1]], [[PPARα]], [[SREBP1]]...
 
 ## Linking Summary
-- New links added: [[TFEB]], [[PGC1-α]], [[XBP1]]
+- New links added: [[TFEB]], [[PGC-1α]], [[XBP1]]
 - Suggested new entity notes to create: [[Transcription Factor]]
 - Strong connections to strengthen: [[transcriptional regulation]] ↔ [[TFEB]]

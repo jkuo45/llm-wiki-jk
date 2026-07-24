@@ -55,7 +55,7 @@ Flavonoids regulate endogenous antioxidant and pro-oxidant enzymes:
 - **Activation of NRF2/KEAP1 pathway**: Flavonoids like [[Quercetin]] and [[EGCG]] modify KEAP1 cysteine residues, releasing NRF2 to translocate to the nucleus and induce phase II detoxifying enzymes including [[Glutathione Peroxidase]], [[Catalase]], heme oxygenase-1 (HO-1), and NAD(P)H:quinone oxidoreductase 1 (NQO1)
 ### Anti-Inflammatory Signaling
 Flavonoids suppress [[Inflammation]] through:
-- **Inhibition of [[NF-kappa B]]**: Blocking IκB phosphorylation and p65 nuclear translocation
+- **Inhibition of [[NF-κB]]**: Blocking IκB phosphorylation and p65 nuclear translocation
 - **Suppression of [[TNF-alpha]] and [[IL-1β]] production**: Reducing pro-inflammatory cytokine release
 - **Modulation of [[MAPK]] signaling**: Attenuating p38 and JNK phosphorylation
 - **Activation of [[FOXO]] transcription factors**: Promoting expression of antioxidant genes like [[Catalase]] and [[Superoxide Dismutase]]

@@ -19,7 +19,7 @@ aliases: []
 - Enhancing [[Autophagic Flux]] is a major area of research for treating HD.
 - Interventions like [[Caloric Restriction]] and [[Intermittent Fasting]] have been suggested to diminish neurodegenerative changes by promoting the clearance of these deleterious proteins.
 ### Merged from notes/autophagy/Huntington's Disease.md
-Huntington's disease (HD) is a neurodegenerative disorder characterized by protein aggregation; increasing [[TFEB]] function via [[PGC1-α]] has been shown to rescue its proteotoxicity.
+Huntington's disease (HD) is a neurodegenerative disorder characterized by protein aggregation; increasing [[TFEB]] function via [[PGC-1α]] has been shown to rescue its proteotoxicity.
 
 
 #
@@ -47,6 +47,6 @@ List of documents that mention this entity
 - [[Intermittent Fasting]] — interacts with Huntington's Disease
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 ## Linking Summary
-- New links added: [[TFEB]], [[PGC1-α]], [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
+- New links added: [[TFEB]], [[PGC-1α]], [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
 - Suggested new entity notes to create: [[Neurodegenerative Disease]]
   - Strong connections to strengthen: Huntington's Disease ↔ [[TFEB]], Huntington's Disease ↔ Neurodegenerative Diseases|Neurodegenerative Disease, Huntington's Disease ↔ Autophagy

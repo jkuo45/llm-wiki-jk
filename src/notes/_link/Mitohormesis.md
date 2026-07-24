@@ -35,8 +35,8 @@ The [[Integrated Stress Response]] (ISR) is a central mediator of mitohormetic s
 - This axis regulates amino acid metabolism, redox balance, and autophagy.
 - DELE1 mitochondrial protein import is also exquisitely sensitive to intracellular iron levels; iron deficiency causes DELE1-L accumulation on the outer mitochondrial membrane, activating the ISR without OMA1 cleavage.
 
-### [[PGC1-α]] Coactivation
-Mitochondrial stress signals converge on [[PGC1-α]], the master transcriptional coactivator of mitochondrial biogenesis:
+### [[PGC-1α]] Coactivation
+Mitochondrial stress signals converge on [[PGC-1α]], the master transcriptional coactivator of mitochondrial biogenesis:
 - [[AMPK]] phosphorylates PGC1α directly (Thr177, Ser538), enhancing its activity.
 - [[SIRT1]] deacetylates PGC1α (Lys residues), enabling coactivation of [[PPARγ]], [[ERRalpha]], and [[NRF1]]/[[NRF2]].
 - [[SIRT3]], a mitochondrial [[NAD+]]-dependent deacetylase, activates [[SOD2]] and [[IDH2]] to manage mROS, providing a negative feedback loop.
@@ -90,7 +90,7 @@ Impaired [[Mitochondrial protein import]] activates multiple quality control pat
 The mitohormetic response unfolds in discrete temporal phases:
 1. **Acute (0–2 h)**: mROS burst, [[HIF-1α]] stabilization, transient [[AMPK]] activation.
 2. **Intermediate (2–12 h)**: [[NRF2]] nuclear translocation, [[HO-1]] and [[NQO1]] induction, [[Atg]] gene upregulation.
-3. **Late (12–48 h)**: [[PGC1-α]]-dependent mitochondrial biogenesis, [[UPRmt]] activation, [[Mitophagy]] clearance of damaged organelles.
+3. **Late (12–48 h)**: [[PGC-1α]]-dependent mitochondrial biogenesis, [[UPRmt]] activation, [[Mitophagy]] clearance of damaged organelles.
 4. **Persistent (days–weeks)**: Metabolic reprogramming toward [[Oxidative Phosphorylation]], enhanced [[Fatty acid oxidation]], increased mitochondrial network connectivity.
 
 ## Hormetic Window Concept

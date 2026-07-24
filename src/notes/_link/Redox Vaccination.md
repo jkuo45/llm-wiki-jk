@@ -21,7 +21,7 @@ The redox vaccination mechanism unfolds through a defined signaling hierarchy:
 2. **Dismutation:** [[MnSOD]] (SOD2) converts O₂⁻ to H₂O₂. The rate of this conversion is set by the [[SIRT3]]/[[SIRT4]] ratio.
 3. **H₂O₂ diffusion:** H₂O₂ passes through [[Aquaporins]] (AQP8, AQP11) into the cytosol.
 4. **AMPK activation:** H₂O₂ oxidizes and inhibits protein phosphatases, leading to [[AMPK]] phosphorylation and activation.
-5. **PGC-1α induction:** Activated AMPK phosphorylates [[PGC1-α]] (Thr177, Ser538), enhancing its transcriptional activity.
+5. **PGC-1α induction:** Activated AMPK phosphorylates [[PGC-1α]] (Thr177, Ser538), enhancing its transcriptional activity.
 6. **SIRT3 upregulation:** PGC-1α drives SIRT3 transcription, increasing mitochondrial deacetylase capacity.
 7. **MnSOD activation:** Elevated SIRT3 deacetylates MnSOD at [[Lys68]]/K122, dramatically increasing its superoxide-scavenging activity.
 8. **Feedback loop:** Enhanced MnSOD activity lowers steady-state superoxide, but the elevated SIRT3/MnSOD axis remains primed for faster response to future oxidative challenges.
@@ -111,7 +111,7 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - [[Carbazochrome]] — Primary redox-cycling agent used for vaccination
 - [[Adrenochrome]] — Parent compound; endogenous source of redox cycling
 - [[AMPK]] — Upstream kinase that initiates the retrograde signal
-- [[PGC1-α]] — Transcriptional coactivator that drives SIRT3 expression
+- [[PGC-1α]] — Transcriptional coactivator that drives SIRT3 expression
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with the vaccination axis
 - [[NRF2]] — Activated alongside AMPK; provides complementary antioxidant protection
 - [[Hormetic Window]] — Defines the dose range over which vaccination occurs
@@ -122,6 +122,6 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - [[Honokiol]] — SIRT3 activator that could serve as a positive control or adjuvant
 
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
+- New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC-1α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
 - Suggested new entity notes to create: [[Redox Memory]], [[Pharmacological Preconditioning]]
   - Strong connections to strengthen: Redox Vaccination ↔ [[SIRT3]]/[[SIRT4]] ratio, Redox Vaccination ↔ Mitohormetic Redox-Relay
