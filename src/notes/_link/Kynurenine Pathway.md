@@ -49,7 +49,7 @@ The KP is the only de novo [[NAD+]] biosynthetic pathway in mammals (alongside t
 
 **[[Cancer]]:** KP activation in the [[Tumor Microenvironment]] suppresses antitumor immunity. [[Epacadostat]] and other [[IDO1]] inhibitors have been investigated as immunotherapies.
 
-**[[Neurodegeneration]]:** Imbalance in the KynA/QA ratio contributes to excitotoxicity in [[Alzheimer's Disease]], [[Parkinson Disease|Parkinson's disease]], and [[Depression|major depression]].
+**[[Neurodegeneration]]:** Imbalance in the KynA/QA ratio contributes to excitotoxicity in [[Alzheimer's Disease]], [[Parkinson's Disease|Parkinson's disease]], and [[Depression|major depression]].
 
 **Diabetes:** Altered KP flux is observed in both [[Type 2 Diabetes Mellitus|type 1]] and type 2 diabetes, linked to [[IDO1]] genotype, [[Inflammation]], and disrupted [[NAD+]] homeostasis.
 

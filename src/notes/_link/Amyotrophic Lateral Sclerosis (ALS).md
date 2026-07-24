@@ -52,10 +52,10 @@ List of documents in the wiki that mention this entity
   - [[Oxidative Stress]] / [[Mitochondrial Dysfunction]] — pathogenic mechanisms
   - [[Creatine Supplementation]] — studied but inconclusive in ALS
   - [[Creatine Phosphate Shuttle]] — energy-buffering rationale
-  - [[Huntington's Disease (HD)]] / [[Parkinson's Disease (PD)]] — co-studied in creatine trial
+  - [[Huntington's Disease (HD)]] / [[Parkinson's Disease]] — co-studied in creatine trial
 
 ## Linking Summary
 
-  - New links added: [[Neurodegenerative Diseases]], [[Motor Neurons]], [[Muscle Atrophy]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Energy Metabolism]], [[Autophagy]], [[Glial Cells]], [[Creatine Supplementation]], [[Creatine Phosphate Shuttle]], [[Huntington's Disease (HD)], [[Parkinson's Disease (PD)]]
+  - New links added: [[Neurodegenerative Diseases]], [[Motor Neurons]], [[Muscle Atrophy]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Energy Metabolism]], [[Autophagy]], [[Glial Cells]], [[Creatine Supplementation]], [[Creatine Phosphate Shuttle]], [[Huntington's Disease (HD)], [[Parkinson's Disease]]
   - Suggested new entity notes to create: [[SOD1]], [[C9orf72]], [[Upper Motor Neuron]], [[Lower Motor Neuron]]
   - Strong connections to strengthen: [[Amyotrophic Lateral Sclerosis (ALS)]] ↔ [[Creatine Supplementation]], [[Amyotrophic Lateral Sclerosis (ALS)]] ↔ [[Neurodegenerative Diseases]], [[Amyotrophic Lateral Sclerosis (ALS)]] ↔ [[Motor Neurons]]

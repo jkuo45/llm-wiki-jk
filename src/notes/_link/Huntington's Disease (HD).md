@@ -50,10 +50,10 @@ List of documents in the wiki that mention this entity
   - [[Energy Metabolism]] / [[Mitochondrial Dysfunction]] — pathogenic theme
   - [[Creatine Supplementation]] — attenuated brain atrophy in trial
   - [[Creatine Phosphate Shuttle]] — therapeutic rationale
-  - [[Amyotrophic Lateral Sclerosis (ALS)]] / [[Parkinson's Disease (PD)]] — co-studied
+  - [[Amyotrophic Lateral Sclerosis (ALS)]] / [[Parkinson's Disease]] — co-studied
 
 ## Linking Summary
 
-  - New links added: [[Neurodegenerative Diseases]], [[Huntingtin]], [[Chorea]], [[Cognitive Decline]], [[Executive Function]], [[Brain]], [[Energy Metabolism]], [[Mitochondrial Dysfunction]], [[Creatine Supplementation]], [[Creatine Phosphate Shuttle]], [[Phosphocreatine (PCr)]], [[Amyotrophic Lateral Sclerosis (ALS)], [[Parkinson's Disease (PD)]]
+  - New links added: [[Neurodegenerative Diseases]], [[Huntingtin]], [[Chorea]], [[Cognitive Decline]], [[Executive Function]], [[Brain]], [[Energy Metabolism]], [[Mitochondrial Dysfunction]], [[Creatine Supplementation]], [[Creatine Phosphate Shuttle]], [[Phosphocreatine (PCr)]], [[Amyotrophic Lateral Sclerosis (ALS)], [[Parkinson's Disease]]
   - Suggested new entity notes to create: [[HTT gene]], [[CAG repeat]], [[Striatal medium spiny neurons]], [[Chorea]]
   - Strong connections to strengthen: [[Huntington's Disease (HD)]] ↔ [[Creatine Supplementation]], [[Huntington's Disease (HD)]] ↔ [[Neurodegenerative Diseases]], [[Huntington's Disease (HD)]] ↔ [[Energy Metabolism]]

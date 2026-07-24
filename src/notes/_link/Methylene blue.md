@@ -27,7 +27,7 @@ aliases:
 - **Refractory vasoplegic shock:** IV bolus 2 mg/kg over 20–30 min (often off-label, post-cardiopulmonary bypass or septic).
 - **Ifosfamide-induced encephalopathy:** IV 50 mg every 4 h until resolution.
 - **Intraoperative staining:** sentinel lymph node mapping, ureter/parathyroid visualization.
-- **Investigational:** neuroprotection ([[Alzheimer's Disease]], [[Parkinson Disease]], [[Traumatic Brain Injury]], [[Ischemic Stroke]]), mood/psychiatric adjunct, low-dose cognitive and [[Mitochondrial Electron Transport Chain]] support.
+- **Investigational:** neuroprotection ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Traumatic Brain Injury]], [[Ischemic Stroke]]), mood/psychiatric adjunct, low-dose cognitive and [[Mitochondrial Electron Transport Chain]] support.
 
 > [!info] Low-dose wellness window
 > Cognitive/mitochondrial/mood protocols target **0.5–4 mg total** per dose (sub-1 mg/kg). Above **7–10 mg** the risk profile shifts; >2 mg/kg can flip redox cycling to pro-oxidant; ≥20 mg/kg causes severe hemolysis.

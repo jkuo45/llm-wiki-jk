@@ -34,7 +34,7 @@ The phenothiazine nucleus presents three substitution positions critical to biol
 
 Phenothiazine itself — without amine side chains — is a potent, direct free-radical scavenger. In HT-22 hippocampal neurons it protects against glutamate, [[Rotenone]], and [[Iodoacetic Acid|iodoacetic acid (IAA)]] neurotoxicity with nanomolar EC50s (viability EC50 ≈ 18.99 nM; ROS EC50 ≈ 57.21 nM) [^1]. Unlike [[Methylene blue]], phenothiazine does **not** enhance cellular oxygen consumption, inhibit anaerobic glycolysis, or act as an alternative electron carrier between [[Respiratory Chain Complex I|Complex I]] and [[Cytochrome c]]; its protection is a direct, mitochondria/NADH-independent antioxidant action [^1].
 
-In *C. elegans* models of [[Parkinson Disease]], phenothiazine is highly efficacious against rotenone- and MPP+-induced dopaminergic neurodegeneration, outperforming [[Chlorpromazine]] [^38], [^39].
+In *C. elegans* models of [[Parkinson's Disease]], phenothiazine is highly efficacious against rotenone- and MPP+-induced dopaminergic neurodegeneration, outperforming [[Chlorpromazine]] [^38], [^39].
 
 ### Other clinical phenotypes
 
@@ -70,7 +70,7 @@ The study "Neuroprotective Actions of Methylene Blue and Its Derivatives" divide
 - [[Neutral Red]] — phenazine (S5→N) analog; OCR enhancer without electron-carrier function.
 - [[Mitochondrial Electron Transport Chain]] — bypassed by phenothiazine-derived MB/TB via alternative electron transfer.
 - [[Oxidative Stress]] — phenothiazines mitigate oxidative neuronal injury.
-- [[Parkinson Disease]] — phenothiazine protects dopaminergic neurons in C. elegans models.
+- [[Parkinson's Disease]] — phenothiazine protects dopaminergic neurons in C. elegans models.
 
 ## Linking Summary
 

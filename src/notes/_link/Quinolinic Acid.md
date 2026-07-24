@@ -26,7 +26,7 @@ aliases:
 
 Elevated QA levels are implicated in [[Neurodegeneration|neurodegenerative conditions]] including:
 - [[Alzheimer's Disease]]
-- [[Parkinson Disease|Parkinson's disease]]
+- [[Parkinson's Disease|Parkinson's disease]]
 - [[Depression|Major depressive disorder]]
 - HIV-associated neurocognitive disorder (HAND)
 - [[Huntington's disease]]

@@ -231,7 +231,7 @@ Cellular senescence involves de-repression of [[LINE-1]] elements, which activat
 
 ### Impact on Ageing
 
-Senescent cells gradually accumulate during ageing and contribute to ageing-related diseases through the SASP. Removal of naturally occurring senescent cells along with their SASP significantly improved the health span of aged animals. Interventions targeting senescent cells and the SASP also benefit the outcomes of age-related [[Osteoarthritis]] and [[Cardiovascular Disease|cardiovascular diseases]]. In clinical settings, a panel of circulating SASP proteins was shown to predict the adverse events of older individuals (60–90 years old). Moreover, the SASP profile in urinary extracellular vesicles can distinguish between older individuals with or without [[Parkinson Disease|Parkinson disease]].
+Senescent cells gradually accumulate during ageing and contribute to ageing-related diseases through the SASP. Removal of naturally occurring senescent cells along with their SASP significantly improved the health span of aged animals. Interventions targeting senescent cells and the SASP also benefit the outcomes of age-related [[Osteoarthritis]] and [[Cardiovascular Disease|cardiovascular diseases]]. In clinical settings, a panel of circulating SASP proteins was shown to predict the adverse events of older individuals (60–90 years old). Moreover, the SASP profile in urinary extracellular vesicles can distinguish between older individuals with or without [[Parkinson's Disease|Parkinson disease]].
 
 ### Cancer and Cancer Therapies
 
