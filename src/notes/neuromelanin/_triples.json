@@ -14,13 +14,6 @@
     "confidence": "high"
   },
   {
-    "subject": "5,6-indolequinone",
-    "predicate": "is_a",
-    "object": "late-stage intermediate",
-    "context": "Definition in 5,6-indolequinone",
-    "confidence": "high"
-  },
-  {
     "subject": "6-hydroxydopamine",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
@@ -42,28 +35,28 @@
     "confidence": "high"
   },
   {
-    "subject": "Alpha-Synuclein",
+    "subject": "Alpha-synuclein",
     "predicate": "bidirectionally_linked_with",
     "object": "A53T",
     "context": "Strong connection in A53T linking summary",
     "confidence": "high"
   },
   {
-    "subject": "Alpha-Synuclein",
+    "subject": "Alpha-synuclein",
     "predicate": "bidirectionally_linked_with",
     "object": "Lewy Bodies",
     "context": "Strong connection in Alpha-Synuclein linking summary",
     "confidence": "high"
   },
   {
-    "subject": "Alpha-Synuclein",
+    "subject": "Alpha-synuclein",
     "predicate": "converts_to",
     "object": "Alpha-Synuclein Aggregation",
     "context": "Misfolded alpha-synuclein aggregates into fibrils",
     "confidence": "high"
   },
   {
-    "subject": "Alpha-Synuclein",
+    "subject": "Alpha-synuclein",
     "predicate": "plays_role_in",
     "object": "Parkinson's Disease",
     "context": "the clustering and recycling of synaptic vesicles, and its aggregation in [[notes/_link/Parkinson's Disease]] disrupts normal [[Neurotransmission]]",
@@ -72,7 +65,7 @@
   {
     "subject": "Alpha-Synuclein Aggregation",
     "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-Synuclein",
+    "object": "Alpha-synuclein",
     "context": "Strong connection in Alpha-Synuclein Aggregation linking summary",
     "confidence": "high"
   },
@@ -100,14 +93,14 @@
   {
     "subject": "Aminochrome",
     "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-Synuclein",
+    "object": "Alpha-synuclein",
     "context": "Strong connection in Aminochrome linking summary",
     "confidence": "high"
   },
   {
     "subject": "Aminochrome",
     "predicate": "binds_to",
-    "object": "Alpha-Synuclein",
+    "object": "Alpha-synuclein",
     "context": "Aminochrome forms adducts with alpha-synuclein",
     "confidence": "high"
   },
@@ -116,13 +109,6 @@
     "predicate": "converts_to",
     "object": "Neuromelanin",
     "context": "Aminochromes polymerize to form NM",
-    "confidence": "high"
-  },
-  {
-    "subject": "Aminochrome",
-    "predicate": "is_a",
-    "object": "intermediate product",
-    "context": "Definition in Aminochrome",
     "confidence": "high"
   },
   {
@@ -140,24 +126,10 @@
     "confidence": "high"
   },
   {
-    "subject": "Antigen Presentation",
-    "predicate": "is_a",
-    "object": "biological process",
-    "context": "Definition in Antigen Presentation",
-    "confidence": "high"
-  },
-  {
     "subject": "Apoptosis",
     "predicate": "bidirectionally_linked_with",
     "object": "Mitochondrial Dysfunction",
     "context": "Strong connection in Apoptosis linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Apoptosis",
-    "predicate": "is_a",
-    "object": "process",
-    "context": "Definition in Apoptosis",
     "confidence": "high"
   },
   {
@@ -168,14 +140,14 @@
     "confidence": "high"
   },
   {
-    "subject": "Ascorbic acid",
+    "subject": "Ascorbic Acid",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": "Strong connection in Ascorbic acid linking summary",
     "confidence": "high"
   },
   {
-    "subject": "Ascorbic acid",
+    "subject": "Ascorbic Acid",
     "predicate": "protects_against",
     "object": "Oxidative Stress",
     "context": "Ascorbic acid protects DA from auto-oxidation in vesicles",
@@ -205,7 +177,7 @@
   {
     "subject": "Autophagy",
     "predicate": "bidirectionally_linked_with",
-    "object": "TFEB|TFEB",
+    "object": "TFEB",
     "context": "Strong connection in Autophagy linking summary",
     "confidence": "high"
   },
@@ -214,13 +186,6 @@
     "predicate": "impairs",
     "object": "Parkinson's Disease",
     "context": "Impaired autophagy is a central feature of PD",
-    "confidence": "high"
-  },
-  {
-    "subject": "Autophagy",
-    "predicate": "is_a",
-    "object": "conserved cellular degradation pathway",
-    "context": "Definition in Autophagy",
     "confidence": "high"
   },
   {
@@ -287,13 +252,6 @@
     "confidence": "medium"
   },
   {
-    "subject": "Chemical memory",
-    "predicate": "is_a",
-    "object": "hypothesized form",
-    "context": "Definition in Chemical memory",
-    "confidence": "high"
-  },
-  {
     "subject": "Complex I",
     "predicate": "bidirectionally_linked_with",
     "object": "Mitochondrial Dysfunction",
@@ -315,24 +273,10 @@
     "confidence": "high"
   },
   {
-    "subject": "Cutaneous Melanoma",
-    "predicate": "is_a",
-    "object": "type of skin cancer",
-    "context": "Definition in Cutaneous Melanoma",
-    "confidence": "high"
-  },
-  {
     "subject": "Cysteine",
     "predicate": "bidirectionally_linked_with",
     "object": "Pheomelanin",
     "context": "Strong connection in Cysteine linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Cysteine",
-    "predicate": "is_a",
-    "object": "sulfur-containing amino acid",
-    "context": "Definition in Cysteine",
     "confidence": "high"
   },
   {
@@ -357,24 +301,10 @@
     "confidence": "high"
   },
   {
-    "subject": "Dolichol",
-    "predicate": "is_a",
-    "object": "polyisoprenoid lipid",
-    "context": "Definition in Dolichol",
-    "confidence": "high"
-  },
-  {
     "subject": "Dopachrome tautomerase",
     "predicate": "bidirectionally_linked_with",
     "object": "Tyrosinase-related protein-2",
     "context": "Strong connection in Dopachrome tautomerase linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Dopachrome tautomerase",
-    "predicate": "is_a",
-    "object": "alternative name",
-    "context": "Definition in Dopachrome tautomerase",
     "confidence": "high"
   },
   {
@@ -441,13 +371,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Dopamine o-quinone",
-    "predicate": "is_a",
-    "object": "highly reactive oxidative product",
-    "context": "Definition in Dopamine o-quinone",
-    "confidence": "high"
-  },
-  {
     "subject": "Dopaminochrome",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
@@ -462,13 +385,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Dopaminochrome",
-    "predicate": "is_a",
-    "object": "reactive cyclized",
-    "context": "Definition in Dopaminochrome",
-    "confidence": "high"
-  },
-  {
     "subject": "Dorsal Motor Nucleus of the Vagus",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
@@ -476,7 +392,7 @@
     "confidence": "high"
   },
   {
-    "subject": "Endoplasmic reticulum stress",
+    "subject": "Endoplasmic Reticulum Stress",
     "predicate": "bidirectionally_linked_with",
     "object": "Proteostasis",
     "context": "Strong connection in Endoplasmic reticulum stress linking summary",
@@ -487,13 +403,6 @@
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Strong connection in Eumelanin linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Eumelanin",
-    "predicate": "is_a",
-    "object": "type",
-    "context": "Definition in Eumelanin",
     "confidence": "high"
   },
   {
@@ -520,7 +429,7 @@
   {
     "subject": "Glucocerebrosidase",
     "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-Synuclein",
+    "object": "Alpha-synuclein",
     "context": "Strong connection in Glucocerebrosidase linking summary",
     "confidence": "high"
   },
@@ -553,13 +462,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Haloperidol",
-    "predicate": "is_a",
-    "object": "antipsychotic medication",
-    "context": "Definition in Haloperidol",
-    "confidence": "high"
-  },
-  {
     "subject": "Immunoglobulin G",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
@@ -571,13 +473,6 @@
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Strong connection in Incidental Lewy Body Disease linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Incidental Lewy Body Disease",
-    "predicate": "is_a",
-    "object": "presymptomatic stage of PD",
-    "context": "ILBD is considered presymptomatic PD",
     "confidence": "high"
   },
   {
@@ -606,13 +501,6 @@
     "predicate": "causes",
     "object": "Oxidative Stress",
     "context": "Iron promotes ROS formation via Fenton reaction",
-    "confidence": "high"
-  },
-  {
-    "subject": "Iron",
-    "predicate": "is_a",
-    "object": "essential metal",
-    "context": "Definition in Iron",
     "confidence": "high"
   },
   {
@@ -658,13 +546,6 @@
     "confidence": "high"
   },
   {
-    "subject": "L-Tyrosine",
-    "predicate": "is_a",
-    "object": "non-essential amino acid",
-    "context": "Definition in L-Tyrosine",
-    "confidence": "high"
-  },
-  {
     "subject": "Lewy Bodies",
     "predicate": "associated_with",
     "object": "Neuromelanin",
@@ -674,7 +555,7 @@
   {
     "subject": "Lewy Bodies",
     "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-Synuclein",
+    "object": "Alpha-synuclein",
     "context": "Strong connection in Lewy Bodies linking summary",
     "confidence": "high"
   },
@@ -716,22 +597,15 @@
   {
     "subject": "Lysosomal Biogenesis",
     "predicate": "bidirectionally_linked_with",
-    "object": "TFEB|TFEB",
+    "object": "TFEB",
     "context": "Strong connection in Lysosomal Biogenesis linking summary",
     "confidence": "high"
   },
   {
     "subject": "Lysosomal Exocytosis",
     "predicate": "bidirectionally_linked_with",
-    "object": "TFEB|TFEB",
+    "object": "TFEB",
     "context": "Strong connection in Lysosomal Exocytosis linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Lysosomal Exocytosis",
-    "predicate": "is_a",
-    "object": "process in",
-    "context": "Definition in Lysosomal Exocytosis",
     "confidence": "high"
   },
   {
@@ -809,13 +683,6 @@
     "predicate": "causes",
     "object": "Manganism",
     "context": "Manganese exposure causes manganism, resembling PD",
-    "confidence": "high"
-  },
-  {
-    "subject": "Manganese",
-    "predicate": "is_a",
-    "object": "transition metal",
-    "context": "Definition in Manganese",
     "confidence": "high"
   },
   {
@@ -1072,13 +939,6 @@
   },
   {
     "subject": "Neuromelanin",
-    "predicate": "is_a",
-    "object": "polymer",
-    "context": "NM is a complex brown-black pigmented biopolymer",
-    "confidence": "high"
-  },
-  {
-    "subject": "Neuromelanin",
     "predicate": "is_marker_of",
     "object": "Parkinson's Disease",
     "context": "Loss of NM-containing neurons is hallmark of PD",
@@ -1141,13 +1001,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Neuronophagia",
-    "predicate": "is_a",
-    "object": "pathological process",
-    "context": "Definition in Neuronophagia",
-    "confidence": "high"
-  },
-  {
     "subject": "Neuroprotection",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
@@ -1159,13 +1012,6 @@
     "predicate": "bidirectionally_linked_with",
     "object": "MPTP",
     "context": "Strong connection in Neurotoxin linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Neurotoxin",
-    "predicate": "is_a",
-    "object": "substance",
-    "context": "Definition in Neurotoxin",
     "confidence": "high"
   },
   {
@@ -1197,13 +1043,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Nicotine",
-    "predicate": "is_a",
-    "object": "alkaloid found",
-    "context": "Definition in Nicotine",
-    "confidence": "high"
-  },
-  {
     "subject": "Nigrostriatal System",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
@@ -1225,13 +1064,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Oxidation",
-    "predicate": "is_a",
-    "object": "chemical reaction",
-    "context": "Definition in Oxidation",
-    "confidence": "high"
-  },
-  {
     "subject": "Oxidative Stress",
     "predicate": "bidirectionally_linked_with",
     "object": "DJ-1",
@@ -1250,13 +1082,6 @@
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Strong connection in Paraquat linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Paraquat",
-    "predicate": "is_a",
-    "object": "widely used herbicide",
-    "context": "Definition in Paraquat",
     "confidence": "high"
   },
   {
@@ -1330,24 +1155,10 @@
     "confidence": "high"
   },
   {
-    "subject": "Pathogenic Threshold of Neuromelanin",
-    "predicate": "is_a",
-    "object": "hypothesized level",
-    "context": "Definition in Pathogenic Threshold of Neuromelanin",
-    "confidence": "high"
-  },
-  {
     "subject": "Pheomelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Strong connection in Pheomelanin linking summary",
-    "confidence": "high"
-  },
-  {
-    "subject": "Pheomelanin",
-    "predicate": "is_a",
-    "object": "type of melanin pigment",
-    "context": "Definition in Pheomelanin",
     "confidence": "high"
   },
   {
@@ -1358,16 +1169,9 @@
     "confidence": "high"
   },
   {
-    "subject": "Pons",
-    "predicate": "is_a",
-    "object": "region",
-    "context": "Definition in Pons",
-    "confidence": "high"
-  },
-  {
     "subject": "Proteasome",
     "predicate": "bidirectionally_linked_with",
-    "object": "Ubiquitin-proteasome system",
+    "object": "Ubiquitin-Proteasome System",
     "context": "Strong connection in Proteasome linking summary",
     "confidence": "high"
   },
@@ -1393,13 +1197,6 @@
     "confidence": "high"
   },
   {
-    "subject": "Substantia Nigra",
-    "predicate": "is_a",
-    "object": "key pathological diagnostic criterion",
-    "context": "Definition in Lewy Bodies",
-    "confidence": "high"
-  },
-  {
     "subject": "Substantia Nigra Pars Compacta",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
@@ -1416,7 +1213,7 @@
   {
     "subject": "Synaptic Vesicles",
     "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-Synuclein",
+    "object": "Alpha-synuclein",
     "context": "Strong connection in Synaptic Vesicles linking summary",
     "confidence": "high"
   },
@@ -1472,26 +1269,19 @@
   {
     "subject": "Ubiquitin",
     "predicate": "bidirectionally_linked_with",
-    "object": "Ubiquitin-proteasome system",
+    "object": "Ubiquitin-Proteasome System",
     "context": "Strong connection in Ubiquitin linking summary",
     "confidence": "high"
   },
   {
-    "subject": "Ubiquitin",
-    "predicate": "is_a",
-    "object": "small regulatory protein found",
-    "context": "Definition in Ubiquitin",
-    "confidence": "high"
-  },
-  {
-    "subject": "Ubiquitin-proteasome system",
+    "subject": "Ubiquitin-Proteasome System",
     "predicate": "bidirectionally_linked_with",
     "object": "Lewy Bodies",
     "context": "Strong connection in Ubiquitin-proteasome system linking summary",
     "confidence": "high"
   },
   {
-    "subject": "Ubiquitin-proteasome system",
+    "subject": "Ubiquitin-Proteasome System",
     "predicate": "regulates",
     "object": "Proteostasis",
     "context": "UPS is complementary protein degradation pathway",

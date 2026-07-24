@@ -37,14 +37,35 @@
   {
     "subject": "Cancer",
     "predicate": "is_driven_by",
-    "object": "PI3K/Akt/mTOR Pathway",
+    "object": "PI3K",
     "context": "The PI3K/Akt/mTOR pathway is frequently dysregulated in cancer, promoting proliferation and survival.",
     "confidence": "high"
   },
   {
     "subject": "Cancer",
     "predicate": "is_driven_by",
-    "object": "MAPK/ERK Pathway",
+    "object": "Akt",
+    "context": "The PI3K/Akt/mTOR pathway is frequently dysregulated in cancer, promoting proliferation and survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "mTOR",
+    "context": "The PI3K/Akt/mTOR pathway is frequently dysregulated in cancer, promoting proliferation and survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "MAPK",
+    "context": "The MAPK/ERK pathway is frequently dysregulated in cancer, promoting proliferative signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "ERK",
     "context": "The MAPK/ERK pathway is frequently dysregulated in cancer, promoting proliferative signaling.",
     "confidence": "high"
   },
@@ -58,15 +79,22 @@
   {
     "subject": "Cancer",
     "predicate": "is_driven_by",
-    "object": "JAK2/STAT3",
+    "object": "JAK2",
     "context": "JAK2/STAT3 signaling is frequently dysregulated in cancer, promoting survival and inflammation.",
     "confidence": "high"
   },
   {
     "subject": "Cancer",
     "predicate": "is_driven_by",
-    "object": "NF-κB",
-    "context": "NF-κB signaling is frequently dysregulated in cancer, promoting survival and inflammation.",
+    "object": "STAT3",
+    "context": "JAK2/STAT3 signaling is frequently dysregulated in cancer, promoting survival and inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cancer",
+    "predicate": "is_driven_by",
+    "object": "NF\u03baB",
+    "context": "NF\u03baB signaling is frequently dysregulated in cancer, promoting survival and inflammation.",
     "confidence": "high"
   },
   {
@@ -178,7 +206,7 @@
     "subject": "Cancer",
     "predicate": "is_treated_by",
     "object": "BET inhibitors",
-    "context": "BET inhibitors downregulate MYC and suppress NF-κB-dependent transcription in MYC-driven cancers.",
+    "context": "BET inhibitors downregulate MYC and suppress NF\u03baB-dependent transcription in MYC-driven cancers.",
     "confidence": "high"
   },
   {
@@ -247,8 +275,8 @@
   {
     "subject": "Apoptosis",
     "predicate": "is_inhibited_by",
-    "object": "IAPs",
-    "context": "Inhibitor of Apoptosis Proteins (IAPs) are endogenous inhibitors of caspases that block apoptosis execution.",
+    "object": "Inhibitor of Apoptosis Proteins",
+    "context": "Inhibitor of Apoptosis Proteins (Inhibitor of Apoptosis Proteins) are endogenous inhibitors of caspases that block apoptosis execution.",
     "confidence": "high"
   },
   {
@@ -430,7 +458,7 @@
     "subject": "MOMP",
     "predicate": "releases",
     "object": "Smac-DIABLO",
-    "context": "Smac/DIABLO is co-released with cytochrome c during MOMP to neutralize IAPs.",
+    "context": "Smac/DIABLO is co-released with cytochrome c during MOMP to neutralize Inhibitor of Apoptosis Proteins.",
     "confidence": "high"
   },
   {
@@ -477,7 +505,7 @@
   },
   {
     "subject": "Apoptosome",
-    "predicate": "is_triggers_by",
+    "predicate": "is_triggered_by",
     "object": "Cytochrome c",
     "context": "Cytochrome c binds the Apaf-1 WD40 domain, triggering dATP-dependent oligomerization into the apoptosome.",
     "confidence": "high"
@@ -674,8 +702,8 @@
   {
     "subject": "Caspase-3",
     "predicate": "is_enhanced_by",
-    "object": "PKCδ",
-    "context": "PKCδ directly enhances Caspase-3 activity.",
+    "object": "PKC\u03b4",
+    "context": "PKC\u03b4 directly enhances Caspase-3 activity.",
     "confidence": "medium"
   },
   {
@@ -793,43 +821,43 @@
   {
     "subject": "Caspase-9",
     "predicate": "is_inhibited_by",
-    "object": "PKCζ",
-    "context": "PKCζ phosphorylates Caspase-9 at Ser144 to inhibit its pro-apoptotic function.",
+    "object": "PKC\u03b6",
+    "context": "PKC\u03b6 phosphorylates Caspase-9 at Ser144 to inhibit its pro-apoptotic function.",
     "confidence": "medium"
   },
   {
-    "subject": "IAPs",
+    "subject": "Inhibitor of Apoptosis Proteins",
     "predicate": "inhibit",
     "object": "Caspase-3",
-    "context": "IAPs including XIAP bind and inhibit Caspase-3 executioner activity.",
+    "context": "Inhibitor of Apoptosis Proteins including XIAP bind and inhibit Caspase-3 executioner activity.",
     "confidence": "high"
   },
   {
-    "subject": "IAPs",
+    "subject": "Inhibitor of Apoptosis Proteins",
     "predicate": "inhibit",
     "object": "Caspase-7",
-    "context": "IAPs including XIAP inhibit Caspase-7 executioner activity.",
+    "context": "Inhibitor of Apoptosis Proteins including XIAP inhibit Caspase-7 executioner activity.",
     "confidence": "high"
   },
   {
-    "subject": "IAPs",
+    "subject": "Inhibitor of Apoptosis Proteins",
     "predicate": "inhibit",
     "object": "Caspase-9",
-    "context": "IAPs including XIAP inhibit Caspase-9 initiator activity.",
+    "context": "Inhibitor of Apoptosis Proteins including XIAP inhibit Caspase-9 initiator activity.",
     "confidence": "high"
   },
   {
-    "subject": "IAPs",
+    "subject": "Inhibitor of Apoptosis Proteins",
     "predicate": "are_antagonized_by",
     "object": "Smac-DIABLO",
-    "context": "Smac/DIABLO neutralizes IAPs by binding their BIR domains, relieving caspase inhibition.",
+    "context": "Smac/DIABLO neutralizes Inhibitor of Apoptosis Proteins by binding their BIR domains, relieving caspase inhibition.",
     "confidence": "high"
   },
   {
-    "subject": "IAPs",
+    "subject": "Inhibitor of Apoptosis Proteins",
     "predicate": "are_overexpressed_in",
     "object": "Cancer",
-    "context": "IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival.",
+    "context": "Inhibitor of Apoptosis Proteins are frequently overexpressed in cancer, contributing to drug resistance and tumor survival.",
     "confidence": "high"
   },
   {
@@ -884,7 +912,7 @@
   {
     "subject": "Survivin",
     "predicate": "is_a_member_of",
-    "object": "IAPs",
+    "object": "Inhibitor of Apoptosis Proteins",
     "context": "Survivin (BIRC5) is a member of the IAP family with dual roles in apoptosis inhibition and cell division.",
     "confidence": "high"
   },
@@ -920,7 +948,7 @@
     "subject": "Smac-DIABLO",
     "predicate": "antagonizes",
     "object": "Survivin",
-    "context": "Smac/DIABLO binds and neutralizes Survivin among other IAPs.",
+    "context": "Smac/DIABLO binds and neutralizes Survivin among other Inhibitor of Apoptosis Proteins.",
     "confidence": "high"
   },
   {
@@ -934,7 +962,7 @@
     "subject": "Smac-DIABLO",
     "predicate": "promotes",
     "object": "Apoptosis",
-    "context": "By neutralizing IAPs, Smac/DIABLO relieves the brakes on caspase activation and promotes apoptosis.",
+    "context": "By neutralizing Inhibitor of Apoptosis Proteins, Smac/DIABLO relieves the brakes on caspase activation and promotes apoptosis.",
     "confidence": "high"
   },
   {
@@ -1101,8 +1129,8 @@
   {
     "subject": "VEGF",
     "predicate": "is_induced_by",
-    "object": "HIF-1α",
-    "context": "Hypoxia stabilizes HIF-1α, which transcriptionally activates the VEGFA gene.",
+    "object": "HIF-1\u03b1",
+    "context": "Hypoxia stabilizes HIF-1\u03b1, which transcriptionally activates the VEGFA gene.",
     "confidence": "high"
   },
   {
@@ -1234,8 +1262,8 @@
   {
     "subject": "Warburg Effect",
     "predicate": "is_driven_by",
-    "object": "HIF-1α",
-    "context": "HIF-1α transcriptionally activates glycolytic genes during the Warburg Effect.",
+    "object": "HIF-1\u03b1",
+    "context": "HIF-1\u03b1 transcriptionally activates glycolytic genes during the Warburg Effect.",
     "confidence": "high"
   },
   {
@@ -1262,8 +1290,8 @@
   {
     "subject": "EMT",
     "predicate": "is_induced_by",
-    "object": "TGF-β",
-    "context": "TGF-β is a major EMT-inducing cytokine that activates EMT transcription factors.",
+    "object": "TGF\u03b2",
+    "context": "TGF\u03b2 is a major EMT-inducing cytokine that activates EMT transcription factors.",
     "confidence": "high"
   },
   {
@@ -1465,8 +1493,8 @@
   {
     "subject": "BET inhibitors",
     "predicate": "suppress",
-    "object": "NF-κB",
-    "context": "BET inhibitors suppress NF-κB-dependent transcription of inflammatory cytokines.",
+    "object": "NF\u03baB",
+    "context": "BET inhibitors suppress NF\u03baB-dependent transcription of inflammatory cytokines.",
     "confidence": "high"
   },
   {
@@ -1514,7 +1542,14 @@
   {
     "subject": "Ivermectin",
     "predicate": "inhibits",
-    "object": "Akt/mTOR",
+    "object": "Akt",
+    "context": "Ivermectin inhibits the Akt/mTOR pathway to induce autophagy in cancer cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "mTOR",
     "context": "Ivermectin inhibits the Akt/mTOR pathway to induce autophagy in cancer cells.",
     "confidence": "medium"
   },
@@ -1690,7 +1725,7 @@
     "subject": "Multidrug Resistance",
     "predicate": "is_reversed_by",
     "object": "Ivermectin",
-    "context": "Ivermectin reverses MDR by inhibiting P-gp and downregulating its expression via EGFR/ERK/Akt/NF-κB.",
+    "context": "Ivermectin reverses MDR by inhibiting P-gp and downregulating its expression via EGFR/ERK/Akt/NF\u03baB.",
     "confidence": "medium"
   },
   {
@@ -1710,8 +1745,8 @@
   {
     "subject": "Multidrug Resistance",
     "predicate": "is_driven_by",
-    "object": "NF-κB",
-    "context": "NF-κB signaling can upregulate MDR-associated protein expression.",
+    "object": "NF\u03baB",
+    "context": "NF\u03baB signaling can upregulate MDR-associated protein expression.",
     "confidence": "medium"
   },
   {
@@ -1753,7 +1788,7 @@
     "subject": "Therapy-Induced Senescence",
     "predicate": "produces",
     "object": "SASP",
-    "context": "TIS cells develop a pro-inflammatory SASP via NF-κB and cGAS-STING signaling.",
+    "context": "TIS cells develop a pro-inflammatory SASP via NF\u03baB and cGAS-STING signaling.",
     "confidence": "high"
   },
   {
@@ -1787,14 +1822,28 @@
   {
     "subject": "Therapy-Induced Senescence",
     "predicate": "is_enforced_by",
-    "object": "p53/p21 Pathway",
+    "object": "p53",
     "context": "Genotoxic stress stabilizes p53 which induces p21 to enforce G1/S arrest in TIS.",
     "confidence": "high"
   },
   {
     "subject": "Therapy-Induced Senescence",
     "predicate": "is_enforced_by",
-    "object": "p16/Rb Pathway",
+    "object": "p21",
+    "context": "Genotoxic stress stabilizes p53 which induces p21 to enforce G1/S arrest in TIS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_enforced_by",
+    "object": "p16",
+    "context": "Sustained TIS arrest is locked in by p16-mediated inhibition of CDK4/6.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_enforced_by",
+    "object": "Rb",
     "context": "Sustained TIS arrest is locked in by p16-mediated inhibition of CDK4/6.",
     "confidence": "high"
   },
@@ -1827,10 +1876,10 @@
     "confidence": "high"
   },
   {
-    "subject": "TGF-β",
+    "subject": "TGF\u03b2",
     "predicate": "induces",
     "object": "EMT",
-    "context": "TGF-β is a major EMT-inducing cytokine that activates EMT transcription factors Snail, Slug, ZEB1/2, and Twist.",
+    "context": "TGF\u03b2 is a major EMT-inducing cytokine that activates EMT transcription factors Snail, Slug, ZEB1/2, and Twist.",
     "confidence": "high"
   },
   {
@@ -1860,5 +1909,768 @@
     "object": "Ivermectin",
     "context": "Ivermectin inhibits YAP1 activity in gastric and liver cancers.",
     "confidence": "medium"
+  },
+  {
+    "subject": "AIF",
+    "predicate": "is_released_from",
+    "object": "MOMP",
+    "context": "AIF is released from mitochondria upon MOMP and translocates to the nucleus to induce caspase-independent cell death.",
+    "confidence": "high"
+  },
+  {
+    "subject": "AIF",
+    "predicate": "induces",
+    "object": "chromatin condensation",
+    "context": "AIF binds DNA and Cyclophilin A to induce large-scale chromatin fragmentation and condensation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "AIF",
+    "predicate": "is_a_type_of",
+    "object": "Apoptosis",
+    "context": "AIF executes a caspase-independent form of programmed cell death.",
+    "confidence": "high"
+  },
+  {
+    "subject": "AIF",
+    "predicate": "contributes_to",
+    "object": "Chemotherapy",
+    "context": "AIF contributes to the lethality of chemotherapy agents that inflict oxidative damage.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "ALIX",
+    "predicate": "regulates",
+    "object": "PD-L1",
+    "context": "ALIX controls exosomal secretion of PD-L1; its downregulation retains PD-L1 on the cell surface.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "ALIX",
+    "predicate": "regulates",
+    "object": "EGFR",
+    "context": "Loss of ALIX correlates with heightened EGFR signaling and proliferative drive in basal-like breast cancer.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "ALIX",
+    "predicate": "regulates",
+    "object": "Exosomes",
+    "context": "ALIX collaborates with ESCRT-III to package cargo into intraluminal vesicles released as exosomes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ALIX",
+    "predicate": "is_linked_to",
+    "object": "Breast Cancer",
+    "context": "ALIX loss in basal-like breast cancer correlates with EGFR activation and proliferative drive.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "is_a_member_of",
+    "object": "Bcl-2 family",
+    "context": "Bad is a pro-apoptotic BH3-only member of the Bcl-2 family.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "binds",
+    "object": "Bcl-xL",
+    "context": "Bad functions by binding and neutralizing anti-apoptotic Bcl-xL.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "binds",
+    "object": "Bcl-w",
+    "context": "Bad functions by binding and neutralizing the anti-apoptotic Bcl-w.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "promotes",
+    "object": "Intrinsic Pathway",
+    "context": "Dephosphorylated Bad translocates to mitochondria to promote the intrinsic apoptotic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "is_inhibited_by",
+    "object": "Akt",
+    "context": "Akt phosphorylates Bad to promote its sequestration by 14-3-3 proteins, suppressing pro-apoptotic activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "is_inhibited_by",
+    "object": "PAK1",
+    "context": "PAK1 directly phosphorylates Bad at Ser111 to inactivate it.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Bcl-w",
+    "predicate": "is_a_member_of",
+    "object": "Bcl-2 family",
+    "context": "Bcl-w is an anti-apoptotic member of the Bcl-2 family.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-w",
+    "predicate": "inhibits",
+    "object": "MOMP",
+    "context": "Bcl-w preserves mitochondrial integrity by binding and sequestering Bax/Bak, blocking MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-w",
+    "predicate": "is_inhibited_by",
+    "object": "ABT-737",
+    "context": "ABT-737 is a broad-spectrum BH3 mimetic that inhibits Bcl-w.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-w",
+    "predicate": "is_inhibited_by",
+    "object": "ABT-263",
+    "context": "ABT-263 (navitoclax) inhibits Bcl-w among other anti-apoptotic Bcl-2 proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-w",
+    "predicate": "is_overexpressed_in",
+    "object": "Cancer",
+    "context": "Bcl-w is upregulated in colorectal, gastric, bladder, and hematological cancers contributing to survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bcl-w",
+    "predicate": "confers_resistance_to",
+    "object": "Chemotherapy",
+    "context": "Bcl-w overexpression contributes to chemotherapy resistance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bik",
+    "predicate": "is_a_member_of",
+    "object": "Bcl-2 family",
+    "context": "Bik is a BH3-only protein of the Bcl-2 family that acts as a direct activator of Bax/Bak.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bik",
+    "predicate": "activates",
+    "object": "Bax",
+    "context": "Bik directly activates Bax to trigger mitochondrial outer membrane permeabilization.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bik",
+    "predicate": "activates",
+    "object": "Bak",
+    "context": "Bik directly activates Bak to trigger mitochondrial outer membrane permeabilization.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bik",
+    "predicate": "is_degraded_by",
+    "object": "SRC kinase",
+    "context": "SRC kinase promotes Bik degradation via an ERK-dependent phosphorylation cascade.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bik",
+    "predicate": "is_degraded_by",
+    "object": "ERK",
+    "context": "ERK-mediated phosphorylation targets Bik for ubiquitination and destruction, suppressing apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bik",
+    "predicate": "acts_as",
+    "object": "Tumor Suppressor",
+    "context": "By initiating apoptosis, Bik constrains oncogenesis; its loss removes a barrier to cancer.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Bmf",
+    "predicate": "is_a_member_of",
+    "object": "Bcl-2 family",
+    "context": "Bmf is a BH3-only Bcl-2 family protein that initiates the intrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bmf",
+    "predicate": "activates",
+    "object": "Bax",
+    "context": "Bmf activates Bax and Bak by antagonizing anti-apoptotic Bcl-2 proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bmf",
+    "predicate": "activates",
+    "object": "Bak",
+    "context": "Bmf activates Bak to initiate the intrinsic apoptotic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bmf",
+    "predicate": "is_inhibited_by",
+    "object": "ERK2",
+    "context": "ERK2 phosphorylates Bmf at Ser77, inhibiting its pro-apoptotic function.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Bmf",
+    "predicate": "suppresses",
+    "object": "Metastasis",
+    "context": "Bmf enforces anoikis by killing detached cells, restraining metastatic dissemination.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-2",
+    "predicate": "is_a_type_of",
+    "object": "Caspase",
+    "context": "Caspase-2 is an initiator caspase activated by the PIDDosome during DNA damage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-2",
+    "predicate": "is_activated_by",
+    "object": "PIDDosome",
+    "context": "Caspase-2 is activated via proximity-induced autoproteolysis within the PIDDosome complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-2",
+    "predicate": "is_phosphorylated_by",
+    "object": "CDK1",
+    "context": "Caspase-2 is phosphorylated at Ser308 by CDK1/CYCLIN B1.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-2",
+    "predicate": "is_phosphorylated_by",
+    "object": "CaMKII",
+    "context": "Caspase-2 is phosphorylated at Ser164 by CaMKII.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-2",
+    "predicate": "cleaves",
+    "object": "Bid",
+    "context": "Active caspase-2 processes Bid to tBid, triggering mitochondrial MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-6",
+    "predicate": "is_a_type_of",
+    "object": "Caspase",
+    "context": "Caspase-6 is an executioner caspase activated during the terminal phase of apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-6",
+    "predicate": "is_activated_by",
+    "object": "Caspase-8",
+    "context": "Caspase-8 activates caspase-6 via the extrinsic apoptotic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-6",
+    "predicate": "is_activated_by",
+    "object": "Caspase-9",
+    "context": "Caspase-9 activates caspase-6 via the intrinsic apoptotic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-6",
+    "predicate": "cleaves",
+    "object": "Lamins",
+    "context": "Caspase-6 cleaves nuclear lamin A, driving nuclear envelope breakdown and chromatin condensation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-6",
+    "predicate": "contributes_to",
+    "object": "chromatin condensation",
+    "context": "Caspase-6-mediated lamin A cleavage is a principal driver of nuclear collapse during apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-10",
+    "predicate": "is_a_type_of",
+    "object": "Caspase",
+    "context": "Caspase-10 is an initiator caspase closely related to caspase-8 activating the extrinsic pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-10",
+    "predicate": "is_activated_at",
+    "object": "DISC",
+    "context": "Caspase-10 is recruited to DISC via FADD where induced proximity drives self-cleavage and activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-10",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": "Active caspase-10 cleaves and activates executioner caspase-3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-10",
+    "predicate": "activates",
+    "object": "Caspase-7",
+    "context": "Active caspase-10 cleaves and activates executioner caspase-7.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-10",
+    "predicate": "is_downregulated_in",
+    "object": "Cancer",
+    "context": "Caspase-10 downregulation attenuates TRAIL-induced killing, fostering immune evasion.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Caspase-12",
+    "predicate": "is_a_type_of",
+    "object": "Caspase",
+    "context": "Caspase-12 is a protease primarily involved in the endoplasmic reticulum pathway of apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-12",
+    "predicate": "is_activated_by",
+    "object": "Endoplasmic Reticulum Pathway",
+    "context": "Caspase-12 is activated specifically by ER stress rather than mitochondrial or death-receptor signals.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Omi/HtrA2",
+    "predicate": "is_released_from",
+    "object": "MOMP",
+    "context": "Omi/HtrA2 is released from the mitochondrial intermembrane space following MOMP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Omi/HtrA2",
+    "predicate": "antagonizes",
+    "object": "Inhibitor of Apoptosis Proteins",
+    "context": "Omi/HtrA2 binds IAPs through its N-terminal IAP-binding motif, preventing caspase inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Omi/HtrA2",
+    "predicate": "antagonizes",
+    "object": "XIAP",
+    "context": "Omi/HtrA2 directly binds and neutralizes XIAP to relieve caspase inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Omi/HtrA2",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": "Omi/HtrA2 promotes apoptosis through IAP neutralization and direct proteolytic activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDD",
+    "predicate": "forms",
+    "object": "PIDDosome",
+    "context": "PIDD assembles the PIDDosome complex with RAIDD and caspase-2 for DNA damage-induced apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDD",
+    "predicate": "is_induced_by",
+    "object": "p53",
+    "context": "PIDD is transcriptionally induced by p53 in response to genotoxic stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDD",
+    "predicate": "activates",
+    "object": "NF\u03baB",
+    "context": "PIDD can bind NEMO and RIP1, activating the alternative NF-\u03baB survival pathway.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "PIDD",
+    "predicate": "activates",
+    "object": "Caspase-2",
+    "context": "PIDD recruits RAIDD and procaspase-2 into the PIDDosome to activate caspase-2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAIDD",
+    "predicate": "forms",
+    "object": "PIDDosome",
+    "context": "RAIDD bridges PIDD to caspase-2 via DD and CARD domains to nucleate the PIDDosome.",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAIDD",
+    "predicate": "activates",
+    "object": "Caspase-2",
+    "context": "RAIDD recruits procaspase-2 to the PIDDosome enabling proximity-driven activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAIDD",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": "RAIDD-dependent PIDDosome activation initiates apoptosis in response to genotoxic stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDDosome",
+    "predicate": "is_composed_of",
+    "object": "PIDD",
+    "context": "The PIDDosome is a multiprotein complex comprising PIDD, RAIDD, and procaspase-2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDDosome",
+    "predicate": "is_composed_of",
+    "object": "RAIDD",
+    "context": "RAIDD links PIDD to procaspase-2 within the PIDDosome complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDDosome",
+    "predicate": "activates",
+    "object": "Caspase-2",
+    "context": "The PIDDosome activates caspase-2 by proximity-induced autoproteolysis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIDDosome",
+    "predicate": "responds_to",
+    "object": "DNA Damage",
+    "context": "The PIDDosome is assembled in response to DNA damage and mitotic stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "FAK",
+    "predicate": "is_activated_by",
+    "object": "Integrins",
+    "context": "FAK is recruited to integrin-containing focal adhesions where it transduces mechanical cues.",
+    "confidence": "high"
+  },
+  {
+    "subject": "FAK",
+    "predicate": "activates",
+    "object": "PI3K",
+    "context": "FAK engages the PI3K/Akt pathway promoting survival and growth.",
+    "confidence": "high"
+  },
+  {
+    "subject": "FAK",
+    "predicate": "activates",
+    "object": "MAPK",
+    "context": "FAK-Src complexes engage the MAPK/ERK cascade driving proliferation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "FAK",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": "FAK drives cell migration, invasion, and metastasis through cytoskeletal remodeling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "FAK",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": "FAK cooperates with VEGF signaling in neovessel formation during angiogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "FAK",
+    "predicate": "is_overexpressed_in",
+    "object": "Cancer",
+    "context": "FAK is overexpressed in breast cancer, glioblastoma, hepatocellular carcinoma, and ovarian cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IKK",
+    "predicate": "activates",
+    "object": "NF\u03baB",
+    "context": "IKK phosphorylates I\u03baB\u03b1 triggering its degradation and liberating NF\u03baB for nuclear translocation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IKK",
+    "predicate": "phosphorylates",
+    "object": "Puma",
+    "context": "IKK directly phosphorylates Puma, modulating its pro-apoptotic activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "IKK",
+    "predicate": "phosphorylates",
+    "object": "Bad",
+    "context": "IKK phosphorylates Bad, inactivating it and inhibiting TNF\u03b1-induced apoptosis.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "IKK",
+    "predicate": "is_activated_in",
+    "object": "Cancer",
+    "context": "Constitutive IKK/NF\u03baB activation is a hallmark of cancer promoting proliferation and therapy resistance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "JNK",
+    "predicate": "is_a_type_of",
+    "object": "MAPK",
+    "context": "JNK is a stress-activated MAPK that translates cellular stress into transcriptional and apoptotic responses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "JNK",
+    "predicate": "phosphorylates",
+    "object": "Bim",
+    "context": "JNK phosphorylates Bim, displacing it from dynein complexes to activate Bax/Bak.",
+    "confidence": "high"
+  },
+  {
+    "subject": "JNK",
+    "predicate": "phosphorylates",
+    "object": "Mcl-1",
+    "context": "JNK phosphorylates and destabilizes Mcl-1, removing a survival brake.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "JNK",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": "JNK promotes apoptosis through Bim activation and Mcl-1 destabilization.",
+    "confidence": "high"
+  },
+  {
+    "subject": "JNK",
+    "predicate": "promotes",
+    "object": "EMT",
+    "context": "In established tumors, chronic JNK activation can support EMT and metastasis.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "ERK1_2",
+    "predicate": "is_a_type_of",
+    "object": "MAPK",
+    "context": "ERK1/2 are the terminal effector kinases of the RAS-RAF-MEK MAPK cascade.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ERK1_2",
+    "predicate": "is_activated_by",
+    "object": "MEK",
+    "context": "ERK1/2 are activated by MEK1/2 via dual phosphorylation on the TEY motif.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ERK1_2",
+    "predicate": "phosphorylates",
+    "object": "Bim",
+    "context": "ERK phosphorylates Bim leading to its c-CBL-mediated degradation, suppressing apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ERK1_2",
+    "predicate": "stabilizes",
+    "object": "Mcl-1",
+    "context": "ERK signaling stabilizes Mcl-1, promoting cell survival.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "ERK1_2",
+    "predicate": "is_dysregulated_in",
+    "object": "Cancer",
+    "context": "Oncogenic RAS/BRAF cause constitutive ERK activation driving the hallmarks of cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lung Cancer",
+    "predicate": "is_a_type_of",
+    "object": "Cancer",
+    "context": "Lung cancer is the most frequently diagnosed cancer and leading cause of cancer-related death globally.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lung Cancer",
+    "predicate": "is_driven_by",
+    "object": "EGFR",
+    "context": "EGFR-mutant NSCLC is treated with EGFR inhibitors such as erlotinib.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lung Cancer",
+    "predicate": "is_driven_by",
+    "object": "KRAS",
+    "context": "KRAS G12C mutation drives ~30% of NSCLC adenocarcinomas.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lung Cancer",
+    "predicate": "is_treated_by",
+    "object": "erlotinib",
+    "context": "Erlotinib targets EGFR-mutant non-small cell lung cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lung Cancer",
+    "predicate": "is_inhibited_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin inhibits lung cancer cell proliferation through YAP1 and EGFR signaling.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Lung Cancer",
+    "predicate": "evades",
+    "object": "Immune System",
+    "context": "KRAS-LKB1 mutant lung cancer silences STING, enabling immune evasion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KRAS",
+    "predicate": "is_a_type_of",
+    "object": "Oncogene",
+    "context": "KRAS is the most frequently mutated oncogene in human cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KRAS",
+    "predicate": "mutates_in",
+    "object": "Cancer",
+    "context": "KRAS hotspot mutations occur at G12, G13, and Q61, locking it in an active GTP-bound state.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KRAS",
+    "predicate": "activates",
+    "object": "MAPK",
+    "context": "KRAS relays signals from RTKs to the MAPK cascade promoting proliferation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KRAS",
+    "predicate": "activates",
+    "object": "PI3K",
+    "context": "KRAS activates the PI3K/Akt pathway for survival signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KRAS",
+    "predicate": "is_targeted_by",
+    "object": "Sotorasib",
+    "context": "Sotorasib directly targets KRAS G12C in NSCLC.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Immune Checkpoint",
+    "predicate": "is_co-opted_by",
+    "object": "Cancer",
+    "context": "Tumors exploit immune checkpoint pathways to evade antitumor immunity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Immune Checkpoint",
+    "predicate": "includes",
+    "object": "PD-L1",
+    "context": "PD-L1 on tumor cells binds PD-1 on T cells, suppressing T cell effector function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Immune Checkpoint",
+    "predicate": "is_targeted_by",
+    "object": "Immune Checkpoint Inhibitors",
+    "context": "ICIs targeting PD-1/PD-L1 and CTLA-4 have revolutionized cancer treatment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MMP",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": "MMP-2 and MMP-9 degrade basement membrane collagen IV, enabling tumor cell invasion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MMP",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": "MMPs release pro-angiogenic factors such as VEGF from ECM reservoirs.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "MMP",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "MMPs are core SASP components secreted by senescent cells that remodel the tissue microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MMP",
+    "predicate": "remodels",
+    "object": "Tumor Microenvironment",
+    "context": "MMPs degrade ECM and release growth factors, actively remodeling the tumor microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Tumor Microenvironment",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": "The TME facilitates cancer cell dissemination through ECM remodeling and paracrine signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Tumor Microenvironment",
+    "predicate": "promotes",
+    "object": "Immune Evasion",
+    "context": "The TME contains immunosuppressive cells (TAMs, MDSCs) that inhibit anti-tumor immunity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Tumor Microenvironment",
+    "predicate": "is_remodeled_by",
+    "object": "SASP",
+    "context": "SASP factors from senescent cells in the TME promote tumor progression and immune evasion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Tumor Microenvironment",
+    "predicate": "is_targeted_by",
+    "object": "Senolytic Therapy",
+    "context": "Senolytics clear senescent cells from the TME, eliminating SASP sources.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Tumor Microenvironment",
+    "predicate": "is_targeted_by",
+    "object": "Senomorphic Therapy",
+    "context": "Senomorphics suppress SASP factor production in the TME without killing senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PAK1",
+    "predicate": "phosphorylates",
+    "object": "Bad",
+    "context": "PAK1 directly phosphorylates Bad at Ser111 and indirectly through Raf-1 at Ser112.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "ERK2",
+    "predicate": "phosphorylates",
+    "object": "Bmf",
+    "context": "ERK2 phosphorylates Bmf at Ser77 to inhibit its pro-apoptotic function.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SRC kinase",
+    "predicate": "promotes_degradation_of",
+    "object": "Bik",
+    "context": "SRC kinase promotes Bik degradation via an ERK-dependent cascade, suppressing apoptosis.",
+    "confidence": "high"
   }
 ]

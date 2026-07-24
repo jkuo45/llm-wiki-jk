@@ -2,7 +2,7 @@
   {
     "subject": "Free Radicals",
     "predicate": "are derived from",
-    "object": "notes/_link/Reactive Oxygen Species",
+    "object": "Reactive Oxygen Species",
     "context": "in biological systems, free radicals are frequently derived from oxygen (ROS) or nitrogen (RNS)",
     "confidence": "high"
   },
@@ -16,35 +16,35 @@
   {
     "subject": "Free Radicals",
     "predicate": "damage",
-    "object": "notes/_link/DNA Damage",
+    "object": "DNA Damage",
     "context": "especially 8-oxo-2'-deoxyguanosine formation and single-strand breaks",
     "confidence": "high"
   },
   {
     "subject": "Free Radicals",
     "predicate": "contribute to",
-    "object": "notes/_link/Atherosclerosis",
+    "object": "Atherosclerosis",
     "context": "oxidation of low-density lipoprotein by free radicals is a rate-limiting step in plaque formation",
     "confidence": "high"
   },
   {
     "subject": "Free Radicals",
     "predicate": "are neutralized by",
-    "object": "notes/_link/Antioxidants",
+    "object": "Antioxidants",
     "context": "chain-breaking antioxidants such as Vitamin E and Vitamin C terminate radical propagation",
     "confidence": "high"
   },
   {
     "subject": "Superoxide Radicals",
     "predicate": "is a type of",
-    "object": "notes/_link/Reactive Oxygen Species",
+    "object": "Reactive Oxygen Species",
     "context": "superoxide is the primary ROS formed by addition of a single electron to molecular oxygen",
     "confidence": "high"
   },
   {
     "subject": "Superoxide Radicals",
     "predicate": "are produced by",
-    "object": "notes/_link/Mitochondria",
+    "object": "Mitochondria",
     "context": "primarily generated as a byproduct of the mitochondrial ETC at Complex I and III",
     "confidence": "high"
   },
@@ -65,14 +65,14 @@
   {
     "subject": "Superoxide Radicals",
     "predicate": "react with",
-    "object": "notes/_link/Nitric Oxide",
+    "object": "Nitric Oxide",
     "context": "near-diffusion-limited reaction generates peroxynitrite",
     "confidence": "high"
   },
   {
     "subject": "Superoxide Radicals",
     "predicate": "forms",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "spontaneous and enzymatic dismutation of superoxide produces H2O2",
     "confidence": "high"
   },
@@ -86,21 +86,21 @@
   {
     "subject": "Superoxide Radicals",
     "predicate": "contributes to",
-    "object": "notes/_link/Cardiovascular Disease",
+    "object": "Cardiovascular Disease",
     "context": "NOX-derived superoxide in the vascular wall consumes nitric oxide, impairing vasodilation",
     "confidence": "high"
   },
   {
     "subject": "Hydroxyl Radicals",
-    "predicate": "are",
-    "object": "the most reactive ROS",
+    "predicate": "are the most reactive",
+    "object": "Reactive Oxygen Species",
     "context": "most reactive and destructive species among all ROS",
     "confidence": "high"
   },
   {
     "subject": "Hydroxyl Radicals",
     "predicate": "are formed from",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "primarily formed through the Fenton reaction in the presence of Fe2+ or Cu+",
     "confidence": "high"
   },
@@ -114,7 +114,7 @@
   {
     "subject": "Hydroxyl Radicals",
     "predicate": "causes",
-    "object": "notes/_link/DNA Damage",
+    "object": "DNA Damage",
     "context": "causes direct strand breaks and base modifications including 8-oxo-2'-deoxyguanosine",
     "confidence": "high"
   },
@@ -128,21 +128,21 @@
   {
     "subject": "Hydroxyl Radicals",
     "predicate": "causes",
-    "object": "protein carbonylation",
+    "object": "Protein Carbonylation",
     "context": "causes irreversible oxidative modifications to proteins, leading to loss of function",
     "confidence": "high"
   },
   {
     "subject": "Hydroxyl Radicals",
     "predicate": "contributes to",
-    "object": "neurodegenerative diseases",
+    "object": "Neurodegenerative Diseases",
     "context": "iron accumulation in Substantia Nigra promotes local hydroxyl radical formation",
     "confidence": "high"
   },
   {
     "subject": "Singlet Oxygen",
     "predicate": "is a type of",
-    "object": "notes/_link/Reactive Oxygen Species",
+    "object": "Reactive Oxygen Species",
     "context": "an electronically excited state of molecular oxygen",
     "confidence": "high"
   },
@@ -156,12 +156,12 @@
   {
     "subject": "Singlet Oxygen",
     "predicate": "causes",
-    "object": "notes/_link/DNA Damage",
+    "object": "DNA Damage",
     "context": "reacts with guanine at C8 position producing 8-oxodG and other mutagenic lesions",
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Vitamin E",
+    "subject": "Vitamin E",
     "predicate": "quenches",
     "object": "Singlet Oxygen",
     "context": "alpha-tocopherol quenches singlet oxygen at high rate constants in lipid phases",
@@ -177,7 +177,7 @@
   {
     "subject": "Catalase",
     "predicate": "decomposes",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "catalyzes decomposition of H2O2 to water and oxygen with kcat ~10^7 s-1",
     "confidence": "high"
   },
@@ -205,21 +205,21 @@
   {
     "subject": "Catalase downregulation",
     "predicate": "contributes to",
-    "object": "notes/_link/Cancer",
+    "object": "Cancer",
     "context": "frequently downregulated in breast, prostate, and hepatocellular carcinoma",
     "confidence": "high"
   },
   {
     "subject": "Mitochondrial catalase overexpression",
     "predicate": "extends",
-    "object": "notes/_link/Aging",
+    "object": "Aging",
     "context": "MCAT mice show ~20% increase in median lifespan and delayed pathology",
     "confidence": "high"
   },
   {
     "subject": "Glutathione Peroxidase",
     "predicate": "reduces",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "reduces H2O2 to water using glutathione as reducing cofactor",
     "confidence": "high"
   },
@@ -231,7 +231,7 @@
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Glutathione",
+    "subject": "Glutathione",
     "predicate": "is a cofactor for",
     "object": "Glutathione Peroxidase",
     "context": "GSH is the reducing cofactor, oxidized to GSSG during the catalytic cycle",
@@ -280,7 +280,7 @@
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Vitamin E",
+    "subject": "Vitamin E",
     "predicate": "inhibits",
     "object": "Lipid Peroxidation",
     "context": "chain-breaking antioxidant intercepting peroxyl radicals",
@@ -289,7 +289,7 @@
   {
     "subject": "Lipid Peroxidation",
     "predicate": "contributes to",
-    "object": "notes/_link/Atherosclerosis",
+    "object": "Atherosclerosis",
     "context": "oxidative modification of LDL is an initiating event in plaque formation",
     "confidence": "high"
   },
@@ -310,7 +310,7 @@
   {
     "subject": "Malondialdehyde",
     "predicate": "forms adducts with",
-    "object": "notes/_link/DNA Damage",
+    "object": "DNA Damage",
     "context": "forms M1dG lesion with deoxyguanosine, inducing G\u2192T transversions",
     "confidence": "high"
   },
@@ -324,14 +324,14 @@
   {
     "subject": "Elevated MDA",
     "predicate": "is associated with",
-    "object": "notes/_link/Cardiovascular Disease",
+    "object": "Cardiovascular Disease",
     "context": "increased in plasma and atherosclerotic plaque tissue",
     "confidence": "high"
   },
   {
     "subject": "Elevated MDA",
     "predicate": "is associated with",
-    "object": "notes/_link/Diabetes Mellitus",
+    "object": "Diabetes Mellitus",
     "context": "elevated in plasma and erythrocytes, correlating with HbA1c",
     "confidence": "high"
   },
@@ -380,7 +380,7 @@
   {
     "subject": "Elevated 8-oxodG",
     "predicate": "is associated with",
-    "object": "notes/_link/Cancer",
+    "object": "Cancer",
     "context": "elevated in lung, breast, bladder, colorectal cancers as risk marker",
     "confidence": "high"
   },
@@ -394,7 +394,7 @@
   {
     "subject": "NOX4",
     "predicate": "produces",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "NOX4 is constitutively active and generates H2O2 directly rather than superoxide",
     "confidence": "high"
   },
@@ -443,7 +443,7 @@
   {
     "subject": "Peroxynitrite",
     "predicate": "is formed by",
-    "object": "notes/_link/Nitric Oxide",
+    "object": "Nitric Oxide",
     "context": "reaction at k ~1.6 \u00d7 10^10 M-1s-1 outcompetes SOD",
     "confidence": "high"
   },
@@ -457,7 +457,7 @@
   {
     "subject": "Peroxynitrite",
     "predicate": "depletes",
-    "object": "notes/_link/Nitric Oxide",
+    "object": "Nitric Oxide",
     "context": "leads to impaired vasodilation and endothelial dysfunction",
     "confidence": "high"
   },
@@ -492,7 +492,7 @@
   {
     "subject": "Reactive Nitrogen Species",
     "predicate": "are derived from",
-    "object": "notes/_link/Nitric Oxide",
+    "object": "Nitric Oxide",
     "context": "RNS are a family of antimicrobial molecules derived from NO and superoxide",
     "confidence": "high"
   },
@@ -506,28 +506,28 @@
   {
     "subject": "Inducible Nitric Oxide Synthase",
     "predicate": "produces",
-    "object": "notes/_link/Nitric Oxide",
+    "object": "Nitric Oxide",
     "context": "iNOS is induced by pro-inflammatory cytokines, producing high sustained NO fluxes",
     "confidence": "high"
   },
   {
     "subject": "Reactive Nitrogen Species",
     "predicate": "contributes to",
-    "object": "notes/_link/Cardiovascular Disease",
+    "object": "Cardiovascular Disease",
     "context": "eNOS uncoupling converts eNOS from NO producer to superoxide producer",
     "confidence": "high"
   },
   {
     "subject": "Reactive Nitrogen Species",
     "predicate": "contributes to",
-    "object": "notes/_link/Diabetes Mellitus",
+    "object": "Diabetes Mellitus",
     "context": "iNOS and NOX2 upregulated in pancreatic islets; peroxynitrite damages beta-cells",
     "confidence": "high"
   },
   {
     "subject": "Alpha-Lipoic Acid",
     "predicate": "recycles",
-    "object": "notes/_link/Glutathione",
+    "object": "Glutathione",
     "context": "DHLA (reduced ALA) recharges oxidized glutathione, vitamin C, and vitamin E",
     "confidence": "high"
   },
@@ -541,7 +541,7 @@
   {
     "subject": "Alpha-Lipoic Acid",
     "predicate": "activates",
-    "object": "notes/_link/NRF2",
+    "object": "NRF2",
     "context": "ALA activates the Nrf2/ARE pathway by modifying reactive cysteine residues on Keap1",
     "confidence": "high"
   },
@@ -562,7 +562,7 @@
   {
     "subject": "Coenzyme Q10",
     "predicate": "transfers electrons between",
-    "object": "notes/_link/Mitochondria",
+    "object": "Mitochondria",
     "context": "CoQ10 facilitates electron transfer between Complex I or II and Complex III",
     "confidence": "high"
   },
@@ -576,7 +576,7 @@
   {
     "subject": "Coenzyme Q10",
     "predicate": "regenerates",
-    "object": "notes/_link/Vitamin E",
+    "object": "Vitamin E",
     "context": "CoQ10 regenerates alpha-tocopherol from the alpha-tocopheroxyl radical",
     "confidence": "high"
   },
@@ -590,26 +590,26 @@
   {
     "subject": "Coenzyme Q10",
     "predicate": "reduces",
-    "object": "heart failure events",
+    "object": "Heart Failure",
     "context": "Q-SYMBIO trial showed 42% reduction in MACE with CoQ10 supplementation",
     "confidence": "high"
   },
   {
     "subject": "Endothelial Dysfunction",
     "predicate": "is caused by",
-    "object": "eNOS uncoupling",
+    "object": "eNOS Uncoupling",
     "context": "primary driver is reduced bioavailable NO via eNOS uncoupling due to BH4 deficiency",
     "confidence": "high"
   },
   {
     "subject": "Peroxynitrite",
     "predicate": "oxidizes",
-    "object": "tetrahydrobiopterin (BH4)",
+    "object": "Tetrahydrobiopterin",
     "context": "peroxynitrite oxidizes BH4 to BH2, causing BH4 deficiency and eNOS uncoupling",
     "confidence": "high"
   },
   {
-    "subject": "uncoupled eNOS",
+    "subject": "Uncoupled eNOS",
     "predicate": "produces",
     "object": "Superoxide Radicals",
     "context": "in the absence of sufficient BH4, eNOS produces superoxide instead of NO",
@@ -632,7 +632,7 @@
   {
     "subject": "Phagocytes",
     "predicate": "use",
-    "object": "notes/_link/Respiratory Burst",
+    "object": "Respiratory Burst",
     "context": "phagocytes utilize the respiratory burst to produce high concentrations of ROS and RNS",
     "confidence": "high"
   },
@@ -658,14 +658,14 @@
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Glutathione",
+    "subject": "Glutathione",
     "predicate": "determines",
     "object": "T cell polarization",
     "context": "GSH levels dictate the balance between Th1/Th17 and Th2/Treg responses",
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Reactive Oxygen Species",
+    "subject": "Reactive Oxygen Species",
     "predicate": "activate",
     "object": "NF-kappa B",
     "context": "ROS activate NF-kappaB, which induces genes producing more ROS (feed-forward loop)",
@@ -681,7 +681,7 @@
   {
     "subject": "NF-kappa B",
     "predicate": "antagonizes",
-    "object": "notes/_link/NRF2",
+    "object": "NRF2",
     "context": "NF-kappaB and Nrf2 exhibit mutual antagonism; RelA competes with Nrf2 for CBP/p300",
     "confidence": "high"
   },
@@ -744,12 +744,12 @@
   {
     "subject": "Amyloid-beta",
     "predicate": "binds",
-    "object": "redox-active metals",
+    "object": "Redox-Active Metals",
     "context": "Abeta binds Cu2+ and Fe3+, generating superoxide and H2O2 via Fenton chemistry",
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Dopamine",
+    "subject": "Dopamine",
     "predicate": "undergoes",
     "object": "Autoxidation",
     "context": "dopamine autoxidation produces dopamine quinones, superoxide, H2O2, and 6-OHDA",
@@ -758,7 +758,7 @@
   {
     "subject": "Mitochondrial Complex I",
     "predicate": "is reduced in",
-    "object": "notes/_link/Parkinson's Disease",
+    "object": "Parkinson's Disease",
     "context": "Complex I activity is reduced ~30-40% in substantia nigra of PD patients",
     "confidence": "high"
   },
@@ -784,44 +784,44 @@
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Hydrogen Peroxide",
+    "subject": "Hydrogen Peroxide",
     "predicate": "acts as",
-    "object": "second messenger",
+    "object": "Signaling Molecules",
     "context": "H2O2 acts as a second messenger in insulin signaling and growth factor pathways",
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Hydrogen Peroxide",
+    "subject": "Hydrogen Peroxide",
     "predicate": "oxidizes",
-    "object": "cysteine thiols",
+    "object": "Cysteine Thiols",
     "context": "H2O2 transduces signals through reversible oxidation of cysteine thiols",
     "confidence": "high"
   },
   {
     "subject": "Protein Tyrosine Phosphatases",
     "predicate": "are inactivated by",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "PTP1B active-site cysteine Cys-215 is oxidized to sulfenic acid upon H2O2",
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Nitric Oxide",
+    "subject": "Nitric Oxide",
     "predicate": "activates",
-    "object": "soluble guanylyl cyclase",
+    "object": "Soluble Guanylyl Cyclase",
     "context": "NO binds to ferrous heme iron in sGC, activating it up to 200-fold",
     "confidence": "high"
   },
   {
     "subject": "PTEN",
     "predicate": "is oxidized by",
-    "object": "notes/_link/Hydrogen Peroxide",
+    "object": "Hydrogen Peroxide",
     "context": "PTEN Cys-124 oxidation by H2O2 leads to sustained Akt activation",
     "confidence": "high"
   },
   {
     "subject": "Xanthine Oxidase",
     "predicate": "catalyzes",
-    "object": "hypoxanthine to xanthine to uric acid",
+    "object": "Uric Acid",
     "context": "XO catalyzes oxidation of hypoxanthine to xanthine and xanthine to uric acid",
     "confidence": "high"
   },
@@ -849,7 +849,7 @@
   {
     "subject": "Xanthine Oxidase",
     "predicate": "reduces",
-    "object": "nitrite to nitric oxide",
+    "object": "Nitric Oxide",
     "context": "under hypoxia, XO functions as nitrate reductase, producing NO when NOS is inactive",
     "confidence": "high"
   },
@@ -863,14 +863,14 @@
   {
     "subject": "ABCA1",
     "predicate": "regulates",
-    "object": "cholesterol homeostasis",
+    "object": "Cholesterol Homeostasis",
     "context": "ABCA1 is a major regulator of cellular cholesterol and phospholipid homeostasis",
     "confidence": "high"
   },
   {
     "subject": "ABCA1",
     "predicate": "prevents",
-    "object": "notes/_link/Atherosclerosis",
+    "object": "Atherosclerosis",
     "context": "mediates cholesterol efflux to apolipoproteins, preventing foam cell formation",
     "confidence": "high"
   },
@@ -891,14 +891,14 @@
   {
     "subject": "Flavonoids",
     "predicate": "scavenge",
-    "object": "notes/_link/Reactive Oxygen Species",
+    "object": "Reactive Oxygen Species",
     "context": "flavonoids scavenge superoxide, hydrogen peroxide, hydroxyl radicals, and peroxynitrite",
     "confidence": "high"
   },
   {
     "subject": "Flavonoids",
     "predicate": "activate",
-    "object": "notes/_link/NRF2",
+    "object": "NRF2",
     "context": "flavonoids modify KEAP1 cysteine residues, releasing NRF2 to induce phase II enzymes",
     "confidence": "high"
   },
@@ -919,7 +919,7 @@
   {
     "subject": "Flavonoids",
     "predicate": "can act as",
-    "object": "pro-oxidants",
+    "object": "Pro-oxidants",
     "context": "at high concentrations, flavonoids can act as pro-oxidants via autoxidation",
     "confidence": "high"
   },
@@ -933,7 +933,7 @@
   {
     "subject": "Genistein",
     "predicate": "activates",
-    "object": "notes/_link/NRF2",
+    "object": "NRF2",
     "context": "genistein upregulates NRF2 via covalent modification of KEAP1 cysteine residues",
     "confidence": "high"
   },
@@ -947,7 +947,7 @@
   {
     "subject": "Genistein",
     "predicate": "enhances",
-    "object": "notes/_link/Nitric Oxide bioavailability",
+    "object": "Nitric Oxide bioavailability",
     "context": "genistein enhances NO by upregulating eNOS and scavenging superoxide",
     "confidence": "high"
   },
@@ -961,7 +961,7 @@
   {
     "subject": "Hypochlorous Acid",
     "predicate": "is the primary microbicidal oxidant of",
-    "object": "the innate immune system",
+    "object": "Innate Immune System",
     "context": "HOCl kills pathogens through multiple mechanisms including thiol oxidation",
     "confidence": "high"
   },
@@ -975,21 +975,21 @@
   {
     "subject": "Hypochlorous Acid",
     "predicate": "depletes",
-    "object": "notes/_link/Glutathione",
+    "object": "Glutathione",
     "context": "glutathione is rapidly consumed by HOCl, depleting the major antioxidant",
     "confidence": "high"
   },
   {
     "subject": "Hypochlorous Acid",
     "predicate": "chlorinates",
-    "object": "tyrosine to 3-chlorotyrosine",
+    "object": "3-Chlorotyrosine",
     "context": "3-chlorotyrosine is a specific biomarker of MPO activity",
     "confidence": "high"
   },
   {
     "subject": "L-arginine",
     "predicate": "is a precursor for",
-    "object": "notes/_link/Nitric Oxide",
+    "object": "Nitric Oxide",
     "context": "L-arginine is converted to NO and L-citrulline by NOS",
     "confidence": "high"
   },
@@ -1010,33 +1010,33 @@
   {
     "subject": "L-arginine:ADMA ratio",
     "predicate": "is a biomarker of",
-    "object": "cardiovascular risk",
+    "object": "Cardiovascular Risk",
     "context": "plasma L-arginine:ADMA ratio reflects NO bioavailability",
     "confidence": "high"
   },
   {
     "subject": "Nitric Oxide Synthase",
     "predicate": "catalyzes",
-    "object": "NO production from L-arginine",
+    "object": "Nitric Oxide",
     "context": "NOS enzymes catalyze NO production from L-arginine",
     "confidence": "high"
   },
   {
-    "subject": "eNOS (NOS3)",
+    "subject": "eNOS",
     "predicate": "produces NO for",
-    "object": "vasodilation",
+    "object": "Vasodilation",
     "context": "eNOS functions in vasodilation, platelet inhibition, and vascular barrier maintenance",
     "confidence": "high"
   },
   {
-    "subject": "iNOS (NOS2)",
+    "subject": "iNOS",
     "predicate": "produces high-output NO for",
-    "object": "innate immune defense",
+    "object": "Innate Immune Defense",
     "context": "iNOS produces micromolar NO for macrophage killing of pathogens",
     "confidence": "high"
   },
   {
-    "subject": "eNOS uncoupling",
+    "subject": "eNOS Uncoupling",
     "predicate": "produces",
     "object": "Superoxide Radicals",
     "context": "when BH4 or L-arginine are limiting, NOS produces superoxide instead of NO",
@@ -1052,7 +1052,7 @@
   {
     "subject": "Polyphenols",
     "predicate": "activate",
-    "object": "notes/_link/NRF2",
+    "object": "NRF2",
     "context": "polyphenols modify KEAP1 cysteine residues, releasing NRF2 to induce over 200 genes",
     "confidence": "high"
   },
@@ -1066,28 +1066,28 @@
   {
     "subject": "Polyphenols",
     "predicate": "are metabolized by",
-    "object": "the gut microbiome",
+    "object": "Gut Microbiome",
     "context": "majority of dietary polyphenols reach the colon intact for microbial metabolism",
     "confidence": "high"
   },
   {
     "subject": "Polyphenols",
     "predicate": "exhibit",
-    "object": "hormesis",
+    "object": "Hormesis",
     "context": "polyphenols exhibit hormesis\u2014low-dose beneficial, high-dose pro-oxidant effects",
     "confidence": "high"
   },
   {
     "subject": "Polyphenols",
     "predicate": "reduce risk of",
-    "object": "notes/_link/Cardiovascular Disease",
+    "object": "Cardiovascular Disease",
     "context": "through improved endothelial function and LDL oxidation inhibition",
     "confidence": "medium"
   },
   {
     "subject": "Nucleic Acids",
     "predicate": "are prone to damage by",
-    "object": "notes/_link/Reactive Oxygen Species",
+    "object": "Reactive Oxygen Species",
     "context": "nucleic acids are prone to damage by ROS, particularly hydroxyl radicals",
     "confidence": "high"
   },
@@ -1099,16 +1099,16 @@
     "confidence": "high"
   },
   {
-    "subject": "mitochondrial DNA",
+    "subject": "Mitochondrial DNA",
     "predicate": "is particularly susceptible to",
-    "object": "oxidative DNA damage",
+    "object": "Oxidative DNA Damage",
     "context": "due to proximity to ETC, lack of histones, and limited repair capacity",
     "confidence": "high"
   },
   {
     "subject": "Base Excision Repair",
     "predicate": "is the primary repair pathway for",
-    "object": "oxidative DNA base damage",
+    "object": "Oxidative DNA Damage",
     "context": "BER involves DNA glycosylases like OGG1",
     "confidence": "high"
   },
@@ -1136,14 +1136,14 @@
   {
     "subject": "Methionine sulfoxide reductases",
     "predicate": "repair",
-    "object": "oxidized methionine residues",
+    "object": "Oxidized Methionine",
     "context": "MsrA/MsrB reduce oxidized methionine using thioredoxin",
     "confidence": "high"
   },
   {
     "subject": "Chronic Obstructive Pulmonary Disease",
     "predicate": "is characterized by",
-    "object": "chronic inflammation of airways",
+    "object": "Airway Inflammation",
     "context": "progressive inflammatory lung disease with poor airflow",
     "confidence": "high"
   },
@@ -1157,7 +1157,7 @@
   {
     "subject": "Cigarette smoke",
     "predicate": "contains",
-    "object": ">10^15 free radicals per puff",
+    "object": "Free Radicals",
     "context": "including semiquinone radicals, hydroxyl radicals, and NO",
     "confidence": "high"
   },
@@ -1169,7 +1169,7 @@
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Glutathione",
+    "subject": "Glutathione",
     "predicate": "is depleted in",
     "object": "Chronic Obstructive Pulmonary Disease",
     "context": "GSH depressed 40-60% in COPD epithelial lining fluid",
@@ -1185,14 +1185,14 @@
   {
     "subject": "Amyloid-beta",
     "predicate": "catalyzes",
-    "object": "notes/_link/Hydrogen Peroxide production",
+    "object": "Hydrogen Peroxide",
     "context": "Cu2+-bound Abeta catalyzes reduction of O2 to H2O2 via Fenton reaction",
     "confidence": "high"
   },
   {
     "subject": "Amyloid-beta",
     "predicate": "impairs",
-    "object": "mitochondrial Complex IV",
+    "object": "Mitochondrial Complex IV",
     "context": "Abeta accumulates in mitochondria and impairs Complex IV activity",
     "confidence": "high"
   },
@@ -1213,7 +1213,7 @@
   {
     "subject": "Asthma",
     "predicate": "is associated with",
-    "object": "glutathione depletion in epithelial lining fluid",
+    "object": "Glutathione Depletion",
     "context": "GSH/GSSG ratio markedly decreased in asthmatic airways",
     "confidence": "high"
   },
@@ -1234,14 +1234,14 @@
   {
     "subject": "Eosinophil Peroxidase",
     "predicate": "produces",
-    "object": "hypobromous acid",
+    "object": "Hypobromous Acid",
     "context": "activated eosinophils release EPO producing HOBr in eosinophilic asthma",
     "confidence": "high"
   },
   {
     "subject": "CD36 Receptor",
     "predicate": "mediates uptake of",
-    "object": "oxidized LDL",
+    "object": "Oxidized LDL",
     "context": "CD36 is the primary scavenger receptor for oxLDL on macrophages",
     "confidence": "high"
   },
@@ -1290,7 +1290,7 @@
   {
     "subject": "PON1",
     "predicate": "hydrolyzes",
-    "object": "oxidized phospholipids",
+    "object": "Oxidized Phospholipids",
     "context": "PON1 on HDL hydrolyzes oxidized phospholipids preventing LDL oxidation",
     "confidence": "high"
   },
@@ -1304,7 +1304,7 @@
   {
     "subject": "TXNIP",
     "predicate": "binds",
-    "object": "NLRP3 under oxidative conditions",
+    "object": "NLRP3",
     "context": "TXNIP dissociates from thioredoxin when oxidized and directly binds NLRP3",
     "confidence": "high"
   },
@@ -1318,28 +1318,28 @@
   {
     "subject": "IL-1beta inhibition (Canakinumab)",
     "predicate": "reduces",
-    "object": "cardiovascular events",
+    "object": "Cardiovascular Events",
     "context": "CANTOS trial showed IL-1beta inhibition reduces CVD events independent of lipid lowering",
     "confidence": "high"
   },
   {
     "subject": "Ionizing Radiation",
     "predicate": "produces",
-    "object": "Hydroxyl Radicals via water radiolysis",
+    "object": "Hydroxyl Radicals",
     "context": "water radiolysis produces \u2022OH, hydrated electrons, and hydrogen atoms",
     "confidence": "high"
   },
   {
     "subject": "Ionizing Radiation",
     "predicate": "causes",
-    "object": "clustered DNA damage",
+    "object": "Clustered DNA Damage",
     "context": "two or more lesions within 1-2 helical turns is characteristic of IR",
     "confidence": "high"
   },
   {
     "subject": "Ionizing Radiation",
     "predicate": "activates",
-    "object": "ATM kinase via DNA DSBs",
+    "object": "ATM Kinase",
     "context": "ATM phosphorylates Chk2, p53, and BRCA1",
     "confidence": "high"
   },
@@ -1358,7 +1358,7 @@
     "confidence": "high"
   },
   {
-    "subject": "notes/_link/Vitamin E",
+    "subject": "Vitamin E",
     "predicate": "terminates",
     "object": "Lipid Peroxidation",
     "context": "chain-breaking antioxidants donate hydrogen to LOO\u2022 yielding stable LOOH",
@@ -1381,28 +1381,28 @@
   {
     "subject": "LXRalpha",
     "predicate": "is activated by",
-    "object": "oxysterol ligands from cholesterol oxidation",
+    "object": "Oxysterols",
     "context": "LXRalpha is activated by 22(R)-, 24(S)-, and 27-hydroxycholesterol",
     "confidence": "high"
   },
   {
     "subject": "LXRalpha",
     "predicate": "promotes",
-    "object": "reverse cholesterol transport",
+    "object": "Reverse Cholesterol Transport",
     "context": "upregulates ABCA1, ABCG1, ABCG5/ABCG8, and ApoE",
     "confidence": "high"
   },
   {
     "subject": "LXRalpha",
     "predicate": "suppresses",
-    "object": "inflammatory gene expression",
+    "object": "Inflammatory Gene Expression",
     "context": "SUMOylated LXRalpha targets NCoR on NF-kappaB target genes",
     "confidence": "high"
   },
   {
     "subject": "LXRalpha",
     "predicate": "induces",
-    "object": "SREBP-1c and hepatic lipogenesis",
+    "object": "SREBP-1c",
     "context": "LXRalpha activation induces FASN, SCD1, and ACC",
     "confidence": "high"
   },
@@ -1416,7 +1416,7 @@
   {
     "subject": "Iron",
     "predicate": "accumulates in",
-    "object": "Multiple Sclerosis brains triggering Fenton chemistry",
+    "object": "Multiple Sclerosis",
     "context": "free Fe2+ catalyzes Fenton reaction converting H2O2 to \u2022OH in MS lesions",
     "confidence": "high"
   },
@@ -1444,28 +1444,28 @@
   {
     "subject": "Xanthine Oxidase",
     "predicate": "generates",
-    "object": "Superoxide radicals in RA",
+    "object": "Superoxide Radicals",
     "context": "converted from XDH under hypoxic conditions during reoxygenation",
     "confidence": "high"
   },
   {
     "subject": "Oxidative Stress",
     "predicate": "promotes",
-    "object": "citrullination via PAD activation",
+    "object": "Protein Citrullination",
     "context": "ROS promote calcium influx enabling PAD enzymes to citrullinate proteins",
     "confidence": "high"
   },
   {
     "subject": "Anti-TNF therapy",
     "predicate": "reduces",
-    "object": "systemic oxidative stress markers in RA",
+    "object": "Oxidative Stress Markers",
     "context": "reduces MDA and enhances glutathione by breaking the TNF-ROS loop",
     "confidence": "high"
   },
   {
     "subject": "Oxidative Stress",
     "predicate": "activates",
-    "object": "GSK-3beta and CDK5 kinases",
+    "object": "GSK-3beta",
     "context": "these kinases hyperphosphorylate tau promoting dissociation from microtubules",
     "confidence": "high"
   },
@@ -1493,7 +1493,7 @@
   {
     "subject": "TGF-beta",
     "predicate": "induces",
-    "object": "Nox4 transcription via SMAD3",
+    "object": "NOX4",
     "context": "TGF-beta upregulates Nox4 which produces H2O2 as a second messenger",
     "confidence": "high"
   },
@@ -1521,35 +1521,35 @@
   {
     "subject": "TNFR1 signaling",
     "predicate": "generates",
-    "object": "mitochondrial ROS",
+    "object": "Mitochondrial ROS",
     "context": "TRAF2 recruits TRIM21 causing electron leak at Complex I",
     "confidence": "high"
   },
   {
     "subject": "Mitochondrial ROS",
     "predicate": "is required for",
-    "object": "sustained JNK activation by TNF-alpha",
+    "object": "JNK Activation",
     "context": "mtROS is an obligatory event in TNFR1 signaling",
     "confidence": "high"
   },
   {
     "subject": "NF-kappa B",
     "predicate": "upregulates",
-    "object": "antioxidant gene program (MnSOD, ferritin, HO-1, GPx, catalase)",
+    "object": "Antioxidant Gene Program",
     "context": "this negative feedback limits TNF-alpha-induced tissue damage",
     "confidence": "high"
   },
   {
     "subject": "TNF-alpha with blocked NF-kappaB",
     "predicate": "shifts signaling to",
-    "object": "necroptosis via RIPK1/RIPK3/MLKL",
+    "object": "Necroptosis",
     "context": "RIPK1 interacts with RIPK3 and MLKL executing lytic pro-inflammatory cell death",
     "confidence": "high"
   },
   {
     "subject": "Anti-TNF therapy",
     "predicate": "reduces",
-    "object": "systemic oxidative stress markers",
+    "object": "Oxidative Stress Markers",
     "context": "treated patients show decreased serum MDA and increased glutathione",
     "confidence": "high"
   },
@@ -1577,7 +1577,7 @@
   {
     "subject": "Natalizumab (Tysabri)",
     "predicate": "blocks",
-    "object": "VCAM-1/VLA-4 interactions in MS",
+    "object": "VCAM-1/VLA-4 Interaction",
     "context": "reduces T-cell trafficking into CNS across blood-brain barrier",
     "confidence": "high"
   },
@@ -1591,63 +1591,63 @@
   {
     "subject": "Fenton reaction",
     "predicate": "is the primary mechanism converting",
-    "object": "H2O2 into site-specific \u2022OH at iron-bound molecules",
+    "object": "Hydroxyl Radicals",
     "context": "when H2O2 encounters iron bound to DNA, \u2022OH inflicts damage at that locus",
     "confidence": "high"
   },
   {
     "subject": "Ferritin",
     "predicate": "sequesters",
-    "object": "free iron limiting Fenton chemistry",
+    "object": "Free Iron",
     "context": "stores up to 4,500 Fe3+ atoms per molecule",
     "confidence": "high"
   },
   {
     "subject": "NRF2",
     "predicate": "induces",
-    "object": "ferritin heavy chain (FTH1)",
+    "object": "Ferritin",
     "context": "FTH1 ferroxidase activity converts Fe2+ to Fe3+ for safe storage",
     "confidence": "high"
   },
   {
     "subject": "Iron accumulation in Substantia Nigra",
     "predicate": "promotes",
-    "object": "localized Fenton chemistry in Parkinson's",
+    "object": "Fenton Reaction",
     "context": "iron burden correlates with oxidative damage markers",
     "confidence": "high"
   },
   {
     "subject": "Oxidative Stress",
     "predicate": "is",
-    "object": "imbalance between ROS production and detoxification",
+    "object": "Redox Imbalance",
     "context": "defined as imbalance between ROS production and ability to detoxify or repair damage",
     "confidence": "high"
   },
   {
     "subject": "Mitochondria",
     "predicate": "is the primary endogenous source of",
-    "object": "cellular ROS",
+    "object": "Reactive Oxygen Species",
     "context": "electron leakage at Complex I and III generates superoxide radicals",
     "confidence": "high"
   },
   {
     "subject": "NRF2",
     "predicate": "is the master regulator of",
-    "object": "the antioxidant response",
+    "object": "Antioxidant Response",
     "context": "induces over 200 cytoprotective genes including glutathione synthesis",
     "confidence": "high"
   },
   {
     "subject": "Low-level oxidative stress",
     "predicate": "activates",
-    "object": "adaptive stress responses (mitohormesis)",
+    "object": "Mitohormesis",
     "context": "transient ROS upregulate DNA repair, antioxidant defenses, autophagy",
     "confidence": "high"
   },
   {
     "subject": "Oxidative Stress",
     "predicate": "drives",
-    "object": "non-enzymatic oxidation of epinephrine into adrenochrome",
+    "object": "Adrenochrome Formation",
     "context": "high levels of superoxide and H2O2 favor this pathway",
     "confidence": "high"
   }

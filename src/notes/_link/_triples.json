@@ -1,0 +1,583 @@
+[
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End Products",
+    "context": "Aminoguanidine is the first identified inhibitor of AGEs, preventing protein cross-linking.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "prevents",
+    "object": "Cross-linking",
+    "context": "By trapping reactive carbonyl species, aminoguanidine prevents the cross-linking of tissue proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "reduces",
+    "object": "Very Low Density Lipoprotein",
+    "context": "Aminoguanidine reduced the ability of VLDL to bind to blood vessel walls.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "treats",
+    "object": "Atherosclerosis",
+    "context": "Aminoguanidine improved blood flow in patients with peripheral vascular disease.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "prevents",
+    "object": "Cataract",
+    "context": "Aminoguanidine may help alleviate or prevent senile cataract.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Glycation",
+    "context": "Aminoguanidine stabilizes the metabolism of glucose and acts as a glycation inhibitor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "reduces",
+    "object": "Albuminuria",
+    "context": "Aminoguanidine can significantly reduce albuminuria in diabetic patients.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cross-linking",
+    "predicate": "contributes_to",
+    "object": "Aging",
+    "context": "Cross-linking of body proteins plays a role in the human aging process.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cross-linking",
+    "predicate": "causes",
+    "object": "Cataract",
+    "context": "Cross-linking is responsible for senile cataract.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "prevents",
+    "object": "Aging",
+    "context": "Aminoguanidine has the potential to slow the aging process by protecting proteins.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "is_an",
+    "object": "iNOS inhibitor",
+    "context": "Aminoguanidine is primarily known as a selective inhibitor of iNOS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "treats",
+    "object": "Methemoglobinemia",
+    "context": "Methylene blue is FDA-approved for treatment of acquired methemoglobinemia.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "inhibits",
+    "object": "Soluble Guanylyl Cyclase",
+    "context": "Methylene blue acts as an inhibitor of soluble guanylyl cyclase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "inhibits",
+    "object": "Nitric Oxide Synthase",
+    "context": "Methylene blue is a non-specific inhibitor of NOS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "is_a",
+    "object": "Monoamine Oxidase Inhibitor",
+    "context": "Methylene blue is a potent MAO-A inhibitor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "bypasses",
+    "object": "Mitochondrial Electron Transport Chain",
+    "context": "Methylene blue can bypass dysfunctional components of Complex I and III in the ETC.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "causes",
+    "object": "Serotonin Syndrome",
+    "context": "Methylene blue can cause serotonin syndrome when combined with serotonergic drugs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "contraindicated_in",
+    "object": "Glucose-6-Phosphate Dehydrogenase deficiency",
+    "context": "Methylene blue is contraindicated in G6PD deficiency due to hemolysis risk.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "follows",
+    "object": "Hormetic Window",
+    "context": "Methylene blue follows a hormetic curve: beneficial at low doses, harmful at high doses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Inducible Nitric Oxide Synthase",
+    "context": "Aminoguanidine is a selective inhibitor of iNOS, the enzyme producing NO during inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Diamine Oxidase",
+    "context": "Aminoguanidine inhibits diamine oxidase, increasing histamine sensitivity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "causes",
+    "object": "Histamine Intolerance",
+    "context": "By blocking intestinal DAO, oral aminoguanidine can cause histamine intolerance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "is_a",
+    "object": "Mitochondrial-Derived Peptide",
+    "context": "Humanin is the first described mitochondrial-derived peptide (MDP).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "protects_against",
+    "object": "Apoptosis",
+    "context": "Humanin interacts with pro-apoptotic proteins like Bax and IGFBP3 to prevent apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "binds",
+    "object": "Bax",
+    "context": "Humanin binds to Bax, preventing its translocation and pro-apoptotic activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "binds",
+    "object": "IGFBP3",
+    "context": "Humanin binds to IGFBP-3 with high affinity and specificity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "activates",
+    "object": "STAT3",
+    "context": "Humanin induces STAT3 activation via CNTFR/WSX-1/gp130 receptor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "binds",
+    "object": "FPRL1",
+    "context": "Humanin acts as an agonist for FPRL1 receptor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "levels_decline_with",
+    "object": "Aging",
+    "context": "Humanin levels decline with age in humans and rodents.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "improves",
+    "object": "Insulin Sensitivity",
+    "context": "Humanin infusion improves insulin sensitivity via hypothalamic STAT3 activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "protects_against",
+    "object": "Atherosclerosis",
+    "context": "Humanin reduces atherosclerotic plaque size and preserves endothelial function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hormesis",
+    "predicate": "requires",
+    "object": "Incoherent Bivalent Motif",
+    "context": "Hormesis requires an incoherent bivalent network motif centered on the drug target.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "exhibits",
+    "object": "Hormesis",
+    "context": "Rapamycin shows a biphasic dose-response with benefits at intermediate doses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": "Rapamycin binds specifically to mTORC1 in a reversible manner.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "is_centered_in",
+    "object": "Incoherent Bivalent Motif",
+    "context": "The mTOR-PI3K pathway has an incoherent bivalent motif centered on mTORC1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Saturated Enzymatic Regime",
+    "predicate": "increases_probability_of",
+    "object": "Hormesis",
+    "context": "If one bivalent interaction operates in the saturated regime, hormesis probability increases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "is_a",
+    "object": "Phosphagen",
+    "context": "Creatine is classified within the family of guanidine phosphagens.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "supports",
+    "object": "Cellular Metabolism",
+    "context": "Creatine plays a critical role in cellular metabolism, particularly during stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "acts_as",
+    "object": "Antioxidant",
+    "context": "Creatine reduces ROS formation and acts as a direct and/or indirect antioxidant.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "improves",
+    "object": "Glycemic Control",
+    "context": "Creatine supplementation improves glucose tolerance and insulin sensitivity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "enhances",
+    "object": "Cognition",
+    "context": "Creatine supplementation improves working memory and cognitive performance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "reduces",
+    "object": "Sarcopenia",
+    "context": "Creatine supplementation with resistance training attenuates sarcopenia.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "has",
+    "object": "Anticancer Properties",
+    "context": "Creatine and cyclocreatine have established anticancer properties.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "modulates",
+    "object": "Immune System",
+    "context": "Creatine has immunomodulatory effects on TLR expression and cytokine production.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Catecholamines",
+    "context": "COMT O-methylates dopamine, norepinephrine, and epinephrine.",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "prevents",
+    "object": "Oxidative Stress",
+    "context": "By methylating catechols, COMT prevents their autoxidation into reactive quinones.",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Catechol Estrogens",
+    "context": "COMT neutralizes catechol estrogen metabolites through methylation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "competes_with",
+    "object": "COMT",
+    "context": "Creatine biosynthesis and COMT compete for the SAMe methyl donor pool.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "is_a",
+    "object": "Flavonol",
+    "context": "Fisetin is a flavonol, a subclass of flavonoids/polyphenols.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "has",
+    "object": "low Bioavailability",
+    "context": "Fisetin has ~44.1% bioavailability, poor water solubility, and high lipophilicity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "modulates",
+    "object": "PI3K",
+    "context": "Fisetin regulates PI3K/Akt/mTOR signaling pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": "Fisetin induces apoptosis via TRAIL pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "Angiogenesis",
+    "context": "Fisetin downregulates VEGF expression, inhibiting angiogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "acts_as",
+    "object": "Antioxidant",
+    "context": "Fisetin scavenges free radicals and interacts with Nrf2 signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "has",
+    "object": "Senolytic activity",
+    "context": "Fisetin demonstrates senolytic effects.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nanotechnology",
+    "predicate": "improves",
+    "object": "Fisetin bioavailability",
+    "context": "Nanodelivery systems improve fisetin solubility, absorption, and therapeutic efficacy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IDO1",
+    "predicate": "catalyzes",
+    "object": "Tryptophan to N-Formylkynurenine",
+    "context": "IDO1 catalyzes the first and rate-limiting step in the kynurenine pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IDO1",
+    "predicate": "is_the_rate_limiting_enzyme_of",
+    "object": "Kynurenine Pathway",
+    "context": "IDO1 is the rate-limiting enzyme of the kynurenine pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Kynurenine Pathway",
+    "predicate": "produces",
+    "object": "NAD+",
+    "context": "The KP accounts for ~95% of tryptophan degradation and leads to NAD+.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IDO1",
+    "predicate": "induces",
+    "object": "Immunosuppression",
+    "context": "IDO1 exerts immunosuppression through tryptophan depletion and kynurenine accumulation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IDO1",
+    "predicate": "is_induced_by",
+    "object": "Interferon-gamma",
+    "context": "IDO1 is strongly induced by IFNγ via JAK/STAT signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IDO1",
+    "predicate": "promotes",
+    "object": "Tumor immune escape",
+    "context": "IDO1 is often upregulated in tumors, creating an immunosuppressive microenvironment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "phosphorylated_by",
+    "object": "mTORC1",
+    "context": "mTORC1 phosphorylates TFEB at S211, S142, S138, and S122 leading to cytoplasmic retention.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "phosphorylated_by",
+    "object": "ERK2",
+    "context": "ERK2 phosphorylates TFEB at S142 leading to cytoplasmic retention.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "phosphorylated_by",
+    "object": "Akt",
+    "context": "Akt phosphorylates TFEB at S467 leading to cytoplasmic retention.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "phosphorylated_by",
+    "object": "AMPK",
+    "context": "AMPK phosphorylates TFEB at S467, S466, S469 enhancing transcriptional activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "dephosphorylated_by",
+    "object": "calcineurin",
+    "context": "Calcineurin dephosphorylates TFEB at S211 and S142 leading to nuclear translocation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "is_a_form_of",
+    "object": "Hormesis",
+    "context": "Mitohormesis is a form of hormesis where mild mitochondrial stress triggers adaptive responses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "involves",
+    "object": "Retrograde Signaling",
+    "context": "Mitochondrial stress signals to the nucleus through retrograde signaling pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "UPRmt",
+    "predicate": "is_activated_by",
+    "object": "misfolded mitochondrial proteins",
+    "context": "UPRmt is activated by accumulation of misfolded proteins in the mitochondrial matrix.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ATFS-1",
+    "predicate": "mediates",
+    "object": "UPRmt",
+    "context": "ATFS-1 is a transcription factor required for UPRmt activation in C. elegans.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitokines",
+    "predicate": "are_released_by",
+    "object": "stressed mitochondria",
+    "context": "Mitokines are soluble factors released by stressed mitochondria that signal to distal tissues.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humanin",
+    "predicate": "is_a",
+    "object": "Mitokine",
+    "context": "Humanin was the first identified mammalian mitokine.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "may_work_through",
+    "object": "Mitohormesis",
+    "context": "Metformin inhibits mitochondrial function and may work through hormetic mechanisms.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Mitochondrial Fusion",
+    "predicate": "mediated_by",
+    "object": "MFN1",
+    "context": "MFN1 facilitates outer mitochondrial membrane fusion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Fusion",
+    "predicate": "mediated_by",
+    "object": "MFN2",
+    "context": "MFN2 facilitates outer mitochondrial membrane fusion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Fusion",
+    "predicate": "mediated_by",
+    "object": "OPA1",
+    "context": "OPA1 mediates inner mitochondrial membrane fusion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Fission",
+    "predicate": "mediated_by",
+    "object": "DRP1",
+    "context": "DRP1 is the key dynamin-related protein coordinating mitochondrial fission.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MFN2",
+    "predicate": "mutations_cause",
+    "object": "Charcot-Marie-Tooth Disease Type 2A",
+    "context": "Heterozygous mutations in MFN2 cause CMT2A, an autosomal dominant peripheral neuropathy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "mutations_cause",
+    "object": "Dominant Optic Atrophy",
+    "context": "Mutations in OPA1 cause dominant optic atrophy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Dynamics",
+    "predicate": "imbalance_associated_with",
+    "object": "Cancer",
+    "context": "Imbalance in mitochondrial fusion/fission is associated with cancer development.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Dynamics",
+    "predicate": "imbalance_associated_with",
+    "object": "Neurodegenerative Disease",
+    "context": "Imbalance in mitochondrial dynamics is linked to neurodegenerative diseases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Dynamics",
+    "predicate": "imbalance_associated_with",
+    "object": "Cardiovascular Disease",
+    "context": "Imbalance in mitochondrial dynamics is linked to cardiovascular diseases.",
+    "confidence": "high"
+  }
+]

@@ -1,35 +1,64 @@
-import argparse
+#!/usr/bin/env python3
+"""Merge per-topic _triples.json files into a single cross-topic triples file.
+
+Deduplication strategy (per kg-triples TRIPLE_RULES.md):
+  - Key on (subject, predicate, object).
+  - Keep distinct contexts as separate entries (separate entries allowed).
+  - For identical (subject, predicate, object, context), keep the entry with
+    the highest confidence (high > medium > low).
+"""
 import json
 import sys
+from pathlib import Path
+
+CONF_RANK = {"high": 3, "medium": 2, "low": 1}
+
+
+def load(path: Path):
+    with open(path) as f:
+        return json.load(f)
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Merge multiple JSON files containing triples into a single JSON file.")
-    parser.add_argument("input_files", nargs='+', help="Paths to the input JSON files.")
-    parser.add_argument("-o", "--output", required=True, help="Path to the output JSON file.")
-    
-    args = parser.parse_args()
-    
-    combined_triples = []
-    
-    for file_path in args.input_files:
-        try:
-            with open(file_path, 'r') as f:
-                triples = json.load(f)
-                if isinstance(triples, list):
-                    combined_triples.extend(triples)
-                else:
-                    print(f"Warning: File {file_path} does not contain a JSON list. Skipping.", file=sys.stderr)
-        except Exception as e:
-            print(f"Error reading {file_path}: {e}", file=sys.stderr)
-            sys.exit(1)
-            
-    try:
-        with open(args.output, 'w') as f:
-            json.dump(combined_triples, f, indent=2)
-        print(f"Successfully merged {len(args.input_files)} files into {args.output} (Total triples: {len(combined_triples)})")
-    except Exception as e:
-        print(f"Error writing to {args.output}: {e}", file=sys.stderr)
-        sys.exit(1)
+    out_path = Path("src/notes/_triples.json")
+    files = sorted(
+        str(p)
+        for p in Path("src/notes").rglob("_triples.json")
+        if p.resolve() != out_path.resolve()
+    )
+    if not files:
+        print("No _triples.json files found.")
+        return
+
+    merged = {}
+    total = 0
+    counts = {}
+    for fp in files:
+        data = load(Path(fp))
+        topic = Path(fp).parent.name
+        for t in data:
+            total += 1
+            key = (t.get("subject"), t.get("predicate"), t.get("object"), t.get("context"))
+            conf = t.get("confidence", "low")
+            if key not in merged:
+                merged[key] = dict(t)
+                counts[topic] = counts.get(topic, 0) + 1
+            else:
+                # same subject/predicate/object/context -> keep higher confidence
+                if CONF_RANK.get(conf, 0) > CONF_RANK.get(merged[key].get("confidence", "low"), 0):
+                    merged[key]["confidence"] = conf
+
+    result = [merged[k] for k in sorted(merged, key=lambda x: (x[0] or "", x[1] or "", x[2] or ""))]
+
+    with open(out_path, "w") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+
+    print(f"Merged {len(files)} files from topics: {counts}")
+    print(f"Total input triples: {total}")
+    print(f"Merged output triples: {len(result)}")
+    print(f"Removed (exact subject+predicate+object+context duplicates): {total - len(result)}")
+    print(f"Output: {out_path}")
+
 
 if __name__ == "__main__":
     main()

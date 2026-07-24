@@ -1888,5 +1888,719 @@
     "object": "Senolytic Therapy",
     "context": "D+Q improved physical function in an IPF pilot study.",
     "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "is_a_type_of",
+    "object": "TGFβ Superfamily",
+    "context": "Activin A is a homodimer of inhibin beta-A (INHBA) subunits and a member of the TGFβ superfamily.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "signals_through",
+    "object": "ALK4",
+    "context": "Activin A signals through the type I receptor ALK4 and type II receptor activin RIIA/RIIB, phosphorylating SMAD2 and SMAD3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "phosphorylates",
+    "object": "SMAD2",
+    "context": "Phosphorylated SMAD2/3 complex with SMAD4 and translocate to the nucleus to regulate target gene transcription.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "induces",
+    "object": "CDKN2B",
+    "context": "Activin A-SMAD signaling induces p15^INK4b and p21^CIP1 in receiving cells during paracrine senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "induces",
+    "object": "p21 CIP1",
+    "context": "Activin A-SMAD signaling induces p21^CIP1 in receiving cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "Activin A is a TGF-β family ligand component of the SASP mediating paracrine senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "mediates",
+    "object": "Paracrine Senescence",
+    "context": "Activin A contributes to paracrine senescence alongside TGF-β1, BMP2, and GDF15; blocking antibodies partially rescue paracrine arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "is_upregulated_in",
+    "object": "Oncogene-Induced Senescence",
+    "context": "Activin A was identified as a TGF-β family ligand acutely upregulated during OIS (Acosta et al., 2013).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "is_induced_by",
+    "object": "IL-1α",
+    "context": "Activin A expression is driven by IL-1α and NF-κB during senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Activin A",
+    "predicate": "is_neutralized_by",
+    "object": "Follistatin",
+    "context": "Follistatin binds and neutralizes activin A extracellularly.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "precedes",
+    "object": "SASP",
+    "context": "ASAP is the early, prompt cellular response mounted upon stress before full senescence markers become evident; it can transition into the chronic SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "is_characterized_by",
+    "object": "ATM",
+    "context": "The ASAP is characterized by phosphorylation and nucleus-to-cytoplasm translocation of ATM, TRAF6 auto-ubiquitination, and TAK1 activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "transitions_to",
+    "object": "SASP",
+    "context": "The ASAP→SASP transition is gated through DDR kinases (ATM), TAK1, and downstream p38 MAPK/PI3K/Akt/mTOR engagement.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "is_blocked_by",
+    "object": "Apigenin",
+    "context": "Apigenin blocks the transition of the ASAP toward the SASP by disrupting ATM-HSPA8 and HSPA8-p38 MAPK crosstalk.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "is_gated_by",
+    "object": "PRDX6",
+    "context": "The PRDX6→HSPA8 axis controls the ASAP→SASP transition; apigenin binds PRDX6 inhibiting its iPLA2 activity.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "is_gated_by",
+    "object": "HSPA8",
+    "context": "HSPA8 activation and its interactions with ATM and p38 MAPK mediate ASAP maturation into the SASP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Acute Stress-Associated Phenotype",
+    "predicate": "drives",
+    "object": "ATM",
+    "context": "ATM is phosphorylated and translocated from nucleus to cytoplasm in the ASAP, acting as upstream DDR gate.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ATM",
+    "predicate": "activates",
+    "object": "TRAF6",
+    "context": "The ATM-TRAF6-TAK1 axis drives ASAP signaling; TAK1 activates p38 MAPK and NF-κB downstream.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "is_a_type_of",
+    "object": "Chemokine",
+    "context": "CCL20 (MIP-3α) is a CC chemokine that signals exclusively through the receptor CCR6.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "signals_through",
+    "object": "CCR6",
+    "context": "CCL20 is the sole ligand for CCR6, a Gαi-coupled GPCR driving chemotaxis via PI3K/Akt, p38 MAPK, and Ca2+ flux.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "CCL20 is a SASP chemokine that contributes to paracrine growth arrest in neighbouring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "contributes_to",
+    "object": "Paracrine Senescence",
+    "context": "CCL20 is among SASP components that autocrinally reinforce senescence and induce paracrine arrest in receiving cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "is_induced_by",
+    "object": "IL-1α",
+    "context": "CCL20 expression is driven by NF-κB and induced by IL-1α, IL-1β, and TNF-α.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "recruits",
+    "object": "TH17",
+    "context": "The CCL20-CCR6 axis links the SASP to adaptive immunity by recruiting TH17 cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CCL20",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": "CCL20-mediated immune recruitment can contribute to chronic inflammation and age-related tissue dysfunction.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "CDKN2B",
+    "predicate": "encodes",
+    "object": "p15INK4b",
+    "context": "CDKN2B encodes p15INK4b, a cyclin-dependent kinase inhibitor that blocks CDK4/6.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p15INK4b",
+    "predicate": "inhibits",
+    "object": "CDK4",
+    "context": "p15INK4b specifically binds and inhibits CDK4 and CDK6, preventing cyclin D-CDK complex formation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p15INK4b",
+    "predicate": "maintains",
+    "object": "Retinoblastoma Protein",
+    "context": "p15INK4b maintains Rb in its hypophosphorylated growth-suppressive state, enforcing G1 cell cycle arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CDKN2B",
+    "predicate": "is_induced_by",
+    "object": "TGFβ",
+    "context": "CDKN2B is a direct transcriptional target of TGFβ signaling via SMAD3/SMAD4 complexes binding SMAD-binding elements.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CDKN2B",
+    "predicate": "is_an_effector_of",
+    "object": "Paracrine Senescence",
+    "context": "p15INK4b is a key effector of TGF-β-mediated paracrine senescence; its induction is essential for paracrine growth arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p15INK4b",
+    "predicate": "cooperates_with",
+    "object": "p21 CIP1",
+    "context": "p15INK4b cooperates with p21CIP1 to enforce G1 arrest during paracrine senescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CDKN2B",
+    "predicate": "is_silenced_by",
+    "object": "DNA Methylation",
+    "context": "CDKN2B is frequently silenced by promoter methylation in leukaemias, lymphomas, and gliomas.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "is_a_type_of",
+    "object": "MHC Class Ib",
+    "context": "HLA-E is a non-classical (class Ib) major histocompatibility complex molecule with limited polymorphism.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "binds",
+    "object": "NKG2A",
+    "context": "HLA-E is the ligand for the inhibitory receptor NKG2A/CD94 heterodimer on NK cells and CD8+ T cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "suppresses",
+    "object": "Natural Killer Cells",
+    "context": "HLA-E-NKG2A/CD94 engagement delivers an inhibitory signal that blunts NK cell cytotoxic killing.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "suppresses",
+    "object": "CD8 T Cells",
+    "context": "HLA-E-NKG2A/CD94 engagement on CD8+ T cells suppresses cytotoxic killing.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "is_upregulated_by",
+    "object": "IL-6",
+    "context": "SASP cytokines IL-6 and IL-8 upregulate HLA-E, engaging NKG2A/CD94 to suppress NK- and CD8+ T-cell-mediated cytotoxicity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "mediates",
+    "object": "Immune Evasion",
+    "context": "HLA-E upregulation allows senescent cells to persist and tumor cells to escape clearance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLA-E",
+    "predicate": "impairs",
+    "object": "Senescence Surveillance",
+    "context": "By dampening immune surveillance, HLA-E upregulation allows senescent cells to persist.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "is_a_type_of",
+    "object": "Immune Complex",
+    "context": "Inflammasomes are cytosolic supramolecular complexes of the innate immune system.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "activates",
+    "object": "Caspase-1",
+    "context": "Canonical inflammasomes activate Caspase-1 which processes pro-IL-1β, pro-IL-18, and GSDMD.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "processes",
+    "object": "IL-1β",
+    "context": "Caspase-1 processes pro-IL-1β into mature IL-1β for secretion.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "triggers",
+    "object": "Pyroptosis",
+    "context": "Caspase-1/4/5/11 cleave GSDMD; the N-terminal fragment oligomerizes forming pores that cause pyroptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": "Chronic inflammasome activation by sterile stimuli drives persistent inflammation and age-related diseases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "is_activated_by",
+    "object": "mtDNA",
+    "context": "Senescent cells accumulate DAMPs (HMGB1, mtDNA, oxidized lipids) that activate NLRP3 in neighbouring macrophages.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammasome",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": "Caspase-1 or IL-1R inhibitors blunt SASP expression, placing canonical inflammasome activation upstream of the SASP during OIS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senescent Cells",
+    "predicate": "activate",
+    "object": "Noncanonical Inflammasome",
+    "context": "Senescent cells activate noncanonical inflammasome (caspase-5/11) to cleave IL-1α and drive SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Macrophages",
+    "predicate": "activate",
+    "object": "Canonical Inflammasome",
+    "context": "Macrophages recruited to senescent cells encounter DAMPs that activate the canonical NLRP3/caspase-1 inflammasome.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "suppresses",
+    "object": "Inflammasome",
+    "context": "Autophagy clears damaged mitochondria and inflammasome components, restraining inflammasome activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "is_a_type_of",
+    "object": "Adaptor Protein",
+    "context": "MyD88 is a cytoplasmic adaptor protein serving as the central hub of TLR and IL-1R signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "transduces_signals_from",
+    "object": "IL-1R",
+    "context": "IL-1R recruits MyD88 via TIR-TIR interactions; MyD88 assembles the myddosome signaling complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "recruits",
+    "object": "IRAK4",
+    "context": "MyD88 recruits IRAK4 via DD-DD interactions, followed by IRAK1/IRAK2 recruitment in a 6:4:4 stoichiometry.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "recruits",
+    "object": "IRAK1",
+    "context": "Active IRAK4 phosphorylates IRAK1; IRAK1 recruits TRAF6 through its C-terminal TRAF6-binding motifs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "assembles",
+    "object": "Myddosome",
+    "context": "MyD88 assembles into the helical oligomeric myddosome with IRAK4 and IRAK1/2 as the scaffolding platform.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "bridges",
+    "object": "Senescent Cells to Macrophages",
+    "context": "Senescent cell surface IL-1α engages IL-1R on macrophages, recruiting MyD88 to activate NF-κB and SASP amplification.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": "MyD88-dependent IL-1R signaling is required for SASP establishment and maintenance; IRAK1 depletion suppresses SASP.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "drives",
+    "object": "Inflammaging",
+    "context": "Persistent MyD88-dependent IL-1R signaling drives age-related chronic inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "are_a_type_of",
+    "object": "Immature Myeloid Cell",
+    "context": "MDSCs are a heterogeneous population of immature myeloid cells with potent immunosuppressive activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "suppress",
+    "object": "T Cell",
+    "context": "MDSCs deplete L-arginine via arginase-1, produce ROS and peroxynitrite that impair T-cell receptor signalling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "are_recruited_by",
+    "object": "GM-CSF",
+    "context": "SASP factor GM-CSF stimulates myeloid expansion and biases differentiation toward immunosuppressive MDSCs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "are_recruited_by",
+    "object": "CCL2",
+    "context": "CCL2 recruits CCR2+ myeloid precursors into senescent/tumour tissue.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "are_expanded_by",
+    "object": "IL-6",
+    "context": "IL-6 and other pro-inflammatory SASP cytokines promote MDSC accumulation and activation via JAK/STAT3 signalling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "impair",
+    "object": "Senescence Surveillance",
+    "context": "MDSCs impair immune-mediated clearance of senescent cells, allowing senescent-cell accumulation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "contribute_to",
+    "object": "Immunosenescence",
+    "context": "Elevated MDSC frequencies rise with age as part of immunosenescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "contribute_to",
+    "object": "Inflammaging",
+    "context": "Chronic SASP-driven MDSC expansion contributes to age-related inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "is_a_type_of",
+    "object": "Inflammasome",
+    "context": "The noncanonical inflammasome is an innate immune surveillance pathway distinct from the canonical NLRP3/caspase-1 pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "uses",
+    "object": "Caspase-5",
+    "context": "Caspase-5 (human) is the inducible noncanonical effector caspase that cleaves IL-1α and GSDMD.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "uses",
+    "object": "Caspase-11",
+    "context": "Caspase-11 (mouse) is the noncanonical effector caspase that cleaves IL-1α and GSDMD.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-5",
+    "predicate": "cleaves",
+    "object": "IL-1α",
+    "context": "Caspase-5 cleaves pro-IL-1α at a conserved site distinct from the calpain cleavage site, essential for SASP establishment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caspase-5",
+    "predicate": "cleaves",
+    "object": "Gasdermin D",
+    "context": "Active caspase-4/5/11 cleave gasdermin D between its N-terminal pore-forming domain and C-terminal inhibitory domain.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": "Noncanonical inflammasome-mediated IL-1α cleavage is the critical upstream trigger for SASP in senescent cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "is_controlled_by",
+    "object": "cGAS-STING Pathway",
+    "context": "cGAS-STING controls CASP5 expression upstream; cGAS knockdown reduces CASP5 expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "activates",
+    "object": "Canonical Inflammasome",
+    "context": "GSDMD pore formation triggers K+ efflux, activating the canonical NLRP3/caspase-1 inflammasome downstream.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "is_activated_by",
+    "object": "LPS",
+    "context": "Hexa-acylated lipid A of LPS binds directly to the CARD domain of caspase-4/5/11 inducing dimerization and activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Reprogramming",
+    "predicate": "is_a_type_of",
+    "object": "Biological Process",
+    "context": "Paracrine reprogramming is the process by which SASP factors alter the differentiation status of neighbouring cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "induces",
+    "object": "Paracrine Reprogramming",
+    "context": "SASP factors act as potent paracrine morphogens that push recipient cells toward stemness or altered lineage commitment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IL-6",
+    "predicate": "promotes",
+    "object": "Stemness",
+    "context": "IL-6 is a central driver of in vivo reprogramming toward pluripotency and stemness via JAK/STAT3 signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TGFβ",
+    "predicate": "drives",
+    "object": "Epithelial-to-mesenchymal Transition",
+    "context": "TGFβ is a master regulator driving EMT in neighbouring cells during chronic SASP exposure.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Chronic SASP",
+    "predicate": "promotes",
+    "object": "Cancer Stemness",
+    "context": "Chronic SASP (IL-6, IL-8 via JAK/STAT3) promotes cancer stem-cell traits and stemness in neighbouring epithelial/tumour cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "IL-8",
+    "predicate": "promotes",
+    "object": "Cancer Stemness",
+    "context": "IL-8 signalling through CXCR2 expands the CSC pool and promotes tumoursphere formation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "promotes",
+    "object": "Cancer Stemness",
+    "context": "TIS cells secrete a pro-stemness SASP through IL-6/JAK/STAT3, enriching CSCs in surrounding cells and fuelling relapse.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "induces",
+    "object": "TH17",
+    "context": "IL-6 + IL-1β + TGFβ together drive naive T-cell differentiation toward the TH17 lineage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "GM-CSF",
+    "predicate": "skews",
+    "object": "Myeloid Differentiation",
+    "context": "GM-CSF and CCL2 skew myeloid differentiation toward immunosuppressive MDSCs and specific macrophage phenotypes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Paracrine Reprogramming",
+    "predicate": "is_distinct_from",
+    "object": "Paracrine Senescence",
+    "context": "Paracrine reprogramming alters differentiation status (stemness, EMT) while paracrine senescence induces growth arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "is_a_type_of",
+    "object": "VEGF Family",
+    "context": "VEGF-C is a member of the VEGF family of cysteine-knot growth factors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "signals_through",
+    "object": "VEGFR3",
+    "context": "VEGF-C signals primarily through VEGFR-3 on lymphatic endothelium.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "signals_through",
+    "object": "VEGFR2",
+    "context": "At higher concentrations or after proteolytic processing, VEGF-C also engages VEGFR2 on blood vascular endothelium.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": "VEGF-C is a secreted SASP growth factor, induced during RAS-driven OIS as early as 2-3 days after RAS activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "contributes_to",
+    "object": "Paracrine Senescence",
+    "context": "VEGFR2/FLT3 inhibitor suppressed paracrine senescence; VEGF family signaling is a branch mediating paracrine arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "is_induced_by",
+    "object": "RAS",
+    "context": "VEGF-C expression is induced downstream of RAS/RAF/MEK oncogenic signalling and reinforced by IL-1α and NF-κB.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": "Processed VEGF-C engages VEGFR2 to support blood-vessel angiogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "VEGFc",
+    "predicate": "promotes",
+    "object": "Lymphangiogenesis",
+    "context": "Full-length VEGF-C preferentially activates VEGFR-3 and promotes lymphatic vessel sprouting.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "RAS",
+    "context": "Activated RAS (HRAS^G12V) is a prototypical OIS-inducing oncogene, driving hyperproliferation and replication stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "BRAF",
+    "context": "Constitutively active BRAF V600E induces OIS in melanocytes; hallmark of benign melanocytic nevi.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "MYC",
+    "context": "Oncogenic MYC overdrives proliferative and E2F programs that trigger OIS.",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAS",
+    "predicate": "triggers",
+    "object": "DNA Replication Stress",
+    "context": "Constitutive oncogenic signaling pushes cells into hyper-replication, where DNA replication forks are initiated at excessive frequency.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DNA Replication Stress",
+    "predicate": "activates",
+    "object": "ATR",
+    "context": "Stalled/dysfunctional replication forks generate single-strand DNA gaps that engage ATR-CHK1 cascade.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DNA Replication Stress",
+    "predicate": "activates",
+    "object": "ATM",
+    "context": "DNA replication stress activates ATM-CHK2 cascade converging on p53 stabilization.",
+    "confidence": "high"
+  },
+  {
+    "subject": "OIS",
+    "predicate": "derepresses",
+    "object": "CDKN2A",
+    "context": "The CDKN2A locus encoding p16^INK4a is derepressed in OIS via loss of PRC1/2-mediated H3K27me3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "OIS",
+    "predicate": "triggers",
+    "object": "Paracrine Senescence",
+    "context": "OIS cells transmit senescence to neighbouring normal cells via secreted SASP factors (Acosta et al., 2013).",
+    "confidence": "high"
+  },
+  {
+    "subject": "OIS",
+    "predicate": "bypasses_through",
+    "object": "p53",
+    "context": "OIS bypass through loss of p53, p16INK4A, or PTEN is a prerequisite for progression to malignancy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "OIS",
+    "predicate": "is_susceptible_to",
+    "object": "Navitoclax",
+    "context": "OIS cells are susceptible to senolytic drugs like Navitoclax (Bcl-2/Bcl-xL inhibitor).",
+    "confidence": "high"
   }
 ]

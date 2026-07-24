@@ -128,7 +128,7 @@
   {
     "subject": "COMT",
     "predicate": "dominates_dopamine_clearance_in",
-    "object": "PFC",
+    "object": "Prefrontal Cortex",
     "context": "Dopamine clearance in PFC depends heavily on COMT",
     "confidence": "high"
   },
@@ -149,7 +149,7 @@
   {
     "subject": "COMT",
     "predicate": "is_expressed_in",
-    "object": "MSNs",
+    "object": "Medium spiny neurons",
     "context": "COMT immunoreactivity detected in MSN cell bodies and spines",
     "confidence": "high"
   },
@@ -184,7 +184,7 @@
   {
     "subject": "COMT",
     "predicate": "methylates",
-    "object": "catechols",
+    "object": "Catechols",
     "context": "COMT transfers a methyl group to catechol structures",
     "confidence": "high"
   },
@@ -198,7 +198,7 @@
   {
     "subject": "COMT",
     "predicate": "predominates_in",
-    "object": "PFC dopamine clearance",
+    "object": "Prefrontal Cortex dopamine clearance",
     "context": "COMT and NET predominate in PFC dopamine clearance",
     "confidence": "high"
   },
@@ -231,9 +231,9 @@
     "confidence": "high"
   },
   {
-    "subject": "COMT Met/Met",
+    "subject": "Met/Met genotype",
     "predicate": "is_associated_with",
-    "object": "better working memory performance",
+    "object": "better Working Memory performance",
     "context": "Slow COMT associated with better performance on complex working memory tasks",
     "confidence": "medium"
   },
@@ -245,49 +245,49 @@
     "confidence": "medium"
   },
   {
-    "subject": "COMT Val/Val",
+    "subject": "Val/Val genotype",
     "predicate": "is_associated_with",
-    "object": "poorer working memory under stress",
+    "object": "poorer Working Memory under stress",
     "context": "Fast COMT associated with poorer working memory especially under stress",
     "confidence": "medium"
   },
   {
-    "subject": "COMT Val158 allele",
+    "subject": "Val158Met",
     "predicate": "impacts",
     "object": "stimulus-response learning",
     "context": "Val158 allele affects S-R learning and working memory",
     "confidence": "high"
   },
   {
-    "subject": "COMT Val158 allele",
+    "subject": "Val158Met",
     "predicate": "impacts",
-    "object": "working memory",
+    "object": "Working Memory",
     "context": "Val158 allele affects S-R learning and working memory",
     "confidence": "high"
   },
   {
-    "subject": "COMT Val158 allele",
+    "subject": "Val158Met",
     "predicate": "increases",
     "object": "schizophrenia risk",
     "context": "Val158 allele linked with increased risk for schizophrenia",
     "confidence": "medium"
   },
   {
-    "subject": "COMT Val158 allele",
+    "subject": "Val158Met",
     "predicate": "is_associated_with",
     "object": "poorer cognitive performance",
     "context": "Val158 allele associates with poorer cognitive performance",
     "confidence": "high"
   },
   {
-    "subject": "COMT Val158Met",
+    "subject": "Val158Met",
     "predicate": "is",
     "object": "functional SNP",
     "context": "Val158Met impacts dopamine degradation",
     "confidence": "high"
   },
   {
-    "subject": "COMT Val158Met",
+    "subject": "Val158Met",
     "predicate": "modulates",
     "object": "vitamin E cancer prevention",
     "context": "Response to alpha-tocopherol is influenced by COMT Val158Met",
@@ -408,7 +408,7 @@
   {
     "subject": "Catecholamines",
     "predicate": "are",
-    "object": "catechols",
+    "object": "Catechols",
     "context": "Dopamine, epinephrine, norepinephrine are catechols",
     "confidence": "high"
   },
@@ -492,35 +492,35 @@
   {
     "subject": "D2 receptor",
     "predicate": "modulates",
-    "object": "working memory",
+    "object": "Working Memory",
     "context": "D2 receptor modulates working memory",
     "confidence": "high"
   },
   {
-    "subject": "DAT",
+    "subject": "Dopamine Transporter",
     "predicate": "is_highly_abundant_in",
     "object": "Striatum",
     "context": "DAT is the primary dopamine clearance mechanism in striatum",
     "confidence": "high"
   },
   {
-    "subject": "DAT",
+    "subject": "Dopamine Transporter",
     "predicate": "is_highly_abundant_in",
-    "object": "striatum",
+    "object": "Striatum",
     "context": "DAT is highly abundant in the striatum",
     "confidence": "high"
   },
   {
-    "subject": "DAT",
+    "subject": "Dopamine Transporter",
     "predicate": "is_sparse_in",
     "object": "Prefrontal Cortex",
     "context": "DAT is much less abundant in PFC",
     "confidence": "high"
   },
   {
-    "subject": "DAT",
+    "subject": "Dopamine Transporter",
     "predicate": "is_sparse_in",
-    "object": "PFC",
+    "object": "Prefrontal Cortex",
     "context": "Dopamine transporters are less abundant in PFC",
     "confidence": "high"
   },
@@ -562,7 +562,7 @@
   {
     "subject": "Estrogen metabolites",
     "predicate": "are",
-    "object": "catechols",
+    "object": "Catechols",
     "context": "Estrogen metabolites are examples of catechols",
     "confidence": "high"
   },
@@ -849,7 +849,7 @@
   {
     "subject": "Met/Met genotype",
     "predicate": "is_associated_with",
-    "object": "better working memory",
+    "object": "better Working Memory",
     "context": "Slow COMT associated with better performance on complex cognitive tasks",
     "confidence": "medium"
   },
@@ -919,7 +919,7 @@
   {
     "subject": "Methylation",
     "predicate": "neutralizes",
-    "object": "catechols via COMT",
+    "object": "Catechols via COMT",
     "context": "Methylation neutralizes catechols via COMT",
     "confidence": "high"
   },
@@ -994,35 +994,35 @@
     "confidence": "high"
   },
   {
-    "subject": "NET",
+    "subject": "Norepinephrine transporter",
     "predicate": "also_reuptakes",
-    "object": "dopamine in PFC",
+    "object": "dopamine in Prefrontal Cortex",
     "context": "NET also plays a significant role in dopamine reuptake in the PFC",
     "confidence": "high"
   },
   {
-    "subject": "NET",
+    "subject": "Norepinephrine transporter",
     "predicate": "contributes_to_dopamine_clearance_in",
-    "object": "PFC",
+    "object": "Prefrontal Cortex",
     "context": "Norepinephrine transporter also clears dopamine in PFC",
     "confidence": "high"
   },
   {
-    "subject": "NET",
+    "subject": "Norepinephrine transporter",
     "predicate": "is_critical_for",
-    "object": "catecholamine balance in PFC",
+    "object": "catecholamine balance in Prefrontal Cortex",
     "context": "NET is a critical component of catecholamine regulation in the frontal lobes",
     "confidence": "high"
   },
   {
-    "subject": "NET",
+    "subject": "Norepinephrine transporter",
     "predicate": "predominates_in",
-    "object": "PFC dopamine clearance",
+    "object": "Prefrontal Cortex dopamine clearance",
     "context": "COMT and NET predominate in PFC dopamine clearance",
     "confidence": "high"
   },
   {
-    "subject": "NET",
+    "subject": "Norepinephrine transporter",
     "predicate": "reuptakes",
     "object": "norepinephrine",
     "context": "NET is responsible for the reuptake of norepinephrine",
@@ -1073,7 +1073,7 @@
   {
     "subject": "Prefrontal Cortex",
     "predicate": "controls",
-    "object": "working memory",
+    "object": "Working Memory",
     "context": "PFC is essential for working memory",
     "confidence": "high"
   },
@@ -1087,7 +1087,7 @@
   {
     "subject": "Prefrontal Cortex",
     "predicate": "is",
-    "object": "primary brain region for working memory",
+    "object": "primary brain region for Working Memory",
     "context": "PFC is the primary brain region associated with working memory",
     "confidence": "high"
   },
@@ -1199,7 +1199,7 @@
   {
     "subject": "Stimulus-response learning",
     "predicate": "depends_on",
-    "object": "dopamine in striatum",
+    "object": "dopamine in Striatum",
     "context": "S-R learning is heavily influenced by dopamine signaling in the striatum",
     "confidence": "high"
   },
@@ -1339,7 +1339,7 @@
   {
     "subject": "Val158Met",
     "predicate": "is_a",
-    "object": "SNP in COMT gene",
+    "object": "SNP in COMT",
     "context": "Val158Met is a functional SNP in the COMT gene",
     "confidence": "high"
   },
@@ -1381,7 +1381,7 @@
   {
     "subject": "Working Memory",
     "predicate": "depends_on",
-    "object": "balanced dopamine in PFC",
+    "object": "balanced dopamine in Prefrontal Cortex",
     "context": "Optimal working memory depends on balanced dopamine signaling in PFC",
     "confidence": "high"
   },
