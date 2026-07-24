@@ -58,9 +58,60 @@
   #loading p { color: #888; font-size: 13px; }
   .spinner { width: 40px; height: 40px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
   @keyframes spin { to { transform: rotate(360deg); } }
+  
+  /* Mobile toggle button */
+  #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 44px; height: 44px; border-radius: 8px; cursor: pointer; align-items: center; justify-content: center; font-size: 20px; }
+  #mobile-toggle:hover { background: #2a2a4e; border-color: #4E79A7; }
+  
+  /* Backdrop overlay */
+  #backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 90; }
+  #backdrop.visible { display: block; }
+  
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    #mobile-toggle { display: flex; }
+    
+    #sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 85%;
+      max-width: 320px;
+      z-index: 100;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+    }
+    
+    #sidebar.open {
+      transform: translateX(0);
+    }
+    
+    #search-wrap { padding: 16px; }
+    #search { font-size: 16px; padding: 12px 16px; }
+    .search-item { padding: 10px 12px; font-size: 14px; }
+    #search-results { max-height: 250px; }
+    
+    #info-panel { padding: 16px; min-height: auto; }
+    #info-content { font-size: 14px; }
+    
+    .neighbor-link { padding: 8px 12px; font-size: 14px; }
+    #neighbors-list { max-height: 250px; }
+    
+    .legend-item { padding: 10px 8px; font-size: 14px; }
+    .legend-cb, #select-all-cb { width: 18px; height: 18px; }
+    .legend-dot { width: 16px; height: 16px; }
+    
+    #legend-controls { padding: 8px 0; }
+    #legend-controls label { font-size: 14px; padding: 4px 0; }
+    
+    #stats { padding: 12px 16px; font-size: 12px; }
+  }
 </style>
 </head>
 <body>
+<button id="mobile-toggle" title="Toggle search and filters">&#9776;</button>
+<div id="backdrop"></div>
 <div id="graph">
   <div id="loading">
     <div class="spinner"></div>
@@ -126,15 +177,23 @@ async function loadData() {
   const legendResp = await fetch('legend.json');
   const LEGEND = await legendResp.json();
   
-  return { RAW_NODES, RAW_EDGES, LEGEND };
+  loadStatus.textContent = 'Loading context...';
+  const graphResp = await fetch('graph.json');
+  const graphData = await graphResp.json();
+  
+  return { RAW_NODES, RAW_EDGES, LEGEND, graphData };
 }
 
-const { RAW_NODES, RAW_EDGES, LEGEND } = await loadData();
+const { RAW_NODES, RAW_EDGES, LEGEND, graphData } = await loadData();
 loadStatus.textContent = 'Building graph...';
 
 // ============================================================
-// Build adjacency map
+// Build adjacency map and description map
 // ============================================================
+const descriptionMap = new Map();
+(graphData.nodes || []).forEach(n => {
+  if (n.description) descriptionMap.set(n.id, n.description);
+});
 const nodeMap = new Map();
 RAW_NODES.forEach(n => nodeMap.set(n.id, n));
 
@@ -308,6 +367,80 @@ RAW_NODES.forEach(n => {
 });
 
 // ============================================================
+// Edge Label (reusable, appears on hover)
+// ============================================================
+const edgeLabelDiv = document.createElement('div');
+edgeLabelDiv.style.cssText = `
+  color: #a0c4ff;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 8px;
+  background: rgba(15, 15, 26, 0.9);
+  border: 1px solid rgba(78, 121, 167, 0.4);
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+  display: none;
+`;
+const edgeLabel = new CSS2DObject(edgeLabelDiv);
+edgeLabel.visible = false;
+scene.add(edgeLabel);
+
+let hoveredEdge = null;
+
+function showEdgeLabel(line, mouseX, mouseY) {
+  const { edge, fromMesh, toMesh } = line.userData;
+  
+  // Position at midpoint of edge
+  const midX = (fromMesh.position.x + toMesh.position.x) / 2;
+  const midY = (fromMesh.position.y + toMesh.position.y) / 2;
+  const midZ = (fromMesh.position.z + toMesh.position.z) / 2;
+  edgeLabel.position.set(midX, midY, midZ);
+  
+  // Show label with relationship text
+  const labelText = edge.label || '';
+  const confidence = edge.confidence || '';
+  edgeLabelDiv.innerHTML = `<b>${esc(labelText)}</b> <span style="opacity:0.6;font-size:9px">${esc(confidence)}</span>`;
+  edgeLabelDiv.style.display = 'block';
+  edgeLabel.visible = true;
+  
+  // Highlight the edge
+  if (hoveredEdge && hoveredEdge !== line) {
+    resetEdgeStyle(hoveredEdge);
+  }
+  hoveredEdge = line;
+  line.material.color.set(0x4E79A7);
+  line.material.opacity = 0.9;
+}
+
+function hideEdgeLabel() {
+  edgeLabelDiv.style.display = 'none';
+  edgeLabel.visible = false;
+  if (hoveredEdge) {
+    resetEdgeStyle(hoveredEdge);
+    hoveredEdge = null;
+  }
+}
+
+function resetEdgeStyle(line) {
+  if (selectedNode) {
+    // If a node is selected, maintain selection highlighting
+    const { edge } = line.userData;
+    if (edge.from === selectedNode || edge.to === selectedNode) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.8;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.05;
+    }
+  } else {
+    line.material.color.set(0x4a4a6a);
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+  }
+}
+
+// ============================================================
 // 3D Force-Directed Layout
 // ============================================================
 let physicsEnabled = false;
@@ -429,6 +562,15 @@ function applyForces() {
     positions.needsUpdate = true;
   });
   
+  // Update edge label position if hovering an edge
+  if (hoveredEdge && edgeLabel.visible) {
+    const { fromMesh, toMesh } = hoveredEdge.userData;
+    const midX = (fromMesh.position.x + toMesh.position.x) / 2;
+    const midY = (fromMesh.position.y + toMesh.position.y) / 2;
+    const midZ = (fromMesh.position.z + toMesh.position.z) / 2;
+    edgeLabel.position.set(midX, midY, midZ);
+  }
+  
   physicsIterations++;
   if (physicsIterations >= maxPhysicsIterations) {
     physicsEnabled = false;
@@ -441,6 +583,7 @@ function applyForces() {
 // ============================================================
 const raycaster = new THREE.Raycaster();
 raycaster.params.Points = { threshold: 2 };
+raycaster.params.Line = { threshold: 5 };
 const mouse = new THREE.Vector2();
 const tooltip = document.getElementById('tooltip');
 let hoveredNode = null;
@@ -452,12 +595,15 @@ function onMouseMove(event) {
   mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
   
   raycaster.setFromCamera(mouse, camera);
-  const intersects = raycaster.intersectObjects(nodeMeshes);
   
-  if (intersects.length > 0) {
-    const mesh = intersects[0].object;
+  // Check nodes first (higher priority)
+  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  
+  if (nodeIntersects.length > 0) {
+    const mesh = nodeIntersects[0].object;
     if (mesh.userData.nodeData) {
       hoveredNode = mesh;
+      hideEdgeLabel();
       container.style.cursor = 'pointer';
       
       const nodeData = mesh.userData.nodeData;
@@ -465,17 +611,37 @@ function onMouseMove(event) {
       tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
       tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
       tooltip.classList.add('visible');
+      return;
     }
-  } else {
-    hoveredNode = null;
-    container.style.cursor = 'default';
-    tooltip.classList.remove('visible');
   }
+  
+  // Check edges if no node hit
+  const edgeIntersects = raycaster.intersectObjects(edgeObjects);
+  
+  if (edgeIntersects.length > 0) {
+    const line = edgeIntersects[0].object;
+    if (line.userData.edge) {
+      hoveredNode = null;
+      tooltip.classList.remove('visible');
+      container.style.cursor = 'pointer';
+      
+      showEdgeLabel(line, event.clientX - rect.left, event.clientY - rect.top);
+      return;
+    }
+  }
+  
+  // Nothing hit
+  hoveredNode = null;
+  hideEdgeLabel();
+  container.style.cursor = 'default';
+  tooltip.classList.remove('visible');
 }
 
 function onClick(event) {
   if (hoveredNode) {
     selectNode(hoveredNode.userData.nodeId);
+  } else if (hoveredEdge) {
+    selectNode(hoveredEdge.userData.edge.from);
   } else {
     deselectNode();
   }
@@ -547,6 +713,7 @@ function deselectNode() {
     line.material.color.set(0x4a4a6a);
   });
   
+  hideEdgeLabel();
   document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it</span>';
 }
 
@@ -591,11 +758,14 @@ function showInfo(nodeId) {
     return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nb ? nb.label : target)}${label}</span>`;
   }).join('');
   
+  const description = descriptionMap.get(nodeId);
+  
   document.getElementById('info-content').innerHTML = `
     <div class="field"><b>${esc(n.label)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
     <div class="field">Community: ${esc(n.community_name)}</div>
     <div class="field">Source: ${esc(n.source_file || '-')}</div>
+    ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description)}</div>` : ''}
     <div class="field">Degree: ${n.degree}</div>
     ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;
@@ -605,6 +775,7 @@ document.addEventListener('click', e => {
   const el = e.target.closest('.neighbor-link');
   if (el && el.dataset.nid !== undefined) {
     selectNode(el.dataset.nid);
+    if (isMobile()) closeSidebar();
   }
 });
 
@@ -633,6 +804,7 @@ searchInput.addEventListener('input', () => {
       selectNode(n.id);
       searchResults.style.display = 'none';
       searchInput.value = '';
+      if (isMobile()) closeSidebar();
     };
     searchResults.appendChild(el);
   });
@@ -784,6 +956,37 @@ document.getElementById('btn-edges').addEventListener('click', (e) => {
 // Initialize button active states
 document.getElementById('btn-labels').classList.add('active');
 document.getElementById('btn-edges').classList.add('active');
+
+// ============================================================
+// Mobile Sidebar Toggle
+// ============================================================
+const mobileToggle = document.getElementById('mobile-toggle');
+const sidebar = document.getElementById('sidebar');
+const backdrop = document.getElementById('backdrop');
+
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
+function openSidebar() {
+  sidebar.classList.add('open');
+  backdrop.classList.add('visible');
+}
+
+function closeSidebar() {
+  sidebar.classList.remove('open');
+  backdrop.classList.remove('visible');
+}
+
+mobileToggle.addEventListener('click', () => {
+  if (sidebar.classList.contains('open')) {
+    closeSidebar();
+  } else {
+    openSidebar();
+  }
+});
+
+backdrop.addEventListener('click', closeSidebar);
 
 // ============================================================
 // Stats
