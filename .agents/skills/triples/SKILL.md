@@ -1,11 +1,11 @@
 ---
-name: kg-triples
+name: triples
 description: Extract and visualize subject-object-relation triples from wiki documents to build knowledge graphs; manage JSON triple files and generate directed graph visualizations.
 ---
 
 # Knowledge Graph Triples Skill
 
-Extract factual triples from ingested wiki documents and entity notes to build a knowledge graph per topic. Each topic maintains a triple JSON file (`_triples.json`) in the topic directory, with graph visualizations (`.dot`, `.svg`) in `media/kg_graph/`.
+Extract factual triples from ingested wiki documents and entity notes to build a knowledge graph per topic. Each topic maintains a triple JSON file (`_triples.json`) in the topic directory, with graph visualizations (`.dot`, `.svg`) in `./media/kg_graph/`.
 
 ## Workflow
 
@@ -19,8 +19,8 @@ Read the target document or entity notes and extract all key factual triples in 
     "subject": "Entity Name",
     "predicate": "verb relation",
     "object": "Related Entity",
-    "context": "Brief quote or explanation of the relationship",
-    "confidence": "high"
+    "context": "Explanation of the relationship. (3-5 sentences, short paragraph)",
+    "confidence": "0.95"
   }
 ]
 ```
