@@ -1,7 +1,7 @@
 # Graph Report - /Users/johnnykuo/Documents/llm-wiki-jk  (2026-07-23)
 
 ## Corpus Check
-- 10 files · ~95,312 words
+- 10 topic triple stores (`_triples.json`) · 272,450 words of extracted triples, derived from 113 ingested source documents (~755,486 words)
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
