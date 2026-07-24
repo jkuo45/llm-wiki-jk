@@ -98,7 +98,7 @@
 ---
 
 <!-- GENERATED: document_list -->
-## Documents (101 total)
+## Documents
 
 <details>
 <summary><strong>Documents (101 total)</strong> — click to expand</summary>
@@ -209,7 +209,7 @@
 <!-- END GENERATED: document_list -->
 
 <!-- GENERATED: task_list -->
-## Tasks (62 total)
+## Tasks
 
 <details>
 <summary><strong>Tasks (62 total)</strong> — click to expand</summary>

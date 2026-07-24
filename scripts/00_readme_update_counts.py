@@ -371,14 +371,14 @@ def main():
     # Build marker-delimited sections
     summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
     doc_list_content = (
-        f"## Documents ({len(document_data)} total)\n\n"
+        "## Documents\n\n"
         "<details>\n"
         f"<summary><strong>Documents ({len(document_data)} total)</strong> — click to expand</summary>\n\n"
         + "\n".join(docs_list)
         + "\n\n</details>"
     )
     task_list_content = (
-        f"## Tasks ({len(task_data)} total)\n\n"
+        "## Tasks\n\n"
         "<details>\n"
         f"<summary><strong>Tasks ({len(task_data)} total)</strong> — click to expand</summary>\n\n"
         + "\n".join(task_list_lines)
