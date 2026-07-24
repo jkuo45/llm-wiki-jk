@@ -200,14 +200,13 @@ def main() -> int:
     gods = god_nodes(G)
     surprises = surprising_connections(G, communities)
     questions = suggest_questions(G, communities, new_labels)
-    # Count actual source markdown files (not triple files)
-    md_files = sorted(str(p) for p in ROOT.glob("src/notes/**/*.md"))
-    total_words = sum(len(Path(f).read_text(encoding="utf-8").split()) for f in md_files)
+    # Count topic triple files (the actual graph sources)
+    total_words = sum(len(Path(f).read_text(encoding="utf-8").split()) for f in topics)
     detection = {
-        "total_files": len(md_files),
+        "total_files": len(topics),
         "total_words": total_words,
         "warning": None,
-        "files": {"document": md_files},
+        "files": {"document": topics},
     }
     report = generate(
         G,
