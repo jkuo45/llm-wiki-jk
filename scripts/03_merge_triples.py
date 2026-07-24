@@ -14,6 +14,18 @@ from pathlib import Path
 CONF_RANK = {"high": 3, "medium": 2, "low": 1}
 
 
+def conf_rank_value(c):
+    """Return a numeric rank for a confidence value.
+
+    Supports both legacy string ranks ("high"/"medium"/"low") and modern
+    float confidence values (e.g. 0.96), where the float is used directly
+    as its own rank so that higher floats win deduplication.
+    """
+    if isinstance(c, (int, float)):
+        return float(c)
+    return CONF_RANK.get(c, 0)
+
+
 def load(path: Path):
     with open(path) as f:
         return json.load(f)
@@ -50,8 +62,8 @@ def main():
                 counts[topic] = counts.get(topic, 0) + 1
             else:
                 # same subject/predicate/object/context -> keep higher confidence
-                if CONF_RANK.get(conf, 0) > CONF_RANK.get(
-                    merged[key].get("confidence", "low"), 0
+                if conf_rank_value(conf) > conf_rank_value(
+                    merged[key].get("confidence", "low")
                 ):
                     merged[key]["confidence"] = conf
 

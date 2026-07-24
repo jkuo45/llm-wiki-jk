@@ -12,7 +12,7 @@ What it does, in order:
   5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
   6. Regenerates graph.html via `graphify export html`.
 
-Run:  python3 graphify-out/rebuild_from_topics.py
+Run:  python3 scripts/03_rebuild_from_topics.py
 """
 
 from __future__ import annotations
@@ -72,6 +72,26 @@ CONF_MAP = {
     "low": (0.4, "AMBIGUOUS"),
 }
 
+# Thresholds mapping a raw float confidence to a discrete rank label.
+CONF_RANK = {
+    "EXTRACTED": 0.7,   # >= this -> EXTRACTED, else AMBIGUOUS
+}
+
+
+def resolve_conf(t: dict) -> tuple[float, str]:
+    """Return (confidence_score, conf_label) for a triple.
+
+    Supports both legacy string confidence ("high"/"medium"/"low") and
+    modern float confidence (e.g. 0.96), where the float is used directly
+    as the numeric confidence_score.
+    """
+    c = t.get("confidence", "medium")
+    if isinstance(c, (int, float)):
+        score = float(c)
+        conf = "EXTRACTED" if score >= CONF_RANK["EXTRACTED"] else "AMBIGUOUS"
+        return score, conf
+    return CONF_MAP.get(c, (0.75, "EXTRACTED"))
+
 
 def strip_wikilink(s: str) -> str:
     return re.sub(
@@ -116,9 +136,7 @@ def main() -> int:
                         source_file=rel,
                         description=t.get("context", "")[:300],
                     )
-            score, conf = CONF_MAP.get(
-                t.get("confidence", "medium"), (0.75, "EXTRACTED")
-            )
+            score, conf = resolve_conf(t)
             key = (sid, t["predicate"], tid)
             if key not in edge_seen:
                 edge_seen.add(key)
