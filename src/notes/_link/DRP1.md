@@ -2,7 +2,7 @@
 title: DRP1
 description: Dynamin-Related Protein 1 is the cytosolic dynamin-like GTPase that mediates mitochondrial fission, recruited to mitochondria by MFF/MID49/MID51/FIS1 adaptors.
 created: 2026-07-04
-updated: 2026-07-23
+updated: 2026-07-24
 tags:
   - protein
   - mitochondria
@@ -26,6 +26,9 @@ Fission is initiated where [[Endoplasmic Reticulum|ER]] tubules contact mitochon
 
 ## Regulation
 
+> [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
+> DRP1 is the key mediator of mitochondrial fission, recruited to the OMM by adaptors [[MFF]], [[FIS1]], [[MID49]], and [[MID51]]. It is regulated by multiple post-translational modifications: phosphorylation at Ser616 (stimulatory) and Ser637 (inhibitory) by kinases including [[PKA]], [[AMPK]], and [[SIRT]]. However, Ser637 phosphorylation can paradoxically promote fission in podocytes under high glucose, and Ser637 phosphorylation may promote subsequent Ser616 phosphorylation — indicating context-dependent regulation where no single modification determines outcome.
+
 - **[[CDK1]]/[[Cyclin B]]** phosphorylates DRP1 at Ser585 during mitosis, promoting fission.
 - **[[ERK|ERK2 (MAPK1)]]** phosphorylates DRP1 at Ser616, activating fission — a central node in [[MAPK|MAPK]]-driven tumor growth.
 - **[[Protein Kinase A]]** phosphorylates DRP1 at Ser637, retaining it cytosolic and inhibiting fission during starvation.
@@ -45,6 +48,8 @@ Fission is initiated where [[Endoplasmic Reticulum|ER]] tubules contact mitochon
 
 - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
   - Details DRP1 domains, adaptor recruitment, ER/actin initiation, multi-site regulation, and disease roles.
+- [[_document_ - The role of mitochondrial dynamics in disease]]
+  - Comprehensive review of DRP1 as the central fission mediator, its adaptor recruitment (MFF/FIS1/MID49/MID51), context-dependent post-translational modifications, and roles in CVD, neurodegeneration, cancer, and lung disease.
 
 ## Connections
 
@@ -57,8 +62,13 @@ Fission is initiated where [[Endoplasmic Reticulum|ER]] tubules contact mitochon
 - [[Parkin]] — Ubiquitylates DRP1 for degradation.
 - [[Mdivi-1]] — Selective DRP1 inhibitor used in disease studies.
 - [[Mitochondrial Fusion]] — Opposing process.
+- [[AMPK]] — Phosphorylates DRP1 in context-dependent manner.
+- [[PKA]] — Phosphorylates DRP1 at inhibitory sites (Ser637).
+- [[Heart Failure]] — DRP1 upregulated; DRP1 deletion causes lethal heart defects.
+- [[Alzheimer's Disease]] — DRP1/Ser616 phosphorylation increased; S-nitrosylation triggers fission.
 
 ## Linking Summary
 
 - New links added: [[Mitochondrial Fission]], [[Mitochondrial Fusion]], [[Outer Mitochondrial Membrane]], [[MFF]], [[MID49]], [[MID51]], [[FIS1]], [[DNM2]], [[INF2]], [[Endoplasmic Reticulum]], [[Calcium]], [[Cardiolipin]], [[Cytosol]], [[CDK1]], [[Cyclin B]], [[ERK]], [[Protein Kinase A]], [[Calcineurin]], [[MAPK]], [[Nitric Oxide]], [[Parkin]], [[Ubiquitination]], [[Mitophagy]], [[Apoptosis]], [[Parkinson's Disease]], [[Atherosclerosis]], [[Left Ventricular Hypertrophy]], [[Cancer]], [[Metastasis]], [[Mdivi-1]]
 - Strong connections to strengthen: [[DRP1]] ↔ [[Mitochondrial Fission]], [[DRP1]] ↔ [[ERK]], [[DRP1]] ↔ [[Mdivi-1]]
+- Document-enriched connections: [[DRP1]] ↔ [[AMPK]], [[DRP1]] ↔ [[PKA]], [[DRP1]] ↔ [[Heart Failure]], [[DRP1]] ↔ [[Alzheimer's Disease]]

@@ -4,7 +4,7 @@ description: Mitophagy is a specialized form of Selective Autophagy that targets
   damaged or dysfunctional Mitochondria for degradation. It is a critical quality
   control mechanism for maintaining mitochondri...
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-07-24
 tags:
   - biological-process
   - mitochondria
@@ -18,6 +18,10 @@ aliases: []
 ## Mechanism
 Mitophagy typically involves the recognition of damaged mitochondria by receptors (like PINK1/Parkin) and their subsequent engulfment by [[Autophagosome|autophagosomes]], which then fuse with [[Lysosome|lysosomes]].
 ## Importance in Aging
+
+> [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
+> Mitophagy has dual roles in disease: it is generally protective (e.g., mild PINK1–Parkin activation prevents heart failure and alleviates myocardial infarction), but excessive or prolonged activation can be detrimental (e.g., BNIP3-mediated mitophagy potentiates HF; sustained elevated mitophagy in ALS may aggravate neuron damage). The PINK1/Parkin pathway is the best-characterized mechanism, while receptor-mediated pathways via [[BNIP3]] and [[FUNDC1]] operate independently of mitochondrial depolarization.
+
 A decline in mitophagy is associated with the accumulation of dysfunctional mitochondria, which can lead to:
 - Increased [[Reactive Oxygen Species]] (ROS) production.
 - Triggering of [[Inflammaging]].
@@ -69,6 +73,9 @@ List of documents that mention this entity
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - For many quiescent cell types, the clearance of mitochondria through Autophagy (Mitophagy) is responsible for decreasing metabolism and is important for maintaining quiescence (Ho et al., 2017; Zhang et al., 2018).
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - Comprehensive review of mitophagy's dual roles in disease: protective mild activation in CVD vs. detrimental excessive activation. Covers PINK1/Parkin pathway, BNIP3/FUNDC1 receptor-mediated pathways, and interplay with mitochondrial dynamics (fission/fusion).
+
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - It was reported that Mitophagy/autophagy blockade leads to the accumulation of damaged mitochondria generating ROS, and this in turn activates the NLRP3. For instance, a study carried out by Zhao et al.
 
@@ -89,7 +96,12 @@ List of documents that mention this entity
 - [[PARL]] — interacts with Mitophagy
 - [[Mitochondrial calcium uniporter]] — interacts with Mitophagy
 - [[BNIP3]] — interacts with Mitophagy
+- [[FUNDC1]] — OMM receptor for hypoxia-induced mitophagy
+- [[Heart Failure]] — Mild mitophagy activation prevents HF; excessive activation potentiates it
+- [[Parkinson's Disease]] — PINK1/Parkin mutations cause impaired mitophagy in familial PD
+- [[Cancer]] — Mitophagy is tumor-suppressive (clears damaged mitochondria) but also promotes drug resistance
 ## Linking Summary
 - New links added: [[Autophagy]], [[Mitochondria]], [[Quiescence]], [[Reactive Oxygen Species]], [[ROS]], [[PINK1]], [[Parkin]], [[PARL]], [[Mitochondrial calcium uniporter]], [[BNIP3]], [[NIX]], [[FUNDC1]], [[HIF-1α]], [[DRP1]], [[MFN1]], [[MFN2]], [[ATFS-1]], [[ATF4]], [[ATF5]], [[CHOP]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondrial Dynamics]], [[NLRP3 Inflammasome]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Urolithin A]], [[Actinonin]], [[Metformin]], [[NAD+]], [[Aging]], [[Longevity]]
 - Suggested new entity notes to create: [[Oxidative Stress]], [[MDV (Mitochondrial-Derived Vesicles)]], [[p62]]
   - Strong connections to strengthen: [[Mitophagy]] ↔ Hematopoietic Stem Cell, [[Mitophagy]] ↔ [[Parkinson's Disease]], [[Mitophagy]] ↔ Adrenochrome, [[Mitophagy]] ↔ [[Aging]]
+  - Document-enriched connections: [[Mitophagy]] ↔ [[Heart Failure]], [[Mitophagy]] ↔ [[Cancer]], [[Mitophagy]] ↔ [[FUNDC1]], [[Mitophagy]] ↔ [[BNIP3]]

@@ -4,7 +4,7 @@ description: An E3 ubiquitin ligase that plays a critical role in Mitophagy. It 
   recruited to damaged mitochondria by PINK1 and labels them for degradation by the
   lysosome.
 created: 2026-07-04
-updated: 2026-07-21
+updated: 2026-07-24
 tags:
   - protein
 aliases: [Parkin]
@@ -16,6 +16,10 @@ Parkin (encoded by [[PARK2]]) is a 465-amino acid RING-between-RING (RBR) E3 ubi
 ## Autoinhibition and Pink1-Dependent Activation
 In its basal state, Parkin exists in an autoinhibited conformation where the UBL domain blocks the RING1:E2-binding interface and RING0 sterically occludes the RING2 catalytic cysteine. Activation requires [[PINK1]]-mediated phosphorylation of both [[Ubiquitin]] (at Ser65) and the Parkin UBL domain (also at Ser65). Phosphoubiquitin binding to RING1 releases the UBL, enabling Parkin to assume an open, active conformation. This two-step phosphorylation mechanism ensures selective activation on damaged mitochondria where Pink1 accumulates.
 ## Role in Mitophagy and Mitochondrial Quality Control
+
+> [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
+> Once activated by PINK1, Parkin polyubiquitinates OMM proteins including MFN1/2, leading to mitochondria fission, fragmentation, and subsequent mitophagy degradation. Parkin expression is lost in various types of cancer (breast, lung, ovarian, bladder), and inactivating mutations are observed in glioblastoma — suggesting a tumor-suppressive role. PRKN mutations are the most common cause of autosomal recessive early-onset Parkinson's disease.
+
 Parkin recruitment to depolarized mitochondria initiates a cascade of [[Mitophagy]] events: (i) Parkin ubiquitinates outer mitochondrial membrane proteins including mitofusins, [[Miro]], and [[VDAC1]]; (ii) ubiquitin chains recruit autophagy adaptors such as [[p62]], [[OPTN]], and [[NDP52]]; and (iii) these adaptors engage [[LC3]] on the phagophore membrane to engulf the mitochondrion. Parkin-dependent ubiquitination also promotes proteasomal degradation of outer membrane proteins via [[VCP|p97/VCP]], facilitating mitochondrial fragmentation prior to engulfment.
 ## Mutations in Parkinson's Disease
 Mutations in [[PARK2]] are the most common cause of autosomal recessive early-onset [[Parkinson's Disease]], accounting for up to 50% of familial cases and ~15% of sporadic early-onset cases. Over 200 pathogenic mutations have been identified, including missense, nonsense, frameshift, and exon deletion variants distributed throughout all Parkin domains. Loss of Parkin function impairs mitophagy, leading to accumulation of dysfunctional mitochondria, [[Oxidative Stress]], and selective vulnerability of dopaminergic neurons in the [[Substantia Nigra]].
@@ -46,6 +50,9 @@ List of documents that mention this entity
   - [[_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection|Targeting Mitophagy for Neuroprotection]]
     - Comprehensive review of Parkin function in neuronal mitophagy: FBXO7 scaffolds PINK1-Parkin interaction; Parkin ubiquitinates Mfn1/2, Miro, VDAC1 for mitophagy. Tau fragments cause aberrant Parkin recruitment in AD. MUL1 compensates for Parkin loss. USP30 opposes Parkin-mediated ubiquitylation. BOK facilitates Parkin translocation by competing with MCL-1. SHP2-mediated Parkin Tyr143 dephosphorylation unlocks its E3 ligase activity.
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - Parkin ubiquitinates MFN1/2 for mitophagy degradation; PRKN mutations cause familial PD. Parkin expression is lost in various cancers (breast, lung, ovarian, bladder), functioning as a tumor suppressor. Mild PINK1–Parkin mitophagy activation is protective in CVD.
+
 ## Connections
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[PINK1]] — initiates mitophagy after mitochondrial depolarization
@@ -67,6 +74,9 @@ List of documents that mention this entity
 - [[SHP2]] — Phosphatase that activates Parkin via Tyr143 dephosphorylation
 - [[Lovastatin]] — SHP2 agonist that promotes Parkin activation
 - [[Tau Protein]] — N-terminal tau fragments cause aberrant Parkin recruitment to mitochondria in AD
+- [[Cancer]] — Parkin expression lost in breast, lung, ovarian, bladder cancers; tumor-suppressive role
+- [[Heart Failure]] — Mild Parkin-mediated mitophagy prevents HF development
 ## Linking Summary
 - New links added: [[PINK1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
-  - Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]
+- Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]
+- Document-enriched connections: [[Parkin]] ↔ [[Cancer]], [[Parkin]] ↔ [[Heart Failure]], [[Parkin]] ↔ [[MFN1]], [[Parkin]] ↔ [[MFN2]]

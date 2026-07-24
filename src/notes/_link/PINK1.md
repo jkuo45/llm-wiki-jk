@@ -3,7 +3,7 @@ title: PINK1
 description: Mitochondrial serine/threonine kinase that recruits Parkin to damaged
   mitochondria to initiate mitophagy.
 created: 2026-07-04
-updated: 2026-07-21
+updated: 2026-07-24
 tags:
   - protein
 aliases: [PTEN-induced Kinase 1]
@@ -14,6 +14,10 @@ PTEN-induced kinase 1, a mitochondrial serine/threonine-protein kinase that acts
 ## Mitochondrial Targeting and Processing
 Pink1 (PTEN-induced putative kinase 1, encoded by [[PINK1]]) is a 581-amino acid serine/threonine kinase synthesized in the cytosol and targeted to mitochondria via an N-terminal [[Mitochondrial targeting sequence]] (MTS; residues 1–34). The protein is imported through the [[Translocase of the Outer Mitochondrial Membrane|Translocase of the outer membrane]] (TOM) and [[Translocase of the Inner Mitochondrial Membrane|Translocase of the inner membrane]] (TIM) complexes. In healthy mitochondria, Pink1 is processed by [[Mitochondrial processing peptidase]] (MPP) and [[PARL|Presenilin-associated rhomboid-like protease]] (PARL), which cleave the MTS and a C-terminal transmembrane domain, respectively. The cleaved fragment is released into the cytosol for proteasomal degradation.
 ## Stabilization on Depolarized Mitochondria
+
+> [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
+> When mitochondrial membrane potential (MMP) becomes abnormal, PINK1 is stabilized and aggregates on the OMM, where its kinase domain phosphorylates OMM proteins and recruits [[Parkin]]. PINK1 phosphorylates [[MFN2]], converting it into a Parkin receptor that facilitates Parkin recruitment to the OMM. Mutations in PINK1 cause autosomal recessive early-onset familial [[Parkinson's Disease]], the second most common genetic cause after PRKN.
+
 When mitochondria lose their membrane potential (Δψₘ) due to damage, toxin exposure, or age-related dysfunction, Pink1 import is arrested such that the full-length protein accumulates on the [[Outer mitochondrial membrane]]. Transmembrane insertion via the TOM complex positions the kinase domain facing the cytosol, where it dimerizes and becomes catalytically active. This Δψₘ-dependent stabilization makes Pink1 a sensitive and specific sensor of mitochondrial health.
 ## Kinase Activity and Substrates
 Active Pink1 phosphorylates both [[Ubiquitin]] and [[Parkin]] at Ser65, a residue within the conserved β-grasp fold of ubiquitin. Phosphoubiquitin (pUb) binding to Parkin's RING1 domain releases its autoinhibited conformation. Pink1 also phosphorylates ubiquitin chains pre-existing on mitochondrial proteins, creating a feed-forward amplification loop for Parkin recruitment. Beyond the Pink1-Parkin axis, Pink1 phosphorylates [[Mitochondrial Complex I]] subunits (e.g., [[NDUFA10]]), [[TRAP1]] (a mitochondrial heat shock protein), and [[Omi HtrA2]], regulating bioenergetic efficiency and [[Mitochondrial Unfolded Protein Response|UPRᵐᵗ]] activation.
@@ -53,6 +57,9 @@ List of documents that mention this entity
   - [[_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection|Targeting Mitophagy for Neuroprotection]]
     - Comprehensive review of PINK1 function in neuronal mitophagy: PINK1 acts as mitochondrial damage sensor, accumulates on OMM upon ΔΨm loss, and recruits Parkin. FBXO7 enhances PINK1-Parkin interaction. PINK1 phosphorylates Drp1 at S616 for synaptic maintenance. Aβ inhibits PINK1 activation in AD, creating a vicious cycle with ROS.
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - PINK1 stabilizes on OMM when MMP is abnormal, phosphorylates MFN2 as a Parkin receptor, and activates the PINK1–Parkin mitophagy axis. PINK1 mutations cause familial PD; its role is context-dependent across cell types and species.
+
 ## Connections
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
@@ -77,6 +84,8 @@ List of documents that mention this entity
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Mitophagy]]: PINK1 loss impairs mitophagy, sustaining mitochondrial ROS in senescence
 - [[Mitochondrial Dysfunction]]: PINK1 deficiency promotes mitochondrial dysfunction in IPF
+- [[Heart Failure]] — Mild PINK1–Parkin mitophagy activation prevents HF development
+- [[Atherosclerosis]] — PINK1–Parkin mitophagy in vascular smooth muscle cells promotes atherosclerosis
 ## Linking Summary
 - New links added: [[Parkin]], [[Mitophagy]]
   - Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]

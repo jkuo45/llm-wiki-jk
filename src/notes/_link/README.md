@@ -10,8 +10,8 @@ updated: 2026-07-17
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 23_JULY_2026 04:00 PM PDT
-- Total count of entities: 389
+- Last updated: 24_JULY_2026 12:00 PM PDT
+- Total count of entities: 404
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -406,3 +406,23 @@ This directory contains entities that span across multiple topics within the kno
 | [[Serine]] | 23_JULY_2026 04:00 PM PDT | Amino Acid | Protein, Phosphorylation |
 | [[YME1L]] | 23_JULY_2026 04:00 PM PDT | Protein | Mitochondria, Protease |
 | [[Mdivi-1]] | 23_JULY_2026 04:00 PM PDT | Small Molecule | Mitochondria, Fission Inhibitor |
+| [[MTFP1]] | 24_JULY_2026 12:00 PM PDT | Protein | Mitochondria, Fission, Cardiomyopathy |
+| [[PARL]] | 24_JULY_2026 12:00 PM PDT | Protease | Mitochondria, PINK1, Mitophagy |
+| [[BNIP3L]] | 24_JULY_2026 12:00 PM PDT | Protein | Mitophagy, Hypoxia, Apoptosis |
+| [[NBR1]] | 24_JULY_2026 12:00 PM PDT | Protein | Selective Autophagy, Mitophagy |
+| [[Optineurin]] | 24_JULY_2026 12:00 PM PDT | Protein | Selective Autophagy, ALS |
+| [[FKBP38]] | 24_JULY_2026 12:00 PM PDT | Protein | Mitophagy, Parkin-independent |
+| [[ARIH1]] | 24_JULY_2026 12:00 PM PDT | Enzyme | Ubiquitin Ligase, Cancer Drug Resistance |
+| [[Cristae]] | 24_JULY_2026 12:00 PM PDT | Mitochondria Structure | Mitochondria, OXPHOS, Cardiolipin |
+| [[Mitochondrial Biogenesis]] | 24_JULY_2026 12:00 PM PDT | Biological Process | Mitochondria, PGC-1α, AMPK |
+| [[Chloroquine]] | 24_JULY_2026 12:00 PM PDT | Chemical Compound | Autophagy Inhibitor, Cancer |
+| [[Valsartan]] | 24_JULY_2026 12:00 PM PDT | Chemical Compound | Cardiovascular, ARB, Mitophagy |
+| [[Liraglutide]] | 24_JULY_2026 12:00 PM PDT | Chemical Compound | GLP-1 Agonist, Cardiovascular |
+| [[NIX]] | 24_JULY_2026 12:00 PM PDT | Protein | Mitophagy, Hypoxia, BNIP3L |
+| [[Pulmonary Fibrosis]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Fibrosis |
+| [[Glioblastoma]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Cancer, Brain |
+| [[Neuroblastoma]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Cancer, Pediatric |
+| [[Ovarian Cancer]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Cancer, Gynecologic |
+| [[Pulmonary Arterial Hypertension]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Cardiovascular, Pulmonology |
+| [[Acute Lung Injury]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Critical Care |
+| [[Bronchopulmonary Dysplasia]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Neonatal |

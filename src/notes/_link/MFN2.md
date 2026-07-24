@@ -2,7 +2,7 @@
 title: MFN2
 description: Mitofusin 2 is an outer-mitochondrial-membrane dynamin-related GTPase that mediates mitochondrial fusion and ER–mitochondria tethering; mutations cause CMT2A.
 created: 2026-07-04
-updated: 2026-07-23
+updated: 2026-07-24
 tags:
   - protein
   - mitochondria
@@ -27,6 +27,9 @@ Like [[MFN1|MFN1]], MFN2 has an N-terminal GTPase domain, HR1 and HR2 helical re
 
 ## Regulation
 
+> [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
+> MFN2 tethers [[Mitochondria|mitochondria]] to [[Endoplasmic Reticulum|ER]] contact sites (MAMs), regulating [[Calcium|calcium homeostasis]] and lipid metabolism. [[PINK1]] phosphorylates MFN2, converting it into a [[Parkin]] receptor — this phosphorylation facilitates Parkin recruitment to the OMM, leading to MFN2 ubiquitination and subsequent mitophagy. Ubiquitination of MFN1/2 by Parkin leads to mitochondria fission, fragmentation, and mitophagy degradation. MFN2 downregulation is observed in heart failure and idiopathic dilated cardiomyopathy.
+
 - **[[JNK]]** phosphorylates MFN2 under stress, recruiting an E3 [[Ubiquitination|ubiquitin ligase]] that degrades MFN2, causing [[Mitochondrial Fission|mitochondrial fragmentation]] and [[Apoptosis|apoptotic]] death.
 - **[[PINK1]]** phosphorylates MFN2, leading to its [[Ubiquitination|ubiquitination]] by [[Parkin]] and eventual [[Mitophagy]].
 - Reduced MFN2 (e.g., by PDGF signaling) shifts the network toward fission, as seen in vascular smooth muscle during [[Atherosclerosis|atherosclerosis]] and in [[Left Ventricular Hypertrophy|cardiac hypertrophy]] (where DRP1 rises as MFN2 falls).
@@ -40,6 +43,8 @@ Like [[MFN1|MFN1]], MFN2 has an N-terminal GTPase domain, HR1 and HR2 helical re
 
 - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
   - Describes MFN2 ER tethering, JNK/PINK1 regulation, CMT2A mechanisms, and cancer relevance.
+- [[_document_ - The role of mitochondrial dynamics in disease]]
+  - Covers MFN2 as ER–mitochondria tether, PINK1-mediated phosphorylation as Parkin receptor for mitophagy, CMT2A mutations, and downregulation in heart failure and dilated cardiomyopathy.
 
 ## Connections
 
@@ -52,8 +57,11 @@ Like [[MFN1|MFN1]], MFN2 has an N-terminal GTPase domain, HR1 and HR2 helical re
 - [[PINK1]] / [[Parkin]] — Phospho-ubiquitylate MFN2 for mitophagy.
 - [[Charcot-Marie-Tooth Disease Type 2A]] — Caused by heterozygous MFN2 mutations.
 - [[DRP1]] — Opposing fission GTPase.
+- [[Heart Failure]] — MFN2 is downregulated in HF and idiopathic dilated cardiomyopathy.
+- [[Mitophagy]] — MFN2 ubiquitination by Parkin leads to mitophagy degradation.
 
 ## Linking Summary
 
 - New links added: [[Mitochondrial Fusion]], [[Outer Mitochondrial Membrane]], [[Endoplasmic Reticulum]], [[Calcium]], [[Mitochondria]], [[MFN1]], [[Miro]], [[Milton]], [[Kinesin]], [[JNK]], [[Ubiquitination]], [[PINK1]], [[Parkin]], [[Mitophagy]], [[Apoptosis]], [[Charcot-Marie-Tooth Disease Type 2A]], [[Dominant Optic Atrophy]], [[Cancer]], [[Breast Cancer]], [[Atherosclerosis]], [[Left Ventricular Hypertrophy]], [[DRP1]]
 - Strong connections to strengthen: [[MFN2]] ↔ [[Charcot-Marie-Tooth Disease Type 2A]], [[MFN2]] ↔ [[Miro]], [[MFN2]] ↔ [[JNK]]
+- Document-enriched connections: [[MFN2]] ↔ [[Heart Failure]], [[MFN2]] ↔ [[Mitophagy]], [[MFN2]] ↔ [[Parkin]]

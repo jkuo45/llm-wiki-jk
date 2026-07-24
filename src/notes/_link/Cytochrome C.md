@@ -1,80 +1,72 @@
 ---
-title: Cytochrome C
-description: A mitochondrial electron carrier protein that, when released into the cytoplasm, triggers the intrinsic apoptotic pathway
-created: 2026-07-09
-updated: 2026-07-09
+title: Cytochrome c
+description: Cytochrome c, a mitochondrial intermembrane space protein essential for electron transport and apoptosis
+protected: false
+created: 2026-07-24
+updated: 2026-07-24
 tags:
   - protein
-  - mitochondrial
-  - electron-transport
+  - mitochondria
   - apoptosis
-  - retrograde-signaling
+url: 
+source: 
 aliases:
-  - cyt C
-  - CYCS
-  - somatic cytochrome c
-  - cytochrome c somatic
+  - cyt c
+  - cytochrome c
 ---
 
-# Cytochrome C
+# Cytochrome c
 
-[[Cytochrome C]] (cyt C) is a small heme-containing protein located in the mitochondrial intermembrane space. It serves dual functions: as an essential electron carrier in the mitochondrial [[Mitochondrial Electron Transport Chain|electron transport chain]] (ETC) and as a critical trigger for [[Intrinsic Apoptosis]] when released into the cytoplasm.
+## Overview
 
-## Structure
+Cytochrome c is a small heme protein located in the mitochondrial intermembrane space that plays dual roles in cellular function: as an essential component of the [[Oxidative Phosphorylation]] electron transport chain and as a key mediator of [[Apoptosis]] when released from mitochondria.
 
-Cytochrome C is a 12 kDa protein containing:
-- A heme c group covalently attached via thioether bonds to Cys14 and Cys17
-- A highly conserved amino acid sequence across species
-- A positively charged surface that mediates interactions with cardiolipin on the inner mitochondrial membrane
+## Mechanism of Action
 
-## Role in Electron Transport
+### Electron Transport Function
 
-> [!info] Essential Electron Carrier
-> Cytochrome C shuttles electrons between Complex III ([[Cytochrome bc1 complex]]) and Complex IV (cytochrome c oxidase) in the [[Mitochondrial Electron Transport Chain|ETC]]. This function is essential for [[Oxidative Phosphorylation]] and ATP production. The release of cytochrome C from the intermembrane space therefore simultaneously disrupts energy production and initiates apoptosis.
+Cytochrome c shuttles electrons between complex III (cytochrome bc1 complex) and complex IV (cytochrome c oxidase) in the electron transport chain, contributing to the proton gradient that drives ATP synthesis.
 
-## Role in Apoptosis
+### Apoptotic Function
 
-Upon mitochondrial outer membrane permeabilization (MOMP) — triggered by [[Bax]]/[[Bak]] oligomerization — cytochrome C is released into the cytoplasm, where it:
+During apoptosis, cytochrome c is released from the mitochondrial intermembrane space into the cytoplasm:
 
-1. Binds to Apaf-1 (apoptotic protease activating factor-1)
-2. Recruits and activates [[Caspases|caspase-9]] in the apoptosome complex
-3. Initiates the caspase cascade leading to cell death
+- **Release mechanism** — Cytochrome c release is regulated by [[Mitochondrial Fission]] dynamics and [[Cristae]] remodeling. OPA1 oligomers normally sequester cytochrome c within cristae; disruption of cristae structure facilitates release
+- **Apoptosome formation** — In the cytoplasm, cytochrome c binds APAF1 to form the apoptosome, activating caspase-9 and initiating the caspase cascade
+- **Regulation by BCL-2 family** — Pro-apoptotic proteins (BAX, BAK) permeabilize the outer membrane, while anti-apoptotic proteins (BCL-2, BCL-XL) prevent release
 
-> [!warning] Dual Function as a Retrograde Signal
-> Cytochrome C release functions as both an executioner of [[Apoptosis]] and a [[Retrograde Signaling|retrograde signal]]. Its release from mitochondria communicates irreversible cellular damage, triggering the cell death program. This dual role underscores the importance of cytochrome C in mitochondrial communication with the cell.
+## Physiological Function
 
-## Regulation
+Cytochrome c is essential for:
 
-- **Release**: Controlled by the balance between anti-apoptotic ([[Bcl-2]], [[Bcl-xL]]) and pro-apoptotic ([[Bax]], [[Bak]]) [[Bcl-2 family]] members
-- **Sequestration**: Anti-apoptotic proteins prevent cytochrome C release by maintaining mitochondrial outer membrane integrity
-- **[[Humanin]]**: Humanin prevents [[Bax]] translocation to mitochondria, thereby indirectly preventing cytochrome C release
+- **Energy metabolism** — electron transfer in oxidative phosphorylation
+- **Programmed cell death** — initiating intrinsic apoptosis when mitochondria are damaged
+- **Cellular signaling** — contributing to redox balance and metabolic regulation
 
-## Disease Relevance
+## Pathology
 
-- [[Alzheimer's Disease]]: Premature cytochrome C release contributes to neuronal death
-- Cancer: Defective cytochrome C release enables tumor cell survival
-- [[Atherosclerosis]]: Mitochondrial dysfunction and cytochrome C release in endothelial cells
-- [[Aging|Age-related decline]]: Progressive mitochondrial dysfunction increases susceptibility to cytochrome C release
+Dysregulation of cytochrome c release is implicated in:
+
+- **Cancer** — resistance to apoptosis through impaired cytochrome c release
+- **Neurodegeneration** — excessive release contributes to neuronal death
+- **Ischemia-reperfusion injury** — release during reperfusion causes tissue damage
 
 ## Documents
 
-- [[_document_ - Humanin a harbinger of mitochondrial-derived peptides?|Humanin: a harbinger of MDPs]]
-  - Describes cytochrome C as a traditional retrograde signaling molecule and discusses its release as a consequence of Bax activation that humanin prevents.
+- [[_document_ - The role of mitochondrial dynamics in disease]]
+  - Describes cytochrome c release during apoptosis and its regulation by mitochondrial fission dynamics.
 
 ## Connections
 
-- [[Apoptosis]]: Cytochrome C is a key trigger of the intrinsic apoptotic pathway.
-- [[Mitochondrial Electron Transport Chain]]: Cytochrome C is an essential ETC component.
-- [[Oxidative Phosphorylation]]: Cytochrome C shuttles electrons between Complex III and IV.
-- [[Bax]]: Bax pores in the mitochondrial outer membrane permit cytochrome C release.
-- [[Intrinsic Apoptosis]]: Cytochrome C release initiates caspase activation.
-- [[Caspases]]: Cytochrome C activates caspase-9 in the apoptosome.
-- [[Humanin]]: Humanin indirectly prevents cytochrome C release by inhibiting Bax.
-- [[Retrograde Signaling]]: Cytochrome C release is a retrograde signal communicating irreversible damage.
-- [[Bcl-2 family]]: Anti-apoptotic and pro-apoptotic family members regulate cytochrome C release.
+- [[Apoptosis]] — cytochrome c is a key mediator of intrinsic apoptosis
+- [[Cristae]] — cytochrome c is stored within cristae and released during remodeling
+- [[Oxidative Phosphorylation]] — cytochrome c is an electron carrier in the ETC
 
 ## Linking Summary
 
-- New links added: [[Mitochondrial Electron Transport Chain]], [[Oxidative Phosphorylation]], [[Bax]], [[Intrinsic Apoptosis]], [[Caspases]], [[Humanin]], [[Retrograde Signaling]], [[Bcl-2 family]], [[Bcl-2]], [[Bcl-xL]], [[Bak]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Aging]]
-- Suggested new entity notes to create: None
-- Strong connections to strengthen: [[Cytochrome C]] ↔ [[Bax]], [[Cytochrome C]] ↔ [[Humanin]], [[Cytochrome C]] ↔ [[Apoptosis]]
+- New links added: [[Apoptosis]], [[Cristae]], [[Oxidative Phosphorylation]], [[Mitochondrial Fission]]
+- Suggested new entity notes to create: none
+- Strong connections to strengthen:
+  - [[Cytochrome c]] ↔ [[Apoptosis]] — direct role in apoptosome formation
+  - [[Cytochrome c]] ↔ [[Cristae]] — storage and release site
+  - [[Cytochrome c]] ↔ [[Oxidative Phosphorylation]] — essential electron carrier function

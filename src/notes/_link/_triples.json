@@ -579,5 +579,285 @@
     "object": "Cardiovascular Disease",
     "context": "Imbalance in mitochondrial dynamics is linked to cardiovascular diseases, including heart failure, ischemia-reperfusion injury, and atherosclerosis, because cardiomyocytes and vascular cells depend heavily on a healthy, adaptable mitochondrial network for contractile ATP and redox balance. Excessive fission (DRP1 overactivity) and impaired fusion (MFN/OPA1 deficits) promote fragmented mitochondria, mitochondrial depolarization, increased ROS, and cardiomyocyte death during stress and infarction. The directionality is pathogenic: dynamic imbalance both reflects and drives cardiac and vascular injury. This association is well supported by experimental and clinical cardiovascular research, making dynamics a therapeutic target for cardioprotection. Confidence remains high for the association though causality varies by disease stage.",
     "confidence": 0.9
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "recruited_by",
+    "object": "MFF",
+    "context": "DRP1 is recruited from the cytoplasm to the outer mitochondrial membrane by adaptor proteins, with MFF (mitochondrial fission factor) being one of the four main adaptors. MFF directly binds DRP1 and anchors it to the OMM to initiate fission. Overexpression of MFF enhances mitochondrial fragmentation, while its low expression inhibits DRP1 anchoring and results in elongated mitochondria. MFF also physically interacts with MID49 and MID51 in a DRP1 complex to coordinate fission. The relationship is well established through biochemical and microscopy studies.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "recruited_by",
+    "object": "FIS1",
+    "context": "FIS1 (fission protein 1) was the first reported mitochondrial adaptor protein and plays a key role in yeast mitochondrial fission. In mammalian cells, FIS1 can independently recruit DRP1 to mitochondria, though its role is less significant than in yeast—mammalian cells lacking FIS1 show little or no fission defect. Instead, FIS1 is necessary for some forms of mitophagy and was reported in 2021 to recruit DRP1 specifically for asymmetrical fission, whereas MFF is related to symmetrical fission. The relationship is established but context-dependent in mammalian systems.",
+    "confidence": 0.85
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "recruited_by",
+    "object": "MID49",
+    "context": "MID49 (mitochondrial dynamics protein 49) is an outer mitochondrial membrane protein that serves as an adaptor for DRP1 recruitment. MID49 directly associates with mitochondrial division, and its absence leads to significant mitochondrial elongation. A low MID49 level enhances fission, but overexpression leads to elongated mitochondria by recruiting inactive DRP1. MID49 physically interacts with MFF in a DRP1 complex. Epigenetic dysregulation of MID49 and MID51 increases mitotic mitochondrial fission and promotes pulmonary arterial hypertension. The relationship is well established.",
+    "confidence": 0.93
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "recruited_by",
+    "object": "MID51",
+    "context": "MID51 (mitochondrial dynamics protein 51) is an outer mitochondrial membrane adaptor protein that recruits DRP1 for mitochondrial fission. Like MID49, MID51 directly associates with division machinery and its absence causes mitochondrial elongation. Uniquely, MID51 can inhibit the enhancement of DRP1 GTPase activity stimulated by MFF, suggesting a regulatory role beyond simple recruitment. MID51 requires ADP as a cofactor for its function. The relationship is well established through structural and functional studies.",
+    "confidence": 0.93
+  },
+  {
+    "subject": "Cardiolipin",
+    "predicate": "interacts_with",
+    "object": "DRP1",
+    "context": "Cardiolipin (CL), a phospholipid of the inner mitochondrial membrane, interacts directly with DRP1 to drive its oligomerization and stimulate its GTPase activity. This interaction enhances the constriction of both the outer and inner mitochondrial membranes during fission. Cardiolipin's role in DRP1-mediated fission highlights the importance of lipid-protein interactions in mitochondrial dynamics. The relationship is mechanistically established through biochemical studies showing that CL promotes DRP1 polymerization and membrane constriction.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "processed_by",
+    "object": "OMA1",
+    "context": "OPA1 proteolytic processing is mediated by OMA1 (mitochondrial metalloendopeptidase), which cleaves OPA1 at the S1 site under stress conditions to produce the short form S-OPA1. This cleavage converts membrane-bound long-form L-OPA1 into soluble S-OPA1 that lacks a membrane anchor. The L-OPA1/S-OPA1 ratio determines the balance between mitochondrial fusion and fission—stress-induced OMA1 activation shifts this balance toward fission by reducing L-OPA1 levels. OMA1 activation is triggered by mitochondrial membrane depolarization and loss of membrane potential. The relationship is well established in mitochondrial dynamics research.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "processed_by",
+    "object": "YME1L",
+    "context": "OPA1 proteolytic processing is also mediated by YME1L (ATP-dependent zinc metalloprotease), which cleaves OPA1 at the S1 site under basal conditions to maintain the balance of long and short OPA1 isoforms. Unlike OMA1 which is stress-activated, YME1L constitutively processes OPA1 to regulate fusion capacity. Increased levels of oxidative phosphorylation (OXPHOS) promote OPA1 cleavage by YME1L, linking metabolic state to fusion dynamics. The coordination of L-OPA1 and S-OPA1 produced by YME1L is required for normal levels of mitochondrial fusion under basal conditions. The relationship is well established.",
+    "confidence": 0.94
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "phosphorylates",
+    "object": "MFN2",
+    "context": "PINK1 (PTEN-induced putative kinase 1) phosphorylates MFN2 on the outer mitochondrial membrane, converting it into a receptor that facilitates Parkin recruitment. In healthy mitochondria, PINK1 is continuously imported to the inner membrane, cleaved by PARL, and degraded. When membrane potential is lost, PINK1 stabilizes on the OMM and phosphorylates MFN2, which then recruits the E3 ubiquitin ligase Parkin. This phosphorylation event is a critical link between mitochondrial fusion machinery and the mitophagy quality control pathway. The relationship is well established and represents a key convergence of dynamics and mitophagy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "recruits",
+    "object": "Parkin",
+    "context": "PINK1 recruits Parkin (PRKN) to the outer mitochondrial membrane when mitochondrial membrane potential is lost, initiating the PINK1-Parkin mitophagy pathway. Stabilized PINK1 on the OMM phosphorylates OMM proteins including MFN2, creating docking sites for Parkin. Once recruited, Parkin is activated by PINK1-mediated phosphorylation and begins ubiquitinating OMM targets. This recruitment mechanism is the master switch for mitophagy in mammalian cells. Mutations in either PINK1 or Parkin cause familial early-onset Parkinson's disease, underscoring the pathway's importance. The relationship is firmly established.",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "ubiquitinates",
+    "object": "MFN1",
+    "context": "Once activated by PINK1, Parkin polyubiquitinates MFN1 on the outer mitochondrial membrane, targeting it for proteasomal degradation. This ubiquitination leads to mitochondrial fragmentation by removing fusion machinery from the OMM, and subsequent autophagosome formation around the damaged mitochondria. The degradation of MFN1 and MFN2 by Parkin is a prerequisite for mitophagy, as it prevents the damaged fragment from re-fusing with the healthy mitochondrial network. The relationship is well established and represents a direct mechanistic link between the ubiquitin-proteasome system and mitochondrial dynamics.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "ubiquitinates",
+    "object": "MFN2",
+    "context": "Parkin polyubiquitinates MFN2 on the outer mitochondrial membrane, targeting it for proteasomal degradation and fragmentation. Phosphorylation of MFN2 by PINK1 first converts it into a Parkin receptor, facilitating Parkin recruitment to the OMM. Activated Parkin then ubiquitinates MFN2 itself, creating a positive feedback loop that amplifies mitophagy signaling. The ubiquitination of MFN2 leads to mitochondria fission, fragmentation, and subsequent mitophagy degradation. This dual role of MFN2—as both a fusion protein and a mitophagy receptor—underscores the reciprocity between mitochondrial dynamics and mitophagy. The relationship is well established.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "BNIP3",
+    "predicate": "interacts_with",
+    "object": "LC3",
+    "context": "BNIP3 (BCL2/adenovirus E1B interacting protein 3) is an outer mitochondrial membrane protein that functions as a mitophagy receptor by directly interacting with LC3 through its LIR (LC3-interacting region) motif. This interaction mediates the engulfment of damaged mitochondria by autophagosomes independent of the PINK1-Parkin pathway. BNIP3-mediated mitophagy is induced by hypoxia and HIF-1α stabilization. BNIP3 also interacts with OPA1 to induce mitochondrial fragmentation, linking it to both dynamics and mitophagy. The relationship is well established as a Parkin-independent mitophagy mechanism.",
+    "confidence": 0.93
+  },
+  {
+    "subject": "FUNDC1",
+    "predicate": "interacts_with",
+    "object": "LC3",
+    "context": "FUNDC1 (FUN14 domain containing 1) is an outer mitochondrial membrane mitophagy receptor that directly interacts with LC3 to mediate hypoxia-induced mitophagy. Phosphoglycerate mutase 5 (PGAM5) dephosphorylates FUNDC1, promoting its interaction with LC3 under hypoxic stimulation. ULK1 phosphorylates FUNDC1 at serine 17, enhancing the binding of FUNDC1 to LC3 in mitochondria. FUNDC1 also interacts with OPA1 and DRP1, regulated by serine 13 phosphorylation during hypoxia or membrane potential loss. The relationship is well established as a key hypoxia-responsive mitophagy pathway.",
+    "confidence": 0.93
+  },
+  {
+    "subject": "ULK1",
+    "predicate": "phosphorylates",
+    "object": "FUNDC1",
+    "context": "ULK1 (unc-51-like autophagy activating kinase 1) phosphorylates FUNDC1 at serine 17, thereby enhancing the binding of FUNDC1 to LC3 in mitochondria. This phosphorylation event is essential for inducing autophagy at the mitochondrial surface and represents a direct regulatory mechanism for receptor-mediated mitophagy. ULK1 is itself essential for inducing autophagy and interacts with FUNDC1 to coordinate mitophagy initiation. The relationship links the core autophagy initiation machinery to mitochondrial-specific quality control.",
+    "confidence": 0.9
+  },
+  {
+    "subject": "MFN2",
+    "predicate": "tethers",
+    "object": "Endoplasmic Reticulum",
+    "context": "MFN2 serves as a vital mediator of mitochondria-ER contact sites (MAMs), tethering the endoplasmic reticulum to mitochondria through its localization on both organelle surfaces. This tethering regulates critical mitochondrial functions including calcium homeostasis and lipid metabolism at the ER-mitochondria interface. The knockout of MFN2 disrupts ER-mitochondria contacts and impairs calcium transfer. This tethering function of MFN2 extends its role beyond mitochondrial fusion into inter-organelle communication. The relationship is well established and represents one of MFN2's non-fusion functions that distinguish it from MFN1.",
+    "confidence": 0.94
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "phosphorylated_by",
+    "object": "PKA",
+    "context": "DRP1 is phosphorylated by protein kinase A (PKA) at multiple serine residues with context-dependent effects. Ser616 phosphorylation stimulates mitochondrial fission, while Ser637 phosphorylation generally inhibits fission. However, in podocytes under high glucose conditions, Ser637/656 phosphorylation paradoxically promotes fission. Ser600 phosphorylation by PKA decreases DRP1 GTPase activity. A 2021 study showed that Ser637 phosphorylation promotes subsequent Ser616 phosphorylation, and only blocking downstream Ser616 phosphorylation leads to mitochondrial elongation. The relationship is well established but highly context-dependent.",
+    "confidence": 0.9
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "phosphorylated_by",
+    "object": "AMPK",
+    "context": "DRP1 is phosphorylated by AMP-activated protein kinase (AMPK), the cellular energy sensor, as part of the regulatory machinery controlling mitochondrial fission. AMPK-mediated phosphorylation of DRP1 is one of several post-translational modifications that regulate its anchoring, polymerization, and activation. The directionality links cellular energy status to mitochondrial morphology: energy stress activates AMPK, which modulates DRP1 activity and consequently fission rates. The relationship is part of the broader post-translational regulatory network of DRP1 that adapts mitochondrial dynamics to cellular context.",
+    "confidence": 0.85
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "removes",
+    "object": "damaged mitochondria",
+    "context": "Mitophagy is a form of selective autophagy in which damaged and dysfunctional mitochondrial fragments are devoured and degraded. It is triggered by cues that mark mitochondrial damage, such as imbalance in mitochondrial fission-fusion dynamics. The process involves formation of a double-membraned autophagosome that engulfs dysfunctional mitochondria, followed by delivery to the lysosome for degradation by hydrolytic enzymes. Mitophagy-mediated elimination of mitochondria plays an important role in mitochondrial quality control and is closely related to cell fate including senescence, apoptosis, and necroptosis. The relationship is fundamentally established as the primary mitochondrial quality control mechanism.",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Mdivi-1",
+    "predicate": "inhibits",
+    "object": "DRP1",
+    "context": "Mdivi-1 (mitochondrial division inhibitor-1) is a quinazolinone derivative that specifically inhibits DRP1, attenuating cardiac dysfunction in diverse mouse cardiomyopathy models through mitochondrial elongation or reduced autophagy. It also has therapeutic effects in neurodegenerative disease models including Parkinson's, Alzheimer's, and ALS by reducing neuronal cell death through mitochondrial elongation and enhanced resistance to apoptosis. However, Mdivi-1 has pleiotropic effects including cleaving L-OPA1 and altering OXPHOS complex proteins, and treatment of MI in pigs did not reduce infarct size or preserve cardiac function. The relationship is established but with noted limitations.",
+    "confidence": 0.88
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "Metformin prevents the progression of heart failure and improves left ventricular function by activating AMPK and PGC-1α in the mitochondrial dynamics regulation pathway. As a first-line treatment for diabetes, metformin's AMPK activation connects metabolic regulation to mitochondrial quality control. AMPK activation by metformin influences DRP1 phosphorylation and downstream fission/fusion balance. This mechanism links metformin's well-known metabolic benefits to mitochondrial dynamics modulation in cardiovascular disease. The relationship is well established in the context of cardiovascular protection.",
+    "confidence": 0.9
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "upregulation_associated_with",
+    "object": "Heart Failure",
+    "context": "DRP1 expression is increased in heart failure patients, along with upregulation of FIS1 and BNIP3, accompanied by mitochondrial fragmentation, vacuolar degeneration, and crista destruction observed through transmission electron microscopy. DRP1 is essential for cardiac embryonic development, and its deletion results in lethal heart defects. Excessive DRP1-mediated fission contributes to pathological cardiac remodeling. The relationship is supported by clinical evidence from heart failure patients and multiple experimental models showing that DRP1 inhibition improves cardiac function.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "MFN2",
+    "predicate": "downregulation_associated_with",
+    "object": "Heart Failure",
+    "context": "MFN2 levels are decreased in patients with heart failure, along with reduced MFN1 in idiopathic dilated cardiomyopathy. These reductions are correlated with increased mitochondrial fragmentation in the heart. The downregulation of fusion proteins shifts the fission-fusion balance toward excessive fission, contributing to the fragmented mitochondrial phenotype characteristic of failing cardiomyocytes. Cardiac-specific deletion of both MFN1 and MFN2 causes rapid heart failure and premature death. The relationship is well supported by clinical and experimental evidence.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "downregulation_associated_with",
+    "object": "Heart Failure",
+    "context": "Significant downregulation of OPA1 expression is found in heart failure and cardiac ischemia-reperfusion injury. OPA1 mutation and improper OPA1 processing induce mitochondrial fragmentation, resulting in severe cardiomyopathy and ultimately heart failure. The imbalance in OPA1 processing—shifting the L-OPA1/S-OPA1 ratio toward short forms—compromises cristae structure and inner membrane fusion. This contributes to the overall mitochondrial dysfunction seen in failing hearts. The relationship is supported by both clinical samples and genetic mouse models.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "mutations_cause",
+    "object": "Parkinson's Disease",
+    "context": "Mutations in PINK1 (PTEN-induced putative kinase 1) cause autosomal recessive early-onset Parkinson's disease, one of the most common forms of familial PD. PINK1 mutations impair the PINK1-Parkin mitophagy pathway, leading to accumulation of damaged mitochondria in dopaminergic neurons. In PINK1-deficient rats, neurodegeneration and behavioral deficits in PD are aggravated, though PINK1 knockout mice fail to develop spontaneous PD. The Parkin-independent role of PINK1 also contributes to the phenotype. The relationship is firmly established in PD genetics.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "mutations_cause",
+    "object": "Parkinson's Disease",
+    "context": "Mutations in Parkin (PRKN) cause autosomal recessive early-onset Parkinson's disease, representing one of the most common genetic causes of familial PD. Parkin-knockout mice show mitochondrial abnormalities, motor deficits, and neuronal deficiency. However, Parkin-deficient rats show no abnormalities, indicating that abrogated Parkin contributes to PD but is not the sole cause—the Parkin-independent role of PINK1 also drives the phenotype. Two forms of inherited early-onset PD are caused by mutations in PINK1 and Parkin. The relationship is firmly established in PD genetics.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "LRRK2",
+    "predicate": "phosphorylates",
+    "object": "DRP1",
+    "context": "Endogenous LRRK2 (leucine-rich repeat kinase 2) in neurons directly interacts with and phosphorylates DRP1, elevating mitochondrial DRP1 levels and thereby increasing mitochondrial fragmentation. The LRRK2 G2019S mutant found in Parkinson's disease induces excessive mitochondrial fragmentation in HEK293T cells. This direct phosphorylation of DRP1 by LRRK2 connects the most common genetic cause of familial PD to mitochondrial dynamics regulation. The relationship is established through co-immunoprecipitation and functional studies showing that LRRK2 kinase activity drives pathological fission.",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Alpha-synuclein",
+    "predicate": "increases",
+    "object": "DRP1",
+    "context": "The α-synuclein protein encoded by the SNCA gene increases DRP1 expression and facilitates its translocation into mitochondria, thereby modifying mitochondrial fission in neuroblastoma cells. Overexpression of SNCA leads to enhanced DRP1-mediated fission and fragmented mitochondrial networks. This mechanism connects α-synuclein pathology—central to Parkinson's disease and Lewy body dementia—to mitochondrial dynamics. The relationship is supported by cell-based studies showing that α-synuclein directly influences the fission machinery.",
+    "confidence": 0.85
+  },
+  {
+    "subject": "DJ-1",
+    "predicate": "regulates",
+    "object": "DRP1",
+    "context": "DJ-1 regulates mitochondrial dynamics by modulating the expression of DRP1 and DRP1-dependent fission to protect neurons against oxidative stress. DJ-1 is one of five major human genes involved in Parkinson's disease with critical functions in mitochondrial regulation. Loss of DJ-1 function leads to dysregulated DRP1 activity and impaired mitochondrial quality control. The relationship connects DJ-1's neuroprotective role to its regulation of the fission machinery, establishing it as a modulator rather than a direct component of the fission apparatus.",
+    "confidence": 0.85
+  },
+  {
+    "subject": "BNIP3",
+    "predicate": "mediates",
+    "object": "hypoxia-induced mitophagy",
+    "context": "BNIP3 mediates mitophagy through hypoxia and the stabilization of HIF-1α, serving as a Parkin-independent pathway for mitochondrial clearance under low-oxygen conditions. Along with its homologue BNIP3L/NIX, BNIP3 interacts directly with LC3 as a mitophagy receptor on the outer mitochondrial membrane. BNIP3 protein levels are upregulated at early premalignant stages of various human solid cancers but frequently decrease when tumors become invasive, suggesting context-dependent roles. The relationship is well established as an alternative mitophagy pathway.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "FUNDC1",
+    "predicate": "mediates",
+    "object": "hypoxia-induced mitophagy",
+    "context": "FUNDC1 is a mitophagy receptor specifically for hypoxia-induced mitophagy on the outer mitochondrial membrane. Under hypoxic stimulation, phosphoglycerate mutase 5 dephosphorylates FUNDC1, promoting its interaction with LC3 and inducing mitophagy. FUNDC1 interacts with OPA1 and DRP1, regulated by serine 13 phosphorylation state during hypoxia or mitochondrial membrane potential loss. This positions FUNDC1 at the intersection of mitochondrial dynamics and quality control. The relationship is well established as a key hypoxia-responsive mitophagy mechanism.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "MFF",
+    "predicate": "required_for",
+    "object": "DRP1 recruitment",
+    "context": "MFF is essential for mitochondrial recruitment of DRP1 during fission in mammalian cells. Its overexpression enhances mitochondrial fragmentation, and its absence leads to significant mitochondrial elongation by preventing DRP1 anchoring to the OMM. MFF physically interacts with MID49 and MID51 in a DRP1 complex to coordinate fission. The role of MFF is relatively simple compared to MID proteins—MFF acts primarily as a recruitment platform, while MID proteins have more complex regulatory modes. The relationship is firmly established through knockout and overexpression studies.",
+    "confidence": 0.94
+  },
+  {
+    "subject": "FIS1",
+    "predicate": "required_for",
+    "object": "mitophagy",
+    "context": "FIS1 is necessary for some forms of mitophagy despite playing a less significant role than MFF in mammalian mitochondrial fission. Mammalian cells lacking FIS1 show little or no fission defect, but FIS1 is required for certain mitophagy pathways. TBC1D15 interacts with FIS1 to mediate the autophagic encapsulation of mitochondria downstream of Parkin activation. FIS1 overexpression increases mitochondrial fragmentation, leading to mitochondrial dysfunction and increased autophagosome formation. The relationship distinguishes FIS1's mitophagy role from its minor fission role in mammals.",
+    "confidence": 0.88
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": "DRP1-mediated fission can promote mitophagy by generating small, dysfunctional mitochondrial fragments that are subsequently engulfed and degraded. The inhibition of DRP1 reduces Parkin-mediated mitophagy, and mutations in DRP1 result in fatal heart failure because of defects in mitophagy. DRP1 interacts with the zinc transporter ZIP1 to promote Zn2+ influx into the matrix, causing membrane depolarization, OMA1 activation, and OPA1 inactivation, ultimately enabling clearance of damaged fragments. However, DRP1 is not always necessary for mitophagy—cardiac-specific DRP1-knockout mice show that preventing mitophagy delays cardiomyopathy progression. The relationship is established but context-dependent.",
+    "confidence": 0.88
+  },
+  {
+    "subject": "Mitochondrial fission",
+    "predicate": "precedes",
+    "object": "Mitophagy",
+    "context": "Given that autophagosomes in mammalian cells are approximately 500-1500 nm in size, large mitochondrial networks must be broken up by fission before mitophagy can occur. Asymmetrical fission produces one healthy mitochondrion and one dysfunctional small fragment that is first prevented from re-fusing, then engulfed and degraded by mitophagy. The degradation of mitochondrial fusion- or fission-related factors is required for mitophagy. DRP1-mediated mitochondrial fission enhanced autophagy, while inhibition of DRP1 weakened BNIP3-mediated autophagy. The relationship is mechanistically established as a spatial prerequisite for mitophagy.",
+    "confidence": 0.92
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "maintains",
+    "object": "Cristae",
+    "context": "OPA1 maintains cristae architecture and cristae junction integrity in addition to mediating inner membrane fusion. Cristae are the characteristic infoldings of the inner mitochondrial membrane that house the OXPHOS complexes, organized by the mitochondrial contact site and cristae organizing system (MICOS). Cardiolipin is vital for cristae assembly and stability, working in concert with OPA1. Loss of OPA1 disrupts cristae structure, releases cytochrome c, and sensitizes cells to apoptosis. Decreased OPA1 in heart failure leads to reduced mitochondrial fusion and compromised cristae integrity. The relationship is well established.",
+    "confidence": 0.94
+  },
+  {
+    "subject": "P110",
+    "predicate": "inhibits",
+    "object": "DRP1-FIS1 interaction",
+    "context": "P110 is a small peptide that specifically blocks the interaction between DRP1 and FIS1, improving cardiac structure and attenuating cardiac dysfunction in rat models after ischemia-reperfusion injury. P110 also improves function in many neurodegenerative disease models including Parkinson's, Alzheimer's, Huntington's, and ALS. Notably, P110 had no observable effects on wild-type mice compared with ALS model mice, indicating that it selectively inhibits pathological division while maintaining normal physiological division activity. The relationship is established as a selective therapeutic approach targeting the DRP1-FIS1 interface.",
+    "confidence": 0.88
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "lost_in",
+    "object": "Cancer",
+    "context": "Parkin expression is lost in various types of cancer including human breast, lung, ovarian, and bladder cancers. Inactivating mutations are observed in glioblastoma and other cancers. The overexpression of Parkin and PINK1 in breast and glioma cells attenuates cellular proliferation. Loss of Parkin-mediated mitophagy allows accumulation of dysfunctional mitochondria, contributing to Warburg metabolism and excess ROS production that support oncogenesis. This positions Parkin as a tumor suppressor whose loss promotes cancer development through impaired mitochondrial quality control. The relationship is well supported across multiple cancer types.",
+    "confidence": 0.9
+  },
+  {
+    "subject": "ARIH1",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": "ARIH1, an E3 ubiquitin ligase, promotes mitophagy in cancer cells in response to chemotherapeutic agents, protecting cancer cells and causing drug resistance. This represents a pro-survival role of mitophagy in the tumor context, contrasting with the tumor-suppressive role of Parkin-mediated mitophagy. The application of autophagy inhibitors in combination with other drug regimens is advancing in clinical trials for many types of human cancer to counteract this resistance mechanism. The relationship is established in the context of cancer drug resistance.",
+    "confidence": 0.85
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "has_dual_role_in",
+    "object": "Cancer",
+    "context": "Mitophagy plays a dual role in cancer: it acts as a tumor-suppressive mechanism by clearing depolarized mitochondria and preventing Warburg metabolism and excess ROS production, but also promotes cancer cell survival and drug resistance when activated in established tumors. The loss of Parkin in various cancers removes the tumor-suppressive arm, while ARIH1-mediated mitophagy protects cancer cells from chemotherapy. Chloroquine (autophagy inhibitor) combined with trametinib shows efficacy in reducing tumor burden in pancreatic ductal adenocarcinoma. The relationship reflects the complex, context-dependent nature of mitophagy in oncology.",
+    "confidence": 0.88
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "dual_role_in",
+    "object": "Cardiovascular Disease",
+    "context": "Mitophagy plays a dual role in cardiovascular disease depending on the mode and degree of activation. Mild activation of PINK1-Parkin mitophagy prevents heart failure development, alleviates myocardial infarction, and attenuates dilated cardiomyopathy by promoting phagocytosis of damaged mitochondria, reducing ROS, and inhibiting apoptosis. However, excessive or constitutive mitophagy activation can be detrimental—PINK1-Parkin mitophagy in vascular smooth muscle cells promotes atherosclerosis, and BNIP3-mediated mitophagy potentiates heart failure. The relationship highlights that therapeutic approaches involving mitophagy activation should be used with caution.",
+    "confidence": 0.9
   }
 ]

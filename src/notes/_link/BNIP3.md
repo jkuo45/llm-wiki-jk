@@ -4,7 +4,7 @@ description: "Overview: BNIP3 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel..."
 created: 2026-07-04
-updated: 2026-07-22
+updated: 2026-07-24
 tags:
   - protein
 aliases: [BCL2 Interacting Protein 3]
@@ -16,6 +16,9 @@ aliases: [BCL2 Interacting Protein 3]
 **Overview:** BNIP3 (BCL2 Interacting Protein 3) is a single-pass transmembrane protein located on the outer mitochondrial membrane, belonging to the [[Bcl-2 family|BH3-only subfamily]] of the BCL-2 family. It functions as a receptor for ubiquitin-independent [[Mitophagy|mitophagy]].
 
 **Structure and Function:** BNIP3 directly interacts with the autophagy-related protein [[LC3]] via its [[LIR Motif|LIR motif]], triggering the specific clearance of [[Mitochondria|mitochondria]]. It is induced by [[HIF-1α]] under hypoxic stress and acts as an important receptor-mediated autophagy receptor.
+
+> [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
+> BNIP3 is an OMM receptor for hypoxia-induced mitophagy via NIX/BNIP3-mediated HIF-1α stabilization. BNIP3 interacts directly with [[OPA1]] to induce mitochondrial fragmentation, and with [[DRP1]] to facilitate fission. BNIP3 protein levels are upregulated at early premalignant stages of various solid cancers (pancreatic, breast) but frequently decrease when tumors become invasive.
 
 **Role in Hypoxia-Induced Mitophagy:** Following severe metabolic stress (such as [[Hypoxia|hypoxia]]/[[Ischemia-reperfusion Injury|ischemia]]), [[HIF-1α]] within neurons transcriptionally activates BNIP3. BNIP3 then inserts into the mitochondrial membrane, directly causing the loss of [[Mitochondrial Membrane Potential|mitochondrial membrane potential]] and the opening of the [[Mitochondrial Permeability Transition Pore|mitochondrial permeability transition pore]]. This BNIP3-mediated cell death is delayed neuronal death. Knocking out the BNIP3 gene can significantly improve neuronal survival in damaged brain regions.
 
@@ -35,6 +38,9 @@ List of documents that mention this entity
   - [[_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection|Targeting Mitophagy for Neuroprotection]]
     - Comprehensive review of BNIP3 as a hypoxia-inducible mitophagy receptor. BNIP3 directly binds LC3 via LIR motif. Under hypoxia/ischemia, HIF-1α transcriptionally activates BNIP3, which inserts into the mitochondrial membrane, causing ΔΨm loss and opening of the mPTP. BNIP3-mediated delayed neuronal death can be rescued by BNIP3 knockout.
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - BNIP3 as OMM receptor for hypoxia-induced mitophagy; interacts with OPA1 to induce fragmentation and with DRP1 for fission. Upregulated in early premalignant stages of pancreatic and breast cancer but decreases with invasiveness. BNIP3-mediated mitophagy potentiates heart failure.
+
 ## Connections
 - [[LC3]] — BNIP3 directly binds LC3 via its LIR motif to initiate mitophagy
 - [[HIF-1α]] — Transcriptional activator of BNIP3 under hypoxic stress
@@ -45,6 +51,10 @@ List of documents that mention this entity
 - [[Alzheimer's Disease]] — BNIP3 expression is reduced in AD brain tissues
 - [[Ischemia-reperfusion Injury]] — BNIP3 mediates delayed neuronal death following hypoxia/ischemia
 - [[Mitochondrial Permeability Transition Pore]] — BNIP3 insertion causes mPTP opening
+- [[OPA1]] — BNIP3 interacts with OPA1 to induce mitochondrial fragmentation
+- [[DRP1]] — BNIP3 interacts with DRP1 to facilitate mitochondrial fission
+- [[Cancer]] — BNIP3 upregulated in early premalignant stages (pancreatic, breast) but decreases with invasiveness
+- [[Heart Failure]] — BNIP3-mediated mitophagy potentiates HF progression
 - [[OPTN]] — Alternative BNIP3 pathway: NAD+ → Autophagy → Ubiquitination → OPTN → AD → BNIP3; BNIP3-mediated mitophagy deficits in AD relate to this ubiquitin-dependent mitophagy route
 - [[NAD+ Biosynthesis]] — NAD+ drives SIRT1/FOXO3a axis that induces BNIP3 expression; NAD+ decline with age impairs BNIP3-mediated mitophagy
 
@@ -56,4 +66,7 @@ List of documents that mention this entity
   - [[BNIP3]] ↔ [[BNIP3L|NIX]] — Related hypoxia-inducible mitophagy receptors
   - [[BNIP3]] ↔ [[OPTN]] — Alternative ubiquitin-dependent mitophagy route connecting to AD pathology
   - [[BNIP3]] ↔ [[NAD+ Biosynthesis]] — NAD+/SIRT1/FOXO3a axis induces BNIP3 expression
+  - [[BNIP3]] ↔ [[OPA1]] — BNIP3 interacts with OPA1 to induce fragmentation
+  - [[BNIP3]] ↔ [[DRP1]] — BNIP3 interacts with DRP1 for fission
+  - [[BNIP3]] ↔ [[Cancer]] — Upregulated in early premalignant stages, decreases with invasiveness
 
