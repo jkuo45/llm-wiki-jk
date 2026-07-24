@@ -3,581 +3,581 @@
     "subject": "Aminoguanidine",
     "predicate": "inhibits",
     "object": "Advanced Glycation End Products",
-    "context": "Aminoguanidine is the first identified inhibitor of AGEs, preventing protein cross-linking.",
-    "confidence": "high"
+    "context": "Aminoguanidine is a nucleophilic hydrazine compound and was the first synthetic inhibitor of advanced glycation end product (AGE) formation to be identified. It acts primarily by trapping reactive carbonyl intermediates—such as methylglyoxal, 3-deoxyglucosone, and glycolaldehyde—that arise during the Maillard reaction, thereby preventing their condensation with the free amino groups of proteins, lipids, and nucleic acids. By intercepting these dicarbonyl species before they can cross-link with long-lived tissue proteins, aminoguanidine blocks the chemical maturation of early glycation adducts into irreversible AGEs. This mechanism underlies its classification as an \"AGE-breaker\" or glycation inhibitor and forms the basis for its investigation in diabetic complications and vascular aging. A caveat is that its carbonyl-trapping efficacy wanes once AGE cross-links are already established, and chronic high-dose use is limited by toxicity concerns.",
+    "confidence": 0.95
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "prevents",
     "object": "Cross-linking",
-    "context": "By trapping reactive carbonyl species, aminoguanidine prevents the cross-linking of tissue proteins.",
-    "confidence": "high"
+    "context": "Aminoguanidine prevents the pathological cross-linking of tissue proteins by sequestering the reactive carbonyl species generated during non-enzymatic glycation. These carbonyls would otherwise form Schiff bases and Amadori products that progress to covalent, intermolecular cross-links within collagen, lens crystallins, and vascular matrix. By occupying the carbonyls before they react, aminoguanidine preserves protein solubility, elasticity, and function in long-lived structural proteins. The directionality is clear and chemical: aminoguanidine is upstream of the cross-linking reaction and acts as a sacrificial nucleophile. The major caveat is that prevention is most effective when administered early, before mature cross-links have formed.",
+    "confidence": 0.93
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "reduces",
     "object": "Very Low Density Lipoprotein",
-    "context": "Aminoguanidine reduced the ability of VLDL to bind to blood vessel walls.",
-    "confidence": "high"
+    "context": "Aminoguanidine has been shown to reduce the atherogenicity of very low density lipoprotein (VLDL) by diminishing its ability to bind to the walls of blood vessels. Glycation of apolipoprotein B-100 within VLDL increases its affinity for endothelial matrix components and accelerates its retention in the arterial intima, a key step in early atherogenesis; aminoguanidine limits this glycation-dependent modification. The resulting VLDL particles are therefore less prone to infiltrate the subendothelial space and promote foam-cell formation. This effect is mechanistically downstream of its carbonyl-trapping activity rather than a direct lipid-lowering action. The evidence base is more limited than for its AGE inhibition, so the clinical magnitude of this effect remains uncertain.",
+    "confidence": 0.75
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "treats",
     "object": "Atherosclerosis",
-    "context": "Aminoguanidine improved blood flow in patients with peripheral vascular disease.",
-    "confidence": "medium"
+    "context": "Aminoguanidine has been investigated as a therapeutic agent for atherosclerosis because its inhibition of AGE formation and reduction of VLDL vessel-wall binding both counteract key drivers of atherosclerotic plaque development. In clinical studies of patients with peripheral vascular disease and diabetes, aminoguanidine improved measures of blood flow, suggesting improved vascular compliance and endothelial function. The directionality is preventive and disease-modifying rather than acutely symptomatic, acting on the glycation and inflammatory substrate of vascular injury. However, its therapeutic utility is constrained by a narrow safety margin and the availability of better-tolerated agents. The relationship is therefore considered plausible and mechanistically supported but not firmly established as a standard treatment.",
+    "confidence": 0.65
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "prevents",
     "object": "Cataract",
-    "context": "Aminoguanidine may help alleviate or prevent senile cataract.",
-    "confidence": "medium"
+    "context": "Aminoguanidine may help alleviate or prevent senile cataract by blocking the glycation and cross-linking of lens crystallin proteins, a major biochemical pathway in age-related lens opacification. Crystallins are exceptionally long-lived proteins; their progressive non-enzymatic glycation by intracellular sugars forms AGEs and intramolecular cross-links that reduce lens transparency and increase light scattering. By trapping reactive dicarbonyls, aminoguanidine preserves crystallin solubility and prevents the aggregation that culminates in opacity. The directionality is preventive and operates at the level of protein chemistry within the lens. The strength of evidence is moderate: animal and biochemical data are supportive, but robust human clinical prevention data are limited.",
+    "confidence": 0.65
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "inhibits",
     "object": "Glycation",
-    "context": "Aminoguanidine stabilizes the metabolism of glucose and acts as a glycation inhibitor.",
-    "confidence": "high"
+    "context": "Aminoguanidine functions as a direct inhibitor of non-enzymatic glycation by reacting with open-chain aldehyde forms of reducing sugars and their oxidation products. It stabilizes glucose metabolism indirectly by limiting the downstream formation of AGEs that would otherwise disrupt protein and lipid homeostasis. Its nucleophilic hydrazine group competes with protein amino groups for reactive carbonyls, short-circuiting the Maillard cascade at the early and intermediate stages. This is the foundational mechanism from which most of aminoguanidine's other biological effects derive. The relationship is well established experimentally, though its in vivo efficacy is limited by pharmacokinetics and toxicity at higher doses.",
+    "confidence": 0.95
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "reduces",
     "object": "Albuminuria",
-    "context": "Aminoguanidine can significantly reduce albuminuria in diabetic patients.",
-    "confidence": "high"
+    "context": "Aminoguanidine can significantly reduce albuminuria in diabetic patients and animal models by protecting the glomerular basement membrane and podocytes from AGE-mediated injury. AGE accumulation in the renal vasculature increases permeability of the filtration barrier and promotes mesangial expansion; aminoguanidine's carbonyl-trapping action preserves the structural integrity of the glomerulus. The directionality is protective—reducing the rate of urinary albumin leak rather than acutely reversing established nephropathy. This effect represents one of the better-documented clinical benefits of aminoguanidine in diabetic kidney disease. A caveat is that the magnitude of albuminuria reduction is modest and tied to the broader limitations of AGE-inhibitor therapy.",
+    "confidence": 0.9
   },
   {
     "subject": "Cross-linking",
     "predicate": "contributes_to",
     "object": "Aging",
-    "context": "Cross-linking of body proteins plays a role in the human aging process.",
-    "confidence": "high"
+    "context": "The progressive, non-enzymatic cross-linking of long-lived body proteins is a recognized biochemical hallmark that contributes to the aging phenotype across multiple tissues. As collagen, elastin, and crystallins accumulate intermolecular cross-links over decades, tissues lose elasticity, stiffen, and impair organ function—manifestations visible in arterial stiffening, skin wrinkling, and lens opacification. This process is largely irreversible once mature cross-links form, making it a durable marker and likely contributor to age-related functional decline. The directionality is unidirectional: cross-linking accrues with time and drives aspects of aging rather than resulting from it. The relationship is well supported mechanistically, though whether cross-linking is a primary cause or a secondary epiphenomenon of aging remains a subject of continued investigation.",
+    "confidence": 0.9
   },
   {
     "subject": "Cross-linking",
     "predicate": "causes",
     "object": "Cataract",
-    "context": "Cross-linking is responsible for senile cataract.",
-    "confidence": "medium"
+    "context": "The cross-linking of lens crystallin proteins is a central biochemical mechanism responsible for senile (age-related) cataract formation. Accumulation of disulfide and AGE-mediated covalent cross-links within and between crystallins causes protein aggregation, high-molecular-weight complex formation, and progressive loss of lens transparency. This process is age-dependent and accelerates as the lens's antioxidant and repair capacity declines. The directionality is causal at the molecular level, with cross-linking driving the insolubility and light-scattering that define opacity. Confidence is moderate because additional pathways—oxidative damage, osmotic stress, and ultraviolet exposure—also contribute to cataractogenesis, so cross-linking is one necessary but not sole cause.",
+    "confidence": 0.7
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "prevents",
     "object": "Aging",
-    "context": "Aminoguanidine has the potential to slow the aging process by protecting proteins.",
-    "confidence": "medium"
+    "context": "Aminoguanidine has the potential to slow aspects of the aging process by protecting long-lived proteins from glycation-dependent cross-linking, one of the nine proposed hallmarks of aging. Through its carbonyl-trapping action it reduces AGE accumulation and preserves the structural and functional integrity of connective tissue, vasculature, and lens proteins. The directionality is preventive and geroprotective rather than rejuvenating, targeting the chemical accrual of damage over time. Because cross-linking is only one of many aging mechanisms, aminoguanidine's anti-aging effect is partial and tissue-selective. The evidence is largely preclinical, so its translational impact on human lifespan or healthspan remains unproven, supporting only moderate confidence.",
+    "confidence": 0.6
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "is_an",
     "object": "iNOS inhibitor",
-    "context": "Aminoguanidine is primarily known as a selective inhibitor of iNOS.",
-    "confidence": "high"
+    "context": "Aminoguanidine is primarily known as a relatively selective inhibitor of inducible nitric oxide synthase (iNOS), an isoform expressed during inflammation that produces large, sustained amounts of nitric oxide. It competitively binds the iNOS heme pocket and inhibits calmodulin-dependent electron transfer, suppressing NO overproduction that would otherwise drive nitrosative stress, vasodilation, and tissue injury. Its selectivity for iNOS over the constitutive endothelial (eNOS) and neuronal (nNOS) isoforms distinguishes it from broad-spectrum NOS inhibitors and underlies its experimental use in septic shock and inflammatory models. The directionality is inhibitory: aminoguanidine dampens an upstream enzyme of the inflammatory NO axis. This is a well-established pharmacological property, though selectivity is relative rather than absolute at higher concentrations.",
+    "confidence": 0.95
   },
   {
     "subject": "Methylene blue",
     "predicate": "treats",
     "object": "Methemoglobinemia",
-    "context": "Methylene blue is FDA-approved for treatment of acquired methemoglobinemia.",
-    "confidence": "high"
+    "context": "Methylene blue is an FDA-approved antidote for acquired methemoglobinemia, a condition in which ferrous (Fe2+) hemoglobin is oxidized to ferric (Fe3+) methemoglobin that cannot carry oxygen, producing cyanosis and tissue hypoxia. It acts as an electron donor to cytochrome b5 reductase (methemoglobin reductase), accelerating the enzymatic reduction of methemoglobin back to functional hemoglobin. The directionality is restorative: methylene blue short-circuits the redox imbalance that allows methemoglobin to accumulate. Dosing is typically 1–2 mg/kg intravenously, with rapid clinical response, making it first-line therapy. A key caveat is the absolute contraindication in glucose-6-phosphate dehydrogenase deficiency, where methylene blue can precipitate severe hemolysis.",
+    "confidence": 0.97
   },
   {
     "subject": "Methylene blue",
     "predicate": "inhibits",
     "object": "Soluble Guanylyl Cyclase",
-    "context": "Methylene blue acts as an inhibitor of soluble guanylyl cyclase.",
-    "confidence": "high"
+    "context": "Methylene blue inhibits soluble guanylyl cyclase (sGC), the enzyme that converts GTP to cyclic GMP in response to nitric oxide signaling, thereby attenuating NO-cGMP mediated vasodilation. It achieves this by oxidizing the sGC heme iron from the ferrous to the ferric state, uncoupling the enzyme from NO activation and blocking downstream cGMP production. The directionality is inhibitory and antagonistic to NO signaling, which is clinically relevant when counteracting refractory septic vasoplegia or excessive NO-driven hypotension. This effect is also the basis for its interference with other cGMP-dependent processes, including some aspects of vasoregulation and platelet aggregation. The relationship is well documented pharmacologically, though methylene blue affects multiple redox targets simultaneously.",
+    "confidence": 0.92
   },
   {
     "subject": "Methylene blue",
     "predicate": "inhibits",
     "object": "Nitric Oxide Synthase",
-    "context": "Methylene blue is a non-specific inhibitor of NOS.",
-    "confidence": "high"
+    "context": "Methylene blue is a non-specific inhibitor of nitric oxide synthase (NOS), the family of enzymes that generate nitric oxide from L-arginine. It inhibits NOS activity indirectly through redox cycling and heme interaction, reducing NO production across endothelial, neuronal, and inducible isoforms rather than selectively. The directionality is suppressive of the upstream NO source, compounding its separate inhibition of soluble guanylyl cyclase to produce a pronounced anti-NO effect. This dual action makes methylene blue useful for reversing NO-mediated vasodilation in distributive shock. A caveat is that its non-selectivity means it broadly dampens physiological NO signaling, limiting therapeutic windows.",
+    "confidence": 0.9
   },
   {
     "subject": "Methylene blue",
     "predicate": "is_a",
     "object": "Monoamine Oxidase Inhibitor",
-    "context": "Methylene blue is a potent MAO-A inhibitor.",
-    "confidence": "high"
+    "context": "Methylene blue is a potent inhibitor of monoamine oxidase, with particular selectivity for the A isoform (MAO-A), the enzyme that catabolizes serotonin, norepinephrine, and dopamine. By blocking MAO-A it raises synaptic and intraneuronal monoamine levels, contributing to both its antidepressant potential and its principal safety risk. The directionality is enzymatic inhibition: methylene blue reduces monoamine degradation, increasing bioavailability of these neurotransmitters. This property is mechanistically distinct from its redox and NO-modulating actions but coexists within the same molecule. The relationship is well established, and it is the basis for the serious drug-interaction warning with serotonergic agents.",
+    "confidence": 0.93
   },
   {
     "subject": "Methylene blue",
     "predicate": "bypasses",
     "object": "Mitochondrial Electron Transport Chain",
-    "context": "Methylene blue can bypass dysfunctional components of Complex I and III in the ETC.",
-    "confidence": "high"
+    "context": "Methylene blue can bypass dysfunctional segments of the mitochondrial electron transport chain by accepting electrons from NADH and donating them to cytochrome c, thereby circumventing impaired Complex I and Complex III. This redox-cycling capacity restores electron flow and supports ATP generation in cells with ETC defects, which is the proposed mechanism behind its neuroprotective and cognitive benefits. The directionality is compensatory: methylene blue acts as an artificial electron carrier that routes electrons around the block rather than repairing the damaged complexes. This bypass also reduces pathological superoxide production at the impaired site, mitigating oxidative stress. The relationship is mechanistically well supported and forms the rationale for its study in mitochondrial diseases and neurodegeneration, though in vivo efficacy is dose-dependent.",
+    "confidence": 0.9
   },
   {
     "subject": "Methylene blue",
     "predicate": "causes",
     "object": "Serotonin Syndrome",
-    "context": "Methylene blue can cause serotonin syndrome when combined with serotonergic drugs.",
-    "confidence": "high"
+    "context": "Methylene blue can precipitate serotonin syndrome when administered concurrently with serotonergic drugs such as SSRIs, SNRIs, TCAs, or MAO inhibitors, due to its potent MAO-A inhibitory activity. By blocking serotonin degradation it can cause synergistic elevations in synaptic serotonin, producing the classic triad of autonomic instability, neuromuscular hyperactivity, and altered mental status. The directionality is causal and dose-related, with the risk rising sharply when combined with other serotonergic agents. This is a recognized, potentially life-threatening adverse effect that mandates careful medication review before use. The relationship is well documented, and consensus guidelines recommend avoiding methylene blue in patients on serotonergic therapy within the relevant window.",
+    "confidence": 0.94
   },
   {
     "subject": "Methylene blue",
     "predicate": "contraindicated_in",
     "object": "Glucose-6-Phosphate Dehydrogenase deficiency",
-    "context": "Methylene blue is contraindicated in G6PD deficiency due to hemolysis risk.",
-    "confidence": "high"
+    "context": "Methylene blue is contraindicated in individuals with glucose-6-phosphate dehydrogenase (G6PD) deficiency because these patients lack sufficient NADPH to maintain reduced glutathione, leaving red blood cells vulnerable to oxidative injury. Methylene blue itself is a pro-oxidant that generates reactive oxygen species and consumes reducing equivalents, which in G6PD-deficient erythrocytes triggers acute hemolysis and severe, potentially fatal anemia. The directionality is risk-conferring: the drug imposes an oxidative burden that the deficient cell cannot neutralize. This contraindication is absolute and clinically critical, particularly in neonates receiving methylene blue for non-invasive jaundice or methemoglobinemia. The relationship is firmly established in pharmacology and toxicology.",
+    "confidence": 0.96
   },
   {
     "subject": "Methylene blue",
     "predicate": "follows",
     "object": "Hormetic Window",
-    "context": "Methylene blue follows a hormetic curve: beneficial at low doses, harmful at high doses.",
-    "confidence": "high"
+    "context": "Methylene blue exhibits a hormetic dose-response, producing beneficial effects within a defined low-to-moderate concentration window while becoming cytotoxic at high doses. At low concentrations its redox-cycling and electron-bypassing actions enhance mitochondrial efficiency, reduce ROS, and support cognition; beyond the window, excess pro-oxidant and enzyme-inhibitory activity cause cellular toxicity. The directionality reflects a biphasic curve in which the same agent is adaptive at one exposure level and maladaptive at another. This hormetic behavior is central to its therapeutic indexing and explains why dosing must be carefully titrated. The relationship is well supported by dose-response pharmacology, though the precise optimal human window remains under investigation.",
+    "confidence": 0.9
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "inhibits",
     "object": "Inducible Nitric Oxide Synthase",
-    "context": "Aminoguanidine is a selective inhibitor of iNOS, the enzyme producing NO during inflammation.",
-    "confidence": "high"
+    "context": "Aminoguanidine is a selective inhibitor of inducible nitric oxide synthase (iNOS), the calcium-independent NOS isoform transcriptionally upregulated during inflammation, infection, and ischemia. It binds within the iNOS active site and interferes with electron transfer from NADPH to the heme, suppressing the sustained, high-output nitric oxide production that characterizes inflammatory pathology. The directionality is suppressive of an upstream mediator of nitrosative and oxidative stress, distinguishing it from inhibitors of the constitutive isoforms. This property contributes to aminoguanidine's vascular and renoprotective profile independently of its glycation inhibition. The relationship is well established pharmacologically, with selectivity for iNOS being a defining feature of the compound.",
+    "confidence": 0.95
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "inhibits",
     "object": "Diamine Oxidase",
-    "context": "Aminoguanidine inhibits diamine oxidase, increasing histamine sensitivity.",
-    "confidence": "high"
+    "context": "Aminoguanidine inhibits diamine oxidase (DAO, also called histaminase), the enzyme responsible for the oxidative deamination and breakdown of histamine and other diamines in the intestinal mucosa and plasma. By blocking DAO, aminoguanidine slows the clearance of ingested histamine, allowing luminal histamine to reach systemic circulation more readily. The directionality is enzymatic inhibition that raises effective histamine exposure, an off-target consequence of its hydrazine chemistry. This action is mechanistically distinct from its AGE-inhibitory and iNOS-inhibitory effects but occurs at overlapping dose ranges. The relationship is well documented and explains the histaminergic side-effect profile of the drug.",
+    "confidence": 0.9
   },
   {
     "subject": "Aminoguanidine",
     "predicate": "causes",
     "object": "Histamine Intolerance",
-    "context": "By blocking intestinal DAO, oral aminoguanidine can cause histamine intolerance.",
-    "confidence": "high"
+    "context": "By blocking intestinal diamine oxidase, oral aminoguanidine impairs the degradation of dietary histamine and can thereby cause histamine intolerance, characterized by flushing, headache, gastrointestinal distress, and urticaria. The directionality is causal and dose-dependent: reduced histamine catabolism leads to elevated histamine levels that surpass individual tolerance thresholds. This adverse effect is a direct downstream consequence of aminoguanidine's DAO inhibition rather than its glycation-targeting activity. It represents a clinically relevant limitation on oral dosing of the compound. The relationship is well supported, though individual susceptibility varies with baseline DAO activity and histamine load.",
+    "confidence": 0.88
   },
   {
     "subject": "Humanin",
     "predicate": "is_a",
     "object": "Mitochondrial-Derived Peptide",
-    "context": "Humanin is the first described mitochondrial-derived peptide (MDP).",
-    "confidence": "high"
+    "context": "Humanin is the first described mitochondrial-derived peptide (MDP), a 24-amino-acid neuroprotective peptide translated from a small open reading frame within the mitochondrial 16S rRNA region of mtDNA. Unlike nuclear-encoded proteins, Humanin is produced from the mitochondrial genome and represents a class of short peptides that signal the metabolic and stress state of mitochondria to the rest of the cell. The directionality is generative: mitochondrial genome expression gives rise to a secreted/intracellular signaling peptide. Its discovery established the concept that mitochondria are not only energy organelles but also endocrine signaling hubs. The relationship is firmly established in mitochondrial biology and underpins Humanin's classification as a mitokine.",
+    "confidence": 0.95
   },
   {
     "subject": "Humanin",
     "predicate": "protects_against",
     "object": "Apoptosis",
-    "context": "Humanin interacts with pro-apoptotic proteins like Bax and IGFBP3 to prevent apoptosis.",
-    "confidence": "high"
+    "context": "Humanin protects against apoptosis by interacting with and neutralizing pro-apoptotic proteins, thereby preserving cell viability under stress conditions such as oxidative injury and amyloid toxicity. It binds directly to Bax, preventing its mitochondrial translocation and oligomerization, and also interacts with IGFBP-3 and other partners to block death-promoting cascades. The directionality is cytoprotective: Humanin acts upstream of the mitochondrial outer membrane permeabilization step that commits a cell to programmed death. This anti-apoptotic activity is particularly pronounced in neurons and cardiomyocytes, where it confers resistance to Alzheimer's-related and ischemic insults. The relationship is well supported by cellular and in vivo studies, though the full receptor and binding-partner network continues to be refined.",
+    "confidence": 0.92
   },
   {
     "subject": "Humanin",
     "predicate": "binds",
     "object": "Bax",
-    "context": "Humanin binds to Bax, preventing its translocation and pro-apoptotic activity.",
-    "confidence": "high"
+    "context": "Humanin binds directly to Bax, a pro-apoptotic Bcl-2 family protein that normally translocates to the outer mitochondrial membrane and promotes cytochrome c release. By sequestering Bax, Humanin prevents its conformational activation, oligomerization, and pore formation, interrupting the intrinsic apoptotic pathway. The directionality is inhibitory at the protein–protein interaction level: the peptide occupies or masks Bax in a way that blocks its lethal function. This interaction is a central mechanism through which Humanin exerts its broad cytoprotection. The binding is well documented biochemically, though the precise interface residues and stoichiometry remain areas of active structural characterization.",
+    "confidence": 0.9
   },
   {
     "subject": "Humanin",
     "predicate": "binds",
     "object": "IGFBP3",
-    "context": "Humanin binds to IGFBP-3 with high affinity and specificity.",
-    "confidence": "high"
+    "context": "Humanin binds to insulin-like growth factor-binding protein 3 (IGFBP-3) with high affinity and specificity, forming a complex that modulates IGF-independent death signaling. IGFBP-3 can itself promote apoptosis through both IGF-dependent and IGF-independent routes; Humanin binding neutralizes the pro-apoptotic action of IGFBP-3. The directionality is antagonistic: the peptide captures and inactivates a death-associated binding partner. This interaction complements Humanin's Bax binding to produce a multi-pronged anti-apoptotic effect. The high-affinity binding is well characterized, making IGFBP-3 one of the best-established Humanin interaction partners.",
+    "confidence": 0.9
   },
   {
     "subject": "Humanin",
     "predicate": "activates",
     "object": "STAT3",
-    "context": "Humanin induces STAT3 activation via CNTFR/WSX-1/gp130 receptor.",
-    "confidence": "high"
+    "context": "Humanin induces activation of signal transducer and activator of transcription 3 (STAT3) through a receptor complex involving the ciliary neurotrophic factor receptor (CNTFR), the WSX-1/TCCR subunit, and gp130. Ligand engagement triggers Janus kinase-mediated phosphorylation of STAT3, which then translocates to the nucleus to drive transcription of survival and metabolic genes. The directionality is activating: Humanin acts as an upstream signal that promotes STAT3 phosphorylation and downstream gene expression. This pathway links Humanin to improved insulin sensitivity and cytoprotection, particularly in hypothalamic and metabolic tissues. The relationship is supported by receptor-knockout and signaling studies, though the exact cell-surface receptor composition can vary by tissue.",
+    "confidence": 0.88
   },
   {
     "subject": "Humanin",
     "predicate": "binds",
     "object": "FPRL1",
-    "context": "Humanin acts as an agonist for FPRL1 receptor.",
-    "confidence": "high"
+    "context": "Humanin acts as an agonist for the formyl peptide receptor-like 1 (FPRL1, also known as FPR2/ALX), a G protein-coupled receptor expressed on leukocytes and other cell types. Binding to FPRL1 triggers intracellular signaling that contributes to Humanin's anti-inflammatory and cytoprotective effects, complementing its intracellular protein-binding activities. The directionality is receptor-activating: Humanin engages a cell-surface GPCR to initiate downstream pro-survival and immunomodulatory cascades. FPRL1 represents one of the membrane receptors through which extracellular Humanin signals, in addition to its nuclear and mitochondrial interactions. The agonist relationship is well documented, though FPRL1 is one of several receptors that can mediate Humanin responses.",
+    "confidence": 0.87
   },
   {
     "subject": "Humanin",
     "predicate": "levels_decline_with",
     "object": "Aging",
-    "context": "Humanin levels decline with age in humans and rodents.",
-    "confidence": "high"
+    "context": "Endogenous Humanin levels decline with advancing age in both humans and rodents, mirroring the age-associated deterioration of mitochondrial function. This decline is observed across tissues and in circulating plasma, and is thought to remove a constitutive cytoprotective and metabolic buffer that had helped counter apoptosis and insulin resistance. The directionality is temporal and monotonic: aging drives a reduction in Humanin abundance rather than the reverse. The loss of Humanin is proposed to contribute to the increased vulnerability of aged cells to stress, neurodegeneration, and metabolic dysfunction. The relationship is well supported by cross-sectional and longitudinal measurements, though the causal role of the decline in driving aging phenotypes is still being established.",
+    "confidence": 0.9
   },
   {
     "subject": "Humanin",
     "predicate": "improves",
     "object": "Insulin Sensitivity",
-    "context": "Humanin infusion improves insulin sensitivity via hypothalamic STAT3 activation.",
-    "confidence": "high"
+    "context": "Humanin infusion improves insulin sensitivity, an effect mechanistically linked to activation of STAT3 signaling within the hypothalamus and subsequent modulation of peripheral glucose metabolism. By enhancing central and peripheral insulin action, Humanin reduces insulin resistance and improves glycemic handling in preclinical models. The directionality is beneficial and systemic: central Humanin signaling lowers hepatic glucose production and improves muscle glucose uptake. This metabolic effect positions Humanin as a candidate mediator of mitochondrial influence on whole-body energy homeostasis. The relationship is supported by in vivo infusion and receptor studies, though translation to human therapeutic use remains investigational.",
+    "confidence": 0.85
   },
   {
     "subject": "Humanin",
     "predicate": "protects_against",
     "object": "Atherosclerosis",
-    "context": "Humanin reduces atherosclerotic plaque size and preserves endothelial function.",
-    "confidence": "high"
+    "context": "Humanin protects against atherosclerosis by reducing atherosclerotic plaque size and preserving endothelial function in experimental models of vascular disease. Its protective actions arise from combined anti-apoptotic, anti-inflammatory, and metabolic effects on endothelial and vascular smooth muscle cells, limiting the endothelial dysfunction that initiates plaque formation. The directionality is preventive and disease-modifying at the level of the vessel wall rather than simply lowering a circulating risk factor. Given that Humanin declines with age and that endothelial dysfunction rises with age, restoring Humanin is hypothesized to be vasculoprotective. The relationship is supported by animal studies, though robust human cardiovascular outcome data are still lacking.",
+    "confidence": 0.8
   },
   {
     "subject": "Hormesis",
     "predicate": "requires",
     "object": "Incoherent Bivalent Motif",
-    "context": "Hormesis requires an incoherent bivalent network motif centered on the drug target.",
-    "confidence": "high"
+    "context": "Hormesis—a biphasic dose-response in which a low dose of a stressor yields a beneficial effect while a high dose is harmful—requires an underlying incoherent bivalent network motif centered on the drug target. In such a motif, the agent simultaneously activates one branch that is beneficial at low exposure and another that becomes deleterious only as dose increases, producing the characteristic inverted-U response. The directionality is structural: the network topology is the necessary substrate that generates the hormetic curve, not merely a correlate. This framework explains why certain compounds (including many mitochondrial and mTOR-modulating agents) display beneficial windows rather than monotonic toxicity. The relationship is well supported by systems-biology modeling, though empirical validation across every hormetic agent is ongoing.",
+    "confidence": 0.85
   },
   {
     "subject": "Rapamycin",
     "predicate": "exhibits",
     "object": "Hormesis",
-    "context": "Rapamycin shows a biphasic dose-response with benefits at intermediate doses.",
-    "confidence": "high"
+    "context": "Rapamycin exhibits hormesis, displaying a biphasic dose-response in which low-to-intermediate doses confer health and lifespan benefits while excessive exposure produces toxicity and metabolic side effects. This behavior arises because partial mTOR inhibition triggers adaptive pro-survival and autophagic responses at moderate doses, whereas near-complete or chronic high-dose inhibition disrupts essential anabolic and tissue-maintenance processes. The directionality follows the classic hormetic curve, with benefit peaking within an intermediate window and declining at both extremes. The effect is consistent with rapamycin's position within an incoherent bivalent signaling motif. The relationship is well documented in model organisms, though the precise optimal dosing window in humans remains an active research question.",
+    "confidence": 0.88
   },
   {
     "subject": "Rapamycin",
     "predicate": "inhibits",
     "object": "mTORC1",
-    "context": "Rapamycin binds specifically to mTORC1 in a reversible manner.",
-    "confidence": "high"
+    "context": "Rapamycin inhibits mechanistic target of rapamycin complex 1 (mTORC1) by first binding the immunophilin FKBP12, with the rapamycin–FKBP12 complex then associating with mTOR and preventing its activation by Rheb-GTP. This binding is reversible and allosteric, blocking mTORC1's kinase activity toward substrates such as S6K1 and 4E-BP1 that govern translation and growth. The directionality is inhibitory and upstream of a master growth-regulatory nexus, which is why rapamycin produces broad effects on autophagy, metabolism, and lifespan. mTORC1 inhibition is the principal mechanism behind rapamycin's immunosuppressive, anti-aging, and anti-cancer actions. The relationship is one of the most firmly established in cell signaling, with decades of corroborating evidence.",
+    "confidence": 0.98
   },
   {
     "subject": "mTORC1",
     "predicate": "is_centered_in",
     "object": "Incoherent Bivalent Motif",
-    "context": "The mTOR-PI3K pathway has an incoherent bivalent motif centered on mTORC1.",
-    "confidence": "high"
+    "context": "The mTOR–PI3K signaling network contains an incoherent bivalent motif centered on mTORC1, in which the complex both promotes growth when appropriately activated and triggers counter-regulatory or stress responses when dysregulated. This topology allows a single node to produce opposite downstream effects depending on the intensity and context of input, which is the structural basis for the hormetic behavior observed with mTOR-modulating drugs. The directionality is network-architectural: mTORC1 sits at the convergence point where activating and inhibiting branches intersect. Rapamycin and related compounds exploit this motif to produce benefit within a narrow dose window. The relationship is supported by pathway modeling and the well-characterized feedback loops within PI3K–mTOR signaling.",
+    "confidence": 0.85
   },
   {
     "subject": "Saturated Enzymatic Regime",
     "predicate": "increases_probability_of",
     "object": "Hormesis",
-    "context": "If one bivalent interaction operates in the saturated regime, hormesis probability increases.",
-    "confidence": "high"
+    "context": "When one branch of a bivalent interaction operates in a saturated (maximal) enzymatic regime while the other remains in the linear, unsaturated regime, the probability of observing hormesis increases. Saturation means further increases in dose no longer augment the beneficial branch but continue to drive the deleterious branch, creating the inflection that defines a biphasic response. The directionality is probabilistic and mechanistic: the kinetic configuration of the underlying enzymes shapes whether a compound will exhibit a hormetic curve. This principle helps predict which pharmacological or nutritional interventions are likely to show beneficial low-dose windows. The relationship is grounded in quantitative dose-response theory and systems pharmacology, though it describes a tendency rather than an absolute rule.",
+    "confidence": 0.8
   },
   {
     "subject": "Creatine",
     "predicate": "is_a",
     "object": "Phosphagen",
-    "context": "Creatine is classified within the family of guanidine phosphagens.",
-    "confidence": "high"
+    "context": "Creatine is a members of the guanidino-phosphagen family, nitrogenous compounds that store high-energy phosphate bonds for rapid ATP regeneration in cells with high and fluctuating energy demand. In vertebrates, creatine is phosphorylated to phosphocreatine by creatine kinase, which then buffers and rapidly rephosphorylates ADP during bursts of ATP consumption. The directionality is structural and metabolic: creatine is the substrate that, when phosphorylated, forms the actual phosphagen reservoir. This classification places creatine among evolutionarily conserved energy-buffering molecules found across animal taxa. The relationship is firmly established in biochemistry and underlies all of creatine's bioenergetic roles.",
+    "confidence": 0.97
   },
   {
     "subject": "Creatine",
     "predicate": "supports",
     "object": "Cellular Metabolism",
-    "context": "Creatine plays a critical role in cellular metabolism, particularly during stress.",
-    "confidence": "high"
+    "context": "Creatine supports cellular metabolism primarily through the phosphocreatine–creatine kinase shuttle, which spatially and temporally buffers ATP levels in energy-demanding tissues such as skeletal muscle, brain, and heart. By rapidly regenerating ATP from ADP during high-demand intervals and storing phosphate during rest, creatine maintains cellular energy charge and protects against transient energy crises. The directionality is supportive and homeostatic: creatine stabilizes the ATP/ADP ratio rather than acting as a direct fuel. This buffering is especially critical under metabolic stress, ischemia, or intense contraction when ATP turnover outpaces mitochondrial supply. The relationship is well established and forms the basis for creatine's ergogenic and neuroprotective reputation.",
+    "confidence": 0.95
   },
   {
     "subject": "Creatine",
     "predicate": "acts_as",
     "object": "Antioxidant",
-    "context": "Creatine reduces ROS formation and acts as a direct and/or indirect antioxidant.",
-    "confidence": "high"
+    "context": "Creatine acts as both a direct and indirect antioxidant, reducing reactive oxygen species formation and mitigating oxidative damage in metabolically active cells. Indirectly, by improving mitochondrial coupling and ATP buffering it lowers the likelihood of electron leakage and superoxide generation at the respiratory chain; it can also influence intracellular redox buffering. The directionality is protective: creatine diminishes the production and impact of oxidative stressors rather than scavenging every free radical directly. These effects have been observed in muscle, brain, and kidney tissues under oxidative challenge. The relationship is reasonably well supported, though creatine is considered a secondary or adjunctive antioxidant rather than a primary radical scavenger.",
+    "confidence": 0.85
   },
   {
     "subject": "Creatine",
     "predicate": "improves",
     "object": "Glycemic Control",
-    "context": "Creatine supplementation improves glucose tolerance and insulin sensitivity.",
-    "confidence": "high"
+    "context": "Creatine supplementation improves glycemic control by enhancing glucose tolerance and insulin sensitivity, effects most consistently observed when combined with resistance exercise. Mechanistically, increased intramuscular phosphocreatine availability improves training capacity and lean mass accrual, which raises insulin-sensitive muscle glucose disposal; creatine may also modulate glucose transporter trafficking. The directionality is beneficial and partly exercise-dependent: creatine amplifies the metabolic adaptations that lower fasting glucose and HbA1c. These effects are particularly relevant in aging and insulin-resistant populations. The relationship is supported by multiple human trials, though effect sizes are moderate and influenced by habitual activity and diet.",
+    "confidence": 0.82
   },
   {
     "subject": "Creatine",
     "predicate": "enhances",
     "object": "Cognition",
-    "context": "Creatine supplementation improves working memory and cognitive performance.",
-    "confidence": "high"
+    "context": "Creatine supplementation enhances cognition, particularly working memory and processing under high cognitive load or sleep deprivation, because the brain is highly dependent on stable ATP supply. By bolstering cerebral phosphocreatine reserves, creatine supports neuronal ATP homeostasis during demanding tasks and may protect against metabolic and ischemic neuronal stress. The directionality is facilitatory: improved energy buffering translates into better sustained cognitive performance rather than a direct neurotransmitter effect. Benefits are most evident in vegetarians, the elderly, and during acute cognitive fatigue when endogenous creatine is limited. The relationship is supported by randomized trials, though the magnitude of enhancement varies with baseline status and task type.",
+    "confidence": 0.83
   },
   {
     "subject": "Creatine",
     "predicate": "reduces",
     "object": "Sarcopenia",
-    "context": "Creatine supplementation with resistance training attenuates sarcopenia.",
-    "confidence": "high"
+    "context": "Creatine supplementation, when paired with resistance training, attenuates sarcopenia—the age-related loss of muscle mass and strength—by improving training quality and supporting myofibrillar protein synthesis. The increased phosphocreatine capacity allows older adults to sustain higher training volumes, which is the primary anabolic stimulus needed to counter muscle decline. The directionality is preventive and additive to exercise: creatine magnifies the adaptive response rather than reversing sarcopenia alone. This makes it a practical nutritional adjunct in geriatric and clinical populations at risk of frailty. The relationship is well supported by trials in older adults, with confidence high for the exercise-combined context specifically.",
+    "confidence": 0.86
   },
   {
     "subject": "Creatine",
     "predicate": "has",
     "object": "Anticancer Properties",
-    "context": "Creatine and cyclocreatine have established anticancer properties.",
-    "confidence": "high"
+    "context": "Creatine and its analog cyclocreatine possess anticancer properties, with preclinical studies showing inhibition of tumor cell proliferation and sensitization to therapy in several cancer models. Cyclocreatine, which forms a non-hydrolyzable phosphagen analog, can disrupt the energy metabolism of rapidly dividing tumor cells that rely heavily on ATP buffering. The directionality is chiefly antitumor: creatine derivatives interfere with the bioenergetic flexibility that cancer cells exploit, though endogenous creatine may in some contexts support tumor growth via enhanced metabolism. The relationship is established in cell and animal models but remains preliminary for human oncology. A caveat is the context-dependence—creatine's metabolic support can be double-edged depending on tumor subtype.",
+    "confidence": 0.65
   },
   {
     "subject": "Creatine",
     "predicate": "modulates",
     "object": "Immune System",
-    "context": "Creatine has immunomodulatory effects on TLR expression and cytokine production.",
-    "confidence": "medium"
+    "context": "Creatine exerts immunomodulatory effects, influencing Toll-like receptor (TLR) expression and the production of cytokines by immune cells, which can shift inflammatory tone. These effects are thought to stem from improved cellular energetics in immune cells and from direct signaling influences on inflammatory pathways. The directionality is regulatory rather than uniformly stimulatory or suppressive: creatine can both support immune competence and temper excessive inflammation depending on context. This positions creatine as a potential adjuvant in conditions involving immune dysfunction or chronic inflammation. The relationship is supported by emerging but still limited human data, justifying only moderate confidence.",
+    "confidence": 0.62
   },
   {
     "subject": "COMT",
     "predicate": "metabolizes",
     "object": "Catecholamines",
-    "context": "COMT O-methylates dopamine, norepinephrine, and epinephrine.",
-    "confidence": "high"
+    "context": "Catechol-O-methyltransferase (COMT) metabolizes the catecholamine neurotransmitters dopamine, norepinephrine, and epinephrine by transferring a methyl group from S-adenosylmethionine (SAMe) to their catechol ring, forming inactive methoxy metabolites. This O-methylation is a major clearance route—especially for dopamine in the prefrontal cortex where reuptake is weak—and thus tightly regulates synaptic and intracellular catecholamine signaling. The directionality is catabolic and terminative: COMT inactivates catecholamines, shaping both their spatial spread and temporal duration of action. Genetic variants such as Val158Met alter COMT activity and consequently individual cognition and stress reactivity. The relationship is a foundational principle of catecholamine neurochemistry.",
+    "confidence": 0.97
   },
   {
     "subject": "COMT",
     "predicate": "prevents",
     "object": "Oxidative Stress",
-    "context": "By methylating catechols, COMT prevents their autoxidation into reactive quinones.",
-    "confidence": "high"
+    "context": "COMT helps prevent oxidative stress by methylating catechol compounds, which blocks their spontaneous autoxidation into reactive quinones and semiquinone radicals that generate reactive oxygen species. Catechols are redox-active and, if left unmetabolized, readily cycle between oxidized and reduced states while producing superoxide; COMT's methylation stabilizes them into unreactive methoxy forms. The directionality is protective and upstream of oxidative damage: by removing the redox-cycling substrate, COMT limits a significant endogenous source of ROS. This antioxidant role is distinct from but complementary to enzymatic antioxidant systems like glutathione. The relationship is well established biochemically, though it is one of several mechanisms governing catechol redox balance.",
+    "confidence": 0.9
   },
   {
     "subject": "COMT",
     "predicate": "metabolizes",
     "object": "Catechol Estrogens",
-    "context": "COMT neutralizes catechol estrogen metabolites through methylation.",
-    "confidence": "high"
+    "context": "COMT metabolizes catechol estrogens—such as 2- and 4-hydroxyestrone—by O-methylating their catechol rings to form methoxyestrogens, neutralizing their redox activity and facilitating excretion. Unmethylated catechol estrogens are particularly genotoxic because they can redox-cycle and form DNA-adduct-forming quinones, linking COMT activity to estrogen-related cancer risk. The directionality is detoxifying: COMT converts a potentially harmful estrogen metabolite into a more inert, excretable form. This is why COMT polymorphisms are studied as modifiers of breast and other hormone-sensitive cancer risk. The relationship is well supported in steroid biochemistry and toxicology.",
+    "confidence": 0.92
   },
   {
     "subject": "Creatine",
     "predicate": "competes_with",
     "object": "COMT",
-    "context": "Creatine biosynthesis and COMT compete for the SAMe methyl donor pool.",
-    "confidence": "medium"
+    "context": "Creatine biosynthesis and COMT methylation both draw on the same universal methyl donor pool, S-adenosylmethionine (SAMe), creating a potential competition for methyl groups. Guanidinoacetate methyltransferase (GAMT) uses SAMe to convert guanidinoacetate into creatine, the final step of creatine synthesis, while COMT simultaneously consumes SAMe to methylate catecholamines and catechol estrogens. The directionality is competitive at the level of one-carbon/methyl metabolism: high flux through creatine synthesis could, in principle, reduce methyl availability for COMT and vice versa. The physiological significance of this competition in healthy humans is modest but mechanistically real, particularly under high creatine synthesis or limited methionine intake. The relationship is reasonably supported but context-dependent, warranting medium confidence.",
+    "confidence": 0.62
   },
   {
     "subject": "Fisetin",
     "predicate": "is_a",
     "object": "Flavonol",
-    "context": "Fisetin is a flavonol, a subclass of flavonoids/polyphenols.",
-    "confidence": "high"
+    "context": "Fisetin is a flavonol, a subclass of the broader flavonoid (polyphenol) family of plant secondary metabolites, structurally characterized by a 3-hydroxyflavone backbone. As a flavonol it shares the core C6–C3–C6 skeleton with quercetin, kaempferol, and myricetin, and is found in strawberries, apples, onions, and other fruits and vegetables. The directionality is taxonomic and structural: fisetin's chemical class determines its typical reactivity as a redox-active, protein-interacting polyphenol. This classification informs its biological activities, including antioxidant, anti-inflammatory, and senolytic effects. The relationship is unambiguously established in phytochemistry.",
+    "confidence": 0.98
   },
   {
     "subject": "Fisetin",
     "predicate": "has",
     "object": "low Bioavailability",
-    "context": "Fisetin has ~44.1% bioavailability, poor water solubility, and high lipophilicity.",
-    "confidence": "high"
+    "context": "Fisetin has relatively low oral bioavailability, reported at roughly 44% in some pharmacokinetic assessments, compounded by poor water solubility and high lipophilicity that limit its absorption and distribution. These physicochemical properties cause rapid metabolism and clearance, meaning only a fraction of an ingested dose reaches systemic circulation as active aglycone. The directionality is a constraint: low bioavailability blunts the in vivo efficacy of unformulated fisetin despite strong activities in cell-based studies. This limitation has driven formulation efforts such as nanoparticles and liposomes to improve delivery. The relationship is well documented, though reported percent values vary across studies and dosing formulations.",
+    "confidence": 0.85
   },
   {
     "subject": "Fisetin",
     "predicate": "modulates",
     "object": "PI3K",
-    "context": "Fisetin regulates PI3K/Akt/mTOR signaling pathways.",
-    "confidence": "high"
+    "context": "Fisetin modulates the PI3K/Akt/mTOR signaling axis, generally dampening PI3K-dependent survival and proliferative signaling in cancer cells while influencing downstream metabolic and growth pathways. By interfering with this nodal pathway it can suppress Akt phosphorylation and mTOR activity, contributing to its anti-proliferative and pro-apoptotic effects. The directionality is regulatory and context-dependent: in tumor cells fisetin tends to inhibit PI3K signaling, whereas in normal cells it may support adaptive responses. This modulation links fisetin to many of its other actions, including senescence clearance and metabolic effects. The relationship is supported by numerous cell and animal studies, though the precise molecular points of interaction remain under characterization.",
+    "confidence": 0.85
   },
   {
     "subject": "Fisetin",
     "predicate": "induces",
     "object": "Apoptosis",
-    "context": "Fisetin induces apoptosis via TRAIL pathway.",
-    "confidence": "high"
+    "context": "Fisetin induces apoptosis in cancer and senescent cells through multiple routes, including upregulation of the TRAIL (TNF-related apoptosis-inducing ligand) pathway and modulation of Bcl-2 family proteins and caspase activation. By sensitizing damaged or transformed cells to programmed death while sparing many normal cells, fisetin exerts selective cytotoxicity that underlies both its anti-cancer and senolytic activities. The directionality is pro-death: fisetin tips the survival–death balance toward apoptosis in target cells. This effect is often amplified by its inhibition of survival kinases such as PI3K/Akt/mTOR. The relationship is well supported in cellular models, though in vivo apoptosis induction depends heavily on bioavailability and tissue exposure.",
+    "confidence": 0.88
   },
   {
     "subject": "Fisetin",
     "predicate": "inhibits",
     "object": "Angiogenesis",
-    "context": "Fisetin downregulates VEGF expression, inhibiting angiogenesis.",
-    "confidence": "high"
+    "context": "Fisetin inhibits angiogenesis, the formation of new blood vessels, primarily by downregulating vascular endothelial growth factor (VEGF) expression and interfering with endothelial cell proliferation and tube formation. By suppressing the pro-angiogenic signaling that tumors and chronically inflamed tissues exploit for nutrient supply, fisetin limits malignant expansion and pathological neovascularization. The directionality is anti-angiogenic and suppressive of a key tumor-supportive process. This activity complements its direct pro-apoptotic and anti-metastatic effects in cancer models. The relationship is supported by in vitro and in vivo studies, though its clinical anti-angiogenic impact in humans remains to be established.",
+    "confidence": 0.85
   },
   {
     "subject": "Fisetin",
     "predicate": "acts_as",
     "object": "Antioxidant",
-    "context": "Fisetin scavenges free radicals and interacts with Nrf2 signaling.",
-    "confidence": "high"
+    "context": "Fisetin acts as an antioxidant both by directly scavenging free radicals through its polyphenolic structure and by activating the Nrf2 transcription factor, which induces endogenous defensive enzymes such as HO-1, NQO1, and glutathione synthetase. This dual action both quenches reactive oxygen species directly and strengthens the cell's own antioxidant capacity. The directionality is protective and biphasic: direct scavenging is immediate, while Nrf2-mediated effects are transcriptional and sustained. These properties contribute to fisetin's neuroprotective and anti-inflammatory profile. The relationship is well documented, though as with many polyphenols the in vivo antioxidant benefit depends on achieved tissue concentrations.",
+    "confidence": 0.9
   },
   {
     "subject": "Fisetin",
     "predicate": "has",
     "object": "Senolytic activity",
-    "context": "Fisetin demonstrates senolytic effects.",
-    "confidence": "high"
+    "context": "Fisetin exhibits senolytic activity, selectively eliminating senescent cells that have entered a pro-inflammatory, damage-associated secretory phenotype (SASP) without harming proliferating or quiescent normal cells. In the landmark mouse studies it reduced senescent cell burden and alleviated multiple age-related dysfunctions, and it is among the most studied natural senolytics alongside quercetin. The directionality is eliminative: fisetin removes a deleterious cell population that drives chronic inflammation and tissue degeneration with age. Its senolytic effect is mechanistically linked to its induction of apoptosis selectively in senescent cells via pathways such as PI3K/Akt modulation and Bcl-2 family disruption. The relationship is well supported in preclinical models, with human translation under active investigation.",
+    "confidence": 0.88
   },
   {
     "subject": "Nanotechnology",
     "predicate": "improves",
     "object": "Fisetin bioavailability",
-    "context": "Nanodelivery systems improve fisetin solubility, absorption, and therapeutic efficacy.",
-    "confidence": "high"
+    "context": "Nanotechnology-based delivery systems—such as nanoparticles, liposomes, solid lipid carriers, and nanoemulsions—improve fisetin's bioavailability by increasing its aqueous solubility, protecting it from premature metabolism, and enhancing intestinal absorption and permeation. Because native fisetin is poorly water-soluble and rapidly cleared, nanocarriers raise the fraction of dose reaching systemic circulation and can enable targeted tissue delivery. The directionality is facilitatory: the formulation overcomes physicochemical barriers that otherwise limit fisetin's efficacy. This approach directly addresses the low-bioavailability limitation and is a major focus of fisetin translational research. The relationship is well supported by formulation and pharmacokinetic studies, though clinical translation is still emerging.",
+    "confidence": 0.85
   },
   {
     "subject": "IDO1",
     "predicate": "catalyzes",
     "object": "Tryptophan to N-Formylkynurenine",
-    "context": "IDO1 catalyzes the first and rate-limiting step in the kynurenine pathway.",
-    "confidence": "high"
+    "context": "Indoleamine 2,3-dioxygenase 1 (IDO1) catalyzes the first and rate-limiting step of tryptophan catabolism, oxidizing L-tryptophan to N-formylkynurenine via insertion of molecular oxygen at the indole ring. This heme-containing enzyme initiates the kynurenine pathway, committing tryptophan away from protein synthesis and serotonin production toward degradation. The directionality is catabolic and initiating: IDO1 opens the aromatic ring of tryptophan, after which downstream enzymes convert N-formylkynurenine to kynurenine and ultimately NAD+ precursors. By depleting local tryptophan and generating kynurenine metabolites, IDO1 shapes both nutrient availability and immune signaling. The relationship is a textbook-established biochemical reaction central to tryptophan metabolism.",
+    "confidence": 0.97
   },
   {
     "subject": "IDO1",
     "predicate": "is_the_rate_limiting_enzyme_of",
     "object": "Kynurenine Pathway",
-    "context": "IDO1 is the rate-limiting enzyme of the kynurenine pathway.",
-    "confidence": "high"
+    "context": "IDO1 is the rate-limiting enzyme of the kynurenine pathway, the major route by which ingested tryptophan (accounting for the vast majority of tryptophan degradation) is broken down beyond the first step. By controlling flux through this gateway reaction, IDO1 governs the production of downstream metabolites including kynurenine, kynurenic acid, anthranilic acid, and ultimately NAD+ precursors. The directionality is gatekeeping: IDO1 activity determines how much tryptophan enters the pathway versus alternative fates such as serotonin synthesis. Its regulation therefore has far-reaching consequences for neurochemistry, immunity, and energy metabolism. The relationship is firmly established in metabolic biochemistry.",
+    "confidence": 0.96
   },
   {
     "subject": "Kynurenine Pathway",
     "predicate": "produces",
     "object": "NAD+",
-    "context": "The KP accounts for ~95% of tryptophan degradation and leads to NAD+.",
-    "confidence": "high"
+    "context": "The kynurenine pathway produces NAD+ (nicotinamide adenine dinucleotide), with downstream metabolites such as quinolinic acid converted into nicotinic acid mononucleotide and then NAD+ via the salvage route. This de novo NAD+ biosynthesis from tryptophan accounts for a substantial fraction of whole-body NAD+ turnover, complementing the nicotinamide and nicotinic acid salvage pathways. The directionality is biosynthetic: catabolism of tryptophan through the kynurenine cascade ultimately replenishes the cellular NAD+ pool essential for redox reactions and sirtuin/PARP function. This link connects tryptophan metabolism directly to cellular energy status and longevity-associated pathways. The relationship is well established, though the quantitative contribution varies by tissue and nutritional state.",
+    "confidence": 0.9
   },
   {
     "subject": "IDO1",
     "predicate": "induces",
     "object": "Immunosuppression",
-    "context": "IDO1 exerts immunosuppression through tryptophan depletion and kynurenine accumulation.",
-    "confidence": "high"
+    "context": "IDO1 induces local immunosuppression through two coordinated mechanisms: depletion of tryptophan from the microenvironment, which starves T cells (which cannot synthesize tryptophan) of an essential amino acid, and accumulation of kynurenine metabolites that are directly tolerogenic and promote regulatory T-cell differentiation. This creates an immune-privileged niche exploited by tumors, placenta, and sites of chronic infection to evade effector immunity. The directionality is suppressive and environmental: IDO1 activity reshapes the extracellular milieu to inhibit T-cell proliferation and function. The relationship is well documented in immunology and is the basis for IDO1-targeted cancer immunotherapies. A caveat is that IDO1 can also exert context-dependent immunostimulatory effects under certain inflammatory settings.",
+    "confidence": 0.92
   },
   {
     "subject": "IDO1",
     "predicate": "is_induced_by",
     "object": "Interferon-gamma",
-    "context": "IDO1 is strongly induced by IFNγ via JAK/STAT signaling.",
-    "confidence": "high"
+    "context": "IDO1 is strongly induced by interferon-gamma (IFNγ), the canonical Th1 cytokine, which upregulates IDO1 transcription in antigen-presenting cells, endothelial cells, and many tumors via the JAK/STAT1 signaling pathway. IFNγ binding to its receptor activates Janus kinases that phosphorylate STAT1, driving promoter engagement and robust IDO1 expression. The directionality is inductive: IFNγ is an upstream cytokine signal that switches on IDO1 as part of the antimicrobial and tolerogenic immune program. This is the principal physiological trigger of IDO1 activity during infection, autoimmunity, and pregnancy tolerance. The relationship is one of the best-established cytokine–enzyme regulatory axes in immunology.",
+    "confidence": 0.95
   },
   {
     "subject": "IDO1",
     "predicate": "promotes",
     "object": "Tumor immune escape",
-    "context": "IDO1 is often upregulated in tumors, creating an immunosuppressive microenvironment.",
-    "confidence": "high"
+    "context": "IDO1 promotes tumor immune escape by establishing an immunosuppressive tumor microenvironment through tryptophan depletion and kynurenine-mediated T-cell suppression, allowing malignant cells to evade cytotoxic immune surveillance. Many cancers upregulate IDO1 constitutively or in response to inflammatory cytokines, effectively erecting a metabolic barrier against infiltrating T cells. The directionality is pro-tumor and counter-immunological: IDO1 activity disables the host anti-tumor response rather than acting on the cancer cell directly. This has made IDO1 a high-priority immunotherapy target, though clinical trials of IDO1 inhibitors have shown mixed results. The relationship is well supported mechanistically and in preclinical models, with the translational caveat noted above.",
+    "confidence": 0.9
   },
   {
     "subject": "TFEB",
     "predicate": "phosphorylated_by",
     "object": "mTORC1",
-    "context": "mTORC1 phosphorylates TFEB at S211, S142, S138, and S122 leading to cytoplasmic retention.",
-    "confidence": "high"
+    "context": "TFEB, the master transcriptional regulator of lysosomal and autophagic (CLEAR) genes, is phosphorylated by mTORC1 at multiple serine residues including S211, S142, S138, and S122. mTORC1-mediated phosphorylation promotes binding of TFEB to the cytosolic scaffold 14-3-3 proteins, sequestering it in the cytoplasm and preventing nuclear translocation and target-gene activation. The directionality is inhibitory: nutrient- and growth factor-abundant conditions activate mTORC1, which keeps TFEB inactive and suppresses autophagy and lysosomal biogenesis. When mTORC1 is inhibited—by rapamycin, starvation, or stress—TFEB is dephosphorylated and enters the nucleus to induce clearance pathways. This regulatory link is a central node connecting mTOR signaling to cellular housekeeping.",
+    "confidence": 0.95
   },
   {
     "subject": "TFEB",
     "predicate": "phosphorylated_by",
     "object": "ERK2",
-    "context": "ERK2 phosphorylates TFEB at S142 leading to cytoplasmic retention.",
-    "confidence": "high"
+    "context": "TFEB is phosphorylated by extracellular signal-regulated kinase 2 (ERK2), a MAPK family kinase activated by growth factor and mitogenic signaling, at residue S142. ERK2-mediated phosphorylation of TFEB favors its cytoplasmic retention via 14-3-3 binding, thereby dampening its transcriptional program of lysosomal and autophagic genes. The directionality is inhibitory and convergent with mTORC1: multiple kinase inputs phosphorylate overlapping sites to keep TFEB sequestered under anabolic conditions. This places TFEB under the control of both the mTOR and MAPK growth-signaling networks. The relationship is well supported by phosphorylation-site mapping and functional studies, though ERK2's quantitative contribution relative to mTORC1 varies by cell context.",
+    "confidence": 0.88
   },
   {
     "subject": "TFEB",
     "predicate": "phosphorylated_by",
     "object": "Akt",
-    "context": "Akt phosphorylates TFEB at S467 leading to cytoplasmic retention.",
-    "confidence": "high"
+    "context": "TFEB is phosphorylated by Akt (protein kinase B), a central pro-survival and growth-promoting kinase downstream of PI3K, at residue S467. Akt phosphorylation contributes to cytoplasmic retention of TFEB and thus restrains its nuclear transcriptional activity under nutrient-replete, insulin/IGF-stimulated conditions. The directionality is inhibitory and aligns with Akt's broader role in suppressing catabolic programs: by keeping TFEB inactive, Akt limits autophagy and lysosomal biogenesis. This adds PI3K–Akt signaling as a third major regulatory input—alongside mTORC1 and ERK2—onto the TFEB regulatory hub. The relationship is supported by site-directed mutagenesis and signaling studies, though it is somewhat less characterized than the mTORC1 axis.",
+    "confidence": 0.85
   },
   {
     "subject": "TFEB",
     "predicate": "phosphorylated_by",
     "object": "AMPK",
-    "context": "AMPK phosphorylates TFEB at S467, S466, S469 enhancing transcriptional activity.",
-    "confidence": "high"
+    "context": "TFEB is phosphorylated by AMP-activated protein kinase (AMPK), the cellular energy sensor, at residues S467, S466, and S469. In contrast to mTORC1, ERK2, and Akt, AMPK phosphorylation enhances rather than suppresses TFEB transcriptional activity, promoting its nuclear translocation and induction of lysosomal and autophagic genes during low-energy states. The directionality is activating and adaptive: AMPK links energy scarcity to cleanup programs that restore homeostasis. This positions TFEB as a convergence point where catabolism-promoting signals (AMPK) oppose anabolism-promoting signals (mTORC1/Akt/ERK2). The relationship is well supported, illustrating the yin-yang regulation of TFEB by energy versus growth kinases.",
+    "confidence": 0.9
   },
   {
     "subject": "TFEB",
     "predicate": "dephosphorylated_by",
     "object": "calcineurin",
-    "context": "Calcineurin dephosphorylates TFEB at S211 and S142 leading to nuclear translocation.",
-    "confidence": "high"
+    "context": "TFEB is dephosphorylated by calcineurin (protein phosphatase 2B), a calcium/calmodulin-dependent phosphatase activated under lysosomal stress and certain calcium signals, at key residues including S211 and S142. Dephosphorylation disrupts TFEB's interaction with 14-3-3 cytoplasmic scaffolds, enabling its nuclear translocation and binding to CLEAR elements to drive expression of lysosomal and autophagy genes. The directionality is activating and opposes the kinases (mTORC1, ERK2, Akt) that phosphorylate and retain TFEB in the cytoplasm. Calcineurin thus serves as the phosphatase switch that licenses TFEB's transcriptional program. The relationship is well established and highlights TFEB as a phospho-regulated hub balancing anabolism and catabolism.",
+    "confidence": 0.9
   },
   {
     "subject": "Mitohormesis",
     "predicate": "is_a_form_of",
     "object": "Hormesis",
-    "context": "Mitohormesis is a form of hormesis where mild mitochondrial stress triggers adaptive responses.",
-    "confidence": "high"
+    "context": "Mitohormesis is a specific form of hormesis in which a mild, transient mitochondrial stress—such as modest inhibition of electron transport, mild ROS production, or caloric restriction—triggers an adaptive, net-beneficial response that protects against subsequent and age-related damage. It follows the general hormetic principle of a biphasic dose-response, but the stressor and the adaptive machinery are centered on mitochondrial function. The directionality is adaptive: low-dose mitochondrial perturbation induces protective pathways (e.g., UPRmt, antioxidant defenses, mitophagy) whose benefit exceeds the initial insult. This concept explains why certain mitochondrial toxins or mild energetic challenges can extend lifespan in model organisms. The relationship is well supported by aging and mitochondria research, building on classic hormesis theory.",
+    "confidence": 0.9
   },
   {
     "subject": "Mitohormesis",
     "predicate": "involves",
     "object": "Retrograde Signaling",
-    "context": "Mitochondrial stress signals to the nucleus through retrograde signaling pathways.",
-    "confidence": "high"
+    "context": "Mitohormesis involves retrograde signaling, the process by which stressed or dysfunctional mitochondria communicate their status to the nucleus and cytosol to reprogram gene expression. Through this retrograde pathway, signals such as ROS, altered NAD+/ATP ratios, unfolded proteins, and released mitokines inform the cell to upregulate antioxidant, repair, and mitochondrial quality-control programs. The directionality is bottom-up: the organelle (mitochondria) acts as a sensor that issues a distress-and-adaptation signal to the genome. This communication is the mechanistic engine of mitohormesis, converting local mitochondrial stress into global cytoprotection. The relationship is well established in cell biology, particularly from yeast, worm, and mammalian studies.",
+    "confidence": 0.9
   },
   {
     "subject": "UPRmt",
     "predicate": "is_activated_by",
     "object": "misfolded mitochondrial proteins",
-    "context": "UPRmt is activated by accumulation of misfolded proteins in the mitochondrial matrix.",
-    "confidence": "high"
+    "context": "The mitochondrial unfolded protein response (UPRmt) is activated by the accumulation of misfolded or unassembled proteins within the mitochondrial matrix or inner membrane, which acts as a proteostatic stress signal. This accumulation is sensed and relayed—in nematodes via the transcription factor ATFS-1, and in mammals through pathways involving CHOP, CLPP, and integrated stress signaling—to induce mitochondrial chaperones, proteases, and quality-control genes. The directionality is defensive: proteotoxic stress in the organelle triggers a transcriptional program that restores mitochondrial protein homeostasis. UPRmt is a core component of the retrograde signaling that underlies mitohormesis. The relationship is well supported, though the precise mammalian sensors remain more complex than the C. elegans ATFS-1 paradigm.",
+    "confidence": 0.9
   },
   {
     "subject": "ATFS-1",
     "predicate": "mediates",
     "object": "UPRmt",
-    "context": "ATFS-1 is a transcription factor required for UPRmt activation in C. elegans.",
-    "confidence": "high"
+    "context": "ATFS-1 (activating transcription factor associated with stress-1) is a bZIP transcription factor that is both necessary and sufficient for UPRmt activation in Caenorhabditis elegans. Under basal conditions ATFS-1 is imported into mitochondria and degraded; under mitochondrial stress, import is impaired, allowing ATFS-1 to accumulate in the cytosol, enter the nucleus, and drive expression of mitochondrial chaperones, proteases, and antioxidant genes. The directionality is mediatory: ATFS-1 is the central relay converting mitochondrial proteotoxic signals into the UPRmt transcriptional program. This makes ATFS-1 a key node in mitohormesis and longevity pathways in worms. The relationship is firmly established in C. elegans genetics, with mammalian homologs (e.g., ATF4/ATF5) playing related but partially distinct roles.",
+    "confidence": 0.92
   },
   {
     "subject": "Mitokines",
     "predicate": "are_released_by",
     "object": "stressed mitochondria",
-    "context": "Mitokines are soluble factors released by stressed mitochondria that signal to distal tissues.",
-    "confidence": "high"
+    "context": "Mitokines are soluble signaling factors—including peptides and small proteins such as Humanin and GDF15—that are released by mitochondria experiencing stress, damage, or metabolic perturbation. Their release constitutes a hormonal arm of retrograde signaling, allowing a distressed organelle or tissue to broadcast its status to distal cells and organs and elicit systemic adaptive responses such as improved stress resistance and metabolic remodeling. The directionality is emissive: stressed mitochondria act as endocrine sources that inform and protect the wider organism. This mitochondrial-to-system communication is integral to mitohormesis and organismal aging. The relationship is well supported, with GDF15 and Humanin being the best-characterized mammalian mitokines.",
+    "confidence": 0.9
   },
   {
     "subject": "Humanin",
     "predicate": "is_a",
     "object": "Mitokine",
-    "context": "Humanin was the first identified mammalian mitokine.",
-    "confidence": "high"
+    "context": "Humanin is recognized as the first identified mammalian mitokine, a mitochondrially derived peptide secreted or exported in response to mitochondrial stress to signal cytoprotection beyond the cell of origin. As a mitokine, Humanin participates in the retrograde, endocrine communication by which stressed mitochondria coordinate systemic survival and metabolic adaptation. The directionality is classificatory and functional: Humanin belongs to the mitokine family whose defining feature is mitochondrial origin and stress-responsive intercellular signaling. This identity links Humanin to broader mitohormetic and longevity pathways. The relationship is firmly established and historically significant as the prototype mammalian mitokine.",
+    "confidence": 0.93
   },
   {
     "subject": "Metformin",
     "predicate": "may_work_through",
     "object": "Mitohormesis",
-    "context": "Metformin inhibits mitochondrial function and may work through hormetic mechanisms.",
-    "confidence": "medium"
+    "context": "Metformin, the first-line type 2 diabetes drug, may exert at least part of its beneficial metabolic and longevity effects through mitohormesis: by mildly inhibiting mitochondrial complex I it imposes a low-grade energetic stress that triggers adaptive responses such as improved insulin sensitivity, AMPK activation, and enhanced mitochondrial quality control. This gentle, hormetic mitochondrial challenge is thought to underlie benefits that extend beyond glucose lowering, including reduced aging-associated disease risk. The directionality is hypothesized and mechanistic: metformin acts as the mild stressor that initiates the mitohormetic cascade. However, metformin's full mechanism is multifactorial (also involving gut microbiota and AMPK), so mitohormesis is one contributory pathway rather than the sole explanation. The relationship is plausible and supported by emerging evidence but remains investigational, warranting medium confidence.",
+    "confidence": 0.6
   },
   {
     "subject": "Mitochondrial Fusion",
     "predicate": "mediated_by",
     "object": "MFN1",
-    "context": "MFN1 facilitates outer mitochondrial membrane fusion.",
-    "confidence": "high"
+    "context": "Mitochondrial fusion of the outer membrane is mediated by mitofusin 1 (MFN1), a GTPase anchored in the outer mitochondrial membrane that homo- or hetero-oligomerizes with MFN2 on adjacent mitochondria to drive membrane tethering and fusion. By exchanging and unifying the outer membranes, MFN1 helps maintain a connected, functionally integrated mitochondrial network that supports efficient oxidative phosphorylation and distribution of mitochondrial DNA and metabolites. The directionality is mechanistic: MFN1 is an essential effector protein whose activity produces the fusion event. Loss or inhibition of MFN1 fragments the network and impairs mitochondrial function. The relationship is a well-established principle of mitochondrial dynamics.",
+    "confidence": 0.96
   },
   {
     "subject": "Mitochondrial Fusion",
     "predicate": "mediated_by",
     "object": "MFN2",
-    "context": "MFN2 facilitates outer mitochondrial membrane fusion.",
-    "confidence": "high"
+    "context": "Mitochondrial fusion of the outer membrane is also mediated by mitofusin 2 (MFN2), a close paralog of MFN1 that localizes to the outer mitochondrial membrane and can tether and fuse mitochondria through GTP-dependent oligomerization. In addition to its fusion role, MFN2 helps tether mitochondria to the endoplasmic reticulum at mitochondria-associated membranes (MAMs), influencing calcium transfer and lipid exchange. The directionality is mechanistic: MFN2 is a required fusion machinery component, often acting cooperatively with MFN1. Mutations in MFN2 cause the peripheral neuropathy Charcot-Marie-Tooth type 2A, underscoring its physiological importance. The relationship is firmly established in mitochondrial dynamics.",
+    "confidence": 0.95
   },
   {
     "subject": "Mitochondrial Fusion",
     "predicate": "mediated_by",
     "object": "OPA1",
-    "context": "OPA1 mediates inner mitochondrial membrane fusion.",
-    "confidence": "high"
+    "context": "Mitochondrial fusion of the inner membrane is mediated by OPA1 (optic atrophy 1), a dynamin-related GTPase associated with the inner mitochondrial membrane that exists in long and short isoforms generated by proteolytic processing. OPA1 oligomerizes to fuse inner membranes and, critically, also maintains cristae architecture and the tight apposition of cristae junctions that regulate cytochrome c release during apoptosis. The directionality is mechanistic and inner-membrane-specific: OPA1 executes the fusion of the internal membrane compartment distinct from MFN1/MFN2 outer-membrane fusion. Loss of OPA1 fragments mitochondria and sensitizes cells to death. The relationship is well established and central to inner-membrane dynamics.",
+    "confidence": 0.96
   },
   {
     "subject": "Mitochondrial Fission",
     "predicate": "mediated_by",
     "object": "DRP1",
-    "context": "DRP1 is the key dynamin-related protein coordinating mitochondrial fission.",
-    "confidence": "high"
+    "context": "Mitochondrial fission is mediated by dynamin-related protein 1 (DRP1), a cytosolic GTPase that is recruited to the outer mitochondrial membrane at constriction sites, where it assembles into helical oligomers that mechanically pinch the organelle into two. Fission enables mitochondrial quality control by segregating damaged segments for mitophagy, supports distribution during cell division, and participates in apoptotic fragmentation. The directionality is mechanistic: DRP1 is the principal effector of the division event, acting downstream of recruitment factors such as Fis1, MFF, and MiD49/51. Excessive DRP1 activity is implicated in pathological fragmentation seen in disease. The relationship is one of the best-established mechanisms in mitochondrial dynamics.",
+    "confidence": 0.97
   },
   {
     "subject": "MFN2",
     "predicate": "mutations_cause",
     "object": "Charcot-Marie-Tooth Disease Type 2A",
-    "context": "Heterozygous mutations in MFN2 cause CMT2A, an autosomal dominant peripheral neuropathy.",
-    "confidence": "high"
+    "context": "Heterozygous loss-of-function or dominant-negative mutations in MFN2 cause Charcot-Marie-Tooth disease type 2A (CMT2A), the most common axonal form of inherited peripheral neuropathy. Because MFN2 is especially abundant and functionally critical in long peripheral axons, its impairment disrupts mitochondrial fusion, axonal mitochondrial transport, and energy supply to the distal nerve, leading to progressive length-dependent axonal degeneration, muscle weakness, and sensory loss. The directionality is causal and monogenic: a single gene defect initiates the pathogenic cascade. The relationship is firmly established in human genetics, with MFN2 mutations accounting for a substantial fraction of CMT2 cases. A caveat is that phenotypic severity varies with the specific mutation and its effect on fusion versus MAM-tethering functions.",
+    "confidence": 0.95
   },
   {
     "subject": "OPA1",
     "predicate": "mutations_cause",
     "object": "Dominant Optic Atrophy",
-    "context": "Mutations in OPA1 cause dominant optic atrophy.",
-    "confidence": "high"
+    "context": "Mutations in OPA1 cause autosomal dominant optic atrophy (ADOA, Kjer's optic neuropathy), the most common inherited optic nerve disorder, by compromising inner mitochondrial membrane fusion and cristae integrity in retinal ganglion cells. These neurons are exceptionally dependent on healthy mitochondrial networks and calcium handling, so OPA1 defects lead to progressive apoptosis of ganglion cells and bilateral, symmetric loss of visual acuity and color vision. The directionality is causal and dominant-negative: OPA1 mutations precipitate neurodegeneration of the optic pathway. The relationship is well established genetically and mechanistically, with many OPA1 pathogenic variants identified. A caveat is that some patients develop a more severe 'plus' phenotype involving additional neurological deficits.",
+    "confidence": 0.94
   },
   {
     "subject": "Mitochondrial Dynamics",
     "predicate": "imbalance_associated_with",
     "object": "Cancer",
-    "context": "Imbalance in mitochondrial fusion/fission is associated with cancer development.",
-    "confidence": "high"
+    "context": "Imbalance in mitochondrial dynamics—frequently tilted toward excessive fission or altered fusion—is associated with cancer, where reshaped mitochondrial networks support the metabolic and survival demands of proliferating tumor cells. Cancer cells often exploit fragmented mitochondria and DRP1-dependent fission to facilitate mitophagy of damaged organelles, bioenergetic flexibility, and resistance to apoptosis, while certain fusion proteins can be oncogenic or tumor-suppressive depending on context. The directionality is correlative and partly causal: dynamic remodeling both marks and enables malignant phenotypes. This association makes fission/fusion machinery a candidate anticancer target. The relationship is well supported, though the precise balance favoring tumor growth varies across cancer types and stages.",
+    "confidence": 0.88
   },
   {
     "subject": "Mitochondrial Dynamics",
     "predicate": "imbalance_associated_with",
     "object": "Neurodegenerative Disease",
-    "context": "Imbalance in mitochondrial dynamics is linked to neurodegenerative diseases.",
-    "confidence": "high"
+    "context": "Imbalance in mitochondrial dynamics is linked to neurodegenerative diseases such as Alzheimer's, Parkinson's, and ALS, where impaired fusion and excessive fission compromise the long-range mitochondrial transport and quality control that neurons require. Defective MFN/OPA1-mediated fusion or dysregulated DRP1 activity leads to fragmented, dysfunctional mitochondria, accumulations of damaged organelles, and increased neuronal vulnerability to oxidative and calcium stress. The directionality is bidirectional in pathology: dynamic defects both result from and exacerbate the neurodegenerative process. This association is robust across multiple disorders and underlies interest in normalizing dynamics therapeutically. The relationship is strongly supported by human genetics (e.g., MFN2, OPA1) and disease models.",
+    "confidence": 0.9
   },
   {
     "subject": "Mitochondrial Dynamics",
     "predicate": "imbalance_associated_with",
     "object": "Cardiovascular Disease",
-    "context": "Imbalance in mitochondrial dynamics is linked to cardiovascular diseases.",
-    "confidence": "high"
+    "context": "Imbalance in mitochondrial dynamics is linked to cardiovascular diseases, including heart failure, ischemia-reperfusion injury, and atherosclerosis, because cardiomyocytes and vascular cells depend heavily on a healthy, adaptable mitochondrial network for contractile ATP and redox balance. Excessive fission (DRP1 overactivity) and impaired fusion (MFN/OPA1 deficits) promote fragmented mitochondria, mitochondrial depolarization, increased ROS, and cardiomyocyte death during stress and infarction. The directionality is pathogenic: dynamic imbalance both reflects and drives cardiac and vascular injury. This association is well supported by experimental and clinical cardiovascular research, making dynamics a therapeutic target for cardioprotection. Confidence remains high for the association though causality varies by disease stage.",
+    "confidence": 0.9
   }
 ]

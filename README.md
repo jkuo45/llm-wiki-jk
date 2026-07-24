@@ -72,7 +72,8 @@
 
 `from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
 
-example: suggested schedule (Resveratrol, and Creatine)
+- triples + graphify
+- example: suggested schedule (Resveratrol, and Creatine)
 	link to sinclair [resveratrol](https://x.com/davidasinclair/status/2076000921402675509)
 
 	| Time   | Meal                         | Supplement             |
