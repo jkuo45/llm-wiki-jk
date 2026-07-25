@@ -412,13 +412,21 @@ edgeLabelDiv.style.cssText = `
   border: 1px solid rgba(78, 121, 167, 0.4);
   border-radius: 4px;
   white-space: nowrap;
-  pointer-events: none;
+  pointer-events: auto;
+  cursor: pointer;
   text-shadow: 0 0 4px rgba(0,0,0,0.8);
   display: none;
 `;
 const edgeLabel = new CSS2DObject(edgeLabelDiv);
 edgeLabel.visible = false;
 scene.add(edgeLabel);
+
+edgeLabelDiv.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (hoveredEdge) {
+    selectEdge(hoveredEdge.userData.edge);
+  }
+});
 
 let hoveredEdge = null;
 
@@ -458,11 +466,19 @@ function hideEdgeLabel() {
 
 function resetEdgeStyle(line) {
   if (selectedNode) {
-    // If a node is selected, maintain selection highlighting
     const { edge } = line.userData;
     if (edge.from === selectedNode || edge.to === selectedNode) {
       line.material.color.set(0x4E79A7);
       line.material.opacity = 0.8;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.05;
+    }
+  } else if (selectedEdge) {
+    const { edge } = line.userData;
+    if (edge === selectedEdge) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.9;
     } else {
       line.material.color.set(0x4a4a6a);
       line.material.opacity = 0.05;
@@ -621,6 +637,7 @@ const mouse = new THREE.Vector2();
 const tooltip = document.getElementById('tooltip');
 let hoveredNode = null;
 let selectedNode = null;
+let selectedEdge = null;
 let lastHoveredNodeId = null;
 
 function restoreDefaultLabels() {
@@ -780,6 +797,7 @@ container.addEventListener('click', onClick);
 
 function selectNode(nodeId) {
   selectedNode = nodeId;
+  selectedEdge = null;
   const mesh = nodeObjects.get(nodeId);
   if (!mesh) return;
   
@@ -840,6 +858,7 @@ function selectNode(nodeId) {
 
 function deselectNode() {
   selectedNode = null;
+  selectedEdge = null;
   lastHoveredNodeId = null;
   
   nodeMeshes.forEach(m => {
@@ -856,6 +875,83 @@ function deselectNode() {
   
   hideEdgeLabel();
   document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
+}
+
+function selectEdge(edge) {
+  selectedNode = null;
+  selectedEdge = edge;
+  lastHoveredNodeId = null;
+
+  const fromId = edge.from;
+  const toId = edge.to;
+
+  // Dim all nodes, highlight source and target
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (id === fromId || id === toId) {
+      m.material.emissiveIntensity = 0.5;
+      m.material.opacity = 0.95;
+    } else {
+      m.material.emissiveIntensity = 0.15;
+      m.material.opacity = 0.3;
+    }
+  });
+
+  // Highlight selected edge, dim others
+  edgeObjects.forEach(line => {
+    const e = line.userData.edge;
+    if (e === edge) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.9;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.05;
+    }
+  });
+
+  // Show labels for both nodes and their neighbors
+  const fromNeighbors = adjacency.get(fromId) || [];
+  const toNeighbors = adjacency.get(toId) || [];
+  const visibleIds = new Set([fromId, toId]);
+  fromNeighbors.forEach(n => visibleIds.add(n.target));
+  toNeighbors.forEach(n => visibleIds.add(n.target));
+
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = visibleIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+
+  // Show relation info in sidebar
+  if (sidebarInfoActive) {
+    const fromNode = nodeMap.get(fromId);
+    const toNode = nodeMap.get(toId);
+    const fromLabel = fromNode ? fromNode.label : fromId;
+    const toLabel = toNode ? toNode.label : toId;
+    const fromZhTW = TRANSLATIONS[fromLabel] || '';
+    const toZhTW = TRANSLATIONS[toLabel] || '';
+    const fromDisplay = fromZhTW && fromZhTW !== fromLabel ? `${fromLabel} / ${fromZhTW}` : fromLabel;
+    const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
+    const relationLabel = edge.label || '';
+    const confidence = edge.confidence || '';
+
+    document.getElementById('info-content').innerHTML = `
+      <div class="field"><b>Relation / 關聯</b></div>
+      <div class="field" style="margin-top:4px">
+        <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(fromId)}">${esc(fromDisplay)}</span>
+        <div style="color:#4E79A7;font-size:12px;padding:2px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:10px">${esc(confidence)}</span>` : ''}</div>
+        <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(toId)}">${esc(toDisplay)}</span>
+      </div>
+    `;
+  }
+
+  // Focus camera on midpoint of edge
+  const fromMesh = nodeObjects.get(fromId);
+  const toMesh = nodeObjects.get(toId);
+  if (fromMesh && toMesh) {
+    const mid = fromMesh.position.clone().add(toMesh.position).multiplyScalar(0.5);
+    const cameraOffset = new THREE.Vector3(80, 40, 80);
+    animateCamera(mid.clone().add(cameraOffset), mid);
+  }
 }
 
 function animateCamera(targetPosition, lookAtTarget) {
