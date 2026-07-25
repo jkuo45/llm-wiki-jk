@@ -6,7 +6,7 @@ updated: 2026-07-09
 tags:
   - transporter
   - glucose-metabolism
-aliases: [SLC2A4, Glucose Transporter Type 4]
+aliases: [SLC2A4, Glucose Transporter Type 4, GLUT-4, GLUT4]
 ---
 
 # GLUT4

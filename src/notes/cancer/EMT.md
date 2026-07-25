@@ -14,7 +14,7 @@ aliases: []
 
 ## Molecular Program
 
-EMT is orchestrated by transcriptional regulators — the EMT transcription factors (EMT-TFs) Snail, Slug, ZEB1/2, and Twist — which repress epithelial genes (notably *CDH1*/E-cadherin) and induce mesenchymal genes (N-cadherin, vimentin, fibronectin). Signaling inputs include [[TGF-β]], Wnt/β-catenin, Notch, and growth-factor receptors ([[EGFR]], [[MET]]/HGF). Loss of E-cadherin disrupts adherens junctions, while actin cytoskeletal remodeling enables motility. The reverse program, mesenchymal-epithelial transition (MET), re-establishes epithelial traits at metastatic sites.
+EMT is orchestrated by transcriptional regulators — the EMT transcription factors (EMT-TFs) Snail, Slug, ZEB1/2, and Twist — which repress epithelial genes (notably *CDH1*/E-cadherin) and induce mesenchymal genes (N-cadherin, vimentin, fibronectin). Signaling inputs include [[TGFβ]], Wnt/β-catenin, Notch, and growth-factor receptors ([[EGFR]], [[MET]]/HGF). Loss of E-cadherin disrupts adherens junctions, while actin cytoskeletal remodeling enables motility. The reverse program, mesenchymal-epithelial transition (MET), re-establishes epithelial traits at metastatic sites.
 
 ## Mechanism & Triggers
 
@@ -48,13 +48,13 @@ List of documents that mention this entity
 - [[Metastasis]]: EMT is the initiating cellular program.
 - [[Ivermectin]]: Suppresses EMT to reduce invasion and resistance.
 - [[Lung Cancer]] / [[triple-negative breast cancer]]: EMT-driven subtypes studied.
-- [[TGF-β]]: Major EMT-inducing cytokine.
+- [[TGFβ]]: Major EMT-inducing cytokine.
 - [[Autophagy]]: Survival process engaged during EMT.
 - [[Hallmarks of Cancer]]: Invasion and resistance hallmarks.
 - [[Chemotherapy]]: Resistance linked to EMT.
 
 ## Linking Summary
 
-- New links added: [[Metastasis]], [[Ivermectin]], [[Lung Cancer]], [[triple-negative breast cancer]], [[TGF-β]], [[Autophagy]], [[Hallmarks of Cancer]], [[Chemotherapy]], [[EGFR]], [[MET]]
+- New links added: [[Metastasis]], [[Ivermectin]], [[Lung Cancer]], [[triple-negative breast cancer]], [[TGFβ]], [[Autophagy]], [[Hallmarks of Cancer]], [[Chemotherapy]], [[EGFR]], [[MET]]
 - Suggested new entity notes to create: [[ZEB1]], [[E-cadherin]]
 - Strong connections to strengthen: [[EMT]] ↔ [[Ivermectin]], [[EMT]] ↔ [[Metastasis]]

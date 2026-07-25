@@ -37,13 +37,13 @@ protected: true
 The core upstream trigger is persistent [[DNA Damage Response|DDR]] signaling (γ-H2AX foci, ATM/ATR, Chk1/2) that activates two convergent effector axes:
 
 1. **p53 / [[p21 CIP1|p21]] axis**: DNA damage stabilizes [[p53]], which transcriptionally induces [[p21 CIP1|p21]]; p21 inhibits [[Cyclin-Dependent Kinase 2|CDK2]] and enforces a G1/S arrest. This arm is generally early and, in some contexts, reversible.
-2. **[[p16 INK4a|p16]] / [[Retinoblastoma Protein|Rb]] axis**: p16 inhibits [[Cyclin-Dependent Kinase 4|CDK4]]/[[Cyclin-Dependent Kinase 6|CDK6]], maintaining Rb in its hypophosphorylated, growth-suppressive state. This arm stabilizes arrest over the long term and is the stronger correlate of *in vivo* senescent cell accumulation with age.
+2. **[[p16INK4A|p16]] / [[Retinoblastoma Protein|Rb]] axis**: p16 inhibits [[Cyclin-Dependent Kinase 4|CDK4]]/[[Cyclin-Dependent Kinase 6|CDK6]], maintaining Rb in its hypophosphorylated, growth-suppressive state. This arm stabilizes arrest over the long term and is the stronger correlate of *in vivo* senescent cell accumulation with age.
 
 Both axes converge on suppression of [[E2F]] target genes required for S-phase entry, producing an essentially irreversible arrest.
 
 ## Phenotype and Hallmarks
 
-1. **Permanent cell-cycle arrest**: Mediated by the p53/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[Retinoblastoma Protein|Rb]] pathways.
+1. **Permanent cell-cycle arrest**: Mediated by the p53/[[p21 CIP1|p21]] and [[p16INK4A|p16]]/[[Retinoblastoma Protein|Rb]] pathways.
 2. **[[SASP|Senescence-Associated Secretory Phenotype]]**: Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]], [[TNFα]]), chemokines, growth factors, proteases, bioactive lipids, and extracellular vesicles that remodel the tissue microenvironment (Coppé et al., 2008, PMID 18779463; Kuilman & Peeper, 2009, PMID 19239896).
 3. **Morphological changes**: Enlarged, flattened morphology, irregular/megavolume nuclei, and loss of [[Lamin B1]].
 4. **Senescence-associated β-galactosidase (SA-β-gal)**: Elevated lysosomal β-galactosidase activity at pH 6.
@@ -119,7 +119,7 @@ List of documents that mention this entity
 - [[Cellular Reprogramming]]: Senescence must be bypassed or suppressed for successful reprogramming.
 - [[Autophagy]]: Often plays a dual role in regulating or being regulated by the senescent state.
 - [[SASP|Senescence-Associated Secretory Phenotype]]: The secretory arm that mediates most non-cell-autonomous effects.
-- [[p16 INK4a|p16]]: Core long-term arrest effector and in-vivo senescence biomarker.
+- [[p16INK4A|p16]]: Core long-term arrest effector and in-vivo senescence biomarker.
 - [[p21 CIP1|p21]]: Early DDR-driven arrest effector.
 - [[Epigenetic Alterations]]: senescent epigenetic reprogramming orchestrates the SASP
 - [[SASP|Senescence-Associated Secretory Phenotype]]: the SASP is the primary non-cell-autonomous output of the senescent epigenome
@@ -146,7 +146,7 @@ List of documents that mention this entity
 - [[Senomorphic Therapy]]: suppressing SASP blunts senescence-driven inflammation
 
 ## Linking Summary
-- New links added: [[Chromatin]], [[Epigenetics]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
 - Suggested new entity notes to create: [[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
   - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]
 
@@ -171,7 +171,7 @@ All these states share common marks (p21, p16, SA-β-gal, SASP) but also have un
 Senescence is engaged through canonical tumor-suppressor axes:
 
 - **DNA Damage / Telomere Dysfunction**: Persistent lesions activate [[p53]], which induces [[p21 CIP1|p21]]^CIP1^, enforcing arrest.
-- **Oncogene-Induced Senescence**: Hyperactive Ras/RAF or loss of PTEN triggers arrest via p53/p21 and [[p16 INK4a|p16]]^INK4a^/RB.
+- **Oncogene-Induced Senescence**: Hyperactive Ras/RAF or loss of PTEN triggers arrest via p53/p21 and [[p16INK4A|p16]]^INK4a^/RB.
 - **Replicative Senescence**: Telomere shortening eventually engages the same effectors.
 - **Mitochondrial/Metabolic Stress**: Elevated [[Reactive Oxygen Species|ROS]] and NAD⁺ decline promote the senescent state.
 

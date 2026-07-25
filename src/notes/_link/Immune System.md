@@ -31,7 +31,7 @@ The innate immune system provides immediate, non-specific defense through patter
 - **RIG-I-like receptors (RLRs):** Cytoplasmic viral RNA sensors (RIG-I, MDA5) that signal through MAVS to induce type I interferon production, critical for antiviral defense.
 - **C-type lectin receptors (CLRs):** Recognize carbohydrate structures on pathogens; Dectin-1 detects fungal β-glucan, while the mannose receptor mediates phagocytosis of diverse microbes.
 
-PRRs recognize two broad classes of molecular patterns: pathogen-associated molecular patterns (PAMPs) from microorganisms and damage-associated molecular patterns (DAMPs) released from damaged or dying host cells (e.g., HMGB1, mitochondrial DNA, ATP). Upon detection, innate immune signaling converges on [[NFKB|NF-κB]] activation, driving transcription of pro-inflammatory cytokines including [[TNFα]], IL-1β, and IL-6, collectively orchestrated through the [[Pro-inflammatory Cytokines]] network. The [[NLRP3]] inflammasome represents a critical node linking metabolic stress, mitochondrial dysfunction, and sterile inflammation — particularly relevant in aging and metabolic disease.
+PRRs recognize two broad classes of molecular patterns: pathogen-associated molecular patterns (PAMPs) from microorganisms and damage-associated molecular patterns (DAMPs) released from damaged or dying host cells (e.g., HMGB1, mitochondrial DNA, ATP). Upon detection, innate immune signaling converges on [[NF-κB|NF-κB]] activation, driving transcription of pro-inflammatory cytokines including [[TNFα]], IL-1β, and IL-6, collectively orchestrated through the [[Pro-inflammatory Cytokines]] network. The [[NLRP3]] inflammasome represents a critical node linking metabolic stress, mitochondrial dysfunction, and sterile inflammation — particularly relevant in aging and metabolic disease.
 
 The complement system provides humoral innate defense through three activation pathways: the classical pathway (antibody-dependent, C1q binding), the alternative pathway (spontaneous C3 hydrolysis on pathogen surfaces), and the lectin pathway (mannose-binding lectin recognizing pathogen carbohydrates). All three converge on C3 convertase formation, leading to C3b opsonization, C3a/C5a anaphylatoxin-mediated chemotaxis, and assembly of the membrane attack complex (MAC, C5b-9) that lyses pathogen membranes.
 
@@ -56,7 +56,7 @@ Key hallmarks of immune aging include:
 
 - **Thymic involution:** By age 50, the thymus has largely atrophied, reducing naive T cell production and narrowing the T cell repertoire available for responding to novel antigens.
 - **T cell exhaustion and senescence:** Accumulation of CD28− CD57+ senescent T cells with shortened [[Telomere Attrition|telomeres]], reduced proliferative capacity, and a pro-inflammatory secretory profile.
-- **Inflammaging:** Elevated basal levels of [[TNFα]], IL-6, and C-reactive protein, driven partly by [[NFKB|NF-κB]] activation from accumulated cellular damage, senescent cell [[SASP|Senescence-Associated Secretory Phenotype]] (senescence-associated secretory phenotype), and persistent CMV infection.
+- **Inflammaging:** Elevated basal levels of [[TNFα]], IL-6, and C-reactive protein, driven partly by [[NF-κB|NF-κB]] activation from accumulated cellular damage, senescent cell [[SASP|Senescence-Associated Secretory Phenotype]] (senescence-associated secretory phenotype), and persistent CMV infection.
 - **Impaired vaccine responses:** Elderly individuals produce lower antibody titers and weaker cellular immunity after vaccination, necessitating high-dose or adjuvanted formulations.
 - **Increased susceptibility:** Higher rates of respiratory infections, reactivation of latent viruses (CMV, VZV), reduced cancer immunosurveillance, and poorer outcomes from [[SARS-CoV-2]] and other novel pathogens.
 
@@ -95,7 +95,7 @@ List of documents that mention this entity
 - [[Immunosenescence]] — age-related decline in immune function
 - [[Inflammaging]] — chronic low-grade inflammation driving immune aging
 - [[Inflammation]] — acute and chronic inflammatory responses
-- [[NFKB]] — master transcription factor for pro-inflammatory gene expression
+- [[NF-κB]] — master transcription factor for pro-inflammatory gene expression
 - [[TNFα]] — key pro-inflammatory cytokine produced by macrophages and T cells
 - [[NLRP3]] — inflammasome sensor linking metabolic stress to IL-1β maturation
 - [[Toll-like Receptor]] — PRR family recognizing PAMPs and DAMPs
@@ -129,6 +129,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Inflammaging]], [[Immunosenescence]], [[NFKB]], [[TNFα]], [[NLRP3]], [[Toll-like Receptor]], [[Pro-inflammatory Cytokines]], [[T Lymphocyte]], [[Neutrophils]], [[Macrophage]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Rapamycin]], [[Metformin]], [[Senolytics]], [[HIV]], [[SARS-CoV-2]], [[Rheumatoid Arthritis]], [[Breast Cancer]], [[Melanoma]], [[Glioma]], [[Multiple Myeloma]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[DNA Damage]], [[Genomic Instability]], [[Autophagy]], [[Apoptosis]], [[Telomere Attrition]], [[p16]], [[Bone Marrow]], [[Hematopoiesis]], [[Aging]]
+- New links added: [[Inflammaging]], [[Immunosenescence]], [[NF-κB]], [[TNFα]], [[NLRP3]], [[Toll-like Receptor]], [[Pro-inflammatory Cytokines]], [[T Lymphocyte]], [[Neutrophils]], [[Macrophage]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Rapamycin]], [[Metformin]], [[Senolytics]], [[HIV]], [[SARS-CoV-2]], [[Rheumatoid Arthritis]], [[Breast Cancer]], [[Melanoma]], [[Glioma]], [[Multiple Myeloma]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[DNA Damage]], [[Genomic Instability]], [[Autophagy]], [[Apoptosis]], [[Telomere Attrition]], [[p16]], [[Bone Marrow]], [[Hematopoiesis]], [[Aging]]
 - Suggested new entity notes to create: [[Pathogens]], [[Lymphocytes]], [[Dendritic Cells]], [[Natural Killer Cells]], [[Antibodies]], [[Complement System]]
   - Strong connections to strengthen: Immune System ↔ Gut Microbiome, Immune System ↔ [[Inflammation]], Immune System ↔ [[Aging]]

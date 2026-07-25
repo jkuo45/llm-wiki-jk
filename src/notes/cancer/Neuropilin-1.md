@@ -40,6 +40,6 @@ NRP-1 is a biomarker of angiogenesis and a target for vascular-disrupting and pe
 
 ## Linking Summary
 
-- New links added: [[VEGF]], [[iRGD peptide]], [[Angiogenesis]], [[Metastasis]], [[VEGFR2]], [[Cancer]], [[Chemotherapy]], [[TGF-β]], [[CendR motif]]
+- New links added: [[VEGF]], [[iRGD peptide]], [[Angiogenesis]], [[Metastasis]], [[VEGFR2]], [[Cancer]], [[Chemotherapy]], [[TGFβ]], [[CendR motif]]
 - Suggested new entity notes to create: [[CendR motif]], [[VEGFR2]], [[plexin]]
 - Strong connections to strengthen: [[Neuropilin-1]] ↔ [[iRGD peptide]], [[Neuropilin-1]] ↔ [[VEGF]]

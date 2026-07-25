@@ -16,7 +16,7 @@ aliases: [IGFBP5, IGFBP-5, insulin-like growth factor-binding protein 5]
 
 # IGFBP5
 
-**IGFBP5 (insulin-like growth factor-binding protein 5)** is a member of the IGFBP family that binds circulating and tissue [[IGF-1|insulin-like growth factors]] with high affinity, modulating their bioavailability and receptor engagement. It is a component of the [[SASP|Senescence-Associated Secretory Phenotype]] with roles in both senescence reinforcement and developmental patterning.
+**IGFBP5 (insulin-like growth factor-binding protein 5)** is a member of the IGFBP family that binds circulating and tissue [[IGF1|insulin-like growth factors]] with high affinity, modulating their bioavailability and receptor engagement. It is a component of the [[SASP|Senescence-Associated Secretory Phenotype]] with roles in both senescence reinforcement and developmental patterning.
 
 ## Structure & Function
 
@@ -45,7 +45,7 @@ aliases: [IGFBP5, IGFBP-5, insulin-like growth factor-binding protein 5]
 ## Connections
 
 - [[SASP|Senescence-Associated Secretory Phenotype]]: IGFBP5 is a developmental/senescence-reinforcing SASP factor
-- [[IGF-1]]: IGFBP5 binds and modulates IGF-1 bioavailability
+- [[IGF1]]: IGFBP5 binds and modulates IGF-1 bioavailability
 - [[IGF1R]]: IGFBP5 regulates IGF access to its receptor
 - [[TGFβ]]: co-secreted developmental SASP factor in embryonic patterning
 - [[Senescence]]: IGFBP5 reinforces senescence-associated growth arrest
@@ -54,6 +54,6 @@ aliases: [IGFBP5, IGFBP-5, insulin-like growth factor-binding protein 5]
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF-1]], [[IGF1R]], [[TGFβ]], [[Senescence]], [[IGFBP3]], [[PI3K]], [[Akt]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF1]], [[IGF1R]], [[TGFβ]], [[Senescence]], [[IGFBP3]], [[PI3K]], [[Akt]]
 - Suggested new entity notes to create: [[IGFBP]]
-- Strong connections to strengthen: [[IGFBP5]] ↔ [[IGF-1]], [[IGFBP5]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
+- Strong connections to strengthen: [[IGFBP5]] ↔ [[IGF1]], [[IGFBP5]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

@@ -20,7 +20,7 @@ aliases: [SLE, Lupus]
 SLE has a strong genetic component, with concordance rates of 24–69% in monozygotic twins. Key genetic associations include:
 - **HLA-DR2 and HLA-DR3** — Major histocompatibility complex class II alleles conferring highest risk.
 - **Complement deficiencies** (C1q, C2, C4) — Impair clearance of apoptotic debris and immune complexes.
-- **IRF5**, **STAT4**, **TNFAIP3** — Polymorphisms in interferon and [[NFKB|NF-κB]] regulatory pathways.
+- **IRF5**, **STAT4**, **TNFAIP3** — Polymorphisms in interferon and [[NF-κB|NF-κB]] regulatory pathways.
 - **TREX1** — Exonuclease involved in cytoplasmic DNA sensing; loss-of-function mutations drive type I interferon production.
 
 ### Immune Dysregulation
@@ -74,7 +74,7 @@ SLE is a multisystem disease with highly variable presentation:
 ## Connections
 
 - [[Hydroxychloroquine]] — First-line therapy; reduces disease activity and flare frequency
-- [[NFKB|NF-κB]] — NF-κB signaling is hyperactivated in SLE immune cells
+- [[NF-κB|NF-κB]] — NF-κB signaling is hyperactivated in SLE immune cells
 - [[Macrophages]] — Macrophage phagocytosis of immune complexes drives tissue inflammation
 - [[CD4+ T Cells]] — Autoreactive T cells drive B cell autoantibody production
 - [[IL-10]] — Elevated in SLE; contributes to B cell hyperactivity
@@ -86,5 +86,5 @@ SLE is a multisystem disease with highly variable presentation:
 
 ## Linking Summary
 
-- New links added: [[Hydroxychloroquine]], [[NFKB|NF-κB]], [[Macrophages]], [[CD4+ T Cells]], [[IL-10]], [[IL-12]], [[cGAS-STING Pathway|cGAS-STING]], [[TLR7]], [[TLR9]], [[TNFα]]
+- New links added: [[Hydroxychloroquine]], [[NF-κB|NF-κB]], [[Macrophages]], [[CD4+ T Cells]], [[IL-10]], [[IL-12]], [[cGAS-STING Pathway|cGAS-STING]], [[TLR7]], [[TLR9]], [[TNFα]]
 - Strong connections to strengthen: [[Systemic Lupus Erythematosus]] ↔ [[Hydroxychloroquine]], [[Systemic Lupus Erythematosus]] ↔ [[cGAS-STING Pathway|cGAS-STING]]

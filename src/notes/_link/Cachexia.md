@@ -20,7 +20,7 @@ aliases:
 
 ## Etiology & Pathophysiology
 
-Cachexia accompanies malignancies, chronic heart failure, COPD, renal failure, and advanced [[Sarcopenia|sarcopenia]]. Inflammatory cytokines activate [[NFκB|NF-κB]] and [[STAT1|STAT]] pathways, while [[mTORC1]] signaling is impaired, tipping net protein balance negative.
+Cachexia accompanies malignancies, chronic heart failure, COPD, renal failure, and advanced [[Sarcopenia|sarcopenia]]. Inflammatory cytokines activate [[NF-κB|NF-κB]] and [[STAT1|STAT]] pathways, while [[mTORC1]] signaling is impaired, tipping net protein balance negative.
 
 ## Clinical Presentation & Biomarkers
 

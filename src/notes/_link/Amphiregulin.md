@@ -18,7 +18,7 @@ aliases: [Amphiregulin, AREG, AR]
 
 ## Mechanism of Action & Signaling
 
-AREG is synthesized as a transmembrane precursor and shed from the cell surface by ADAM17 (TACE) to yield a soluble mature factor. It binds and activates the [[EGFR]], triggering receptor dimerization and autophosphorylation that engages the [[MAPK]]/ERK, [[PI3K]]/[[Akt]], and STAT pathways to stimulate proliferation, survival, and migration. Its N-terminal heparin-binding domain allows it to associate with the extracellular matrix and with heparan sulfate proteoglycans, creating local growth-factor gradients. In senescent cells, AREG induction is coordinated with the broader SASP program via [[NFKB|NF-κB]] and [[p38 MAPK]].
+AREG is synthesized as a transmembrane precursor and shed from the cell surface by ADAM17 (TACE) to yield a soluble mature factor. It binds and activates the [[EGFR]], triggering receptor dimerization and autophosphorylation that engages the [[MAPK]]/ERK, [[PI3K]]/[[Akt]], and STAT pathways to stimulate proliferation, survival, and migration. Its N-terminal heparin-binding domain allows it to associate with the extracellular matrix and with heparan sulfate proteoglycans, creating local growth-factor gradients. In senescent cells, AREG induction is coordinated with the broader SASP program via [[NF-κB|NF-κB]] and [[p38 MAPK]].
 
 ## Role in Senescence / SASP
 

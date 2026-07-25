@@ -10,7 +10,7 @@ aliases: []
 
 # A1/Bfl-1
 
-**A1/Bfl-1** (Bcl-2-related protein A1), encoded by the *BCL2A1* gene, is an anti-apoptotic member of the [[Bcl-2 family]]. Like its relatives [[Bcl-2]], [[Bcl-xL]], and [[Mcl-1]], it preserves mitochondrial integrity and promotes cell survival under stress. A1/Bfl-1 is distinguished by its strong transcriptional induction downstream of inflammatory and survival signals, particularly the [[NFκB]] and [[STAT3]] pathways, making it a key effector of cytokine-mediated survival in hematopoietic cells.
+**A1/Bfl-1** (Bcl-2-related protein A1), encoded by the *BCL2A1* gene, is an anti-apoptotic member of the [[Bcl-2 family]]. Like its relatives [[Bcl-2]], [[Bcl-xL]], and [[Mcl-1]], it preserves mitochondrial integrity and promotes cell survival under stress. A1/Bfl-1 is distinguished by its strong transcriptional induction downstream of inflammatory and survival signals, particularly the [[NF-κB]] and [[STAT3]] pathways, making it a key effector of cytokine-mediated survival in hematopoietic cells.
 
 ## Structure & Domains
 
@@ -44,7 +44,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Bcl-2 family]]: Anti-apoptotic member central to survival signaling.
-- [[NFκB]]: Major transcriptional inducer of A1/Bfl-1.
+- [[NF-κB]]: Major transcriptional inducer of A1/Bfl-1.
 - [[Bax]] / [[Bak]]: Effector proteins sequestered by A1/Bfl-1.
 - [[BH3 mimetics]]: Drug class whose efficacy is limited by A1/Bfl-1.
 - [[Apoptosis]]: Inhibits the intrinsic apoptotic pathway.
@@ -53,6 +53,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[NFκB]], [[STAT3]], [[Bax]], [[Bak]], [[Bim]], [[Puma]], [[Bik]], [[Bmf]], [[Intrinsic Pathway]], [[Apoptosis]], [[BH3 mimetics]], [[ABT-263]], [[ABT-199]], [[Chemotherapy]], [[Melanoma]], [[c-Myc]]
+- New links added: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[NF-κB]], [[STAT3]], [[Bax]], [[Bak]], [[Bim]], [[Puma]], [[Bik]], [[Bmf]], [[Intrinsic Pathway]], [[Apoptosis]], [[BH3 mimetics]], [[ABT-263]], [[ABT-199]], [[Chemotherapy]], [[Melanoma]], [[c-Myc]]
 - Suggested new entity notes to create: [[A-1331852]], [[S63845]], [[Bax]], [[Bak]]
-- Strong connections to strengthen: [[A1-Bfl-1]] ↔ [[NFκB]], [[A1-Bfl-1]] ↔ [[BH3 mimetics]]
+- Strong connections to strengthen: [[A1-Bfl-1]] ↔ [[NF-κB]], [[A1-Bfl-1]] ↔ [[BH3 mimetics]]

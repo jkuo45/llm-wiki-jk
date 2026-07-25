@@ -19,7 +19,7 @@ Bcl-w contains the four canonical BH domains (BH1–BH4) and a C-terminal transm
 
 ## Mechanism of Action
 
-Under survival signals, Bcl-w occupies and neutralizes activators and effectors, preventing MOMP. Its expression is regulated transcriptionally by the [[NFκB]] and [[STAT3]] pathways and post-translationally by phosphorylation and ubiquitination. Loss or inhibition of Bcl-w frees Bax/Bak to oligomerize and permeabilize mitochondria, committing the cell to death.
+Under survival signals, Bcl-w occupies and neutralizes activators and effectors, preventing MOMP. Its expression is regulated transcriptionally by the [[NF-κB]] and [[STAT3]] pathways and post-translationally by phosphorylation and ubiquitination. Loss or inhibition of Bcl-w frees Bax/Bak to oligomerize and permeabilize mitochondria, committing the cell to death.
 
 ## Physiological Function
 
@@ -51,6 +51,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[Bax]], [[Bak]], [[Bim]], [[Puma]], [[Intrinsic Pathway]], [[Apoptosis]], [[BH3 mimetics]], [[ABT-737]], [[ABT-263]], [[NFκB]], [[STAT3]], [[Chemotherapy]]
+- New links added: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[Bax]], [[Bak]], [[Bim]], [[Puma]], [[Intrinsic Pathway]], [[Apoptosis]], [[BH3 mimetics]], [[ABT-737]], [[ABT-263]], [[NF-κB]], [[STAT3]], [[Chemotherapy]]
 - Suggested new entity notes to create: [[Bak]], [[BCL2L2]]
 - Strong connections to strengthen: [[Bcl-w]] ↔ [[Bcl-2 family]]

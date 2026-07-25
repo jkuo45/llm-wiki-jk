@@ -37,7 +37,7 @@ Lys68 (with [[Lys122]]) is the shared downstream node of an antagonistic mitocho
 
 ## Coupling to Adrenochrome Redox Cycling
 
-[[Adrenochrome]] undergoes catalytic [[Redox Cycling|redox cycling]] that generates superoxide — the exact substrate of SIRT3-activated MnSOD. The two pathways are coupled through shared substrate, enzyme, and downstream effectors ([[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB|NF-κB]]); sub-toxic adrenochrome exposure may upregulate SIRT3 through a retrograde ROS→AMPK→PGC-1α→SIRT3 loop (a "[[Redox Vaccination|redox vaccination]]" effect), increasing MnSOD deacetylation at Lys68/Lys122.
+[[Adrenochrome]] undergoes catalytic [[Redox Cycling|redox cycling]] that generates superoxide — the exact substrate of SIRT3-activated MnSOD. The two pathways are coupled through shared substrate, enzyme, and downstream effectors ([[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NF-κB|NF-κB]]); sub-toxic adrenochrome exposure may upregulate SIRT3 through a retrograde ROS→AMPK→PGC-1α→SIRT3 loop (a "[[Redox Vaccination|redox vaccination]]" effect), increasing MnSOD deacetylation at Lys68/Lys122.
 
 ##  Role in Inflammaging/Inflammation
 
@@ -105,6 +105,6 @@ MnSOD acetylation at Lys68/Lys122 is used as an indirect surrogate for SIRT3 act
 
 ## Linking Summary
 
-- New links added: [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Lys122]], [[SIRT3-SIRT4 Ratio]], [[Honokiol]], [[Dihydromyricetin]], [[MitoSOX]], [[Adrenochrome]], [[Hormetic Window]], [[ADP-ribosylation]], [[ROS]], [[Oxidative Stress]], [[Angiotensin II]], [[Cardiac Hypertrophy]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NFKB]], [[Redox Cycling]], [[Redox Vaccination]], [[SOD2]], [[Inflammaging]], [[Inflammation]], [[IL-6]], [[IL-1β]], [[IKK complex]], [[GATA4]], [[IFITM3]], [[IL-18]], [[IRF3]]
+- New links added: [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Lys122]], [[SIRT3-SIRT4 Ratio]], [[Honokiol]], [[Dihydromyricetin]], [[MitoSOX]], [[Adrenochrome]], [[Hormetic Window]], [[ADP-ribosylation]], [[ROS]], [[Oxidative Stress]], [[Angiotensin II]], [[Cardiac Hypertrophy]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NF-κB]], [[Redox Cycling]], [[Redox Vaccination]], [[SOD2]], [[Inflammaging]], [[Inflammation]], [[IL-6]], [[IL-1β]], [[IKK complex]], [[GATA4]], [[IFITM3]], [[IL-18]], [[IRF3]]
 - Suggested new entity notes to create: [[SOD2]], [[Hormetic Window]], [[Redox Vaccination]], [[Adrenochrome]]
 - Strong connections to strengthen: [[Lys68]] ↔ [[SIRT3]]; [[Lys68]] ↔ [[SIRT4]]; [[Lys68]] ↔ [[MnSOD]]; [[Lys68]] ↔ [[Inflammaging]]

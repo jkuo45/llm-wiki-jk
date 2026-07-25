@@ -7,9 +7,9 @@ tags:
   - cell-type
   - immune
   - lymphocyte
-aliases:
   - Tregs
   - Treg
+  - CD4+ regulatory T cells
   - CD4+ regulatory T cells
 ---
 

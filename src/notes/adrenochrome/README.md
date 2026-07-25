@@ -16,10 +16,12 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 ## Maintenance
 
 - Last updated: 13_JULY_2026 12:00 PM PDT
-- Total count of entities: 358
+- Total count of entities: 360
 
 | entity                                              |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                                             |
 | :-------------------------------------------------- | :------------------: | :--------------------- | :--------------------: | :--------------------: | :-------------------------------------------------------------------------------------------------------- |
+| [[Ligand-conjugated Nanoparticles]]                 | 25_July_2026 12:00 PM | compound               |           5            |           0            | Nanoparticle vehicles functionalized with targeting ligands for selective senescent-cell uptake or labile-cargo protection. |
+| [[Silver(I) Oxide]]                                 | 25_July_2026 12:00 PM | compound               |           6            |           0            | Oxidizing inorganic reagent used to convert catecholamines to quinone forms in adrenochrome preparative methods. |
 | [[2-deoxy-D-glucose]]                               |     17_Jun_2026      | Chemical Compound      |           6            |           0            | Glycolysis inhibitor; used to modulate metabolic pathways.                                                |
 | [[3-deoxyglucosone]]                                |     17_Jun_2026      | Chemical Compound      |           7            |           -1           | Highly reactive dicarbonyl intermediate in the Maillard reaction.                                         |
 | [[ABG]]                                             | 27_May_2026 01:28 PM | Diagnostic Test        |           4            |           0            | Standard clinical test for blood gases; neutral diagnostic tool.                                          |

@@ -58,7 +58,7 @@ List of documents that mention this entity
 - [[EGCG]]: Green tea polyphenol with peroxynitrite-scavenging capacity.
 
 ## Linking Summary
-- New links added in this revision: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Rheumatoid Arthritis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Ischemia-reperfusion Injury]], [[Mitochondria]], [[Mitochondrial Dysfunction]], [[PPARγ]], [[NRF2]], [[HO-1]], [[NQO1]], [[Glutathione]], [[8-oxo-2'-deoxyguanosine]], [[Chromatin]], [[Gastric Cancer]], [[EGCG]], [[Melatonin]], [[N-Acetylcysteine]], [[Lipids]], [[Signaling Molecules]], [[Permeability Transition Pore]], [[Aconitase]], [[Mitochondrial Dysfunction]], [[NFKB]]
+- New links added in this revision: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Rheumatoid Arthritis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Ischemia-reperfusion Injury]], [[Mitochondria]], [[Mitochondrial Dysfunction]], [[PPARγ]], [[NRF2]], [[HO-1]], [[NQO1]], [[Glutathione]], [[8-oxo-2'-deoxyguanosine]], [[Chromatin]], [[Gastric Cancer]], [[EGCG]], [[Melatonin]], [[N-Acetylcysteine]], [[Lipids]], [[Signaling Molecules]], [[Permeability Transition Pore]], [[Aconitase]], [[Mitochondrial Dysfunction]], [[NF-κB]]
 - Suggested new entity notes to create: [[3-Nitrotyrosine]], [[8-Nitroguanine]], [[Mitochondrial NOS]], [[Metalloporphyrin Catalysts]], [[Nitrated Fatty Acids]]
 - New links added: [[Peroxynitrite]], [[Nitric Oxide]], [[Reactive Nitrogen Species]]
 - Suggested new entity notes to create: [[Reactive Nitrogen Species]], [[Protein nitration]]

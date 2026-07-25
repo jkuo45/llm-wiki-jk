@@ -5,10 +5,7 @@ description: Cellular degradation pathway that delivers cytoplasmic material to 
 created: 2026-07-04
 updated: 2026-07-22
 tags:
-  - biological-process
-  - autophagy
-aliases: [Macroautophagy]
-protected: true
+aliases: [Macroautophagy, Autophagosome nucleation]
 ---
 # Autophagy
 
@@ -43,7 +40,7 @@ Cellular degradation pathway that delivers cytoplasmic material to lysosomes for
 - **[[TFEB]]** — promotes lysosomal biogenesis and autophagic flux
 - **[[Atg5]], [[Atg7]], [[LC3]]** — directly activates core autophagy machinery
 
-NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) restore SIRT1 activity and autophagic flux. This NAD+/SIRT1 axis converges with [[HIF1A]] signaling through shared regulators ([[Mitohormesis]], [[mTOR]], [[AMPK]]), linking metabolic state to hypoxia-responsive mitophagy via [[BNIP3]] and [[BNIP3L]].
+NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) restore SIRT1 activity and autophagic flux. This NAD+/SIRT1 axis converges with [[HIF-1α]] signaling through shared regulators ([[Mitohormesis]], [[mTOR]], [[AMPK]]), linking metabolic state to hypoxia-responsive mitophagy via [[BNIP3]] and [[BNIP3L]].
 
 ## Aging and Longevity
 
@@ -292,7 +289,7 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 - **[[TFEB]]** — promotes lysosomal biogenesis and autophagic flux
 - **[[Atg5]], [[Atg7]], [[LC3]]** — directly activates core autophagy machinery
 
-NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) restore SIRT1 activity and autophagic flux. This NAD+/SIRT1 axis converges with [[HIF1A]] signaling through shared regulators ([[Mitohormesis]], [[mTOR]], [[AMPK]]), linking metabolic state to hypoxia-responsive mitophagy via [[BNIP3]] and [[BNIP3L]].
+NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) restore SIRT1 activity and autophagic flux. This NAD+/SIRT1 axis converges with [[HIF-1α]] signaling through shared regulators ([[Mitohormesis]], [[mTOR]], [[AMPK]]), linking metabolic state to hypoxia-responsive mitophagy via [[BNIP3]] and [[BNIP3L]].
 
 ## Aging and Longevity
 

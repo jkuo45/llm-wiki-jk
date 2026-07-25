@@ -15,7 +15,7 @@ protected: true
 
 ## Molecular Pathology
 
-NSCLC is characterized by actionable driver alterations: activating [[EGFR]] mutations, [[KRAS]] mutations, [[ALK]] rearrangements, ROS1, BRAF, MET, and others. These converge on proliferative and survival pathways such as [[PI3K]]/[[Akt]]/[[mTOR]] and [[RAS]]–RAF–MEK–ERK, and engage [[NFκB]]–mediated inflammatory and anti-apoptotic programs. Histology and molecular subtyping now guide therapy rather than morphology alone.
+NSCLC is characterized by actionable driver alterations: activating [[EGFR]] mutations, [[KRAS]] mutations, [[ALK]] rearrangements, ROS1, BRAF, MET, and others. These converge on proliferative and survival pathways such as [[PI3K]]/[[Akt]]/[[mTOR]] and [[RAS]]–RAF–MEK–ERK, and engage [[NF-κB]]–mediated inflammatory and anti-apoptotic programs. Histology and molecular subtyping now guide therapy rather than morphology alone.
 
 ## Clinical Presentation and Biomarkers
 
@@ -27,7 +27,7 @@ Management spans surgical resection for early disease, platinum-based [[Chemothe
 
 ## Research with Melittin
 
-[[melittin]], the principal peptide of honeybee venom, shows antitumoral activity in NSCLC models, notably by suppressing [[NFκB]] signaling and by disrupting membrane integrity. It demonstrates synergy with [[docetaxel]] in lung cancer cells, suggesting combinations that overcome resistance and enhance apoptosis. Such natural-product repurposing is an active preclinical avenue.
+[[melittin]], the principal peptide of honeybee venom, shows antitumoral activity in NSCLC models, notably by suppressing [[NF-κB]] signaling and by disrupting membrane integrity. It demonstrates synergy with [[docetaxel]] in lung cancer cells, suggesting combinations that overcome resistance and enhance apoptosis. Such natural-product repurposing is an active preclinical avenue.
 
 ## Documents
 
@@ -52,7 +52,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[melittin]]: Antitumor peptide active against NSCLC via NFκB inhibition.
-- [[NFκB]]: Survival/inflammatory pathway inhibited by melittin.
+- [[NF-κB]]: Survival/inflammatory pathway inhibited by melittin.
 - [[docetaxel]]: Taxane that synergizes with melittin in lung models.
 - [[EGFR]]: Major NSCLC driver and therapeutic target.
 - [[KRAS]]: Frequent oncogenic driver in adenocarcinoma.
@@ -61,6 +61,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[NFκB]], [[docetaxel]], [[melittin]], [[EGFR]], [[KRAS]], [[ALK]], [[PI3K]], [[Akt]], [[mTOR]], [[RAS]], [[Chemotherapy]], [[Cancer]], [[Metastasis]]
+- New links added: [[NF-κB]], [[docetaxel]], [[melittin]], [[EGFR]], [[KRAS]], [[ALK]], [[PI3K]], [[Akt]], [[mTOR]], [[RAS]], [[Chemotherapy]], [[Cancer]], [[Metastasis]]
 - Suggested new entity notes to create: [[docetaxel]], [[anti-PD-1]], [[KRAS]]
-- Strong connections to strengthen: [[Non-small-cell Lung Cancer]] ↔ [[docetaxel]], [[Non-small-cell Lung Cancer]] ↔ [[melittin]], [[Non-small-cell Lung Cancer]] ↔ [[NFκB]]
+- Strong connections to strengthen: [[Non-small-cell Lung Cancer]] ↔ [[docetaxel]], [[Non-small-cell Lung Cancer]] ↔ [[melittin]], [[Non-small-cell Lung Cancer]] ↔ [[NF-κB]]

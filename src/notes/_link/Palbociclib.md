@@ -11,7 +11,7 @@ aliases: [Palbociclib]
 # Palbociclib
 Palbociclib (PD0332991) is a [[CDK4]]/[[CDK6]] inhibitor that induces lysosomal biogenesis by inhibiting the nuclear export of [[TFEB]].
 ## Pharmacology
-Palbociclib is a selective [[CDK46|CDK4/6]] inhibitor used in HR+/HER2- [[Breast Cancer]]. It induces G1 cell cycle arrest by preventing Rb phosphorylation.
+Palbociclib is a selective [[CDK4 6|CDK4/6]] inhibitor used in HR+/HER2- [[Breast Cancer]]. It induces G1 cell cycle arrest by preventing Rb phosphorylation.
 ## Autophagy Connection
 Palbociclib induces [[Autophagy]] as a cytoprotective resistance mechanism in cancer cells. Combination of CDK4/6 inhibitors with autophagy inhibitors (e.g., [[Hydroxychloroquine]]) is under clinical investigation.
 **Palbociclib** (PD-0332991; trade name Ibrance) is a highly selective, orally bioavailable [[CDK4]]/[[CDK6]] inhibitor that induces [[G1 Phase|G1/S]] cell cycle arrest. Approved for [[HR+]]/[[HER2]] advanced [[Breast Cancer|breast cancer]], it is also widely used in senescence research as a tool compound to model [[Senescence|therapeutic senescence]].
@@ -58,7 +58,7 @@ List of documents that mention this entity
 ## Connections
 - [[CDK4]]/[[CDK6]] — interacts with Palbociclib
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
-- [[CDK46]] — interacts with Palbociclib
+- [[CDK4 6]] — interacts with Palbociclib
 - [[Breast Cancer]] — associated with Palbociclib
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Hydroxychloroquine]] — interacts with Palbociclib

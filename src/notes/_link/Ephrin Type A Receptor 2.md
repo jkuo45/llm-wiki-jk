@@ -18,7 +18,7 @@ aliases: [EPHA2, Ephrin type A receptor 2, ephrin receptor A2, ephrin receptor E
 
 ## Mechanism of Action & Signaling
 
-EPHA2 is a transmembrane receptor tyrosine kinase whose canonical ligand is cell-surface ephrin-A1 (engagement is contact-dependent, typically requiring juxtaposed cells). Ligand binding induces EPHA2 clustering, autophosphorylation of activation-loop tyrosines and downstream signaling through [[PI3K]]–[[AKT]], Src–[[FAK]] and the [[MAPK]] pathways, regulating cell adhesion, motility and survival. In the SASP context, senescent-cell-derived exosomes deliver EPHA2-activating cues (including ephrin ligands and growth factors) to recipient tumor cells, circumventing the need for direct cell–cell contact and driving ligand-independent/EphA2-dependent mitogenic signaling. EPHA2 also cross-talks with [[TGF-β]] and [[Epithelial-to-mesenchymal transition|EMT]] programs that enhance invasiveness.
+EPHA2 is a transmembrane receptor tyrosine kinase whose canonical ligand is cell-surface ephrin-A1 (engagement is contact-dependent, typically requiring juxtaposed cells). Ligand binding induces EPHA2 clustering, autophosphorylation of activation-loop tyrosines and downstream signaling through [[PI3K]]–[[AKT]], Src–[[FAK]] and the [[MAPK]] pathways, regulating cell adhesion, motility and survival. In the SASP context, senescent-cell-derived exosomes deliver EPHA2-activating cues (including ephrin ligands and growth factors) to recipient tumor cells, circumventing the need for direct cell–cell contact and driving ligand-independent/EphA2-dependent mitogenic signaling. EPHA2 also cross-talks with [[TGFβ]] and [[Epithelial-to-mesenchymal transition|EMT]] programs that enhance invasiveness.
 
 ## Role in Senescence / SASP
 
@@ -37,10 +37,10 @@ EPHA2 is amplified, overexpressed or mislocalized in multiple cancers (breast, l
 - [[SASP|Senescence-Associated Secretory Phenotype]]: EPHA2 mediates SASP-driven cancer promotion
 - [[Cancer]]: EPHA2 promotes cancer cell proliferation
 - [[Epithelial-to-mesenchymal transition|EMT]]: EPHA2 cross-talks with EMT
-- [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGF-β]]: downstream/associated pathways
+- [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGFβ]]: downstream/associated pathways
 - [[Tumor Microenvironment]], [[Metastasis]]: functional context
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Epithelial-to-mesenchymal transition|EMT]], [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGF-β]], [[Tumor Microenvironment]], [[Metastasis]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Epithelial-to-mesenchymal transition|EMT]], [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGFβ]], [[Tumor Microenvironment]], [[Metastasis]]
   - Strong connections to strengthen: EPHA2 ↔ SASP exosomes, EPHA2 ↔ cancer proliferation, EPHA2 ↔ [[Tumor Microenvironment]]

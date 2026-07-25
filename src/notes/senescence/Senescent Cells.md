@@ -21,7 +21,7 @@ protected: true
 **Senescent Cells** are cells that have entered a state of stable, essentially irreversible [[Cell Cycle]] arrest in response to various stressors, including [[DNA Damage]], [[Oncogene Activation]], [[Oxidative Stress]], or [[Telomere Attrition]]. First described by Hayflick and Moorhead (1961) as replicative senescence, the state is now recognized as a multifaceted stress response with tumor-suppressive, developmental, and pathological roles.
 
 They are characterized by:
-- **Proliferative arrest**: Enforced by the [[p53]]/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[Retinoblastoma Protein|Rb]] pathways (the [[CDKN2A]] locus is central).
+- **Proliferative arrest**: Enforced by the [[p53]]/[[p21 CIP1|p21]] and [[p16INK4A|p16]]/[[Retinoblastoma Protein|Rb]] pathways (the [[CDKN2A]] locus is central).
 - **Apoptosis resistance**: Upregulation of [[Senescent cell anti-apoptotic pathways|SCAPs]], including [[Bcl-2]] family proteins and [[PI3K]]/[[Akt]] survival signaling.
 - **SASP**: The [[SASP|Senescence-Associated Secretory Phenotype]]—a complex secretion of cytokines ([[IL-6]], [[IL-1α]]), chemokines ([[CCL2]]), growth factors, and proteases (MMPs) that reshape the tissue microenvironment.
 - **Morphological and metabolic markers**: Enlarged flattened morphology, SA-β-galactosidase activity, senescence-associated heterochromatin foci (SAHF), and mitochondrial dysfunction.

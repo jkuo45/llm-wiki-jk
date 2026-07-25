@@ -88,5 +88,5 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[Cisplatin]], [[BCG]], [[FGFR3]], [[Immunotherapy]], [[Schistosoma haematobium]], [[PD-L1]], [[p53]], [[CT]], [[MRI]], [[PET]], [[Arsenic]], [[Apoptosome]], [[Radiation Therapy]], [[Squamous Cell Carcinoma]], [[Carcinogen]], [[antibody-drug conjugate]], [[Immune System]], [[Checkpoint inhibitor]]
-- Suggested new entity notes to create: [[BCG]], [[FGFR3]], [[Immunotherapy]], [[Nectin-4]], [[Erdafitinib]], [[Enfortumab vedotin]], [[Atezolizumab]], [[Pembrolizumab]], [[Mitomycin C]], [[Gemcitabine]], [[Docetaxel]], [[Lynch Syndrome]], [[Urothelium]], [[Carcinoma in situ]], [[Transurethral Resection of Bladder Tumor]]
+- Suggested new entity notes to create: [[BCG]], [[FGFR3]], [[Immunotherapy]], [[Nectin-4]], [[Erdafitinib]], [[Enfortumab vedotin]], [[Atezolizumab]], [[Pembrolizumab]], [[Mitomycin C]], [[Gemcitabine]], [[docetaxel]], [[Lynch Syndrome]], [[Urothelium]], [[Carcinoma in situ]], [[Transurethral Resection of Bladder Tumor]]
 - Strong connections to strengthen: [[Bladder Cancer]] ↔ [[Cisplatin]], [[Bladder Cancer]] ↔ [[BCG]], [[Bladder Cancer]] ↔ [[Apoptosis]]

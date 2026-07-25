@@ -21,7 +21,7 @@ aliases:
 
 ## Mechanism of Action
 
-Anakinra binds the [[IL-1 Receptor|IL-1R1]] with high affinity but does not recruit the accessory protein [[IL-1RAcP]], making it a competitive antagonist that prevents activation of downstream [[MyD88]]-dependent signaling. By occupying the receptor without triggering signal transduction, anakinra blocks [[NFKB|NF-κB]] and [[MAPK]] activation, reducing transcription of pro-inflammatory genes including *IL1B*, [[TNFα]], [[IL-6]], and [[COX-2]].
+Anakinra binds the [[IL-1 Receptor|IL-1R1]] with high affinity but does not recruit the accessory protein [[IL-1RAcP]], making it a competitive antagonist that prevents activation of downstream [[MyD88]]-dependent signaling. By occupying the receptor without triggering signal transduction, anakinra blocks [[NF-κB|NF-κB]] and [[MAPK]] activation, reducing transcription of pro-inflammatory genes including *IL1B*, [[TNFα]], [[IL-6]], and [[COX-2]].
 
 ## Pharmacokinetics
 
@@ -73,5 +73,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[IL-1 Receptor|IL-1R1]], [[IL-1RAcP]], [[MyD88]], [[NFKB|NF-κB]], [[MAPK]], [[COX-2]], [[Gout]], [[Rheumatoid Arthritis]], [[Inflammaging]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic Therapy|senomorphic]], [[CANTOS Trial]]
+- New links added: [[IL-1α]], [[IL-1 Receptor|IL-1R1]], [[IL-1RAcP]], [[MyD88]], [[NF-κB|NF-κB]], [[MAPK]], [[COX-2]], [[Gout]], [[Rheumatoid Arthritis]], [[Inflammaging]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic Therapy|senomorphic]], [[CANTOS Trial]]
 - Strong connections to strengthen: [[Anakinra]] ↔ [[IL-1β]], [[Anakinra]] ↔ [[IL-1 Receptor|IL-1R1]]

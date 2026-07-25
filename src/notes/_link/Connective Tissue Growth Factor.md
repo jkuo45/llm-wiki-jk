@@ -35,13 +35,13 @@ Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular pr
 
 ### Downstream Signaling
 - **Integrin binding**: Activates integrin αvβ3, α5β1, and α6β4 signaling
-- **TGF-β synergy**: Cooperates with [[TGF-β]] to enhance fibrotic responses
+- **TGF-β synergy**: Cooperates with [[TGFβ]] to enhance fibrotic responses
 - **Smad activation**: Enhances TGF-β/Smad signaling
 - **MAPK/ERK**: Activates cell proliferation and migration pathways
 - **PI3K/Akt**: Promotes cell survival and anti-apoptotic signaling
 
 ### Regulation
-- **Transcriptional control**: Induced by [[TGF-β]], [[IL-6]], [[IL-8]], and mechanical stress
+- **Transcriptional control**: Induced by [[TGFβ]], [[IL-6]], [[IL-8]], and mechanical stress
 - **SASP component**: Secreted by [[Senescent Cells|senescent cells]] in response to DNA damage
 - **Epigenetic regulation**: Controlled by histone modifications and DNA methylation
 
@@ -94,12 +94,12 @@ Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular pr
 - [[SASP|Senescence-Associated Secretory Phenotype]]: CTGF is a major SASP component secreted by senescent cells
 - [[Fibrosis]]: CTGF is a central mediator of fibrotic tissue remodeling
 - [[Prostate Cancer]]: CTGF from senescent stroma promotes prostate tumor progression
-- [[TGF-β]]: CTGF synergizes with TGF-β to enhance fibrotic responses
+- [[TGFβ]]: CTGF synergizes with TGF-β to enhance fibrotic responses
 - [[Fibroblasts]]: CTGF is secreted by senescent fibroblasts in the tumor microenvironment
 - [[Senescent Cells]]: Senescent cells secrete CTGF to activate fibroblasts.
 - [[Fibroblast]]: CTGF drives fibroblast-to-myofibroblast transition.
 
 ## Linking Summary
 
-- New links added: [[CTGF]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Fibrosis]], [[Prostate Cancer]], [[TGF-β]], [[Fibroblasts]]
+- New links added: [[CTGF]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Fibrosis]], [[Prostate Cancer]], [[TGFβ]], [[Fibroblasts]]
 - Strong connections to strengthen: [[CTGF]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[CTGF]] ↔ [[Fibrosis]], [[CTGF]] ↔ [[Prostate Cancer]]

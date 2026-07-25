@@ -59,13 +59,13 @@ Using Transwell inserts that ensure physical separation of the cells, IMR90 cell
 
 ### Paracrine senescence resembles a full senescence response
 
-Co-cultured IMR90 Cherry cells showed increased levels of oxidative and DNA damage and activation of [[p16 INK4a|p16^INK4a]], [[p21 CIP1|p21^CIP1]] and [[IL-8]] expression — suggesting a full transmission of senescence.
+Co-cultured IMR90 Cherry cells showed increased levels of oxidative and DNA damage and activation of [[p16INK4A|p16^INK4a]], [[p21 CIP1|p21^CIP1]] and [[IL-8]] expression — suggesting a full transmission of senescence.
 
 > [!info] Transcriptomic Equivalence
 > Global gene expression profiling revealed a high correlation (Pearson r = 0.67) between OIS and paracrine senescence. Unsupervised hierarchical clustering grouped them together, and a senescence-associated transcriptional signature was significantly upregulated during paracrine senescence. A paracrine senescence signature was enriched across multiple senescence models: replicative senescence, oncogene-induced senescence, stress-induced senescence, mouse PanIN lesions, and human sessile serrated adenomas (SSAs).
 
 > [!important] Core Arrest Machinery
-> Paracrine senescence depends on the same tumour suppressor networks as OIS: knockdown of [[p16 INK4a|p16^INK4a]], [[p53]], or [[p21 CIP1|p21^CIP1]] partially rescued paracrine senescence, confirming that the [[DNA Damage Response|DDR]]-independent arrest converges on the canonical p16/Rb and p53/p21 pathways.
+> Paracrine senescence depends on the same tumour suppressor networks as OIS: knockdown of [[p16INK4A|p16^INK4a]], [[p53]], or [[p21 CIP1|p21^CIP1]] partially rescued paracrine senescence, confirming that the [[DNA Damage Response|DDR]]-independent arrest converges on the canonical p16/Rb and p53/p21 pathways.
 
 ### Multiple components of the SASP mediate paracrine senescence
 
@@ -119,7 +119,7 @@ The secretome of cells undergoing OIS was catalogued using stable isotope labell
 > [!tip] Open Questions
 > Not all cells surrounding preneoplastic lesions undergo paracrine senescence. Levels of soluble factors, concentration gradients, cell-type susceptibility, and whether cells are dividing or arrested all influence which cells undergo paracrine senescence *in vivo*. Recent work suggests tumours can induce p16^INK4a expression in surrounding stromal and infiltrated immune cells — similar to what was observed here.
 
-The authors identified multiple SASP factors with previously unrecognized roles in controlling senescence, including TGF-β family members (activin A and GDF15), VEGF, and the chemokines CCL2 and CCL20. Although multiple SASP components amplify the response — at least in part by activating [[NFKB|NF-κB]] — **IL-1α is a key regulator not linked previously with senescence induction**. The ability of the inflammasome to regulate senescence adds to the pro- and anti-tumour effects of the inflammasome.
+The authors identified multiple SASP factors with previously unrecognized roles in controlling senescence, including TGF-β family members (activin A and GDF15), VEGF, and the chemokines CCL2 and CCL20. Although multiple SASP components amplify the response — at least in part by activating [[NF-κB|NF-κB]] — **IL-1α is a key regulator not linked previously with senescence induction**. The ability of the inflammasome to regulate senescence adds to the pro- and anti-tumour effects of the inflammasome.
 
 In conclusion, cells undergoing OIS can transmit paracrine senescence to their neighbours. Paracrine senescence is a complex response regulated by the inflammasome and IL-1 signalling. Understanding the significance and regulation of paracrine senescence may be the first step towards manipulating it for therapeutic benefit.
 

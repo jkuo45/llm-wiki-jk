@@ -72,7 +72,7 @@
   {
     "subject": "Senescence",
     "predicate": "is_characterized_by",
-    "object": "Lamin B1 Loss",
+    "object": "Lamin B1",
     "context": "Senescent cells characteristically show reduced expression of lamin B1 (encoded by LMNB1), a structural component of the nuclear lamina. Lamin B1 loss detaches lamina-associated domains (LADs) from the nuclear periphery, spatially reorganizing chromatin and contributing to the altered gene expression and genomic instability of senescence. This marker is relatively conserved across cell types and tissues, making it a practical histological and molecular signature of senescent cells in vivo. A caveat is that lamin B1 loss can also occur in certain differentiation and disease states, so it is best used in combination with other markers.",
     "confidence": 0.93
   },
@@ -941,7 +941,7 @@
     "subject": "SCAPs",
     "predicate": "include",
     "object": "PI3K/Akt",
-    "context": "PI3K/Akt survival kinase signaling is a major pro-growth, anti-apoptotic cascade within SCAPs that promotes senescent-cell persistence. Akt phosphorylates substrates that inhibit pro-apoptotic proteins and sustain metabolic fitness. Its inhibition (e.g., by quercetin) lowers the apoptotic threshold of senescent cells. PI3K/Akt thus represents both a survival\u652f\u67f1 and a senolytic target.",
+    "context": "PI3K/Akt survival kinase signaling is a major pro-growth, anti-apoptotic cascade within SCAPs that promotes senescent-cell persistence. Akt phosphorylates substrates that inhibit pro-apoptotic proteins and sustain metabolic fitness. Its inhibition (e.g., by quercetin) lowers the apoptotic threshold of senescent cells. PI3K/Akt thus represents both a survival支柱 and a senolytic target.",
     "confidence": 0.9
   },
   {
@@ -1052,7 +1052,7 @@
   {
     "subject": "SAHF",
     "predicate": "accompanies",
-    "object": "Lamin B1 Loss",
+    "object": "Lamin B1",
     "context": "SAHF formation accompanies loss of lamin B1 as the nuclear periphery reorganizes during senescence: lamina detachment and heterochromatin relocalization co-occur. Lamin B1 loss disrupts lamina-associated domains, facilitating the spatial reorganization that SAHF represent. The two events are correlative structural hallmarks of the senescent nucleus. Together they reflect the profound architectural remodeling of senescent chromatin.",
     "confidence": 0.88
   },
@@ -2221,7 +2221,7 @@
   {
     "subject": "Macrophages",
     "predicate": "activate",
-    "object": "Canonical Inflammasome",
+    "object": "Inflammasome",
     "context": "Macrophages recruited to senescent cells encounter DAMPs (mtDNA, HMGB1, oxidized lipids) that activate the canonical NLRP3/caspase-1 inflammasome, producing IL-1β and amplifying inflammation. This positions macrophages as both effectors of clearance and amplifiers of senescence-associated inflammation. The relationship bridges senescent-cell distress signals to innate immune activation. It is a key node in SASP-inflammaging crosstalk.",
     "confidence": 0.9
   },
@@ -2396,7 +2396,7 @@
   {
     "subject": "Noncanonical Inflammasome",
     "predicate": "activates",
-    "object": "Canonical Inflammasome",
+    "object": "Inflammasome",
     "context": "Gasdermin D pore formation by the noncanonical inflammasome triggers K+ efflux, which in turn activates the canonical NLRP3/caspase-1 inflammasome downstream. This creates a hierarchical cascade in which noncanonical activation licenses canonical inflammasome firing. In senescence, the relationship amplifies IL-1β production and inflammation. It is a well-documented cross-talk between the two inflammasome pathways.",
     "confidence": 0.88
   },
@@ -2438,21 +2438,21 @@
   {
     "subject": "Chronic SASP",
     "predicate": "promotes",
-    "object": "Cancer Stemness",
+    "object": "Cancer Stem Cells",
     "context": "Chronic SASP (IL-6, IL-8 via JAK/STAT3) promotes cancer stem-cell traits and expands the CSC pool in neighbouring epithelial and tumour cells, enhancing tumour initiation and relapse potential. By driving stemness and survival, the persistent secretome fosters malignant progression. The relationship is a key mechanism by which senescence can become tumor-promoting. It is supported by cancer-stemness and senescence co-culture studies.",
     "confidence": 0.85
   },
   {
     "subject": "IL-8",
     "predicate": "promotes",
-    "object": "Cancer Stemness",
+    "object": "Cancer Stem Cells",
     "context": "IL-8 signalling through CXCR2 expands the cancer stem cell (CSC) pool and promotes tumoursphere formation, linking a core SASP chemokine to stemness in malignant contexts. This enhances tumour aggressiveness and therapy resistance. The relationship positions IL-8 as a stemness-driving SASP component. It is supported by CXCR2-blockade and tumoursphere assays.",
     "confidence": 0.88
   },
   {
     "subject": "Therapy-Induced Senescence",
     "predicate": "promotes",
-    "object": "Cancer Stemness",
+    "object": "Cancer Stem Cells",
     "context": "Therapy-induced senescent (TIS) cells secrete a pro-stemness SASP through IL-6/JAK/STAT3, enriching cancer stem cells in surrounding cells and fuelling relapse. By imposing a stem-like, therapy-resistant phenotype on neighbours, TIS can undermine the efficacy of cytotoxic treatment. The relationship is a key late complication of senescence-inducing therapies. Confidence is moderate but supported by multiple tumor models.",
     "confidence": 0.75
   },
@@ -2576,28 +2576,28 @@
     "confidence": 0.9
   },
   {
-    "subject": "OIS",
+    "subject": "Oncogene-Induced Senescence",
     "predicate": "derepresses",
     "object": "CDKN2A",
     "context": "The CDKN2A locus encoding p16INK4a is derepressed in OIS via loss of PRC1/2-mediated H3K27me3 repression, allowing p16 accumulation that enforces durable arrest. This epigenetic switch is a hallmark of the p53-independent senescence phase. The relationship couples oncogene signaling to stable CDK-inhibitor expression. It is a well-characterized epigenetic event in OIS.",
     "confidence": 0.92
   },
   {
-    "subject": "OIS",
+    "subject": "Oncogene-Induced Senescence",
     "predicate": "triggers",
     "object": "Paracrine Senescence",
     "context": "OIS cells transmit senescence to neighbouring normal cells via secreted SASP factors (Acosta et al., 2013), triggering paracrine senescence that amplifies the arrested field. This spread reinforces the tumor-suppressive barrier but can also promote pathology if chronic. The relationship establishes OIS as a source of transmissible arrest. It is a landmark, citation-backed finding in senescence biology.",
     "confidence": 0.92
   },
   {
-    "subject": "OIS",
+    "subject": "Oncogene-Induced Senescence",
     "predicate": "bypasses_through",
     "object": "p53",
     "context": "OIS bypass requires loss of p53, p16INK4A, or PTEN, prerequisites for progression from arrested pre-malignancy to malignancy. Inactivation of these tumor suppressors releases the senescence brake, permitting proliferation of oncogene-stressed cells. The relationship underscores senescence as a barrier that must be overcome for cancer. It is supported by co-mutation and knockout studies.",
     "confidence": 0.9
   },
   {
-    "subject": "OIS",
+    "subject": "Oncogene-Induced Senescence",
     "predicate": "is_susceptible_to",
     "object": "Navitoclax",
     "context": "OIS cells are susceptible to senolytic drugs like navitoclax (a BCL-2/BCL-XL inhibitor), which disable SCAPs and induce apoptosis in the arrested cells. This vulnerability reflects the SCAP dependence of senescent cells generally. The relationship supports the therapeutic concept of eliminating oncogene-induced senescent cells to limit SASP-driven pathology. It is supported by senolytic efficacy studies in OIS models.",

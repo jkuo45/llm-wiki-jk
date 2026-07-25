@@ -15,7 +15,7 @@ protected: true
 
 ## Etiology and Pathophysiology
 
-Virtually all undifferentiated non-keratinizing NPCs harbor EBV, whose latent proteins — notably LMP1, LMP2A, and EBNA1 — activate pro-survival and proliferative signaling ([[NFκB]], [[PI3K]]/[[Akt]], and [[MAPK]] pathways) while impairing apoptotic checkpoints. EBV-encoded small RNAs (EBERs) and [[BART miRNAs]] further remodel the tumor microenvironment. Genetic susceptibility (HLA loci, CYP2E1 variants) and chronic exposure to nitrosamines from preserved foods synergize with viral oncogenesis to drive the [[Hallmarks of Cancer]].
+Virtually all undifferentiated non-keratinizing NPCs harbor EBV, whose latent proteins — notably LMP1, LMP2A, and EBNA1 — activate pro-survival and proliferative signaling ([[NF-κB]], [[PI3K]]/[[Akt]], and [[MAPK]] pathways) while impairing apoptotic checkpoints. EBV-encoded small RNAs (EBERs) and [[BART miRNAs]] further remodel the tumor microenvironment. Genetic susceptibility (HLA loci, CYP2E1 variants) and chronic exposure to nitrosamines from preserved foods synergize with viral oncogenesis to drive the [[Hallmarks of Cancer]].
 
 ## Clinical Presentation and Biomarkers
 
@@ -43,12 +43,12 @@ List of documents that mention this entity
 - [[Ivermectin]]: Repurposed agent with in vitro/in vivo activity against NPC.
 - [[PAK1]]: Kinase targeted by ivermectin in NPC models.
 - [[MAPK]]: Signaling pathway inhibited downstream of PAK1.
-- [[NFκB]]: Viral-activated survival transcription factor.
+- [[NF-κB]]: Viral-activated survival transcription factor.
 - [[Metastasis]]: NPC frequently presents with nodal spread.
 - [[Cancer]]: Broad malignant context.
 
 ## Linking Summary
 
-- New links added: [[Epstein-Barr virus]], [[Ivermectin]], [[PAK1]], [[MAPK]], [[NFκB]], [[PI3K]], [[Akt]], [[EBNA1]], [[BART miRNAs]], [[Metastasis]], [[Chemotherapy]], [[Cancer]], [[Hallmarks of Cancer]]
+- New links added: [[Epstein-Barr virus]], [[Ivermectin]], [[PAK1]], [[MAPK]], [[NF-κB]], [[PI3K]], [[Akt]], [[EBNA1]], [[BART miRNAs]], [[Metastasis]], [[Chemotherapy]], [[Cancer]], [[Hallmarks of Cancer]]
 - Suggested new entity notes to create: [[LMP1]], [[EBERs]], [[anti-PD-1]]
 - Strong connections to strengthen: [[Nasopharyngeal Carcinoma]] ↔ [[Ivermectin]], [[Nasopharyngeal Carcinoma]] ↔ [[Epstein-Barr virus]]

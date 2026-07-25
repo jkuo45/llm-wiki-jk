@@ -4,10 +4,11 @@ description: Val158Met (rs4680) is a common functional SNP (Single Nucleotide
   Polymorphism) in the COMT gene. It involves a substitution of Valine (Val) for Methionine
   (Met) at position 158 of the enzyme.
 created: 2026-05-25
-updated: 2026-07-04
+updated: 2026-07-25
 tags:
   - gene
-aliases: [rs4680, COMT Val158Met]
+  - polymorphism
+aliases: [rs4680, COMT Val158Met, Val158Met polymorphism, COMT SNP, Val/Val genotype, Met/Met genotype, functional SNP]
 protected: true
 
 ---
@@ -27,6 +28,11 @@ The [[Val158Met]] polymorphism impacts:
 - Sensitivity to [[Methyl Donor]] supplements and [[COMT Inhibitors]].
 - Risk for [[Psychiatric Disorders]] like [[Schizophrenia]].
 - Response to certain medications like [[Modafinil]] and [[Aspirin]].
+
+### Heterozygosity and Pharmacogenetics
+The Val/Met heterozygote shows intermediate COMT activity, approximating an additive midpoint between the fast and slow extremes. Genotype therefore stratifies responses to catecholamine-modulating drugs: [[Modafinil]] raises prefrontal dopamine via DAT inhibition and tends to benefit Val/Val (fast) individuals more, because their constitutively lower dopamine leaves greater room for improvement, whereas slow COMT individuals already have high dopamine tone and gain less. Aspirin cardiovascular prophylaxis is similarly concentrated in the slow (Met/Met, A/A) subgroup.
+
+> [!warning] Effect sizes are modest and context-dependent. COMT Val158Met interacts with other dopaminergic genes (e.g., [[Dopamine Transporter|DAT]], D2 receptor) and with population-specific allele frequencies; genotype should inform, not dictate, therapeutic choice.
 
 ## Documents
 

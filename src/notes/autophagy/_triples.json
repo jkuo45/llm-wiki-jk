@@ -35,16 +35,16 @@
     "confidence": 0.95
   },
   {
-    "subject": "ULK1 complex",
+    "subject": "ULK1",
     "predicate": "initiates",
-    "object": "Autophagosome nucleation",
+    "object": "Autophagy",
     "context": "The ULK1 complex, composed of ULK1 or ULK2 kinase together with Atg13, FIP200, and Atg101, acts as the primary initiator of autophagosome formation downstream of nutrient sensing. Under starvation, AMPK directly activates ULK1 while mTORC1 is withdrawn, allowing the complex to phosphorylate targets and recruit the downstream PI3K III/Beclin 1 nucleation machinery. ULK1 kinase activity is essential for the localized recruitment of ATG proteins to the phagophore assembly site and for the earliest steps of membrane expansion. Thus the ULK1 complex serves as the integration point that converts nutrient and energy signals into the physical initiation of autophagosome biogenesis.",
     "confidence": 0.95
   },
   {
     "subject": "PI3K III complex",
     "predicate": "activates",
-    "object": "Autophagosome nucleation",
+    "object": "Autophagy",
     "context": "The class III phosphatidylinositol 3-kinase (PI3K III) complex, centered on Vps34 and including Beclin 1, Atg14, Vps15, and Ambra-1, generates phosphatidylinositol 3-phosphate (PI3P) at membranes to drive autophagosome nucleation. PI3P recruits effector proteins carrying PI3P-binding domains that organize the expanding phagophore and tether downstream ATG conjugation systems. Beclin 1 is a tumor suppressor whose activity is modulated by interacting partners and by anti-apoptotic Bcl-2 family proteins that restrain autophagy under fed conditions. This nucleation complex functions immediately downstream of the ULK1 initiator and is a critical control node for the magnitude of autophagic responses.",
     "confidence": 0.95
   },
@@ -254,7 +254,7 @@
   {
     "subject": "mTORC1",
     "predicate": "phosphorylates",
-    "object": "TFEB at S211",
+    "object": "TFEB",
     "context": "mTORC1 phosphorylates TFEB at serine 211 in the presence of nutrients and growth factors, creating a binding site for 14-3-3 proteins. This phosphorylation event is the principal mechanism by which mTORC1 retains TFEB in the cytosol and prevents its nuclear translocation under fed conditions. S211 phosphorylation thus links nutrient abundance directly to repression of the lysosomal-autophagic transcriptional program. Relief of this phosphorylation during starvation is required for TFEB to enter the nucleus and activate clearance genes.",
     "confidence": 0.95
   },
@@ -268,7 +268,7 @@
   {
     "subject": "Calcineurin",
     "predicate": "dephosphorylates",
-    "object": "TFEB at S211",
+    "object": "TFEB",
     "context": "Calcineurin, a calcium/calmodulin-dependent serine-threonine phosphatase, dephosphorylates TFEB at serine 211, reversing the mTORC1-mediated mark that anchors it in the cytosol. Removal of the phosphate disrupts 14-3-3 binding and unmasks the nuclear localization signal, permitting TFEB nuclear translocation. This calcium-dependent dephosphorylation couples lysosomal calcium release—triggered by TRPML1—to activation of the autophagy-lysosomal program. Calcineurin therefore provides the phosphatasic counterbalance that licenses TFEB activity during stress.",
     "confidence": 0.95
   },
@@ -289,7 +289,7 @@
   {
     "subject": "ERK2",
     "predicate": "phosphorylates",
-    "object": "TFEB at S142",
+    "object": "TFEB",
     "context": "ERK2, a member of the MAPK family activated downstream of growth factor and mitogenic signaling, phosphorylates TFEB at serine 142. This phosphorylation promotes cytosolic retention of TFEB, analogous to the regulatory effect of mTORC1 at nearby sites, thereby limiting nuclear accumulation. The ERK2-TFEB connection integrates proliferative signaling with suppression of the degradative program in growing cells. It illustrates that TFEB localization is governed by multiple kinase inputs beyond the core mTOR axis.",
     "confidence": 0.95
   },
@@ -303,7 +303,7 @@
   {
     "subject": "CDK4/6",
     "predicate": "phosphorylates",
-    "object": "TFEB at S142",
+    "object": "TFEB",
     "context": "Cyclin-dependent kinases 4 and 6 (CDK4/6), central drivers of G1 cell-cycle progression, phosphorylate TFEB at serine 142 and promote its nuclear export through a CRM1-dependent mechanism. This action sequesters TFEB in the cytoplasm during phases of active proliferation, when degradative programs are downregulated. Conversely, pharmacological CDK4/6 inhibition permits TFEB nuclear retention and enhances lysosome biogenesis and autophagy. The CDK4/6-TFEB link couples cell-cycle state to the metabolic and degradative status of the cell.",
     "confidence": 0.95
   },
@@ -317,7 +317,7 @@
   {
     "subject": "p38 MAPK",
     "predicate": "phosphorylates",
-    "object": "TFEB at S211",
+    "object": "TFEB",
     "context": "p38 MAPK phosphorylates TFEB at serine 211, the same residue targeted by mTORC1, thereby promoting cytoplasmic retention under certain stress conditions. This convergence indicates that both growth-factor (mTORC1) and stress (p38) signaling can independently restrain TFEB nuclear entry. The p38-mediated phosphorylation underscores the role of stress-activated MAPK pathways in modulating degradative transcription. Context determines whether p38 signaling suppresses or, at other sites, activates TFEB.",
     "confidence": 0.95
   },
@@ -338,7 +338,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "TFEB at K116",
+    "object": "TFEB",
     "context": "SIRT1, a NAD+-dependent class III deacetylase, deacetylates TFEB at lysine 116, an event that enhances TFEB nuclear translocation and transcriptional activity. Because SIRT1 activity rises during caloric restriction and exercise when cellular NAD+ is elevated, this deacetylation couples energy status to activation of the autophagy-lysosomal program. Deacetylation at K116 therefore complements phosphorylation-mediated control and reinforces TFEB function under pro-longevity conditions. The SIRT1-TFEB axis is a key molecular explanation for the autophagic benefits of NAD+-boosting interventions.",
     "confidence": 0.95
   },
@@ -394,14 +394,14 @@
   {
     "subject": "PDCD4",
     "predicate": "suppresses",
-    "object": "TFEB translation",
+    "object": "TFEB",
     "context": "Programmed cell death protein 4 (PDCD4) suppresses TFEB translation by binding eukaryotic initiation factor 4A (eIF4A) and inhibiting the RNA helicase activity required for ribosome scanning of the TFEB mRNA. This translational blockade limits TFEB protein synthesis independently of its transcriptional or degradative regulation. PDCD4 thereby acts as a brake on the autophagy-lysosomal program at the level of protein synthesis. Its own downregulation in cancer may contribute to the elevated TFEB activity observed in some malignancies.",
     "confidence": 0.95
   },
   {
     "subject": "Spermidine",
     "predicate": "promotes",
-    "object": "TFEB translation",
+    "object": "TFEB",
     "context": "Spermidine promotes TFEB translation through hypusination of eIF5A, a modification essential for efficient translation of mRNAs containing polyproline tracts such as that of TFEB. By facilitating the synthesis of TFEB protein, spermidine expands the pool of the master regulator available for nuclear activation. This translational enhancement complements spermidine's other autophagy-inducing mechanisms, including histone deacetylation. The eIF5A-TFEB link provides a molecular explanation for spermidine's potent, safe induction of the lysosomal-autophagy network.",
     "confidence": 0.95
   },
@@ -436,14 +436,14 @@
   {
     "subject": "mTORC1",
     "predicate": "phosphorylates",
-    "object": "TFEB at S211",
+    "object": "TFEB",
     "context": "mTORC1 phosphorylates TFEB at serine 211 to enforce cytoplasmic retention, a foundational regulatory event that couples nutrient abundance to suppression of lysosomal gene expression. The phosphate creates a 14-3-3 binding site that masks the nuclear localization signal and prevents nuclear entry. This same residue is targeted by other kinases such as p38 MAPK, underscoring its centrality. Relief of S211 phosphorylation during starvation is necessary for TFEB to activate the clearance program.",
     "confidence": 0.95
   },
   {
     "subject": "mTORC1",
     "predicate": "phosphorylates",
-    "object": "TFEB at S142",
+    "object": "TFEB",
     "context": "mTORC1 phosphorylates TFEB at serine 142, a residue also targeted by ERK2 and CDK4/6, contributing to cytoplasmic retention and nuclear export of the transcription factor. Phosphorylation at S142 reinforces the cytosolic sequestration imposed by the S211 mark, providing redundancy in mTORC1-mediated repression. The site integrates inputs from both the nutrient-sensing (mTORC1) and mitogenic (ERK/CDK) axes. Together these modifications ensure TFEB remains inactive during growth and feeding.",
     "confidence": 0.95
   },
@@ -492,7 +492,7 @@
   {
     "subject": "ACAT1",
     "predicate": "acetylates",
-    "object": "TFEB at K116",
+    "object": "TFEB",
     "context": "ACAT1 acetylates TFEB at lysine 116, a residue also targeted by the deacetylase SIRT1, where acetylation can hinder TFEB binding to DNA and thereby modulate its activity. The opposing actions of ACAT1 (acetylase) and SIRT1 (deacetylase) at K116 create a dynamic equilibrium that tunes TFEB transcriptional output. Under conditions favoring SIRT1, deacetylation at K116 enhances nuclear TFEB function, whereas ACAT1-driven acetylation may restrain it. This lysine is therefore a focal point of acetylome control over the autophagy-lysosomal master regulator.",
     "confidence": 0.95
   },
@@ -751,14 +751,14 @@
   {
     "subject": "LIPL-1",
     "predicate": "is_a",
-    "object": "Lysosomal lipase",
+    "object": "LipA",
     "context": "LIPL-1 is a lysosomal lipase in C. elegans that co-localizes with the lysosomal marker PGP-2, confirming its residence within the lysosomal lumen where it hydrolyzes stored triglycerides. Its expression is induced by HLH-30 during fasting, supporting lipophagy-mediated lipid mobilization. LIPL-1 is part of a family of lysosomal lipases (lipl-1 through lipl-5) that together govern organismal lipid turnover. Loss or reduction of these lipases impairs the ability to survive nutrient scarcity.",
     "confidence": 0.95
   },
   {
     "subject": "LIPL-3",
     "predicate": "is_a",
-    "object": "Lysosomal lipase",
+    "object": "LipA",
     "context": "LIPL-3 is a lysosomal lipase in C. elegans that, like LIPL-1, co-localizes with the lysosomal marker PGP-2 and contributes to intralysosomal lipid hydrolysis. It is transcriptionally induced by HLH-30 under fasting conditions, enabling the breakdown of lipid droplets delivered via lipophagy. Together with other lipl family members, LIPL-3 is required for efficient energy mobilization during starvation. Its lysosomal localization anchors it within the autophagy-lysosomal degradative system.",
     "confidence": 0.95
   },
@@ -877,7 +877,7 @@
   {
     "subject": "mTORC1",
     "predicate": "phosphorylates",
-    "object": "TFEB at S211",
+    "object": "TFEB",
     "context": "mTORC1 phosphorylates TFEB at serine 211 to create a 14-3-3 binding site that sequesters the transcription factor in the cytosol, preventing it from activating lysosomal genes. This phosphorylation is the canonical, nutrient-dependent off-switch for TFEB and is reversed by calcineurin during starvation. The specificity of S211 for cytosolic retention makes it the principal mark defining TFEB's inactive state. Its relief is indispensable for engaging the autophagy-lysosomal transcriptional program.",
     "confidence": 0.95
   },

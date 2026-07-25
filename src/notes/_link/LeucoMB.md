@@ -26,7 +26,7 @@ aliases:
 ## Role in Senescence (Senotherapeutic)
 
 - MB/LeucoMB redox cycling enhances complex IV activity, elevates the [[NAD+]]/[[NADH]] ratio, improves ΔΨm, reduces lipid peroxidation, and increases ATP in disease models.
-- In aging models, MB extends the replicative lifespan of normal human fibroblasts and reduces SA-β-gal activity and [[p16 INK4a|p16]] in aged primary human fibroblasts, suggesting improved mitochondrial function delays senescence onset. LeucoMB is the active electron-donating intermediate enabling these effects.
+- In aging models, MB extends the replicative lifespan of normal human fibroblasts and reduces SA-β-gal activity and [[p16INK4A|p16]] in aged primary human fibroblasts, suggesting improved mitochondrial function delays senescence onset. LeucoMB is the active electron-donating intermediate enabling these effects.
 
 ## Documents
 
@@ -40,11 +40,11 @@ aliases:
 - [[NAD+]] — Ratio elevated by MB/LeucoMB
 - [[ROS]] — Reduced by electron shunting through the cycle
 - [[Senescence]] — Delayed by MB/LeucoMB mitochondrial enhancement
-- [[p16 INK4a]] — Senescence marker reduced by MB
+- [[p16INK4A]] — Senescence marker reduced by MB
 - [[ATP]] — Increased by improved mitochondrial function
 
 ## Linking Summary
 
-- New links added: [[Methylene blue]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[NAD+]], [[ROS]], [[Senescence]], [[p16 INK4a]], [[ATP]]
+- New links added: [[Methylene blue]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[NAD+]], [[ROS]], [[Senescence]], [[p16INK4A]], [[ATP]]
 - Suggested new entity notes to create: [[Methylene blue]]
 - Strong connections to strengthen: [[LeucoMB]] ↔ [[Senescence]], [[LeucoMB]] ↔ [[Methylene blue]]

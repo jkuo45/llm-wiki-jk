@@ -37,7 +37,7 @@ Sulforaphane, an isothiocyanate derived from glucoraphanin in cruciferous vegeta
 ### [[Curcumin]]
 Curcumin, the lipophilic polyphenol from [[Turmeric (Curcuma longa)]], exemplifies a hormetic phytochemical with a narrow therapeutic window. It:
 - Activates [[NRF2]], [[AMPK]], and [[p38 MAPK]] at low doses.
-- Inhibits [[NFκB]], [[COX-2]], and [[mTOR]] at moderate doses.
+- Inhibits [[NF-κB]], [[COX-2]], and [[mTOR]] at moderate doses.
 - Induces [[Apoptosis]] and [[ER Stress]] at high doses.
 Its low oral [[Bioavailability]] (due to rapid glucuronidation) actually supports a xenohormetic mode of action: transient, low-grade gut and hepatic stress triggers systemic adaptive responses.
 ## Molecular Targets
@@ -87,6 +87,6 @@ List of documents that mention this entity
 - [[PGC-1α]] — interacts with Xenohormesis
 - [[ARE]] — interacts with Xenohormesis
 ## Linking Summary
-- New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC-1α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NFκB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
+- New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC-1α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NF-κB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
 - Suggested new entity notes to create: [[Dietary Phytochemicals as Signaling Molecules]], [[Xenohormetic Dosing Protocol]]
   - Strong connections to strengthen: [[Xenohormesis]] ↔ Evolutionary Medicine, [[Xenohormesis]] ↔ Glyco-Oxidative Proteostasis Shield, [[Xenohormesis]] <-> [[Hormesis]]

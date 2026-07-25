@@ -48,7 +48,7 @@ List of documents that mention this entity
 - [[Senescence]]
 - [[Chemotherapy]]
 - [[Alkylating agent]]
-- [[Glioblastoma]]
+- [[glioblastoma]]
 - [[Blood-brain barrier]]
 - [[NQO1]]
 - [[p53]]
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Chemotherapy]], [[Alkylating agent]], [[Glioblastoma]], [[Blood-brain barrier]], [[NQO1]], [[p53]], [[Reactive Oxygen Species]], [[Myelosuppression]]
+- New links added: [[Chemotherapy]], [[Alkylating agent]], [[glioblastoma]], [[Blood-brain barrier]], [[NQO1]], [[p53]], [[Reactive Oxygen Species]], [[Myelosuppression]]
 - Suggested new entity notes to create: [[Aziridinylbenzoquinone]], [[NAD(P)H Quinone Oxidoreductase 1]], [[Leptomeningeal Carcinomatosis]]
 - Strong connections to strengthen: [[Diaziquone]] ↔ [[DNA Damage]], [[Diaziquone]] ↔ [[Blood-brain barrier]], [[Diaziquone]] ↔ [[Senescence]]

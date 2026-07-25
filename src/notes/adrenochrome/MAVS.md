@@ -28,7 +28,7 @@ MAVS links [[Mitochondria]] to the detection of external threats and the orchest
 - [[TRAF2]]
 - [[TRAF6]]
 - [[RIPK1]]
-- [[NFκB]]
+- [[NF-κB]]
 - [[NLRP3 Inflammasome]]
 
 ## Connections
@@ -39,9 +39,9 @@ MAVS links [[Mitochondria]] to the detection of external threats and the orchest
 - [[RIPK1]]: This interaction activates MAVS to form large, prion-like aggregates on the mitochondrial surface, which then recruit...
 - [[Mitochondria]]: MAVS links Mitochondria to the detection of external threats and the orchestration of an antiviral state, highlightin...
 - [[NLRP3 Inflammasome]]: A similar role is seen in the activation of the NLRP3 Inflammasome by mitochondrial ROS.
-- [[NFκB]]: - [[Mitochondria]] - [[Retinoic-acid-inducible protein I-like receptor]] - [[TRAF2]] - [[TRAF6]] - [[RIPK1]] - NFκB -...
+- [[NF-κB]]: - [[Mitochondria]] - [[Retinoic-acid-inducible protein I-like receptor]] - [[TRAF2]] - [[TRAF6]] - [[RIPK1]] - NFκB -...
 
 ## Linking Summary
-- New links added: [[Mitochondria]], [[NFKB]], [[Inflammasome]]
+- New links added: [[Mitochondria]], [[NF-κB]], [[Inflammasome]]
 - Suggested new entity notes to create: [[RLR receptors]], [[dsRNA]]
 - Strong connections to strengthen: [[MAVS]] ↔ [[Innate Immunity]]

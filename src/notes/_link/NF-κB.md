@@ -8,7 +8,7 @@ tags:
   - transcription-factor
   - inflammation
   - oxidative-stress
-aliases:
+aliases: [NFKB, NFκB]
   - NF-kappa B
   - NFKB
   - Nuclear factor kappa-light-chain-enhancer of activated B cells

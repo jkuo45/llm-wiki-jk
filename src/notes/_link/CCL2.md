@@ -28,7 +28,7 @@ CCL2 (C-C motif chemokine ligand 2), also known as MCP-1 (monocyte chemoattracta
 
 - CCL2 is a core SASP chemokine whose expression is tightly linked to the IL-1α/IL-1β arm of the secretome.
 - It mediates immune recruitment to senescent cells that can be beneficial (macrophage-mediated clearance, immune surveillance) or detrimental (chronic monocyte infiltration, tissue damage).
-- In senescent mesenchymal stromal cells, the Polycomb protein [[BMI1]] negatively regulates CCL2 through an IL-1α-mediated mechanism, tempering the SASP.
+- In senescent mesenchymal stromal cells, the Polycomb protein [[Bmi-1]] negatively regulates CCL2 through an IL-1α-mediated mechanism, tempering the SASP.
 - Urine CCL2 is used as a non-invasive readout of SASP burden in patients with idiopathic pulmonary fibrosis, linking the chemokine to fibrotic aging.
 - In cancer, CCL2 recruits CCR2+ myeloid-derived suppressor cells, enabling immune evasion.
 
@@ -47,12 +47,12 @@ CCL2 (C-C motif chemokine ligand 2), also known as MCP-1 (monocyte chemoattracta
 - [[CCR2]]: CCR2 is the principal receptor for CCL2
 - [[IL-1α]]: IL-1α regulates CCL2 expression
 - [[Interleukin 1β|IL-1β]]: IL-1β regulates CCL2 expression
-- [[BMI1]]: BMI1 negatively regulates CCL2
+- [[Bmi-1]]: BMI1 negatively regulates CCL2
 - [[Macrophages]]: CCL2 recruits macrophages to senescent cells
 - [[SASP|Senescence-Associated Secretory Phenotype]]: CCL2 is a key SASP chemokine
 - [[Inflammaging]]: CCL2 contributes to chronic inflammation
 
 ## Linking Summary
 
-- New links added: [[CCR2]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[BMI1]], [[NF-κB]], [[AP-1]], [[STAT1]], [[p38 MAPK]], [[Macrophages]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+- New links added: [[CCR2]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[Bmi-1]], [[NF-κB]], [[AP-1]], [[STAT1]], [[p38 MAPK]], [[Macrophages]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
   - Strong connections to strengthen: [[CCL2]] ↔ [[IL-1α]], [[CCL2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

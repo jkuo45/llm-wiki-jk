@@ -32,7 +32,7 @@ FBW7 maintains genome stability, controls stem-cell self-renewal, and couples gr
 
 ## Pathological & Clinical Relevance
 
-FBW7 is mutated or epigenetically silenced in ~6% of human cancers, including [[Colorectal Cancer]], [[T-cell acute lymphoblastic leukemia]], [[Breast Cancer]], and [[Glioblastoma]]. Loss of FBW7 stabilizes [[MYC]] and [[Mcl-1]], driving unrestrained growth and resistance to apoptosis — directly engaging multiple [[Hallmarks of Cancer]]. Because FBW7 loss sensitizes tumors to replication stress and CHK1 inhibition, it is being explored as a predictive biomarker. Restoring FBW7 activity (e.g., via USP28 inhibitors) is an emerging therapeutic strategy.
+FBW7 is mutated or epigenetically silenced in ~6% of human cancers, including [[Colorectal Cancer]], [[T-cell acute lymphoblastic leukemia]], [[Breast Cancer]], and [[glioblastoma]]. Loss of FBW7 stabilizes [[MYC]] and [[Mcl-1]], driving unrestrained growth and resistance to apoptosis — directly engaging multiple [[Hallmarks of Cancer]]. Because FBW7 loss sensitizes tumors to replication stress and CHK1 inhibition, it is being explored as a predictive biomarker. Restoring FBW7 activity (e.g., via USP28 inhibitors) is an emerging therapeutic strategy.
 
 ## Documents
 
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SCF Complex]], [[Mcl-1]], [[MYC]], [[Cyclin E]], [[Tumor Suppressor Gene]], [[Apoptosis]], [[Akt]], [[USP28]], [[Notch1]], [[c-JUN]], [[SREBP]], [[Aurora A]], [[Hallmarks of Cancer]], [[Colorectal Cancer]], [[Glioblastoma]], [[Breast Cancer]]
+- New links added: [[SCF Complex]], [[Mcl-1]], [[MYC]], [[Cyclin E]], [[Tumor Suppressor Gene]], [[Apoptosis]], [[Akt]], [[USP28]], [[Notch1]], [[c-JUN]], [[SREBP]], [[Aurora A]], [[Hallmarks of Cancer]], [[Colorectal Cancer]], [[glioblastoma]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[Phosphodegron]], [[CHK1]]
 - Strong connections to strengthen: [[FBW7]] ↔ [[Mcl-1]], [[FBW7]] ↔ [[Tumor Suppressor Gene]]

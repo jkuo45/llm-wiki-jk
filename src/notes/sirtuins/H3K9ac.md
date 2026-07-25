@@ -24,7 +24,7 @@ aliases:
 ## Regulation by Sirtuins
 
 - **SIRT1:** Deacetylates histone H3 at lysine 9 (and K79), promoting tightly compacted chromatin and gene silencing — a hallmark of SIRT1 activity at telomeres, promoters (e.g., of [[AR]], [[BRCA1]], [[EZH2]], [[EP300]]), and in dynamic chromatin association of DNA-repair factors.
-- **SIRT6:** A principal H3K9ac (and H3K56ac) deacetylase. SIRT6 deacetylates H3K9 at the promoters of [[NFKB|NF-κB]] target genes, repressing inflammatory transcription; at [[ERK|ERK1/2]] promoters, inhibiting ERK expression; and at the [[Nkx3.2]] promoter, relieving repression of [[GATA5]]. H3K9 deacetylation also facilitates recruitment of DSB-repair factors ([[53BP1]], [[BRCA1]]) to damage-flanking chromatin.
+- **SIRT6:** A principal H3K9ac (and H3K56ac) deacetylase. SIRT6 deacetylates H3K9 at the promoters of [[NF-κB|NF-κB]] target genes, repressing inflammatory transcription; at [[ERK|ERK1/2]] promoters, inhibiting ERK expression; and at the [[Nkx3.2]] promoter, relieving repression of [[GATA5]]. H3K9 deacetylation also facilitates recruitment of DSB-repair factors ([[53BP1]], [[BRCA1]]) to damage-flanking chromatin.
 - **SIRT6 activators** such as [[UBCS039]]/[[MDL-800]] and [[Cyanidin]] decrease both H3K9ac and H3K56ac, compacting chromatin and promoting DNA double-strand break repair.
 
 ## Physiological & Pathological Relevance
@@ -38,7 +38,7 @@ aliases:
 
   - [[Histone H3]]: The parent histone carrying the K9 mark.
   - [[SIRT1]], [[SIRT6]]: Major sirtuin deacetylases of H3K9ac.
-  - [[NFKB]]: NF-κB target promoters deacetylated by SIRT6 at H3K9.
+  - [[NF-κB]]: NF-κB target promoters deacetylated by SIRT6 at H3K9.
   - [[53BP1]], [[BRCA1]]: DSB-repair factors recruited after SIRT6-mediated H3K9 deacetylation.
   - [[UBCS039]], [[MDL-800]], [[Cyanidin]]: SIRT6 activators that lower H3K9ac.
   - [[Nkx3.2]], [[GATA5]], [[ERK]]: Loci under H3K9ac-dependent control.
@@ -54,6 +54,6 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Histone H3]], [[SIRT1]], [[SIRT6]], [[NFKB]], [[53BP1]], [[BRCA1]], [[UBCS039]], [[MDL-800]], [[Cyanidin]], [[Nkx3.2]], [[GATA5]], [[ERK]], [[AR]], [[BRCA1]], [[EZH2]], [[EP300]], [[MDL-800]]
+- New links added: [[Histone H3]], [[SIRT1]], [[SIRT6]], [[NF-κB]], [[53BP1]], [[BRCA1]], [[UBCS039]], [[MDL-800]], [[Cyanidin]], [[Nkx3.2]], [[GATA5]], [[ERK]], [[AR]], [[BRCA1]], [[EZH2]], [[EP300]], [[MDL-800]]
 - Suggested new entity notes to create: [[H3K56ac]], [[H3K27ac]]
-- Strong connections to strengthen: [[H3K9ac]] ↔ [[SIRT6]]; [[H3K9ac]] ↔ [[NFKB]]
+- Strong connections to strengthen: [[H3K9ac]] ↔ [[SIRT6]]; [[H3K9ac]] ↔ [[NF-κB]]

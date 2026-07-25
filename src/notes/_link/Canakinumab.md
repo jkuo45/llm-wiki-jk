@@ -20,7 +20,7 @@ aliases:
 
 ## Mechanism of Action
 
-Canakinumab binds free human IL-1β with high affinity and specificity, preventing it from engaging the [[IL-1 Receptor|IL-1R1]]/IL-1RAcP receptor complex. Unlike [[Anakinra]] (which blocks both IL-1α and IL-1β), canakinumab is selective for IL-1β alone. By neutralizing extracellular IL-1β, it inhibits downstream [[MyD88]]-dependent signaling, reducing [[NFKB|NF-κB]] activation and transcription of pro-inflammatory mediators including [[IL-6]], [[TNFα]], and [[COX-2]].
+Canakinumab binds free human IL-1β with high affinity and specificity, preventing it from engaging the [[IL-1 Receptor|IL-1R1]]/IL-1RAcP receptor complex. Unlike [[Anakinra]] (which blocks both IL-1α and IL-1β), canakinumab is selective for IL-1β alone. By neutralizing extracellular IL-1β, it inhibits downstream [[MyD88]]-dependent signaling, reducing [[NF-κB|NF-κB]] activation and transcription of pro-inflammatory mediators including [[IL-6]], [[TNFα]], and [[COX-2]].
 
 ## Pharmacokinetics
 
@@ -82,5 +82,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[IL-1RAcP]], [[MyD88]], [[NFKB|NF-κB]], [[MAPK]], [[COX-2]], [[TNFα]], [[IL-6]], [[CANTOS Trial]], [[Gout]], [[Autoinflammation]]
+- New links added: [[IL-1α]], [[IL-1RAcP]], [[MyD88]], [[NF-κB|NF-κB]], [[MAPK]], [[COX-2]], [[TNFα]], [[IL-6]], [[CANTOS Trial]], [[Gout]], [[Autoinflammation]]
 - Strong connections to strengthen: [[Canakinumab]] ↔ [[IL-1β]], [[Canakinumab]] ↔ [[CANTOS Trial]], [[Canakinumab]] ↔ [[Atherosclerosis]]

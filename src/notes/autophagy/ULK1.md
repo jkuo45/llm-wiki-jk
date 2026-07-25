@@ -5,10 +5,7 @@ description: ULK1 (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threon
   nutrient and energy signals. It is the mam...
 created: 2026-07-04
 updated: 2026-07-05
-tags:
-  - enzyme
-aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1]
-protected: true
+aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1, ULK1 complex]
 ---
 
 # ULK1

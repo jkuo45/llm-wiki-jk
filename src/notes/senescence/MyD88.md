@@ -54,7 +54,7 @@ The resulting three-layered helical structure (MyD88 → IRAK4 → IRAK1/2) brin
 3. **IRAK1 hyperphosphorylation**: IRAK1 undergoes auto-hyperphosphorylation, activating its kinase activity
 4. **TRAF6 recruitment**: Phosphorylated IRAK1 (via its C-terminal TRAF6-binding motifs, TBMs) recruits **[[TRAF6]]** — the E3 ubiquitin ligase
 5. **TRAF6 auto-activation**: IRAK–TRAF6 interaction triggers TRAF6 auto-K63-ubiquitination
-6. **IKK complex activation**: K63-ubiquitinated TRAF6 recruits and activates the IKK complex → phosphorylation and degradation of IκBα → **[[NFKB|NF-κB]] nuclear translocation**
+6. **IKK complex activation**: K63-ubiquitinated TRAF6 recruits and activates the IKK complex → phosphorylation and degradation of IκBα → **[[NF-κB|NF-κB]] nuclear translocation**
 7. **MAPK activation**: TRAF6 also activates TAK1 → [[MAPK]] (JNK, ERK, p38) → **AP-1** transcription factor activation
 
 > [!important] Signal Amplification and Termination
@@ -115,7 +115,7 @@ List of documents in the wiki that mention this entity
 - [[IRAK1]] — Serine/threonine kinase recruited to the myddosome; phosphorylates and activates TRAF6
 - [[IRAK4]] — First kinase recruited to MyD88; initiates the phosphorylation cascade
 - [[TRAF6]] — E3 ubiquitin ligase activated by IRAK1; bridges to NF-κB and MAPK pathways
-- [[NFKB|NF-κB]] — Master inflammatory transcription factor activated downstream of MyD88 signaling
+- [[NF-κB|NF-κB]] — Master inflammatory transcription factor activated downstream of MyD88 signaling
 - [[MAPK]] — JNK, ERK, p38 activated downstream of TRAF6; drive AP-1 transcription
 - [[Senescent Cells]] — Surface IL-1α from senescent cells activates MyD88 signaling in neighbouring macrophages
 - [[Macrophages]] — MyD88 is the central signaling hub in macrophages for IL-1R and TLR responses
@@ -125,12 +125,12 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[IL-1R]], [[Toll-like Receptor]], [[IRAK1]], [[IRAK4]], [[TRAF6]], [[NFKB|NF-κB]], [[MAPK]], [[Senescent Cells]], [[Macrophages]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Senescence Surveillance]]
+- New links added: [[IL-1α]], [[IL-1R]], [[Toll-like Receptor]], [[IRAK1]], [[IRAK4]], [[TRAF6]], [[NF-κB|NF-κB]], [[MAPK]], [[Senescent Cells]], [[Macrophages]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Senescence Surveillance]]
 - Suggested new entity notes to create: [[IRAK3]], [[Tollip]], [[SOCS1]], [[Pellino]]
 - Strong connections to strengthen:
     - [[MyD88]] ↔ [[IL-1R]]
     - [[MyD88]] ↔ [[IRAK1]]
     - [[MyD88]] ↔ [[TRAF6]]
-    - [[MyD88]] ↔ [[NFKB|NF-κB]]
+    - [[MyD88]] ↔ [[NF-κB|NF-κB]]
     - [[MyD88]] ↔ [[Senescent Cells]]
     - [[MyD88]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

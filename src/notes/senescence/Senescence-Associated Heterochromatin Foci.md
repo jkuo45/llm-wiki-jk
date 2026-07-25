@@ -37,7 +37,7 @@ In fluorescence microscopy they appear as multiple intense, punctate foci distin
 
 ## Role in Senescence
 
-- **Stable proliferation arrest**: SAHF durably repress E2F-dependent S-phase genes, reinforcing arrest initiated by [[p16 INK4a|p16]]/Rb or [[p21 CIP1|p21]].
+- **Stable proliferation arrest**: SAHF durably repress E2F-dependent S-phase genes, reinforcing arrest initiated by [[p16INK4A|p16]]/Rb or [[p21 CIP1|p21]].
 - **Visual marker**: SAHF serve as a widely used morphological biomarker of senescence in human cells.
 - **Distinct from mouse**: SAHF are pronounced in human senescent cells; mouse senescence often shows diffuse heterochromatin without discrete foci.
 
@@ -64,7 +64,7 @@ List of documents that mention this entity
 - [[Retinoblastoma Protein|Rb]]: Rb mediates SAHF formation and recruitment of HIRA/ASF1a
 - [[Lamin B1]]: SAHF formation accompanies Lamin B1 loss
 - [[Senescence]]: SAHF are a hallmark of senescence
-- [[p16 INK4a|p16]]: p16/Rb axis drives the arrest SAHF reinforce
+- [[p16INK4A|p16]]: p16/Rb axis drives the arrest SAHF reinforce
 - [[Histone]]: macroH2A/HIRA/ASF1a deposition builds SAHF
 - [[Heterochromatin]]: SAHF are compact heterochromatin domains
 - [[Epigenetic Alterations]]: SAHF are a product of the senescent epigenetic landscape
@@ -77,5 +77,5 @@ List of documents that mention this entity
 - [[Epigenetic Alterations|Epigenetics]]: Epigenetic drift predisposes AT2 cells to senescence.
 
 ## Linking Summary
-- New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Senescence]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[Cytoplasmic Chromatin Fragments]]
+- New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Senescence]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[Cytoplasmic Chromatin Fragments]]
   - Strong connections to strengthen: SAHF ↔ [[Rb]], SAHF ↔ [[Senescence]], SAHF ↔ [[Lamin B1]]

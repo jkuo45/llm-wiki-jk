@@ -50,5 +50,5 @@ Testosterone supports [[Mitochondrial Dysfunction]] resilience and lowers [[Oxid
 ## Linking Summary
 
   - New links added: [[Testosterone]], [[Estrogen]], [[Muscle Atrophy]], [[Osteoporosis]], [[Metabolic Syndrome]], [[Cardiovascular Disease]], [[SIRT1]], [[Luteinizing hormone]]
-  - Suggested new entity notes to create: [[Androgen receptor]], [[Dihydrotestosterone]], [[Andropause]]
+  - Suggested new entity notes to create: [[Androgen Receptor]], [[Dihydrotestosterone]], [[Andropause]]
   - Strong connections to strengthen: [[Testosterone]] ↔ [[Mitochondrial Dysfunction]], [[Testosterone]] ↔ [[Oxidative Stress]]

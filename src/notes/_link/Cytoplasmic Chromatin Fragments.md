@@ -30,7 +30,7 @@ CCFs are the primary cytosolic DNA species that engage the [[cGAS-STING Pathway|
 
 - cGAS binds CCFs in a sequence-independent manner, recognizing DNA length > 20 bp.
 - cGAS synthesizes [[cGAMP|2′3′-cGAMP]], which activates [[STING]].
-- STING translocates to the Golgi, recruiting [[TBK1]], which phosphorylates [[IRF3]] and activates [[NFκB]].
+- STING translocates to the Golgi, recruiting [[TBK1]], which phosphorylates [[IRF3]] and activates [[NF-κB]].
 - IRF3 and NFκB drive transcription of type-I [[Interferon|interferons]] and SASP factors ([[IL-6]], [[IL-8]], [[CXCL10]], [[IFN-β]]).
 
 ## Relationship to Other Cytosolic DNA Sources
@@ -91,6 +91,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Senescence]], [[Senescent Cells]], [[Lamin B1]], [[DNASE2]], [[TREX1]], [[E2F1|E2F]], [[SASP|Senescence-Associated Secretory Phenotype]], [[mtDNA]], [[LINE-1]], [[cGAMP]], [[STING]], [[TBK1]], [[IRF3]], [[NFκB]], [[IL-6]], [[IL-8]], [[CXCL10]], [[IFN-β]], [[Interferon]], [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]], [[Inflammaging]], [[Minority MOMP]], [[BAX]], [[BAK]], [[cDNA]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[LINE-1]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]]
+- New links added: [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Senescence]], [[Senescent Cells]], [[Lamin B1]], [[DNASE2]], [[TREX1]], [[E2F1|E2F]], [[SASP|Senescence-Associated Secretory Phenotype]], [[mtDNA]], [[LINE-1]], [[cGAMP]], [[STING]], [[TBK1]], [[IRF3]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL10]], [[IFN-β]], [[Interferon]], [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]], [[Inflammaging]], [[Minority MOMP]], [[BAX]], [[BAK]], [[cDNA]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[LINE-1]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]]
 - Suggested new entity notes to create: [[Nuclear Envelope Collapse]], [[Lamin B1 Downregulation]]
 - Strong connections to strengthen: [[Cytoplasmic Chromatin Fragments]] ↔ [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]] ↔ [[Senescence]], [[Cytoplasmic Chromatin Fragments]] ↔ [[Lamin B1]], [[Cytoplasmic Chromatin Fragments]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

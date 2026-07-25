@@ -23,7 +23,7 @@ aliases: [Monomethyl poly(ethylene glycol)-poly(ε-caprolactone), MPEG-PCL copol
 
   - [[PLA]], [[PLGA]], [[PVP]]: Alternative polymer carriers.
   - [[Nanoparticles]], [[Bioavailability]], [[Fisetin]]: Core context.
-  - [[Cancer]], [[Ovarian Cancer]], [[Colorectal Cancer]]: Disease models.
+  - [[Cancer]], [[ovarian cancer]], [[Colorectal Cancer]]: Disease models.
 
 ## Linking Summary
 

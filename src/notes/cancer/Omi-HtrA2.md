@@ -6,7 +6,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - enzyme
-aliases: []
+aliases: [Omi HtrA2, HtrA2, High Temperature Requirement Protein A2, Serine Protease HTRA2]
 ---
 
 # Omi/HtrA2

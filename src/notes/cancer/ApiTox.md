@@ -13,11 +13,11 @@ source: #
 
 ## Overview
 
-ApiTox is a standardized preparation of [[Honeybee venom|honeybee]] ([[Apis mellifera]]) venom used in experimental apitherapy research. It contains the major bioactive components of bee venom: [[melittin]] (40-60% dry weight), [[phospholipase A2]], [[apamin]], [[mast cell degranulating peptide]], and [[adolapin]].
+ApiTox is a standardized preparation of [[Honeybee venom|honeybee]] ([[Apis mellifera]]) venom used in experimental apitherapy research. It contains the major bioactive components of bee venom: [[melittin]] (40-60% dry weight), [[Phospholipase A2]], [[apamin]], [[mast cell degranulating peptide]], and [[adolapin]].
 
 ## Bioactive Components
 
-- **[[Melittin]]**: The principal toxin; a 26-amino acid amphipathic peptide that disrupts [[cell membranes]], activates [[phospholipase A2]], and induces [[Apoptosis]].
+- **[[Melittin]]**: The principal toxin; a 26-amino acid amphipathic peptide that disrupts [[cell membranes]], activates [[Phospholipase A2]], and induces [[Apoptosis]].
 - **[[Phospholipase A2]]** (PLA2): Enzyme that hydrolyzes membrane phospholipids, releasing [[arachidonic acid]] for [[prostaglandin]]/[[leukotriene]] synthesis.
 - **[[Apamin]]**: An 18-amino acid neurotoxin that blocks [[Ca2+-activated K+ channels]].
 - **[[Mast Cell Degranulating Peptide]]**: Induces [[histamine]] release from mast cells.
@@ -44,7 +44,7 @@ This entity is not linked to the current senescence/SASP document. It is relevan
 - [[Honeybee venom]]: Source material
 - [[melittin]]: Principal bioactive component with anti-cancer activity
 - [[Apis mellifera]]: Source organism
-- [[phospholipase A2]]: Bioactive enzyme component
+- [[Phospholipase A2]]: Bioactive enzyme component
 - [[Apoptosis]]: Mechanism of anti-cancer activity
 
 ## Linking Summary

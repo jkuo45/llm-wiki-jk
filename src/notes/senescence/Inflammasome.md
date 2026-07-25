@@ -10,9 +10,7 @@ tags:
   - protein-complex
   - innate-immunity
   - inflammation
-  - senescence
-  - inflammation
-aliases: [Inflammasome, inflammasomes]
+aliases: [Inflammasome, inflammasomes, Canonical Inflammasome]
 ---
 
 # Inflammasome
@@ -149,7 +147,7 @@ List of documents in the wiki that mention this entity
 - [[IL-1α]] — Noncanonical inflammasome substrate; its cleavage and surface translocation drives the SASP
 - [[Interleukin 1β|IL-1β]] — Canonical inflammasome substrate; processed by caspase-1 in macrophages
 - [[IL-18]] — Canonical inflammasome substrate; promotes TH1 responses
-- [[NFKB|NF-κB]] — Transcriptional priming of NLRP3 and pro-IL-1β
+- [[NF-κB|NF-κB]] — Transcriptional priming of NLRP3 and pro-IL-1β
 - [[cGAS-STING Pathway|cGAS–STING]] — Drives interferon-dependent caspase-5 expression upstream
 - [[HMGB1]] — DAMP released during pyroptosis; activates TLR4 and RAGE
 - [[mtDNA]] — Mitochondrial DNA DAMP that activates both cGAS–STING and NLRP3
@@ -162,7 +160,7 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Caspase-1]], [[Caspase-5]], [[Caspase-11]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-18]], [[NFKB|NF-κB]], [[cGAS-STING Pathway|cGAS–STING]], [[HMGB1]], [[mtDNA]], [[Macrophages]], [[Senescent Cells]], [[Inflammaging]], [[Autophagy]], [[mTOR]], [[Calpain]], [[NINJ1]]
+- New links added: [[Caspase-1]], [[Caspase-5]], [[Caspase-11]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-18]], [[NF-κB|NF-κB]], [[cGAS-STING Pathway|cGAS–STING]], [[HMGB1]], [[mtDNA]], [[Macrophages]], [[Senescent Cells]], [[Inflammaging]], [[Autophagy]], [[mTOR]], [[Calpain]], [[NINJ1]]
 - Suggested new entity notes to create: [[Gasdermin D]], [[NLRP3]], [[AIM2]], [[NLRC4]], [[ASC Speck]]
 - Strong connections to strengthen:
     - [[Inflammasome]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

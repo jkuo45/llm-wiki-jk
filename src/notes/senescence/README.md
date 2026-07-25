@@ -26,7 +26,7 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 ## Maintenance
 
 - Last updated: 16_July_2026 09:00 PM PDT
-- Total count of entities: 49
+- Total count of entities: 51
 
 > [!note] Cross-topic entities relocated to `_link/`
 > The following 18 entities are referenced across multiple topics and were moved to `notes/_link/` as the single source of truth (consolidated 16_July_2026): 1,3-Bisphosphoglycerate, Aminooxyacetate, CCCP, Citric Acid Cycle, CpG Islands, Cyclin A, Cyclin B, Damage-Associated Molecular Patterns, Glyceraldehyde 3-Phosphate, LeucoMB, Malate Dehydrogenase, Malate-Aspartate Shuttle, Malate, Mesenchymal Stem Cells, Oxaloacetate, Plasmacytoid Dendritic Cells, S-Nitrosoglutathione Reductase, c-Fos.
@@ -57,6 +57,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |
 | :-------------------------------------------------- | :-----------------------: | :--------------------- | :---------: | :---------: | :---------------------------------------------------------------------------------------------------------------- |
+| [[SAMD]]                                            | 25_July_2026 12:00 PM PDT | process               |      8      |     -1      | Senescence-associated mitochondrial dysfunction; programmed metabolic derangement driving the senescent phenotype.  |
+| [[SADS]]                                            | 25_July_2026 12:00 PM PDT | process               |      7      |      0      | Decompaction of pericentromeric/pericentrosomal satellite heterochromatin in senescent cells.                      |
 | [[Senescence]]                                      | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |      0      | The senescence program itself; hub of the topic.                                                                  |
 | [[Senescent Cells]]                                 | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The arrested, apoptosis-resistant cells that accumulate with age.                                                 |
 | [[SASP|Senescence-Associated Secretory Phenotype]] | 09_July_2026 12:00 PM PDT | Biological Process     |     10      |     -1      | The SASP is the pro-inflammatory effector arm of senescence.                                                      |

@@ -17,7 +17,7 @@ aliases: [p27, Kip1]
 
 ## Structure & Expression
 
-p27 is a ~197-amino-acid protein whose N-terminal region (residues 1–90) binds and inhibits [[Cyclin-Dependent Kinase]] complexes. Its expression is constitutive at the transcript level but tightly controlled post-translationally: in quiescent cells p27 is stable, whereas in cycling cells it is degraded. Expression is induced by anti-proliferative signals including [[TGF-β]], cAMP, and contact inhibition.
+p27 is a ~197-amino-acid protein whose N-terminal region (residues 1–90) binds and inhibits [[Cyclin-Dependent Kinase]] complexes. Its expression is constitutive at the transcript level but tightly controlled post-translationally: in quiescent cells p27 is stable, whereas in cycling cells it is degraded. Expression is induced by anti-proliferative signals including [[TGFβ]], cAMP, and contact inhibition.
 
 ## Mechanism/Function
 
@@ -55,6 +55,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[p27]], [[Cyclin-Dependent Kinase]], [[Cell Cycle]], [[Quiescence]], [[Tumor Suppressor]], [[CDKN1A]], [[CDKN1C]], [[Cancer]], [[Cyclin E]], [[Cyclin D]], [[TGF-β]], [[Autophagy]]
+- New links added: [[p27]], [[Cyclin-Dependent Kinase]], [[Cell Cycle]], [[Quiescence]], [[Tumor Suppressor]], [[CDKN1A]], [[CDKN1C]], [[Cancer]], [[Cyclin E]], [[Cyclin D]], [[TGFβ]], [[Autophagy]]
 - Suggested new entity notes to create: [[Skp2]], [[Cip/Kip Family]]
 - Strong connections to strengthen: [[CDKN1B]] ↔ [[p27]], [[CDKN1B]] ↔ [[Cell Cycle]]

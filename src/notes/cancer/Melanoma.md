@@ -24,7 +24,7 @@ Melanoma development is driven by genetic and epigenetic alterations that activa
 
 - **BRAF V600E mutations**: Present in ~50% of cutaneous melanomas; constitutively activates the MAPK/ERK pathway. Paradoxically, [[BRAF]] activation in melanocytes of benign nevi (moles) induces [[Senescence|oncogene-induced senescence (OIS)]], restraining progression — rare cell variants that bypass OIS evolve into melanoma.
 - **NRAS mutations**: Present in ~20% of melanomas; activates RAS-MAPK and PI3K-AKT signaling.
-- **Loss of CDKN2A**: The [[p16 INK4a|p16]]/p14ARF tumor suppressor locus is frequently inactivated, enabling escape from senescence.
+- **Loss of CDKN2A**: The [[p16INK4A|p16]]/p14ARF tumor suppressor locus is frequently inactivated, enabling escape from senescence.
 - **UV-induced DNA damage**: Characteristic C>T transitions at dipyrimidine sites; defects in DNA repair promote mutagenesis.
 - **Epigenetic reprogramming**: DNA methylation changes and histone modifications contribute to tumor heterogeneity and drug resistance.
 
@@ -67,7 +67,7 @@ List of documents that mention this entity
 - [[IL-8]] — SASP chemokine that acts as autocrine growth factor for melanoma cells
 - [[GROα]] — SASP chemokine stimulating melanocyte proliferation
 - [[CXCR2]] — Receptor for GROα and IL-8; upregulated in malignant melanocytes
-- [[p16 INK4a|p16]] — Tumor suppressor frequently lost in melanoma progression
+- [[p16INK4A|p16]] — Tumor suppressor frequently lost in melanoma progression
 - [[Epithelial-to-mesenchymal transition|EMT]] — Phenotypic switch associated with invasion
 - [[Metastasis]] — Melanoma has high metastatic potential
 - [[PD-L1]] — Immune checkpoint molecule; target for immunotherapy
@@ -78,6 +78,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Melanoma]], [[BRAF]], [[RAS]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-8]], [[GROα]], [[CXCR2]], [[p16 INK4a|p16]], [[PD-L1]], [[Metastasis]], [[Immunotherapy]], [[Melanocytes]], [[Angiogenesis]], [[Senescence Surveillance]]
+- New links added: [[Melanoma]], [[BRAF]], [[RAS]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-8]], [[GROα]], [[CXCR2]], [[p16INK4A|p16]], [[PD-L1]], [[Metastasis]], [[Immunotherapy]], [[Melanocytes]], [[Angiogenesis]], [[Senescence Surveillance]]
 - Suggested new entity notes to create: [[NRAS]], [[CDKN2A]], [[MAPK Pathway]]
 - Strong connections to strengthen: [[Melanoma]] ↔ [[BRAF]], [[Melanoma]] ↔ [[Senescence]], [[Melanoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

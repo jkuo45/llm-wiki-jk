@@ -29,7 +29,7 @@ In the context of [[Senescence|cellular senescence]], BrdU incorporation is a ke
 
 - **Thymidine analog incorporation**: BrdU competes with endogenous thymidine for incorporation by [[DNA Polymerase]] during replicative DNA synthesis; once incorporated it sensitizes DNA to UV/antibody detection.
 - **Proliferation readout**: The proportion of BrdU-positive nuclei in an S-phase pulse assay reports the fraction of cycling cells. Loss of BrdU positivity after a mitogenic stimulus indicates withdrawal from the cell cycle.
-- **Arrest quantification in senescence**: Co-staining with [[SA-β-Galactosidase|SA-β-Gal]] and other senescence markers (e.g., [[p16 INK4a|p16]], [[p21 CIP1|p21]]) distinguishes flattened, growth-arrested senescent cells from quiescent or differentiated cells.
+- **Arrest quantification in senescence**: Co-staining with [[SA-β-Galactosidase|SA-β-Gal]] and other senescence markers (e.g., [[p16INK4A|p16]], [[p21 CIP1|p21]]) distinguishes flattened, growth-arrested senescent cells from quiescent or differentiated cells.
 
 ## Role in Senescence Research
 
@@ -63,7 +63,7 @@ In the context of [[Senescence|cellular senescence]], BrdU incorporation is a ke
 
 ## Linking Summary
 
-- New links added: [[Thymidine]], [[DNA Synthesis]], [[DNA Polymerase]], [[Cell Cycle]], [[SA-β-Galactosidase|SA-β-Gal]], [[Senescence]], [[Paracrine Senescence]], [[Oncogene-Induced Senescence|OIS]], [[RAS]], [[p16 INK4a|p16]], [[p21 CIP1|p21]]
+- New links added: [[Thymidine]], [[DNA Synthesis]], [[DNA Polymerase]], [[Cell Cycle]], [[SA-β-Galactosidase|SA-β-Gal]], [[Senescence]], [[Paracrine Senescence]], [[Oncogene-Induced Senescence|OIS]], [[RAS]], [[p16INK4A|p16]], [[p21 CIP1|p21]]
 - Suggested new entity notes to create: [[DNA Polymerase]]
 - Strong connections to strengthen:
     - [[BrdU]] ↔ [[Paracrine Senescence]]

@@ -14,11 +14,11 @@ aliases: []
 
 ## Structure & Mechanism
 
-Like c-Myc, MYCN heterodimerizes with MAX to bind E-box (CACGTG) DNA motifs, driving a broad transcriptional program of proliferation, metabolism, ribosome biogenesis, and protein synthesis. MYCN also engages non-canonical partners (MNT, MXD) and chromatin remodelers. A defining feature in reprogramming contexts is its regulation by the [[Wnt signaling]] pathway: WNT stimulation inhibits [[GSK3B]], preventing MYCN phosphorylation and degradation, thereby stabilizing the protein. Stabilized MYCN in turn activates *de novo* DNA methyltransferases such as *DNMT3A* and *DNMT3B*, promoting the global epigenetic resetting required for [[Reprogramming]] of somatic cells to [[Induced Pluripotent Stem Cells]] (iPSCs).
+Like c-Myc, MYCN heterodimerizes with MAX to bind E-box (CACGTG) DNA motifs, driving a broad transcriptional program of proliferation, metabolism, ribosome biogenesis, and protein synthesis. MYCN also engages non-canonical partners (MNT, MXD) and chromatin remodelers. A defining feature in reprogramming contexts is its regulation by the [[Wnt signaling]] pathway: WNT stimulation inhibits [[GSK3β]], preventing MYCN phosphorylation and degradation, thereby stabilizing the protein. Stabilized MYCN in turn activates *de novo* DNA methyltransferases such as *DNMT3A* and *DNMT3B*, promoting the global epigenetic resetting required for [[Reprogramming]] of somatic cells to [[Induced Pluripotent Stem Cells]] (iPSCs).
 
 ## Role in Pluripotency & Reprogramming
 
-In iPSCs, [[MYCN]] is markedly up-regulated relative to parental [[Fibroblasts]]. It reinforces the pluripotency network alongside [[Oct4]], [[Sox2]], and [[Klf4]], and its stabilization (via [[GSK3B]] inhibition, e.g., with CHIR99021) enhances reprogramming efficiency. MYCN thus bridges the pro-proliferative MYC program with the epigenetic remodeling machinery — including interactions with the [[NuRD complex]] — that establishes the pluripotent state.
+In iPSCs, [[MYCN]] is markedly up-regulated relative to parental [[Fibroblasts]]. It reinforces the pluripotency network alongside [[Oct4]], [[Sox2]], and [[Klf4]], and its stabilization (via [[GSK3β]] inhibition, e.g., with CHIR99021) enhances reprogramming efficiency. MYCN thus bridges the pro-proliferative MYC program with the epigenetic remodeling machinery — including interactions with the [[NuRD complex]] — that establishes the pluripotent state.
 
 ## Physiological Function
 
@@ -39,6 +39,6 @@ During embryogenesis MYCN is essential for neural crest, brain, and lung develop
 
 ## Linking Summary
 
-- New links added: [[Oncogene]], [[Cancer]], [[Neuroblastoma]], [[Pluripotency]], [[c-Myc]], [[Yamanaka Factors]], [[Wnt signaling]], [[GSK3B]], [[DNMT3A]], [[DNMT3B]], [[Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Fibroblasts]], [[Oct4]], [[Sox2]], [[Klf4]], [[NuRD complex]], [[MAX]], [[Tumorigenicity]], [[CDK]]
+- New links added: [[Oncogene]], [[Cancer]], [[Neuroblastoma]], [[Pluripotency]], [[c-Myc]], [[Yamanaka Factors]], [[Wnt signaling]], [[GSK3β]], [[DNMT3A]], [[DNMT3B]], [[Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Fibroblasts]], [[Oct4]], [[Sox2]], [[Klf4]], [[NuRD complex]], [[MAX]], [[Tumorigenicity]], [[CDK]]
 - Suggested new entity notes to create: [[MAX]], [[MYCN Amplification]]
 - Strong connections to strengthen: [[MYCN]] ↔ [[c-Myc]], [[MYCN]] ↔ [[Pluripotency]]

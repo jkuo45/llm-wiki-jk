@@ -66,6 +66,6 @@ The MPO-HOCl system is a cornerstone of innate host defense, providing potent mi
 - [[Aconitase]]: The concurrent oxidation of epinephrine to adrenochrome in these settings adds a secondary pathogenic mechanism: adre...
 
 ## Linking Summary
-- New links added: [[Hypochlorous Acid]], [[NAD(P)H Oxidase]], [[Epinephrine]], [[Adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenochrome]], [[Glutathione]], [[Aconitase]], [[Rheumatoid synovial fluid]], [[Autoxidation]], [[Atherosclerosis]], [[Ischemia-reperfusion]], [[Sympathetic nerve endings]], [[Platelets]], [[Neutrophil extracellular trap]], [[Neutrophils]], [[Myeloperoxidase]], [[Hydrogen Peroxide]]
+- New links added: [[Hypochlorous Acid]], [[NADPH Oxidase]], [[Epinephrine]], [[Adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenochrome]], [[Glutathione]], [[Aconitase]], [[Rheumatoid synovial fluid]], [[Autoxidation]], [[Atherosclerosis]], [[Ischemia-reperfusion]], [[Sympathetic nerve endings]], [[Platelets]], [[Neutrophil extracellular trap]], [[Neutrophils]], [[Myeloperoxidase]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[MPO-HOCl Oxidation Cascade]]
 - Strong connections to strengthen: [[Myeloperoxidase Pathway]] ↔ [[Adrenochrome Pathway]], [[Myeloperoxidase Pathway]] ↔ [[Inflammation]]

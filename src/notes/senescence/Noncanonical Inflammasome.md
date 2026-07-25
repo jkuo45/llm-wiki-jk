@@ -124,13 +124,13 @@ List of documents in the wiki that mention this entity
 - [[Senescence Surveillance]] — Caspase-11 is required for immune clearance of senescent hepatocytes in vivo
 - [[cGAS-STING Pathway|cGAS–STING]] — Drives interferon-dependent caspase-5 expression upstream
 - [[Macrophages]] — Recruit to senescent cells and activate canonical NLRP3 inflammasome, amplifying inflammation
-- [[NFKB|NF-κB]] — Transcriptional priming of pro-IL-1β; also regulates CASP5 expression
+- [[NF-κB|NF-κB]] — Transcriptional priming of pro-IL-1β; also regulates CASP5 expression
 - [[NINJ1]] — Cooperates with GSDMD pores to execute pyroptotic membrane rupture
 - [[Atherosclerosis]] — Noncanonical inflammasome contributes to chronic vascular inflammation
 
 ## Linking Summary
 
-- New links added: [[Caspase-5]], [[Caspase-11]], [[Caspase-4]], [[Caspase-1]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[Senescence Surveillance]], [[cGAS-STING Pathway|cGAS–STING]], [[Macrophages]], [[NFKB|NF-κB]], [[NINJ1]], [[Atherosclerosis]]
+- New links added: [[Caspase-5]], [[Caspase-11]], [[Caspase-4]], [[Caspase-1]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[Senescence Surveillance]], [[cGAS-STING Pathway|cGAS–STING]], [[Macrophages]], [[NF-κB|NF-κB]], [[NINJ1]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[Gasdermin D]], [[GBP]], [[IRGB10]]
 - Strong connections to strengthen:
     - [[Noncanonical Inflammasome]] ↔ [[IL-1α]]

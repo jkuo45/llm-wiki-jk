@@ -28,7 +28,7 @@ aliases:
 BAK contains BH1–BH3 domains and is held in check by anti-apoptotic partners such as [[Bcl-2]] and Mcl-1. Displacement by activators (Bim, Bid, Puma, Noxa) liberates BAK to assemble large β-barrel pores. BAK and BAX are functionally redundant at the membrane yet operate from distinct cellular compartments.
 
 ## Mechanism of Action & MOMP
-Activated BAK hetero-oligomerizes with [[BAX]] and additional BAK subunits, permeabilizing the outer membrane and releasing [[Cytochrome C]] and [[Smac DIABLO]]. This initiates the [[Caspases]] cascade and the execution phase of death. The resulting leakage also amplifies [[Reactive Oxygen Species]] and can trigger [[Mitophagy]] via [[Parkin]].
+Activated BAK hetero-oligomerizes with [[BAX]] and additional BAK subunits, permeabilizing the outer membrane and releasing [[Cytochrome c]] and [[Smac DIABLO]]. This initiates the [[Caspases]] cascade and the execution phase of death. The resulting leakage also amplifies [[Reactive Oxygen Species]] and can trigger [[Mitophagy]] via [[Parkin]].
 
 ## Phosphorylation-Dependent Licensing
 
@@ -52,13 +52,13 @@ BAK-mediated permeabilization intersects with [[Mitochondrial Dysfunction]], sen
   - [[BAX]]: Partner effector that co-oligomerizes with BAK at the mitochondrial membrane.
   - [[Bcl-2]]: Anti-apoptotic restraint that inhibits activated BAK.
   - [[Mitochondrial outer membrane permeabilization]]: The pore-forming event BAK executes.
-  - [[Cytochrome C]]: Downstream apoptotic cofactor released by BAK pores.
+  - [[Cytochrome c]]: Downstream apoptotic cofactor released by BAK pores.
   - [[Bid]]: BH3-only activator that triggers BAK conformational change.
   - [[Mitophagy]]: Mitochondrial leakage feeds Parkin-dependent cleanup.
   - [[Senescent Cells]]: Survival of BAK-low cells underlies persistent senescence.
 
 ## Linking Summary
 
-  - New links added: [[BAK]], [[BAX]], [[Bcl-2]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Bid]], [[Smac DIABLO]], [[Caspases]], [[Mitophagy]], [[Parkin]], [[PTPN5]], [[ERK2]], [[PTPN family]], [[Cancer]]
+  - New links added: [[BAK]], [[BAX]], [[Bcl-2]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome c]], [[Bid]], [[Smac DIABLO]], [[Caspases]], [[Mitophagy]], [[Parkin]], [[PTPN5]], [[ERK2]], [[PTPN family]], [[Cancer]]
   - Suggested new entity notes to create: [[Bid]], [[Mcl-1]], [[BH3-only proteins]], [[PTPN2]], [[PTPN23]]
   - Strong connections to strengthen: [[BAK]] ↔ [[Mitophagy]], [[BAK]] ↔ [[Senescent Cells]], [[BAK]] ↔ [[PTPN5]]

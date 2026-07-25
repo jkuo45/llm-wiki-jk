@@ -52,6 +52,6 @@ Because HDAC4 normally restrains SASP, its loss promotes inflammaging, whereas s
 
 ## Linking Summary
 
-- New links added: [[HDAC3]], [[H3K27ac]], [[AP-1]], [[BRD4]], [[CEBPα]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[NFKB]]
+- New links added: [[HDAC3]], [[H3K27ac]], [[AP-1]], [[BRD4]], [[CEBPα]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[NF-κB]]
 - Suggested new entity notes to create: [[Class IIa HDAC]], [[H3K27ac]], [[CEBPα]]
 - Strong connections to strengthen: [[HDAC4]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (H3K27ac buffering), [[HDAC4]] ↔ [[HDAC3]] (reader–deacetylase complex)

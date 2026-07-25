@@ -11,10 +11,27 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 24_JULY_2026 12:00 PM PDT
-- Total count of entities: 415
+- Total count of entities: 432
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
+| [[Checkpoint Inhibitor]] | 25_July_2026 12:00 PM PDT | drug-class | Cancer, Immunology |
+| [[Tumor Antigen]] | 25_July_2026 12:00 PM PDT | antigen | Cancer, Immunology |
+| [[CD94]] | 25_July_2026 12:00 PM PDT | receptor | Immunology, NK Cell |
+| [[Executioner Caspase]] | 25_July_2026 12:00 PM PDT | enzyme | Apoptosis |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
+| [[SCAPs]] | 25_July_2026 12:00 PM PDT | pathway | Senescence, Apoptosis, Cancer |
+| [[p15INK4b]] | 25_July_2026 12:00 PM PDT | protein | Senescence, Cell Cycle, Cancer |
+| [[Caspase]] | 25_July_2026 12:00 PM PDT | enzyme | Apoptosis, Inflammation, Cell Death |
+| [[JAK-STAT Signaling]] | 25_July_2026 12:00 PM PDT | signaling-pathway | Senescence, SASP, Inflammation |
+| [[Immune Evasion]] | 25_July_2026 12:00 PM PDT | process | Senescence, Cancer, Immunology |
+| [[Lamivudine]] | 25_July_2026 12:00 PM PDT | drug | Senescence, SASP, Antiretroviral |
+| [[Gasdermin D]] | 25_July_2026 12:00 PM PDT | protein | Pyroptosis, Inflammation, Apoptosis |
+| [[Neurotoxicity]] | 25_July_2026 12:00 PM PDT | disease | Neuroscience, Neurodegeneration, Oxidative Stress |
+| [[Cigarette Smoke]] | 25_July_2026 12:00 PM PDT | compound | Oxidative Stress, Respiratory, Sirtuin |
+| [[AMPK-PGC-1α Pathway]] | 25_July_2026 12:00 PM PDT | signaling-pathway | Mitochondria, Metabolism, Longevity |
+| [[IGF-Akt Signaling]] | 25_July_2026 12:00 PM PDT | signaling-pathway | Cardiac Hypertrophy, Signaling, Cancer |
+| [[PD-1]] | 25_July_2026 12:00 PM PDT | immune-checkpoint | Immune Checkpoint, Immunology, Cancer |
+| [[NKG2A]] | 25_July_2026 12:00 PM PDT | receptor | NK Cells, Immunology, Immune Checkpoint |
 | [[ACE Inhibitors]]                               | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
 | [[ACTH]] | 09_Jul_2026 07:00 PM | Chemical Compound | Hormone, HPA Axis, Stress Response |
 | [[Acetyl-L-Carnitine]]                           | 08_Jul_2026 12:00 PM | Chemical Compound      | Aging, Mitochondria                             |

@@ -37,7 +37,7 @@ CXCL12 (C-X-C motif chemokine ligand 12), also known as SDF-1 (stromal cell-deri
 > [[CXCL12]] was identified as the most highly upregulated [[SASP]] factor in senescent [[Endothelial Cells|endothelial cells (ECs)]] with aging, and its circulating protein levels were elevated in old mice and normalized by [[Senolytic|senolytic treatment]] with [[Fisetin]]. The study established a causal role for [[CXCL12]] in age-related [[Endothelial Dysfunction|endothelial dysfunction]]:
 
 - **Endothelial function**: CXCL12 add-back to old fisetin plasma recapitulated age-related [[Endothelial Dysfunction|endothelial dysfunction]] (−22% peak [[Endothelium-Dependent Dilation|EDD]]); CXCL12 inhibition with [[LIT-927]] rescued function
-- **Humoral senescence induction**: Exogenous CXCL12 increased SA-β-Gal, *[[p21 CIP1|Cdkn1a]]* (100%), and *[[p16 INK4a|Cdkn2a]]* (128%) in [[Human Aortic Endothelial Cells|HAECs]]; LIT-927 reduced these markers
+- **Humoral senescence induction**: Exogenous CXCL12 increased SA-β-Gal, *[[p21 CIP1|Cdkn1a]]* (100%), and *[[p16INK4A|Cdkn2a]]* (128%) in [[Human Aortic Endothelial Cells|HAECs]]; LIT-927 reduced these markers
 - **NO production**: CXCL12 impaired NO production (−13–20%); LIT-927 restored NO (+10%)
 - **Mitochondrial ROS**: CXCL12 increased mitochondrial superoxide (2.2-fold in arteries); LIT-927 reduced it (−10%)
 - **Endothelial-to-Mesenchymal Transition (EndoMT)**: CXCL12 reduced endothelial markers ([[CDH5]] −45%, [[PECAM1]] −55%) and induced mesenchymal markers ([[TGFB1]] 5.4-fold, [[ACTA2]] 5.4-fold)
@@ -79,12 +79,12 @@ CXCL12 (C-X-C motif chemokine ligand 12), also known as SDF-1 (stromal cell-deri
 - [[Endothelial-to-Mesenchymal Transition]]: CXCL12 drives EndoMT by reducing CDH5/PECAM1 and inducing TGFB1/ACTA2
 - [[Nitric Oxide]]: CXCL12 impairs NO bioavailability in endothelial cells
 - [[p21 CIP1|p21/Cdkn1a]]: Canonical senescence marker upregulated by CXCL12 in endothelial cells
-- [[p16 INK4a|p16/Cdkn2a]]: Canonical senescence marker upregulated by CXCL12 in endothelial cells
+- [[p16INK4A|p16/Cdkn2a]]: Canonical senescence marker upregulated by CXCL12 in endothelial cells
 - [[Mitochondria]]: CXCL12 promotes mitochondrial superoxide production in senescent ECs
 - [[Cardiovascular Disease]]: CXCL12-driven endothelial dysfunction contributes to CVD risk with aging
 
 ## Linking Summary
 
-- New links added: [[CXCR4]], [[CXCR7]], [[MMP-12]], [[MMP-2]], [[MMP-9]], [[HIF-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Metastasis]], [[Endothelial Dysfunction]], [[Endothelial Cells]], [[Fisetin]], [[LIT-927]], [[Endothelial-to-Mesenchymal Transition]], [[Nitric Oxide]], [[p21 CIP1|p21]], [[p16 INK4a|p16]], [[Mitochondria]], [[Cardiovascular Disease]], [[ACKR3]], [[Human Aortic Endothelial Cells]], [[Endothelium-Dependent Dilation]], [[CDH5]], [[PECAM1]], [[TGFB1]], [[ACTA2]], [[p53]]
+- New links added: [[CXCR4]], [[CXCR7]], [[MMP-12]], [[MMP-2]], [[MMP-9]], [[HIF-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Metastasis]], [[Endothelial Dysfunction]], [[Endothelial Cells]], [[Fisetin]], [[LIT-927]], [[Endothelial-to-Mesenchymal Transition]], [[Nitric Oxide]], [[p21 CIP1|p21]], [[p16INK4A|p16]], [[Mitochondria]], [[Cardiovascular Disease]], [[ACKR3]], [[Human Aortic Endothelial Cells]], [[Endothelium-Dependent Dilation]], [[CDH5]], [[PECAM1]], [[TGFB1]], [[ACTA2]], [[p53]]
   - New connections added: [[CXCL12]] ↔ [[Endothelial Dysfunction]] (causal role in vascular aging), [[CXCL12]] ↔ [[Fisetin]] (fisetin normalizes CXCL12 levels), [[CXCL12]] ↔ [[Endothelial-to-Mesenchymal Transition]] (drives transdifferentiation), [[CXCL12]] ↔ [[LIT-927]] (neutraligand rescues endothelial function)
   - Strong connections to strengthen: [[CXCL12]] ↔ [[Endothelial Dysfunction]], [[CXCL12]] ↔ [[Endothelial Cells]], [[CXCL12]] ↔ [[SASP]], [[CXCL12]] ↔ [[Aging]]

@@ -40,7 +40,7 @@ DCA causes DNA damage in HSC through:
 - Direct genotoxic effects on nuclear DNA
 - Activation of the [[DNA Damage Response]]
 
-The resulting persistent [[DNA Damage]] signaling triggers HSC senescence, characterized by upregulation of [[p16 INK4a|p16]] and [[p21 CIP1|p21]], acquisition of [[SA-β-Gal|SA-β-gal]] activity, and secretion of SASP factors.
+The resulting persistent [[DNA Damage]] signaling triggers HSC senescence, characterized by upregulation of [[p16INK4A|p16]] and [[p21 CIP1|p21]], acquisition of [[SA-β-Gal|SA-β-gal]] activity, and secretion of SASP factors.
 
 ## Clinical Relevance
 
@@ -70,6 +70,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Deoxycholic Acid]], [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Gut Microbiome]], [[Obesity]], [[cGAS-STING Pathway]], [[DNA Damage]], [[Bile Acid]], [[COX-2]], [[Prostaglandin E2]], [[IL-1β]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Reactive Oxygen Species]], [[DNA Damage Response]]
+- New links added: [[Deoxycholic Acid]], [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Gut Microbiome]], [[Obesity]], [[cGAS-STING Pathway]], [[DNA Damage]], [[Bile Acid]], [[COX-2]], [[Prostaglandin E2]], [[IL-1β]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Reactive Oxygen Species]], [[DNA Damage Response]]
 - Suggested new entity notes to create: [[Bile Acid Sequestrants]], [[7α-dehydroxylase]]
 - Strong connections to strengthen: [[Deoxycholic Acid]] ↔ [[Hepatocellular Carcinoma]], [[Deoxycholic Acid]] ↔ [[Hepatic Stellate Cells]], [[Deoxycholic Acid]] ↔ [[Senescence]], [[Deoxycholic Acid]] ↔ [[Gut Microbiome]], [[Deoxycholic Acid]] ↔ [[Obesity]]

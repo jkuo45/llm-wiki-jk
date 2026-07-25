@@ -13,17 +13,17 @@ aliases: [CEBPα, C/EBPα, CEBPA, CCAAT/enhancer-binding protein alpha]
 
 # C/EBPα (CEBPα)
 
-**C/EBPα (CCAAT/enhancer-binding protein alpha)** is a bZIP transcription factor that binds to senescence-activated enhancers to promote SASP gene expression in replicatively senescent fibroblasts. It acts in concert with [[CEBPβ|C/EBPβ]] and [[NFKB|NF-κB]] as a core SASP transcriptional regulator.
+**C/EBPα (CCAAT/enhancer-binding protein alpha)** is a bZIP transcription factor that binds to senescence-activated enhancers to promote SASP gene expression in replicatively senescent fibroblasts. It acts in concert with [[CEBPβ|C/EBPβ]] and [[NF-κB|NF-κB]] as a core SASP transcriptional regulator.
 
 ## Mechanism of Action & Signaling
 
-Upon senescence entry, C/EBPα is induced and relocalizes to chromatin, occupying senescence-activated enhancers and promoters of SASP genes together with [[NFKB|NF-κB]] (p65/[[p50]]) and [[CEBPβ|C/EBPβ]]. This enhanceosome integrates [[p38 MAPK]] phosphorylation signals with NF-κB to drive robust, sustained transcription of IL-6, IL-8, and other inflammatory SASP components. C/EBPα homodimerizes or heterodimerizes (with C/EBPβ, C/EBPδ) via its leucine-zipper domain; DNA binding is modulated by phosphorylation and by interactions with chromatin remodelers, linking the epigenetic rewiring of senescence to secretome output.
+Upon senescence entry, C/EBPα is induced and relocalizes to chromatin, occupying senescence-activated enhancers and promoters of SASP genes together with [[NF-κB|NF-κB]] (p65/[[p50]]) and [[CEBPβ|C/EBPβ]]. This enhanceosome integrates [[p38 MAPK]] phosphorylation signals with NF-κB to drive robust, sustained transcription of IL-6, IL-8, and other inflammatory SASP components. C/EBPα homodimerizes or heterodimerizes (with C/EBPβ, C/EBPδ) via its leucine-zipper domain; DNA binding is modulated by phosphorylation and by interactions with chromatin remodelers, linking the epigenetic rewiring of senescence to secretome output.
 
 ## Role in Senescence / SASP
 
 - C/EBPα is a transcriptional regulator of SASP genes in replicative and stress-induced senescence.
 - It binds senescence-activated enhancers to license SASP expression.
-- Cooperation with [[NFKB|NF-κB]] and [[CEBPβ|C/EBPβ]] underpins the amplified, persistent SASP.
+- Cooperation with [[NF-κB|NF-κB]] and [[CEBPβ|C/EBPβ]] underpins the amplified, persistent SASP.
 
 ## Clinical / Pathological Relevance
 - C/EBPα is a myeloid differentiation regulator and tumor suppressor; CEBPA mutations cause acute myeloid leukemia.

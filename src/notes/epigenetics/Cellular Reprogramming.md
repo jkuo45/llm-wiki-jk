@@ -20,7 +20,7 @@ Reprogramming proceeds through defined phases: an early "stress" phase, a mesenc
 
 ## Methods
 
-Beyond transcription-factor delivery (retroviral, sendai viral, episomal, mRNA, or protein), reprogramming can be achieved by small molecules (e.g., [[GSK3B]] and MEK inhibitors), [[CRISPR]]-based locus activation, and chemical-only ("RNA-free") protocols. Efficiency remains low and stochastic, limited by incomplete epigenetic remodeling and persistence of partially reprogrammed intermediates.
+Beyond transcription-factor delivery (retroviral, sendai viral, episomal, mRNA, or protein), reprogramming can be achieved by small molecules (e.g., [[GSK3β]] and MEK inhibitors), [[CRISPR]]-based locus activation, and chemical-only ("RNA-free") protocols. Efficiency remains low and stochastic, limited by incomplete epigenetic remodeling and persistence of partially reprogrammed intermediates.
 
 ## Applications
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 - [[Rejuvenation]]: A major emerging application of reprogramming.
 
 ## Linking Summary
-- New links added: [[Somatic Cells]], [[Yamanaka Factors]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Epigenetic Remodeling]], [[Mesenchymal-to-Epithelial Transition]], [[DNA Methylation]], [[GSK3B]], [[CRISPR]], [[Regenerative Medicine]], [[Disease Modeling]], [[Partial Reprogramming], [Rejuvenation]]
+- New links added: [[Somatic Cells]], [[Yamanaka Factors]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Epigenetic Remodeling]], [[Mesenchymal-to-Epithelial Transition]], [[DNA Methylation]], [[GSK3β]], [[CRISPR]], [[Regenerative Medicine]], [[Disease Modeling]], [[Partial Reprogramming], [Rejuvenation]]
 - Suggested new entity notes to create: [[Sendai Virus]], [[X-chromosome Reactivation]], [[Partially Reprogrammed Intermediates]]
 - Strong connections to strengthen: [[Cellular Reprogramming]] ↔ [[Pluripotency]], [[Cellular Reprogramming]] ↔ [[Epigenetic Remodeling]]

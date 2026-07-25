@@ -76,13 +76,13 @@ Tissues with high catecholamine turnover, elevated oxygen consumption, and modes
 Beyond acute toxicity, sustained redox cycling contributes to:
 - **[[Mitochondrial Dynamics]] disruption**: Fragmentation and impaired fusion-fission cycling.
 - **[[NLRP3 Inflammasome]] activation**: ROS from redox cycling serves as a key priming signal.
-- **[[Atherosclerosis]]**: Redox cycling in [[Foam Cells]] and [[Endothelial cells]] promotes [[Low-Density Lipoprotein]] oxidation.
+- **[[Atherosclerosis]]**: Redox cycling in [[Foam Cells]] and [[Endothelial Cells]] promotes [[Low-Density Lipoprotein]] oxidation.
 
 ## Therapeutic Exploitation via Mitohormesis
 
 Controlled, low-amplitude redox cycling using stabilized adrenochrome derivatives (e.g., [[Carbazochrome]]) is being investigated as a [[Mitohormesis]]-inducing strategy. The principle: a precisely dosed oxidative pulse activates [[NRF2]]/ARE and [[PGC-1α]]-dependent mitochondrial biogenesis without causing irreversible damage. [[Methylene blue]] serves as an electron shunt to keep cycling within the hormetic window. This approach parallels the mechanism of [[Menadione]] (vitamin K3), which is also under investigation for mitohormetic preconditioning.
 
 ## Linking Summary
-- New links added: [[Redox Cycling]], [[Reactive Oxygen Species]], [[Adrenochrome]], [[Superoxide anion]], [[Cardiotoxicity]], [[Lungs]], [[Dopaminochrome]], [[Aminochromes]], [[NADPH-cytochrome P450 reductase]], [[Mitochondrial Complex I]], [[Cytochrome b5 reductase]], [[NQO1]], [[Leuco-adrenochrome]], [[EPR spectroscopy]], [[HPLC]], [[Oxygen Consumption Rate]], [[Seahorse XF Analyzer]], [[Myocardium]], [[Myocardial infarction]], [[Brain]], [[Glutathione]], [[Erythrocytes]], [[Catalase]], [[Glutathione Peroxidase]], [[Methemoglobinemia]], [[Hemolysis]], [[Mitochondrial Dynamics]], [[NLRP3 Inflammasome]], [[Atherosclerosis]], [[Foam Cells]], [[Endothelial cells]], [[Low-Density Lipoprotein]], [[Carbazochrome]], [[Methylene blue]], [[Menadione]], [[Mitohormesis]], [[NRF2]], [[PGC-1α]]
+- New links added: [[Redox Cycling]], [[Reactive Oxygen Species]], [[Adrenochrome]], [[Superoxide anion]], [[Cardiotoxicity]], [[Lungs]], [[Dopaminochrome]], [[Aminochromes]], [[NADPH-cytochrome P450 reductase]], [[Mitochondrial Complex I]], [[Cytochrome b5 reductase]], [[NQO1]], [[Leuco-adrenochrome]], [[EPR spectroscopy]], [[HPLC]], [[Oxygen Consumption Rate]], [[Seahorse XF Analyzer]], [[Myocardium]], [[Myocardial infarction]], [[Brain]], [[Glutathione]], [[Erythrocytes]], [[Catalase]], [[Glutathione Peroxidase]], [[Methemoglobinemia]], [[Hemolysis]], [[Mitochondrial Dynamics]], [[NLRP3 Inflammasome]], [[Atherosclerosis]], [[Foam Cells]], [[Endothelial Cells]], [[Low-Density Lipoprotein]], [[Carbazochrome]], [[Methylene blue]], [[Menadione]], [[Mitohormesis]], [[NRF2]], [[PGC-1α]]
 - Suggested new entity notes to create: [[Redox Potential]]
 - Strong connections to strengthen: [[Redox Cycling]] ↔ [[Adrenochrome]]

@@ -10,7 +10,7 @@ aliases: [BMP Signaling, Bone Morphogenetic Protein Signaling]
 
 # BMP Signaling Pathway
 
-The **Bone Morphogenetic Protein (BMP) Signaling Pathway** is a major branch of the [[TGF-β|TGF-β Superfamily]] signaling network. Over 20 BMP ligands (BMP2–BMP15, GDFs) regulate a diverse range of processes including [[Bone formation|skeletal development]], [[Heart development|cardiogenesis]], [[Neural Tube|neural tube patterning]], [[Kidney development|nephrogenesis]], and [[Eye development|ocular development]].
+The **Bone Morphogenetic Protein (BMP) Signaling Pathway** is a major branch of the [[TGFβ|TGF-β Superfamily]] signaling network. Over 20 BMP ligands (BMP2–BMP15, GDFs) regulate a diverse range of processes including [[Bone formation|skeletal development]], [[Heart development|cardiogenesis]], [[Neural Tube|neural tube patterning]], [[Kidney development|nephrogenesis]], and [[Eye development|ocular development]].
 
 ## Signaling Mechanism
 
@@ -41,7 +41,7 @@ List of documents that mention this entity
 
 - [[Yamanaka Factors]] — BMP signaling suppresses neural differentiation during iPSC reprogramming.
 - [[Induced Pluripotent Stem Cells]] — BMP signaling maintains pluripotency in combination with LIF (mouse) or FGF (human).
-- [[TGF-β]] — Related superfamily member with partially overlapping signaling via SMAD2/3.
+- [[TGFβ]] — Related superfamily member with partially overlapping signaling via SMAD2/3.
 - [[SMAD]] — The central signal transducer family (SMAD1/5/8, SMAD4, SMAD6/7).
 - [[Bone formation]] — The defining function of BMPs in skeletal development and repair.
 - [[Osteogenesis]] — BMP2/4/7 drive osteoblast differentiation.
@@ -55,6 +55,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[TGF-β]], [[SMAD1]], [[SMAD5]], [[SMAD8]], [[SMAD4]], [[SMAD6]], [[SMAD7]], [[ID1]], [[RUNX2]], [[Osteogenesis]], [[Bone formation]], [[Noggin]], [[Heart development]], [[Neural Tube]], [[Kidney development]], [[Eye development]], [[SHH]], [[Fibrodysplasia Ossificans Progressiva]], [[Pulmonary Arterial Hypertension]], [[INFUSE Bone Graft]], [[ACVR1]], [[Wnt]], [[Polycomb]], [[Aging]]
+- New links added: [[TGFβ]], [[SMAD1]], [[SMAD5]], [[SMAD8]], [[SMAD4]], [[SMAD6]], [[SMAD7]], [[ID1]], [[RUNX2]], [[Osteogenesis]], [[Bone formation]], [[Noggin]], [[Heart development]], [[Neural Tube]], [[Kidney development]], [[Eye development]], [[SHH]], [[Fibrodysplasia Ossificans Progressiva]], [[Pulmonary Arterial Hypertension]], [[INFUSE Bone Graft]], [[ACVR1]], [[Wnt]], [[Polycomb]], [[Aging]]
 - Suggested new entity notes to create: [[Chordin]], [[Follistatin]], [[Osterix]], [[Dorsomorphin]], [[LDN-193189]], [[BMPR2]], [[ACVR1]], [[SMAD9]], [[ID2]], [[ID3]], [[MSX1]], [[MSX2]]
-- Strong connections to strengthen: [[BMP Signaling Pathway]] ↔ [[TGF-β]], [[BMP Signaling Pathway]] ↔ [[SMAD]], [[BMP Signaling Pathway]] ↔ [[Osteogenesis]], [[BMP Signaling Pathway]] ↔ [[Wnt]]
+- Strong connections to strengthen: [[BMP Signaling Pathway]] ↔ [[TGFβ]], [[BMP Signaling Pathway]] ↔ [[SMAD]], [[BMP Signaling Pathway]] ↔ [[Osteogenesis]], [[BMP Signaling Pathway]] ↔ [[Wnt]]

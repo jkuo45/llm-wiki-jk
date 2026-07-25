@@ -20,8 +20,8 @@ aliases:
 
 ## Mechanism of Action & Signaling
 
-- **MyD88-dependent:** rapid [[NFκB|NF-κB]] and [[MAPK|MAPK]] activation → pro-inflammatory cytokines ([[TNF-alpha|TNF-α]], [[IL-6]]).
-- **TRIF-dependent:** [[TRAF3]]→[[TBK1]]→[[IRF3]] → type I interferons; also contributes to [[NFκB]]/[[STAT1]] signaling.
+- **MyD88-dependent:** rapid [[NF-κB|NF-κB]] and [[MAPK|MAPK]] activation → pro-inflammatory cytokines ([[TNF-alpha|TNF-α]], [[IL-6]]).
+- **TRIF-dependent:** [[TRAF3]]→[[TBK1]]→[[IRF3]] → type I interferons; also contributes to [[NF-κB]]/[[STAT1]] signaling.
 
 ## Pathology & Relevance
 

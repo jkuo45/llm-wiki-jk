@@ -15,7 +15,7 @@ aliases: [NFKBIA, IκBα, IkappaBalpha]
 
 # IkappaBalpha
 
-**IκBα** (encoded by [[NFKBIA]]) is the prototypical member of the [[IkappaB]] family of [[NFκB]] inhibitors. It is the primary negative regulator of the canonical [[NFκB]] signaling pathway, controlling the activation kinetics and duration of [[Inflammation|inflammatory]] and [[Immune]] responses.
+**IκBα** (encoded by [[NFKBIA]]) is the prototypical member of the [[IkappaB]] family of [[NF-κB]] inhibitors. It is the primary negative regulator of the canonical [[NF-κB]] signaling pathway, controlling the activation kinetics and duration of [[Inflammation|inflammatory]] and [[Immune]] responses.
 
 ## Mechanism
 
@@ -23,7 +23,7 @@ IκBα contains six [[Ankyrin Repeat]] domains that bind the [[Nuclear Localizat
 
 ## Role in Senescence / SASP
 
-Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB]] activation, its phosphorylation and turnover sit at the heart of the [[SASP|Senescence-Associated Secretory Phenotype]]. In [[Senescent Cells]], persistent DDR and cytokine signals keep the [[IKK complex]] active, driving continuous IκBα phosphorylation/degradation and sustained nuclear NF-κB — the master transcriptional driver of SASP factors such as [[IL-6]] and [[IL-8]] (Chien et al., 2011, PMID 21876164). Conversely, factors that stabilize IκBα (e.g., inhibition of [[IKKbeta]] or of upstream [[TAK1]], and CK2-mediated protection of IκBα) blunt the SASP. IκBα turnover therefore sets the gain of the NF-κB arm of senescence, and is a key point at which CK2, PKD, TAK1, and IKK converge to license SASP output.
+Because IκBα degradation is the rate-limiting step for canonical [[NF-κB|NF-κB]] activation, its phosphorylation and turnover sit at the heart of the [[SASP|Senescence-Associated Secretory Phenotype]]. In [[Senescent Cells]], persistent DDR and cytokine signals keep the [[IKK complex]] active, driving continuous IκBα phosphorylation/degradation and sustained nuclear NF-κB — the master transcriptional driver of SASP factors such as [[IL-6]] and [[IL-8]] (Chien et al., 2011, PMID 21876164). Conversely, factors that stabilize IκBα (e.g., inhibition of [[IKKbeta]] or of upstream [[TAK1]], and CK2-mediated protection of IκBα) blunt the SASP. IκBα turnover therefore sets the gain of the NF-κB arm of senescence, and is a key point at which CK2, PKD, TAK1, and IKK converge to license SASP output.
 
 ## Clinical Relevance
 
@@ -37,7 +37,7 @@ Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB
     - Describes IκBα degradation as the gateway to NF-κB-dependent SASP transcription.
 
 ## Connections
-- [[NFκB]] — IκBα is the primary inhibitor of canonical NF-κB
+- [[NF-κB]] — IκBα is the primary inhibitor of canonical NF-κB
 - [[IKKbeta]] — phosphorylates IκBα at Ser32/Ser36 to trigger degradation
 - [[IKK complex]] — IKKβ within the complex phosphorylates IκBα
 - [[TAK1]] — Upstream activator of IKK that drives IκBα turnover
@@ -54,6 +54,6 @@ Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB
 - [[SASP|Senescence-Associated Secretory Phenotype]] — IκBα turnover gates NF-κB-dependent SASP
 
 ## Linking Summary
-- New links added: [[IKK complex]], [[TAK1]], [[NFKB|NF-κB]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]]
+- New links added: [[IKK complex]], [[TAK1]], [[NF-κB|NF-κB]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Suggested new entity notes to create: [[Canonical NF-κB pathway]], [[NFKBIA mutation]], [[IκBα super-repressor]], [[β-TrCP]], [[SCF E3 ligase]]
   - Strong connections to strengthen: [[IkappaBalpha]] ↔ NFκB, [[IkappaBalpha]] ↔ [[IKKbeta]], [[IkappaBalpha]] ↔ [[Inflammation]], [[IkappaBalpha]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

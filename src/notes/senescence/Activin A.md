@@ -34,7 +34,7 @@ aliases:
 > [!info] Source: Acosta et al., 2013 (PMID 23636316)
 > Activin A (a homodimer of inhibin A) was identified as a TGF-β family ligand acutely upregulated during [[Oncogene-Induced Senescence|OIS]]. It contributes to [[Paracrine Senescence]] alongside TGF-β1, BMP2, and GDF15. Combination of blocking antibodies targeting TGF-β1, activin A, and BMP2 partially rescued paracrine arrest, demonstrating that multiple TGF-β family branches cooperate to mediate paracrine senescence. Activin A signals through [[SMAD2]]/[[SMAD3]] phosphorylation, placing it upstream of [[CDKN2B|p15^INK4b]] and [[p21 CIP1|p21^CIP1]] induction in receiving cells.
 
-- Activin A is among the SASP components whose expression is driven by [[IL-1α]] and [[NFKB|NF-κB]] during senescence.
+- Activin A is among the SASP components whose expression is driven by [[IL-1α]] and [[NF-κB|NF-κB]] during senescence.
 - It autocrinally reinforces senescence-associated growth arrest and paracrinely induces proliferation arrest in neighbouring cells.
 - The activin A–ALK4–SMAD2/3 axis overlaps with but is distinct from the TGF-β1–ALK5 axis; both converge on p15^INK4b/p21^CIP1 induction.
 
@@ -60,12 +60,12 @@ aliases:
 - [[SASP|Senescence-Associated Secretory Phenotype]] — Activin A is a SASP component
 - [[Paracrine Senescence]] — Activin A contributes to paracrine growth arrest
 - [[IL-1α]] — IL-1α drives activin A expression as part of the SASP
-- [[NFKB|NF-κB]] — Transcriptional activator of activin A during senescence
+- [[NF-κB|NF-κB]] — Transcriptional activator of activin A during senescence
 - [[Oncogene-Induced Senescence|OIS]] — Activin A is upregulated during OIS
 
 ## Linking Summary
 
-- New links added: [[TGFβ]], [[ALK4]], [[SMAD2]], [[SMAD3]], [[SMAD4]], [[CDKN2B|p15^INK4b]], [[p21 CIP1|p21^CIP1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]], [[IL-1α]], [[NFKB|NF-κB]], [[Oncogene-Induced Senescence|OIS]]
+- New links added: [[TGFβ]], [[ALK4]], [[SMAD2]], [[SMAD3]], [[SMAD4]], [[CDKN2B|p15^INK4b]], [[p21 CIP1|p21^CIP1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]], [[IL-1α]], [[NF-κB|NF-κB]], [[Oncogene-Induced Senescence|OIS]]
 - Suggested new entity notes to create: [[ALK4]], [[ACTRIIA]]
 - Strong connections to strengthen:
     - [[Activin A]] ↔ [[TGFβ]]

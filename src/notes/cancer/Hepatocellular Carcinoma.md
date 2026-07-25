@@ -35,7 +35,7 @@ A growing body of evidence establishes [[Senescence|cellular senescence]] of [[H
 
 ### cGAS-STING Signaling in HSC
 
-In senescent HSC, accumulation of [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]] activates the cGAS-STING pathway, which drives transcription of SASP factors including [[IL-1β]], [[IL-6]], and [[CXCL1]] via [[NFκB]] and [[IRF3]]. Knocking out the *[[STING]]* gene in mouse models blunted SASP factor production in HSC and significantly attenuated obesity-associated HCC development (Takahashi et al., 2018, *Nat Commun* 9:1249; PMID 29593264).
+In senescent HSC, accumulation of [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]] activates the cGAS-STING pathway, which drives transcription of SASP factors including [[IL-1β]], [[IL-6]], and [[CXCL1]] via [[NF-κB]] and [[IRF3]]. Knocking out the *[[STING]]* gene in mouse models blunted SASP factor production in HSC and significantly attenuated obesity-associated HCC development (Takahashi et al., 2018, *Nat Commun* 9:1249; PMID 29593264).
 
 ### COX-2/PGE2 and Immune Suppression
 
@@ -107,6 +107,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NFκB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
+- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
 - Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]], [[Therapy-Induced Senescence]], [[Cytoplasmic Chromatin Fragments]]
 - Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]

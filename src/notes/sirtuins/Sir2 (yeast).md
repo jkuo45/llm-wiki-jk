@@ -12,6 +12,7 @@ aliases:
   - silent information regulator 2
   - yeast Sir2
   - ScSir2
+  - SIR2 gene
   - MAR1
 protected: true
 ---

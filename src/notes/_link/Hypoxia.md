@@ -43,5 +43,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Macroautophagy]], [[Cancer]]
-- Suggested new entity notes to create: [[HIF1A]]
+- Suggested new entity notes to create: [[HIF-1α]]
   - Strong connections to strengthen: [[Hypoxia]] ↔ Autophagosome

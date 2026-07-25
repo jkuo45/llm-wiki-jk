@@ -27,7 +27,7 @@ Beyond lipid scavenging, Lox-1 mediates endothelial dysfunction, reduces nitric 
 
 ## Regulation by SIRT1
 
-[[SIRT1]] activation suppresses Lox-1 expression in endothelial cells and macrophages by inhibiting [[NFκB]] signalling. SIRT1 deacetylates the RelA/p65 subunit of NF-κB, preventing its nuclear translocation and transactivation of the *OLR1* promoter. Reduced Lox-1 levels diminish oxLDL uptake by macrophages, thereby inhibiting [[Foam Cell Formation|foam cell formation]] — a seminal event in atherosclerotic plaque development. SIRT1-mediated Lox-1 suppression also reduces endothelial activation, monocyte adhesion, and vascular inflammation.
+[[SIRT1]] activation suppresses Lox-1 expression in endothelial cells and macrophages by inhibiting [[NF-κB]] signalling. SIRT1 deacetylates the RelA/p65 subunit of NF-κB, preventing its nuclear translocation and transactivation of the *OLR1* promoter. Reduced Lox-1 levels diminish oxLDL uptake by macrophages, thereby inhibiting [[Foam Cell Formation|foam cell formation]] — a seminal event in atherosclerotic plaque development. SIRT1-mediated Lox-1 suppression also reduces endothelial activation, monocyte adhesion, and vascular inflammation.
 
 ## Clinical Relevance
 
@@ -44,7 +44,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[SIRT1]] — Suppresses Lox-1 expression via NF-κB inhibition, reducing foam cell formation
-- [[NFκB]] — Transcription factor driving Lox-1 expression; inhibited by SIRT1 deacetylation
+- [[NF-κB]] — Transcription factor driving Lox-1 expression; inhibited by SIRT1 deacetylation
 - [[Foam Cell Formation]] — Atherogenic process prevented by SIRT1-mediated Lox-1 downregulation
 - [[Oxidized LDL]] — Ligand for Lox-1; abundant in atherosclerotic plaques
 - [[Atherosclerosis]] — Inflammatory disease driven by Lox-1-mediated lipid uptake
@@ -52,6 +52,6 @@ List of documents that mention this entity
 - [[NAD+]] — cofactor for SIRT1-mediated Lox-1 suppression
 
 ## Linking Summary
-- New links added: [[Lox-1]], [[Oxidized LDL]], [[Foam Cell Formation]], [[NFκB]], [[Macrophage]], [[SRT1720]]
+- New links added: [[Lox-1]], [[Oxidized LDL]], [[Foam Cell Formation]], [[NF-κB]], [[Macrophage]], [[SRT1720]]
 - Suggested new entity notes to create: [[sLOX-1]], [[C-type lectin-like domain]], [[SRT1720]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Lox-1]]

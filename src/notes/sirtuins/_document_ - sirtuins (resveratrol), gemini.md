@@ -85,7 +85,7 @@ Once activated by resveratrol, SIRT1 deacetylates several downstream transcripti
 
 #### NF-κB (Anti-Inflammatory Effects)
 
-- **Mechanism:** SIRT1 deacetylates the **p65 subunit of [[NFKB|NF-κB]]** (Nuclear Factor kappa B).
+- **Mechanism:** SIRT1 deacetylates the **p65 subunit of [[NF-κB|NF-κB]]** (Nuclear Factor kappa B).
 - **Result:** Deacetylation inhibits NF-κB's transcriptional activity, preventing it from binding to DNA. This downregulates the expression of pro-inflammatory cytokines (such as **TNF-α**, **IL-1β**, and **IL-6**), making resveratrol a highly potent anti-inflammatory agent.
 
 #### p53 (Cell Survival vs. Apoptosis)

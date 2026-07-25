@@ -19,7 +19,7 @@ TAK1 (TGFβ-activated kinase 1), also known as MAP3K7, is a mitogen-activated pr
 
 ## Mechanism of Action & Signaling
 
-TAK1 sits at a major signaling crossroads. It is activated by upstream kinases of the MAP3K family through signals from the DNA damage response ([[ATM]]/ATR), cytokine receptors ([[TNFα]], IL-1R), and innate immune receptors (TLRs, NOD-like receptors). Activation requires oligomerization and phosphorylation of the TAK1 activation loop (Thr184/Thr187 in the mouse ortholog) by TAK1-binding proteins (TAB1–TAB3), which also recruit the kinase to K63-linked polyubiquitin scaffolds. Once active, TAK1 phosphorylates and activates two principal downstream cascades: the IKK complex ([[IKK complex]] → [[IkappaBalpha]] degradation → [[NFKB|NF-κB]]) and the MKK3/6 → p38 MAPK axis. Through these branches TAK1 couples diverse stress inputs to inflammatory transcription. Physiologically it mediates TGF-β and BMP signaling and innate immune responses; its kinase activity is essential for cytokine-induced [[NFKB|NF-κB]] and AP-1 activation.
+TAK1 sits at a major signaling crossroads. It is activated by upstream kinases of the MAP3K family through signals from the DNA damage response ([[ATM]]/ATR), cytokine receptors ([[TNFα]], IL-1R), and innate immune receptors (TLRs, NOD-like receptors). Activation requires oligomerization and phosphorylation of the TAK1 activation loop (Thr184/Thr187 in the mouse ortholog) by TAK1-binding proteins (TAB1–TAB3), which also recruit the kinase to K63-linked polyubiquitin scaffolds. Once active, TAK1 phosphorylates and activates two principal downstream cascades: the IKK complex ([[IKK complex]] → [[IkappaBalpha]] degradation → [[NF-κB|NF-κB]]) and the MKK3/6 → p38 MAPK axis. Through these branches TAK1 couples diverse stress inputs to inflammatory transcription. Physiologically it mediates TGF-β and BMP signaling and innate immune responses; its kinase activity is essential for cytokine-induced [[NF-κB|NF-κB]] and AP-1 activation.
 
 ## Role in Senescence / SASP
 
@@ -42,11 +42,11 @@ Because TAK1 controls NF-κB and p38 outputs, it is a candidate target in inflam
 - [[mTORC1|mTOR]]: TAK1 activates mTOR signaling
 - [[ATM]]: ATM activates TAK1
 - [[IKK complex]]: TAK1 phosphorylates IKK to activate NF-κB
-- [[NFKB|NF-κB]]: TAK1 drives NF-κB via IKK
+- [[NF-κB|NF-κB]]: TAK1 drives NF-κB via IKK
 - [[SASP|Senescence-Associated Secretory Phenotype]]: TAK1 promotes SASP
 
 ## Linking Summary
 
-- New links added: [[IKK complex]], [[NFKB|NF-κB]], [[ATM]]
+- New links added: [[IKK complex]], [[NF-κB|NF-κB]], [[ATM]]
   - Suggested new entity notes to create: [[MAP3K7]], [[TAB1]], [[MKK3]]
-  - Strong connections to strengthen: [[TAK1]] ↔ [[p38 MAPK]], [[TAK1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TAK1]] ↔ [[NFKB|NF-κB]]
+  - Strong connections to strengthen: [[TAK1]] ↔ [[p38 MAPK]], [[TAK1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TAK1]] ↔ [[NF-κB|NF-κB]]

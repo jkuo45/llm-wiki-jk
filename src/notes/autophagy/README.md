@@ -33,10 +33,12 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 ## Maintenance
 
 - Last updated: 09_Jun_2026 05:45 PM PDT
-- Total count of entities: 172
+- Total count of entities: 174
 
 | entity                                        |     datetime updated     | entity_type_1            |    relevance_1     | sentiment_1 | justification                                                                               |
 | :-------------------------------------------- | :----------------------: | :----------------------- | :----------------: | :---------: | :------------------------------------------------------------------------------------------ |
+| [[mTORC1-Lysosome Compartment]]               | 25_Jul_2026 12:00 PM PDT | Complex                 |         9          |      0      | Lysosome-anchored platform recruiting/activating mTORC1 in response to amino acids. |
+| [[Arterial Aging]]                            | 25_Jul_2026 12:00 PM PDT | Process                 |         7          |     -1      | Age-related arterial dysfunction driven by oxidative stress and impaired autophagy. |
 | [[4E-BP1]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Downstream mTOR effector; phosphorylation inhibits translation and competes with autophagy. |
 | [[Adaptive Immune Response]]                  | 09_Jun_2026 10:15 AM PDT | Biological Process       |         6          |      1      | Autophagy is required for antigen presentation and immune memory. |
 | [[Ambra-1]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Essential regulator of the Beclin1-Vps34 complex during initiation. |

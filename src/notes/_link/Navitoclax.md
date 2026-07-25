@@ -19,7 +19,7 @@ aliases: [ABT-263]
 ## Chemical Properties & Mechanism of Action
 
 - **Target selectivity:** binds the hydrophobic BH3 groove of [[Bcl-2]], BCL-xL, and BCL-w with high affinity, displacing pro-apoptotic effectors [[BAX]]/[[BAK]] and sensitizer BH3-only proteins.
-- **Downstream effect:** freed BAX/BAK oligomerize, triggering [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]] release, and caspase-mediated [[Apoptosis]].
+- **Downstream effect:** freed BAX/BAK oligomerize, triggering [[Mitochondrial outer membrane permeabilization]], [[Cytochrome c]] release, and caspase-mediated [[Apoptosis]].
 - Orally bioavailable derivative of the tool compound ABT-737.
 
 ## Applications
@@ -48,5 +48,5 @@ aliases: [ABT-263]
 
 ## Linking Summary
 
-  - New links added: [[Bcl-2]], [[BAX]], [[BAK]], [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Senolytics]], [[Senescent Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Thrombocytopenia]]
+  - New links added: [[Bcl-2]], [[BAX]], [[BAK]], [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome c]], [[Senolytics]], [[Senescent Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Thrombocytopenia]]
   - Strong connections to strengthen: Navitoclax ↔ Senolytics; Navitoclax ↔ Bcl-2

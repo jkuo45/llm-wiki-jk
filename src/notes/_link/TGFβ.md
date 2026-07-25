@@ -9,7 +9,7 @@ tags:
   - fibrosis
   - immunity
   - senescence
-aliases: [TGFβ, TGF-beta, Transforming growth factor beta, TGF-β]
+aliases: [TGFβ, TGF-beta, Transforming growth factor beta, TGF-β, TGFB1, TGF-β/Smad3 pathway]
 ---
 
 # TGFβ (Transforming Growth Factor-beta)

@@ -7,7 +7,7 @@ created: 2024-01-01
 updated: 2024-07-04
 tags:
   - protein
-aliases: []
+aliases: [p16 INK4a, p16, CDKN2A, p16INK4a, INK4a]
 protected: true
 ---
 

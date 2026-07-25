@@ -25,7 +25,7 @@ Angiotensin II is generated through a two-step enzymatic cascade:
 - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasing blood pressure
 - **[[Nitric Oxide]] suppression**: Promotes [[Endothelial Dysfunction]] by reducing [[eNOS|endothelial nitric oxide synthase]] activity
 - **[[Reactive Oxygen Species]] generation**: Activates [[NADPH Oxidase]], contributing to [[Oxidative Stress]]
-- **[[Inflammation]]**: Upregulates [[NFKB]], [[VCAM-1]], and other pro-inflammatory mediators
+- **[[Inflammation]]**: Upregulates [[NF-κB]], [[VCAM-1]], and other pro-inflammatory mediators
 - **[[Atherosclerosis]]**: Drives vascular remodeling and plaque progression
 - **Aldosterone release**: Stimulates sodium retention and volume expansion
 
@@ -58,7 +58,7 @@ List of documents that mention this entity
 - [[eNOS]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
 - [[Reactive Oxygen Species]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
 - [[NADPH Oxidase]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
-- [[NFKB]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
+- [[NF-κB]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
 - [[VCAM-1]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
 - [[Atherosclerosis]]: - **Vasoconstriction**: Binds to [[Angiotensin II type 1 receptor|AT1 receptors]] on vascular smooth muscle, increasi...
 - [[Hypertension]]: Angiotensin II is implicated in Hypertension, [[Cardiac Hypertrophy]], [[Cardiomyopathy]], and [[Atherosclerosis]].
@@ -69,6 +69,6 @@ List of documents that mention this entity
 - [[Resveratrol]]: Resveratrol-mediated [[SIRT1]] activation attenuates angiotensin II-induced hypertension in vascular smooth muscle.
 
 ## Linking Summary
-- New links added: [[Cardiovascular Disease]], [[Inflammation]], [[Oxidative Stress]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[NADPH Oxidase]], [[Reactive Oxygen Species]], [[NFKB]], [[VCAM-1]], [[Atherosclerosis]], [[SIRT1]], [[Sirtuins]], [[Resveratrol]]
+- New links added: [[Cardiovascular Disease]], [[Inflammation]], [[Oxidative Stress]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[NADPH Oxidase]], [[Reactive Oxygen Species]], [[NF-κB]], [[VCAM-1]], [[Atherosclerosis]], [[SIRT1]], [[Sirtuins]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Renin-angiotensin system]], [[Angiotensinogen]], [[Angiotensin-Converting Enzyme]], [[Angiotensin II type 1 receptor]], [[Hypertension]], [[Cardiac Hypertrophy]], [[Cardiomyopathy]]
 - Strong connections to strengthen: [[Angiotensin II]] ↔ [[SIRT1]], [[Angiotensin II]] ↔ [[Resveratrol]]

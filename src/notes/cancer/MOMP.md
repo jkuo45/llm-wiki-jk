@@ -10,7 +10,7 @@ aliases: []
 
 # MOMP
 
-**Mitochondrial outer membrane permeabilization (MOMP)** is the decisive, largely irreversible event of the intrinsic (mitochondrial) pathway of [[Apoptosis]]. At MOMP, the outer mitochondrial membrane loses its barrier integrity, allowing the efflux of intermembrane-space proteins — most notably [[Cytochrome c]] and [[Smac-DIABLO]] — that license the proteolytic caspase cascade and commit the cell to death.
+**Mitochondrial outer membrane permeabilization (MOMP)** is the decisive, largely irreversible event of the intrinsic (mitochondrial) pathway of [[Apoptosis]]. At MOMP, the outer mitochondrial membrane loses its barrier integrity, allowing the efflux of intermembrane-space proteins — most notably [[Cytochrome c]] and [[Smac DIABLO]] — that license the proteolytic caspase cascade and commit the cell to death.
 
 ## Mechanism of MOMP
 
@@ -22,7 +22,7 @@ Physiologically, MOMP eliminates damaged, infected, or superfluous cells during 
 
 ## Determinants and Regulation
 
-The threshold for MOMP integrates diverse stresses: DNA damage (via [[p53]]), [[Oxidative Stress]], growth-factor withdrawal, and [[Endoplasmic Reticulum]] stress. The released [[Cytochrome c]] nucleates the apoptosome (with Apaf-1 and procaspase-9), while [[Smac-DIABLO]] antagonizes [[XIAP]] and related inhibitors, removing the brake on effector caspases. A subset of cells can survive "minor" MOMP through caspase-independent mechanisms, contributing to heterogeneity in treatment response.
+The threshold for MOMP integrates diverse stresses: DNA damage (via [[p53]]), [[Oxidative Stress]], growth-factor withdrawal, and [[Endoplasmic Reticulum]] stress. The released [[Cytochrome c]] nucleates the apoptosome (with Apaf-1 and procaspase-9), while [[Smac DIABLO]] antagonizes [[XIAP]] and related inhibitors, removing the brake on effector caspases. A subset of cells can survive "minor" MOMP through caspase-independent mechanisms, contributing to heterogeneity in treatment response.
 
 ## Clinical and Research Relevance
 
@@ -40,7 +40,7 @@ List of documents that mention this entity
 
 - [[Apoptosis]]: MOMP is the point-of-no-return of the intrinsic pathway.
 - [[Cytochrome c]]: Released at MOMP to initiate the apoptosome.
-- [[Smac-DIABLO]]: Co-released inhibitor of IAPs.
+- [[Smac DIABLO]]: Co-released inhibitor of IAPs.
 - [[Bax]]: Effector pore-forming protein driving MOMP.
 - [[Bak]]: Effector pore-forming protein driving MOMP.
 - [[Bcl-2 family]]: Master regulators of MOMP.
@@ -48,6 +48,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Apoptosis]], [[Cytochrome c]], [[Smac-DIABLO]], [[Bax]], [[Bak]], [[Bcl-2 family]], [[Bim]], [[Bid]], [[PUMA]], [[NOXA]], [[p53]], [[Cancer]], [[Chemotherapy]], [[Oxidative Stress]], [[Endoplasmic Reticulum]], [[XIAP]]
+- New links added: [[Apoptosis]], [[Cytochrome c]], [[Smac DIABLO]], [[Bax]], [[Bak]], [[Bcl-2 family]], [[Bim]], [[Bid]], [[PUMA]], [[NOXA]], [[p53]], [[Cancer]], [[Chemotherapy]], [[Oxidative Stress]], [[Endoplasmic Reticulum]], [[XIAP]]
 - Suggested new entity notes to create: [[Apoptosome]], [[BH3 mimetics]]
 - Strong connections to strengthen: [[MOMP]] ↔ [[Bax]], [[MOMP]] ↔ [[Apoptosis]]

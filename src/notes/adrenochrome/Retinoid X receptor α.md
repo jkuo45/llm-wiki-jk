@@ -24,7 +24,7 @@ Although RXRα can form homodimers that bind DR1 response elements, it preferent
 
 RXRα is a key effector of the mammalian [[Retrograde Response]], the signaling pathway through which [[Mitochondrion|mitochondria]] communicate dysfunction to the nucleus to reprogram gene expression. Mitochondrial stress — such as electron transport chain impairment, [[Mitochondrial ROS]] accumulation, or loss of membrane potential — activates signaling cascades that converge on RXRα. The mechanism involves calcium-dependent activation of phosphatases such as calcineurin, which dephosphorylates and activates RXRα, promoting its nuclear translocation and transcriptional activity. RXRα then heterodimerizes with partners including [[PPARγ|PPAR]] and [[PGC-1α]] to drive the expression of genes involved in metabolic adaptation, antioxidant defense, [[Mitochondrial Biogenesis]], and [[Mitochondrial Dynamics]].
 
-This RXRα-dependent arm of the retrograde response complements parallel pathways including the OMA1-DELE1-HRI-[[ATF4]] axis of the [[Integrated Stress Response]] and JNK/[[NFκB]] signaling. Together, these pathways enable the cell to match nuclear gene expression to mitochondrial functional state, a central feature of [[Mitohormesis]].
+This RXRα-dependent arm of the retrograde response complements parallel pathways including the OMA1-DELE1-HRI-[[ATF4]] axis of the [[Integrated Stress Response]] and JNK/[[NF-κB]] signaling. Together, these pathways enable the cell to match nuclear gene expression to mitochondrial functional state, a central feature of [[Mitohormesis]].
 
 ## Other Functions
 
@@ -45,6 +45,6 @@ The central role of RXRα in nuclear receptor signaling makes it an attractive t
 
 ## Linking Summary
 
-- New links added: [[RAR]], [[VDR]], [[PPARα]], [[LXRα]], [[Mitochondrial Dysfunction]], [[Mitochondrial ROS]], [[Mitochondrial Biogenesis]], [[Mitochondrial Dynamics]], [[ATF4]], [[NFκB]], [[Mitohormesis]], [[Bexarotene]], [[Cutaneous T-cell lymphoma]], [[Alzheimer's Disease]]
+- New links added: [[RAR]], [[VDR]], [[PPARα]], [[LXRα]], [[Mitochondrial Dysfunction]], [[Mitochondrial ROS]], [[Mitochondrial Biogenesis]], [[Mitochondrial Dynamics]], [[ATF4]], [[NF-κB]], [[Mitohormesis]], [[Bexarotene]], [[Cutaneous T-cell lymphoma]], [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[RAR]], [[VDR]], [[FXR]], [[CAR]], [[PXR]], [[Bexarotene]], [[Cutaneous T-cell lymphoma]]
 - Strong connections to strengthen: [[Retinoid X receptor α]] ↔ [[Retrograde Response]], [[Retinoid X receptor α]] ↔ [[PPARα]], [[Retinoid X receptor α]] ↔ [[PGC-1α]]

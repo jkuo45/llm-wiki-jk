@@ -19,7 +19,7 @@ miRNAs (microRNAs) are ~22-nucleotide non-coding RNAs that regulate gene express
 
 ## Mechanism of Action & Signaling
 
-miRNAs are processed from pri-miRNAs by Drosha/DGCR8 in the nucleus and from pre-miRNAs by Dicer in the cytoplasm, then loaded onto Argonaute (AGO) proteins. The miRNA seed region base-pairs with 3' UTR targets, dampening expression of senescence regulators (e.g., [[p16 INK4a]], [[p53]], SASP cytokines). Senescent cells both alter their intracellular miRNA repertoire and package miRNAs into exosomes/ extracellular vesicles, transferring regulatory RNAs to neighboring cells. This paracrine miRNA traffic can instigate [[Paracrine Senescence]] and shape the tissue microenvironment.
+miRNAs are processed from pri-miRNAs by Drosha/DGCR8 in the nucleus and from pre-miRNAs by Dicer in the cytoplasm, then loaded onto Argonaute (AGO) proteins. The miRNA seed region base-pairs with 3' UTR targets, dampening expression of senescence regulators (e.g., [[p16INK4A]], [[p53]], SASP cytokines). Senescent cells both alter their intracellular miRNA repertoire and package miRNAs into exosomes/ extracellular vesicles, transferring regulatory RNAs to neighboring cells. This paracrine miRNA traffic can instigate [[Paracrine Senescence]] and shape the tissue microenvironment.
 
 ## Role in Senescence / SASP
 
@@ -48,10 +48,10 @@ Circulating senescence-associated miRNAs are candidate biomarkers of [[Inflammag
 - [[SIRT4]]: miR-15b inhibits SIRT4-mediated SASP
 - [[Paracrine Senescence|paracrine senescence]]: miRNAs mediate paracrine senescence
 - [[Inflammaging]]: miRNAs contribute to age-related inflammation
-- [[p16 INK4a]]: miRNA target in senescence
+- [[p16INK4A]]: miRNA target in senescence
 - [[p53]]: miR-34a upstream regulator
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT4]], [[Paracrine Senescence|paracrine senescence]], [[Inflammaging]], [[p16 INK4a]], [[p53]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT4]], [[Paracrine Senescence|paracrine senescence]], [[Inflammaging]], [[p16INK4A]], [[p53]]
   - Strong connections to strengthen: [[miRNA]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[miRNA]] ↔ intercellular communication

@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [Aβ, Amyloid beta]
+aliases: [Aβ, Amyloid beta, Amyloid-beta, beta-amyloid, Aβ peptide]
 
 ---
 

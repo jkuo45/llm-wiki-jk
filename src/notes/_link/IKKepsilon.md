@@ -54,12 +54,12 @@ IKKε contains a C-terminal serine/threonine kinase domain and an N-terminal reg
 - [[Caspase-7]] — Liberated from XIAP inhibition upon IKKepsilon-mediated XIAP degradation
 - [[Caspase-9]] — Liberated from XIAP inhibition upon IKKepsilon-mediated XIAP degradation
 - [[Proteasome]] — Degrades ubiquitinated XIAP after IKKepsilon/TBK1 phosphorylation
-- [[NFKB]] — IKKepsilon can activate NF-κB signaling
+- [[NF-κB]] — IKKepsilon can activate NF-κB signaling
 - [[Apoptosis]] — IKKepsilon promotes apoptosis by degrading XIAP
 
 ## Linking Summary
 
-- New links added: [[TBK1]], [[XIAP]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]], [[Proteasome]], [[NFKB]], [[Apoptosis]]
+- New links added: [[TBK1]], [[XIAP]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]], [[Proteasome]], [[NF-κB]], [[Apoptosis]]
 - Suggested new entity notes to create: [[IRF3]], [[Type I Interferon]]
 - Strong connections to strengthen:
     - [[IKKepsilon]] ↔ [[TBK1]]

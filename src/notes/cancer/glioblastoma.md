@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - medical-condition
-aliases: []
+aliases: [Glioblastoma]
 ---
 
 # Glioblastoma
@@ -65,4 +65,4 @@ List of documents that mention this entity
 
 - New links added: [[EGFR]], [[Ivermectin]], [[Honeybee venom]], [[melittin]], [[Angiogenesis]], [[Apoptosis]], [[Autophagy]], [[Akt]], [[mTOR]], [[PTEN]], [[PI3K]], [[p53]], [[RB1]], [[VEGF]], [[PDGFRA]], [[MET]], [[MRI]], [[MGMT]], [[Circulating tumor DNA]], [[Tumor Microenvironment]], [[Chemotherapy]], [[Metastasis]]
 - Suggested new entity notes to create: [[EGFRvIII]], [[Temozolomide]], [[MGMT]]
-- Strong connections to strengthen: [[Glioblastoma]] ↔ [[Honeybee venom]], [[Glioblastoma]] ↔ [[Angiogenesis]], [[Glioblastoma]] ↔ [[Ivermectin]]
+- Strong connections to strengthen: [[glioblastoma]] ↔ [[Honeybee venom]], [[glioblastoma]] ↔ [[Angiogenesis]], [[glioblastoma]] ↔ [[Ivermectin]]

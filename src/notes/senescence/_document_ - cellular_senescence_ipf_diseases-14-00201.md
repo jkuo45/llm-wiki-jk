@@ -77,7 +77,7 @@ Studies were selected based on relevance to the topic and scientific quality. Ti
 
 [[Senescence|Cellular senescence]] is increasingly regarded as a central feature of IPF pathogenesis. Accumulating evidence indicates that [[Senescent Cells|senescent cells]] are enriched in fibrotic lung tissue, where they contribute to disease persistence through dysregulated signaling and impaired regenerative capacity.
 
-[[Alveolar Type II Cells|Alveolar type II (AT2) epithelial cells]] appear particularly vulnerable to senescence-associated alterations. In IPF-affected lungs, these cells demonstrate elevated expression of cell-cycle inhibitors such as [[p16 INK4a|p16^INK4a]] and [[p21 CIP1|p21^CIP1]], alongside activation of [[DNA Damage|DNA damage response pathways]], consistent with stress-induced premature senescence. Importantly, premature epithelial-cell senescence may occur independently of chronological aging and can be triggered by environmental exposure, oxidative injury, smoking, [[Mitochondrial Dysfunction|mitochondrial dysfunction]], viral infection, and repeated alveolar microinjury. This functional decline in AT2 cells compromises epithelial repair mechanisms and promotes aberrant wound healing, thereby facilitating fibrotic remodeling.
+[[Alveolar Type II Cells|Alveolar type II (AT2) epithelial cells]] appear particularly vulnerable to senescence-associated alterations. In IPF-affected lungs, these cells demonstrate elevated expression of cell-cycle inhibitors such as [[p16INK4A|p16^INK4a]] and [[p21 CIP1|p21^CIP1]], alongside activation of [[DNA Damage|DNA damage response pathways]], consistent with stress-induced premature senescence. Importantly, premature epithelial-cell senescence may occur independently of chronological aging and can be triggered by environmental exposure, oxidative injury, smoking, [[Mitochondrial Dysfunction|mitochondrial dysfunction]], viral infection, and repeated alveolar microinjury. This functional decline in AT2 cells compromises epithelial repair mechanisms and promotes aberrant wound healing, thereby facilitating fibrotic remodeling.
 
 [[Fibroblast|Fibroblasts]] derived from patients with IPF also exhibit a senescent phenotype. These cells are characterized by resistance to [[Apoptosis|apoptosis]], sustained metabolic activity, and increased synthesis of extracellular matrix components. Notably, senescent fibroblasts actively contribute to the maintenance of a profibrotic microenvironment by amplifying key fibrogenic signaling pathways.
 
@@ -98,7 +98,7 @@ In addition, age-associated chronic inflammation, often referred to as "[[Inflam
 
 Persistent [[DNA Damage|DDR activation]] represents one of the primary initiating mechanisms of epithelial senescence. [[Telomere|Telomere erosion]], [[DNA Damage|oxidative DNA damage]], and replication stress activate [[ATM]]/[[ATR]] kinases, leading to phosphorylation and stabilization of [[p53]], followed by induction of [[p21 CIP1|p21^CIP1]] and irreversible cell-cycle arrest.
 
-In parallel, the [[p16 INK4a|p16^INK4a]]/[[Rb|Rb]] pathway reinforces this proliferative blockade through inhibition of [[CDK4 6|CDK4/6]] and maintenance of Rb in a hypophosphorylated state. In IPF lung tissue, increased expression of [[p16 INK4a|p16^INK4a]] and [[p21 CIP1|p21^CIP1]] has been consistently observed in [[Alveolar Type II Cells|alveolar epithelial cells]] located adjacent to [[Fibroblast|fibroblast]] foci, indicating sustained DDR signaling in situ.
+In parallel, the [[p16INK4A|p16^INK4a]]/[[Rb|Rb]] pathway reinforces this proliferative blockade through inhibition of [[CDK4 6|CDK4/6]] and maintenance of Rb in a hypophosphorylated state. In IPF lung tissue, increased expression of [[p16INK4A|p16^INK4a]] and [[p21 CIP1|p21^CIP1]] has been consistently observed in [[Alveolar Type II Cells|alveolar epithelial cells]] located adjacent to [[Fibroblast|fibroblast]] foci, indicating sustained DDR signaling in situ.
 
 Beyond cell-cycle arrest, prolonged [[DNA Damage|DDR activation]] induces chromatin remodeling and promotes the formation of [[Senescence-Associated Heterochromatin Foci|senescence-associated heterochromatin foci (SAHF)]], thereby stabilizing transcriptional reprogramming toward a senescent state.
 
@@ -178,7 +178,7 @@ In particular, [[TGFβ|TGF-β]] and [[Connective Tissue Growth Factor|connective
 
 #### 3.3.3. Systemic SASP and Biomarker Potential
 
-Circulating components of the [[SASP]] have been shown to correlate with disease severity and functional decline in IPF. However, currently available markers, including [[p16 INK4a|p16^INK4a expression]] and circulating cytokines, lack sufficient specificity, as they overlap with broader inflammatory processes. Therefore, the identification of senescence-specific biomarker signatures remains a critical step toward the clinical implementation of senescence-targeted therapeutic strategies.
+Circulating components of the [[SASP]] have been shown to correlate with disease severity and functional decline in IPF. However, currently available markers, including [[p16INK4A|p16^INK4a expression]] and circulating cytokines, lack sufficient specificity, as they overlap with broader inflammatory processes. Therefore, the identification of senescence-specific biomarker signatures remains a critical step toward the clinical implementation of senescence-targeted therapeutic strategies.
 
 ### 3.4. Therapeutic Strategies
 
@@ -231,7 +231,7 @@ Despite these advances, several challenges continue to limit clinical translatio
 
 ### 3.5. Future Perspectives and Clinical Translation
 
-Despite significant advances in elucidating the role of [[Senescence|cellular senescence]] in IPF, several key challenges remain unresolved. In particular, the identification of reliable and disease-specific biomarkers of senescence continues to represent a major limitation for both research and clinical application. Although markers such as [[p16 INK4a|p16^INK4a]], [[p21 CIP1|p21^CIP1]], and circulating [[SASP|SASP components]] are widely used, their specificity remains limited, as they often overlap with broader inflammatory and stress-related processes.
+Despite significant advances in elucidating the role of [[Senescence|cellular senescence]] in IPF, several key challenges remain unresolved. In particular, the identification of reliable and disease-specific biomarkers of senescence continues to represent a major limitation for both research and clinical application. Although markers such as [[p16INK4A|p16^INK4a]], [[p21 CIP1|p21^CIP1]], and circulating [[SASP|SASP components]] are widely used, their specificity remains limited, as they often overlap with broader inflammatory and stress-related processes.
 
 Emerging technologies, including single-cell transcriptomics and spatial omics, offer new opportunities to refine our understanding of [[Senescent Cells|senescent cell heterogeneity]] within fibrotic lung tissue. These approaches may enable the identification of distinct senescent subpopulations that differentially contribute to disease progression and may therefore represent more precise therapeutic targets.
 
@@ -249,7 +249,7 @@ Despite these advances, several challenges continue to limit clinical translatio
 
 Second, widely used experimental models—particularly [[Bleomycin|bleomycin-induced fibrosis]]—do not fully recapitulate the chronic and progressive nature of human IPF. This limitation highlights the need for more representative translational models that incorporate aging-related susceptibility and long-term disease dynamics.
 
-Third, the lack of reliable biomarkers for [[Senescent Cells|senescent cell burden]] remains a critical barrier. Composite molecular signatures integrating [[p16 INK4a|p16^INK4a expression]], [[SASP|SASP profiles]], and epigenetic markers may provide more accurate tools for patient stratification and treatment monitoring.
+Third, the lack of reliable biomarkers for [[Senescent Cells|senescent cell burden]] remains a critical barrier. Composite molecular signatures integrating [[p16INK4A|p16^INK4a expression]], [[SASP|SASP profiles]], and epigenetic markers may provide more accurate tools for patient stratification and treatment monitoring.
 
 Important safety considerations remain unresolved for senescence-targeted therapies. Systemic elimination of [[Senescent Cells|senescent cells]] may interfere with physiological senescence processes involved in tissue repair, wound healing, and tumor suppression. In addition, off-target toxicity, limited tissue specificity, and the absence of long-term safety data remain major barriers to clinical translation. Future therapeutic strategies will likely require selective targeting of pathogenic senescent-cell subpopulations while preserving adaptive transient senescence responses.
 

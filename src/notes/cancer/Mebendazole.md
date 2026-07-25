@@ -22,7 +22,7 @@ Mebendazole is a carbamate-substituted benzimidazole. Its antiparasitic and anti
 Beyond tubulin, mebendazole inhibits multiple kinases and signaling networks that cancer cells co-opt:
 - **Hedgehog signaling:** suppression limits GLI-driven proliferation in medulloblastoma/glioblastoma contexts.
 - **Wnt/β-catenin:** attenuation reduces survival and stemness programs.
-- **[[NFκB]]:** inhibition lowers expression of anti-apoptotic and inflammatory target genes.
+- **[[NF-κB]]:** inhibition lowers expression of anti-apoptotic and inflammatory target genes.
 
 This multi-target engagement makes mebendazole attractive where single-pathway resistance emerges.
 
@@ -41,12 +41,12 @@ Several clinical trials have evaluated mebendazole alone or with standard [[Chem
 - [[Cancer]] - Disease area of repurposing interest.
 - [[Microtubule]] - Cytoskeletal target disrupted by the drug.
 - [[Tubulin]] - Direct binding partner inhibited by mebendazole.
-- [[NFκB]] - Pro-survival pathway suppressed by the drug.
+- [[NF-κB]] - Pro-survival pathway suppressed by the drug.
 - [[glioblastoma]] - Brain tumor with notable preclinical/clinical activity.
 - [[Apoptosis]] - Death program engaged by microtubule disruption.
 
 ## Linking Summary
 
-- New links added: [[Mebendazole]], [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NFκB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[Apoptosis]], [[Cell Cycle]], [[Chemotherapy]]]
+- New links added: [[Mebendazole]], [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NF-κB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[Apoptosis]], [[Cell Cycle]], [[Chemotherapy]]]
 - Suggested new entity notes to create: [[glioblastoma]], [[colchicine site]], [[Oxfendazole]]
 - Strong connections to strengthen: [[Mebendazole]] ↔ [[Tubulin]], [[Mebendazole]] ↔ [[Cancer]]

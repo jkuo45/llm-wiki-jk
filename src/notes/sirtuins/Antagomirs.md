@@ -22,13 +22,13 @@ aliases:
 
 ## Mechanism
 
-Antagomirs bind to complementary mature microRNA sequences, forming a duplex that sequesters the microRNA from its native [[Messenger RNA|mRNA]] targets. This prevents the [[RNA-induced silencing complex|RISC complex]] from loading the microRNA, thereby derepressing translation of the microRNA's target genes. The cholesterol moiety facilitates incorporation into [[Lipid Nanoparticles|lipid nanoparticles]] and promotes tissue distribution, including across [[Endothelial cells|endothelial]] barriers.
+Antagomirs bind to complementary mature microRNA sequences, forming a duplex that sequesters the microRNA from its native [[Messenger RNA|mRNA]] targets. This prevents the [[RNA-induced silencing complex|RISC complex]] from loading the microRNA, thereby derepressing translation of the microRNA's target genes. The cholesterol moiety facilitates incorporation into [[Lipid Nanoparticles|lipid nanoparticles]] and promotes tissue distribution, including across [[Endothelial Cells|endothelial]] barriers.
 
 ## Application in Sirtuin Biology
 
 Age-associated upregulation of [[miR-217]], [[miR-543]], and [[miR-378]] suppresses [[SIRT1]] translation by binding its 3′-UTR. Antagomirs targeting these miRs:
 - Restore [[SIRT1]] protein levels without requiring direct pharmacological sirtuin activation.
-- Reduce [[p65|RelA/p65]] hyperacetylation, suppressing [[NFKB|NF-κB]]-dependent inflammatory [[SASP|Senescence-Associated Secretory Phenotype]].
+- Reduce [[p65|RelA/p65]] hyperacetylation, suppressing [[NF-κB|NF-κB]]-dependent inflammatory [[SASP|Senescence-Associated Secretory Phenotype]].
 - Provide a highly tissue-specific strategy for [[Epigenetic Alterations|epigenetic]] derepression, avoiding the off-target effects of small-molecule SIRT1 activators like [[Resveratrol]].
 
 ## Advantages Over Small-Molecule Activators
@@ -49,9 +49,9 @@ Age-associated upregulation of [[miR-217]], [[miR-543]], and [[miR-378]] suppres
 - [[Locked Nucleic Acid]] — chemical modification used for stability
 - [[Lipid Nanoparticles]] — delivery vehicle
 - [[Senomorphics]] — therapeutic class to which antagomirs belong
-- [[NFKB|NF-κB]] — downstream signaling node suppressed by SIRT1 restoration
+- [[NF-κB|NF-κB]] — downstream signaling node suppressed by SIRT1 restoration
 
 ## Linking Summary
-- New links added: [[MicroRNA]], [[SIRT1]], [[miR-217]], [[miR-543]], [[miR-378]], [[Locked Nucleic Acid]], [[Lipid Nanoparticles]], [[Senomorphics]], [[NFKB]], [[SASP|Senescence-Associated Secretory Phenotype]], [[p65]], [[Resveratrol]]
+- New links added: [[MicroRNA]], [[SIRT1]], [[miR-217]], [[miR-543]], [[miR-378]], [[Locked Nucleic Acid]], [[Lipid Nanoparticles]], [[Senomorphics]], [[NF-κB]], [[SASP|Senescence-Associated Secretory Phenotype]], [[p65]], [[Resveratrol]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Antagomirs]] ↔ [[MicroRNA]], [[Antagomirs]] ↔ [[SIRT1]]

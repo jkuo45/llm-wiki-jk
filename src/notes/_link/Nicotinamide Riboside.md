@@ -22,7 +22,7 @@ aliases:
 
 ## Mechanism as a Pan-Sirtuin Activator
 
-Like [[NMN]], [[NR]] functions as a **universal indirect pan-sirtuin activator** by raising cellular NAD+ levels. Since all seven mammalian sirtuins ([[SIRT1]]–[[SIRT7]]) require NAD+ as an obligate co-substrate, [[NR]] supplementation potentiates the catalytic activity of the entire sirtuin family, including SIRT1-mediated deacetylation of [[PGC-1α]], [[FOXO3a]], and [[NFKB|NF-κB]].
+Like [[NMN]], [[NR]] functions as a **universal indirect pan-sirtuin activator** by raising cellular NAD+ levels. Since all seven mammalian sirtuins ([[SIRT1]]–[[SIRT7]]) require NAD+ as an obligate co-substrate, [[NR]] supplementation potentiates the catalytic activity of the entire sirtuin family, including SIRT1-mediated deacetylation of [[PGC-1α]], [[FOXO3a]], and [[NF-κB|NF-κB]].
 
 ## Therapeutic Relevance
 
@@ -58,6 +58,6 @@ List of documents that mention this entity
 ---
 
 ## Linking Summary
-- New links added: [[NMN]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[PGC-1α]], [[FOXO3a]], [[NFKB|NF-κB]], [[Caloric Restriction]], [[CD38]]
+- New links added: [[NMN]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[PGC-1α]], [[FOXO3a]], [[NF-κB|NF-κB]], [[Caloric Restriction]], [[CD38]]
 - Suggested new entity notes to create: [[NRK1]], [[NRK2]]
   - Strong connections to strengthen: Nicotinamide Riboside ↔ [[NMN]], Nicotinamide Riboside ↔ [[NAD+]]

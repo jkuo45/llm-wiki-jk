@@ -26,7 +26,7 @@ In normal tissues FAK is essential for embryonic development, tissue repair, and
 
 ## Pathological & Clinical Relevance
 
-FAK is overexpressed or hyperactivated in numerous malignancies, including [[Breast Cancer]], [[Glioblastoma]], [[Hepatocellular Carcinoma]], and [[Ovarian Cancer]], where it drives invasion, anoikis resistance, and [[Chemotherapy]] resistance. Elevated FAK correlates with poor prognosis and advanced stage. FAK is a validated therapeutic target: small-molecule inhibitors (defactinib, PF-562271, VS-6063) and antisense approaches are in clinical evaluation, often combined with [[ immunotherapy ] or cytotoxic agents to overcome resistance. FAK inhibition can also restrain [[Tumor Microenvironment]] stiffness and dissemination.
+FAK is overexpressed or hyperactivated in numerous malignancies, including [[Breast Cancer]], [[glioblastoma]], [[Hepatocellular Carcinoma]], and [[ovarian cancer]], where it drives invasion, anoikis resistance, and [[Chemotherapy]] resistance. Elevated FAK correlates with poor prognosis and advanced stage. FAK is a validated therapeutic target: small-molecule inhibitors (defactinib, PF-562271, VS-6063) and antisense approaches are in clinical evaluation, often combined with [[ immunotherapy ] or cytotoxic agents to overcome resistance. FAK inhibition can also restrain [[Tumor Microenvironment]] stiffness and dissemination.
 
 ## Connections
 
@@ -35,11 +35,11 @@ FAK is overexpressed or hyperactivated in numerous malignancies, including [[Bre
 - [[MAPK]]: Proliferative ERK cascade engaged by FAK–Src complexes.
 - [[Metastasis]]: FAK-driven migration and invasion underpin dissemination.
 - [[Angiogenesis]]: FAK cooperates with VEGF signaling in neovessel formation.
-- [[Glioblastoma]]: Aggressive tumor with frequent FAK hyperactivation.
+- [[glioblastoma]]: Aggressive tumor with frequent FAK hyperactivation.
 - [[HER2]]: Receptor tyrosine kinase that converges on FAK signaling.
 
 ## Linking Summary
 
-- New links added: [[Integrins]], [[PI3K]], [[MAPK]], [[EGFR]], [[HER2]], [[GPCR]], [[c-Met]], [[VEGF]], [[Angiogenesis]], [[Metastasis]], [[Chemotherapy]], [[Tumor Microenvironment]], [[Breast Cancer]], [[Ovarian Cancer]], [[Glioblastoma]], [[Hepatocellular Carcinoma]]
+- New links added: [[Integrins]], [[PI3K]], [[MAPK]], [[EGFR]], [[HER2]], [[GPCR]], [[c-Met]], [[VEGF]], [[Angiogenesis]], [[Metastasis]], [[Chemotherapy]], [[Tumor Microenvironment]], [[Breast Cancer]], [[ovarian cancer]], [[glioblastoma]], [[Hepatocellular Carcinoma]]
 - Suggested new entity notes to create: [[Focal Adhesion]], [[p130Cas]], [[Defactinib]]
 - Strong connections to strengthen: [[FAK]] ↔ [[Integrins]], [[FAK]] ↔ [[Metastasis]]

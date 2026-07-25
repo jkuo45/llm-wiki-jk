@@ -19,7 +19,7 @@ aliases:
 
 # mTOR Inhibitor
 
-An mTOR inhibitor is an agent that suppresses the [[mTOR]] (mechanistic target of rapamycin) serine/threonine kinase, a central nutrient- and growth-sensing hub integrating signals from amino acids, insulin/[[IGF-1]], and cellular energy. Inhibition of the mTORC1 complex shifts cells from anabolic growth toward catabolic maintenance.
+An mTOR inhibitor is an agent that suppresses the [[mTOR]] (mechanistic target of rapamycin) serine/threonine kinase, a central nutrient- and growth-sensing hub integrating signals from amino acids, insulin/[[IGF1]], and cellular energy. Inhibition of the mTORC1 complex shifts cells from anabolic growth toward catabolic maintenance.
 
 ## Mechanism of Action
 
@@ -61,7 +61,7 @@ Beyond longevity, mTOR inhibitors are licensed as immunosuppressants and antican
 
 ## Linking Summary
 
-  - New links added: [[mTOR]], [[Rapamycin]], [[Rapalogs]], [[Everolimus]], [[Autophagy]], [[Lysosome]], [[TFEB]], [[Caloric Restriction]], [[Insulin Signaling]], [[Inflammation]], [[Geroprotectors]], [[Healthspan]], [[Longevity]], [[Aging]], [[IGF-1]]
+  - New links added: [[mTOR]], [[Rapamycin]], [[Rapalogs]], [[Everolimus]], [[Autophagy]], [[Lysosome]], [[TFEB]], [[Caloric Restriction]], [[Insulin Signaling]], [[Inflammation]], [[Geroprotectors]], [[Healthspan]], [[Longevity]], [[Aging]], [[IGF1]]
   - Suggested new entity notes to create: [[mTORC1]], [[mTORC2]]
   - Strong connections to strengthen: [[mTOR Inhibitor]] ↔ [[Caloric Restriction]]; [[mTOR Inhibitor]] ↔ [[Autophagy]]
   - Justification: mTOR inhibitors are a core pharmacological longevity intervention; linking to mTOR, rapamycin, autophagy, and CR embeds them in the nutrient-sensing longevity network.

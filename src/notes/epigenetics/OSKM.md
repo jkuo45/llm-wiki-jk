@@ -23,7 +23,7 @@ aliases: []
 
 ## Mechanistic Insights into Reprogramming Initiation
 
-Transduction of OSKM — typically via retroviral or Sendai viral vectors — triggers a stereotyped sequence: (1) an immediate [[Innate Immunity]] response to the vector and exogenous DNA, generating [[Reactive Oxygen Species]] (ROS), [[DNA Damage]], and [[p53]] activation that can blunt efficiency; (2) early [[Mesenchymal-to-Epithelial Transition]] (MET) and metabolic remodeling; (3) activation of pluripotency surface markers such as [[PODXL]]; and (4) amplification of the pluripotency network through pathways including [[GSK3B]] and [[Wnt signaling]]. The OSKM factors form a self-reinforcing gene-regulatory network that progressively silences somatic identity and locks in pluripotency.
+Transduction of OSKM — typically via retroviral or Sendai viral vectors — triggers a stereotyped sequence: (1) an immediate [[Innate Immunity]] response to the vector and exogenous DNA, generating [[Reactive Oxygen Species]] (ROS), [[DNA Damage]], and [[p53]] activation that can blunt efficiency; (2) early [[Mesenchymal-to-Epithelial Transition]] (MET) and metabolic remodeling; (3) activation of pluripotency surface markers such as [[PODXL]]; and (4) amplification of the pluripotency network through pathways including [[GSK3β]] and [[Wnt signaling]]. The OSKM factors form a self-reinforcing gene-regulatory network that progressively silences somatic identity and locks in pluripotency.
 
 ## Physiological, Pathological & Therapeutic Relevance
 
@@ -50,6 +50,6 @@ List of documents that mention this entity
 - [[PODXL]]: An early pluripotency surface marker induced downstream of OSKM.
 
 ## Linking Summary
-- New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]], [[Cellular Reprogramming]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Pluripotency]], [[Somatic Cells]], [[Shinya Yamanaka]], [[Kazutoshi Takahashi]], [[Innate Immunity]], [[Reactive Oxygen Species]], [[DNA Damage]], [[p53]], [[Mesenchymal-to-Epithelial Transition]], [[PODXL]], [[GSK3B]], [[Wnt signaling]], [[BIG1]], [[Disease Modeling]], [[Drug Discovery]], [[Regenerative Medicine]], [[Partial Reprogramming]], [[Rejuvenation]]
+- New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]], [[Cellular Reprogramming]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Pluripotency]], [[Somatic Cells]], [[Shinya Yamanaka]], [[Kazutoshi Takahashi]], [[Innate Immunity]], [[Reactive Oxygen Species]], [[DNA Damage]], [[p53]], [[Mesenchymal-to-Epithelial Transition]], [[PODXL]], [[GSK3β]], [[Wnt signaling]], [[BIG1]], [[Disease Modeling]], [[Drug Discovery]], [[Regenerative Medicine]], [[Partial Reprogramming]], [[Rejuvenation]]
 - Suggested new entity notes to create: [[Mesenchymal-to-Epithelial Transition]], [[BIG1]]
 - Strong connections to strengthen: [[OSKM]] ↔ [[Yamanaka Factors]]

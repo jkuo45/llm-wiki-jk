@@ -5,10 +5,7 @@ description: DNA damage refers to any chemical or physical alteration to the
   DNA Mutation, which are heritable sequence ch...
 created: 2026-07-04
 updated: 2026-07-06
-tags:
-  - biological-process
-aliases: [DNA lesion, DNA injury, genomic damage]
-
+aliases: [DNA lesion, DNA injury, genomic damage, Oxidative DNA Damage]
 ---
 
 # DNA Damage

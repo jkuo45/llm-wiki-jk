@@ -25,10 +25,10 @@ aliases:
 LPS comprises three domains: the conserved lipid A (the endotoxic moiety), a core oligosaccharide, and the variable O-antigen. Lipid A binding to the TLR4/MD-2 complex is the trigger for downstream signaling.
 
 ## Mechanism of Action & Signaling
-LPS–TLR4 engagement recruits MyD88 and TRIF adapters, activating [[NFKB]] and [[IRF3]]/[[TBK1]] pathways that induce [[TNFα]], [[IL-6]], and type I interferons. Cytosolic LPS can also engage the [[cGAS-STING Pathway]], linking microbial products to innate antiviral-like signaling. Exaggerated responses produce [[Sepsis]] and [[Septic Shock]].
+LPS–TLR4 engagement recruits MyD88 and TRIF adapters, activating [[NF-κB]] and [[IRF3]]/[[TBK1]] pathways that induce [[TNFα]], [[IL-6]], and type I interferons. Cytosolic LPS can also engage the [[cGAS-STING Pathway]], linking microbial products to innate antiviral-like signaling. Exaggerated responses produce [[Sepsis]] and [[Septic Shock]].
 
 ## Physiology, Redox & Longevity
-Translocation of gut-derived LPS into circulation ("metabolic endotoxemia") connects the [[Gut Microbiome]] to low-grade inflammation, [[Insulin]] resistance, and [[Mitochondrial Dysfunction]]. LPS amplifies [[Reactive Oxygen Species]] via [[NAD(P)H Oxidase]] and blunts [[Sirtuins]]-dependent defenses. Mitohormetic and [[Nicotinamide Riboside]] interventions modulate LPS-driven redox and inflammatory load, linking microbial signals to longevity.
+Translocation of gut-derived LPS into circulation ("metabolic endotoxemia") connects the [[Gut Microbiome]] to low-grade inflammation, [[Insulin]] resistance, and [[Mitochondrial Dysfunction]]. LPS amplifies [[Reactive Oxygen Species]] via [[NADPH Oxidase]] and blunts [[Sirtuins]]-dependent defenses. Mitohormetic and [[Nicotinamide Riboside]] interventions modulate LPS-driven redox and inflammatory load, linking microbial signals to longevity.
 
 ## Documents
 
@@ -51,6 +51,6 @@ Translocation of gut-derived LPS into circulation ("metabolic endotoxemia") conn
 
 ## Linking Summary
 
-  - New links added: [[Lipopolysaccharide]], [[Gram-Negative Bacteria]], [[TLR4]], [[NFKB]], [[IRF3]], [[TBK1]], [[TNFα]], [[IL-6]], [[cGAS-STING Pathway]], [[Sepsis]], [[Septic Shock]]
+  - New links added: [[Lipopolysaccharide]], [[Gram-Negative Bacteria]], [[TLR4]], [[NF-κB]], [[IRF3]], [[TBK1]], [[TNFα]], [[IL-6]], [[cGAS-STING Pathway]], [[Sepsis]], [[Septic Shock]]
   - Suggested new entity notes to create: [[MD-2]], [[MyD88]], [[Metabolic endotoxemia]]
   - Strong connections to strengthen: [[Lipopolysaccharide]] ↔ [[Gut Microbiome]], [[Lipopolysaccharide]] ↔ [[Inflammaging]]

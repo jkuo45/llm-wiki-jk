@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - medical-condition
-aliases: []
+aliases: [Ovarian Cancer]
 protected: true
 ---
 
@@ -64,4 +64,4 @@ List of documents that mention this entity
 
 - New links added: [[Akt]], [[Cisplatin]], [[Ivermectin]], [[JAK2]], [[KPNB1]], [[PAK1]], [[STAT3]], [[mTOR]], [[melittin]], [[paclitaxel]], [[VEGF]], [[TP53]], [[BRCA1/2]], [[Chemotherapy]], [[Metastasis]], [[Cancer]]
 - Suggested new entity notes to create: [[KPNB1]], [[CA-125]], [[PARP inhibitor]]
-- Strong connections to strengthen: [[Ovarian Cancer]] ↔ [[paclitaxel]], [[Ovarian Cancer]] ↔ [[Ivermectin]], [[Ovarian Cancer]] ↔ [[Cisplatin]]
+- Strong connections to strengthen: [[ovarian cancer]] ↔ [[paclitaxel]], [[ovarian cancer]] ↔ [[Ivermectin]], [[ovarian cancer]] ↔ [[Cisplatin]]

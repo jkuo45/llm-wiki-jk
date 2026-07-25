@@ -18,13 +18,13 @@ Mature miR-29b is an ~22-nucleotide non-coding RNA that guides the RNA-induced s
 
 ## Mechanism of Action and Targets
 
-miR-29b exerts pleiotropic effects through a wide network of validated targets. In neuronal and other systems it is activated during maturation and directly targets anti-apoptotic Bcl-2 family members such as [[Mcl-1]], thereby restricting [[Apoptosis]] and tuning the threshold for cell death. Beyond apoptosis regulation, miR-29b strongly suppresses the transcription of extracellular matrix (ECM) components — including multiple collagens, fibrillins, and elastin — by targeting the master transcriptional regulators [[TGF-β]] and SMADs as well as the methyltransferases [[DNMT3A]] and [[DNMT3B]]. This ECM-modulating activity links miR-29b to [[Metastasis]] and tissue invasion, since excessive ECM deposition and crosslinking (desmoplasia) can both hinder and, paradoxically, promote tumor dissemination depending on context.
+miR-29b exerts pleiotropic effects through a wide network of validated targets. In neuronal and other systems it is activated during maturation and directly targets anti-apoptotic Bcl-2 family members such as [[Mcl-1]], thereby restricting [[Apoptosis]] and tuning the threshold for cell death. Beyond apoptosis regulation, miR-29b strongly suppresses the transcription of extracellular matrix (ECM) components — including multiple collagens, fibrillins, and elastin — by targeting the master transcriptional regulators [[TGFβ]] and SMADs as well as the methyltransferases [[DNMT3A]] and [[DNMT3B]]. This ECM-modulating activity links miR-29b to [[Metastasis]] and tissue invasion, since excessive ECM deposition and crosslinking (desmoplasia) can both hinder and, paradoxically, promote tumor dissemination depending on context.
 
 In oncology, reduced miR-29b correlates with poor prognosis in lung, breast, liver, and hematologic malignancies. Restoration of miR-29b in model systems induces cell-cycle arrest, apoptosis, and diminished invasive capacity, and re-sensitizes resistant cells to [[Chemotherapy]].
 
 ## Physiological and Pathological Function
 
-Physiologically, miR-29b maintains tissue homeostasis by limiting fibrosis and enforcing differentiation programs. Pathologically, its silencing — through promoter hypermethylation, genomic deletion, or transcriptional repression by oncogenic [[NFκB]] and Myc networks — removes a brake on survival and matrix pathways. miR-29b also participates in the [[Epigenetics]] landscape by reinforcing DNA demethylation, creating a feed-forward tumor-suppressive loop.
+Physiologically, miR-29b maintains tissue homeostasis by limiting fibrosis and enforcing differentiation programs. Pathologically, its silencing — through promoter hypermethylation, genomic deletion, or transcriptional repression by oncogenic [[NF-κB]] and Myc networks — removes a brake on survival and matrix pathways. miR-29b also participates in the [[Epigenetics]] landscape by reinforcing DNA demethylation, creating a feed-forward tumor-suppressive loop.
 
 ## Clinical and Research Relevance
 
@@ -35,13 +35,13 @@ miR-29b is a candidate therapeutic and prognostic biomarker. Delivery of miR-29 
 - [[Mcl-1]]: Direct pro-survival target of miR-29b whose repression promotes apoptosis.
 - [[Apoptosis]]: Core process tuned by miR-29b through Bcl-2 family targeting.
 - [[DNMT3A]]: Epigenetic target; miR-29b loss reinforces DNA hypermethylation.
-- [[TGF-β]]: Downstream ECM pathway suppressed by miR-29b.
+- [[TGFβ]]: Downstream ECM pathway suppressed by miR-29b.
 - [[Metastasis]]: ECM-remodeling function links miR-29b to invasion.
 - [[Cancer]]: Broad tumor-suppressive role across carcinomas.
-- [[NFκB]]: Oncogenic network that can repress miR-29b expression.
+- [[NF-κB]]: Oncogenic network that can repress miR-29b expression.
 
 ## Linking Summary
 
-- New links added: [[Mcl-1]], [[Apoptosis]], [[DNMT3A]], [[DNMT3B]], [[TGF-β]], [[Metastasis]], [[Cancer]], [[NFκB]], [[Hallmarks of Cancer]], [[Chemotherapy]], [[Epigenetics]]
+- New links added: [[Mcl-1]], [[Apoptosis]], [[DNMT3A]], [[DNMT3B]], [[TGFβ]], [[Metastasis]], [[Cancer]], [[NF-κB]], [[Hallmarks of Cancer]], [[Chemotherapy]], [[Epigenetics]]
 - Suggested new entity notes to create: [[MIR29B1]], [[miR-29a]], [[miR-29c]]
 - Strong connections to strengthen: [[miR-29b]] ↔ [[Mcl-1]], [[miR-29b]] ↔ [[DNMT3A]]

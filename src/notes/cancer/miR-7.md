@@ -22,7 +22,7 @@ The best-characterized action of miR-7 is direct repression of the epidermal gro
 
 ## Physiological and Pathological Function
 
-Physiologically, miR-7 helps maintain epithelial differentiation and constrains growth-factor hyper-responsiveness. Pathologically, its downregulation — through promoter methylation, transcriptional repression by [[NFκB]] or hypoxia-inducible factor pathways, or competitive endogenous RNA sponging — permits unchecked RTK signaling that advances the [[Hallmarks of Cancer]]. Loss of miR-7 correlates with chemoresistance and more aggressive, invasive phenotypes in glioblastoma, breast, and cervical cancers.
+Physiologically, miR-7 helps maintain epithelial differentiation and constrains growth-factor hyper-responsiveness. Pathologically, its downregulation — through promoter methylation, transcriptional repression by [[NF-κB]] or hypoxia-inducible factor pathways, or competitive endogenous RNA sponging — permits unchecked RTK signaling that advances the [[Hallmarks of Cancer]]. Loss of miR-7 correlates with chemoresistance and more aggressive, invasive phenotypes in glioblastoma, breast, and cervical cancers.
 
 ## Clinical and Research Relevance
 

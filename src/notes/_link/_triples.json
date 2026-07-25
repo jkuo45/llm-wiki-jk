@@ -779,14 +779,14 @@
   {
     "subject": "BNIP3",
     "predicate": "mediates",
-    "object": "hypoxia-induced mitophagy",
+    "object": "Mitophagy",
     "context": "BNIP3 mediates mitophagy through hypoxia and the stabilization of HIF-1α, serving as a Parkin-independent pathway for mitochondrial clearance under low-oxygen conditions. Along with its homologue BNIP3L/NIX, BNIP3 interacts directly with LC3 as a mitophagy receptor on the outer mitochondrial membrane. BNIP3 protein levels are upregulated at early premalignant stages of various human solid cancers but frequently decrease when tumors become invasive, suggesting context-dependent roles. The relationship is well established as an alternative mitophagy pathway.",
     "confidence": 0.92
   },
   {
     "subject": "FUNDC1",
     "predicate": "mediates",
-    "object": "hypoxia-induced mitophagy",
+    "object": "Mitophagy",
     "context": "FUNDC1 is a mitophagy receptor specifically for hypoxia-induced mitophagy on the outer mitochondrial membrane. Under hypoxic stimulation, phosphoglycerate mutase 5 dephosphorylates FUNDC1, promoting its interaction with LC3 and inducing mitophagy. FUNDC1 interacts with OPA1 and DRP1, regulated by serine 13 phosphorylation state during hypoxia or mitochondrial membrane potential loss. This positions FUNDC1 at the intersection of mitochondrial dynamics and quality control. The relationship is well established as a key hypoxia-responsive mitophagy mechanism.",
     "confidence": 0.92
   },

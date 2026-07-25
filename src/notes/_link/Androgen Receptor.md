@@ -16,7 +16,7 @@ The **androgen receptor** ([[Androgen Receptor|AR]]), encoded by *AR*, is a liga
 
 ## Role in Cancer & Modulation by Apigenin
 
-In prostate cancer, apigenin reduces AR protein expression and secreted PSA, inducing G1 arrest with cyclin D1/D2/E and [[CDK2]]/[[CDK4]]/[[CDK6]] downregulation and p21/p27 induction. Flavonoids can act as partial AR agonists at low concentrations. AR signaling interacts with [[PI3K]]/[[Akt]] and [[IGF-1]] axes modulated by apigenin.
+In prostate cancer, apigenin reduces AR protein expression and secreted PSA, inducing G1 arrest with cyclin D1/D2/E and [[CDK2]]/[[CDK4]]/[[CDK6]] downregulation and p21/p27 induction. Flavonoids can act as partial AR agonists at low concentrations. AR signaling interacts with [[PI3K]]/[[Akt]] and [[IGF1]] axes modulated by apigenin.
 
 ## Documents
 
@@ -28,9 +28,9 @@ In prostate cancer, apigenin reduces AR protein expression and secreted PSA, ind
 - [[Prostate Cancer]] — AR-driven malignancy
 - [[Apigenin]] — Downregulates AR
 - [[Estrogen Receptor]] — Parallel steroid receptor
-- [[PI3K]], [[Akt]], [[IGF-1]] — Interacting axes
+- [[PI3K]], [[Akt]], [[IGF1]] — Interacting axes
 
 ## Linking Summary
 
-- New links added: [[Prostate Cancer]], [[Apigenin]], [[Estrogen Receptor]], [[CDK2]], [[CDK4]], [[CDK6]], [[PI3K]], [[Akt]], [[IGF-1]], [[Nuclear Receptor]]
+- New links added: [[Prostate Cancer]], [[Apigenin]], [[Estrogen Receptor]], [[CDK2]], [[CDK4]], [[CDK6]], [[PI3K]], [[Akt]], [[IGF1]], [[Nuclear Receptor]]
 - Strong connections to strengthen: [[Androgen Receptor]] ↔ [[Apigenin]]

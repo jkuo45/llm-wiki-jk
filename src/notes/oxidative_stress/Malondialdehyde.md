@@ -6,10 +6,7 @@ updated: 2026-07-07
 tags:
   - oxidative-stress
   - biological-molecule
-  - lipid-peroxidation
-  - biological-molecule
-aliases: [MDA]
-protected: true
+aliases: [MDA, Elevated MDA]
 ---
 
 # Malondialdehyde

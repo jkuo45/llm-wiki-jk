@@ -20,7 +20,7 @@ aliases:
 
 ## Role in Senescence Research
 
-- **Mitochondrial transplantation (causality test)**: Healthy mitochondria isolated from human umbilical cord–derived MSCs, when transplanted into replicative-senescence human retinal pigment epithelial cells, reversed mitochondrial dysfunction and reduced [[p16 INK4a|p16]] and [[p21 CIP1|p21]] levels as well as the [[SASP]] factors [[TNFα]] and [[IL-8]]. This provides strong evidence that mitochondrial dysfunction is a significant driver of cellular senescence.
+- **Mitochondrial transplantation (causality test)**: Healthy mitochondria isolated from human umbilical cord–derived MSCs, when transplanted into replicative-senescence human retinal pigment epithelial cells, reversed mitochondrial dysfunction and reduced [[p16INK4A|p16]] and [[p21 CIP1|p21]] levels as well as the [[SASP]] factors [[TNFα]] and [[IL-8]]. This provides strong evidence that mitochondrial dysfunction is a significant driver of cellular senescence.
 - **EndoMT reference state**: In vascular aging, senescent [[Endothelial Cells|endothelial cells]] undergoing [[Endothelial-to-Mesenchymal Transition|EndoMT]] lose endothelial traits and acquire mesenchymal (MSC-like) contractile markers; the mesenchymal gene signature is used as a readout of this transdifferentiation driven by SASP factor [[CXCL12]].
 
 ## Clinical / Experimental Relevance
@@ -36,7 +36,7 @@ aliases:
 
 - [[Mitochondria]] — Donated from MSCs to reverse senescence
 - [[Senescence]] — Reversed by MSC-mitochondrial transplantation
-- [[p16 INK4a]] — Senescence marker reduced by MSC mitochondria
+- [[p16INK4A]] — Senescence marker reduced by MSC mitochondria
 - [[p21 CIP1]] — Senescence marker reduced by MSC mitochondria
 - [[SASP]] — Inflammatory secretome reduced by MSC mitochondria
 - [[Endothelial-to-Mesenchymal Transition]] — Process acquiring MSC-like traits
@@ -48,6 +48,6 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Mitochondria]], [[Senescence]], [[p16 INK4a]], [[p21 CIP1]], [[SASP]], [[Endothelial-to-Mesenchymal Transition]], [[Endothelial Cells]], [[CXCL12]], [[NAMPT]], [[TNFα]], [[IL-8]]
+- New links added: [[Mitochondria]], [[Senescence]], [[p16INK4A]], [[p21 CIP1]], [[SASP]], [[Endothelial-to-Mesenchymal Transition]], [[Endothelial Cells]], [[CXCL12]], [[NAMPT]], [[TNFα]], [[IL-8]]
 - Suggested new entity notes to create: [[NAMPT]]
 - Strong connections to strengthen: [[Mesenchymal Stem Cells]] ↔ [[Senescence]], [[Mesenchymal Stem Cells]] ↔ [[Mitochondria]]

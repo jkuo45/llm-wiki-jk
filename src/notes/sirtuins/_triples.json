@@ -98,42 +98,42 @@
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "requires",
-    "object": "SIR2 gene",
+    "object": "Sir2 (yeast)",
     "context": "In yeast, the replicative lifespan extension conferred by caloric restriction is abolished when the SIR2 gene is deleted, establishing Sir2 as a required mediator of the CR response. This dependence reflects the fact that CR raises the NAD+/nicotinamide ratio, which relieves nicotinamide feedback inhibition and boosts Sir2 deacetylase activity. The relationship is directional: CR acts upstream and Sir2 is the necessary downstream effector in this genetic pathway. A caveat is that in higher organisms the requirement is distributed across multiple sirtuins and redundant pathways, so SIR2/SIRT1 is necessary but not solely sufficient.",
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "extends lifespan in",
     "object": "Saccharomyces cerevisiae",
     "context": "Reducing glucose from 2% to 0.5% in yeast medium extends replicative lifespan by roughly 30%, an effect mediated through elevated NAD+ availability and Sir2 activation. The mechanism hinges on CR lowering the nicotinamide/NAD+ ratio, thereby disinhibiting Sir2 and reinforcing silencing at repetitive rDNA and subtelomeric regions. This intervention is directional: the dietary manipulation is the cause and the lifespan gain the consequence. The finding seeded the broader hypothesis that sirtuin activation underlies longevity benefits of restricted feeding across species.",
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "extends lifespan in",
     "object": "Drosophila melanogaster",
     "context": "Dietary restriction in Drosophila extends lifespan and, as in yeast, this benefit requires the dSir2 (Sir2) gene, indicating evolutionary conservation of the sirtuin-mediated CR pathway. The effect is thought to operate through improved protein homeostasis, stress resistance, and metabolic efficiency rather than simple calorie shortage. Directionally, reduced nutrient signaling upstream engages dSir2 to produce the longevity phenotype. Caveats include that the magnitude and requirement vary with sex, genetic background, and the precise restriction paradigm used.",
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "increases",
     "object": "SIRT1 expression",
     "context": "In rodents, caloric restriction raises SIRT1 levels in multiple tissues, and this elevation is linked to reduced inflammatory and oxidative responses. Higher SIRT1 expression translates into enhanced deacetylation of targets such as NF-κB, FOXO, and PGC-1α, promoting stress resistance and metabolic health. The directionality is that CR is the upstream stimulus and increased SIRT1 abundance/activity the downstream mediator. This adaptation is considered a key explanation for the anti-aging and disease-protective effects of CR in mammals.",
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "increases",
     "object": "NAD+/nicotinamide ratio (brain)",
     "context": "Caloric restriction elevates the brain NAD+/nicotinamide ratio, which both supplies more co-substrate for sirtuins and relieves nicotinamide-mediated feedback inhibition of SIRT1. The resulting gain in sirtuin activity supports neuronal stress resistance, mitochondrial function, and suppression of neuroinflammatory signaling. The relationship is directional: CR shifts the ratio upward, which then potentiates sirtuin-dependent protective programs. This mechanism is frequently invoked to explain CR's protective effects against age-related cognitive decline and neurodegenerative pathology.",
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "downregulates",
     "object": "SIRT4",
     "context": "In pancreatic islets of calorically restricted mice, SIRT4 expression is reduced, shifting the mitochondrial sirtuin balance toward the protective, oxidative-phosphorylation-promoting actions of SIRT3. Because SIRT4 normally restrains amino-acid-stimulated insulin secretion and mitochondrial fat oxidation, its downregulation supports improved β-cell metabolic flexibility. The directionality is that CR suppresses SIRT4 transcription, altering the SIRT3/SIRT4 ratio. Aging shows the opposite pattern—rising SIRT4 and falling SIRT3—so CR counters the age-related drift in this ratio.",
@@ -191,7 +191,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "Histone H4 (Lys16)",
+    "object": "Histone H4",
     "context": "SIRT1 removes the acetyl group from Lys16 of histone H4, a site whose acetylation is linked to telomeric and rDNA silencing and genome stability. Deacetylation at H4K16 promotes a more compact chromatin fiber and is shared with SIRT2 at this residue in certain contexts. The relationship is directional and repressive: SIRT1-mediated deacetylation consolidates heterochromatin-like states. Defective H4K16 deacetylation is associated with the genomic instability seen when SIRT1 function is compromised.",
     "confidence": 0.95
   },
@@ -317,7 +317,7 @@
   {
     "subject": "SIRT2",
     "predicate": "deacetylates",
-    "object": "Histone H4 (Lys16)",
+    "object": "Histone H4",
     "context": "SIRT2 deacetylates Lys16 on histone H4, a modification linked to chromatin condensation during the G2/M transition of mitosis. Removing H4K16ac promotes a more compact mitotic chromatin state compatible with chromosome segregation. The directionality is enzymatic: SIRT2 directly deacetylates H4K16 to remodel chromatin at division. This activity complements SIRT2's role in microtubule and cell-cycle regulation.",
     "confidence": 0.95
   },
@@ -471,7 +471,7 @@
   {
     "subject": "Resveratrol",
     "predicate": "requires",
-    "object": "SIR2 gene",
+    "object": "Sir2 (yeast)",
     "context": "Resveratrol's lifespan-extending effect in yeast is absolutely dependent on the presence of the SIR2 gene, so SIR2 deletion abolishes the benefit. This genetic requirement demonstrated that resveratrol acts through sirtuin activation rather than off-target longevity pathways. The directionality is resveratrol upstream, SIR2 downstream and necessary. The dependence established the conceptual template later applied to mammalian SIRT1 STACs.",
     "confidence": 0.95
   },
@@ -525,14 +525,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 knockout mice",
+    "subject": "SIRT1",
     "predicate": "display",
     "object": "Developmental defects",
     "context": "SIRT1-null mice are markedly smaller, grow slowly, and show defects in eye morphogenesis and cardiac septation, revealing SIRT1's role in normal development. These phenotypes indicate that SIRT1 is not merely a stress-response protein but is required for organogenesis. The directionality is SIRT1 deficiency causing structural developmental abnormalities. The perinatal lethality of many knockouts limited study, prompting tissue-specific models.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 knockout mice",
+    "subject": "SIRT1",
     "predicate": "display",
     "object": "Sterility",
     "context": "Surviving SIRT1 knockout mice of both sexes are sterile: males have low sperm counts and females fail to ovulate, implicating SIRT1 in gametogenesis and reproductive endocrine control. The defect reflects failed differentiation and stress responses in gonadal tissues. The directionality is SIRT1 loss upstream of reproductive failure. This shows SIRT1 is essential for germ-cell development and fertility.",
@@ -623,7 +623,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "Caloric Restriction (CR)",
+    "subject": "Caloric Restriction",
     "predicate": "prevents",
     "object": "β-amyloid neuropathology (Alzheimer's mouse model)",
     "context": "In mouse models engineered to develop Alzheimer's-like pathology, caloric restriction prevents accumulation of β-amyloid neuropathology, an effect consistent with SIRT1-driven reductions in neuroinflammation and oxidative stress. The directionality is CR upstream of reduced amyloid burden. This supports the hypothesis that CR protects the brain through sirtuin-mediated resilience. Human translation remains uncertain but motivates lifestyle interventions in neurodegeneration.",
@@ -714,14 +714,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "CD38 inhibition",
+    "subject": "CD38",
     "predicate": "preserves",
     "object": "NAD+",
     "context": "Inhibiting CD38, a major consumer of NAD+ that generates nicotinamide and cADPR, preserves cellular NAD+ pools by reducing their catabolic drain. The directionality is CD38 inhibition upstream of higher NAD+ availability. Because all sirtuins require NAD+ as co-substrate, preserving NAD+ indirectly sustains sirtuin activity. This is a leading strategy to reverse age-related NAD+ decline.",
     "confidence": 0.95
   },
   {
-    "subject": "CD38 inhibition",
+    "subject": "CD38",
     "predicate": "boosts",
     "object": "SIRT3",
     "context": "By preserving NAD+, CD38 inhibition boosts sirtuin activity, especially mitochondrial SIRT3, which depends on adequate NAD+ to deacetylate metabolic and antioxidant enzymes. The directionality is CD38 inhibition → more NAD+ → heightened SIRT3 function. This indirectly enhances mitochondrial ROS defense and metabolic health. Pharmacologic CD38 blockers such as 78c extend lifespan in aged mice via this axis.",
@@ -730,14 +730,14 @@
   {
     "subject": "Daratumumab",
     "predicate": "is a",
-    "object": "Anti-CD38 monoclonal antibody",
+    "object": "CD38",
     "context": "Daratumumab (Darzalex, first approved 2015) and isatuximab (Sarclisa, approved 2020/2021) are IgG1 monoclonal antibodies that bind distinct epitopes on CD38, a cell-surface ectoenzyme. By engaging CD38 on malignant plasma cells, daratumumab triggers antibody-dependent cellular cytotoxicity and complement-dependent killing. The directionality is the antibody acting on CD38-expressing cells. Although primarily an anticancer agent, depleting CD38 also reduces NAD+ consumption, indirectly favoring sirtuin activity.",
     "confidence": 0.95
   },
   {
     "subject": "Isatuximab",
     "predicate": "is a",
-    "object": "Anti-CD38 monoclonal antibody",
+    "object": "CD38",
     "context": "Isatuximab (Sarclisa) is an IgG1 anti-CD38 monoclonal antibody, approved around 2020/2021, that binds a different CD38 epitope than daratumumab. It mediates direct apoptosis and immune effector functions against CD38+ multiple myeloma cells. The directionality is antibody → CD38 engagement → tumor cell death. Like daratumumab, it also lowers CD38 ectoenzyme activity, indirectly preserving NAD+ for sirtuins.",
     "confidence": 0.95
   },
@@ -805,14 +805,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 (activated by resveratrol)",
+    "subject": "SIRT1",
     "predicate": "deacetylates and activates",
     "object": "PGC-1α",
     "context": "Resveratrol-activated SIRT1 deacetylates PGC-1α, switching it to an active coactivator that drives mitochondrial biogenesis and oxidative-phosphorylation gene expression. The directionality is SIRT1 → PGC-1α activation → mitochondrial program. This explains resveratrol's ability to mimic caloric restriction's metabolic benefits. The effect is amplified by the concurrent NAD+ rise from the AMPK/NAMPT limb.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 (activated by resveratrol)",
+    "subject": "SIRT1",
     "predicate": "deacetylates",
     "object": "FOXO3a",
     "context": "Resveratrol-activated SIRT1 deacetylates FOXO3a, shifting its transcriptional output toward stress-resistance genes such as SOD2 and catalase and toward autophagy rather than apoptosis. The directionality is SIRT1 enzymatic modification of FOXO3a. This repositions the cell to endure oxidative and nutrient stress. It is a canonical longevity-associated program engaged by sirtuin activation.",
@@ -826,7 +826,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 (activated by resveratrol)",
+    "subject": "SIRT1",
     "predicate": "deacetylates and inhibits",
     "object": "NF-κB",
     "context": "Resveratrol-activated SIRT1 deacetylates the NF-κB subunit RelA/p65, preventing its optimal DNA binding and transcriptional activation. The directionality is SIRT1 enzymatically inhibiting NF-κB. This suppresses expression of pro-inflammatory cytokines including TNF-α, IL-1β, and IL-6. The anti-inflammatory action is a major contributor to resveratrol's cardiovascular and metabolic benefits.",
@@ -842,7 +842,7 @@
   {
     "subject": "SIRT1 (resveratrol-activated)",
     "predicate": "activates",
-    "object": "eNOS (endothelial nitric oxide synthase)",
+    "object": "eNOS",
     "context": "Resveratrol-activated endothelial SIRT1 increases eNOS expression and deacetylates/activates it, enhancing nitric-oxide production and promoting vasodilation. The directionality is SIRT1 upstream of eNOS activation. Improved NO bioavailability lowers vascular tone and protects against endothelial dysfunction. This underlies resveratrol's cardiovascular and 'French paradox' associations.",
     "confidence": 0.95
   },
@@ -875,28 +875,28 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT3 (activated by Honokiol)",
+    "subject": "SIRT3",
     "predicate": "deacetylates",
     "object": "MnSOD (K68, K122)",
     "context": "Honokiol-activated SIRT3 deacetylates MnSOD at Lys68 and Lys122, markedly increasing its superoxide-scavenging activity in the mitochondrial matrix. The directionality is SIRT3 enzymatic activation of MnSOD. Enhanced MnSOD lowers mitochondrial ROS and protects against oxidative injury. This is a principal mechanism for honokiol's cardiorenal and neuroprotective effects.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT3 (activated by Honokiol)",
+    "subject": "SIRT3",
     "predicate": "deacetylates",
     "object": "OSCP (ATP synthase subunit)",
     "context": "Honokiol-activated SIRT3 deacetylates OSCP, a subunit of the mitochondrial F1Fo-ATP synthase, optimizing coupling of proton flux to ATP synthesis. The directionality is SIRT3 enzymatic tuning of ATP synthase. Improved coupling boosts cellular energy output while limiting proton-leak-associated ROS. This contributes to honokiol's metabolic and cardioprotective actions.",
     "confidence": 0.95
   },
   {
-    "subject": "Honokiol (SIRT3 activation)",
+    "subject": "Honokiol",
     "predicate": "reverses",
     "object": "Cardiac hypertrophy",
     "context": "Through SIRT3 activation, honokiol reverses pathological cardiac hypertrophy and protects against doxorubicin-induced cardiotoxicity in preclinical models. The directionality is honokiol → SIRT3 → antihypertrophic and antioxidant programs. By activating mitochondrial defenses, it counters the oxidative and energetic deficits of failing myocardium. This positions SIRT3 as a therapeutic node in heart failure.",
     "confidence": 0.95
   },
   {
-    "subject": "Honokiol (SIRT3 activation)",
+    "subject": "Honokiol",
     "predicate": "suppresses",
     "object": "Renal tubulointerstitial fibrosis",
     "context": "Honokiol suppresses renal tubulointerstitial fibrosis by activating SIRT3, which inhibits the NF-κB/TGF-β1 pathway and limits fibrogenic signaling in kidney tubules. The directionality is honokiol → SIRT3 → antifibrotic transcription. This reduces collagen deposition and inflammatory infiltrate. It illustrates SIRT3's broad tissue-protective role beyond the heart.",
@@ -938,14 +938,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 (activated)",
+    "subject": "SIRT6",
     "predicate": "deacetylates",
     "object": "H3K9ac and H3K56ac",
     "context": "Activated SIRT6 rapidly deacetylates histone H3K9ac and H3K56ac at chromatin, promoting compaction and facilitating DNA-repair and silencing programs. The directionality is SIRT6 enzymatic removal of these active marks. Loss of H3K56ac in particular is associated with genome stability and stress resistance. This chromatin action underlies SIRT6's roles in longevity and tumor suppression.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 (activated)",
+    "subject": "SIRT6",
     "predicate": "suppresses",
     "object": "Glycolysis (Warburg effect)",
     "context": "By suppressing glycolysis and pushing tumor cells toward oxidative metabolism or autophagy, SIRT6 activators such as UBCS039 display tumor-suppressive activity. The directionality is SIRT6 activation upstream of reduced Warburg glycolysis. This restrains the aerobic-glycolytic phenotype that fuels cancer growth. It is a mechanistic rationale for SIRT6 activation in oncology.",
@@ -996,7 +996,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "NFKB",
+    "object": "NF-κB",
     "context": "SIRT1 deacetylates the RelA/p65 subunit of NF-κB, particularly at Lys310, inhibiting its transcriptional activity and reducing expression of inflammatory genes. The directionality is SIRT1 enzymatically inactivating NF-κB. This anti-inflammatory action is a cornerstone of SIRT1's protective effects in metabolic and cardiovascular disease. It complements SIRT1's promotion of p65 proteasomal degradation.",
     "confidence": 0.95
   },
@@ -1024,35 +1024,35 @@
   {
     "subject": "SIRT1",
     "predicate": "promotes proteasomal degradation of",
-    "object": "NFKB",
+    "object": "NF-κB",
     "context": "Nuclear SIRT1 deacetylates RelA/p65, which licenses its ubiquitination and proteasomal degradation, lowering NF-κB levels and activity. The directionality is SIRT1 → p65 deacetylation → proteasomal turnover. Consequently, decreased SIRT1 raises NF-κB activity, while SIRT1 activation suppresses it. This degradation axis acts together with SIRT6 to constrain inflammation.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT6",
     "predicate": "promotes proteasomal degradation of",
-    "object": "NFKB",
+    "object": "NF-κB",
     "context": "SIRT6 also deacetylates RelA/p65 and supports its proteasomal degradation, cooperating with SIRT1 to terminate NF-κB signaling. The directionality is SIRT6 → p65 destabilization → reduced NF-κB. Loss of either sirtuin elevates NF-κB activity, highlighting redundancy in this anti-inflammatory circuit. It is a key mechanism behind SIRT6's Anti-inflammatory and anti-aging effects.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT7",
     "predicate": "inhibits nuclear translocation of",
-    "object": "NFKB",
+    "object": "NF-κB",
     "context": "Knockdown of SIRT7 promotes nuclear translocation of NF-κB p-p65 and increases downstream inflammatory cytokines, whereas SIRT7 overexpression has the opposite effect by retaining NF-κB cytoplasmically. The directionality is SIRT7 upstream of blocked p65 nuclear entry. This reveals a non-canonical, deacetylation-independent mode of NF-κB control by SIRT7. It ties SIRT7 to tissue inflammation, including in kidney.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT7-kidney-specific knockout",
     "predicate": "suppresses nuclear accumulation of",
-    "object": "NFKB",
+    "object": "NF-κB",
     "context": "Kidney-specific SIRT7 knockout mice show diminished inflammation with reduced TNF-α, IL-1β, and IL-6 and suppressed nuclear NF-κB p65 accumulation, indicating SIRT7 normally promotes renal NF-κB activation. The directionality is SIRT7 loss → less nuclear p65 → lower inflammation. This is somewhat counterintuitive given SIRT7's usual anti-inflammatory renal role elsewhere, underscoring context dependence. It suggests SIRT7 can be pro-inflammatory in specific renal settings.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT2",
     "predicate": "deacetylates",
-    "object": "NFKB",
+    "object": "NF-κB",
     "context": "SIRT2 deacetylates the p65 subunit of NF-κB, reducing pro-inflammatory cytokine levels and ameliorating arthritis severity in models. The directionality is SIRT2 enzymatic inhibition of NF-κB. This reveals an anti-inflammatory role for SIRT2 in myeloid and joint cells. It adds SIRT2 to the set of sirtuins that restrain NF-κB-driven inflammation.",
     "confidence": 0.95
   },
@@ -1283,28 +1283,28 @@
   {
     "subject": "SIRT4",
     "predicate": "inhibits",
-    "object": "MnSOD activity",
+    "object": "MnSOD",
     "context": "SIRT4 overexpression aggravates angiotensin-II-induced cardiac hypertrophy by inhibiting MnSOD activity, raising mitochondrial superoxide and oxidative damage. The directionality is SIRT4 enzymatic suppression of MnSOD. This is the opposite of SIRT3's activation of MnSOD, underscoring the antagonistic SIRT3/SIRT4 balance. It positions SIRT4 as a cardiac stress amplifier.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "TGF-β/Smad3 pathway",
+    "object": "TGFβ",
     "context": "Activation of SIRT1 (with SIRT3) by resveratrol attenuates cardiac fibrosis in mice by inhibiting the TGF-β/Smad3 pathway. The directionality is SIRT1 upstream of TGF-β/Smad3 suppression. This reduces collagen deposition and myofibroblast activation. It is a key antifibrotic mechanism relevant to heart and kidney disease.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT3",
     "predicate": "inhibits",
-    "object": "TGF-β/Smad3 pathway",
+    "object": "TGFβ",
     "context": "SIRT3, together with SIRT1, inhibits the TGF-β/Smad3 pathway to attenuate cardiac fibrosis in vivo. The directionality is SIRT3 upstream of TGF-β/Smad3 blockade. This limits fibroblast-to-myofibroblast transition and extracellular-matrix accumulation. It complements SIRT3's general anti-inflammatory and metabolic cardiac protection.",
     "confidence": 0.95
   },
   {
     "subject": "SIRT6",
     "predicate": "inhibits",
-    "object": "TGF-β/Smad3 pathway",
+    "object": "TGFβ",
     "context": "Systemic SIRT6 knockout induces cardiac fibrosis in mice by activating the TGF-β/Smad3 pathway, so SIRT6 normally restrains this fibrogenic cascade. The directionality is SIRT6 loss → TGF-β/Smad3 activation → fibrosis. This is the inverse of the protective relationship seen with SIRT1/SIRT3. It establishes SIRT6 as a cardiac antifibrotic factor.",
     "confidence": 0.95
   },
@@ -1414,14 +1414,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 (dendritic cells)",
+    "subject": "SIRT1",
     "predicate": "promotes",
-    "object": "Foxp3+ regulatory T cells differentiation",
+    "object": "Regulatory T cells",
     "context": "SIRT1 in dendritic cells modulates the balance between pro-inflammatory Th1 and anti-inflammatory Foxp3+ regulatory T (Treg) cells; its knockout restrains Treg generation. The directionality is DC SIRT1 upstream of Treg differentiation. This shapes peripheral tolerance and limits autoimmunity. It links sirtuins to immune homeostasis beyond metabolism.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 (dendritic cells)",
+    "subject": "SIRT1",
     "predicate": "restrains",
     "object": "T helper type 1 cells development",
     "context": "Dendritic-cell SIRT1 knockout drives T helper 1 (Th1) cell development and promotes inflammation, indicating SIRT1 normally restrains Th1 polarization. The directionality is DC SIRT1 upstream of suppressed Th1 differentiation. This tempers cell-mediated inflammatory responses. It demonstrates SIRT1's immunoregulatory role in antigen presentation.",
@@ -1435,14 +1435,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 (pancreatic β cells)",
+    "subject": "SIRT6",
     "predicate": "deacetylates",
     "object": "FoxO1",
     "context": "In pancreatic β-cells, SIRT6 deacetylates FoxO1 to maintain glucose-sensing ability and systemic glucose tolerance. The directionality is SIRT6 enzymatic activation of FoxO1. This preserves β-cell identity and insulin secretory capacity under metabolic stress. It is a β-cell-specific metabolic safeguard distinct from SIRT1's actions.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 (pancreatic β cells)",
+    "subject": "SIRT6",
     "predicate": "increases expression of",
     "object": "GLUT2",
     "context": "SIRT6 deacetylates FoxO1 and subsequently increases expression of glucose-dependent transporter 2 (GLUT2) in pancreatic β-cells. The directionality is SIRT6 → FoxO1 → GLUT2 induction. Higher GLUT2 restores glucose sensing and appropriate insulin release. This complements SIRT6's role in β-cell metabolic health.",
@@ -1626,7 +1626,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "eNOS (endothelial nitric oxide synthase)",
+    "object": "eNOS",
     "context": "SIRT1 deacetylates endothelial nitric-oxide synthase (eNOS), activating it and enhancing endothelial NO production, which promotes vasodilation and vascular protection. The directionality is SIRT1 enzymatic activation of eNOS. This is a canonical SIRT1 vascular mechanism, also engaged by resveratrol. It links sirtuin activity directly to endothelial function.",
     "confidence": 0.95
   },
@@ -1738,7 +1738,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "Beclin-1",
+    "object": "Beclin1",
     "context": "SIRT1 deacetylates Beclin-1 at multiple lysines, promoting its interaction with the class III PI3K Vps34 and enhancing autophagy initiation and flux. The directionality is SIRT1 enzymatic licensing of Beclin-1. This supports autophagosome formation and cellular clearance. It is a central SIRT1 autophagy substrate alongside LC3, Atg5, Atg7, and ULK1.",
     "confidence": 0.95
   },
@@ -1850,7 +1850,7 @@
   {
     "subject": "SIRT4",
     "predicate": "inhibits",
-    "object": "MnSOD activity",
+    "object": "MnSOD",
     "context": "SIRT4 overexpression aggravates angiotensin-II-induced cardiac hypertrophy by inhibiting MnSOD activity, raising mitochondrial superoxide and oxidative damage. The directionality is SIRT4 enzymatic suppression of MnSOD. This is the opposite of SIRT3's activation of MnSOD, underscoring the antagonistic SIRT3/SIRT4 balance. It positions SIRT4 as a cardiac stress amplifier.",
     "confidence": 0.95
   },
@@ -1876,9 +1876,9 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT1 (dendritic cells)",
+    "subject": "SIRT1",
     "predicate": "promotes",
-    "object": "Foxp3+ regulatory T cells differentiation",
+    "object": "Regulatory T cells",
     "context": "SIRT1 in dendritic cells modulates the balance between pro-inflammatory Th1 and anti-inflammatory Foxp3+ regulatory T (Treg) cells; its knockout restrains Treg generation. The directionality is DC SIRT1 upstream of Treg differentiation. This shapes peripheral tolerance and limits autoimmunity. It links sirtuins to immune homeostasis beyond metabolism.",
     "confidence": 0.95
   },
@@ -1934,7 +1934,7 @@
   {
     "subject": "Nicotinamide",
     "predicate": "inhibits",
-    "object": "SIRT1 (feedback inhibition)",
+    "object": "SIRT1",
     "context": "Nicotinamide, the deamidated form of vitamin B3, is an endogenous non-competitive feedback inhibitor of sirtuins, binding a conserved pocket within the catalytic domain and blocking NAD+ re-entry. The directionality is nicotinamide upstream of sirtuin inhibition. This provides a natural brake on sirtuin activity as NAD+ turns over. High nicotinamide/NAD+ ratios therefore suppress sirtuin function, a rationale for NAD+ precursors that dilute nicotinamide.",
     "confidence": 0.95
   },
@@ -2037,7 +2037,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "ULK1 complex",
+    "subject": "ULK1",
     "predicate": "includes",
     "object": "ULK1, ATG13, FIP200, ATG101",
     "context": "ULK1 functions within a stable initiation complex containing ATG13, FIP200 (RB1CC1), and ATG101, which nucleates autophagosome formation in response to nutrient status. The directionality is the complex upstream of autophagy initiation. SIRT1 deacetylates and activates ULK1 within this complex. This positions sirtuins at the top of the autophagic machinery.",
@@ -2368,7 +2368,7 @@
   {
     "subject": "Fucoidan",
     "predicate": "enhances",
-    "object": "SIRT6 mono-ADP-ribosyltransferase activity",
+    "object": "SIRT6",
     "context": "Distinctively, fucoidan preferentially stimulates SIRT6's ADP-ribosyltransferase activity rather than its deacetylase activity. The directionality is fucoidan upstream of SIRT6 ADP-ribosylation. This recruits KAP1/HP1α to silence repetitive elements. It makes fucoidan a mechanistically unique SIRT6 activator.",
     "confidence": 0.95
   },
@@ -2429,35 +2429,35 @@
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 centenarian variants",
+    "subject": "SIRT6",
     "predicate": "enhance",
-    "object": "SIRT6 mono-ADP-ribosyltransferase activity",
+    "object": "SIRT6",
     "context": "Centenarian SIRT6 (CentSIRT6) exhibits enhanced mono-ADP-ribosyltransferase activity, with the A313S substitution primarily responsible for this gain. The directionality is variant upstream of stronger ADP-ribosylation. This boosts KAP1/HP1α recruitment and LINE-1 silencing. It dissociates ADP-ribosyltransferase gain from deacetylase loss.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 centenarian variants",
+    "subject": "SIRT6",
     "predicate": "reduce",
     "object": "SIRT6 deacetylase activity",
     "context": "Despite higher SIRT6 protein, centenarian hMSCs show increased histone acetylation at H3K9, H3K18, and H3K27, confirming reduced deacetylase activity. The directionality is variant upstream of weaker deacetylation. This indicates the longevity benefit may hinge more on ADP-ribosyltransferase than deacetylase function. It reframes how 'active' SIRT6 should be interpreted.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 centenarian variants",
+    "subject": "SIRT6",
     "predicate": "delay",
     "object": "Replicative senescence (hMSCs)",
     "context": "At late passages, centenarian-variant hMSCs show more Ki67-positive proliferating cells and fewer SA-β-gal-positive senescent cells, demonstrating delayed replicative senescence. The directionality is CentSIRT6 upstream of senescence delay. This is a cellular correlate of exceptional human longevity. It supports SIRT6 as a senescence-modulating factor.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 centenarian variants",
+    "subject": "SIRT6",
     "predicate": "confer resistance to",
     "object": "Progerin-induced stress",
     "context": "Centenarian SIRT6 variants ameliorate multiple aging phenotypes in progerin-expressing hMSCs: higher Ki67, reduced SA-β-gal, decreased p16/p21, reduced IL-6, and increased Lamin B1. The directionality is CentSIRT6 upstream of progerin-stress resistance. This shows the variant buffers premature-aging (HGPS) pathology. It ties SIRT6 to laminopathy resilience.",
     "confidence": 0.95
   },
   {
-    "subject": "SIRT6 centenarian variants",
+    "subject": "SIRT6",
     "predicate": "suppress",
     "object": "LINE-1 derepression (under progerin stress)",
     "context": "Under progerin-induced stress, centenarian-variant hMSCs better maintain LINE-1 repression, with reduced ORF1p and ORF2p proteins. The directionality is CentSIRT6 upstream of continued LINE-1 silencing. This protects genome integrity against retrotransposition. It connects the ADP-ribosyltransferase gain to repetitive-element control.",
@@ -2963,7 +2963,7 @@
   {
     "subject": "Nicotinamide",
     "predicate": "binds C-pocket of",
-    "object": "SIRT1 (feedback inhibition)",
+    "object": "SIRT1",
     "context": "Nicotinamide binds the C-pocket of SIRT1 at high concentrations, blocking NAD+ re-entry and acting as a feedback inhibitor that links SIRT1 activity to cellular NAD+ salvage status. The directionality is nicotinamide upstream of SIRT1 inhibition. This natural brake is relieved when the NAD+/nicotinamide ratio is high (e.g., during CR). It rationalizes NAD+ precursor supplementation to disinhibit sirtuins.",
     "confidence": 0.95
   },

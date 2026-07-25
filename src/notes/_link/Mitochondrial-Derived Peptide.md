@@ -23,7 +23,7 @@ aliases:
 ## Paradigm Shift
 
 > [!important] From End-Function Organelle to Signaling Hub
-> The discovery of MDPs fundamentally changed the understanding of [[Mitochondria]] from passive "end-function" organelles that merely produce ATP and regulate [[Apoptosis]] to active signaling centers that communicate metabolic status to the nucleus and to distant tissues. MDPs are unique among [[Retrograde Signaling|retrograde signals]] because they are encoded within the mitochondrial genome itself, unlike other retrograde signals (Ca²⁺, [[Reactive Oxygen Species|ROS]], [[Cytochrome C]]) that are secondary products of mitochondrial metabolism.
+> The discovery of MDPs fundamentally changed the understanding of [[Mitochondria]] from passive "end-function" organelles that merely produce ATP and regulate [[Apoptosis]] to active signaling centers that communicate metabolic status to the nucleus and to distant tissues. MDPs are unique among [[Retrograde Signaling|retrograde signals]] because they are encoded within the mitochondrial genome itself, unlike other retrograde signals (Ca²⁺, [[Reactive Oxygen Species|ROS]], [[Cytochrome c]]) that are secondary products of mitochondrial metabolism.
 
 ## Known MDPs
 

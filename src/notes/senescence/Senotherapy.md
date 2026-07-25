@@ -25,7 +25,7 @@ The accumulation of [[Senescent Cells|senescent cells]] with age contributes to 
 ## Senolytics vs Senomorphics
 
 - **Senolytics** clear senescent cells via apoptosis, often through inhibition of [[Senescent cell anti-apoptotic pathways]] (e.g., BCL-2 family, PI3K/AKT). They are typically dosed intermittently.
-- **Senomorphics** blunt SASP expression (e.g., via [[NFKB]], [[cGAS-STING Pathway]], or histone-modifying enzymes) while preserving the growth-arrest and potentially beneficial acute functions of senescence. They generally require continuous administration.
+- **Senomorphics** blunt SASP expression (e.g., via [[NF-κB]], [[cGAS-STING Pathway]], or histone-modifying enzymes) while preserving the growth-arrest and potentially beneficial acute functions of senescence. They generally require continuous administration.
 
 ## Therapeutic Trade-offs
 
@@ -45,6 +45,6 @@ Because the SASP is context-dependent — beneficial in acute senescence (wound 
 
 ## Linking Summary
 
-- New links added: [[Senolytic]], [[Senomorphic]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[BRD4]], [[NFKB]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence]], [[Age-Related Diseases]]
+- New links added: [[Senolytic]], [[Senomorphic]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[BRD4]], [[NF-κB]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence]], [[Age-Related Diseases]]
 - Suggested new entity notes to create: [[Senescent cell anti-apoptotic pathways]]
 - Strong connections to strengthen: [[Senotherapy]] ↔ [[Senomorphic]]; [[Senotherapy]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

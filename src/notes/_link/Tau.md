@@ -9,14 +9,12 @@ tags:
   - alzheimer's-disease
   - tauopathy
   - neurodegeneration
-  - microtubule
-  - protein
-aliases: [MAPT, microtubule-associated protein tau, Tau protein]
+aliases: [MAPT, microtubule-associated protein tau, Tau protein, Tau hyperphosphorylation]
 ---
 
 # Tau
 
-Tau (microtubule-associated protein tau, MAPT) is a 352–441 amino acid intrinsically disordered protein encoded by the *MAPT* gene on chromosome 17q21.31. It is predominantly expressed in neurons, where it binds and stabilizes [[Microtubule|microtubules]] in axons. Six isoforms are produced by alternative splicing of exons 2, 3, and 10. [[Tau hyperphosphorylation]] and aggregation into [[Neurofibrillary tangles|neurofibrillary tangles]] (NFTs) is a pathological hallmark of [[Alzheimer's Disease]] and other tauopathies. Outside the nervous system, low-level Tau expression has been detected in kidneys, lungs, and hematopoietic cells, though its function in these tissues remains poorly characterized.
+Tau (microtubule-associated protein tau, MAPT) is a 352–441 amino acid intrinsically disordered protein encoded by the *MAPT* gene on chromosome 17q21.31. It is predominantly expressed in neurons, where it binds and stabilizes [[Microtubule|microtubules]] in axons. Six isoforms are produced by alternative splicing of exons 2, 3, and 10. [[Tau|Tau hyperphosphorylation]] and aggregation into [[Neurofibrillary tangles|neurofibrillary tangles]] (NFTs) is a pathological hallmark of [[Alzheimer's Disease]] and other tauopathies. Outside the nervous system, low-level Tau expression has been detected in kidneys, lungs, and hematopoietic cells, though its function in these tissues remains poorly characterized.
 
 ## Structure & Domains
 

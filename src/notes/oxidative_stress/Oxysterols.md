@@ -24,7 +24,7 @@ Non-enzymatic oxysterols arise when [[Reactive Oxygen Species]] oxidize choleste
 
 ## Pathological Relevance
 
-Oxidized cholesterol species accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam-cell death, inflammation, and vulnerability to rupture—linking oxysterols to [[Atherosclerosis]]. They are elevated in [[Alzheimer's Disease]] and other [[Neurodegenerative Diseases]]: 27-hydroxycholesterol correlates with amyloid burden and may modulate [[Amyloid-beta]] generation via LXR and lipid-raft effects; 24(S)-hydroxycholesterol rises with neuronal damage. Oxysterols are also implicated in age-related macular degeneration and in the pathogenesis of Alzheimer's via cholesterol dyshomeostasis. Dietary oxysterols (from heated/fried foods) contribute to systemic oxidative load.
+Oxidized cholesterol species accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam-cell death, inflammation, and vulnerability to rupture—linking oxysterols to [[Atherosclerosis]]. They are elevated in [[Alzheimer's Disease]] and other [[Neurodegenerative Diseases]]: 27-hydroxycholesterol correlates with amyloid burden and may modulate [[Amyloid Beta]] generation via LXR and lipid-raft effects; 24(S)-hydroxycholesterol rises with neuronal damage. Oxysterols are also implicated in age-related macular degeneration and in the pathogenesis of Alzheimer's via cholesterol dyshomeostasis. Dietary oxysterols (from heated/fried foods) contribute to systemic oxidative load.
 
 ## Connections
 

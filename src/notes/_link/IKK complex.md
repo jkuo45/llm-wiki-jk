@@ -14,7 +14,7 @@ aliases: [IKK complex, IκB kinase complex, IKK]
 
 # IKK complex
 
-The **IκB kinase (IKK) complex** is the core signaling component of the canonical [[NFKB|NF-κB]] pathway. It consists of two catalytic subunits, [[IKKalpha]] (IKKα) and [[IKKbeta]] (IKKβ), and a regulatory scaffold subunit, NEMO (IKKγ, encoded by IKBKG).
+The **IκB kinase (IKK) complex** is the core signaling component of the canonical [[NF-κB|NF-κB]] pathway. It consists of two catalytic subunits, [[IKKalpha]] (IKKα) and [[IKKbeta]] (IKKβ), and a regulatory scaffold subunit, NEMO (IKKγ, encoded by IKBKG).
 
 ## Mechanism of Action & Signaling
 
@@ -22,7 +22,7 @@ In resting cells, NF-κB dimers (p50/[[p65]]) are sequestered in the cytoplasm b
 
 ## Role in Senescence / SASP
 
-The IKK complex is a key mediator of [[NFKB|NF-κB]] activation in [[Senescent Cells]] and a master driver of the [[SASP|Senescence-Associated Secretory Phenotype]]. NF-κB is necessary and, in cooperation with C/EBPβ, sufficient for SASP transcription (Chien et al., 2011, PMID 21876164). In senescence, persistent DDR and cytokine/receptor signals keep IKKβ active, sustaining IκBα turnover and nuclear NF-κB, which transcribes IL-6, IL-8, chemokines, and matrix metalloproteinases. Because the IKK–NF-κB module intersects with JAK/STAT and p38–MK2 axes, it integrates transcriptional and post-transcriptional layers of the SASP. Inhibiting IKKβ (or upstream [[TAK1]]) suppresses SASP secretion, marking the complex as a central senomorphic node.
+The IKK complex is a key mediator of [[NF-κB|NF-κB]] activation in [[Senescent Cells]] and a master driver of the [[SASP|Senescence-Associated Secretory Phenotype]]. NF-κB is necessary and, in cooperation with C/EBPβ, sufficient for SASP transcription (Chien et al., 2011, PMID 21876164). In senescence, persistent DDR and cytokine/receptor signals keep IKKβ active, sustaining IκBα turnover and nuclear NF-κB, which transcribes IL-6, IL-8, chemokines, and matrix metalloproteinases. Because the IKK–NF-κB module intersects with JAK/STAT and p38–MK2 axes, it integrates transcriptional and post-transcriptional layers of the SASP. Inhibiting IKKβ (or upstream [[TAK1]]) suppresses SASP secretion, marking the complex as a central senomorphic node.
 
 ## Clinical / Pathological Relevance
 
@@ -39,7 +39,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[NFKB|NF-κB]] — Activates NF-κB by phosphorylating IκB inhibitors
+- [[NF-κB|NF-κB]] — Activates NF-κB by phosphorylating IκB inhibitors
 - [[IkappaB]] — Phosphorylates and leads to degradation of IκB
 - [[IkappaBalpha]] — Direct IKKβ substrate (Ser32/36)
 - [[IKKbeta]] — Catalytic kinase that phosphorylates IκBα
@@ -49,6 +49,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[IKKbeta]], [[TAK1]], [[IkappaBalpha]], [[NFKB|NF-κB]]
+  - New links added: [[IKKbeta]], [[TAK1]], [[IkappaBalpha]], [[NF-κB|NF-κB]]
   - Suggested new entity notes to create: [[IKKalpha]], [[NEMO]], [[β-TrCP]]
-  - Strong connections to strengthen: [[IKK complex]] ↔ [[NFKB|NF-κB]], [[IKK complex]] ↔ [[TAK1]], [[IKK complex]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
+  - Strong connections to strengthen: [[IKK complex]] ↔ [[NF-κB|NF-κB]], [[IKK complex]] ↔ [[TAK1]], [[IKK complex]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

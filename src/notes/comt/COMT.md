@@ -7,7 +7,7 @@ created: 2026-05-25
 updated: 2026-07-04
 tags:
   - enzyme
-aliases:
+  - Catechol-O-methyltransferase
   - Catechol-O-methyltransferase
 protected: true
 ---

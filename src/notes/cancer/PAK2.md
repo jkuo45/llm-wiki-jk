@@ -18,7 +18,7 @@ PAK2 contains an N-terminal regulatory domain with a GTPase-binding (PBD) and in
 
 ## Mechanism of Action
 
-As a survival kinase, PAK2 phosphorylates targets in cytoskeletal, migration, and transcriptional networks (e.g., influencing [[Bad]], [[MAPK]] signaling, and [[NFκB]]), promoting the [[Hallmarks of Cancer]] such as invasion and survival. Paradoxically, PAK2 also phosphorylates [[Caspase-7]] (and related caspases) in a manner that restricts their full proteolytic activation, thereby opposing chemotherapy-induced apoptosis. This dual nature — prosurvival intact, prodeath when cleaved — makes PAK2 a context-dependent determinant of treatment response.
+As a survival kinase, PAK2 phosphorylates targets in cytoskeletal, migration, and transcriptional networks (e.g., influencing [[Bad]], [[MAPK]] signaling, and [[NF-κB]]), promoting the [[Hallmarks of Cancer]] such as invasion and survival. Paradoxically, PAK2 also phosphorylates [[Caspase-7]] (and related caspases) in a manner that restricts their full proteolytic activation, thereby opposing chemotherapy-induced apoptosis. This dual nature — prosurvival intact, prodeath when cleaved — makes PAK2 a context-dependent determinant of treatment response.
 
 ## Physiological and Pathological Relevance
 
@@ -48,6 +48,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Caspase-7]], [[Apoptosis]], [[Bad]], [[Rac1]], [[Cdc42]], [[MAPK]], [[NFκB]], [[Metastasis]], [[Chemotherapy]], [[Cancer]], [[Hallmarks of Cancer]]
+- New links added: [[Caspase-7]], [[Apoptosis]], [[Bad]], [[Rac1]], [[Cdc42]], [[MAPK]], [[NF-κB]], [[Metastasis]], [[Chemotherapy]], [[Cancer]], [[Hallmarks of Cancer]]
 - Suggested new entity notes to create: [[PAK-2p34]], [[Rac1]]
 - Strong connections to strengthen: [[PAK2]] ↔ [[Caspase-7]], [[PAK2]] ↔ [[Apoptosis]]

@@ -27,7 +27,7 @@ HUWE1 functions as a HECT E3 ubiquitin ligase, catalyzing the transfer of ubiqui
 - **[[c-Myc]] and N-Myc** — HUWE1 polyubiquitinates c-Myc and N-Myc, targeting them for proteasomal degradation, thus functioning as a negative regulator of Myc-driven transcription and proliferation.
 - **Histones H2A and H2B** — HUWE1 catalyzes monoubiquitination of histones H2A and H2B, a key chromatin modification that regulates gene expression in coordination with the transcriptional machinery.
 - **CDC6** — HUWE1 ubiquitinates CDC6, a licensing factor for DNA replication, linking HUWE1 to replication origin control.
-- **Bcl-10** — HUWE1 targets Bcl-10 for degradation, modulating [[NFκB]] signaling downstream of the T-cell receptor.
+- **Bcl-10** — HUWE1 targets Bcl-10 for degradation, modulating [[NF-κB]] signaling downstream of the T-cell receptor.
 
 ## Regulation
 
@@ -62,10 +62,10 @@ List of documents that mention this entity
 - [[Noxa]] — BH3-only protein that displaces Mcl-1 from pro-apoptotic effectors, enabling HUWE1 access
 - [[Bik]] — BH3-only protein that facilitates HUWE1-mediated Mcl-1 turnover
 - [[BRCA1]] — HUWE1 ubiquitinates BRCA1, linking to DNA repair and genomic stability
-- [[NFκB]] — HUWE1 modulates NFκB signaling via Bcl-10 degradation
+- [[NF-κB]] — HUWE1 modulates NFκB signaling via Bcl-10 degradation
 
 ## Linking Summary
 
-- New links added: [[Mcl-1]], [[Apoptosis]], [[Ubiquitination]], [[p53]], [[c-Myc]], [[BRCA1]], [[BH3 domain]], [[Noxa]], [[Bik]], [[USP9X]], [[NFκB]], [[ARF]], [[Lung Cancer]], [[ovarian cancer]], [[BH3 mimetics]], [[ABT-263]], [[ABT-737]]
+- New links added: [[Mcl-1]], [[Apoptosis]], [[Ubiquitination]], [[p53]], [[c-Myc]], [[BRCA1]], [[BH3 domain]], [[Noxa]], [[Bik]], [[USP9X]], [[NF-κB]], [[ARF]], [[Lung Cancer]], [[ovarian cancer]], [[BH3 mimetics]], [[ABT-263]], [[ABT-737]]
 - Suggested new entity notes to create: [[AKT]], [[CDC6]], [[Bcl-10]], [[N-Myc]], [[Histone H2A]], [[Histone H2B]]
 - Strong connections to strengthen: [[Mcl-1]] ↔ [[HUWE1]] — HUWE1 is the primary E3 ligase for Mcl-1 degradation, critical for apoptosis regulation

@@ -9,8 +9,8 @@ tags:
   - sirtuins
 url: #
 source: #
-aliases:
   - Deacetylation reaction
+  - Protein deacetylation
   - Protein deacetylation
 ---
 
@@ -27,7 +27,7 @@ aliases:
 
 - **Chromatin & transcription**: Deacetylation of histones (e.g., [[Histone H4]], H3) generally condenses chromatin and represses transcription; deacetylation of non-histone targets ([[p53]], [[FOXO]], [[PGC-1α]], [[TFEB]]) modulates stress responses, metabolism, and autophagy.
 - **Metabolic sensing**: Because it consumes [[NAD+]], sirtuin deacetylation is activated by fasting, exercise, and [[Caloric Restriction]] (when not yet a note) and inhibited by high NAD+/NADH (low NAD+).
-- **Autophagy & quality control**: Deacetylation of autophagic machinery and [[Beclin-1]]/[[LC3]]-associated regulators lowers the threshold for autophagic flux.
+- **Autophagy & quality control**: Deacetylation of autophagic machinery and [[Beclin1]]/[[LC3]]-associated regulators lowers the threshold for autophagic flux.
 
 > [!warning] NAD+ stoichiometry
 > Every deacetylation event hydrolyzes one [[NAD+]] to nicotinamide + O-acetyl-ADP-ribose. Sustained sirtuin activation therefore depends on [[NAD+ Salvage Pathway]] capacity and niacin availability.

@@ -65,7 +65,7 @@ Genistein reduces [[LDL]] oxidation, a key initiating event in [[Atherosclerosis
 ### Cancer Chemoprevention
 Genistein induces [[Apoptosis]] in cancer cells through:
 - **ROS-mediated [[p53]] activation**: Triggering mitochondrial outer membrane permeabilization
-- **Inhibition of [[NFKB]]**: Suppressing anti-apoptotic gene expression
+- **Inhibition of [[NF-κB]]**: Suppressing anti-apoptotic gene expression
 - **Topoisomerase II inhibition**: Inducing DNA damage selectively in cancer cells
 
 ### Neuroprotection

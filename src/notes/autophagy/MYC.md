@@ -59,4 +59,4 @@ List of documents that mention this entity
 - [[Glutamine Metabolism]]: MYC-driven tumors are often addicted to Glutamine Metabolism and show altered autophagy.
 
 ## Linking Summary
-- New links added: [[MAX]], [[TFEB]], [[CLEAR Element]], [[Autophagy]], [[Cell Cycle]], [[CDK46]], [[p53]], [[Pancreatic Cancer]], [[Glutamine Metabolism]]
+- New links added: [[MAX]], [[TFEB]], [[CLEAR Element]], [[Autophagy]], [[Cell Cycle]], [[CDK4 6]], [[p53]], [[Pancreatic Cancer]], [[Glutamine Metabolism]]

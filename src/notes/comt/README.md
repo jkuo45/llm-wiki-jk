@@ -12,10 +12,11 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 ## Maintenance
 
 - Last updated: 04_July_2026 12:00 PM 
-- Total count of entities: 57
+- Total count of entities: 58
 
 | entity | datetime updated |
 | :--- | :---: |
+| [[Val158Met]] | 25_July_2026 12:00 PM PDT |
 | [[Adenosylcobalamin]] | 04_July_2026 12:00 PM  |
 | [[Alpha-tocopherol]] | 04_July_2026 12:00 PM  |
 | [[Aspirin]] | 04_July_2026 12:00 PM  |

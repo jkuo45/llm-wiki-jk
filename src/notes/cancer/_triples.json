@@ -93,7 +93,7 @@
   {
     "subject": "Cancer",
     "predicate": "is_driven_by",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "Cancer is driven by NFκB. Cancer is a family of diseases driven by the stepwise acquisition of mutations and epimutations that confer proliferative autonomy, survival, and dissemination. NF-kappaB is a pleiotropic transcription factor that, when constitutively active, drives proliferation, survival, inflammation, and therapy resistance. The directionality runs from NFκB toward Cancer, so NFκB is the active agent and Cancer the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.95
   },
@@ -457,7 +457,7 @@
   {
     "subject": "MOMP",
     "predicate": "releases",
-    "object": "Smac-DIABLO",
+    "object": "Smac DIABLO",
     "context": "MOMP releases Smac-DIABLO. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. The relationship is directional, with MOMP acting as the operative agent upon Smac-DIABLO rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.95
   },
@@ -849,7 +849,7 @@
   {
     "subject": "Inhibitor of Apoptosis Proteins",
     "predicate": "are_antagonized_by",
-    "object": "Smac-DIABLO",
+    "object": "Smac DIABLO",
     "context": "Inhibitor of Apoptosis Proteins are antagonized by Smac-DIABLO. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. The directionality runs from Smac-DIABLO toward Inhibitor of Apoptosis Proteins, so Smac-DIABLO is the active agent and Inhibitor of Apoptosis Proteins the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
     "confidence": 0.95
   },
@@ -905,7 +905,7 @@
   {
     "subject": "XIAP",
     "predicate": "is_antagonized_by",
-    "object": "Smac-DIABLO",
+    "object": "Smac DIABLO",
     "context": "XIAP is antagonized by Smac-DIABLO. XIAP is the most potent mammalian IAP, directly inhibiting caspases-9, -3, and -7 and stabilized by survival kinases. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. The directionality runs from Smac-DIABLO toward XIAP, so Smac-DIABLO is the active agent and XIAP the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
     "confidence": 0.95
   },
@@ -938,35 +938,35 @@
     "confidence": 0.75
   },
   {
-    "subject": "Smac-DIABLO",
+    "subject": "Smac DIABLO",
     "predicate": "antagonizes",
     "object": "XIAP",
     "context": "Smac-DIABLO antagonizes XIAP. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. XIAP is the most potent mammalian IAP, directly inhibiting caspases-9, -3, and -7 and stabilized by survival kinases. The relationship is directional, with Smac-DIABLO acting as the operative agent upon XIAP rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
     "confidence": 0.95
   },
   {
-    "subject": "Smac-DIABLO",
+    "subject": "Smac DIABLO",
     "predicate": "antagonizes",
     "object": "Survivin",
     "context": "Smac-DIABLO antagonizes Survivin. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. Survivin (BIRC5) is a bifunctional IAP that inhibits apoptosis and is required for chromosomal passenger complex function in mitosis, making it a tumor-selective antigen. The relationship is directional, with Smac-DIABLO acting as the operative agent upon Survivin rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
     "confidence": 0.95
   },
   {
-    "subject": "Smac-DIABLO",
+    "subject": "Smac DIABLO",
     "predicate": "is_released_from",
     "object": "MOMP",
     "context": "Smac-DIABLO relates to MOMP through the relation is_released_from. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. The interaction is specific and directional within the cancer context. Understanding this link contributes to the broader map of tumor biology and potential intervention points.",
     "confidence": 0.95
   },
   {
-    "subject": "Smac-DIABLO",
+    "subject": "Smac DIABLO",
     "predicate": "promotes",
     "object": "Apoptosis",
     "context": "Smac-DIABLO promotes Apoptosis. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. Apoptosis is a genetically programmed, caspase-dependent form of cell death that dismantles cells without provoking inflammation. The relationship is directional, with Smac-DIABLO acting as the operative agent upon Apoptosis rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.95
   },
   {
-    "subject": "Smac-DIABLO",
+    "subject": "Smac DIABLO",
     "predicate": "synergizes_with",
     "object": "TRAIL",
     "context": "Smac-DIABLO synergizes with TRAIL. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. TRAIL (TNFSF10) is a death ligand that engages DR4 and DR5 to initiate extrinsic apoptosis with relative selectivity for malignant cells. The relationship is directional, with Smac-DIABLO acting as the operative agent upon TRAIL rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
@@ -1493,7 +1493,7 @@
   {
     "subject": "BET inhibitors",
     "predicate": "suppress",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "BET inhibitors suppresses NFκB. BET inhibitors displace bromodomain proteins such as BRD4 from acetylated chromatin, silencing MYC and inflammatory transcription programs. NF-kappaB is a pleiotropic transcription factor that, when constitutively active, drives proliferation, survival, inflammation, and therapy resistance. The relationship is directional, with BET inhibitors acting as the operative agent upon NFκB rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
     "confidence": 0.95
   },
@@ -1745,7 +1745,7 @@
   {
     "subject": "Multidrug Resistance",
     "predicate": "is_driven_by",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "Multidrug Resistance is driven by NFκB. Multidrug resistance is the cross-resistance of tumors to structurally unrelated drugs, most classically mediated by ATP-dependent efflux pumps. NF-kappaB is a pleiotropic transcription factor that, when constitutively active, drives proliferation, survival, inflammation, and therapy resistance. The directionality runs from NFκB toward Multidrug Resistance, so NFκB is the active agent and Multidrug Resistance the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.75
   },
@@ -2291,7 +2291,7 @@
   {
     "subject": "PIDD",
     "predicate": "activates",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "PIDD activates NFκB. PIDD (p53-induced protein with death domain) nucleates the PIDDosome and is transcriptionally induced by p53 after genotoxic stress. NF-kappaB is a pleiotropic transcription factor that, when constitutively active, drives proliferation, survival, inflammation, and therapy resistance. The relationship is directional, with PIDD acting as the operative agent upon NFκB rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.75
   },
@@ -2396,7 +2396,7 @@
   {
     "subject": "IKK",
     "predicate": "activates",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "IKK activates NFκB. IKK is the kinase complex that phosphorylates I-kappaB to free NF-kappaB, linking upstream inflammatory signals to survival transcription. NF-kappaB is a pleiotropic transcription factor that, when constitutively active, drives proliferation, survival, inflammation, and therapy resistance. The relationship is directional, with IKK acting as the operative agent upon NFκB rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.95
   },

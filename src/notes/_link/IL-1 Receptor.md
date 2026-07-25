@@ -26,7 +26,7 @@ IL-1R1 is a type I transmembrane glycoprotein (~80 kDa) with three extracellular
 
 ## Mechanism of Action
 
-Upon binding [[IL-1α]] or [[IL-1β]], IL-1R1 undergoes conformational change and recruits the shared accessory protein [[IL-1RAcP]], forming a 1:1:1 heterotrimeric complex. The TIR domains of IL-1R1 and IL-1RAcP then recruit the adaptor protein [[MyD88]], which recruits IRAK4 and IRAK1. This triggers a phosphorylation cascade activating [[TRAF6]] and ultimately the [[IKK complex]], leading to [[NFKB|NF-κB]] nuclear translocation and transcription of pro-inflammatory genes including *IL1B*, [[TNFα]], [[IL-6]], [[COX-2]], and [[Adhesion Molecules]].
+Upon binding [[IL-1α]] or [[IL-1β]], IL-1R1 undergoes conformational change and recruits the shared accessory protein [[IL-1RAcP]], forming a 1:1:1 heterotrimeric complex. The TIR domains of IL-1R1 and IL-1RAcP then recruit the adaptor protein [[MyD88]], which recruits IRAK4 and IRAK1. This triggers a phosphorylation cascade activating [[TRAF6]] and ultimately the [[IKK complex]], leading to [[NF-κB|NF-κB]] nuclear translocation and transcription of pro-inflammatory genes including *IL1B*, [[TNFα]], [[IL-6]], [[COX-2]], and [[Adhesion Molecules]].
 
 Simultaneously, [[MAPK]] cascades (ERK, JNK, p38) are activated via [[TRAF6]], leading to [[AP-1]] transcription factor activation and additional pro-inflammatory gene expression.
 
@@ -65,7 +65,7 @@ List of documents that mention this entity
 - [[IL-1α]] — Also signals through IL-1R1
 - [[IL-1RAcP]] — Accessory protein that heterodimerizes with IL-1R1 upon ligand binding
 - [[MyD88]] — Adaptor protein recruited to the IL-1R1 TIR domain
-- [[NFKB|NF-κB]] — Primary downstream transcription factor activated by IL-1R1
+- [[NF-κB|NF-κB]] — Primary downstream transcription factor activated by IL-1R1
 - [[MAPK]] — Co-activated signaling cascade via TRAF6
 - [[Anakinra]] — IL-1Ra that competitively blocks IL-1R1
 - [[IL-1R2]] — Decoy receptor; competes with IL-1R1 for IL-1 ligands

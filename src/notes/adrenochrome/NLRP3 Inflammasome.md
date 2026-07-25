@@ -24,7 +24,7 @@ The NLRP3 inflammasome represents a key interface where mitochondrial dysfunctio
 
 ## Two-Step Activation Model
 
-NLRP3 inflammasome activation follows a strict two-step mechanism. Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activate [[NFκB]] to upregulate transcription of NLRP3, pro-[[Interleukin 1β|IL-1β]], and pro-[[IL-18]]. This priming step also licenses NLRP3 through post-translational modifications, including deubiquitination by [[BRCC3]]. Signal 2 (activation) is triggered by diverse stimuli including extracellular [[ATP]] (via [[P2X7 receptor]]), pore-forming toxins (nigericin), particulate matter (uric acid crystals, silica, alum, amyloid β), [[Mitochondrial ROS]], and [[Mitochondrial DNA|mtDNA]] release.
+NLRP3 inflammasome activation follows a strict two-step mechanism. Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activate [[NF-κB]] to upregulate transcription of NLRP3, pro-[[Interleukin 1β|IL-1β]], and pro-[[IL-18]]. This priming step also licenses NLRP3 through post-translational modifications, including deubiquitination by [[BRCC3]]. Signal 2 (activation) is triggered by diverse stimuli including extracellular [[ATP]] (via [[P2X7 receptor]]), pore-forming toxins (nigericin), particulate matter (uric acid crystals, silica, alum, amyloid β), [[Mitochondrial ROS]], and [[Mitochondrial DNA|mtDNA]] release.
 
 ## Assembly Mechanism
 
@@ -47,7 +47,7 @@ NLRP3 hyperactivation is implicated in [[Gout]], [[Type 2 Diabetes Mellitus]], [
 - [[Inflammation]]
 - [[Mitochondria]]
 - [[Reactive Oxygen Species]]
-- [[NFKB]]
+- [[NF-κB]]
 
 ## Sirtuin Regulation
 
@@ -60,7 +60,7 @@ NLRP3 hyperactivation is implicated in [[Gout]], [[Type 2 Diabetes Mellitus]], [
 - [[Toll-like Receptor]]: Signal 1 (priming) is provided by Toll-like Receptor (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activate ...
 - [[TNFα]]: Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, TNFα, or [[Interleukin 1β]], which activate ...
 - [[Interleukin 1β]]: Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or Interleukin 1β, which activate ...
-- [[NFκB]]: Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activ...
+- [[NF-κB]]: Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activ...
 - [[IL-18]]: Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activ...
 - [[BRCC3]]: This priming step also licenses NLRP3 through post-translational modifications, including deubiquitination by BRCC3.
 - [[ATP]]: Signal 2 (activation) is triggered by diverse stimuli including extracellular ATP (via [[P2X7 receptor]]), pore-formi...
@@ -87,12 +87,12 @@ NLRP3 hyperactivation is implicated in [[Gout]], [[Type 2 Diabetes Mellitus]], [
 - [[Alzheimer's Disease]]: NLRP3 hyperactivation is implicated in [[Gout]], [[Type 2 Diabetes Mellitus]], [[Atherosclerosis]], Alzheimer's Disea...
 - [[NLRP3]]: Gain-of-function mutations in NLRP3 cause CAPS, characterized by systemic inflammation, fever, and urticarial rash.
 - [[MCC950]]: Small-molecule NLRP3 inhibitors (e.g., MCC950) are in clinical development.
-- [[Mitochondria]]: - [[Inflammation]] - Mitochondria - [[Reactive Oxygen Species]] - [[NFKB]]
-- [[NFKB]]: - [[Inflammation]] - [[Mitochondria]] - [[Reactive Oxygen Species]] - NFKB
+- [[Mitochondria]]: - [[Inflammation]] - Mitochondria - [[Reactive Oxygen Species]] - [[NF-κB]]
+- [[NF-κB]]: - [[Inflammation]] - [[Mitochondria]] - [[Reactive Oxygen Species]] - NFKB
 - [[SIRT1]]: SIRT1 inhibits NLRP3 inflammasome via deacetylation of spliced X-box binding protein 1 and attenuation of NLRP3 activ...
 - [[SIRT3]]: SIRT3 reduces mitochondrial ROS production and attenuates NLRP3 inflammasome activation.
 
 ## Linking Summary
-- New links added: [[Inflammation]], [[Mitochondria]], [[Reactive Oxygen Species]], [[NFKB]], [[SIRT1]], [[SIRT3]]
+- New links added: [[Inflammation]], [[Mitochondria]], [[Reactive Oxygen Species]], [[NF-κB]], [[SIRT1]], [[SIRT3]]
 - Suggested new entity notes to create: [[Caspase-1]], [[IL-1β]]
 - Strong connections to strengthen: [[NLRP3]] ↔ [[Mitochondrial Dysfunction]], [[SIRT1]] ↔ [[NLRP3]], [[SIRT3]] ↔ [[NLRP3]]

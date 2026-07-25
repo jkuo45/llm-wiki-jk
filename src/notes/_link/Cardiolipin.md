@@ -27,7 +27,7 @@ Cardiolipin is a doubly phosphorylated glycerophospholipid with four fatty acid 
 - **ETC Supercomplex Assembly** — Cardiolipin tethers respiratory chain complexes into supercomplexes (respirasomes), optimizing electron transfer efficiency and reducing ROS generation
 - **[[Mitochondrial Membrane Potential]]** — Its anionic charge contributes to the electrochemical gradient across the inner membrane
 - **Mitochondrial Dynamics** — Required for [[Mitophagy]] receptor recruitment and mitochondrial fission/fusion
-- **Apoptosis** — Cardiolipin externalization to the outer membrane serves as an "eat-me" signal for phagocytes and anchors [[Cytochrome C]] to the inner membrane; its peroxidation releases Cytochrome C, initiating the intrinsic apoptosis pathway
+- **Apoptosis** — Cardiolipin externalization to the outer membrane serves as an "eat-me" signal for phagocytes and anchors [[Cytochrome c]] to the inner membrane; its peroxidation releases Cytochrome C, initiating the intrinsic apoptosis pathway
 
 ### Role in Mitochondrial Fusion and Fission
 
@@ -74,7 +74,7 @@ List of documents that mention this entity
 - [[ASC]] — Adapter protein recruited by NLRP3 upon cardiolipin-mediated activation
 - [[Caspase-1]] — Activated by NLRP3 to cleave pro-IL-1β
 - [[IL-1β]] — Mature IL-1β is produced downstream of cardiolipin-NLRP3 signaling
-- [[Cytochrome C]] — Cardiolipin anchors Cytochrome C to the inner membrane; peroxidation releases it
+- [[Cytochrome c]] — Cardiolipin anchors Cytochrome C to the inner membrane; peroxidation releases it
 - [[Oxidative Stress]] — Drives cardiolipin oxidation and translocation
 - [[Inflammasome|NLRP3 inflammasome]] — Cardiolipin is a key endogenous NLRP3 activator
 - [[Inflammaging]] — Chronic cardiolipin release contributes to age-related NLRP3 activation
@@ -86,5 +86,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Mitochondrial Membrane Potential]], [[Mitochondrial ROS]], [[Mitophagy]], [[Cytochrome C]], [[Inflammasome|NLRP3 inflammasome]], [[Mitochondrial Permeability Transition Pore]], [[OPA1]], [[DRP1]], [[Mitochondrial Fusion]], [[Mitochondrial Fission]]
+- New links added: [[Mitochondrial Membrane Potential]], [[Mitochondrial ROS]], [[Mitophagy]], [[Cytochrome c]], [[Inflammasome|NLRP3 inflammasome]], [[Mitochondrial Permeability Transition Pore]], [[OPA1]], [[DRP1]], [[Mitochondrial Fusion]], [[Mitochondrial Fission]]
 - Strong connections to strengthen: [[Cardiolipin]] ↔ [[NLRP3]], [[Cardiolipin]] ↔ [[Mitochondrial Dysfunction]], [[Cardiolipin]] ↔ [[Oxidative Stress]], [[Cardiolipin]] ↔ [[OPA1]], [[Cardiolipin]] ↔ [[DRP1]]

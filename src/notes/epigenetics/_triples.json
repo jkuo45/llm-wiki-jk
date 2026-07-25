@@ -226,7 +226,7 @@
   {
     "subject": "Histone Deacetylase",
     "predicate": "catalyzes",
-    "object": "Histone Deacetylation",
+    "object": "Deacetylation",
     "context": "HDACs remove acetyl groups from ε-N-acetyl-lysine residues on histones, allowing chromatin to wrap DNA more tightly and generally repressing transcription.",
     "confidence": 0.95
   },
@@ -1022,7 +1022,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "Histone Deacetylation",
+    "subject": "Deacetylation",
     "predicate": "condenses",
     "object": "Chromatin",
     "context": "Deacetylation restores positive charge of lysine side chains, strengthening interaction with DNA and condensing chromatin.",
@@ -1078,7 +1078,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "GSK3B",
+    "subject": "GSK3β",
     "predicate": "inhibition_promotes",
     "object": "Cellular Reprogramming",
     "context": "Reprogramming can be achieved by small molecules including GSK3B and MEK inhibitors.",
@@ -1206,7 +1206,7 @@
   {
     "subject": "H19",
     "predicate": "represses",
-    "object": "IGF-1",
+    "object": "IGF1",
     "context": "The long-ncRNA H19 interacts with MBD1 to repress longevity genes such as IGF-1.",
     "confidence": 0.95
   },

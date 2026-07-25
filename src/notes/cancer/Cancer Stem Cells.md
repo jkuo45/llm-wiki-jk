@@ -5,10 +5,7 @@ description: Cancer Stem Cells (CSCs) are a subpopulation of cells within a tumo
   to self-renew and differentiate into multipl...
 created: 2026-07-06
 updated: 2026-07-06
-tags:
-  - enzyme
-aliases: []
-protected: true
+aliases: [Cancer Stemness]
 ---
 # Cancer Stem Cells
 

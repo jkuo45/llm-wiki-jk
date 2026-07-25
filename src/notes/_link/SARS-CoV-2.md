@@ -21,7 +21,7 @@ SARS-CoV‑2 virions are ~60–140 nm in diameter with characteristic club-shape
 
 ## Entry and Replication
 
-SARS-CoV‑2 enters cells via [[Spike Protein]] binding to [[ACE2]] (angiotensin-converting enzyme 2) on host cells, with priming by [[TMPRSS2]] and [[Cathepsin L]]. After membrane fusion, viral RNA is released, translated, and replicated in the [[Cytosol]]. [[SARS-CoV‑2]] also activates [[NFκB]], [[NLRP3 Inflammasome]], and triggers a [[Cytokine Storm]] in severe cases.
+SARS-CoV‑2 enters cells via [[Spike Protein]] binding to [[ACE2]] (angiotensin-converting enzyme 2) on host cells, with priming by [[TMPRSS2]] and [[Cathepsin L]]. After membrane fusion, viral RNA is released, translated, and replicated in the [[Cytosol]]. [[SARS-CoV‑2]] also activates [[NF-κB]], [[NLRP3 Inflammasome]], and triggers a [[Cytokine Storm]] in severe cases.
 
 ## Clinical Impact
 
@@ -50,6 +50,6 @@ List of documents that mention this entity
 - [[Vaccine]] — mRNA, adenoviral, and protein-based vaccines target the spike protein
 
 ## Linking Summary
-- New links added: [[COVID-19]], [[ACE2]], [[Spike Protein]], [[TMPRSS2]], [[Cathepsin L]], [[RNA virus]], [[Coronaviridae]], [[RNA-dependent RNA polymerase]], [[Main protease]], [[Papain-like protease]], [[Envelope]], [[Membrane]], [[Nucleocapsid]], [[Cytosol]], [[NFκB]], [[NLRP3 Inflammasome]], [[Cytokine Storm]], [[Pneumonia]], [[ARDS]], [[Sepsis]], [[Obesity]], [[Diabetes]], [[Hypertension]], [[Immunosuppression]], [[Aging]], [[Vaccine]], [[mRNA vaccine]], [[Long COVID]], [[Cognitive decline]]
+- New links added: [[COVID-19]], [[ACE2]], [[Spike Protein]], [[TMPRSS2]], [[Cathepsin L]], [[RNA virus]], [[Coronaviridae]], [[RNA-dependent RNA polymerase]], [[Main protease]], [[Papain-like protease]], [[Envelope]], [[Membrane]], [[Nucleocapsid]], [[Cytosol]], [[NF-κB]], [[NLRP3 Inflammasome]], [[Cytokine Storm]], [[Pneumonia]], [[ARDS]], [[Sepsis]], [[Obesity]], [[Diabetes]], [[Hypertension]], [[Immunosuppression]], [[Aging]], [[Vaccine]], [[mRNA vaccine]], [[Long COVID]], [[Cognitive decline]]
 - Suggested new entity notes to create: [[Betacoronavirus]], [[Viral protease inhibitors]], [[Remdesivir]], [[Paxlovid]], [[Molnupiravir]], [[Neutralizing antibody]], [[Omicron variant]], [[Spike mutations]]
   - Strong connections to strengthen: [[SARS-CoV-2]] ↔ [[COVID-19]], [[SARS-CoV-2]] ↔ ACE2, [[SARS-CoV-2]] ↔ [[Aging]]

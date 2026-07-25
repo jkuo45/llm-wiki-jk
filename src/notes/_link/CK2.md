@@ -18,11 +18,11 @@ aliases: [CK2, Casein kinase 2, CSNK2]
 
 ## Mechanism of Action & Signaling
 
-CK2 phosphorylates a wide range of substrates involved in cell-cycle control, apoptosis, transcription, and signal transduction. Crucially for inflammatory signaling, CK2 phosphorylates and positively regulates the [[IKK complex]] and maintains the [[NFKB|NF-κB]] inhibitor [[IkappaBalpha]]: CK2-mediated phosphorylation of IκBα (e.g., Ser283) protects it from stimulus-induced degradation, and CK2 also primes IKK and supports NEMO function. Thus, CK2 normally restrains NF-κB activation by preserving IκBα and tuning IKK activity. CK2 additionally phosphorylates tumor suppressors such as [[p53]] (modulating its stability/activity) and the RecQ helicase WRN, linking it to genome maintenance.
+CK2 phosphorylates a wide range of substrates involved in cell-cycle control, apoptosis, transcription, and signal transduction. Crucially for inflammatory signaling, CK2 phosphorylates and positively regulates the [[IKK complex]] and maintains the [[NF-κB|NF-κB]] inhibitor [[IkappaBalpha]]: CK2-mediated phosphorylation of IκBα (e.g., Ser283) protects it from stimulus-induced degradation, and CK2 also primes IKK and supports NEMO function. Thus, CK2 normally restrains NF-κB activation by preserving IκBα and tuning IKK activity. CK2 additionally phosphorylates tumor suppressors such as [[p53]] (modulating its stability/activity) and the RecQ helicase WRN, linking it to genome maintenance.
 
 ## Role in Senescence / SASP
 
-Reduced CK2 activity/expression in [[Senescent Cells]] relieves its brake on the [[NFKB|NF-κB]] pathway, thereby promoting IKK/NF-κB activation and contributing to induction of the [[SASP|Senescence-Associated Secretory Phenotype]]. In this sense CK2 behaves as an endogenous senescence suppressor: its decline during senescence permits the inflammatory transcription program to proceed. Conversely, sustained CK2 activity can oppose senescence establishment. CK2 therefore sits as a counter-regulatory node balancing NF-κB output, and its downregulation is one of the biochemical events that licenses the SASP.
+Reduced CK2 activity/expression in [[Senescent Cells]] relieves its brake on the [[NF-κB|NF-κB]] pathway, thereby promoting IKK/NF-κB activation and contributing to induction of the [[SASP|Senescence-Associated Secretory Phenotype]]. In this sense CK2 behaves as an endogenous senescence suppressor: its decline during senescence permits the inflammatory transcription program to proceed. Conversely, sustained CK2 activity can oppose senescence establishment. CK2 therefore sits as a counter-regulatory node balancing NF-κB output, and its downregulation is one of the biochemical events that licenses the SASP.
 
 ## Clinical / Pathological Relevance
 
@@ -39,7 +39,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[NFKB|NF-κB]] — Reduced CK2 promotes NF-κB activation
+- [[NF-κB|NF-κB]] — Reduced CK2 promotes NF-κB activation
 - [[IkappaBalpha]] — CK2 phosphorylates IκBα to protect it from degradation
 - [[IKK complex]] — CK2 positively regulates the IKK complex
 - [[p53]] — CK2 phosphorylates and modulates p53
@@ -50,7 +50,7 @@ List of documents that mention this entity
 
   - New links added: [[IkappaBalpha]], [[p53]], [[Caspase-2]], [[Bid]], [[Mcl-1]], [[Hallmarks of Cancer]], [[BH3 mimetics]], [[silmitasertib]]
   - Suggested new entity notes to create: [[CSNK2A1]], [[WRN]], [[CSNK2B]], [[Mcl-1]], [[silmitasertib]]
-  - Strong connections to strengthen: [[CK2]] ↔ [[NFKB|NF-κB]], [[CK2]] ↔ [[IKK complex]], [[CK2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[CK2]] ↔ [[Caspase-2]], [[CK2]] ↔ [[Bid]]
+  - Strong connections to strengthen: [[CK2]] ↔ [[NF-κB|NF-κB]], [[CK2]] ↔ [[IKK complex]], [[CK2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[CK2]] ↔ [[Caspase-2]], [[CK2]] ↔ [[Bid]]
 
 ## Additional Context (Cancer / Apoptosis)
 

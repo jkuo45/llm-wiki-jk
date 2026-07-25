@@ -28,7 +28,7 @@ aliases:
 BAX shares the conserved Bcl-2 homology (BH1–BH3) domains. Activation is governed by the balance between anti-apoptotic proteins such as [[Bcl-2]] and BH3-only activators (e.g., [[Bid]]). Transcriptionally, [[p53]] upregulates BAX, linking genotoxic stress to the death program.
 
 ## Mechanism of Action & MOMP
-Activated BAX translocates to mitochondria, where it cooperates with BAK to permeabilize the membrane. This releases [[Cytochrome C]] and [[Smac DIABLO]] into the cytosol, triggering [[Caspases]] and the execution phase of [[Apoptosis]]. The threshold of MOMP is also implicated in Minority MOMP, which can induce survival signaling without immediate death.
+Activated BAX translocates to mitochondria, where it cooperates with BAK to permeabilize the membrane. This releases [[Cytochrome c]] and [[Smac DIABLO]] into the cytosol, triggering [[Caspases]] and the execution phase of [[Apoptosis]]. The threshold of MOMP is also implicated in Minority MOMP, which can induce survival signaling without immediate death.
 
 ## Phosphorylation-Dependent Regulation
 
@@ -55,13 +55,13 @@ Beyond classical apoptosis, BAX/BAK-mediated leakage intersects with [[Mitophagy
   - [[Bcl-2]]: Anti-apoptotic antagonist that sequesters and inhibits activated BAX.
   - [[BAK]]: Closely related effector that hetero-oligomerizes with BAX at the mitochondrial membrane.
   - [[Mitochondrial outer membrane permeabilization]]: The structural event BAX drives to commit cells to apoptosis.
-  - [[Cytochrome C]]: Released downstream of BAX pores to activate the caspase cascade.
+  - [[Cytochrome c]]: Released downstream of BAX pores to activate the caspase cascade.
   - [[p53]]: Transcriptional activator of BAX under genotoxic stress.
   - [[Mitophagy]]: BAX leakage feeds Parkin-dependent mitophagy and mitochondrial quality control.
   - [[Senescent Cells]]: Cells that survive by downregulating BAX/BAK-dependent death.
 
 ## Linking Summary
 
-  - New links added: [[BAX]], [[BAK]], [[Bcl-2]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Smac DIABLO]], [[Caspases]], [[p53]], [[Mitophagy]], [[Parkin]], [[Minority MOMP]], [[ERK2]], [[Pin1]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[Cancer]]
+  - New links added: [[BAX]], [[BAK]], [[Bcl-2]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome c]], [[Smac DIABLO]], [[Caspases]], [[p53]], [[Mitophagy]], [[Parkin]], [[Minority MOMP]], [[ERK2]], [[Pin1]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[Cancer]]
   - Suggested new entity notes to create: [[Bid]], [[BH3-only proteins]], [[Minority MOMP]]
   - Strong connections to strengthen: [[BAX]] ↔ [[Mitophagy]], [[BAX]] ↔ [[Senescent Cells]], [[BAX]] ↔ [[Pin1]], [[BAX]] ↔ [[ERK2]]

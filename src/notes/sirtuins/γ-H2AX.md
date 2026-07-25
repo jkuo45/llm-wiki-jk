@@ -8,7 +8,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - biological-molecule
-aliases:
+aliases: [γH2AX]
   - gamma-H2AX
   - phosphorylated H2AX
   - H2AX pSer139

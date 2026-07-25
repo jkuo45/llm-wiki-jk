@@ -10,7 +10,7 @@ tags:
   - adhesion
   - inflammation
   - protein
-aliases: [vascular cell adhesion protein 1, CD106]
+aliases: [vascular cell adhesion protein 1, CD106, VCAM1, VCAM-1, Vascular cell adhesion molecule 1]
 ---
 # VCAM-1
 Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium. Its expression is upregulated in response to pro-inflammatory stimuli and is a marker for [[Endothelial Dysfunction]] and early [[Atherosclerosis]] linked to chronic [[Inflammation]].
@@ -38,7 +38,7 @@ Several clinically used drugs inhibit VCAM-1 expression through antioxidant mech
 * **[[Resveratrol]]** and [[Polyphenols|dietary polyphenols]]: Suppress VCAM-1 via [[SIRT1]] activation and [[NRF2]]-dependent [[HO-1]] induction, which degrades the pro-oxidant heme required for Nox function.
 
 ### VCAM-1 in Neuroinflammation and Multiple Sclerosis
-In the central nervous system, VCAM-1 is expressed on cerebral [[Endothelial cells]] and facilitates entry of [[encephalitogenic T cells]] across the [[Blood-brain barrier]] (BBB) into the CNS parenchyma in [[Multiple Sclerosis]]. [[Natalizumab]] ([[Tysabri]]) — a humanized monoclonal antibody against α₄ integrin (the VLA-4 subunit) — blocks VCAM-1/VLA-4 interactions, reducing T-cell trafficking into the CNS. The therapeutic efficacy of natalizumab underscores the critical role of VCAM-1 in neuroinflammatory disease. [[Oxidative Stress]] at the BBB upregulates VCAM-1 through local [[TNF-alpha]] and [[IL-1β]] production by activated [[Microglia]], further promoting immune cell infiltration.
+In the central nervous system, VCAM-1 is expressed on cerebral [[Endothelial Cells]] and facilitates entry of [[encephalitogenic T cells]] across the [[Blood-brain barrier]] (BBB) into the CNS parenchyma in [[Multiple Sclerosis]]. [[Natalizumab]] ([[Tysabri]]) — a humanized monoclonal antibody against α₄ integrin (the VLA-4 subunit) — blocks VCAM-1/VLA-4 interactions, reducing T-cell trafficking into the CNS. The therapeutic efficacy of natalizumab underscores the critical role of VCAM-1 in neuroinflammatory disease. [[Oxidative Stress]] at the BBB upregulates VCAM-1 through local [[TNF-alpha]] and [[IL-1β]] production by activated [[Microglia]], further promoting immune cell infiltration.
 
 ## Linking Summary (New Additions)
 - New links added: [[Hydrogen Peroxide]], [[p38 MAPK]], [[NADPH Oxidase]], [[NOX4]], [[Oxidized LDL]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Inflammation]], [[Oxidative Stress]], [[Nitric Oxide]], [[TNF-alpha]], [[IL-1β]], [[Atherosclerosis]], [[Multiple Sclerosis]], [[HO-1]], [[NF-κB]], [[Glutathione]], [[Polyphenols]]
@@ -115,7 +115,7 @@ List of documents that mention this entity
 - [[SIRT1]]: * **[[Resveratrol]]** and [[Polyphenols|dietary polyphenols]]: Suppress VCAM-1 via SIRT1 activation and [[NRF2]]-depe...
 - [[NRF2]]: * **[[Resveratrol]]** and [[Polyphenols|dietary polyphenols]]: Suppress VCAM-1 via [[SIRT1]] activation and NRF2-depe...
 - [[HO-1]]: * **[[Resveratrol]]** and [[Polyphenols|dietary polyphenols]]: Suppress VCAM-1 via [[SIRT1]] activation and [[NRF2]]-...
-- [[Endothelial cells]]: ### VCAM-1 in Neuroinflammation and Multiple Sclerosis In the central nervous system, VCAM-1 is expressed on cerebral...
+- [[Endothelial Cells]]: ### VCAM-1 in Neuroinflammation and Multiple Sclerosis In the central nervous system, VCAM-1 is expressed on cerebral...
 - [[encephalitogenic T cells]]: ### VCAM-1 in Neuroinflammation and Multiple Sclerosis In the central nervous system, VCAM-1 is expressed on cerebral...
 - [[Blood-brain barrier]]: ### VCAM-1 in Neuroinflammation and Multiple Sclerosis In the central nervous system, VCAM-1 is expressed on cerebral...
 - [[Multiple Sclerosis]]: ### VCAM-1 in Neuroinflammation and Multiple Sclerosis In the central nervous system, VCAM-1 is expressed on cerebral...

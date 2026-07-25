@@ -40,13 +40,13 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 
 - **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and [[Bax]]; acetylation by [[P300]] at K120/K164 enhances pro-senescence activity.
 - **[[E2F]]:** Proliferation-driving TFs that are silenced in senescence by RB1-mediated chromatin compaction.
-- **[[NFκB]]:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- **[[NF-κB]]:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
 - **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[SIRT1]] to control stress resistance.
 - **[[NRF2]]:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].
 
 ## Therapeutic Approaches
 
-- **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin-3a|Nutlin-3a]] disrupts [[MDM2]]-[[p53]] binding).
+- **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin 3a|Nutlin-3a]] disrupts [[MDM2]]-[[p53]] binding).
 - **TF decoys:** Double-stranded oligonucleotides that competitively bind TFs.
 - **dCas9-based TFs:** [[CRISPRa]] and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 
@@ -97,19 +97,19 @@ List of documents that mention this entity
 - [[p21]]: - **[[p53]]:** Master senescence inducer; activates CDKN1A/p21 and [[Bax]]; acetylation by [[P300]] at K120/K164 enha...
 - [[Bax]]: - **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and Bax; acetylation by [[P300]] at K120/K164 ...
 - [[E2F]]: - **E2F:** Proliferation-driving TFs that are silenced in senescence by RB1-mediated chromatin compaction.
-- [[NFκB]]: - **NFκB:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
-- [[SASP|Senescence-Associated Secretory Phenotype]]: - **[[NFκB]]:** Master regulator of the SASP; its activity increases with age, driving [[Inflammaging|inflammaging]].
-- [[Inflammaging]]: - **[[NFκB]]:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving inflammaging.
+- [[NF-κB]]: - **NFκB:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- [[SASP|Senescence-Associated Secretory Phenotype]]: - **[[NF-κB]]:** Master regulator of the SASP; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- [[Inflammaging]]: - **[[NF-κB]]:** Master regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]; its activity increases with age, driving inflammaging.
 - [[FOXO3]]: - **FOXO3:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[SIRT1]] to control stress resistance.
 - [[SIRT1]]: - **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by SIRT1 to control stress resistance.
 - [[NRF2]]: - **NRF2:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].
 - [[Oxidative Stress]]: - **[[NRF2]]:** Antioxidant master regulator; declines with age, exacerbating oxidative stress.
-- [[Nutlin-3a]]: - **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin-3a|Nutlin-3a]] disrupts [[...
-- [[MDM2]]: - **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin-3a|Nutlin-3a]] disrupts MD...
+- [[Nutlin 3a]]: - **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin 3a|Nutlin-3a]] disrupts [[...
+- [[MDM2]]: - **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin 3a|Nutlin-3a]] disrupts MD...
 - [[CRISPRa]]: - **dCas9-based TFs:** CRISPRa and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 - [[CRISPRi]]: - **dCas9-based TFs:** [[CRISPRa]] and CRISPRi to modulate endogenous gene expression without altering the genome.
 
 ## Linking Summary
-- New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[Senescence]], [[p53]], [[NFκB]], [[FOXO3]]
+- New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[Senescence]], [[p53]], [[NF-κB]], [[FOXO3]]
 - Suggested new entity notes to create: [[DNA-binding domain]], [[Transactivation domain]], [[Super-enhancers]]
 - Strong connections to strengthen: [[Transcription Factor]] ↔ [[Gene Expression]], [[Transcription Factor]] ↔ [[Epigenetics]]

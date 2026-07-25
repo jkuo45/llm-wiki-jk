@@ -18,7 +18,7 @@ source: #
 
 ## Antioxidant Mechanism
 
-NAC's principal mechanism is replenishment of intracellular [[Glutathione]] (GSH). Cysteine is the rate-limiting residue in GSH synthesis, and NAC supplies bioavailable cysteine after deacetylation, raising GSH pools and thereby lowering [[Oxidative Stress]]. NAC can also directly scavenge reactive radicals and modulate redox-sensitive signaling, including [[NFKB|NF-κB]] and MAPK pathways. A landmark use is in acute acetaminophen (paracetamol) poisoning, where NAC restores hepatic GSH and prevents covalent binding of the toxic metabolite NAPQI.
+NAC's principal mechanism is replenishment of intracellular [[Glutathione]] (GSH). Cysteine is the rate-limiting residue in GSH synthesis, and NAC supplies bioavailable cysteine after deacetylation, raising GSH pools and thereby lowering [[Oxidative Stress]]. NAC can also directly scavenge reactive radicals and modulate redox-sensitive signaling, including [[NF-κB|NF-κB]] and MAPK pathways. A landmark use is in acute acetaminophen (paracetamol) poisoning, where NAC restores hepatic GSH and prevents covalent binding of the toxic metabolite NAPQI.
 
 ## Aging & Longevity Relevance
 
@@ -45,6 +45,6 @@ NAC is generally well tolerated; high doses can cause gastrointestinal upset or,
 
 ## Linking Summary
 
-  - New links added: [[Glutathione]], [[GlyNAC]], [[Cysteine]], [[Oxidative Stress]], [[Antioxidants]], [[Mitochondrial Dysfunction]], [[Aging]], [[Inflammation]], [[NFKB]], [[Mitohormesis]]
+  - New links added: [[Glutathione]], [[GlyNAC]], [[Cysteine]], [[Oxidative Stress]], [[Antioxidants]], [[Mitochondrial Dysfunction]], [[Aging]], [[Inflammation]], [[NF-κB]], [[Mitohormesis]]
   - Suggested new entity notes to create: [[NAPQI]]
   - Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]], [[N-Acetylcysteine]] ↔ [[GlyNAC]]

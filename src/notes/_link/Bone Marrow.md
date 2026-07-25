@@ -22,7 +22,7 @@ aliases: [Medulla Ossium]
 
 ## Function
 
-Bone marrow produces approximately 500 billion blood cells per day, including [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], and [[Lymphocytes]]. The [[Bone Marrow Microenvironment]] (niche) comprising [[Stromal Cells]], [[Osteoblasts]], and [[Endothelial cells]] regulates [[Hematopoietic Stem Cell]] self-renewal, quiescence, and differentiation.
+Bone marrow produces approximately 500 billion blood cells per day, including [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], and [[Lymphocytes]]. The [[Bone Marrow Microenvironment]] (niche) comprising [[Stromal Cells]], [[Osteoblasts]], and [[Endothelial Cells]] regulates [[Hematopoietic Stem Cell]] self-renewal, quiescence, and differentiation.
 
 ## Clinical Relevance
 
@@ -39,6 +39,6 @@ Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem
 - [[Multiple Myeloma]] — plasma cell malignancy resident in bone marrow
 
 ## Linking Summary
-- New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiation Therapy]], [[Adipose Tissue]]
+- New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial Cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiation Therapy]], [[Adipose Tissue]]
 - Suggested new entity notes to create: [[Bone Marrow Microenvironment]], [[Myelosuppression]], [[Hematopoietic niche]], [[Stromal cell]], [[Progenitor Cell]]
   - Strong connections to strengthen: Bone Marrow ↔ Hematopoietic Stem Cell, Bone Marrow ↔ [[Hematopoiesis]], Bone Marrow ↔ leukemia

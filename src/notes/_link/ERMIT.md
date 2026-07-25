@@ -25,7 +25,7 @@ ERMIT is primarily driven by [[BNIP3L|BNIP3L/NIX]], a hypoxia-inducible mitophag
 3. Its [[LIR Motif|LIR motif]] directly docks to [[LC3]]/[[GABARAP]] family proteins on the phagophore
 4. Mitochondria are engulfed and degraded by [[Autophagy]]
 
-Unlike stress-induced mitophagy (e.g., [[HIF1A]]-driven mitophagy under [[Hypoxia]]), ERMIT is a developmentally programmed process that occurs even under normoxic conditions during erythropoiesis. [[BIM]], another [[BH3-only protein]], cooperates with NIX to ensure complete mitochondrial clearance.
+Unlike stress-induced mitophagy (e.g., [[HIF-1α]]-driven mitophagy under [[Hypoxia]]), ERMIT is a developmentally programmed process that occurs even under normoxic conditions during erythropoiesis. [[BIM]], another [[BH3-only protein]], cooperates with NIX to ensure complete mitochondrial clearance.
 
 ## Physiological Importance
 
@@ -47,11 +47,11 @@ Defective ERMIT causes:
 - [[Bcl-2 family]] — Both NIX and BIM are BH3-only members regulating ERMIT
 - [[LC3]] — Binding partner of NIX via LIR motif on the phagophore
 - [[Autophagy]] — The macroautophagy machinery that executes ERMIT
-- [[HIF1A]] — Transactivates BNIP3L but ERMIT is developmentally programmed, not strictly hypoxia-dependent
+- [[HIF-1α]] — Transactivates BNIP3L but ERMIT is developmentally programmed, not strictly hypoxia-dependent
 
 ## Linking Summary
 
-- New links added: [[ERMIT]], [[BNIP3L]], [[Mitophagy]], [[Autophagy]], [[LC3]], [[Bcl-2 family]], [[HIF1A]], [[Reactive Oxygen Species]], [[Erythrocyte]], [[Mitochondria]]
+- New links added: [[ERMIT]], [[BNIP3L]], [[Mitophagy]], [[Autophagy]], [[LC3]], [[Bcl-2 family]], [[HIF-1α]], [[Reactive Oxygen Species]], [[Erythrocyte]], [[Mitochondria]]
 - Strong connections to strengthen:
   - [[BNIP3L]] ↔ [[ERMIT]] — NIX is the essential driver of erythroid mitophagy
   - [[ERMIT]] ↔ [[Mitophagy]] — ERMIT is a specialized developmental form of mitophagy

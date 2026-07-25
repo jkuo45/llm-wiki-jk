@@ -30,7 +30,7 @@ Senomorphics (also called senostatics, senosuppressors) are mechanistically dist
 
 ## Mechanisms of SASP Modulation
 
-### [[NFκB]] Inhibition
+### [[NF-κB]] Inhibition
 
 NF-κB is the master transcriptional driver of the SASP. Senomorphics target multiple nodes in the NF-κB signaling cascade:
 - **[[IKK complex]] inhibition**: Rapamycin suppresses IKK activity via [[mTORC1]]-dependent and -independent mechanisms.
@@ -41,7 +41,7 @@ NF-κB is the master transcriptional driver of the SASP. Senomorphics target mul
 
 mTOR signaling is a key determinant of SASP magnitude:
 - **[[Rapamycin]]** (sirolimus): The prototypical [[mTORC1]] inhibitor, rapamycin suppresses the SASP of multiple senescence inducers ([[Oncogene-Induced Senescence]], [[Replicative Senescence]]) without eliminating senescent cells. It does so partly by inhibiting [[IL-1α]] translation and the [[MAPKAPK2]] pathway.
-- **[[Metformin]]**: Reduces SASP via [[AMPK]]-dependent [[mTORC1]] inhibition and [[NFκB]] suppression.
+- **[[Metformin]]**: Reduces SASP via [[AMPK]]-dependent [[mTORC1]] inhibition and [[NF-κB]] suppression.
 - **[[Resveratrol]]**: Activates [[SIRT1]] and [[AMPK]], indirectly suppressing mTOR and SASP.
 
 ### Redox-Sensitive Transcription Factors
@@ -57,16 +57,16 @@ Given that chronic [[Oxidative Stress]] is both a cause and a consequence of cel
 |----------|-----------|----------------|
 | [[Rapamycin]] | [[mTORC1]] inhibition | FDA-approved (immunosuppression); clinical trials for aging (PEARL, Targeting Aging with Metformin) |
 | [[Metformin]] | [[AMPK]] activation, [[mTORC1]] inhibition | FDA-approved (diabetes); TAME trial for aging |
-| [[Fisetin]] | [[NFκB]] inhibition, [[SIRT1]] activation | Clinical trials for osteoarthritis, COVID-19 |
-| [[Apigenin]] | [[NFκB]] and [[STAT3]] inhibition | Preclinical |
-| [[Urolithin A]] | [[Mitophagy]] induction, [[NFκB]] inhibition | Clinical trials (muscle function) |
+| [[Fisetin]] | [[NF-κB]] inhibition, [[SIRT1]] activation | Clinical trials for osteoarthritis, COVID-19 |
+| [[Apigenin]] | [[NF-κB]] and [[STAT3]] inhibition | Preclinical |
+| [[Urolithin A]] | [[Mitophagy]] induction, [[NF-κB]] inhibition | Clinical trials (muscle function) |
 | [[Adrenochrome derivatives]] | [[Redox Cycling]]-mediated Nrf2 activation | Preclinical |
 | [[Glucosamine]] | [[O-GlcNAcylation]] modulation, [[mTOR]] inhibition | Epidemiological evidence for lifespan extension |
 
 ## Therapeutic Potential in Age-Related Diseases
 
 Senomorphics hold promise across multiple age-related pathologies:
-- **[[Atherosclerosis]]**: SASP from senescent [[Endothelial cells]] and [[Foam Cells]] drives plaque progression; senomorphics stabilize plaques.
+- **[[Atherosclerosis]]**: SASP from senescent [[Endothelial Cells]] and [[Foam Cells]] drives plaque progression; senomorphics stabilize plaques.
 - **[[Osteoarthritis]]**: Senescent [[Chondrocytes]] secrete [[MMP]] and inflammatory cytokines that degrade cartilage.
 - **[[Parkinson's Disease]]**: Senescent [[Astrocytes]] and [[Microglia]] contribute to neuroinflammation; senomorphics may slow neurodegeneration.
 - **[[Chronic Kidney Disease]]**: Tubular cell senescence drives renal fibrosis; senomorphic interventions preserve kidney function.
@@ -77,6 +77,6 @@ Senomorphics hold promise across multiple age-related pathologies:
 The [[SASP-Remodeling Aminochrome Complex]] (SRAC) represents a separate but related approach: whereas senomorphics suppress SASP from existing senescent cells, SRAC compounds are designed to remodel the extracellular proteome to reduce SASP-mediated matrix degradation and inflammation.
 
 ## Linking Summary
-- New links added: [[Senescence]], [[Inflammation]], [[Aminochromes]], [[Senolytics]], [[NFκB]], [[IKK complex]], [[mTORC1]], [[p65]], [[SIRT1]], [[Resveratrol]], [[p38 MAPK]], [[MK2]], [[SB203580]], [[Rapamycin]], [[IL-1α]], [[Metformin]], [[AMPK]], [[NRF2]], [[Sulforaphane]], [[Curcumin]], [[Dimethyl fumarate]], [[HIF-1α]], [[Acriflavine]], [[Carbazochrome]], [[Fisetin]], [[Apigenin]], [[STAT3]], [[Urolithin A]], [[Glucosamine]], [[Endothelial cells]], [[Foam Cells]], [[Chondrocytes]], [[MMP]], [[Astrocytes]], [[Microglia]], [[Lungs]], [[SASP-Remodeling Aminochrome Complex]], [[Redox Cycling]], [[Oxidative Stress]], [[Redox Homeostasis]], [[Osteoarthritis]], [[Idiopathic Pulmonary Fibrosis]], [[Chronic Kidney Disease]]
+- New links added: [[Senescence]], [[Inflammation]], [[Aminochromes]], [[Senolytics]], [[NF-κB]], [[IKK complex]], [[mTORC1]], [[p65]], [[SIRT1]], [[Resveratrol]], [[p38 MAPK]], [[MK2]], [[SB203580]], [[Rapamycin]], [[IL-1α]], [[Metformin]], [[AMPK]], [[NRF2]], [[Sulforaphane]], [[Curcumin]], [[Dimethyl fumarate]], [[HIF-1α]], [[Acriflavine]], [[Carbazochrome]], [[Fisetin]], [[Apigenin]], [[STAT3]], [[Urolithin A]], [[Glucosamine]], [[Endothelial Cells]], [[Foam Cells]], [[Chondrocytes]], [[MMP]], [[Astrocytes]], [[Microglia]], [[Lungs]], [[SASP-Remodeling Aminochrome Complex]], [[Redox Cycling]], [[Oxidative Stress]], [[Redox Homeostasis]], [[Osteoarthritis]], [[Idiopathic Pulmonary Fibrosis]], [[Chronic Kidney Disease]]
 - Suggested new entity notes to create: [[Senostatic]], [[Senosuppression]]
 - Strong connections to strengthen: [[Senomorphics]] ↔ [[Senolytics]], [[Senomorphics]] ↔ [[SASP-Remodeling Aminochrome Complex]]

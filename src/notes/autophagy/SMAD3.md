@@ -13,7 +13,7 @@ aliases: [MADH3, Mothers against decapentaplegic homolog 3, SMAD family member 3
 
 # SMAD3
 
-**SMAD3** (Mothers against decapentaplegic homolog 3) is a receptor-regulated [[SMAD]] (R-SMAD) transcription factor that mediates signalling from the [[TGF-β]] superfamily. It is centrally involved in cell cycle control, extracellular matrix production, immune regulation, and autophagy modulation.
+**SMAD3** (Mothers against decapentaplegic homolog 3) is a receptor-regulated [[SMAD]] (R-SMAD) transcription factor that mediates signalling from the [[TGFβ]] superfamily. It is centrally involved in cell cycle control, extracellular matrix production, immune regulation, and autophagy modulation.
 
 ## TGF-β Signalling and SMAD3 Activation
 
@@ -73,7 +73,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[TGF-β]] — upstream ligand that activates SMAD3
+- [[TGFβ]] — upstream ligand that activates SMAD3
 - [[SMAD4]] — co-SMAD required for SMAD3 nuclear function
 - [[TFEB]] — direct transcriptional target of SMAD3; negative regulator of autophagy
 - [[SIRT6]] / [[SIRT7]] — suppress SMAD3 activity
@@ -81,6 +81,6 @@ List of documents that mention this entity
 - [[Fibrosis]] — SMAD3 is a central pro-fibrotic transcription factor
 
 ## Linking Summary
-- New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[Inflammation]], [[Fibrosis]], [[Foxp3]], [[Regulatory T cells]]
+- New links added: [[TFEB]], [[TGFβ]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[Inflammation]], [[Fibrosis]], [[Foxp3]], [[Regulatory T cells]]
 - Suggested new entity notes to create: [[TGF-β Signalling]], [[CLEAR network]], [[SMAD family]]
-- Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]], [[SMAD3]] ↔ [[TGF-β]], [[SMAD3]] ↔ [[SIRT6]]
+- Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]], [[SMAD3]] ↔ [[TGFβ]], [[SMAD3]] ↔ [[SIRT6]]

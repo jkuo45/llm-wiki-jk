@@ -21,7 +21,7 @@ EBV has a ~172 kb genome encoding ~80 proteins. The virion is ~150-200 nm with a
 
 ## Infection and Latency
 
-Primary infection occurs via [[Saliva]] (infectious mononucleosis), infecting [[Oropharyngeal Epithelial Cells]] and then [[B Cells]]. EBV establishes three latency programs (Latency 0/III) expressing [[EBNA1]], [[EBNA2]], [[LMP1]], [[LMP2A]], and [[EBERs]]. [[LMP1]] constitutively activates [[NFκB]], [[JNK]], and [[PI3K]]-[[Akt]] signaling, mimicking a constitutively active [[CD40 receptor]].
+Primary infection occurs via [[Saliva]] (infectious mononucleosis), infecting [[Oropharyngeal Epithelial Cells]] and then [[B Cells]]. EBV establishes three latency programs (Latency 0/III) expressing [[EBNA1]], [[EBNA2]], [[LMP1]], [[LMP2A]], and [[EBERs]]. [[LMP1]] constitutively activates [[NF-κB]], [[JNK]], and [[PI3K]]-[[Akt]] signaling, mimicking a constitutively active [[CD40 receptor]].
 
 ## Associated Diseases
 
@@ -51,10 +51,10 @@ List of documents that mention this entity
 - [[Hodgkin Lymphoma]] — EBV-positive in a subset of cases
 - [[Nasopharyngeal Carcinoma]] — EBV-associated epithelial malignancy
 - [[Multiple Sclerosis]] — EBV is a necessary causal factor; EBNA1 cross-reacts with MBP
-- [[NFκB]] — constitutively activated by LMP1; drives B cell proliferation
+- [[NF-κB]] — constitutively activated by LMP1; drives B cell proliferation
 - [[Latency]] — EBV establishes lifelong latent infection
 
 ## Linking Summary
-- New links added: [[Herpesviridae]], [[DNA virus]], [[B Cells]], [[CD21]], [[HLA Class II]], [[Saliva]], [[Oropharyngeal Epithelial Cells]], [[EBNA1]], [[EBNA2]], [[LMP1]], [[LMP2A]], [[EBERs]], [[NFκB]], [[JNK]], [[PI3K]], [[Akt]], [[CD40 receptor]], [[Infectious Mononucleosis]], [[Burkitt Lymphoma]], [[Hodgkin Lymphoma]], [[Nasopharyngeal Carcinoma]], [[Post-transplant Lymphoproliferative Disorder]], [[Multiple Sclerosis]], [[Myelin Basic Protein]], [[Latency]]
+- New links added: [[Herpesviridae]], [[DNA virus]], [[B Cells]], [[CD21]], [[HLA Class II]], [[Saliva]], [[Oropharyngeal Epithelial Cells]], [[EBNA1]], [[EBNA2]], [[LMP1]], [[LMP2A]], [[EBERs]], [[NF-κB]], [[JNK]], [[PI3K]], [[Akt]], [[CD40 receptor]], [[Infectious Mononucleosis]], [[Burkitt Lymphoma]], [[Hodgkin Lymphoma]], [[Nasopharyngeal Carcinoma]], [[Post-transplant Lymphoproliferative Disorder]], [[Multiple Sclerosis]], [[Myelin Basic Protein]], [[Latency]]
 - Suggested new entity notes to create: [[Gammaherpesvirinae]], [[EBV latency programs]], [[EBNA1]], [[LMP1]], [[CD40 receptor]], [[Viral oncogenesis]], [[Molecular mimicry]]
   - Strong connections to strengthen: Epstein-Barr virus ↔ B Cells, Epstein-Barr virus ↔ Multiple Sclerosis, Epstein-Barr virus ↔ Burkitt Lymphoma

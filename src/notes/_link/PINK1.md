@@ -20,7 +20,7 @@ Pink1 (PTEN-induced putative kinase 1, encoded by [[PINK1]]) is a 581-amino acid
 
 When mitochondria lose their membrane potential (Δψₘ) due to damage, toxin exposure, or age-related dysfunction, Pink1 import is arrested such that the full-length protein accumulates on the [[Outer mitochondrial membrane]]. Transmembrane insertion via the TOM complex positions the kinase domain facing the cytosol, where it dimerizes and becomes catalytically active. This Δψₘ-dependent stabilization makes Pink1 a sensitive and specific sensor of mitochondrial health.
 ## Kinase Activity and Substrates
-Active Pink1 phosphorylates both [[Ubiquitin]] and [[Parkin]] at Ser65, a residue within the conserved β-grasp fold of ubiquitin. Phosphoubiquitin (pUb) binding to Parkin's RING1 domain releases its autoinhibited conformation. Pink1 also phosphorylates ubiquitin chains pre-existing on mitochondrial proteins, creating a feed-forward amplification loop for Parkin recruitment. Beyond the Pink1-Parkin axis, Pink1 phosphorylates [[Mitochondrial Complex I]] subunits (e.g., [[NDUFA10]]), [[TRAP1]] (a mitochondrial heat shock protein), and [[Omi HtrA2]], regulating bioenergetic efficiency and [[Mitochondrial Unfolded Protein Response|UPRᵐᵗ]] activation.
+Active Pink1 phosphorylates both [[Ubiquitin]] and [[Parkin]] at Ser65, a residue within the conserved β-grasp fold of ubiquitin. Phosphoubiquitin (pUb) binding to Parkin's RING1 domain releases its autoinhibited conformation. Pink1 also phosphorylates ubiquitin chains pre-existing on mitochondrial proteins, creating a feed-forward amplification loop for Parkin recruitment. Beyond the Pink1-Parkin axis, Pink1 phosphorylates [[Mitochondrial Complex I]] subunits (e.g., [[NDUFA10]]), [[TRAP1]] (a mitochondrial heat shock protein), and [[Omi-HtrA2]], regulating bioenergetic efficiency and [[Mitochondrial Unfolded Protein Response|UPRᵐᵗ]] activation.
 ## Role in Mitophagy Initiation
 Pink1 acts as the gatekeeper of [[Mitophagy]] by converting a general signal (Δψₘ loss) into a specific ubiquitin-based code on the mitochondrial surface. This Pink1-pUb-Parkin signaling cascade constitutes the canonical mitophagy pathway. Pink1 also contributes to Parkin-independent mitophagy by recruiting autophagy receptors directly via phosphoubiquitin signaling.
 ## Mutations in Parkinson's Disease
@@ -74,7 +74,7 @@ List of documents that mention this entity
 - [[Mitochondrial Complex I]] — interacts with PINK1
 - [[NDUFA10]] — interacts with PINK1
 - [[TRAP1]] — interacts with PINK1
-- [[Omi HtrA2]] — interacts with PINK1
+- [[Omi-HtrA2]] — interacts with PINK1
 - [[Mitochondrial Unfolded Protein Response]] — interacts with PINK1
 - [[FBXO7]] — Scaffolding protein that accelerates PINK1-mediated Parkin recruitment
 - [[DRP1]] — PINK1 phosphorylates Drp1 at S616 to promote mitochondrial fission in synapses

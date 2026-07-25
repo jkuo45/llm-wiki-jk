@@ -18,7 +18,7 @@ Toll-like Receptor 2 (TLR2, CD282) is an innate immunity sensor that recognizes 
 
 ## Mechanism of Action & Signaling
 
-TLR2 is a type I transmembrane receptor that heterodimerizes — most often with TLR1 or TLR6 — to recognize diacylated and triacylated bacterial lipopeptides, as well as fungal and endogenous ligands (e.g., hyaluronan fragments, HMGB1). Ligand binding recruits the adaptor [[MyD88]] (and, for some ligands, [[TRIF]]), nucleating a MyD88–IRAK–TRAF6 complex that activates [[IKK complex]] → [[NFKB|NF-κB]], MAPKs (including [[p38 MAPK]]), and IRF signaling. This drives expression of pro-inflammatory cytokines, type I interferons, and co-stimulatory molecules, linking microbial and damage sensing to innate immune activation.
+TLR2 is a type I transmembrane receptor that heterodimerizes — most often with TLR1 or TLR6 — to recognize diacylated and triacylated bacterial lipopeptides, as well as fungal and endogenous ligands (e.g., hyaluronan fragments, HMGB1). Ligand binding recruits the adaptor [[MyD88]] (and, for some ligands, [[TRIF]]), nucleating a MyD88–IRAK–TRAF6 complex that activates [[IKK complex]] → [[NF-κB|NF-κB]], MAPKs (including [[p38 MAPK]]), and IRF signaling. This drives expression of pro-inflammatory cytokines, type I interferons, and co-stimulatory molecules, linking microbial and damage sensing to innate immune activation.
 
 ## Role in Senescence / SASP
 
@@ -41,11 +41,11 @@ TLR2 is a therapeutic target in infection, sepsis, and autoimmunity, and TLR2 ag
 - [[Oncogene-Induced Senescence|OIS]]: TLR2 activates SASP during OIS
 - [[MyD88]]: TLR2 canonical adaptor
 - [[IKK complex]]: TLR2→MyD88 activates IKK/NF-κB
-- [[NFKB|NF-κB]]: TLR2 drives NF-κB-dependent SASP
+- [[NF-κB|NF-κB]]: TLR2 drives NF-κB-dependent SASP
 - [[SASP|Senescence-Associated Secretory Phenotype]]: TLR2 activates immunity-regulating SASP
 
 ## Linking Summary
 
-- New links added: [[MyD88]], [[IKK complex]], [[NFKB|NF-κB]], [[p38 MAPK]]
+- New links added: [[MyD88]], [[IKK complex]], [[NF-κB|NF-κB]], [[p38 MAPK]]
   - Suggested new entity notes to create: [[TLR1]], [[TLR6]], [[TRIF]]
   - Strong connections to strengthen: [[Toll-like Receptor 2]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Toll-like Receptor 2]] ↔ [[Oncogene-Induced Senescence|OIS]]

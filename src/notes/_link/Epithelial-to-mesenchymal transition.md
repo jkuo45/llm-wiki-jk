@@ -17,7 +17,7 @@ aliases: [Epithelial-to-mesenchymal transition, EMT, epithelial mesenchymal tran
 
 ## Mechanism of Action & Signaling
 
-EMT is orchestrated by transcriptional repressors of epithelial identity ([[Snail]], [[Zeb1]], TWIST) that suppress E-cadherin and tighten junctions, while upstream cues converge on [[TGF-β]], [[Wnt]], [[Notch]] and growth-factor ([[EGF]]) pathways. The SASP drives EMT through secreted ligands: [[TGF-β]] directly activates EMT transcription factors; [[IL-6]] and [[IL-8]] engage STAT3 and [[NF-κB]] to reinforce the mesenchymal program; and [[Matrix Metalloproteinases|MMPs]] ([[MMP-2]], [[MMP-3]], [[MMP-9]]) cleave junctional and basement-membrane proteins, liberating latent TGF-β and growth factors. Loss of E-cadherin and gain of N-cadherin/vimentin complete the switch. EMT is plastic and reversible, lying on a spectrum between epithelial and mesenchymal states.
+EMT is orchestrated by transcriptional repressors of epithelial identity ([[Snail]], [[Zeb1]], TWIST) that suppress E-cadherin and tighten junctions, while upstream cues converge on [[TGFβ]], [[Wnt]], [[Notch]] and growth-factor ([[EGF]]) pathways. The SASP drives EMT through secreted ligands: [[TGFβ]] directly activates EMT transcription factors; [[IL-6]] and [[IL-8]] engage STAT3 and [[NF-κB]] to reinforce the mesenchymal program; and [[Matrix Metalloproteinases|MMPs]] ([[MMP-2]], [[MMP-3]], [[MMP-9]]) cleave junctional and basement-membrane proteins, liberating latent TGF-β and growth factors. Loss of E-cadherin and gain of N-cadherin/vimentin complete the switch. EMT is plastic and reversible, lying on a spectrum between epithelial and mesenchymal states.
 
 ## Role in Senescence / SASP
 
@@ -25,7 +25,7 @@ EMT is a central process in [[Cancer]] progression and [[Metastasis]]. SASP fact
 
 ## Clinical / Pathological Relevance
 
-EMT underlies carcinoma invasion, metastasis and resistance to chemotherapy and targeted therapy, and contributes to organ [[Fibrosis]] (e.g., renal, pulmonary, cardiac). Targeting SASP–EMT crosstalk—via [[TGF-β]] or [[IL-6]]/[[IL-8]] blockade, or senolytics—is a strategy to limit metastasis and fibrosis driven by aged, senescent cell populations.
+EMT underlies carcinoma invasion, metastasis and resistance to chemotherapy and targeted therapy, and contributes to organ [[Fibrosis]] (e.g., renal, pulmonary, cardiac). Targeting SASP–EMT crosstalk—via [[TGFβ]] or [[IL-6]]/[[IL-8]] blockade, or senolytics—is a strategy to limit metastasis and fibrosis driven by aged, senescent cell populations.
 
 ## Documents
 
@@ -40,13 +40,13 @@ List of documents that mention this entity
 - [[SASP|Senescence-Associated Secretory Phenotype]] — SASP factors like TGF-β and IL-6 promote EMT
 - [[Cancer]] — EMT is a driver of cancer progression and metastasis
 - [[Metastasis]] — EMT facilitates cancer cell invasion and migration
-- [[TGF-β]] — A key SASP factor that induces EMT
+- [[TGFβ]] — A key SASP factor that induces EMT
 - [[IL-6]] — Promotes EMT in cancer cells
 - [[IL-8]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[NF-κB]], [[STAT3]], [[Snail]], [[Zeb1]], [[Fibrosis]], [[Tumor Microenvironment]] — related mechanisms
 
 ## Linking Summary
 
-  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Metastasis]], [[TGF-β]], [[IL-6]], [[IL-8]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[NF-κB]], [[STAT3]], [[Snail]], [[Zeb1]], [[Fibrosis]], [[Tumor Microenvironment]], [[Wnt]], [[Notch]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Metastasis]], [[TGFβ]], [[IL-6]], [[IL-8]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[NF-κB]], [[STAT3]], [[Snail]], [[Zeb1]], [[Fibrosis]], [[Tumor Microenvironment]], [[Wnt]], [[Notch]]
   - Strong connections to strengthen: Epithelial-to-mesenchymal transition ↔ Cancer, Epithelial-to-mesenchymal transition ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Epithelial-to-mesenchymal transition ↔ [[Metastasis]], Epithelial-to-mesenchymal transition ↔ [[Mesenchymal-to-Epithelial Transition]], Epithelial-to-mesenchymal transition ↔ [[Cellular Reprogramming]]
 
 ## Additional Context (Cellular Reprogramming / Development)

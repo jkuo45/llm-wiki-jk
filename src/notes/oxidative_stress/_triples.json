@@ -322,21 +322,21 @@
     "confidence": 0.95
   },
   {
-    "subject": "Elevated MDA",
+    "subject": "Malondialdehyde",
     "predicate": "is associated with",
     "object": "Cardiovascular Disease",
     "context": "Elevated MDA is associated with cardiovascular disease, being increased in plasma and within atherosclerotic plaque tissue relative to healthy vessels. It reflects oxidant stress in the vessel wall that promotes LDL oxidation and endothelial dysfunction. The directionality is oxidative burden to biomarker elevation. A caveat is that association does not prove causality, and MDA can be a consequence as well as a contributor to vascular pathology.",
     "confidence": 0.95
   },
   {
-    "subject": "Elevated MDA",
+    "subject": "Malondialdehyde",
     "predicate": "is associated with",
     "object": "Diabetes Mellitus",
     "context": "Elevated MDA is associated with diabetes mellitus, where plasma and erythrocyte MDA rise and correlate with HbA1c and glycemic burden. Hyperglycemia drives mitochondrial superoxide and advanced glycation that amplify lipid peroxidation. The directionality is metabolic dysfunction to oxidative marker. A caveat is that MDA elevation is a downstream indicator and improves with glycemic control rather than being a primary diabetic lesion.",
     "confidence": 0.95
   },
   {
-    "subject": "Elevated MDA",
+    "subject": "Malondialdehyde",
     "predicate": "is associated with",
     "object": "Neurodegeneration",
     "context": "Elevated MDA is associated with neurodegeneration, with higher levels reported in CSF and brain tissue in Alzheimer's and Parkinson's disease. It marks membrane damage in neurons already stressed by protein misfolding and mitochondrial failure. The directionality is neuronal oxidant stress to biomarker. A caveat is that MDA elevation may be secondary to neurodegeneration, and its usefulness as an early diagnostic marker remains limited.",
@@ -401,12 +401,12 @@
   {
     "subject": "NADPH Oxidase",
     "predicate": "activates",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "NADPH oxidase activates NF-kappaB because the ROS it produces (especially H2O2) oxidize inhibitory proteins and activate upstream kinases such as IKK and PKC that release NF-kappaB for nuclear translocation. This links redox signaling to inflammatory gene transcription. The directionality is ROS to transcription-factor activation. A caveat is that NF-kappaB and ROS engage in a feed-forward loop, with NF-kappaB also inducing NOX subunits, so causality is bidirectional.",
     "confidence": 0.95
   },
   {
-    "subject": "NOX2 deficiency",
+    "subject": "NOX2",
     "predicate": "causes",
     "object": "Chronic granulomatous disease",
     "context": "NOX2 deficiency causes chronic granulomatous disease, a group of genetic defects in NOX2 (gp91phox) subunits that abolish the phagocyte respiratory burst. Patients suffer recurrent, life-threatening bacterial and fungal infections due to failure to generate microbicidal ROS. The directionality is enzyme defect to immunodeficiency. A caveat is that the disease severity varies with the specific mutation and residual oxidase activity, and some organisms evade even normal ROS killing.",
@@ -555,7 +555,7 @@
   {
     "subject": "Alpha-Lipoic Acid",
     "predicate": "inhibits",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "Alpha-lipoic acid inhibits NF-kappaB by preventing IkappaB phosphorylation and degradation, thereby limiting nuclear translocation of the transcription factor. This dampens downstream inflammatory cytokine production. The directionality is antioxidant to anti-inflammatory signaling suppression. A caveat is that NF-kappaB also has anti-apoptotic and protective roles, so chronic suppression could be deleterious in some contexts.",
     "confidence": 0.95
   },
@@ -597,7 +597,7 @@
   {
     "subject": "Endothelial Dysfunction",
     "predicate": "is caused by",
-    "object": "eNOS Uncoupling",
+    "object": "eNOS",
     "context": "Endothelial dysfunction is caused by eNOS uncoupling, wherein insufficient tetrahydrobiopterin (BH4) or L-arginine leads eNOS to produce superoxide instead of NO, lowering bioavailable NO. This shifts the enzyme from vasoprotection to oxidative injury. The directionality is cofactor loss to dysfunction. A caveat is that endothelial dysfunction has many other drivers (shear stress, inflammation, hyperglycemia), so uncoupling is a major but not solitary mechanism.",
     "confidence": 0.95
   },
@@ -651,7 +651,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "NOX2 deficiency",
+    "subject": "NOX2",
     "predicate": "causes",
     "object": "Chronic Granulomatous Disease",
     "context": "NOX2 deficiency causes chronic granulomatous disease, a group of genetic defects in NOX2 (gp91phox) subunits that abolish the phagocyte respiratory burst. Patients suffer recurrent, life-threatening bacterial and fungal infections due to failure to generate microbicidal ROS. The directionality is enzyme defect to immunodeficiency. A caveat is that the disease severity varies with the specific mutation and residual oxidase activity, and some organisms evade even normal ROS killing.",
@@ -667,19 +667,19 @@
   {
     "subject": "Reactive Oxygen Species",
     "predicate": "activate",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "Reactive oxygen species activate NF-kappaB because oxidants (notably H2O2) modify cysteines on inhibitory proteins and upstream kinases, releasing NF-kappaB for nuclear translocation and target-gene expression. The transcription factor then induces genes that generate more ROS, establishing a feed-forward loop. The directionality is oxidant to transcriptional activation. A caveat is that ROS also activate many other pathways (MAPK, AP-1), and NF-kappaB can be either protective or pathogenic depending on context.",
     "confidence": 0.95
   },
   {
-    "subject": "NF-kappa B",
+    "subject": "NF-κB",
     "predicate": "induces",
     "object": "TNF-alpha",
     "context": "NF-kappaB induces TNF-alpha along with over 500 other target genes, driving the pro-inflammatory cascade that amplifies oxidative and immune responses. This positions NF-kappaB upstream of a cytokine network central to inflammation. The directionality is transcription factor to cytokine output. A caveat is that TNF-alpha itself further activates NF-kappaB, so the relationship is reciprocally reinforcing rather than linear.",
     "confidence": 0.95
   },
   {
-    "subject": "NF-kappa B",
+    "subject": "NF-κB",
     "predicate": "antagonizes",
     "object": "NRF2",
     "context": "NF-kappaB antagonizes NRF2 through mutual competition, as the RelA subunit competes with NRF2 for the coactivators CBP and p300, limiting antioxidant gene transcription. This creates a molecular switch that favors inflammation over antioxidant defense. The directionality is transcriptional competition suppressing the antioxidant program. A caveat is that cross-talk is context-dependent and certain stimuli can co-activate both pathways transiently.",
@@ -695,14 +695,14 @@
   {
     "subject": "S-Nitrosylation",
     "predicate": "inhibits",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "S-nitrosylation inhibits NF-kappaB when NO-derived S-nitrosothiols modify key cysteines (p50 Cys-62 and RelA Cys-38), disrupting DNA binding and transcriptional activity. This provides a redox-based brake on inflammatory signaling. The directionality is NO-mediated modification to transcriptional repression. A caveat is that the effect is reversible and concentration-dependent, and high NO can also paradoxically promote NF-kappaB under some conditions.",
     "confidence": 0.95
   },
   {
     "subject": "Bortezomib",
     "predicate": "blocks",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "Bortezomib blocks NF-kappaB by inhibiting the proteasome, preventing degradation of IkappaB and thus trapping NF-kappaB in the cytoplasm. This therapeutic strategy exploits the dependence of many cancers on NF-kappaB survival signaling. The directionality is proteasome inhibition to transcriptional blockade. A caveat is that bortezomib also inhibits degradation of many other proteins, causing toxicity such as peripheral neuropathy.",
     "confidence": 0.95
   },
@@ -737,12 +737,12 @@
   {
     "subject": "Nitrated lipids",
     "predicate": "activate",
-    "object": "PPARgamma",
+    "object": "PPARγ",
     "context": "Nitrated lipids activate PPARgamma, as electrophilic nitrated fatty acids such as nitrolinoleic acid act as ligands that promote the receptor's transcriptional program. This redirects metabolism and induces anti-inflammatory and antioxidant genes. The directionality is lipid nitration product to nuclear receptor activation. A caveat is that nitrated lipids can also signal through PPARalpha and other targets, so PPARgamma is a major but not exclusive node.",
     "confidence": 0.95
   },
   {
-    "subject": "Amyloid-beta",
+    "subject": "Amyloid Beta",
     "predicate": "binds",
     "object": "Redox-Active Metals",
     "context": "Amyloid-beta binds redox-active metals (Cu2+ and Fe3+), forming complexes that generate superoxide and H2O2 via Fenton-like chemistry at the metal site. This positions Abeta as a localized source of ROS in the Alzheimer brain. The directionality is metal binding to radical generation. A caveat is that metal-free Abeta aggregation also drives pathology, so redox activity is one of several toxic functions.",
@@ -772,7 +772,7 @@
   {
     "subject": "Oxidative Stress",
     "predicate": "promotes",
-    "object": "Tau hyperphosphorylation",
+    "object": "Tau",
     "context": "Oxidative stress promotes tau hyperphosphorylation by activating kinases such as GSK-3beta and CDK5 that phosphorylate tau and reduce its binding to microtubules. Excess oxidative modification thereby shifts tau toward a detached, aggregation-prone state. The directionality is oxidant to kinase activation to tau modification. A caveat is that tau phosphorylation is also tightly regulated by phosphatases, and some phosphorylation is physiological, so oxidative stress modulates rather than solely dictates the process.",
     "confidence": 0.95
   },
@@ -877,7 +877,7 @@
   {
     "subject": "ABCA1",
     "predicate": "is regulated by",
-    "object": "LXRalpha",
+    "object": "LXRα",
     "context": "ABCA1 is regulated by LXRalpha, as the nuclear receptor directly drives ABCA1 transcription in response to oxysterol ligands, coordinating cholesterol efflux. This places ABCA1 downstream of LXR-controlled reverse-cholesterol-transport programs. The directionality is LXRalpha activation to ABCA1 expression. A caveat is that PPARgamma and other transcription factors also regulate ABCA1, so LXRalpha is a major but not exclusive controller.",
     "confidence": 0.95
   },
@@ -905,7 +905,7 @@
   {
     "subject": "Flavonoids",
     "predicate": "suppress",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "Flavonoids suppress NF-kappaB by inhibiting its activation and nuclear translocation, thereby dampening expression of inflammatory cytokines and adhesion molecules. This anti-inflammatory action complements their antioxidant effects. The directionality is flavonoid to suppressed inflammatory transcription. A caveat is that some flavonoids can also act as pro-oxidants or modulate other pathways, so the net immune effect is concentration- and context-dependent.",
     "confidence": 0.95
   },
@@ -1036,7 +1036,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "eNOS Uncoupling",
+    "subject": "eNOS",
     "predicate": "produces",
     "object": "Superoxide Radicals",
     "context": "eNOS uncoupling produces superoxide radicals when tetrahydrobiopterin or L-arginine becomes limiting, redirecting electron flow from NO synthesis to oxygen reduction. The enzyme thereby switches from vasoprotection to oxidative injury. The directionality is cofactor deficiency to superoxide generation. A caveat is that partial uncoupling still yields some NO, and the transition is graded rather than an on/off switch.",
@@ -1101,14 +1101,14 @@
   {
     "subject": "Mitochondrial DNA",
     "predicate": "is particularly susceptible to",
-    "object": "Oxidative DNA Damage",
+    "object": "DNA Damage",
     "context": "Mitochondrial DNA is particularly susceptible to oxidative DNA damage because it lies near the electron-transport chain, lacks protective histones, and has limited repair capacity relative to nuclear DNA. This makes mtDNA a sensitive early marker of mitochondrial oxidant stress. The directionality is proximity to ROS source to increased lesion frequency. A caveat is that mtDNA damage can also arise from replication errors and base-excision-repair intermediates, so ROS is a major but not exclusive cause.",
     "confidence": 0.95
   },
   {
     "subject": "Base Excision Repair",
     "predicate": "is the primary repair pathway for",
-    "object": "Oxidative DNA Damage",
+    "object": "DNA Damage",
     "context": "Base excision repair is the primary repair pathway for oxidative DNA damage, initiated by lesion-specific DNA glycosylases such as OGG1 that excise oxidized bases and hand the intermediate to downstream nucleases, polymerases, and ligases. This pathway restores genome integrity after ROS exposure. The directionality is lesion recognition to excision and resynthesis. A caveat is that BER can be overwhelmed or error-prone under heavy damage, and backup pathways (MMR, NER) handle subsets of lesions.",
     "confidence": 0.95
   },
@@ -1183,21 +1183,21 @@
     "confidence": 0.95
   },
   {
-    "subject": "Amyloid-beta",
+    "subject": "Amyloid Beta",
     "predicate": "catalyzes",
     "object": "Hydrogen Peroxide",
     "context": "Amyloid-beta catalyzes hydrogen peroxide formation because Cu2+-bound Abeta reduces oxygen to H2O2 via Fenton-like chemistry at the metal-binding site. This makes Abeta plaques local ROS generators in the Alzheimer brain. The directionality is metal-bound peptide to H2O2 production. A caveat is that Abeta also promotes ROS through microglial activation and mitochondrial dysfunction, so catalyzed H2O2 is one of several sources.",
     "confidence": 0.95
   },
   {
-    "subject": "Amyloid-beta",
+    "subject": "Amyloid Beta",
     "predicate": "impairs",
     "object": "Mitochondrial Complex IV",
     "context": "Amyloid-beta impairs mitochondrial Complex IV (cytochrome c oxidase) after accumulating in mitochondria, depressing respiration and increasing electron leak. This links protein misfolding to bioenergetic failure and ROS. The directionality is Abeta mitochondrial localization to respiratory inhibition. A caveat is that Complex IV inhibition can be both a cause and consequence of oxidative damage in a feed-forward loop.",
     "confidence": 0.95
   },
   {
-    "subject": "Amyloid-beta",
+    "subject": "Amyloid Beta",
     "predicate": "induces",
     "object": "Lipid Peroxidation",
     "context": "Amyloid-beta induces lipid peroxidation through metal-catalyzed ROS and through direct interactions with membranes, generating MDA and 4-HNE. These aldehydes then further compromise synapses and proteins. The directionality is Abeta-driven oxidation to membrane damage. A caveat is that lipid peroxidation products also feed back to stabilize Abeta aggregation, creating a vicious cycle.",
@@ -1206,7 +1206,7 @@
   {
     "subject": "Oxidative Stress",
     "predicate": "promotes",
-    "object": "Tau hyperphosphorylation",
+    "object": "Tau",
     "context": "Oxidative stress promotes tau hyperphosphorylation by activating GSK-3beta and CDK5, kinases that phosphorylate tau and reduce its affinity for microtubules. This predisposes tau to detach and aggregate into paired helical filaments. The directionality is oxidant to kinase activation to tau modification. A caveat is that tau phosphorylation is also controlled by phosphatases and other kinases, so oxidative stress modulates rather than solely dictates the process, which is shared across Alzheimer and related tauopathies.",
     "confidence": 0.95
   },
@@ -1262,7 +1262,7 @@
   {
     "subject": "CD36 expression",
     "predicate": "is induced by",
-    "object": "PPARgamma",
+    "object": "PPARγ",
     "context": "CD36 expression is induced by PPARgamma, which transcriptionally upregulates the receptor in macrophages, creating a feed-forward loop that amplifies oxLDL scavenging. ROS can further enhance this PPARgamma-dependent induction. The directionality is nuclear receptor to receptor upregulation. A caveat is that excessive CD36 induction promotes foam-cell formation, so the loop is maladaptive under chronic lipid stress.",
     "confidence": 0.95
   },
@@ -1276,7 +1276,7 @@
   {
     "subject": "Oxysterols",
     "predicate": "regulate",
-    "object": "LXRalpha",
+    "object": "LXRα",
     "context": "Oxysterols regulate LXRalpha as endogenous ligands that activate the nuclear receptor and its target genes controlling cholesterol efflux and transport. This links sterol sensing to reverse cholesterol transport. The directionality is oxysterol to LXRalpha activation. A caveat is that oxysterol structure determines agonist versus antagonist activity at LXR, and some oxysterols also signal through other receptors.",
     "confidence": 0.95
   },
@@ -1311,7 +1311,7 @@
   {
     "subject": "IL-1beta",
     "predicate": "activates",
-    "object": "NF-kappa B",
+    "object": "NF-κB",
     "context": "IL-1beta activates NF-kappaB via MyD88-dependent signaling upon binding its receptor IL-1R1, amplifying expression of inflammatory genes. This places IL-1beta upstream of a central inflammatory transcription factor. The directionality is cytokine to NF-kappaB activation. A caveat is that IL-1beta itself is an NF-kappaB target, so the loop is reinforcing rather than linear, and IL-1ra can dampen it.",
     "confidence": 0.95
   },
@@ -1379,28 +1379,28 @@
     "confidence": 0.95
   },
   {
-    "subject": "LXRalpha",
+    "subject": "LXRα",
     "predicate": "is activated by",
     "object": "Oxysterols",
     "context": "LXRalpha is activated by oxysterols such as 22(R)-, 24(S)-, and 27-hydroxycholesterol, which serve as endogenous ligands that trigger the receptor's transcriptional program. This couples cellular cholesterol status to gene regulation. The directionality is oxysterol ligand to LXRalpha activation. A caveat is that synthetic LXR agonists activate more potently but can cause undesirable lipogenesis, revealing context-dependent outcomes.",
     "confidence": 0.95
   },
   {
-    "subject": "LXRalpha",
+    "subject": "LXRα",
     "predicate": "promotes",
     "object": "Reverse Cholesterol Transport",
     "context": "LXRalpha promotes reverse cholesterol transport by upregulating ABCA1, ABCG1, ABCG5/ABCG8, and ApoE, which together mobilize cholesterol from peripheral cells to HDL and the liver. This is a central anti-atherogenic function. The directionality is receptor activation to cholesterol efflux. A caveat is that LXRalpha also induces lipogenic genes (SREBP-1c, FASN), so full activation can raise triglycerides, limiting therapeutic use.",
     "confidence": 0.95
   },
   {
-    "subject": "LXRalpha",
+    "subject": "LXRα",
     "predicate": "suppresses",
     "object": "Inflammatory Gene Expression",
     "context": "LXRalpha suppresses inflammatory gene expression, as SUMOylated LXRalpha recruits corepressors such as NCoR to NF-kappaB target promoters, dampening cytokine responses. This links cholesterol sensing to immune moderation. The directionality is LXRalpha to transcriptional repression of inflammation. A caveat is that the anti-inflammatory effect is gene- and context-specific and can be overshadowed by pro-lipogenic actions at high activation.",
     "confidence": 0.95
   },
   {
-    "subject": "LXRalpha",
+    "subject": "LXRα",
     "predicate": "induces",
     "object": "SREBP-1c",
     "context": "LXRalpha induces SREBP-1c and its lipogenic targets (FASN, SCD1, ACC), increasing fatty-acid synthesis when activated. This reflects the receptor's role in coordinating lipid metabolism. The directionality is LXRalpha to lipogenesis program. A caveat is that this same induction causes hepatic steatosis with synthetic LXR agonists, so the metabolic consequence is a double-edged sword.",
@@ -1533,7 +1533,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "NF-kappa B",
+    "subject": "NF-κB",
     "predicate": "upregulates",
     "object": "Antioxidant Gene Program",
     "context": "NF-kappaB upregulates an antioxidant gene program as a negative feedback that limits TNF-alpha-induced tissue damage, inducing enzymes such as MnSOD, ferritin, and heme oxygenase. This self-limiting loop tempers the oxidative consequences of inflammatory signaling. The directionality is NF-kappaB to adaptive antioxidant transcription. A caveat is that the same factor also drives pro-oxidant enzymes (NOX, iNOS), so the net redox outcome depends on stimulus and cell type.",

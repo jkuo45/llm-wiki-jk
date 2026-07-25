@@ -8,9 +8,7 @@ updated: 2026-07-24
 tags:
   - biological-process
   - mitochondria
-  - autophagy
-  - mitophagy
-aliases: []
+aliases: [hypoxia-induced mitophagy]
 ---
 
 # Mitophagy

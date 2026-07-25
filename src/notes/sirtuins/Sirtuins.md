@@ -13,6 +13,7 @@ aliases:
   - Sirtuin Family
   - SIRTs
   - Mammalian Sirtuins
+  - Sirtuin
   - Class III HDACs
 
 source: _document_ - sirtuins (resveratrol), gemini.md, _document_ - sirtuins in health and disease s41392-022-01257-8.md, _document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md
@@ -77,7 +78,7 @@ Mammalian sirtuins operate in concert or compensate for one another to regulate 
 
 ### A. Inflammation and Immune Cell Function
 
-- **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of [[NFKB|NF-κB]], suppressing its transcriptional activity and reducing the secretion of pro-inflammatory cytokines like TNF-$\alpha$, IL-6, and IL-1$\beta$.
+- **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of [[NF-κB|NF-κB]], suppressing its transcriptional activity and reducing the secretion of pro-inflammatory cytokines like TNF-$\alpha$, IL-6, and IL-1$\beta$.
 - **SIRT3**: Diminishes macrophage-mediated inflammation by reducing reactive oxygen species (ROS) and directly suppressing [[NLRP3]] inflammasome activation.
 - **Inflammatory Polarization**: SIRT3 and SIRT6 promote the anti-inflammatory M2 phenotype in macrophages, whereas loss of sirtuins leads to systemic and microvascular inflammation.
 
@@ -206,7 +207,7 @@ List of documents that mention this entity
 - [[FoxO1]]: | Sirtuin | Primary Localization | Major Enzymatic Activities | Primary Substrates | | :------------ | :-------------...
 - [[FOXO3a]]: | Sirtuin | Primary Localization | Major Enzymatic Activities | Primary Substrates | | :------------ | :-------------...
 - [[TFEB]]: | Sirtuin | Primary Localization | Major Enzymatic Activities | Primary Substrates | | :------------ | :-------------...
-- [[NFKB]]: - **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of NF-κB, supp...
+- [[NF-κB]]: - **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of NF-κB, supp...
 - [[NLRP3]]: - **SIRT3**: Diminishes macrophage-mediated inflammation by reducing reactive oxygen species (ROS) and directly suppr...
 - [[HIF-1α]]: SIRT6 suppresses glycolysis by acting as a co-repressor for HIF-1α.
 - [[AMPK]]: - **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[AMPK|AMPK]]**, coordi...
@@ -216,7 +217,7 @@ List of documents that mention this entity
 - [[SIRT1]]: SIRT1 is the most extensively characterized sirtuin discussed.
 
 ## Linking Summary
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NFKB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NF-κB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
 - **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
 

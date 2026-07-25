@@ -36,6 +36,6 @@ List of documents that mention this entity
 - [[ATF4]]: TGF-β induces autophagy via SMAD3 and ATF4.
 
 ## Linking Summary
-- New links added: [[TGF-β]], [[SMAD3]], [[TFEB]]
+- New links added: [[TGFβ]], [[SMAD3]], [[TFEB]]
 - Suggested new entity notes to create: [[Cytokine Signaling]]
 - Strong connections to strengthen: [[TGF-β Signaling]] ↔ [[SMAD3]]

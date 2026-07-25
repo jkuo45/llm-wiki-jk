@@ -19,7 +19,7 @@ tags:
 # The Senescence-Associated Secretory Phenotype and Its Physiological and Pathological Implications
 
 > [!abstract] Abstract
-> [[Senescence]] is a state of terminal growth arrest associated with the upregulation of different cell cycle inhibitors, mainly [[p16 INK4a|p16]] and [[p21 CIP1|p21]], structural and metabolic alterations, chronic [[DNA Damage Response|DNA damage responses]], and a hypersecretory state known as the [[SASP|Senescence-Associated Secretory Phenotype]]. The SASP is the major mediator of the paracrine effects of senescent cells in their tissue microenvironment and of various local and systemic biological functions.
+> [[Senescence]] is a state of terminal growth arrest associated with the upregulation of different cell cycle inhibitors, mainly [[p16INK4A|p16]] and [[p21 CIP1|p21]], structural and metabolic alterations, chronic [[DNA Damage Response|DNA damage responses]], and a hypersecretory state known as the [[SASP|Senescence-Associated Secretory Phenotype]]. The SASP is the major mediator of the paracrine effects of senescent cells in their tissue microenvironment and of various local and systemic biological functions.
 
 ## Introduction
 
@@ -33,7 +33,7 @@ tags:
 
 All these states share common marks but are also associated with unique features that underline the potential for a large heterogeneity of senescence phenotypes in vivo.
 
-A major common feature of senescent cells is the upregulation of cyclin-dependent kinase (CDK) inhibitors, primarily [[p21 CIP1|p21]]^CIP1^ (encoded by [[CDKN1A]]) and [[p16 INK4a|p16]]^INK4a^ ([[CDKN2A]]). Persistent inhibition by these proteins of CDK–cyclin complexes results in hypophosphorylated [[Retinoblastoma Protein|Rb]], p107 and p130 proteins and consequently in the downregulation of [[E2F]] target genes, which are essential for cell cycle progression.
+A major common feature of senescent cells is the upregulation of cyclin-dependent kinase (CDK) inhibitors, primarily [[p21 CIP1|p21]]^CIP1^ (encoded by [[CDKN1A]]) and [[p16INK4A|p16]]^INK4a^ ([[CDKN2A]]). Persistent inhibition by these proteins of CDK–cyclin complexes results in hypophosphorylated [[Retinoblastoma Protein|Rb]], p107 and p130 proteins and consequently in the downregulation of [[E2F]] target genes, which are essential for cell cycle progression.
 
 > [!info] Senescence Markers
 > Blocks of mitosis in senescent cells lead to multinucleation, irregular nuclear size and loss of expression of the nuclear lamina protein [[Lamin B1]]. Moreover, Rb mediates the formation and accumulation of [[Senescence-Associated Heterochromatin Foci|SAHF]], which are distinct chromatin structures that suppress transcription.
@@ -66,7 +66,7 @@ As the first-discovered SASP components, proteins are by far the most characteri
 
 #### Chemokines
 
-[[CCL2]] (MCP-1) is a SASP factor regulated by IL-1α and IL-1β and a strong chemoattractant for the migration and infiltration of monocytes and macrophages. CCL2 can be negatively regulated by [[BMI1]] through an IL-1α-mediated mechanism in senescent mesenchymal stromal cells.
+[[CCL2]] (MCP-1) is a SASP factor regulated by IL-1α and IL-1β and a strong chemoattractant for the migration and infiltration of monocytes and macrophages. CCL2 can be negatively regulated by [[Bmi-1]] through an IL-1α-mediated mechanism in senescent mesenchymal stromal cells.
 
 [[CCL5]] contributes to non-small-cell lung cancer progression upon its secretion by TIS cancer cells and impairs preantral follicle development secreted by senescent theca and interstitial cells during natural ageing.
 
@@ -109,12 +109,12 @@ The SASP was originally described as a consequence of a transcriptomic programme
 
 ### The p53–p21 and p16–Rb Pathways
 
-Stable proliferation arrest is a key characteristic of senescent cells, and the [[p53]]–[[p21 CIP1|p21]] and [[p16 INK4a|p16]]–[[Retinoblastoma Protein|Rb]] pathways are its major regulators. In addition to their role in growth arrest, these pathways are crucial for SASP regulation.
+Stable proliferation arrest is a key characteristic of senescent cells, and the [[p53]]–[[p21 CIP1|p21]] and [[p16INK4A|p16]]–[[Retinoblastoma Protein|Rb]] pathways are its major regulators. In addition to their role in growth arrest, these pathways are crucial for SASP regulation.
 
 > [!note] p53 and SASP
 > In most contexts, [[p53]] appears to have a role in restraining the production of pro-inflammatory SASP factors. For example, loss of p53 amplifies pro-inflammatory SASP factors in replicative senescence, TIS, and OIS fibroblasts and p53 activation in senescent cells by treatment with [[Nutlin 3a]] attenuates the secretory phenotype in TIS fibroblasts.
 
-Similarly, [[p16 INK4a|p16]] overexpression or long-term exposure to CDK4 or CDK6 inhibitors induced a DDR-free senescent state without proinflammatory SASP factors but with a unique p53-dependent SASP profile (p53-arm) that included secretory proteins encoded by direct p53 target genes (for example, [[IGFBP3]]) and several interferon pathway factors (for example, [[ISG15]]).
+Similarly, [[p16INK4A|p16]] overexpression or long-term exposure to CDK4 or CDK6 inhibitors induced a DDR-free senescent state without proinflammatory SASP factors but with a unique p53-dependent SASP profile (p53-arm) that included secretory proteins encoded by direct p53 target genes (for example, [[IGFBP3]]) and several interferon pathway factors (for example, [[ISG15]]).
 
 > [!important] p21 and Immuno-surveillance
 > [[p21 CIP1|p21]] supports an early secretory phenotype that includes [[CXCL14]] and [[IGFBP3]], which puts stressed or senescent cells under immunosurveillance, and this process is mediated by [[Retinoblastoma Protein|Rb]] activation.
@@ -131,7 +131,7 @@ Moreover, cell surface proteins, such as [[CD36]] (also known as platelet glycop
 
 ### The p38 MAPK and mTOR Pathways
 
-In cancer, [[p38 MAPK]] signalling is constitutively activated by oncogenic RAS and its effector MEK mediates premature senescence through upregulation of p53 and [[p16 INK4a|p16]]. p38 MAPK was the first protein shown to activate an NF-κB-mediated SASP independent of the DDR. In senescent fibroblasts residing in the tumour microenvironment, p38 MAPK stabilizes SASP transcripts, thereby favouring tumorigenesis.
+In cancer, [[p38 MAPK]] signalling is constitutively activated by oncogenic RAS and its effector MEK mediates premature senescence through upregulation of p53 and [[p16INK4A|p16]]. p38 MAPK was the first protein shown to activate an NF-κB-mediated SASP independent of the DDR. In senescent fibroblasts residing in the tumour microenvironment, p38 MAPK stabilizes SASP transcripts, thereby favouring tumorigenesis.
 
 Following chemotherapy, levels of the transcription factor ZSCAN4 are elevated in senescent stromal cells through [[ATM]] activation of [[TAK1]] (also known as MAP3K7), and a TAK1–ZSCAN4 complex has a key role in promoting the SASP by activating p38 MAPK and [[mTORC1|mTOR]] signalling.
 
@@ -154,7 +154,7 @@ The [[cGAS-STING Pathway|cGAS–STING]] complex promotes the SASP through interf
 
 ### Pathways Dedicated to Distinct SASP Profiles
 
-As discussed above, p53 reactivation or accumulation and long-term CDK4 and CDK6 inhibition by [[p16 INK4a|p16]] overexpression or exposure to drugs can lead to a senescent state without a conventional NF-κB-driven pro-inflammatory SASP but with unique profiles that are directly dependent on p53 or p16. Similarly, MiDAS is associated with a distinct secretory phenotype that is dependent on p53.
+As discussed above, p53 reactivation or accumulation and long-term CDK4 and CDK6 inhibition by [[p16INK4A|p16]] overexpression or exposure to drugs can lead to a senescent state without a conventional NF-κB-driven pro-inflammatory SASP but with unique profiles that are directly dependent on p53 or p16. Similarly, MiDAS is associated with a distinct secretory phenotype that is dependent on p53.
 
 Overexpression of the [[Notch]]1 intracellular domain (N1ICD; active NOTCH1) induces a unique SASP profile lacking the pro-inflammatory module, which is partly dependent on TGFβ signalling. In models of prostate-cancer senescence induced by loss of the phosphatase tumour suppressor PTEN, further deletion of TIMP1, which encodes metalloproteinase inhibitor 1, reprogrammes the SASP to have a pro-tumorigenic function, suggesting the existence of molecular switches that regulate different SASP modules.
 
@@ -182,7 +182,7 @@ High-mobility group protein A (HMGA) and HMGB are chromatin-regulating factors. 
 
 ## Temporal Dynamics of the SASP
 
-The induction of different SASP components is a temporally dynamic and intricately regulated process. Whereas the [[p53]]–[[p21 CIP1|p21]] pathway is an early regulator of senescence, [[NF-κB]] and [[p16 INK4a|p16]] are normally induced in later phases, and LINE1-driven interferon signalling is considered a mark of deep senescence.
+The induction of different SASP components is a temporally dynamic and intricately regulated process. Whereas the [[p53]]–[[p21 CIP1|p21]] pathway is an early regulator of senescence, [[NF-κB]] and [[p16INK4A|p16]] are normally induced in later phases, and LINE1-driven interferon signalling is considered a mark of deep senescence.
 
 > [!info] Notch-Mediated SASP Switch
 > [[Notch]] signalling is crucial for the switch from an early (for example, [[TGFβ]]) to a late (for example, [[IL-6]] and [[IL-8]]) SASP by suppressing [[CEBPβ|C/EBPβ]], which further interferes with [[IL-1α]] and NF-κB. A multi-omics study has shown that the transcription factor [[AP-1]] defines the temporal dynamics of the senescence-associated transcriptional network, including the SASP.

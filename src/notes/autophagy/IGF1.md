@@ -6,7 +6,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [insulin-like growth factor 1]
+aliases: [insulin-like growth factor 1, IGF-1]
 
 ---
 

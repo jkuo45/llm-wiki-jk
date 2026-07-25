@@ -17,7 +17,7 @@ Prostaglandin E2 (PGE2) is a bioactive lipid derived from [[arachidonic acid]] v
 
 ## Synthesis
 
-1. [[Arachidonic acid]] is released from membrane phospholipids by [[phospholipase A2]] (cPLA2).
+1. [[Arachidonic acid]] is released from membrane phospholipids by [[Phospholipase A2]] (cPLA2).
 2. [[COX-2]] converts arachidonic acid to [[prostaglandin H2]] (PGH2).
 3. PGE synthases (cPGES, mPGES-1, mPGES-2) convert PGH2 to PGE2.
 4. PGE2 signals through four GPCRs: **EP1**, **EP2**, **EP3**, **EP4**.
@@ -50,6 +50,6 @@ PGE2 is a core [[SASP|Senescence-Associated Secretory Phenotype]] factor secrete
 
 ## Linking Summary
 
-- New links added: [[COX-2]], [[arachidonic acid]], [[phospholipase A2]], [[MDSC]], [[macrophages]], [[regulatory T cell]], [[NSAIDs]], [[celecoxib]]
+- New links added: [[COX-2]], [[arachidonic acid]], [[Phospholipase A2]], [[MDSC]], [[macrophages]], [[regulatory T cell]], [[NSAIDs]], [[celecoxib]]
 - Suggested new entity notes to create: [[cyclooxygenase-2]] (if separate from COX-2 entry)
 - Strong connections to strengthen: [[Prostaglandin E2]] ↔ [[COX-2]] (synthesis), [[Prostaglandin E2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senescence)

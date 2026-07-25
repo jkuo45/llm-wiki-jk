@@ -14,11 +14,11 @@ aliases: [IGFBP3, IGF-binding protein 3, IBP3]
 
 # IGFBP3
 
-**IGFBP3 (insulin-like growth factor-binding protein 3)** is the major circulating binding protein for [[IGF-1]] and a direct [[p53]] ([[TP53]]) target gene. It is a hallmark of the p53-dependent arm of the [[SASP|Senescence-Associated Secretory Phenotype]] and contributes to immunosurveillance of senescent cells.
+**IGFBP3 (insulin-like growth factor-binding protein 3)** is the major circulating binding protein for [[IGF1]] and a direct [[p53]] ([[TP53]]) target gene. It is a hallmark of the p53-dependent arm of the [[SASP|Senescence-Associated Secretory Phenotype]] and contributes to immunosurveillance of senescent cells.
 
 ## Mechanism of Action & Signaling
 
-IGFBP3 is transcriptionally induced by p53 after DNA damage and during oncogene-induced senescence, together with other p53-arm SASP components such as PAI-1 and TGFβ. Secreted IGFBP3 binds [[IGF-1]]/IGF-2 with high affinity, limiting their availability to the [[IGF1R]] and thereby dampening pro-proliferative insulin-like growth factor signaling. Beyond its endocrine/paracrine IGF-sequestration role, IGFBP3 has IGF-independent actions: it can translocate to the nucleus, interact with nuclear receptors, and promote apoptosis in certain cells, and it can modulate TGFβ bioavailability. Its expression is coordinated with the broader p53-driven senescence secretome rather than with the NF-κB–driven arm.
+IGFBP3 is transcriptionally induced by p53 after DNA damage and during oncogene-induced senescence, together with other p53-arm SASP components such as PAI-1 and TGFβ. Secreted IGFBP3 binds [[IGF1]]/IGF-2 with high affinity, limiting their availability to the [[IGF1R]] and thereby dampening pro-proliferative insulin-like growth factor signaling. Beyond its endocrine/paracrine IGF-sequestration role, IGFBP3 has IGF-independent actions: it can translocate to the nucleus, interact with nuclear receptors, and promote apoptosis in certain cells, and it can modulate TGFβ bioavailability. Its expression is coordinated with the broader p53-driven senescence secretome rather than with the NF-κB–driven arm.
 
 ## Role in Senescence / SASP
 
@@ -39,10 +39,10 @@ IGFBP3 is transcriptionally induced by p53 after DNA damage and during oncogene-
 
 - [[p53]]: IGFBP3 is a p53 target gene
 - [[SASP|Senescence-Associated Secretory Phenotype]]: IGFBP3 is a p53-arm SASP factor
-- [[IGF-1]] / [[IGF1R]]: IGFBP3 binds and sequesters IGFs
+- [[IGF1]] / [[IGF1R]]: IGFBP3 binds and sequesters IGFs
 - [[Apoptosis]]: IGFBP3 has IGF-independent pro-apoptotic effects
 
 ## Linking Summary
 
-- New links added: [[p53]], [[TP53]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF-1]], [[IGF1R]], [[Apoptosis]]
+- New links added: [[p53]], [[TP53]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF1]], [[IGF1R]], [[Apoptosis]]
   - Strong connections to strengthen: [[IGFBP3]] ↔ [[p53]], [[IGFBP3]] ↔ immunosurveillance, [[IGFBP3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

@@ -7,7 +7,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - enzyme
-aliases: []
+aliases: [Cytochrome C]
 ---
 
 # Cytochrome c

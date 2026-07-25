@@ -16,7 +16,7 @@ aliases: []
 
 ## Composition
 - **[[melittin]]**: The major component, comprising about 50% of the dry weight.
-- **[[phospholipase A2]]**: An enzyme that works with melittin to disrupt cell membranes.
+- **[[Phospholipase A2]]**: An enzyme that works with melittin to disrupt cell membranes.
 
 ## anticancer Properties
 Honeybee venom has demonstrated antitumoral effects in various cancers, including [[Breast Cancer]], [[Melanoma]], and [[leukemia]]. It is highly selective for aggressive cancer subtypes like [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
@@ -27,6 +27,6 @@ Honeybee venom has demonstrated antitumoral effects in various cancers, includin
 - [[apitherapy]]: The medicinal use of honeybee products, including venom.
 
 ## Linking Summary
-- New links added: [[Apis mellifera]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[apitherapy]], [[leukemia]], [[melittin]], [[phospholipase A2]], [[triple-negative breast cancer]]
+- New links added: [[Apis mellifera]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[apitherapy]], [[leukemia]], [[melittin]], [[Phospholipase A2]], [[triple-negative breast cancer]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Honeybee venom]] ↔ [[triple-negative breast cancer]], [[Honeybee venom]] ↔ [[HER2-enriched breast cancer]], [[Honeybee venom]] ↔ [[phospholipase A2]]
+- Strong connections to strengthen: [[Honeybee venom]] ↔ [[triple-negative breast cancer]], [[Honeybee venom]] ↔ [[HER2-enriched breast cancer]], [[Honeybee venom]] ↔ [[Phospholipase A2]]

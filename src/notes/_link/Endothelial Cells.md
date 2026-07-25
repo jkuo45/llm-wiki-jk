@@ -4,7 +4,7 @@ description: Cerebrovascular lining cells that express cGAS-STING and, when acti
 created: 2026-07-13
 updated: 2026-07-15
 tags: [cell-type, vascular, neurovascular]
-aliases: [Endothelium, Vascular Endothelial Cells]
+aliases: [Endothelium, Vascular Endothelial Cells, Endothelial cells]
 ---
 
 # Endothelial Cells
@@ -27,7 +27,7 @@ Importantly, the role of STING in barrier integrity is context dependent and cel
 > [[Endothelial Cells|Endothelial cells (ECs)]] are the most [[Senescence|senescence]]-susceptible vascular cell type, with senescent EC burden increasing 10.7-fold with aging in the aorta. [[Fisetin]] (a [[Senolytic|senolytic]]) selectively eliminates senescent ECs in vivo.
 
 Key aging-related changes in ECs:
-- **Senescent EC signature**: Identified via [[Single-cell RNA-seq]]; found 12 EC subclusters, with subcluster 10 representing the senescent EC population expressing *[[p21 CIP1|Cdkn1a]]*, *[[p16 INK4a|Cdkn2a]]*, and [[SASP]] factors
+- **Senescent EC signature**: Identified via [[Single-cell RNA-seq]]; found 12 EC subclusters, with subcluster 10 representing the senescent EC population expressing *[[p21 CIP1|Cdkn1a]]*, *[[p16INK4A|Cdkn2a]]*, and [[SASP]] factors
 - **SASP production**: Senescent ECs secrete [[CXCL12]] as the most highly upregulated SASP factor — this chemokine drives [[Endothelial Dysfunction|endothelial dysfunction]] in an autocrine/paracrine manner
 - **EC as both source and target**: ECs function as both a source of circulating [[CXCL12]] and a target of its detrimental effects
 - **[[Endothelial-to-Mesenchymal Transition]] (EndoMT)**: Senescent ECs lose endothelial markers ([[CDH5]], [[PECAM1]]) and gain mesenchymal markers ([[TGFB1]], [[ACTA2]]) — a transdifferentiation process driven by the [[SASP]] and [[CXCL12]]

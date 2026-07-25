@@ -18,7 +18,7 @@ MSCs reside in a perivascular niche as [[Pericyte|pericytes]] and are mobilized 
 
 ## Mechanism of Action & Immunomodulation
 
-MSCs modulate immunity chiefly via their secretome — a milieu of cytokines, exosomes, and [[Hepatocyte Growth Factor]] (HGF), [[TGF-β]], [[PGE2]], and IDO. They suppress T-cell proliferation, bias macrophages toward an M2 reparative phenotype, inhibit NK cytotoxicity, and promote regulatory T-cell expansion. These effects are license-dependent: inflammatory cytokines ([[IFN-γ]], [[TNF]]) prime MSCs to upregulate IDO and PD-L1, establishing a feedback that dampens inflammation. MSCs also secrete factors that support [[Muscle Stem Cell|satellite cell]] and [[Neural Stem Cell]] niches.
+MSCs modulate immunity chiefly via their secretome — a milieu of cytokines, exosomes, and [[Hepatocyte Growth Factor]] (HGF), [[TGFβ]], [[PGE2]], and IDO. They suppress T-cell proliferation, bias macrophages toward an M2 reparative phenotype, inhibit NK cytotoxicity, and promote regulatory T-cell expansion. These effects are license-dependent: inflammatory cytokines ([[IFN-γ]], [[TNF]]) prime MSCs to upregulate IDO and PD-L1, establishing a feedback that dampens inflammation. MSCs also secrete factors that support [[Muscle Stem Cell|satellite cell]] and [[Neural Stem Cell]] niches.
 
 ## Physiological & Reparative Function
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Fibroblast]], [[Regenerative Medicine]], [[Tissue Repair]], [[Immunomodulation]], [[Yamanaka Factors]], [[Induced Neural Stem Cells]], [[Pericyte]], [[TGF-β]], [[PGE2]], [[IFN-γ]], [[TNF]], [[VEGF]], [[Hepatocyte Growth Factor]], [[Muscle Stem Cell]], [[Neural Stem Cell]], [[Induced Pluripotent Stem Cells]], [[Teratoma]], [[Frontotemporal Dementia]], [[Olivopontocerebellar Atrophy]], [[Quiescence]], [[Neurodegeneration]]
+- New links added: [[Fibroblast]], [[Regenerative Medicine]], [[Tissue Repair]], [[Immunomodulation]], [[Yamanaka Factors]], [[Induced Neural Stem Cells]], [[Pericyte]], [[TGFβ]], [[PGE2]], [[IFN-γ]], [[TNF]], [[VEGF]], [[Hepatocyte Growth Factor]], [[Muscle Stem Cell]], [[Neural Stem Cell]], [[Induced Pluripotent Stem Cells]], [[Teratoma]], [[Frontotemporal Dementia]], [[Olivopontocerebellar Atrophy]], [[Quiescence]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[Pericyte]], [[IDO (Indoleamine 2,3-Dioxygenase)]], [[ISCT Criteria]]
 - Strong connections to strengthen: [[Mesenchymal Stromal Cells]] ↔ [[Induced Neural Stem Cells]], [[Mesenchymal Stromal Cells]] ↔ [[Regenerative Medicine]]

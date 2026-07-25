@@ -25,7 +25,7 @@ aliases:
 
 ## Role in Senescence (Causality Test)
 
-- As a direct test of mitochondrial necessity, CCCP was applied to irradiation-induced senescent human fibroblasts. Mitochondrial depletion caused a significant reduction in senescent markers — [[p16 INK4a|p16]], [[p21 CIP1|p21]], SA-β-gal, and [[Senescence-Associated Heterochromatin Foci|SAHF]] — plus reduced cell size and ROS.
+- As a direct test of mitochondrial necessity, CCCP was applied to irradiation-induced senescent human fibroblasts. Mitochondrial depletion caused a significant reduction in senescent markers — [[p16INK4A|p16]], [[p21 CIP1|p21]], SA-β-gal, and [[Senescence-Associated Heterochromatin Foci|SAHF]] — plus reduced cell size and ROS.
 - **SASP abrogation**: Secretion of SASP factors IL-6, IL-8, [[GRO]], and [[MCP-1]] was nearly abolished. Similar effects occurred in replicative (RS), oncogene-induced (OIS), and oxidative-damage senescence.
 - Mitochondria-depleted cells continued to proliferate (at reduced rate) until ~20 days post-irradiation; once arrested, senescence was no longer accompanied by the SASP. This demonstrates mitochondria — particularly their inflammatory output — are central to senescence.
 
@@ -38,7 +38,7 @@ aliases:
 - [[Mitophagy]] — Parkin-mediated degradation triggered by CCCP
 - [[Parkin]] — E3 ligase mediating CCCP-induced mitophagy
 - [[Mitochondria]] — Organelle depleted by CCCP
-- [[p16 INK4a]] — Senescence marker reduced by CCCP
+- [[p16INK4A]] — Senescence marker reduced by CCCP
 - [[p21 CIP1]] — Senescence marker reduced by CCCP
 - [[Senescence-Associated Heterochromatin Foci]] — SAHF reduced by CCCP
 - [[SASP]] — Inflammatory secretome abrogated by CCCP
@@ -48,6 +48,6 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Mitophagy]], [[Parkin]], [[Mitochondria]], [[p16 INK4a]], [[p21 CIP1]], [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[IL-6]], [[IL-8]], [[GRO]], [[MCP-1]], [[ROS]]
+- New links added: [[Mitophagy]], [[Parkin]], [[Mitochondria]], [[p16INK4A]], [[p21 CIP1]], [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[IL-6]], [[IL-8]], [[GRO]], [[MCP-1]], [[ROS]]
 - Suggested new entity notes to create: [[GRO]], [[MCP-1]]
 - Strong connections to strengthen: [[CCCP]] ↔ [[Senescence]], [[CCCP]] ↔ [[SASP]]

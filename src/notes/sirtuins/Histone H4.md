@@ -8,8 +8,8 @@ updated: 2026-07-07
 tags:
   - protein
   - epigenetics
-aliases:
   - H4
+  - HIST1H4A
   - HIST1H4A
 ---
 

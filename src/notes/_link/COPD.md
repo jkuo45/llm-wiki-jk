@@ -14,7 +14,7 @@ aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Diseas
 # COPD
 **Chronic Obstructive Pulmonary Disease (COPD)** is a common chronic respiratory disease characterized by persistent respiratory symptoms and progressive airflow obstruction. It is the fourth leading cause of death worldwide. Oxidative stress, inflammation, and apoptosis are key drivers of COPD pathogenesis, all of which are closely linked to sirtuin regulation.
 ## Sirtuin Involvement
-- **[[SIRT1]]**: Substantially decreased in lungs of COPD/emphysema patients and rodents exposed to cigarette smoke. SIRT1 exerts anti-inflammatory, anti-apoptotic, and antioxidant roles in COPD by regulating [[NFκB]]-dependent proinflammatory mediators, [[FOXO3a]], and [[p53]].
+- **[[SIRT1]]**: Substantially decreased in lungs of COPD/emphysema patients and rodents exposed to cigarette smoke. SIRT1 exerts anti-inflammatory, anti-apoptotic, and antioxidant roles in COPD by regulating [[NF-κB]]-dependent proinflammatory mediators, [[FOXO3a]], and [[p53]].
 - **[[SIRT6]]**: Reduced SIRT6 is associated with COPD development via insufficient autophagy during cigarette smoke exposure. SIRT6 overexpression weakens autophagy via IGF–Akt–mTOR signaling.
 - **[[SIRT3]]**: Mitochondrial deacetylase that inhibits airway epithelial mitochondrial oxidative stress, attenuating COPD progression.
 - **[[SIRT1]] activator [[SRT1720]]**: Inhibits LPS-induced cytokine release from PBMCs in COPD patients, suggesting pharmacological SIRT1 activation as a therapeutic strategy.
@@ -33,7 +33,7 @@ List of documents that mention this entity
 
 ## Connections
 - [[SIRT1]] — NAD+-dependent deacetylase; activates NRF2
-- [[NFκB]] — interacts with
+- [[NF-κB]] — interacts with
 - [[FOXO3a]] — interacts with
 - [[p53]] — interacts with
 - [[SIRT6]] — interacts with
@@ -41,6 +41,6 @@ List of documents that mention this entity
 - [[SRT1720]] — interacts with
 
 ## Linking Summary
-- New links added: [[SIRT1]], [[NFκB]], [[FOXO3a]], [[p53]], [[SIRT6]], [[SIRT3]], [[SRT1720]]
+- New links added: [[SIRT1]], [[NF-κB]], [[FOXO3a]], [[p53]], [[SIRT6]], [[SIRT3]], [[SRT1720]]
   - Strong connections to strengthen: [[COPD]] ↔ SIRT1, [[COPD]] ↔ NFκB, [[COPD]] ↔ [[FOXO3a]], [[COPD]] ↔ [[p53]], [[COPD]] ↔ SIRT6
 

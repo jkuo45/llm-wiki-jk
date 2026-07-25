@@ -39,7 +39,7 @@ AMPK functions as a cellular energy sensor that promotes catabolism and inhibits
 - AMPK phosphorylates [[PGC-1α]], [[ULK1]] (autophagy initiation), [[TSC2]] (mTOR suppression), and [[FOXO]].
 ### Sirtuin Activation
 The [[Sirtuins]] family ([[SIRT1]]–[[SIRT7]]) links [[NAD+]] availability to longevity:
-- [[SIRT1]] deacetylates [[PGC-1α]], [[FOXO3a]], [[p53]], and [[NFκB]].
+- [[SIRT1]] deacetylates [[PGC-1α]], [[FOXO3a]], [[p53]], and [[NF-κB]].
 - [[SIRT3]] and [[SIRT4]] regulate mitochondrial metabolism and [[UPRmt]].
 - [[NAD+]] precursors ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]) improve sirtuin activity and extend healthspan in rodents.
 ### [[Mitohormesis]]

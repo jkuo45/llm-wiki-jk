@@ -5,10 +5,7 @@ description: NOX2 (gp91ᵖʰᵒˣ, NADPH oxidase 2) is the prototypical catalyti
   of superoxide production in phagocytes d...
 created: 2026-07-04
 updated: 2026-07-04
-tags:
-  - enzyme
-aliases: [gp91phox, CYBB, NADPH oxidase 2, Cytochrome b-245 heavy chain]
-
+aliases: [gp91phox, CYBB, NADPH oxidase 2, Cytochrome b-245 heavy chain, NOX2 deficiency]
 ---
 
 # NOX2

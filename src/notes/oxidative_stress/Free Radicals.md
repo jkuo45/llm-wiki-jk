@@ -26,7 +26,7 @@ Free radical chemistry is defined by self-propagating chain reactions. In **init
 
 ## Pathological Implications
 
-Uncontrolled radical production damages every biomolecule class. In [[Mitochondria]], electron leakage at Complex I and III generates [[Superoxide Radicals]] that overwhelm matrix [[Superoxide Dismutase]] (MnSOD/SOD2), causing [[Mitochondrial Dysfunction]]. Radical-mediated [[DNA Damage]]—notably [[8-oxo-2'-deoxyguanosine]] and strand breaks—drives [[Genomic Instability]] and [[Cancer]]. In [[Cardiovascular Disease]], free-radical oxidation of LDL within the arterial wall is rate-limiting for [[Atherosclerosis]]. In the CNS, high oxygen demand and modest antioxidant capacity make neural tissue vulnerable: free-radical damage to [[Dopaminergic Neurons]] characterizes [[Parkinson's Disease]], and [[Amyloid-beta]] plaques promote local radical generation via metal chelation in [[Alzheimer's Disease]].
+Uncontrolled radical production damages every biomolecule class. In [[Mitochondria]], electron leakage at Complex I and III generates [[Superoxide Radicals]] that overwhelm matrix [[Superoxide Dismutase]] (MnSOD/SOD2), causing [[Mitochondrial Dysfunction]]. Radical-mediated [[DNA Damage]]—notably [[8-oxo-2'-deoxyguanosine]] and strand breaks—drives [[Genomic Instability]] and [[Cancer]]. In [[Cardiovascular Disease]], free-radical oxidation of LDL within the arterial wall is rate-limiting for [[Atherosclerosis]]. In the CNS, high oxygen demand and modest antioxidant capacity make neural tissue vulnerable: free-radical damage to [[Dopaminergic Neurons]] characterizes [[Parkinson's Disease]], and [[Amyloid Beta]] plaques promote local radical generation via metal chelation in [[Alzheimer's Disease]].
 
 ## Therapeutic Targeting
 

@@ -25,7 +25,7 @@ Main Sources and Cell/Tissue Types
 	[pubs.acs.org](https://pubs.acs.org/doi/10.1021/tx7000916)
 - Brain ([[Neuromelanin]] pathway): [[Adrenochrome]] (or related [[Aminochromes]]) can form as an intermediate in [[Neuromelanin]] synthesis, particularly in [[Dopaminergic Neurons]] (e.g., in the [[Substantia Nigra]]). This is a normal physiological process, though excess may relate to oxidative damage.
 	[en.wikipedia.org](https://en.wikipedia.org/wiki/Adrenochrome)
-- Other tissues: It can form wherever [[Epinephrine]] or [[Norepinephrine]] is present and oxidized (e.g., [[Sympathetic nerve endings]], [[Endothelial cells]], or inflamed tissues like [[Rheumatoid synovial fluid]]). It has been studied in contexts like [[Endothelial cells]] and under oxidative conditions.
+- Other tissues: It can form wherever [[Epinephrine]] or [[Norepinephrine]] is present and oxidized (e.g., [[Sympathetic nerve endings]], [[Endothelial Cells]], or inflamed tissues like [[Rheumatoid synovial fluid]]). It has been studied in contexts like [[Endothelial Cells]] and under oxidative conditions.
 	[sciencedirect.com](https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/adrenochrome)
 
 Key Context
@@ -59,6 +59,6 @@ Summary
 These findings come from older biochemical studies; modern research on [[Adrenochrome]] is limited outside of its chemistry and minor physiological roles. Conspiracy claims about it being harvested from blood are not supported by science.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Epinephrine]], [[Adrenal medulla]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Chromaffin cells]], [[Neutrophils]], [[Inflammation]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[Cardiotoxicity]], [[Catecholamines]], [[Neuromelanin]], [[Dopaminergic Neurons]], [[Substantia Nigra]], [[Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial cells]], [[Rheumatoid synovial fluid]], [[Superoxide anion]], [[Redox Cycling]], [[Erythrocytes]], [[Hemoglobin]], [[Lipid Peroxidation]], [[Plasma Membrane]], [[Aminochromes]], [[Hemolysis]], [[Adrenochrome Hypothesis]]
-- Suggested new entity notes to create: [[Adrenal medulla]], [[Chromaffin cells]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[Dopaminergic Neurons]], [[Substantia Nigra]], [[Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial cells]], [[Rheumatoid synovial fluid]], [[Lipid Peroxidation]], [[Plasma Membrane]]
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Adrenal medulla]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Chromaffin cells]], [[Neutrophils]], [[Inflammation]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[Cardiotoxicity]], [[Catecholamines]], [[Neuromelanin]], [[Dopaminergic Neurons]], [[Substantia Nigra]], [[Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial Cells]], [[Rheumatoid synovial fluid]], [[Superoxide anion]], [[Redox Cycling]], [[Erythrocytes]], [[Hemoglobin]], [[Lipid Peroxidation]], [[Plasma Membrane]], [[Aminochromes]], [[Hemolysis]], [[Adrenochrome Hypothesis]]
+- Suggested new entity notes to create: [[Adrenal medulla]], [[Chromaffin cells]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[Dopaminergic Neurons]], [[Substantia Nigra]], [[Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial Cells]], [[Rheumatoid synovial fluid]], [[Lipid Peroxidation]], [[Plasma Membrane]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Neutrophils]], [[Adrenochrome]] ↔ [[Erythrocytes]], [[Adrenochrome]] ↔ [[Cardiotoxicity]]

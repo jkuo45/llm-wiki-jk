@@ -30,7 +30,7 @@ TNF-α is a major mediator of [[Insulin Resistance]] in [[Obesity]] and [[Diabet
 ### Therapeutic Targeting of TNF-α and Oxidative Stress
 Anti-TNF biologics — [[Infliximab]] (chimeric monoclonal), [[Adalimumab]] (human monoclonal), [[Etanercept]] (TNFR2-Fc fusion), [[Certolizumab pegol]], and [[Golimumab]] — are widely used in [[Rheumatoid Arthritis]], [[Inflammatory bowel disease]], [[Psoriasis]], and [[Ankylosing spondylitis]]. Beyond neutralizing TNF-α, these agents reduce systemic [[Oxidative Stress]]: treated patients show decreased serum [[Malondialdehyde]], increased [[Glutathione]], and improved [[total antioxidant capacity]]. [[Xanthine oxidase inhibitors]] ([[Allopurinol]]) and [[N-Acetylcysteine]] have been proposed as adjuncts to enhance anti-TNF efficacy by reducing the ROS burden that perpetuates TNF-α production through NF-κB activation.
 ## Sirtuin Regulation of TNF-α
-[[SIRT1]] deacetylation of [[NFκB]] downregulates pro-inflammatory cytokines including TNF-α. [[SIRT7]] kidney-specific knockout reduces TNF-α and other inflammatory factors.
+[[SIRT1]] deacetylation of [[NF-κB]] downregulates pro-inflammatory cytokines including TNF-α. [[SIRT7]] kidney-specific knockout reduces TNF-α and other inflammatory factors.
 
 
 #

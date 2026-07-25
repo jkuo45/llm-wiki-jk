@@ -987,7 +987,7 @@
     "confidence": 0.95
   },
   {
-    "subject": "Endothelial cells",
+    "subject": "Endothelial Cells",
     "predicate": "has_type",
     "object": "cell_type",
     "context": "Endothelial cells is a cell_type. Endothelial cells is a distinct cell type with specialized functions in immunity, metabolism, or structure. Classifying it as cell_type situates Endothelial cells among a distinct cell type with specialized functions in immunity, metabolism, or structure, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether Endothelial cells is treated as a reactant, enzyme, process, or disease node.",
@@ -1115,7 +1115,7 @@
   {
     "subject": "Inflammation",
     "predicate": "drives",
-    "object": "Adrenochrome formation",
+    "object": "Adrenochrome",
     "context": "Inflammation promotes adrenochrome production. Inflammation is the immune system's coordinated response to injury or pathogens, involving cytokines, leukocytes, and vasodilation. Chronic low-grade inflammation (inflammaging) is driven by NF-kB, NLRP3, and oxidative stress and contributes to aging and metabolic disease. Adrenochrome formation is the conversion of epinephrine to the indolequinone adrenochrome by autoxidation or enzymatic oxidation, a process strongly favored by ferric iron, copper, alkaline pH, and oxygen. It proceeds through the ephemeral adrenochrome semiquinone and is accompanied by hydrogen peroxide and superoxide generation.",
     "confidence": 0.75
   },
@@ -1136,7 +1136,7 @@
   {
     "subject": "Oxidative Stress",
     "predicate": "promotes",
-    "object": "Adrenochrome formation",
+    "object": "Adrenochrome",
     "context": "Oxidative stress promotes adrenochrome formation. Oxidative stress is the deleterious imbalance between production of reactive oxygen and nitrogen species and the capacity of antioxidant defenses to neutralize them. It drives lipid peroxidation, protein carbonylation, DNA damage, and mitochondrial dysfunction, and it is implicated in aging, neurodegeneration, and cardiovascular disease. Adrenochrome formation is the conversion of epinephrine to the indolequinone adrenochrome by autoxidation or enzymatic oxidation, a process strongly favored by ferric iron, copper, alkaline pH, and oxygen. It proceeds through the ephemeral adrenochrome semiquinone and is accompanied by hydrogen peroxide and superoxide generation.",
     "confidence": 0.95
   },
@@ -1304,14 +1304,14 @@
   {
     "subject": "GDF15",
     "predicate": "is",
-    "object": "mitokine",
+    "object": "Mitokines",
     "context": "GDF15 is a mitochondrial stress-induced circulating factor. GDF15 is a mitochondrially derived signaling molecule communicating organellar state. Classifying it as mitokine situates GDF15 among a mitochondrially derived signaling molecule communicating organellar state, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether GDF15 is treated as a reactant, enzyme, process, or disease node.",
     "confidence": 0.95
   },
   {
     "subject": "FGF21",
     "predicate": "is",
-    "object": "mitokine",
+    "object": "Mitokines",
     "context": "FGF21 is induced by mitochondrial stress. FGF21 is a mitochondrially derived signaling molecule communicating organellar state. Classifying it as mitokine situates FGF21 among a mitochondrially derived signaling molecule communicating organellar state, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether FGF21 is treated as a reactant, enzyme, process, or disease node.",
     "confidence": 0.95
   },
@@ -1542,12 +1542,12 @@
   {
     "subject": "Smoking",
     "predicate": "promotes",
-    "object": "Adrenochrome formation",
+    "object": "Adrenochrome",
     "context": "Smoking increases adrenochrome via elevated ROS and catecholamines. Cigarette smoking is a major source of inhaled oxidants and carcinogens that induces chronic inflammation and oxidative stress. It elevates ROS directly and via activated phagocytes and depletes antioxidants such as vitamin C. Adrenochrome formation is the conversion of epinephrine to the indolequinone adrenochrome by autoxidation or enzymatic oxidation, a process strongly favored by ferric iron, copper, alkaline pH, and oxygen. It proceeds through the ephemeral adrenochrome semiquinone and is accompanied by hydrogen peroxide and superoxide generation.",
     "confidence": 0.95
   },
   {
-    "subject": "COMT inhibition",
+    "subject": "COMT",
     "predicate": "promotes",
     "object": "Adrenochrome pathway",
     "context": "Blocking COMT may shift epinephrine toward adrenochrome. COMT inhibition refers to blockade of catechol-O-methyltransferase, either pharmacologically or genetically (COMT Val158Met polymorphism), which slows O-methylation of catecholamines. The resulting catechol accumulation increases both dopaminergic signaling and the substrate pool available for autoxidation to quinones such as adrenochrome. Adrenochrome pathway is a biologically relevant entity within this knowledge graph. Through this 'promotes' link, COMT inhibition exerts regulatory or associative control over Adrenochrome pathway, shaping the magnitude or direction of the downstream biological response.",
@@ -2067,7 +2067,7 @@
   {
     "subject": "MAVS",
     "predicate": "activates",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "MAVS signaling activates NFκB and interferon production. MAVS is a functional protein involved in cellular regulation, signaling, or structure. NFκB is the same transcription-factor family as NF-kB, controlling inflammatory and survival gene programs. It integrates redox and cytokine signals and is a therapeutic target in chronic inflammation. Through this 'activates' link, MAVS exerts regulatory or associative control over NFκB, shaping the magnitude or direction of the downstream biological response.",
     "confidence": 0.95
   },
@@ -2137,7 +2137,7 @@
   {
     "subject": "Maillard Reaction",
     "predicate": "activates",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "RAGE mediates pathological response to Maillard products, activating NFκB. The Maillard reaction is the non-enzymatic condensation of reducing sugars with amine groups on proteins to form Schiff bases and Amadori products, which rearrange and oxidize into advanced glycation end-products. It proceeds through dicarbonyl intermediates such as methylglyoxal and glyoxal and is accelerated by heat and low water activity. NFκB is the same transcription-factor family as NF-kB, controlling inflammatory and survival gene programs. It integrates redox and cytokine signals and is a therapeutic target in chronic inflammation.",
     "confidence": 0.95
   },
@@ -3255,14 +3255,14 @@
     "confidence": 0.95
   },
   {
-    "subject": "MAO (Monoamine oxidase)",
+    "subject": "MAO",
     "predicate": "has_type",
     "object": "enzyme",
     "context": "MAO (Monoamine oxidase) is a enzyme. MAO (Monoamine oxidase) is an enzyme that accelerates a specific biochemical transformation, typically with cofactor dependence. Classifying it as enzyme situates MAO (Monoamine oxidase) among an enzyme that accelerates a specific biochemical transformation, typically with cofactor dependence, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether MAO (Monoamine oxidase) is treated as a reactant, enzyme, process, or disease node.",
     "confidence": 0.95
   },
   {
-    "subject": "MAO (Monoamine oxidase)",
+    "subject": "MAO",
     "predicate": "inhibits",
     "object": "Adrenochrome",
     "context": "↔ Alternative metabolite when MAO is inhibited. MAO (Monoamine oxidase) is an enzyme that accelerates a specific biochemical transformation, typically with cofactor dependence. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin. The 'inhibits' relation denotes an inhibitory, neutralizing, or counteractive interaction in which MAO (Monoamine oxidase) diminishes or offsets the activity or abundance of Adrenochrome, relevant to redox and disease balance.",
@@ -5091,7 +5091,7 @@
   {
     "subject": "Dietary Advanced Glycation End Products and Aging",
     "predicate": "discusses",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "Dietary Advanced Glycation End Products and Aging discusses NFκB. This document reviews how dietary AGEs from cooked, processed foods contribute to systemic AGE load and inflammation beyond endogenous glycation. It links high-AGE diets to insulin resistance, oxidative stress, and accelerated aging phenotypes. NFκB is the same transcription-factor family as NF-kB, controlling inflammatory and survival gene programs. It integrates redox and cytokine signals and is a therapeutic target in chronic inflammation.",
     "confidence": 0.75
   },
@@ -5112,7 +5112,7 @@
   {
     "subject": "Dietary Advanced Glycation End Products and Aging",
     "predicate": "discusses",
-    "object": "NAD(P)H Oxidase",
+    "object": "NADPH Oxidase",
     "context": "Dietary Advanced Glycation End Products and Aging discusses NAD(P)H Oxidase. This document reviews how dietary AGEs from cooked, processed foods contribute to systemic AGE load and inflammation beyond endogenous glycation. It links high-AGE diets to insulin resistance, oxidative stress, and accelerated aging phenotypes. NAD(P)H Oxidase is a biologically relevant entity within this knowledge graph.",
     "confidence": 0.75
   },
@@ -6148,7 +6148,7 @@
   {
     "subject": "'Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects'",
     "predicate": "discusses",
-    "object": "NFκB",
+    "object": "NF-κB",
     "context": "'Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects' discusses NFκB. 'Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects' is a source document contributing evidence to the knowledge base. NFκB is the same transcription-factor family as NF-kB, controlling inflammatory and survival gene programs. It integrates redox and cytokine signals and is a therapeutic target in chronic inflammation.",
     "confidence": 0.75
   },
@@ -7462,196 +7462,196 @@
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "has_type",
     "object": "document",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator is a document. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. The work situates adrenochrome derivatives within broader glyco-oxidative disease biology.",
     "confidence": 0.95
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenochrome monoaminoguanidine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Adrenochrome monoaminoguanidine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Adrenochrome monoaminoguanidine is a glyco-oxidative modulator formed by conjugating adrenochrome with the dicarbonyl- and quinone-trapping agent aminoguanidine. It is investigated as a dual-action compound that both stabilizes the adrenochrome core and sequesters dicarbonyls and advanced glycation end-product precursors.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Oxidative Stress",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Oxidative Stress. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Oxidative stress is the deleterious imbalance between production of reactive oxygen and nitrogen species and the capacity of antioxidant defenses to neutralize them. It drives lipid peroxidation, protein carbonylation, DNA damage, and mitochondrial dysfunction, and it is implicated in aging, neurodegeneration, and cardiovascular disease.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Advanced Glycation End Products",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Advanced Glycation End Products. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Advanced glycation end-products (AGEs) are heterogeneous, often fluorescent protein adducts and cross-links formed by non-enzymatic glycation and oxidation of proteins with reducing sugars. They accumulate with age and diabetes and engage the RAGE receptor to drive inflammation and vascular stiffness.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenochrome",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Adrenochrome. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Epinephrine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Epinephrine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Epinephrine (adrenaline) is a catecholamine neurotransmitter and hormone synthesized from norepinephrine that acts on alpha and beta adrenergic receptors to increase heart rate, bronchodilation, and glucose mobilization. It is the parent molecule of adrenochrome through oxidation and is a major substrate for MAO and COMT.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "indoline-5,6-dione",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses indoline-5,6-dione. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Indoline-5,6-dione is a reduced indole-dione structural relative of adrenochrome that can serve as an analytical reference and a redox intermediate in adrenochrome chemistry. Its 5,6-dione ring mirrors the quinone moiety of adrenochrome and participates in the same redox and nucleophilic-addition reactions.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Aminoguanidine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Aminoguanidine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Aminoguanidine is a nucleophilic hydrazine compound that traps reactive dicarbonyls and inhibits advanced glycation end-product formation and inducible nitric oxide synthase. It reacts with methylglyoxal and glyoxal and stabilizes adrenochrome-derived electrophiles, motivating its use in adrenochrome monoaminoguanidine design.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Hydrazine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Hydrazine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Hydrazine is a low-molecular-weight chemical or small molecule whose reactivity is defined by its functional groups.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Dicarbonyls",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Dicarbonyls. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Dicarbonyls such as methylglyoxal, glyoxal, and 3-deoxyglucosone are highly reactive two-carbonyl intermediates of glycation and carbohydrate oxidation. They rapidly modify arginine and lysine residues to form AGEs and are detoxified by the glyoxalase system.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Methylglyoxal",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Methylglyoxal. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Methylglyoxal is a major reactive dicarbonyl generated as a side product of glycolysis and lipid peroxidation. It glycates proteins at arginine and lysine residues to form AGEs and is detoxified primarily by the glyoxalase system (GLO1 or GLO2) using glutathione.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Glyoxal",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Glyoxal. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Glyoxal is a reactive alpha-dicarbonyl produced during carbohydrate oxidation and lipid peroxidation that modifies proteins to form advanced glycation end-products. Like methylglyoxal it is scavenged by the glyoxalase system and trapped by aminoguanidine.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Lysine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Lysine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Lysine is an essential amino acid whose side-chain amino group is a major target of glycation and AGE cross-linking on proteins. Glycation of lysine residues by dicarbonyls alters protein charge, structure, and function.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Arginine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Arginine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Arginine is a semi-essential amino acid that is a substrate for nitric oxide synthase and a prime target for dicarbonyl glycation. Its modification by methylglyoxal forms AGEs that disrupt protein function.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Isatin",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Isatin. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Isatin is a low-molecular-weight chemical or small molecule whose reactivity is defined by its functional groups.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Antioxidant",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Antioxidant. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Antioxidant denotes any agent that intercepts free radicals or peroxides, stabilizing them and preventing biomolecule damage. Physiological antioxidants operate enzymatically (SOD, catalase, peroxidases) and non-enzymatically (glutathione, ascorbate, tocopherol).",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Neuroprotection",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Neuroprotection. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Neuroprotection is a biologically relevant entity within this knowledge graph.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Hemostatics",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Hemostatics. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Hemostatics is a pharmacological action or mechanism through which an agent exerts effects.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Hematopoietic stem cells",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Hematopoietic stem cells. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Hematopoietic stem cells is a biologically relevant entity within this knowledge graph.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Prodrug",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Prodrug. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Prodrug is a biologically relevant entity within this knowledge graph.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Chelating agents",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Chelating agents. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Chelating agents is a pharmacological action or mechanism through which an agent exerts effects.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Cardiotoxicity",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Cardiotoxicity. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Cardiotoxicity is damage to the heart from drugs, toxins, or radiation, manifesting as dysfunction, arrhythmia, or failure. Anthracyclines, for example, generate ROS via topoisomerase and mitochondrial quinone redox cycling.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Redox Cycling",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Redox Cycling. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Redox cycling is the repeated one-electron reduction and re-oxidation of a compound, such as a quinone, that continuously generates superoxide and consumes reducing equivalents. Adrenochrome and aminochromes redox-cycle via semiquinone intermediates, making them sustained intracellular ROS sources.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Reactive Oxygen Species",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Reactive Oxygen Species. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Reactive oxygen species (ROS) encompass superoxide, hydrogen peroxide, hydroxyl radical, and singlet oxygen produced as by-products of respiration and oxidase reactions. At low levels they act as signaling molecules, but excess ROS overwhelms antioxidant systems and damages macromolecules.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Antioxidants",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Antioxidants. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Antioxidants are molecules that donate electrons or hydrogen atoms to neutralize free radicals and reactive oxygen species, terminating chain oxidations. Endogenous examples include glutathione, superoxide dismutase, catalase, and vitamin C; exogenous include vitamin E and polyphenols.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Glutathione",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Glutathione. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Glutathione (GSH, gamma-glutamyl-cysteinyl-glycine) is the principal intracellular thiol antioxidant, existing in reduced and oxidized (GSSG) forms. It directly scavenges radicals, conjugates electrophiles via glutathione S-transferases, and recycles other antioxidants such as vitamins C and E.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Collagen",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Collagen. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Collagen is the most abundant structural protein, providing tensile strength to skin, bone, vessel, and tendon. Its long half-life makes it a sink for AGE cross-links (glucosepane, CML) that stiffen tissues with age and diabetes.",
     "confidence": 0.75
   },
   {
-    "subject": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Guanylhydrazone",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Guanylhydrazone. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Guanylhydrazone is a biologically relevant entity within this knowledge graph.",
@@ -8071,224 +8071,224 @@
     "confidence": 0.95
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "has_type",
     "object": "document",
     "context": "adrenochrome neutrophil and erthrocyte is a document. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Classifying it as document situates adrenochrome neutrophil and erthrocyte among a source document contributing evidence to the knowledge base, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether adrenochrome neutrophil and erthrocyte is treated as a reactant, enzyme, process, or disease node.",
     "confidence": 0.95
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenochrome",
     "context": "adrenochrome neutrophil and erthrocyte discusses Adrenochrome. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Epinephrine",
     "context": "adrenochrome neutrophil and erthrocyte discusses Epinephrine. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Epinephrine (adrenaline) is a catecholamine neurotransmitter and hormone synthesized from norepinephrine that acts on alpha and beta adrenergic receptors to increase heart rate, bronchodilation, and glucose mobilization. It is the parent molecule of adrenochrome through oxidation and is a major substrate for MAO and COMT.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenal medulla",
     "context": "adrenochrome neutrophil and erthrocyte discusses Adrenal medulla. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. The adrenal medulla is the inner adrenal gland region of chromaffin cells that synthesize and release epinephrine and norepinephrine. It is the primary physiological source of circulating adrenaline, the precursor to adrenochrome.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Oxidative Stress",
     "context": "adrenochrome neutrophil and erthrocyte discusses Oxidative Stress. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Oxidative stress is the deleterious imbalance between production of reactive oxygen and nitrogen species and the capacity of antioxidant defenses to neutralize them. It drives lipid peroxidation, protein carbonylation, DNA damage, and mitochondrial dysfunction, and it is implicated in aging, neurodegeneration, and cardiovascular disease.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Reactive Oxygen Species",
     "context": "adrenochrome neutrophil and erthrocyte discusses Reactive Oxygen Species. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Reactive oxygen species (ROS) encompass superoxide, hydrogen peroxide, hydroxyl radical, and singlet oxygen produced as by-products of respiration and oxidase reactions. At low levels they act as signaling molecules, but excess ROS overwhelms antioxidant systems and damages macromolecules.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Chromaffin cells",
     "context": "adrenochrome neutrophil and erthrocyte discusses Chromaffin cells. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Chromaffin cells is a distinct cell type with specialized functions in immunity, metabolism, or structure.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Neutrophils",
     "context": "adrenochrome neutrophil and erthrocyte discusses Neutrophils. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Neutrophils are abundant granulocytic innate immune cells that engulf pathogens and release ROS via NADPH oxidase and myeloperoxidase (generating HOCl) to kill microbes. Their oxidant burst can also damage host tissue in inflammation.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Inflammation",
     "context": "adrenochrome neutrophil and erthrocyte discusses Inflammation. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Inflammation is the immune system's coordinated response to injury or pathogens, involving cytokines, leukocytes, and vasodilation. Chronic low-grade inflammation (inflammaging) is driven by NF-kB, NLRP3, and oxidative stress and contributes to aging and metabolic disease.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenaline catabolism",
     "context": "adrenochrome neutrophil and erthrocyte discusses Adrenaline catabolism. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Adrenaline catabolism is the breakdown of epinephrine through two principal routes: oxidative deamination by monoamine oxidase (MAO) to aldehyde intermediates, and O-methylation by catechol-O-methyltransferase (COMT), with further aldehyde reduction or oxidation. A minor branch oxidizes epinephrine to adrenochrome, which then rearranges to adrenolutin.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Cardiomyocytes",
     "context": "adrenochrome neutrophil and erthrocyte discusses Cardiomyocytes. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Cardiomyocytes is a distinct cell type with specialized functions in immunity, metabolism, or structure.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Cardiotoxicity",
     "context": "adrenochrome neutrophil and erthrocyte discusses Cardiotoxicity. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Cardiotoxicity is damage to the heart from drugs, toxins, or radiation, manifesting as dysfunction, arrhythmia, or failure. Anthracyclines, for example, generate ROS via topoisomerase and mitochondrial quinone redox cycling.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Catecholamines",
     "context": "adrenochrome neutrophil and erthrocyte discusses Catecholamines. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Catecholamines is a class of related chemical compounds sharing a core structural or reactive motif.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Neuromelanin",
     "context": "adrenochrome neutrophil and erthrocyte discusses Neuromelanin. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Neuromelanin is the dark, metal-binding pigment accumulating in dopaminergic neurons of the substantia nigra and locus coeruleus, derived from oxidation of dopamine and other catecholamines. It sequesters redox-active metals such as iron and may be both protective and, when overloaded, a source of oxidative stress.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Aminochromes",
     "context": "adrenochrome neutrophil and erthrocyte discusses Aminochromes. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Aminochromes are the family of amino-substituted quinones arising from oxidation of endogenous catechols, including adrenolutin from epinephrine and dopaminochrome from dopamine. They are electrophilic, can redox-cycle to semiquinones and superoxide, and polymerize into melanic pigments.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Dopaminergic Neurons",
     "context": "adrenochrome neutrophil and erthrocyte discusses Dopaminergic Neurons. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Dopaminergic Neurons is a biologically relevant entity within this knowledge graph.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Substantia Nigra",
     "context": "adrenochrome neutrophil and erthrocyte discusses Substantia Nigra. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Substantia Nigra is an anatomical structure or tissue with a defined physiological role.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Norepinephrine",
     "context": "adrenochrome neutrophil and erthrocyte discusses Norepinephrine. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Norepinephrine (noradrenaline) is a catecholamine synthesized from dopamine that serves as both a peripheral sympathetic neurotransmitter and a central neuromodulator. It is a substrate for MAO and COMT and can undergo oxidative divergence into aminochrome or quinone products.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Sympathetic nerve endings",
     "context": "adrenochrome neutrophil and erthrocyte discusses Sympathetic nerve endings. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Sympathetic nerve endings is an anatomical structure or tissue with a defined physiological role.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
-    "object": "Endothelial cells",
+    "object": "Endothelial Cells",
     "context": "adrenochrome neutrophil and erthrocyte discusses Endothelial cells. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Endothelial cells is a distinct cell type with specialized functions in immunity, metabolism, or structure.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Rheumatoid synovial fluid",
     "context": "adrenochrome neutrophil and erthrocyte discusses Rheumatoid synovial fluid. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Rheumatoid synovial fluid is an anatomical structure or tissue with a defined physiological role.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Superoxide anion",
     "context": "adrenochrome neutrophil and erthrocyte discusses Superoxide anion. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. The superoxide anion radical (O2-) is the one-electron reduction product of molecular oxygen, generated by mitochondrial electron leak, NADPH oxidases, and quinone redox cycling. It is dismutated by superoxide dismutase to hydrogen peroxide, which can be further converted to the highly reactive hydroxyl radical via Fenton chemistry.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Redox Cycling",
     "context": "adrenochrome neutrophil and erthrocyte discusses Redox Cycling. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Redox cycling is the repeated one-electron reduction and re-oxidation of a compound, such as a quinone, that continuously generates superoxide and consumes reducing equivalents. Adrenochrome and aminochromes redox-cycle via semiquinone intermediates, making them sustained intracellular ROS sources.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Erythrocytes",
     "context": "adrenochrome neutrophil and erthrocyte discusses Erythrocytes. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Erythrocytes (red blood cells) lack mitochondria and rely on glycolysis, carrying hemoglobin for oxygen transport. They are uniquely exposed to circulatory oxidants and must maintain methemoglobin reductase and glutathione systems to prevent oxidation.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Hemoglobin",
     "context": "adrenochrome neutrophil and erthrocyte discusses Hemoglobin. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Hemoglobin is the tetrameric iron-containing protein of erythrocytes that transports oxygen from lungs to tissues and returns carbon dioxide. Its heme iron cycles between ferrous and ferric states, and its oxidation to methemoglobin is countered by dedicated reductase systems.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Lipid Peroxidation",
     "context": "adrenochrome neutrophil and erthrocyte discusses Lipid Peroxidation. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Lipid peroxidation is the free-radical chain oxidation of polyunsaturated fatty acids in membranes, producing reactive aldehydes such as malondialdehyde and 4-hydroxynonenal. It is initiated by hydroxyl radicals and propagated by lipid radicals, compromising membrane integrity.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Plasma Membrane",
     "context": "adrenochrome neutrophil and erthrocyte discusses Plasma Membrane. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Plasma Membrane is a biologically relevant entity within this knowledge graph.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Hemolysis",
     "context": "adrenochrome neutrophil and erthrocyte discusses Hemolysis. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Hemolysis is the rupture of erythrocytes with release of hemoglobin and intracellular contents, which can be oxidative, osmotic, mechanical, or immune-mediated. Oxidant drugs and methemoglobinemia precursors promote hemolysis, especially in G6PD deficiency.",
     "confidence": 0.75
   },
   {
-    "subject": "adrenochrome neutrophil and erthrocyte",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenochrome Hypothesis",
     "context": "adrenochrome neutrophil and erthrocyte discusses Adrenochrome Hypothesis. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. The adrenochrome hypothesis, advanced by Abram Hoffer, Humphry Osmond, and John Smythies in the 1950s, proposes that aberrant metabolism of adrenaline to the psychotomimetic compound adrenochrome causes the symptoms of schizophrenia. Although influential in early biological psychiatry, the hypothesis lacks robust replication and is generally considered unsupported by modern evidence.",
     "confidence": 0.75
   },
   {
-    "subject": "neutrophils role in adrenochrome production",
+    "subject": "Adrenochrome",
     "predicate": "has_type",
     "object": "document",
     "context": "neutrophils role in adrenochrome production is a document. This document examines how neutrophils, via myeloperoxidase and oxidant burst (HOCl, H2O2), can oxidize epinephrine to adrenochrome at inflammatory sites. It positions neutrophils as a cellular source of adrenochrome outside the adrenal medulla. The work links innate immunity to catecholamine oxidation chemistry.",
     "confidence": 0.95
   },
   {
-    "subject": "neutrophils role in adrenochrome production",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Neutrophils",
     "context": "neutrophils role in adrenochrome production discusses Neutrophils. This document examines how neutrophils, via myeloperoxidase and oxidant burst (HOCl, H2O2), can oxidize epinephrine to adrenochrome at inflammatory sites. It positions neutrophils as a cellular source of adrenochrome outside the adrenal medulla. Neutrophils are abundant granulocytic innate immune cells that engulf pathogens and release ROS via NADPH oxidase and myeloperoxidase (generating HOCl) to kill microbes. Their oxidant burst can also damage host tissue in inflammation.",
     "confidence": 0.75
   },
   {
-    "subject": "neutrophils role in adrenochrome production",
+    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenochrome",
     "context": "neutrophils role in adrenochrome production discusses Adrenochrome. This document examines how neutrophils, via myeloperoxidase and oxidant burst (HOCl, H2O2), can oxidize epinephrine to adrenochrome at inflammatory sites. It positions neutrophils as a cellular source of adrenochrome outside the adrenal medulla. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin.",

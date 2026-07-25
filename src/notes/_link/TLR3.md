@@ -27,8 +27,8 @@ TLR3 is a type I transmembrane glycoprotein with an extracellular leucine-rich r
 
 1. dsRNA binding induces TLR3 dimerization and recruitment of [[TRIF]] via its TIR domain.
 2. TRIF engages [[TRAF3]] → activates [[TBK1]]/IKKε → phosphorylates [[IRF3]] → type I interferon (IFN-β) production.
-3. TRIF also activates [[RIPK1]]/[[TRAF6]] → [[NFκB|NF-κB]] and [[MAPK|MAPK]] pathways → pro-inflammatory cytokine expression ([[TNF-alpha|TNF-α]], [[IL-6]]).
-4. The TLR3/TRIF axis can converge on the [[NFκB]]/[[STAT1]] axis driving inflammatory gene programs.
+3. TRIF also activates [[RIPK1]]/[[TRAF6]] → [[NF-κB|NF-κB]] and [[MAPK|MAPK]] pathways → pro-inflammatory cytokine expression ([[TNF-alpha|TNF-α]], [[IL-6]]).
+4. The TLR3/TRIF axis can converge on the [[NF-κB]]/[[STAT1]] axis driving inflammatory gene programs.
 
 ## Physiological Function
 
@@ -41,7 +41,7 @@ TLR3 is a frontline antiviral sensor initiating interferon and inflammatory resp
 
 ## Role in the Urolithin A Review
 
-The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* notes that [[Urolithin A]] inactivates [[TLR3]]/[[TRIF]] signaling to block the [[NFκB]]/[[STAT1]] axis, thereby reducing [[Inflammation|inflammation]] and enhancing [[Antioxidants|antioxidant]] defense (demonstrated in poly(I:C)-stimulated RAW264.7 macrophages).
+The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* notes that [[Urolithin A]] inactivates [[TLR3]]/[[TRIF]] signaling to block the [[NF-κB]]/[[STAT1]] axis, thereby reducing [[Inflammation|inflammation]] and enhancing [[Antioxidants|antioxidant]] defense (demonstrated in poly(I:C)-stimulated RAW264.7 macrophages).
 
 ## Documents
 
@@ -51,7 +51,7 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 ## Connections
 
 - [[TLR3]] → signals via → [[TRIF]]
-- [[TRIF]] → activates → [[NFκB]], [[STAT1]], [[IRF3]]
+- [[TRIF]] → activates → [[NF-κB]], [[STAT1]], [[IRF3]]
 - [[Urolithin A]] → inactivates → [[TLR3]] / [[TRIF]]
 
 ## Linking Summary

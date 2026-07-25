@@ -123,6 +123,6 @@ List of documents in the wiki that mention this entity
   - [[Hormetic Window]] — Directly determined by the ratio; the relevant biomarker threshold for methylene blue-derived hormesis
 
 ## Linking Summary
-- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC-1α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
+- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC-1α]], [[FOXO3a]], [[Caloric Restriction]], [[Methylene Blue]], [[Aminoguanidine]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NF-κB]]
 - Removed: [[Adrenochrome]] (replaced by [[Methylene Blue]] as the MRR redox cycler; [[Aminoguanidine]] added as pulse-terminating scavenger)
 - Suggested new entity notes to create: [[Mitochondrial Redox Dial]]

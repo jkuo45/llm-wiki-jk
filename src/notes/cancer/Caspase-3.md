@@ -41,7 +41,7 @@ Caspase-3 activity is modulated by post-translational modifications:
 
 - **[[Phosphorylation]]**: [[p38 MAPK]] phosphorylates Caspase-3 at Ser150, suppressing its activity. This can be reversed by [[PP2A]].
 - **[[PKCδ]]**: Directly enhances Caspase-3 activity.
-- **Inhibition by IAPs**: [[XIAP]] and [[cIAP1]]/[[cIAP2]] bind and inhibit Caspase-3. [[Smac-DIABLO]] relieves this inhibition.
+- **Inhibition by IAPs**: [[XIAP]] and [[cIAP1]]/[[cIAP2]] bind and inhibit Caspase-3. [[Smac DIABLO]] relieves this inhibition.
 
 ## Role in Cancer Research
 

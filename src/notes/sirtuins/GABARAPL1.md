@@ -22,13 +22,13 @@ aliases:
 ## Structure & Domains
 
 - **Ubiquitin-fold core** — shared with all ATG8 proteins, exposing the C-terminal glycine (Gly120) for lipidation.
-- **N-terminal helix** — distinguishes GABARAPL1/GABARAP from LC3 isoforms and biases interaction with specific receptors and the [[Beclin-1]]–VPS34 complex.
+- **N-terminal helix** — distinguishes GABARAPL1/GABARAP from LC3 isoforms and biases interaction with specific receptors and the [[Beclin1]]–VPS34 complex.
 
 ## Mechanism of Action & Pathways
 
 - **Lipidation (PE conjugation)**: Processed by the E1 [[Atg]]7, E2 Atg3, and E3 Atg12–Atg5–Atg16L1 complex, then anchored to phagophore membranes.
 - **Selective autophagy**: GABARAPL1 binds autophagy receptors (e.g., p62/SQSTM1, NDP52, optineurin) to deliver ubiquitinated cargo for degradation, including damaged mitochondria in [[Mitophagy]].
-- **Autophagosome maturation**: Cooperates with [[LC3]] and the class III PI3K [[VPS34]] complex anchored by [[Beclin-1]]; GABARAPL1 isoforms preferentially facilitate later fusion steps.
+- **Autophagosome maturation**: Cooperates with [[LC3]] and the class III PI3K [[VPS34]] complex anchored by [[Beclin1]]; GABARAPL1 isoforms preferentially facilitate later fusion steps.
 - **Sirtuin intersection**: As a core autophagy effector, GABARAPL1 operates downstream of the [[Sirtuins]]–[[AMPK]] axis that licenses autophagic flux during fasting and stress.
 
 > [!info] Isoform specialization
@@ -55,13 +55,13 @@ List of documents in the wiki that mention this entity
 
   - [[Autophagy]]: Core ATG8 effector of autophagosome formation.
   - [[LC3]]: Sister ATG8 protein with complementary phagophore roles.
-  - [[Beclin-1]]: Upstream PI3K-III initiator of the same pathway.
+  - [[Beclin1]]: Upstream PI3K-III initiator of the same pathway.
   - [[Atg]]: Enzymes (Atg7/3/5/16L1) that lipidate GABARAPL1.
   - [[Mitophagy]]: Selective clearance route using GABARAPL1.
   - [[Sirtuins]]: Upstream deacetylase network licensing autophagy.
 
 ## Linking Summary
 
-  - New links added: [[GABARAPL1]], [[LC3]], [[GABARAP]], [[Beclin-1]], [[Atg]], [[VPS34]], [[Mitophagy]]
+  - New links added: [[GABARAPL1]], [[LC3]], [[GABARAP]], [[Beclin1]], [[Atg]], [[VPS34]], [[Mitophagy]]
   - Suggested new entity notes to create: [[Atg7]], [[Atg12-Atg5]], [[p62/SQSTM1]]
   - Strong connections to strengthen: [[GABARAPL1]] ↔ [[Sirtuins]]; [[GABARAPL1]] ↔ [[Autophagy]]

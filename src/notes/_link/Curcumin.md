@@ -101,5 +101,5 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 - New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
   - Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
-- New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Oxidative Stress]]
+- New links added: [[HAT]], [[NF-κB]], [[Senescence]], [[p16INK4A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]

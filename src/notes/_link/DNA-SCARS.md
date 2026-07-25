@@ -29,7 +29,7 @@ DNA-SCARS arise when DDR signaling is chronically activated — by telomere dysf
 DNA-SCARS are central to both arms of the senescence phenotype:
 
 - **Growth arrest:** They sustain DDR/ATM–p53–p21 and p16^INK4a signaling that locks cells in arrest.
-- **SASP:** By evicting histones and increasing chromatin flexibility, DNA-SCARS facilitate the epigenetic reprogramming that drives SASP. Persistent DDR at SCARS activates [[NFKB|NF-κB]] and cytokines such as [[IL-6]] and [[IL-8]] (Rodier et al., 2011). CCF derived from SCARS are enriched in heterochromatin marks and activate cGAS–STING–NF-κB.
+- **SASP:** By evicting histones and increasing chromatin flexibility, DNA-SCARS facilitate the epigenetic reprogramming that drives SASP. Persistent DDR at SCARS activates [[NF-κB|NF-κB]] and cytokines such as [[IL-6]] and [[IL-8]] (Rodier et al., 2011). CCF derived from SCARS are enriched in heterochromatin marks and activate cGAS–STING–NF-κB.
 
 ## Mechanistic Details
 
@@ -53,6 +53,6 @@ Because SCARS sustain SASP, resolving persistent DDR (e.g., enhancing repair or 
 
 ## Linking Summary
 
-- New links added: [[H2A.X]], [[Cytoplasmic Chromatin Fragments]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-6]], [[IL-8]], [[NFKB]], [[Senomorphic]], [[KDM4]], [[BRD4]], [[DOT1L]], [[DNA Damage]], [[Senescence]]
+- New links added: [[H2A.X]], [[Cytoplasmic Chromatin Fragments]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-6]], [[IL-8]], [[NF-κB]], [[Senomorphic]], [[KDM4]], [[BRD4]], [[DOT1L]], [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: [[53BP1]], [[ATM]], [[p21]]
 - Strong connections to strengthen: [[DNA-SCARS]] ↔ [[H2A.X]]; [[DNA-SCARS]] ↔ [[Cytoplasmic Chromatin Fragments]]

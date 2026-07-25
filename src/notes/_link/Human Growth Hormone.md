@@ -38,10 +38,10 @@ List of documents in the wiki that mention this entity
   - [[AKT]] — upstream node linking GH to mTOR
   - [[Rapamycin]] — opposite, life-extending mTOR inhibitor
   - [[Antioxidants]] — fellow "empty promise" in anti-aging discourse
-  - [[IGF-1]] — principal downstream effector of GH
+  - [[IGF1]] — principal downstream effector of GH
 
 ## Linking Summary
 
-  - New links added: [[mTOR]], [[AKT]], [[Rapamycin]], [[Antioxidants]], [[IGF-1]]
-  - Suggested new entity notes to create: [[IGF-1]]
+  - New links added: [[mTOR]], [[AKT]], [[Rapamycin]], [[Antioxidants]], [[IGF1]]
+  - Suggested new entity notes to create: [[IGF1]]
   - Strong connections to strengthen: [[Human Growth Hormone]] ↔ [[mTOR]], [[Human Growth Hormone]] ↔ [[Rapamycin]]

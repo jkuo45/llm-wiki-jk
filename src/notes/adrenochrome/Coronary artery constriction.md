@@ -21,7 +21,7 @@ The coronary arteries supply the [[Myocardium]] with oxygen and nutrients. Const
 Coronary constriction arises from vascular smooth muscle cell (VSMC) contraction driven by increased intracellular [[Calcium Ions]] (Ca²⁺):
 
 - **VSMC contraction**: G-protein-coupled receptor activation (endothelin-1, α-adrenergic, thromboxane A₂ receptors) stimulates phospholipase C, generating IP₃ (Ca²⁺ release from sarcoplasmic reticulum) and DAG (PKC activation). L-type voltage-gated Ca²⁺ channels further elevate cytosolic Ca²⁺.
-- **[[Endothelial cells|Endothelial dysfunction]]**: Impaired [[Nitric Oxide]] (NO) bioavailability — from oxidative degradation, eNOS uncoupling, or reduced expression — shifts the balance toward vasoconstriction and promotes endothelin-1 release.
+- **[[Endothelial Cells|Endothelial dysfunction]]**: Impaired [[Nitric Oxide]] (NO) bioavailability — from oxidative degradation, eNOS uncoupling, or reduced expression — shifts the balance toward vasoconstriction and promotes endothelin-1 release.
 - **[[Catecholamines|Catecholamine excess]]**: [[Epinephrine]] and [[Norepinephrine]] activate α₁-adrenergic receptors on coronary VSMCs, with β₂-mediated vasodilation overwhelmed during stress.
 - **Autonomic activation**: Sympathetic overactivity during stress, cold, or exercise triggers reflex vasoconstriction, especially with endothelial dysfunction.
 - **[[Prostaglandins]] and thromboxane A₂**: Vasoconstrictor prostanoids from activated platelets or inflamed endothelium amplify VSMC contraction.
@@ -70,7 +70,7 @@ List of documents that mention this entity
 - [[Heart disease]] — coronary artery constriction is a central pathophysiological mechanism in ischemic heart disease.
 - [[Myocardial infarction]] — sustained coronary constriction can trigger infarction.
 - [[Adrenochrome]] — adrenochrome directly constricts coronary arteries via non-adrenergic mechanisms.
-- [[Endothelial cells]] — endothelial dysfunction is a key driver of abnormal coronary vasoreactivity.
+- [[Endothelial Cells]] — endothelial dysfunction is a key driver of abnormal coronary vasoreactivity.
 - [[Myocardium]] — the target tissue affected by reduced blood flow.
 - [[Catecholamines]] — excess catecholamines drive α-adrenergic and non-adrenergic coronary constriction.
 - [[Ischemia]] — the direct consequence of reduced myocardial perfusion.
@@ -80,6 +80,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Ischemia]], [[Calcium Ions]], [[Nitric Oxide]], [[Catecholamines]], [[Atherosclerosis]], [[Smoking]], [[Cocaine]], [[Stress]], [[Variant angina]], [[Acute coronary syndrome]], [[Arrhythmias]], [[Prostaglandins]], [[Oxidative Stress]], [[Endothelial cells]]
+- New links added: [[Ischemia]], [[Calcium Ions]], [[Nitric Oxide]], [[Catecholamines]], [[Atherosclerosis]], [[Smoking]], [[Cocaine]], [[Stress]], [[Variant angina]], [[Acute coronary syndrome]], [[Arrhythmias]], [[Prostaglandins]], [[Oxidative Stress]], [[Endothelial Cells]]
 - Suggested new entity notes to create: [[Variant angina]], [[Endothelin receptors]], [[Stress cardiomyopathy]]
 - Strong connections to strengthen: [[Coronary artery constriction]] ↔ [[Adrenochrome]], [[Coronary artery constriction]] ↔ [[Myocardial infarction]], [[Coronary artery constriction]] ↔ [[Heart disease]]

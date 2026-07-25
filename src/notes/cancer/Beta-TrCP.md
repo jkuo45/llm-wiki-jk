@@ -14,7 +14,7 @@ aliases: []
 
 ## Structure & Mechanism
 
-β-TrCP contains an N-terminal F-box that binds the Skp1–Cullin1 scaffold and seven C-terminal WD40 repeats that recognize the phosphorylated **DSGXXS** degron motif on substrates. Once a substrate is doubly phosphorylated, β-TrCP recruits the SCF ubiquitin ligase, leading to K48-linked polyubiquitination and [[Proteasome|proteasomal]] destruction. Degradation of [[IκBα]] liberates [[NFκB]], linking β-TrCP to inflammatory oncogenesis.
+β-TrCP contains an N-terminal F-box that binds the Skp1–Cullin1 scaffold and seven C-terminal WD40 repeats that recognize the phosphorylated **DSGXXS** degron motif on substrates. Once a substrate is doubly phosphorylated, β-TrCP recruits the SCF ubiquitin ligase, leading to K48-linked polyubiquitination and [[Proteasome|proteasomal]] destruction. Degradation of [[IκBα]] liberates [[NF-κB]], linking β-TrCP to inflammatory oncogenesis.
 
 ## Key Substrates
 
@@ -47,7 +47,7 @@ List of documents that mention this entity
 
 - [[SCF Complex]]: The E3 ligase of which β-TrCP is the F-box subunit.
 - [[Mcl-1]]: Key survival substrate targeted for degradation.
-- [[NFκB]]: Activated downstream of IκBα destruction.
+- [[NF-κB]]: Activated downstream of IκBα destruction.
 - [[Apoptosis]]: Modulated via Mcl-1 stability.
 - [[EMT]]: Influenced through Snail turnover.
 - [[Proteasome]]: Degradation machinery engaged.
@@ -55,6 +55,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SCF Complex]], [[Mcl-1]], [[NFκB]], [[IκBα]], [[Apoptosis]], [[EMT]], [[Proteasome]], [[Cancer]], [[BH3 mimetics]], [[Chemotherapy]], [[GSK3β]], [[β-catenin]]
+- New links added: [[SCF Complex]], [[Mcl-1]], [[NF-κB]], [[IκBα]], [[Apoptosis]], [[EMT]], [[Proteasome]], [[Cancer]], [[BH3 mimetics]], [[Chemotherapy]], [[GSK3β]], [[β-catenin]]
 - Suggested new entity notes to create: [[Skp1]], [[Cullin1]], [[GSK3β]]
-- Strong connections to strengthen: [[Beta-TrCP]] ↔ [[Mcl-1]], [[Beta-TrCP]] ↔ [[NFκB]]
+- Strong connections to strengthen: [[Beta-TrCP]] ↔ [[Mcl-1]], [[Beta-TrCP]] ↔ [[NF-κB]]

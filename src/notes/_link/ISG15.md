@@ -14,7 +14,7 @@ aliases: [ISG15, Interferon-stimulated gene 15, Ubiquitin-like protein ISG15]
 
 # ISG15
 
-ISG15 (Interferon-stimulated gene 15) is an interferon-inducible ubiquitin-like modifier. In senescence it is induced by [[p16 INK4a|p16]] overexpression and is part of a distinct, p53-dependent SASP profile enriched for interferon-stimulated genes (ISGs), contributing an antiviral/innate-immune character to the secretory program.
+ISG15 (Interferon-stimulated gene 15) is an interferon-inducible ubiquitin-like modifier. In senescence it is induced by [[p16INK4A|p16]] overexpression and is part of a distinct, p53-dependent SASP profile enriched for interferon-stimulated genes (ISGs), contributing an antiviral/innate-immune character to the secretory program.
 
 ## Mechanism of Action & Signaling
 
@@ -41,12 +41,12 @@ Its presence indicates a senescence program skewed toward innate immunity rather
 
 ## Connections
 
-- [[p16 INK4a|p16]]: ISG15 is induced by p16 overexpression
+- [[p16INK4A|p16]]: ISG15 is induced by p16 overexpression
 - [[SASP|Senescence-Associated Secretory Phenotype]]: ISG15 is an interferon pathway SASP factor
 - [[cGAS-STING Pathway|cGAS–STING]]: upstream of ISG-rich SASP
 - [[Senescent Cells]]: immune clearance context
 
 ## Linking Summary
 
-- New links added: [[p16 INK4a|p16]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway|cGAS–STING]], [[Senescent Cells]]
+- New links added: [[p16INK4A|p16]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway|cGAS–STING]], [[Senescent Cells]]
   - Strong connections to strengthen: [[ISG15]] ↔ [[p16]], [[ISG15]] ↔ interferon response

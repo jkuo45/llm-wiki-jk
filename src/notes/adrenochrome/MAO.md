@@ -6,8 +6,7 @@ description: MAO (Monoamine oxidase) is a family of enzymes (MAO-A and MAO-B)
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - enzyme
-aliases: []
+aliases: [MAO (Monoamine oxidase)]
 ---
 
 # MAO (Monoamine oxidase)

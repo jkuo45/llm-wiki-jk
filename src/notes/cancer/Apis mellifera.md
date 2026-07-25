@@ -18,7 +18,7 @@ Worker *A. mellifera* produce a complex venom apparatus; the secreted venom is a
 
 ## Anticancer Relevance of Bee Products
 
-- **Melittin**: The principal cytotoxic peptide; it disrupts membranes, activates [[Phospholipase A2]], and triggers [[Apoptosis]] and [[Inflammation]] signaling in tumor cells. It can inhibit [[Wnt/β-catenin]] and [[NFκB]] pathways and impair [[Metastasis]] and [[Angiogenesis]].
+- **Melittin**: The principal cytotoxic peptide; it disrupts membranes, activates [[Phospholipase A2]], and triggers [[Apoptosis]] and [[Inflammation]] signaling in tumor cells. It can inhibit [[Wnt/β-catenin]] and [[NF-κB]] pathways and impair [[Metastasis]] and [[Angiogenesis]].
 - **Apoptosis Induction**: Studies in breast, lung, liver, and glioblastoma models show melittin reduces viability and colony formation.
 - **Selectivity**: Some evidence suggests melittin preferentially affects transformed over normal cells, though cardiotoxicity limits systemic use; nanoparticle delivery is an active mitigation strategy.
 
@@ -50,6 +50,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Honeybee]], [[Bee Venom]], [[melittin]], [[apitherapy]], [[Apoptosis]], [[Inflammation]], [[Wnt/β-catenin]], [[NFκB]], [[Metastasis]], [[Angiogenesis]], [[Phospholipase A2]], [[Cancer]]
+- New links added: [[Honeybee]], [[Bee Venom]], [[melittin]], [[apitherapy]], [[Apoptosis]], [[Inflammation]], [[Wnt/β-catenin]], [[NF-κB]], [[Metastasis]], [[Angiogenesis]], [[Phospholipase A2]], [[Cancer]]
 - Suggested new entity notes to create: [[Apamin]], [[Propolis]], [[Royal jelly]]
 - Strong connections to strengthen: [[Apis mellifera]] ↔ [[melittin]], [[Apis mellifera]] ↔ [[Bee Venom]]

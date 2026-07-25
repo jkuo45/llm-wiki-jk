@@ -31,7 +31,7 @@ Src contains an N-terminal myristoylation membrane anchor, SH3 and SH2 regulator
   - Inhibits proteolytic cleavage and maturation of Caspase-8
   - Blocks the extrinsic apoptotic pathway
   - Converts Caspase-8 into a scaffolding protein that recruits [[FAK]], Calpain-2, and [[PI3K]]
-  - Promotes cell migration, metastasis, and survival signaling ([[NFKB]], [[mTORC1]])
+  - Promotes cell migration, metastasis, and survival signaling ([[NF-κB]], [[mTORC1]])
 
 > [!warning] Src-Driven Apoptotic Resistance
 > Src-mediated Caspase-8 phosphorylation represents a gain-of-function switch: the cell loses apoptotic sensitivity while gaining pro-migratory and pro-survival signaling capacity. This is a significant mechanism of tumor progression in colon cancer, glioblastoma, and breast cancer.
@@ -57,13 +57,13 @@ Src contains an N-terminal myristoylation membrane anchor, SH3 and SH2 regulator
 - [[PI3K]] — Survival kinase recruited by phosphorylated Caspase-8
 - [[ERK2]] — Proliferation pathway activated by Src
 - [[Akt]] — Survival kinase activated by Src via PI3K
-- [[NFKB]] — Survival transcription factor engaged by Src-Caspase-8 scaffolding
+- [[NF-κB]] — Survival transcription factor engaged by Src-Caspase-8 scaffolding
 - [[Cancer]] — Src is a proto-oncogene activated in many cancer types
 - [[Dasatinib]] — FDA-approved Src kinase inhibitor
 
 ## Linking Summary
 
-- New links added: [[Caspase-8]], [[SHP1]], [[FAK]], [[PI3K]], [[ERK2]], [[Akt]], [[NFKB]], [[Cancer]], [[Dasatinib]]
+- New links added: [[Caspase-8]], [[SHP1]], [[FAK]], [[PI3K]], [[ERK2]], [[Akt]], [[NF-κB]], [[Cancer]], [[Dasatinib]]
 - Suggested new entity notes to create: [[Src family kinases]], [[Lyn]], [[Csk]]
 - Strong connections to strengthen:
     - [[Src]] ↔ [[Caspase-8]]

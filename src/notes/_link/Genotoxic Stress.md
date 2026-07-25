@@ -39,14 +39,14 @@ The DDR is initiated by sensor proteins ([[ATM]], [[ATR]], [[DNA-PK]]) that dete
 | Outcome | Description | Key Mediators |
 |---------|-------------|---------------|
 | **DNA Repair** | Lesions resolved; cell returns to normal | [[Base Excision Repair|BER]], [[Nucleotide Excision Repair|NER]], [[Homologous Recombination|HR]], [[Non-Homologous End Joining|NHEJ]] |
-| **Senescence** | Permanent cell cycle arrest; SASP secretion | [[p53]], [[p21 CIP1|p21]], [[p16 INK4a|p16]], [[Retinoblastoma Protein|Rb]] |
+| **Senescence** | Permanent cell cycle arrest; SASP secretion | [[p53]], [[p21 CIP1|p21]], [[p16INK4A|p16]], [[Retinoblastoma Protein|Rb]] |
 | **Apoptosis** | Programmed cell death for heavily damaged cells | [[p53]], [[BAX]], [[PUMA]], [[Caspase-9]], [[Caspase-3]] |
 | **Genomic Instability** | Mutations, chromosomal rearrangements if repair fails | Impaired [[Homologous Recombination|HR]], [[Non-Homologous End Joining|NHEJ]] |
 
 ## Role in SASP Induction
 
 Persistent genotoxic stress is a hallmark of senescent cells. The unresolved DDR signaling maintains stable cell cycle arrest and drives [[SASP|Senescence-Associated Secretory Phenotype]] expression through:
-1. **NF-κB activation**: DDR-associated kinases (ATM, IKK) activate [[NFκB]], a master SASP regulator
+1. **NF-κB activation**: DDR-associated kinases (ATM, IKK) activate [[NF-κB]], a master SASP regulator
 2. **[[cGAS-STING Pathway]]**: Genotoxic stress generates [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin fragments]] (CCF), [[mtDNA]] release, and [[LINE-1]]-derived [[cDNA]], all of which activate cGAS-STING-dependent SASP transcription
 3. **Epigenetic changes**: Persistent DDR triggers degradation of H3K9 methyltransferases (G9a, GLP), de-repressing SASP gene loci
 
@@ -85,6 +85,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Genotoxic Stress]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[DNA Damage Response]], [[p53]], [[cGAS-STING Pathway]], [[Therapy-Induced Senescence]], [[Apoptosis]], [[Genomic Instability]], [[Reactive Oxygen Species]], [[Inflammaging]], [[Chemotherapy]], [[Cisplatin]], [[Etoposide]], [[Ionizing Radiation]], [[ATM]], [[ATR]], [[CHK1]], [[CHK2]], [[NFκB]], [[Cytoplasmic Chromatin Fragments]], [[mtDNA]], [[LINE-1]], [[cDNA]], [[p21 CIP1|p21]], [[p16 INK4a|p16]], [[Retinoblastoma Protein|Rb]], [[BAX]], [[PUMA]], [[Oxidative Phosphorylation]], [[8-oxo-2'-deoxyguanosine]], [[Telomere Attrition]], [[Oncogene Activation]], [[RAS]], [[MYC]], [[PARP inhibitors]], [[N-Acetylcysteine]], [[Vitamin C]]
+- New links added: [[Genotoxic Stress]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[DNA Damage Response]], [[p53]], [[cGAS-STING Pathway]], [[Therapy-Induced Senescence]], [[Apoptosis]], [[Genomic Instability]], [[Reactive Oxygen Species]], [[Inflammaging]], [[Chemotherapy]], [[Cisplatin]], [[Etoposide]], [[Ionizing Radiation]], [[ATM]], [[ATR]], [[CHK1]], [[CHK2]], [[NF-κB]], [[Cytoplasmic Chromatin Fragments]], [[mtDNA]], [[LINE-1]], [[cDNA]], [[p21 CIP1|p21]], [[p16INK4A|p16]], [[Retinoblastoma Protein|Rb]], [[BAX]], [[PUMA]], [[Oxidative Phosphorylation]], [[8-oxo-2'-deoxyguanosine]], [[Telomere Attrition]], [[Oncogene Activation]], [[RAS]], [[MYC]], [[PARP inhibitors]], [[N-Acetylcysteine]], [[Vitamin C]]
 - Suggested new entity notes to create: [[DNA-PK]], [[Ionizing Radiation]]
 - Strong connections to strengthen: [[Genotoxic Stress]] ↔ [[Senescence]], [[Genotoxic Stress]] ↔ [[DNA Damage]], [[Genotoxic Stress]] ↔ [[DNA Damage Response]], [[Genotoxic Stress]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Genotoxic Stress]] ↔ [[cGAS-STING Pathway]], [[Genotoxic Stress]] ↔ [[Cancer]]

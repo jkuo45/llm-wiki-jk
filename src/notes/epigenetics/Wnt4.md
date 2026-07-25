@@ -52,6 +52,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Wnt signaling]], [[Embryonic Development]], [[Mesenchyme]], [[Sex Determination]], [[Quiescence]], [[Muscle Stem Cell]], [[Satellite Cells]], [[MYCN]], [[GSK3B]], [[Pluripotency]], [[Reprogramming]], [[Extracellular Matrix]], [[Integrin]], [[Cancer]], [[Rejuvenation]], [[Aging]], [[β-catenin]], [[Frizzled]], [[RSPO1]]
+- New links added: [[Wnt signaling]], [[Embryonic Development]], [[Mesenchyme]], [[Sex Determination]], [[Quiescence]], [[Muscle Stem Cell]], [[Satellite Cells]], [[MYCN]], [[GSK3β]], [[Pluripotency]], [[Reprogramming]], [[Extracellular Matrix]], [[Integrin]], [[Cancer]], [[Rejuvenation]], [[Aging]], [[β-catenin]], [[Frizzled]], [[RSPO1]]
 - Suggested new entity notes to create: [[Wnt/Ca2+ Pathway]], [[SERKAL Syndrome]]
 - Strong connections to strengthen: [[Wnt4]] ↔ [[Extracellular Matrix]], [[Wnt4]] ↔ [[Quiescence]]

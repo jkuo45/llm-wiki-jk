@@ -28,7 +28,7 @@ The SMC2–SMC4 ATPase heads dimerize at the "head," while the hinge provides th
 
 ## Role in Senescence / SASP
 
-The review (Iwasaki et al., 2019; PMID 31729328) reports that in both oncogene-induced and replicative senescence, B compartments frequently merge with adjacent A compartments, forming B-to-A-switching (BA-switching) regions. Binding of the condensin complex is notably increased at these BA-switching regions and coincides with upregulation of SASP genes (ref. 22). These regions are enriched for SASP-related gene groups, and the master SASP regulator [[NFKB|NF-κB]] locus itself resides in an active A compartment, remaining transcriptionally engaged. Condensin thus contributes to the large-scale compartment reorganization that licenses SASP transcription, operating alongside enhancer–promoter looping and boundary proteins such as [[HMGB2]].
+The review (Iwasaki et al., 2019; PMID 31729328) reports that in both oncogene-induced and replicative senescence, B compartments frequently merge with adjacent A compartments, forming B-to-A-switching (BA-switching) regions. Binding of the condensin complex is notably increased at these BA-switching regions and coincides with upregulation of SASP genes (ref. 22). These regions are enriched for SASP-related gene groups, and the master SASP regulator [[NF-κB|NF-κB]] locus itself resides in an active A compartment, remaining transcriptionally engaged. Condensin thus contributes to the large-scale compartment reorganization that licenses SASP transcription, operating alongside enhancer–promoter looping and boundary proteins such as [[HMGB2]].
 
 ## Mechanistic Details
 
@@ -46,13 +46,13 @@ Condensin itself is challenging to target selectively, but its placement within 
 
 ## Connections
 
-- [[NFKB]]: SASP master regulator whose locus occupies active A compartments
+- [[NF-κB]]: SASP master regulator whose locus occupies active A compartments
 - [[HMGB2]]: boundary/architecture factor shaping SASP chromatin
 - [[METTL3]]: enhancer–promoter looping driver of SASP
 - [[SASP|Senescence-Associated Secretory Phenotype]]: condensin-enriched switching regions upregulate SASP genes
 
 ## Linking Summary
 
-- New links added: [[NFKB]], [[HMGB2]], [[METTL3]], [[METTL14]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Topologically Associating Domain]]
+- New links added: [[NF-κB]], [[HMGB2]], [[METTL3]], [[METTL14]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Topologically Associating Domain]]
 - Suggested new entity notes to create: [[Condensin I]], [[Condensin II]], [[SMC Complex]], [[BA-switching Region]]
 - Strong connections to strengthen: [[Condensin]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (compartment switching), [[Condensin]] ↔ [[HMGB2]] (3D-genome architecture)

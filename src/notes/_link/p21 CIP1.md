@@ -23,7 +23,7 @@ aliases: [p21, CDKN1A, p21CIP1, CIP1]
 p21 is transcriptionally activated by p53 in response to [[DNA Damage Response|DNA damage]] and other stresses. It:
 1. Inhibits [[Cyclin-Dependent Kinase 2|CDK2]]–cyclin E and CDK2–cyclin A complexes
 2. Enforces arrest at the G1/S checkpoint
-3. Cooperates with the [[p16 INK4a|p16]]–[[Retinoblastoma Protein|Rb]] pathway to establish irreversible growth arrest
+3. Cooperates with the [[p16INK4A|p16]]–[[Retinoblastoma Protein|Rb]] pathway to establish irreversible growth arrest
 4. Mediates persistent DDR signaling to effector functions
 
 ## Role in SASP Regulation
@@ -36,7 +36,7 @@ p21 supports an **early secretory phenotype** distinct from the later NF-κB-ass
 The p21-dependent early SASP (the p53-arm SASP/PASP) appears earlier than the NF-κB-driven SASP and is crucial for immune clearance of senescent cells. This contrasts with the later pro-inflammatory NF-κB-driven SASP that is maladaptive in chronic settings.
 
 ## Temporal Dynamics
-- p53–p21 is an **early** regulator of senescence; NF-κB and [[p16 INK4a|p16]] are induced in **later phases**.
+- p53–p21 is an **early** regulator of senescence; NF-κB and [[p16INK4A|p16]] are induced in **later phases**.
 - p21 depletion *promoted* pro-inflammatory SASP (IL-1α, IL-1β) during mitochondrial dysfunction-induced senescence (MiDAS), revealing context-dependent SASP modulation.
 - Long-term p53 hyperactivation (DDR-free senescence) sustains p21 and suppresses NF-κB, yielding the PASP profile.
 
@@ -78,7 +78,7 @@ List of documents that mention this entity
 - [[Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest
 - [[p53]] — transcriptional activator of p21
 - [[CDKN1A]] — gene encoding p21^CIP1^
-- [[p16 INK4a|p16]] — cooperates with p21 in senescence and SASP regulation
+- [[p16INK4A|p16]] — cooperates with p21 in senescence and SASP regulation
 - [[Retinoblastoma Protein|Rb]] — mediates p21-dependent immunosurveillance SASP
 - [[SASP|Senescence-Associated Secretory Phenotype]] — p21 supports an early SASP profile
 - [[CXCL14]] — p21-dependent SASP factor promoting macrophage recruitment
@@ -94,4 +94,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[p21 CIP1|p21]], [[CDKN1A]], [[p53]], [[Retinoblastoma Protein|Rb]], [[CXCL14]], [[IGFBP3]], [[Cyclin-Dependent Kinase 2|CDK2]], [[DNA Damage Response]], [[Oncogene-Induced Senescence|OIS]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[E2F]], [[Inflammaging]]
 - Suggested new entity notes to create: [[G1/S Checkpoint]], [[CDK2]]
-  - Strong connections to strengthen: p21 CIP1 ↔ Cellular Senescence, p21 CIP1 ↔ [[SASP|Senescence-Associated Secretory Phenotype]], p21 CIP1 ↔ [[p53]], p21 ↔ [[p16 INK4a|p16]]
+  - Strong connections to strengthen: p21 CIP1 ↔ Cellular Senescence, p21 CIP1 ↔ [[SASP|Senescence-Associated Secretory Phenotype]], p21 CIP1 ↔ [[p53]], p21 ↔ [[p16INK4A|p16]]

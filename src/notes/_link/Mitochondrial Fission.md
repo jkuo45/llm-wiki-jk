@@ -14,7 +14,7 @@ aliases:
 
 # Mitochondrial Fission
 
-**Mitochondrial fission** is the process by which a [[Mitochondria|mitochondrion]] divides into two, coordinated in mammals by the cytosolic dynamin-like GTPase [[DRP1|Dynamin-Related Protein 1 (DRP1)]]. Fission partitions mitochondria during [[Cell Cycle|cell division]], enables proper subcellular distribution, releases [[Cytochrome C|cytochrome c]] during [[Apoptosis]], and — critically — segments damaged organelles for removal by [[Mitophagy]]. Loss of fission yields elongated mitochondria from unbalanced [[Mitochondrial Fusion|fusion]]; loss of fusion yields fragmented mitochondria.
+**Mitochondrial fission** is the process by which a [[Mitochondria|mitochondrion]] divides into two, coordinated in mammals by the cytosolic dynamin-like GTPase [[DRP1|Dynamin-Related Protein 1 (DRP1)]]. Fission partitions mitochondria during [[Cell Cycle|cell division]], enables proper subcellular distribution, releases [[Cytochrome c|cytochrome c]] during [[Apoptosis]], and — critically — segments damaged organelles for removal by [[Mitophagy]]. Loss of fission yields elongated mitochondria from unbalanced [[Mitochondrial Fusion|fusion]]; loss of fusion yields fragmented mitochondria.
 
 ## Molecular Machinery
 

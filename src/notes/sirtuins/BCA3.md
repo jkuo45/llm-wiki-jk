@@ -26,7 +26,7 @@ aliases:
 ## Structure & Interactions
 BCA3/AKIP1 is an approximately 23 kDa protein lacking distinct structural domains but containing several motif interfaces that facilitate protein-protein interactions:
 1. **PKA Binding Interface**: Interacts with the catalytic subunit of PKA, facilitating its nuclear translocation and activity toward substrates like CREB.
-2. **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the [[NFKB|NF-κB]] complex.
+2. **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the [[NF-κB|NF-κB]] complex.
 3. **Neddylation Site**: BCA3 undergoes post-translational modification by the ubiquitin-like molecule **NEDD8** (neddylation). Neddylated BCA3 acts as a high-affinity molecular bridge that recruits epigenetic remodelers to transcriptional sites.
 
 ---
@@ -56,17 +56,17 @@ List of documents that mention this entity
 
 ## Connections & Related Concepts
 - **[[SIRT1]]**: Directly recruited by neddylated BCA3 to deacetylate and repress NF-κB.
-- **[[NFKB|NF-κB (RelA/p65)]]**: Suppressed downstream of the neddylated BCA3-SIRT1 complex.
+- **[[NF-κB|NF-κB (RelA/p65)]]**: Suppressed downstream of the neddylated BCA3-SIRT1 complex.
 - **Neddylation (NEDD8)**: The essential post-translational modification that licenses BCA3 to engage with SIRT1 and repress transcription.
 
 
 
 ## Connections
 
-- [[NFKB]]: **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the NF-κB complex.
+- [[NF-κB]]: **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the NF-κB complex.
 - [[SIRT1]]: ## Functional Synergism with SIRT1 BCA3 functions as a critical regulator of cell survival and inflammatory gene expr...
 
 ## Linking Summary
-- New links added: [[NFKB]], [[SIRT1]]
+- New links added: [[NF-κB]], [[SIRT1]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[BCA3 (AKIP1)]] ↔ [[SIRT1]], [[BCA3 (AKIP1)]] ↔ [[NFKB]]
+- Strong connections to strengthen: [[BCA3 (AKIP1)]] ↔ [[SIRT1]], [[BCA3 (AKIP1)]] ↔ [[NF-κB]]

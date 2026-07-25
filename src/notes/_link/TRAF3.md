@@ -20,7 +20,7 @@ aliases:
 
 ## Mechanism of Action & Physiology
 
-TRAF3 is recruited by [[TRIF]] (and MAVS/TRIF-like adaptors), where it binds and activates the [[TBK1]]–[[IKKε]] kinase complex that phosphorylates [[IRF3]], driving IFN-β transcription. TRAF3 also negatively regulates [[NFκB|NF-κB]] and [[MAPK|MAPK]] pathways in certain contexts, balancing inflammatory output.
+TRAF3 is recruited by [[TRIF]] (and MAVS/TRIF-like adaptors), where it binds and activates the [[TBK1]]–[[IKKε]] kinase complex that phosphorylates [[IRF3]], driving IFN-β transcription. TRAF3 also negatively regulates [[NF-κB|NF-κB]] and [[MAPK|MAPK]] pathways in certain contexts, balancing inflammatory output.
 
 ## Pathology & Relevance
 

@@ -42,7 +42,7 @@ List of documents that mention this entity
 
 ## Relative Flux Under Normal vs Stress Conditions
 
-Under basal physiological conditions, COMT-mediated O-methylation accounts for approximately 60–70% of peripheral epinephrine clearance, with MAO-mediated deamination contributing 20–30% and the oxidative cyclization pathway representing less than 5% of total flux. However, during acute inflammatory states, tissue ischemia, or conditions with robust neutrophil infiltration, the oxidative pathway can become markedly upregulated. In [[Rheumatoid synovial fluid]], for instance, adrenochrome and its conjugates are detected at concentrations suggesting that 15–30% of local epinephrine may be routed through the oxidative cyclization pathway. The presence of [[Myeloperoxidase]], [[NAD(P)H Oxidase]], and transition metals released from damaged tissues all shift flux toward adrenochrome formation.
+Under basal physiological conditions, COMT-mediated O-methylation accounts for approximately 60–70% of peripheral epinephrine clearance, with MAO-mediated deamination contributing 20–30% and the oxidative cyclization pathway representing less than 5% of total flux. However, during acute inflammatory states, tissue ischemia, or conditions with robust neutrophil infiltration, the oxidative pathway can become markedly upregulated. In [[Rheumatoid synovial fluid]], for instance, adrenochrome and its conjugates are detected at concentrations suggesting that 15–30% of local epinephrine may be routed through the oxidative cyclization pathway. The presence of [[Myeloperoxidase]], [[NADPH Oxidase]], and transition metals released from damaged tissues all shift flux toward adrenochrome formation.
 
 ## Tissue-Specific Differences
 
@@ -64,6 +64,6 @@ Several biochemical parameters divert epinephrine away from COMT/MAO and toward 
 - **Ascorbate deficiency**: Vitamin C efficiently reduces the semiquinone radical back to epinephrine; deficiency removes this protective recycling pathway.
 
 ## Linking Summary
-- New links added: [[Metanephrine]], [[Adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]], [[MAO]], [[COMT]], [[Catecholamines]], [[Adrenochrome]]
+- New links added: [[Metanephrine]], [[Adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NADPH Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]], [[MAO]], [[COMT]], [[Catecholamines]], [[Adrenochrome]]
 - Suggested new entity notes to create: [[Epinephrine Half-Life]]
 - Strong connections to strengthen: [[Adrenaline catabolism]] ↔ [[Adrenochrome Pathway]], [[Adrenaline catabolism]] ↔ [[COMT]], [[Adrenaline catabolism]] ↔ [[MAO]]

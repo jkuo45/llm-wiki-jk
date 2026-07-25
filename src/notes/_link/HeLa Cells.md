@@ -29,11 +29,11 @@ aliases:
 - [[Drosha]] — knockdown model
 - [[MicroRNA]] — biogenesis studied
 - [[RNA Interference]] — knockdown tool
-- [[HEK 293]] — parallel human cell line
+- [[HEK293]] — parallel human cell line
 - [[Argonaute]] — miR-21 reporter
 
 ## Linking Summary
 
 - New links added: [[DGCR8], [Drosha], [MicroRNA], [RNA Interference], [HEK 293], [Argonaute]
-- Suggested new entity notes to create: [[HEK 293]]
+- Suggested new entity notes to create: [[HEK293]]
 - Strong connections to strengthen: [[HeLa Cells]] ↔ [[DGCR8]]

@@ -28,7 +28,7 @@ aliases:
 
 - **Receptors**: VEGF-C binds [[VEGFR3|VEGFR-3]] (its primary lymphatic-endothelial receptor) and, after N- and C-terminal proteolytic maturation, also [[VEGFR2]]. Receptor binding activates VEGFR kinase activity, triggering PI3K/Akt, [[MAPK|MAPK/ERK]], and PLCγ pathways that drive endothelial proliferation, survival, migration, and tube formation.
 - **Lymphangiogenesis vs angiogenesis**: Full-length VEGF-C preferentially activates VEGFR-3 and promotes lymphatic vessel sprouting; fully processed VEGF-C additionally engages VEGFR-2 to support blood-vessel angiogenesis.
-- **Transcriptional regulation**: In senescence, VEGF-C expression is induced downstream of [[RAS]]/[[RAF]]/[[MEK]] oncogenic signalling and reinforced by the SASP transcriptional program governed by [[IL-1α]] and [[NFKB|NF-κB]].
+- **Transcriptional regulation**: In senescence, VEGF-C expression is induced downstream of [[RAS]]/[[RAF]]/[[MEK]] oncogenic signalling and reinforced by the SASP transcriptional program governed by [[IL-1α]] and [[NF-κB|NF-κB]].
 - **Extracellular processing**: Proteases (e.g., ADAMTS3, CCBE1-assisted) cleave the VEGF-C pro-peptide to generate high-affinity receptor-binding forms, tuning its receptor selectivity.
 
 ## Role in Senescence / SASP
@@ -60,13 +60,13 @@ aliases:
 - [[Paracrine Senescence]] — VEGF family signaling contributes to paracrine arrest; VEGFR2 blockade partially rescued it
 - [[Oncogene-Induced Senescence|OIS]] — VEGF-C is induced during RAS-driven OIS as part of the SASP
 - [[RAS]] — Oncogenic RAS activation triggers VEGF-C induction within the SASP
-- [[IL-1α]] / [[NFKB|NF-κB]] — Upstream SASP regulators driving VEGF-C expression
+- [[IL-1α]] / [[NF-κB|NF-κB]] — Upstream SASP regulators driving VEGF-C expression
 - [[Angiogenesis]] / [[Lymphangiogenesis]] — VEGF-C promotes both blood-vessel and lymphatic vessel formation
 - [[Tumor Microenvironment]] — VEGF-C contributes to SASP-driven pro-tumorigenic vascular remodeling
 
 ## Linking Summary
 
-- New links added: [[VEGF]], [[VEGFR2]], [[VEGFR3|VEGFR-3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]], [[Oncogene-Induced Senescence|OIS]], [[RAS]], [[RAF]], [[MEK]], [[IL-1α]], [[NFKB|NF-κB]], [[Angiogenesis]], [[Lymphangiogenesis]], [[Tumor Microenvironment]], [[Senescent Cells]], [[CXCL1]], [[IL-8]], [[CCL20]], [[activin A]]
+- New links added: [[VEGF]], [[VEGFR2]], [[VEGFR3|VEGFR-3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]], [[Oncogene-Induced Senescence|OIS]], [[RAS]], [[RAF]], [[MEK]], [[IL-1α]], [[NF-κB|NF-κB]], [[Angiogenesis]], [[Lymphangiogenesis]], [[Tumor Microenvironment]], [[Senescent Cells]], [[CXCL1]], [[IL-8]], [[CCL20]], [[activin A]]
 - Suggested new entity notes to create: [[VEGFR3|VEGFR-3]], [[Lymphangiogenesis]]
 - Strong connections to strengthen:
     - [[VEGFc]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

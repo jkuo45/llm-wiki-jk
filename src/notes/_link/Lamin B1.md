@@ -9,9 +9,7 @@ tags:
   - protein
   - nuclear
   - senescence
-  - biomarker
-  - chromatin
-aliases: [LMNB1, Lamin B1, lamin B1]
+aliases: [LMNB1, Lamin B1, Lamin B1 Loss]
 ---
 
 # Lamin B1
@@ -34,7 +32,7 @@ Lamin B1 (encoded by **LMNB1**) is a type B intermediate-filament protein of the
 
 ## Detection and Use as a Biomarker
 
-LMNB1 negativity combined with other markers ([[p16 INK4a|p16]], [[p21 CIP1|p21]], SA-β-gal, [[γ-H2AX]]) is widely used to enumerate senescent cells in tissue sections and single-cell assays. Because loss is cell-autonomous, it is valuable for *in vivo* senescent-cell burden quantification.
+LMNB1 negativity combined with other markers ([[p16INK4A|p16]], [[p21 CIP1|p21]], SA-β-gal, [[γ-H2AX]]) is widely used to enumerate senescent cells in tissue sections and single-cell assays. Because loss is cell-autonomous, it is valuable for *in vivo* senescent-cell burden quantification.
 
 ## Clinical / Pathological Relevance
 
@@ -60,5 +58,5 @@ List of documents that mention this entity
 - [[Senomorphic Therapy]]: Lamin B1 preservation is a senomorphic strategy
 
 ## Linking Summary
-- New links added: [[Senescence-Associated Heterochromatin Foci|SAHF]], [[Senescence]], [[Lamin A]], [[Retinoblastoma Protein|Rb]], [[p53]], [[cGAS-STING Pathway|cGAS-STING]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[Senomorphic Therapy]], [[γ-H2AX]], [[p16 INK4a|p16]], [[p21 CIP1|p21]]
+- New links added: [[Senescence-Associated Heterochromatin Foci|SAHF]], [[Senescence]], [[Lamin A]], [[Retinoblastoma Protein|Rb]], [[p53]], [[cGAS-STING Pathway|cGAS-STING]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[Senomorphic Therapy]], [[γ-H2AX]], [[p16INK4A|p16]], [[p21 CIP1|p21]]
   - Strong connections to strengthen: Lamin B1 ↔ [[Senescence]], Lamin B1 ↔ [[SAHF]], Lamin B1 ↔ [[cGAS-STING Pathway]]

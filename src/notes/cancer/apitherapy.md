@@ -14,7 +14,7 @@ aliases: []
 
 ## Products & Active Constituents
 
-- **Bee Venom / melittin**: Membrane-active peptide inducing [[Apoptosis]] and [[Inflammation]] modulation; inhibits [[Wnt/β-catenin]] and [[NFκB]] signaling, and reduces [[Metastasis]] and [[Angiogenesis]].
+- **Bee Venom / melittin**: Membrane-active peptide inducing [[Apoptosis]] and [[Inflammation]] modulation; inhibits [[Wnt/β-catenin]] and [[NF-κB]] signaling, and reduces [[Metastasis]] and [[Angiogenesis]].
 - **Propolis**: Resinous mixture rich in flavonoids and phenolics with antioxidant and pro-apoptotic activities.
 - **Royal jelly & honey**: Contain 10-hydroxy-2-decenoic acid and other compounds with modest antiproliferative effects.
 
@@ -48,6 +48,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Honeybee]], [[Bee Venom]], [[melittin]], [[Propolis]], [[Apoptosis]], [[Inflammation]], [[Wnt/β-catenin]], [[NFκB]], [[Metastasis]], [[Angiogenesis]], [[Autophagy]], [[Chemotherapy]], [[Cancer]], [[African Programme for Onchocerciasis Control]]
+- New links added: [[Honeybee]], [[Bee Venom]], [[melittin]], [[Propolis]], [[Apoptosis]], [[Inflammation]], [[Wnt/β-catenin]], [[NF-κB]], [[Metastasis]], [[Angiogenesis]], [[Autophagy]], [[Chemotherapy]], [[Cancer]], [[African Programme for Onchocerciasis Control]]
 - Suggested new entity notes to create: [[Royal jelly]], [[10-hydroxy-2-decenoic acid]], [[ApiTox]]
 - Strong connections to strengthen: [[Apitherapy]] ↔ [[Bee Venom]], [[Apitherapy]] ↔ [[melittin]]

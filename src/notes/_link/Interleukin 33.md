@@ -19,7 +19,7 @@ aliases: [IL-33, Interleukin-33, DVS27, NF-HEV]
 
 ## Mechanism of Action & Signaling
 
-IL-33 is constitutively expressed in the nucleus of endothelial and stromal cells, where it binds chromatin via its N-terminal domain; it acts as a danger signal released passively upon cell damage or necrosis rather than through classical ER–Golgi secretion. Extracellular IL-33 binds the receptor ST2 (IL-1RL1), which pairs with IL-1RAcP to recruit MyD88, activating [[NFKB|NF-κB]] and [[MAPK]] (Lefrançais et al., PMID 27377381). In senescent hepatic stellate cells, IL-33 expression is induced downstream of [[Interleukin 1β|IL-1β]] signaling, establishing an IL-1β→IL-33 axis. IL-33 then activates group 2 innate lymphoid cells (ILC2s), eosinophils, and regulatory T cells, reshaping the tumor microenvironment toward immune suppression and tumor promotion.
+IL-33 is constitutively expressed in the nucleus of endothelial and stromal cells, where it binds chromatin via its N-terminal domain; it acts as a danger signal released passively upon cell damage or necrosis rather than through classical ER–Golgi secretion. Extracellular IL-33 binds the receptor ST2 (IL-1RL1), which pairs with IL-1RAcP to recruit MyD88, activating [[NF-κB|NF-κB]] and [[MAPK]] (Lefrançais et al., PMID 27377381). In senescent hepatic stellate cells, IL-33 expression is induced downstream of [[Interleukin 1β|IL-1β]] signaling, establishing an IL-1β→IL-33 axis. IL-33 then activates group 2 innate lymphoid cells (ILC2s), eosinophils, and regulatory T cells, reshaping the tumor microenvironment toward immune suppression and tumor promotion.
 
 ## Role in Senescence / SASP
 

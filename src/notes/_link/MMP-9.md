@@ -11,7 +11,7 @@ aliases: []
 ---
 # MMP-9
 
-MMP-9 (Matrix Metalloproteinase 9, Gelatinase B) is a zinc-dependent endopeptidase that degrades [[Extracellular Matrix]] components including [[Collagen]] IV, [[Gelatin]], and [[Elastin]]. It is produced as a zymogen (pro-MMP-9) and activated by [[Plasmin]] and other [[Proteases]]. MMP-9 is secreted by [[Macrophages]], [[Neutrophils]], [[Endothelial cells]], and [[Cancer]] cells. It plays key roles in [[Angiogenesis]], [[Inflammation]], [[Wound Healing]], and [[Tumor Invasion]]/[[Metastasis]]. MMP-9 is inhibited by [[TIMP1]] and other [[Tissue Inhibitors of Metalloproteinases]] (TIMPs). Elevated MMP-9 is associated with [[Chronic Inflammation]], [[Cardiovascular Disease]], and [[Cancer Progression]].
+MMP-9 (Matrix Metalloproteinase 9, Gelatinase B) is a zinc-dependent endopeptidase that degrades [[Extracellular Matrix]] components including [[Collagen]] IV, [[Gelatin]], and [[Elastin]]. It is produced as a zymogen (pro-MMP-9) and activated by [[Plasmin]] and other [[Proteases]]. MMP-9 is secreted by [[Macrophages]], [[Neutrophils]], [[Endothelial Cells]], and [[Cancer]] cells. It plays key roles in [[Angiogenesis]], [[Inflammation]], [[Wound Healing]], and [[Tumor Invasion]]/[[Metastasis]]. MMP-9 is inhibited by [[TIMP1]] and other [[Tissue Inhibitors of Metalloproteinases]] (TIMPs). Elevated MMP-9 is associated with [[Chronic Inflammation]], [[Cardiovascular Disease]], and [[Cancer Progression]].
 
 #
 
@@ -28,6 +28,6 @@ MMP-9 (Matrix Metalloproteinase 9, Gelatinase B) is a zinc-dependent endopeptida
 - [[Cardiovascular Disease]] — MMP-9 contributes to plaque instability
 
 ## Linking Summary
-- New links added: [[Extracellular Matrix]], [[Collagen]], [[Gelatin]], [[Elastin]], [[Plasmin]], [[Proteases]], [[Macrophages]], [[Neutrophils]], [[Endothelial cells]], [[Cancer]], [[Angiogenesis]], [[Inflammation]], [[Wound Healing]], [[Metastasis]], [[TIMP1]], [[Cardiovascular Disease]]
+- New links added: [[Extracellular Matrix]], [[Collagen]], [[Gelatin]], [[Elastin]], [[Plasmin]], [[Proteases]], [[Macrophages]], [[Neutrophils]], [[Endothelial Cells]], [[Cancer]], [[Angiogenesis]], [[Inflammation]], [[Wound Healing]], [[Metastasis]], [[TIMP1]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Gelatinase B]], [[TIMP Family]]
   - Strong connections to strengthen: [[MMP-9]] ↔ Extracellular Matrix, [[MMP-9]] ↔ Cancer

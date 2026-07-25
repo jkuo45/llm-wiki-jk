@@ -42,7 +42,7 @@ In [[Oncogene-Induced Senescence|OIS]] cells, SASP components — including [[IL
 ### Core Arrest Machinery
 
 > [!info] Source: Acosta et al., 2013 (PMID 23636316)
-> Paracrine senescence depends on the same tumour suppressor networks as OIS: knockdown of [[p16 INK4a|p16^INK4a]], [[p53]], or [[p21 CIP1|p21^CIP1]] partially rescued paracrine arrest. Global gene expression profiling showed a high correlation (Pearson r = 0.67) between OIS and paracrine senescence transcriptomes, confirming that paracrine senescence implements a full senescence programme.
+> Paracrine senescence depends on the same tumour suppressor networks as OIS: knockdown of [[p16INK4A|p16^INK4a]], [[p53]], or [[p21 CIP1|p21^CIP1]] partially rescued paracrine arrest. Global gene expression profiling showed a high correlation (Pearson r = 0.67) between OIS and paracrine senescence transcriptomes, confirming that paracrine senescence implements a full senescence programme.
 
 ## Routes of Spread
 
@@ -155,13 +155,13 @@ List of documents that mention this entity
 - [[GDF15]] — TGF-β family ligand acutely upregulated during OIS; contributes to paracrine senescence
 - [[CDKN2B|p15^INK4b]] — CDK inhibitor induced by TGF-β signaling in receiving cells during paracrine senescence
 - [[p21 CIP1|p21^CIP1]] — CDK inhibitor induced by both TGF-β and IL-1α pathways; essential effector of paracrine arrest
-- [[p16 INK4a|p16^INK4a]] — CDK inhibitor required for paracrine senescence; part of the core arrest machinery
+- [[p16INK4A|p16^INK4a]] — CDK inhibitor required for paracrine senescence; part of the core arrest machinery
 - [[SMAD2]] / [[SMAD3]] — receptor-regulated SMADs phosphorylated by TGFBR1/ALK5 during paracrine senescence
 - [[KRas]] — oncogenic KRas[G12D] drives OIS in PanIN lesions; paracrine senescence expands the senescent footprint
 - [[Senescence Surveillance]] — paracrine senescence may expand the senescent footprint to promote immune clearance of pre-malignant lesions
 
 ## Linking Summary
-- New links added: [[Inflammasome]], [[Caspase-1]], [[IL-1R]], [[Activin A]], [[GDF15]], [[CDKN2B|p15^INK4b]], [[p21 CIP1|p21^CIP1]], [[p16 INK4a|p16^INK4a]], [[SMAD2]], [[SMAD3]], [[KRas]], [[Senescence Surveillance]]
+- New links added: [[Inflammasome]], [[Caspase-1]], [[IL-1R]], [[Activin A]], [[GDF15]], [[CDKN2B|p15^INK4b]], [[p21 CIP1|p21^CIP1]], [[p16INK4A|p16^INK4a]], [[SMAD2]], [[SMAD3]], [[KRas]], [[Senescence Surveillance]]
 - Suggested new entity notes to create: [[Bystander Effect]], [[Exosomes]], [[VEGFR2]], [[CCR2]]
   - Strong connections to strengthen:
     - [[Paracrine Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

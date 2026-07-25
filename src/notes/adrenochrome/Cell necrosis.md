@@ -63,7 +63,7 @@ Cytosolic [[Calcium]] overload activates [[Calpains]] — Ca²⁺-dependent cyst
 
 ### Reactive Oxygen Species and mPTP Opening
 
-[[Reactive Oxygen Species]] (ROS), generated from leaky mitochondria, [[NAD(P)H Oxidase]], and [[Xanthine Oxidase]], attack membrane phospholipids, proteins, and DNA. Mitochondrial permeability transition pore ([[mPTP]]) opening collapses the mitochondrial membrane potential (ΔΨₘ), halting ATP synthesis and releasing [[Cytochrome c]] and other pro-death factors.
+[[Reactive Oxygen Species]] (ROS), generated from leaky mitochondria, [[NADPH Oxidase]], and [[Xanthine Oxidase]], attack membrane phospholipids, proteins, and DNA. Mitochondrial permeability transition pore ([[mPTP]]) opening collapses the mitochondrial membrane potential (ΔΨₘ), halting ATP synthesis and releasing [[Cytochrome c]] and other pro-death factors.
 
 ### Lysosomal Membrane Permeabilization
 
@@ -114,6 +114,6 @@ List of documents that mention this entity
 - [[Ischemia-reperfusion Injury]]
 
 ## Linking Summary
-- New links added: [[Oncosis]], [[Autolysis]], [[Damage-Associated Molecular Patterns]], [[Na⁺/K⁺-ATPase]], [[Ca²⁺ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NAD(P)H Oxidase]], [[Xanthine Oxidase]], [[mPTP]], [[Cytochrome c]], [[Lysosomal membrane permeabilization]], [[Cathepsin B]], [[Cathepsin D]], [[Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1β]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]]
+- New links added: [[Oncosis]], [[Autolysis]], [[Damage-Associated Molecular Patterns]], [[Na⁺/K⁺-ATPase]], [[Ca²⁺ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[mPTP]], [[Cytochrome c]], [[Lysosomal membrane permeabilization]], [[Cathepsin B]], [[Cathepsin D]], [[Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1β]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]]
 - Suggested new entity notes to create: [[Regulated necrosis]], [[Oncosis]], [[Autolysis]], [[mPTP]], [[Calpains]], [[Cathepsin B]], [[Cathepsin D]], [[Lysosomal membrane permeabilization]], [[TLR2]], [[TLR4]], [[RAGE]], [[P2X7 Receptor]], [[NLRP3 Inflammasome]], [[cGAS-STING Pathway]], [[S100 proteins]], [[Calreticulin]], [[SERCA]], [[Xanthine Oxidase]], [[Electron Transport Chain]], [[Complex I]]
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Cell necrosis]], [[Adrenochrome]] ↔ [[Cardiomyocytes]], [[Inflammation]] ↔ [[Necrosis]] 

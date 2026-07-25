@@ -26,7 +26,7 @@ FYN regulates T-cell receptor signaling, neuronal development, and cytoskeletal 
 
 ## Pathological & Clinical Relevance
 
-FYN is amplified or activated in several cancers, including [[Colon Cancer]], [[Breast Cancer]], and [[Glioblastoma]], where it supports invasion, survival, and therapy resistance. By inhibiting Caspase-8, FYN contributes to resistance against death-receptor agonists and [[Chemotherapy]]. FYN also cooperates with [[EMT]] programs to enable [[Metastasis]]. SFK inhibitors (dasatinib, saracatinib, bosutinib) inhibit FYN and can restore apoptosis sensitivity, and are being tested in combination regimens. Targeting FYN–Caspase-8 crosstalk is an active area for sensitizing resistant tumors.
+FYN is amplified or activated in several cancers, including [[Colon Cancer]], [[Breast Cancer]], and [[glioblastoma]], where it supports invasion, survival, and therapy resistance. By inhibiting Caspase-8, FYN contributes to resistance against death-receptor agonists and [[Chemotherapy]]. FYN also cooperates with [[EMT]] programs to enable [[Metastasis]]. SFK inhibitors (dasatinib, saracatinib, bosutinib) inhibit FYN and can restore apoptosis sensitivity, and are being tested in combination regimens. Targeting FYN–Caspase-8 crosstalk is an active area for sensitizing resistant tumors.
 
 ## Documents
 
@@ -48,6 +48,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Caspase-8]], [[Colon Cancer]], [[Phosphorylation]], [[Apoptosis]], [[EGFR]], [[HER2]], [[Integrins]], [[PI3K]], [[Akt]], [[MAPK]], [[EMT]], [[Metastasis]], [[Chemotherapy]], [[Breast Cancer]], [[Glioblastoma]]
+- New links added: [[Caspase-8]], [[Colon Cancer]], [[Phosphorylation]], [[Apoptosis]], [[EGFR]], [[HER2]], [[Integrins]], [[PI3K]], [[Akt]], [[MAPK]], [[EMT]], [[Metastasis]], [[Chemotherapy]], [[Breast Cancer]], [[glioblastoma]]
 - Suggested new entity notes to create: [[Src Family Kinases]], [[Csk]], [[Dasatinib]]
 - Strong connections to strengthen: [[FYN]] ↔ [[Caspase-8]], [[FYN]] ↔ [[Colon Cancer]]

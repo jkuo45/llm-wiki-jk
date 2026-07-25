@@ -23,7 +23,7 @@ PAK1 is located at the intersection of multiple signaling pathways related to tu
 - **Downstream:** 
     - Activates [[MEK1_2]] and [[ERK1_2]] via RAF.
     - Increases [[PI3K]]/[[Akt]] signaling by PDK1.
-    - Facilitates [[NFκB|NF-κB]] nuclear activation.
+    - Facilitates [[NF-κB|NF-κB]] nuclear activation.
     - Facilitates [[Wnt]]/β-catenin signaling.
     - **[[Bad]] Regulation**: Directly phosphorylates [[Bad]] at Ser111 and Ser136, and indirectly at Ser112 via [[RAF1]], leading to its inactivation.
 
@@ -52,5 +52,5 @@ List of documents that mention this entity
 - New links added: [[Apoptosis]], [[PI3K]], [[Akt]], [[MAPK]], [[MEK1_2]], [[ERK1_2]], [[NF-κB]], [[Wnt]], [[Ivermectin]].
 - Suggested new entity notes to create: [[PI3K]], [[MEK1_2]], [[ERK1_2]], [[NF-κB]], [[Wnt]].
 - Strong connections to strengthen: [[PAK1]] ↔ [[Ivermectin]], [[PAK1]] ↔ [[MAPK]]
-- New links added: [[Bad]], [[RAF1]], [[Phosphorylation]], [[NFκB]]
+- New links added: [[Bad]], [[RAF1]], [[Phosphorylation]], [[NF-κB]]
 - Suggested new entity notes to create:

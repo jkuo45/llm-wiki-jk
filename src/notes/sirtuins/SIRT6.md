@@ -8,9 +8,9 @@ updated: 2026-07-09
 tags:
   - protein
   - nad+
-aliases:
   - Sirtuin 6
   - nuclear sirtuin 6
+  - SIRT6 ADP-ribosyl transferase
   - SIRT6 ADP-ribosyl transferase
 protected: true
 ---
@@ -68,7 +68,7 @@ SIRT6 protects against cardiorenal remodeling, hypertrophy, and fibrosis:
 - **Cardiac Fibrosis**: Inhibits myofibroblast differentiation by suppressing the profibrotic TGF-$\beta$/Smad3 pathway and targeting AMPK-ACE2 signaling.
 
 ### Macrophage Polarization & Inflammation
-SIRT6 acts as a potent anti-inflammatory agent by deacetylating the RelA/p65 subunit of [[NFKB|NF-κB]] on chromatin, suppressing its target inflammatory cytokine promoters (such as TNF-$\alpha$ and IL-6). SIRT6 deficiency in myeloid cells drives persistent macrophage activation and accelerates chronic inflammatory diseases (e.g., rheumatoid arthritis).
+SIRT6 acts as a potent anti-inflammatory agent by deacetylating the RelA/p65 subunit of [[NF-κB|NF-κB]] on chromatin, suppressing its target inflammatory cytokine promoters (such as TNF-$\alpha$ and IL-6). SIRT6 deficiency in myeloid cells drives persistent macrophage activation and accelerates chronic inflammatory diseases (e.g., rheumatoid arthritis).
 
 ### Diabetic Nephropathy & Podocyte Protection
 SIRT6 protects renal podocytes from apoptosis and structural injury. It maintains glomerular basement membrane integrity, preventing diabetic glomerulosclerosis and albuminuria.
@@ -114,7 +114,7 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 - **[[SIRT7]]** — fellow Class IV sirtuin; both nuclear (SIRT6 is chromatin-bound; SIRT7 is nucleolar).
 - **[[SIRT4]]** — fellow mammalian sirtuin with primary mono-ADP-ribosyltransferase activity.
 - **[[p53]]** — interacts with and is deacetylated by SIRT6 to coordinate apoptotic responses.
-- **[[NFKB|NF-κB]]** — transcriptional activity is repressed on chromatin by SIRT6-mediated H3K9 deacetylation.
+- **[[NF-κB|NF-κB]]** — transcriptional activity is repressed on chromatin by SIRT6-mediated H3K9 deacetylation.
 - **[[Aging]]** — SIRT6 is a key longevity gene and aging determinant.
 - **[[Base Excision Repair]]** — major DNA repair pathway coordinated by SIRT6.
 - **[[Nkx3.2]]** — homeobox transcription factor; SIRT6 regulates Nkx3.2 expression in chondrogenesis and bone development.
@@ -142,7 +142,7 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 
 ## 8. Linking Summary
 
-- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NF-κB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
 - **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 - **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 

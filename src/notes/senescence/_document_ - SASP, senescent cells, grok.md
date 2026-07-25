@@ -21,7 +21,7 @@ SASP is a hallmark feature of [[Senescence]] (alongside proliferative arrest and
 ### Composition and Heterogeneity
 
 SASP is highly heterogeneous and dynamic. Its exact makeup depends on:
-- Cell type (e.g., [[Fibroblasts]], [[Epithelial cells]], [[Endothelial cells]], [[Hepatocytes]], [[Neurons]]).
+- Cell type (e.g., [[Fibroblasts]], [[Epithelial cells]], [[Endothelial Cells]], [[Hepatocytes]], [[Neurons]]).
 - Senescence inducer (replicative, oncogene-induced, therapy-induced, stress-induced).
 - Stage (acute/transient vs. chronic) and microenvironment.
 	[en.wikipedia.org](https://en.wikipedia.org/wiki/Senescence-associated_secretory_phenotype)
@@ -30,7 +30,7 @@ Core components typically include:
 - Chemokines: [[CXCL]] family (e.g., GRO-α, MCPs), attracting immune cells.
 - Growth factors and regulators: [[IGFBPs]], [[VEGF]], [[Amphiregulin]], [[HGF]].
 - Proteases and ECM remodelers: [[MMP-1]], [[MMP-3]], [[MMP-10]], etc., and regulators like [[PAI-1]], [[uPA]].
-- Other: Bioactive lipids, extracellular vesicles (EVs/exosomes carrying miRNAs, proteins, DNA fragments), shed receptors (e.g., sTNFR, uPAR), and sometimes anti-inflammatory or profibrotic factors initially (e.g., [[TGF-β]]).
+- Other: Bioactive lipids, extracellular vesicles (EVs/exosomes carrying miRNAs, proteins, DNA fragments), shed receptors (e.g., sTNFR, uPAR), and sometimes anti-inflammatory or profibrotic factors initially (e.g., [[TGFβ]]).
 	pmc.ncbi.nlm.nih.gov +1
 It evolves over time: initially more immunosuppressive/profibrinogenic, later becoming proinflammatory/fibrolytic. Senescent cells remain metabolically active and can produce SASP even if they make up only a small fraction (e.g., 2–3%) of tissue cells, amplifying effects systemically (contributing to [[Inflammaging]]).
 
@@ -42,17 +42,17 @@ Resources like the SASP Atlas catalog variations.
 
 ### Mechanisms of Induction and Regulation
 
-SASP is primarily driven by persistent [[DNA Damage Response]] (DDR) signaling (e.g., via [[ATM]]/[[ATR]]), but not all arrested cells develop a full SASP (e.g., [[p16 INK4a|p16]]/[[p21 CIP1|p21]] overexpression alone may not).
+SASP is primarily driven by persistent [[DNA Damage Response]] (DDR) signaling (e.g., via [[ATM]]/[[ATR]]), but not all arrested cells develop a full SASP (e.g., [[p16INK4A|p16]]/[[p21 CIP1|p21]] overexpression alone may not).
 
 [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4166495/)
 
 Key pathways:
-- [[NFKB|NF-κB]] and [[CEBPβ|C/EBPβ]]: Major transcriptional drivers.
+- [[NF-κB|NF-κB]] and [[CEBPβ|C/EBPβ]]: Major transcriptional drivers.
 - [[cGAS-STING Pathway|cGAS-STING]]: Activated by cytosolic chromatin/DNA fragments or mtDNA from senescent cells, leading to type I interferon and inflammatory signaling.
 	[link.springer.com](https://link.springer.com/article/10.1186/s41232-022-00197-8)
 - [[mTOR]]: Regulates translation (e.g., of [[IL-1α]]) and links to [[Autophagy]].
 - [[p38 MAPK]], [[JAK]]/[[STAT3]], and others: Amplify the response.
-- Feedback loops: [[IL-1α]] on the cell surface reinforces [[NFKB|NF-κB]]; SASP factors can induce [[Paracrine Senescence]] in neighbors.
+- Feedback loops: [[IL-1α]] on the cell surface reinforces [[NF-κB|NF-κB]]; SASP factors can induce [[Paracrine Senescence]] in neighbors.
 	[en.wikipedia.org](https://en.wikipedia.org/wiki/Senescence-associated_secretory_phenotype)
 Other contributors: [[LINE-1]] retrotransposon activation, mitochondrial dysfunction, epigenetic changes (e.g., histone demethylation), and certain miRNAs.
 
@@ -77,7 +77,7 @@ SASP can spread senescence to neighboring cells ([[Paracrine Senescence]]) and h
 
 - [[Senolytics]]: Selectively clear senescent cells (e.g., [[Dasatinib]] + [[Quercetin]]/"D+Q", [[Navitoclax]]). Reduces SASP burden and improves healthspan in models.
 	[link.springer.com](https://link.springer.com/article/10.1186/s12943-025-02475-8)
-- [[Senomorphic Therapy|Senomorphics]] (SASP inhibitors): Suppress SASP without killing cells (e.g., targeting [[NFKB|NF-κB]], [[mTOR]], [[JAK]]/[[STAT3]], or specific factors like [[IL-1α]]). Includes drugs like [[Rapamycin]] or [[Apigenin]]. Potentially safer for preserving beneficial acute senescence.
+- [[Senomorphic Therapy|Senomorphics]] (SASP inhibitors): Suppress SASP without killing cells (e.g., targeting [[NF-κB|NF-κB]], [[mTOR]], [[JAK]]/[[STAT3]], or specific factors like [[IL-1α]]). Includes drugs like [[Rapamycin]] or [[Apigenin]]. Potentially safer for preserving beneficial acute senescence.
 	[nature.com](https://www.nature.com/articles/s41580-024-00727-x)
 - Other: Senomorphic apheresis, EVs targeting, or immune modulation. Used in cancer (to counter therapy-induced SASP), aging, and fibrosis research. SASP factors (or panels) are explored as biomarkers for biological age, frailty, or disease risk.
 	[mayoclinic.org](https://www.mayoclinic.org/medical-professionals/physical-medicine-rehabilitation/news/researchers-explore-whether-senescence-associated-secretory-phenotype-sasp-is-a-potential-driver-of-age-related-dysfunction/mac-20506003)
@@ -145,7 +145,7 @@ In summary, senescence often acts as an alternative to apoptosis for damaged cel
 
 Here is an in-depth explanation of the key pathways regulating the senescence-associated secretory phenotype (SASP). These pathways interconnect and respond to persistent DNA damage response (DDR), mitochondrial dysfunction, and other senescence triggers. They drive the transcription, stabilization, translation, and secretion of SASP factors (cytokines like [[IL-6]]/[[IL-8]], chemokines, proteases, etc.).
 
-1. [[NFKB|NF-κB]] and [[CEBPβ|C/EBPβ]]: Major Transcriptional Drivers
+1. [[NF-κB|NF-κB]] and [[CEBPβ|C/EBPβ]]: Major Transcriptional Drivers
 
 These two transcription factors (TFs) act as master regulators of SASP gene expression, directly binding promoters of many SASP components.
 NF-κB (Nuclear Factor kappa-light-chain-enhancer of activated B cells):
@@ -168,7 +168,7 @@ These TFs turn senescent cells into pro-inflammatory "senders" that alter the ti
 This is a major innate immune DNA-sensing pathway that links genomic/mitochondrial instability in senescent cells to SASP.
 Core mechanism:
 - cGAS (cyclic GMP-AMP synthase): A cytosolic DNA sensor. Upon binding double-stranded DNA (dsDNA) — including chromatin fragments from nuclear blebs/micronuclei or mtDNA — it catalyzes synthesis of the second messenger 2'3'-cGAMP.
-- STING (Stimulator of Interferon Genes): An ER transmembrane protein activated by cGAMP. It translocates to the Golgi, activates [[TBK1]] kinase, which phosphorylates [[IRF3]] (for type I interferons, e.g., IFN-β) and [[NFKB|NF-κB]] (for pro-inflammatory cytokines).
+- STING (Stimulator of Interferon Genes): An ER transmembrane protein activated by cGAMP. It translocates to the Golgi, activates [[TBK1]] kinase, which phosphorylates [[IRF3]] (for type I interferons, e.g., IFN-β) and [[NF-κB|NF-κB]] (for pro-inflammatory cytokines).
 	[imm.ox.ac.uk](https://www.imm.ox.ac.uk/publication/713392)
 In senescence:
 - Senescent cells accumulate cytosolic chromatin fragments (CCFs) due to nuclear envelope instability or DNA damage.
@@ -188,12 +188,12 @@ mTOR (mechanistic Target of Rapamycin), particularly mTORC1, is a nutrient/energ
 Role in SASP:
 - In senescent cells, mTOR is hyperactive and localizes to the trans-Golgi (in a TOR-autophagy spatial coupling compartment or TASCC), coupling autophagy-derived amino acids to high secretory demand.
 	[genesdev.cshlp.org](https://genesdev.cshlp.org/content/34/23-24/1565.full)
-- Translational control: mTOR promotes cap-dependent translation of specific mRNAs, notably [[IL-1α]]. IL-1α (cell-surface associated) creates a positive feedback loop with [[NFKB|NF-κB]], amplifying the entire SASP.
+- Translational control: mTOR promotes cap-dependent translation of specific mRNAs, notably [[IL-1α]]. IL-1α (cell-surface associated) creates a positive feedback loop with [[NF-κB|NF-κB]], amplifying the entire SASP.
 - It also regulates MAPKAPK2 (downstream of p38), which stabilizes SASP mRNAs.
 	[pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4691706/)
 Link to autophagy:
 - Autophagy and mTOR are inversely related in proliferating cells, but in senescence the relationship is complex. Autophagy can fuel mTOR (via amino acids), sustaining SASP production.
-- Inhibiting mTOR (e.g., with [[Rapamycin]]) suppresses [[IL-1α]] translation, reduces [[NFKB|NF-κB]] activity, and attenuates SASP without fully reversing senescence arrest. This makes mTOR inhibitors senomorphic (SASP-suppressing).
+- Inhibiting mTOR (e.g., with [[Rapamycin]]) suppresses [[IL-1α]] translation, reduces [[NF-κB|NF-κB]] activity, and attenuates SASP without fully reversing senescence arrest. This makes mTOR inhibitors senomorphic (SASP-suppressing).
 	[nature.com](https://www.nature.com/articles/nrm4030)
 mTOR thus bridges metabolic rewiring in senescent cells to their hypersecretory state.
 

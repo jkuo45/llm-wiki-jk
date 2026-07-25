@@ -45,7 +45,7 @@ List of documents that mention this entity
 
 ## Connections
 - **[[SIRT1]]**, **[[SIRT2]]**, & **[[SIRT5]]** — direct molecular sirtuin targets.
-- **[[NFKB|NF-κB]]** — pathway inhibited by suramin to alleviate spinal disc degeneration.
+- **[[NF-κB|NF-κB]]** — pathway inhibited by suramin to alleviate spinal disc degeneration.
 - **[[Cancer]]** — disease context where suramin's anti-sirtuin and mitochondrial effects are exploited.
 
 ## Linking Summary

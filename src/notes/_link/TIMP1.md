@@ -87,7 +87,7 @@ List of documents that mention this entity
   - [[MMP-9]]: TIMP1 is the endogenous inhibitor of MMP-9 (gelatinase B); the MMP-9/TIMP1 balance determines net gelatinolytic activity
   - [[MMP-12]]: TIMP1 inhibits MMP-12; the MMP-12/TIMP1 balance determines net elastinolytic activity in tissues
   - [[TIMP3]]: Fellow TIMP family member; unlike TIMP1 (soluble), TIMP3 is tethered to the ECM and has broader inhibitory spectrum
-  - [[TGF-β]]: Transcriptional inducer of TIMP1 via SMAD3-dependent signalling; positions TIMP1 as a pro-fibrotic effector
+  - [[TGFβ]]: Transcriptional inducer of TIMP1 via SMAD3-dependent signalling; positions TIMP1 as a pro-fibrotic effector
   - [[SASP|Senescence-Associated Secretory Phenotype]]: TIMP1 is a SASP factor that acts as a molecular switch determining SASP functional output
   - [[Fibrosis]]: TIMP1 promotes net ECM accumulation by inhibiting MMP-mediated degradation
   - [[Extracellular Matrix]]: TIMP1 maintains ECM homeostasis by restraining excessive proteolysis
@@ -97,7 +97,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[MMP-9]], [[MMP-12]], [[TIMP3]], [[TGF-β]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Fibrosis]], [[Extracellular Matrix]], [[Cancer]], [[DNAmGrimAge]], [[Collagen]]
+  - New links added: [[MMP-9]], [[MMP-12]], [[TIMP3]], [[TGFβ]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Fibrosis]], [[Extracellular Matrix]], [[Cancer]], [[DNAmGrimAge]], [[Collagen]]
   - Suggested new entity notes to create: [[TIMP2]], [[TIMP4]], [[CD63]], [[Erythropoiesis]]
   - Strong connections to strengthen: [[TIMP1]] ↔ [[MMP-9]], [[TIMP1]] ↔ [[MMP-12]], [[TIMP1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TIMP1]] ↔ [[Fibrosis]]
   - Justification: TIMP1 is the primary inhibitor of MMP-9 and a key regulator of MMP-12 activity. Its pro-fibrotic role (via TGF-β/SMAD3) and its function as a SASP molecular switch make it a central node connecting ECM homeostasis, fibrosis, cancer, and ageing.

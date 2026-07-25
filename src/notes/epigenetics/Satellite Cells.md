@@ -18,7 +18,7 @@ Quiescent SCs express Pax7 and low Myf5, and anchor to the niche via [[Integrin]
 
 ## Mechanism of Activation & Repair
 
-Upon damage, [[Hepatocyte Growth Factor]] (HGF), [[Wnt signaling]], and [[IGF-1]] trigger SCs to exit [[Quiescence]]. Activated myoblasts (Pax7+/MyoD+) proliferate, then withdraw from the [[Cell Cycle]] to [[Differentiation|differentiate]] (myogenin expression, myotube fusion) or self-renew to replenish the stem pool. The proliferation–differentiation switch is governed by [[Retinoblastoma Protein]] and [[E2F]], and epigenetic resetting during these transitions involves the [[NuRD complex]], linking repair to [[Epigenetic Remodeling]].
+Upon damage, [[Hepatocyte Growth Factor]] (HGF), [[Wnt signaling]], and [[IGF1]] trigger SCs to exit [[Quiescence]]. Activated myoblasts (Pax7+/MyoD+) proliferate, then withdraw from the [[Cell Cycle]] to [[Differentiation|differentiate]] (myogenin expression, myotube fusion) or self-renew to replenish the stem pool. The proliferation–differentiation switch is governed by [[Retinoblastoma Protein]] and [[E2F]], and epigenetic resetting during these transitions involves the [[NuRD complex]], linking repair to [[Epigenetic Remodeling]].
 
 ## Physiological Function
 
@@ -50,6 +50,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Muscle Stem Cell]], [[Quiescence]], [[Tissue Repair]], [[Differentiation]], [[Yamanaka Factors]], [[Rejuvenation]], [[Regenerative Medicine]], [[Integrin]], [[Notch signaling]], [[Sprouty1]], [[Extracellular Matrix]], [[Hepatocyte Growth Factor]], [[Wnt signaling]], [[IGF-1]], [[Cell Cycle]], [[Retinoblastoma Protein]], [[E2F]], [[NuRD complex]], [[Epigenetic Remodeling]], [[Aging]], [[Teratoma]], [[Induced Pluripotent Stem Cells]], [[CRISPR]]
+- New links added: [[Muscle Stem Cell]], [[Quiescence]], [[Tissue Repair]], [[Differentiation]], [[Yamanaka Factors]], [[Rejuvenation]], [[Regenerative Medicine]], [[Integrin]], [[Notch signaling]], [[Sprouty1]], [[Extracellular Matrix]], [[Hepatocyte Growth Factor]], [[Wnt signaling]], [[IGF1]], [[Cell Cycle]], [[Retinoblastoma Protein]], [[E2F]], [[NuRD complex]], [[Epigenetic Remodeling]], [[Aging]], [[Teratoma]], [[Induced Pluripotent Stem Cells]], [[CRISPR]]
 - Suggested new entity notes to create: [[Pax7]], [[MyoD]], [[Sarcopenia]]
 - Strong connections to strengthen: [[Satellite Cells]] ↔ [[Regenerative Medicine]], [[Satellite Cells]] ↔ [[Quiescence]]

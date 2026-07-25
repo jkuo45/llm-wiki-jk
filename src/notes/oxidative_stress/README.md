@@ -10,7 +10,7 @@ updated: 2026-07-06
 ## Maintenance
 
 - Last updated: 17_July_2026 10:35 AM PDT
-- Total count of entities: 75
+- Total count of entities: 76
 
 This directory contains notes and research on **oxidative stress**, its generation via reactive oxygen species (ROS), mitochondrial function, and enzymes such as [[NADPH Oxidase]] and [[Myeloperoxidase]]. It covers the resulting biochemical effects (lipid peroxidation, DNA damage, protein oxidation) and its **dual role** as both a source of damage and an essential cellular signal.
 
@@ -85,6 +85,7 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 
 | entity                                        |   datetime updated   | entity_type_1       | relevance_1 | sentiment_1 | justification                                                                           |
 | :-------------------------------------------- | :------------------: | :------------------ | ----------- | ----------- | --------------------------------------------------------------------------------------- |
+| [[Anti-TNF Therapy]]                          | 25_July_2026 12:00 PM PDT | Drug                | 8           | 1           | Therapeutic blockade of TNF-alpha that interrupts the TNF-to-ROS feed-forward loop and reduces systemic oxidative stress. |
 | [[8-oxo-2'-deoxyguanosine]]                   | 04_July_2026 08:00 PM | Biological Molecule | 10          | -1          | Primary biomarker of oxidative DNA damage, a core consequence of ROS.                   |
 | [[ABCA1]]                                     | 04_July_2026 08:00 PM | Protein             | 7           | 1           | Essential protein for cholesterol efflux; regulated by oxidative stress/LXR.            |
 | [[Alpha-Lipoic Acid]]                         | 04_July_2026 08:00 PM | Biological Molecule | 9           | 1           | Potent universal antioxidant and mitochondrial cofactor.                                |

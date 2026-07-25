@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - protein
-aliases: [DIABLO, Second Mitochondria-Derived Activator of Caspases]
+aliases: [DIABLO, Second Mitochondria-Derived Activator of Caspases, Smac-DIABLO]
 
 ---
 

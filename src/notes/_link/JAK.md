@@ -9,8 +9,7 @@ tags:
   - signaling-pathway
   - jak-stat
   - inflammation
-  - cytokine-signaling
-aliases: [JAK, Janus kinase, Janus kinase family]
+aliases: [JAK, Janus kinase, Janus kinase family, JAK1]
 ---
 
 # JAK
@@ -48,10 +47,10 @@ List of documents that mention this entity
 - [[Senescent Cells]] — Active in senescent cells
 - [[Senomorphic Therapy]] — JAK inhibitors are potential senomorphics
 - [[Ruxolitinib]] — JAK1/2 inhibitor with senomorphic activity
-- [[NFKB|NF-κB]] — Cooperates with JAK/STAT to sustain the SASP
+- [[NF-κB|NF-κB]] — Cooperates with JAK/STAT to sustain the SASP
 
 ## Linking Summary
 
-  - New links added: [[STAT1]], [[IL-8]], [[Ruxolitinib]], [[NFKB|NF-κB]]
+  - New links added: [[STAT1]], [[IL-8]], [[Ruxolitinib]], [[NF-κB|NF-κB]]
   - Suggested new entity notes to create: [[JAK2]], [[TYK2]], [[STAT6]], [[SOCS Proteins]]
   - Strong connections to strengthen: [[JAK]] ↔ [[STAT3]], [[JAK]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[JAK]] ↔ [[Senomorphic Therapy]]

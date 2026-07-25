@@ -31,7 +31,7 @@ The foundational finding comes from Orjalo et al. (2009, PNAS, PMID 19911007), w
 Key mechanistic findings from this study:
 
 - Depletion of **[[IRAK1]]** — a key component of the IL-1R signaling cascade — also suppressed SASP secretion, confirming engagement of the [[IL-1R]] pathway.
-- IL-1α depletion reduced DNA binding activity of both [[NFKB|NF-κB]] and [[CEBPβ|C/EBPβ]], the two transcription factors that stimulate IL-6/IL-8 transcription.
+- IL-1α depletion reduced DNA binding activity of both [[NF-κB|NF-κB]] and [[CEBPβ|C/EBPβ]], the two transcription factors that stimulate IL-6/IL-8 transcription.
 - The mechanism was **universal** across senescence inducers: DNA damage, replicative exhaustion, oncogenic [[HRAS]], and chromatin relaxation.
 - Conditioned medium from IL-1α-depleted senescent cells markedly reduced the invasiveness of metastatic cancer cells, demonstrating that IL-1α regulates the biological effects of the SASP on the tissue microenvironment.
 
@@ -47,7 +47,7 @@ Su et al. (2019, Aging, PMID 30673283) showed that IL-1α is exported to the cel
 
 1. The S100A13–IL-1α complex interacts with **Cu²⁺ ions**, driving it to the acidic inner leaflet of the plasma membrane.
 2. S100A13 is **upregulated** during all forms of senescence — oncogene-induced (Ras OIS), therapy-induced, and replicative.
-3. Overexpression of S100A13 increases surface IL-1α levels, [[NFKB|NF-κB]] activity, and SASP gene induction; knockdown has the opposite effect.
+3. Overexpression of S100A13 increases surface IL-1α levels, [[NF-κB|NF-κB]] activity, and SASP gene induction; knockdown has the opposite effect.
 4. Lowering Cu²⁺ levels decreases surface IL-1α, NF-κB activity, and SASP production.
 
 > [!tip] S100A13 Is Rate-Limiting for Senescence
@@ -102,7 +102,7 @@ Surface-bound IL-1α on senescent cells engages **IL-1R1** on neighbouring cells
 
 1. IL-1R1 recruits **IL-1RAcP** (accessory protein)
 2. The complex activates **MyD88** → **IRAK1/4** → **TRAF6**
-3. Downstream activation of [[NFKB|NF-κB]] and [[MAPK]] signaling
+3. Downstream activation of [[NF-κB|NF-κB]] and [[MAPK]] signaling
 4. Full pro-inflammatory transcriptional program in macrophages: TNF-α, IL-6, IL-1β, IL-12, chemokines, COX-2, iNOS
 
 > [!warning] Macrophages May Not Respond to Soluble IL-1α/IL-1β Directly
@@ -205,7 +205,7 @@ List of documents in the wiki that mention this entity
 - [[SASP|Senescence-Associated Secretory Phenotype]] — The SASP is the effector mechanism through which surface IL-1α drives inflammatory amplification; IL-1α is the master upstream SASP regulator
 - [[IL-1α]] — Cell surface-bound IL-1α is the essential initiator of SASP and the bridge to macrophage activation via juxtacrine IL-1R1 signaling
 - [[Macrophages]] — Recruited and activated by senescent cell SASP; produce TNF-α, IL-1β, IL-6 that feed back to amplify senescent cell SASP in a self-reinforcing inflammatory loop
-- [[NFKB|NF-κB]] — Master transcription factor activated by both IL-1α (in senescent cells) and downstream in macrophages; drives the full SASP gene program
+- [[NF-κB|NF-κB]] — Master transcription factor activated by both IL-1α (in senescent cells) and downstream in macrophages; drives the full SASP gene program
 - [[Caspase-5]] / [[Caspase-11]] — Noncanonical inflammasome caspases that cleave IL-1α at a conserved site, generating fully active cytokine during senescence
 - [[S100A13]] — Non-classical secretory protein that forms a Cu²⁺-dependent complex with IL-1α to translocate it to the cell surface; upregulated during all forms of senescence
 - [[Calpain]] — Ca²⁺-activated protease that cleaves pro-1α into mature form; aberrantly active in senescent cells due to elevated Ca²⁺
@@ -231,12 +231,12 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-1α]], [[Macrophages]], [[NFKB|NF-κB]], [[Caspase-5]], [[Caspase-11]], [[S100A13]], [[Calpain]], [[cGAS-STING Pathway|cGAS–STING]], [[Paracrine Senescence]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[CCL2]], [[Aging]], [[Inflammaging]], [[Atherosclerosis]], [[Epithelial-to-mesenchymal transition]], [[HMGB1]], [[mtDNA]], [[Rapamycin]], [[Metformin]], [[Dasatinib]], [[Quercetin]], [[p38 MAPK]], [[IRAK1]], [[TNFα]], [[Senescence Surveillance]], [[Senescent Cells]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-1α]], [[Macrophages]], [[NF-κB|NF-κB]], [[Caspase-5]], [[Caspase-11]], [[S100A13]], [[Calpain]], [[cGAS-STING Pathway|cGAS–STING]], [[Paracrine Senescence]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[CCL2]], [[Aging]], [[Inflammaging]], [[Atherosclerosis]], [[Epithelial-to-mesenchymal transition]], [[HMGB1]], [[mtDNA]], [[Rapamycin]], [[Metformin]], [[Dasatinib]], [[Quercetin]], [[p38 MAPK]], [[IRAK1]], [[TNFα]], [[Senescence Surveillance]], [[Senescent Cells]]
 - Suggested new entity notes to create: [[Inflammasome]], , [[Senolytic Therapy]], [[Senomorphic Therapy]], [[MyD88]], [[TRAF6]]
 - Strong connections to strengthen:
     - [[IL-1α]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
     - [[IL-1α]] ↔ [[Macrophages]]
-    - [[IL-1α]] ↔ [[NFKB|NF-κB]]
+    - [[IL-1α]] ↔ [[NF-κB|NF-κB]]
     - [[Macrophages]] ↔ [[Senescent Cells]]
     - [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Inflammaging]]
     - [[Caspase-5]] ↔ [[IL-1α]]

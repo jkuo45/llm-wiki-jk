@@ -7,7 +7,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - medical-condition
-aliases: []
+aliases: [BMI1, Bmi-1, B-cell-specific Moloney murine leukemia virus integration site 1, PHC1]
 ---
 
 # Bmi-1

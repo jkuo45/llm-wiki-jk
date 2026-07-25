@@ -46,5 +46,5 @@ Metanephrine represents the **non-oxidative** branch of [[Epinephrine]] disposal
 ## Linking Summary
 
   - New links added: [[Epinephrine]], [[COMT]], [[Norepinephrine]], [[S-adenosylmethionine]], [[Monoamine oxidase]], [[Chromaffin cells]], [[Adrenal medulla]], [[Adrenochrome]], [[Aminochromes]], [[Reactive Oxygen Species]]
-  - Suggested new entity notes to create: [[COMT Val158Met]]
+  - Suggested new entity notes to create: [[Val158Met]]
   - Strong connections to strengthen: Metanephrine ↔ COMT; Metanephrine ↔ Epinephrine

@@ -83,6 +83,7 @@ updated: 2026-07-13
 | [[Cyanidin]] | Chemical Compound | Natural anthocyanidin (berries); 50×+ SIRT6 activation in vitro; H3K9/H3K56 deacetylation |
 | [[Fucoidan]] | Chemical Compound | Sulfated polysaccharide; SIRT6 activator that elevates SIRT6 and enhances mADPr activity; mimics centenarian SIRT6 variant effects |
 | [[Glu230]] | Amino Acid Residue | Glutamate 230 (E230) in the SIRT1 N-terminal domain; required for resveratrol allosteric binding and activation |
+| [[Pan-sirtuin Activator]] | compound | A class of agents that broadly activate multiple sirtuin deacetylases, typically indirectly by raising cellular NAD+ rather than direct binding |
 
 #### Sirtuin Inhibitors
 
@@ -97,6 +98,7 @@ updated: 2026-07-13
 | [[Salermide]] | Chemical Compound | Sirtinol analog; potently inhibits SIRT1 and SIRT2; reactivates sirtuin-repressed proapoptotic genes |
 | [[Cambinol]] | Chemical Compound | $\beta$-naphthol-containing dual SIRT1/SIRT2 inhibitor; impairs metastatic invasion and cell migration |
 | [[Suramin]] | Chemical Compound | Polyanionic urea derivative; potent pan-sirtuin inhibitor targeting SIRT1, SIRT2, and SIRT5 |
+| [[Tenovin-6]] | drug | Small-molecule sirtuin inhibitor originally identified as a p53-activating compound blocking sirtuin-mediated deacetylation |
 
 ### Physiological Concepts
 

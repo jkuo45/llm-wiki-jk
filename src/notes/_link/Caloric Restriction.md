@@ -12,6 +12,7 @@ aliases:
   - Calorie Restriction
   - CR
   - dietary restriction
+  - Caloric Restriction (CR)
   - calorie restriction
 
 ---

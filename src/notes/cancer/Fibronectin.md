@@ -26,7 +26,7 @@ Fibronectin organizes the provisional matrix during embryogenesis, wound healing
 
 ## Pathological & Clinical Relevance
 
-In cancer, fibronectin is remodeled and overexpressed at tumor borders and in the stroma, supporting [[Angiogenesis]], [[Metastasis]], and [[Chemotherapy]] resistance. The alternatively spliced extra domain A (EDA) form is a damage-associated molecular pattern that activates toll-like receptors and fuels [[Inflammation]]. Fibronectin-based [[Biomarker]]s (plasma fibronectin, oncofetal fibronectin) and integrin-targeted therapies (e.g., cilengitide, an αvβ3/αvβ5 antagonist) have been evaluated in [[Glioblastoma]] and other tumors. Fibronectin also promotes cancer-associated fibroblast activation, a central node in the [[Tumor Microenvironment]].
+In cancer, fibronectin is remodeled and overexpressed at tumor borders and in the stroma, supporting [[Angiogenesis]], [[Metastasis]], and [[Chemotherapy]] resistance. The alternatively spliced extra domain A (EDA) form is a damage-associated molecular pattern that activates toll-like receptors and fuels [[Inflammation]]. Fibronectin-based [[Biomarker]]s (plasma fibronectin, oncofetal fibronectin) and integrin-targeted therapies (e.g., cilengitide, an αvβ3/αvβ5 antagonist) have been evaluated in [[glioblastoma]] and other tumors. Fibronectin also promotes cancer-associated fibroblast activation, a central node in the [[Tumor Microenvironment]].
 
 ## Connections
 
@@ -40,6 +40,6 @@ In cancer, fibronectin is remodeled and overexpressed at tumor borders and in th
 
 ## Linking Summary
 
-- New links added: [[RGD peptide]], [[Integrins]], [[Fibrinogen]], [[FAK]], [[Src]], [[PI3K]], [[MAPK]], [[Tumor Microenvironment]], [[EMT]], [[Angiogenesis]], [[Inflammation]], [[Chemotherapy]], [[Glioblastoma]], [[Biomarker]]
+- New links added: [[RGD peptide]], [[Integrins]], [[Fibrinogen]], [[FAK]], [[Src]], [[PI3K]], [[MAPK]], [[Tumor Microenvironment]], [[EMT]], [[Angiogenesis]], [[Inflammation]], [[Chemotherapy]], [[glioblastoma]], [[Biomarker]]
 - Suggested new entity notes to create: [[Extra Domain A]], [[Cancer-associated Fibroblast]]
 - Strong connections to strengthen: [[Fibronectin]] ↔ [[Integrins]], [[Fibronectin]] ↔ [[Tumor Microenvironment]]

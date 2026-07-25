@@ -24,7 +24,7 @@ MMP-2 is synthesized as a latent pro-enzyme (~72 kDa) whose catalytic domain con
 
 ## Role in Senescence / SASP
 
-MMP-2 was among the first matrix-degrading enzymes catalogued in the senescence secretome (Coppé et al., PMID 18708303; PMID 20212498). It cooperates with [[MMP-9]], [[MMP-3]] and [[MMP-12]] to remodel the [[Extracellular Matrix]] around senescent cells, releasing matrix-sequestered growth factors and creating a niche that favors [[Metastasis]], fibrosis and tissue ageing. Critically, MMP-2 belongs to a panel of mortality-associated SASP factors — together with [[GDF15]], [[RAGE]], [[VEGF]] and PARC/[[CCL18]] — that predicts all-cause mortality independently of chronological age (SASP Review 2024). By degrading basement membranes and activating latent [[TGF-β]], MMP-2 amplifies paracrine senescence and fibrogenic signaling.
+MMP-2 was among the first matrix-degrading enzymes catalogued in the senescence secretome (Coppé et al., PMID 18708303; PMID 20212498). It cooperates with [[MMP-9]], [[MMP-3]] and [[MMP-12]] to remodel the [[Extracellular Matrix]] around senescent cells, releasing matrix-sequestered growth factors and creating a niche that favors [[Metastasis]], fibrosis and tissue ageing. Critically, MMP-2 belongs to a panel of mortality-associated SASP factors — together with [[GDF15]], [[RAGE]], [[VEGF]] and PARC/[[CCL18]] — that predicts all-cause mortality independently of chronological age (SASP Review 2024). By degrading basement membranes and activating latent [[TGFβ]], MMP-2 amplifies paracrine senescence and fibrogenic signaling.
 
 ## Clinical / Pathological Relevance
 
@@ -48,5 +48,5 @@ Plasma MMP-2 serves as a senescence-burden and [[Cardiovascular Disease]] biomar
 
 ## Linking Summary
 
-- New links added: [[MMP-9]], [[MMP-12]], [[MMP-3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Extracellular Matrix]], [[NF-κB]], [[AP-1]], [[GDF15]], [[RAGE]], [[VEGF]], [[CCL18]], [[TIMP3]], [[Collagen]], [[TGF-β]], [[Metastasis]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Angiogenesis]]
+- New links added: [[MMP-9]], [[MMP-12]], [[MMP-3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Extracellular Matrix]], [[NF-κB]], [[AP-1]], [[GDF15]], [[RAGE]], [[VEGF]], [[CCL18]], [[TIMP3]], [[Collagen]], [[TGFβ]], [[Metastasis]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Angiogenesis]]
   - Strong connections to strengthen: [[MMP-2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] biomarker, [[MMP-2]] ↔ mortality, [[MMP-2]] ↔ [[Extracellular Matrix]] remodeling

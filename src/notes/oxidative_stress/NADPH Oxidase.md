@@ -11,7 +11,7 @@ tags:
   - immune-system
   - enzyme
   - nad+
-aliases: [NOX, NADPH oxidase complex, NOX family]
+aliases: [NOX, NADPH oxidase complex, NOX family, NAD(P)H Oxidase]
 protected: true
 ---
 # NADPH Oxidase
@@ -48,7 +48,7 @@ NOX4 is unique among the family in that it is constitutively active and generate
 ## Physiological Roles Beyond Host Defense
 Beyond the well-established role of NOX2 in innate immunity, NOX-derived ROS serve essential signaling functions:
 
-- **Vascular tone regulation**: NOX1 and NOX4 in vascular smooth muscle and [[Endothelial cells]] modulate [[Nitric Oxide]] bioavailability, [[Hypoxia]]-inducible factor (HIF) stabilization, and vascular remodeling. NOX4-derived $H_2O_2$ acts as a physiological vasodilator (endothelium-derived hyperpolarizing factor, EDHF) in some vascular beds.
+- **Vascular tone regulation**: NOX1 and NOX4 in vascular smooth muscle and [[Endothelial Cells]] modulate [[Nitric Oxide]] bioavailability, [[Hypoxia]]-inducible factor (HIF) stabilization, and vascular remodeling. NOX4-derived $H_2O_2$ acts as a physiological vasodilator (endothelium-derived hyperpolarizing factor, EDHF) in some vascular beds.
 - **Cellular differentiation**: NOX4 is upregulated during differentiation of [[Fibroblasts]] to myofibroblasts and is required for TGF-β1-induced differentiation.
 - **[[Angiogenesis]]**: NOX-derived ROS activate [[VEGF]] signaling and endothelial tube formation.
 - **[[Spermatogenesis]]**: DUOX enzymes support the oxidative maturation of spermatozoa in the epididymis.

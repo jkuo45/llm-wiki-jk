@@ -13,7 +13,7 @@ aliases: [IκB Kinase Beta, IKBKB, IKK2]
 
 # IKKbeta
 
-**IKKβ** (IκB kinase β) is the primary catalytic subunit of the [[IKK complex]] — the signal integrator for [[NFκB]] activation. It phosphorylates [[IkappaBalpha]] (and other [[IkappaB]] proteins) at Ser32/Ser36, triggering [[Ubiquitin]]-dependent [[Proteasomal Degradation]] and releasing [[NFκB]] for nuclear translocation.
+**IKKβ** (IκB kinase β) is the primary catalytic subunit of the [[IKK complex]] — the signal integrator for [[NF-κB]] activation. It phosphorylates [[IkappaBalpha]] (and other [[IkappaB]] proteins) at Ser32/Ser36, triggering [[Ubiquitin]]-dependent [[Proteasomal Degradation]] and releasing [[NF-κB]] for nuclear translocation.
 
 ## Structure and Function
 
@@ -40,7 +40,7 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[NFκB]] — IKKβ phosphorylates IκBα to activate NF-κB
+- [[NF-κB]] — IKKβ phosphorylates IκBα to activate NF-κB
 - [[IkappaBalpha]] — direct substrate of IKKβ; phosphorylation triggers its degradation
 - [[NEMO]] — regulatory subunit of the IKK complex; required for IKKβ activation
 - [[IKKα]] — IKKβ's catalytic partner in the IKK complex
@@ -54,6 +54,6 @@ List of documents that mention this entity
 - [[RIPK1]] / [[TRAF2]] / [[TRAF6]] — upstream signal transducers to IKKβ
 
 ## Linking Summary
-- New links added: [[IKK complex]], [[NFκB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
+- New links added: [[IKK complex]], [[NF-κB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
 - Suggested new entity notes to create: [[NEMO-binding domain]], [[IKK complex assembly]], [[Canonical NF-κB pathway]], [[IKKβ inhibitor]], [[TAK1 kinase]]
   - Strong connections to strengthen: [[IKKbeta]] ↔ NFκB, [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]

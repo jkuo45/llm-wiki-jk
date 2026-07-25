@@ -22,13 +22,13 @@ aliases:
 
 # IL-1β
 
-**Interleukin-1 beta (IL-1β)** is a potent pro-inflammatory IL-1-family cytokine and a key component and upstream regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]. Its production is often upregulated during chronic [[Inflammation]] and is closely linked with other pro-inflammatory markers like [[TNFα]] and the activation of the [[NFKB|NF-κB]] pathway.
+**Interleukin-1 beta (IL-1β)** is a potent pro-inflammatory IL-1-family cytokine and a key component and upstream regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]. Its production is often upregulated during chronic [[Inflammation]] and is closely linked with other pro-inflammatory markers like [[TNFα]] and the activation of the [[NF-κB|NF-κB]] pathway.
 
 ## Mechanism of Action & Signaling
 
-IL-1β is transcribed as an inactive 31-kDa precursor (pro-IL-1β) and requires two signals: a priming signal (e.g., [[NFKB|NF-κB]]) induces pro-IL-1β and NLRP3, and a danger signal activates the [[NLRP3]] inflammasome, which recruits ASC and [[Caspase-1]] to cleave pro-IL-1β into the mature 17-kDa secreted form. Mature IL-1β binds IL-1R1/IL-1RAcP to activate MyD88, driving [[NFKB|NF-κB]] and [[MAPK]] and inducing downstream SASP factors ([[IL-6]], [[IL-8]]) together with [[CEBPβ|C/EBPβ]]. Like IL-1α, IL-1β feeds forward to sustain the inflammatory secretome of [[Senescent Cells]].
+IL-1β is transcribed as an inactive 31-kDa precursor (pro-IL-1β) and requires two signals: a priming signal (e.g., [[NF-κB|NF-κB]]) induces pro-IL-1β and NLRP3, and a danger signal activates the [[NLRP3]] inflammasome, which recruits ASC and [[Caspase-1]] to cleave pro-IL-1β into the mature 17-kDa secreted form. Mature IL-1β binds IL-1R1/IL-1RAcP to activate MyD88, driving [[NF-κB|NF-κB]] and [[MAPK]] and inducing downstream SASP factors ([[IL-6]], [[IL-8]]) together with [[CEBPβ|C/EBPβ]]. Like IL-1α, IL-1β feeds forward to sustain the inflammatory secretome of [[Senescent Cells]].
 
-Upon binding to the [[IL-1 Receptor|IL-1R1]], IL-1β activates [[MyD88]]-dependent signaling, leading to [[NFKB|NF-κB]] and [[p38 MAPK]] activation. NF-κB drives transcription of pro-inflammatory genes including *IL1B* itself, [[TNFα]], and [[COX-2]], while also upregulating antioxidant genes such as [[MnSOD]]. This dual action creates a context-dependent feedback loop: acute IL-1β signaling induces protective antioxidant responses, whereas chronic IL-1β exposure overwhelms these defenses, leading to sustained [[Oxidative Stress]] and tissue damage.
+Upon binding to the [[IL-1 Receptor|IL-1R1]], IL-1β activates [[MyD88]]-dependent signaling, leading to [[NF-κB|NF-κB]] and [[p38 MAPK]] activation. NF-κB drives transcription of pro-inflammatory genes including *IL1B* itself, [[TNFα]], and [[COX-2]], while also upregulating antioxidant genes such as [[MnSOD]]. This dual action creates a context-dependent feedback loop: acute IL-1β signaling induces protective antioxidant responses, whereas chronic IL-1β exposure overwhelms these defenses, leading to sustained [[Oxidative Stress]] and tissue damage.
 
 ## Redox Regulation of IL-1β Production and Signaling
 
@@ -44,12 +44,12 @@ Elevated [[Reactive Oxygen Species]], particularly mitochondrial ROS, promote NL
 
 IL-1β is produced by [[Senescent Cells]] and acts as a master regulator of SASP:
 - It induces expression of other SASP factors such as [[IL-6]] and [[IL-8]].
-- It activates [[NFKB|NF-κB]] and [[CEBPβ|C/EBPβ]] signaling that maintains the senescent phenotype.
+- It activates [[NF-κB|NF-κB]] and [[CEBPβ|C/EBPβ]] signaling that maintains the senescent phenotype.
 - It promotes [[Paracrine Senescence]] in neighboring cells and recruits innate immune cells.
 
 ## Sirtuin Regulation of IL-1β
 
-[[SIRT1]] deacetylation of [[NFKB|NF-κB]] downregulates pro-inflammatory cytokines including IL-1β. [[SIRT7]] kidney-specific knockout reduces IL-1β and other inflammatory factors.
+[[SIRT1]] deacetylation of [[NF-κB|NF-κB]] downregulates pro-inflammatory cytokines including IL-1β. [[SIRT7]] kidney-specific knockout reduces IL-1β and other inflammatory factors.
 
 ## IL-1β in Neuroinflammation and Neurodegeneration
 
@@ -83,7 +83,7 @@ List of documents that mention this entity
 
 - [[SASP|Senescence-Associated Secretory Phenotype]] — A key component and regulator of SASP
 - [[Senescent Cells]] — Produced by senescent cells
-- [[NFKB|NF-κB]] — Activates NF-κB signaling; NF-κB drives IL-1β transcription
+- [[NF-κB|NF-κB]] — Activates NF-κB signaling; NF-κB drives IL-1β transcription
 - [[NLRP3]] — Processed by the NLRP3 inflammasome
 - [[Caspase-1]] — Cleaves pro-IL-1β into mature secreted form
 - [[CEBPβ|C/EBPβ]] — Cooperates with NF-κB to sustain SASP
@@ -107,5 +107,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[NFKB|NF-κB]], [[NLRP3]], [[Caspase-1]], [[CEBPβ|C/EBPβ]], [[MAPK]], [[Inflammaging]], [[TNFα]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Mitochondrial Dysfunction]], [[TXNIP]], [[Thioredoxin]], [[Amyloid Beta]], [[Microglia]], [[Astrocytes]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[SIRT1]], [[Anakinra]], [[Canakinumab]], [[Cardiovascular Disease]], [[Atherosclerosis]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[NF-κB|NF-κB]], [[NLRP3]], [[Caspase-1]], [[CEBPβ|C/EBPβ]], [[MAPK]], [[Inflammaging]], [[TNFα]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Mitochondrial Dysfunction]], [[TXNIP]], [[Thioredoxin]], [[Amyloid Beta]], [[Microglia]], [[Astrocytes]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[SIRT1]], [[Anakinra]], [[Canakinumab]], [[Cardiovascular Disease]], [[Atherosclerosis]]
 - Strong connections to strengthen: [[IL-1β]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-1β]] ↔ [[Inflammaging]], [[IL-1β]] ↔ [[NLRP3]], [[IL-1β]] ↔ [[Oxidative Stress]]

@@ -22,7 +22,7 @@ In hepatocytes propionate is activated to propionyl-CoA, carboxylated to D-methy
 
 ## Physiological & Immune Effects
 
-Propionate signals through the free fatty acid receptors FFAR2 and FFAR3 on enteroendocrine and immune cells, stimulating release of satiety peptides (PYY, GLP-1) and thereby reducing food intake. It reinforces intestinal barrier integrity and exerts [[Anti-inflammatory|anti-inflammatory]] actions: it can suppress [[NFKB|NF-κB]] activation, promote [[Regulatory T cells|regulatory T-cell]] differentiation, and lower systemic [[Inflammation]]. These effects link propionate to improved metabolic control.
+Propionate signals through the free fatty acid receptors FFAR2 and FFAR3 on enteroendocrine and immune cells, stimulating release of satiety peptides (PYY, GLP-1) and thereby reducing food intake. It reinforces intestinal barrier integrity and exerts [[Anti-inflammatory|anti-inflammatory]] actions: it can suppress [[NF-κB|NF-κB]] activation, promote [[Regulatory T cells|regulatory T-cell]] differentiation, and lower systemic [[Inflammation]]. These effects link propionate to improved metabolic control.
 
 ## Relevance to Aging & Disease
 
@@ -45,7 +45,7 @@ Low SCFA exposure is associated with [[Obesity]] and [[Type 2 Diabetes Mellitus|
 
 ## Linking Summary
 
-  - New links added: [[Short-chain Fatty Acids]], [[Gut Microbiome]], [[Gluconeogenesis]], [[Inflammation]], [[Metabolism]], [[Butyrate]], [[Obesity]], [[Type 2 Diabetes Mellitus]], [[Anti-inflammatory]], [[NFKB]], [[Regulatory T cells]], [[Longevity]], [[Vitamin B12]]
+  - New links added: [[Short-chain Fatty Acids]], [[Gut Microbiome]], [[Gluconeogenesis]], [[Inflammation]], [[Metabolism]], [[Butyrate]], [[Obesity]], [[Type 2 Diabetes Mellitus]], [[Anti-inflammatory]], [[NF-κB]], [[Regulatory T cells]], [[Longevity]], [[Vitamin B12]]
   - Suggested new entity notes to create: [[Free Fatty Acid Receptor 2]], [[Free Fatty Acid Receptor 3]]
   - Strong connections to strengthen: [[Propionate]] ↔ [[Gut Microbiome]], [[Propionate]] ↔ [[Metabolism]]
   - Justification: FFAR2/3 are the canonical receptors mediating propionate's effects and deserve dedicated notes.

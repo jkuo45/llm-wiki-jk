@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - enzyme
-aliases: [glycogen synthase kinase 3 beta]
+aliases: [glycogen synthase kinase 3 beta, GSK3B]
 ---
 # GSK3β
 

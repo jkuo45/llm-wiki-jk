@@ -14,7 +14,7 @@ aliases: []
 
 ## Structure and Complex Assembly
 
-TRADD contains an N-terminal death domain that binds the death domain of oligomerized TNFR1, and a C-terminal region that recruits downstream effectors. Upon TNF binding, TNFR1 trimerizes and assembles **Complex I** at the membrane: TRADD, [[RIPK1]], TRAF2, and cIAPs, which activates [[NFκB]] and MAPK pro-survival signaling. TRADD and RIPK1 can then internalize into **Complex II** (the death-inducing signaling complex, DISC-like), where TRADD recruits [[FADD]] and procaspase-8 to trigger apoptosis.
+TRADD contains an N-terminal death domain that binds the death domain of oligomerized TNFR1, and a C-terminal region that recruits downstream effectors. Upon TNF binding, TNFR1 trimerizes and assembles **Complex I** at the membrane: TRADD, [[RIPK1]], TRAF2, and cIAPs, which activates [[NF-κB]] and MAPK pro-survival signaling. TRADD and RIPK1 can then internalize into **Complex II** (the death-inducing signaling complex, DISC-like), where TRADD recruits [[FADD]] and procaspase-8 to trigger apoptosis.
 
 ## Bifurcation of Cell Fate
 
@@ -41,12 +41,12 @@ List of documents that mention this entity
 - [[TNFR1]]: The death receptor that recruits TRADD.
 - [[FADD]]: Recruited by TRADD to assemble the apoptotic caspase-8 activation complex.
 - [[Caspase-8]]: Effector caspase activated downstream of TRADD in Complex II.
-- [[NFκB]]: Survival/inflammatory pathway activated by TRADD-associated Complex I.
+- [[NF-κB]]: Survival/inflammatory pathway activated by TRADD-associated Complex I.
 - [[Apoptosis]]: One of the two fates bifurcating from TRADD signaling.
 - [[Inflammation]]: TNFR1/TRADD signaling fuels tumor-associated inflammation.
 
 ## Linking Summary
 
-- New links added: [[Apoptosis]], [[TNFR1]], [[FADD]], [[Caspase-8]], [[NFκB]], [[Inflammation]], [[RIPK1]], [[Necroptosis]]
+- New links added: [[Apoptosis]], [[TNFR1]], [[FADD]], [[Caspase-8]], [[NF-κB]], [[Inflammation]], [[RIPK1]], [[Necroptosis]]
 - Suggested new entity notes to create: [[Complex I]], [[Complex II (DISC)]], [[RIPK1]]
 - Strong connections to strengthen: [[TRADD]] ↔ [[TNFR1]], [[TRADD]] ↔ [[Caspase-8]]

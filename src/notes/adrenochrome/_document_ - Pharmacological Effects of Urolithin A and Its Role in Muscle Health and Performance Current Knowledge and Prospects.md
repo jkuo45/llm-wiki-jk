@@ -162,7 +162,7 @@ The [[mTOR|mTOR (mammalian target of rapamycin)]] pathway plays a key role in re
 
 #### 7.1.3. NF-κB Pathway
 
-The [[NFκB|NF-κB (nuclear factor kappa-light-chain-enhancer of activated B cells)]] pathway is implicated in the regulation of [[Inflammation|inflammatory responses]]. Urolithin A has been found to inhibit the activation of NF-κB and reduce the production of inflammatory mediators. By inhibiting the NF-κB pathway, Urolithin A can mitigate muscle damage and pain caused by inflammatory responses, thereby promoting muscle recovery and health. The literature indicates that Urolithin A blocks the NF-κB/STAT1 Axis through the inactivation of [[TLR3]]/[[TRIF]] signaling.
+The [[NF-κB|NF-κB (nuclear factor kappa-light-chain-enhancer of activated B cells)]] pathway is implicated in the regulation of [[Inflammation|inflammatory responses]]. Urolithin A has been found to inhibit the activation of NF-κB and reduce the production of inflammatory mediators. By inhibiting the NF-κB pathway, Urolithin A can mitigate muscle damage and pain caused by inflammatory responses, thereby promoting muscle recovery and health. The literature indicates that Urolithin A blocks the NF-κB/STAT1 Axis through the inactivation of [[TLR3]]/[[TRIF]] signaling.
 
 #### 7.1.4. PGC-1α Pathway
 
@@ -337,11 +337,11 @@ This work was supported by the 14th five-year Education Plan of Jiangsu Province
 - [[Urolithin A]] → activates → [[PINK1]] / [[Parkin]] (mitophagy)
 - [[Urolithin A]] → activates → [[NRF2]]–[[Antioxidant Response Element|ARE]] → [[Glutathione S-Transferase|GSTs]]
 - [[Urolithin A]] → activates → [[AMPK]] (via [[SIRT3]]→[[LKB1]]) and [[PGC-1α]] (mitochondrial biogenesis)
-- [[Urolithin A]] → inhibits → [[mTOR]] / [[PI3K]] / [[Akt]] and [[NFκB]] (anti-inflammatory)
+- [[Urolithin A]] → inhibits → [[mTOR]] / [[PI3K]] / [[Akt]] and [[NF-κB]] (anti-inflammatory)
 - [[Urolithin A]] → inhibits → [[FOXO]], [[Ubiquitin-Proteasome System]], [[Atrogin-1]]/[[MuRF1]] (reduces muscle protein degradation)
 
 ## Linking Summary
 
-- New links added: [[Urolithin A]], [[Ellagitannins]], [[Urolithins]], [[Gut Microbiome]], [[Mitophagy]], [[Mitochondria]], [[PINK1]], [[Parkin]], [[Glutathione S-Transferase]], [[NRF2]], [[Antioxidant Response Element]], [[Antioxidants]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Glutathione Peroxidase]], [[Superoxide Dismutase]], [[Glutathione]], [[Cell Cycle]], [[CDK]], [[Cyclin D]], [[p21]], [[p27]], [[BAX]], [[Bcl-2]], [[Mitochondrial Membrane Potential]], [[Cytochrome c]], [[Caspases]], [[c-Jun N-terminal kinase]], [[p38 MAPK]], [[Apoptosis]], [[AMPK]], [[Fatty acid oxidation]], [[PPARγ]], [[Muscle Atrophy]], [[Inflammation]], [[Anti-inflammatory]], [[Skeletal Muscle]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[ATP]], [[mTOR]], [[PI3K]], [[Akt]], [[NFκB]], [[TLR3]], [[TRIF]], [[STAT1]], [[SIRT3]], [[LKB1]], [[SIRT1]], [[FOXO]], [[Ubiquitin-Proteasome System]], [[mTORC1]], [[Atrogin-1]], [[MuRF1]], [[Mitochondrial Dysfunction]], [[Bifidobacterium]]
+- New links added: [[Urolithin A]], [[Ellagitannins]], [[Urolithins]], [[Gut Microbiome]], [[Mitophagy]], [[Mitochondria]], [[PINK1]], [[Parkin]], [[Glutathione S-Transferase]], [[NRF2]], [[Antioxidant Response Element]], [[Antioxidants]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Glutathione Peroxidase]], [[Superoxide Dismutase]], [[Glutathione]], [[Cell Cycle]], [[CDK]], [[Cyclin D]], [[p21]], [[p27]], [[BAX]], [[Bcl-2]], [[Mitochondrial Membrane Potential]], [[Cytochrome c]], [[Caspases]], [[c-Jun N-terminal kinase]], [[p38 MAPK]], [[Apoptosis]], [[AMPK]], [[Fatty acid oxidation]], [[PPARγ]], [[Muscle Atrophy]], [[Inflammation]], [[Anti-inflammatory]], [[Skeletal Muscle]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[ATP]], [[mTOR]], [[PI3K]], [[Akt]], [[NF-κB]], [[TLR3]], [[TRIF]], [[STAT1]], [[SIRT3]], [[LKB1]], [[SIRT1]], [[FOXO]], [[Ubiquitin-Proteasome System]], [[mTORC1]], [[Atrogin-1]], [[MuRF1]], [[Mitochondrial Dysfunction]], [[Bifidobacterium]]
 - Suggested new entity notes to create: [[Glutathione S-Transferase]], [[Muscle Atrophy]], [[TLR3]], [[TRIF]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[Mitophagy]], [[Urolithin A]] ↔ [[AMPK]], [[Urolithin A]] ↔ [[Muscle Atrophy]]

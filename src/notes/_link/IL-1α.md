@@ -18,11 +18,11 @@ aliases: [IL-1α, Interleukin-1 alpha, IL1A]
 
 ## Mechanism of Action & Signaling
 
-IL-1α is constitutively expressed as a 31-kDa precursor that localizes to the nucleus (where it can regulate transcription) and the plasma membrane; it is released passively during cell damage/necrosis or by calpain-mediated cleavage. Extracellular IL-1α binds IL-1R1 (IL-1 receptor type 1), which recruits IL-1RAcP to activate MyD88, leading to [[NFKB|NF-κB]] and [[MAPK]] activation. Critically, IL-1α acts as the master SASP trigger: it drives transcription of downstream SASP factors such as [[IL-6]] and [[IL-8]]. Its own expression is controlled translationally downstream of [[mTOR]], via RNA-binding proteins (e.g., [[AUF1]], [[ZFP36L1]]) that stabilize SASP mRNAs (Orjalo et al., PMID 19911007; Coppé et al., PMID 18708385). Thus IL-1α couples the DNA-damage response to the inflammatory secretome.
+IL-1α is constitutively expressed as a 31-kDa precursor that localizes to the nucleus (where it can regulate transcription) and the plasma membrane; it is released passively during cell damage/necrosis or by calpain-mediated cleavage. Extracellular IL-1α binds IL-1R1 (IL-1 receptor type 1), which recruits IL-1RAcP to activate MyD88, leading to [[NF-κB|NF-κB]] and [[MAPK]] activation. Critically, IL-1α acts as the master SASP trigger: it drives transcription of downstream SASP factors such as [[IL-6]] and [[IL-8]]. Its own expression is controlled translationally downstream of [[mTOR]], via RNA-binding proteins (e.g., [[AUF1]], [[ZFP36L1]]) that stabilize SASP mRNAs (Orjalo et al., PMID 19911007; Coppé et al., PMID 18708385). Thus IL-1α couples the DNA-damage response to the inflammatory secretome.
 
 ## Role in Senescence / SASP
 
-- IL-1α creates a positive feedback loop with [[NFKB|NF-κB]], amplifying the secretome of [[Senescent Cells]].
+- IL-1α creates a positive feedback loop with [[NF-κB|NF-κB]], amplifying the secretome of [[Senescent Cells]].
 - It initiates the cascade that induces IL-6, IL-8, and other NF-κB–dependent SASP components.
 - It promotes [[Paracrine Senescence]] and recruits innate immune cells for surveillance.
 

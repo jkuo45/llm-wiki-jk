@@ -31,7 +31,7 @@ The SASP is governed by enhancer–promoter rewiring: enhancers that become hype
 
 ## Mechanistic Details
 
-EP looping translates the altered histone-mark landscape into precise gene activation. Active enhancers (H3K4me1/H3K27ac, eRNAs) loop to SASP promoters, recruiting the transcriptional machinery and [[NFKB|NF-κB]] to induce secretion. Loss of boundary factors such as [[HMGB2]] or redistribution of METTL3/14 perturbs these loops and changes SASP output. Thus the 3D contact map is as informative as the linear epigenome for predicting SASP.
+EP looping translates the altered histone-mark landscape into precise gene activation. Active enhancers (H3K4me1/H3K27ac, eRNAs) loop to SASP promoters, recruiting the transcriptional machinery and [[NF-κB|NF-κB]] to induce secretion. Loss of boundary factors such as [[HMGB2]] or redistribution of METTL3/14 perturbs these loops and changes SASP output. Thus the 3D contact map is as informative as the linear epigenome for predicting SASP.
 
 ## Clinical and Therapeutic Relevance
 
@@ -52,6 +52,6 @@ Because EP-loop formation depends on readers/writers (BRD4, p300, METTL3/14, HDA
 
 ## Linking Summary
 
-- New links added: [[Topologically Associating Domain]], [[Super-enhancer]], [[H3K27ac]], [[H3K4me1]], [[AP-1]], [[BRD4]], [[CEBPα]], [[NFKB]], [[METTL3]], [[HMGB2]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[Senescence]]
+- New links added: [[Topologically Associating Domain]], [[Super-enhancer]], [[H3K27ac]], [[H3K4me1]], [[AP-1]], [[BRD4]], [[CEBPα]], [[NF-κB]], [[METTL3]], [[HMGB2]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[CTCF]], [[Cohesin]], [[Enhancer RNA]]
 - Strong connections to strengthen: [[Enhancer-Promoter Looping]] ↔ [[Super-enhancer]]; [[Enhancer-Promoter Looping]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

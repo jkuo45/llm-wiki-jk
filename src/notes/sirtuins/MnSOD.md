@@ -9,10 +9,10 @@ tags:
   - oxidative-stress
   - acetylation
   - sirtuin-substrate
-aliases:
   - SOD2
   - Manganese Superoxide Dismutase
   - Mn-SOD
+  - MnSOD
   - MnSOD
 ---
 

@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases:
+aliases: [HIF1A, HIF-1α, HIF1alpha, Hypoxia-inducible factor 1-alpha]
   - Hypoxia-inducible factor 1-alpha
   - HIF1A
 

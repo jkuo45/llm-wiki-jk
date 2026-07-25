@@ -14,7 +14,7 @@ aliases: [GKT137831]
 
 # Setanaxib
 
-**Setanaxib (GKT137831)** is a first-in-class, orally active, small-molecule **[[NAD(P)H Oxidase|NADPH oxidase]] inhibitor** developed by Genkyotex/Calliditas.
+**Setanaxib (GKT137831)** is a first-in-class, orally active, small-molecule **[[NADPH Oxidase|NADPH oxidase]] inhibitor** developed by Genkyotex/Calliditas.
 
 ## Chemical Properties & Mechanism of Action
 
@@ -33,7 +33,7 @@ aliases: [GKT137831]
 
 ## Connections
 
-  - [[NAD(P)H Oxidase]]: Enzyme family (NOX1/NOX4) inhibited by setanaxib.
+  - [[NADPH Oxidase]]: Enzyme family (NOX1/NOX4) inhibited by setanaxib.
   - [[Reactive Oxygen Species]]: NOX-derived ROS reduced by the drug.
   - [[Oxidative Stress]]: Lowered by selective NOX inhibition.
   - [[Idiopathic Pulmonary Fibrosis]]: A key clinical target indication.
@@ -41,5 +41,5 @@ aliases: [GKT137831]
 
 ## Linking Summary
 
-  - New links added: [[NAD(P)H Oxidase]], [[Reactive Oxygen Species]], [[Superoxide]], [[Hydrogen Peroxide]], [[Oxidative Stress]], [[Idiopathic Pulmonary Fibrosis]], [[Inflammation]], [[Antioxidants]], [[TGFβ]]
+  - New links added: [[NADPH Oxidase]], [[Reactive Oxygen Species]], [[Superoxide]], [[Hydrogen Peroxide]], [[Oxidative Stress]], [[Idiopathic Pulmonary Fibrosis]], [[Inflammation]], [[Antioxidants]], [[TGFβ]]
   - Strong connections to strengthen: Setanaxib ↔ NAD(P)H Oxidase; Setanaxib ↔ Oxidative Stress

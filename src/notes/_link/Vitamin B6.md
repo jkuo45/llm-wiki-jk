@@ -16,7 +16,7 @@ aliases: [Pyridoxine, Pyridoxal, Pyridoxamine, Pyridoxal 5'-phosphate (PLP)]
 ## Biological Functions
 - Cofactor for [[Aromatic L-amino acid decarboxylase]] in the synthesis of [[Dopamine]], [[Serotonin]], and [[Norepinephrine]]
 - Required for [[Homocysteine]] metabolism via [[cystathionine beta-synthase]]
-- Modulates [[Inflammation]] by regulating [[NFκB]] signaling
+- Modulates [[Inflammation]] by regulating [[NF-κB]] signaling
 - Involved in [[Methylation]] cycle as a cofactor for serine hydroxymethyltransferase (SHMT)
 ## Clinical Relevance
 Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[Depression]], [[Cardiovascular Disease]] (via elevated homocysteine), and [[Neuroinflammation]].

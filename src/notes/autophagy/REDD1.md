@@ -15,7 +15,7 @@ REDD1 (Regulated in Development and DNA Damage Response 1) is a protein that inh
 
 ## Function
 
-REDD1 (DDIT4) is a stress-induced protein that inhibits [[mTORC1]] by displacing [[TSC1]]/[[TSC2]] from inhibitory inputs. It is induced by [[HIF1A]], [[ATF4]], and [[FOXO]] transcription factors.
+REDD1 (DDIT4) is a stress-induced protein that inhibits [[mTORC1]] by displacing [[TSC1]]/[[TSC2]] from inhibitory inputs. It is induced by [[HIF-1α]], [[ATF4]], and [[FOXO]] transcription factors.
 ## Autophagy Role
 
 REDD1-mediated mTORC1 inhibition under hypoxia, ER stress, or DNA damage promotes [[Autophagy]] as a survival mechanism.
@@ -34,9 +34,9 @@ List of documents that mention this entity
 - [[Hypoxia]]: REDD1 (Regulated in Development and DNA Damage Response 1) is a protein that inhibits [[mTORC1]] activity in response...
 - [[TSC1]]: REDD1 (DDIT4) is a stress-induced protein that inhibits [[mTORC1]] by displacing TSC1/[[TSC2]] from inhibitory inputs.
 - [[TSC2]]: REDD1 (DDIT4) is a stress-induced protein that inhibits [[mTORC1]] by displacing [[TSC1]]/TSC2 from inhibitory inputs.
-- [[HIF1A]]: It is induced by HIF1A, [[ATF4]], and [[FOXO]] transcription factors.
-- [[ATF4]]: It is induced by [[HIF1A]], ATF4, and [[FOXO]] transcription factors.
-- [[FOXO]]: It is induced by [[HIF1A]], [[ATF4]], and FOXO transcription factors.
+- [[HIF-1α]]: It is induced by HIF1A, [[ATF4]], and [[FOXO]] transcription factors.
+- [[ATF4]]: It is induced by [[HIF-1α]], ATF4, and [[FOXO]] transcription factors.
+- [[FOXO]]: It is induced by [[HIF-1α]], [[ATF4]], and FOXO transcription factors.
 - [[Autophagy]]: REDD1-mediated mTORC1 inhibition under hypoxia, ER stress, or DNA damage promotes Autophagy as a survival mechanism.
 
 ## Linking Summary

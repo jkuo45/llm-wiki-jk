@@ -30,7 +30,7 @@ Accessory proteins — [[TAT]], Rev, Nef, [[Vpr]], Vpu, and Vif — regulate tra
 4. **Reverse Transcription**: [[Reverse transcriptase]] converts ssRNA into double-stranded DNA.
 5. **Nuclear Import**: The pre-integration complex is imported into the nucleus.
 6. **Integration**: [[Integrase]] catalyzes proviral DNA insertion into the host genome.
-7. **Latency or Transcription**: The provirus can remain transcriptionally silent (latent reservoir) or be actively transcribed via host RNA polymerase II, driven by the viral LTR promoter (enhanced by [[TAT]] and [[NFκB]]).
+7. **Latency or Transcription**: The provirus can remain transcriptionally silent (latent reservoir) or be actively transcribed via host RNA polymerase II, driven by the viral LTR promoter (enhanced by [[TAT]] and [[NF-κB]]).
 8. **Translation & Assembly**: Viral proteins are synthesized, and new virions assemble at the plasma membrane.
 9. **Budding**: Immature virions bud from the host cell.
 10. **Maturation**: [[Protease]] cleaves Gag and Gag-Pol polyproteins into functional subunits, producing infectious mature virions.
@@ -88,12 +88,12 @@ List of documents that mention this entity
 - [[Protease]]: Viral enzyme that cleaves Gag/Gag-Pol polyproteins for virion maturation; target of PIs.
 - [[Opportunistic infection]]: Hallmark of AIDS-defining illness in the setting of HIV-1-induced immune deficiency.
 - [[Antiretroviral]]: Class of drugs targeting various stages of the HIV-1 life cycle; cornerstone of ART.
-- [[NFκB]]: Host transcription factor that activates HIV-1 LTR-driven proviral transcription; links immune activation to viral replication.
+- [[NF-κB]]: Host transcription factor that activates HIV-1 LTR-driven proviral transcription; links immune activation to viral replication.
 - [[Apoptosis]]: HIV-1 depletes CD4+ T cells partly through induction of apoptosis in bystander cells.
 - [[Cancer]]: HIV-1/AIDS increases risk of certain cancers, including Kaposi sarcoma, non-Hodgkin lymphoma, and cervical cancer.
 
 ## Linking Summary
 
-- New links added: [[AIDS]], [[CD4]], [[CCR5]], [[CXCR4]], [[Reverse transcriptase]], [[Integrase]], [[Protease]], [[TAT]], [[NFκB]], [[Apoptosis]], [[Opportunistic infection]], [[Antiretroviral]], [[Kaposi sarcoma]], [[Inflammation]], [[Cancer]], [[HIV]]
+- New links added: [[AIDS]], [[CD4]], [[CCR5]], [[CXCR4]], [[Reverse transcriptase]], [[Integrase]], [[Protease]], [[TAT]], [[NF-κB]], [[Apoptosis]], [[Opportunistic infection]], [[Antiretroviral]], [[Kaposi sarcoma]], [[Inflammation]], [[Cancer]], [[HIV]]
 - Suggested new entity notes to create: [[gp120]], [[gp41]], [[Tenofovir]], [[Dolutegravir]], [[Latency]], [[PrEP]], [[Vpr]], [[Nef]]
 - Strong connections to strengthen: [[HIV-1]] ↔ [[HIV]], [[HIV-1]] ↔ [[AIDS]], [[HIV-1]] ↔ [[CD4]], [[HIV-1]] ↔ [[Reverse transcriptase]], [[HIV-1]] ↔ [[Antiretroviral]]

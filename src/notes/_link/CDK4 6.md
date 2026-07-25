@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - protein
-aliases: [CDK4, CDK6, Cyclin-Dependent Kinase 4, Cyclin-Dependent Kinase 6]
+aliases: [CDK4, CDK6, Cyclin-Dependent Kinase 4, Cyclin-Dependent Kinase 6, CDK46, CDK4/6, cyclin-dependent kinase 4/6]
 
 ---
 

@@ -30,7 +30,7 @@ The E-ring lactone moiety of camptothecin is essential for activity but undergoe
 
 ## Clinical Applications & Toxicity
 
-Irinotecan is a backbone agent in FOLFIRI and FOLFOXIRI regimens for [[Colorectal Cancer]]. Topotecan is used in relapsed [[Ovarian Cancer]] and as second-line therapy in [[SCLC]]. The dose-limiting toxicities are **myelosuppression** (especially neutropenia) and **diarrhea** (both early-onset cholinergic and late-onset secretory forms mediated by SN-38 accumulation in intestinal epithelium). UGT1A1*28 genotyping is recommended for irinotecan to predict severe neutropenia risk. Other side effects include alopecia, nausea, and fatigue.
+Irinotecan is a backbone agent in FOLFIRI and FOLFOXIRI regimens for [[Colorectal Cancer]]. Topotecan is used in relapsed [[ovarian cancer]] and as second-line therapy in [[SCLC]]. The dose-limiting toxicities are **myelosuppression** (especially neutropenia) and **diarrhea** (both early-onset cholinergic and late-onset secretory forms mediated by SN-38 accumulation in intestinal epithelium). UGT1A1*28 genotyping is recommended for irinotecan to predict severe neutropenia risk. Other side effects include alopecia, nausea, and fatigue.
 
 ## Research Applications in Senescence
 
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Topoisomerase]], [[Irinotecan]], [[Topotecan]], [[Chemotherapy]], [[ATM]], [[ATR]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[SCLC]], [[p16]]
+- New links added: [[Topoisomerase]], [[Irinotecan]], [[Topotecan]], [[Chemotherapy]], [[ATM]], [[ATR]], [[Colorectal Cancer]], [[ovarian cancer]], [[SCLC]], [[p16]]
 - Suggested new entity notes to create: [[Cleavage Complex]], [[SN-38]], [[UGT1A1]], [[Camptotheca acuminata]], [[FOLFIRI]]
 - Strong connections to strengthen: [[Camptothecin]] ↔ [[DNA Damage]], [[Camptothecin]] ↔ [[Topoisomerase]]

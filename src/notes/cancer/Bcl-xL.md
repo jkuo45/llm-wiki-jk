@@ -7,8 +7,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - enzyme
-  - apoptosis
-aliases: []
+aliases: [BCL-XL, BCL2L1]
 ---
 
 # Bcl-xL

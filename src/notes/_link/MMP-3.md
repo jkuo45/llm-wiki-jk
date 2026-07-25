@@ -28,7 +28,7 @@ Senescent [[Fibroblasts]] and epithelial cells secrete MMP-3 as part of the pro-
 
 ## Clinical / Pathological Relevance
 
-MMP-3 is elevated in [[Rheumatoid Arthritis]], osteoarthritis and invasive cancers, where it marks active ECM turnover and poor prognosis. It is implicated in arterial and skin ageing. Early broad MMP inhibitors failed clinically because of toxicity and lack of selectivity; current efforts target MMP-3's activation cascade and downstream [[TGF-β]] signaling rather than catalytic blockade.
+MMP-3 is elevated in [[Rheumatoid Arthritis]], osteoarthritis and invasive cancers, where it marks active ECM turnover and poor prognosis. It is implicated in arterial and skin ageing. Early broad MMP inhibitors failed clinically because of toxicity and lack of selectivity; current efforts target MMP-3's activation cascade and downstream [[TGFβ]] signaling rather than catalytic blockade.
 
 ## Documents
 
@@ -47,5 +47,5 @@ MMP-3 is elevated in [[Rheumatoid Arthritis]], osteoarthritis and invasive cance
 
 ## Linking Summary
 
-- New links added: [[MMP1]], [[MMP-9]], [[MMP-12]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epithelial-to-mesenchymal transition|EMT]], [[NF-κB]], [[AP-1]], [[Extracellular Matrix]], [[TIMP3]], [[Collagen]], [[Elastin]], [[TGF-β]], [[Fibroblasts]], [[Tumor Microenvironment]], [[Rheumatoid Arthritis]]
+- New links added: [[MMP1]], [[MMP-9]], [[MMP-12]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epithelial-to-mesenchymal transition|EMT]], [[NF-κB]], [[AP-1]], [[Extracellular Matrix]], [[TIMP3]], [[Collagen]], [[Elastin]], [[TGFβ]], [[Fibroblasts]], [[Tumor Microenvironment]], [[Rheumatoid Arthritis]]
   - Strong connections to strengthen: [[MMP-3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[MMP-3]] ↔ cancer progression, [[MMP-3]] ↔ [[Epithelial-to-mesenchymal transition|EMT]]

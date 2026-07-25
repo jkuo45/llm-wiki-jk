@@ -33,7 +33,7 @@ The review notes that overexpression of JMJD3 specifically reduces H3K27me3 leve
 ## Mechanistic Details
 
 - H3K27me3 is a repressive mark enriched in senescence-associated heterochromatin ([[Senescence-Associated Heterochromatin Foci|SAHF]]) and at silenced SASP loci; JMJD3 erosion of this mark at IL-6/IL-8 is a local derepression event.
-- JMJD3 cooperates with the DDR and [[NFKB|NF-κB]] signaling that drive SASP, since NF-κB can recruit H3K27 demethylases to inflammatory loci.
+- JMJD3 cooperates with the DDR and [[NF-κB|NF-κB]] signaling that drive SASP, since NF-κB can recruit H3K27 demethylases to inflammatory loci.
 - Loss of H3K27me3 at SASP loci is consistent with the broader enhancer activation ("canyon" formation) seen in replicative senescence.
 
 ## Therapeutic Relevance
@@ -53,6 +53,6 @@ KDM6B/JMJD3 inhibitors (e.g., GSK-J4, CPI-0209 class) are under investigation in
 
 ## Linking Summary
 
-- New links added: [[EZH2]], [[H3K27me3]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NFKB]], [[MLL1]], [[Senomorphic]]
+- New links added: [[EZH2]], [[H3K27me3]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[MLL1]], [[Senomorphic]]
 - Suggested new entity notes to create: [[KDM6A]], [[PRC2]], [[H3K27me3]]
 - Strong connections to strengthen: [[JMJD3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (IL-6/IL-8 derepression), [[JMJD3]] ↔ [[EZH2]] (H3K27me3 antagonism)

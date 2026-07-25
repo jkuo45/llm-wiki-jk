@@ -26,13 +26,13 @@ This positions [[Senomorphic|senomorphic]] SASP suppression (e.g., by [[Apigenin
 
 - [[SASP]] — SASP factors drive paracrine chemoresistance.
 - [[Apigenin]] — Senomorphic that reverses SASP-driven chemoresistance.
-- [[Mitoxantrone]] / [[Bleomycin]] / [[Docetaxel]] — Chemotherapeutics whose senescence side-effect fuels resistance.
+- [[Mitoxantrone]] / [[Bleomycin]] / [[docetaxel]] — Chemotherapeutics whose senescence side-effect fuels resistance.
 - [[WNT16B]] / [[Amphiregulin]] / [[EREG]] — SASP effectors of resistance.
 - [[Tumor Microenvironment]] — Site of stroma–cancer paracrine resistance.
 - [[Senomorphic]] — Therapeutic class leveraged to overcome resistance.
 
 ## Linking Summary
 
-- New links added: [[SASP]], [[Apigenin]], [[Mitoxantrone]], [[Bleomycin]], [[Docetaxel]], [[WNT16B]], [[Amphiregulin]], [[EREG]], [[Tumor Microenvironment]], [[Senomorphic]]
+- New links added: [[SASP]], [[Apigenin]], [[Mitoxantrone]], [[Bleomycin]], [[docetaxel]], [[WNT16B]], [[Amphiregulin]], [[EREG]], [[Tumor Microenvironment]], [[Senomorphic]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen: [[Chemoresistance]] ↔ [[SASP]]

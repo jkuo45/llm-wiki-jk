@@ -23,7 +23,7 @@ aliases:
 
 ## Structure & Domains
 
-UVRAG is a coiled-coil domain-containing protein. Its N-terminal region binds the autophagy initiator [[ULK1]] complex, while a central coiled-coil segment mediates interaction with the class III phosphatidylinositol 3-kinase ([[PI3K]] / [[Vps34]]) complex and with [[Beclin1]] (mammalian [[Beclin-1]]). A C-terminal domain connects UVRAG to endosomal tethering factors, linking it to [[Rab7]]-positive late endosomes.
+UVRAG is a coiled-coil domain-containing protein. Its N-terminal region binds the autophagy initiator [[ULK1]] complex, while a central coiled-coil segment mediates interaction with the class III phosphatidylinositol 3-kinase ([[PI3K]] / [[Vps34]]) complex and with [[Beclin1]] (mammalian [[Beclin1]]). A C-terminal domain connects UVRAG to endosomal tethering factors, linking it to [[Rab7]]-positive late endosomes.
 
 ## Mechanism of Action & Pathways
 
@@ -51,6 +51,6 @@ UVRAG downregulation occurs in colorectal, gastric, and hepatocellular carcinoma
 
 ## Linking Summary
 
-  - New links added: [[UVRAG]], [[Beclin1]], [[Vps34]], [[ULK1]], [[Rubicon]], [[Lysosome]], [[Autophagy]], [[Mitophagy]], [[Oxidative Stress]], [[mTOR]], [[Cancer]], [[PI3K]], [[PtdIns3P]], [[Rab7]], [[Beclin-1]]
+  - New links added: [[UVRAG]], [[Beclin1]], [[Vps34]], [[ULK1]], [[Rubicon]], [[Lysosome]], [[Autophagy]], [[Mitophagy]], [[Oxidative Stress]], [[mTOR]], [[Cancer]], [[PI3K]], [[PtdIns3P]], [[Rab7]], [[Beclin1]]
   - Suggested new entity notes to create: None
   - Strong connections to strengthen: [[UVRAG]] ↔ [[Rubicon]] (reciprocal regulation of the Vps34 complex); [[UVRAG]] ↔ [[Lysosome]] (fusion/maturation axis)

@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - medical-product
-aliases: []
+aliases: [Docetaxel, DTX, Taxotere]
 ---
 
 # Docetaxel
@@ -61,4 +61,4 @@ List of documents that mention this entity
 
 - New links added: [[Breast Cancer]], [[triple-negative breast cancer]], [[melittin]], [[Ki-67]], [[Apoptosis]], [[Chemotherapy]], [[CYP3A4]], [[Hallmarks of Cancer]], [[P-glycoprotein]]
 - Suggested new entity notes to create: [[CYP3A4]], [[P-glycoprotein]]
-- Strong connections to strengthen: [[Docetaxel]] ↔ [[triple-negative breast cancer]], [[Docetaxel]] ↔ [[melittin]]
+- Strong connections to strengthen: [[docetaxel]] ↔ [[triple-negative breast cancer]], [[docetaxel]] ↔ [[melittin]]

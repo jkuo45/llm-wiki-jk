@@ -19,11 +19,11 @@ aliases:
 
 # IL-1R
 
-The **Interleukin-1 receptor (IL-1R)** is the cell-surface receptor that binds the pleiotropic pro-inflammatory cytokines [[IL-1β]] (and [[IL-1α]]). Ligation of IL-1R by IL-1β recruits the adaptor [[MyD88]] and the kinase [[IRAK]] (interleukin-1 receptor-associated kinase), ultimately activating [[TRAF6]] and the [[NFKB|NF-κB]] signaling cascade. This drives transcription of downstream inflammatory mediators such as [[TNFα|TNF-α]], IL-6, and additional IL-1β, placing IL-1R at the apex of a feed-forward inflammatory loop.
+The **Interleukin-1 receptor (IL-1R)** is the cell-surface receptor that binds the pleiotropic pro-inflammatory cytokines [[IL-1β]] (and [[IL-1α]]). Ligation of IL-1R by IL-1β recruits the adaptor [[MyD88]] and the kinase [[IRAK]] (interleukin-1 receptor-associated kinase), ultimately activating [[TRAF6]] and the [[NF-κB|NF-κB]] signaling cascade. This drives transcription of downstream inflammatory mediators such as [[TNFα|TNF-α]], IL-6, and additional IL-1β, placing IL-1R at the apex of a feed-forward inflammatory loop.
 
 ## Relevance to the Sirtuin System
 
-Sirtuins broadly exert **anti-inflammatory** effects by suppressing the [[NFKB|NF-κB]] limb that IL-1R engages:
+Sirtuins broadly exert **anti-inflammatory** effects by suppressing the [[NF-κB|NF-κB]] limb that IL-1R engages:
 - [[SIRT1]] and [[SIRT6]] deacetylate the RelA/[[p65]] subunit of NF-κB, blunting transcriptional activation downstream of IL-1R stimulation and reducing secretion of [[IL-1β]], [[TNFα|TNF-α]], and IL-6.
 - [[SIRT1]] counteracts IL-1β-mediated stress (e.g., in chondrocytes and vascular cells) through the [[Toll-like Receptor|TLR2]]/SIRT1/NF-κB axis.
 - [[SIRT3]] deficiency amplifies macrophage inflammatory responses to LPS/IL-1R-family stimuli, with elevated [[IL-1β]] and inflammasome activation.
@@ -34,7 +34,7 @@ Thus IL-1R-dependent signaling represents a major upstream trigger whose output 
 
   - [[IL-1β]]: Primary ligand that activates IL-1R.
   - [[MyD88]], [[IRAK]]: Adaptor and kinase in the IL-1R proximal complex.
-  - [[NFKB]]: Central transcription factor activated downstream of IL-1R.
+  - [[NF-κB]]: Central transcription factor activated downstream of IL-1R.
   - [[SIRT1]], [[SIRT6]]: Sirtuins that suppress IL-1R→NF-κB inflammatory output.
   - [[TNFα]], [[IL-6]]: Pro-inflammatory cytokines induced downstream.
 
@@ -45,6 +45,6 @@ Thus IL-1R-dependent signaling represents a major upstream trigger whose output 
 
 ## Linking Summary
 
-- New links added: [[IL-1β]], [[IL-1α]], [[MyD88]], [[IRAK]], [[TRAF6]], [[NFKB]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[p65]], [[Toll-like Receptor]]
+- New links added: [[IL-1β]], [[IL-1α]], [[MyD88]], [[IRAK]], [[TRAF6]], [[NF-κB]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[p65]], [[Toll-like Receptor]]
 - Suggested new entity notes to create: [[MyD88]], [[IRAK]], [[IL-1α]]
-- Strong connections to strengthen: [[IL-1R]] ↔ [[NFKB]]; [[IL-1R]] ↔ [[SIRT1]]
+- Strong connections to strengthen: [[IL-1R]] ↔ [[NF-κB]]; [[IL-1R]] ↔ [[SIRT1]]
