@@ -621,6 +621,26 @@ const mouse = new THREE.Vector2();
 const tooltip = document.getElementById('tooltip');
 let hoveredNode = null;
 let selectedNode = null;
+let lastHoveredNodeId = null;
+
+function restoreDefaultLabels() {
+  labelObjects.forEach((label, id) => {
+    const nodeData = nodeMap.get(id);
+    const mesh = nodeObjects.get(id);
+    label.visible = showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
+  });
+}
+
+function showHoverLabels(nodeId) {
+  const neighbors = adjacency.get(nodeId) || [];
+  const neighborIds = new Set(neighbors.map(n => n.target));
+  neighborIds.add(nodeId);
+  
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = neighborIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+}
 
 function onMouseMove(event) {
   const rect = container.getBoundingClientRect();
@@ -652,14 +672,19 @@ function onMouseMove(event) {
         hideEdgeLabel();
         container.style.cursor = 'pointer';
         const nodeData = mesh.userData.nodeData;
-      const zhTWName = TRANSLATIONS[nodeData.label] || '';
-      const displayName = zhTWName && zhTWName !== nodeData.label 
-        ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
-        : esc(nodeData.label);
-      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+        const zhTWName = TRANSLATIONS[nodeData.label] || '';
+        const displayName = zhTWName && zhTWName !== nodeData.label 
+          ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
+          : esc(nodeData.label);
+        tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
         tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
         tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
         tooltip.classList.add('visible');
+        
+        if (lastHoveredNodeId !== nodeData.id) {
+          lastHoveredNodeId = nodeData.id;
+          showHoverLabels(nodeData.id);
+        }
         return;
       }
     }
@@ -669,6 +694,10 @@ function onMouseMove(event) {
     hideEdgeLabel();
     container.style.cursor = 'default';
     tooltip.classList.remove('visible');
+    if (lastHoveredNodeId) {
+      lastHoveredNodeId = null;
+      restoreSelectedLabels();
+    }
     return;
   }
   
@@ -689,6 +718,11 @@ function onMouseMove(event) {
       tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
       tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
       tooltip.classList.add('visible');
+      
+      if (lastHoveredNodeId !== nodeData.id) {
+        lastHoveredNodeId = nodeData.id;
+        showHoverLabels(nodeData.id);
+      }
       return;
     }
   }
@@ -710,6 +744,25 @@ function onMouseMove(event) {
   hideEdgeLabel();
   container.style.cursor = 'default';
   tooltip.classList.remove('visible');
+  if (lastHoveredNodeId) {
+    lastHoveredNodeId = null;
+    restoreDefaultLabels();
+  }
+}
+
+function restoreSelectedLabels() {
+  if (!selectedNode) {
+    restoreDefaultLabels();
+    return;
+  }
+  const neighbors = adjacency.get(selectedNode) || [];
+  const neighborIds = new Set(neighbors.map(n => n.target));
+  neighborIds.add(selectedNode);
+  
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = neighborIds.has(id) && mesh && mesh.visible && showLabels;
+  });
 }
 
 function onClick(event) {
@@ -765,6 +818,13 @@ function selectNode(nodeId) {
     }
   });
   
+  // Show labels for selected node and neighbors
+  labelObjects.forEach((label, id) => {
+    const nodeData = nodeMap.get(id);
+    const mesh = nodeObjects.get(id);
+    label.visible = neighborIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+  
   // Only show info panel if sidebar is active
   if (sidebarInfoActive) {
     showInfo(nodeId);
@@ -780,6 +840,7 @@ function selectNode(nodeId) {
 
 function deselectNode() {
   selectedNode = null;
+  lastHoveredNodeId = null;
   
   nodeMeshes.forEach(m => {
     m.material.emissiveIntensity = 0.15;
@@ -790,6 +851,8 @@ function deselectNode() {
     line.material.opacity = line.userData.edge.color.opacity * 0.6;
     line.material.color.set(0x4a4a6a);
   });
+  
+  restoreDefaultLabels();
   
   hideEdgeLabel();
   document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
