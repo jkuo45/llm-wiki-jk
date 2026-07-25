@@ -2,7 +2,7 @@
 title: Parkinson's Disease
 description: A progressive neurodegenerative disorder defined by loss of dopaminergic neurons in the substantia nigra, causing resting tremor, rigidity, bradykinesia, and postural instability. Linked to cellular senescence, inflammaging, and a distinguishable circulating SASP signature.
 created: 2026-05-29
-updated: 2026-07-24
+updated: 2026-07-25
 tags:
   - disease
   - medical-condition
@@ -111,11 +111,14 @@ Levodopa/carbidopa, dopamine agonists, MAO-B inhibitors, and deep brain stimulat
 - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
   - The loss of pigmented neurons from the human brain has long been the hallmark of Parkinson's Disease (PD).
 
-- [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
-  - Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss).
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss).
 
-- [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
-  - Involved in Oxidative Stress response and Neurodegenerative Diseases (e.g., Parkinson's Disease links). Dual roles in Cancer (tumor suppressor or promoter depending on context).
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Involved in Oxidative Stress response and Neurodegenerative Diseases (e.g., Parkinson's Disease links). Dual roles in Cancer (tumor suppressor or promoter depending on context).
+
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - All five major PD genes (PRKN, PINK1, DJ-1, SNCA, LRRK2) have critical mitochondrial regulatory functions. LRRK2 directly phosphorylates DRP1 to increase fragmentation. α-Syn increases DRP1 and facilitates mitochondrial translocation. Environmental toxins (MPTP, rotenone, paraquat) inhibit ETC, increase mitophagy, and trigger dopaminergic neuron death.
 
 ## Connections
 

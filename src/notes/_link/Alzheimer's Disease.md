@@ -4,7 +4,7 @@ description: Alzheimer's disease is a chronic neurodegenerative disease that usu
   starts slowly and gradually worsens over time. Oxidative Stress is considered a
   pivotal factor in its pathogenesis, often inv...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-25
 tags:
   - medical-condition
 aliases: [Alzheimer Disease]
@@ -84,6 +84,8 @@ List of documents that mention this entity
   - [[_document_ - Neuro-Modulating Effects of Honokiol A Review|Neuro-Modulating Effects of Honokiol: A Review]]
     - Honokiol and [[Magnolol]] significantly reduce β-[[Amyloid beta|amyloid (Aβ)]]-induced neuronal death (PC12 cells) via reduced ROS, suppressed Ca<sup>2+</sup>, and inhibited caspase-3; a *Magnolia officinalis* extract prevents LPS-induced memory deficits through antineuroinflammatory and antiamyloidogenic effects.
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - Excessive mitochondrial fission in AD: increased [[DRP1]] and [[FIS1]], reduced [[MFN1]], [[MFN2]], and [[OPA1]]. Aβ triggers S-nitrosylation of DRP1, inducing fission and neuronal damage. Impaired axonal transport precedes aggregation of mitochondrial fragments and toxic protein compounds. Reduced [[Mitophagy]] and cristae disorders contribute to AD progression.
 
 ## Connections
 - **[[Aging]]**: The primary risk factor for AD, characterized by significant epigenetic changes.

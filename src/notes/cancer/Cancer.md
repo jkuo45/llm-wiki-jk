@@ -98,6 +98,8 @@ List of documents that mention this entity
   - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
     - Foundational review (Coppé et al., 2010) detailing how the SASP promotes cancer progression across multiple tissue types: breast (GROα-stimulated proliferation), prostate (amphiregulin, SDF-1α), pancreatic (HGF-driven invasion), and melanoma (CXCR-2 ligands stimulating rare premalignant cells). Demonstrates p53 as a cell-nonautonomous tumor suppressor that restrains the SASP.
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - Context-dependent roles of mitochondrial dynamics in cancer: [[DRP1]] upregulation promotes proliferation, migration, and drug resistance in most cancers (ovarian, HCC, lung, colon, breast, glioblastoma). [[MFN1]]/[[MFN2]] downregulation correlates with metastatic potential. [[Parkin]] expression lost in breast, lung, ovarian, bladder cancers — tumor-suppressive role. [[Mitophagy]] is tumor-suppressive (clears damaged mitochondria) but also promotes drug resistance via [[ARIH1]].
 
 ## Connections
 - [[Aging]] — Primary risk factor; shared epigenetic mechanisms

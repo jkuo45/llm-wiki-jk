@@ -4,7 +4,7 @@ description: Mitochondrial dynamics refers to the continuous processes of mitoch
   fusion and mitochondrial fission that regulate mitochondrial morphology, number,
   and function within a cell.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-25
 tags:
   - biological-process
   - mitochondria
@@ -75,6 +75,8 @@ List of documents that mention this entity
   - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
     - Comprehensive review of the MFN/OPA1/cardiolipin fusion machinery and DRP1/adaptor fission machinery, plus disease links (CMT2A, DOA, Parkinson's, atherosclerosis, LVH, cancer).
 
+  - [[_document_ - The role of mitochondrial dynamics in disease]]
+    - Comprehensive review of mitochondrial dynamics (fusion, fission, mitophagy) and their roles in CVD, neurodegeneration, cancer, and pulmonary disease. Covers context-dependent roles of key regulators (DRP1, MFN1/2, OPA1, PINK1/Parkin) and therapeutic targeting.
 
 ## Connections
 

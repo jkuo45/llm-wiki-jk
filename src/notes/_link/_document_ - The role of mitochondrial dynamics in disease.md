@@ -2,19 +2,20 @@
 title: "The role of mitochondrial dynamics in disease"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10753647/"
 author:
-  - "[[Yujuan Wang]]"
-  - "[[Xinyan Dai]]"
-  - "[[Hui Li]]"
-  - "[[Huiling Jiang]]"
-  - "[[Junfu Zhou]]"
-  - "[[Shiying Zhang]]"
-  - "[[Jiacheng Guo]]"
-  - "[[Lidu Shen]]"
-  - "[[Huantao Yang]]"
-  - "[[Jie Lin]]"
-  - "[[Hengxiu Yan]]"
-published:
+  - Yujuan Wang
+  - Xinyan Dai
+  - Hui Li
+  - Huiling Jiang
+  - Junfu Zhou
+  - Shiying Zhang
+  - Jiacheng Guo
+  - Lidu Shen
+  - Huantao Yang
+  - Jie Lin
+  - Hengxiu Yan
+published: 2023-12-28
 created: 2026-07-22
+updated: 2026-07-25
 description: "Mitochondria are multifaceted and dynamic organelles regulating various important cellular processes from signal transduction to determining cell fate. As dynamic properties of mitochondria, fusion and fission accompanied with mitophagy, undergo ..."
 tags:
   - "clippings"
@@ -261,7 +262,7 @@ This document is a comprehensive review of mitochondrial dynamics (fusion, fissi
 
 ## Linking Summary
 
-- New links added: [[DRP1]], [[MFN1]], [[MFN2]], [[OPA1]], [[FIS1]], [[MFF]], [[MID49]], [[MID51]], [[MTFP1]], [[Cardiolipin]], [[OMA1]], [[YME1L]], [[PARL]], [[Cristae]], [[PINK1]], [[Parkin]], [[BNIP3]], [[BNIP3L]], [[FUNDC1]], [[LC3]], [[p62]], [[NIX]], [[ULK1]], [[NBR1]], [[NDP52]], [[Optineurin]], [[FKBP38]], [[ARIH1]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[ALS]], [[Charcot-Marie-Tooth Disease Type 2A]], [[Dominant Optic Atrophy]], [[Heart Failure]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Cardiomyopathy]], [[Ischemia-reperfusion Injury]], [[Cancer]], [[Breast Cancer]], [[Lung Cancer]], [[Colon Cancer]], [[Hepatocellular Carcinoma]], [[ovarian cancer]], [[glioblastoma]], [[Neuroblastoma]], [[COPD]], [[Asthma]], [[Pulmonary Fibrosis]], [[Pulmonary Arterial Hypertension]], [[Bronchopulmonary Dysplasia]], [[Acute Lung Injury]], [[AMPK]], [[PGC-1α]], [[ROS]], [[Oxidative Phosphorylation]], [[mtDNA]], [[Calcium]], [[HIF-1α]], [[Mitochondrial Dynamics]], [[Autophagy]], [[Mitophagy]], [[Apoptosis]], [[Senescence]], [[NLRP3]], [[Caspases]], [[LRRK2]], [[DJ-1]], [[Alpha-synuclein]], [[Tau]], [[Amyloid Beta]], [[Metformin]], [[Melatonin]], [[Mdivi-1]], [[Rotenone]], [[MPTP]], [[Celastrol]], [[Valsartan]], [[Liraglutide]], [[Chloroquine]], [[Warburg Effect]], [[Mitochondrial Biogenesis]], [[Endoplasmic Reticulum]], [[Actin Cytoskeleton]], [[Autophagosome]], [[Lysosome]], [[SARS-CoV-2]], [[COVID-19]], [[SUMO]], [[Ubiquitin]], [[PKA]], [[SIRT]], [[BAX]]
+- New links added: [[DRP1]], [[MFN1]], [[MFN2]], [[OPA1]], [[FIS1]], [[MFF]], [[MID49]], [[MID51]], [[MTFP1]], [[Cardiolipin]], [[OMA1]], [[YME1L]], [[PARL]], [[Cristae]], [[PINK1]], [[Parkin]], [[BNIP3]], [[BNIP3L]], [[FUNDC1]], [[LC3]], [[p62]], [[NIX]], [[ULK1]], [[NBR1]], [[NDP52]], [[Optineurin]], [[FKBP38]], [[ARIH1]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[ALS]], [[Charcot-Marie-Tooth Disease Type 2A]], [[Dominant Optic Atrophy]], [[Heart Failure]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Cardiomyopathy]], [[Ischemia-reperfusion Injury]], [[Cancer]], [[Breast Cancer]], [[Lung Cancer]], [[Colon Cancer]], [[Hepatocellular Carcinoma]], [[ovarian cancer]], [[glioblastoma]], [[Neuroblastoma]], [[COPD]], [[Asthma]], [[Pulmonary Fibrosis]], [[Pulmonary Arterial Hypertension]], [[Bronchopulmonary Dysplasia]], [[Acute Lung Injury]], [[AMPK]], [[PGC-1α]], [[ROS]], [[Oxidative Phosphorylation]], [[mtDNA]], [[Calcium]], [[HIF-1α]], [[Mitochondrial Dynamics]], [[Autophagy]], [[Mitophagy]], [[Apoptosis]], [[Senescence]], [[NLRP3]], [[Caspases]], [[LRRK2]], [[DJ-1]], [[Alpha-synuclein]], [[Tau]], [[Amyloid Beta]], [[Metformin]], [[Melatonin]], [[Mdivi-1]], [[Rotenone]], [[MPTP]], [[Celastrol]], [[Valsartan]], [[Liraglutide]], [[Chloroquine]], [[Warburg Effect]], [[Mitochondrial Biogenesis]], [[Endoplasmic Reticulum]], [[Actin Cytoskeleton]], [[Autophagosome]], [[Lysosome]], [[SARS-CoV-2]], [[COVID-19]], [[SUMOylation]], [[Ubiquitin]], [[PKA]], [[SIRT1]], [[BAX]]
 - Suggested new entity notes to create: [[MID49]], [[MID51]], [[MTFP1]], [[PARL]], [[BNIP3L]], [[NIX]], [[NBR1]], [[Optineurin]], [[FKBP38]], [[ARIH1]], [[Cardiovascular Disease]], [[Pulmonary Fibrosis]], [[Pulmonary Arterial Hypertension]], [[Bronchopulmonary Dysplasia]], [[Acute Lung Injury]], [[glioblastoma]], [[ovarian cancer]], [[Neuroblastoma]], [[Mitochondrial Biogenesis]], [[Valsartan]], [[Liraglutide]], [[Chloroquine]], [[Cristae]]
 - Strong connections to strengthen:
     - [[DRP1]] ↔ [[Mitophagy]] — DRP1-mediated fission is required for mitophagy initiation, but DRP1 is not always necessary for mitophagy (context-dependent)
