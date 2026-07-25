@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
-<title>llm-wiki-jk: three.js graph view</title>
+<title>llm-wiki-jk: three.js graph view (EN/繁體中文)</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
@@ -35,11 +35,11 @@
   #neighbors-list { max-height: 200px; overflow-y: auto; margin-top: 4px; }
   #legend-wrap { flex: 1; overflow-y: auto; padding: 12px; }
   #legend-wrap h3 { font-size: 12px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .legend-item { display: flex; align-items: center; gap: 8px; padding: 4px 0; cursor: pointer; border-radius: 4px; font-size: 12px; transition: background 0.15s; }
+  .legend-item { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; cursor: pointer; border-radius: 4px; font-size: 12px; transition: background 0.15s; }
   .legend-item:hover { background: #2a2a4e; }
   .legend-item.dimmed { opacity: 0.3; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
-  .legend-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
+  .legend-label { flex: 1; overflow: hidden; line-height: 1.3; }
   .legend-count { color: #666; font-size: 11px; }
   #stats { padding: 10px 14px; border-top: 1px solid #2a2a4e; font-size: 11px; color: #555; }
   #legend-controls { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; padding: 4px 0; }
@@ -52,7 +52,7 @@
   #select-all-cb:indeterminate::after { content: ''; position: absolute; left: 2px; top: 5px; width: 8px; height: 2px; background: #fff; border: none; transform: none; }
   
   /* Tooltip */
-  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 250px; }
+  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 350px; }
   #tooltip.visible { opacity: 1; }
   
   /* Controls overlay */
@@ -85,29 +85,29 @@
   </div>
   <div id="tooltip"></div>
   <div id="controls">
-    <button id="btn-reset" title="Reset camera">Reset View</button>
-    <button id="btn-physics" title="Toggle physics simulation">Physics</button>
-    <button id="btn-labels" title="Toggle labels">Labels</button>
-    <button id="btn-edges" title="Toggle edges">Edges</button>
+    <button id="btn-reset" title="Reset camera">Reset View / 重設視角</button>
+    <button id="btn-physics" title="Toggle physics simulation">Physics / 物理模擬</button>
+    <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
+    <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
   </div>
 </div>
 <div id="sidebar">
   <div id="sidebar-header">
-    <span>Search & Filters</span>
+    <span>Search & Filters / 搜尋與篩選</span>
     <button id="sidebar-close" title="Close panel">&times;</button>
   </div>
   <div id="search-wrap">
-    <input id="search" type="text" placeholder="Search nodes..." autocomplete="off">
+    <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
     <div id="search-results"></div>
   </div>
   <div id="info-panel">
-    <h3>Node Info</h3>
-    <div id="info-content"><span class="empty">Click a node to inspect it</span></div>
+    <h3>Node Info / 節點資訊</h3>
+    <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
   </div>
   <div id="legend-wrap">
-    <h3>Communities</h3>
+    <h3>Communities / 社群</h3>
     <div id="legend-controls">
-      <label><input type="checkbox" id="select-all-cb" checked>Select All</label>
+      <label><input type="checkbox" id="select-all-cb" checked>Select All / 全選</label>
     </div>
     <div id="legend"></div>
   </div>
@@ -154,6 +154,24 @@ async function loadData() {
 }
 
 const { RAW_NODES, RAW_EDGES, LEGEND, graphData } = await loadData();
+
+loadStatus.textContent = 'Loading translations...';
+let TRANSLATIONS = {};
+try {
+  const transResp = await fetch('translations-zh-TW.json');
+  TRANSLATIONS = await transResp.json();
+} catch (e) {
+  console.warn('Could not load translations:', e);
+}
+
+function getBilingualText(english) {
+  const zhTW = TRANSLATIONS[english];
+  if (zhTW && zhTW !== english) {
+    return `${english}\n${zhTW}`;
+  }
+  return english;
+}
+
 loadStatus.textContent = 'Building graph...';
 
 // ============================================================
@@ -311,7 +329,14 @@ const labelThreshold = 15;
 function createLabel(nodeData, mesh) {
   const div = document.createElement('div');
   div.className = 'node-label';
-  div.textContent = nodeData.label;
+  
+  const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
+  if (zhTWLabel && zhTWLabel !== nodeData.label) {
+    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:9px">${esc(zhTWLabel)}</span>`;
+  } else {
+    div.textContent = nodeData.label;
+  }
+  
   div.style.cssText = `
     color: #e0e0e0;
     font-size: 10px;
@@ -321,6 +346,8 @@ function createLabel(nodeData, mesh) {
     white-space: nowrap;
     pointer-events: none;
     text-shadow: 0 0 4px rgba(0,0,0,0.8);
+    text-align: center;
+    line-height: 1.3;
   `;
   const label = new CSS2DObject(div);
   label.position.copy(mesh.position);
@@ -588,7 +615,11 @@ function onMouseMove(event) {
         hideEdgeLabel();
         container.style.cursor = 'pointer';
         const nodeData = mesh.userData.nodeData;
-        tooltip.innerHTML = `<b>${esc(nodeData.label)}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      const zhTWName = TRANSLATIONS[nodeData.label] || '';
+      const displayName = zhTWName && zhTWName !== nodeData.label 
+        ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
+        : esc(nodeData.label);
+      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
         tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
         tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
         tooltip.classList.add('visible');
@@ -613,7 +644,11 @@ function onMouseMove(event) {
       hideEdgeLabel();
       container.style.cursor = 'pointer';
       const nodeData = mesh.userData.nodeData;
-      tooltip.innerHTML = `<b>${esc(nodeData.label)}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      const zhTWName = TRANSLATIONS[nodeData.label] || '';
+      const displayName = zhTWName && zhTWName !== nodeData.label 
+        ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
+        : esc(nodeData.label);
+      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
       tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
       tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
       tooltip.classList.add('visible');
@@ -720,7 +755,7 @@ function deselectNode() {
   });
   
   hideEdgeLabel();
-  document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it</span>';
+  document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
 }
 
 function animateCamera(targetPosition, lookAtTarget) {
@@ -761,15 +796,24 @@ function showInfo(nodeId) {
     const nb = nodeMap.get(target);
     const color = nb ? nb.color.background : '#555';
     const label = edge.label ? ` — ${esc(edge.label)}` : '';
-    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nb ? nb.label : target)}${label}</span>`;
+    const nbLabel = nb ? nb.label : target;
+    const nbZhTW = TRANSLATIONS[nbLabel] || '';
+    const nbDisplayName = nbZhTW && nbZhTW !== nbLabel ? `${nbLabel} / ${nbZhTW}` : nbLabel;
+    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nbDisplayName)}${label}</span>`;
   }).join('');
   
   const description = descriptionMap.get(nodeId);
   
+  const zhTWName = TRANSLATIONS[n.label] || '';
+  const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
+  
+  const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
+  const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
+  
   document.getElementById('info-content').innerHTML = `
-    <div class="field"><b>${esc(n.label)}</b></div>
+    <div class="field"><b>${esc(displayName)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
-    <div class="field">Community: ${esc(n.community_name)}</div>
+    <div class="field">Community: ${esc(displayCommunity)}</div>
     <div class="field">Source: ${esc(n.source_file || '-')}</div>
     ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description)}</div>` : ''}
     <div class="field">Degree: ${n.degree}</div>
@@ -795,14 +839,25 @@ searchInput.addEventListener('input', () => {
   searchResults.innerHTML = '';
   if (!q) { searchResults.style.display = 'none'; return; }
   
-  const matches = RAW_NODES.filter(n => n.label.toLowerCase().includes(q)).slice(0, 20);
+  const matches = RAW_NODES.filter(n => {
+    const labelMatch = n.label.toLowerCase().includes(q);
+    const zhTW = TRANSLATIONS[n.label] || '';
+    const zhTWMatch = zhTW.toLowerCase().includes(q);
+    return labelMatch || zhTWMatch;
+  }).slice(0, 20);
   if (!matches.length) { searchResults.style.display = 'none'; return; }
   
   searchResults.style.display = 'block';
   matches.forEach(n => {
     const el = document.createElement('div');
     el.className = 'search-item';
-    el.textContent = n.label;
+    
+    const zhTWLabel = TRANSLATIONS[n.label] || '';
+    const displayText = zhTWLabel && zhTWLabel !== n.label 
+      ? `${n.label} / ${zhTWLabel}`
+      : n.label;
+    
+    el.textContent = displayText;
     el.style.borderLeft = `3px solid ${n.color.background}`;
     el.style.paddingLeft = '8px';
     el.onclick = () => {
@@ -909,9 +964,14 @@ LEGEND.forEach(c => {
     updateSelectAllState();
   });
   
+  const zhTWLabel = TRANSLATIONS[c.label] || '';
+  const bilingualLabel = zhTWLabel && zhTWLabel !== c.label 
+    ? `${c.label}<br><span style="color:#888;font-size:10px">${zhTWLabel}</span>`
+    : c.label;
+  
   item.innerHTML = `
     <div class="legend-dot" style="background:${c.color}"></div>
-    <span class="legend-label">${c.label}</span>
+    <span class="legend-label">${bilingualLabel}</span>
     <span class="legend-count">${c.count}</span>
   `;
   item.prepend(cb);
