@@ -11,13 +11,24 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 24_JULY_2026 12:00 PM PDT
-- Total count of entities: 404
+- Total count of entities: 415
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
 | [[ACE Inhibitors]]                               | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
 | [[ACTH]] | 09_Jul_2026 07:00 PM | Chemical Compound | Hormone, HPA Axis, Stress Response |
 | [[Acetyl-L-Carnitine]]                           | 08_Jul_2026 12:00 PM | Chemical Compound      | Aging, Mitochondria                             |
+| [[Acid ceramidase]]                             | 24_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Senescence, Ferroptosis, Sphingolipid Metabolism |
+| [[ACSL4]]                                      | 24_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Ferroptosis, Senescence |
+| [[Ceramide]]                                     | 24_JULY_2026 12:00 PM PDT | Lipid                  | Sphingolipid Metabolism, Ferroptosis, Senescence |
+| [[Phospholipid]]                                 | 24_JULY_2026 12:00 PM PDT | Lipid                  | Membrane, Ferroptosis |
+| [[PUFA]]                                         | 24_JULY_2026 12:00 PM PDT | Lipid                  | Fatty Acid, Ferroptosis |
+| [[Sphingosine]]                                 | 24_JULY_2026 12:00 PM PDT | Lipid                  | Sphingolipid Metabolism, Senescence |
+| [[Sphingomyelin]]                               | 24_JULY_2026 12:00 PM PDT | Lipid                  | Sphingolipid Metabolism |
+| [[Sphingolipid Metabolism]]                      | 24_JULY_2026 12:00 PM PDT | Biological Process     | Lipid Metabolism, Ferroptosis, Senescence |
+| [[Sphingosine-1-phosphate]]                     | 24_JULY_2026 12:00 PM PDT | Lipid                  | Sphingolipid Metabolism, Senescence, Signaling |
+| [[J147]]                                         | 24_JULY_2026 12:00 PM PDT | Chemical Compound      | Ferroptosis, Alzheimer's Disease, Maher Lab |
+| [[CMS121]]                                        | 24_JULY_2026 12:00 PM PDT | Chemical Compound      | Fatty Acid Synthase Inhibitor, Alzheimer's Disease, Maher Lab |
 | [[Acute Respiratory Distress Syndrome]]          | 08_Jul_2026 11:28 AM | Medical Condition      | Pulmonology, Critical Care                      |
 | [[ADP]] | 09_Jul_2026 07:00 PM | Biological Molecule | Energy Metabolism, Mitochondria |
 | [[Aging]]                                        | 29_May_2026 08:20 AM | Biological Process     | Epigenetics, Oxidative Stress, Yamanaka Factors |

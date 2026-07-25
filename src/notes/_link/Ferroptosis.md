@@ -17,9 +17,12 @@ Ferroptosis is initiated when the glutathione-dependent antioxidant enzyme [[GPX
 
 > [!info] Source: [[task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026|Adrenochrome → Lipid Peroxidation Bridge]]
 > [[Adrenochrome]], a redox-cycling *o*-quinone derived from [[Epinephrine]] oxidation, is hypothesized to induce ferroptosis through a dual mechanism: (1) ROS generation via futile redox cycling → [[Superoxide]] → [[Hydrogen Peroxide]] → [[Hydroxyl radical]] → PUFA hydrogen abstraction (lipid peroxidation initiation), and (2) direct electrophilic inhibition of [[GPX4]] via *o*-quinone arylation of its catalytic [[Selenocysteine]], analogous to [[RSL3]]. If verified, this would establish adrenochrome as the first endogenous catecholamine-derived ferroptosis inducer, with implications for [[Takotsubo Cardiomyopathy|stress cardiomyopathy]], [[Catecholamine-induced cardiomyopathy]], and dopaminergic neuron loss in [[Parkinson's Disease]].
+> [!info] Source: [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]
+> A newly identified, **GPX4/GSH- and iron-independent** ferroptosis axis: [[Acid ceramidase]] (ASAH1) is over-expressed 5- to 20-fold in replicatively [[Senescent Cells|senescent]] WI-38 fibroblasts. By cleaving [[Ceramide|ceramide]] into free fatty acids, ACase enriches membrane [[Phospholipid|phospholipids]] with [[PUFA|PUFAs]] (the peroxidation substrates), creating a pro-ferroptotic lipid profile. ACase knockdown/inhibition (ARN14794) protects cells from [[RSL3]] *without* changing [[ACSL4]], [[GPX4]], or labile [[Iron|Fe²⁺]]—acting upstream by shrinking the PUFA substrate pool. Critically, senescent-cell [[SASP]] ([[IL-6]]/[[IL-8]]) transmits ACase up-regulation and ferroptotic sensitization to neighboring cells.
+
 ## Key Regulators
 - **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase), [[DHODH]], [[Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
-- **Positive regulators**: [[ACSL4]] (acyl-CoA synthetase that enriches membranes with oxidizable PUFAs), [[LPCAT3]] (remodels membrane phospholipids), [[NOX]] family NADPH oxidases, mitochondrial electron transport chain
+- **Positive regulators**: [[ACSL4]] (acyl-CoA synthetase that enriches membranes with oxidizable PUFAs), [[Acid ceramidase]] (ASAH1; cleaves [[Ceramide|ceramide]] to free fatty acids that feed membrane [[PUFA|PUFA]] incorporation—a GPX4/GSH/iron-independent sensitization axis in [[Senescent Cells|senescence]]), [[LPCAT3]] (remodels membrane phospholipids), [[NOX]] family NADPH oxidases, mitochondrial electron transport chain
 - **Iron regulators**: [[Transferrin receptor 1|TFR1]] (iron uptake), [[Ferritin]] (iron storage), [[NCOA4]] (ferritinophagy cargo receptor), [[HO-1]] (heme degradation liberating iron)
 ## Detection & Biomarkers
 - Loss of [[GPX4]] or [[System Xc⁻]] (SLC7A11) expression
@@ -43,6 +46,12 @@ List of documents that mention this entity
   - [[task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026|Adrenochrome → Lipid Peroxidation Bridge]]
     - A task output analyzing the direct mechanistic bridge from [[Adrenochrome]] redox cycling to [[Lipid Peroxidation]], proposing adrenochrome as a dual ferroptosis inducer (ROS generation + GPX4 inhibition).
 
+  - [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]
+    - Primary study showing [[Acid ceramidase]] (ASAH1) over-expression in replicative senescence drives a pro-ferroptotic membrane lipid profile (elevated PL-[[PUFA|PUFAs]]), independent of [[GPX4]]/[[Glutathione|GSH]] and [[Iron|iron]], and is transmitted to neighbors via [[IL-6]]/[[IL-8]] SASP cytokines.
+
+  - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Salk press release — "Could this enzyme help remove 'zombie' cells…"]]
+    - Public summary framing ACase as a druggable [[Senolytic|senotherapeutic]] target for clearing senescent "zombie" cells via ferroptosis.
+
 
 ## Connections
 
@@ -56,11 +65,12 @@ List of documents that mention this entity
 - [[DHODH]] — interacts with
 - [[System Xc⁻]] — interacts with
 - [[ACSL4]] — interacts with
+- [[Acid ceramidase]] — Novel positive regulator in senescence: over-expression enriches membrane PL-PUFAs via ceramide catabolism, sensitizing cells to ferroptosis through a GPX4/GSH/iron-independent axis; knockdown protects
 - [[LPCAT3]] — interacts with
 - [[NOX]] — interacts with
 - [[Adrenochrome]] — Hypothesized dual ferroptosis inducer: generates ROS via redox cycling and may directly inhibit GPX4 via electrophilic arylation, analogous to RSL3
 
 ## Linking Summary
-- New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]]
+- New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]]
   - Strong connections to strengthen: [[Ferroptosis]] ↔ Lipid Peroxidation, [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ Fenton Reaction, [[Ferroptosis]] ↔ Ferritin, [[Ferroptosis]] ↔ [[Adrenochrome]] (dual mechanism hypothesis)
 

@@ -49,6 +49,9 @@ They are characterized by:
 
 - **[[Senolytics]]**: Drugs that selectively induce apoptosis in senescent cells by disabling SCAPs (e.g., [[Dasatinib]] + [[Quercetin]], [[Navitoclax]], [[Fisetin]]).
 - **[[Senomorphic Therapy]]**: Drugs that suppress the SASP without killing the cells (e.g., [[Rapamycin]], JAK inhibitors).
+
+> [!info] Source: [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]
+> [[Senescent Cells|Senescent cells]] are intrinsically **more vulnerable to [[Ferroptosis]]** than proliferative cells: over-expression of [[Acid ceramidase]] (ASAH1) in replicative senescence reshapes membrane [[Phospholipid|phospholipids]] toward a pro-ferroptotic, [[PUFA|PUFA]]-rich profile. Inhibiting ACase protects both young and old cells from ferroptosis, and—because ACase inhibitors already exist (e.g., ARN14794)—ACase is a tractable **[[Senolytic|senolytic]]/[[Senomorphic|senomorphic]] target** that selectively removes ferroptotic vulnerability while leaving the senescence arrest and [[SASP]] intact. Crucially, a few senescent cells can transmit this sensitivity to neighbors via [[IL-6]]/[[IL-8]] [[Paracrine Senescence|paracrine]] signaling.
 - **Clinical translation**: Senolytic trials are underway in diabetic kidney disease, IPF, and osteoarthritis; SASP factors (IL-6, MMP-9, GM-CSF) serve as pharmacodynamic biomarkers.
 
 ## Documents
@@ -64,6 +67,12 @@ List of documents that mention this entity
 
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
     - Fisetin selectively clears senescent T, NK, progenitor, and endothelial cells (but not macrophages/dendritic cells) in adipose tissue; clearance is cell-type specific and extends lifespan.
+
+  - [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]
+    - Replicatively senescent WI-38 fibroblasts over-express [[Acid ceramidase]] 5- to 20-fold; ACase drives a pro-ferroptotic membrane lipid profile, sensitizing senescent cells to [[Ferroptosis]] independently of [[GPX4]]/[[Glutathione|GSH]] and [[Iron|iron]], and transmitting sensitivity to neighbors via [[IL-6]]/[[IL-8]] [[SASP]].
+
+  - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Salk press release — "Could this enzyme help remove 'zombie' cells…"]]
+    - Public summary framing ACase as a druggable target for clearing senescent "zombie" cells to support healthy aging.
 
 ## Connections
 
@@ -92,8 +101,14 @@ List of documents that mention this entity
 - [[Prostate Cancer]] — Senescent fibroblasts secrete CTGF, amphiregulin, and SDF-1α that promote prostate tumor growth
 - [[Pancreatic Cancer]] — SASP from senescent stellate cells promotes pancreatic cancer invasion via HGF and MMPs
 - [[Melanoma]] — SASP from senescent keratinocytes recruits CXCR2+ melanocytes and promotes melanoma progression
+- [[Acid ceramidase]] — Over-expressed in senescence; creates a pro-ferroptotic lipid profile and is a tractable senolytic target (ACase inhibitors protect cells from ferroptosis)
+- [[ACSL4]] — Up-regulated in senescence; enriches membrane PUFA-PLs and contributes to ferroptotic vulnerability
+- [[Ferroptosis]] — Senescent cells are intrinsically more ferroptosis-sensitive; ACase/ACSL4-driven lipid remodeling underlies this
+- [[Phospholipid]] — Membrane PL PUFA content, shaped by ACase/ACSL4, sets senescent-cell ferroptosis sensitivity
+- [[PUFA]] — The oxidizable substrates whose membrane enrichment sensitizes senescent cells to ferroptosis
+- [[IL-6]] / [[IL-8]] — SASP cytokines that transmit ACase up-regulation and ferroptotic sensitization to neighboring cells
 
 ## Linking Summary
 
-  - New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Apoptosis]], [[Minority MOMP]], [[Aging]], [[Cancer]], [[Senolytics]], [[Senomorphic Therapy]], [[CDKN2A]], [[IL-1α]], [[IL-6]], [[CCL2]], [[mtDNA]]
+  - New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Apoptosis]], [[Minority MOMP]], [[Aging]], [[Cancer]], [[Senolytics]], [[Senomorphic Therapy]], [[CDKN2A]], [[IL-1α]], [[IL-6]], [[CCL2]], [[mtDNA]], [[Acid ceramidase]], [[ACSL4]], [[Ferroptosis]], [[Phospholipid]], [[PUFA]], [[GPX4]], [[Glutathione]], [[Iron]], [[IL-8]], [[Paracrine Senescence]]
   - Strong connections to strengthen: Senescent Cells ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Senescent Cells ↔ [[Senescent cell anti-apoptotic pathways|SCAPs]], Senescent Cells ↔ [[Aging]]
