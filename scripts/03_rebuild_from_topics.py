@@ -164,9 +164,20 @@ def main() -> int:
     print(f"Pruned {len(hubs)} generic hubs")
 
     # --- prune document-title nodes (sources of 'discusses') ---
-    docs = {u for u, _, e in G.edges(data=True) if e.get("relation") == "discusses"}
+    # Only prune nodes whose edges are exclusively 'discusses' or 'has_type'
+    # (with target 'document').  Entity notes like Adrenochrome.md generate
+    # 'discusses' edges *and* substantive edges (causes, promotes, …);
+    # those must be kept.
+    discusses_sources = {u for u, _, e in G.edges(data=True) if e.get("relation") == "discusses"}
+    docs = set()
+    for n in discusses_sources:
+        edge_relations = {e[2].get("relation") for e in G.edges(n, data=True)}
+        # A pure document node only has 'discusses' and possibly 'has_type'
+        non_trivial = edge_relations - {"discusses", "has_type"}
+        if not non_trivial:
+            docs.add(n)
     G.remove_nodes_from(docs)
-    print(f"Pruned {len(docs)} document-title nodes")
+    print(f"Pruned {len(docs)} document-title nodes (of {len(discusses_sources)} discusses sources)")
 
     print(f"Graph before cluster: {G.number_of_nodes()}n/{G.number_of_edges()}e")
 
