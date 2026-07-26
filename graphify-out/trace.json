@@ -6,6 +6,7 @@
     "date": "2026-07-21",
     "method": "graphify query BFS traversal + graphify explain + graphify path",
     "summary": "AP-1 operates as a stress-responsive pioneer transcription factor at the intersection of four aging hallmarks: senescence (SASP super-enhancers), antioxidant/NRF2 defense (CBP/p300 competition), autophagy (inflammaging via CXCL5/IL-6), and neuroinflammation (cGAS-STING, TNFα, IL-6).",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_AP1_trace_21_JUL_2026.md",
     "centerNode": { "id": "ap_1", "label": "AP-1" },
     "routes": [
       { "name": "AP-1 → NRF2 (3 hops)", "hops": 3, "path": ["ap_1", "sasp", "resveratrol", "nrf2"], "mechanism": "AP-1 regulates SASP; SASP documents reference Resveratrol as a modulator; Resveratrol activates NRF2 via Keap1 modification. This creates a regulatory triangle where AP-1-driven inflammation and NRF2-driven antioxidant defense compete for shared co-activators (CBP/p300)." },
@@ -41,6 +42,7 @@
     "date": "2026-07-17",
     "method": "graphify path + NetworkX BFS across adrenochrome topic nodes",
     "summary": "Adrenochrome (oxidation product of adrenaline) never connects to sirtuins directly. It feeds the oxidative stress field as a pro-oxidant waste product, while sirtuins sit on the opposite side as the redox-defense/longevity response system. The bridge is built through three parallel routes: mitochondrial hormesis (NAD⁺ rescue), SIRT3-MnSOD-PGC-1α enzymatic defense, and the apoptosis failure boundary.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "centerNode": { "id": "oxidative_stress", "label": "Oxidative Stress" },
     "routes": [
       { "name": "Route A — Mitochondrial Hormesis (NAD⁺ rescue)", "hops": 3, "path": ["oxidative_stress", "mitohormesis", "sirtuins"], "mechanism": "Adrenochrome redox cycling consumes NAD⁺, while NAD⁺ repletion via NR restores SIRT activity. The mitohormesis node bridges adrenochrome biology to the sirtuin system." },
@@ -69,6 +71,7 @@
     "date": "2026-07-17",
     "method": "graphify graph query + BFS/DFS traversal",
     "summary": "CD38 is a multifunctional ectoenzyme and the primary age-related NAD+ consumer. Inflammaging drives infiltration of CD38+ immune cells into tissues, where CD38's ecto-enzymatic activity degrades extracellular NAD+ and NMN. This starves parenchymal cells of NAD+ precursors, impairing SIRT3, sirtuins, and PARP1 — creating a feedback loop of more inflammation, more CD38, and deeper NAD+ decline.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "Inflammaging → CD38 → NAD+ decline", "hops": 3, "path": ["inflammaging", "cd38", "nad"], "mechanism": "Aging → senescent cells → SASP → recruitment of CD38+ immune cells (macrophages, T cells) into tissues → CD38's ecto-enzymatic activity degrades extracellular NAD+ and NMN → parenchymal cells starved of NAD+ precursors." },
@@ -100,6 +103,7 @@
     "date": "2026-07-17",
     "method": "graphify graph query + BFS/DFS traversal",
     "summary": "SARM1 is an intracellular NADase that triggers catastrophic axonal NAD+ depletion in three phases: homeostasis (NMNAT2 maintains NAD+ ~400μM, SARM1 autoinhibited), trigger (axonal injury → NMNAT2 loss → NMN/NAD+ ratio rises → SARM1 activated), and catastrophe (NAD+ drops from ~400μM to ~0 in minutes → Wallerian degeneration). SARM1 also has scaffold signaling via TRAF6/JNK/p38 MAPK independent of NADase activity.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md",
     "centerNode": { "id": "sarm1", "label": "SARM1" },
     "routes": [
       { "name": "Phase 1 — Homeostasis (healthy axon)", "hops": 2, "path": ["sarm1", "nmnat2"], "mechanism": "NMNAT2 (t½ ~30 min) converts NMN → NAD+, maintaining ~400μM NAD+. SARM1 is ARM-TIR autoinhibited (NAD+ binds ARM domain, keeping TIR inactive). Nicotinamide allosterically suppresses SARM1." },
@@ -129,6 +133,7 @@
     "date": "2026-07-17",
     "method": "graphify path + BFS traversal across CD38 and SARM1 traces",
     "summary": "CD38 and SARM1 are both NAD+ glycohydrolases that cleave the same substrate into the same products (NAM + ADPR + cADPR). They compete for the shared NAD+ pool but operate on different timescales (CD38: chronic/hours–years; SARM1: acute/minutes) and compartments (CD38: extracellular/immune cells; SARM1: intracellular/neurons). NMN is the critical bridging metabolite — CD38 degrades extracellular NMN while SARM1 is activated by intracellular NMN accumulation.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "CD38 ↔ SARM1 (direct edge)", "hops": 1, "path": ["cd38", "sarm1"], "mechanism": "Both are NAD+ glycohydrolases with similar catalytic activities. A direct edge now exists in the graph (was previously flagged as a gap)." },
@@ -158,6 +163,7 @@
     "date": "2026-07-17",
     "method": "graphify path + BFS traversal + convergent node logic",
     "summary": "The NAD+–sirtuin–redox axis suffers three independent drains: adrenochrome (oxidative load), CD38 (chronic inflammaging drain), and SARM1 (acute catastrophic drain). A single intervention addresses only one hit. Synergy logic: Arm A (CD38 inhibitor + NR) restores chronic NAD+ for sirtuins; Arm B (SARM1 inhibitor) prevents acute axonal NAD+ collapse. Combined = whole-body NAD+ resilience across timescales. The NMN-sensitization paradox means CD38 monotherapy could sensitize neurons to SARM1 — making combined inhibition graph-logically superior.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "Arm A — Chronic NAD+ Restoration", "hops": 3, "path": ["inflammaging", "cd38", "nad"], "mechanism": "CD38 inhibitor (78c/Quercetin/Apigenin) + NR (Nicotinamide Riboside) → NAD+ preserved → Sirtuins/SIRT3 active → MnSOD activated → counters adrenochrome ROS." },
@@ -189,6 +195,7 @@
     "date": "2026-07-17",
     "method": "graphify path + BFS traversal + CNS compartmentalization analysis",
     "summary": "In the CNS, CD38 operates in microglia (brain-resident macrophages, chronic neuroinflammation) while SARM1 operates in neurons/axons (acute degeneration). They share the brain NAD+ pool through two cross-talk routes: precursor competition (microglial CD38 degrades extracellular NMN → less precursor reaches neurons → lower NAD+ buffer → SARM1 closer to activation threshold) and inflammation → injury cascades (neuroinflammation → cytokine storm → axonal vulnerability → TBI → SARM1 activation).",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "CD38 → Microglia (immune locus)", "hops": 2, "path": ["cd38", "microglia"], "mechanism": "CD38 is strongly expressed in microglia, inducible by LPS/IFN-γ. CD38 deletion reduced activation-induced microglial cell death (Guerreiro 2020)." },
@@ -215,6 +222,7 @@
     "date": "2026-07-17",
     "method": "graphify path + BFS traversal bridging CD38 and adrenochrome traces",
     "summary": "The adrenochrome trace showed sirtuins counter adrenochrome-driven oxidative stress through NAD⁺/NR rescue, SIRT3→MnSOD defense, and apoptosis protection. This parallel trace shows the compounding insult: CD38 is the primary age-related NAD⁺ consumer. By draining NAD⁺, CD38 starves the very sirtuin defense that adrenochrome overload relies on. The two traces share the same pivot nodes — NAD+, Nicotinamide Riboside, SIRT3, Sirtuins, Redox Homeostasis.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "Inflammaging → CD38 → NAD+ drain", "hops": 3, "path": ["inflammaging", "cd38", "nad"], "mechanism": "Inflammaging recruits CD38+ immune cells → CD38 consumes NAD+ → NAD+ depletion starves SIRT3, sirtuins, and PARP1." },
@@ -244,6 +252,7 @@
     "date": "2026-07-21",
     "method": "nx.shortest_path BFS on graph.json after incremental mitophagy entity update",
     "summary": "Shortest path: NAD+ Biosynthesis → Autophagy → HIF1A → BNIP3L (3 hops). NAD+ activates SIRT1, which deacetylates core autophagy machinery (Atg5/Atg7/LC3) and transcription factors (FOXO/TFEB). HIF1A, stabilized under hypoxia, transactivates BNIP3/BNIP3L — mitophagy receptors with LIR motifs that recruit LC3 to depolarized mitochondria. This connects NAD+ levels (metabolic state sensor) to mitochondrial quality control.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md",
     "centerNode": { "id": "autophagy", "label": "Autophagy" },
     "routes": [
       { "name": "NAD+ → Autophagy (SIRT1 axis)", "hops": 1, "path": ["nad", "autophagy"], "mechanism": "NAD+ activates SIRT1 → deacetylates FOXO3a, TFEB, Atg5/Atg7/LC3 → activates core autophagy machinery. NAD+ decline with age suppresses autophagy; NR/NMN supplementation restores it." },
@@ -271,6 +280,7 @@
     "date": "2026-07-17",
     "method": "graphify graph analysis + web research (PubMed, Nature, Cell, JBC)",
     "summary": "Research synthesis identifying 7 categories of gaps between CD38 (community 78) and SARM1 (community 101): no direct edge (now resolved), NMN bridging metabolite, shared cADPR production, CZ-48 pharmacological divergence, tissue compartmentalization, NAD+ consumer hierarchy, and SARM1 in immune cells. The strongest metabolic link runs through NMN — CD38 degrades extracellular NMN while SARM1 is activated by intracellular NMN accumulation.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "Gap 1: CD38 ↔ SARM1 direct edge", "hops": 1, "path": ["cd38", "sarm1"], "mechanism": "Both are NAD+ glycohydrolases with similar catalytic activities. NOW RESOLVED — direct edge exists in current graph." },
@@ -301,6 +311,7 @@
     "date": "2026-07-17",
     "method": "Web research (PubMed, PMC, Nature, Cell, ScienceDirect, Frontiers 2019-2026)",
     "summary": "Literature investigation of 4 gaps: (1) CD38 NMN depletion → SARM1 protection: plausible but not directly tested; (2) CD38 KO sensitization: NO — CD38 KO is protective (delayed axon degeneration, Takaso 2020); (3) Combined CD38+SARM1 inhibition synergy: mechanistically sound, untested — both use adduct-forming uncompetitive inhibition (Bratkowski 2022); (4) Co-expression in microglia: CD38 YES (confirmed), SARM1 debated (basal LOW, pathology MAYBE).",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
     "centerNode": { "id": "cd38", "label": "CD38" },
     "routes": [
       { "name": "Q1: CD38 NMN depletion → SARM1 protection?", "hops": 3, "path": ["cd38", "nicotinamide", "sarm1"], "mechanism": "Plausible: CD38 degrades extracellular NMN → less NMN enters cells → less SARM1 activation. But no study directly tests this. CRITICAL CAVEAT: NAD+ precursor supplementation could paradoxically increase SARM1 activation risk (Takaso 2020)." },

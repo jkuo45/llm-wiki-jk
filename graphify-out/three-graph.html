@@ -205,12 +205,42 @@ const { RAW_NODES, RAW_EDGES, LEGEND, graphData } = await loadData();
 let TRACES = [];
 let activeTrace = null;
 let activeRouteIdx = -1;
+let suppressHashUpdate = false;
 
 try {
   const traceResp = await fetch('trace.json');
   TRACES = await traceResp.json();
 } catch (e) {
   console.warn('Could not load traces:', e);
+}
+
+// ============================================================
+// URL Hash Bookmarking
+// ============================================================
+function updateHash() {
+  if (suppressHashUpdate) return;
+  const parts = [];
+  if (activeTrace) {
+    parts.push(`trace=${encodeURIComponent(activeTrace.id)}`);
+    if (activeRouteIdx >= 0) parts.push(`route=${activeRouteIdx}`);
+  }
+  if (selectedNode) {
+    parts.push(`node=${encodeURIComponent(selectedNode)}`);
+  }
+  const hash = parts.length ? '#' + parts.join('&') : '';
+  const url = window.location.pathname + window.location.search + hash;
+  history.replaceState(null, '', url);
+}
+
+function parseHash() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return null;
+  const params = {};
+  hash.split('&').forEach(pair => {
+    const [k, v] = pair.split('=');
+    if (k && v !== undefined) params[decodeURIComponent(k)] = decodeURIComponent(v);
+  });
+  return params;
 }
 
 loadStatus.textContent = 'Loading translations...';
@@ -911,6 +941,7 @@ function selectNode(nodeId) {
   const newCameraPos = targetPos.clone().add(cameraOffset);
   
   animateCamera(newCameraPos, targetPos);
+  updateHash();
 }
 
 function deselectNode() {
@@ -943,6 +974,7 @@ function deselectNode() {
   
   hideEdgeLabel();
   document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
+  updateHash();
 }
 
 function selectEdge(edge) {
@@ -1369,6 +1401,7 @@ function clearTrace() {
   traceKeyNodes.innerHTML = '';
   traceClear.style.display = 'none';
   restoreAllFromTrace();
+  updateHash();
 }
 
 function activateTrace(trace) {
@@ -1377,7 +1410,10 @@ function activateTrace(trace) {
   traceClear.style.display = 'block';
 
   // Show summary
-  traceSummary.innerHTML = `<div style="color:#aaa;font-size:11px;margin-bottom:4px">${esc(trace.question)}</div><div>${esc(trace.summary)}</div>`;
+  const sourceLink = trace.sourceUrl
+    ? `<div style="margin-top:6px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
+    : '';
+  traceSummary.innerHTML = `<div style="color:#aaa;font-size:11px;margin-bottom:4px">${esc(trace.question)}</div><div>${esc(trace.summary)}</div>${sourceLink}`;
 
   // Show routes
   traceRoutes.innerHTML = '';
@@ -1404,6 +1440,7 @@ function activateTrace(trace) {
 
   // Highlight all trace nodes
   highlightTraceNodes(trace);
+  updateHash();
 }
 
 function getTraceNodeIds(trace) {
@@ -1540,6 +1577,7 @@ function activateRoute(trace, routeIdx) {
     const cameraOffset = new THREE.Vector3(80, 40, 80);
     animateCamera(center.clone().add(cameraOffset), center);
   }
+  updateHash();
 }
 
 function restoreAllFromTrace() {
@@ -1591,6 +1629,74 @@ window.addEventListener('resize', () => {
 // ============================================================
 document.getElementById('loading').classList.add('hidden');
 animate();
+
+// Restore state from URL hash
+const hashParams = parseHash();
+if (hashParams) {
+  suppressHashUpdate = true;
+  if (hashParams.trace) {
+    const trace = TRACES.find(t => t.id === hashParams.trace);
+    if (trace) {
+      traceSelect.value = trace.id;
+      activateTrace(trace);
+      if (hashParams.route !== undefined) {
+        const routeIdx = parseInt(hashParams.route, 10);
+        if (routeIdx >= 0 && routeIdx < trace.routes.length) {
+          activateRoute(trace, routeIdx);
+        }
+      }
+    }
+  }
+  if (hashParams.node && nodeObjects.has(hashParams.node)) {
+    selectNode(hashParams.node);
+  }
+  suppressHashUpdate = false;
+}
+
+// Handle back/forward navigation
+window.addEventListener('hashchange', () => {
+  const params = parseHash();
+  suppressHashUpdate = true;
+  if (!params || (!params.trace && !params.node)) {
+    if (activeTrace) clearTrace();
+    if (selectedNode) deselectNode();
+  } else {
+    // Handle trace changes
+    if (params.trace) {
+      const trace = TRACES.find(t => t.id === params.trace);
+      if (trace) {
+        if (!activeTrace || activeTrace.id !== trace.id) {
+          traceSelect.value = trace.id;
+          activateTrace(trace);
+        }
+        if (params.route !== undefined) {
+          const routeIdx = parseInt(params.route, 10);
+          if (routeIdx >= 0 && routeIdx < trace.routes.length) {
+            activateRoute(trace, routeIdx);
+          } else if (activeRouteIdx >= 0) {
+            // Route cleared from hash but trace still active
+            activeRouteIdx = -1;
+            highlightTraceNodes(trace);
+            document.querySelectorAll('.trace-route').forEach(el => el.classList.remove('active'));
+          }
+        } else if (activeRouteIdx >= 0) {
+          activeRouteIdx = -1;
+          highlightTraceNodes(trace);
+          document.querySelectorAll('.trace-route').forEach(el => el.classList.remove('active'));
+        }
+      }
+    } else if (activeTrace) {
+      clearTrace();
+    }
+    // Handle node changes
+    if (params.node && nodeObjects.has(params.node)) {
+      selectNode(params.node);
+    } else if (selectedNode) {
+      deselectNode();
+    }
+  }
+  suppressHashUpdate = false;
+});
 </script>
 </body>
 </html>
