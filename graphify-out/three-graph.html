@@ -1285,6 +1285,7 @@ LEGEND.forEach(c => {
 // Controls
 // ============================================================
 document.getElementById('btn-reset').addEventListener('click', () => {
+  clearTrace();
   deselectNode();
   animateCamera(new THREE.Vector3(0, 0, 500), new THREE.Vector3(0, 0, 0));
 });
