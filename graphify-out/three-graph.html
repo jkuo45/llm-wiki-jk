@@ -24,6 +24,30 @@
   #search-results { max-height: 200px; overflow-y: auto; padding: 4px 12px; border-bottom: 1px solid #2a2a4e; display: none; }
   .search-item { padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .search-item:hover { background: #2a2a4e; }
+
+  /* Trace panel */
+  #trace-panel { border-bottom: 1px solid #2a2a4e; padding: 0; }
+  #trace-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; cursor: pointer; user-select: none; }
+  #trace-header:hover { background: #16162b; }
+  #trace-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #trace-header .chevron { color: #666; font-size: 10px; transition: transform 0.2s; }
+  #trace-header .chevron.open { transform: rotate(90deg); }
+  #trace-body { padding: 0 14px 12px; display: none; }
+  #trace-body.open { display: block; }
+  #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; cursor: pointer; }
+  #trace-select:focus { border-color: #4E79A7; }
+  #trace-summary { margin-top: 10px; font-size: 12px; color: #bbb; line-height: 1.6; max-height: 120px; overflow-y: auto; }
+  #trace-routes { margin-top: 8px; }
+  .trace-route { padding: 6px 8px; margin: 3px 0; border-radius: 4px; font-size: 12px; cursor: pointer; border-left: 3px solid #4E79A7; background: rgba(78,121,167,0.08); transition: background 0.15s; }
+  .trace-route:hover { background: rgba(78,121,167,0.18); }
+  .trace-route.active { background: rgba(78,121,167,0.25); border-left-color: #7cb3d4; }
+  .trace-route-name { font-weight: 600; color: #ccc; }
+  .trace-route-hops { color: #666; font-size: 10px; margin-left: 6px; }
+  #trace-clear { margin-top: 8px; width: 100%; background: transparent; border: 1px solid #3a3a5e; color: #888; padding: 6px; border-radius: 4px; font-size: 11px; cursor: pointer; transition: all 0.15s; display: none; }
+  #trace-clear:hover { border-color: #4E79A7; color: #e0e0e0; }
+  #trace-key-nodes { margin-top: 8px; }
+  .trace-key-node { display: inline-block; padding: 2px 7px; margin: 2px; border-radius: 3px; font-size: 11px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
+  .trace-key-node:hover { border-color: #4E79A7; color: #e0e0e0; }
   #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; }
   #info-panel h3 { font-size: 12px; color: #aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
   #info-content { font-size: 13px; color: #ccc; line-height: 1.6; }
@@ -105,6 +129,21 @@
     <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
     <div id="search-results"></div>
   </div>
+  <div id="trace-panel">
+    <div id="trace-header">
+      <span>Graph Traces / 圖形追蹤</span>
+      <span class="chevron" id="trace-chevron">&#9654;</span>
+    </div>
+    <div id="trace-body">
+      <select id="trace-select">
+        <option value="">Select a trace...</option>
+      </select>
+      <div id="trace-summary"></div>
+      <div id="trace-routes"></div>
+      <div id="trace-key-nodes"></div>
+      <button id="trace-clear">Clear Trace / 清除追蹤</button>
+    </div>
+  </div>
   <div id="info-panel">
     <h3>Node Info / 節點資訊</h3>
     <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
@@ -159,6 +198,20 @@ async function loadData() {
 }
 
 const { RAW_NODES, RAW_EDGES, LEGEND, graphData } = await loadData();
+
+// ============================================================
+// Trace Loading
+// ============================================================
+let TRACES = [];
+let activeTrace = null;
+let activeRouteIdx = -1;
+
+try {
+  const traceResp = await fetch('trace.json');
+  TRACES = await traceResp.json();
+} catch (e) {
+  console.warn('Could not load traces:', e);
+}
 
 loadStatus.textContent = 'Loading translations...';
 let TRANSLATIONS = {};
@@ -641,6 +694,8 @@ let selectedEdge = null;
 let lastHoveredNodeId = null;
 
 function restoreDefaultLabels() {
+  // If a trace is active, don't restore default labels
+  if (activeTrace) return;
   labelObjects.forEach((label, id) => {
     const nodeData = nodeMap.get(id);
     const mesh = nodeObjects.get(id);
@@ -649,6 +704,8 @@ function restoreDefaultLabels() {
 }
 
 function showHoverLabels(nodeId) {
+  // If a trace is active and no node is selected, keep trace labels
+  if (activeTrace && !selectedNode) return;
   const neighbors = adjacency.get(nodeId) || [];
   const neighborIds = new Set(neighbors.map(n => n.target));
   neighborIds.add(nodeId);
@@ -860,6 +917,17 @@ function deselectNode() {
   selectedNode = null;
   selectedEdge = null;
   lastHoveredNodeId = null;
+  
+  // If a trace is active, restore to trace highlighting
+  if (activeTrace) {
+    if (activeRouteIdx >= 0) {
+      activateRoute(activeTrace, activeRouteIdx);
+    } else {
+      highlightTraceNodes(activeTrace);
+    }
+    document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
+    return;
+  }
   
   nodeMeshes.forEach(m => {
     m.material.emissiveIntensity = 0.15;
@@ -1249,9 +1317,242 @@ function toggleSidebar() {
 mobileToggle.addEventListener('click', toggleSidebar);
 sidebarClose.addEventListener('click', closeSidebar);
 
-// Sidebar starts open, focus on canvas
+// Sidebar starts open, trace panel starts open
 openSidebar();
 document.activeElement?.blur();
+
+// ============================================================
+// Trace Panel UI
+// ============================================================
+const traceSelect = document.getElementById('trace-select');
+const traceSummary = document.getElementById('trace-summary');
+const traceRoutes = document.getElementById('trace-routes');
+const traceKeyNodes = document.getElementById('trace-key-nodes');
+const traceClear = document.getElementById('trace-clear');
+const traceHeader = document.getElementById('trace-header');
+const traceBody = document.getElementById('trace-body');
+const traceChevron = document.getElementById('trace-chevron');
+traceBody.classList.add('open');
+traceChevron.classList.add('open');
+
+// Populate trace dropdown
+TRACES.forEach(t => {
+  const opt = document.createElement('option');
+  opt.value = t.id;
+  opt.textContent = t.title;
+  traceSelect.appendChild(opt);
+});
+
+// Toggle trace panel
+traceHeader.addEventListener('click', () => {
+  traceBody.classList.toggle('open');
+  traceChevron.classList.toggle('open');
+});
+
+// Select trace
+traceSelect.addEventListener('change', () => {
+  const traceId = traceSelect.value;
+  if (!traceId) { clearTrace(); return; }
+  const trace = TRACES.find(t => t.id === traceId);
+  if (trace) activateTrace(trace);
+});
+
+// Clear trace
+traceClear.addEventListener('click', clearTrace);
+
+function clearTrace() {
+  activeTrace = null;
+  activeRouteIdx = -1;
+  traceSelect.value = '';
+  traceSummary.innerHTML = '';
+  traceRoutes.innerHTML = '';
+  traceKeyNodes.innerHTML = '';
+  traceClear.style.display = 'none';
+  restoreAllFromTrace();
+}
+
+function activateTrace(trace) {
+  activeTrace = trace;
+  activeRouteIdx = -1;
+  traceClear.style.display = 'block';
+
+  // Show summary
+  traceSummary.innerHTML = `<div style="color:#aaa;font-size:11px;margin-bottom:4px">${esc(trace.question)}</div><div>${esc(trace.summary)}</div>`;
+
+  // Show routes
+  traceRoutes.innerHTML = '';
+  trace.routes.forEach((route, idx) => {
+    const div = document.createElement('div');
+    div.className = 'trace-route';
+    div.innerHTML = `<span class="trace-route-name">${esc(route.name)}</span><span class="trace-route-hops">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span>`;
+    div.addEventListener('click', () => activateRoute(trace, idx));
+    traceRoutes.appendChild(div);
+  });
+
+  // Show key nodes
+  traceKeyNodes.innerHTML = '<div style="color:#aaa;font-size:11px;margin:6px 0 4px">Key Nodes</div>';
+  trace.keyNodes.forEach(kn => {
+    const span = document.createElement('span');
+    span.className = 'trace-key-node';
+    span.textContent = kn.label;
+    span.title = kn.role;
+    span.addEventListener('click', () => {
+      if (nodeObjects.has(kn.id)) selectNode(kn.id);
+    });
+    traceKeyNodes.appendChild(span);
+  });
+
+  // Highlight all trace nodes
+  highlightTraceNodes(trace);
+}
+
+function getTraceNodeIds(trace) {
+  const ids = new Set();
+  trace.keyNodes.forEach(kn => ids.add(kn.id));
+  trace.routes.forEach(route => route.path.forEach(id => ids.add(id)));
+  if (trace.centerNode) ids.add(trace.centerNode.id);
+  return ids;
+}
+
+function getTraceEdgePairs(trace) {
+  const pairs = new Set();
+  trace.routes.forEach(route => {
+    for (let i = 0; i < route.path.length - 1; i++) {
+      const a = route.path[i], b = route.path[i + 1];
+      pairs.add(`${a}::${b}`);
+      pairs.add(`${b}::${a}`);
+    }
+  });
+  return pairs;
+}
+
+function highlightTraceNodes(trace) {
+  const traceIds = getTraceNodeIds(trace);
+  const traceEdges = getTraceEdgePairs(trace);
+
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (traceIds.has(id)) {
+      m.material.opacity = 1;
+      m.material.emissiveIntensity = 0.5;
+    } else {
+      m.material.opacity = 0.08;
+      m.material.emissiveIntensity = 0.05;
+    }
+  });
+
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    const key = `${edge.from}::${edge.to}`;
+    if (traceEdges.has(key)) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.8;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.02;
+    }
+  });
+
+  // Show labels for trace nodes
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = traceIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+}
+
+function activateRoute(trace, routeIdx) {
+  activeRouteIdx = routeIdx;
+  const route = trace.routes[routeIdx];
+  const routeNodeIds = new Set(route.path);
+
+  // Update route buttons
+  document.querySelectorAll('.trace-route').forEach((el, i) => {
+    el.classList.toggle('active', i === routeIdx);
+  });
+
+  // Highlight only this route's nodes
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (routeNodeIds.has(id)) {
+      m.material.opacity = 1;
+      m.material.emissiveIntensity = 0.6;
+    } else if (getTraceNodeIds(trace).has(id)) {
+      m.material.opacity = 0.25;
+      m.material.emissiveIntensity = 0.15;
+    } else {
+      m.material.opacity = 0.05;
+      m.material.emissiveIntensity = 0.03;
+    }
+  });
+
+  // Highlight route edges
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    let onRoute = false;
+    for (let i = 0; i < route.path.length - 1; i++) {
+      if ((edge.from === route.path[i] && edge.to === route.path[i + 1]) ||
+          (edge.to === route.path[i] && edge.from === route.path[i + 1])) {
+        onRoute = true;
+        break;
+      }
+    }
+    if (onRoute) {
+      line.material.color.set(0x7cb3d4);
+      line.material.opacity = 1;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.02;
+    }
+  });
+
+  // Show labels for route nodes
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = routeNodeIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+
+  // Show route mechanism in info panel
+  if (sidebarInfoActive) {
+    const pathLabels = route.path.map(id => {
+      const n = nodeMap.get(id);
+      return n ? n.label : id;
+    });
+    const pathHtml = route.path.map((id, i) => {
+      const n = nodeMap.get(id);
+      const label = n ? n.label : id;
+      const color = n ? n.color.background : '#555';
+      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:11px;padding:2px 8px">↓</div>` : '';
+      return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
+    }).join('');
+    document.getElementById('info-content').innerHTML = `
+      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:10px;margin-left:6px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
+      <div style="margin:8px 0">${pathHtml}</div>
+      <div class="field" style="font-size:12px;color:#bbb;line-height:1.6">${esc(route.mechanism)}</div>
+    `;
+  }
+
+  // Focus camera on route midpoint
+  const routeMeshes = route.path.map(id => nodeObjects.get(id)).filter(Boolean);
+  if (routeMeshes.length > 0) {
+    const center = new THREE.Vector3(0, 0, 0);
+    routeMeshes.forEach(m => center.add(m.position));
+    center.divideScalar(routeMeshes.length);
+    const cameraOffset = new THREE.Vector3(80, 40, 80);
+    animateCamera(center.clone().add(cameraOffset), center);
+  }
+}
+
+function restoreAllFromTrace() {
+  nodeMeshes.forEach(m => {
+    m.material.emissiveIntensity = 0.15;
+    m.material.opacity = 0.92;
+  });
+  edgeObjects.forEach(line => {
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+    line.material.color.set(0x4a4a6a);
+  });
+  restoreDefaultLabels();
+}
 
 // ============================================================
 // Stats
