@@ -4,7 +4,7 @@ description: Mitophagy is a specialized form of Selective Autophagy that targets
   damaged or dysfunctional Mitochondria for degradation. It is a critical quality
   control mechanism for maintaining mitochondri...
 created: 2024-01-01
-updated: 2026-07-24
+updated: 2026-07-26
 tags:
   - biological-process
   - mitochondria
@@ -24,6 +24,9 @@ A decline in mitophagy is associated with the accumulation of dysfunctional mito
 - Increased [[Reactive Oxygen Species]] (ROS) production.
 - Triggering of [[Inflammaging]].
 - Impaired [[Immune Aging|immune cell function]].
+
+> [!info] Source: [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+> Aging compromises the [[PINK1]]–[[Parkin]] pathway at multiple steps, including inefficient PINK1 stabilization, defective autophagosome formation, and reduced lysosomal clearance. In [[Stem Cells|stem cell]] compartments, impaired mitophagy is linked to loss of quiescence, reduced self-renewal, and premature functional exhaustion. Failed "fission–mitophagy coupling" creates a permissive state where mutant/[[Mitochondrial ROS|ROS-producing]] mitochondria persist long enough to engage mitochondrial danger pathways — [[Mitochondrial DNA|mtDNA]] can translocate to the cytosol and activate [[cGAS-STING Pathway|cGAS–STING]]/type I IFN and [[NF-κB]] programs.
 ## Regulation
 Mitophagy can be modulated by various factors, including energy status (via [[AMPK]]), and pharmacological agents that act as [[Autophagy Inducer|autophagy inducers]].
 The selective degradation of mitochondria by [[Autophagy]]. It is a critical quality control mechanism to remove damaged or dysfunctional mitochondria, often regulated by the [[PINK1]]/[[Parkin]] pathway.
@@ -58,6 +61,9 @@ List of documents that mention this entity
 
   - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Cleanup: Urolithin A (Mitophagy inducer). 1.2 Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
+
+  - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+    - Impaired mitophagy in aging permits persistence of dysfunctional mitochondria, enabling mtDNA/mtDAMP escape and cGAS–STING activation that drives inflammaging and stem cell exhaustion.
 
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
     - Mounting evidence indicates that Mitophagy, which encompasses selective degradation of damaged or excessive mitochondria, is an especially crucial regulator of Innate Immune System function (Gkikas et al., 2018).

@@ -3,15 +3,15 @@ title: _Link notes
 aliases: []
 description: Index of wiki notes for _link
 created: 2026-07-06
-updated: 2026-07-17
+updated: 2026-07-26
 ---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 24_JULY_2026 12:00 PM PDT
-- Total count of entities: 432
+- Last updated: 26_July_2026 12:00 PM PDT
+- Total count of entities: 434
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | [[Checkpoint Inhibitor]] | 25_July_2026 12:00 PM PDT | drug-class | Cancer, Immunology |
@@ -130,6 +130,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Incoherent Bivalent Motif]]                     | 09_Jul_2026 02:41 PM | Scientific Concept     | Hormesis, Network Motif, Systems Biology        |
 | [[Inflammaging]]                                 | 29_May_2026 08:20 AM | Biological Process     | Immunology, Aging                               |
 | [[Inflammation]]                                 | 29_May_2026 08:20 AM | Biological Process     | Immunology                                      |
+| [[Intestinal Stem Cell]]                         | 26_Jul_2026 12:00 PM | Stem Cell              | Stem Cells, Aging, Mitochondria, Intestine      |
 | [[Interferon-gamma]]                             | 08_Jul_2026 12:00 PM | Biological Molecule    | Cytokine, Immunology                            |
 | [[Iodoacetic Acid]]                              | 08_Jul_2026 12:00 PM | Chemical Compound      | Glycolysis Inhibitor, Oxidative Stress          |
 | [[Ischemic Stroke]]                              | 08_Jul_2026 11:28 AM | Medical Condition      | Neurology, Cerebrovascular                      |
@@ -153,6 +154,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Methylene blue]]                               | 08_Jul_2026 11:28 AM | Chemical Compound      | Pharmacology, Mitochondrial Support             |
 | [[Mitochondria]]                                 | 29_May_2026 08:20 AM | Anatomy                | Organelle, Metabolism                           |
 | [[Mitochondria]]                                 | 08_Jul_2026 12:00 PM | Anatomy                | Organelle, Mitochondrial                        |
+| [[Mitochondria-Associated Membranes]]            | 26_Jul_2026 12:00 PM | Organelle Structure    | Mitochondria, ER, Aging, Calcium Signaling      |
 | [[Mitochondrial Electron Transport Chain]]       | 08_Jul_2026 11:28 AM | Biological Process     | Mitochondria, Bioenergetics                     |
 | [[Mitochondrial Membrane Potential]]             | 08_Jul_2026 12:00 PM | Scientific Concept     | Mitochondria, Bioenergetics                     |
 | [[Mitochondrial-Derived Peptide]]               | 09_Jul_2026 12:00 PM | Chemical Compound      | Mitochondrial Signaling, Endocrine, Peptide     |

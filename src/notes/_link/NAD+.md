@@ -4,7 +4,7 @@ description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme fou
   in every cell, essential for energy Metabolism and a vital signaling molecule. It
   serves as an obligatory co-substrate for all ...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-26
 tags:
   - chemical-compound
   - nad+
@@ -38,6 +38,21 @@ NAD+ levels decline with age, linked to:
 - [[Mitochondria|Mitochondrial]] dysfunction
 - Reduced sirtuin activity and loss of epigenetic control
 - Accumulated [[DNA Repair|DNA damage]]
+
+> [!info] Source: [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+> NAD+ depletion represents a central metabolic axis of mitochondrial failure in aging, with direct consequences for energy homeostasis, stem cell function, and longevity. The decline arises from both reduced biosynthetic capacity and increased degradation via [[CD38]], [[PARP1]], and [[SARM1]]. CD38 becomes hyperactive with age, hydrolyzing NAD+ into ADPR and contributing to calcium imbalance, mitochondrial fragmentation, and oxidative stress.
+
+> [!info] Source: [[_document_ - Chemotherapy NAD+ Loss Pöllänen 2026]]
+> [[Chemotherapy]] alone — independent of tumor burden — can disrupt tissue NAD+ metabolism. Cisplatin (−14%) and prolonged FOLFIRI (−18%) reduce skeletal muscle NAD+ levels, paralleling findings in cancer cachexia. The NAD+ biosynthetic enzyme [[NRK2|Nrk2]] is an early, responsive marker of these changes.
+
+### NAD+ and Mitochondrial Dysfunction-Associated Senescence (MiDAS)
+
+A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dysfunction-associated senescence]] (MiDAS) via AMPK–p53 signaling, coupled to a distinct secretory phenotype with attenuated IL-1–dependent inflammatory arm of the [[SASP]].
+
+### NAD+ and Stem Cells
+
+> [!info] Source: [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+> In aged [[Muscle Stem Cell|MuSCs]], neural stem cells, and melanocyte stem cells, NAD+ depletion leads to senescence, loss of quiescence, and diminished regenerative capacity. Restoring NAD+ with [[Nicotinamide Riboside|NR]] reactivated mitochondrial metabolism, upregulated prohibitin proteins, and induced the [[Mitochondrial Unfolded Protein Response|UPR^mt^]], delaying stem cell senescence and extending lifespan.
 
 ## Biosynthesis
 
@@ -80,8 +95,14 @@ List of documents that mention this entity
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - The coenzyme Sirtuins use for DNA repair and mitochondrial biogenesis; NAD+ peaks circadianly in the morning, so [[NMN]]/[[NR]] are taken on waking.
 
-- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+  - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
   - SIRT1 activity is gated by NAD+ availability; the BMAL1/CLOCK→NAMPT axis generates circadian NAD+ oscillations that rhythmically activate SIRT1.
+
+  - [[_document_ - Chemotherapy NAD+ Loss Pöllänen 2026]]
+    - Chemotherapy alone disrupts tissue NAD+ metabolism; cisplatin (−14%) and prolonged FOLFIRI (−18%) reduce muscle NAD+; Nrk2 is an early responsive marker.
+
+  - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+    - NAD+ depletion is a central metabolic axis of mitochondrial failure in aging; compromises sirtuin-dependent resilience and enforces MiDAS; stem cells are especially vulnerable.
 
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes

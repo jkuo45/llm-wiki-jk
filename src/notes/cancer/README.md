@@ -3,7 +3,7 @@ title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
-updated: 2026-07-09
+updated: 2026-07-26
 ---
 # Cancer
 
@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 25_July_2026 12:00 PM PDT
-- Total count of entities: 322
+- Last updated: 26_July_2026 12:00 PM PDT
+- Total count of entities: 325
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -91,6 +91,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[FAK]] | 26_May_2026 05:03 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Fas]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Death receptor that initiates the extrinsic apoptotic pathway upon ligand binding. |
 | [[Fenbendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Benzimidazole anthelmintic showing significant potential in disrupting microtubule dynamics in cancer. |
+| [[FOLFIRI]] | 26_Jul_2026 12:00 PM PDT | Chemotherapy Regimen | 8 | -1 | Combination chemotherapy (5-FU/leucovorin/irinotecan); induces NAD+ loss and Nrk2 downregulation in skeletal muscle. |
+| [[FOLFOX]] | 26_Jul_2026 12:00 PM PDT | Chemotherapy Regimen | 8 | -1 | Combination chemotherapy (5-FU/leucovorin/oxaliplatin); downregulates muscle Nrk2 despite preserved NAD+ levels. |
 | [[Fibrinogen]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Fibronectin]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[FYN]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | Src family kinase that phosphorylates Caspase-8 to suppress its activity. |
@@ -149,6 +151,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Nasopharyngeal Carcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Neuropilin-1]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[NFκB]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[NRK2]] | 26_Jul_2026 12:00 PM PDT | Enzyme | 9 | 0 | Muscle-specific NAD+ biosynthetic enzyme; early, responsive marker of muscle mass changes in cachexia and chemotherapy-induced wasting. |
 | [[non-small-cell lung cancer]] | 31_May_2026 05:30 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Nutlins]] | 31_May_2026 05:30 PM PDT | Chemical Class | 8 | 1 | Small-molecule inhibitors of the MDM2-p53 interaction. |
 | [[Oblimersen sodium]] | 31_May_2026 05:30 PM PDT | Medical Product | 8 | 1 | Antisense oligonucleotide designed to inhibit Bcl-2 production. |

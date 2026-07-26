@@ -2,7 +2,7 @@
 title: Cachexia
 description: A multifactorial syndrome of severe body-weight loss, muscle and fat wasting driven by systemic inflammation and catabolic signaling, complicating chronic disease.
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-07-26
 tags:
   - medical-condition
   - wasting-syndrome
@@ -30,8 +30,36 @@ Progressive weakness, fatigue, anorexia, and hypoalbuminemia. Biomarkers include
 
 Management targets the underlying disease plus appetite/anabolic agents (e.g., ghrelin analogs, [[Selective Androgen Receptor Modulators|SARMs]]) and anti-inflammatory strategies. [[Urolithin A]] is under investigation for preserving muscle mass by balancing synthesis/degradation and improving [[Mitochondria|mitochondrial]] health.
 
+### Chemotherapy-Induced Cachexia
+
+> [!info] Source: [[_document_ - Chemotherapy NAD+ Loss Pöllänen 2026]]
+> [[Chemotherapy]] alone — independent of tumor burden — can induce cachexia-like metabolic signatures. Chemotherapy-induced cachexia shares a core [[NAD+]] metabolic signature with cancer cachexia, characterized by skeletal muscle NAD+ loss and [[NRK2|Nrk2]] downregulation. Cisplatin induces the most severe phenotype (−14% muscle NAD+, −93% Nrk2), followed by prolonged FOLFIRI (−18% NAD+, −84% Nrk2).
+
+### NAD+ Metabolism in Cachexia
+
+- [[NAD+]] deficiency has been implicated in the pathophysiology of both cancer- and chemotherapy-induced cachexia
+- NAD+ repletion (e.g., with niacin) exerts therapeutic effects against both cancer- and cancer plus chemotherapy-induced cachexia
+- [[NRK2|Nrk2]] downregulation is an early, robust feature of cachexia across species and models
+
+### Nrk2 as a Biomarker
+
+> [!important] Nrk2 Expression Tracks Muscle Mass
+> [[NRK2|Nrk2]] expression in skeletal muscle dynamically tracks changes in muscle mass across wasting and hypertrophy conditions. It is consistently downregulated in cachexia across murine models (C26, KPC, LLC) and human studies, and restored by cachexia-targeted interventions (activin receptor ligand blockade, IL-6 deficiency, FoxO inhibition, GDF15 neutralization).
+
 ## Connections
 
 - [[TNF-alpha]] / [[IL-6]] → drives → [[Cachexia]]
 - [[FOXO]] → induces → [[Atrogin-1]] / [[MuRF1]]
 - [[Urolithin A]] → may mitigate → [[Cachexia]]
+- [[NAD+]] — Depletion implicated in cancer- and chemotherapy-induced cachexia; repletion is therapeutic
+- [[NRK2]] — Consistently downregulated in cachexia; potential biomarker of muscle mass changes
+- [[Chemotherapy]] — Can induce cachexia independent of tumor burden
+- [[Skeletal Muscle]] — Primary tissue affected in cachexia
+- [[Mitochondria]] — Mitochondrial dysfunction contributes to cachexia pathophysiology
+
+## Documents
+
+List of documents that mention this entity
+
+- [[_document_ - Chemotherapy NAD+ Loss Pöllänen 2026]]
+  - Demonstrates that chemotherapy alone induces cachexia-like metabolic signatures with NAD+ loss and Nrk2 downregulation in skeletal muscle.

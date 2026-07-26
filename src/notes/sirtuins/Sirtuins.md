@@ -4,7 +4,7 @@ description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide aden
   dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases
   (HDACs). Spanning all domains of life, sirtu...
 created: 2026-07-04
-updated: 2026-07-05
+updated: 2026-07-26
 tags:
   - protein
   - epigenetics
@@ -193,6 +193,9 @@ List of documents that mention this entity
 - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
   - The review frames SIRT1 as the paradigmatic sirtuin whose context-dependent deacetylase activity couples cellular metabolism to stress adaptation and disease.
 
+- [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+  - NAD+ depletion compromises sirtuin-dependent resilience, particularly SIRT1 and SIRT3, weakening antioxidant defenses and mitochondrial detoxification. Reduced sirtuin activity enforces MiDAS and contributes to inflammaging.
+
 ## Connections
 
 - [[SIRT2]]: - **Class I**: SIRT1, SIRT2, and [[SIRT3]] (possess robust deacetylase activity).
@@ -215,6 +218,10 @@ List of documents that mention this entity
 - [[NMN]]: - **NAD+ Precursors (Pan-Sirtuin Activators)**: - **NMN (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; eleva...
 - [[Nicotinamide Riboside]]: - **[[NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 - [[SIRT1]]: SIRT1 is the most extensively characterized sirtuin discussed.
+- [[Mitochondria]]: Sirtuins regulate mitochondrial biogenesis, dynamics, and quality control
+- [[Inflammaging]]: Reduced sirtuin activity (due to NAD+ depletion) contributes to inflammaging
+- [[Mitochondrial Unfolded Protein Response]]: NAD+ restoration enhances UPR^mt^ activity via sirtuins
+- [[Stem Cells]]: Sirtuin-dependent NAD+ metabolism is critical for stem cell quiescence and regeneration
 
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NF-κB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]

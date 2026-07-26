@@ -4,7 +4,7 @@ description: Inflammaging is a state of chronic, low-grade, systemic inflammatio
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-26
 tags:
   - biological-process
 aliases: []
@@ -24,6 +24,35 @@ Inflammaging contributes to the pathogenesis of various conditions, including:
 - [[Osteoarthritis]]
 ## Mitigation
 Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy induction]], anti-inflammatory diets, and interventions targeting the [[Immune System]]'s rejuvenation.
+
+## Mitochondrial Drivers of Inflammaging
+
+> [!info] Source: [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+> [[Mitochondria|Mitochondrial]] dysfunction is not merely a hallmark of aging but an upstream driver of inflammaging. Mitochondrial damage can be decoded as inflammation through [[cGAS-STING Pathway|cGAS–STING]] and [[NF-κB]] pathways.
+
+### mtDNA and mtDAMP-Driven Innate Immune Activation
+
+- Cytosolic [[Mitochondrial DNA|mtDNA]] acts as a [[Damage-Associated Molecular Patterns|damage-associated molecular pattern (DAMP)]], engaging the [[cGAS-STING Pathway|cGAS–STING axis]] and inducing type I interferon responses and [[SASP]]
+- **Minority MOMP** (sublethal mitochondrial outer membrane permeabilization) allows mtDNA release without full apoptotic execution
+- Mitochondrial lipid peroxidation byproducts (4-HNE, oxidized cardiolipin) stimulate inflammatory pathways via toll-like receptors and [[Inflammasome|inflammasomes]]
+
+### Mitochondrial Quality Control Failure
+
+- Erosion of [[Mitochondrial Quality Control]] (fission–fusion balance, [[Mitophagy]], [[Mitochondrial Unfolded Protein Response|UPR^mt^]]) permits persistence of [[Mitochondrial ROS|ROS-producing organelles]]
+- Failed "fission–mitophagy coupling" creates a permissive state where mutant/ROS-producing mitochondria persist long enough to engage mitochondrial danger pathways
+- Defective [[Mitophagy]] promotes retention of dysfunctional mitochondria with pathologically elevated ROS output
+
+### NAD+ Depletion and Sirtuin Impairment
+
+- [[NAD+]] depletion compromises [[Sirtuins|sirtuin]]-dependent resilience, particularly [[SIRT3]]
+- Reduced SIRT3 activity weakens antioxidant defenses and mitochondrial detoxification mechanisms
+- A reduced NAD+/NADH ratio triggers [[Senescence|mitochondrial dysfunction-associated senescence]] (MiDAS)
+
+### Mitochondrial Ca²⁺ Dysregulation
+
+- Remodeling of ER–mitochondria Ca²⁺ transfer at [[Mitochondria-Associated Membranes|MERCs]] amplifies [[Mitochondrial ROS|ROS]] and destabilizes membrane integrity
+- In stem cell compartments, impaired Ca²⁺ buffering erodes quiescence and biases premature differentiation/senescence
+- The resulting inflammatory milieu remodels the niche and entrenches chronic low-grade inflammation
 
 
 #
@@ -58,6 +87,9 @@ List of documents that mention this entity
   - [[_document_ - Shingles vaccine may slow biological aging and reduce inflammation|Shingles vaccine may slow biological aging and reduce inflammation]]
     - Shingles vaccination associated with lower chronic inflammation (inflammaging) and slower epigenetic/transcriptomic aging — a modulator of the inflammaging state.
 
+  - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+    - Comprehensive review establishing mitochondrial dysfunction as an upstream driver of inflammaging via mtDNA/mtDAMP release, cGAS–STING activation, NAD+ depletion, and quality control failure.
+
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Cytokines]] — interacts with Inflammaging
@@ -87,6 +119,17 @@ List of documents that mention this entity
 - [[Idiopathic Pulmonary Fibrosis]]: Age-related disease where chronic inflammation/fibrosis coexist.
 - [[Shingles Vaccine]]: Intervention associated with lower inflammaging.
 - [[Varicella Zoster Virus]]: Reactivation source of chronic inflammatory stress.
+- [[Mitochondria]] — Mitochondrial dysfunction is an upstream driver of inflammaging
+- [[Mitochondrial DNA]] — Cytosolic mtDNA activates cGAS–STING, driving inflammaging
+- [[Mitochondrial Quality Control]] — MQC failure permits persistence of ROS-producing organelles
+- [[Mitophagy]] — Defective mitophagy promotes retention of dysfunctional mitochondria
+- [[Mitochondrial Unfolded Protein Response]] — UPR^mt^ attenuation during aging contributes to inflammaging
+- [[Mitochondrial ROS]] — Causal driver feeding forward into inflammaging
+- [[NAD+]] — Depletion compromises sirtuin-dependent resilience
+- [[SIRT3]] — Weakened antioxidant defenses when NAD+ is depleted
+- [[Mitochondria-Associated Membranes]] — MERC Ca²⁺ dysregulation amplifies ROS and inflammaging
+- [[Stem Cells]] — Mitochondrial dysfunction in stem cells couples to inflammaging via niche remodeling
+- [[Damage-Associated Molecular Patterns]] — mtDAMPs activate innate immune sensors
 ## Linking Summary
 - New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1β]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]

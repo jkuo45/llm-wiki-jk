@@ -2,7 +2,7 @@
 title: Cellular Senescence
 description: Cellular Senescence is a state of permanent cell cycle arrest triggered by DNA damage, oxidative stress, telomere erosion, or oncogene activation. Senescent cells secrete a pro-inflammatory SASP that drives aging and tissue dysfunction.
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-07-26
 tags:
   - biological-process
   - senescence
@@ -111,6 +111,9 @@ List of documents that mention this entity
   - [[task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
     - Places Senescence on the shortest path from adrenochrome (via DGCR8/Drosha Microprocessor dysfunction) to inflammaging through the SASP.
 
+  - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
+    - Mitochondrial dysfunction-associated senescence (MiDAS) is driven by NAD+/redox collapse via AMPK–p53 signaling, coupled to a distinct SASP with attenuated IL-1–dependent inflammatory arm.
+
 ## Connections
 - [[Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
 - [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
@@ -144,6 +147,10 @@ List of documents that mention this entity
 - [[Immunosenescence]]: age-related immune deterioration with senescence-like features
 - [[Senolytic Therapy]]: eliminating senescent cells alleviates senescence-driven dysfunction
 - [[Senomorphic Therapy]]: suppressing SASP blunts senescence-driven inflammation
+- [[Mitochondria]]: Mitochondrial dysfunction drives MiDAS and sustains SASP
+- [[NAD+]]: Depletion triggers MiDAS via AMPK–p53 signaling
+- [[Mitochondrial ROS]]: ROS from dysfunctional mitochondria activates p53 and p16 pathways
+- [[Mitochondrial DNA]]: mtDNA release activates cGAS–STING, reinforcing senescence
 
 ## Linking Summary
 - New links added: [[Chromatin]], [[Epigenetics]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
