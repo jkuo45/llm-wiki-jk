@@ -38,7 +38,15 @@ Activated BAK hetero-oligomerizes with [[BAX]] and additional BAK subunits, perm
 ## Physiology, Redox & Longevity
 BAK-mediated permeabilization intersects with [[Mitochondrial Dysfunction]], senescent-cell survival, and [[Inflammaging]]. Cells that downregulate BAK/BAX resist death and contribute to the [[SASP|Senescence-Associated Secretory Phenotype]] in aging. Senotherapeutics and [[Nicotinamide Riboside]]-associated metabolic remodeling influence these pathways, positioning BAK as a longevity-relevant node linking apoptosis, mitophagy, and redox control.
 
+## Metformin-Induced Activation in MYC^high^ Cancer
+
+> [!info] Source: [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+> [[Metformin]] induces conformational [[BAK]] activation (exposing the N-terminal neoepitope) preferentially in MYC^high^ [[triple-negative breast cancer|TNBC]] cells, with 40–60% of cells staining BAK-positive at 72h. [[BAX]] is not activated under the same conditions. In breast epithelial cells, BAK conformational activation reflects mitochondrial apoptotic sensitization rather than execution of [[Apoptosis]] — downstream events (BAX activation, caspase cleavage) require additional stimuli. This MYC-dependent BAK priming positions Complex I inhibition as a sensitization strategy for combination therapies.
+
 ## Documents
+
+  - [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+    - Metformin induces conformational BAK activation preferentially in MYC^high^ TNBC cells (40–60% BAK+ at 72h); BAX is not activated under the same conditions.
 
   - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in Cancer]]
     - Frames BAK alongside BAX as the effector arm cancers must disable to survive.

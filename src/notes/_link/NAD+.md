@@ -27,6 +27,11 @@ aliases:
 
 All sirtuins absolutely require NAD+ to catalyse deacetylation: one molecule of NAD+ is hydrolysed per deacetylation event, producing [[OAADPr]] and nicotinamide. This dependence positions sirtuins as **sensors of cellular energy and redox states**.
 
+## Role in Cancer Metabolism
+
+> [!info] Source: [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+> [[Complex I]]-mediated oxidation of NADH regenerates NAD+ in the [[Mitochondria|mitochondrial]] pool, sustaining the [[TCA cycle]] dehydrogenase enzymes that use NAD+ as a hydride acceptor. In [[MYC]]^high^ cancer cells, this coupling is critical: MYC rewires the TCA cycle to run on [[Glutamine]] carbon, making Complex I-dependent NAD+ regeneration indispensable. Pharmacological inhibition of Complex I depletes NAD+, causing reductive stress (increased NADH:NAD+ ratio), TCA cycle stagnation, and [[Synthetic Lethality|synthetic lethality]] when combined with [[Glutaminolysis]] inhibition.
+
 ## NAD+ and [[Aging]]
 
 NAD+ levels decline with age, linked to:
@@ -44,7 +49,10 @@ NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotini
 
 List of documents that mention this entity
 
-  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
+  - [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+    - Complex I regenerates NAD+ to sustain the glutamine-fueled TCA cycle in MYC^high^ cancers; NAD+ depletion by Complex I inhibitors is synthetic lethal.
+
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
     - In stress conditions, NAD+ biosynthesis and levels decrease as well as the activity of consuming enzymes rises.
 
   - [[_document_ - MRR - mitohormesis|mitohormesis]]
@@ -87,7 +95,10 @@ List of documents that mention this entity
 - [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
 - [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
 - [[NAMPT]]: NAMPT produces NAD+ in a circadian (BMAL1/CLOCK-driven) manner to gate SIRT1.
-- [[BMAL1]]: BMAL1/CLOCK drive rhythmic NAD+ and SIRT1 activation.## Additional Content from Topic Directory
+- [[BMAL1]]: BMAL1/CLOCK drive rhythmic NAD+ and SIRT1 activation.
+- [[Complex I]]: Oxidizes NADH to regenerate NAD+ in mitochondria; inhibition depletes NAD+ and collapses the TCA cycle.
+- [[TCA cycle]]: NAD+ is the obligate co-substrate for TCA dehydrogenases; Complex I-dependent regeneration sustains cycle function.
+- [[MYC]]: MYC^high^ cells depend on Complex I-regenerated NAD+ for glutamine-fueled TCA cycle.## Additional Content from Topic Directory
 
 **[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[Metabolism]] and serves as a vital signaling molecule for various biological processes.
 

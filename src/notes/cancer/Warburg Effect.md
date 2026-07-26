@@ -23,6 +23,11 @@ The [[Warburg Effect]] refers to the observation that [[Cancer]] cells, unlike m
 - **Oncogenes and Tumor Suppressors:** The Warburg Effect is driven by activation of oncogenes like [[MYC]] and [[RAS]], and loss of tumor suppressors like [[p53]].
 - **Therapeutic Inhibition:** Targeting enzymes in the glycolytic pathway (e.g., [[Hexokinase 2]], [[Pyruvate Kinase M2]]) or glucose transporters (e.g., [[GLUT1]]) are active areas of research. [[Fenbendazole]] is thought to interfere with this effect.
 
+## MYC-Driven OXPHOS: A Complementary Phenotype
+
+> [!info] Source: [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+> High [[MYC]] activity promotes elevated [[OXPHOS]] and mitochondrial respiration, seemingly counter to the [[Warburg Effect]]. However, these are complementary: MYC enhances [[Glycolysis|glucose catabolism]] and lactate export (consistent with Warburg) while simultaneously driving a [[Glutamine|glutamine-fueled]] [[TCA cycle]] via [[Complex I]]-dependent [[NAD+]] regeneration. The glucose-derived carbon is diverted to biosynthetic shunts (pentose phosphate pathway, glycerolipid synthesis), while glutamine provides TCA cycle carbon. This dual metabolic program supports both bioenergy and biomass production in MYC^high^ cancers.
+
 ## Connections
 - **Related Processes:** [[Glycolysis]], [[Metabolic Reprogramming]], [[Oxidative Stress]], [[Hypoxia]]
 - **Key Molecules:** [[Glucose]], [[Lactate]], [[Pyruvate]], [[ATP]]

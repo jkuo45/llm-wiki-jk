@@ -25,6 +25,11 @@ Glutaminase converts glutamine to glutamate, which is further transaminated to Î
 
 Glutaminolysis is a hallmark of rapidly dividing cancer cells, which depend on glutamine ("glutamine addiction") for survival. In [[Pancreatic Cancer]] and other malignancies, TFEB-mediated glutaminase upregulation supports the metabolic flexibility that underlies therapy resistance. Pharmacological inhibition of glutaminase (e.g., with CB-839 / telaglenastat, BPTES, or JHU083) reduces autophagic flux, lowers Î±-KG, and sensitizes tumor cells to chemotherapy and targeted agents, making GLS a candidate vulnerability in [[Cancer]] metabolism. Conversely, glutaminase-derived glutamate and glutathione tie into [[Oxidative Stress]] buffering, while the ammonia-autophagy axis highlights glutaminase as a bridge between nutrient sensing, [[Autophagy]], and cellular resilience in [[Aging]] and disease.
 
+## Combination with Complex I Inhibitors in MYC^high^ Cancer
+
+> [!info] Source: [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+> [[CB-839]] (glutaminase inhibitor) monotherapy shows limited antitumor activity in [[triple-negative breast cancer|TNBC]] PDX models, but combined with [[Complex I]] inhibitors ([[Mubritinib]], [[Metformin]]) produces persistent tumor growth suppression in MYC^high^ models. The mechanism: [[MYC]] rewires the [[TCA cycle]] to run on [[Glutamine]] carbon, making Complex I-dependent [[NAD+]] regeneration indispensable. Blocking both glutaminolysis and NAD+ regeneration collapses the glutamine-fueled TCA cycle, creating a [[Synthetic Lethality|synthetic lethal]] vulnerability. Clinical trials of CB-839 in unselected TNBC showed limited efficacy, suggesting MYC^high^ status as a biomarker for patient stratification.
+
 ## Documents
 
 List of documents that mention this entity

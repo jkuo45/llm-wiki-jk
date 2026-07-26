@@ -20,6 +20,11 @@ protected: true
 - **Molecular Targets**: Frequently overexpresses [[EGFR]] (approx. 50% of cases), but often shows resistance to standard anti-EGFR therapies.
 - **Signaling**: Highly dependent on the [[PI3K]]/[[Akt]]/[[mTOR]] pathway.
 
+## MYC^high^ Stratification & Metabolic Vulnerability
+
+> [!info] Source: [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+> About 50% of TNBC tumors contain high proportions of MYC^high^ cells. A MYC V1V2 signature (combining HALLMARK\_MYC\_TARGETS\_V1 and V2) accurately predicts MYC protein expression and stratifies TNBC cell lines into MYC^high^ and MYC^low^ groups. MYC^high^ TNBC cells show elevated [[OXPHOS]], enriched mitochondrial respiration signatures, and a [[Glutamine|glutamine-fueled]] [[TCA cycle]]. They are selectively vulnerable to [[Complex I]] inhibitors ([[Metformin]], [[Mubritinib]], [[BAY 87-2243]]) combined with [[Glutaminase]] inhibition ([[CB-839]]).
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,6 +42,11 @@ List of documents that mention this entity
 - [[melittin]]: Shown to selectively induce cell death in TNBC.
 - [[Ivermectin]]: Can restore sensitivity to [[tamoxifen]] in TNBC cells and selectively targets [[Cancer Stem Cells]] in this subtype.
 - [[docetaxel]]: A chemotherapy agent often used in combination treatments.
+- [[MYC]]: ~50% of TNBC tumors contain high proportions of MYC^high^ cells; MYC V1V2 signature enables stratification.
+- [[OXPHOS]]: MYC^high^ TNBC cells show elevated oxidative phosphorylation.
+- [[Complex I]]: MYC^high^ TNBC is selectively vulnerable to Complex I inhibition.
+- [[Metformin]]: Weak Complex I inhibitor; induces senescence-associated features and BAK activation in MYC^high^ TNBC.
+- [[CB-839]]: Glutaminase inhibitor; effective in combination with Complex I inhibitors in MYC^high^ TNBC PDX models.
 
 ## Linking Summary
 - New links added: [[Akt]], [[Breast Cancer]], [[Cancer Stem Cells]], [[EGFR]], [[HER2]], [[Ivermectin]], [[PI3K]], [[docetaxel]], [[mTOR]], [[melittin]], [[tamoxifen]]

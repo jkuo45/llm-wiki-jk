@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 16_July_2026 12:00 PM PDT
-- Total count of entities: 316
+- Last updated: 25_July_2026 12:00 PM PDT
+- Total count of entities: 322
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -244,6 +244,12 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
 | [[Tumour Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
 | [[task_output_caspase_01_JUN_2026]] | 16_July_2026 12:00 PM PDT | Document | 9 | 0 | Research report on five critical phosphorylation switches in apoptotic signaling: Caspase-8/SHP1, Caspase-7/PAK2, BAX/Pin1, BAK/PTPN5, XIAP/TBK1. |
+| [[BAY 87-2243]] | 25_July_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Q-site Complex I inhibitor with MYC-high selectivity in TNBC drug screen. |
+| [[Mubritinib]] | 25_July_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Q-site Complex I inhibitor (TAK-165); highest MYC selectivity; synergistic with CB-839 in MYC-high TNBC PDX models. |
+| [[α-Ketoglutarate]] | 25_July_2026 12:00 PM PDT | Chemical Compound | 7 | 0 | Key TCA cycle intermediate derived from glutamine; accumulates upon Complex I inhibition. |
+| [[Anaplerosis]] | 25_July_2026 12:00 PM PDT | Biological Process | 7 | 0 | Replenishment of TCA cycle intermediates; glutamine anaplerosis is the dominant route in MYC-high cancer cells. |
+| [[Synthetic Lethality]] | 25_July_2026 12:00 PM PDT | Scientific Concept | 9 | 1 | Therapeutic strategy; combined Complex I + glutaminolysis inhibition selectively kills MYC-high cells. |
+| [[Glutaminolysis]] | 25_July_2026 12:00 PM PDT | Biological Process | 8 | 0 | Metabolic pathway of glutamine catabolism for TCA cycle entry; MYC enhances glutaminolysis in cancer. |
 
 ## Consolidated to notes/_link/
 

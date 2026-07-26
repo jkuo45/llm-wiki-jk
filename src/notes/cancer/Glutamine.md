@@ -38,6 +38,11 @@ Many [[Cancer|cancers]] exhibit a high dependency on glutamine for growth and su
 - **Redox Balance**: Glutamine metabolism supports the production of [[Glutathione]], a major intracellular antioxidant, helping cancer cells manage oxidative stress.
 - **Signaling**: The [[MYC]] oncogene is a key regulator of glutamine metabolism, upregulating glutamine transporters (e.g., [[ASCT2|SLC1A5]]) and glutaminase expression.
 
+### MYC-Driven Carbon Switching
+
+> [!info] Source: [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
+> [[MYC]] rewires the [[TCA cycle]] to run primarily on [[Glutamine|glutamine-derived]] carbon, shifting away from glucose-derived carbon. Metabolic ^13^C tracing shows that MYC activation significantly increases glutamine-derived carbon enrichment in all TCA cycle intermediates (glutamate M+5, [[α-Ketoglutarate|α-ketoglutarate]] M+5, succinate/fumarate/malate M+4). Meanwhile, glucose-derived carbon is diverted to [[Glycolysis]], the pentose phosphate pathway, and glycerolipid synthesis. This metabolic switch renders MYC^high^ cells dependent on glutamine for TCA cycle function and vulnerable to combined [[Complex I]] + [[Glutaminolysis]] inhibition.
+
 ## Physiological Function
 
 In healthy individuals, glutamine is vital for:
