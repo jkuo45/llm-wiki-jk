@@ -78,12 +78,16 @@ List of documents that mention this entity
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - Chronically suppressed HRV crosses mitohormesis into systemic inflammation/overtraining; omega-3s and NRF2 activators lower baseline inflammation.
 
+  - [[_document_ - Thymic Rejuvenation and Aging|Thymic Rejuvenation and Aging]]
+    - [[Ghrelin]] reduces age-associated inflammatory responses in mice; ghrelin and GH levels decrease with age, correlating with functional [[Thymic Involution|thymic involution]] and generalized elevated inflammation (Dixit et al., 2007).
+
 ## Connections
 - [[Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
 - [[Adrenochrome]] ↔ An oxidative byproduct formed at sites of inflammation.
 - [[Oxidative Stress]] ↔ A state closely linked with and often caused by inflammation.
 - [[Reactive Oxygen Species]] ↔ The chemicals used by immune cells that also oxidize adrenaline.
 - [[Myeloperoxidase]] ↔ The enzyme that catalyzes this process during the inflammatory response.
+- [[Ghrelin]] ↔ Suppresses age-associated inflammatory responses in the thymus and periphery.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Advanced Glycation End Products]], [[NF-κB]], [[Cytokines]], [[Adrenochrome]], [[Epinephrine]], [[Hydrogen Peroxide]], [[IL-1β]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[NF-κB]], [[Neuromelanin]], [[Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]], [[TNFα]], [[IL-6]], [[Interleukin 1β]], [[NLRP3 Inflammasome]], [[Caspase-1]], [[NADPH Oxidase]], [[COMT]], [[MAO]], [[GlyNAC]], [[Glutathione]]

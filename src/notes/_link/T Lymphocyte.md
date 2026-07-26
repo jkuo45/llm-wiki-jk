@@ -1,32 +1,55 @@
 ---
 title: T Lymphocyte
-description: 'Overview: T Lymphocyte is a specialized cellular or anatomical structure'
-  with defined functions in tissue organization and physiology.
+description: A specialized immune cell that develops in the thymus through thymopoiesis; critical for adaptive immunity, self-tolerance, and immune surveillance.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-26
 tags:
   - cell-type
+  - immune-system
 aliases: [T Cell]
-
 ---
 
 # T Lymphocyte
 
-**Overview:** T Lymphocyte is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.
+**T lymphocytes (T cells)** are specialized immune cells that develop in the [[Thymus|thymus]] through [[Thymopoiesis|thymopoiesis]]. They are central to adaptive immunity, mediating cell-mediated immune responses, self-tolerance, and immune surveillance.
 
-**Structure and organization:** T Lymphocyte exhibits characteristic morphological features, molecular markers, and spatial organization that enable its specialized functions.
+## Development in the Thymus
 
-**Physiological function:** T Lymphocyte contributes to tissue homeostasis through specific mechanical, secretory, signaling, or barrier functions. Its activity is integrated with surrounding cells and systems.
+T cell development occurs in the thymic cortex and medulla through a multi-step process:
 
-**Pathological relevance:** Dysfunction or loss of T Lymphocyte underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
+1. **Thymic seeding** — Lymphoid progenitors from [[Bone Marrow|bone marrow]] enter the thymus at the corticomedullary junction
+2. **Cortical development** — CD4⁻CD8⁻ (double negative) thymocytes undergo [[T Cell Receptor|TCR]] β-chain rearrangement
+3. **Positive selection** — CD4⁺CD8⁺ (double positive) thymocytes in the cortex interact with cortical [[Thymic Epithelial Cells|TECs]]; cells recognizing self-peptide/MHC with adequate affinity survive
+4. **Medullary maturation** — Positively selected thymocytes migrate to the medulla
+5. **Negative selection** — Auto-reactive thymocytes are eliminated via apoptosis; mediated by medullary TECs expressing tissue-restricted antigens
+6. **Peripheral export** — Mature naïve single-positive (CD4⁺ or CD8⁺) T cells exit as recent thymic emigrants
 
-#
+> [!info] Source: [[_document_ - Thymic Rejuvenation and Aging]]
+> The thymus must function as a whole three-dimensional structure for T cell differentiation. Developing thymocytes migrate through cortex and medulla, encountering functionally distinct microenvironments that regulate positive and negative selection (Anderson et al., 1993).
 
-# 
+## Subsets
+
+- **CD4⁺ helper T cells** — Orchestrate immune responses by secreting cytokines; subsets include Th1, Th2, [[TH17]], and Tfh
+- **CD8⁺ cytotoxic T cells** — Kill infected or abnormal cells directly
+- **Regulatory T cells (Treg)** — Suppress excessive immune responses; express FoxP3
+- **Memory T cells** — Long-lived cells providing rapid secondary responses
+- **γδ T cells** — Non-conventional T cells in mucosal tissues
+
+## Age-Related Changes
+
+[[Thymic Involution|Thymic involution]] leads to:
+
+- Decreased output of naïve T cells from the thymus
+- Restricted [[T Cell Receptor|TCR]] repertoire diversity
+- Increased oligoclonal expansion of memory T cells
+- Reduced immune efficacy and increased susceptibility to infection, [[Autoimmune Disease|autoimmunity]], and cancer
+- Measurable decline in [[sjTREC]] levels (three-log decline across 80-year lifespan)
+
+## Quiescence and Activation
+
+T cell quiescence and the timely exit from arrest upon binding of a cognate antigen to the T Cell Receptor are essential for mounting an appropriate immune response.
 
 ## Documents
-
-List of documents that mention this entity
 
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - In T Lymphocyte, quiescence and the timely exit from arrest upon binding of a cognate antigen to the T Cell Receptor are essential for mounting an appropriate immune response (Hwang et al., 2020).
@@ -34,11 +57,27 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - For example, SIRT1 participates in mediating inflammatory signaling in DCs, consequentially modulating the balance of proinflammatory T helper type 1 cells and anti-inflammatory Foxp3(+) T Lymphocyte.
 
+  - [[_document_ - Thymic Rejuvenation and Aging|Thymic Rejuvenation and Aging]]
+    - Central to the review; covers T cell development in the thymus, age-related decline in T cell output, and therapeutic strategies for restoring thymopoiesis and T cell production.
 
 ## Connections
-- [[T Lymphocyte]] — related entity
+
+- [[Thymus]] — T cells develop and undergo selection in the thymus
+- [[Thymopoiesis]] — The process of T cell development in the thymus
+- [[T Cell Receptor]] — The defining receptor of T cells, generated by gene rearrangement
+- [[Thymic Epithelial Cells]] — Stromal cells supporting T cell differentiation and selection
+- [[Thymic Involution]] — Age-related decline in thymic T cell production
+- [[Bone Marrow]] — Source of lymphoid progenitors that seed the thymus
+- [[sjTREC]] — Molecular marker for recent thymic emigrants
+- [[CD4+ T Cells]] — Helper T cell subset
+- [[CD8 T cells]] — Cytotoxic T cell subset
+- [[TH17]] — T helper subset producing IL-17 and IL-22
+- [[Aging]] — T cell output declines with age due to thymic involution
+- [[Immune System]] — T cells are central to adaptive immunity
+- [[Autoimmune Disease]] — T cell dysfunction contributes to autoimmunity
 
 ## Linking Summary
-- New links added: [[T Lymphocyte]]
-  - Strong connections to strengthen: T Lymphocyte ↔ T Lymphocyte
+
+- New links added: [[Thymus]], [[Thymopoiesis]], [[T Cell Receptor]], [[Thymic Epithelial Cells]], [[Thymic Involution]], [[Bone Marrow]], [[sjTREC]], [[CD4+ T Cells]], [[CD8 T cells]], [[TH17]], [[Aging]], [[Immune System]], [[Autoimmune Disease]]
+  - Strong connections to strengthen: [[T Lymphocyte]] ↔ [[Thymus]], [[T Lymphocyte]] ↔ [[Thymopoiesis]], [[T Lymphocyte]] ↔ [[T Cell Receptor]]
 
