@@ -11,6 +11,7 @@ What it does, in order:
   4. Re-clusters (Leiden), preserving old community labels by majority overlap.
   5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
   6. Regenerates graph.html via `graphify export html`.
+  7. Exports nodes.json, edges.json, legend.json for three-graph.html.
 
 Run:  python3 scripts/03_rebuild_from_topics.py
 """
@@ -21,7 +22,7 @@ import json
 import re
 import subprocess
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import networkx as nx
@@ -77,6 +78,30 @@ CONF_RANK = {
     "EXTRACTED": 0.7,   # >= this -> EXTRACTED, else AMBIGUOUS
 }
 
+# Color palette for communities (Tableau-inspired)
+PALETTE = [
+    "#4E79A7",
+    "#F28E2B",
+    "#E15759",
+    "#76B7B2",
+    "#59A14F",
+    "#EDC948",
+    "#B07AA1",
+    "#FF9DA7",
+    "#9C755F",
+    "#BAB0AC",
+    "#86BCB6",
+    "#D37295",
+    "#FABFD2",
+    "#B6992D",
+    "#F1CE63",
+    "#A0CBE8",
+    "#FFBE7D",
+    "#8CD17D",
+    "#D4A6C8",
+    "#B6992D",
+]
+
 
 def resolve_conf(t: dict) -> tuple[float, str]:
     """Return (confidence_score, conf_label) for a triple.
@@ -104,6 +129,91 @@ def strip_wikilink(s: str) -> str:
 def norm(label: str) -> str:
     s = strip_wikilink(label).strip().lower()
     return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
+
+
+def generate_community_colors(legend: list[dict]) -> dict[int, str]:
+    """Assign colors to community IDs, rotating through palette."""
+    colors = {}
+    for i, entry in enumerate(legend):
+        colors[entry["cid"]] = PALETTE[i % len(PALETTE)]
+    return colors
+
+
+def export_three_json(gp: Path, labels: dict[int, str]) -> None:
+    """Export nodes.json, edges.json, legend.json from graph.json for three-graph.html."""
+    graph = json.loads((gp / "graph.json").read_text(encoding="utf-8"))
+
+    nodes = graph["nodes"]
+    links = graph["links"]
+
+    # Build degree map
+    degree: Counter = Counter()
+    for link in links:
+        degree[link["source"]] += 1
+        degree[link["target"]] += 1
+
+    # Build community membership counts
+    community_counts: Counter = Counter()
+    for n in nodes:
+        community_counts[n["community"]] += 1
+
+    # Build legend sorted by size
+    legend = [
+        {"cid": cid, "label": labels.get(cid, f"Community {cid}"), "count": count}
+        for cid, count in community_counts.most_common()
+    ]
+    color_map = generate_community_colors(legend)
+    for entry in legend:
+        entry["color"] = color_map[entry["cid"]]
+
+    # Build node objects for three-graph.html
+    node_objects = []
+    node_id_set = {n["id"] for n in nodes}
+    for n in nodes:
+        cid = n["community"]
+        deg = degree.get(n["id"], 0)
+        node_objects.append({
+            "id": n["id"],
+            "label": n["label"],
+            "file_type": n.get("file_type", "concept"),
+            "community": cid,
+            "community_name": labels.get(cid, f"Community {cid}"),
+            "degree": deg,
+            "size": max(3, min(20, 3 + deg * 0.8)),
+            "source_file": n.get("source_file", ""),
+            "color": {"background": color_map.get(cid, "#888888")},
+        })
+
+    # Build edge objects for three-graph.html
+    edge_objects = []
+    for link in links:
+        src = link["source"]
+        tgt = link["target"]
+        if src not in node_id_set or tgt not in node_id_set:
+            continue
+        conf = link.get("confidence_score", 0.7)
+        edge_objects.append({
+            "from": src,
+            "to": tgt,
+            "label": link.get("relation", ""),
+            "confidence": link.get("confidence", "EXTRACTED"),
+            "confidence_score": conf,
+            "color": {"opacity": max(0.1, min(1.0, conf))},
+        })
+
+    (gp / "nodes.json").write_text(
+        json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (gp / "edges.json").write_text(
+        json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (gp / "legend.json").write_text(
+        json.dumps(legend, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"Three-graph export: {len(node_objects)} nodes, {len(edge_objects)} edges, {len(legend)} communities")
 
 
 def main() -> int:
@@ -254,6 +364,9 @@ def main() -> int:
         )
     except Exception as e:  # noqa: BLE001
         print(f"HTML export skipped ({e}); run: {py} -m graphify export html")
+
+    # --- export three-graph JSON (nodes.json, edges.json, legend.json) ---
+    export_three_json(GP, new_labels)
     return 0
 
 
