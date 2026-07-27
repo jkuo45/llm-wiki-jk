@@ -4,1315 +4,1503 @@
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "5,6-indolequinone and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically 5,6-indolequinone and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "5,6-indolequinone.md"
   },
   {
     "subject": "5,6-indolequinone",
     "predicate": "converts_to",
     "object": "Neuromelanin",
     "context": "5,6-indolequinone is biochemically converted into Neuromelanin through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, 5,6-indolequinone acts as the substrate and Neuromelanin as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "5,6-indolequinone.md"
   },
   {
     "subject": "6-hydroxydopamine",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "6-hydroxydopamine and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically 6-hydroxydopamine and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "6-hydroxydopamine.md"
   },
   {
     "subject": "6-hydroxydopamine",
     "predicate": "causes",
     "object": "Parkinson's Disease",
     "context": "6-hydroxydopamine causes Parkinson's Disease by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "6-hydroxydopamine.md"
   },
   {
     "subject": "Addiction",
     "predicate": "bidirectionally_linked_with",
     "object": "Nigrostriatal System",
     "context": "Addiction and Nigrostriatal System are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Addiction and Nigrostriatal System may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Addiction.md"
   },
   {
     "subject": "Alpha-synuclein",
     "predicate": "bidirectionally_linked_with",
     "object": "A53T",
     "context": "Alpha-synuclein and A53T are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Alpha-synuclein and A53T may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "A53T.md"
   },
   {
     "subject": "Alpha-synuclein",
     "predicate": "bidirectionally_linked_with",
     "object": "Lewy Bodies",
     "context": "Alpha-synuclein and Lewy Bodies are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Alpha-synuclein and Lewy Bodies may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Alpha-synuclein",
     "predicate": "converts_to",
     "object": "Alpha-Synuclein Aggregation",
     "context": "Alpha-synuclein is biochemically converted into Alpha-Synuclein Aggregation through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Alpha-synuclein acts as the substrate and Alpha-Synuclein Aggregation as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Alpha-Synuclein Aggregation.md"
   },
   {
     "subject": "Alpha-synuclein",
     "predicate": "plays_role_in",
     "object": "Parkinson's Disease",
     "context": "Alpha-synuclein plays a role in Parkinson's Disease through its normal cellular function and its dysfunction when aggregated or mislocalized. Mechanistically, the entity participates in vesicle cycling, signaling, or protein quality control that, when disrupted, promotes pathology. This is significant because it positions the entity at the intersection of physiology and disease. A caveat is that the disease arises from complex gene-environment interactions, so the entity is necessary but not sufficient to explain all cases.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Alpha-Synuclein Aggregation",
     "predicate": "bidirectionally_linked_with",
     "object": "Alpha-synuclein",
     "context": "Alpha-Synuclein Aggregation and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Alpha-Synuclein Aggregation and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Alpha-Synuclein Aggregation.md"
   },
   {
     "subject": "Alpha-Synuclein Aggregation",
     "predicate": "causes",
     "object": "Lewy Bodies",
     "context": "Alpha-Synuclein Aggregation causes Lewy Bodies by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Alpha-Synuclein Aggregation.md"
   },
   {
     "subject": "Alpha-Synuclein Aggregation",
     "predicate": "causes",
     "object": "Neuroinflammation",
     "context": "Alpha-Synuclein Aggregation causes Neuroinflammation by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Alpha-Synuclein Aggregation.md"
   },
   {
     "subject": "Ambroxol",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Ambroxol and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Ambroxol and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Ambroxol.md"
   },
   {
     "subject": "Aminochrome",
     "predicate": "bidirectionally_linked_with",
     "object": "Alpha-synuclein",
     "context": "Aminochrome and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Aminochrome and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dopamine o-quinone.md"
   },
   {
     "subject": "Aminochrome",
     "predicate": "binds_to",
     "object": "Alpha-synuclein",
     "context": "Aminochrome binds to Alpha-synuclein through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Aminochrome acts as the ligand or matrix and Alpha-synuclein as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dopamine o-quinone.md"
   },
   {
     "subject": "Aminochrome",
     "predicate": "converts_to",
     "object": "Neuromelanin",
     "context": "Aminochrome is biochemically converted into Neuromelanin through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Aminochrome acts as the substrate and Neuromelanin as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Aminochromes",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Aminochromes and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Aminochromes and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Antigen Presentation",
     "predicate": "bidirectionally_linked_with",
     "object": "Major histocompatibility complex class I",
     "context": "Antigen Presentation and Major histocompatibility complex class I are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Antigen Presentation and Major histocompatibility complex class I may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Antigen Presentation.md"
   },
   {
     "subject": "Apoptosis",
     "predicate": "bidirectionally_linked_with",
     "object": "Mitochondrial Dysfunction",
     "context": "Apoptosis and Mitochondrial Dysfunction are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Apoptosis and Mitochondrial Dysfunction may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "DJ-1.md"
   },
   {
     "subject": "Aromatic L-amino acid decarboxylase",
     "predicate": "bidirectionally_linked_with",
     "object": "L-DOPA",
     "context": "Aromatic L-amino acid decarboxylase and L-DOPA are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Aromatic L-amino acid decarboxylase and L-DOPA may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Aromatic L-amino acid decarboxylase.md"
   },
   {
     "subject": "Ascorbic Acid",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": "Ascorbic Acid and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Ascorbic Acid and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md"
   },
   {
     "subject": "Ascorbic Acid",
     "predicate": "protects_against",
     "object": "Oxidative Stress",
     "context": "Ascorbic Acid protects against Oxidative Stress by neutralizing, scavenging, or removing the threatening species or condition. Mechanistically, Ascorbic Acid acts as a sink or reductant that limits oxidative, toxic, or aggregate burden within catecholaminergic neurons. This protective role is significant because it may explain why pigmented neurons survive despite high metabolic stress, at least below a pathogenic threshold. A caveat is that the protection is conditional; under overload, redox perturbation, or iron release the same entity can contribute to damage rather than prevention.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "associated_with",
     "object": "Neuromelanin",
     "context": "Autophagy is associated with Neuromelanin, a relationship observed in pigment, lysosomal, or pathological contexts relevant to neurodegeneration. Mechanistically, the association often reflects co-localization within autophagic or granular compartments or shared involvement in disease pathways. It is significant because it links degradative and pigment biology to the selective vulnerability seen in Parkinson's disease. A caveat is that association indicates co-occurrence or correlation and does not by itself establish the direction or causality of the interaction.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "associated_with",
     "object": "Parkinson's Disease",
     "context": "Autophagy is associated with Parkinson's Disease, a relationship observed in pigment, lysosomal, or pathological contexts relevant to neurodegeneration. Mechanistically, the association often reflects co-localization within autophagic or granular compartments or shared involvement in disease pathways. It is significant because it links degradative and pigment biology to the selective vulnerability seen in Parkinson's disease. A caveat is that association indicates co-occurrence or correlation and does not by itself establish the direction or causality of the interaction.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "bidirectionally_linked_with",
     "object": "Proteostasis",
     "context": "Autophagy and Proteostasis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Autophagy and Proteostasis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "bidirectionally_linked_with",
     "object": "TFEB",
     "context": "Autophagy and TFEB are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Autophagy and TFEB may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "impairs",
     "object": "Parkinson's Disease",
     "context": "Autophagy impairs Parkinson's Disease when its deficiency or dysfunction weakens the target pathway. Mechanistically, reduced flux through the impaired system permits aggregate and organelle buildup that drives degeneration. This is significant because impairment of degradative or energetic pathways is a core feature of Parkinson's disease pathogenesis. A caveat is that the phrasing can be misread; it is the loss or dysfunction of the first entity that is harmful, and excessive activity can also be detrimental.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "protects_against",
     "object": "Alpha-Synuclein Aggregation",
     "context": "Autophagy protects against Alpha-Synuclein Aggregation by neutralizing, scavenging, or removing the threatening species or condition. Mechanistically, Autophagy acts as a sink or reductant that limits oxidative, toxic, or aggregate burden within catecholaminergic neurons. This protective role is significant because it may explain why pigmented neurons survive despite high metabolic stress, at least below a pathogenic threshold. A caveat is that the protection is conditional; under overload, redox perturbation, or iron release the same entity can contribute to damage rather than prevention.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Alpha-Synuclein Aggregation.md"
   },
   {
     "subject": "Autophagy",
     "predicate": "regulates",
     "object": "Proteostasis",
     "context": "Autophagy regulates Proteostasis by controlling the flux, activity, or abundance of the regulated process. Mechanistically, Autophagy acts as an upstream controller (enzymatic, transcriptional, or physical) that enforces balance in the target system. This is significant because proper regulation maintains homeostasis, and its failure contributes to neurodegeneration. A caveat is that regulation is context-dependent and often buffered by parallel systems, so disruption of one controller may be partially compensated.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Basal Ganglia",
     "predicate": "bidirectionally_linked_with",
     "object": "Nigrostriatal System",
     "context": "Basal Ganglia and Nigrostriatal System are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Basal Ganglia and Nigrostriatal System may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Basal Ganglia.md"
   },
   {
     "subject": "Benzothiazine",
     "predicate": "bidirectionally_linked_with",
     "object": "Pheomelanin",
     "context": "Benzothiazine and Pheomelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Benzothiazine and Pheomelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Benzothiazine.md"
   },
   {
     "subject": "Bradykinesia",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Bradykinesia and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Bradykinesia and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Bradykinesia.md"
   },
   {
     "subject": "Catecholamines",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": "Catecholamines and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Catecholamines and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md"
   },
   {
     "subject": "Caudate Nucleus",
     "predicate": "bidirectionally_linked_with",
     "object": "Nigrostriatal System",
     "context": "Caudate Nucleus and Nigrostriatal System are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Caudate Nucleus and Nigrostriatal System may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Caudate Nucleus.md"
   },
   {
     "subject": "Chemical memory",
     "predicate": "bidirectionally_linked_with",
     "object": "Synaptic plasticity",
     "context": "Chemical memory and Synaptic plasticity are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Chemical memory and Synaptic plasticity may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Chemical memory.md"
   },
   {
     "subject": "Chemical memory",
     "predicate": "causes",
     "object": "Addiction",
     "context": "Chemical memory causes Addiction by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.75
+    "confidence": 0.75,
+    "source_document": "Chemical memory.md"
   },
   {
     "subject": "Complex I",
     "predicate": "bidirectionally_linked_with",
     "object": "Mitochondrial Dysfunction",
     "context": "Complex I and Mitochondrial Dysfunction are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Complex I and Mitochondrial Dysfunction may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neurotoxin.md"
   },
   {
     "subject": "Complex I",
     "predicate": "impairs",
     "object": "Mitochondrial Dysfunction",
     "context": "Complex I impairs Mitochondrial Dysfunction when its deficiency or dysfunction weakens the target pathway. Mechanistically, reduced flux through the impaired system permits aggregate and organelle buildup that drives degeneration. This is significant because impairment of degradative or energetic pathways is a core feature of Parkinson's disease pathogenesis. A caveat is that the phrasing can be misread; it is the loss or dysfunction of the first entity that is harmful, and excessive activity can also be detrimental.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neurotoxin.md"
   },
   {
     "subject": "Cutaneous Melanoma",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Cutaneous Melanoma and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Cutaneous Melanoma and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Cutaneous Melanoma.md"
   },
   {
     "subject": "Cysteine",
     "predicate": "bidirectionally_linked_with",
     "object": "Pheomelanin",
     "context": "Cysteine and Pheomelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Cysteine and Pheomelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Pheomelanin.md"
   },
   {
     "subject": "Cytokines",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuroinflammation",
     "context": "Cytokines and Neuroinflammation are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Cytokines and Neuroinflammation may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Antigen Presentation.md"
   },
   {
     "subject": "DNA",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "DNA and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically DNA and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Dolichol",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Dolichol and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dolichol and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dolichol.md"
   },
   {
     "subject": "Dopachrome tautomerase",
     "predicate": "bidirectionally_linked_with",
     "object": "Tyrosinase-related protein-2",
     "context": "Dopachrome tautomerase and Tyrosinase-related protein-2 are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dopachrome tautomerase and Tyrosinase-related protein-2 may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dopachrome tautomerase.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "binds_to",
     "object": "Neuromelanin",
     "context": "Dopamine binds to Neuromelanin through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Dopamine acts as the ligand or matrix and Neuromelanin as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.75
+    "confidence": 0.75,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "causes",
     "object": "Oxidative Stress",
     "context": "Dopamine causes Oxidative Stress by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "converts_to",
     "object": "Dopamine o-quinone",
     "context": "Dopamine is biochemically converted into Dopamine o-quinone through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Dopamine acts as the substrate and Dopamine o-quinone as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dopamine o-quinone.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "converts_to",
     "object": "Dopaminochrome",
     "context": "Dopamine is biochemically converted into Dopaminochrome through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Dopamine acts as the substrate and Dopaminochrome as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "converts_to",
     "object": "Neuromelanin",
     "context": "Dopamine is biochemically converted into Neuromelanin through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Dopamine acts as the substrate and Neuromelanin as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "located_in",
     "object": "Substantia Nigra Pars Compacta",
     "context": "Dopamine is located in Substantia Nigra Pars Compacta, establishing the anatomical or subcellular compartment where the entity exerts its function. Mechanistically, this localization reflects biosynthesis, vesicular storage, or the selective vulnerability of that region's neurons. It is significant because the site of localization determines which circuits and symptoms are affected, particularly in Parkinson's disease. A caveat is that localization is often regionally predominant rather than exclusive, and other brain areas may contain smaller amounts of the same entity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Substantia Nigra Pars Compacta.md"
   },
   {
     "subject": "Dopamine",
     "predicate": "located_in",
     "object": "Synaptic Vesicles",
     "context": "Dopamine is located in Synaptic Vesicles, establishing the anatomical or subcellular compartment where the entity exerts its function. Mechanistically, this localization reflects biosynthesis, vesicular storage, or the selective vulnerability of that region's neurons. It is significant because the site of localization determines which circuits and symptoms are affected, particularly in Parkinson's disease. A caveat is that localization is often regionally predominant rather than exclusive, and other brain areas may contain smaller amounts of the same entity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Synaptic Vesicles.md"
   },
   {
     "subject": "Dopamine o-quinone",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Dopamine o-quinone and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dopamine o-quinone and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dopamine o-quinone.md"
   },
   {
     "subject": "Dopamine o-quinone",
     "predicate": "converts_to",
     "object": "Aminochrome",
     "context": "Dopamine o-quinone is biochemically converted into Aminochrome through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Dopamine o-quinone acts as the substrate and Aminochrome as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dopamine o-quinone.md"
   },
   {
     "subject": "Dopaminochrome",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Dopaminochrome and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dopaminochrome and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Dopaminochrome",
     "predicate": "converts_to",
     "object": "Neuromelanin",
     "context": "Dopaminochrome is biochemically converted into Neuromelanin through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Dopaminochrome acts as the substrate and Neuromelanin as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Dorsal Motor Nucleus of the Vagus",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Dorsal Motor Nucleus of the Vagus and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dorsal Motor Nucleus of the Vagus and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Dorsal Motor Nucleus of the Vagus.md"
   },
   {
     "subject": "Endoplasmic Reticulum Stress",
     "predicate": "bidirectionally_linked_with",
     "object": "Proteostasis",
     "context": "Endoplasmic Reticulum Stress and Proteostasis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Endoplasmic Reticulum Stress and Proteostasis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md"
   },
   {
     "subject": "Eumelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Eumelanin and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Eumelanin and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Eumelanin.md"
   },
   {
     "subject": "Extracellular neuromelanin",
     "predicate": "activates",
     "object": "Microglia",
     "context": "Extracellular neuromelanin activates Microglia, serving as a trigger that switches the target cell or process into an active state. Mechanistically, the entity engages receptors or danger signals that provoke proliferation, phagocytosis, or cytokine release. This is significant because activation of glial or immune effectors can both clear debris and, when chronic, perpetuate neuronal injury. A caveat is that activation has a protective-to-harmful transition, so the consequence depends on whether the response resolves or becomes sustained.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Flortaucipir",
     "predicate": "binds_to",
     "object": "Neuromelanin",
     "context": "Flortaucipir binds to Neuromelanin through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Flortaucipir acts as the ligand or matrix and Neuromelanin as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Flortaucipir.md"
   },
   {
     "subject": "Glial cells",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuroinflammation",
     "context": "Glial cells and Neuroinflammation are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Glial cells and Neuroinflammation may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Glial cells.md"
   },
   {
     "subject": "Glucocerebrosidase",
     "predicate": "bidirectionally_linked_with",
     "object": "Alpha-synuclein",
     "context": "Glucocerebrosidase and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Glucocerebrosidase and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Glucocerebrosidase.md"
   },
   {
     "subject": "Glucocerebrosidase",
     "predicate": "impairs",
     "object": "Autophagy",
     "context": "Glucocerebrosidase impairs Autophagy when its deficiency or dysfunction weakens the target pathway. Mechanistically, reduced flux through the impaired system permits aggregate and organelle buildup that drives degeneration. This is significant because impairment of degradative or energetic pathways is a core feature of Parkinson's disease pathogenesis. A caveat is that the phrasing can be misread; it is the loss or dysfunction of the first entity that is harmful, and excessive activity can also be detrimental.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Glucocerebrosidase.md"
   },
   {
     "subject": "HPP+",
     "predicate": "bidirectionally_linked_with",
     "object": "Haloperidol",
     "context": "HPP+ and Haloperidol are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically HPP+ and Haloperidol may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "HPP+.md"
   },
   {
     "subject": "Haloperidol",
     "predicate": "bidirectionally_linked_with",
     "object": "HPP+",
     "context": "Haloperidol and HPP+ are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Haloperidol and HPP+ may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Haloperidol.md"
   },
   {
     "subject": "Haloperidol",
     "predicate": "causes",
     "object": "Parkinson's Disease",
     "context": "Haloperidol causes Parkinson's Disease by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Haloperidol.md"
   },
   {
     "subject": "Immunoglobulin G",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Immunoglobulin G and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Immunoglobulin G and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Immunoglobulin G.md"
   },
   {
     "subject": "Incidental Lewy Body Disease",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Incidental Lewy Body Disease and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Incidental Lewy Body Disease and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Incidental Lewy Body Disease.md"
   },
   {
     "subject": "Indole",
     "predicate": "bidirectionally_linked_with",
     "object": "5,6-indolequinone",
     "context": "Indole and 5,6-indolequinone are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Indole and 5,6-indolequinone may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Indole.md"
   },
   {
     "subject": "Iron",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Iron and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Iron and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Iron",
     "predicate": "binds_to",
     "object": "Neuromelanin",
     "context": "Iron binds to Neuromelanin through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Iron acts as the ligand or matrix and Neuromelanin as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Iron",
     "predicate": "causes",
     "object": "Oxidative Stress",
     "context": "Iron causes Oxidative Stress by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Konstantin Nikolaevich Tretiakoff",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Konstantin Nikolaevich Tretiakoff and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Konstantin Nikolaevich Tretiakoff and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Konstantin Nikolaevich Tretiakoff.md"
   },
   {
     "subject": "Konstantin Nikolaevich Tretiakoff",
     "predicate": "discovered",
     "object": "Substantia Nigra",
     "context": "Konstantin Nikolaevich Tretiakoff discovered Substantia Nigra, establishing the neuroanatomical or pathological basis later central to the field. Mechanistically, the discovery localized disease to a specific structure or process, enabling subsequent molecular characterization. This is significant because it founded the modern understanding of the disorder's substrate. A caveat is that the discovery described cellular or pigmentary changes rather than the full molecular defect identified decades later.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Konstantin Nikolaevich Tretiakoff.md"
   },
   {
     "subject": "L-DOPA",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": "L-DOPA and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically L-DOPA and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "L-DOPA.md"
   },
   {
     "subject": "L-DOPA",
     "predicate": "converts_to",
     "object": "Dopamine",
     "context": "L-DOPA is biochemically converted into Dopamine through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, L-DOPA acts as the substrate and Dopamine as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "L-DOPA.md"
   },
   {
     "subject": "L-Tyrosine",
     "predicate": "bidirectionally_linked_with",
     "object": "L-DOPA",
     "context": "L-Tyrosine and L-DOPA are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically L-Tyrosine and L-DOPA may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "L-Tyrosine.md"
   },
   {
     "subject": "L-Tyrosine",
     "predicate": "converts_to",
     "object": "L-DOPA",
     "context": "L-Tyrosine is biochemically converted into L-DOPA through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, L-Tyrosine acts as the substrate and L-DOPA as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "L-Tyrosine.md"
   },
   {
     "subject": "Lewy Bodies",
     "predicate": "associated_with",
     "object": "Neuromelanin",
     "context": "Lewy Bodies is associated with Neuromelanin, a relationship observed in pigment, lysosomal, or pathological contexts relevant to neurodegeneration. Mechanistically, the association often reflects co-localization within autophagic or granular compartments or shared involvement in disease pathways. It is significant because it links degradative and pigment biology to the selective vulnerability seen in Parkinson's disease. A caveat is that association indicates co-occurrence or correlation and does not by itself establish the direction or causality of the interaction.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Lewy Bodies",
     "predicate": "bidirectionally_linked_with",
     "object": "Alpha-synuclein",
     "context": "Lewy Bodies and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Lewy Bodies and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Lewy Bodies",
     "predicate": "located_in",
     "object": "Substantia Nigra",
     "context": "Lewy Bodies is located in Substantia Nigra, establishing the anatomical or subcellular compartment where the entity exerts its function. Mechanistically, this localization reflects biosynthesis, vesicular storage, or the selective vulnerability of that region's neurons. It is significant because the site of localization determines which circuits and symptoms are affected, particularly in Parkinson's disease. A caveat is that localization is often regionally predominant rather than exclusive, and other brain areas may contain smaller amounts of the same entity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Lipofuscin",
     "predicate": "bidirectionally_linked_with",
     "object": "Aging",
     "context": "Lipofuscin and Aging are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Lipofuscin and Aging may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lipofuscin.md"
   },
   {
     "subject": "Locus Coeruleus",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Locus Coeruleus and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Locus Coeruleus and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Locus Coeruleus.md"
   },
   {
     "subject": "Locus Coeruleus",
     "predicate": "degenerates_in",
     "object": "Parkinson's Disease",
     "context": "Locus Coeruleus degenerates in Parkinson's Disease, reflecting the selective loss of these neurons as the disease progresses. Mechanistically, degeneration follows the spread of alpha-synuclein pathology and the failure of protective systems in vulnerable circuits. This is significant because the lost population underlies the non-motor and motor features attributed to the affected region. A caveat is that the same neurons also decline in normal aging and other disorders, so magnitude and pattern must be interpreted in full context.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Locus Coeruleus.md"
   },
   {
     "subject": "Lymphocytes",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Lymphocytes and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Lymphocytes and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lymphocytes.md"
   },
   {
     "subject": "Lysosomal Biogenesis",
     "predicate": "bidirectionally_linked_with",
     "object": "TFEB",
     "context": "Lysosomal Biogenesis and TFEB are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Lysosomal Biogenesis and TFEB may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lysosomal Exocytosis.md"
   },
   {
     "subject": "Lysosomal Exocytosis",
     "predicate": "bidirectionally_linked_with",
     "object": "TFEB",
     "context": "Lysosomal Exocytosis and TFEB are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Lysosomal Exocytosis and TFEB may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lysosomal Exocytosis.md"
   },
   {
     "subject": "MC1R",
     "predicate": "bidirectionally_linked_with",
     "object": "Cutaneous Melanoma",
     "context": "MC1R and Cutaneous Melanoma are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically MC1R and Cutaneous Melanoma may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MC1R.md"
   },
   {
     "subject": "MPP+",
     "predicate": "bidirectionally_linked_with",
     "object": "MPTP",
     "context": "MPP+ and MPTP are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically MPP+ and MPTP may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MPP+.md"
   },
   {
     "subject": "MPP+",
     "predicate": "bidirectionally_linked_with",
     "object": "Monoamine oxidase B",
     "context": "MPP+ and Monoamine oxidase B are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically MPP+ and Monoamine oxidase B may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MPP+.md"
   },
   {
     "subject": "MPP+",
     "predicate": "binds_to",
     "object": "Neuromelanin",
     "context": "MPP+ binds to Neuromelanin through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, MPP+ acts as the ligand or matrix and Neuromelanin as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MPP+.md"
   },
   {
     "subject": "MPP+",
     "predicate": "causes",
     "object": "Mitochondrial Dysfunction",
     "context": "MPP+ causes Mitochondrial Dysfunction by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MPP+.md"
   },
   {
     "subject": "MPTP",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "MPTP and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically MPTP and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MPTP.md"
   },
   {
     "subject": "MPTP",
     "predicate": "causes",
     "object": "Parkinson's Disease",
     "context": "MPTP causes Parkinson's Disease by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MPTP.md"
   },
   {
     "subject": "Magnetic Resonance Imaging",
     "predicate": "detects",
     "object": "Neuromelanin",
     "context": "Magnetic Resonance Imaging detects Neuromelanin using physical or chemical contrast properties specific to the pigment. Mechanistically, the technique reads signal generated by iron content, paramagnetism, or tracer binding to the pigment. This is significant because it enables non-invasive assessment of pigmented neuron integrity in health and Parkinson's disease. A caveat is that the signal is influenced by field strength, sequence, and confounders such as iron, requiring careful quantification.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Magnetic Resonance Imaging.md"
   },
   {
     "subject": "Major histocompatibility complex class I",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Major histocompatibility complex class I and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Major histocompatibility complex class I and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Major histocompatibility complex class I.md"
   },
   {
     "subject": "Manganese",
     "predicate": "bidirectionally_linked_with",
     "object": "Manganism",
     "context": "Manganese and Manganism are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Manganese and Manganism may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Manganism.md"
   },
   {
     "subject": "Manganese",
     "predicate": "causes",
     "object": "Manganism",
     "context": "Manganese causes Manganism by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Manganism.md"
   },
   {
     "subject": "Manganism",
     "predicate": "bidirectionally_linked_with",
     "object": "Manganese",
     "context": "Manganism and Manganese are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Manganism and Manganese may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Manganism.md"
   },
   {
     "subject": "Medulla Oblongata",
     "predicate": "bidirectionally_linked_with",
     "object": "Dorsal Motor Nucleus of the Vagus",
     "context": "Medulla Oblongata and Dorsal Motor Nucleus of the Vagus are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Medulla Oblongata and Dorsal Motor Nucleus of the Vagus may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Medulla Oblongata.md"
   },
   {
     "subject": "Melanocytes",
     "predicate": "bidirectionally_linked_with",
     "object": "Cutaneous Melanoma",
     "context": "Melanocytes and Cutaneous Melanoma are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Melanocytes and Cutaneous Melanoma may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Melanocytes.md"
   },
   {
     "subject": "Melanogenesis",
     "predicate": "bidirectionally_linked_with",
     "object": "Tyrosinase",
     "context": "Melanogenesis and Tyrosinase are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Melanogenesis and Tyrosinase may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Melanogenesis.md"
   },
   {
     "subject": "Microglia",
     "predicate": "bidirectionally_linked_with",
     "object": "Microgliosis",
     "context": "Microglia and Microgliosis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Microglia and Microgliosis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Microgliosis.md"
   },
   {
     "subject": "Microgliosis",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuroinflammation",
     "context": "Microgliosis and Neuroinflammation are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Microgliosis and Neuroinflammation may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Microgliosis.md"
   },
   {
     "subject": "Microgliosis",
     "predicate": "causes",
     "object": "Neuroinflammation",
     "context": "Microgliosis causes Neuroinflammation by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Microgliosis.md"
   },
   {
     "subject": "Monoamine oxidase B",
     "predicate": "bidirectionally_linked_with",
     "object": "MPTP",
     "context": "Monoamine oxidase B and MPTP are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Monoamine oxidase B and MPTP may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Monoamine oxidase B.md"
   },
   {
     "subject": "Monoamine oxidase B",
     "predicate": "converts_to",
     "object": "MPP+",
     "context": "Monoamine oxidase B is biochemically converted into MPP+ through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Monoamine oxidase B acts as the substrate and MPP+ as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Monoamine oxidase B.md"
   },
   {
     "subject": "Neuroinflammation",
     "predicate": "bidirectionally_linked_with",
     "object": "Microgliosis",
     "context": "Neuroinflammation and Microgliosis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuroinflammation and Microgliosis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Microgliosis.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "accumulates_in",
     "object": "Dorsal Motor Nucleus of the Vagus",
     "context": "Neuromelanin accumulates in Dorsal Motor Nucleus of the Vagus with age or disease, marking the neurons most relevant to pigment and Parkinson's pathology. Mechanistically, accumulation reflects lifelong catecholamine oxidation and granular storage within these catecholaminergic cells. This is significant because the accumulation site coincides with selectively vulnerable populations, implicating pigment chemistry in disease. A caveat is that accumulation is age-dependent and regionally variable, and its causal role versus its status as a vulnerability marker remains under study.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "accumulates_in",
     "object": "Locus Coeruleus",
     "context": "Neuromelanin accumulates in Locus Coeruleus with age or disease, marking the neurons most relevant to pigment and Parkinson's pathology. Mechanistically, accumulation reflects lifelong catecholamine oxidation and granular storage within these catecholaminergic cells. This is significant because the accumulation site coincides with selectively vulnerable populations, implicating pigment chemistry in disease. A caveat is that accumulation is age-dependent and regionally variable, and its causal role versus its status as a vulnerability marker remains under study.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "accumulates_in",
     "object": "Substantia Nigra Pars Compacta",
     "context": "Neuromelanin accumulates in Substantia Nigra Pars Compacta with age or disease, marking the neurons most relevant to pigment and Parkinson's pathology. Mechanistically, accumulation reflects lifelong catecholamine oxidation and granular storage within these catecholaminergic cells. This is significant because the accumulation site coincides with selectively vulnerable populations, implicating pigment chemistry in disease. A caveat is that accumulation is age-dependent and regionally variable, and its causal role versus its status as a vulnerability marker remains under study.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Aminochromes",
     "context": "Neuromelanin and Aminochromes are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Aminochromes may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Chemical memory",
     "context": "Neuromelanin and Chemical memory are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Chemical memory may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": "Neuromelanin and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Flortaucipir",
     "context": "Neuromelanin and Flortaucipir are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Flortaucipir may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Macromolecular Crowding",
     "context": "Neuromelanin and Macromolecular Crowding are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Macromolecular Crowding may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Magnetic Resonance Imaging",
     "context": "Neuromelanin and Magnetic Resonance Imaging are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Magnetic Resonance Imaging may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Neuromelanin and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Pathogenic Threshold of Neuromelanin",
     "context": "Neuromelanin and Pathogenic Threshold of Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Pathogenic Threshold of Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Positron Emission Tomography",
     "context": "Neuromelanin and Positron Emission Tomography are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Positron Emission Tomography may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "binds_to",
     "object": "Dopamine",
     "context": "Neuromelanin binds to Dopamine through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Neuromelanin acts as the ligand or matrix and Dopamine as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.75
+    "confidence": 0.75,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "binds_to",
     "object": "Iron",
     "context": "Neuromelanin binds to Iron through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Neuromelanin acts as the ligand or matrix and Iron as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "binds_to",
     "object": "MPP+",
     "context": "Neuromelanin binds to MPP+ through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Neuromelanin acts as the ligand or matrix and MPP+ as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "causes",
     "object": "Microgliosis",
     "context": "Neuromelanin causes Microgliosis by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "causes",
     "object": "Mitochondrial Dysfunction",
     "context": "Neuromelanin causes Mitochondrial Dysfunction by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "causes",
     "object": "Neuroinflammation",
     "context": "Neuromelanin causes Neuroinflammation by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "causes",
     "object": "Oxidative Stress",
     "context": "Neuromelanin causes Oxidative Stress by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "causes",
     "object": "Proteostasis",
     "context": "Neuromelanin causes Proteostasis by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "chelates",
     "object": "Iron",
     "context": "Neuromelanin chelates Iron through its abundant catechol and quinone moieties, forming stable coordination complexes. Mechanistically, Neuromelanin is the chelating agent and Iron the bound metal, reducing the pool of free redox-active ions. This interaction is significant because it makes the pigment the dominant intracellular metal store and limits Fenton-type oxidative damage. A caveat is that chelation is not absolute; under acidic or reductive stress the metal can be released and participate in radical formation.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "contains",
     "object": "Cysteine",
     "context": "Neuromelanin contains Cysteine as a structural subunit incorporated during pigment or granule assembly. Mechanistically, Cysteine is built into Neuromelanin through covalent or associative incorporation, contributing to its composite architecture. This compositional relationship is significant because it determines the pigment's redox behavior, metal binding, and distinction from pure melanins. A caveat is that neuromelanin is heterogeneous, so 'contains' refers to domains rather than a uniform incorporation of the component throughout.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "contains",
     "object": "Dolichol",
     "context": "Neuromelanin contains Dolichol as a structural subunit incorporated during pigment or granule assembly. Mechanistically, Dolichol is built into Neuromelanin through covalent or associative incorporation, contributing to its composite architecture. This compositional relationship is significant because it determines the pigment's redox behavior, metal binding, and distinction from pure melanins. A caveat is that neuromelanin is heterogeneous, so 'contains' refers to domains rather than a uniform incorporation of the component throughout.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "contains",
     "object": "Eumelanin",
     "context": "Neuromelanin contains Eumelanin as a structural subunit incorporated during pigment or granule assembly. Mechanistically, Eumelanin is built into Neuromelanin through covalent or associative incorporation, contributing to its composite architecture. This compositional relationship is significant because it determines the pigment's redox behavior, metal binding, and distinction from pure melanins. A caveat is that neuromelanin is heterogeneous, so 'contains' refers to domains rather than a uniform incorporation of the component throughout.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "contains",
     "object": "Pheomelanin",
     "context": "Neuromelanin contains Pheomelanin as a structural subunit incorporated during pigment or granule assembly. Mechanistically, Pheomelanin is built into Neuromelanin through covalent or associative incorporation, contributing to its composite architecture. This compositional relationship is significant because it determines the pigment's redox behavior, metal binding, and distinction from pure melanins. A caveat is that neuromelanin is heterogeneous, so 'contains' refers to domains rather than a uniform incorporation of the component throughout.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "formed_by",
     "object": "Tyrosinase",
     "context": "Neuromelanin is formed by Tyrosinase, which provides the enzymatic or oxidative drive that converts catecholamine precursors into the pigment. Mechanistically, Tyrosinase acts on dopamine or DOPA intermediates to initiate polymerization into Neuromelanin. This is significant because it establishes the melanogenic nature of the pigment and, in models, demonstrates that the pathway can be engaged experimentally. A caveat is that endogenous human neuromelanin forms largely through non-enzymatic catecholamine auto-oxidation, so the stated former may be demonstrative rather than physiologically central.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "is_marker_of",
     "object": "Parkinson's Disease",
     "context": "Neuromelanin is a marker of Parkinson's Disease, identifying the neuronal populations or pathological changes that define the disease. Mechanistically, loss or detection of Neuromelanin tracks the regional degeneration or integrity assessed histologically or by imaging. This is significant because it provides a diagnostic and research readout of disease burden in the substantia nigra and related nuclei. A caveat is that the marker reflects aged or vulnerable pigmented neurons generally, so its disease value comes from regional loss patterns rather than presence alone.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "located_in",
     "object": "Locus Coeruleus",
     "context": "Neuromelanin is located in Locus Coeruleus, establishing the anatomical or subcellular compartment where the entity exerts its function. Mechanistically, this localization reflects biosynthesis, vesicular storage, or the selective vulnerability of that region's neurons. It is significant because the site of localization determines which circuits and symptoms are affected, particularly in Parkinson's disease. A caveat is that localization is often regionally predominant rather than exclusive, and other brain areas may contain smaller amounts of the same entity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "located_in",
     "object": "Substantia Nigra",
     "context": "Neuromelanin is located in Substantia Nigra, establishing the anatomical or subcellular compartment where the entity exerts its function. Mechanistically, this localization reflects biosynthesis, vesicular storage, or the selective vulnerability of that region's neurons. It is significant because the site of localization determines which circuits and symptoms are affected, particularly in Parkinson's disease. A caveat is that localization is often regionally predominant rather than exclusive, and other brain areas may contain smaller amounts of the same entity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "protects_against",
     "object": "Oxidative Stress",
     "context": "Neuromelanin protects against Oxidative Stress by neutralizing, scavenging, or removing the threatening species or condition. Mechanistically, Neuromelanin acts as a sink or reductant that limits oxidative, toxic, or aggregate burden within catecholaminergic neurons. This protective role is significant because it may explain why pigmented neurons survive despite high metabolic stress, at least below a pathogenic threshold. A caveat is that the protection is conditional; under overload, redox perturbation, or iron release the same entity can contribute to damage rather than prevention.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "protects_against",
     "object": "Quinones",
     "context": "Neuromelanin protects against Quinones by neutralizing, scavenging, or removing the threatening species or condition. Mechanistically, Neuromelanin acts as a sink or reductant that limits oxidative, toxic, or aggregate burden within catecholaminergic neurons. This protective role is significant because it may explain why pigmented neurons survive despite high metabolic stress, at least below a pathogenic threshold. A caveat is that the protection is conditional; under overload, redox perturbation, or iron release the same entity can contribute to damage rather than prevention.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "regulates",
     "object": "Chemical memory",
     "context": "Neuromelanin regulates Chemical memory by controlling the flux, activity, or abundance of the regulated process. Mechanistically, Neuromelanin acts as an upstream controller (enzymatic, transcriptional, or physical) that enforces balance in the target system. This is significant because proper regulation maintains homeostasis, and its failure contributes to neurodegeneration. A caveat is that regulation is context-dependent and often buffered by parallel systems, so disruption of one controller may be partially compensated.",
-    "confidence": 0.75
+    "confidence": 0.75,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "released_from",
     "object": "Dopaminergic Neurons",
     "context": "Neuromelanin is released from Dopaminergic Neurons upon cellular injury, degeneration, or lysis. Mechanistically, the source cells liberate the entity into the extracellular space where it can interact with neighboring glia. This is significant because released material becomes immunostimulatory and can amplify inflammation and spread of pathology. A caveat is that under basal conditions the entity is intracellular and contained, so the relationship describes a pathological rather than physiological event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuromelanin",
     "predicate": "risk_factor_for",
     "object": "Parkinson's Disease",
     "context": "Neuromelanin is a risk factor for Parkinson's Disease, increasing the probability or severity of the disease through biological or epidemiological association. Mechanistically, the entity may promote vulnerability by oxidative, inflammatory, or proteostatic mechanisms once a threshold is exceeded. This is significant because it reframes the entity as a modifiable or explanatory contributor to Parkinsonian degeneration. A caveat is that risk does not equal causation; the entity is also present in healthy individuals, so its weight as a cause remains debated.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Neuronophagia",
     "predicate": "bidirectionally_linked_with",
     "object": "Microgliosis",
     "context": "Neuronophagia and Microgliosis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuronophagia and Microgliosis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuronophagia.md"
   },
   {
     "subject": "Neuroprotection",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Neuroprotection and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuroprotection and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "MC1R.md"
   },
   {
     "subject": "Neurotoxin",
     "predicate": "bidirectionally_linked_with",
     "object": "MPTP",
     "context": "Neurotoxin and MPTP are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neurotoxin and MPTP may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neurotoxin.md"
   },
   {
     "subject": "Neurotransmission",
     "predicate": "bidirectionally_linked_with",
     "object": "Synaptic plasticity",
     "context": "Neurotransmission and Synaptic plasticity are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neurotransmission and Synaptic plasticity may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neurotransmission.md"
   },
   {
     "subject": "Neurotransmitters",
     "predicate": "bidirectionally_linked_with",
     "object": "Catecholamines",
     "context": "Neurotransmitters and Catecholamines are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neurotransmitters and Catecholamines may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Synapse.md"
   },
   {
     "subject": "Neurotransmitters",
     "predicate": "released_from",
     "object": "Synaptic Vesicles",
     "context": "Neurotransmitters is released from Synaptic Vesicles upon cellular injury, degeneration, or lysis. Mechanistically, the source cells liberate the entity into the extracellular space where it can interact with neighboring glia. This is significant because released material becomes immunostimulatory and can amplify inflammation and spread of pathology. A caveat is that under basal conditions the entity is intracellular and contained, so the relationship describes a pathological rather than physiological event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Synaptic Vesicles.md"
   },
   {
     "subject": "Nicotine",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Nicotine and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Nicotine and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Nicotine.md"
   },
   {
     "subject": "Nigrostriatal System",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Nigrostriatal System and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Nigrostriatal System and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Nigrostriatal System.md"
   },
   {
     "subject": "Nigrostriatal System",
     "predicate": "degenerates_in",
     "object": "Parkinson's Disease",
     "context": "Nigrostriatal System degenerates in Parkinson's Disease, reflecting the selective loss of these neurons as the disease progresses. Mechanistically, degeneration follows the spread of alpha-synuclein pathology and the failure of protective systems in vulnerable circuits. This is significant because the lost population underlies the non-motor and motor features attributed to the affected region. A caveat is that the same neurons also decline in normal aging and other disorders, so magnitude and pattern must be interpreted in full context.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Nigrostriatal System.md"
   },
   {
     "subject": "Oxidation",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Oxidation and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Oxidation and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Oxidative Stress",
     "predicate": "bidirectionally_linked_with",
     "object": "DJ-1",
     "context": "Oxidative Stress and DJ-1 are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Oxidative Stress and DJ-1 may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "DJ-1.md"
   },
   {
     "subject": "Pale Bodies",
     "predicate": "bidirectionally_linked_with",
     "object": "Lewy Bodies",
     "context": "Pale Bodies and Lewy Bodies are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Pale Bodies and Lewy Bodies may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Pale Bodies.md"
   },
   {
     "subject": "Paraquat",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Paraquat and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Paraquat and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neurotoxin.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "associated_with",
     "object": "Cutaneous Melanoma",
     "context": "Parkinson's Disease is associated with Cutaneous Melanoma, a relationship observed in pigment, lysosomal, or pathological contexts relevant to neurodegeneration. Mechanistically, the association often reflects co-localization within autophagic or granular compartments or shared involvement in disease pathways. It is significant because it links degradative and pigment biology to the selective vulnerability seen in Parkinson's disease. A caveat is that association indicates co-occurrence or correlation and does not by itself establish the direction or causality of the interaction.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Cutaneous Melanoma.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "bidirectionally_linked_with",
     "object": "Hypokinesia",
     "context": "Parkinson's Disease and Hypokinesia are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Parkinson's Disease and Hypokinesia may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Hypokinesia.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "characterized_by",
     "object": "Alpha-Synuclein Aggregation",
     "context": "Parkinson's Disease is characterized by Alpha-Synuclein Aggregation, a defining pathological or clinical feature of the disorder. Mechanistically, the feature arises from the loss or dysfunction of specific neurons and the downstream molecular cascade. This is significant because the characterization guides diagnosis, staging, and therapeutic targeting. A caveat is that the feature is shared with related disorders, so it characterizes but does not exclusively define the disease.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Alpha-Synuclein Aggregation.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "characterized_by",
     "object": "Bradykinesia",
     "context": "Parkinson's Disease is characterized by Bradykinesia, a defining pathological or clinical feature of the disorder. Mechanistically, the feature arises from the loss or dysfunction of specific neurons and the downstream molecular cascade. This is significant because the characterization guides diagnosis, staging, and therapeutic targeting. A caveat is that the feature is shared with related disorders, so it characterizes but does not exclusively define the disease.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Bradykinesia.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "characterized_by",
     "object": "Hypokinesia",
     "context": "Parkinson's Disease is characterized by Hypokinesia, a defining pathological or clinical feature of the disorder. Mechanistically, the feature arises from the loss or dysfunction of specific neurons and the downstream molecular cascade. This is significant because the characterization guides diagnosis, staging, and therapeutic targeting. A caveat is that the feature is shared with related disorders, so it characterizes but does not exclusively define the disease.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Hypokinesia.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "characterized_by",
     "object": "Mitochondrial Dysfunction",
     "context": "Parkinson's Disease is characterized by Mitochondrial Dysfunction, a defining pathological or clinical feature of the disorder. Mechanistically, the feature arises from the loss or dysfunction of specific neurons and the downstream molecular cascade. This is significant because the characterization guides diagnosis, staging, and therapeutic targeting. A caveat is that the feature is shared with related disorders, so it characterizes but does not exclusively define the disease.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "characterized_by",
     "object": "Neuroinflammation",
     "context": "Parkinson's Disease is characterized by Neuroinflammation, a defining pathological or clinical feature of the disorder. Mechanistically, the feature arises from the loss or dysfunction of specific neurons and the downstream molecular cascade. This is significant because the characterization guides diagnosis, staging, and therapeutic targeting. A caveat is that the feature is shared with related disorders, so it characterizes but does not exclusively define the disease.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Parkinson's Disease",
     "predicate": "risk_factor_for",
     "object": "Aging",
     "context": "Parkinson's Disease is a risk factor for Aging, increasing the probability or severity of the disease through biological or epidemiological association. Mechanistically, the entity may promote vulnerability by oxidative, inflammatory, or proteostatic mechanisms once a threshold is exceeded. This is significant because it reframes the entity as a modifiable or explanatory contributor to Parkinsonian degeneration. A caveat is that risk does not equal causation; the entity is also present in healthy individuals, so its weight as a cause remains debated.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Pathogenic Threshold of Neuromelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Pathogenic Threshold of Neuromelanin and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Pathogenic Threshold of Neuromelanin and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Pathogenic Threshold of Neuromelanin.md"
   },
   {
     "subject": "Pathogenic Threshold of Neuromelanin",
     "predicate": "causes",
     "object": "Parkinson's Disease",
     "context": "Pathogenic Threshold of Neuromelanin causes Parkinson's Disease by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Pathogenic Threshold of Neuromelanin.md"
   },
   {
     "subject": "Pheomelanin",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin",
     "context": "Pheomelanin and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Pheomelanin and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Pheomelanin.md"
   },
   {
     "subject": "Pons",
     "predicate": "bidirectionally_linked_with",
     "object": "Locus Coeruleus",
     "context": "Pons and Locus Coeruleus are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Pons and Locus Coeruleus may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Pons.md"
   },
   {
     "subject": "Proteasome",
     "predicate": "bidirectionally_linked_with",
     "object": "Ubiquitin-Proteasome System",
     "context": "Proteasome and Ubiquitin-Proteasome System are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Proteasome and Ubiquitin-Proteasome System may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Proteostasis",
     "predicate": "bidirectionally_linked_with",
     "object": "Autophagy",
     "context": "Proteostasis and Autophagy are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Proteostasis and Autophagy may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Putamen",
     "predicate": "bidirectionally_linked_with",
     "object": "Substantia Nigra Pars Compacta",
     "context": "Putamen and Substantia Nigra Pars Compacta are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Putamen and Substantia Nigra Pars Compacta may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Putamen.md"
   },
   {
     "subject": "Quinones",
     "predicate": "bidirectionally_linked_with",
     "object": "Oxidative Stress",
     "context": "Quinones and Oxidative Stress are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Quinones and Oxidative Stress may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Quinones.md"
   },
   {
     "subject": "Substantia Nigra Pars Compacta",
     "predicate": "bidirectionally_linked_with",
     "object": "Parkinson's Disease",
     "context": "Substantia Nigra Pars Compacta and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Substantia Nigra Pars Compacta and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Substantia Nigra Pars Compacta.md"
   },
   {
     "subject": "Synapse",
     "predicate": "bidirectionally_linked_with",
     "object": "Synaptic plasticity",
     "context": "Synapse and Synaptic plasticity are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Synapse and Synaptic plasticity may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Synapse.md"
   },
   {
     "subject": "Synaptic Vesicles",
     "predicate": "bidirectionally_linked_with",
     "object": "Alpha-synuclein",
     "context": "Synaptic Vesicles and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Synaptic Vesicles and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Synaptic Vesicles.md"
   },
   {
     "subject": "Synaptic plasticity",
     "predicate": "bidirectionally_linked_with",
     "object": "Chemical memory",
     "context": "Synaptic plasticity and Chemical memory are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Synaptic plasticity and Chemical memory may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Synaptic plasticity.md"
   },
   {
     "subject": "Synaptic plasticity",
     "predicate": "causes",
     "object": "Chemical memory",
     "context": "Synaptic plasticity causes Chemical memory by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-    "confidence": 0.75
+    "confidence": 0.75,
+    "source_document": "Synaptic plasticity.md"
   },
   {
     "subject": "Tyrosinase",
     "predicate": "bidirectionally_linked_with",
     "object": "Neuromelanin Synthesis",
     "context": "Tyrosinase and Neuromelanin Synthesis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Tyrosinase and Neuromelanin Synthesis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md"
   },
   {
     "subject": "Tyrosinase",
     "predicate": "bidirectionally_linked_with",
     "object": "Oculocutaneous Albinism",
     "context": "Tyrosinase and Oculocutaneous Albinism are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Tyrosinase and Oculocutaneous Albinism may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Oculocutaneous Albinism.md"
   },
   {
     "subject": "Tyrosinase",
     "predicate": "converts_to",
     "object": "Neuromelanin",
     "context": "Tyrosinase is biochemically converted into Neuromelanin through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Tyrosinase acts as the substrate and Neuromelanin as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Neuromelanin.md"
   },
   {
     "subject": "Tyrosinase-related protein-1",
     "predicate": "bidirectionally_linked_with",
     "object": "Tyrosinase",
     "context": "Tyrosinase-related protein-1 and Tyrosinase are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Tyrosinase-related protein-1 and Tyrosinase may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Tyrosinase-related protein-1.md"
   },
   {
     "subject": "Tyrosinase-related protein-2",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopachrome tautomerase",
     "context": "Tyrosinase-related protein-2 and Dopachrome tautomerase are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Tyrosinase-related protein-2 and Dopachrome tautomerase may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Tyrosinase-related protein-2.md"
   },
   {
     "subject": "Ubiquitin",
     "predicate": "bidirectionally_linked_with",
     "object": "Ubiquitin-Proteasome System",
     "context": "Ubiquitin and Ubiquitin-Proteasome System are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Ubiquitin and Ubiquitin-Proteasome System may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Ubiquitin-Proteasome System",
     "predicate": "bidirectionally_linked_with",
     "object": "Lewy Bodies",
     "context": "Ubiquitin-Proteasome System and Lewy Bodies are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Ubiquitin-Proteasome System and Lewy Bodies may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Ubiquitin-Proteasome System",
     "predicate": "regulates",
     "object": "Proteostasis",
     "context": "Ubiquitin-Proteasome System regulates Proteostasis by controlling the flux, activity, or abundance of the regulated process. Mechanistically, Ubiquitin-Proteasome System acts as an upstream controller (enzymatic, transcriptional, or physical) that enforces balance in the target system. This is significant because proper regulation maintains homeostasis, and its failure contributes to neurodegeneration. A caveat is that regulation is context-dependent and often buffered by parallel systems, so disruption of one controller may be partially compensated.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Lewy Bodies.md"
   },
   {
     "subject": "Vagus Nerve",
     "predicate": "bidirectionally_linked_with",
     "object": "Dorsal Motor Nucleus of the Vagus",
     "context": "Vagus Nerve and Dorsal Motor Nucleus of the Vagus are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Vagus Nerve and Dorsal Motor Nucleus of the Vagus may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Vagus Nerve.md"
   },
   {
     "subject": "Ventral Tegmental Area",
     "predicate": "spared_in",
     "object": "Parkinson's Disease",
     "context": "Ventral Tegmental Area is spared in Parkinson's Disease, contrasting with the pronounced loss of other dopaminergic populations. Mechanistically, relative sparing reflects differences in pigment load, connectivity, and vulnerability factors between nuclei. This is significant because the differential involvement helps define the anatomical selectivity of the disease. A caveat is that 'spared' is relative; these neurons may show milder or later changes rather than complete immunity.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Addiction.md"
   },
   {
     "subject": "Vesicular Monoamine Transporter 2",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": "Vesicular Monoamine Transporter 2 and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Vesicular Monoamine Transporter 2 and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Vesicular Monoamine Transporter 2.md"
   },
   {
     "subject": "Vesicular Monoamine Transporter 2",
     "predicate": "transports",
     "object": "Dopamine",
     "context": "Vesicular Monoamine Transporter 2 transports Dopamine across a membrane, concentrating the substrate away from the cytosol. Mechanistically, the transporter uses proton or ion gradients to load the cargo into vesicles or organelles. This is significant because proper transport protects against auto-oxidation and provides the releasable pool for neurotransmission. A caveat is that transport is saturable and can be impaired, in which case cytosolic substrate becomes a source of oxidative stress.",
-    "confidence": 0.95
+    "confidence": 0.95,
+    "source_document": "Vesicular Monoamine Transporter 2.md"
   }
 ]
