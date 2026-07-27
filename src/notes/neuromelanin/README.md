@@ -3,7 +3,7 @@ title: Neuromelanin notes
 aliases: []
 description: Index of wiki notes for neuromelanin
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-27
 ---
 # Neuromelanin
 
@@ -11,7 +11,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 
 ## Maintenance
 
-- Last updated: 04_Jul_2026 12:00 PM PDT
+- Last updated: 27_July_2026 12:00 PM PDT
 - Total count of entities: 116
 
 | entity                                       |   datetime updated   | entity_type_1           |
@@ -41,7 +41,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Cutaneous Melanoma]]                       | 25_May_2026 05:23 PM | Medical Condition       |
 | [[Cysteine]]                                 | 11_Jun_2026 04:00 PM | Chemical Compound       |
 | [[Cytokines]]                                | 04_Jul_2026 12:00 PM | Biological Molecule     |
-| [[DJ-1]]                                     | 04_Jul_2026 12:00 PM | Protein                 |
+| [[DJ-1]]                                     | 27_Jul_2026 12:00 PM | Protein                 |
 | [[DNA]]                                      | 11_Jun_2026 04:00 PM | Biological Molecule     |
 | [[Dolichol]]                                 | 11_Jun_2026 04:00 PM | Biological Molecule     |
 | [[Dopachrome tautomerase]]                   | 31_May_2026 02:45 PM | Enzyme                  |

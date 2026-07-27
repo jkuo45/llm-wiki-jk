@@ -1867,7 +1867,7 @@
     "question": "Trace DJ-1's role in glycation and AGE defense, starting from the adrenochrome → sirtuins path through DJ-1.",
     "date": "2026-07-27",
     "method": "graphify path + BFS traversal on graphify-out/graph.json + wiki entity notes",
-    "summary": "DJ-1 (PARK7) is a glutathione-independent glyoxalase occupying Line 1 of a three-layer AGE defense system. It stereospecifically detoxifies methylglyoxal → L-lactate and glyoxal → glycolic acid without consuming glutathione, making it the critical backup when oxidative stress (e.g. adrenochrome redox cycling) depletes the GSH-dependent glyoxalase system. DJ-1 also functions as a redox sensor (Cys106 switch), chaperone (prevents α-synuclein aggregation), transcriptional coactivator (stabilizes Nrf2), and DRP1 regulator (mitochondrial fission). PARK7 mutations cause early-onset Parkinson's Disease via convergent pathology: mitochondrial dysfunction, oxidative damage, and AGE accumulation.",
+    "summary": "DJ-1 (PARK7) is a glutathione-independent glyoxalase occupying Line 1 of a three-layer AGE defense system. It stereospecifically detoxifies methylglyoxal → L-lactate and glyoxal → glycolic acid without consuming glutathione, making it the critical backup when oxidative stress (e.g. adrenochrome redox cycling) depletes the GSH-dependent glyoxalase system. DJ-1 also functions as a redox sensor (Cys106 switch), chaperone (prevents α-synuclein aggregation), transcriptional coactivator (stabilizes Nrf2), and DRP1 regulator (mitochondrial fission). The integrated cascade reveals a self-reinforcing defense network: DJ-1 → Nrf2 → GLO1/GLO2 (anti-glycation) + SIRT6 → Nrf2 (feed-forward), with sirtuins SIRT1/3/6 amplifying and sustaining the defense through MnSOD deacetylation, FOXO3a activation, and Nrf2 co-activation. PARK7 mutations cause early-onset Parkinson's Disease via convergent pathology: mitochondrial dysfunction, oxidative damage, AGE accumulation, and α-synuclein aggregation.",
     "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md",
     "centerNode": {
       "id": "dj_1",
@@ -1921,18 +1921,60 @@
         ],
         "mechanism": "DJ-1 is a GSH-independent glyoxalase: methylglyoxal → L-lactate, glyoxal → glycolic acid. Bypasses GLO1/GLO2 glutathione requirement. Critical backup when oxidative stress depletes GSH."
       },
-      {
-        "name": "Adrenochrome → GSH depletion → DJ-1 dependency",
-        "hops": 3,
-        "path": [
-          "adrenochrome",
-          "oxidative_stress",
-          "dj_1",
-          "methylglyoxal"
-        ],
-        "mechanism": "Adrenochrome redox cycling depletes glutathione → GLO1/GLO2 impaired → methylglyoxal accumulates → DJ-1 becomes the last line of defense (GSH-independent). Double hit: same oxidative stress that depletes GSH also activates DJ-1 via Cys106."
-      }
-    ],
+        {
+          "name": "Adrenochrome → GSH depletion → DJ-1 dependency",
+          "hops": 3,
+          "path": [
+            "adrenochrome",
+            "oxidative_stress",
+            "dj_1",
+            "methylglyoxal"
+          ],
+          "mechanism": "Adrenochrome redox cycling depletes glutathione → GLO1/GLO2 impaired → methylglyoxal accumulates → DJ-1 becomes the last line of defense (GSH-independent). Double hit: same oxidative stress that depletes GSH also activates DJ-1 via Cys106."
+        },
+        {
+          "name": "Integrated Cascade — DJ-1 → Nrf2 → GLO1/SIRT6 (Nrf2 feed-forward)",
+          "hops": 4,
+          "path": [
+            "dj_1",
+            "nrf2",
+            "glyoxalase_system",
+            "advanced_glycation_end_products"
+          ],
+          "mechanism": "DJ-1 stabilizes Nrf2 by blocking KEAP1. Nrf2 drives GLO1/GLO2 transcription (dicarbonyl detoxification). Nrf2 also transactivates SIRT6, which co-activates Nrf2 — creating a self-reinforcing anti-glycation program."
+        },
+        {
+          "name": "Integrated Cascade — Adrenochrome → SIRT3 → MnSOD (superoxide clearance)",
+          "hops": 4,
+          "path": [
+            "adrenochrome",
+            "mitohormesis",
+            "sirt3",
+            "manganese_superoxide_dismutase"
+          ],
+          "mechanism": "Adrenochrome redox cycling generates superoxide → ROS activates AMPK → PGC-1α → SIRT3 upregulation. SIRT3 deacetylates MnSOD at Lys68/Lys122, boosting superoxide dismutation. This clears the adrenochrome-derived superoxide that triggered DJ-1 activation."
+        },
+        {
+          "name": "Integrated Cascade — SIRT1 → FOXO3a → SOD2 (parallel antioxidant axis)",
+          "hops": 3,
+          "path": [
+            "sirt1",
+            "foxo",
+            "manganese_superoxide_dismutase"
+          ],
+          "mechanism": "SIRT1 deacetylates FOXO3a → transcriptional upregulation of SOD2. SIRT1 also activates Nrf2 via KEAP1 modification, paralleling DJ-1's Nrf2 stabilization. Both converge on enhanced antioxidant/anti-glycation defense."
+        },
+        {
+          "name": "Integrated Cascade — Nrf2 → SIRT6 → Nrf2 (feed-forward amplification)",
+          "hops": 3,
+          "path": [
+            "nrf2",
+            "sirt6",
+            "nrf2"
+          ],
+          "mechanism": "Nrf2 transactivates SIRT6 via ARE in SIRT6 promoter. SIRT6 co-activates Nrf2, creating a feed-forward amplification loop. This sustains the antioxidant/anti-glycation program initiated by DJ-1."
+        }
+      ],
     "keyNodes": [
       {
         "id": "dj_1",
@@ -1975,11 +2017,6 @@
         "role": "GSH-dependent dicarbonyl defense (Line 1)"
       },
       {
-        "id": "advanced_glycation_end_products",
-        "label": "AGEs",
-        "role": "Terminal glycation damage products"
-      },
-      {
         "id": "fructosamine_3_kinase",
         "label": "FN3K",
         "role": "Amadori product deglycase (Line 2)"
@@ -2014,13 +2051,68 @@
         "label": "L-lactate",
         "role": "Product of DJ-1 glyoxalase on MGO"
       },
-      {
-        "id": "glycolic_acid",
-        "label": "Glycolic acid",
-        "role": "Product of DJ-1 glyoxalase on glyoxal"
-      }
-    ],
-    "mechanism": "DJ-1/PARK7 is a 189-aa homodimer with a Cys106 redox switch. It occupies Line 1 of a three-layer AGE defense: (1) Prevention — DJ-1 detoxifies MGO → L-lactate and glyoxal → glycolic acid without glutathione, complementing the GSH-dependent GLO1/GLO2 system; (2) Repair — FN3K phosphorylates Amadori products; (3) Degradation — cathepsins and bacterial glucosepane-cleaving enzymes. The adrenochrome connection: adrenochrome redox cycling depletes glutathione, impairing GLO1/GLO2, while simultaneously activating DJ-1 via Cys106 oxidation — making DJ-1 the critical last line of defense. DJ-1 also regulates DRP1-dependent mitochondrial fission, connecting to AMPK and sirtuins. Loss of DJ-1 (PARK7 mutations) causes early-onset PD via convergent pathology: mitochondrial dysfunction, oxidative damage, α-synuclein aggregation, and AGE accumulation.",
+        {
+          "id": "glycolic_acid",
+          "label": "Glycolic acid",
+          "role": "Product of DJ-1 glyoxalase on glyoxal"
+        },
+        {
+          "id": "keap1",
+          "label": "KEAP1",
+          "role": "E3 ligase adaptor blocked by DJ-1 to stabilize Nrf2"
+        },
+        {
+          "id": "sirt1",
+          "label": "SIRT1",
+          "role": "NAD+-dependent deacetylase; activates Nrf2, FOXO3a, PGC-1α"
+        },
+        {
+          "id": "sirt3",
+          "label": "SIRT3",
+          "role": "Mitochondrial deacetylase; activates MnSOD at Lys68/Lys122"
+        },
+        {
+          "id": "sirt6",
+          "label": "SIRT6",
+          "role": "Nrf2 transcriptional target; co-activates Nrf2 (feed-forward)"
+        },
+        {
+          "id": "manganese_superoxide_dismutase",
+          "label": "MnSOD",
+          "role": "SIRT3 target; dismutates adrenochrome-derived superoxide"
+        },
+        {
+          "id": "pgc1",
+          "label": "PGC-1α",
+          "role": "SIRT1 target; mitochondrial biogenesis driver"
+        },
+        {
+          "id": "foxo",
+          "label": "FOXO",
+          "role": "SIRT1 target; drives SOD2, BNIP3, autophagy genes"
+        },
+        {
+          "id": "nad",
+          "label": "NAD+",
+          "role": "Obligate co-substrate for all sirtuins"
+        },
+        {
+          "id": "mitohormesis",
+          "label": "Mitohormesis",
+          "role": "Bridge between adrenochrome ROS and sirtuin activation"
+        },
+        {
+          "id": "glutathione",
+          "label": "Glutathione",
+          "role": "Consumed by GLO1/GLO2; depleted by adrenochrome redox cycling"
+        },
+        {
+          "id": "advanced_glycation_end_products",
+          "label": "AGEs",
+          "role": "Terminal glycation damage; prevented by DJ-1 + GLO1"
+        }
+      ],
+    "mechanism": "DJ-1/PARK7 is a 189-aa homodimer with a Cys106 redox switch. It occupies Line 1 of a three-layer AGE defense: (1) Prevention — DJ-1 detoxifies MGO → L-lactate and glyoxal → glycolic acid without glutathione, complementing the GSH-dependent GLO1/GLO2 system; (2) Repair — FN3K phosphorylates Amadori products; (3) Degradation — cathepsins and bacterial glucosepane-cleaving enzymes. The adrenochrome connection: adrenochrome redox cycling depletes glutathione, impairing GLO1/GLO2, while simultaneously activating DJ-1 via Cys106 oxidation — making DJ-1 the critical last line of defense.\n\nIntegrated Cascade: DJ-1 stabilizes Nrf2 (blocks KEAP1) → Nrf2 drives GLO1/GLO2 transcription (anti-glycation) and transactivates SIRT6 → SIRT6 co-activates Nrf2 (feed-forward loop). Simultaneously, adrenochrome-derived superoxide → AMPK → PGC-1α → SIRT3 → MnSOD deacetylation (Lys68/Lys122) → superoxide clearance. SIRT1 independently activates Nrf2 and deacetylates FOXO3a → SOD2. The SIRT1/3/6 network sustains and amplifies the defense that DJ-1 initiates. PARK7 mutations eliminate both the glyoxalase arm and the Nrf2 arm — combined with age-related NAD+ decline (CD38), sirtuin failure produces the convergent pathology of PD: AGE accumulation, α-synuclein aggregation, mitochondrial dysfunction.",
     "sourceFile": "src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
   }
 ]

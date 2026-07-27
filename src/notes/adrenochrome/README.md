@@ -3,7 +3,7 @@ title: Adrenochrome index
 aliases: []
 description: Index of wiki notes for adrenochrome
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-07-27
 ---
 
 # Adrenochrome
@@ -15,7 +15,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 
 ## Maintenance
 
-- Last updated: 13_JULY_2026 12:00 PM PDT
+- Last updated: 27_July_2026 12:00 PM PDT
 - Total count of entities: 360
 
 | entity                                              |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                                             |
@@ -158,7 +158,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Glycolic acid]]                                   |     17_Jun_2026      | Chemical Compound      |           5            |           0            | Metabolite and simplest alpha-hydroxy acid.                                                               |
 | [[Glycolysis]]                                      |     17_Jun_2026      | Biological Process     |           7            |           0            | Metabolic pathway that generates dicarbonyl byproducts.                                                   |
 | [[Glyoxal]]                                         |     17_Jun_2026      | Chemical Compound      |           8            |           -1           | Reactive dicarbonyl compound that forms AGEs.                                                             |
-| [[Glyoxalase System]]                               |     17_Jun_2026      | Biological Process     |           9            |           1            | Major enzymatic defense against dicarbonyl stress.                                                        |
+| [[Glyoxalase System]]                               | 27_Jul_2026 12:00 PM | Biological Process     |           9            |           1            | Major enzymatic defense against dicarbonyl stress (Line 1 AGE defense).                                   |
 | [[H-NMR]]                                           | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | Spectroscopy technique for structure; neutral analytical method.                                          |
 | [[HAF-1]]                                           |     17_Jun_2026      | Protein                |           6            |           1            | Mitochondrial peptide transporter involved in UPRmt signaling.                                            |
 | [[HIF1A]]                                           |     17_Jun_2026      | Protein                |           7            |           1            | Transcription factor mediating the cellular response to hypoxia.                                          |
@@ -220,7 +220,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Methemoglobinemia]]                               | 27_May_2026 01:28 PM | Medical Condition      |           5            |           -1           | Pathological state of oxidized hemoglobin; negative medical condition.                                    |
 | [[Methylene blue]]                                  | 08_Jul_2026 11:28 AM | Chemical Compound      |           10           |           2            | FDA-approved methemoglobinemia treatment; vasoplegic/neuroprotective/MAO-I uses (shared in notes/\_link). |
 | [[Methylene blue]]                                  |     08_Jul_2026      | Chemical Compound      |           10           |           2            | Mitochondrial electron cycler "amplifier" in the MRR strategy.                                            |
-| [[Methylglyoxal]]                                   | 14_Jun_2026 12:00 PM | Chemical Compound      |           9            |           1            | Reactive dicarbonyl compound and potent precursor for AGE formation.                                      |
+| [[Methylglyoxal]]                                   | 27_Jul_2026 12:00 PM | Chemical Compound      |           9            |           1            | Reactive dicarbonyl compound and potent precursor for AGE formation.                                      |
 | [[Michael addition]]                                | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Chemical reaction mechanism for adduct formation; neutral process.                                        |
 | [[Mithridates VI]]                                  |     17_Jun_2026      | Person                 |           3            |           0            | Historical figure associated with the concept of mithridatism (hormesis).                                 |
 | [[Mithridatism]]                                    | 12_Jun_2026 10:00 AM | Scientific Concept     |           5            |           1            | Historical practice of poison-induced immunity.                                                           |
@@ -271,7 +271,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Oxygen Consumption Rate]]                         |     17_Jun_2026      | Analytical Technique   |           6            |           0            | Measure of mitochondrial respiration and oxidative phosphorylation.                                       |
 | [[Oxygen-dissociation curve]]                       | 27_May_2026 01:28 PM | Scientific Concept     |           5            |           0            | Concept related to oxygen transport; neutral scientific principle.                                        |
 | [[Oxyhemoglobin]]                                   | 27_May_2026 01:28 PM | Protein                |           5            |           0            | Oxygenated form of hemoglobin; neutral protein state.                                                     |
-| [[PARK7]]                                           |     17_Jun_2026      | Gene                   |           7            |           1            | Gene encoding DJ-1, a deglycase protecting against dicarbonyl stress.                                     |
+| [[PARK7]]                                           | 27_Jul_2026 12:00 PM | Gene                   |           7            |           1            | Gene encoding DJ-1, a GSH-independent glyoxalase protecting against dicarbonyl stress.                   |
 | [[PARP1]]                                           |     30_Jun_2026      | Protein                |           8            |           1            | NAD+-dependent DNA repair enzyme.                                                                         |
 | [[PARP2]]                                           |     30_Jun_2026      | Protein                |           8            |           1            | NAD+-dependent DNA repair enzyme.                                                                         |
 | [[PERK]]                                            |     17_Jun_2026      | Enzyme                 |           7            |           0            | ER stress sensor and kinase in the unfolded protein response.                                             |
