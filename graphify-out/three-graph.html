@@ -202,7 +202,7 @@ let activeRouteIdx = -1;
 let suppressHashUpdate = false;
 
 try {
-  const traceResp = await fetch('trace.json');
+  const traceResp = await fetch('traces.json');
   TRACES = await traceResp.json();
 } catch (e) {
   console.warn('Could not load traces:', e);
