@@ -25,7 +25,7 @@ Geraldol is studied for [[Senescence]]-targeted (senolytic) and antioxidant effe
 
 ## Documents
 
-  - [[task_output_comt_fisetin_09_July_2026_02_50_AM_PDT]]
+  - [[task_output_comt_fisetin_senolytic_09_July_2026]]
     - COMT/fisetin task output discussing geraldol as a methylated fisetin analogue with senolytic and antioxidant relevance.
 
 ## Connections

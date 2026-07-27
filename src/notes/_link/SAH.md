@@ -30,7 +30,7 @@ Elevated SAH is associated with hyperhomocysteinemia, cardiovascular risk, and a
 ## Documents
 
 - [[tbl_senescent_compounds_normalized]]: SAH cataloged as a compound of interest in normalized senescent-compound data.
-- [[task_output_comt_fisetin_09_July_2026_02_50_AM_PDT]]: SAH discussed in the context of COMT and methylation metabolism.
+- [[task_output_comt_fisetin_senolytic_09_July_2026]]: SAH discussed in the context of COMT and methylation metabolism.
 - [[tbl_senescent_compounds_raw]]: SAH listed in the raw senescent-compounds table.
 
 ## Connections
