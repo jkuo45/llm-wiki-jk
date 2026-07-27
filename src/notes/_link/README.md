@@ -10,8 +10,8 @@ updated: 2026-07-26
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 26_July_2026 12:00 PM PDT
-- Total count of entities: 434
+- Last updated: 27_July_2026 12:00 PM PDT
+- Total count of entities: 445
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | [[Checkpoint Inhibitor]] | 25_July_2026 12:00 PM PDT | drug-class | Cancer, Immunology |
@@ -35,7 +35,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[ACE Inhibitors]]                               | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
 | [[ACTH]] | 09_Jul_2026 07:00 PM | Chemical Compound | Hormone, HPA Axis, Stress Response |
 | [[Acetyl-L-Carnitine]]                           | 08_Jul_2026 12:00 PM | Chemical Compound      | Aging, Mitochondria                             |
-| [[Acid ceramidase]]                             | 24_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Senescence, Ferroptosis, Sphingolipid Metabolism |
+| [[Acid ceramidase]]                             | 27_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Senescence, Ferroptosis, Sphingolipid Metabolism, Cancer, Lysosomal Storage Disease |
 | [[ACSL4]]                                      | 24_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Ferroptosis, Senescence |
 | [[Ceramide]]                                     | 24_JULY_2026 12:00 PM PDT | Lipid                  | Sphingolipid Metabolism, Ferroptosis, Senescence |
 | [[Phospholipid]]                                 | 24_JULY_2026 12:00 PM PDT | Lipid                  | Membrane, Ferroptosis |
@@ -456,3 +456,14 @@ This directory contains entities that span across multiple topics within the kno
 | [[Pulmonary Arterial Hypertension]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Cardiovascular, Pulmonology |
 | [[Acute Lung Injury]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Critical Care |
 | [[Bronchopulmonary Dysplasia]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Neonatal |
+| [[Lands cycle]] | 27_JULY_2026 12:00 PM PDT | Biochemical Pathway | Lipid Metabolism, Ferroptosis, Phospholipid |
+| [[Saposin-D]] | 27_JULY_2026 12:00 PM PDT | Protein | Sphingolipid Metabolism, Lysosomal Protein |
+| [[WI-38]] | 27_JULY_2026 12:00 PM PDT | Cell Line | Senescence, Ferroptosis, Fibroblast |
+| [[ARN14794]] | 27_JULY_2026 12:00 PM PDT | Chemical Compound | Acid Ceramidase Inhibitor, Ferroptosis, Senolytic |
+| [[ARN14974]] | 27_JULY_2026 12:00 PM PDT | Chemical Compound | Acid Ceramidase Inhibitor, Ferroptosis, Senolytic |
+| [[Carmofur]] | 27_JULY_2026 12:00 PM PDT | Chemical Compound | Acid Ceramidase Inhibitor, Anticancer, Senolytic |
+| [[ASAH1]] | 27_JULY_2026 12:00 PM PDT | Gene | Sphingolipid Metabolism, Lysosomal Storage Disease |
+| [[Cellular Senescence]] | 27_JULY_2026 12:00 PM PDT | Biological Process | Aging, Senescence, Cell Biology |
+| [[Farber disease]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Lysosomal Storage Disease, Genetic Disorder |
+| [[Glioblastoma]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Cancer, Brain Tumor |
+| [[Spinal muscular atrophy with progressive myoclonic epilepsy]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Neurodegenerative Disease, Lysosomal Storage Disease |
