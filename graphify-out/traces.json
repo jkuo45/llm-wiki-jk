@@ -1,7 +1,261 @@
 [
   {
+    "id": "dj1-glycation-defense",
+    "title": "Adrenochrome through DJ-1 / PARK7 — Glycation & AGE Defense Trace",
+    "question": "Trace DJ-1's role in glycation and AGE defense, starting from the adrenochrome → sirtuins path through DJ-1.",
+    "date": "2026-07-27",
+    "method": "graphify path + BFS traversal on graphify-out/graph.json + wiki entity notes",
+    "summary": "DJ-1 (PARK7) is a glutathione-independent glyoxalase occupying Line 1 of a three-layer AGE defense system. It stereospecifically detoxifies methylglyoxal → L-lactate and glyoxal → glycolic acid without consuming glutathione, making it the critical backup when oxidative stress (e.g. adrenochrome redox cycling) depletes the GSH-dependent glyoxalase system. DJ-1 also functions as a redox sensor (Cys106 switch), chaperone (prevents α-synuclein aggregation), transcriptional coactivator (stabilizes Nrf2), and DRP1 regulator (mitochondrial fission). The integrated cascade reveals a self-reinforcing defense network: DJ-1 → Nrf2 → GLO1/GLO2 (anti-glycation) + SIRT6 → Nrf2 (feed-forward), with sirtuins SIRT1/3/6 amplifying and sustaining the defense through MnSOD deacetylation, FOXO3a activation, and Nrf2 co-activation. PARK7 mutations cause early-onset Parkinson's Disease via convergent pathology: mitochondrial dysfunction, oxidative damage, AGE accumulation, and α-synuclein aggregation.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "centerNode": {
+      "id": "dj_1",
+      "label": "DJ-1"
+    },
+    "routes": [
+      {
+        "name": "Adrenochrome → DJ-1 → DRP1 → AMPK → Sirtuins (5 hops)",
+        "hops": 5,
+        "path": [
+          "adrenochrome_semiquinone_radical",
+          "oxidative_stress",
+          "dj_1",
+          "drp1",
+          "ampk",
+          "sirtuins"
+        ],
+        "mechanism": "Adrenochrome semiquinone radical generates ROS. Oxidative stress activates DJ-1 via Cys106 oxidation. DJ-1 regulates DRP1-dependent mitochondrial fission. DRP1 is phosphorylated by AMPK. AMPK interacts with and activates sirtuins (SIRT1/SIRT3)."
+      },
+      {
+        "name": "Adrenochrome → SASP → Metformin → AMPK → Sirtuins (5 hops)",
+        "hops": 5,
+        "path": [
+          "adrenochrome",
+          "sasp",
+          "metformin",
+          "ampk",
+          "sirtuins"
+        ],
+        "mechanism": "Adrenochrome modulates SASP. Metformin suppresses SASP and activates AMPK. AMPK interacts with sirtuins — both are nutrient-sensing longevity pathways."
+      },
+      {
+        "name": "Adrenochrome → SASP → Resveratrol → Sir2 → Sirtuins (5 hops)",
+        "hops": 5,
+        "path": [
+          "adrenochrome",
+          "sasp",
+          "resveratrol",
+          "sir2_yeast",
+          "sirtuins_sirt1_7"
+        ],
+        "mechanism": "Same SASP bridge through resveratrol (sirtuin activator) and yeast Sir2 ortholog — evolutionary root of mammalian SIRT1–7."
+      },
+      {
+        "name": "DJ-1 → Glyoxalase (Line 1 AGE defense)",
+        "hops": 2,
+        "path": [
+          "dj_1",
+          "methylglyoxal",
+          "advanced_glycation_end_products"
+        ],
+        "mechanism": "DJ-1 is a GSH-independent glyoxalase: methylglyoxal → L-lactate, glyoxal → glycolic acid. Bypasses GLO1/GLO2 glutathione requirement. Critical backup when oxidative stress depletes GSH."
+      },
+      {
+        "name": "Adrenochrome → GSH depletion → DJ-1 dependency",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "oxidative_stress",
+          "dj_1",
+          "methylglyoxal"
+        ],
+        "mechanism": "Adrenochrome redox cycling depletes glutathione → GLO1/GLO2 impaired → methylglyoxal accumulates → DJ-1 becomes the last line of defense (GSH-independent). Double hit: same oxidative stress that depletes GSH also activates DJ-1 via Cys106."
+      },
+      {
+        "name": "Integrated Cascade — DJ-1 → Nrf2 → GLO1/SIRT6 (Nrf2 feed-forward)",
+        "hops": 4,
+        "path": [
+          "dj_1",
+          "nrf2",
+          "glyoxalase_system",
+          "advanced_glycation_end_products"
+        ],
+        "mechanism": "DJ-1 stabilizes Nrf2 by blocking KEAP1. Nrf2 drives GLO1/GLO2 transcription (dicarbonyl detoxification). Nrf2 also transactivates SIRT6, which co-activates Nrf2 — creating a self-reinforcing anti-glycation program."
+      },
+      {
+        "name": "Integrated Cascade — Adrenochrome → SIRT3 → MnSOD (superoxide clearance)",
+        "hops": 4,
+        "path": [
+          "adrenochrome",
+          "mitohormesis",
+          "sirt3",
+          "manganese_superoxide_dismutase"
+        ],
+        "mechanism": "Adrenochrome redox cycling generates superoxide → ROS activates AMPK → PGC-1α → SIRT3 upregulation. SIRT3 deacetylates MnSOD at Lys68/Lys122, boosting superoxide dismutation. This clears the adrenochrome-derived superoxide that triggered DJ-1 activation."
+      },
+      {
+        "name": "Integrated Cascade — SIRT1 → FOXO3a → SOD2 (parallel antioxidant axis)",
+        "hops": 3,
+        "path": [
+          "sirt1",
+          "foxo",
+          "manganese_superoxide_dismutase"
+        ],
+        "mechanism": "SIRT1 deacetylates FOXO3a → transcriptional upregulation of SOD2. SIRT1 also activates Nrf2 via KEAP1 modification, paralleling DJ-1's Nrf2 stabilization. Both converge on enhanced antioxidant/anti-glycation defense."
+      },
+      {
+        "name": "Integrated Cascade — Nrf2 → SIRT6 → Nrf2 (feed-forward amplification)",
+        "hops": 3,
+        "path": [
+          "nrf2",
+          "sirt6",
+          "nrf2"
+        ],
+        "mechanism": "Nrf2 transactivates SIRT6 via ARE in SIRT6 promoter. SIRT6 co-activates Nrf2, creating a feed-forward amplification loop. This sustains the antioxidant/anti-glycation program initiated by DJ-1."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "dj_1",
+        "label": "DJ-1",
+        "role": "Redox sensor, glyoxalase, chaperone, DRP1 regulator"
+      },
+      {
+        "id": "park7",
+        "label": "PARK7",
+        "role": "Gene encoding DJ-1"
+      },
+      {
+        "id": "drp1",
+        "label": "DRP1",
+        "role": "Mitochondrial fission GTPase, DJ-1 target"
+      },
+      {
+        "id": "ampk",
+        "label": "AMPK",
+        "role": "Energy sensor, DRP1 kinase, sirtuin activator"
+      },
+      {
+        "id": "sirtuins",
+        "label": "Sirtuins",
+        "role": "NAD+-dependent defense system"
+      },
+      {
+        "id": "methylglyoxal",
+        "label": "Methylglyoxal",
+        "role": "Reactive dicarbonyl, DJ-1 substrate"
+      },
+      {
+        "id": "glyoxal",
+        "label": "Glyoxal",
+        "role": "Reactive dicarbonyl, DJ-1 substrate"
+      },
+      {
+        "id": "glyoxalase_system",
+        "label": "Glyoxalase System",
+        "role": "GSH-dependent dicarbonyl defense (Line 1)"
+      },
+      {
+        "id": "fructosamine_3_kinase",
+        "label": "FN3K",
+        "role": "Amadori product deglycase (Line 2)"
+      },
+      {
+        "id": "cathepsin_d",
+        "label": "Cathepsin D",
+        "role": "Lysosomal AGE degradation (Line 3)"
+      },
+      {
+        "id": "glucosepane",
+        "label": "Glucosepane",
+        "role": "Most abundant AGE crosslink"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "Upstream activator of DJ-1"
+      },
+      {
+        "id": "nrf2",
+        "label": "Nrf2",
+        "role": "DJ-1-stabilized antioxidant TF"
+      },
+      {
+        "id": "alpha_synuclein",
+        "label": "α-synuclein",
+        "role": "DJ-1 chaperone target"
+      },
+      {
+        "id": "l_lactate",
+        "label": "L-lactate",
+        "role": "Product of DJ-1 glyoxalase on MGO"
+      },
+      {
+        "id": "glycolic_acid",
+        "label": "Glycolic acid",
+        "role": "Product of DJ-1 glyoxalase on glyoxal"
+      },
+      {
+        "id": "keap1",
+        "label": "KEAP1",
+        "role": "E3 ligase adaptor blocked by DJ-1 to stabilize Nrf2"
+      },
+      {
+        "id": "sirt1",
+        "label": "SIRT1",
+        "role": "NAD+-dependent deacetylase; activates Nrf2, FOXO3a, PGC-1α"
+      },
+      {
+        "id": "sirt3",
+        "label": "SIRT3",
+        "role": "Mitochondrial deacetylase; activates MnSOD at Lys68/Lys122"
+      },
+      {
+        "id": "sirt6",
+        "label": "SIRT6",
+        "role": "Nrf2 transcriptional target; co-activates Nrf2 (feed-forward)"
+      },
+      {
+        "id": "manganese_superoxide_dismutase",
+        "label": "MnSOD",
+        "role": "SIRT3 target; dismutates adrenochrome-derived superoxide"
+      },
+      {
+        "id": "pgc1",
+        "label": "PGC-1α",
+        "role": "SIRT1 target; mitochondrial biogenesis driver"
+      },
+      {
+        "id": "foxo",
+        "label": "FOXO",
+        "role": "SIRT1 target; drives SOD2, BNIP3, autophagy genes"
+      },
+      {
+        "id": "nad",
+        "label": "NAD+",
+        "role": "Obligate co-substrate for all sirtuins"
+      },
+      {
+        "id": "mitohormesis",
+        "label": "Mitohormesis",
+        "role": "Bridge between adrenochrome ROS and sirtuin activation"
+      },
+      {
+        "id": "glutathione",
+        "label": "Glutathione",
+        "role": "Consumed by GLO1/GLO2; depleted by adrenochrome redox cycling"
+      },
+      {
+        "id": "advanced_glycation_end_products",
+        "label": "AGEs",
+        "role": "Terminal glycation damage; prevented by DJ-1 + GLO1"
+      }
+    ],
+    "mechanism": "DJ-1/PARK7 is a 189-aa homodimer with a Cys106 redox switch. It occupies Line 1 of a three-layer AGE defense: (1) Prevention — DJ-1 detoxifies MGO → L-lactate and glyoxal → glycolic acid without glutathione, complementing the GSH-dependent GLO1/GLO2 system; (2) Repair — FN3K phosphorylates Amadori products; (3) Degradation — cathepsins and bacterial glucosepane-cleaving enzymes. The adrenochrome connection: adrenochrome redox cycling depletes glutathione, impairing GLO1/GLO2, while simultaneously activating DJ-1 via Cys106 oxidation — making DJ-1 the critical last line of defense.\n\nIntegrated Cascade: DJ-1 stabilizes Nrf2 (blocks KEAP1) → Nrf2 drives GLO1/GLO2 transcription (anti-glycation) and transactivates SIRT6 → SIRT6 co-activates Nrf2 (feed-forward loop). Simultaneously, adrenochrome-derived superoxide → AMPK → PGC-1α → SIRT3 → MnSOD deacetylation (Lys68/Lys122) → superoxide clearance. SIRT1 independently activates Nrf2 and deacetylates FOXO3a → SOD2. The SIRT1/3/6 network sustains and amplifies the defense that DJ-1 initiates. PARK7 mutations eliminate both the glyoxalase arm and the Nrf2 arm — combined with age-related NAD+ decline (CD38), sirtuin failure produces the convergent pathology of PD: AGE accumulation, α-synuclein aggregation, mitochondrial dysfunction.",
+    "sourceFile": "src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
+  },
+  {
     "id": "ap1-cross-community-bridge",
-    "title": "AP-1 as a Cross-Community Bridge",
+    "title": "AP-1 as a Cross-Community Bridge (autophagy, senescence, nrf2)",
     "question": "Why does AP-1 bridge Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation?",
     "date": "2026-07-21",
     "method": "graphify query BFS traversal + graphify explain + graphify path",
@@ -143,6 +397,102 @@
     ],
     "mechanism": "AP-1 operates as a stress-responsive pioneer transcription factor at the intersection of four aging hallmarks:\n\n1. **Senescence:** Pioneer factor opening closed chromatin at SASP super-enhancers (co-bound with BRD4 and C/EBPα).\n\n2. **Antioxidant/NRF2:** AP-1 target genes include Catalase. NRF2 competes with AP-1 for CBP/p300, creating a redox-sensitive regulatory switch.\n\n3. **Autophagy:** AP-1-driven SASP cytokines (CXCL5, IL-6) promote inflammaging, which CR suppresses.\n\n4. **Neuroinflammation:** AP-1 downstream targets (TNFα, IL-6) and cGAS-STING connection place it at the center of microglial inflammatory responses.",
     "sourceFile": "src/tasks/task_output_ap1_trace_21_JUL_2026.md"
+  },
+  {
+    "id": "nad-to-bnip3-mitophagy",
+    "title": "NAD+ to BNIP3 — Metabolic Signaling to Mitophagy",
+    "question": "How does NAD+ connect to BNIP3/BNIP3L mitophagy receptors?",
+    "date": "2026-07-21",
+    "method": "nx.shortest_path BFS on graph.json after incremental mitophagy entity update",
+    "summary": "Shortest path: NAD+ Biosynthesis → Autophagy → HIF1A → BNIP3L (3 hops). NAD+ activates SIRT1, which deacetylates core autophagy machinery (Atg5/Atg7/LC3) and transcription factors (FOXO/TFEB). HIF1A, stabilized under hypoxia, transactivates BNIP3/BNIP3L — mitophagy receptors with LIR motifs that recruit LC3 to depolarized mitochondria. This connects NAD+ levels (metabolic state sensor) to mitochondrial quality control.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md",
+    "centerNode": {
+      "id": "autophagy",
+      "label": "Autophagy"
+    },
+    "routes": [
+      {
+        "name": "NAD+ → Autophagy (SIRT1 axis)",
+        "hops": 1,
+        "path": [
+          "nad",
+          "autophagy"
+        ],
+        "mechanism": "NAD+ activates SIRT1 → deacetylates FOXO3a, TFEB, Atg5/Atg7/LC3 → activates core autophagy machinery. NAD+ decline with age suppresses autophagy; NR/NMN supplementation restores it."
+      },
+      {
+        "name": "Autophagy → HIF1A (shared regulators)",
+        "hops": 1,
+        "path": [
+          "autophagy",
+          "mitohormesis"
+        ],
+        "mechanism": "Autophagy and HIF1A are interconnected through Mitohormesis (shared neighbor), mTOR, AMPK, and ROS signaling. Both converge on autophagic machinery."
+      },
+      {
+        "name": "HIF1A → BNIP3/BNIP3L (mitophagy)",
+        "hops": 1,
+        "path": [
+          "autophagy",
+          "bnip3"
+        ],
+        "mechanism": "HIF1A binds HREs in BNIP3/BNIP3L promoters under hypoxia. BNIP3/BNIP3L insert into outer mitochondrial membrane, LIR motifs recruit LC3/GABARAP → mitochondrion engulfed and degraded by mitophagy."
+      },
+      {
+        "name": "Complete NAD+ → BNIP3 signaling axis",
+        "hops": 3,
+        "path": [
+          "nad",
+          "autophagy",
+          "bnip3"
+        ],
+        "mechanism": "NAD+ → SIRT1 → FOXO/TFEB → autophagy machinery; NAD+ → SIRT3/SIRT4 → mitochondrial health → ROS/hypoxia → HIF1A stabilization → BNIP3/BNIP3L transactivation → mitophagy."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "nad",
+        "label": "NAD+",
+        "role": "Central metabolic cofactor, metabolic state sensor"
+      },
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Convergence point for metabolic and hypoxic signaling"
+      },
+      {
+        "id": "bnip3",
+        "label": "BNIP3",
+        "role": "Mitophagy receptor (Bcl-2 family, LIR motif)"
+      },
+      {
+        "id": "mitohormesis",
+        "label": "Mitohormesis",
+        "role": "Shared neighbor of NAD+ and HIF1A"
+      },
+      {
+        "id": "sirtuins",
+        "label": "Sirtuins",
+        "role": "NAD+-dependent deacetylases driving autophagy"
+      },
+      {
+        "id": "apoptosis",
+        "label": "Apoptosis",
+        "role": "BNIP3 can also trigger cell death"
+      },
+      {
+        "id": "sirt3",
+        "label": "SIRT3",
+        "role": "Mitochondrial deacetylase"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "ROS stabilize HIF1A and activate autophagy"
+      }
+    ],
+    "mechanism": "NAD+ → SIRT1 → deacetylates FOXO3a/TFEB/Atg machinery → autophagy activation. Simultaneously, NAD+ → SIRT3/SIRT4 → mitochondrial health → ROS/hypoxia → HIF1A stabilization → BNIP3/BNIP3L transactivation → mitophagy. This connects metabolic state (NAD+ levels) to mitochondrial quality control. NAD+ decline with age → impaired mitophagy → accumulation of dysfunctional mitochondria.",
+    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
   },
   {
     "id": "adrenochrome-sirtuins-defense",
@@ -905,102 +1255,6 @@
     "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
   },
   {
-    "id": "nad-to-bnip3-mitophagy",
-    "title": "NAD+ to BNIP3 — Metabolic Signaling to Mitophagy",
-    "question": "How does NAD+ connect to BNIP3/BNIP3L mitophagy receptors?",
-    "date": "2026-07-21",
-    "method": "nx.shortest_path BFS on graph.json after incremental mitophagy entity update",
-    "summary": "Shortest path: NAD+ Biosynthesis → Autophagy → HIF1A → BNIP3L (3 hops). NAD+ activates SIRT1, which deacetylates core autophagy machinery (Atg5/Atg7/LC3) and transcription factors (FOXO/TFEB). HIF1A, stabilized under hypoxia, transactivates BNIP3/BNIP3L — mitophagy receptors with LIR motifs that recruit LC3 to depolarized mitochondria. This connects NAD+ levels (metabolic state sensor) to mitochondrial quality control.",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md",
-    "centerNode": {
-      "id": "autophagy",
-      "label": "Autophagy"
-    },
-    "routes": [
-      {
-        "name": "NAD+ → Autophagy (SIRT1 axis)",
-        "hops": 1,
-        "path": [
-          "nad",
-          "autophagy"
-        ],
-        "mechanism": "NAD+ activates SIRT1 → deacetylates FOXO3a, TFEB, Atg5/Atg7/LC3 → activates core autophagy machinery. NAD+ decline with age suppresses autophagy; NR/NMN supplementation restores it."
-      },
-      {
-        "name": "Autophagy → HIF1A (shared regulators)",
-        "hops": 1,
-        "path": [
-          "autophagy",
-          "mitohormesis"
-        ],
-        "mechanism": "Autophagy and HIF1A are interconnected through Mitohormesis (shared neighbor), mTOR, AMPK, and ROS signaling. Both converge on autophagic machinery."
-      },
-      {
-        "name": "HIF1A → BNIP3/BNIP3L (mitophagy)",
-        "hops": 1,
-        "path": [
-          "autophagy",
-          "bnip3"
-        ],
-        "mechanism": "HIF1A binds HREs in BNIP3/BNIP3L promoters under hypoxia. BNIP3/BNIP3L insert into outer mitochondrial membrane, LIR motifs recruit LC3/GABARAP → mitochondrion engulfed and degraded by mitophagy."
-      },
-      {
-        "name": "Complete NAD+ → BNIP3 signaling axis",
-        "hops": 3,
-        "path": [
-          "nad",
-          "autophagy",
-          "bnip3"
-        ],
-        "mechanism": "NAD+ → SIRT1 → FOXO/TFEB → autophagy machinery; NAD+ → SIRT3/SIRT4 → mitochondrial health → ROS/hypoxia → HIF1A stabilization → BNIP3/BNIP3L transactivation → mitophagy."
-      }
-    ],
-    "keyNodes": [
-      {
-        "id": "nad",
-        "label": "NAD+",
-        "role": "Central metabolic cofactor, metabolic state sensor"
-      },
-      {
-        "id": "autophagy",
-        "label": "Autophagy",
-        "role": "Convergence point for metabolic and hypoxic signaling"
-      },
-      {
-        "id": "bnip3",
-        "label": "BNIP3",
-        "role": "Mitophagy receptor (Bcl-2 family, LIR motif)"
-      },
-      {
-        "id": "mitohormesis",
-        "label": "Mitohormesis",
-        "role": "Shared neighbor of NAD+ and HIF1A"
-      },
-      {
-        "id": "sirtuins",
-        "label": "Sirtuins",
-        "role": "NAD+-dependent deacetylases driving autophagy"
-      },
-      {
-        "id": "apoptosis",
-        "label": "Apoptosis",
-        "role": "BNIP3 can also trigger cell death"
-      },
-      {
-        "id": "sirt3",
-        "label": "SIRT3",
-        "role": "Mitochondrial deacetylase"
-      },
-      {
-        "id": "oxidative_stress",
-        "label": "Oxidative Stress",
-        "role": "ROS stabilize HIF1A and activate autophagy"
-      }
-    ],
-    "mechanism": "NAD+ → SIRT1 → deacetylates FOXO3a/TFEB/Atg machinery → autophagy activation. Simultaneously, NAD+ → SIRT3/SIRT4 → mitochondrial health → ROS/hypoxia → HIF1A stabilization → BNIP3/BNIP3L transactivation → mitophagy. This connects metabolic state (NAD+ levels) to mitochondrial quality control. NAD+ decline with age → impaired mitophagy → accumulation of dysfunctional mitochondria.",
-    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
-  },
-  {
     "id": "cd38-sarm1-bridging-gaps",
     "title": "CD38–SARM1 Bridging Gaps — Missing Edges & Research Opportunities",
     "question": "What connections are missing between the CD38 and SARM1 traces in the knowledge graph?",
@@ -1218,12 +1472,207 @@
     "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
   },
   {
+    "id": "adrenochrome-autophagy-mitophagy-foam-cells",
+    "title": "Adrenochrome → Autophagy/Mitophagy & Foam Cells",
+    "question": "How does adrenochrome connect to autophagy/mitophagy and foam cell biology?",
+    "date": "2026-07-17",
+    "method": "graphify BFS/shortest-path traversal of graphify-out/graph.json",
+    "summary": "Two convergent traces: (1) Adrenochrome connects to autophagy/mitophagy through the Mitohormetic Redox-Relay (MRR) as a hormetic trigger at sub-µM doses — redox cycling at Complex I/III generates a confined superoxide pulse → SOD2 → H₂O₂ → Keap1 modification → NRF2/ATF4/PGC1-α → TFEB/FOXO → mitophagy via Urolithin A/PINK1/Parkin. (2) Foam Cells bridge oxidative stress (glycation branch via Methylglyoxal/AGEs + redox branch) to atherosclerosis and TFEB-controlled lipophagy/autophagy, converging on TFEB as a three-community god node.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
+    "centerNode": {
+      "id": "adrenochrome",
+      "label": "Adrenochrome"
+    },
+    "routes": [
+      {
+        "name": "Graph path: Adrenochrome → Autophagy (toxic route)",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "oxidative_stress",
+          "foam_cells",
+          "autophagy"
+        ],
+        "mechanism": "The graph-discovered path runs through Oxidative Stress → Foam Cells, representing the toxic atherosclerosis route (distinct from the beneficial MRR branch)."
+      },
+      {
+        "name": "MRR beneficial cascade (TFEB arm)",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "tfeb",
+          "autophagy"
+        ],
+        "mechanism": "Under the beneficial/hormetic framing, the Mitohormetic Redox-Relay converges on TFEB/FOXO as quality-control transcription factors that drive autophagy and mitophagy gene programs. TFEB is the master regulator of autophagy/lysosomal biogenesis (CLEAR network)."
+      },
+      {
+        "name": "Glycation branch → Foam Cells",
+        "hops": 4,
+        "path": [
+          "methylglyoxal",
+          "advanced_glycation_end_products",
+          "low_density_lipoprotein",
+          "foam_cells"
+        ],
+        "mechanism": "Under hyperglycemic/pro-oxidative conditions, Methylglyoxal and Glucose form AGEs on ApoB-100, oxidizing LDL and making it a high-affinity scavenger-receptor ligand — the metabolic-dysfunction to vascular-disease link."
+      },
+      {
+        "name": "Redox + clearance branch (TFEB lipophagy)",
+        "hops": 3,
+        "path": [
+          "oxidative_stress",
+          "foam_cells",
+          "autophagy"
+        ],
+        "mechanism": "Foam-cell formation is amplified by oxidative stress and impaired autophagy (inefficient cholesterol efflux, defective autophagic clearance). This is the TFEB-controlled lysosomal/lipophagy arm."
+      },
+      {
+        "name": "Terminal/inflammatory branch",
+        "hops": 3,
+        "path": [
+          "foam_cells",
+          "cell_necrosis",
+          "inflammation"
+        ],
+        "mechanism": "Foam cells necrose, seeding the plaque necrotic core; efferocytosis failure perpetuates inflammation."
+      },
+      {
+        "name": "Foam Cells → Atherosclerosis (direct)",
+        "hops": 1,
+        "path": [
+          "foam_cells",
+          "atherosclerosis"
+        ],
+        "mechanism": "Foam cells are the hallmark lesion of early atherosclerosis — lipid-laden macrophages in the arterial intima."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "adrenochrome",
+        "label": "Adrenochrome",
+        "role": "Hormetic trigger at sub-µM / toxin at µM+"
+      },
+      {
+        "id": "carbazochrome",
+        "label": "Carbazochrome",
+        "role": "Stabilized adrenochrome, redox-cycles at Complex I/III"
+      },
+      {
+        "id": "mitohormesis",
+        "label": "Mitohormesis",
+        "role": "Adaptive mitochondrial stress response"
+      },
+      {
+        "id": "keap1",
+        "label": "Keap1",
+        "role": "ROS sensor, NRF2 inhibitor (cysteine modification)"
+      },
+      {
+        "id": "nrf2",
+        "label": "NRF2",
+        "role": "Master antioxidant transcription factor"
+      },
+      {
+        "id": "atf4",
+        "label": "ATF4",
+        "role": "Integrated stress response transcription factor"
+      },
+      {
+        "id": "pgc1",
+        "label": "PGC1α",
+        "role": "Mitochondrial biogenesis driver"
+      },
+      {
+        "id": "tfeb",
+        "label": "TFEB",
+        "role": "Master regulator of autophagy/lysosomal biogenesis"
+      },
+      {
+        "id": "foxo",
+        "label": "FOXO",
+        "role": "Quality-control transcription factor"
+      },
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Cellular quality control pathway"
+      },
+      {
+        "id": "mitophagy",
+        "label": "Mitophagy",
+        "role": "Selective mitochondrial autophagy"
+      },
+      {
+        "id": "urolithin_a",
+        "label": "Urolithin A",
+        "role": "Inducer of PINK1/Parkin mitophagy"
+      },
+      {
+        "id": "foam_cells",
+        "label": "Foam Cells",
+        "role": "Bridge node: oxidative stress ↔ atherosclerosis ↔ autophagy"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "Shared upstream with adrenochrome redox cycling"
+      },
+      {
+        "id": "methylglyoxal",
+        "label": "Methylglyoxal",
+        "role": "Glycation agent, glycation branch driver"
+      },
+      {
+        "id": "advanced_glycation_end_products",
+        "label": "Advanced Glycation End Products",
+        "role": "Modified LDL ligands for scavenger receptors"
+      },
+      {
+        "id": "low_density_lipoprotein",
+        "label": "Low-Density Lipoprotein",
+        "role": "Substrate for glycation/oxidation"
+      },
+      {
+        "id": "atherosclerosis",
+        "label": "Atherosclerosis",
+        "role": "Disease outcome of foam cell accumulation"
+      },
+      {
+        "id": "cell_necrosis",
+        "label": "Cell necrosis",
+        "role": "Foam cell death → necrotic core"
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "role": "Terminal inflammatory cascade"
+      },
+      {
+        "id": "macrophages",
+        "label": "Macrophages",
+        "role": "Foam cell precursor cells"
+      },
+      {
+        "id": "lipophagy",
+        "label": "Lipophagy",
+        "role": "Selective autophagic clearance of lipids"
+      },
+      {
+        "id": "lysosome",
+        "label": "Lysosome",
+        "role": "Degradative organelle, TFEB target"
+      }
+    ],
+    "mechanism": "Two convergent traces share TFEB as the central hub:\n\nTrace 1 — Adrenochrome → Autophagy/Mitophagy (beneficial MRR): Carbazochrome (stabilized adrenochrome) redox-cycles at Complex I/III, emitting a spatially constrained superoxide pulse. SOD2 → H₂O₂ exits via aquaporins → modifies Keap1, releasing NRF2. Matrix ROS also drives the Integrated Stress Response (OMA1→OPA1→DELE1→HRI→ATF4). Convergence on TFEB/FOXO activates autophagy and mitophagy (Urolithin A → PINK1/Parkin).\n\nTrace 2 — Foam Cells: Foam Cells sit at the intersection of three communities: (1) Glycation — Methylglyoxal/AGEs on ApoB-100 produce oxidized LDL → scavenger receptor uptake; (2) Redox + clearance — Oxidative Stress amplifies foam cell formation, impairing TFEB-controlled lipophagy; (3) Terminal — Foam cell necrosis seeds plaque necrotic core, perpetuating inflammation.\n\nConvergence: TFEB bridges all three — lipophagy in foam cells, mitophagy in the MRR, and the autophagy/lysosomal quality-control network.",
+    "sourceFile": "src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
+  },
+  {
     "id": "adrenochrome-inflammaging-epigenetic",
     "title": "Adrenochrome → Inflammaging via Epigenetic Bridge",
     "question": "How does adrenochrome drive inflammaging through epigenetic disruption?",
     "date": "2026-07-16",
     "method": "graphify knowledge graph query BFS/shortest-path traversal (1850 nodes, 2388 links)",
-    "summary": "Adrenochrome (an electrophilic quinone metabolite of epinephrine) covalently modifies DGCR8/Drosha \u2014 the heme-binding RNA sensors of the Microprocessor complex \u2014 disrupting miRNA biogenesis. This unleashes senescence-associated miRNAs (miR-217, miR-378, miR-543) that drive cellular senescence and SASP, the canonical driver of inflammaging. A parallel tissue-level path goes through myocardial infarction \u2192 neutrophil recruitment \u2192 acute inflammation.",
+    "summary": "Adrenochrome (an electrophilic quinone metabolite of epinephrine) covalently modifies DGCR8/Drosha — the heme-binding RNA sensors of the Microprocessor complex — disrupting miRNA biogenesis. This unleashes senescence-associated miRNAs (miR-217, miR-378, miR-543) that drive cellular senescence and SASP, the canonical driver of inflammaging. A parallel tissue-level path goes through myocardial infarction → neutrophil recruitment → acute inflammation.",
     "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
     "centerNode": {
       "id": "adrenochrome",
@@ -1238,7 +1687,7 @@
           "dgcr8",
           "inflammaging"
         ],
-        "mechanism": "Adrenochrome covalently modifies DGCR8 (the heme-binding RNA sensor of the Microprocessor complex), disrupting miRNA biogenesis \u2014 altering the epigenetic network controlling inflammaging."
+        "mechanism": "Adrenochrome covalently modifies DGCR8 (the heme-binding RNA sensor of the Microprocessor complex), disrupting miRNA biogenesis — altering the epigenetic network controlling inflammaging."
       },
       {
         "name": "Parallel Drosha Route",
@@ -1259,7 +1708,7 @@
           "neutrophils",
           "inflammation"
         ],
-        "mechanism": "Adrenochrome exacerbates myocardial infarction \u2192 MI recruits neutrophils \u2192 neutrophils drive acute inflammation (tissue-level, non-epigenetic path)."
+        "mechanism": "Adrenochrome exacerbates myocardial infarction → MI recruits neutrophils → neutrophils drive acute inflammation (tissue-level, non-epigenetic path)."
       },
       {
         "name": "Senescence/SASP Cascade (DGCR8)",
@@ -1272,7 +1721,7 @@
           "sasp",
           "inflammaging"
         ],
-        "mechanism": "Full cascade: adrenochrome disrupts Microprocessor \u2192 miRNA dysregulation triggers senescence \u2192 senescent cells secrete SASP \u2192 SASP drives inflammaging."
+        "mechanism": "Full cascade: adrenochrome disrupts Microprocessor → miRNA dysregulation triggers senescence → senescent cells secrete SASP → SASP drives inflammaging."
       },
       {
         "name": "Senescence/SASP Cascade (Drosha)",
@@ -1285,7 +1734,7 @@
           "sasp",
           "inflammaging"
         ],
-        "mechanism": "Same mechanism via Drosha: electrophilic modification disrupts miRNA processing \u2192 senescence \u2192 SASP \u2192 inflammaging."
+        "mechanism": "Same mechanism via Drosha: electrophilic modification disrupts miRNA processing → senescence → SASP → inflammaging."
       }
     ],
     "keyNodes": [
@@ -1350,211 +1799,16 @@
         "role": "Senescence-associated miRNA"
       }
     ],
-    "mechanism": "Adrenochrome\u2019s quinone moiety (indoline-5,6-dione) acts as an electrophile modifying thiol groups on DGCR8/Drosha. Since DGCR8 is a heme-binding protein with cysteine residues critical for RNA recognition, this covalent modification degrades Microprocessor fidelity. The downstream miRNAs \u2014 including miR-217, miR-378, and miR-543 \u2014 are senescence-associated regulators. Their dysregulation activates senescence programs, SASP factor secretion, and inflammaging. The connection crosses 4 communities: C11 (adrenochrome chemistry) \u2192 C18/C15 (epigenetics/miRNA processing) \u2192 C4 (senescence/SASP/inflammaging) \u2192 C73 (tissue inflammation). DGCR8 and Drosha are the molecular hinge where a chemical metabolite translates into an epigenetic perturbation driving aging-associated inflammation.",
+    "mechanism": "Adrenochrome’s quinone moiety (indoline-5,6-dione) acts as an electrophile modifying thiol groups on DGCR8/Drosha. Since DGCR8 is a heme-binding protein with cysteine residues critical for RNA recognition, this covalent modification degrades Microprocessor fidelity. The downstream miRNAs — including miR-217, miR-378, and miR-543 — are senescence-associated regulators. Their dysregulation activates senescence programs, SASP factor secretion, and inflammaging. The connection crosses 4 communities: C11 (adrenochrome chemistry) → C18/C15 (epigenetics/miRNA processing) → C4 (senescence/SASP/inflammaging) → C73 (tissue inflammation). DGCR8 and Drosha are the molecular hinge where a chemical metabolite translates into an epigenetic perturbation driving aging-associated inflammation.",
     "sourceFile": "src/tasks/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
   },
   {
-    "id": "adrenochrome-autophagy-mitophagy-foam-cells",
-    "title": "Adrenochrome \u2192 Autophagy/Mitophagy & Foam Cells",
-    "question": "How does adrenochrome connect to autophagy/mitophagy and foam cell biology?",
-    "date": "2026-07-17",
-    "method": "graphify BFS/shortest-path traversal of graphify-out/graph.json",
-    "summary": "Two convergent traces: (1) Adrenochrome connects to autophagy/mitophagy through the Mitohormetic Redox-Relay (MRR) as a hormetic trigger at sub-\u00b5M doses \u2014 redox cycling at Complex I/III generates a confined superoxide pulse \u2192 SOD2 \u2192 H\u2082O\u2082 \u2192 Keap1 modification \u2192 NRF2/ATF4/PGC1-\u03b1 \u2192 TFEB/FOXO \u2192 mitophagy via Urolithin A/PINK1/Parkin. (2) Foam Cells bridge oxidative stress (glycation branch via Methylglyoxal/AGEs + redox branch) to atherosclerosis and TFEB-controlled lipophagy/autophagy, converging on TFEB as a three-community god node.",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
-    "centerNode": {
-      "id": "adrenochrome",
-      "label": "Adrenochrome"
-    },
-    "routes": [
-      {
-        "name": "Graph path: Adrenochrome \u2192 Autophagy (toxic route)",
-        "hops": 3,
-        "path": [
-          "adrenochrome",
-          "oxidative_stress",
-          "foam_cells",
-          "autophagy"
-        ],
-        "mechanism": "The graph-discovered path runs through Oxidative Stress \u2192 Foam Cells, representing the toxic atherosclerosis route (distinct from the beneficial MRR branch)."
-      },
-      {
-        "name": "MRR beneficial cascade (TFEB arm)",
-        "hops": 3,
-        "path": [
-          "adrenochrome",
-          "tfeb",
-          "autophagy"
-        ],
-        "mechanism": "Under the beneficial/hormetic framing, the Mitohormetic Redox-Relay converges on TFEB/FOXO as quality-control transcription factors that drive autophagy and mitophagy gene programs. TFEB is the master regulator of autophagy/lysosomal biogenesis (CLEAR network)."
-      },
-      {
-        "name": "Glycation branch \u2192 Foam Cells",
-        "hops": 4,
-        "path": [
-          "methylglyoxal",
-          "advanced_glycation_end_products",
-          "low_density_lipoprotein",
-          "foam_cells"
-        ],
-        "mechanism": "Under hyperglycemic/pro-oxidative conditions, Methylglyoxal and Glucose form AGEs on ApoB-100, oxidizing LDL and making it a high-affinity scavenger-receptor ligand \u2014 the metabolic-dysfunction to vascular-disease link."
-      },
-      {
-        "name": "Redox + clearance branch (TFEB lipophagy)",
-        "hops": 3,
-        "path": [
-          "oxidative_stress",
-          "foam_cells",
-          "autophagy"
-        ],
-        "mechanism": "Foam-cell formation is amplified by oxidative stress and impaired autophagy (inefficient cholesterol efflux, defective autophagic clearance). This is the TFEB-controlled lysosomal/lipophagy arm."
-      },
-      {
-        "name": "Terminal/inflammatory branch",
-        "hops": 3,
-        "path": [
-          "foam_cells",
-          "cell_necrosis",
-          "inflammation"
-        ],
-        "mechanism": "Foam cells necrose, seeding the plaque necrotic core; efferocytosis failure perpetuates inflammation."
-      },
-      {
-        "name": "Foam Cells \u2192 Atherosclerosis (direct)",
-        "hops": 1,
-        "path": [
-          "foam_cells",
-          "atherosclerosis"
-        ],
-        "mechanism": "Foam cells are the hallmark lesion of early atherosclerosis \u2014 lipid-laden macrophages in the arterial intima."
-      }
-    ],
-    "keyNodes": [
-      {
-        "id": "adrenochrome",
-        "label": "Adrenochrome",
-        "role": "Hormetic trigger at sub-\u00b5M / toxin at \u00b5M+"
-      },
-      {
-        "id": "carbazochrome",
-        "label": "Carbazochrome",
-        "role": "Stabilized adrenochrome, redox-cycles at Complex I/III"
-      },
-      {
-        "id": "mitohormesis",
-        "label": "Mitohormesis",
-        "role": "Adaptive mitochondrial stress response"
-      },
-      {
-        "id": "keap1",
-        "label": "Keap1",
-        "role": "ROS sensor, NRF2 inhibitor (cysteine modification)"
-      },
-      {
-        "id": "nrf2",
-        "label": "NRF2",
-        "role": "Master antioxidant transcription factor"
-      },
-      {
-        "id": "atf4",
-        "label": "ATF4",
-        "role": "Integrated stress response transcription factor"
-      },
-      {
-        "id": "pgc1",
-        "label": "PGC1\u03b1",
-        "role": "Mitochondrial biogenesis driver"
-      },
-      {
-        "id": "tfeb",
-        "label": "TFEB",
-        "role": "Master regulator of autophagy/lysosomal biogenesis"
-      },
-      {
-        "id": "foxo",
-        "label": "FOXO",
-        "role": "Quality-control transcription factor"
-      },
-      {
-        "id": "autophagy",
-        "label": "Autophagy",
-        "role": "Cellular quality control pathway"
-      },
-      {
-        "id": "mitophagy",
-        "label": "Mitophagy",
-        "role": "Selective mitochondrial autophagy"
-      },
-      {
-        "id": "urolithin_a",
-        "label": "Urolithin A",
-        "role": "Inducer of PINK1/Parkin mitophagy"
-      },
-      {
-        "id": "foam_cells",
-        "label": "Foam Cells",
-        "role": "Bridge node: oxidative stress \u2194 atherosclerosis \u2194 autophagy"
-      },
-      {
-        "id": "oxidative_stress",
-        "label": "Oxidative Stress",
-        "role": "Shared upstream with adrenochrome redox cycling"
-      },
-      {
-        "id": "methylglyoxal",
-        "label": "Methylglyoxal",
-        "role": "Glycation agent, glycation branch driver"
-      },
-      {
-        "id": "advanced_glycation_end_products",
-        "label": "Advanced Glycation End Products",
-        "role": "Modified LDL ligands for scavenger receptors"
-      },
-      {
-        "id": "low_density_lipoprotein",
-        "label": "Low-Density Lipoprotein",
-        "role": "Substrate for glycation/oxidation"
-      },
-      {
-        "id": "atherosclerosis",
-        "label": "Atherosclerosis",
-        "role": "Disease outcome of foam cell accumulation"
-      },
-      {
-        "id": "cell_necrosis",
-        "label": "Cell necrosis",
-        "role": "Foam cell death \u2192 necrotic core"
-      },
-      {
-        "id": "inflammation",
-        "label": "Inflammation",
-        "role": "Terminal inflammatory cascade"
-      },
-      {
-        "id": "macrophages",
-        "label": "Macrophages",
-        "role": "Foam cell precursor cells"
-      },
-      {
-        "id": "lipophagy",
-        "label": "Lipophagy",
-        "role": "Selective autophagic clearance of lipids"
-      },
-      {
-        "id": "lysosome",
-        "label": "Lysosome",
-        "role": "Degradative organelle, TFEB target"
-      }
-    ],
-    "mechanism": "Two convergent traces share TFEB as the central hub:\n\nTrace 1 \u2014 Adrenochrome \u2192 Autophagy/Mitophagy (beneficial MRR): Carbazochrome (stabilized adrenochrome) redox-cycles at Complex I/III, emitting a spatially constrained superoxide pulse. SOD2 \u2192 H\u2082O\u2082 exits via aquaporins \u2192 modifies Keap1, releasing NRF2. Matrix ROS also drives the Integrated Stress Response (OMA1\u2192OPA1\u2192DELE1\u2192HRI\u2192ATF4). Convergence on TFEB/FOXO activates autophagy and mitophagy (Urolithin A \u2192 PINK1/Parkin).\n\nTrace 2 \u2014 Foam Cells: Foam Cells sit at the intersection of three communities: (1) Glycation \u2014 Methylglyoxal/AGEs on ApoB-100 produce oxidized LDL \u2192 scavenger receptor uptake; (2) Redox + clearance \u2014 Oxidative Stress amplifies foam cell formation, impairing TFEB-controlled lipophagy; (3) Terminal \u2014 Foam cell necrosis seeds plaque necrotic core, perpetuating inflammation.\n\nConvergence: TFEB bridges all three \u2014 lipophagy in foam cells, mitophagy in the MRR, and the autophagy/lysosomal quality-control network.",
-    "sourceFile": "src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
-  },
-  {
     "id": "ivermectin-cancer-repositioning",
-    "title": "Ivermectin Cancer Repositioning \u2014 Antiparasitic to Anticancer Trace",
+    "title": "Ivermectin Cancer Repositioning — Antiparasitic to Anticancer Trace",
     "question": "How does ivermectin transition from antiparasitic macrocyclic lactone to repositioned anticancer agent across the knowledge graph?",
     "date": "2026-07-15",
     "method": "graphify query BFS traversal (depth=2) on graphify-out/graph.json",
-    "summary": "Ivermectin occupies community 10 (antiparasitic) and crosses into oncogenic communities via a pharmacological bridge: humans lack GluCl channels (its antiparasitic target), requiring ~100\u00d7 higher concentrations for vertebrate targets, creating a safety margin that enables repurposing. At therapeutic concentrations, ivermectin engages mammalian kinases (PAK1, YAP1, Akt/mTOR) instead of GluCls \u2014 inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance across lung, prostate, liver, colon, and breast cancers. The corpus has no primary prevention evidence; all findings are preclinical treatment/adjuvant contexts.",
+    "summary": "Ivermectin occupies community 10 (antiparasitic) and crosses into oncogenic communities via a pharmacological bridge: humans lack GluCl channels (its antiparasitic target), requiring ~100× higher concentrations for vertebrate targets, creating a safety margin that enables repurposing. At therapeutic concentrations, ivermectin engages mammalian kinases (PAK1, YAP1, Akt/mTOR) instead of GluCls — inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance across lung, prostate, liver, colon, and breast cancers. The corpus has no primary prevention evidence; all findings are preclinical treatment/adjuvant contexts.",
     "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md",
     "centerNode": {
       "id": "ivermectin",
@@ -1562,13 +1816,13 @@
     },
     "routes": [
       {
-        "name": "Antiparasitic origin \u2192 safety margin pivot",
+        "name": "Antiparasitic origin → safety margin pivot",
         "hops": 2,
         "path": [
           "ivermectin",
           "drug_repositioning"
         ],
-        "mechanism": "Ivermectin is a semi-synthetic avermectin derivative targeting invertebrate GluCl channels. Humans lack GluCls; the ~100\u00d7 safety margin allows repurposing to mammalian targets (PAK1, YAP1, Akt/mTOR). The Drug Repositioning community (C33) clusters ivermectin with fenbendazole and mebendazole."
+        "mechanism": "Ivermectin is a semi-synthetic avermectin derivative targeting invertebrate GluCl channels. Humans lack GluCls; the ~100× safety margin allows repurposing to mammalian targets (PAK1, YAP1, Akt/mTOR). The Drug Repositioning community (C33) clusters ivermectin with fenbendazole and mebendazole."
       },
       {
         "name": "PAK1 primary kinase target",
@@ -1577,7 +1831,7 @@
           "ivermectin",
           "pak1"
         ],
-        "mechanism": "PAK1 is ivermectin\u2019s primary mammalian kinase target. PAK1 drives proliferation and the PAK1\u2013STAT3 axis fueling cancer stem cells. Inhibition blocks growth signaling across tumor types."
+        "mechanism": "PAK1 is ivermectin’s primary mammalian kinase target. PAK1 drives proliferation and the PAK1–STAT3 axis fueling cancer stem cells. Inhibition blocks growth signaling across tumor types."
       },
       {
         "name": "Cancer stem cell axis",
@@ -1587,7 +1841,7 @@
           "pak1",
           "cancer_stem_cells"
         ],
-        "mechanism": "Ivermectin inhibits PAK1 \u2192 STAT3 activation suppressed \u2192 cancer stem cell self-renewal blocked. This is the stem-cell-targeting mechanism distinguishing ivermectin from conventional chemotherapy."
+        "mechanism": "Ivermectin inhibits PAK1 → STAT3 activation suppressed → cancer stem cell self-renewal blocked. This is the stem-cell-targeting mechanism distinguishing ivermectin from conventional chemotherapy."
       },
       {
         "name": "Akt/mTOR apoptosis/autophagy",
@@ -1657,7 +1911,7 @@
       {
         "id": "cancer_stem_cells",
         "label": "Cancer Stem Cells",
-        "role": "Target of PAK1\u2013STAT3 axis inhibition"
+        "role": "Target of PAK1–STAT3 axis inhibition"
       },
       {
         "id": "multidrug_resistance",
@@ -1680,16 +1934,16 @@
         "role": "Disease context for repositioning"
       }
     ],
-    "mechanism": "Ivermectin\u2019s repurposing rests on a pharmacological bridge across communities 10 \u2192 15/42/33. The antiparasitic mechanism (GluCl agonism) is invertebrate-specific, creating a wide safety margin. The same molecule at therapeutic concentrations engages three mammalian target classes: (1) PAK1 \u2014 primary kinase target, drives cancer stem cells via STAT3; (2) Akt/mTOR \u2014 survival pathway, inhibition induces autophagy/apoptosis; (3) YAP1 \u2014 Hippo-pathway oncogene. The Drug Repositioning cluster (community 33) groups ivermectin with fenbendazole/mebendazole as repurposed anticancer agents. Critical caveat: no primary prevention evidence exists in the corpus; all findings are preclinical treatment/adjuvant contexts with clinical validation flagged as a research priority.",
+    "mechanism": "Ivermectin’s repurposing rests on a pharmacological bridge across communities 10 → 15/42/33. The antiparasitic mechanism (GluCl agonism) is invertebrate-specific, creating a wide safety margin. The same molecule at therapeutic concentrations engages three mammalian target classes: (1) PAK1 — primary kinase target, drives cancer stem cells via STAT3; (2) Akt/mTOR — survival pathway, inhibition induces autophagy/apoptosis; (3) YAP1 — Hippo-pathway oncogene. The Drug Repositioning cluster (community 33) groups ivermectin with fenbendazole/mebendazole as repurposed anticancer agents. Critical caveat: no primary prevention evidence exists in the corpus; all findings are preclinical treatment/adjuvant contexts with clinical validation flagged as a research priority.",
     "sourceFile": "src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
   },
   {
     "id": "cr-spermidine-autophagy-comparison",
-    "title": "Caloric Restriction vs Spermidine \u2014 Autophagy Pathway Comparison & Additive Combinations",
+    "title": "Caloric Restriction vs Spermidine — Autophagy Pathway Comparison & Additive Combinations",
     "question": "How do CR and spermidine induce autophagy through different pathways, and where can they combine additively?",
     "date": "2026-07-15",
     "method": "Wiki knowledge graph traversal + manual synthesis (communities 7/79, 281, 53, 58)",
-    "summary": "CR and spermidine both induce autophagy but through orthogonal mechanisms. CR triggers autophagy as a starvation response via AMPK \u2192 ULK1, SIRT1 \u2192 FOXO/TFEB, and mTORC1 inhibition. Spermidine induces autophagy without caloric deficit via HAT/p300 inhibition (deacetylating Atg proteins) and eIF5A hypusination \u2192 TFEB translation. They converge on TFEB from opposite directions: CR via energy-sensing, spermidine via translational control. Combinations are additive: CR + rapamycin covers pathways CR misses in old age (mTORC1); CR + spermidine attacks acetylation from both protein-deacetylation and transcription-level sides.",
+    "summary": "CR and spermidine both induce autophagy but through orthogonal mechanisms. CR triggers autophagy as a starvation response via AMPK → ULK1, SIRT1 → FOXO/TFEB, and mTORC1 inhibition. Spermidine induces autophagy without caloric deficit via HAT/p300 inhibition (deacetylating Atg proteins) and eIF5A hypusination → TFEB translation. They converge on TFEB from opposite directions: CR via energy-sensing, spermidine via translational control. Combinations are additive: CR + rapamycin covers pathways CR misses in old age (mTORC1); CR + spermidine attacks acetylation from both protein-deacetylation and transcription-level sides.",
     "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "centerNode": {
       "id": "autophagy",
@@ -1697,64 +1951,64 @@
     },
     "routes": [
       {
-        "name": "CR \u2192 AMPK \u2192 Autophagy (energy sensing)",
+        "name": "CR → AMPK → Autophagy (energy sensing)",
         "hops": 2,
         "path": [
           "caloric_restriction",
           "ampk",
           "autophagy"
         ],
-        "mechanism": "Caloric restriction raises AMP/ATP ratio \u2192 AMPK activation \u2192 ULK1 phosphorylation \u2192 autophagy initiation. This is the canonical energy-sensing pathway (communities 7/79 \u2192 58)."
+        "mechanism": "Caloric restriction raises AMP/ATP ratio → AMPK activation → ULK1 phosphorylation → autophagy initiation. This is the canonical energy-sensing pathway (communities 7/79 → 58)."
       },
       {
-        "name": "CR \u2192 SIRT1 \u2192 Autophagy gene expression",
+        "name": "CR → SIRT1 → Autophagy gene expression",
         "hops": 2,
         "path": [
           "caloric_restriction",
           "sirt1",
           "autophagy"
         ],
-        "mechanism": "CR elevates NAD+ \u2192 SIRT1 deacetylates FOXO3a, TFEB, and Atg proteins (Atg5, Atg7, LC3) \u2192 transcriptional activation of autophagy and lysosomal biogenesis genes."
+        "mechanism": "CR elevates NAD+ → SIRT1 deacetylates FOXO3a, TFEB, and Atg proteins (Atg5, Atg7, LC3) → transcriptional activation of autophagy and lysosomal biogenesis genes."
       },
       {
-        "name": "Dietary Restriction \u2192 mTORC1 \u2192 ULK1 de-repression",
+        "name": "Dietary Restriction → mTORC1 → ULK1 de-repression",
         "hops": 3,
         "path": [
           "dietary_restriction",
           "mtorc1",
           "autophagy"
         ],
-        "mechanism": "Dietary restriction inhibits mTORC1 \u2192 relieves ULK1 inhibition (ULK1 Ser757 dephosphorylation) \u2192 ULK1/ATG13/FIP200 complex activated \u2192 autophagy."
+        "mechanism": "Dietary restriction inhibits mTORC1 → relieves ULK1 inhibition (ULK1 Ser757 dephosphorylation) → ULK1/ATG13/FIP200 complex activated → autophagy."
       },
       {
-        "name": "Dietary Restriction \u2192 FOXO \u2192 TFEB \u2192 autophagy",
+        "name": "Dietary Restriction → FOXO → TFEB → autophagy",
         "hops": 3,
         "path": [
           "dietary_restriction",
           "foxo",
           "autophagy"
         ],
-        "mechanism": "Dietary restriction activates FOXO transcription factors \u2192 FOXO transactivates TFEB \u2192 TFEB drives CLEAR network genes \u2192 lysosomal biogenesis + autophagy."
+        "mechanism": "Dietary restriction activates FOXO transcription factors → FOXO transactivates TFEB → TFEB drives CLEAR network genes → lysosomal biogenesis + autophagy."
       },
       {
-        "name": "Spermidine \u2192 HAT/p300 inhibition \u2192 Autophagy",
+        "name": "Spermidine → HAT/p300 inhibition → Autophagy",
         "hops": 3,
         "path": [
           "spermidine",
           "p300",
           "autophagy"
         ],
-        "mechanism": "Spermidine inhibits histone acetyltransferases (p300) \u2192 global deacetylation \u2192 deacetylation of Atg proteins \u2192 autophagy induction. Independent of SIRT1 and caloric deficit."
+        "mechanism": "Spermidine inhibits histone acetyltransferases (p300) → global deacetylation → deacetylation of Atg proteins → autophagy induction. Independent of SIRT1 and caloric deficit."
       },
       {
-        "name": "Spermidine \u2192 eIF5A \u2192 TFEB translation \u2192 Autophagy",
+        "name": "Spermidine → eIF5A → TFEB translation → Autophagy",
         "hops": 3,
         "path": [
           "spermidine",
           "eif5a",
           "autophagy"
         ],
-        "mechanism": "Spermidine drives eIF5A hypusination \u2192 enhanced translation of TFEB mRNA \u2192 TFEB protein increases \u2192 lysosomal biogenesis and autophagy gene expression."
+        "mechanism": "Spermidine drives eIF5A hypusination → enhanced translation of TFEB mRNA → TFEB protein increases → lysosomal biogenesis and autophagy gene expression."
       },
       {
         "name": "CR + Rapamycin additive (age-dependent complementarity)",
@@ -1764,7 +2018,7 @@
           "rapamycin",
           "autophagy"
         ],
-        "mechanism": "CR works maximally in youth (epigenetic clock slowing) but fails to inhibit mTOR in old mice. Rapamycin strongly inhibits mTORC1 at any age. Combined: CR\u2019s SIRT1/FOXO/IGF-1 benefits + rapamycin\u2019s late-life mTORC1 inhibition = additive lifespan extension."
+        "mechanism": "CR works maximally in youth (epigenetic clock slowing) but fails to inhibit mTOR in old mice. Rapamycin strongly inhibits mTORC1 at any age. Combined: CR’s SIRT1/FOXO/IGF-1 benefits + rapamycin’s late-life mTORC1 inhibition = additive lifespan extension."
       },
       {
         "name": "CR + Spermidine dual-acetylation attack",
@@ -1858,261 +2112,7 @@
         "role": "Mitophagy receptor, FOXO3a target (CR-specific)"
       }
     ],
-    "mechanism": "CR and spermidine converge on autophagy through orthogonal upstream mechanisms:\n\nCR Pathway (energy-sensing): CR \u2192 \u2191AMP/ATP \u2192 AMPK activation \u2192 ULK1 (direct). CR \u2192 \u2191NAD+ \u2192 SIRT1 deacetylates FOXO3a/TFEB/Atg proteins \u2192 autophagy gene expression. CR \u2192 mTORC1 inhibition (indirect) \u2192 ULK1 de-repression. CR also activates the FOXO3a \u2192 BNIP3 mitophagy axis, a selective mitochondrial clearance pathway not engaged by diet-based inducers.\n\nSpermidine Pathway (epigenetic/translational): Spermidine \u2192 HAT/p300 inhibition \u2192 deacetylation of histones at Atg gene promoters + direct deacetylation of Atg proteins. Spermidine \u2192 eIF5A hypusination \u2192 enhanced TFEB translation \u2192 lysosomal biogenesis.\n\nAdditive Combinations: (1) CR + Rapamycin \u2014 rapamycin works when CR fails (old age), CR adds sirtuin/epigenetic/IGF-1 benefits rapamycin lacks; (2) CR + Spermidine \u2014 attacks acetylation from both protein-deacetylation (SIRT1) and transcription-prevention (HATi) sides; (3) CR + Rapamycin + Exercise \u2014 covers AMPK, SIRT1, mTORC1, IGF-1, FOXO, TFEB in a sequence exploiting rapamycin-induced lipolysis as exercise fuel.",
+    "mechanism": "CR and spermidine converge on autophagy through orthogonal upstream mechanisms:\n\nCR Pathway (energy-sensing): CR → ↑AMP/ATP → AMPK activation → ULK1 (direct). CR → ↑NAD+ → SIRT1 deacetylates FOXO3a/TFEB/Atg proteins → autophagy gene expression. CR → mTORC1 inhibition (indirect) → ULK1 de-repression. CR also activates the FOXO3a → BNIP3 mitophagy axis, a selective mitochondrial clearance pathway not engaged by diet-based inducers.\n\nSpermidine Pathway (epigenetic/translational): Spermidine → HAT/p300 inhibition → deacetylation of histones at Atg gene promoters + direct deacetylation of Atg proteins. Spermidine → eIF5A hypusination → enhanced TFEB translation → lysosomal biogenesis.\n\nAdditive Combinations: (1) CR + Rapamycin — rapamycin works when CR fails (old age), CR adds sirtuin/epigenetic/IGF-1 benefits rapamycin lacks; (2) CR + Spermidine — attacks acetylation from both protein-deacetylation (SIRT1) and transcription-prevention (HATi) sides; (3) CR + Rapamycin + Exercise — covers AMPK, SIRT1, mTORC1, IGF-1, FOXO, TFEB in a sequence exploiting rapamycin-induced lipolysis as exercise fuel.",
     "sourceFile": "src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
-  },
-  {
-    "id": "dj1-glycation-defense",
-    "title": "DJ-1 / PARK7 — Glycation & AGE Defense Trace",
-    "question": "Trace DJ-1's role in glycation and AGE defense, starting from the adrenochrome → sirtuins path through DJ-1.",
-    "date": "2026-07-27",
-    "method": "graphify path + BFS traversal on graphify-out/graph.json + wiki entity notes",
-    "summary": "DJ-1 (PARK7) is a glutathione-independent glyoxalase occupying Line 1 of a three-layer AGE defense system. It stereospecifically detoxifies methylglyoxal → L-lactate and glyoxal → glycolic acid without consuming glutathione, making it the critical backup when oxidative stress (e.g. adrenochrome redox cycling) depletes the GSH-dependent glyoxalase system. DJ-1 also functions as a redox sensor (Cys106 switch), chaperone (prevents α-synuclein aggregation), transcriptional coactivator (stabilizes Nrf2), and DRP1 regulator (mitochondrial fission). The integrated cascade reveals a self-reinforcing defense network: DJ-1 → Nrf2 → GLO1/GLO2 (anti-glycation) + SIRT6 → Nrf2 (feed-forward), with sirtuins SIRT1/3/6 amplifying and sustaining the defense through MnSOD deacetylation, FOXO3a activation, and Nrf2 co-activation. PARK7 mutations cause early-onset Parkinson's Disease via convergent pathology: mitochondrial dysfunction, oxidative damage, AGE accumulation, and α-synuclein aggregation.",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md",
-    "centerNode": {
-      "id": "dj_1",
-      "label": "DJ-1"
-    },
-    "routes": [
-      {
-        "name": "Adrenochrome → DJ-1 → DRP1 → AMPK → Sirtuins (5 hops)",
-        "hops": 5,
-        "path": [
-          "adrenochrome_semiquinone_radical",
-          "oxidative_stress",
-          "dj_1",
-          "drp1",
-          "ampk",
-          "sirtuins"
-        ],
-        "mechanism": "Adrenochrome semiquinone radical generates ROS. Oxidative stress activates DJ-1 via Cys106 oxidation. DJ-1 regulates DRP1-dependent mitochondrial fission. DRP1 is phosphorylated by AMPK. AMPK interacts with and activates sirtuins (SIRT1/SIRT3)."
-      },
-      {
-        "name": "Adrenochrome → SASP → Metformin → AMPK → Sirtuins (5 hops)",
-        "hops": 5,
-        "path": [
-          "adrenochrome",
-          "sasp",
-          "metformin",
-          "ampk",
-          "sirtuins"
-        ],
-        "mechanism": "Adrenochrome modulates SASP. Metformin suppresses SASP and activates AMPK. AMPK interacts with sirtuins — both are nutrient-sensing longevity pathways."
-      },
-      {
-        "name": "Adrenochrome → SASP → Resveratrol → Sir2 → Sirtuins (5 hops)",
-        "hops": 5,
-        "path": [
-          "adrenochrome",
-          "sasp",
-          "resveratrol",
-          "sir2_yeast",
-          "sirtuins_sirt1_7"
-        ],
-        "mechanism": "Same SASP bridge through resveratrol (sirtuin activator) and yeast Sir2 ortholog — evolutionary root of mammalian SIRT1–7."
-      },
-      {
-        "name": "DJ-1 → Glyoxalase (Line 1 AGE defense)",
-        "hops": 2,
-        "path": [
-          "dj_1",
-          "methylglyoxal",
-          "advanced_glycation_end_products"
-        ],
-        "mechanism": "DJ-1 is a GSH-independent glyoxalase: methylglyoxal → L-lactate, glyoxal → glycolic acid. Bypasses GLO1/GLO2 glutathione requirement. Critical backup when oxidative stress depletes GSH."
-      },
-        {
-          "name": "Adrenochrome → GSH depletion → DJ-1 dependency",
-          "hops": 3,
-          "path": [
-            "adrenochrome",
-            "oxidative_stress",
-            "dj_1",
-            "methylglyoxal"
-          ],
-          "mechanism": "Adrenochrome redox cycling depletes glutathione → GLO1/GLO2 impaired → methylglyoxal accumulates → DJ-1 becomes the last line of defense (GSH-independent). Double hit: same oxidative stress that depletes GSH also activates DJ-1 via Cys106."
-        },
-        {
-          "name": "Integrated Cascade — DJ-1 → Nrf2 → GLO1/SIRT6 (Nrf2 feed-forward)",
-          "hops": 4,
-          "path": [
-            "dj_1",
-            "nrf2",
-            "glyoxalase_system",
-            "advanced_glycation_end_products"
-          ],
-          "mechanism": "DJ-1 stabilizes Nrf2 by blocking KEAP1. Nrf2 drives GLO1/GLO2 transcription (dicarbonyl detoxification). Nrf2 also transactivates SIRT6, which co-activates Nrf2 — creating a self-reinforcing anti-glycation program."
-        },
-        {
-          "name": "Integrated Cascade — Adrenochrome → SIRT3 → MnSOD (superoxide clearance)",
-          "hops": 4,
-          "path": [
-            "adrenochrome",
-            "mitohormesis",
-            "sirt3",
-            "manganese_superoxide_dismutase"
-          ],
-          "mechanism": "Adrenochrome redox cycling generates superoxide → ROS activates AMPK → PGC-1α → SIRT3 upregulation. SIRT3 deacetylates MnSOD at Lys68/Lys122, boosting superoxide dismutation. This clears the adrenochrome-derived superoxide that triggered DJ-1 activation."
-        },
-        {
-          "name": "Integrated Cascade — SIRT1 → FOXO3a → SOD2 (parallel antioxidant axis)",
-          "hops": 3,
-          "path": [
-            "sirt1",
-            "foxo",
-            "manganese_superoxide_dismutase"
-          ],
-          "mechanism": "SIRT1 deacetylates FOXO3a → transcriptional upregulation of SOD2. SIRT1 also activates Nrf2 via KEAP1 modification, paralleling DJ-1's Nrf2 stabilization. Both converge on enhanced antioxidant/anti-glycation defense."
-        },
-        {
-          "name": "Integrated Cascade — Nrf2 → SIRT6 → Nrf2 (feed-forward amplification)",
-          "hops": 3,
-          "path": [
-            "nrf2",
-            "sirt6",
-            "nrf2"
-          ],
-          "mechanism": "Nrf2 transactivates SIRT6 via ARE in SIRT6 promoter. SIRT6 co-activates Nrf2, creating a feed-forward amplification loop. This sustains the antioxidant/anti-glycation program initiated by DJ-1."
-        }
-      ],
-    "keyNodes": [
-      {
-        "id": "dj_1",
-        "label": "DJ-1",
-        "role": "Redox sensor, glyoxalase, chaperone, DRP1 regulator"
-      },
-      {
-        "id": "park7",
-        "label": "PARK7",
-        "role": "Gene encoding DJ-1"
-      },
-      {
-        "id": "drp1",
-        "label": "DRP1",
-        "role": "Mitochondrial fission GTPase, DJ-1 target"
-      },
-      {
-        "id": "ampk",
-        "label": "AMPK",
-        "role": "Energy sensor, DRP1 kinase, sirtuin activator"
-      },
-      {
-        "id": "sirtuins",
-        "label": "Sirtuins",
-        "role": "NAD+-dependent defense system"
-      },
-      {
-        "id": "methylglyoxal",
-        "label": "Methylglyoxal",
-        "role": "Reactive dicarbonyl, DJ-1 substrate"
-      },
-      {
-        "id": "glyoxal",
-        "label": "Glyoxal",
-        "role": "Reactive dicarbonyl, DJ-1 substrate"
-      },
-      {
-        "id": "glyoxalase_system",
-        "label": "Glyoxalase System",
-        "role": "GSH-dependent dicarbonyl defense (Line 1)"
-      },
-      {
-        "id": "fructosamine_3_kinase",
-        "label": "FN3K",
-        "role": "Amadori product deglycase (Line 2)"
-      },
-      {
-        "id": "cathepsin_d",
-        "label": "Cathepsin D",
-        "role": "Lysosomal AGE degradation (Line 3)"
-      },
-      {
-        "id": "glucosepane",
-        "label": "Glucosepane",
-        "role": "Most abundant AGE crosslink"
-      },
-      {
-        "id": "oxidative_stress",
-        "label": "Oxidative Stress",
-        "role": "Upstream activator of DJ-1"
-      },
-      {
-        "id": "nrf2",
-        "label": "Nrf2",
-        "role": "DJ-1-stabilized antioxidant TF"
-      },
-      {
-        "id": "alpha_synuclein",
-        "label": "α-synuclein",
-        "role": "DJ-1 chaperone target"
-      },
-      {
-        "id": "l_lactate",
-        "label": "L-lactate",
-        "role": "Product of DJ-1 glyoxalase on MGO"
-      },
-        {
-          "id": "glycolic_acid",
-          "label": "Glycolic acid",
-          "role": "Product of DJ-1 glyoxalase on glyoxal"
-        },
-        {
-          "id": "keap1",
-          "label": "KEAP1",
-          "role": "E3 ligase adaptor blocked by DJ-1 to stabilize Nrf2"
-        },
-        {
-          "id": "sirt1",
-          "label": "SIRT1",
-          "role": "NAD+-dependent deacetylase; activates Nrf2, FOXO3a, PGC-1α"
-        },
-        {
-          "id": "sirt3",
-          "label": "SIRT3",
-          "role": "Mitochondrial deacetylase; activates MnSOD at Lys68/Lys122"
-        },
-        {
-          "id": "sirt6",
-          "label": "SIRT6",
-          "role": "Nrf2 transcriptional target; co-activates Nrf2 (feed-forward)"
-        },
-        {
-          "id": "manganese_superoxide_dismutase",
-          "label": "MnSOD",
-          "role": "SIRT3 target; dismutates adrenochrome-derived superoxide"
-        },
-        {
-          "id": "pgc1",
-          "label": "PGC-1α",
-          "role": "SIRT1 target; mitochondrial biogenesis driver"
-        },
-        {
-          "id": "foxo",
-          "label": "FOXO",
-          "role": "SIRT1 target; drives SOD2, BNIP3, autophagy genes"
-        },
-        {
-          "id": "nad",
-          "label": "NAD+",
-          "role": "Obligate co-substrate for all sirtuins"
-        },
-        {
-          "id": "mitohormesis",
-          "label": "Mitohormesis",
-          "role": "Bridge between adrenochrome ROS and sirtuin activation"
-        },
-        {
-          "id": "glutathione",
-          "label": "Glutathione",
-          "role": "Consumed by GLO1/GLO2; depleted by adrenochrome redox cycling"
-        },
-        {
-          "id": "advanced_glycation_end_products",
-          "label": "AGEs",
-          "role": "Terminal glycation damage; prevented by DJ-1 + GLO1"
-        }
-      ],
-    "mechanism": "DJ-1/PARK7 is a 189-aa homodimer with a Cys106 redox switch. It occupies Line 1 of a three-layer AGE defense: (1) Prevention — DJ-1 detoxifies MGO → L-lactate and glyoxal → glycolic acid without glutathione, complementing the GSH-dependent GLO1/GLO2 system; (2) Repair — FN3K phosphorylates Amadori products; (3) Degradation — cathepsins and bacterial glucosepane-cleaving enzymes. The adrenochrome connection: adrenochrome redox cycling depletes glutathione, impairing GLO1/GLO2, while simultaneously activating DJ-1 via Cys106 oxidation — making DJ-1 the critical last line of defense.\n\nIntegrated Cascade: DJ-1 stabilizes Nrf2 (blocks KEAP1) → Nrf2 drives GLO1/GLO2 transcription (anti-glycation) and transactivates SIRT6 → SIRT6 co-activates Nrf2 (feed-forward loop). Simultaneously, adrenochrome-derived superoxide → AMPK → PGC-1α → SIRT3 → MnSOD deacetylation (Lys68/Lys122) → superoxide clearance. SIRT1 independently activates Nrf2 and deacetylates FOXO3a → SOD2. The SIRT1/3/6 network sustains and amplifies the defense that DJ-1 initiates. PARK7 mutations eliminate both the glyoxalase arm and the Nrf2 arm — combined with age-related NAD+ decline (CD38), sirtuin failure produces the convergent pathology of PD: AGE accumulation, α-synuclein aggregation, mitochondrial dysfunction.",
-    "sourceFile": "src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
   }
 ]
