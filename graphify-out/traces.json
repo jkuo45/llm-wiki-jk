@@ -603,7 +603,7 @@
     "question": "How does CD38 drive age-related NAD+ decline and impair sirtuin defense?",
     "date": "2026-07-17",
     "method": "graphify graph query + BFS/DFS traversal",
-    "summary": "CD38 is a multifunctional ectoenzyme and the primary age-related NAD+ consumer. Inflammaging drives infiltration of CD38+ immune cells into tissues, where CD38's ecto-enzymatic activity degrades extracellular NAD+ and NMN. This starves parenchymal cells of NAD+ precursors, impairing SIRT3, sirtuins, and PARP1 — creating a feedback loop of more inflammation, more CD38, and deeper NAD+ decline.",
+    "summary": "CD38 is a multifunctional ectoenzyme and the primary age-related NAD+ consumer. Inflammaging drives infiltration of CD38+ immune cells into tissues, where CD38's ecto-enzymatic activity degrades extracellular NAD+ and NMN. This starves parenchymal cells of NAD+ precursors, impairing SIRT3, sirtuins, and PARP1 — creating a feedback loop of more inflammation, more CD38, and deeper NAD+ decline. This trace also incorporates the CD38-adrenochrome parallel analysis: CD38-driven NAD+ depletion compounds adrenochrome's oxidative burden by starving the sirtuin defense that counters adrenochrome redox cycling.",
     "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md",
     "centerNode": {
       "id": "cd38",
@@ -655,6 +655,35 @@
           "nicotinamide_riboside"
         ],
         "mechanism": "CD38 is an ecto-NMNase that degrades extracellular NMN and NR before they can enter cells, limiting NAD+ precursor availability."
+      },
+      {
+        "name": "CD38 → SIRT3 → MnSOD failure",
+        "hops": 3,
+        "path": [
+          "cd38",
+          "sirt3",
+          "sirtuins"
+        ],
+        "mechanism": "CD38-driven NAD+ depletion impairs SIRT3 → MnSOD not activated → ROS ↑ → oxidative stress compounds adrenochrome burden."
+      },
+      {
+        "name": "Convergence with adrenochrome trace",
+        "hops": 2,
+        "path": [
+          "cd38",
+          "nad"
+        ],
+        "mechanism": "Adrenochrome → needs NAD⁺/NR to activate SIRTs (Route A of adrenochrome trace). CD38 → consumes that same NAD⁺/NR pool. Net effect: with age, CD38 upregulation negates the adrenochrome counter-defense."
+      },
+      {
+        "name": "NR + CD38 inhibitor = graph-logical combo",
+        "hops": 3,
+        "path": [
+          "cd38",
+          "quercetin",
+          "nicotinamide_riboside"
+        ],
+        "mechanism": "NR supplementation alone may be insufficient under high-CD38 inflammaging — pairing NR with a CD38 inhibitor (78c/quercetin/apigenin) is the graph-logical combination to restore the adrenochrome counter-defense."
       }
     ],
     "keyNodes": [
@@ -712,6 +741,11 @@
         "id": "nicotinamide",
         "label": "Nicotinamide",
         "role": "Product of NAD+ cleavage"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "Convergence point of CD38 + adrenochrome"
       }
     ],
     "mechanism": "CD38 is a multifunctional ectoenzyme that cleaves NAD+ via three catalytic activities (ADP-ribosyl cyclase, NAD+ glycohydrolase, NAADP synthase). It also degrades extracellular NMN (ecto-NMNase). The inflammaging → CD38 → NAD+ decline axis: aging → senescent cells → SASP → CD38+ immune cell infiltration → NAD+ depletion → impaired sirtuins/PARP1 → more inflammation (feedback loop).",
@@ -825,12 +859,12 @@
     "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
   },
   {
-    "id": "cd38-sarm1-nad-competition",
-    "title": "CD38 ↔ SARM1 NAD+ Competition",
-    "question": "How do CD38 and SARM1 compete for the shared NAD+ pool, and what connects them?",
+    "id": "cd38-sarm1-comparison",
+    "title": "CD38 ↔ SARM1 — Comprehensive NAD+ Competition, Gaps, Research & Therapeutic Synergy",
+    "question": "How do CD38 and SARM1 compete for NAD+, what gaps exist between them, and how can combined inhibition provide therapeutic synergy?",
     "date": "2026-07-17",
-    "method": "graphify path + BFS traversal across CD38 and SARM1 traces",
-    "summary": "CD38 and SARM1 are both NAD+ glycohydrolases that cleave the same substrate into the same products (NAM + ADPR + cADPR). They compete for the shared NAD+ pool but operate on different timescales (CD38: chronic/hours–years; SARM1: acute/minutes) and compartments (CD38: extracellular/immune cells; SARM1: intracellular/neurons). NMN is the critical bridging metabolite — CD38 degrades extracellular NMN while SARM1 is activated by intracellular NMN accumulation.",
+    "method": "graphify path + BFS traversal + convergent node logic + web research (PubMed, Nature, Cell)",
+    "summary": "CD38 and SARM1 are both NAD+ glycohydrolases competing for the shared NAD+ pool. CD38 operates chronically (ecto-enzyme in immune cells, hours–years) while SARM1 operates acutely (intracellular in neurons, minutes). NMN is the critical bridging metabolite: CD38 degrades extracellular NMN (potentially protecting against SARM1), while intracellular NMN accumulation activates SARM1. This consolidated trace covers: (1) competition mechanics and shared substrates/products; (2) bridging gaps including CZ-48 pharmacological divergence and NAD+ consumer hierarchy; (3) literature validation of 4 high-priority research questions; (4) therapeutic synergy from combined CD38+SARM1 inhibition across timescales. The NMN-sensitization paradox means CD38 monotherapy could sensitize neurons to SARM1 — making combined inhibition graph-logically superior.",
     "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
     "centerNode": {
       "id": "cd38",
@@ -867,15 +901,6 @@
         "mechanism": "CD38 degrades extracellular NMN → less NMN available for cellular uptake → lower intracellular NMN → SARM1 LESS activated. Paradox: CD38 inhibition may sensitize to SARM1 by preserving NMN."
       },
       {
-        "name": "Shared product: cADPR",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "sarm1"
-        ],
-        "mechanism": "Both produce cADPR (Ca²⁺-mobilizing second messenger) from NAD+. SARM1 has higher NAD-cyclizing activity than CD38."
-      },
-      {
         "name": "Convergence on sirtuin defense",
         "hops": 3,
         "path": [
@@ -884,6 +909,43 @@
           "sirtuins"
         ],
         "mechanism": "Both drains starve the sirtuin/redox defense system. CD38 (chronic inflammaging) and SARM1 (acute injury) converge on the same failure point — impaired sirtuin defense."
+      },
+      {
+        "name": "Gap 4: CZ-48 pharmacological divergence",
+        "hops": 2,
+        "path": [
+          "cd38",
+          "cz_48"
+        ],
+        "mechanism": "CZ-48 (sulfo-ara-F-NMN) inhibits CD38 but activates SARM1 — confirming they are pharmacologically separable NADases."
+      },
+      {
+        "name": "Q4: Co-expression in microglia?",
+        "hops": 2,
+        "path": [
+          "cd38",
+          "microglia"
+        ],
+        "mechanism": "CD38 in microglia: SOLID (confirmed, inducible). SARM1 in microglia: CONTRADICTORY — absent basally (Lin 2014), possibly induced in pathology (2025 reviews). NAD+ consumption in microglia is CD38-dominated, not SARM1-dominated."
+      },
+      {
+        "name": "Arm A — Chronic NAD+ Restoration",
+        "hops": 3,
+        "path": [
+          "inflammaging",
+          "cd38",
+          "nad"
+        ],
+        "mechanism": "CD38 inhibitor (78c/Quercetin/Apigenin) + NR (Nicotinamide Riboside) → NAD+ preserved → Sirtuins/SIRT3 active → MnSOD activated → counters adrenochrome ROS."
+      },
+      {
+        "name": "Arm B — Acute Axonal Protection",
+        "hops": 2,
+        "path": [
+          "sarm1",
+          "nad"
+        ],
+        "mechanism": "SARM1 inhibitor (Disulfiram/DSRM-3716/GSK-428) blocks NAD+ catastrophe in axons after injury."
       }
     ],
     "keyNodes": [
@@ -931,84 +993,31 @@
         "id": "inflammaging",
         "label": "Inflammaging",
         "role": "CD38 upstream driver"
-      }
-    ],
-    "mechanism": "CD38 and SARM1 are both NAD+ glycohydrolases competing for the shared NAD+ pool. CD38 operates chronically (ecto-enzyme in immune cells, hours–years) while SARM1 operates acutely (intracellular in neurons, minutes). NMN is the critical bridging metabolite: CD38 degrades extracellular NMN (potentially protecting against SARM1), while intracellular NMN accumulation activates SARM1. The NMN-sensitization paradox: CD38 inhibition preserves NMN, potentially sensitizing neurons to SARM1-dependent Wallerian degeneration.",
-    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
-  },
-  {
-    "id": "cd38-sarm1-synergy",
-    "title": "Combined CD38 + SARM1 Inhibition Synergy",
-    "question": "Does combined CD38 + SARM1 inhibition synergize for NAD+ resilience?",
-    "date": "2026-07-17",
-    "method": "graphify path + BFS traversal + convergent node logic",
-    "summary": "The NAD+–sirtuin–redox axis suffers three independent drains: adrenochrome (oxidative load), CD38 (chronic inflammaging drain), and SARM1 (acute catastrophic drain). A single intervention addresses only one hit. Synergy logic: Arm A (CD38 inhibitor + NR) restores chronic NAD+ for sirtuins; Arm B (SARM1 inhibitor) prevents acute axonal NAD+ collapse. Combined = whole-body NAD+ resilience across timescales. The NMN-sensitization paradox means CD38 monotherapy could sensitize neurons to SARM1 — making combined inhibition graph-logically superior.",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md",
-    "centerNode": {
-      "id": "cd38",
-      "label": "CD38"
-    },
-    "routes": [
-      {
-        "name": "Arm A — Chronic NAD+ Restoration",
-        "hops": 3,
-        "path": [
-          "inflammaging",
-          "cd38",
-          "nad"
-        ],
-        "mechanism": "CD38 inhibitor (78c/Quercetin/Apigenin) + NR (Nicotinamide Riboside) → NAD+ preserved → Sirtuins/SIRT3 active → MnSOD activated → counters adrenochrome ROS."
       },
       {
-        "name": "Arm B — Acute Axonal Protection",
-        "hops": 2,
-        "path": [
-          "sarm1",
-          "nad"
-        ],
-        "mechanism": "SARM1 inhibitor (Disulfiram/DSRM-3716/GSK-428) blocks NAD+ catastrophe in axons after injury."
+        "id": "quercetin",
+        "label": "Quercetin",
+        "role": "CD38 inhibitor"
       },
       {
-        "name": "Combined synergy thesis",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "nad",
-          "sarm1"
-        ],
-        "mechanism": "CD38 inhibition operates on slow aging timescale; SARM1 inhibition operates on acute injury timescale. They protect different compartments and timescales of the same NAD+ pool, so combined coverage is broader than either alone."
+        "id": "microglia",
+        "label": "Microglia",
+        "role": "CD38+ immune cells in brain"
       },
       {
-        "name": "NMN-sensitization paradox",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "nicotinamide",
-          "sarm1"
-        ],
-        "mechanism": "CD38 inhibition → NMN preserved → intracellular NMN ↑ → SARM1 sensitization risk. This is why combined CD38+SARM1 inhibition is superior to CD38 alone — Arm B neutralizes the sensitization risk that Arm A creates."
-      }
-    ],
-    "keyNodes": [
-      {
-        "id": "cd38",
-        "label": "CD38",
-        "role": "Chronic NAD+ consumer (Arm A target)"
+        "id": "cd38_inhibitor_78c",
+        "label": "CD38 inhibitor 78c",
+        "role": "Shared mechanism with SARM1 inhibitors"
       },
       {
-        "id": "sarm1",
-        "label": "SARM1",
-        "role": "Acute NAD+ consumer (Arm B target)"
+        "id": "disulfiram",
+        "label": "Disulfiram",
+        "role": "SARM1 covalent inhibitor"
       },
       {
-        "id": "nad",
-        "label": "NAD+",
-        "role": "Shared substrate pool to protect"
-      },
-      {
-        "id": "sirtuins",
-        "label": "Sirtuins",
-        "role": "Defense system to keep online"
+        "id": "neuroinflammation",
+        "label": "Neuroinflammation",
+        "role": "Microglial CD38-driven context"
       },
       {
         "id": "sirt3",
@@ -1016,43 +1025,13 @@
         "role": "Mitochondrial deacetylase"
       },
       {
-        "id": "cd38_inhibitor_78c",
-        "label": "CD38 inhibitor 78c",
-        "role": "Selective CD38 inhibitor"
-      },
-      {
-        "id": "quercetin",
-        "label": "Quercetin",
-        "role": "Natural CD38 inhibitor"
-      },
-      {
         "id": "apigenin",
         "label": "Apigenin",
         "role": "Natural CD38 inhibitor"
-      },
-      {
-        "id": "disulfiram",
-        "label": "Disulfiram",
-        "role": "SARM1 covalent TIR domain inhibitor"
-      },
-      {
-        "id": "nicotinamide_riboside",
-        "label": "Nicotinamide Riboside",
-        "role": "NAD+ precursor (Arm A)"
-      },
-      {
-        "id": "inflammaging",
-        "label": "Inflammaging",
-        "role": "CD38 upstream driver"
-      },
-      {
-        "id": "nicotinamide",
-        "label": "Nicotinamide",
-        "role": "NMN bridge metabolite"
       }
     ],
-    "mechanism": "Three independent drains hit the NAD+–sirtuin–redox axis: adrenochrome (oxidative), CD38 (chronic), SARM1 (acute). Combined inhibition addresses all three simultaneously. Arm A (CD38 inhibitor + NR) restores chronic NAD+ pool. Arm B (SARM1 inhibitor) prevents acute axonal collapse. The NMN-sensitization paradox — CD38 inhibition may raise NMN enough to sensitize SARM1 — makes combined inhibition graph-logically superior to CD38 monotherapy.",
-    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
+    "mechanism": "CD38 and SARM1 are both NAD+ glycohydrolases competing for the shared NAD+ pool. CD38 operates chronically (ecto-enzyme in immune cells) while SARM1 operates acutely (intracellular in neurons). NMN is the bridging metabolite: CD38 degrades extracellular NMN while SARM1 is activated by intracellular NMN accumulation.\n\nCompetition: Both consume NAD+ → sirtuin defense collapse. Both produce cADPR. Direct edge exists in graph.\n\nGaps: CZ-48 (sulfo-ara-F-NMN) inhibits CD38 but activates SARM1 — confirming pharmacological separation. NAD+ consumer hierarchy shifts with age (CD38, PARP1, SARM1, Sirtuins).\n\nResearch: CD38 KO is PROTECTIVE (Takaso 2020) — no SARM1 sensitization. Combined CD38+PARP inhibition fully rescues NAD+ (Covarrubias 2020). 78c and SARM1 inhibitors share adduct-forming uncompetitive inhibition (Bratkowski 2022).\n\nTherapeutic: Arm A (CD38 inhibitor + NR) restores chronic NAD+. Arm B (SARM1 inhibitor) prevents acute axonal collapse. Combined = whole-body NAD+ resilience. The NMN-sensitization paradox makes combined inhibition superior to CD38 monotherapy.",
+    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
   },
   {
     "id": "cd38-sarm1-cns-map",
@@ -1145,331 +1124,6 @@
     ],
     "mechanism": "CNS two-cell NAD+ competition: CD38 in microglia (chronic, inflammaging-driven) vs SARM1 in neurons (acute, injury-driven). Two cross-talk routes: (1) Precursor competition — microglial CD38 degrades extracellular NMN, lowering neuronal NAD+ buffer; (2) Inflammation → injury cascade — neuroinflammation increases axonal vulnerability to SARM1 activation. CNS-specific caveat: NR raises neuronal NAD+ but could sensitize SARM1 via NMN/NAD+ ratio — SARM1 inhibition is especially critical alongside NR in brain contexts.",
     "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
-  },
-  {
-    "id": "cd38-adrenochrome-parallel",
-    "title": "CD38–NAD+ Consumption — Parallel to Adrenochrome Counter-Defense",
-    "question": "How does CD38-driven NAD+ depletion compound adrenochrome's oxidative burden?",
-    "date": "2026-07-17",
-    "method": "graphify path + BFS traversal bridging CD38 and adrenochrome traces",
-    "summary": "The adrenochrome trace showed sirtuins counter adrenochrome-driven oxidative stress through NAD⁺/NR rescue, SIRT3→MnSOD defense, and apoptosis protection. This parallel trace shows the compounding insult: CD38 is the primary age-related NAD⁺ consumer. By draining NAD⁺, CD38 starves the very sirtuin defense that adrenochrome overload relies on. The two traces share the same pivot nodes — NAD+, Nicotinamide Riboside, SIRT3, Sirtuins, Redox Homeostasis.",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
-    "centerNode": {
-      "id": "cd38",
-      "label": "CD38"
-    },
-    "routes": [
-      {
-        "name": "Inflammaging → CD38 → NAD+ drain",
-        "hops": 3,
-        "path": [
-          "inflammaging",
-          "cd38",
-          "nad"
-        ],
-        "mechanism": "Inflammaging recruits CD38+ immune cells → CD38 consumes NAD+ → NAD+ depletion starves SIRT3, sirtuins, and PARP1."
-      },
-      {
-        "name": "CD38 → SIRT3 → MnSOD failure",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "sirt3",
-          "sirtuins"
-        ],
-        "mechanism": "CD38-driven NAD+ depletion impairs SIRT3 → MnSOD not activated → ROS ↑ → oxidative stress compounds adrenochrome burden."
-      },
-      {
-        "name": "Convergence with adrenochrome trace",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "nad"
-        ],
-        "mechanism": "Adrenochrome → needs NAD⁺/NR to activate SIRTs (Route A of adrenochrome trace). CD38 → consumes that same NAD⁺/NR pool. Net effect: with age, CD38 upregulation negates the adrenochrome counter-defense."
-      },
-      {
-        "name": "NR + CD38 inhibitor = graph-logical combo",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "quercetin",
-          "nicotinamide_riboside"
-        ],
-        "mechanism": "NR supplementation alone may be insufficient under high-CD38 inflammaging — pairing NR with a CD38 inhibitor (78c/quercetin/apigenin) is the graph-logical combination to restore the adrenochrome counter-defense."
-      }
-    ],
-    "keyNodes": [
-      {
-        "id": "cd38",
-        "label": "CD38",
-        "role": "Primary age-related NAD+ consumer"
-      },
-      {
-        "id": "nad",
-        "label": "NAD+",
-        "role": "Shared pivot node between CD38 and adrenochrome traces"
-      },
-      {
-        "id": "sirt3",
-        "label": "SIRT3",
-        "role": "Mitochondrial deacetylase (MnSOD activator)"
-      },
-      {
-        "id": "sirtuins",
-        "label": "Sirtuins",
-        "role": "Defense system starved by both CD38 and adrenochrome"
-      },
-      {
-        "id": "parp1",
-        "label": "PARP1",
-        "role": "DNA repair enzyme competing for NAD+"
-      },
-      {
-        "id": "inflammaging",
-        "label": "Inflammaging",
-        "role": "CD38 upstream driver"
-      },
-      {
-        "id": "quercetin",
-        "label": "Quercetin",
-        "role": "CD38 inhibitor + antioxidant"
-      },
-      {
-        "id": "cd38_inhibitor_78c",
-        "label": "CD38 inhibitor 78c",
-        "role": "Selective CD38 inhibitor"
-      },
-      {
-        "id": "nicotinamide_riboside",
-        "label": "Nicotinamide Riboside",
-        "role": "NAD+ precursor (degraded by CD38)"
-      },
-      {
-        "id": "oxidative_stress",
-        "label": "Oxidative Stress",
-        "role": "Convergence point of CD38 + adrenochrome"
-      }
-    ],
-    "mechanism": "CD38-driven NAD⁺ depletion and adrenochrome autoxidation converge on the same failure point — impaired sirtuin/redox defense. They are two independent hits on one vulnerable axis. Adrenochrome → needs NAD⁺/NR to activate SIRTs. CD38 → consumes that same NAD⁺/NR pool. With age/inflammaging, CD38 upregulation negates the adrenochrome counter-defense, pushing the system toward oxidative stress and apoptosis.",
-    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
-  },
-  {
-    "id": "cd38-sarm1-bridging-gaps",
-    "title": "CD38–SARM1 Bridging Gaps — Missing Edges & Research Opportunities",
-    "question": "What connections are missing between the CD38 and SARM1 traces in the knowledge graph?",
-    "date": "2026-07-17",
-    "method": "graphify graph analysis + web research (PubMed, Nature, Cell, JBC)",
-    "summary": "Research synthesis identifying 7 categories of gaps between CD38 (community 78) and SARM1 (community 101): no direct edge (now resolved), NMN bridging metabolite, shared cADPR production, CZ-48 pharmacological divergence, tissue compartmentalization, NAD+ consumer hierarchy, and SARM1 in immune cells. The strongest metabolic link runs through NMN — CD38 degrades extracellular NMN while SARM1 is activated by intracellular NMN accumulation.",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
-    "centerNode": {
-      "id": "cd38",
-      "label": "CD38"
-    },
-    "routes": [
-      {
-        "name": "Gap 1: CD38 ↔ SARM1 direct edge",
-        "hops": 1,
-        "path": [
-          "cd38",
-          "sarm1"
-        ],
-        "mechanism": "Both are NAD+ glycohydrolases with similar catalytic activities. NOW RESOLVED — direct edge exists in current graph."
-      },
-      {
-        "name": "Gap 2: NMN bridging metabolite",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "nicotinamide",
-          "sarm1"
-        ],
-        "mechanism": "CD38 degrades extracellular NMN (ecto-NMNase). NMN accumulation activates SARM1. High CD38 activity may protect against SARM1 by keeping NMN low. CD38 inhibition could sensitize to SARM1."
-      },
-      {
-        "name": "Gap 3: Shared cADPR production",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "sarm1"
-        ],
-        "mechanism": "Both produce cADPR from NAD+. SARM1 has higher NAD-cyclizing activity than CD38."
-      },
-      {
-        "name": "Gap 4: CZ-48 pharmacological divergence",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "cz_48"
-        ],
-        "mechanism": "CZ-48 (sulfo-ara-F-NMN) inhibits CD38 but activates SARM1 — confirming they are pharmacologically separable NADases."
-      },
-      {
-        "name": "Gap 6: NAD+ consumer hierarchy",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "nad",
-          "sarm1"
-        ],
-        "mechanism": "CD38, PARP1, SARM1, Sirtuins, CD73 all consume NAD+. Their relative contributions change with age and disease. Combined CD38+PARP inhibition fully reverses LPS-induced NAD+ decline."
-      }
-    ],
-    "keyNodes": [
-      {
-        "id": "cd38",
-        "label": "CD38",
-        "role": "Primary age-related NAD+ consumer"
-      },
-      {
-        "id": "sarm1",
-        "label": "SARM1",
-        "role": "Catastrophic axonal NAD+ consumer"
-      },
-      {
-        "id": "nad",
-        "label": "NAD+",
-        "role": "Shared substrate pool"
-      },
-      {
-        "id": "nicotinamide",
-        "label": "Nicotinamide",
-        "role": "Product + allosteric inhibitor"
-      },
-      {
-        "id": "nicotinamide_riboside",
-        "label": "Nicotinamide Riboside",
-        "role": "NAD+ precursor"
-      },
-      {
-        "id": "cz_48",
-        "label": "CZ-48",
-        "role": "Pharmacological divergence probe"
-      },
-      {
-        "id": "parp1",
-        "label": "PARP1",
-        "role": "Competing NAD+ consumer"
-      },
-      {
-        "id": "sirtuins",
-        "label": "Sirtuins",
-        "role": "Signaling NAD+ consumer"
-      },
-      {
-        "id": "quercetin",
-        "label": "Quercetin",
-        "role": "CD38 inhibitor"
-      },
-      {
-        "id": "microglia",
-        "label": "Microglia",
-        "role": "CD38+ immune cells in brain"
-      }
-    ],
-    "mechanism": "Seven gap categories between CD38 and SARM1 traces: (1) Direct edge — now resolved; (2) NMN bridge — CD38 degrades extracellular NMN, SARM1 activated by intracellular NMN; (3) Shared cADPR production; (4) CZ-48 divergence (inhibits CD38, activates SARM1); (5) Tissue compartmentalization (extracellular vs intracellular); (6) NAD+ consumer hierarchy; (7) SARM1 in immune cells (CD38 overlap). Highest priority question: does CD38-mediated NMN depletion protect against SARM1 activation?",
-    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
-  },
-  {
-    "id": "cd38-sarm1-research-gaps",
-    "title": "CD38–SARM1 Research Gaps — Literature Investigation",
-    "question": "What does the literature say about the 4 high-priority CD38-SARM1 research gaps?",
-    "date": "2026-07-17",
-    "method": "Web research (PubMed, PMC, Nature, Cell, ScienceDirect, Frontiers 2019-2026)",
-    "summary": "Literature investigation of 4 gaps: (1) CD38 NMN depletion → SARM1 protection: plausible but not directly tested; (2) CD38 KO sensitization: NO — CD38 KO is protective (delayed axon degeneration, Takaso 2020); (3) Combined CD38+SARM1 inhibition synergy: mechanistically sound, untested — both use adduct-forming uncompetitive inhibition (Bratkowski 2022); (4) Co-expression in microglia: CD38 YES (confirmed), SARM1 debated (basal LOW, pathology MAYBE).",
-    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
-    "centerNode": {
-      "id": "cd38",
-      "label": "CD38"
-    },
-    "routes": [
-      {
-        "name": "Q1: CD38 NMN depletion → SARM1 protection?",
-        "hops": 3,
-        "path": [
-          "cd38",
-          "nicotinamide",
-          "sarm1"
-        ],
-        "mechanism": "Plausible: CD38 degrades extracellular NMN → less NMN enters cells → less SARM1 activation. But no study directly tests this. CRITICAL CAVEAT: NAD+ precursor supplementation could paradoxically increase SARM1 activation risk (Takaso 2020)."
-      },
-      {
-        "name": "Q2: CD38 KO sensitization?",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "sarm1"
-        ],
-        "mechanism": "NO evidence of sensitization — CD38 KO is PROTECTIVE. CD38 KO mice show delayed axon degeneration after facial nerve axotomy (Takaso 2020). Resolution: raising NAD+ (even with raised NMN) does NOT trigger SARM1 in uninjured neurons."
-      },
-      {
-        "name": "Q3: Combined inhibition synergy?",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "sarm1"
-        ],
-        "mechanism": "Mechanistically sound: both 78c (CD38) and SARM1 inhibitors work via adduct-forming uncompetitive inhibition (Bratkowski 2022). Combined CD38+PARP inhibition fully rescued NAD+ (Covarrubias 2020). No direct CD38+SARM1 synergy study published."
-      },
-      {
-        "name": "Q4: Co-expression in microglia?",
-        "hops": 2,
-        "path": [
-          "cd38",
-          "microglia"
-        ],
-        "mechanism": "CD38 in microglia: SOLID (confirmed, inducible). SARM1 in microglia: CONTRADICTORY — absent basally (Lin 2014), possibly induced in pathology (2025 reviews). NAD+ consumption in microglia is CD38-dominated, not SARM1-dominated."
-      }
-    ],
-    "keyNodes": [
-      {
-        "id": "cd38",
-        "label": "CD38",
-        "role": "Primary age-related NAD+ consumer"
-      },
-      {
-        "id": "sarm1",
-        "label": "SARM1",
-        "role": "Catastrophic axonal NAD+ consumer"
-      },
-      {
-        "id": "nad",
-        "label": "NAD+",
-        "role": "Shared substrate pool"
-      },
-      {
-        "id": "nicotinamide",
-        "label": "Nicotinamide",
-        "role": "NMN bridge metabolite"
-      },
-      {
-        "id": "microglia",
-        "label": "Microglia",
-        "role": "CD38-expressing brain immune cells"
-      },
-      {
-        "id": "cd38_inhibitor_78c",
-        "label": "CD38 inhibitor 78c",
-        "role": "Shared mechanism with SARM1 inhibitors"
-      },
-      {
-        "id": "disulfiram",
-        "label": "Disulfiram",
-        "role": "SARM1 covalent inhibitor"
-      },
-      {
-        "id": "nicotinamide_riboside",
-        "label": "Nicotinamide Riboside",
-        "role": "NAD+ precursor (stacks with CD38 KO)"
-      },
-      {
-        "id": "neuroinflammation",
-        "label": "Neuroinflammation",
-        "role": "Microglial CD38-driven context"
-      }
-    ],
-    "mechanism": "Four questions investigated: (1) CD38 NMN depletion → SARM1 protection: plausible, not tested; (2) CD38 KO sensitization: NO — protective (Takaso 2020); (3) Combined synergy: mechanistically sound (shared adduct-forming inhibition, Bratkowski 2022), untested; (4) Microglial co-expression: CD38 YES, SARM1 debated. Key finding: 78c (CD38 inhibitor) and SARM1 inhibitors share the same drug mechanism class. Combined CD38+PARP inhibition fully rescued NAD+ — supporting multi-consumer inhibition.",
-    "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
   },
   {
     "id": "adrenochrome-autophagy-mitophagy-foam-cells",
