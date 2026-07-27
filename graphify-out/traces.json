@@ -1860,5 +1860,167 @@
     ],
     "mechanism": "CR and spermidine converge on autophagy through orthogonal upstream mechanisms:\n\nCR Pathway (energy-sensing): CR \u2192 \u2191AMP/ATP \u2192 AMPK activation \u2192 ULK1 (direct). CR \u2192 \u2191NAD+ \u2192 SIRT1 deacetylates FOXO3a/TFEB/Atg proteins \u2192 autophagy gene expression. CR \u2192 mTORC1 inhibition (indirect) \u2192 ULK1 de-repression. CR also activates the FOXO3a \u2192 BNIP3 mitophagy axis, a selective mitochondrial clearance pathway not engaged by diet-based inducers.\n\nSpermidine Pathway (epigenetic/translational): Spermidine \u2192 HAT/p300 inhibition \u2192 deacetylation of histones at Atg gene promoters + direct deacetylation of Atg proteins. Spermidine \u2192 eIF5A hypusination \u2192 enhanced TFEB translation \u2192 lysosomal biogenesis.\n\nAdditive Combinations: (1) CR + Rapamycin \u2014 rapamycin works when CR fails (old age), CR adds sirtuin/epigenetic/IGF-1 benefits rapamycin lacks; (2) CR + Spermidine \u2014 attacks acetylation from both protein-deacetylation (SIRT1) and transcription-prevention (HATi) sides; (3) CR + Rapamycin + Exercise \u2014 covers AMPK, SIRT1, mTORC1, IGF-1, FOXO, TFEB in a sequence exploiting rapamycin-induced lipolysis as exercise fuel.",
     "sourceFile": "src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+  },
+  {
+    "id": "dj1-glycation-defense",
+    "title": "DJ-1 / PARK7 — Glycation & AGE Defense Trace",
+    "question": "Trace DJ-1's role in glycation and AGE defense, starting from the adrenochrome → sirtuins path through DJ-1.",
+    "date": "2026-07-27",
+    "method": "graphify path + BFS traversal on graphify-out/graph.json + wiki entity notes",
+    "summary": "DJ-1 (PARK7) is a glutathione-independent glyoxalase occupying Line 1 of a three-layer AGE defense system. It stereospecifically detoxifies methylglyoxal → L-lactate and glyoxal → glycolic acid without consuming glutathione, making it the critical backup when oxidative stress (e.g. adrenochrome redox cycling) depletes the GSH-dependent glyoxalase system. DJ-1 also functions as a redox sensor (Cys106 switch), chaperone (prevents α-synuclein aggregation), transcriptional coactivator (stabilizes Nrf2), and DRP1 regulator (mitochondrial fission). PARK7 mutations cause early-onset Parkinson's Disease via convergent pathology: mitochondrial dysfunction, oxidative damage, and AGE accumulation.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "centerNode": {
+      "id": "dj_1",
+      "label": "DJ-1"
+    },
+    "routes": [
+      {
+        "name": "Adrenochrome → DJ-1 → DRP1 → AMPK → Sirtuins (5 hops)",
+        "hops": 5,
+        "path": [
+          "adrenochrome_semiquinone_radical",
+          "oxidative_stress",
+          "dj_1",
+          "drp1",
+          "ampk",
+          "sirtuins"
+        ],
+        "mechanism": "Adrenochrome semiquinone radical generates ROS. Oxidative stress activates DJ-1 via Cys106 oxidation. DJ-1 regulates DRP1-dependent mitochondrial fission. DRP1 is phosphorylated by AMPK. AMPK interacts with and activates sirtuins (SIRT1/SIRT3)."
+      },
+      {
+        "name": "Adrenochrome → SASP → Metformin → AMPK → Sirtuins (5 hops)",
+        "hops": 5,
+        "path": [
+          "adrenochrome",
+          "sasp",
+          "metformin",
+          "ampk",
+          "sirtuins"
+        ],
+        "mechanism": "Adrenochrome modulates SASP. Metformin suppresses SASP and activates AMPK. AMPK interacts with sirtuins — both are nutrient-sensing longevity pathways."
+      },
+      {
+        "name": "Adrenochrome → SASP → Resveratrol → Sir2 → Sirtuins (5 hops)",
+        "hops": 5,
+        "path": [
+          "adrenochrome",
+          "sasp",
+          "resveratrol",
+          "sir2_yeast",
+          "sirtuins_sirt1_7"
+        ],
+        "mechanism": "Same SASP bridge through resveratrol (sirtuin activator) and yeast Sir2 ortholog — evolutionary root of mammalian SIRT1–7."
+      },
+      {
+        "name": "DJ-1 → Glyoxalase (Line 1 AGE defense)",
+        "hops": 2,
+        "path": [
+          "dj_1",
+          "methylglyoxal",
+          "advanced_glycation_end_products"
+        ],
+        "mechanism": "DJ-1 is a GSH-independent glyoxalase: methylglyoxal → L-lactate, glyoxal → glycolic acid. Bypasses GLO1/GLO2 glutathione requirement. Critical backup when oxidative stress depletes GSH."
+      },
+      {
+        "name": "Adrenochrome → GSH depletion → DJ-1 dependency",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "oxidative_stress",
+          "dj_1",
+          "methylglyoxal"
+        ],
+        "mechanism": "Adrenochrome redox cycling depletes glutathione → GLO1/GLO2 impaired → methylglyoxal accumulates → DJ-1 becomes the last line of defense (GSH-independent). Double hit: same oxidative stress that depletes GSH also activates DJ-1 via Cys106."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "dj_1",
+        "label": "DJ-1",
+        "role": "Redox sensor, glyoxalase, chaperone, DRP1 regulator"
+      },
+      {
+        "id": "park7",
+        "label": "PARK7",
+        "role": "Gene encoding DJ-1"
+      },
+      {
+        "id": "drp1",
+        "label": "DRP1",
+        "role": "Mitochondrial fission GTPase, DJ-1 target"
+      },
+      {
+        "id": "ampk",
+        "label": "AMPK",
+        "role": "Energy sensor, DRP1 kinase, sirtuin activator"
+      },
+      {
+        "id": "sirtuins",
+        "label": "Sirtuins",
+        "role": "NAD+-dependent defense system"
+      },
+      {
+        "id": "methylglyoxal",
+        "label": "Methylglyoxal",
+        "role": "Reactive dicarbonyl, DJ-1 substrate"
+      },
+      {
+        "id": "glyoxal",
+        "label": "Glyoxal",
+        "role": "Reactive dicarbonyl, DJ-1 substrate"
+      },
+      {
+        "id": "glyoxalase_system",
+        "label": "Glyoxalase System",
+        "role": "GSH-dependent dicarbonyl defense (Line 1)"
+      },
+      {
+        "id": "advanced_glycation_end_products",
+        "label": "AGEs",
+        "role": "Terminal glycation damage products"
+      },
+      {
+        "id": "fructosamine_3_kinase",
+        "label": "FN3K",
+        "role": "Amadori product deglycase (Line 2)"
+      },
+      {
+        "id": "cathepsin_d",
+        "label": "Cathepsin D",
+        "role": "Lysosomal AGE degradation (Line 3)"
+      },
+      {
+        "id": "glucosepane",
+        "label": "Glucosepane",
+        "role": "Most abundant AGE crosslink"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "Upstream activator of DJ-1"
+      },
+      {
+        "id": "nrf2",
+        "label": "Nrf2",
+        "role": "DJ-1-stabilized antioxidant TF"
+      },
+      {
+        "id": "alpha_synuclein",
+        "label": "α-synuclein",
+        "role": "DJ-1 chaperone target"
+      },
+      {
+        "id": "l_lactate",
+        "label": "L-lactate",
+        "role": "Product of DJ-1 glyoxalase on MGO"
+      },
+      {
+        "id": "glycolic_acid",
+        "label": "Glycolic acid",
+        "role": "Product of DJ-1 glyoxalase on glyoxal"
+      }
+    ],
+    "mechanism": "DJ-1/PARK7 is a 189-aa homodimer with a Cys106 redox switch. It occupies Line 1 of a three-layer AGE defense: (1) Prevention — DJ-1 detoxifies MGO → L-lactate and glyoxal → glycolic acid without glutathione, complementing the GSH-dependent GLO1/GLO2 system; (2) Repair — FN3K phosphorylates Amadori products; (3) Degradation — cathepsins and bacterial glucosepane-cleaving enzymes. The adrenochrome connection: adrenochrome redox cycling depletes glutathione, impairing GLO1/GLO2, while simultaneously activating DJ-1 via Cys106 oxidation — making DJ-1 the critical last line of defense. DJ-1 also regulates DRP1-dependent mitochondrial fission, connecting to AMPK and sirtuins. Loss of DJ-1 (PARK7 mutations) causes early-onset PD via convergent pathology: mitochondrial dysfunction, oxidative damage, α-synuclein aggregation, and AGE accumulation.",
+    "sourceFile": "src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
   }
 ]
