@@ -30,7 +30,7 @@ def get_entities_from_fs(dir_path):
     return entities
 
 
-def audit_topic(topic_dir, link_dir="notes/_link"):
+def audit_topic(topic_dir, link_dir="src/notes/_link"):
     print(f"\nAuditing: {topic_dir}")
     readme_path = os.path.join(topic_dir, "README.md")
     if not os.path.exists(readme_path):
@@ -49,14 +49,14 @@ def audit_topic(topic_dir, link_dir="notes/_link"):
     for entity in readme_entities:
         if entity in fs_entities:
             continue
-        if entity.startswith("notes/_link/"):
-            e_name = entity.replace("notes/_link/", "")
+        if entity.startswith("src/notes/_link/"):
+            e_name = entity.replace("src/notes/_link/", "")
             if e_name in link_entities:
                 continue
 
         # If the link is not in the local dir, check if it exists in _link
         if entity in link_entities:
-            print(f"  Should be updated to _link reference: [[notes/_link/{entity}]]")
+            print(f"  Should be updated to _link reference: [[src/notes/_link/{entity}]]")
             continue
 
         # Potentially broken or external link
@@ -69,14 +69,14 @@ def main():
         description="Check if README.md is in sync with entities in topic directories."
     )
     parser.add_argument(
-        "--topic", help="Specific topic directory to audit (e.g., notes/adrenochrome)"
+        "--topic", help="Specific topic directory to audit (e.g., src/notes/adrenochrome)"
     )
     parser.add_argument(
-        "--all", action="store_true", help="Audit all topic directories in notes/"
+        "--all", action="store_true", help="Audit all topic directories in src/notes/"
     )
     args = parser.parse_args()
 
-    notes_dir = "notes"
+    notes_dir = "src/notes"
     link_dir = os.path.join(notes_dir, "_link")
 
     if args.topic:

@@ -17,7 +17,7 @@ def get_deleted_files(notes_dir, link_dir):
             cmd = ["git", "log", "--diff-filter=D", "--summary", topic_path]
             output = subprocess.check_output(cmd).decode('utf-8')
             
-            # Look for lines like "delete mode 100644 notes/topic/Entity.md"
+            # Look for lines like "delete mode 100644 src/notes/topic/Entity.md"
             # We need to escape backslashes for windows or handle separators
             pattern = rf"delete mode \d+ {re.escape(topic_path)}/(.+)\.md"
             deleted_files = re.findall(pattern, output)
@@ -59,8 +59,8 @@ def check_missing_readmes(notes_dir, link_dir):
                 continue
                 
             entity = matches[0]
-            # Check if [[entity]] or [[notes/_link/entity]] is in README
-            link_pattern = rf"\[\[(notes/_link/)?{re.escape(entity)}(\||\]\])"
+            # Check if [[entity]] or [[src/notes/_link/entity]] is in README
+            link_pattern = rf"\[\[(src/notes/_link/)?{re.escape(entity)}(\||\]\])"
             if not re.search(link_pattern, content, re.IGNORECASE):
                 missing.append(entity)
         
@@ -70,8 +70,8 @@ def check_missing_readmes(notes_dir, link_dir):
 
 def main():
     parser = argparse.ArgumentParser(description="Audit topic READMEs for entities that were moved to _link.")
-    parser.add_argument("--notes_dir", default="notes", help="Directory containing topics (default: notes)")
-    parser.add_argument("--link_dir", default="notes/_link", help="Directory containing overlapping links (default: notes/_link)")
+    parser.add_argument("--notes_dir", default="src/notes", help="Directory containing topics (default: src/notes)")
+    parser.add_argument("--link_dir", default="src/notes/_link", help="Directory containing overlapping links (default: src/notes/_link)")
     args = parser.parse_args()
 
     if not os.path.isdir(args.notes_dir):

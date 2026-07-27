@@ -1,0 +1,1080 @@
+[
+  {
+    "subject": "Yoshinori Ohsumi",
+    "predicate": "elucidated_mechanisms_of",
+    "object": "Autophagy",
+    "context": "Yoshinori Ohsumi was awarded the 2016 Nobel Prize in Physiology or Medicine for his pioneering work using yeast genetics to identify the core autophagy-related (ATG) genes that govern the process. Through systematic mutagenesis screens, he uncovered the molecular machinery responsible for autophagosome formation, including the ubiquitin-like conjugation systems that build the phagophore membrane. His discoveries established autophagy as a genetically tractable and evolutionarily conserved degradation pathway, providing the conceptual framework for all subsequent mammalian autophagy research. The recognition underscored the fundamental importance of autophagy in cellular homeostasis, development, and human disease.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "is_a",
+    "object": "Lysosomal catabolic process",
+    "context": "Autophagy is a conserved lysosome-dependent catabolic process in which cytoplasmic constituents—including misfolded proteins, protein aggregates, damaged organelles, and intracellular pathogens—are sequestered into double-membrane autophagosomes and delivered to lysosomes for enzymatic degradation. The resulting macromolecular building blocks such as amino acids, fatty acids, and nucleotides are recycled to sustain metabolism and biosynthetic capacity during nutrient stress. As the cell's principal quality-control and nutrient-recycling system, autophagy is essential for maintaining proteostasis and organellar integrity across nearly all eukaryotic cells. Defects in autophagic flux are causally linked to aging, neurodegeneration, cancer, and metabolic disease, making it a central node in cellular homeostasis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "has_types",
+    "object": "Macroautophagy",
+    "context": "Macroautophagy (commonly termed autophagy) is the best-characterized form, in which a de novo formed double-membrane structure called the phagophore expands to engulf cytoplasmic cargo and seals into an autophagosome. The autophagosome then fuses with a lysosome, forming an autolysosome where luminal contents are degraded by acidic hydrolases. This bulk and selective degradative route is orchestrated by the conserved ATG machinery, including the ULK1 initiation complex and the PI3K III/Beclin 1 nucleation complex. Macroautophagy is the dominant pathway induced by starvation, stress, and many pharmacological interventions and is the primary focus of most therapeutic autophagy modulation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "has_types",
+    "object": "Microautophagy",
+    "context": "Microautophagy involves the direct engulfment of cytoplasmic cargo by the lysosomal (or vacuolar) membrane through invagination, tubulation, or protrusion of the limiting membrane, without the requirement for a distinct autophagosome intermediate. The entrapped material is then internalized into the lysosomal lumen for degradation, a process that is particularly prominent in yeast vacuoles and in mammalian late endosomes/multivesicular bodies. Compared with macroautophagy, microautophagy operates with less selectivity and is regulated by distinct machineries, though it similarly contributes to organelle and protein turnover. It plays roles in lipid droplet turnover, membrane protein degradation, and quality control under both basal and stress conditions.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "has_types",
+    "object": "Chaperone-Mediated Autophagy",
+    "context": "Chaperone-mediated autophagy (CMA) is a selective form of lysosomal degradation in which individual soluble cytosolic proteins bearing a pentapeptide KFERQ-like targeting motif are recognized by the cytosolic chaperone HSC70. The substrate-chaperone complex is then delivered to the lysosomal membrane, where the receptor LAMP-2A monomers translocate the unfolded substrate across the membrane into the lumen for degradation. Unlike macro- and microautophagy, CMA degrades one protein at a time and does not require membrane engulfment or autophagosome formation. CMA activity declines with age and is implicated in neurodegeneration and cancer, and it is subject to regulation by mTORC2 and other signaling nodes.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "ULK1",
+    "predicate": "initiates",
+    "object": "Autophagy",
+    "context": "The ULK1 complex, composed of ULK1 or ULK2 kinase together with Atg13, FIP200, and Atg101, acts as the primary initiator of autophagosome formation downstream of nutrient sensing. Under starvation, AMPK directly activates ULK1 while mTORC1 is withdrawn, allowing the complex to phosphorylate targets and recruit the downstream PI3K III/Beclin 1 nucleation machinery. ULK1 kinase activity is essential for the localized recruitment of ATG proteins to the phagophore assembly site and for the earliest steps of membrane expansion. Thus the ULK1 complex serves as the integration point that converts nutrient and energy signals into the physical initiation of autophagosome biogenesis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PI3K III complex",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": "The class III phosphatidylinositol 3-kinase (PI3K III) complex, centered on Vps34 and including Beclin 1, Atg14, Vps15, and Ambra-1, generates phosphatidylinositol 3-phosphate (PI3P) at membranes to drive autophagosome nucleation. PI3P recruits effector proteins carrying PI3P-binding domains that organize the expanding phagophore and tether downstream ATG conjugation systems. Beclin 1 is a tumor suppressor whose activity is modulated by interacting partners and by anti-apoptotic Bcl-2 family proteins that restrain autophagy under fed conditions. This nucleation complex functions immediately downstream of the ULK1 initiator and is a critical control node for the magnitude of autophagic responses.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "modulated_by",
+    "object": "Intermittent Fasting",
+    "context": "Intermittent fasting (IF) is a dietary intervention that periodically restricts caloric intake, producing the nutrient deprivation signals that robustly induce autophagy in many tissues. In preclinical cancer models, cycles of IF combined with chemotherapy have been shown to slow tumor growth and improve therapeutic index by exploiting the differential stress resistance of normal versus malignant cells. The protective effect of autophagy during fasting helps normal cells tolerate chemotherapy, while many tumors remain reliant on constitutive autophagy for survival. These findings position IF as a translational strategy to modulate autophagic tone for anti-cancer and pro-longevity benefits.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "has_dual_role_in",
+    "object": "Cancer",
+    "context": "Autophagy exerts a context-dependent, dual role in cancer that is determined by tumor stage, genetic background, and microenvironment. In initiated cells and early neoplasia, basal autophagy acts as a tumor-suppressive quality-control mechanism by removing damaged mitochondria, suppressing oxidative stress, and limiting genomic instability and inflammation. In established tumors, however, autophagy is frequently upregulated and co-opted to support the metabolic demands of rapidly proliferating cancer cells and to promote survival under hypoxia, nutrient limitation, and therapy. This dualism means that autophagy inhibition can be either anti-tumor or, paradoxically, tumor-promoting, depending on context.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Beclin 1",
+    "predicate": "is_a",
+    "object": "Tumor suppressor",
+    "context": "Beclin 1 is a core autophagy protein and a haploinsufficient tumor suppressor whose monoallelic deletion is frequently observed in human ovarian, breast, and prostate cancers. Loss of one BECN1 allele reduces autophagic flux, increasing susceptibility to oxidative damage, genomic instability, and inflammation that favor tumor initiation. Mechanistically, Beclin 1 functions as the scaffold of the PI3K III nucleation complex, and its interaction with Bcl-2 family members further couples autophagy to apoptotic regulation. Its frequent deletion in epithelial cancers established autophagy as a genuine tumor-suppression pathway.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "RAS",
+    "predicate": "upregulates",
+    "object": "Autophagy",
+    "context": "Oncogenic RAS signaling drives a metabolic reprogramming in which transformed cells upregulate basal autophagy to supply the amino acids, lipids, and nucleotides needed for sustained proliferation. Mutant RAS activates both mTOR and, via nutrient and energy stress feedback, the autophagic machinery, allowing tumor cells to survive in nutrient-poor microenvironments. Pharmacologic or genetic blockade of autophagy selectively impairs the viability of RAS-driven tumors, highlighting autophagy as a dependency in these cancers. This dependency has motivated clinical efforts to combine RAS pathway-targeted or standard therapies with autophagy inhibition.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Dietary Restriction",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": "Dietary restriction (DR) and its variants are among the most potent physiological activators of autophagy, engaging the pathway in most cultured cells and across many organs in vivo. By lowering circulating nutrients and insulin while raising AMP/ATP ratios, DR relieves mTORC1 inhibition and activates AMPK, thereby de-repressing the ULK1 complex and TFEB-dependent lysosomal programs. In model organisms such as C. elegans, DR induces autophagy through coordinated transcriptional changes mediated by orthologs like HLH-30/TFEB. The health- and lifespan-extending effects of DR are widely attributed in substantial part to this induction of adaptive autophagy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Caloric Restriction Mimetics",
+    "predicate": "mimic_effects_of",
+    "object": "Caloric Restriction",
+    "context": "Caloric restriction mimetics are pharmacological agents that reproduce the metabolic and autophagic benefits of caloric restriction without sustained food reduction. Representatives such as 2-deoxyglucose, metformin, and spermidine activate AMPK and/or inhibit mTORC1, recapitulating the low-energy signaling state that drives autophagy. By mimicking nutrient scarcity at the signaling level, these compounds induce lysosomal and autophagic gene programs similar to those engaged during DR. They are attractive translationally because they avoid the practical and compliance limitations of long-term dietary restriction in humans.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "reduces_levels_of",
+    "object": "IGF1",
+    "context": "Intermittent fasting lowers circulating insulin-like growth factor 1 (IGF-1), a potent mitogenic and pro-survival hormone whose signaling converges on the PI3K-Akt-mTOR axis to inhibit autophagy. In a breast cancer model, a 48-hour fasting period reduced IGF-1 levels by approximately 70%, dampening pro-tumorigenic IGF-1 receptor signaling. The resulting reduction in mTORC1 activity contributes to the fasting-induced activation of autophagy and the enhanced stress resistance of normal tissues. Lower IGF-1 during fasting is therefore a key endocrine mechanism linking IF to both tumor suppression and longevity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Intermittent fasting induces autophagy as an early cellular adaptation to the periodic nutrient and energy deficit it imposes. In vitro, fasting-mimetic conditions activate the autophagic machinery and concurrently downregulate the ectonucleotidase CD73, altering extracellular adenosine metabolism. The induction is largely mediated through AMPK activation and mTORC1 inhibition as nutrient and insulin signals fall during the fasting window. This autophagic engagement is thought to underlie many of the cytoprotective and anti-aging effects attributed to IF regimens.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cisplatin",
+    "predicate": "efficacy_enhanced_by",
+    "object": "Intermittent Fasting",
+    "context": "Cisplatin is a platinum-based chemotherapeutic whose efficacy is augmented when combined with intermittent fasting in both cellular and animal models. Fasting generates a differential stress resistance in which normal cells enter a protective, autophagy-dependent quiescent state while many tumor cells remain vulnerable to platinum-DNA adduct formation. The improved therapeutic window reduces chemotherapy-associated toxicity while slowing tumor growth, suggesting a combinatorial strategy. These findings support IF as an adjunct to sensitize tumors and protect host tissue during cisplatin-based regimens.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "CD73",
+    "predicate": "downregulated_by",
+    "object": "Intermittent Fasting",
+    "context": "CD73, the rate-limiting ectonucleotidase that converts AMP to immunosuppressive adenosine in the tumor microenvironment, is downregulated following intermittent fasting. Reduced CD73 expression leads to diminished extracellular adenosine, which can relieve adenosine-mediated immune suppression and enhance anti-tumor immunity. The regulation is observed in vitro under fasting-mimetic conditions, linking IF to both metabolic and immunological remodeling. Because adenosine signaling promotes tumor evasion, CD73 downregulation represents a plausible mechanism by which fasting improves cancer therapy outcomes.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "Autophagic flux",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": "Autophagic flux—the complete rate of cargo delivery to and degradation within lysosomes—declines progressively with age in many tissues. This decline stems from impaired initiation, reduced lysosomal proteolytic capacity, and accumulated lipofuscin that compromises lysosomal function, producing a state of proteostatic insufficiency. The resulting accumulation of damaged organelles and protein aggregates contributes centrally to the aging phenotype and to age-related diseases such as neurodegeneration and sarcopenia. Restoration of autophagic flux is therefore a major hypothesized mechanism through which longevity interventions exert their benefits.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy Inducer",
+    "predicate": "reverses",
+    "object": "Immune Aging",
+    "context": "Autophagy-inducing interventions have been shown to rejuvenate features of adaptive immune aging, a process characterized by thymic involution, reduced naïve T cell output, and diminished responses to vaccination and infection. By clearing damaged mitochondria and improving proteostasis in lymphocytes, autophagy inducers restore hematopoietic stem cell function and enhance memory CD8+ T cell generation. Pharmacological or dietary activation of autophagy counteracts the functional defects that accumulate in immune cells with age. These effects position autophagy enhancement as a plausible strategy to mitigate immunosenescence.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": "Rapamycin is a potent allosteric inhibitor of mTOR complex 1 (mTORC1), binding the intracellular immunophilin FKBP12 to form a complex that occludes the mTORC1 active site. By inhibiting mTORC1, rapamycin relieves the constitutive repression of the ULK1 complex and of TFEB/TFE3, thereby inducing autophagy and lysosomal biogenesis. Its specificity for mTORC1 (with weaker, delayed effects on mTORC2) makes it a canonical tool for dissecting nutrient-signaling pathways. Rapamycin and its analogs are foundational longevity and immunosuppressive agents whose benefits are largely attributed to mTORC1 inhibition.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "delays",
+    "object": "Immune Aging",
+    "context": "Rapamycin delays immune aging by inhibiting mTORC1, an intervention shown to restore hematopoietic stem cell function and enhance the generation and persistence of memory CD8+ T cells in aged subjects. Mechanistically, mTORC1 inhibition shifts lymphocytes toward a more naïve, less exhausted state and promotes autophagy-mediated quality control within immune cells. In preclinical and clinical studies, transient rapamycin treatment improved immune responses to vaccination in the elderly. These effects illustrate how targeting the mTOR-autophagy axis can functionally rejuvenate the aging immune system.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "Metformin, the first-line type 2 diabetes drug, activates AMP-activated protein kinase (AMPK) primarily by inhibiting mitochondrial respiratory complex I, which mildly elevates the cellular AMP/ATP ratio. Activated AMPK phosphorylates downstream targets that restore energy homeostasis, including TSC2 and Raptor, which in turn suppress mTORC1. This indirect, energy-stress-mediated activation distinguishes metformin from direct AMPK agonists and underlies many of its metabolic benefits. AMPK activation by metformin also accounts for its autophagy-inducing and potential anti-aging effects.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Metformin induces autophagy by activating AMPK and thereby inhibiting mTORC1, relieving the brake on the autophagic machinery. In primary CD4+ T cells isolated from older individuals, metformin treatment restored autophagic flux, suggesting a mechanism to counter age-associated immune dysfunction. The induction is consistent with the drug's broader metabolic and putative longevity effects mediated through energy-sensing pathways. By enhancing autophagic clearance, metformin may reduce senescence-associated inflammation and improve cellular resilience.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Spermidine is a naturally occurring polyamine with conserved anti-aging properties that acts as a potent inducer of autophagy across organisms from yeast to humans. It promotes autophagy through multiple mechanisms, including enhancement of histone H3 deacetylation and, via hypusination of eIF5A, facilitation of TFEB translation and lysosomal gene expression. Dietary spermidine supplementation extends lifespan and protects against cardiovascular and cognitive decline in preclinical models. Its ability to engage the autophagy-lysosomal network safely makes it a leading caloric-restriction mimetic candidate.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "rejuvenates",
+    "object": "B Cell responses",
+    "context": "Spermidine supplementation rejuvenates age-impaired B cell responses by inducing autophagy in memory T and B lymphocytes, restoring their functional competence. The polyamine's ability to clear damaged organelles and enhance proteostasis in these cells counteracts the decline in vaccine responsiveness seen with immune aging. By supporting lymphoid cell fitness, spermidine addresses a key component of immunosenescence through an autophagy-dependent mechanism. These effects complement its broader rejuvenation of adaptive immunity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "activates_via_hypusination",
+    "object": "eIF5A",
+    "context": "Spermidine serves as the essential aminobutyl donor for the post-translational hypusination of eukaryotic translation initiation factor 5A (eIF5A), a modification catalyzed by deoxyhypusine synthase and deoxyhypusine hydroxylase. Hypusinated eIF5A is required for efficient translation of a subset of mRNAs with polyproline tracts, including that encoding the master autophagy regulator TFEB. By facilitating TFEB protein synthesis, spermidine upregulates the entire autophagy-lysosomal transcriptional program. This hypusination-dependent axis is a distinctive mechanistic link between polyamine metabolism and autophagic control.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Dietary Restriction",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": "Dietary restriction activates autophagy through coordinated transcriptional and post-translational reprogramming, as demonstrated by transcriptional changes in C. elegans mediated by the HLH-30/TFEB ortholog. The low-nutrient state relieves mTORC1 repression and engages AMPK, while HLH-30 translocates to nuclei to induce lysosomal and autophagic gene expression. This systemic activation occurs across tissues and contributes to the healthspan and lifespan benefits of DR. The transcriptional engagement distinguishes DR-induced autophagy from purely acute post-translational starvation responses.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": "mTORC1 is the master nutrient-sensitive repressor of autophagy, integrating signals from growth factors, amino acids, and energy to suppress the pathway when resources are abundant. Active mTORC1 phosphorylates ULK1 and Atg13, preventing initiation complex assembly, and phosphorylates TFEB/TFE3 to retain them in the cytosol, blocking lysosomal gene expression. Only when mTORC1 is inhibited—by starvation, AMPK, or rapamycin—does autophagy proceed. This inhibitory relationship places mTORC1 at the apex of autophagic control in mammalian cells.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": "AMPK is a canonical inducer of autophagy that responds to rising AMP/ATP ratios during metabolic stress by directly phosphorylating and activating ULK1 at sites that promote phagophore formation. Simultaneously, AMPK inhibits mTORC1 by phosphorylating TSC2 and the mTORC1 subunit Raptor, removing the dominant brake on autophagy. AMPK can also phosphorylate TFEB/STBD1 to further enhance autophagic and glycogenolytic responses. Through these parallel actions, AMPK couples cellular energy scarcity to the rapid deployment of autophagic degradation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Senescence-Associated Secretory Phenotype",
+    "predicate": "drives",
+    "object": "Inflammaging",
+    "context": "The senescence-associated secretory phenotype (SASP) is the ensemble of pro-inflammatory cytokines, chemokines, and matrix-remodeling enzymes secreted by senescent cells. Accumulation of senescent cells with age creates a chronic, low-grade inflammatory milieu that drives inflammaging—the sterile inflammation implicated in nearly all age-related diseases. SASP factors recruit immune cells, promote fibrosis, and induce paracrine senescence in neighboring cells, establishing feed-forward tissue deterioration. Targeting senescent cells or their SASP is a major therapeutic avenue to reduce inflammaging.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Thymic Involution",
+    "predicate": "causes",
+    "object": "Immune Aging",
+    "context": "Thymic involution is the age-dependent regression of thymic epithelial space and function, progressively diminishing the export of naïve T cells to the periphery. This contraction of the naïve T cell repertoire underlies reduced adaptive immune competence, poor vaccine responses, and increased infection risk characteristic of immune aging. The process is driven by intrinsic stromal changes, sex steroids, and accumulated damage, and is only partially compensated by peripheral homeostatic proliferation. Interventions that enhance autophagy can partially counter thymic senescence and restore T cell output.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "reverses",
+    "object": "Th17 inflammatory profile",
+    "context": "Metformin reverses the pro-inflammatory Th17 CD4+ T cell profile toward a more juvenile, balanced phenotype, an effect attributed to enhancement of autophagic flux within lymphocytes. By activating AMPK and inducing autophagy, metformin reduces the mitochondrial and metabolic perturbations that favor pathogenic Th17 differentiation. This phenotypic rebalancing may contribute to the drug's anti-inflammatory and immune-modulatory benefits beyond glycemic control. The observation links metformin's autophagy-inducing capacity to attenuation of age- and inflammation-associated T cell skewing.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "mTORC2",
+    "predicate": "regulates",
+    "object": "Chaperone-Mediated Autophagy",
+    "context": "mTORC2, distinct from mTORC1, modulates chaperone-mediated autophagy (CMA) through effects on the lysosomal localization and function of the CMA receptor LAMP-2A. By influencing the spatial organization of lysosomal membranes, mTORC2 affects the capacity of lysosomes to import KFERQ-motif substrates via HSC70. This regulation reveals that both mTOR complexes impinge on lysosomal degradation, though via different substrates and mechanisms. The link expands the regulatory network controlling selective protein turnover during aging and disease.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "is_a_member_of",
+    "object": "MiT/TFE family",
+    "context": "TFEB belongs to the MiT/TFE family of basic helix-loop-helix leucine zipper transcription factors, which also includes TFE3, MITF, and TFEC. Members of this family share conserved DNA-binding and dimerization domains and regulate overlapping sets of lysosomal and autophagic target genes. The family's defining feature is responsiveness to nutrient and stress signals that control nuclear-cytoplasmic shuttling. TFEB and TFE3 are the principal mediators of the coordinated lysosomal expression and regulation (CLEAR) network.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "binds_to",
+    "object": "CLEAR Element",
+    "context": "TFEB binds to Coordinated Lysosomal Expression and Regulation (CLEAR) elements—a conserved 10-base-pair motif (GTCACGTGAC) present in the promoters of numerous lysosomal and autophagy genes. Through this binding, TFEB drives the coordinated transcriptional upregulation of the entire autophagy-lysosomal network. CLEAR-mediated regulation allows cells to mount a unified response that expands degradative capacity in tandem with autophagic initiation. The CLEAR network is the molecular basis for TFEB's role as a master regulator of cellular clearance.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "Autophagy-lysosomal pathway",
+    "context": "TFEB is a master transcriptional regulator of the autophagy-lysosomal pathway, coordinating the expression of genes required for autophagosome formation, cargo recognition, lysosomal biogenesis, and substrate degradation. Its activation simultaneously boosts both the supply of autophagosomes and the degradative capacity of lysosomes, ensuring coherent flux rather than unbalanced initiation. TFEB thereby couples the two halves of autophagy—sequestration and degradation—into a single coordinated program. Dysregulation of this axis contributes to lysosomal storage disorders, neurodegeneration, and cancer.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "mTORC1 phosphorylates TFEB at serine 211 in the presence of nutrients and growth factors, creating a binding site for 14-3-3 proteins. This phosphorylation event is the principal mechanism by which mTORC1 retains TFEB in the cytosol and prevents its nuclear translocation under fed conditions. S211 phosphorylation thus links nutrient abundance directly to repression of the lysosomal-autophagic transcriptional program. Relief of this phosphorylation during starvation is required for TFEB to enter the nucleus and activate clearance genes.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "14-3-3 protein",
+    "predicate": "retains",
+    "object": "TFEB in cytosol",
+    "context": "Once TFEB is phosphorylated at serine 211 by mTORC1, 14-3-3 proteins bind the phosphorylated motif and mask the transcription factor's nuclear localization signal. This cytosolic sequestration prevents TFEB from accessing CLEAR elements in the nucleus, thereby suppressing expression of lysosomal and autophagic genes. The 14-3-3 interaction thereby converts a single phosphorylation event into a durable spatial exclusion of TFEB. Disruption of this complex is a key step in starvation- and drug-induced TFEB activation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Calcineurin",
+    "predicate": "dephosphorylates",
+    "object": "TFEB",
+    "context": "Calcineurin, a calcium/calmodulin-dependent serine-threonine phosphatase, dephosphorylates TFEB at serine 211, reversing the mTORC1-mediated mark that anchors it in the cytosol. Removal of the phosphate disrupts 14-3-3 binding and unmasks the nuclear localization signal, permitting TFEB nuclear translocation. This calcium-dependent dephosphorylation couples lysosomal calcium release—triggered by TRPML1—to activation of the autophagy-lysosomal program. Calcineurin therefore provides the phosphatasic counterbalance that licenses TFEB activity during stress.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "releases",
+    "object": "Ca2+ from lysosomes",
+    "context": "TRPML1 (mucolipin-1) is a lysosomal cation channel that releases Ca2+ from the lysosomal lumen into the cytosol in response to stimuli such as PI(3,5)P2 or lumenal cues. The resulting local calcium signal activates calcineurin, which dephosphorylates TFEB and promotes its nuclear translocation. Through this mechanism, TRPML1 functionally links lysosomal ion homeostasis to the transcriptional activation of lysosomal biogenesis and autophagy. Loss of TRPML1 underlies the lysosomal storage disorder mucolipidosis type IV.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S466/S467/S469",
+    "context": "AMPK phosphorylates TFEB on a cluster of serine residues (S466, S467, S469) located in its C-terminal regulatory region in response to energy stress. These phosphorylations enhance TFEB transcriptional activity and promote its nuclear accumulation, synergizing with the relief of mTORC1 repression. The modification thereby directly couples low cellular energy status to activation of the autophagy-lysosomal transcriptional program. This AMPK-TFEB axis provides a transcription-level reinforcement of the rapid post-translational induction of autophagy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "ERK2",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "ERK2, a member of the MAPK family activated downstream of growth factor and mitogenic signaling, phosphorylates TFEB at serine 142. This phosphorylation promotes cytosolic retention of TFEB, analogous to the regulatory effect of mTORC1 at nearby sites, thereby limiting nuclear accumulation. The ERK2-TFEB connection integrates proliferative signaling with suppression of the degradative program in growing cells. It illustrates that TFEB localization is governed by multiple kinase inputs beyond the core mTOR axis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "GSK3β",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S134/S138",
+    "context": "Glycogen synthase kinase 3 beta (GSK3β) phosphorylates TFEB at serines 134 and 138, residues that influence its subcellular localization and association with lysosomal membranes. These phosphorylations contribute to the regulated shuttling of TFEB and modulate its activity in response to Wnt and growth-factor signaling contexts. Because GSK3β activity is itself controlled by Akt and by nutrient state, this modification embeds TFEB within the broader insulin/PI3K signaling network. The sites complement the better-characterized S211 mark in fine-tuning TFEB localization.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "CDK4/6",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "Cyclin-dependent kinases 4 and 6 (CDK4/6), central drivers of G1 cell-cycle progression, phosphorylate TFEB at serine 142 and promote its nuclear export through a CRM1-dependent mechanism. This action sequesters TFEB in the cytoplasm during phases of active proliferation, when degradative programs are downregulated. Conversely, pharmacological CDK4/6 inhibition permits TFEB nuclear retention and enhances lysosome biogenesis and autophagy. The CDK4/6-TFEB link couples cell-cycle state to the metabolic and degradative status of the cell.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MAP4K3",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S3",
+    "context": "MAP4K3 phosphorylates TFEB at serine 3, an N-terminal modification that primes TFEB for subsequent phosphorylation at S211 by mTORC1. This hierarchical phosphorylation reveals that TFEB regulation involves ordered, multi-site modification in which upstream kinases license downstream ones. By enabling the mTORC1 repressive mark, MAP4K3 integrates amino-acid and growth-factor inputs into TFEB control. The finding adds a further layer of complexity to the kinase network governing lysosomal gene transcription.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "p38 MAPK",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "p38 MAPK phosphorylates TFEB at serine 211, the same residue targeted by mTORC1, thereby promoting cytoplasmic retention under certain stress conditions. This convergence indicates that both growth-factor (mTORC1) and stress (p38) signaling can independently restrain TFEB nuclear entry. The p38-mediated phosphorylation underscores the role of stress-activated MAPK pathways in modulating degradative transcription. Context determines whether p38 signaling suppresses or, at other sites, activates TFEB.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "p38 MAPK",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S401",
+    "context": "In contrast to its S211 effect, p38 MAPK phosphorylates TFEB at serine 401 in a manner that promotes nuclear translocation in specific cell types such as monocytes. This site-specific divergence illustrates that p38 can either retain or activate TFEB depending on cell context and the constellation of concurrent modifications. Such opposing outcomes highlight the combinatorial code by which multiple phosphorylations determine TFEB localization. The monocyte-specific response implicates TFEB in immune cell activation and inflammatory programs.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "GCN5",
+    "predicate": "acetylates",
+    "object": "TFEB at K274/K279",
+    "context": "GCN5, a lysine acetyltransferase, acetylates TFEB at lysines 274 and 279 within its DNA-binding domain, an modification that hinders TFEB dimerization and its ability to bind CLEAR elements. Acetylation at these sites therefore represses TFEB transcriptional activity independently of its localization. This post-translational modification expands the regulatory vocabulary of TFEB beyond phosphorylation to include acetylation-dependent control of DNA engagement. The finding situates TFEB within the broader acetylome that governs transcription factor function.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "TFEB",
+    "context": "SIRT1, a NAD+-dependent class III deacetylase, deacetylates TFEB at lysine 116, an event that enhances TFEB nuclear translocation and transcriptional activity. Because SIRT1 activity rises during caloric restriction and exercise when cellular NAD+ is elevated, this deacetylation couples energy status to activation of the autophagy-lysosomal program. Deacetylation at K116 therefore complements phosphorylation-mediated control and reinforces TFEB function under pro-longevity conditions. The SIRT1-TFEB axis is a key molecular explanation for the autophagic benefits of NAD+-boosting interventions.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "STUB1",
+    "predicate": "ubiquitinates",
+    "object": "Phosphorylated TFEB",
+    "context": "STUB1 (CHIP), an E3 ubiquitin ligase, recognizes and ubiquitinates phosphorylated TFEB, targeting the transcription factor for proteasomal degradation. This mechanism ensures that TFEB levels are coupled to its phosphorylation state, providing a negative-feedback brake on sustained activation. By eliminating phosphorylated, cytosolically retained TFEB, STUB1 limits the accumulation of inactive protein and fine-tunes the amplitude of the autophagic response. The pathway connects TFEB turnover to the ubiquitin-proteasome system rather than to lysosomal degradation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TNKS1",
+    "predicate": "parsylates",
+    "object": "TFEB",
+    "context": "Tankyrase 1 (TNKS1) poly-ADP-ribosylates (PARsylates) TFEB, a modification that promotes its nuclear translocation and activation of target genes. PARsylation addsADP-ribose polymers that alter TFEB interactions and trafficking, providing a non-phosphorylation route to TFEB activation. This modification broadens the enzymatic toolkit—alongside kinases, phosphatases, acetylases, and ubiquitin ligases—that regulates the autophagy-lysosomal master switch. The TNKS1-TFEB relationship suggests potential crosstalk with Wnt/β-catenin and other PARsylation-dependent pathways.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "is_sumoylated_at",
+    "object": "K316",
+    "context": "TFEB undergoes SUMOylation at lysine 316, a small ubiquitin-like modifier conjugation that attenuates its transcriptional activity. SUMOylation typically modulates protein-protein interactions and subnuclear compartmentalization, and at K316 it dampens TFEB-driven expression of lysosomal genes. This modification adds another layer to the post-translational code governing TFEB, acting in opposition to activatory marks such as deacetylation. The reversibility of SUMOylation by SENPs allows dynamic tuning of the degradative program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "regulated_by",
+    "object": "Oxidation at C212",
+    "context": "Oxidation of TFEB at cysteine 212—for example by reactive oxygen species or oxidants—impairs mTORC1-mediated phosphorylation at adjacent regulatory sites and thereby enhances TFEB activity. This redox-sensitive control links cellular oxidative status directly to activation of the lysosomal-autophagy program, functioning as a stress sensor. By relieving kinase repression under oxidative conditions, TFEB oxidation promotes clearance of damaged components that generate ROS. The C212 modification exemplifies how cysteine-based redox switches integrate stress signaling with degradative transcription.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "regulated_by",
+    "object": "S-sulfhydration at C212",
+    "context": "S-sulfhydration of TFEB at cysteine 212, catalyzed by the cystathionine gamma-lyase (CTH)-derived hydrogen sulfide (H2S) system, promotes its nuclear translocation and activation. This post-translational modification, distinct from oxidation, converts C212 into a persulfide that alters TFEB interactions and favors a transcriptionally active state. The regulation ties sulfur metabolism and H2S signaling to the autophagy-lysosomal network, with implications for cardiovascular and neurodegenerative protection. It represents a gasotransmitter-based mechanism controlling cellular clearance.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MYC",
+    "predicate": "competes_with",
+    "object": "TFEB for CLEAR element",
+    "context": "The oncogenic transcription factor MYC competes with TFEB for binding to CLEAR elements in the promoters of lysosomal and autophagy genes. By occupying these sites, MYC represses the TFEB-driven transcriptional program while simultaneously driving its own proliferative gene network. This competitive binding creates a molecular antagonism between growth-promoting and degradative transcriptional programs. The interplay explains how MYC-high tumors suppress autophagy-lysosomal capacity even as they increase metabolic demand.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "METTL3",
+    "predicate": "negatively_regulates",
+    "object": "TFEB expression",
+    "context": "METTL3, the catalytic subunit of the m6A methyltransferase complex, methylates TFEB mRNA at N6-methyladenosine residues, a mark that targets the transcript for destabilization and degradation. By reducing TFEB mRNA stability, METTL3 negatively regulates TFEB protein abundance and consequently the autophagy-lysosomal program. This epitranscriptomic control links RNA methylation to degradative pathway output. The finding situates TFEB within the expanding regulatory influence of m6A modification on stress-response genes.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PDCD4",
+    "predicate": "suppresses",
+    "object": "TFEB",
+    "context": "Programmed cell death protein 4 (PDCD4) suppresses TFEB translation by binding eukaryotic initiation factor 4A (eIF4A) and inhibiting the RNA helicase activity required for ribosome scanning of the TFEB mRNA. This translational blockade limits TFEB protein synthesis independently of its transcriptional or degradative regulation. PDCD4 thereby acts as a brake on the autophagy-lysosomal program at the level of protein synthesis. Its own downregulation in cancer may contribute to the elevated TFEB activity observed in some malignancies.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "promotes",
+    "object": "TFEB",
+    "context": "Spermidine promotes TFEB translation through hypusination of eIF5A, a modification essential for efficient translation of mRNAs containing polyproline tracts such as that of TFEB. By facilitating the synthesis of TFEB protein, spermidine expands the pool of the master regulator available for nuclear activation. This translational enhancement complements spermidine's other autophagy-inducing mechanisms, including histone deacetylation. The eIF5A-TFEB link provides a molecular explanation for spermidine's potent, safe induction of the lysosomal-autophagy network.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "plays_protective_role_in",
+    "object": "Neurodegenerative diseases",
+    "context": "TFEB activation is protective in neurodegenerative diseases because enhanced autophagy-lysosomal clearance reduces the accumulation of toxic protein aggregates such as amyloid-beta, tau, and alpha-synuclein. Genetic or pharmacological activation of TFEB in neuronal and glia models improves clearance and mitigates toxicity and behavioral deficits. The protective effect stems from TFEB's coordinated upregulation of both autophagosome biogenesis and lysosomal degradative capacity. Consequently, TFEB has emerged as a leading therapeutic target for Parkinson's, Alzheimer's, and related proteinopathies.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "plays_pathogenic_role_in",
+    "object": "Birt-Hogg-Dube syndrome",
+    "context": "In Birt-Hogg-Dubé (BHD) syndrome, caused by Folliculin (FLCN) mutations, TFEB becomes hyperactivated and drives a renal cystic and tumor-prone phenotype. Loss of FLCN dysregulates mTOR and related signaling such that TFEB-mediated lysosomal and proliferative programs are inappropriately engaged in renal epithelial cells. This pathogenic role contrasts with TFEB's generally protective function in neurodegeneration and aging. The BHD example demonstrates that excessive or context-inappropriate TFEB activation can be deleterious.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "controls",
+    "object": "Glutamine metabolism",
+    "context": "TFEB controls glutamine metabolism by promoting transcription of glutaminase and related genes that support glutamine utilization for biosynthesis and energy production. In pancreatic cancer, TFEB-driven glutaminase expression supplies the carbon and nitrogen needed to sustain tumor growth under nutrient stress. This metabolic dimension reveals TFEB as a regulator not only of degradation but also of anabolic substrate flux. The link positions TFEB within the metabolic rewiring that characterizes malignancy.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "Eltrombopag",
+    "predicate": "inhibits",
+    "object": "TFEB",
+    "context": "Eltrombopag (EO), a small-molecule thrombopoietin receptor agonist, was identified as the first direct inhibitor of TFEB, disrupting TFEB-DNA interactions at CLEAR elements. By preventing TFEB from binding its target promoters, EO blocks transcriptional activation of the autophagy-lysosomal network. This tool compound has enabled dissection of TFEB-dependent versus independent autophagy and has therapeutic implications where TFEB hyperactivation is pathogenic. Its discovery established pharmacological feasibility of directly targeting the MiT/TFE family.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "mTORC1 phosphorylates TFEB at serine 211 to enforce cytoplasmic retention, a foundational regulatory event that couples nutrient abundance to suppression of lysosomal gene expression. The phosphate creates a 14-3-3 binding site that masks the nuclear localization signal and prevents nuclear entry. This same residue is targeted by other kinases such as p38 MAPK, underscoring its centrality. Relief of S211 phosphorylation during starvation is necessary for TFEB to activate the clearance program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "mTORC1 phosphorylates TFEB at serine 142, a residue also targeted by ERK2 and CDK4/6, contributing to cytoplasmic retention and nuclear export of the transcription factor. Phosphorylation at S142 reinforces the cytosolic sequestration imposed by the S211 mark, providing redundancy in mTORC1-mediated repression. The site integrates inputs from both the nutrient-sensing (mTORC1) and mitogenic (ERK/CDK) axes. Together these modifications ensure TFEB remains inactive during growth and feeding.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S122",
+    "context": "mTORC1 phosphorylates TFEB at serine 122, an additional N-terminal regulatory site that contributes to cytoplasmic retention of the transcription factor under nutrient-rich conditions. Alongside S142 and S211, S122 forms part of the multi-site phosphorylation code through which mTORC1 enforces TFEB exclusion from the nucleus. Dephosphorylation of these sites by phosphatases such as PP2A is required for nuclear translocation. The multiplicity of mTORC1 sites provides tunable, robust control of lysosomal gene transcription.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S138",
+    "context": "mTORC1 phosphorylates TFEB at serine 138, a residue also modified by GSK3β, and this phosphorylation promotes nuclear export of TFEB, complementing the cytosolic retention imposed at other sites. The accumulation of phosphates across the N-terminal regulatory region collectively suppresses TFEB transcriptional activity. Relief of S138 phosphorylation facilitates nuclear accumulation and activation of the autophagy-lysosomal program. This site therefore participates in the coordinated mTORC1 restraint of cellular clearance.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PP2A",
+    "predicate": "dephosphorylates",
+    "object": "TFEB at S122/S109/S114",
+    "context": "Protein phosphatase 2A (PP2A) dephosphorylates TFEB at serines 122, 109, and 114, removing repressive mTORC1 and other kinase marks to permit TFEB nuclear translocation. By counteracting the multiple N-terminal phosphorylations that enforce cytosolic retention, PP2A acts as a key permissive switch for TFEB activation. Its activity is regulated by nutrient state and by regulatory subunits that target it to TFEB. Through this dephosphorylation, PP2A enables the rapid engagement of lysosomal biogenesis when mTORC1 is inhibited.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S467",
+    "context": "Akt phosphorylates TFEB at serine 467, a C-terminal residue within the regulatory cluster that contributes to cytoplasmic retention of the transcription factor downstream of insulin and growth-factor signaling. By adding to the phosphorylation state of TFEB, Akt reinforces the anabolic, autophagy-suppressed state promoted by PI3K-Akt-mTOR signaling. This modification complements mTORC1-mediated marks and integrates proliferative cues with repression of degradative transcription. The Akt-TFEB link embeds TFEB within the canonical survival signaling network.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PKCβ",
+    "predicate": "phosphorylates",
+    "object": "TFEB at S461/S462/S466/S468",
+    "context": "Protein kinase C beta (PKCβ) phosphorylates TFEB at a cluster of C-terminal serines (461, 462, 466, 468), modifications that promote TFEB stability rather than suppressing it. Enhanced stability increases the available pool of TFEB that can be activated when nuclear entry is permitted. This contrasts with the predominantly inhibitory phosphorylations at N-terminal mTORC1 sites, illustrating that C-terminal modifications can be activatory. The PKCβ-TFEB relationship adds nuance to the site-specific regulatory code governing the transcription factor.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "ACAT1",
+    "predicate": "acetylates",
+    "object": "TFEB at K91/K103/K116/K430",
+    "context": "Acetyl-CoA acetyltransferase 1 (ACAT1) acetylates TFEB at multiple lysines (K91, K103, K116, K430), an enzymatic activity that, in this context, promotes TFEB nuclear translocation and DNA binding. These acetylations counteract repressive deacetylation cycles and enhance TFEB's ability to engage CLEAR elements, thereby boosting autophagy-lysosomal transcription. The observation that ACAT1-mediated acetylation can be activatory contrasts with the repressive acetylation by GCN5 at other sites. The net effect depends on the specific lysine and cellular context, underscoring the complexity of TFEB acetylation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "ACAT1",
+    "predicate": "acetylates",
+    "object": "TFEB",
+    "context": "ACAT1 acetylates TFEB at lysine 116, a residue also targeted by the deacetylase SIRT1, where acetylation can hinder TFEB binding to DNA and thereby modulate its activity. The opposing actions of ACAT1 (acetylase) and SIRT1 (deacetylase) at K116 create a dynamic equilibrium that tunes TFEB transcriptional output. Under conditions favoring SIRT1, deacetylation at K116 enhances nuclear TFEB function, whereas ACAT1-driven acetylation may restrain it. This lysine is therefore a focal point of acetylome control over the autophagy-lysosomal master regulator.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lysosome",
+    "predicate": "is_a",
+    "object": "Degradation center and signaling hub",
+    "context": "The lysosome is the cell's terminal degradation center, containing acidic hydrolases that break down proteins, lipids, nucleic acids, and carbohydrates delivered by endocytosis, phagocytosis, and autophagy. Beyond catabolism, lysosomes serve as signaling hubs that integrate nutrient and growth-factor inputs, most notably by hosting the activation of mTORC1 at their surface. This duality—as both waste-disposal organelle and metabolic command post—places lysosomes at the center of cellular homeostasis, development, and aging. Lysosomal dysfunction underlies a broad spectrum of storage and degenerative diseases.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "activates",
+    "object": "Lysosome biogenesis",
+    "context": "TFEB activates lysosome biogenesis by binding CLEAR elements in the promoters of genes encoding lysosomal membrane proteins, hydrolases, and v-ATPase subunits, coordinately increasing lysosomal number and capacity. This transcriptional program ensures that autophagic demand is matched by degradative capacity, preventing futile autophagosome accumulation. TFEB activation therefore expands the entire lysosomal network rather than individual enzymes. The effect is a cornerstone of cellular adaptation to starvation and stress.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "activates",
+    "object": "Lysosome biogenesis",
+    "context": "TFE3, the closely related MiT/TFE family member, also binds CLEAR elements and induces lysosomal biogenesis and autophagy in response to nutrient deprivation and stress. Like TFEB, TFE3 is repressed by mTORC1 through phosphorylation and released upon starvation, calcineurin activation, or ER stress. The overlapping but non-identical target sets of TFEB and TFE3 provide redundancy and specificity in the lysosomal program. TFE3's distinct regulation, including PERK-dependent activation, broadens the stress-responsive control of degradation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "is_recruited_to",
+    "object": "Lysosomal surface",
+    "context": "mTORC1 is recruited to the lysosomal surface, where it encounters its activator Rheb and receives upstream amino-acid and growth-factor inputs necessary for full activation. This spatial recruitment, mediated by Rag GTPases and the Ragulator scaffold, converts the lysosome into the signaling platform for mTORC1. Only when docked at the lysosome can mTORC1 efficiently phosphorylate its substrates, including TFEB and ULK1. Thus lysosomal localization is essential for mTORC1 function and for its inhibition of autophagy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ragulator",
+    "predicate": "recruits",
+    "object": "mTORC1 to lysosomes",
+    "context": "The Ragulator is a multiprotein scaffold anchored at the lysosomal membrane that interacts with Rag GTPases to recruit mTORC1 to the lysosomal surface in response to amino acids. By tethering the Rag-mTORC1 complex at the lysosome, Ragulator enables amino-acid sensing to converge with Rheb-mediated activation. Loss of Ragulator disrupts nutrient-dependent mTORC1 signaling and de-represses autophagy. The complex is therefore the lynchpin coupling lysosomal amino-acid detection to mTORC1 and autophagy control.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PIKfyve",
+    "predicate": "generates",
+    "object": "PtdIns(3,5)P2",
+    "context": "PIKfyve is a phosphoinositide kinase that converts phosphatidylinositol 3-phosphate (PI3P) into phosphatidylinositol 3,5-bisphosphate (PI(3,5)P2) on endolysosomal membranes. PI(3,5)P2 serves as a crucial lipid messenger that regulates membrane trafficking, vacuole homeostasis, and the activity of the lysosomal channel TRPML1. By generating PI(3,5)P2, PIKfyve controls lysosomal morphology and the calcium release that activates calcineurin-TFEB signaling. Its inhibition causes massive lysosomal vacuolation, underscoring its centrality to lysosomal function.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "regulates",
+    "object": "Lysosomal Ca2+ efflux",
+    "context": "TRPML1 is the principal lysosomal Ca2+ release channel, activated by PI(3,5)P2 and other cues to efflux Ca2+ from the lysosomal lumen into the cytosol. The released Ca2+ activates calcineurin, driving TFEB/TFE3 nuclear translocation and thereby coupling ion flux to transcriptional activation of lysosomal biogenesis. TRPML1 also participates in lysosomal trafficking and autophagosome-lysosome fusion. Loss of TRPML1 causes mucolipidosis type IV, a lysosomal storage disorder, confirming its essential role in degradative homeostasis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagic Lysosome Reformation",
+    "predicate": "requires",
+    "object": "PtdIns(4,5)P2",
+    "context": "Autophagic lysosome reformation (ALR) is the process by which spent autolysosomes tubulate and bud off new lysosomes to restore the lysosomal pool after autophagy. ALR requires the coordinated actions of phosphatidylinositol 4,5-bisphosphate (PI(4,5)P2), clathrin, and adaptor proteins AP2 and AP4 to drive membrane scission and vesicle formation. This reformation step is essential to prevent lysosomal depletion during sustained autophagy. Defects in ALR cause accumulation of enlarged autolysosomes and impaired degradative capacity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MYC",
+    "predicate": "represses",
+    "object": "Lysosome biogenesis",
+    "context": "MYC antagonizes TFEB and TFE3 transcriptional activities at lysosomal gene promoters, thereby repressing lysosome biogenesis in proliferating cells. Through direct competition for CLEAR elements and broader chromatin effects, MYC suppresses the degradative capacity that would otherwise constrain growth. This repression aligns cellular resources toward biosynthesis rather than turnover during oncogenic drive. The MYC-lysosome antagonism is a key axis by which cancer cells reshape their degradative landscape.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "ZKSCAN3",
+    "predicate": "represses",
+    "object": "Lysosomal and autophagy genes",
+    "context": "ZKSCAN3 is a zinc-finger transcription factor that represses the expression of lysosomal and autophagy genes, acting in opposition to TFEB/TFE3. Under basal conditions it limits autophagic and lysosomal capacity, and its inhibition or loss enhances cellular clearance. ZKSCAN3 thereby functions as a transcriptional brake on the degradative network, complementary to the post-translational repression by mTORC1. Targeting ZKSCAN3 has been proposed as a strategy to boost autophagy in disease.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB at Ser142/Ser211",
+    "context": "mTORC1 phosphorylates TFEB at both serine 142 and serine 211, two residues whose combined modification enforces 14-3-3 binding and robust cytosolic retention of the transcription factor. These sites act synergistically to prevent TFEB nuclear entry and thus block activation of the autophagy-lysosomal program under nutrient-replete conditions. Dephosphorylation of both marks is required for full TFEB activation during starvation. The dual-site control exemplifies the redundancy mTORC1 employs to firmly suppress degradative transcription.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Calcineurin",
+    "predicate": "dephosphorylates",
+    "object": "TFEB",
+    "context": "Calcineurin dephosphorylates TFEB at multiple regulatory serines, most importantly S211, inducing its nuclear translocation and activation of lysosomal and autophagic gene expression. This calcium-dependent phosphatase acts as the essential permissive switch that overrides mTORC1-mediated repression when lysosomal Ca2+ is released via TRPML1. By continuously counterbalancing kinase activity, calcineurin sets the threshold for TFEB activation. Its role links ionic signaling at the lysosome to global control of cellular clearance.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PKC",
+    "predicate": "activates",
+    "object": "TFEB independent of mTOR",
+    "context": "Protein kinase C (PKC) activation induces TFEB nuclear translocation through an mTORC1-independent route, primarily by inactivating GSK3β, which otherwise phosphorylates TFEB at cytosolic-retention sites. This alternative regulatory input allows TFEB to be engaged by diacylglycerol and calcium signaling without requiring nutrient deprivation. The pathway diversifies the contexts—such as immune cell activation—in which the autophagy-lysosomal program can be turned on. It demonstrates that TFEB is controlled by parallel kinase networks rather than solely by mTOR.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "CDK4/6",
+    "predicate": "phosphorylates",
+    "object": "TFEB at Ser142",
+    "context": "CDK4/6 phosphorylate TFEB at serine 142, driving CRM1-dependent nuclear export and cytoplasmic sequestration during cell-cycle progression. This modification aligns TFEB repression with the biosynthetic demands of dividing cells, when autophagy is downregulated. Pharmacologic CDK4/6 inhibitors relieve this constraint, permitting TFEB nuclear accumulation and enhancing lysosome biogenesis and autophagic flux. The axis thereby couples cell-cycle machinery to the metabolic state of the cell.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lysosome",
+    "predicate": "biogenesis_regulated_by",
+    "object": "CDK4/6",
+    "context": "Lysosome biogenesis is regulated by CDK4/6 such that inhibition of these kinases leads to nuclear retention of TFEB and enhanced expression of lysosomal genes. During active proliferation, CDK4/6-mediated phosphorylation of TFEB restrains lysosomal expansion; when CDK4/6 is blocked, the degradative network is unleashed. This regulation connects cell-cycle control to organelle homeostasis and may contribute to the metabolic effects of CDK4/6 inhibitors used in cancer therapy. It reveals lysosomal biogenesis as a cell-cycle-responsive process.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "SLC-36.1",
+    "predicate": "regulates",
+    "object": "Phagocytic Lysosome Reformation",
+    "context": "SLC-36.1 (a solute carrier) forms a complex with the PPK-3/PIKfyve kinase module to regulate phagocytic lysosome reformation (PLR), the process by which phagolysosomes regenerate new lysosomes after phagocytosis. By influencing PI(3,5)P2 generation and membrane dynamics, this complex ensures restoration of the lysosomal pool following immune or clearance challenges. Defects in PLR impair the ability of phagocytes to sustain repeated rounds of degradation. The pathway connects solute transport and phosphoinositide metabolism to innate immune function.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "integrates",
+    "object": "Intracellular and extracellular signals",
+    "context": "The mechanistic target of rapamycin (mTOR) pathway integrates a wide array of intracellular and extracellular cues—including growth factors, insulin, amino acids, oxygen, and energy status—to coordinate cell growth, metabolism, proliferation, and survival. Through its two complexes, mTORC1 and mTORC2, it translates these inputs into decisions about biosynthesis versus catabolism, notably by inhibiting autophagy when resources are abundant. This central integrator role makes mTOR a nodal control point for physiology and a target for cancer, aging, and metabolic disease. Its dysregulation is implicated in nearly every major chronic disease.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "has_components",
+    "object": "mTOR, Raptor, mLST8, PRAS40, Deptor",
+    "context": "mTOR complex 1 (mTORC1) is composed of five core subunits: the catalytic kinase mTOR, the scaffold Raptor (which binds substrates and Rag GTPases), mLST8 (stabilizing the kinase domain), the inhibitory subunit PRAS40, and the negative regulator Deptor. This stoichiometric assembly defines mTORC1's substrate specificity and its sensitivity to upstream inputs such as amino acids and insulin. Raptor is essential for recruitment of mTORC1 to lysosomes and for phosphorylation of canonical substrates like S6K1 and 4E-BP1. The composition distinguishes mTORC1 from mTORC2, which shares mTOR, mLST8, and Deptor but includes Rictor instead of Raptor.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC2",
+    "predicate": "has_components",
+    "object": "mTOR, Rictor, mSIN1, Protor-1, mLST8, Deptor",
+    "context": "mTOR complex 2 (mTORC2) comprises six core proteins: mTOR, Rictor (its defining scaffold), mSIN1 (required for mTORC2 integrity and Akt phosphorylation), Protor-1, mLST8, and the negative regulator Deptor. mTORC2 is best known for phosphorylating and activating Akt at Ser473 and for regulating cytoskeletal organization and cell survival. Unlike mTORC1, mTORC2 is not acutely rapamycin-sensitive and is not directly recruited to lysosomes by Rag GTPases. Its distinct composition underlies its separate physiological roles in metabolism and actin dynamics.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "promotes",
+    "object": "Protein synthesis",
+    "context": "mTORC1 promotes cap-dependent protein synthesis by phosphorylating the eukaryotic initiation factor 4E-binding protein 1 (4E-BP1), releasing eIF4E to initiate translation, and by phosphorylating S6 kinase 1 (S6K1), which enhances ribosome biogenesis and translational capacity. These outputs prioritize anabolic processes when nutrients and growth factors are plentiful. The stimulation of protein synthesis is a major consumer of cellular energy and amino acids, balanced against the catabolic program of autophagy. Dysregulated mTORC1-driven translation contributes to hypertrophy and malignancy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": "mTORC1 inhibits autophagy by phosphorylating the ULK1 initiation complex (ULK1 at S757 and Atg13) to prevent phagophore assembly, and by phosphorylating TFEB/TFE3 to block lysosomal gene transcription. This dual suppression—at both the initiation and the transcriptional levels—ensures autophagy remains off when nutrients are abundant. Only when mTORC1 is inhibited by AMPK, rapamycin, or starvation is the pathway released. The mTORC1-autophagy antagonism is the central rheostat of cellular degradative control.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "promotes",
+    "object": "Lipid synthesis",
+    "context": "mTORC1 promotes lipid and cholesterol synthesis by activating the sterol regulatory element-binding proteins (SREBP1) and peroxisome proliferator-activated receptor gamma (PPARγ), transcription factors that drive expression of lipogenic and adipogenic enzymes. This anabolic output supports membrane biogenesis and energy storage during growth. The lipid-synthetic program is coordinated with mTORC1's stimulation of protein and nucleotide synthesis to build cellular mass. Its dysregulation contributes to hepatic steatosis and metabolic syndrome.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TSC1/TSC2",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": "The TSC1-TSC2 tumor-suppressor complex acts as a GTPase-activating protein (GAP) for the small G protein Rheb, converting active GTP-bound Rheb to its inactive GDP-bound form. Because only GTP-Rheb directly activates mTORC1, TSC1/TSC2 functions as a critical upstream brake on mTORC1 in response to energy, oxygen, and growth-factor signals. Loss-of-function mutations in TSC1 or TSC2 cause tuberous sclerosis complex, characterized by constitutive mTORC1 activation, hamartoma formation, and autophagy suppression. The complex is therefore a major gatekeeper of mTORC1 and cellular growth.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Rheb",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": "Rheb (Ras homolog enriched in brain) is a small GTPase that directly binds and activates mTORC1 when in its GTP-bound state, provided mTORC1 is localized at the lysosomal surface. Rheb's activity is held in check by the TSC1/TSC2 GAP complex, making it the immediate effector that relays growth and nutrient signals to mTORC1. GTP-Rheb relieves the autoinhibitory conformation of mTORC1, enabling substrate phosphorylation. As the proximal activator, Rheb sits at the convergence point of multiple upstream inhibitory pathways.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": "AMPK inhibits mTORC1 through at least two parallel mechanisms during cellular energy depletion: it phosphorylates and activates the TSC2 subunit of the TSC complex, and it directly phosphorylates the mTORC1 scaffold Raptor. These actions reduce Rheb-GTP levels and impair mTORC1 substrate engagement, thereby relieving repression of autophagy. AMPK thus couples the AMP/ATP energy charge to suppression of anabolic mTORC1 signaling. This inhibition is a primary route by which exercise, metformin, and caloric restriction induce autophagy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Rag proteins",
+    "predicate": "recruit",
+    "object": "mTORC1 to lysosomes",
+    "context": "Rag GTPases (RagA/B and RagC/D) function as heterodimers that bind the mTORC1 subunit Raptor and promote relocalization of mTORC1 to the lysosomal surface, where activator Rheb resides. Amino-acid sufficiency favors the active Rag conformation, positioning mTORC1 for activation; amino-acid starvation inactivates Rags and disperses mTORC1, de-repressing autophagy. The Rags therefore act as amino-acid sensors that bridge nutrient availability to mTORC1 spatial activation. Their regulation by the Ragulator and GAPs (e.g., GATOR complexes) is central to nutrient signaling.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Akt",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": "Akt activates mTORC1 by phosphorylating and inhibiting the TSC1/TSC2 complex (and PRAS40), thereby increasing Rheb-GTP and relieving the upstream brake on mTORC1. This places mTORC1 squarely downstream of the PI3K-Akt growth-factor signaling axis that promotes anabolism and suppresses autophagy. Akt-dependent mTORC1 activation is a hallmark of insulin/IGF-1 action and of many cancers with PI3K pathway mutations. The Akt-mTORC1 link is the principal route by which fed-state signals inhibit autophagic degradation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "REDD1",
+    "predicate": "inhibits",
+    "object": "mTORC1 under hypoxia",
+    "context": "REDD1 (regulated in development and DNA damage responses 1) inhibits mTORC1 specifically under hypoxia by binding and releasing TSC2 from inhibitory 14-3-3 association, thereby activating the TSC GAP complex. This allows Rheb to be converted to its inactive GDP form and mTORC1 to be suppressed, conserving energy when oxygen is limiting. REDD1 thus provides a hypoxia-responsive brake that engages autophagy and limits anabolic consumption. Its induction is transcriptionally controlled by HIF-1α, integrating oxygen sensing with mTORC1 regulation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC2",
+    "predicate": "phosphorylates",
+    "object": "Akt at Ser473",
+    "context": "mTORC2 phosphorylates Akt at serine 473 within its hydrophobic motif, a modification required for full Akt catalytic activation alongside PDK1-mediated phosphorylation at Thr308. Active Akt then drives survival, growth, and mTORC1 activation, establishing an mTORC2-to-Akt-to-mTORC1 signaling cascade. This relationship makes mTORC2 an upstream regulator of the same anabolic and autophagy-suppressing programs executed by mTORC1. mTORC2's role in Akt activation is central to its pro-survival and metabolic functions.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC2",
+    "predicate": "regulates",
+    "object": "Cytoskeletal organization",
+    "context": "mTORC2 regulates actin cytoskeleton organization and cell migration through phosphorylation of PKCα and via effects on paxillin, RhoA, and Rac1 signaling. These outputs control cell polarity, stress-fiber formation, and the ability of cells to remodel their architecture during growth and movement. Unlike mTORC1, mTORC2's roles are more closely tied to spatial organization and survival than to bulk nutrient sensing. Dysregulation of mTORC2-dependent cytoskeletal control contributes to cancer cell invasion and metastasis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "PRAS40",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": "PRAS40 is an mTORC1-associated protein that acts as a negative regulator by competing for substrate binding and limiting mTORC1 kinase activity, particularly when the complex is in a low-activity state. Growth-factor signaling through Akt phosphorylates PRAS40, releasing its inhibition and permitting mTORC1 activation. Thus PRAS40 provides a built-in brake that is relieved by anabolic signals. Its dynamic association fine-tunes mTORC1 output in response to the cellular environment.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Deptor",
+    "predicate": "inhibits",
+    "object": "mTORC1 and mTORC2",
+    "context": "Deptor is an endogenous inhibitor that binds both mTORC1 and mTORC2, suppressing the catalytic activity of each complex. By dampening both arms of mTOR signaling, Deptor broadly restrains anabolic growth, survival, and autophagy suppression. Its expression is itself feedback-regulated by mTORC1/mTORC2 activity, forming part of a homeostatic loop. Reduced Deptor levels in certain cancers correlate with hyperactive mTOR signaling, highlighting its tumor-suppressive potential.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MXL-3",
+    "predicate": "represses",
+    "object": "Lysosomal lipase genes (lipl-1,2,3,5)",
+    "context": "In C. elegans, the MAX-like transcription factor MXL-3 represses transcription of lysosomal lipase genes (lipl-1, lipl-2, lipl-3, lipl-5) when food is abundant, limiting lipid mobilization. This repression maintains lipid storage under fed conditions and is relieved during fasting, allowing lipolysis. MXL-3 thus acts as a nutritional gatekeeper of lysosomal lipid catabolism, analogous to MYC's repression of lysosomal programs in mammals. Its activity positions lipid degradation within the broader nutrient-responsive regulatory network.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "induces",
+    "object": "Lysosomal lipase genes",
+    "context": "HLH-30, the C. elegans ortholog of mammalian TFEB, induces expression of the lysosomal lipase genes (lipl-1, lipl-2, lipl-3, lipl-5) in response to fasting, promoting mobilization of stored lipids. This transcriptional activation mirrors TFEB's induction of lipolytic and autophagic programs in mammals during nutrient scarcity. The HLH-30–lipase axis provides a molecular explanation for fasting-induced lipophagy and lifespan extension in worms. It demonstrates deep conservation of the MiT/TFE nutrient-response program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MXL-3",
+    "predicate": "delocalizes_from",
+    "object": "Intestinal nuclei during fasting",
+    "context": "During fasting, MXL-3::GFP signal disappears from intestinal nuclei within about two hours, indicating that the repressor exits the nucleus and ceases to suppress its target genes. This delocalization is a rapid, nutrient-responsive event that permits de-repression of lysosomal lipase and autophagy genes. The nuclear export of MXL-3 complements the concurrent nuclear accumulation of HLH-30, creating a switch from storage to mobilization. The observation provides direct in vivo evidence for dynamic regulation of the lipid-degradation program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "translocates_to",
+    "object": "Nucleus during fasting",
+    "context": "HLH-30 translocates to and accumulates in intestinal nuclei of fasted C. elegans, where it activates the lysosomal, autophagic, and lipolytic transcriptional programs. This nuclear enrichment mirrors the starvation-induced nuclear entry of mammalian TFEB/TFE3 and is essential for the organism's adaptive response to food deprivation. The translocation is opposed by insulin/IGF and CeTOR signaling that retain HLH-30 cytoplasmically when food is available. Its nuclear localization thus serves as a key determinant of fasting-induced longevity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "LIPL-1",
+    "predicate": "is_a",
+    "object": "LipA",
+    "context": "LIPL-1 is a lysosomal lipase in C. elegans that co-localizes with the lysosomal marker PGP-2, confirming its residence within the lysosomal lumen where it hydrolyzes stored triglycerides. Its expression is induced by HLH-30 during fasting, supporting lipophagy-mediated lipid mobilization. LIPL-1 is part of a family of lysosomal lipases (lipl-1 through lipl-5) that together govern organismal lipid turnover. Loss or reduction of these lipases impairs the ability to survive nutrient scarcity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "LIPL-3",
+    "predicate": "is_a",
+    "object": "LipA",
+    "context": "LIPL-3 is a lysosomal lipase in C. elegans that, like LIPL-1, co-localizes with the lysosomal marker PGP-2 and contributes to intralysosomal lipid hydrolysis. It is transcriptionally induced by HLH-30 under fasting conditions, enabling the breakdown of lipid droplets delivered via lipophagy. Together with other lipl family members, LIPL-3 is required for efficient energy mobilization during starvation. Its lysosomal localization anchors it within the autophagy-lysosomal degradative system.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "is_mammalian_ortholog_of",
+    "object": "HLH-30",
+    "context": "TFEB is the mammalian ortholog of C. elegans HLH-30, both belonging to the conserved MiT/TFE family of basic helix-loop-helix leucine zipper transcription factors. They share the core function of activating lysosomal, autophagic, and lipolytic gene programs in response to nutrient deprivation through conserved CLEAR-like promoter elements. This orthology validates the use of the worm as a model for studying mammalian autophagy-lysosomal regulation. Findings in HLH-30 have repeatedly illuminated parallel mechanisms governing TFEB in humans.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MAX",
+    "predicate": "is_mammalian_homolog_of",
+    "object": "MXL-3",
+    "context": "The mammalian transcription factor MAX, a partner of MYC, is the functional homolog of C. elegans MXL-3, as expression of mouse MAX in worms rescued the mxl-3 mutant phenotype. This conservation indicates that the MYC/MAX network's repression of lysosomal and metabolic genes is an ancient feature retained from nematodes to mammals. The rescue experiment directly demonstrates mechanistic equivalence between the worm repressor and its mammalian counterpart. It strengthens the translational relevance of MXL-3 studies to human lipid and lysosomal regulation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MXL-3",
+    "predicate": "promotes",
+    "object": "Aging",
+    "context": "MXL-3 promotes aging under abundant food conditions; worms lacking mxl-3 are long-lived, indicating that its repressive activity on lysosomal and lipolytic genes accelerates age-related decline. By maintaining a storage-oriented, low-autophagy state when nutrients are plentiful, MXL-3 limits the clearance and metabolic flexibility that promote longevity. This pro-aging effect is consistent with the broader principle that reduced nutrient signaling extends lifespan. The phenotype positions MXL-3 as a negative regulator of the pro-longevity degradative program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "prevents",
+    "object": "Aging",
+    "context": "HLH-30 prevents aging and extends lifespan in C. elegans; hlh-30 mutants are short-lived, and loss of hlh-30 suppresses the longevity conferred by mxl-3 deletion. By driving autophagy, lysosomal biogenesis, and lipid mobilization, HLH-30 preserves proteostasis and metabolic homeostasis that decline with age. Its activity embodies the conserved mechanism by which enhanced clearance promotes longevity across species. The epistasis with mxl-3 places HLH-30 downstream as the effector of the pro-longevity program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lipophagy",
+    "predicate": "is_conserved_across",
+    "object": "Metazoans",
+    "context": "Lipophagy—the selective autophagic degradation of lipid droplets—is conserved across metazoans, as shown by the fact that inactivation of the autophagy genes lgg-1 and lgg-2 in C. elegans leads to increased fat accumulation. By delivering lipid droplets to lysosomes for lipase-mediated hydrolysis, lipophagy mobilizes stored energy during fasting. The conservation from worms to mammals indicates an ancient and essential role for autophagy in lipid homeostasis. Defective lipophagy contributes to hepatic steatosis and metabolic disease in higher organisms.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "DAF-2",
+    "predicate": "partially_regulates",
+    "object": "MXL-3 expression",
+    "context": "DAF-2, the C. elegans insulin/IGF-1 receptor ortholog, partially regulates MXL-3 expression such that impaired insulin signaling leads to modest repression of mxl-3 transcription. This places MXL-3 downstream of the insulin-signaling axis that broadly controls metabolism and longevity in worms. The partial effect indicates that additional nutrient and developmental inputs also govern mxl-3, consistent with its role as a multifactorial repressor. The linkage reinforces the canonical insulin→autophagy/lipid regulatory cascade.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "CeTOR",
+    "predicate": "controls",
+    "object": "HLH-30 transcription",
+    "context": "CeTOR, the C. elegans ortholog of mTOR, controls HLH-30 at the transcriptional level; inactivation of CeTOR induces hlh-30 expression, increasing the abundance of the master degradative transcription factor. This upstream control parallels mammalian mTORC1's post-translational repression of TFEB, adding a transcriptional layer in worms. By inducing HLH-30, CeTOR inhibition engages the full lysosomal-autophagic and lipolytic program. The relationship confirms mTOR as an evolutionarily conserved suppressor of the TFEB/HLH-30 axis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "required_for",
+    "object": "Starvation survival",
+    "context": "HLH-30 is required for survival during prolonged starvation; hlh-30 mutant animals die prematurely under nutrient-deprived conditions due to their inability to mount sufficient autophagy, lysosomal biogenesis, and lipid mobilization. By activating the clearance and energy-mobilization programs, HLH-30 enables worms to withstand food absence. This essential role mirrors the dependence of mammalian cells on TFEB for stress resilience. The phenotype establishes HLH-30 as a critical effector of adaptive starvation responses.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Peroxisome Biogenesis Network",
+    "predicate": "receives_material_from",
+    "object": "Autophagy",
+    "context": "The peroxisome biogenesis network receives material from autophagy when damaged peroxisomes are engulfed and fragmented, generating precursors that can be reassembled into functional peroxisomes. This autophagic-lysosomal processing of peroxisomal components allows recycling of membrane and matrix constituents to support new organelle formation. The relationship couples selective peroxisome degradation (pexophagy) to organelle turnover and renewal. It highlights autophagy's role not only in disposal but also in enabling peroxisome homeostasis.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "PERO1",
+    "predicate": "senses",
+    "object": "Oleic acid accumulation",
+    "context": "PERO1 functions as a sensor of oleic acid accumulation on damaged peroxisomes, triggering autophagic removal of these defective organelles. By detecting lipid imbalance indicative of peroxisomal dysfunction, PERO1 initiates quality-control degradation that prevents the propagation of impaired organelles. This lipid-sensing mechanism links metabolic state to organelle surveillance. The pathway exemplifies how selective autophagy integrates metabolic cues to maintain peroxisome integrity.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "Selective Autophagy",
+    "predicate": "targets",
+    "object": "Damaged peroxisomes",
+    "context": "Selective autophagy targets damaged peroxisomes for degradation through a process termed pexophagy, in which ubiquitin tagging of peroxisomal proteins and recruitment of ESCRT (endosomal sorting complex required for transport) machinery mark the organelle for autophagic engulfment. This cargo-specific pathway contrasts with bulk autophagy by requiring receptor proteins that bridge the peroxisome to the autophagosomal membrane. Pexophagy protects cells from the oxidative and metabolic damage caused by defective peroxisomes. Its failure leads to accumulation of aberrant organelles and disease.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "PEX1",
+    "predicate": "essential_for",
+    "object": "Peroxisome membrane assembly",
+    "context": "PEX1 is an ATPase essential for peroxisome membrane assembly and matrix protein import, operating as part of the peroxisomal AAA (ATPases associated with diverse cellular activities) machinery. Loss of PEX1 causes a complete lack of functional peroxisomes, as import and biogenesis cannot proceed. This essential role makes PEX1 mutations among the most common causes of peroxisome biogenesis disorders. The gene thus sits at the foundation of peroxisome formation and metabolic competence.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "ABCD1",
+    "predicate": "mutation_causes",
+    "object": "Adrenoleukodystrophy",
+    "context": "Mutations in ABCD1, encoding a peroxisomal ATP-binding cassette transporter for very-long-chain fatty acids (VLCFAs), cause X-linked adrenoleukodystrophy (ALD). Impaired ABCD1 disrupts VLCFA import into peroxisomes for beta-oxidation, leading to toxic accumulation of VLCFAs in adrenal cortex and central nervous system white matter. The resulting demyelination and adrenal insufficiency define the clinical syndrome. The disorder illustrates how peroxisomal transport defects produce severe neurodegeneration and underscores the importance of peroxisomal lipid homeostasis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Zellweger syndrome",
+    "predicate": "caused_by",
+    "object": "PEX gene mutations",
+    "context": "Zellweger syndrome, the most severe form of the Zellweger spectrum of peroxisome biogenesis disorders, is caused by mutations in PEX genes required for peroxisome assembly and matrix protein import. Affected individuals lack functional peroxisomes, leading to accumulation of very-long-chain fatty acids, bile acid intermediates, and pipecolic acid, with profound neurologic, hepatic, and skeletal abnormalities. The spectrum's severity correlates with the degree of residual peroxisomal function. These disorders highlight the non-redundant essentiality of peroxisomes in human development.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "is_master_regulator_of",
+    "object": "Lysosomal biogenesis",
+    "context": "TFEB is a master transcriptional regulator of lysosomal biogenesis, and its overexpression drives coordinated activation of numerous lysosomal genes encoding membrane proteins, hydrolases, and v-ATPase subunits. This global upregulation increases both the number and functional capacity of lysosomes, expanding degradative reserve. As the central node of the CLEAR network, TFEB integrates diverse stress signals into a unified lysosomal expansion program. Its master-regulator status makes it a prime target for therapies aimed at enhancing cellular clearance.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "is_master_regulator_of",
+    "object": "Lysosomal biogenesis",
+    "context": "TFE3 is, together with TFEB, a master regulator of lysosomal biogenesis, binding CLEAR elements to induce expression of lysosomal and autophagic genes. Its activation occurs via mTORC1 inhibition, calcineurin signaling, and ER-stress-dependent PERK activation, providing partially distinct triggers from TFEB. TFE3 overexpression similarly expands lysosomal capacity and promotes autophagic flux. The overlapping master-regulator roles of TFE3 and TFEB ensure robustness in the control of cellular degradation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "mTORC1 phosphorylates TFEB at serine 211 to create a 14-3-3 binding site that sequesters the transcription factor in the cytosol, preventing it from activating lysosomal genes. This phosphorylation is the canonical, nutrient-dependent off-switch for TFEB and is reversed by calcineurin during starvation. The specificity of S211 for cytosolic retention makes it the principal mark defining TFEB's inactive state. Its relief is indispensable for engaging the autophagy-lysosomal transcriptional program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFE3 at S321",
+    "context": "mTORC1 phosphorylates TFE3 at serine 321, an analog of the TFEB S211 site, thereby promoting cytosolic retention and inhibiting TFE3's transcriptional activity under nutrient-replete conditions. This parallel modification ensures that both MiT/TFE family master regulators are coordinately repressed by mTORC1. Upon starvation or mTORC1 inhibition, dephosphorylation permits TFE3 nuclear entry and activation of lysosomal genes. The conserved regulatory logic highlights the unified control of the degradative program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "Lipid catabolism",
+    "context": "TFEB regulates lipid catabolism by upregulating genes involved in fatty acid import, beta-oxidation, lysosomal acid lipase (LAL)-mediated lipophagy, and the transcriptional coactivators PGC-1α and PPAR-α. Through these targets, TFEB coordinates the mobilization and oxidation of stored lipids during fasting and stress. This lipid-catabolic program complements TFEB's role in protein and organelle turnover, rendering it a comprehensive metabolic regulator. Enhanced TFEB activity improves lipid handling and protects against hepatic steatosis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "activated_in_response_to",
+    "object": "Mitochondrial stress",
+    "context": "TFEB is activated in response to mitochondrial stress, a process requiring mitophagy machinery including PINK1, Parkin, Atg9A, and Atg5 to signal and enable TFEB nuclear translocation. As damaged mitochondria are selected for autophagic removal, TFEB coordinates a compensatory lysosomal and autophagic response that restores organelle quality. This coupling ensures that mitochondrial turnover is matched by degradative capacity. The axis links mitochondrial quality control to the broader autophagy-lysosomal network and to metabolic homeostasis.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "activated_in_response_to",
+    "object": "ER stress",
+    "context": "TFE3 is activated in response to endoplasmic reticulum (ER) stress through a pathway that is mTORC1-independent but requires the ER stress sensor PERK. Under unfolded protein accumulation, PERK signaling promotes TFE3 nuclear translocation, engaging lysosomal and autophagic genes to alleviate proteotoxic burden. This distinct trigger allows TFE3 to contribute to the integrated stress response without relying on nutrient sensing. The mechanism expands the repertoire of stressors that can recruit the MiT/TFE degradative program.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "Immune response",
+    "context": "TFEB regulates innate and adaptive immune responses, becoming activated during dendritic cell maturation to enhance antigen processing and presentation via expanded lysosomal and MHC-related machinery. By boosting degradative capacity, TFEB improves the efficiency of antigen degradation and epitope loading, strengthening T cell priming. TFEB activity also influences macrophage polarization and immune cell metabolism. These roles position the autophagy-lysosomal master regulator as an important modulator of immunity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "forms_positive_feedback_with",
+    "object": "PGC1-alpha",
+    "context": "TFEB and the mitochondrial biogenesis coactivator PGC-1α form a positive feedback loop: PGC-1α modulates mitophagy by regulating TFEB expression, while TFEB induces PGC-1α transcription, reinforcing mitochondrial turnover and biogenesis. This reciprocal regulation couples lysosomal-autophagic clearance with mitochondrial network expansion under stress. The loop ensures coordinated enhancement of both degradative and biosynthetic mitochondrial programs. Its disruption impairs metabolic adaptation and is relevant to aging and myopathy.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "is_fused_with",
+    "object": "MALAT1 in renal carcinoma",
+    "context": "In a subset of translocation renal cell carcinomas (t(6;11) RCC), the TFEB gene is fused with the long non-coding RNA locus MALAT1, producing a MALAT1-TFEB fusion that drives overexpression of intact TFEB. The fusion places TFEB under the strong promoter activity of MALAT1, leading to constitutive activation of the lysosomal-autophagic and proliferative programs. This genetic rearrangement defines a distinct clinicopathologic entity of RCC with characteristic biphasic histology. The finding established TFEB as an oncogene when deregulated by chromosomal translocation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "is_fused_in",
+    "object": "Xp11 translocation RCC",
+    "context": "TFE3 is recurrently involved in Xp11.2 translocation renal cell carcinomas, in which it fuses with partner genes such as ASPSCR1, PRCC, or SFPQ, creating chimeric transcription factors that drive tumorigenesis. These gene fusions define a distinct subset of RCC, often arising in children and young adults, with characteristic clear-cell or papillary features. The fusion proteins typically retain the TFE3 DNA-binding domain and are constitutively active, deregulating MiT/TFE target genes. Detection of TFE3 rearrangement is important for correct diagnosis and classification of these tumors.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "activated_in",
+    "object": "Pancreatic ductal adenocarcinoma",
+    "context": "In pancreatic ductal adenocarcinoma (PDA), TFEB remains constitutively nuclear-localized and active independent of nutrient status, supporting the tumor's high demand for lysosomal degradation and metabolic flexibility. This aberrant activation promotes expression of glutaminase and other catabolic genes that fuel PDA growth under the harsh tumor microenvironment. The nutrient-independent nuclear TFEB state distinguishes PDA from normal epithelial regulation and contributes to therapy resistance. Targeting TFEB or its effectors is being explored as a therapeutic strategy in this lethal cancer.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lysosome",
+    "predicate": "is_site_of",
+    "object": "mTORC1 activation",
+    "context": "The lysosome serves as the physical platform for mTORC1 activation, hosting the recruitment of mTORC1 via Rag GTPases and Ragulator and its encounter with the activator Rheb at the lysosomal surface. Amino-acid sensing, growth-factor inputs, and calcium signals all converge at this organelle to determine mTORC1 activity. By colocalizing mTORC1 with its upstream regulators, the lysosome functionally couples nutrient detection to the control of autophagy and anabolism. This spatial organization is essential for the rapid, reversible regulation of the pathway.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "regulates",
+    "object": "Longevity in C. elegans",
+    "context": "HLH-30 regulates longevity in C. elegans, as its overexpression extends lifespan while loss of hlh-30 shortens it and suppresses the longevity of other mutants. By inducing autophagy, lysosomal biogenesis, and lipid mobilization, HLH-30 preserves proteostasis and metabolic homeostasis that decline with age. Its activity integrates insulin, mTOR, and dietary signals into a pro-longevity transcriptional program. The worm findings provide a conserved model for how TFEB orthologs promote healthspan in higher organisms.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "enhances",
+    "object": "Autophagy",
+    "context": "Spermidine enhances autophagy through multiple complementary mechanisms, prominently including induction of histone H3 deacetylation that relaxes chromatin at autophagy gene loci and promotes their transcription. It additionally supports autophagy via hypusination-dependent translation of TFEB and direct effects on the autophagic machinery. These actions produce a safe, sustained upregulation of autophagic flux associated with lifespan extension in model organisms. Spermidine is therefore a leading natural caloric-restriction mimetic for promoting healthy aging.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "reverses",
+    "object": "Arterial aging",
+    "context": "Spermidine reverses features of arterial aging, including large elastic artery stiffening, and restores nitric-oxide-mediated endothelial function in aged vessels. These vascular benefits are linked to spermidine-induced autophagy, which clears damaged mitochondria and reduces vascular oxidative stress and inflammation. By improving endothelial-dependent vasodilation, spermidine counteracts the stiffening that drives systolic hypertension and cardiovascular risk with age. The findings support spermidine as a candidate intervention for vascular rejuvenation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "reduces",
+    "object": "Oxidative stress",
+    "context": "Spermidine supplementation reduces oxidative stress in arterial and other tissues by enhancing autophagic and mitochondrial quality control, limiting the accumulation of reactive oxygen species-generating damaged organelles. The polyamine also exerts direct antioxidant effects and supports redox homeostasis through improved proteostasis. Reduced oxidative damage is a key mediator of spermidine's cardiovascular and cognitive protective effects. This antioxidant action is tightly coupled to its autophagy-inducing capacity.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "prevents",
+    "object": "Arterial aging",
+    "context": "Autophagy prevents arterial aging by removing damaged mitochondria, misfolded proteins, and lipid aggregates that would otherwise promote endothelial dysfunction, inflammation, and vascular stiffening. Impaired autophagic flux in aged vessels permits oxidative stress and senescence to accumulate, driving the loss of nitric-oxide-mediated relaxation. Enhancing autophagy—pharmacologically or by caloric restriction—rescues the vascular phenotype and restores endothelial function in preclinical models. The pathway is thus a central defender of vascular youth.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "alternative_autophagy_inducer_to",
+    "object": "Spermidine",
+    "context": "Caloric restriction and rapamycin are alternative inducers of autophagy that, like spermidine, engage the lysosomal-degradative program to promote healthspan, but each carries translational limitations. Caloric restriction is difficult to sustain long-term in humans and can have adverse metabolic consequences, while rapamycin has immunosuppressive and potential metabolic side effects. Spermidine offers a more tractable, well-tolerated means to mimic these benefits through safe autophagy induction. The existence of multiple inducers provides flexibility in designing anti-aging interventions.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "induces",
+    "object": "Adaptive autophagy",
+    "context": "Moderate caloric restriction induces adaptive autophagy—a beneficial, hormetic form of the pathway that enhances cellular clearance and resilience without causing damage. This adaptive response, driven by AMPK activation and mTORC1 inhibition, contributes substantially to the lifespan and healthspan extension observed with CR. Unlike pathological autophagy, adaptive autophagy is precisely regulated and supports rather than threatens cell survival. It represents the mechanistic core of CR's pro-longevity effects.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "can_induce",
+    "object": "Excessive autophagy",
+    "context": "Prolonged or severe caloric restriction can drive excessive autophagy that crosses into autophagic cell death, particularly when degradative flux outpaces biosynthetic capacity. This maladaptive extreme underscores the biphasic, hormetic nature of autophagy, where too little or too much is detrimental. The balance between adaptive and excessive autophagy determines whether CR is protective or harmful. Understanding this threshold is important for safely translating CR-mimetic strategies.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Intermittent fasting induces autophagy as an early-stage cellular response to the periodic nutrient and energy deficit imposed by feeding cycles. The fasting window lowers insulin and activates AMPK while inhibiting mTORC1, unleashing both ULK1-dependent initiation and TFEB-dependent lysosomal expansion. This engagement of autophagic machinery underlies many of IF's cytoprotective and metabolic benefits. The temporal pattern of IF makes it a practical way to periodically recruit autophagic clearance.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "activates_autophagy_during",
+    "object": "Caloric restriction",
+    "context": "During caloric restriction, AMPK activates autophagy by sensing the elevated AMP/ATP ratio and directly phosphorylating ULK1 while inhibiting mTORC1 via TSC2 and Raptor phosphorylation. This dual action removes the principal brake on autophagy and simultaneously initiates phagophore formation. AMPK thereby serves as the executive enzyme translating energy scarcity into degradative activation. Its central role explains why CR-mimetics that activate AMPK recapitulate the autophagic benefits of dieting.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "ATG4B",
+    "context": "SIRT2, a cytosolic NAD+-dependent deacetylase, deacetylates ATG4B in response to starvation, modulating the activity of this cysteine protease that processes and delipidates the autophagosome marker LC3/GABARAP. Deacetylation of ATG4B influences the dynamics of LC3 conjugation and autophagosome maturation, fine-tuning autophagic flux. Because SIRT2 activity rises when NAD+ is elevated during CR and exercise, this modification links energy status to autophagosome biogenesis. The SIRT2-ATG4B axis adds an acetylation layer to core autophagy machinery regulation.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Insulin signaling",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": "Insulin signaling inhibits autophagy by activating the PI3K-Akt axis, which in turn activates mTORC1 and promotes phosphorylation of ULK1 and TFEB that suppress autophagic initiation and lysosomal gene expression. Through this cascade, the fed-state hormone maintains an anabolic, autophagy-off condition in peripheral tissues. The relief of insulin signaling during fasting or caloric restriction is therefore prerequisite for autophagic induction. This relationship is a primary reason why nutrient excess and insulin resistance are associated with impaired autophagy and metabolic disease.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "increases",
+    "object": "Chemotherapy sensitivity",
+    "context": "Caloric restriction increases the sensitivity of tumor cells to chemotherapy by creating a differential stress resistance in which normal cells enter a protective, autophagy-dependent quiescent state while cancer cells remain vulnerable. CR additionally stimulates CD8+ T cell-mediated anti-tumor immunity and enhances apoptotic priming of malignant cells. The improved therapeutic index allows lower effective doses and reduced toxicity. These effects position CR and its mimetics as adjuncts to conventional cancer therapy.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "FOXO1",
+    "predicate": "phosphorylated_by",
+    "object": "Akt inhibits autophagy",
+    "context": "Akt phosphorylates and inhibits the FOXO1/FOXO3 transcription factors, which normally promote autophagy and stress-resistance gene expression, thereby indirectly suppressing autophagy downstream of insulin/PI3K signaling. The reciprocal interaction reflects the broader antagonism between growth-factor-driven anabolism (via Akt-mTOR) and the autophagy-promoting FOXO program. When Akt is inactive during fasting, FOXO factors are de-repressed and contribute to autophagic and longevity pathways. This axis embeds autophagy control within the insulin-signaling network that also regulates mTORC1.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "Ketogenic Diet",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": "Ketogenic diets, characterized by high fat and very low carbohydrate intake, activate autophagy by lowering insulin and glucose while elevating ketone bodies and AMPK activity. The metabolic shift toward fatty-acid oxidation and mild energy stress mimics aspects of caloric restriction, engaging the autophagic machinery. This activation contributes to the reported healing and neuroprotective effects of ketogenic regimens in epilepsy, neurodegeneration, and metabolic disease. The diet thus provides a non-fasting nutritional strategy to recruit autophagic clearance.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "has_dual_role_in",
+    "object": "Cancer treatment",
+    "context": "During cancer treatment, autophagy plays a dual role that depends on context: it can protect tumor cells from chemotherapy- and radiation-induced damage, limiting therapeutic efficacy, yet it can also promote therapy-induced cell death when excessive or when it facilitates terminal differentiation and antigen presentation. In normal tissues, treatment-induced autophagy is generally cytoprotective and reduces toxicity, widening the therapeutic window. The opposing outcomes necessitate careful stratification of when to inhibit versus enhance autophagy in the clinic. This duality mirrors autophagy's broader role in cancer initiation versus progression.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Atg4B",
+    "predicate": "inhibited_by",
+    "object": "S130 enhances CR effect",
+    "context": "The small-molecule ATG4B inhibitor S130 blocks the cysteine protease required for LC3 processing and autophagosome maturation; when combined with caloric restriction, this inhibition shifts the balance toward apoptotic death in colorectal cancer cells. By preventing autophagic protection of tumor cells while CR imposes metabolic stress, S130 sensitizes malignancy to cell death. The synergy illustrates a therapeutic strategy of pairing CR or CR-mimetics with targeted autophagy inhibition in cancer. The approach exploits the reliance of some tumors on basal autophagy for survival.",
+    "confidence": 0.75
+  },
+  {
+    "subject": "P300",
+    "predicate": "acetylates",
+    "object": "ATG4B inhibiting autophagy",
+    "context": "The acetyltransferase p300 acetylates ATG4B, an modification that inhibits its proteolytic activity required for LC3 lipidation and autophagosome formation, thereby restraining autophagy under normal conditions. This acetylation-dependent repression adds a transcriptional coactivator-derived control layer to core autophagy machinery beyond the well-studied phosphorylation circuits. Relief of p300-mediated acetylation during stress can de-repress ATG4B and facilitate autophagic flux. The finding situates autophagy regulation within the broader acetylome governed by p300/CBP.",
+    "confidence": 0.75
+  }
+]

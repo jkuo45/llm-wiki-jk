@@ -11,7 +11,7 @@ parser.add_argument(
 )
 parser.add_argument(
     "--report",
-    default=os.path.expanduser("~/Documents/llm-wiki-jk/tasks/alphafold_report.md"),
+    default=os.path.expanduser("~/Documents/llm-wiki-jk/src/tasks/alphafold_report.md"),
     help="Output report file",
 )
 args = parser.parse_args()

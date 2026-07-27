@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<title>llm-wiki-jk: graph view (EN/中文)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
+  #graph { flex: 1; position: relative; }
+  
+  #sidebar { width: 300px; background: #1a1a2e; border-left: 1px solid #2a2a4e; display: flex; flex-direction: column; overflow: hidden; flex-shrink: 0; transition: width 0.2s ease; }
+  #sidebar.hidden { width: 0; border-left: none; padding: 0; }
+  #sidebar.hidden * { display: none; }
+  
+  #sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 44px; }
+  #sidebar-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #sidebar-close { background: none; border: none; color: #888; font-size: 20px; cursor: pointer; padding: 0 4px; line-height: 1; transition: color 0.15s; }
+  #sidebar-close:hover { color: #e0e0e0; }
+  
+  #search-wrap { padding: 12px; border-bottom: 1px solid #2a2a4e; }
+  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; }
+  #search:focus { border-color: #4E79A7; }
+  #search-results { max-height: 200px; overflow-y: auto; padding: 4px 12px; border-bottom: 1px solid #2a2a4e; display: none; }
+  .search-item { padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .search-item:hover { background: #2a2a4e; }
+
+  /* Trace panel */
+  #trace-panel { border-bottom: 1px solid #2a2a4e; padding: 0; }
+  #trace-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; cursor: pointer; user-select: none; }
+  #trace-header:hover { background: #16162b; }
+  #trace-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #trace-header .chevron { color: #666; font-size: 10px; transition: transform 0.2s; }
+  #trace-header .chevron.open { transform: rotate(90deg); }
+  #trace-body { padding: 0 14px 12px; display: none; }
+  #trace-body.open { display: block; }
+  #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; cursor: pointer; }
+  #trace-select:focus { border-color: #4E79A7; }
+  #trace-summary { margin-top: 10px; font-size: 12px; color: #bbb; line-height: 1.6; max-height: 120px; overflow-y: auto; }
+  #trace-routes { margin-top: 8px; }
+  .trace-route { padding: 6px 8px; margin: 3px 0; border-radius: 4px; font-size: 12px; cursor: pointer; border-left: 3px solid #4E79A7; background: rgba(78,121,167,0.08); transition: background 0.15s; }
+  .trace-route:hover { background: rgba(78,121,167,0.18); }
+  .trace-route.active { background: rgba(78,121,167,0.25); border-left-color: #7cb3d4; }
+  .trace-route-name { font-weight: 600; color: #ccc; }
+  .trace-route-hops { color: #666; font-size: 10px; margin-left: 6px; }
+  #trace-clear { margin-top: 8px; width: 100%; background: transparent; border: 1px solid #3a3a5e; color: #888; padding: 6px; border-radius: 4px; font-size: 11px; cursor: pointer; transition: all 0.15s; display: none; }
+  #trace-clear:hover { border-color: #4E79A7; color: #e0e0e0; }
+  #trace-key-nodes { margin-top: 8px; }
+  .trace-key-node { display: inline-block; padding: 2px 7px; margin: 2px; border-radius: 3px; font-size: 11px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
+  .trace-key-node:hover { border-color: #4E79A7; color: #e0e0e0; }
+  #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; }
+  #info-panel h3 { font-size: 12px; color: #aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+  #info-content { font-size: 13px; color: #ccc; line-height: 1.6; }
+  #info-content .field { margin-bottom: 5px; }
+  #info-content .field b { color: #e0e0e0; }
+  #info-content .empty { color: #555; font-style: italic; }
+  .neighbor-link { display: block; padding: 4px 8px; margin: 2px 0; border-radius: 3px; cursor: pointer; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
+  .neighbor-link:hover { background: #2a2a4e; }
+  #neighbors-list { max-height: 200px; overflow-y: auto; margin-top: 4px; }
+  #legend-wrap { flex: 1; overflow-y: auto; padding: 12px; }
+  #legend-wrap h3 { font-size: 12px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .legend-item { display: flex; align-items: flex-start; gap: 8px; padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 12px; transition: background 0.15s; }
+  .legend-item:hover { background: #2a2a4e; }
+  .legend-item.dimmed { opacity: 0.3; }
+  .legend-item.focused { background: rgba(78, 121, 167, 0.2); border-left: 3px solid #4E79A7; margin-left: -3px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
+  .legend-label { flex: 1; overflow: hidden; line-height: 1.3; }
+  .legend-count { color: #666; font-size: 11px; }
+  #stats { padding: 10px 14px; border-top: 1px solid #2a2a4e; font-size: 11px; color: #555; }
+  #legend-controls { display: none; }
+  
+  /* Tooltip */
+  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 350px; }
+  #tooltip.visible { opacity: 1; }
+  
+  /* Home link */
+  #home-link { position: absolute; top: 12px; left: 12px; z-index: 10; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 14px; border-radius: 6px; text-decoration: none; font-size: 12px; transition: all 0.15s; }
+  #home-link:hover { background: #2a2a4e; border-color: #4E79A7; }
+  
+  /* Controls overlay */
+  #controls { position: absolute; bottom: 16px; left: 16px; display: flex; gap: 8px; z-index: 10; }
+  #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; transition: all 0.15s; }
+  #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
+  #controls button.active { background: #4E79A7; border-color: #4E79A7; }
+  
+  /* Toggle button - shown when sidebar is hidden */
+  #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 44px; height: 44px; border-radius: 8px; cursor: pointer; align-items: center; justify-content: center; font-size: 20px; }
+  #mobile-toggle:hover { background: #2a2a4e; border-color: #4E79A7; }
+  #mobile-toggle.visible { display: flex; }
+  
+  /* Loading overlay */
+  #loading { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #0f0f1a; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; }
+  #loading.hidden { display: none; }
+  #loading h2 { color: #e0e0e0; margin-bottom: 16px; font-size: 18px; }
+  #loading p { color: #888; font-size: 13px; }
+  .spinner { width: 40px; height: 40px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<button id="mobile-toggle" title="Open search and filters">&#9776;</button>
+<a href="https://www.johnnykuo.com" id="home-link" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
+<div id="graph">
+  <div id="loading">
+    <div class="spinner"></div>
+    <h2>Loading Graph Data</h2>
+    <p id="load-status">Initializing...</p>
+  </div>
+  <div id="tooltip"></div>
+  <div id="controls">
+    <button id="btn-reset" title="Reset camera">Reset View / 重設視角</button>
+    <button id="btn-physics" title="Toggle physics simulation">Physics / 物理模擬</button>
+    <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
+    <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+  </div>
+</div>
+<div id="sidebar">
+  <div id="sidebar-header">
+    <span>Search & Filters / 搜尋與篩選</span>
+    <button id="sidebar-close" title="Close panel">&times;</button>
+  </div>
+  <div id="search-wrap">
+    <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <div id="trace-panel">
+    <div id="trace-header">
+      <span>Graph Traces / 圖形追蹤</span>
+      <span class="chevron" id="trace-chevron">&#9654;</span>
+    </div>
+    <div id="trace-body">
+      <select id="trace-select">
+        <option value="">Select a trace...</option>
+      </select>
+      <div id="trace-summary"></div>
+      <div id="trace-routes"></div>
+      <div id="trace-key-nodes"></div>
+      <button id="trace-clear">Clear Trace / 清除追蹤</button>
+    </div>
+  </div>
+  <div id="info-panel">
+    <h3>Node Info / 節點資訊</h3>
+    <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
+  </div>
+  <div id="legend-wrap">
+    <h3>Communities / 社群</h3>
+    <div id="legend-controls">
+      <label><input type="checkbox" id="select-all-cb" checked>Select All / 全選</label>
+    </div>
+    <div id="legend"></div>
+  </div>
+  <div id="stats"></div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+// ============================================================
+// Data Loading
+// ============================================================
+const loadStatus = document.getElementById('load-status');
+
+async function loadData() {
+  loadStatus.textContent = 'Loading nodes...';
+  const nodesResp = await fetch('nodes.json');
+  const RAW_NODES = await nodesResp.json();
+  
+  loadStatus.textContent = 'Loading edges...';
+  const edgesResp = await fetch('edges.json');
+  const RAW_EDGES = await edgesResp.json();
+  
+  loadStatus.textContent = 'Loading legend...';
+  const legendResp = await fetch('legend.json');
+  const LEGEND = await legendResp.json();
+  
+  loadStatus.textContent = 'Loading context...';
+  const graphResp = await fetch('graph.json');
+  const graphData = await graphResp.json();
+  
+  return { RAW_NODES, RAW_EDGES, LEGEND, graphData };
+}
+
+const { RAW_NODES, RAW_EDGES, LEGEND, graphData } = await loadData();
+
+// ============================================================
+// Trace Loading
+// ============================================================
+let TRACES = [];
+let activeTrace = null;
+let activeRouteIdx = -1;
+let suppressHashUpdate = false;
+
+try {
+  const traceResp = await fetch('trace.json');
+  TRACES = await traceResp.json();
+} catch (e) {
+  console.warn('Could not load traces:', e);
+}
+
+// ============================================================
+// URL Hash Bookmarking
+// ============================================================
+function updateHash() {
+  if (suppressHashUpdate) return;
+  const parts = [];
+  if (activeTrace) {
+    parts.push(`trace=${encodeURIComponent(activeTrace.id)}`);
+    if (activeRouteIdx >= 0) parts.push(`route=${activeRouteIdx}`);
+  }
+  if (selectedNode) {
+    parts.push(`node=${encodeURIComponent(selectedNode)}`);
+  }
+  const hash = parts.length ? '#' + parts.join('&') : '';
+  const url = window.location.pathname + window.location.search + hash;
+  history.replaceState(null, '', url);
+}
+
+function parseHash() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return null;
+  const params = {};
+  hash.split('&').forEach(pair => {
+    const [k, v] = pair.split('=');
+    if (k && v !== undefined) params[decodeURIComponent(k)] = decodeURIComponent(v);
+  });
+  return params;
+}
+
+loadStatus.textContent = 'Loading translations...';
+let TRANSLATIONS = {};
+try {
+  const transResp = await fetch('translations-zh-TW.json');
+  TRANSLATIONS = await transResp.json();
+} catch (e) {
+  console.warn('Could not load translations:', e);
+}
+
+function getBilingualText(english) {
+  const zhTW = TRANSLATIONS[english];
+  if (zhTW && zhTW !== english) {
+    return `${english}\n${zhTW}`;
+  }
+  return english;
+}
+
+loadStatus.textContent = 'Building graph...';
+
+// ============================================================
+// Build adjacency map and description map
+// ============================================================
+const descriptionMap = new Map();
+(graphData.nodes || []).forEach(n => {
+  if (n.description) descriptionMap.set(n.id, n.description);
+});
+const nodeMap = new Map();
+RAW_NODES.forEach(n => nodeMap.set(n.id, n));
+
+const adjacency = new Map();
+RAW_EDGES.forEach(e => {
+  if (!adjacency.has(e.from)) adjacency.set(e.from, []);
+  if (!adjacency.has(e.to)) adjacency.set(e.to, []);
+  adjacency.get(e.from).push({ target: e.to, edge: e });
+  adjacency.get(e.to).push({ target: e.from, edge: e });
+});
+
+// ============================================================
+// Three.js Setup
+// ============================================================
+const container = document.getElementById('graph');
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0f0f1a);
+
+const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 10000);
+camera.position.set(0, 0, 500);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setSize(container.clientWidth, container.clientHeight);
+renderer.setPixelRatio(window.devicePixelRatio);
+container.appendChild(renderer.domElement);
+
+const labelRenderer = new CSS2DRenderer();
+labelRenderer.setSize(container.clientWidth, container.clientHeight);
+labelRenderer.domElement.style.position = 'absolute';
+labelRenderer.domElement.style.top = '0';
+labelRenderer.domElement.style.pointerEvents = 'none';
+container.appendChild(labelRenderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.05;
+controls.minDistance = 50;
+controls.maxDistance = 2000;
+controls.zoomSpeed = 1.2;
+
+// Lighting
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+scene.add(ambientLight);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+directionalLight.position.set(100, 100, 100);
+scene.add(directionalLight);
+const backLight = new THREE.DirectionalLight(0x4E79A7, 0.3);
+backLight.position.set(-100, -50, -100);
+scene.add(backLight);
+
+// ============================================================
+// Node Objects
+// ============================================================
+const nodeObjects = new Map();
+const nodeMeshes = [];
+const labelObjects = new Map();
+
+const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
+
+function createNodeMesh(nodeData) {
+  const radius = Math.max(1.5, nodeData.size * 0.4);
+  const material = new THREE.MeshPhongMaterial({
+    color: new THREE.Color(nodeData.color.background),
+    emissive: new THREE.Color(nodeData.color.background),
+    emissiveIntensity: 0.15,
+    shininess: 60,
+    transparent: true,
+    opacity: 0.92,
+  });
+  
+  const mesh = new THREE.Mesh(sphereGeometry, material);
+  mesh.scale.set(radius, radius, radius);
+  mesh.userData = { nodeId: nodeData.id, nodeData };
+  return mesh;
+}
+
+// Initialize positions using community clusters
+const communityCenters = new Map();
+const communityAngle = new Map();
+let communityIndex = 0;
+const clusterRadius = 200;
+
+LEGEND.forEach(c => {
+  const angle = (communityIndex / LEGEND.length) * Math.PI * 2;
+  const r = clusterRadius * (0.5 + 0.5 * Math.random());
+  communityCenters.set(c.cid, new THREE.Vector3(
+    Math.cos(angle) * r,
+    (Math.random() - 0.5) * clusterRadius * 0.5,
+    Math.sin(angle) * r
+  ));
+  communityAngle.set(c.cid, angle);
+  communityIndex++;
+});
+
+RAW_NODES.forEach(n => {
+  const mesh = createNodeMesh(n);
+  const center = communityCenters.get(n.community) || new THREE.Vector3(0, 0, 0);
+  const spread = 40 + n.degree * 3;
+  mesh.position.set(
+    center.x + (Math.random() - 0.5) * spread,
+    center.y + (Math.random() - 0.5) * spread,
+    center.z + (Math.random() - 0.5) * spread
+  );
+  
+  scene.add(mesh);
+  nodeMeshes.push(mesh);
+  nodeObjects.set(n.id, mesh);
+});
+
+// ============================================================
+// Edge Objects
+// ============================================================
+const edgeObjects = [];
+const edgeGroup = new THREE.Group();
+scene.add(edgeGroup);
+
+RAW_EDGES.forEach(e => {
+  const fromMesh = nodeObjects.get(e.from);
+  const toMesh = nodeObjects.get(e.to);
+  if (!fromMesh || !toMesh) return;
+  
+  const points = [fromMesh.position.clone(), toMesh.position.clone()];
+  const geometry = new THREE.BufferGeometry().setFromPoints(points);
+  
+  const opacity = e.color.opacity * 0.6;
+  const material = new THREE.LineBasicMaterial({
+    color: 0x4a4a6a,
+    transparent: true,
+    opacity: opacity,
+    linewidth: 1,
+  });
+  
+  const line = new THREE.Line(geometry, material);
+  line.userData = { edge: e, fromMesh, toMesh };
+  edgeGroup.add(line);
+  edgeObjects.push(line);
+});
+
+// ============================================================
+// Labels (only for high-degree nodes initially)
+// ============================================================
+let showLabels = true;
+const labelThreshold = 15;
+
+function createLabel(nodeData, mesh) {
+  const div = document.createElement('div');
+  div.className = 'node-label';
+  div.dataset.nodeId = nodeData.id;
+  
+  const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
+  if (zhTWLabel && zhTWLabel !== nodeData.label) {
+    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:12px">${esc(zhTWLabel)}</span>`;
+  } else {
+    div.textContent = nodeData.label;
+  }
+  
+  div.style.cssText = `
+    color: #e0e0e0;
+    font-size: 14px;
+    padding: 3px 8px;
+    background: rgba(15, 15, 26, 0.8);
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: auto;
+    cursor: pointer;
+    text-shadow: 0 0 4px rgba(0,0,0,0.8);
+    text-align: center;
+    line-height: 1.3;
+  `;
+  
+  div.addEventListener('mouseenter', () => {
+    const mesh = nodeObjects.get(nodeData.id);
+    if (mesh) {
+      hoveredNode = mesh;
+      hideEdgeLabel();
+      container.style.cursor = 'pointer';
+      const zhTWName = TRANSLATIONS[nodeData.label] || '';
+      const displayName = zhTWName && zhTWName !== nodeData.label 
+        ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
+        : esc(nodeData.label);
+      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      const rect = container.getBoundingClientRect();
+      tooltip.style.left = (rect.left + 15) + 'px';
+      tooltip.style.top = (rect.top + 15) + 'px';
+      tooltip.classList.add('visible');
+    }
+  });
+  
+  div.addEventListener('mouseleave', () => {
+    hoveredNode = null;
+    tooltip.classList.remove('visible');
+    container.style.cursor = 'default';
+  });
+  
+  div.addEventListener('click', (e) => {
+    e.stopPropagation();
+    selectNode(nodeData.id);
+  });
+  
+  const label = new CSS2DObject(div);
+  label.position.copy(mesh.position);
+  label.position.y += mesh.scale.y + 2;
+  label.visible = showLabels && nodeData.degree >= labelThreshold;
+  scene.add(label);
+  labelObjects.set(nodeData.id, label);
+}
+
+RAW_NODES.forEach(n => {
+  const mesh = nodeObjects.get(n.id);
+  if (mesh) createLabel(n, mesh);
+});
+
+// ============================================================
+// Edge Label (reusable, appears on hover)
+// ============================================================
+const edgeLabelDiv = document.createElement('div');
+edgeLabelDiv.style.cssText = `
+  color: #a0c4ff;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 8px;
+  background: rgba(15, 15, 26, 0.9);
+  border: 1px solid rgba(78, 121, 167, 0.4);
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: auto;
+  cursor: pointer;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+  display: none;
+`;
+const edgeLabel = new CSS2DObject(edgeLabelDiv);
+edgeLabel.visible = false;
+scene.add(edgeLabel);
+
+edgeLabelDiv.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (hoveredEdge) {
+    selectEdge(hoveredEdge.userData.edge);
+  }
+});
+
+let hoveredEdge = null;
+
+function showEdgeLabel(line, mouseX, mouseY) {
+  const { edge, fromMesh, toMesh } = line.userData;
+  
+  // Position at midpoint of edge
+  const midX = (fromMesh.position.x + toMesh.position.x) / 2;
+  const midY = (fromMesh.position.y + toMesh.position.y) / 2;
+  const midZ = (fromMesh.position.z + toMesh.position.z) / 2;
+  edgeLabel.position.set(midX, midY, midZ);
+  
+  // Show label with relationship text
+  const labelText = edge.label || '';
+  const confidence = edge.confidence || '';
+  edgeLabelDiv.innerHTML = `<b>${esc(labelText)}</b> <span style="opacity:0.6;font-size:9px">${esc(confidence)}</span>`;
+  edgeLabelDiv.style.display = 'block';
+  edgeLabel.visible = true;
+  
+  // Highlight the edge
+  if (hoveredEdge && hoveredEdge !== line) {
+    resetEdgeStyle(hoveredEdge);
+  }
+  hoveredEdge = line;
+  line.material.color.set(0x4E79A7);
+  line.material.opacity = 0.9;
+}
+
+function hideEdgeLabel() {
+  edgeLabelDiv.style.display = 'none';
+  edgeLabel.visible = false;
+  if (hoveredEdge) {
+    resetEdgeStyle(hoveredEdge);
+    hoveredEdge = null;
+  }
+}
+
+function resetEdgeStyle(line) {
+  if (selectedNode) {
+    const { edge } = line.userData;
+    if (edge.from === selectedNode || edge.to === selectedNode) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.8;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.05;
+    }
+  } else if (selectedEdge) {
+    const { edge } = line.userData;
+    if (edge === selectedEdge) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.9;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.05;
+    }
+  } else {
+    line.material.color.set(0x4a4a6a);
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+  }
+}
+
+// ============================================================
+// 3D Force-Directed Layout
+// ============================================================
+let physicsEnabled = false;
+let physicsIterations = 0;
+const maxPhysicsIterations = 300;
+
+const velocities = new Map();
+RAW_NODES.forEach(n => {
+  velocities.set(n.id, new THREE.Vector3(0, 0, 0));
+});
+
+function applyForces() {
+  if (!physicsEnabled) return;
+  
+  const repulsionStrength = 500;
+  const attractionStrength = 0.005;
+  const damping = 0.85;
+  const centerGravity = 0.001;
+  const maxVelocity = 10;
+  
+  const positions = [];
+  nodeMeshes.forEach(m => positions.push(m.position));
+  
+  // Repulsion between nodes (sample for performance)
+  const sampleSize = Math.min(200, nodeMeshes.length);
+  const step = Math.max(1, Math.floor(nodeMeshes.length / sampleSize));
+  
+  for (let i = 0; i < nodeMeshes.length; i += step) {
+    const meshA = nodeMeshes[i];
+    const velA = velocities.get(meshA.userData.nodeId);
+    
+    for (let j = i + step; j < nodeMeshes.length; j += step) {
+      const meshB = nodeMeshes[j];
+      const velB = velocities.get(meshB.userData.nodeId);
+      
+      const dx = meshA.position.x - meshB.position.x;
+      const dy = meshA.position.y - meshB.position.y;
+      const dz = meshA.position.z - meshB.position.z;
+      const distSq = dx * dx + dy * dy + dz * dz + 0.01;
+      const dist = Math.sqrt(distSq);
+      
+      if (dist > 200) continue;
+      
+      const force = repulsionStrength / distSq;
+      const fx = (dx / dist) * force;
+      const fy = (dy / dist) * force;
+      const fz = (dz / dist) * force;
+      
+      velA.x += fx;
+      velA.y += fy;
+      velA.z += fz;
+      velB.x -= fx;
+      velB.y -= fy;
+      velB.z -= fz;
+    }
+  }
+  
+  // Attraction along edges
+  edgeObjects.forEach(line => {
+    const { fromMesh, toMesh, edge } = line.userData;
+    const velFrom = velocities.get(edge.from);
+    const velTo = velocities.get(edge.to);
+    
+    const dx = toMesh.position.x - fromMesh.position.x;
+    const dy = toMesh.position.y - fromMesh.position.y;
+    const dz = toMesh.position.z - fromMesh.position.z;
+    const dist = Math.sqrt(dx * dx + dy * dy + dz * dz + 0.01);
+    
+    const idealLength = 50 + (fromMesh.userData.nodeData.degree + toMesh.userData.nodeData.degree) * 0.5;
+    const force = (dist - idealLength) * attractionStrength;
+    
+    const fx = (dx / dist) * force;
+    const fy = (dy / dist) * force;
+    const fz = (dz / dist) * force;
+    
+    velFrom.x += fx;
+    velFrom.y += fy;
+    velFrom.z += fz;
+    velTo.x -= fx;
+    velTo.y -= fy;
+    velTo.z -= fz;
+  });
+  
+  // Center gravity
+  nodeMeshes.forEach(mesh => {
+    const vel = velocities.get(mesh.userData.nodeId);
+    vel.x -= mesh.position.x * centerGravity;
+    vel.y -= mesh.position.y * centerGravity;
+    vel.z -= mesh.position.z * centerGravity;
+  });
+  
+  // Apply velocities with damping
+  nodeMeshes.forEach(mesh => {
+    const vel = velocities.get(mesh.userData.nodeId);
+    vel.multiplyScalar(damping);
+    
+    // Clamp velocity
+    const speed = vel.length();
+    if (speed > maxVelocity) {
+      vel.multiplyScalar(maxVelocity / speed);
+    }
+    
+    mesh.position.add(vel);
+    
+    // Update label position
+    const label = labelObjects.get(mesh.userData.nodeId);
+    if (label) {
+      label.position.copy(mesh.position);
+      label.position.y += mesh.scale.y + 2;
+    }
+  });
+  
+  // Update edge positions
+  edgeObjects.forEach(line => {
+    const { fromMesh, toMesh } = line.userData;
+    const positions = line.geometry.attributes.position;
+    positions.setXYZ(0, fromMesh.position.x, fromMesh.position.y, fromMesh.position.z);
+    positions.setXYZ(1, toMesh.position.x, toMesh.position.y, toMesh.position.z);
+    positions.needsUpdate = true;
+  });
+  
+  // Update edge label position if hovering an edge
+  if (hoveredEdge && edgeLabel.visible) {
+    const { fromMesh, toMesh } = hoveredEdge.userData;
+    const midX = (fromMesh.position.x + toMesh.position.x) / 2;
+    const midY = (fromMesh.position.y + toMesh.position.y) / 2;
+    const midZ = (fromMesh.position.z + toMesh.position.z) / 2;
+    edgeLabel.position.set(midX, midY, midZ);
+  }
+  
+  physicsIterations++;
+  if (physicsIterations >= maxPhysicsIterations) {
+    physicsEnabled = false;
+    document.getElementById('btn-physics').classList.remove('active');
+  }
+}
+
+// ============================================================
+// Raycasting & Interaction
+// ============================================================
+const raycaster = new THREE.Raycaster();
+raycaster.params.Points = { threshold: 2 };
+raycaster.params.Line = { threshold: 5 };
+const mouse = new THREE.Vector2();
+const tooltip = document.getElementById('tooltip');
+let hoveredNode = null;
+let selectedNode = null;
+let selectedEdge = null;
+let lastHoveredNodeId = null;
+
+function restoreDefaultLabels() {
+  // If a trace is active, don't restore default labels
+  if (activeTrace) return;
+  labelObjects.forEach((label, id) => {
+    const nodeData = nodeMap.get(id);
+    const mesh = nodeObjects.get(id);
+    label.visible = showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
+  });
+}
+
+function showHoverLabels(nodeId) {
+  // If a trace is active and no node is selected, keep trace labels
+  if (activeTrace && !selectedNode) return;
+  const neighbors = adjacency.get(nodeId) || [];
+  const neighborIds = new Set(neighbors.map(n => n.target));
+  neighborIds.add(nodeId);
+  
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = neighborIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+}
+
+function onMouseMove(event) {
+  const rect = container.getBoundingClientRect();
+  mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  
+  raycaster.setFromCamera(mouse, camera);
+  
+  // When a node is selected, check edges first so edge labels show up
+  if (selectedNode) {
+    const edgeIntersects = raycaster.intersectObjects(edgeObjects);
+    if (edgeIntersects.length > 0) {
+      const line = edgeIntersects[0].object;
+      if (line.userData.edge) {
+        hoveredNode = null;
+        tooltip.classList.remove('visible');
+        container.style.cursor = 'pointer';
+        showEdgeLabel(line, event.clientX - rect.left, event.clientY - rect.top);
+        return;
+      }
+    }
+    
+    // Also check nodes (to allow selecting a different node)
+    const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+    if (nodeIntersects.length > 0) {
+      const mesh = nodeIntersects[0].object;
+      if (mesh.userData.nodeData) {
+        hoveredNode = mesh;
+        hideEdgeLabel();
+        container.style.cursor = 'pointer';
+        const nodeData = mesh.userData.nodeData;
+        const zhTWName = TRANSLATIONS[nodeData.label] || '';
+        const displayName = zhTWName && zhTWName !== nodeData.label 
+          ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
+          : esc(nodeData.label);
+        tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+        tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
+        tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
+        tooltip.classList.add('visible');
+        
+        if (lastHoveredNodeId !== nodeData.id) {
+          lastHoveredNodeId = nodeData.id;
+          showHoverLabels(nodeData.id);
+        }
+        return;
+      }
+    }
+    
+    // Nothing hit - stay in selection state
+    hoveredNode = null;
+    hideEdgeLabel();
+    container.style.cursor = 'default';
+    tooltip.classList.remove('visible');
+    if (lastHoveredNodeId) {
+      lastHoveredNodeId = null;
+      restoreSelectedLabels();
+    }
+    return;
+  }
+  
+  // No node selected - normal behavior (nodes first, then edges)
+  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  if (nodeIntersects.length > 0) {
+    const mesh = nodeIntersects[0].object;
+    if (mesh.userData.nodeData) {
+      hoveredNode = mesh;
+      hideEdgeLabel();
+      container.style.cursor = 'pointer';
+      const nodeData = mesh.userData.nodeData;
+      const zhTWName = TRANSLATIONS[nodeData.label] || '';
+      const displayName = zhTWName && zhTWName !== nodeData.label 
+        ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
+        : esc(nodeData.label);
+      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
+      tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
+      tooltip.classList.add('visible');
+      
+      if (lastHoveredNodeId !== nodeData.id) {
+        lastHoveredNodeId = nodeData.id;
+        showHoverLabels(nodeData.id);
+      }
+      return;
+    }
+  }
+  
+  const edgeIntersects = raycaster.intersectObjects(edgeObjects);
+  if (edgeIntersects.length > 0) {
+    const line = edgeIntersects[0].object;
+    if (line.userData.edge) {
+      hoveredNode = null;
+      tooltip.classList.remove('visible');
+      container.style.cursor = 'pointer';
+      showEdgeLabel(line, event.clientX - rect.left, event.clientY - rect.top);
+      return;
+    }
+  }
+  
+  // Nothing hit
+  hoveredNode = null;
+  hideEdgeLabel();
+  container.style.cursor = 'default';
+  tooltip.classList.remove('visible');
+  if (lastHoveredNodeId) {
+    lastHoveredNodeId = null;
+    restoreDefaultLabels();
+  }
+}
+
+function restoreSelectedLabels() {
+  if (!selectedNode) {
+    restoreDefaultLabels();
+    return;
+  }
+  const neighbors = adjacency.get(selectedNode) || [];
+  const neighborIds = new Set(neighbors.map(n => n.target));
+  neighborIds.add(selectedNode);
+  
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = neighborIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+}
+
+function onClick(event) {
+  if (hoveredNode) {
+    selectNode(hoveredNode.userData.nodeId);
+  } else if (hoveredEdge) {
+    selectNode(hoveredEdge.userData.edge.from);
+  } else {
+    deselectNode();
+  }
+}
+
+container.addEventListener('mousemove', onMouseMove);
+container.addEventListener('click', onClick);
+
+function selectNode(nodeId) {
+  selectedNode = nodeId;
+  selectedEdge = null;
+  const mesh = nodeObjects.get(nodeId);
+  if (!mesh) return;
+  
+  // Highlight selected node
+  nodeMeshes.forEach(m => {
+    const mat = m.material;
+    if (m.userData.nodeId === nodeId) {
+      mat.emissiveIntensity = 0.5;
+      mat.opacity = 1;
+    } else {
+      mat.emissiveIntensity = 0.15;
+      mat.opacity = 0.3;
+    }
+  });
+  
+  // Highlight connected edges
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    if (edge.from === nodeId || edge.to === nodeId) {
+      line.material.opacity = 0.8;
+      line.material.color.set(0x4E79A7);
+    } else {
+      line.material.opacity = 0.05;
+    }
+  });
+  
+  // Show connected nodes with full opacity
+  const neighbors = adjacency.get(nodeId) || [];
+  const neighborIds = new Set(neighbors.map(n => n.target));
+  neighborIds.add(nodeId);
+  
+  nodeMeshes.forEach(m => {
+    if (neighborIds.has(m.userData.nodeId)) {
+      m.material.opacity = 0.9;
+      m.material.emissiveIntensity = 0.3;
+    }
+  });
+  
+  // Show labels for selected node and neighbors
+  labelObjects.forEach((label, id) => {
+    const nodeData = nodeMap.get(id);
+    const mesh = nodeObjects.get(id);
+    label.visible = neighborIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+  
+  // Only show info panel if sidebar is active
+  if (sidebarInfoActive) {
+    showInfo(nodeId);
+  }
+  
+  // Focus camera on node
+  const targetPos = mesh.position.clone();
+  const cameraOffset = new THREE.Vector3(80, 40, 80);
+  const newCameraPos = targetPos.clone().add(cameraOffset);
+  
+  animateCamera(newCameraPos, targetPos);
+  updateHash();
+}
+
+function deselectNode() {
+  selectedNode = null;
+  selectedEdge = null;
+  lastHoveredNodeId = null;
+  
+  // If a trace is active, restore to trace highlighting
+  if (activeTrace) {
+    if (activeRouteIdx >= 0) {
+      activateRoute(activeTrace, activeRouteIdx);
+    } else {
+      highlightTraceNodes(activeTrace);
+    }
+    document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
+    return;
+  }
+  
+  nodeMeshes.forEach(m => {
+    m.material.emissiveIntensity = 0.15;
+    m.material.opacity = 0.92;
+  });
+  
+  edgeObjects.forEach(line => {
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+    line.material.color.set(0x4a4a6a);
+  });
+  
+  restoreDefaultLabels();
+  
+  hideEdgeLabel();
+  document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
+  updateHash();
+}
+
+function selectEdge(edge) {
+  selectedNode = null;
+  selectedEdge = edge;
+  lastHoveredNodeId = null;
+
+  const fromId = edge.from;
+  const toId = edge.to;
+
+  // Dim all nodes, highlight source and target
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (id === fromId || id === toId) {
+      m.material.emissiveIntensity = 0.5;
+      m.material.opacity = 0.95;
+    } else {
+      m.material.emissiveIntensity = 0.15;
+      m.material.opacity = 0.3;
+    }
+  });
+
+  // Highlight selected edge, dim others
+  edgeObjects.forEach(line => {
+    const e = line.userData.edge;
+    if (e === edge) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.9;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.05;
+    }
+  });
+
+  // Show labels for both nodes and their neighbors
+  const fromNeighbors = adjacency.get(fromId) || [];
+  const toNeighbors = adjacency.get(toId) || [];
+  const visibleIds = new Set([fromId, toId]);
+  fromNeighbors.forEach(n => visibleIds.add(n.target));
+  toNeighbors.forEach(n => visibleIds.add(n.target));
+
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = visibleIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+
+  // Show relation info in sidebar
+  if (sidebarInfoActive) {
+    const fromNode = nodeMap.get(fromId);
+    const toNode = nodeMap.get(toId);
+    const fromLabel = fromNode ? fromNode.label : fromId;
+    const toLabel = toNode ? toNode.label : toId;
+    const fromZhTW = TRANSLATIONS[fromLabel] || '';
+    const toZhTW = TRANSLATIONS[toLabel] || '';
+    const fromDisplay = fromZhTW && fromZhTW !== fromLabel ? `${fromLabel} / ${fromZhTW}` : fromLabel;
+    const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
+    const relationLabel = edge.label || '';
+    const confidence = edge.confidence || '';
+
+    document.getElementById('info-content').innerHTML = `
+      <div class="field"><b>Relation / 關聯</b></div>
+      <div class="field" style="margin-top:4px">
+        <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(fromId)}">${esc(fromDisplay)}</span>
+        <div style="color:#4E79A7;font-size:12px;padding:2px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:10px">${esc(confidence)}</span>` : ''}</div>
+        <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(toId)}">${esc(toDisplay)}</span>
+      </div>
+    `;
+  }
+
+  // Focus camera on midpoint of edge
+  const fromMesh = nodeObjects.get(fromId);
+  const toMesh = nodeObjects.get(toId);
+  if (fromMesh && toMesh) {
+    const mid = fromMesh.position.clone().add(toMesh.position).multiplyScalar(0.5);
+    const cameraOffset = new THREE.Vector3(80, 40, 80);
+    animateCamera(mid.clone().add(cameraOffset), mid);
+  }
+}
+
+function animateCamera(targetPosition, lookAtTarget) {
+  const startPos = camera.position.clone();
+  const startTarget = controls.target.clone();
+  const duration = 800;
+  const startTime = Date.now();
+  
+  function animate() {
+    const elapsed = Date.now() - startTime;
+    const t = Math.min(1, elapsed / duration);
+    const eased = 1 - Math.pow(1 - t, 3);
+    
+    camera.position.lerpVectors(startPos, targetPosition, eased);
+    controls.target.lerpVectors(startTarget, lookAtTarget, eased);
+    controls.update();
+    
+    if (t < 1) {
+      requestAnimationFrame(animate);
+    }
+  }
+  animate();
+}
+
+// ============================================================
+// Node Info Panel
+// ============================================================
+function esc(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function showInfo(nodeId) {
+  const n = nodeMap.get(nodeId);
+  if (!n) return;
+  
+  const neighbors = adjacency.get(nodeId) || [];
+  const neighborItems = neighbors.map(({ target, edge }) => {
+    const nb = nodeMap.get(target);
+    const color = nb ? nb.color.background : '#555';
+    const label = edge.label ? ` — ${esc(edge.label)}` : '';
+    const nbLabel = nb ? nb.label : target;
+    const nbZhTW = TRANSLATIONS[nbLabel] || '';
+    const nbDisplayName = nbZhTW && nbZhTW !== nbLabel ? `${nbLabel} / ${nbZhTW}` : nbLabel;
+    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nbDisplayName)}${label}</span>`;
+  }).join('');
+  
+  const description = descriptionMap.get(nodeId);
+  
+  const zhTWName = TRANSLATIONS[n.label] || '';
+  const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
+  
+  const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
+  const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
+  
+  document.getElementById('info-content').innerHTML = `
+    <div class="field"><b>${esc(displayName)}</b></div>
+    <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
+    <div class="field">Community: ${esc(displayCommunity)}</div>
+    <div class="field">Source: ${esc(n.source_file || '-')}</div>
+    ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description)}</div>` : ''}
+    <div class="field">Degree: ${n.degree}</div>
+    ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+  `;
+}
+
+document.addEventListener('click', e => {
+  const el = e.target.closest('.neighbor-link');
+  if (el && el.dataset.nid !== undefined) {
+    selectNode(el.dataset.nid);
+  }
+});
+
+// ============================================================
+// Search
+// ============================================================
+const searchInput = document.getElementById('search');
+const searchResults = document.getElementById('search-results');
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.toLowerCase().trim();
+  searchResults.innerHTML = '';
+  if (!q) { searchResults.style.display = 'none'; return; }
+  
+  const matches = RAW_NODES.filter(n => {
+    const labelMatch = n.label.toLowerCase().includes(q);
+    const zhTW = TRANSLATIONS[n.label] || '';
+    const zhTWMatch = zhTW.toLowerCase().includes(q);
+    return labelMatch || zhTWMatch;
+  }).slice(0, 20);
+  if (!matches.length) { searchResults.style.display = 'none'; return; }
+  
+  searchResults.style.display = 'block';
+  matches.forEach(n => {
+    const el = document.createElement('div');
+    el.className = 'search-item';
+    
+    const zhTWLabel = TRANSLATIONS[n.label] || '';
+    const displayText = zhTWLabel && zhTWLabel !== n.label 
+      ? `${n.label} / ${zhTWLabel}`
+      : n.label;
+    
+    el.textContent = displayText;
+    el.style.borderLeft = `3px solid ${n.color.background}`;
+    el.style.paddingLeft = '8px';
+    el.onclick = () => {
+      selectNode(n.id);
+      searchResults.style.display = 'none';
+      searchInput.value = '';
+    };
+    searchResults.appendChild(el);
+  });
+});
+
+document.addEventListener('click', e => {
+  if (!searchResults.contains(e.target) && e.target !== searchInput) {
+    searchResults.style.display = 'none';
+  }
+});
+
+// ============================================================
+// Community Legend (click-to-focus)
+// ============================================================
+let focusedCommunity = null;
+
+function focusOnCommunity(cid) {
+  // If already focused, unfocus
+  if (focusedCommunity === cid) {
+    clearCommunityFocus();
+    return;
+  }
+  focusedCommunity = cid;
+
+  // Clear any active trace
+  if (activeTrace) {
+    activeTrace = null;
+    activeRouteIdx = -1;
+    traceSelect.value = '';
+    traceSummary.innerHTML = '';
+    traceRoutes.innerHTML = '';
+    traceKeyNodes.innerHTML = '';
+    traceClear.style.display = 'none';
+  }
+
+  document.querySelectorAll('.legend-item').forEach(item => {
+    if (item.dataset.cid === String(cid)) {
+      item.classList.add('focused');
+      item.classList.remove('dimmed');
+    } else {
+      item.classList.remove('focused');
+      item.classList.add('dimmed');
+    }
+  });
+
+  RAW_NODES.forEach(n => {
+    const mesh = nodeObjects.get(n.id);
+    const isTarget = n.community === cid;
+    if (mesh) {
+      mesh.material.opacity = isTarget ? 1 : 0.08;
+      mesh.material.emissiveIntensity = isTarget ? 0.4 : 0.05;
+    }
+    const label = labelObjects.get(n.id);
+    if (label) {
+      label.visible = isTarget && mesh && mesh.visible && showLabels;
+    }
+  });
+
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    const fromNode = nodeMap.get(edge.from);
+    const toNode = nodeMap.get(edge.to);
+    const fromMatch = fromNode && fromNode.community === cid;
+    const toMatch = toNode && toNode.community === cid;
+    if (fromMatch || toMatch) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.6;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.02;
+    }
+  });
+}
+
+function clearCommunityFocus() {
+  focusedCommunity = null;
+  document.querySelectorAll('.legend-item').forEach(item => {
+    item.classList.remove('focused', 'dimmed');
+  });
+
+  // Restore to trace state if active, otherwise default
+  if (activeTrace) {
+    if (activeRouteIdx >= 0) {
+      activateRoute(activeTrace, activeRouteIdx);
+    } else {
+      highlightTraceNodes(activeTrace);
+    }
+  } else {
+    nodeMeshes.forEach(m => {
+      m.material.emissiveIntensity = 0.15;
+      m.material.opacity = 0.92;
+    });
+    edgeObjects.forEach(line => {
+      line.material.opacity = line.userData.edge.color.opacity * 0.6;
+      line.material.color.set(0x4a4a6a);
+    });
+    restoreDefaultLabels();
+  }
+}
+
+const legendEl = document.getElementById('legend');
+LEGEND.forEach(c => {
+  const item = document.createElement('div');
+  item.className = 'legend-item';
+  item.dataset.cid = c.cid;
+
+  const zhTWLabel = TRANSLATIONS[c.label] || '';
+  const bilingualLabel = zhTWLabel && zhTWLabel !== c.label
+    ? `${c.label}<br><span style="color:#888;font-size:10px">${zhTWLabel}</span>`
+    : c.label;
+
+  item.innerHTML = `
+    <div class="legend-dot" style="background:${c.color}"></div>
+    <span class="legend-label">${bilingualLabel}</span>
+    <span class="legend-count">${c.count}</span>
+  `;
+
+  item.addEventListener('click', () => focusOnCommunity(c.cid));
+  legendEl.appendChild(item);
+});
+
+// ============================================================
+// Controls
+// ============================================================
+document.getElementById('btn-reset').addEventListener('click', () => {
+  clearTrace();
+  deselectNode();
+  animateCamera(new THREE.Vector3(0, 0, 500), new THREE.Vector3(0, 0, 0));
+});
+
+document.getElementById('btn-physics').addEventListener('click', (e) => {
+  physicsEnabled = !physicsEnabled;
+  e.target.classList.toggle('active', physicsEnabled);
+  if (physicsEnabled) {
+    physicsIterations = 0;
+  }
+});
+
+document.getElementById('btn-labels').addEventListener('click', (e) => {
+  showLabels = !showLabels;
+  e.target.classList.toggle('active', showLabels);
+  
+  labelObjects.forEach((label, nodeId) => {
+    const nodeData = nodeMap.get(nodeId);
+    const mesh = nodeObjects.get(nodeId);
+    label.visible = showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
+  });
+});
+
+document.getElementById('btn-edges').addEventListener('click', (e) => {
+  edgeGroup.visible = !edgeGroup.visible;
+  e.target.classList.toggle('active', edgeGroup.visible);
+});
+
+// Initialize button active states
+document.getElementById('btn-labels').classList.add('active');
+document.getElementById('btn-edges').classList.add('active');
+
+// ============================================================
+// Sidebar Toggle
+// ============================================================
+const mobileToggle = document.getElementById('mobile-toggle');
+const sidebar = document.getElementById('sidebar');
+const sidebarClose = document.getElementById('sidebar-close');
+let sidebarInfoActive = true;
+
+function openSidebar() {
+  sidebar.classList.remove('hidden');
+  mobileToggle.classList.remove('visible');
+  sidebarInfoActive = true;
+}
+
+function closeSidebar() {
+  sidebar.classList.add('hidden');
+  mobileToggle.classList.add('visible');
+  sidebarInfoActive = false;
+  deselectNode();
+}
+
+function toggleSidebar() {
+  if (sidebar.classList.contains('hidden')) {
+    openSidebar();
+  } else {
+    closeSidebar();
+  }
+}
+
+mobileToggle.addEventListener('click', toggleSidebar);
+sidebarClose.addEventListener('click', closeSidebar);
+
+// Sidebar starts open, trace panel starts open
+openSidebar();
+document.activeElement?.blur();
+
+// ============================================================
+// Trace Panel UI
+// ============================================================
+const traceSelect = document.getElementById('trace-select');
+const traceSummary = document.getElementById('trace-summary');
+const traceRoutes = document.getElementById('trace-routes');
+const traceKeyNodes = document.getElementById('trace-key-nodes');
+const traceClear = document.getElementById('trace-clear');
+const traceHeader = document.getElementById('trace-header');
+const traceBody = document.getElementById('trace-body');
+const traceChevron = document.getElementById('trace-chevron');
+traceBody.classList.add('open');
+traceChevron.classList.add('open');
+
+// Populate trace dropdown
+TRACES.forEach(t => {
+  const opt = document.createElement('option');
+  opt.value = t.id;
+  opt.textContent = t.title;
+  traceSelect.appendChild(opt);
+});
+
+// Toggle trace panel
+traceHeader.addEventListener('click', () => {
+  traceBody.classList.toggle('open');
+  traceChevron.classList.toggle('open');
+});
+
+// Select trace
+traceSelect.addEventListener('change', () => {
+  const traceId = traceSelect.value;
+  if (!traceId) { clearTrace(); return; }
+  const trace = TRACES.find(t => t.id === traceId);
+  if (trace) activateTrace(trace);
+});
+
+// Clear trace
+traceClear.addEventListener('click', clearTrace);
+
+function clearTrace() {
+  activeTrace = null;
+  activeRouteIdx = -1;
+  traceSelect.value = '';
+  traceSummary.innerHTML = '';
+  traceRoutes.innerHTML = '';
+  traceKeyNodes.innerHTML = '';
+  traceClear.style.display = 'none';
+  restoreAllFromTrace();
+  updateHash();
+}
+
+function activateTrace(trace) {
+  activeTrace = trace;
+  activeRouteIdx = -1;
+  focusedCommunity = null;
+  traceClear.style.display = 'block';
+
+  // Clear community focus styling
+  document.querySelectorAll('.legend-item').forEach(item => {
+    item.classList.remove('focused', 'dimmed');
+  });
+
+  // Show summary
+  const sourceLink = trace.sourceUrl
+    ? `<div style="margin-top:6px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
+    : '';
+  traceSummary.innerHTML = `<div style="color:#aaa;font-size:11px;margin-bottom:4px">${esc(trace.question)}</div><div>${esc(trace.summary)}</div>${sourceLink}`;
+
+  // Show routes
+  traceRoutes.innerHTML = '';
+  trace.routes.forEach((route, idx) => {
+    const div = document.createElement('div');
+    div.className = 'trace-route';
+    div.innerHTML = `<span class="trace-route-name">${esc(route.name)}</span><span class="trace-route-hops">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span>`;
+    div.addEventListener('click', () => activateRoute(trace, idx));
+    traceRoutes.appendChild(div);
+  });
+
+  // Show key nodes
+  traceKeyNodes.innerHTML = '<div style="color:#aaa;font-size:11px;margin:6px 0 4px">Key Nodes</div>';
+  trace.keyNodes.forEach(kn => {
+    const span = document.createElement('span');
+    span.className = 'trace-key-node';
+    span.textContent = kn.label;
+    span.title = kn.role;
+    span.addEventListener('click', () => {
+      if (nodeObjects.has(kn.id)) selectNode(kn.id);
+    });
+    traceKeyNodes.appendChild(span);
+  });
+
+  // Highlight all trace nodes
+  highlightTraceNodes(trace);
+  updateHash();
+}
+
+function getTraceNodeIds(trace) {
+  const ids = new Set();
+  trace.keyNodes.forEach(kn => ids.add(kn.id));
+  trace.routes.forEach(route => route.path.forEach(id => ids.add(id)));
+  if (trace.centerNode) ids.add(trace.centerNode.id);
+  return ids;
+}
+
+function getTraceEdgePairs(trace) {
+  const pairs = new Set();
+  trace.routes.forEach(route => {
+    for (let i = 0; i < route.path.length - 1; i++) {
+      const a = route.path[i], b = route.path[i + 1];
+      pairs.add(`${a}::${b}`);
+      pairs.add(`${b}::${a}`);
+    }
+  });
+  return pairs;
+}
+
+function highlightTraceNodes(trace) {
+  const traceIds = getTraceNodeIds(trace);
+  const traceEdges = getTraceEdgePairs(trace);
+
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (traceIds.has(id)) {
+      m.material.opacity = 1;
+      m.material.emissiveIntensity = 0.5;
+    } else {
+      m.material.opacity = 0.08;
+      m.material.emissiveIntensity = 0.05;
+    }
+  });
+
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    const key = `${edge.from}::${edge.to}`;
+    if (traceEdges.has(key)) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.8;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.02;
+    }
+  });
+
+  // Show labels for trace nodes
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = traceIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+}
+
+function activateRoute(trace, routeIdx) {
+  activeRouteIdx = routeIdx;
+  const route = trace.routes[routeIdx];
+  const routeNodeIds = new Set(route.path);
+
+  // Update route buttons
+  document.querySelectorAll('.trace-route').forEach((el, i) => {
+    el.classList.toggle('active', i === routeIdx);
+  });
+
+  // Highlight only this route's nodes
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (routeNodeIds.has(id)) {
+      m.material.opacity = 1;
+      m.material.emissiveIntensity = 0.6;
+    } else if (getTraceNodeIds(trace).has(id)) {
+      m.material.opacity = 0.25;
+      m.material.emissiveIntensity = 0.15;
+    } else {
+      m.material.opacity = 0.05;
+      m.material.emissiveIntensity = 0.03;
+    }
+  });
+
+  // Highlight route edges
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    let onRoute = false;
+    for (let i = 0; i < route.path.length - 1; i++) {
+      if ((edge.from === route.path[i] && edge.to === route.path[i + 1]) ||
+          (edge.to === route.path[i] && edge.from === route.path[i + 1])) {
+        onRoute = true;
+        break;
+      }
+    }
+    if (onRoute) {
+      line.material.color.set(0x7cb3d4);
+      line.material.opacity = 1;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.02;
+    }
+  });
+
+  // Show labels for route nodes
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = routeNodeIds.has(id) && mesh && mesh.visible && showLabels;
+  });
+
+  // Show route mechanism in info panel
+  if (sidebarInfoActive) {
+    const pathLabels = route.path.map(id => {
+      const n = nodeMap.get(id);
+      return n ? n.label : id;
+    });
+    const pathHtml = route.path.map((id, i) => {
+      const n = nodeMap.get(id);
+      const label = n ? n.label : id;
+      const color = n ? n.color.background : '#555';
+      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:11px;padding:2px 8px">↓</div>` : '';
+      return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
+    }).join('');
+    document.getElementById('info-content').innerHTML = `
+      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:10px;margin-left:6px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
+      <div style="margin:8px 0">${pathHtml}</div>
+      <div class="field" style="font-size:12px;color:#bbb;line-height:1.6">${esc(route.mechanism)}</div>
+    `;
+  }
+
+  // Focus camera on route midpoint
+  const routeMeshes = route.path.map(id => nodeObjects.get(id)).filter(Boolean);
+  if (routeMeshes.length > 0) {
+    const center = new THREE.Vector3(0, 0, 0);
+    routeMeshes.forEach(m => center.add(m.position));
+    center.divideScalar(routeMeshes.length);
+    const cameraOffset = new THREE.Vector3(80, 40, 80);
+    animateCamera(center.clone().add(cameraOffset), center);
+  }
+  updateHash();
+}
+
+function restoreAllFromTrace() {
+  nodeMeshes.forEach(m => {
+    m.material.emissiveIntensity = 0.15;
+    m.material.opacity = 0.92;
+  });
+  edgeObjects.forEach(line => {
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+    line.material.color.set(0x4a4a6a);
+  });
+  restoreDefaultLabels();
+}
+
+// ============================================================
+// Stats
+// ============================================================
+document.getElementById('stats').textContent = `${RAW_NODES.length} nodes · ${RAW_EDGES.length} edges · ${LEGEND.length} communities`;
+
+// ============================================================
+// Animation Loop
+// ============================================================
+function animate() {
+  requestAnimationFrame(animate);
+  
+  if (physicsEnabled) {
+    applyForces();
+  }
+  
+  controls.update();
+  renderer.render(scene, camera);
+  labelRenderer.render(scene, camera);
+}
+
+// ============================================================
+// Resize Handler
+// ============================================================
+window.addEventListener('resize', () => {
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+  renderer.setSize(width, height);
+  labelRenderer.setSize(width, height);
+});
+
+// ============================================================
+// Initialize
+// ============================================================
+document.getElementById('loading').classList.add('hidden');
+animate();
+
+// Restore state from URL hash
+const hashParams = parseHash();
+if (hashParams) {
+  suppressHashUpdate = true;
+  if (hashParams.trace) {
+    const trace = TRACES.find(t => t.id === hashParams.trace);
+    if (trace) {
+      traceSelect.value = trace.id;
+      activateTrace(trace);
+      if (hashParams.route !== undefined) {
+        const routeIdx = parseInt(hashParams.route, 10);
+        if (routeIdx >= 0 && routeIdx < trace.routes.length) {
+          activateRoute(trace, routeIdx);
+        }
+      }
+    }
+  }
+  if (hashParams.node && nodeObjects.has(hashParams.node)) {
+    selectNode(hashParams.node);
+  }
+  suppressHashUpdate = false;
+}
+
+// Handle back/forward navigation
+window.addEventListener('hashchange', () => {
+  const params = parseHash();
+  suppressHashUpdate = true;
+  if (!params || (!params.trace && !params.node)) {
+    if (activeTrace) clearTrace();
+    if (selectedNode) deselectNode();
+  } else {
+    // Handle trace changes
+    if (params.trace) {
+      const trace = TRACES.find(t => t.id === params.trace);
+      if (trace) {
+        if (!activeTrace || activeTrace.id !== trace.id) {
+          traceSelect.value = trace.id;
+          activateTrace(trace);
+        }
+        if (params.route !== undefined) {
+          const routeIdx = parseInt(params.route, 10);
+          if (routeIdx >= 0 && routeIdx < trace.routes.length) {
+            activateRoute(trace, routeIdx);
+          } else if (activeRouteIdx >= 0) {
+            // Route cleared from hash but trace still active
+            activeRouteIdx = -1;
+            highlightTraceNodes(trace);
+            document.querySelectorAll('.trace-route').forEach(el => el.classList.remove('active'));
+          }
+        } else if (activeRouteIdx >= 0) {
+          activeRouteIdx = -1;
+          highlightTraceNodes(trace);
+          document.querySelectorAll('.trace-route').forEach(el => el.classList.remove('active'));
+        }
+      }
+    } else if (activeTrace) {
+      clearTrace();
+    }
+    // Handle node changes
+    if (params.node && nodeObjects.has(params.node)) {
+      selectNode(params.node);
+    } else if (selectedNode) {
+      deselectNode();
+    }
+  }
+  suppressHashUpdate = false;
+});
+</script>
+</body>
+</html>

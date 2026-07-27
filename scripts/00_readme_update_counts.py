@@ -169,13 +169,13 @@ def main():
     )
     parser.add_argument(
         "--notes_dir",
-        default="notes",
-        help="Directory containing topics (default: notes)",
+        default="src/notes",
+        help="Directory containing topics (default: src/notes)",
     )
     parser.add_argument(
         "--tasks_dir",
-        default="tasks",
-        help="Directory containing task outputs (default: tasks)",
+        default="src/tasks",
+        help="Directory containing task outputs (default: src/tasks)",
     )
     parser.add_argument(
         "--output",
@@ -315,7 +315,7 @@ def main():
     total_docs = 0
     for t in topic_data:
         topic_gh = f"https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')}"
-        topic_obsidian = f"[[notes/{t['topic']}/README\\|wiki]]"
+        topic_obsidian = f"[[src/notes/{t['topic']}/README\\|wiki]]"
         topics_table.append(
             f"| [{t['topic']}]({topic_gh}) {topic_obsidian} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
         )
@@ -371,14 +371,14 @@ def main():
     # Build marker-delimited sections
     summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
     doc_list_content = (
-        f"## Documents ({len(document_data)} total)\n\n"
+        "## Documents\n\n"
         "<details>\n"
         f"<summary><strong>Documents ({len(document_data)} total)</strong> — click to expand</summary>\n\n"
         + "\n".join(docs_list)
         + "\n\n</details>"
     )
     task_list_content = (
-        f"## Tasks ({len(task_data)} total)\n\n"
+        "## Tasks\n\n"
         "<details>\n"
         f"<summary><strong>Tasks ({len(task_data)} total)</strong> — click to expand</summary>\n\n"
         + "\n".join(task_list_lines)

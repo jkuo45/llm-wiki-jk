@@ -1,3 +1,0 @@
-/Users/johnnykuo/Documents/llm-wiki-jk/tasks/tbl_tfeb_target_mechanisms.md
-/Users/johnnykuo/Documents/llm-wiki-jk/tasks/triples/triples_as_of_05_JUL_2026.md
-/Users/johnnykuo/Documents/llm-wiki-jk/tasks/triples/triples_as_of_09_JUL_2026.md

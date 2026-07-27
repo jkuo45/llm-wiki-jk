@@ -1,8 +1,8 @@
 import os
 
-def audit_notes_file_types(notes_dir="notes"):
+def audit_notes_file_types(notes_dir="src/notes"):
     """
-    Audits the 'notes' directory to ensure it only contains files with specified
+    Audits the notes directory to ensure it only contains files with specified
     text-based extensions (.md, .json, .svg) or is a .DS_Store file.
 
     Args:
