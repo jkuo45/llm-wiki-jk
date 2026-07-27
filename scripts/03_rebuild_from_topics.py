@@ -127,13 +127,15 @@ def main() -> int:
             sid, tid = norm(subj), norm(obj)
             if not sid or not tid or sid == tid:
                 continue
+            src = t.get("source_document", "") or rel
             for nid, raw in ((sid, subj), (tid, obj)):
                 if nid not in G:
                     G.add_node(
                         nid,
                         label=raw,
                         file_type="concept",
-                        source_file=rel,
+                        source_file=src,
+                        source_triples=rel,
                         description=t.get("context", "")[:300],
                     )
             score, conf = resolve_conf(t)
@@ -146,7 +148,8 @@ def main() -> int:
                     relation=t["predicate"],
                     confidence=conf,
                     confidence_score=score,
-                    source_file=rel,
+                    source_file=src,
+                    source_triples=rel,
                     context=t.get("context", ""),
                 )
         print(
