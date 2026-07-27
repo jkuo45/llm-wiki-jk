@@ -1216,5 +1216,649 @@
     ],
     "mechanism": "Four questions investigated: (1) CD38 NMN depletion → SARM1 protection: plausible, not tested; (2) CD38 KO sensitization: NO — protective (Takaso 2020); (3) Combined synergy: mechanistically sound (shared adduct-forming inhibition, Bratkowski 2022), untested; (4) Microglial co-expression: CD38 YES, SARM1 debated. Key finding: 78c (CD38 inhibitor) and SARM1 inhibitors share the same drug mechanism class. Combined CD38+PARP inhibition fully rescued NAD+ — supporting multi-consumer inhibition.",
     "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
+  },
+  {
+    "id": "adrenochrome-inflammaging-epigenetic",
+    "title": "Adrenochrome → Inflammaging via Epigenetic Bridge",
+    "question": "How does adrenochrome drive inflammaging through epigenetic disruption?",
+    "date": "2026-07-16",
+    "method": "graphify knowledge graph query BFS/shortest-path traversal (1850 nodes, 2388 links)",
+    "summary": "Adrenochrome (an electrophilic quinone metabolite of epinephrine) covalently modifies DGCR8/Drosha \u2014 the heme-binding RNA sensors of the Microprocessor complex \u2014 disrupting miRNA biogenesis. This unleashes senescence-associated miRNAs (miR-217, miR-378, miR-543) that drive cellular senescence and SASP, the canonical driver of inflammaging. A parallel tissue-level path goes through myocardial infarction \u2192 neutrophil recruitment \u2192 acute inflammation.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
+    "centerNode": {
+      "id": "adrenochrome",
+      "label": "Adrenochrome"
+    },
+    "routes": [
+      {
+        "name": "The Epigenetic Bridge (DGCR8)",
+        "hops": 2,
+        "path": [
+          "adrenochrome",
+          "dgcr8",
+          "inflammaging"
+        ],
+        "mechanism": "Adrenochrome covalently modifies DGCR8 (the heme-binding RNA sensor of the Microprocessor complex), disrupting miRNA biogenesis \u2014 altering the epigenetic network controlling inflammaging."
+      },
+      {
+        "name": "Parallel Drosha Route",
+        "hops": 2,
+        "path": [
+          "adrenochrome",
+          "drosha",
+          "inflammaging"
+        ],
+        "mechanism": "Electrophilic quinone modification of the Drosha/DGCR8 Microprocessor disrupts miRNA processing, unleashing pro-inflammatory gene programs."
+      },
+      {
+        "name": "The Myocardial/Neutrophil Route",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "myocardial_infarction",
+          "neutrophils",
+          "inflammation"
+        ],
+        "mechanism": "Adrenochrome exacerbates myocardial infarction \u2192 MI recruits neutrophils \u2192 neutrophils drive acute inflammation (tissue-level, non-epigenetic path)."
+      },
+      {
+        "name": "Senescence/SASP Cascade (DGCR8)",
+        "hops": 5,
+        "path": [
+          "adrenochrome",
+          "dgcr8",
+          "senescence",
+          "cellular_senescence",
+          "sasp",
+          "inflammaging"
+        ],
+        "mechanism": "Full cascade: adrenochrome disrupts Microprocessor \u2192 miRNA dysregulation triggers senescence \u2192 senescent cells secrete SASP \u2192 SASP drives inflammaging."
+      },
+      {
+        "name": "Senescence/SASP Cascade (Drosha)",
+        "hops": 5,
+        "path": [
+          "adrenochrome",
+          "drosha",
+          "senescence",
+          "cellular_senescence",
+          "sasp",
+          "inflammaging"
+        ],
+        "mechanism": "Same mechanism via Drosha: electrophilic modification disrupts miRNA processing \u2192 senescence \u2192 SASP \u2192 inflammaging."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "adrenochrome",
+        "label": "Adrenochrome",
+        "role": "Electrophilic quinone metabolite of epinephrine"
+      },
+      {
+        "id": "dgcr8",
+        "label": "DGCR8",
+        "role": "Heme-binding Microprocessor cofactor; covalent target"
+      },
+      {
+        "id": "drosha",
+        "label": "Drosha",
+        "role": "RNase III catalytic partner of DGCR8"
+      },
+      {
+        "id": "senescence",
+        "label": "Senescence",
+        "role": "Cellular senescence program"
+      },
+      {
+        "id": "sasp",
+        "label": "SASP",
+        "role": "Senescence-Associated Secretory Phenotype"
+      },
+      {
+        "id": "inflammaging",
+        "label": "Inflammaging",
+        "role": "Chronic age-related inflammatory state"
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "role": "Acute tissue inflammation"
+      },
+      {
+        "id": "myocardial_infarction",
+        "label": "Myocardial infarction",
+        "role": "Tissue-level pathology link"
+      },
+      {
+        "id": "neutrophils",
+        "label": "Neutrophils",
+        "role": "Innate immune cells driving inflammation"
+      },
+      {
+        "id": "mir_217",
+        "label": "miR-217",
+        "role": "Senescence-associated miRNA"
+      },
+      {
+        "id": "mir_378",
+        "label": "miR-378",
+        "role": "Senescence-associated miRNA"
+      },
+      {
+        "id": "mir_543",
+        "label": "miR-543",
+        "role": "Senescence-associated miRNA"
+      }
+    ],
+    "mechanism": "Adrenochrome\u2019s quinone moiety (indoline-5,6-dione) acts as an electrophile modifying thiol groups on DGCR8/Drosha. Since DGCR8 is a heme-binding protein with cysteine residues critical for RNA recognition, this covalent modification degrades Microprocessor fidelity. The downstream miRNAs \u2014 including miR-217, miR-378, and miR-543 \u2014 are senescence-associated regulators. Their dysregulation activates senescence programs, SASP factor secretion, and inflammaging. The connection crosses 4 communities: C11 (adrenochrome chemistry) \u2192 C18/C15 (epigenetics/miRNA processing) \u2192 C4 (senescence/SASP/inflammaging) \u2192 C73 (tissue inflammation). DGCR8 and Drosha are the molecular hinge where a chemical metabolite translates into an epigenetic perturbation driving aging-associated inflammation.",
+    "sourceFile": "src/tasks/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
+  },
+  {
+    "id": "adrenochrome-autophagy-mitophagy-foam-cells",
+    "title": "Adrenochrome \u2192 Autophagy/Mitophagy & Foam Cells",
+    "question": "How does adrenochrome connect to autophagy/mitophagy and foam cell biology?",
+    "date": "2026-07-17",
+    "method": "graphify BFS/shortest-path traversal of graphify-out/graph.json",
+    "summary": "Two convergent traces: (1) Adrenochrome connects to autophagy/mitophagy through the Mitohormetic Redox-Relay (MRR) as a hormetic trigger at sub-\u00b5M doses \u2014 redox cycling at Complex I/III generates a confined superoxide pulse \u2192 SOD2 \u2192 H\u2082O\u2082 \u2192 Keap1 modification \u2192 NRF2/ATF4/PGC1-\u03b1 \u2192 TFEB/FOXO \u2192 mitophagy via Urolithin A/PINK1/Parkin. (2) Foam Cells bridge oxidative stress (glycation branch via Methylglyoxal/AGEs + redox branch) to atherosclerosis and TFEB-controlled lipophagy/autophagy, converging on TFEB as a three-community god node.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
+    "centerNode": {
+      "id": "adrenochrome",
+      "label": "Adrenochrome"
+    },
+    "routes": [
+      {
+        "name": "Graph path: Adrenochrome \u2192 Autophagy (toxic route)",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "oxidative_stress",
+          "foam_cells",
+          "autophagy"
+        ],
+        "mechanism": "The graph-discovered path runs through Oxidative Stress \u2192 Foam Cells, representing the toxic atherosclerosis route (distinct from the beneficial MRR branch)."
+      },
+      {
+        "name": "MRR beneficial cascade (TFEB arm)",
+        "hops": 3,
+        "path": [
+          "adrenochrome",
+          "tfeb",
+          "autophagy"
+        ],
+        "mechanism": "Under the beneficial/hormetic framing, the Mitohormetic Redox-Relay converges on TFEB/FOXO as quality-control transcription factors that drive autophagy and mitophagy gene programs. TFEB is the master regulator of autophagy/lysosomal biogenesis (CLEAR network)."
+      },
+      {
+        "name": "Glycation branch \u2192 Foam Cells",
+        "hops": 4,
+        "path": [
+          "methylglyoxal",
+          "advanced_glycation_end_products",
+          "low_density_lipoprotein",
+          "foam_cells"
+        ],
+        "mechanism": "Under hyperglycemic/pro-oxidative conditions, Methylglyoxal and Glucose form AGEs on ApoB-100, oxidizing LDL and making it a high-affinity scavenger-receptor ligand \u2014 the metabolic-dysfunction to vascular-disease link."
+      },
+      {
+        "name": "Redox + clearance branch (TFEB lipophagy)",
+        "hops": 3,
+        "path": [
+          "oxidative_stress",
+          "foam_cells",
+          "autophagy"
+        ],
+        "mechanism": "Foam-cell formation is amplified by oxidative stress and impaired autophagy (inefficient cholesterol efflux, defective autophagic clearance). This is the TFEB-controlled lysosomal/lipophagy arm."
+      },
+      {
+        "name": "Terminal/inflammatory branch",
+        "hops": 3,
+        "path": [
+          "foam_cells",
+          "cell_necrosis",
+          "inflammation"
+        ],
+        "mechanism": "Foam cells necrose, seeding the plaque necrotic core; efferocytosis failure perpetuates inflammation."
+      },
+      {
+        "name": "Foam Cells \u2192 Atherosclerosis (direct)",
+        "hops": 1,
+        "path": [
+          "foam_cells",
+          "atherosclerosis"
+        ],
+        "mechanism": "Foam cells are the hallmark lesion of early atherosclerosis \u2014 lipid-laden macrophages in the arterial intima."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "adrenochrome",
+        "label": "Adrenochrome",
+        "role": "Hormetic trigger at sub-\u00b5M / toxin at \u00b5M+"
+      },
+      {
+        "id": "carbazochrome",
+        "label": "Carbazochrome",
+        "role": "Stabilized adrenochrome, redox-cycles at Complex I/III"
+      },
+      {
+        "id": "mitohormesis",
+        "label": "Mitohormesis",
+        "role": "Adaptive mitochondrial stress response"
+      },
+      {
+        "id": "keap1",
+        "label": "Keap1",
+        "role": "ROS sensor, NRF2 inhibitor (cysteine modification)"
+      },
+      {
+        "id": "nrf2",
+        "label": "NRF2",
+        "role": "Master antioxidant transcription factor"
+      },
+      {
+        "id": "atf4",
+        "label": "ATF4",
+        "role": "Integrated stress response transcription factor"
+      },
+      {
+        "id": "pgc1",
+        "label": "PGC1\u03b1",
+        "role": "Mitochondrial biogenesis driver"
+      },
+      {
+        "id": "tfeb",
+        "label": "TFEB",
+        "role": "Master regulator of autophagy/lysosomal biogenesis"
+      },
+      {
+        "id": "foxo",
+        "label": "FOXO",
+        "role": "Quality-control transcription factor"
+      },
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Cellular quality control pathway"
+      },
+      {
+        "id": "mitophagy",
+        "label": "Mitophagy",
+        "role": "Selective mitochondrial autophagy"
+      },
+      {
+        "id": "urolithin_a",
+        "label": "Urolithin A",
+        "role": "Inducer of PINK1/Parkin mitophagy"
+      },
+      {
+        "id": "foam_cells",
+        "label": "Foam Cells",
+        "role": "Bridge node: oxidative stress \u2194 atherosclerosis \u2194 autophagy"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "Shared upstream with adrenochrome redox cycling"
+      },
+      {
+        "id": "methylglyoxal",
+        "label": "Methylglyoxal",
+        "role": "Glycation agent, glycation branch driver"
+      },
+      {
+        "id": "advanced_glycation_end_products",
+        "label": "Advanced Glycation End Products",
+        "role": "Modified LDL ligands for scavenger receptors"
+      },
+      {
+        "id": "low_density_lipoprotein",
+        "label": "Low-Density Lipoprotein",
+        "role": "Substrate for glycation/oxidation"
+      },
+      {
+        "id": "atherosclerosis",
+        "label": "Atherosclerosis",
+        "role": "Disease outcome of foam cell accumulation"
+      },
+      {
+        "id": "cell_necrosis",
+        "label": "Cell necrosis",
+        "role": "Foam cell death \u2192 necrotic core"
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "role": "Terminal inflammatory cascade"
+      },
+      {
+        "id": "macrophages",
+        "label": "Macrophages",
+        "role": "Foam cell precursor cells"
+      },
+      {
+        "id": "lipophagy",
+        "label": "Lipophagy",
+        "role": "Selective autophagic clearance of lipids"
+      },
+      {
+        "id": "lysosome",
+        "label": "Lysosome",
+        "role": "Degradative organelle, TFEB target"
+      }
+    ],
+    "mechanism": "Two convergent traces share TFEB as the central hub:\n\nTrace 1 \u2014 Adrenochrome \u2192 Autophagy/Mitophagy (beneficial MRR): Carbazochrome (stabilized adrenochrome) redox-cycles at Complex I/III, emitting a spatially constrained superoxide pulse. SOD2 \u2192 H\u2082O\u2082 exits via aquaporins \u2192 modifies Keap1, releasing NRF2. Matrix ROS also drives the Integrated Stress Response (OMA1\u2192OPA1\u2192DELE1\u2192HRI\u2192ATF4). Convergence on TFEB/FOXO activates autophagy and mitophagy (Urolithin A \u2192 PINK1/Parkin).\n\nTrace 2 \u2014 Foam Cells: Foam Cells sit at the intersection of three communities: (1) Glycation \u2014 Methylglyoxal/AGEs on ApoB-100 produce oxidized LDL \u2192 scavenger receptor uptake; (2) Redox + clearance \u2014 Oxidative Stress amplifies foam cell formation, impairing TFEB-controlled lipophagy; (3) Terminal \u2014 Foam cell necrosis seeds plaque necrotic core, perpetuating inflammation.\n\nConvergence: TFEB bridges all three \u2014 lipophagy in foam cells, mitophagy in the MRR, and the autophagy/lysosomal quality-control network.",
+    "sourceFile": "src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
+  },
+  {
+    "id": "ivermectin-cancer-repositioning",
+    "title": "Ivermectin Cancer Repositioning \u2014 Antiparasitic to Anticancer Trace",
+    "question": "How does ivermectin transition from antiparasitic macrocyclic lactone to repositioned anticancer agent across the knowledge graph?",
+    "date": "2026-07-15",
+    "method": "graphify query BFS traversal (depth=2) on graphify-out/graph.json",
+    "summary": "Ivermectin occupies community 10 (antiparasitic) and crosses into oncogenic communities via a pharmacological bridge: humans lack GluCl channels (its antiparasitic target), requiring ~100\u00d7 higher concentrations for vertebrate targets, creating a safety margin that enables repurposing. At therapeutic concentrations, ivermectin engages mammalian kinases (PAK1, YAP1, Akt/mTOR) instead of GluCls \u2014 inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance across lung, prostate, liver, colon, and breast cancers. The corpus has no primary prevention evidence; all findings are preclinical treatment/adjuvant contexts.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md",
+    "centerNode": {
+      "id": "ivermectin",
+      "label": "Ivermectin"
+    },
+    "routes": [
+      {
+        "name": "Antiparasitic origin \u2192 safety margin pivot",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "drug_repositioning"
+        ],
+        "mechanism": "Ivermectin is a semi-synthetic avermectin derivative targeting invertebrate GluCl channels. Humans lack GluCls; the ~100\u00d7 safety margin allows repurposing to mammalian targets (PAK1, YAP1, Akt/mTOR). The Drug Repositioning community (C33) clusters ivermectin with fenbendazole and mebendazole."
+      },
+      {
+        "name": "PAK1 primary kinase target",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "pak1"
+        ],
+        "mechanism": "PAK1 is ivermectin\u2019s primary mammalian kinase target. PAK1 drives proliferation and the PAK1\u2013STAT3 axis fueling cancer stem cells. Inhibition blocks growth signaling across tumor types."
+      },
+      {
+        "name": "Cancer stem cell axis",
+        "hops": 3,
+        "path": [
+          "ivermectin",
+          "pak1",
+          "cancer_stem_cells"
+        ],
+        "mechanism": "Ivermectin inhibits PAK1 \u2192 STAT3 activation suppressed \u2192 cancer stem cell self-renewal blocked. This is the stem-cell-targeting mechanism distinguishing ivermectin from conventional chemotherapy."
+      },
+      {
+        "name": "Akt/mTOR apoptosis/autophagy",
+        "hops": 3,
+        "path": [
+          "ivermectin",
+          "akt",
+          "autophagy"
+        ],
+        "mechanism": "Ivermectin inhibits Akt/mTOR signaling, inducing both autophagy and apoptosis across tumor cell lines (lung, glioblastoma, HCC). This converges on the PI3K-Akt/mTOR community (C42)."
+      },
+      {
+        "name": "YAP1 Hippo-pathway target",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "yap1"
+        ],
+        "mechanism": "Ivermectin inhibits YAP1 (Hippo-effector oncogene) in gastric and liver cancers, affecting hepatocellular carcinoma and lung cancer growth."
+      },
+      {
+        "name": "Multidrug resistance reversal",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "multidrug_resistance"
+        ],
+        "mechanism": "Ivermectin reverses multidrug resistance by inhibiting P-gp, resensitizing resistant tumor cells to cisplatin, docetaxel, paclitaxel, and other chemotherapeutics."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "ivermectin",
+        "label": "Ivermectin",
+        "role": "Central repurposed agent (community 10)"
+      },
+      {
+        "id": "drug_repositioning",
+        "label": "Drug Repositioning",
+        "role": "Strategic cluster with Fenbendazole/Mebendazole (community 33)"
+      },
+      {
+        "id": "pak1",
+        "label": "PAK1",
+        "role": "Primary host kinase target (community 15)"
+      },
+      {
+        "id": "yap1",
+        "label": "YAP1",
+        "role": "Hippo-effector oncogene target"
+      },
+      {
+        "id": "akt",
+        "label": "Akt",
+        "role": "Survival kinase, inhibited by ivermectin (community 42)"
+      },
+      {
+        "id": "mtor",
+        "label": "mTOR",
+        "role": "Growth pathway mTOR, inhibited by ivermectin"
+      },
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Cell death pathway induced by ivermectin"
+      },
+      {
+        "id": "cancer_stem_cells",
+        "label": "Cancer Stem Cells",
+        "role": "Target of PAK1\u2013STAT3 axis inhibition"
+      },
+      {
+        "id": "multidrug_resistance",
+        "label": "Multidrug Resistance",
+        "role": "Reversed via P-gp inhibition"
+      },
+      {
+        "id": "stat3",
+        "label": "STAT3",
+        "role": "PAK1 downstream effector in stem cell signaling"
+      },
+      {
+        "id": "fenbendazole",
+        "label": "Fenbendazole",
+        "role": "Co-clustered repositioned agent (community 33)"
+      },
+      {
+        "id": "cancer",
+        "label": "Cancer",
+        "role": "Disease context for repositioning"
+      }
+    ],
+    "mechanism": "Ivermectin\u2019s repurposing rests on a pharmacological bridge across communities 10 \u2192 15/42/33. The antiparasitic mechanism (GluCl agonism) is invertebrate-specific, creating a wide safety margin. The same molecule at therapeutic concentrations engages three mammalian target classes: (1) PAK1 \u2014 primary kinase target, drives cancer stem cells via STAT3; (2) Akt/mTOR \u2014 survival pathway, inhibition induces autophagy/apoptosis; (3) YAP1 \u2014 Hippo-pathway oncogene. The Drug Repositioning cluster (community 33) groups ivermectin with fenbendazole/mebendazole as repurposed anticancer agents. Critical caveat: no primary prevention evidence exists in the corpus; all findings are preclinical treatment/adjuvant contexts with clinical validation flagged as a research priority.",
+    "sourceFile": "src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
+  },
+  {
+    "id": "cr-spermidine-autophagy-comparison",
+    "title": "Caloric Restriction vs Spermidine \u2014 Autophagy Pathway Comparison & Additive Combinations",
+    "question": "How do CR and spermidine induce autophagy through different pathways, and where can they combine additively?",
+    "date": "2026-07-15",
+    "method": "Wiki knowledge graph traversal + manual synthesis (communities 7/79, 281, 53, 58)",
+    "summary": "CR and spermidine both induce autophagy but through orthogonal mechanisms. CR triggers autophagy as a starvation response via AMPK \u2192 ULK1, SIRT1 \u2192 FOXO/TFEB, and mTORC1 inhibition. Spermidine induces autophagy without caloric deficit via HAT/p300 inhibition (deacetylating Atg proteins) and eIF5A hypusination \u2192 TFEB translation. They converge on TFEB from opposite directions: CR via energy-sensing, spermidine via translational control. Combinations are additive: CR + rapamycin covers pathways CR misses in old age (mTORC1); CR + spermidine attacks acetylation from both protein-deacetylation and transcription-level sides.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+    "centerNode": {
+      "id": "autophagy",
+      "label": "Autophagy"
+    },
+    "routes": [
+      {
+        "name": "CR \u2192 AMPK \u2192 Autophagy (energy sensing)",
+        "hops": 2,
+        "path": [
+          "caloric_restriction",
+          "ampk",
+          "autophagy"
+        ],
+        "mechanism": "Caloric restriction raises AMP/ATP ratio \u2192 AMPK activation \u2192 ULK1 phosphorylation \u2192 autophagy initiation. This is the canonical energy-sensing pathway (communities 7/79 \u2192 58)."
+      },
+      {
+        "name": "CR \u2192 SIRT1 \u2192 Autophagy gene expression",
+        "hops": 2,
+        "path": [
+          "caloric_restriction",
+          "sirt1",
+          "autophagy"
+        ],
+        "mechanism": "CR elevates NAD+ \u2192 SIRT1 deacetylates FOXO3a, TFEB, and Atg proteins (Atg5, Atg7, LC3) \u2192 transcriptional activation of autophagy and lysosomal biogenesis genes."
+      },
+      {
+        "name": "Dietary Restriction \u2192 mTORC1 \u2192 ULK1 de-repression",
+        "hops": 3,
+        "path": [
+          "dietary_restriction",
+          "mtorc1",
+          "autophagy"
+        ],
+        "mechanism": "Dietary restriction inhibits mTORC1 \u2192 relieves ULK1 inhibition (ULK1 Ser757 dephosphorylation) \u2192 ULK1/ATG13/FIP200 complex activated \u2192 autophagy."
+      },
+      {
+        "name": "Dietary Restriction \u2192 FOXO \u2192 TFEB \u2192 autophagy",
+        "hops": 3,
+        "path": [
+          "dietary_restriction",
+          "foxo",
+          "autophagy"
+        ],
+        "mechanism": "Dietary restriction activates FOXO transcription factors \u2192 FOXO transactivates TFEB \u2192 TFEB drives CLEAR network genes \u2192 lysosomal biogenesis + autophagy."
+      },
+      {
+        "name": "Spermidine \u2192 HAT/p300 inhibition \u2192 Autophagy",
+        "hops": 3,
+        "path": [
+          "spermidine",
+          "p300",
+          "autophagy"
+        ],
+        "mechanism": "Spermidine inhibits histone acetyltransferases (p300) \u2192 global deacetylation \u2192 deacetylation of Atg proteins \u2192 autophagy induction. Independent of SIRT1 and caloric deficit."
+      },
+      {
+        "name": "Spermidine \u2192 eIF5A \u2192 TFEB translation \u2192 Autophagy",
+        "hops": 3,
+        "path": [
+          "spermidine",
+          "eif5a",
+          "autophagy"
+        ],
+        "mechanism": "Spermidine drives eIF5A hypusination \u2192 enhanced translation of TFEB mRNA \u2192 TFEB protein increases \u2192 lysosomal biogenesis and autophagy gene expression."
+      },
+      {
+        "name": "CR + Rapamycin additive (age-dependent complementarity)",
+        "hops": 3,
+        "path": [
+          "caloric_restriction",
+          "rapamycin",
+          "autophagy"
+        ],
+        "mechanism": "CR works maximally in youth (epigenetic clock slowing) but fails to inhibit mTOR in old mice. Rapamycin strongly inhibits mTORC1 at any age. Combined: CR\u2019s SIRT1/FOXO/IGF-1 benefits + rapamycin\u2019s late-life mTORC1 inhibition = additive lifespan extension."
+      },
+      {
+        "name": "CR + Spermidine dual-acetylation attack",
+        "hops": 2,
+        "path": [
+          "spermidine",
+          "sirt1"
+        ],
+        "mechanism": "CR/SIRT1 removes acetyl groups from proteins (Atg5, Atg7, LC3, FOXO3a); spermidine/HAT inhibition prevents acetyl groups from being added to histones at Atg gene promoters. Orthogonal but convergent on autophagy."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Convergent effector pathway (community 53)"
+      },
+      {
+        "id": "caloric_restriction",
+        "label": "Caloric Restriction",
+        "role": "Starvation-response trigger (community 7/79)"
+      },
+      {
+        "id": "dietary_restriction",
+        "label": "Dietary Restriction",
+        "role": "Broad dietary intervention, overlaps with CR"
+      },
+      {
+        "id": "spermidine",
+        "label": "Spermidine",
+        "role": "Polyamine autophagy inducer (community 281)"
+      },
+      {
+        "id": "ampk",
+        "label": "AMPK",
+        "role": "Energy-sensing kinase, CR effector"
+      },
+      {
+        "id": "sirt1",
+        "label": "SIRT1",
+        "role": "NAD+-dependent deacetylase, CR effector"
+      },
+      {
+        "id": "mtorc1",
+        "label": "mTORC1",
+        "role": "Growth-regulatory complex, CR/rapamycin target"
+      },
+      {
+        "id": "foxo",
+        "label": "FOXO",
+        "role": "Transcription factor, CR-SIRT1 downstream target"
+      },
+      {
+        "id": "tfeb",
+        "label": "TFEB",
+        "role": "Master autophagy/lysosomal gene regulator (convergence point)"
+      },
+      {
+        "id": "ulk1",
+        "label": "ULK1",
+        "role": "Autophagy initiation kinase, mTORC1 substrate"
+      },
+      {
+        "id": "p300",
+        "label": "P300",
+        "role": "Histone acetyltransferase, spermidine target"
+      },
+      {
+        "id": "eif5a",
+        "label": "eIF5A",
+        "role": "Translation factor, spermidine-hypusinated"
+      },
+      {
+        "id": "rapamycin",
+        "label": "Rapamycin",
+        "role": "mTORC1 inhibitor, additive with CR"
+      },
+      {
+        "id": "igf1",
+        "label": "IGF1",
+        "role": "Growth factor reduced by CR (independent of autophagy)"
+      },
+      {
+        "id": "pgc1_alpha",
+        "label": "PGC1-alpha",
+        "role": "Mitochondrial biogenesis, CR-SIRT1 target"
+      },
+      {
+        "id": "bnip3",
+        "label": "BNIP3",
+        "role": "Mitophagy receptor, FOXO3a target (CR-specific)"
+      }
+    ],
+    "mechanism": "CR and spermidine converge on autophagy through orthogonal upstream mechanisms:\n\nCR Pathway (energy-sensing): CR \u2192 \u2191AMP/ATP \u2192 AMPK activation \u2192 ULK1 (direct). CR \u2192 \u2191NAD+ \u2192 SIRT1 deacetylates FOXO3a/TFEB/Atg proteins \u2192 autophagy gene expression. CR \u2192 mTORC1 inhibition (indirect) \u2192 ULK1 de-repression. CR also activates the FOXO3a \u2192 BNIP3 mitophagy axis, a selective mitochondrial clearance pathway not engaged by diet-based inducers.\n\nSpermidine Pathway (epigenetic/translational): Spermidine \u2192 HAT/p300 inhibition \u2192 deacetylation of histones at Atg gene promoters + direct deacetylation of Atg proteins. Spermidine \u2192 eIF5A hypusination \u2192 enhanced TFEB translation \u2192 lysosomal biogenesis.\n\nAdditive Combinations: (1) CR + Rapamycin \u2014 rapamycin works when CR fails (old age), CR adds sirtuin/epigenetic/IGF-1 benefits rapamycin lacks; (2) CR + Spermidine \u2014 attacks acetylation from both protein-deacetylation (SIRT1) and transcription-prevention (HATi) sides; (3) CR + Rapamycin + Exercise \u2014 covers AMPK, SIRT1, mTORC1, IGF-1, FOXO, TFEB in a sequence exploiting rapamycin-induced lipolysis as exercise fuel.",
+    "sourceFile": "src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
   }
 ]
