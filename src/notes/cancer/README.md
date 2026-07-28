@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 26_July_2026 12:00 PM PDT
-- Total count of entities: 325
+- Last updated: 28_July_2026 04:00 PM PDT
+- Total count of entities: 330
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -90,7 +90,9 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Extrinsic Pathway]] | 31_May_2026 05:30 PM PDT | Biological Process | 9 | 0 | Death receptor-mediated pathway of programmed cell death. |
 | [[FAK]] | 26_May_2026 05:03 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Fas]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Death receptor that initiates the extrinsic apoptotic pathway upon ligand binding. |
-| [[Fenbendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Benzimidazole anthelmintic showing significant potential in disrupting microtubule dynamics in cancer. |
+| [[Fenbendazole]] | 28_July_2026 03:00 PM PDT | Chemical Compound | 10 | 1 | Benzimidazole anthelmintic; repurposed anticancer agent via glycolysis inhibition, microtubule destabilization, and p53-dependent apoptosis. |
+| [[Fenbendazole sulfone]] | 28_July_2026 03:00 PM PDT | Metabolite | 6 | 0 | Oxidized fenbendazole metabolite that predominates in plasma but lacks the active biological role of oxfendazole. |
+| [[Hydroxyfenbendazole]] | 28_July_2026 03:00 PM PDT | Metabolite | 6 | 0 | Hydroxylated fenbendazole metabolite formed by CYP2J2/CYP2C19; major excretory product after IV dosing. |
 | [[FOLFIRI]] | 26_Jul_2026 12:00 PM PDT | Chemotherapy Regimen | 8 | -1 | Combination chemotherapy (5-FU/leucovorin/irinotecan); induces NAD+ loss and Nrk2 downregulation in skeletal muscle. |
 | [[FOLFOX]] | 26_Jul_2026 12:00 PM PDT | Chemotherapy Regimen | 8 | -1 | Combination chemotherapy (5-FU/leucovorin/oxaliplatin); downregulates muscle Nrk2 despite preserved NAD+ levels. |
 | [[Fibrinogen]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -254,6 +256,9 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Anaplerosis]] | 25_July_2026 12:00 PM PDT | Biological Process | 7 | 0 | Replenishment of TCA cycle intermediates; glutamine anaplerosis is the dominant route in MYC-high cancer cells. |
 | [[Synthetic Lethality]] | 25_July_2026 12:00 PM PDT | Scientific Concept | 9 | 1 | Therapeutic strategy; combined Complex I + glutaminolysis inhibition selectively kills MYC-high cells. |
 | [[Glutaminolysis]] | 25_July_2026 12:00 PM PDT | Biological Process | 8 | 0 | Metabolic pathway of glutamine catabolism for TCA cycle entry; MYC enhances glutaminolysis in cancer. |
+| [[Diffuse large B-cell lymphoma]] | 28_July_2026 03:00 PM PDT | Cancer Type | 8 | -1 | Most common aggressive non-Hodgkin lymphoma; fenbendazole self-administration case with radiographic improvement. |
+| [[R-CHOP]] | 28_July_2026 03:00 PM PDT | Chemotherapy Regimen | 8 | -1 | First-line DLBCL regimen (rituximab + cyclophosphamide/doxorubicin/vincristine/prednisone). |
+| [[EMT6]] | 28_July_2026 04:00 PM PDT | Cell Line | 7 | 0 | Mouse mammary tumor cell line; negative-result model for fenbendazole in vivo anticancer activity. |
 
 ## Consolidated to notes/_link/
 

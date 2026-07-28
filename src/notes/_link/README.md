@@ -10,10 +10,36 @@ updated: 2026-07-26
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 27_July_2026 12:00 PM PDT
-- Total count of entities: 445
+- Last updated: 28_July_2026 04:00 PM PDT
+- Total count of entities: 471
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
+| [[5-Fluorouracil]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy |
+| [[Vinblastine]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy, Microtubule |
+| [[Dimethyl Sulfoxide]] | 28_July_2026 03:00 PM PDT | solvent | Cancer, Excipient, Pharmacokinetics |
+| [[γH2AX]] | 28_July_2026 03:00 PM PDT | biomarker | DNA Damage, Cancer, Apoptosis |
+| [[Flavin-containing Monooxygenase]] | 28_July_2026 03:00 PM PDT | enzyme | Drug Metabolism, Cancer |
+| [[Pembrolizumab]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Immunotherapy |
+| [[Pazopanib]] | 28_July_2026 03:00 PM PDT | drug | Cancer, TKI, Angiogenesis |
+| [[Methyl-beta-cyclodextrin]] | 28_July_2026 03:00 PM PDT | excipient | Cancer, Solubilizer, Pharmacokinetics |
+| [[Glucose uptake]] | 28_July_2026 03:00 PM PDT | biological-process | Cancer, Metabolism, Glycolysis |
+| [[Drug Resistance]] | 28_July_2026 03:00 PM PDT | biological-process | Cancer, Chemotherapy |
+| [[Cyclodextrin]] | 28_July_2026 03:00 PM PDT | excipient | Solubilizer, Pharmacokinetics |
+| [[Thymidylate Synthase]] | 28_July_2026 03:00 PM PDT | enzyme | Cancer, Chemotherapy Target |
+| [[VEGFR]] | 28_July_2026 03:00 PM PDT | receptor | Cancer, Angiogenesis, TKI |
+| [[c-KIT]] | 28_July_2026 03:00 PM PDT | receptor | Cancer, TKI, GIST |
+| [[DNA-PK]] | 28_July_2026 03:00 PM PDT | enzyme | DNA Repair, Cancer |
+| [[Soluplus]] | 28_July_2026 03:00 PM PDT | excipient | Cancer, Micelle, Pharmacokinetics |
+| [[Salicylic acid]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Excipient, Solubilizer |
+| [[Imatinib]] | 28_July_2026 03:00 PM PDT | drug | Cancer, TKI, GIST |
+| [[Sunitinib]] | 28_July_2026 03:00 PM PDT | drug | Cancer, TKI, Angiogenesis |
+| [[Flubendazole]] | 28_July_2026 04:00 PM PDT | drug | Cancer, Benzimidazole, Anthelmintic |
+| [[Radiation Therapy]] | 28_July_2026 04:00 PM PDT | therapy | Cancer, Oncology, Hypoxia |
+| [[Colchicine]] | 28_July_2026 04:00 PM PDT | drug | Cancer, Microtubule, Gout |
+| [[Podophyllotoxin]] | 28_July_2026 04:00 PM PDT | drug | Cancer, Microtubule |
+| [[Nitroimidazole]] | 28_July_2026 04:00 PM PDT | drug-class | Cancer, Radiosensitizer, Hypoxia |
+| [[DNA Helicase]] | 28_July_2026 04:00 PM PDT | enzyme | DNA Replication, Cancer |
+| [[Radiosensitizer]] | 28_July_2026 04:00 PM PDT | drug-class | Cancer, Radiation Therapy, Hypoxia |
 | [[Checkpoint Inhibitor]] | 25_July_2026 12:00 PM PDT | drug-class | Cancer, Immunology |
 | [[Tumor Antigen]] | 25_July_2026 12:00 PM PDT | antigen | Cancer, Immunology |
 | [[CD94]] | 25_July_2026 12:00 PM PDT | receptor | Immunology, NK Cell |

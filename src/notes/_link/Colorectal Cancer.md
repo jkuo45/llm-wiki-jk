@@ -47,7 +47,7 @@ List of documents that mention this entity
   - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
     - In a study that screened Wnt pathway inhibitors, IVM inhibited the proliferation of multiple cancers, including the Colorectal Cancer cell lines CC14, CC36, DLD1, and Ls174 T, and promoted Apoptosis by blocking the Wnt pathway \[\].
 
-  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals 1|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
     - Mentioned in this document
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
