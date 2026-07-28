@@ -14,6 +14,7 @@
 - `src/tasks` directory:
   - Contains task outputs. Default to saving task outputs to this directory.
 - **Heading and sub-heading enumeration**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
+- Execute python scripts using `uv run --with`.
 
 ## Retrieval Guidelines:
 
