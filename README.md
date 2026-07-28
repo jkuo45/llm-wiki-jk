@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 27_JUL_2026 | 28 | 1442 | 850,275 | 7.13 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 25_JUL_2026 | 19 | 263 | 200,228 | 2.67 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 28_JUL_2026 | 28 | 1444 | 850,025 | 7.12 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 27_JUL_2026 | 19 | 263 | 200,657 | 2.66 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 25_JUL_2026 | 12 | 233 | 180,961 | 1.54 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 26_JUL_2026 | 10 | 265 | 230,441 | 2.40 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 28_JUL_2026 | 10 | 262 | 228,945 | 2.39 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 25_JUL_2026 | 2 | 34 | 20,598 | 0.27 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 25_JUL_2026 | 9 | 195 | 198,594 | 1.67 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 25_JUL_2026 | 2 | 73 | 53,389 | 0.61 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 25_JUL_2026 | 1 | 65 | 68,196 | 0.89 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 26_JUL_2026 | 14 | 46 | 131,622 | 1.64 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 26_JUL_2026 | 10 | 128 | 196,575 | 1.78 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 27_JUL_2026 | 15 | 47 | 144,385 | 1.80 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 26_JUL_2026 | 10 | 128 | 196,575 | 1.76 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 27_JUL_2026 | **107** | **2744** | **2,130,879** | **20.59 MB** |
+| **subtotal** | 28_JUL_2026 | **108** | **2744** | **2,142,613** | **20.71 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -100,8 +100,9 @@
 ## Documents
 
 <details>
-<summary><strong>Documents (107 total)</strong> — click to expand</summary>
+<summary><strong>Documents (108 total)</strong> — click to expand</summary>
 
+- `senescence`: [The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence%20orchestrating%20SASP%20expression.md) [[src/notes/senescence/_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md|wiki]] (28_JUL_2026 10:20 AM PDT)
 - `_link`: [Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Mitochondrial%20Drivers%20Stem%20Cell%20Aging%20Inflammaging%20Bautista%202026.md) [[src/notes/_link/_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md|wiki]] (26_JUL_2026 12:55 AM PDT)
 - `cancer`: [Chemotherapy NAD+ Loss Pöllänen 2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/cancer/_document_%20-%20Chemotherapy%20NAD%2B%20Loss%20P%C3%B6ll%C3%A4nen%202026.md) [[src/notes/cancer/_document_ - Chemotherapy NAD+ Loss Pöllänen 2026.md|wiki]] (26_JUL_2026 12:55 AM PDT)
 - `_link`: [Thymic Rejuvenation and Aging](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Thymic%20Rejuvenation%20and%20Aging.md) [[src/notes/_link/_document_ - Thymic Rejuvenation and Aging.md|wiki]] (26_JUL_2026 12:19 AM PDT)
@@ -217,12 +218,14 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (64 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (65 total)</strong> — click to expand</summary>
 
-- [task_output_dj1_glycation_trace_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md) [[src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md|wiki]] (27_JUL_2026 12:02 PM PDT)
+- [task_output_ivermectin_yamanaka_aging_28_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_yamanaka_aging_28_JUL_2026.md) [[src/tasks/task_output_ivermectin_yamanaka_aging_28_JUL_2026.md|wiki]] (28_JUL_2026 01:02 PM PDT)
+- [task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md|wiki]] (28_JUL_2026 01:01 PM PDT)
+- [task_output_mitochondria_fusion_fission_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md) [[src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md|wiki]] (27_JUL_2026 10:35 PM PDT)
+- [task_output_comt_fisetin_senolytic_09_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md) [[src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md|wiki]] (27_JUL_2026 01:48 PM PDT)
+- [task_output_dj1_glycation_trace_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md) [[src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md|wiki]] (27_JUL_2026 01:32 PM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (27_JUL_2026 09:33 AM PDT)
-- [`triples/` triples_as_of_05_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/triples/triples_as_of_05_JUL_2026.md) [[src/tasks/triples/triples_as_of_05_JUL_2026.md|wiki]] (24_JUL_2026 12:27 AM PDT)
-- [`triples/` triples_as_of_09_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/triples/triples_as_of_09_JUL_2026.md) [[src/tasks/triples/triples_as_of_09_JUL_2026.md|wiki]] (24_JUL_2026 12:27 AM PDT)
 - [task_output_autophagy_mammals_longevity_22_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md) [[src/tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md|wiki]] (23_JUL_2026 03:27 PM PDT)
 - [`cd38_sarm1_nad_trace/` task_output_nad_to_bnip3_trace_21_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md) [[src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md|wiki]] (22_JUL_2026 04:13 PM PDT)
 - [task_output_ap1_trace_21_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ap1_trace_21_JUL_2026.md) [[src/tasks/task_output_ap1_trace_21_JUL_2026.md|wiki]] (22_JUL_2026 03:32 PM PDT)
@@ -242,12 +245,10 @@
 - [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_autophagy_vs_mitophagy_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md) [[src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_caspase_01_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_caspase_01_JUN_2026.md) [[src/tasks/task_output_caspase_01_JUN_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
-- [task_output_comt_fisetin_09_July_2026_02_50_AM_PDT](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_comt_fisetin_09_July_2026_02_50_AM_PDT.md) [[task_output_comt_fisetin_senolytic_09_July_2026|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md) [[src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_ivermectin_cancer_14_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md) [[src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_ivermectin_cancer_14_JUL_2026_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md) [[src/tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md|wiki]] (21_JUL_2026 07:57 PM PDT)
-- [task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md|wiki]] — Synergy and Combined Impact (28_JULY_2026 08:39 AM PDT)
 - [task_output_physiologist_shred_vs_bulk](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_physiologist_shred_vs_bulk.md) [[src/tasks/task_output_physiologist_shred_vs_bulk.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_review_notes_epinephrine_sirtuins_06_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md) [[src/tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [task_output_sirtuins_recommendations_03_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md) [[src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md|wiki]] (21_JUL_2026 07:57 PM PDT)
