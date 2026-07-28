@@ -231,16 +231,16 @@ Combined NF-κB suppression from two independent directions may more effectively
 
 ### Why This Pairing Makes Mechanistic Sense
 
-| Dimension | Ivermectin Contribution | Fenbendazole Contribution | Combined Effect |
-|---|---|---|---|
-| **Signaling** | PAK1/YAP1/Akt/mTOR suppression | Minimal direct signaling impact | Ivermectin removes oncogenic signaling; fenbendazole exploits the resulting metabolic vulnerability |
-| **Structure** | No direct tubulin effect | Microtubule destabilization → mitotic arrest | Fenbendazole traps dividing cells; ivermectin prevents escape via survival signaling |
-| **Metabolism** | Indirect (Akt/mTOR → glycolysis gene regulation) | Direct (GLUT1 ↓, HK2 ↓, Warburg disruption) | Fenbendazole starves the cell; ivermectin prevents compensatory metabolic reprogramming |
-| **ROS/Apoptosis** | Mitochondrial depolarization, Cl⁻ channel ROS | Metabolic ROS + NADPH depletion | Fenbendazole disarms antioxidant defenses; ivermectin pushes ROS past lethal threshold |
-| **p53** | Not a primary mechanism | MDM2/MdmX suppression → p53 stabilization | Fenbendazole restores p53 function in tumors with wild-type p53/MDM2 overexpression |
-| **Stem cells** | PAK1-STAT3 axis suppression (NANOG, OCT-4, SOX-2) | Not specifically demonstrated | Ivermectin targets the recurrence-driving CSC population |
-| **Drug resistance** | Potent P-gp/MDR protein inhibitor | Partial P-gp evasion (benzimidazole class) | Ivermectin may enhance fenbendazole intratumoral retention |
-| **Immune** | HMGB1 release → immunogenic cell death | Less characterized | Ivermectin may prime immune recognition of dying tumor cells |
+| Dimension           | Ivermectin Contribution                           | Fenbendazole Contribution                    | Combined Effect                                                                                     |
+| ------------------- | ------------------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Signaling**       | PAK1/YAP1/Akt/mTOR suppression                    | Minimal direct signaling impact              | Ivermectin removes oncogenic signaling; fenbendazole exploits the resulting metabolic vulnerability |
+| **Structure**       | No direct tubulin effect                          | Microtubule destabilization → mitotic arrest | Fenbendazole traps dividing cells; ivermectin prevents escape via survival signaling                |
+| **Metabolism**      | Indirect (Akt/mTOR → glycolysis gene regulation)  | Direct (GLUT1 ↓, HK2 ↓, Warburg disruption)  | Fenbendazole starves the cell; ivermectin prevents compensatory metabolic reprogramming             |
+| **ROS/Apoptosis**   | Mitochondrial depolarization, Cl⁻ channel ROS     | Metabolic ROS + NADPH depletion              | Fenbendazole disarms antioxidant defenses; ivermectin pushes ROS past lethal threshold              |
+| **p53**             | Not a primary mechanism                           | MDM2/MdmX suppression → p53 stabilization    | Fenbendazole restores p53 function in tumors with wild-type p53/MDM2 overexpression                 |
+| **Stem cells**      | PAK1-STAT3 axis suppression (NANOG, OCT-4, SOX-2) | Not specifically demonstrated                | Ivermectin targets the recurrence-driving CSC population                                            |
+| **Drug resistance** | Potent P-gp/MDR protein inhibitor                 | Partial P-gp evasion (benzimidazole class)   | Ivermectin may enhance fenbendazole intratumoral retention                                          |
+| **Immune**          | HMGB1 release → immunogenic cell death            | Less characterized                           | Ivermectin may prime immune recognition of dying tumor cells                                        |
 
 ### Why the Combination May Overcome Single-Agent Limitations
 
