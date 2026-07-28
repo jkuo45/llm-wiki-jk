@@ -1,8 +1,8 @@
 ---
 title: PAK2
 description: p21-activated kinase 2; a serine/threonine kinase that phosphorylates and inhibits Caspase-7, contributing to chemotherapy resistance in breast cancer.
-created: 2026-07-16
-updated: 2026-07-16
+created: 2026-07-06
+updated: 2026-07-28
 tags:
   - enzyme
   - apoptosis
@@ -51,18 +51,24 @@ PAK2 contains an N-terminal regulatory domain with a Cdc42/Rac interactive bindi
 
 ## Connections
 
-- [[Caspase-7]] — Primary substrate; PAK2 phosphorylates and inhibits Caspase-7
+- [[Caspase-7]] — Primary substrate; PAK2 phosphorylates and inhibits Caspase-7 at Ser30, Thr173, Ser239
 - [[Caspase-9]] — PAK2 phosphorylation of Caspase-7 blocks its activation by Caspase-9
 - [[Rac GTPase]] — Upstream activator of PAK2 via Cdc42/Rac1
+- [[Cdc42]] — Activating GTPase upstream of PAK2
 - [[NFKB]] — Survival pathway activated by PAK2
 - [[ERK2]] — Signaling partner in PAK2-mediated survival
-- [[Apoptosis]] — PAK2 inhibits apoptosis via Caspase-7 phosphorylation
+- [[Bad]] — Downstream survival substrate of PAK family
+- [[Apoptosis]] — PAK2 inhibits apoptosis via Caspase-7 phosphorylation; cleaved PAK2 (PAK-2p34) executes apoptosis
 - [[Breast Cancer]] — Disease context where PAK2 overexpression drives chemoresistance
+- [[Metastasis]] — Invasion promoted via cytoskeletal signaling
+- [[Chemotherapy]] — Efficacy modulated by PAK2-mediated caspase regulation
+- [[mTORC1]] — Survival pathway activated by PAK2
 
 ## Linking Summary
 
-- New links added: [[Caspase-7]], [[Caspase-9]], [[Rac GTPase]], [[NFKB]], [[ERK2]], [[Apoptosis]], [[Breast Cancer]]
-- Suggested new entity notes to create: [[PAK family]], [[LIMK]]
+- New links added: [[Caspase-7]], [[Caspase-9]], [[Rac GTPase]], [[Cdc42]], [[NFKB]], [[ERK2]], [[Bad]], [[Apoptosis]], [[Breast Cancer]], [[Metastasis]], [[Chemotherapy]], [[mTORC1]]
+- Suggested new entity notes to create: [[PAK family]], [[PAK-2p34]], [[Rac1]], [[LIMK]]
 - Strong connections to strengthen:
     - [[PAK2]] ↔ [[Caspase-7]]
     - [[PAK2]] ↔ [[Caspase-9]]
+    - [[PAK2]] ↔ [[Apoptosis]]

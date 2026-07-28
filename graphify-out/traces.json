@@ -1768,5 +1768,273 @@
     ],
     "mechanism": "CR and spermidine converge on autophagy through orthogonal upstream mechanisms:\n\nCR Pathway (energy-sensing): CR → ↑AMP/ATP → AMPK activation → ULK1 (direct). CR → ↑NAD+ → SIRT1 deacetylates FOXO3a/TFEB/Atg proteins → autophagy gene expression. CR → mTORC1 inhibition (indirect) → ULK1 de-repression. CR also activates the FOXO3a → BNIP3 mitophagy axis, a selective mitochondrial clearance pathway not engaged by diet-based inducers.\n\nSpermidine Pathway (epigenetic/translational): Spermidine → HAT/p300 inhibition → deacetylation of histones at Atg gene promoters + direct deacetylation of Atg proteins. Spermidine → eIF5A hypusination → enhanced TFEB translation → lysosomal biogenesis.\n\nAdditive Combinations: (1) CR + Rapamycin — rapamycin works when CR fails (old age), CR adds sirtuin/epigenetic/IGF-1 benefits rapamycin lacks; (2) CR + Spermidine — attacks acetylation from both protein-deacetylation (SIRT1) and transcription-prevention (HATi) sides; (3) CR + Rapamycin + Exercise — covers AMPK, SIRT1, mTORC1, IGF-1, FOXO, TFEB in a sequence exploiting rapamycin-induced lipolysis as exercise fuel.",
     "sourceFile": "src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+  },
+  {
+    "id": "ivermectin-fenbendazole-synergy",
+    "title": "Ivermectin & Fenbendazole — Complementary Anticancer Mechanisms & Synergy",
+    "question": "How do ivermectin and fenbendazole target fundamentally different nodes of cancer biology, and where do their downstream effects converge for rational combination?",
+    "date": "2026-07-28",
+    "method": "Wiki knowledge base synthesis (entity notes + ingested review documents; Tang et al. 2020, Nguyen et al. 2024)",
+    "summary": "Ivermectin and fenbendazole are repurposed antiparasitics with largely non-overlapping anticancer mechanisms. Ivermectin's primary hub is PAK1 degradation (ubiquitin-proteasome), which suppresses MAPK, Akt/mTOR, Wnt/β-catenin, NF-κB, and the PAK1-STAT3 cancer stem cell axis. It also inhibits YAP1 (Hippo pathway), induces three modes of programmed cell death (apoptosis, autophagy, pyroptosis), and causes mitochondrial dysfunction. Fenbendazole's primary mechanism is microtubule destabilization (colchicine site binding) with a distinctive metabolic arm: GLUT1 down-regulation + HK2 inhibition collapsing the Warburg effect, plus p53 stabilization via MDM2/MdmX suppression. Their downstream effects converge at five synergy points: (1) convergent mitochondrial apoptosis (signaling vs metabolic entry), (2) amplified ROS cascade (fenbendazole depletes NADPH/glutathione buffer), (3) dual cell-cycle checkpoint trapping (G1/S + G2/M), (4) Warburg effect disruption (machinery + signaling), and (5) P-gp blockade increasing intratumoral drug retention. All evidence is preclinical; no clinical trials exist for either compound as anticancer agents.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+    "centerNode": {
+      "id": "drug_repositioning",
+      "label": "Drug Repositioning"
+    },
+    "routes": [
+      {
+        "name": "Ivermectin → PAK1 degradation → MAPK/Akt/Wnt/NF-κB suppression",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "pak1"
+        ],
+        "mechanism": "Ivermectin promotes proteasomal degradation of PAK1 (ubiquitin-proteasome pathway, MG132-reversible). PAK1 loss suppresses: (1) RAS-MAPK cascade (MEK1/2 → ERK1/2), (2) Akt/mTOR signaling (de-repressing autophagy), (3) Wnt/β-catenin transcription, (4) NF-κB nuclear activation, (5) PAK1-STAT3 cancer stem cell axis (NANOG, OCT-4, SOX-2)."
+      },
+      {
+        "name": "Ivermectin → YAP1 inhibition (Hippo pathway)",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "yap1"
+        ],
+        "mechanism": "Ivermectin inhibits YAP1 expression/activity in gastric cancer (MKN1, SH-10-TC sensitive; MKN7, MKN28 resistant), hepatocellular carcinoma (Mob1b⁻/⁻ mice), and lung cancer (H1299). YAP1 is a distinct target from PAK1 — genuinely separate mechanism-of-action branch."
+      },
+      {
+        "name": "Ivermectin → Mitochondrial apoptosis (intrinsic pathway)",
+        "hops": 3,
+        "path": [
+          "ivermectin",
+          "bax",
+          "apoptosis"
+        ],
+        "mechanism": "Ivermectin reduces mitochondrial membrane potential (ΔΨm), upregulates Bax, downregulates Bcl-2, promotes cytochrome c release → caspase-9 → caspase-3 → PARP cleavage. Demonstrated in HeLa, renal cell carcinoma (5 lines), CML K562, glioblastoma U87/T98G, colorectal, ovarian cancer cells."
+      },
+      {
+        "name": "Ivermectin → Autophagy (PAK1/Akt/mTOR-dependent)",
+        "hops": 3,
+        "path": [
+          "ivermectin",
+          "pak1",
+          "autophagy"
+        ],
+        "mechanism": "PAK1 degradation → Akt dephosphorylation → mTOR inactivation → de-repression of Beclin-1 complex → autophagosome nucleation. In breast cancer (MCF-7, MDA-MB-231), autophagy is the primary death mode. In melanoma (SK-MEL-28), autophagy is protective — context-dependent paradox."
+      },
+      {
+        "name": "Ivermectin → Pyroptosis (NLRP3 inflammasome)",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "nlrp3_inflammasome"
+        ],
+        "mechanism": "In breast cancer (MDA-MB-231, 4T1): ivermectin → P2×4/P2×7 receptor activation → ROS → NLRP3 inflammasome assembly → caspase-1 → GSDMD cleavage → membrane pore formation → IL-1β/IL-18 secretion + pyroptotic death. Least-established mode — one study."
+      },
+      {
+        "name": "Fenbendazole → Microtubule destabilization → G2/M arrest",
+        "hops": 2,
+        "path": [
+          "fenbendazole",
+          "microtubule"
+        ],
+        "mechanism": "Fenbendazole binds the colchicine site of β-tubulin, preventing polymerization → mitotic spindle disruption → G2/M arrest → mitotic catastrophe → apoptosis. Moderate affinity compared to vincristine but lower systemic toxicity."
+      },
+      {
+        "name": "Fenbendazole → GLUT1/HK2 → Warburg effect collapse",
+        "hops": 3,
+        "path": [
+          "fenbendazole",
+          "glut1",
+          "hexokinase_2"
+        ],
+        "mechanism": "Fenbendazole reduces GLUT1 surface expression (glucose import) and inhibits HK2 (first glycolytic step). HK2 normally binds VDAC on mitochondria, blocking apoptosome assembly — its removal de-represses cytochrome c release. Dual hit: glycolytic flux collapse + mitochondrial apoptosis de-repression."
+      },
+      {
+        "name": "Fenbendazole → MDM2/MdmX suppression → p53 stabilization",
+        "hops": 3,
+        "path": [
+          "fenbendazole",
+          "mdm2",
+          "p53"
+        ],
+        "mechanism": "Fenbendazole down-regulates MDM2 and MdmX (E3 ubiquitin ligases), preventing p53 degradation → stabilized p53 transactivates Bax, PUMA, Noxa (pro-apoptotic) and p21 (cell-cycle arrest). Particularly relevant in tumors with wild-type p53 but MDM2 overexpression."
+      },
+      {
+        "name": "Synergy 1: Convergent mitochondrial apoptosis (signaling vs metabolic entry)",
+        "hops": 3,
+        "path": [
+          "ivermectin",
+          "pak1",
+          "apoptosis"
+        ],
+        "mechanism": "Ivermectin attacks mitochondria from the signaling side (PAK1 → Akt/mTOR → mitochondrial priming, direct ΔΨm collapse). Fenbendazole attacks from the metabolic side (HK2 detachment from VDAC → apoptosome de-repression). Combined, they may push cells past the apoptotic threshold neither reaches alone."
+      },
+      {
+        "name": "Synergy 2: Amplified ROS cascade (NADPH/glutathione depletion)",
+        "hops": 3,
+        "path": [
+          "fenbendazole",
+          "glutathione",
+          "oxidative_stress"
+        ],
+        "mechanism": "Ivermectin generates ROS via mitochondrial depolarization and Cl⁻ channel-mediated hyperpolarization. Fenbendazole generates ROS via MEK3/6 → p38 MAPK axis AND collapses glycolytic NADPH supply — starving glutathione recycling. The combination may achieve 'redox catastrophe' — overwhelming tumor antioxidant capacity from two directions."
+      },
+      {
+        "name": "Synergy 3: Dual cell-cycle checkpoint trapping",
+        "hops": 2,
+        "path": [
+          "fenbendazole",
+          "ivermectin"
+        ],
+        "mechanism": "Fenbendazole → G2/M arrest (microtubule destabilization, spindle assembly checkpoint). Ivermectin → G1/S or S-phase arrest (PAK1 loss, pathway suppression). Dual-checkpoint trapping makes it harder for tumors to proliferate through either block alone."
+      },
+      {
+        "name": "Synergy 4: Warburg effect disruption (machinery + signaling)",
+        "hops": 3,
+        "path": [
+          "ivermectin",
+          "akt",
+          "glut1"
+        ],
+        "mechanism": "Fenbendazole directly removes metabolic machinery (GLUT1 ↓, HK2 ↓). Ivermectin suppresses Akt/mTOR signaling that upregulates that machinery (Akt phosphorylates HK2 for VDAC binding; mTOR → HIF-1α → GLUT1 transcription). Combined: deeper metabolic disruption — fenbendazole removes enzymes, ivermectin removes signals that restore them."
+      },
+      {
+        "name": "Synergy 5: P-gp blockade → enhanced drug retention",
+        "hops": 2,
+        "path": [
+          "ivermectin",
+          "p_gp"
+        ],
+        "mechanism": "Ivermectin is a potent P-glycoprotein inhibitor (also MRP1/2/3), reversing multidrug resistance. Fenbendazole (benzimidazole class) partially evades P-gp efflux. Ivermectin's P-gp blockade may increase intracellular retention of fenbendazole and co-administered chemotherapeutics, raising effective tumor drug concentrations."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "ivermectin",
+        "label": "Ivermectin",
+        "role": "Repurposed antiparasitic; PAK1 degradation, YAP1 inhibition, P-gp inhibitor"
+      },
+      {
+        "id": "fenbendazole",
+        "label": "Fenbendazole",
+        "role": "Repurposed benzimidazole; microtubule destabilizer, glycolysis inhibitor, p53 activator"
+      },
+      {
+        "id": "pak1",
+        "label": "PAK1",
+        "role": "Ivermectin's primary kinase target; drives MAPK, Akt/mTOR, Wnt, NF-κB, STAT3"
+      },
+      {
+        "id": "yap1",
+        "label": "YAP1",
+        "role": "Hippo pathway effector oncogene; distinct from PAK1"
+      },
+      {
+        "id": "microtubule",
+        "label": "Microtubule",
+        "role": "Fenbendazole's structural target (colchicine site)"
+      },
+      {
+        "id": "glut1",
+        "label": "GLUT1",
+        "role": "Glucose transporter down-regulated by fenbendazole"
+      },
+      {
+        "id": "hexokinase_2",
+        "label": "Hexokinase 2",
+        "role": "First glycolytic enzyme; binds VDAC to block apoptosis"
+      },
+      {
+        "id": "p53",
+        "label": "p53",
+        "role": "Tumor suppressor stabilized by fenbendazole via MDM2/MdmX suppression"
+      },
+      {
+        "id": "mdm2",
+        "label": "MDM2",
+        "role": "E3 ubiquitin ligase targeting p53; down-regulated by fenbendazole"
+      },
+      {
+        "id": "akt",
+        "label": "Akt",
+        "role": "Survival kinase suppressed by ivermectin (via PAK1 loss)"
+      },
+      {
+        "id": "mtor",
+        "label": "mTOR",
+        "role": "Growth regulator; de-represses autophagy when inhibited"
+      },
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Cell death mode in breast cancer; protective in melanoma (context-dependent)"
+      },
+      {
+        "id": "apoptosis",
+        "label": "Apoptosis",
+        "role": "Convergent endpoint — both drugs funnel through intrinsic (mitochondrial) pathway"
+      },
+      {
+        "id": "bax",
+        "label": "Bax",
+        "role": "Pro-apoptotic; upregulated by ivermectin"
+      },
+      {
+        "id": "bcl_2",
+        "label": "Bcl-2",
+        "role": "Anti-apoptotic; downregulated by ivermectin"
+      },
+      {
+        "id": "p_gp",
+        "label": "P-glycoprotein",
+        "role": "Drug efflux pump inhibited by ivermectin (MDR reversal)"
+      },
+      {
+        "id": "glutathione",
+        "label": "Glutathione",
+        "role": "Antioxidant depleted by fenbendazole's NADPH collapse"
+      },
+      {
+        "id": "oxidative_stress",
+        "label": "Oxidative Stress",
+        "role": "ROS generated by both drugs through distinct mechanisms"
+      },
+      {
+        "id": "nlrp3_inflammasome",
+        "label": "NLRP3 Inflammasome",
+        "role": "Ivermectin-induced pyroptotic pathway (breast cancer)"
+      },
+      {
+        "id": "drug_repositioning",
+        "label": "Drug Repositioning",
+        "role": "Strategic framework for antiparasitic → anticancer pivot"
+      },
+      {
+        "id": "cancer",
+        "label": "Cancer",
+        "role": "Disease context; all evidence preclinical"
+      },
+      {
+        "id": "warburg_effect",
+        "label": "Warburg Effect",
+        "role": "Cancer metabolic reprogramming targeted by fenbendazole directly, ivermectin indirectly"
+      },
+      {
+        "id": "stat3",
+        "label": "STAT3",
+        "role": "PAK1 downstream effector driving cancer stem cell self-renewal"
+      },
+      {
+        "id": "caspase_9",
+        "label": "Caspase-9",
+        "role": "Initiator caspase in intrinsic apoptosis (ivermectin)"
+      },
+      {
+        "id": "caspase_3",
+        "label": "Caspase-3",
+        "role": "Effector caspase (both drugs)"
+      }
+    ],
+    "mechanism": "Ivermectin and fenbendazole target fundamentally different nodes of cancer biology with largely non-overlapping mechanisms, providing the basis for rational combination.\n\nIvermectin's primary mechanism: Proteasomal degradation of PAK1 (ubiquitin-proteasome, MG132-reversible). PAK1 loss cascades through five oncogenic pathways: RAS-MAPK, Akt/mTOR, Wnt/β-catenin, NF-κB, and PAK1-STAT3 (cancer stem cells). Separate branches include YAP1 inhibition (Hippo pathway), three modes of programmed cell death (apoptosis via ΔΨm collapse/cytochrome c/caspase-9-3; autophagy via PAK1-Akt-mTOR de-repression; pyroptosis via NLRP3 inflammasome), and mitochondrial dysfunction in renal cell carcinoma and CML. Ivermectin also potently inhibits P-glycoprotein and MRP1/2/3, reversing multidrug resistance.\n\nFenbendazole's primary mechanism: Binds the colchicine site of β-tubulin, preventing microtubule polymerization → mitotic spindle disruption → G2/M arrest → mitotic catastrophe. Its distinctive metabolic arm: GLUT1 down-regulation + HK2 inhibition. HK2 normally binds VDAC on mitochondria, blocking apoptosome assembly; its removal de-represses cytochrome c release — a dual hit collapsing glycolytic flux and de-repressing apoptosis. Fenbendazole also stabilizes p53 by suppressing MDM2/MdmX E3 ligases, and induces oxidative stress via the MEK3/6 → p38 MAPK axis.\n\nFive synergy points emerge from their convergence: (1) Convergent mitochondrial apoptosis — ivermectin enters from signaling (PAK1 → Akt/mTOR → priming), fenbendazole from metabolic (HK2/VDAC detachment); (2) Amplified ROS — fenbendazole collapses NADPH/glutathione antioxidant buffer, lowering threshold for ivermectin's ROS; (3) Dual checkpoint trapping — G1/S (ivermectin) + G2/M (fenbendazole); (4) Warburg disruption — fenbendazole removes machinery, ivermectin removes signaling that restores it; (5) P-gp blockade — ivermectin may increase intratumoral fenbendazole retention. All evidence is preclinical (cell lines + xenograft models); no clinical trials exist for either compound as anticancer agents.",
+    "sourceFile": "src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
   }
 ]

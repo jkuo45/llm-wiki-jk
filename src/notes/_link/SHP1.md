@@ -1,8 +1,8 @@
 ---
 title: SHP1
 description: Protein tyrosine phosphatase non-receptor type 6 (PTPN6); dephosphorylates Caspase-8 at Tyr380, restoring apoptotic sensitivity in cancer cells.
-created: 2026-07-16
-updated: 2026-07-16
+created: 2026-07-06
+updated: 2026-07-28
 tags:
   - enzyme
   - apoptosis
@@ -54,12 +54,18 @@ SHP1 contains two N-terminal SH2 domains that mediate recruitment to phosphotyro
 - [[FasL]] — Death ligand whose signaling is restored by SHP1-mediated Caspase-8 dephosphorylation
 - [[Cancer]] — SHP1 silencing is a common mechanism of apoptotic resistance in tumors
 - [[Apoptosis]] — SHP1 promotes apoptosis by restoring Caspase-8 function
+- [[PTPN6]] — Gene encoding SHP1
+- [[Chemotherapy]] — SHP1 loss can limit therapeutic apoptosis
+- [[Death Receptor]] — Surface receptors feeding into Caspase-8 activation
+- [[Tumor Suppressor Gene]] — SHP1 functions as a negative regulator/tumor suppressor
+- [[Autoimmunity]] — Loss-of-function mutations cause autoimmune-like inflammation (motheaten mice)
 
 ## Linking Summary
 
-- New links added: [[Caspase-8]], [[Src]], [[TRAIL]], [[FasL]], [[Cancer]], [[Apoptosis]]
-- Suggested new entity notes to create: [[Promoter Hypermethylation]], [[Death Ligand Therapy]]
+- New links added: [[Caspase-8]], [[Src]], [[TRAIL]], [[FasL]], [[Cancer]], [[Apoptosis]], [[PTPN6]], [[Chemotherapy]], [[Death Receptor]], [[Tumor Suppressor Gene]], [[Autoimmunity]]
+- Suggested new entity notes to create: [[DISC]], [[Promoter Hypermethylation]], [[Death Ligand Therapy]]
 - Strong connections to strengthen:
     - [[SHP1]] ↔ [[Caspase-8]]
     - [[SHP1]] ↔ [[Src]]
     - [[SHP1]] ↔ [[Cancer]]
+    - [[SHP1]] ↔ [[TRAIL]]

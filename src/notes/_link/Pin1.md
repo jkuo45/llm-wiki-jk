@@ -1,8 +1,8 @@
 ---
 title: Pin1
 description: Peptidyl-prolyl cis/trans isomerase that recognizes phosphorylated Ser/Thr-Pro motifs and catalyzes conformational changes; acts as a molecular switch determining pro-survival vs. pro-death outcomes for BAX.
-created: 2026-07-16
-updated: 2026-07-16
+created: 2026-07-06
+updated: 2026-07-28
 tags:
   - enzyme
   - apoptosis
@@ -52,12 +52,22 @@ Pin1 recognizes pSer/pThr-Pro motifs and isomerizes the peptide bond, inducing c
 - [[p38 MAPK]] — Stress kinase that can target BAX Thr167 for pro-death signaling
 - [[Apoptosis]] — Pin1-mediated BAX inhibition blocks apoptosis
 - [[Cancer]] — Pin1 overexpression promotes tumor survival
+- [[p53]] — Tumor suppressor whose stability is modulated by Pin1
+- [[c-Myc]] — Oncoprotein stabilized by Pin1 isomerization
+- [[Cyclin D1]] — Cell cycle regulator stabilized by Pin1
+- [[NF-kappaB]] — Transcription factor regulated by Pin1
+- [[PI3K]] — Upstream oncogenic pathway driving Pin1 expression
+- [[AKT]] — Upstream oncogenic pathway driving Pin1 expression
+- [[MAPK]] — Signaling network integrated by Pin1
+- [[Chemotherapy]] — Pin1 inhibition explored to overcome therapeutic resistance
+- [[Peptidyl-prolyl Isomerase]] — Enzyme class to which Pin1 belongs
 
 ## Linking Summary
 
-- New links added: [[BAX]], [[ERK2]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[Apoptosis]], [[Cancer]]
-- Suggested new entity notes to create: [[PPIase]], [[Prolyl isomerization]]
+- New links added: [[BAX]], [[ERK2]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[Apoptosis]], [[Cancer]], [[p53]], [[c-Myc]], [[Cyclin D1]], [[NF-kappaB]], [[PI3K]], [[AKT]], [[MAPK]], [[Chemotherapy]], [[Peptidyl-prolyl Isomerase]]
+- Suggested new entity notes to create: [[PPIase]], [[Prolyl isomerization]], [[Cyclin D1]]
 - Strong connections to strengthen:
     - [[Pin1]] ↔ [[BAX]]
     - [[Pin1]] ↔ [[ERK2]]
     - [[Pin1]] ↔ [[Apoptosis]]
+    - [[Pin1]] ↔ [[p53]]
