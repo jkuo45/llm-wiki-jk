@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Rebuild the graphify graph from per-topic triples in src/notes/**/_triples.json.
+"""Rebuild the graphify graph from per-topic triples in src/**/_triples.json.
 
 This is the canonical rebuild used for this vault (the consolidated
 src/notes/_triples.json was retired in favour of topic-scoped files).
 
 What it does, in order:
-  1. Iterates every src/notes/<topic>/_triples.json and accumulates nodes/edges.
+  1. Iterates every src/**/_triples.json and accumulates nodes/edges.
   2. Prunes generic type/category hubs (e.g. 'chemical', 'protein', 'enzyme').
   3. Prunes document-title nodes (sources of 'discusses' edges).
   4. Re-clusters (Leiden), preserving old community labels by majority overlap.
@@ -75,7 +75,7 @@ CONF_MAP = {
 
 # Thresholds mapping a raw float confidence to a discrete rank label.
 CONF_RANK = {
-    "EXTRACTED": 0.7,   # >= this -> EXTRACTED, else AMBIGUOUS
+    "EXTRACTED": 0.7,  # >= this -> EXTRACTED, else AMBIGUOUS
 }
 
 # Color palette for communities (Tableau-inspired)
@@ -213,13 +213,15 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
         json.dumps(legend, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Three-graph export: {len(node_objects)} nodes, {len(edge_objects)} edges, {len(legend)} communities")
+    print(
+        f"Three-graph export: {len(node_objects)} nodes, {len(edge_objects)} edges, {len(legend)} communities"
+    )
 
 
 def main() -> int:
-    topics = sorted(str(p) for p in ROOT.glob("src/notes/**/_triples.json"))
+    topics = sorted(str(p) for p in ROOT.glob("src/**/_triples.json"))
     if not topics:
-        print("No _triples.json files found under src/notes/")
+        print("No _triples.json files found under src/")
         return 1
 
     G = nx.DiGraph()
@@ -281,7 +283,9 @@ def main() -> int:
     # (with target 'document').  Entity notes like Adrenochrome.md generate
     # 'discusses' edges *and* substantive edges (causes, promotes, …);
     # those must be kept.
-    discusses_sources = {u for u, _, e in G.edges(data=True) if e.get("relation") == "discusses"}
+    discusses_sources = {
+        u for u, _, e in G.edges(data=True) if e.get("relation") == "discusses"
+    }
     docs = set()
     for n in discusses_sources:
         edge_relations = {e[2].get("relation") for e in G.edges(n, data=True)}
@@ -290,7 +294,9 @@ def main() -> int:
         if not non_trivial:
             docs.add(n)
     G.remove_nodes_from(docs)
-    print(f"Pruned {len(docs)} document-title nodes (of {len(discusses_sources)} discusses sources)")
+    print(
+        f"Pruned {len(docs)} document-title nodes (of {len(discusses_sources)} discusses sources)"
+    )
 
     print(f"Graph before cluster: {G.number_of_nodes()}n/{G.number_of_edges()}e")
 
