@@ -299,7 +299,7 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x0f0f1a);
 
 const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 10000);
-camera.position.set(0, 0, 500);
+camera.position.set(-120, 0, 500);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(container.clientWidth, container.clientHeight);
@@ -314,6 +314,7 @@ labelRenderer.domElement.style.pointerEvents = 'none';
 container.appendChild(labelRenderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(-120, 0, 0);
 controls.enableDamping = true;
 controls.dampingFactor = 0.05;
 controls.minDistance = 50;
@@ -1297,7 +1298,7 @@ LEGEND.forEach(c => {
 document.getElementById('btn-reset').addEventListener('click', () => {
   clearTrace();
   deselectNode();
-  animateCamera(new THREE.Vector3(0, 0, 500), new THREE.Vector3(0, 0, 0));
+  animateCamera(new THREE.Vector3(-120, 0, 500), new THREE.Vector3(-120, 0, 0));
 });
 
 document.getElementById('btn-physics').addEventListener('click', (e) => {

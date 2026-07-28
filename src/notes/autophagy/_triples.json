@@ -208,14 +208,6 @@
     "source_document": "eIF5A.md"
   },
   {
-    "subject": "Dietary Restriction",
-    "predicate": "activates",
-    "object": "Autophagy",
-    "context": "Dietary restriction activates autophagy through coordinated transcriptional and post-translational reprogramming, as demonstrated by transcriptional changes in C. elegans mediated by the HLH-30/TFEB ortholog. The low-nutrient state relieves mTORC1 repression and engages AMPK, while HLH-30 translocates to nuclei to induce lysosomal and autophagic gene expression. This systemic activation occurs across tissues and contributes to the healthspan and lifespan benefits of DR. The transcriptional engagement distinguishes DR-induced autophagy from purely acute post-translational starvation responses.",
-    "confidence": 0.95,
-    "source_document": "Dietary Restriction.md"
-  },
-  {
     "subject": "mTORC1",
     "predicate": "inhibits",
     "object": "Autophagy",
@@ -498,22 +490,6 @@
   {
     "subject": "mTORC1",
     "predicate": "phosphorylates",
-    "object": "TFEB",
-    "context": "mTORC1 phosphorylates TFEB at serine 211 to enforce cytoplasmic retention, a foundational regulatory event that couples nutrient abundance to suppression of lysosomal gene expression. The phosphate creates a 14-3-3 binding site that masks the nuclear localization signal and prevents nuclear entry. This same residue is targeted by other kinases such as p38 MAPK, underscoring its centrality. Relief of S211 phosphorylation during starvation is necessary for TFEB to activate the clearance program.",
-    "confidence": 0.95,
-    "source_document": "_document_ - mTOR signaling at a glance.md"
-  },
-  {
-    "subject": "mTORC1",
-    "predicate": "phosphorylates",
-    "object": "TFEB",
-    "context": "mTORC1 phosphorylates TFEB at serine 142, a residue also targeted by ERK2 and CDK4/6, contributing to cytoplasmic retention and nuclear export of the transcription factor. Phosphorylation at S142 reinforces the cytosolic sequestration imposed by the S211 mark, providing redundancy in mTORC1-mediated repression. The site integrates inputs from both the nutrient-sensing (mTORC1) and mitogenic (ERK/CDK) axes. Together these modifications ensure TFEB remains inactive during growth and feeding.",
-    "confidence": 0.95,
-    "source_document": "_document_ - mTOR signaling at a glance.md"
-  },
-  {
-    "subject": "mTORC1",
-    "predicate": "phosphorylates",
     "object": "TFEB at S122",
     "context": "mTORC1 phosphorylates TFEB at serine 122, an additional N-terminal regulatory site that contributes to cytoplasmic retention of the transcription factor under nutrient-rich conditions. Alongside S142 and S211, S122 forms part of the multi-site phosphorylation code through which mTORC1 enforces TFEB exclusion from the nucleus. Dephosphorylation of these sites by phosphatases such as PP2A is required for nuclear translocation. The multiplicity of mTORC1 sites provides tunable, robust control of lysosomal gene transcription.",
     "confidence": 0.95,
@@ -656,14 +632,6 @@
     "source_document": "_document_ - mTOR signaling at a glance.md"
   },
   {
-    "subject": "Calcineurin",
-    "predicate": "dephosphorylates",
-    "object": "TFEB",
-    "context": "Calcineurin dephosphorylates TFEB at multiple regulatory serines, most importantly S211, inducing its nuclear translocation and activation of lysosomal and autophagic gene expression. This calcium-dependent phosphatase acts as the essential permissive switch that overrides mTORC1-mediated repression when lysosomal Ca2+ is released via TRPML1. By continuously counterbalancing kinase activity, calcineurin sets the threshold for TFEB activation. Its role links ionic signaling at the lysosome to global control of cellular clearance.",
-    "confidence": 0.95,
-    "source_document": "calcineurin.md"
-  },
-  {
     "subject": "PKC",
     "predicate": "activates",
     "object": "TFEB independent of mTOR",
@@ -726,14 +694,6 @@
     "context": "mTORC1 promotes cap-dependent protein synthesis by phosphorylating the eukaryotic initiation factor 4E-binding protein 1 (4E-BP1), releasing eIF4E to initiate translation, and by phosphorylating S6 kinase 1 (S6K1), which enhances ribosome biogenesis and translational capacity. These outputs prioritize anabolic processes when nutrients and growth factors are plentiful. The stimulation of protein synthesis is a major consumer of cellular energy and amino acids, balanced against the catabolic program of autophagy. Dysregulated mTORC1-driven translation contributes to hypertrophy and malignancy.",
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md"
-  },
-  {
-    "subject": "mTORC1",
-    "predicate": "inhibits",
-    "object": "Autophagy",
-    "context": "mTORC1 inhibits autophagy by phosphorylating the ULK1 initiation complex (ULK1 at S757 and Atg13) to prevent phagophore assembly, and by phosphorylating TFEB/TFE3 to block lysosomal gene transcription. This dual suppression—at both the initiation and the transcriptional levels—ensures autophagy remains off when nutrients are abundant. Only when mTORC1 is inhibited by AMPK, rapamycin, or starvation is the pathway released. The mTORC1-autophagy antagonism is the central rheostat of cellular degradative control.",
-    "confidence": 0.95,
-    "source_document": "Autophagy.md"
   },
   {
     "subject": "mTORC1",
@@ -1002,14 +962,6 @@
   {
     "subject": "mTORC1",
     "predicate": "phosphorylates",
-    "object": "TFEB",
-    "context": "mTORC1 phosphorylates TFEB at serine 211 to create a 14-3-3 binding site that sequesters the transcription factor in the cytosol, preventing it from activating lysosomal genes. This phosphorylation is the canonical, nutrient-dependent off-switch for TFEB and is reversed by calcineurin during starvation. The specificity of S211 for cytosolic retention makes it the principal mark defining TFEB's inactive state. Its relief is indispensable for engaging the autophagy-lysosomal transcriptional program.",
-    "confidence": 0.95,
-    "source_document": "_document_ - mTOR signaling at a glance.md"
-  },
-  {
-    "subject": "mTORC1",
-    "predicate": "phosphorylates",
     "object": "TFE3 at S321",
     "context": "mTORC1 phosphorylates TFE3 at serine 321, an analog of the TFEB S211 site, thereby promoting cytosolic retention and inhibiting TFE3's transcriptional activity under nutrient-replete conditions. This parallel modification ensures that both MiT/TFE family master regulators are coordinately repressed by mTORC1. Upon starvation or mTORC1 inhibition, dephosphorylation permits TFE3 nuclear entry and activation of lysosomal genes. The conserved regulatory logic highlights the unified control of the degradative program.",
     "confidence": 0.95,
@@ -1150,14 +1102,6 @@
     "context": "Prolonged or severe caloric restriction can drive excessive autophagy that crosses into autophagic cell death, particularly when degradative flux outpaces biosynthetic capacity. This maladaptive extreme underscores the biphasic, hormetic nature of autophagy, where too little or too much is detrimental. The balance between adaptive and excessive autophagy determines whether CR is protective or harmful. Understanding this threshold is important for safely translating CR-mimetic strategies.",
     "confidence": 0.95,
     "source_document": "Autophagy.md"
-  },
-  {
-    "subject": "Intermittent Fasting",
-    "predicate": "induces",
-    "object": "Autophagy",
-    "context": "Intermittent fasting induces autophagy as an early-stage cellular response to the periodic nutrient and energy deficit imposed by feeding cycles. The fasting window lowers insulin and activates AMPK while inhibiting mTORC1, unleashing both ULK1-dependent initiation and TFEB-dependent lysosomal expansion. This engagement of autophagic machinery underlies many of IF's cytoprotective and metabolic benefits. The temporal pattern of IF makes it a practical way to periodically recruit autophagic clearance.",
-    "confidence": 0.95,
-    "source_document": "Intermittent Fasting.md"
   },
   {
     "subject": "AMPK",

@@ -728,28 +728,12 @@
     "source_document": "Phagocytes.md"
   },
   {
-    "subject": "NADPH Oxidase",
-    "predicate": "generates",
-    "object": "Superoxide Radicals",
-    "context": "NADPH oxidase generates superoxide radicals in the phagosome as NOX2 transfers electrons from cytosolic NADPH to oxygen across the membrane, assembling a multiprotein complex upon phagocytic stimulation. The resulting superoxide is then converted to H2O2 and hypochlorous acid for microbial killing. The directionality is enzyme assembly to microbicidal ROS. A caveat is that the same machinery, if dysregulated in non-phagocytes, drives inflammatory pathology.",
-    "confidence": 0.95,
-    "source_document": "NADPH Oxidase.md"
-  },
-  {
     "subject": "Myeloperoxidase",
     "predicate": "converts",
     "object": "Hypochlorous Acid",
     "context": "Myeloperoxidase converts hydrogen peroxide and chloride to hypochlorous acid (HOCl), the major bactericidal oxidant released by activated neutrophils. The enzyme uses heme to oxidize H2O2 while reducing chloride, concentrating HOCl in the phagolysosome and at infection sites. The directionality is peroxide plus halide to potent microbicide. A caveat is that HOCl is indiscriminately reactive and, when extracellular, damages host tissues and proteins such as alpha-1 antitrypsin.",
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md"
-  },
-  {
-    "subject": "NOX2",
-    "predicate": "causes",
-    "object": "Chronic Granulomatous Disease",
-    "context": "NOX2 deficiency causes chronic granulomatous disease, a group of genetic defects in NOX2 (gp91phox) subunits that abolish the phagocyte respiratory burst. Patients suffer recurrent, life-threatening bacterial and fungal infections due to failure to generate microbicidal ROS. The directionality is enzyme defect to immunodeficiency. A caveat is that the disease severity varies with the specific mutation and residual oxidase activity, and some organisms evade even normal ROS killing.",
-    "confidence": 0.95,
-    "source_document": "NOX2.md"
   },
   {
     "subject": "Glutathione",
@@ -870,14 +854,6 @@
     "context": "Mitochondrial Complex I activity is reduced (about 30 to 40 percent) in the substantia nigra of Parkinson's disease patients, contributing to electron leak and superoxide generation. This localized respiratory defect is among the earliest bioenergetic abnormalities described in PD. The directionality is enzyme deficiency to increased mitochondrial ROS. A caveat is that Complex I inhibition can be both a cause and a consequence of oxidative damage, and not all PD cases show the same magnitude of defect.",
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md"
-  },
-  {
-    "subject": "Peroxynitrite",
-    "predicate": "nitrates",
-    "object": "Alpha-synuclein",
-    "context": "Peroxynitrite nitrates alpha-synuclein at tyrosine residues, and nitrated alpha-synuclein is more prone to aggregation and fibrillation, hallmarks of Parkinson's disease pathology. Nitration stabilizes protofibrils and may seed Lewy-body formation. The directionality is nitrative modification to misfolding propensity. A caveat is that aggregation is also driven by many non-oxidative factors, so nitration accelerates rather than solely causes the process.",
-    "confidence": 0.95,
-    "source_document": "Peroxynitrite.md"
   },
   {
     "subject": "Oxidative Stress",
@@ -1376,14 +1352,6 @@
     "source_document": "Lipid Peroxidation.md"
   },
   {
-    "subject": "Oxidative Stress",
-    "predicate": "promotes",
-    "object": "Tau",
-    "context": "Oxidative stress promotes tau hyperphosphorylation by activating GSK-3beta and CDK5, kinases that phosphorylate tau and reduce its affinity for microtubules. This predisposes tau to detach and aggregate into paired helical filaments. The directionality is oxidant to kinase activation to tau modification. A caveat is that tau phosphorylation is also controlled by phosphatases and other kinases, so oxidative stress modulates rather than solely dictates the process, which is shared across Alzheimer and related tauopathies.",
-    "confidence": 0.95,
-    "source_document": "Oxidative Stress.md"
-  },
-  {
     "subject": "Asthma",
     "predicate": "is associated with",
     "object": "Glutathione Depletion",
@@ -1768,14 +1736,6 @@
     "source_document": "VCAM-1.md"
   },
   {
-    "subject": "Anti-TNF therapy",
-    "predicate": "reduces",
-    "object": "Oxidative Stress Markers",
-    "context": "Anti-TNF therapy reduces oxidative stress markers in treated patients, who show decreased serum MDA and increased glutathione, by interrupting the TNF-alpha-driven ROS loop. This mirrors the benefit seen across inflammatory arthritides. The directionality is TNF blockade to lowered oxidant burden. A caveat is that biomarker improvement is variable and must be weighed against infection risk from immunosuppression.",
-    "confidence": 0.95,
-    "source_document": "Anti-TNF Therapy.md"
-  },
-  {
     "subject": "Oxidative Stress",
     "predicate": "activates",
     "object": "NF-kappaB enhancing VCAM-1 transcription",
@@ -1806,14 +1766,6 @@
     "context": "Natalizumab (Tysabri) blocks the VCAM-1/VLA-4 interaction by antagonizing alpha4 integrin, reducing T-cell trafficking across the blood-brain barrier in multiple sclerosis. This dampens CNS inflammation but leaves patients susceptible to progressive multifocal leukoencephalopathy. The directionality is integrin blockade to reduced leukocyte entry. A caveat is that broad alpha4 inhibition also affects gut homing, causing PML and other risks that limit use.",
     "confidence": 0.95,
     "source_document": "VCAM-1.md"
-  },
-  {
-    "subject": "Fenton reaction",
-    "predicate": "produces",
-    "object": "Hydroxyl Radicals",
-    "context": "The Fenton reaction produces hydroxyl radicals according to Fe2+ + H2O2 to Fe3+ + OH* + OH-, a one-electron reduction of hydrogen peroxide by ferrous iron. This is the principal mechanism converting relatively inert H2O2 into the supremely reactive hydroxyl radical at sites of free iron. The directionality is metal-catalyzed conversion of a diffusible oxidant into a locally devastating radical. A caveat is that the ferric product can be recycled back to Fe2+ by reductants, sustaining chain production of hydroxyl radicals whenever iron and peroxide coexist.",
-    "confidence": 0.95,
-    "source_document": "Hydroxyl Radicals.md"
   },
   {
     "subject": "Fenton reaction",

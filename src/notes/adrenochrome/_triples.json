@@ -3721,14 +3721,6 @@
   },
   {
     "subject": "MAO",
-    "predicate": "has_type",
-    "object": "enzyme",
-    "context": "MAO (Monoamine oxidase) is a enzyme. MAO (Monoamine oxidase) is an enzyme that accelerates a specific biochemical transformation, typically with cofactor dependence. Classifying it as enzyme situates MAO (Monoamine oxidase) among an enzyme that accelerates a specific biochemical transformation, typically with cofactor dependence, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether MAO (Monoamine oxidase) is treated as a reactant, enzyme, process, or disease node.",
-    "confidence": 0.95,
-    "source_document": "MAO.md"
-  },
-  {
-    "subject": "MAO",
     "predicate": "inhibits",
     "object": "Adrenochrome",
     "context": "↔ Alternative metabolite when MAO is inhibited. MAO (Monoamine oxidase) is an enzyme that accelerates a specific biochemical transformation, typically with cofactor dependence. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin. The 'inhibits' relation denotes an inhibitory, neutralizing, or counteractive interaction in which MAO (Monoamine oxidase) diminishes or offsets the activity or abundance of Adrenochrome, relevant to redox and disease balance.",
@@ -8529,14 +8521,6 @@
   },
   {
     "subject": "Adrenochrome",
-    "predicate": "has_type",
-    "object": "document",
-    "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator is a document. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. The work situates adrenochrome derivatives within broader glyco-oxidative disease biology.",
-    "confidence": 0.95,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenochrome monoaminoguanidine",
     "context": "Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator discusses Adrenochrome monoaminoguanidine. This document details adrenochrome monoaminoguanidine, a conjugate pairing the adrenochrome scaffold with the dicarbonyl-trapping agent aminoguanidine, as a dual glyco-oxidative modulator. It argues the compound can both stabilize adrenochrome chemistry and intercept AGE precursors. Adrenochrome monoaminoguanidine is a glyco-oxidative modulator formed by conjugating adrenochrome with the dicarbonyl- and quinone-trapping agent aminoguanidine. It is investigated as a dual-action compound that both stabilizes the adrenochrome core and sequesters dicarbonyls and advanced glycation end-product precursors.",
@@ -9225,49 +9209,9 @@
   },
   {
     "subject": "Adrenochrome",
-    "predicate": "has_type",
-    "object": "document",
-    "context": "adrenochrome neutrophil and erthrocyte is a document. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Classifying it as document situates adrenochrome neutrophil and erthrocyte among a source document contributing evidence to the knowledge base, which constrains the mechanistic roles it can play in the associated pathways. Accurate type assignment is foundational because downstream inference in this graph depends on whether adrenochrome neutrophil and erthrocyte is treated as a reactant, enzyme, process, or disease node.",
-    "confidence": 0.95,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Adrenochrome",
-    "context": "adrenochrome neutrophil and erthrocyte discusses Adrenochrome. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Epinephrine",
-    "context": "adrenochrome neutrophil and erthrocyte discusses Epinephrine. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Epinephrine (adrenaline) is a catecholamine neurotransmitter and hormone synthesized from norepinephrine that acts on alpha and beta adrenergic receptors to increase heart rate, bronchodilation, and glucose mobilization. It is the parent molecule of adrenochrome through oxidation and is a major substrate for MAO and COMT.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
     "predicate": "discusses",
     "object": "Adrenal medulla",
     "context": "adrenochrome neutrophil and erthrocyte discusses Adrenal medulla. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. The adrenal medulla is the inner adrenal gland region of chromaffin cells that synthesize and release epinephrine and norepinephrine. It is the primary physiological source of circulating adrenaline, the precursor to adrenochrome.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Oxidative Stress",
-    "context": "adrenochrome neutrophil and erthrocyte discusses Oxidative Stress. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Oxidative stress is the deleterious imbalance between production of reactive oxygen and nitrogen species and the capacity of antioxidant defenses to neutralize them. It drives lipid peroxidation, protein carbonylation, DNA damage, and mitochondrial dysfunction, and it is implicated in aging, neurodegeneration, and cardiovascular disease.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Reactive Oxygen Species",
-    "context": "adrenochrome neutrophil and erthrocyte discusses Reactive Oxygen Species. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Reactive oxygen species (ROS) encompass superoxide, hydrogen peroxide, hydroxyl radical, and singlet oxygen produced as by-products of respiration and oxidase reactions. At low levels they act as signaling molecules, but excess ROS overwhelms antioxidant systems and damages macromolecules.",
     "confidence": 0.75,
     "source_document": "Adrenochrome.md"
   },
@@ -9308,14 +9252,6 @@
     "predicate": "discusses",
     "object": "Cardiomyocytes",
     "context": "adrenochrome neutrophil and erthrocyte discusses Cardiomyocytes. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Cardiomyocytes is a distinct cell type with specialized functions in immunity, metabolism, or structure.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Cardiotoxicity",
-    "context": "adrenochrome neutrophil and erthrocyte discusses Cardiotoxicity. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Cardiotoxicity is damage to the heart from drugs, toxins, or radiation, manifesting as dysfunction, arrhythmia, or failure. Anthracyclines, for example, generate ROS via topoisomerase and mitochondrial quinone redox cycling.",
     "confidence": 0.75,
     "source_document": "Adrenochrome.md"
   },
@@ -9402,14 +9338,6 @@
   {
     "subject": "Adrenochrome",
     "predicate": "discusses",
-    "object": "Redox Cycling",
-    "context": "adrenochrome neutrophil and erthrocyte discusses Redox Cycling. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Redox cycling is the repeated one-electron reduction and re-oxidation of a compound, such as a quinone, that continuously generates superoxide and consumes reducing equivalents. Adrenochrome and aminochromes redox-cycle via semiquinone intermediates, making them sustained intracellular ROS sources.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
     "object": "Erythrocytes",
     "context": "adrenochrome neutrophil and erthrocyte discusses Erythrocytes. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. Erythrocytes (red blood cells) lack mitochondria and rely on glycolysis, carrying hemoglobin for oxygen transport. They are uniquely exposed to circulatory oxidants and must maintain methemoglobin reductase and glutathione systems to prevent oxidation.",
     "confidence": 0.75,
@@ -9452,30 +9380,6 @@
     "predicate": "discusses",
     "object": "Adrenochrome Hypothesis",
     "context": "adrenochrome neutrophil and erthrocyte discusses Adrenochrome Hypothesis. adrenochrome neutrophil and erthrocyte is a source document contributing evidence to the knowledge base. The adrenochrome hypothesis, advanced by Abram Hoffer, Humphry Osmond, and John Smythies in the 1950s, proposes that aberrant metabolism of adrenaline to the psychotomimetic compound adrenochrome causes the symptoms of schizophrenia. Although influential in early biological psychiatry, the hypothesis lacks robust replication and is generally considered unsupported by modern evidence.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "has_type",
-    "object": "document",
-    "context": "neutrophils role in adrenochrome production is a document. This document examines how neutrophils, via myeloperoxidase and oxidant burst (HOCl, H2O2), can oxidize epinephrine to adrenochrome at inflammatory sites. It positions neutrophils as a cellular source of adrenochrome outside the adrenal medulla. The work links innate immunity to catecholamine oxidation chemistry.",
-    "confidence": 0.95,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Neutrophils",
-    "context": "neutrophils role in adrenochrome production discusses Neutrophils. This document examines how neutrophils, via myeloperoxidase and oxidant burst (HOCl, H2O2), can oxidize epinephrine to adrenochrome at inflammatory sites. It positions neutrophils as a cellular source of adrenochrome outside the adrenal medulla. Neutrophils are abundant granulocytic innate immune cells that engulf pathogens and release ROS via NADPH oxidase and myeloperoxidase (generating HOCl) to kill microbes. Their oxidant burst can also damage host tissue in inflammation.",
-    "confidence": 0.75,
-    "source_document": "Adrenochrome.md"
-  },
-  {
-    "subject": "Adrenochrome",
-    "predicate": "discusses",
-    "object": "Adrenochrome",
-    "context": "neutrophils role in adrenochrome production discusses Adrenochrome. This document examines how neutrophils, via myeloperoxidase and oxidant burst (HOCl, H2O2), can oxidize epinephrine to adrenochrome at inflammatory sites. It positions neutrophils as a cellular source of adrenochrome outside the adrenal medulla. Adrenochrome is the oxidation product of the catecholamine adrenaline (epinephrine), formed either spontaneously by autoxidation or enzymatically within the chromaffin cells of the adrenal medulla and in blood. Structurally it is a 3-hydroxy-1-methyl-5,6-indolequinone that can undergo one-electron reduction to a semiquinone radical and rearrange to the aminochrome adrenolutin.",
     "confidence": 0.75,
     "source_document": "Adrenochrome.md"
   }

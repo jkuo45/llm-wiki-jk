@@ -96,14 +96,6 @@
     "source_document": "Berberine.md"
   },
   {
-    "subject": "Berberine",
-    "predicate": "is",
-    "object": "COMT",
-    "context": "Berberine is an alternative anti-inflammatory agent for slow COMT individuals because its chemical structure lacks a catechol group and therefore does not interact with or inhibit COMT. Unlike some flavonoid anti-inflammatories that are COMT substrates or inhibitors, berberine leaves catecholamine clearance intact. Clinicians often favor it when avoiding additional methyl burden or COMT perturbation is a priority.",
-    "confidence": 0.94,
-    "source_document": "Berberine.md"
-  },
-  {
     "subject": "Betaine",
     "predicate": "converts",
     "object": "homocysteine to methionine",
@@ -577,26 +569,10 @@
   },
   {
     "subject": "Dopamine Transporter",
-    "predicate": "is_highly_abundant_in",
-    "object": "Striatum",
-    "context": "The dopamine transporter is highly abundant in the striatum, serving as the principal mechanism for rapid reuptake and termination of dopamine signaling in this region. Its dense expression on nigrostriatal terminals ensures tight spatial and temporal control of striatal dopamine. This contrasts with cortical areas where DAT is sparse and COMT assumes greater importance.",
-    "confidence": 0.92,
-    "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md"
-  },
-  {
-    "subject": "Dopamine Transporter",
     "predicate": "is_sparse_in",
     "object": "Prefrontal Cortex",
     "context": "The dopamine transporter is sparse in the prefrontal cortex compared with the striatum, meaning dopamine clearance there relies far more on diffusion and enzymatic O-methylation by COMT. This anatomical fact is the reason COMT genotype so strongly influences prefrontal dopamine and cognition. Reduced DAT expression shifts the burden of inactivation to extracellular COMT.",
     "confidence": 0.94,
-    "source_document": "Prefrontal Cortex.md"
-  },
-  {
-    "subject": "Dopamine Transporter",
-    "predicate": "is_sparse_in",
-    "object": "Prefrontal Cortex",
-    "context": "The dopamine transporter is sparse in the prefrontal cortex, so dopamine signaling in this region persists longer and is inactivated predominantly by COMT rather than reuptake. This sparse DAT expression is the mechanistic basis for COMT's predominance in prefrontal dopamine clearance. It explains why prefrontal-dependent cognition is especially COMT-genotype sensitive.",
-    "confidence": 0.93,
     "source_document": "Prefrontal Cortex.md"
   },
   {
@@ -884,14 +860,6 @@
     "predicate": "supports",
     "object": "COMT",
     "context": "MTRR supports SAMe production indirectly by keeping methionine synthase active, thereby enabling homocysteine remethylation to methionine, the precursor of SAMe. Adequate MTRR function thus preserves the methyl donor pool that COMT consumes. Its supportive role links B12 status and methylation to catechol metabolism.",
-    "confidence": 0.92,
-    "source_document": "MTRR.md"
-  },
-  {
-    "subject": "MTRR",
-    "predicate": "supports",
-    "object": "COMT",
-    "context": "MTRR supports COMT function indirectly by maintaining methionine synthase-dependent SAMe synthesis, since COMT strictly requires SAMe as its methyl donor. Any decline in MTRR activity lowers SAMe and can constrain COMT-catalyzed catechol O-methylation. The relationship is therefore upstream and permissive rather than direct.",
     "confidence": 0.92,
     "source_document": "MTRR.md"
   },
