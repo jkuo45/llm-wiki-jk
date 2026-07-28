@@ -143,6 +143,7 @@
     <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
   </div>
   <div id="legend-wrap">
+    <div id="community-key-nodes"></div>
     <h3>Communities / 社群</h3>
     <div id="legend-controls">
       <label><input type="checkbox" id="select-all-cb" checked>Select All / 全選</label>
@@ -1243,6 +1244,25 @@ function focusOnCommunity(cid) {
       line.material.opacity = 0.02;
     }
   });
+
+  // Show key nodes for this community (top 15 by degree)
+  const communityKeyNodes = document.getElementById('community-key-nodes');
+  const communityNodes = RAW_NODES
+    .filter(n => n.community === cid)
+    .sort((a, b) => b.degree - a.degree)
+    .slice(0, 15);
+  communityKeyNodes.innerHTML = '<div style="color:#aaa;font-size:11px;margin:8px 0 4px">Key Nodes</div>';
+  communityNodes.forEach(n => {
+    const span = document.createElement('span');
+    span.className = 'trace-key-node';
+    const zhTW = TRANSLATIONS[n.label] || '';
+    span.textContent = zhTW && zhTW !== n.label ? `${n.label} / ${zhTW}` : n.label;
+    span.title = `Degree: ${n.degree}`;
+    span.addEventListener('click', () => {
+      if (nodeObjects.has(n.id)) selectNode(n.id);
+    });
+    communityKeyNodes.appendChild(span);
+  });
 }
 
 function clearCommunityFocus() {
@@ -1250,6 +1270,7 @@ function clearCommunityFocus() {
   document.querySelectorAll('.legend-item').forEach(item => {
     item.classList.remove('focused', 'dimmed');
   });
+  document.getElementById('community-key-nodes').innerHTML = '';
 
   // Restore to trace state if active, otherwise default
   if (activeTrace) {
@@ -1426,6 +1447,7 @@ function activateTrace(trace) {
   document.querySelectorAll('.legend-item').forEach(item => {
     item.classList.remove('focused', 'dimmed');
   });
+  document.getElementById('community-key-nodes').innerHTML = '';
 
   // Show summary
   const sourceLink = trace.sourceUrl
