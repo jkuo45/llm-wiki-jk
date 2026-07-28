@@ -3,7 +3,7 @@ title: Senescence notes
 aliases: []
 description: Index of wiki notes for cellular senescence and senotherapeutics
 created: 2026-07-09
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 # Senescence
 
@@ -25,7 +25,7 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 16_July_2026 09:00 PM PDT
+- Last updated: 27_July_2026 12:00 PM PDT
 - Total count of entities: 51
 
 > [!note] Cross-topic entities relocated to `_link/`
@@ -53,6 +53,9 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
   - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Salk press release — "Could this enzyme help remove 'zombie' cells…"]]
     - Public summary of the Soriano-Castell/Maher study framing [[Acid ceramidase]] as a druggable [[Senolytic|senotherapeutic]] target for clearing senescent "zombie" cells to support healthy aging.
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|Dasgupta et al. 2024 — Epigenetic Landscape Orchestrating SASP Expression]]
+    - Comprehensive Nature review (2024) on how epigenetic reprogramming in senescent cells orchestrates SASP expression — covering chromatin compartmentalization (A/B switching), [[Senescence-Associated Heterochromatin Foci|SAHF]]/[[SADS]] formation, histone modifications ([[H3K27ac]], [[H3K27me3]], [[H3K9me3]]), histone variants ([[H3.3]], [[H2A.J]], [[H2A.X]], [[macroH2A]]), histone loss, [[DNA Methylation]], and retrotransposon derepression ([[LINE-1]], [[Human Endogenous Retrovirus|HERVs]]). Positions epigenetic modulators ([[EZH2]], [[KDM4]], [[DOT1L]], [[BRD4]], [[MLL1]] inhibitors) as potential [[Senomorphic|senomorphic]] agents. Core entities: [[SASP]], [[NF-κB]], [[cGAS-STING Pathway]], [[AP-1]], [[HMGB2]], [[HMGB1]], [[HIRA]], [[Sirtuin 6|SIRT6]], [[Epigenetic Aging]], [[Inflammaging]].
 
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |

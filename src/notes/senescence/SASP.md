@@ -5,7 +5,7 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
 created: 2024-01-01
-updated: 2026-07-12
+updated: 2026-07-27
 tags:
   - biological-process
   - senescence
@@ -317,6 +317,13 @@ List of documents that mention this entity
 - [[DNA Damage Response]] — required for SASP initiation
 - [[p38 MAPK]] — activates NF-κB-mediated SASP independent of DDR
 - [[JAK]]–[[STAT3]] — promotes pro-inflammatory SASP and frailty
+- [[H3K27ac]] — central histone mark at senescence-activated enhancers; recruits AP-1, BRD4, p300 to SASP gene loci
+- [[AP-1]] — pioneer transcription factor that opens closed chromatin at SASP enhancers; depletion partially reverses cell cycle arrest
+- [[BRD4]] — epigenetic reader connecting enhancer remodeling to SASP expression
+- [[EZH2]] — histone methyltransferase for H3K27me3; inhibition derepresses SASP genes (potential cancer immunotherapy)
+- [[LINE-1]] — retrotransposon derepressed during senescence; generates cytoplasmic cDNA activating cGAS-STING to drive SASP
+- [[Senescence-Associated Heterochromatin Foci|SAHF]] — heterochromatin structures correlating with SASP; formed by HIRA/ASF1a/macroH2A
+- [[HMGB2]] — chromatin architectural protein protecting SASP loci from heterochromatin spread in OIS
 - [[SIRT1]] — epigenetic suppressor of SASP via histone deacetylation
 - [[Epigenetic Alterations]] — the epigenetic landscape (chromatin reorganization, histone marks, DNA methylation, retrotransposon derepression) orchestrates SASP expression
 - [[Senescence-Associated Heterochromatin Foci]] — SAHF disruption correlates with reduced SASP expression
