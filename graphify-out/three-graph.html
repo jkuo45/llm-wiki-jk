@@ -174,24 +174,24 @@ const loadStatus = document.getElementById('load-status');
 
 async function loadData() {
   loadStatus.textContent = 'Loading nodes...';
-  const nodesResp = await fetch('nodes.json');
+  const nodesResp = await fetch('nodes.json?v=' + Date.now());
   const RAW_NODES = await nodesResp.json();
   
   loadStatus.textContent = 'Loading edges...';
-  const edgesResp = await fetch('edges.json');
+  const edgesResp = await fetch('edges.json?v=' + Date.now());
   const RAW_EDGES = await edgesResp.json();
   
   loadStatus.textContent = 'Loading legend...';
-  const legendResp = await fetch('legend.json');
+  const legendResp = await fetch('legend.json?v=' + Date.now());
   const LEGEND = await legendResp.json();
   
   loadStatus.textContent = 'Loading context...';
-  const graphResp = await fetch('graph.json');
+  const graphResp = await fetch('graph.json?v=' + Date.now());
   const graphData = await graphResp.json();
   
   let MANIFEST = {};
   try {
-    const manifestResp = await fetch('manifest.json');
+    const manifestResp = await fetch('manifest.json?v=' + Date.now());
     MANIFEST = await manifestResp.json();
   } catch (e) {
     console.warn('Could not load manifest:', e);
@@ -202,7 +202,7 @@ async function loadData() {
 
 const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST } = await loadData();
 
-const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki/blob/dev/src/';
+const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki/blob/dev/';
 const fileToPath = new Map();
 Object.keys(MANIFEST).forEach(p => {
   if (p.endsWith('.md')) {
@@ -220,7 +220,7 @@ let activeRouteIdx = -1;
 let suppressHashUpdate = false;
 
 try {
-  const traceResp = await fetch('traces.json');
+  const traceResp = await fetch('traces.json?v=' + Date.now());
   TRACES = await traceResp.json();
 } catch (e) {
   console.warn('Could not load traces:', e);
@@ -258,7 +258,7 @@ function parseHash() {
 loadStatus.textContent = 'Loading translations...';
 let TRANSLATIONS = {};
 try {
-  const transResp = await fetch('translations-zh-TW.json');
+  const transResp = await fetch('translations-zh-TW.json?v=' + Date.now());
   TRANSLATIONS = await transResp.json();
 } catch (e) {
   console.warn('Could not load translations:', e);
@@ -1122,8 +1122,8 @@ function showInfo(nodeId) {
     <div class="field"><b>${esc(displayName)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
     <div class="field">Community: ${esc(displayCommunity)}</div>
-    <div class="field">Source: ${n.source_file ? `<a href="${esc(GITHUB_BASE + (fileToPath.get(n.source_file) || 'notes/_link/' + n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(n.source_file)} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>` : '-'}</div>
-    ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description)}</div>` : ''}
+    <div class="field">Source: ${n.source_file ? `<a href="${esc(GITHUB_BASE + n.source_file)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(n.source_file.split('/').pop())} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>` : '-'}</div>
+    ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(GITHUB_BASE + n.source_file)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:11px">[read more]</a>` : ''}</div>` : ''}
     <div class="field">Degree: ${n.degree}</div>
     ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;
