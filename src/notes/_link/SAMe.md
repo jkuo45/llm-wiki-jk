@@ -3,7 +3,7 @@ title: SAMe
 description: SAMe (S-adenosylmethionine) is a naturally occurring compound that is
   a major Methyl Donor in the body. It is involved in over 100 biochemical reactions.
 created: 2026-05-25
-updated: 2026-07-04
+updated: 2026-07-29
 tags:
   - chemical-compound
 aliases:
@@ -35,11 +35,16 @@ List of documents that mention this entity
   - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
     - Methyl Donor supplements include: - Methylfolate - Methylcobalamin (MethylB12) - TMG/Betaine - SAMe (S-adenosylmethionine) Without clinical trials on this interaction with Methyl Donor, the need to limit this is something that may be unique to an individual.
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Fisetin is a COMT substrate; its O-methylation to [[Geraldol]] consumes SAMe and generates [[SAH]]. Chronic high-dose fisetin could shift the SAMe:SAH ratio, affecting global methylation capacity. This is particularly relevant for individuals with slow COMT (Met/Met) who already have altered methylation dynamics.
+
 
 ## Connections
 - [[COMT]]: Requires SAMe as a cofactor for methylation.
 - [[Methylation]]: The biochemical pathway in which SAMe is a key player.
 - [[Dopamine]]: One of the primary neurotransmitters regulated by SAMe-dependent COMT activity.
+- [[Fisetin]]: COMT substrate whose O-methylation consumes SAMe; chronic dosing could deplete methylation capacity.
+- [[SAH]]: The demethylated product of SAMe; generated during fisetin methylation.
 
 ---
 ## Linking Summary

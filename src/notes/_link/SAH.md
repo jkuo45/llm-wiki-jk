@@ -3,7 +3,7 @@ title: SAH
 description: S-adenosylhomocysteine, the immediate product of methylation reactions and a competitive inhibitor of methyltransferases.
 protected: false
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-29
 tags:
   - metabolite
   - methylation-intermediate
@@ -38,6 +38,8 @@ Elevated SAH is associated with hyperhomocysteinemia, cardiovascular risk, and a
 - [[SAM]]: SAH is the demethylated product of SAM.
 - [[Histone Methylation]]: SAH inhibits methyltransferases controlling histone marks.
 - [[Homocysteine]]: SAH is hydrolyzed to homocysteine and adenosine.
+- [[Fisetin]]: COMT substrate whose O-methylation generates SAH; chronic dosing could shift SAM:SAH ratio.
+- [[COMT]]: Enzyme whose methylation reactions generate SAH from SAM.
 
 ## Linking Summary
 

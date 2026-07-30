@@ -4,7 +4,7 @@ description: COMT (Catechol-O-methyltransferase) is one of the primary enzymes r
   for the degradation of Catecholamines, including Dopamine, Norepinephrine, and Epinephrine.
   It is essential for protect...
 created: 2026-05-25
-updated: 2026-07-04
+updated: 2026-07-29
 tags:
   - enzyme
   - Catechol-O-methyltransferase
@@ -43,6 +43,22 @@ Population frequencies vary: the Met/Met (slow) genotype occurs in approximately
 
 Under normal conditions, COMT and [[Monoamine oxidase]] (MAO) are the dominant routes for adrenaline metabolism. If COMT is inhibited (e.g., by drugs used in Parkinson's disease or certain [[Flavonoids]] like [[Quercetin]]), levels of [[Epinephrine]] can rise. This increased substrate availability, combined with [[Oxidative Stress]], may shift more adrenaline toward the minor [[Adrenochrome]] oxidative pathway via autoxidation.
 
+## Fisetin as a COMT Substrate-Inhibitor
+
+> [!info] Source: [[task_output_comt_fisetin_senolytic_09_July_2026 1|COMT × Fisetin Research Evaluation]]
+> [[Fisetin]] is a validated COMT inhibitor with IC₅₀ values of 2.6–5.8 µM (mixed competitive + noncompetitive inhibition). Critically, fisetin is not merely a passive inhibitor — it is a **substrate-inhibitor** that is itself O-methylated by COMT to generate the active metabolite [[Geraldol]]. At low concentrations fisetin acts primarily as a substrate; at higher concentrations it acts as a competitive inhibitor. This process consumes [[SAMe]] and generates [[SAH]], a potent feedback inhibitor of COMT.
+
+| Compound | COMT IC₅₀ (µM) | Mechanism |
+|----------|----------------|-----------|
+| [[Quercetin]] | 0.9–1.5 | Competitive (catechol substrate) |
+| [[Fisetin]] | 2.6–5.8 | Mixed (competitive + noncompetitive) |
+| (+)-[[Catechin]] | 0.86 | Competitive |
+| [[EGCG]] | 0.04–0.07 | Tight-binding inhibitor |
+| Entacapone (clinical) | ~0.23 | Competitive (nitrocatechol) |
+| Tolcapone (clinical) | ~0.048 | Competitive (nitrocatechol) |
+
+Fisetin's COMT inhibition potency is moderate—~10–50× weaker than clinical COMT inhibitors but within the range achievable through dietary supplementation. Because COMT activity varies 3–4 fold across [[Val158Met]] genotypes, fisetin's effects are genotype-sensitive. No clinical trial has yet stratified fisetin outcomes by COMT genotype. The overlap between COMT-inhibitory and senolytic concentration ranges has not been established.
+
 ## Clinical Relevance
 
 ### COMT Inhibitors in Parkinson's Disease
@@ -78,6 +94,9 @@ List of documents that mention this entity
   - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
     - A common genetic Polymorphism that results in increased activity of the Dopamine regulating enzyme COMT (the COMT Val 158 allele) has been found to associate with poorer Cognitive Performance and increased susceptibility to develop Psychiatric Disorders.
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026 1|COMT × Fisetin Research Evaluation]]
+    - Comprehensive evaluation of fisetin as a COMT substrate-inhibitor (IC₅₀ 2.6–5.8 µM, mixed kinetics). Covers substrate-inhibitor mechanism, geraldol metabolite formation, comparison with clinical COMT inhibitors, genotype-dependent effects, and proposed experimental plan.
+
 
 ## Connections
 
@@ -92,6 +111,10 @@ List of documents that mention this entity
 - [[Val158Met]]: The key functional polymorphism affecting COMT activity.
 - [[Magnesium]]: Required cofactor for COMT enzymatic activity.
 - [[SAMe]]: The methyl donor required by COMT.
+- [[Fisetin]]: Validated COMT substrate-inhibitor (IC₅₀ 2.6–5.8 µM); generates [[Geraldol]] via O-methylation.
+- [[Geraldol]]: COMT-generated metabolite of fisetin; pharmacology uncharacterized.
+- [[Quercetin]]: Structural analog and more potent COMT inhibitor (IC₅₀ 0.9–1.5 µM).
+- [[EGCG]]: Tight-binding COMT inhibitor (IC₅₀ 0.04–0.07 µM).
 
 ---
 

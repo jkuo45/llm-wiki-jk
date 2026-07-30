@@ -3,7 +3,7 @@ title: Bcl-2
 description: Anti-apoptotic protein that localizes to the mitochondrial outer membrane
   and inhibits cytochrome c release.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-29
 tags:
   - protein
   - apoptosis
@@ -37,11 +37,16 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - In addition, SIRT2 overexpression induces cellular Apoptosis via upregulating cleaved Caspase-3 and Bax and downregulating anti-apoptotic protein Bcl-2, suggesting the important role of SIRT2 in Apoptosis.
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Fisetin binds the hydrophobic groove of Bcl-2 with favorable binding energies (−22.2 to −35. kcal/mol), sensitizing senescent cells to apoptosis. Bcl-xL selectivity is pharmacologically preferred. PI3K-Akt inhibition by fisetin further suppresses Bcl-2/Bcl-xL expression.
+
 
 ## Connections
 - [[Apoptosis]]: Bcl-2 is a key regulator of the [[Intrinsic Pathway]].
 - [[Bax]]: The ratio of Bcl-2 to Bax often determines the cell's susceptibility to apoptosis.
 - [[Survivin]]: Often co-expressed with other anti-apoptotic proteins in resistant tumors.
+- [[Fisetin]]: Natural flavonoid that binds Bcl-2's hydrophobic groove, acting as a senolytic by sensitizing senescent cells to apoptosis.
+- [[Bcl-xL]]: Anti-apoptotic family member; fisetin shows pharmacologically preferred selectivity for Bcl-xL over Bcl-2.
 
 ## Linking Summary
 - New links added: [[Bcl-2 family]], [[Apoptosis]], [[leukemia]], [[Prostate Cancer]], [[Oblimersen sodium]], [[ABT-737]], [[ABT-263]], [[Intrinsic Pathway]], [[Bax]], [[Survivin]]

@@ -4,7 +4,7 @@ description: AMP-activated protein kinase (AMPK) is a central metabolic sensor
   that plays a critical role in the Aging process by integrating energy status with
   epigenetic regulation. As organisms age, AMPK...
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-29
 tags:
   - enzyme
 aliases: []
@@ -90,6 +90,9 @@ List of documents that mention this entity
 
    - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
      - SIRT1 is part of the AMPK-centered energy-sensing network; AMPK activation raises NAD+ (via NAMPT) to activate SIRT1, with reciprocal feed-forward regulation.
+
+   - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+     - AMPK is listed among the longevity pathways in fisetin's network pharmacology profile (alongside mTOR, NRF2, NF-κB, PI3K). Proposed computational modeling will map fisetin's multi-target profile across these pathways using STRING and KEGG analysis.
 
 ## Connections
 - **[[SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.

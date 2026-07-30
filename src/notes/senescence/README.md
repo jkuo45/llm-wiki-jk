@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 27_July_2026 12:00 PM PDT
-- Total count of entities: 51
+- Last updated: 29_July_2026 12:00 PM PDT
+- Total count of entities: 52
 
 > [!note] Cross-topic entities relocated to `_link/`
 > The following 18 entities are referenced across multiple topics and were moved to `notes/_link/` as the single source of truth (consolidated 16_July_2026): 1,3-Bisphosphoglycerate, Aminooxyacetate, CCCP, Citric Acid Cycle, CpG Islands, Cyclin A, Cyclin B, Damage-Associated Molecular Patterns, Glyceraldehyde 3-Phosphate, LeucoMB, Malate Dehydrogenase, Malate-Aspartate Shuttle, Malate, Mesenchymal Stem Cells, Oxaloacetate, Plasmacytoid Dendritic Cells, S-Nitrosoglutathione Reductase, c-Fos.
@@ -56,6 +56,9 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|Dasgupta et al. 2024 — Epigenetic Landscape Orchestrating SASP Expression]]
     - Comprehensive Nature review (2024) on how epigenetic reprogramming in senescent cells orchestrates SASP expression — covering chromatin compartmentalization (A/B switching), [[Senescence-Associated Heterochromatin Foci|SAHF]]/[[SADS]] formation, histone modifications ([[H3K27ac]], [[H3K27me3]], [[H3K9me3]]), histone variants ([[H3.3]], [[H2A.J]], [[H2A.X]], [[macroH2A]]), histone loss, [[DNA Methylation]], and retrotransposon derepression ([[LINE-1]], [[Human Endogenous Retrovirus|HERVs]]). Positions epigenetic modulators ([[EZH2]], [[KDM4]], [[DOT1L]], [[BRD4]], [[MLL1]] inhibitors) as potential [[Senomorphic|senomorphic]] agents. Core entities: [[SASP]], [[NF-κB]], [[cGAS-STING Pathway]], [[AP-1]], [[HMGB2]], [[HMGB1]], [[HIRA]], [[Sirtuin 6|SIRT6]], [[Epigenetic Aging]], [[Inflammaging]].
+
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Evaluates fisetin's dual senolytic–COMT modulatory profile. Senolytic mechanisms include Bcl-2/Bcl-xL inhibition, PI3K-Akt pathway suppression, and SASP reduction. Proposes pharmacogenomic clinical trial with epigenetic age (GrimAge, DunedinPACE) as primary endpoint. Core entities: [[Fisetin]], [[COMT]], [[Bcl-2]], [[Bcl-xL]], [[PI3K]], [[SASP]], [[Epigenetic Aging]], [[Frailty]].
 
 
 | entity                                              |     datetime updated      | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                                                     |

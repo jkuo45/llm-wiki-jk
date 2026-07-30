@@ -4,7 +4,7 @@ description: Epinephrine, also known as Adrenaline, is a hormone and neurotransm
   involved in the body''s fight-or-flight response. It is produced primarily by the
   adrenal glands and certain neurons.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-29
 tags:
   - chemical-compound
 aliases: []
@@ -56,6 +56,9 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
     - What few seem to have suggested to date however is that the accumulation of NM itself could serves as a storage, protection, and re-release mechanism for Dopamine (in the Substantia Nigra) or Epinephrine (in the Locus Coeruleus), possibly acting as a very r...
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Excessive COMT inhibition by fisetin could elevate epinephrine levels, particularly under oxidative stress, potentially increasing autoxidation to [[Adrenochrome]]. This is a mechanistic concern rather than an empirical observation at fisetin doses.
+
 
 ## Connections
 - [[Adrenochrome]] ↔ Direct oxidative byproduct of Epinephrine.
@@ -63,6 +66,7 @@ List of documents that mention this entity
 - [[Neutrophils]] ↔ Cells that oxidize Epinephrine to Adrenochrome during the respiratory burst.
 - [[Lungs]] & Heart: Major sites of adrenaline-related oxidative stress and [[Cardiotoxicity]].
 - [[COMT]]: Enzyme responsible for its degradation.
+- [[Fisetin]]: COMT inhibitor that could elevate epinephrine levels; risk of catecholamine excess under oxidative stress.
 - [[Catecholamines]]: The class of molecules to which epinephrine belongs.
 - [[Norepinephrine]]: The precursor to epinephrine.
 

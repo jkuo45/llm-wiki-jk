@@ -2,7 +2,7 @@
 title: Epigenetic Aging
 description: Age-related, largely stochastic drift in DNA methylation and chromatin marks that can be quantified as epigenetic clocks predictive of biological age.
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-29
 tags:
   - biological-process
   - aging
@@ -24,6 +24,9 @@ aliases:
 
   - [[_document_ - Shingles vaccine may slow biological aging and reduce inflammation|Shingles vaccine may slow biological aging and reduce inflammation]]
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Proposed Phase II clinical trial uses epigenetic age (GrimAge, DunedinPACE) as primary endpoint for fisetin senolytic intervention. Explores whether COMT genotype-dependent effects on methylation capacity (via SAMe/SAH dynamics) influence epigenetic aging trajectories.
+
 ## Connections
 
 - [[Biological Aging]] — composite score component
@@ -32,6 +35,9 @@ aliases:
 - [[LINE-1]] — derepressed retroelement driving inflammation
 - [[Transcriptomic Aging]] — parallel aging domain
 - [[Shingles Vaccine]] — associated with slower epigenetic aging
+- [[Fisetin]] — proposed senolytic intervention with epigenetic age as clinical endpoint
+- [[COMT]] — genotype-dependent methylation effects may influence epigenetic aging
+- [[SAMe]] — methyl donor whose availability (consumed by COMT/fisetin metabolism) affects epigenetic maintenance
 
 ## Linking Summary
 

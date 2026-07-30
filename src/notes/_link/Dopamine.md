@@ -4,7 +4,7 @@ description: Dopamine is a critical catecholamine neurotransmitter in the brain
   and peripheral nervous system, playing key roles in reward, motivation, motor control,
   and executive function.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-29
 tags:
   - biological-molecule
 aliases: []
@@ -64,6 +64,9 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
     - Neuromelanin (NM) in the pre-synaptic terminal of Dopamine neurons is emerging as a primary player in the etiology of Neurodegenerative Diseases including PD.
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Fisetin-mediated COMT inhibition could augment prefrontal dopamine tone, particularly in Val/Val (fast COMT) individuals. The inverted-U relationship between dopamine and PFC function means Met/Met (slow COMT) individuals may experience adverse effects from further COMT suppression.
+
 
 ## Connections
 - [[Catecholamines]] ↔ Dopamine is a member of this class.
@@ -72,6 +75,7 @@ List of documents that mention this entity
 - [[Epinephrine]] ↔ Precursor to epinephrine (Dopamine → Norepinephrine → Epinephrine).
 - [[COMT]] & [[MAO]] ↔ Primary enzymes for dopamine metabolism.
 - [[COMT]]: Major enzyme for dopamine degradation.
+- [[Fisetin]]: Validated COMT inhibitor that could augment dopamine levels in PFC; effects are [[Val158Met]] genotype-dependent.
 - [[Sirtuins]]: Brain region with high dopamine release capacity and DAT abundance.
 - [[Prefrontal Cortex]]: Region where dopamine is critical for executive function.
 

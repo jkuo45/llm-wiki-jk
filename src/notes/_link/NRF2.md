@@ -2,7 +2,7 @@
 title: Nrf2
 description: Transcription factor (NF-E2-related factor 2) that orchestrates the antioxidant and detoxification response by binding ARE/EpRE elements.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-29
 tags:
   - protein
   - redox
@@ -39,6 +39,9 @@ Nrf2 intersects with longevity pathways. It is co-activated by many [[Sirtuins]]
      - Notes Nrf2 involvement in urolithin A-mediated mitochondrial quality and antioxidant effects.
    - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
      - Resveratrol, a SIRT1-activating compound, confers vascular protection via Nrf2/HO-1–mediated antioxidant defense.
+
+   - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+     - NRF2 is listed among the longevity pathways in fisetin's network pharmacology profile. Proposed computational modeling will map fisetin's multi-target profile across NRF2, AMPK, mTOR, NF-κB, PI3K using STRING and KEGG analysis.
 
 ## Connections
 

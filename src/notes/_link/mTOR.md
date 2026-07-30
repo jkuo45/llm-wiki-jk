@@ -4,7 +4,7 @@ description: mTOR (Mechanistic Target of Rapamycin) is a protein kinase that
   serves as a central ''master regulator'' of cellular metabolism. It integrates signals
   from nutrients, growth factors, and energy s...
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-07-29
 tags:
   - protein
 aliases: []
@@ -89,6 +89,9 @@ List of documents that mention this entity
 
   - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
     - Review of mTOR as the central longevity-regulating pathway and rapamycin's mechanisms of action.
+
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - mTOR is listed among the longevity pathways in fisetin's network pharmacology profile. Proposed computational modeling will map fisetin's multi-target profile across mTOR, AMPK, NRF2, NF-κB, PI3K using STRING and KEGG analysis.
 
   - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
     - Models the full mTOR-PI3K cascade (mTOR ↔ [[mTORC1]]/[[mTORC2]], [[PI3K]], [[Akt]], [[IRS1]], [[SK61_2]], [[PTEN]], [[PP2A]], [[FKBP12]]) and shows rapamycin hormesis arises from an [[Incoherent Bivalent Motif]] centered on mTORC1.

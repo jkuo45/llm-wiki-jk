@@ -11,8 +11,8 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 
 ## Maintenance
 
-- Last updated: 04_July_2026 12:00 PM 
-- Total count of entities: 58
+- Last updated: 29_July_2026 12:00 PM PDT
+- Total count of entities: 62
 
 | entity | datetime updated |
 | :--- | :---: |
@@ -27,7 +27,7 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[Cardiovascular Disease]] | 04_July_2026 12:00 PM  |
 | [[Catechols]] | 04_July_2026 12:00 PM  |
 | [[Cerebellum]] | 04_July_2026 12:00 PM  |
-| [[COMT]] | 04_July_2026 12:00 PM  |
+| [[COMT]] | 29_July_2026 12:00 PM PDT |
 | [[Creatine]] | 04_July_2026 12:00 PM  |
 | [[D2 receptor]] | 04_July_2026 12:00 PM  |
 | [[Dopamine]] | 04_July_2026 12:00 PM  |
@@ -35,8 +35,9 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[EGCG]] | 04_July_2026 12:00 PM  |
 | [[Epinephrine]] | 04_July_2026 12:00 PM  |
 | [[Estrogen]] | 04_July_2026 12:00 PM  |
-| [[Fisetin]] | 04_July_2026 12:00 PM  |
+| [[Fisetin]] | 29_July_2026 12:00 PM PDT |
 | [[Folinic acid]] | 04_July_2026 12:00 PM  |
+| [[Geraldol]] | 29_July_2026 12:00 PM PDT |
 | [[Green tea]] | 04_July_2026 12:00 PM  |
 | [[Hesperidin]] | 04_July_2026 12:00 PM  |
 | [[Hippocampus]] | 04_July_2026 12:00 PM  |
@@ -74,3 +75,6 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[Ventral Tegmental Area]] | 04_July_2026 12:00 PM  |
 | [[Vitamin E]] | 04_July_2026 12:00 PM  |
 | [[Working Memory]] | 04_July_2026 12:00 PM  |
+| [[Bcl-xL]] | 29_July_2026 12:00 PM PDT |
+| [[Entacapone]] | 29_July_2026 12:00 PM PDT |
+| [[Tolcapone]] | 29_July_2026 12:00 PM PDT |
