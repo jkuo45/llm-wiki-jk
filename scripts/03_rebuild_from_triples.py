@@ -248,7 +248,7 @@ def main() -> int:
                         file_type="concept",
                         source_file=src,
                         source_triples=rel,
-                        description=t.get("context", "")[:300],
+                        description=t.get("context", ""),
                     )
             score, conf = resolve_conf(t)
             key = (sid, t["predicate"], tid)
