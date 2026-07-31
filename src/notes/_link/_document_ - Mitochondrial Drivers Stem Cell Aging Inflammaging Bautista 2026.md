@@ -90,8 +90,8 @@ This review synthesizes evidence across four interconnected axes:
 ### Amino Acid Modulators of Mitochondrial Resilience
 
 - **[[Taurine]]**: declines with age; linked to improved systemic aging phenotypes upon supplementation; mechanistically tied to mitochondrial fitness through roles in mitochondrial translation via tRNA modification
-- **Proline**: can restore mitochondrial function and improve differentiation capacity in senescent/aged progenitor contexts
-- **Glutathione synthesis** (glycine and cysteine availability): relieves redox limitation, reducing ROS-driven mitochondrial damage
+- [**Proline**]: can restore mitochondrial function and improve differentiation capacity in senescent/aged progenitor contexts
+- Glutathione synthesis (glycine and cysteine availability): relieves redox limitation, reducing ROS-driven mitochondrial damage
 
 ## Mitochondrial Control of Stem Cell Fate
 

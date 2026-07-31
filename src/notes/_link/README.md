@@ -10,8 +10,8 @@ updated: 2026-07-26
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 28_July_2026 04:00 PM PDT
-- Total count of entities: 471
+- Last updated: 31_July_2026 12:00 PM PDT
+- Total count of entities: 476
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | [[5-Fluorouracil]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy |
@@ -493,3 +493,8 @@ This directory contains entities that span across multiple topics within the kno
 | [[Farber disease]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Lysosomal Storage Disease, Genetic Disorder |
 | [[Glioblastoma]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Cancer, Brain Tumor |
 | [[Spinal muscular atrophy with progressive myoclonic epilepsy]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Neurodegenerative Disease, Lysosomal Storage Disease |
+| [[Mitochondrial Dysfunction-Associated Senescence]] | 31_JULY_2026 12:00 PM PDT | Biological Process | Senescence, Mitochondria, Aging, Metabolism |
+| [[mitoTALENs]] | 31_JULY_2026 12:00 PM PDT | Genetic Tool | Mitochondria, Gene Editing, Mitochondrial Disease |
+| [[mitoZFNs]] | 31_JULY_2026 12:00 PM PDT | Genetic Tool | Mitochondria, Gene Editing, Mitochondrial Disease |
+| [[O-GlcNAcylation]] | 31_JULY_2026 12:00 PM PDT | Post-translational Modification | Metabolism, Signaling, Mitochondrial Dynamics |
+| [[Taurine]] | 31_JULY_2026 12:00 PM PDT | Chemical Compound | Amino Acid, Metabolism, Longevity |
