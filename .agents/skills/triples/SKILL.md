@@ -9,7 +9,7 @@ Extract factual triples from ingested wiki documents and entity notes to build a
 
 ## Workflow
 
-### 1. Extract Triples from Documents
+### Extract Triples from Documents
 
 Read the target document or entity notes and extract all key factual triples in JSON format:
 
@@ -19,7 +19,7 @@ Read the target document or entity notes and extract all key factual triples in 
     "subject": "Entity Name",
     "predicate": "verb relation",
     "object": "Related Entity",
-    "context": "Explanation of the relationship. (3-5 sentences, short paragraph)",
+    "context": "Detailed explanation of the relationship. at least 500-700 characters.",
     "confidence": "0.95"
   }
 ]
@@ -27,7 +27,7 @@ Read the target document or entity notes and extract all key factual triples in 
 
 See [TRIPLE_RULES.md](references/TRIPLE_RULES.md) for detailed extraction guidelines.
 
-### 2. Save to Topic File
+### Save to Topic File
 
 Write the extracted triples to the appropriate topic directory:
 
@@ -37,15 +37,8 @@ src/notes/<topic>/_triples.json
 
 Unless otherwise instructed, keep each `.json` file in sync with the documents ingested into that topic — update when new documents are added or existing ones are modified.
 
-### 3. Merge Across Topics (Optional)
 
-Combine per-topic triples into a single file for cross-topic analysis:
-
-```
-uv run scripts/03_merge_triples.py src/notes/<topic1>/_triples.json src/notes/<topic2>/_triples.json -o merged.json
-```
-
-### 4. Visualize Graph
+### Visualize Graph (Optional)
 
 Generate directed graph visualizations using the triples script:
 
