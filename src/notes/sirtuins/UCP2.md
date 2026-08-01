@@ -2,7 +2,7 @@
 title: UCP2
 description: UCP2 (Uncoupling Protein 2) is a mitochondrial inner membrane transporter protein belonging to the family of mitochondrial uncoupling proteins, which uncouple oxygen consumption from ATP synthesis by facilitating proton leak across the inner mitochondrial membrane.
 created: 2026-07-03
-updated: 2026-07-07
+updated: 2026-07-31
 tags:
   - protein
 aliases:
@@ -42,6 +42,8 @@ List of documents that mention this entity
 
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - The mechanism appears to be through SIRT1-mediated transcriptional repression of the UCP2 (uncoupling protein 2) gene, which encodes a mitochondrial inner membrane protein that uncouples O2 consumption from ATP generation and generates heat.
+  - [[_document_ - speakman2003_Resting Metabolic Rate|Speakman & Selman (2003) — Physical activity and resting metabolic rate]]
+    - Lists polymorphisms of uncoupling proteins 2 and 3 (Bouchard _et al_. 1997; Barbe _et al_. 1998; Astrup _et al_. 1999) among the candidate genetic correlates of residual resting metabolic rate variance, in the context of mitochondrial proton leak contributing to basal RMR.
 
 
 ## Connections
@@ -52,8 +54,12 @@ List of documents that mention this entity
 - [[Neurodegeneration]] — pathology in which UCP2 neuroprotection is relevant
 - [[Oxidative Stress]] — reduced by UCP2-mediated proton leak
 - [[Brain]] — tissue where UCP2 is highly expressed and protective
+- [[Mitochondrial Uncoupling]] — UCP2 is a member of the uncoupling protein family
+- [[UCP3]] — related uncoupling protein; UCP2/UCP3 polymorphisms correlate with residual RMR
+- [[Resting Metabolic Rate]] — UCP2 variation is a candidate correlate of residual RMR
+- [[Fatty acid]] — fatty-acid activation regulates UCP2 activity
 
 ## Linking Summary
-- New links added: [[SIRT1]], [[Caloric Restriction]], [[SIRT4]], [[Neurodegeneration]], [[Oxidative Stress]], [[Brain]]
+- New links added: [[SIRT1]], [[Caloric Restriction]], [[SIRT4]], [[Neurodegeneration]], [[Oxidative Stress]], [[Brain]], [[Mitochondrial Uncoupling]], [[UCP3]], [[Resting Metabolic Rate]], [[Fatty acid]]
 - Suggested new entity notes to create: [[Proton Leak]], [[Glucose-stimulated Insulin Secretion (GSIS)]]
 - Strong connections to strengthen: [[UCP2]] ↔ [[SIRT1]]

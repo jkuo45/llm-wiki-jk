@@ -2,7 +2,7 @@
 title: FGF21
 description: Fibroblast growth factor 21, an endocrine hormone of the FGF19 subfamily that regulates glucose and lipid metabolism, ketogenesis, and energy expenditure. Induced by mitochondrial stress and acts as a Mitokine.
 created: 2026-07-04
-updated: 2026-07-06
+updated: 2026-07-31
 tags:
   - protein
 aliases: []
@@ -39,7 +39,7 @@ In the [[Pancreas]], FGF21 acts on [[β-cells]] to promote [[Insulin|insulin sec
 
 ### Brain
 
-FGF21 crosses the [[Blood–brain barrier]] and signals in the [[Hypothalamus]], particularly the [[Suprachiasmatic nucleus]] and [[Dorsomedial hypothalamus]], to increase systemic [[Energy expenditure]] via activation of the [[Sympathetic nervous system]]. Central FGF21 signaling also regulates [[Circadian rhythm|circadian behavior]] and preference for macronutrients, notably suppressing carbohydrate craving and promoting [[Ketogenic diet|ketogenic]] adaptation.
+FGF21 crosses the [[Blood-Brain Barrier|blood-brain barrier]] and signals in the [[Hypothalamus]], particularly the [[Suprachiasmatic nucleus]] and [[Dorsomedial hypothalamus]], to increase systemic [[Energy expenditure]] via activation of the [[Sympathetic nervous system]]. Central FGF21 signaling also regulates [[Circadian rhythm|circadian behavior]] and preference for macronutrients, notably suppressing carbohydrate craving and promoting [[Ketogenic diet|ketogenic]] adaptation.
 
 ## Induction by Stress
 
@@ -50,6 +50,10 @@ FGF21 is a prototypical [[Mitokines|mitokine]] induced by diverse cellular stres
 - **[[Fasting]] and [[Caloric restriction]]**: [[PPARα]]–dependent transcriptional activation couples nutrient deprivation to FGF21 production.
 - **[[Exercise]]**: Acute exercise elevates circulating FGF21, likely through [[ATF4]] and [[PGC-1α]].
 - **[[Cold exposure]]**: Induces FGF21 in [[Brown adipose tissue]] and liver, contributing to thermogenic adaptation.
+- **[[Protein Restriction]] and amino-acid restriction**: Dietary protein restriction and restriction of specific amino acids induce FGF21. This is a central mediator of the metabolic benefits of [[Protein Restriction]] and [[Methionine Restriction]] — many PR/MR phenotypes (increased energy expenditure, [[Leanness]], improved glucose tolerance) are partially FGF21-dependent and are abrogated in *Fgf21*-null mice.
+
+> [!info] Source: [[_document_ - The-hallmarks-of-protein-and-amino-acid-restriction|The Hallmarks of Protein and Amino Acid Restriction]]
+> FGF21 is a key circulating signal induced by protein and amino-acid restriction. In humans, low-protein diets, amino-acid–restricted diets (e.g., reduced leucine, isoleucine, valine, or methionine), and sulfur amino-acid restriction all raise circulating FGF21, coupling dietary amino-acid sensing to systemic metabolic adaptation.
 
 ## Clinical Relevance
 
@@ -69,6 +73,8 @@ List of documents that mention this entity
     - FGF21 is an additional circulating factor known to be elevated in animal models and human subjects with impaired mitochondrial function. Like GDF15, its secretion often appears to be downstream of an OMA1-DELE1-ATF4 regulated pathway.
   - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014 Review]]
     - Provides early context on FGF21 induction by mitochondrial stress and its role as a mitokine.
+  - [[_document_ - The-hallmarks-of-protein-and-amino-acid-restriction|The Hallmarks of Protein and Amino Acid Restriction in Aging and Longevity]]
+    - Positions FGF21 as a central mediator of protein/methionine restriction benefits; induced by low-protein and amino-acid-restricted diets in humans and rodents.
 
 
 ## Connections
@@ -85,9 +91,12 @@ List of documents that mention this entity
 - [[Ketogenesis]]: FGF21 is a critical hepatic regulator of ketone body production.
 - [[Browning of white adipose tissue]]: FGF21 promotes WAT browning via UCP1 induction.
 - [[Efruxifermin]]: Leading FGF21 analog in clinical development for NASH.
+- [[Protein Restriction]]: Induces FGF21; mediates PR's metabolic benefits.
+- [[Methionine Restriction]]: FGF21 dependence of MR phenotypes.
+- [[Branched-Chain Amino Acids]]: Restriction of BCAAs (leucine/isoleucine/valine) raises circulating FGF21.
 
 ## Linking Summary
 
-- New links added: [[FGF]], [[FGF19]], [[FGF23]], [[PPARα]], [[β-klotho]], [[FGFR1c]], [[FGFR2c]], [[FGFR3c]], [[ERK1/2]], [[AKT]], [[GLUT1]], [[PGC-1α]], [[Ketogenesis]], [[Gluconeogenesis]], [[Fatty acid oxidation]], [[CPT1A]], [[HMGCS2]], [[BDH1]], [[PEPCK]], [[G6PC]], [[SREBP1c]], [[Browning of white adipose tissue]], [[UCP1]], [[PRDM16]], [[Energy expenditure]], [[Sympathetic nervous system]], [[Hypothalamus]], [[Suprachiasmatic nucleus]], [[Dorsomedial hypothalamus]], [[ATF4]], [[HRI]], [[EIF2AK1]], [[CHOP]], [[NAFLD]], [[NASH]], [[Pegbelfermin]], [[Efruxifermin]], [[Fc-fusion]], [[Insulin sensitivity]], [[Circadian rhythm]], [[Blood–brain barrier]], [[Adipose tissue]], [[Pancreas]], [[β-cells]], [[Hepatocytes]], [[Extracellular matrix]], [[Proteoglycans]], [[RAS]], [[MAPK]], [[PI3K]]
+- New links added: [[FGF]], [[FGF19]], [[FGF23]], [[PPARα]], [[β-klotho]], [[FGFR1c]], [[FGFR2c]], [[FGFR3c]], [[ERK1/2]], [[AKT]], [[GLUT1]], [[PGC-1α]], [[Ketogenesis]], [[Gluconeogenesis]], [[Fatty acid oxidation]], [[CPT1A]], [[HMGCS2]], [[BDH1]], [[PEPCK]], [[G6PC]], [[SREBP1c]], [[Browning of white adipose tissue]], [[UCP1]], [[PRDM16]], [[Energy expenditure]], [[Sympathetic nervous system]], [[Hypothalamus]], [[Suprachiasmatic nucleus]], [[Dorsomedial hypothalamus]], [[ATF4]], [[HRI]], [[EIF2AK1]], [[CHOP]], [[NAFLD]], [[NASH]], [[Pegbelfermin]], [[Efruxifermin]], [[Fc-fusion]], [[Insulin sensitivity]], [[Circadian rhythm]], [[Blood-Brain Barrier]], [[Adipose tissue]], [[Pancreas]], [[β-cells]], [[Hepatocytes]], [[Extracellular matrix]], [[Proteoglycans]], [[RAS]], [[MAPK]], [[PI3K]], [[Protein Restriction]], [[Methionine Restriction]], [[Branched-Chain Amino Acids]]
 - Suggested new entity notes to create: [[KLB]], [[PPARα signaling]], [[FGF19 subfamily]]
-- Strong connections to strengthen: [[FGF21]] ↔ [[Mitokines]], [[FGF21]] ↔ [[Integrated Stress Response]], [[FGF21]] ↔ [[ATF4]], [[FGF21]] ↔ [[β-klotho]], [[FGF21]] ↔ [[Efruxifermin]]
+- Strong connections to strengthen: [[FGF21]] ↔ [[Mitokines]], [[FGF21]] ↔ [[Integrated Stress Response]], [[FGF21]] ↔ [[ATF4]], [[FGF21]] ↔ [[β-klotho]], [[FGF21]] ↔ [[Efruxifermin]], [[FGF21]] ↔ [[Protein Restriction]], [[FGF21]] ↔ [[Methionine Restriction]]

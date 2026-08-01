@@ -21,6 +21,11 @@ aliases: []
 
 **Longevity Relevance:** The acetyl-CoA pool integrates diet, exercise, and [[Sirtuins]] activity. Interventions that modulate acetyl-CoA availability (e.g., [[Nicotinamide Riboside]], caloric restriction, [[Mitohormesis]]) influence downstream acetylation and stress-resistance pathways relevant to [[Longevity]].
 
+**Role in Senescence and the SASP:** In cellular senescence, mitochondrial metabolism is a functional checkpoint for the [[SASP|senescence-associated secretory phenotype]]. Mitochondrial pyruvate entry via the [[MPC|mitochondrial pyruvate carrier]] feeds a citrate–acetyl-CoA export axis (mitochondrial citrate carrier [[SLC25A1]] → cytoplasmic [[ACLY]]) that supplies the acetyl-CoA pool used to place [[H3K27ac|H3K27ac]] at SASP loci. Inhibiting [[SLC25A1]] or [[MPC]] (e.g., with [[CTPI2]]) collapses this pool, removes H3K27ac from SASP enhancers, and selectively suppresses SASP expression while leaving viability and mtDNA-driven signaling intact. Exogenous acetate can bypass the block via [[ACSS2]], restoring acetylation and SASP — confirming acetyl-CoA availability, not mitochondrial integrity, is the limiting step.
+
+> [!important] Source: [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
+> Mitochondrial pyruvate metabolism regulates senescence-associated chromatin via acetyl-CoA export. Mice treated with [[CTPI2]] showed reduced age-related [[Frailty]] and improved healthspan, positioning the citrate–acetyl-CoA axis as a druggable node for SASP modulation.
+
 ## Documents
 
   - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside Review]]
@@ -35,6 +40,8 @@ aliases: []
     - Fasting lowers acetyl-CoA, promoting autophagic flux.
   - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|TFEB Regulatory Mechanism]]
     - Links acetyl-CoA/sirtuin axis to TFEB-driven lysosomal biogenesis.
+  - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
+    - Establishes mitochondrial pyruvate→citrate→acetyl-CoA export (via MPC, SLC25A1, ACLY) as the source of acetyl-CoA for H3K27ac at SASP loci; SLC25A1 inhibition with CTPI2 suppresses SASP and improves healthspan in aged mice.
 
 ## Connections
 
@@ -44,9 +51,16 @@ aliases: []
   - [[Mitochondria]]: Site of TCA-cycle oxidation of acetyl-CoA.
   - [[Caloric Restriction]]: Lowers acetyl-CoA, engaging sirtuins and autophagy.
   - [[NAD+]]: Required by sirtuins to balance acetyl-CoA signaling.
+  - [[MPC]]: Mitochondrial pyruvate entry that feeds the citrate–acetyl-CoA export axis in senescence.
+  - [[SLC25A1]]: Mitochondrial citrate carrier exporting citrate for cytoplasmic acetyl-CoA generation.
+  - [[ACLY]]: Cytosolic enzyme generating acetyl-CoA from exported citrate.
+  - [[ACSS2]]: Acetate-dependent acetyl-CoA synthetase that can bypass SLC25A1 inhibition.
+  - [[CTPI2]]: SLC25A1 inhibitor that depletes the SASP acetyl-CoA pool.
+  - [[H3K27ac]]: Histone mark written with mitochondrial-derived acetyl-CoA at SASP loci.
+  - [[SASP]]: Secretory phenotype gated by acetyl-CoA availability in senescence.
 
 ## Linking Summary
 
-  - New links added: [[Histone Acetylation]], [[Sirtuins]], [[Autophagy]], [[Mitochondria]], [[Caloric Restriction]], [[NAD+]], [[Oxidative Phosphorylation]], [[Histone Deacetylase]], [[Nicotinamide Riboside]], [[Mitohormesis]]
-  - Suggested new entity notes to create: [[Acetyl-CoA Synthetase]], [[Pyruvate Dehydrogenase]]
-  - Strong connections to strengthen: [[Acetyl-CoA]] ↔ [[Histone Acetylation]], [[Acetyl-CoA]] ↔ [[Sirtuins]], [[Acetyl-CoA]] ↔ [[Autophagy]]
+  - New links added: [[Histone Acetylation]], [[Sirtuins]], [[Autophagy]], [[Mitochondria]], [[Caloric Restriction]], [[NAD+]], [[Oxidative Phosphorylation]], [[Histone Deacetylase]], [[Nicotinamide Riboside]], [[Mitohormesis]], [[MPC]], [[SLC25A1]], [[ACLY]], [[ACSS2]], [[CTPI2]], [[H3K27ac]], [[SASP]]
+  - Suggested new entity notes to create: [[Acetyl-CoA Synthetase]] (see [[ACSS2]])
+  - Strong connections to strengthen: [[Acetyl-CoA]] ↔ [[Histone Acetylation]], [[Acetyl-CoA]] ↔ [[Sirtuins]], [[Acetyl-CoA]] ↔ [[Autophagy]], [[Acetyl-CoA]] ↔ [[SLC25A1]] ↔ [[H3K27ac]] ↔ [[SASP]]

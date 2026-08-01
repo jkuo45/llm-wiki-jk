@@ -3,15 +3,15 @@ title: _Link notes
 aliases: []
 description: Index of wiki notes for _link
 created: 2026-07-06
-updated: 2026-07-26
+updated: 2026-07-31
 ---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 31_July_2026 12:00 PM PDT
-- Total count of entities: 476
+- Last updated: 31_JULY_2026 06:11 PM PDT
+- Total count of entities: 519
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | [[5-Fluorouracil]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy |
@@ -498,3 +498,40 @@ This directory contains entities that span across multiple topics within the kno
 | [[mitoZFNs]] | 31_JULY_2026 12:00 PM PDT | Genetic Tool | Mitochondria, Gene Editing, Mitochondrial Disease |
 | [[O-GlcNAcylation]] | 31_JULY_2026 12:00 PM PDT | Post-translational Modification | Metabolism, Signaling, Mitochondrial Dynamics |
 | [[Taurine]] | 31_JULY_2026 12:00 PM PDT | Chemical Compound | Amino Acid, Metabolism, Longevity |
+| [[Resting Metabolic Rate]] | 31_JULY_2026 12:00 PM PDT | biological-process | Energy Metabolism, Exercise Physiology |
+| [[Energy Expenditure]] | 31_JULY_2026 12:00 PM PDT | biological-process | Energy Metabolism, RMR, Exercise |
+| [[Non-Exercise Activity Thermogenesis]] | 31_JULY_2026 12:00 PM PDT | biological-process | Exercise, Energy Metabolism, Physical Activity |
+| [[Excess Post-Exercise Oxygen Consumption]] | 31_JULY_2026 12:00 PM PDT | biological-process | Exercise, Energy Metabolism, Recovery |
+| [[Doubly-Labelled Water]] | 31_JULY_2026 12:00 PM PDT | analytical-technique | Energy Metabolism, RMR, Physiology |
+| [[UCP3]] | 31_JULY_2026 12:00 PM PDT | protein | Mitochondria, Uncoupling, Metabolism |
+| [[Fat-Free Mass]] | 31_JULY_2026 12:00 PM PDT | anatomy | Body Composition, Metabolism |
+| [[Thermogenesis]] | 31_JULY_2026 12:00 PM PDT | biological-process | Metabolism, Brown Adipose Tissue, Energy Expenditure |
+| [[Energy Balance]] | 31_JULY_2026 12:00 PM PDT | scientific-concept | Obesity, Energy Metabolism, Weight Regulation |
+| [[Physical Activity Level]] | 31_JULY_2026 12:00 PM PDT | scientific-concept | Exercise, Energy Metabolism |
+| [[Thermic Effect of Food]] | 31_JULY_2026 12:00 PM PDT | biological-process | Nutrition, Energy Metabolism, Digestion |
+| [[Beta-Adrenergic Receptor]] | 31_JULY_2026 12:00 PM PDT | receptor | Sympathetic Nervous System, Thermogenesis, Metabolism |
+| [[Body Mass Index]] | 31_JULY_2026 12:00 PM PDT | scientific-concept | Obesity, Body Composition, Epidemiology |
+| [[Citrate Synthase]] | 31_JULY_2026 12:00 PM PDT | enzyme | TCA Cycle, Mitochondria, Exercise |
+| [[Fat Oxidation]] | 31_JULY_2026 12:00 PM PDT | biological-process | Lipid Metabolism, Exercise, Energy Metabolism |
+| [[Indirect Calorimetry]] | 31_JULY_2026 12:00 PM PDT | analytical-technique | Energy Metabolism, RMR, Exercise Physiology |
+| [[Protein Turnover]] | 31_JULY_2026 12:00 PM PDT | biological-process | Proteostasis, Metabolism, Skeletal Muscle |
+| [[Triiodothyronine]] | 31_JULY_2026 12:00 PM PDT | biological-molecule | Thyroid, Metabolism, RMR |
+| [[Protein Restriction]] | 31_JULY_2026 06:11 PM PDT | biological-process | Nutrition, Aging, Longevity, Dietary Restriction |
+| [[Branched-Chain Amino Acids]] | 31_JULY_2026 06:11 PM PDT | chemical-class | Amino Acids, Metabolism, Protein Restriction |
+| [[Isoleucine]] | 31_JULY_2026 06:11 PM PDT | amino-acid | Amino Acids, Metabolism, Aging |
+| [[Valine]] | 31_JULY_2026 06:11 PM PDT | amino-acid | Amino Acids, Metabolism, Aging |
+| [[Methionine Restriction]] | 31_JULY_2026 06:11 PM PDT | biological-process | Nutrition, Aging, Longevity, FGF21 |
+| [[Proline]] | 31_JULY_2026 06:11 PM PDT | amino-acid | Amino Acids, Collagen, Metabolism |
+| [[SLC25A1]] | 31_JULY_2026 06:11 PM PDT | transporter | Mitochondria, TCA Cycle, Senescence, SASP |
+| [[ACLY]] | 31_JULY_2026 06:11 PM PDT | enzyme | Acetyl-CoA, Lipogenesis, Epigenetics |
+| [[MPC]] | 31_JULY_2026 06:11 PM PDT | transporter | Mitochondria, Pyruvate, Senescence |
+| [[ACSS2]] | 31_JULY_2026 06:11 PM PDT | enzyme | Acetyl-CoA, Acetate, Epigenetics |
+| [[CTPI2]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | SLC25A1 Inhibitor, Senescence, SASP |
+| [[Essential Amino Acids]] | 31_JULY_2026 06:11 PM PDT | chemical-class | Amino Acids, Nutrition, Protein Restriction |
+| [[Citrate]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | TCA Cycle, Acetyl-CoA, Senescence |
+| [[Pyruvate]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | Glycolysis, TCA Cycle, Senescence |
+| [[Pyruvate Dehydrogenase]] | 31_JULY_2026 06:11 PM PDT | enzyme | Mitochondria, TCA Cycle, Glycolysis |
+| [[CCR2]] | 31_JULY_2026 06:11 PM PDT | receptor | Chemokine, Inflammation, Macrophages |
+| [[UK5099]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | MPC Inhibitor, Pyruvate, Senescence |
+| [[SN011]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | STING Inhibitor, cGAS-STING, Senescence |
+| [[Frailty Index]] | 31_JULY_2026 06:11 PM PDT | scientific-concept | Aging, Healthspan, Geroscience |

@@ -4,7 +4,7 @@ description: Exercise is planned, structured physical activity that improves
   or maintains physical fitness. It is one of the most effective interventions for
   extending healthspan, reducing Oxidative Stress,...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-31
 tags:
   - biological-process
 aliases: [Physical exercise, Physical activity]
@@ -35,7 +35,8 @@ List of documents that mention this entity
 
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
     - Importantly, lifestyle and nutrition, particularly Exercise (He et al., 2012) and Dietary Restriction (Hansen et al., 2018; Scott et al., 2004; Ulgherait et al., 2021) enhance the autophagy pathway.
-
+  - [[_document_ - speakman2003_Resting Metabolic Rate|Speakman & Selman (2003) — Physical activity and resting metabolic rate]]
+    - Reviews [[Excess Post-Exercise Oxygen Consumption|EPOC]] — the elevated post-exercise resting metabolism that decays biphasically with half-lives of ~1 h and ~13 h — and training-induced increases in aerobic enzymes ([[Citrate Synthase|citrate synthase]], cytochrome-c oxidase) supporting exercise-driven elevations in [[Resting Metabolic Rate]].
 
 ## Connections
 - [[Mitohormesis]] — Exercise-induced ROS trigger adaptive responses
@@ -47,6 +48,10 @@ List of documents that mention this entity
 - [[Mitochondrial Biogenesis]]: A primary exercise adaptation dependent on the SIRT1/PGC-1α axis.
 - [[Autophagy]]: Exercise promotes [[Autophagy|autophagy]] in a SIRT1-dependent manner.
 - [[Longevity]]: Regular [[Exercise]] is associated with reduced all-cause mortality and extended healthspan.
+- [[Energy Expenditure]]: Physical activity is the most variable component of daily expenditure.
+- [[Non-Exercise Activity Thermogenesis]]: NEAT and exercise together determine activity-related expenditure.
+- [[Resting Metabolic Rate]]: Training raises RMR via lean-mass accretion and metabolic-intensity effects.
+- [[Excess Post-Exercise Oxygen Consumption]]: Post-exercise metabolism contributes to exercise energy cost.
 
 ## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[NAD+]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[BDNF]], [[Neurogenesis]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Reactive Oxygen Species]], [[DNA Repair]], [[Cardiovascular Disease]], [[Brain]], [[Longevity]], [[Mitohormesis]], [[NRF2]], [[Superoxide Dismutase]], [[Mitophagy]], [[Aging]], [[Oxidative Stress]]

@@ -54,6 +54,13 @@ During [[Senescence]], cGAS–STING is activated by cytoplasmic DNA from multipl
 
 cGAS–STING intersects with [[p38 MAPK]], [[JAK]]–[[STAT3]], and [[mTORC1|mTOR]] signaling, all of which modulate SASP intensity. It is a principal conduit linking mitochondrial stress ([[Senescence-associated mitochondrial dysfunction|SAMD]]) to the pro-inflammatory secretome ([[Paracrine Senescence]]).
 
+## Independence from the Mitochondrial Acetyl-CoA SASP Axis
+
+The mtDNA–cGAS–STING arm of the SASP is genetically separable from the mitochondrial citrate–acetyl-CoA epigenetic arm. In senescence models, the mtDNA signal released through [[BAX]]/[[BAK]] (minority MOMP) requires cGAS–STING for maximal SASP, but the [[H3K27ac]] program at SASP loci is sustained by the mitochondrial pyruvate→citrate→acetyl-CoA export axis ([[MPC]]/[[SLC25A1]]/[[ACLY]]), independent of mtDNA and STING signaling.
+
+> [!important] Source: [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
+> Depleting mtDNA or inhibiting STING ([[STING Inhibitors|SN011]]) did not prevent H3K27ac loss at SASP loci when [[SLC25A1]] was inhibited — the acetyl-CoA checkpoint operates in parallel to cGAS–STING. Both arms converge on SASP gene activation but engage distinct upstream signals, so combined or selective targeting may differentially tune the secretome. SLC25A1 inhibition ([[CTPI2]]) selectively suppresses the metabolic arm and improves healthspan in aged mice.
+
 ## Therapeutic Targeting
 - **NRTIs (lamivudine/3TC)**: Inhibit [[LINE-1]] propagation, reducing cGAS–STING–NF-κB SASP.
 - **Olive phenols**: Preserve [[Lamin B1]], reducing cGAS/STING/NF-κB-mediated SASP.
@@ -94,6 +101,9 @@ List of documents that mention this entity
   - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
     - Comprehensive review of cGAS–STING in the brain: canonical/noncanonical mechanisms, proteinopathy triggers, glial state regulation, BBB integrity, peripheral immune surveillance, and therapeutic targeting in neurodegeneration.
 
+  - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
+    - Shows the mtDNA–cGAS–STING arm of the SASP is separable from the mitochondrial acetyl-CoA/H3K27ac arm; mtDNA depletion or STING inhibition (SN011) does not block H3K27ac loss upon SLC25A1 inhibition.
+
 ## Connections
 - [[SASP|Senescence-Associated Secretory Phenotype]] — cGAS–STING is a key driver of SASP factor transcription
 - [[NF-κB]] — downstream effector of cGAS–STING signalling
@@ -129,8 +139,13 @@ List of documents that mention this entity
 - [[APOE3 Christchurch]] — resilience allele phenocopied by cGAS inhibition
 - [[IFNAR1]] — neuronal receptor transmitting microglial IFN-I
 - [[Blood-Brain Barrier]] — context-dependent regulation by endothelial vs microglial STING
+- [[MPC]] — pyruvate entry feeding the parallel acetyl-CoA SASP arm
+- [[SLC25A1]] — mitochondrial citrate carrier of the parallel acetyl-CoA SASP arm
+- [[ACLY]] — cytosolic acetyl-CoA generator of the parallel acetyl-CoA SASP arm
+- [[CTPI2]] — SLC25A1 inhibitor suppressing the metabolic SASP arm in vivo
+- [[Acetyl-CoA]] — substrate for the H3K27ac SASP program independent of cGAS–STING
 
 ## Linking Summary
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]]
-- Suggested new entity notes to create: [[cGAS]], [[IFI16]]
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]], [[MPC]], [[SLC25A1]], [[ACLY]], [[ACSS2]], [[CTPI2]], [[Acetyl-CoA]], [[STING Inhibitors]]
+- Suggested new entity notes to create: [[cGAS]], [[IFI16]], [[CCL3]]
   - Strong connections to strengthen: cGAS-STING Pathway ↔ [[SASP|Senescence-Associated Secretory Phenotype]], cGAS-STING Pathway ↔ [[Inflammaging]], cGAS-STING Pathway ↔ [[Aging]], cGAS-STING ↔ [[mtDNA]]
