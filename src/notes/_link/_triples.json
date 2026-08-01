@@ -982,5 +982,285 @@
     "context": "Mitophagy plays a dual role in cardiovascular disease depending on the mode and degree of activation. Mild activation of PINK1-Parkin mitophagy prevents heart failure development, alleviates myocardial infarction, and attenuates dilated cardiomyopathy by promoting phagocytosis of damaged mitochondria, reducing ROS, and inhibiting apoptosis. However, excessive or constitutive mitophagy activation can be detrimental—PINK1-Parkin mitophagy in vascular smooth muscle cells promotes atherosclerosis, and BNIP3-mediated mitophagy potentiates heart failure. The relationship highlights that therapeutic approaches involving mitophagy activation should be used with caution.",
     "confidence": 0.9,
     "source_document": "Mitophagy.md"
+  },
+  {
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "drives",
+    "object": "Stem Cell Exhaustion",
+    "context": "Mitochondrial dysfunction is proposed as a primary driver of stem cell exhaustion in aging. Somatic mutations and deletions accumulate in the mitochondrial DNA of somatic stem cells, eroding respiratory competence, mitochondrial membrane potential, and quality-control systems such as mitophagy and the mitochondrial unfolded protein response. The resulting bioenergetic decline impairs quiescence, self-renewal, and differentiation capacity, forcing stem cells into senescence or apoptosis. Because stem cells sustain tissue repair and homeostasis, their mitochondrial-driven failure propagates tissue dysfunction and systemic aging. The Bautista (2026) review frames this as an upstream event linking mitochondrial quality-control erosion to both stem cell aging and inflammaging.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "Mitochondrial DNA",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": "Release of mitochondrial DNA into the cytosol triggers the cGAS-STING pathway, a key mechanism linking mitochondrial dysfunction to inflammaging. When mitochondrial quality control fails, damaged mitochondria leak mtDNA into the cytoplasm, where the DNA sensor cGAS detects it and activates STING, driving type I interferon and NF-kB-dependent inflammatory gene expression. In the Bautista (2026) model, mtDNA is a mitochondrial danger-associated molecular pattern (mtDAMP) whose chronic leakage converts mitochondrial stress into sterile inflammation, propagating stem cell dysfunction and systemic inflammaging. The relationship is mechanistic: mitochondrial DNA is the ligand, cGAS-STING is the signaling axis that transduces its presence into an inflammatory response.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "NAD+",
+    "predicate": "depletion_impairs",
+    "object": "Mitochondrial Function",
+    "context": "Depletion of NAD+ impairs mitochondrial function and is central to the mitochondrial-driven aging model described by Bautista (2026). NAD+ is a required cofactor for mitochondrial respiration, the sirtuin deacetylases SIRT1 and SIRT3 that regulate mitochondrial biogenesis and antioxidant defense, and PARP-dependent DNA repair. Age-related NAD+ decline—driven by elevated CD38 activity and chronic DNA damage—reduces respiratory activity and mitochondrial quality control, creating a vicious cycle in which dysfunctional mitochondria consume NAD+ and produce more damage. Restoring NAD+ is therefore framed as an intervention to rejuvenate mitochondrial function in aging stem cells and dampen downstream inflammation.",
+    "confidence": 0.82,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "prevents",
+    "object": "Mitochondrial Dysfunction-Associated Senescence",
+    "context": "Mitophagy protects against mitochondrial dysfunction-associated senescence (MiDAS) by selectively degrading damaged mitochondria. When mitophagy is impaired, dysfunctional mitochondria accumulate and trigger a senescence program driven by reduced mitochondrial membrane potential and elevated ROS, rather than the canonical DNA-damage pathway. The Bautista (2026) review argues that declining mitophagy in aging somatic stem cells is a permissive step for MiDAS, since the failure to clear damaged organelles converts bioenergetic stress into a stable growth-arrest and pro-inflammatory phenotype. Restoring mitophagic flux is therefore proposed as an anti-geroscience intervention to prevent mitochondrial-driven senescence and preserve stem cell function.",
+    "confidence": 0.82,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "mitoTALENs",
+    "predicate": "reduces",
+    "object": "Heteroplasmy",
+    "context": "mitoTALENs are engineered nucleases that reduce pathogenic mitochondrial DNA heteroplasmy by selectively cleaving mutant mtDNA molecules. The TALE DNA-binding array recognizes a sequence spanning a pathogenic mutation, and the fused FokI nuclease introduces a double-strand break only in the mutant genome, sparing wild-type molecules. Degraded mutant molecules are replaced by replication of the remaining wild-type mtDNA, shifting heteroplasmy toward the wild-type population and restoring respiratory function. Proof of concept was established in patient-derived cybrids (Bacman et al. 2013, PMID 23242366), with subsequent in vivo validation in mouse models of mtDNA disease. The relationship is direct: mitoTALENs act on heteroplasmy to correct the molecular defect underlying mitochondrial disease.",
+    "confidence": 0.88,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "promotes",
+    "object": "Inflammaging",
+    "context": "Mitochondrial dysfunction promotes inflammaging through the release of mitochondrial danger-associated molecular patterns (mtDAMPs) and the loss of homeostatic regulation of inflammatory signaling. Leaked mitochondrial DNA engages cGAS-STING and Toll-like receptor 9, and mitochondrial ROS prime the NLRP3 inflammasome and NF-kB, generating chronic low-grade inflammation. Simultaneously, mitochondrial-driven senescence (MiDAS) adds a senescent-cell component that secretes pro-inflammatory cytokines. In the Bautista (2026) model, mitochondrial dysfunction is the upstream engine of both stem cell aging and the sterile inflammation of inflammaging, linking the two processes through shared mitochondrial triggers. The direction is causal: mitochondrial failure precedes and sustains systemic inflammatory signaling.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "CD38",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": "CD38 is a transmembrane NAD+-consuming enzyme whose age-related increase in immune and other cells is a major driver of systemic NAD+ depletion. CD38 converts NAD+ into cyclic ADP-ribose, ADP-ribose, and nicotinamide, thereby competing with sirtuins, PARPs, and mitochondrial respiration for the shared NAD+ pool. In the mitochondrial-aging model of Bautista (2026), chronic inflammation raises CD38 expression, which accelerates NAD+ decline, impairs mitochondrial quality control, and amplifies the inflammatory state in a feed-forward loop. CD38 inhibition is consequently proposed as a strategy to restore NAD+ levels and support mitochondrial function in aging.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md"
+  },
+  {
+    "subject": "SLC25A1",
+    "predicate": "exports",
+    "object": "Citrate",
+    "context": "SLC25A1 (the mitochondrial citrate carrier) exports citrate from the mitochondrial matrix into the cytosol, linking mitochondrial metabolism to cytosolic acetyl-CoA production. In the Martini & Passos (2026) model of the senescent-associated secretory phenotype, SLC25A1 is upregulated in senescent cells and exports citrate that is then cleaved by ACLY into acetyl-CoA, the obligate substrate for histone acetylation. This mitochondrial-to-nuclear metabolic axis supplies the acetyl groups deposited on histones at SASP gene loci. The direction is clear: SLC25A1 moves citrate out of mitochondria, and its activity is required for the SASP. Pharmacological inhibition of SLC25A1 suppresses the SASP, establishing citrate export as a gatekeeper step.",
+    "confidence": 0.88,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "ACLY",
+    "predicate": "converts",
+    "object": "Acetyl-CoA",
+    "context": "ACLY (ATP-citrate lyase) converts mitochondrial-derived citrate into acetyl-CoA and oxaloacetate in the cytosol, providing the acetyl-CoA pool that fuels histone acetylation and gene expression. In the Martini & Passos (2026) model, ACLY is a central node linking mitochondrial metabolism to the senescent-associated secretory phenotype: citrate exported by SLC25A1 is cleaved by ACLY, and the resulting acetyl-CoA is used by histone acetyltransferases to deposit H3K27ac at SASP gene loci. Inhibition of ACLY attenuates SASP gene expression in senescent cells, whereas complementation of the pathway restores it. The relationship is enzymatic and directional: ACLY is the enzyme, acetyl-CoA is its product, and the product is the metabolic currency of the SASP.",
+    "confidence": 0.87,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "Acetyl-CoA",
+    "predicate": "drives",
+    "object": "Histone Acetylation",
+    "context": "Acetyl-CoA is the obligate acetyl donor for histone acetylation, coupling mitochondrial and cytosolic metabolism to gene expression. In the Martini & Passos (2026) model, the availability of nuclear acetyl-CoA—generated from mitochondrial citrate export via SLC25A1 and ACLY, or from acetate via ACSS2—determines the deposition of H3K27ac marks on histone H3 at SASP gene loci. Senescent cells require this mitochondrial-to-nuclear acetyl-CoA supply to mount a full SASP; when mitochondria are depleted, acetate supplementation through ACSS2 can restore histone acetylation and partially rescue the SASP. The relationship is mechanistic: acetyl-CoA is the substrate, histone acetylation is the reaction it fuels.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "H3K27ac",
+    "predicate": "marks",
+    "object": "SASP",
+    "context": "H3K27ac (acetylation of lysine 27 on histone H3) is an active enhancer mark whose deposition at SASP gene loci is required for the senescent-associated secretory phenotype. In the Martini & Passos (2026) model, mitochondrial-derived acetyl-CoA is used by histone acetyltransferases to place H3K27ac at enhancers of pro-inflammatory SASP genes such as IL6 and IL8, allowing their transcriptional activation. When the mitochondrial acetyl-CoA supply is blocked via SLC25A1 or ACLY inhibition, H3K27ac at these loci falls and the SASP is suppressed; acetate via ACSS2 restores the mark and the SASP. The relationship is direct: H3K27ac is the chromatin modification that marks SASP genes for expression.",
+    "confidence": 0.88,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "Pyruvate",
+    "predicate": "fuels",
+    "object": "TCA cycle",
+    "context": "Pyruvate is the entry point of mitochondrial carbohydrate metabolism: it is transported into mitochondria and converted by the pyruvate dehydrogenase complex into acetyl-CoA, which feeds the TCA cycle to generate reducing equivalents for oxidative phosphorylation. In the Martini & Passos (2026) model of the SASP, mitochondrial pyruvate metabolism is the upstream source of the acetyl-CoA that ultimately supports histone acetylation through the citrate-export pathway. Inhibition of the mitochondrial pyruvate carrier (MPC) reduces the mitochondrial acetyl-CoA pool and can attenuate SASP gene expression, linking glucose-derived carbon flux to the epigenetic control of senescence. The relationship is biochemical: pyruvate is the substrate, the TCA cycle is the pathway it enters.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "MPC",
+    "predicate": "imports",
+    "object": "Pyruvate",
+    "context": "The mitochondrial pyruvate carrier (MPC) transports pyruvate across the inner mitochondrial membrane into the matrix, where it is converted to acetyl-CoA by the pyruvate dehydrogenase complex. In the Martini & Passos (2026) model, MPC-mediated pyruvate import is the gateway that channels glucose-derived carbon into mitochondrial metabolism and, through the citrate-export/ACLY pathway, into the acetyl-CoA pool that drives histone acetylation at SASP genes. Pharmacological MPC inhibition or MPC knockdown reduces mitochondrial pyruvate utilization and attenuates the senescent-associated secretory phenotype. The direction is direct and mechanistic: MPC imports pyruvate, and this import is required for full SASP expression.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "CTPI2",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "CTPI2 is a small-molecule inhibitor of the mitochondrial citrate carrier SLC25A1 that suppresses the senescent-associated secretory phenotype. By blocking citrate export from mitochondria, CTPI2 deprives the cytosolic ACLY reaction of substrate, collapsing the acetyl-CoA supply available for histone acetylation at SASP gene loci and thereby attenuating pro-inflammatory SASP gene expression. In the Martini & Passos (2026) study, CTPI2 treatment reduced SASP output in senescent cells and, in mice, was associated with improved healthspan-related outcomes. The relationship is pharmacological and causal: CTPI2 inhibits SLC25A1, and this inhibition is sufficient to suppress the SASP.",
+    "confidence": 0.88,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "SLC25A1",
+    "predicate": "required_for",
+    "object": "SASP",
+    "context": "SLC25A1, the mitochondrial citrate carrier, is required for the full expression of the senescent-associated secretory phenotype. It exports mitochondrial citrate into the cytosol, where ACLY converts it to acetyl-CoA for histone acetylation at SASP gene loci; loss or inhibition of SLC25A1 therefore suppresses SASP gene expression in senescent cells. Martini & Passos (2026) show that SLC25A1 is upregulated in senescence and that its inhibition—pharmacologically with CTPI2 or genetically—attenuates the SASP, establishing mitochondrial citrate export as an essential metabolic step in SASP regulation. The relationship is mechanistic: SLC25A1 activity is a gatekeeper for the mitochondrial-to-nuclear acetyl-CoA axis.",
+    "confidence": 0.88,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "ACSS2",
+    "predicate": "supports",
+    "object": "Histone Acetylation",
+    "context": "ACSS2 (acetyl-CoA synthetase 2) supports histone acetylation by converting acetate into acetyl-CoA in the cytosol and nucleus, providing a mitochondrial-independent route of acetyl-CoA supply. In the Martini & Passos (2026) study, acetate supplementation in mitochondria-depleted senescent cells is converted by ACSS2 (confirmed by isotope tracing) into acetyl-CoA, restoring H3K27ac and partially rescuing SASP gene expression. This establishes acetyl-CoA availability—rather than intact mitochondria per se—as the key metabolic determinant of the SASP. The relationship is enzymatic and directional: ACSS2 uses acetate as substrate and produces the acetyl-CoA that fuels histone acetylation.",
+    "confidence": 0.87,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "TCA cycle",
+    "predicate": "supplies",
+    "object": "Acetyl-CoA",
+    "context": "The TCA cycle is a hub of mitochondrial metabolism that generates reducing equivalents for oxidative phosphorylation and provides carbon precursors for biosynthesis, including citrate export for cytosolic acetyl-CoA production. In the Martini & Passos (2026) model of the SASP, the TCA cycle is the mitochondrial source of the citrate that SLC25A1 exports and ACLY converts into the acetyl-CoA used for histone acetylation at SASP genes. Disrupting mitochondrial metabolism upstream (e.g., via MPC inhibition) reduces the availability of this biosynthetic output and attenuates the SASP. The relationship is metabolic: the TCA cycle supplies the acetyl-CoA precursors that link mitochondrial function to epigenetic control.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md"
+  },
+  {
+    "subject": "Protein Restriction",
+    "predicate": "promotes",
+    "object": "Lifespan",
+    "context": "Protein restriction—reducing dietary protein while maintaining energy intake—extends lifespan and improves metabolic health across species from yeast to rodents, and is associated with reduced all-cause mortality in human observational studies. The benefits are attributed to a set of conserved hallmarks including reduced insulin/IGF-1 signaling, activation of GCN2 and the integrated stress response, inhibition of mTORC1, increased FGF21 production, and modulation of specific amino acids, particularly branched-chain amino acids. Knopf & Lamming (2026) formalize these into six hallmarks of protein restriction. The relationship is causal in animal models: protein restriction drives the physiological adaptations that delay aging, though the relative contribution of each hallmark remains an active area of investigation.",
+    "confidence": 0.88,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "Methionine Restriction",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": "Methionine restriction—limiting dietary methionine specifically—reproduces much of the lifespan extension and metabolic benefit of protein restriction, establishing this single amino acid as a key mediator of the response. Methionine restriction reduces circulating methionine and cysteine, lowers IGF-1 and glucose, improves insulin sensitivity, and increases resistance to oxidative stress and metabolic disease. Mechanistically it engages the GCN2/eIF2alpha integrated stress response, downregulates mTORC1 signaling, and modulates one-carbon metabolism and transsulfuration. In the hallmarks framework of Knopf & Lamming (2026), methionine restriction is the amino-acid-specific manipulation that most closely mimics whole-protein restriction, highlighting methionine sensing as a central regulatory node in dietary aging research.",
+    "confidence": 0.88,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "GCN2",
+    "predicate": "activates",
+    "object": "Integrated Stress Response",
+    "context": "GCN2 (general control nonderepressible 2) is an amino-acid-sensing kinase that phosphorylates eIF2alpha, activating the integrated stress response in conditions of amino acid deprivation. It senses uncharged tRNA arising when amino acids—particularly leucine and other essential amino acids—are limiting, and its activation is a hallmark response to protein and amino acid restriction. In the Knopf & Lamming (2026) hallmarks framework, GCN2 activation is a proximal, amino-acid-specific signal of dietary restriction that triggers translational reprogramming, increased ATF4 expression, and downstream metabolic adaptations that contribute to the benefits of protein restriction. The relationship is mechanistic: GCN2 is the sensor, eIF2alpha phosphorylation and ISR induction are its downstream output.",
+    "confidence": 0.87,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "inhibited_by",
+    "object": "Protein Restriction",
+    "context": "mTORC1 is inhibited by protein and amino acid restriction, and its suppression is a hallmark mechanism through which dietary protein limitation promotes longevity and metabolic health. Amino acids—especially leucine—are potent allosteric activators of mTORC1, and reductions in their availability during protein restriction lower mTORC1 activity, reducing protein synthesis, cell growth, and anabolic signaling. Because mTORC1 is a master regulator of aging and its chronic activation accelerates age-related decline, its inhibition is considered a key mediator of the benefits of protein restriction. In the Knopf & Lamming (2026) hallmarks framework, mTORC1 inhibition sits alongside GCN2/ISR activation and FGF21 induction as core amino-acid-sensing responses to restriction.",
+    "confidence": 0.87,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "FGF21",
+    "predicate": "mediates",
+    "object": "Protein Restriction",
+    "context": "FGF21 is a hepatokine whose induction mediates the metabolic effects of protein and amino acid restriction. Protein restriction and methionine restriction strongly upregulate hepatic FGF21, which acts on adipose tissue and other targets to stimulate energy expenditure, enhance insulin sensitivity, and promote stress resistance. In rodents, FGF21 is required for many of the metabolic benefits of protein restriction, whereas humans show more modest FGF21 responses, highlighting a species difference. In the Knopf & Lamming (2026) hallmarks framework, FGF21 induction is a hallmark endocrine response that translates reduced dietary protein into systemic metabolic adaptation. The relationship is mechanistic: protein restriction raises FGF21, and FGF21 signaling conveys the restriction signal to peripheral tissues.",
+    "confidence": 0.85,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "Branched-Chain Amino Acids",
+    "predicate": "mediates",
+    "object": "Protein Restriction",
+    "context": "Branched-chain amino acids (BCAAs)—leucine, isoleucine, and valine—are specific mediators of the effects of protein restriction, with reduced BCAA intake recapitulating several benefits of low-protein diets. Lowering isoleucine and valine in particular extends lifespan and improves metabolic health in mice, and dietary BCAA levels are a major determinant of circulating BCAA concentrations. Conversely, high circulating BCAAs are associated with insulin resistance and metabolic disease. In the Knopf & Lamming (2026) framework, BCAA modulation—acting through amino acid sensing pathways such as GCN2 and mTORC1—is a hallmark mechanism of protein restriction. The relationship is causal in animal models: reducing specific BCAAs drives metabolic and longevity benefits.",
+    "confidence": 0.85,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "Isoleucine",
+    "predicate": "mediates",
+    "object": "Protein Restriction",
+    "context": "Isoleucine is a branched-chain amino acid whose dietary restriction recapitulates many benefits of protein restriction, including metabolic health improvements and lifespan extension in mice. Among the BCAAs, isoleucine and valine are the most potent drivers of the adverse metabolic effects of high BCAA intake, and restricting them lowers circulating BCAA levels, reduces fat mass, and improves glucose tolerance. The mechanism involves reduced amino acid-driven mTORC1 signaling and altered FGF21 and GCN2 responses. In the Knopf & Lamming (2026) hallmarks framework, isoleucine is a key amino-acid-specific mediator of protein restriction effects. The relationship is causal in animal models: removing or restricting isoleucine from the diet is sufficient to drive metabolic benefits.",
+    "confidence": 0.85,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "Valine",
+    "predicate": "mediates",
+    "object": "Protein Restriction",
+    "context": "Valine is a branched-chain amino acid whose dietary restriction mimics aspects of protein restriction, improving metabolic health and extending lifespan in mouse studies. Along with isoleucine, valine is a key driver of the adverse effects of high BCAA intake, and reducing dietary valine lowers circulating BCAA levels and improves glucose tolerance and body composition. Mechanistically, valine restriction reduces amino acid-stimulated mTORC1 activity and alters FGF21 signaling. In the Knopf & Lamming (2026) hallmarks framework, valine is a component of the branched-chain amino acid axis through which protein restriction acts. The relationship is causal in animal models: valine restriction alone is sufficient to drive metabolic improvements.",
+    "confidence": 0.85,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "Leucine",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": "Leucine is the most potent amino acid activator of mTORC1, acting as a nutrient signal that couples dietary amino acid availability to anabolic signaling. Leucine binds the Sestrin2 sensor and, through the Rag GTPase pathway, promotes mTORC1 translocation to the lysosome and its activation. During protein restriction, reduced leucine availability lowers mTORC1 activity, contributing to the metabolic and longevity benefits of low-protein diets. Leucine also influences GCN2 and insulin signaling. In the Knopf & Lamming (2026) framework, leucine's regulation of mTORC1 is central to the amino-acid-sensing axis of protein restriction. The relationship is mechanistic: leucine is the ligand, and mTORC1 activation is its direct downstream effect.",
+    "confidence": 0.88,
+    "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md"
+  },
+  {
+    "subject": "Resting Metabolic Rate",
+    "predicate": "accounts_for",
+    "object": "Energy Expenditure",
+    "context": "Resting metabolic rate (RMR) is the largest single component of total daily energy expenditure, accounting for roughly 60-70% of daily energy use in sedentary humans. It reflects the energy required to maintain basic physiological function at rest, including the metabolic activity of tissues such as brain, liver, and skeletal muscle, and is closely correlated with fat-free mass. Speakman & Selman (2003) review RMR as a major determinant of the variability in total energy expenditure between individuals and as a key parameter in energy balance and obesity research. The relationship is compositional: RMR is the dominant contributor to total daily energy expenditure.",
+    "confidence": 0.92,
+    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md"
+  },
+  {
+    "subject": "Fat-Free Mass",
+    "predicate": "determines",
+    "object": "Resting Metabolic Rate",
+    "context": "Fat-free mass is the primary determinant of resting metabolic rate, explaining the majority of inter-individual variation in RMR. Metabolically active lean tissues—including skeletal muscle, brain, liver, and kidneys—consume the bulk of resting energy, so larger fat-free mass is associated with higher RMR. Speakman & Selman (2003) emphasize that fat-free mass, and to a lesser extent fat mass and age, account for much of the variance in RMR, with residual variation attributed to factors such as mitochondrial proton leak and uncoupling proteins. The relationship is causal and quantitative: fat-free mass sets the baseline metabolic rate at rest.",
+    "confidence": 0.9,
+    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md"
+  },
+  {
+    "subject": "Exercise",
+    "predicate": "affects",
+    "object": "Resting Metabolic Rate",
+    "context": "Exercise influences resting metabolic rate primarily through changes in body composition and excess post-exercise oxygen consumption, rather than through a large direct effect of individual training sessions. Physical activity can raise RMR by increasing fat-free mass, and high-intensity exercise transiently elevates metabolic rate through the excess post-exercise oxygen consumption (EPOC) effect. Speakman & Selman (2003) note that the effect of exercise on RMR is complex and partly indirect, and that training-induced changes in muscle efficiency—potentially involving UCP3 downregulation—may even lower resting metabolism in some contexts. The relationship is bidirectional and context-dependent, with body-composition changes as the dominant pathway.",
+    "confidence": 0.85,
+    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md"
+  },
+  {
+    "subject": "Non-Exercise Activity Thermogenesis",
+    "predicate": "contributes_to",
+    "object": "Energy Expenditure",
+    "context": "Non-exercise activity thermogenesis (NEAT) is the energy expended during all daily activities other than volitional exercise, including fidgeting, posture maintenance, walking, and everyday movement. NEAT is highly variable between individuals and can differ by up to 2000 kcal per day, making it a major source of inter-individual variation in total energy expenditure and a significant determinant of susceptibility to weight gain. Speakman & Selman (2003) discuss NEAT as a component of physical activity energy expenditure that is often overlooked when estimating energy balance. The relationship is compositional: NEAT is a substantial and variable contributor to daily energy expenditure.",
+    "confidence": 0.88,
+    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md"
+  },
+  {
+    "subject": "Mitochondrial Uncoupling",
+    "predicate": "affects",
+    "object": "Resting Metabolic Rate",
+    "context": "Mitochondrial uncoupling—proton leakage across the inner mitochondrial membrane that dissipates energy as heat—is a candidate determinant of resting metabolic rate and metabolic efficiency. Because basal proton leak accounts for a substantial fraction of resting oxygen consumption, variation in leak activity, modulated by uncoupling proteins such as UCP1, UCP2, and UCP3, could explain part of the residual variation in RMR not accounted for by fat-free mass. Speakman & Selman (2003) review uncoupling as a mechanism linking mitochondrial efficiency to whole-body energy expenditure and body-weight regulation. The relationship is mechanistic: greater uncoupling raises resting energy use, while greater coupling increases metabolic efficiency.",
+    "confidence": 0.8,
+    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md"
+  },
+  {
+    "subject": "UCP3",
+    "predicate": "modulates",
+    "object": "Resting Metabolic Rate",
+    "context": "UCP3 is a mitochondrial uncoupling protein expressed mainly in skeletal muscle that is a candidate modulator of resting metabolic rate and metabolic efficiency. Polymorphisms near the UCP2/UCP3 locus are associated with 24-hour energy expenditure, and training-induced downregulation of muscle UCP3 may contribute to the reduced resting metabolism sometimes seen after intensive endurance training by improving muscle mechanical efficiency. Speakman & Selman (2003) cite UCP3 as a candidate source of the residual variation in RMR not explained by lean mass. The relationship is proposed and mechanistically plausible: UCP3-mediated proton conductance influences muscle energy efficiency at rest and during exercise.",
+    "confidence": 0.75,
+    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md"
+  },
+  {
+    "subject": "Mitochondrial Dysfunction-Associated Senescence",
+    "predicate": "driven_by",
+    "object": "Mitochondrial Dysfunction",
+    "context": "Mitochondrial dysfunction-associated senescence (MiDAS) is a senescence program driven primarily by mitochondrial failure rather than canonical DNA-damage signaling. It is characterized by reduced mitochondrial membrane potential, elevated ROS, and metabolic dysfunction that trigger p53-independent growth arrest together with a specific SASP—typically low in IL-6 but enriched in TGF-beta family cytokines. MiDAS arises when mitochondrial quality control fails, allowing dysfunctional mitochondria to accumulate. In the Bautista (2026) review, MiDAS links mitochondrial dysfunction to stem cell aging and inflammaging, since senescent cells in this state contribute chronic inflammatory output. The relationship is causal: mitochondrial dysfunction is the trigger, and MiDAS is the cellular response.",
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Dysfunction-Associated Senescence.md"
+  },
+  {
+    "subject": "Taurine",
+    "predicate": "improves",
+    "object": "Mitochondrial Function",
+    "context": "Taurine improves mitochondrial function and quality control, and its levels decline with age—deficits linked to age-related mitochondrial and metabolic decline. Taurine supplementation in aged mice extends lifespan and healthspan and is associated with improved mitochondrial respiratory function, reduced oxidative stress, and preserved metabolic health. Mechanistically, taurine conjugates with mitochondrial tRNA to form taurine-modified tRNAs required for efficient translation of respiratory chain subunits, and it buffers against mitochondrial stress. In the context of the mitochondrial-aging framework, taurine is proposed as an intervention that supports mitochondrial integrity during aging. The relationship is mechanistic: taurine is required for optimal mitochondrial protein synthesis and function.",
+    "confidence": 0.8,
+    "source_document": "Taurine.md"
+  },
+  {
+    "subject": "O-GlcNAcylation",
+    "predicate": "regulates",
+    "object": "Mitochondrial Function",
+    "context": "O-GlcNAcylation is a post-translational modification in which O-GlcNAc is attached to serine and threonine residues of proteins, including numerous mitochondrial proteins, dynamically regulating their function. O-GlcNAc transferase and O-GlcNAcase control the addition and removal of the modification in response to nutrient flux, linking cellular metabolism to mitochondrial protein activity, dynamics, and stress responses. Altered O-GlcNAcylation is implicated in mitochondrial dysfunction, metabolic disease, and aging. The relationship is regulatory: O-GlcNAcylation modulates the activity, stability, and interactions of mitochondrial proteins, thereby influencing mitochondrial function and cellular metabolism.",
+    "confidence": 0.78,
+    "source_document": "O-GlcNAcylation.md"
   }
 ]
