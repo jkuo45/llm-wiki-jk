@@ -3,15 +3,15 @@ title: _Link notes
 aliases: []
 description: Index of wiki notes for _link
 created: 2026-07-06
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 31_JULY_2026 06:11 PM PDT
-- Total count of entities: 519
+- Last updated: 01_AUGUST_2026 12:00 PM PDT
+- Total count of entities: 526
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | [[5-Fluorouracil]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy |
@@ -535,3 +535,10 @@ This directory contains entities that span across multiple topics within the kno
 | [[UK5099]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | MPC Inhibitor, Pyruvate, Senescence |
 | [[SN011]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | STING Inhibitor, cGAS-STING, Senescence |
 | [[Frailty Index]] | 31_JULY_2026 06:11 PM PDT | scientific-concept | Aging, Healthspan, Geroscience |
+| [[Heteroplasmy]] | 01_AUGUST_2026 12:00 PM PDT | genetic-concept | Mitochondria, Mitochondrial DNA, Gene Editing, Aging |
+| [[Mitochondrial Function]] | 01_AUGUST_2026 12:00 PM PDT | biological-process | Mitochondria, Metabolism, Aging, Senescence |
+| [[TALE]] | 01_AUGUST_2026 12:00 PM PDT | protein-domain | Gene Editing, Mitochondrial DNA, TALEN |
+| [[FokI]] | 01_AUGUST_2026 12:00 PM PDT | enzyme | Gene Editing, Nuclease, Mitochondria |
+| [[DdCBE]] | 01_AUGUST_2026 12:00 PM PDT | genetic-tool | Gene Editing, Mitochondria, Base Editing |
+| [[Zinc Finger]] | 01_AUGUST_2026 12:00 PM PDT | protein-domain | Gene Editing, DNA Binding, ZFN |
+| [[Mitochondrial Translation]] | 01_AUGUST_2026 12:00 PM PDT | biological-process | Mitochondria, Protein Synthesis, OXPHOS, Aging |
