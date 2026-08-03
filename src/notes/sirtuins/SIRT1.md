@@ -4,6 +4,9 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   and the most extensively characterized member of the Sirtuins family. It links cellular
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
+created: 2026-07-06
+updated: 2026-08-03
+protected: true
 ---
 
 # SIRT1
@@ -128,9 +131,23 @@ SIRT1-deficient mice display:
 
 SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR increases SIRT1 levels and activity, and SIRT1 activation by [[Resveratrol]] mimics several physiological effects of CR in rodents. Three SNPs in the human _SIRT1_ gene are associated with systemic energy expenditure.
 
+## Lifespan, Healthspan, and Disease (Giblin et al., 2014)
+
+The *Trends in Genetics* review by Giblin, Skinner, and Lombard ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) consolidates evidence that SIRT1 guards mammalian healthspan:
+
+- **Lifespan extension:** brain-specific (BRASTO) SIRT1 overexpression extends median lifespan ~11% in both sexes and delays cancer-related death, via SIRT1→[[OX2R]] upregulation in the dorsomedial/lateral hypothalamus. Global SIRT1 overexpression does not extend lifespan but improves glucose homeostasis, wound healing, neuromuscular function and bone maintenance, and reduces carcinomas/sarcomas. SIRT1 effects are dose-dependent (7.5-fold cardiac overexpression is protective; 12.5-fold is pathogenic).
+- **Caloric restriction:** SIRT1 is required for several DR responses in a tissue-specific manner (muscle, WAT, hypothalamus); DR does not extend lifespan in *Sirt1* global knockouts.
+- **Neurodegeneration:** SIRT1→RARβ→[[ADAM10]] shifts [[APP]] toward α-secretase, attenuating β-amyloid in AD; SIRT1 deacetylates [[Tau]] to promote its degradation; SIRT1→[[HSF1]]→[[HSP70]] suppresses α-synuclein aggregation in PD; and SIRT1 activates [[p53]], TORC1, [[FOXO3a]], and [[PGC-1α]] for neuroprotection in HD.
+- **Metabolism:** SIRT1 regulates gluconeogenesis, fatty acid oxidation and hepatic lipogenesis; SIRT1-dependent [[TFAM]] expression maintains mtDNA gene expression in muscle; age-related [[NAD+]] decline impairs the SIRT1/[[TFAM]] axis and is reversed by [[NMN]].
+- **Inflammation & cancer:** SIRT1 suppresses [[NF-κB]] (p65) signaling; both oncogenic ([[c-Myc]], [[HIF-1α]]) and tumor suppressor roles are documented.
+- **Cardiovascular:** SIRT1/[[CaMKKβ]] protect against atherosclerosis; SIRT1/[[PPARα]] oppose cardiac hypertrophy in a dose-dependent manner.
+
 ## Documents
 
 List of documents that mention this entity
+
+- [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+  - Review of SIRT1 as a guardian of mammalian healthspan: BRASTO brain-specific overexpression extends lifespan ~11% via hypothalamic OX2R; SIRT1 attenuates AD/PD/HD, metabolic dysfunction, inflammation, and cardiac hypertrophy; NAD+ decline limits SIRT1/TFAM function.
 
 - [[_document_ - MRR - mitohormesis|mitohormesis]]
   - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
@@ -198,6 +215,9 @@ List of documents that mention this entity
 - [[BNIP3]]: Induced downstream of SIRT1 via FOXO3a deacetylation; forms the NAD+ → SIRT1 → FOXO3a → BNIP3 mitophagy axis
 - [[BNIP3L|NIX]]: SIRT1/FOXO3a axis induces BNIP3L expression; HIF1A also transactivates BNIP3L
 - [[HIF-1α]]: Converges with SIRT1 signaling through shared neighbors (Autophagy, Mitohormesis); NAD+ decline suppresses SIRT1 and impairs HIF1A-driven mitophagy
+- [[OX2R]]: Brain-specific receptor upregulated by SIRT1 (via NKX2-1) in the hypothalamus; mediates the BRASTO lifespan phenotype
+- [[ADAM10]]: α-secretase activated by SIRT1→RARβ; shifts APP processing away from β-amyloid
+- [[TFAM]]: SIRT1-dependent expression maintains mtDNA gene expression; impaired by age-related NAD+ decline
 - [[Mitohormesis]]: SIRT1 is a key transducer of mitohormetic signals via PGC1-α deacetylation
 - [[NAD+ Biosynthesis]]: NAD+ is the obligate co-substrate for SIRT1; NAD+ decline with age limits SIRT1 activity
 - [[SIRT3]]: Mitochondrial counterpart of SIRT1; NAD+-dependent regulation of ROS/HIF1A signaling##

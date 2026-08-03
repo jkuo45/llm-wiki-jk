@@ -3,7 +3,7 @@ title: SIRT3
 description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
   within the Mitochondria.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-03
 tags:
   - enzyme
   - nad+
@@ -90,9 +90,23 @@ SIRT3 (along with [[SIRT7]]) is highly transcribed in **lymph-node positive brea
 
 SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside [[SIRT2]]. Decreasing SIRT3 expression reduces OAADPr-mediated cell death.
 
+## Lifespan, Healthspan, and Disease (Giblin et al., 2014)
+
+Findings from the *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918):
+
+- **No SIRT3-overexpressing mouse exists** to directly test lifespan, a critical gap. Human SNP data are inconsistent: rs11555236 was associated with male longevity in an Italian cohort but not replicated in a larger pooled cohort; the TRELONG study found rs11555236 and rs4980329 associated with longevity (female-significant after sex stratification).
+- **Metabolic syndrome:** a nonsynonymous SNP in the SIRT3 catalytic domain associated with metabolic syndrome in NAFLD patients and ~8,000 Finnish males reduces recombinant SIRT3 activity ~34%. *Sirt3* knockout mice develop obesity, insulin resistance, and hepatic steatosis on a HFD; whole-body KO exacerbates HFD metabolic sequelae, while muscle- or liver-specific KO does not recapitulate the phenotype (suggesting non-cell-autonomous, possibly CNS, effects).
+- **Dietary restriction:** hepatic SIRT3 deacetylates and activates [[SOD2]] and [[IDH2]] during DR, lowering ROS and protecting against age-associated hearing loss; DR-induced changes in hepatic acetyl-CoA, insulin, and triglycerides require SIRT3.
+- **Neuroprotection:** SIRT3 is neuroprotective in an *ex vivo* HD model; mutant huntingtin lowers SIRT3 activity and NAD+, and viniferin (a resveratrol dimer) rescues via [[AMPK]] and mitochondrial biogenesis.
+- **Cancer:** dual roles — tumor suppressor (SOD2/IDH2 activation, ROS suppression, HIF-1α destabilization, PDC stimulation) and oncogene (p53 deacetylation; whole-gene duplication in a Li-Fraumeni-like family; elevated in node-positive breast cancer and OSCC).
+- **Cardiac hypertrophy:** SIRT3 overexpression, or NAD+ precursor supplementation, represses agonist-induced CH by inducing [[SOD2]] and [[Catalase]], lowering ROS and inhibiting [[Akt|AKT]] signaling.
+
 ## Documents
 
 List of documents that mention this entity
+
+  - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+    - Review of SIRT3 as a mitochondrial guardian of healthspan: DR-dependent SOD2/IDH2 activation, metabolic-syndrome-associated SNPs, dual cancer roles, and cardiac hypertrophy protection.
 
   - [[Mitohormesis|mitohormesis]]
     - The MRR Synergy: Downstream mitohormetic transcriptional responses (specifically the deacetylation of PGC1-α by SIRT1 and SIRT3) are highly NAD+-dependent. By priming the system with NAD+ precursors like [[Nicotinamide Riboside|NR]] or [[NMN]], the "fuel" for the MRR is ensured, preventing a bottleneck at the level of SIRT3 activity and maximizing the antioxidant response.
@@ -135,6 +149,12 @@ List of documents that mention this entity
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
 - [[OPA1]] — SIRT3 deacetylates OPA1 (Lys926/Lys931), activating fusion
 - [[Mitochondrial Fusion]] — SIRT3 enhances fusion via OPA1 deacetylation
+- [[SOD2]] — deacetylated and activated by SIRT3; core antioxidant and CH-protective effector
+- [[IDH2]] — deacetylated and activated by SIRT3; regenerates glutathione and lowers ROS during DR
+- [[Catalase]] — induced by SIRT3; suppresses ROS and cardiac hypertrophy
+- [[HIF-1α]] — destabilized by SIRT3; links SIRT3 loss to protumorigenic metabolic reprogramming
+- [[Pyruvate Dehydrogenase]] — PDC activity stimulated by SIRT3 to promote mitochondrial respiration
+- [[Akt]] — SIRT3 suppresses AKT signaling in cardiac hypertrophy
 
 
 

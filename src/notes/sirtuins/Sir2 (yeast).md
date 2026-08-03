@@ -4,7 +4,7 @@ description: Sir2 (Silent Information Regulator 2) from _Saccharomyces cerevisia
   is the founding member of the sirtuin family of proteins. Originally discovered
   as MAR1 (mating-type regulator 1) and subsequen...
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-08-03
 tags:
   - chemical-compound
 aliases:
@@ -66,9 +66,23 @@ Sir2 was initially characterised as an **ADP-ribosyl transferase** (Moazed et al
 
 Sir2 is the prototypical member of a large and ancient gene family now called **sirtuins**, present in all domains of life — bacteria, archaea, and eukaryotes. In mammals, seven homologues ([[SIRT1]]–[[SIRT7]]) have been identified, with [[SIRT1]] being the closest mammalian orthologue (Class Ia). The enzymatic mechanism, structural core domain (275 amino acids), and NAD⁺ dependence are all conserved.
 
+## Mechanisms of Replicative Lifespan (Giblin et al., 2014)
+
+The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) summarizes three distinct mechanisms by which Sir2p promotes yeast replicative lifespan:
+
+1. **rDNA array stability** — Sir2p protects against toxic accumulation of [[Extrachromosomal rDNA Circles (ERCs)|self-replicating ERCs]]; deletion of the replication fork-blocking protein Fob1p enhances lifespan and rescues the short lifespan of *sir2* mutants.
+2. **Daughter-cell protection** — Sir2p maintains cellular polarity so that oxidized proteins, misfolded aggregates, and dysfunctional mitochondria are retained in the mother cell, allowing daughters to begin life undamaged.
+3. **Subtelomeric silencing** — Sir2p and the histone acetyltransferase Sas2p regulate H4K16 acetylation at the telomere-euchromatin boundary; Sir2p levels decline with age as H4K16Ac rises, and constitutive-H4K16-acetylation mutations shorten lifespan.
+
+> [!tip] Founding evidence for the sirtuin–longevity link
+> *sir2* inactivation shortens yeast lifespan ~50%, while a single extra copy of *SIR2* extends it ~30% — the observation that launched sirtuin longevity research.
+
 ## Documents
 
 List of documents that mention this entity
+
+  - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+    - Positions Sir2 as the founding longevity gene and details its three lifespan-promoting mechanisms (ERC suppression, mother-cell protein/mitochondria retention, subtelomeric H4K16 silencing).
 
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - The first known sirtuin, Sir2 (yeast) (silent information regulator 2) of Saccharomyces cerevisiae, from which the family derives its name, regulates ribosomal DNA recombination, gene silencing, DNA Repair, chromosomal stability and longevity.

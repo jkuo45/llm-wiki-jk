@@ -4,7 +4,7 @@ description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide aden
   dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases
   (HDACs). Spanning all domains of life, sirtu...
 created: 2026-07-04
-updated: 2026-07-26
+updated: 2026-08-03
 tags:
   - protein
   - epigenetics
@@ -138,7 +138,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
   - **SRT1720, SRT2104, SRT2183, SRT3025**: Highly potent compounds that bind SIRT1 with high affinity, improving metabolic homeostasis and lifespan in models of obesity.
 - **NAD+ Precursors (Pan-Sirtuin Activators)**:
   - **[[NMN]] (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; elevates NAD+ to fuel all sirtuins.
-  - **[[NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
+  - **[[Nicotinamide Riboside|NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 - **SIRT6-Specific Activators**:
   - **UBCS039**: The first synthetic activator of SIRT6 deacetylase activity.
   - **MDL-800**: A potent, highly selective allosteric activator of SIRT6 that reduces myofibroblast differentiation and accelerates wound healing.
@@ -164,9 +164,21 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ## Orphan Link Resolution & Linking Summary
 
+## Evidence for Lifespan and Healthspan (Giblin et al., 2014)
+
+The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) is the key reference establishing sirtuins as guardians of mammalian healthspan:
+
+- **Lifespan extension in mammals:** brain-specific [[SIRT1]] overexpression (BRASTO) extends median lifespan ~11% via hypothalamic [[OX2R]]; whole-body [[SIRT6]] overexpression extends male median lifespan 14.5%/9.9% via reduced IGF-1/IIS. No SIRT3-overexpressing model exists.
+- **Invertebrate evidence:** yeast [[Sir2 (yeast)|Sir2]] (+1 copy → +30% lifespan); worm [[SIR-2.1]] (+10–15% via [[DAF-16]]/IIS and ascaroside sensing); fly dSIR2 overexpression in nervous system/fat body increases longevity.
+- **Disease suppression:** SIRT1 (AD/PD/HD, metabolic dysfunction, inflammation, CVD), SIRT3 (metabolic syndrome, hearing loss, cardiac hypertrophy), and SIRT6 (gluconeogenesis, steatosis, inflammation, cardiac hypertrophy) attenuate age-associated pathologies.
+- **Pharmacology:** [[Resveratrol]] rescues HFD-shortened lifespan; [[SRT1720]] extends mean lifespan ~18% (HFD) / 8.8% (standard diet); [[NMN]]/[[Nicotinamide Riboside|NR]] raise NAD+ to sustain sirtuin activity; [[CD38]] is the major NADase opposing sirtuins.
+
 ## Documents
 
 List of documents that mention this entity
+
+  - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+    - Landmark review consolidating SIRT1 (BRASTO, ~11% lifespan), SIRT3 (SNPs, DR, SOD2/IDH2), and SIRT6 (male lifespan 14.5%/9.9%, IGF-1) as guardians of mammalian healthspan across neurodegeneration, metabolism, inflammation, cancer, and CVD.
 
   - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
     - Although we detected no changes in the level of markers for Dopamine synthesis and Dopamine Transporter, we found that COMT-OE mice display an increase in Dopamine release capacity in the Sirtuins.
@@ -188,7 +200,7 @@ List of documents that mention this entity
 
 
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by [[NMN]]/[[NR]] supplementation.
+    - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by [[NMN]]/[[Nicotinamide Riboside|NR]] supplementation.
 
 - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
   - The review frames SIRT1 as the paradigmatic sirtuin whose context-dependent deacetylase activity couples cellular metabolism to stress adaptation and disease.
@@ -216,12 +228,18 @@ List of documents that mention this entity
 - [[AMPK]]: - **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[AMPK|AMPK]]**, coordi...
 - [[Resveratrol]]: - **Natural Polyphenols**: - **Resveratrol**: The first identified allosteric activator of SIRT1.
 - [[NMN]]: - **NAD+ Precursors (Pan-Sirtuin Activators)**: - **NMN (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; eleva...
-- [[Nicotinamide Riboside]]: - **[[NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
+- [[Nicotinamide Riboside]]: - **[[Nicotinamide Riboside|NR]]**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 - [[SIRT1]]: SIRT1 is the most extensively characterized sirtuin discussed.
 - [[Mitochondria]]: Sirtuins regulate mitochondrial biogenesis, dynamics, and quality control
 - [[Inflammaging]]: Reduced sirtuin activity (due to NAD+ depletion) contributes to inflammaging
 - [[Mitochondrial Unfolded Protein Response]]: NAD+ restoration enhances UPR^mt^ activity via sirtuins
 - [[Stem Cells]]: Sirtuin-dependent NAD+ metabolism is critical for stem cell quiescence and regeneration
+- [[OX2R]]: Brain-specific receptor mediating SIRT1 (BRASTO) lifespan extension
+- [[IGF1]]: Lowered by SIRT6 overexpression; underlies male-specific lifespan extension
+- [[IDH2]]: SIRT3 substrate; regenerates glutathione and lowers ROS during dietary restriction
+- [[ADAM10]]: α-secretase induced by SIRT1/RARβ; attenuates β-amyloid in Alzheimer's disease
+- [[CtIP]]: DNA repair factor deacetylated by SIRT6
+- [[SREBP2]]: Lipogenic transcription factor negatively regulated by SIRT6
 
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NF-κB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]

@@ -4,7 +4,7 @@ description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classi
   in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
   a "longevity gene," SIRT6 serves as an essent...
 created: 2026-07-02
-updated: 2026-07-09
+updated: 2026-08-03
 tags:
   - protein
   - nad+
@@ -109,6 +109,21 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 
 ---
 
+## 6.5 Lifespan and Healthspan (Giblin et al., 2014)
+
+The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) reports:
+
+- **Lifespan extension:** whole-body SIRT6 overexpression extends median lifespan of male mice by **14.5% and 9.9%** in two independent strains, with no significant effect in females. The male-specific benefit tracks reduced serum [[IGF1|IGF-1]] and downstream IIS; male transgenics also show protection against lung tumors and preservation of glucose tolerance with age.
+- **Loss-of-function:** germline *Sirt6* deletion causes progressive lethal hypoglycemia, lymphopenia, and genomic instability by ~4 weeks; glucose-supplemented outbred knockouts can survive to ~1 year.
+- **Enzymatic targets:** deacetylation of [[H3K9ac|H3K9Ac]], [[H3K56ac|H3K56Ac]], [[CtIP]], and [[GCN5]]; mono-ADP-ribosylation activates [[PARP1]]; long-chain deacylation promotes [[TNFα]] secretion; SIRT6/SIR-2.4 support stress granules.
+- **Metabolism:** SIRT6 suppresses [[HIF-1α]] to support mitochondrial respiration and inhibits [[Gluconeogenesis|gluconeogenesis]] via [[PGC-1α]]; hepatic SIRT6 loss causes steatosis and derepression of [[SREBP2]]/[[SREBP-1c|SREBP1]].
+- **Inflammation:** SIRT6 deacetylates H3K9Ac at [[NF-κB]] target promoters (via RELA/p65); RELA/p65 haploinsufficiency partially rescues SIRT6-null lethality.
+- **Cancer:** dual roles — tumor suppressor (survivin repression via H3K9Ac at its promoter; ATM-dependent p53/p73 apoptosis; HIF-1α/c-MYC suppression) and oncogene (chemoresistance in breast/prostate cancer).
+- **Cardiovascular:** SIRT6 co-represses [[c-Jun]] to inhibit IGF-AKT signaling, protecting against cardiac hypertrophy; SIRT6 is reduced in failing human hearts.
+- **Dietary restriction:** no role for SIRT6 in DR response has been identified.
+
+---
+
 ## 7. Connections
 
 - **[[SIRT7]]** — fellow Class IV sirtuin; both nuclear (SIRT6 is chromatin-bound; SIRT7 is nucleolar).
@@ -118,6 +133,14 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 - **[[Aging]]** — SIRT6 is a key longevity gene and aging determinant.
 - **[[Base Excision Repair]]** — major DNA repair pathway coordinated by SIRT6.
 - **[[Nkx3.2]]** — homeobox transcription factor; SIRT6 regulates Nkx3.2 expression in chondrogenesis and bone development.
+- **[[CtIP]]** — DNA end-resection factor deacetylated by SIRT6 (with H3K9Ac/H3K56Ac and GCN5).
+- **[[GCN5]]** — acetyltransferase deacetylated by SIRT6.
+- **[[PARP1]]** — activated by SIRT6 mono-ADP-ribosylation; NAD+-consuming repair enzyme.
+- **[[TNFα]]** — pro-inflammatory cytokine whose secretion SIRT6 promotes via deacylation.
+- **[[SREBP2]]** — lipogenic transcription factor negatively regulated by SIRT6.
+- **[[c-Jun]]** — co-repressed by SIRT6 at chromatin to inhibit IGF-AKT hypertrophic signaling.
+- **[[Survivin]]** — repressed by SIRT6 (H3K9Ac deacetylation at its promoter) during cancer initiation.
+- **[[IGF1]]** — serum IGF-1 lowered by SIRT6 overexpression, underlying male-specific lifespan extension.
 - **[[Vimentin]]** — interacts with SIRT6's C-terminal IDR; N308K mutation weakens binding, elevating SIRT6 levels.
 - **[[USP10]]** — deubiquitinating enzyme that stabilizes SIRT6; centenarian variant effect is USP10-independent.
 - **[[Fucoidan]]** — SIRT6 activator that mimics centenarian variant effects (elevates SIRT6, enhances mADPr activity).
@@ -173,5 +196,8 @@ List of documents that mention this entity
 
   - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
     - Lists SIRT6 among chromatin modifiers (with SIRT1, HDAC1, PARP1) that relocalize to DNA damage sites during repair in the RCM framework; situates RCM within the Information Theory of Aging and the ICE mouse model.
+
+  - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+    - Review of SIRT6 as a longevity gene: whole-body overexpression extends male mouse lifespan 14.5%/9.9% via reduced IGF-1/IIS; SIRT6 regulates H3K9Ac/H3K56Ac/CtIP/GCN5, HIF-1α, SREBP2, NF-κB, survivin, and c-Jun pathways.
 
 
