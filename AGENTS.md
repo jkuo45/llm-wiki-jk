@@ -13,8 +13,8 @@
   - Contains documents that have not yet been ingested into `src/notes/`. These are waiting to be processed through the Document Ingestion Workflow.
 - `src/tasks` directory:
   - Contains task outputs. Default to saving task outputs to this directory.
-- **Heading and sub-heading enumeration**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
 - Execute python scripts using `uv run --with`.
+- Graphify is installed as a uv tool.
 
 ## Retrieval Guidelines:
 
