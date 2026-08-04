@@ -3206,5 +3206,325 @@
     "context": "FOXO4 deacetylation by SIRT1 enhances expression of GADD45 and suppresses caspase-3/7 activity, promoting DNA repair over apoptosis. The directionality is SIRT1 → FOXO4 → GADD45 induction. This biases cells toward damage repair rather than death. It is a further example of SIRT1 steering stress responses toward survival and genome maintenance.",
     "confidence": 0.95,
     "source_document": "SIRT1.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "brain-specific (BRASTO) overexpression extends",
+    "object": "Lifespan",
+    "context": "BRASTO mice overexpress SIRT1 in the dorsomedial and lateral hypothalamus, raising physical activity and oxygen consumption, preserving skeletal-muscle mitochondrial morphology and body-temperature homeostasis, and extending median lifespan ~11% with delayed cancer-related death in both sexes. The mechanism is SIRT1 upregulating OX2R via NKX2-1 deacetylation, recapitulating calorie restriction. Notably, global SIRT1 overexpression does not extend lifespan, so the effect is brain-specific and dose-dependent.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "upregulates (via NKX2-1 deacetylation)",
+    "object": "OX2R",
+    "context": "In BRASTO mice, hypothalamic SIRT1 deacetylates the transcription factor NKX2-1, which drives expression of the orexin type 2 receptor (OX2R); increased OX2R in DMH/LH raises neural activity, physical activity and energy expenditure, underpinning the ~11% lifespan extension. This positions SIRT1 to NKX2-1 to OX2R as a hypothalamic longevity axis that mimics calorie restriction.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "NKX2-1",
+    "predicate": "links SIRT1 to expression of",
+    "object": "OX2R",
+    "context": "NKX2-1 (Nk2 homeobox 1) is deacetylated by SIRT1 in hypothalamic DMH/LH neurons; deacetylated NKX2-1 activates transcription of OX2R, the orexin receptor whose increased signaling recapitulates calorie restriction and extends lifespan in BRASTO mice. Thus NKX2-1 is the direct transcriptional relay between SIRT1 and OX2R.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "whole-body overexpression extends (male)",
+    "object": "Lifespan",
+    "context": "Two independent SIRT6 transgenic strains show whole-body overexpression extending median lifespan of male mice by 14.5% and 9.9% (no significant effect in females), associated with protection against lung tumors and preserved glucose tolerance. The effect is male-specific and tied to reduced serum IGF-1/insulin-like growth factor signaling.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "extends lifespan by inhibiting",
+    "object": "IGF-1 signaling",
+    "context": "Male SIRT6 transgenics have lower serum IGF-1 and reduced downstream IIS (AKT, pAKT) signaling; reduced insulin/IGF-1-like signaling is strongly associated with increased longevity in model organisms, providing the leading explanation for SIRT6's male-specific lifespan extension.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "CtIP",
+    "context": "SIRT6 deacetylates CtIP (RBBP8), a key factor in DNA double-strand-break end resection and homologous recombination repair; this is one of the three best-characterized direct SIRT6 substrates (with H3K9ac/H3K56ac and GCN5) and links SIRT6 to genome stability and tumor suppression.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "GCN5",
+    "context": "SIRT6 deacetylates the acetyltransferase GCN5, one of its direct non-histone substrates; this interaction contributes to SIRT6's control of chromatin and metabolic gene expression, complementing its histone deacetylation at H3K9/H3K56.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "mono-ADP-ribosylates and activates",
+    "object": "PARP1",
+    "context": "SIRT6 activates poly(ADP-ribose) polymerase 1 (PARP1) via mono-ADP-ribosylation, expanding SIRT6's enzymatic repertoire beyond deacetylation and connecting it to DNA-damage signaling and base-excision repair.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "promotes secretion of",
+    "object": "TNFα",
+    "context": "SIRT6 promotes secretion of the pro-inflammatory cytokine TNF-alpha via deacylation of a target, distinct from its anti-inflammatory chromatin roles; this illustrates that SIRT6 can both stimulate and suppress inflammatory outputs depending on substrate and context.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "upregulates (via RARβ) the α-secretase",
+    "object": "ADAM10",
+    "context": "SIRT1 induces expression of ADAM10, the principal alpha-secretase that cleaves APP away from amyloidogenic beta-secretase (BACE1) processing, reducing beta-amyloid production; this underlies SIRT1's protective role in Alzheimer's disease models.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates and activates",
+    "object": "IDH2",
+    "context": "During dietary restriction, hepatic SIRT3 deacetylates and activates isocitrate dehydrogenase 2 (IDH2), increasing NADPH and regenerating glutathione to lower mitochondrial ROS; loss of SIRT3 abolishes this DR-dependent antioxidant response and exacerbates metabolic disease.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "protective genetic variant associated with",
+    "object": "Longevity",
+    "context": "An SNP in SIRT3 (rs11555236, in linkage with a putative enhancer) is associated with increased longevity (male-specific in some cohorts; whole-population in the TRELONG study), with homozygotes showing higher SIRT3 expression, supporting a role for SIRT3 variation in human lifespan.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "reduced-activity catalytic SNP associated with",
+    "object": "Metabolic Syndrome",
+    "context": "A nonsynonymous SIRT3 SNP reducing recombinant catalytic activity by ~34% is associated with metabolic syndrome in NAFLD patients and the Finnish Metabolic Syndrome in Men cohort, implicating lowered SIRT3 activity in human metabolic disease susceptibility.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "Sir2 (yeast)",
+    "predicate": "suppresses accumulation of",
+    "object": "Extrachromosomal rDNA Circles (ERCs)",
+    "context": "Sir2p protects yeast from toxic accumulation of self-replicating extrachromosomal rDNA circles (ERCs); deletion of the replication-fork-blocking protein Fob1p rescues the short lifespan of sir2 mutants, establishing ERC suppression as the first mechanistic explanation for Sir2's longevity effect.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "Sir2 (yeast)",
+    "predicate": "retains damaged proteins and mitochondria in",
+    "object": "Mother cell",
+    "context": "Sir2p maintains cellular polarity so that oxidized proteins, misfolded aggregates, and dysfunctional mitochondria are retained in the mother cell, allowing daughter cells to begin life undamaged; this asymmetric segregation extends daughter-cell lifespan at the mother's expense.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "Sir2 (yeast)",
+    "predicate": "promotes subtelomeric silencing via balance with",
+    "object": "Sas2p",
+    "context": "A more recent epigenetic mechanism: Sir2p and the HAT Sas2p regulate H4K16 acetylation at the telomere-euchromatin boundary; Sir2p levels decline with age as H4K16Ac rises, and constitutive H4K16 acetylation shortens lifespan, linking subtelomeric silencing to yeast longevity.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "global overexpression fails to extend",
+    "object": "Lifespan",
+    "context": "Unlike brain-specific BRASTO, global SIRT1 transgenic strains do not extend overall mouse longevity (though they ameliorate age-sensitive traits such as glucose homeostasis, wound healing, and carcinoma/sarcoma incidence), indicating tissue-specificity and dose-dependence of sirtuin longevity effects.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "promote (per Guardians review)",
+    "object": "Healthspan",
+    "context": "The Guardians review (Giblin, Skinner & Lombard 2014) concludes that SIRT1, SIRT3 and SIRT6, and other mammalian sirtuins, suppress a broad array of age-related pathologies and promote healthspan, with increased SIRT1 or SIRT6 expression extending mouse lifespan, positioning sirtuins as guardians of mammalian health.",
+    "confidence": "0.95",
+    "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates and activates",
+    "object": "IRS-2",
+    "context": "SIRT1 deacetylates insulin receptor substrate-2 (IRS-2), enabling its efficient tyrosine phosphorylation and downstream PI3K-Akt activation, improving insulin signaling in peripheral tissues and countering insulin resistance in T2DM.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "CRTC2",
+    "context": "SIRT1 deacetylates CREB-regulated transcriptional coactivator 2 (CRTC2) as part of its dynamic regulation of hepatic gluconeogenesis under fasting, complementing its actions on FOXO1 and PGC-1alpha to control glucose production.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "GCN5",
+    "context": "In hepatocytes SIRT6 restrains gluconeogenesis by activating the acetyltransferase GCN5, which increases acetylation and thereby inhibition of PGC-1alpha, limiting glucose output; this is functionally distinct from SIRT6's direct deacetylation of GCN5.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "suppresses upstream insulin receptor/IRS signaling, reducing",
+    "object": "Akt phosphorylation",
+    "context": "SIRT6 negatively regulates Akt phosphorylation by suppressing upstream insulin-receptor/IRS signaling, preventing excessive glucose uptake and maintaining metabolic balance; loss of SIRT6 elevates this signaling and contributes to insulin resistance.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "represses lipogenesis via",
+    "object": "SREBP-1c",
+    "context": "SIRT6 improves systemic insulin sensitivity and prevents ectopic lipid accumulation by repressing the lipogenic transcription factor SREBP-1c, inhibiting fatty-acid synthesis and promoting oxidative disposal.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "represses lipogenesis via",
+    "object": "SREBP2",
+    "context": "SIRT6 limits cholesterol/lipid accumulation by repressing SREBP2, contributing to its protection against hepatic steatosis and systemic metabolic dysfunction.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "promotes lipolysis via FOXO1-dependent induction of",
+    "object": "ATGL",
+    "context": "SIRT6 enhances adipose lipolysis and prevents lipotoxic insulin resistance by inducing adipose triglyceride lipase (ATGL) expression in a FOXO1-dependent manner, mobilizing stored fat.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "alleviates ER stress via",
+    "object": "XBP1",
+    "context": "SIRT6 alleviates endoplasmic reticulum stress by regulating XBP1, complementing its H3K9 deacetylation at glycolytic promoters to limit inflammatory and metabolic dysfunction in the liver.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "regulates lipid homeostasis via",
+    "object": "PCSK9",
+    "context": "SIRT6 deficiency accelerates atherosclerosis through dysregulation of PCSK9 and LDL metabolism, indicating SIRT6 normally constrains PCSK9-driven LDL accumulation and vascular disease.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "maintains β-cell GSIS via repression of",
+    "object": "TXNIP",
+    "context": "In pancreatic beta-cells SIRT6 preserves glucose-stimulated insulin secretion and survival by repressing TXNIP expression via histone deacetylation (H3K9/H3K56), linking chromatin state to secretory capacity.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "GABPβ1",
+    "context": "SIRT7 deacetylates GA-binding protein beta1 (GABPbeta1), facilitating GABP complex formation and transcriptional activation of nuclear-encoded mitochondrial genes; SIRT7 deficiency causes systemic mitochondrial dysfunction, including lactate accumulation and cardiac abnormalities.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibits autocatalytic activation of",
+    "object": "SIRT1",
+    "context": "SIRT7 promotes adipogenesis and lipogenesis partly by inhibiting the autocatalytic activation of SIRT1, revealing an antagonistic intramolecular sirtuin relationship that shapes adipose expansion and metabolic dysfunction.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "modulates (via α-tubulin deacetylation)",
+    "object": "NLRP3 inflammasome",
+    "context": "SIRT2 deacetylates alpha-tubulin and modulates NLRP3 inflammasome activation, implicating it in vascular inflammation and insulin-resistance-associated endothelial dysfunction, though its net effect is context-dependent.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits fatty acid oxidation via repression of",
+    "object": "PPARα",
+    "context": "SIRT4 represses PPARalpha signaling and destabilizes mitochondrial trifunctional protein alpha (MTPalpha) in hepatocytes, shifting metabolism away from mitochondrial fatty-acid utilization toward anabolic lipid conservation.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "is a lipoamidase regulating",
+    "object": "Pyruvate Dehydrogenase",
+    "context": "Beyond ADP-ribosylating GDH, SIRT4 is a lipoamidase that regulates pyruvate dehydrogenase complex activity, broadening its control of mitochondrial substrate oxidation and metabolic flexibility.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "NAMPT",
+    "predicate": "is the rate-limiting enzyme of",
+    "object": "NAD+ Salvage Pathway",
+    "context": "NAMPT converts nicotinamide to NMN in the rate-limiting, energetically costly step of the NAD+ salvage pathway; its activity determines how much NAD+ precursor is available to fuel sirtuins and other NAD+-consuming enzymes such as CD38 and PARPs.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "NNMT",
+    "predicate": "methylates nicotinamide, diverting it from",
+    "object": "NAD+ Salvage Pathway",
+    "context": "Nicotinamide N-methyltransferase (NNMT) methylates nicotinamide to 1-methylnicotinamide, withdrawing it from the NAMPT-dependent salvage pathway and thereby limiting NAD+ biosynthesis and indirectly modulating sirtuin activity.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "NAD+",
+    "predicate": "is regenerated through",
+    "object": "NAD+ Salvage Pathway",
+    "context": "NAD+ is efficiently regenerated through salvage pathways that recycle nicotinamide (a byproduct of sirtuin and other NAD+-consuming reactions) back to NMN via NAMPT and then to NAD+ via NMNATs, maintaining the pool that sirtuins depend on as obligate co-substrate.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "induces (via PPARγ deacetylation)",
+    "object": "FGF21",
+    "context": "SIRT1 deacetylates PPARgamma, inducing expression of FGF21 among thermogenic and browning genes, promoting adipose browning and energy expenditure consistent with its anti-obesity actions.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "regulates thermogenesis in",
+    "object": "Brown Adipose Tissue",
+    "context": "SIRT6 supports thermogenesis of brown and beige adipose tissue (cold-inducible), opposing SIRT7's suppressive role and contributing to energy expenditure and protection from obesity.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "controls brown fat thermogenesis upstream of",
+    "object": "UCP1",
+    "context": "SIRT3 controls brown-adipose thermogenesis by deacetylating pathways upstream of UCP1, maintaining mitochondrial function and adaptive heat production.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "counterbalance anabolic",
+    "object": "mTOR signaling",
+    "context": "Nutrient abundance activates mTOR, promoting anabolism and suppressing autophagy, whereas sirtuins counterbalance this state by promoting catabolic pathways that restore metabolic equilibrium, framing sirtuins and mTOR as opposed nutrient-sensing axes in metabolic disease.",
+    "confidence": "0.95",
+    "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md"
   }
 ]

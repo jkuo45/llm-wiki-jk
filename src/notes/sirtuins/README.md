@@ -21,6 +21,7 @@ updated: 2026-08-03
 | [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics\|SIRT1: Protein Roles at the Nexus (Chaqour 2026)]] | Review positioning SIRT1 as a context-dependent "shapeshifter" NAD⁺-deacetylase linking metabolism, stress, and disease (cardio, metabolic, neurovascular, oncogenic) |
 | [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound\|Berrougui et al., Atherosclerosis 2009]] | Resveratrol inhibits lipoprotein oxidation and enhances cholesterol efflux via ABCA1; protects HDL3 functionality; atheroprotective dual mechanism |
 | [[_document_ - Sirtuins Guardians of Mammalian Healthspan\|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]] | Trends Genet review: SIRT1 (BRASTO ~11%), SIRT3 (SNPs, SOD2/IDH2), SIRT6 (male lifespan 14.5%/9.9%) as guardians of healthspan across neurodegeneration, metabolism, inflammation, cancer, and CVD |
+| [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis\|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]] | Diabetes/Metabolism Research and Reviews systems review: compartmentalised NAD+-dependent sirtuin network linking NAD+ metabolism, mitochondrial function, and metabolic homoeostasis across obesity, T2DM, MASLD, and cardiometabolic disease |
 
 ## Entity Notes
 

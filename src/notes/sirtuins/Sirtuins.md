@@ -208,6 +208,7 @@ List of documents that mention this entity
 - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
   - NAD+ depletion compromises sirtuin-dependent resilience, particularly SIRT1 and SIRT3, weakening antioxidant defenses and mitochondrial detoxification. Reduced sirtuin activity enforces MiDAS and contributes to inflammaging.
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
 - [[SIRT2]]: - **Class I**: SIRT1, SIRT2, and [[SIRT3]] (possess robust deacetylase activity).
@@ -241,6 +242,8 @@ List of documents that mention this entity
 - [[CtIP]]: DNA repair factor deacetylated by SIRT6
 - [[SREBP2]]: Lipogenic transcription factor negatively regulated by SIRT6
 
+- [[NAD+ Salvage Pathway]]: Sirtuin activity is gated by NAD+ salvage (NAMPT) and diverted by NNMT methylation of nicotinamide
+- [[NNMT]]: NNMT consumption of nicotinamide indirectly modulates the sirtuin network
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NF-κB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]

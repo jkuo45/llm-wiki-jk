@@ -99,7 +99,7 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 - **Elevated Protein Levels**: Weakened interaction with [[Vimentin]] via the N308K mutation, independent of [[USP10]], leading to increased SIRT6 abundance in both nuclear and cytoplasmic compartments.
 - **Altered Enzymatic Activities**: Reduced deacetylase activity (increased H3K9ac, H3K18ac, H3K27ac) and enhanced mono-[[ADP-ribosylation|ADP-ribosyltransferase (mADPr)]] activity.
 - **Cellular Stress Resistance**: Delayed replicative senescence, resistance to [[Progerin]]-induced stress, preservation of [[DNA Repair]] gene expression, and suppression of [[LINE-1]] derepression.
-- **Translational Potential**: [[AAV]]-mediated delivery of CentSIRT6 or pharmacological activation with [[Fucoidan]]-FV attenuates [[LINE-1]] reactivation in [[Hutchinson-Gilford Progeria Syndrome|HGPS]] fibroblasts.
+- **Translational Potential**: AAV-mediated delivery of CentSIRT6 or pharmacological activation with [[Fucoidan]]-FV attenuates [[LINE-1]] reactivation in [[Hutchinson-Gilford Progeria Syndrome|HGPS]] fibroblasts.
 
 ### Sirtuin Modulators targeting SIRT6
 

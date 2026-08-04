@@ -4,7 +4,7 @@ description: SIRT4 (Sirtuin 4) is a mitochondrial sirtuin classified in phylogen
   Class II, which includes sirtuins from bacteria, insects, nematodes, mould fungus,
   and protozoans — making SIRT4 and Class II...
 created: 2026-07-02
-updated: 2026-07-05
+updated: 2026-08-03
 tags:
   - protein
   - nad+
@@ -95,9 +95,10 @@ List of documents that mention this entity
     - SIRT4 has ADP-ribose transferase activity and can down-regulate Glutamate Dehydrogenase (GDH) activity in β cells, thereby reducing insulin secretion response.
 
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
-- [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles. Together they form the [[SIRT3/SIRT4 Ratio]], a mitochondrial redox dial
+- [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles. Together they form the SIRT3/SIRT4 ratio, a mitochondrial redox dial
 - [[SIRT5]] — fellow mitochondrial sirtuin; Class III (more ancient)
 - [[SIRT6]] — both are primary mono-ADP-ribosyl transferases among mammalian sirtuins
 - [[NAD+]] — required co-substrate
@@ -107,6 +108,9 @@ List of documents that mention this entity
 - [[MTPα]] — SIRT4 inhibits this fatty acid oxidation enzyme
 - [[mTOR]] — SIRT4 suppresses mTOR signalling via metabolic regulation
 
+- [[PPARα]]: SIRT4 represses PPARα signaling, shifting metabolism away from mitochondrial fatty-acid oxidation
+- [[Pyruvate Dehydrogenase|PDH]]: SIRT4 is a lipoamidase regulating PDH complex activity
+- [[Mitochondrial Trifunctional Protein α|MTPα]]: SIRT4 destabilizes MTPα to inhibit mitochondrial fatty acid oxidation
 ## Linking Summary
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[SIRT3]], [[SIRT5]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[MTPα]], [[mTOR]]
 - Suggested new entity notes to create: [[Glutamate Dehydrogenase (GDH)]], [[ADP-ribosylation]], [[MTPα]]

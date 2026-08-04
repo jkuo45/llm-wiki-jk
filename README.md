@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 28_JUL_2026 | 28 | 1444 | 850,025 | 7.12 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 27_JUL_2026 | 19 | 263 | 200,657 | 2.66 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 03_AUG_2026 | 30 | 1530 | 901,138 | 7.80 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 27_JUL_2026 | 19 | 262 | 200,369 | 2.24 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 25_JUL_2026 | 12 | 233 | 180,961 | 1.54 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 28_JUL_2026 | 10 | 262 | 228,945 | 2.39 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 25_JUL_2026 | 2 | 34 | 20,598 | 0.27 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 28_JUL_2026 | 11 | 269 | 236,351 | 2.44 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_JUL_2026 | 2 | 34 | 20,917 | 0.27 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 25_JUL_2026 | 9 | 195 | 198,594 | 1.67 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 25_JUL_2026 | 1 | 65 | 68,196 | 0.89 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 27_JUL_2026 | 15 | 47 | 144,385 | 1.80 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 26_JUL_2026 | 10 | 128 | 196,575 | 1.76 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 31_JUL_2026 | 15 | 47 | 144,766 | 1.80 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 03_AUG_2026 | 11 | 129 | 213,651 | 1.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 28_JUL_2026 | **108** | **2744** | **2,142,613** | **20.71 MB** |
+| **subtotal** | 31_JUL_2026 | **112** | **2837** | **2,218,620** | **21.23 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -100,10 +100,15 @@
 ## Documents
 
 <details>
-<summary><strong>Documents (108 total)</strong> — click to expand</summary>
+<summary><strong>Documents (112 total)</strong> — click to expand</summary>
 
+- `sirtuins`: [Sirtuins Guardians of Mammalian Healthspan](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20Guardians%20of%20Mammalian%20Healthspan.md) [[src/notes/sirtuins/_document_ - Sirtuins Guardians of Mammalian Healthspan.md|wiki]] (03_AUG_2026 04:44 PM PDT)
+- `_link`: [Mitochondrial metabolism and epigenetic crosstalk drive SASP](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Mitochondrial%20metabolism%20and%20epigenetic%20crosstalk%20drive%20SASP.md) [[src/notes/_link/_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md|wiki]] (31_JUL_2026 06:25 PM PDT)
+- `_link`: [The-hallmarks-of-protein-and-amino-acid-restriction](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20The-hallmarks-of-protein-and-amino-acid-restriction.md) [[src/notes/_link/_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md|wiki]] (31_JUL_2026 06:25 PM PDT)
+- `_link`: [speakman2003_Resting Metabolic Rate](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20speakman2003_Resting%20Metabolic%20Rate.md) [[src/notes/_link/_document_ - speakman2003_Resting Metabolic Rate.md|wiki]] (31_JUL_2026 06:25 PM PDT)
+- `_link`: [Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Mitochondrial%20Drivers%20Stem%20Cell%20Aging%20Inflammaging%20Bautista%202026.md) [[src/notes/_link/_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md|wiki]] (31_JUL_2026 09:32 AM PDT)
+- `cancer`: [Fenbendazole as a Potential Anticancer Drug](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/cancer/_document_%20-%20Fenbendazole%20as%20a%20Potential%20Anticancer%20Drug.md) [[src/notes/cancer/_document_ - Fenbendazole as a Potential Anticancer Drug.md|wiki]] (28_JUL_2026 03:35 PM PDT)
 - `senescence`: [The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence%20orchestrating%20SASP%20expression.md) [[src/notes/senescence/_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md|wiki]] (28_JUL_2026 10:20 AM PDT)
-- `_link`: [Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Mitochondrial%20Drivers%20Stem%20Cell%20Aging%20Inflammaging%20Bautista%202026.md) [[src/notes/_link/_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md|wiki]] (26_JUL_2026 12:55 AM PDT)
 - `cancer`: [Chemotherapy NAD+ Loss Pöllänen 2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/cancer/_document_%20-%20Chemotherapy%20NAD%2B%20Loss%20P%C3%B6ll%C3%A4nen%202026.md) [[src/notes/cancer/_document_ - Chemotherapy NAD+ Loss Pöllänen 2026.md|wiki]] (26_JUL_2026 12:55 AM PDT)
 - `_link`: [Thymic Rejuvenation and Aging](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Thymic%20Rejuvenation%20and%20Aging.md) [[src/notes/_link/_document_ - Thymic Rejuvenation and Aging.md|wiki]] (26_JUL_2026 12:19 AM PDT)
 - `cancer`: [Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cell...](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/cancer/_document_%20-%20Complex%20I%20drives%20glutamine-dependent%20TCA%20cycle%20to%20support%20viability%20of%20MYChigh%20breast%20cancer%20cells%20%28NAD%2B%29.md) [[src/notes/cancer/_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+).md|wiki]] (25_JUL_2026 10:05 PM PDT)
@@ -161,7 +166,6 @@
 - `_link`: [biochemical_basis_hormesis_2026.04.20.719646v1.full](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[src/notes/_link/_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - `_link`: [methylene blue and aminguanidine](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20methylene%20blue%20and%20aminguanidine.md) [[src/notes/_link/_document_ - methylene blue and aminguanidine.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - `_link`: [mitohormesis, heart rate variability](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20mitohormesis%2C%20heart%20rate%20variability.md) [[src/notes/_link/_document_ - mitohormesis, heart rate variability.md|wiki]] (21_JUL_2026 07:57 PM PDT)
-- `_link`: [speakman2003_Resting Metabolic Rate](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20speakman2003_Resting%20Metabolic%20Rate.md) [[src/notes/_link/_document_ - speakman2003_Resting Metabolic Rate.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - `adrenochrome`: [Adrenochrome (pubchem)](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/adrenochrome/_document_%20-%20Adrenochrome%20%28pubchem%29.md) [[src/notes/adrenochrome/_document_ - Adrenochrome (pubchem).md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - `adrenochrome`: [Aminoguanidine (pubchem)](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/adrenochrome/_document_%20-%20Aminoguanidine%20%28pubchem%29.md) [[src/notes/adrenochrome/_document_ - Aminoguanidine (pubchem).md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - `adrenochrome`: [Methemoglobin and Methemoglobinemia](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/adrenochrome/_document_%20-%20Methemoglobin%20and%20Methemoglobinemia.md) [[src/notes/adrenochrome/_document_ - Methemoglobin and Methemoglobinemia.md|wiki]] (21_JUL_2026 07:57 PM PDT)
@@ -220,10 +224,10 @@
 <details>
 <summary><strong>Tasks (65 total)</strong> — click to expand</summary>
 
-- [task_output_ivermectin_yamanaka_aging_28_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_yamanaka_aging_28_JUL_2026.md) [[src/tasks/task_output_ivermectin_yamanaka_aging_28_JUL_2026.md|wiki]] (28_JUL_2026 01:02 PM PDT)
+- [task_output_comt_fisetin_senolytic_09_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md) [[src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md|wiki]] (29_JUL_2026 09:21 PM PDT)
+- [task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md|wiki]] (28_JUL_2026 03:35 PM PDT)
 - [task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md|wiki]] (28_JUL_2026 01:01 PM PDT)
 - [task_output_mitochondria_fusion_fission_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md) [[src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md|wiki]] (27_JUL_2026 10:35 PM PDT)
-- [task_output_comt_fisetin_senolytic_09_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md) [[src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md|wiki]] (27_JUL_2026 01:48 PM PDT)
 - [task_output_dj1_glycation_trace_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md) [[src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md|wiki]] (27_JUL_2026 01:32 PM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (27_JUL_2026 09:33 AM PDT)
 - [task_output_autophagy_mammals_longevity_22_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md) [[src/tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md|wiki]] (23_JUL_2026 03:27 PM PDT)

@@ -136,6 +136,7 @@ List of documents that mention this entity
     - SIRT3 deacetylates OPA1 (Lys926/Lys931) to activate fusion during stress.
 
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
 - [[SIRT1]] — cytoplasmic counterpart; SIRT1 deacetylates AceCS1 (cytoplasmic) while SIRT3 deacetylates AceCS2 (mitochondrial)
@@ -158,6 +159,7 @@ List of documents that mention this entity
 
 
 
+- [[Pyruvate Dehydrogenase|PDH]]: SIRT3 deacetylates PDH E1α, maintaining glucose oxidation and metabolic flexibility in muscle
 ## Linking Summary
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue|Brown Adipose Tissue (BAT)]]

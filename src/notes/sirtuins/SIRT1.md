@@ -33,7 +33,7 @@ Sirt1 couples lysine deacetylation to [[NAD+|NAD^+]] hydrolysis, generating [[Ni
 
 ## Role in Aging and Longevity
 
-Sirt1 levels decline in multiple tissues with age, coinciding with [[NAD+|NAD^+]] depletion. Overexpression of Sirt1 in mice (but not universally across all tissues) extends healthspan and delays the onset of age-related diseases, including [[Cardiovascular Disease|cardiovascular disease]], [[type 2 diabetes]], and [[Neurodegenerative Diseases|neurodegeneration]]. Pharmacological activation of Sirt1 by small molecules (e.g., [[Resveratrol]], [[SRT1720]]) mimics [[Caloric Restriction|caloric restriction]] phenotypes, though specificity and off-target effects remain debated.
+Sirt1 levels decline in multiple tissues with age, coinciding with [[NAD+|NAD^+]] depletion. Overexpression of Sirt1 in mice (but not universally across all tissues) extends healthspan and delays the onset of age-related diseases, including [[Cardiovascular Disease|cardiovascular disease]], [[Type 2 Diabetes Mellitus|type 2 diabetes]], and [[Neurodegenerative Diseases|neurodegeneration]]. Pharmacological activation of Sirt1 by small molecules (e.g., [[Resveratrol]], [[SRT1720]]) mimics [[Caloric Restriction|caloric restriction]] phenotypes, though specificity and off-target effects remain debated.
 
 ## Experimental Considerations
 
@@ -149,7 +149,7 @@ List of documents that mention this entity
 - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
   - Review of SIRT1 as a guardian of mammalian healthspan: BRASTO brain-specific overexpression extends lifespan ~11% via hypothalamic OX2R; SIRT1 attenuates AD/PD/HD, metabolic dysfunction, inflammation, and cardiac hypertrophy; NAD+ decline limits SIRT1/TFAM function.
 
-- [[_document_ - MRR - mitohormesis|mitohormesis]]
+- mitohormesis
   - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
 
 - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
@@ -188,6 +188,7 @@ List of documents that mention this entity
 - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
   - Chaqour (2026) positions SIRT1 as a context-dependent 'shapeshifter' linking metabolism, stress, and disease across cardiovascular, metabolic, neurovascular, and oncogenic domains via deacetylation of >40 substrates.
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
 - [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
@@ -227,6 +228,9 @@ Linking Summary
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[NMNAT]], [[MEF2D]], [[PML]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC-1α]], [[SIRT1]] ↔ [[Caloric Restriction]]
 
+- [[IRS-2]]: SIRT1 deacetylates IRS-2, enabling efficient tyrosine phosphorylation and PI3K–Akt insulin signaling
+- [[CRTC2]]: SIRT1 deacetylates CRTC2 to tune hepatic gluconeogenesis under fasting
+- [[eNOS]]: SIRT1 deacetylates eNOS, enhancing NO bioavailability and protecting endothelial function
 ## Linking Summary
 
 - New links added: [[Atg5]], [[Atg7]], [[Atg8]], [[LC3]], [[LC3B]], [[BNIP3]], [[GABARAPL1]]
@@ -305,7 +309,7 @@ SIRT1 sits at the intersection of nutrient/energy sensing and the autophagic mac
 - **[[FOXO3a]]** — deacetylation activates FOXO3a → transcription of [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[Atg]] genes and [[Manganese superoxide dismutase|SOD2]] → autophagy, mitophagy, and antioxidant defense.
 - **[[TFEB]]** — SIRT1 deacetylates TFEB (notably at K116), enhancing its nuclear translocation and transcriptional activity to drive the [[Coordinated Lysosomal Expression and Regulation|CLEAR]] autophagic/lysosomal program.
 - **Core autophagy machinery** — SIRT1 promotes expression/activity of [[Atg5]], [[Atg7]], [[Atg8]]/[[LC3]] and [[Beclin1]], enhancing autophagosome formation and flux.
-- **[[p62/SQSTM1]]** — modulated to support cargo recognition and clearance.
+- **[[Autophagy|p62/SQSTM1]]** — modulated to support cargo recognition and clearance.
 - **[[PGC-1α]]** — deacetylation activates [[Mitochondrial Biogenesis]]; coupled with mitophagy this enforces mitochondrial quality control.
 - **[[NF-κB|NF-κB (RelA/p65)]]** — deacetylation suppresses inflammatory signaling, indirectly favoring autophagic flux.
 - **mTOR crosstalk** — via the TSC/AMPK axis, SIRT1 indirectly opposes [[mTORC1]], sustaining autophagy.
@@ -328,7 +332,7 @@ SIRT1 deacetylates a broad spectrum of non-histone substrates beyond its canonic
 
 ## Activation by NAD⁺ Precursors and Resveratrol
 
-SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stilbenoid]], directly binds SIRT1, enhancing its affinity for both acetylated substrate and NAD⁺, leading to ~8-fold activation of deacetylase activity. However, the in vivo activation mechanism of resveratrol remains controversial, with evidence for indirect activation via [[AMPK]] and [[PDE]] inhibition. NAD⁺ precursors [[NMN]] and [[NR]] elevate cellular NAD⁺ levels, relieving nicotinamide-mediated inhibition and driving SIRT1-dependent deacetylation. [[Sirtuin activating compounds]] (STACs), including [[SRT1720]] and [[SRT2104]], demonstrate SIRT1-dependent metabolic benefits in preclinical models though clinical translation has been challenging.
+SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stilbenoid]], directly binds SIRT1, enhancing its affinity for both acetylated substrate and NAD⁺, leading to ~8-fold activation of deacetylase activity. However, the in vivo activation mechanism of resveratrol remains controversial, with evidence for indirect activation via [[AMPK]] and [[PDE]] inhibition. NAD⁺ precursors [[NMN]] and [[Nicotinamide Riboside|NR]] elevate cellular NAD⁺ levels, relieving nicotinamide-mediated inhibition and driving SIRT1-dependent deacetylation. [[Sirtuin activating compounds]] (STACs), including [[SRT1720]] and [[SRT2104]], demonstrate SIRT1-dependent metabolic benefits in preclinical models though clinical translation has been challenging.
 
 ## Role in Mitochondrial Function and Stress Resistance
 
@@ -336,7 +340,7 @@ SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of 
 
 ## Connection to Mitohormesis and Longevity
 
-In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into nuclear adaptive responses. SIRT1 activity is potentiated by [[_document_ - Mitohormetic Redox-Relay]] molecules, including [[NAD+]] as a sentinel of energetic stress. The SIRT1-PGC1α axis coordinates the antioxidant and mitochondrial biogenesis programs that define the mitohormetic phenotype. [[Caloric Restriction]] extends lifespan in part through SIRT1 activation, and SIRT1 overexpression extends healthspan in rodent models. SIRT1-mediated deacetylation of [[p53]] and [[FOXO]] factors suppresses apoptosis in favor of repair and stress resistance, a trade-off that is beneficial under mild stress but may promote tumorigenesis under chronic activation. The age-related decline in NAD⁺ levels and consequent SIRT1 hypoactivity is hypothesized to be a key driver of mitochondrial dysfunction, [[Inflammation|inflammaging]], and loss of proteostasis in aging tissues.
+In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into nuclear adaptive responses. SIRT1 activity is potentiated by Mitohormetic Redox-Relay molecules, including [[NAD+]] as a sentinel of energetic stress. The SIRT1-PGC1α axis coordinates the antioxidant and mitochondrial biogenesis programs that define the mitohormetic phenotype. [[Caloric Restriction]] extends lifespan in part through SIRT1 activation, and SIRT1 overexpression extends healthspan in rodent models. SIRT1-mediated deacetylation of [[p53]] and [[FOXO]] factors suppresses apoptosis in favor of repair and stress resistance, a trade-off that is beneficial under mild stress but may promote tumorigenesis under chronic activation. The age-related decline in NAD⁺ levels and consequent SIRT1 hypoactivity is hypothesized to be a key driver of mitochondrial dysfunction, [[Inflammation|inflammaging]], and loss of proteostasis in aging tissues.
 
 ---
 
