@@ -218,6 +218,131 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     )
 
 
+# ------------------------------------------------------------------
+# Wiki context export (for three-graph.html Source/Context node panels)
+# ------------------------------------------------------------------
+
+GITHUB_BASE = "https://github.com/jkuo45/llm-wiki-jk/blob/dev/"
+NOTES_DIR = ROOT / "src" / "notes"
+TARGET_WORDS = 650
+MAX_WORDS = 700
+
+
+def _strip_frontmatter(text: str) -> str:
+    return re.sub(r"^---.*?---\s*", "", text, count=1, flags=re.DOTALL).strip()
+
+
+def _strip_markdown(text: str) -> str:
+    """Remove all markdown/obsidian syntax, leaving plain prose."""
+    s = text
+    # Wiki links [[Link]] or [[Link|Display]] → Display or Link
+    # Also handles malformed [[A], [B]] patterns
+    s = re.sub(r"\[\[(.+?)\]\]",
+               lambda m: m.group(1).split("|", 1)[1] if "|" in m.group(1) else m.group(1), s)
+    # Cleanup any stray ]] or [[ left by malformed/truncated links
+    s = s.replace("]]", "")
+    s = s.replace("[[", "")
+    # Stray single-bracket links [Entity] that look like wiki links
+    s = re.sub(r"\[([A-Z][^\]]{2,}?)\](?!\()", r"\1", s)
+    # Footnotes [^1]
+    s = re.sub(r"\[\^\d+\]", "", s)
+    # Images ![alt](url)
+    s = re.sub(r"!\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    # Inline links [text](url) → text
+    s = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", s)
+    # Headings  ## Foo → Foo
+    s = re.sub(r"^#{1,6}\s+", "", s, flags=re.MULTILINE)
+    # Bold / italic variants (DOTALL to match across newlines)
+    s = re.sub(r"\*\*\*(.+?)\*\*\*", r"\1", s, flags=re.DOTALL)
+    s = re.sub(r"___(.+?)___", r"\1", s, flags=re.DOTALL)
+    s = re.sub(r"\*\*(.+?)\*\*", r"\1", s, flags=re.DOTALL)
+    s = re.sub(r"__(.+?)__", r"\1", s, flags=re.DOTALL)
+    s = re.sub(r"\*(.+?)\*", r"\1", s, flags=re.DOTALL)
+    s = re.sub(r"_(.+?)_", r"\1", s, flags=re.DOTALL)
+    # Strikethrough
+    s = re.sub(r"~~(.+?)~~", r"\1", s, flags=re.DOTALL)
+    # Blockquotes  > text → text
+    s = re.sub(r"^>\s?", "", s, flags=re.MULTILINE)
+    # Horizontal rules
+    s = re.sub(r"^[-*_]{3,}\s*$", "", s, flags=re.MULTILINE)
+    # Table syntax  | col | col |  →  col  col
+    s = re.sub(r"^\|", "", s, flags=re.MULTILINE)
+    s = re.sub(r"\|$", "", s, flags=re.MULTILINE)
+    s = re.sub(r"\|", "  ", s)
+    # Unordered list markers
+    s = re.sub(r"^[\s]*[-*+]\s+", "", s, flags=re.MULTILINE)
+    # Ordered list markers
+    s = re.sub(r"^[\s]*\d+\.\s+", "", s, flags=re.MULTILINE)
+    # Inline code
+    s = re.sub(r"`([^`]+)`", r"\1", s)
+    # HTML tags (sub, sup, br, span, etc.)
+    s = re.sub(r"<[^>]+>", "", s)
+    # Collapse blank lines
+    s = re.sub(r"\n{3,}", "\n\n", s)
+    return s.strip()
+
+
+def _truncate_words(text: str, target: int = TARGET_WORDS, hard_max: int = MAX_WORDS) -> str:
+    words = text.split()
+    if len(words) <= hard_max:
+        return text
+    truncated = " ".join(words[:target])
+    # Cut at last sentence boundary
+    cut = max(truncated.rfind("."), truncated.rfind("!"), truncated.rfind("?"))
+    if cut > target * 0.5:
+        truncated = truncated[: cut + 1]
+    return truncated
+
+
+def _build_note_index() -> dict[str, str]:
+    """Map lowercase note filenames (without .md) → relative path from repo root."""
+    index: dict[str, str] = {}
+    for md_file in NOTES_DIR.rglob("*.md"):
+        if md_file.stem == md_file.parent.name:
+            continue
+        index[md_file.stem.lower()] = md_file.relative_to(ROOT).as_posix()
+    return index
+
+
+def export_wiki_context(gp: Path, node_ids: set[str]) -> None:
+    """Write wiki-context.json mapping node IDs to wiki note content + source URLs."""
+    note_index = _build_note_index()
+    # Load graph.json to get node labels (canonical names)
+    graph = json.loads((gp / "graph.json").read_text(encoding="utf-8"))
+    id_to_label = {n["id"]: n["label"] for n in graph["nodes"]}
+
+    ctx: dict[str, dict] = {}
+    matched = 0
+    for nid in node_ids:
+        label = id_to_label.get(nid, "")
+        if not label:
+            continue
+        rel_path = note_index.get(label.lower())
+        if not rel_path:
+            continue
+        full_path = ROOT / rel_path
+        if not full_path.exists():
+            continue
+        try:
+            raw = full_path.read_text(encoding="utf-8")
+        except Exception:  # noqa: BLE001
+            continue
+        body = _strip_frontmatter(raw)
+        body = _strip_markdown(body)
+        ctx[nid] = {
+            "wiki_path": rel_path,
+            "wiki_url": GITHUB_BASE + rel_path,
+            "description": _truncate_words(body),
+        }
+        matched += 1
+
+    (gp / "wiki-context.json").write_text(
+        json.dumps(ctx, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    not_found = len(node_ids) - matched
+    print(f"Wiki context: {matched} nodes matched, {not_found} not found")
+
+
 def main() -> int:
     topics = sorted(str(p) for p in ROOT.glob("src/**/_triples.json"))
     if not topics:
@@ -373,6 +498,11 @@ def main() -> int:
 
     # --- export three-graph JSON (nodes.json, edges.json, legend.json) ---
     export_three_json(GP, new_labels)
+
+    # --- export wiki context for three-graph.html node info panels ---
+    node_ids = {n["id"] for n in G.nodes()}
+    export_wiki_context(GP, node_ids)
+
     return 0
 
 

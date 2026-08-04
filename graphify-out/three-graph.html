@@ -46,7 +46,7 @@
   #trace-key-nodes { margin-top: 8px; }
   .trace-key-node { display: inline-block; padding: 2px 7px; margin: 2px; border-radius: 3px; font-size: 11px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
   .trace-key-node:hover { border-color: #4E79A7; color: #e0e0e0; }
-  #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; }
+  #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; max-height: 45vh; overflow-y: auto; }
   #info-panel h3 { font-size: 12px; color: #aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
   #info-content { font-size: 13px; color: #ccc; line-height: 1.6; }
   #info-content .field { margin-bottom: 5px; }
@@ -204,11 +204,19 @@ async function loadData() {
   } catch (e) {
     console.warn('Could not load manifest:', e);
   }
+
+  let WIKI_CONTEXT = {};
+  try {
+    const wikiResp = await fetch('wiki-context.json?v=' + Date.now());
+    WIKI_CONTEXT = await wikiResp.json();
+  } catch (e) {
+    console.warn('Could not load wiki-context:', e);
+  }
   
-  return { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST };
+  return { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, WIKI_CONTEXT };
 }
 
-const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST } = await loadData();
+const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, WIKI_CONTEXT } = await loadData();
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 const fileToPath = new Map();
@@ -1239,19 +1247,38 @@ function showInfo(nodeId) {
   }).join('');
   
   const description = descriptionMap.get(nodeId);
+  const wikiCtx = WIKI_CONTEXT[nodeId] || null;
   
   const zhTWName = TRANSLATIONS[n.label] || '';
   const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
   
   const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
   const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
+
+  const wikiLink = wikiCtx
+    ? `<a href="${esc(wikiCtx.wiki_url)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(wikiCtx.wiki_path.split('/').pop())} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    : '—';
+
+  const wikiDesc = wikiCtx && wikiCtx.description
+    ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context (node):</span><br><div class="wiki-context-text" style="font-size:12px;color:#bbb;line-height:1.6;max-height:260px;overflow-y:auto;margin-top:4px">${esc(wikiCtx.description.slice(0, 2800))}${wikiCtx.description.length > 2800 ? '…' : ''}</div></div>`
+    : '';
+
+  const edgeSourceLink = n.source_file
+    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(n.source_file.split('/').pop())} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    : '-';
+
+  const edgeDesc = description
+    ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context (edge):</span><br><div style="font-size:12px;color:#bbb;line-height:1.6;max-height:160px;overflow-y:auto;margin-top:4px">${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:11px">[read more]</a>` : ''}</div></div>`
+    : '';
   
   document.getElementById('info-content').innerHTML = `
     <div class="field"><b>${esc(displayName)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
     <div class="field">Community: ${esc(displayCommunity)}</div>
-    <div class="field">Source: ${n.source_file ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(n.source_file.split('/').pop())} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>` : '-'}</div>
-    ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:11px">[read more]</a>` : ''}</div>` : ''}
+    <div class="field"><span style="color:#aaa;font-size:11px">Source (node):</span> ${wikiLink}</div>
+    ${wikiDesc}
+    <div class="field" style="margin-top:6px;border-top:1px solid #2a2a4e;padding-top:6px"><span style="color:#aaa;font-size:11px">Source (edge):</span> ${edgeSourceLink}</div>
+    ${edgeDesc}
     <div class="field">Degree: ${n.degree}</div>
     ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;
