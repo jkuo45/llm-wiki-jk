@@ -6,97 +6,107 @@
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
-  #graph { flex: 1; position: relative; min-width: 0; overflow: hidden; }
+  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+  #graph { flex: 1; position: relative; min-width: 0; min-height: 0; overflow: hidden; }
   
-  #sidebar { width: 300px; background: #1a1a2e; border-left: 1px solid #2a2a4e; display: flex; flex-direction: column; overflow: hidden; flex-shrink: 0; }
+  #sidebar { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; background: #1a1a2e; display: flex; flex-direction: column; overflow: hidden; z-index: 100; transform: translateY(100%); transition: transform 0.3s ease; }
+  #sidebar.open { transform: translateY(0); }
   
-  #sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 44px; }
-  #sidebar-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
-  #sidebar-close { background: none; border: none; color: #888; font-size: 20px; cursor: pointer; padding: 0 4px; line-height: 1; transition: color 0.15s; }
+  #sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 56px; }
+  #sidebar-header span { font-size: 16px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #sidebar-close { background: none; border: none; color: #888; font-size: 28px; cursor: pointer; padding: 4px 8px; line-height: 1; transition: color 0.15s; }
   #sidebar-close:hover { color: #e0e0e0; }
   
-  #search-wrap { padding: 12px; border-bottom: 1px solid #2a2a4e; }
-  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; }
+  #search-wrap { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; }
+  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 14px 16px; border-radius: 8px; font-size: 18px; outline: none; }
   #search:focus { border-color: #4E79A7; }
-  #search-results { max-height: 200px; overflow-y: auto; padding: 4px 12px; border-bottom: 1px solid #2a2a4e; display: none; }
-  .search-item { padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #search-results { max-height: 40vh; overflow-y: auto; padding: 8px 20px; border-bottom: 1px solid #2a2a4e; display: none; }
+  .search-item { padding: 12px 14px; cursor: pointer; border-radius: 6px; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .search-item:hover { background: #2a2a4e; }
 
   /* Trace panel */
   #trace-panel { border-bottom: 1px solid #2a2a4e; padding: 0; }
-  #trace-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; cursor: pointer; user-select: none; }
+  #trace-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; cursor: pointer; user-select: none; }
   #trace-header:hover { background: #16162b; }
-  #trace-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
-  #trace-header .chevron { color: #666; font-size: 10px; transition: transform 0.2s; }
+  #trace-header span { font-size: 16px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #trace-header .chevron { color: #666; font-size: 14px; transition: transform 0.2s; }
   #trace-header .chevron.open { transform: rotate(90deg); }
-  #trace-body { padding: 0 14px 12px; display: none; }
+  #trace-body { padding: 0 20px 16px; display: none; }
   #trace-body.open { display: block; }
-  #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; cursor: pointer; }
+  #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 14px 16px; border-radius: 8px; font-size: 17px; outline: none; cursor: pointer; }
   #trace-select:focus { border-color: #4E79A7; }
-  #trace-summary { margin-top: 10px; font-size: 12px; color: #bbb; line-height: 1.6; max-height: 120px; overflow-y: auto; }
-  #trace-routes { margin-top: 8px; }
-  .trace-route { padding: 6px 8px; margin: 3px 0; border-radius: 4px; font-size: 12px; cursor: pointer; border-left: 3px solid #4E79A7; background: rgba(78,121,167,0.08); transition: background 0.15s; }
+  #trace-summary { margin-top: 12px; font-size: 15px; color: #bbb; line-height: 1.7; max-height: 30vh; overflow-y: auto; }
+  #trace-routes { margin-top: 10px; }
+  .trace-route { padding: 12px 14px; margin: 6px 0; border-radius: 6px; font-size: 15px; cursor: pointer; border-left: 4px solid #4E79A7; background: rgba(78,121,167,0.08); transition: background 0.15s; }
   .trace-route:hover { background: rgba(78,121,167,0.18); }
   .trace-route.active { background: rgba(78,121,167,0.25); border-left-color: #7cb3d4; }
   .trace-route-name { font-weight: 600; color: #ccc; }
-  .trace-route-hops { color: #666; font-size: 10px; margin-left: 6px; }
-  #trace-clear { margin-top: 8px; width: 100%; background: transparent; border: 1px solid #3a3a5e; color: #888; padding: 6px; border-radius: 4px; font-size: 11px; cursor: pointer; transition: all 0.15s; display: none; }
+  .trace-route-hops { color: #666; font-size: 13px; margin-left: 8px; }
+  #trace-clear { margin-top: 10px; width: 100%; background: transparent; border: 1px solid #3a3a5e; color: #888; padding: 12px; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.15s; display: none; }
   #trace-clear:hover { border-color: #4E79A7; color: #e0e0e0; }
-  #trace-key-nodes { margin-top: 8px; }
-  .trace-key-node { display: inline-block; padding: 2px 7px; margin: 2px; border-radius: 3px; font-size: 11px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
+  #trace-key-nodes { margin-top: 10px; }
+  .trace-key-node { display: inline-block; padding: 6px 12px; margin: 4px; border-radius: 4px; font-size: 14px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
   .trace-key-node:hover { border-color: #4E79A7; color: #e0e0e0; }
-  #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; max-height: 45vh; overflow-y: auto; }
-  #info-panel h3 { font-size: 12px; color: #aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
-  #info-content { font-size: 13px; color: #ccc; line-height: 1.6; }
-  #info-content .field { margin-bottom: 5px; }
-  #info-content .field b { color: #e0e0e0; }
+  #info-panel { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; min-height: 120px; max-height: 40vh; overflow-y: auto; }
+  #info-panel h3 { font-size: 15px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  #info-content { font-size: 16px; color: #ccc; line-height: 1.7; }
+  #info-content .field { margin-bottom: 7px; }
+  #info-content .field b { color: #e0e0e0; font-size: 18px; }
   #info-content .empty { color: #555; font-style: italic; }
-  .neighbor-link { display: block; padding: 4px 8px; margin: 2px 0; border-radius: 3px; cursor: pointer; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
+  .neighbor-link { display: block; padding: 10px 12px; margin: 4px 0; border-radius: 4px; cursor: pointer; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
   .neighbor-link:hover { background: #2a2a4e; }
-  #neighbors-list { max-height: 200px; overflow-y: auto; margin-top: 4px; }
-  #legend-wrap { flex: 1; overflow-y: auto; padding: 12px; }
-  #legend-wrap h3 { font-size: 12px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .legend-item { display: flex; align-items: flex-start; gap: 8px; padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 12px; transition: background 0.15s; }
+  #neighbors-list { max-height: 40vh; overflow-y: auto; margin-top: 6px; }
+  #legend-wrap { flex: 1; overflow-y: auto; padding: 16px 20px; }
+  #legend-wrap h3 { font-size: 15px; color: #aaa; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .legend-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; cursor: pointer; border-radius: 6px; font-size: 15px; transition: background 0.15s; }
   .legend-item:hover { background: #2a2a4e; }
   .legend-item.dimmed { opacity: 0.3; }
   .legend-item.focused { background: rgba(78, 121, 167, 0.2); border-left: 3px solid #4E79A7; margin-left: -3px; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
-  .legend-label { flex: 1; overflow: hidden; line-height: 1.3; }
-  .legend-count { color: #666; font-size: 11px; }
-  #stats { padding: 10px 14px; border-top: 1px solid #2a2a4e; font-size: 11px; color: #555; }
+  .legend-dot { width: 16px; height: 16px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
+  .legend-label { flex: 1; overflow: hidden; line-height: 1.4; }
+  .legend-count { color: #666; font-size: 14px; }
+  #stats { padding: 14px 20px; border-top: 1px solid #2a2a4e; font-size: 14px; color: #555; }
   #legend-controls { display: none; }
   
   /* Tooltip */
-  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 350px; }
+  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; font-size: 15px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 50; max-width: 90vw; }
   #tooltip.visible { opacity: 1; }
   
   /* Top-left links */
   #top-links { position: absolute; top: 12px; left: 12px; z-index: 10; display: flex; gap: 8px; }
-  #top-links a { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 14px; border-radius: 6px; text-decoration: none; font-size: 12px; transition: all 0.15s; }
+  #top-links a { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; }
   #top-links a:hover { background: #2a2a4e; border-color: #4E79A7; }
-  /* Data source link - in top links bar */
-  #top-links a.data-source { display: inline-flex; align-items: center; justify-content: center; padding: 8px 10px; }
+  #top-links a.data-source { display: inline-flex; align-items: center; justify-content: center; padding: 12px 14px; }
   a.data-source:hover { border-color: #6b9bc7; }
   
   /* Controls overlay */
-  #controls { position: absolute; bottom: 16px; left: 16px; display: flex; gap: 8px; z-index: 10; }
-  #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; transition: all 0.15s; }
+  #controls { position: absolute; bottom: 16px; left: 12px; right: 12px; display: flex; gap: 8px; z-index: 10; flex-wrap: wrap; justify-content: center; }
+  #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 1; min-width: 0; white-space: nowrap; }
   #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
   #controls button.active { background: #4E79A7; border-color: #4E79A7; }
   
-  /* Toggle button - shown when sidebar is hidden */
-  #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 44px; height: 44px; border-radius: 8px; cursor: pointer; align-items: center; justify-content: center; font-size: 20px; margin: 0; transform: translateZ(0); }
+  /* Toggle button */
+  #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 52px; height: 52px; border-radius: 10px; cursor: pointer; align-items: center; justify-content: center; font-size: 24px; margin: 0; transform: translateZ(0); }
   #mobile-toggle:hover { background: #2a2a4e; border-color: #4E79A7; }
   #mobile-toggle.visible { display: flex; }
   
   /* Loading overlay */
   #loading { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #0f0f1a; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; }
   #loading.hidden { display: none; }
-  #loading h2 { color: #e0e0e0; margin-bottom: 16px; font-size: 18px; }
-  #loading p { color: #888; font-size: 13px; }
-  .spinner { width: 40px; height: 40px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
+  #loading h2 { color: #e0e0e0; margin-bottom: 16px; font-size: 22px; }
+  #loading p { color: #888; font-size: 16px; }
+  .spinner { width: 48px; height: 48px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
   @keyframes spin { to { transform: rotate(360deg); } }
+  
+  /* Desktop overrides */
+  @media (min-width: 768px) {
+    body { flex-direction: row; }
+    #sidebar { position: relative; top: auto; left: auto; right: auto; bottom: auto; width: 360px; transform: none; flex-shrink: 0; border-left: 1px solid #2a2a4e; }
+    #sidebar.closed { display: none; }
+    #mobile-toggle.visible { display: flex; }
+    #controls { left: 16px; right: auto; flex-wrap: nowrap; }
+    #controls button { flex: none; }
+  }
 </style>
 </head>
 <body>
@@ -454,17 +464,17 @@ function createLabel(nodeData, mesh) {
   
   const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
   if (zhTWLabel && zhTWLabel !== nodeData.label) {
-    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:12px">${esc(zhTWLabel)}</span>`;
+    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:14px">${esc(zhTWLabel)}</span>`;
   } else {
     div.textContent = nodeData.label;
   }
   
   div.style.cssText = `
     color: #e0e0e0;
-    font-size: 14px;
-    padding: 3px 8px;
+    font-size: 16px;
+    padding: 4px 10px;
     background: rgba(15, 15, 26, 0.8);
-    border-radius: 3px;
+    border-radius: 4px;
     white-space: nowrap;
     pointer-events: auto;
     cursor: grab;
@@ -521,12 +531,12 @@ RAW_NODES.forEach(n => {
 const edgeLabelDiv = document.createElement('div');
 edgeLabelDiv.style.cssText = `
   color: #a0c4ff;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
-  padding: 3px 8px;
+  padding: 5px 10px;
   background: rgba(15, 15, 26, 0.9);
   border: 1px solid rgba(78, 121, 167, 0.4);
-  border-radius: 4px;
+  border-radius: 5px;
   white-space: nowrap;
   pointer-events: auto;
   cursor: pointer;
@@ -1184,9 +1194,9 @@ function selectEdge(edge) {
 
     document.getElementById('info-content').innerHTML = `
       <div class="field"><b>Relation / 關聯</b></div>
-      <div class="field" style="margin-top:4px">
+      <div class="field" style="margin-top:6px">
         <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(fromId)}">${esc(fromDisplay)}</span>
-        <div style="color:#4E79A7;font-size:12px;padding:2px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:10px">${esc(confidence)}</span>` : ''}</div>
+        <div style="color:#4E79A7;font-size:15px;padding:4px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:13px">${esc(confidence)}</span>` : ''}</div>
         <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(toId)}">${esc(toDisplay)}</span>
       </div>
     `;
@@ -1256,31 +1266,31 @@ function showInfo(nodeId) {
   const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
 
   const wikiLink = wikiCtx
-    ? `<a href="${esc(wikiCtx.wiki_url)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(wikiCtx.wiki_path.split('/').pop())} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    ? `<a href="${esc(wikiCtx.wiki_url)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(wikiCtx.wiki_path.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
     : '—';
 
   const wikiDesc = wikiCtx && wikiCtx.description
-    ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context (node):</span><br><div class="wiki-context-text" style="font-size:12px;color:#bbb;line-height:1.6;max-height:260px;overflow-y:auto;margin-top:4px">${esc(wikiCtx.description.slice(0, 2800))}${wikiCtx.description.length > 2800 ? '…' : ''}</div></div>`
+    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context (node):</span><br><div class="wiki-context-text" style="font-size:15px;color:#bbb;line-height:1.7;max-height:260px;overflow-y:auto;margin-top:6px">${esc(wikiCtx.description.slice(0, 2800))}${wikiCtx.description.length > 2800 ? '…' : ''}</div></div>`
     : '';
 
   const edgeSourceLink = n.source_file
-    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:12px">${esc(n.source_file.split('/').pop())} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(n.source_file.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
     : '-';
 
   const edgeDesc = description
-    ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context (edge):</span><br><div style="font-size:12px;color:#bbb;line-height:1.6;max-height:160px;overflow-y:auto;margin-top:4px">${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:11px">[read more]</a>` : ''}</div></div>`
+    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context (edge):</span><br><div style="font-size:14px;color:#bbb;line-height:1.7;max-height:160px;overflow-y:auto;margin-top:6px">${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:13px">[read more]</a>` : ''}</div></div>`
     : '';
   
   document.getElementById('info-content').innerHTML = `
     <div class="field"><b>${esc(displayName)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
     <div class="field">Community: ${esc(displayCommunity)}</div>
-    <div class="field"><span style="color:#aaa;font-size:11px">Source (node):</span> ${wikiLink}</div>
+    <div class="field"><span style="color:#aaa;font-size:14px">Source (node):</span> ${wikiLink}</div>
     ${wikiDesc}
-    <div class="field" style="margin-top:6px;border-top:1px solid #2a2a4e;padding-top:6px"><span style="color:#aaa;font-size:11px">Source (edge):</span> ${edgeSourceLink}</div>
+    <div class="field" style="margin-top:8px;border-top:1px solid #2a2a4e;padding-top:8px"><span style="color:#aaa;font-size:14px">Source (edge):</span> ${edgeSourceLink}</div>
     ${edgeDesc}
     <div class="field">Degree: ${n.degree}</div>
-    ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+    ${neighbors.length ? `<div class="field" style="margin-top:12px;color:#aaa;font-size:14px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;
 }
 
@@ -1406,7 +1416,7 @@ function focusOnCommunity(cid) {
     .filter(n => n.community === cid)
     .sort((a, b) => b.degree - a.degree)
     .slice(0, 15);
-  communityKeyNodes.innerHTML = '<div style="color:#aaa;font-size:11px;margin:8px 0 4px">Key Nodes</div>';
+  communityKeyNodes.innerHTML = '<div style="color:#aaa;font-size:14px;margin:10px 0 6px">Key Nodes</div>';
   communityNodes.forEach(n => {
     const span = document.createElement('span');
     span.className = 'trace-key-node';
@@ -1455,7 +1465,7 @@ LEGEND.forEach(c => {
 
   const zhTWLabel = TRANSLATIONS[c.label] || '';
   const bilingualLabel = zhTWLabel && zhTWLabel !== c.label
-    ? `${c.label}<br><span style="color:#888;font-size:10px">${zhTWLabel}</span>`
+    ? `${c.label}<br><span style="color:#888;font-size:13px">${zhTWLabel}</span>`
     : c.label;
 
   item.innerHTML = `
@@ -1569,13 +1579,15 @@ const sidebarClose = document.getElementById('sidebar-close');
 let sidebarInfoActive = true;
 
 function openSidebar() {
-  sidebar.style.display = 'flex';
+  sidebar.classList.add('open');
+  sidebar.classList.remove('closed');
   mobileToggle.classList.remove('visible');
   sidebarInfoActive = true;
 }
 
 function closeSidebar() {
-  sidebar.style.display = 'none';
+  sidebar.classList.remove('open');
+  sidebar.classList.add('closed');
   mobileToggle.classList.add('visible');
   void mobileToggle.offsetHeight;
   sidebarInfoActive = false;
@@ -1583,7 +1595,7 @@ function closeSidebar() {
 }
 
 function toggleSidebar() {
-  if (sidebar.style.display === 'none') {
+  if (!sidebar.classList.contains('open')) {
     openSidebar();
   } else {
     closeSidebar();
@@ -1662,9 +1674,9 @@ function activateTrace(trace) {
 
   // Show summary
   const sourceLink = trace.sourceUrl
-    ? `<div style="margin-top:6px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
+    ? `<div style="margin-top:8px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:14px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
     : '';
-  traceSummary.innerHTML = `<div style="color:#aaa;font-size:11px;margin-bottom:4px">${esc(trace.question)}</div><div>${esc(trace.summary)}</div>${sourceLink}`;
+  traceSummary.innerHTML = `<div style="color:#aaa;font-size:14px;margin-bottom:6px">${esc(trace.question)}</div><div style="font-size:15px">${esc(trace.summary)}</div>${sourceLink}`;
 
   // Show routes
   traceRoutes.innerHTML = '';
@@ -1677,7 +1689,7 @@ function activateTrace(trace) {
   });
 
   // Show key nodes
-  traceKeyNodes.innerHTML = '<div style="color:#aaa;font-size:11px;margin:6px 0 4px">Key Nodes</div>';
+  traceKeyNodes.innerHTML = '<div style="color:#aaa;font-size:14px;margin:10px 0 6px">Key Nodes</div>';
   trace.keyNodes.forEach(kn => {
     const span = document.createElement('span');
     span.className = 'trace-key-node';
@@ -1809,13 +1821,13 @@ function activateRoute(trace, routeIdx) {
       const n = nodeMap.get(id);
       const label = n ? n.label : id;
       const color = n ? n.color.background : '#555';
-      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:11px;padding:2px 8px">↓</div>` : '';
+      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:14px;padding:2px 8px">↓</div>` : '';
       return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
     }).join('');
     document.getElementById('info-content').innerHTML = `
-      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:10px;margin-left:6px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
-      <div style="margin:8px 0">${pathHtml}</div>
-      <div class="field" style="font-size:12px;color:#bbb;line-height:1.6">${esc(route.mechanism)}</div>
+      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:13px;margin-left:8px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
+      <div style="margin:10px 0">${pathHtml}</div>
+      <div class="field" style="font-size:15px;color:#bbb;line-height:1.7">${esc(route.mechanism)}</div>
     `;
   }
 
