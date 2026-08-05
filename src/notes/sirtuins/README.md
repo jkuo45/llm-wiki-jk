@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 # Sirtuins
 
