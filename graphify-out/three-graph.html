@@ -73,6 +73,14 @@
   #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; font-size: 15px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 50; max-width: 90vw; }
   #tooltip.visible { opacity: 1; }
   
+  /* Share panel */
+  #share-panel { position: absolute; top: 56px; left: 12px; z-index: 20; background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 8px; padding: 12px 16px; display: none; flex-direction: column; gap: 8px; min-width: 320px; max-width: 90vw; }
+  #share-panel.visible { display: flex; }
+  #share-panel input { background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 10px 12px; border-radius: 6px; font-size: 14px; outline: none; width: 100%; }
+  #share-panel input:focus { border-color: #4E79A7; }
+  #share-panel button { background: #4E79A7; border: none; color: #e0e0e0; padding: 10px 16px; border-radius: 6px; font-size: 14px; cursor: pointer; transition: background 0.15s; }
+  #share-panel button:hover { background: #5d8ab8; }
+  
   /* Top-left links */
   #top-links { position: absolute; top: 12px; left: 12px; z-index: 10; display: flex; gap: 8px; }
   #top-links a { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; }
@@ -125,6 +133,11 @@
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
   <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/graphify-out" title="View data source on GitHub" aria-label="View data source on GitHub">Data / 來源資料</a>
+  <a href="#" id="share-link" title="Copy shareable link / 複製分享連結"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></a>
+</div>
+<div id="share-panel">
+  <input id="share-url" type="text" readonly>
+  <button id="share-copy">Copy / 複製</button>
 </div>
 <div id="graph">
   <div id="loading">
@@ -287,6 +300,9 @@ function updateHash() {
   }
   if (selectedNode) {
     parts.push(`node=${encodeURIComponent(selectedNode)}`);
+  }
+  if (selectedEdge) {
+    parts.push(`edge=${encodeURIComponent(selectedEdge.from)},${encodeURIComponent(selectedEdge.to)}`);
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
@@ -1228,6 +1244,7 @@ function selectEdge(edge) {
     const cameraOffset = new THREE.Vector3(160, 40, 80);
     animateCamera(mid.clone().add(cameraOffset), mid);
   }
+  updateHash();
 }
 
 function animateCamera(targetPosition, lookAtTarget) {
@@ -2011,6 +2028,10 @@ if (hashParams) {
   }
   if (hashParams.node && nodeObjects.has(hashParams.node)) {
     selectNode(hashParams.node);
+  } else if (hashParams.edge) {
+    const [fromId, toId] = hashParams.edge.split(',');
+    const edge = RAW_EDGES.find(e => e.from === fromId && e.to === toId);
+    if (edge) selectEdge(edge);
   }
   suppressHashUpdate = false;
 }
@@ -2019,9 +2040,9 @@ if (hashParams) {
 window.addEventListener('hashchange', () => {
   const params = parseHash();
   suppressHashUpdate = true;
-  if (!params || (!params.trace && !params.node)) {
+  if (!params || (!params.trace && !params.node && !params.edge)) {
     if (activeTrace) clearTrace();
-    if (selectedNode) deselectNode();
+    if (selectedNode || selectedEdge) deselectNode();
   } else {
     // Handle trace changes
     if (params.trace) {
@@ -2053,11 +2074,41 @@ window.addEventListener('hashchange', () => {
     // Handle node changes
     if (params.node && nodeObjects.has(params.node)) {
       selectNode(params.node);
-    } else if (selectedNode) {
+    } else if (params.edge) {
+      const [fromId, toId] = params.edge.split(',');
+      const edge = RAW_EDGES.find(e => e.from === fromId && e.to === toId);
+      if (edge) selectEdge(edge);
+      else if (selectedNode || selectedEdge) deselectNode();
+    } else if (selectedNode || selectedEdge) {
       deselectNode();
     }
   }
   suppressHashUpdate = false;
+});
+
+// Share link
+const sharePanel = document.getElementById('share-panel');
+const shareUrl = document.getElementById('share-url');
+const shareCopy = document.getElementById('share-copy');
+
+document.getElementById('share-link').addEventListener('click', (e) => {
+  e.preventDefault();
+  shareUrl.value = window.location.href;
+  sharePanel.classList.toggle('visible');
+  shareUrl.select();
+});
+
+shareCopy.addEventListener('click', () => {
+  navigator.clipboard.writeText(shareUrl.value).then(() => {
+    shareCopy.textContent = 'Copied! / 已複製';
+    setTimeout(() => { shareCopy.textContent = 'Copy / 複製'; }, 2000);
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!sharePanel.contains(e.target) && e.target.id !== 'share-link') {
+    sharePanel.classList.remove('visible');
+  }
 });
 </script>
 </body>
