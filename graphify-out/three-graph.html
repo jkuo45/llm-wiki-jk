@@ -821,7 +821,9 @@ const intersection = new THREE.Vector3();
 const stickyNodes = new Set();
 let dragMoved = false;
 let dragStartPos = new THREE.Vector2();
-let dragGroup = []; // { mesh, offset } for group drag (Cmd/Ctrl + drag)
+let dragGroup = []; // { mesh, offset } for group drag (Cmd/Ctrl + drag or long press)
+let longPressTimer = null;
+let longPressActive = false;
 
 function restoreDefaultLabels() {
   // If a trace is active, don't restore default labels
@@ -1032,28 +1034,53 @@ function onMouseDown(event) {
 
     // Cmd/Ctrl + drag: move connected nodes as a group
     dragGroup = [];
+    longPressActive = false;
     if (event.metaKey || event.ctrlKey) {
-      const neighbors = adjacency.get(mesh.userData.nodeId) || [];
-      neighbors.forEach(({ target }) => {
-        const neighborMesh = nodeObjects.get(target);
-        if (neighborMesh) {
-          dragGroup.push({
-            mesh: neighborMesh,
-            offset: neighborMesh.position.clone().sub(mesh.position)
-          });
-        }
-      });
+      activateGroupDrag(mesh);
+    } else if (event.pointerType === 'touch') {
+      // Long press on mobile: activate group drag after delay
+      longPressTimer = setTimeout(() => {
+        longPressActive = true;
+        activateGroupDrag(mesh);
+        // Visual feedback: pulse the node
+        const mat = mesh.material;
+        const origEmissive = mat.emissiveIntensity;
+        mat.emissiveIntensity = 0.8;
+        setTimeout(() => { mat.emissiveIntensity = origEmissive; }, 200);
+        if (navigator.vibrate) navigator.vibrate(30);
+      }, 500);
     }
 
     event.preventDefault();
   }
 }
 
+function activateGroupDrag(mesh) {
+  dragGroup = [];
+  const neighbors = adjacency.get(mesh.userData.nodeId) || [];
+  neighbors.forEach(({ target }) => {
+    const neighborMesh = nodeObjects.get(target);
+    if (neighborMesh) {
+      dragGroup.push({
+        mesh: neighborMesh,
+        offset: neighborMesh.position.clone().sub(mesh.position)
+      });
+    }
+  });
+}
+
 function onMouseDrag(event) {
   if (!isDragging || !draggedNode) return;
   const dx = event.clientX - dragStartPos.x;
   const dy = event.clientY - dragStartPos.y;
-  if (dx * dx + dy * dy > 9) dragMoved = true;
+  if (dx * dx + dy * dy > 9) {
+    dragMoved = true;
+    // Cancel long press timer if user starts moving (it's a normal drag, not a long press)
+    if (longPressTimer) {
+      clearTimeout(longPressTimer);
+      longPressTimer = null;
+    }
+  }
   const rect = container.getBoundingClientRect();
   mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
   mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
@@ -1068,7 +1095,7 @@ function onMouseDrag(event) {
     }
     updateEdgesForNode(draggedNode);
 
-    // Move group nodes (Cmd/Ctrl + drag)
+    // Move group nodes (Cmd/Ctrl + drag or long press)
     dragGroup.forEach(({ mesh, offset }) => {
       mesh.position.copy(draggedNode.position).add(offset);
       stickyNodes.add(mesh.userData.nodeId);
@@ -1085,12 +1112,18 @@ function onMouseDrag(event) {
 }
 
 function onMouseUp() {
+  // Clear long press timer
+  if (longPressTimer) {
+    clearTimeout(longPressTimer);
+    longPressTimer = null;
+  }
+
   if (isDragging && draggedNode) {
     const vel = velocities.get(draggedNode.userData.nodeId);
     if (vel) vel.set(0, 0, 0);
     addStickyRing(draggedNode);
 
-    // Mark group nodes as sticky (Cmd/Ctrl + drag)
+    // Mark group nodes as sticky (Cmd/Ctrl + drag or long press)
     dragGroup.forEach(({ mesh }) => {
       const gVel = velocities.get(mesh.userData.nodeId);
       if (gVel) gVel.set(0, 0, 0);
@@ -1102,6 +1135,7 @@ function onMouseUp() {
   isDragging = false;
   draggedNode = null;
   dragGroup = [];
+  longPressActive = false;
   controls.enabled = true;
   container.style.cursor = 'default';
 }
