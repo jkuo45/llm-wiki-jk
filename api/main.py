@@ -1,10 +1,12 @@
 """FastAPI chat backend for the knowledge graph visualization."""
 
+import json
 import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
 from llm import parse_intent, translate_text
 from pydantic import BaseModel, Field
@@ -46,33 +48,22 @@ class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=500)
 
 
-class ChatResponse(BaseModel):
-    type: str
-    text: str
-    highlight_nodes: list[str] = []
-    highlight_edges: list[list[str]] = []
+def sse_event(event: str, data: dict) -> str:
+    """Format a Server-Sent Event."""
+    return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
 
 
-@app.get("/api/health")
-async def health():
-    """Health check endpoint."""
-    G = get_graph()
-    return {
-        "status": "ok",
-        "nodes": G.number_of_nodes(),
-        "edges": G.number_of_edges(),
-    }
-
-
-@app.post("/api/chat", response_model=ChatResponse)
-async def chat(request: ChatRequest):
-    """Process a chat message. Sanitize -> LLM parse -> graph operation."""
-    # Step 1: Sanitize input
+async def chat_stream(request: ChatRequest):
+    """SSE generator for the chat pipeline."""
+    # Step 1: Sanitize
     clean = sanitize_input(request.message)
     if not clean:
-        raise HTTPException(status_code=400, detail="Invalid or empty input")
+        yield sse_event("error", {"detail": "Invalid or empty input"})
+        return
 
-    # Step 2: Parse intent via opencode
+    # Step 2: Parse intent
+    yield sse_event("status", {"status": "thinking"})
+
     raw_intent = await parse_intent(clean)
     intent = validate_intent(raw_intent)
     lang = raw_intent.get("lang", "en")
@@ -87,18 +78,9 @@ async def chat(request: ChatRequest):
     elif intent["intent"] == "path":
         result = graph_path(intent["from"], intent["to"])
     else:
-        # Check if it's a greeting
         greeting_words = {
-            "hi",
-            "hello",
-            "hey",
-            "yo",
-            "sup",
-            "greetings",
-            "howdy",
-            "hola",
-            "嗨",
-            "你好",
+            "hi", "hello", "hey", "yo", "sup",
+            "greetings", "howdy", "hola", "嗨", "你好",
         }
         if clean.lower().strip().rstrip("!.?") in greeting_words:
             result = {
@@ -129,6 +111,32 @@ async def chat(request: ChatRequest):
 
     # Step 4: Translate if non-English
     if lang and lang != "en":
+        yield sse_event("status", {"status": "translating"})
         result["text"] = await translate_text(result["text"], lang)
 
-    return ChatResponse(**result)
+    yield sse_event("done", result)
+
+
+@app.get("/api/health")
+async def health():
+    """Health check endpoint."""
+    G = get_graph()
+    return {
+        "status": "ok",
+        "nodes": G.number_of_nodes(),
+        "edges": G.number_of_edges(),
+    }
+
+
+@app.post("/api/chat")
+async def chat(request: ChatRequest):
+    """SSE chat endpoint. Returns event stream with status updates and final result."""
+    return StreamingResponse(
+        chat_stream(request),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        },
+    )

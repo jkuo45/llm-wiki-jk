@@ -2289,24 +2289,57 @@ async function sendChatMessage() {
       body: JSON.stringify({ message: clean }),
     });
 
-    chatMessages.removeChild(typingDiv);
-
     if (!resp.ok) {
-      const err = await resp.json().catch(() => ({}));
-      addChatMessage(err.detail || 'Server error', 'error');
+      chatMessages.removeChild(typingDiv);
+      addChatMessage('Server error', 'error');
       return;
     }
 
-    const data = await resp.json();
-    addChatMessage(data.text, 'bot');
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
 
-    // Highlight nodes/edges in the 3D graph
-    if (data.highlight_nodes && data.highlight_nodes.length > 0) {
-      highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      let eventType = null;
+      for (const line of lines) {
+        if (line.startsWith('event: ')) {
+          eventType = line.slice(7).trim();
+        } else if (line.startsWith('data: ')) {
+          const jsonStr = line.slice(6);
+          try {
+            const data = JSON.parse(jsonStr);
+
+            if (eventType === 'status') {
+              if (data.status === 'thinking') {
+                typingDiv.textContent = 'Thinking...';
+              } else if (data.status === 'translating') {
+                typingDiv.textContent = 'Translating...';
+              }
+            } else if (eventType === 'done') {
+              chatMessages.removeChild(typingDiv);
+              addChatMessage(data.text, 'bot');
+              if (data.highlight_nodes && data.highlight_nodes.length > 0) {
+                highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
+              }
+            } else if (eventType === 'error') {
+              chatMessages.removeChild(typingDiv);
+              addChatMessage(data.detail || 'Error', 'error');
+            }
+          } catch (e) {}
+          eventType = null;
+        }
+      }
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage('Could not reach the chat server. Is it running on port 8000?', 'error');
+    addChatMessage('Could not reach the chat server.', 'error');
   } finally {
     chatBusy = false;
     chatSend.disabled = false;
