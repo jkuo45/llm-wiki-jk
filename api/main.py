@@ -2,13 +2,13 @@
 
 import logging
 from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
-
-from sanitize import sanitize_input, validate_intent
+from graph_ops import get_graph, graph_explain, graph_path, graph_query
 from llm import parse_intent
-from graph_ops import graph_query, graph_explain, graph_path, get_graph
+from pydantic import BaseModel, Field
+from sanitize import sanitize_input, validate_intent
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -18,7 +18,9 @@ logger = logging.getLogger(__name__)
 async def lifespan(app: FastAPI):
     """Load graph at startup."""
     G = get_graph()
-    logger.info(f"Graph loaded: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
+    logger.info(
+        f"Graph loaded: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges"
+    )
     yield
 
 
@@ -33,8 +35,9 @@ app.add_middleware(
     allow_origins=[
         "https://www.johnnykuo.com",
         "https://johnnykuo.com",
+        "https://graph.johnnykuo.com",
     ],
-    allow_methods=["POST", "GET"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
@@ -84,16 +87,27 @@ async def chat(request: ChatRequest):
         result = graph_path(intent["from"], intent["to"])
     else:
         # Check if it's a greeting
-        greeting_words = {"hi", "hello", "hey", "yo", "sup", "greetings", "howdy", "hola", "嗨", "你好"}
+        greeting_words = {
+            "hi",
+            "hello",
+            "hey",
+            "yo",
+            "sup",
+            "greetings",
+            "howdy",
+            "hola",
+            "嗨",
+            "你好",
+        }
         if clean.lower().strip().rstrip("!.?") in greeting_words:
             result = {
                 "type": "greeting",
                 "text": (
                     "Hey! I'm your knowledge graph assistant. Ask me anything about the biomedical wiki:\n\n"
-                    "- **\"What is Autophagy?\"** — explain a concept\n"
-                    "- **\"How does Rapamycin relate to mTOR?\"** — find a path between two concepts\n"
-                    "- **\"Key nodes in longevity research\"** — query the graph\n"
-                    "- **\"Explain SASP\"** — deep dive on a node\n\n"
+                    '- **"What is Autophagy?"** — explain a concept\n'
+                    '- **"How does Rapamycin relate to mTOR?"** — find a path between two concepts\n'
+                    '- **"Key nodes in longevity research"** — query the graph\n'
+                    '- **"Explain SASP"** — deep dive on a node\n\n'
                     "Type a question to get started!"
                 ),
                 "highlight_nodes": [],
@@ -104,9 +118,9 @@ async def chat(request: ChatRequest):
                 "type": "unknown",
                 "text": (
                     "I couldn't understand your question. Try one of:\n\n"
-                    "- **\"What is Autophagy?\"** — explain a concept\n"
-                    "- **\"How does Rapamycin relate to mTOR?\"** — find a path\n"
-                    "- **\"Key nodes in longevity research\"** — query the graph"
+                    '- **"What is Autophagy?"** — explain a concept\n'
+                    '- **"How does Rapamycin relate to mTOR?"** — find a path\n'
+                    '- **"Key nodes in longevity research"** — query the graph'
                 ),
                 "highlight_nodes": [],
                 "highlight_edges": [],
