@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="Interactive 3D knowledge graph exploring longevity, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 ">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <style>
@@ -76,9 +77,19 @@
   #top-links { position: absolute; top: 12px; left: 12px; z-index: 10; display: flex; gap: 8px; }
   #top-links a { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; }
   #top-links a:hover { background: #2a2a4e; border-color: #4E79A7; }
-  #top-links a.data-source { display: inline-flex; align-items: center; justify-content: center; padding: 12px 14px; }
+  #top-links a.data-source { display: inline-flex; align-items: center; justify-content: center; padding: 12px 14px; font-family: monospace; font-size: 15px; letter-spacing: 0.5px; }
   a.data-source:hover { border-color: #6b9bc7; }
   
+  /* Zoom bar */
+  #zoom-bar { position: absolute; left: 12px; top: 110px; z-index: 10; display: flex; flex-direction: column; align-items: center; gap: 2px; opacity: 0.7; transition: opacity 0.2s; }
+  #zoom-bar:hover { opacity: 1; }
+  #zoom-bar button { background: rgba(26, 26, 46, 0.6); border: 1px solid rgba(58, 58, 94, 0.4); color: #aaa; width: 20px; height: 20px; border-radius: 3px; cursor: pointer; font-size: 12px; line-height: 1; display: flex; align-items: center; justify-content: center; transition: all 0.15s; user-select: none; }
+  #zoom-bar button:hover { background: rgba(42, 42, 78, 0.9); border-color: #4E79A7; color: #fff; }
+  #zoom-slider-track { position: relative; width: 20px; height: 120px; background: rgba(26, 26, 46, 0.6); border: 1px solid rgba(58, 58, 94, 0.4); border-radius: 3px; cursor: pointer; overflow: hidden; }
+  #zoom-slider-fill { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(78, 121, 167, 0.3); transition: height 0.05s; pointer-events: none; }
+  #zoom-slider-thumb { position: absolute; left: 2px; right: 2px; height: 10px; background: #4E79A7; border-radius: 3px; transform: translateY(-50%); pointer-events: none; transition: bottom 0.05s; }
+  #zoom-bar .zoom-label { color: #555; font-size: 11px; margin-top: 6px; letter-spacing: 0.05em; text-transform: uppercase; user-select: none; }
+
   /* Controls overlay */
   #controls { position: absolute; bottom: 16px; left: 12px; right: 12px; display: flex; gap: 8px; z-index: 10; flex-wrap: wrap; justify-content: center; }
   #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 1; min-width: 0; white-space: nowrap; }
@@ -113,9 +124,7 @@
 <button id="mobile-toggle" title="Open search and filters">&#9776;</button>
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
-  <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev" class="data-source" title="View data source on GitHub" aria-label="View data source on GitHub">
-    <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-  </a>
+  <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/graphify-out" title="View data source on GitHub" aria-label="View data source on GitHub">Data / 來源資料</a>
 </div>
 <div id="graph">
   <div id="loading">
@@ -130,6 +139,15 @@
     <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
     <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
+  </div>
+  <div id="zoom-bar">
+    <button id="zoom-in" title="Zoom in">+</button>
+    <div id="zoom-slider-track">
+      <div id="zoom-slider-fill"></div>
+      <div id="zoom-slider-thumb"></div>
+    </div>
+    <button id="zoom-out" title="Zoom out">&minus;</button>
+    <span class="zoom-label">Zoom</span>
   </div>
 </div>
 <div id="sidebar">
@@ -1093,9 +1111,9 @@ function selectNode(nodeId) {
     showInfo(nodeId);
   }
   
-  // Focus camera on node
+  // Focus camera on node (offset to keep node on left side, avoiding sidebar)
   const targetPos = mesh.position.clone();
-  const cameraOffset = new THREE.Vector3(80, 40, 80);
+  const cameraOffset = new THREE.Vector3(160, 40, 80);
   const newCameraPos = targetPos.clone().add(cameraOffset);
   
   animateCamera(newCameraPos, targetPos);
@@ -1207,7 +1225,7 @@ function selectEdge(edge) {
   const toMesh = nodeObjects.get(toId);
   if (fromMesh && toMesh) {
     const mid = fromMesh.position.clone().add(toMesh.position).multiplyScalar(0.5);
-    const cameraOffset = new THREE.Vector3(80, 40, 80);
+    const cameraOffset = new THREE.Vector3(160, 40, 80);
     animateCamera(mid.clone().add(cameraOffset), mid);
   }
 }
@@ -1514,6 +1532,74 @@ document.getElementById('btn-edges').addEventListener('click', (e) => {
 // Initialize button active states
 document.getElementById('btn-labels').classList.add('active');
 document.getElementById('btn-edges').classList.add('active');
+
+// ============================================================
+// Zoom Bar
+// ============================================================
+const zoomInBtn = document.getElementById('zoom-in');
+const zoomOutBtn = document.getElementById('zoom-out');
+const zoomTrack = document.getElementById('zoom-slider-track');
+const zoomFill = document.getElementById('zoom-slider-fill');
+const zoomThumb = document.getElementById('zoom-slider-thumb');
+
+function getZoomFraction() {
+  const dist = camera.position.distanceTo(controls.target);
+  const minD = controls.minDistance;
+  const maxD = controls.maxDistance;
+  // 0 = zoomed out (far), 1 = zoomed in (close)
+  return 1 - (Math.log(dist) - Math.log(minD)) / (Math.log(maxD) - Math.log(minD));
+}
+
+function setZoomFromFraction(frac) {
+  const minD = controls.minDistance;
+  const maxD = controls.maxDistance;
+  const dist = minD * Math.pow(maxD / minD, 1 - frac);
+  const dir = camera.position.clone().sub(controls.target).normalize();
+  camera.position.copy(controls.target).addScaledVector(dir, dist);
+  controls.update();
+}
+
+function updateZoomBar() {
+  const frac = getZoomFraction();
+  const pct = Math.max(0, Math.min(1, frac)) * 100;
+  zoomFill.style.height = pct + '%';
+  zoomThumb.style.bottom = `calc(${pct}% - 6px)`;
+}
+
+zoomInBtn.addEventListener('click', () => {
+  setZoomFromFraction(getZoomFraction() + 0.1);
+  updateZoomBar();
+});
+
+zoomOutBtn.addEventListener('click', () => {
+  setZoomFromFraction(getZoomFraction() - 0.1);
+  updateZoomBar();
+});
+
+let zoomDragging = false;
+
+function zoomFromPointer(e) {
+  const rect = zoomTrack.getBoundingClientRect();
+  const y = (e.clientY - rect.top) / rect.height;
+  setZoomFromFraction(1 - Math.max(0, Math.min(1, y)));
+  updateZoomBar();
+}
+
+zoomTrack.addEventListener('pointerdown', (e) => {
+  zoomDragging = true;
+  zoomFromPointer(e);
+  e.preventDefault();
+});
+
+window.addEventListener('pointermove', (e) => {
+  if (zoomDragging) zoomFromPointer(e);
+});
+
+window.addEventListener('pointerup', () => {
+  zoomDragging = false;
+});
+
+updateZoomBar();
 
 // Unstick all button
 const btnUnstick = document.getElementById('btn-unstick');
@@ -1872,6 +1958,7 @@ function animate() {
   
   updateStickyRings();
   controls.update();
+  updateZoomBar();
   renderer.render(scene, camera);
   labelRenderer.render(scene, camera);
 }
