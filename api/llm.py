@@ -1,4 +1,4 @@
-"""Intent parsing via opencode subprocess."""
+"""Intent parsing and translation via opencode subprocess."""
 
 import asyncio
 import json
@@ -38,88 +38,45 @@ User message: {message}
 Respond with ONLY the JSON object:"""
 
 
+async def _run_opencode(prompt: str, timeout: float) -> str:
+    """Run opencode subprocess and return concatenated text output."""
+    proc = await asyncio.create_subprocess_exec(
+        "opencode", "run", prompt, "--format", "json",
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+    )
+
+    stdout, stderr = await asyncio.wait_for(
+        proc.communicate(), timeout=timeout
+    )
+
+    output = stdout.decode("utf-8", errors="replace")
+
+    text_parts = []
+    for line in output.strip().split("\n"):
+        if not line.strip():
+            continue
+        try:
+            event = json.loads(line)
+            if event.get("type") == "text":
+                text_parts.append(event.get("part", {}).get("text", ""))
+        except json.JSONDecodeError:
+            continue
+
+    return "".join(text_parts).strip()
+
+
 async def parse_intent(message: str, timeout: float = 45.0) -> dict:
     """Call opencode to parse user message into structured intent."""
     prompt = INTENT_PROMPT.replace("{message}", message)
 
     try:
-        proc = await asyncio.create_subprocess_exec(
-            "opencode", "run", prompt, "--format", "json",
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
-        )
-
-        stdout, stderr = await asyncio.wait_for(
-            proc.communicate(), timeout=timeout
-        )
-
-        output = stdout.decode("utf-8", errors="replace")
-
-        # Parse NDJSON events to extract text content
-        text_parts = []
-        for line in output.strip().split("\n"):
-            if not line.strip():
-                continue
-            try:
-                event = json.loads(line)
-                if event.get("type") == "text":
-                    text_parts.append(event.get("part", {}).get("text", ""))
-            except json.JSONDecodeError:
-                continue
-
-        full_text = "".join(text_parts).strip()
+        full_text = await _run_opencode(prompt, timeout)
 
         if not full_text:
             logger.warning("No text output from opencode")
-    return {"intent": "unknown"}
+            return {"intent": "unknown"}
 
-
-TRANSLATE_PROMPT = """Translate the following text to {lang}. Output ONLY the translation, no explanation or extra text:
-
-{text}"""
-
-
-async def translate_text(text: str, target_lang: str, timeout: float = 30.0) -> str:
-    """Translate text to target language via opencode. Returns original text on failure."""
-    if not text or target_lang == "en":
-        return text
-
-    # Truncate to avoid huge translation payloads
-    truncated = text[:3000]
-    prompt = TRANSLATE_PROMPT.replace("{lang}", target_lang).replace("{text}", truncated)
-
-    try:
-        proc = await asyncio.create_subprocess_exec(
-            "opencode", "run", prompt, "--format", "json",
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
-        )
-
-        stdout, stderr = await asyncio.wait_for(
-            proc.communicate(), timeout=timeout
-        )
-
-        output = stdout.decode("utf-8", errors="replace")
-
-        text_parts = []
-        for line in output.strip().split("\n"):
-            if not line.strip():
-                continue
-            try:
-                event = json.loads(line)
-                if event.get("type") == "text":
-                    text_parts.append(event.get("part", {}).get("text", ""))
-            except json.JSONDecodeError:
-                continue
-
-        translated = "".join(text_parts).strip()
-        return translated if translated else text
-
-    except Exception as e:
-        logger.error(f"Translation error: {e}")
-        return text
-
-        # Extract JSON from response (handle cases where LLM adds extra text)
         intent = _extract_json(full_text)
         return intent
 
@@ -134,9 +91,29 @@ async def translate_text(text: str, target_lang: str, timeout: float = 30.0) -> 
         return {"intent": "unknown"}
 
 
+TRANSLATE_PROMPT = """Translate the following text to {lang}. Output ONLY the translation, no explanation or extra text:
+
+{text}"""
+
+
+async def translate_text(text: str, target_lang: str, timeout: float = 30.0) -> str:
+    """Translate text to target language via opencode. Returns original text on failure."""
+    if not text or target_lang == "en":
+        return text
+
+    truncated = text[:3000]
+    prompt = TRANSLATE_PROMPT.replace("{lang}", target_lang).replace("{text}", truncated)
+
+    try:
+        translated = await _run_opencode(prompt, timeout)
+        return translated if translated else text
+    except Exception as e:
+        logger.error(f"Translation error: {e}")
+        return text
+
+
 def _extract_json(text: str) -> dict:
     """Extract JSON object from LLM response text."""
-    # Try direct parse first
     try:
         obj = json.loads(text)
         if isinstance(obj, dict) and "intent" in obj:
@@ -144,7 +121,6 @@ def _extract_json(text: str) -> dict:
     except json.JSONDecodeError:
         pass
 
-    # Try to find JSON in the text
     match = re.search(r'\{[^{}]*"intent"[^{}]*\}', text)
     if match:
         try:
