@@ -972,14 +972,26 @@ function restoreSelectedLabels() {
 
 function onClick(event) {
   if (dragMoved) return;
-  if (hoveredNode) {
-    const nodeId = hoveredNode.userData.nodeId;
-    if (stickyNodes.has(nodeId)) {
-      unstickNode(nodeId);
-    } else if (selectedNode === nodeId) {
+
+  // Do raycasting on click directly (not relying solely on hoveredNode from mousemove)
+  const rect = container.getBoundingClientRect();
+  const clickMouse = new THREE.Vector2(
+    ((event.clientX - rect.left) / rect.width) * 2 - 1,
+    -((event.clientY - rect.top) / rect.height) * 2 + 1
+  );
+  raycaster.setFromCamera(clickMouse, camera);
+
+  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  const clickedMesh = nodeIntersects.length > 0 ? nodeIntersects[0].object : null;
+  const clickedNodeId = clickedMesh ? clickedMesh.userData.nodeId : null;
+
+  if (clickedNodeId) {
+    if (stickyNodes.has(clickedNodeId)) {
+      unstickNode(clickedNodeId);
+    } else if (selectedNode === clickedNodeId) {
       deselectNode();
     } else {
-      selectNode(nodeId);
+      selectNode(clickedNodeId);
     }
   } else if (hoveredEdge) {
     selectNode(hoveredEdge.userData.edge.from);
