@@ -6,7 +6,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
-from llm import parse_intent
+from llm import parse_intent, translate_text
 from pydantic import BaseModel, Field
 from sanitize import sanitize_input, validate_intent
 
@@ -75,8 +75,9 @@ async def chat(request: ChatRequest):
     # Step 2: Parse intent via opencode
     raw_intent = await parse_intent(clean)
     intent = validate_intent(raw_intent)
+    lang = raw_intent.get("lang", "en")
 
-    logger.info(f"Intent: {intent}")
+    logger.info(f"Intent: {intent}, lang: {lang}")
 
     # Step 3: Execute graph operation
     if intent["intent"] == "query":
@@ -125,5 +126,9 @@ async def chat(request: ChatRequest):
                 "highlight_nodes": [],
                 "highlight_edges": [],
             }
+
+    # Step 4: Translate if non-English
+    if lang and lang != "en":
+        result["text"] = await translate_text(result["text"], lang)
 
     return ChatResponse(**result)

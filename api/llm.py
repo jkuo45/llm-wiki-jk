@@ -9,27 +9,29 @@ logger = logging.getLogger(__name__)
 
 INTENT_PROMPT = """You are an intent classifier for a biomedical knowledge graph chatbot.
 
-Given the user's message, classify it into EXACTLY ONE of these intents and respond with ONLY a JSON object (no markdown, no explanation):
+Given the user's message, classify it into EXACTLY ONE of these intents and respond with ONLY a JSON object (no markdown, no explanation).
+
+ALSO detect the language of the user's message and include it as "lang" (use BCP 47 codes: "en", "zh-TW", "zh-CN", "ja", "ko", "es", "fr", "de", "ru", etc.).
 
 1. query - user asks a question about the graph/knowledge base
-   Response: {"intent": "query", "question": "<the question>"}
+   Response: {{"intent": "query", "question": "<the question>", "lang": "<detected language>"}}
 
 2. explain - user wants to understand a specific concept/node
-   Response: {"intent": "explain", "node": "<node name>"}
+   Response: {{"intent": "explain", "node": "<node name>", "lang": "<detected language>"}}
 
 3. path - user wants to find a connection between two concepts
-   Response: {"intent": "path", "from": "<node A>", "to": "<node B>"}
+   Response: {{"intent": "path", "from": "<node A>", "to": "<node B>", "lang": "<detected language>"}}
 
 4. unknown - cannot classify
-   Response: {"intent": "unknown"}
+   Response: {{"intent": "unknown", "lang": "<detected language>"}}
 
 Examples:
-- "What is autophagy?" → {"intent": "explain", "node": "Autophagy"}
-- "How does rapamycin relate to mTOR?" → {"intent": "path", "from": "Rapamycin", "to": "mTOR"}
-- "What are the key nodes in longevity research?" → {"intent": "query", "question": "key nodes in longevity research"}
-- "Tell me about NAD+" → {"intent": "explain", "node": "NAD+"}
-- "Show me the connection between inflammation and Alzheimer's" → {"intent": "path", "from": "Inflammation", "to": "Alzheimer's Disease"}
-- "hello" → {"intent": "unknown"}
+- "What is autophagy?" → {{"intent": "explain", "node": "Autophagy", "lang": "en"}}
+- "自噬是什麼？" → {{"intent": "explain", "node": "Autophagy", "lang": "zh-TW"}}
+- "How does rapamycin relate to mTOR?" → {{"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "en"}}
+- "雷帕霉素和mTOR有什么关系？" → {{"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "zh-CN"}}
+- "hello" → {{"intent": "unknown", "lang": "en"}}
+- "你好" → {{"intent": "unknown", "lang": "zh-TW"}}
 
 User message: {message}
 
@@ -69,7 +71,53 @@ async def parse_intent(message: str, timeout: float = 45.0) -> dict:
 
         if not full_text:
             logger.warning("No text output from opencode")
-            return {"intent": "unknown"}
+    return {"intent": "unknown"}
+
+
+TRANSLATE_PROMPT = """Translate the following text to {lang}. Output ONLY the translation, no explanation or extra text:
+
+{text}"""
+
+
+async def translate_text(text: str, target_lang: str, timeout: float = 30.0) -> str:
+    """Translate text to target language via opencode. Returns original text on failure."""
+    if not text or target_lang == "en":
+        return text
+
+    # Truncate to avoid huge translation payloads
+    truncated = text[:3000]
+    prompt = TRANSLATE_PROMPT.replace("{lang}", target_lang).replace("{text}", truncated)
+
+    try:
+        proc = await asyncio.create_subprocess_exec(
+            "opencode", "run", prompt, "--format", "json",
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+
+        stdout, stderr = await asyncio.wait_for(
+            proc.communicate(), timeout=timeout
+        )
+
+        output = stdout.decode("utf-8", errors="replace")
+
+        text_parts = []
+        for line in output.strip().split("\n"):
+            if not line.strip():
+                continue
+            try:
+                event = json.loads(line)
+                if event.get("type") == "text":
+                    text_parts.append(event.get("part", {}).get("text", ""))
+            except json.JSONDecodeError:
+                continue
+
+        translated = "".join(text_parts).strip()
+        return translated if translated else text
+
+    except Exception as e:
+        logger.error(f"Translation error: {e}")
+        return text
 
         # Extract JSON from response (handle cases where LLM adds extra text)
         intent = _extract_json(full_text)
