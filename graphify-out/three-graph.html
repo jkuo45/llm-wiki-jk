@@ -2217,7 +2217,8 @@ const chatSend = document.getElementById('chat-send');
 const chatClearBtn = document.getElementById('chat-clear');
 const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 
-const CHAT_API = 'https://api.johnnykuo.com/api/chat';
+const INTENT_API = 'https://api.johnnykuo.com/api/intent';
+const EXECUTE_API = 'https://api.johnnykuo.com/api/execute';
 let chatOpen = false;
 let chatBusy = false;
 let chatHighlightedNodes = [];
@@ -2283,59 +2284,53 @@ async function sendChatMessage() {
   const typingDiv = addChatMessage('Thinking...', 'typing');
 
   try {
-    const resp = await fetch(CHAT_API, {
+    // Phase 1: Parse intent
+    const intentResp = await fetch(INTENT_API, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: clean }),
     });
 
-    if (!resp.ok) {
+    if (!intentResp.ok) {
       chatMessages.removeChild(typingDiv);
       addChatMessage('Server error', 'error');
       return;
     }
 
-    const reader = resp.body.getReader();
-    const decoder = new TextDecoder();
-    let buffer = '';
+    const intentData = await intentResp.json();
 
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
+    // Update indicator if translation will happen
+    if (intentData.lang && intentData.lang !== 'en') {
+      typingDiv.textContent = 'Translating...';
+    }
 
-      buffer += decoder.decode(value, { stream: true });
-      const lines = buffer.split('\n');
-      buffer = lines.pop();
+    // Phase 2: Execute graph op + optional translation
+    const execResp = await fetch(EXECUTE_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        intent: intentData.intent,
+        lang: intentData.lang,
+        question: intentData.question,
+        node: intentData.node,
+        from_node: intentData.from_node,
+        to_node: intentData.to_node,
+        greeting: intentData.greeting,
+      }),
+    });
 
-      let eventType = null;
-      for (const line of lines) {
-        if (line.startsWith('event: ')) {
-          eventType = line.slice(7).trim();
-        } else if (line.startsWith('data: ')) {
-          const jsonStr = line.slice(6);
-          try {
-            const data = JSON.parse(jsonStr);
+    chatMessages.removeChild(typingDiv);
 
-            if (eventType === 'status') {
-              if (data.status === 'thinking') {
-                typingDiv.textContent = 'Thinking...';
-              } else if (data.status === 'translating') {
-                typingDiv.textContent = 'Translating...';
-              }
-            } else if (eventType === 'done') {
-              chatMessages.removeChild(typingDiv);
-              addChatMessage(data.text, 'bot');
-              if (data.highlight_nodes && data.highlight_nodes.length > 0) {
-                highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
-              }
-            } else if (eventType === 'error') {
-              chatMessages.removeChild(typingDiv);
-              addChatMessage(data.detail || 'Error', 'error');
-            }
-          } catch (e) {}
-          eventType = null;
-        }
-      }
+    if (!execResp.ok) {
+      addChatMessage('Server error', 'error');
+      return;
+    }
+
+    const data = await execResp.json();
+    addChatMessage(data.text, 'bot');
+
+    if (data.highlight_nodes && data.highlight_nodes.length > 0) {
+      highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);

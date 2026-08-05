@@ -1,12 +1,10 @@
 """FastAPI chat backend for the knowledge graph visualization."""
 
-import json
 import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
 from llm import parse_intent, translate_text
 from pydantic import BaseModel, Field
@@ -48,73 +46,30 @@ class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=500)
 
 
-def sse_event(event: str, data: dict) -> str:
-    """Format a Server-Sent Event."""
-    return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
+class IntentResponse(BaseModel):
+    intent: str
+    lang: str = "en"
+    question: str | None = None
+    node: str | None = None
+    from_node: str | None = None
+    to_node: str | None = None
 
 
-async def chat_stream(request: ChatRequest):
-    """SSE generator for the chat pipeline."""
-    # Step 1: Sanitize
-    clean = sanitize_input(request.message)
-    if not clean:
-        yield sse_event("error", {"detail": "Invalid or empty input"})
-        return
+class ExecuteRequest(BaseModel):
+    intent: str
+    lang: str = "en"
+    question: str | None = None
+    node: str | None = None
+    from_node: str | None = None
+    to_node: str | None = None
+    greeting: bool = False
 
-    # Step 2: Parse intent
-    yield sse_event("status", {"status": "thinking"})
 
-    raw_intent = await parse_intent(clean)
-    intent = validate_intent(raw_intent)
-    lang = raw_intent.get("lang", "en")
-
-    logger.info(f"Intent: {intent}, lang: {lang}")
-
-    # Step 3: Execute graph operation
-    if intent["intent"] == "query":
-        result = graph_query(intent["question"])
-    elif intent["intent"] == "explain":
-        result = graph_explain(intent["node"])
-    elif intent["intent"] == "path":
-        result = graph_path(intent["from"], intent["to"])
-    else:
-        greeting_words = {
-            "hi", "hello", "hey", "yo", "sup",
-            "greetings", "howdy", "hola", "嗨", "你好",
-        }
-        if clean.lower().strip().rstrip("!.?") in greeting_words:
-            result = {
-                "type": "greeting",
-                "text": (
-                    "Hey! I'm your knowledge graph assistant. Ask me anything about the biomedical wiki:\n\n"
-                    '- **"What is Autophagy?"** — explain a concept\n'
-                    '- **"How does Rapamycin relate to mTOR?"** — find a path between two concepts\n'
-                    '- **"Key nodes in longevity research"** — query the graph\n'
-                    '- **"Explain SASP"** — deep dive on a node\n\n'
-                    "Type a question to get started!"
-                ),
-                "highlight_nodes": [],
-                "highlight_edges": [],
-            }
-        else:
-            result = {
-                "type": "unknown",
-                "text": (
-                    "I couldn't understand your question. Try one of:\n\n"
-                    '- **"What is Autophagy?"** — explain a concept\n'
-                    '- **"How does Rapamycin relate to mTOR?"** — find a path\n'
-                    '- **"Key nodes in longevity research"** — query the graph'
-                ),
-                "highlight_nodes": [],
-                "highlight_edges": [],
-            }
-
-    # Step 4: Translate if non-English
-    if lang and lang != "en":
-        yield sse_event("status", {"status": "translating"})
-        result["text"] = await translate_text(result["text"], lang)
-
-    yield sse_event("done", result)
+class ChatResponse(BaseModel):
+    type: str
+    text: str
+    highlight_nodes: list[str] = []
+    highlight_edges: list[list[str]] = []
 
 
 @app.get("/api/health")
@@ -128,15 +83,83 @@ async def health():
     }
 
 
-@app.post("/api/chat")
-async def chat(request: ChatRequest):
-    """SSE chat endpoint. Returns event stream with status updates and final result."""
-    return StreamingResponse(
-        chat_stream(request),
-        media_type="text/event-stream",
-        headers={
-            "Cache-Control": "no-cache",
-            "Connection": "keep-alive",
-            "X-Accel-Buffering": "no",
-        },
+@app.post("/api/intent", response_model=IntentResponse)
+async def intent_endpoint(request: ChatRequest):
+    """Phase 1: Parse intent and detect language. Fast (~2s)."""
+    clean = sanitize_input(request.message)
+    if not clean:
+        raise HTTPException(status_code=400, detail="Invalid or empty input")
+
+    raw_intent = await parse_intent(clean)
+    intent = validate_intent(raw_intent)
+    lang = raw_intent.get("lang", "en")
+
+    logger.info(f"Intent: {intent}, lang: {lang}")
+
+    # Check for greeting
+    greeting_words = {
+        "hi", "hello", "hey", "yo", "sup",
+        "greetings", "howdy", "hola", "嗨", "你好",
+    }
+    is_greeting = clean.lower().strip().rstrip("!.?") in greeting_words
+
+    return IntentResponse(
+        intent=intent.get("intent", "unknown"),
+        lang=lang,
+        question=intent.get("question"),
+        node=intent.get("node"),
+        from_node=intent.get("from"),
+        to_node=intent.get("to"),
+        greeting=is_greeting,
     )
+
+
+def _greeting_result() -> dict:
+    return {
+        "type": "greeting",
+        "text": (
+            "Hey! I'm your knowledge graph assistant. Ask me anything about the biomedical wiki:\n\n"
+            '- **"What is Autophagy?"** — explain a concept\n'
+            '- **"How does Rapamycin relate to mTOR?"** — find a path between two concepts\n'
+            '- **"Key nodes in longevity research"** — query the graph\n'
+            '- **"Explain SASP"** — deep dive on a node\n\n'
+            "Type a question to get started!"
+        ),
+        "highlight_nodes": [],
+        "highlight_edges": [],
+    }
+
+
+def _unknown_result() -> dict:
+    return {
+        "type": "unknown",
+        "text": (
+            "I couldn't understand your question. Try one of:\n\n"
+            '- **"What is Autophagy?"** — explain a concept\n'
+            '- **"How does Rapamycin relate to mTOR?"** — find a path\n'
+            '- **"Key nodes in longevity research"** — query the graph'
+        ),
+        "highlight_nodes": [],
+        "highlight_edges": [],
+    }
+
+
+@app.post("/api/execute", response_model=ChatResponse)
+async def execute_endpoint(request: ExecuteRequest):
+    """Phase 2: Run graph operation + optional translation."""
+    if request.greeting:
+        result = _greeting_result()
+    elif request.intent == "query" and request.question:
+        result = graph_query(request.question)
+    elif request.intent == "explain" and request.node:
+        result = graph_explain(request.node)
+    elif request.intent == "path" and request.from_node and request.to_node:
+        result = graph_path(request.from_node, request.to_node)
+    else:
+        result = _unknown_result()
+
+    # Translate if non-English
+    if request.lang and request.lang != "en":
+        result["text"] = await translate_text(result["text"], request.lang)
+
+    return ChatResponse(**result)
