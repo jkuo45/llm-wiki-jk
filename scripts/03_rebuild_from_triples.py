@@ -279,7 +279,92 @@ def _strip_markdown(text: str) -> str:
     s = re.sub(r"<[^>]+>", "", s)
     # Collapse blank lines
     s = re.sub(r"\n{3,}", "\n\n", s)
-    return s.strip()
+    # Remove duplicated headings: if a non-empty line starts with the same
+    # text as a recent non-empty line (heading stub repeated as body opener),
+    # drop the shorter one.  Blank lines between them are fine.
+    # Also handles "The Epigenome" matching heading "Epigenome" and
+    # end-of-heading + start-of-body overlaps.
+    def _words_overlap_end_start(a: str, b: str) -> bool:
+        """Check if the end of line a matches the start of line b (word-boundary).
+        Allows skipping 1-2 leading words in b (e.g. 'In the Prefrontal Cortex')."""
+        wa, wb = a.lower().split(), b.lower().split()
+        for n in range(min(3, len(wa), len(wb)), 0, -1):
+            tail = wa[-n:]
+            for skip in range(min(3, len(wb) - n + 1)):
+                if wb[skip:skip + n] == tail:
+                    return True
+        return False
+
+    lines = s.split("\n")
+    deduped: list[str] = []
+    recent_nonempty: list[int] = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped:
+            drop = False
+            for idx in reversed(recent_nonempty):
+                prev = deduped[idx].strip()
+                if not prev:
+                    continue
+                sl, pl = stripped.lower(), prev.lower()
+                # Direct prefix match
+                if sl.startswith(pl) or pl.startswith(sl):
+                    if len(stripped) > len(prev):
+                        deduped[idx] = ""
+                        recent_nonempty.remove(idx)
+                    else:
+                        drop = True
+                    break
+                # Skip leading article ("The Epigenome" vs "Epigenome")
+                matched_skip = False
+                longer = sl if len(sl) >= len(pl) else pl
+                shorter = pl if len(sl) >= len(pl) else sl
+                for skip in range(1, min(3, len(longer.split()))):
+                    remainder = " ".join(longer.split()[skip:])
+                    if remainder.startswith(shorter):
+                        if len(stripped) > len(prev):
+                            deduped[idx] = ""
+                            recent_nonempty.remove(idx)
+                        else:
+                            drop = True
+                        matched_skip = True
+                        break
+                if matched_skip:
+                    break
+                # End-of-heading matches start-of-body
+                if _words_overlap_end_start(prev, stripped) or _words_overlap_end_start(stripped, prev):
+                    if len(stripped) > len(prev):
+                        deduped[idx] = ""
+                        recent_nonempty.remove(idx)
+                    else:
+                        drop = True
+                    break
+            if drop:
+                continue
+        deduped.append(line)
+        if stripped:
+            recent_nonempty.append(len(deduped) - 1)
+            if len(recent_nonempty) > 5:
+                recent_nonempty.pop(0)
+    # Also deduplicate repeated phrases within a single line (heading + body
+    # concatenated into one line after markdown stripping).
+    result_lines: list[str] = []
+    for line in deduped:
+        words = line.split()
+        if len(words) >= 4:
+            lower = [w.lower() for w in words]
+            # Check for any consecutive repeated phrase (not just from pos 0)
+            for n in range(min(5, len(words) // 2), 1, -1):
+                found = False
+                for i in range(len(words) - 2 * n + 1):
+                    if lower[i:i + n] == lower[i + n:i + 2 * n]:
+                        line = " ".join(words[:i] + words[i + n:])
+                        found = True
+                        break
+                if found:
+                    break
+        result_lines.append(line)
+    return "\n".join(result_lines).strip()
 
 
 def _truncate_words(text: str, target: int = TARGET_WORDS, hard_max: int = MAX_WORDS) -> str:
@@ -500,7 +585,7 @@ def main() -> int:
     export_three_json(GP, new_labels)
 
     # --- export wiki context for three-graph.html node info panels ---
-    node_ids = {n["id"] for n in G.nodes()}
+    node_ids = set(G.nodes())
     export_wiki_context(GP, node_ids)
 
     return 0
