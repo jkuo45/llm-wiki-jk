@@ -2148,5 +2148,179 @@
     ],
     "mechanism": "SARM1 is a metabolic sensor of the NMN/NAD+ ratio. The three-phase axonal NAD+ catastrophe: (1) Homeostasis \u2014 NMNAT2 maintains NAD+ ~400\u03bcM, SARM1 autoinhibited; (2) Trigger \u2014 injury \u2192 NMNAT2 loss \u2192 NMN accumulates \u2192 NMN/NAD+ ratio rises \u2192 SARM1 activated; (3) Catastrophe \u2014 SARM1 octamerizes, TIR domains form NADase site \u2192 NAD+ drops to 0 in minutes \u2192 glycolysis halts \u2192 Wallerian degeneration.",
     "sourceFile": "src/tasks/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
+  },
+  {
+    "id": "mitohormesis-antioxidant-interference",
+    "title": "Mitohormesis and Antioxidants",
+    "question": "Do antioxidants block mitohormesis? Which specific antioxidants have the most evidence for interference? Does timing of supplementation relative to exercise matter?",
+    "date": "2026-08-05",
+    "method": "graphify query BFS traversal + wiki entity note grep + literature synthesis",
+    "summary": "Antioxidants can block mitohormesis by quenching the transient ROS pulse required to trigger adaptive cytoprotective responses (catalase, SOD, UPRmt, mitochondrial biogenesis). NAC has the strongest direct experimental evidence (completely abolishes hormetic ROS signal and lifespan extension in C. elegans). Vitamin C has the strongest human evidence (Gomez-Cabrera 2008: decreases muscle mitochondrial biogenesis and hampers training adaptations). Vitamin E has the strongest clinical trial failures (SELECT: increased prostate cancer 17%; HOPE: no CV benefit) but weaker direct mechanistic evidence. Timing matters: the wiki specifically warns against post-workout antioxidant supplementation, but landmark studies used chronic daily dosing — no study has tested temporal separation. The body's own endogenous antioxidant response (NRF2/SOD/catalase upregulation via exercise-induced ROS) is the therapeutic goal; exogenous antioxidants prevent this upregulation. Polyphenol-rich foods (sulforaphane, EGCG, resveratrol) work via NRF2 activation rather than direct ROS scavenging and may support rather than block mitohormesis.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md",
+    "centerNode": {
+      "id": "mitohormesis",
+      "label": "Mitohormesis"
+    },
+    "routes": [
+      {
+        "name": "NAC blocks mitohormetic ROS signal (C. elegans)",
+        "hops": 2,
+        "path": [
+          "n_acetylcysteine",
+          "reactive_oxygen_species",
+          "mitohormesis"
+        ],
+        "mechanism": "NAC scavenges mitochondrial ROS and replenishes glutathione, directly quenching the ROS signal. In C. elegans, NAC pre-treatment completely abolished the ROS rise, catalase induction, and lifespan extension normally seen with glucose restriction (2DG experiment, Schulz et al. 2007)."
+      },
+      {
+        "name": "Vitamin C hampers exercise adaptation (human)",
+        "hops": 2,
+        "path": [
+          "vitamin_c",
+          "mitochondrial_biogenesis",
+          "mitohormesis"
+        ],
+        "mechanism": "Gomez-Cabrera et al. 2008: oral vitamin C decreased muscle mitochondrial biogenesis and hampers training-induced adaptations in endurance performance. The exercise-antioxidant interference is supported by human studies where salutary benefits of exercise were inhibited in subjects given antioxidant supplements."
+      },
+      {
+        "name": "Vitamin E clinical trial failures (SELECT/HOPE)",
+        "hops": 2,
+        "path": [
+          "vitamin_e",
+          "antioxidants",
+          "mitohormesis"
+        ],
+        "mechanism": "SELECT trial (Lippman 2009): vitamin E 400 IU/day increased prostate cancer risk 17%. HOPE trial (Lonn 2005): no cardiovascular benefit, trend toward increased heart failure. Both cited as examples of chronic antioxidant supplementation blocking the hormetic response. Vitamin E effects are COMT genotype-dependent (slow COMT benefits, fast COMT increased risk)."
+      },
+      {
+        "name": "Exercise → endogenous antioxidant upregulation (the point)",
+        "hops": 2,
+        "path": [
+          "exercise",
+          "reactive_oxygen_species",
+          "mitohormesis"
+        ],
+        "mechanism": "Exercise generates acute ROS bursts that drive mitochondrial biogenesis, antioxidant upregulation (NRF2 → SOD/catalase/GPx), metabolic adaptation, and higher resting energy expenditure. This endogenous response is the therapeutic goal — exogenous antioxidants prevent it by signaling 'you don't need to build your own.'"
+      },
+      {
+        "name": "Polyphenols support mitohormesis via NRF2 (not scavenging)",
+        "hops": 3,
+        "path": [
+          "sulforaphane",
+          "nrf2",
+          "mitohormesis"
+        ],
+        "mechanism": "Sulforaphane, EGCG, and other polyphenols activate NRF2 by modifying KEAP1 cysteine residues, inducing phase-II detoxifying and antioxidant enzymes. This engages the endogenous defense program rather than directly scavenging ROS — supporting rather than blocking the hormetic signal."
+      },
+      {
+        "name": "NAC in therapeutic protocols (timed buffer, not chronic)",
+        "hops": 3,
+        "path": [
+          "n_acetylcysteine",
+          "glutathione",
+          "mitohormesis"
+        ],
+        "mechanism": "NAC/GlyNAC is used therapeutically in the SASP-Remodeling Aminochrome Complex with deliberate timing — as a buffer to prevent a hormetic pulse from crossing into cytotoxic territory (Phase 1: redox priming before carbazochrome; Phase 2: tissue protection during fisetin senolysis). Not a chronic supplement."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "mitohormesis",
+        "label": "Mitohormesis",
+        "role": "Adaptive mitochondrial stress response requiring transient ROS pulse"
+      },
+      {
+        "id": "n_acetylcysteine",
+        "label": "NAC",
+        "role": "Strongest direct evidence for blocking; also used therapeutically with timing"
+      },
+      {
+        "id": "vitamin_c",
+        "label": "Vitamin C",
+        "role": "Strongest human evidence for exercise interference (Gomez-Cabrera 2008)"
+      },
+      {
+        "id": "vitamin_e",
+        "label": "Vitamin E",
+        "role": "Clinical trial failures (SELECT/HOPE); COMT genotype interaction"
+      },
+      {
+        "id": "reactive_oxygen_species",
+        "label": "ROS",
+        "role": "The transient signal that triggers mitohormesis; quenched by antioxidants"
+      },
+      {
+        "id": "antioxidants",
+        "label": "Antioxidants",
+        "role": "Exogenous scavengers that block the hormetic signal when chronic"
+      },
+      {
+        "id": "exercise",
+        "label": "Exercise",
+        "role": "Primary hormetic stressor; drives endogenous antioxidant upregulation"
+      },
+      {
+        "id": "nrf2",
+        "label": "NRF2",
+        "role": "Master antioxidant TF activated by exercise and polyphenols"
+      },
+      {
+        "id": "catalase",
+        "label": "Catalase",
+        "role": "H2O2 scavenging enzyme upregulated by mitohormesis"
+      },
+      {
+        "id": "manganese_superoxide_dismutase",
+        "label": "SOD2/MnSOD",
+        "role": "Endogenous antioxidant upregulated by exercise training"
+      },
+      {
+        "id": "glutathione",
+        "label": "Glutathione",
+        "role": "Endogenous antioxidant; NAC replenishes this pool"
+      },
+      {
+        "id": "ampk",
+        "label": "AMPK",
+        "role": "Energy sensor activated by mitohormetic stress"
+      },
+      {
+        "id": "pgc1",
+        "label": "PGC-1α",
+        "role": "Master regulator of mitochondrial biogenesis, activated by exercise ROS"
+      },
+      {
+        "id": "sirt1",
+        "label": "SIRT1",
+        "role": "Sirtuin activated by NAD+ and mitohormetic signaling"
+      },
+      {
+        "id": "mitochondrial_biogenesis",
+        "label": "Mitochondrial Biogenesis",
+        "role": "Process blocked by vitamin C supplementation around exercise"
+      },
+      {
+        "id": "sulforaphane",
+        "label": "Sulforaphane",
+        "role": "NRF2 activator from cruciferous vegetables; supports mitohormesis"
+      },
+      {
+        "id": "keap1",
+        "label": "KEAP1",
+        "role": "ROS sensor; modified by polyphenols to release NRF2"
+      },
+      {
+        "id": "glynac",
+        "label": "GlyNAC",
+        "role": "NAC + glycine; therapeutic use with deliberate timing in SRAC protocol"
+      },
+      {
+        "id": "carbazochrome",
+        "label": "Carbazochrome",
+        "role": "Hormetic trigger in SRAC protocol; NAC buffers its ROS pulse"
+      }
+    ],
+    "mechanism": "Mitohormesis relies on creating a temporary, acute increase in reactive oxygen species (ROS) or a transient cellular energy deficit. This activates AMPK, PGC-1α, SIRT1, and NRF2, driving mitochondrial biogenesis, mitophagy, and endogenous antioxidant defense systems. Exogenous antioxidants block this by quenching the ROS signal before the adaptive program can initiate.\n\nAntioxidant ranking by evidence:\n\n1. NAC — Strongest direct evidence. In C. elegans, glucose restriction normally increases mitochondrial respiration → ROS → catalase induction → lifespan extension. NAC pre-treatment completely abolished both the ROS rise and the longevity benefit (Schulz et al. 2007, Mitohormesis - 2014_FEB.md:103). NAC is also a selective PRDX6 peroxidase inhibitor (IC50 15.5 µM). However, NAC has a dual role: in the SASP-Remodeling Aminochrome Complex, GlyNAC is used with deliberate timing as a buffer to prevent a hormetic pulse from becoming cytotoxic.\n\n2. Vitamin C — Strongest human evidence. Gomez-Cabrera et al. 2008 (PMID: 18175748): oral vitamin C decreased muscle mitochondrial biogenesis and hampers training-induced adaptations in endurance performance. This is one of the cleanest human studies showing antioxidant interference with a hormetic stressor (exercise).\n\n3. Vitamin E — Strongest clinical trial failures but weaker mechanistic evidence. SELECT trial (Lippman 2009, PMID: 19066370): vitamin E 400 IU/day increased prostate cancer risk 17%. HOPE trial (Lonn 2005, PMID: 15769967): no cardiovascular benefit, trend toward increased heart failure. Effects are COMT genotype-dependent: slow COMT (Met/Met) individuals derive cancer-preventive benefit, fast COMT (Val/Val) individuals may experience increased cancer risk. No direct experimental study shows vitamin E blocking the mitohormetic ROS signal the way NAC does.\n\nTiming: The wiki specifically warns against 'high-dose synthetic antioxidants (e.g., Vitamin C or E pills) post-workout' as these 'blunt the necessary acute ROS signal required for mitohormetic adaptation' (mitohormesis, heart rate variability.md:252). However, both landmark studies (Ristow 2009, Gomez-Cabrera 2008) used chronic daily supplementation — neither tested temporal separation. Vitamin C has a tissue half-life of ~10-20 days; even if taken hours before exercise, tissue levels are already elevated. The practical conclusion is that chronic steady-state elevation of exogenous antioxidants blocks mitohormesis regardless of timing.\n\nThe body's own response is the point: exercise itself upregulates endogenous antioxidant enzymes (SOD, catalase, GPx) via NRF2 activation. The Ristow study showed the antioxidant-supplemented group failed to upregulate these endogenous defenses while the exercise-only group succeeded. Exogenous supply signals 'you don't need to build your own.'\n\nWhat to do instead: skip synthetic antioxidant pills; get antioxidants from polyphenol-rich foods (blueberries, dark chocolate, green tea/EGCG, EVOO) which work via NRF2 activation not direct scavenging; cruciferous vegetables (sulforaphane) for NRF2 activation; CoQ10/ubiquinol and PQQ for ETC function; let exercise-induced ROS do its job.",
+    "sourceFile": "src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
   }
 ]
