@@ -821,6 +821,7 @@ const intersection = new THREE.Vector3();
 const stickyNodes = new Set();
 let dragMoved = false;
 let dragStartPos = new THREE.Vector2();
+let dragGroup = []; // { mesh, offset } for group drag (Cmd/Ctrl + drag)
 
 function restoreDefaultLabels() {
   // If a trace is active, don't restore default labels
@@ -1028,6 +1029,22 @@ function onMouseDown(event) {
     if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
       dragOffset.copy(intersection).sub(mesh.position);
     }
+
+    // Cmd/Ctrl + drag: move connected nodes as a group
+    dragGroup = [];
+    if (event.metaKey || event.ctrlKey) {
+      const neighbors = adjacency.get(mesh.userData.nodeId) || [];
+      neighbors.forEach(({ target }) => {
+        const neighborMesh = nodeObjects.get(target);
+        if (neighborMesh) {
+          dragGroup.push({
+            mesh: neighborMesh,
+            offset: neighborMesh.position.clone().sub(mesh.position)
+          });
+        }
+      });
+    }
+
     event.preventDefault();
   }
 }
@@ -1050,6 +1067,19 @@ function onMouseDrag(event) {
       label.position.y += draggedNode.scale.y + 2;
     }
     updateEdgesForNode(draggedNode);
+
+    // Move group nodes (Cmd/Ctrl + drag)
+    dragGroup.forEach(({ mesh, offset }) => {
+      mesh.position.copy(draggedNode.position).add(offset);
+      stickyNodes.add(mesh.userData.nodeId);
+      const gLabel = labelObjects.get(mesh.userData.nodeId);
+      if (gLabel) {
+        gLabel.position.copy(mesh.position);
+        gLabel.position.y += mesh.scale.y + 2;
+      }
+      updateEdgesForNode(mesh);
+    });
+
     tooltip.classList.remove('visible');
   }
 }
@@ -1059,10 +1089,19 @@ function onMouseUp() {
     const vel = velocities.get(draggedNode.userData.nodeId);
     if (vel) vel.set(0, 0, 0);
     addStickyRing(draggedNode);
+
+    // Mark group nodes as sticky (Cmd/Ctrl + drag)
+    dragGroup.forEach(({ mesh }) => {
+      const gVel = velocities.get(mesh.userData.nodeId);
+      if (gVel) gVel.set(0, 0, 0);
+      addStickyRing(mesh);
+    });
+
     btnUnstick.style.display = 'block';
   }
   isDragging = false;
   draggedNode = null;
+  dragGroup = [];
   controls.enabled = true;
   container.style.cursor = 'default';
 }
