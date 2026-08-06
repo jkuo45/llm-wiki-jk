@@ -182,6 +182,16 @@
   .chat-msg.error { background: #3a1a1a; color: #ff8888; align-self: center; font-size: 13px; }
   .chat-msg.typing { color: #666; font-style: italic; align-self: flex-start; }
 
+  .chat-suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .chat-suggestion {
+    background: transparent; border: 1px dashed #4E79A7; color: #7cb3d4;
+    padding: 8px 14px; border-radius: 20px; font-size: 13px; cursor: pointer;
+    transition: all 0.15s; font-family: inherit;
+  }
+  .chat-suggestion:hover { background: rgba(78,121,167,0.15); border-color: #7cb3d4; color: #a0d4f0; }
+  .chat-suggestion-more { border-style: solid; border-color: #6b5ce7; color: #a78bfa; }
+  .chat-suggestion-more:hover { background: rgba(107,92,231,0.15); border-color: #a78bfa; }
+
   .chat-node-link {
     color: #7cb3d4; cursor: pointer; text-decoration: underline;
     text-decoration-style: dotted;
@@ -308,10 +318,12 @@
     <button id="chat-clear" title="Clear chat history">Clear</button>
   </div>
   <div id="chat-messages">
-    <div class="chat-msg bot">Ask me about the knowledge graph! Try:<br>
-      &bull; "What is Autophagy?"<br>
-      &bull; "How does Rapamycin relate to mTOR?"<br>
-      &bull; "Key nodes in longevity research"
+    <div class="chat-msg bot">Ask me about the knowledge graph!</div>
+    <div class="chat-suggestions" id="chat-suggestions">
+      <button class="chat-suggestion" data-query="What is Autophagy?">自噬作用是什麼？</button>
+      <button class="chat-suggestion" data-query="How does Rapamycin relate to mTOR?">Rapamycin 與 mTOR 的關係？</button>
+      <button class="chat-suggestion" data-query="Key nodes in longevity research">長壽研究的關鍵節點</button>
+      <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>
     </div>
   </div>
   <div id="chat-input-wrap">
@@ -2279,6 +2291,10 @@ async function sendChatMessage() {
   chatSend.disabled = true;
   chatInput.value = '';
 
+  // Hide suggestions after first message
+  const suggestions = document.getElementById('chat-suggestions');
+  if (suggestions) suggestions.remove();
+
   addChatMessage(clean, 'user');
 
   const typingDiv = addChatMessage('Thinking...', 'typing');
@@ -2356,10 +2372,54 @@ chatInput.addEventListener('input', () => {
   chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
 });
 
+// Suggestion buttons
+document.getElementById('chat-suggestions').addEventListener('click', (e) => {
+  const btn = e.target.closest('.chat-suggestion');
+  if (!btn) return;
+  if (btn.dataset.action === 'generate') {
+    generateSuggestions();
+  } else {
+    const query = btn.dataset.query;
+    chatInput.value = query;
+    chatInput.focus();
+  }
+});
+
+const SUGGESTION_SETS = [
+  ["What is NAD+?", "How does Caloric Restriction work?", "Tell me about Rapamycin"],
+  ["What are the hallmarks of aging?", "How does Metformin affect longevity?", "自噬作用是什麼？"],
+  ["What is the role of Sirtuins?", "運動如何影響自噬？", "端粒是什麼？"],
+  ["什麼是發炎老化？", "睡眠如何影響衰老？", "Explain the mTOR pathway"],
+];
+let suggestionIndex = 0;
+
+async function generateSuggestions() {
+  const suggestionsDiv = document.getElementById('chat-suggestions');
+  if (!suggestionsDiv) return;
+  
+  // Cycle through preset suggestion sets
+  const questions = SUGGESTION_SETS[suggestionIndex % SUGGESTION_SETS.length];
+  suggestionIndex++;
+  
+  suggestionsDiv.innerHTML = questions.map(q => 
+    `<button class="chat-suggestion" data-query="${escChatHtml(q)}">${escChatHtml(q)}</button>`
+  ).join('') + `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>`;
+}
+
 chatClearBtn.addEventListener('click', () => {
   chatMessages.innerHTML = '';
   clearChatHighlights();
-  addChatMessage('Chat cleared. Ask a new question!', 'bot');
+  addChatMessage('Ask me about the knowledge graph!', 'bot');
+  const suggestionsDiv = document.createElement('div');
+  suggestionsDiv.className = 'chat-suggestions';
+  suggestionsDiv.id = 'chat-suggestions';
+  suggestionsDiv.innerHTML = `
+    <button class="chat-suggestion" data-query="What is Autophagy?">自噬作用是什麼？</button>
+    <button class="chat-suggestion" data-query="How does Rapamycin relate to mTOR?">Rapamycin 與 mTOR 的關係？</button>
+    <button class="chat-suggestion" data-query="Key nodes in longevity research">長壽研究的關鍵節點</button>
+    <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>
+  `;
+  chatMessages.appendChild(suggestionsDiv);
 });
 
 // ============================================================
