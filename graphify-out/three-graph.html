@@ -535,7 +535,7 @@ try {
 // ============================================================
 // URL Hash Bookmarking
 // ============================================================
-function updateHash() {
+function updateHash(pushState = true) {
   if (suppressHashUpdate) return;
   const parts = [];
   if (activeTrace) {
@@ -550,7 +550,11 @@ function updateHash() {
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
-  history.replaceState(null, '', url);
+  if (pushState) {
+    history.pushState({ hash }, '', url);
+  } else {
+    history.replaceState({ hash }, '', url);
+  }
 }
 
 function parseHash() {
@@ -563,6 +567,42 @@ function parseHash() {
   });
   return params;
 }
+
+function restoreFromHash(params) {
+  suppressHashUpdate = true;
+  if (!params) {
+    deselectNode();
+    clearTrace();
+    suppressHashUpdate = false;
+    return;
+  }
+  if (params.trace) {
+    const trace = TRACES.find(t => t.id === params.trace);
+    if (trace) {
+      activateTrace(trace);
+      if (params.route !== undefined) {
+        activateRoute(trace, parseInt(params.route));
+      }
+    }
+  } else {
+    clearTrace();
+  }
+  if (params.node) {
+    selectNode(params.node);
+  } else if (params.edge) {
+    const [from, to] = params.edge.split(',');
+    const edge = RAW_EDGES.find(e => e.from === from && e.to === to);
+    if (edge) selectEdge(edge);
+  } else {
+    deselectNode();
+  }
+  suppressHashUpdate = false;
+}
+
+window.addEventListener('popstate', (e) => {
+  const params = parseHash();
+  restoreFromHash(params);
+});
 
 loadStatus.textContent = 'Loading translations...';
 let TRANSLATIONS = {};
@@ -2714,7 +2754,7 @@ chatHighlightBadge.addEventListener('click', clearChatHighlights);
 document.getElementById('loading').classList.add('hidden');
 animate();
 
-// Restore state from URL hash
+// Restore state from URL hash (use replaceState to avoid extra history entry)
 const hashParams = parseHash();
 if (hashParams) {
   suppressHashUpdate = true;
@@ -2739,57 +2779,12 @@ if (hashParams) {
     if (edge) selectEdge(edge);
   }
   suppressHashUpdate = false;
+  // Update history state without pushing a new entry
+  history.replaceState({ hash: window.location.hash }, '', window.location.href);
 }
 
 // Handle back/forward navigation
-window.addEventListener('hashchange', () => {
-  const params = parseHash();
-  suppressHashUpdate = true;
-  if (!params || (!params.trace && !params.node && !params.edge)) {
-    if (activeTrace) clearTrace();
-    if (selectedNode || selectedEdge) deselectNode();
-  } else {
-    // Handle trace changes
-    if (params.trace) {
-      const trace = TRACES.find(t => t.id === params.trace);
-      if (trace) {
-        if (!activeTrace || activeTrace.id !== trace.id) {
-          traceSelect.value = trace.id;
-          activateTrace(trace);
-        }
-        if (params.route !== undefined) {
-          const routeIdx = parseInt(params.route, 10);
-          if (routeIdx >= 0 && routeIdx < trace.routes.length) {
-            activateRoute(trace, routeIdx);
-          } else if (activeRouteIdx >= 0) {
-            // Route cleared from hash but trace still active
-            activeRouteIdx = -1;
-            highlightTraceNodes(trace);
-            document.querySelectorAll('.trace-route').forEach(el => el.classList.remove('active'));
-          }
-        } else if (activeRouteIdx >= 0) {
-          activeRouteIdx = -1;
-          highlightTraceNodes(trace);
-          document.querySelectorAll('.trace-route').forEach(el => el.classList.remove('active'));
-        }
-      }
-    } else if (activeTrace) {
-      clearTrace();
-    }
-    // Handle node changes
-    if (params.node && nodeObjects.has(params.node)) {
-      selectNode(params.node);
-    } else if (params.edge) {
-      const [fromId, toId] = params.edge.split(',');
-      const edge = RAW_EDGES.find(e => e.from === fromId && e.to === toId);
-      if (edge) selectEdge(edge);
-      else if (selectedNode || selectedEdge) deselectNode();
-    } else if (selectedNode || selectedEdge) {
-      deselectNode();
-    }
-  }
-  suppressHashUpdate = false;
-});
+// (popstate listener is defined above near updateHash)
 
 // Share link
 const sharePanel = document.getElementById('share-panel');
