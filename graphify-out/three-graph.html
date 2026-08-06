@@ -157,6 +157,21 @@
     background: #16162b; flex-shrink: 0;
   }
   #chat-header span { font-size: 14px; font-weight: 600; color: #aaa; letter-spacing: 0.03em; }
+  .chat-header-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+  #chat-maximize {
+    background: none; border: 1px solid #3a3a5e; color: #888;
+    padding: 6px 8px; border-radius: 4px; font-size: 12px; cursor: pointer;
+    transition: all 0.15s; display: inline-flex; align-items: center; justify-content: center;
+    line-height: 1;
+  }
+  #chat-maximize:hover { border-color: #4E79A7; color: #e0e0e0; }
+  #chat-maximize:active { background: #2a2a4e; }
+  #chat-panel.maximized {
+    top: 12px; left: 12px; right: 12px; bottom: 12px;
+    width: auto; max-width: none; height: auto; max-height: none;
+    z-index: 295; border-radius: 12px;
+  }
+  #chat-panel.maximized #chat-messages { font-size: 15px; }
   #chat-clear {
     background: none; border: 1px solid #3a3a5e; color: #888;
     padding: 4px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
@@ -321,7 +336,12 @@
 <div id="chat-panel">
   <div id="chat-header">
     <span>Graph Chat / 圖形對話</span>
-    <button id="chat-clear" title="Clear chat history">Clear</button>
+    <div class="chat-header-actions">
+      <button id="chat-maximize" title="Maximize window / 放大視窗" aria-label="Maximize window">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>
+      </button>
+      <button id="chat-clear" title="Clear chat history">Clear</button>
+    </div>
   </div>
   <div id="chat-messages">
     <div class="chat-msg bot">Ask me about the knowledge graph!</div>
@@ -2233,6 +2253,7 @@ const chatMessages = document.getElementById('chat-messages');
 const chatInput = document.getElementById('chat-input');
 const chatSend = document.getElementById('chat-send');
 const chatClearBtn = document.getElementById('chat-clear');
+const chatMaximizeBtn = document.getElementById('chat-maximize');
 const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 
 const INTENT_API = 'https://api.johnnykuo.com/api/intent';
@@ -2252,6 +2273,16 @@ chatBtn.addEventListener('click', () => {
   chatBtn.classList.toggle('open', chatOpen);
   chatBtn.innerHTML = chatOpen ? '&#10005;' : '&#128172;';
   if (chatOpen) chatInput.focus();
+});
+
+const MAXIMIZE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>';
+const RESTORE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5V1H5"/><path d="M13 9V13H9"/><path d="M5 13H1V9"/><path d="M9 1H13V5"/></svg>';
+
+chatMaximizeBtn.addEventListener('click', () => {
+  const maximized = chatPanel.classList.toggle('maximized');
+  chatMaximizeBtn.innerHTML = maximized ? RESTORE_ICON : MAXIMIZE_ICON;
+  chatMaximizeBtn.title = maximized ? 'Restore window / 還原視窗' : 'Maximize window / 放大視窗';
+  if (maximized) chatInput.focus();
 });
 
 function escChatHtml(s) {
@@ -2327,7 +2358,13 @@ async function sendChatMessage() {
   chatHistory.push({ role: 'user', content: clean });
 
   const typingDiv = addChatMessage('Thinking', 'typing');
-  typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span class="typing-dots"><span></span><span></span><span></span></span>';
+  typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" style="color:#666;font-size:12px;min-width:42px;display:inline-block"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
+
+  const typingStart = performance.now();
+  const typingElapsed = typingDiv.querySelector('#typing-elapsed');
+  let typingTimerId = setInterval(() => {
+    typingElapsed.textContent = `(${((performance.now() - typingStart) / 1000).toFixed(1)}s)`;
+  }, 100);
 
   try {
     // Phase 1: Parse intent
@@ -2388,6 +2425,7 @@ async function sendChatMessage() {
     chatHistory.pop();
     addChatMessage('Could not reach the chat server.', 'error');
   } finally {
+    if (typingTimerId) { clearInterval(typingTimerId); typingTimerId = null; }
     chatBusy = false;
     chatSend.disabled = false;
     chatInput.focus();
