@@ -4,6 +4,7 @@ import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
 from llm import answer_question, parse_intent, translate_text
@@ -64,7 +65,7 @@ async def origin_gate(request: Request, call_next):
         return await call_next(request)
 
     logger.warning(f"Blocked request from origin={origin!r} referer={referer!r}")
-    raise HTTPException(status_code=403, detail="Forbidden: unknown origin")
+    return JSONResponse(status_code=403, content={"detail": "Origin not allowed"})
 
 
 class ChatRequest(BaseModel):
