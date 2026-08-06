@@ -2475,13 +2475,15 @@ function highlightChatNodes(nodeIds, edgePairs) {
   // Show highlight badge
   chatHighlightBadge.classList.add('visible');
 
-  // Animate camera to center of highlighted nodes
+  // Animate camera to center of highlighted nodes (offset to top-left to avoid sidebar)
   const meshes = nodeIds.map(id => nodeObjects.get(id)).filter(Boolean);
   if (meshes.length > 0) {
     const center = new THREE.Vector3();
     meshes.forEach(m => center.add(m.position));
     center.divideScalar(meshes.length);
-    const cameraOffset = new THREE.Vector3(150, 150, 150);
+    // Offset camera to position nodes in top-left (avoiding sidebar on right)
+    const sidebarOffset = window.innerWidth >= 768 ? 180 : 0;
+    const cameraOffset = new THREE.Vector3(150 + sidebarOffset * 0.3, 180, 150);
     animateCamera(center.clone().add(cameraOffset), center);
   }
 }
