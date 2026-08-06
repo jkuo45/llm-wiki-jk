@@ -72,6 +72,7 @@ def graph_query(question: str) -> dict:
             "text": f"No nodes found matching '{question}'. Try a different term.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
 
     # BFS up to depth 3
@@ -122,6 +123,7 @@ def graph_query(question: str) -> dict:
         "text": "\n".join(text_lines),
         "highlight_nodes": list(subgraph_nodes)[:200],
         "highlight_edges": highlight_edges,
+        "primary_node": start_nodes[0],
     }
 
 
@@ -136,6 +138,7 @@ def graph_explain(node_name: str) -> dict:
             "text": f"No node found matching '{node_name}'. Try a different name.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
 
     ndata = G.nodes[nid]
@@ -188,6 +191,7 @@ def graph_explain(node_name: str) -> dict:
         "text": "\n".join(line for line in text_lines if line is not None),
         "highlight_nodes": highlight_node_ids,
         "highlight_edges": highlight_edges[:100],
+        "primary_node": nid,
     }
 
 
@@ -203,6 +207,7 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": f"Could not find node matching '{from_name}'.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
     if not tgt:
         return {
@@ -210,6 +215,7 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": f"Could not find node matching '{to_name}'.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
 
     try:
@@ -255,6 +261,7 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": "\n".join(text_lines),
             "highlight_nodes": path,
             "highlight_edges": highlight_edges,
+            "primary_node": src,
         }
 
     except nx.NetworkXNoPath:
@@ -265,4 +272,5 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": f"No path found between '{src_label}' and '{tgt_label}'.",
             "highlight_nodes": [src, tgt],
             "highlight_edges": [],
+            "primary_node": src,
         }

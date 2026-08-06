@@ -2750,15 +2750,11 @@ function highlightForMessage(queryText, data) {
       serverEdgePresent.push([a, b]);
     }
   });
-  // Designate a "primary" node to frame the camera on. Prefer the highest-degree
-  // node explicitly returned by the server; otherwise fall back to the highest-
-  // degree locally matched node.
-  let primary;
-  if (serverNodes.length) {
-    primary = serverNodes.sort((a, b) =>
-      (nodeMap.get(b)?.degree || 0) - (nodeMap.get(a)?.degree || 0)
-    )[0];
-  } else if (nodes.length) {
+  // Designate a "primary" node to frame the camera on. The server knows best:
+  // prefer its explicit `primary_node` when it's in the highlighted set; fall
+  // back to the highest-degree node among those we matched/highlighted.
+  let primary = data.primary_node && allSet.has(data.primary_node) ? data.primary_node : null;
+  if (!primary && nodes.length) {
     primary = nodes.sort((a, b) =>
       (nodeMap.get(b)?.degree || 0) - (nodeMap.get(a)?.degree || 0)
     )[0];
