@@ -3,7 +3,7 @@
 import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
 from llm import answer_question, parse_intent, translate_text
@@ -12,6 +12,12 @@ from sanitize import sanitize_input, validate_intent
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+ALLOWED_ORIGINS = {
+    "https://www.johnnykuo.com",
+    "https://johnnykuo.com",
+    "https://graph.johnnykuo.com",
+}
 
 
 @asynccontextmanager
@@ -32,14 +38,33 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://www.johnnykuo.com",
-        "https://johnnykuo.com",
-        "https://graph.johnnykuo.com",
-    ],
+    allow_origins=sorted(ALLOWED_ORIGINS),
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def origin_gate(request: Request, call_next):
+    """Reject requests that did not originate from an allowed UI origin."""
+    if request.url.path == "/api/health":
+        return await call_next(request)
+
+    origin = request.headers.get("origin")
+    referer = request.headers.get("referer", "")
+
+    # In-origin requests carry a browser Origin header from the allowlisted UI.
+    # If Origin is present it must be allowed. Otherwise fall back to Referer.
+    if origin:
+        if origin in ALLOWED_ORIGINS:
+            return await call_next(request)
+    elif referer.startswith("http") and any(
+        referer.startswith(u) for u in ALLOWED_ORIGINS
+    ):
+        return await call_next(request)
+
+    logger.warning(f"Blocked request from origin={origin!r} referer={referer!r}")
+    raise HTTPException(status_code=403, detail="Forbidden: unknown origin")
 
 
 class ChatRequest(BaseModel):
