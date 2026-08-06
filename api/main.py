@@ -63,6 +63,7 @@ class ExecuteRequest(BaseModel):
     node: str | None = None
     from_node: str | None = None
     to_node: str | None = None
+    message: str | None = None
 
 
 class ChatResponse(BaseModel):
