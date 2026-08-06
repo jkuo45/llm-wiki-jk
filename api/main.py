@@ -184,7 +184,7 @@ def _unknown_result() -> dict:
 @app.post("/api/execute", response_model=ChatResponse)
 async def execute_endpoint(request: ExecuteRequest):
     """Phase 2: Run graph op (if explicitly requested) or opencode chat."""
-    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "unknown"}
+    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path"}
     if request.intent not in ALLOWED_INTENTS:
         return _unknown_result()
 
