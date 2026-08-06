@@ -19,6 +19,14 @@ DANGEROUS_PATTERNS = [
     r'<\s*script',  # script tags
     r'javascript:', # javascript protocol
     r'on\w+\s*=',   # event handlers (onclick=, onerror=, etc.)
+    # Destructive file operations
+    r'\bdelete\b.*\bfile\b',
+    r'\bremove\b.*\bfile\b',
+    r'\bunlink\b',
+    r'\bdestroy\b.*\bfile\b',
+    r'\berase\b',
+    r'\bdrop\b.*\btable\b',
+    r'\btruncate\b',
 ]
 
 _DANGEROUS_RE = re.compile('|'.join(DANGEROUS_PATTERNS), re.IGNORECASE)
