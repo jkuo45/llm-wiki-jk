@@ -2583,8 +2583,14 @@ async function sendChatMessage() {
     addChatMessage(data.text, 'bot', badge);
     chatHistory.push({ role: 'assistant', content: data.text });
 
-    if (data.highlight_nodes && data.highlight_nodes.length > 0) {
-      highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
+    if (data.text || data.highlight_nodes?.length) {
+      // Always highlight the nodes most related to the user's query AND the
+      // assistant's response: server-provided highlights take priority, then we
+      // fall back to (and merge with) a local relevance match over node labels.
+      const highlighted = highlightForMessage(clean, data);
+      if (highlighted.nodes.length > 0) {
+        highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
+      }
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
@@ -2670,7 +2676,97 @@ chatClearBtn.addEventListener('click', () => {
 // ============================================================
 // Chat Graph Highlighting
 // ============================================================
-function highlightChatNodes(nodeIds, edgePairs) {
+// A lowercase word-boundary index of node labels -> node id. Used to find the
+// nodes "most related" to a query/response locally whenever the server does
+// not (or does not fully) specify which nodes a chat turn touches.
+const labelDataIndex = new Map();
+RAW_NODES.forEach(n => {
+  const label = String(n.label || '').toLowerCase().trim();
+  if (label) labelDataIndex.set(label, n.id);
+});
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Build a regex that matches the label only on word boundaries, so a short or
+// common token (e.g. "A", "DNA") does not false-positive inside larger words.
+function labelBoundaryRegex(label) {
+  const esc = escapeRegex(label.replace(/\s+/g, '\\s+'));
+  return new RegExp('(^|[^a-z0-9])\\s*' + esc + '\\s*([^a-z0-9]|$)', 'i');
+}
+
+// Find nodes whose canonical label (or Chinese translation) appears in a blob
+// of text (the user's question + the assistant's response).
+function matchNodesInText(blob) {
+  const text = ' ' + String(blob || '').toLowerCase() + ' ';
+  const matchedIds = new Set();
+  // Prefer exact English labels; skip empty ones.
+  labelDataIndex.forEach((nodeId, label) => {
+    if (!label) return;
+    if (labelBoundaryRegex(label).test(text)) matchedIds.add(nodeId);
+  });
+  // Also match against translated labels where available.
+  RAW_NODES.forEach(n => {
+    const zh = TRANSLATIONS[n.label];
+    if (!zh || !n.id || matchedIds.has(n.id)) return;
+    if (labelBoundaryRegex(String(zh)).test(text)) matchedIds.add(n.id);
+  });
+  return matchedIds;
+}
+
+// Return only the set of edges whose endpoints are BOTH in the node set.
+function edgesBetween(nodeIds) {
+  const present = new Set(nodeIds);
+  const pairs = new Map();
+  RAW_EDGES.forEach(e => {
+    if (present.has(e.from) && present.has(e.to)) {
+      const key = [e.from, e.to].sort().join('::');
+      if (!pairs.has(key)) pairs.set(key, [e.from, e.to]);
+    }
+  });
+  return Array.from(pairs.values());
+}
+
+// Combine server-declared highlights (nodes + edges) with a local relevance
+// match over the user query and assistant response, then return a canonical
+// node list (+ the subset of edges among them).
+function highlightForMessage(queryText, data) {
+  const serverNodes = (data.highlight_nodes || []).filter(Boolean);
+  const serverEdges = (data.highlight_edges || []).filter(p => Array.isArray(p) && p.length >= 2);
+  const serverSet = new Set(serverNodes);
+  const localSet = matchNodesInText(queryText + ' ' + (data.text || ''));
+  const allSet = new Set(serverNodes);
+  localSet.forEach(id => allSet.add(id));
+  const nodes = Array.from(allSet);
+  // Edges: start from server edges that still connect present nodes, then add
+  // any additional edges among the final (server+local) node set.
+  const serverEdgePresent = serverEdges.filter(([a, b]) => allSet.has(a) && allSet.has(b));
+  const pairSet = new Set(serverEdgePresent.map(([a, b]) => [a, b].sort().join('::')));
+  edgesBetween(nodes).forEach(([a, b]) => {
+    const key = [a, b].sort().join('::');
+    if (!pairSet.has(key)) {
+      pairSet.add(key);
+      serverEdgePresent.push([a, b]);
+    }
+  });
+  // Designate a "primary" node to frame the camera on. Prefer the highest-degree
+  // node explicitly returned by the server; otherwise fall back to the highest-
+  // degree locally matched node.
+  let primary;
+  if (serverNodes.length) {
+    primary = serverNodes.sort((a, b) =>
+      (nodeMap.get(b)?.degree || 0) - (nodeMap.get(a)?.degree || 0)
+    )[0];
+  } else if (nodes.length) {
+    primary = nodes.sort((a, b) =>
+      (nodeMap.get(b)?.degree || 0) - (nodeMap.get(a)?.degree || 0)
+    )[0];
+  }
+  return { nodes, edges: serverEdgePresent, primary };
+}
+
+function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
   // Clear any existing trace or community focus
   if (activeTrace) clearTrace();
   if (focusedCommunity !== null) clearCommunityFocus();
@@ -2716,16 +2812,36 @@ function highlightChatNodes(nodeIds, edgePairs) {
   // Show highlight badge
   chatHighlightBadge.classList.add('visible');
 
-  // Animate camera to center of highlighted nodes (offset to top-left to avoid sidebar)
-  const meshes = nodeIds.map(id => nodeObjects.get(id)).filter(Boolean);
-  if (meshes.length > 0) {
-    const center = new THREE.Vector3();
-    meshes.forEach(m => center.add(m.position));
-    center.divideScalar(meshes.length);
-    // Offset camera to position nodes in top-left (avoiding sidebar on right)
-    const sidebarOffset = window.innerWidth >= 768 ? 180 : 0;
-    const cameraOffset = new THREE.Vector3(150 + sidebarOffset * 0.3, 180, 150);
-    animateCamera(center.clone().add(cameraOffset), center);
+  // Frame the camera on the primary node (if any), positioning it toward the
+  // top-left of the viewport so the side panel on the right doesn't cover it.
+  // Without a primary node, fall back to centering on the highlighted group.
+  const primaryMesh = primaryNodeId ? nodeObjects.get(primaryNodeId) : null;
+  const targetPos = primaryMesh
+    ? primaryMesh.position.clone()
+    : (() => {
+        const meshes = nodeIds.map(id => nodeObjects.get(id)).filter(Boolean);
+        if (!meshes.length) return null;
+        const center = new THREE.Vector3();
+        meshes.forEach(m => center.add(m.position));
+        return center.divideScalar(meshes.length);
+      })();
+
+  if (targetPos) {
+    // Camera flies in along the node's direction and looks slightly away from
+    // it, so the node sits in the upper-left quadrant of the view.
+    const hasSidebar = window.innerWidth >= 768;
+    const dist = 320;
+    const direction = targetPos.clone().sub(camera.position);
+    if (direction.lengthSq() > 0.0001) direction.normalize();
+    const offsetDir = new THREE.Vector3(-1, 1, -1).normalize(); // up-left-forward
+    const camPos = targetPos.clone().addScaledVector(direction, dist * 0.4)
+      .addScaledVector(offsetDir, dist);
+    const lookTarget = targetPos.clone().addScaledVector(
+      hasSidebar ? new THREE.Vector3(0.35, -0.3, 0).normalize()
+                 : new THREE.Vector3(0, 0, 0),
+      dist * 0.4
+    );
+    animateCamera(camPos, lookTarget);
   }
 }
 
