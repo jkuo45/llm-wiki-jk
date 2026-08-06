@@ -174,7 +174,7 @@
     border-bottom-right-radius: 2px;
   }
   .chat-msg.bot { align-self: flex-start; background: #2a2a4e; color: #ccc; border-bottom-left-radius: 2px; }
-  .chat-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 6px; border-radius: 4px; margin-bottom: 6px; }
+  .chat-badge { display: block; width: fit-content; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 6px; border-radius: 4px; margin-bottom: 8px; }
   .chat-badge.wiki { background: #2f4f4f; color: #7fe0c8; border: 1px solid #3a6f6f; }
   .chat-badge.graphify { background: #4a3f8a; color: #b8a7ff; border: 1px solid #5a4f9a; }
   .chat-msg.bot b { color: #e0e0e0; }
@@ -2272,12 +2272,27 @@ function addChatMessage(text, type, badge) {
   return div;
 }
 
+function wikiLinkUrl(name) {
+  const clean = name.trim();
+  if (!clean) return null;
+  const filename = clean.endsWith('.md') ? clean : clean + '.md';
+  if (!fileToPath.has(filename)) return null;
+  return githubSourceUrl(filename);
+}
+
 function formatBotMessage(text) {
   let html = escChatHtml(text);
   // Bold: **text**
   html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
   // Inline code: `text`
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Wiki links: [[Name]] or [[Name|Display]] -> GitHub dev-branch markdown file
+  html = html.replace(/\[\[([^\]\|]+?)(?:\|([^\]]+?))?\]\]/g, (m, name, display) => {
+    const url = wikiLinkUrl(name);
+    if (!url) return escChatHtml(m);
+    const label = (display || name).trim();
+    return `<a href="${escChatHtml(url)}" target="_blank" rel="noopener" style="color:#7cb3d4;text-decoration:underline">${escChatHtml(label)} <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`;
+  });
   // Node links: make node names clickable in highlight results
   html = html.replace(/^(\d+)\.\s/gm, '<span style="color:#666">$1.</span> ');
   // Convert newlines
