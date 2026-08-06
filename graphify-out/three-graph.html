@@ -240,7 +240,7 @@
 <button id="mobile-toggle" title="Open search and filters">&#9776;</button>
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
-  <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/graphify-out" title="View data source on GitHub" aria-label="View data source on GitHub">Data Source / 來源資料</a>
+  <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/Graphify-out" title="View data source on GitHub" aria-label="View data source on GitHub">Data Source / 來源資料</a>
 </div>
 <div id="share-panel">
   <input id="share-url" type="text" readonly>
@@ -320,10 +320,10 @@
   <div id="chat-messages">
     <div class="chat-msg bot">Ask me about the knowledge graph!</div>
     <div class="chat-suggestions" id="chat-suggestions">
-      <button class="chat-suggestion" data-query="What is Autophagy?">自噬作用是什麼？</button>
-      <button class="chat-suggestion" data-query="How does Rapamycin relate to mTOR?">Rapamycin 與 mTOR 的關係？</button>
-      <button class="chat-suggestion" data-query="Key nodes in longevity research">長壽研究的關鍵節點</button>
-      <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>
+      <button class="chat-suggestion" data-query="graphify trace from Autophagy to Rapamycin">graphify trace from Autophagy to Rapamycin</button>
+      <button class="chat-suggestion" data-query="What is NAD+?">What is NAD+?</button>
+      <button class="chat-suggestion" data-query="什麼是自噬作用？">什麼是自噬作用？</button>
+      <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
     </div>
   </div>
   <div id="chat-input-wrap">
@@ -2386,10 +2386,14 @@ document.getElementById('chat-suggestions').addEventListener('click', (e) => {
 });
 
 const SUGGESTION_SETS = [
-  ["What is NAD+?", "How does Caloric Restriction work?", "Tell me about Rapamycin"],
-  ["What are the hallmarks of aging?", "How does Metformin affect longevity?", "自噬作用是什麼？"],
-  ["What is the role of Sirtuins?", "運動如何影響自噬？", "端粒是什麼？"],
-  ["什麼是發炎老化？", "睡眠如何影響衰老？", "Explain the mTOR pathway"],
+  ["Graphify trace from Autophagy to Rapamycin", "What is NAD+?", "什麼是自噬作用？"],
+  ["Graphify explain mTOR pathway", "How does Caloric Restriction work?", "Tell me about Senolytics"],
+  ["Graphify path between Sirtuins and aging", "Rapamycin 與 mTOR 的關係？", "What are the hallmarks of aging?"],
+  ["Graphify trace from Mitochondria to NMN", "端粒是什麼？", "How does Metformin affect longevity?"],
+  ["Graphify explain Oxidative Stress", "What is the Warburg effect?", "長壽研究的關鍵節點"],
+  ["Graphify path between Autophagy and Inflammation", "How does exercise affect aging?", "NAD+ 如何隨年齡下降？"],
+  ["Graphify trace from Epigenetics to Telomeres", "Explain Epigenetic clocks", "What is the Hayflick limit?"],
+  ["Graphify explain Yamanaka factors", "How does Resveratrol work?", "What is Stem cell exhaustion?"],
 ];
 let suggestionIndex = 0;
 
@@ -2414,10 +2418,10 @@ chatClearBtn.addEventListener('click', () => {
   suggestionsDiv.className = 'chat-suggestions';
   suggestionsDiv.id = 'chat-suggestions';
   suggestionsDiv.innerHTML = `
-    <button class="chat-suggestion" data-query="What is Autophagy?">自噬作用是什麼？</button>
-    <button class="chat-suggestion" data-query="How does Rapamycin relate to mTOR?">Rapamycin 與 mTOR 的關係？</button>
-    <button class="chat-suggestion" data-query="Key nodes in longevity research">長壽研究的關鍵節點</button>
-    <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>
+    <button class="chat-suggestion" data-query="graphify trace from Autophagy to Rapamycin">graphify trace from Autophagy to Rapamycin</button>
+    <button class="chat-suggestion" data-query="What is NAD+?">What is NAD+?</button>
+    <button class="chat-suggestion" data-query="什麼是自噬作用？">什麼是自噬作用？</button>
+    <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
   `;
   chatMessages.appendChild(suggestionsDiv);
 });
@@ -2589,12 +2593,15 @@ const sharePanel = document.getElementById('share-panel');
 const shareUrl = document.getElementById('share-url');
 const shareCopy = document.getElementById('share-copy');
 
-document.getElementById('share-link').addEventListener('click', (e) => {
-  e.preventDefault();
-  shareUrl.value = window.location.href;
-  sharePanel.classList.toggle('visible');
-  shareUrl.select();
-});
+const shareLink = document.getElementById('share-link');
+if (shareLink) {
+  shareLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    shareUrl.value = window.location.href;
+    sharePanel.classList.toggle('visible');
+    shareUrl.select();
+  });
+}
 
 shareCopy.addEventListener('click', () => {
   navigator.clipboard.writeText(shareUrl.value).then(() => {
@@ -2604,7 +2611,7 @@ shareCopy.addEventListener('click', () => {
 });
 
 document.addEventListener('click', (e) => {
-  if (!sharePanel.contains(e.target) && e.target.id !== 'share-link') {
+  if (!sharePanel.contains(e.target) && e.target.id !== 'share-link' && !e.target.closest('[data-share]')) {
     sharePanel.classList.remove('visible');
   }
 });
