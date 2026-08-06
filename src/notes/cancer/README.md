@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 26_July_2026 12:00 PM PDT
-- Total count of entities: 325
+- Last updated: 28_July_2026 04:00 PM PDT
+- Total count of entities: 330
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -90,7 +90,9 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Extrinsic Pathway]] | 31_May_2026 05:30 PM PDT | Biological Process | 9 | 0 | Death receptor-mediated pathway of programmed cell death. |
 | [[FAK]] | 26_May_2026 05:03 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Fas]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Death receptor that initiates the extrinsic apoptotic pathway upon ligand binding. |
-| [[Fenbendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Benzimidazole anthelmintic showing significant potential in disrupting microtubule dynamics in cancer. |
+| [[Fenbendazole]] | 28_July_2026 03:00 PM PDT | Chemical Compound | 10 | 1 | Benzimidazole anthelmintic; repurposed anticancer agent via glycolysis inhibition, microtubule destabilization, and p53-dependent apoptosis. |
+| [[Fenbendazole sulfone]] | 28_July_2026 03:00 PM PDT | Metabolite | 6 | 0 | Oxidized fenbendazole metabolite that predominates in plasma but lacks the active biological role of oxfendazole. |
+| [[Hydroxyfenbendazole]] | 28_July_2026 03:00 PM PDT | Metabolite | 6 | 0 | Hydroxylated fenbendazole metabolite formed by CYP2J2/CYP2C19; major excretory product after IV dosing. |
 | [[FOLFIRI]] | 26_Jul_2026 12:00 PM PDT | Chemotherapy Regimen | 8 | -1 | Combination chemotherapy (5-FU/leucovorin/irinotecan); induces NAD+ loss and Nrk2 downregulation in skeletal muscle. |
 | [[FOLFOX]] | 26_Jul_2026 12:00 PM PDT | Chemotherapy Regimen | 8 | -1 | Combination chemotherapy (5-FU/leucovorin/oxaliplatin); downregulates muscle Nrk2 despite preserved NAD+ levels. |
 | [[Fibrinogen]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -126,6 +128,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[JAK2]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Ki-67]] | 19_May_2026 08:16 PM PDT | Scientific Concept | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Kitasato Institute]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
+| [[KPNB1]] | 28_Jul_2026 12:00 PM PDT | Protein | 7 | 0 | Importin-beta1; nuclear transport receptor identified as druggable oncogene in ovarian cancer; ivermectin target. |
 | [[KRAS]] | 09_Jul_2026 01:00 PM PDT | Gene | 9 | -1 | Proto-oncogene; KRAS-LKB1 co-mutation silences STING in lung cancer, enabling immune evasion. |
 | [[Leishmaniasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[leukemia]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
@@ -169,7 +172,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[PD-L1]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Pediculosis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[phospholipase A2]] | 19_May_2026 08:16 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
-| [[Pin1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Peptidyl-prolyl cis/trans isomerase that regulates Bax inactivation. |
+| [[Pin1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Peptidyl-prolyl cis/trans isomerase; consolidated to `notes/_link/Pin1.md`. |
 | [[PI3K]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PLK3]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Polo-like kinase involved in cell cycle regulation and apoptosis. |
 | [[Propolis]] | 09_Jul_2026 01:00 PM PDT | Chemical Compound | 7 | 1 | Bee resin with flavonoids and CAPE; anti-inflammatory and anti-cancer properties relevant to apitherapy. |
@@ -179,7 +182,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Prostate Cancer]] | 31_May_2026 05:30 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[PTPN2]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Tyrosine phosphatase that negatively regulates JAK/STAT signaling. |
 | [[PTPN23]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | Tumor suppressor phosphatase regulating endosomal trafficking. |
-| [[PTPN5]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | Striatal-enriched phosphatase regulating MAPK signaling. |
+| [[PTPN5]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | STEP phosphatase; consolidated to `notes/_link/PTPN5.md`. |
 | [[Pyruvate Kinase M2]] | 21_May_2026 06:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Pyroptosis]] | 21_May_2026 05:45 PM PDT | Biological Process | 8 | 1 | Important cellular mechanism involved in cancer progression or response to therapy. |
 | [[RAF1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Serine/threonine kinase that phosphorylates and inactivates Bad. |
@@ -239,7 +242,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[RAIDD]] | 31_May_2026 05:30 PM PDT | Protein | 7 | 0 | Adaptor protein in the PIDDosome complex. |
 | [[RSK]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Kinase downstream of ERK that inhibits Bim and Apaf-1. |
 | [[SCF Complex]] | 31_May_2026 05:30 PM PDT | Biological Molecule | 8 | 0 | Multi-subunit E3 ubiquitin ligase complex. |
-| [[SHP1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Protein tyrosine phosphatase required for the dephosphorylation of Caspase-8. |
+| [[SHP1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | PTPN6 phosphatase; consolidated to `notes/_link/SHP1.md`. |
 | [[Tyrosine Kinase Inhibitors]] | 31_May_2026 05:30 PM PDT | Chemical Class | 9 | 1 | Targeted therapy drugs that inhibit pro-survival signaling. |
 | [[Ubiquitination]] | 31_May_2026 05:30 PM PDT | Chemical Process | 8 | 0 | Post-translational modification targeting proteins for degradation. |
 | [[USP9X]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Deubiquitinating enzyme that stabilizes Mcl-1. |
@@ -253,6 +256,9 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Anaplerosis]] | 25_July_2026 12:00 PM PDT | Biological Process | 7 | 0 | Replenishment of TCA cycle intermediates; glutamine anaplerosis is the dominant route in MYC-high cancer cells. |
 | [[Synthetic Lethality]] | 25_July_2026 12:00 PM PDT | Scientific Concept | 9 | 1 | Therapeutic strategy; combined Complex I + glutaminolysis inhibition selectively kills MYC-high cells. |
 | [[Glutaminolysis]] | 25_July_2026 12:00 PM PDT | Biological Process | 8 | 0 | Metabolic pathway of glutamine catabolism for TCA cycle entry; MYC enhances glutaminolysis in cancer. |
+| [[Diffuse large B-cell lymphoma]] | 28_July_2026 03:00 PM PDT | Cancer Type | 8 | -1 | Most common aggressive non-Hodgkin lymphoma; fenbendazole self-administration case with radiographic improvement. |
+| [[R-CHOP]] | 28_July_2026 03:00 PM PDT | Chemotherapy Regimen | 8 | -1 | First-line DLBCL regimen (rituximab + cyclophosphamide/doxorubicin/vincristine/prednisone). |
+| [[EMT6]] | 28_July_2026 04:00 PM PDT | Cell Line | 7 | 0 | Mouse mammary tumor cell line; negative-result model for fenbendazole in vivo anticancer activity. |
 
 ## Consolidated to notes/_link/
 

@@ -4,7 +4,7 @@ description: SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian
   of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes
   (both bacteria and archaea). This deep ...
 created: 2026-07-02
-updated: 2026-07-05
+updated: 2026-08-03
 tags:
   - protein
   - nad+
@@ -51,7 +51,7 @@ SIRT5 regulates ketogenesis by desuccinylating **HMGCS2** (3-hydroxy-3-methylglu
 
 ### Fatty Acid Oxidation and TCA Cycle
 
-SIRT5 desuccinylates multiple enzymes in fatty acid β-oxidation (e.g., [[LCAD]], [[ACADS]]) and the TCA cycle (e.g., [[IDH2]], [[SDHA]]), thereby coordinating mitochondrial energy metabolism.
+SIRT5 desuccinylates multiple enzymes in fatty acid β-oxidation (e.g., [[Fatty acid oxidation|LCAD]], [[Fatty acid oxidation|ACADS]]) and the TCA cycle (e.g., [[IDH2]], [[TCA cycle|SDHA]]), thereby coordinating mitochondrial energy metabolism.
 
 ### Reactive Oxygen Species (ROS) Detoxification
 
@@ -91,6 +91,7 @@ List of documents that mention this entity
     - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
 
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
 - [[SIRT3]] — fellow mitochondrial sirtuin; robust deacetylase (contrast with SIRT5's deacylase activities)
@@ -100,9 +101,9 @@ List of documents that mention this entity
 - [[CPS1]] — primary substrate; desuccinylated and activated by SIRT5
 - [[LDHB]] — deacetylated by SIRT5 to activate autophagy
 - [[Sir2 (yeast)]] — distantly related founding sirtuin member
-- [[Sirtuin Family]] — conserved enzymatic family spanning all domains of life
+- [[Sirtuins|Sirtuin Family]] — conserved enzymatic family spanning all domains of life
 
 ## Linking Summary
 - New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[CPS1]], [[LDHB]], [[Sir2 (yeast)]]
-- Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]], [[HMGCS2]]
+- Suggested new entity notes to create: desuccinylase activity, [[Mitochondrial Matrix]], [[HMGCS2]]
 - Strong connections to strengthen: [[SIRT5]] ↔ [[SIRT3]], [[SIRT5]] ↔ [[CPS1]], [[SIRT5]] ↔ [[NAD+]]

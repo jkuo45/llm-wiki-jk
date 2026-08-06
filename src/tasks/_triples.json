@@ -1,0 +1,650 @@
+[
+  {
+    "subject": "Acid Ceramidase",
+    "predicate": "is encoded by",
+    "object": "ASAH1",
+    "context": "Acid ceramidase (ACase, aCDase) is encoded by ASAH1. It is a lysosomal hydrolase that cleaves ceramide into sphingosine and a free fatty acid.",
+    "confidence": "0.95",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "Acid Ceramidase",
+    "predicate": "cleaves",
+    "object": "Ceramide",
+    "context": "ACase catalyzes the primary reaction: Ceramide + H2O → Sphingosine + Free fatty acid. It is a cysteine amidase with activity blocked by thiol-reactive agents targeting Cys143.",
+    "confidence": "0.95",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "Acid Ceramidase",
+    "predicate": "is overexpressed in",
+    "object": "Senescent Cells",
+    "context": "ACase is overexpressed 5- to 20-fold in replicatively senescent WI-38 fibroblasts compared to proliferative controls, creating a pro-ferroptotic membrane lipid profile.",
+    "confidence": "0.95",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "Acid Ceramidase",
+    "predicate": "sensitizes cells to",
+    "object": "Ferroptosis",
+    "context": "ACase overexpression creates a pro-ferroptotic membrane lipid profile independent of GPX4/GSH and iron axes, sensitizing senescent cells to ferroptotic death.",
+    "confidence": "0.95",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "induces upregulation of",
+    "object": "Acid Ceramidase",
+    "context": "SASP cytokines IL-6 and IL-8 induce ACase upregulation and ferroptotic sensitization in neighboring proliferative cells via paracrine signaling.",
+    "confidence": "0.90",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "ARN14794",
+    "predicate": "inhibits",
+    "object": "Acid Ceramidase",
+    "context": "ARN14794 has IC50 ~100 nM against acid ceramidase and was specifically used in the Soriano-Castell 2026 ferroptosis study to reduce membrane PL-PUFA content.",
+    "confidence": "0.95",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "Carmofur",
+    "predicate": "inhibits",
+    "object": "Acid Ceramidase",
+    "context": "Carmofur has IC50 29 nM against acid ceramidase, is clinically approved in Japan, crosses the BBB, and is a repurposing candidate for senolytic therapy.",
+    "confidence": "0.95",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "generates",
+    "object": "Reactive Oxygen Species",
+    "context": "Adrenochrome semiquinone radical generates ROS through redox cycling. The autoxidation/redox cycling pathway produces superoxide, amplifying oxidative stress.",
+    "confidence": "0.95",
+    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+  },
+  {
+    "subject": "Nicotinamide Riboside",
+    "predicate": "activates",
+    "object": "Sirtuins",
+    "context": "NR (nicotinamide riboside) is an NAD+ precursor that restores SIRT activity. NAD+ repletion via NR restores sirtuin function depleted by adrenochrome redox cycling.",
+    "confidence": "0.90",
+    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "MnSOD",
+    "context": "SIRT3 deacetylates and activates MnSOD (manganese superoxide dismutase), the mitochondrial superoxide scavenger, at residues K68 and K122.",
+    "confidence": "0.95",
+    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+  },
+  {
+    "subject": "PGC-1alpha",
+    "predicate": "drives",
+    "object": "MnSOD",
+    "context": "PGC-1α drives MnSOD expression, which then feeds sirtuins. This is the SIRT3-mediated activation axis forming the enzymatic defense against adrenochrome-generated ROS.",
+    "confidence": "0.90",
+    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+  },
+  {
+    "subject": "AP-1",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": "AP-1 acts as a pioneer factor opening closed chromatin at SASP super-enhancers, co-bound with BRD4 and C/EBPα. It drives SASP enhancer activity in senescent cells.",
+    "confidence": "0.90",
+    "source": "task_output_ap1_trace_21_JUL_2026.md"
+  },
+  {
+    "subject": "AP-1",
+    "predicate": "co-regulates with",
+    "object": "NF-kappaB",
+    "context": "AP-1 and NF-κB are co-regulators of inflammatory SASP genes. They share transcriptional targets including IL-6, IL-8, and TNFα.",
+    "confidence": "0.90",
+    "source": "task_output_ap1_trace_21_JUL_2026.md"
+  },
+  {
+    "subject": "AP-1",
+    "predicate": "transactivates",
+    "object": "CXCL5",
+    "context": "AP-1 transactivates CXCL5 (a SASP chemokine), which feeds inflammaging. Caloric restriction suppresses inflammaging and activates autophagy via mTOR/AMPK.",
+    "confidence": "0.85",
+    "source": "task_output_ap1_trace_21_JUL_2026.md"
+  },
+  {
+    "subject": "BRD4",
+    "predicate": "co-binds with",
+    "object": "AP-1",
+    "context": "BRD4 co-binds H3K27ac at SASP super-enhancers alongside AP-1, facilitating the senescence-associated secretory phenotype program.",
+    "confidence": "0.90",
+    "source": "task_output_ap1_trace_21_JUL_2026.md"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "is pro-survival in",
+    "object": "Cancer",
+    "context": "In established tumors, autophagy acts as a survival mechanism allowing cancer cells to survive nutrient-poor and hypoxic conditions. This is the majority view supported by multiple clinical trials using HCQ.",
+    "confidence": "0.85",
+    "source": "task_output_autophagy_and_cancer_13_JUL_2026.md"
+  },
+  {
+    "subject": "Hydroxychloroquine",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": "HCQ blocks cytoprotective autophagy in cancer cells and is combined with chemotherapy in clinical trials. Results have been modest and inconsistent across cancer types.",
+    "confidence": "0.90",
+    "source": "task_output_autophagy_and_cancer_13_JUL_2026.md"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "requires",
+    "object": "Autophagy",
+    "context": "Longevity interventions including caloric restriction require autophagy — life-extension by CR is abolished when autophagy is blocked in model organisms.",
+    "confidence": "0.95",
+    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+  },
+  {
+    "subject": "p62",
+    "predicate": "mediates degradation of",
+    "object": "p16",
+    "context": "SQSTM1/p62-mediated selective autophagy directly degrades p16 and p21 (independent of UPS), reversing the senescent phenotype in canine MMVD valve cells.",
+    "confidence": "0.90",
+    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+  },
+  {
+    "subject": "TRIAD",
+    "predicate": "tests",
+    "object": "Rapamycin",
+    "context": "TRIAD (Test of Rapamycin In Aging Dogs) is a parallel-group, double-masked, randomized, placebo-controlled trial testing rapamycin's effect on lifespan and healthspan in companion dogs.",
+    "confidence": "0.95",
+    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "is a subtype of",
+    "object": "Autophagy",
+    "context": "Mitophagy is a subtype of selective autophagy targeting only damaged/dysfunctional mitochondria. It converges on the same terminal step (autophagosome → lysosome) but differs in selectivity and initiation.",
+    "confidence": "0.95",
+    "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "initiates",
+    "object": "Mitophagy",
+    "context": "PINK1 stabilization on depolarized mitochondria triggers a positive-feedback threshold for Parkin recruitment, initiating mitophagy. Sub-threshold stress does not engage the pathway.",
+    "confidence": "0.95",
+    "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "is required for",
+    "object": "Mitophagy",
+    "context": "DRP1-mediated mitochondrial fission is a prerequisite step for mitophagy — it severs the damaged segment for autophagosomal engulfment. However, cardiac-specific DRP1-KO shows mitophagy can occur without it.",
+    "confidence": "0.85",
+    "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+  },
+  {
+    "subject": "SHP1",
+    "predicate": "dephosphorylates",
+    "object": "Caspase-8",
+    "context": "SHP1 (PTPN6) removes inhibitory phosphate groups from Caspase-8 at Tyr380/397/465, restoring the cell's sensitivity to death ligands TRAIL and FasL.",
+    "confidence": "0.95",
+    "source": "task_output_caspase_01_JUN_2026.md"
+  },
+  {
+    "subject": "PAK2",
+    "predicate": "phosphorylates",
+    "object": "Caspase-7",
+    "context": "PAK2 directly binds and phosphorylates Caspase-7 at Ser30, Thr173, and Ser239, neutralizing its effector function and promoting survival in breast cancer.",
+    "confidence": "0.95",
+    "source": "task_output_caspase_01_JUN_2026.md"
+  },
+  {
+    "subject": "Pin1",
+    "predicate": "locks inactive",
+    "object": "BAX",
+    "context": "Pin1 binding to phosphorylated BAX (Thr167) catalyzes a conformational change that locks Bax in an inactive state, preventing mitochondrial translocation and MOMP.",
+    "confidence": "0.95",
+    "source": "task_output_caspase_01_JUN_2026.md"
+  },
+  {
+    "subject": "PTPN5",
+    "predicate": "dephosphorylates",
+    "object": "BAK",
+    "context": "PTPN5 (STEP), along with PTPN2 and PTPN23, dephosphorylates BAK at Tyr108, licensing it for mitochondrial outer membrane permeabilization and apoptosis.",
+    "confidence": "0.95",
+    "source": "task_output_caspase_01_JUN_2026.md"
+  },
+  {
+    "subject": "TBK1",
+    "predicate": "phosphorylates",
+    "object": "XIAP",
+    "context": "TBK1 and IKKε phosphorylate XIAP at Ser430 within its RING finger domain, triggering Lys48-linked autoubiquitination and proteasomal degradation, sensitizing cells to apoptosis.",
+    "confidence": "0.95",
+    "source": "task_output_caspase_01_JUN_2026.md"
+  },
+  {
+    "subject": "K-RAS",
+    "predicate": "blocks activation of",
+    "object": "BAK",
+    "context": "In K-RAS mutated cancers, hyperactive ERK1/2 phosphorylates and inactivates PTPN5, locking BAK in its inactive phosphorylated state and providing resistance to apoptosis.",
+    "confidence": "0.90",
+    "source": "task_output_caspase_01_JUN_2026.md"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": "Fisetin is a mixed-type COMT inhibitor with IC50 2.6-5.8 µM. It is also a COMT substrate — itself O-methylated to geraldol — making inhibition concentration-dependent and genotype-sensitive.",
+    "confidence": "0.95",
+    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "is metabolized to",
+    "object": "Geraldol",
+    "context": "Fisetin is metabolized by COMT to geraldol (3'-O-methylfisetin). This metabolic activation is concentration-dependent and consumes SAMe, generating SAH.",
+    "confidence": "0.95",
+    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "Bcl-2",
+    "context": "Fisetin binds the hydrophobic groove of anti-apoptotic Bcl-2 family proteins, sensitizing senescent cells to apoptosis. Bcl-2:fisetin binding energy = -22.2 to -35.1 kcal/mol.",
+    "confidence": "0.90",
+    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "CR induces autophagy via energy deficit — increased AMP/ATP ratio activates AMPK, which phosphorylates and activates ULK1 while inhibiting mTORC1.",
+    "confidence": "0.95",
+    "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "inhibits",
+    "object": "HAT",
+    "context": "Spermidine induces autophagy without caloric deficit by directly inhibiting histone acetyltransferase p300, causing global deacetylation and upregulation of Atg gene transcription.",
+    "confidence": "0.95",
+    "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "hypusinates",
+    "object": "eIF5A",
+    "context": "Spermidine drives eIF5A hypusination, which promotes TFEB translation, leading to autophagy and lysosomal biogenesis.",
+    "confidence": "0.95",
+    "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+  },
+  {
+    "subject": "DJ-1",
+    "predicate": "detoxifies",
+    "object": "Methylglyoxal",
+    "context": "DJ-1 is a glutathione-independent glyoxalase that stereospecifically detoxifies methylglyoxal into L-lactate, bypassing the glutathione requirement of the canonical glyoxalase system.",
+    "confidence": "0.95",
+    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+  },
+  {
+    "subject": "DJ-1",
+    "predicate": "stabilizes",
+    "object": "Nrf2",
+    "context": "DJ-1 stabilizes Nrf2 by blocking KEAP1, driving GLO1/GLO2 transcription for enhanced dicarbonyl clearance and HO-1/NQO1 for antioxidant defense.",
+    "confidence": "0.95",
+    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+  },
+  {
+    "subject": "PARK7",
+    "predicate": "causes",
+    "object": "Parkinson's Disease",
+    "context": "PARK7 mutations (L166P, M26I) cause early-onset autosomal recessive Parkinson's disease. DJ-1-deficient neurons show fragmented mitochondria, Complex I impairment, and accelerated α-synuclein aggregation.",
+    "confidence": "0.95",
+    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+  },
+  {
+    "subject": "Nrf2",
+    "predicate": "transactivates",
+    "object": "SIRT6",
+    "context": "Nrf2 drives SIRT6 transcription via ARE in its promoter. SIRT6 co-activates Nrf2, creating a feed-forward amplification loop for antioxidant defense.",
+    "confidence": "0.90",
+    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "promotes degradation of",
+    "object": "PAK1",
+    "context": "Ivermectin promotes proteasomal degradation of PAK1 via the ubiquitin-proteasome pathway without affecting PAK1 mRNA levels. This is its primary host kinase target for anticancer effects.",
+    "confidence": "0.95",
+    "source": "task_output_ivermectin_cancer_14_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "P-gp",
+    "context": "Ivermectin is a potent P-glycoprotein inhibitor, reversing multidrug resistance by blocking drug efflux. Also inhibits MRP1/2/3.",
+    "confidence": "0.95",
+    "source": "task_output_ivermectin_cancer_14_JUL_2026.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "destabilizes",
+    "object": "Microtubule",
+    "context": "Fenbendazole binds the colchicine site of β-tubulin, preventing polymerization into microtubules. This causes mitotic spindle disruption, G2/M arrest, and mitotic catastrophe.",
+    "confidence": "0.95",
+    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "downregulates",
+    "object": "GLUT1",
+    "context": "Fenbendazole reduces surface expression of GLUT1, the primary glucose transporter overexpressed in cancer cells, directly impairing glucose uptake and starving tumors.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Hexokinase 2",
+    "context": "Fenbendazole down-regulates/inhibits HK2, collapsing glycolytic flux and de-repressing apoptosis at the mitochondrial level by detaching HK2 from VDAC.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "stabilizes",
+    "object": "p53",
+    "context": "Fenbendazole down-regulates MDM2 and MdmX, preventing p53 degradation and allowing stabilized p53 to transactivate pro-apoptotic targets (Bax, PUMA, Noxa).",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "mediates fusion of",
+    "object": "Mitochondria",
+    "context": "OPA1 is the inner mitochondrial membrane fusion GTPase with 8 splice variants processed by OMA1 (stress) and YME1L (constitutive). Cardiolipin is required for OPA1-mediated fusion.",
+    "confidence": "0.95",
+    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+  },
+  {
+    "subject": "Cardiolipin",
+    "predicate": "stimulates",
+    "object": "DRP1",
+    "context": "Cardiolipin stimulates DRP1 GTPase activity for fission AND is required for OPA1-mediated fusion — it has dual pro-fusion and pro-fission roles depending on context.",
+    "confidence": "0.85",
+    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "OPA1",
+    "context": "SIRT3 deacetylates OPA1 at Lys926/Lys931 to activate mitochondrial fusion. The mechanism of mtSIRTs on autophagy is still unclear.",
+    "confidence": "0.85",
+    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+  },
+  {
+    "subject": "CD38",
+    "predicate": "consumes",
+    "object": "NAD+",
+    "context": "CD38 is the primary enzymatic consumer of NAD+ in mammalian tissues during aging. Chronic inflammaging causes CD38 upregulation on neutrophils and macrophages, starving sirtuins.",
+    "confidence": "0.95",
+    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+  },
+  {
+    "subject": "Neutrophils",
+    "predicate": "oxidize",
+    "object": "Epinephrine",
+    "context": "Activated neutrophils oxidize local epinephrine to adrenochrome via ROS and myeloperoxidase, accounting for >80% of adrenaline oxidation in neutrophil-rich environments. [HYPOTHESIS: quantitative claim]",
+    "confidence": "0.50",
+    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "NF-kappaB",
+    "context": "SIRT1 deacetylates RelA/p65 at Lys310, inhibiting NF-κB-dependent pro-inflammatory gene expression (TNF-α, IL-6, IL-1β). This is an established anti-inflammatory mechanism.",
+    "confidence": "0.95",
+    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "extends lifespan",
+    "object": "Mice",
+    "context": "Male transgenic mice overexpressing SIRT6 show ~30% lifespan extension. SIRT6 KO mice die within ~4 weeks with dramatic progeroid phenotype. [ESTABLISHED: animal data]",
+    "confidence": "0.90",
+    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "MnSOD",
+    "context": "SIRT3 deacetylates MnSOD at K68 and K122, dramatically increasing its ROS-scavenging activity. Honokiol enhances this deacetylation.",
+    "confidence": "0.95",
+    "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "stabilizes",
+    "object": "TFEB",
+    "context": "Cytoplasmic SIRT2 directly binds to the 3'-UTR of TFEB mRNA and facilitates its stability, promoting lysosomal biogenesis and autophagosome-lysosome fusion. [HYPOTHESIS: novel finding from triple database]",
+    "confidence": "0.50",
+    "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
+  },
+  {
+    "subject": "Daratumumab",
+    "predicate": "targets",
+    "object": "CD38",
+    "context": "Daratumumab is a clinically approved IgG1 antibody for multiple myeloma that binds and neutralizes CD38. Potential repurposing at low doses for NAD+ preservation. [HYPOTHESIS: repurposing proposal]",
+    "confidence": "0.40",
+    "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "inhibits",
+    "object": "PDE4",
+    "context": "Resveratrol acts as a competitive inhibitor of cAMP phosphodiesterases (PDE4), leading to cAMP accumulation, Epac1 activation, Ca2+ release, and AMPK activation.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_resveratrol_en-US.md"
+  },
+  {
+    "subject": "CDK1",
+    "predicate": "phosphorylates",
+    "object": "Caspase-2",
+    "context": "CDK1/CYCLIN B1 phosphorylates Caspase-2 at Ser308, suppressing caspase activity and suppressing mitotic cell death.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "AKT",
+    "predicate": "phosphorylates",
+    "object": "Caspase-9",
+    "context": "AKT phosphorylates Caspase-9 at Ser196 (human specific), suppressing caspase activity in prostate and colon cancer cells.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "ERK",
+    "predicate": "phosphorylates",
+    "object": "BIM",
+    "context": "ERK phosphorylates BIM at Ser55/Ser65/Ser100, causing inactivation under the control of cytokine IL3.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "JNK",
+    "predicate": "activates",
+    "object": "BIM",
+    "context": "JNK and p38 MAPK phosphorylate BIM at Ser65, activating it for pro-apoptotic function.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "ERK1/2",
+    "predicate": "phosphorylates",
+    "object": "BAX",
+    "context": "ERK1/2 phosphorylates BAX at Thr167, causing inactivation via interaction with Pin1.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "CDK5",
+    "predicate": "phosphorylates",
+    "object": "NOXA",
+    "context": "CDK5 phosphorylates NOXA at Ser13, causing inactivation in metabolically regulated T-cell leukemia cells.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "Trehalose",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": "Trehalose activates TFEB via inhibiting Akt, increasing clearance of proteolipid aggregates in Batten disease and reducing cardiac hypertrophy/fibrosis in chronic MI models.",
+    "confidence": "0.90",
+    "source": "tbl_tfeb_target_mechanisms.md"
+  },
+  {
+    "subject": "Celastrol",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": "Celastrol activates TFEB via inhibiting mTORC1, reducing insoluble phosphorylated Tau aggregates and improving memory deficiency in Alzheimer's disease models.",
+    "confidence": "0.90",
+    "source": "tbl_tfeb_target_mechanisms.md"
+  },
+  {
+    "subject": "Doxorubicin",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": "Doxorubicin induces premature senescence across multiple cell lines via DNA intercalation and topoisomerase II poisoning. Effects can be p53-dependent or independent.",
+    "confidence": "0.95",
+    "source": "tbl_senescent_compounds_normalized.md"
+  },
+  {
+    "subject": "Cisplatin",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": "Cisplatin induces premature senescence via DNA intrastrand cross-links. Mechanism involves p53-p21 pathway activation and ROS-dependent signaling.",
+    "confidence": "0.95",
+    "source": "tbl_senescent_compounds_normalized.md"
+  },
+  {
+    "subject": "Bleomycin",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": "Bleomycin induces premature senescence via DNA breaks, activating p53-p21 and p16 pathways with SASP secretion.",
+    "confidence": "0.95",
+    "source": "tbl_senescent_compounds_normalized.md"
+  },
+  {
+    "subject": "Sodium Butyrate",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": "Sodium butyrate (HDAC inhibitor) induces senescence-like state via p21 upregulation, which can be both p53-dependent and independent.",
+    "confidence": "0.95",
+    "source": "tbl_senescent_compounds_normalized.md"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "interacts with",
+    "object": "Sirtuins",
+    "context": "AMPK directly interacts with and activates sirtuins (SIRT1/SIRT3). Both are nutrient-sensing longevity pathways that converge on autophagy and mitochondrial biogenesis.",
+    "confidence": "0.90",
+    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "reduces",
+    "object": "SASP",
+    "context": "Fisetin reduces circulating SASP factors including CXCL12, partially rescuing age-related endothelial dysfunction. [HYPOTHESIS: limited in vivo data]",
+    "confidence": "0.50",
+    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "methylates",
+    "object": "Epinephrine",
+    "context": "COMT is the primary clearance route for epinephrine (~60-70% via O-methylation). Competition with the oxidative cyclization pathway determines adrenochrome formation.",
+    "confidence": "0.95",
+    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "reverses",
+    "object": "Senescence",
+    "context": "mTOR-dependent autophagy induction by rapamycin attenuates senescence, lowers CDKN2A/p16 and CDKN1A/p21, and reduces SASP in canine MMVD valve interstitial cells.",
+    "confidence": "0.90",
+    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+  },
+  {
+    "subject": "Lands cycle",
+    "predicate": "remodels",
+    "object": "Phospholipid",
+    "context": "The Lands cycle exchanges fatty acids into the sn-2 position of membrane phospholipids. ACase-liberated fatty acids enter this cycle, enriching PUFA-containing species.",
+    "confidence": "0.90",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "Acid Ceramidase",
+    "predicate": "raises",
+    "object": "Sphingosine-1-phosphate",
+    "context": "ACase overexpression raises sphingosine/S1P levels, which is classically anti-apoptotic and helps senescent cells resist apoptosis via SCAP pathways.",
+    "confidence": "0.90",
+    "source": "task_output_acid_ceramidase_27_July_2026.md"
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "promotes",
+    "object": "DRP1",
+    "context": "PINK1 promotes fission via DRP1 S616 phosphorylation but also supports fusion (stabilizing OPA1, modulating MFN2). Its effects are species/cell-type dependent. [HYPOTHESIS: context-dependent paradox]",
+    "confidence": "0.50",
+    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+  },
+  {
+    "subject": "Huntingtin",
+    "predicate": "uncouples",
+    "object": "Mitophagy",
+    "context": "Mutant huntingtin (mHTT) uncouples fission from degradation while disrupting autophagic flux. Broad-spectrum autophagy activators like rapamycin may be insufficient if downstream transport remains blocked.",
+    "confidence": "0.80",
+    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+  },
+  {
+    "subject": "GSK3",
+    "predicate": "phosphorylates",
+    "object": "BAX",
+    "context": "GSK3, JNK, and p38 MAPK phosphorylate BAX at Thr167, causing activation in hepatoma cells.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "PLK3",
+    "predicate": "phosphorylates",
+    "object": "BCL-XL",
+    "context": "PLK3 phosphorylates BCL-XL at Ser49, causing cell cycle G2 arrest in lymphoma cells.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "c-ABL",
+    "predicate": "phosphorylates",
+    "object": "Caspase-9",
+    "context": "c-ABL phosphorylates Caspase-9 at Tyr153, promoting caspase activation and DNA damage-induced apoptosis.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "AKT",
+    "predicate": "phosphorylates",
+    "object": "XIAP",
+    "context": "AKT phosphorylates XIAP at Ser87, preventing ubiquitination and degradation, promoting tumor survival in ovarian cancer cells.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "RSK",
+    "predicate": "phosphorylates",
+    "object": "APAF-1",
+    "context": "RSK phosphorylates APAF-1 at Ser268, causing inhibition in prostate cancer cells.",
+    "confidence": "0.95",
+    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  }
+]

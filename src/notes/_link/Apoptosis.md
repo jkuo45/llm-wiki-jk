@@ -86,7 +86,7 @@ List of documents that mention this entity
   - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
     - On the other hand, ivermectin promotes programmed cancer cell death, including Apoptosis, Autophagy and Pyroptosis. Ivermectin induces apoptosis and autophagy is mutually regulated.
 
-  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals 1|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
     - Mentioned in this document
 
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]

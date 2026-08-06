@@ -28,6 +28,9 @@ Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark an
 [[#Heading in same note]]              Same-note heading link
 ```
 
+> [!warning] Pipe conflict in markdown tables
+> The `|` in `[[Link|Display Text]]` is interpreted as a table column separator inside markdown tables. **Never use display-text wiki links (`[[Note|Display]]`) inside table cells.** Use bare `[[Note]]` instead, or restructure the content to avoid wiki links in tables. This applies to all GFM/CommonMark table syntax.
+
 Define a block ID by appending `^block-id` to any paragraph:
 
 ```markdown

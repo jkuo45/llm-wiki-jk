@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-07-13
+updated: 2026-08-04
 ---
 # Sirtuins
 
@@ -20,6 +20,8 @@ updated: 2026-07-13
 | [[_document_ - relocalization of sirtuins - chromatin modifiers, grok\|RCM Hypothesis (Grok)]]                                                        | Grok summary of the Relocalization of Chromatin Modifiers (RCM) Hypothesis and the Information Theory of Aging                                |
 | [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics\|SIRT1: Protein Roles at the Nexus (Chaqour 2026)]] | Review positioning SIRT1 as a context-dependent "shapeshifter" NAD⁺-deacetylase linking metabolism, stress, and disease (cardio, metabolic, neurovascular, oncogenic) |
 | [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound\|Berrougui et al., Atherosclerosis 2009]] | Resveratrol inhibits lipoprotein oxidation and enhances cholesterol efflux via ABCA1; protects HDL3 functionality; atheroprotective dual mechanism |
+| [[_document_ - Sirtuins Guardians of Mammalian Healthspan\|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]] | Trends Genet review: SIRT1 (BRASTO ~11%), SIRT3 (SNPs, SOD2/IDH2), SIRT6 (male lifespan 14.5%/9.9%) as guardians of healthspan across neurodegeneration, metabolism, inflammation, cancer, and CVD |
+| [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis\|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]] | Diabetes/Metabolism Research and Reviews systems review: compartmentalised NAD+-dependent sirtuin network linking NAD+ metabolism, mitochondrial function, and metabolic homoeostasis across obesity, T2DM, MASLD, and cardiometabolic disease |
 
 ## Entity Notes
 
@@ -168,6 +170,11 @@ updated: 2026-07-13
 | [[Lipid Metabolism]] | Biological Process | Synthesis/oxidation of lipids; gated by SIRT1 via PGC-1α, LXR, FOXO, CREB |
 | [[HOXA10]] | Protein | Homeobox transcription factor; interacts with SIRT2; embryogenesis |
 | [[p33ING1b]] | Protein | Inhibitor of growth protein 1; inhibits SIRT1 deacetylation of p53; tumour suppressor |
+| [[ADAM10]] | Enzyme | Principal α-secretase; induced by SIRT1→RARβ; shifts APP away from β-secretase, attenuating β-amyloid |
+| [[IDH2]] | Enzyme | Mitochondrial isocitrate dehydrogenase; deacetylated/activated by SIRT3 to regenerate glutathione and lower ROS |
+| [[OX2R]] | Receptor | Orexin receptor type 2; upregulated by SIRT1 (via NKX2-1) in hypothalamus; mediates BRASTO lifespan extension |
+| [[CtIP]] | Protein | DNA end-resection factor; deacetylated by SIRT6; supports homologous recombination and genome stability |
+| [[SREBP2]] | Transcription Factor | Lipogenic/cholesterol transcription factor; negatively regulated by SIRT6 |
 
 ### Resveratrol Signalling Cascade
 

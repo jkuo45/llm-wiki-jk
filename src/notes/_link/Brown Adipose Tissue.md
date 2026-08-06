@@ -2,7 +2,7 @@
 title: Brown Adipose Tissue
 description: Mitochondria-rich thermogenic fat that expends energy as heat via UCP1; activated by cold exposure, a classic mitohormetic stimulus.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-31
 tags:
   - cell-type
   - adipose-tissue
@@ -30,6 +30,8 @@ BAT is prominent in newborns and retained in adult humans at cervical, supraclav
 
 - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
   - Lists cold exposure activating BAT/UCP1 as a mitohormetic stressor that increases mitochondrial density.
+- [[_document_ - speakman2003_Resting Metabolic Rate|Speakman & Selman (2003) — Physical activity and resting metabolic rate]]
+  - Discusses adaptive thermogenesis in brown adipose tissue (BAT) and the long-term elevation of resting metabolism after exercise ([[Excess Post-Exercise Oxygen Consumption|EPOC]]) as β-adrenergically mediated processes.
 
 ## Connections
 
@@ -37,9 +39,12 @@ BAT is prominent in newborns and retained in adult humans at cervical, supraclav
 - [[Mitochondria]]: BAT is mitochondrially dense.
 - [[Mitohormesis]]: Cold-activated BAT is a hormetic stimulus.
 - [[Adipose Tissue]]: White adipose counterpart.
+- [[Thermogenesis]]: BAT is the principal organ of adaptive non-shivering thermogenesis.
+- [[Beta-Adrenergic Receptor]]: β-adrenergic signaling activates BAT thermogenesis.
+- [[Energy Expenditure]]: BAT activity contributes to total daily expenditure.
 
 ## Linking Summary
 
-- New links added: [[UCP1]], [[Mitochondria]], [[Mitohormesis]], [[Adipose Tissue]], [[Electron Transport Chain]]
+- New links added: [[UCP1]], [[Mitochondria]], [[Mitohormesis]], [[Adipose Tissue]], [[Electron Transport Chain]], [[Thermogenesis]], [[Beta-Adrenergic Receptor]], [[Energy Expenditure]]
 - Suggested new entity notes to create: [[Adipose Tissue]] (if absent), [[Non-shivering Thermogenesis]]
 - Strong connections to strengthen: [[Brown Adipose Tissue]] ↔ [[UCP1]]

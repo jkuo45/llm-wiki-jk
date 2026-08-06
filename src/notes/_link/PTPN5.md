@@ -1,8 +1,8 @@
 ---
 title: PTPN5
 description: Protein tyrosine phosphatase non-receptor type 5 (STEP); dephosphorylates and activates BAK, serving as a licensing signal for mitochondrial apoptosis.
-created: 2026-07-16
-updated: 2026-07-16
+created: 2026-07-06
+updated: 2026-07-28
 tags:
   - enzyme
   - apoptosis
@@ -55,12 +55,18 @@ PTPN5 contains an N-terminal KIM (kinase interaction motif) domain that targets 
 - [[Mitochondrial outer membrane permeabilization]] — PTPN5-mediated BAK licensing is a prerequisite for MOMP
 - [[Apoptosis]] — PTPN5 promotes apoptosis by enabling BAK activation
 - [[Cancer]] — PTPN5 loss contributes to apoptotic resistance in multiple tumor types
+- [[MAPK]] — Pathway dephosphorylated/inactivated by STEP in neuronal contexts
+- [[Oncogene]] — Many oncogenes drive the MAPK/ERK route PTPN5 opposes
+- [[EMT]] — Transdifferentiation program linked to PTPN5 adhesion substrates
+- [[Metastasis]] — Dissemination connected to adhesion/signaling nodes PTPN5 regulates
+- [[Neurodegeneration]] — PTPN5 dysregulation implicated in Huntington's and Alzheimer's disease
 
 ## Linking Summary
 
-- New links added: [[BAK]], [[ERK2]], [[PTPN family]], [[Mitochondrial outer membrane permeabilization]], [[Apoptosis]], [[Cancer]]
-- Suggested new entity notes to create: [[PTPN2]], [[PTPN23]], [[Tyr108]]
+- New links added: [[BAK]], [[ERK2]], [[PTPN family]], [[Mitochondrial outer membrane permeabilization]], [[Apoptosis]], [[Cancer]], [[MAPK]], [[Oncogene]], [[EMT]], [[Metastasis]], [[Neurodegeneration]]
+- Suggested new entity notes to create: [[PTPN2]], [[PTPN23]], [[Tyr108]], [[Fyn]], [[Pyk2]]
 - Strong connections to strengthen:
     - [[PTPN5]] ↔ [[BAK]]
     - [[PTPN5]] ↔ [[ERK2]]
     - [[PTPN5]] ↔ [[Cancer]]
+    - [[PTPN5]] ↔ [[MAPK]]

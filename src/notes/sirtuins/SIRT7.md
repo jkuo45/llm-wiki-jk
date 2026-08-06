@@ -4,7 +4,7 @@ description: SIRT7 (Sirtuin 7) is a nuclear/nucleolar sirtuin classified in phyl
   Class IVb — the same class as SIRT6 (Class IVa). Class IV sirtuins are absent from
   prokaryotes but broadly distributed in...
 created: 2026-07-02
-updated: 2026-07-05
+updated: 2026-08-03
 tags:
   - protein
   - nad+
@@ -100,6 +100,7 @@ List of documents that mention this entity
     - Currently, seven mammalian homologs of yeast Sir2 (yeast) named SIRT1 to SIRT7 have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions.
 
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
 - [[SIRT6]] — fellow Class IV sirtuin; both nuclear; SIRT6 is heterochromatic while SIRT7 is nucleolar
@@ -110,7 +111,9 @@ List of documents that mention this entity
 - [[p53]] — SIRT7 suppresses p53 by promoting ribosome biogenesis and MDM2-mediated degradation
 - [[NAD+]] — required co-substrate for enzymatic activity
 
+- [[GABPβ1]]: SIRT7 deacetylates GABPβ1 to drive nuclear-encoded mitochondrial gene expression
+- [[FGF21]]: SIRT7 deficiency raises FGF21, conferring protection from insulin resistance
 ## Linking Summary
 - New links added: [[SIRT6]], [[SIRT1]], [[SIRT3]], [[RNA Polymerase I]], [[Breast Cancer]], [[NAD+]], [[TAFI68]], [[GATA4]], [[p53]]
-- Suggested new entity notes to create: [[RNA Polymerase I]], [[rDNA]], [[Ribosome Biogenesis]], [[Thyroid Carcinoma]], [[H3K18ac]]
+- Suggested new entity notes to create: [[RNA Polymerase I]], [[RNA Polymerase I|rDNA]], [[Ribosome Biogenesis]], thyroid carcinoma, [[H3K18ac]]
 - Strong connections to strengthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT7]] ↔ [[Breast Cancer]], [[SIRT7]] ↔ [[GATA4]]

@@ -4,7 +4,7 @@ description: Fisetin is a plant Flavonoids and antioxidant found in many fruits 
   vegetables, such as strawberries and apples. It has been identified as a potent
   senolytic agent, selectively inducing apoptosi...
 created: 2026-05-25
-updated: 2026-07-15
+updated: 2026-07-29
 tags:
   - chemical-compound
 aliases: []
@@ -26,11 +26,49 @@ Within the [[SASP-Remodeling Aminochrome Complex]] strategy, Fisetin is deployed
 
 ## Interaction with COMT
 
-[[Fisetin]] has a catechol structure and is metabolized by the [[COMT]] enzyme. Because it competes for enzyme availability, high doses of fisetin can act as a [[COMT Inhibitors|COMT inhibitor]]. This is clinically relevant for individuals with slow [[COMT]] variants who may experience neurotransmitter-related side effects.
+[[Fisetin]] has a catechol moiety (3′,4′-dihydroxy B-ring) that makes it both a **substrate and inhibitor** of [[COMT]]. This dual relationship is concentration-dependent and generates the active metabolite [[Geraldol]] (3′-O-methylfisetin).
+
+> [!info] Source: [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+> Fisetin is not merely a passive COMT inhibitor — it is a substrate-inhibitor that is itself O-methylated by COMT. At low concentrations fisetin acts primarily as a substrate (undergoes methylation to geraldol); at higher concentrations it acts as a competitive inhibitor. This process consumes [[SAMe]] and generates [[SAH]], a potent feedback inhibitor of COMT.
+
+### COMT Inhibition Potency
+
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| IC₅₀ (rat liver, [[Dopamine]] as substrate) | 5.78 µM | Paudel et al. 2019 |
+| IC₅₀ (human liver cytosol, 2-OH-[[Estrogen\|E₂]] methylation) | 3.3–4.5 µM | Zhu et al. 2004 |
+| IC₅₀ (human liver cytosol, 4-OH-[[Estrogen\|E₂]] methylation) | 2.6–4.2 µM | Zhu et al. 2004 |
+| Inhibition type | Mixed (competitive + noncompetitive) | Zhu et al. 2004 |
+| [[Monoamine oxidase\|MAO-A]] inhibition (IC₅₀) | 7.33 µM | Paudel et al. 2019 |
+
+Fisetin's COMT inhibition potency is moderate—~10–50× weaker than clinical [[COMT Inhibitors]] but within the range achievable through dietary supplementation or nutraceutical dosing (particularly with enhanced bioavailability formulations).
+
+### Comparison with Other COMT Inhibitors
+
+| Compound | COMT IC₅₀ (µM) | Mechanism |
+|----------|----------------|-----------|
+| [[Quercetin]] | 0.9–1.5 | Competitive (catechol substrate) |
+| Fisetin | 2.6–5.8 | Mixed (competitive + noncompetitive) |
+| (+)-[[Catechin]] | 0.86 | Competitive |
+| [[EGCG]] | 0.04–0.07 | Tight-binding inhibitor |
+| Entacapone (clinical) | ~0.23 | Competitive (nitrocatechol) |
+| Tolcapone (clinical) | ~0.048 | Competitive (nitrocatechol) |
+
+### Genotype-Dependent Complexity
+
+Because COMT activity varies 3–4 fold across [[Val158Met]] genotypes, fisetin's COMT-modulatory effects are genotype-sensitive. Slow COMT individuals (Met/Met, ~20–30% of Europeans) already have elevated synaptic dopamine; adding fisetin-mediated COMT inhibition could push dopamine levels into a supraoptimal range for [[Prefrontal Cortex]] function (inverted-U relationship), potentially impairing rather than enhancing cognition. No clinical trial has yet stratified fisetin outcomes by COMT genotype.
+
+### Estrogen Metabolism Implications
+
+COMT methylates catechol estrogens (2-OH-E₂, 4-OH-E₂) to less genotoxic methoxyestrogens. Fisetin-mediated COMT inhibition could shift [[Estrogen]] metabolism, with complex tissue-dependent consequences. The in vitro inhibition of COMT-mediated catechol estrogen O-methylation (Zhu et al. 2004) has not been followed up with in vivo studies.
 
 ## Bioavailability
 
 Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Flavonoids|flavonoids]] like [[EGCG]] by inhibiting [[COMT]], potentially increasing the bioavailability of co-administered polyphenols.
+
+### Pharmacokinetic vs. COMT Threshold
+
+Even with the best current formulations, peak plasma fisetin concentrations (~0.8 µM) remain below the IC₅₀ for COMT inhibition. Dietary fisetin supplementation at standard nutraceutical doses (100–500 mg) is unlikely to produce meaningful systemic COMT inhibition in peripheral tissues. However, local GI concentrations may transiently exceed the IC₅₀, brain penetration may achieve higher local concentrations due to lipophilicity (log P = 3.2) and reported [[Blood-Brain Barrier|BBB]] crossing, and intermittent high-dose senolytic protocols (20 mg/kg/day × 5 days) may transiently reach inhibitory concentrations. **NCT06796374** is an active clinical trial comparing fisetin kinetics in young vs. old adults (100 mg and 1000 mg doses, ± quercetin).
 
 # 
 
@@ -77,6 +115,9 @@ List of documents that mention this entity
   - [[_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12|Fisetin Reverses Age-Related Endothelial Dysfunction (Mahoney et al., 2025)]]
     - Single-cell transcriptomics study showing fisetin eliminates senescent endothelial cells in vivo, reduces circulating CXCL12, and reverses age-related endothelial dysfunction through NO restoration, mitochondrial ROS reduction, and EndoMT prevention.
 
+  - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
+    - Comprehensive evaluation of fisetin as a COMT substrate-inhibitor (IC₅₀ 2.6–5.8 µM, mixed kinetics) with dual senolytic–neuromodulatory potential. Covers geraldol metabolite formation, pharmacokinetic limitations, genotype-dependent effects, and proposed experimental plan.
+
 
 ## Connections
 
@@ -103,6 +144,14 @@ List of documents that mention this entity
 - [[Nitric Oxide]]: Production rescued by fisetin treatment via reduction of circulating SASP/CXCL12
 - [[Endothelial-to-Mesenchymal Transition]]: Blocked by fisetin in senescent ECs exposed to aged plasma
 - [[Oxidative Stress]]: Mitochondrial superoxide reduced by fisetin in aged vasculature
+- [[Bcl-xL]]: Fisetin binds the hydrophobic groove of Bcl-xL with pharmacologically preferred selectivity over Bcl-2
+- [[PI3K]]: Fisetin inhibits PI3K, reducing Akt phosphorylation in senescent cells
+- [[Akt]]: Akt phosphorylation suppressed by fisetin via PI3K inhibition
+- [[SAMe]]: Consumed during COMT-mediated O-methylation of fisetin to geraldol
+- [[SAH]]: Generated during fisetin methylation; potent feedback inhibitor of COMT
+- [[Geraldol]]: Active COMT-generated metabolite of fisetin with uncharacterized pharmacology
+- [[Val158Met]]: COMT genotype modifier determining fisetin response; no clinical trial has stratified outcomes by genotype
+- [[Epigenetic Aging]]: Proposed primary endpoint in fisetin pharmacogenomic clinical trial
 
 ---
 
@@ -110,6 +159,6 @@ List of documents that mention this entity
 - Strong connections to strengthen: [[Fisetin]] ↔ [[Senolytic]], [[Fisetin]] ↔ [[Healthspan]]/[[Lifespan]], [[Fisetin]] ↔ [[Bioavailability]], [[Fisetin]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
 
 ## Linking Summary
-- New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]], [[Rapamycin]], [[GlyNAC]], [[Senolytic]], [[Senomorphic]], [[Healthspan]], [[Lifespan]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Bioavailability]], [[Nanoparticles]], [[Liposomes]], [[Nanoemulsions]], [[Cyclodextrins]], [[Nanocrystals]], [[Flavonol]], [[IL-6]], [[IL-8]], [[MCP-1]], [[T Cell|T Cells]], [[Oxidative Stress]], [[SNEDDS]], [[Inulin]]
-- Suggested new entity notes to create: 
-  - Strong connections to strengthen: [[Fisetin]] ↔ SASP-Remodeling Aminochrome Complex, [[Fisetin]] ↔ COMT Inhibitors, [[Fisetin]] ↔ Senomorphics, [[Fisetin]] ↔ [[Rapamycin]], [[Fisetin]] ↔ GlyNAC, [[Fisetin]] ↔ [[Senolytic]], [[Fisetin]] ↔ [[Bioavailability]]
+- New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]], [[Rapamycin]], [[GlyNAC]], [[Senolytic]], [[Senomorphic]], [[Healthspan]], [[Lifespan]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Bioavailability]], [[Nanoparticles]], [[Liposomes]], [[Nanoemulsions]], [[Cyclodextrins]], [[Nanocrystals]], [[Flavonol]], [[IL-6]], [[IL-8]], [[MCP-1]], [[T Cell|T Cells]], [[Oxidative Stress]], [[SNEDDS]], [[Inulin]], [[Geraldol]], [[Bcl-xL]], [[PI3K]], [[Akt]], [[SAMe]], [[SAH]], [[Val158Met]], [[Epigenetic Aging]], [[Catechin]], [[Monoamine oxidase]], [[Estrogen]], [[Blood-Brain Barrier]]
+- Suggested new entity notes to create: [[Bcl-xL]], [[Entacapone]], [[Tolcapone]]
+  - Strong connections to strengthen: [[Fisetin]] ↔ SASP-Remodeling Aminochrome Complex, [[Fisetin]] ↔ COMT Inhibitors, [[Fisetin]] ↔ Senomorphics, [[Fisetin]] ↔ [[Rapamycin]], [[Fisetin]] ↔ GlyNAC, [[Fisetin]] ↔ [[Senolytic]], [[Fisetin]] ↔ [[Bioavailability]], [[Fisetin]] ↔ [[COMT]], [[Fisetin]] ↔ [[Geraldol]], [[Fisetin]] ↔ [[Bcl-2]]/[[Bcl-xL]]

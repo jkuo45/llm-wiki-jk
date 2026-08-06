@@ -3,7 +3,7 @@ title: SIRT2
 description: SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent
   deacetylases, primarily localized in the cytosol.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-03
 tags:
   - enzyme
   - nad+
@@ -105,6 +105,7 @@ List of documents that mention this entity
     - SIRT2 is predominantly cytosolic but also exists in the nucleus in the G2 to M phase transition of the cell cycle.
 
 
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 ## Connections
 
 - [[SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities
@@ -116,9 +117,10 @@ List of documents that mention this entity
 
 
 
+- [[NLRP3]]: SIRT2 modulates NLRP3 inflammasome activation via α-tubulin deacetylation, linking it to vascular inflammation
 ## Linking Summary
 - New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[SIRT1]], [[SIRT3]], [[TRPM2]]
-- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin]]
+- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], neurofascin
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
 - New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
 - Suggested new entity notes to create: [[Atg4B]]# SIRT2

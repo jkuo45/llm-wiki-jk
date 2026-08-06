@@ -1,10 +1,8 @@
 ---
 title: mTORC1
-description: mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein
-  signaling complex that integrates nutrient, energy, and growth factor signals to
-  coordinate Cell Growth, Protein Synthesis,...
+description: mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-07-31
 tags:
   - protein
 aliases: [mechanistic target of rapamycin complex 1, mTOR Complex 1, mTORC1]
@@ -80,6 +78,16 @@ mTORC1 promotes [[Glycolysis]] via HIF-1α stabilization, increases [[Nucleotide
 ### Immune Function
 mTORC1 is critical for [[T Cell]] activation, [[B Cell]] differentiation, and [[Dendritic Cell]] function. In T cells, mTORC1 promotes [[effector T cell]] (Th1, Th17) differentiation, while mTORC2 favors [[Treg]] development.
 
+### Dietary Restriction and Amino-Acid Sensing
+mTORC1 is the direct target of dietary amino-acid signals, placing it at the center of the [[Protein Restriction]] response:
+
+- Reduced dietary [[Leucine]] (and other [[Branched-Chain Amino Acids]]) lowers mTORC1 activity; leucine is the most potent amino-acid activator of the complex.
+- [[Methionine Restriction]] also suppresses mTORC1, contributing to its metabolic and longevity phenotypes.
+- mTORC1 inhibition recapitulates several hallmarks of protein restriction (reduced protein synthesis, induced [[Autophagy]], improved metabolic health), and reduced mTORC1 signaling is required for many protein-restriction benefits.
+
+> [!info] Source: [[_document_ - The-hallmarks-of-protein-and-amino-acid-restriction|The Hallmarks of Protein and Amino Acid Restriction]]
+> Among the individual essential amino acids, leucine (via mTORC1) and methionine (partially via FGF21 and methyl-donor effects) are principal drivers of the protein-restriction response. Amino-acid restriction phenotypes are often mimicked by pharmacological mTORC1 inhibition.
+
 ## Pathology and Clinical Relevance
 
 ### Cancer
@@ -151,6 +159,9 @@ List of documents that mention this entity
   - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
     - Identifies mTORC1 as the *Target* of the [[Incoherent Bivalent Motif]] whose two branches (to [[mTORC2]] via [[PI3K]], and to [[IRS1]] via [[SK61_2]]) generate rapamycin's [[Biphasic Dose-Response Curve]]; the mTORC1→S6K1/2 link operates in the [[Saturated Enzymatic Regime]].
 
+  - [[_document_ - The-hallmarks-of-protein-and-amino-acid-restriction|The Hallmarks of Protein and Amino Acid Restriction in Aging and Longevity]]
+    - Positions mTORC1 as the key amino-acid–sensing effector of dietary protein/leucine restriction; reduced mTORC1 signaling mediates many protein-restriction benefits.
+
 ## Connections
 - [[Incoherent Bivalent Motif]] — mTORC1 is the central Target node of the rapamycin hormesis motif
 - [[Biphasic Dose-Response Curve]] — rapamycin's non-monotonic efficacy (peak ~1 nM)
@@ -172,8 +183,12 @@ List of documents that mention this entity
 - [[Senescence]] — mTORC1 drives senescence-associated secretory phenotype; inhibition reduces SASP
 - [[Aging]] — mTORC1 hyperactivation accelerates aging; inhibition extends lifespan
 - [[Tuberous Sclerosis]] — monogenic mTORC1 hyperactivation syndrome
+- [[Protein Restriction]] — reduces mTORC1 activity via decreased leucine/amino-acid availability
+- [[Leucine]] — primary amino-acid activator of mTORC1; restriction suppresses it
+- [[Methionine Restriction]] — suppresses mTORC1, contributing to its benefits
+- [[Branched-Chain Amino Acids]] — BCAA restriction lowers mTORC1 signaling
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC-1α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[PI3K]], [[Akt]], [[FKBP12]]
+- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC-1α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[PI3K]], [[Akt]], [[FKBP12]], [[Protein Restriction]], [[Branched-Chain Amino Acids]], [[Methionine Restriction]]
 - Suggested new entity notes to create: [[TOR signaling]], [[Rag GTPase]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapalogs]], [[Geroprotectors]]
   - Strong connections to strengthen: [[mTORC1]] ↔ mTORC2, [[mTORC1]] ↔ Autophagy, [[mTORC1]] ↔ TSC2, [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]

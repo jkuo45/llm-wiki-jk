@@ -5,7 +5,7 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
 created: 2024-01-01
-updated: 2026-07-12
+updated: 2026-07-31
 tags:
   - biological-process
   - senescence
@@ -104,10 +104,22 @@ Small extracellular vesicles, especially exosomes (30–150 nm), mediate paracri
 
 ### Cytosolic DNA–cGAS–STING Pathway
 
-- [[cGAS-STING|cGAS–STING]] complex: Promotes SASP through interferon signalling. Activated by cytoplasmic DNA from downregulated [[DNASE2]] and [[TREX1]]. Both [[TOP1]] cleavage complexes and [[G3BP1]] assist cGAS recognition of CCFs.
+- [[cGAS-STING Pathway|cGAS–STING]] complex: Promotes SASP through interferon signalling. Activated by cytoplasmic DNA from downregulated [[DNASE2]] and [[TREX1]]. Both [[TOP1]] cleavage complexes and [[G3BP1]] assist cGAS recognition of CCFs.
 - [[Toll-like Receptor 2|TLR2]]: Innate immunity sensor upregulated in senescent cells; essential for immunity-regulating SASP during OIS through cGAS–STING.
 - **LINE1 retrotransposable elements**: Elevated during late senescence; cytoplasmic LINE1 cDNA triggers interferon signalling.
 - **Minority mitochondrial outer membrane permeabilization (miMOMP)**: [[BAX]] and [[BAK]] macropores allow mitochondrial inner membrane herniation to release mitochondrial DNA, activating cGAS–STING and SASP.
+
+### Mitochondrial Metabolic Checkpoint
+
+Mitochondrial metabolism independently gates the SASP through an epigenetic mechanism. Senescent cells rely on mitochondrial pyruvate metabolism to supply the acetyl-CoA used for [[H3K27ac|H3K27ac]] deposition at SASP loci:
+
+- Pyruvate enters mitochondria via the [[MPC|mitochondrial pyruvate carrier]] (MPC1/MPC2) and feeds citrate synthesis.
+- Citrate is exported to the cytosol by the mitochondrial citrate carrier [[SLC25A1]], where [[ACLY]] regenerates the acetyl-CoA pool for H3K27ac.
+- Inhibiting [[SLC25A1]] (with [[CTPI2]]) or [[MPC]] depletes this pool, actively removes H3K27ac from SASP enhancers, and selectively suppresses SASP without killing senescent cells.
+- Exogenous [[Acetate]] bypasses the block via [[ACSS2]], restoring acetylation and SASP — demonstrating acetyl-CoA availability, not mitochondrial integrity, is limiting.
+
+> [!important] Source: [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
+> This mitochondrial citrate–acetyl-CoA checkpoint is **independent of mtDNA and cGAS–STING signaling**: mtDNA depletion or STING inhibition ([[STING Inhibitors|SN011]]) does not prevent H3K27ac loss upon SLC25A1 inhibition. The two arms are genetically separable and converge on SASP gene activation. CTPI2 administration to aged mice reduced age-related [[Frailty]] and improved healthspan, establishing the metabolic arm as a druggable target for SASP modulation.
 
 ### Epigenetic Regulation
 
@@ -223,7 +235,7 @@ Senescent cells upregulate senescent cell anti-apoptotic pathways (SCAPs), allow
 - Senescence-associated mitochondrial dysfunction (SAMD).
 
 ### Paracrine Effects on Apoptosis
-- **Pro-apoptotic**: Factors like [[IL-6]] and [[TNF-α]] can enhance T-cell apoptosis, impairing immune clearance.
+- **Pro-apoptotic**: Factors like [[IL-6]] and [[TNFα|TNF-α]] can enhance T-cell apoptosis, impairing immune clearance.
 - **Anti-apoptotic**: SASP can confer apoptosis resistance to some neighboring cells via paracrine signaling.
 
 ### Shared Mitochondrial Mechanisms
@@ -285,6 +297,9 @@ List of documents that mention this entity
   - [[task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00|Adrenochrome → Inflammaging Trace]]
     - Positions the SASP as the canonical driver of inflammaging downstream of adrenochrome → DGCR8/Drosha Microprocessor → Senescence in the shortest-path cascade.
 
+  - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
+    - Demonstrates that mitochondrial pyruvate→citrate→acetyl-CoA export (MPC/SLC25A1/ACLY) supplies the acetyl-CoA for H3K27ac at SASP loci; SLC25A1 inhibition with CTPI2 selectively suppresses the SASP and improves healthspan in aged mice, via a mechanism separable from mtDNA–cGAS–STING signaling.
+
 ## Connections
 - [[Senescence]] — the SASP is the effector arm of the senescence program
 - [[Senescence]] — SASP is a hallmark feature of the senescent state
@@ -317,6 +332,13 @@ List of documents that mention this entity
 - [[DNA Damage Response]] — required for SASP initiation
 - [[p38 MAPK]] — activates NF-κB-mediated SASP independent of DDR
 - [[JAK]]–[[STAT3]] — promotes pro-inflammatory SASP and frailty
+- [[H3K27ac]] — central histone mark at senescence-activated enhancers; recruits AP-1, BRD4, p300 to SASP gene loci
+- [[AP-1]] — pioneer transcription factor that opens closed chromatin at SASP enhancers; depletion partially reverses cell cycle arrest
+- [[BRD4]] — epigenetic reader connecting enhancer remodeling to SASP expression
+- [[EZH2]] — histone methyltransferase for H3K27me3; inhibition derepresses SASP genes (potential cancer immunotherapy)
+- [[LINE-1]] — retrotransposon derepressed during senescence; generates cytoplasmic cDNA activating cGAS-STING to drive SASP
+- [[Senescence-Associated Heterochromatin Foci|SAHF]] — heterochromatin structures correlating with SASP; formed by HIRA/ASF1a/macroH2A
+- [[HMGB2]] — chromatin architectural protein protecting SASP loci from heterochromatin spread in OIS
 - [[SIRT1]] — epigenetic suppressor of SASP via histone deacetylation
 - [[Epigenetic Alterations]] — the epigenetic landscape (chromatin reorganization, histone marks, DNA methylation, retrotransposon derepression) orchestrates SASP expression
 - [[Senescence-Associated Heterochromatin Foci]] — SAHF disruption correlates with reduced SASP expression
@@ -336,7 +358,7 @@ List of documents that mention this entity
 - [[Endothelial-to-Mesenchymal Transition]] — SASP/CXCL12-driven transdifferentiation process underlying age-related vascular dysfunction
 - [[Endothelial Cells]] — primary senolytic target in the vasculature; ECs are the most senescence-susceptible cell type and secrete CXCL12 as a key SASP factor
 - [[Fisetin]] — senolytic that reduces circulating SASP burden and normalizes CXCL12 to reverse age-related endothelial dysfunction
-- [[TNFA]] — pro-inflammatory SASP cytokine (TNF-α); activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
+- [[TNFα|TNFA]] — pro-inflammatory SASP cytokine (TNF-α); activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
 - [[IL-1β]] — SASP interleukin; synergizes with IL-1α to drive IL-6/IL-8 transcription
 - [[Cytokines]] — class of SASP components
 - [[Chemokine]] — class of SASP components
@@ -358,6 +380,13 @@ List of documents that mention this entity
 - [[NF-κB|NF-κB]]: NF-κB transcriptionally regulates SASP cytokines (IL-6/IL-8/TNF-α).
 - [[mTOR]]: mTOR enhances SASP translation.
 - [[Connective Tissue Growth Factor|CTGF]]: SASP includes CTGF driving fibroblast activation.
+- [[MPC]] — mitochondrial pyruvate entry feeding the citrate–acetyl-CoA SASP arm
+- [[SLC25A1]] — mitochondrial citrate carrier; inhibition (CTPI2) depletes H3K27ac at SASP loci and suppresses SASP
+- [[ACLY]] — cytosolic acetyl-CoA generator converting exported citrate
+- [[ACSS2]] — acetate-dependent route that bypasses SLC25A1 inhibition
+- [[Acetyl-CoA]] — mitochondrial-derived substrate gating H3K27ac-dependent SASP
+- [[CTPI2]] — SLC25A1 inhibitor with in vivo SASP suppression and healthspan benefit
+- [[Acetate]] — exogenous rescue of the SASP acetyl-CoA pool
 
 ### Galectin-9
 
@@ -371,6 +400,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[Bmi-1]], [[CXCR2]], [[CXCR3]], [[Caspase-5]], [[Caspase-11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Cytoplasmic Chromatin Fragments]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Histone Variant]], [[Acid ceramidase]], [[Ferroptosis]], [[Lipid Peroxidation]], [[IL-6]], [[IL-8]], [[Senolytic]], [[Senescent Cells]]
-- Suggested new entity notes to create: [[Senomorphics]], [[Bystander Senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]], [[SASP Index]], [[Atherosclerosis]], [[Autophagy Inducer]], [[Immune System]], [[TNFA]], [[IL-1β]], [[Cytokines]], [[Chemokine]], [[Protease]]
-  - Strong connections to strengthen: [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ Cellular Senescence, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ NF-κB, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[mTORC1]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ Cancer, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Paracrine Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Apoptosis]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[Bmi-1]], [[CXCR2]], [[CXCR3]], [[Caspase-5]], [[Caspase-11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Cytoplasmic Chromatin Fragments]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Histone Variant]], [[Acid ceramidase]], [[Ferroptosis]], [[Lipid Peroxidation]], [[IL-6]], [[IL-8]], [[Senolytic]], [[Senescent Cells]], [[MPC]], [[SLC25A1]], [[ACLY]], [[ACSS2]], [[Acetyl-CoA]], [[CTPI2]], [[Acetate]], [[STING Inhibitors]]
+- Suggested new entity notes to create: [[Senomorphics]], [[Bystander Senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]], [[SASP Index]], [[Atherosclerosis]], [[Autophagy Inducer]], [[Immune System]], [[Cytokines]], [[Chemokine]], [[Protease]]
+  - Strong connections to strengthen: [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ Cellular Senescence, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ NF-κB, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[mTORC1]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ Cancer, [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Paracrine Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[SLC25A1]] ↔ [[Acetyl-CoA]]

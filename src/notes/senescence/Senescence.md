@@ -221,6 +221,9 @@ List of documents that mention this entity
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Reframes IPF senescence as a systems-level, self-reinforcing network (DDR→telomere→mitochondria→NF-κB→SASP→TGF-β) rather than passive aging.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence: orchestrating SASP expression (Dasgupta et al., 2024)]]
+    - Comprehensive review of how epigenetic reprogramming in senescent cells (chromatin compartmentalization, SAHF/SADS formation, histone modifications/variants, DNA methylation, retrotransposon derepression) orchestrates SASP expression; positions epigenetic modulators as potential senomorphic agents.
+
 ## Connections
 
 - [[Aging]] — Senescent cell accumulation is a hallmark of aging and age-related disease
@@ -231,6 +234,14 @@ List of documents that mention this entity
 - [[SIRT6]] — Deficiency accelerates senescence via heterochromatin loss
 - [[Alveolar Type II Cells]]: AT2 cells are the primary senescent epithelial population in IPF.
 - [[Idiopathic Pulmonary Fibrosis]]: Senescence is a central driver of IPF fibrosis.
+- [[Epigenetic Alterations]]: Senescent cells undergo profound epigenetic reprogramming (chromatin compartmentalization, histone modifications, DNA methylation) that orchestrates SASP expression.
+- [[Senescence-Associated Heterochromatin Foci|SAHF]]: Facultative heterochromatin structures formed by HIRA/ASF1a/macroH2A; correlate with SASP expression.
+- [[SADS]]: Decompaction of constitutive satellite heterochromatin; brings SASP gene loci into contact with inflammatory gene regions.
+- [[NF-κB]]: Master transcriptional regulator of SASP; its gene locus is preferentially in active A compartments in senescent cells.
+- [[cGAS-STING Pathway]]: Activated by CCF and derepressed retrotransposons (LINE-1, HERVs); primary innate immune pathway driving SASP.
+- [[Chromatin Remodeling]]: Senescence involves A/B compartment switching, TAD rewiring, and enhancer-promoter looping that restructures the epigenetic landscape.
+- [[Senomorphic]]: Therapeutic approach to attenuate SASP without killing senescent cells; epigenetic modulators are candidates.
+- [[Senolytic]]: Therapeutic approach to eliminate senescent cells; contrasted with senomorphics.
 
 ## Linking Summary
 

@@ -1,76 +1,98 @@
 ---
-title: Acid ceramidase
-description: A lysosomal hydrolase (ASAH1) that cleaves ceramide into sphingosine and free fatty acids; recently identified as a novel regulator of ferroptosis sensitivity in senescent cells, independent of the GPX4/GSH and iron axes.
-created: 2026-07-24
-updated: 2026-07-24
+title: Acid Ceramidase
+description: Lysosomal hydrolase that cleaves ceramide into sphingosine and free fatty acid; overexpressed 5-20x in senescent cells, driving ferroptotic sensitivity via the Lands cycle.
+created: 2026-07-28
+updated: 2026-07-28
 tags:
   - enzyme
-  - lipid-metabolism
   - sphingolipid-metabolism
-  - senescence
   - ferroptosis
+  - senescence
+  - senolytic
+  - lysosomal
 aliases:
-  - ASAH1
   - ACase
-  - Acid ceramidase (ASAH1)
-  - N-acylsphingosine amidohydrolase 1
+  - aCDase
+  - Acid ceramidase
+  - ASAH1 protein
 ---
 
-# Acid ceramidase
+# Acid Ceramidase
 
-**Acid ceramidase (ACase; encoded by [[ASAH1]])** is a lysosomal hydrolase that catalyzes the hydrolysis of [[Ceramide|ceramide]] into [[Sphingosine|sphingosine]] and a free fatty acid. By controlling the ceramide ↔ sphingosine/sphingosine-1-phosphate rheostat, it sits at a central node of [[Sphingolipid Metabolism|sphingolipid metabolism]] and, as newly shown, of cellular [[Lipid Metabolism|membrane lipid composition]] that governs [[Ferroptosis|ferroptotic]] vulnerability.
+## Overview
 
-## Structure & Domains
+[[Acid Ceramidase]] (ACase, aCDase; encoded by [[ASAH1]]) is a lysosomal hydrolase that cleaves [[Ceramide]] into [[Sphingosine]] and a free fatty acid. It controls the ceramide ↔ [[Sphingosine-1-phosphate]] (S1P) rheostat — a metabolic switch governing cell fate between apoptosis and survival.
 
-Human acid ceramidase is a heterodimeric glycoprotein assembled from a catalytic α-subunit and a protective β-subunit, both derived from a single ASAH1 precursor by autocatalytic processing in the lysosome. The active site contains a catalytic triad (Ser–Glu–His) typical of the NIT family of amidases. The enzyme is optimally active at acidic pH within the lysosomal lumen; its stability and activity are notably elevated in [[Senescent Cells|senescent cells]], where it is refractory to complete knockdown.
+## Structure
 
-## Mechanism of Action & Pathways
+- **Heterodimeric glycoprotein:** Catalytic α-subunit (~40 kDa) + protective β-subunit (~13 kDa), both derived from a single ASAH1 precursor by autocatalytic processing in the lysosome
+- **Active site:** Nucleophilic cysteine (Cys143) within a Ser–Glu–His catalytic triad (NIT family amidase)
+- **Crystal structure:** PDB 5U7Z (2.5 Å) — in the proenzyme, the catalytic center is buried; autocleavage exposes a hydrophobic channel leading to the active site
+- **pH optimum:** ~4.5 (lysosomal lumen); at neutral pH, ACase can exhibit reverse ceramide synthase activity
 
-- **Ceramide catabolism:** ACase cleaves the *N*-acyl linkage of [[Ceramide|ceramide]], releasing [[Sphingosine|sphingosine]] (which is re-phosphorylated to [[Sphingosine-1-phosphate|S1P]]) and a free fatty acid. This diverts substrate away from [[Sphingomyelin|sphingomyelin]] synthesis and reduces the ceramide pool.
-- **Membrane lipid remodeling (novel, ferroptosis link):** Ceramide synthesis consumes free saturated (SFA) and monounsaturated (MUFA) fatty acids, competing that limits their availability for phospholipid PUFA incorporation. By *breaking down* [[Ceramide|ceramide]], ACase **releases free SFAs/MUFAs** that—via the Lands cycle—are exchanged into the *sn-2* position of membrane [[Phospholipid|phospholipids]], increasing the [[PUFA|polyunsaturated fatty acid (PUFA)]] content (notably [[Arachidonic acid|arachidonic acid]]-containing species). These PUFA-PLs are the preferred substrates for [[Lipid Peroxidation|lipid peroxidation]], the execution step of [[Ferroptosis]].
-- **Pro-survival vs. pro-death duality:** Elevated ACase raises [[Sphingosine|sphingosine]]/S1P, classically *anti-[[Apoptosis|apoptotic]]* and pro-survival in [[Senescent Cells|senescent cells]]. This same metabolic shift, however, inadvertently creates a **pro-ferroptotic lipid profile**, sensitizing the cells to [[Ferroptosis]].
+## Catalytic Function
 
-> [!info] Source: [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]
-> In WI-38 [[Replicative Senescence|replicatively senescent]] fibroblasts, ACase is over-expressed 5- to 20-fold. Its knockdown or pharmacological inhibition (ARN14794) protects both proliferative and senescent cells against [[RSL3]]-induced [[Ferroptosis]] **independently of [[GPX4]]/[[Glutathione|GSH]] levels and of labile [[Iron|Fe²⁺]] regulation**, by lowering membrane PL-[[PUFA|PUFA]] content and thus the [[Lipid Peroxidation|LPO]] substrate pool.
+- **Primary reaction:** Ceramide + H₂O → Sphingosine + Free fatty acid
+- **Substrate range:** Ceramides with varying fatty acyl chain lengths (C14–C26)
+- **Cysteine amidase:** Activity blocked by thiol-reactive agents and covalent inhibitors targeting Cys143
 
-## Physiological Function
+## Mechanism in Ferroptosis
 
-ACase is essential for the turnover of [[Sphingomyelin|sphingomyelin]] and [[Ceramide|ceramide]] in virtually all tissues. Germline loss-of-function causes Farber disease (a rare lysosomal storage disorder). In normal physiology, ACase activity tunes the ceramide/sphingosine rheostat that regulates proliferation, differentiation, and stress responses.
+> [!info] Novel Regulatory Axis
+> ACase overexpression in senescent cells creates a pro-ferroptotic membrane lipid profile **independent of GPX4/GSH and iron axes** — a completely unexpected role discovered in 2026 (Soriano-Castell et al., Cell Death Dis).
 
-## Pathology & Clinical Relevance
+- ACase is overexpressed 5- to 20-fold in replicatively senescent cells
+- Breaks down ceramide, **releasing free SFAs/MUFAs** that enter the [[Lands cycle]]
+- Liberated fatty acids are exchanged into the sn-2 position of membrane phospholipids, **enriching PUFA-containing species**
+- Membrane PUFA-PLs are the preferred substrates for iron-dependent [[Lipid Peroxidation]] — the execution step of [[Ferroptosis]]
+- ACase knockdown or pharmacological inhibition ([[ARN14794]]) **reduces membrane PL-PUFA content** and protects cells from RSL3-induced ferroptosis
 
-- **Senescence & aging:** ACase over-expression in [[Senescent Cells|senescent cells]] is a newly identified **senolytic/[[Senomorphic|senomorphic]] target** — its inhibition selectively removes [[Ferroptosis|ferroptotic vulnerability]] while leaving the senescence arrest and [[SASP]] intact, and it is transmitted to neighbors via [[IL-6]]/[[IL-8]] SASP cytokines ([[Paracrine Senescence|paracrine]] ferroptotic sensitization).
-- **Cancer:** ACase is over-expressed in multiple malignancies and has been implicated in [[Melanoma]] tumorigenesis and radioresistance in [[Prostate Cancer]]; because cancer cells are often already ferroptosis-prone (high [[Iron|iron]], oxidative stress), ACase inhibition may be context-dependent (pro- or anti-tumor).
-- **Druggability:** Small-molecule ACase inhibitors (e.g., **ARN14794**) already exist for other indications, providing a proof-of-concept that the enzyme is targetable — a rare near-term translational advantage for a newly discovered [[Senolytic|senotherapeutic]] axis.
+## Role in Senescence
+
+> [!tip] The Pro-Survival Paradox
+> Elevated ACase raises sphingosine/S1P (anti-apoptotic, helping senescent cells resist death via SCAP pathways). The same metabolic shift **inadvertently creates pro-ferroptotic vulnerability** as an unintended consequence.
+
+- Senescence features persist after ACase KD: high p21 expression, high SA-β-gal activity, elevated IL-6/IL-8 secretion
+- ACase inhibition is therefore a **senomorphic** strategy — it removes ferroptotic vulnerability without reversing the senescence arrest
+
+## Paracrine Propagation via SASP
+
+- SASP cytokines [[IL-6]] and [[IL-8]] induce ACase upregulation in neighboring proliferative cells
+- This establishes a **SASP → ACase → pro-ferroptotic lipid profile** axis that spreads ferroptotic vulnerability through tissue
+
+## Inhibitors
+
+| Inhibitor | IC50 (hAC) | Key Features |
+|-----------|------------|--------------|
+| [[ARN14794]] | ~100 nM | Used in the Soriano-Castell 2026 ferroptosis study |
+| [[ARN14974]] | 79 nM | Systemically active, brain-penetrant |
+| [[Carmofur]] | 29 nM | Clinically approved (Japan); crosses BBB |
 
 ## Documents
 
-  - [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile and exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells]]
-    - Primary 2026 study (Cell Death and Disease) demonstrating ACase over-expression in replicative senescence drives a pro-ferroptotic membrane lipid profile, independently of GPX4/GSH and iron, and is transmitted via IL-6/IL-8 SASP.
-  - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Salk press release — "Could this enzyme help remove 'zombie' cells…"]]
-    - Public-facing summary of the Soriano-Castell/Maher study framing ACase as a target for clearing senescent "zombie" cells to support healthy aging.
+- [[task_output_acid_ceramidase_27_July_2026|Acid Ceramidase in Ferroptosis & Cellular Senescence]]
+  - Landmark 2026 study revealing ACase as a novel GPX4/GSH/iron-independent regulator of ferroptosis in senescent cells.
 
 ## Connections
 
-- [[Ceramide]] — ACase substrate; its breakdown releases free fatty acids that feed PUFA-phospholipid synthesis.
-- [[Sphingosine]] / [[Sphingosine-1-phosphate|S1P]] — Products of ACase; pro-survival, anti-apoptotic signaling lipids.
-- [[Sphingomyelin]] — Alternative ceramide consumer; ACase inhibition only modestly alters SM levels.
-- [[Phospholipid]] — Membrane PLs whose PUFA content is increased by ACase activity.
-- [[PUFA]] — The ferroptosis-substrate fatty acids enriched in membranes by ACase-driven remodeling.
-- [[Ferroptosis]] — ACase is a novel positive regulator; its inhibition protects cells via a GPX4/GSH/iron-independent axis.
-- [[GPX4]] — ACase inhibition *reduced* GPX4 expression yet still protected, indicating GPX4 is not the driver.
-- [[Glutathione]] — GSH rises after ACase KD but protection persists even when GSH is depleted (BSO), confirming GSH-independence.
-- [[Iron]] / [[Fenton Reaction]] — Labile Fe²⁺ rises (not falls) after ACase KD, ruling out iron as the mediator.
-- [[ACSL4]] — Classical ferroptosis driver; ACase-KD lowers PL-PUFAs *without* changing ACSL4, so the two act through distinct mechanisms.
-- [[Senescent Cells]] — ACase is strongly over-expressed in replicatively senescent cells and sensitizes them to ferroptosis.
-- [[SASP]] — IL-6/IL-8 SASP cytokines induce ACase up-regulation and ferroptotic sensitization in neighboring cells.
-- [[IL-6]] / [[IL-8]] — SASP factors sufficient to drive paracrine ACase up-regulation.
-- [[RSL3]] — GPX4 inhibitor used to induce ferroptosis in the ACase study.
-- [[Lipid Peroxidation]] — The downstream execution step whose substrate pool (PUFA-PLs) is set by ACase.
-- [[Melanoma]] / [[Prostate Cancer]] — Cancers in which ACase activity has been linked to tumorigenesis/resistance.
+- [[ASAH1]] — Gene encoding acid ceramidase
+- [[Ceramide]] — Primary substrate; cleaved into sphingosine + free fatty acid
+- [[Sphingosine]] — Product of ceramide hydrolysis
+- [[Sphingosine-1-phosphate]] — Downstream signaling lipid; pro-survival
+- [[Ferroptosis]] — ACase overexpression sensitizes senescent cells to ferroptotic death
+- [[Senescence]] — ACase is overexpressed 5-20x in replicatively senescent cells
+- [[SASP]] — IL-6/IL-8 induce paracrine ACase upregulation
+- [[Lands cycle]] — Liberated fatty acids enter this membrane remodeling pathway
+- [[Lipid Peroxidation]] — PUFA-enriched membranes are substrates for iron-dependent peroxidation
+- [[GPX4]] — Classical ferroptosis regulator; ACase acts independently
+- [[ARN14794]] — Pharmacological inhibitor used in the 2026 study
+- [[Carmofur]] — Clinically approved ACase inhibitor (Japan)
 
 ## Linking Summary
 
-- New links added: [[Ceramide]], [[Sphingosine]], [[Sphingosine-1-phosphate]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[Ferroptosis]], [[GPX4]], [[Glutathione]], [[Iron]], [[Fenton Reaction]], [[ACSL4]], [[Senescent Cells]], [[SASP]], [[IL-6]], [[IL-8]], [[RSL3]], [[Lipid Peroxidation]], [[Melanoma]], [[Prostate Cancer]], [[Apoptosis]], [[Replicative Senescence]], [[Paracrine Senescence]], [[Senolytic]], [[Senomorphic]]
-- Suggested new entity notes to create: [[Lands cycle]]
-- Strong connections to strengthen: [[Acid ceramidase]] ↔ [[Ferroptosis]], [[Acid ceramidase]] ↔ [[Senescent Cells]], [[Acid ceramidase]] ↔ [[SASP]] (via IL-6/IL-8), [[Acid ceramidase]] ↔ [[Ceramide]]
+- New links added: [[ASAH1]], [[Ceramide]], [[Sphingosine]], [[Sphingosine-1-phosphate]], [[Ferroptosis]], [[Senescence]], [[SASP]], [[Lands cycle]], [[Lipid Peroxidation]], [[GPX4]], [[ARN14794]], [[Carmofur]]
+- Suggested new entity notes to create: [[ARN14974]], [[Farber disease]]
+- Strong connections to strengthen:
+    - [[Acid Ceramidase]] ↔ [[Ferroptosis]]
+    - [[Acid Ceramidase]] ↔ [[Senescence]]
+    - [[Acid Ceramidase]] ↔ [[Ceramide]]

@@ -2,104 +2,250 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="Interactive 3D knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 ">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
-  #graph { flex: 1; position: relative; }
+  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+  #graph { flex: 1; position: relative; min-width: 0; min-height: 0; overflow: hidden; }
   
-  #sidebar { width: 300px; background: #1a1a2e; border-left: 1px solid #2a2a4e; display: flex; flex-direction: column; overflow: hidden; flex-shrink: 0; transition: width 0.2s ease; }
-  #sidebar.hidden { width: 0; border-left: none; padding: 0; }
-  #sidebar.hidden * { display: none; }
+  #sidebar { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; background: #1a1a2e; display: flex; flex-direction: column; overflow: hidden; z-index: 100; transform: translateY(100%); transition: transform 0.3s ease; }
+  #sidebar.open { transform: translateY(0); }
   
-  #sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 44px; }
-  #sidebar-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
-  #sidebar-close { background: none; border: none; color: #888; font-size: 20px; cursor: pointer; padding: 0 4px; line-height: 1; transition: color 0.15s; }
+  #sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 56px; }
+  #sidebar-header span { font-size: 16px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #sidebar-close { background: none; border: none; color: #888; font-size: 28px; cursor: pointer; padding: 4px 8px; line-height: 1; transition: color 0.15s; }
   #sidebar-close:hover { color: #e0e0e0; }
   
-  #search-wrap { padding: 12px; border-bottom: 1px solid #2a2a4e; }
-  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; }
+  #search-wrap { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; }
+  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 14px 16px; border-radius: 8px; font-size: 18px; outline: none; }
   #search:focus { border-color: #4E79A7; }
-  #search-results { max-height: 200px; overflow-y: auto; padding: 4px 12px; border-bottom: 1px solid #2a2a4e; display: none; }
-  .search-item { padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #search-results { max-height: 40vh; overflow-y: auto; padding: 8px 20px; border-bottom: 1px solid #2a2a4e; display: none; }
+  .search-item { padding: 12px 14px; cursor: pointer; border-radius: 6px; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .search-item:hover { background: #2a2a4e; }
 
   /* Trace panel */
   #trace-panel { border-bottom: 1px solid #2a2a4e; padding: 0; }
-  #trace-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; cursor: pointer; user-select: none; }
+  #trace-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; cursor: pointer; user-select: none; }
   #trace-header:hover { background: #16162b; }
-  #trace-header span { font-size: 12px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
-  #trace-header .chevron { color: #666; font-size: 10px; transition: transform 0.2s; }
+  #trace-header span { font-size: 16px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  #trace-header .chevron { color: #666; font-size: 14px; transition: transform 0.2s; }
   #trace-header .chevron.open { transform: rotate(90deg); }
-  #trace-body { padding: 0 14px 12px; display: none; }
+  #trace-body { padding: 0 20px 16px; display: none; }
   #trace-body.open { display: block; }
-  #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; cursor: pointer; }
+  #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 14px 16px; border-radius: 8px; font-size: 17px; outline: none; cursor: pointer; }
   #trace-select:focus { border-color: #4E79A7; }
-  #trace-summary { margin-top: 10px; font-size: 12px; color: #bbb; line-height: 1.6; max-height: 120px; overflow-y: auto; }
-  #trace-routes { margin-top: 8px; }
-  .trace-route { padding: 6px 8px; margin: 3px 0; border-radius: 4px; font-size: 12px; cursor: pointer; border-left: 3px solid #4E79A7; background: rgba(78,121,167,0.08); transition: background 0.15s; }
+  #trace-summary { margin-top: 12px; font-size: 15px; color: #bbb; line-height: 1.7; max-height: 30vh; overflow-y: auto; }
+  #trace-routes { margin-top: 10px; }
+  .trace-route { padding: 12px 14px; margin: 6px 0; border-radius: 6px; font-size: 15px; cursor: pointer; border-left: 4px solid #4E79A7; background: rgba(78,121,167,0.08); transition: background 0.15s; }
   .trace-route:hover { background: rgba(78,121,167,0.18); }
   .trace-route.active { background: rgba(78,121,167,0.25); border-left-color: #7cb3d4; }
   .trace-route-name { font-weight: 600; color: #ccc; }
-  .trace-route-hops { color: #666; font-size: 10px; margin-left: 6px; }
-  #trace-clear { margin-top: 8px; width: 100%; background: transparent; border: 1px solid #3a3a5e; color: #888; padding: 6px; border-radius: 4px; font-size: 11px; cursor: pointer; transition: all 0.15s; display: none; }
+  .trace-route-hops { color: #666; font-size: 13px; margin-left: 8px; }
+  #trace-clear { margin-top: 10px; width: 100%; background: transparent; border: 1px solid #3a3a5e; color: #888; padding: 12px; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.15s; display: none; }
   #trace-clear:hover { border-color: #4E79A7; color: #e0e0e0; }
-  #trace-key-nodes { margin-top: 8px; }
-  .trace-key-node { display: inline-block; padding: 2px 7px; margin: 2px; border-radius: 3px; font-size: 11px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
+  #trace-key-nodes { margin-top: 10px; }
+  .trace-key-node { display: inline-block; padding: 6px 12px; margin: 4px; border-radius: 4px; font-size: 14px; cursor: pointer; border: 1px solid #3a3a5e; color: #bbb; transition: all 0.15s; }
   .trace-key-node:hover { border-color: #4E79A7; color: #e0e0e0; }
-  #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; }
-  #info-panel h3 { font-size: 12px; color: #aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
-  #info-content { font-size: 13px; color: #ccc; line-height: 1.6; }
-  #info-content .field { margin-bottom: 5px; }
-  #info-content .field b { color: #e0e0e0; }
+  #info-panel { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; min-height: 120px; max-height: 40vh; overflow-y: auto; }
+  #info-panel h3 { font-size: 15px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  #info-content { font-size: 16px; color: #ccc; line-height: 1.7; }
+  #info-content .field { margin-bottom: 7px; }
+  #info-content .field b { color: #e0e0e0; font-size: 18px; }
   #info-content .empty { color: #555; font-style: italic; }
-  .neighbor-link { display: block; padding: 4px 8px; margin: 2px 0; border-radius: 3px; cursor: pointer; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
+  .neighbor-link { display: block; padding: 10px 12px; margin: 4px 0; border-radius: 4px; cursor: pointer; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
   .neighbor-link:hover { background: #2a2a4e; }
-  #neighbors-list { max-height: 200px; overflow-y: auto; margin-top: 4px; }
-  #legend-wrap { flex: 1; overflow-y: auto; padding: 12px; }
-  #legend-wrap h3 { font-size: 12px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .legend-item { display: flex; align-items: flex-start; gap: 8px; padding: 6px 8px; cursor: pointer; border-radius: 4px; font-size: 12px; transition: background 0.15s; }
+  #neighbors-list { max-height: 40vh; overflow-y: auto; margin-top: 6px; }
+  #legend-wrap { flex: 1; overflow-y: auto; padding: 16px 20px; }
+  #legend-wrap h3 { font-size: 15px; color: #aaa; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .legend-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; cursor: pointer; border-radius: 6px; font-size: 15px; transition: background 0.15s; }
   .legend-item:hover { background: #2a2a4e; }
   .legend-item.dimmed { opacity: 0.3; }
   .legend-item.focused { background: rgba(78, 121, 167, 0.2); border-left: 3px solid #4E79A7; margin-left: -3px; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
-  .legend-label { flex: 1; overflow: hidden; line-height: 1.3; }
-  .legend-count { color: #666; font-size: 11px; }
-  #stats { padding: 10px 14px; border-top: 1px solid #2a2a4e; font-size: 11px; color: #555; }
+  .legend-dot { width: 16px; height: 16px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
+  .legend-label { flex: 1; overflow: hidden; line-height: 1.4; }
+  .legend-count { color: #666; font-size: 14px; }
+  #stats { padding: 14px 20px; border-top: 1px solid #2a2a4e; font-size: 14px; color: #555; }
   #legend-controls { display: none; }
   
   /* Tooltip */
-  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 350px; }
+  #tooltip { position: absolute; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; font-size: 15px; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 50; max-width: 90vw; }
   #tooltip.visible { opacity: 1; }
   
-  /* Home link */
-  #home-link { position: absolute; top: 12px; left: 12px; z-index: 10; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 14px; border-radius: 6px; text-decoration: none; font-size: 12px; transition: all 0.15s; }
-  #home-link:hover { background: #2a2a4e; border-color: #4E79A7; }
+  /* Share panel */
+  #share-panel { position: absolute; top: 56px; left: 12px; z-index: 20; background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 8px; padding: 12px 16px; display: none; flex-direction: column; gap: 8px; min-width: 320px; max-width: 90vw; }
+  #share-panel.visible { display: flex; }
+  #share-panel input { background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 10px 12px; border-radius: 6px; font-size: 14px; outline: none; width: 100%; }
+  #share-panel input:focus { border-color: #4E79A7; }
+  #share-panel button { background: #4E79A7; border: none; color: #e0e0e0; padding: 10px 16px; border-radius: 6px; font-size: 14px; cursor: pointer; transition: background 0.15s; }
+  #share-panel button:hover { background: #5d8ab8; }
   
+  /* Top-left links */
+  #top-links { position: absolute; top: 12px; left: 12px; z-index: 10; display: flex; gap: 8px; }
+  #top-links a { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; }
+  #top-links a:hover { background: #2a2a4e; border-color: #4E79A7; }
+  #top-links a.data-source { display: inline-flex; align-items: center; justify-content: center; padding: 12px 14px; font-family: monospace; font-size: 15px; letter-spacing: 0.5px; }
+  a.data-source:hover { border-color: #6b9bc7; }
+  
+  /* Zoom bar */
+  #zoom-bar { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); z-index: 10; display: flex; flex-direction: column; align-items: center; gap: 6px; opacity: 0.3; transition: opacity 0.2s; height: 75vh; }
+  #zoom-bar:hover { opacity: 0.8; }
+  #zoom-bar button { background: #2a2a2a; border: 1px solid #4a4a4a; color: #999; width: 28px; height: 28px; border-radius: 6px; cursor: pointer; font-size: 14px; line-height: 1; display: flex; align-items: center; justify-content: center; transition: all 0.15s; user-select: none; flex-shrink: 0; }
+  #zoom-bar button:hover { background: #3a3a3a; border-color: #666; color: #ccc; }
+  #zoom-slider-track { position: relative; width: 28px; flex: 1; min-height: 0; background: #2a2a2a; border: 1px solid #4a4a4a; border-radius: 6px; cursor: pointer; overflow: hidden; }
+  #zoom-slider-fill { position: absolute; bottom: 0; left: 0; right: 0; background: #4a4a4a; transition: height 0.05s; pointer-events: none; }
+  #zoom-slider-thumb { position: absolute; left: 3px; right: 3px; height: 12px; background: #888; border-radius: 4px; transform: translateY(-50%); pointer-events: none; transition: bottom 0.05s; }
+  #zoom-bar .zoom-label { color: #666; font-size: 11px; margin-top: 6px; letter-spacing: 0.05em; text-transform: uppercase; user-select: none; flex-shrink: 0; }
+
   /* Controls overlay */
-  #controls { position: absolute; bottom: 16px; left: 16px; display: flex; gap: 8px; z-index: 10; }
-  #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; transition: all 0.15s; }
+  #controls { position: absolute; bottom: 16px; left: 12px; right: 12px; display: flex; gap: 8px; z-index: 10; flex-wrap: wrap; justify-content: center; }
+  #controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 1; min-width: 0; white-space: nowrap; }
   #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
   #controls button.active { background: #4E79A7; border-color: #4E79A7; }
   
-  /* Toggle button - shown when sidebar is hidden */
-  #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 44px; height: 44px; border-radius: 8px; cursor: pointer; align-items: center; justify-content: center; font-size: 20px; }
+  /* Toggle button */
+  #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 52px; height: 52px; border-radius: 10px; cursor: pointer; align-items: center; justify-content: center; font-size: 24px; margin: 0; transform: translateZ(0); }
   #mobile-toggle:hover { background: #2a2a4e; border-color: #4E79A7; }
   #mobile-toggle.visible { display: flex; }
   
   /* Loading overlay */
   #loading { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #0f0f1a; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; }
   #loading.hidden { display: none; }
-  #loading h2 { color: #e0e0e0; margin-bottom: 16px; font-size: 18px; }
-  #loading p { color: #888; font-size: 13px; }
-  .spinner { width: 40px; height: 40px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
+  #loading h2 { color: #e0e0e0; margin-bottom: 16px; font-size: 22px; }
+  #loading p { color: #888; font-size: 16px; }
+  .spinner { width: 48px; height: 48px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
   @keyframes spin { to { transform: rotate(360deg); } }
+  
+  /* Desktop overrides */
+  @media (min-width: 768px) {
+    body { flex-direction: row; }
+    #sidebar { position: relative; top: auto; left: auto; right: auto; bottom: auto; width: 360px; transform: none; flex-shrink: 0; border-left: 1px solid #2a2a4e; }
+    #sidebar.closed { display: none; }
+    #mobile-toggle.visible { display: flex; }
+    #controls { left: 16px; right: auto; flex-wrap: nowrap; }
+    #controls button { flex: none; }
+  }
+
+  /* Chat button */
+  #chat-btn {
+    position: fixed; bottom: 24px; right: 24px; z-index: 300;
+    width: 56px; height: 56px; border-radius: 50%;
+    background: #4E79A7; border: 2px solid #6b9bc7; color: #fff;
+    font-size: 24px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    transition: all 0.2s;
+  }
+  #chat-btn:hover { background: #5d8ab8; transform: scale(1.08); }
+  #chat-btn.open { background: #2a2a4e; border-color: #3a3a5e; }
+
+  /* Chat panel */
+  #chat-panel {
+    position: fixed; bottom: 92px; right: 24px; z-index: 290;
+    width: 400px; max-width: calc(100vw - 48px); height: 520px;
+    max-height: calc(100vh - 120px);
+    background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
+    display: none; flex-direction: column; overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  }
+  #chat-panel.open { display: flex; }
+
+  #chat-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 16px; border-bottom: 1px solid #2a2a4e;
+    background: #16162b; flex-shrink: 0;
+  }
+  #chat-header span { font-size: 14px; font-weight: 600; color: #aaa; letter-spacing: 0.03em; }
+  #chat-clear {
+    background: none; border: 1px solid #3a3a5e; color: #888;
+    padding: 4px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
+    transition: all 0.15s;
+  }
+  #chat-clear:hover { border-color: #4E79A7; color: #e0e0e0; }
+
+  #chat-messages {
+    flex: 1; overflow-y: auto; padding: 12px 14px;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .chat-msg { padding: 10px 14px; border-radius: 8px; font-size: 14px; line-height: 1.6; max-width: 90%; word-wrap: break-word; }
+  .chat-msg.user {
+    align-self: flex-end; background: #4E79A7; color: #fff;
+    border-bottom-right-radius: 2px;
+  }
+  .chat-msg.bot {
+    align-self: flex-start; background: #2a2a4e; color: #ccc;
+    border-bottom-left-radius: 2px;
+  }
+  .chat-msg.bot b { color: #e0e0e0; }
+  .chat-msg.bot code { background: #0f0f1a; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+  .chat-msg.error { background: #3a1a1a; color: #ff8888; align-self: center; font-size: 13px; }
+  .chat-msg.typing { color: #666; font-style: italic; align-self: flex-start; }
+
+  .chat-suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .chat-suggestion {
+    background: transparent; border: 1px dashed #4E79A7; color: #7cb3d4;
+    padding: 8px 14px; border-radius: 20px; font-size: 13px; cursor: pointer;
+    transition: all 0.15s; font-family: inherit;
+  }
+  .chat-suggestion:hover { background: rgba(78,121,167,0.15); border-color: #7cb3d4; color: #a0d4f0; }
+  .chat-suggestion-more { border-style: solid; border-color: #6b5ce7; color: #a78bfa; }
+  .chat-suggestion-more:hover { background: rgba(107,92,231,0.15); border-color: #a78bfa; }
+
+  .chat-node-link {
+    color: #7cb3d4; cursor: pointer; text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+  .chat-node-link:hover { color: #a0d4f0; }
+
+  #chat-input-wrap {
+    display: flex; gap: 8px; padding: 12px 14px;
+    border-top: 1px solid #2a2a4e; flex-shrink: 0;
+  }
+  #chat-input {
+    flex: 1; background: #0f0f1a; border: 1px solid #3a3a5e;
+    color: #e0e0e0; padding: 10px 12px; border-radius: 8px;
+    font-size: 14px; outline: none; resize: none;
+    font-family: inherit;
+  }
+  #chat-input:focus { border-color: #4E79A7; }
+  #chat-input::placeholder { color: #555; }
+  #chat-send {
+    background: #4E79A7; border: none; color: #fff;
+    padding: 10px 16px; border-radius: 8px; font-size: 14px;
+    cursor: pointer; transition: background 0.15s; flex-shrink: 0;
+  }
+  #chat-send:hover { background: #5d8ab8; }
+  #chat-send:disabled { background: #2a2a4e; color: #555; cursor: default; }
+
+  /* Chat highlight overlay indicator */
+  #chat-highlight-badge {
+    position: fixed; bottom: 92px; right: 88px; z-index: 280;
+    background: #4E79A7; color: #fff; font-size: 12px;
+    padding: 4px 10px; border-radius: 12px;
+    display: none; cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+  #chat-highlight-badge.visible { display: block; }
+  #chat-highlight-badge:hover { background: #5d8ab8; }
+
+  @media (max-width: 480px) {
+    #chat-panel { width: calc(100vw - 24px); right: 12px; bottom: 84px; height: 60vh; }
+    #chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
+    #chat-highlight-badge { bottom: 76px; right: 72px; }
+  }
 </style>
 </head>
 <body>
 <button id="mobile-toggle" title="Open search and filters">&#9776;</button>
-<a href="https://www.johnnykuo.com" id="home-link" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
+<div id="top-links">
+  <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
+  <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/Graphify-out" title="View data source on GitHub" aria-label="View data source on GitHub">Data Source / 來源資料</a>
+</div>
+<div id="share-panel">
+  <input id="share-url" type="text" readonly>
+  <button id="share-copy">Copy / 複製</button>
+</div>
 <div id="graph">
   <div id="loading">
     <div class="spinner"></div>
@@ -112,6 +258,16 @@
     <button id="btn-physics" title="Toggle physics simulation">Physics / 物理模擬</button>
     <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
     <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+    <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
+  </div>
+  <div id="zoom-bar">
+    <button id="zoom-in" title="Zoom in">+</button>
+    <div id="zoom-slider-track">
+      <div id="zoom-slider-fill"></div>
+      <div id="zoom-slider-thumb"></div>
+    </div>
+    <button id="zoom-out" title="Zoom out">&minus;</button>
+    <span class="zoom-label">Zoom</span>
   </div>
 </div>
 <div id="sidebar">
@@ -125,12 +281,12 @@
   </div>
   <div id="trace-panel">
     <div id="trace-header">
-      <span>Graph Traces / 圖形追蹤</span>
+      <span>Graph Query / 圖形查詢</span>
       <span class="chevron" id="trace-chevron">&#9654;</span>
     </div>
     <div id="trace-body">
       <select id="trace-select">
-        <option value="">Select a trace...</option>
+        <option value="">Select a query...</option>
       </select>
       <div id="trace-summary"></div>
       <div id="trace-routes"></div>
@@ -143,6 +299,7 @@
     <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
   </div>
   <div id="legend-wrap">
+    <div id="community-key-nodes"></div>
     <h3>Communities / 社群</h3>
     <div id="legend-controls">
       <label><input type="checkbox" id="select-all-cb" checked>Select All / 全選</label>
@@ -150,6 +307,29 @@
     <div id="legend"></div>
   </div>
   <div id="stats"></div>
+</div>
+
+<!-- Chat Interface -->
+<button id="chat-btn" title="Chat with the knowledge graph">&#128172;</button>
+<div id="chat-highlight-badge" title="Click to clear chat highlights">Highlighting active</div>
+<div id="chat-panel">
+  <div id="chat-header">
+    <span>Graph Chat / 圖形對話</span>
+    <button id="chat-clear" title="Clear chat history">Clear</button>
+  </div>
+  <div id="chat-messages">
+    <div class="chat-msg bot">Ask me about the knowledge graph!</div>
+    <div class="chat-suggestions" id="chat-suggestions">
+      <button class="chat-suggestion" data-query="graphify trace from Autophagy to Rapamycin">graphify trace from Autophagy to Rapamycin</button>
+      <button class="chat-suggestion" data-query="What is NAD+?">What is NAD+?</button>
+      <button class="chat-suggestion" data-query="什麼是自噬作用？">什麼是自噬作用？</button>
+      <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
+    </div>
+  </div>
+  <div id="chat-input-wrap">
+    <textarea id="chat-input" rows="1" placeholder="Ask a question..." maxlength="500"></textarea>
+    <button id="chat-send" title="Send">Send</button>
+  </div>
 </div>
 
 <script type="importmap">
@@ -173,25 +353,55 @@ const loadStatus = document.getElementById('load-status');
 
 async function loadData() {
   loadStatus.textContent = 'Loading nodes...';
-  const nodesResp = await fetch('nodes.json');
+  const nodesResp = await fetch('nodes.json?v=' + Date.now());
   const RAW_NODES = await nodesResp.json();
   
   loadStatus.textContent = 'Loading edges...';
-  const edgesResp = await fetch('edges.json');
+  const edgesResp = await fetch('edges.json?v=' + Date.now());
   const RAW_EDGES = await edgesResp.json();
   
   loadStatus.textContent = 'Loading legend...';
-  const legendResp = await fetch('legend.json');
+  const legendResp = await fetch('legend.json?v=' + Date.now());
   const LEGEND = await legendResp.json();
   
   loadStatus.textContent = 'Loading context...';
-  const graphResp = await fetch('graph.json');
+  const graphResp = await fetch('graph.json?v=' + Date.now());
   const graphData = await graphResp.json();
   
-  return { RAW_NODES, RAW_EDGES, LEGEND, graphData };
+  let MANIFEST = {};
+  try {
+    const manifestResp = await fetch('manifest.json?v=' + Date.now());
+    MANIFEST = await manifestResp.json();
+  } catch (e) {
+    console.warn('Could not load manifest:', e);
+  }
+
+  let WIKI_CONTEXT = {};
+  try {
+    const wikiResp = await fetch('wiki-context.json?v=' + Date.now());
+    WIKI_CONTEXT = await wikiResp.json();
+  } catch (e) {
+    console.warn('Could not load wiki-context:', e);
+  }
+  
+  return { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, WIKI_CONTEXT };
 }
 
-const { RAW_NODES, RAW_EDGES, LEGEND, graphData } = await loadData();
+const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, WIKI_CONTEXT } = await loadData();
+
+const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
+const fileToPath = new Map();
+Object.keys(MANIFEST).forEach(p => {
+  if (p.endsWith('.md')) {
+    const basename = p.split('/').pop();
+    fileToPath.set(basename, p);
+  }
+});
+
+function githubSourceUrl(sourceFile) {
+  const fullPath = fileToPath.get(sourceFile);
+  return GITHUB_BASE + (fullPath ? 'src/' + fullPath : sourceFile);
+}
 
 // ============================================================
 // Trace Loading
@@ -202,7 +412,7 @@ let activeRouteIdx = -1;
 let suppressHashUpdate = false;
 
 try {
-  const traceResp = await fetch('trace.json');
+  const traceResp = await fetch('traces.json?v=' + Date.now());
   TRACES = await traceResp.json();
 } catch (e) {
   console.warn('Could not load traces:', e);
@@ -220,6 +430,9 @@ function updateHash() {
   }
   if (selectedNode) {
     parts.push(`node=${encodeURIComponent(selectedNode)}`);
+  }
+  if (selectedEdge) {
+    parts.push(`edge=${encodeURIComponent(selectedEdge.from)},${encodeURIComponent(selectedEdge.to)}`);
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
@@ -240,7 +453,7 @@ function parseHash() {
 loadStatus.textContent = 'Loading translations...';
 let TRANSLATIONS = {};
 try {
-  const transResp = await fetch('translations-zh-TW.json');
+  const transResp = await fetch('translations-zh-TW.json?v=' + Date.now());
   TRANSLATIONS = await transResp.json();
 } catch (e) {
   console.warn('Could not load translations:', e);
@@ -282,7 +495,7 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x0f0f1a);
 
 const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 10000);
-camera.position.set(0, 0, 500);
+camera.position.set(-120, 0, 500);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(container.clientWidth, container.clientHeight);
@@ -297,6 +510,7 @@ labelRenderer.domElement.style.pointerEvents = 'none';
 container.appendChild(labelRenderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(170, 0, 0);
 controls.enableDamping = true;
 controls.dampingFactor = 0.05;
 controls.minDistance = 50;
@@ -414,20 +628,20 @@ function createLabel(nodeData, mesh) {
   
   const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
   if (zhTWLabel && zhTWLabel !== nodeData.label) {
-    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:12px">${esc(zhTWLabel)}</span>`;
+    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:14px">${esc(zhTWLabel)}</span>`;
   } else {
     div.textContent = nodeData.label;
   }
   
   div.style.cssText = `
     color: #e0e0e0;
-    font-size: 14px;
-    padding: 3px 8px;
+    font-size: 16px;
+    padding: 4px 10px;
     background: rgba(15, 15, 26, 0.8);
-    border-radius: 3px;
+    border-radius: 4px;
     white-space: nowrap;
     pointer-events: auto;
-    cursor: pointer;
+    cursor: grab;
     text-shadow: 0 0 4px rgba(0,0,0,0.8);
     text-align: center;
     line-height: 1.3;
@@ -443,7 +657,7 @@ function createLabel(nodeData, mesh) {
       const displayName = zhTWName && zhTWName !== nodeData.label 
         ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
         : esc(nodeData.label);
-      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${stickyNodes.has(nodeData.id) ? '<br><span style="color:#4E79A7">Sticky / 已固定</span>' : ''}`;
       const rect = container.getBoundingClientRect();
       tooltip.style.left = (rect.left + 15) + 'px';
       tooltip.style.top = (rect.top + 15) + 'px';
@@ -481,12 +695,12 @@ RAW_NODES.forEach(n => {
 const edgeLabelDiv = document.createElement('div');
 edgeLabelDiv.style.cssText = `
   color: #a0c4ff;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
-  padding: 3px 8px;
+  padding: 5px 10px;
   background: rgba(15, 15, 26, 0.9);
   border: 1px solid rgba(78, 121, 167, 0.4);
-  border-radius: 4px;
+  border-radius: 5px;
   white-space: nowrap;
   pointer-events: auto;
   cursor: pointer;
@@ -595,6 +809,7 @@ function applyForces() {
   
   for (let i = 0; i < nodeMeshes.length; i += step) {
     const meshA = nodeMeshes[i];
+    if (stickyNodes.has(meshA.userData.nodeId)) continue;
     const velA = velocities.get(meshA.userData.nodeId);
     
     for (let j = i + step; j < nodeMeshes.length; j += step) {
@@ -617,15 +832,20 @@ function applyForces() {
       velA.x += fx;
       velA.y += fy;
       velA.z += fz;
-      velB.x -= fx;
-      velB.y -= fy;
-      velB.z -= fz;
+      if (!stickyNodes.has(meshB.userData.nodeId)) {
+        velB.x -= fx;
+        velB.y -= fy;
+        velB.z -= fz;
+      }
     }
   }
   
   // Attraction along edges
   edgeObjects.forEach(line => {
     const { fromMesh, toMesh, edge } = line.userData;
+    const fromSticky = stickyNodes.has(edge.from);
+    const toSticky = stickyNodes.has(edge.to);
+    if (fromSticky && toSticky) return;
     const velFrom = velocities.get(edge.from);
     const velTo = velocities.get(edge.to);
     
@@ -641,16 +861,21 @@ function applyForces() {
     const fy = (dy / dist) * force;
     const fz = (dz / dist) * force;
     
-    velFrom.x += fx;
-    velFrom.y += fy;
-    velFrom.z += fz;
-    velTo.x -= fx;
-    velTo.y -= fy;
-    velTo.z -= fz;
+    if (!fromSticky) {
+      velFrom.x += fx;
+      velFrom.y += fy;
+      velFrom.z += fz;
+    }
+    if (!toSticky) {
+      velTo.x -= fx;
+      velTo.y -= fy;
+      velTo.z -= fz;
+    }
   });
   
   // Center gravity
   nodeMeshes.forEach(mesh => {
+    if (stickyNodes.has(mesh.userData.nodeId)) return;
     const vel = velocities.get(mesh.userData.nodeId);
     vel.x -= mesh.position.x * centerGravity;
     vel.y -= mesh.position.y * centerGravity;
@@ -659,7 +884,9 @@ function applyForces() {
   
   // Apply velocities with damping
   nodeMeshes.forEach(mesh => {
-    const vel = velocities.get(mesh.userData.nodeId);
+    const nodeId = mesh.userData.nodeId;
+    if (stickyNodes.has(nodeId)) return;
+    const vel = velocities.get(nodeId);
     vel.multiplyScalar(damping);
     
     // Clamp velocity
@@ -716,6 +943,19 @@ let selectedNode = null;
 let selectedEdge = null;
 let lastHoveredNodeId = null;
 
+// Drag state
+let isDragging = false;
+let draggedNode = null;
+const dragPlane = new THREE.Plane();
+const dragOffset = new THREE.Vector3();
+const intersection = new THREE.Vector3();
+const stickyNodes = new Set();
+let dragMoved = false;
+let dragStartPos = new THREE.Vector2();
+let dragGroup = []; // { mesh, offset } for group drag (Cmd/Ctrl + drag or long press)
+let longPressTimer = null;
+let longPressActive = false;
+
 function restoreDefaultLabels() {
   // If a trace is active, don't restore default labels
   if (activeTrace) return;
@@ -746,6 +986,8 @@ function onMouseMove(event) {
   
   raycaster.setFromCamera(mouse, camera);
   
+  if (isDragging) return;
+  
   // When a node is selected, check edges first so edge labels show up
   if (selectedNode) {
     const edgeIntersects = raycaster.intersectObjects(edgeObjects);
@@ -767,13 +1009,13 @@ function onMouseMove(event) {
       if (mesh.userData.nodeData) {
         hoveredNode = mesh;
         hideEdgeLabel();
-        container.style.cursor = 'pointer';
+        container.style.cursor = 'grab';
         const nodeData = mesh.userData.nodeData;
         const zhTWName = TRANSLATIONS[nodeData.label] || '';
         const displayName = zhTWName && zhTWName !== nodeData.label 
           ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
           : esc(nodeData.label);
-        tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+        tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${stickyNodes.has(nodeData.id) ? '<br><span style="color:#4E79A7">Sticky / 已固定</span>' : ''}`;
         tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
         tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
         tooltip.classList.add('visible');
@@ -805,13 +1047,13 @@ function onMouseMove(event) {
     if (mesh.userData.nodeData) {
       hoveredNode = mesh;
       hideEdgeLabel();
-      container.style.cursor = 'pointer';
+      container.style.cursor = 'grab';
       const nodeData = mesh.userData.nodeData;
       const zhTWName = TRANSLATIONS[nodeData.label] || '';
       const displayName = zhTWName && zhTWName !== nodeData.label 
         ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
         : esc(nodeData.label);
-      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}`;
+      tooltip.innerHTML = `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${stickyNodes.has(nodeData.id) ? '<br><span style="color:#4E79A7">Sticky / 已固定</span>' : ''}`;
       tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
       tooltip.style.top = (event.clientY - rect.top + 15) + 'px';
       tooltip.classList.add('visible');
@@ -863,8 +1105,28 @@ function restoreSelectedLabels() {
 }
 
 function onClick(event) {
-  if (hoveredNode) {
-    selectNode(hoveredNode.userData.nodeId);
+  if (dragMoved) return;
+
+  // Do raycasting on click directly (not relying solely on hoveredNode from mousemove)
+  const rect = container.getBoundingClientRect();
+  const clickMouse = new THREE.Vector2(
+    ((event.clientX - rect.left) / rect.width) * 2 - 1,
+    -((event.clientY - rect.top) / rect.height) * 2 + 1
+  );
+  raycaster.setFromCamera(clickMouse, camera);
+
+  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  const clickedMesh = nodeIntersects.length > 0 ? nodeIntersects[0].object : null;
+  const clickedNodeId = clickedMesh ? clickedMesh.userData.nodeId : null;
+
+  if (clickedNodeId) {
+    if (stickyNodes.has(clickedNodeId)) {
+      unstickNode(clickedNodeId);
+    } else if (selectedNode === clickedNodeId) {
+      deselectNode();
+    } else {
+      selectNode(clickedNodeId);
+    }
   } else if (hoveredEdge) {
     selectNode(hoveredEdge.userData.edge.from);
   } else {
@@ -874,6 +1136,158 @@ function onClick(event) {
 
 container.addEventListener('mousemove', onMouseMove);
 container.addEventListener('click', onClick);
+
+// ============================================================
+// Node Dragging
+// ============================================================
+function onMouseDown(event) {
+  if (event.button !== 0) return;
+  const rect = container.getBoundingClientRect();
+  mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  raycaster.setFromCamera(mouse, camera);
+  const intersects = raycaster.intersectObjects(nodeMeshes);
+  if (intersects.length > 0) {
+    const mesh = intersects[0].object;
+    isDragging = true;
+    draggedNode = mesh;
+    dragMoved = false;
+    dragStartPos.set(event.clientX, event.clientY);
+    controls.enabled = false;
+    container.style.cursor = 'grabbing';
+    dragPlane.setFromNormalAndCoplanarPoint(
+      camera.getWorldDirection(new THREE.Vector3()),
+      mesh.position
+    );
+    if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
+      dragOffset.copy(intersection).sub(mesh.position);
+    }
+
+    // Cmd/Ctrl + drag: move connected nodes as a group
+    dragGroup = [];
+    longPressActive = false;
+    if (event.metaKey || event.ctrlKey) {
+      activateGroupDrag(mesh);
+    } else if (event.pointerType === 'touch') {
+      // Long press on mobile: activate group drag after delay
+      longPressTimer = setTimeout(() => {
+        longPressActive = true;
+        activateGroupDrag(mesh);
+        // Visual feedback: pulse the node
+        const mat = mesh.material;
+        const origEmissive = mat.emissiveIntensity;
+        mat.emissiveIntensity = 0.8;
+        setTimeout(() => { mat.emissiveIntensity = origEmissive; }, 200);
+        if (navigator.vibrate) navigator.vibrate(30);
+      }, 500);
+    }
+
+    event.preventDefault();
+  }
+}
+
+function activateGroupDrag(mesh) {
+  dragGroup = [];
+  const neighbors = adjacency.get(mesh.userData.nodeId) || [];
+  neighbors.forEach(({ target }) => {
+    const neighborMesh = nodeObjects.get(target);
+    if (neighborMesh) {
+      dragGroup.push({
+        mesh: neighborMesh,
+        offset: neighborMesh.position.clone().sub(mesh.position)
+      });
+    }
+  });
+}
+
+function onMouseDrag(event) {
+  if (!isDragging || !draggedNode) return;
+  const dx = event.clientX - dragStartPos.x;
+  const dy = event.clientY - dragStartPos.y;
+  if (dx * dx + dy * dy > 9) {
+    dragMoved = true;
+    // Cancel long press timer if user starts moving (it's a normal drag, not a long press)
+    if (longPressTimer) {
+      clearTimeout(longPressTimer);
+      longPressTimer = null;
+    }
+  }
+  const rect = container.getBoundingClientRect();
+  mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  raycaster.setFromCamera(mouse, camera);
+  if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
+    draggedNode.position.copy(intersection.sub(dragOffset));
+    stickyNodes.add(draggedNode.userData.nodeId);
+    const label = labelObjects.get(draggedNode.userData.nodeId);
+    if (label) {
+      label.position.copy(draggedNode.position);
+      label.position.y += draggedNode.scale.y + 2;
+    }
+    updateEdgesForNode(draggedNode);
+
+    // Move group nodes (Cmd/Ctrl + drag or long press)
+    dragGroup.forEach(({ mesh, offset }) => {
+      mesh.position.copy(draggedNode.position).add(offset);
+      stickyNodes.add(mesh.userData.nodeId);
+      const gLabel = labelObjects.get(mesh.userData.nodeId);
+      if (gLabel) {
+        gLabel.position.copy(mesh.position);
+        gLabel.position.y += mesh.scale.y + 2;
+      }
+      updateEdgesForNode(mesh);
+    });
+
+    tooltip.classList.remove('visible');
+  }
+}
+
+function onMouseUp() {
+  // Clear long press timer
+  if (longPressTimer) {
+    clearTimeout(longPressTimer);
+    longPressTimer = null;
+  }
+
+  if (isDragging && draggedNode) {
+    const vel = velocities.get(draggedNode.userData.nodeId);
+    if (vel) vel.set(0, 0, 0);
+    addStickyRing(draggedNode);
+
+    // Mark group nodes as sticky (Cmd/Ctrl + drag or long press)
+    dragGroup.forEach(({ mesh }) => {
+      const gVel = velocities.get(mesh.userData.nodeId);
+      if (gVel) gVel.set(0, 0, 0);
+      addStickyRing(mesh);
+    });
+
+    btnUnstick.style.display = 'block';
+  }
+  isDragging = false;
+  draggedNode = null;
+  dragGroup = [];
+  longPressActive = false;
+  controls.enabled = true;
+  container.style.cursor = 'default';
+}
+
+function updateEdgesForNode(mesh) {
+  const nodeId = mesh.userData.nodeId;
+  edgeObjects.forEach(line => {
+    const { edge, fromMesh, toMesh } = line.userData;
+    if (edge.from === nodeId || edge.to === nodeId) {
+      const positions = line.geometry.attributes.position;
+      positions.setXYZ(0, fromMesh.position.x, fromMesh.position.y, fromMesh.position.z);
+      positions.setXYZ(1, toMesh.position.x, toMesh.position.y, toMesh.position.z);
+      positions.needsUpdate = true;
+    }
+  });
+}
+
+container.addEventListener('pointerdown', onMouseDown);
+container.addEventListener('pointermove', onMouseDrag);
+container.addEventListener('pointerup', onMouseUp);
+container.addEventListener('pointerleave', onMouseUp);
 
 function selectNode(nodeId) {
   selectedNode = nodeId;
@@ -928,9 +1342,9 @@ function selectNode(nodeId) {
     showInfo(nodeId);
   }
   
-  // Focus camera on node
+  // Focus camera on node (offset to keep node on left side, avoiding sidebar)
   const targetPos = mesh.position.clone();
-  const cameraOffset = new THREE.Vector3(80, 40, 80);
+  const cameraOffset = new THREE.Vector3(160, 40, 80);
   const newCameraPos = targetPos.clone().add(cameraOffset);
   
   animateCamera(newCameraPos, targetPos);
@@ -1029,9 +1443,9 @@ function selectEdge(edge) {
 
     document.getElementById('info-content').innerHTML = `
       <div class="field"><b>Relation / 關聯</b></div>
-      <div class="field" style="margin-top:4px">
+      <div class="field" style="margin-top:6px">
         <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(fromId)}">${esc(fromDisplay)}</span>
-        <div style="color:#4E79A7;font-size:12px;padding:2px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:10px">${esc(confidence)}</span>` : ''}</div>
+        <div style="color:#4E79A7;font-size:15px;padding:4px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:13px">${esc(confidence)}</span>` : ''}</div>
         <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(toId)}">${esc(toDisplay)}</span>
       </div>
     `;
@@ -1042,9 +1456,10 @@ function selectEdge(edge) {
   const toMesh = nodeObjects.get(toId);
   if (fromMesh && toMesh) {
     const mid = fromMesh.position.clone().add(toMesh.position).multiplyScalar(0.5);
-    const cameraOffset = new THREE.Vector3(80, 40, 80);
+    const cameraOffset = new THREE.Vector3(160, 40, 80);
     animateCamera(mid.clone().add(cameraOffset), mid);
   }
+  updateHash();
 }
 
 function animateCamera(targetPosition, lookAtTarget) {
@@ -1092,21 +1507,40 @@ function showInfo(nodeId) {
   }).join('');
   
   const description = descriptionMap.get(nodeId);
+  const wikiCtx = WIKI_CONTEXT[nodeId] || null;
   
   const zhTWName = TRANSLATIONS[n.label] || '';
   const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
   
   const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
   const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
+
+  const wikiLink = wikiCtx
+    ? `<a href="${esc(wikiCtx.wiki_url)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(wikiCtx.wiki_path.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    : '—';
+
+  const wikiDesc = wikiCtx && wikiCtx.description
+    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context (node):</span><br><div class="wiki-context-text" style="font-size:15px;color:#bbb;line-height:1.7;max-height:260px;overflow-y:auto;margin-top:6px">${esc(wikiCtx.description.slice(0, 2800))}${wikiCtx.description.length > 2800 ? '…' : ''}</div></div>`
+    : '';
+
+  const edgeSourceLink = n.source_file
+    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(n.source_file.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    : '-';
+
+  const edgeDesc = description
+    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context (edge):</span><br><div style="font-size:14px;color:#bbb;line-height:1.7;max-height:160px;overflow-y:auto;margin-top:6px">${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:13px">[read more]</a>` : ''}</div></div>`
+    : '';
   
   document.getElementById('info-content').innerHTML = `
     <div class="field"><b>${esc(displayName)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
     <div class="field">Community: ${esc(displayCommunity)}</div>
-    <div class="field">Source: ${esc(n.source_file || '-')}</div>
-    ${description ? `<div class="field" style="margin-top:6px"><span style="color:#aaa;font-size:11px">Context:</span><br>${esc(description)}</div>` : ''}
+    <div class="field"><span style="color:#aaa;font-size:14px">Source (node):</span> ${wikiLink}</div>
+    ${wikiDesc}
+    <div class="field" style="margin-top:8px;border-top:1px solid #2a2a4e;padding-top:8px"><span style="color:#aaa;font-size:14px">Source (edge):</span> ${edgeSourceLink}</div>
+    ${edgeDesc}
     <div class="field">Degree: ${n.degree}</div>
-    ${neighbors.length ? `<div class="field" style="margin-top:10px;color:#aaa;font-size:11px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+    ${neighbors.length ? `<div class="field" style="margin-top:12px;color:#aaa;font-size:14px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;
 }
 
@@ -1225,6 +1659,25 @@ function focusOnCommunity(cid) {
       line.material.opacity = 0.02;
     }
   });
+
+  // Show key nodes for this community (top 15 by degree)
+  const communityKeyNodes = document.getElementById('community-key-nodes');
+  const communityNodes = RAW_NODES
+    .filter(n => n.community === cid)
+    .sort((a, b) => b.degree - a.degree)
+    .slice(0, 15);
+  communityKeyNodes.innerHTML = '<div style="color:#aaa;font-size:14px;margin:10px 0 6px">Key Nodes</div>';
+  communityNodes.forEach(n => {
+    const span = document.createElement('span');
+    span.className = 'trace-key-node';
+    const zhTW = TRANSLATIONS[n.label] || '';
+    span.textContent = zhTW && zhTW !== n.label ? `${n.label} / ${zhTW}` : n.label;
+    span.title = `Degree: ${n.degree}`;
+    span.addEventListener('click', () => {
+      if (nodeObjects.has(n.id)) selectNode(n.id);
+    });
+    communityKeyNodes.appendChild(span);
+  });
 }
 
 function clearCommunityFocus() {
@@ -1232,6 +1685,7 @@ function clearCommunityFocus() {
   document.querySelectorAll('.legend-item').forEach(item => {
     item.classList.remove('focused', 'dimmed');
   });
+  document.getElementById('community-key-nodes').innerHTML = '';
 
   // Restore to trace state if active, otherwise default
   if (activeTrace) {
@@ -1261,7 +1715,7 @@ LEGEND.forEach(c => {
 
   const zhTWLabel = TRANSLATIONS[c.label] || '';
   const bilingualLabel = zhTWLabel && zhTWLabel !== c.label
-    ? `${c.label}<br><span style="color:#888;font-size:10px">${zhTWLabel}</span>`
+    ? `${c.label}<br><span style="color:#888;font-size:13px">${zhTWLabel}</span>`
     : c.label;
 
   item.innerHTML = `
@@ -1280,7 +1734,7 @@ LEGEND.forEach(c => {
 document.getElementById('btn-reset').addEventListener('click', () => {
   clearTrace();
   deselectNode();
-  animateCamera(new THREE.Vector3(0, 0, 500), new THREE.Vector3(0, 0, 0));
+  animateCamera(new THREE.Vector3(-120, 0, 500), new THREE.Vector3(-120, 0, 0));
 });
 
 document.getElementById('btn-physics').addEventListener('click', (e) => {
@@ -1312,6 +1766,129 @@ document.getElementById('btn-labels').classList.add('active');
 document.getElementById('btn-edges').classList.add('active');
 
 // ============================================================
+// Zoom Bar
+// ============================================================
+const zoomInBtn = document.getElementById('zoom-in');
+const zoomOutBtn = document.getElementById('zoom-out');
+const zoomTrack = document.getElementById('zoom-slider-track');
+const zoomFill = document.getElementById('zoom-slider-fill');
+const zoomThumb = document.getElementById('zoom-slider-thumb');
+
+function getZoomFraction() {
+  const dist = camera.position.distanceTo(controls.target);
+  const minD = controls.minDistance;
+  const maxD = controls.maxDistance;
+  // 0 = zoomed out (far), 1 = zoomed in (close)
+  return 1 - (Math.log(dist) - Math.log(minD)) / (Math.log(maxD) - Math.log(minD));
+}
+
+function setZoomFromFraction(frac) {
+  const minD = controls.minDistance;
+  const maxD = controls.maxDistance;
+  const dist = minD * Math.pow(maxD / minD, 1 - frac);
+  const dir = camera.position.clone().sub(controls.target).normalize();
+  camera.position.copy(controls.target).addScaledVector(dir, dist);
+  controls.update();
+}
+
+function updateZoomBar() {
+  const frac = getZoomFraction();
+  const pct = Math.max(0, Math.min(1, frac)) * 100;
+  zoomFill.style.height = pct + '%';
+  zoomThumb.style.bottom = `calc(${pct}% - 6px)`;
+}
+
+zoomInBtn.addEventListener('click', () => {
+  setZoomFromFraction(getZoomFraction() + 0.1);
+  updateZoomBar();
+});
+
+zoomOutBtn.addEventListener('click', () => {
+  setZoomFromFraction(getZoomFraction() - 0.1);
+  updateZoomBar();
+});
+
+let zoomDragging = false;
+
+function zoomFromPointer(e) {
+  const rect = zoomTrack.getBoundingClientRect();
+  const y = (e.clientY - rect.top) / rect.height;
+  setZoomFromFraction(1 - Math.max(0, Math.min(1, y)));
+  updateZoomBar();
+}
+
+zoomTrack.addEventListener('pointerdown', (e) => {
+  zoomDragging = true;
+  zoomFromPointer(e);
+  e.preventDefault();
+});
+
+window.addEventListener('pointermove', (e) => {
+  if (zoomDragging) zoomFromPointer(e);
+});
+
+window.addEventListener('pointerup', () => {
+  zoomDragging = false;
+});
+
+updateZoomBar();
+
+// Unstick all button
+const btnUnstick = document.getElementById('btn-unstick');
+btnUnstick.addEventListener('click', () => {
+  stickyNodes.forEach(id => {
+    const vel = velocities.get(id);
+    if (vel) vel.set(0, 0, 0);
+    removeStickyRing(id);
+  });
+  stickyNodes.clear();
+  btnUnstick.style.display = 'none';
+});
+
+function unstickNode(nodeId) {
+  stickyNodes.delete(nodeId);
+  const vel = velocities.get(nodeId);
+  if (vel) vel.set(0, 0, 0);
+  removeStickyRing(nodeId);
+  if (stickyNodes.size === 0) {
+    btnUnstick.style.display = 'none';
+  }
+}
+
+// Sticky node visual indicator
+const stickyRingGeometry = new THREE.TorusGeometry(1, 0.06, 8, 32);
+const stickyRingMaterial = new THREE.MeshBasicMaterial({ color: 0x4E79A7, transparent: true, opacity: 0.7 });
+const stickyRings = new Map();
+
+function addStickyRing(mesh) {
+  if (stickyRings.has(mesh.userData.nodeId)) return;
+  const ring = new THREE.Mesh(stickyRingGeometry, stickyRingMaterial);
+  ring.scale.set(mesh.scale.x * 1.5, mesh.scale.x * 1.5, mesh.scale.x * 1.5);
+  ring.position.copy(mesh.position);
+  ring.lookAt(camera.position);
+  scene.add(ring);
+  stickyRings.set(mesh.userData.nodeId, ring);
+}
+
+function removeStickyRing(nodeId) {
+  const ring = stickyRings.get(nodeId);
+  if (ring) {
+    scene.remove(ring);
+    stickyRings.delete(nodeId);
+  }
+}
+
+function updateStickyRings() {
+  stickyRings.forEach((ring, nodeId) => {
+    const mesh = nodeObjects.get(nodeId);
+    if (mesh) {
+      ring.position.copy(mesh.position);
+      ring.lookAt(camera.position);
+    }
+  });
+}
+
+// ============================================================
 // Sidebar Toggle
 // ============================================================
 const mobileToggle = document.getElementById('mobile-toggle');
@@ -1320,20 +1897,23 @@ const sidebarClose = document.getElementById('sidebar-close');
 let sidebarInfoActive = true;
 
 function openSidebar() {
-  sidebar.classList.remove('hidden');
+  sidebar.classList.add('open');
+  sidebar.classList.remove('closed');
   mobileToggle.classList.remove('visible');
   sidebarInfoActive = true;
 }
 
 function closeSidebar() {
-  sidebar.classList.add('hidden');
+  sidebar.classList.remove('open');
+  sidebar.classList.add('closed');
   mobileToggle.classList.add('visible');
+  void mobileToggle.offsetHeight;
   sidebarInfoActive = false;
   deselectNode();
 }
 
 function toggleSidebar() {
-  if (sidebar.classList.contains('hidden')) {
+  if (!sidebar.classList.contains('open')) {
     openSidebar();
   } else {
     closeSidebar();
@@ -1408,12 +1988,13 @@ function activateTrace(trace) {
   document.querySelectorAll('.legend-item').forEach(item => {
     item.classList.remove('focused', 'dimmed');
   });
+  document.getElementById('community-key-nodes').innerHTML = '';
 
   // Show summary
   const sourceLink = trace.sourceUrl
-    ? `<div style="margin-top:6px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
+    ? `<div style="margin-top:8px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:14px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
     : '';
-  traceSummary.innerHTML = `<div style="color:#aaa;font-size:11px;margin-bottom:4px">${esc(trace.question)}</div><div>${esc(trace.summary)}</div>${sourceLink}`;
+  traceSummary.innerHTML = `<div style="color:#aaa;font-size:14px;margin-bottom:6px">${esc(trace.question)}</div><div style="font-size:15px">${esc(trace.summary)}</div>${sourceLink}`;
 
   // Show routes
   traceRoutes.innerHTML = '';
@@ -1426,7 +2007,7 @@ function activateTrace(trace) {
   });
 
   // Show key nodes
-  traceKeyNodes.innerHTML = '<div style="color:#aaa;font-size:11px;margin:6px 0 4px">Key Nodes</div>';
+  traceKeyNodes.innerHTML = '<div style="color:#aaa;font-size:14px;margin:10px 0 6px">Key Nodes</div>';
   trace.keyNodes.forEach(kn => {
     const span = document.createElement('span');
     span.className = 'trace-key-node';
@@ -1558,13 +2139,13 @@ function activateRoute(trace, routeIdx) {
       const n = nodeMap.get(id);
       const label = n ? n.label : id;
       const color = n ? n.color.background : '#555';
-      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:11px;padding:2px 8px">↓</div>` : '';
+      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:14px;padding:2px 8px">↓</div>` : '';
       return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
     }).join('');
     document.getElementById('info-content').innerHTML = `
-      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:10px;margin-left:6px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
-      <div style="margin:8px 0">${pathHtml}</div>
-      <div class="field" style="font-size:12px;color:#bbb;line-height:1.6">${esc(route.mechanism)}</div>
+      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:13px;margin-left:8px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
+      <div style="margin:10px 0">${pathHtml}</div>
+      <div class="field" style="font-size:15px;color:#bbb;line-height:1.7">${esc(route.mechanism)}</div>
     `;
   }
 
@@ -1607,7 +2188,9 @@ function animate() {
     applyForces();
   }
   
+  updateStickyRings();
   controls.update();
+  updateZoomBar();
   renderer.render(scene, camera);
   labelRenderer.render(scene, camera);
 }
@@ -1623,6 +2206,306 @@ window.addEventListener('resize', () => {
   renderer.setSize(width, height);
   labelRenderer.setSize(width, height);
 });
+
+new ResizeObserver(() => {
+  requestAnimationFrame(() => {
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+    labelRenderer.setSize(width, height);
+  });
+}).observe(container);
+
+// ============================================================
+// Chat Interface
+// ============================================================
+const chatBtn = document.getElementById('chat-btn');
+const chatPanel = document.getElementById('chat-panel');
+const chatMessages = document.getElementById('chat-messages');
+const chatInput = document.getElementById('chat-input');
+const chatSend = document.getElementById('chat-send');
+const chatClearBtn = document.getElementById('chat-clear');
+const chatHighlightBadge = document.getElementById('chat-highlight-badge');
+
+const INTENT_API = 'https://api.johnnykuo.com/api/intent';
+const EXECUTE_API = 'https://api.johnnykuo.com/api/execute';
+let chatOpen = false;
+let chatBusy = false;
+let chatHighlightedNodes = [];
+let chatHighlightedEdges = [];
+
+chatBtn.addEventListener('click', () => {
+  chatOpen = !chatOpen;
+  chatPanel.classList.toggle('open', chatOpen);
+  chatBtn.classList.toggle('open', chatOpen);
+  chatBtn.innerHTML = chatOpen ? '&#10005;' : '&#128172;';
+  if (chatOpen) chatInput.focus();
+});
+
+function escChatHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function sanitizeChatInput(text) {
+  if (!text || typeof text !== 'string') return '';
+  let t = text.replace(/<[^>]+>/g, '');
+  t = t.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
+  t = t.replace(/\s+/g, ' ').trim();
+  return t.slice(0, 500);
+}
+
+function addChatMessage(text, type) {
+  const div = document.createElement('div');
+  div.className = `chat-msg ${type}`;
+  if (type === 'bot') {
+    div.innerHTML = formatBotMessage(text);
+  } else {
+    div.textContent = text;
+  }
+  chatMessages.appendChild(div);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+  return div;
+}
+
+function formatBotMessage(text) {
+  let html = escChatHtml(text);
+  // Bold: **text**
+  html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  // Inline code: `text`
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Node links: make node names clickable in highlight results
+  html = html.replace(/^(\d+)\.\s/gm, '<span style="color:#666">$1.</span> ');
+  // Convert newlines
+  html = html.replace(/\n/g, '<br>');
+  return html;
+}
+
+async function sendChatMessage() {
+  const raw = chatInput.value;
+  const clean = sanitizeChatInput(raw);
+  if (!clean || chatBusy) return;
+
+  chatBusy = true;
+  chatSend.disabled = true;
+  chatInput.value = '';
+
+  // Hide suggestions after first message
+  const suggestions = document.getElementById('chat-suggestions');
+  if (suggestions) suggestions.remove();
+
+  addChatMessage(clean, 'user');
+
+  const typingDiv = addChatMessage('Thinking...', 'typing');
+
+  try {
+    // Phase 1: Parse intent
+    const intentResp = await fetch(INTENT_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: clean }),
+    });
+
+    if (!intentResp.ok) {
+      chatMessages.removeChild(typingDiv);
+      addChatMessage('Server error', 'error');
+      return;
+    }
+
+    const intentData = await intentResp.json();
+
+    // Update indicator if translation will happen
+    if (intentData.lang && intentData.lang !== 'en') {
+      typingDiv.textContent = 'Translating...';
+    }
+
+    // Phase 2: Execute graph op + optional translation
+    const execResp = await fetch(EXECUTE_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        intent: intentData.intent,
+        lang: intentData.lang,
+        question: intentData.question,
+        node: intentData.node,
+        from_node: intentData.from_node,
+        to_node: intentData.to_node,
+        greeting: intentData.greeting,
+      }),
+    });
+
+    chatMessages.removeChild(typingDiv);
+
+    if (!execResp.ok) {
+      addChatMessage('Server error', 'error');
+      return;
+    }
+
+    const data = await execResp.json();
+    addChatMessage(data.text, 'bot');
+
+    if (data.highlight_nodes && data.highlight_nodes.length > 0) {
+      highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
+    }
+  } catch (e) {
+    if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+    addChatMessage('Could not reach the chat server.', 'error');
+  } finally {
+    chatBusy = false;
+    chatSend.disabled = false;
+    chatInput.focus();
+  }
+}
+
+chatSend.addEventListener('click', sendChatMessage);
+chatInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendChatMessage();
+  }
+});
+
+// Auto-resize textarea
+chatInput.addEventListener('input', () => {
+  chatInput.style.height = 'auto';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+});
+
+// Suggestion buttons
+document.getElementById('chat-suggestions').addEventListener('click', (e) => {
+  const btn = e.target.closest('.chat-suggestion');
+  if (!btn) return;
+  if (btn.dataset.action === 'generate') {
+    generateSuggestions();
+  } else {
+    const query = btn.dataset.query;
+    chatInput.value = query;
+    chatInput.focus();
+  }
+});
+
+const SUGGESTION_SETS = [
+  ["Graphify trace from Autophagy to Rapamycin", "What is NAD+?", "什麼是自噬作用？"],
+  ["Graphify explain mTOR pathway", "How does Caloric Restriction work?", "Tell me about Senolytics"],
+  ["Graphify path between Sirtuins and aging", "Rapamycin 與 mTOR 的關係？", "What are the hallmarks of aging?"],
+  ["Graphify trace from Mitochondria to NMN", "端粒是什麼？", "How does Metformin affect longevity?"],
+  ["Graphify explain Oxidative Stress", "What is the Warburg effect?", "長壽研究的關鍵節點"],
+  ["Graphify path between Autophagy and Inflammation", "How does exercise affect aging?", "NAD+ 如何隨年齡下降？"],
+  ["Graphify trace from Epigenetics to Telomeres", "Explain Epigenetic clocks", "What is the Hayflick limit?"],
+  ["Graphify explain Yamanaka factors", "How does Resveratrol work?", "What is Stem cell exhaustion?"],
+];
+let suggestionIndex = 0;
+
+async function generateSuggestions() {
+  const suggestionsDiv = document.getElementById('chat-suggestions');
+  if (!suggestionsDiv) return;
+  
+  // Cycle through preset suggestion sets
+  const questions = SUGGESTION_SETS[suggestionIndex % SUGGESTION_SETS.length];
+  suggestionIndex++;
+  
+  suggestionsDiv.innerHTML = questions.map(q => 
+    `<button class="chat-suggestion" data-query="${escChatHtml(q)}">${escChatHtml(q)}</button>`
+  ).join('') + `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>`;
+}
+
+chatClearBtn.addEventListener('click', () => {
+  chatMessages.innerHTML = '';
+  clearChatHighlights();
+  addChatMessage('Ask me about the knowledge graph!', 'bot');
+  const suggestionsDiv = document.createElement('div');
+  suggestionsDiv.className = 'chat-suggestions';
+  suggestionsDiv.id = 'chat-suggestions';
+  suggestionsDiv.innerHTML = `
+    <button class="chat-suggestion" data-query="graphify trace from Autophagy to Rapamycin">graphify trace from Autophagy to Rapamycin</button>
+    <button class="chat-suggestion" data-query="What is NAD+?">What is NAD+?</button>
+    <button class="chat-suggestion" data-query="什麼是自噬作用？">什麼是自噬作用？</button>
+    <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
+  `;
+  chatMessages.appendChild(suggestionsDiv);
+});
+
+// ============================================================
+// Chat Graph Highlighting
+// ============================================================
+function highlightChatNodes(nodeIds, edgePairs) {
+  // Clear any existing trace or community focus
+  if (activeTrace) clearTrace();
+  if (focusedCommunity !== null) clearCommunityFocus();
+  if (selectedNode) deselectNode();
+
+  chatHighlightedNodes = nodeIds;
+  chatHighlightedEdges = edgePairs;
+  const idSet = new Set(nodeIds);
+
+  // Dim all, highlight matched
+  nodeMeshes.forEach(m => {
+    const id = m.userData.nodeId;
+    if (idSet.has(id)) {
+      m.material.opacity = 1;
+      m.material.emissiveIntensity = 0.6;
+    } else {
+      m.material.opacity = 0.06;
+      m.material.emissiveIntensity = 0.03;
+    }
+  });
+
+  // Highlight edges
+  const edgePairSet = new Set(edgePairs.map(p => `${p[0]}::${p[1]}`));
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    const fwd = `${edge.from}::${edge.to}`;
+    const rev = `${edge.to}::${edge.from}`;
+    if (edgePairSet.has(fwd) || edgePairSet.has(rev)) {
+      line.material.color.set(0x4E79A7);
+      line.material.opacity = 0.8;
+    } else {
+      line.material.color.set(0x4a4a6a);
+      line.material.opacity = 0.02;
+    }
+  });
+
+  // Show labels for highlighted nodes
+  labelObjects.forEach((label, id) => {
+    const mesh = nodeObjects.get(id);
+    label.visible = idSet.has(id) && mesh && mesh.visible && showLabels;
+  });
+
+  // Show highlight badge
+  chatHighlightBadge.classList.add('visible');
+
+  // Animate camera to center of highlighted nodes (offset to top-left to avoid sidebar)
+  const meshes = nodeIds.map(id => nodeObjects.get(id)).filter(Boolean);
+  if (meshes.length > 0) {
+    const center = new THREE.Vector3();
+    meshes.forEach(m => center.add(m.position));
+    center.divideScalar(meshes.length);
+    // Offset camera to position nodes in top-left (avoiding sidebar on right)
+    const sidebarOffset = window.innerWidth >= 768 ? 180 : 0;
+    const cameraOffset = new THREE.Vector3(150 + sidebarOffset * 0.3, 180, 150);
+    animateCamera(center.clone().add(cameraOffset), center);
+  }
+}
+
+function clearChatHighlights() {
+  chatHighlightedNodes = [];
+  chatHighlightedEdges = [];
+  chatHighlightBadge.classList.remove('visible');
+
+  // Restore default state
+  nodeMeshes.forEach(m => {
+    m.material.emissiveIntensity = 0.15;
+    m.material.opacity = 0.92;
+  });
+  edgeObjects.forEach(line => {
+    line.material.opacity = line.userData.edge.color.opacity * 0.6;
+    line.material.color.set(0x4a4a6a);
+  });
+  restoreDefaultLabels();
+}
+
+chatHighlightBadge.addEventListener('click', clearChatHighlights);
 
 // ============================================================
 // Initialize
@@ -1649,6 +2532,10 @@ if (hashParams) {
   }
   if (hashParams.node && nodeObjects.has(hashParams.node)) {
     selectNode(hashParams.node);
+  } else if (hashParams.edge) {
+    const [fromId, toId] = hashParams.edge.split(',');
+    const edge = RAW_EDGES.find(e => e.from === fromId && e.to === toId);
+    if (edge) selectEdge(edge);
   }
   suppressHashUpdate = false;
 }
@@ -1657,9 +2544,9 @@ if (hashParams) {
 window.addEventListener('hashchange', () => {
   const params = parseHash();
   suppressHashUpdate = true;
-  if (!params || (!params.trace && !params.node)) {
+  if (!params || (!params.trace && !params.node && !params.edge)) {
     if (activeTrace) clearTrace();
-    if (selectedNode) deselectNode();
+    if (selectedNode || selectedEdge) deselectNode();
   } else {
     // Handle trace changes
     if (params.trace) {
@@ -1691,11 +2578,44 @@ window.addEventListener('hashchange', () => {
     // Handle node changes
     if (params.node && nodeObjects.has(params.node)) {
       selectNode(params.node);
-    } else if (selectedNode) {
+    } else if (params.edge) {
+      const [fromId, toId] = params.edge.split(',');
+      const edge = RAW_EDGES.find(e => e.from === fromId && e.to === toId);
+      if (edge) selectEdge(edge);
+      else if (selectedNode || selectedEdge) deselectNode();
+    } else if (selectedNode || selectedEdge) {
       deselectNode();
     }
   }
   suppressHashUpdate = false;
+});
+
+// Share link
+const sharePanel = document.getElementById('share-panel');
+const shareUrl = document.getElementById('share-url');
+const shareCopy = document.getElementById('share-copy');
+
+const shareLink = document.getElementById('share-link');
+if (shareLink) {
+  shareLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    shareUrl.value = window.location.href;
+    sharePanel.classList.toggle('visible');
+    shareUrl.select();
+  });
+}
+
+shareCopy.addEventListener('click', () => {
+  navigator.clipboard.writeText(shareUrl.value).then(() => {
+    shareCopy.textContent = 'Copied! / 已複製';
+    setTimeout(() => { shareCopy.textContent = 'Copy / 複製'; }, 2000);
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!sharePanel.contains(e.target) && e.target.id !== 'share-link' && !e.target.closest('[data-share]')) {
+    sharePanel.classList.remove('visible');
+  }
 });
 </script>
 </body>

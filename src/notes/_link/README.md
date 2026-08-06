@@ -3,17 +3,43 @@ title: _Link notes
 aliases: []
 description: Index of wiki notes for _link
 created: 2026-07-06
-updated: 2026-07-26
+updated: 2026-08-01
 ---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 26_July_2026 12:00 PM PDT
-- Total count of entities: 434
+- Last updated: 01_AUGUST_2026 12:00 PM PDT
+- Total count of entities: 526
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
+| [[5-Fluorouracil]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy |
+| [[Vinblastine]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy, Microtubule |
+| [[Dimethyl Sulfoxide]] | 28_July_2026 03:00 PM PDT | solvent | Cancer, Excipient, Pharmacokinetics |
+| [[γH2AX]] | 28_July_2026 03:00 PM PDT | biomarker | DNA Damage, Cancer, Apoptosis |
+| [[Flavin-containing Monooxygenase]] | 28_July_2026 03:00 PM PDT | enzyme | Drug Metabolism, Cancer |
+| [[Pembrolizumab]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Immunotherapy |
+| [[Pazopanib]] | 28_July_2026 03:00 PM PDT | drug | Cancer, TKI, Angiogenesis |
+| [[Methyl-beta-cyclodextrin]] | 28_July_2026 03:00 PM PDT | excipient | Cancer, Solubilizer, Pharmacokinetics |
+| [[Glucose uptake]] | 28_July_2026 03:00 PM PDT | biological-process | Cancer, Metabolism, Glycolysis |
+| [[Drug Resistance]] | 28_July_2026 03:00 PM PDT | biological-process | Cancer, Chemotherapy |
+| [[Cyclodextrin]] | 28_July_2026 03:00 PM PDT | excipient | Solubilizer, Pharmacokinetics |
+| [[Thymidylate Synthase]] | 28_July_2026 03:00 PM PDT | enzyme | Cancer, Chemotherapy Target |
+| [[VEGFR]] | 28_July_2026 03:00 PM PDT | receptor | Cancer, Angiogenesis, TKI |
+| [[c-KIT]] | 28_July_2026 03:00 PM PDT | receptor | Cancer, TKI, GIST |
+| [[DNA-PK]] | 28_July_2026 03:00 PM PDT | enzyme | DNA Repair, Cancer |
+| [[Soluplus]] | 28_July_2026 03:00 PM PDT | excipient | Cancer, Micelle, Pharmacokinetics |
+| [[Salicylic acid]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Excipient, Solubilizer |
+| [[Imatinib]] | 28_July_2026 03:00 PM PDT | drug | Cancer, TKI, GIST |
+| [[Sunitinib]] | 28_July_2026 03:00 PM PDT | drug | Cancer, TKI, Angiogenesis |
+| [[Flubendazole]] | 28_July_2026 04:00 PM PDT | drug | Cancer, Benzimidazole, Anthelmintic |
+| [[Radiation Therapy]] | 28_July_2026 04:00 PM PDT | therapy | Cancer, Oncology, Hypoxia |
+| [[Colchicine]] | 28_July_2026 04:00 PM PDT | drug | Cancer, Microtubule, Gout |
+| [[Podophyllotoxin]] | 28_July_2026 04:00 PM PDT | drug | Cancer, Microtubule |
+| [[Nitroimidazole]] | 28_July_2026 04:00 PM PDT | drug-class | Cancer, Radiosensitizer, Hypoxia |
+| [[DNA Helicase]] | 28_July_2026 04:00 PM PDT | enzyme | DNA Replication, Cancer |
+| [[Radiosensitizer]] | 28_July_2026 04:00 PM PDT | drug-class | Cancer, Radiation Therapy, Hypoxia |
 | [[Checkpoint Inhibitor]] | 25_July_2026 12:00 PM PDT | drug-class | Cancer, Immunology |
 | [[Tumor Antigen]] | 25_July_2026 12:00 PM PDT | antigen | Cancer, Immunology |
 | [[CD94]] | 25_July_2026 12:00 PM PDT | receptor | Immunology, NK Cell |
@@ -35,7 +61,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[ACE Inhibitors]]                               | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
 | [[ACTH]] | 09_Jul_2026 07:00 PM | Chemical Compound | Hormone, HPA Axis, Stress Response |
 | [[Acetyl-L-Carnitine]]                           | 08_Jul_2026 12:00 PM | Chemical Compound      | Aging, Mitochondria                             |
-| [[Acid ceramidase]]                             | 24_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Senescence, Ferroptosis, Sphingolipid Metabolism |
+| [[Acid ceramidase]]                             | 27_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Senescence, Ferroptosis, Sphingolipid Metabolism, Cancer, Lysosomal Storage Disease |
 | [[ACSL4]]                                      | 24_JULY_2026 12:00 PM PDT | Enzyme                | Lipid Metabolism, Ferroptosis, Senescence |
 | [[Ceramide]]                                     | 24_JULY_2026 12:00 PM PDT | Lipid                  | Sphingolipid Metabolism, Ferroptosis, Senescence |
 | [[Phospholipid]]                                 | 24_JULY_2026 12:00 PM PDT | Lipid                  | Membrane, Ferroptosis |
@@ -456,3 +482,63 @@ This directory contains entities that span across multiple topics within the kno
 | [[Pulmonary Arterial Hypertension]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Cardiovascular, Pulmonology |
 | [[Acute Lung Injury]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Critical Care |
 | [[Bronchopulmonary Dysplasia]] | 24_JULY_2026 12:00 PM PDT | Medical Condition | Pulmonology, Neonatal |
+| [[Lands cycle]] | 27_JULY_2026 12:00 PM PDT | Biochemical Pathway | Lipid Metabolism, Ferroptosis, Phospholipid |
+| [[Saposin-D]] | 27_JULY_2026 12:00 PM PDT | Protein | Sphingolipid Metabolism, Lysosomal Protein |
+| [[WI-38]] | 27_JULY_2026 12:00 PM PDT | Cell Line | Senescence, Ferroptosis, Fibroblast |
+| [[ARN14794]] | 27_JULY_2026 12:00 PM PDT | Chemical Compound | Acid Ceramidase Inhibitor, Ferroptosis, Senolytic |
+| [[ARN14974]] | 27_JULY_2026 12:00 PM PDT | Chemical Compound | Acid Ceramidase Inhibitor, Ferroptosis, Senolytic |
+| [[Carmofur]] | 27_JULY_2026 12:00 PM PDT | Chemical Compound | Acid Ceramidase Inhibitor, Anticancer, Senolytic |
+| [[ASAH1]] | 27_JULY_2026 12:00 PM PDT | Gene | Sphingolipid Metabolism, Lysosomal Storage Disease |
+| [[Cellular Senescence]] | 27_JULY_2026 12:00 PM PDT | Biological Process | Aging, Senescence, Cell Biology |
+| [[Farber disease]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Lysosomal Storage Disease, Genetic Disorder |
+| [[Glioblastoma]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Cancer, Brain Tumor |
+| [[Spinal muscular atrophy with progressive myoclonic epilepsy]] | 27_JULY_2026 12:00 PM PDT | Medical Condition | Neurodegenerative Disease, Lysosomal Storage Disease |
+| [[Mitochondrial Dysfunction-Associated Senescence]] | 31_JULY_2026 12:00 PM PDT | Biological Process | Senescence, Mitochondria, Aging, Metabolism |
+| [[mitoTALENs]] | 31_JULY_2026 12:00 PM PDT | Genetic Tool | Mitochondria, Gene Editing, Mitochondrial Disease |
+| [[mitoZFNs]] | 31_JULY_2026 12:00 PM PDT | Genetic Tool | Mitochondria, Gene Editing, Mitochondrial Disease |
+| [[O-GlcNAcylation]] | 31_JULY_2026 12:00 PM PDT | Post-translational Modification | Metabolism, Signaling, Mitochondrial Dynamics |
+| [[Taurine]] | 31_JULY_2026 12:00 PM PDT | Chemical Compound | Amino Acid, Metabolism, Longevity |
+| [[Resting Metabolic Rate]] | 31_JULY_2026 12:00 PM PDT | biological-process | Energy Metabolism, Exercise Physiology |
+| [[Energy Expenditure]] | 31_JULY_2026 12:00 PM PDT | biological-process | Energy Metabolism, RMR, Exercise |
+| [[Non-Exercise Activity Thermogenesis]] | 31_JULY_2026 12:00 PM PDT | biological-process | Exercise, Energy Metabolism, Physical Activity |
+| [[Excess Post-Exercise Oxygen Consumption]] | 31_JULY_2026 12:00 PM PDT | biological-process | Exercise, Energy Metabolism, Recovery |
+| [[Doubly-Labelled Water]] | 31_JULY_2026 12:00 PM PDT | analytical-technique | Energy Metabolism, RMR, Physiology |
+| [[UCP3]] | 31_JULY_2026 12:00 PM PDT | protein | Mitochondria, Uncoupling, Metabolism |
+| [[Fat-Free Mass]] | 31_JULY_2026 12:00 PM PDT | anatomy | Body Composition, Metabolism |
+| [[Thermogenesis]] | 31_JULY_2026 12:00 PM PDT | biological-process | Metabolism, Brown Adipose Tissue, Energy Expenditure |
+| [[Energy Balance]] | 31_JULY_2026 12:00 PM PDT | scientific-concept | Obesity, Energy Metabolism, Weight Regulation |
+| [[Physical Activity Level]] | 31_JULY_2026 12:00 PM PDT | scientific-concept | Exercise, Energy Metabolism |
+| [[Thermic Effect of Food]] | 31_JULY_2026 12:00 PM PDT | biological-process | Nutrition, Energy Metabolism, Digestion |
+| [[Beta-Adrenergic Receptor]] | 31_JULY_2026 12:00 PM PDT | receptor | Sympathetic Nervous System, Thermogenesis, Metabolism |
+| [[Body Mass Index]] | 31_JULY_2026 12:00 PM PDT | scientific-concept | Obesity, Body Composition, Epidemiology |
+| [[Citrate Synthase]] | 31_JULY_2026 12:00 PM PDT | enzyme | TCA Cycle, Mitochondria, Exercise |
+| [[Fat Oxidation]] | 31_JULY_2026 12:00 PM PDT | biological-process | Lipid Metabolism, Exercise, Energy Metabolism |
+| [[Indirect Calorimetry]] | 31_JULY_2026 12:00 PM PDT | analytical-technique | Energy Metabolism, RMR, Exercise Physiology |
+| [[Protein Turnover]] | 31_JULY_2026 12:00 PM PDT | biological-process | Proteostasis, Metabolism, Skeletal Muscle |
+| [[Triiodothyronine]] | 31_JULY_2026 12:00 PM PDT | biological-molecule | Thyroid, Metabolism, RMR |
+| [[Protein Restriction]] | 31_JULY_2026 06:11 PM PDT | biological-process | Nutrition, Aging, Longevity, Dietary Restriction |
+| [[Branched-Chain Amino Acids]] | 31_JULY_2026 06:11 PM PDT | chemical-class | Amino Acids, Metabolism, Protein Restriction |
+| [[Isoleucine]] | 31_JULY_2026 06:11 PM PDT | amino-acid | Amino Acids, Metabolism, Aging |
+| [[Valine]] | 31_JULY_2026 06:11 PM PDT | amino-acid | Amino Acids, Metabolism, Aging |
+| [[Methionine Restriction]] | 31_JULY_2026 06:11 PM PDT | biological-process | Nutrition, Aging, Longevity, FGF21 |
+| [[Proline]] | 31_JULY_2026 06:11 PM PDT | amino-acid | Amino Acids, Collagen, Metabolism |
+| [[SLC25A1]] | 31_JULY_2026 06:11 PM PDT | transporter | Mitochondria, TCA Cycle, Senescence, SASP |
+| [[ACLY]] | 31_JULY_2026 06:11 PM PDT | enzyme | Acetyl-CoA, Lipogenesis, Epigenetics |
+| [[MPC]] | 31_JULY_2026 06:11 PM PDT | transporter | Mitochondria, Pyruvate, Senescence |
+| [[ACSS2]] | 31_JULY_2026 06:11 PM PDT | enzyme | Acetyl-CoA, Acetate, Epigenetics |
+| [[CTPI2]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | SLC25A1 Inhibitor, Senescence, SASP |
+| [[Essential Amino Acids]] | 31_JULY_2026 06:11 PM PDT | chemical-class | Amino Acids, Nutrition, Protein Restriction |
+| [[Citrate]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | TCA Cycle, Acetyl-CoA, Senescence |
+| [[Pyruvate]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | Glycolysis, TCA Cycle, Senescence |
+| [[Pyruvate Dehydrogenase]] | 31_JULY_2026 06:11 PM PDT | enzyme | Mitochondria, TCA Cycle, Glycolysis |
+| [[CCR2]] | 31_JULY_2026 06:11 PM PDT | receptor | Chemokine, Inflammation, Macrophages |
+| [[UK5099]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | MPC Inhibitor, Pyruvate, Senescence |
+| [[SN011]] | 31_JULY_2026 06:11 PM PDT | chemical-compound | STING Inhibitor, cGAS-STING, Senescence |
+| [[Frailty Index]] | 31_JULY_2026 06:11 PM PDT | scientific-concept | Aging, Healthspan, Geroscience |
+| [[Heteroplasmy]] | 01_AUGUST_2026 12:00 PM PDT | genetic-concept | Mitochondria, Mitochondrial DNA, Gene Editing, Aging |
+| [[Mitochondrial Function]] | 01_AUGUST_2026 12:00 PM PDT | biological-process | Mitochondria, Metabolism, Aging, Senescence |
+| [[TALE]] | 01_AUGUST_2026 12:00 PM PDT | protein-domain | Gene Editing, Mitochondrial DNA, TALEN |
+| [[FokI]] | 01_AUGUST_2026 12:00 PM PDT | enzyme | Gene Editing, Nuclease, Mitochondria |
+| [[DdCBE]] | 01_AUGUST_2026 12:00 PM PDT | genetic-tool | Gene Editing, Mitochondria, Base Editing |
+| [[Zinc Finger]] | 01_AUGUST_2026 12:00 PM PDT | protein-domain | Gene Editing, DNA Binding, ZFN |
+| [[Mitochondrial Translation]] | 01_AUGUST_2026 12:00 PM PDT | biological-process | Mitochondria, Protein Synthesis, OXPHOS, Aging |

@@ -3,7 +3,7 @@ title: CD9
 description: Tetraspanin transmembrane protein that organizes membrane microdomains and mediates cell adhesion, migration, and vesicle trafficking.
 protected: false
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-27
 tags:
   - protein
   - membrane-protein
@@ -31,18 +31,21 @@ In the context of senescence and immune cell biology, CD9 serves as a marker on 
 
 ## Physiological / Pathological Relevance
 
-CD9 dysregulation is implicated in cancer metastasis, where it can act as either a metastasis suppressor or promoter depending on cellular context. It is also relevant to tissue regeneration and stem cell identity. Within the wiki's research on [[SASP]] and senescent cell clearance, CD9 helps define senescent and immune cell phenotypes targeted by ligand-conjugated approaches.
+CD9 dysregulation is implicated in cancer metastasis, where it can act as either a metastasis suppressor or promoter depending on cellular context. It is also relevant to tissue regeneration and stem cell identity. Within the wiki's research on [[SASP]] and senescent cell clearance, CD9 helps define senescent and immune cell phenotypes targeted by ligand-conjugated approaches. In the adrenochrome/senescence context, CD9 is specifically discussed as a surface marker for [[Ligand-conjugated Nanoparticles|ligand-conjugated nanoparticle]] delivery to [[Senescent Cells]], enabling selective targeting of senotherapeutic payloads.
 
 ## Documents
 
 - [[_document_ - SRAC - senescent, ligand-conjugated]]: CD9 is discussed as a potential surface marker for identifying and targeting senescent cell populations via ligand-conjugated agents.
 - [[task_output_SRAC_revision_log_08_JULY_2026]]: Revision log referencing CD9 in the context of senescent cell targeting strategies.
+- [[Ligand-conjugated Nanoparticles]]: CD9 is referenced as a senescent cell surface marker for targeted nanoparticle delivery in the adrenochrome knowledge graph.
 
 ## Connections
 
 - [[Macrophages]]: CD9 is expressed on myeloid and macrophage subsets as a surface marker.
 - [[SASP]]: CD9 marks cellular states associated with senescence.
 - [[Tetraspanin]]: CD9 belongs to the tetraspanin family organizing membrane microdomains.
+- [[Ligand-conjugated Nanoparticles]]: CD9 serves as a targeting ligand for senescent-cell-directed nanoparticle delivery systems.
+- [[Senescent Cells]]: CD9 is upregulated on certain senescent cell populations and used as a surface marker for selective targeting.
 
 ## Linking Summary
 
