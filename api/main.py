@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
 from llm import answer_question, parse_intent, translate_text
 from pydantic import BaseModel, Field
-from sanitize import sanitize_input, validate_intent
+from sanitize import sanitize_input, sanitize_node_name, validate_intent
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -184,6 +184,19 @@ def _unknown_result() -> dict:
 @app.post("/api/execute", response_model=ChatResponse)
 async def execute_endpoint(request: ExecuteRequest):
     """Phase 2: Run graph op (if explicitly requested) or opencode chat."""
+    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "unknown"}
+    if request.intent not in ALLOWED_INTENTS:
+        return _unknown_result()
+
+    if request.message:
+        request.message = sanitize_input(request.message)
+    if request.node:
+        request.node = sanitize_node_name(request.node)
+    if request.from_node:
+        request.from_node = sanitize_node_name(request.from_node)
+    if request.to_node:
+        request.to_node = sanitize_node_name(request.to_node)
+
     if request.intent == "greeting":
         result = _greeting_result()
     elif request.intent == "chat" and request.message:
