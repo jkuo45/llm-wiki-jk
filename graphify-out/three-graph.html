@@ -173,10 +173,10 @@
     align-self: flex-end; background: #4E79A7; color: #fff;
     border-bottom-right-radius: 2px;
   }
-  .chat-msg.bot {
-    align-self: flex-start; background: #2a2a4e; color: #ccc;
-    border-bottom-left-radius: 2px;
-  }
+  .chat-msg.bot { align-self: flex-start; background: #2a2a4e; color: #ccc; border-bottom-left-radius: 2px; }
+  .chat-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 6px; border-radius: 4px; margin-bottom: 6px; }
+  .chat-badge.wiki { background: #2f4f4f; color: #7fe0c8; border: 1px solid #3a6f6f; }
+  .chat-badge.graphify { background: #4a3f8a; color: #b8a7ff; border: 1px solid #5a4f9a; }
   .chat-msg.bot b { color: #e0e0e0; }
   .chat-msg.bot code { background: #0f0f1a; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
   .chat-msg.error { background: #3a1a1a; color: #ff8888; align-self: center; font-size: 13px; }
@@ -2256,11 +2256,14 @@ function sanitizeChatInput(text) {
   return t.slice(0, 500);
 }
 
-function addChatMessage(text, type) {
+function addChatMessage(text, type, badge) {
   const div = document.createElement('div');
   div.className = `chat-msg ${type}`;
   if (type === 'bot') {
-    div.innerHTML = formatBotMessage(text);
+    let html = '';
+    if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
+    html += formatBotMessage(text);
+    div.innerHTML = html;
   } else {
     div.textContent = text;
   }
@@ -2343,7 +2346,8 @@ async function sendChatMessage() {
     }
 
     const data = await execResp.json();
-    addChatMessage(data.text, 'bot');
+    const badge = data.type === 'chat' ? 'wiki' : (data.type === 'query' || data.type === 'explain' || data.type === 'path') ? 'graphify' : null;
+    addChatMessage(data.text, 'bot', badge);
 
     if (data.highlight_nodes && data.highlight_nodes.length > 0) {
       highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);

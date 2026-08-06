@@ -2,8 +2,8 @@
 
 import asyncio
 import json
-import re
 import logging
+import re
 
 logger = logging.getLogger(__name__)
 
@@ -13,7 +13,7 @@ Given the user's message, classify it into EXACTLY ONE of these intents and resp
 
 ALSO detect the language of the user's message and include it as "lang" (use BCP 47 codes: "en", "zh-TW", "zh-CN", "ja", "ko", "es", "fr", "de", "ru", etc.).
 
-1. query - user asks a question about the graph/knowledge base
+1. query - user asks a question about entities in wiki, graph. knowledge base.
    Response: {{"intent": "query", "question": "<the question>", "lang": "<detected language>"}}
 
 2. explain - user wants to understand a specific concept/node
@@ -41,14 +41,16 @@ Respond with ONLY the JSON object:"""
 async def _run_opencode(prompt: str, timeout: float) -> str:
     """Run opencode subprocess and return concatenated text output."""
     proc = await asyncio.create_subprocess_exec(
-        "opencode", "run", prompt, "--format", "json",
+        "opencode",
+        "run",
+        prompt,
+        "--format",
+        "json",
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
     )
 
-    stdout, stderr = await asyncio.wait_for(
-        proc.communicate(), timeout=timeout
-    )
+    stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=timeout)
 
     output = stdout.decode("utf-8", errors="replace")
 
@@ -91,6 +93,27 @@ async def parse_intent(message: str, timeout: float = 45.0) -> dict:
         return {"intent": "unknown"}
 
 
+CHAT_PROMPT = """You are a knowledgeable assistant for a biomedical wiki knowledge base spanning longevity, pharmacology, cell biology, and related topics. Answer the user's question directly, clearly, and accurately.
+
+User message:
+{message}
+"""
+
+
+async def answer_question(message: str, timeout: float = 90.0) -> str:
+    """Answer a general user question via opencode. Returns empty string on failure."""
+    prompt = CHAT_PROMPT.replace("{message}", message)
+    try:
+        return await _run_opencode(prompt, timeout)
+    except asyncio.TimeoutError:
+        logger.error("opencode chat timed out")
+    except FileNotFoundError:
+        logger.error("opencode command not found")
+    except Exception as e:
+        logger.error(f"opencode chat error: {e}")
+    return "Sorry, I couldn't process that request."
+
+
 TRANSLATE_PROMPT = """Translate the following text to {lang}. Output ONLY the translation, no explanation or extra text:
 
 {text}"""
@@ -102,7 +125,9 @@ async def translate_text(text: str, target_lang: str, timeout: float = 30.0) -> 
         return text
 
     truncated = text[:3000]
-    prompt = TRANSLATE_PROMPT.replace("{lang}", target_lang).replace("{text}", truncated)
+    prompt = TRANSLATE_PROMPT.replace("{lang}", target_lang).replace(
+        "{text}", truncated
+    )
 
     try:
         translated = await _run_opencode(prompt, timeout)

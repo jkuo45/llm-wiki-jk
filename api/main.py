@@ -6,7 +6,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from graph_ops import get_graph, graph_explain, graph_path, graph_query
-from llm import parse_intent, translate_text
+from llm import answer_question, parse_intent, translate_text
 from pydantic import BaseModel, Field
 from sanitize import sanitize_input, validate_intent
 
@@ -53,6 +53,7 @@ class IntentResponse(BaseModel):
     node: str | None = None
     from_node: str | None = None
     to_node: str | None = None
+    message: str | None = None
 
 
 class ExecuteRequest(BaseModel):
@@ -62,7 +63,6 @@ class ExecuteRequest(BaseModel):
     node: str | None = None
     from_node: str | None = None
     to_node: str | None = None
-    greeting: bool = False
 
 
 class ChatResponse(BaseModel):
@@ -85,16 +85,10 @@ async def health():
 
 @app.post("/api/intent", response_model=IntentResponse)
 async def intent_endpoint(request: ChatRequest):
-    """Phase 1: Parse intent and detect language. Fast (~2s)."""
+    """Phase 1: Detect whether user explicitly asked for a graphify op, else chat."""
     clean = sanitize_input(request.message)
     if not clean:
         raise HTTPException(status_code=400, detail="Invalid or empty input")
-
-    raw_intent = await parse_intent(clean)
-    intent = validate_intent(raw_intent)
-    lang = raw_intent.get("lang", "en")
-
-    logger.info(f"Intent: {intent}, lang: {lang}")
 
     # Check for greeting
     greeting_words = {
@@ -102,16 +96,31 @@ async def intent_endpoint(request: ChatRequest):
         "greetings", "howdy", "hola", "嗨", "你好",
     }
     is_greeting = clean.lower().strip().rstrip("!.?") in greeting_words
+    if is_greeting:
+        return IntentResponse(intent="greeting", lang="en")
 
-    return IntentResponse(
-        intent=intent.get("intent", "unknown"),
-        lang=lang,
-        question=intent.get("question"),
-        node=intent.get("node"),
-        from_node=intent.get("from"),
-        to_node=intent.get("to"),
-        greeting=is_greeting,
+    # Only use graph_ops when the user explicitly requests a graphify op
+    lowered = clean.lower()
+    is_graphify_op = "graphify" in lowered and any(
+        op in lowered for op in ("explain", "path", "query")
     )
+
+    if is_graphify_op:
+        raw_intent = await parse_intent(clean)
+        intent = validate_intent(raw_intent)
+        lang = raw_intent.get("lang", "en")
+        logger.info(f"Graphify intent: {intent}, lang: {lang}")
+        return IntentResponse(
+            intent=intent.get("intent", "unknown"),
+            lang=lang,
+            question=intent.get("question"),
+            node=intent.get("node"),
+            from_node=intent.get("from"),
+            to_node=intent.get("to"),
+        )
+
+    # Otherwise let opencode handle the query directly
+    return IntentResponse(intent="chat", lang="en", message=clean)
 
 
 def _greeting_result() -> dict:
@@ -146,9 +155,17 @@ def _unknown_result() -> dict:
 
 @app.post("/api/execute", response_model=ChatResponse)
 async def execute_endpoint(request: ExecuteRequest):
-    """Phase 2: Run graph operation + optional translation."""
-    if request.greeting:
+    """Phase 2: Run graph op (if explicitly requested) or opencode chat."""
+    if request.intent == "greeting":
         result = _greeting_result()
+    elif request.intent == "chat" and request.message:
+        text = await answer_question(request.message)
+        result = {
+            "type": "chat",
+            "text": text,
+            "highlight_nodes": [],
+            "highlight_edges": [],
+        }
     elif request.intent == "query" and request.question:
         result = graph_query(request.question)
     elif request.intent == "explain" and request.node:
@@ -158,8 +175,8 @@ async def execute_endpoint(request: ExecuteRequest):
     else:
         result = _unknown_result()
 
-    # Translate if non-English
-    if request.lang and request.lang != "en":
+    # Translate graph results if non-English
+    if request.lang and request.lang != "en" and request.intent in ("query", "explain", "path"):
         result["text"] = await translate_text(result["text"], request.lang)
 
     return ChatResponse(**result)
