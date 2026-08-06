@@ -2241,6 +2241,10 @@ let chatOpen = false;
 let chatBusy = false;
 let chatHighlightedNodes = [];
 let chatHighlightedEdges = [];
+// In-memory conversation history (session only; intentionally NOT persisted to
+// localStorage/sessionStorage so a refresh clears it). Used to give follow-up
+// questions context of the ongoing conversation.
+let chatHistory = [];
 
 chatBtn.addEventListener('click', () => {
   chatOpen = !chatOpen;
@@ -2320,6 +2324,7 @@ async function sendChatMessage() {
   if (suggestions) suggestions.remove();
 
   addChatMessage(clean, 'user');
+  chatHistory.push({ role: 'user', content: clean });
 
   const typingDiv = addChatMessage('Thinking', 'typing');
   typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span class="typing-dots"><span></span><span></span><span></span></span>';
@@ -2334,6 +2339,7 @@ async function sendChatMessage() {
 
     if (!intentResp.ok) {
       chatMessages.removeChild(typingDiv);
+      chatHistory.pop();
       addChatMessage('Server error', 'error');
       return;
     }
@@ -2357,12 +2363,14 @@ async function sendChatMessage() {
         from_node: intentData.from_node,
         to_node: intentData.to_node,
         message: intentData.message,
+        history: chatHistory,
       }),
     });
 
     chatMessages.removeChild(typingDiv);
 
     if (!execResp.ok) {
+      chatHistory.pop();
       addChatMessage('Server error', 'error');
       return;
     }
@@ -2370,12 +2378,14 @@ async function sendChatMessage() {
     const data = await execResp.json();
     const badge = data.type === 'chat' ? 'wiki' : (data.type === 'query' || data.type === 'explain' || data.type === 'path') ? 'graphify' : null;
     addChatMessage(data.text, 'bot', badge);
+    chatHistory.push({ role: 'assistant', content: data.text });
 
     if (data.highlight_nodes && data.highlight_nodes.length > 0) {
       highlightChatNodes(data.highlight_nodes, data.highlight_edges || []);
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+    chatHistory.pop();
     addChatMessage('Could not reach the chat server.', 'error');
   } finally {
     chatBusy = false;
@@ -2437,6 +2447,7 @@ async function generateSuggestions() {
 }
 
 chatClearBtn.addEventListener('click', () => {
+  chatHistory = [];
   chatMessages.innerHTML = '';
   clearChatHighlights();
   addChatMessage('Ask me about the knowledge graph!', 'bot');

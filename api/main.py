@@ -90,6 +90,7 @@ class ExecuteRequest(BaseModel):
     from_node: str | None = None
     to_node: str | None = None
     message: str | None = None
+    history: list[dict] | None = None
 
 
 class ChatResponse(BaseModel):
@@ -186,7 +187,7 @@ async def execute_endpoint(request: ExecuteRequest):
     if request.intent == "greeting":
         result = _greeting_result()
     elif request.intent == "chat" and request.message:
-        text = await answer_question(request.message)
+        text = await answer_question(request.message, history=request.history)
         result = {
             "type": "chat",
             "text": text,

@@ -95,14 +95,32 @@ async def parse_intent(message: str, timeout: float = 45.0) -> dict:
 
 CHAT_PROMPT = """You are a knowledgeable assistant for a biomedical wiki knowledge base spanning longevity, pharmacology, cell biology, and related topics. Answer the user's question directly, clearly, and accurately.
 
+You are in an ongoing conversation. Use the prior exchange for context when the user asks a follow-up (for example, "what about its side effects?" or "和上一個有什麼差別"). Answer the CURRENT user message.
+
+Prior conversation:
+{history}
+
 User message:
 {message}
 """
 
 
-async def answer_question(message: str, timeout: float = 90.0) -> str:
+async def answer_question(
+    message: str, history: list[dict] | None = None, timeout: float = 90.0
+) -> str:
     """Answer a general user question via opencode. Returns empty string on failure."""
-    prompt = CHAT_PROMPT.replace("{message}", message)
+    history_text = ""
+    if history:
+        lines = []
+        for turn in history[-10:]:
+            role = "User" if turn.get("role") == "user" else "Assistant"
+            content = str(turn.get("content", "")).strip()
+            if content:
+                lines.append(f"{role}: {content}")
+        history_text = "\n".join(lines)
+    prompt = CHAT_PROMPT.replace("{message}", message).replace(
+        "{history_items}", history_text
+    )
     try:
         return await _run_opencode(prompt, timeout)
     except asyncio.TimeoutError:
