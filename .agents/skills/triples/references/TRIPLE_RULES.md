@@ -23,18 +23,6 @@ Each triple is a JSON object with the following fields:
 | `context`    | string | Brief quote or explanation grounding the triple in the source text. Aim for short paragraph.   |
 | `confidence` | float | 0.95, 0.75, 0.25, etc.                                    |
 
-## Example
-
-```json
-{
-  "subject": "Sirtuins",
-  "predicate": "are NAD+-dependent",
-  "object": "Deacetylases",
-  "context": "Sir2 has histone deacetylase activity that is absolutely dependent on NAD+.",
-  "confidence": "high"
-}
-```
-
 ## Predicate Naming
 
 - Use **present tense, lowercase** (e.g., `inhibits`, not `inhibited` or `INHIBITS`)
