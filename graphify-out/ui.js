@@ -509,9 +509,11 @@ export function activateRoute(trace, routeIdx) {
 // Controls
 // ------------------------------------------------------------
 document.getElementById('btn-reset').addEventListener('click', () => {
+  state.selectedEdge = null;
   clearTrace();
   deselectNode();
-  animateCamera(new THREE.Vector3(-120, 0, 500), new THREE.Vector3(-120, 0, 0));
+  clearCommunityFocus();
+  animateCamera(new THREE.Vector3(-120, 0, 500), new THREE.Vector3(170, 0, 0));
 });
 
 document.getElementById('btn-physics').addEventListener('click', (e) => {

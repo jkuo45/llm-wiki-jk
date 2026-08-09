@@ -21,7 +21,6 @@ const chatPanel = document.getElementById('chat-panel');
 const chatMessages = document.getElementById('chat-messages');
 const chatInput = document.getElementById('chat-input');
 const chatSend = document.getElementById('chat-send');
-const chatClearBtn = document.getElementById('chat-clear');
 const chatMaximizeBtn = document.getElementById('chat-maximize');
 const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
@@ -58,13 +57,15 @@ chatMaximizeBtn.addEventListener('click', () => {
   if (maximized) chatInput.focus();
 });
 
-chatCloseBtn.addEventListener('click', () => {
+function closeChat() {
   chatOpen = false;
   chatPanel.classList.remove('open');
   chatBtn.classList.remove('open');
   chatBtn.innerHTML = '&#128172;';
   setActiveWindow(null);
-});
+}
+
+chatCloseBtn.addEventListener('click', closeChat);
 
 // ------------------------------------------------------------
 // Message rendering
@@ -243,7 +244,14 @@ wikiModalOverlay.addEventListener('click', (e) => {
   if (e.target === wikiModalOverlay) closeWikiModal();
 });
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && wikiModalOverlay.classList.contains('visible')) closeWikiModal();
+  if (e.key !== 'Escape') return;
+  if (wikiModalOverlay.classList.contains('visible')) { closeWikiModal(); return; }
+  if (chatPanel.classList.contains('open')) { closeChat(); return; }
+  const datasetPanelEl = document.getElementById('dataset-panel');
+  if (datasetPanelEl && datasetPanelEl.classList.contains('visible')) {
+    datasetPanelEl.classList.remove('visible');
+    setActiveWindow(null);
+  }
 });
 
 // Delegate click on chat entity links to open modal
@@ -424,13 +432,6 @@ chatMessages.addEventListener('click', (e) => {
     chatInput.value = btn.dataset.query;
     chatInput.focus();
   }
-});
-
-chatClearBtn.addEventListener('click', () => {
-  chatHistory = [];
-  chatMessages.innerHTML = '';
-  clearChatHighlights();
-  appendSuggestions(chatMessages);
 });
 
 chatNewBtn.addEventListener('click', () => {
