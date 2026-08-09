@@ -21,6 +21,43 @@ import { esc } from './markdown.js';
 export const EMPTY_INFO_HTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
 
 // ------------------------------------------------------------
+// Active-window highlight (dataset panel vs chat panel)
+// ------------------------------------------------------------
+const activeDatasetPanel = document.getElementById('dataset-panel');
+const activeChatPanel = document.getElementById('chat-panel');
+
+export function setActiveWindow(name) {
+  const panels = [activeDatasetPanel, activeChatPanel];
+  panels.forEach(el => el.classList.remove('active', 'dimmed'));
+
+  const activeEl = name === 'dataset' && activeDatasetPanel.classList.contains('visible')
+    ? activeDatasetPanel
+    : name === 'chat' && activeChatPanel.classList.contains('open')
+      ? activeChatPanel
+      : null;
+
+  if (activeEl) {
+    activeEl.classList.add('active');
+    panels.forEach(el => {
+      const isVisible = el === activeDatasetPanel
+        ? el.classList.contains('visible')
+        : el.classList.contains('open');
+      if (el !== activeEl && isVisible) el.classList.add('dimmed');
+    });
+  }
+}
+
+document.addEventListener('pointerdown', (e) => {
+  if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
+  else if (activeChatPanel.contains(e.target)) setActiveWindow('chat');
+  else setActiveWindow(null);
+});
+document.addEventListener('focusin', (e) => {
+  if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
+  else if (activeChatPanel.contains(e.target)) setActiveWindow('chat');
+});
+
+// ------------------------------------------------------------
 // Sidebar Toggle
 // ------------------------------------------------------------
 const mobileToggle = document.getElementById('mobile-toggle');

@@ -8,7 +8,7 @@ import {
   applyForces, updateStickyRings, updateZoomBar,
 } from './core.js';
 import { parseHash } from './routing.js';
-import { activateTrace, activateRoute, clearTrace } from './ui.js';
+import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
 // Side-effect import: chat.js attaches its own listeners.
@@ -25,7 +25,15 @@ document.getElementById('stats').textContent = `${RAW_NODES.length} nodes · ${R
 const totalCommunities = new Set(RAW_NODES.map(n => n.community)).size;
 const thinCount = Math.max(0, totalCommunities - LEGEND.length);
 const isolatedCount = RAW_NODES.filter(n => (n.degree || 0) <= 1).length;
+const sourceDocCount = new Set(RAW_NODES.map(n => n.source_file).filter(Boolean)).size;
+const confidenceCounts = {};
+RAW_EDGES.forEach(e => {
+  const c = e.confidence || 'UNKNOWN';
+  confidenceCounts[c] = (confidenceCounts[c] || 0) + 1;
+});
+const confidencePct = (c) => `${((confidenceCounts[c] || 0) / RAW_EDGES.length * 100).toFixed(1)}%`;
 const godNodes = [...RAW_NODES].sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 10);
+const communityCountMap = new Map(LEGEND.map(c => [c.cid, c.count]));
 
 const datasetScroll = document.getElementById('dataset-scroll');
 datasetScroll.innerHTML = `
@@ -36,14 +44,17 @@ datasetScroll.innerHTML = `
   <ul class="dataset-stats">
     <li><b>${RAW_NODES.length}</b> nodes &middot; <b>${RAW_EDGES.length}</b> edges</li>
     <li><b>${totalCommunities}</b> communities <small>(${LEGEND.length} shown, ${thinCount} thin omitted)</small></li>
-    <li><b>11</b> source documents &middot; ~<b>328,006</b> words</li>
-    <li><b>99%</b> EXTRACTED &middot; <b>0%</b> INFERRED &middot; <b>1%</b> AMBIGUOUS</li>
+    <li><b>${sourceDocCount}</b> source documents</li>
+    <li><b>${confidencePct('EXTRACTED')}</b> EXTRACTED &middot; <b>${confidencePct('INFERRED')}</b> INFERRED &middot; <b>${confidencePct('AMBIGUOUS')}</b> AMBIGUOUS</li>
   </ul>
 
   <h3>Core Concepts / 核心節點</h3>
-  <p class="dataset-intro"><b>"God" Nodes</b> (most-connected hubs) anchor each cluster:</p>
+  <p class="dataset-intro"><b>"God" Nodes</b> (most-connected hubs, by degree). Community size matches the sidebar legend:</p>
   <ol class="god-nodes">
-    ${godNodes.map(n => `<li><b>${esc(n.label)}</b> <span class="degree">${n.degree} edges</span></li>`).join('')}
+    ${godNodes.map(n => {
+      const cc = communityCountMap.get(n.community);
+      return `<li><b>${esc(n.label)}</b> <span class="degree">${n.degree} edges</span>${cc ? ` <span class="degree muted">&middot; ${cc}-node community</span>` : ''}</li>`;
+    }).join('')}
   </ol>
 
   <h3>How to Use / 使用方式</h3>
@@ -70,11 +81,15 @@ datasetBtn.addEventListener('click', (e) => {
   datasetPanel.classList.toggle('visible');
 });
 datasetPanel.addEventListener('click', (e) => {
-  if (e.target.id === 'dataset-close') datasetPanel.classList.remove('visible');
+  if (e.target.id === 'dataset-close') {
+    datasetPanel.classList.remove('visible');
+    setActiveWindow(null);
+  }
 });
 document.addEventListener('click', (e) => {
   if (!datasetPanel.contains(e.target) && !datasetBtn.contains(e.target)) {
     datasetPanel.classList.remove('visible');
+    setActiveWindow(null);
   }
 });
 

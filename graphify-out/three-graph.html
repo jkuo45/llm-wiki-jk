@@ -84,15 +84,17 @@
   <div id="chat-header">
     <span>Graph Chat / 圖形對話</span>
     <div class="chat-header-actions">
+      <button id="chat-new" title="New chat / 新對話">New</button>
       <button id="chat-maximize" title="Maximize window / 放大視窗" aria-label="Maximize window">
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>
       </button>
       <button id="chat-clear" title="Clear chat history">Clear</button>
+      <button id="chat-close" title="Close chat / 關閉對話" aria-label="Close chat">&times;</button>
     </div>
   </div>
   <div id="chat-messages"></div>
   <div id="chat-input-wrap">
-    <textarea id="chat-input" rows="1" placeholder="Ask a question..." maxlength="500"></textarea>
+    <textarea id="chat-input" rows="1" placeholder="Enter prompt:" maxlength="500"></textarea>
     <button id="chat-send" title="Send">Send</button>
   </div>
 </div>

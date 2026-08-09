@@ -9,7 +9,7 @@ import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
 } from './core.js';
-import { clearTrace, clearCommunityFocus } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow } from './ui.js';
 import { deselectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 
@@ -23,6 +23,8 @@ const chatInput = document.getElementById('chat-input');
 const chatSend = document.getElementById('chat-send');
 const chatClearBtn = document.getElementById('chat-clear');
 const chatMaximizeBtn = document.getElementById('chat-maximize');
+const chatNewBtn = document.getElementById('chat-new');
+const chatCloseBtn = document.getElementById('chat-close');
 const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 
 const INTENT_API = 'https://api.johnnykuo.com/api/intent';
@@ -42,6 +44,7 @@ chatBtn.addEventListener('click', () => {
   chatPanel.classList.toggle('open', chatOpen);
   chatBtn.classList.toggle('open', chatOpen);
   chatBtn.innerHTML = chatOpen ? '&#10005;' : '&#128172;';
+  if (!chatOpen) setActiveWindow(null);
   if (chatOpen) chatInput.focus();
 });
 
@@ -53,6 +56,14 @@ chatMaximizeBtn.addEventListener('click', () => {
   chatMaximizeBtn.innerHTML = maximized ? RESTORE_ICON : MAXIMIZE_ICON;
   chatMaximizeBtn.title = maximized ? 'Restore window / 還原視窗' : 'Maximize window / 放大視窗';
   if (maximized) chatInput.focus();
+});
+
+chatCloseBtn.addEventListener('click', () => {
+  chatOpen = false;
+  chatPanel.classList.remove('open');
+  chatBtn.classList.remove('open');
+  chatBtn.innerHTML = '&#128172;';
+  setActiveWindow(null);
 });
 
 // ------------------------------------------------------------
@@ -419,8 +430,16 @@ chatClearBtn.addEventListener('click', () => {
   chatHistory = [];
   chatMessages.innerHTML = '';
   clearChatHighlights();
-  addChatMessage('Enter prompt for graph agent:', 'bot');
   appendSuggestions(chatMessages);
+});
+
+chatNewBtn.addEventListener('click', () => {
+  chatHistory = [];
+  chatMessages.innerHTML = '';
+  clearChatHighlights();
+  appendSuggestions(chatMessages);
+  chatInput.value = '';
+  chatInput.focus();
 });
 
 // ------------------------------------------------------------
@@ -573,5 +592,4 @@ chatHighlightBadge.addEventListener('click', clearChatHighlights);
 // ------------------------------------------------------------
 // Init
 // ------------------------------------------------------------
-addChatMessage('Enter prompt for graph agent:', 'bot');
 appendSuggestions(chatMessages);
