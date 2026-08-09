@@ -1,17 +1,19 @@
 ---
 title: NF-κB
 description: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a central role in immunity, inflammation, and redox signaling.
-created: 2026-05-09
-updated: 2026-07-24
+created: '2026-05-09'
+updated: '2026-07-24'
 tags:
-  - protein
-  - transcription-factor
-  - inflammation
-  - oxidative-stress
-aliases: [NFKB, NFκB]
-  - NF-kappa B
-  - NFKB
-  - Nuclear factor kappa-light-chain-enhancer of activated B cells
+  - rotein]
+  - ranscription-factor]
+  - nflammation]
+  - xidative-stress]
+aliases:
+  - FKB]
+  - FκB]
+  - F-kappa B]
+  - FKB]
+  - uclear factor kappa-light-chain-enhancer of activated B cells]
 ---
 
 # NF-κB
