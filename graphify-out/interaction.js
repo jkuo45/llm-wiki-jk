@@ -4,7 +4,7 @@
 import * as THREE from 'three';
 
 import {
-  container, camera, controls, nodeObjects, nodeMeshes, labelObjects, edgeObjects,
+  container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeObjects,
   edgeLabel, edgeLabelDiv, animateCamera, CAMERA_OFFSET, midpoint,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
@@ -133,6 +133,7 @@ function attachLabelHandlers() {
 // Mouse move: hover + raycasting
 // ------------------------------------------------------------
 function onMouseMove(event) {
+  if (event.target !== renderer.domElement) return;
   const rect = container.getBoundingClientRect();
   mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
   mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
@@ -222,6 +223,9 @@ function onMouseMove(event) {
 }
 
 function onClick(event) {
+  // Only act on direct canvas clicks; clicks on UI chrome (toolbar buttons,
+  // panels, etc.) bubble up to the container and must not select nodes.
+  if (event.target !== renderer.domElement) return;
   if (dragMoved) return;
 
   const rect = container.getBoundingClientRect();
@@ -282,6 +286,7 @@ function activateGroupDrag(mesh) {
 }
 
 function onMouseDown(event) {
+  if (event.target !== renderer.domElement) return;
   if (event.button !== 0) return;
   const rect = container.getBoundingClientRect();
   mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;

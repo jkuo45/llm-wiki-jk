@@ -30,6 +30,9 @@ labelRenderer.setSize(container.clientWidth, container.clientHeight);
 labelRenderer.domElement.style.position = 'absolute';
 labelRenderer.domElement.style.top = '0';
 labelRenderer.domElement.style.pointerEvents = 'none';
+// Bound the label layer's stacking context so floating UI chrome inside #graph
+// (controls, zoom bar, dataset panel) always sits above node labels.
+labelRenderer.domElement.style.zIndex = '0';
 container.appendChild(labelRenderer.domElement);
 
 export const controls = new OrbitControls(camera, renderer.domElement);
@@ -78,7 +81,7 @@ function createNodeMesh(nodeData) {
 // Initialize positions using community clusters
 const communityCenters = new Map();
 let communityIndex = 0;
-const clusterRadius = 200;
+const clusterRadius = 200;  
 
 LEGEND.forEach(c => {
   const angle = (communityIndex / LEGEND.length) * Math.PI * 2;
