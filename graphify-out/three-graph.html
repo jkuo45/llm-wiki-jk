@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Interactive 3D knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 ">
+<meta name="description" content="Knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 graph agent">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <style>
@@ -495,11 +495,11 @@
     </div>
   </div>
   <div id="chat-messages">
-    <div class="chat-msg bot">Ask me about the knowledge graph!</div>
+    <div class="chat-msg bot">Enter prompt for graph agent:</div>
     <div class="chat-suggestions" id="chat-suggestions">
-      <button class="chat-suggestion" data-query="graphify trace from Autophagy to Rapamycin">graphify trace from Autophagy to Rapamycin</button>
-      <button class="chat-suggestion" data-query="What is NAD+?">What is NAD+?</button>
-      <button class="chat-suggestion" data-query="什麼是自噬作用？">什麼是自噬作用？</button>
+      <button class="chat-suggestion" data-query="Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop">Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop</button>
+      <button class="chat-suggestion" data-query="How does NAD+ decline drive the SASP and what can SIRT1 do about it?">How does NAD+ decline drive the SASP and what can SIRT1 do about it?</button>
+      <button class="chat-suggestion" data-query="Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？">Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？</button>
       <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
     </div>
   </div>
@@ -2864,16 +2864,16 @@ document.getElementById('chat-suggestions').addEventListener('click', (e) => {
 });
 
 const SUGGESTION_SETS = [
-  ["Graphify trace from Autophagy to Rapamycin", "What is NAD+?", "什麼是自噬作用？"],
-  ["Graphify explain mTOR pathway", "How does Caloric Restriction work?", "Tell me about Senolytics"],
-  ["Graphify path between Sirtuins and aging", "Rapamycin 與 mTOR 的關係？", "What are the hallmarks of aging?"],
-  ["Graphify trace from Mitochondria to NMN", "端粒是什麼？", "How does Metformin affect longevity?"],
-  ["Graphify explain Oxidative Stress", "What is the Warburg effect?", "長壽研究的關鍵節點"],
-  ["Graphify path between Autophagy and Inflammation", "How does exercise affect aging?", "NAD+ 如何隨年齡下降？"],
-  ["Graphify trace from Epigenetics to Telomeres", "Explain Epigenetic clocks", "What is the Hayflick limit?"],
-  ["Graphify explain Yamanaka factors", "How does Resveratrol work?", "What is Stem cell exhaustion?"],
+  ["Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop", "How does NAD+ decline drive the SASP and what can SIRT1 do about it?", "Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？"],
+  ["Graphify trace from CD38 to NAD+ to SIRT1 and how this axis degrades with age", "Do SIRT1 and SIRT6 differ in how they restrain senescence and SASP?", "為什麼 NAD+ 會隨年齡下降，Sirtuins 如何參與這個過程？"],
+  ["Graphify trace from Cellular Senescence to SASP to Inflammaging", "What distinguishes a senescent cell from a quiescent cell at the molecular level?", "Senolytics 與 senomorphic 在清除衰老細胞的策略上有何不同？"],
+  ["Graphify trace from Adrenochrome to Inflammaging via the miR-217 epigenetic bridge", "Does adrenochrome push cells into senescence through the SASP, and which microRNAs mediate that?", "腎上腺素氧化與衰老分泌表型之間有哪些已知的連結？"],
+  ["Graphify trace from SIRT1 to TFEB to Mitophagy and its role in clearing senescent mitochondria", "Why does SIRT1 fall during replicative senescence, and can NAD+ repletion restore its activity?", "Sirtuins 如何透過自噬與粒線體恆定來延緩細胞衰老？"],
+  ["Graphify trace from Oxidative Stress through Sirtuins to Mitohormesis", "Can low-dose catecholamine oxidation products trigger a hormetic NRF2/PGC1A response that Sirtuins amplify?", "Sirtuins 對抗腎上腺素氧化損傷的分子機制是什麼？"],
+  ["Graphify trace from NAD+ to BNIP3 mitophagy and how this intersects with senescence", "How does CD38-mediated NAD+ depletion link microglial inflammation to neuronal senescence?", "為什麼 SIRT1 活化需要足夠的 NAD+，而 CD38 會打破這個平衡？"],
+  ["Graphify trace from Adrenochrome to Foam Cells via lipophagy and atherosclerosis", "How does neuromelanin formation relate to catecholamine oxidation, COMT genotype, and oxidative stress?", "腎上腺素氧化產物如何影響巨噬細胞與動脈粥樣硬化？"],
 ];
-let suggestionIndex = 0;
+let suggestionIndex = 1;
 
 async function generateSuggestions() {
   const suggestionsDiv = document.getElementById('chat-suggestions');
@@ -2892,14 +2892,14 @@ chatClearBtn.addEventListener('click', () => {
   chatHistory = [];
   chatMessages.innerHTML = '';
   clearChatHighlights();
-  addChatMessage('Ask me about the knowledge graph!', 'bot');
+  addChatMessage('Enter prompt for graph agent:', 'bot');
   const suggestionsDiv = document.createElement('div');
   suggestionsDiv.className = 'chat-suggestions';
   suggestionsDiv.id = 'chat-suggestions';
   suggestionsDiv.innerHTML = `
-    <button class="chat-suggestion" data-query="graphify trace from Autophagy to Rapamycin">graphify trace from Autophagy to Rapamycin</button>
-    <button class="chat-suggestion" data-query="What is NAD+?">What is NAD+?</button>
-    <button class="chat-suggestion" data-query="什麼是自噬作用？">什麼是自噬作用？</button>
+    <button class="chat-suggestion" data-query="Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop">Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop</button>
+    <button class="chat-suggestion" data-query="How does NAD+ decline drive the SASP and what can SIRT1 do about it?">How does NAD+ decline drive the SASP and what can SIRT1 do about it?</button>
+    <button class="chat-suggestion" data-query="Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？">Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？</button>
     <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
   `;
   chatMessages.appendChild(suggestionsDiv);
