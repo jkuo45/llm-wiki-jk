@@ -22,7 +22,7 @@ async function loadAllData() {
     getJSON('graph.json', 'graph'),
     getJSON('manifest.json', 'manifest'),
     getJSON('wiki-context.json', 'wiki-context'),
-    getJSON('traces.json', 'traces'),
+    getJSON('query.json', 'traces'),
     getJSON('translations-zh-TW.json', 'translations'),
   ]);
   return {
