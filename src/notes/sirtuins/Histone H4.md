@@ -8,9 +8,9 @@ updated: 2026-07-07
 tags:
   - protein
   - epigenetics
-  - H4
-  - HIST1H4A
-  - HIST1H4A
+  - h4
+  - hist1h4a
+  - hist1h4a
 ---
 
 

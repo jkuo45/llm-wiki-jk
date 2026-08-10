@@ -4,12 +4,11 @@ description: γ-H2AX is the phosphorylated form of the histone variant H2AX at s
 created: '2026-07-06'
 updated: '2026-07-07'
 tags:
-  - iological-molecule]
+  - biological-molecule
 aliases:
-  - H2AX]
-  - amma-H2AX]
-  - hosphorylated H2AX]
-  - 2AX pSer139]
+  - Gamma-H2AX
+  - Phosphorylated H2AX
+  - H2AX pSer139
 ---
 
 # γ-H2AX

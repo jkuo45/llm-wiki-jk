@@ -1,5 +1,5 @@
 ---
-title: 'Methylene Blue Dosage: What Actually Works (And What's Too Much)'
+title: 'Methylene Blue Dosage: What Actually Works (And What''s Too Much)'
 source: https://www.gethealthspan.com/research/article/methylene-blue-dosage-guide?zp_type=article&zp_slug=methylene-blue-dosage-guide
 author:
   - "[[Healthspan Team]]"

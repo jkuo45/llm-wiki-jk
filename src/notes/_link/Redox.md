@@ -1,7 +1,6 @@
 ---
 title: Redox
-description: 'Definition: Redox is a scientific concept that describes fundamental'
-  principles governing biological or chemical systems.
+description: 'Definition: Redox is a scientific concept that describes fundamental principles governing biological or chemical systems.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -9,6 +9,7 @@ tags:
   - spermidine
   - rapamycin
   - longevity
+updated: 2026-07-15
 ---
 
 # CR vs Spermidine Diet Autophagy — Differences and Additive Effects

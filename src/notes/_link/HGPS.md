@@ -1,8 +1,6 @@
 ---
 title: HGPS
-description: 'Etiology and pathophysiology: HGPS is a medical condition characterized'
-  by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmental,...
+description: 'Etiology and pathophysiology: HGPS is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental,...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

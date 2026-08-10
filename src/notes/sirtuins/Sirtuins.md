@@ -8,7 +8,7 @@ updated: 2026-08-03
 tags:
   - protein
   - epigenetics
-  - nad+
+  - nad-plus
 aliases:
   - Sirtuin Family
   - SIRTs

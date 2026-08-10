@@ -1,8 +1,6 @@
 ---
 title: Alcoholism
-description: 'Etiology and pathophysiology: Alcoholism is a medical condition'
-  characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, environm...
+description: 'Etiology and pathophysiology: Alcoholism is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environm...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

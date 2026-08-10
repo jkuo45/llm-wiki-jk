@@ -5,6 +5,9 @@ description: Cellular degradation pathway that delivers cytoplasmic material to 
 created: 2026-07-04
 updated: 2026-07-22
 tags:
+  - biological-process
+  - lysosome
+  - degradation
 aliases: [Macroautophagy, Autophagosome nucleation]
 ---
 # Autophagy

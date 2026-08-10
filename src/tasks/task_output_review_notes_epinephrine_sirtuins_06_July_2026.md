@@ -14,7 +14,8 @@ tags:
   - inflammaging
   - oxidative-stress
   - longevity
-  - NAD
+  - nad
+updated: 2026-07-06
 ---
 
 # Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins

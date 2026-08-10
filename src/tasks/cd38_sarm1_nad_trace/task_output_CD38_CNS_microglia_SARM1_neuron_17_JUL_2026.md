@@ -9,7 +9,7 @@ tags:
   - sarm1
   - microglia
   - neuron
-  - nad+
+  - nad-plus
   - neuroinflammation
   - traumatic-brain-injury
   - neurodegeneration

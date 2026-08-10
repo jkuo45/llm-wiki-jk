@@ -6,6 +6,9 @@ description: Peroxisome proliferator-activated receptor gamma (PPARγ) is a nucl
 created: 2026-07-04
 updated: 2026-07-04
 tags:
+  - transcription-factor
+  - nuclear-receptor
+  - metabolism
 aliases: [PPAR-gamma, Peroxisome proliferator-activated receptor gamma, PPARgamma]
 ---
 # PPARγ

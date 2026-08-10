@@ -6,7 +6,7 @@ updated: 2026-07-17
 tags:
   - task-output
   - cd38
-  - nad+
+  - nad-plus
   - aging
   - inflammaging
   - sirtuins

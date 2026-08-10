@@ -6,6 +6,11 @@ description: NOX2 (gp91ᵖʰᵒˣ, NADPH oxidase 2) is the prototypical catalyti
 created: 2026-07-04
 updated: 2026-07-04
 aliases: [gp91phox, CYBB, NADPH oxidase 2, Cytochrome b-245 heavy chain, NOX2 deficiency]
+tags:
+  - gene
+  - enzyme
+  - nadph-oxidase
+  - oxidative-stress
 ---
 
 # NOX2

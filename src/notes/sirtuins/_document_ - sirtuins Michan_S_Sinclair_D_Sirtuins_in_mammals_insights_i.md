@@ -6,6 +6,7 @@ tags:
   - pdf
   - parsed
 aliases: []
+created: 2026-07-21
 ---
 
 

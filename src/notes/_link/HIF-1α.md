@@ -4,14 +4,12 @@ description: HIF-1α (Hypoxia-inducible factor 1-alpha) is a transcription facto
 created: '2026-07-04'
 updated: '2026-07-04'
 tags:
-  - rotein]
+  - protein
 aliases:
-  - IF1A]
-  - IF-1α]
-  - IF1alpha]
-  - ypoxia-inducible factor 1-alpha]
-  - ypoxia-inducible factor 1-alpha]
-  - IF1A]
+  - HIF1A
+  - HIF-1α
+  - HIF1alpha
+  - Hypoxia-inducible factor 1-alpha
 ---
 
 

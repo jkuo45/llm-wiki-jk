@@ -6,6 +6,11 @@ description: ULK1 (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threon
 created: 2026-07-04
 updated: 2026-07-05
 aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1, ULK1 complex]
+tags:
+  - gene
+  - protein
+  - kinase
+  - autophagy
 ---
 
 # ULK1

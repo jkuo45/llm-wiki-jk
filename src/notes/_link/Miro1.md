@@ -1,8 +1,6 @@
 ---
 title: Miro1
-description: 'Overview: Miro1 is a cellular protein with structural, signaling,'
-  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...
+description: 'Overview: Miro1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

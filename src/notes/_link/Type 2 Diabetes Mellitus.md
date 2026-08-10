@@ -1,8 +1,6 @@
 ---
 title: Type 2 Diabetes Mellitus
-description: 'Etiology and pathophysiology: Type 2 Diabetes Mellitus is a medical'
-  condition characterized by specific pathological changes in cellular, tissue, or
-  organ function. Its development involves gen...
+description: 'Etiology and pathophysiology: Type 2 Diabetes Mellitus is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves gen...'
 created: 2026-07-04
 updated: 2026-07-06
 tags:

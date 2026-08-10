@@ -7,7 +7,7 @@ tags:
   - task-output
   - cd38
   - sarm1
-  - nad+
+  - nad-plus
   - nmn
   - knowledge-graph-gaps
   - research-synthesis

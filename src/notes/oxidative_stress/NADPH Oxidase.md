@@ -10,7 +10,7 @@ tags:
   - superoxide
   - immune-system
   - enzyme
-  - nad+
+  - nad-plus
 aliases: [NOX, NADPH oxidase complex, NOX family, NAD(P)H Oxidase]
 protected: true
 ---

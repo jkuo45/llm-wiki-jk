@@ -18,6 +18,7 @@ author:
   - Soumaya Loued
   - Geneviève Drouin
   - Abdelouahed Khalil
+description: 'Berrougui et al. (2009) review of resveratrol as an atheroprotective compound and its mechanisms.'
 ---
 
 Atherosclerosis 207 (2009) 420–427 

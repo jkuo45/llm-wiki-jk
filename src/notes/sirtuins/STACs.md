@@ -7,7 +7,7 @@ created: 2026-07-03
 updated: 2026-07-03
 tags:
   - chemical-compound
-  - nad+
+  - nad-plus
 aliases:
   - Sirtuin Activating Compounds
   - Sirtuin Activators

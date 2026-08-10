@@ -1,8 +1,6 @@
 ---
 title: Hippo Pathway
-description: 'Definition: Hippo Pathway is a fundamental biological process that'
-  maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and en...
+description: 'Definition: Hippo Pathway is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and en...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

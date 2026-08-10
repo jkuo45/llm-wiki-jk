@@ -6,7 +6,7 @@ created: 2026-07-04
 updated: 2026-08-03
 tags:
   - enzyme
-  - nad+
+  - nad-plus
 aliases: [Sirt2]
 protected: true
 

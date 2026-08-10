@@ -11,7 +11,7 @@ author:
   - Marco Demaria
 tags:
   - senescence
-  - SASP
+  - sasp
   - inflammaging
   - aging
 ---

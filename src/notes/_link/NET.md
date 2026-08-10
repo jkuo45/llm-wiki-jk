@@ -1,8 +1,6 @@
 ---
 title: NET
-description: 'Overview: NET is a membrane transport protein that facilitates the'
-  movement of molecules across biological membranes. It mediates substrate translocation
-  through conformational changes driven b...
+description: 'Overview: NET is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven b...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

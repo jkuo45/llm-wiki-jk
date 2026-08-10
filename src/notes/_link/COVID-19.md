@@ -1,8 +1,6 @@
 ---
 title: COVID-19
-description: 'Etiology and pathophysiology: COVID-19 is a medical condition characterized'
-  by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmen...
+description: 'Etiology and pathophysiology: COVID-19 is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmen...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

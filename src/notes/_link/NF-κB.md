@@ -4,16 +4,15 @@ description: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-
 created: '2026-05-09'
 updated: '2026-07-24'
 tags:
-  - rotein]
-  - ranscription-factor]
-  - nflammation]
-  - xidative-stress]
+  - protein
+  - transcription-factor
+  - inflammation
+  - oxidative-stress
 aliases:
-  - FKB]
-  - FκB]
-  - F-kappa B]
-  - FKB]
-  - uclear factor kappa-light-chain-enhancer of activated B cells]
+  - NFKB
+  - NF-κB
+  - NF-kappa B
+  - Nuclear factor kappa-light-chain-enhancer of activated B cells
 ---
 
 # NF-κB

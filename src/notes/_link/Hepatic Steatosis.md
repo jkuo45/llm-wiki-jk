@@ -1,8 +1,6 @@
 ---
 title: Hepatic Steatosis
-description: 'Etiology and pathophysiology: Hepatic Steatosis is a medical condition'
-  characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, e...
+description: 'Etiology and pathophysiology: Hepatic Steatosis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, e...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

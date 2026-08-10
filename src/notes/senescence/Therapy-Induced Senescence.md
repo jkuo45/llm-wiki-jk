@@ -14,6 +14,7 @@ aliases:
   - therapy-induced senescence
 protected: true
 
+---
 # Therapy-Induced Senescence
 
 Therapy-induced senescence (TIS) is a form of cellular senescence provoked by cytotoxic cancer therapies — DNA-damaging chemotherapeutics (e.g., [[Doxorubicin]], [[Etoposide]]), ionizing radiation (typically a single 10 Gy X-ray dose), or other genotoxic stresses — as well as by persistent [[DNA Damage Response|DNA damage response (DDR)]]. TIS is a major in vitro and in vivo model used to study the senescence-associated secretory phenotype ([[SASP|Senescence-Associated Secretory Phenotype]]) and its epigenetic regulation.

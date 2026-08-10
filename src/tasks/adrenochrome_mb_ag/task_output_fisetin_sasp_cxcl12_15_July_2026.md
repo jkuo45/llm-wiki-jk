@@ -3,6 +3,7 @@ title: CXCL12 → Endothelial Dysfunction Mechanistic Trace & Fisetin Rescue Pat
 type: task_output
 created: 2026-07-15
 updated: 2026-07-15
+description: 'Mechanistic trace linking CXCL12 to endothelial dysfunction via SASP, with evaluation of fisetin as a rescue path.'
 source: graphify-out/graph.json
 tags:
   - graph-trace

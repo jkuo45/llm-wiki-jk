@@ -12,7 +12,7 @@ tags:
   - induced-pluripotent-stem-cell
   - cell-therapy
   - rpe65
-  - bruch's-membrane
+  - bruchs-membrane
   - anatomy
 aliases: ["RPE", "Retinal Pigmented Epithelium", "Pigment Epithelium"]
 ---

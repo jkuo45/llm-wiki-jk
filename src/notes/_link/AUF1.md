@@ -7,7 +7,7 @@ tags:
   - protein
   - rna-binding-protein
   - senescence
-  - mRNA-decay
+  - mrna-decay
   - sasp
 aliases: [AUF1, HNRNPD, hnRNP D]
 ---

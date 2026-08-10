@@ -8,7 +8,7 @@ tags:
   - cd38
   - sarm1
   - research-synthesis
-  - nad+
+  - nad-plus
   - nmn
   - axon-degeneration
   - microglia

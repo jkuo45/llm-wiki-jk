@@ -1,7 +1,6 @@
 ---
 title: TFEB_disease_model
-description: '| Targeting regulatory mechanisms of TFEB    | Disease                            |'
-  Characteristics of disease                                                                                       ...
+description: '| Targeting regulatory mechanisms of TFEB | Disease | Characteristics of disease ...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

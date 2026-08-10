@@ -7,10 +7,10 @@ tags:
   - cell-type
   - immune
   - lymphocyte
-  - Tregs
-  - Treg
-  - CD4+ regulatory T cells
-  - CD4+ regulatory T cells
+  - tregs
+  - treg
+  - cd4-regulatory-t-cells
+  - cd4-regulatory-t-cells
 ---
 
 # Regulatory T cells

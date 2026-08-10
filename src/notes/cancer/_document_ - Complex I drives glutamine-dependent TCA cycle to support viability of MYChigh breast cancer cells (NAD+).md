@@ -45,7 +45,7 @@ tags:
   - cancer-metabolism
   - oxphos
   - breast-cancer
-  - nad+
+  - nad-plus
 
 ---
 

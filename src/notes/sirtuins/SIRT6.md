@@ -7,11 +7,11 @@ created: 2026-07-02
 updated: 2026-08-03
 tags:
   - protein
-  - nad+
-  - Sirtuin 6
-  - nuclear sirtuin 6
-  - SIRT6 ADP-ribosyl transferase
-  - SIRT6 ADP-ribosyl transferase
+  - nad-plus
+  - sirtuin-6
+  - nuclear-sirtuin-6
+  - sirt6-adp-ribosyl-transferase
+  - sirt6-adp-ribosyl-transferase
 protected: true
 ---
 

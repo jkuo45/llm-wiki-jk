@@ -9,6 +9,7 @@ tags:
   - spermidine
   - rapamycin
   - longevity
+updated: 2026-07-15
 ---
 
 # CR vs 亚精胺饮食自噬 — 差异与叠加效应

@@ -1,8 +1,6 @@
 ---
 title: Dasatinib
-description: 'Chemical properties: Dasatinib is a chemical substance with defined'
-  molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.
+description: 'Chemical properties: Dasatinib is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -5,7 +5,7 @@ created: 2026-08-03
 updated: 2026-08-03
 tags:
   - transcription-factor
-  - ER-stress
+  - er-stress
   - metabolism
 aliases:
   - X-box binding protein 1

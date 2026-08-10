@@ -6,7 +6,11 @@ updated: 2026-07-17
 tags:
   - chemical-compound
   - cell-death
-aliases: [Z-VAD, Z-VAD-FMK, Carbobenzoxy-valyl-alanyl-aspartyl-[O-methyl]-fluoromethylketone, Pan-caspase inhibitor]
+aliases:
+  - Z-VAD
+  - Z-VAD-FMK
+  - 'Carbobenzoxy-valyl-alanyl-aspartyl-[O-methyl]-fluoromethylketone'
+  - Pan-caspase inhibitor
 ---
 
 # Z-VAD-FMK

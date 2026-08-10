@@ -17,6 +17,7 @@ tags:
   - sphingolipid-metabolism
   - enzyme
   - senolytic
+updated: 2026-07-27
 ---
 
 # Research Report: Acid Ceramidase in Ferroptosis & Cellular Senescence

@@ -1,8 +1,6 @@
 ---
 title: Homologous Recombination
-description: 'Definition: Homologous Recombination is a fundamental biological'
-  process that maintains cellular and organismal homeostasis. It involves coordinated
-  molecular events regulated by signaling path...
+description: 'Definition: Homologous Recombination is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling path...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

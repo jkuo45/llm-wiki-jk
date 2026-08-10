@@ -13,6 +13,7 @@ tags:
   - phosphorylation
   - phosphatase
   - cell-death
+updated: 2026-07-16
 ---
 
 # Research Report: Molecular Mechanisms of Caspase and Bcl-2 Family Regulation
