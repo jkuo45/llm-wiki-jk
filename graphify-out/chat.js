@@ -28,6 +28,7 @@ const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 
 const INTENT_API = 'https://api.johnnykuo.com/api/intent';
 const EXECUTE_API = 'https://api.johnnykuo.com/api/execute';
+const EXECUTE_STREAM_API = 'https://api.johnnykuo.com/api/execute/stream';
 
 let chatOpen = false;
 let chatBusy = false;
@@ -313,43 +314,13 @@ async function sendChatMessage() {
       typingDiv.querySelector('#typing-label').textContent = 'Translating';
     }
 
-    // Phase 2: Execute graph op + optional translation
-    const execResp = await fetch(EXECUTE_API, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        intent: intentData.intent,
-        lang: intentData.lang,
-        question: intentData.question,
-        node: intentData.node,
-        from_node: intentData.from_node,
-        to_node: intentData.to_node,
-        message: intentData.message,
-        history: chatHistory,
-      }),
-    });
-
-    chatMessages.removeChild(typingDiv);
-
-    if (!execResp.ok) {
-      chatHistory.pop();
-      addChatMessage('Server error', 'error');
-      return;
-    }
-
-    const data = await execResp.json();
-    const badge = data.type === 'chat' ? 'wiki' : (data.type === 'query' || data.type === 'explain' || data.type === 'path') ? 'graphify' : null;
-    addChatMessage(data.text, 'bot', badge);
-    chatHistory.push({ role: 'assistant', content: data.text });
-
-    if (data.text || data.highlight_nodes?.length) {
-      // Always highlight the nodes most related to the user's query AND the
-      // assistant's response: server-provided highlights take priority, then we
-      // fall back to (and merge with) a local relevance match over node labels.
-      const highlighted = highlightForMessage(clean, data);
-      if (highlighted.nodes.length > 0) {
-        highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
-      }
+    if (intentData.intent === 'chat' && intentData.message) {
+      // Streaming path for chat intent
+      await streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean);
+      typingTimerId = null; // consumed by streamChatResponse
+    } else {
+      // Non-streaming path for graph ops / greeting
+      await executeNonStreaming(intentData, typingDiv, typingStart, clean);
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
@@ -360,6 +331,184 @@ async function sendChatMessage() {
     chatBusy = false;
     chatSend.disabled = false;
     chatInput.focus();
+  }
+}
+
+async function streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean) {
+  const labelEl = typingDiv.querySelector('#typing-label');
+  labelEl.textContent = 'Thinking';
+
+  // Add collapsible thinking trace container
+  const traceDiv = document.createElement('div');
+  traceDiv.className = 'chat-thinking-trace';
+  traceDiv.style.display = 'none';
+  typingDiv.appendChild(traceDiv);
+
+  let reasoningBuf = '';
+  let textBuf = '';
+  let finalElapsed = 0;
+
+  try {
+    const resp = await fetch(EXECUTE_STREAM_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        intent: intentData.intent,
+        message: intentData.message,
+        history: chatHistory,
+      }),
+    });
+
+    if (!resp.ok) {
+      throw new Error(`HTTP ${resp.status}`);
+    }
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let sseBuf = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      sseBuf += decoder.decode(value, { stream: true });
+      const lines = sseBuf.split('\n');
+      sseBuf = lines.pop(); // keep incomplete line
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        const payload = line.slice(6);
+        if (!payload.trim()) continue;
+
+        let evt;
+        try {
+          evt = JSON.parse(payload);
+        } catch {
+          continue;
+        }
+
+        if (evt.type === 'reasoning' && evt.text) {
+          reasoningBuf += evt.text;
+          if (traceDiv.style.display === 'none') {
+            traceDiv.style.display = 'block';
+            labelEl.textContent = 'Thinking';
+          }
+          traceDiv.innerHTML = '<span class="trace-toggle" style="cursor:pointer;color:#999;font-size:11px">&#9654; Thinking trace</span>'
+            + '<div class="trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap">'
+            + esc(reasoningBuf) + '</div>';
+          traceDiv.scrollTop = traceDiv.scrollHeight;
+          chatMessages.scrollTop = chatMessages.scrollHeight;
+        } else if (evt.type === 'text' && evt.text) {
+          textBuf += evt.text;
+          labelEl.textContent = 'Answering';
+        } else if (evt.type === 'done') {
+          finalElapsed = evt.elapsed || ((performance.now() - typingStart) / 1000);
+        } else if (evt.type === 'error') {
+          throw new Error(evt.text || 'Stream error');
+        }
+      }
+    }
+  } catch (e) {
+    if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+    chatHistory.pop();
+    addChatMessage('Stream error. Please try again.', 'error');
+    if (typingTimerId) clearInterval(typingTimerId);
+    throw e; // re-throw so finally in caller handles cleanup
+  }
+
+  // Remove typing indicator
+  if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+  if (typingTimerId) clearInterval(typingTimerId);
+
+  const responseText = textBuf || 'No response received.';
+  const badge = 'wiki';
+
+  // Build final message with elapsed time + optional thinking trace
+  const div = document.createElement('div');
+  div.className = 'chat-msg bot';
+
+  let html = '';
+  if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
+
+  // Elapsed time badge
+  const secs = finalElapsed > 0 ? finalElapsed : ((performance.now() - typingStart) / 1000);
+  html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
+
+  // Thinking trace (collapsible, if any)
+  if (reasoningBuf) {
+    html += '<details class="chat-thinking-details">'
+      + '<summary class="chat-thinking-summary">Thinking trace</summary>'
+      + '<div class="chat-thinking-body">' + esc(reasoningBuf) + '</div>'
+      + '</details>';
+  }
+
+  html += formatBotMessage(responseText);
+  div.innerHTML = html;
+  addCopyButton(div, responseText);
+  chatMessages.appendChild(div);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+
+  // Toggle trace visibility on click (inline trace in typing div is gone,
+  // but the <details> in the final message handles its own toggle).
+
+  chatHistory.push({ role: 'assistant', content: responseText });
+
+  // Highlight relevant nodes
+  if (responseText) {
+    const highlighted = highlightForMessage(clean, { text: responseText });
+    if (highlighted.nodes.length > 0) {
+      highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
+    }
+  }
+}
+
+async function executeNonStreaming(intentData, typingDiv, typingStart, clean) {
+  const execResp = await fetch(EXECUTE_API, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      intent: intentData.intent,
+      lang: intentData.lang,
+      question: intentData.question,
+      node: intentData.node,
+      from_node: intentData.from_node,
+      to_node: intentData.to_node,
+      message: intentData.message,
+      history: chatHistory,
+    }),
+  });
+
+  chatMessages.removeChild(typingDiv);
+
+  if (!execResp.ok) {
+    chatHistory.pop();
+    addChatMessage('Server error', 'error');
+    return;
+  }
+
+  const data = await execResp.json();
+  const badge = data.type === 'chat' ? 'wiki' : (data.type === 'query' || data.type === 'explain' || data.type === 'path') ? 'graphify' : null;
+
+  // Build message with elapsed time
+  const div = document.createElement('div');
+  div.className = 'chat-msg bot';
+  let html = '';
+  if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
+  const secs = ((performance.now() - typingStart) / 1000);
+  html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
+  html += formatBotMessage(data.text);
+  div.innerHTML = html;
+  addCopyButton(div, data.text);
+  chatMessages.appendChild(div);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+
+  chatHistory.push({ role: 'assistant', content: data.text });
+
+  if (data.text || data.highlight_nodes?.length) {
+    const highlighted = highlightForMessage(clean, data);
+    if (highlighted.nodes.length > 0) {
+      highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
+    }
   }
 }
 

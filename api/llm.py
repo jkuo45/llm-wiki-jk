@@ -4,6 +4,8 @@ import asyncio
 import json
 import logging
 import re
+import time
+from collections.abc import AsyncGenerator
 
 logger = logging.getLogger(__name__)
 
@@ -130,6 +132,113 @@ async def answer_question(
     except Exception as e:
         logger.error(f"opencode chat error: {e}")
     return "Sorry, I couldn't process that request."
+
+
+async def stream_answer(
+    message: str, history: list[dict] | None = None, timeout: float = 90.0
+) -> AsyncGenerator[dict, None]:
+    """Stream answer chunks as SSE-compatible dicts.
+
+    Yields dicts with keys:
+      - type: "reasoning" | "text" | "done" | "error"
+      - text: chunk text (for reasoning/text)
+      - elapsed: seconds since start (for done)
+    """
+    history_text = ""
+    if history:
+        lines = []
+        for turn in history[-10:]:
+            role = "User" if turn.get("role") == "user" else "Assistant"
+            content = str(turn.get("content", "")).strip()
+            if content:
+                lines.append(f"{role}: {content}")
+        history_text = "\n".join(lines)
+    prompt = CHAT_PROMPT.replace("{message}", message).replace(
+        "{history_items}", history_text
+    )
+
+    start_time = time.monotonic()
+
+    try:
+        proc = await asyncio.create_subprocess_exec(
+            "opencode",
+            "run",
+            prompt,
+            "--format",
+            "json",
+            "--thinking",
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+
+        buffer = ""
+        while True:
+            try:
+                chunk = await asyncio.wait_for(
+                    proc.stdout.read(4096), timeout=timeout
+                )
+            except asyncio.TimeoutError:
+                yield {"type": "error", "text": "Request timed out."}
+                proc.kill()
+                return
+
+            if not chunk:
+                break
+
+            buffer += chunk.decode("utf-8", errors="replace")
+
+            while "\n" in buffer:
+                line, buffer = buffer.split("\n", 1)
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    event = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+
+                evt_type = event.get("type")
+                part = event.get("part", {})
+
+                if evt_type == "reasoning":
+                    text = part.get("text", "")
+                    if text:
+                        yield {"type": "reasoning", "text": text}
+                elif evt_type == "text":
+                    text = part.get("text", "")
+                    if text:
+                        yield {"type": "text", "text": text}
+                elif evt_type == "step_finish":
+                    elapsed = time.monotonic() - start_time
+                    yield {"type": "done", "elapsed": round(elapsed, 1)}
+
+        # Drain remaining buffer
+        if buffer.strip():
+            try:
+                event = json.loads(buffer.strip())
+                evt_type = event.get("type")
+                part = event.get("part", {})
+                if evt_type == "reasoning":
+                    text = part.get("text", "")
+                    if text:
+                        yield {"type": "reasoning", "text": text}
+                elif evt_type == "text":
+                    text = part.get("text", "")
+                    if text:
+                        yield {"type": "text", "text": text}
+            except json.JSONDecodeError:
+                pass
+
+        elapsed = time.monotonic() - start_time
+        yield {"type": "done", "elapsed": round(elapsed, 1)}
+
+    except asyncio.TimeoutError:
+        yield {"type": "error", "text": "Request timed out."}
+    except FileNotFoundError:
+        yield {"type": "error", "text": "Chat service unavailable."}
+    except Exception as e:
+        logger.error(f"stream_answer error: {e}")
+        yield {"type": "error", "text": "Sorry, I couldn't process that request."}
 
 
 TRANSLATE_PROMPT = """Translate the following text to {lang}. Output ONLY the translation, no explanation or extra text:
