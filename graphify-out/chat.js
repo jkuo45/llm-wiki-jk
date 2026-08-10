@@ -27,7 +27,6 @@ const chatCloseBtn = document.getElementById('chat-close');
 const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 
 const INTENT_API = 'https://api.johnnykuo.com/api/intent';
-const EXECUTE_API = 'https://api.johnnykuo.com/api/execute';
 const EXECUTE_STREAM_API = 'https://api.johnnykuo.com/api/execute/stream';
 
 let chatOpen = false;
@@ -315,12 +314,13 @@ async function sendChatMessage() {
     }
 
     if (intentData.intent === 'chat' && intentData.message) {
-      // Streaming path for chat intent
+      // Streaming path for chat intent — streams thinking + answer
       await streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean);
       typingTimerId = null; // consumed by streamChatResponse
     } else {
-      // Non-streaming path for graph ops / greeting
-      await executeNonStreaming(intentData, typingDiv, typingStart, clean);
+      // Single-event path for graph ops / greeting (still uses streaming endpoint)
+      await streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean);
+      typingTimerId = null;
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
@@ -462,50 +462,80 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   }
 }
 
-async function executeNonStreaming(intentData, typingDiv, typingStart, clean) {
-  const execResp = await fetch(EXECUTE_API, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      intent: intentData.intent,
-      lang: intentData.lang,
-      question: intentData.question,
-      node: intentData.node,
-      from_node: intentData.from_node,
-      to_node: intentData.to_node,
-      message: intentData.message,
-      history: chatHistory,
-    }),
-  });
+async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean) {
+  let textBuf = '';
+  let highlightNodes = [];
+  let highlightEdges = [];
+  let primaryNode = null;
 
-  chatMessages.removeChild(typingDiv);
+  try {
+    const resp = await fetch(EXECUTE_STREAM_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        intent: intentData.intent,
+        lang: intentData.lang,
+        question: intentData.question,
+        node: intentData.node,
+        from_node: intentData.from_node,
+        to_node: intentData.to_node,
+        message: intentData.message,
+        history: chatHistory,
+      }),
+    });
 
-  if (!execResp.ok) {
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let sseBuf = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      sseBuf += decoder.decode(value, { stream: true });
+      const lines = sseBuf.split('\n');
+      sseBuf = lines.pop();
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        let evt;
+        try { evt = JSON.parse(line.slice(6)); } catch { continue; }
+        if (evt.type === 'text') {
+          textBuf = evt.text || '';
+          highlightNodes = evt.highlight_nodes || [];
+          highlightEdges = evt.highlight_edges || [];
+          primaryNode = evt.primary_node || null;
+        }
+      }
+    }
+  } catch (e) {
+    if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
     chatHistory.pop();
     addChatMessage('Server error', 'error');
+    if (typingTimerId) clearInterval(typingTimerId);
     return;
   }
 
-  const data = await execResp.json();
-  const badge = data.type === 'chat' ? 'wiki' : (data.type === 'query' || data.type === 'explain' || data.type === 'path') ? 'graphify' : null;
+  if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+  if (typingTimerId) clearInterval(typingTimerId);
 
-  // Build message with elapsed time
+  const badge = 'graphify';
   const div = document.createElement('div');
   div.className = 'chat-msg bot';
   let html = '';
   if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
   const secs = ((performance.now() - typingStart) / 1000);
   html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
-  html += formatBotMessage(data.text);
+  html += formatBotMessage(textBuf);
   div.innerHTML = html;
-  addCopyButton(div, data.text);
+  addCopyButton(div, textBuf);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
 
-  chatHistory.push({ role: 'assistant', content: data.text });
+  chatHistory.push({ role: 'assistant', content: textBuf });
 
-  if (data.text || data.highlight_nodes?.length) {
-    const highlighted = highlightForMessage(clean, data);
+  if (textBuf || highlightNodes.length) {
+    const highlighted = highlightForMessage(clean, { text: textBuf, highlight_nodes: highlightNodes, highlight_edges: highlightEdges, primary_node: primaryNode });
     if (highlighted.nodes.length > 0) {
       highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
     }

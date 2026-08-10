@@ -10,7 +10,7 @@ from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
 
 from .graph_ops import get_graph, graph_explain, graph_path, graph_query
-from .llm import answer_question, parse_intent, stream_answer, translate_text
+from .llm import parse_intent, stream_answer, translate_text
 from .sanitize import sanitize_input, sanitize_node_name, validate_intent
 
 logging.basicConfig(level=logging.INFO)
@@ -93,13 +93,6 @@ class ExecuteRequest(BaseModel):
     to_node: str | None = None
     message: str | None = None
     history: list[dict] | None = None
-
-
-class ChatResponse(BaseModel):
-    type: str
-    text: str
-    highlight_nodes: list[str] = []
-    highlight_edges: list[list[str]] = []
 
 
 @app.get("/api/health")
@@ -193,13 +186,9 @@ def _unknown_result() -> dict:
     }
 
 
-@app.post("/api/execute", response_model=ChatResponse)
-async def execute_endpoint(request: ExecuteRequest):
-    """Phase 2: Run graph op (if explicitly requested) or opencode chat."""
-    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path"}
-    if request.intent not in ALLOWED_INTENTS:
-        return _unknown_result()
-
+@app.post("/api/execute/stream")
+async def execute_stream(request: ExecuteRequest):
+    """Streaming SSE endpoint. Chat intent streams thinking + text; graph ops emit a single text event."""
     if request.message:
         request.message = sanitize_input(request.message)
     if request.node:
@@ -209,16 +198,27 @@ async def execute_endpoint(request: ExecuteRequest):
     if request.to_node:
         request.to_node = sanitize_node_name(request.to_node)
 
+    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path"}
+    if request.intent not in ALLOWED_INTENTS:
+        async def _unknown():
+            yield f"data: {json.dumps({'type': 'text', 'text': _unknown_result()['text']})}\n\n"
+            yield f"data: {json.dumps({'type': 'done', 'elapsed': 0})}\n\n"
+        return StreamingResponse(_unknown(), media_type="text/event-stream")
+
+    # Chat intent — stream thinking + answer
+    if request.intent == "chat" and request.message:
+        async def _chat():
+            async for chunk in stream_answer(request.message, history=request.history):
+                yield f"data: {json.dumps(chunk)}\n\n"
+        return StreamingResponse(
+            _chat(),
+            media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
+
+    # Graph ops — compute synchronously, emit as single text event
     if request.intent == "greeting":
         result = _greeting_result()
-    elif request.intent == "chat" and request.message:
-        text = await answer_question(request.message, history=request.history)
-        result = {
-            "type": "chat",
-            "text": text,
-            "highlight_nodes": [],
-            "highlight_edges": [],
-        }
     elif request.intent == "query" and request.question:
         result = graph_query(request.question)
     elif request.intent == "explain" and request.node:
@@ -228,7 +228,6 @@ async def execute_endpoint(request: ExecuteRequest):
     else:
         result = _unknown_result()
 
-    # Translate graph results if non-English
     if (
         request.lang
         and request.lang != "en"
@@ -242,32 +241,8 @@ async def execute_endpoint(request: ExecuteRequest):
         f"highlight_edges={len(result.get('highlight_edges', []))} edges"
     )
 
-    return ChatResponse(**result)
+    async def _single():
+        yield f"data: {json.dumps({'type': 'text', 'text': result['text'], 'highlight_nodes': result.get('highlight_nodes', []), 'highlight_edges': result.get('highlight_edges', []), 'primary_node': result.get('primary_node')})}\n\n"
+        yield f"data: {json.dumps({'type': 'done', 'elapsed': 0})}\n\n"
 
-
-@app.post("/api/execute/stream")
-async def execute_stream(request: ExecuteRequest):
-    """Streaming SSE endpoint for chat intent with thinking traces."""
-    if request.message:
-        request.message = sanitize_input(request.message)
-
-    if request.intent != "chat" or not request.message:
-        # Non-streaming fallback for graph ops
-        result = _greeting_result() if request.intent == "greeting" else _unknown_result()
-        async def _single():
-            yield f"data: {json.dumps({'type': 'text', 'text': result['text']})}\n\n"
-            yield f"data: {json.dumps({'type': 'done', 'elapsed': 0})}\n\n"
-        return StreamingResponse(_single(), media_type="text/event-stream")
-
-    async def _stream():
-        async for chunk in stream_answer(request.message, history=request.history):
-            yield f"data: {json.dumps(chunk)}\n\n"
-
-    return StreamingResponse(
-        _stream(),
-        media_type="text/event-stream",
-        headers={
-            "Cache-Control": "no-cache",
-            "X-Accel-Buffering": "no",
-        },
-    )
+    return StreamingResponse(_single(), media_type="text/event-stream")

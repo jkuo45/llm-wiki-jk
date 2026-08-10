@@ -107,33 +107,6 @@ User message:
 """
 
 
-async def answer_question(
-    message: str, history: list[dict] | None = None, timeout: float = 90.0
-) -> str:
-    """Answer a general user question via opencode. Returns empty string on failure."""
-    history_text = ""
-    if history:
-        lines = []
-        for turn in history[-10:]:
-            role = "User" if turn.get("role") == "user" else "Assistant"
-            content = str(turn.get("content", "")).strip()
-            if content:
-                lines.append(f"{role}: {content}")
-        history_text = "\n".join(lines)
-    prompt = CHAT_PROMPT.replace("{message}", message).replace(
-        "{history_items}", history_text
-    )
-    try:
-        return await _run_opencode(prompt, timeout)
-    except asyncio.TimeoutError:
-        logger.error("opencode chat timed out")
-    except FileNotFoundError:
-        logger.error("opencode command not found")
-    except Exception as e:
-        logger.error(f"opencode chat error: {e}")
-    return "Sorry, I couldn't process that request."
-
-
 async def stream_answer(
     message: str, history: list[dict] | None = None, timeout: float = 90.0
 ) -> AsyncGenerator[dict, None]:
