@@ -3,16 +3,16 @@
 import json
 import logging
 import re
+from pathlib import Path
+
 import networkx as nx
 from networkx.readwrite import json_graph
-from pathlib import Path
-from typing import Optional
 
 logger = logging.getLogger(__name__)
 
 GRAPH_PATH = Path(__file__).parent.parent / "graphify-out" / "graph.json"
 
-_G: Optional[nx.MultiDiGraph] = None
+_G: nx.MultiDiGraph | None = None
 
 
 def get_graph() -> nx.MultiDiGraph:
@@ -24,10 +24,10 @@ def get_graph() -> nx.MultiDiGraph:
     return _G
 
 
-def _find_node(G: nx.MultiDiGraph, term: str) -> Optional[str]:
+def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
     """Find best matching node by label. Returns node id or None."""
     term_lower = term.lower()
-    terms = [t for t in re.split(r'\s+', term_lower) if len(t) >= 2]
+    terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
 
     scored = []
     for nid, ndata in G.nodes(data=True):
@@ -50,7 +50,7 @@ def _find_node(G: nx.MultiDiGraph, term: str) -> Optional[str]:
 def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
     """Find top N matching nodes."""
     term_lower = term.lower()
-    terms = [t for t in re.split(r'\s+', term_lower) if len(t) >= 2]
+    terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
 
     scored = []
     for nid, ndata in G.nodes(data=True):
@@ -108,7 +108,7 @@ def graph_query(question: str) -> dict:
         node_summaries.append(f"- **{label}** (degree {G.degree(nid)}): {snippet}")
 
     text_lines = [
-        f"Query: \"{question}\"",
+        f'Query: "{question}"',
         f"Starting from: {', '.join(start_labels)}",
         f"Found {len(subgraph_nodes)} nodes, {len(subgraph_edges)} edges",
         "",
@@ -119,9 +119,7 @@ def graph_query(question: str) -> dict:
     # Filter edges to only those within the subgraph
     sub_set = subgraph_nodes
     highlight_edges = [
-        [u, v]
-        for u, v in subgraph_edges
-        if u in sub_set and v in sub_set
+        [u, v] for u, v in subgraph_edges if u in sub_set and v in sub_set
     ][:200]
 
     return {
@@ -243,24 +241,30 @@ def graph_path(from_name: str, to_name: str) -> dict:
             if i < len(path) - 1:
                 next_nid = path[i + 1]
                 # Try to find edge data
-                edge_data = G.get_edge_data(nid, next_nid) or G.get_edge_data(next_nid, nid)
+                edge_data = G.get_edge_data(nid, next_nid) or G.get_edge_data(
+                    next_nid, nid
+                )
                 if edge_data:
-                    first_edge = next(iter(edge_data.values())) if isinstance(edge_data, dict) else edge_data
+                    first_edge = (
+                        next(iter(edge_data.values()))
+                        if isinstance(edge_data, dict)
+                        else edge_data
+                    )
                     if isinstance(first_edge, dict):
                         rel = first_edge.get("relation", "related_to")
                         conf = first_edge.get("confidence", "")
                     else:
                         rel = "related_to"
                         conf = ""
-                    path_lines.append(f"{i+1}. **{label}** --[{rel}]--> ({conf})")
+                    path_lines.append(f"{i + 1}. **{label}** --[{rel}]--> ({conf})")
                 else:
-                    path_lines.append(f"{i+1}. **{label}**")
+                    path_lines.append(f"{i + 1}. **{label}**")
                 highlight_edges.append([nid, next_nid])
             else:
-                path_lines.append(f"{i+1}. **{label}**")
+                path_lines.append(f"{i + 1}. **{label}**")
 
         text_lines = [
-            f"Path from **{src_label}** to **{tgt_label}** ({len(path)-1} hops):",
+            f"Path from **{src_label}** to **{tgt_label}** ({len(path) - 1} hops):",
             "",
             *path_lines,
         ]

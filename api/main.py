@@ -4,12 +4,13 @@ import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from graph_ops import get_graph, graph_explain, graph_path, graph_query
-from llm import answer_question, parse_intent, translate_text
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from sanitize import sanitize_input, sanitize_node_name, validate_intent
+
+from .graph_ops import get_graph, graph_explain, graph_path, graph_query
+from .llm import answer_question, parse_intent, translate_text
+from .sanitize import sanitize_input, sanitize_node_name, validate_intent
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -122,8 +123,16 @@ async def intent_endpoint(request: ChatRequest):
 
     # Check for greeting
     greeting_words = {
-        "hi", "hello", "hey", "yo", "sup",
-        "greetings", "howdy", "hola", "嗨", "你好",
+        "hi",
+        "hello",
+        "hey",
+        "yo",
+        "sup",
+        "greetings",
+        "howdy",
+        "hola",
+        "嗨",
+        "你好",
     }
     is_greeting = clean.lower().strip().rstrip("!.?") in greeting_words
     if is_greeting:
@@ -219,7 +228,11 @@ async def execute_endpoint(request: ExecuteRequest):
         result = _unknown_result()
 
     # Translate graph results if non-English
-    if request.lang and request.lang != "en" and request.intent in ("query", "explain", "path"):
+    if (
+        request.lang
+        and request.lang != "en"
+        and request.intent in ("query", "explain", "path")
+    ):
         result["text"] = await translate_text(result["text"], request.lang)
 
     logger.info(
