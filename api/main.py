@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
 
-from .graph_ops import get_graph, graph_explain, graph_path, graph_query
+from .graph_ops import get_graph, graph_explain, graph_path, graph_query, match_nodes_in_text
 from .llm import parse_intent, stream_answer, translate_text
 from .sanitize import sanitize_input, sanitize_node_name, validate_intent
 
@@ -205,11 +205,20 @@ async def execute_stream(request: ExecuteRequest):
             yield f"data: {json.dumps({'type': 'done', 'elapsed': 0})}\n\n"
         return StreamingResponse(_unknown(), media_type="text/event-stream")
 
-    # Chat intent — stream thinking + answer
+    # Chat intent — stream thinking + answer, then emit graph highlights
     if request.intent == "chat" and request.message:
         async def _chat():
+            text_buf = ""
             async for chunk in stream_answer(request.message, history=request.history):
+                if chunk.get("type") == "text":
+                    text_buf += chunk.get("text", "")
                 yield f"data: {json.dumps(chunk)}\n\n"
+
+            if text_buf:
+                highlights = match_nodes_in_text(text_buf, request.message)
+                if highlights["highlight_nodes"]:
+                    yield f"data: {json.dumps({'type': 'highlight', **highlights})}\n\n"
+
         return StreamingResponse(
             _chat(),
             media_type="text/event-stream",

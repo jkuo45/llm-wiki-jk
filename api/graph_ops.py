@@ -64,6 +64,61 @@ def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
     return [nid for _, nid in scored[:limit]]
 
 
+def match_nodes_in_text(text: str, query_text: str = "") -> dict:
+    """Find graph nodes mentioned in text by label matching.
+
+    Returns dict with highlight_nodes (list of node IDs) and
+    highlight_edges (list of [from, to] pairs between matched nodes).
+    """
+    G = get_graph()
+    blob = f"{query_text} {text}".lower()
+    matched_ids = set()
+
+    for nid, ndata in G.nodes(data=True):
+        label = (ndata.get("label") or "").strip()
+        if not label:
+            continue
+        pattern = re.compile(
+            r"(^|[^a-z0-9])\s*" + re.escape(label) + r"\s*([^a-z0-9]|$)", re.IGNORECASE
+        )
+        if pattern.search(blob):
+            matched_ids.add(nid)
+            continue
+        for alias in (ndata.get("aliases") or []):
+            alias = alias.strip()
+            if not alias:
+                continue
+            ap = re.compile(
+                r"(^|[^a-z0-9])\s*" + re.escape(alias) + r"\s*([^a-z0-9]|$)",
+                re.IGNORECASE,
+            )
+            if ap.search(blob):
+                matched_ids.add(nid)
+                break
+
+    if not matched_ids:
+        logger.info("match_nodes_in_text: no entities found in response")
+        return {"highlight_nodes": [], "highlight_edges": []}
+
+    edge_set = set()
+    highlight_edges = []
+    for u, v in G.edges():
+        if u in matched_ids and v in matched_ids:
+            key = (u, v) if u <= v else (v, u)
+            if key not in edge_set:
+                edge_set.add(key)
+                highlight_edges.append([u, v])
+
+    logger.info(
+        f"match_nodes_in_text: {len(matched_ids)} nodes, "
+        f"{len(highlight_edges)} edges"
+    )
+    return {
+        "highlight_nodes": list(matched_ids),
+        "highlight_edges": highlight_edges,
+    }
+
+
 def graph_query(question: str) -> dict:
     """BFS traversal from best-matching nodes. Returns subgraph + summary."""
     G = get_graph()

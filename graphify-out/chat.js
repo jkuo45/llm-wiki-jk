@@ -347,6 +347,8 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   let reasoningBuf = '';
   let textBuf = '';
   let finalElapsed = 0;
+  let serverHighlightNodes = [];
+  let serverHighlightEdges = [];
 
   try {
     const resp = await fetch(EXECUTE_STREAM_API, {
@@ -401,6 +403,9 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
         } else if (evt.type === 'text' && evt.text) {
           textBuf += evt.text;
           labelEl.textContent = 'Answering';
+        } else if (evt.type === 'highlight') {
+          serverHighlightNodes = evt.highlight_nodes || [];
+          serverHighlightEdges = evt.highlight_edges || [];
         } else if (evt.type === 'done') {
           finalElapsed = evt.elapsed || ((performance.now() - typingStart) / 1000);
         } else if (evt.type === 'error') {
@@ -455,7 +460,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
   // Highlight relevant nodes
   if (responseText) {
-    const highlighted = highlightForMessage(clean, { text: responseText });
+    const highlighted = highlightForMessage(clean, { text: responseText, highlight_nodes: serverHighlightNodes, highlight_edges: serverHighlightEdges });
     if (highlighted.nodes.length > 0) {
       highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
     }
