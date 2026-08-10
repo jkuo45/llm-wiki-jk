@@ -118,6 +118,8 @@ async def intent_endpoint(request: ChatRequest):
     if not clean:
         raise HTTPException(status_code=400, detail="Invalid or empty input")
 
+    logger.info(f"Question asked: {clean!r}")
+
     # Check for greeting
     greeting_words = {
         "hi", "hello", "hey", "yo", "sup",
@@ -219,5 +221,11 @@ async def execute_endpoint(request: ExecuteRequest):
     # Translate graph results if non-English
     if request.lang and request.lang != "en" and request.intent in ("query", "explain", "path"):
         result["text"] = await translate_text(result["text"], request.lang)
+
+    logger.info(
+        f"Reply nodes: intent={request.intent}, "
+        f"highlight_nodes={result.get('highlight_nodes', [])}, "
+        f"highlight_edges={len(result.get('highlight_edges', []))} edges"
+    )
 
     return ChatResponse(**result)

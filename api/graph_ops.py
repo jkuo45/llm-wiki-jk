@@ -1,11 +1,14 @@
 """Graph operations: query, explain, path. Read-only against graph.json."""
 
 import json
+import logging
 import re
 import networkx as nx
 from networkx.readwrite import json_graph
 from pathlib import Path
 from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 GRAPH_PATH = Path(__file__).parent.parent / "graphify-out" / "graph.json"
 
@@ -75,6 +78,9 @@ def graph_query(question: str) -> dict:
             "primary_node": None,
         }
 
+    start_labels = [G.nodes[n].get("label", n) for n in start_nodes]
+    logger.info(f"graph_query: question={question!r}, matched_nodes={start_labels}")
+
     # BFS up to depth 3
     subgraph_nodes = set(start_nodes)
     frontier = set(start_nodes)
@@ -143,6 +149,7 @@ def graph_explain(node_name: str) -> dict:
 
     ndata = G.nodes[nid]
     label = ndata.get("label", nid)
+    logger.info(f"graph_explain: requested={node_name!r}, matched_node={label!r}")
     desc = ndata.get("description", "")
     source = ndata.get("source_file", "")
     community = ndata.get("community", "")
@@ -218,6 +225,10 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "primary_node": None,
         }
 
+    src_label = G.nodes[src].get("label", src)
+    tgt_label = G.nodes[tgt].get("label", tgt)
+    logger.info(f"graph_path: from={src_label!r}, to={tgt_label!r}")
+
     try:
         # Try directed first, then undirected
         try:
@@ -248,8 +259,6 @@ def graph_path(from_name: str, to_name: str) -> dict:
             else:
                 path_lines.append(f"{i+1}. **{label}**")
 
-        src_label = G.nodes[src].get("label", src)
-        tgt_label = G.nodes[tgt].get("label", tgt)
         text_lines = [
             f"Path from **{src_label}** to **{tgt_label}** ({len(path)-1} hops):",
             "",
