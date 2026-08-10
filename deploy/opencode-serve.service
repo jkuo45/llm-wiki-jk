@@ -1,0 +1,43 @@
+[Unit]
+Description=opencode headless server (knowledge graph chat backend)
+Documentation=https://opencode.ai/docs/server/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=wiki
+Group=wiki
+WorkingDirectory=/srv/llm-wiki-jk
+EnvironmentFile=/etc/wiki-api/env
+
+# --port/--hostname are fixed so the adapter can find it. Never bind 0.0.0.0:
+# this server exposes bash, edit and write tools.
+ExecStart=/usr/local/bin/opencode serve --port 4096 --hostname 127.0.0.1 --log-level INFO
+
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+KillSignal=SIGTERM
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=opencode-serve
+
+# Hardening. opencode needs write access to the repo (sessions, caches) and to
+# its own state dir, but nothing else on the box. ReadWritePaths overrides
+# ProtectHome for the specific paths listed.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/srv/llm-wiki-jk /var/lib/wiki-api /home/wiki/.local/share/opencode /home/wiki/.config/opencode /home/wiki/.cache
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+
+[Install]
+WantedBy=multi-user.target

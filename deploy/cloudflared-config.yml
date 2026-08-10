@@ -1,0 +1,31 @@
+# Install to /etc/cloudflared/config.yml on the server.
+# Replace <TUNNEL-UUID> with the id printed by `cloudflared tunnel create wiki-api`.
+
+tunnel: <TUNNEL-UUID>
+credentials-file: /etc/cloudflared/<TUNNEL-UUID>.json
+
+# Tunnel-wide defaults.
+originRequest:
+  connectTimeout: 30s
+  tcpKeepAlive: 30s
+  keepAliveTimeout: 300s
+  keepAliveConnections: 32
+  # MUST remain false. Setting it true makes cloudflared buffer the whole
+  # response body, which turns streaming SSE into one burst at the end.
+  disableChunkedEncoding: false
+  noTLSVerify: false
+
+ingress:
+  - hostname: api.johnnykuo.com
+    service: http://127.0.0.1:8000
+    originRequest:
+      httpHostHeader: api.johnnykuo.com
+      # Chat turns can legitimately run for minutes. The adapter sends a
+      # `: ping` comment frame every 15s to keep intermediaries from timing out.
+      keepAliveTimeout: 300s
+      disableChunkedEncoding: false
+
+  # NOTE: opencode serve on :4096 is deliberately absent. It must never be
+  # reachable from the internet; it exposes bash/edit/write tools.
+
+  - service: http_status:404

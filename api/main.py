@@ -1,7 +1,22 @@
-"""FastAPI chat backend for the knowledge graph visualization."""
+"""FastAPI adapter between the graph UI and a headless `opencode serve`.
 
+Responsibilities:
+  - translate the opencode event bus into the SSE contract graphify-out/chat.js
+    already speaks ({type: reasoning|text|highlight|done|error})
+  - run read-only networkx graph operations (query/explain/path)
+  - map browser chat windows onto long-lived opencode sessions
+
+The opencode server itself is never exposed publicly; it binds to loopback and
+this process is the only client.
+"""
+
+import asyncio
 import json
 import logging
+import os
+import re
+import time
+from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request
@@ -10,32 +25,105 @@ from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
 
 from .graph_ops import get_graph, graph_explain, graph_path, graph_query, match_nodes_in_text
-from .llm import parse_intent, stream_answer, translate_text
+from .llm import (
+    OpencodeUnavailable,
+    create_session,
+    delete_session,
+    health as opencode_health,
+    parse_intent,
+    stream_answer,
+    translate_text,
+)
 from .sanitize import sanitize_input, sanitize_node_name, validate_intent
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=os.environ.get("LOG_LEVEL", "INFO"))
 logger = logging.getLogger(__name__)
 
 ALLOWED_ORIGINS = {
-    "https://www.johnnykuo.com",
-    "https://johnnykuo.com",
-    "https://graph.johnnykuo.com",
+    o.strip()
+    for o in os.environ.get(
+        "ALLOWED_ORIGINS",
+        "https://www.johnnykuo.com,https://johnnykuo.com,https://graph.johnnykuo.com",
+    ).split(",")
+    if o.strip()
 }
+
+# Idle chat sessions are reaped so a long-running server does not accumulate
+# opencode sessions from abandoned browser tabs.
+SESSION_TTL_SECONDS = int(os.environ.get("SESSION_TTL_SECONDS", "3600"))
+SESSION_SWEEP_SECONDS = 300
+MAX_SESSIONS = int(os.environ.get("MAX_SESSIONS", "200"))
+
+# SSE keepalive. Cloudflare drops idle proxied connections at ~100s.
+HEARTBEAT_SECONDS = int(os.environ.get("HEARTBEAT_SECONDS", "15"))
+
+_sessions: dict[str, float] = {}
+_session_lock = asyncio.Lock()
+
+_CJK_RE = re.compile(r"[\u4e00-\u9fff\u3400-\u4dbf]")
+_KANA_RE = re.compile(r"[\u3040-\u30ff]")
+_HANGUL_RE = re.compile(r"[\uac00-\ud7af]")
+_CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
+# Characters simplified-only, used to split zh-CN from zh-TW without a model.
+_SIMPLIFIED_HINT_RE = re.compile(r"[国说这么会来对时长发过还给样应关点]")
+
+
+def detect_lang(text: str) -> str:
+    """Cheap script-based language detection. No model call."""
+    if _KANA_RE.search(text):
+        return "ja"
+    if _HANGUL_RE.search(text):
+        return "ko"
+    if _CJK_RE.search(text):
+        return "zh-CN" if _SIMPLIFIED_HINT_RE.search(text) else "zh-TW"
+    if _CYRILLIC_RE.search(text):
+        return "ru"
+    return "en"
+
+
+async def _reap_sessions() -> None:
+    """Periodically drop opencode sessions that have gone idle."""
+    while True:
+        await asyncio.sleep(SESSION_SWEEP_SECONDS)
+        cutoff = time.monotonic() - SESSION_TTL_SECONDS
+        async with _session_lock:
+            stale = [sid for sid, seen in _sessions.items() if seen < cutoff]
+            for sid in stale:
+                _sessions.pop(sid, None)
+        for sid in stale:
+            await delete_session(sid)
+        if stale:
+            logger.info(f"Reaped {len(stale)} idle sessions")
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Load graph at startup."""
+    """Load the graph and verify the opencode server is reachable."""
     G = get_graph()
     logger.info(
         f"Graph loaded: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges"
     )
-    yield
+    try:
+        info = await opencode_health()
+        logger.info(f"opencode server ready: v{info.get('version')}")
+    except OpencodeUnavailable as e:
+        logger.error(f"opencode server NOT reachable at startup: {e}")
+
+    reaper = asyncio.create_task(_reap_sessions())
+    try:
+        yield
+    finally:
+        reaper.cancel()
+        async with _session_lock:
+            ids = list(_sessions)
+            _sessions.clear()
+        for sid in ids:
+            await delete_session(sid)
 
 
 app = FastAPI(
     title="Knowledge Graph Chat API",
-    version="1.0.0",
+    version="2.0.0",
     lifespan=lifespan,
 )
 
@@ -56,8 +144,6 @@ async def origin_gate(request: Request, call_next):
     origin = request.headers.get("origin")
     referer = request.headers.get("referer", "")
 
-    # In-origin requests carry a browser Origin header from the allowlisted UI.
-    # If Origin is present it must be allowed. Otherwise fall back to Referer.
     if origin:
         if origin in ALLOWED_ORIGINS:
             return await call_next(request)
@@ -72,6 +158,7 @@ async def origin_gate(request: Request, call_next):
 
 class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=500)
+    session_id: str | None = None
 
 
 class IntentResponse(BaseModel):
@@ -82,6 +169,7 @@ class IntentResponse(BaseModel):
     from_node: str | None = None
     to_node: str | None = None
     message: str | None = None
+    session_id: str | None = None
 
 
 class ExecuteRequest(BaseModel):
@@ -92,56 +180,81 @@ class ExecuteRequest(BaseModel):
     from_node: str | None = None
     to_node: str | None = None
     message: str | None = None
+    session_id: str | None = None
+    # Accepted for backwards compatibility; server-side sessions supersede it.
     history: list[dict] | None = None
+
+
+async def _touch_session(session_id: str | None) -> str:
+    """Return a live opencode session id, creating one when needed."""
+    async with _session_lock:
+        if session_id and session_id in _sessions:
+            _sessions[session_id] = time.monotonic()
+            return session_id
+        if len(_sessions) >= MAX_SESSIONS:
+            oldest = min(_sessions, key=_sessions.get)
+            _sessions.pop(oldest, None)
+            asyncio.create_task(delete_session(oldest))
+
+    new_id = await create_session(title="graph-chat")
+    async with _session_lock:
+        _sessions[new_id] = time.monotonic()
+    logger.info(f"Created session {new_id} (active={len(_sessions)})")
+    return new_id
 
 
 @app.get("/api/health")
 async def health():
-    """Health check endpoint."""
+    """Health check for the adapter and the upstream opencode server."""
     G = get_graph()
-    return {
+    payload = {
         "status": "ok",
         "nodes": G.number_of_nodes(),
         "edges": G.number_of_edges(),
+        "sessions": len(_sessions),
     }
+    try:
+        info = await opencode_health()
+        payload["opencode"] = {"status": "ok", "version": info.get("version")}
+    except OpencodeUnavailable as e:
+        payload["status"] = "degraded"
+        payload["opencode"] = {"status": "unreachable", "detail": str(e)[:200]}
+    return payload
+
+
+GREETING_WORDS = {
+    "hi", "hello", "hey", "yo", "sup", "greetings", "howdy", "hola",
+    "嗨", "你好", "您好",
+}
 
 
 @app.post("/api/intent", response_model=IntentResponse)
 async def intent_endpoint(request: ChatRequest):
-    """Phase 1: Detect whether user explicitly asked for a graphify op, else chat."""
+    """Phase 1: detect an explicit graphify op, else fall through to chat.
+
+    Only the graphify branch costs a model call. Greetings and ordinary chat
+    are resolved locally.
+    """
     clean = sanitize_input(request.message)
     if not clean:
         raise HTTPException(status_code=400, detail="Invalid or empty input")
 
     logger.info(f"Question asked: {clean!r}")
 
-    # Check for greeting
-    greeting_words = {
-        "hi",
-        "hello",
-        "hey",
-        "yo",
-        "sup",
-        "greetings",
-        "howdy",
-        "hola",
-        "嗨",
-        "你好",
-    }
-    is_greeting = clean.lower().strip().rstrip("!.?") in greeting_words
-    if is_greeting:
-        return IntentResponse(intent="greeting", lang="en")
+    if clean.lower().strip().rstrip("!.?") in GREETING_WORDS:
+        return IntentResponse(
+            intent="greeting", lang=detect_lang(clean), session_id=request.session_id
+        )
 
-    # Only use graph_ops when the user explicitly requests a graphify op
     lowered = clean.lower()
     is_graphify_op = "graphify" in lowered and any(
-        op in lowered for op in ("explain", "path", "query")
+        op in lowered for op in ("explain", "path", "query", "trace")
     )
 
     if is_graphify_op:
         raw_intent = await parse_intent(clean)
         intent = validate_intent(raw_intent)
-        lang = raw_intent.get("lang", "en")
+        lang = raw_intent.get("lang") or detect_lang(clean)
         logger.info(f"Graphify intent: {intent}, lang: {lang}")
         return IntentResponse(
             intent=intent.get("intent", "unknown"),
@@ -150,10 +263,32 @@ async def intent_endpoint(request: ChatRequest):
             node=intent.get("node"),
             from_node=intent.get("from"),
             to_node=intent.get("to"),
+            session_id=request.session_id,
         )
 
-    # Otherwise let opencode handle the query directly
-    return IntentResponse(intent="chat", lang="en", message=clean)
+    try:
+        session_id = await _touch_session(request.session_id)
+    except OpencodeUnavailable as e:
+        logger.error(f"Cannot allocate session: {e}")
+        raise HTTPException(status_code=503, detail="Chat service unavailable") from e
+
+    return IntentResponse(
+        intent="chat",
+        lang=detect_lang(clean),
+        message=clean,
+        session_id=session_id,
+    )
+
+
+@app.post("/api/session/reset")
+async def reset_session(request: ChatRequest):
+    """Drop a chat session so the next turn starts with clean context."""
+    if request.session_id:
+        async with _session_lock:
+            existed = _sessions.pop(request.session_id, None) is not None
+        if existed:
+            await delete_session(request.session_id)
+    return {"status": "ok"}
 
 
 def _greeting_result() -> dict:
@@ -186,9 +321,52 @@ def _unknown_result() -> dict:
     }
 
 
+def _sse(payload: dict) -> str:
+    return f"data: {json.dumps(payload)}\n\n"
+
+
+SSE_HEADERS = {
+    "Cache-Control": "no-cache, no-transform",
+    "Connection": "keep-alive",
+    "X-Accel-Buffering": "no",
+}
+
+
+async def _with_heartbeat(
+    gen: AsyncGenerator[str, None], interval: int = HEARTBEAT_SECONDS
+) -> AsyncGenerator[str, None]:
+    """Interleave SSE comment frames so proxies keep the connection open."""
+    queue: asyncio.Queue = asyncio.Queue()
+    DONE = object()
+
+    async def pump():
+        try:
+            async for item in gen:
+                await queue.put(item)
+        except Exception as e:  # noqa: BLE001 - surfaced to client below
+            logger.error(f"stream generator failed: {e}")
+            await queue.put(_sse({"type": "error", "text": "Stream error."}))
+        finally:
+            await queue.put(DONE)
+
+    task = asyncio.create_task(pump())
+    try:
+        while True:
+            try:
+                item = await asyncio.wait_for(queue.get(), timeout=interval)
+            except asyncio.TimeoutError:
+                yield ": ping\n\n"
+                continue
+            if item is DONE:
+                return
+            yield item
+    finally:
+        task.cancel()
+
+
 @app.post("/api/execute/stream")
 async def execute_stream(request: ExecuteRequest):
-    """Streaming SSE endpoint. Chat intent streams thinking + text; graph ops emit a single text event."""
+    """SSE endpoint. Chat streams reasoning + text; graph ops emit one event."""
     if request.message:
         request.message = sanitize_input(request.message)
     if request.node:
@@ -201,31 +379,53 @@ async def execute_stream(request: ExecuteRequest):
     ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path"}
     if request.intent not in ALLOWED_INTENTS:
         async def _unknown():
-            yield f"data: {json.dumps({'type': 'text', 'text': _unknown_result()['text']})}\n\n"
-            yield f"data: {json.dumps({'type': 'done', 'elapsed': 0})}\n\n"
-        return StreamingResponse(_unknown(), media_type="text/event-stream")
-
-    # Chat intent — stream thinking + answer, then emit graph highlights
-    if request.intent == "chat" and request.message:
-        async def _chat():
-            text_buf = ""
-            async for chunk in stream_answer(request.message, history=request.history):
-                if chunk.get("type") == "text":
-                    text_buf += chunk.get("text", "")
-                yield f"data: {json.dumps(chunk)}\n\n"
-
-            if text_buf:
-                highlights = match_nodes_in_text(text_buf, request.message)
-                if highlights["highlight_nodes"]:
-                    yield f"data: {json.dumps({'type': 'highlight', **highlights})}\n\n"
+            yield _sse({"type": "text", "text": _unknown_result()["text"]})
+            yield _sse({"type": "done", "elapsed": 0})
 
         return StreamingResponse(
-            _chat(),
-            media_type="text/event-stream",
-            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+            _unknown(), media_type="text/event-stream", headers=SSE_HEADERS
         )
 
-    # Graph ops — compute synchronously, emit as single text event
+    # Chat intent — stream reasoning + answer, then emit graph highlights.
+    if request.intent == "chat" and request.message:
+        try:
+            session_id = await _touch_session(request.session_id)
+        except OpencodeUnavailable as e:
+            logger.error(f"Cannot allocate session: {e}")
+
+            async def _down():
+                yield _sse({"type": "error", "text": "Chat service unavailable."})
+
+            return StreamingResponse(
+                _down(), media_type="text/event-stream", headers=SSE_HEADERS
+            )
+
+        async def _chat():
+            text_buf = ""
+            done_seen = False
+            async for chunk in stream_answer(request.message, session_id=session_id):
+                if chunk.get("type") == "text":
+                    text_buf += chunk.get("text", "")
+                if chunk.get("type") == "done":
+                    done_seen = True
+                    # Highlights must land before the client stops listening.
+                    if text_buf:
+                        highlights = match_nodes_in_text(text_buf, request.message)
+                        if highlights["highlight_nodes"]:
+                            yield _sse({"type": "highlight", **highlights})
+                yield _sse(chunk)
+            if not done_seen and text_buf:
+                highlights = match_nodes_in_text(text_buf, request.message)
+                if highlights["highlight_nodes"]:
+                    yield _sse({"type": "highlight", **highlights})
+
+        return StreamingResponse(
+            _with_heartbeat(_chat()),
+            media_type="text/event-stream",
+            headers=SSE_HEADERS,
+        )
+
+    # Graph ops — computed synchronously, emitted as a single cumulative event.
     if request.intent == "greeting":
         result = _greeting_result()
     elif request.intent == "query" and request.question:
@@ -246,12 +446,22 @@ async def execute_stream(request: ExecuteRequest):
 
     logger.info(
         f"Reply nodes: intent={request.intent}, "
-        f"highlight_nodes={result.get('highlight_nodes', [])}, "
+        f"highlight_nodes={len(result.get('highlight_nodes', []))}, "
         f"highlight_edges={len(result.get('highlight_edges', []))} edges"
     )
 
     async def _single():
-        yield f"data: {json.dumps({'type': 'text', 'text': result['text'], 'highlight_nodes': result.get('highlight_nodes', []), 'highlight_edges': result.get('highlight_edges', []), 'primary_node': result.get('primary_node')})}\n\n"
-        yield f"data: {json.dumps({'type': 'done', 'elapsed': 0})}\n\n"
+        yield _sse(
+            {
+                "type": "text",
+                "text": result["text"],
+                "highlight_nodes": result.get("highlight_nodes", []),
+                "highlight_edges": result.get("highlight_edges", []),
+                "primary_node": result.get("primary_node"),
+            }
+        )
+        yield _sse({"type": "done", "elapsed": 0})
 
-    return StreamingResponse(_single(), media_type="text/event-stream")
+    return StreamingResponse(
+        _single(), media_type="text/event-stream", headers=SSE_HEADERS
+    )

@@ -1,0 +1,45 @@
+[Unit]
+Description=Knowledge graph chat API (FastAPI adapter for opencode serve)
+After=network-online.target opencode-serve.service
+Wants=network-online.target
+Requires=opencode-serve.service
+
+[Service]
+Type=simple
+User=wiki
+Group=wiki
+WorkingDirectory=/srv/llm-wiki-jk
+EnvironmentFile=/etc/wiki-api/env
+
+# Single worker: the networkx graph is ~4.9 MB of JSON held in process memory
+# and the session registry is in-process. Scale with more sessions, not workers.
+ExecStart=/srv/llm-wiki-jk/.venv/bin/uvicorn api.main:app \
+    --host 127.0.0.1 \
+    --port 8000 \
+    --workers 1 \
+    --timeout-keep-alive 300 \
+    --no-access-log
+
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+KillSignal=SIGTERM
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=wiki-api
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/srv/llm-wiki-jk /var/lib/wiki-api
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+
+[Install]
+WantedBy=multi-user.target

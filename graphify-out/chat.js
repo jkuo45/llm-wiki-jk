@@ -26,17 +26,24 @@ const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
 const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 
-const INTENT_API = 'https://api.johnnykuo.com/api/intent';
-const EXECUTE_STREAM_API = 'https://api.johnnykuo.com/api/execute/stream';
+const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
+const INTENT_API = `${API_BASE}/api/intent`;
+const EXECUTE_STREAM_API = `${API_BASE}/api/execute/stream`;
+const SESSION_RESET_API = `${API_BASE}/api/session/reset`;
 
 let chatOpen = false;
 let chatBusy = false;
 let chatHighlightedNodes = [];
 let chatHighlightedEdges = [];
 // In-memory conversation history (session only; intentionally NOT persisted to
-// localStorage/sessionStorage so a refresh clears it). Used to give follow-up
-// questions context of the ongoing conversation.
+// localStorage/sessionStorage so a refresh clears it). Rendered in the panel and
+// kept as a fallback; conversational context now lives server-side, keyed by
+// chatSessionId.
 let chatHistory = [];
+// opencode session id, assigned by the server on the first turn. Sending it back
+// keeps follow-up questions in the same conversation without re-uploading the
+// whole transcript on every request.
+let chatSessionId = null;
 
 chatBtn.addEventListener('click', () => {
   chatOpen = !chatOpen;
@@ -296,7 +303,7 @@ async function sendChatMessage() {
     const intentResp = await fetch(INTENT_API, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: clean }),
+      body: JSON.stringify({ message: clean, session_id: chatSessionId }),
     });
 
     if (!intentResp.ok) {
@@ -308,8 +315,14 @@ async function sendChatMessage() {
 
     const intentData = await intentResp.json();
 
-    // Update indicator if translation will happen
-    if (intentData.lang && intentData.lang !== 'en') {
+    // Server-side conversation handle; reused for every subsequent turn.
+    if (intentData.session_id) chatSessionId = intentData.session_id;
+
+    // Update indicator only when a translation pass will actually run. Chat
+    // turns answer in the user's language natively, so no translation step.
+    const willTranslate = intentData.lang && intentData.lang !== 'en'
+      && ['query', 'explain', 'path'].includes(intentData.intent);
+    if (willTranslate) {
       typingDiv.querySelector('#typing-label').textContent = 'Translating';
     }
 
@@ -357,7 +370,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
       body: JSON.stringify({
         intent: intentData.intent,
         message: intentData.message,
-        history: chatHistory,
+        session_id: chatSessionId,
       }),
     });
 
@@ -485,7 +498,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
         from_node: intentData.from_node,
         to_node: intentData.to_node,
         message: intentData.message,
-        history: chatHistory,
+        session_id: chatSessionId,
       }),
     });
 
@@ -619,6 +632,17 @@ chatMessages.addEventListener('click', (e) => {
 });
 
 chatNewBtn.addEventListener('click', () => {
+  // Release the server-side session so the next turn starts with clean context.
+  if (chatSessionId) {
+    const stale = chatSessionId;
+    chatSessionId = null;
+    fetch(SESSION_RESET_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'reset', session_id: stale }),
+      keepalive: true,
+    }).catch(() => {});
+  }
   chatHistory = [];
   chatMessages.innerHTML = '';
   clearChatHighlights();
