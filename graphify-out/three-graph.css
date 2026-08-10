@@ -24,7 +24,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #trace-header span { font-size: 16px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
 #trace-header .chevron { color: #666; font-size: 14px; transition: transform 0.2s; }
 #trace-header .chevron.open { transform: rotate(90deg); }
-#trace-body { padding: 0 20px 16px; display: none; }
+#trace-body { padding: 0 20px 16px; display: none; max-height: 60vh; overflow-y: auto; }
 #trace-body.open { display: block; }
 #trace-select { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 14px 16px; border-radius: 8px; font-size: 17px; outline: none; cursor: pointer; }
 #trace-select:focus { border-color: #4E79A7; }
