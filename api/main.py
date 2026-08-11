@@ -3,7 +3,7 @@
 Responsibilities:
   - translate the opencode event bus into the SSE contract graphify-out/chat.js
     already speaks ({type: reasoning|text|highlight|done|error})
-  - run read-only networkx graph operations (query/explain/path)
+  - run read-only networkx graph operations (query/explain/path/trace)
   - map browser chat windows onto long-lived opencode sessions
 
 The opencode server itself is never exposed publicly; it binds to loopback and
@@ -24,7 +24,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
 
-from .graph_ops import get_graph, graph_explain, graph_path, graph_query, match_nodes_in_text
+from .graph_ops import (
+    get_graph,
+    graph_explain,
+    graph_path,
+    graph_query,
+    graph_trace,
+    match_nodes_in_text,
+)
 from .llm import (
     OpencodeUnavailable,
     create_session,
@@ -159,6 +166,11 @@ async def origin_gate(request: Request, call_next):
 class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=500)
     session_id: str | None = None
+    # Client-side routing switch (the "Graphify" checkbox in the chat composer).
+    # True  -> always attempt a graph op (query/explain/path/trace)
+    # False -> always answer from the wiki via chat, even if the text says "graphify"
+    # None  -> legacy behaviour: sniff for an explicit "graphify <op>" phrase
+    graphify: bool | None = None
 
 
 class IntentResponse(BaseModel):
@@ -168,6 +180,7 @@ class IntentResponse(BaseModel):
     node: str | None = None
     from_node: str | None = None
     to_node: str | None = None
+    nodes: list[str] | None = None
     message: str | None = None
     session_id: str | None = None
 
@@ -179,6 +192,7 @@ class ExecuteRequest(BaseModel):
     node: str | None = None
     from_node: str | None = None
     to_node: str | None = None
+    nodes: list[str] | None = None
     message: str | None = None
     session_id: str | None = None
     # Accepted for backwards compatibility; server-side sessions supersede it.
@@ -230,10 +244,12 @@ GREETING_WORDS = {
 
 @app.post("/api/intent", response_model=IntentResponse)
 async def intent_endpoint(request: ChatRequest):
-    """Phase 1: detect an explicit graphify op, else fall through to chat.
+    """Phase 1: route the turn to a graph op or to wiki chat.
 
-    Only the graphify branch costs a model call. Greetings and ordinary chat
-    are resolved locally.
+    The client's `graphify` switch is authoritative when present; otherwise we
+    fall back to sniffing for an explicit "graphify <op>" phrase. Only the
+    graph-op branch costs a classifier call — greetings and ordinary chat are
+    resolved locally.
     """
     clean = sanitize_input(request.message)
     if not clean:
@@ -247,24 +263,30 @@ async def intent_endpoint(request: ChatRequest):
         )
 
     lowered = clean.lower()
-    is_graphify_op = "graphify" in lowered and any(
+    keyword_op = "graphify" in lowered and any(
         op in lowered for op in ("explain", "path", "query", "trace")
     )
+    is_graphify_op = keyword_op if request.graphify is None else request.graphify
 
     if is_graphify_op:
         raw_intent = await parse_intent(clean)
         intent = validate_intent(raw_intent)
         lang = raw_intent.get("lang") or detect_lang(clean)
         logger.info(f"Graphify intent: {intent}, lang: {lang}")
-        return IntentResponse(
-            intent=intent.get("intent", "unknown"),
-            lang=lang,
-            question=intent.get("question"),
-            node=intent.get("node"),
-            from_node=intent.get("from"),
-            to_node=intent.get("to"),
-            session_id=request.session_id,
-        )
+        # A forced graphify turn that the classifier cannot map to an op falls
+        # back to wiki chat instead of dead-ending on "I couldn't understand".
+        if intent.get("intent") != "unknown" or request.graphify is None:
+            return IntentResponse(
+                intent=intent.get("intent", "unknown"),
+                lang=lang,
+                question=intent.get("question"),
+                node=intent.get("node"),
+                from_node=intent.get("from"),
+                to_node=intent.get("to"),
+                nodes=intent.get("nodes"),
+                session_id=request.session_id,
+            )
+        logger.info("Graphify op unresolved; falling back to wiki chat")
 
     try:
         session_id = await _touch_session(request.session_id)
@@ -295,11 +317,12 @@ def _greeting_result() -> dict:
     return {
         "type": "greeting",
         "text": (
-            "Hey! I'm your knowledge graph assistant. Ask me anything about the biomedical wiki:\n\n"
-            '- **"What is Autophagy?"** — explain a concept\n'
-            '- **"How does Rapamycin relate to mTOR?"** — find a path between two concepts\n'
-            '- **"Key nodes in longevity research"** — query the graph\n'
-            '- **"Explain SASP"** — deep dive on a node\n\n'
+            "Hey! I'm your knowledge graph assistant. With **Graphify** on I run graph "
+            "operations; switch it off to answer from the wiki instead.\n\n"
+            '- **explain** — *"Explain SASP"* — deep dive on one node\n'
+            '- **path** — *"How does Rapamycin relate to mTOR?"* — shortest link between two nodes\n'
+            '- **trace** — *"Trace from NAD+ via SIRT1 to Mitophagy"* — multi-hop route through waypoints\n'
+            '- **query** — *"Key nodes in longevity research"* — search the graph\n\n'
             "Type a question to get started!"
         ),
         "highlight_nodes": [],
@@ -312,9 +335,11 @@ def _unknown_result() -> dict:
         "type": "unknown",
         "text": (
             "I couldn't understand your question. Try one of:\n\n"
-            '- **"What is Autophagy?"** — explain a concept\n'
-            '- **"How does Rapamycin relate to mTOR?"** — find a path\n'
-            '- **"Key nodes in longevity research"** — query the graph'
+            '- **explain** — *"What is Autophagy?"*\n'
+            '- **path** — *"How does Rapamycin relate to mTOR?"*\n'
+            '- **trace** — *"Trace from CD38 via NAD+ to SIRT1"*\n'
+            '- **query** — *"Key nodes in longevity research"*\n\n'
+            "Or switch **Graphify** off to answer from the wiki instead."
         ),
         "highlight_nodes": [],
         "highlight_edges": [],
@@ -375,8 +400,12 @@ async def execute_stream(request: ExecuteRequest):
         request.from_node = sanitize_node_name(request.from_node)
     if request.to_node:
         request.to_node = sanitize_node_name(request.to_node)
+    if request.nodes:
+        request.nodes = [
+            n for n in (sanitize_node_name(x) for x in request.nodes[:8]) if n
+        ]
 
-    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path"}
+    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "trace"}
     if request.intent not in ALLOWED_INTENTS:
         async def _unknown():
             yield _sse({"type": "text", "text": _unknown_result()["text"]})
@@ -434,13 +463,15 @@ async def execute_stream(request: ExecuteRequest):
         result = graph_explain(request.node)
     elif request.intent == "path" and request.from_node and request.to_node:
         result = graph_path(request.from_node, request.to_node)
+    elif request.intent == "trace" and request.nodes and len(request.nodes) >= 2:
+        result = graph_trace(request.nodes)
     else:
         result = _unknown_result()
 
     if (
         request.lang
         and request.lang != "en"
-        and request.intent in ("query", "explain", "path")
+        and request.intent in ("query", "explain", "path", "trace")
     ):
         result["text"] = await translate_text(result["text"], request.lang)
 

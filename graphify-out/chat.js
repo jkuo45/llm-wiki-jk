@@ -25,6 +25,9 @@ const chatMaximizeBtn = document.getElementById('chat-maximize');
 const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
 const chatHighlightBadge = document.getElementById('chat-highlight-badge');
+const chatModes = document.getElementById('chat-modes');
+const graphifyCheckbox = document.getElementById('graphify-checkbox');
+const graphifyOps = document.getElementById('graphify-ops');
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
 const INTENT_API = `${API_BASE}/api/intent`;
@@ -44,6 +47,50 @@ let chatHistory = [];
 // keeps follow-up questions in the same conversation without re-uploading the
 // whole transcript on every request.
 let chatSessionId = null;
+
+// ------------------------------------------------------------
+// Graphify routing switch
+// ------------------------------------------------------------
+// Checked (default): every turn is routed through a graphify graph operation
+// (explain / trace / path / query). Unchecked: the turn is answered from the
+// wiki by the chat model, even if the text happens to say "graphify".
+// The switch resets to on with the rest of the session state on reload.
+const OP_TEMPLATES = {
+  explain: { text: 'Explain ', caret: null },
+  trace: { text: 'Trace from  via  to ', caret: 11 },
+  path: { text: 'Path from  to ', caret: 10 },
+};
+
+function graphifyEnabled() {
+  return !!(graphifyCheckbox && graphifyCheckbox.checked);
+}
+
+function syncGraphifyUI() {
+  const on = graphifyEnabled();
+  chatModes.classList.toggle('graphify-off', !on);
+  chatInput.placeholder = on
+    ? 'Ask the graph — explain, trace, path'
+    : 'Ask the wiki';
+}
+
+graphifyCheckbox.addEventListener('change', () => {
+  syncGraphifyUI();
+  chatInput.focus();
+});
+
+// Op chips prefill an operation template so the three graph ops stay discoverable.
+graphifyOps.addEventListener('click', (e) => {
+  const btn = e.target.closest('.graphify-op');
+  if (!btn) return;
+  const tpl = OP_TEMPLATES[btn.dataset.op];
+  if (!tpl) return;
+  chatInput.value = tpl.text;
+  chatInput.focus();
+  const pos = tpl.caret === null ? tpl.text.length : tpl.caret;
+  chatInput.setSelectionRange(pos, pos);
+});
+
+syncGraphifyUI();
 
 chatBtn.addEventListener('click', () => {
   chatOpen = !chatOpen;
@@ -303,7 +350,11 @@ async function sendChatMessage() {
     const intentResp = await fetch(INTENT_API, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: clean, session_id: chatSessionId }),
+      body: JSON.stringify({
+        message: clean,
+        session_id: chatSessionId,
+        graphify: graphifyEnabled(),
+      }),
     });
 
     if (!intentResp.ok) {
@@ -321,7 +372,7 @@ async function sendChatMessage() {
     // Update indicator only when a translation pass will actually run. Chat
     // turns answer in the user's language natively, so no translation step.
     const willTranslate = intentData.lang && intentData.lang !== 'en'
-      && ['query', 'explain', 'path'].includes(intentData.intent);
+      && ['query', 'explain', 'path', 'trace'].includes(intentData.intent);
     if (willTranslate) {
       typingDiv.querySelector('#typing-label').textContent = 'Translating';
     }
@@ -497,6 +548,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
         node: intentData.node,
         from_node: intentData.from_node,
         to_node: intentData.to_node,
+        nodes: intentData.nodes,
         message: intentData.message,
         session_id: chatSessionId,
       }),
@@ -537,11 +589,12 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
   if (typingTimerId) clearInterval(typingTimerId);
 
-  const badge = 'graphify';
+  // Badge names the graph op that produced the answer (explain / trace / path / query).
+  const op = ['query', 'explain', 'path', 'trace'].includes(intentData.intent)
+    ? intentData.intent : null;
   const div = document.createElement('div');
   div.className = 'chat-msg bot';
-  let html = '';
-  if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
+  let html = `<span class="chat-badge graphify">${op ? `graphify · ${op}` : 'graphify'}</span>`;
   const secs = ((performance.now() - typingStart) / 1000);
   html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
   html += formatBotMessage(textBuf);
@@ -578,20 +631,20 @@ chatInput.addEventListener('input', () => {
 // Suggestion chips
 // ------------------------------------------------------------
 const SUGGESTION_SETS = [
-  ["Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop", "How does NAD+ decline drive the SASP and what can SIRT1 do about it?", "Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？"],
-  ["Graphify trace from CD38 to NAD+ to SIRT1 and how this axis degrades with age", "Do SIRT1 and SIRT6 differ in how they restrain senescence and SASP?", "為什麼 NAD+ 會隨年齡下降，Sirtuins 如何參與這個過程？"],
-  ["Graphify trace from Cellular Senescence to SASP to Inflammaging", "What distinguishes a senescent cell from a quiescent cell at the molecular level?", "Senolytics 與 senomorphic 在清除衰老細胞的策略上有何不同？"],
-  ["Graphify trace from Adrenochrome to Inflammaging via the miR-217 epigenetic bridge", "Does adrenochrome push cells into senescence through the SASP, and which microRNAs mediate that?", "腎上腺素氧化與衰老分泌表型之間有哪些已知的連結？"],
-  ["Graphify trace from SIRT1 to TFEB to Mitophagy and its role in clearing senescent mitochondria", "Why does SIRT1 fall during replicative senescence, and can NAD+ repletion restore its activity?", "Sirtuins 如何透過自噬與粒線體恆定來延緩細胞衰老？"],
-  ["Graphify trace from Oxidative Stress through Sirtuins to Mitohormesis", "Can low-dose catecholamine oxidation products trigger a hormetic NRF2/PGC1A response that Sirtuins amplify?", "Sirtuins 對抗腎上腺素氧化損傷的分子機制是什麼？"],
-  ["Graphify trace from NAD+ to BNIP3 mitophagy and how this intersects with senescence", "How does CD38-mediated NAD+ depletion link microglial inflammation to neuronal senescence?", "為什麼 SIRT1 活化需要足夠的 NAD+，而 CD38 會打破這個平衡？"],
-  ["Graphify trace from Adrenochrome to Foam Cells via lipophagy and atherosclerosis", "How does neuromelanin formation relate to catecholamine oxidation, COMT genotype, and oxidative stress?", "腎上腺素氧化產物如何影響巨噬細胞與動脈粥樣硬化？"],
+  ["Trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop", "How does NAD+ decline drive the SASP and what can SIRT1 do about it?", "Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？"],
+  ["Trace from CD38 to NAD+ to SIRT1 and how this axis degrades with age", "Do SIRT1 and SIRT6 differ in how they restrain senescence and SASP?", "為什麼 NAD+ 會隨年齡下降，Sirtuins 如何參與這個過程？"],
+  ["Trace from Cellular Senescence to SASP to Inflammaging", "What distinguishes a senescent cell from a quiescent cell at the molecular level?", "Senolytics 與 senomorphic 在清除衰老細胞的策略上有何不同？"],
+  ["Trace from Adrenochrome to Inflammaging via the miR-217 epigenetic bridge", "Does adrenochrome push cells into senescence through the SASP, and which microRNAs mediate that?", "腎上腺素氧化與衰老分泌表型之間有哪些已知的連結？"],
+  ["Trace from SIRT1 to TFEB to Mitophagy and its role in clearing senescent mitochondria", "Why does SIRT1 fall during replicative senescence, and can NAD+ repletion restore its activity?", "Sirtuins 如何透過自噬與粒線體恆定來延緩細胞衰老？"],
+  ["Trace from Oxidative Stress through Sirtuins to Mitohormesis", "Can low-dose catecholamine oxidation products trigger a hormetic NRF2/PGC1A response that Sirtuins amplify?", "Sirtuins 對抗腎上腺素氧化損傷的分子機制是什麼？"],
+  ["Trace from NAD+ to BNIP3 mitophagy and how this intersects with senescence", "How does CD38-mediated NAD+ depletion link microglial inflammation to neuronal senescence?", "為什麼 SIRT1 活化需要足夠的 NAD+，而 CD38 會打破這個平衡？"],
+  ["Trace from Adrenochrome to Foam Cells via lipophagy and atherosclerosis", "How does neuromelanin formation relate to catecholamine oxidation, COMT genotype, and oxidative stress?", "腎上腺素氧化產物如何影響巨噬細胞與動脈粥樣硬化？"],
 ];
 let suggestionIndex = 1;
 
 function defaultSuggestionsHTML() {
   return `
-    <button class="chat-suggestion" data-query="Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop">Graphify trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop</button>
+    <button class="chat-suggestion" data-query="Trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop">Trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop</button>
     <button class="chat-suggestion" data-query="How does NAD+ decline drive the SASP and what can SIRT1 do about it?">How does NAD+ decline drive the SASP and what can SIRT1 do about it?</button>
     <button class="chat-suggestion" data-query="Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？">Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？</button>
     <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>

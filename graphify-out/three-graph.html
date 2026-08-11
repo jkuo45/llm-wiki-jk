@@ -93,6 +93,18 @@
     </div>
   </div>
   <div id="chat-messages"></div>
+  <div id="chat-modes">
+    <label id="graphify-toggle" title="On: run graph operations (explain / trace / path). Off: answer from the wiki.">
+      <input type="checkbox" id="graphify-checkbox" checked>
+      <span>Graphify</span>
+    </label>
+    <div id="graphify-ops" role="group" aria-label="Graphify operations">
+      <button type="button" class="graphify-op" data-op="explain" title="Deep dive on one node / 解釋單一節點">explain</button>
+      <button type="button" class="graphify-op" data-op="trace" title="Multi-hop route through waypoints / 多段路徑追蹤">trace</button>
+      <button type="button" class="graphify-op" data-op="path" title="Shortest link between two nodes / 兩節點最短路徑">path</button>
+    </div>
+    <span id="graphify-off-hint">Wiki retrieval</span>
+  </div>
   <div id="chat-input-wrap">
     <textarea id="chat-input" rows="1" placeholder="Enter prompt" maxlength="500"></textarea>
     <button id="chat-send" title="Send">Send</button>

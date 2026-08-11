@@ -304,10 +304,14 @@ ALSO detect the language of the user's message and include it as "lang" (use BCP
 2. explain - user wants to understand a specific concept/node
    Response: {"intent": "explain", "node": "<node name>", "lang": "<detected language>"}
 
-3. path - user wants to find a connection between two concepts
+3. path - user wants the connection between EXACTLY TWO concepts
    Response: {"intent": "path", "from": "<node A>", "to": "<node B>", "lang": "<detected language>"}
 
-4. unknown - cannot classify
+4. trace - user wants a route through THREE OR MORE concepts, or names intermediate
+   waypoints ("through", "via", "->", "then"), or asks to walk/trace a chain hop by hop
+   Response: {"intent": "trace", "nodes": ["<node A>", "<node B>", "<node C>"], "lang": "<detected language>"}
+
+5. unknown - cannot classify
    Response: {"intent": "unknown", "lang": "<detected language>"}
 
 Examples:
@@ -315,6 +319,8 @@ Examples:
 - "自噬是什麼？" -> {"intent": "explain", "node": "Autophagy", "lang": "zh-TW"}
 - "How does rapamycin relate to mTOR?" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "en"}
 - "雷帕霉素和mTOR有什么关系？" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "zh-CN"}
+- "trace from Adrenochrome through Sirtuins to Cellular Senescence" -> {"intent": "trace", "nodes": ["Adrenochrome", "Sirtuins", "Cellular Senescence"], "lang": "en"}
+- "從 CD38 經 NAD+ 追蹤到 SIRT1" -> {"intent": "trace", "nodes": ["CD38", "NAD+", "SIRT1"], "lang": "zh-TW"}
 - "hello" -> {"intent": "unknown", "lang": "en"}
 - "你好" -> {"intent": "unknown", "lang": "zh-TW"}
 

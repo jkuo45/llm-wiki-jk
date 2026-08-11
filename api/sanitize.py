@@ -11,6 +11,7 @@ import re
 
 MAX_INPUT_LENGTH = 500
 MAX_NODE_NAME_LENGTH = 200
+MAX_TRACE_NODES = 8
 
 _HTML_TAG_RE = re.compile(r"<[^>]+>")
 _CONTROL_CHAR_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
@@ -73,5 +74,29 @@ def validate_intent(intent: dict) -> dict:
         if not from_node or not to_node:
             return {"intent": "unknown"}
         return {"intent": "path", "from": from_node, "to": to_node}
+
+    if raw_intent == "trace":
+        raw_nodes = intent.get("nodes")
+        if not isinstance(raw_nodes, list):
+            # Tolerate a from/via/to shape from the classifier.
+            raw_nodes = [
+                intent.get("from"),
+                *(
+                    intent.get("via")
+                    if isinstance(intent.get("via"), list)
+                    else [intent.get("via")]
+                ),
+                intent.get("to"),
+            ]
+        nodes = []
+        for raw in raw_nodes[:MAX_TRACE_NODES]:
+            if not isinstance(raw, str):
+                continue
+            node = sanitize_node_name(raw)
+            if node:
+                nodes.append(node)
+        if len(nodes) < 2:
+            return {"intent": "unknown"}
+        return {"intent": "trace", "nodes": nodes}
 
     return {"intent": "unknown"}
