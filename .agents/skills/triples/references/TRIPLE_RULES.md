@@ -20,8 +20,7 @@ Each triple is a JSON object with the following fields:
 | `subject`    | string | The source entity (normalized to canonical name)                     |
 | `predicate`  | string | The relationship verb (present tense, lowercase)                     |
 | `object`     | string | The target entity (normalized to canonical name)                     |
-| `context`    | string | Brief quote or explanation grounding the triple in the source text. Aim for short paragraph.   |
-| `confidence` | float | 0.95, 0.75, 0.25, etc.                                    |
+| `context`    | string | Explanation grounding the triple in the source text.    |
 
 ## Predicate Naming
 
