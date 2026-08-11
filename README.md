@@ -47,13 +47,14 @@
 	- 📊 [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[task_output_cr_vs_spermidine_autophagy_15_July_2026|wiki]] [[task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW|wiki(zh-TW)]]
 		- Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
 		- 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
-- 🔎 Graphify queries: path, explain, trace
+- 🔎 Graphify queries: path, explain, trace:
     - https://github.com/Graphify-Labs/graphify
 	- https://graph.johnnykuo.com/
     - https://api.johnnykuo.com/health
     - 🔬 Explain (`graphify explain "Entity"`): surfaces a single entity's context - Use to inspect one gene/protein/disease node and understand its immediate biological environment.
     - 🛤️ Path (`graphify path "A" "B"`): traces the explicit hop-by-hop chain between two entities. Use to see how distant concepts connect, e.g., from a receptor/signaling node down to a downstream metabolic or disease node.
     - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.
+    - 🀄️ (zh-TW): 三種知識圖譜查詢方式：Explain（解釋單一實體的來源位置、連結與社群）；Path（追蹤兩實體間一步步的關聯鏈）；Query/Trace（以自然語言或BFS檢索符合概念的相關節點子圖）。
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
     - [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
     - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
