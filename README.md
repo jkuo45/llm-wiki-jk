@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 11_AUG_2026 | 30 | 1571 | 913,630 | 7.90 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 09_AUG_2026 | 19 | 262 | 200,415 | 2.24 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 11_AUG_2026 | 30 | 1571 | 917,899 | 7.93 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 11_AUG_2026 | 19 | 262 | 200,668 | 2.24 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 09_AUG_2026 | 12 | 233 | 181,011 | 1.54 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 09_AUG_2026 | 11 | 269 | 236,369 | 2.44 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_AUG_2026 | 11 | 269 | 236,901 | 2.45 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 09_AUG_2026 | 2 | 34 | 20,917 | 0.30 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 09_AUG_2026 | 9 | 195 | 198,594 | 1.75 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 09_AUG_2026 | 1 | 65 | 68,205 | 0.91 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 11_AUG_2026 | 1 | 65 | 68,432 | 0.91 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 09_AUG_2026 | 15 | 47 | 144,775 | 1.85 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 09_AUG_2026 | 12 | 130 | 225,694 | 2.25 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 11_AUG_2026 | 12 | 130 | 230,673 | 2.30 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 11_AUG_2026 | **113** | **2879** | **2,243,287** | **21.78 MB** |
+| **subtotal** | 11_AUG_2026 | **113** | **2879** | **2,253,547** | **21.87 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
