@@ -30,9 +30,9 @@ const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const graphifyOps = document.getElementById('graphify-ops');
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
-const INTENT_API = `${API_BASE}/api/intent`;
-const EXECUTE_STREAM_API = `${API_BASE}/api/execute/stream`;
-const SESSION_RESET_API = `${API_BASE}/api/session/reset`;
+const INTENT_API = `${API_BASE}/intent`;
+const EXECUTE_STREAM_API = `${API_BASE}/execute/stream`;
+const SESSION_RESET_API = `${API_BASE}/session/reset`;
 
 let chatOpen = false;
 let chatBusy = false;
