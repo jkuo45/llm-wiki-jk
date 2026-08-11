@@ -15,7 +15,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 09_AUG_2026 | 15 | 47 | 144,775 | 1.85 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 09_AUG_2026 | 12 | 130 | 225,694 | 2.25 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 27_JUL_2026 | **113** | **2879** | **2,243,287** | **21.78 MB** |
+| **subtotal** | 11_AUG_2026 | **113** | **2879** | **2,243,287** | **21.78 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -36,13 +36,24 @@
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
+- 📝 Sirtuins disease complications task output:
+    - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
+        - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
+        - 🀄️ (zh-TW): 從去乙醯酶綜述（s41392-022-01257-8）整理的逐SIRT疾病全景——每個去乙醯酶（SIRT1–SIRT7）一個章節，列出其牽涉的每一種疾病/併發症、所扮演角色（保護性/有害性/雙重性）、表現變化與機制。
+    - [task_output_sirtuins_disease_complications_11_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md) [[task_output_sirtuins_disease_complications_11_August_2026|wiki]]
+        - Complication-by-complication excerpt compilation from the same review — organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic/biomarker value, and their mechanistic role in each condition.
+        - 🀄️ (zh-TW): 同一篇綜述的逐併發症彙編——依疾病系統與併發症分類，顯示各SIRT的上調/下調情形、其預後/生物標記價值，以及各疾病中的機制角色。
 - ℹ️ Caloric Restriction/Spermidine/Rapamycin (trace):
 	- 📊 [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[task_output_cr_vs_spermidine_autophagy_15_July_2026|wiki]] [[task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW|wiki(zh-TW)]]
-	- Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
-	- 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
-- 🔎 Graphify directed graph - query knowledge graph (trace nodes)
-	- https://github.com/Graphify-Labs/graphify
+		- Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
+		- 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
+- 🔎 Graphify queries: path, explain, trace
+    - https://github.com/Graphify-Labs/graphify
 	- https://graph.johnnykuo.com/
+    - https://api.johnnykuo.com/health
+    - 🔬 Explain (`graphify explain "Entity"`): surfaces a single entity's context - Use to inspect one gene/protein/disease node and understand its immediate biological environment.
+    - 🛤️ Path (`graphify path "A" "B"`): traces the explicit hop-by-hop chain between two entities. Use to see how distant concepts connect, e.g., from a receptor/signaling node down to a downstream metabolic or disease node.
+    - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
     - [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
     - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
