@@ -786,7 +786,7 @@
   {
     "subject": "SIRT3",
     "predicate": "is associated with",
-    "object": "COVID-19 Outcome",
+    "object": "COVID-19",
     "context": "Serum SIRT3 levels are associated with clinical outcome and prognosis in COVID-19, being markedly lower in severe patients. This positions serum SIRT3 as a potential prognostic biomarker that reflects mitochondrial health and antioxidant reserve during systemic viral inflammation, analogous to its diagnostic value in lung cancer.",
     "confidence": "0.85",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1186,7 +1186,15 @@
   {
     "subject": "SIRT6",
     "predicate": "inactivates",
-    "object": "TGFβ1/Smad2",
+    "object": "TGFβ",
+    "context": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inactivates",
+    "object": "SMAD2",
     "context": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
     "confidence": "0.85",
     "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
@@ -1202,7 +1210,7 @@
   {
     "subject": "SIRT2",
     "predicate": "prevents",
-    "object": "NAFLD",
+    "object": "Non-alcoholic Fatty Liver Disease",
     "context": "SIRT2 prevents NAFLD by deacetylating hepatocyte nuclear factor 4 alpha, but is deleterious in hepatic fibrosis through the SIRT2/ERK/c-Myc axis. SIRT4 upregulation inhibits high-fat-diet-induced lipid accumulation, inflammation, and fibrogenesis via the SIRT4/Smad4 axis, though SIRT4 is harmful in NAFLD by destabilizing mitochondrial trifunctional protein alpha.",
     "confidence": "0.85",
     "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
@@ -1250,7 +1258,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "Beclin-1",
+    "object": "Beclin1",
     "context": "SIRT1 enhances beneficial autophagy in Alzheimer's disease by deacetylating Beclin-1, and in Parkinson's disease it ameliorates LC3-deacetylation-mediated autophagic degradation of alpha-synuclein to improve motor defects. Pro-autophagic SIRT1 action thereby helps clear pathological protein aggregates in neurodegeneration.",
     "confidence": "0.85",
     "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
