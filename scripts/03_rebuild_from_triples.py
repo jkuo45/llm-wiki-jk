@@ -115,6 +115,11 @@ def resolve_conf(t: dict) -> tuple[float, str]:
         score = float(c)
         conf = "EXTRACTED" if score >= CONF_RANK["EXTRACTED"] else "AMBIGUOUS"
         return score, conf
+    # String numeric confidence (e.g. "0.95"): parse and use directly.
+    if isinstance(c, str) and c.replace(".", "", 1).isdigit():
+        score = float(c)
+        conf = "EXTRACTED" if score >= CONF_RANK["EXTRACTED"] else "AMBIGUOUS"
+        return score, conf
     return CONF_MAP.get(c, (0.75, "EXTRACTED"))
 
 
