@@ -4038,5 +4038,797 @@
     "context": "SIRT6 regulates macrophage polarization to alleviate sepsis-induced acute respiratory distress syndrome via dual mechanisms that are both dependent on and independent of autophagy. Directionally, SIRT6 sits upstream of anti-inflammatory macrophage phenotypes in lung injury. By steering macrophages away from proinflammatory states, SIRT6 dampens the excessive inflammatory response that drives ARDS, while its autophagy-related actions support cellular quality control. This coordinated regulation helps limit lung damage during sepsis.",
     "confidence": "0.95",
     "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SNHG10",
+    "predicate": "upregulates",
+    "object": "SIRT1",
+    "context": "The long noncoding RNA SNHG10 upregulates the tumor-suppressive sirtuin SIRT1 in non-small-cell lung cancer by sponging miR-543, relieving microRNA-mediated repression of SIRT1 expression. Directionally, SNHG10 acts upstream of SIRT1 abundance in the NSCLC ceRNA network. By sequestering miR-543, SNHG10 raises SIRT1 levels, and this upregulation underlies the lncRNA's tumor-suppressive activity in lung cancer. The finding highlights how noncoding RNAs can tune sirtuin expression and thereby influence the balance between tumor suppression and tumor promotion in specific cancer contexts.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "NSCLC cell proliferation",
+    "context": "SIRT1, when upregulated by the long noncoding RNA SNHG10, suppresses proliferation of non-small-cell lung cancer cells, acting as a tumor suppressor in this context. Directionally, SIRT1 sits upstream of restrained NSCLC growth. This tumor-suppressive role of SIRT1 in lung cancer contrasts with the oncogenic functions SIRT1 displays in other settings, underscoring the strong context dependence of sirtuin biology. The finding implicates SIRT1 as a mediator of SNHG10's anti-proliferative effects and suggests that sustaining SIRT1 expression may limit NSCLC cell expansion.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "circ_0001946",
+    "predicate": "upregulates",
+    "object": "SIRT1",
+    "context": "The circular RNA circ_0001946 upregulates SIRT1, and the resulting SIRT1 activity promotes cell growth in lung adenocarcinoma by activating the Wnt/β-catenin signaling pathway. Directionally, circ_0001946 sits upstream of SIRT1 upregulation, which in turn drives oncogenic Wnt signaling. This represents a tumor-promoting axis in lung adenocarcinoma that is opposite to the tumor-suppressive SIRT1 effect mediated by SNHG10 in NSCLC, illustrating how different noncoding RNAs can direct SIRT1 toward opposing outcomes in the same tissue.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes cell growth via",
+    "object": "Wnt/β-catenin signaling in lung adenocarcinoma",
+    "context": "SIRT1, upregulated by circ_0001946, promotes cell growth in lung adenocarcinoma by activating the Wnt/β-catenin signaling pathway. Directionally, SIRT1 sits upstream of β-catenin-driven proliferation in this lung cancer subtype. This oncogenic SIRT1 function contrasts with the tumor-suppressive anti-proliferative effect SIRT1 exerts in non-small-cell lung cancer when induced by SNHG10, demonstrating that SIRT1's role in lung cancer depends on the tumor subtype and the signaling context.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "protects NSCLC cells against",
+    "object": "osteopontin-induced NF-κB p65 acetylation and EMT",
+    "context": "Overexpression of SIRT1 protects non-small-cell lung cancer cells against osteopontin-induced NF-κB p65 acetylation and epithelial-to-mesenchymal transition, thereby attenuating osteopontin-driven cell proliferation, migration, and invasion. Directionally, SIRT1 sits upstream of dampened NF-κB signaling and EMT in response to the pro-metastatic cytokine osteopontin. By deacetylating p65 and restraining EMT, SIRT1 limits the invasive and proliferative program that osteopontin triggers in NSCLC cells, supporting a tumor-suppressive role in this context.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "phosphoglycerate mutase (K100)",
+    "context": "SIRT2 deacetylates the K100 residue of the glycolytic enzyme phosphoglycerate mutase and facilitates its activation, which results in enhanced NADPH production and accelerated tumor growth in non-small-cell lung cancer cells. Directionally, SIRT2 enzymatic modification of phosphoglycerate mutase sits upstream of increased glycolytic flux and anabolic support for tumor growth. This oncogenic action of SIRT2 in lung cancer contrasts with its tumor-suppressive deacetylation of AKR1C1 in the same disease, illustrating the context dependence of SIRT2's cancer-related functions.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1 silencing",
+    "predicate": "enhances",
+    "object": "cisplatin sensitivity via autophagy suppression",
+    "context": "Silencing of SIRT1 enhances the cisplatin sensitivity of H1299/cisplatin non-small-cell lung cancer cells by suppressing autophagy. Directionally, SIRT1 loss sits upstream of reduced autophagic survival signaling and increased susceptibility to cisplatin. Because autophagy can protect cancer cells from chemotherapy-induced damage, its suppression re-sensitizes resistant NSCLC cells to cisplatin. This identifies SIRT1 inhibition as a potential strategy to overcome platinum resistance in lung cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT2 upregulation",
+    "predicate": "increases",
+    "object": "cisplatin sensitivity in NSCLC",
+    "context": "Upregulation of SIRT2 in non-small-cell lung cancer cells increases their sensitivity to cisplatin treatment, while the opposite modulation reduces responsiveness. Directionally, SIRT2 levels sit upstream of platinum chemosensitivity in NSCLC. Higher SIRT2 expression renders tumor cells more vulnerable to cisplatin-induced killing, suggesting that SIRT2 activity could be exploited to improve the efficacy of platinum-based therapy in lung cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "reduces",
+    "object": "cisplatin resistance in lung cancer",
+    "context": "SIRT3 reduces cisplatin resistance in lung cancer by modulating the FoxO3/Cdc10-dependent transcript 1 protein axis. Directionally, SIRT3 sits upstream of restored platinum sensitivity in drug-resistant lung cancer cells. By acting through the FoxO3/CDT1 pathway, SIRT3 counteracts the survival adaptations that underlie cisplatin resistance, making SIRT3 activation a candidate strategy to re-sensitize resistant lung tumors to platinum-based chemotherapy.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "Serum SIRT3",
+    "predicate": "distinguishes",
+    "object": "lung cancer patients from healthy individuals",
+    "context": "Serum SIRT3 distinguishes lung cancer patients from healthy individuals with an area under the curve of 0.918, an optimal cutoff value of 3.12, a sensitivity of 86.4%, and a specificity of 94%. Directionally, serum SIRT3 levels serve as a diagnostic biomarker for lung cancer. The high accuracy of SIRT3 in discriminating cancer patients supports its use as a blood-based marker for lung cancer screening or early detection, complementing SIRT expression differences observed between tumor and non-tumor lung tissue.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "suppresses HCC development via",
+    "object": "bile acid metabolism orchestration",
+    "context": "SIRT5 prevents tumor immune evasion and suppresses the development of hepatocellular carcinoma by orchestrating bile acid metabolism. Directionally, SIRT5 sits upstream of anti-tumor immunity and restrained HCC growth. By shaping the bile acid milieu, SIRT5 influences the immune microenvironment of the liver tumor, reducing the ability of HCC to evade immune destruction. This tumor-suppressive metabolic function contrasts with SIRT5's glycolysis-reprogramming role that can promote HCC growth, reflecting SIRT5's context-dependent effects in liver cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "promotes",
+    "object": "HCC growth and metastasis via glycolysis reprogramming",
+    "context": "Activation of mitochondrial SIRT5 promotes the growth and metastasis of hepatocellular carcinoma cells via glucose metabolism reprogramming from oxidative phosphorylation to glycolysis. Directionally, SIRT5 sits upstream of the glycolytic switch that fuels liver cancer progression. By favoring glycolysis, SIRT5 supplies the biosynthetic and bioenergetic demands of rapidly growing HCC cells, supporting tumor aggressiveness. This oncogenic role is opposed by SIRT5's bile-acid-metabolism-mediated suppression of HCC, underscoring the dual, context-dependent functions of SIRT5 in liver cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1 and SIRT6",
+    "predicate": "deacetylate",
+    "object": "hnRNP A1 to suppress glycolysis and growth in HCC",
+    "context": "SIRT1 and SIRT6 deacetylate the RNA-binding protein hnRNP A1 to suppress glycolysis and growth in hepatocellular carcinoma. Directionally, SIRT1 and SIRT6 sit upstream of hnRNP A1 deacetylation, which curtails glycolytic gene expression and tumor growth. By restraining the glycolytic program through hnRNP A1, these nuclear sirtuins act as metabolic tumor suppressors in HCC, opposing the aerobic glycolysis that supports cancer cell proliferation.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "attenuates HCC glycolysis when",
+    "object": "stabilized by USP48",
+    "context": "SIRT6, stabilized by the deubiquitinase USP48, attenuates glycolysis in hepatocellular carcinoma and impedes metabolic reprogramming, thereby hampering HCC malignancy. Directionally, USP48-dependent stabilization of SIRT6 sits upstream of suppressed glycolytic metabolism and reduced tumor aggressiveness. By maintaining SIRT6 protein levels, USP48 sustains SIRT6-mediated repression of glycolysis, preventing the metabolic shift that fuels liver cancer growth. This identifies the USP48-SIRT6 axis as a potential therapeutic node in HCC.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "dose-dependently regulates",
+    "object": "colorectal cancer via glutamine metabolism and apoptosis",
+    "context": "SIRT1 affects colorectal cancer in a dose-dependent manner by regulating glutamine metabolism and apoptotic pathways. Heterozygous deletion of SIRT1 induces c-Myc expression, enhancing glutamine metabolism, proliferation, autophagy, and cancer formation, whereas homozygous deletion triggers apoptosis, increases cell death, diminishes autophagy, and reduces cancer formation. Directionally, SIRT1 expression level sits upstream of opposing metabolic and survival outcomes in CRC, explaining the dual roles of SIRT1 in colorectal tumorigenesis.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "improves anticancer drug resistance of CRC via",
+    "object": "SOD2 and PGC-1α regulation",
+    "context": "Overexpression of SIRT3 improves the resistance of colorectal cancer cells to anticancer drugs through regulation of superoxide dismutase 2 and PGC-1α. Directionally, SIRT3 sits upstream of SOD2- and PGC-1α-dependent protective responses in CRC. By enhancing antioxidant and mitochondrial programs, SIRT3 reduces the vulnerability of CRC cells to chemotherapeutic agents, contributing to drug resistance. This resistance-promoting role should be weighed when considering SIRT3-targeted cancer therapy.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "increases CRC sensitivity to",
+    "object": "5-fluorouracil by inhibiting the cell cycle",
+    "context": "SIRT4 increases the sensitivity of colorectal cancer cells to the chemotherapeutic drug 5-fluorouracil by inhibiting the cell cycle. Directionally, SIRT4 sits upstream of cell-cycle arrest, which primes CRC cells for 5-fluorouracil-induced killing. By restraining proliferation, SIRT4 enhances the cytotoxic effect of the drug, suggesting that SIRT4 expression status could predict or improve responses to 5-fluorouracil-based therapy in colorectal cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1 upregulation",
+    "predicate": "enhances",
+    "object": "CRC radioresistance via β-catenin",
+    "context": "FoxQ1-mediated SIRT1 upregulation augments the expression and nuclear translocation of β-catenin and benefits CRC-related intestinal pathological bacteria, thereby enhancing the radioresistance of colorectal cancer cells. Directionally, SIRT1 upregulation sits upstream of β-catenin-driven survival and radiation resistance in CRC. By promoting β-catenin signaling, SIRT1 helps colorectal cancer cells survive ionizing radiation, which has implications for combining SIRT1 inhibition with radiotherapy to improve treatment outcomes.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1 depletion",
+    "predicate": "promotes",
+    "object": "gastric cancer progression via STAT3/MMP-13",
+    "context": "SIRT1 depletion promotes gastric cancer progression through activation of the STAT3/MMP-13 signaling pathway. Directionally, SIRT1 loss sits upstream of STAT3- and MMP-13-driven tumor progression in gastric cancer. Because SIRT1 normally restrains this pathway, its depletion unleashes STAT3 activation and MMP-13 expression, accelerating GC growth and invasion. This positions SIRT1 as a tumor suppressor in gastric cancer and identifies STAT3/MMP-13 signaling as a downstream mediator of SIRT1's protective effect.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "enhances cisplatin sensitivity in",
+    "object": "cisplatin-resistant ovarian cancer cells",
+    "context": "Overexpression of SIRT2 significantly enhances the sensitivity of cisplatin-resistant counterpart ovarian cancer cells to cisplatin. Directionally, SIRT2 sits upstream of restored platinum sensitivity in resistant ovarian cancer cells. By increasing the vulnerability of these cells to cisplatin, SIRT2 may help overcome platinum resistance, a major obstacle in ovarian cancer treatment. This suggests that strategies to augment SIRT2 activity could improve the efficacy of cisplatin-based therapy in resistant disease.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "suppresses OC migration, invasion and angiogenesis via",
+    "object": "HMGB1 suppression",
+    "context": "SIRT1 expression suppresses the expression and acetylation of high-mobility group box 1 protein, thereby inhibiting migration, invasion, and angiogenesis of ovarian cancer cells. Directionally, SIRT1 sits upstream of reduced HMGB1-driven metastatic and angiogenic programs. By dampening HMGB1, SIRT1 limits the invasive and blood-supply-supporting behaviors of ovarian cancer cells, supporting a tumor-suppressive role and identifying the SIRT1-HMGB1 axis as a candidate therapeutic target in ovarian cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes",
+    "object": "endometrial cancer growth and cisplatin resistance",
+    "context": "SIRT1 promotes the growth and cisplatin resistance of endometrial cancer cells. Directionally, SIRT1 sits upstream of increased tumor-cell survival and reduced sensitivity to cisplatin in endometrial cancer. By supporting proliferative and survival programs, SIRT1 enables endometrial cancer cells to grow and to withstand platinum-based chemotherapy. This identifies SIRT1 as a potential therapeutic target for improving endometrial cancer treatment outcomes.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "promotes",
+    "object": "endometrial cancer stemness and chemoresistance via MEK/ERK",
+    "context": "SIRT2 promotes cell stemness and activates the MEK/ERK signaling pathway while repressing chemosensitivity in endometrial cancer. Directionally, SIRT2 sits upstream of stem-like phenotypes and MEK/ERK-dependent survival in endometrial cancer cells. By enhancing stemness and ERK signaling, SIRT2 supports tumor self-renewal and reduces responsiveness to chemotherapy. This makes SIRT2 inhibition a potential strategy to sensitize endometrial cancer to treatment.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1 inhibition",
+    "predicate": "increases",
+    "object": "glioma sensitivity to temozolomide via ROS",
+    "context": "SIRT1 inhibition increases the sensitivity of glioma cells to temozolomide through facilitation of intracellular reactive oxygen species generation. Directionally, SIRT1 inhibition sits upstream of elevated ROS and enhanced drug-induced cell death in glioma. By blocking SIRT1's protective anti-oxidant activity, glioma cells accumulate ROS that sensitize them to temozolomide, the standard chemotherapy for glioblastoma. Combining SIRT1 inhibition with temozolomide may therefore improve treatment efficacy in malignant glioma.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT3 overexpression",
+    "predicate": "reduces",
+    "object": "tamoxifen sensitivity in MTR-3 breast cancer cells",
+    "context": "SIRT3 overexpression in the breast cancer cell line MTR-3 reduces the sensitivity of the resistant cells to tamoxifen. Directionally, SIRT3 sits upstream of diminished responsiveness to endocrine therapy in breast cancer cells. By lowering tamoxifen sensitivity, SIRT3 may contribute to anti-estrogen resistance, complicating endocrine treatment of breast cancer. This is counterbalanced by SIRT4, which enhances tamoxifen sensitivity, highlighting opposing sirtuin functions in endocrine-resistant breast cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "enhances tamoxifen sensitivity of",
+    "object": "breast cancer cells",
+    "context": "SIRT4 enhances the tamoxifen sensitivity of breast cancer cells by inhibiting the STAT3 signaling pathway. Directionally, SIRT4 sits upstream of restored endocrine responsiveness in breast cancer. By suppressing STAT3 signaling, SIRT4 makes breast cancer cells more vulnerable to tamoxifen, in contrast to SIRT3 overexpression, which reduces tamoxifen sensitivity. This positions SIRT4 as a potential enhancer of anti-estrogen therapy efficacy in breast cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "AMPK activation",
+    "predicate": "reduces metadherin expression through",
+    "object": "SIRT1 activity in triple-negative breast cancer",
+    "context": "AMPK activation reduces the expression of the oncogenic protein metadherin through enhanced SIRT1 activity, acting independently of GSK-3β in triple-negative breast cancer. Directionally, AMPK activation sits upstream of SIRT1-driven repression of metadherin. Because metadherin promotes cancer progression, metastasis, and chemoresistance, its downregulation via the AMPK-SIRT1 axis represents a tumor-suppressive mechanism in triple-negative breast cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT7 depletion",
+    "predicate": "inhibits tumor growth via",
+    "object": "p38/MAPK signaling activation",
+    "context": "SIRT7 depletion inhibits tumor growth by activating p38/MAPK signaling in breast cancer. Directionally, SIRT7 loss sits upstream of p38/MAPK pathway activation, which suppresses tumor-cell expansion. Because SIRT7 normally restrains this growth-limiting signaling, its depletion unleashes p38/MAPK activity and curbs tumor growth. This positions SIRT7 as a tumor-promoting factor in breast cancer and identifies the p38/MAPK pathway as a downstream mediator.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1 knockdown",
+    "predicate": "sensitizes AML cells to",
+    "object": "tyrosine kinase inhibitor treatment",
+    "context": "Pharmacological targeting or RNAi-mediated knockdown of SIRT1 inhibits cell growth and sensitizes acute myeloid leukemia cells to tyrosine kinase inhibitor treatment. Directionally, SIRT1 loss sits upstream of enhanced drug sensitivity in AML. By restraining SIRT1-driven survival, AML cells become more responsive to tyrosine kinase inhibitors, suggesting that combining SIRT1 inhibition with TKI therapy could improve leukemia treatment outcomes.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "shSIRT6-induced DNA repair deficiency",
+    "predicate": "synergizes with",
+    "object": "NAMPT targeting in AML",
+    "context": "SIRT6 knockdown-induced DNA repair deficiencies are potently synergistic with NAMPT targeting in acute myeloid leukemia treatment, showing promising in vivo efficacy compared with monotherapy. Directionally, SIRT6 loss-driven DNA repair defects and NAMPT inhibition cooperate to kill AML cells. This dual strategy exploits two vulnerabilities, offering a rationale for combination-based treatments that outperform single-agent therapy in acute myeloid leukemia.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "enables HPV-infected cervical cancer cells to grow by nullifying",
+    "object": "AIM2 inflammasome-mediated immunity",
+    "context": "SIRT1 enables HPV-infected cervical cancer cells to continue growing by nullifying absent in melanoma 2 inflammasome-mediated immunity. Directionally, SIRT1 sits upstream of suppressed inflammasome signaling and immune clearance in cervical cancer. By inactivating the AIM2 inflammasome, SIRT1 helps HPV-infected cervical cancer cells evade innate immune surveillance, supporting their continued growth. This positions the SIRT1-AIM2 axis as a potential immunotherapeutic target in HPV-driven cervical cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "promotes cervical cancer invasion and metastasis via",
+    "object": "ACC1 upregulation-driven de novo lipogenesis",
+    "context": "SIRT3 contributes to the reprogramming of fatty acid synthesis by upregulating acetyl-coA carboxylase 1 to promote de novo lipogenesis through SIRT3 deacetylation, thereby promoting the invasion and metastasis of cervical cancer cells. Directionally, SIRT3 sits upstream of ACC1-driven de novo lipogenesis and metastatic behavior in cervical cancer. By enhancing lipid synthesis, SIRT3 supports the invasive and metastatic capabilities of cervical cancer cells, identifying SIRT3-ACC1 lipogenesis as a potential therapeutic target.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "MHY2245",
+    "predicate": "exerts antitumor activity against OC cells by blocking",
+    "object": "pyruvate kinase M2/mTOR pathway",
+    "context": "MHY2245, a new SIRT1 inhibitor, exerts antitumor activity against ovarian cancer cells by blocking the pyruvate kinase M2/mTOR pathway. Directionally, MHY2245 sits upstream of suppressed PKM2/mTOR signaling and reduced ovarian cancer cell survival. By inhibiting SIRT1 and consequently the PKM2/mTOR pathway, MHY2245 curbs tumor-cell metabolism and growth. This supports SIRT1 inhibition as a therapeutic strategy in ovarian cancer, where SIRT1 inhibition of HMGB1 also suppresses metastasis and angiogenesis.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT5 loss",
+    "predicate": "promotes pancreatic cancer cell proliferation via",
+    "object": "GOT1 acetylation",
+    "context": "SIRT5 expression is directly correlated with favorable prognosis in pancreatic cancer, as SIRT5 loss promotes glutamic-oxaloacetic transaminase 1 acetylation, thus promoting cell proliferation by enhancing glutamine and glutathione metabolism. Directionally, SIRT5 sits upstream of GOT1 deacetylation that restrains pancreatic cancer growth. When SIRT5 is lost, GOT1 acetylation rises, boosting glutamine and glutathione metabolism to drive proliferation. This identifies SIRT5 as a tumor suppressor in pancreatic cancer whose levels could inform prognosis.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT6 upregulation",
+    "predicate": "influences pancreatic cancer glycolysis, EMT and metastasis",
+    "object": "as regulated by KLF10",
+    "context": "Upregulation of SIRT6 by the tumor suppressor KLF10 activity influences glycolysis, epithelial-to-mesenchymal transition, and distant metastasis of pancreatic cancer cells. Directionally, KLF10-driven SIRT6 upregulation sits upstream of altered metabolic and invasive behaviors in pancreatic cancer. By modulating glycolysis and EMT, SIRT6 shapes the aggressiveness and metastatic capacity of pancreatic cancer cells, indicating that the KLF10-SIRT6 axis may serve as a therapeutic or prognostic target in pancreatic cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "facilitates chemoresistance of",
+    "object": "pancreatic cancer cells",
+    "context": "SIRT1 can facilitate chemoresistance of pancreatic cancer cells by regulating their adaptive response to chemotherapy-induced stress. Directionally, SIRT1 sits upstream of stress adaptation and reduced drug sensitivity in pancreatic cancer. By helping tumor cells adapt to chemotherapy-induced stress, SIRT1 enables pancreatic cancer cells to survive cytotoxic treatment. This identifies SIRT1 as a potential target to overcome chemoresistance in pancreatic cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "promotes cisplatin resistance in OC via",
+    "object": "Nrf2/HO-1-mediated ROS suppression",
+    "context": "SIRT5 can promote cisplatin resistance in ovarian cancer by suppressing DNA damage in a ROS-dependent manner via regulation of the Nrf2/Heme Oxygenase-1 pathway. Directionally, SIRT5 sits upstream of reduced ROS, diminished DNA damage, and enhanced survival of ovarian cancer cells treated with cisplatin. By activating Nrf2/HO-1-dependent antioxidant defense, SIRT5 protects ovarian cancer cells from platinum-induced damage, contributing to chemoresistance. This contrasts with SIRT2, whose overexpression enhances cisplatin sensitivity in resistant ovarian cancer cells.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  },
+  {
+    "subject": "Sirtuin deacetylation reaction",
+    "predicate": "produces",
+    "object": "NAM (nicotinamide) and O-acetyl-ADP-ribose",
+    "context": "Sirtuin-catalyzed deacetylation couples the cleavage of NAD+ to the removal of acetyl groups from lysine residues. Each round of deacetylation converts one molecule of NAD+ into nicotinamide (NAM) and O-acetyl-ADP-ribose. NAM then acts as an end-product inhibitor of sirtuins by binding to a conserved pocket adjacent to the NAD+ site, thereby blocking further NAD+ hydrolysis. This product-based feedback links cellular NAD+ status and NAM levels directly to sirtuin enzymatic output.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "NAM (nicotinamide)",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": "Nicotinamide is a known potent inhibitor of several classes of ribosylase enzymes that require NAD for their activity, as well as of SIRT1, the class III NAD+-dependent histone deacetylase. NAM acts as an end-product noncompetitive inhibitor of SIRT1 by binding to a conserved pocket adjacent to NAD+, thereby blocking NAD+ hydrolysis. Because NAM is generated by the sirtuin reaction itself, it provides a built-in negative feedback mechanism that can curtail SIRT1 activity when local nicotinamide accumulates.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "are classified into",
+    "object": "five classes (I-IV and U)",
+    "context": "The sirtuin family has been classified into five distinct classes (I-IV and U) based on a phylogenetic study of sirtuins from a wide range of prokaryotes and eukaryotes. SIR-2.1, Drosophila melanogaster Sir2 (D.mel1), Hst1, and SIRT1 all belong to subclass Ia. Subclass Ib includes Hst2, D.mel2, and various fungi and protozoa sirtuins along with SIRT2 and SIRT3. SIRT4 and SIRT5 belong to classes II and III, respectively. SIRT6 and SIRT7 belong to Class IV, which includes only eukaryotic sirtuins. Sir2 homologues from bacteria with undifferentiated motifs constitute class U.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "CobB",
+    "predicate": "is the first bacterial sirtuin found in",
+    "object": "Salmonella enterica",
+    "context": "The first bacterial sirtuin was found in Salmonella enterica and was named CobB due to its involvement in cobalamin biosynthesis and propionic catabolism. CobB demonstrates that sirtuins are not restricted to eukaryotes but are also present in prokaryotes, where they regulate various metabolic pathways. In bacteria one or two sirtuins are typically found, and CobB serves as the founding example of prokaryotic sirtuin biology.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes",
+    "object": "homologous recombination",
+    "context": "SIRT1 activation enhances homologous recombination, a function that could help to decrease tumours by stabilising chromosomes and/or extending the lifespan by maintaining rDNA arrays. In human cells SIRT1 activation enhances homologous recombination. SIRT1 also contributes to telomere maintenance and augments global homologous recombination, linking nuclear sirtuin activity to genome stability and longevity.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "DNMT1",
+    "context": "SIRT1 modulates the activity of DNA methyltransferase 1 (DNMT1) by deacetylating it. Deacetylation of DNMT1 at certain lysine residues improves its methyltransferase activity, alters its transcription suppression activity, and impairs its ability to silence tumour suppressor genes. Directionally, SIRT1 sits upstream of DNMT1 enzymatic activity and thus influences DNA methylation patterns and gene silencing, providing a direct molecular link between sirtuins and the epigenetic machinery.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "regulates UV-induced DNA repair via",
+    "object": "XPA deacetylation",
+    "context": "SIRT1 controls UV-induced DNA damage repair by deacetylating xeroderma pigmentosum group A (XPA), a protein that is required for the nucleotide excision repair pathway to function properly. Directionally, SIRT1 sits upstream of XPA activity and thereby of nucleotide excision repair. This places SIRT1 in the DNA damage response network and links sirtuin function to the maintenance of genomic integrity following environmental genotoxic stress.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "counteracts",
+    "object": "oxidative stress and age-related NAD+ decline",
+    "context": "SIRT1 has a significant role in oxidative stress response. Increased SIRT1 protein levels counteract oxidative stress and the ageing-related decline in NAD+ levels. In elderly humans SIRT1 protein expression shows a remarkable age-related increase against oxidative stress. Directionally, SIRT1 sits upstream of cellular defence against oxidative damage, and its induction appears to be a compensatory anti-ageing response that mitigates the consequences of declining NAD+ availability.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT1 downregulation",
+    "predicate": "is associated with",
+    "object": "endothelial cell senescence",
+    "context": "Downregulation of SIRT1 was found to be important in the senescence of different types of endothelial cells. Directionally, SIRT1 loss sits upstream of cellular senescence in the vascular endothelium. Because SIRT1 normally promotes stress resistance and genomic stability, its decline in endothelial cells is linked to the senescent phenotype. This positions SIRT1 as a potential target for preserving endothelial function and preventing vascular ageing.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "controls metabolic reprogramming during",
+    "object": "induced pluripotency",
+    "context": "By targeting glycolytic enzymes, SIRT2 controls metabolic reprogramming during induced pluripotency. Directionally, SIRT2 sits upstream of the metabolic switch from oxidative to glycolytic metabolism that accompanies reprogramming of somatic cells toward pluripotency. This metabolic control is essential for the establishment and function of primed human pluripotent stem cells, linking sirtuin activity to cell fate determination and stem cell biology.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "negatively regulates",
+    "object": "HIF-1 activity",
+    "context": "SIRT2 regulates HIF-1 activity, which is important for tumour hypoxia responses. HIF-1 protein stability and transcriptional activity are both negatively influenced by SIRT2, with SIRT2-mediated deacetylation necessary for HIF-1α destabilisation and the tumour cell hypoxia response. Directionally, SIRT2 sits upstream of reduced HIF-1α abundance and activity, thereby restraining hypoxia-driven transcriptional programs in tumour cells.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is upregulated in",
+    "object": "NSCLC cell lines and metastatic melanoma",
+    "context": "The level of SIRT2 is upregulated in non-small cell lung cancer cell lines and in metastatic human melanoma tissues compared to healthy cells and tissues. Directionally, SIRT2 expression is increased in these aggressive cancer contexts. In metastatic melanoma, SIRT2 levels are increased compared to tumours of early stage, suggesting involvement of SIRT2 in the advancement of metastatic disease. SIRT2 therefore represents a potential biomarker and drug target in NSCLC and metastatic melanoma.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is a drug target for",
+    "object": "acute promyelocytic leukaemia",
+    "context": "SIRT2 could be a promising drug target for acute promyelocytic leukaemia therapy. Directionally, SIRT2 activity sits upstream of leukaemia cell survival and differentiation programs. Pharmacological modulation of SIRT2 is therefore being explored as a therapeutic strategy in this haematological malignancy, potentially by restoring differentiation or promoting death of leukaemic blasts.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "protects neural cells from",
+    "object": "oxidative damage",
+    "context": "SIRT2 has a role in neurodegeneration and protects neural cells from oxidative damage caused by ageing and disease. Directionally, SIRT2 sits upstream of neuronal resilience against oxidative stress. Although SIRT2 is overexpressed in neurodegenerative disorders such as Parkinson's disease, its ability to shield neurons from oxidative injury suggests a protective function in specific contexts, and SIRT2 remains a candidate target for neuroprotective strategies.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is activated by cleavage of",
+    "object": "N-terminal 101 residues by mitochondrial processing peptidase",
+    "context": "The full-length SIRT3 protein is enzymatically inactive and contains a mitochondrial targeting domain at its N-terminus. Mitochondrial matrix processing peptidase cleaves the N-terminal 101 residues, which then activates the enzyme. Directionally, proteolytic processing sits upstream of SIRT3 catalytic activity within the mitochondrial matrix. This maturation step ensures that SIRT3 functions only after import into mitochondria, where it deacetylates metabolic enzymes.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3 deacetylase activity",
+    "predicate": "is required for",
+    "object": "viral suppression",
+    "context": "The deacetylase activity of SIRT3 is required for viral suppression, and during infection SIRT3 keeps membrane potential and mitochondrial pH stable. Directionally, SIRT3 sits upstream of mitochondrial homeostasis during viral infection, supporting antiviral defence. By maintaining mitochondrial function under infection-induced stress, SIRT3 protects cells from viral damage and restricts viral replication.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "prevents endothelial dysfunction and senescence via",
+    "object": "p53 pathway",
+    "context": "Through the p53 pathway, SIRT3 prevents dysfunction and senescence caused by high glucose levels in endothelial cells by partially abrogating p53 activity. Directionally, SIRT3 sits upstream of dampened p53 signalling and thereby of protection against glucose-induced endothelial senescence. This links mitochondrial sirtuin activity to vascular health and identifies SIRT3 as a potential target for preventing diabetic endothelial dysfunction.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is a marker for",
+    "object": "colon cancer",
+    "context": "SIRT3 could also be used as a marker for colon cancer. In colon cancer, SIRT3 deficiency reduces cell proliferation, invasion, and migration while increasing apoptosis. Directionally, SIRT3 expression levels sit upstream of colon cancer behaviour, with loss of SIRT3 restraining tumour aggressiveness. SIRT3 therefore has potential diagnostic and prognostic utility in colorectal cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "suppresses tumor growth via",
+    "object": "HIF-1α inhibition and ROS suppression",
+    "context": "SIRT3 stops mitochondrial reactive oxygen species generation, which inhibits HIF-1α and tumour growth. When SIRT3 is overexpressed, it resists the growth of established cancer cell lines. SIRT3 also prevents cancer cell metabolic reprogramming by destabilising HIF1α. Directionally, SIRT3 sits upstream of reduced mitochondrial ROS and HIF-1α stabilisation, thereby opposing the hypoxic and metabolic adaptations that support tumour growth.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3 activation",
+    "predicate": "prevents",
+    "object": "ALS motor neuron metabolic abnormalities",
+    "context": "SIRT3 activation prevents amyotrophic lateral sclerosis motor neurons from developing metabolic abnormalities. ALS motor neurons exhibit hallmark metabolic defects including decreased mitochondrial respiration and increased glycolysis, which arise from systemic NAD+ depletion. SIRT3 activation and/or NAD+ supplementation has been discovered as a treatment for disease phenotypes in both sporadic and familial ALS, restoring normal mitochondrial metabolism and rescuing motor neuron viability.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "plays a role in",
+    "object": "mitotic cell division regulation",
+    "context": "SIRT4 plays a crucial role in mitotic cell division regulation. Directionally, SIRT4 sits upstream of proper cell cycle progression and mitotic fidelity. In addition to its roles in glutamine metabolism and tumor suppression, SIRT4 contributes to the orderly execution of mitosis, extending the functional repertoire of this mitochondrial sirtuin beyond metabolism.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "is a tumor suppressor in",
+    "object": "NSCLC, colorectal cancer, neuroblastoma, and gastric cancer",
+    "context": "SIRT4 is an effective tumour suppressor in non-small cell lung cancer cells, human colorectal cancer, neuroblastoma, and gastric cancer. Directionally, SIRT4 sits upstream of restrained tumour growth across multiple cancer types, in part by inhibiting glutamine metabolism and modulating mitochondrial dynamics. Low SIRT4 expression thereby permits tumorigenic behaviour, and SIRT4 represents a prognostic and therapeutic target in these cancers.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "is downregulated in",
+    "object": "hepatocellular carcinoma and esophageal squamous cell carcinoma",
+    "context": "Expression of SIRT4 is considerably downregulated in hepatocellular carcinoma tumour tissues and in esophageal squamous cell carcinoma. Lower expression of SIRT4 promotes esophageal squamous cell carcinoma and hepatocellular carcinoma development. Directionally, loss of SIRT4 sits upstream of tumorigenic progression in these cancers, and its reduced expression is associated with poorer outcomes, supporting SIRT4 as a biomarker and tumor suppressor in HCC and esophageal cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits inflammation in",
+    "object": "endothelial cells of the umbilical vein and osteoarthritis",
+    "context": "In humans, SIRT4 inhibits inflammation in endothelial cells of the umbilical vein and in osteoarthritis. SIRT4 suppresses the inflammatory response and oxidative stress in osteoarthritis. Directionally, SIRT4 sits upstream of dampened inflammatory signalling in vascular endothelium and joint tissue. By restraining inflammation and oxidative stress, SIRT4 exerts protective effects in osteoarthritis and may help preserve endothelial function.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "controls PTEN stability via",
+    "object": "insulin-degrading enzyme (IDE)",
+    "context": "As an outcome of cellular stresses, SIRT4 controls PTEN stability via the insulin-degrading enzyme (IDE). Directionally, SIRT4 sits upstream of PTEN protein abundance through IDE-mediated degradation. Because PTEN is a key tumour suppressor and negative regulator of PI3K/Akt signalling, SIRT4-dependent control of PTEN stability links mitochondrial sirtuin activity to oncogenic signalling under stress conditions.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "controls ATP homeostasis via",
+    "object": "AMPK retrograde signaling",
+    "context": "SIRT4 controls ATP homeostasis and uses AMP-activated protein kinase (AMPK) to mediate retrograde signalling. Directionally, SIRT4 sits upstream of cellular energy sensing and mitochondrial-to-nuclear communication. By modulating ATP levels and engaging AMPK-mediated retrograde signalling, SIRT4 helps the cell adapt its nuclear gene expression to mitochondrial metabolic status under conditions of energy stress.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "deacetylates",
+    "object": "FOXO3a in lung epithelial cells",
+    "context": "In lung epithelial cells, SIRT5-mediated deacetylation of Forkhead protein FOXO3a inhibits apoptosis induced by cigarette smoke extract. Directionally, SIRT5 sits upstream of FOXO3a deacetylation and reduced apoptosis under cigarette smoke stress. By dampening FOXO3a-driven pro-apoptotic signalling, SIRT5 helps lung epithelial cells survive the toxic effects of cigarette smoke, with potential relevance to smoking-related lung pathology.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "is important for growth of",
+    "object": "breast tumor, HCC, and NSCLC cells",
+    "context": "SIRT5 is important in the growth of breast tumour cells, hepatocellular carcinoma, and human non-small cell lung cancer tissues. Directionally, SIRT5 sits upstream of tumour growth in these cancer types, and its overexpression indicates a poor prognosis in human non-small cell lung cancer. SIRT5 thereby acts as a tumour-promoting factor in breast cancer, HCC, and lung cancer, making it a candidate therapeutic target.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "promotes cancer cell proliferation via",
+    "object": "SHMT2 desuccinylation",
+    "context": "SIRT5 is upregulated during cellular transformation and is involved in cancer and its proliferation by desuccinylating serine hydroxymethyltransferase 2 (SHMT2). Directionally, SIRT5 desuccinylation of SHMT2 sits upstream of enhanced one-carbon metabolism and cancer cell proliferation. By activating SHMT2, SIRT5 supports the biosynthetic demands of proliferating cancer cells, contributing to tumorigenesis.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT5 desuccinylation of SDHA",
+    "predicate": "promotes",
+    "object": "clear cell renal cell carcinoma tumorigenesis",
+    "context": "SIRT5-mediated desuccinylation of succinate dehydrogenase A (SDHA) promotes clear cell renal cell carcinoma tumorigenesis. Directionally, SIRT5 desuccinylation of SDHA sits upstream of increased growth of clear cell renal cell carcinoma tumours. By activating SDHA and thereby modulating the TCA cycle, SIRT5 supports the metabolic reprogramming that drives this kidney cancer, identifying SIRT5 as a potential target in ccRCC.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "moderates",
+    "object": "H2O2-induced cell death in cardiomyocytes",
+    "context": "A finding suggests that in cardiomyocytes, SIRT5 is a key moderator in cell death induced by H2O2. Directionally, SIRT5 sits upstream of the cardiomyocyte response to oxidative stress, dampening or modulating hydrogen peroxide-induced cell death. This places SIRT5 in the cardiac stress response network and suggests that modulating SIRT5 activity could influence oxidative injury in the heart.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "modulates",
+    "object": "cellular energy metabolism and AMPK activity under energy stress",
+    "context": "As a result of energy stress, SIRT5 modulates cellular energy metabolism and AMP-activated protein kinase activity. Directionally, SIRT5 sits upstream of metabolic adaptation and AMPK activation during energy deprivation. By influencing energy metabolism and engaging AMPK signalling, SIRT5 helps cells maintain energy homeostasis under stress conditions, linking mitochondrial deacylation to the cellular energy sensing network.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "maintains",
+    "object": "telomere position effect",
+    "context": "In humans, SIRT6 is necessary to maintain the telomere position effect. SIRT6 was discovered as the first enzyme that modifies histones to regulate the telomere position effect in human cells, a novel role for SIRT6 in the regulation of age-related genome silencing. Directionally, SIRT6 sits upstream of telomeric chromatin silencing, providing a new approach for telomere chromatin silencing and linking SIRT6 to telomere biology and genome stability.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is involved in",
+    "object": "aging and reprogramming of human iPSCs",
+    "context": "SIRT6 has a part to play in ageing of human induced pluripotent stem cells as well as their reprogramming. Directionally, SIRT6 sits upstream of pluripotent stem cell aging dynamics and the efficiency of somatic cell reprogramming. By influencing these processes, SIRT6 links chromatin-based ageing regulation to stem cell biology and regenerative medicine.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "suppresses hypoxia-induced inflammatory response in",
+    "object": "human osteoblasts",
+    "context": "Sirtuin 6 inhibits the generation of reactive oxygen species and glycolysis, which decreases the inflammatory response generated by hypoxia in human osteoblasts. This has therapeutic implications in inflammatory bone resorption. Directionally, SIRT6 sits upstream of reduced ROS and glycolysis and thereby of dampened hypoxic inflammation in bone cells. SIRT6 thus protects osteoblasts from hypoxia-induced inflammatory damage.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6 downregulation",
+    "predicate": "induces",
+    "object": "endothelial senescence via oxidative stress",
+    "context": "Research has shown that senescence of endothelial cells is induced by oxidative stress due to SIRT6 downregulation. Directionally, SIRT6 loss sits upstream of oxidative stress-driven endothelial senescence. Because SIRT6 normally supports antioxidant defences and DNA repair, its decline leaves endothelial cells vulnerable to oxidative damage and the senescent phenotype, linking SIRT6 to vascular ageing.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "protects mesenchymal stem cells from",
+    "object": "oxidative damage via NRF2 coactivation",
+    "context": "It has been discovered in humans that SIRT6 interacts with the nuclear factor erythroid-derived 2-like 2 (NRF2) for the protection of mesenchymal stem cells from oxidative damage. SIRT6 safeguards human mesenchymal stem cells from oxidative stress by coactivating NRF2. Directionally, SIRT6 sits upstream of NRF2-dependent antioxidant gene expression and thereby of stem cell survival under oxidative conditions.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6 overexpression",
+    "predicate": "accelerates",
+    "object": "apoptosis in tumor cells",
+    "context": "Compared to healthy cells, SIRT6 overexpression significantly accelerates apoptosis in tumour cells. Directionally, SIRT6 sits upstream of tumour cell death, preferentially killing cancer cells while sparing healthy cells. This tumour-selective pro-apoptotic activity supports SIRT6 activation as a potential therapeutic strategy against cancers that retain SIRT6 expression.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT6 deficiency",
+    "predicate": "decreases viability of and increases chemo-sensitivity in",
+    "object": "prostate cancer cells",
+    "context": "Lack of SIRT6 decreases the viability of prostate cancer cells while increasing chemotherapeutic sensitivity. Directionally, SIRT6 loss sits upstream of reduced prostate cancer cell survival and heightened responsiveness to chemotherapy. This indicates that targeting SIRT6 could render prostate cancer cells more vulnerable to cytotoxic agents, supporting SIRT6 inhibition as an adjunct to prostate cancer treatment.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "has DNA-activated deacetylase activity",
+    "object": "dependent on N- and C-terminal domains",
+    "context": "The DNA-activated deacetylase activity of SIRT7 is dependent on both the N- and C-terminal domains. The SIRT7 N-terminal domain (NTD) is made up of three helices, and according to the findings SIRT7-NTD has structural similarities to transcription factor regulators and may have a role in DNA binding. Directionally, the SIRT7 NTD sits upstream of DNA binding and enzymatic activation, connecting SIRT7 structure to its chromatin-associated functions.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "plays a critical role in",
+    "object": "aging and lifespan of hematopoietic cells",
+    "context": "SIRT7 has deacetylase activity and plays a critical role in ageing and lifespan of hematopoietic cells in humans. SIRT7 is an influence factor in healthy aging and the development of age-dependent myeloid stem-cell disorders. Directionally, SIRT7 sits upstream of haematopoietic stem cell maintenance and healthy aging, with dysregulation linked to age-dependent blood disorders.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "maintains energy balance by coordinating",
+    "object": "glucose availability with mitochondrial biogenesis",
+    "context": "SIRT7 arginine methylation maintains energy balance by coordinating glucose availability with mitochondria biogenesis. Directionally, SIRT7 sits upstream of the coupling between nutrient (glucose) status and mitochondrial mass. By linking glucose sensing to mitochondrial biogenesis, SIRT7 helps the cell match energy production to substrate availability, contributing to metabolic homeostasis.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "is required for",
+    "object": "rDNA transcription and pre-rRNA cleavage",
+    "context": "Sirtuin 7 is required not only for rDNA transcription but also for particular pre-rRNA cleavage. Directionally, SIRT7 sits upstream of ribosomal RNA synthesis and processing in the nucleolus. By supporting both rDNA transcription and pre-rRNA cleavage, SIRT7 is essential for ribosome biogenesis, connecting SIRT7 to growth, protein synthesis, and cellular proliferation.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7 depletion",
+    "predicate": "decreases",
+    "object": "DNA repair and chromatin compaction",
+    "context": "SIRT7 depletion decreases DNA repair and compaction of chromatin, rendering cells more susceptible to genotoxic stressors. SIRT7 is a histone desuccinylase that functionally links to chromatin compaction and genome stability. Directionally, SIRT7 loss sits upstream of reduced genomic stability and increased sensitivity to DNA damage, making SIRT7 important for protecting cells against genotoxic stress.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "counteracts",
+    "object": "human stem cell aging as a heterochromatin stabilizer",
+    "context": "SIRT7 antagonizes human stem cell aging as a heterochromatin stabiliser and safeguards chromatin structure. As a heterochromatin stabiliser, SIRT7 counteracts human stem cell ageing. SIRT7 also regulates innate immune modulation and ensures geroprotection during stem cell ageing. Directionally, SIRT7 sits upstream of heterochromatin maintenance and stem cell rejuvenation, protecting stem cells from age-related chromatin deterioration.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7 inactivation",
+    "predicate": "reduces breast cancer metastasis by blocking",
+    "object": "TGF-β signaling",
+    "context": "SIRT7 inactivation reduces breast cancer metastasis by blocking TGF-β signalling. SIRT7 deacetylase activity inhibits metastasis of breast cancer by antagonising transforming growth factor-β signalling. Directionally, SIRT7 sits upstream of TGF-β-driven metastasis in breast cancer. By promoting TGF-β signalling, SIRT7 supports the metastatic spread of breast cancer cells, and its inactivation curbs this process regardless of changes in original tumour development.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "is involved in the genesis of",
+    "object": "colorectal, gastric, and luminal breast cancer",
+    "context": "In humans, SIRT7 takes part in the genesis of colorectal cancer, gastric cancer, and luminal breast cancer. SIRT7 is overexpressed in multiple cancer tissues, promoting the survival of cancer cells and the maintenance of a transformed state. Directionally, SIRT7 sits upstream of tumorigenesis in these cancer types, and its overexpression supports the transformed phenotype across a broad range of tumours.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Butein, piceatannol and isoliquiritigenin",
+    "predicate": "activate",
+    "object": "recombinant SIRT1",
+    "context": "Plant polyphenols notably butein, piceatannol, and isoliquiritigenin (ILQ) have been demonstrated to activate recombinant SIRT1, and are known as sirtuin activating compounds (STACs). Directionally, these natural polyphenols sit upstream of enhanced SIRT1 enzymatic activity. Together with resveratrol, these plant-derived compounds represent natural STACs, and synthetic STACs such as SRT1720 activate SIRT1 substantially more potently.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "replicates the effects of",
+    "object": "calorie restriction in lower organisms",
+    "context": "Resveratrol (3, 5, 4'-trihydroxystilbene) is a natural plant polyphenol found in grapes and red wines. In lower organisms, resveratrol replicates the effects of calorie restriction, and mice fed a high-fat diet have lower insulin resistance. STACs interact directly with SIRT1 and other isoforms, and resveratrol remains the most prominent natural sirtuin activator with longevity-relevant effects.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SRT1720",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "Many synthetic STACs that are chemically unrelated to resveratrol, such as those with an imidazo[1,2-b]thiazole core including SRT1720, activate SIRT1 substantially more potently than resveratrol. Directionally, SRT1720 sits upstream of enhanced SIRT1 activity, with higher potency than natural activators. These synthetic activators have been used in numerous studies to demonstrate their effect on SIRT1 and are being developed for therapeutic applications.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Splitomicin",
+    "predicate": "inhibits",
+    "object": "Sir2 in S. cerevisiae (weakly inhibits human SIRT1)",
+    "context": "Splitomicin inhibits Sir2 in Saccharomyces cerevisiae, but showed weaker inhibition on human SIRT1. Yeast Sir2 and human SIRT2 are inhibited by sirtinol. Directionally, these small-molecule sirtuin inhibitors (STICs) sit upstream of reduced sirtuin catalytic activity, with species- and isoform-selective potencies. Sirtuin inhibitors have also been considered for the treatment of Parkinson's disease, in addition to cancer therapy.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Suramin",
+    "predicate": "is a potent inhibitor of",
+    "object": "SIRT1, SIRT2 and SIRT5",
+    "context": "Suramin is a potent inhibitor of many sirtuins like SIRT1, SIRT2 and SIRT5. The majority of known sirtuin inhibitors exclusively inhibit SIRT1 and/or SIRT2, however some also inhibit SIRT3 and SIRT5 with reduced affinity. Cambinol has the most effective efficacy against Burkitt lymphoma cell lines, and Salermide causes apoptosis in cancer cells without relying on p53, with both inhibiting SIRT1 and SIRT2.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Cambinol",
+    "predicate": "has the most effective efficacy against",
+    "object": "Burkitt lymphoma cell lines",
+    "context": "Cambinol has the most effective efficacy against Burkitt lymphoma cell lines. Salermide causes apoptosis in cancer cells without relying on p53. Both Cambinol and Salermide have inhibitory effects on SIRT1 and SIRT2. Directionally, these sirtuin-inhibiting compounds sit upstream of suppressed cancer cell growth, with Cambinol showing particular potency against Burkitt lymphoma among the STIC class of sirtuin inhibitors.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT1 and SIRT2",
+    "predicate": "promote cell proliferation and play a pro-tumorigenic role in",
+    "object": "lung cancer",
+    "context": "SIRT1 and SIRT2 promote cell proliferation and play a pro-tumorigenic role in lung cancer. Expression of sirtuin 1 and 2 is associated with poor prognosis in non-small cell lung cancer patients. Directionally, SIRT1 and SIRT2 sit upstream of lung cancer cell proliferation and aggressive disease. Their elevated expression is linked to poor prognosis, supporting SIRT1 and SIRT2 as therapeutic targets and prognostic biomarkers in lung cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3 deficiency",
+    "predicate": "reduces",
+    "object": "colon cancer cell proliferation, invasion, and migration",
+    "context": "In colon cancer, SIRT3 deficiency reduces cell proliferation, invasion, and migration while increasing apoptosis. Directionally, SIRT3 loss sits upstream of restrained colon cancer aggressiveness and enhanced cell death. SIRT3 could also be used as a marker for colon cancer. These findings indicate that SIRT3 supports the aggressive behaviour of colon cancer cells, and its inhibition may represent an anti-tumour strategy.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT3 upregulation",
+    "predicate": "suppresses",
+    "object": "glycolysis and proliferation in breast cancer cells",
+    "context": "Upregulation of SIRT3 in breast cancer cells suppresses glycolysis and proliferation, offering a metabolic pathway for tumour suppression. Directionally, SIRT3 sits upstream of reduced glycolytic metabolism and growth in breast cancer cells. By suppressing glycolysis, SIRT3 limits the Warburg-like metabolic program that supports breast cancer proliferation, identifying SIRT3 activation as a potential tumour-suppressive strategy in breast cancer.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is overexpressed in",
+    "object": "Parkinson's disease",
+    "context": "SIRT2 is found to be overexpressed in Parkinson's disease. SIRT2 is also overexpressed in neurodegenerative disorders generally and protects neural cells from oxidative damage caused by ageing and disease. Directionally, elevated SIRT2 sits upstream of neurodegeneration in Parkinson's disease. Sirtuin inhibitors have been considered for the treatment of Parkinson's disease, alongside cancer therapy, because of this SIRT2 involvement.",
+    "confidence": "0.95",
+    "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md"
+  },
+  {
+    "subject": "Relocalization of Chromatin Modifiers (RCM) Hypothesis",
+    "predicate": "proposes that",
+    "object": "aging results from progressive loss of epigenetic information",
+    "context": "The Relocalization of Chromatin Modifiers (RCM) Hypothesis is a key framework in aging biology, primarily developed by David Sinclair and colleagues. It proposes that aging in eukaryotes results largely from the progressive loss of epigenetic information due to the repeated relocalization of chromatin-modifying proteins during DNA repair. Chromatin modifiers normally sit at specific genomic loci to maintain gene expression patterns that define cell identity, but are recruited to damage sites during repair, temporarily disrupting their original positions and altering local gene expression.",
+    "confidence": "0.95",
+    "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md"
+  },
+  {
+    "subject": "Chromatin modifiers (SIRT1, SIRT6, HDAC1, PARP1)",
+    "predicate": "relocalize to",
+    "object": "DNA damage sites during repair",
+    "context": "Chromatin modifiers including sirtuins like SIRT1 and SIRT6, as well as HDAC1 and PARP1, normally sit at specific genomic loci to maintain proper gene expression patterns that define cell identity. When DNA damage, especially double-strand breaks, occurs, these proteins are recruited to damage sites to assist in repair. This temporarily disrupts their original positions, altering local gene expression, and repeated relocalization over a lifetime contributes to the progressive loss of epigenetic information.",
+    "confidence": "0.95",
+    "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md"
+  },
+  {
+    "subject": "RCM (Relocalization of Chromatin Modifiers)",
+    "predicate": "is an example of",
+    "object": "Antagonistic Pleiotropy",
+    "context": "RCM likely evolved as a beneficial short-term response: relocalizing modifiers to damage sites helps cells survive acute threats by prioritizing repair and survival over normal gene regulation. In youth this is advantageous, but over a lifetime the cumulative failure to reset becomes detrimental, contributing to aging. This trade-off, where a trait that benefits early survival becomes harmful later in life, is the classic signature of antagonistic pleiotropy.",
+    "confidence": "0.95",
+    "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md"
+  },
+  {
+    "subject": "Partial reprogramming",
+    "predicate": "can reset",
+    "object": "epigenetic information",
+    "context": "Partial reprogramming (e.g., via Yamanaka factors) can reset epigenetic information, supporting the idea that aging is reversible at the information level. This connection to cellular reprogramming complements the RCM hypothesis, which frames aging as an epigenetic software problem rather than purely hardware (mutation) damage. Because epigenetic changes can potentially be reset, unlike permanent mutations, reprogramming-based approaches offer a route to restoring youthful gene expression patterns.",
+    "confidence": "0.95",
+    "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md"
+  },
+  {
+    "subject": "DSB repair and RCM",
+    "predicate": "may advance",
+    "object": "Epigenetic clock",
+    "context": "DSB repair and RCM may advance epigenetic clocks by affecting DNA methylation machinery (e.g., TET enzymes and DNMTs). Because the response to DNA damage follows conserved mechanisms, aging becomes somewhat predictable despite random damage, leading to consistent epigenetic drift. Directionally, DNA damage repair and the consequent relocalization of chromatin modifiers sit upstream of clock-measured epigenetic age acceleration, linking RCM to quantitative measures of biological aging.",
+    "confidence": "0.95",
+    "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md"
   }
 ]
