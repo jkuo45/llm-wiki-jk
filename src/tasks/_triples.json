@@ -646,5 +646,725 @@
     "context": "RSK phosphorylates APAF-1 at Ser268, causing inhibition in prostate cancer cells.",
     "confidence": "0.95",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is upregulated in",
+    "object": "Breast Cancer",
+    "context": "SIRT1 is elevated in breast cancer tissue versus adjacent normal tissue and predicts poor prognosis. In triple-negative breast cancer it regulates EMT-associated programming that drives invasion and metastasis, while also repressing ER-alpha-mediated estrogen proliferative responses. It promotes metadherin-driven chemoresistance and causes tamoxifen resistance through MRP2 upregulation via FoxO1 deacetylation, so SIRT1 inhibition augments paclitaxel and doxorubicin cytotoxicity.",
+    "confidence": "0.95",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is downregulated in",
+    "object": "Breast Cancer",
+    "context": "SIRT2 is downregulated in breast cancer tissue and increased expression is associated with longer survival, indicating a predominantly tumor-suppressive role. It acts as a tumor suppressor by promoting BRCA1-BARD1 heterodimerization and homologous recombination DNA repair. However, SIRT2 also has a promoter role in basal-like breast cancer, where it deacetylates and stabilizes Slug to drive tumorigenesis and invasion, giving it a binary role.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is a diagnostic biomarker for",
+    "object": "Lung Cancer",
+    "context": "Serum SIRT3 distinguishes lung cancer patients from healthy controls with an AUC of 0.918, sensitivity of 86.4%, and specificity of 94%. High SIRT1-3 expression correlates with poor survival in NSCLC. In the tumor SIRT3 reduces cisplatin resistance through the FoxO3/CDT1 axis and promotes DNA repair and radioresistance via ATM-Chk2, illustrating how a single sirtuin affects both diagnosis and therapy response.",
+    "confidence": "0.95",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is downregulated in",
+    "object": "Hepatocellular Carcinoma",
+    "context": "SIRT3 expression is lower in HCC tissue than in adjacent tissue. Modulating SIRT3 enhances sorafenib therapy, and SIRT3 downregulates GST-pi1 to enhance chemo- and sorafenib-induced apoptosis. Its loss therefore correlates with tumor aggressiveness and reduced treatment efficacy in hepatocellular carcinoma.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "suppresses",
+    "object": "Glutamine Metabolism",
+    "context": "SIRT4 is a mitochondrial ADP-ribosyl transferase that suppresses glutamine metabolism as its central tumor-suppressive mechanism in breast cancer, HCC, colorectal cancer, and gastric cancer. In breast cancer this represses SIRT1 activity via mitochondrial-nuclear crosstalk, and in colorectal cancer it upregulates E-cadherin while suppressing proliferation, migration, and invasion. SIRT4 also increases sensitivity to 5-fluorouracil by inhibiting the cell cycle.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "is downregulated in",
+    "object": "Hepatocellular Carcinoma",
+    "context": "SIRT4 is expressed at lower levels in HCC tissue and low tumor levels predict decreased survival. It functions as a tumor suppressor by inhibiting glutamine metabolism, and it upregulates p16 and p21 while suppressing CyclinB1, Cdc2, and Cdc25c to induce apoptosis. Low SIRT4 therefore marks an aggressive, therapy-resistant HCC phenotype.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "Glycolysis",
+    "context": "SIRT6 suppresses glycolysis and metabolic reprogramming in hepatocellular carcinoma by deacetylating hnRNP A1, and USP48-stabilized SIRT6 further attenuates glycolysis. In lung cancer the same metabolic suppression enhances radiosensitivity, although SIRT6 has a pro-carcinogenic dual role there through snail-dependent transrepression of KLF4 that drives EMT and metastasis. Overall SIRT6 acts as a metabolic tumor suppressor across most cancers.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "is upregulated in",
+    "object": "Breast Cancer",
+    "context": "SIRT7 is upregulated in breast cancer tissue and increased expression predicts poor prognosis. Depletion of SIRT7 inhibits tumor growth through p38/MAPK activation, positioning it as an oncogenic driver. This contrasts with the nucleolar sirtuin's role in ribosome biogenesis and rRNA transcription, linking proliferation to tumor progression.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "has a dual role in",
+    "object": "Cardiac Hypertrophy",
+    "context": "SIRT1 has a dose-dependent dual effect in angiotensin II-induced cardiac hypertrophy: low (2.5x) and moderate (7.5x) overexpression attenuate hypertrophy while high (12.5x) overexpression exacerbates it. Protective mechanisms include reduced apoptosis and promoted autophagy plus PKC-zeta inhibition, whereas the harmful arm operates through Akt/PDK1 membrane localization. SIRT1 therefore protects or harms the heart depending on expression level.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Cardiac Hypertrophy",
+    "context": "SIRT6 inhibits isoproterenol-induced cardiac hypertrophy through multiple parallel pathways: promoting autophagy via FoxO3 nuclear retention from Akt attenuation, decreasing p300 and NF-kB p65 acetylation, blocking IGF-Akt signaling through c-Jun, and suppressing STAT3. Each of these inputs converges on dampening the pathological growth response, making SIRT6 a consistently protective factor in cardiac hypertrophy.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "promotes",
+    "object": "Cardiac Hypertrophy",
+    "context": "SIRT4 overexpression aggravates angiotensin II-induced cardiac hypertrophy by inhibiting MnSOD activity, and global SIRT4 knockout confers resistance to angiotensin II infusion with reduced cardiac fibrosis. SIRT4 is therefore the sirtuin most clearly associated with adverse cardiac effects, unlike the protective mitochondrial roles of SIRT3. This cardiac-harmful action is unusual among sirtuins.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "GATA4",
+    "context": "SIRT7 ameliorates stress-induced cardiac hypertrophy by deacetylating the transcription factor GATA4. This protective action contrasts with SIRT7's pro-fibrotic role in cardiac fibrosis, where enhanced expression promotes fibrosis via Smad2/ERK signaling. The same nucleolar sirtuin therefore has divergent, context-dependent cardiovascular effects.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Atherosclerosis",
+    "context": "SIRT1 protects against atherosclerosis through multiple mechanisms: endothelial SIRT1 overexpression activates eNOS, SRT1720 activation ameliorates endothelial dysfunction, and SIRT1 reduces Lox-1-mediated foam cell formation via NF-kB. It also protects vascular smooth muscle cells from DNA damage via NBS1. Collectively SIRT1 is a consistent anti-atherosclerotic factor in the endothelium and vasculature.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Heart Failure",
+    "context": "SIRT6 is decreased in chronic heart failure, and its overexpression increases survival after TAC-induced heart failure via telomerase activation involving TERT and TRF1. SIRT6 therefore connects telomere maintenance and genomic stability to cardiac resilience under pressure overload, making it a candidate target for heart-failure therapy.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": "SIRT1 protects against myocardial ischemia-reperfusion injury: knockout increases infarct size while overexpression upregulates FoxO1 and MnSOD and downregulates caspase-3 and Bax. Signaling upstream of SIRT1 includes miR-132 inhibition leading to PGC-1alpha/Nrf2, and lncRNA Oip5-as1 acting through the SIRT1/AMPK/PGC-1alpha axis. SIRT1 is thus an endogenous cardioprotective factor against reperfusion damage.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": "SIRT3 deficiency exacerbates myocardial ischemia-reperfusion injury, and SIRT3 protects the heart through mitochondrial quality control and oxidative-stress defense. As the primary mitochondrial deacetylase it sustains OXPHOS and antioxidant enzymes such as SOD2, so its loss amplifies reperfusion damage. This makes SIRT3 a key mitochondrial cardioprotective factor.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is decreased in",
+    "object": "COPD",
+    "context": "SIRT1 is substantially decreased in COPD and emphysema lungs, contributing to disease pathogenesis through loss of anti-inflammatory, anti-apoptotic, and antioxidant effects that involve NF-kB, FoxO3, and p53. Pharmacologic activation with SRT1720 inhibits LPS-induced cytokine release in COPD peripheral blood mononuclear cells, supporting SIRT1 restoration as a therapeutic strategy in COPD.",
+    "confidence": "0.95",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is associated with",
+    "object": "COVID-19 Outcome",
+    "context": "Serum SIRT3 levels are associated with clinical outcome and prognosis in COVID-19, being markedly lower in severe patients. This positions serum SIRT3 as a potential prognostic biomarker that reflects mitochondrial health and antioxidant reserve during systemic viral inflammation, analogous to its diagnostic value in lung cancer.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "promotes",
+    "object": "Asthma",
+    "context": "SIRT2 enhances allergic asthmatic inflammation: pharmacologic ablation attenuates the phenotype while genetic overexpression exaggerates it, and SIRT2 aggravates asthma through Th2 responses and macrophage polarization. Unlike the protective SIRT1 and SIRT3 in asthma, SIRT2 is harmful, exemplifying the counter-regulatory relationship between SIRT2 and the protective sirtuins in allergic airway disease.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Acute Lung Injury",
+    "context": "SIRT3 promotes MnSOD expression to protect against hyperoxia-induced acute lung injury, and SIRT3-deficient mice develop more severe ALI through NLRP3 activation in macrophages. SIRT3 therefore defends the lung epithelium against oxidative and inflammatory damage by sustaining mitochondrial antioxidant capacity.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "SREBP-1c",
+    "context": "SIRT1 deacetylates the lipogenic transcription factors ChREBP and SREBP-1c to maintain hepatic lipid homeostasis, thereby opposing NAFLD and hepatic steatosis. SIRT1 also blocks hepatic stellate cell activation to exert anti-fibrotic effects. However, SIRT1 is harmful in alcoholic hepatitis where myeloid SIRT1 prevents p-FoxO3-driven apoptosis, and intestinal SIRT1 is harmful via hepatic ferroptosis and inflammation from the gut microbiota, giving SIRT1 a dual role in fatty liver disease.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "ChREBP",
+    "context": "SIRT6 deacetylates ChREBP and SREBP-1c to suppress hepatic lipogenesis, and hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice. SIRT6 also antagonizes liver fibrosis by blocking hepatic stellate cell activation. These actions position SIRT6 as a protective metabolic regulator in NAFLD and NASH.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Liver Ischemia-Reperfusion Injury",
+    "context": "SIRT3 protects against liver ischemia-reperfusion injury: systemic GPCR5 knockout suppresses SIRT3, driving proinflammatory macrophages and exacerbated injury. As the dominant mitochondrial sirtuin, SIRT3 sustains mitochondrial function in hepatocytes during reperfusion stress. This protective role parallels SIRT3's cardioprotective function in myocardial ischemia-reperfusion injury.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "Hepatitis B Virus",
+    "context": "SIRT3 is downregulated in HBV-positive patients and inhibits HBV replication via H3K9 deacetylation on cccDNA. This epigenetic silencing of the viral genome at the chromatin level provides a mitochondrial-to-nuclear link in antiviral defense. SIRT6 exerts an analogous H3K9-deacetylation-mediated suppression of HBV on cccDNA.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "Peroxiredoxin 3",
+    "context": "SIRT3 alleviates mitochondrial oxidative damage and apoptosis in intestinal ischemia-reperfusion injury by deacetylating peroxiredoxin 3. Deacetylation restores peroxiredoxin 3's antioxidant activity within mitochondria, limiting the oxidative burst on reperfusion. This is a canonical example of SIRT3's mitochondrial quality-control function protecting the intestine.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Pancreatitis",
+    "context": "SIRT1 is protective in acute pancreatitis via deacetylation of p53 and HSF1, dampening acinar-cell damage. In chronic pancreatitis, however, SIRT1 is upregulated and drives inflammation-induced EMT through the miR-278 axis, illustrating a context-dependent switch from protection to pathogenesis within the same organ.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is harmful in",
+    "object": "Alzheimer's Disease",
+    "context": "SIRT2 suppression alleviates amyloid-beta pathology and cognitive deficits in Alzheimer's disease by inhibiting beta-secretase 1 (BACE1) via reticulon 4B deacetylation. Nuclear SIRT2 is hyperactivated in AD, recruited by FoxO1 to the Fzd1 and Fzd7 promoters to reduce H4K16ac, and SIRT2 inhibition recovers microtubule stabilization and autophagic flux. SIRT2 is thus a harmful, druggable target in AD, opposing protective SIRT1 and SIRT3.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Alzheimer's Disease",
+    "context": "SIRT3 protects against amyloid-beta pathology and excitotoxicity in Alzheimer's disease, and its dysfunction leads to mitochondrial and neuronal damage. Intermittent food deprivation is beneficial in a SIRT3-dependent manner, and SIRT3 is upregulated in the AD temporal neocortex mirroring amyloid-beta deposition. SIRT3 thereby links mitochondrial quality control to AD neuroprotection.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is neuroprotective in",
+    "object": "Parkinson's Disease",
+    "context": "SIRT1 ameliorates the autophagic degradation of alpha-synuclein by deacetylating LC3 and improves motor defects in Parkinson's disease. This connects sirtuin activity directly to clearance of the pathological protein aggregate central to PD. SIRT1's pro-autophagy action here contrasts with SIRT2, which mediates exacerbation of alpha-synuclein toxicity.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is harmful in",
+    "object": "Parkinson's Disease",
+    "context": "SIRT2 mediates exacerbation of alpha-synuclein toxicity in Parkinson's disease, and SIRT2 deletion is protective. NAD+ metabolism alterations activate SIRT2, which decreases acetylated alpha-tubulin and contributes to cytoskeletal dysfunction. This is the rationale behind testing SIRT2 inhibitors such as AK-7 and SirReal2 for PD, although results remain preclinical.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Huntington's Disease",
+    "context": "Brain-specific SIRT1 knockout exacerbates Huntington's disease, while SIRT1 overexpression rescues CREB-CRTC1 interaction to restore BDNF transcription. SIRT1 therefore supports neuronal survival and transcriptional resilience in HD. SIRT2 inhibition also achieves neuroprotection in HD models by mimicking the beneficial effects of sterol-biosynthesis manipulation.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is increased in",
+    "object": "Ischemic Stroke",
+    "context": "Serum SIRT2 is increased in acute ischemic stroke and serves as a risk and prognosis marker. Inhibition of SIRT2 is neuroprotective after brain injury through downregulation of the Akt/FoxO3a and MAPK pathways. SIRT2 therefore functions as a harmful factor in stroke, in contrast to SIRT1 and SIRT3 which are neuroprotective in cerebral ischemia.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Ischemic Stroke",
+    "context": "SIRT3 is a prosurvival factor protective in ischemic stroke through HIF-1alpha/VEGF signaling in astrocytes, and it is downregulated in cerebral ischemia-reperfusion injury where enhancing SIRT3 with Wnt/beta-catenin is proposed as a therapeutic target. This extends SIRT3's mitochondrial protective axis to the neurovascular unit.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is a diagnostic marker for",
+    "object": "Alzheimer's Disease",
+    "context": "SIRT1 shows an inverse serum and saliva relationship with Alzheimer's disease, giving it diagnostic potential as a peripheral biomarker. Lower peripheral SIRT1 accompanies AD pathology, while brain SIRT1 reduces amyloid-beta-induced senescence and mitochondrial dysfunction. SIRT6 shows the same inverse serum/saliva relationship with AD, suggesting a shared peripheral readout for the protective sirtuins.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "improves",
+    "object": "Insulin Sensitivity",
+    "context": "SIRT1 has a dual role in diabetes mellitus: overexpression improves insulin sensitivity while hepatic SIRT1 knockdown prevents fasting hyperglycemia by increasing hepatic insulin responsiveness. SIRT1 therefore both enhances systemic insulin action and constrains hepatic glucose output. This context-dependence is characteristic of SIRT1's master-regulator role in metabolic disease.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Diabetes Mellitus",
+    "context": "SIRT3 is protective in diabetes mellitus: knockout impairs insulin-stimulated muscle glucose uptake leading to insulin resistance. In diabetic cardiomyopathy SIRT3 regulates fibrosis, inflammation, apoptosis, and oxidative stress, attenuating damage via reduced p53 acetylation and PFKFB3 upregulation. Deficiency aggravates hyperglycemic mitochondrial damage, ROS, necroptosis, and NLRP3 activation.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "promotes",
+    "object": "Diabetes Mellitus",
+    "context": "SIRT5 promotes the progression of diabetes mellitus: its inhibition facilitates pancreatic beta-cell proliferation and insulin secretion, and SIRT5 negatively regulates PDX1 transcription to aggravate DM. As a desuccinylase it reprograms beta-cell metabolism toward impaired insulin production. This pro-disease stance contrasts with the protective roles of SIRT1, SIRT3, and SIRT6 in DM.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Diabetes Mellitus",
+    "context": "SIRT6 is protective in diabetes mellitus by inducing PGC-1alpha acetylation and suppressing hepatic glucose production, and by cooperating with p53 to deacetylate FoxO1 and suppress gluconeogenic genes. Through these transcriptional controls SIRT6 reduces the pathological hepatic glucose output that drives hyperglycemia.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "suppresses",
+    "object": "Obesity",
+    "context": "SIRT3 suppresses obesity by activating macroautophagy through the AMPK-ULK1 pathway to produce smaller lipid droplets, and by inducing the perilipin-1-Hsc71-LAMP2 complex to drive chaperone-mediated autophagy. These mitochondrial-autophagy actions promote lipid catabolism and energy expenditure, opposing adipose accumulation.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "promotes",
+    "object": "Obesity",
+    "context": "SIRT6 overexpression exacerbates diet-induced obesity by decreasing STAT3 acetylation and lowering proopiomelanocortin in the hypothalamus. This hypothalamic action reduces satiety signaling, promoting weight gain. SIRT6 therefore has an unusual pro-obesity stance in the CNS, despite being protective across most other disease systems.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Diabetic nephropathy",
+    "context": "SIRT1 is protective in diabetic kidney disease by deacetylating p53 and activating FoxO3a and Nrf2, and resveratrol promotes resistance to diabetic renal fibrosis via Nrf2. These antioxidant and anti-apoptotic actions defend podocytes and the renal tubulointerstitium against hyperglycemic damage.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Acute Kidney Injury",
+    "context": "SIRT3 has a central protective role in acute kidney injury: deficiency exacerbates sepsis-induced tubular damage and apoptosis with increased Bax and caspase-3 and decreased Bcl-2, and aggravates fatty acid oxidation dysfunction. Honokiol activation increases ATP and reduces ROS and lipid peroxidation, while overexpression attenuates ischemia-reperfusion mitochondrial damage in the kidney.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "promotes",
+    "object": "Acute Kidney Injury",
+    "context": "SIRT2 is detrimental in acute kidney injury: systemic SIRT2 knockout ameliorates cisplatin-induced renal injury while transgenic overexpression aggravates it, through deacetylation of MAPK phosphatase-1 leading to sustained MAPK activation and increased inflammation and cell death. SIRT2 therefore opposes the protective SIRT1 and SIRT3 in the kidney.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Chronic Kidney Disease",
+    "context": "SIRT6 is markedly downregulated in chronic kidney disease and vascular calcification patients, and it suppresses osteogenic transdifferentiation of vascular smooth muscle cells via runt-related transcription factor 2. MSC exosomes inhibit high-phosphate aortic calcification through SIRT6-HMGB1 deacetylation, and proximal tubule-specific SIRT6 knockout aggravates UUO fibrosis. SIRT6 thereby protects the kidney and vasculature in CKD.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Kidney Fibrosis",
+    "context": "SIRT1 overexpression abolishes TGF-beta1-induced apoptosis and fibrosis through CTGF suppression, and SRT1720 attenuates UUO fibrosis, while SIRT1 represses HIF2alpha. However, SIRT1 downregulation may also inhibit fibroblast activation via EGFR/PDGFR-beta, creating therapeutic ambiguity. The dominant role is renoprotective, opposing tubulointerstitial fibrosis.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Osteoarthritis",
+    "context": "SIRT1 is protective in osteoarthritis by reducing chondrocyte apoptosis and ECM degradation via Wnt/beta-catenin signaling, reversing homocysteine-induced changes through the PGC-1alpha/PPAR-gamma cascade, inhibiting EGFR ubiquitination, and inhibiting chondrocyte senescence. SIRT1 therefore maintains cartilage homeostasis on multiple axes.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "has a dual role in",
+    "object": "Osteoarthritis",
+    "context": "SIRT3 has a dual role in osteoarthritis: it inhibits degeneration through mitochondrial homeostasis by restoring SOD2 acetylation, but SIRT3 overexpression promotes chondrocyte apoptosis and reduced proliferation, accelerating OA progression. The protective mitochondrial arm therefore depends on balanced SIRT3 activity, not simple upregulation.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Osteoporosis",
+    "context": "SIRT1 is protective in osteoporosis: SIRT1 knockout mice have low bone mass, SIRT1 increases osteoblast osteogenesis via FoxO3a, and it deacetylates sclerostin to promote Wnt/beta-catenin signaling. Resveratrol restores alkaline phosphatase and osteocalcin via NF-kB. SIRT1 thus supports bone formation and opposes age-related bone loss.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Osteoporosis",
+    "context": "SIRT6 inhibits age-related bone loss by stabilizing estrogen receptor alpha in preosteoblastic cells, maintaining the bone-forming capacity that declines with age. This estrogen-dependent mechanism complements SIRT1's FoxO3a-driven osteogenesis, giving SIRT6 a distinct but complementary role in osteoporosis protection.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Cellular Senescence",
+    "context": "SIRT6 inhibition shortens vascular smooth muscle cell lifespan and induces senescence via telomeric H3K9 hyperacetylation and 53BP1 binding, while SIRT6 overexpression preserves telomere integrity. SIRT6 deacetylates Pol-beta to confer DNA-damage resistance and prevent progeroid pathologies. SIRT6 is therefore a genome-stability guardian whose loss drives senescence and whose gain extends cellular lifespan.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "confers resistance to",
+    "object": "Tamoxifen",
+    "context": "SIRT1 causes tamoxifen resistance in ER-alpha-positive breast cancer by upregulating multidrug resistance protein 2 (MRP2) through FoxO1 deacetylation. SIRT1 inhibition therefore augments paclitaxel and doxorubicin cytotoxicity, while SIRT4 enhances tamoxifen sensitivity via STAT3 inhibition. This makes SIRT1 status a determinant of endocrine-therapy response in breast cancer.",
+    "confidence": "0.95",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes resistance to",
+    "object": "Cisplatin",
+    "context": "SIRT1 promotes cisplatin resistance in lung cancer via VEGF-A signaling, whereas SIRT2 upregulation and SIRT3 (via the FoxO3/CDT1 axis) each increase cisplatin sensitivity. SIRT3 also promotes DNA repair and radioresistance through ATM-Chk2. The opposing SIRT1 vs SIRT2/SIRT3 actions define the chemo-resistance balance in NSCLC.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "AKR1C1",
+    "context": "SIRT2 suppresses NSCLC migration by deacetylating AKR1C1 and inhibiting STAT3. In a counteracting oncogenic axis SIRT2 deacetylates phosphoglycerate mutase at K100 to generate NADPH and accelerate tumor growth, giving SIRT2 a context-dependent dual role in lung cancer.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "has a dual role in",
+    "object": "Lung Cancer",
+    "context": "SIRT6 is anticarcinogenic in lung cancer through CHD4 coordination that enables chromatin relaxation and DNA repair, but pro-carcinogenic via snail-dependent transrepression of KLF4 that drives EMT and metastasis. SIRT6 also inhibits glycolysis to enhance radiosensitivity, so its overall effect depends on the EMT/metabolic state of the tumor.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "upregulates",
+    "object": "E-cadherin",
+    "context": "SIRT4 upregulates E-cadherin in colorectal cancer while suppressing proliferation, migration, and invasion via glutamine-metabolism inhibition. SIRT4 also increases sensitivity to 5-fluorouracil by inhibiting the cell cycle, cementing its tumor-suppressive role in CRC.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "enhances",
+    "object": "Glutaminolysis",
+    "context": "SIRT5 enhances glutaminolysis in colorectal cancer in a deglutarylation-dependent manner to drive colorectal carcinogenesis, and it deacetylates lactate dehydrogenase B to induce hyperactive autophagy and tumorigenesis. SIRT5 overexpression is associated with poor prognosis in CRC, contrasting with protective SIRT6.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is a tumor suppressor in",
+    "object": "Gastric Cancer",
+    "context": "SIRT6 is downregulated in gastric cancer where low expression negatively correlates with tumor size and pathological grade and predicts poor prognosis. It inhibits the JAK2/STAT3 pathway to suppress growth, and SIRT6 silencing overcomes sorafenib resistance by promoting ferroptosis.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "suppresses",
+    "object": "Metastasis",
+    "context": "SIRT3 overexpression suppresses ovarian cancer metastasis via Twist-downregulation-driven EMT inhibition. In contrast SIRT3 promotes viability in glioma by stabilizing the Ku70-Bax interaction, and in cervical cancer it promotes invasion and metastasis by reprogramming fatty acid synthesis through ACC1 upregulation. The metastatic effect of SIRT3 is therefore tumor-type dependent.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "promotes resistance to",
+    "object": "Cisplatin",
+    "context": "SIRT5 promotes cisplatin resistance in ovarian cancer via Nrf2/HO-1-mediated ROS-dependent DNA-damage suppression, while SIRT2 overexpression enhances cisplatin sensitivity in resistant ovarian cancer cells. High SIRT5 expression in ovarian cancer is nonetheless associated with favorable survival.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "nullifies",
+    "object": "AIM2",
+    "context": "SIRT1 is overexpressed in HPV-infected cervical cancer cells and nullifies AIM2 inflammasome-mediated immunity, correlating with poor clinical outcomes. This immunosuppressive action allows cervical cancer cells to evade inflammasome-driven clearance, positioning SIRT1 as an oncogenic factor in HPV-driven cervical cancer.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "CDK2",
+    "context": "SIRT1 promotes T-ALL progression by deacetylating CDK2, which drives p27 phosphorylation and degradation, and SIRT1 knockdown sensitizes AML to tyrosine kinase inhibitor treatment. SIRT2 activation by NAMPT reduces proliferation and induces apoptosis in AML blasts via the Akt/GSK-3beta/beta-catenin axis, showing opposing leukemic roles for the two sirtuins.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "NFATc2",
+    "context": "SIRT2 is protective in cardiac hypertrophy by deacetylating NFATc2, and loss of SIRT2 reduces AMPK to promote aging-related and angiotensin II-induced hypertrophy. SIRT2 also protects against cardiac fibrosis by deacetylating LKB1 to activate AMPK. These cardiovascular roles contrast with SIRT2's harmful actions in neurodegenerative disease.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "SERCA2a",
+    "context": "SIRT1 restores SERCA2a activity in failing hearts via deacetylation at K492, recovering calcium handling and contractility. SIRT1 is decreased in advanced heart failure, and its loss attenuates the anti-oxidative, anti-apoptotic defenses mediated by MnSOD, thioredoxin 1, Bcl-xL, and FoxO1 nuclear translocation.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "is protective in",
+    "object": "Atherosclerosis",
+    "context": "SIRT4 suppresses the PI3K/Akt/NF-kB pathway to relieve oxLDL-induced HUVEC injury, protecting the endothelium in atherosclerosis. SIRT4 is downregulated after myocardial ischemia/reperfusion, and its overexpression decreases infarct size through mitochondrial preservation and reduced apoptosis.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "is protective in",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": "Loss of SIRT5 increases myocardial infarct size through modulation of protein succinylation, and SIRT5 knockout mice show increased cardiac fibrosis versus age-matched wild-type. SIRT5 also prevents age-related cardiac hypertrophy, giving it a broadly protective cardiovascular profile.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is associated with",
+    "object": "Coronary Artery Disease",
+    "context": "Genetic SIRT1 polymorphisms are associated with coronary artery disease risk, and SIRT1 expression is reduced in CAD patients where its downregulation is linked to acetylated p53 in CAD monocytes. The lncRNA C2dat1 promotes SIRT1 to suppress miR-34a, driving VSMC proliferation and migration in the vessel wall.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is decreased in",
+    "object": "COPD",
+    "context": "Reduced SIRT6 expression contributes to COPD through insufficient autophagy and cellular senescence during cigarette-smoke exposure, while SIRT6 overexpression weakens autophagy via the IGF-Akt-mTOR axis. SIRT3 inhibits airway epithelial mitochondrial oxidative stress to attenuate COPD progression, and SIRT1 is substantially decreased in COPD and emphysema lungs.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inactivates",
+    "object": "TGFβ1/Smad2",
+    "context": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "regulates",
+    "object": "Macrophage Polarization",
+    "context": "SIRT6 regulates macrophage polarization to alleviate sepsis-induced acute respiratory distress syndrome through both autophagy-dependent and autophagy-independent mechanisms. In asthma SIRT6 is upregulated in bronchial epithelial cells and ameliorates airway remodeling via EMT regulation, while SIRT2 enhances allergic asthmatic inflammation through Th2 responses and macrophage polarization.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "prevents",
+    "object": "NAFLD",
+    "context": "SIRT2 prevents NAFLD by deacetylating hepatocyte nuclear factor 4 alpha, but is deleterious in hepatic fibrosis through the SIRT2/ERK/c-Myc axis. SIRT4 upregulation inhibits high-fat-diet-induced lipid accumulation, inflammation, and fibrogenesis via the SIRT4/Smad4 axis, though SIRT4 is harmful in NAFLD by destabilizing mitochondrial trifunctional protein alpha.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "ChREBP",
+    "context": "SIRT1 and SIRT6 both deacetylate the lipogenic transcription factors ChREBP and SREBP-1c to maintain hepatic lipid homeostasis and oppose fatty liver disease. SIRT1 additionally antagonizes liver fibrosis by blocking hepatic stellate cell activation, while hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is harmful in",
+    "object": "Liver Ischemia-Reperfusion Injury",
+    "context": "SIRT2 is detrimental in liver ischemia-reperfusion injury: it deacetylates MAPK phosphatase-1 to activate MAPK and augment inflammatory responses and cell death, whereas SIRT1 and SIRT3 are protective. SIRT1 is decreased after IRI and its high levels predict superior survival in human liver transplants via suppression of mitochondrial dysfunction through MFN2.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "preserves",
+    "object": "Rspo1",
+    "context": "SIRT6 preserves Rspo1 expression to confer intestinal epithelium injury resistance in inflammatory bowel disease, and SIRT6 deletion promotes inflammation via NF-kB. SIRT2 similarly inhibits Wnt/beta-catenin to maintain gut homeostasis, while SIRT3, SIRT5, and SIRT7 knockout mice are susceptible to colitis.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Intestinal Ischemia-Reperfusion Injury",
+    "context": "SIRT1 suppresses intestinal epithelial ROS accumulation and apoptosis after ischemia-reperfusion, and resveratrol protects through the SIRT1-NF-kB-iNOS-NO pathway. SIRT3 alleviates mitochondrial oxidative damage and apoptosis via peroxiredoxin 3 deacetylation, while SIRT6 downregulation by miR-351-5p aggravates intestinal IRI injury.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "reduces",
+    "object": "Tau",
+    "context": "SIRT1 reduces O-GlcNAcylation of tau via CREB in Alzheimer's disease, and SIRT3 plays a role in tau acetylation as a potential therapy target. SIRT2 affects tau phosphorylation and autophagic flux, and nuclear SIRT2 is hyperactivated in AD where FoxO1 recruits it to Fzd1/Fzd7 promoters to reduce H4K16ac.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Beclin-1",
+    "context": "SIRT1 enhances beneficial autophagy in Alzheimer's disease by deacetylating Beclin-1, and in Parkinson's disease it ameliorates LC3-deacetylation-mediated autophagic degradation of alpha-synuclein to improve motor defects. Pro-autophagic SIRT1 action thereby helps clear pathological protein aggregates in neurodegeneration.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "is harmful in",
+    "object": "Ischemic Stroke",
+    "context": "SIRT5 mediates ischemia-reperfusion-induced brain damage by increasing blood-brain barrier permeability through occludin degradation, whereas SIRT1 and SIRT3 are neuroprotective in ischemic stroke. Serum SIRT2 is increased in acute ischemic stroke patients as a risk and prognosis marker, and SIRT2 inhibition is neuroprotective via downregulation of Akt/FoxO3a and MAPK.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is protective in",
+    "object": "Amyotrophic Lateral Sclerosis",
+    "context": "Enhanced SIRT6 activity abrogates the neurotoxicity of ALS-linked mutant SOD1 astrocytes, making SIRT6 a therapeutic target in ALS. SIRT1 is increased in SOD1-G93A mice and SIRT3 is increased in ALS spinal cord, with functional implications still unclear, while SIRT6 upregulation also alleviates inflammation, oxidative stress, and apoptosis after spinal cord injury.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Epilepsy",
+    "context": "SIRT3 protects against kainic acid excitotoxicity in epilepsy via miR-134-5p inhibition, and SIRT5 deficiency increases mortality and seizure severity, indicating a neuroprotective role. SIRT1 is a therapeutic target to rescue circadian rhythm genes and the SIRT1 agonist CAY10602 is neuroprotective against seizure-related damage.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "GKRP",
+    "context": "SIRT2 promotes glucose-dependent hepatic glucose uptake by deacetylating GKRP at K126, and its downregulation ameliorates reduced Akt activity while increasing insulin-stimulated glucose uptake in insulin-resistant neuro-2a cells. SIRT1 overexpression improves insulin sensitivity, but hepatic SIRT1 knockdown prevents fasting hyperglycemia by increasing hepatic insulin responsiveness, illustrating SIRT1's dual role in diabetes.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "Insulin Secretion",
+    "context": "SIRT4 overexpression leads to dyslipidemia, lipogenesis, and decreased fatty acid oxidation while deactivating AMPK and inhibiting insulin secretion, yet is described as protective against diabetes mellitus progression. SIRT5 promotes DM progression by negatively regulating PDX1 transcription, and SIRT6 protects by inducing PGC-1alpha acetylation to suppress hepatic glucose production.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is protective in",
+    "object": "Diabetic Retinopathy",
+    "context": "SIRT1 overexpression prevents capillary cell apoptosis and degenerative capillary formation in diabetic retinopathy, reduces DM-induced retinal inflammation, and improves visual function. In diabetic cardiomyopathy SIRT1 activation inhibits ROS-induced oxidative stress and fibrosis, while SIRT3 regulates fibrosis, inflammation, apoptosis, and oxidative stress in the diabetic myocardium.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "is protective in",
+    "object": "Acute Kidney Injury",
+    "context": "SIRT5 protects against acute kidney injury by regulating the balance between mitochondrial and peroxisomal fatty acid oxidation in proximal tubular epithelial cells, and SIRT6 inhibits LPS-induced apoptosis while promoting autophagy in HK-2 cells. SIRT7-deficient mice are protected against AKI, indicating SIRT7 promotes tubular damage and kidney inflammation.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Kidney Fibrosis",
+    "context": "SIRT3 knockout mice are susceptible to severe kidney fibrosis due to PDH E1alpha hyperacetylation at K385, and SIRT6 proximal-tubule knockout aggravates UUO fibrosis with the MDL-800 activator mitigating it. SIRT1 overexpression abolishes TGF-beta1-induced apoptosis and fibrosis through CTGF suppression, and SRT1720 attenuates UUO-induced fibrosis.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Kidney Stones",
+    "context": "SIRT3 is downregulated in kidney stone patients and protects via the Nrf2/heme oxygenase-1 pathway, while suppressing SIRT1 promotes calcium oxalate crystal-cell adhesion and exacerbates injury. SIRT1 also protects against aging-induced kidney injury through HIF-1alpha deacetylation of tubulointerstitial damage.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "Vascular Calcification",
+    "context": "SIRT6 is markedly downregulated in CKD and vascular calcification patients and suppresses osteogenic transdifferentiation of vascular smooth muscle cells via runt-related transcription factor 2. MSC exosomes inhibit high-phosphate aortic calcification through SIRT6-HMGB1 deacetylation, and soluble epoxide hydrolase destabilizes SIRT3 to accelerate VSMC calcification.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is protective in",
+    "object": "Osteoarthritis",
+    "context": "SIRT2 is protective in osteoarthritis by preventing p65 acetylation to inhibit ECM degradation, and SIRT6 inhibits chondrocyte senescence by negatively regulating NF-kB-mediated inflammatory responses. SIRT1 reduces chondrocyte apoptosis and ECM degradation via Wnt/beta-catenin, while SIRT3 has a dual role dependent on SOD2 acetylation status.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Sclerostin",
+    "context": "SIRT1 deacetylates sclerostin to activate Wnt/beta-catenin signaling and increase bone anabolism, and SIRT1 knockout mice have a low bone-mass phenotype while SIRT1 overexpression increases osteoblast osteogenesis via FoxO3a. SIRT6 inhibits age-related bone loss by stabilizing estrogen receptor alpha in preosteoblastic cells.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is decreased in",
+    "object": "Intervertebral Disc Degeneration",
+    "context": "SIRT1 is reduced in degenerative nucleus pulposus tissues with severity, and inhibits NF-kB transcriptional activity while suppressing c-Fos/c-Jun phosphorylation. SIRT2 reverses IL-1beta action by inhibiting the p53/p21 pathway, SIRT3 maintains nucleus pulposus cell homeostasis, and SIRT6 inhibits inflammatory responses and senescence via NF-kB in IDD.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is protective in",
+    "object": "Cellular Senescence",
+    "context": "SIRT3 deficiency causes lamina-associated domain detachment, increased chromatin accessibility, and aberrant repetitive-sequence transcription leading to senescence of human MSCs. SIRT1 activation of La Ribonucleoprotein 7 dampens p53 and NF-kB p65 transcriptional activity to ameliorate cellular senescence, while SIRT6 preserves telomere integrity and deacetylates Pol-beta for DNA-damage resistance.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
   }
 ]
