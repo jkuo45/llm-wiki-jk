@@ -4,7 +4,7 @@ description: SIRT7 (Sirtuin 7) is a nuclear/nucleolar sirtuin classified in phyl
   Class IVb — the same class as SIRT6 (Class IVa). Class IV sirtuins are absent from
   prokaryotes but broadly distributed in...
 created: 2026-07-02
-updated: 2026-08-03
+updated: 2026-08-11
 tags:
   - protein
   - nad-plus
@@ -74,6 +74,46 @@ SIRT7 belongs to **Class IVb**, which:
 - Evolved later than Class II and Class III sirtuins
 - Groups with [[SIRT6]] (Class IVa) as the most recently evolved mammalian sirtuin subclass
 
+## Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT7 is the **least studied** sirtuin with frequently **inconsistent/dual** roles (dual in HBV, cardiac fibrosis, CRC; context-dependent).
+
+### Cancer
+
+- **[[Breast Cancer]]**: Upregulated in BC tissue; increased expression predicts poor prognosis. Depletion inhibits tumor growth via p38/MAPK activation.
+- **[[Hepatocellular Carcinoma]]**: High expression ↔ poor survival; involved in ribosome biogenesis regulation of HCC growth.
+- **[[Colorectal Cancer]]**: Increased in CRC tissue; promotes CRC cell invasion via E-cadherin inhibition (EMT).
+- **[[Endometrial Cancer]]**: Overexpressed in EC cells vs. normal endometrial cells; downregulation inhibits invasiveness.
+- **[[Glioma]]**: Upregulated; promotes proliferation/invasion via ERK and STAT3 signaling.
+- **[[Leukemia]]**: Expression increases with positive treatment response, reduces on progression/relapse → biomarker for monitoring treatment response in myeloid stem cell disorders.
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: Protective — ameliorates stress-induced hypertrophy by deacetylating GATA4.
+- **[[Cardiac Fibrosis]]**: **Inconsistent** — enhanced expression/phosphorylation promotes fibrosis via Smad2/ERK; but SIRT7 KO also reported to result in fibrosis.
+- **[[Heart Failure]]**: Limited studies.
+- **[[Atherosclerosis]]**: Regulates VSMC proliferation/migration via Wnt/β-catenin → anti-atherosclerosis strategy.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Few studies.
+
+### Respiratory
+
+- **[[Pulmonary Fibrosis]]**: Decreased most in LF fibroblasts; decline has profibrotic effect via Smad3 changes.
+- **[[Asthma]]**: Upregulated in asthmatic bronchial epithelial cells; promotes airway remodeling via TGF-β1-induced airway smooth muscle proliferation/migration.
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD]]**: High expression in alcoholic hepatitis/NAFLD → harmful.
+- **[[Hepatitis B|HBV]]**: **Dual** — slightly elevated mRNA → pathomechanism in non-transformed hepatocytes; but restricts HBV transcription/replication via cccDNA H3 desuccinylation (protective).
+- **Inflammatory bowel disease**: Systematic KO mice susceptible to colitis.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: Future research focus; roles not yet established.
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: SIRT7-deficient mice protected against AKI → **promotes tubular damage/kidney inflammation**.
+
 ## Documents
 
 List of documents that mention this entity
@@ -117,3 +157,9 @@ List of documents that mention this entity
 - New links added: [[SIRT6]], [[SIRT1]], [[SIRT3]], [[RNA Polymerase I]], [[Breast Cancer]], [[NAD+]], [[TAFI68]], [[GATA4]], [[p53]]
 - Suggested new entity notes to create: [[RNA Polymerase I]], [[RNA Polymerase I|rDNA]], [[Ribosome Biogenesis]], thyroid carcinoma, [[H3K18ac]]
 - Strong connections to strengthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT7]] ↔ [[Breast Cancer]], [[SIRT7]] ↔ [[GATA4]]
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Breast Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Endometrial Cancer]], [[Glioma]], [[Leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Pulmonary Fibrosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Diabetes Mellitus]], [[Acute Kidney Injury]]
+- Suggested new entity notes to create: [[Endometrial Cancer]], [[Leukemia]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT7]] ↔ [[Cardiac Fibrosis]], [[SIRT7]] ↔ [[Hepatitis B]], [[SIRT7]] ↔ [[Hepatocellular Carcinoma]]

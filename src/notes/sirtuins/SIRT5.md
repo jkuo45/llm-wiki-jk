@@ -4,7 +4,7 @@ description: SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian
   of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes
   (both bacteria and archaea). This deep ...
 created: 2026-07-02
-updated: 2026-08-03
+updated: 2026-08-11
 tags:
   - protein
   - nad-plus
@@ -68,6 +68,43 @@ SIRT5 exhibits context-dependent roles in oncology:
 
 SIRT5 protects against myocardial ischaemia-reperfusion injury by maintaining mitochondrial integrity and reducing oxidative stress. In the brain, SIRT5 regulates ammonia detoxification and energy metabolism in astrocytes, and its deficiency has been linked to enhanced susceptibility to excitotoxicity.
 
+## Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT5 (desuccinylase/deglutarylase/demalonylase) has a **mixed stance** — protective in several contexts but pro-disease in diabetes mellitus, colorectal cancer, and HCC (dual).
+
+### Cancer
+
+- **[[Hepatocellular Carcinoma]]**: Lower expression; **dual** — suppresses immune evasion/bile-acid-metabolism-driven HCC, but promotes growth/metastasis via OXPHOS→glycolysis reprogramming.
+- **[[Colorectal Cancer]]**: Overexpression ↔ poor prognosis; enhances glutaminolysis (deglutarylation-dependent); deacetylates lactate dehydrogenase B → hyperactive autophagy → tumorigenesis.
+- **[[Pancreatic Cancer]]**: Expression directly correlated with favorable prognosis — loss promotes GOT1 acetylation → proliferation via glutamine/glutathione metabolism.
+- **[[Ovarian Cancer]]**: Significantly increased in OC tissue; high expression ↔ favorable survival; promotes cisplatin resistance via Nrf2/HO-1 ROS-dependent DNA-damage suppression.
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: Prevents age-related hypertrophy.
+- **[[Cardiac Fibrosis]]**: KO mice show increased fibrosis vs. age-matched WT.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Loss increases infarct size (protein succinylation modulation).
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD]]**: Systematic KO → impaired mitochondrial medium-chain fatty acid oxidation → periportal macrovascular steatosis; improves mitochondrial function/fatty acid oxidation.
+- **[[Hepatitis B|HBV]]**: Slightly elevated mRNA in infected hepatocytes → pathomechanism.
+- **Inflammatory bowel disease**: Systematic KO mice susceptible to colitis.
+
+### Nervous system
+
+- **[[Stroke]] / brain injury**: Mediates IR-induced brain damage by increasing blood-brain barrier permeability via occludin degradation.
+- **[[Epilepsy]]**: Deficiency increases mortality/seizure severity → neuroprotective role.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: **Promotes DM progression** — inhibition facilitates pancreatic β-cell proliferation/insulin secretion; negatively regulates PDX1 transcription → aggravates DM.
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: Protective — regulates mitochondrial vs. peroxisomal fatty acid oxidation balance in proximal tubular epithelial cells.
+- **Genital**: Dysregulation associated with male infertility.
+
 ## Documents
 
 List of documents that mention this entity
@@ -107,3 +144,9 @@ List of documents that mention this entity
 - New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[CPS1]], [[LDHB]], [[Sir2 (yeast)]]
 - Suggested new entity notes to create: desuccinylase activity, [[Mitochondrial Matrix]], [[HMGCS2]]
 - Strong connections to strengthen: [[SIRT5]] ↔ [[SIRT3]], [[SIRT5]] ↔ [[CPS1]], [[SIRT5]] ↔ [[NAD+]]
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Stroke]], [[Epilepsy]], [[Diabetes Mellitus]], [[Acute Kidney Injury]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT5]] ↔ [[Colorectal Cancer]], [[SIRT5]] ↔ [[Diabetes Mellitus]], [[SIRT5]] ↔ [[Non-alcoholic Fatty Liver Disease]]

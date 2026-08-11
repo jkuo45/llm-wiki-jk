@@ -4,7 +4,7 @@ description: Atherosclerosis is a disease in which the inside of an artery narro
   due to the build up of plaque. Oxidative Stress and Lipid Peroxidation are key drivers
   of plaque formation. It often involves E...
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -27,6 +27,17 @@ A major discovery linking aging, epigenetics, and atherosclerosis is **Clonal He
 Unlike genetic mutations, epigenetic marks are potentially reversible:
 *   **Epigenetic Drugs:** Inhibitors of DNA methyltransferases (DNMTs) and [[Histone Deacetylase]]s ([[HDAC]]s) are being explored to "reset" the vascular epigenome.
 *   **Lifestyle:** [[Caloric Restriction]] and exercise have been shown to delay vascular aging, likely through epigenetic reprogramming of longevity-related pathways like [[Sirtuins]]s.
+
+## 5. Sirtuin Involvement (Wu et al., 2022)
+
+Atherosclerosis is a chronic inflammatory disease involving [[LDL]], [[Endothelial Dysfunction]], immune infiltration, and plaque formation. Sirtuins are largely atheroprotective:
+
+- **[[SIRT1]]**: Protective — endothelial overexpression protects in ApoE-knockout mice ([[eNOS]] activation → inhibited endothelial apoptosis); SRT1720 activation ameliorates endothelial dysfunction (reduced [[COX-2]], oxidative stress, and inflammation); protects VSMCs from DNA damage via NBS1; reduces Lox-1-mediated [[Foam Cells|foam cell]] formation via [[NF-κB]] suppression.
+- **[[SIRT2]]**: Decreases plaque formation in LDL receptor-deficient mice via macrophage polarization.
+- **[[SIRT3]]**: Associated with endothelial apoptosis in atherosclerotic rats; SIRT3/SOD2 signaling (via circ_0003423) protects [[HUVEC]]s from oxLDL-induced dysfunction.
+- **[[SIRT4]]**: Suppresses PI3K/Akt/NF-κB signaling, relieving oxLDL-induced HUVEC injury.
+- **[[SIRT6]]**: Protects against endothelial dysfunction, VSMC senescence, and atherosclerosis; reduces oxLDL uptake in RAW macrophages via scavenger receptor 1 downregulation.
+- **[[SIRT7]]**: Regulates VSMC proliferation/migration via the Wnt/β-catenin pathway.
 
 #
 
@@ -78,8 +89,16 @@ List of documents that mention this entity
 - [[Foam Cells]] — Formed when macrophages accumulate cholesterol; hallmark of early atherosclerotic lesions
 - [[Resveratrol]] — Inhibits lipoprotein oxidation and enhances cholesterol efflux; atheroprotective
 - [[NF-kappaB]] — Pro-inflammatory transcription factor driving atherosclerotic inflammation
+- [[SIRT1]] — Endothelial overexpression protects in ApoE-KO mice; SRT1720 ameliorates endothelial dysfunction; reduces foam cell formation
+- [[SIRT2]] — Decreases plaque formation via macrophage polarization
+- [[SIRT3]] — Protects HUVECs from oxLDL dysfunction via SIRT3/SOD2 (circ_0003423)
+- [[SIRT4]] — Suppresses PI3K/Akt/NF-κB, relieving oxLDL-induced HUVEC injury
+- [[SIRT6]] — Protects against endothelial dysfunction, VSMC senescence; reduces oxLDL uptake
+- [[SIRT7]] — Regulates VSMC proliferation/migration via Wnt/β-catenin
+- [[eNOS]] — SIRT1-mediated activation inhibits endothelial apoptosis
+- [[HUVEC]] — Model of endothelial dysfunction protected by SIRT3/SOD2 and SIRT4
 
 ## Linking Summary
-- New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]
-- Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]], [[Endothelial Dysfunction]].
-  - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ DNA Methylation, Advanced Glycation End Products ↔ [[Atherosclerosis]]
+- New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT6]], [[SIRT7]], [[eNOS]], [[COX-2]], [[NF-κB]], [[HUVEC]]
+- Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]], [[Endothelial Dysfunction]], [[Scavenger Receptor]], [[VSMC]].
+  - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ DNA Methylation, Advanced Glycation End Products ↔ [[Atherosclerosis]], [[SIRT1]] ↔ [[Atherosclerosis]]

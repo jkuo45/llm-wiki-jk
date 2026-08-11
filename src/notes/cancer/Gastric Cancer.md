@@ -2,7 +2,7 @@
 title: Gastric Cancer
 description: Gastric cancer (stomach cancer) is one of the most common malignant tumors worldwide.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -24,6 +24,15 @@ Early disease is often asymptomatic; advanced symptoms include dyspepsia, weight
 ## Therapeutic Landscape
 
 Curative resection with lymphadenectomy is the mainstay for localized disease; perioperative [[Chemotherapy]] and chemoradiotherapy improve outcomes. Targeted agents include trastuzumab (HER2+), ramucirumab (anti-[[VEGF]] receptor 2), and pembrolizumab in MSI-high/PD-L1+ tumors. [[Ivermectin]] has demonstrated inhibitory effects on gastric cancer proliferation in preclinical models, where its activity depends on [[YAP1]] expression — cells with high YAP1 are more sensitive. Repurposing ivermectin, possibly with existing targeted drugs, is an active investigational avenue.
+
+## Sirtuin Involvement (Wu et al., 2022)
+
+GC is the fifth most frequently diagnosed cancer (5.6% incidence) and fourth most common cause of cancer death (7.7%). SIRT1 is upregulated while SIRT4/SIRT6 are downregulated — low SIRT4/SIRT6 negatively correlates with tumor size/pathological grade → poor prognosis:
+
+- **[[SIRT1]]**: Depletion promotes progression via STAT3/MMP-13.
+- **[[SIRT4]]**: Inhibits proliferation/migration/invasion via EMT.
+- **[[SIRT5]]**: Enhances autophagy via the AMPK/mTOR pathway; SIRT5-induced deacetylation of lactate dehydrogenase B triggers hyperactivation of autophagy, a key event in tumorigenesis.
+- **[[SIRT6]]**: Inhibits JAK2/STAT3 pathway → suppresses growth; silencing overcomes sorafenib resistance by promoting ferroptosis.
 
 ## Documents
 
@@ -58,3 +67,9 @@ List of documents that mention this entity
 - New links added: [[Ivermectin]], [[YAP1]], [[HER2]], [[Inflammation]], [[Chemotherapy]], [[trastuzumab]], [[VEGF]], [[Metastasis]], [[Helicobacter pylori]], [[TP53]], [[PI3K]], [[Akt]], [[Wnt]], [[MET]], [[Circulating tumor DNA]]
 - Suggested new entity notes to create: [[Hereditary Diffuse Gastric Cancer]], [[CDH1]]
 - Strong connections to strengthen: [[Gastric Cancer]] ↔ [[Ivermectin]], [[Gastric Cancer]] ↔ [[YAP1]]
+
+## Linking Summary (Sirtuin Involvement)
+
+- New links added: [[SIRT1]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[STAT3]], [[MMP-13]], [[AMPK]], [[mTOR]], [[Ferroptosis]]
+- Suggested new entity notes to create: [[LDHB]], [[JAK2]], [[sorafenib]]
+- Strong connections to strengthen: [[Gastric Cancer]] ↔ [[SIRT6]], [[Gastric Cancer]] ↔ [[SIRT4]], [[Gastric Cancer]] ↔ [[SIRT5]]

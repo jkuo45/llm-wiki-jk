@@ -1,8 +1,8 @@
 ---
 title: Type 2 Diabetes Mellitus
-description: 'Etiology and pathophysiology: Type 2 Diabetes Mellitus is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves gen...'
+description: Chronic metabolic disorder characterized by insulin resistance, progressive pancreatic beta-cell dysfunction, and hyperglycemia
 created: 2026-07-04
-updated: 2026-07-06
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: [T2DM, Type 2 diabetes, Non-insulin-dependent diabetes mellitus, Adult-onset diabetes]
@@ -22,6 +22,16 @@ aliases: [T2DM, Type 2 diabetes, Non-insulin-dependent diabetes mellitus, Adult-
 - [[SIRT4]] negatively regulates [[Insulin Secretion]] by repressing [[Glutamate Dehydrogenase (GDH)|GDH]] activity in pancreatic β-cells.
 - [[SIRT6]] haploinsufficiency causes lethal hypoglycemia in mice; hepatic SIRT6 loss drives [[Steatosis|steatosis]] and insulin resistance.
 - [[NAD+]] levels decline in metabolic tissues during aging and obesity, reducing sirtuin activity and contributing to T2DM pathogenesis.
+
+## Sirtuin Involvement (Wu et al., 2022)
+
+- **Expression**: SIRT1–3 are reduced in DM patients; SIRT5/SIRT6 are elevated.
+- **[[SIRT1]]**: Overexpression improves insulin sensitivity; but hepatic SIRT1 knockdown prevents fasting hyperglycemia (decreased hepatic glucose production, increased hepatic insulin responsiveness) — context-dependent.
+- **[[SIRT2]]**: Promotes glucose-dependent hepatic glucose uptake (GKRP K126 deacetylation); downregulation ameliorates reduced Akt activity and increases insulin-stimulated glucose uptake in insulin-resistant cells.
+- **[[SIRT3]]**: Knockout impairs insulin-stimulated muscle glucose uptake.
+- **[[SIRT4]]**: Overexpression → dyslipidemia/lipogenesis/decreased fatty acid oxidation (deactivates [[AMPK]], inhibits [[Insulin Secretion]]).
+- **[[SIRT5]]**: Promotes DM progression — inhibition facilitates pancreatic β-cell proliferation/insulin secretion; negatively regulates PDX1 transcription.
+- **[[SIRT6]]**: Induces PGC-1α acetylation and suppresses hepatic glucose production; cooperates with [[p53]] to deacetylate [[FoxO1]] and suppress gluconeogenic genes.
 
 #
 
@@ -48,6 +58,9 @@ List of documents that mention this entity
 - [[Resveratrol]]: A [[STACs|STAC]] shown to improve glucose homeostasis in T2DM models.
 - [[Nicotinamide Mononucleotide|NMN]] and [[Nicotinamide Riboside|NR]]: NAD+ precursors that enhance sirtuin activity and improve metabolic outcomes.
 - [[SIRT1]]: SIRT1 protects against T2DM and metabolic syndrome; [[Obesity]]: SIRT1 overexpression resists obesity.
+- [[SIRT2]]: Promotes hepatic glucose uptake (GKRP K126 deacetylation)
+- [[SIRT5]]: Promotes DM progression; regulates PDX1
+- [[SIRT6]]: Suppresses hepatic glucose production; FoxO1 deacetylation with p53
 
 ## Linking Summary
-- New links added: [[SIRT1]], [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[AMPK]], [[Insulin Sensitivity]], [[Insulin Secretion]], [[Insulin Resistance]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Glutamate Dehydrogenase (GDH)]], [[Inflammation]], [[Obesity]], [[Metabolic Syndromes]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Resveratrol]], [[STACs]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Aging]]
+- New links added: [[SIRT1]], [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[AMPK]], [[Insulin Sensitivity]], [[Insulin Secretion]], [[Insulin Resistance]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Glutamate Dehydrogenase (GDH)]], [[Inflammation]], [[Obesity]], [[Metabolic Syndromes]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Resveratrol]], [[STACs]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Aging]], [[SIRT2]], [[SIRT5]], [[FoxO1]], [[p53]], [[PGC-1α]], [[PDX1]], [[GKRP]]

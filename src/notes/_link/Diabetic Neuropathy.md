@@ -1,8 +1,8 @@
 ---
 title: Diabetic Neuropathy
-description: 'Etiology and pathophysiology: Diabetic Neuropathy is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic,...'
+description: Most prevalent complication of diabetes, a progressive disorder of peripheral nerves caused by chronic hyperglycemia
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -10,20 +10,40 @@ aliases: []
 
 # Diabetic Neuropathy
 
-**Etiology and pathophysiology:** Diabetic Neuropathy is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
+**Diabetic neuropathy (DN)** is the most prevalent complication of diabetes — ≥50% of diabetics develop DN over time. It is a progressive disorder of peripheral nerves caused by chronic hyperglycemia, characterized by sensory loss, neuropathic pain, and autonomic dysfunction. Its development involves genetic, environmental, and lifestyle risk factors.
 
-**Clinical presentation:** Diabetic Neuropathy presents with characteristic signs and symptoms that reflect the underlying pathophysiology. Diagnosis is based on clinical evaluation, laboratory tests, and imaging studies.
+## Etiology & Pathophysiology
 
-**Disease mechanisms:** The pathogenesis of Diabetic Neuropathy involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
+Diabetic neuropathy arises from hyperglycemia-driven metabolic dysregulation, [[Oxidative Stress]], advanced glycation, impaired neurotrophin signaling, and neuronal mitochondrial dysfunction. Loss of dendritic complexity and synaptic plasticity in the hippocampus underlies associated cognitive decline.
 
-**Therapeutic strategies:** Management of Diabetic Neuropathy includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
+## Sirtuin Involvement (Wu et al., 2022)
+
+- **[[SIRT1]]**: Modulates neuronal viability, differentiation, and synaptic plasticity; alleviates cognitive decline, neuropathic pain, and peripheral neuropathy. Decreased hippocampal SIRT1 in diabetic rats → reduced dendritic length and spine density, decreased TORC1/p-CREB/[[BDNF]].
+- **[[SIRT3]]**: Regulates mitochondrial function relevant to neuronal survival under diabetic stress.
+
+## Therapeutic Implications
+
+SIRT1 activation represents a candidate strategy to preserve neuronal function, synaptic plasticity, and BDNF signaling in diabetic neuropathy.
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]]
+    - Diabetic neuropathy is the most prevalent diabetic complication; SIRT1 modulates neuronal viability/synaptic plasticity and alleviates cognitive decline, neuropathic pain, and peripheral neuropathy.
+
 ## Connections
-- [[Diabetic Neuropathy]] — related entity
+- [[SIRT1]] — Modulates neuronal viability and synaptic plasticity; alleviates cognitive decline and neuropathic pain
+- [[SIRT3]] — Mitochondrial regulation in diabetic neuronal stress
+- [[BDNF]] — Decreased with hippocampal SIRT1 loss in diabetic rats
+- [[Diabetes Mellitus]] — Underlying metabolic disease
+- [[Oxidative Stress]] — Key driver of neuronal damage
+- [[Diabetic Retinopathy]] — Related microvascular complication
 
 ## Linking Summary
-- New links added: [[Diabetic Neuropathy]]
-  - Strong connections to strengthen: Diabetic Neuropathy ↔ Diabetic Neuropathy
+- New links added: [[SIRT1]], [[SIRT3]], [[BDNF]], [[Diabetes Mellitus]], [[Oxidative Stress]], [[Diabetic Retinopathy]], [[CREB]]
+- Suggested new entity notes to create: [[Diabetic Kidney Disease]], [[Neuropathic Pain]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Diabetic Neuropathy]], [[SIRT1]] ↔ [[BDNF]]
 

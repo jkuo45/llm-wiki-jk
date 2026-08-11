@@ -2,7 +2,7 @@
 title: Lung Cancer
 description: Lung cancer is the leading cause of cancer morbidity and mortality worldwide; Ivermectin inhibits its proliferation and metastasis via YAP1, EGFR, EMT, and HSP27 pathways.
 created: 2026-07-06
-updated: 2026-07-09
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -34,6 +34,15 @@ These findings position ivermectin as a candidate adjuvant that could potentiate
 The [[cGAS-STING Pathway|cGAS-STING signaling pathway]] plays a critical role in lung cancer immune surveillance through the [[SASP|Senescence-Associated Secretory Phenotype]]. In [[KRAS]]-driven lung cancer, co-mutation of *LKB1* (*STK11*) leads to silencing of [[STING]] expression, rendering tumors unable to activate cGAS-STING-dependent SASP and failing to recruit T cells for immune-mediated clearance. Re-expression of LKB1 restores STING expression and sensitizes tumors to [[Immune Checkpoint|immune checkpoint blockade]] therapy (Kitajima et al., 2019, *Cancer Discov* 9:34-45; PMID 30297358).
 
 This mechanism reveals that STING silencing in KRAS-LKB1 mutant lung cancer is an immune evasion strategy that bypasses the SASP-dependent senescence surveillance program, highlighting STING pathway restoration as a potential therapeutic approach for this aggressive lung cancer subtype.
+
+## Sirtuin Involvement (Wu et al., 2022)
+
+LC is the leading cause of cancer-related death and second most diagnosed cancer; NSCLC is the most common subtype. Significant SIRT expression differences distinguish NSCLC from non-tumor tissue → diagnostic biomarker potential (serum [[SIRT3]] distinguishes LC patients from healthy: AUC 0.918, cutoff 3.12, sensitivity 86.4%, specificity 94%). High SIRT1–3 expression ↔ poor survival in NSCLC. Sirtuin roles are conflicting, with distinct chemo/radiosensitivity effects:
+
+- **[[SIRT1]]**: Tumor suppressor (suppressed by SNHG10; protects against osteopontin-induced NF-κB p65 acetylation/EMT) but promotes lung adenocarcinoma growth via circ_0001946 → Wnt/β-catenin. Promotes cisplatin resistance via VEGF-A.
+- **[[SIRT2]]**: Suppresses NSCLC migration by deacetylating AKR1C1, inhibiting STAT3; but deacetylates phosphoglycerate mutase K100 → NADPH → accelerated tumor growth. Upregulation increases cisplatin sensitivity.
+- **[[SIRT3]]**: Reduces cisplatin resistance via FoxO3/CDT1 axis; promotes DNA repair/radioresistance via ATM–Chk2.
+- **[[SIRT6]]**: Anticarcinogenic via CHD4 coordination → chromatin relaxation/DNA repair; pro-carcinogenic via snail-dependent transrepression of KLF4 → EMT/metastasis. Inhibits glycolysis → enhances radiosensitivity.
 
 ## Documents
 
@@ -87,3 +96,9 @@ List of documents that mention this entity
 - New links added: [[Lung Cancer]], [[Ivermectin]], [[YAP1]], [[erlotinib]], [[EGFR]], [[EMT]], [[HSP27]], [[Metastasis]], [[Drug Repositioning]], [[Tumor Suppressor Gene]], [[Inflammation]], [[Oxidative Stress]], [[cGAS-STING Pathway]], [[STING]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KRAS]], [[Immune Checkpoint]]
 - Suggested new entity notes to create: [[YAP1]], [[erlotinib]], [[HSP27]], [[NSCLC]], [[STK11]], [[LKB1]]
 - Strong connections to strengthen: [[Lung Cancer]] ↔ [[Ivermectin]], [[Lung Cancer]] ↔ [[EGFR]], [[Lung Cancer]] ↔ [[cGAS-STING Pathway]], [[Lung Cancer]] ↔ [[STING]], [[KRAS]] ↔ [[LKB1]] ↔ [[STING]]
+
+## Linking Summary (Sirtuin Involvement)
+
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[EMT]], [[AKR1C1]], [[STAT3]]
+- Suggested new entity notes to create: [[SNHG10]], [[VEGF-A]], [[CDT1]], [[CHD4]], [[phosphoglycerate mutase]]
+- Strong connections to strengthen: [[Lung Cancer]] ↔ [[SIRT3]], [[Lung Cancer]] ↔ [[SIRT2]], [[Lung Cancer]] ↔ [[SIRT6]]

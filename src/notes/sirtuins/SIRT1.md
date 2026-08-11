@@ -5,7 +5,7 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-08-03
+updated: 2026-08-11
 protected: true
 tags:
   - gene
@@ -146,6 +146,91 @@ The *Trends in Genetics* review by Giblin, Skinner, and Lombard ([[_document_ - 
 - **Metabolism:** SIRT1 regulates gluconeogenesis, fatty acid oxidation and hepatic lipogenesis; SIRT1-dependent [[TFAM]] expression maintains mtDNA gene expression in muscle; age-related [[NAD+]] decline impairs the SIRT1/[[TFAM]] axis and is reversed by [[NMN]].
 - **Inflammation & cancer:** SIRT1 suppresses [[NF-κB]] (p65) signaling; both oncogenic ([[c-Myc]], [[HIF-1α]]) and tumor suppressor roles are documented.
 - **Cardiovascular:** SIRT1/[[CaMKKβ]] protect against atherosclerosis; SIRT1/[[PPARα]] oppose cardiac hypertrophy in a dose-dependent manner.
+
+## Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT1 is the most extensively studied sirtuin and shows **dual/opposing roles** in nearly every disease system — tumor suppressor vs. oncogene in cancer, protective vs. harmful in cardiovascular, digestive, kidney, and metabolic disease, depending on tissue, tumor type, and stage.
+
+### Cancer
+
+- **[[Breast Cancer]]**: Upregulated in BC tissue ↔ poor prognosis. Regulates EMT-associated programming → triple-negative BC invasion/metastasis, yet suppresses metastasis in nude mice. Represses ERα proliferative response; promotes metadherin-driven chemoresistance. Causes tamoxifen resistance (MRP2 upregulation via FoxO1 deacetylation); inhibition augments paclitaxel/doxorubicin cytotoxicity.
+- **[[Lung Cancer]]**: High SIRT1 expression ↔ poor survival in NSCLC. Suppresses NSCLC proliferation (SNHG10), protects against osteopontin-induced NF-κB p65 acetylation/EMT, but promotes lung adenocarcinoma growth via circ_0001946 → Wnt/β-catenin. Promotes cisplatin resistance via VEGF-A.
+- **[[Hepatocellular Carcinoma]]**: Higher expression ↔ poor survival. Deacetylates hnRNP A1 → suppresses glycolysis/growth.
+- **[[Colorectal Cancer]]**: Increased in CRC tissue. **Dose-dependent dual role** — heterozygous deletion induces c-Myc → glutamine metabolism → proliferation/autophagy; homozygous deletion triggers apoptosis, reduces cancer formation.
+- **[[Gastric Cancer]]**: Upregulated; depletion promotes progression via STAT3/MMP-13.
+- **[[Pancreatic Cancer]]**: Facilitates chemoresistance by regulating adaptive response to chemotherapy-induced stress.
+- **[[Ovarian Cancer]]**: High expression ↔ poor survival. Suppresses HMGB1 → inhibits migration/invasion/angiogenesis; MHY2245 (SIRT1 inhibitor) is antitumor via PKM2/mTOR blockade.
+- **[[Endometrial Cancer]]**: Elevated — promotes autophagy/proliferation via LC3 deacetylation; promotes growth and cisplatin resistance.
+- **[[Cervical Cancer]]**: Overexpressed in HPV-infected cells ↔ poor outcomes — nullifies AIM2 inflammasome-mediated immunity.
+- **[[Glioma]]**: Upregulated ↔ worse prognosis. Tumor suppressor via PAK1 K420 deacetylation (hinders glioblastoma growth); inhibition increases temozolomide sensitivity via ROS.
+- **[[Leukemia]]**: Promotes T-ALL progression via CDK2 deacetylation → p27 degradation; knockdown sensitizes AML to tyrosine kinase inhibitors.
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: **Dose-dependent dual effect** — low (2.5×)/moderate (7.5×) overexpression attenuates, high (12.5×) exacerbates Ang II-induced hypertrophy. Protective via reduced apoptosis/promoted autophagy; harmful via Akt/PDK1 membrane localization.
+- **[[Cardiac Fibrosis]]**: Protective — resveratrol activation attenuates via TGF-β/Smad3 inhibition.
+- **[[Heart Failure]]**: Decreased in advanced HF. Attenuates oxidative stress/apoptosis (MnSOD/thioredoxin1/Bcl-xL upregulation, p53 deacetylation decrease); NF-κB p65/miR-155/BDNF pathway; restores SERCA2a via K492 deacetylation.
+- **[[Atherosclerosis]]**: Protective — endothelial overexpression (eNOS activation), SRT1720 ameliorates endothelial dysfunction, VSMC DNA-damage protection via NBS1, reduces Lox-1-mediated foam cell formation via NF-κB.
+- **[[Coronary Artery Disease]]**: Genetic SIRT1 polymorphisms associated with CAD risk; reduced expression in CAD patients; lncRNA C2dat1 → SIRT1 → suppresses miR-34a → VSMC proliferation/migration.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Protective — cardiac-specific KO increases infarct size; overexpression upregulates FoxO1/MnSOD antioxidant pathways, downregulates caspase-3/Bax; miR-132 inhibition → PGC-1α/Nrf2.
+- **[[Hypertension]]**: VSMC overexpression attenuates Ang II-induced hypertension; activation attenuates Klotho-deficiency arterial stiffness (AMPKα/eNOS); NAMPT-mediated overexpression alleviates Ang II ROS. Decreased urinary SIRT1 = biomarker of early renal damage.
+
+### Respiratory
+
+- **[[COPD]]**: Substantially decreased in COPD/emphysema lungs; anti-inflammatory/anti-apoptotic/antioxidant (NF-κB, FoxO3, p53). SRT1720 inhibits LPS-induced cytokine release in COPD PBMCs.
+- **[[Pulmonary Fibrosis]]**: Loss involved in pathogenesis; activation promotes alveolar epithelial type 2 self-renewal in IPF; attenuates lung fibrosis via canonical TGF-β1/p300 signaling.
+- **[[Asthma]]**: Decreased in severe asthma; anti-inflammatory (IL-6 via Akt); inhibits IL-9-producing CD4+ T cells (mTOR–HIF-1α); miR-138-5p/SIRT1 axis blocks NF-κB.
+- **[[Acute Lung Injury]]**: Protective — KO mice highly susceptible to sepsis-induced ALI (NF-κB); resveratrol reduces ALI; but EX-527 (inhibitor) suppresses mTOR → alleviates endotoxemia ALI → detrimental in some conditions.
+- **[[COVID-19]]**: Unbalanced p53/SIRT1 axis → persistent p53 activation due to low SIRT1; increased SIRT1 may alleviate pathogenesis.
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD/FLDs]]**: Deacetylates ChREBP/SREBP-1c → maintains hepatic lipid homeostasis; blocks hepatic stellate cell activation → anti-fibrotic. **Harmful** in alcoholic hepatitis (myeloid SIRT1 prevents p-FoxO3 → apoptosis defect) and via intestinal SIRT1 → hepatic ferroptosis/inflammation (gut microbiota imbalance).
+- **Liver ischemia/reperfusion injury**: Decreased after IRI; high levels → superior survival in human liver transplants; suppresses mitochondrial dysfunction via MFN2.
+- **[[Hepatitis B|HBV]]**: Slightly elevated mRNA in infected hepatocytes → global histone hypoacetylation → pathomechanism; resveratrol (agonist) activates HBV transcription, while sirtinol/EX-527 (inhibitors) are anti-HBV.
+- **[[Pancreatitis]]**: Protective in acute pancreatitis (p53/HSF1 deacetylation); **upregulated in chronic pancreatitis** → inflammation-induced EMT (miR-278).
+- **Inflammatory bowel disease**: **Dual role** — downregulated in IBD patients; deficiency induces paneth/goblet activation, increased NF-κB; but deletion may be protective via Foxp3+ Treg induction.
+- **Intestinal ischemia/reperfusion**: Suppresses epithelial ROS accumulation/apoptosis (miR-34a-5p knockdown); resveratrol protects via SIRT1–NF-κB–iNOS–NO.
+- **Necrotizing enterocolitis / Hirschsprung-associated enterocolitis**: Activation decreases proinflammatory cytokines/oxidative stress; regulates HIF-1α to alleviate inflammation/barrier dysfunction.
+
+### Nervous system
+
+- **[[Alzheimer's Disease]]**: Reduces Aβ-induced senescence/mitochondrial dysfunction; reduces tau O-GlcNAcylation via CREB; enhances Beclin-1 deacetylation → beneficial autophagy. Inverse serum/saliva SIRT1 levels with AD → noninvasive diagnostic potential.
+- **[[Parkinson's Disease]]**: Ameliorates LC3 deacetylation-mediated autophagic degradation of α-synuclein; improves motor defects in PD mice.
+- **[[Huntington's Disease]]**: Brain-specific KO exacerbates pathology; overexpression rescues CREB-regulated transcription coactivator 1–CREB interaction → BDNF transcription.
+- **[[Stroke]] / brain injury**: Neuroprotective via oxidative/inflammatory/autophagy/apoptotic pathways; NAMPT promotes neuronal survival SIRT1-dependently during cerebral ischemia; deacetylates RNA-binding protein quaking 6 → activates PGC-1α → inhibits neuronal apoptosis.
+- **[[Epilepsy]]**: Therapeutic target to rescue circadian rhythm genes; CAY10602 (SIRT1 agonist) neuroprotective.
+- **[[Spinal Cord Injury (SCI)]]**: Neuroprotective via suppressing microglial activation/proinflammatory cytokines; AMPK/SIRT1 autophagy regulation.
+- **Cognitive deficits**: Protective against hippocampal atrophy/aging-related cognitive impairment; surgery-induced hippocampal downregulation → cognitive impairment.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: **Dual** — overexpression improves insulin sensitivity, but hepatic knockdown prevents fasting hyperglycemia (decreased hepatic glucose production, increased hepatic insulin responsiveness).
+- **[[Diabetic Kidney Disease]]**: Protective — deacetylates p53, activates FoxO3a/Nrf2; resveratrol promotes resistance to diabetic renal fibrosis via Nrf2.
+- **[[Diabetic Neuropathy]]**: Modulates neuronal viability/differentiation/synaptic plasticity; alleviates cognitive decline, neuropathic pain, peripheral neuropathy. Decreased hippocampal SIRT1 → reduced dendritic length/spine density, decreased TORC1/p-CREB/BDNF.
+- **[[Diabetic Retinopathy]]**: Overexpression prevents capillary cell apoptosis/degenerative capillary formation; reduces DM-induced retinal inflammation.
+- **[[Diabetic Cardiomyopathy]]**: Activation inhibits ROS-induced oxidative stress/fibrosis.
+- **[[Obesity]]**: Suppresses adipogenesis and stimulates energy expenditure (miR-146b axis). 
+- **[[Metabolic Syndrome]] / lipid disorders**: Downregulated; modest overexpression protects from hepatic steatosis (MnSOD/Nrf1, PGC-1α, NF-κB downregulation); HuR post-transcriptional stabilization represses inflammation/hyperglycemia.
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: Protective (JNK/DUSP16 deacetylation; p53-upregulated modulator of apoptosis/FoxO3a; NAD+/SIRT1/GSK-3β/Nrf2 axis).
+- **[[Kidney Fibrosis]]**: Overexpression abolishes TGF-β1-induced apoptosis/fibrosis (CTGF suppression); SRT1720 attenuates UUO fibrosis; represses HIF2α. But downregulation may also inhibit fibroblast activation (EGFR/PDGFR-β) → therapeutic potential.
+- **[[Kidney Stones]]**: Suppressing SIRT1 promotes calcium oxalate crystal-cell adhesion/exacerbates injury.
+- **Aging-induced kidney injury**: HIF-1α deacetylation protects tubulointerstitial damage; podocyte SIRT1 reduction → aggravated glomerulosclerosis/albuminuria.
+- **Genital**: Resveratrol/SIRT1 protective in erectile function and nicotine-induced reproductive damage; higher SIRT1 in [[PCOS]] (SIRT1/AMPK autophagy axis); overexpressed in [[Endometriosis]] (participates in pathogenesis).
+
+### Motor system
+
+- **[[Osteoarthritis]]**: Reduces apoptosis and ECM degradation via Wnt/β-catenin; reverses homocysteine-induced changes (PGC-1α/PPAR-γ cascade); inhibits EGFR ubiquitination → improved cartilage oxidative-stress resistance; inhibits chondrocyte senescence.
+- **[[Osteoporosis]]**: KO mice have low bone mass; increases osteoblast osteogenesis via FoxO3a deacetylation/oxidative-stress inhibition; deacetylates sclerostin → activates Wnt/β-catenin → increased bone anabolism; resveratrol restores alkaline phosphatase/osteocalcin via NF-κB inhibition.
+- **[[Intervertebral Disc Degeneration]]**: Reduced in degenerative nucleus pulposus; inhibits NF-κB transcriptional activity; suppresses c-Fos/c-Jun phosphorylation.
+- **[[Muscle Atrophy]]**: Inhibits drug-induced mitochondrial dysfunction → alleviates atrophy via PGC-1α signaling.
+
+### Aging
+
+- La Ribonucleoprotein 7 activation dampens p53 and NF-κB (p65) transcriptional activity → ameliorates cellular senescence; chromatin redistribution on DNA damage promotes DNA repair, genomic stability, suppresses age-dependent transcriptional changes.
 
 ## Documents
 
@@ -377,3 +462,9 @@ Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transc
 - New links added: [[Autophagy]], [[mTORC1]], [[NAMPT]], [[CD38]], [[TFEB]], [[FOXO3a]], [[Beclin1]], [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[AMPK]], [[Caloric Restriction]], [[Intermittent Fasting]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Coordinated Lysosomal Expression and Regulation|CLEAR network]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[TFEB]], [[SIRT1]] ↔ [[AMPK]], [[SIRT1]] ↔ [[FOXO3a]]
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Glioma]], [[Leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Pancreatitis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Epilepsy]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Diabetic Kidney Disease]], [[Diabetic Neuropathy]], [[Diabetic Retinopathy]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[PCOS]], [[Endometriosis]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
+- Suggested new entity notes to create: [[Diabetic Kidney Disease]], [[Diabetic Cardiomyopathy]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Leukemia]], [[PCOS]], [[Endometriosis]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Breast Cancer]], [[SIRT1]] ↔ [[Alzheimer's Disease]], [[SIRT1]] ↔ [[Diabetes Mellitus]], [[SIRT1]] ↔ [[Cardiac Hypertrophy]], [[SIRT1]] ↔ [[COPD]]

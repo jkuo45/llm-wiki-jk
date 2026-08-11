@@ -2,7 +2,7 @@
 title: Hepatocellular Carcinoma
 description: Hepatocellular carcinoma (HCC) is the most common type of primary liver cancer and a leading cause of cancer death worldwide.
 created: 2026-07-06
-updated: 2026-07-09
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -59,6 +59,16 @@ The cGAS-STING pathway represents a potential therapeutic target for HCC:
 - **Senolytics** ([[ABT-737]], [[Dasatinib]] + [[Quercetin]], [[BET inhibitors]]): Drugs that selectively eliminate senescent HSC may attenuate SASP production and reduce HCC risk.
 - **Gut microbiota modulation**: Targeting the gut-liver axis to reduce DCA production may prevent HSC senescence and SASP-driven HCC.
 
+## Sirtuin Involvement (Wu et al., 2022)
+
+HCC is the sixth most common cancer and third-leading cause of cancer-related mortality. Non-mitochondrial SIRT1, SIRT2, SIRT6 are higher and mitochondrial SIRT3–5 lower in HCC vs. normal liver; high SIRT1/SIRT7 ↔ poor survival, low SIRT4 ↔ decreased survival. Sirtuins modulate HCC via metabolic reprogramming and chemosensitivity:
+
+- **[[SIRT4]]**: Tumor suppressor via inhibiting glutamine metabolism; upregulates p16/p21, suppresses CyclinB1/Cdc2 and Cdc25c → apoptosis.
+- **[[SIRT5]]**: Dual — suppresses immune evasion/bile-acid-metabolism-driven HCC but promotes growth/metastasis via OXPHOS→glycolysis reprogramming.
+- **[[SIRT1]]/[[SIRT6]]**: Deacetylate hnRNP A1 to suppress glycolysis/growth; SIRT6 (stabilized by USP48) attenuates glycolysis/metabolic reprogramming. SIRT6 depletion downregulates multidrug resistance protein 1 → enhanced chemosensitivity.
+- **[[SIRT3]]**: CDK4/6-inhibition modulation may enhance sorafenib combination therapy; downregulates GST-π1 → enhances chemo/sorafenib-induced apoptosis.
+- **[[SIRT7]]**: High expression ↔ poor survival; involved in ribosome biogenesis regulation of HCC growth.
+
 ## Documents
 
 List of documents that mention this entity
@@ -110,3 +120,9 @@ List of documents that mention this entity
 - New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
 - Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]], [[Therapy-Induced Senescence]], [[Cytoplasmic Chromatin Fragments]]
 - Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]
+
+## Linking Summary (Sirtuin Involvement)
+
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p16]], [[p21]], [[Cdc2]], [[Cdc25c]]
+- Suggested new entity notes to create: [[hnRNP A1]], [[USP48]], [[GST-π1]], [[Sorafenib]]
+- Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[SIRT4]], [[Hepatocellular Carcinoma]] ↔ [[SIRT6]], [[Hepatocellular Carcinoma]] ↔ [[SIRT3]]

@@ -2,7 +2,7 @@
 title: Parkinson's Disease
 description: A progressive neurodegenerative disorder defined by loss of dopaminergic neurons in the substantia nigra, causing resting tremor, rigidity, bradykinesia, and postural instability. Linked to cellular senescence, inflammaging, and a distinguishable circulating SASP signature.
 created: 2026-05-29
-updated: 2026-07-25
+updated: 2026-08-11
 tags:
   - disease
   - medical-condition
@@ -80,7 +80,13 @@ Levodopa/carbidopa, dopamine agonists, MAO-B inhibitors, and deep brain stimulat
 
 [[TFEB]]-mediated autophagy has been shown to rescue dopamine neurons from α-synuclein toxicity.
 
-#
+## Sirtuin Involvement (Wu et al., 2022)
+
+Parkinson's disease is the most common movement disorder of older adults. Sirtuins modulate α-synuclein toxicity, mitochondrial function, and autophagic degradation:
+
+- **[[SIRT1]]**: Ameliorates LC3 deacetylation-mediated autophagic degradation of α-synuclein and improves motor deficits in PD mice.
+- **[[SIRT3]]**: Pharmacological SIRT3 elevation counteracts α-synuclein-induced mitochondrial dysfunction (reduced oligomers, normalized bioenergetics); age-dependent mitochondrial oxidative stress in the [[Substantia Nigra|substantia nigra]] is associated with decreased SIRT3 protective function.
+- **[[SIRT2]]**: Mediates exacerbation of α-synuclein toxicity; NAD⁺ metabolism is altered in sporadic PD cells → SIRT2 activation → decreased acetylated α-tubulin; SIRT2 deletion is protective. A rs2015 SNP may influence SIRT2 expression via miR8061 binding → PD risk (Chinese Han case-control; epidemiological data conflicting).
 
 ## Documents
 
@@ -150,9 +156,12 @@ Levodopa/carbidopa, dopamine agonists, MAO-B inhibitors, and deep brain stimulat
 - [[Lewy Bodies]]: Hallmark α-synuclein aggregates in PD
 - [[Neuromelanin]]: Progressive accumulation above pathogenic threshold triggers neuronal dysfunction
 - [[Aging]]: Main risk factor for PD
+- [[SIRT1]]: Ameliorates LC3 deacetylation-mediated autophagic degradation of α-synuclein
+- [[SIRT3]]: Counteracts α-synuclein-induced mitochondrial dysfunction; age-dependent loss in substantia nigra
+- [[SIRT2]]: Mediates α-synuclein toxicity; deletion protective; rs2015 SNP/PD risk
 
 ## Linking Summary
 
-- New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Neuroinflammation]], [[Alpha-synuclein]], [[IL-6]], [[IL-1α]], [[Neurodegenerative Diseases]], [[Dopamine]], [[Substantia Nigra]], [[Tremor]], [[Rigidity]], [[Bradykinesia]], [[Cognitive Decline]], [[Depression]], [[Synuclein]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Energy Metabolism]], [[TLR-4]], [[Neuronal Death]], [[Creatine Supplementation]], [[Resistance Training]], [[Amyotrophic Lateral Sclerosis (ALS)]], [[Huntington's Disease (HD)]], [[TFEB]], [[Autophagic Flux]], [[Autophagy]], [[Mitophagy]], [[COMT Inhibitors]], [[Disease Modeling]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]], [[Advanced Glycation End Products]], [[Neurodegeneration]]
+- New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Neuroinflammation]], [[Alpha-synuclein]], [[IL-6]], [[IL-1α]], [[Neurodegenerative Diseases]], [[Dopamine]], [[Substantia Nigra]], [[Tremor]], [[Rigidity]], [[Bradykinesia]], [[Cognitive Decline]], [[Depression]], [[Synuclein]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Energy Metabolism]], [[TLR-4]], [[Neuronal Death]], [[Creatine Supplementation]], [[Resistance Training]], [[Amyotrophic Lateral Sclerosis (ALS)]], [[Huntington's Disease (HD)]], [[TFEB]], [[Autophagic Flux]], [[Autophagy]], [[Mitophagy]], [[COMT Inhibitors]], [[Disease Modeling]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]], [[Advanced Glycation End Products]], [[Neurodegeneration]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[NAD+]]
 - Suggested new entity notes to create: [[Dopamine Neuron]], [[Dopamine Agonists]], [[Dopaminergic Neurons]], [[Dyskinesia]], [[Resting Tremor]]
-- Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Parkinson's Disease]] ↔ [[Creatine Supplementation]], [[Parkinson's Disease]] ↔ [[Dopamine]], [[Parkinson's Disease]] ↔ [[TLR-4]], [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] ↔ [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ [[Substantia Nigra]]
+- Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Parkinson's Disease]] ↔ [[Creatine Supplementation]], [[Parkinson's Disease]] ↔ [[Dopamine]], [[Parkinson's Disease]] ↔ [[TLR-4]], [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] ↔ [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ [[Substantia Nigra]], [[SIRT1]] ↔ [[Parkinson's Disease]], [[SIRT2]] ↔ [[Parkinson's Disease]]

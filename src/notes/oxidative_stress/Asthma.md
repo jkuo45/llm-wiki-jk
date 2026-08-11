@@ -4,7 +4,7 @@ description: Asthma is a common long-term inflammatory disease of the airways of
   lungs. It is characterized by variable and recurring symptoms including reversible
   airflow obstruction and bronchospasm. Oxid...
 created: 2026-05-09
-updated: 2026-07-04
+updated: 2026-08-11
 tags:
   - oxidative-stress
   - inflammation
@@ -28,6 +28,16 @@ The epithelial lining fluid (ELF) normally contains high concentrations of [[Glu
 
 ### Clinical and Therapeutic Implications
 Oxidative stress in asthma correlates with disease severity, frequency of exacerbations, and corticosteroid resistance. [[N-Acetylcysteine]] (NAC) replenishes intracellular [[Glutathione]] and has been studied as an adjunctive mucolytic and antioxidant. Dietary antioxidant supplementation with [[Vitamin C]] ([[Ascorbic Acid]]), [[Vitamin D]], and [[Polyphenols]] (e.g., [[Flavonoids]] from [[Quercetin]]) has shown modest benefit in epidemiological studies. The novel therapeutic [[Sulforaphane]] — an Nrf2 activator found in cruciferous vegetables — is under investigation for restoring antioxidant gene expression in asthmatic airway epithelium.
+
+## Sirtuin Involvement (Wu et al., 2022)
+
+Asthma affects ~300 million people worldwide. Sirtuins show mixed pro- and anti-inflammatory roles:
+
+- **[[SIRT1]]**: Decreased in severe asthma; anti-inflammatory via IL-6 regulation through Akt; inhibits IL-9-producing CD4⁺ T-cell differentiation via mTOR–HIF-1α/glycolysis; the miR-138-5p/SIRT1 axis blocks [[NF-κB]] in asthmatic mice.
+- **[[SIRT2]]**: Enhances allergic asthmatic inflammation — pharmacologic ablation attenuates, genetic overexpression exaggerates the phenotype; aggravates via Th2 responses and macrophage polarization.
+- **[[SIRT3]]**: Upregulation reduces bronchial epithelial apoptosis and airway inflammation.
+- **[[SIRT6]]**: Upregulated in asthmatic bronchial epithelial cells; ameliorates airway remodeling via [[EMT]] regulation (suppressing TGF-β1/Smad3 and c-Jun N-terminal kinase).
+- **[[SIRT7]]**: Upregulated; promotes airway remodeling via TGF-β1-induced airway smooth muscle proliferation/migration.
 
 ## Linking Summary (New Additions)
 - New links added: [[NADPH Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NRF2]], [[Catalase]], [[Superoxide Dismutase]], [[Glutathione Peroxidase]], [[Neutrophils]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Glutathione]], [[Malondialdehyde]], [[N-Acetylcysteine]], [[Ascorbic Acid]], [[Flavonoids]]
@@ -81,8 +91,13 @@ List of documents that mention this entity
 - [[Quercetin]]: Dietary antioxidant supplementation with [[Vitamin C]] ([[Ascorbic Acid]]), [[Vitamin D]], and [[Polyphenols]] (e.g.,...
 - [[Sulforaphane]]: The novel therapeutic Sulforaphane — an Nrf2 activator found in cruciferous vegetables — is under investigation for r...
 - [[Asthma]]: ## Linking Summary (New Additions) - New links added: [[NADPH Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide...
+- [[SIRT1]]: Decreased in severe asthma; anti-inflammatory via IL-6/Akt, mTOR–HIF-1α; miR-138-5p/SIRT1 blocks NF-κB
+- [[SIRT2]]: Enhances allergic asthmatic inflammation; ablation attenuates phenotype
+- [[SIRT3]]: Reduces bronchial epithelial apoptosis and airway inflammation
+- [[SIRT6]]: Ameliorates airway remodeling via EMT regulation (TGF-β1/Smad3, c-Jun N-terminal kinase)
+- [[SIRT7]]: Promotes airway remodeling via TGF-β1-induced smooth muscle proliferation/migration
 
 ## Linking Summary
-- New links added: [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Inflammation]], [[Vitamin E]]
+- New links added: [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Inflammation]], [[Vitamin E]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[SIRT7]], [[NF-κB]], [[EMT]], [[TGF-β1]]
 - Suggested new entity notes to create: [[Inflammation]], [[Airways]]
-- Strong connections to strengthen: [[Asthma]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Asthma]] ↔ [[Oxidative Stress]], [[SIRT1]] ↔ [[Asthma]]
