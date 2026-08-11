@@ -5,6 +5,10 @@ description: LipA is the mouse Lysosomal Acid Lipase, the functional orthologue
 created: 2026-07-04
 updated: 2026-07-04
 aliases: [LAL, lysosomal acid lipase, Lysosomal lipase]
+tags:
+  - enzyme
+  - lipid-metabolism
+  - lysosomal-acid-lipase
 ---
 
 # LipA

@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-05
 tags:
   - chemical-compound
-  - nad+
+  - nad-plus
 aliases: [NAM, Niacinamide, Vitamin B3, Nicotinic acid amide]
 
 ---

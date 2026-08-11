@@ -1,6 +1,14 @@
 ---
 title: Adrenochrome
 aliases: [neutrophils role in adrenochrome production, Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator, adrenochrome neutrophil and erthrocyte, Adrenochrome formation]
+tags:
+  - chemical-compound
+  - catecholamine
+  - oxidation
+  - neuromelanin
+description: 'Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a member of the Aminochromes family and minor metabolic byproduct rather than a primary hormone.'
+created: 2026-07-21
+updated: 2026-08-09
 ---
 
 # Adrenochrome

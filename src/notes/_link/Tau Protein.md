@@ -1,8 +1,6 @@
 ---
 title: Tau Protein
-description: 'Overview: Tau Protein is a cellular protein with structural, signaling,'
-  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that gove...
+description: 'Overview: Tau Protein is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that gove...'
 created: 2026-05-09
 updated: 2026-07-06
 tags:

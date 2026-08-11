@@ -6,6 +6,10 @@ description: DNA damage refers to any chemical or physical alteration to the
 created: 2026-07-04
 updated: 2026-07-06
 aliases: [DNA lesion, DNA injury, genomic damage, Oxidative DNA Damage]
+tags:
+  - biological-process
+  - dna-damage
+  - genome-integrity
 ---
 
 # DNA Damage

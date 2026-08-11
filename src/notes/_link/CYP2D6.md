@@ -1,7 +1,6 @@
 ---
 title: CYP2D6
-description: 'Catalytic function: CYP2D6 is an enzyme that catalyzes biochemical'
-  reactions essential for cellular metabolism and homeostasis.
+description: 'Catalytic function: CYP2D6 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

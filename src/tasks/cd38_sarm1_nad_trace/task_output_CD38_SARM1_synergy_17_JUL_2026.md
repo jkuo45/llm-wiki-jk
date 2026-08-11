@@ -7,7 +7,7 @@ tags:
   - task-output
   - cd38
   - sarm1
-  - nad+
+  - nad-plus
   - nicotinamide-riboside
   - sirtuins
   - combination-therapy

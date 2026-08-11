@@ -3,6 +3,11 @@ title: Caspase
 description: Table of caspase phosphorylation sites and their regulation in cancer
 created: 2026-07-06
 aliases: []
+tags:
+  - document
+  - apoptosis
+  - cancer
+updated: 2026-07-06
 ---
 # Caspase
 

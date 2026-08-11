@@ -12,6 +12,7 @@ tags:
   - redox
   - hormetic-window
   - mitochondria
+updated: 2026-07-14
 ---
 
 # SIRT3/SIRT4 Biomarker Feasibility & the MnSOD Redox Axis as a Mitohormetic-Window Indicator

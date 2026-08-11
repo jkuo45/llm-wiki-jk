@@ -7,7 +7,7 @@ tags:
   - task-output
   - cd38
   - sarm1
-  - nad+
+  - nad-plus
   - nmn
   - cadr
   - nicotinamide-riboside

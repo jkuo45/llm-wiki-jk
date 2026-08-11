@@ -8,6 +8,9 @@ tags:
   - mitohormesis
 aliases:
   - Adrenochrome Research Evaluation
+description: 'Adrenochrome longevity research plan synthesizing pathways, biomarkers, and protocols.'
+created: 2026-06-11
+updated: 2026-06-11
 ---
 
 # Research Evaluation: Adrenochrome as a Potential Longevity Modulator

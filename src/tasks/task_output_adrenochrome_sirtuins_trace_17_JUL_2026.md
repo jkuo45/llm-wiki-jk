@@ -9,7 +9,7 @@ tags:
   - sirtuins
   - oxidative-stress
   - mitohormesis
-  - nad+
+  - nad-plus
   - redox-homeostasis
   - apoptosis
   - knowledge-graph

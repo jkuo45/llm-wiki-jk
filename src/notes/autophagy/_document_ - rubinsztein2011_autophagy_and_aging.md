@@ -2,6 +2,8 @@
 title: rubinsztein2011_autophagy_and_aging
 source: rubinsztein2011_autophagy_and_aging.pdf
 tags: [pdf, parsed]
+description: 'Rubinsztein, Mariño & Kroemer (2011) review of the role of autophagy in aging and lifespan regulation.'
+created: 2026-07-21
 ---
 
 Leading Edge Review 

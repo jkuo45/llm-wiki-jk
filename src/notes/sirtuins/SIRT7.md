@@ -7,7 +7,7 @@ created: 2026-07-02
 updated: 2026-08-03
 tags:
   - protein
-  - nad+
+  - nad-plus
 aliases:
   - Sirtuin 7
   - nucleolar sirtuin

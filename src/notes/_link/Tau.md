@@ -6,7 +6,7 @@ description: Microtubule-associated protein tau (MAPT) is an intrinsically disor
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - alzheimer's-disease
+  - alzheimers-disease
   - tauopathy
   - neurodegeneration
 aliases: [MAPT, microtubule-associated protein tau, Tau protein, Tau hyperphosphorylation]

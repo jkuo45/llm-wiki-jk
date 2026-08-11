@@ -1,8 +1,6 @@
 ---
 title: Receptor Tyrosine Kinases
-description: 'Overview: Receptor Tyrosine Kinases is a cellular protein with structural,'
-  signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular
-  complexes and signaling netw...
+description: 'Overview: Receptor Tyrosine Kinases is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling netw...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

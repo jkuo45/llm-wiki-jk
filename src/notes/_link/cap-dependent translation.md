@@ -1,8 +1,6 @@
 ---
 title: cap-dependent translation
-description: 'Definition: cap-dependent translation is a fundamental biological'
-  process that maintains cellular and organismal homeostasis. It involves coordinated
-  molecular events regulated by signaling pat...
+description: 'Definition: cap-dependent translation is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pat...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

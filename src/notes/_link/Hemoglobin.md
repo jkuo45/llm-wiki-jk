@@ -1,7 +1,6 @@
 ---
 title: Hemoglobin
-description: '- Methemoglobin: An oxidized form of hemoglobin (Fe³⁺) that cannot transport'
-  oxygen.
+description: '- Methemoglobin: An oxidized form of hemoglobin (Fe³⁺) that cannot transport oxygen.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

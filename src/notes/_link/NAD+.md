@@ -7,11 +7,11 @@ created: 2026-07-04
 updated: 2026-07-26
 tags:
   - chemical-compound
-  - nad+
+  - nad-plus
 aliases:
   - NAD+
   - nicotinamide adenine dinucleotide
-  - NAD
+  - nad
   - oxidised NAD
 
 ---

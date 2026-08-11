@@ -16,6 +16,7 @@ tags:
   - fenbendazole
   - cancer
   - repurposed-drugs
+updated: 2026-07-28
 ---
 
 # Oral Fenbendazole for Cancer Therapy in Humans and Animals

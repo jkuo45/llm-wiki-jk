@@ -7,8 +7,8 @@ created: 2026-05-25
 updated: 2026-07-29
 tags:
   - enzyme
-  - Catechol-O-methyltransferase
-  - Catechol-O-methyltransferase
+  - catechol-o-methyltransferase
+  - catechol-o-methyltransferase
 protected: true
 ---
 

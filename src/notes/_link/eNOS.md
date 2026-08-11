@@ -6,6 +6,10 @@ description: eNOS (Endothelial Nitric Oxide Synthase, NOS3) is a constitutively
 created: 2026-07-04
 updated: 2026-07-04
 aliases: [Enos, eNOS (endothelial nitric oxide synthase), eNOS Uncoupling]
+tags:
+  - enzyme
+  - nitric-oxide
+  - vascular-biology
 ---
 
 # eNOS

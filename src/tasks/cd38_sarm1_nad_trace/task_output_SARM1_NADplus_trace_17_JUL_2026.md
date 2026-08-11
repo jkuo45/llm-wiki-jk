@@ -6,7 +6,7 @@ updated: 2026-07-17
 tags:
   - task-output
   - sarm1
-  - nad+
+  - nad-plus
   - wallerian-degeneration
   - axon-degeneration
   - nmnat2

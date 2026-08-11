@@ -11,14 +11,14 @@ created: 2026-07-06
 updated: 2026-07-06
 description: "Comparative analysis of MnSOD (SOD2) reaction mechanisms in sirtuin-mediated longevity signaling and adrenochrome redox cycling pathways"
 tags:
-  - MnSOD
-  - SOD2
+  - mnsod
+  - sod2
   - sirtuins
   - adrenochrome
   - redox
   - hormesis
   - mitochondria
-  - ROS
+  - ros
 ---
 
 # [[MnSOD]] in [[Sirtuins|Sirtuin]] Signaling vs. [[Adrenochrome]] Pathway: A Comparative Mechanistic Analysis

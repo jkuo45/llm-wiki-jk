@@ -1,8 +1,6 @@
 ---
 title: LAMP-2A
-description: 'Overview: LAMP-2A is a cellular protein with structural, signaling,'
-  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern c...
+description: 'Overview: LAMP-2A is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern c...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

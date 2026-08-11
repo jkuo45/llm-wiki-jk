@@ -1,7 +1,6 @@
 ---
 title: Cyclooxygenases
-description: 'Catalytic function: Cyclooxygenases is an enzyme that catalyzes'
-  biochemical reactions essential for cellular metabolism and homeostasis.
+description: 'Catalytic function: Cyclooxygenases is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,8 +1,6 @@
 ---
 title: Endoplasmic Reticulum Stress
-description: 'Definition: Endoplasmic Reticulum Stress is a fundamental biological'
-  process that maintains cellular and organismal homeostasis. It involves coordinated
-  molecular events regulated by signaling ...
+description: 'Definition: Endoplasmic Reticulum Stress is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling ...'
 created: 2026-07-04
 updated: 2026-07-06
 tags:

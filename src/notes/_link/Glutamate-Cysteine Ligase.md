@@ -1,7 +1,6 @@
 ---
 title: Glutamate-Cysteine Ligase
-description: 'Catalytic function: Glutamate-Cysteine Ligase is an enzyme that'
-  catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
+description: 'Catalytic function: Glutamate-Cysteine Ligase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,8 +1,6 @@
 ---
 title: Tetrahydrobiopterin
-description: 'Biochemical properties: Tetrahydrobiopterin is an endogenous metabolite'
-  involved in cellular energy metabolism, redox reactions, or biosynthetic pathways.
-  Its cellular concentration reflects me...
+description: 'Biochemical properties: Tetrahydrobiopterin is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects me...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

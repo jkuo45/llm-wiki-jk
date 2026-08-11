@@ -5,7 +5,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - enzyme
-  - nad+
+  - nad-plus
 aliases: []
 ---
 # NADH-dependent methemoglobin reductase

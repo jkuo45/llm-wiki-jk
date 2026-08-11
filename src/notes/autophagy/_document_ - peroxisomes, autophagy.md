@@ -4,6 +4,11 @@ description: Overview of peroxisome structure, function, biogenesis, and relatio
   to autophagy
 created: 2026-07-06
 aliases: []
+tags:
+  - document
+  - peroxisomes
+  - autophagy
+updated: 2026-07-06
 ---
 ➜  llm-wiki-jk git:(dev) ollama run gemma3:latest
 >>> explain peroxisomes

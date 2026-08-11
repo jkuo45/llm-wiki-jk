@@ -6,7 +6,7 @@ updated: 2026-07-08
 tags:
   - biological-process
   - metabolism
-  - nad+
+  - nad-plus
 aliases:
   - KP
   - kynurenine pathway

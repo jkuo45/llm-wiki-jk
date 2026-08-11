@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-05
 tags:
   - biological-molecule
-  - nad+
+  - nad-plus
 aliases:
   - Nicotinamide Riboside
   - NR

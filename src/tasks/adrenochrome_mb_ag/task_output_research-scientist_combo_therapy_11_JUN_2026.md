@@ -10,6 +10,8 @@ tags:
 aliases:
   - Adrenochrome Combo Therapy
 updated: 2026-07-08
+description: 'Research-scientist analysis of adrenochrome-based combination therapies (MRR, SRAC, GOPS).'
+created: 2026-06-11
 ---
 
 # Adrenochrome-Based Combination Therapies for Senescence and Mitochondrial Dysfunction

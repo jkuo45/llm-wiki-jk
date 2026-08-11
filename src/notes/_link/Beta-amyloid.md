@@ -5,7 +5,7 @@ description: Peptides of 36–43 amino acids that are the main component of the 
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - alzheimer's-disease
+  - alzheimers-disease
   - neurodegeneration
   - amyloid
   - chemical-compound

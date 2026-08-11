@@ -1,16 +1,15 @@
 ---
 title: HIF-1α
-description: HIF-1α (Hypoxia-inducible factor 1-alpha) is a transcription factor that
-  mediates cellular responses to low oxygen (hypoxia). It regulates metabolic reprogramming,
-  including the shift to Glycolysis...
-created: 2026-07-04
-updated: 2026-07-04
+description: HIF-1α (Hypoxia-inducible factor 1-alpha) is a transcription factor that mediates cellular responses to low oxygen (hypoxia). It regulates metabolic reprogramming, including the shift to Glycolysis...
+created: '2026-07-04'
+updated: '2026-07-04'
 tags:
   - protein
-aliases: [HIF1A, HIF-1α, HIF1alpha, Hypoxia-inducible factor 1-alpha]
-  - Hypoxia-inducible factor 1-alpha
+aliases:
   - HIF1A
-
+  - HIF-1α
+  - HIF1alpha
+  - Hypoxia-inducible factor 1-alpha
 ---
 
 

@@ -10,8 +10,8 @@ tags:
   - antioxidant
   - oxidative-stress
 aliases:
-  - MnSOD
-  - SOD2
+  - mnsod
+  - sod2
 ---
 
 # Manganese superoxide dismutase

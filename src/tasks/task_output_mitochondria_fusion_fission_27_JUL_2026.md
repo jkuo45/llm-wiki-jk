@@ -8,10 +8,10 @@ tags:
   - research-gaps
   - fission
   - fusion
-  - DRP1
-  - MFN1
-  - MFN2
-  - OPA1
+  - drp1
+  - mfn1
+  - mfn2
+  - opa1
   - mitophagy
 ---
 

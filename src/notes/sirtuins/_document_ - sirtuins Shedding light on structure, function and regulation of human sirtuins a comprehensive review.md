@@ -1,10 +1,6 @@
 ---
-title: 'Shedding light on structure, function and regulation of human sirtuins: a'
-  comprehensive review
-description: Sirtuins play an important role in signalling pathways associated with
-  various metabolic regulations. They possess mono-ADP-ribosyltransferase or deacylase
-  activity like demalonylase, deacetylase, depalmitoylase, demyristoylase and desuccinylase
-  ...
+title: 'Shedding light on structure, function and regulation of human sirtuins: a comprehensive review'
+description: 'Sirtuins play an important role in signalling pathways associated with various metabolic regulations. They possess mono-ADP-ribosyltransferase or deacylase activity like demalonylase, deacetylase, depalmitoylase, demyristoylase and desuccinylase.'
 created: 2026-07-01
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/
 author:

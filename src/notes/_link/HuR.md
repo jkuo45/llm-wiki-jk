@@ -1,8 +1,6 @@
 ---
 title: HuR
-description: 'Overview: HuR is a cellular protein with structural, signaling,'
-  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...
+description: 'Overview: HuR is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell ...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

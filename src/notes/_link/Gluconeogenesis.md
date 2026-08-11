@@ -1,8 +1,6 @@
 ---
 title: Gluconeogenesis
-description: 'Definition: Gluconeogenesis is a fundamental biological process'
-  that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and ...
+description: 'Definition: Gluconeogenesis is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and ...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

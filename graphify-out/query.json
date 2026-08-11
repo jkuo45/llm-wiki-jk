@@ -2322,5 +2322,249 @@
     ],
     "mechanism": "Mitohormesis relies on creating a temporary, acute increase in reactive oxygen species (ROS) or a transient cellular energy deficit. This activates AMPK, PGC-1α, SIRT1, and NRF2, driving mitochondrial biogenesis, mitophagy, and endogenous antioxidant defense systems. Exogenous antioxidants block this by quenching the ROS signal before the adaptive program can initiate.\n\nAntioxidant ranking by evidence:\n\n1. NAC — Strongest direct evidence. In C. elegans, glucose restriction normally increases mitochondrial respiration → ROS → catalase induction → lifespan extension. NAC pre-treatment completely abolished both the ROS rise and the longevity benefit (Schulz et al. 2007, Mitohormesis - 2014_FEB.md:103). NAC is also a selective PRDX6 peroxidase inhibitor (IC50 15.5 µM). However, NAC has a dual role: in the SASP-Remodeling Aminochrome Complex, GlyNAC is used with deliberate timing as a buffer to prevent a hormetic pulse from becoming cytotoxic.\n\n2. Vitamin C — Strongest human evidence. Gomez-Cabrera et al. 2008 (PMID: 18175748): oral vitamin C decreased muscle mitochondrial biogenesis and hampers training-induced adaptations in endurance performance. This is one of the cleanest human studies showing antioxidant interference with a hormetic stressor (exercise).\n\n3. Vitamin E — Strongest clinical trial failures but weaker mechanistic evidence. SELECT trial (Lippman 2009, PMID: 19066370): vitamin E 400 IU/day increased prostate cancer risk 17%. HOPE trial (Lonn 2005, PMID: 15769967): no cardiovascular benefit, trend toward increased heart failure. Effects are COMT genotype-dependent: slow COMT (Met/Met) individuals derive cancer-preventive benefit, fast COMT (Val/Val) individuals may experience increased cancer risk. No direct experimental study shows vitamin E blocking the mitohormetic ROS signal the way NAC does.\n\nTiming: The wiki specifically warns against 'high-dose synthetic antioxidants (e.g., Vitamin C or E pills) post-workout' as these 'blunt the necessary acute ROS signal required for mitohormetic adaptation' (mitohormesis, heart rate variability.md:252). However, both landmark studies (Ristow 2009, Gomez-Cabrera 2008) used chronic daily supplementation — neither tested temporal separation. Vitamin C has a tissue half-life of ~10-20 days; even if taken hours before exercise, tissue levels are already elevated. The practical conclusion is that chronic steady-state elevation of exogenous antioxidants blocks mitohormesis regardless of timing.\n\nThe body's own response is the point: exercise itself upregulates endogenous antioxidant enzymes (SOD, catalase, GPx) via NRF2 activation. The Ristow study showed the antioxidant-supplemented group failed to upregulate these endogenous defenses while the exercise-only group succeeded. Exogenous supply signals 'you don't need to build your own.'\n\nWhat to do instead: skip synthetic antioxidant pills; get antioxidants from polyphenol-rich foods (blueberries, dark chocolate, green tea/EGCG, EVOO) which work via NRF2 activation not direct scavenging; cruciferous vegetables (sulforaphane) for NRF2 activation; CoQ10/ubiquinol and PQQ for ETC function; let exercise-induced ROS do its job.",
     "sourceFile": "src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "id": "nad-decline-sasp-via-sirt1",
+    "title": "NAD+ Decline → SIRT1 Hypoactivity → SASP Amplification",
+    "question": "How does age-related NAD+ decline drive the SASP through SIRT1, and what are the mechanistic routes by which SIRT1 loss unleashes inflammatory senescence?",
+    "date": "2026-08-06",
+    "method": "Wiki knowledge base synthesis (NAD+, SIRT1, SASP, Senescence, Inflammaging, Senescence-associated mitochondrial dysfunction entity notes)",
+    "summary": "Age-related NAD+ decline (reduced NAMPT salvage, increased CD38/PARP1/SARM1 consumption) starves SIRT1 of its obligate co-substrate, disabling three SASP-suppressive mechanisms: (1) NF-κB/RelA-p65 deacetylation (direct transcriptional brake on IL-6/IL-8/TNFα), (2) epigenetic silencing via H3K9ac/H4K16ac deacetylation at SASP gene promoters, and (3) autophagy/mitophagy gene programs (FOXO3a→BNIP3/BNIP3L, TFEB→CLEAR network) that clear damaged mitochondria. Without SIRT1-driven mitophagy, dysfunctional mitochondria accumulate, releasing mtDNA via miMOMP to activate the cGAS-STING–NF-κB axis — a feed-forward SASP amplification loop. The reduced NAD+/NADH ratio independently triggers MiDAS (mitochondrial dysfunction-associated senescence) via AMPK–p53 signaling. SIRT1 also deacetylates NAMPT, forming a SIRT1→NAMPT→NAD+→SIRT1 positive-feedback loop that, once broken, is difficult to restore. Interventions (CR/IF, NMN/NR, STACs like resveratrol) refill the NAD+ pool or directly activate SIRT1, but SIRT1's biology is context-dependent — it can promote senescence in certain backgrounds.",
+    "sourceUrl": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/",
+    "centerNode": {
+      "id": "nad",
+      "label": "NAD+"
+    },
+    "routes": [
+      {
+        "name": "NAD+ decline → SIRT1 → NF-κB derepression → SASP transcription",
+        "hops": 3,
+        "path": [
+          "nad",
+          "sirt1",
+          "nf_kappa_b",
+          "sasp"
+        ],
+        "mechanism": "SIRT1 deacetylates RelA/p65 at Lys310, inhibiting NF-κB transactivation. NAD+ decline disables this brake, derepressing NF-κB-driven transcription of IL-6, IL-8, and TNFα — the core pro-inflammatory SASP cytokines."
+      },
+      {
+        "name": "NAD+ decline → SIRT1 → epigenetic silencing loss at SASP loci",
+        "hops": 3,
+        "path": [
+          "nad",
+          "sirt1",
+          "senescence",
+          "sasp"
+        ],
+        "mechanism": "SIRT1 deacetylates H3K9ac and H4K16ac at IL-6/IL-8 gene promoters, maintaining epigenetic silencing. NAD+ decline removes this chromatin-level brake, allowing constitutive SASP gene expression. IL-11 (pro-fibrotic SASP factor) is also activated as a consequence of SIRT1 downregulation."
+      },
+      {
+        "name": "NAD+ decline → SIRT1 → autophagy/mitophagy failure → mtDNA → cGAS-STING → SASP amplification",
+        "hops": 5,
+        "path": [
+          "nad",
+          "sirt1",
+          "autophagy",
+          "mitophagy",
+          "cgas_sting_pathway",
+          "sasp"
+        ],
+        "mechanism": "SIRT1 deacetylates FOXO3a (→BNIP3/BNIP3L mitophagy receptors), TFEB (→CLEAR network lysosomal biogenesis), and core Atg machinery (Atg5/Atg7/LC3). NAD+ decline cripples this mitophagy program, allowing damaged mitochondria to accumulate. Their ROS and miMOMP-mediated mtDNA release activate the cGAS-STING–NF-κB axis, amplifying the SASP in a feed-forward loop."
+      },
+      {
+        "name": "NAD+/NADH ratio → MiDAS (AMPK–p53 senescence)",
+        "hops": 3,
+        "path": [
+          "nad",
+          "ampk",
+          "p53",
+          "senescence"
+        ],
+        "mechanism": "A reduced NAD+/NADH ratio is sufficient to trigger mitochondrial dysfunction-associated senescence (MiDAS) via AMPK–p53 signaling, producing a distinct secretory phenotype independent of classical SASP drivers."
+      },
+      {
+        "name": "SIRT1 → NAMPT → NAD+ (positive-feedback loop)",
+        "hops": 3,
+        "path": [
+          "sirt1",
+          "nampt",
+          "nad"
+        ],
+        "mechanism": "SIRT1 deacetylates NAMPT (the rate-limiting enzyme in the NAD+ salvage pathway), enhancing its enzymatic activity. This creates a SIRT1→NAMPT→NAD+→SIRT1 positive-feedback loop. Age-related NAD+ decline breaks this loop, making recovery progressively harder without exogenous intervention (NMN/NR)."
+      },
+      {
+        "name": "CD38/PARP1/SARM1 → NAD+ consumption (upstream drivers)",
+        "hops": 2,
+        "path": [
+          "cd38",
+          "nad",
+          "sirt1"
+        ],
+        "mechanism": "CD38 (inflammaging-driven ecto-NMNase in immune cells), PARP1 (DNA damage-driven NAD+ sink), and SARM1 (acute axonal NADase) collectively deplete the NAD+ pool that SIRT1 requires. CD38 is the primary age-related consumer."
+      },
+      {
+        "name": "NAD+ restoration via NAMPT salvage pathway",
+        "hops": 2,
+        "path": [
+          "caloric_restriction",
+          "nad"
+        ],
+        "mechanism": "Caloric restriction and intermittent fasting raise NAD+/NADH ratio by activating AMPK and upregulating NAMPT expression. This partially restores SIRT1 activity and re-engages the positive-feedback loop."
+      },
+      {
+        "name": "Exogenous NAD+ precursor supplementation",
+        "hops": 2,
+        "path": [
+          "nicotinamide_riboside",
+          "nad"
+        ],
+        "mechanism": "NMN and Nicotinamide Riboside (NR) bypass the NAMPT bottleneck to directly refill the NAD+ pool, restoring SIRT1 activity and its downstream SASP-suppressive functions. The wiki notes NR/NMN restore quiescence and delay senescence in aged stem cells."
+      },
+      {
+        "name": "STACs (Resveratrol) → SIRT1 activation",
+        "hops": 2,
+        "path": [
+          "resveratrol",
+          "sirt1"
+        ],
+        "mechanism": "Sirtuin-activating compounds (STACs) like resveratrol directly activate SIRT1, partially compensating for lower NAD+ levels. Clinical translation remains debated, and SIRT1's context-dependent biology means STACs may promote senescence in certain backgrounds."
+      },
+      {
+        "name": "SASP → Inflammaging → CD38 → NAD+ decline (vicious cycle)",
+        "hops": 4,
+        "path": [
+          "sasp",
+          "inflammaging",
+          "cd38",
+          "nad",
+          "sirt1"
+        ],
+        "mechanism": "SASP drives inflammaging → recruits CD38+ immune cells into tissues → CD38 degrades extracellular NAD+/NMN → further NAD+ decline → more SIRT1 hypoactivity → more SASP. This self-reinforcing cycle is a central mechanism of age-related tissue dysfunction."
+      }
+    ],
+    "keyNodes": [
+      {
+        "id": "nad",
+        "label": "NAD+",
+        "role": "Central metabolic cofactor; obligate SIRT1 co-substrate; declines with age"
+      },
+      {
+        "id": "sirt1",
+        "label": "SIRT1",
+        "role": "NAD+-dependent deacetylase; master SASP suppressor via NF-κB, histones, autophagy"
+      },
+      {
+        "id": "sasp",
+        "label": "SASP",
+        "role": "Senescence-Associated Secretory Phenotype; IL-6, IL-8, TNFα, IL-11, MMPs"
+      },
+      {
+        "id": "nf_kappa_b",
+        "label": "NF-κB",
+        "role": "Master SASP transcription factor; deacetylated/inhibited by SIRT1"
+      },
+      {
+        "id": "senescence",
+        "label": "Senescence",
+        "role": "Cellular state producing SASP; triggered by NAD+ decline via MiDAS"
+      },
+      {
+        "id": "inflammaging",
+        "label": "Inflammaging",
+        "role": "Chronic age-related inflammation driven by SASP; recruits CD38+ immune cells"
+      },
+      {
+        "id": "cd38",
+        "label": "CD38",
+        "role": "Primary age-related NAD+ glycohydrolase; inflammaging-driven"
+      },
+      {
+        "id": "parp1",
+        "label": "PARP1",
+        "role": "DNA damage-responsive NAD+ consumer; competes with SIRT1"
+      },
+      {
+        "id": "sarm1",
+        "label": "SARM1",
+        "role": "Axonal NADase; acute NAD+ catastrophe in neurons"
+      },
+      {
+        "id": "nampt",
+        "label": "NAMPT",
+        "role": "Rate-limiting NAD+ salvage enzyme; SIRT1 substrate (positive feedback)"
+      },
+      {
+        "id": "ampk",
+        "label": "AMPK",
+        "role": "Energy sensor; triggers MiDAS via p53 when NAD+/NADH drops"
+      },
+      {
+        "id": "p53",
+        "label": "p53",
+        "role": "Tumor suppressor; context-dependent SASP regulator; deacetylated by SIRT1"
+      },
+      {
+        "id": "foxo3a",
+        "label": "FOXO3a",
+        "role": "SIRT1 target; drives BNIP3/BNIP3L mitophagy and autophagy genes"
+      },
+      {
+        "id": "tfeb",
+        "label": "TFEB",
+        "role": "Master lysosomal/autophagy regulator; SIRT1 deacetylates to activate"
+      },
+      {
+        "id": "autophagy",
+        "label": "Autophagy",
+        "role": "Quality-control pathway suppressed by SIRT1 loss; restrains SASP"
+      },
+      {
+        "id": "mitophagy",
+        "label": "Mitophagy",
+        "role": "Selective mitochondrial autophagy; clears ROS-emitting mitochondria"
+      },
+      {
+        "id": "bnip3",
+        "label": "BNIP3",
+        "role": "Mitophagy receptor; FOXO3a transcriptional target"
+      },
+      {
+        "id": "cgas_sting_pathway",
+        "label": "cGAS-STING",
+        "role": "Cytosolic DNA sensor; activated by mtDNA release from damaged mitochondria"
+      },
+      {
+        "id": "caloric_restriction",
+        "label": "Caloric Restriction",
+        "role": "Raises NAD+/NADH via AMPK/NAMPT; restores SIRT1 activity"
+      },
+      {
+        "id": "nicotinamide_riboside",
+        "label": "Nicotinamide Riboside",
+        "role": "NAD+ precursor; bypasses NAMPT bottleneck"
+      },
+      {
+        "id": "resveratrol",
+        "label": "Resveratrol",
+        "role": "STAC; directly activates SIRT1; clinical translation debated"
+      },
+      {
+        "id": "il_6",
+        "label": "IL-6",
+        "role": "Core SASP cytokine; NF-κB target; epigenetically silenced by SIRT1"
+      },
+      {
+        "id": "il_8",
+        "label": "IL-8",
+        "role": "Core SASP chemokine; NF-κB target; epigenetically silenced by SIRT1"
+      },
+      {
+        "id": "tnf",
+        "label": "TNFα",
+        "role": "Pro-inflammatory SASP cytokine; NF-κB target"
+      }
+    ],
+    "mechanism": "Age-related NAD+ decline removes the metabolic gate on SIRT1, disabling three convergent SASP-suppressive mechanisms:\n\n**Route 1 — Transcriptional (NF-κB):** SIRT1 deacetylates RelA/p65 at Lys310, inhibiting NF-κB transactivation. Loss of this brake derepresses IL-6, IL-8, and TNFα transcription — the core inflammatory SASP.\n\n**Route 2 — Epigenetic (histone acetylation):** SIRT1 deacetylates H3K9ac and H4K16ac at SASP gene promoters, maintaining chromatin-level silencing. NAD+ decline removes this epigenetic brake, allowing constitutive SASP expression. IL-11 (pro-fibrotic SASP) is specifically activated as a consequence of SIRT1 downregulation.\n\n**Route 3 — Organelle quality control (autophagy/mitophagy):** SIRT1 deacetylates FOXO3a (→BNIP3/BNIP3L), TFEB (→CLEAR network), and core Atg proteins. Without this, damaged mitochondria accumulate, releasing mtDNA via miMOMP to activate the cGAS-STING–NF-κB axis — a feed-forward SASP amplification loop.\n\n**Route 4 — MiDAS:** The reduced NAD+/NADH ratio independently triggers mitochondrial dysfunction-associated senescence via AMPK–p53, producing a distinct secretory phenotype.\n\n**The vicious cycle:** SASP → inflammaging → CD38+ immune cell infiltration → CD38 degrades extracellular NAD+/NMN → deeper NAD+ decline → more SIRT1 hypoactivity → more SASP. The SIRT1→NAMPT→NAD+→SIRT1 positive-feedback loop, once broken, makes recovery progressively harder.\n\n**Caveat:** SIRT1's role in senescence is context-dependent — it can promote senescence in certain backgrounds (e.g., via p53 deacetylation that may be counterproductive in some settings). Clinical translation of STACs remains debated.",
+    "sourceFile": "src/notes/"
   }
 ]

@@ -1,7 +1,6 @@
 ---
 title: Immune Aging
-description: '- Thymic Involution: The shrinking of the thymus, leading to reduced'
-  production of naïve T Cell.
+description: '- Thymic Involution: The shrinking of the thymus, leading to reduced production of naïve T Cell.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

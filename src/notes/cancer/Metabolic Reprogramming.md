@@ -1,7 +1,6 @@
 ---
 title: Metabolic Reprogramming
-description: '- Aerobic Glycolysis: Also known as the Warburg Effect, where cells'
-  prefer Glycolysis even in the presence of oxygen.
+description: '- Aerobic Glycolysis: Also known as the Warburg Effect, where cells prefer Glycolysis even in the presence of oxygen.'
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -3,6 +3,11 @@ title: Autophagy During Chemotherapy — Conflicting and Agreeing Views
 description: Research findings on the dual role of autophagy in cancer chemotherapy, compiled from wiki notes and web literature (2013–2025)
 created: 2026-07-13
 type: task-output
+tags:
+  - autophagy
+  - cancer
+  - chemotherapy
+updated: 2026-07-13
 ---
 
 # Autophagy During Chemotherapy: Conflicting and Agreeing Views

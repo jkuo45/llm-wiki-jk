@@ -1,8 +1,6 @@
 ---
 title: Everolimus
-description: 'Chemical properties: Everolimus is a chemical substance with defined'
-  molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.
+description: 'Chemical properties: Everolimus is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

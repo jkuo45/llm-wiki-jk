@@ -12,6 +12,7 @@ tags:
   - methylene-blue
   - pharmacology
   - protocol
+updated: 2026-07-13
 ---
 
 # Mitohormetic Window — Difficulty Review & Personalized Protocol

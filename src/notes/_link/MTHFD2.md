@@ -1,8 +1,6 @@
 ---
 title: MTHFD2
-description: 'Overview: MTHFD2 is a cellular protein with structural, signaling,'
-  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...
+description: 'Overview: MTHFD2 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern ce...'
 created: 2026-07-04
 updated: 2026-07-04
 tags:

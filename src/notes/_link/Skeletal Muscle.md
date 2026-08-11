@@ -1,7 +1,6 @@
 ---
 title: Skeletal Muscle
-description: 'Overview: Skeletal Muscle is a specialized cellular or anatomical'
-  structure with defined functions in tissue organization and physiology.
+description: 'Overview: Skeletal Muscle is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-26
 tags:

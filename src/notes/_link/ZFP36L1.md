@@ -7,7 +7,7 @@ tags:
   - protein
   - rna-binding
   - sasp
-  - mRNA-decay
+  - mrna-decay
   - ttp-family
 aliases: [ZFP36L1, TTP-like 1, BRF1]
 ---

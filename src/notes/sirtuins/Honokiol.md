@@ -7,10 +7,10 @@ created: 2026-07-03
 updated: 2026-07-16
 tags:
   - chemical-compound
-  - Honokiol
-  - HKL
-  - 3',5-di-(2-propenyl)-1,1'-biphenyl-2,4'-diol
-  - 3',5-di-(2-propenyl)-1,1'-biphenyl-2,4'-diol
+  - honokiol
+  - hkl
+  - honokiol
+  - honokiol
 ---
 
 

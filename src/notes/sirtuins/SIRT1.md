@@ -7,6 +7,11 @@ aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendri
 created: 2026-07-06
 updated: 2026-08-03
 protected: true
+tags:
+  - gene
+  - protein
+  - sirtuin
+  - deacetylase
 ---
 
 # SIRT1

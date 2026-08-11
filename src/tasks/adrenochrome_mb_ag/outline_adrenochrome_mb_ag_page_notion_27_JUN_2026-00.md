@@ -1,6 +1,12 @@
 ---
 title: mb, aminoguanidine
 description: outline to sync with obsidian and notion
+tags:
+  - adrenochrome
+  - outline
+  - notion
+created: 2026-06-27
+updated: 2026-06-27
 ---
 
 ---

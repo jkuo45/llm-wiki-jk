@@ -11,9 +11,9 @@ tags:
   - redox
 url: #
 source: #
-aliases: [MiTF]
-  - Microphthalmia-associated transcription factor
+aliases:
   - MiTF
+  - Microphthalmia-associated transcription factor
 ---
 
 # MITF

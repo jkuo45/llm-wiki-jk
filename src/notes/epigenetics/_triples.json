@@ -3,7 +3,7 @@
     "subject": "DNA Methylation",
     "predicate": "is_mechanism_of",
     "object": "Epigenetics",
-    "context": "DNA methylation is one of the three best-studied epigenetic mechanisms, involving addition of methyl groups to cytosines at CpG dinucleotides.",
+    "context": "DNA methylation is one of the most extensively studied epigenetic mechanisms, operating alongside histone modification and non-coding RNA regulation. It involves the covalent addition of methyl groups to cytosines at CpG dinucleotides, repressing gene expression in promoter CpG islands by recruiting methyl-binding proteins and chromatin remodeling factors. Patterns are established de novo by DNMT3 enzymes and maintained by DNMT1 during replication, while methylation also silences transposable elements. Age-related global hypomethylation with focal hypermethylation defines the aging methylome, and selected CpG sites feed the epigenetic clocks that estimate biological age.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -11,7 +11,7 @@
     "subject": "Histone Modification",
     "predicate": "is_mechanism_of",
     "object": "Epigenetics",
-    "context": "Histone modification — covalent marks on histone tails including acetylation, methylation, phosphorylation, ubiquitination — is a core epigenetic mechanism.",
+    "context": "Histone modification is a core epigenetic mechanism operating through covalent marks on the N-terminal tails of histone proteins, including acetylation, methylation, phosphorylation, ubiquitination, and SUMOylation. These modifications alter chromatin structure and recruit reader proteins that modulate gene expression; acetylation neutralizes lysine charge to open chromatin, whereas methylation at H3K9 or H3K27 typically condenses it into repressive heterochromatin. The marks are written, erased, and read by families of enzymes such as acetyltransferases, deacetylases, and methyltransferases, and their dynamic balance shapes gene expression and becomes progressively dysregulated with age.",
     "confidence": 0.95,
     "source_document": "Epigenetics.md"
   },
@@ -19,7 +19,7 @@
     "subject": "Non-Coding RNA",
     "predicate": "is_mechanism_of",
     "object": "Epigenetics",
-    "context": "Non-coding RNAs such as MicroRNA and piRNAs regulate gene expression transcriptionally and post-transcriptionally as an epigenetic mechanism.",
+    "context": "Non-coding RNAs, including microRNAs, piRNAs, and long non-coding RNAs, function as an epigenetic mechanism that regulates gene expression at both the transcriptional and post-transcriptional levels. MicroRNAs guide the RNA-induced silencing complex to target mRNAs to promote degradation or translational repression, piRNAs help silence transposable elements in the germline, and long non-coding RNAs can recruit chromatin-modifying complexes to specific genomic loci. Their expression is dynamically regulated across the lifespan, and age-related declines in microRNA levels and in RNA-processing enzymes such as Dicer contribute to the aging epigenome.",
     "confidence": 0.95,
     "source_document": "Epigenetics.md"
   },
@@ -27,7 +27,7 @@
     "subject": "DNA Methyltransferase",
     "predicate": "catalyzes",
     "object": "DNA Methylation",
-    "context": "The process of DNA methylation is catalyzed by a family of enzymes called DNA Methyltransferases (DNMTs).",
+    "context": "DNA methylation is catalyzed by a family of enzymes known as DNA methyltransferases (DNMTs), which transfer a methyl group from the cofactor S-adenosylmethionine to the C5 position of cytosine residues, predominantly within CpG dinucleotides. The family is divided into maintenance methyltransferases such as DNMT1, which copies methylation patterns onto the daughter strand during DNA replication, and de novo methyltransferases such as DNMT3a and DNMT3b, which establish new methylation at previously unmethylated loci. The accessory factor DNMT3L stimulates the catalytic activity of the de novo enzymes, and dysregulation of this enzyme family underlies cancer and age-related epigenetic drift.",
     "confidence": 0.95,
     "source_document": "DNA Methyltransferase.md"
   },
@@ -35,7 +35,7 @@
     "subject": "DNMT1",
     "predicate": "maintains",
     "object": "DNA Methylation",
-    "context": "DNMT1 is the primary enzyme responsible for maintaining DNA methylation patterns during DNA Replication, copying the methylation pattern of the parental strand onto the daughter strand.",
+    "context": "DNMT1 is the primary maintenance methyltransferase that preserves DNA methylation patterns during DNA replication. It is recruited to hemi-methylated CpG sites in S phase through its interaction with UHRF1, which recognizes the methylated parental strand via its SRA domain, and copies the methylation pattern of the parental strand onto the newly synthesized daughter strand. It transfers methyl groups from S-adenosylmethionine to the C5 position of cytosine, and its efficiency declines with age, contributing to epigenetic drift. It is also a target of nucleoside inhibitors such as 5-azacytidine and decitabine used in epigenetic therapy.",
     "confidence": 0.95,
     "source_document": "DNMT1.md"
   },
@@ -43,7 +43,7 @@
     "subject": "DNMT1",
     "predicate": "is_a_type_of",
     "object": "DNA Methyltransferase",
-    "context": "DNMT1 (DNA Methyltransferase 1) is the primary maintenance methyltransferase in the DNMT enzyme family.",
+    "context": "DNMT1 (DNA methyltransferase 1) is the principal maintenance methyltransferase of the DNMT enzyme family, responsible for faithfully copying existing DNA methylation patterns onto daughter DNA strands during cell division. It acts preferentially on hemi-methylated CpG dinucleotides that arise transiently after replication, ensuring that symmetric CpG methylation is restored on the nascent strand. Alongside the de novo methyltransferases DNMT3a and DNMT3b, it forms the catalytic core of the mammalian DNA methylation machinery, and its dysregulation is linked to cancer, aging, and epigenetic instability.",
     "confidence": 0.95,
     "source_document": "DNMT1.md"
   },
@@ -51,7 +51,7 @@
     "subject": "DNMT1",
     "predicate": "recruited_by",
     "object": "UHRF1",
-    "context": "During S Phase, DNMT1 is recruited to replication foci through its interaction with UHRF1, which recognizes hemi-methylated CpG sites via its SRA domain.",
+    "context": "UHRF1 is a key accessory protein that recruits DNMT1 to sites of DNA replication. During S phase, UHRF1 recognizes hemi-methylated CpG sites through its SRA (SET- and RING-associated) domain, binding the methylated parental strand while leaving the unmodified daughter strand available for methylation. This targeting directs DNMT1 to replication foci where it restores symmetric CpG methylation on the newly synthesized strand, ensuring faithful propagation of epigenetic information across cell divisions. Loss of this targeting mechanism leads to passive demethylation and epigenetic instability.",
     "confidence": 0.95,
     "source_document": "DNMT1.md"
   },
@@ -59,7 +59,7 @@
     "subject": "DNMT1",
     "predicate": "declines_during",
     "object": "Aging",
-    "context": "The efficiency and expression of DNMT1 decline as organisms age, leading to gradual loss of methylation marks and contributing to epigenetic drift.",
+    "context": "The expression and activity of DNMT1 decline as organisms age, leading to a gradual loss of methylation marks across the genome. Because DNMT1 is responsible for maintaining methylation patterns after DNA replication, its reduced efficiency promotes passive DNA demethylation, particularly at repetitive elements and gene bodies. This age-associated erosion of methylation contributes to epigenetic drift, activation of transposable elements, and chromatin decompaction, all of which are defining features of the aging epigenome.",
     "confidence": 0.95,
     "source_document": "DNMT1.md"
   },
@@ -67,7 +67,7 @@
     "subject": "DNMT1",
     "predicate": "uses_substrate",
     "object": "SAM",
-    "context": "DNMT1 transfers a methyl group from S-adenosylmethionine (SAM) to the C5 position of cytosine on the nascent strand.",
+    "context": "S-adenosylmethionine (SAM) is the universal methyl donor for DNA methylation reactions. DNMT1 transfers the methyl group from SAM to the C5 position of cytosine residues on the nascent DNA strand, generating 5-methylcytosine and S-adenosylhomocysteine as products. Because SAM availability reflects one-carbon metabolism and methyl-donor supply, fluctuations in its levels can influence methylation maintenance and, consequently, gene silencing, transposable element repression, and overall epigenetic stability.",
     "confidence": 0.95,
     "source_document": "DNMT1.md"
   },
@@ -75,7 +75,7 @@
     "subject": "DNMT3a",
     "predicate": "establishes",
     "object": "DNA Methylation",
-    "context": "DNMT3a is a de novo methyltransferase responsible for establishing new DNA methylation patterns at previously unmethylated DNA.",
+    "context": "DNMT3a is a de novo DNA methyltransferase that establishes new DNA methylation patterns at previously unmethylated loci, playing a central role in setting up the methylation landscape during development. It cooperates with DNMT3b and the stimulatory accessory factor DNMT3L to deposit methyl groups at targeted regions, and it prefers gene bodies and intergenic regions in contrast to the repetitive element bias of DNMT3b. DNMT3a is essential for hematopoiesis, and its somatic mutation drives clonal hematopoiesis and acute myeloid leukemia, making it both a developmental regulator and a disease-relevant enzyme.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -83,7 +83,7 @@
     "subject": "DNMT3a",
     "predicate": "is_a_type_of",
     "object": "DNA Methyltransferase",
-    "context": "DNMT3a (DNA Methyltransferase 3 alpha) is a de novo methyltransferase in the DNMT enzyme family.",
+    "context": "DNMT3a (DNA methyltransferase 3 alpha) is a de novo methyltransferase within the DNMT enzyme family that establishes new DNA methylation patterns rather than maintaining existing ones. It is catalytically active on unmethylated DNA and deposits methyl groups at CpG dinucleotides, with a preference for gene bodies and intergenic regions. It is essential for lineage specification, particularly hematopoiesis, and is frequently mutated in blood cancers, where somatic DNMT3A mutations drive clonal hematopoiesis and predispose to acute myeloid leukemia.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -91,7 +91,7 @@
     "subject": "DNMT3a",
     "predicate": "interacts_with",
     "object": "DNMT3b",
-    "context": "DNMT3a forms complexes with its paralog DNMT3b and with the accessory protein DNMT3L to deposit methylation at targeted loci.",
+    "context": "DNMT3a forms functional complexes with its paralog DNMT3b and with the accessory protein DNMT3L to deposit methylation at targeted loci. The two de novo methyltransferases share sequence homology but exhibit distinct genomic targeting preferences, with DNMT3b favoring repetitive elements while DNMT3a acts more broadly across gene bodies and intergenic regions. Their cooperative activity is critical during early embryogenesis for establishing the genome-wide methylation patterns that are subsequently maintained by DNMT1, and both are essential for normal development.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -99,7 +99,7 @@
     "subject": "DNMT3a",
     "predicate": "prefers_targeting",
     "object": "Gene Bodies",
-    "context": "DNMT3a exhibits a preference for gene bodies and intergenic regions, in contrast to DNMT3b which favors repetitive elements.",
+    "context": "DNMT3a exhibits a preference for methylating gene bodies and intergenic regions, in contrast to DNMT3b, which preferentially targets repetitive elements and pericentromeric satellite DNA. Gene body methylation is associated with transcriptional regulation, alternative splicing, and suppression of spurious transcription initiation within genes. This differential targeting between the de novo methyltransferases helps shape the distinct compartmentalization of the methylome and influences patterns of gene expression, heterochromatin formation, and genomic stability.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -107,7 +107,7 @@
     "subject": "DNMT3a",
     "predicate": "essential_for",
     "object": "Hematopoiesis",
-    "context": "DNMT3a remains crucial for hematopoiesis — especially hematopoietic stem cell differentiation and self-renewal.",
+    "context": "DNMT3a is essential for normal hematopoiesis, particularly for the differentiation and self-renewal of hematopoietic stem cells. It establishes DNA methylation patterns that restrict the expression of genes involved in stem cell maintenance and promotes commitment to the blood cell lineage. Loss or mutation of DNMT3a deregulates this epigenetic control, expanding self-renewal capacity and predisposing cells to clonal outgrowth, which underlies clonal hematopoiesis of indeterminate potential and progression to acute myeloid leukemia.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -115,7 +115,7 @@
     "subject": "DNMT3a",
     "predicate": "mutated_in",
     "object": "Clonal Hematopoiesis",
-    "context": "Somatic mutations in DNMT3A are among the most common drivers of clonal hematopoiesis of indeterminate potential (CHIP).",
+    "context": "Somatic mutations in the DNMT3A gene are among the most common drivers of clonal hematopoiesis of indeterminate potential (CHIP), a premalignant state in which a single hematopoietic stem cell clone expands in the blood. These mutations impair the enzyme's catalytic activity, altering DNA methylation at loci that regulate self-renewal and differentiation. Because DNMT3A-mutant clones persist and accumulate with age, they confer an elevated risk of hematologic malignancies such as acute myeloid leukemia, as well as cardiovascular disease.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -123,7 +123,7 @@
     "subject": "DNMT3a",
     "predicate": "mutated_in",
     "object": "Acute Myeloid Leukemia",
-    "context": "Recurrent DNMT3A mutations (notably R882H) are found in ~20% of acute myeloid leukemia (AML) cases.",
+    "context": "Recurrent mutations in DNMT3A, notably the R882H hotspot mutation, are found in approximately 20% of acute myeloid leukemia (AML) cases. These mutations reduce the methyltransferase activity of DNMT3a, disrupting DNA methylation at regulatory regions that control hematopoietic stem cell behavior. The resulting epigenetic dysregulation cooperates with other mutations to drive leukemogenesis, and DNMT3A-mutant clones are frequently detectable in preleukemic states, linking age-associated clonal hematopoiesis to overt AML.",
     "confidence": 0.95,
     "source_document": "DNMT3a.md"
   },
@@ -131,7 +131,7 @@
     "subject": "DNMT3b",
     "predicate": "establishes",
     "object": "DNA Methylation",
-    "context": "DNMT3b works alongside DNMT3a to establish new DNA methylation patterns during early development.",
+    "context": "DNMT3b works alongside DNMT3a as a de novo methyltransferase to establish new DNA methylation patterns during early development. It preferentially methylates repetitive elements, including pericentromeric satellite repeats, where its activity is essential for heterochromatin formation and genomic stability. Loss-of-function mutations in DNMT3B cause ICF syndrome, characterized by immunodeficiency, centromeric instability, and facial anomalies, while its overexpression is common in cancers, where it contributes to aberrant hypermethylation and tumor suppressor silencing.",
     "confidence": 0.95,
     "source_document": "DNMT3b.md"
   },
@@ -139,7 +139,7 @@
     "subject": "DNMT3b",
     "predicate": "is_a_type_of",
     "object": "DNA Methyltransferase",
-    "context": "DNMT3b (DNA Methyltransferase 3 beta) is a de novo methyltransferase in the DNMT enzyme family.",
+    "context": "DNMT3b (DNA methyltransferase 3 beta) is a de novo methyltransferase in the DNMT enzyme family that establishes new DNA methylation patterns at unmethylated DNA. It acts in concert with DNMT3a during development and exhibits a strong preference for repetitive sequences such as pericentromeric satellite repeats and other tandem DNA. Mutations in DNMT3B cause ICF syndrome, while its overexpression in various cancers drives hypermethylation and silencing of tumor suppressor genes, underscoring its importance for both development and disease.",
     "confidence": 0.95,
     "source_document": "DNMT3b.md"
   },
@@ -147,7 +147,7 @@
     "subject": "DNMT3b",
     "predicate": "prefers_targeting",
     "object": "Pericentromeric Satellite Repeats",
-    "context": "DNMT3b exhibits a strong preference for pericentromeric satellite repeats and other repetitive DNA, depositing methylation essential for heterochromatin formation.",
+    "context": "DNMT3b exhibits a strong preference for pericentromeric satellite repeats and other repetitive DNA, depositing methylation that is essential for constitutive heterochromatin formation and centromere function. By methylating these repetitive sequences, DNMT3b helps maintain centromere stability and prevent aberrant recombination and chromosome missegregation. Loss of this activity in ICF syndrome leads to centromeric instability, decondensation of satellite regions, and clinical features of immunodeficiency and facial anomalies.",
     "confidence": 0.95,
     "source_document": "DNMT3b.md"
   },
@@ -155,7 +155,7 @@
     "subject": "DNMT3b",
     "predicate": "mutated_in",
     "object": "ICF Syndrome",
-    "context": "Mutations in the DNMT3B gene are the cause of ICF Syndrome (Immunodeficiency, Centromere instability, and Facial anomalies).",
+    "context": "ICF syndrome (Immunodeficiency, Centromere instability, and Facial anomalies) is a rare autosomal recessive disorder caused by mutations in the DNMT3B gene. Loss of DNMT3b activity leads to hypomethylation of pericentromeric satellite repeats and juxtacentromeric regions, resulting in centromeric decondensation, chromosome instability, and characteristic chromosomal abnormalities in stimulated lymphocytes. The disease manifests as combined immunodeficiency with reduced immunoglobulin levels, facial dysmorphism, and developmental delay.",
     "confidence": 0.95,
     "source_document": "DNMT3b.md"
   },
@@ -163,7 +163,7 @@
     "subject": "DNMT3b",
     "predicate": "overexpressed_in",
     "object": "Cancer",
-    "context": "Overexpression of DNMT3b is frequently observed in various cancers, where it contributes to hypermethylation and silencing of tumor suppressor genes.",
+    "context": "Overexpression of DNMT3b is frequently observed in various cancers, where it contributes to aberrant hypermethylation and silencing of tumor suppressor genes. Elevated de novo methylation activity can target promoter CpG islands, turning off genes that normally restrain proliferation, migration, or apoptosis. Along with the global hypomethylation that accompanies tumorigenesis, DNMT3b-driven focal hypermethylation is a hallmark epigenetic alteration of cancer and provides a rationale for DNA methyltransferase inhibitor therapies.",
     "confidence": 0.95,
     "source_document": "DNMT3b.md"
   },
@@ -171,7 +171,7 @@
     "subject": "DNA Methylation",
     "predicate": "leads_to",
     "object": "Gene Silencing",
-    "context": "High levels of methylation in promoter regions, often concentrated in CpG Islands, are strongly associated with gene silencing.",
+    "context": "High levels of DNA methylation in promoter regions, often concentrated in CpG islands, are strongly associated with gene silencing. Methylated promoters recruit methyl-CpG-binding domain (MBD) proteins and inhibit the binding of transcription factors, converting active promoters into transcriptionally inert chromatin. This repressive mechanism is used physiologically for imprinting and for silencing transposable elements, and its aberrant targeting of tumor suppressor gene promoters is a hallmark of cancer.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -179,7 +179,7 @@
     "subject": "DNA Methylation",
     "predicate": "recruits",
     "object": "Chromatin Remodeling",
-    "context": "Methylated DNA is recognized by MBD proteins that recruit chromatin remodeling factors and histone deacetylases, leading to condensed transcriptionally inactive chromatin.",
+    "context": "Methylated DNA is recognized by methyl-CpG-binding domain (MBD) proteins that recruit chromatin remodeling factors and histone deacetylases to the site. These recruited complexes remove acetyl groups and deposit repressive histone modifications, promoting condensation of the chromatin into a transcriptionally inactive state. This cross-talk between DNA methylation and histone modification establishes a self-reinforcing repressive loop that maintains stable gene silencing across cell divisions, and it is a major route by which promoter methylation converts active genes into silenced heterochromatin.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -187,7 +187,7 @@
     "subject": "DNA Methylation",
     "predicate": "aberrant_in",
     "object": "Cancer",
-    "context": "Aberrant DNA methylation patterns are a hallmark of many cancers, with global hypomethylation and focal hypermethylation of tumor suppressor promoters.",
+    "context": "Aberrant DNA methylation is a hallmark of many cancers, characterized by global hypomethylation across repetitive elements and gene bodies together with focal hypermethylation of tumor suppressor gene promoters. Global hypomethylation promotes genomic instability and reactivation of transposable elements, while promoter hypermethylation silences genes that protect against transformation. These alterations cooperate with genetic mutations to drive tumorigenesis and provide targets for epigenetic therapies using DNA methyltransferase inhibitors.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -195,7 +195,7 @@
     "subject": "DNA Methylation",
     "predicate": "decreases_with",
     "object": "Aging",
-    "context": "With aging there is global DNA hypomethylation, especially at repetitive regions, coupled with focal hypermethylation at CpG islands.",
+    "context": "Aging is accompanied by global DNA hypomethylation, particularly at repetitive regions and gene bodies, coupled with focal hypermethylation at CpG islands and specific gene promoters. This pattern of age-related methylation change, known as epigenetic drift, erodes cellular identity and can reactivate silenced transposable elements. The loss of methylation is partly attributed to declining DNMT1 activity, and the resultant epigenetic instability contributes to age-associated dysfunction and disease.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -203,7 +203,7 @@
     "subject": "DNA Methylation",
     "predicate": "substrate_for",
     "object": "Epigenetic Clock",
-    "context": "Epigenetic clocks are built from DNA methylation measurements at defined CpG sites whose methylation changes predictably with age.",
+    "context": "Epigenetic clocks are built from DNA methylation measurements at defined sets of CpG sites whose methylation levels change predictably with chronological age. These statistical models convert methylome data into an estimate of biological age, and deviations between predicted and chronological age indicate accelerated or decelerated aging. Because methylation at these sites responds to interventions such as caloric restriction and partial reprogramming, clocks are used to track the effectiveness of rejuvenation strategies.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -211,7 +211,7 @@
     "subject": "DNA Methylation",
     "predicate": "regulates",
     "object": "Transposable Elements",
-    "context": "DNA methylation helps repress potentially harmful repetitive elements and retrotransposons within the genome.",
+    "context": "DNA methylation helps repress potentially harmful repetitive elements and retrotransposons within the genome. Methylation at the promoters and internal sequences of transposable elements such as LINE-1 and Alu elements maintains them in a transcriptionally silent state, preventing their mobilization and the genomic instability they would otherwise cause. Age-related loss of this methylation derepresses these elements, allowing their transcription and reverse transcription, which in turn triggers innate immune signaling and inflammaging.",
     "confidence": 0.95,
     "source_document": "DNA Methylation.md"
   },
@@ -219,7 +219,7 @@
     "subject": "Histone Acetyltransferase",
     "predicate": "catalyzes",
     "object": "Histone Acetylation",
-    "context": "Histone Acetyltransferase (HAT) transfers an acetyl group from acetyl-CoA to specific lysine residues on histone tails, a key component of epigenetic regulation.",
+    "context": "Histone acetyltransferases (HATs) catalyze the transfer of acetyl groups from acetyl-CoA to specific lysine residues on histone tails, a key step in epigenetic regulation. Acetylation neutralizes the positive charge of the lysine side chains, weakening histone-DNA interactions and opening the chromatin for transcription. HAT activity is opposed by histone deacetylases, and the balance between these opposing enzymes determines the acetylation state of chromatin and hence its transcriptional activity.",
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md"
   },
@@ -227,7 +227,7 @@
     "subject": "Histone Acetyltransferase",
     "predicate": "opposes",
     "object": "Histone Deacetylase",
-    "context": "HATs act in dynamic opposition to HDACs; signal-dependent recruitment of HATs couples extracellular cues to gene activation.",
+    "context": "Histone acetyltransferases (HATs) act in dynamic opposition to histone deacetylases (HDACs) to control the steady-state acetylation of histones. HATs deposit acetyl groups that open chromatin and promote gene activation, whereas HDACs remove them to restore a compact, repressive state. Signal-dependent recruitment of HATs couples extracellular cues to gene activation, and the antagonism between these enzyme families is disrupted in aging, neurodegeneration, and cancer, where restoring the balance is explored as a therapeutic strategy.",
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md"
   },
@@ -235,7 +235,7 @@
     "subject": "Histone Acetyltransferase",
     "predicate": "promotes",
     "object": "Euchromatin",
-    "context": "Acetylation neutralizes the positive charge of histone tails, transitioning chromatin from condensed to open, transcriptionally active euchromatin.",
+    "context": "Histone acetylation promotes the formation of euchromatin, the open, transcriptionally permissive form of chromatin. Acetylation neutralizes the positive charge of lysine residues on histone tails, reducing their affinity for the negatively charged DNA backbone and loosening the nucleosome structure. This relaxed conformation allows transcription factors and RNA polymerase to access regulatory sequences, and acetylated lysines also serve as docking sites for bromodomain-containing reader proteins that further stimulate transcription.",
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md"
   },
@@ -243,7 +243,7 @@
     "subject": "Histone Acetyltransferase",
     "predicate": "uses_substrate",
     "object": "Acetyl-CoA",
-    "context": "HATs transfer an acetyl group from acetyl-CoA to specific lysine residues on histone tails.",
+    "context": "Histone acetyltransferases (HATs) use acetyl-CoA as the acetyl donor, transferring an acetyl group from acetyl-CoA to specific lysine residues on histone tails. The reaction converts a positively charged lysine into a neutral acetylated lysine, changing histone-DNA interactions and the overall charge distribution of the nucleosome. Because acetyl-CoA levels reflect the cellular metabolic state, HAT activity directly links metabolism to chromatin regulation and gene expression, allowing nutrient availability to influence the accessibility of genes to the transcriptional machinery.",
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md"
   },
@@ -251,7 +251,7 @@
     "subject": "Histone Acetyltransferase",
     "predicate": "dysregulated_in",
     "object": "Aging",
-    "context": "The HAT/HDAC balance is often disrupted in aging, with reduced histone acetylation observed in neurodegeneration.",
+    "context": "The balance between histone acetyltransferase (HAT) and histone deacetylase (HDAC) activity is often disrupted in aging, with reduced histone acetylation observed in neurodegeneration and other age-related conditions. Because acetylation supports open chromatin and gene expression, its loss contributes to aberrant silencing of protective genes and to altered transcriptional programs. Restoring the HAT/HDAC balance is therefore explored as an intervention to counteract age-related epigenetic decline.",
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md"
   },
@@ -259,7 +259,7 @@
     "subject": "Histone Deacetylase",
     "predicate": "catalyzes",
     "object": "Deacetylation",
-    "context": "HDACs remove acetyl groups from ε-N-acetyl-lysine residues on histones, allowing chromatin to wrap DNA more tightly and generally repressing transcription.",
+    "context": "Histone deacetylases (HDACs) remove acetyl groups from epsilon-N-acetyl-lysine residues on histone tails, restoring the positive charge of lysine side chains. This increases the affinity of histones for DNA, allowing chromatin to wrap more tightly and generally repressing transcription. HDACs are grouped into classes, with class I and II enzymes using zinc-dependent catalysis and class III sirtuins using NAD+ as a cofactor, and HDAC inhibitors are widely used experimentally to reactivate gene expression.",
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md"
   },
@@ -267,7 +267,7 @@
     "subject": "Histone Deacetylase",
     "predicate": "promotes",
     "object": "Heterochromatin",
-    "context": "By removing acetyl groups, HDACs restore positive charge of lysine side chains, strengthening interaction with DNA and leading to more condensed heterochromatin.",
+    "context": "By removing acetyl groups from histone tails, histone deacetylases restore the positive charge of lysine side chains, strengthening electrostatic interactions between histones and DNA. This promotes chromatin condensation into a more compact heterochromatin state that is generally refractory to transcription. Deacetylation therefore opposes the chromatin-opening effects of histone acetyltransferases, and the dynamic balance between these activities governs the accessibility of genes to the transcriptional machinery.",
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md"
   },
@@ -275,7 +275,7 @@
     "subject": "Histone Deacetylase",
     "predicate": "includes_class",
     "object": "Sirtuins",
-    "context": "Class III HDACs are the Sirtuins (SIRT1–7), NAD+-dependent deacetylases that link metabolic state to chromatin regulation.",
+    "context": "The class III histone deacetylases are the sirtuins (SIRT1-7), NAD+-dependent deacetylases that link metabolic state to chromatin regulation. Unlike class I and II HDACs, which use zinc-dependent catalysis, sirtuins couple deacetylation to NAD+ hydrolysis, making their activity sensitive to cellular energy status. Sirtuins deacetylate histones and numerous non-histone proteins and are strongly implicated in aging and longevity, with Sir2 overexpression extending lifespan in yeast and sirtuin activation emerging as a candidate anti-aging intervention.",
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md"
   },
@@ -283,7 +283,7 @@
     "subject": "Sirtuins",
     "predicate": "are_NAD+-dependent",
     "object": "Deacetylases",
-    "context": "Sirtuins are NAD+-dependent deacetylases that link metabolic state to chromatin regulation and are strongly implicated in aging and longevity.",
+    "context": "Sirtuins are NAD+-dependent deacetylases that couple the hydrolysis of NAD+ to the removal of acetyl groups from lysine residues on histones and other proteins. This dependence on NAD+ makes their activity directly responsive to the metabolic and energy state of the cell. They regulate chromatin structure, transcription factor activity, DNA repair, and metabolism, and have been strongly implicated in the control of aging and longevity, with sirtuin activation emerging as a candidate anti-aging intervention.",
     "confidence": 0.95,
     "source_document": "_document_ - xenohormesis, mitohormesis.md"
   },
@@ -291,7 +291,7 @@
     "subject": "Sirtuins",
     "predicate": "extend_lifespan_in",
     "object": "Yeast",
-    "context": "Overexpression of Sir2 extends lifespan in yeast by preventing the formation of toxic rDNA circles.",
+    "context": "Overexpression of the sirtuin Sir2 extends lifespan in budding yeast by suppressing the formation of toxic extrachromosomal rDNA circles. Sir2 maintains silencing at the rDNA locus, and its activity prevents the homologous recombination events that generate these circles during aging. This early discovery established sirtuins as longevity regulators and motivated extensive study of their mammalian homologs, particularly SIRT1, in aging and age-related disease, including the search for small-molecule sirtuin activators.",
     "confidence": 0.95,
     "source_document": "_document_ - xenohormesis, mitohormesis.md"
   },
@@ -299,7 +299,7 @@
     "subject": "SIRT1",
     "predicate": "deacetylates",
     "object": "H4K16",
-    "context": "Sir2/SIRT1 is an H4K16 deacetylase required for silencing and chromatin compaction at mating type loci, rDNA, and telomeres.",
+    "context": "SIRT1, the yeast Sir2 homolog, is an H4K16 deacetylase that removes acetyl groups from lysine 16 of histone H4. Deacetylation of H4K16 promotes chromatin compaction and is required for transcriptional silencing at mating-type loci, rDNA, and telomeres. By regulating this key modification, SIRT1 maintains genomic stability and contributes to lifespan control, functions conserved from yeast to mammals; in human cells, sirtuins also stabilize rDNA by recruiting DNMT1 to prevent cellular senescence.",
     "confidence": 0.95,
     "source_document": "miR-217.md"
   },
@@ -307,7 +307,7 @@
     "subject": "SIRT1",
     "predicate": "relocalizes_to",
     "object": "DNA Damage",
-    "context": "In response to DNA breaks, SIRT1 relocalizes from promoters and repetitive DNA to sites of damage to facilitate repair.",
+    "context": "In response to DNA breaks, SIRT1 relocalizes from gene promoters and repetitive DNA to sites of DNA damage to facilitate repair. At damage sites, it deacetylates histones and DNA repair factors, promoting chromatin remodeling that allows access for the repair machinery. This relocalization is central to SIRT1's genome-stabilizing function, and its age-related decline or mislocalization is associated with impaired DNA repair and accelerated aging, paralleling the behavior of SIRT6 during the DNA damage response.",
     "confidence": 0.95,
     "source_document": "miR-217.md"
   },
@@ -315,7 +315,7 @@
     "subject": "SIRT1",
     "predicate": "regulates",
     "object": "FOXO",
-    "context": "Beyond histones, HDACs deacetylate transcription factors such as FOXO, broadening their regulatory reach.",
+    "context": "Beyond histones, the deacetylase SIRT1 targets non-histone proteins, including the FOXO family of transcription factors, thereby broadening its regulatory reach. Deacetylation of FOXO factors modulates their activity, influencing the expression of genes involved in stress resistance, metabolism, and longevity. This regulatory interaction connects nutrient and energy sensing through sirtuins to the transcriptional programs that protect cells against aging-associated stress, and it is particularly relevant to the effects of caloric restriction on the epigenome.",
     "confidence": 0.95,
     "source_document": "miR-217.md"
   },
@@ -323,7 +323,7 @@
     "subject": "SIRT6",
     "predicate": "represses",
     "object": "LINE-1",
-    "context": "SIRT6 is enriched at LINE-1 5'UTR loci and mono-ADP ribosylates KAP1, promoting heterochromatinization of L1 elements.",
+    "context": "SIRT6 represses LINE-1 retrotransposons by maintaining repressive chromatin at L1 loci through its deacetylase and mono-ADP-ribosyltransferase activities. SIRT6 recruits KAP1 and HP1 to deposit and maintain heterochromatin marks that silence LINE-1 elements, and this silencing declines with age as SIRT6 levels fall. Loss of SIRT6 permits LINE-1 derepression, and activating SIRT6 is explored as a strategy to suppress retrotransposon-driven inflammation in aging. Restoring SIRT6 activity may therefore help suppress retrotransposon-driven inflammation in aging.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -331,7 +331,7 @@
     "subject": "SIRT6",
     "predicate": "relocalizes_to",
     "object": "DNA Damage",
-    "context": "DNA damage signaling causes SIRT6 to move away from genes to DNA breaks where they recruit DNA repair factors and modify chromatin.",
+    "context": "In response to DNA damage signaling, SIRT6 moves away from gene promoters and repetitive loci to sites of DNA breaks, where it recruits DNA repair factors and modifies local chromatin. At damage sites, SIRT6 promotes the deacetylation of H3K56 and other substrates, facilitating efficient double-strand break repair. This mobilization from LINE-1 loci to damage sites simultaneously couples the DNA damage response to derepression of retrotransposons during aging, linking genomic stress to innate immune activation.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -339,7 +339,7 @@
     "subject": "HAT",
     "predicate": "is_abbreviation_for",
     "object": "Histone Acetyltransferase",
-    "context": "HAT is the common abbreviation for Histone Acetyltransferase.",
+    "context": "HAT is the standard abbreviation for histone acetyltransferase, a family of enzymes that transfer acetyl groups from acetyl-CoA to lysine residues on histone tails. These enzymes are grouped into families such as the GNAT, MYST, and p300/CBP families, and their activity is central to epigenetic control of gene expression. HATs oppose the action of histone deacetylases and are frequently deregulated in cancer and aging, where changes in acetylation contribute to aberrant gene silencing and loss of transcriptional fidelity.",
     "confidence": 0.95,
     "source_document": "HAT.md"
   },
@@ -347,7 +347,7 @@
     "subject": "HDAC",
     "predicate": "is_abbreviation_for",
     "object": "Histone Deacetylase",
-    "context": "HDAC stands for Histone Deacetylase.",
+    "context": "HDAC stands for histone deacetylase, a family of enzymes that remove acetyl groups from lysine residues on histone tails, counteracting the activity of histone acetyltransferases. By deacetylating histones, HDACs promote chromatin compaction and generally repress transcription, and they also regulate numerous non-histone proteins. They are divided into classes I, II, III (sirtuins), and IV, and HDAC inhibitors are widely studied as tools to reactivate silenced genes and as candidate therapeutic agents in cancer, inflammation, and aging.",
     "confidence": 0.95,
     "source_document": "HDAC.md"
   },
@@ -355,7 +355,7 @@
     "subject": "Epigenetic Clock",
     "predicate": "estimates",
     "object": "Biological Age",
-    "context": "An epigenetic clock is a statistical estimator of biological age built from DNA methylation measurements at a defined set of CpG sites.",
+    "context": "An epigenetic clock is a statistical estimator of biological age built from DNA methylation measurements at a defined set of CpG sites across the genome. Trained on large cohorts, these clocks compute an epigenetic age that correlates with chronological age but can also deviate from it, reflecting accelerated or decelerated biological aging. Clock acceleration is associated with disease and mortality risk, making epigenetic clocks valuable biomarkers for aging research and for evaluating anti-aging interventions.",
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md"
   },
@@ -363,7 +363,7 @@
     "subject": "Epigenetic Clock",
     "predicate": "based_on",
     "object": "DNA Methylation",
-    "context": "Epigenetic clocks are trained on genome-wide methylation arrays, selecting CpGs whose methylation strongly correlates with chronological age.",
+    "context": "Epigenetic clocks are trained on genome-wide DNA methylation arrays, selecting CpG sites whose methylation levels correlate strongly with chronological age. Using these selected sites, a regression model generates an epigenetic age estimate that can be compared with an individual's actual age. Because DNA methylation at these sites changes predictably over the lifespan and responds to lifestyle and pharmacological interventions, clocks serve as quantitative readouts of biological age and rejuvenation.",
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md"
   },
@@ -371,7 +371,7 @@
     "subject": "DNAmGrimAge",
     "predicate": "is_a_type_of",
     "object": "Epigenetic Clock",
-    "context": "DNAmGrimAge is a second-generation epigenetic clock trained to predict morbidity, mortality, and physiological decline rather than time.",
+    "context": "DNAmGrimAge is a second-generation epigenetic clock trained to predict morbidity, mortality, and physiological decline rather than simply chronological age. It incorporates DNA methylation surrogates for plasma proteins and smoking exposure, producing a DNAm-based age estimate that is a robust predictor of lifespan and healthspan. As a stronger predictor of time-to-death than first-generation clocks such as the Horvath and Hannum clocks, GrimAge is widely used as an endpoint in aging and rejuvenation studies.",
     "confidence": 0.95,
     "source_document": "DNAmGrimAge.md"
   },
@@ -379,7 +379,7 @@
     "subject": "Epigenetic Clock",
     "predicate": "accelerated_by",
     "object": "Cardiovascular Disease",
-    "context": "Clock acceleration predicts Cardiovascular Disease, Cancer, and Neurodegenerative Diseases before symptoms.",
+    "context": "Acceleration of the epigenetic clock, where the methylation-predicted age exceeds chronological age, is a predictor of cardiovascular disease, cancer, and neurodegenerative diseases, often before clinical symptoms appear. Such clock acceleration reflects accelerated biological aging and has been observed across a range of pathological conditions. This predictive capacity makes epigenetic clocks powerful tools for early risk stratification and for monitoring interventions designed to slow or reverse biological aging.",
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md"
   },
@@ -387,7 +387,7 @@
     "subject": "Epigenetic Clock",
     "predicate": "reversed_by",
     "object": "Caloric Restriction",
-    "context": "Interventions such as Caloric Restriction, Metformin, and partial cellular reprogramming have shown measurable clock reversal.",
+    "context": "Interventions such as caloric restriction, metformin, and partial cellular reprogramming have shown measurable reversal of the epigenetic clock in some studies. Clock reversal, where the methylation-predicted age decreases relative to chronological age, indicates that at least some aspects of biological aging are malleable rather than fixed. This has motivated the use of epigenetic clocks as primary endpoints in clinical trials of longevity and rejuvenation interventions and in tracking the effectiveness of lifestyle changes.",
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md"
   },
@@ -395,7 +395,7 @@
     "subject": "Epigenetic Clock",
     "predicate": "reversed_by",
     "object": "Partial Reprogramming",
-    "context": "Partial cellular reprogramming has shown measurable epigenetic clock reversal, motivating use of clocks as endpoints in rejuvenation trials.",
+    "context": "Partial cellular reprogramming, the transient expression of the Yamanaka factors, has shown measurable reversal of the epigenetic clock. Cells pass through an early reprogramming window sufficient to reset DNA methylation age while being returned to their original lineage before losing their identity. This demonstrated reversal of epigenetic age has motivated the use of clocks as endpoints in rejuvenation trials and supports the idea that biological age is reversible rather than an irreversible accumulation of damage.",
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md"
   },
@@ -403,7 +403,7 @@
     "subject": "Epigenetic Drift",
     "predicate": "characterized_by",
     "object": "Global Hypomethylation",
-    "context": "The best-characterized signature of epigenetic drift is global hypomethylation of repetitive elements and gene bodies coupled with site-specific hypermethylation of gene promoters.",
+    "context": "The best-characterized signature of epigenetic drift is global hypomethylation of repetitive elements and gene bodies coupled with site-specific hypermethylation of gene promoters. This age-related divergence of methylation patterns erodes the stability of the epigenome and contributes to the loss of cellular identity and transcriptional fidelity. Because drift accumulates with time and is modified by environment, lifestyle, and interventions such as caloric restriction, it underlies both biological aging and the age-associated increase in disease risk.",
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md"
   },
@@ -411,7 +411,7 @@
     "subject": "Epigenetic Drift",
     "predicate": "contributes_to",
     "object": "Aging",
-    "context": "Epigenetic drift is a core component of the Hallmarks of Aging, eroding cellular identity and function over time.",
+    "context": "Epigenetic drift is a core component of the hallmarks of aging, eroding cellular identity and function over time. The progressive divergence of DNA methylation and chromatin patterns from their youthful state impairs the precise gene expression programs that maintain tissue homeostasis, and it is compounded by declining activity of maintenance methyltransferases such as DNMT1. Because drift is at least partly reversible, it is a target for interventions such as partial reprogramming that aim to restore a more youthful epigenome.",
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md"
   },
@@ -419,7 +419,7 @@
     "subject": "Epigenetic Drift",
     "predicate": "reset_by",
     "object": "Partial Reprogramming",
-    "context": "Partial Reprogramming can reset epigenetic drift, restoring younger epigenetic profiles — supporting the idea that drift is reversible.",
+    "context": "Partial reprogramming can reset epigenetic drift, restoring younger epigenetic profiles and supporting the idea that age-related epigenetic decline is reversible. By transiently expressing the Yamanaka factors, cells erase some of the accumulated methylation and chromatin changes without losing their somatic identity, and this resetting is captured by reversal of DNA-methylation clocks. The capacity to reverse drift has made partial reprogramming a leading strategy for rejuvenation and a key experimental validation of the plasticity of the aging epigenome.",
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md"
   },
@@ -427,7 +427,7 @@
     "subject": "Yamanaka Factors",
     "predicate": "reprograms",
     "object": "Somatic Cells",
-    "context": "The Yamanaka Factors (OSKM: Oct4, Sox2, Klf4, c-Myc) are used to induce pluripotency in differentiated Somatic Cells.",
+    "context": "The Yamanaka factors (Oct4, Sox2, Klf4, and c-Myc, abbreviated OSKM) are a set of four transcription factors used to induce pluripotency in differentiated somatic cells. When introduced into fibroblasts or other somatic cells, they initiate a cascade of transcriptional and epigenetic changes that reset the cell toward an embryonic-stem-cell-like state, erasing somatic memory and installing the pluripotency network. This demonstration, pioneered by Shinya Yamanaka in 2006, established that cellular identity is not fixed but can be reprogrammed.",
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md"
   },
@@ -435,7 +435,7 @@
     "subject": "Yamanaka Factors",
     "predicate": "produces",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "The four Yamanaka Factors revert fibroblasts to an embryonic-stem-cell-like state, generating iPSCs.",
+    "context": "The four Yamanaka factors revert differentiated somatic cells such as fibroblasts to an embryonic-stem-cell-like state, generating induced pluripotent stem cells (iPSCs). Reprogramming erases somatic methylation and chromatin marks and re-establishes the pluripotency network, yielding cells capable of differentiating into all three germ layers. iPSCs are widely used for disease modeling, drug discovery, and regenerative medicine, and are validated by their ability to form teratomas containing derivatives of all three germ layers.",
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md"
   },
@@ -443,7 +443,7 @@
     "subject": "Yamanaka Factors",
     "predicate": "includes",
     "object": "Oct4",
-    "context": "The Yamanaka Factors comprise Oct4, Sox2, Klf4, and c-Myc.",
+    "context": "The Yamanaka factors are the four transcription factors used to reprogram somatic cells to induced pluripotency, and they include Oct4. Oct4 is the master regulator of pluripotency, expressed in pluripotent cells during embryogenesis and in embryonic stem cells, and it is essential for establishing and maintaining the pluripotent state. Because Oct4 is required to initiate the reprogramming process, its inclusion among the Yamanaka factors is central to iPSC generation. Without Oct4, the reprogramming cascade cannot initiate, underscoring its irreplaceable role.",
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md"
   },
@@ -451,7 +451,7 @@
     "subject": "Yamanaka Factors",
     "predicate": "includes",
     "object": "Sox2",
-    "context": "The Yamanaka Factors comprise Oct4, Sox2, Klf4, and c-Myc.",
+    "context": "The Yamanaka factors are the four transcription factors Oct4, Sox2, Klf4, and c-Myc that reprogram somatic cells into induced pluripotent stem cells, and they include Sox2. Sox2 cooperates with Oct4 as a heterodimer to regulate pluripotency genes such as Nanog, Fgf4, and osteopontin, and it is also expressed in neural stem cells where it maintains neural identity. Its ectopic expression is essential for the establishment and maintenance of the pluripotent state. Sox2 is therefore essential both for pluripotency maintenance and for the reprogramming process itself.",
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md"
   },
@@ -459,7 +459,7 @@
     "subject": "Yamanaka Factors",
     "predicate": "includes",
     "object": "Klf4",
-    "context": "The Yamanaka Factors comprise Oct4, Sox2, Klf4, and c-Myc.",
+    "context": "The Yamanaka factors are the four transcription factors Oct4, Sox2, Klf4, and c-Myc that reprogram somatic cells into induced pluripotent stem cells, and they include Klf4. Klf4 is a zinc-finger transcription factor that interacts directly with Oct4, is required for activation of Nanog, and promotes the mesenchymal-to-epithelial transition needed for reprogramming. Klf4 can act as both a tumor suppressor and an oncogene depending on cellular context. Klf4's dual nature underscores how context determines the function of reprogramming factors.",
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md"
   },
@@ -467,7 +467,7 @@
     "subject": "Yamanaka Factors",
     "predicate": "includes",
     "object": "c-Myc",
-    "context": "The Yamanaka Factors comprise Oct4, Sox2, Klf4, and c-Myc.",
+    "context": "The Yamanaka factors are the four transcription factors used to reprogram somatic cells into induced pluripotent stem cells, and they include the oncogene c-Myc. c-Myc opens chromatin by binding methylated regions and promotes the proliferation and metabolic changes that accompany reprogramming initiation. However, c-Myc is a potent oncogene that increases the risk of tumorigenesis in iPSC-derived cells, motivating efforts to exclude or replace it with safer alternatives. Its dual role as reprogramming enhancer and oncogene highlights the safety concerns of iPSC therapy.",
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md"
   },
@@ -475,7 +475,7 @@
     "subject": "OSKM",
     "predicate": "is_alias_for",
     "object": "Yamanaka Factors",
-    "context": "The Yamanaka Factors are also known as the OSKM cassette (Oct4, Sox2, Klf4, c-Myc).",
+    "context": "The Yamanaka factors are also known as the OSKM cassette, named after the initials of its four constituent transcription factors: Oct4, Sox2, Klf4, and c-Myc. This quartet was identified by Shinya Yamanaka as sufficient to reprogram differentiated somatic cells into induced pluripotent stem cells, a discovery that earned the Nobel Prize in Physiology or Medicine in 2012. The OSKM designation is used throughout the reprogramming and rejuvenation literature, including in partial reprogramming protocols that express the factors transiently to reverse aging.",
     "confidence": 0.95,
     "source_document": "OSKM.md"
   },
@@ -483,7 +483,7 @@
     "subject": "Oct4",
     "predicate": "forms_heterodimer_with",
     "object": "Sox2",
-    "context": "Oct4 and Sox2 form a核心 heterodimer occupying both active and silent chromatin, opening chromatin and recruiting remodelers.",
+    "context": "Oct4 and Sox2 form a core heterodimer that occupies both active and silent chromatin, opening chromatin and recruiting remodeling complexes to its target sites. Together they co-bind enhancers and promoters of pluripotency genes, functioning as the central regulatory unit of the pluripotency network and maintaining the balance between self-renewal and differentiation. This partnership is essential for establishing and maintaining the embryonic stem cell state and for initiating reprogramming of somatic cells toward induced pluripotency.",
     "confidence": 0.95,
     "source_document": "Oct4.md"
   },
@@ -491,7 +491,7 @@
     "subject": "Oct4",
     "predicate": "is_master_regulator_of",
     "object": "Pluripotency",
-    "context": "Oct4 is a definitive marker and master regulator of pluripotency, essential for self-renewal of undifferentiated ES cells and iPSCs.",
+    "context": "Oct4 is the master regulator of pluripotency, the transcription factor that establishes and maintains the pluripotent state of embryonic stem cells and induced pluripotent stem cells. It is required for the development of the inner cell mass of the blastocyst, and its absence prevents pluripotency while its dosage must be tightly controlled. Oct4 functions with Sox2 and Nanog to regulate the pluripotency gene network, and it is essential for initiating cellular reprogramming. Its role makes Oct4 both a defining marker and a key tool of pluripotent stem cell research.",
     "confidence": 0.95,
     "source_document": "Oct4.md"
   },
@@ -499,7 +499,7 @@
     "subject": "Oct4",
     "predicate": "initiates",
     "object": "Mesenchymal-to-Epithelial Transition",
-    "context": "During Cellular Reprogramming, Oct4 initiates the mesenchymal-to-epithelial transition and resets the epigenome.",
+    "context": "During cellular reprogramming, Oct4 initiates the mesenchymal-to-epithelial transition (MET), a required early step in which fibroblast-like cells adopt an epithelial morphology. By suppressing mesenchymal genes and promoting epithelial ones, Oct4 helps reorganize the cytoskeleton and cell-adhesion program toward the epithelial identity characteristic of pluripotent cells. This MET is followed by erasure of somatic marks and establishment of the pluripotency network, and it is reinforced by the cooperation of Klf4.",
     "confidence": 0.95,
     "source_document": "Oct4.md"
   },
@@ -507,7 +507,7 @@
     "subject": "Oct4",
     "predicate": "erases",
     "object": "H3K9me3",
-    "context": "During reprogramming, H3K9me3/H3K27me3 repressive marks are erased at Oct4 target loci.",
+    "context": "During cellular reprogramming, Oct4 initiates the erasure of repressive marks, including H3K9me3 and H3K27me3, at target gene loci. As a pioneer-like factor, Oct4 binds enhancers and promoters of pluripotency genes and cooperates with chromatin remodelers to open compacted chromatin, allowing the establishment of the pluripotent transcriptional network. This erasure of repressive histone methylation at pluripotency loci is a key early step in resetting the somatic epigenome. This mark erasure is essential because repressive heterochromatin otherwise blocks the activation of pluripotency genes.",
     "confidence": 0.95,
     "source_document": "Oct4.md"
   },
@@ -515,7 +515,7 @@
     "subject": "Sox2",
     "predicate": "forms_heterodimer_with",
     "object": "Oct4",
-    "context": "Sox2 forms a核心 heterodimer with Oct4, co-occupying enhancers and promoters of pluripotency genes.",
+    "context": "Sox2 forms a core heterodimer with Oct4, co-occupying enhancers and promoters of pluripotency genes as the central regulatory unit of the pluripotency network. The two factors bind composite DNA elements cooperatively and recruit chromatin remodelers to maintain an open, active chromatin state that supports continued expression of pluripotency genes. This partnership is essential for establishing pluripotency during development and for reprogramming somatic cells into induced pluripotent stem cells.",
     "confidence": 0.95,
     "source_document": "Sox2.md"
   },
@@ -523,7 +523,7 @@
     "subject": "Sox2",
     "predicate": "maintains",
     "object": "Neural Stem Cell",
-    "context": "Sox2 maintains Neural Stem Cell identity in the adult SVZ/SGZ and is required for tissue homeostasis in multiple epithelia.",
+    "context": "Sox2 maintains neural stem cells by preserving their self-renewal and multipotency, the ability to generate neurons, astrocytes, and oligodendrocytes. Sox2 is expressed in neural stem cells of the developing and adult brain, where it is a central determinant of neural identity and is often necessary and sometimes sufficient for direct neural conversion. In reprogramming to induced neural stem cells, forced expression of Sox2 remodels the somatic epigenome toward a neural fate. Sox2 is thus a linchpin connecting pluripotency regulation to neurogenesis and neural repair.",
     "confidence": 0.95,
     "source_document": "Sox2.md"
   },
@@ -531,7 +531,7 @@
     "subject": "Klf4",
     "predicate": "promotes",
     "object": "Mesenchymal-to-Epithelial Transition",
-    "context": "Klf4 cooperates with the Mesenchymal-to-Epithelial Transition during reprogramming, opposing EMT drivers Snail and Slug.",
+    "context": "Klf4 promotes the mesenchymal-to-epithelial transition that is required for cellular reprogramming to pluripotency. Together with Oct4 and Sox2, Klf4 represses EMT-inducing transcription factors such as Snail and Slug and suppresses TGF-beta signaling, allowing the re-expression of epithelial genes such as E-cadherin, EpCAM, and occludin. This MET-promoting activity is essential for converting fibroblasts into induced pluripotent stem cells, and Klf4's epithelializing function underlies its requirement among the Yamanaka factors.",
     "confidence": 0.95,
     "source_document": "Klf4.md"
   },
@@ -539,7 +539,7 @@
     "subject": "Klf4",
     "predicate": "antagonizes",
     "object": "Snail",
-    "context": "Klf4 opposes the EMT drivers Snail and Slug, sitting at the polarity between epithelial identity and mesenchymal dispersal.",
+    "context": "Klf4 opposes the EMT drivers Snail and Slug, sitting at the boundary between epithelial identity and mesenchymal dispersal. By repressing these transcription factors, Klf4 stabilizes the epithelial gene program that is required for the mesenchymal-to-epithelial transition during reprogramming and for preventing the reverse transition to a migratory, fibroblast-like state. This antagonistic relationship is central to Klf4's contribution to the resetting of cellular identity in induced pluripotent stem cell generation.",
     "confidence": 0.95,
     "source_document": "Klf4.md"
   },
@@ -547,7 +547,7 @@
     "subject": "Klf4",
     "predicate": "antagonizes",
     "object": "Slug",
-    "context": "Klf4 opposes the EMT drivers Snail and Slug during reprogramming.",
+    "context": "Klf4 antagonizes the epithelial-mesenchymal transition factor Slug as part of the mesenchymal-to-epithelial transition that drives cellular reprogramming. During reprogramming with the Yamanaka factors, Klf4, together with Oct4 and Sox2, represses EMT-inducing transcription factors, promoting the silencing of mesenchymal genes and the re-expression of epithelial markers such as E-cadherin. This MET-promoting activity is essential for the conversion of fibroblasts into induced pluripotent stem cells.",
     "confidence": 0.95,
     "source_document": "Klf4.md"
   },
@@ -555,7 +555,7 @@
     "subject": "Cellular Reprogramming",
     "predicate": "requires",
     "object": "Epigenetic Remodeling",
-    "context": "Cellular Reprogramming is fundamentally an epigenetic remodeling process that erases somatic memory and installs a new identity.",
+    "context": "Cellular reprogramming is fundamentally an epigenetic remodeling process that erases somatic memory and installs a new cellular identity. Reprogramming requires global erasure of somatic DNA methylation, reconfiguration of histone marks, and resetting of the chromatin landscape at pluripotency loci, driven by pioneer factors and chromatin remodelers. The process proceeds through defined phases, including a mesenchymal-to-epithelial transition, and culminates in the establishment of a stable pluripotent state in induced pluripotent stem cells.",
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md"
   },
@@ -563,7 +563,7 @@
     "subject": "Cellular Reprogramming",
     "predicate": "erases",
     "object": "DNA Methylation",
-    "context": "Reprogramming requires global erasure of somatic DNA methylation and reconfiguration of histone marks.",
+    "context": "Cellular reprogramming erases somatic DNA methylation and other epigenetic marks to reset the cell to a pluripotent state. During iPSC generation, the Yamanaka factors promote active and passive demethylation of pluripotency gene promoters while somatic gene methylation is lost, and this global epigenetic reset is required for establishing the pluripotency gene network. The erasure of DNA methylation is a defining feature of the stochastic and deterministic phases of reprogramming. This epigenetic reset is what enables a differentiated cell to regain full developmental potential.",
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md"
   },
@@ -571,7 +571,7 @@
     "subject": "Cellular Reprogramming",
     "predicate": "involves",
     "object": "Mesenchymal-to-Epithelial Transition",
-    "context": "Reprogramming proceeds through defined phases including a mesenchymal-to-epithelial transition (MET).",
+    "context": "Reprogramming proceeds through defined phases, including a mesenchymal-to-epithelial transition (MET) in which somatic fibroblasts adopt an epithelial morphology early in the process. The MET is driven by factors such as Oct4 and Klf4, which suppress mesenchymal genes and reinforce epithelial ones, and it is required because fibroblasts are mesenchymal while iPSCs are epithelial. This transition is a necessary early event that reorganizes cell adhesion and signaling before the full pluripotency program is established.",
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md"
   },
@@ -579,7 +579,7 @@
     "subject": "Partial Reprogramming",
     "predicate": "reverses",
     "object": "Aging",
-    "context": "Partial reprogramming reverses molecular and functional signs of Aging while the cell retains its somatic identity.",
+    "context": "Partial reprogramming reverses molecular and functional signs of aging while the cell retains its somatic identity. By transiently expressing the Yamanaka factors, cells erase age-related epigenetic marks without losing differentiation, restoring youthful DNA methylation age, improving mitochondrial function, and reducing senescence. Cyclic, transient OSKM expression reversed signs of aging in progeroid mice and extended lifespan without tumor formation, establishing the reversibility of aging at the cellular level.",
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md"
   },
@@ -587,7 +587,7 @@
     "subject": "Partial Reprogramming",
     "predicate": "uses",
     "object": "Yamanaka Factors",
-    "context": "Partial reprogramming transiently expresses the Yamanaka Factors (OSKM) to reverse aging-associated epigenetic decline.",
+    "context": "Partial reprogramming uses the Yamanaka factors, the four transcription factors Oct4, Sox2, Klf4, and c-Myc, but expresses them transiently and incompletely. Rather than pushing cells all the way to pluripotency, cyclic expression of OSKM resets age-related epigenetic marks and restores youthful gene expression while preserving somatic cell identity. This strategy avoids the teratoma formation and dedifferentiation risks of full reprogramming while still achieving rejuvenating effects in mice. The dose and timing of factor expression determine whether cells rejuvenate or fully reprogram.",
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md"
   },
@@ -595,7 +595,7 @@
     "subject": "Partial Reprogramming",
     "predicate": "avoids",
     "object": "Teratoma",
-    "context": "Partial reprogramming contrasts with full reprogramming to iPSCs, which risks teratoma formation.",
+    "context": "Partial reprogramming contrasts with full reprogramming to induced pluripotent stem cells, which risks teratoma formation due to the loss of somatic identity. By limiting Yamanaka factor expression to a transient window, cells erase aging-associated epigenetic marks without being converted to a pluripotent state, so growth arrest and differentiation are preserved. This design avoids the tumor risk associated with full reprogramming while still restoring a more youthful molecular and functional phenotype.",
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md"
   },
@@ -603,7 +603,7 @@
     "subject": "Partial Reprogramming",
     "predicate": "reduces",
     "object": "Senescence",
-    "context": "Key observations include restoration of youthful DNA-methylation age, improved mitochondrial function, and reduced Senescence.",
+    "context": "Key observations from partial reprogramming include restoration of youthful DNA-methylation age, improved mitochondrial function, and reduced senescence. The transient expression of Yamanaka factors reverses markers of cellular aging and restores regenerative capacity in aged tissues, while avoiding the pluripotent state that risks tumorigenesis. These findings support partial reprogramming as a viable strategy for rejuvenating cells and organisms while avoiding the tumorigenic risks of full pluripotency.",
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md"
   },
@@ -611,7 +611,7 @@
     "subject": "Partial Reprogramming",
     "predicate": "resets",
     "object": "Epigenetic Clock",
-    "context": "Cells pass through an early reprogramming window sufficient to reset epigenetic clocks but are returned to their original lineage before losing identity.",
+    "context": "Partial reprogramming resets the epigenetic clock by transiently expressing Yamanaka factors to erase age-associated epigenetic marks without losing cell identity. Because it is applied cyclically and incompletely, partial reprogramming restores youthful DNA methylation patterns and gene expression while avoiding the dedifferentiation and tumor risk of full reprogramming. Epigenetic clock reversal following partial reprogramming provides a quantitative measure of the rejuvenating effect. This makes epigenetic age a tractable readout for optimizing partial reprogramming protocols.",
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md"
   },
@@ -619,7 +619,7 @@
     "subject": "Rejuvenation",
     "predicate": "achieved_by",
     "object": "Cellular Reprogramming",
-    "context": "The dominant experimental strategy for rejuvenation is Cellular Reprogramming with the Yamanaka Factors (OSKM).",
+    "context": "Rejuvenation can be achieved by cellular reprogramming, which resets age-related epigenetic changes to restore a youthful state. Full reprogramming to pluripotency erases somatic epigenetic marks and restores youthful gene expression, and partial reprogramming achieves rejuvenation without full dedifferentiation. Because aging is associated with reversible epigenetic alterations, resetting DNA methylation and chromatin marks through reprogramming can restore cellular and organismal function. The field now aims to translate these resetting effects into therapies that slow human aging.",
     "confidence": 0.95,
     "source_document": "Rejuvenation.md"
   },
@@ -627,7 +627,7 @@
     "subject": "Rejuvenation",
     "predicate": "measured_by",
     "object": "Epigenetic Clock",
-    "context": "Epigenetic clocks are the quantitative readout used to measure epigenetic age reversal during rejuvenation.",
+    "context": "Rejuvenation is increasingly measured using epigenetic clocks, which estimate biological age from DNA methylation at selected CpG sites. Because methylation-based clocks track age-related changes and respond to interventions, a decrease in epigenetic age relative to chronological age is interpreted as evidence of rejuvenation. Interventions such as caloric restriction, metformin, and partial reprogramming show measurable clock reversal, making epigenetic clocks standard endpoints for evaluating rejuvenation strategies.",
     "confidence": 0.95,
     "source_document": "Rejuvenation.md"
   },
@@ -635,7 +635,7 @@
     "subject": "Quiescence",
     "predicate": "is_reversible_form_of",
     "object": "Cell Cycle Arrest",
-    "context": "Quiescence is a state of reversible proliferative arrest in which cells exit the Cell Cycle but retain the capacity to re-enter upon appropriate stimuli.",
+    "context": "Quiescence is a state of reversible proliferative arrest in which cells exit the cell cycle but retain the capacity to re-enter upon appropriate stimuli. It is enforced at the restriction point by the retinoblastoma protein (pRb), which sequesters E2F transcription factors and blocks S-phase gene expression until mitogenic signals release the block. Unlike senescence, quiescence is reversible and lacks a senescence-associated secretory phenotype, and it is a key protective state for adult stem cells.",
     "confidence": 0.95,
     "source_document": "Quiescence.md"
   },
@@ -643,7 +643,7 @@
     "subject": "Quiescence",
     "predicate": "enforced_by",
     "object": "Retinoblastoma Protein",
-    "context": "Quiescence is enforced at the Restriction Point by the Retinoblastoma Protein (pRb), which sequesters E2F transcription factors and blocks S-phase genes.",
+    "context": "Quiescence is enforced at the restriction point by the retinoblastoma protein (pRb), which sequesters E2F transcription factors and blocks the expression of S-phase genes. Growth factor signals relieve this inhibition through cyclin-dependent kinase phosphorylation of pRb, allowing cells to re-enter the cell cycle and resume proliferation. This reversible brake underlies the ability of quiescent cells to resume division, and it is mechanistically distinct from the irreversible arrest of senescence.",
     "confidence": 0.95,
     "source_document": "Quiescence.md"
   },
@@ -651,7 +651,7 @@
     "subject": "Quiescence",
     "predicate": "distinct_from",
     "object": "Senescence",
-    "context": "Quiescence is reversible and lacks SASP; Senescence is irreversible and inflammatory. Both are proliferative arrests but differ mechanistically.",
+    "context": "Quiescence is a reversible, non-inflammatory form of proliferative arrest, whereas senescence is an irreversible arrest accompanied by a proinflammatory senescence-associated secretory phenotype (SASP). While both states involve withdrawal from the cell cycle, they differ mechanistically and functionally: quiescent cells can re-enter proliferation on stimulation, whereas senescent cells are permanently growth-arrested. The distinction is clinically relevant because senescent cells accumulate with age and drive tissue dysfunction, while quiescence protects stem cell pools.",
     "confidence": 0.95,
     "source_document": "Quiescence.md"
   },
@@ -659,7 +659,7 @@
     "subject": "Quiescence",
     "predicate": "preserves",
     "object": "Hematopoietic Stem Cell",
-    "context": "Adult stem cells such as Hematopoietic Stem Cells spend most of their lives in quiescence to protect the genome and preserve self-renewal.",
+    "context": "Adult stem cells such as hematopoietic stem cells spend most of their lives in quiescence to protect the genome and preserve self-renewal capacity. By remaining in a low-activity state, these cells limit DNA replication-associated damage and metabolic stress, maintaining their regenerative potential over a lifetime and resisting stem cell exhaustion. Quiescence therefore serves as a protective mechanism that balances stem cell maintenance with the need to respond rapidly to hematopoietic demand.",
     "confidence": 0.95,
     "source_document": "Quiescence.md"
   },
@@ -667,7 +667,7 @@
     "subject": "RB1",
     "predicate": "enforces",
     "object": "Quiescence",
-    "context": "RB1 (product of the Retinoblastoma gene) sequesters E2F transcription factors and blocks S-phase genes to enforce quiescence.",
+    "context": "RB1, the product of the retinoblastoma gene, enforces quiescence by sequestering E2F transcription factors and blocking the expression of S-phase genes. In its active hypophosphorylated form, pRb binds E2F and recruits repressive chromatin machinery to E2F target promoters, maintaining the G1/S restriction point. Cyclin-dependent kinase phosphorylation inactivates this brake and releases E2F, permitting cell cycle re-entry, while loss of RB1 function promotes unscheduled proliferation in cancer.",
     "confidence": 0.95,
     "source_document": "RB1.md"
   },
@@ -675,7 +675,7 @@
     "subject": "RB1",
     "predicate": "represses",
     "object": "LINE-1",
-    "context": "RB1 is notably abundant at the 5'UTR of L1 loci in proliferating cells, facilitating heterochromatinization of these loci.",
+    "context": "RB1, the gene encoding the retinoblastoma protein, represses LINE-1 retrotransposons by maintaining repressive chromatin at L1 loci. Active Rb recruits chromatin modifiers, including the histone methyltransferase SUV39H1 and the H3K9me3-binding protein HP1, to deposit and maintain repressive marks that silence LINE-1 elements. Loss of Rb during senescence or tumorigenesis contributes to LINE-1 derepression and the retrotransposon-driven inflammation associated with aging. Thus Rb integrates cell cycle control with genome defense against retrotransposon mobilization.",
     "confidence": 0.95,
     "source_document": "RB1.md"
   },
@@ -683,7 +683,7 @@
     "subject": "Retinoblastoma Protein",
     "predicate": "is_product_of",
     "object": "RB1",
-    "context": "The Retinoblastoma Protein (pRb) is the product of the RB1 gene.",
+    "context": "The retinoblastoma protein is the product of the RB1 gene, the prototypical tumor suppressor that controls the G1/S cell cycle checkpoint. In its active, hypophosphorylated state, Rb binds and inactivates E2F transcription factors, blocking the expression of cell cycle genes and enforcing quiescence or senescence. Cyclin-dependent kinase phosphorylation inactivates Rb, releasing E2F to drive proliferation, and loss of RB1 therefore promotes uncontrolled cell division and cancer. RB1 mutations are among the most frequent genetic alterations across human cancers.",
     "confidence": 0.95,
     "source_document": "Retinoblastoma Protein.md"
   },
@@ -691,7 +691,7 @@
     "subject": "Senescence",
     "predicate": "characterized_by",
     "object": "SASP",
-    "context": "Senescent cells release inflammatory molecules collectively termed the Senescence-Associated Secretory Phenotype (SASP).",
+    "context": "Cellular senescence is characterized by the SASP, the secretion of a complex mixture of pro-inflammatory cytokines, chemokines, growth factors, and proteases. Together with irreversible cell cycle arrest and the formation of senescence-associated heterochromatin foci, the SASP defines the senescent phenotype and mediates its effects on the tissue environment. The SASP is a double-edged sword, promoting tumor surveillance and wound healing when acute but driving inflammation and tissue dysfunction when senescent cells accumulate.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -699,7 +699,7 @@
     "subject": "Senescence",
     "predicate": "induced_by",
     "object": "DNA Damage Response",
-    "context": "Senescence in adult tissues can be triggered by a persistent DNA damage response (DDR) induced by various internal and external factors.",
+    "context": "Senescence in adult tissues can be triggered by a persistent DNA damage response (DDR) induced by various internal and external factors, including oncogenic activation, oxidative and genotoxic stress, mitochondrial dysfunction, irradiation, and chemotherapy. A sustained DDR enforces a permanent proliferation arrest and drives the senescence-associated secretory phenotype. This link between DNA damage signaling and senescence makes the DDR a central mechanism by which genotoxic stress contributes to aging.",
     "confidence": 0.95,
     "source_document": "DNA Damage Response.md"
   },
@@ -707,7 +707,7 @@
     "subject": "Senescence",
     "predicate": "involves",
     "object": "Chromatin Remodeling",
-    "context": "Senescent cells display distinctive phenotypic changes encompassing chromatin remodeling, metabolic reprogramming, and establishment of SASP.",
+    "context": "Senescent cells display distinctive phenotypic changes encompassing chromatin remodeling, metabolic reprogramming, and establishment of the SASP. Chromatin remodeling in senescence includes changes in A/B compartment organization, formation of senescence-associated heterochromatin foci, loss of canonical histones, accumulation of histone variants, and decompaction of constitutive heterochromatin. These epigenetic changes orchestrate the transcriptional program that sustains growth arrest and drives SASP gene expression.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -715,7 +715,7 @@
     "subject": "SASP",
     "predicate": "regulated_by",
     "object": "NF-κB",
-    "context": "The transcription factor NF-κB is recognized as a 'master regulator' of SASP expression.",
+    "context": "The SASP is primarily regulated by NF-kB, the master transcription factor that controls the expression of most SASP genes. NF-kB is activated in senescent cells by the cGAS-STING pathway, DNA damage signaling, and other SASP-inducing pathways, and it drives the transcription of pro-inflammatory cytokines and chemokines. Epigenetic mechanisms, including enhancer remodeling and relief of repressive marks at SASP loci, cooperate with NF-kB to produce the robust inflammatory secretome. Targeting NF-kB or its upstream activators is thus a central strategy for dampening SASP-driven inflammation.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -723,7 +723,7 @@
     "subject": "cGAS-STING Pathway",
     "predicate": "activates",
     "object": "NF-κB",
-    "context": "Cytoplasmic chromatin fragments detected by cGAS activate the cGAS-STING-NF-κB pathways to induce SASP expression.",
+    "context": "The cGAS-STING pathway activates NF-kB, the master transcription factor of the inflammatory response and a key regulator of the SASP. After cGAS binds cytosolic DNA and activates STING, downstream signaling converges on TBK1 and IKK complexes to activate NF-kB, which drives the transcription of pro-inflammatory cytokines and chemokines. In senescent cells this cGAS-STING to NF-kB cascade is a principal route by which cytosolic self-DNA, including retrotransposon cDNA, induces SASP expression. This pathway is therefore a central node linking genomic surveillance to the aging inflammatory program.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -731,7 +731,7 @@
     "subject": "Cytoplasmic Chromatin Fragments",
     "predicate": "activates",
     "object": "cGAS-STING Pathway",
-    "context": "Senescent cells release damaged DNA into the cytoplasm forming CCF, which is detected by cGAS, activating STING and NF-κB.",
+    "context": "Cytoplasmic chromatin fragments activate the cGAS-STING pathway, the innate immune DNA-sensing cascade that links nuclear DNA damage to inflammation. During senescence, ruptures of the nuclear envelope release chromatin into the cytoplasm, where the DNA sensor cGAS binds this self-DNA and activates STING, driving NF-kB-dependent expression of SASP genes. This cGAS-STING signaling through cytoplasmic chromatin is a major mechanism coupling genomic instability to the inflammatory senescent phenotype.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -739,7 +739,7 @@
     "subject": "SASP",
     "predicate": "contributes_to",
     "object": "Inflammaging",
-    "context": "As a source of chronic inflammation, SASP contributes to inflammaging — a chronic, sterile, low-grade inflammation during aging.",
+    "context": "The SASP contributes to inflammaging, the chronic low-grade inflammation that drives many age-related diseases. Senescent cells secrete pro-inflammatory cytokines, chemokines, and proteases that attract immune cells and remodel tissue, and the accumulation of these cells with age sustains systemic inflammation. Because SASP factors promote pathology in neighboring cells, suppressing the SASP or clearing senescent cells is a major therapeutic strategy to counteract inflammaging. Targeting SASP output is therefore one of the most active areas of geroscience drug development.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -747,7 +747,7 @@
     "subject": "LINE-1",
     "predicate": "derepressed_by",
     "object": "DNA Hypomethylation",
-    "context": "Age-related DNA demethylation and heterochromatin decompaction activate LINE-1 retrotransposons, triggering cGAS-STING inflammation.",
+    "context": "LINE-1 retrotransposons are derepressed by DNA hypomethylation, since methylation of L1 promoters normally keeps these elements transcriptionally silent. Age-related global loss of DNA methylation, especially at repetitive elements, relieves this silencing and allows LINE-1 transcription and retrotransposition. The resulting L1 cDNA accumulates in the cytoplasm, where it activates the cGAS-STING pathway and contributes to the chronic inflammation and SASP that characterize aging. Restoring methylation at L1 promoters re-silences these elements, confirming the causal role of hypomethylation.",
     "confidence": 0.95,
     "source_document": "RB1.md"
   },
@@ -755,7 +755,7 @@
     "subject": "LINE-1",
     "predicate": "triggers",
     "object": "cGAS-STING Pathway",
-    "context": "L1 cDNA in the cytoplasm triggers a type I interferon response through cGAS cytosolic DNA sensing, promoting inflammaging.",
+    "context": "LINE-1 retrotransposon activity triggers the cGAS-STING pathway, the innate immune DNA-sensing cascade that drives much of the inflammation in aging. When LINE-1 elements are derepressed, their RNA is reverse transcribed into L1 cDNA in the cytoplasm, where it is recognized by the DNA sensor cGAS, which activates STING and downstream NF-kB signaling. This L1-cGAS-STING axis promotes SASP expression and contributes to inflammaging, and inhibiting LINE-1 reverse transcription with NRTIs dampens this inflammatory response.",
     "confidence": 0.95,
     "source_document": "RB1.md"
   },
@@ -763,7 +763,7 @@
     "subject": "Transposable Elements",
     "predicate": "derepressed_during",
     "object": "Aging",
-    "context": "Increased expression of retrotransposition-competent L1s is a characteristic feature of aging, contributing to chronic inflammation.",
+    "context": "Increased expression of retrotransposition-competent LINE-1 elements is a characteristic feature of aging, contributing to chronic inflammation. Age-related loss of DNA methylation and heterochromatin relieves the silencing of transposable elements, allowing their transcription and mobilization, and the resulting L1 cDNA is sensed by cytosolic DNA sensors. The accumulation of L1 cDNA and HERV products activates innate immune sensors and promotes the low-grade inflammation that drives age-related disease.",
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md"
   },
@@ -771,7 +771,7 @@
     "subject": "HERV",
     "predicate": "activates",
     "object": "cGAS-STING Pathway",
-    "context": "HERV RNA undergoes reverse transcription in senescent cells, triggering cGAS/STING-dependent upregulation of SASP factors.",
+    "context": "Human endogenous retroviruses activate the cGAS-STING pathway when their expression is derepressed during aging and senescence. Age-related loss of DNA methylation and heterochromatin permits HERV transcription, and the resulting HERV RNA is reverse transcribed into cDNA that is sensed by cGAS, triggering STING-dependent upregulation of type I interferons and SASP factors. HERV-driven innate immune signaling contributes to inflammaging and the paracrine spread of senescence. Suppressing HERV expression or reverse transcription therefore reduces this senescence-driving inflammatory signal.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -779,7 +779,7 @@
     "subject": "Heterochromatin",
     "predicate": "decreases_with",
     "object": "Aging",
-    "context": "With age there is a global reduction in heterochromatin along with reduction in HP1 and H3K9me3 levels.",
+    "context": "Heterochromatin decreases with aging, with global loss of the compacted, transcriptionally silent chromatin domains that maintain genome stability. Age-related heterochromatin loss is associated with reduced HP1 and H3K9me3, altered lamin A, and reduced histone abundance, and it is accelerated in progeria syndromes such as Hutchinson-Gilford progeria. Loss of heterochromatin decompacts the genome, promoting transposable element activation, aberrant gene expression, and genomic instability as recognized hallmarks of aging.",
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md"
   },
@@ -787,7 +787,7 @@
     "subject": "H3K9me3",
     "predicate": "marks",
     "object": "Heterochromatin",
-    "context": "H3K9me3 is a hallmark of heterochromatin; it is globally reduced under aging conditions.",
+    "context": "H3K9me3, the trimethylation of histone H3 at lysine 9, is a defining mark of constitutive heterochromatin and stable gene silencing. The mark is deposited by the SUV39H, SETDB1, and G9a/GLP methyltransferases and is recognized by the chromodomain of HP1 proteins, which oligomerize to compact and spread silent chromatin. H3K9me3 is globally reduced with age and in progeria, contributing to heterochromatin loss, retrotransposon derepression, and genomic instability. Loss of this mark is thus coupled to the heterochromatin decompaction seen in aged cells.",
     "confidence": 0.95,
     "source_document": "H3K9me3.md"
   },
@@ -795,7 +795,7 @@
     "subject": "H3K9me3",
     "predicate": "decreases_with",
     "object": "Aging",
-    "context": "H3K9me3 is globally reduced in fly aging and in fibroblasts from HGPS patients.",
+    "context": "H3K9me3 globally decreases with aging, reflecting the progressive loss of constitutive heterochromatin. Reduced H3K9me3 is observed in aging flies, in progeria patient fibroblasts, and in aged mouse and human tissues, and it is accompanied by reduced HP1 and heterochromatin decompaction. This decline in the repressive mark permits derepression of transposable elements and aberrant gene expression, contributing to genomic instability and inflammation during aging. Restoring H3K9me3 levels is investigated as a means to stabilize the aging genome.",
     "confidence": 0.95,
     "source_document": "H3K9me3.md"
   },
@@ -803,7 +803,7 @@
     "subject": "H3K27me3",
     "predicate": "silences",
     "object": "SASP",
-    "context": "Depleting or inhibiting EZH2 leads to removal of H3K27me3 from SASP loci, enabling derepression of SASP genes.",
+    "context": "H3K27me3 is a repressive histone modification that silences SASP genes when present at their loci. Depleting or inhibiting EZH2, the methyltransferase that deposits this mark, removes H3K27me3 from SASP gene loci and derepresses the SASP program, enabling expression of the inflammatory secretome. Thus the maintenance of H3K27me3 at SASP loci keeps the senescence-associated secretory phenotype in check until senescence entry triggers its removal. Understanding this repressive control is important for designing senomorphic drugs that limit harmful inflammation.",
     "confidence": 0.95,
     "source_document": "H3K27me3.md"
   },
@@ -811,7 +811,7 @@
     "subject": "EZH2",
     "predicate": "deposits",
     "object": "H3K27me3",
-    "context": "EZH2 is the histone methyltransferase responsible for H3K27me3; its depletion removes H3K27me3 from SASP loci.",
+    "context": "EZH2 is the catalytic subunit of the Polycomb repressive complex 2 and the histone methyltransferase that deposits H3K27me3, a repressive mark that silences gene expression. Its depletion removes H3K27me3 from SASP loci, enabling derepression of SASP genes in multiple senescence models and in cancer immunotherapy contexts. Because EZH2-mediated silencing restrains the inflammatory secretome, EZH2 inhibition is proposed as a senomorphic strategy. Because EZH2 modulates inflammatory gene silencing, its activity is relevant to SASP regulation and to cancer immunotherapy responses.",
     "confidence": 0.95,
     "source_document": "H3K27me3.md"
   },
@@ -819,7 +819,7 @@
     "subject": "KDM4",
     "predicate": "removes",
     "object": "H3K9me3",
-    "context": "KDM4 (JMJD2) is the histone demethylase enzyme targeting H3K9; its expression increases in senescent cells, diminishing H3K9 methylation and enhancing SASP.",
+    "context": "KDM4 (also known as JMJD2) is a histone demethylase that removes methyl groups from H3K9, including the repressive H3K9me3 mark. In senescent cells, KDM4 expression increases, diminishing H3K9 methylation and thereby enhancing SASP gene expression at loci such as IL-6 and IL-8 by opening repressive chromatin. Inhibitors of KDM4 are in clinical trials for cancer and are being evaluated as senomorphic agents because KDM4 knockdown prevents SASP emergence without affecting cell cycle arrest. KDM4 inhibition is therefore a candidate strategy to blunt the inflammatory SASP.",
     "confidence": 0.95,
     "source_document": "H3K9me3.md"
   },
@@ -827,7 +827,7 @@
     "subject": "SUV39H1",
     "predicate": "deposits",
     "object": "H3K9me3",
-    "context": "SUV39H1 is a histone methyltransferase that specifically trimethylates H3K9; it decreases in senescent cells.",
+    "context": "SUV39H1 is a histone methyltransferase that deposits the repressive H3K9me3 mark, nucleating constitutive heterochromatin at centromeric and pericentromeric regions. Its expression decreases in senescent cells, contributing to the global loss of H3K9me3 and heterochromatin that accompanies aging and to the diminished silencing of SASP gene loci. Because H3K9me3 is a repressive mark, the decline of SUV39H1 relieves silencing and promotes the inflammatory secretome of senescent cells. Conversely, restoring SUV39H1 activity reinforces heterochromatin and dampens SASP-associated gene expression.",
     "confidence": 0.95,
     "source_document": "H3K9me3.md"
   },
@@ -835,7 +835,7 @@
     "subject": "AP-1",
     "predicate": "acts_as_pioneer_factor_for",
     "object": "SASP",
-    "context": "The transcription factor AP-1 acts as a pioneering factor that binds to enhancers associated with SASP genes, initiating opening of closed chromatin.",
+    "context": "The transcription factor AP-1 acts as a pioneering factor that binds to enhancers associated with SASP and other senescence-related genes, initiating the opening of closed chromatin. By pioneering open chromatin at these enhancers, AP-1 enables subsequent recruitment of transcriptional machinery, the histone acetyltransferase p300, and activation of SASP gene expression. Depletion of the AP-1 family member c-Jun alone can partially reverse senescence-associated cell cycle arrest, underscoring AP-1's central regulatory role.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -843,7 +843,7 @@
     "subject": "BRD4",
     "predicate": "binds",
     "object": "H3K27ac",
-    "context": "BRD4 is an epigenetic reader recognizing H3K27ac at senescence-activated super-enhancers, facilitating SASP gene expression.",
+    "context": "BRD4 is a BET family epigenetic reader that binds to H3K27ac, the acetylation mark present at active enhancers and promoters. At senescence-activated super-enhancers, BRD4 binding to H3K27ac, together with the transcription factor C/EBPalpha, facilitates the expression of SASP genes by supporting enhancer-promoter interactions and transcriptional elongation. BRD4 inhibition suppresses SASP while leaving cell cycle arrest intact, making it a candidate senomorphic target with BET inhibitors in clinical trials.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -851,7 +851,7 @@
     "subject": "BRD4",
     "predicate": "drives",
     "object": "SASP",
-    "context": "BRD4 and C/EBPα bind to senescence-activated enhancers flanking key SASP genes, facilitating their expression.",
+    "context": "BRD4 drives the SASP by binding to senescence-activated enhancers that flank key SASP genes. Together with the transcription factor C/EBPalpha, BRD4 recognizes H3K27ac marks at these enhancers and promotes the transcription of inflammatory SASP genes by stabilizing enhancer-promoter contacts. Knocking down BRD4 prevents the emergence of SASP without affecting growth arrest, positioning BRD4 and BET bromodomain inhibitors as a promising senomorphic strategy. Because BRD4 acts upstream of many inflammatory genes, it offers a single target to suppress the entire SASP program.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -859,7 +859,7 @@
     "subject": "HDAC4",
     "predicate": "monitors",
     "object": "H3K27ac",
-    "context": "HDAC4 is recruited to H3K27ac loci to monitor the acetylation status of H3K27 at AP-1 regulated super-enhancers.",
+    "context": "HDAC4, a class IIa histone deacetylase that is catalytically inactive and acts as an epigenetic reader, monitors H3K27ac, the acetylation mark at active enhancers. It is swiftly recruited to H3K27ac loci and, through interaction with the class I deacetylase HDAC3, oversees the acetylation status of AP-1-regulated super-enhancers. This buffering function keeps senescence-associated gene expression in check until HDAC4 degradation upon senescence entry unleashes the SASP program. This monitoring role links HDAC4 to the chromatin changes that set the threshold for SASP activation.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -867,7 +867,7 @@
     "subject": "HDAC4",
     "predicate": "degraded_during",
     "object": "Senescence",
-    "context": "Upon entry into senescence, HDAC4 is degraded, allowing the AP-1 mediated senescence transcriptional program to be unleashed.",
+    "context": "HDAC4 is degraded upon entry into senescence, an event that unleashes the AP-1-mediated senescence transcriptional program. Under normal conditions, HDAC4, a class IIa histone deacetylase that acts as an epigenetic reader, monitors H3K27 acetylation at AP-1-regulated super-enhancers and buffers the senescence program, keeping SASP gene expression repressed. Its degradation removes this brake, allowing the widespread activation of senescence-associated genes that drives the SASP. This proteolytic switch is one of the triggers that converts a buffered state into a full-blown senescent secretome.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -875,7 +875,7 @@
     "subject": "Senescence-Associated Heterochromatin Foci",
     "predicate": "characterized_by",
     "object": "H3K9me3",
-    "context": "SAHFs are characterized by increased HP1, H3K9me3 marks, macroH2A and HMGA protein binding.",
+    "context": "Senescence-associated heterochromatin foci (SAHFs) are characterized by increased binding of HP1, H3K9me3 marks, macroH2A, and HMGA proteins. These foci are large domains of condensed heterochromatin that form in the nuclei of senescent cells and are believed to contribute to silencing of proliferation-associated genes. SAHF formation requires chromatin regulators including HIRA, ASF1a, and UBN1, and although not essential for growth arrest, their disruption correlates with reduced SASP expression.",
     "confidence": 0.95,
     "source_document": "H3K9me3.md"
   },
@@ -883,7 +883,7 @@
     "subject": "Senescence-Associated Heterochromatin Foci",
     "predicate": "contains",
     "object": "macroH2A",
-    "context": "macroH2A is abundant in SAHF where it promotes transcriptional silencing.",
+    "context": "Senescence-associated heterochromatin foci contain macroH2A, along with HP1, H3K9me3, and HMGA proteins, which together form compacted chromatin domains in the nuclei of senescent cells. The accumulation of macroH2A in these foci promotes transcriptional silencing of proliferation-associated genes and helps stabilize the senescent state. Although not essential for growth arrest, the incorporation of macroH2A into SAHFs is a hallmark of senescence-associated chromatin reorganization. The enrichment of macroH2A distinguishes SAHFs from ordinary heterochromatin domains.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -891,7 +891,7 @@
     "subject": "H3.3",
     "predicate": "accumulates_in",
     "object": "Senescence",
-    "context": "In senescent cells, H3.3 accumulates and progressively replaces canonical H3.1 and H3.2, and both H3.3 and its cleaved product H3.3cs1 trigger senescence when ectopically expressed.",
+    "context": "In senescent cells, the histone variant H3.3 accumulates and progressively replaces the canonical histones H3.1 and H3.2. Both H3.3 and its N-terminally cleaved product H3.3cs1, generated by the lysosomal protease cathepsin L1, trigger senescence when ectopically expressed. Because H3.3 is deposited in a replication-independent manner, it accumulates in post-mitotic and senescent cells, and its long half-life makes it vulnerable to cumulative damage that contributes to epigenetic dysregulation during aging.",
     "confidence": 0.95,
     "source_document": "Histone Variant.md"
   },
@@ -899,7 +899,7 @@
     "subject": "H2A.J",
     "predicate": "enriched_at",
     "object": "SASP",
-    "context": "H2A.J is enriched in SASP promoters, facilitating changes in chromatin accessibility that induce SASP expression.",
+    "context": "The histone variant H2A.J is enriched at the promoters of SASP genes, where it facilitates changes in chromatin accessibility that induce SASP expression. H2A.J accumulates in human senescent fibroblasts, in aged human skin, and in mouse tissues, particularly in response to persistent DNA damage. This DNA damage-associated incorporation of H2A.J at inflammatory gene loci links the DNA damage response to the activation of the senescence-associated secretory phenotype. This enrichment distinguishes H2A.J from canonical histones and marks the switch toward inflammatory gene expression in senescent cells.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -907,7 +907,7 @@
     "subject": "γ-H2A.X",
     "predicate": "recruits",
     "object": "DNA Repair",
-    "context": "γ-H2A.X serves as a beacon to recruit DNA repair proteins at the sites of double-stranded DNA breaks.",
+    "context": "gamma-H2A.X, the phosphorylated form of the histone variant H2A.X at serine 139, serves as a beacon that recruits DNA repair proteins to sites of double-strand DNA breaks. Phosphorylation of H2A.X spreads over large chromatin domains around the break, providing a platform for the assembly of DNA repair complexes and the amplification of damage signaling. Beyond its role in repair, gamma-H2A.X induces p53 expression and activates senescence signaling, and it accumulates with aging as a result of persistent DNA damage.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -915,7 +915,7 @@
     "subject": "macroH2A",
     "predicate": "accumulates_during",
     "object": "Aging",
-    "context": "macroH2A levels increase with aging in mice, primates, and in senescent human fibroblasts.",
+    "context": "macroH2A levels increase during aging in mice, baboons, and human senescent fibroblasts, making it a marker of the aged cellular state. As a histone variant with a very long half-life, macroH2A accumulates in post-mitotic cells, where it contributes to repressing proliferation genes and stabilizing senescence-associated heterochromatin foci. Its age-related accumulation is part of the altered chromatin landscape of aging cells and links histone variant dynamics to the senescent state. Thus macroH2A serves as both a marker and a contributor to age-related chromatin remodeling.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -923,7 +923,7 @@
     "subject": "macroH2A",
     "predicate": "promotes",
     "object": "SASP",
-    "context": "Knockout of macroH2A in senescent cells reduces SASP, indicating macroH2A promotes the SASP response.",
+    "context": "macroH2A promotes the SASP by modulating the chromatin state at SASP loci during senescence. Although macroH2A is classically associated with transcriptional silencing and senescence-associated heterochromatin foci, its removal from SASP gene loci during oncogene-induced senescence is required for proper SASP gene induction, and knockout of macroH2A in senescent cells reduces SASP output. This dual role illustrates how dynamic changes in histone variant occupancy fine-tune the expression of the inflammatory secretome.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -931,7 +931,7 @@
     "subject": "Nucleosome Remodeling",
     "predicate": "decreases_with",
     "object": "Aging",
-    "context": "During yeast aging, nucleosome occupancy decreases by up to 50% across the genome and half of core histone proteins are lost.",
+    "context": "Nucleosome remodeling capacity decreases with age, accompanied by the loss of core histones and nucleosome occupancy. In aging yeast, nucleosome occupancy decreases by up to 50 percent and half the core histone proteins are lost, and similar chromatin decompaction occurs in worms and human cells. Reduced histone abundance and nucleosome loss decompact chromatin, increasing DNA accessibility and transcriptional noise while contributing to genomic instability in aging cells. These findings support the view that chromatin decompaction is a fundamental driver of age-related dysfunction.",
     "confidence": 0.95,
     "source_document": "Nucleosome Remodeling.md"
   },
@@ -939,7 +939,7 @@
     "subject": "SAHF",
     "predicate": "correlates_with",
     "object": "SASP",
-    "context": "SAHF disruption correlates with reduced SASP expression, though whether SAHF is necessary for SASP remains unresolved.",
+    "context": "SAHF disruption correlates with reduced SASP expression, though whether SAHF is necessary for SASP remains unresolved. While SAHF formation accompanies senescence and is thought to silence proliferation genes, its relationship to SASP is complex because SAHF are not readily observed in many in vivo contexts and in mouse cells, where they fail to form robustly. The correlation between SAHF integrity and SASP output nonetheless suggests a functional link between heterochromatin organization and the inflammatory secretome.",
     "confidence": 0.75,
     "source_document": "SAHF.md"
   },
@@ -947,7 +947,7 @@
     "subject": "SIRT1",
     "predicate": "stabilizes",
     "object": "rDNA",
-    "context": "Sirtuins stabilize human rDNA by recruiting DNMT1, preventing cellular senescence — essentially the same function as yeast Sir2.",
+    "context": "SIRT1 stabilizes ribosomal DNA by maintaining the silencing of rDNA repeats, essentially performing in human cells the same function that the yeast sirtuin Sir2 performs at the rDNA locus. Through its deacetylase activity and recruitment of DNMT1, SIRT1 preserves rDNA methylation and prevents the recombination events that generate toxic extrachromosomal rDNA circles during aging. This conserved function links rDNA stability to genome integrity, cellular senescence, and lifespan control across species.",
     "confidence": 0.95,
     "source_document": "miR-217.md"
   },
@@ -955,7 +955,7 @@
     "subject": "SIRT1",
     "predicate": "prevents",
     "object": "Senescence",
-    "context": "Sirtuins stabilize human rDNA and prevent cellular senescence; overexpression of SIRT1 prevents age-related relocalization.",
+    "context": "SIRT1 prevents cellular senescence by maintaining chromatin silencing, stabilizing rDNA, and promoting DNA repair. SIRT1 deacetylates histones and transcription factors such as FOXO and p53, suppresses the age-related relocalization of silencing factors, and recruits DNMT1 to maintain rDNA methylation, preventing the genomic instability that triggers senescence. Overexpression of SIRT1 or activation by compounds such as resveratrol counteracts aging-related changes and delays cellular senescence.",
     "confidence": 0.95,
     "source_document": "miR-217.md"
   },
@@ -963,7 +963,7 @@
     "subject": "Induced Pluripotent Stem Cells",
     "predicate": "generated_by",
     "object": "Cellular Reprogramming",
-    "context": "iPSCs are somatic cells reprogrammed to pluripotency by defined transcription factors through Cellular Reprogramming.",
+    "context": "Induced pluripotent stem cells (iPSCs) are somatic cells reprogrammed to pluripotency by defined transcription factors through cellular reprogramming. The process erases somatic epigenetic marks, including DNA methylation and repressive histone modifications, and establishes a pluripotency gene network, yielding cells capable of differentiating into all three germ layers. iPSCs are validated by their pluripotent character and are used for disease modeling, drug discovery, and regenerative medicine.",
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md"
   },
@@ -971,7 +971,7 @@
     "subject": "Induced Pluripotent Stem Cells",
     "predicate": "enables",
     "object": "Disease Modeling",
-    "context": "iPSCs have transformed Disease Modeling for genetic disorders by generating isogenic neuronal models from patient fibroblasts.",
+    "context": "Induced pluripotent stem cells enable disease modeling by providing an unlimited, patient-derived source of disease-relevant cells. Reprogramming fibroblasts from patients with genetic disorders and differentiating them into affected cell types recapitulates key disease phenotypes in vitro, such as TDP-43 mislocalization in frontotemporal dementia. These models enable mechanistic studies, drug screening, and personalized medicine while avoiding the ethical constraints of fetal tissue. The resulting models have become central platforms for studying both rare and common diseases.",
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md"
   },
@@ -979,7 +979,7 @@
     "subject": "Induced Pluripotent Stem Cells",
     "predicate": "validated_by",
     "object": "Teratoma",
-    "context": "Pluripotency is conventionally validated by the Teratoma assay — tumor formation in immunodeficient mice containing all three germ layers.",
+    "context": "Induced pluripotent stem cells are validated by the teratoma assay, in which the cells are injected into immunodeficient mice and assessed for the formation of benign tumors containing all three germ layers. The presence of endoderm, mesoderm, and ectoderm derivatives confirms true pluripotency and multilineage differentiation potential. This gold-standard test distinguishes fully pluripotent cells from partially reprogrammed or multipotent populations before research or clinical use. However, the assay also highlights the tumorigenic risk that must be controlled before clinical use.",
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md"
   },
@@ -987,7 +987,7 @@
     "subject": "Shinya Yamanaka",
     "predicate": "discovered",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "iPSC technology was pioneered by Shinya Yamanaka and colleagues in 2006, who demonstrated that four factors could revert fibroblasts to pluripotency.",
+    "context": "Shinya Yamanaka and colleagues discovered induced pluripotent stem cells in 2006, showing that somatic fibroblasts could be reprogrammed to pluripotency by the four transcription factors Oct4, Sox2, Klf4, and c-Myc. This landmark work, for which Yamanaka received the Nobel Prize in Physiology or Medicine in 2012, demonstrated that cell identity is not fixed and could be reset by defined factors. iPSC technology opened new avenues for disease modeling, drug discovery, and patient-specific regenerative medicine.",
     "confidence": 0.95,
     "source_document": "Shinya Yamanaka.md"
   },
@@ -995,7 +995,7 @@
     "subject": "5-Azacytidine",
     "predicate": "inhibits",
     "object": "DNMT1",
-    "context": "5-Azacytidine is a DNA methyltransferase inhibitor that targets DNMT1.",
+    "context": "5-Azacytidine inhibits DNMT1, the maintenance DNA methyltransferase that copies methylation patterns onto daughter strands during DNA replication. As a cytidine analog, 5-azacytidine is incorporated into DNA, where it covalently traps DNMT1 and depletes the enzyme, causing passive loss of methylation on newly synthesized strands. This demethylation reactivates silenced genes, including tumor suppressors, and underlies its clinical use in myelodysplastic syndromes and acute myeloid leukemia. It is also studied for its capacity to modulate senescence and reactivate silenced developmental programs.",
     "confidence": 0.95,
     "source_document": "5-Azacytidine.md"
   },
@@ -1003,7 +1003,7 @@
     "subject": "5-Azacytidine",
     "predicate": "is_a_type_of",
     "object": "Epigenetic Modifiers",
-    "context": "5-Azacytidine is classified among epigenetic modifiers as a DNMT inhibitor.",
+    "context": "5-Azacytidine is classified as an epigenetic modifier, specifically a DNA methyltransferase (DNMT) inhibitor, and it is among the first epigenetic drugs used in the clinic. As a cytidine analog, it is incorporated into DNA during replication, where it covalently traps DNMT enzymes and causes passive loss of DNA methylation, reactivating silenced genes such as tumor suppressors. This mechanism underlies its use in myelodysplastic syndromes and leukemia and its application in research on gene silencing, development, and aging.",
     "confidence": 0.95,
     "source_document": "5-Azacytidine.md"
   },
@@ -1011,7 +1011,7 @@
     "subject": "Decitabine",
     "predicate": "inhibits",
     "object": "DNA Methyltransferase",
-    "context": "Decitabine is a DNA methyltransferase inhibitor used in epigenetic therapy.",
+    "context": "Decitabine is a nucleoside analog that inhibits DNA methyltransferases and is used as an epigenetic therapy in hematologic malignancies. After incorporation into DNA during replication, decitabine covalently traps DNMT enzymes, depleting them and causing passive loss of DNA methylation on newly synthesized strands. This demethylation reactivates genes silenced by promoter hypermethylation, such as tumor suppressors, which underlies its clinical efficacy in myelodysplastic syndromes and acute myeloid leukemia.",
     "confidence": 0.95,
     "source_document": "Decitabine.md"
   },
@@ -1019,7 +1019,7 @@
     "subject": "Sodium Valproate",
     "predicate": "inhibits",
     "object": "Histone Deacetylase",
-    "context": "Sodium Valproate is a broadly used HDAC-inhibiting anticonvulsant.",
+    "context": "Sodium valproate is an anticonvulsant and mood-stabilizing drug that also acts as a histone deacetylase inhibitor at therapeutic concentrations. By inhibiting class I HDACs, valproate increases histone acetylation and alters the expression of many genes, which contributes to its clinical effects and underlies its use as an experimental epigenetic modulator. Valproate is also used in research to enhance reprogramming, promote differentiation, and study the role of acetylation in gene regulation and aging.",
     "confidence": 0.95,
     "source_document": "Sodium Valproate.md"
   },
@@ -1027,7 +1027,7 @@
     "subject": "Trichostatin A",
     "predicate": "inhibits",
     "object": "Histone Deacetylase",
-    "context": "Trichostatin A is a histone deacetylase inhibitor used in senescence research.",
+    "context": "Trichostatin A is a potent, broadly acting histone deacetylase inhibitor used extensively in epigenetics and senescence research. By blocking HDAC enzymes, trichostatin A increases histone acetylation, opening chromatin and reactivating genes silenced by deacetylation across the genome. In senescence studies it serves as a tool compound to probe how the balance between histone acetyltransferase and deacetylase activities influences the senescence phenotype, SASP regulation, and chromatin state. It is one of the most widely used tool compounds for manipulating the acetylome experimentally.",
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md"
   },
@@ -1035,7 +1035,7 @@
     "subject": "Caloric Restriction",
     "predicate": "attenuates",
     "object": "Epigenetic Drift",
-    "context": "Diet, stress, toxins, and Caloric Restriction can accelerate or attenuate epigenetic drift.",
+    "context": "Caloric restriction attenuates epigenetic drift, the progressive divergence of methylation and chromatin marks that accumulates with age. In C. elegans, caloric restriction reverses the age-related decline of microRNAs, and in mammals it slows age-associated changes in DNA methylation, helping to preserve youthful epigenetic patterns. By limiting drift, caloric restriction maintains transcriptional fidelity and cellular identity, contributing to its well-documented effects on healthspan and lifespan.",
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md"
   },
@@ -1043,7 +1043,7 @@
     "subject": "Caloric Restriction",
     "predicate": "reverses",
     "object": "Epigenetic Clock",
-    "context": "Interventions such as Caloric Restriction have shown measurable epigenetic clock reversal in some studies.",
+    "context": "Caloric restriction, the best-characterized lifespan-extending intervention, has shown measurable reversal of epigenetic clock estimates in some studies. By limiting energy intake, caloric restriction slows age-related changes in DNA methylation and chromatin, reducing the methylation-predicted biological age of tissues relative to chronological age. These findings indicate that biological age is malleable and have made epigenetic clocks standard endpoints in longevity research and intervention trials.",
     "confidence": 0.75,
     "source_document": "Epigenetic Clock.md"
   },
@@ -1051,7 +1051,7 @@
     "subject": "Metformin",
     "predicate": "reverses",
     "object": "Epigenetic Clock",
-    "context": "Metformin and partial cellular reprogramming have shown measurable clock reversal in some studies.",
+    "context": "Metformin, a widely used anti-diabetic drug, has shown measurable reversal of epigenetic clock estimates in some studies, reducing the DNA methylation-predicted age of tissues relative to chronological age. By demonstrating that biological age, as measured by the methylation state of selected CpG sites, can decrease in response to intervention, these findings support the notion that biological aging is modifiable. Epigenetic clocks have consequently become standard endpoints for evaluating longevity interventions such as metformin in clinical trials.",
     "confidence": 0.75,
     "source_document": "Epigenetic Clock.md"
   },
@@ -1059,7 +1059,7 @@
     "subject": "AMPK",
     "predicate": "interacts_with",
     "object": "Sirtuins",
-    "context": "Metabolic regulators such as AMPK and Sirtuins intersect with HAT-controlled pathways, linking diet and environment to the Epigenome.",
+    "context": "AMPK interacts with sirtuins to link cellular energy status to chromatin regulation and aging. AMPK senses declining energy levels, elevates NAD+ to activate sirtuins such as SIRT1, and shares downstream targets including FOXO and PGC-1alpha, connecting nutrient availability to gene expression and metabolism. This AMPK-sirtuin axis mediates many effects of caloric restriction and hormetic stimuli, coordinating mitochondrial function, autophagy, and stress resistance with the epigenetic state. Pharmacological activation of this axis reproduces many benefits of dietary restriction.",
     "confidence": 0.95,
     "source_document": "_document_ - xenohormesis, mitohormesis.md"
   },
@@ -1067,7 +1067,7 @@
     "subject": "Aging",
     "predicate": "associated_with",
     "object": "Cancer",
-    "context": "Dysregulation of HAT activity has been linked to various age-related conditions including Cancer and Neurodegenerative Diseases.",
+    "context": "Aging is associated with a markedly increased risk of cancer, driven in part by the accumulation of epigenetic dysregulation. Age-related global hypomethylation destabilizes the genome and activates transposable elements, while focal promoter hypermethylation silences tumor suppressor genes, and these changes cooperate with genetic mutations to drive tumorigenesis. The epigenetic alterations that accumulate with age are therefore targets of epigenetic therapies and biomarkers for cancer risk. This epigenetic-aging link provides a rationale for using epigenetic drugs in cancer prevention and therapy.",
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md"
   },
@@ -1075,7 +1075,7 @@
     "subject": "Aging",
     "predicate": "associated_with",
     "object": "Neurodegenerative Diseases",
-    "context": "Dysregulation of HAT activity has been linked to age-related conditions including Neurodegenerative Diseases.",
+    "context": "Aging is the principal risk factor for neurodegenerative diseases, and epigenetic dysregulation contributes to this association. Altered histone acetylation and DNA methylation impair the expression of neuroprotective genes, exacerbate protein aggregation, and contribute to neuronal dysfunction in conditions such as Alzheimer's and Parkinson's disease. Because many of these epigenetic changes are reversible, they represent targets for therapeutic intervention in age-related neurodegeneration. These epigenetic targets are being explored as therapeutic avenues for delaying neurodegeneration.",
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md"
   },
@@ -1083,7 +1083,7 @@
     "subject": "Aging",
     "predicate": "involves",
     "object": "Epigenetic Drift",
-    "context": "As organisms age, epigenetic patterns become disrupted through epigenetic drift, contributing to cellular dysfunction.",
+    "context": "Aging involves epigenetic drift, the progressive divergence of DNA methylation and chromatin marks from the youthful state that erodes the fidelity of gene expression. Drift occurs stochastically, increasing variation both between individuals and between cells of the same tissue, and it contributes to cellular dysfunction and age-related disease. Polycomb group protein target genes are particularly susceptible to age-associated methylation changes, linking drift to the loss of cellular identity.",
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md"
   },
@@ -1091,7 +1091,7 @@
     "subject": "Aging",
     "predicate": "reversed_by",
     "object": "Partial Reprogramming",
-    "context": "Cyclic, transient OSKM expression reversed signs of aging in progeroid mice and extended lifespan without tumor formation.",
+    "context": "Signs of aging can be reversed by partial reprogramming, in which the Yamanaka factors are expressed transiently and cyclically rather than continuously. This approach restored youthful gene expression and extended lifespan in progeroid mice without the tumor formation seen with full reprogramming to pluripotency. By resetting age-related epigenetic marks, including DNA methylation and chromatin state, partial reprogramming demonstrates that aspects of biological aging are reversible. This has established partial reprogramming as a leading candidate rejuvenation strategy.",
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md"
   },
@@ -1099,7 +1099,7 @@
     "subject": "Epigenome",
     "predicate": "responsive_to",
     "object": "Environment",
-    "context": "Unlike the largely static genome, the Epigenome is dynamic and responsive to diet, stress, exercise, toxins, and social environment.",
+    "context": "Unlike the largely static genome, the epigenome is dynamic and responsive to diet, stress, exercise, toxins, and social environment. Environmental signals modify DNA methylation, histone modifications, and non-coding RNA expression, shaping gene expression over the lifespan and influencing the pace of biological aging. This responsiveness links lifestyle and environmental exposures to long-term health outcomes and provides a mechanistic basis for the effects of behavior and environment on aging.",
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md"
   },
@@ -1107,7 +1107,7 @@
     "subject": "Epigenetics",
     "predicate": "targets",
     "object": "Rejuvenation",
-    "context": "The Epigenome's responsiveness makes epigenetics a target for Rejuvenation strategies.",
+    "context": "The epigenome's responsiveness makes epigenetics a target for rejuvenation strategies. Because age-related epigenetic changes, including epigenetic drift and altered histone modifications, are reversible, interventions that reset DNA methylation and chromatin marks can restore youthful gene expression patterns. Partial reprogramming with Yamanaka factors, epigenetic drug treatments, and lifestyle interventions such as caloric restriction all exploit this epigenetic plasticity to reduce biological age, with epigenetic clocks serving as readouts of rejuvenation success.",
     "confidence": 0.95,
     "source_document": "Epigenetics.md"
   },
@@ -1115,7 +1115,7 @@
     "subject": "Cancer",
     "predicate": "involves",
     "object": "Epigenetics",
-    "context": "Epigenetic dysregulation underlies Cancer through silencing of tumor suppressors and global hypomethylation.",
+    "context": "Epigenetic dysregulation underlies cancer through silencing of tumor suppressors and global hypomethylation. Promoter hypermethylation silences genes that restrain proliferation, while global loss of methylation destabilizes the genome and activates transposable elements, and aberrant histone modifications reinforce these changes. These epigenetic alterations cooperate with genetic mutations to drive tumorigenesis and provide therapeutic targets for epigenetic drugs such as DNA methyltransferase inhibitors.",
     "confidence": 0.95,
     "source_document": "Epigenetics.md"
   },
@@ -1123,7 +1123,7 @@
     "subject": "Polycomb Group Proteins",
     "predicate": "target_of",
     "object": "Epigenetic Drift",
-    "context": "During aging, DNA methylation at specific Polycomb group protein target genes is altered, perhaps explaining H3K27 trimethylation changes.",
+    "context": "Polycomb group proteins are a primary target of epigenetic drift, as genes marked by Polycomb repressive complexes are especially vulnerable to age-associated methylation changes. The H3K27me3 mark deposited by Polycomb complexes and associated CpG methylation tend to be gained during aging, altering the expression of developmental and differentiation genes. This drift at Polycomb targets contributes to the loss of cellular identity and transcriptional fidelity that characterizes aging. Preventing such drift at Polycomb targets is a goal of epigenetic rejuvenation approaches.",
     "confidence": 0.75,
     "source_document": "Polycomb Group Proteins.md"
   },
@@ -1131,7 +1131,7 @@
     "subject": "Hutchinson-Gilford Progeria Syndrome",
     "predicate": "caused_by",
     "object": "Lamin A",
-    "context": "Hutchinson-Gilford Progeria Syndrome is caused by a truncated form of lamin A, resulting in reduction of heterochromatin.",
+    "context": "Hutchinson-Gilford progeria syndrome is a rare premature aging disorder caused by mutations in the LMNA gene, which encodes lamin A. A silent point mutation (c.1824C>T) activates a cryptic splice site that produces progerin, a permanently farnesylated, toxic form of lamin A that accumulates at the nuclear membrane. Progerin causes nuclear blebbing, loss of heterochromatin, genomic instability, and premature senescence, producing the accelerated aging features of the disease. The disease demonstrates how defective nuclear envelope proteins disrupt chromatin organization and accelerate aging.",
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md"
   },
@@ -1139,7 +1139,7 @@
     "subject": "Werner Syndrome",
     "predicate": "involves",
     "object": "DNA Repair",
-    "context": "Werner syndrome progeria patients have defective DNA repair with decreased H3K9me3 and SUV39H1 levels.",
+    "context": "Werner syndrome is a progeroid disorder caused by mutations in the WRN gene, which encodes a protein with both helicase and exonuclease activities essential for DNA repair and genome stability. The WRN protein functions in pathways including homologous recombination, base excision repair, and resolution of replication stress, and its loss leads to accelerated genomic instability and premature aging. Werner syndrome patients prematurely develop age-related diseases such as atherosclerosis, diabetes, and cancer.",
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md"
   },
@@ -1147,7 +1147,7 @@
     "subject": "Chromatin",
     "predicate": "composed_of",
     "object": "Nucleosome",
-    "context": "The basic unit of chromatin is the nucleosome, made up of 147 DNA base pairs wrapped around an octamer of histone proteins.",
+    "context": "Chromatin is composed of nucleosomes, the repeating structural units that package the genome within the nucleus. Each nucleosome consists of a histone octamer, with two copies each of H2A, H2B, H3, and H4, wrapped by approximately 147 base pairs of DNA. Nucleosomes are arranged along the DNA in a beads-on-a-string fashion and further compact into higher-order fibers, with their positioning and modification determining whether underlying DNA is accessible for transcription, replication, and repair.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1155,7 +1155,7 @@
     "subject": "Nucleosome",
     "predicate": "composed_of",
     "object": "Histone",
-    "context": "Nucleosomes are made up of an octamer of histone proteins: two copies each of H2A, H2B, H3, and H4.",
+    "context": "A nucleosome, the fundamental repeating unit of chromatin, is composed of a histone octamer around which DNA is wrapped. The octamer contains two copies each of the core histones H2A, H2B, H3, and H4, and approximately 147 base pairs of DNA wind around this protein core in a left-handed superhelix. Nucleosomes package the genome into chromatin, and their positioning and modification regulate access to DNA for transcription, replication, and repair. Linker histone H1 associates with the DNA between nucleosomes and helps fold the fiber into higher-order structures.",
     "confidence": 0.95,
     "source_document": "Nucleosome Remodeling.md"
   },
@@ -1163,7 +1163,7 @@
     "subject": "Histone Acetylation",
     "predicate": "opens",
     "object": "Chromatin",
-    "context": "Acetylation neutralizes the positive charge of the histone tail, reducing its affinity for DNA and opening chromatin.",
+    "context": "Histone acetylation opens chromatin by neutralizing the positive charge of lysine residues on histone tails, weakening their electrostatic interaction with the negatively charged DNA backbone. This relaxes nucleosome compaction and increases the accessibility of DNA to transcription factors and other regulatory proteins, promoting gene expression. Acetylation is dynamically deposited by histone acetyltransferases and removed by histone deacetylases, and the balance between these activities tunes chromatin structure across the genome.",
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md"
   },
@@ -1171,7 +1171,7 @@
     "subject": "Deacetylation",
     "predicate": "condenses",
     "object": "Chromatin",
-    "context": "Deacetylation restores positive charge of lysine side chains, strengthening interaction with DNA and condensing chromatin.",
+    "context": "Histone deacetylation condenses chromatin by restoring the positive charge of lysine residues on histone tails, strengthening their electrostatic interaction with DNA and promoting nucleosome compaction. This condenses the chromatin fiber, reducing the accessibility of DNA to transcription factors and repressing gene expression. Deacetylation is catalyzed by histone deacetylases, which counterbalance the chromatin-opening effects of histone acetyltransferases and are targets of HDAC-inhibitor drugs.",
     "confidence": 0.95,
     "source_document": "CHD4.md"
   },
@@ -1179,7 +1179,7 @@
     "subject": "Disease Modeling",
     "predicate": "uses",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "iPSCs power Disease Modeling for genetic disorders including Frontotemporal Dementia and Neurodegeneration.",
+    "context": "Disease modeling uses induced pluripotent stem cells to recreate genetic diseases in vitro by reprogramming patient somatic cells and differentiating them into the affected cell types. iPSC-derived models recapitulate disease phenotypes, such as TDP-43 mislocalization in frontotemporal dementia neurons, enabling mechanistic dissection of pathology and identification of therapeutic targets. Because the cells carry the patient's actual genome, they also support drug screening and personalized medicine approaches.",
     "confidence": 0.95,
     "source_document": "Disease Modeling.md"
   },
@@ -1187,7 +1187,7 @@
     "subject": "Drug Discovery",
     "predicate": "uses",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "iPSCs power Drug Discovery through toxicity screening and phenotype-based assays.",
+    "context": "Drug discovery increasingly uses induced pluripotent stem cells as a renewable, patient-derived platform for high-throughput compound screening. Because iPSCs can be generated from individuals with specific genetic diseases and differentiated into disease-relevant cell types, they allow researchers to test drug candidates on cells carrying the actual disease mutation. This approach improves the translatability of preclinical findings, supports personalized medicine, and reduces reliance on animal models and fetal tissue for mechanistic drug studies.",
     "confidence": 0.95,
     "source_document": "Drug Discovery.md"
   },
@@ -1195,7 +1195,7 @@
     "subject": "Regenerative Medicine",
     "predicate": "uses",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "iPSCs enable Regenerative Medicine applications such as retinal pigment epithelium grafts and cardiomyocyte patches.",
+    "context": "Regenerative medicine uses induced pluripotent stem cells as a source of patient-matched cells for replacing damaged or lost tissue. Because iPSCs can be derived from a patient's own somatic cells and directed to differentiate into any cell type of the three germ layers, they offer the prospect of personalized grafts that avoid immune rejection. Clinical applications include iPSC-derived retinal pigment epithelium for macular degeneration, dopaminergic neurons for Parkinson's disease, and cardiac and neural cells for other degenerative conditions.",
     "confidence": 0.95,
     "source_document": "Regenerative Medicine.md"
   },
@@ -1203,7 +1203,7 @@
     "subject": "CRISPR",
     "predicate": "used_in",
     "object": "Cellular Reprogramming",
-    "context": "CRISPR-based locus activation is one method for achieving cellular reprogramming beyond transcription-factor delivery.",
+    "context": "CRISPR-based genome editing is used in cellular reprogramming to delete or modify genes that limit the generation of induced pluripotent stem cells. In the classic example, CRISPR-Cas9-mediated knockout of the transcription factor Oct4 in reprogramming studies demonstrates how targeted gene disruption can probe the requirements of pluripotency. Beyond knockouts, CRISPRi and CRISPRa allow transient modulation of reprogramming factors and pathways, enabling more efficient and controllable iPSC generation and lineage conversion.",
     "confidence": 0.95,
     "source_document": "CRISPR.md"
   },
@@ -1211,7 +1211,7 @@
     "subject": "CRISPR",
     "predicate": "targets",
     "object": "Oct4",
-    "context": "Oct4 is a target of CRISPR and small-molecule (re)activation strategies aiming to control pluripotency without genomic integration.",
+    "context": "CRISPR-Cas9 gene editing can be used to target Oct4 (POU5F1), the master regulator of pluripotency, to test its functional requirement in cellular reprogramming and stem cell biology. Knockout of Oct4 via CRISPR demonstrates that without this transcription factor somatic cells cannot be reprogrammed to pluripotency, confirming its essential role in the process. CRISPR-mediated modulation of Oct4 expression, through either knockout or activation approaches, provides a precise tool for probing the pluripotency gene network.",
     "confidence": 0.95,
     "source_document": "CRISPR.md"
   },
@@ -1219,7 +1219,7 @@
     "subject": "Mesenchymal-to-Epithelial Transition",
     "predicate": "required_for",
     "object": "Cellular Reprogramming",
-    "context": "MET is essential during reprogramming because fibroblasts are mesenchymal while iPSCs are epithelial.",
+    "context": "Mesenchymal-to-epithelial transition (MET) is an early, essential step in the cellular reprogramming of fibroblasts into induced pluripotent stem cells. During MET, cells silence mesenchymal genes and re-express epithelial markers such as E-cadherin (CDH1), EpCAM, and occludin, acquiring the epithelial morphology characteristic of pluripotent cells. The Yamanaka factors enforce MET by repressing EMT transcription factors and TGF-beta signaling, and blocking MET drastically reduces reprogramming efficiency, making it a deterministic early event in the establishment of pluripotency.",
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md"
   },
@@ -1227,7 +1227,7 @@
     "subject": "Epithelial-to-Mesenchymal Transition",
     "predicate": "opposes",
     "object": "Mesenchymal-to-Epithelial Transition",
-    "context": "Klf4 cooperates with MET during reprogramming, opposing EMT drivers Snail and Slug.",
+    "context": "Epithelial-to-mesenchymal transition (EMT) and mesenchymal-to-epithelial transition (MET) are opposite and reversible programs of cellular plasticity. EMT converts polarized epithelial cells into migratory mesenchymal cells, repressing E-cadherin via transcription factors such as Snail, Slug, Twist, and ZEB1, whereas MET restores epithelial identity by silencing these factors and re-expressing E-cadherin and other epithelial genes. In cellular reprogramming the MET step is required to generate iPSCs, while EMT promotes the differentiation and dissemination programs that MET reverses.",
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md"
   },
@@ -1235,7 +1235,7 @@
     "subject": "GSK3β",
     "predicate": "inhibition_promotes",
     "object": "Cellular Reprogramming",
-    "context": "Reprogramming can be achieved by small molecules including GSK3B and MEK inhibitors.",
+    "context": "Inhibition of GSK3beta promotes cellular reprogramming by activating Wnt signaling and maintaining cells in an undifferentiated state. GSK3beta normally phosphorylates beta-catenin, c-Myc, and MYCN to mark them for degradation; inhibiting GSK3 stabilizes beta-catenin so it can enter the nucleus and drive pluripotency-associated transcription, and also stabilizes MYCN, which activates DNMT3A. GSK3 inhibition antagonizes differentiation, prevents epithelial-to-mesenchymal transition, and increases reprogramming efficiency in somatic cell fusion and iPSC generation experiments.",
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md"
   },
@@ -1243,7 +1243,7 @@
     "subject": "p53",
     "predicate": "activated_by",
     "object": "Cellular Reprogramming",
-    "context": "Upon viral transduction for reprogramming, the immediate response includes oxidative DNA damage, p53 activation, Senescence, and Apoptosis.",
+    "context": "p53 is activated during cellular reprogramming as a cellular stress response to the ectopic expression of the Yamanaka factors. OSKM transduction generates DNA damage, elevates reactive oxygen species, and activates innate immune signaling, and TP53 expression and phosphorylation increase within the first hours of reprogramming initiation. This p53 activation enforces cell cycle checkpoints and apoptosis, which limits the efficiency of iPSC generation but protects the genome from the destabilizing effects of reprogramming.",
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md"
   },
@@ -1251,7 +1251,7 @@
     "subject": "p53",
     "predicate": "limits",
     "object": "Cellular Reprogramming",
-    "context": "p53 activation during reprogramming leads to Senescence and Apoptosis, reducing reprogramming efficiency.",
+    "context": "p53 acts as a barrier to cellular reprogramming, limiting the efficiency with which somatic cells can be converted into induced pluripotent stem cells. During reprogramming, OSKM transduction and the associated DNA damage and epigenetic stress activate p53, which enforces cell cycle arrest and apoptosis and thereby restricts the emergence of pluripotent cells. Suppressing p53 activity increases reprogramming efficiency, but at the cost of genome instability and tumor risk, illustrating the trade-off between reprogramming yield and genome integrity.",
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md"
   },
@@ -1259,7 +1259,7 @@
     "subject": "Senolytic Drugs",
     "predicate": "eliminate",
     "object": "Senescent Cells",
-    "context": "Senolytics involve eliminating senescent cells through targeted drug interventions or immunotherapy.",
+    "context": "Senolytic drugs are agents designed to selectively eliminate senescent cells, the damaged cells that accumulate with age and drive age-related pathology through their pro-inflammatory secretome. Because senescent cells are resistant to apoptosis, senolytics typically target the anti-apoptotic pathways that keep them alive, such as the BCL-2 family members, enabling their clearance while sparing proliferating healthy cells. Clearing senescent cells in animal models delays the onset of age-related diseases, and several senolytics are now being tested in human clinical trials.",
     "confidence": 0.95,
     "source_document": "Senolytic Drugs.md"
   },
@@ -1267,7 +1267,7 @@
     "subject": "Senomorphic",
     "predicate": "disrupts",
     "object": "SASP",
-    "context": "Senomorphics involve disrupting the expression of SASP factors without eliminating senescent cells.",
+    "context": "Senomorphic drugs disrupt the senescence-associated secretory phenotype rather than killing senescent cells, attenuating the harmful inflammatory signaling that drives age-related disease. Because the SASP is the main route by which senescent cells damage their tissue environment, suppressing it while leaving growth arrest intact preserves the tumor-suppressive benefits of senescence. Epigenetic regulators that control SASP genes, such as KDM4, DOT1L, BRD4, and HMGB2, are candidate senomorphic targets.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1275,7 +1275,7 @@
     "subject": "NRTI",
     "predicate": "inhibits",
     "object": "LINE-1",
-    "context": "Nucleoside reverse transcriptase inhibitors (NRTI) alleviate interferon-mediated inflammation by targeting L1 and HERV reverse transcriptase.",
+    "context": "Nucleoside reverse transcriptase inhibitors, developed as antiretroviral drugs for HIV, also inhibit LINE-1 retrotransposition. NRTIs act as chain-terminating nucleoside analogs that are incorporated into nascent DNA by reverse transcriptase, halting the synthesis of the L1 cDNA copies that would otherwise be generated from L1 RNA in the cytoplasm. By blocking LINE-1 reverse transcription, NRTIs reduce the cGAS-STING-dependent inflammation and SASP that arise from retrotransposon derepression during aging, and they are being explored as anti-aging interventions.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1283,7 +1283,7 @@
     "subject": "BRAF",
     "predicate": "induces",
     "object": "Oncogene-Induced Senescence",
-    "context": "In the OIS model, an activated oncogene (typically RAS or BRAF) is ectopically expressed, triggering senescence.",
+    "context": "BRAF, particularly the oncogenic BRAF V600E mutant, induces oncogene-induced senescence when expressed at high levels in normal cells. Hyperactive BRAF signaling drives aberrant proliferation and DNA damage, which activates the DNA damage response and p53, triggering a permanent growth arrest that protects against malignant transformation. Cells in BRAF-induced senescence display the full senescence phenotype, including senescence-associated heterochromatin foci and the SASP, making this a key experimental model.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1291,7 +1291,7 @@
     "subject": "Doxorubicin",
     "predicate": "induces",
     "object": "Therapy-Induced Senescence",
-    "context": "DNA-damaging chemicals and chemotherapeutic drugs such as Doxorubicin can trigger therapy-induced senescence.",
+    "context": "Doxorubicin is a widely used anthracycline chemotherapeutic that induces therapy-induced senescence in cancer cells and normal fibroblasts. As a DNA-damaging agent, doxorubicin intercalates into DNA, poisons topoisomerase II, and generates reactive oxygen species, producing DNA damage that activates the p53-p21 axis and triggers permanent cell cycle arrest. The resulting senescent cells exhibit the SASP and persistent DNA damage signaling, which can contribute to both the therapeutic response and long-term side effects such as cardiac toxicity.",
     "confidence": 0.95,
     "source_document": "Daunorubicin.md"
   },
@@ -1299,7 +1299,7 @@
     "subject": "Etoposide",
     "predicate": "induces",
     "object": "Therapy-Induced Senescence",
-    "context": "Etoposide and other DNA-damaging drugs trigger therapy-induced senescence in normal fibroblast or tumor cells.",
+    "context": "Etoposide is a chemotherapeutic DNA-damaging agent that induces therapy-induced senescence by triggering a robust DNA damage response. As a topoisomerase II inhibitor, etoposide causes DNA double-strand breaks that activate p53 and the DNA damage response, leading to a permanent cell cycle arrest with the hallmarks of cellular senescence. In research, etoposide is a standard experimental tool for generating therapy-induced senescence in human fibroblasts to study SASP expression and epigenetic remodeling.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1307,7 +1307,7 @@
     "subject": "METTL3",
     "predicate": "catalyzes",
     "object": "N6-methyladenosine",
-    "context": "METTL3-METTL14 complex catalyzes N6-methyladenosine (m6A) methylation in mammalian nuclear RNAs.",
+    "context": "METTL3 is the catalytic subunit of the methyltransferase complex that deposits N6-methyladenosine (m6A), the most abundant internal modification of messenger RNA in mammalian cells. Together with the adaptor protein METTL14, METTL3 methylates the N6 position of adenosine in mRNA, and the resulting m6A mark regulates RNA stability, splicing, translation, and export. Beyond its RNA-methylation role, the METTL3-METTL14 complex also facilitates senescence-associated enhancer-promoter contacts and SASP expression in oncogene-induced senescence.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1315,7 +1315,7 @@
     "subject": "METTL3",
     "predicate": "promotes",
     "object": "SASP",
-    "context": "Genome-wide redistribution of METTL3-METTL14 in senescent cells promotes SASP expression through chromatin looping.",
+    "context": "METTL3 promotes the senescence-associated secretory phenotype through its role in the METTL3-METTL14 complex, which redistributes across the genome during oncogene-induced senescence. Despite being best known for depositing the m6A RNA modification, the complex promotes SASP expression through chromatin looping and enhancer-promoter contacts in an enzymatic activity-independent manner. This redistribution facilitates the hyper-connected enhancer-promoter network that drives robust expression of SASP genes, linking RNA-modifying proteins to the chromatin changes of senescence.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1323,7 +1323,7 @@
     "subject": "HMGB2",
     "predicate": "protects",
     "object": "SASP",
-    "context": "In OIS, chromatin-bound HMGB2 binds to SASP gene loci, protecting against spread of repressive heterochromatin and preventing SASP silencing.",
+    "context": "HMGB2 is a chromatin-bound high mobility group box protein that protects SASP gene loci from silencing during oncogene-induced senescence. When chromatin-bound, HMGB2 binds to SASP gene loci and prevents the spread of repressive heterochromatin into them, keeping SASP genes out of senescence-associated heterochromatin foci and thereby preserving their expression. Depletion of HMGB2 is associated with the derepression of SASP genes, and HMGB2 knockdown can prevent the emergence of SASP while leaving cell cycle arrest unaffected.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1331,7 +1331,7 @@
     "subject": "HMGB2",
     "predicate": "depleted_in",
     "object": "Senescence",
-    "context": "HMGBs experience depletion in senescent cells and aging tissues.",
+    "context": "HMGB2 is depleted in senescent cells and aging tissues, a change that accompanies the loss of ordered three-dimensional genome architecture. This depletion shifts the balance between constitutive and facultative heterochromatin and is linked to increased expression of SASP genes in replicative senescence. HMGB2 loss upon senescence entry disrupts genomic organization and induces CTCF clustering, contributing to the widespread chromatin remodeling that characterizes the senescent state. Its loss is one of the earliest markers of the senescent chromatin phenotype.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1339,7 +1339,7 @@
     "subject": "Topologically Associating Domain",
     "predicate": "organizes",
     "object": "Chromatin",
-    "context": "Chromatin is arranged into spatial domains known as topologically associated domains (TADs) where DNA sequences interact more frequently.",
+    "context": "Topologically associating domains organize chromatin into discrete three-dimensional compartments at an intermediate scale, spanning tens of kilobases to megabases. Within TADs, DNA sequences interact more frequently with each other than with sequences outside the domain, constraining enhancer-promoter contacts and insulating regulatory elements from inappropriate targets. The boundaries of these domains are delineated by proteins such as CTCF and HMGB1/2, and their disruption alters gene expression during senescence and aging.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1347,7 +1347,7 @@
     "subject": "Enhancer-Promoter Looping",
     "predicate": "regulated_within",
     "object": "Topologically Associating Domain",
-    "context": "TADs regulate gene expression by enabling enhancer-promoter looping within the same TAD.",
+    "context": "Enhancer-promoter looping is regulated within topologically associating domains, the megabase-scale compartments in which DNA sequences interact more frequently with each other than with sequences outside. Because TADs confine enhancer-promoter contacts, genes are typically regulated by enhancers located within the same domain, and three-dimensional looping brings these regulatory elements into proximity with their target promoters. This organization allows the SASP to be driven by hyper-connected enhancer-promoter networks whose interactions are restructured during senescence.",
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md"
   },
@@ -1355,7 +1355,7 @@
     "subject": "mTOR",
     "predicate": "regulates",
     "object": "SASP",
-    "context": "The mTOR pathway is among those that regulate SASP expression in senescent cells.",
+    "context": "mTOR is a central regulator of the senescence-associated secretory phenotype (SASP). Rapamycin treatment of senescent cells suppresses SASP production at both the mRNA and protein levels, and mechanistic studies show that mTOR acts in part by promoting the translation of the SASP activator IL-1alpha, which then drives expression of downstream inflammatory cytokines. Because rapamycin reduces the inflammatory secretome while leaving growth arrest intact, mTOR inhibition is considered a senomorphic strategy that attenuates the detrimental effects of senescence without eliminating senescent cells.",
     "confidence": 0.95,
     "source_document": "Drosophila melanogaster.md"
   },
@@ -1363,7 +1363,7 @@
     "subject": "MicroRNA",
     "predicate": "decreases_with",
     "object": "Aging",
-    "context": "In C. elegans, most microRNAs are downregulated with age, and this is reversed by caloric restriction.",
+    "context": "MicroRNA levels generally decline with age, contributing to the altered gene expression that accompanies aging. In C. elegans, most miRNAs are down-regulated with age and this decline is reversed by caloric restriction, while in mice and humans aging is associated with reproducible changes in miRNA abundance, though not in all organs. The age-related reduction in miRNAs, partly driven by declining levels of the processing enzyme Dicer, contributes to the loss of post-transcriptional gene regulation and to cellular senescence.",
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md"
   },
@@ -1371,7 +1371,7 @@
     "subject": "Dicer",
     "predicate": "processes",
     "object": "MicroRNA",
-    "context": "Levels of the miRNA processing enzyme Dicer decrease in worms and mice with age, contributing to reduced ncRNAs.",
+    "context": "Dicer is an RNase III enzyme that processes microRNA precursors into mature, functional miRNAs. After the nuclear processing of pri-miRNA to pre-miRNA by Drosha and export to the cytoplasm, Dicer cleaves the pre-miRNA duplex to produce the mature 18 to 22 nucleotide miRNA. The mature miRNA then binds complementary sequences in target mRNAs, typically in the 3' untranslated region, to repress their expression; Dicer levels decline with age, contributing to reduced miRNA production in aging tissues.",
     "confidence": 0.95,
     "source_document": "Drosha.md"
   },
@@ -1379,7 +1379,7 @@
     "subject": "H19",
     "predicate": "represses",
     "object": "IGF1",
-    "context": "The long-ncRNA H19 interacts with MBD1 to repress longevity genes such as IGF-1.",
+    "context": "H19 is a long non-coding RNA whose expression changes with age, and it functions to repress IGF-1 signaling. H19 associates with MBD1, a methyl-CpG-binding domain protein, to repress the expression of longevity genes including insulin-like growth factor 1, and loss of H19-dependent IGF-1 silencing may contribute to cellular senescence. Because IGF-1 signaling is a conserved regulator of the insulin/IGF-1 pathway that influences lifespan, the age-related deregulation of H19 has implications for both senescence and longevity.",
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md"
   },
@@ -1387,7 +1387,7 @@
     "subject": "XIST",
     "predicate": "drives",
     "object": "X-Chromosome Inactivation",
-    "context": "XIST is the primary driver of X chromosome inactivation, transcriptionally silencing one X chromosome in females.",
+    "context": "XIST is a long non-coding RNA that is the primary driver of X chromosome inactivation, the process by which one X chromosome is transcriptionally silenced in female cells to ensure appropriate gene dosage. XIST coats the inactive X chromosome and recruits chromatin-modifying enzymes that establish repressive marks, compacting the chromosome into a transcriptionally silent Barr body. This silencing is heritable through cell divisions, making XIST a paradigm for long-range, RNA-mediated epigenetic gene silencing.",
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md"
   },
@@ -1395,7 +1395,7 @@
     "subject": "Alu element transcripts",
     "predicate": "causes",
     "object": "Genomic Instability",
-    "context": "Knockdown of Alu element transcripts in human adult stem cells leads to escape from senescence and reduced genomic instability.",
+    "context": "Alu elements are short interspersed nuclear elements that, when derepressed, produce transcripts that contribute to genomic instability. In aging and stressed cells, loss of epigenetic silencing permits Alu transcription, and the resulting double-stranded RNA and retrotransposition intermediates challenge genome integrity by promoting insertions and activating innate immune DNA and RNA sensing pathways. Aberrant Alu activity is therefore both a consequence and a driver of the accumulating genomic instability recognized as a hallmark of aging.",
     "confidence": 0.75,
     "source_document": "Epigenetics and aging.md"
   },
@@ -1403,7 +1403,7 @@
     "subject": "Retinal Pigment Epithelium",
     "predicate": "treated_with",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "iPSC-derived retinal pigment epithelium grafts are a clinical application of iPSC technology.",
+    "context": "The retinal pigment epithelium is a target for cell therapy using iPSC-derived RPE, which is being tested in clinical trials for age-related macular degeneration and Stargardt disease. iPSC-derived RPE cells are transplanted subretinally to replace dysfunctional RPE, restoring phagocytosis of photoreceptor outer segments, the visual cycle, and the blood-retina barrier. Key release criteria for such grafts include polarized monolayer formation, phagocytic competence, and RPE65 expression, though immune rejection and graft integration remain challenges.",
     "confidence": 0.95,
     "source_document": "Retinal Pigment Epithelium.md"
   },
@@ -1411,7 +1411,7 @@
     "subject": "Frontotemporal Dementia",
     "predicate": "modeled_with",
     "object": "Induced Pluripotent Stem Cells",
-    "context": "iPSCs have transformed Disease Modeling for Frontotemporal Dementia by generating isogenic neuronal models.",
+    "context": "Frontotemporal dementia is modeled using patient-derived induced pluripotent stem cells, which capture the genetics of the disease in a dish. Fibroblasts from individuals carrying mutations in MAPT, GRN, or C9orf72 are reprogrammed to pluripotency and then differentiated into cortical neurons, where they recapitulate TDP-43 mislocalization, tau pathology, and altered neuronal networks. These iPSC-based models enable mechanistic studies, compound screening, and investigation of aging and rejuvenation effects on neurodegeneration without the ethical constraints of fetal tissue.",
     "confidence": 0.95,
     "source_document": "Frontotemporal Dementia.md"
   },
@@ -1419,7 +1419,7 @@
     "subject": "Amyotrophic Lateral Sclerosis",
     "predicate": "causes",
     "object": "Frontotemporal Dementia",
-    "context": "ALS can cause Frontotemporal Dementia; iPSC models have clarified mechanisms in these neurodegenerative diseases.",
+    "context": "Amyotrophic lateral sclerosis and frontotemporal dementia form a disease spectrum rather than fully separate disorders, since they share a common genetic basis and protein pathology. ALS is primarily a motor neuron disease, but the C9orf72 hexanucleotide repeat expansion and TDP-43 pathology that cause familial ALS are also the most common hereditary causes of FTD, producing overlapping FTD-ALS syndromes. Thus ALS can give rise to frontotemporal dementia when the neurodegenerative process extends into the frontal and temporal lobes.",
     "confidence": 0.95,
     "source_document": "Frontotemporal Dementia.md"
   }

@@ -1,15 +1,18 @@
-"""Graph operations: query, explain, path. Read-only against graph.json."""
+"""Graph operations: query, explain, path, trace. Read-only against graph.json."""
 
 import json
+import logging
 import re
+from pathlib import Path
+
 import networkx as nx
 from networkx.readwrite import json_graph
-from pathlib import Path
-from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 GRAPH_PATH = Path(__file__).parent.parent / "graphify-out" / "graph.json"
 
-_G: Optional[nx.MultiDiGraph] = None
+_G: nx.MultiDiGraph | None = None
 
 
 def get_graph() -> nx.MultiDiGraph:
@@ -21,10 +24,10 @@ def get_graph() -> nx.MultiDiGraph:
     return _G
 
 
-def _find_node(G: nx.MultiDiGraph, term: str) -> Optional[str]:
+def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
     """Find best matching node by label. Returns node id or None."""
     term_lower = term.lower()
-    terms = [t for t in re.split(r'\s+', term_lower) if len(t) >= 2]
+    terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
 
     scored = []
     for nid, ndata in G.nodes(data=True):
@@ -47,7 +50,7 @@ def _find_node(G: nx.MultiDiGraph, term: str) -> Optional[str]:
 def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
     """Find top N matching nodes."""
     term_lower = term.lower()
-    terms = [t for t in re.split(r'\s+', term_lower) if len(t) >= 2]
+    terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
 
     scored = []
     for nid, ndata in G.nodes(data=True):
@@ -61,6 +64,61 @@ def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
     return [nid for _, nid in scored[:limit]]
 
 
+def match_nodes_in_text(text: str, query_text: str = "") -> dict:
+    """Find graph nodes mentioned in text by label matching.
+
+    Returns dict with highlight_nodes (list of node IDs) and
+    highlight_edges (list of [from, to] pairs between matched nodes).
+    """
+    G = get_graph()
+    blob = f"{query_text} {text}".lower()
+    matched_ids = set()
+
+    for nid, ndata in G.nodes(data=True):
+        label = (ndata.get("label") or "").strip()
+        if not label:
+            continue
+        pattern = re.compile(
+            r"(^|[^a-z0-9])\s*" + re.escape(label) + r"\s*([^a-z0-9]|$)", re.IGNORECASE
+        )
+        if pattern.search(blob):
+            matched_ids.add(nid)
+            continue
+        for alias in (ndata.get("aliases") or []):
+            alias = alias.strip()
+            if not alias:
+                continue
+            ap = re.compile(
+                r"(^|[^a-z0-9])\s*" + re.escape(alias) + r"\s*([^a-z0-9]|$)",
+                re.IGNORECASE,
+            )
+            if ap.search(blob):
+                matched_ids.add(nid)
+                break
+
+    if not matched_ids:
+        logger.info("match_nodes_in_text: no entities found in response")
+        return {"highlight_nodes": [], "highlight_edges": []}
+
+    edge_set = set()
+    highlight_edges = []
+    for u, v in G.edges():
+        if u in matched_ids and v in matched_ids:
+            key = (u, v) if u <= v else (v, u)
+            if key not in edge_set:
+                edge_set.add(key)
+                highlight_edges.append([u, v])
+
+    logger.info(
+        f"match_nodes_in_text: {len(matched_ids)} nodes, "
+        f"{len(highlight_edges)} edges"
+    )
+    return {
+        "highlight_nodes": list(matched_ids),
+        "highlight_edges": highlight_edges,
+    }
+
+
 def graph_query(question: str) -> dict:
     """BFS traversal from best-matching nodes. Returns subgraph + summary."""
     G = get_graph()
@@ -72,7 +130,11 @@ def graph_query(question: str) -> dict:
             "text": f"No nodes found matching '{question}'. Try a different term.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
+
+    start_labels = [G.nodes[n].get("label", n) for n in start_nodes]
+    logger.info(f"graph_query: question={question!r}, matched_nodes={start_labels}")
 
     # BFS up to depth 3
     subgraph_nodes = set(start_nodes)
@@ -101,7 +163,7 @@ def graph_query(question: str) -> dict:
         node_summaries.append(f"- **{label}** (degree {G.degree(nid)}): {snippet}")
 
     text_lines = [
-        f"Query: \"{question}\"",
+        f'Query: "{question}"',
         f"Starting from: {', '.join(start_labels)}",
         f"Found {len(subgraph_nodes)} nodes, {len(subgraph_edges)} edges",
         "",
@@ -112,9 +174,7 @@ def graph_query(question: str) -> dict:
     # Filter edges to only those within the subgraph
     sub_set = subgraph_nodes
     highlight_edges = [
-        [u, v]
-        for u, v in subgraph_edges
-        if u in sub_set and v in sub_set
+        [u, v] for u, v in subgraph_edges if u in sub_set and v in sub_set
     ][:200]
 
     return {
@@ -122,6 +182,7 @@ def graph_query(question: str) -> dict:
         "text": "\n".join(text_lines),
         "highlight_nodes": list(subgraph_nodes)[:200],
         "highlight_edges": highlight_edges,
+        "primary_node": start_nodes[0],
     }
 
 
@@ -136,10 +197,12 @@ def graph_explain(node_name: str) -> dict:
             "text": f"No node found matching '{node_name}'. Try a different name.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
 
     ndata = G.nodes[nid]
     label = ndata.get("label", nid)
+    logger.info(f"graph_explain: requested={node_name!r}, matched_node={label!r}")
     desc = ndata.get("description", "")
     source = ndata.get("source_file", "")
     community = ndata.get("community", "")
@@ -188,7 +251,50 @@ def graph_explain(node_name: str) -> dict:
         "text": "\n".join(line for line in text_lines if line is not None),
         "highlight_nodes": highlight_node_ids,
         "highlight_edges": highlight_edges[:100],
+        "primary_node": nid,
     }
+
+
+def _edge_meta(G: nx.MultiDiGraph, a: str, b: str) -> tuple[str, str]:
+    """Return (relation, confidence) for the first edge between a and b."""
+    edge_data = G.get_edge_data(a, b) or G.get_edge_data(b, a)
+    if not edge_data:
+        return "", ""
+    first_edge = (
+        next(iter(edge_data.values())) if isinstance(edge_data, dict) else edge_data
+    )
+    if isinstance(first_edge, dict):
+        return first_edge.get("relation", "related_to"), first_edge.get(
+            "confidence", ""
+        )
+    return "related_to", ""
+
+
+def _shortest_path(G: nx.MultiDiGraph, src: str, tgt: str) -> list[str]:
+    """Directed shortest path, falling back to the undirected view."""
+    try:
+        return nx.shortest_path(G, src, tgt)
+    except nx.NetworkXNoPath:
+        return nx.shortest_path(G.to_undirected(), src, tgt)
+
+
+def _hop_lines(G: nx.MultiDiGraph, path: list[str]) -> tuple[list[str], list[list[str]]]:
+    """Render a node chain as numbered hop lines plus its edge pairs."""
+    lines: list[str] = []
+    edges: list[list[str]] = []
+    for i, nid in enumerate(path):
+        label = G.nodes[nid].get("label", nid)
+        if i == len(path) - 1:
+            lines.append(f"{i + 1}. **{label}**")
+            continue
+        next_nid = path[i + 1]
+        rel, conf = _edge_meta(G, nid, next_nid)
+        if rel:
+            lines.append(f"{i + 1}. **{label}** --[{rel}]--> ({conf})")
+        else:
+            lines.append(f"{i + 1}. **{label}**")
+        edges.append([nid, next_nid])
+    return lines, edges
 
 
 def graph_path(from_name: str, to_name: str) -> dict:
@@ -203,6 +309,7 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": f"Could not find node matching '{from_name}'.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
     if not tgt:
         return {
@@ -210,42 +317,19 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": f"Could not find node matching '{to_name}'.",
             "highlight_nodes": [],
             "highlight_edges": [],
+            "primary_node": None,
         }
 
+    src_label = G.nodes[src].get("label", src)
+    tgt_label = G.nodes[tgt].get("label", tgt)
+    logger.info(f"graph_path: from={src_label!r}, to={tgt_label!r}")
+
     try:
-        # Try directed first, then undirected
-        try:
-            path = nx.shortest_path(G, src, tgt)
-        except nx.NetworkXNoPath:
-            path = nx.shortest_path(G.to_undirected(), src, tgt)
+        path = _shortest_path(G, src, tgt)
+        path_lines, highlight_edges = _hop_lines(G, path)
 
-        path_lines = []
-        highlight_edges = []
-        for i, nid in enumerate(path):
-            label = G.nodes[nid].get("label", nid)
-            if i < len(path) - 1:
-                next_nid = path[i + 1]
-                # Try to find edge data
-                edge_data = G.get_edge_data(nid, next_nid) or G.get_edge_data(next_nid, nid)
-                if edge_data:
-                    first_edge = next(iter(edge_data.values())) if isinstance(edge_data, dict) else edge_data
-                    if isinstance(first_edge, dict):
-                        rel = first_edge.get("relation", "related_to")
-                        conf = first_edge.get("confidence", "")
-                    else:
-                        rel = "related_to"
-                        conf = ""
-                    path_lines.append(f"{i+1}. **{label}** --[{rel}]--> ({conf})")
-                else:
-                    path_lines.append(f"{i+1}. **{label}**")
-                highlight_edges.append([nid, next_nid])
-            else:
-                path_lines.append(f"{i+1}. **{label}**")
-
-        src_label = G.nodes[src].get("label", src)
-        tgt_label = G.nodes[tgt].get("label", tgt)
         text_lines = [
-            f"Path from **{src_label}** to **{tgt_label}** ({len(path)-1} hops):",
+            f"Path from **{src_label}** to **{tgt_label}** ({len(path) - 1} hops):",
             "",
             *path_lines,
         ]
@@ -255,6 +339,7 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": "\n".join(text_lines),
             "highlight_nodes": path,
             "highlight_edges": highlight_edges,
+            "primary_node": src,
         }
 
     except nx.NetworkXNoPath:
@@ -265,4 +350,105 @@ def graph_path(from_name: str, to_name: str) -> dict:
             "text": f"No path found between '{src_label}' and '{tgt_label}'.",
             "highlight_nodes": [src, tgt],
             "highlight_edges": [],
+            "primary_node": src,
         }
+
+
+def _trace_error(text: str) -> dict:
+    return {
+        "type": "trace",
+        "text": text,
+        "highlight_nodes": [],
+        "highlight_edges": [],
+        "primary_node": None,
+    }
+
+
+def graph_trace(waypoints: list[str]) -> dict:
+    """Trace a route through an ordered list of waypoints (A -> via B -> C).
+
+    Each consecutive pair is connected with a shortest path and narrated as its
+    own leg, so a trace is a chained, multi-hop generalisation of `graph_path`.
+    Legs with no connection are reported inline rather than aborting the trace.
+    """
+    G = get_graph()
+    terms = [w.strip() for w in (waypoints or []) if isinstance(w, str) and w.strip()]
+    if len(terms) < 2:
+        return _trace_error(
+            "A trace needs at least two concepts, e.g. "
+            '"trace from NAD+ via SIRT1 to Mitophagy".'
+        )
+
+    resolved: list[str] = []
+    missing: list[str] = []
+    for term in terms:
+        nid = _find_node(G, term)
+        if nid is None:
+            missing.append(term)
+        elif not resolved or resolved[-1] != nid:
+            resolved.append(nid)
+
+    if len(resolved) < 2:
+        unmatched = ", ".join(f"'{m}'" for m in missing) or "the given waypoints"
+        return _trace_error(f"Could not find enough nodes matching {unmatched}.")
+
+    labels = [G.nodes[nid].get("label", nid) for nid in resolved]
+    logger.info(f"graph_trace: {' -> '.join(labels)}")
+
+    highlight_nodes: list[str] = []
+    highlight_edges: list[list[str]] = []
+    seen: set[str] = set()
+    body: list[str] = []
+    total_hops = 0
+    broken = 0
+
+    for leg, (src, tgt) in enumerate(zip(resolved, resolved[1:]), start=1):
+        src_label = G.nodes[src].get("label", src)
+        tgt_label = G.nodes[tgt].get("label", tgt)
+        try:
+            path = _shortest_path(G, src, tgt)
+        except nx.NetworkXNoPath:
+            broken += 1
+            body.append(f"**Leg {leg} — {src_label} → {tgt_label}**")
+            body.append("_No path found between these two concepts._")
+            body.append("")
+            for nid in (src, tgt):
+                if nid not in seen:
+                    seen.add(nid)
+                    highlight_nodes.append(nid)
+            continue
+
+        lines, edges = _hop_lines(G, path)
+        total_hops += len(path) - 1
+        body.append(
+            f"**Leg {leg} — {src_label} → {tgt_label}** ({len(path) - 1} hops)"
+        )
+        body.extend(lines)
+        body.append("")
+        highlight_edges.extend(edges)
+        for nid in path:
+            if nid not in seen:
+                seen.add(nid)
+                highlight_nodes.append(nid)
+
+    legs = len(resolved) - 1
+    header = "Trace: " + " → ".join(f"**{lbl}**" for lbl in labels)
+    header += f" ({total_hops} hops across {legs} leg{'s' if legs != 1 else ''})"
+
+    notes = []
+    if missing:
+        notes.append("Unresolved waypoints: " + ", ".join(f"'{m}'" for m in missing))
+    if broken:
+        notes.append(f"{broken} leg(s) had no connecting path.")
+
+    text_lines = [header, ""] + body
+    if notes:
+        text_lines.append("_" + " ".join(notes) + "_")
+
+    return {
+        "type": "trace",
+        "text": "\n".join(text_lines).rstrip(),
+        "highlight_nodes": highlight_nodes,
+        "highlight_edges": highlight_edges,
+        "primary_node": resolved[0],
+    }
