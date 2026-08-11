@@ -302,8 +302,8 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-badge.wiki { background: #2f4f4f; color: #7fe0c8; border: 1px solid #3a6f6f; }
 .chat-badge.graphify { background: #4a3f8a; color: #b8a7ff; border: 1px solid #5a4f9a; }
 .chat-elapsed {
-  display: inline-block; font-size: 10px; color: #666;
-  margin-left: 6px; vertical-align: middle; font-variant-numeric: tabular-nums;
+  display: block; width: fit-content; font-size: 10px; color: #666;
+  margin: 0 0 8px 6px; font-variant-numeric: tabular-nums;
 }
 .chat-thinking-details { margin: 6px 0 8px; }
 .chat-thinking-summary {
