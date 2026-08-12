@@ -22,6 +22,9 @@ protected: true
 
 **SIRT5** (Sirtuin 5) is a **mitochondrial sirtuin** and the sole mammalian member of phylogenetic **Class III** sirtuins — a class distributed widely in all prokaryotes (both bacteria and archaea). This deep evolutionary conservation positions SIRT5 (along with [[SIRT4]] of Class II) as one of the **most ancient mammalian sirtuins**.
 
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT5 functions in aging via **fatty acid oxidation and oxidative stress** responses. No positive regulators were listed; negative regulators include [[Bcl-2]], [[Glutamate Dehydrogenase (GDH)|GDH]], and [[Pyruvate Dehydrogenase|PDH]].
+
 ## Enzymatic Activity
 
 Unlike most other sirtuins, SIRT5 possesses **very weak NAD⁺-dependent deacetylase activity**. Its primary catalytic functions are **lysine desuccinylation, demalonylation, and deglutarylation** — the removal of negatively charged five-carbon succinyl, three-carbon malonyl, and five-carbon glutaryl groups from lysine residues. This broad deacylase activity allows SIRT5 to regulate mitochondrial metabolism at multiple nodes simultaneously. The reactions consume [[NAD+]] and produce nicotinamide and the corresponding acyl-ADP-ribose by-products.
@@ -129,6 +132,10 @@ List of documents that mention this entity
 
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT5 functions in aging via fatty acid oxidation and oxidative stress; negatively regulated by Bcl-2, GDH, and PDH.
+
 ## Connections
 
 - [[SIRT3]] — fellow mitochondrial sirtuin; robust deacetylase (contrast with SIRT5's deacylase activities)

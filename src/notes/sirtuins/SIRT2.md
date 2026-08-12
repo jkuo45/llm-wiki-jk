@@ -196,3 +196,17 @@ SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-
 
 SIRT2 (Sirtuin 2) is a NAD+-dependent deacetylase localized primarily in the cytosol and nucleus. It is involved in cell cycle regulation, adipose tissue development and functionality, blood glucose homeostasis, and the modulation of peripheral myelination.
 
+> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) highlight that SIRT2 extends lifespan in the BubR1 hypomorphic progeroid mouse model, marking it as a key mammalian ageing modulator. SIRT2 also activates PEPCK via deacetylation to enhance gluconeogenesis during glucose deprivation and shows opposing roles in insulin sensitivity across tissues.
+
+## Documents
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Identifies SIRT2 as a longevity modulator (BubR1 progeroid model) and details its metabolic (PEPCK/gluconeogenesis) and cancer-related roles.
+
+## Connections
+
+- [[BubR1]] — SIRT2 extends lifespan in BubR1 hypomorphic progeroid mice
+- [[PEPCK]] — SIRT2 activates PEPCK via deacetylation to drive gluconeogenesis
+- [[Aging]] — SIRT2 is a key mammalian ageing modulator
+

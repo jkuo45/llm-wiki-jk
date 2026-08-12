@@ -22,6 +22,9 @@ protected: true
 
 **SIRT6** (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic **Class IVa** alongside its nucleolar homolog [[SIRT7]] (Class IVb). As a "longevity gene," SIRT6 serves as an essential guardian of genome integrity, an epigenetic scaffold, and a master regulator of mammalian aging and cellular metabolism.
 
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT6 functions in aging via **lifespan extension, DNA repair, genome stability, and telomere maintenance**. Positive pathway regulators include [[Nrf2]], [[eNOS]], [[IGF1|IGF-1/AKT]], and [[p53]]; negative regulators include [[p21]], [[NF-κB]], [[ICAM-1]], and [[PAI-1]].
+
 ---
 
 ## 1. Overview & Evolutionary Context
@@ -276,5 +279,8 @@ List of documents that mention this entity
 
   - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
     - Review of SIRT6 as a longevity gene: whole-body overexpression extends male mouse lifespan 14.5%/9.9% via reduced IGF-1/IIS; SIRT6 regulates H3K9Ac/H3K56Ac/CtIP/GCN5, HIF-1α, SREBP2, NF-κB, survivin, and c-Jun pathways.
+
+  - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+    - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT6 functions in aging via lifespan extension, DNA repair, genome stability, and telomere maintenance; positively regulated by Nrf2, eNOS, IGF-1/AKT, p53 and negatively by p21, NF-κB, ICAM-1, PAI-1.
 
 

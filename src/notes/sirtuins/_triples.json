@@ -210,7 +210,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "Histone H3 (Lys14)",
+    "object": "H3K14",
     "context": "SIRT1 deacetylates Lys14 of histone H3 (H3K14ac), a mark associated with active transcription, thereby contributing to gene silencing at targeted promoters. Loss of H3K14ac reduces promoter accessibility and cooperates with other repressive modifications to restrain transcription, making this a mechanism of chromatin-level control. Directionally, SIRT1 acts enzymatically to remove the acetyl mark and shift chromatin toward repression. This histone-targeting activity complements SIRT1 deacetylation of non-histone substrates and helps explain how a single sirtuin coordinates broad transcriptional programs across the genome.",
     "confidence": 0.95,
     "source_document": "SIRT1.md"
@@ -218,7 +218,7 @@
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "Histone H4",
+    "object": "H4K16",
     "context": "SIRT1 removes the acetyl group from Lys16 of histone H4, a site whose acetylation is linked to telomeric and rDNA silencing and genome stability. Deacetylation at H4K16 promotes a more compact chromatin fiber and is shared with SIRT2 at this residue in certain contexts. The relationship is directional and repressive: SIRT1-mediated deacetylation consolidates heterochromatin-like states. Defective H4K16 deacetylation is associated with the genomic instability seen when SIRT1 function is compromised.",
     "confidence": 0.95,
     "source_document": "SIRT1.md"
@@ -1068,22 +1068,6 @@
     "predicate": "serves_as",
     "object": "Universal indirect pan-sirtuin activator",
     "context": "Nicotinamide riboside (NR) is an NAD+ precursor that raises cellular NAD+ and thereby indirectly activates all seven sirtuins by supplying their shared co-substrate. Directionally, NR is converted to NAD+, leading to pan-sirtuin activation. Like NMN, NR reverses age-related NAD+ decline and restores sirtuin-dependent maintenance, including mitochondrial function and DNA repair. It is a leading nutraceutical approach to broadly engage sirtuin biology, and clinical studies have confirmed NR's ability to raise NAD+ in humans. NR's efficacy is amplified when combined with CD38 inhibitors that prevent precursor consumption by the NADase.",
-    "confidence": 0.95,
-    "source_document": "SIRT1.md"
-  },
-  {
-    "subject": "SIRT7",
-    "predicate": "deacetylates",
-    "object": "H3K18",
-    "context": "SIRT7 is highly localized to the nucleolus and deacetylates histone H3K18 (H3K18ac), a mark associated with active rDNA transcription, thereby repressing ribosome biogenesis when deacetylated. Directionally, SIRT7 enzymatically removes H3K18ac. Because excess ribosome production fuels growth and cancer, this repressive action can be tumor-suppressive in some contexts. It also stabilizes pericentric heterochromatin, supporting genome stability by silencing repetitive elements. SIRT7's substrate selectivity for H3K18ac is notable among sirtuins and underlies its dual roles in ribosomal RNA regulation and chromatin maintenance.",
-    "confidence": 0.95,
-    "source_document": "SIRT7.md"
-  },
-  {
-    "subject": "SIRT1",
-    "predicate": "deacetylates",
-    "object": "NF-κB",
-    "context": "SIRT1 deacetylates the RelA/p65 subunit of NF-κB, particularly at Lys310, inhibiting its transcriptional activity and reducing expression of inflammatory genes. Directionally, SIRT1 enzymatically inactivates NF-κB. This anti-inflammatory action is a cornerstone of SIRT1's protective effects in metabolic and cardiovascular disease, and it complements SIRT1's promotion of p65 proteasomal degradation, providing two complementary routes to NF-κB suppression. Because NF-κB-driven inflammation underlies many age-related pathologies, the SIRT1-NF-κB axis is a key target for interventions aimed at reducing chronic inflammation and preserving healthspan.",
     "confidence": 0.95,
     "source_document": "SIRT1.md"
   },
@@ -1958,14 +1942,6 @@
     "context": "SIRT3 activates FoxO3a gene expression, increasing transcription of MnSOD and catalase to eliminate mitochondrial ROS. Directionally, SIRT3 sits upstream of FoxO3a-driven antioxidant programs. This links mitochondrial sirtuin activity to nuclear antioxidant transcription, providing a coordinated mitochondrial and cytosolic defense against oxidative stress. It is a key SIRT3 mechanism for redox defense, and it complements SIRT3's direct activation of MnSOD through deacetylation. The SIRT3-FoxO3a axis is particularly important in the heart and during caloric restriction, where it preserves mitochondrial function and limits oxidative injury.",
     "confidence": 0.95,
     "source_document": "SIRT3.md"
-  },
-  {
-    "subject": "SIRT5",
-    "predicate": "desuccinylates_and_activates",
-    "object": "CPS1",
-    "context": "SIRT5 desuccinylates and activates carbamoyl phosphate synthase 1 (CPS1), the rate-limiting enzyme of the urea cycle, enhancing ammonia detoxification into urea. Directionally, SIRT5 enzymatically activates CPS1. This is especially important during fasting or high-protein load when nitrogen must be cleared, and it exemplifies SIRT5's role as a regulator of mitochondrial acyl-metabolism and nitrogen homeostasis. SIRT5-deficient mice show elevated ammonia under conditions of nitrogen load, confirming the physiological importance of this activation. By promoting urea-cycle flux, SIRT5 protects against ammonia toxicity during catabolic states.",
-    "confidence": 0.95,
-    "source_document": "SIRT5.md"
   },
   {
     "subject": "SIRT1",
@@ -2884,14 +2860,6 @@
     "predicate": "belongs_to",
     "object": "Phylogenetic Class III (prokaryotic origin)",
     "context": "SIRT5 is the sole mammalian member of phylogenetic Class III, a group distributed widely across prokaryotes, marking it as one of the most ancient mammalian sirtuins. Directionally, this is an evolutionary classification. Its prokaryotic origin aligns with SIRT5's fundamental mitochondrial metabolic functions, and this situates SIRT5 at the root of sirtuin biology. Because Class III sirtuins predate the eukaryotic sirtuins, SIRT5's desuccinylase activity may represent an ancestral enzymatic function retained through evolution. SIRT5's phylogenetic position helps explain its resistance to nicotinamide inhibition and its distinct substrate preferences.",
-    "confidence": 0.95,
-    "source_document": "SIRT5.md"
-  },
-  {
-    "subject": "SIRT5",
-    "predicate": "desuccinylates_and_activates",
-    "object": "HMGCS2",
-    "context": "SIRT5 regulates ketogenesis by desuccinylating HMGCS2, the rate-limiting enzyme of ketone-body synthesis, enabling fuel production during fasting. Directionally, SIRT5 enzymatically activates HMGCS2. This is a fasting-adaptive, energetically protective action, and it reaffirms SIRT5's role in coordinating catabolic flux. By supporting ketone-body production, SIRT5 provides an alternative fuel source for the brain and periphery during carbohydrate scarcity. This function is part of SIRT5's broader coordination of mitochondrial metabolism during nutrient stress.",
     "confidence": 0.95,
     "source_document": "SIRT5.md"
   },
@@ -4830,5 +4798,1701 @@
     "context": "DSB repair and RCM may advance epigenetic clocks by affecting DNA methylation machinery (e.g., TET enzymes and DNMTs). Because the response to DNA damage follows conserved mechanisms, aging becomes somewhat predictable despite random damage, leading to consistent epigenetic drift. Directionally, DNA damage repair and the consequent relocalization of chromatin modifiers sit upstream of clock-measured epigenetic age acceleration, linking RCM to quantitative measures of biological aging.",
     "confidence": "0.95",
     "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "H3K9ac",
+    "context": "SIRT1 deacetylates the histone mark H3K9ac, promoting chromatin compaction / transcriptional repression at target loci as part of its NAD+-dependent deacetylase program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "H3K26ac",
+    "context": "SIRT1 deacetylates the histone mark H3K26ac, promoting chromatin compaction / transcriptional repression at target loci as part of its NAD+-dependent deacetylase program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "H3K16ac",
+    "context": "SIRT1 deacetylates the histone mark H3K16ac, promoting chromatin compaction / transcriptional repression at target loci as part of its NAD+-dependent deacetylase program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "H3K56",
+    "context": "SIRT1 deacetylates the histone mark H3K56, promoting chromatin compaction / transcriptional repression at target loci as part of its NAD+-dependent deacetylase program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "α-tubulin",
+    "context": "SIRT1 deacetylates α-tubulin (alongside SIRT2), contributing to cytoskeletal/microtubule regulation and cytoplasmic deacetylase activity.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "Suv39h1",
+    "context": "SIRT1 deacetylates and cooperates with the H3K9 methyltransferase Suv39h1 to enforce heterochromatin and silencing.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "N-Myc",
+    "context": "SIRT1 deacetylates N-Myc, modulating its stability/transcriptional output in proliferation and tumor contexts.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "Estrogen Receptor (ER)",
+    "context": "SIRT1 deacetylates estrogen receptor α, influencing estrogen-responsive transcription in metabolic and cancer contexts.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "SIRT6",
+    "context": "Through deacetylation, SIRT1 activates SIRT6, linking NAD+ sensing to chromatin, DNA repair, antioxidant defense, and metabolic regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "ADAM-10",
+    "context": "SIRT1 upregulates ADAM-10 (α-secretase), shifting APP processing away from amyloid-β and protecting against Alzheimer's pathology.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "LKB1",
+    "context": "SIRT1 deacetylates/activates LKB1, the master kinase upstream of AMPK, promoting metabolic stress sensing; in turn SIRT1 and LKB1 cooperate to activate AMPK. The relationship is context-dependent: LKB1 is also listed among negative pathway regulators, reflecting reciprocal regulation of energy-sensing axes (reviewed in the source review's Table 3).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "NBS1",
+    "context": "SIRT1 deacetylates NBS1 (MRE11 complex), facilitating DNA double-strand-break sensing/repair.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "XPA",
+    "context": "SIRT1 deacetylates XPA, a core nucleotide-excision-repair factor, enhancing DNA-damage recognition.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "MnSOD",
+    "context": "SIRT1 deacetylates and activates MnSOD (SOD2), enhancing mitochondrial ROS detoxification and stress resistance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "WRN",
+    "context": "SIRT1 deacetylates and activates the Werner syndrome helicase WRN, linking SIRT1 to DNA repair and genomic stability.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "Ku70",
+    "context": "SIRT1 activates Ku70 (via deacetylation), promoting DNA-repair and Bax sequestration (Cohen 2004).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "FOXO1/FOXO3",
+    "context": "SIRT1 activates FOXO1/FOXO3 by deacetylation, coupling NAD+ sensing to stress resistance and metabolic gene programs (Brunet 2004 PMID 15066266).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "PGC-1α",
+    "context": "SIRT1 deacetylates and activates PGC-1α, driving mitochondrial biogenesis and fatty-acid oxidation (Rodgers 2005 PMID 15931387).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "PPARα",
+    "context": "SIRT1 deacetylates/activates PPARα, promoting fatty-acid oxidation and lipid homeostasis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "FXR",
+    "context": "SIRT1 regulates the bile-acid receptor FXR, linking NAD+ status to cholesterol and metabolic homeostasis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": "SIRT1 inhibits NF-κB by deacetylating RelA/p65 at Lys310, reducing pro-inflammatory transcription (Yeung 2004 PMID 15152190).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "p300",
+    "context": "SIRT1 inhibits the coactivator p300 by deacetylation, dampening p300-dependent transcriptional programs.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "p66Shc",
+    "context": "SIRT1 inhibits p66Shc, a ROS-generating adaptor, reducing oxidative stress and aging-related damage.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": "SIRT1 restrains mTOR signaling indirectly (via AMPK/energy sensing), opposing growth/hypertrophic programs.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "HIF-1α",
+    "context": "SIRT1 deacetylates/modulates HIF-1α, limiting hypoxic glycolytic reprogramming.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "TNF-α",
+    "context": "SIRT1 suppresses TNF-α production/ signaling downstream of NF-κB deacetylation, blunting inflammation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "histone acetylation",
+    "context": "SIRT1 removes acetyl groups from histones, promoting a repressive/condensed chromatin state at target loci.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "SREBP-1c",
+    "context": "SIRT1 inhibits SREBP-1c (lipogenesis) via deacetylation of ChREBP/SREBP and LXR pathways, reducing fatty-acid synthesis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "glucose metabolism",
+    "context": "SIRT1 participates in glucose metabolism, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "fatty-acid metabolism",
+    "context": "SIRT1 participates in fatty-acid metabolism, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "cholesterol metabolism",
+    "context": "SIRT1 participates in cholesterol metabolism, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "differentiation",
+    "context": "SIRT1 participates in differentiation, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "insulin secretion",
+    "context": "SIRT1 participates in insulin secretion, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "neuroprotection",
+    "context": "SIRT1 participates in neuroprotection, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "stress responses",
+    "context": "SIRT1 participates in stress responses, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "DNA repair",
+    "context": "SIRT1 participates in DNA repair, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in",
+    "object": "vascular protection",
+    "context": "SIRT1 participates in vascular protection, one of its core physiological roles, tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity (Sinclair & Guarente sirtuin framework).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "H3K56ac",
+    "context": "SIRT2 deacetylates H3K56ac, contributing to mitotic chromatin organization and genome stability.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "H4K16ac",
+    "context": "SIRT2 deacetylates histone H4 Lys16 during the G2/M transition, promoting mitotic chromatin condensation (Vaquero et al., 2006, Genes Dev 20:1256-1261, PMID 16648462).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activates",
+    "object": "FOXO",
+    "context": "SIRT2 activates FOXO via deacetylation (e.g., FOXO, c-Myc, G6PD, PEPCK), influencing transcription, glycolysis/gluconeogenesis, and redox balance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activates",
+    "object": "c-Myc",
+    "context": "SIRT2 activates c-Myc via deacetylation (e.g., FOXO, c-Myc, G6PD, PEPCK), influencing transcription, glycolysis/gluconeogenesis, and redox balance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activates",
+    "object": "G6PD",
+    "context": "SIRT2 activates G6PD via deacetylation (e.g., FOXO, c-Myc, G6PD, PEPCK), influencing transcription, glycolysis/gluconeogenesis, and redox balance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activates",
+    "object": "PEPCK",
+    "context": "SIRT2 activates PEPCK via deacetylation (e.g., FOXO, c-Myc, G6PD, PEPCK), influencing transcription, glycolysis/gluconeogenesis, and redox balance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": "SIRT2 inhibits NF-κB by deacetylation (e.g., NF-κB, p53, FOXO1), generally restraining their transcriptional/apoptotic output.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibits",
+    "object": "p53",
+    "context": "SIRT2 inhibits p53 by deacetylation (e.g., NF-κB, p53, FOXO1), generally restraining their transcriptional/apoptotic output.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibits",
+    "object": "FOXO1",
+    "context": "SIRT2 inhibits FOXO1 by deacetylation (e.g., NF-κB, p53, FOXO1), generally restraining their transcriptional/apoptotic output.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in",
+    "object": "cell-cycle control",
+    "context": "SIRT2 participates in cell-cycle control; as the predominantly cytoplasmic sirtuin it governs tubulin deacetylation, cell-cycle control, and cytoplasmic metabolic/inflammatory regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in",
+    "object": "carbohydrate metabolism",
+    "context": "SIRT2 participates in carbohydrate metabolism; as the predominantly cytoplasmic sirtuin it governs tubulin deacetylation, cell-cycle control, and cytoplasmic metabolic/inflammatory regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in",
+    "object": "lipid metabolism",
+    "context": "SIRT2 participates in lipid metabolism; as the predominantly cytoplasmic sirtuin it governs tubulin deacetylation, cell-cycle control, and cytoplasmic metabolic/inflammatory regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in",
+    "object": "tubulin deacetylation",
+    "context": "SIRT2 participates in tubulin deacetylation; as the predominantly cytoplasmic sirtuin it governs tubulin deacetylation, cell-cycle control, and cytoplasmic metabolic/inflammatory regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in",
+    "object": "transcription factor deacetylation",
+    "context": "SIRT2 participates in transcription factor deacetylation; as the predominantly cytoplasmic sirtuin it governs tubulin deacetylation, cell-cycle control, and cytoplasmic metabolic/inflammatory regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in",
+    "object": "anti-inflammatory",
+    "context": "SIRT2 participates in anti-inflammatory; as the predominantly cytoplasmic sirtuin it governs tubulin deacetylation, cell-cycle control, and cytoplasmic metabolic/inflammatory regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "H3K9",
+    "context": "SIRT3 deacetylates H3K9ac, a minor histone target linking SIRT3 to chromatin regulation in mitochondria-associated nuclei.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "H4K16",
+    "context": "SIRT3 deacetylates H4K16ac among its histone substrates, contributing to chromatin compaction.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "H3K56ac",
+    "context": "SIRT3 deacetylates H3K56ac, a mark of newly synthesized/histone turnover.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "H4K14ac",
+    "context": "SIRT3 deacetylates H4K14ac, part of its mitochondrial/cytonuclear deacetylase program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "Ku70",
+    "context": "SIRT3 activates Ku70 via deacetylation, enhancing mitochondrial oxidative metabolism, ROS management, and ATP production (Ahn 2008 PMID 18794531).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "MnSOD",
+    "context": "SIRT3 activates MnSOD via deacetylation, a key antioxidant node (Qiu 2010 PMID 21566644).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "DLD (dihydrolipoamide dehydrogenase)",
+    "context": "SIRT3 deacetylates dihydrolipoamide dehydrogenase (DLD), supporting α-ketoacid dehydrogenase complex activity and mitochondrial metabolism.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "fatty acid oxidation (FAO)",
+    "context": "SIRT3 promotes fatty-acid oxidation by deacetylating metabolic enzymes of β-oxidation and the TCA cycle.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "GDH (Glutamate Dehydrogenase)",
+    "context": "SIRT3 deacetylates and activates GDH, promoting amino-acid-derived anaplerosis and gluconeogenesis (contrast SIRT4, which ADP-ribosylates and inhibits GDH).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "complex I/III",
+    "context": "SIRT3 deacetylates subunits of respiratory-chain complexes I and III, maintaining basal ATP levels and electron-transport efficiency (Ahn et al., 2008, PNAS 105:14447-14452, PMID 18794531).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "IDH2",
+    "context": "SIRT3 activates IDH2 by deacetylation (Lys413), enhancing mitochondrial antioxidant capacity (Yu 2012 PMID 22416140).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "p53",
+    "context": "SIRT3 inhibits p53 (e.g., p53, ROS, lipogenesis) by deacetylating upstream regulators, protecting against damage and tumorigenesis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "ROS",
+    "context": "SIRT3 inhibits ROS (e.g., p53, ROS, lipogenesis) by deacetylating upstream regulators, protecting against damage and tumorigenesis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "lipogenesis",
+    "context": "SIRT3 inhibits lipogenesis (e.g., p53, ROS, lipogenesis) by deacetylating upstream regulators, protecting against damage and tumorigenesis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "mitochondrial enzyme deacetylation",
+    "context": "SIRT3 participates in mitochondrial enzyme deacetylation; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "ATP production",
+    "context": "SIRT3 participates in ATP production; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "ROS management",
+    "context": "SIRT3 participates in ROS management; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "β-oxidation",
+    "context": "SIRT3 participates in β-oxidation; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "ketogenesis",
+    "context": "SIRT3 participates in ketogenesis; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "cell death regulation",
+    "context": "SIRT3 participates in cell death regulation; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "carbohydrate metabolism",
+    "context": "SIRT3 participates in carbohydrate metabolism; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in",
+    "object": "lipid metabolism",
+    "context": "SIRT3 participates in lipid metabolism; as the principal mitochondrial sirtuin it deacetylates respiratory, antioxidant, and TCA-cycle enzymes to tune bioenergetics (Houtkooper et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "AMPK",
+    "context": "SIRT4 reduces AMPK signaling by opposing upstream LKB1/energy-sensing inputs, blunting catabolic (fatty-acid-oxidation) signaling in favor of anabolic metabolism; AMPK is reciprocally listed among SIRT4 negative regulators in Table 3 (e.g., via ADP/ATP-driven activation opposing SIRT4's anabolic bias; reviewed in the source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "ROS",
+    "context": "SIRT4 suppresses mitochondrial ROS production through its regulatory effects on GDH/PDH and fuel oxidation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "PDH (Pyruvate Dehydrogenase)",
+    "context": "SIRT4 (as a lipoamidase) inhibits the pyruvate dehydrogenase complex, modulating glucose-derived acetyl-CoA entry into the TCA cycle.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "functions_in",
+    "object": "insulin secretion",
+    "context": "SIRT4 participates in insulin secretion; as a mitochondrial ADP-ribosyltransferase it restrains amino-acid/fatty-acid fueling and insulin secretion (Haigis 2006 PMID 16959573).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "functions_in",
+    "object": "glutamine metabolism",
+    "context": "SIRT4 participates in glutamine metabolism; as a mitochondrial ADP-ribosyltransferase it restrains amino-acid/fatty-acid fueling and insulin secretion (Haigis 2006 PMID 16959573).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "functions_in",
+    "object": "fatty acid metabolism",
+    "context": "SIRT4 participates in fatty acid metabolism; as a mitochondrial ADP-ribosyltransferase it restrains amino-acid/fatty-acid fueling and insulin secretion (Haigis 2006 PMID 16959573).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "functions_in",
+    "object": "ATP homeostasis",
+    "context": "SIRT4 participates in ATP homeostasis; as a mitochondrial ADP-ribosyltransferase it restrains amino-acid/fatty-acid fueling and insulin secretion (Haigis 2006 PMID 16959573).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "deacetylates",
+    "object": "CPS1 (Carbamoyl-phosphate synthetase 1)",
+    "context": "SIRT5 deacetylates (and desuccinylates) carbamoyl-phosphate synthetase 1 (CPS1), the rate-limiting urea-cycle enzyme, enhancing ammonia detoxification; SIRT5-KO mice show elevated blood ammonia under fasting (Nakagawa et al., 2009, Cell 137:560-570, PMID 19410549; Du et al., 2011, Science 334:806-809, PMID 22076378).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "inhibits",
+    "object": "GLS (glutaminase)",
+    "context": "SIRT5 inhibits glutaminase (GLS) via desuccinylation, suppressing glutaminolysis in cancer metabolism.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in",
+    "object": "urea cycle",
+    "context": "SIRT5 participates in urea cycle; as a mitochondrial desuccinylase/demalonylase it regulates urea cycle, ketogenesis, and redox enzymes (Du 2011 PMID 22076378; Nakagawa 2009 PMID 19410549).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in",
+    "object": "ATP synthesis regulation",
+    "context": "SIRT5 participates in ATP synthesis regulation; as a mitochondrial desuccinylase/demalonylase it regulates urea cycle, ketogenesis, and redox enzymes (Du 2011 PMID 22076378; Nakagawa 2009 PMID 19410549).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in",
+    "object": "apoptosis",
+    "context": "SIRT5 participates in apoptosis; as a mitochondrial desuccinylase/demalonylase it regulates urea cycle, ketogenesis, and redox enzymes (Du 2011 PMID 22076378; Nakagawa 2009 PMID 19410549).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in",
+    "object": "intracellular signaling",
+    "context": "SIRT5 participates in intracellular signaling; as a mitochondrial desuccinylase/demalonylase it regulates urea cycle, ketogenesis, and redox enzymes (Du 2011 PMID 22076378; Nakagawa 2009 PMID 19410549).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in",
+    "object": "ammonia detoxification",
+    "context": "SIRT5 participates in ammonia detoxification; as a mitochondrial desuccinylase/demalonylase it regulates urea cycle, ketogenesis, and redox enzymes (Du 2011 PMID 22076378; Nakagawa 2009 PMID 19410549).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in",
+    "object": "fatty acid oxidation",
+    "context": "SIRT5 participates in fatty acid oxidation; as a mitochondrial desuccinylase/demalonylase it regulates urea cycle, ketogenesis, and redox enzymes (Du 2011 PMID 22076378; Nakagawa 2009 PMID 19410549).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "H2BK12",
+    "context": "SIRT6 deacetylates H2BK12ac, contributing to its chromatin-silencing/heterochromatin program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "WRN",
+    "context": "SIRT6 deacetylates the Werner helicase WRN, supporting DNA repair and telomere maintenance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "FOXO",
+    "context": "SIRT6 regulates FOXO transcription factors as part of its metabolic/chromatin program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "PARP1",
+    "context": "SIRT6 activates PARP1 through mono-ADP-ribosylation, promoting DNA repair (Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "CtIP",
+    "context": "SIRT6 deacetylates CtIP, required for efficient homologous recombination repair.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "p53",
+    "context": "SIRT6 can promote p53 function in the DNA-damage response by maintaining genomic stability and cooperating with p53/p21-dependent checkpoints, though p53 is also listed as a negative regulator of the SIRT6 pathway in Table 3, reflecting its context-dependent, stress-regulated role.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "DNA-PKcs",
+    "context": "SIRT6 promotes DNA-PKcs mobilization/stability at DSBs, enhancing repair (McCord 2009 PMID 20157594).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "CCNDBP1",
+    "context": "SIRT6 deacetylates/activates CCNDBP1 (Cyclin D-binding protein 1), linking it to cell-cycle and stress responses.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": "SIRT6 inhibits NF-κB by deacetylating H3K9 at NF-κB target promoters (RELA/p65), suppressing inflammation (similar to SIRT1; Michishita 2008 PMID 18454135).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "RELA",
+    "context": "SIRT6 represses RELA/p65 transcriptional activity via chromatin deacetylation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "TNF-α",
+    "context": "SIRT6 suppresses TNF-α signaling downstream of NF-κB chromatin deacetylation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "IGF-1",
+    "context": "SIRT6 inhibits IGF-1/AKT signaling (e.g., co-repressing c-Jun), protecting against cardiac hypertrophy.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "HIF-1α",
+    "context": "SIRT6 is a co-repressor of HIF-1α, suppressing glycolytic reprogramming and tumor growth (Zhong et al., 2010).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "c-Myc",
+    "context": "SIRT6 restrains c-Myc transcriptional output in certain cancer contexts.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "c-Jun",
+    "context": "SIRT6 co-represses c-Jun to inhibit IGF-AKT hypertrophic signaling.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "PGC-1α",
+    "context": "SIRT6 inhibits PGC-1α (e.g., by deacetylation), modulating gluconeogenesis.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "GCN5",
+    "context": "SIRT6 deacetylates the acetyltransferase GCN5, altering chromatin acetylation balance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in",
+    "object": "telomere function",
+    "context": "SIRT6 participates in telomere function; the nuclear/chromatin sirtuin guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in",
+    "object": "DNA repair",
+    "context": "SIRT6 participates in DNA repair; the nuclear/chromatin sirtuin guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in",
+    "object": "metabolic homeostasis",
+    "context": "SIRT6 participates in metabolic homeostasis; the nuclear/chromatin sirtuin guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in",
+    "object": "inflammation",
+    "context": "SIRT6 participates in inflammation; the nuclear/chromatin sirtuin guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in",
+    "object": "stress responses",
+    "context": "SIRT6 participates in stress responses; the nuclear/chromatin sirtuin guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in",
+    "object": "genomic stability",
+    "context": "SIRT6 participates in genomic stability; the nuclear/chromatin sirtuin guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "H2A",
+    "context": "SIRT7 deacetylates histone H2A, contributing to its nucleolar/chromatin regulatory program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "H2B",
+    "context": "SIRT7 deacetylates histone H2B as part of its chromatin modification repertoire.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "activates",
+    "object": "FOXO",
+    "context": "SIRT7 cooperates with FOXO3: SIRT7 deacetylates FOXO3 (alongside SIRT1), preventing pro-apoptotic Ser574 phosphorylation and activating FOXO3-dependent stress-resistance transcription; Table 3 lists FOXO3 as a positive regulator of the SIRT7 pathway (mutual activation).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibits",
+    "object": "RNA Polymerase I",
+    "context": "SIRT7 deacetylates and regulates RNA Polymerase I transcription at rDNA, controlling ribosome biogenesis (Ford et al., 2006).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibits",
+    "object": "HIF-1α",
+    "context": "SIRT7 suppresses HIF-1α and HIF-2α protein levels by deacetylation-coupled destabilization, reducing hypoxic gene activation, and conversely HIF-1α is listed as a negative regulator of SIRT7 in Table 3 (mutual opposition; Hubbi et al., 2013, PMC3774348).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibits",
+    "object": "HIF-2α",
+    "context": "SIRT7 inhibits HIF-2α, similar to its HIF-1α opposition.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "functions_in",
+    "object": "rDNA transcription",
+    "context": "SIRT7 participates in rDNA transcription; the nucleolar sirtuin regulates rDNA transcription and histone desuccinylation (Barber 2012 PMID 22722849; Ford 2006).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "functions_in",
+    "object": "histone desuccinylation",
+    "context": "SIRT7 participates in histone desuccinylation; the nucleolar sirtuin regulates rDNA transcription and histone desuccinylation (Barber 2012 PMID 22722849; Ford 2006).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "extends_lifespan_in",
+    "object": "BubR1 progeroid mice",
+    "context": "SIRT2 extends lifespan in BubR1 progeroid mice, as reported in the longevity/aging literature, supporting a role in cell-cycle and proteostatic regulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "associated_with",
+    "object": "Human aging (longevity)",
+    "context": "SIRT3 is associated with Human aging (longevity); mitochondrial sirtuin activity and SIRT3 variants are linked to human longevity.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6 loss",
+    "predicate": "causes",
+    "object": "severe metabolic defects and rapid aging",
+    "context": "Zhao et al. note that loss of SIRT6 causes severe metabolic defects and rapid aging, positioning SIRT6 as holding the most potential for actual mammalian life-span extension.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7 depletion",
+    "predicate": "causes",
+    "object": "premature ageing",
+    "context": "Global SIRT7 depletion contributes to premature ageing, especially in the backbone, white adipose tissue, and the heart.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "is_stac_activator_of",
+    "object": "SIRT1",
+    "context": "Resveratrol, a red-wine polyphenol, is a prototypical sirtuin-activating compound (STAC) that allosterically activates SIRT1 (lowering Km for substrate and NAD+) and extends lifespan in yeast, worms, flies, and mice on a high-calorie diet (Howitz et al., 2003, Nature 425:191-196, PMID 12805428; Baur et al., 2006, Nature 444:337-342, PMID 17086191).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "has_chemopreventive_activity_against",
+    "object": "leukemia, DMBA-induced mammary tumors, skin cancer, prostate cancer",
+    "context": "Resveratrol exhibits chemopreventive activity against leukemia, DMBA-induced mammary tumors, skin cancer, and other malignancies, in part through SIRT1-dependent and -independent pathways (reviewed in the sirtuin literature; Baur 2006 PMID 17086191).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "STACs",
+    "predicate": "activate_sirtuins_via",
+    "object": "K-type allosteric activation (lowers Km)",
+    "context": "Sirtuin-activating compounds (STACs) such as resveratrol engage a 'K-type' allosteric mechanism that lowers the Michaelis constant (Km) of SIRT1 for both the acetylated substrate and NAD+, increasing catalytic efficiency (Howitz 2003 PMID 12805428; structurally characterized in SIRT1-resveratrol complexes, PMID 26109052).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "NAD-boosting molecules (NMN, NR)",
+    "predicate": "activate",
+    "object": "all seven sirtuins",
+    "context": "NAD+-boosting molecules (NMN, NR) raise cellular NAD+, relieving nicotinamide feedback inhibition and activating all seven sirtuins (SIRT1-SIRT7).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "CD38 inhibitors (apigenin, quercetin)",
+    "predicate": "boost",
+    "object": "NAD+ (sirtuin co-substrate)",
+    "context": "CD38 consumes NAD+; inhibiting it (apigenin, quercetin) boosts NAD+ availability, the obligate co-substrate for all sirtuins (and thus for SIRT1-SIRT7 activity).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1 brain-specific knockout",
+    "predicate": "elevates",
+    "object": "β-amyloid plaques and gliosis (Alzheimer's disease)",
+    "context": "Brain-specific SIRT1 knockout elevates β-amyloid plaques and gliosis, implicating SIRT1 in Alzheimer's protection (per the review's neurobiology section).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "confers_neuroprotection_in",
+    "object": "Huntington's disease models",
+    "context": "SIRT1 conferred neuroprotection in three different mouse models of Huntington's disease; overexpression attenuated mutant huntingtin neurotoxicity.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1 overexpression",
+    "predicate": "reduces",
+    "object": "α-synuclein aggregates (Parkinson's disease)",
+    "context": "SIRT1 overexpression reduces α-synuclein aggregates, supporting a role in Parkinson's protection (via FOXO/autophagy pathways).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "Endothelial SIRT1 depletion",
+    "predicate": "associated_with",
+    "object": "cardiovascular diseases",
+    "context": "Endothelial SIRT1 depletion is associated with cardiovascular diseases, reflecting SIRT1's vascular protective (eNOS/NO, anti-inflammatory) roles.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "counteracts",
+    "object": "atherosclerosis (inhibits VSMC hypertrophy)",
+    "context": "SIRT1 counteracts atherosclerosis by inhibiting VSMC hypertrophy and NF-κB-driven inflammation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "prevents",
+    "object": "cardiac hypertrophy during ageing",
+    "context": "SIRT3 prevents cardiac hypertrophy during ageing; its deacetylase activity protects against age-related cardiac hypertrophy.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6 expression",
+    "predicate": "blocks",
+    "object": "cardiac hypertrophy and heart failure",
+    "context": "SIRT6 expression blocks the development of cardiac hypertrophy and heart failure.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7 deletion",
+    "predicate": "causes",
+    "object": "heart hypertrophy, fibrosis, inflammatory cardiomyopathy",
+    "context": "SIRT7 deletion leads to heart hypertrophy, fibrosis, lipofuscin accumulation, and inflammatory cardiomyopathy that worsens with age.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1 overexpression",
+    "predicate": "protects_against",
+    "object": "obesity-associated metabolic derangement",
+    "context": "SIRT1 overexpression protects against obesity-associated metabolic derangement via deacetylation of metabolic transcription factors.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1 and SIRT1 activators",
+    "predicate": "prevent_reverse",
+    "object": "insulin resistance and type 2 diabetes",
+    "context": "SIRT1 and its activators prevent/reverse insulin resistance and type 2 diabetes by enhancing deacetylation of metabolic regulators (e.g., PGC-1α, FOXO; Rodgers 2005 PMID 15931387).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activates",
+    "object": "PEPCK (gluconeogenesis)",
+    "context": "SIRT2 activates PEPCK (gluconeogenesis) via deacetylation (e.g., FOXO, c-Myc, G6PD, PEPCK), influencing transcription, glycolysis/gluconeogenesis, and redox balance.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "GDH (gluconeogenesis from amino acids)",
+    "context": "SIRT3 activates GDH to support gluconeogenesis from amino acids via deacetylation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "destabilizes",
+    "object": "HIF1α (inhibits glycolysis)",
+    "context": "SIRT3 indirectly destabilizes HIF1α and subsequently inhibits glycolysis and glucose oxidation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6 overexpression",
+    "predicate": "protects_against",
+    "object": "diet-induced obesity",
+    "context": "SIRT6 overexpression protects mice from diet-induced obesity, with increased glucose tolerance and reduced fat accumulation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7 knockout",
+    "predicate": "improves",
+    "object": "insulin sensitivity / glucose intolerance",
+    "context": "SIRT7 knockout mice are resistant to glucose intolerance and show improved insulin sensitivity on a high-fat diet.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "has_dual_role_in",
+    "object": "cancer (tumor suppressor and promoter)",
+    "context": "SIRT1 has a dual role in cancer (tumor suppressor and promoter): it can act as tumor suppressor (via p53/β-catenin/survivin restraint) or tumor promoter (via p53 deacetylation), depending on context.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is",
+    "object": "tumor suppressor protein (TSP)",
+    "context": "SIRT6 is described as tumor suppressor protein (TSP); it is a tumor-suppressor protein whose deficiency causes genomic instability and premature aging.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "is",
+    "object": "oncogene (upregulated in cancers)",
+    "context": "SIRT7 is described as oncogene (upregulated in cancers); it is upregulated in cancers and acts as an oncogene in several contexts (Barber 2012 PMID 22722849).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "is",
+    "object": "tumor suppressor (downregulated in cancers)",
+    "context": "SIRT4 is described as tumor suppressor (downregulated in cancers); it is a tumor suppressor downregulated in multiple cancers (Wu et al., 2022).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is",
+    "object": "tumor suppressor (decreased in breast/ovarian cancers)",
+    "context": "SIRT3 is described as tumor suppressor (decreased in breast/ovarian cancers); it is a tumor suppressor frequently downregulated in breast/ovarian cancers (Massudi et al., 2012).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in_aging",
+    "object": "Lifespan extension",
+    "context": "SIRT1 is a central mediator of healthspan and longevity: its activity declines with age as NAD+ falls, and genetic/pharmacologic (resveratrol, NAD+ precursors) activation extends lifespan in model organisms; SIRT1-dependent deacetylation of p53, FOXOs, and NF-κB underpins these effects (Giblin et al., 2014, Sirtuins: Guardians of Mammalian Healthspan; Satoh et al., 2013 brain-specific SIRT1-overexpression lifespan extension, PMID 24011076).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in_aging",
+    "object": "DNA repair",
+    "context": "SIRT1 relocalizes to DNA double-strand breaks, where it deacetylates H4K16 and other targets to promote homologous-recombination repair and maintain heterochromatin, supporting genomic stability with age; its decline with falling NAD+ impairs this DDR coupling (Oberdoerffer et al., 2008, PMC2853975).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in_aging",
+    "object": "Cell cycle arrest",
+    "context": "SIRT1 governs cell-cycle checkpoints by deacetylating p53 (reducing its transcriptional activity) and RB, supporting DNA-repair-coupled arrest rather than apoptosis or premature senescence; age-related SIRT1 decline biases G1/S and G2/M responses toward senescence (reviewed in the source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "functions_in_aging",
+    "object": "Cellular senescence",
+    "context": "SIRT1 opposes cellular senescence by deacetylating p53, FOXOs, p66Shc, and histones at SASP loci: SIRT1 activation reduces SASP factor secretion (including IL-6 and PAI-1) and delays replicative/oncogene-induced senescence, while its decline with age is a driver of the senescence phenotype (source review; Giblin et al., 2014).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activated_by",
+    "object": "eNOS",
+    "context": "eNOS-derived nitric oxide activates SIRT1, and SIRT1 deacetylates eNOS to maintain its activity, forming a reciprocal endothelial-protective loop that declines with age; this NO/SIRT1 axis supports cardiovascular healthspan (Mattagajasingh et al., 2007; listed as a positive regulator in the source review's Table 3).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activated_by",
+    "object": "Erβ",
+    "context": "Estrogen receptor β (Erβ) signaling upregulates SIRT1 expression and activity, linking estrogens to SIRT1-mediated metabolic and neuroprotective programs; estrogen-replacement models show increased SIRT1 levels and reduced oxidative damage (source review Table 3 lists Erβ as a positive SIRT1 regulator).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activated_by",
+    "object": "FOXO3",
+    "context": "FOXO3 and SIRT1 form a feed-forward stress-resistance loop: SIRT1 deacetylates FOXO3 to shunt it toward stress-resistance and metabolic genes, while FOXO3 transactivates SIRT1 expression; this mutually reinforcing pair is central to longevity-associated signalling (Brunet et al., 2004, PMID 15066266).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "PAI-1",
+    "context": "PAI-1, a senescence-associated secreted factor (SASP), suppresses SIRT1 expression, and SIRT1 reciprocally binds the PAI-1 promoter to deacetylate H4K16 and repress its transcription; elevation of PAI-1 with age thus contributes to SIRT1 decline and the senescence phenotype (Kortlever et al., 2006, Nat Cell Biol; Wan et al., 2014, Aging Cell, PMID 24649892).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "p53",
+    "context": "p53 directly represses SIRT1 transcription by binding the SIRT1 promoter; conversely SIRT1 deacetylates p53, creating a p53-SIRT1 regulatory loop in which DNA damage and p53 activation lower SIRT1 and bias cells toward apoptosis/senescence (Nemoto et al., 2004).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "p16INK4a",
+    "context": "p16INK4a (CDKN2A) accumulation with age drives senescence and opposes SIRT1-dependent replicative programs; SIRT1 represses p16INK4a expression via promoter deacetylation and via the Akt/p70S6K1 axis, and p16INK4a upregulation is a hallmark of aging-related SIRT1 decline (Li & Tollefsbol, 2011, PLoS One 6:e17421, PMID 21390332).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "NF-κB",
+    "context": "NF-κB signaling suppresses SIRT1 (e.g., via promoter occupancy and microRNAs) while SIRT1 deacetylates p65/RelA on Lys310 to dampen NF-κB transcription, creating a pro-inflammatory, pro-senescence feedback as SIRT1 declines with age (source review Table 3; aging-associated NF-κB activation opposes SIRT1 programs).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "p66Shc",
+    "context": "p66Shc, a lifespan-associated redox adapter, is repressed by SIRT1 (SIRT1 knockdown raises p66Shc), and p66Shc elevation promotes reactive-oxygen species generation and endothelial dysfunction, contributing to SIRT1 decline and vascular aging (Zhou et al., 2011, PMID 21778425).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "LKB1",
+    "context": "LKB1, through AMPK activation, feeds back on SIRT1 via NAD+-dependent coupling (AMPK raises NAD+), but is also listed as a negative pathway regulator in Table 3: under certain conditions AMPK/LKB1 signaling opposes SIRT1-promoted anabolic programs, reflecting context-dependent cross-talk of the energy-sensing network.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "Cyclin D1",
+    "context": "Cyclin D1/CDK4 and the cyclin B-Cdk1 complex regulate SIRT1 by phosphorylation (massive phosphorylation is required for SIRT1 cell-cycle function), and cyclin D1 opposes SIRT1-dependent regulation of cell-cycle genes in proliferative contexts; Table 3 lists Cyclin D1 among negative SIRT1 regulators (Sasaki et al., 2008, PLoS One 3:e4020, PMID 19015735).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibited_by",
+    "object": "mTOR/S6K pathway",
+    "context": "mTORC1/S6K1 signaling opposes SIRT1-promoted catabolic and stress-resistance programs (while SIRT1/SIRT2 deacetylate S6K1 to license its activity, making regulation bidirectional and nutrient-dependent); rapamycin-mediated mTOR inhibition raises NAD+ and benefits from SIRT1 coupling, as reflected in Table 3's classification of the mTOR/S6K pathway as a SIRT1 negative regulator.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "functions_in_aging",
+    "object": "Cell cycle regulation",
+    "context": "SIRT2 is a cytoplasmic/mitotic deacetylase that regulates cytokinesis and the G2/M transition, supporting genomic stability and mitotic fidelity; age-related SIRT2 decline impairs these cell-cycle checkpoints (source review; North & Verdin review of SIRT2 mitotic roles).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activated_by",
+    "object": "BubR1",
+    "context": "BubR1, a spindle-assembly-checkpoint protein, is stabilized by SIRT2 deacetylation at Lys668 (SIRT2 knockdown accelerates BubR1 degradation); SIRT2 overexpression increases BubR1 levels and delays aging phenotypes in progeroid mice, so BubR1 is functionally a positive downstream effector of the SIRT2 pathway (North et al., 2014, Cell, PMID 24825348).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activated_by",
+    "object": "PPP",
+    "context": "SIRT2 deacetylates G6PD in the pentose phosphate pathway (PPP) at Lys403, activating it to promote NADPH production and antioxidant defense; the PPP thus serves as a downstream effector of SIRT2 and is listed among its positive pathway regulators (Wang et al., 2014, Cell Metab, PMID 24769394).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activated_by",
+    "object": "NAD+",
+    "context": "As a class III NAD+-dependent deacetylase, SIRT2 activity is directly governed by NAD+ availability; NAD+ precursors (e.g., NMN, NR) boost SIRT2 activity in mitosis and metabolism, linking NAD+ decline in aging to reduced SIRT2 function (source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activated_by",
+    "object": "FOXOs",
+    "context": "SIRT2 deacetylates FOXO1 and FOXO3a, promoting their nuclear accumulation and target-gene activation (e.g., stress resistance, gluconeogenesis, and cell survival) in a manner analogous to SIRT1-FOXO coupling, making FOXOs downstream effectors and listed positive regulators of the SIRT2 pathway (Wang et al., 2007, PMID 17521387).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "activated_by",
+    "object": "MnSOD",
+    "context": "SIRT2 promotes antioxidant defense in part through induction/stabilization of MnSOD (SOD2) targets, reducing mitochondrial superoxide; MnSOD is therefore listed among the positive regulators/effectors of the SIRT2 pathway in the source review's Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibited_by",
+    "object": "Wnt",
+    "context": "β-catenin (Wnt pathway) transcriptionally represses the SIRT2 promoter, and SIRT2 reciprocally deacetylates β-catenin to destabilize it, so Wnt signaling opposes SIRT2 pathway activity and vice versa in intestinal and cancer cell contexts (BBA Mol Cell Res 2021).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibited_by",
+    "object": "AKT",
+    "context": "Akt signaling is associated with inhibition of SIRT2-dependent cell-cycle and stress outputs (e.g., cyclin E-CDK2 phosphorylates SIRT2 at Ser331 to reduce its deacetylase activity), placing AKT signaling among negative regulators of the SIRT2 pathway (Pandithage et al., 2008, J Cell Biol, PMID 18504304).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibited_by",
+    "object": "NF-κB",
+    "context": "NF-κB activation opposes SIRT2-dependent anti-inflammatory and cell-cycle programs, while SIRT2 deacetylates p65 to dampen NF-κB responses; Table 3 lists NF-κB among negative regulators of the SIRT2 pathway in aging.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in_aging",
+    "object": "Mitochondrial function",
+    "context": "SIRT3 is the principal mitochondrial deacetylase, regulating the majority of the mitochondrial acetylome to sustain oxidative-phosphorylation enzymes, fatty-acid oxidation, and the TCA/mitochondrial electron transport chain; SIRT3 declines with age, impairing mitochondrial function (source review; Hebert et al., 2013).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in_aging",
+    "object": "Oxidative stress",
+    "context": "SIRT3 deacetylates and activates SOD2 (MnSOD) at Lys68/Lys122 and supports glutathione-dependent antioxidant pathways, reducing mitochondrial ROS; aging-associated SIRT3 decline increases oxidative stress, and SIRT3 knockout mice show accelerated aging phenotypes (source review; Qiu et al., 2010).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "functions_in_aging",
+    "object": "Centenarian-linked SNPs",
+    "context": "SIRT3 G477T and other SNPs are associated with human longevity/healthy aging; the G477T variant (V208I/V184I alleles) improves SIRT3 function or expression and is enriched in centenarian populations in some cohorts (source review; Rose et al., 2003, Alì et al., 2015 reports).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activated_by",
+    "object": "FOXO3A",
+    "context": "FOXO3a translocates to mitochondria where it binds the SIRT3 promoter and induces SIRT3 expression, which in turn activates MnSOD to reduce ROS, forming a FOXO3a-SIRT3-PGC-1α mitochondrial-protective loop (source review; Tseng et al., 2013; also PMC2532794).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activated_by",
+    "object": "MnSOD",
+    "context": "MnSOD (SOD2) functions as a key downstream effector of SIRT3: SIRT3 deacetylates MnSOD to activate it, and the two cooperate in neutralizing mitochondrial ROS; MnSOD is thus listed among positive regulators/effectors of the SIRT3 pathway in Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibited_by",
+    "object": "NF-κB",
+    "context": "NF-κB (p65 at Ser536) occupies the SIRT3 promoter and represses SIRT3 transcription, so pro-inflammatory NF-κB activation lowers SIRT3 and mitochondrial antioxidant capacity; Table 3 lists NF-κB among negative regulators of the SIRT3 pathway (Wang et al., 2021 preprint evidence).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibited_by",
+    "object": "MAPK/ERK",
+    "context": "MAPK/ERK signaling can oppose SIRT3-dependent metabolic and antioxidant outputs (e.g., ERK-driven proliferative/fibrotic signaling coupling with SIRT3 decrease); Table 3 lists MAPK/ERK among negative regulators of the SIRT3 pathway in aging.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibited_by",
+    "object": "PI3K/AKT",
+    "context": "PI3K/AKT signaling regulates Sirt3 in various contexts, generally opposing SIRT3-mediated catabolic/mitochondrial programs (e.g., PI3K/AKT modulates Sirt3 in activated microglia); Table 3 lists PI3K/AKT among negative regulators of the SIRT3 pathway (PMID 37930585).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "functions_in_aging",
+    "object": "Fatty acid oxidation",
+    "context": "SIRT4 inhibits fatty-acid oxidation at the mitochondria by suppressing malonyl-CoA decarboxylase (MCD) ADP-ribosylase activity and restraining oxidative fuel use, an adaptive suppression that rises under calorie restriction; during aging its dysregulation perturbs metabolic fuel selection (source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "functions_in_aging",
+    "object": "Apoptosis",
+    "context": "SIRT4 suppresses apoptosis mainly by inhibiting mitochondrial glutamine metabolism (ADP-ribosylating GDH) and by dampening inducers such as PGC-1α/AMPK, protecting cells from genotoxic stress; SIRT4 loss in contexts like HCC promotes apoptosis, while its decline with stress affects tumor suppression and aging (source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibited_by",
+    "object": "NF-κB",
+    "context": "NF-κB signaling suppresses SIRT4 in tumor and inflammatory contexts, consistent with the pro-inflammatory axis opposing SIRT4's tumor-suppressive and metabolic-restraining functions; Table 3 lists NF-κB among negative regulators of the SIRT4 pathway.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibited_by",
+    "object": "Bax",
+    "context": "Pro-apoptotic Bax opposes SIRT4's anti-apoptotic effects on mitochondria; under stress Bax-mediated mitochondrial permeabilization is associated with decreased SIRT4-mediated protection, so Bax is listed among negative regulators of SIRT4 in Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibited_by",
+    "object": "Caspases",
+    "context": "Caspase activation, hallmark of the intrinsic apoptosis pathway, is antagonistic to SIRT4's mitochondrial anti-apoptotic function; during apoptosis caspases cleave/deregulate mitochondrial effectors, placing caspases among negative regulators of the SIRT4 pathway (Table 3).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibited_by",
+    "object": "GDH",
+    "context": "GDH is the primary substrate through which SIRT4 suppresses glutamine metabolism, yet GDH is also listed among negative regulators in Table 3: high GDH activity can outpace SIRT4 ADP-ribosylation under energetic stress, switching cells toward glutaminolysis/fuel oxidation and away from SIRT4-mediated restraint.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibited_by",
+    "object": "AMPK",
+    "context": "AMPK activation (energy stress) opposes SIRT4's anabolic bias by promoting catabolism and mitochondrial biogenesis; reciprocal to SIRT4's inhibition of AMPK, AMPK signaling is thus classified among negative regulators of the SIRT4 pathway in Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in_aging",
+    "object": "Fatty acid oxidation",
+    "context": "SIRT5 regulates fuel oxidation via desuccinylation/deglycylidation of mitochondrial enzymes including CPS1 and components of fatty-acid oxidation, supporting metabolic flexibility under fasting and during aging; its age-related changes affect liver and muscle energetics (source review; Park et al., 2013).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "functions_in_aging",
+    "object": "Oxidative stress",
+    "context": "SIRT5 desuccinylates enzymes of the urea cycle and electron-transport chain to sustain mitochondrial function under ammonia and oxidative stress, mitigating accumulation of damaged mitochondria with age; it also supports antioxidant capacity during fasting (source review; Nakagawa et al., 2009).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "inhibited_by",
+    "object": "Bcl-2",
+    "context": "Anti-apoptotic Bcl-2 inhibits apoptosis, thereby opposing SIRT5's pro-survival species; in Table 3 Bcl-2 is listed among negative regulators of the SIRT5 pathway in contexts where SIRT5's effects depend on cell survival/Apoptosis signaling.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "inhibited_by",
+    "object": "GDH",
+    "context": "SIRT5 desuccinylates GDH to inhibit its activity (opposite to SIRT4, which ADP-ribosylates GDH), so high GDH activity counters SIRT5-dependent restraint of glutamine metabolism; GDH is listed among negative regulators of the SIRT5 pathway in Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "inhibited_by",
+    "object": "Pyruvate Dehydrogenase",
+    "context": "SIRT5 desuccinylates pyruvate dehydrogenase (PDH) to suppress its activity, favoring glutamine-dependent anaplerosis over glucose oxidation; PDH activity is thus reciprocally regulated and listed among negative regulators/opponents of SIRT5's metabolic program in Table 3 (Park et al., 2013, PMC3769971).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in_aging",
+    "object": "Lifespan extension",
+    "context": "SIRT6 overexpression extends lifespan in male mice and is required for healthy aging, acting through DNA repair, metabolic regulation, and inflammation control; as with SIRT1, SIRT6 activity is NAD+-dependent and declines with age (Kanfi et al., 2012, Nature; source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in_aging",
+    "object": "DNA repair",
+    "context": "SIRT6 is a core DNA double-strand-break repair factor: it is recruited to DSBs, deacetylates H3K9/H3K56 and CtIP, and stimulates PARP1 to promote homologous recombination and maintenance of genomic stability (Kaidi et al., 2010, PMC2943420).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in_aging",
+    "object": "Genome stability",
+    "context": "SIRT6 deacetylates H3K9 on telomeric chromatin and suppresses LINE-1 retrotransposon activity, maintaining genome stability and telomere function; SIRT6-deficient cells show genomic instability, telomere defects, and cellular senescence (Michishita et al., 2008; Van Meter et al., 2014).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "functions_in_aging",
+    "object": "Telomere maintenance",
+    "context": "SIRT6 deacetylates H3K9 at telomeres and stabilizes WRN helicase, preventing telomere dysfunction-induced senescence; SIRT6-depleted cells undergo accelerated telomere replication problems and senescence (Michishita et al., 2008, Cell; source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activated_by",
+    "object": "Nrf2",
+    "context": "Nrf2, the master antioxidant transcription factor, induces SIRT6-responsive antioxidant and DNA-repair programs; SIRT6 binds the Nrf2 promoter and cooperates with Nrf2 to maintain glutathione and redox balance, and Nrf2 deacetylation is itself regulated by SIRT6 (Pan et al., 2016, Cell Res).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activated_by",
+    "object": "eNOS",
+    "context": "In the vasculature, eNOS/NO signaling and SIRT6 cooperate in endothelial protection and vasodilation (analogous to the SIRT1-eNOS loop), so eNOS is listed as a positive regulator of the SIRT6 pathway in Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activated_by",
+    "object": "IGF-1/AKT",
+    "context": "IGF-1/AKT signaling can modulate SIRT6 activity and expression in metabolic and intestinal-fitness contexts, generally promoting SIRT6-dependent metabolic and tumor-suppressive programs; Table 3 lists IGF-1/AKT among positive regulators of the SIRT6 pathway.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activated_by",
+    "object": "p53",
+    "context": "SIRT6 cooperates with p53 in DNA-damage responses (maintaining p53 activity under oxidative stress and supporting p21-dependent checkpoints), and p53 is listed among positive regulators of the SIRT6 pathway in Table 3 for DDR contexts.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibited_by",
+    "object": "p21 Cip1/Waf1",
+    "context": "p21 (CDKN1A), whose expression is antagonized by SIRT6 (SIRT6 suppresses p21-driven senescence), accumulates with age and opposes SIRT6-regulated cell-cycle and DNA-repair programs; Table 3 lists p21 among negative regulators of SIRT6 (source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibited_by",
+    "object": "NF-κB",
+    "context": "SIRT6 deacetylates H3K9 on NF-κB (p65) target-gene promoters to repress NF-κB-dependent inflammation, and conversely NF-κB activation opposes SIRT6's anti-inflammatory/genome-stability program in aging; Table 3 lists NF-κB among negative regulators of SIRT6 (Kawahara et al., 2009, Cell).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibited_by",
+    "object": "ICAM-1",
+    "context": "ICAM-1, an endothelial/leukocyte adhesion molecule elevated during inflammation and aging, is a target of SIRT6-repressed NF-κB signaling; its upregulation opposes SIRT6's vascular-protective role and it is listed among negative regulators of the SIRT6 pathway in Table 3.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibited_by",
+    "object": "PAI-1",
+    "context": "PAI-1 is transcriptionally repressed by SIRT6 through H3K9 deacetylation at its promoter (SIRT6 binding is a hallmark of PAI-1 downregulation), so PAI-1 elevation with age opposes SIRT6's anti-senescence and metabolic programs; Table 3 lists PAI-1 among negative regulators of SIRT6 (Van Meter et al., 2014).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "functions_in_aging",
+    "object": "Epigenetic regulation",
+    "context": "SIRT7 deacetylates H3K18 on promoters (Barber et al., 2012, Nature, PMID 22722849) and associates with chromatin remodelers (including PAF1 complex) to regulate rDNA transcription, ribosomal biogenesis, and global gene expression; age-related SIRT7 decline perturbs these epigenetic landscapes (source review; Vakhrusheva et al., 2008).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "functions_in_aging",
+    "object": "Stress resistance",
+    "context": "SIRT7 promotes cellular stress resistance by suppressing ER stress and reactive-ROS programs via Myc-linked silencing of ribosomal protein genes and by stabilizing DNA repair; SIRT7-depleted cells show increased apoptosis and metabolic stress (Shin et al., 2013, PMID 24210820; source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "functions_in_aging",
+    "object": "Apoptosis",
+    "context": "SIRT7 is required for RNA polymerase I transcription and cell survival: its knockdown reduces Pol I association with rDNA and triggers apoptosis, and it deacetylates p53 in HCC cells to dampen p53-driven apoptosis, linking SIRT7 decline to age-related apoptosis and disease (Ford et al., 2006, Genes Dev 20:1075; source review).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "activated_by",
+    "object": "FOXO3",
+    "context": "FOXO3 is a positive regulator of the SIRT7 pathway: FOXO factors interact with SIRT7 to promote stress resistance, while SIRT7 deacetylates FOXO3 to prevent pro-apoptotic Ser574 phosphorylation, forming a mutual-activation loop (source review Table 3; SIRT7-FOXO3 cooperation).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibited_by",
+    "object": "Myc",
+    "context": "The SIRT7-Myc axis is bidirectional: SIRT7 assembles with Myc at ribosomal protein (RP) gene promoters to silence gene expression and relieve ER stress, while Myc-driven proliferation opposes SIRT7-dependent growth-quiescence programs in some contexts; Table 3 lists Myc among negative regulators of SIRT7 (Shin et al., 2013, PMID 24210820).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibited_by",
+    "object": "HIF-1α",
+    "context": "SIRT7 suppresses HIF-1α/2α protein levels (deacetylation-coupled destabilization), reducing hypoxic gene activation, and reciprocally HIF-1α is listed as a negative regulator of the SIRT7 pathway, an opposition relevant to tumor metabolism and aging (Hubbi et al., 2013, PMC3774348).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibited_by",
+    "object": "p53",
+    "context": "SIRT7 deacetylates p53 to repress p53-driven apoptosis in hepatocellular carcinoma, and p53 activation reciprocally opposes SIRT7 functions (e.g., under genotoxic stress p53 promotes apoptosis despite SIRT7), so p53 is listed among negative regulators of the SIRT7 pathway (source review; oncogene review s41388-024-02976-8).",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
   }
 ]

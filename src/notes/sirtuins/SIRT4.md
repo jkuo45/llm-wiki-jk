@@ -22,6 +22,9 @@ protected: true
 
 **SIRT4** (Sirtuin 4) is a **mitochondrial sirtuin** classified in phylogenetic **Class II**, which includes sirtuins from bacteria, insects, nematodes, mould fungus, and protozoans — making SIRT4 and Class II sirtuins among the most ancient in evolutionary terms. Unlike [[SIRT1]] and [[SIRT3]], SIRT4's **primary enzymatic activity is mono-ADP-ribosylation** rather than deacetylation, though it also exhibits weak deacetylase activity.
 
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT4 functions in aging via **fatty acid oxidation and apoptosis**. No positive regulators were listed; negative regulators include [[NF-κB]], [[Bax]], [[Caspases]], [[Glutamate Dehydrogenase (GDH)|GDH]], and [[AMPK]].
+
 ## Enzymatic Activity
 
 SIRT4 is a **mono-ADP-ribosyl transferase** using NAD⁺ as a donor (see [[NAD+]]). It generates [[OAADPr]] as a by-product. No robust deacetylase activity has been confirmed as a primary function, though weak deacetylase activity has been reported under specific conditions. This makes SIRT4 one of only two mammalian sirtuins (along with [[SIRT6]]) whose primary characterised activity is mono-ADP-ribosylation.
@@ -129,6 +132,10 @@ List of documents that mention this entity
 
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT4 functions in aging via fatty acid oxidation and apoptosis; negatively regulated by NF-κB, Bax, Caspases, GDH, and AMPK.
+
 ## Connections
 
 - [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles. Together they form the SIRT3/SIRT4 ratio, a mitochondrial redox dial

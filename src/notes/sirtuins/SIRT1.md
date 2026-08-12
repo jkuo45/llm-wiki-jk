@@ -22,6 +22,9 @@ tags:
 
 **Sirt1** is a [[NAD+|NAD^+]]-dependent class III histone deacetylase (sirtuin) and the most extensively characterized member of the [[Sirtuins]] family. It links cellular energy status to chromatin regulation, stress resistance, and metabolic homeostasis by deacetylating both histone and non-histone substrates in a [[NAD+|NAD^+]]-consuming reaction.
 
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT1 functions in aging via **lifespan extension, DNA repair, cell cycle arrest, and cellular senescence**. Positive pathway regulators include [[eNOS]], [[Erβ]], and [[FOXO3]]; negative regulators include [[PAI-1]], [[p53]], [[p16INK4a]], [[NF-κB]], [[p66Shc]], [[LKB1]], [[Cyclin D1]], and the [[mTOR]]/S6K pathway.
+
 ## Molecular Mechanism
 
 Sirt1 couples lysine deacetylation to [[NAD+|NAD^+]] hydrolysis, generating [[Nicotinamide]] and 2'-O-acetyl-ADP-ribose. This NAD^+ dependence makes Sirt1 activity directly responsive to metabolic state: when energy is scarce (high NAD^+/NADH ratio), Sirt1 activity increases. Key targets include:
@@ -279,6 +282,10 @@ List of documents that mention this entity
   - Chaqour (2026) positions SIRT1 as a context-dependent 'shapeshifter' linking metabolism, stress, and disease across cardiovascular, metabolic, neurovascular, and oncogenic domains via deacetylation of >40 substrates.
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT1 functions in aging via lifespan extension, DNA repair, cell cycle arrest, and cellular senescence; positively regulated by eNOS, Erβ, FOXO3 and negatively by PAI-1, p53, p16INK4a, NF-κB, p66Shc, LKB1, Cyclin D1, and mTOR/S6K.
+
 ## Connections
 
 - [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation

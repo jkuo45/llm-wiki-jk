@@ -22,6 +22,9 @@ protected: true
 
 **SIRT7** (Sirtuin 7) is a **nuclear/nucleolar sirtuin** classified in phylogenetic **Class IVb** — the same class as [[SIRT6]] (Class IVa). Class IV sirtuins are absent from prokaryotes but broadly distributed in metazoans, plants, and vertebrates. SIRT7 is unique among mammalian sirtuins for its **nucleolar localisation** and its role as an **activator of RNA Polymerase I (RNA Pol I)** transcription.
 
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT7 functions in aging via **epigenetic regulation, stress resistance, and apoptosis**. Positive pathway regulators include [[FOXO3]]; negative regulators include [[Myc]], [[HIF-1α]], and [[p53]].
+
 ## Enzymatic Activity
 
 SIRT7 possesses NAD⁺-dependent deacetylase activity with high selectivity for **histone H3 at lysine 18 (H3K18ac)**. Deacetylation of H3K18ac promotes a repressive chromatin state at specific genomic loci, including tumour suppressor genes. SIRT7 also exhibits desuccinylase activity, broadening its substrate repertoire. The reactions consume [[NAD+]] and produce nicotinamide and [[OAADPr]].
@@ -141,6 +144,10 @@ List of documents that mention this entity
 
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT7 functions in aging via epigenetic regulation, stress resistance, and apoptosis; positively regulated by FOXO3 and negatively by Myc, HIF-1α, p53.
+
 ## Connections
 
 - [[SIRT6]] — fellow Class IV sirtuin; both nuclear; SIRT6 is heterochromatic while SIRT7 is nucleolar

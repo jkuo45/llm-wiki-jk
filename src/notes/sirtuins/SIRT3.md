@@ -250,3 +250,18 @@ List of documents that mention this entity
 
 SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosyl transferase activities. It regulates mitochondrial metabolism, thermogenesis, and helps prevent oxidative stress by suppressing [[Reactive Oxygen Species]]. It acts as a tumor suppressor by destabilizing [[HIF-1α]].
 
+> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) note SIRT3 is the sirtuin most associated with human aging—polymorphisms in the SIRT3 locus correlate with survival in elderly individuals (though not universally replicated). SIRT3 activates GDH to facilitate gluconeogenesis from amino acids, indirectly destabilizes HIF1α to inhibit glycolysis, and is required to prevent cardiac hypertrophy during ageing.
+
+## Documents
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Links SIRT3 polymorphisms to human longevity, details GDH/PEPCK metabolic roles, HIF1α destabilization, and cardiac hypertrophy prevention.
+
+## Connections
+
+- [[Human aging]] — SIRT3 locus polymorphisms associate with elderly survival
+- [[GDH (Glutamate Dehydrogenase)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
+- [[HIF-1α]] — SIRT3 destabilizes HIF1α, inhibiting glycolysis
+- [[Cardiac Hypertrophy]] — SIRT3 prevents cardiac hypertrophy during ageing
+
