@@ -13,9 +13,9 @@
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 11_AUG_2026 | 1 | 65 | 68,432 | 0.91 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 09_AUG_2026 | 15 | 47 | 144,775 | 1.85 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 11_AUG_2026 | 12 | 130 | 230,673 | 2.30 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 11_AUG_2026 | 12 | 130 | 230,673 | 2.37 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 11_AUG_2026 | **113** | **2879** | **2,253,547** | **21.87 MB** |
+| **subtotal** | 11_AUG_2026 | **113** | **2879** | **2,253,547** | **21.94 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -37,6 +37,10 @@
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
+- 📝 Sirtuins tumor metabolism & therapeutics task output:
+    - [task_output_sirts_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirts_pleiotropic_roles_12_August_2026.md) [[task_output_sirts_pleiotropic_roles_12_August_2026|wiki]]
+        - Synthesis of the pleiotropic roles of SIRT1–SIRT7 in tumor cell metabolism (glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis), the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents (STAC activators, SIRT1/2 inhibitors, SIRT3/SIRT6 activators, NAD⁺ precursors NMN/NR, CD38 inhibition) with development stage and indications.
+        - 🀄️ (zh-TW): 綜述七種去乙醯酶（SIRT1–SIRT7）在腫瘤細胞代謝中的多效性角色（糖解/Warburg效應、麩醯胺酸代謝/TCA回補、ROS/氧化還原、脂質恆定）、各成員雙重且依情境而定的腫瘤抑制與致癌行為，以及現有去乙醯酶標靶治療藥物比較表（STAC激活劑、SIRT1/2抑制劑、SIRT3/SIRT6激活劑、NAD⁺前驅物NMN/NR、CD38抑制），並註明開發階段與適應症。
 - 📝 Sirtuins disease complications task output:
     - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
         - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
@@ -236,10 +240,11 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (68 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (69 total)</strong> — click to expand</summary>
 
+- [task_output_sirts_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirts_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirts_pleiotropic_roles_12_August_2026.md|wiki]] (12_AUG_2026 03:29 PM PDT)
+- [task_output_sirtuins_disease_complications_11_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md|wiki]] (11_AUG_2026 03:56 PM PDT)
 - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (11_AUG_2026 08:43 AM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md|wiki]] (11_AUG_2026 08:26 AM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [task_output_adrenochrome_sirtuins_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md) [[src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
