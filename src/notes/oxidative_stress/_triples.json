@@ -1,7 +1,7 @@
 [
   {
     "subject": "Free Radicals",
-    "predicate": "are derived from",
+    "predicate": "are_derived_from",
     "object": "Reactive Oxygen Species",
     "context": "Free radicals are reactive species bearing one or more unpaired electrons that are most often generated in biological systems as derivatives of oxygen (reactive oxygen species, ROS) or nitrogen (reactive nitrogen species, RNS). The unpaired electron makes them intrinsically unstable, driving them to abstract electrons from nearby molecules such as DNA, proteins, and lipids. This directionality, radicals attacking stable macromolecules, is the mechanistic basis of oxidative damage. A key caveat is that not all free radicals are harmful; at controlled low levels they serve as signaling intermediates, so the pathological state depends on concentration and antioxidant defense capacity.",
     "confidence": 0.95,
@@ -25,7 +25,7 @@
   },
   {
     "subject": "Free Radicals",
-    "predicate": "contribute to",
+    "predicate": "contribute_to",
     "object": "Atherosclerosis",
     "context": "Free radicals contribute to atherosclerosis by oxidizing low-density lipoprotein (LDL) within the arterial intima, an event widely considered rate-limiting for foam-cell formation and plaque initiation. Oxidized LDL is no longer recognized by the native LDL receptor but is avidly taken up by macrophage scavenger receptors such as CD36, driving foam-cell accumulation. The causal direction runs from radical-mediated oxidation to retention and innate immune recognition of LDL in the vessel wall. A caveat is that oxidation is one of several parallel mechanisms (e.g., endothelial dysfunction, inflammation) and that not all oxidized LDL is equally atherogenic.",
     "confidence": 0.95,
@@ -33,7 +33,7 @@
   },
   {
     "subject": "Free Radicals",
-    "predicate": "are neutralized by",
+    "predicate": "are_neutralized_by",
     "object": "Antioxidants",
     "context": "Free radicals are neutralized by antioxidants, which terminate radical chain reactions by donating an electron or hydrogen atom without becoming damaging radicals themselves. Chain-breaking antioxidants such as vitamin E and vitamin C intercept lipid peroxyl radicals and regenerate one another in the hydrophilic and lipophilic phases, respectively. The relationship is stoichiometric and bidirectional in the sense that antioxidants are consumed as they protect, requiring continuous resynthesis. A caveat is that antioxidant supplementation does not always recapitulate endogenous protection and can be ineffective or even adverse at high doses due to pro-oxidant or hormetic effects.",
     "confidence": 0.95,
@@ -41,7 +41,7 @@
   },
   {
     "subject": "Superoxide Radicals",
-    "predicate": "is a type of",
+    "predicate": "is_a_type_of",
     "object": "Reactive Oxygen Species",
     "context": "Superoxide radical (O2-*) is the prototypical reactive oxygen species, formed by the addition of a single electron to ground-state molecular oxygen. It is the primary, upstream ROS from which hydrogen peroxide and peroxynitrite are derived through dismutation and radical-radical reactions. Its directionality is as a precursor rather than a terminal effector, and it is relatively unreactive toward most biomolecules compared with downstream species. A caveat is that its major toxicity often arises indirectly through conversion to more reactive products (H2O2, hydroxyl radical, peroxynitrite) rather than from superoxide itself.",
     "confidence": 0.95,
@@ -49,7 +49,7 @@
   },
   {
     "subject": "Superoxide Radicals",
-    "predicate": "are produced by",
+    "predicate": "are_produced_by",
     "object": "Mitochondria",
     "context": "Superoxide radicals are produced by mitochondria as an inevitable byproduct of electron transport, chiefly at Complex I and Complex III where electrons leak onto molecular oxygen. Roughly 0.1 to 2 percent of consumed oxygen is estimated to form superoxide at these sites, making mitochondria the largest endogenous source of ROS. The directionality is from electron leakage to radical generation, which is then opposed by manganese superoxide dismutase in the matrix. A caveat is that mitochondrial superoxide is both a damaging agent and a tuned signal for mitohormesis and retrograde communication at low levels.",
     "confidence": 0.95,
@@ -57,7 +57,7 @@
   },
   {
     "subject": "Superoxide Radicals",
-    "predicate": "are produced by",
+    "predicate": "are_produced_by",
     "object": "NADPH Oxidase",
     "context": "Superoxide radicals are produced by NADPH oxidase (NOX) enzymes, which are dedicated ROS-generating enzymes that transfer electrons from cytosolic NADPH across the membrane to molecular oxygen. In phagocytes this serves host defense, whereas in non-phagocytic cells NOX isoforms generate superoxide for redox signaling, vascular tone regulation, and growth control. The causal direction is enzyme-catalyzed and inducible, distinguishing NOX from incidental mitochondrial leak. A caveat is that pathological NOX activation (e.g., by angiotensin II) sustains oxidative stress implicated in cardiovascular and metabolic disease.",
     "confidence": 0.95,
@@ -73,7 +73,7 @@
   },
   {
     "subject": "Superoxide Radicals",
-    "predicate": "react with",
+    "predicate": "react_with",
     "object": "Nitric Oxide",
     "context": "Superoxide radicals react with nitric oxide (NO) at a near diffusion-limited rate (k approximately 1.6 x 10^10 M-1 s-1) to form peroxynitrite, outcompeting superoxide dismutase for NO under many conditions. This radical-radical combination couples two signaling systems and converts a beneficial vasodilator into a potent oxidant and nitrating species. The relationship is non-enzymatic, and it both consumes NO and generates peroxynitrite. A caveat is that the outcome depends on local concentration and compartmentalization, with physiological NO signaling preserved when superoxide is low.",
     "confidence": 0.95,
@@ -97,7 +97,7 @@
   },
   {
     "subject": "Superoxide Radicals",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Cardiovascular Disease",
     "context": "Superoxide radicals contribute to cardiovascular disease when produced in the vascular wall by NOX enzymes, where they rapidly consume nitric oxide and thereby impair endothelium-dependent vasodilation. The resulting NO deficiency promotes vasoconstriction, platelet activation, and a pro-atherogenic endothelial phenotype. The causal direction runs from vascular superoxide to nitric-oxide depletion and dysfunction. A caveat is that not all vascular superoxide is pathological; transient bursts participate in normal signaling, and the disease state reflects chronic, unresolved production.",
     "confidence": 0.95,
@@ -105,7 +105,7 @@
   },
   {
     "subject": "Hydroxyl Radicals",
-    "predicate": "are the most reactive",
+    "predicate": "are_the_most_reactive",
     "object": "Reactive Oxygen Species",
     "context": "Hydroxyl radicals (OH*) are the most reactive and indiscriminately damaging members of the reactive oxygen species family, reacting at near diffusion-limited rates with almost every class of biomolecule. They are not stored or transported but arise locally and instantaneously from hydrogen peroxide via Fenton or Haber-Weiss chemistry in the presence of reduced transition metals. Their directionality is terminal and destructive; they cannot be enzymatically scavenged once formed because they react before diffusing. A caveat is that their extreme reactivity means damage is confined to the site of generation, implicating metal localization as the critical determinant of target selectivity.",
     "confidence": 0.95,
@@ -113,7 +113,7 @@
   },
   {
     "subject": "Hydroxyl Radicals",
-    "predicate": "are formed from",
+    "predicate": "are_formed_from",
     "object": "Hydrogen Peroxide",
     "context": "Hydroxyl radicals are formed from hydrogen peroxide through the Fenton reaction, in which Fe2+ (or Cu+) reduces H2O2 to OH* while being oxidized to Fe3+. This metal-dependent chemistry explains why intracellular free iron is tightly sequestered by ferritin and transferrin. The directionality is from a relatively stable oxidant to the most reactive radical. A caveat is that H2O2 is not intrinsically harmful in the absence of free redox-active metal, so iron availability gates hydroxyl-radical formation.",
     "confidence": 0.95,
@@ -153,7 +153,7 @@
   },
   {
     "subject": "Hydroxyl Radicals",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Neurodegenerative Diseases",
     "context": "Hydroxyl radicals contribute to neurodegenerative diseases because redox-active iron accumulates in vulnerable regions such as the substantia nigra, where Fenton chemistry generates hydroxyl radicals locally. This regional iron burden correlates with oxidative damage to dopaminergic neurons and alpha-synuclein nitration and aggregation. The directionality is metal-catalyzed radical formation driving neuronal injury. A caveat is that oxidative damage is one component of a multifactorial degenerative process and may be downstream of protein misfolding and mitochondrial failure rather than solely initiating them.",
     "confidence": 0.95,
@@ -161,7 +161,7 @@
   },
   {
     "subject": "Singlet Oxygen",
-    "predicate": "is a type of",
+    "predicate": "is_a_type_of",
     "object": "Reactive Oxygen Species",
     "context": "Singlet oxygen (1O2) is an electronically excited, non-radical state of molecular oxygen generated by photosensitization or during leukocyte killing. Although not a free radical, it is classified among reactive oxygen species because of its high energy and reactivity toward unsaturated lipids and nucleobases. The directionality is from energy absorption to direct oxidation without chain initiation. A caveat is that singlet oxygen is quenched very efficiently by carotenoids and alpha-tocopherol, so its range is extremely short.",
     "confidence": 0.95,
@@ -209,7 +209,7 @@
   },
   {
     "subject": "Catalase",
-    "predicate": "protects against",
+    "predicate": "protects_against",
     "object": "Oxidative Stress",
     "context": "Catalase protects against oxidative stress by eliminating hydrogen peroxide before it can be converted by transition metals into the damaging hydroxyl radical. Its peroxisomal localization places it near H2O2-generating oxidases, intercepting peroxide at source. The directionality is preventive detoxification upstream of Fenton chemistry. A caveat is that catalase alone cannot handle the full cellular H2O2 burden, so its protective role is shared with glutathione peroxidase and peroxiredoxins. Because it requires no cofactors and works at very high catalytic rates, catalase is especially effective at clearing the large peroxide bursts produced during infection and ischemia-reperfusion.",
     "confidence": 0.95,
@@ -217,7 +217,7 @@
   },
   {
     "subject": "Catalase",
-    "predicate": "is localized in",
+    "predicate": "is_localized_in",
     "object": "Peroxisomes",
     "context": "Catalase is localized predominantly in peroxisomes, organelles that host numerous H2O2-generating oxidases involved in lipid beta-oxidation and purine catabolism. Concentrating catalase here minimizes leakage of peroxide into the cytosol and nucleus. The directionality reflects compartmentalization of both source and sink of H2O2. A caveat is that a minority of catalase activity also exists in cytosol and mitochondria in some tissues, providing additional but lesser protection. This compartmentalization is functionally important: peroxisomal beta-oxidation of very-long-chain fatty acids generates substantial H2O2, and catalase prevents that peroxide from spilling into the cytosol.",
     "confidence": 0.95,
@@ -233,7 +233,7 @@
   },
   {
     "subject": "Catalase downregulation",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Cancer",
     "context": "Catalase downregulation contributes to cancer because reduced H2O2 clearance permits sustained oxidative stress that can drive DNA damage, genomic instability, and altered redox signaling favoring proliferation. Catalase is frequently downregulated in breast, prostate, and hepatocellular carcinomas relative to normal tissue. The directionality is loss-of-defense promoting tumorigenic oxidative damage. A caveat is that many tumors also exploit moderate ROS for survival signaling, so catalase levels represent a context-dependent balance rather than a simple tumor suppressor.",
     "confidence": 0.95,
@@ -265,7 +265,7 @@
   },
   {
     "subject": "Glutathione",
-    "predicate": "is a cofactor for",
+    "predicate": "is_a_cofactor_for",
     "object": "Glutathione Peroxidase",
     "context": "Glutathione is the reducing cofactor for glutathione peroxidase, being oxidized from GSH to GSSG during the catalytic reduction of hydrogen peroxide and lipid hydroperoxides. Maintenance of a high GSH/GSSG ratio is therefore critical for sustained peroxidase activity and overall redox buffering. The directionality is cofactor consumption driving the antioxidant cycle. A caveat is that glutathione also serves many other roles (conjugation, thiol buffering, immune function), so its depletion has effects beyond peroxidase support.",
     "confidence": 0.95,
@@ -273,7 +273,7 @@
   },
   {
     "subject": "Glutathione Peroxidase",
-    "predicate": "is complementary to",
+    "predicate": "is_complementary_to",
     "object": "Catalase",
     "context": "Glutathione peroxidase is complementary to catalase because the two enzymes remove hydrogen peroxide with different kinetic profiles: GPx has higher affinity (Km approximately 1 to 10 uM) suited to low physiological H2O2, whereas catalase has a higher Vmax suited to burst conditions. Together they cover the dynamic range of intracellular peroxide concentrations. The directionality is cooperative detoxification rather than redundancy alone. A caveat is that peroxiredoxins now appear to handle much of the low-level H2O2 signaling pool, with GPx and catalase managing bulk removal.",
     "confidence": 0.95,
@@ -281,7 +281,7 @@
   },
   {
     "subject": "GPx4",
-    "predicate": "protects against",
+    "predicate": "protects_against",
     "object": "Ferroptosis",
     "context": "GPx4 protects against ferroptosis as the master negative regulator of this iron-dependent, lipid-peroxidation-driven cell death. By reducing phospholipid hydroperoxides in membranes using GSH, GPx4 prevents the lethal accumulation of oxidized phosphatidylethanolamines. The directionality is enzymatic reduction preventing membrane collapse. A caveat is that GPx4 activity is exquisitely GSH-dependent, so anything depleting GSH (e.g., system xc- inhibition by erastin) triggers ferroptosis even with GPx4 present.",
     "confidence": 0.95,
@@ -297,7 +297,7 @@
   },
   {
     "subject": "Lipid Peroxidation",
-    "predicate": "is initiated by",
+    "predicate": "is_initiated_by",
     "object": "Hydroxyl Radicals",
     "context": "Lipid peroxidation is initiated by hydroxyl radicals that abstract a hydrogen atom from bis-allylic methylene groups of polyunsaturated fatty acids, creating a carbon-centered lipid radical. This radical rapidly adds oxygen to form a lipid peroxyl radical that propagates the chain by attacking neighboring lipids. The directionality is radical to lipid, seeding autocatalytic membrane damage. A caveat is that other initiators (singlet oxygen, peroxynitrite, lipoxygenases) can also start peroxidation, so hydroxyl radicals are sufficient but not unique.",
     "confidence": 0.95,
@@ -329,7 +329,7 @@
   },
   {
     "subject": "Lipid Peroxidation",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Atherosclerosis",
     "context": "Lipid peroxidation contributes to atherosclerosis because oxidative modification of LDL, driven by lipid peroxidation products, is an initiating event in foam-cell formation and plaque development. Oxidized LDL is taken up by scavenger receptors on macrophages, accelerating lesion growth. The directionality runs from membrane or lipoprotein oxidation to innate immune retention in the artery wall. A caveat is that lipid peroxidation is one of several LDL-modifying pathways (e.g., enzymatic, glycation) relevant to atherogenesis.",
     "confidence": 0.95,
@@ -337,7 +337,7 @@
   },
   {
     "subject": "Lipid Peroxidation",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Ferroptosis",
     "context": "Lipid peroxidation contributes to ferroptosis because iron-dependent accumulation of phospholipid hydroperoxides in the membrane is the executioner of this non-apoptotic cell death. When GPx4 is overwhelmed or inactivated, peroxidation proceeds unchecked and membranes lose integrity. The directionality is peroxidation to lethal membrane failure. A caveat is that ferroptosis also requires available polyunsaturated phospholipids and labile iron, so peroxidation alone is necessary but not sufficient.",
     "confidence": 0.95,
@@ -345,7 +345,7 @@
   },
   {
     "subject": "Malondialdehyde",
-    "predicate": "is a biomarker for",
+    "predicate": "is_a_biomarker_for",
     "object": "Lipid Peroxidation",
     "context": "Malondialdehyde is a biomarker for lipid peroxidation, widely measured in plasma, urine, and tissue as a marker of chronic oxidative stress. Its levels reflect the integrated burden of polyunsaturated fatty-acid peroxidation across membranes and lipoproteins. The directionality is damage to measurable product. A caveat is that MDA is also influenced by diet and exogenous sources, and assay specificity (e.g., TBARS) can be confounded by other carbonyls. MDA levels in plasma and tissue rise steeply when antioxidant defenses are overwhelmed, making it a convenient correlate of ongoing membrane oxidation.",
     "confidence": 0.95,
@@ -353,7 +353,7 @@
   },
   {
     "subject": "Malondialdehyde",
-    "predicate": "forms adducts with",
+    "predicate": "forms_adducts_with",
     "object": "DNA Damage",
     "context": "Malondialdehyde forms adducts with DNA, most notably the M1dG lesion with deoxyguanosine, which mispairs with adenine during replication and induces G to T transversions. Such mutations in oncogenes or tumor suppressors can promote carcinogenesis. The directionality is lipid-peroxidation product to genotoxic lesion. A caveat is that M1dG is only one of several DNA adducts from lipid peroxidation, and repair pathways partially mitigate its mutagenic potential. Beyond M1dG, MDA also generates cross-links between DNA and proteins, expanding the spectrum of genotoxic damage it can inflict.",
     "confidence": 0.95,
@@ -369,7 +369,7 @@
   },
   {
     "subject": "Malondialdehyde",
-    "predicate": "is associated with",
+    "predicate": "is_associated_with",
     "object": "Cardiovascular Disease",
     "context": "Elevated MDA is associated with cardiovascular disease, being increased in plasma and within atherosclerotic plaque tissue relative to healthy vessels. It reflects oxidant stress in the vessel wall that promotes LDL oxidation and endothelial dysfunction. The directionality is oxidative burden to biomarker elevation. A caveat is that association does not prove causality, and MDA can be a consequence as well as a contributor to vascular pathology. The elevations are seen before clinical events in some cohorts, supporting MDA as a prognostic rather than merely descriptive biomarker.",
     "confidence": 0.95,
@@ -377,7 +377,7 @@
   },
   {
     "subject": "Malondialdehyde",
-    "predicate": "is associated with",
+    "predicate": "is_associated_with",
     "object": "Diabetes Mellitus",
     "context": "Elevated MDA is associated with diabetes mellitus, where plasma and erythrocyte MDA rise and correlate with HbA1c and glycemic burden. Hyperglycemia drives mitochondrial superoxide and advanced glycation that amplify lipid peroxidation. The directionality is metabolic dysfunction to oxidative marker. A caveat is that MDA elevation is a downstream indicator and improves with glycemic control rather than being a primary diabetic lesion. Oxidative stress from hyperglycemia, mitochondrial leak, and advanced glycation all feed MDA production, linking glycemic burden to systemic lipid oxidation.",
     "confidence": 0.95,
@@ -385,7 +385,7 @@
   },
   {
     "subject": "Malondialdehyde",
-    "predicate": "is associated with",
+    "predicate": "is_associated_with",
     "object": "Neurodegeneration",
     "context": "Elevated MDA is associated with neurodegeneration, with higher levels reported in CSF and brain tissue in Alzheimer's and Parkinson's disease. It marks membrane damage in neurons already stressed by protein misfolding and mitochondrial failure. The directionality is neuronal oxidant stress to biomarker. A caveat is that MDA elevation may be secondary to neurodegeneration, and its usefulness as an early diagnostic marker remains limited. MDA adducts on neuronal proteins may also impair function directly, beyond serving as a passive marker of lipid oxidation.",
     "confidence": 0.95,
@@ -393,7 +393,7 @@
   },
   {
     "subject": "8-oxo-2'-deoxyguanosine",
-    "predicate": "is a biomarker for",
+    "predicate": "is_a_biomarker_for",
     "object": "Oxidative Stress",
     "context": "8-oxo-2'-deoxyguanosine is a biomarker for oxidative stress, representing the major product of DNA oxidation and one of the most widely used indicators of oxidative DNA damage in urine and tissue. Its steady-state level integrates the rate of formation by ROS and the efficiency of repair and sanitization. The directionality is DNA oxidation to measurable lesion. A caveat is that sample handling and artifactual oxidation during extraction can inflate measurements, requiring careful standardized assays.",
     "confidence": 0.95,
@@ -401,7 +401,7 @@
   },
   {
     "subject": "8-oxo-2'-deoxyguanosine",
-    "predicate": "is formed by",
+    "predicate": "is_formed_by",
     "object": "Hydroxyl Radicals",
     "context": "8-oxo-2'-deoxyguanosine is formed by hydroxyl radicals that attack the C8 position of guanine in DNA, producing the oxidized base lesion directly at the nucleoside. This is the canonical and most abundant oxidative DNA modification. The directionality is radical to base oxidation. A caveat is that other oxidants (singlet oxygen, peroxynitrite, photoexcitation) also generate 8-oxodG, so its presence is not specific to hydroxyl radicals alone. The lesion is mutagenic because it mispairs with adenine, and its abundance in tissue is used as a sensitive index of oxidative DNA insult.",
     "confidence": 0.95,
@@ -433,7 +433,7 @@
   },
   {
     "subject": "Elevated 8-oxodG",
-    "predicate": "is associated with",
+    "predicate": "is_associated_with",
     "object": "Cancer",
     "context": "Elevated 8-oxodG is associated with cancer, being increased in lung, breast, bladder, and colorectal cancers where it marks heightened oxidative DNA damage and genomic instability. Persistent oxidative lesions increase mutation burden that can drive oncogenesis. The directionality is oxidative damage to cancer risk or marker. A caveat is that elevated 8-oxodG may be a consequence of the tumor's metabolic and inflammatory state as much as a cause. Urinary and tissue 8-oxodG are frequently elevated in cancer patients and have been proposed as markers of exposure and disease burden.",
     "confidence": 0.95,
@@ -473,7 +473,7 @@
   },
   {
     "subject": "NADPH Oxidase",
-    "predicate": "is activated by",
+    "predicate": "is_activated_by",
     "object": "Angiotensin II",
     "context": "NADPH oxidase is activated by angiotensin II via the AT1 receptor, which triggers assembly of NOX isoforms (especially NOX1) in vascular smooth muscle and endothelial cells. This couples the renin-angiotensin system to vascular oxidative stress and hypertension. The directionality is hormone to enzyme activation. A caveat is that AT1 signaling also activates other ROS sources and inflammatory pathways, so NOX is a major but not sole mediator of angiotensin-II effects. Angiotensin-II-driven NOX activation is a well-established mechanism in hypertension, contributing to vascular remodeling and target-organ damage.",
     "confidence": 0.95,
@@ -481,7 +481,7 @@
   },
   {
     "subject": "NOX2",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Ischemia-reperfusion Injury",
     "context": "NOX2 contributes to ischemia-reperfusion injury because neutrophils and resident cells generate a burst of NOX2-derived superoxide upon reperfusion when oxygen returns to ischemic tissue. This burst, together with mitochondrial ROS, oxidizes lipids, proteins, and DNA and recruits inflammation. The directionality is reperfusion to NOX2 activation to tissue damage. A caveat is that NOX2 is one of several ROS sources in reperfusion, and ischemia itself also primes the injury. NOX2 inhibition or genetic knockout reduces infarct size in experimental models, confirming its causal role in reperfusion injury.",
     "confidence": 0.95,
@@ -489,7 +489,7 @@
   },
   {
     "subject": "NOX2",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Neurodegeneration",
     "context": "NOX2 contributes to neurodegeneration through its activation in microglia, where sustained superoxide production drives chronic neuroinflammation and neuronal injury. Microglial ROS amplify cytokine release and exacerbate protein-misfolding pathologies. The directionality is glial oxidase activation to neuronal damage. A caveat is that microglial ROS also serves host defense, and the pathological transition depends on failed resolution of inflammation. Inhibition of microglial NOX2 attenuates dopaminergic neuron loss in Parkinson's disease models, highlighting a druggable pathway.",
     "confidence": 0.95,
@@ -497,7 +497,7 @@
   },
   {
     "subject": "Peroxynitrite",
-    "predicate": "is formed by",
+    "predicate": "is_formed_by",
     "object": "Superoxide Radicals",
     "context": "Peroxynitrite is formed by superoxide radicals through their near-instantaneous reaction with nitric oxide, yielding the potent oxidant and nitrating species ONOO-. This couples two radical species into one hybrid effector. The directionality is radical-radical combination. A caveat is that the reaction competes with SOD for superoxide, so the relative activities of NOX, NOS, and SOD determine peroxynitrite yield. The reaction effectively couples two signaling systems, converting a protective vasodilator into a cytotoxic oxidant, and its rate constant (about 10^10 M-1 s-1) is diffusion-limited, so peroxynitrite forms whenever the two radicals meet.",
     "confidence": 0.95,
@@ -505,7 +505,7 @@
   },
   {
     "subject": "Peroxynitrite",
-    "predicate": "is formed by",
+    "predicate": "is_formed_by",
     "object": "Nitric Oxide",
     "context": "Peroxynitrite is formed by nitric oxide reacting with superoxide at a rate (k approximately 1.6 x 10^10 M-1 s-1) that often outcompetes superoxide dismutase, making NO availability a key determinant of peroxynitrite formation. This places iNOS induction as a major driver of peroxynitrite in inflammation. The directionality is NO to hybrid oxidant. A caveat is that peroxynitrite formation requires co-localized NO and superoxide, so spatial compartmentalization strongly modulates its production. This coupling means that inflammatory conditions that simultaneously induce iNOS and NOX drive high peroxynitrite flux and subsequent tissue nitration.",
     "confidence": 0.95,
@@ -537,7 +537,7 @@
   },
   {
     "subject": "3-Nitrotyrosine",
-    "predicate": "is a biomarker for",
+    "predicate": "is_a_biomarker_for",
     "object": "Nitrative Stress",
     "context": "3-nitrotyrosine is a biomarker for nitrative stress, reflecting peroxynitrite- or myeloperoxidase-mediated nitration of protein tyrosines. It is elevated across many inflammatory and neurodegenerative conditions. The directionality is nitrative insult to stable protein modification. A caveat is that 3-nitrotyrosine can arise from multiple nitrating pathways and can be repaired or degraded, so it indicates historical rather than instantaneous nitrative load. Quantification in plasma, CSF, and tissue by mass spectrometry or immunoassay has made 3-NT a standard endpoint in redox biomarker studies.",
     "confidence": 0.95,
@@ -561,7 +561,7 @@
   },
   {
     "subject": "Reactive Nitrogen Species",
-    "predicate": "are derived from",
+    "predicate": "are_derived_from",
     "object": "Nitric Oxide",
     "context": "Reactive nitrogen species are derived from nitric oxide, which combines with superoxide or other radicals to yield peroxynitrite, nitrogen dioxide, and related species. Thus NO is the nitrogenous precursor of the broader RNS family. The directionality is NO to RNS expansion. A caveat is that RNS also include species from myeloperoxidase and other enzymatic pathways, so RNS origin is not exclusively nitric-oxide-derived. Because NO is itself a free radical with signaling functions, RNS can be viewed as both downstream products and, under excess, pathological mediators of nitrative stress.",
     "confidence": 0.95,
@@ -585,7 +585,7 @@
   },
   {
     "subject": "Reactive Nitrogen Species",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Cardiovascular Disease",
     "context": "Reactive nitrogen species contribute to cardiovascular disease when eNOS becomes uncoupled or iNOS is induced, converting NO physiology into peroxynitrite-mediated nitrative and oxidative injury. This promotes endothelial dysfunction, LDL modification, and plaque instability. The directionality is RNS to vascular damage. A caveat is that basal NO from eNOS is protective, so the disease association depends on the shift from coupled to uncoupled or inducible sources. This shift is now recognized as a unifying mechanism linking classic risk factors such as hyperglycemia, hyperlipidemia, and smoking to vascular oxidant injury.",
     "confidence": 0.95,
@@ -593,7 +593,7 @@
   },
   {
     "subject": "Reactive Nitrogen Species",
-    "predicate": "contributes to",
+    "predicate": "contributes_to",
     "object": "Diabetes Mellitus",
     "context": "Reactive nitrogen species contribute to diabetes mellitus because iNOS and NOX2 are upregulated in pancreatic islets, where peroxynitrite directly damages insulin-producing beta-cells. Nitrative stress thus links inflammation to beta-cell failure. The directionality is RNS to beta-cell injury. A caveat is that beta-cell loss in diabetes is multifactorial (autoimmunity, endoplasmic-reticulum stress, lipotoxicity), with RNS as one accelerating factor. Islet beta-cells are especially vulnerable because of low antioxidant capacity, so RNS-driven damage tips them toward dysfunction and apoptosis.",
     "confidence": 0.95,
@@ -641,7 +641,7 @@
   },
   {
     "subject": "Coenzyme Q10",
-    "predicate": "transfers electrons between",
+    "predicate": "transfers_electrons_between",
     "object": "Mitochondria",
     "context": "Coenzyme Q10 transfers electrons between mitochondrial Complex I (or II) and Complex III as a mobile lipophilic carrier in the inner membrane, shuttling single electrons and buffering the pool. In its reduced form (ubiquinol) it also acts as an antioxidant. The directionality is electron transport coupled to redox buffering. A caveat is that CoQ10's electron-transfer role is distinct from its antioxidant role, and statin-mediated depletion can affect both. CoQ10 is synthesized endogenously via the mevalonate pathway and is also a potent lipophilic antioxidant in both its ubiquinol and ubiquinone forms.",
     "confidence": 0.95,
@@ -649,7 +649,7 @@
   },
   {
     "subject": "Coenzyme Q10",
-    "predicate": "protects against",
+    "predicate": "protects_against",
     "object": "Lipid Peroxidation",
     "context": "Coenzyme Q10 protects against lipid peroxidation because ubiquinol reduces lipid peroxyl radicals in the bilayer, terminating chain reactions similarly to vitamin E. Its high concentration in membranes makes it a front-line chain breaker. The directionality is reduced CoQ10 to peroxyl radical termination. A caveat is that ubiquinol is rapidly consumed and must be regenerated enzymatically, so its protective capacity depends on the redox state of the CoQ pool. CoQ10 levels decline with age and in some pathologies, and supplementation is often used to restore membrane redox protection.",
     "confidence": 0.95,
@@ -665,7 +665,7 @@
   },
   {
     "subject": "Statins",
-    "predicate": "reduce synthesis of",
+    "predicate": "reduce_synthesis_of",
     "object": "Coenzyme Q10",
     "context": "Statins reduce synthesis of Coenzyme Q10 because they inhibit HMG-CoA reductase, the upstream enzyme shared by the mevalonate pathway that produces both cholesterol and the isoprenoid side chain of CoQ10. This can lower tissue CoQ10 levels, particularly with high-dose or lipophilic statins. The directionality is enzyme inhibition to CoQ10 depletion. A caveat is that the clinical significance of statin-associated CoQ10 reduction is debated, with most patients not developing myopathy attributable to it.",
     "confidence": 0.95,
@@ -681,7 +681,7 @@
   },
   {
     "subject": "Endothelial Dysfunction",
-    "predicate": "is caused by",
+    "predicate": "is_caused_by",
     "object": "eNOS",
     "context": "Endothelial dysfunction is caused by eNOS uncoupling, wherein insufficient tetrahydrobiopterin (BH4) or L-arginine leads eNOS to produce superoxide instead of NO, lowering bioavailable NO. This shifts the enzyme from vasoprotection to oxidative injury. The directionality is cofactor loss to dysfunction. A caveat is that endothelial dysfunction has many other drivers (shear stress, inflammation, hyperglycemia), so uncoupling is a major but not solitary mechanism. BH4 oxidation by peroxynitrite is a major driver of uncoupling, establishing a feed-forward loop in which early NO loss begets further superoxide generation.",
     "confidence": 0.95,
@@ -793,7 +793,7 @@
   },
   {
     "subject": "Nitrative Stress",
-    "predicate": "is caused by",
+    "predicate": "is_caused_by",
     "object": "Reactive Nitrogen Species",
     "context": "Nitrative stress is caused by reactive nitrogen species when RNS production exceeds the capacity of detoxifying and repair systems to neutralize them. The condition reflects an imbalance between nitrating oxidants and endogenous defenses. The directionality is RNS excess to nitrative damage. A caveat is that transient, localized RNS signaling is physiological, so pathology depends on chronic overload or miscompartmentalization. The transition from beneficial to pathological RNS activity hinges on concentration, duration, and the tissue's antioxidant and repair capacity.",
     "confidence": 0.95,
@@ -801,7 +801,7 @@
   },
   {
     "subject": "Peroxynitrite",
-    "predicate": "is the key mediator of",
+    "predicate": "is_the_key_mediator_of",
     "object": "Nitrative Stress",
     "context": "Peroxynitrite is the key mediator of nitrative stress, formed at diffusion-limited rates from the reaction of nitric oxide with superoxide and responsible for the majority of tyrosine nitration observed in disease. Its centrality distinguishes it from other, less abundant RNS. The directionality is hybrid oxidant to the dominant nitrative lesion. A caveat is that other oxidants (e.g., myeloperoxidase-derived) also contribute to nitration, so peroxynitrite is the major but not sole mediator. Its role is supported by the colocalization of nitrotyrosine with peroxynitrite-generating cells in inflamed and degenerating tissues.",
     "confidence": 0.95,
@@ -809,7 +809,7 @@
   },
   {
     "subject": "3-Nitrotyrosine",
-    "predicate": "is the most characteristic modification of",
+    "predicate": "is_the_most_characteristic_modification_of",
     "object": "Nitrative Stress",
     "context": "3-nitrotyrosine is the most characteristic modification of nitrative stress, elevated in over fifty human pathologies as a stable footprint of protein tyrosine nitration. Its presence is used experimentally to infer peroxynitrite or related RNS activity. The directionality is nitrative insult to stable adduct. A caveat is that 3-nitrotyrosine can be generated by multiple nitrating pathways and can be repaired or turned over, so it marks historical rather than acute stress. Detection in exhaled breath condensate and urine is increasingly used to monitor nitrative burden non-invasively in lung and systemic disease.",
     "confidence": 0.95,
@@ -849,7 +849,7 @@
   },
   {
     "subject": "Mitochondrial Complex I",
-    "predicate": "is reduced in",
+    "predicate": "is_reduced_in",
     "object": "Parkinson's Disease",
     "context": "Mitochondrial Complex I activity is reduced (about 30 to 40 percent) in the substantia nigra of Parkinson's disease patients, contributing to electron leak and superoxide generation. This localized respiratory defect is among the earliest bioenergetic abnormalities described in PD. The directionality is enzyme deficiency to increased mitochondrial ROS. A caveat is that Complex I inhibition can be both a cause and a consequence of oxidative damage, and not all PD cases show the same magnitude of defect.",
     "confidence": 0.95,
@@ -873,7 +873,7 @@
   },
   {
     "subject": "Hydrogen Peroxide",
-    "predicate": "acts as",
+    "predicate": "acts_as",
     "object": "Signaling Molecules",
     "context": "Hydrogen peroxide acts as a signaling molecule, functioning as a second messenger in insulin signaling, growth-factor pathways, and immune responses. Its relatively long half-life and membrane permeability allow it to diffuse and oxidize specific targets reversibly. The directionality is H2O2 from enzyme or leak to signal propagation. A caveat is that the same molecule is toxic at higher concentrations, so concentration and compartmentalization determine whether H2O2 signals or damages. Reversible oxidation of target cysteines, such as those in PTP1B and PTEN, allows H2O2 to propagate kinase-dependent responses.",
     "confidence": 0.95,
@@ -889,7 +889,7 @@
   },
   {
     "subject": "Protein Tyrosine Phosphatases",
-    "predicate": "are inactivated by",
+    "predicate": "are_inactivated_by",
     "object": "Hydrogen Peroxide",
     "context": "Protein tyrosine phosphatases are inactivated by hydrogen peroxide because their catalytic cysteines (e.g., PTP1B Cys-215) are oxidized to sulfenic acid, blocking substrate dephosphorylation. This shifts the phosphorylation balance toward active kinase signaling, notably in insulin and growth-factor pathways. The directionality is H2O2 to reversible PTP inhibition to enhanced phosphorylation. A caveat is that sustained oxidation can progress to irreversible inactivation and that some phosphatases are less redox-sensitive, adding specificity.",
     "confidence": 0.95,
@@ -905,7 +905,7 @@
   },
   {
     "subject": "PTEN",
-    "predicate": "is oxidized by",
+    "predicate": "is_oxidized_by",
     "object": "Hydrogen Peroxide",
     "context": "PTEN is oxidized by hydrogen peroxide at Cys-124, which inactivates this lipid phosphatase and thereby sustains Akt activation and survival signaling. This exemplifies redox tuning of a major tumor-suppressor node. The directionality is H2O2 to PTEN oxidation to Akt hyperactivation. A caveat is that PTEN oxidation is often reversible, and chronic oxidation or additional modifications could instead promote instability, so context matters. This redox switch is exploited by growth-factor signaling, where transient H2O2 bursts transiently relieve the PTEN-mediated brake on PI3K/Akt.",
     "confidence": 0.95,
@@ -977,7 +977,7 @@
   },
   {
     "subject": "ABCA1",
-    "predicate": "is regulated by",
+    "predicate": "is_regulated_by",
     "object": "LXRα",
     "context": "ABCA1 is regulated by LXRalpha, as the nuclear receptor directly drives ABCA1 transcription in response to oxysterol ligands, coordinating cholesterol efflux. This places ABCA1 downstream of LXR-controlled reverse-cholesterol-transport programs. The directionality is LXRalpha activation to ABCA1 expression. A caveat is that PPARgamma and other transcription factors also regulate ABCA1, so LXRalpha is a major but not exclusive controller. This LXR-ABCA1 axis is also redox-responsive, since oxidative modifications of LDL generate LXR ligands that upregulate the transporter as a protective response.",
     "confidence": 0.95,
@@ -1025,7 +1025,7 @@
   },
   {
     "subject": "Flavonoids",
-    "predicate": "can act as",
+    "predicate": "can_act_as",
     "object": "Pro-oxidants",
     "context": "Flavonoids can act as pro-oxidants at high concentrations because, in the presence of transition metals, they undergo autoxidation that generates semiquinone radicals and subsequently superoxide and H2O2. This biphasic behavior underlies their hormetic profile. The directionality is high-dose flavonoid to radical generation. A caveat is that pro-oxidant effects are favored by metal abundance and high dose, whereas low doses are generally antioxidant. This pro-oxidant behavior is implicated in their anticancer effects, where selective ROS generation can drive apoptosis in malignant cells.",
     "confidence": 0.95,
@@ -1033,7 +1033,7 @@
   },
   {
     "subject": "Genistein",
-    "predicate": "is a type of",
+    "predicate": "is_a_type_of",
     "object": "Flavonoids",
     "context": "Genistein is a type of flavonoids, specifically an isoflavone found abundantly in soy, and it shares the redox and signaling properties of the broader flavonoid class. Its structure includes a phenolic A ring that confers antioxidant activity. The directionality is subclass membership within the flavonoid family. A caveat is that genistein also has estrogen-receptor modulatory activity distinct from its antioxidant effects. Genistein's antioxidant actions are complemented by estrogen-receptor signaling, tyrosine-kinase inhibition, and effects on eNOS and NOX, making it a multitarget isoflavone.",
     "confidence": 0.95,
@@ -1065,7 +1065,7 @@
   },
   {
     "subject": "Hypochlorous Acid",
-    "predicate": "is generated by",
+    "predicate": "is_generated_by",
     "object": "Myeloperoxidase",
     "context": "Hypochlorous acid is generated by myeloperoxidase, which uses H2O2 and chloride to produce HOCl in activated neutrophils and monocytes. This reaction concentrates a potent oxidant at infection and inflammatory sites. The directionality is MPO catalysis to HOCl formation. A caveat is that MPO can also use bromide and other halides, so related hypohalous acids are produced alongside HOCl. Because HOCl is produced only in proximity to MPO, the appearance of its chlorinated products such as 3-chlorotyrosine is a highly specific footprint of MPO activity in vivo.",
     "confidence": 0.95,
@@ -1073,7 +1073,7 @@
   },
   {
     "subject": "Hypochlorous Acid",
-    "predicate": "is the primary microbicidal oxidant of",
+    "predicate": "is_the_primary_microbicidal_oxidant_of",
     "object": "Innate Immune System",
     "context": "Hypochlorous acid is the primary microbicidal oxidant of the innate immune system, killing pathogens through widespread oxidation of thiols, amines, and proteins in microbes. Its potency makes it central to neutrophil host defense. The directionality is HOCl to microbial killing. A caveat is that HOCl is non-selective and, when extrapolated beyond the phagolysosome, damages host tissues and proteins, contributing to inflammatory injury. Defects in MPO impair HOCl production and, although compensated in most patients, illustrate the enzyme's central role in oxidant-mediated killing.",
     "confidence": 0.95,
@@ -1105,7 +1105,7 @@
   },
   {
     "subject": "L-arginine",
-    "predicate": "is a precursor for",
+    "predicate": "is_a_precursor_for",
     "object": "Nitric Oxide",
     "context": "L-arginine is a precursor for nitric oxide, as the guanidino nitrogen of arginine is converted to NO and L-citrulline by nitric oxide synthase. This makes arginine availability a determinant of NO production. The directionality is substrate to product in NOS catalysis. A caveat is that arginine availability rarely limits basal eNOS because intracellular arginine is usually sufficient, though competition with arginase can matter. The arginine paradox, in which supplemental arginine raises NO despite saturating intracellular concentrations, points to compartmentalized arginine pools and competition with arginase.",
     "confidence": 0.95,
@@ -1113,7 +1113,7 @@
   },
   {
     "subject": "L-arginine",
-    "predicate": "is converted by",
+    "predicate": "is_converted_by",
     "object": "Nitric Oxide Synthase",
     "context": "L-arginine is converted by nitric oxide synthase in a two-step monooxygenase reaction requiring NADPH, FAD, FMN, tetrahydrobiopterin, and heme. The enzyme first forms N-hydroxyarginine and then releases NO and citrulline. The directionality is enzyme-catalyzed oxidation of arginine to NO. A caveat is that uncoupled NOS, lacking BH4 or arginine, diverts the reaction to superoxide instead of NO. When BH4 or L-arginine is limiting, NOS becomes uncoupled and produces superoxide instead of NO, so substrate availability also shapes the enzyme's redox output.",
     "confidence": 0.95,
@@ -1121,7 +1121,7 @@
   },
   {
     "subject": "Arginase",
-    "predicate": "competes with NOS for",
+    "predicate": "competes_with_nos_for",
     "object": "L-arginine",
     "context": "Arginase competes with NOS for L-arginine, hydrolyzing arginine to ornithine and urea and thereby lowering substrate available for NO synthesis. In vascular and immune contexts this shifts the arginine pool away from NO toward polyamine and proline synthesis. The directionality is metabolic competition to reduced NO. A caveat is that arginase and NOS also compete for the same intracellular compartment, so local colocalization strongly influences the outcome. Arginase is induced by inflammatory cytokines and oxidants, so vascular arginase upregulation is a recognized mechanism of endothelial dysfunction.",
     "confidence": 0.95,
@@ -1129,7 +1129,7 @@
   },
   {
     "subject": "L-arginine:ADMA ratio",
-    "predicate": "is a biomarker of",
+    "predicate": "is_a_biomarker_of",
     "object": "Cardiovascular Risk",
     "context": "The L-arginine to ADMA ratio is a biomarker of cardiovascular risk because it reflects the balance between NOS substrate and the endogenous inhibitor ADMA. A low ratio predicts impaired NO bioavailability and endothelial dysfunction. The directionality is substrate-inhibitor balance to vascular risk. A caveat is that the ratio is one of several endothelial markers and is influenced by renal function and inflammation, which regulate ADMA clearance. The ratio has been proposed as a clinically accessible biomarker for monitoring NO-related vascular health in at-risk populations.",
     "confidence": 0.95,
@@ -1145,7 +1145,7 @@
   },
   {
     "subject": "eNOS",
-    "predicate": "produces NO for",
+    "predicate": "produces_no_for",
     "object": "Vasodilation",
     "context": "eNOS produces NO for vasodilation, platelet inhibition, and maintenance of the vascular barrier, making it the principal source of basal endothelium-derived relaxing factor. Its activity is shear-stress regulated and couples blood flow to vessel relaxation. The directionality is endothelial NO to vascular homeostasis. A caveat is that eNOS also promotes angiogenesis and, when uncoupled, becomes a ROS source, so its role is context-dependent. Impairment of eNOS-NO signaling, whether by substrate deficiency, BH4 loss, or NO scavenging by superoxide, underlies most forms of endothelial dysfunction.",
     "confidence": 0.95,
@@ -1153,7 +1153,7 @@
   },
   {
     "subject": "iNOS",
-    "predicate": "produces high-output NO for",
+    "predicate": "produces_high_output_no_for",
     "object": "Innate Immune Defense",
     "context": "iNOS produces high-output NO for innate immune defense, generating micromolar NO in activated macrophages and other innate cells to kill intracellular pathogens. This sustained output is transcriptionally induced by cytokines and microbial products. The directionality is immune activation to bactericidal NO burst. A caveat is that the same high NO combines with superoxide to form peroxynitrite, causing collateral nitrative tissue damage. Because its expression is transcriptionally controlled, iNOS is absent from resting cells but appears within hours of cytokine or pathogen exposure.",
     "confidence": 0.95,
@@ -1193,7 +1193,7 @@
   },
   {
     "subject": "Polyphenols",
-    "predicate": "are metabolized by",
+    "predicate": "are_metabolized_by",
     "object": "Gut Microbiome",
     "context": "Polyphenols are metabolized by the gut microbiome, with the majority of dietary polyphenols reaching the colon intact for bacterial transformation into absorbable metabolites. Microbial catabolism both activates and inactivates these compounds, shaping their systemic bioavailability. The directionality is host diet to microbial biotransformation. A caveat is that the resulting metabolites, not the parent compounds, often mediate the in vivo antioxidant and signaling effects. Inter-individual differences in microbial polyphenol metabolism explain much of the variability in the health effects of these compounds.",
     "confidence": 0.95,
@@ -1209,7 +1209,7 @@
   },
   {
     "subject": "Polyphenols",
-    "predicate": "reduce risk of",
+    "predicate": "reduce_risk_of",
     "object": "Cardiovascular Disease",
     "context": "Polyphenols reduce risk of cardiovascular disease through improved endothelial function, inhibition of LDL oxidation, and modest blood-pressure and anti-inflammatory effects. Epidemiological and intervention data support a protective association. The directionality is polyphenol intake to lower vascular risk. A caveat is that much evidence is observational or from supraphysiological doses, and the confidence in a direct causal preventive effect is moderate rather than definitive. Cocoa flavanols and olive-oil polyphenols are among the most studied, with evidence for improved endothelial function and blood pressure.",
     "confidence": 0.75,
@@ -1217,7 +1217,7 @@
   },
   {
     "subject": "Nucleic Acids",
-    "predicate": "are prone to damage by",
+    "predicate": "are_prone_to_damage_by",
     "object": "Reactive Oxygen Species",
     "context": "Nucleic acids are prone to damage by reactive oxygen species, particularly hydroxyl radicals, which attack both the sugar-phosphate backbone and nucleobases. Guanine is the most readily oxidized base, yielding 8-oxo-dG and strand lesions. The directionality is ROS to nucleic-acid modification. A caveat is that DNA is partly protected by histones, repair enzymes, and metal sequestration, so damage is non-uniform across the genome. Oxidative lesions accumulate with age and in numerous diseases, and their levels are widely used as biomarkers of oxidative exposure and damage.",
     "confidence": 0.95,
@@ -1225,7 +1225,7 @@
   },
   {
     "subject": "8-oxo-2'-deoxyguanosine",
-    "predicate": "is the most abundant oxidative lesion in",
+    "predicate": "is_the_most_abundant_oxidative_lesion_in",
     "object": "DNA",
     "context": "8-oxo-2'-deoxyguanosine is the most abundant oxidative lesion in DNA, with roughly 10^3 to 10^6 lesions per cell per day arising from normal metabolism and extrinsic insults. Its prevalence reflects both high formation rate and efficient but imperfect repair. The directionality is oxidation of guanine to the dominant adduct. A caveat is that the steady-state level integrates formation and repair, so it is an indirect rather than instantaneous measure of ROS flux. The steady-state 8-oxodG level is influenced by both the rate of oxidation and the efficiency of OGG1-mediated repair, so it reflects the balance between insult and defense.",
     "confidence": 0.95,
@@ -1233,7 +1233,7 @@
   },
   {
     "subject": "Mitochondrial DNA",
-    "predicate": "is particularly susceptible to",
+    "predicate": "is_particularly_susceptible_to",
     "object": "DNA Damage",
     "context": "Mitochondrial DNA is particularly susceptible to oxidative DNA damage because it lies near the electron-transport chain, lacks protective histones, and has limited repair capacity relative to nuclear DNA. This makes mtDNA a sensitive early marker of mitochondrial oxidant stress. The directionality is proximity to ROS source to increased lesion frequency. A caveat is that mtDNA damage can also arise from replication errors and base-excision-repair intermediates, so ROS is a major but not exclusive cause.",
     "confidence": 0.95,
@@ -1241,7 +1241,7 @@
   },
   {
     "subject": "Base Excision Repair",
-    "predicate": "is the primary repair pathway for",
+    "predicate": "is_the_primary_repair_pathway_for",
     "object": "DNA Damage",
     "context": "Base excision repair is the primary repair pathway for oxidative DNA damage, initiated by lesion-specific DNA glycosylases such as OGG1 that excise oxidized bases and hand the intermediate to downstream nucleases, polymerases, and ligases. This pathway restores genome integrity after ROS exposure. The directionality is lesion recognition to excision and resynthesis. A caveat is that BER can be overwhelmed or error-prone under heavy damage, and backup pathways (MMR, NER) handle subsets of lesions.",
     "confidence": 0.95,
@@ -1249,7 +1249,7 @@
   },
   {
     "subject": "Proteins",
-    "predicate": "are major targets of",
+    "predicate": "are_major_targets_of",
     "object": "Oxidative Stress",
     "context": "Proteins are major targets of oxidative stress, sustaining side-chain oxidation, backbone fragmentation, and cross-linking that alter enzyme activity, signaling, and turnover. Because proteins are abundant and long-lived, they integrate oxidative exposure over time. The directionality is oxidant to protein modification. A caveat is that some oxidative modifications are reversible (e.g., methionine sulfoxide) and can serve signaling roles rather than purely damage. Protein oxidation markers such as carbonylation and 3-nitrotyrosine are therefore widely used to estimate the severity of oxidative burden in disease.",
     "confidence": 0.95,
@@ -1257,7 +1257,7 @@
   },
   {
     "subject": "Protein carbonylation",
-    "predicate": "is an irreversible modification of",
+    "predicate": "is_an_irreversible_modification_of",
     "object": "Proteins",
     "context": "Protein carbonylation is an irreversible modification of proteins introduced by metal-catalyzed oxidation or by adduction of lipid-peroxidation products to susceptible residues. It marks severe, often non-repairable oxidative damage and is used as a biomarker. The directionality is oxidative insult to stable carbonyl formation. A caveat is that carbonylation can also arise from glycation and other non-ROS processes, so it is not exclusively an oxidative-stress marker. Carbonyls can be measured in plasma, tissues, and cell lysates, and their accumulation is a hallmark of aging and age-related disease.",
     "confidence": 0.95,
@@ -1265,7 +1265,7 @@
   },
   {
     "subject": "Carbonylated proteins",
-    "predicate": "are degraded by",
+    "predicate": "are_degraded_by",
     "object": "20S Proteasome",
     "context": "Carbonylated proteins are degraded by the 20S proteasome, which recognizes their unfolded, oxidized structure and degrades them independently of ubiquitin. This removes damaged proteins before they aggregate or lose function. The directionality is oxidized protein to proteasomal clearance. A caveat is that severe oxidation can form cross-links that resist degradation and instead promote aggregates, especially in aging and neurodegeneration. Because 20S degradation is ATP- and ubiquitin-independent, it provides a rapid, energy-sparing route for clearing mildly oxidized proteins.",
     "confidence": 0.95,
@@ -1281,7 +1281,7 @@
   },
   {
     "subject": "Chronic Obstructive Pulmonary Disease",
-    "predicate": "is characterized by",
+    "predicate": "is_characterized_by",
     "object": "Airway Inflammation",
     "context": "Chronic obstructive pulmonary disease is characterized by persistent airway inflammation and poorly reversible airflow limitation driven by neutrophilic and macrophage inflammation. Oxidant-antioxidant imbalance in the lungs fuels this chronic inflammatory state. The directionality is inflammatory airway disease to oxidative burden. A caveat is that COPD heterogeneity means not all patients show the same oxidant signature, and smoking-independent forms exist. This inflammation is sustained by an oxidant-antioxidant imbalance that inactivates antiproteases and perpetuates tissue destruction.",
     "confidence": 0.95,
@@ -1289,7 +1289,7 @@
   },
   {
     "subject": "Smoking",
-    "predicate": "is the leading cause of",
+    "predicate": "is_the_leading_cause_of",
     "object": "Chronic Obstructive Pulmonary Disease",
     "context": "Smoking is the leading cause of chronic obstructive pulmonary disease, with long-term tobacco smoke exposure triggering chronic airway inflammation and protease-antiprotease imbalance. The habit delivers both oxidants and pro-oxidant stimuli directly to the lung. The directionality is smoke exposure to COPD pathogenesis. A caveat is that only a subset of smokers develop clinically significant COPD, indicating genetic and occupational modifiers. Smoking cessation remains the most effective intervention, slowing the accelerated decline in lung function and reducing exacerbations.",
     "confidence": 0.95,
@@ -1305,7 +1305,7 @@
   },
   {
     "subject": "NADPH Oxidase",
-    "predicate": "is upregulated in",
+    "predicate": "is_upregulated_in",
     "object": "Chronic Obstructive Pulmonary Disease",
     "context": "NADPH oxidase is upregulated in chronic obstructive pulmonary disease, with NOX2 elevated roughly two- to three-fold in macrophages and neutrophils of patients. This enzymatic ROS source amplifies the oxidant burden already imposed by smoke. The directionality is disease state to increased NOX expression. A caveat is that multiple oxidant enzymes (XO, MPO, mitochondrial) contribute, so NOX upregulation is one facet of COPD oxidant biology. Targeting NOX enzymes is therefore considered a rational strategy to limit COPD oxidant burden beyond smoking cessation.",
     "confidence": 0.95,
@@ -1313,7 +1313,7 @@
   },
   {
     "subject": "Glutathione",
-    "predicate": "is depleted in",
+    "predicate": "is_depleted_in",
     "object": "Chronic Obstructive Pulmonary Disease",
     "context": "Glutathione is depleted in chronic obstructive pulmonary disease, with epithelial lining fluid GSH reduced by 40 to 60 percent, weakening the first-line antioxidant defense of the airways. This depletion impairs detoxification of H2O2 and HOCl. The directionality is disease to lowered thiol buffer. A caveat is that systemic GSH may be maintained or even altered differently, and depletion is most marked in the epithelial fluid compartment. N-acetylcysteine and other GSH precursors have shown modest benefit in reducing exacerbations, supporting the relevance of thiol depletion.",
     "confidence": 0.95,
@@ -1321,7 +1321,7 @@
   },
   {
     "subject": "NRF2",
-    "predicate": "is dysregulated in",
+    "predicate": "is_dysregulated_in",
     "object": "Chronic Obstructive Pulmonary Disease",
     "context": "NRF2 is dysregulated in chronic obstructive pulmonary disease, with reduced nuclear NRF2 and blunted antioxidant-gene induction in macrophages despite ongoing oxidant stress. This failure of adaptation worsens the oxidant burden. The directionality is impaired NRF2 signaling to inadequate defense. A caveat is that NRF2 activation is often attempted therapeutically (e.g., with sulforaphane), so the relationship is a target as well as a defect. Restoring NRF2 function with activators such as sulforaphane is an active therapeutic strategy in COPD clinical research.",
     "confidence": 0.95,
@@ -1353,7 +1353,7 @@
   },
   {
     "subject": "Asthma",
-    "predicate": "is associated with",
+    "predicate": "is_associated_with",
     "object": "Glutathione Depletion",
     "context": "Asthma is associated with glutathione depletion, as the GSH/GSSG ratio is markedly decreased in asthmatic airways, weakening local antioxidant defense. This sensitizes the airway to oxidant triggers and allergen-induced inflammation. The directionality is disease to lowered thiol buffer. A caveat is that glutathione changes vary by asthma phenotype and severity, and some patients show different redox patterns. Replenishing airway GSH with N-acetylcysteine has been explored as an adjunctive strategy to restore antioxidant capacity in asthmatic airways.",
     "confidence": 0.95,
@@ -1361,7 +1361,7 @@
   },
   {
     "subject": "Oxidative Stress",
-    "predicate": "correlates with",
+    "predicate": "correlates_with",
     "object": "Asthma severity",
     "context": "Oxidative stress correlates with asthma severity, with greater oxidant burden tracking with worse symptoms and higher exacerbation frequency. Biomarkers of lipid and protein oxidation rise during acute attacks. The directionality is oxidant load to clinical severity. A caveat is that correlation does not establish direction; severe asthma may also generate more ROS via eosinophil and NOX activity. These observations support the use of redox biomarkers in monitoring asthma control and evaluating antioxidant-based therapies.",
     "confidence": 0.95,
@@ -1385,7 +1385,7 @@
   },
   {
     "subject": "CD36 Receptor",
-    "predicate": "mediates uptake of",
+    "predicate": "mediates_uptake_of",
     "object": "Oxidized LDL",
     "context": "CD36 receptor mediates uptake of oxidized LDL as the principal scavenger receptor on macrophages, delivering oxLDL-derived lipid to form foam cells. This non-downregulated pathway drives cholesterol accumulation in the artery wall. The directionality is receptor to pathological lipid internalization. A caveat is that CD36 also handles fatty acids and other ligands, and other scavenger receptors (SR-A, LOX-1) contribute to oxLDL uptake. CD36 also recognizes oxidized phospholipids on oxLDL and, in combination with TLR signaling, links lipid uptake to sterile inflammation.",
     "confidence": 0.95,
@@ -1401,7 +1401,7 @@
   },
   {
     "subject": "CD36 Receptor",
-    "predicate": "acts as co-receptor for",
+    "predicate": "acts_as_co_receptor_for",
     "object": "TLR2/6",
     "context": "CD36 receptor acts as a co-receptor for TLR2/6, enabling recognition of oxidized LDL, amyloid-beta, and microbial products to trigger sterile and innate inflammatory signaling. This bridges lipid sensing to innate immunity. The directionality is co-receptor to inflammasome and NF-kappaB activation. A caveat is that CD36 is not the sole TLR2/6 partner, and its contribution varies by ligand and cell type. This cooperation allows CD36 to bridge lipid sensing and innate immunity, promoting inflammatory responses to oxidized self-ligands.",
     "confidence": 0.95,
@@ -1409,7 +1409,7 @@
   },
   {
     "subject": "CD36 expression",
-    "predicate": "is induced by",
+    "predicate": "is_induced_by",
     "object": "PPARγ",
     "context": "CD36 expression is induced by PPARgamma, which transcriptionally upregulates the receptor in macrophages, creating a feed-forward loop that amplifies oxLDL scavenging. ROS can further enhance this PPARgamma-dependent induction. The directionality is nuclear receptor to receptor upregulation. A caveat is that excessive CD36 induction promotes foam-cell formation, so the loop is maladaptive under chronic lipid stress. The PPARgamma-CD36 axis is also central to adipocyte lipid storage and to foam-cell pathology in atherosclerosis.",
     "confidence": 0.95,
@@ -1417,7 +1417,7 @@
   },
   {
     "subject": "Cholesterol",
-    "predicate": "is oxidized by",
+    "predicate": "is_oxidized_by",
     "object": "Reactive Oxygen Species",
     "context": "Cholesterol is oxidized by reactive oxygen species through non-enzymatic chemistry that yields more than 30 oxysterol species. These oxidized products have distinct biological activities compared with native cholesterol. The directionality is ROS to sterol oxidation. A caveat is that many oxysterols are also formed enzymatically by cytochrome P450s, so not all oxysterols indicate oxidative stress. Examples include 7-ketocholesterol and 7beta-hydroxycholesterol, which are cytotoxic and pro-inflammatory and accumulate in atherosclerotic plaques and oxidized LDL.",
     "confidence": 0.95,
@@ -1513,7 +1513,7 @@
   },
   {
     "subject": "Polyunsaturated fatty acids",
-    "predicate": "are susceptible to",
+    "predicate": "are_susceptible_to",
     "object": "Oxidative Stress",
     "context": "Polyunsaturated fatty acids are susceptible to oxidative stress because their bis-allylic methylene groups have relatively weak C-H bonds that are easily abstracted by radicals, seeding lipid peroxidation. The more double bonds, the higher the peroxidation index. The directionality is PUFA structure to peroxidation propensity. A caveat is that some PUFAs (e.g., omega-3) are beneficial despite higher oxidizability, as their oxidation products can be anti-inflammatory, so susceptibility is not uniformly harmful.",
     "confidence": 0.95,
@@ -1529,7 +1529,7 @@
   },
   {
     "subject": "F2-Isoprostanes",
-    "predicate": "are the gold-standard biomarker for",
+    "predicate": "are_the_gold_standard_biomarker_for",
     "object": "Oxidative Stress",
     "context": "F2-isoprostanes are the gold-standard biomarker for oxidative stress, formed non-enzymatically by free-radical peroxidation of arachidonic acid into prostaglandin-like compounds. They are measured in urine and plasma and are remarkably stable. The directionality is lipid peroxidation to isoprostane formation. A caveat is that isoprostanes can also arise from cyclooxygenase-independent enzymatic routes in rare cases, and levels are influenced by diet and renal function. Their measurement has become the reference standard for evaluating antioxidant efficacy in human intervention trials.",
     "confidence": 0.95,
@@ -1537,7 +1537,7 @@
   },
   {
     "subject": "Ferroptosis",
-    "predicate": "is driven by",
+    "predicate": "is_driven_by",
     "object": "Lipid Peroxidation",
     "context": "Ferroptosis is driven by lipid peroxidation, specifically iron-dependent accumulation of oxidized phosphatidylethanolamines that rupture the membrane in this regulated cell-death program. GPx4 normally holds this in check by reducing phospholipid hydroperoxides. The directionality is peroxidation to lethal membrane failure. A caveat is that ferroptosis also requires labile iron and polyunsaturated phospholipids, so lipid peroxidation is necessary but not solely sufficient. Inhibitors of GPX4 or of system xc- trigger ferroptosis by unleashing the same peroxidation pathway, providing pharmacological probes of this death mode.",
     "confidence": 0.95,
@@ -1545,7 +1545,7 @@
   },
   {
     "subject": "LXRα",
-    "predicate": "is activated by",
+    "predicate": "is_activated_by",
     "object": "Oxysterols",
     "context": "LXRalpha is activated by oxysterols such as 22(R)-, 24(S)-, and 27-hydroxycholesterol, which serve as endogenous ligands that trigger the receptor's transcriptional program. This couples cellular cholesterol status to gene regulation. The directionality is oxysterol ligand to LXRalpha activation. A caveat is that synthetic LXR agonists activate more potently but can cause undesirable lipogenesis, revealing context-dependent outcomes. Because oxysterol levels rise with cholesterol oxidation, LXRalpha links oxidative stress to protective transcriptional responses.",
     "confidence": 0.95,
@@ -1577,7 +1577,7 @@
   },
   {
     "subject": "Complex I and Complex IV",
-    "predicate": "have reduced activity in",
+    "predicate": "have_reduced_activity_in",
     "object": "Multiple Sclerosis",
     "context": "Complex I and Complex IV have reduced activity in multiple sclerosis, and the resulting electron leakage increases superoxide generation in affected CNS tissue. This bioenergetic defect is observed in lesions and normal-appearing white matter. The directionality is enzyme deficiency to increased mitochondrial ROS. A caveat is that reduced activity may be secondary to inflammation and demyelination as well as a primary driver, so causality is bidirectional. These defects are most pronounced in chronically demyelinated tissue and correlate with axonal loss and disability progression.",
     "confidence": 0.95,
@@ -1585,7 +1585,7 @@
   },
   {
     "subject": "Iron",
-    "predicate": "accumulates in",
+    "predicate": "accumulates_in",
     "object": "Multiple Sclerosis",
     "context": "Iron accumulates in multiple sclerosis lesions, where free Fe2+ catalyzes the Fenton reaction converting H2O2 to hydroxyl radicals and amplifying oxidative damage. Iron deposition is visualized by MRI and correlates with neurodegeneration. The directionality is iron burden to radical formation. A caveat is that iron accumulation can also be a response to demyelination and oligodendrocyte loss, not purely a cause of damage. Susceptibility-weighted MRI can visualize this iron deposition, offering an in vivo readout of the lesion's oxidative environment.",
     "confidence": 0.95,
@@ -1601,7 +1601,7 @@
   },
   {
     "subject": "Oligodendrocytes",
-    "predicate": "are vulnerable to",
+    "predicate": "are_vulnerable_to",
     "object": "Oxidative Stress",
     "context": "Oligodendrocytes are vulnerable to oxidative stress because they contain high iron, relatively low glutathione, and high ATP demand to support myelination, making them sensitive to ROS. Their damage contributes to demyelination in MS and other disorders. The directionality is oxidant burden to oligodendrocyte injury. A caveat is that oxidative vulnerability interacts with metabolic, inflammatory, and energetic stresses, so it is a contributor rather than the sole determinant of oligodendrocyte loss.",
     "confidence": 0.95,
@@ -1681,7 +1681,7 @@
   },
   {
     "subject": "Nox4-derived H2O2",
-    "predicate": "is required for",
+    "predicate": "is_required_for",
     "object": "TGF-beta-induced EMT",
     "context": "Nox4-derived H2O2 is required for TGF-beta-induced EMT, as Nox4 knockout blocks mesenchymal marker expression and cell migration during epithelial-mesenchymal transition. The oxidant thus serves as a necessary signal rather than mere byproduct. The directionality is Nox4 H2O2 to EMT execution. A caveat is that complete EMT also needs Smad and transcription-factor reprogramming, so H2O2 is necessary but not sufficient alone. Nox4 inhibitors are being evaluated as anti-fibrotic agents, underscoring the therapeutic relevance of this redox pathway.",
     "confidence": 0.95,
@@ -1697,7 +1697,7 @@
   },
   {
     "subject": "Mitochondrial ROS",
-    "predicate": "are required for",
+    "predicate": "are_required_for",
     "object": "SMAD7 downregulation in TGF-beta signaling",
     "context": "Mitochondrial ROS are required for SMAD7 downregulation in TGF-beta signaling, as mtROS promote removal of this negative feedback inhibitor, permitting full Smad2/3 activation. This embeds mitochondria within the TGF-beta pathway. The directionality is mtROS to loss of SMAD7 restraint. A caveat is that SMAD7 is also regulated by ubiquitination and other mechanisms, so ROS modulates rather than exclusively controls it. This places mitochondria as regulators of TGF-beta signaling strength and explains why mitochondrial antioxidants blunt fibrosis in some models.",
     "confidence": 0.95,
@@ -1713,7 +1713,7 @@
   },
   {
     "subject": "Mitochondrial ROS",
-    "predicate": "is required for",
+    "predicate": "is_required_for",
     "object": "JNK Activation",
     "context": "Mitochondrial ROS are required for JNK activation downstream of TNFR1, representing an obligatory event in sustained JNK signaling that drives apoptosis and inflammation. The oxidants act as upstream amplifiers of the kinase cascade. The directionality is mtROS to JNK activation. A caveat is that JNK can also be activated by non-mitochondrial ROS and by MAPKKK upstream of mitochondria, so the requirement is context-dependent. Persistent JNK activation downstream of mitochondrial ROS promotes apoptosis and is implicated in stress-induced tissue injury.",
     "confidence": 0.95,
@@ -1729,7 +1729,7 @@
   },
   {
     "subject": "TNF-alpha with blocked NF-kappaB",
-    "predicate": "shifts signaling to",
+    "predicate": "shifts_signaling_to",
     "object": "Necroptosis",
     "context": "TNF-alpha with blocked NF-kappaB shifts signaling to necroptosis, as loss of NF-kappaB-dependent survival genes leaves RIPK1 free to engage RIPK3 and MLKL in lytic, pro-inflammatory cell death. This explains toxicity when NF-kappaB is inhibited in TNF-exposed cells. The directionality is NF-kappaB blockade to necroptotic switch. A caveat is that caspase-8 can still divert cells to apoptosis, so the outcome depends on the full death-receptor complex composition. Necroptosis is highly inflammatory because lysed cells release damage-associated molecular patterns, amplifying tissue injury.",
     "confidence": 0.95,
@@ -1753,7 +1753,7 @@
   },
   {
     "subject": "Soluble VCAM-1",
-    "predicate": "is a biomarker for",
+    "predicate": "is_a_biomarker_for",
     "object": "Endothelial Dysfunction",
     "context": "Soluble VCAM-1 is a biomarker for endothelial dysfunction, being elevated in cardiovascular disease, diabetes, hypertension, and rheumatoid arthritis as a shed fragment of the adhesion molecule. Its level reflects chronic endothelial activation. The directionality is endothelial activation to soluble marker release. A caveat is that soluble VCAM-1 lacks the membrane anchor and its biological activity differs from full-length VCAM-1, so it is an index rather than a direct effector. Serum sVCAM-1 is now used in risk stratification and to monitor endothelial health in research cohorts.",
     "confidence": 0.95,
@@ -1769,7 +1769,7 @@
   },
   {
     "subject": "Fenton reaction",
-    "predicate": "is the primary mechanism converting",
+    "predicate": "is_the_primary_mechanism_converting",
     "object": "Hydroxyl Radicals",
     "context": "The Fenton reaction is the primary mechanism converting hydrogen peroxide into the damaging hydroxyl radical, especially when H2O2 encounters iron bound to DNA, where OH* inflicts damage at that precise locus. This site-specific chemistry explains why iron-bound DNA is peculiarly vulnerable. The directionality is iron plus peroxide to localized radical lesion. A caveat is that the Haber-Weiss reaction and other metal catalysts can also generate hydroxyl radicals, so Fenton chemistry is the major but not unique route.",
     "confidence": 0.95,
@@ -1809,7 +1809,7 @@
   },
   {
     "subject": "Mitochondria",
-    "predicate": "is the primary endogenous source of",
+    "predicate": "is_the_primary_endogenous_source_of",
     "object": "Reactive Oxygen Species",
     "context": "Mitochondria are the primary endogenous source of reactive oxygen species, because electron leakage at Complex I and Complex III generates superoxide as an intrinsic cost of aerobic respiration. This positions mitochondria at the center of cellular redox biology. The directionality is respiratory-chain leak to superoxide formation. A caveat is that other organelles and enzymes (NOX, XO, peroxisomes) also produce ROS, so mitochondria are the largest but not the only source. Mitochondrial ROS are also signaling molecules that modulate adaptation, immunity, and longevity, so their overproduction must exceed signaling needs before it becomes pathogenic.",
     "confidence": 0.95,
@@ -1817,7 +1817,7 @@
   },
   {
     "subject": "NRF2",
-    "predicate": "is the master regulator of",
+    "predicate": "is_the_master_regulator_of",
     "object": "Antioxidant Response",
     "context": "NRF2 is the master regulator of the antioxidant response, inducing more than 200 cytoprotective genes including those for glutathione synthesis, thioredoxin, heme oxygenase, and drug detoxification. It integrates signals from KEAP1, redox status, and electrophiles. The directionality is NRF2 activation to coordinated defense transcription. A caveat is that excessive or chronic NRF2 activation can support tumor cell survival, so its regulation is finely balanced. The NRF2-KEAP1 system is druggable, and activators such as dimethyl fumarate and sulforaphane are used or investigated in inflammatory and neurodegenerative diseases.",
     "confidence": 0.95,

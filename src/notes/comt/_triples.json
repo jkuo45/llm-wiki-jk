@@ -1089,7 +1089,7 @@
   },
   {
     "subject": "Modafinil",
-    "predicate": "is_used_off-label_as",
+    "predicate": "is_used_off_label_as",
     "object": "nootropic",
     "context": "Modafinil is widely used off-label as a nootropic to enhance alertness, attention, and executive function in healthy individuals, capitalizing on its dopaminergic and wake-promoting actions. Its cognitive-enhancing effects are modest and, as with therapeutic use, modulated by COMT genotype, with fast genotypes showing greater benefit. Off-label use is common despite indications limited to narcolepsy and related sleep disorders. Its effects illustrate the intersection of pharmacology, genetics, and cognitive enhancement.",
     "confidence": 0.72,

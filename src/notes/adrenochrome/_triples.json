@@ -1361,7 +1361,7 @@
   },
   {
     "subject": "Advanced Glycation End Products",
-    "predicate": "cross-link",
+    "predicate": "cross_link",
     "object": "Collagen",
     "context": "One proposed mechanism for AGE-mediated cardiovascular damage involves additional crosslinking of collagen, whose normal structure already contains crosslinks, by glycation of its free amino acids. The resulting collagen-AGE crosslinks produce stiffness of blood vessels, and a histological study of post-mortem aortas found a correlation between AGE accumulation and aortic stiffness. Crosslinked collagen is also more resistant to normal turnover, so the damage accumulates over decades. This crosslink-driven stiffening of extracellular matrix is central to the arterial stiffness, diastolic dysfunction, and myocardial relaxation abnormalities that AGEs impose on the aging cardiovascular system.",
     "confidence": 0.95,
@@ -2161,7 +2161,7 @@
   },
   {
     "subject": "Advanced Glycation End Products",
-    "predicate": "cross-link",
+    "predicate": "cross_link",
     "object": "Elastin",
     "context": "Advanced glycation end products accumulate within the extracellular matrix and cross-link elastic fibers as well as collagen. This cross-linking of extracellular proteins reduces the elasticity of connective tissues such as blood vessels, skin, and tendons, affecting especially vascular function. Glycated modifications alter the balance between ECM synthesis and degradation, accelerating skin aging and increasing skin stiffness. AGE-elastin cross-linking is one of the three major mechanisms by which AGEs injure tissues, alongside intracellular glycation and RAGE-mediated inflammatory signaling.",
     "confidence": 0.9,
@@ -4065,7 +4065,7 @@
   },
   {
     "subject": "Adrenochrome",
-    "predicate": "has_ortho-quinoid_structure",
+    "predicate": "has_ortho_quinoid_structure",
     "object": "o-quinone",
     "context": "Adrenochrome is very unstable due to its ortho-quinoid (o-quinone) structure, and is therefore usually stabilized by conventional derivatization with hydrazines such as aminoguanidine and semicarbazide to form hemostatic medicines. This instability also means that during the persulfate oxidation of adrenaline, the produced adrenochrome may be further oxidized and decompose to black by-products, so the reaction is monitored by sampling and measuring the absorbance at 495 nm, which is stopped at the point of maximum yield.",
     "confidence": 0.85,

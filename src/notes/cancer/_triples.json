@@ -2937,7 +2937,7 @@
   },
   {
     "subject": "Immune Checkpoint",
-    "predicate": "is_co-opted_by",
+    "predicate": "is_co_opted_by",
     "object": "Cancer",
     "context": "Immune Checkpoint is co-opted by Cancer. Immune checkpoints are physiological brakes on lymphocyte responses that cancers hijack to avoid immune destruction. Cancer is a family of diseases driven by the stepwise acquisition of mutations and epimutations that confer proliferative autonomy, survival, and dissemination. The directionality runs from Cancer toward Immune Checkpoint, so Cancer is the active agent and Immune Checkpoint the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
     "confidence": 0.95,
