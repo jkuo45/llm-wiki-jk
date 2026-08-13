@@ -6494,5 +6494,445 @@
     "context": "SIRT7 deacetylates p53 to repress p53-driven apoptosis in hepatocellular carcinoma, and p53 activation reciprocally opposes SIRT7 functions (e.g., under genotoxic stress p53 promotes apoptosis despite SIRT7), so p53 is listed among negative regulators of the SIRT7 pathway (source review; oncogene review s41388-024-02976-8).",
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "β-Catenin",
+    "context": "SIRT1 catalyzes removal of acetyl groups from β-catenin, and this deacetylation suppresses β-catenin's ability to activate transcription and drive cell proliferation. The modification dampens the Wnt transcriptional output of the protein at target promoters. This is one of the tumor-suppressive arms of SIRT1 in cancer, complementing its deacetylation of the RelA/p65 NF-κB subunit. Directionality is enzymatic: SIRT1 is the deacetylase and β-catenin the substrate, and the net effect is reduced oncogenic transcriptional signaling.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT2 disruption",
+    "predicate": "increases",
+    "object": "Aurora Kinase",
+    "context": "Disruption of SIRT2 in the mouse raises the levels of the mitotic regulators Aurora-A and Aurora-B, leading to aneuploidy and mitotic cell death. Because SIRT2 is a tubulin deacetylase and a guardian of mitotic fidelity, its loss impairs the control that normally keeps Aurora kinase abundance in check during division. The directionality is that SIRT2 sits upstream: reduced SIRT2 permits Aurora kinase accumulation, which then destabilizes mitosis. This pathway connects sirtuin biology to chromosome segregation and genomic instability in tumorigenesis.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT2-deficient mice",
+    "predicate": "develop",
+    "object": "Gender-specific tumorigenesis",
+    "context": "SIRT2-deficient mice develop gender-specific tumors, with females acquiring mammary tumors and males developing hepatocellular carcinoma, matching the mitotic instability produced by elevated Aurora-A/Aurora-B. Consistent with a tumor-suppressor role, human breast cancers and hepatocellular carcinomas often show reduced SIRT2 relative to normal tissue. The relationship is directional: loss of SIRT2 predisposes to these malignancies, whereas SIRT2 expression restrains them. This positions SIRT2 among the sirtuins that act as tumor suppressors in genetic mouse models.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT3 deficiency",
+    "predicate": "favors",
+    "object": "Cell transformation",
+    "context": "In mice and cultured cells, SIRT3 deficiency favors cell transformation in response to oncogenic Ras or Myc, and the same loss stabilizes HIF-1α with consequent induction of the glycolytic program of the Warburg effect. Because SIRT3 normally governs mitochondrial metabolism, ROS production, and genome stability, its absence releases a permissive environment for oncogenic signaling and metabolic reprogramming. Directionally, SIRT3 acts upstream: reduced SIRT3 allows transformation and Warburg metabolism to proceed, defining its tumor-suppressive role in this context.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT6 overexpression",
+    "predicate": "induces",
+    "object": "Apoptosis in cancer cell lines",
+    "context": "Acute overexpression of SIRT6 in cancer cell lines of different histology induces apoptosis, supporting a tumor-suppressive role for this nuclear sirtuin. The pro-apoptotic activity appears linked to SIRT6's mono-ADP-ribosyltransferase function rather than its deacetylase activity. Directionally, increasing SIRT6 abundance or enzymatic activity triggers cell death in tumor cells. This contrasts with SIRT1's context-dependent duality and stresses that sirtuin outputs in cancer depend on the specific isoform and its dominant catalytic modality.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "Cellular Senescence",
+    "context": "SIRT1 inhibits cellular senescence and apoptosis in c-Myc- and PML-driven cancers by deacetylating and inactivating p53 and proapoptotic FOXO transcription factors and by sequestering Bax via deacetylated Ku70. These actions blunt the tumor-suppressive programs that would otherwise eliminate premalignant cells. The directionality is that SIRT1 activity is upstream of senescence suppression, protecting cells from growth arrest. Consequently, SIRT1 inhibitors are frequently anticancer on their own and sensitize cancer cells to anticancer agents or oxidative stress.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT2 downregulation",
+    "predicate": "induces",
+    "object": "p53 accumulation and cell cycle arrest",
+    "context": "SIRT2 downregulation or chemical inhibition induces anticancer effects that include p53 accumulation, cell cycle arrest, and apoptosis, mirroring the tumor-suppressive functions of the enzyme. Loss of SIRT2 permits mitotic regulators such as Aurora-A/Aurora-B to accumulate, destabilizing division and forcing checkpoint engagement. The relationship is directional: reduced SIRT2 activity leads to p53 stabilization and arrest. A caveat is that SIRT2 inhibition can be counterproductive in some contexts, notably alongside microtubule inhibitors where it prolongs chronic mitotic arrest and confers resistance.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "AC93253",
+    "predicate": "inhibits",
+    "object": "SIRT2",
+    "context": "AC93253 is a small molecule that inhibits SIRT2 at micromolar concentrations. In leukemia cells, SIRT2 inhibition with AC93253 is accompanied by Akt acetylation, de-phosphorylation, and consequent inhibition, producing antileukemia effects. The directionality is that AC93253 blocks SIRT2, which then removes deacetylation-based control over Akt, shifting it toward an inactive state. This positions AC93253 as both a research tool for SIRT2 biology and an anticancer lead, and connects sirtuin inhibition to PI3K/Akt pathway suppression.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT2 inhibition",
+    "predicate": "confers",
+    "object": "Resistance to microtubule inhibitors",
+    "context": "SIRT2 inhibition or downregulation appears counterproductive in certain cancer contexts, particularly when combined with microtubule inhibitors, because loss of SIRT2 prolongs chronic mitotic arrest and makes cancer cells resistant to these agents. The enzyme normally helps cells exit mitosis cleanly; without it, cells linger in a prolonged arrested state that selects for survival. Directionally, low SIRT2 activity sits upstream of this resistance phenotype. This caveat limits the general anticancer rationale for SIRT2 inhibition and argues for careful context- and regimen-specific use.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is_overexpressed_in",
+    "object": "Oral squamous cell carcinoma",
+    "context": "In oral squamous cell carcinomas, SIRT3 is overexpressed, and its downregulation has antiproliferative activity and sensitizes carcinoma cells to radiation and to cisplatin. This contrasts with SIRT3's broader tumor-suppressive role in mouse models, showing that sirtuin function is context-dependent. Directionally, elevated SIRT3 supports tumor growth and therapy resistance in this cancer type, while SIRT3 loss restores sensitivity. The finding highlights that a single sirtuin can be either protective or oncogenic depending on tumor type and molecular background.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "H3K18ac (histone H3 lysine 18)",
+    "context": "SIRT7 promotes tumorigenesis by deacetylating lysine 18 of histone H3, thereby repressing genes with tumor-suppressor function. SIRT7 is stabilized at target promoters through interaction with the ETS-family transcription factor ELK4, and the resulting H3K18 deacetylation is necessary to maintain features such as anchorage-independent growth and loss of contact inhibition. Directionally, SIRT7 activity at H3K18 sits upstream of tumor suppressor gene repression. Loss of SIRT7 reduces the tumorigenicity of human cancer xenografts, making it the clearest pro-oncogenic sirtuin and positioning SIRT7 inhibition as the therapeutic direction.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "ELK4",
+    "predicate": "stabilizes",
+    "object": "SIRT7 at target gene promoters",
+    "context": "The ETS-family transcription factor ELK4 interacts with SIRT7 and stabilizes the deacetylase at target gene promoters, allowing SIRT7 to deacetylate histone H3 at lysine 18 and repress tumor-suppressor genes. This tethering is required to maintain cancer hallmarks such as anchorage-independent growth and loss of contact inhibition. Directionally, ELK4-bound promoter occupancy precedes SIRT7-dependent H3K18 deacetylation. SIRT7 depletion accordingly reduces the tumorigenicity of human cancer xenografts, highlighting the ELK4-SIRT7-H3K18 axis as an oncogenic regulatory circuit.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "contain",
+    "object": "Rossmann fold domain",
+    "context": "The conserved catalytic core of sirtuins features a large Rossmann fold domain typical of NAD+ binding proteins, together with a small zinc-binding domain and flexible loops that bring the two domains together around an extended cleft for cofactor and substrate. The Rossmann domain contains six parallel beta-strands and a Gly-X-Gly phosphate-binding motif. Directionally, this architecture is intrinsic to the sirtuin family and explains their strict NAD+ dependence. Understanding the structure underscores why NAD+ analogs and pocket C binders act as sirtuin modulators.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Sirtuin NAD+ binding site",
+    "predicate": "divides_into",
+    "object": "Adenine, nicotinamide-ribose and nicotinamide pockets",
+    "context": "The sirtuin NAD+ binding site is divisible into an adenine binding pocket (pocket A), a nicotinamide ribose pocket (pocket B), and a nicotinamide binding pocket (pocket C), formed by the large Rossmann domain and the cofactor binding loop. NAD+ enters a non-productive conformation outside the C pocket until an acetyl-lysine substrate is present, at which point a productive arrangement engages the C pocket. Directionally, this topology defines how inhibitors such as nicotinamide (pocket C) and suramin (pockets B, C, and substrate site) act, and frames structure-based design of sirtuin modulators.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "is_a",
+    "object": "NAD+ metabolite sensor (potential)",
+    "context": "The crystal structure of human SIRT6 reveals a more open conformation than other sirtuins, with the small domain displaced and the cofactor binding loop replaced by a stable single helix. Kinetic and structural data indicate SIRT6 is the unique sirtuin able to bind NAD+ in the absence of an acetyl-lysine substrate. This raises the possibility that SIRT6 evolved away from a conventional NAD+-dependent deacetylase toward a NAD+ metabolite sensor function. Directionally, this distinctive structural feature sets SIRT6 apart from SIRT2, SIRT3, and SIRT5 and informs the search for SIRT6-specific modulators.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Nicotinamide",
+    "predicate": "inhibits",
+    "object": "SIRT1 and SIRT2",
+    "context": "Nicotinamide, a product of the sirtuin deacetylation reaction itself, is a micromolar non-competitive inhibitor of SIRT1 and SIRT2 that interacts with the C (nicotinamide) pocket of the catalytic site. It was one of the first endogenous compounds studied as a sirtuin inhibitor and inspired the search for NAD+ and nicotinamide analogs. SIRT1 inhibition with nicotinamide was reported to have anticancer activity in B-cell chronic lymphocytic leukemia and prostate cancer. Its limitations, and those of NAD+ analogs, lie in modest potency and limited therapeutic potential, which motivated development of more potent scaffolds.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Sirtinol",
+    "predicate": "has_cytotoxic_activity_against",
+    "object": "Breast, lung, prostate and leukemia cancer cells",
+    "context": "Sirtinol, a hydroxynaphthaldehyde derivative discovered in a phenotypic screen, is active against multiple sirtuin isoforms and has cytotoxic activity against cancer cells of different origins, including breast, lung, prostate, and leukemia cell lines. This broad anticancer activity made sirtinol the founding member of the beta-naphthol inhibitor family and seeded structure-activity programs that produced salermide, cambinol, and splitomicin. Directionally, sirtinol-mediated inhibition of sirtuin activity sits upstream of its cytotoxic effects on malignant cells, though its full target spectrum extends beyond sirtuins.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "EX-527",
+    "predicate": "cooperates_with",
+    "object": "HDAC inhibitors",
+    "context": "EX-527, the most potent and selective SIRT1 inhibitor identified from a large high-throughput screen, inhibits SIRT1 at nanomolar concentrations with remarkable selectivity over SIRT2 and SIRT3 and good pharmacokinetic properties. Its anticancer activity as a single agent is weak, but it cooperates with HDAC inhibitors to induce apoptosis in leukemia cells. Directionally, EX-527-mediated SIRT1 blockade combined with broad HDAC inhibition produces a synergistic lethal effect. This positions EX-527 as the standard pharmacological SIRT1 inhibitor and a component of combination anticancer strategies.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Ro31-8220",
+    "predicate": "inhibits",
+    "object": "SIRT1 and SIRT2",
+    "context": "Ro31-8220, a bisindolylmaleimide originally developed as a protein kinase C inhibitor, was identified by screening known kinase inhibitors against SIRT2 on the rationale that sirtuins and protein kinases share an adenosine-binding site. It showed SIRT1/SIRT2 inhibitory properties in the low micromolar range. Directionally, the shared adenosine scaffold allows this kinase inhibitor to engage sirtuin NAD+ binding. Because it retains potent kinase activity, Ro31-8220 serves as both a probe of sirtuin biology and a caution about off-target effects in sirtuin inhibitor studies.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "GW5074",
+    "predicate": "inhibits",
+    "object": "SIRT1 and SIRT2",
+    "context": "GW5074, an indolinone compound originally developed as a c-Raf kinase inhibitor, was tested with other kinase inhibitors against SIRT2 because sirtuins and protein kinases share an adenosine-binding site. It showed SIRT1/SIRT2 inhibitory properties in the low micromolar range, placing it alongside the bisindolylmaleimide Ro31-8220 as a kinase-scaffold sirtuin inhibitor. Directionally, GW5074's scaffold enables engagement of the sirtuin NAD+ pocket. Its continued kinase activity complicates interpretation in cells, underscoring the value of structure-based follow-up for selectivity.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "NF675",
+    "predicate": "is_a_more_selective_derivative_of",
+    "object": "Suramin",
+    "context": "NF675 is the product of optimizing the suramin scaffold and is the most potent and selective molecule in the series, showing a 20-fold selectivity ratio for SIRT1 over SIRT2. Suramin itself inhibits SIRT1/SIRT2 at nanomolar concentrations with apparent SIRT1 preference, has anticancer activity, and has been studied in clinical trials. Directionally, NF675 inherits suramin's binding mode while improving isoform selectivity. Despite good potency and selectivity, suramin-derived compounds have modest drug-likeness owing to high molecular weight and anionic character, limiting therapeutic translation.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Suramin",
+    "predicate": "binds",
+    "object": "SIRT5 pockets B, C and substrate-binding site",
+    "context": "Co-crystallization of suramin with human SIRT5 revealed that suramin binds by occupying the nicotinamide ribose pocket (B-pocket), the nicotinamide pocket (C-pocket), and part of the substrate-binding site. This structural insight explains suramin's broad, high-affinity inhibition of multiple sirtuins and informed the design of more selective derivatives such as NF675. Directionally, suramin is the ligand and the SIRT5 catalytic cleft the receptor. The structure also illustrates general principles governing small-molecule engagement of the sirtuin NAD+/substrate channel.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Aristoforin",
+    "predicate": "inhibits",
+    "object": "Sirtuins",
+    "context": "Aristoforin is one of several natural products reported to inhibit sirtuins at micromolar concentrations, alongside amurensin G, polyphenols, and tanikolide. These compounds expand the chemical diversity of sirtuin inhibitors beyond synthetic scaffolds. Directionally, aristoforin blocks sirtuin deacetylase activity at micromolar potency. As with many natural-product sirtuin modulators, target selectivity, mechanism, and additional cellular targets are less characterized than for synthetic inhibitors, so the anticancer contributions of sirtuin inhibition versus other effects remain to be disentangled.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Amurensin G",
+    "predicate": "inhibits",
+    "object": "Sirtuins",
+    "context": "Amurensin G is a resveratrol tetramer natural product reported among compounds that inhibit sirtuins at micromolar concentrations and endowed with anticancer activity. It belongs to a series that includes aristoforin, polyphenols, and tanikolide identified through general screens of structurally diverse natural products. Directionally, amurensin G suppresses sirtuin deacetylase activity. Its isoform selectivity and mechanism are incompletely characterized, and its anticancer effect may involve both sirtuin inhibition and additional natural-product bioactivities.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Tanikolide",
+    "predicate": "inhibits",
+    "object": "Sirtuins",
+    "context": "Tanikolide is a natural product reported to inhibit sirtuins at micromolar concentrations, grouped with aristoforin, amurensin G, and polyphenols as structurally diverse natural sirtuin inhibitors. Directionally, tanikolide blocks sirtuin deacetylase activity at micromolar potency. As with companion natural products, its selectivity and the biological significance of its sirtuin inhibition relative to other targets remain less well studied than for synthetic inhibitors such as EX-527 and the tenovins.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Tenovin-1 and Tenovin-6",
+    "predicate": "activate",
+    "object": "p53",
+    "context": "Tenovins (tenovin-1 and tenovin-6) are sirtuin inhibitors that block SIRT1/SIRT2-mediated deacetylation of p53, leading to p53 hyperacetylation and activation. Their strong anticancer activity is associated with this p53 activation, which reinstates tumor-suppressive transcription in cancer cells. Directionally, tenovin-mediated sirtuin inhibition sits upstream of p53 activation and tumor suppression, a property shared with HDAC inhibitors and other p53-releasing strategies. Tenovins illustrate the direct link between sirtuin inhibition, p53 acetylation state, and cancer therapy.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Butein",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "Butein is a polyphenolic chalcone that was among the first small molecules reported to activate SIRT1, together with resveratrol, piceatannol, quercetin, and myricetin. These polyphenolic STACs (compounds 1-5 of the review's activator figure) established the concept of pharmacological SIRT1 activation. Directionally, butein and its polyphenol congeners enhance SIRT1 deacetylase activity, at least in biochemical assays. As with resveratrol, the in vivo activation mechanism is debated, since activation of SIRT1 by these compounds could frequently only be demonstrated with fluorescently tagged substrates, suggesting possible assay artifacts or indirect cellular effects.",
+    "confidence": "medium",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SRT1460",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "SRT1460 is a potent, chemically diverse second-generation sirtuin-activating compound reported alongside SRT1720 and SRT2183 as more effective activators than the polyphenolic STACs. Most compounds of this class were also reported to have anticancer activity. A major caveat is that the mechanism of SRT1460 action remains unclear: activation could frequently only be demonstrated with fluorescently tagged substrates, and the metabolic effects may reflect indirect actions (e.g., via the cAMP-Epac1-AMPK axis) rather than direct SIRT1 binding. Directionally, SRT1460 enhances SIRT1 activity in assay systems, but interpretation of in vivo effects requires caution.",
+    "confidence": "medium",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SRT2183",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "SRT2183 is a potent second-generation sirtuin-activating compound identified with SRT1720 and SRT1460 as chemically diverse, more potent activators than the initial polyphenolic STACs. These compounds were reported to have anticancer activity, but their mechanism is controversial: activation was frequently demonstrable only with fluorescently tagged substrates, and metabolic effects may be indirect (cAMP-Epac1-AMPK pathway) rather than direct SIRT1 activation. Directionally, SRT2183 stimulates SIRT1 deacetylase activity in biochemical assays. These caveats frame the ongoing debate about the physiological relevance of STAC-mediated SIRT1 activation.",
+    "confidence": "medium",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "STACs",
+    "predicate": "are_controversial_due_to",
+    "object": "Fluorescent substrate artifacts",
+    "context": "A matter of controversy is that sirtuin activation by resveratrol and the SRT compounds could frequently only be demonstrated with fluorescently tagged substrates, raising the possibility of assay artifacts. Alternative explanations invoke indirect activation: resveratrol activates SIRT1 in vivo through its effect on cAMP signaling, specifically the cAMP-Epac1-AMPK pathway, and other STACs may act similarly given their analogous metabolic effects. Directionally, the claimed direct SIRT1 activation by STACs is questioned, and their in vivo benefits may be mediated by other pathways. This controversy shaped the rigorous characterization of STAC chemistry and calls for non-fluorescent assay confirmation.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Sirtuin Fluorimetric Activity",
+    "predicate": "is_used_to_identify",
+    "object": "Sirtuin inhibitors",
+    "context": "Sirtuin fluorimetric activity assays (e.g., the Fluor de Lys system) are the most commonly used methods to screen molecules as sirtuin inhibitors. Deacetylation of a fluorophore-decoupled substrate sensitizes it to a developer that releases a measurable fluorophore, and percent inhibition is calculated from fluorescence. These assays identified indoles (EX-527), tenovins, JGB1741, sirtinol analogues, and cambinol analogues. A key caveat is that the aminomethylcoumarin moiety of the fluorogenic substrates can affect binding of other small molecules to the enzyme, so confirmation with orthogonal assays is recommended.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Suramin-related compounds",
+    "predicate": "were_screened_with",
+    "object": "Homogeneous fluorescent deacetylase assay",
+    "context": "The homogeneous fluorescent deacetylase assay, which uses the fluorescent acetyl-lysine substrate ZMAL and NAD+ followed by trypsin treatment to release the AMC fluorophore, was used to screen several compound families as sirtuin inhibitors, including adenosine mimetics, inhibitors of kinases or phosphatases, suramin analogs, splitomicin derivatives, thiobarbiturates, and 3-arylideneindolin-2-ones. Directionally, the assay's ZMAL-ZML trypsin-coupled readout provides a plate-compatible screen for sirtuin inhibition. Its utility explains the breadth of scaffolds identified across independent discovery programs.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Charcoal Binding Assay",
+    "predicate": "measures",
+    "object": "OAADPr formation",
+    "context": "The charcoal binding assay measures sirtuin activity by quantifying 3H-labeled OAADPr released as free acetate: incubation of recombinant sirtuins with a 3H-acetylated peptide and NAD+ produces 3H-OAADPr, which binds activated charcoal, but the 3H-acetate hydrolyzed from OAADPr remains in the supernatant and is counted. This method was used to screen nicotinamide analogs and NAD+ metabolites as inhibitors of SIRT2. Directionally, the assay traces sirtuin catalytic flux through its unique OAADPr by-product rather than through fluorophore release, giving an artifact-free alternative to fluorescent assays.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Microfluidic mobility shift assay",
+    "predicate": "separates",
+    "object": "SIRT1 substrate and product peptides",
+    "context": "The microfluidic mobility shift assay separates SIRT1 substrate and product peptides by differences in electrophoretic mobility caused by charge and mass changes upon lysine deacetylation, quantitating fluorescence of both peaks. The assay effectively separates neutral-acetylated substrate peptides from deacetylated products bearing an additional positive charge. Although it could support high-throughput screening, it is more suitable for hit confirmation and mechanistic studies. Directionally, it provides a label-based yet artifact-minimized readout of SIRT1 activity distinct from fluorophore-release assays.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "NAD+ bioluminescence assay",
+    "predicate": "quantifies",
+    "object": "Residual NAD+ after sirtuin deacetylation",
+    "context": "The NAD+ bioluminescence assay measures sirtuin activity by quantifying remaining NAD+ after a deacetylation reaction, coupling NAD+ consumption to bacterial luciferase-catalyzed oxidation of decanal via a NAD+/NADH reduction step. It uses a label-free peptide substrate and is applicable to sirtuins with any peptide substrate. Directionally, NAD+ depletion tracks sirtuin catalytic turnover. Its label-free nature and high amenability to high-throughput screening make it a useful complement to fluorescent substrate-based assays, whose artifacts affect STAC measurements.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Radiochemical nicotinamide release assay",
+    "predicate": "detects",
+    "object": "Nicotinamide released by sirtuins",
+    "context": "The radiochemical assay measures sirtuin deacetylase activity using an acetylated peptide substrate and [carbonyl-14C]-NAD+, detecting the release of 14C-nicotinamide. Unreacted NAD+ is captured by a boronic acid resin, and the unbound fraction containing released nicotinamide is counted in a scintillation counter, in a format compatible with 96-well high-throughput screening. Directionally, radiolabeled nicotinamide release directly quantifies catalytic rounds. This assay confirmed the identification of indoles as sirtuin inhibitors, although radioactive waste and safety considerations limit routine screening use.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Enzyme-coupled nicotinamide assay",
+    "predicate": "uses",
+    "object": "Nicotinamidase and glutamate dehydrogenase",
+    "context": "The enzyme-coupled assay for nicotinamide detection measures sirtuin activity continuously by coupling nicotinamidase (which hydrolyzes nicotinamide to nicotinic acid and ammonia) to glutamate dehydrogenase, which converts ammonia, alpha-ketoglutarate, and NAD(P)H to glutamate and NAD(P)+, quantified spectrophotometrically at 340 nm. It was developed in 2009 and, while not used yet on the scale of large screenings, could be adapted to a high-throughput format. Directionally, a continuous enzyme-coupled readout avoids the artifacts associated with fluorescent and end-point assays.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Western blot analysis",
+    "predicate": "detects",
+    "object": "Acetylated p53, histone 3 and gamma-tubulin",
+    "context": "Western blot is the most commonly used cell-based analysis to evaluate sirtuin inhibition: cells are exposed to putative inhibitors, lysed, and probed with antibodies against acetylated lysine on known sirtuin substrates, typically p53, histone 3, or gamma-tubulin. Increased acetylation indicates reduced sirtuin activity. Directionally, the acetylation state of these substrates reports the functional outcome of inhibitor treatment in intact cells. Because it measures endogenous substrates rather than artificial fluorophores, it is a key confirmatory readout after fluorescent screening.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Cell-based ELISA assay",
+    "predicate": "measures",
+    "object": "Acetylated alpha-tubulin",
+    "context": "The cell-based ELISA-type assay, adapted from histone acetyltransferase inhibitor assays, confirms SIRT2 inhibitors such as 3-arylideneindolin-2-ones: cells seeded in 96-well plates are treated with compounds, fixed, permeabilized, and probed with antibody against acetylated alpha-tubulin, with fluorescence measured after enhancement solution addition. This format is well suited for high-throughput screenings. Directionally, the acetylated tubulin signal directly reflects SIRT2 deacetylase inhibition in cells. It complements Western blot with quantitative, plate-based throughput.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Capillary electrophoresis-based sirtuin assay",
+    "predicate": "uses",
+    "object": "Non-peptide substrates for SIRT1",
+    "context": "Recently, non-peptide substrates for SIRT1 have been synthesized, and two capillary electrophoresis assays were developed and validated to monitor the deacetylation of these substrates and to screen sirtuin inhibitor activity, complementing earlier CE assays using N-terminally fluorescence-labeled peptides. Directionally, CE separates substrate and product by their charge/mass differences without relying on fluorophore-release effects. The non-peptide substrates broaden the assay chemistry available for studying SIRT1 and its modulators.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "JGB1741",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": "JGB1741 is a small-molecule SIRT1 inhibitor developed on the sirtinol structure and identified with other sirtinol analogues through sirtuin fluorimetric activity assays. As a sirtinol derivative, it is expected to block SIRT1 deacetylase activity, promoting hyperacetylation of substrates such as p53. Directionally, JGB1741 engages the SIRT1 catalytic site to inhibit deacetylation. Its derivation from the sirtinol scaffold places it within the beta-naphthol family of sirtuin inhibitors, whose anticancer activities derive substantially from p53 reactivation.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is_a",
+    "object": "Tubulin deacetylase",
+    "context": "SIRT2 is the predominantly cytoplasmic sirtuin that functions as a tubulin deacetylase, removing acetyl groups from alpha-tubulin to regulate microtubule dynamics and mitotic fidelity. Because it deacetylates tubulin and other mitotic regulators, SIRT2 loss impairs the control that normally keeps Aurora-A and Aurora-B in check during division, leading to aneuploidy and mitotic cell death. Directionally, SIRT2's tubulin deacetylase activity is an upstream determinant of normal chromosome segregation, linking sirtuin biology to mitotic stability and tumor suppression.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "ELK4",
+    "predicate": "is_a",
+    "object": "ETS transcription factor",
+    "context": "ELK4 (SAP-1) belongs to the ETS-domain ternary complex factor (TCF) subfamily of transcription factors, defined by a conserved ETS DNA-binding domain. Within sirtuin biology, ELK4 is notable for interacting with SIRT7 and stabilizing the deacetylase at target gene promoters, where SIRT7 deacetylates lysine 18 of histone H3 and represses tumor suppressor genes. Directionally, ELK4's identity as an ETS factor underlies its promoter-targeting function. This links the ETS transcription factor family to the pro-oncogenic SIRT7-H3K18ac axis in cancer.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "ELK1",
+    "predicate": "is_a",
+    "object": "ETS transcription factor",
+    "context": "ELK1 is the founding member of the ternary complex factor subfamily of ETS-domain transcription factors, alongside ELK3 and ELK4 (SAP-1), and is a major nuclear target of the RAS-MAPK/ERK cascade that controls immediate-early gene expression. In the context of sirtuin biology it serves as the canonical reference for the ETS-TCF family whose member ELK4 stabilizes SIRT7 at target promoters. Directionally, ELK1's ETS DNA-binding domain and SRF-coupling architecture are shared by the TCF family, informing how ELK4 anchors SIRT7 to chromatin for H3K18 deacetylation.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "ETS",
+    "predicate": "is_a",
+    "object": "Transcription factor family",
+    "context": "ETS is a large family of eukaryotic transcription factors sharing a conserved winged helix-turn-helix DNA-binding ETS domain that recognizes purine-rich GGAA/T core motifs and regulates proliferation, differentiation, and oncogenesis. The ETS-family member ELK4 plays a central role in sirtuin biology by stabilizing SIRT7 at target gene promoters, enabling H3K18 deacetylation and repression of tumor suppressor genes. Directionally, the ETS family provides the DNA-binding and promoter-targeting mechanisms that members such as ELK4 use to recruit chromatin-modifying enzymes such as SIRT7.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "share",
+    "object": "Adenosine-binding site with kinases",
+    "context": "Sirtuins and protein kinases both contain an adenosine-binding pocket in their catalytic machinery, an overlap that allowed screening of known kinase inhibitors against SIRT2. This shared scaffold led to the discovery that bisindolylmaleimides such as Ro31-8220 and indolinones such as GW5074 inhibit SIRT1 and SIRT2 in the low micromolar range. Directionally, the shared adenosine site is the molecular basis for cross-inhibition between kinase inhibitors and sirtuins, but it also means these compounds retain kinase activity, complicating the attribution of cellular effects to sirtuin inhibition alone.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "is_stabilized_by",
+    "object": "ELK4",
+    "context": "SIRT7 is stabilized at the promoters of its target genes through interaction with the ETS-family transcription factor ELK4, which tethers the deacetylase to chromatin. Once anchored, SIRT7 deacetylates lysine 18 of histone H3 (H3K18ac), repressing tumor suppressor genes and maintaining cancer hallmarks such as anchorage-independent growth and loss of contact inhibition. Directionally, ELK4-mediated stabilization precedes and enables SIRT7's H3K18 deacetylation. Consistent with this axis, SIRT7 depletion reduces the tumorigenicity of human cancer xenografts, underscoring the ELK4-SIRT7 connection as a therapeutic vulnerability.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Butein",
+    "predicate": "is_a",
+    "object": "Polyphenol STAC",
+    "context": "Butein is a chalcone polyphenol that belongs to the first generation of natural sirtuin-activating compounds (STACs), reported to activate SIRT1 together with resveratrol, piceatannol, quercetin, and myricetin. These polyphenolic activators established the concept of pharmacological SIRT1 activation and served as the basis for later, more potent synthetic STACs such as SRT1460, SRT1720, and SRT2183. Directionally, butein's identification as a polyphenol STAC initiated the activator chemistry that progressed to synthetic scaffolds, though the direct activation mechanism remains controversial due to fluorescent-substrate artifacts.",
+    "confidence": "medium",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SRT1460",
+    "predicate": "is_a",
+    "object": "Synthetic STAC",
+    "context": "SRT1460 is a second-generation synthetic sirtuin-activating compound (STAC) of the imidazothiazole class, developed with SRT1720 and SRT2183 as chemically diverse and more potent activators than the initial polyphenolic STACs. These compounds were reported to have anticancer activity, but their mechanism is controversial: activation could frequently only be demonstrated with fluorescently tagged substrates, and in vivo effects may be indirect (e.g., via the cAMP-Epac1-AMPK pathway) rather than direct SIRT1 binding. Directionally, SRT1460 belongs to the synthetic STAC class whose biology underlies the ongoing debate about STAC-mediated SIRT1 activation.",
+    "confidence": "medium",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SRT2183",
+    "predicate": "is_a",
+    "object": "Synthetic STAC",
+    "context": "SRT2183 is a second-generation synthetic sirtuin-activating compound (STAC) identified alongside SRT1720 and SRT1460 as a chemically diverse, potent SIRT1 activator that followed the polyphenolic STACs resveratrol, piceatannol, butein, quercetin, and myricetin. These compounds were reported to have anticancer activity, but their activation mechanism is debated because activity was frequently only demonstrable with fluorescently tagged substrates, and metabolic benefits may reflect indirect actions (cAMP-Epac1-AMPK) rather than direct SIRT1 binding. Directionally, SRT2183 belongs to the synthetic STAC class whose mechanism remains an open question.",
+    "confidence": "medium",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Ro31-8220",
+    "predicate": "is_a",
+    "object": "Kinase-inhibitor scaffold",
+    "context": "Ro31-8220 is a bisindolylmaleimide compound originally developed as a protein kinase C inhibitor; its adenosine-binding scaffold allowed it to be repurposed as an inhibitor of SIRT1 and SIRT2 in the low micromolar range. It belongs to the kinase-inhibitor scaffolds identified by screening known kinase inhibitors against sirtuins, sharing this property with the indolinone GW5074. Directionally, Ro31-8220's identity as a kinase-inhibitor scaffold underlies its cross-reactivity with sirtuins through the shared adenosine-binding site. Because it retains potent kinase activity, cellular effects cannot be attributed solely to sirtuin inhibition.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "GW5074",
+    "predicate": "is_a",
+    "object": "Kinase-inhibitor scaffold",
+    "context": "GW5074 is an indolinone compound originally developed as a c-Raf kinase inhibitor; like the bisindolylmaleimide Ro31-8220, it was repurposed as a sirtuin inhibitor after screening known kinase inhibitors against SIRT2 based on the shared adenosine-binding site between sirtuins and kinases. GW5074 shows SIRT1/SIRT2 inhibitory activity in the low micromolar range. Directionally, its identity as a kinase-inhibitor scaffold enables engagement of the sirtuin NAD+ pocket. Its continued kinase activity complicates interpretation in cells, highlighting the need for selectivity optimization in dual kinase/sirtuin inhibitor design.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "NF675",
+    "predicate": "is_a",
+    "object": "SIRT1-selective inhibitor",
+    "context": "NF675 is a suramin-derived small molecule that is the most potent and selective compound in its scaffold series, showing a 20-fold selectivity ratio for SIRT1 over SIRT2. It was obtained through optimization of the suramin scaffold, which itself is a nanomolar inhibitor of SIRT1/SIRT2. Directionally, NF675's identity as a suramin-derived, SIRT1-selective inhibitor illustrates scaffold engineering for isoform selectivity within the sirtuin inhibitor field. Its modest drug-likeness, stemming from high molecular weight and anionic character, limits therapeutic application despite good potency and selectivity.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is_inhibited_by",
+    "object": "Kinase-inhibitor scaffolds",
+    "context": "SIRT2 is inhibited by kinase-inhibitor scaffolds identified by screening known kinase inhibitors against the enzyme on the rationale that sirtuins and protein kinases share an adenosine-binding site. The bisindolylmaleimide Ro31-8220 and the indolinone GW5074 showed SIRT1/SIRT2 inhibitory properties in the low micromolar range, alongside the general Kinase enzyme family that shares the adenosine pocket. Directionally, the shared adenosine-binding site of SIRT2 and protein kinases underlies this cross-inhibition. Because these scaffolds retain kinase activity, their cellular effects reflect a combination of kinase and sirtuin blockade.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Kinase",
+    "predicate": "share",
+    "object": "Adenosine-binding site with SIRT2",
+    "context": "Protein kinases share an adenosine-binding site with sirtuins such as SIRT2, an overlap exploited by screening known kinase inhibitors against sirtuins as a drug-discovery strategy. This shared adenosine pocket allows scaffolds like the bisindolylmaleimide Ro31-8220 and the indolinone GW5074 to engage both families, inhibiting SIRT1 and SIRT2 in the low micromolar range while retaining kinase activity. Directionally, the enzyme superfamily of Kinase proteins and sirtuin deacetylases both rely on an adenosine-binding pocket, explaining the cross-reactivity between kinase-inhibitor scaffolds and sirtuins. This structural convergence frames interpretation of kinase-inhibitor effects in sirtuin biology.",
+    "confidence": "high",
+    "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
   }
 ]
