@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 11_AUG_2026 | 30 | 1571 | 917,899 | 7.93 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 13_AUG_2026 | 30 | 1577 | 920,067 | 7.95 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 11_AUG_2026 | 19 | 262 | 200,668 | 2.24 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 09_AUG_2026 | 12 | 233 | 181,011 | 1.54 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_AUG_2026 | 11 | 269 | 236,901 | 2.45 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 09_AUG_2026 | 2 | 34 | 20,917 | 0.30 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 09_AUG_2026 | 9 | 195 | 198,594 | 1.75 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 11_AUG_2026 | 1 | 65 | 68,432 | 0.91 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 11_AUG_2026 | 1 | 65 | 68,432 | 0.76 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 09_AUG_2026 | 15 | 47 | 144,775 | 1.85 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 11_AUG_2026 | 12 | 130 | 230,673 | 2.37 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 13_AUG_2026 | 14 | 148 | 263,502 | 2.89 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 11_AUG_2026 | **113** | **2879** | **2,253,547** | **21.94 MB** |
+| **subtotal** | 13_AUG_2026 | **115** | **2903** | **2,288,544** | **22.33 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -117,8 +117,10 @@
 ## Documents
 
 <details>
-<summary><strong>Documents (113 total)</strong> — click to expand</summary>
+<summary><strong>Documents (115 total)</strong> — click to expand</summary>
 
+- `sirtuins`: [Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Rejuvenating%20Sirtuins%20The%20Rise%20of%20a%20New%20Family%20of%20Cancer%20Drug%20Targets.md) [[src/notes/sirtuins/_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md|wiki]] (13_AUG_2026 09:48 AM PDT)
+- `sirtuins`: [Sirtuins and their Biological Relevance in Aging and Age-Related Diseases](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[src/notes/sirtuins/_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md|wiki]] (12_AUG_2026 04:48 PM PDT)
 - `_link`: [Kinase](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Kinase.md) [[src/notes/_link/_document_ - Kinase.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - `_link`: [Methylene Blue Dosage What Actually Works (And What's Too Much)](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Methylene%20Blue%20Dosage%20What%20Actually%20Works%20%28And%20What%27s%20Too%20Much%29.md) [[src/notes/_link/_document_ - Methylene Blue Dosage What Actually Works (And What's Too Much).md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - `adrenochrome`: [The Adrenochrome Pathway](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/adrenochrome/_document_%20-%20The%20Adrenochrome%20Pathway.md) [[src/notes/adrenochrome/_document_ - The Adrenochrome Pathway.md|wiki]] (09_AUG_2026 06:08 PM PDT)
@@ -242,7 +244,7 @@
 <details>
 <summary><strong>Tasks (69 total)</strong> — click to expand</summary>
 
-- [task_output_sirtuins_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md|wiki]] (12_AUG_2026 03:29 PM PDT)
+- [task_output_sirtuins_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md|wiki]] (13_AUG_2026 08:48 AM PDT)
 - [task_output_sirtuins_disease_complications_11_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md|wiki]] (11_AUG_2026 03:56 PM PDT)
 - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (11_AUG_2026 08:43 AM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
