@@ -2,9 +2,14 @@
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
-async function getJSON(url, logName) {
+// JSON files live one directory above components/ (i.e. alongside three-graph.html).
+// Resolve relative to this module so it works no matter where the server root is.
+const DATA_BASE = new URL('../', import.meta.url).href;
+
+async function getJSON(name, logName) {
   try {
-    const resp = await fetch(url + '?v=' + Date.now());
+    const resp = await fetch(DATA_BASE + name + '?v=' + Date.now());
+    if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText} for ${name}`);
     return await resp.json();
   } catch (e) {
     console.warn(`Could not load ${logName}:`, e);
@@ -16,14 +21,14 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, WIKI_CONTEXT, TRACES, TRANSLATIONS] = await Promise.all([
-    getJSON('../nodes.json', 'nodes'),
-    getJSON('../edges.json', 'edges'),
-    getJSON('../legend.json', 'legend'),
-    getJSON('../graph.json', 'graph'),
-    getJSON('../manifest.json', 'manifest'),
-    getJSON('../wiki-context.json', 'wiki-context'),
-    getJSON('../query.json', 'traces'),
-    getJSON('../translations-zh-TW.json', 'translations'),
+    getJSON('nodes.json', 'nodes'),
+    getJSON('edges.json', 'edges'),
+    getJSON('legend.json', 'legend'),
+    getJSON('graph.json', 'graph'),
+    getJSON('manifest.json', 'manifest'),
+    getJSON('wiki-context.json', 'wiki-context'),
+    getJSON('query.json', 'traces'),
+    getJSON('translations-zh-TW.json', 'translations'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],

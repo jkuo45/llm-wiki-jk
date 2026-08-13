@@ -91,6 +91,29 @@ function toggleSidebar() {
 mobileToggle.addEventListener('click', toggleSidebar);
 sidebarClose.addEventListener('click', closeSidebar);
 
+// ------------------------------------------------------------
+// Sidebar tabs (Search & Filters / Settings)
+// ------------------------------------------------------------
+function switchTab(tabName) {
+  document.querySelectorAll('#sidebar-tabs .tab').forEach(t => {
+    const active = t.dataset.tab === tabName;
+    t.classList.toggle('active', active);
+    t.setAttribute('aria-selected', String(active));
+  });
+  const show = document.getElementById(`tab-${tabName}`);
+  document.querySelectorAll('.tab-pane').forEach(p => {
+    if (p === show) {
+      p.hidden = false;
+    } else {
+      p.hidden = true;
+    }
+  });
+}
+
+document.querySelectorAll('#sidebar-tabs .tab').forEach(tab => {
+  tab.addEventListener('click', () => switchTab(tab.dataset.tab));
+});
+
 // Sidebar starts closed (HTML has class="closed")
 document.activeElement?.blur();
 

@@ -5,10 +5,17 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #sidebar { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; background: #1a1a2e; display: flex; flex-direction: column; overflow: hidden; z-index: 100; transform: translateY(100%); transition: transform 0.3s ease; }
 #sidebar.open { transform: translateY(0); }
 
-#sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 56px; }
-#sidebar-header span { font-size: 16px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+#sidebar-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px 0 16px; border-bottom: 1px solid #2a2a4e; background: #16162b; min-height: 56px; }
+#sidebar-tabs { display: flex; flex: 1; gap: 6px; min-width: 0; align-items: stretch; }
+#sidebar-tabs .tab { flex: 1; background: transparent; border: none; border-bottom: 2px solid transparent; color: #888; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 10px 4px; cursor: pointer; white-space: nowrap; transition: color 0.15s, border-color 0.15s; }
+#sidebar-tabs .tab:hover { color: #e0e0e0; }
+#sidebar-tabs .tab.active { color: #e0e0e0; border-bottom-color: #4E79A7; }
+#sidebar-tabs .tab .tab-zh { display: block; font-size: 11px; font-weight: 400; color: #666; text-transform: none; letter-spacing: normal; margin-top: 2px; }
+#sidebar-tabs .tab.active .tab-zh { color: #8a9bbf; }
 #sidebar-close { background: none; border: none; color: #888; font-size: 28px; cursor: pointer; padding: 4px 8px; line-height: 1; transition: color 0.15s; }
 #sidebar-close:hover { color: #e0e0e0; }
+.tab-pane { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow-y: auto; }
+.tab-pane[hidden] { display: none; }
 
 #search-wrap { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; }
 #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 14px 16px; border-radius: 8px; font-size: 18px; outline: none; }
@@ -231,9 +238,17 @@ a.data-source:hover { border-color: #6b9bc7; }
 
 /* Controls overlay */
 #controls { position: absolute; bottom: 16px; left: 12px; right: 12px; display: flex; gap: 8px; z-index: 10; flex-wrap: wrap; justify-content: center; }
-#controls button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 1; min-width: 0; white-space: nowrap; }
+#controls button { display: flex; align-items: center; justify-content: center; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 1; min-width: 0; white-space: nowrap; }
 #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
 #controls button.active { background: #4E79A7; border-color: #4E79A7; }
+
+/* Display toggles (in sidebar) */
+#display-panel { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; }
+#display-panel h3 { font-size: 15px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+.display-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.display-grid button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 10px 6px; border-radius: 8px; cursor: pointer; font-size: 13px; transition: all 0.15s; white-space: nowrap; }
+.display-grid button:hover { background: #2a2a4e; border-color: #4E79A7; }
+.display-grid button.active { background: #4E79A7; border-color: #4E79A7; }
 
 /* Toggle button */
 #mobile-toggle { display: none; position: fixed; top: 12px; right: 12px; z-index: 50; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; width: 52px; height: 52px; border-radius: 10px; cursor: pointer; align-items: center; justify-content: center; font-size: 24px; margin: 0; transform: translateZ(0); }

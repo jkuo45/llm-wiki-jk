@@ -113,7 +113,8 @@ function attachLabelHandlers() {
       hideEdgeLabel();
       container.style.cursor = 'pointer';
       const rect = container.getBoundingClientRect();
-      showNodeTooltip(nodeData, rect.left + 15, rect.top + 15);
+      const labelRect = div.getBoundingClientRect();
+      showNodeTooltip(nodeData, labelRect.left - rect.left, labelRect.bottom - rect.top + 6);
     });
 
     div.addEventListener('mouseleave', () => {
