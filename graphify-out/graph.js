@@ -11,6 +11,7 @@ import { parseHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
+import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: chat.js attaches its own listeners.
 import './chat.js';
 
@@ -99,6 +100,11 @@ document.addEventListener('click', (e) => {
 // ------------------------------------------------------------
 function restoreFromHash(params) {
   state.suppressHashUpdate = true;
+  if (params && params.reader) {
+    openReader(params.reader);
+  } else if (isReaderOpen()) {
+    closeReader();
+  }
   if (!params) {
     deselectNode();
     clearTrace();

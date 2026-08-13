@@ -91,8 +91,7 @@ function toggleSidebar() {
 mobileToggle.addEventListener('click', toggleSidebar);
 sidebarClose.addEventListener('click', closeSidebar);
 
-// Sidebar starts open
-openSidebar();
+// Sidebar starts closed (HTML has class="closed")
 document.activeElement?.blur();
 
 // ------------------------------------------------------------

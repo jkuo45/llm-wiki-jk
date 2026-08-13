@@ -136,6 +136,51 @@ a.data-source:hover { border-color: #6b9bc7; }
 
 /* Dataset info panel */
 #btn-dataset { white-space: nowrap; }
+#top-links a.btn-page { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; }
+#top-links a.btn-page:hover { background: #2a2a4e; border-color: #4E79A7; }
+
+/* Full-page modal (loads sub-page in iframe) */
+#page-modal-overlay {
+  position: fixed; inset: 0; z-index: 600;
+  background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
+  display: none; align-items: stretch; justify-content: center;
+  padding: 18px;
+}
+#page-modal-overlay.visible { display: flex; }
+#page-modal {
+  background: #0f0f1a; border: 1px solid #3a3a5e; border-radius: 12px;
+  width: 100%; max-width: 1400px;
+  display: flex; flex-direction: column; overflow: hidden;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
+  animation: modal-in 0.2s ease;
+}
+#page-modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 18px; border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0;
+}
+#page-modal-header h2 { font-size: 16px; color: #e0e0e0; margin: 0; padding-right: 16px; }
+#page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; }
+#page-modal-open { color: #7cb3d4; text-decoration: none; font-size: 13px; }
+#page-modal-open:hover { color: #a0d4f0; }
+#reader-prev {
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
+  color: #e0e0e0; font-size: 15px; line-height: 1; padding: 6px 10px; cursor: pointer;
+  transition: all 0.15s;
+}
+#reader-prev:hover:not(:disabled) { border-color: #4E79A7; background: #2a2a4e; }
+#reader-prev:disabled { opacity: 0.35; cursor: default; }
+#reader-select {
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
+  color: #e0e0e0; font-size: 13px; padding: 4px 8px; cursor: pointer;
+  max-width: 320px;
+}
+#reader-select:focus { outline: none; border-color: #4E79A7; }
+#page-modal-close {
+  background: none; border: none; color: #888; font-size: 26px; cursor: pointer;
+  padding: 2px 8px; line-height: 1; transition: color 0.15s;
+}
+#page-modal-close:hover { color: #e0e0e0; }
+#page-modal-frame { flex: 1; width: 100%; border: none; background: #0f0f1a; min-height: 0; }
 #dataset-panel {
   position: absolute; top: 66px; left: 12px; z-index: 250;
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 8px;

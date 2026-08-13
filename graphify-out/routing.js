@@ -15,6 +15,9 @@ export function updateHash(pushState = true) {
   if (state.selectedEdge) {
     parts.push(`edge=${encodeURIComponent(state.selectedEdge.from)},${encodeURIComponent(state.selectedEdge.to)}`);
   }
+  if (state.readerId) {
+    parts.push(`reader=${encodeURIComponent(state.readerId)}`);
+  }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
   if (pushState) {

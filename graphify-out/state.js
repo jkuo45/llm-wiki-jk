@@ -13,6 +13,7 @@ export const state = {
   showLabels: true,
   sidebarInfoActive: true,
   suppressHashUpdate: false,
+  readerId: null,
 };
 
 export const stickyNodes = new Set();
