@@ -13,6 +13,11 @@ export const ARTICLES = [
     path: 'pages/sirtuin_pleiotropic_roles.html',
     default: true,
   },
+  {
+    id: 'sirtuin-pleiotropy-zh',
+    title: 'Sirtuin Pleiotropic Roles（繁體中文）/ 去乙醯酶多效性（繁體中文）',
+    path: 'pages/sirtuin_pleiotropic_roles_zh_TW.html',
+  },
 ];
 
 export const getArticle = (id) => ARTICLES.find((a) => a.id === id) || null;
