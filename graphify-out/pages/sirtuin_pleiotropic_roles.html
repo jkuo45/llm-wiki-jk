@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIRT Pleiotropy Explorer — Tumor Metabolism &amp; Therapeutics</title>
+<style>
+  :root{
+    --bg:#0f0f1a; --bg2:#16162b; --card:#1a1a2e; --line:#2a2a4e; --line2:#3a3a5e;
+    --text:#e0e0e0; --dim:#9a9ab0; --mute:#6b6b85;
+    --teal:#3EC9A7; --red:#E4575E; --amber:#E8A33D; --purple:#9D8DF1; --blue:#5DA8FF; --pink:#F283B2;
+    --green:#58D68D; --orange:#F5A65B;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg); color:var(--text);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  a{color:var(--teal); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  code{background:#23233f; padding:1px 6px; border-radius:4px; font-size:.9em;}
+  .wrap{max-width:1200px; margin:0 auto; padding:0 24px;}
+  section{padding:56px 0; border-top:1px solid var(--line); scroll-margin-top:60px;}
+  h1{font-size:2.3rem; line-height:1.2; letter-spacing:-.5px;}
+  h2{font-size:1.5rem; margin-bottom:6px; letter-spacing:-.3px;}
+  h3{font-size:1.05rem; margin:18px 0 8px;}
+  .sub{color:var(--dim);}
+  .lead{color:var(--dim); max-width:900px; font-size:1.05rem;}
+  .badge{display:inline-block; background:#23233f; border:1px solid var(--line); color:var(--dim);
+    padding:2px 10px; border-radius:999px; font-size:.75rem; margin-right:6px; margin-bottom:6px;}
+  .badge.teal{color:var(--teal); border-color:var(--teal);}
+  .badge.red{color:var(--red); border-color:var(--red);}
+  .grid{display:grid; gap:16px;}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px;}
+  .card h3{margin-top:0;}
+  .kicker{text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--teal); margin-bottom:8px; font-weight:700;}
+  /* nav */
+  nav{position:sticky; top:0; z-index:50; background:rgba(15,15,26,.92); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; align-items:center; gap:18px; overflow-x:auto; white-space:nowrap; height:52px;}
+  nav .brand{font-weight:700; color:var(--text); margin-right:6px;}
+  nav a.brand:hover{color:var(--teal); text-decoration:none;}
+  nav a.n{color:var(--dim); font-size:.85rem;}
+  nav a.n:hover{color:var(--teal); text-decoration:none;}
+  /* hero */
+  header{padding:64px 0 40px;}
+  header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
+  .pill-row{margin-top:14px;}
+  /* spectrum */
+  .spectrum-card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;}
+  #spectrumSvg{width:100%; height:auto; display:block;}
+  .legend{display:flex; flex-wrap:wrap; gap:14px; font-size:.8rem; color:var(--dim); margin-top:10px;}
+  .legend span{display:flex; align-items:center; gap:6px;}
+  .sw{width:12px; height:12px; border-radius:3px; display:inline-block;}
+  /* compartment map */
+  #compSvg{width:100%; height:auto;}
+  /* matrix */
+  #matrixSvg{width:100%; height:auto;}
+  /* network */
+  .net-head{display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:8px;}
+  #netSvg{width:100%; height:560px; background:radial-gradient(circle at 50% 45%, #191934 0%, #0f0f1a 70%); border:1px solid var(--line); border-radius:12px;}
+  .net-legend{display:flex; flex-wrap:wrap; gap:10px; font-size:.75rem; color:var(--dim); margin-top:8px;}
+  #netTip{position:absolute; pointer-events:none; background:#23233f; border:1px solid var(--line2);
+    padding:8px 12px; border-radius:8px; font-size:.78rem; max-width:320px; display:none; box-shadow:0 6px 24px rgba(0,0,0,.5); z-index:60;}
+  /* sirt cards */
+  .sirt-card{border-radius:14px; border:1px solid var(--line); background:var(--card); overflow:hidden;}
+  .sirt-head{padding:16px 20px; display:flex; align-items:flex-start; gap:12px; border-bottom:1px solid var(--line);}
+  .sirt-head h3{font-size:1.15rem; margin:0; min-width:64px; line-height:1.25; flex-shrink:0;}
+  .sirt-head .tagline{flex:1; min-width:0; color:var(--dim); font-size:.78rem;}
+  .sirt-head .comp{color:var(--dim); font-size:.8rem; margin-left:auto; text-align:right; white-space:nowrap; flex-shrink:0; line-height:1.4;}
+  .sirt-body{padding:16px 20px;}
+  .faces{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  .face{padding:12px; border-radius:10px; font-size:.85rem;}
+  .face.suppress{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
+  .face.onco{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
+  .face h4{font-size:.78rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;}
+  .face.suppress h4{color:var(--green);}
+  .face.onco h4{color:var(--red);}
+  .face ul{padding-left:16px; margin:0;}
+  .face li{margin-bottom:5px;}
+  .context{padding:12px; border-radius:10px; background:#23233f; border:1px solid var(--line); font-size:.82rem; margin-top:12px;}
+  .context b{color:var(--amber);}
+  /* therapeutic table */
+  .tbl-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:12px; max-height:520px; overflow-y:auto;}
+  table{border-collapse:collapse; width:100%; font-size:.83rem;}
+  th,td{padding:8px 12px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap;}
+  th{position:sticky; top:0; background:var(--bg2); color:var(--dim); font-size:.72rem; text-transform:uppercase; letter-spacing:1px; z-index:2;}
+  tbody tr:hover{background:#202038;}
+  td .mod-act{color:var(--green);}
+  td .mod-inh{color:var(--red);}
+  td .mod-ind{color:var(--blue);}
+  .stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
+  .stage.prec{color:var(--amber); border-color:var(--amber);}
+  .stage.phase{color:var(--blue); border-color:var(--blue);}
+  .stage.ct{color:var(--teal); border-color:var(--teal);}
+  .stage.appr{color:var(--green); border-color:var(--green);}
+  /* patterns */
+  .pattern{border-left:3px solid var(--teal); padding:4px 0 4px 16px; margin-bottom:14px;}
+  .pattern b{color:var(--teal);}
+  .caveat{background:rgba(232,163,61,.08); border:1px solid rgba(232,163,61,.3); border-radius:12px; padding:18px 22px; margin-top:24px;}
+  .caveat b{color:var(--amber);}
+  footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute); font-size:.8rem;}
+  .btn{display:inline-block; background:var(--teal); color:#0b1220; font-weight:700; padding:8px 18px; border-radius:8px; font-size:.85rem; cursor:pointer; border:none;}
+  .btn:hover{filter:brightness(1.1); text-decoration:none;}
+  @media (max-width:720px){ .faces{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#spectrum">Opposing SIRTs</a>
+    <a class="n" href="#compartment">Cell Map</a>
+    <a class="n" href="#axes">Metabolic Axes</a>
+    <a class="n" href="#network">Knowledge Graph</a>
+    <a class="n" href="#sirts">SIRT by SIRT</a>
+    <a class="n" href="#therapeutics">Therapeutics</a>
+    <a class="n" href="#patterns">Patterns</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Interactive explainer · llm-wiki-jk</div>
+    <h1>Pleiotropic Roles of SIRTs in Tumor Cell Metabolism &amp; Therapeutic Targeting</h1>
+    <p class="lead" style="margin-top:14px;">
+      The seven mammalian sirtuins (SIRT1–SIRT7) are NAD<sup>+</sup>-dependent acyltransferases that act as a
+      <b style="color:var(--text)">compartmentalized, context-dependent metabolic rheostat</b>. The same enzyme can be
+      tumor-suppressive <i>or</i> oncogenic depending on subcellular location, tumor type, stage, and NAD<sup>+</sup> availability.
+      This page turns the task-output synthesis into interactive charts of the opposing sirtuin behaviors.
+    </p>
+    <div class="meta">
+      Source synthesis: <a href="https://doi.org/10.1038/s41392-022-01257-8" target="_blank">Sirtuins in Health and Disease (Wu et al., 2022)</a> ·
+      Giblin et al. 2014 · wiki notes on SIRT1–SIRT7 · built from <code>src/tasks/task_output_sirts_pleiotropic_roles_12_August_2026.md</code>
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">7 isoforms</span>
+      <span class="badge">NAD<sup>+</sup>-dependent</span>
+      <span class="badge">deacetylase / demalonylase / desuccinylase / deglutarylase / ADP-ribosylase</span>
+      <span class="badge teal">3 compartments</span>
+      <span class="badge red">dual · context-dependent</span>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <h2>Why the same enzyme can fight cancer and feed it</h2>
+    <p class="lead" style="margin-bottom:20px;">Pleiotropy stems from three interacting sources.</p>
+    <div class="grid g3">
+      <div class="card">
+        <h3>1 · Compartmentalization</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b style="color:var(--text)">Nuclear</b> SIRT1/6/7 control <i>transcription</i> of metabolic programs.<br>
+          <b style="color:var(--text)">Cytosolic</b> SIRT2 tunes cytoskeleton &amp; cell cycle.<br>
+          <b style="color:var(--text)">Mitochondrial</b> SIRT3/4/5 set the <i>metabolic setpoint</i> (TCA, glutamine, redox).
+          "SIRT output" is the integration of a mitochondrial setpoint and a nuclear transcriptional gate.
+        </p>
+      </div>
+      <div class="card">
+        <h3>2 · Catalytic promiscuity</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Beyond deacetylation: <code>demalonylation</code>, <code>desuccinylation</code>, <code>deglutarylation</code>, and
+          <code>ADP-ribosylation</code>. SIRT5 has almost no classical deacetylase activity (a desuccinylase/demalonylase/deglutarylase),
+          and resists <b style="color:var(--amber)">nicotinamide inhibition</b> — staying active where SIRT1–3 are suppressed.
+        </p>
+      </div>
+      <div class="card">
+        <h3>3 · Context-dependence</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Same substrate, opposite sign: SIRT1 and SIRT3 both deacetylate <code>p53</code> yet with pro- vs anti-tumor consequences;
+          SIRT7's H3K18 deacetylation both lifts <code>p21</code> (pro-proliferative) and silences EMT genes (anti-metastatic).
+          No sirtuin is purely "pro-" or "anti-" cancer.
+        </p>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--teal); font-weight:700;">7</div>
+        <div style="color:var(--dim); font-size:.85rem;">NAD<sup>+</sup>-coupled isoforms — tumor metabolic state (Complex I, glutaminolysis, NAMPT/CD38) directly gates their output</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--purple); font-weight:700;">3</div>
+        <div style="color:var(--dim); font-size:.85rem;">Nuclear SIRT1/6/7 · cytosolic SIRT2 · mitochondrial SIRT3/4/5</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--red); font-weight:700;">0</div>
+        <div style="color:var(--dim); font-size:.85rem;">Sirtuins that are purely anti-cancer — every isoform is context-dependent</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECTRUM -->
+<section id="spectrum">
+  <div class="wrap">
+    <h2>Opposing SIRTs — the tumor-suppressor ⇄ oncogenic spectrum</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      Each bar is a sirtuin's <b style="color:var(--text)">net lean</b> across tumor biology (right = more consistently tumor-suppressive,
+      left = more consistently oncogenic/pro-tumor). The shaded <b style="color:var(--dim)">context window</b> shows how far the same
+      isoform can flip sign by tumor type, stage, or dose. Hover a bar for the rationale.
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="spectrumSvg" viewBox="0 0 1000 634" role="img" aria-label="Sirtuin duality spectrum"></svg>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> tumor-suppressor lean</span>
+        <span><span class="sw" style="background:var(--red)"></span> oncogenic / pro-tumor lean</span>
+        <span><span class="sw" style="background:rgba(224,224,224,.12)"></span> context window (dual range)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARTMENT -->
+<section id="compartment">
+  <div class="wrap">
+    <h2>The compartment map — where each SIRT acts</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      Compartment is the first predictor of a sirtuin's role: mitochondrial trio governs metabolic state,
+      nuclear trio governs transcription of the <i>same</i> programs.
+    </p>
+    <div class="spectrum-card">
+      <svg id="compSvg" viewBox="0 0 1000 560" role="img" aria-label="Cell compartment diagram"></svg>
+    </div>
+  </div>
+</section>
+
+<!-- MATRIX -->
+<section id="axes">
+  <div class="wrap">
+    <h2>Metabolic axes × SIRT matrix</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Net effect of each sirtuin on four tumor-metabolic axes. <b style="color:var(--teal)">Teal</b> = tumor-suppressive action on that axis,
+      <b style="color:var(--red)">red</b> = pro-tumor action, <b style="color:var(--amber)">amber</b> = truly bidirectional/dual on that axis.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Hover a cell for the mechanism.</p>
+    <div class="spectrum-card">
+      <div id="matrixWrap">
+        <svg id="matrixSvg" viewBox="0 0 920 624" role="img" aria-label="Sirtuin by metabolic axis matrix"></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NETWORK -->
+<section id="network">
+  <div class="wrap">
+    <h2>SIRT knowledge graph — from the wiki graph</h2>
+    <p class="lead">
+      A 76-node / 101-edge subgraph of <code>graphify-out/graph.json</code> around the seven sirtuin hubs.
+      Node size = connectivity; edge labels are the graph's own extracted relations. Drag nodes, hover to inspect, click a hub to highlight its neighborhood.
+    </p>
+    <div class="net-head">
+      <button class="btn" id="netReset">Reset layout</button>
+      <span class="badge" id="netStats"></span>
+    </div>
+    <div style="position:relative;">
+      <svg id="netSvg" viewBox="0 0 1100 560" role="img" aria-label="Sirtuin knowledge graph"></svg>
+      <div id="netTip"></div>
+    </div>
+    <div class="net-legend" id="netLegend"></div>
+  </div>
+</section>
+
+<!-- SIRT BY SIRT -->
+<section id="sirts">
+  <div class="wrap">
+    <h2>SIRT by SIRT — dual faces</h2>
+    <p class="lead" style="margin-bottom:20px;">
+      Every isoform carries a <b style="color:var(--green)">suppressor face</b> and an <b style="color:var(--red)">oncogenic face</b>.
+      The balance depends on dose, stage, and genetic background.
+    </p>
+    <div class="grid" style="grid-template-columns:1fr 1fr; gap:18px;">
+      <!-- SIRT1 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">the archetypal "double-edged sword"</span>
+          <span class="comp">Nucleus<br>+ cytosol</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Tumor-suppressive</h4><ul>
+              <li>Deacetylates p53, Ku70, p73, FOXO → favors <b>repair over apoptosis</b> under acute stress</li>
+              <li>hnRNP A1 deacetylation → suppresses glycolysis/growth in <b>HCC</b></li>
+              <li>AR (Lys630) deacetylation → represses prostate growth</li>
+              <li>NF-κB p65 &amp; HMGB1 suppression → anti-angiogenic in ovarian cancer</li>
+              <li>PAK1 K420 deacetylation → hinders glioblastoma</li>
+            </ul></div>
+            <div class="face onco"><h4>Oncogenic / pro-tumor</h4><ul>
+              <li>p53 deacetylation in <b>chronic</b> setting blunts the tumor-suppressor brake</li>
+              <li>Partners with c-Myc &amp; HIF-1α</li>
+              <li>EMT/metadherin → chemoresistance in TNBC</li>
+              <li>cisplatin resistance (VEGF-A) in NSCLC; tamoxifen resistance (MRP2/FoxO1)</li>
+              <li>T-ALL via CDK2 deacetylation → p27 degradation</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context variables:</b> dose (CRC: heterozygous KO → c-Myc/glutamine/proliferation; homozygous KO → apoptosis), tumor type (suppressor in glioma/HCC; promoter in gastric/endometrial/leukemia), severity (cardiac: 7.5× protective, 12.5× pathogenic).</div>
+        </div>
+      </div>
+      <!-- SIRT2 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--purple)">SIRT2</h3><span class="tagline">epithelial suppressor, basal-like/leukemia promoter</span>
+          <span class="comp">Cytosol</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Tumor-suppressive</h4><ul>
+              <li>BRCA1–BARD1 heterodimerization → homologous recombination (breast)</li>
+              <li>IDH1 deacetylation → inhibits CRC liver metastasis</li>
+              <li>AKR1C1 + STAT3 inhibition → suppresses NSCLC migration</li>
+              <li>Sensitizes ovarian cancer to cisplatin</li>
+            </ul></div>
+            <div class="face onco"><h4>Oncogenic / pro-tumor</h4><ul>
+              <li>Slug deacetylation → stabilization → basal-like breast invasion</li>
+              <li>Phosphoglycerate mutase K100 → NADPH flux → lung tumor growth</li>
+              <li>Endometrial cancer stemness / MEK-ERK signaling</li>
+              <li>LMO2 deacetylation → T-ALL growth/engraftment</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context:</b> cytosolic sirtuin that often <b>opposes the protective SIRT1/3/6 axis</b>. Harmful in neurodegeneration (AD, PD, HD), protective in metabolic/renal/joint disease. In leukemia it splits: NAMPT/SIRT2 activation reduces AML proliferation, but SIRT2 inhibition suppresses T-ALL.</div>
+        </div>
+      </div>
+      <!-- SIRT3 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">mitochondrial "guardian", double-edged oxidative phenotype</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Tumor-suppressive (metabolic)</h4><ul>
+              <li>MnSOD/SOD2 + IDH2 activation → lowers ROS → <b>destabilizes HIF-1α</b> (anti-Warburg)</li>
+              <li>Stimulates pyruvate dehydrogenase → oxidative TCA flux</li>
+              <li>Twist downregulation → suppresses ovarian metastasis</li>
+              <li>GST-π1 downregulation → sensitizes HCC to sorafenib/chemo</li>
+              <li>Disrupts ERα–p53 interaction in breast</li>
+            </ul></div>
+            <div class="face onco"><h4>Oncogenic (same biology, flipped)</h4><ul>
+              <li>Suppresses ROS so well → <b>radiore/chemoresistance</b> (ATM–Chk2 in NSCLC)</li>
+              <li>Improves drug resistance in CRC (SOD2/PGC-1α)</li>
+              <li>p53 deacetylation (onco-route)</li>
+              <li>ACC1 upregulation → lipogenesis → cervical cancer invasion</li>
+              <li>Ku70–Bax stabilization → glioma viability</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Core tension:</b> low-ROS/intact-OXPHOS "guardian" phenotype prevents <b>cancer initiation</b> but keeps <b>established tumors</b> alive by preventing stress-induced death. Genuinely dual in NAFLD and osteoarthritis. Elevated in node-positive breast cancer and OSCC.</div>
+        </div>
+      </div>
+      <!-- SIRT4 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--teal)">SIRT4</h3><span class="tagline">most consistently tumor-suppressive — with a metabolic cost</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Tumor-suppressive (dominant)</h4><ul>
+              <li>GDH mono-ADP-ribosylation → limits glutamine→α-KG flux → <b>directly attacks glutamine addiction</b></li>
+              <li>Represses mTOR via amino-acid-stimulated insulin secretion</li>
+              <li>p16/p21 upregulation + CyclinB1/Cdc2/Cdc25c suppression → HCC apoptosis</li>
+              <li>Restores E-cadherin in CRC</li>
+              <li>Negatively regulates SIRT1 via glutamine-metabolism repression</li>
+            </ul></div>
+            <div class="face onco"><h4>Why context still matters</h4><ul>
+              <li>GDH inhibition → reduced amino-acid-stimulated insulin secretion</li>
+              <li>Suppresses hepatic fatty-acid oxidation (MTPα) → lipid accumulation</li>
+              <li>Only sirtuin with adverse cardiac effects (aggravates Ang II hypertrophy/fibrosis)</li>
+              <li>Metabolically "thrifty" — antitumor but costly</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Loss is uniformly prognostic for poor survival</b> in HCC, gastric, CRC, bladder, breast cancer. Therapeutic angle: preserve/induce as a glutamine-addiction brake.</div>
+        </div>
+      </div>
+      <!-- SIRT5 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--orange)">SIRT5</h3><span class="tagline">deacylase with pro-tumor metabolic bias</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Tumor-suppressive / contextual</h4><ul>
+              <li>Pancreatic cancer: high expression → <b>favorable prognosis</b> (loss → GOT1 acetylation → proliferation)</li>
+              <li>HCC: suppresses immune evasion / bile-acid-metabolism-driven HCC</li>
+              <li>SOD1/IDH2 desuccinylation → antioxidant defense</li>
+            </ul></div>
+            <div class="face onco"><h4>Pro-tumor metabolic reprogramming</h4><ul>
+              <li>Overexpressed in HCC, CRC, NSCLC → pushes glutaminolysis + glycolysis</li>
+              <li>LDHB desuccinylation → hyperactive autophagy → nutrient recycling</li>
+              <li>Deglutarylation-dependent glutaminolysis in CRC</li>
+              <li>cisplatin resistance in ovarian cancer via Nrf2/HO-1</li>
+              <li>HCC: promotes growth/metastasis via OXPHOS→glycolysis switch</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Note:</b> almost no classical deacetylase activity (desuccinylase/demalonylase/deglutarylase) and <b>resists nicotinamide inhibition</b> — stays active in the tumor microenvironment where SIRT1–3 are inhibited.</div>
+        </div>
+      </div>
+      <!-- SIRT6 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">most consistently protective — dual only in lung/HCC</span>
+          <span class="comp">Nucleus (heterochromatin)</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Anti-cancer (dominant)</h4><ul>
+              <li>Corepresses HIF-1α → suppresses glycolytic enzymes → <b>anti-Warburg</b></li>
+              <li>Represses survivin, c-MYC, SREBP1/2, ChREBP (anti-lipogenesis)</li>
+              <li>Coordinates CHD4 → DNA repair (DDR)</li>
+              <li>JAK2/STAT3 inhibition → HCC growth suppression</li>
+              <li>hnRNP A1 deacetylation → anti-glycolysis in HCC</li>
+            </ul></div>
+            <div class="face onco"><h4>Dual exceptions + chemoresistance</h4><ul>
+              <li>Lung: snail-dependent KLF4 transrepression → EMT/metastasis</li>
+              <li>HCC: high SIRT6 correlates with chemoresistance</li>
+              <li>Suppresses apoptosis (survivin/HIF-1α) so effectively → chemoresistance in breast/prostate</li>
+              <li>The DDR/austerity program that prevents initiation later keeps established tumors alive in therapy</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Bottom line:</b> the most unambiguously anti-cancer sirtuin (anti-Warburg, pro-DDR). Its protective genome-stability program is a double-edged sword during therapy.</div>
+        </div>
+      </div>
+      <!-- SIRT7 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--pink)">SIRT7</h3><span class="tagline">proliferative biosynthetic driver</span>
+          <span class="comp">Nucleus → nucleolus</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face suppress"><h4>Anti-metastatic (contextual)</h4><ul>
+              <li>H3K18 deacetylation at EMT-related promoters → suppresses metastasis</li>
+              <li>Same H3K18 mark that lifts p21 (pro-proliferative) also silences EMT genes — sign flips by promoter context</li>
+            </ul></div>
+            <div class="face onco"><h4>Pro-tumor (most cancers)</h4><ul>
+              <li>RNA Pol I activation → ribosome biogenesis → growth capacity</li>
+              <li>p21/CDKN1A promoter H3K18 deacetylation → cell-cycle progression</li>
+              <li>Overexpressed in breast, thyroid, HCC</li>
+              <li>E-cadherin inhibition (EMT) → CRC invasion</li>
+              <li>Suppresses p53 in HCC</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Biomarker note:</b> expression rises with positive leukemia treatment response and falls on relapse — monitoring utility rather than a fixed tumorigenic role. Undrugged target.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THERAPEUTICS -->
+<section id="therapeutics">
+  <div class="wrap">
+    <h2>Targeting the rheostat — therapeutic landscape</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Where the field stands today. Only SIRT1-directed agents have reached human trials; the most advanced clinical lever is
+      <b style="color:var(--teal)">indirect NAD<sup>+</sup> boosting</b>. Hover a bubble for details.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Bubble area ∝ number of agents at that target × stage.</p>
+    <div class="spectrum-card" style="margin-bottom:18px;">
+      <svg id="theraSvg" viewBox="0 0 1000 480" role="img" aria-label="Therapeutic agent bubble chart"></svg>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--green)"></span> activator</span>
+        <span><span class="sw" style="background:var(--red)"></span> inhibitor</span>
+        <span><span class="sw" style="background:var(--blue)"></span> indirect (NAD<sup>+</sup>)</span>
+        <span><span class="sw" style="background:var(--purple)"></span> gene therapy / lifestyle</span>
+      </div>
+    </div>
+
+    <h3>Full comparison table</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Agent</th><th>Primary Target</th><th>Modality</th><th>Development Stage</th><th>Indication(s)</th></tr></thead>
+        <tbody>
+          <tr><td>Resveratrol (SRT501)</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage phase">Clinically evaluated</span></td><td>Metabolic syndrome, aging, CV, neuroprotection</td></tr>
+          <tr><td>Pterostilbene</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage prec">Preclinical / nutraceutical</span></td><td>Metabolic, longevity</td></tr>
+          <tr><td>SRT1720</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage prec">Preclinical (tool)</span></td><td>Metabolic (obesity/insulin sensitivity)</td></tr>
+          <tr><td>SRT2104</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage phase">Phase I/II (completed)</span></td><td>Psoriasis, endotoxemia/coagulation, T2D, elderly</td></tr>
+          <tr><td>Sirtinol</td><td>SIRT1 / SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical (tool)</span></td><td>Oncology, senescence, epigenetic probing</td></tr>
+          <tr><td>Salermide</td><td>SIRT1 / SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Oncology (incl. CRC stem cells), epigenetic therapy</td></tr>
+          <tr><td>Cambinol</td><td>SIRT1 / SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>HCC/lung metastasis, chemo-sensitization</td></tr>
+          <tr><td>Tenovin-1 / Tenovin-6</td><td>SIRT1 / SIRT2 (+SIRT3)</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>p53-activating oncology, anti-tumor</td></tr>
+          <tr><td>Suramin</td><td>SIRT1 / SIRT2 / SIRT5</td><td class="mod-inh">Inhibitor</td><td><span class="stage appr">Approved (antiparasitic)</span></td><td>Repurposed oncology research</td></tr>
+          <tr><td>EX-527 (Selisistat)</td><td>SIRT1</td><td class="mod-inh">Inhibitor</td><td><span class="stage phase">Phase I/II (Huntington's)</span></td><td>Huntington's; oncology chemo-sensitization</td></tr>
+          <tr><td>AGK2</td><td>SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Parkinson's, stroke, oncology</td></tr>
+          <tr><td>AK-7</td><td>SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Neurodegeneration</td></tr>
+          <tr><td>SirReal2</td><td>SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Neurodegeneration (microtubule stability)</td></tr>
+          <tr><td>Honokiol</td><td>SIRT3</td><td class="mod-act">Activator</td><td><span class="stage prec">Preclinical</span></td><td>CV (hypertrophy), neuroprotection</td></tr>
+          <tr><td>Dihydromyricetin (Ampelopsin)</td><td>SIRT3</td><td class="mod-act">Activator</td><td><span class="stage prec">Preclinical (dietary)</span></td><td>Metabolic, hepatoprotective, neuro</td></tr>
+          <tr><td>C12</td><td>SIRT3</td><td class="mod-act">Activator</td><td><span class="stage prec">Preclinical</span></td><td>Cardioprotection</td></tr>
+          <tr><td>2-APQC</td><td>SIRT3</td><td class="mod-act">Activator</td><td><span class="stage prec">Preclinical</span></td><td>Cardioprotection</td></tr>
+          <tr><td>SKLB-11A</td><td>SIRT3</td><td class="mod-act">Activator (allosteric)</td><td><span class="stage prec">Preclinical</span></td><td>Cardiotoxicity prevention</td></tr>
+          <tr><td>SZC-6</td><td>SIRT3</td><td class="mod-act">Activator (allosteric)</td><td><span class="stage prec">Preclinical</span></td><td>Diabetic kidney disease</td></tr>
+          <tr><td>MDL-800</td><td>SIRT6</td><td class="mod-act">Activator (allosteric)</td><td><span class="stage prec">Preclinical</span></td><td>Fibrosis, cancer (anti-glycolysis)</td></tr>
+          <tr><td>MDL-801</td><td>SIRT6</td><td class="mod-act">Activator (allosteric)</td><td><span class="stage prec">Preclinical</span></td><td>Fibrosis, cancer, genomic stability</td></tr>
+          <tr><td>UBCS039</td><td>SIRT6</td><td class="mod-act">Activator (allosteric)</td><td><span class="stage prec">Preclinical</span></td><td>Acute liver failure, kidney fibrosis, tumor suppression</td></tr>
+          <tr><td>Cyanidin</td><td>SIRT6</td><td class="mod-act">Activator (natural)</td><td><span class="stage prec">Preclinical</span></td><td>Anti-Warburg, antioxidant</td></tr>
+          <tr><td>Fucoidan (F. vesiculosus)</td><td>SIRT6</td><td class="mod-act">Activator (natural)</td><td><span class="stage prec">Preclinical</span></td><td>Progeria/senotherapeutics, aging</td></tr>
+          <tr><td>NMN</td><td>Pan-sirtuin (via NAD<sup>+</sup>)</td><td class="mod-ind">Indirect activator</td><td><span class="stage ct">Clinical trials (ongoing)</span></td><td>Healthy aging, metabolic disease</td></tr>
+          <tr><td>NR (Nicotinamide Riboside)</td><td>Pan-sirtuin (via NAD<sup>+</sup>)</td><td class="mod-ind">Indirect activator</td><td><span class="stage ct">Clinical trials (ongoing)</span></td><td>Healthy aging, metabolic disease</td></tr>
+          <tr><td>CD38 inhibitor 78c</td><td>Indirect (NAD<sup>+</sup> preservation)</td><td class="mod-ind">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Longevity / aging (male-biased signal)</td></tr>
+          <tr><td>AAV-SIRT6</td><td>SIRT6</td><td class="mod-ind">Gene therapy</td><td><span class="stage prec">Preclinical</span></td><td>Progeria, aging-associated defects</td></tr>
+          <tr><td>Caloric Restriction / mimetics</td><td>Pan-sirtuin</td><td>Lifestyle / indirect</td><td><span class="stage appr">Established biology</span></td><td>Aging, metabolic health</td></tr>
+          <tr><td>SIRT4</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Glutamine-addiction brake</td></tr>
+          <tr><td>SIRT5</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Desuccinylase; nicotinamide-resistant; open target</td></tr>
+          <tr><td>SIRT7</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Ribosome-biogenesis driver; undrugged</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card"><h3>Stage legend</h3><p style="color:var(--dim); font-size:.85rem;">
+        <b style="color:var(--amber)">Preclinical</b> = cell/animal or research tool ·
+        <b style="color:var(--blue)">Phase I/II</b> = human trials (largely completed, no pivotal advancement) ·
+        <b style="color:var(--teal)">Clinical trials (ongoing)</b> = NAD<sup>+</sup>-precursor strategies ·
+        <b style="color:var(--green)">Approved</b> = marketed for non-sirtuin indication.</p></div>
+      <div class="card"><h3>Selectivity caveat</h3><p style="color:var(--dim); font-size:.85rem;">
+        Early inhibitors (sirtinol, cambinol, tenovins, suramin) are dual/multi-isoform. Truly isoform-selective allosterics
+        (EX-527→SIRT1, AGK2/SirReal2→SIRT2, MDL-800/801 &amp; UBCS039→SIRT6) are recent and preclinical.</p></div>
+      <div class="card"><h3>Context governs use</h3><p style="color:var(--dim); font-size:.85rem;">
+        Activators help when the isoform is tumor-suppressive (SIRT6 in HCC, SIRT3 guardian) but harm when oncogenic
+        (SIRT1 in gastric/endometrial, SIRT3 radioresistance, SIRT6 chemoresistance); inhibitors face the mirror risk.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PATTERNS -->
+<section id="patterns">
+  <div class="wrap">
+    <h2>Cross-cutting patterns &amp; the bottom line</h2>
+    <div style="margin-top:18px;">
+      <div class="pattern"><b>1 · ROS and DNA repair are the fault line.</b>
+        SIRT3/SIRT6 protect against oxidative damage and fix DNA — this <i>prevents tumor initiation</i> but <i>mediates therapy resistance</i>
+        in established disease (SIRT3 radioresistance, SIRT6 chemoresistance).</div>
+      <div class="pattern"><b>2 · Substrate sharing with opposite sign.</b>
+        SIRT1/SIRT3 both deacetylate p53 — SIRT1's repression is protumorigenic, SIRT3's in some models an "oncogene" route;
+        SIRT2 deacetylates Slug (onco) but BRCA1 (suppressive) via entirely different complexes.</div>
+      <div class="pattern"><b>3 · Compartment matters.</b>
+        The mitochondrial trio (SIRT3/4/5) governs metabolic state, nuclear SIRT1/6/7 govern the transcription of the same programs —
+        cellular "SIRT output" is the integration of a mitochondrial setpoint and a nuclear transcriptional gate.</div>
+      <div class="pattern"><b>4 · Dose and stage dominate.</b>
+        CRC SIRT1, cardiac SIRT1, and SIRT7's H3K18ac show the same principle: low/moderate activity is protective,
+        high/chronically activated flips to pathology; early-stage loss favors initiation, late-stage loss sensitizes to therapy.</div>
+    </div>
+    <div class="caveat">
+      <b>Caveat.</b> Every sirtuin shows dual/context-dependent behavior — metabolic phenotype cannot be read from a single sirtuin in isolation.
+      Pleiotropy is not random: it's the product of <b>NAD<sup>+</sup> availability</b>, <b>subcellular compartment</b>,
+      <b>target-site selectivity</b>, and <b>tumor evolutionary stage</b>. That is why NAD<sup>+</sup> depletion is emerging as a
+      synthetic-lethal lever in MYC-high / glutamine-dependent cancers, and why sirtuin modulation must be context-aware.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Sources</b></p>
+    <p>Wu et al., <i>Sirtuins in Health and Disease</i>, Signal Transduct Target Ther 2022 — DOI 10.1038/s41392-022-01257-8 · Giblin et al., <i>Sirtuins: Guardians of Mammalian Healthspan</i> (2014) · llm-wiki-jk notes: [[SIRT1]]–[[SIRT7]], [[NAD+]], [[HIF-1α]], [[p53]], [[Warburg Effect]].</p>
+    <p>Task output: <code>src/tasks/task_output_sirts_pleiotropic_roles_12_August_2026.md</code> · Knowledge graph: <code>graphify-out/graph.json</code> (76-node SIRT subgraph, 101 edges).</p>
+    <p style="margin-top:10px; color:var(--mute);">All charts are client-side rendered SVG/CSS — no external dependencies, works offline.</p>
+  </div>
+</footer>
+
+<script>
+"use strict";
+
+/* ============================= DATA ============================= */
+
+const SIRTS = [
+ {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'Nucleus + cytosol', score:0,  range:2.6,
+  net:'Archetypal double-edged sword',
+  rationale:'Deacetylates p53, Ku70, FOXO (repair-over-apoptosis) but partners c-Myc/HIF-1α and drives chemoresistance. Dose, type and stage decide the sign.'},
+ {id:'SIRT2', name:'SIRT2', color:'#9D8DF1', comp:'Cytosol', score:0.9, range:2.0,
+  net:'Epithelial suppressor, basal-like/leukemia promoter',
+  rationale:'BRCA1–BARD1, IDH1, AKR1C1 on the suppressor side; Slug, PGM K100, LMO2 on the pro-tumor side.'},
+ {id:'SIRT3', name:'SIRT3', color:'#58D68D', comp:'Mitochondria', score:1.5, range:1.7,
+  net:'Mostly protective; oxidative phenotype double-edged',
+  rationale:'Anti-Warburg via ROS↓ → HIF-1α destabilization, but low-ROS confers radio/chemoresistance. Guardian vs initiation, liability vs established disease.'},
+ {id:'SIRT4', name:'SIRT4', color:'#3EC9A7', comp:'Mitochondria', score:1.9, range:0.9,
+  net:'Most consistently tumor-suppressive',
+  rationale:'GDH ADP-ribosylation directly attacks glutamine addiction; loss uniformly prognostic for poor survival. Metabolically "thrifty" (lipid accumulation, adverse cardiac).'},
+ {id:'SIRT5', name:'SIRT5', color:'#F5A65B', comp:'Mitochondria', score:-1.2, range:1.3,
+  net:'Deacylase with pro-tumor metabolic bias',
+  rationale:'Pushes glutaminolysis + glycolysis in HCC/CRC/NSCLC; LDHB desuccinylation drives autophagy. Favorable in pancreatic cancer; nicotinamide-resistant.'},
+ {id:'SIRT6', name:'SIRT6', color:'#5DA8FF', comp:'Nucleus (heterochromatin)', score:2.0, range:0.8,
+  net:'Most consistently protective; dual only in lung/HCC',
+  rationale:'Anti-Warburg (HIF-1α corepressor), pro-DDR, suppresses survivin/c-MYC. Chemoresistance face: the same austerity program keeps established tumors alive.'},
+ {id:'SIRT7', name:'SIRT7', color:'#F283B2', comp:'Nucleus → nucleolus', score:-1.4, range:1.1,
+  net:'Proliferative biosynthetic driver',
+  rationale:'RNA Pol I → ribosome biogenesis; p21 H3K18 deacetylation → cell cycle. Anti-metastatic face via the same H3K18 mark at EMT promoters.'},
+];
+
+const AXES = ['Glycolysis / Warburg', 'Glutamine / TCA anaplerosis', 'ROS / redox', 'Lipid homeostasis', 'Growth machinery / cell fate'];
+const sirtOrder = ['SIRT1','SIRT2','SIRT3','SIRT4','SIRT5','SIRT6','SIRT7'];
+
+/* value: +2 strong suppressor action, 0 neutral/absent, -2 strong pro-tumor; "D" = dual */
+const MATRIX = {
+ 'SIRT1':[['D','-1','+1','-1','-1'],
+          {txt:'PGC-1α deacetylation represses glycolysis & drives OXPHOS; partners c-Myc/HIF-1α in some contexts',
+           des:'A:'+'Dual on glycolysis'},
+          {txt:'CRC heterozygous deletion → c-Myc → glutamine metabolism → proliferation', des:'pro-tumor on glutamine'},
+          {txt:'Activates Nrf2; FOXO→SOD2/catalase; deacetylates p53/Ku70 (suppresses apoptosis)', des:'mixed redox'},
+          {txt:'Activates cytoplasmic AceCS1 (FAS); regulates PPAR-γ', des:'pro-lipogenic'},
+          {txt:'p53/Ku70/FOXO deacetylation suppresses apoptosis in chronic activation', des:'pro-growth'}],
+ 'SIRT2':[['0','0','+1','0','-1'],
+          {txt:'Promotes tumor glycolysis via PGM K100 deacetylation → NADPH channeling (lung)', des:'pro-tumor'},
+          {txt:'No direct glutamine node in this synthesis', des:'neutral'},
+          {txt:'Protects neural cells from oxidative damage', des:'suppressor'},
+          {txt:'No direct lipid node in this synthesis', des:'neutral'},
+          {txt:'Tubulin/cell-cycle regulation; Slug stabilization (onco), BRCA1 (suppressive)', des:'dual growth'}],
+ 'SIRT3':[['+2','+1','+2','-1','-1'],
+          {txt:'MnSOD/SOD2 + IDH2 → ROS↓ → HIF-1α destabilization → anti-Warburg', des:'anti-Warburg'},
+          {txt:'Stimulates PDC + AceCS2 → oxidative TCA flux', des:'pro-TCA (suppressor lean)'},
+          {txt:'SOD2/SOD1, IDH2, NADPH recycling; lowers mitochondrial membrane potential & ROS', des:'antioxidant but confers radioresistance'},
+          {txt:'ACC1 upregulation → de novo lipogenesis → cervical cancer invasion', des:'pro-lipogenic'},
+          {txt:'Ku70–Bax stabilization → glioma viability; GST-π1↓ sensitizes HCC', des:'mixed growth'}],
+ 'SIRT4':[['0','+2','-1','-1','+1'],
+          {txt:'No direct glycolysis node in this synthesis', des:'neutral'},
+          {txt:'GDH mono-ADP-ribosylation → limits glutamate→α-KG → restricts anaplerotic carbon', des:'anti-glutamine addiction'},
+          {txt:'Inhibits MnSOD via ADP-ribosylation', des:'pro-oxidant (minor)'},
+          {txt:'Suppresses hepatic FAO (MTPα) → lipid accumulation', des:'pro-lipid storage'},
+          {txt:'p16/p21 upregulation; CyclinB1/Cdc2/Cdc25c suppression → HCC apoptosis; restores E-cadherin', des:'anti-growth'}],
+ 'SIRT5':[['-2','-2','+1','0','0'],
+          {txt:'Protumorigenic in CRC/HCC/NSCLC → reprograms toward glycolysis', des:'pro-glycolysis'},
+          {txt:'Enhances glutaminolysis; LDHB desuccinylation → hyperactive autophagy', des:'pro-glutaminolysis'},
+          {txt:'SOD1/IDH2 desuccinylation → antioxidant defense', des:'suppressor'},
+          {txt:'No direct lipid node in this synthesis', des:'neutral'},
+          {txt:'No direct growth node in this synthesis', des:'neutral'}],
+ 'SIRT6':[['+2','0','+1','+2','+2'],
+          {txt:'Corepresses HIF-1α; suppresses GLUTs, HK2, ERK1/2 promoters → anti-Warburg', des:'anti-Warburg'},
+          {txt:'No direct glutamine node in this synthesis', des:'neutral'},
+          {txt:'Upregulates MnSOD, catalase, Nrf2 signaling', des:'antioxidant'},
+          {txt:'H3 deacetylation at SREBP/ChREBP promoters → suppresses de novo lipogenesis', des:'anti-lipogenic'},
+          {txt:'Suppresses survivin, c-MYC, HIF-1α; pro-DDR (CHD4)', des:'anti-growth (chemoresistance face in therapy)'}],
+ 'SIRT7':[['0','0','0','0','-2'],
+          {txt:'No direct glycolysis node in this synthesis', des:'neutral'},
+          {txt:'No direct glutamine node in this synthesis', des:'neutral'},
+          {txt:'No direct redox node in this synthesis', des:'neutral'},
+          {txt:'No direct lipid node in this synthesis', des:'neutral'},
+          {txt:'RNA Pol I → ribosome biogenesis; H3K18 deacetylation → p21 suppression → proliferation', des:'pro-growth'}],
+};
+/* descriptions per (sirt,axis) — flatten for tooltip */
+const MECH = {};
+sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][i+1]); } });
+
+/* ============================= SPECTRUM CHART ============================= */
+(function spectrum(){
+  const svg = document.getElementById('spectrumSvg');
+  const W = 1000, mid = W/2, scale = 120;
+  const padL = 150, padR = 150;
+  const barH = 34, rowGap = 20;
+  const H = 54 + SIRTS.length*(barH + rowGap + 20) + 62;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  let y = 54;
+  const defs = document.createElementNS('http://www.w3.org/2000/svg','defs');
+  defs.innerHTML = '<linearGradient id="gradSupp" x1="0" x2="1"><stop offset="0" stop-color="#58D68D" stop-opacity=".05"/><stop offset="1" stop-color="#3EC9A7"/></linearGradient>'+
+                   '<linearGradient id="gradOnco" x1="1" x2="0"><stop offset="0" stop-color="#E4575E" stop-opacity=".05"/><stop offset="1" stop-color="#E4575E"/></linearGradient>';
+  svg.appendChild(defs);
+  // center axis
+  svg.innerHTML += `<line x1="${mid}" y1="30" x2="${mid}" y2="${H-40}" stroke="#2a2a4e" stroke-width="2"/>` +
+                   `<text x="${mid}" y="${H-24}" text-anchor="middle" fill="#9a9ab0" font-size="13" font-weight="600">ONCOGENIC / pro-tumor</text>` +
+                   `<text x="${mid}" y="${H-8}" text-anchor="middle" fill="#6b6b85" font-size="11">center = fully context-dependent</text>` +
+                   `<text x="${mid-24}" y="44" text-anchor="end" fill="#E4575E" font-size="12" font-weight="700">← oncogenic</text>` +
+                   `<text x="${mid+24}" y="44" text-anchor="start" fill="#58D68D" font-size="12" font-weight="700">tumor-suppressive →</text>`;
+
+  function showTip(t){ document.getElementById('netTip').style.display='block'; document.getElementById('netTip').innerHTML=t; }
+  function moveTip(ev){ const t=document.getElementById('netTip'); t.style.left=(ev.clientX+14)+'px'; t.style.top=(ev.clientY+10)+'px'; }
+  function hideTip(){ document.getElementById('netTip').style.display='none'; }
+
+  SIRTS.forEach(s=>{
+    const x = mid + s.score*scale;
+    const lo = mid + (s.score - s.range)*scale;
+    const hi = mid + (s.score + s.range)*scale;
+    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    // context window
+    const win = document.createElementNS('http://www.w3.org/2000/svg','rect');
+    win.setAttribute('x', Math.min(lo,hi)); win.setAttribute('y', y+4); win.setAttribute('width', Math.abs(hi-lo));
+    win.setAttribute('height', barH-8); win.setAttribute('rx', 8); win.setAttribute('fill','#23233f'); win.setAttribute('stroke','#3a3a5e'); win.setAttribute('stroke-width','1');
+    // bar
+    const wbar = document.createElementNS('http://www.w3.org/2000/svg','rect');
+    const left = s.score<0, w = Math.abs(s.score)*scale;
+    wbar.setAttribute('x', left? x : mid); wbar.setAttribute('y', y+4); wbar.setAttribute('width', Math.max(w,6)); wbar.setAttribute('height', barH-8);
+    wbar.setAttribute('rx',8); wbar.setAttribute('fill', left? 'url(#gradOnco)' : 'url(#gradSupp)'); wbar.setAttribute('stroke', left? '#E4575E':'#3EC9A7'); wbar.setAttribute('stroke-width','1.2');
+    // label
+    const lab = document.createElementNS('http://www.w3.org/2000/svg','text');
+    lab.setAttribute('x', padL); lab.setAttribute('y', y+barH/2+5); lab.setAttribute('text-anchor','end');
+    lab.setAttribute('font-size','16'); lab.setAttribute('font-weight','700'); lab.setAttribute('fill', s.color);
+    lab.textContent = s.id;
+    // net caption
+    const cap = document.createElementNS('http://www.w3.org/2000/svg','text');
+    cap.setAttribute('x', mid); cap.setAttribute('y', y+barH+14); cap.setAttribute('text-anchor','middle');
+    cap.setAttribute('font-size','10.5'); cap.setAttribute('fill','#6b6b85');
+    cap.textContent = s.net;
+    g.appendChild(win); g.appendChild(wbar); g.appendChild(lab); g.appendChild(cap);
+    g.style.cursor='pointer';
+    g.addEventListener('mouseenter', ()=>showTip(`<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
+    g.addEventListener('mousemove', moveTip);
+    g.addEventListener('mouseleave', hideTip);
+    svg.appendChild(g);
+    y += barH + rowGap + 20;
+  });
+})();
+
+/* ============================= COMPARTMENT MAP ============================= */
+(function compartment(){
+  const svg = document.getElementById('compSvg');
+  const W=1000, H=560;
+  // nucleus
+  const nuc='<ellipse cx="500" cy="250" rx="300" ry="210" fill="#191934" stroke="#2a2a4e" stroke-width="2"/>'+
+            '<text x="500" y="70" text-anchor="middle" fill="#9a9ab0" font-size="13" letter-spacing="2">NUCLEUS</text>'+
+            '<text x="500" y="86" text-anchor="middle" fill="#6b6b85" font-size="11">transcriptional gate — governs transcription of metabolic programs</text>'+
+            // nucleolus
+            '<circle cx="500" cy="150" r="52" fill="#1f1f3a" stroke="#F283B2" stroke-width="1.5" stroke-dasharray="4 3"/>'+
+            '<text x="500" y="146" text-anchor="middle" fill="#F283B2" font-size="13" font-weight="700">SIRT7</text>'+
+            '<text x="500" y="162" text-anchor="middle" fill="#6b6b85" font-size="9">ribosome biogenesis</text>';
+  // SIRT6 (heterochromatin)
+  const s6='<rect x="330" y="180" width="130" height="86" rx="10" fill="#1a1a3a" stroke="#5DA8FF" stroke-width="1.5"/>'+
+           '<text x="395" y="208" text-anchor="middle" fill="#5DA8FF" font-size="14" font-weight="700">SIRT6</text>'+
+           '<text x="395" y="226" text-anchor="middle" fill="#9a9ab0" font-size="9">HIF-1α, c-MYC, survivin</text>'+
+           '<text x="395" y="240" text-anchor="middle" fill="#9a9ab0" font-size="9">SREBP, ChREBP, DDR</text>'+
+           '<text x="395" y="254" text-anchor="middle" fill="#6b6b85" font-size="8">anti-Warburg · anti-lipogenesis</text>';
+  // SIRT1 (euchromatin)
+  const s1='<rect x="540" y="180" width="130" height="86" rx="10" fill="#1a1a3a" stroke="#E8A33D" stroke-width="1.5"/>'+
+           '<text x="605" y="208" text-anchor="middle" fill="#E8A33D" font-size="14" font-weight="700">SIRT1</text>'+
+           '<text x="605" y="226" text-anchor="middle" fill="#9a9ab0" font-size="9">p53, Ku70, FOXO, HIF-1α</text>'+
+           '<text x="605" y="240" text-anchor="middle" fill="#9a9ab0" font-size="9">PGC-1α, c-Myc, NF-κB</text>'+
+           '<text x="605" y="254" text-anchor="middle" fill="#6b6b85" font-size="8">double-edged · context-dependent</text>';
+  // cytoplasm (cell membrane)
+  const cyto='<rect x="120" y="30" width="760" height="500" rx="30" fill="none" stroke="#2a2a4e" stroke-width="2"/>'+
+             '<text x="150" y="52" fill="#9a9ab0" font-size="12" letter-spacing="2">CYTOPLASM</text>';
+  // SIRT2 in cytoplasm
+  const s2='<rect x="150" y="320" width="130" height="86" rx="10" fill="#1a1a3a" stroke="#9D8DF1" stroke-width="1.5"/>'+
+           '<text x="215" y="348" text-anchor="middle" fill="#9D8DF1" font-size="14" font-weight="700">SIRT2</text>'+
+           '<text x="215" y="366" text-anchor="middle" fill="#9a9ab0" font-size="9">tubulin · Slug · PGM</text>'+
+           '<text x="215" y="380" text-anchor="middle" fill="#9a9ab0" font-size="9">BRCA1 · IDH1</text>'+
+           '<text x="215" y="394" text-anchor="middle" fill="#6b6b85" font-size="8">cytoskeleton & cell cycle</text>';
+  // mitochondria
+  const mito='<rect x="700" y="360" width="240" height="130" rx="14" fill="#191934" stroke="#2a2a4e" stroke-width="2"/>'+
+             '<text x="820" y="384" text-anchor="middle" fill="#9a9ab0" font-size="12" letter-spacing="2">MITOCHONDRIA</text>'+
+             '<text x="820" y="400" text-anchor="middle" fill="#6b6b85" font-size="10">metabolic setpoint — TCA · glutamine · redox</text>';
+  // mito SIRTs
+  const m3='<circle cx="755" cy="450" r="24" fill="#1a1a3a" stroke="#58D68D" stroke-width="1.5"/><text x="755" y="455" text-anchor="middle" fill="#58D68D" font-size="13" font-weight="700">S3</text>';
+  const m4='<circle cx="820" cy="450" r="24" fill="#1a1a3a" stroke="#3EC9A7" stroke-width="1.5"/><text x="820" y="455" text-anchor="middle" fill="#3EC9A7" font-size="13" font-weight="700">S4</text>';
+  const m5='<circle cx="885" cy="450" r="24" fill="#1a1a3a" stroke="#F5A65B" stroke-width="1.5"/><text x="885" y="455" text-anchor="middle" fill="#F5A65B" font-size="13" font-weight="700">S5</text>';
+  // notes under mito
+  const mnote='<text x="820" y="478" text-anchor="middle" fill="#6b6b85" font-size="9">S3 redox/PDC · S4 GDH (glutamine brake) · S5 desuccinylase (glutaminolysis)</text>';
+  // footer legend
+  const foot='<text x="500" y="535" text-anchor="middle" fill="#9a9ab0" font-size="11">mitochondrial trio (S3/S4/S5) = metabolic setpoint &nbsp;·&nbsp; nuclear trio (S1/S6/S7) = transcriptional gate</text>';
+  svg.innerHTML = nuc + s6 + s1 + cyto + s2 + mito + m3 + m4 + m5 + mnote + foot;
+})();
+
+/* ============================= MATRIX ============================= */
+(function matrix(){
+  const svg = document.getElementById('matrixSvg');
+  const W=920, top=90, left=70, cw=150, ch=84, rh=72;
+  const lastBottom = top + (sirtOrder.length-1)*rh + (ch-16);
+  const pad = top - 56;
+  const H = lastBottom + pad;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  // axis labels (top)
+  AXES.forEach((a,i)=>{
+    const cx = left + i*cw + cw/2;
+    svg.innerHTML += `<text x="${cx}" y="${top-56}" text-anchor="middle" fill="#9a9ab0" font-size="12" font-weight="600">${a}</text>` +
+      `<line x1="${cx}" y1="${top-40}" x2="${cx}" y2="${top+sirtOrder.length*rh-10}" stroke="#23233f" stroke-width="1"/>`;
+  });
+  sirtOrder.forEach((s,row)=>{
+    const y = top + row*rh;
+    svg.innerHTML += `<text x="${left-14}" y="${y+rh/2+5}" text-anchor="end" fill="${SIRTS.find(x=>x.id===s).color}" font-size="16" font-weight="700">${s}</text>`;
+    AXES.forEach((a,col)=>{
+      const val = MATRIX[s][0][col];
+      const cell = MECH[s][col];
+      const x = left + col*cw, cx = x + cw/2, cy = y + rh/2;
+      let fill, stroke, txtcol, sym;
+      if (val==='D') { fill='rgba(232,163,61,.12)'; stroke='#E8A33D'; txtcol='#E8A33D'; sym='⇄'; }
+      else if (+val>0) { fill=`rgba(88,214,141,${0.06+0.10*val})`; stroke='#58D68D'; txtcol='#58D68D'; sym='+' .repeat(+val); }
+      else if (+val<0) { const v=-val; fill=`rgba(228,87,94,${0.06+0.10*v})`; stroke='#E4575E'; txtcol='#E4575E'; sym='−'.repeat(v); }
+      else { fill='rgba(224,224,224,.04)'; stroke='#3a3a5e'; txtcol='#6b6b85'; sym='·'; }
+      const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+      const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
+      r.setAttribute('x', x+8); r.setAttribute('y', y+8); r.setAttribute('width', cw-16); r.setAttribute('height', rh-16); r.setAttribute('rx',10);
+      r.setAttribute('fill', fill); r.setAttribute('stroke', stroke); r.setAttribute('stroke-width','1.2');
+      const t1 = document.createElementNS('http://www.w3.org/2000/svg','text');
+      t1.setAttribute('x', cx); t1.setAttribute('y', cy+5); t1.setAttribute('text-anchor','middle'); t1.setAttribute('font-size','18'); t1.setAttribute('font-weight','800'); t1.setAttribute('fill', txtcol);
+      t1.textContent = sym;
+      g.appendChild(r); g.appendChild(t1);
+      g.style.cursor='pointer';
+      g.addEventListener('mouseenter',()=>showTip(`<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`));
+      g.addEventListener('mousemove', moveTip);
+      g.addEventListener('mouseleave', hideTip);
+      svg.appendChild(g);
+    });
+  });
+})();
+
+/* ============================= KNOWLEDGE GRAPH ============================= */
+(function network(){
+  const DATA = { nodes: [
+    {id:"sirt1",label:"SIRT1",degree:19,community:"SIRT1"},
+    {id:"sirt2",label:"SIRT2",degree:10,community:"SIRT2"},
+    {id:"sirt3",label:"SIRT3",degree:17,community:"SIRT3"},
+    {id:"sirt4",label:"SIRT4",degree:11,community:"SIRT4"},
+    {id:"sirt5",label:"SIRT5",degree:4,community:"SIRT5"},
+    {id:"sirt6",label:"SIRT6",degree:13,community:"SIRT6"},
+    {id:"sirt7",label:"SIRT7",degree:7,community:"SIRT7"},
+    {id:"glycolysis_warburg_effect",label:"Glycolysis (Warburg)",degree:1,community:"SIRT6"},
+    {id:"glycolysis",label:"Glycolysis",degree:2,community:"p53"},
+    {id:"glutaminolysis",label:"Glutaminolysis",degree:1,community:"SIRT5"},
+    {id:"glutamine_metabolism",label:"Glutamine metabolism",degree:1,community:"SIRT4"},
+    {id:"gdh_glutamate_dehydrogenase",label:"GDH (Glutamate Dehydrogenase)",degree:1,community:"SIRT4"},
+    {id:"glutamate_dehydrogenase",label:"Glutamate dehydrogenase",degree:1,community:"SIRT4"},
+    {id:"hif_1",label:"HIF-1α",degree:3,community:"Cancer Stem Cells"},
+    {id:"hif_2",label:"HIF-2α",degree:1,community:"SIRT1"},
+    {id:"pgc_1",label:"PGC-1α",degree:1,community:"AMPK"},
+    {id:"pyruvate_dehydrogenase",label:"Pyruvate Dehydrogenase",degree:1,community:"SIRT4"},
+    {id:"pyruvate_dehydrogenase_e1",label:"PDH E1α",degree:1,community:"SIRT3"},
+    {id:"pyruvate_dehydrogenase_pdh",label:"Pyruvate Dehydrogenase (PDH)",degree:1,community:"SIRT3"},
+    {id:"sod2",label:"SOD2",degree:2,community:"Mitochondrial ROS"},
+    {id:"mnsod",label:"MnSOD",degree:3,community:"Peroxynitrite"},
+    {id:"mnsod_k68_k122",label:"MnSOD (K68, K122)",degree:1,community:"SIRT3"},
+    {id:"idh2",label:"IDH2",degree:1,community:"SIRT3"},
+    {id:"reactive_oxygen_species",label:"Reactive Oxygen Species",degree:2,community:"Reactive Oxygen Species"},
+    {id:"mitochondrial_ros",label:"Mitochondrial ROS",degree:4,community:"Mitochondrial ROS"},
+    {id:"srebp_1c",label:"SREBP-1c",degree:2,community:"Atherosclerosis"},
+    {id:"srebp2",label:"SREBP2",degree:1,community:"SIRT6"},
+    {id:"chrebp",label:"ChREBP",degree:2,community:"SIRT6"},
+    {id:"acecs1_cytoplasmic_acetyl_coa_synthetase",label:"AceCS1 (cytosolic)",degree:1,community:"SIRT1"},
+    {id:"acecs2_mitochondrial_acetyl_coa_synthetase",label:"AceCS2 (mito)",degree:1,community:"SIRT3"},
+    {id:"foxo1",label:"FOXO1",degree:4,community:"FOXO1"},
+    {id:"foxo3a",label:"FOXO3a",degree:3,community:"SIRT2"},
+    {id:"p53",label:"p53",degree:5,community:"p53"},
+    {id:"ku70",label:"Ku70",degree:1,community:"SIRT1"},
+    {id:"nf_b",label:"NF-κB",degree:9,community:"NF-κB"},
+    {id:"rela_p65_nf_b_subunit",label:"RelA/p65 (NF-κB)",degree:1,community:"SIRT1"},
+    {id:"survivin",label:"Survivin",degree:2,community:"Caspase-3"},
+    {id:"c_myc",label:"c-Myc",degree:1,community:"Cellular Reprogramming"},
+    {id:"n_myc_and_c_myc",label:"N-Myc and c-Myc",degree:1,community:"SIRT2"},
+    {id:"slug_emt_transcription_factor",label:"Slug (EMT)",degree:1,community:"SIRT2"},
+    {id:"brca1",label:"BRCA1",degree:1,community:"SIRT2"},
+    {id:"ldhb",label:"LDHB",degree:1,community:"SIRT5"},
+    {id:"rna_polymerase_i_transcription",label:"RNA Pol I transcription",degree:1,community:"SIRT7"},
+    {id:"rrna_transcription",label:"rRNA transcription",degree:1,community:"SIRT7"},
+    {id:"h3k18",label:"H3K18",degree:1,community:"SIRT7"},
+    {id:"h3k18ac",label:"H3K18ac",degree:1,community:"SIRT7"},
+    {id:"h4k16",label:"H4K16",degree:1,community:"SIRT1"},
+    {id:"p21",label:"p21",degree:0,community:"Therapy-Induced Senescence"},
+    {id:"p16_and_p21",label:"p16 and p21",degree:1,community:"SIRT4"},
+    {id:"mtp_fatty_acid_oxidation",label:"MTPα (FAO)",degree:1,community:"SIRT4"},
+    {id:"mtp_mitochondrial_trifunctional_protein",label:"MTPα (trifunctional)",degree:1,community:"SIRT4"},
+    {id:"cancer",label:"Cancer",degree:8,community:"Cancer"},
+    {id:"autophagy",label:"Autophagy",degree:4,community:"Autophagy"},
+    {id:"senescence",label:"Senescence",degree:5,community:"Senescence"},
+    {id:"sasp",label:"SASP",degree:7,community:"SASP"},
+    {id:"nad",label:"NAD+",degree:1,community:"NAD+"},
+    {id:"nicotinamide",label:"Nicotinamide",degree:2,community:"CD38"},
+    {id:"apoptosis",label:"Apoptosis",degree:1,community:"Apoptosis"},
+    {id:"atm_chk2_dna_damage_repair",label:"ATM-Chk2 repair",degree:1,community:"SIRT3"},
+    {id:"dna_repair",label:"DNA Repair",degree:0,community:"Sirtuins"},
+    {id:"homologous_recombination",label:"Homologous recombination",degree:1,community:"SIRT1"},
+    {id:"mitochondria",label:"Mitochondria",degree:4,community:"Reactive Oxygen Species"},
+    {id:"nucleus_heterochromatin",label:"Nucleus (heterochromatin)",degree:1,community:"SIRT6"},
+    {id:"nucleolus",label:"Nucleolus",degree:1,community:"SIRT7"},
+    {id:"cytoplasm",label:"Cytoplasm",degree:1,community:"SIRT2"},
+    {id:"phosphoglycerate_mutase_k100",label:"PGM (K100)",degree:1,community:"SIRT2"},
+    {id:"acc1",label:"ACC1",degree:1,community:"SIRT3"},
+    {id:"acc1_upregulation_driven_de_novo_lipogenesis",label:"ACC1-driven lipogenesis",degree:1,community:"SIRT3"},
+    {id:"idh1_repressing_crc_migration",label:"IDH1 (CRC migration)",degree:1,community:"SIRT2"},
+    {id:"sirt1_via_glutamine_metabolism",label:"SIRT1 (glutamine)",degree:1,community:"SIRT4"},
+    {id:"akr1c1_inhibiting_stat3_transactivation",label:"AKR1C1 (STAT3)",degree:1,community:"SIRT2"},
+    {id:"p27_cdk2_deacetylation",label:"p27/CDK2 deacetylation",degree:1,community:"SIRT1"},
+    {id:"e_cadherin_promotion",label:"E-cadherin promotion",degree:1,community:"SIRT4"},
+    {id:"twist_downregulation",label:"Twist downregulation",degree:1,community:"SIRT3"},
+    {id:"ku70_bax",label:"Ku70–Bax",degree:1,community:"SIRT3"},
+    {id:"jak2_stat3_pathway",label:"JAK2/STAT3 pathway",degree:1,community:"SIRT6"}
+  ],
+  edges: [
+    {"from":"sasp","to":"sirt1","label":"is_repressed_by"},{"from":"autophagy","to":"cancer","label":"is_pro_survival_in"},
+    {"from":"autophagy","to":"sasp","label":"suppresses"},{"from":"autophagy","to":"senescence","label":"is_impaired_in"},
+    {"from":"senescence","to":"sasp","label":"produces"},{"from":"senescence","to":"cancer","label":"can_promote"},
+    {"from":"p53","to":"cancer","label":"is_mutated_in"},{"from":"p53","to":"sasp","label":"restrains"},
+    {"from":"cancer","to":"apoptosis","label":"evades"},{"from":"cancer","to":"nf_b","label":"is_driven_by"},
+    {"from":"cancer","to":"p53","label":"is_suppressed_by"},{"from":"cancer","to":"senescence","label":"is_suppressed_by"},
+    {"from":"nad","to":"glycolysis","label":"required_for"},{"from":"mitochondria","to":"reactive_oxygen_species","label":"primary_source_of"},
+    {"from":"mitochondrial_ros","to":"autophagy","label":"activates"},{"from":"mitochondrial_ros","to":"nf_b","label":"stimulates"},
+    {"from":"sirt1","to":"pgc_1","label":"deacetylates_and_activates"},{"from":"sirt1","to":"h4k16","label":"deacetylates"},
+    {"from":"sirt1","to":"senescence","label":"prevents"},{"from":"sirt1","to":"p53","label":"deacetylates"},
+    {"from":"sirt1","to":"ku70","label":"deacetylates"},{"from":"sirt1","to":"foxo1","label":"positive_feedback"},
+    {"from":"sirt1","to":"foxo3a","label":"deacetylates"},{"from":"sirt1","to":"rela_p65_nf_b_subunit","label":"deacetylates"},
+    {"from":"sirt1","to":"acecs1_cytoplasmic_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
+    {"from":"sirt1","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt1","to":"hif_1","label":"deacetylates"},
+    {"from":"sirt1","to":"hif_2","label":"deacetylates"},{"from":"sirt1","to":"p27_cdk2_deacetylation","label":"promotes_T-ALL_via"},
+    {"from":"sirt1","to":"homologous_recombination","label":"promotes"},{"from":"sirt1","to":"srebp_1c","label":"deacetylates"},
+    {"from":"sirt1","to":"chrebp","label":"deacetylates"},
+    {"from":"sirt3","to":"sod2","label":"deacetylates"},{"from":"sirt3","to":"mitochondria","label":"localizes_to"},
+    {"from":"sirt3","to":"acecs2_mitochondrial_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
+    {"from":"sirt3","to":"mnsod_k68_k122","label":"deacetylates"},{"from":"sirt3","to":"mitochondrial_ros","label":"reduces"},
+    {"from":"sirt3","to":"hif_1","label":"inhibits"},{"from":"sirt3","to":"acc1","label":"deacetylates"},
+    {"from":"sirt3","to":"foxo1","label":"deacetylates"},{"from":"sirt3","to":"pyruvate_dehydrogenase_e1","label":"deacetylates"},
+    {"from":"sirt3","to":"foxo3a","label":"activates"},{"from":"sirt3","to":"idh2","label":"deacetylates_and_activates"},
+    {"from":"sirt3","to":"pyruvate_dehydrogenase_pdh","label":"maintains_activity_of"},
+    {"from":"sirt3","to":"atm_chk2_dna_damage_repair","label":"radioresistance_via"},
+    {"from":"sirt3","to":"twist_downregulation","label":"suppresses_metastasis_via"},
+    {"from":"sirt3","to":"ku70_bax","label":"stabilizes_in_glioma"},
+    {"from":"sirt3","to":"acc1_upregulation_driven_de_novo_lipogenesis","label":"cervical_cancer_via"},
+    {"from":"sirt3","to":"mnsod","label":"activates"},{"from":"sod2","to":"mitochondrial_ros","label":"reduces"},
+    {"from":"nicotinamide","to":"sirt1","label":"binds_C_pocket"},
+    {"from":"sirt6","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt6","to":"nucleus_heterochromatin","label":"localizes_to"},
+    {"from":"sirt6","to":"hif_1","label":"represses"},{"from":"sirt6","to":"glycolysis_warburg_effect","label":"suppresses"},
+    {"from":"sirt6","to":"foxo1","label":"deacetylates"},{"from":"sirt6","to":"mnsod","label":"upregulates"},
+    {"from":"sirt6","to":"jak2_stat3_pathway","label":"inhibits"},{"from":"sirt6","to":"srebp_1c","label":"represses_lipogenesis"},
+    {"from":"sirt6","to":"srebp2","label":"represses_lipogenesis"},{"from":"sirt6","to":"glycolysis","label":"suppresses"},
+    {"from":"sirt6","to":"c_myc","label":"inhibits_activity"},{"from":"sirt6","to":"survivin","label":"represses_expression"},
+    {"from":"sirt6","to":"chrebp","label":"deacetylates"},
+    {"from":"sirt2","to":"cytoplasm","label":"localizes_to"},{"from":"sirt2","to":"nf_b","label":"deacetylates"},
+    {"from":"sirt2","to":"brca1","label":"deacetylates"},{"from":"sirt2","to":"foxo1","label":"deacetylates"},
+    {"from":"sirt2","to":"foxo3a","label":"deacetylates"},{"from":"sirt2","to":"n_myc_and_c_myc","label":"enhances_stability"},
+    {"from":"sirt2","to":"akr1c1_inhibiting_stat3_transactivation","label":"deacetylates"},
+    {"from":"sirt2","to":"idh1_repressing_crc_migration","label":"deacetylates"},
+    {"from":"sirt2","to":"slug_emt_transcription_factor","label":"stabilizes"},
+    {"from":"sirt2","to":"phosphoglycerate_mutase_k100","label":"deacetylates"},{"from":"survivin","to":"cancer","label":"overexpressed_in"},
+    {"from":"sirt4","to":"mitochondria","label":"localizes_to"},{"from":"sirt4","to":"gdh_glutamate_dehydrogenase","label":"ADP-ribosylates_inhibits"},
+    {"from":"sirt4","to":"glutamate_dehydrogenase","label":"inhibits"},{"from":"sirt4","to":"glutamine_metabolism","label":"suppresses"},
+    {"from":"sirt4","to":"mnsod","label":"inhibits"},{"from":"sirt4","to":"mtp_fatty_acid_oxidation","label":"inhibits"},
+    {"from":"sirt4","to":"mtp_mitochondrial_trifunctional_protein","label":"inhibits"},
+    {"from":"sirt4","to":"pyruvate_dehydrogenase","label":"lipoamidase"},{"from":"sirt4","to":"e_cadherin_promotion","label":"suppresses_EMT_via"},
+    {"from":"sirt4","to":"sirt1_via_glutamine_metabolism","label":"negatively_regulates"},
+    {"from":"sirt4","to":"p16_and_p21","label":"upregulates"},
+    {"from":"sirt5","to":"mitochondria","label":"localizes_to"},{"from":"sirt5","to":"ldhb","label":"deacetylates"},
+    {"from":"sirt5","to":"nicotinamide","label":"resists_inhibition"},{"from":"sirt5","to":"glutaminolysis","label":"enhances"},
+    {"from":"sirt7","to":"nucleolus","label":"localizes_to"},{"from":"sirt7","to":"rna_polymerase_i_transcription","label":"activates"},
+    {"from":"sirt7","to":"rrna_transcription","label":"regulates"},{"from":"sirt7","to":"h3k18","label":"deacetylates"},
+    {"from":"sirt7","to":"nf_b","label":"inhibits_translocation"},{"from":"sirt7","to":"h3k18ac","label":"deacetylates"},
+    {"from":"sirt7","to":"sirt1","label":"inhibits_activation"}
+  ]};
+
+  const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
+  function nodeColor(id, community){
+    if (sirtColor[id]) return sirtColor[id];
+    if (/glycol|warburg|pyruvate|nad\b/.test(id)) return '#F5A65B';
+    if (/glutamine|glutamin|gdh|ldhb/.test(id)) return '#9D8DF1';
+    if (/ros|sod|mnsod|idh2|reactive/.test(id)) return '#58D68D';
+    if (/srebp|chrebp|acecs|acc1|mtp|lipid/.test(id)) return '#E8C65B';
+    if (/rna_pol|rrna|h3k18|nucleolus|p21|p16|survivin|myc|slug|brca1|p27|cdk2|ribosome/.test(id)) return '#F283B2';
+    if (/nucleus|cytoplasm|mitochondria/.test(id)) return '#8fb7d9';
+    if (/hif/.test(id)) return '#5DA8FF';
+    return '#8b8bb0';
+  }
+
+  const svg = document.getElementById('netSvg');
+  const ns = 'http://www.w3.org/2000/svg';
+  const W = 1100, H = 560;
+
+  // build adjacency
+  const byId = {}; DATA.nodes.forEach(n=>byId[n.id]=n);
+  const adj = {}; DATA.nodes.forEach(n=>adj[n.id]=new Set());
+  DATA.edges.forEach(e=>{ if(adj[e.from])adj[e.from].add(e.to); if(adj[e.to])adj[e.to].add(e.from); });
+
+  // init positions
+  DATA.nodes.forEach((n,i)=>{
+    n.x = W/2 + (Math.random()-0.5)*360;
+    n.y = H/2 + (Math.random()-0.5)*260;
+    n.vx=0; n.vy=0;
+  });
+
+  // force simulation (simple)
+  function step(){
+    const k = 0.02, rep = 1400, spring = 0.08;
+    DATA.nodes.forEach(a=>{
+      DATA.nodes.forEach(b=>{
+        if(a===b) return;
+        let dx = a.x-b.x, dy = a.y-b.y;
+        let d2 = dx*dx+dy*dy+0.01, d = Math.sqrt(d2);
+        let f = rep/d2;
+        a.vx += (dx/d)*f; a.vy += (dy/d)*f;
+      });
+      a.vx += (W/2 - a.x)*k*1.2; a.vy += (H/2 - a.y)*k*1.2;
+      a.vx *= 0.6; a.vy *= 0.6;
+    });
+    DATA.edges.forEach(e=>{
+      const a = byId[e.from], b = byId[e.to];
+      let dx = b.x-a.x, dy = b.y-a.y, d = Math.sqrt(dx*dx+dy*dy)+0.001;
+      let f = (d-70)*spring;
+      a.vx += (dx/d)*f; a.vy += (dy/d)*f;
+      b.vx -= (dx/d)*f; b.vy -= (dy/d)*f;
+    });
+    DATA.nodes.forEach(n=>{ n.x += n.vx; n.y += n.vy; n.x=Math.max(30,Math.min(W-30,n.x)); n.y=Math.max(30,Math.min(H-30,n.y)); });
+  }
+  for(let i=0;i<220;i++) step();
+
+  function render(){
+    const byId2 = {}; DATA.nodes.forEach(n=>byId2[n.id]=n);
+    let edgeMarkup = '';
+    DATA.edges.forEach(e=>{
+      const a=byId2[e.from], b=byId2[e.to];
+      edgeMarkup += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="#2a2a4e" stroke-width="1" data-f="${e.from}" data-t="${e.to}"/>`;
+    });
+    svg.innerHTML = edgeMarkup;
+
+    DATA.nodes.forEach(n=>{
+      const r = 5 + Math.sqrt(n.degree)*3.2;
+      const c = nodeColor(n.id, n.community);
+      const g = document.createElementNS(ns,'g');
+      g.setAttribute('data-id', n.id);
+      g.setAttribute('class','n');
+      g.style.cursor='grab';
+      const circle = document.createElementNS(ns,'circle');
+      circle.setAttribute('cx', n.x); circle.setAttribute('cy', n.y); circle.setAttribute('r', r);
+      circle.setAttribute('fill', c); circle.setAttribute('fill-opacity', n.id.startsWith('sirt')?0.95:0.5);
+      circle.setAttribute('stroke', c); circle.setAttribute('stroke-width', n.id.startsWith('sirt')?2:0.8);
+      g.appendChild(circle);
+      if (n.id.startsWith('sirt') || n.degree>=5){
+        const t = document.createElementNS(ns,'text');
+        t.setAttribute('x', n.x); t.setAttribute('y', n.y - r - 4); t.setAttribute('text-anchor','middle');
+        t.setAttribute('font-size', n.id.startsWith('sirt')?'13':'10'); t.setAttribute('font-weight', n.id.startsWith('sirt')?'700':'400');
+        t.setAttribute('fill', n.id.startsWith('sirt')?c:'#c9c9dd');
+        t.textContent = n.label;
+        g.appendChild(t);
+      }
+      // drag
+      g.addEventListener('mousedown', ev=>{
+        ev.preventDefault();
+        const svgRect = svg.getBoundingClientRect();
+        const sx = (ev.clientX-svgRect.left)/svgRect.width*W, sy=(ev.clientY-svgRect.top)/svgRect.height*H;
+        function m(ev2){
+          const rect = svg.getBoundingClientRect();
+          n.x = (ev2.clientX-rect.left)/rect.width*W; n.y=(ev2.clientY-rect.top)/rect.height*H;
+          render();
+        }
+        function u(){ window.removeEventListener('mousemove',m); window.removeEventListener('mouseup',u); }
+        window.addEventListener('mousemove',m); window.addEventListener('mouseup',u);
+      });
+      // highlight on hover
+      g.addEventListener('mouseenter', ev=>{
+        svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=0.15; });
+        g.style.opacity=1;
+        const nb = adj[n.id]||new Set();
+        svg.querySelectorAll('line').forEach(l=>{
+          if (l.getAttribute('data-f')===n.id || l.getAttribute('data-t')===n.id){ l.setAttribute('stroke','#5a5a8a'); l.setAttribute('stroke-width','2'); }
+        });
+        svg.querySelectorAll('.n').forEach(x=>{ if(nb.has(x.getAttribute('data-id')) || x===g) x.style.opacity=1; });
+        const neighbors = [...nb].map(id=>byId[id]?.label||id);
+        showTip(`<b style="color:${c}">${n.label}</b><br>degree ${n.degree} · community: ${n.community}<br><span style="color:var(--dim)">${neighbors.length?'connects to: '+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'no graph edges in subgraph'}</span>`);
+      });
+      g.addEventListener('mousemove', moveTip);
+      g.addEventListener('mouseleave', ev=>{
+        svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=1; });
+        svg.querySelectorAll('line').forEach(l=>{ l.setAttribute('stroke','#2a2a4e'); l.setAttribute('stroke-width','1'); });
+        hideTip();
+      });
+      g.addEventListener('click', ev=>{
+        if(ev.detail>1) return;
+        const nb = adj[n.id]||new Set();
+        svg.querySelectorAll('.n').forEach(x=>{
+          const id=x.getAttribute('data-id');
+          x.style.opacity = (id===n.id||nb.has(id))?1:0.06;
+        });
+        svg.querySelectorAll('line').forEach(l=>{
+          const on = l.getAttribute('data-f')===n.id||l.getAttribute('data-t')===n.id;
+          l.setAttribute('stroke', on? '#5a5a8a':'#1a1a30'); l.setAttribute('stroke-width', on?'2':'0.6');
+        });
+      });
+      svg.appendChild(g);
+    });
+  }
+  render();
+
+  document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (graphify-out/graph.json)';
+  const lg = document.getElementById('netLegend');
+  const legendDefs = [['sirt1','SIRT hub'],['#F5A65B','Glycolysis / NAD'],['#9D8DF1','Glutamine / GDH'],['#58D68D','ROS / redox'],['#E8C65B','Lipid / lipogenesis'],['#F283B2','Growth / ribosome / cell fate'],['#5DA8FF','HIF / hypoxia'],['#8fb7d9','Compartment'],['#8b8bb0','Other']];
+  lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${c}"></span> ${l}</span>`).join('');
+
+  document.getElementById('netReset').addEventListener('click', ()=>{
+    DATA.nodes.forEach(n=>{ n.x=W/2+(Math.random()-0.5)*360; n.y=H/2+(Math.random()-0.5)*260; n.vx=0; n.vy=0; });
+    for(let i=0;i<220;i++) step();
+    render();
+  });
+})();
+
+/* ============================= THERAPEUTICS ============================= */
+(function therapeutics(){
+  const svg = document.getElementById('theraSvg');
+  const W=1000, H=480, left=180, top=70, plotW=760, plotH=300;
+  const stages = [
+    {y:0, label:'Preclinical'},
+    {y:1, label:'Phase I/II'},
+    {y:2, label:'Clinical trials (ongoing)'},
+    {y:3, label:'Approved / established'}
+  ];
+  // x categories
+  const targets = ['SIRT1','SIRT1/2','SIRT2','SIRT3','SIRT6','Pan-SIRT / NAD+','SIRT4/5/7 (open)'];
+  const agents = [
+    {t:'SIRT1', s:0, m:'act', n:'Resveratrol, Pterostilbene, SRT1720 (STACs)', c:0},
+    {t:'SIRT1', s:1, m:'act', n:'SRT2104 (Phase I/II completed)', c:1},
+    {t:'SIRT1/2', s:0, m:'inh', n:'Sirtinol, Salermide, Cambinol, Tenovins, Suramin', c:2},
+    {t:'SIRT1', s:1, m:'inh', n:'EX-527 (Selisistat) — Phase I/II Huntington\'s', c:3},
+    {t:'SIRT2', s:0, m:'inh', n:'AGK2, AK-7, SirReal2', c:4},
+    {t:'SIRT3', s:0, m:'act', n:'Honokiol, Dihydromyricetin, C12, 2-APQC, SKLB-11A, SZC-6', c:5},
+    {t:'SIRT6', s:0, m:'act', n:'MDL-800, MDL-801, UBCS039, Cyanidin, Fucoidan', c:6},
+    {t:'Pan-SIRT / NAD+', s:2, m:'ind', n:'NMN, NR — ongoing clinical trials', c:7},
+    {t:'Pan-SIRT / NAD+', s:0, m:'ind', n:'CD38 inhibitor 78c (NAD+ preservation)', c:8},
+    {t:'SIRT6', s:0, m:'ind', n:'AAV-SIRT6 gene therapy', c:9},
+    {t:'SIRT4/5/7 (open)', s:0, m:'inh', n:'No specific agents — undrugged targets', c:10},
+  ];
+  // draw axes
+  stages.forEach((st,i)=>{
+    const y = top + plotH - (i+0.5)*(plotH/4);
+    svg.innerHTML += `<line x1="${left}" y1="${y}" x2="${left+plotW}" y2="${y}" stroke="#23233f" stroke-width="1"/>`+
+      `<text x="${left+plotW+8}" y="${y+4}" fill="#9a9ab0" font-size="11">${st.label}</text>`;
+  });
+  targets.forEach((t,i)=>{
+    const x = left + (i+0.5)*(plotW/targets.length);
+    svg.innerHTML += `<text x="${x}" y="${top-40}" text-anchor="middle" fill="#9a9ab0" font-size="11.5" font-weight="600">${t}</text>`;
+  });
+  // bubbles
+  agents.forEach(a=>{
+    const xi = targets.indexOf(a.t);
+    const x = left + (xi+0.5)*(plotW/targets.length);
+    const y = top + plotH - (a.s+0.5)*(plotH/4);
+    const col = a.m==='act' ? '#58D68D' : a.m==='inh' ? '#E4575E' : '#5DA8FF';
+    const r = 16 + (a.n.length>25 ? 8 : 0);
+    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.style.cursor='pointer';
+    const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c.setAttribute('cx',x); c.setAttribute('cy',y); c.setAttribute('r',r);
+    c.setAttribute('fill',col); c.setAttribute('fill-opacity',0.28); c.setAttribute('stroke',col); c.setAttribute('stroke-width','1.5');
+    const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t.setAttribute('x',x); t.setAttribute('y',y+3.5); t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','10');
+    t.setAttribute('fill','#0b1220'); t.setAttribute('font-weight','700');
+    t.textContent = a.m.toUpperCase();
+    g.appendChild(c); g.appendChild(t);
+    g.addEventListener('mouseenter',()=>showTip(`<b style="color:${col}">${a.n}</b><br><span style="color:var(--dim)">target ${a.t} · ${a.m.toUpperCase()} · stage ${stages[a.s].label}</span>`));
+    g.addEventListener('mousemove', moveTip);
+    g.addEventListener('mouseleave', hideTip);
+    svg.appendChild(g);
+  });
+  svg.innerHTML += `<text x="${left}" y="${top+plotH+34}" fill="#6b6b85" font-size="11">Only SIRT1-directed agents have reached human trials — the most advanced clinical lever is indirect NAD<sup>+</sup> boosting (NMN / NR, CD38 inhibition).</text>`;
+})();
+
+function showTip(t){ const el=document.getElementById('netTip'); el.style.display='block'; el.innerHTML=t; }
+function moveTip(ev){ const el=document.getElementById('netTip'); el.style.left=(ev.clientX+14)+'px'; el.style.top=(ev.clientY+10)+'px'; }
+function hideTip(){ document.getElementById('netTip').style.display='none'; }
+</script>
+</body>
+</html>
