@@ -47,6 +47,9 @@
   nav a.brand:hover{color:var(--teal); text-decoration:none;}
   nav a.n{color:var(--dim); font-size:.85rem;}
   nav a.n:hover{color:var(--teal); text-decoration:none;}
+  nav a.back-home{display:inline-block; margin-right:4px; color:var(--text); font-size:.85rem; font-weight:700; background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px;}
+  nav a.back-home:hover{color:var(--teal); border-color:var(--teal); text-decoration:none;}
+  body.embedded nav a.back-home{display:none;}
   /* hero */
   header{padding:64px 0 40px;}
   header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
@@ -114,6 +117,7 @@
 
 <nav>
   <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="返回圖譜首頁">&#8592; 返回</a>
     <a class="n" href="#overview">總覽</a>
     <a class="n" href="#spectrum">對立的 SIRTs</a>
     <a class="n" href="#compartment">細胞分佈圖</a>
@@ -556,6 +560,10 @@
 
 <script>
 "use strict";
+
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
 
 /* ============================= DATA ============================= */
 
