@@ -88,7 +88,7 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[Colorectal Cancer]]**: Increased in CRC tissue; promotes CRC cell invasion via E-cadherin inhibition (EMT).
 - **[[Endometrial Cancer]]**: Overexpressed in EC cells vs. normal endometrial cells; downregulation inhibits invasiveness.
 - **[[Glioma]]**: Upregulated; promotes proliferation/invasion via ERK and STAT3 signaling.
-- **[[Leukemia]]**: Expression increases with positive treatment response, reduces on progression/relapse → biomarker for monitoring treatment response in myeloid stem cell disorders.
+- **[[leukemia]]**: Expression increases with positive treatment response, reduces on progression/relapse → biomarker for monitoring treatment response in myeloid stem cell disorders.
 
 ### Cardiovascular
 
@@ -148,6 +148,9 @@ List of documents that mention this entity
 - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
   - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT7 functions in aging via epigenetic regulation, stress resistance, and apoptosis; positively regulated by FOXO3 and negatively by Myc, HIF-1α, p53.
 
+  - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+    - Reports SIRT7 as the clearest pro-oncogenic sirtuin in the review: it deacetylates H3K18 to repress tumor-suppressor genes, is stabilized at promoters by the ETS factor ELK4, and SIRT7 depletion reduces xenograft tumorigenicity. Positions SIRT7 inhibition as the therapeutic direction in cancer.
+
 ## Connections
 
 - [[SIRT6]] — fellow Class IV sirtuin; both nuclear; SIRT6 is heterochromatic while SIRT7 is nucleolar
@@ -160,6 +163,8 @@ List of documents that mention this entity
 
 - [[GABPβ1]]: SIRT7 deacetylates GABPβ1 to drive nuclear-encoded mitochondrial gene expression
 - [[FGF21]]: SIRT7 deficiency raises FGF21, conferring protection from insulin resistance
+- [[ELK4]]: ETS transcription factor that stabilizes SIRT7 at target promoters for H3K18 deacetylation
+- [[H3K18ac]]: SIRT7 deacetylates H3K18 to repress tumor-suppressor genes
 ## Linking Summary
 - New links added: [[SIRT6]], [[SIRT1]], [[SIRT3]], [[RNA Polymerase I]], [[Breast Cancer]], [[NAD+]], [[TAFI68]], [[GATA4]], [[p53]]
 - Suggested new entity notes to create: [[RNA Polymerase I]], [[RNA Polymerase I|rDNA]], [[Ribosome Biogenesis]], thyroid carcinoma, [[H3K18ac]]
@@ -167,6 +172,6 @@ List of documents that mention this entity
 
 ## Linking Summary (Disease Landscape)
 
-- New links added: [[Breast Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Endometrial Cancer]], [[Glioma]], [[Leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Pulmonary Fibrosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Diabetes Mellitus]], [[Acute Kidney Injury]]
-- Suggested new entity notes to create: [[Endometrial Cancer]], [[Leukemia]], [[Hepatitis B]]
+- New links added: [[Breast Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Endometrial Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Pulmonary Fibrosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Diabetes Mellitus]], [[Acute Kidney Injury]]
+- Suggested new entity notes to create: [[Endometrial Cancer]], [[leukemia]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT7]] ↔ [[Cardiac Fibrosis]], [[SIRT7]] ↔ [[Hepatitis B]], [[SIRT7]] ↔ [[Hepatocellular Carcinoma]]

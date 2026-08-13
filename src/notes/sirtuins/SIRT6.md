@@ -141,7 +141,7 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[Ovarian Cancer]]**: Decreased in OC tissue; high expression ↔ favorable survival.
 - **[[Endometrial Cancer]]**: Tumor suppressor — represses survivin → inhibits AN3CA/KLE proliferation.
 - **[[Glioma]]**: Downregulated; suppresses growth via apoptosis, oxidative-stress inhibition, JAK2/STAT3 inhibition.
-- **[[Leukemia]]**: DNA-repair deficiencies synergize with NAMPT targeting in AML (promising combination therapy).
+- **[[leukemia]]**: DNA-repair deficiencies synergize with NAMPT targeting in AML (promising combination therapy).
 
 ### Cardiovascular
 
@@ -245,8 +245,8 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 
 ## Linking Summary (Disease Landscape)
 
-- New links added: [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Glioma]], [[Leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[ALS]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Vascular Calcification]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]]
-- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[Leukemia]], [[Hepatitis B]]
+- New links added: [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[ALS]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Vascular Calcification]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[leukemia]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT6]] ↔ [[Cardiovascular Disease]], [[SIRT6]] ↔ [[Hepatocellular Carcinoma]], [[SIRT6]] ↔ [[Vascular Calcification]], [[SIRT6]] ↔ [[Longevity]]
 
 ## Documents

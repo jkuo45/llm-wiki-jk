@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-08-11
+updated: 2026-08-13
 ---
 # Sirtuins
 
@@ -23,6 +23,7 @@ updated: 2026-08-11
 | [[_document_ - Sirtuins Guardians of Mammalian Healthspan\|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]] | Trends Genet review: SIRT1 (BRASTO ~11%), SIRT3 (SNPs, SOD2/IDH2), SIRT6 (male lifespan 14.5%/9.9%) as guardians of healthspan across neurodegeneration, metabolism, inflammation, cancer, and CVD |
 | [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis\|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]] | Diabetes/Metabolism Research and Reviews systems review: compartmentalised NAD+-dependent sirtuin network linking NAD+ metabolism, mitochondrial function, and metabolic homoeostasis across obesity, T2DM, MASLD, and cardiometabolic disease |
 | [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases\|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]] | Review surveying sirtuin structure, NAD⁺-dependent deacetylation, roles in aging and age-related diseases (neurodegenerative, cardiovascular, metabolic, cancer), and STAC/sirtuin modulators; includes Tables 2 (substrates/targets/modifiers/activators/inhibitors) and 3 (mammalian signaling pathways) |
+| [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets\|Rejuvenating Sirtuins: Cancer Drug Targets (Bruzzone et al., 2013)]] | Review on sirtuins as cancer drug targets: context-dependent tumor-suppressor/oncogenic roles, sirtuin structure, inhibitor scaffolds (nicotinamide, sirtinol/cambinol/splitomicin, EX-527, tenovins, suramin/NF675, kinase-inhibitor scaffolds), STACs (resveratrol, SRT compounds), and biochemical/cell-based screening assays |
 
 ## Entity Notes
 
@@ -87,6 +88,10 @@ updated: 2026-08-11
 | [[Fucoidan]] | Chemical Compound | Sulfated polysaccharide; SIRT6 activator that elevates SIRT6 and enhances mADPr activity; mimics centenarian SIRT6 variant effects |
 | [[Glu230]] | Amino Acid Residue | Glutamate 230 (E230) in the SIRT1 N-terminal domain; required for resveratrol allosteric binding and activation |
 | [[Pan-sirtuin Activator]] | compound | A class of agents that broadly activate multiple sirtuin deacetylases, typically indirectly by raising cellular NAD+ rather than direct binding |
+| [[Kinase]] | Enzyme | Enzyme superfamily sharing an adenosine-binding site with sirtuins; kinase-inhibitor scaffolds (Ro31-8220, GW5074) were repurposed as SIRT1/SIRT2 inhibitors |
+| [[β-Catenin]] | Protein | Wnt transcriptional coactivator; deacetylated by SIRT1 to suppress proliferation (tumor-suppressor arm) |
+| [[Aurora Kinase]] | Protein | Mitotic Aurora-A/B kinases; elevated upon SIRT2 loss, driving aneuploidy and mitotic death |
+| [[Sirtuin Fluorimetric Activity]] | assay | Fluor de Lys-type fluorescence assays measuring sirtuin deacetylation for HTS of inhibitors/activators; subject to fluorescent-substrate artifacts |
 
 #### Sirtuin Inhibitors
 
@@ -102,6 +107,18 @@ updated: 2026-08-11
 | [[Cambinol]] | Chemical Compound | $\beta$-naphthol-containing dual SIRT1/SIRT2 inhibitor; impairs metastatic invasion and cell migration |
 | [[Suramin]] | Chemical Compound | Polyanionic urea derivative; potent pan-sirtuin inhibitor targeting SIRT1, SIRT2, and SIRT5 |
 | [[Tenovin-6]] | drug | Small-molecule sirtuin inhibitor originally identified as a p53-activating compound blocking sirtuin-mediated deacetylation |
+| [[SRT1460]] | Chemical Compound | Second-generation imidazothiazole STAC; potent SIRT1 activator; mechanism may be indirect (cAMP–Epac1–AMPK) |
+| [[SRT2183]] | Chemical Compound | Second-generation imidazothiazole STAC; potent SIRT1 activator alongside SRT1720 and SRT1460 |
+| [[Butein]] | Chemical Compound | Chalcone polyphenol; one of the first natural STACs reported to activate SIRT1 |
+| [[Ro31-8220]] | Chemical Compound | Bisindolylmaleimide kinase (PKC) inhibitor repurposed as low-micromolar SIRT1/SIRT2 inhibitor |
+| [[GW5074]] | Chemical Compound | Indolinone c-Raf kinase inhibitor repurposed as low-micromolar SIRT1/SIRT2 inhibitor |
+| [[NF675]] | Chemical Compound | Suramin-scaffold derivative; most potent/selective in series with 20-fold SIRT1-over-SIRT2 selectivity |
+| [[JGB1741]] | Chemical Compound | Sirtinol-derived SIRT1 inhibitor identified by fluorimetric activity assays |
+| [[AC93253]] | Chemical Compound | Micromolar SIRT2 inhibitor; antileukemia activity via Akt acetylation/inhibition |
+| [[Aristoforin]] | Chemical Compound | Natural product; micromolar sirtuin inhibitor |
+| [[Amurensin G]] | Chemical Compound | Resveratrol tetramer natural product; micromolar sirtuin inhibitor with anticancer activity |
+| [[Tanikolide]] | Chemical Compound | Natural product (pentadecanolide); micromolar sirtuin inhibitor |
+| [[Sirtuin Inhibitors]] | chemical-class | Class of small molecules blocking sirtuin deacetylase activity across multiple scaffolds (nicotinamide analogs, β-naphthols, indoles, tenovins, suramin analogs, kinase-inhibitor scaffolds, natural products) |
 
 ### Physiological Concepts
 
@@ -176,6 +193,9 @@ updated: 2026-08-11
 | [[OX2R]] | Receptor | Orexin receptor type 2; upregulated by SIRT1 (via NKX2-1) in hypothalamus; mediates BRASTO lifespan extension |
 | [[CtIP]] | Protein | DNA end-resection factor; deacetylated by SIRT6; supports homologous recombination and genome stability |
 | [[SREBP2]] | Transcription Factor | Lipogenic/cholesterol transcription factor; negatively regulated by SIRT6 |
+| [[ELK4]] | Protein | ETS-domain ternary complex factor; stabilizes SIRT7 at target promoters for H3K18 deacetylation |
+| [[ELK1]] | Protein | Founding member of the ETS ternary complex factor subfamily; ERK/MAPK target; reference point for ELK4-mediated SIRT7 recruitment |
+| [[ETS]] | Transcription Factor | ETS-domain transcription factor family; ELK4 member recruits SIRT7 in tumor suppressor gene repression |
 
 ### Resveratrol Signalling Cascade
 

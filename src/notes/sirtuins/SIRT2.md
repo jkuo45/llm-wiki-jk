@@ -92,7 +92,7 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[Ovarian Cancer]]**: High expression ↔ favorable survival; overexpression enhances cisplatin sensitivity in resistant cells.
 - **[[Endometrial Cancer]]**: Increased in most EC cell lines — promotes proliferation, inhibits apoptosis; promotes stemness + MEK/ERK signaling while repressing chemosensitivity.
 - **[[Cervical Cancer]]**: Decreased in CC tissue; negatively correlated with tumor size/lymph node metastasis → favorable survival.
-- **[[Leukemia]]**: Overexpressed in primary AML blasts; NAMPT activation (SIRT2) reduces proliferation/induces apoptosis (Akt/GSK-3β/β-catenin); SIRT2 inhibition suppresses T-ALL growth/engraftment (LMO2 deacetylation).
+- **[[leukemia]]**: Overexpressed in primary AML blasts; NAMPT activation (SIRT2) reduces proliferation/induces apoptosis (Akt/GSK-3β/β-catenin); SIRT2 inhibition suppresses T-ALL growth/engraftment (LMO2 deacetylation).
 
 ### Cardiovascular
 
@@ -163,6 +163,10 @@ List of documents that mention this entity
 
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+  - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+    - Reviews SIRT2's tumor-suppressor role: disruption raises Aurora-A/Aurora-B mitotic regulator levels, aneuploidy, and mitotic death (SIRT2-deficient mice develop gender-specific mammary/hepatocellular tumors). Documents SIRT2 inhibitors (kinase-inhibitor scaffolds Ro31-8220, GW5074; suramin analogs; AC93253 with Akt-inhibiting effects) and notes SIRT2 inhibition may be counterproductive during microtubule-inhibitor therapy.
+
 ## Connections
 
 - [[SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities
@@ -184,8 +188,8 @@ List of documents that mention this entity
 
 ## Linking Summary (Disease Landscape)
 
-- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Atherosclerosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Diabetes Mellitus]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
-- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Leukemia]], [[Hepatitis B]]
+- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Atherosclerosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Diabetes Mellitus]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Alzheimer's Disease]], [[SIRT2]] ↔ [[Parkinson's Disease]], [[SIRT2]] ↔ [[Breast Cancer]]
 
 # SIRT2

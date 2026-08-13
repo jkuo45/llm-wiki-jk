@@ -166,7 +166,7 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[Endometrial Cancer]]**: Elevated — promotes autophagy/proliferation via LC3 deacetylation; promotes growth and cisplatin resistance.
 - **[[Cervical Cancer]]**: Overexpressed in HPV-infected cells ↔ poor outcomes — nullifies AIM2 inflammasome-mediated immunity.
 - **[[Glioma]]**: Upregulated ↔ worse prognosis. Tumor suppressor via PAK1 K420 deacetylation (hinders glioblastoma growth); inhibition increases temozolomide sensitivity via ROS.
-- **[[Leukemia]]**: Promotes T-ALL progression via CDK2 deacetylation → p27 degradation; knockdown sensitizes AML to tyrosine kinase inhibitors.
+- **[[leukemia]]**: Promotes T-ALL progression via CDK2 deacetylation → p27 degradation; knockdown sensitizes AML to tyrosine kinase inhibitors.
 
 ### Cardiovascular
 
@@ -283,6 +283,9 @@ List of documents that mention this entity
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 
+- [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+  - Reviews SIRT1's dual cancer role: deacetylates and inhibits NF-κB and β-Catenin (tumor-suppressive) yet inactivates p53 and proapoptotic FOXO factors (cancer-promoting). Deduces that SIRT1 inhibition (e.g., EX-527, sirtinol, cambinol, tenovins) is anticancer in many contexts, and that STACs such as resveratrol and SRT compounds may act indirectly via the cAMP–Epac1–AMPK axis.
+
 - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
   - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT1 functions in aging via lifespan extension, DNA repair, cell cycle arrest, and cellular senescence; positively regulated by eNOS, Erβ, FOXO3 and negatively by PAI-1, p53, p16INK4a, NF-κB, p66Shc, LKB1, Cyclin D1, and mTOR/S6K.
 
@@ -309,7 +312,10 @@ List of documents that mention this entity
 - **[[Aging]]**: SIRT1 is a central regulator of the aging process.
 - [[BMAL1]]: SIRT1 deacetylates BMAL1 to gate circadian NAD+ oscillations.
 - [[Trimethylamine N-oxide]]: SIRT1 attenuates TMAO-driven vascular inflammation.
-- [[STACs]]: STACs (resveratrol, SRT2104) activate SIRT1.
+- [[STACs]]: STACs (resveratrol, SRT2104, SRT1720, SRT1460, SRT2183) activate SIRT1.
+- [[β-Catenin]]: SIRT1 deacetylates β-Catenin, repressing its transcriptional activity and cell proliferation (tumor-suppressive arm).
+- [[NF-κB]]: SIRT1 deacetylates RelA/p65, inhibiting NF-κB transcription (tumor-suppressive arm).
+- [[EX-527]]: Selective pharmacological SIRT1 inhibitor used to probe SIRT1's oncogenic arm in cancer cells.
 - [[BNIP3]]: Induced downstream of SIRT1 via FOXO3a deacetylation; forms the NAD+ → SIRT1 → FOXO3a → BNIP3 mitophagy axis
 - [[BNIP3L|NIX]]: SIRT1/FOXO3a axis induces BNIP3L expression; HIF1A also transactivates BNIP3L
 - [[HIF-1α]]: Converges with SIRT1 signaling through shared neighbors (Autophagy, Mitohormesis); NAD+ decline suppresses SIRT1 and impairs HIF1A-driven mitophagy
@@ -472,6 +478,6 @@ Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transc
 
 ## Linking Summary (Disease Landscape)
 
-- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Glioma]], [[Leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Pancreatitis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Epilepsy]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Diabetic Kidney Disease]], [[Diabetic Neuropathy]], [[Diabetic Retinopathy]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[PCOS]], [[Endometriosis]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
-- Suggested new entity notes to create: [[Diabetic Kidney Disease]], [[Diabetic Cardiomyopathy]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Leukemia]], [[PCOS]], [[Endometriosis]], [[Hepatitis B]]
+- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Pancreatitis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Epilepsy]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Diabetic Kidney Disease]], [[Diabetic Neuropathy]], [[Diabetic Retinopathy]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[PCOS]], [[Endometriosis]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
+- Suggested new entity notes to create: [[Diabetic Kidney Disease]], [[Diabetic Cardiomyopathy]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[PCOS]], [[Endometriosis]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Breast Cancer]], [[SIRT1]] ↔ [[Alzheimer's Disease]], [[SIRT1]] ↔ [[Diabetes Mellitus]], [[SIRT1]] ↔ [[Cardiac Hypertrophy]], [[SIRT1]] ↔ [[COPD]]
