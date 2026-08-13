@@ -16,14 +16,14 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, WIKI_CONTEXT, TRACES, TRANSLATIONS] = await Promise.all([
-    getJSON('nodes.json', 'nodes'),
-    getJSON('edges.json', 'edges'),
-    getJSON('legend.json', 'legend'),
-    getJSON('graph.json', 'graph'),
-    getJSON('manifest.json', 'manifest'),
-    getJSON('wiki-context.json', 'wiki-context'),
-    getJSON('query.json', 'traces'),
-    getJSON('translations-zh-TW.json', 'translations'),
+    getJSON('../nodes.json', 'nodes'),
+    getJSON('../edges.json', 'edges'),
+    getJSON('../legend.json', 'legend'),
+    getJSON('../graph.json', 'graph'),
+    getJSON('../manifest.json', 'manifest'),
+    getJSON('../wiki-context.json', 'wiki-context'),
+    getJSON('../query.json', 'traces'),
+    getJSON('../translations-zh-TW.json', 'translations'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],

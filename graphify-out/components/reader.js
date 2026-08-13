@@ -15,7 +15,7 @@ export const ARTICLES = [
   },
   {
     id: 'sirtuin-pleiotropy-zh',
-    title: 'Sirtuin Pleiotropic Roles（繁體中文）/ 去乙醯酶多效性（繁體中文）',
+    title: '去乙醯酶多效性（繁體中文)',
     path: 'pages/sirtuin_pleiotropic_roles_zh_TW.html',
   },
 ];

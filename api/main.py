@@ -1,7 +1,7 @@
 """FastAPI adapter between the graph UI and a headless `opencode serve`.
 
 Responsibilities:
-  - translate the opencode event bus into the SSE contract graphify-out/chat.js
+  - translate the opencode event bus into the SSE contract graphify-out/components/chat.js
     already speaks ({type: reasoning|text|highlight|done|error})
   - run read-only networkx graph operations (query/explain/path/trace)
   - map browser chat windows onto long-lived opencode sessions
