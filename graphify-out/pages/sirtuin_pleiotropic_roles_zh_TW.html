@@ -452,7 +452,7 @@
     </p>
     <p class="sub" style="font-size:.8rem; margin-bottom:16px;">泡泡面積 ∝ 該標靶 × 階段的藥物數量。</p>
     <div class="spectrum-card" style="margin-bottom:18px;">
-      <svg id="theraSvg" viewBox="0 0 1000 480" role="img" aria-label="治療藥物泡泡圖"></svg>
+      <svg id="theraSvg" viewBox="0 0 1180 480" role="img" aria-label="治療藥物泡泡圖"></svg>
       <div class="legend">
         <span><span class="sw" style="background:var(--green)"></span> 活化劑</span>
         <span><span class="sw" style="background:var(--red)"></span> 抑制劑</span>
@@ -558,6 +558,14 @@
 
 /* ============================= DATA ============================= */
 
+const DIAGRAM_TEXT_SCALE = 1.5;
+function scaleDiagramText(svg){
+  svg.querySelectorAll('text').forEach(t=>{
+    const s = parseFloat(t.getAttribute('font-size'));
+    if (s) t.setAttribute('font-size', (s*DIAGRAM_TEXT_SCALE).toFixed(1));
+  });
+}
+
 const SIRTS = [
  {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'Nucleus + cytosol', score:0,  range:2.6,
   net:'典型雙刃劍',
@@ -658,6 +666,13 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
   function showTip(t){ document.getElementById('netTip').style.display='block'; document.getElementById('netTip').innerHTML=t; }
   function moveTip(ev){ const t=document.getElementById('netTip'); t.style.left=(ev.clientX+14)+'px'; t.style.top=(ev.clientY+10)+'px'; }
   function hideTip(){ document.getElementById('netTip').style.display='none'; }
+  function tipTap(ev, html){
+    const tc = ev.touches && ev.touches[0];
+    const t = document.getElementById('netTip');
+    t.style.display='block'; t.innerHTML=html;
+    if (tc){ t.style.left=(tc.clientX+14)+'px'; t.style.top=(tc.clientY+10)+'px'; }
+    ev.stopPropagation();
+  }
 
   SIRTS.forEach(s=>{
     const x = mid + s.score*scale;
@@ -688,6 +703,7 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
     g.addEventListener('mouseenter', ()=>showTip(`<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
     g.addEventListener('mousemove', moveTip);
     g.addEventListener('mouseleave', hideTip);
+    g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
     svg.appendChild(g);
     y += barH + rowGap + 20;
   });
@@ -735,7 +751,8 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
   const m4='<circle cx="820" cy="450" r="24" fill="#1a1a3a" stroke="#3EC9A7" stroke-width="1.5"/><text x="820" y="455" text-anchor="middle" fill="#3EC9A7" font-size="13" font-weight="700">S4</text>';
   const m5='<circle cx="885" cy="450" r="24" fill="#1a1a3a" stroke="#F5A65B" stroke-width="1.5"/><text x="885" y="455" text-anchor="middle" fill="#F5A65B" font-size="13" font-weight="700">S5</text>';
   // notes under mito
-  const mnote='<text x="820" y="478" text-anchor="middle" fill="#6b6b85" font-size="9">S3 氧化還原/PDC · S4 GDH（麩醯胺酸煞車）· S5 去琥珀醯酶（麩醯胺酸分解）</text>';
+  const mnote='<text x="820" y="476" text-anchor="middle" fill="#6b6b85" font-size="9">S3 氧化還原/PDC · S4 GDH（麩醯胺酸煞車）</text>'+
+              '<text x="820" y="489" text-anchor="middle" fill="#6b6b85" font-size="9">· S5 去琥珀醯酶（麩醯胺酸分解）</text>';
   // footer legend
   const foot='<text x="500" y="535" text-anchor="middle" fill="#9a9ab0" font-size="11">粒線體三兄弟（S3/S4/S5）= 代謝定點 &nbsp;·&nbsp; 細胞核三兄弟（S1/S6/S7）= 轉錄門控</text>';
   svg.innerHTML = nuc + s6 + s1 + cyto + s2 + mito + m3 + m4 + m5 + mnote + foot;
@@ -744,7 +761,7 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
 /* ============================= MATRIX ============================= */
 (function matrix(){
   const svg = document.getElementById('matrixSvg');
-  const W=920, top=90, left=70, cw=150, ch=84, rh=72;
+  const W=920, top=90, left=92, cw=150, ch=84, rh=72;
   const lastBottom = top + (sirtOrder.length-1)*rh + (ch-16);
   const pad = top - 56;
   const H = lastBottom + pad;
@@ -752,7 +769,14 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
   // axis labels (top)
   AXES.forEach((a,i)=>{
     const cx = left + i*cw + cw/2;
-    svg.innerHTML += `<text x="${cx}" y="${top-56}" text-anchor="middle" fill="#9a9ab0" font-size="12" font-weight="600">${a}</text>` +
+    const parts = a.split(' / ');
+    let label = '';
+    if (parts.length > 1){
+      label += `<text x="${cx}" y="${top-62}" text-anchor="middle" fill="#9a9ab0" font-size="12" font-weight="600"><tspan x="${cx}">${parts[0]}</tspan><tspan x="${cx}" dy="15">${parts[1]}</tspan></text>`;
+    } else {
+      label += `<text x="${cx}" y="${top-55}" text-anchor="middle" fill="#9a9ab0" font-size="12" font-weight="600">${a}</text>`;
+    }
+    svg.innerHTML += label +
       `<line x1="${cx}" y1="${top-40}" x2="${cx}" y2="${top+sirtOrder.length*rh-10}" stroke="#23233f" stroke-width="1"/>`;
   });
   sirtOrder.forEach((s,row)=>{
@@ -779,6 +803,7 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
       g.addEventListener('mouseenter',()=>showTip(`<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`));
       g.addEventListener('mousemove', moveTip);
       g.addEventListener('mouseleave', hideTip);
+      g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`));
       svg.appendChild(g);
     });
   });
@@ -1032,6 +1057,10 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
         const neighbors = [...nb].map(id=>byId[id]?.label||id);
         showTip(`<b style="color:${c}">${n.label}</b><br>連接度 ${n.degree} · 社群：${n.community}<br><span style="color:var(--dim)">${neighbors.length?'連接到：'+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'子圖中無圖形邊'}</span>`);
       });
+      g.addEventListener('touchstart', ev=>{
+        const neighbors = [...(adj[n.id]||[])].map(id=>byId[id]?.label||id);
+        tipTap(ev, `<b style="color:${c}">${n.label}</b><br>連接度 ${n.degree} · 社群：${n.community}<br><span style="color:var(--dim)">${neighbors.length?'連接到：'+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'子圖中無圖形邊'}</span>`);
+      });
       g.addEventListener('mousemove', moveTip);
       g.addEventListener('mouseleave', ev=>{
         svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=1; });
@@ -1052,6 +1081,7 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
       });
       svg.appendChild(g);
     });
+    scaleDiagramText(svg);
   }
   render();
 
@@ -1070,7 +1100,8 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
 /* ============================= THERAPEUTICS ============================= */
 (function therapeutics(){
   const svg = document.getElementById('theraSvg');
-  const W=1000, H=480, left=180, top=70, plotW=760, plotH=300;
+  const W=1180, H=480, left=180, top=70, plotW=760, plotH=300;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
   const stages = [
     {y:0, label:'臨床前'},
     {y:1, label:'一期/二期'},
@@ -1122,6 +1153,7 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
     g.addEventListener('mouseenter',()=>showTip(`<b style="color:${col}">${a.n}</b><br><span style="color:var(--dim)">標靶 ${a.t} · ${a.m.toUpperCase()} · 階段 ${stages[a.s].label}</span>`));
     g.addEventListener('mousemove', moveTip);
     g.addEventListener('mouseleave', hideTip);
+    g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${col}">${a.n}</b><br><span style="color:var(--dim)">標靶 ${a.t} · ${a.m.toUpperCase()} · 階段 ${stages[a.s].label}</span>`));
     svg.appendChild(g);
   });
   const caption = document.createElementNS('http://www.w3.org/2000/svg','text');
@@ -1134,6 +1166,9 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
 function showTip(t){ const el=document.getElementById('netTip'); el.style.display='block'; el.innerHTML=t; }
 function moveTip(ev){ const el=document.getElementById('netTip'); el.style.left=(ev.clientX+14)+'px'; el.style.top=(ev.clientY+10)+'px'; }
 function hideTip(){ document.getElementById('netTip').style.display='none'; }
+['spectrumSvg','compSvg','matrixSvg','theraSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
+document.addEventListener('touchstart', ()=>hideTip(), true);
+window.addEventListener('scroll', hideTip, true);
 </script>
 </body>
 </html>
