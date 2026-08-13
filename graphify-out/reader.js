@@ -39,9 +39,10 @@ function updatePrevBtn() {
 // ------------------------------------------------------------
 // Rendering
 // ------------------------------------------------------------
-function loadArticle(article) {
-  frame.src = article.path;
-  openLink.href = article.path;
+function loadArticle(article, section) {
+  const anchor = section ? '#' + encodeURIComponent(section) : '';
+  frame.src = article.path + anchor;
+  openLink.href = article.path + anchor;
 }
 
 function buildOptions() {
@@ -59,7 +60,7 @@ function setSelect(id) {
 // `restore = true` for hash-restore/popstate: reconcile the session
 // stack to the current article instead of pushing a new entry.
 // ------------------------------------------------------------
-export function openReader(id, { restore = false } = {}) {
+export function openReader(id, { restore = false, section = null } = {}) {
   const article = getArticle(id) || getDefaultArticle();
   if (!article) return;
   if (restore) {
@@ -72,17 +73,20 @@ export function openReader(id, { restore = false } = {}) {
   } else if (readerStack[readerStack.length - 1] !== article.id) {
     readerStack.push(article.id);
   }
-  loadArticle(article);
+  loadArticle(article, section);
   setSelect(article.id);
   overlay.classList.add('visible');
   state.readerId = article.id;
+  state.readerSection = section;
   updatePrevBtn();
   if (!restore) updateHash();
 }
 
 export function closeReader() {
+  stopSectionTracking();
   overlay.classList.remove('visible');
   state.readerId = null;
+  state.readerSection = null;
   readerStack.length = 0;
   updatePrevBtn();
   updateHash();
@@ -91,6 +95,48 @@ export function closeReader() {
 export function isReaderOpen() {
   return overlay.classList.contains('visible');
 }
+
+// ------------------------------------------------------------
+// Active-section tracking inside the article iframe.
+// Updates state.readerSection as the user scrolls, so the current
+// section is persisted in the hash (`&section=<id>`) and restored
+// on reload / back navigation.
+// ------------------------------------------------------------
+const SECTION_POLL_MS = 150;
+let sectionTimer = null;
+
+function pollActiveSection() {
+  const doc = frame.contentDocument;
+  if (!doc || !isReaderOpen()) return;
+  const sections = Array.from(doc.querySelectorAll('section[id]'));
+  if (!sections.length) return;
+  const navBottom = 60; // sticky nav offset within the article
+  let active = sections[0].id;
+  for (const s of sections) {
+    if (s.getBoundingClientRect().top <= navBottom + 1) active = s.id;
+  }
+  if (active !== state.readerSection) {
+    state.readerSection = active;
+    updateHash(false);
+  }
+}
+
+function startSectionTracking() {
+  stopSectionTracking();
+  sectionTimer = setInterval(pollActiveSection, SECTION_POLL_MS);
+}
+
+function stopSectionTracking() {
+  if (sectionTimer) {
+    clearInterval(sectionTimer);
+    sectionTimer = null;
+  }
+}
+
+frame.addEventListener('load', startSectionTracking);
+
+buildOptions();
+updatePrevBtn();
 
 // ------------------------------------------------------------
 // Wire up (button, select, overlay, keyboard)

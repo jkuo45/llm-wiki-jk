@@ -14,6 +14,7 @@ export const state = {
   sidebarInfoActive: true,
   suppressHashUpdate: false,
   readerId: null,
+  readerSection: null,
 };
 
 export const stickyNodes = new Set();

@@ -101,7 +101,7 @@ document.addEventListener('click', (e) => {
 function restoreFromHash(params) {
   state.suppressHashUpdate = true;
   if (params && params.reader) {
-    openReader(params.reader);
+    openReader(params.reader, { section: params.section || null });
   } else if (isReaderOpen()) {
     closeReader();
   }
