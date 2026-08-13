@@ -4,7 +4,7 @@ description: Pancreatic cancer, particularly pancreatic duct adenocarcinoma (PDA
   involves dysregulated TFEB activity which supports tumor growth by controlling glutamine
   metabolism.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: [Pancreatic Cancer]
@@ -19,9 +19,15 @@ PDA cells exhibit high basal autophagy. Inhibition of autophagy with [[Hydroxych
 ## Research with Melittin
 Both [[Honeybee venom|honeybee venom]] and [[melittin]] have demonstrated antitumoral effects in pancreatic cancer.
 
-#
+## Sirtuin Involvement (Wu et al., 2022)
 
-# 
+PC ranks as the seventh leading cause of cancer-related death worldwide. Sirtuins influence pancreatic cancer metabolism, EMT, and drug resistance:
+
+- **[[SIRT5]]**: Expression directly correlated with favorable prognosis — loss promotes GOT1 acetylation → proliferation via glutamine/glutathione metabolism.
+- **[[SIRT6]]**: KLF10-upregulated SIRT6 influences glycolysis, EMT, distant metastasis.
+- **[[SIRT1]]**: Facilitates chemoresistance by regulating adaptive response to chemotherapy-induced stress.
+
+#
 
 ## Documents
 
@@ -49,3 +55,9 @@ List of documents that mention this entity
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Glutamine Metabolism]]
   - Strong connections to strengthen: Pancreatic Cancer ↔ [[TFEB]]
+
+## Linking Summary (Sirtuin Involvement)
+
+- New links added: [[SIRT1]], [[SIRT5]], [[SIRT6]], [[EMT]], [[Glycolysis]], [[GOT1]]
+- Suggested new entity notes to create: [[KLF10]]
+- Strong connections to strengthen: [[Pancreatic Cancer]] ↔ [[SIRT5]], [[Pancreatic Cancer]] ↔ [[SIRT6]]

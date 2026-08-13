@@ -4,7 +4,7 @@ description: Stroke is a medical emergency caused by interruption of blood suppl
   to the brain, leading to tissue damage and neurological deficits. It is a leading
   cause of disability and mortality worldwide.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: [Cerebrovascular accident, CVA, Brain attack]
@@ -19,6 +19,15 @@ aliases: [Cerebrovascular accident, CVA, Brain attack]
 - **Transient Ischemic Attack (TIA)**: Temporary interruption; warning sign
 ## Pathophysiology
 Stroke involves [[Oxidative Stress]], [[Inflammation]], [[Excitotoxicity]], and [[Apoptosis]] in the [[Ischemia-reperfusion Injury|ischemia-reperfusion]] cascade.
+
+## Sirtuin Involvement (Wu et al., 2022)
+
+Sirtuins modulate cerebral ischemia-reperfusion injury and ischemic stroke outcomes:
+
+- **[[SIRT1]]**: Neuroprotective via oxidative, inflammatory, autophagy, and apoptotic pathways. [[NAMPT]] promotes neuronal survival in a SIRT1-dependent manner during cerebral ischemia; SIRT1 deacetylates the RNA-binding protein quaking 6, activating [[PGC-1α]] via PPAR-γ and inhibiting neuronal apoptosis.
+- **[[SIRT3]]**: A prosurvival factor protecting against excitotoxic injury; protective in ischemic stroke via HIF-1α/VEGF in astrocytes; downregulated in cerebral IRI — enhancing SIRT3 plus [[Wnt]]/β-catenin activation are therapeutic targets.
+- **[[SIRT5]]**: Mediates IR-induced brain damage by increasing blood-brain barrier permeability via occludin degradation.
+- **[[SIRT2]]**: Detrimental — inhibition is neuroprotective in ischemic stroke (downregulation of Akt/FoxO3a and MAPK); serum SIRT2 is increased in acute ischemic stroke patients, a marker of risk/prognosis.
 
 #
 
@@ -41,8 +50,12 @@ List of documents that mention this entity
 - [[Aging]] — Primary risk factor
 - [[Hypertension]] — Major modifiable risk factor
 - [[Honokiol]] — Reduces ischemic infarct volume via antioxidant, anti-inflammatory, and PSD95–nNOS mechanisms.
+- [[SIRT1]] — Neuroprotective via NAMPT-dependent neuronal survival and quaking 6/PGC-1α activation
+- [[SIRT3]] — Prosurvival; protective in ischemic stroke via HIF-1α/VEGF
+- [[SIRT5]] — Mediates IR brain damage via occludin degradation/BBB permeability
+- [[SIRT2]] — Detrimental; inhibition neuroprotective; serum marker of AIS risk/prognosis
 
 ## Linking Summary
-- New links added: [[Oxidative Stress]], [[Inflammation]], [[Apoptosis]], [[Cardiovascular Disease]], [[Ischemia-reperfusion Injury]], [[Aging]]
-- Suggested new entity notes to create: [[Thrombectomy]], [[tPA]], [[Excitotoxicity]]
-  - Strong connections to strengthen: [[Stroke]] ↔ Ischemia-reperfusion Injury
+- New links added: [[Oxidative Stress]], [[Inflammation]], [[Apoptosis]], [[Cardiovascular Disease]], [[Ischemia-reperfusion Injury]], [[Aging]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT5]], [[NAMPT]], [[PGC-1α]], [[HIF-1α]], [[VEGF]], [[Wnt]]
+- Suggested new entity notes to create: [[Thrombectomy]], [[tPA]], [[Excitotoxicity]], [[Occludin]]
+  - Strong connections to strengthen: [[Stroke]] ↔ Ischemia-reperfusion Injury, [[SIRT1]] ↔ [[Stroke]]

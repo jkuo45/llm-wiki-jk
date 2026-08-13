@@ -1,32 +1,42 @@
 # Callouts Reference
 
+> [!note]
+> Put `> [!type]` on its own line and all content on the following lines. GitHub requires this — single-line callouts (`> [!info] text`) and inline titles (`> [!info] Custom Title`) render as plain blockquotes on GitHub. Fold this text (including any intended title) into the first content line.
+
 ## Basic Callout
 
 ```markdown
 > [!note]
 > This is a note callout.
 
-> [!info] Custom Title
-> This callout has a custom title.
+> [!info]
+> This callout has a title — write the title as the first content line.
 
-> [!tip] Title Only
+> [!tip]
+> Title-only callout: keep the marker alone on the first line.
 ```
 
 ## Foldable Callouts
 
-```markdown
-> [!faq]- Collapsed by default
-> This content is hidden until expanded.
+Obsidian-only; GitHub will not render these as alerts.
 
-> [!faq]+ Expanded by default
-> This content is visible but can be collapsed.
+```markdown
+> [!faq]-
+> Collapsed by default — this content is hidden until expanded.
+
+> [!faq]+
+> Expanded by default — this content is visible but can be collapsed.
 ```
 
 ## Nested Callouts
 
+Obsidian-only; GitHub will not render nested callouts as alerts.
+
 ```markdown
-> [!question] Outer callout
-> > [!note] Inner callout
+> [!question]
+> Outer callout title
+> > [!note]
+> > Inner callout content
 > > Nested content
 ```
 

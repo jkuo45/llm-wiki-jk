@@ -4,7 +4,7 @@ description: Heart failure is a complex clinical syndrome where the heart is
   unable to pump sufficiently to maintain blood flow. It is a common end-stage of
   Cardiovascular Disease and Hypertension.
 created: 2026-07-04
-updated: 2026-07-25
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: [HF, Congestive heart failure, CHF]
@@ -21,6 +21,14 @@ aliases: [HF, Congestive heart failure, CHF]
 
 The high energy requirement of the heart makes it particularly vulnerable to [[Mitochondrial Dynamics|mitochondrial dynamics]] imbalance. Excessive mitochondrial fission and insufficient fusion are consistently associated with cardiac pathology across hypertrophic, dilated, and ischemic cardiomyopathies.
 
+## Sirtuin Involvement (Wu et al., 2022)
+
+Heart failure affects ~64.3 million people worldwide. Sirtuins exert predominantly protective roles in failing hearts:
+
+- **[[SIRT1]]**: Decreased in advanced heart failure hearts. It attenuates oxidative stress and apoptosis via upregulation of [[MnSOD]], thioredoxin-1, and Bcl-xL, decreased p53 acetylation, and [[FoxO1]] nuclear translocation. It further reduces cardiomyocyte apoptosis via the [[NF-κB]] p65/miR-155/[[BDNF]] axis and restores [[SERCA2a]] activity through deacetylation of residue K492.
+- **[[SIRT6]]**: Decreased in chronic heart failure; overexpression increases survival of TAC-induced HF mice via telomerase upregulation ([[TERT]], TRF1).
+- **[[SIRT2]]/[[SIRT4]]/[[SIRT5]]/[[SIRT7]]**: Limited studies reported to date.
+
 ## Documents
 
 List of documents that mention this entity
@@ -30,6 +38,9 @@ List of documents that mention this entity
 
   - [[_document_ - The role of mitochondrial dynamics in disease]]
     - Comprehensive review of mitochondrial dynamics in HF: DRP1/FIS1/BNIP3 upregulation, MFN1/MFN2/OPA1 downregulation, and therapeutic targeting with Mdivi-1, Sacubitril/Valsartan, and metformin. Mild PINK1–Parkin mitophagy activation is protective; excessive activation is detrimental.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]]
+    - SIRT1 and SIRT6 are decreased in heart failure; SIRT1 protects via MnSOD/thioredoxin1/Bcl-xL, NF-κB p65/miR-155/BDNF, and SERCA2a K492 deacetylation, while SIRT6 overexpression improves TAC-induced HF survival via telomerase (TERT, TRF1).
 
 ## Connections
 - [[Cardiovascular Disease]] — Major cause of heart failure
@@ -41,8 +52,10 @@ List of documents that mention this entity
 - [[OPA1]] — Downregulated in HF and cardiac ischemia–reperfusion injury
 - [[Mitophagy]] — Mild activation prevents HF; excessive activation potentiates it
 - [[Mdivi-1]] — DRP1 inhibitor that attenuates cardiac dysfunction in mouse models
+- [[SIRT1]] — Decreased in advanced HF; protects via MnSOD/thioredoxin1/Bcl-xL, NF-κB p65/miR-155/BDNF, SERCA2a K492
+- [[SIRT6]] — Decreased in chronic HF; overexpression improves TAC-induced HF survival via TERT/TRF1
 
 ## Linking Summary
-- New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]], [[DRP1]], [[MFN1]], [[MFN2]], [[OPA1]], [[FIS1]], [[BNIP3]], [[PINK1]], [[Parkin]], [[Mitophagy]], [[Mitochondrial Dynamics]], [[Mdivi-1]], [[Metformin]], [[AMPK]], [[PGC-1α]]
-- Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]]
-  - Strong connections to strengthen: Heart Failure ↔ [[Cardiovascular Disease]], Heart Failure ↔ [[DRP1]], Heart Failure ↔ [[Mitophagy]]
+- New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]], [[DRP1]], [[MFN1]], [[MFN2]], [[OPA1]], [[FIS1]], [[BNIP3]], [[PINK1]], [[Parkin]], [[Mitophagy]], [[Mitochondrial Dynamics]], [[Mdivi-1]], [[Metformin]], [[AMPK]], [[PGC-1α]], [[SIRT1]], [[SIRT6]], [[MnSOD]], [[FoxO1]], [[NF-κB]], [[BDNF]], [[SERCA2a]], [[TERT]]
+- Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]], [[Thioredoxin 1]]
+  - Strong connections to strengthen: Heart Failure ↔ [[Cardiovascular Disease]], Heart Failure ↔ [[DRP1]], Heart Failure ↔ [[Mitophagy]], [[SIRT1]] ↔ [[Heart Failure]]

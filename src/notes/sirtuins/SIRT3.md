@@ -3,7 +3,7 @@ title: SIRT3
 description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
   within the Mitochondria.
 created: 2026-07-04
-updated: 2026-08-03
+updated: 2026-08-11
 tags:
   - enzyme
   - nad-plus
@@ -101,6 +101,79 @@ Findings from the *Trends in Genetics* review ([[_document_ - Sirtuins Guardians
 - **Cancer:** dual roles — tumor suppressor (SOD2/IDH2 activation, ROS suppression, HIF-1α destabilization, PDC stimulation) and oncogene (p53 deacetylation; whole-gene duplication in a Li-Fraumeni-like family; elevated in node-positive breast cancer and OSCC).
 - **Cardiac hypertrophy:** SIRT3 overexpression, or NAD+ precursor supplementation, represses agonist-induced CH by inducing [[SOD2]] and [[Catalase]], lowering ROS and inhibiting [[Akt|AKT]] signaling.
 
+## Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT3 is the primary mitochondrial sirtuin with **near-universally protective** roles across metabolism, cardiovascular, renal, respiratory, and neurodegenerative disease — the only clear dual roles are in osteoarthritis and fatty liver/alcoholic liver disease.
+
+### Cancer
+
+- **[[Breast Cancer]]**: Disrupts ERα–p53 interaction → decreased proliferation/colony formation/migration; overexpression reduces tamoxifen sensitivity (MTR-3 line).
+- **[[Lung Cancer]]**: Serum SIRT3 distinguishes LC patients from healthy (AUC 0.918, cutoff 3.12, sensitivity 86.4%, specificity 94%); high SIRT3 ↔ poor survival in NSCLC. Reduces cisplatin resistance (FoxO3/CDT1 axis); promotes DNA repair/radioresistance via ATM–Chk2.
+- **[[Hepatocellular Carcinoma]]**: Lower expression in HCC vs. normal liver. CDK4/6-inhibition modulation enhances sorafenib therapy; downregulates GST-π1 → enhances chemo/sorafenib-induced apoptosis.
+- **[[Colorectal Cancer]]**: Overexpression improves drug resistance via SOD2/PGC-1α.
+- **[[Ovarian Cancer]]**: Decreased in OC tissue; overexpression suppresses metastasis via Twist-downregulation EMT inhibition.
+- **[[Cervical Cancer]]**: Promotes invasion/metastasis by reprogramming fatty acid synthesis (ACC1 upregulation, de novo lipogenesis).
+- **[[Glioma]]**: Downregulated vs. normal brain; higher expression ↔ worse prognosis; promotes viability via Ku70–Bax stabilization.
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: Protective — reduced in Ang II-induced hypertrophy; overexpression protects, silencing exacerbates. Promotes autophagy via FoxO1 deacetylation; FoxO3a-dependent antioxidant defense; reduces PARP-1 acetylation/activity.
+- **[[Cardiac Fibrosis]]**: Protective — resveratrol activation via TGF-β/Smad3.
+- **[[Heart Failure]]**: Limited studies but implicated in energy metabolism.
+- **[[Atherosclerosis]]**: Associated with endothelial apoptosis in rats; SIRT3/SOD2 signaling (circ_0003423) protects HUVECs from oxLDL-induced dysfunction.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Deficiency exacerbates MI/R injury.
+- **[[Hypertension]]**: Overexpression attenuates Ang II and DOCA-salt-induced hypertension; diminished expression/redox inactivation → SOD2 inactivation → hypertension; alleviates hypertensive renal injury via EMT suppression.
+
+### Respiratory
+
+- **[[COPD]]**: Inhibits airway epithelial mitochondrial oxidative stress → attenuates COPD progression.
+- **[[Pulmonary Fibrosis]]**: Deficiency within aging lung promotes fibrotic response via TGF-β1; promotes LF via AEC mitochondrial DNA damage/apoptosis; overexpression ameliorates asbestos-induced pulmonary fibrosis.
+- **[[Asthma]]**: Upregulation reduces bronchial epithelial apoptosis and airway inflammation.
+- **[[Acute Lung Injury]]**: Promotes MnSOD → protective in hyperoxia-induced ALI; SIRT3-deficient mice develop more severe ALI (NLRP3 inflammasome activation in macrophages).
+- **[[COVID-19]]**: Serum levels associated with clinical outcome/prognosis; markedly lower in severe vs. mild/moderate patients.
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD]]**: Improves mitochondrial function via deacetylation of mitochondrial trifunctional proteins and LCAD; but liver-specific knockdown alleviated alcoholic feeding-induced injury (improved autophagy) → **dual**.
+- **Liver ischemia/reperfusion injury**: Protective — systemic GPCR5 KO suppresses SIRT3 → proinflammatory macrophages → exacerbated liver injury.
+- **[[Hepatitis B|HBV]]**: Downregulated in HBV-positive patients; inhibits replication via H3K9 deacetylation on viral cccDNA.
+- **Inflammatory bowel disease**: Systematic KO mice susceptible to colitis.
+- **Intestinal ischemia/reperfusion**: Alleviates mitochondrial oxidative damage/apoptosis via peroxiredoxin 3 deacetylation.
+
+### Nervous system
+
+- **[[Alzheimer's Disease]]**: Protects against Aβ pathology/excitotoxicity; role in tau acetylation; dysfunction → mitochondrial/neuronal damage; intermittent food deprivation beneficial SIRT3-dependently; mirrors Aβ spatiotemporal deposition, upregulated in AD temporal neocortex.
+- **[[Parkinson's Disease]]**: Counteracts α-syn-induced mitochondrial dysfunction; age-dependent loss of protective function in substantia nigra.
+- **[[Stroke]] / brain injury**: Prosurvival factor; protective in ischemic stroke via HIF-1α/VEGF in astrocytes; downregulated in cerebral IRI; enhancing SIRT3 + Wnt/β-catenin = therapeutic targets.
+- **[[ALS]]**: Increased mRNA/protein in ALS spinal cord.
+- **[[Epilepsy]]**: Protects from kainic acid excitotoxicity (miR-134-5p inhibition).
+- **Cognitive deficits**: Fluoride-induced SIRT3 inhibition → mitochondrial dysfunction/cognitive impairment; honokiol upregulates SIRT3 → protective.
+- **Neuroinflammation**: Regulates mitochondrial oxidative stress via Mst1–JNK–SRV2 pathway in BV-2 microglia; TREM2 overexpression enhances SIRT3 via NAD+.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: Protective — KO impairs insulin-stimulated muscle glucose uptake → insulin resistance.
+- **[[Diabetic Cardiomyopathy]]**: Regulates fibrosis/inflammation/apoptosis/oxidative stress in diabetic myocardium; attenuates via p53-acetylation reduction + PFKFB3 upregulation; deficiency aggravates hyperglycemic mitochondrial damage, ROS, necroptosis, NLRP3 activation.
+- **[[Obesity]]**: Suppresses obesity — activates macroautophagy (AMPK–ULK1) → smaller lipid droplets; induces perilipin-1–Hsc71–LAMP2 complex → chaperone-mediated autophagy → lipid droplet instability.
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: Central protective role — deficiency exacerbates sepsis-induced tubular damage/apoptosis (Bax/caspase-3 up, Bcl-2 down); aggravation of fatty acid oxidation dysfunction; honokiol activation increases ATP, reduces ROS/lipid peroxidation; overexpression attenuates ischemia-reperfusion mitochondrial damage.
+- **[[Kidney Fibrosis]]**: KO susceptible to severe fibrosis (PDH E1α hyperacetylation at K385).
+- **[[Kidney Stones]]**: Downregulated in patients; protective via Nrf2/heme oxygenase-1 pathway.
+- **[[Vascular Calcification]]**: Soluble epoxide hydrolase destabilizes SIRT3 → accelerates VSMC calcification; deletion preserves SIRT3 → suppressed calcification.
+- **Genital**: Dysregulation associated with male infertility; SIRT3 deficiency in PCOS granulosa cells → impaired oocytes.
+
+### Motor system
+
+- **[[Osteoarthritis]]**: **Dual role** — inhibits degeneration via mitochondrial homeostasis (restores SOD2 acetylation-dependent activity); but overexpression promotes chondrocyte apoptosis/reduced proliferation → OA progression.
+- **[[Intervertebral Disc Degeneration]]**: Maintains nucleus pulposus cell homeostasis via mitochondrial oxidative-stress regulation.
+- **[[Muscle Atrophy]]**: Deficiency enhances Ang II-induced fiber type transformation/metabolic reprogramming → exacerbates atrophy.
+
+### Aging
+
+- Deficiency → lamina-associated domain detachment, increased chromatin accessibility, aberrant repetitive-sequence transcription → senescence phenotypes of human MSCs.
+
 ## Documents
 
 List of documents that mention this entity
@@ -165,7 +238,30 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue|Brown Adipose Tissue (BAT)]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 - New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
-- Suggested new entity notes to create: , [[Cellular Homeostasis]]# SIRT3
+- Suggested new entity notes to create: , [[Cellular Homeostasis]]
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Cervical Cancer]], [[Glioma]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Stroke]], [[ALS]], [[Epilepsy]], [[Diabetes Mellitus]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[Vascular Calcification]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Cervical Cancer]], [[Hepatitis B]], [[Diabetic Cardiomyopathy]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[Acute Kidney Injury]], [[SIRT3]] ↔ [[SOD2]], [[SIRT3]] ↔ [[Cardiac Hypertrophy]], [[SIRT3]] ↔ [[Diabetic Cardiomyopathy]]
+
+# SIRT3
 
 SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosyl transferase activities. It regulates mitochondrial metabolism, thermogenesis, and helps prevent oxidative stress by suppressing [[Reactive Oxygen Species]]. It acts as a tumor suppressor by destabilizing [[HIF-1α]].
+
+> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) note SIRT3 is the sirtuin most associated with human aging—polymorphisms in the SIRT3 locus correlate with survival in elderly individuals (though not universally replicated). SIRT3 activates GDH to facilitate gluconeogenesis from amino acids, indirectly destabilizes HIF1α to inhibit glycolysis, and is required to prevent cardiac hypertrophy during ageing.
+
+## Documents
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Links SIRT3 polymorphisms to human longevity, details GDH/PEPCK metabolic roles, HIF1α destabilization, and cardiac hypertrophy prevention.
+
+## Connections
+
+- [[Human aging]] — SIRT3 locus polymorphisms associate with elderly survival
+- [[GDH (Glutamate Dehydrogenase)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
+- [[HIF-1α]] — SIRT3 destabilizes HIF1α, inhibiting glycolysis
+- [[Cardiac Hypertrophy]] — SIRT3 prevents cardiac hypertrophy during ageing
 

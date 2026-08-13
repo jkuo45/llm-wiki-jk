@@ -4,7 +4,7 @@ description: Multiple sclerosis (MS) is a demyelinating disease in which the ins
   covers of nerve cells in the brain and spinal cord are damaged. Chronic Inflammation
   and Oxidative Stress contribute to th...
 created: 2026-05-09
-updated: 2026-07-04
+updated: 2026-08-11
 tags:
   - oxidative-stress
   - neurodegeneration
@@ -31,6 +31,14 @@ Iron accumulates in the basal ganglia, thalamus, and periventricular white matte
 
 ### Therapeutic Targeting of Oxidative Stress in MS
 [[Dimethyl fumarate]] (DMF, [[Tecfidera]]) — a first-line MS therapy — exerts its therapeutic effect largely through activation of the [[NRF2]] pathway. DMF covalently modifies [[Keap1]] (Kelch-like ECH-associated protein 1), releasing Nrf2 to translocate to the nucleus and induce antioxidant genes including [[Heme oxygenase-1]], [[NAD(P)H:quinone oxidoreductase 1]], and [[Glutathione Peroxidase]]. Additional antioxidants under investigation include [[Lipoic acid]] (an eight-carbon dithiol compound that chelates redox-active metals and scavenges ROS), [[N-Acetylcysteine|N-Acetylcysteine]] (NAC), and [[Uric Acid]] (a peroxynitrite scavenger). The [[mitochondria-targeted antioxidant MitoQ]] has shown neuroprotective effects in EAE models by reducing [[Mitochondrial ROS]] within the inner mitochondrial membrane.
+
+## Sirtuin Involvement (Wu et al., 2022)
+
+Sirtuin findings in the shared MS/ALS neurodegenerative space include:
+
+- **[[SIRT1]]**: Increased in SOD1^G93A ALS mice.
+- **[[SIRT3]]**: Increased in ALS spinal cord.
+- **[[SIRT6]]**: SIRT6 activity abrogates ALS-linked mutant SOD1 astrocyte neurotoxicity, highlighting astrocyte-dependent sirtuin protection relevant to inflammatory demyelinating pathology.
 
 ## Linking Summary (New Additions)
 - New links added: [[Mitochondria]], [[Complex I]], [[Complex IV]], [[Superoxide Radicals]], [[Substantia Nigra]], [[Fenton Reaction]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Myeloperoxidase]], [[Neutrophils]], [[Hypochlorous Acid]], [[Peroxynitrite]], [[Nitric Oxide]], [[Nitrative Stress]], [[Glutathione]], [[HO-1]], [[Glutathione Peroxidase]], [[N-Acetylcysteine]]
@@ -102,6 +110,6 @@ List of documents that mention this entity
 - [[Multiple Sclerosis]]: ## Linking Summary (New Additions) - New links added: [[Mitochondria]], [[Complex I]], [[Complex IV]], [[Superoxide R...
 
 ## Linking Summary
-- New links added: [[Oxidative Stress]], [[Inflammation]], [[Demyelination]]
+- New links added: [[Oxidative Stress]], [[Inflammation]], [[Demyelination]], [[SIRT1]], [[SIRT3]], [[SIRT6]]
 - Suggested new entity notes to create: [[Demyelination]], [[Autoimmune Disease]]
 - Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Oxidative Stress]]

@@ -248,6 +248,7 @@ def main():
         topic_data.append({
             "topic": topic,
             "last_updated": last_updated_str,
+            "last_updated_dt": datetime.fromtimestamp(last_updated_ts).astimezone(),
             "entities": entity_count,
             "documents": len(documents),
             "words": topic_words,
@@ -323,7 +324,7 @@ def main():
         total_docs += t["documents"]
     topics_table.append("| --- | --- | ---: | ---: | ---: | ---: |")
     topics_table.append(
-        f"| **subtotal** | {max(t['last_updated'] for t in topic_data)} | **{total_docs}** | **{total_entities}** | **{format_number(total_words)}** | **{format_size(total_size)}** |"
+        f"| **subtotal** | {max(t['last_updated_dt'] for t in topic_data).strftime('%d_%b_%Y').upper()} | **{total_docs}** | **{total_entities}** | **{format_number(total_words)}** | **{format_size(total_size)}** |"
     )
 
     # Sort documents by date descending (newest first)

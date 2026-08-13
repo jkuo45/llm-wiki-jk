@@ -3,7 +3,7 @@ title: SIRT2
 description: SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent
   deacetylases, primarily localized in the cytosol.
 created: 2026-07-04
-updated: 2026-08-03
+updated: 2026-08-11
 tags:
   - enzyme
   - nad-plus
@@ -79,6 +79,63 @@ SIRT2 interacts with **HOXA10**, an evolutionarily conserved homeobox transcript
 
 Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate the **TRPM2** (transient receptor potential melastatin-related channel 2) non-selective cation channel. Decreasing SIRT2 expression reduces OAADPr-mediated TRPM2 activation and cell death.
 
+## Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT2 is a cytosolic sirtuin that frequently **opposes the protective SIRT1/3/6 axis** — harmful in most neurodegenerative and cancer contexts, but protective in several metabolic, renal, and joint diseases.
+
+### Cancer
+
+- **[[Breast Cancer]]**: Downregulated in BC tissue; increased expression ↔ longer survival. **Binary role** — tumor suppressor via promoting BRCA1–BARD1 heterodimerization → homologous recombination; promoter via deacetylating Slug → stabilization → basal-like BC tumorigenesis/invasion.
+- **[[Lung Cancer]]**: Suppresses NSCLC migration (AKR1C1 deacetylation, STAT3 inhibition); but deacetylates phosphoglycerate mutase K100 → NADPH → accelerated tumor growth. Upregulation increases cisplatin sensitivity.
+- **[[Hepatocellular Carcinoma]]**: Expressed at higher levels in HCC vs. normal liver.
+- **[[Colorectal Cancer]]**: Decreased in CRC tissue; IDH1 deacetylation → inhibits liver metastasis.
+- **[[Ovarian Cancer]]**: High expression ↔ favorable survival; overexpression enhances cisplatin sensitivity in resistant cells.
+- **[[Endometrial Cancer]]**: Increased in most EC cell lines — promotes proliferation, inhibits apoptosis; promotes stemness + MEK/ERK signaling while repressing chemosensitivity.
+- **[[Cervical Cancer]]**: Decreased in CC tissue; negatively correlated with tumor size/lymph node metastasis → favorable survival.
+- **[[leukemia]]**: Overexpressed in primary AML blasts; NAMPT activation (SIRT2) reduces proliferation/induces apoptosis (Akt/GSK-3β/β-catenin); SIRT2 inhibition suppresses T-ALL growth/engraftment (LMO2 deacetylation).
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: Protective — reduced protein level in hypertrophy; overexpression attenuates agonist-induced hypertrophy (NFATc2 deacetylation); loss of SIRT2 reduces AMPK → promotes aging-related/Ang II hypertrophy.
+- **[[Cardiac Fibrosis]]**: Protective — overexpression rescues cardiac function via AMPK activation (LKB1 deacetylation).
+- **[[Atherosclerosis]]**: Decreases plaque formation in LDL receptor-deficient mice via macrophage polarization.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Few studies.
+
+### Respiratory
+
+- **[[Asthma]]**: **Harmful** — enhances allergic asthmatic inflammation; pharmacologic ablation attenuates, genetic overexpression exaggerates phenotype; aggravates via Th2 responses and macrophage polarization.
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD]]**: Prevents NAFLD by deacetylating hepatocyte nuclear factor 4α; **deleterious** in hepatic fibrosis via SIRT2/ERK/c-Myc axis.
+- **Liver ischemia/reperfusion injury**: **Detrimental** — deacetylates MAPK phosphatase-1 → activates MAPK → augmented inflammation/cell death.
+- **[[Hepatitis B|HBV]]**: Slightly elevated mRNA in infected hepatocytes → pathomechanism.
+- **Inflammatory bowel disease**: Downregulated in IBD patients; deletion promotes inflammation via NF-κB; inhibits Wnt/β-catenin → gut homeostasis.
+
+### Nervous system
+
+- **[[Alzheimer's Disease]]**: **Harmful** — suppression alleviates Aβ pathology/cognitive deficits (β-secretase 1 via reticulon 4B deacetylation); affects tau phosphorylation/autophagic flux; nuclear SIRT2 hyperactivated (FoxO1-recruited to Fzd1/Fzd7 promoters → H4K16ac reduction); inhibition recovers microtubule stabilization/autophagy.
+- **[[Parkinson's Disease]]**: Mediates exacerbation of α-synuclein toxicity; NAD+ metabolism alteration → SIRT2 activation → decreased acetylated α-tubulin; deletion protective.
+- **[[Huntington's Disease]]**: Inhibition achieves neuroprotection (sterol biosynthesis manipulation mimics SIRT2 inhibition → diminished huntingtin toxicity).
+- **[[Stroke]] / brain injury**: **Detrimental** — inhibition neuroprotective (Akt/FoxO3a, MAPK downregulation); serum SIRT2 increased in acute ischemic stroke patients → risk/prognosis marker.
+- **Neuroinflammation/neuropathic pain**: Overexpression alleviates neuropathic pain/neuroinflammation; AK-7 (SIRT2 inhibitor) exacerbates traumatic brain injury (NF-κB p65 nuclear translocation); microglial SIRT2 protective in amnesic deficits.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: **Dual** — promotes glucose-dependent hepatic glucose uptake (GKRP K126 deacetylation); downregulation ameliorates reduced Akt activity and increases insulin-stimulated glucose uptake in insulin-resistant neuro-2a cells.
+- **[[Obesity]]**: **Promotes obesity** — HIF-1α negatively regulates SIRT2–PGC-1α axis → negates fatty acid catabolism.
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: Systematic KO ameliorates cisplatin-induced renal injury; transgenic mice aggravated (MAPK phosphatase-1 acetylation).
+- **[[Kidney Fibrosis]]**: Knockdown/chemical inhibition attenuates TGF-β1-induced fibroblast activation; downregulation inhibits interstitial fibroblast activation → therapeutic potential (EGFR/PDGFR-β).
+
+### Motor system
+
+- **[[Osteoarthritis]]**: Protective — inhibits ECM degradation by preventing p65 acetylation.
+- **[[Intervertebral Disc Degeneration]]**: Reverses IL-1β action by inhibiting p53/p21 pathway → inhibited oxidative stress/senescence.
+- **[[Muscle Atrophy]]**: Inhibits autophagic flux → maintains protein metabolism homeostasis in skeletal muscle.
+
 ## Documents
 
 List of documents that mention this entity
@@ -106,6 +163,10 @@ List of documents that mention this entity
 
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+  - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+    - Reviews SIRT2's tumor-suppressor role: disruption raises Aurora-A/Aurora-B mitotic regulator levels, aneuploidy, and mitotic death (SIRT2-deficient mice develop gender-specific mammary/hepatocellular tumors). Documents SIRT2 inhibitors (kinase-inhibitor scaffolds Ro31-8220, GW5074; suramin analogs; AC93253 with Akt-inhibiting effects) and notes SIRT2 inhibition may be counterproductive during microtubule-inhibitor therapy.
+
 ## Connections
 
 - [[SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities
@@ -123,11 +184,33 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], neurofascin
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
 - New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
-- Suggested new entity notes to create: [[Atg4B]]# SIRT2
+- Suggested new entity notes to create: [[Atg4B]]
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Atherosclerosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Diabetes Mellitus]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT2]] ↔ [[Alzheimer's Disease]], [[SIRT2]] ↔ [[Parkinson's Disease]], [[SIRT2]] ↔ [[Breast Cancer]]
+
+# SIRT2
 
 SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-ribosyl transferase activity. It is involved in regulating cell cycle, cell motility, tubulin acetylation, and is overexpressed in various cancers and [[Neurodegeneration|neurodegenerative disorders]].
 
 # SIRT2
 
 SIRT2 (Sirtuin 2) is a NAD+-dependent deacetylase localized primarily in the cytosol and nucleus. It is involved in cell cycle regulation, adipose tissue development and functionality, blood glucose homeostasis, and the modulation of peripheral myelination.
+
+> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) highlight that SIRT2 extends lifespan in the BubR1 hypomorphic progeroid mouse model, marking it as a key mammalian ageing modulator. SIRT2 also activates PEPCK via deacetylation to enhance gluconeogenesis during glucose deprivation and shows opposing roles in insulin sensitivity across tissues.
+
+## Documents
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Identifies SIRT2 as a longevity modulator (BubR1 progeroid model) and details its metabolic (PEPCK/gluconeogenesis) and cancer-related roles.
+
+## Connections
+
+- [[BubR1]] — SIRT2 extends lifespan in BubR1 hypomorphic progeroid mice
+- [[PEPCK]] — SIRT2 activates PEPCK via deacetylation to drive gluconeogenesis
+- [[Aging]] — SIRT2 is a key mammalian ageing modulator
 

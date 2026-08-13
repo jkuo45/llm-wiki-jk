@@ -20,9 +20,14 @@
 
 When answering questions about biomedical topics, prioritize information sources in this order:
 
-1. **Notes first** — Search the `src/notes/` directory (including `_link/`) for relevant entity notes. Use content from existing wiki notes as the primary basis for your answer.
-2. **LLM knowledge & biomedical context** — If the notes do not fully address the question, supplement with general biomedical knowledge. Clearly distinguish between information sourced from the wiki and information drawn from general knowledge.
-3. **Cross-reference** — Where possible, link back to relevant entity notes in your response (e.g., `[[Entity Name]]`) to reinforce the knowledge graph and surface related concepts.
+- **Notes** — Search the `src/notes/` directory (including `_link/`) for relevant entity notes. Use content from existing wiki notes as the primary basis for your answer.
+- **LLM knowledge & biomedical context** — If the notes do not fully address the question, supplement with general biomedical knowledge. Clearly distinguish between information sourced from the wiki and information drawn from general knowledge.
+- **Cross-reference** — Where possible, link back to relevant entity notes in your response (e.g., `[[Entity Name]]`) to reinforce the knowledge graph and surface related concepts.
+- **Graphify graph traversal** — When a knowledge graph exists (`graphify-out/graph.json`), use graphify's query tools to trace connections, explain entities, and find paths between concepts:
+  - **`graphify query "<question>"`** — BFS (broad context) or DFS (trace a specific chain with `--dfs`) traversal to answer questions from the graph. Use `--budget N` to cap token output.
+  - **`graphify path "EntityA" "EntityB"`** — Find the shortest path between two concepts, revealing how distant entities are connected through intermediate relationships.
+  - **`graphify explain "EntityName"`** — Get a plain-language explanation of a single node: all its connections, source locations, and significance within the graph.
+  - Always expand queries against the graph's vocabulary before traversal (see graphify skill for details). Answer using only what the graph contains; cite `source_location` for specific facts.
 
 ## Document Ingestion Workflow:
 

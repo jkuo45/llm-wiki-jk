@@ -4,7 +4,7 @@ description: SIRT4 (Sirtuin 4) is a mitochondrial sirtuin classified in phylogen
   Class II, which includes sirtuins from bacteria, insects, nematodes, mould fungus,
   and protozoans — making SIRT4 and Class II...
 created: 2026-07-02
-updated: 2026-08-03
+updated: 2026-08-11
 tags:
   - protein
   - nad-plus
@@ -21,6 +21,9 @@ protected: true
 # SIRT4
 
 **SIRT4** (Sirtuin 4) is a **mitochondrial sirtuin** classified in phylogenetic **Class II**, which includes sirtuins from bacteria, insects, nematodes, mould fungus, and protozoans — making SIRT4 and Class II sirtuins among the most ancient in evolutionary terms. Unlike [[SIRT1]] and [[SIRT3]], SIRT4's **primary enzymatic activity is mono-ADP-ribosylation** rather than deacetylation, though it also exhibits weak deacetylase activity.
+
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT4 functions in aging via **fatty acid oxidation and apoptosis**. No positive regulators were listed; negative regulators include [[NF-κB]], [[Bax]], [[Caspases]], [[Glutamate Dehydrogenase (GDH)|GDH]], and [[AMPK]].
 
 ## Enzymatic Activity
 
@@ -72,6 +75,39 @@ Since **glutamate is the primary neurotransmitter at excitatory synapses**, SIRT
 
 SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin classes present across bacteria, insects, nematodes, and protozoans. SIRT4 and [[SIRT5]] are proposed to be among the most ancient mammalian sirtuins.
 
+## Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT4 (ADP-ribosyl transferase) is **predominantly tumor-suppressive** in cancer and protective in metabolism, but is the only sirtuin with clear **adverse** cardiac effects (hypertrophy/fibrosis).
+
+### Cancer
+
+- **[[Breast Cancer]]**: Downregulated in BC tissue; increased expression ↔ longer survival. Tumor-suppressive by negatively regulating SIRT1 via glutamine-metabolism repression (mitochondrial–nuclear crosstalk); enhances tamoxifen sensitivity via STAT3 inhibition.
+- **[[Hepatocellular Carcinoma]]**: Lower expression; low tumor levels predict decreased survival. Tumor suppressor via glutamine-metabolism inhibition; upregulates p16/p21, suppresses CyclinB1/Cdc2 and Cdc25c → apoptosis.
+- **[[Colorectal Cancer]]**: Decreased in CRC tissue; upregulates E-cadherin, suppresses proliferation/migration/invasion via glutamine-metabolism inhibition; increases sensitivity to 5-fluorouracil by inhibiting the cell cycle.
+- **[[Gastric Cancer]]**: Downregulated; low expression negatively correlates with tumor size/pathological grade → poor prognosis; inhibits proliferation/migration/invasion via EMT.
+- **[[Ovarian Cancer]]**: High expression ↔ poor survival.
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: **Adverse** — overexpression aggravates Ang II-induced hypertrophy by inhibiting MnSOD activity.
+- **[[Cardiac Fibrosis]]**: **Contributes to fibrosis** — global KO confers resistance to Ang II infusion.
+- **[[Atherosclerosis]]**: Suppresses PI3K/Akt/NF-κB → relieves oxLDL-induced HUVEC injury.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Downregulated after MI/R; overexpression decreases infarct size (mitochondrial preservation, reduced apoptosis).
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD]]**: Upregulation inhibits HFD-induced lipid accumulation/inflammation/fibrogenesis via SIRT4/Smad4 axis; but **harmful** by deacetylating/destabilizing mitochondrial trifunctional protein-α.
+- **[[Hepatitis B|HBV]]**: Downregulated in HBV-positive patients; HBV X protein suppresses SIRT4 expression (HCC context).
+- **Inflammatory bowel disease**: Not well characterized.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: Protective — overexpression leads to dyslipidemia/lipogenesis/decreased fatty acid oxidation (deactivates AMPK, inhibits insulin secretion) — described as protective against DM progression.
+
+### Urogenital
+
+- **Genital**: Dysregulation associated with male infertility.
+
 ## Documents
 
 List of documents that mention this entity
@@ -96,6 +132,10 @@ List of documents that mention this entity
 
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT4 functions in aging via fatty acid oxidation and apoptosis; negatively regulated by NF-κB, Bax, Caspases, GDH, and AMPK.
+
 ## Connections
 
 - [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles. Together they form the SIRT3/SIRT4 ratio, a mitochondrial redox dial
@@ -115,3 +155,9 @@ List of documents that mention this entity
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[SIRT3]], [[SIRT5]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[MTPα]], [[mTOR]]
 - Suggested new entity notes to create: [[Glutamate Dehydrogenase (GDH)]], [[ADP-ribosylation]], [[MTPα]]
 - Strong connections to strengthen: [[SIRT4]] ↔ [[Caloric Restriction]], [[SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Breast Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Ovarian Cancer]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Diabetes Mellitus]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT4]] ↔ [[Hepatocellular Carcinoma]], [[SIRT4]] ↔ [[Colorectal Cancer]], [[SIRT4]] ↔ [[Cardiac Fibrosis]]

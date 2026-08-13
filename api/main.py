@@ -1,7 +1,7 @@
 """FastAPI adapter between the graph UI and a headless `opencode serve`.
 
 Responsibilities:
-  - translate the opencode event bus into the SSE contract graphify-out/chat.js
+  - translate the opencode event bus into the SSE contract graphify-out/components/chat.js
     already speaks ({type: reasoning|text|highlight|done|error})
   - run read-only networkx graph operations (query/explain/path/trace)
   - map browser chat windows onto long-lived opencode sessions
@@ -145,7 +145,7 @@ app.add_middleware(
 @app.middleware("http")
 async def origin_gate(request: Request, call_next):
     """Reject requests that did not originate from an allowed UI origin."""
-    if request.url.path == "/api/health":
+    if request.url.path == "/health":
         return await call_next(request)
 
     origin = request.headers.get("origin")
@@ -217,7 +217,7 @@ async def _touch_session(session_id: str | None) -> str:
     return new_id
 
 
-@app.get("/api/health")
+@app.get("/health")
 async def health():
     """Health check for the adapter and the upstream opencode server."""
     G = get_graph()
@@ -242,7 +242,7 @@ GREETING_WORDS = {
 }
 
 
-@app.post("/api/intent", response_model=IntentResponse)
+@app.post("/intent", response_model=IntentResponse)
 async def intent_endpoint(request: ChatRequest):
     """Phase 1: route the turn to a graph op or to wiki chat.
 
@@ -302,7 +302,7 @@ async def intent_endpoint(request: ChatRequest):
     )
 
 
-@app.post("/api/session/reset")
+@app.post("/session/reset")
 async def reset_session(request: ChatRequest):
     """Drop a chat session so the next turn starts with clean context."""
     if request.session_id:
@@ -389,7 +389,7 @@ async def _with_heartbeat(
         task.cancel()
 
 
-@app.post("/api/execute/stream")
+@app.post("/execute/stream")
 async def execute_stream(request: ExecuteRequest):
     """SSE endpoint. Chat streams reasoning + text; graph ops emit one event."""
     if request.message:

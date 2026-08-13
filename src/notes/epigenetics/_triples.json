@@ -281,7 +281,7 @@
   },
   {
     "subject": "Sirtuins",
-    "predicate": "are_NAD+-dependent",
+    "predicate": "are_nad_dependent",
     "object": "Deacetylases",
     "context": "Sirtuins are NAD+-dependent deacetylases that couple the hydrolysis of NAD+ to the removal of acetyl groups from lysine residues on histones and other proteins. This dependence on NAD+ makes their activity directly responsive to the metabolic and energy state of the cell. They regulate chromatin structure, transcription factor activity, DNA repair, and metabolism, and have been strongly implicated in the control of aging and longevity, with sirtuin activation emerging as a candidate anti-aging intervention.",
     "confidence": 0.95,

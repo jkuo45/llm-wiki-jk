@@ -3,7 +3,7 @@ title: Breast Cancer
 description: Breast Cancer is a major malignancy affecting breast tissue, primarily
   in women. It is the most common cancer in women worldwide.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -25,9 +25,15 @@ aliases: []
 - [[melittin]] and [[Honeybee venom]] have shown high selectivity and potency against aggressive breast cancer subtypes like TNBC and HER2-enriched.
 - [[Ivermectin]] inhibits the proliferation of breast cancer cell lines (e.g., MCF-7, MDA-MB-231) by blocking the [[Akt]]/[[mTOR]] pathway and acting as a [[PAK1]] inhibitor. It also induces [[Pyroptosis]] and targets [[Cancer Stem Cells]].
 
-#
+## Sirtuin Involvement (Wu et al., 2022)
 
-# 
+BC is the most common malignancy worldwide and the fifth leading cause of cancer-related death. SIRT2/SIRT4 are downregulated and SIRT1/SIRT7 upregulated in BC tissue vs. adjacent normal tissue; increased SIRT2/SIRT4 ↔ longer overall survival, increased SIRT1/SIRT7 ↔ poor prognosis. Roles are generally tumor-suppressive but context-dependent:
+
+- **[[SIRT1]]**: Regulates [[EMT]]-associated programming → invasion/metastasis in triple-negative BC, yet suppresses metastasis by reducing EMT in nude mice. Loss destabilizes EMT inducer PRRX1, disinhibits KLF4, activates ALDH1 → cancer stem cells → metastatic reversion. Represses ERα-mediated proliferative response to estrogens; upregulates DNA polymerase δ1 (p125) promoting MCF-7 proliferation/migration; promotes metadherin-driven progression/chemoresistance. Causes tamoxifen resistance via multidrug resistance protein 2 upregulation (FoxO1 deacetylation); SIRT1 inhibition augments paclitaxel/doxorubicin cytotoxicity.
+- **[[SIRT2]]**: Binary. Tumor suppressor via promoting BRCA1–BARD1 heterodimerization → homologous recombination; promoter via deacetylating Slug → stabilization → basal-like BC tumorigenesis/invasion.
+- **[[SIRT3]]**: Disrupts ERα–p53 interaction → decreased proliferation, colony formation, migration; but overexpression reduces tamoxifen sensitivity (MTR-3 line).
+- **[[SIRT4]]**: Tumor-suppressive by negatively regulating SIRT1 via glutamine-metabolism repression (mitochondrial–nuclear crosstalk); enhances tamoxifen sensitivity via STAT3 inhibition.
+- **[[SIRT7]]**: Depletion inhibits tumor growth via activating p38/MAPK signaling.
 
 ## Documents
 
@@ -71,3 +77,9 @@ List of documents that mention this entity
 - New links added: [[Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[SIRT1]], [[melittin]], [[mTOR]], [[Pyroptosis]], [[triple-negative breast cancer]], [[Caspase-7]], [[Puma]], [[Bcl-xL]], [[Mcl-1]], [[HER2-enriched breast cancer]]
 - Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[Pyroptosis]]
   - Strong connections to strengthen: Breast Cancer ↔ Beclin1, Breast Cancer ↔ BRCA1, Breast Cancer ↔ Ivermectin, Caspase-7 ↔ Breast Cancer
+
+## Linking Summary (Sirtuin Involvement)
+
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT7]], [[EMT]], [[FoxO1]]
+- Suggested new entity notes to create: [[PRRX1]], [[KLF4]], [[ALDH1]], [[metadherin]]
+- Strong connections to strengthen: [[Breast Cancer]] ↔ [[SIRT1]], [[Breast Cancer]] ↔ [[SIRT4]], [[Breast Cancer]] ↔ [[Tamoxifen]]

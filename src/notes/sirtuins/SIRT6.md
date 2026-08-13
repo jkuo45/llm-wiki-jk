@@ -4,7 +4,7 @@ description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classi
   in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
   a "longevity gene," SIRT6 serves as an essent...
 created: 2026-07-02
-updated: 2026-08-03
+updated: 2026-08-11
 tags:
   - protein
   - nad-plus
@@ -21,6 +21,9 @@ protected: true
 # SIRT6
 
 **SIRT6** (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic **Class IVa** alongside its nucleolar homolog [[SIRT7]] (Class IVb). As a "longevity gene," SIRT6 serves as an essential guardian of genome integrity, an epigenetic scaffold, and a master regulator of mammalian aging and cellular metabolism.
+
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT6 functions in aging via **lifespan extension, DNA repair, genome stability, and telomere maintenance**. Positive pathway regulators include [[Nrf2]], [[eNOS]], [[IGF1|IGF-1/AKT]], and [[p53]]; negative regulators include [[p21]], [[NF-κB]], [[ICAM-1]], and [[PAI-1]].
 
 ---
 
@@ -124,6 +127,77 @@ The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian 
 
 ---
 
+## 6.6 Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT6 is the nuclear/chromatin deacetylase that is **most consistently protective** across cardiovascular, respiratory, digestive, renal, and most cancers — with context-dependent dual roles only in lung cancer and HCC.
+
+### Cancer
+
+- **[[Lung Cancer]]**: **Dual** — anticarcinogenic via CHD4 coordination → chromatin relaxation/DNA repair; pro-carcinogenic via snail-dependent transrepression of KLF4 → EMT/metastasis; inhibits glycolysis → enhances radiosensitivity.
+- **[[Hepatocellular Carcinoma]]**: Expressed at higher levels; deacetylates hnRNP A1 → suppresses glycolysis/growth; USP48-stabilized SIRT6 attenuates glycolysis/metabolic reprogramming; depletion downregulates multidrug resistance protein 1 → enhanced chemosensitivity.
+- **[[Colorectal Cancer]]**: Decreased in CRC tissue; expression related to improved survival.
+- **[[Gastric Cancer]]**: Downregulated; low expression → poor prognosis; inhibits JAK2/STAT3 → suppresses growth; silencing overcomes sorafenib resistance via ferroptosis.
+- **[[Pancreatic Cancer]]**: KLF10-upregulated SIRT6 influences glycolysis, EMT, distant metastasis.
+- **[[Ovarian Cancer]]**: Decreased in OC tissue; high expression ↔ favorable survival.
+- **[[Endometrial Cancer]]**: Tumor suppressor — represses survivin → inhibits AN3CA/KLE proliferation.
+- **[[Glioma]]**: Downregulated; suppresses growth via apoptosis, oxidative-stress inhibition, JAK2/STAT3 inhibition.
+- **[[leukemia]]**: DNA-repair deficiencies synergize with NAMPT targeting in AML (promising combination therapy).
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: Protective — inhibits isoproterenol-induced hypertrophy via autophagy (FoxO3 nuclear retention via Akt attenuation); decreases p300 → NF-κB p65 acetylation; blocks IGF–Akt signaling via c-Jun; STAT3 suppression.
+- **[[Cardiac Fibrosis]]**: Systemic KO induces fibrosis via TGF-β/Smad3 activation; prevents Ang II-mediated fibrosis via AMPK–ACE2 signaling.
+- **[[Heart Failure]]**: Decreased in chronic HF; overexpression increases survival of TAC-induced HF mice via telomerase (TERT, TRF1).
+- **[[Atherosclerosis]]**: Protects against endothelial dysfunction, VSMC senescence, atherosclerosis; reduces oxLDL uptake in RAW macrophages (scavenger receptor 1 downregulation).
+- **[[Coronary Artery Disease]]**: Genetic polymorphisms associated with CAD risk.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Protective — FoxO3α antioxidant defense; attenuates CHMP2B accumulation.
+- **[[Hypertension]]**: Endothelial deletion → enhanced BP, cardiorenal injury via Nkx3.2–GATA5.
+
+### Respiratory
+
+- **[[COPD]]**: Reduced expression → COPD via insufficient autophagy/cellular senescence; overexpression weakens autophagy via IGF–Akt–mTOR.
+- **[[Pulmonary Fibrosis]]**: Inhibits TGF-β-induced cellular senescence; inactivates TGF-β1/Smad2; prevents myofibroblast differentiation; inhibits EMT during IPF (TGF-β1/Smad3).
+- **[[Asthma]]**: Upregulated in asthmatic bronchial epithelial cells; ameliorates airway remodeling via EMT regulation.
+- **[[Acute Lung Injury]]**: Regulates macrophage polarization → alleviates sepsis-induced ARDS (autophagy-dependent and -independent).
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD/NASH]]**: Hepatocyte-specific KO → elevated fibrosis/oxidative stress in NASH mice; deacetylates ChREBP/SREBP-1c; antagonizes liver fibrosis via hepatic stellate cell blockade.
+- **[[Hepatitis B|HBV]]**: Downregulated in HBV-positive patients; inhibits replication via H3K9 deacetylation on viral cccDNA.
+- **Inflammatory bowel disease**: Downregulated in IBD patients; preserves Rspo1 → intestinal epithelium injury resistance; deletion promotes inflammation via NF-κB.
+- **Intestinal ischemia/reperfusion**: Downregulation by miR-351-5p aggravates injury via oxidative stress/inflammation/apoptosis.
+
+### Nervous system
+
+- **[[Alzheimer's Disease]]**: Inverse serum/saliva relationship with AD → noninvasive diagnostic potential.
+- **[[ALS]]**: Enhanced activity abrogates ALS-linked mutant SOD1 astrocyte neurotoxicity → therapeutic target.
+- **[[Spinal Cord Injury (SCI)]]**: Upregulation alleviates inflammation/oxidative stress/apoptosis.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: Protective — induces PGC-1α acetylation and suppresses hepatic glucose production; cooperates with p53 to deacetylate FoxO1 → suppresses gluconeogenic genes.
+- **[[Obesity]]**: **Promotes obesity** — overexpression exacerbates diet-induced obesity by decreasing STAT3 acetylation and lowering proopiomelanocortin in hypothalamus.
+- **[[Metabolic Syndrome]] / hypercholesterolemia**: Overexpression improves hypercholesterolemia (FoxO3 recruitment to SREBP2 promoter → H3K9/H3K56 deacetylation).
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: Protective — inhibits LPS-induced apoptosis, promotes autophagy in HK-2 cells.
+- **[[Kidney Fibrosis]]**: Proximal tubule-specific KO aggravates UUO fibrosis; MDL-800 activator mitigates.
+- **Aging-induced kidney injury**: SIRT6-deficient mice exhibit kidney hypertrophy/glomerular enlargement/proteinuria.
+- **[[Vascular Calcification]]**: Markedly downregulated in CKD/VC patients; suppresses osteogenic transdifferentiation of VSMCs via runt-related transcription factor 2; MSC exosomes inhibit high-phosphate aortic calcification via SIRT6–HMGB1 deacetylation.
+
+### Motor system
+
+- **[[Osteoarthritis]]**: Inhibits chondrocyte senescence by negatively regulating NF-κB-mediated inflammation.
+- **[[Osteoporosis]]**: Inhibits age-related bone loss by stabilizing ER alpha in preosteoblastic cells.
+- **[[Intervertebral Disc Degeneration]]**: Inhibits inflammatory response/senescence via NF-κB inhibition.
+
+### Aging
+
+- Inhibition shortens VSMC lifespan/induces senescence (telomeric H3K9 hyperacetylation, 53BP1 binding); overexpression preserves telomere integrity; deacetylates Polβ → DNA-damage resistance → prevents progeroid pathologies.
+
+---
+
 ## 7. Connections
 
 - **[[SIRT7]]** — fellow Class IV sirtuin; both nuclear (SIRT6 is chromatin-bound; SIRT7 is nucleolar).
@@ -169,6 +243,12 @@ The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian 
 - **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 - **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[ALS]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Vascular Calcification]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[leukemia]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT6]] ↔ [[Cardiovascular Disease]], [[SIRT6]] ↔ [[Hepatocellular Carcinoma]], [[SIRT6]] ↔ [[Vascular Calcification]], [[SIRT6]] ↔ [[Longevity]]
+
 ## Documents
 
 List of documents that mention this entity
@@ -199,5 +279,8 @@ List of documents that mention this entity
 
   - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
     - Review of SIRT6 as a longevity gene: whole-body overexpression extends male mouse lifespan 14.5%/9.9% via reduced IGF-1/IIS; SIRT6 regulates H3K9Ac/H3K56Ac/CtIP/GCN5, HIF-1α, SREBP2, NF-κB, survivin, and c-Jun pathways.
+
+  - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+    - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT6 functions in aging via lifespan extension, DNA repair, genome stability, and telomere maintenance; positively regulated by Nrf2, eNOS, IGF-1/AKT, p53 and negatively by p21, NF-κB, ICAM-1, PAI-1.
 
 

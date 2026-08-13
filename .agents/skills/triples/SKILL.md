@@ -19,7 +19,7 @@ Read the target document or entity notes and extract all key factual triples in 
     "subject": "Entity Name",
     "predicate": "verb relation",
     "object": "Related Entity",
-    "context": "Detailed explanation of the relationship. at least 500-700 characters.",
+    "context": "Detailed explanation of the relationship. ~200-300 words",
     "confidence": "0.95"
   }
 ]

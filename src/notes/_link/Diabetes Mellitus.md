@@ -4,7 +4,7 @@ description: Diabetes Mellitus is a group of metabolic diseases characterized by
   blood sugar levels (Hyperglycemia) over a prolonged period. Chronic hyperglycemia
   leads to increased production of Reactive ...
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -23,9 +23,14 @@ Diabetes and aging share many biological hallmarks:
 ## 3. Therapeutic Intersection
 Many anti-aging interventions, such as [[Metformin]] and [[Resveratrol]], were originally studied or used for their ability to improve insulin sensitivity and manage diabetes, highlighting the deep connection between metabolic health and longevity.
 
-#
+## Sirtuin Involvement (Wu et al., 2022)
 
-# 
+Diabetes mellitus affects >425 million people worldwide, with prevalence expected to increase ≥50% by 2045. Sirtuins show both protective and pathological roles:
+
+- **Expression**: SIRT1–3 are reduced in DM patients; SIRT5/SIRT6 are elevated.
+- **[[SIRT1]]/[[SIRT2]]**: Dual function. SIRT1 overexpression improves insulin sensitivity, but hepatic SIRT1 knockdown prevents fasting hyperglycemia (decreased hepatic glucose production, increased hepatic insulin responsiveness). SIRT2 promotes glucose-dependent hepatic glucose uptake (GKRP K126 deacetylation); SIRT2 downregulation ameliorates reduced Akt activity and increases insulin-stimulated glucose uptake in insulin-resistant neuro-2a cells.
+- **[[SIRT3]]/[[SIRT4]]/[[SIRT6]]**: Protective. SIRT3 knockout impairs insulin-stimulated muscle glucose uptake; SIRT4 overexpression causes dyslipidemia/lipogenesis/decreased fatty acid oxidation (deactivates [[AMPK]], inhibits [[Insulin Secretion]]); SIRT6 induces PGC-1α acetylation and suppresses hepatic glucose production, cooperating with [[p53]] to deacetylate [[FoxO1]] and suppress gluconeogenic genes.
+- **[[SIRT5]]**: Promotes DM progression — inhibition facilitates pancreatic β-cell proliferation/insulin secretion; negatively regulates PDX1 transcription via deacetylase activity.
 
 ## Documents
 
@@ -58,8 +63,14 @@ List of documents that mention this entity
 - **[[Metabolic Syndromes]]**: A cluster of conditions, including diabetes, that impact healthspan.
 - **[[Metformin]]**: A diabetes drug with significant anti-aging potential.
 - **[[DNA Methylation]]**: A key mechanism by which "metabolic memory" is stored in cells.
+- [[SIRT1]]: Improves insulin sensitivity; hepatic knockdown prevents fasting hyperglycemia
+- [[SIRT2]]: Promotes hepatic glucose uptake via GKRP K126 deacetylation
+- [[SIRT3]]: KO impairs insulin-stimulated muscle glucose uptake
+- [[SIRT4]]: Overexpression causes dyslipidemia; deactivates AMPK
+- [[SIRT5]]: Promotes DM progression; regulates PDX1
+- [[SIRT6]]: Suppresses hepatic glucose production; deacetylates FoxO1 with p53
 
 ## Linking Summary
-- New links added: [[Diabetes Mellitus]], [[Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[SIRT1]], [[mTOR]], [[Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Metformin]], [[Resveratrol]], [[Metabolic Syndromes]]
-- Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]]
-  - Strong connections to strengthen: Diabetes Mellitus ↔ [[Aging]], Diabetes Mellitus ↔ [[Metformin]]
+- New links added: [[Diabetes Mellitus]], [[Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[SIRT1]], [[mTOR]], [[Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Metformin]], [[Resveratrol]], [[Metabolic Syndromes]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[AMPK]], [[FoxO1]], [[p53]], [[Insulin Secretion]], [[PGC-1α]]
+- Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]], [[PDX1]], [[GKRP]]
+  - Strong connections to strengthen: Diabetes Mellitus ↔ [[Aging]], Diabetes Mellitus ↔ [[Metformin]], [[SIRT1]] ↔ [[Diabetes Mellitus]]

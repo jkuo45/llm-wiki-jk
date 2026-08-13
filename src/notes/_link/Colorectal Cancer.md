@@ -3,7 +3,7 @@ title: Colorectal Cancer
 description: Colorectal cancer (CRC) is a common malignant tumor affecting the colon
   or rectum.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -24,9 +24,17 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 - [[Caloric Restriction]] (e.g., 70% of normal food intake) can suppress colorectal tumor growth.
 - This effect is often mediated by the induction of [[Autophagy]] and the reduction of macrophage M2 polarization within the tumor microenvironment.
 
-#
+## Sirtuin Involvement (Wu et al., 2022)
 
-# 
+CRC ranks third in incidence worldwide and second most common cause of cancer death. SIRT1/SIRT7 are increased and SIRT2/SIRT4/SIRT6 decreased in CRC tissue; SIRT5 overexpression ↔ poor prognosis, SIRT6 ↔ improved survival. Sirtuin roles are largely tumor-modulatory via metabolism and drug-resistance axes:
+
+- **[[SIRT1]]**: Dose-dependent dual role via glutamine metabolism/apoptosis — heterozygous deletion induces c-Myc → glutamine metabolism → proliferation/autophagy; homozygous deletion triggers apoptosis, reduces cancer formation. FoxQ1-mediated SIRT1 upregulation → β-catenin nuclear translocation → radioresistance.
+- **[[SIRT2]]**: IDH1 deacetylation inhibits liver metastasis.
+- **[[SIRT4]]**: Upregulates E-cadherin, suppresses proliferation/migration/invasion via glutamine-metabolism inhibition; increases sensitivity to 5-fluorouracil by inhibiting the cell cycle.
+- **[[SIRT5]]**: Enhances glutaminolysis (deglutarylation-dependent) → colorectal carcinogenesis; deacetylates lactate dehydrogenase B → hyperactive autophagy → tumorigenesis.
+- **[[SIRT3]]**: Overexpression improves drug resistance via SOD2/PGC-1α.
+- **[[SIRT6]]**: Expression related to improved survival.
+- **[[SIRT7]]**: Increased in CRC tissue; promotes CRC cell invasion via E-cadherin inhibition (EMT).
 
 ## Documents
 
@@ -64,3 +72,9 @@ List of documents that mention this entity
 - New links added: [[Cancer]], [[Atg4B]], [[Caloric Restriction]], [[Autophagy]]
 - Suggested new entity notes to create: [[Atg4B]], [[Caloric Restriction]]
   - Strong connections to strengthen: Colorectal Cancer ↔ Cancer, Colorectal Cancer ↔ [[Atg4B]]
+
+## Linking Summary (Sirtuin Involvement)
+
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[E-cadherin]], [[c-Myc]]
+- Suggested new entity notes to create: [[IDH1]], [[FoxQ1]], [[GOT1]]
+- Strong connections to strengthen: [[Colorectal Cancer]] ↔ [[SIRT4]], [[Colorectal Cancer]] ↔ [[SIRT5]], [[Colorectal Cancer]] ↔ [[SIRT1]]

@@ -4,7 +4,7 @@ description: Alzheimer's disease is a chronic neurodegenerative disease that usu
   starts slowly and gradually worsens over time. Oxidative Stress is considered a
   pivotal factor in its pathogenesis, often inv...
 created: 2026-07-04
-updated: 2026-07-25
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: [Alzheimer Disease]
@@ -52,9 +52,14 @@ Alzheimer's disease is a neurodegenerative disorder where enhancing [[TFEB]]-med
 **Disease mechanisms:** The pathogenesis of Alzheimer’s disease involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
 **Therapeutic strategies:** Management of Alzheimer’s disease includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-#
+## Sirtuin Involvement (Wu et al., 2022)
 
-# 
+Alzheimer's disease is the most common neurodegenerative disorder. Sirtuins modulate Aβ and tau pathology, autophagy, and mitochondrial function:
+
+- **[[SIRT1]]**: Overexpression reduces Aβ-induced senescence and mitochondrial dysfunction; enhances [[Beclin-1]] deacetylation to promote beneficial autophagy; reduces O-GlcNAcylation of tau via [[CREB]]. Inverse relationship between serum/saliva SIRT1 and AD supports non-invasive diagnostic potential.
+- **[[SIRT3]]**: Protects against Aβ pathology and excitotoxicity; dysfunction leads to mitochondrial/neuronal damage; protective in hippocampal neurons. Intermittent food deprivation ameliorates deficits in a SIRT3-dependent manner. SIRT3 mirrors Aβ spatiotemporal deposition and is upregulated in AD temporal neocortex; plays a role in tau acetylation.
+- **[[SIRT2]]**: Harmful in AD — suppression alleviates Aβ pathology and cognitive deficits (β-secretase 1 via reticulon 4B deacetylation); affects tau phosphorylation and autophagic flux; nuclear SIRT2 is hyperactivated in AD (FoxO1 recruits SIRT2 to Fzd1/Fzd7 promoters → reduced H4K16ac); SIRT2 loss recovers microtubule stabilization and improves autophagy. SIRT2 inhibition is an attractive therapeutic target.
+- **Clinical**: Serum/saliva SIRT1, SIRT3, and SIRT6 levels inversely correlate with AD — noninvasive diagnostic potential.
 
 ## Documents
 
@@ -97,8 +102,13 @@ List of documents that mention this entity
 - [[Rejuvenation]]: Some research overlaps with efforts to reverse age-related cognitive decline.
 - [[Honokiol]]: Reduces Aβ-induced neuronal death and LPS-driven memory deficits via anti-neuroinflammatory and antiamyloidogenic effects.
 - [[Amyloid beta]]: Core pathogenic species whose toxicity is mitigated by honokiol/magnolol.
+- [[SIRT1]]: Reduces Aβ-induced senescence/mitochondrial dysfunction; enhances Beclin-1 deacetylation; reduces tau O-GlcNAcylation via CREB
+- [[SIRT3]]: Protects against Aβ/excitotoxicity; mitochondrial protection; mirrors Aβ deposition
+- [[SIRT2]]: Harmful — suppression alleviates Aβ pathology and cognitive deficits; hyperactivated nuclear SIRT2; inhibition is a therapeutic target
+- [[SIRT6]]: Serum levels inversely correlate with AD (diagnostic potential)
+- [[Beclin-1]]: SIRT1-mediated deacetylation promotes beneficial autophagy
 
 ## Linking Summary
-- New links added: [[TFEB]], [[Celastrol]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]]., [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]], [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Neuroinflammation]]
+- New links added: [[TFEB]], [[Celastrol]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]]., [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]], [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Neuroinflammation]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Beclin-1]], [[CREB]]
 - Suggested new entity notes to create: [[Tau Pathology]], [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]., [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Synaptic plasticity]]
-  - Strong connections to strengthen: Alzheimer's Disease ↔ [[TFEB]], Alzheimer's Disease ↔ [[Aging]], Alzheimer's Disease ↔ DNA Methylation, Induced Pluripotent Stem Cells ↔ Alzheimer's Disease, Alzheimer's Disease ↔ Neurodegenerative Disease, Alzheimer's Disease ↔ Autophagy
+  - Strong connections to strengthen: Alzheimer's Disease ↔ [[TFEB]], Alzheimer's Disease ↔ [[Aging]], Alzheimer's Disease ↔ DNA Methylation, Induced Pluripotent Stem Cells ↔ Alzheimer's Disease, Alzheimer's Disease ↔ Neurodegenerative Disease, Alzheimer's Disease ↔ Autophagy, [[SIRT1]] ↔ Alzheimer's Disease, [[SIRT2]] ↔ Alzheimer's Disease

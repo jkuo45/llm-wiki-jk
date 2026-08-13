@@ -3,7 +3,7 @@ title: Huntington's Disease
 description: Huntington''s Disease (HD) is an inherited neurodegenerative disorder
   characterized by motor dysfunction, cognitive decline, and psychiatric symptoms.
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-08-11
 tags:
   - medical-condition
 aliases: []
@@ -21,6 +21,10 @@ aliases: []
 ### Merged from notes/autophagy/Huntington's Disease.md
 Huntington's disease (HD) is a neurodegenerative disorder characterized by protein aggregation; increasing [[TFEB]] function via [[PGC-1α]] has been shown to rescue its proteotoxicity.
 
+## Sirtuin Involvement (Wu et al., 2022)
+
+- **[[SIRT1]]**: Brain-specific knockout exacerbates HD pathology; overexpression improves survival, neuropathology, and [[BDNF]] expression in HD mice — rescuing the CREB-regulated transcription coactivator 1 (CRTC1)–CREB interaction that drives BDNF transcription.
+- **[[SIRT2]]**: Inhibition achieves neuroprotection in cellular and invertebrate models — sterol biosynthesis manipulation mimics SIRT2 inhibition and diminishes mutant huntingtin toxicity.
 
 #
 
@@ -46,7 +50,10 @@ List of documents that mention this entity
 - [[Caloric Restriction]] — dietary intervention; extends lifespan across taxa
 - [[Intermittent Fasting]] — interacts with Huntington's Disease
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
+- [[SIRT1]] — Overexpression rescues HD pathology via CRTC1–CREB → BDNF transcription
+- [[SIRT2]] — Inhibition is neuroprotective in HD models
+- [[BDNF]] — SIRT1-dependent rescue of BDNF transcription
 ## Linking Summary
-- New links added: [[TFEB]], [[PGC-1α]], [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
+- New links added: [[TFEB]], [[PGC-1α]], [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]], [[SIRT1]], [[SIRT2]], [[BDNF]], [[CREB]]
 - Suggested new entity notes to create: [[Neurodegenerative Disease]]
-  - Strong connections to strengthen: Huntington's Disease ↔ [[TFEB]], Huntington's Disease ↔ Neurodegenerative Diseases|Neurodegenerative Disease, Huntington's Disease ↔ Autophagy
+  - Strong connections to strengthen: Huntington's Disease ↔ [[TFEB]], Huntington's Disease ↔ Neurodegenerative Diseases|Neurodegenerative Disease, Huntington's Disease ↔ Autophagy, [[SIRT1]] ↔ Huntington's Disease

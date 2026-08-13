@@ -8,10 +8,11 @@
 <link rel="stylesheet" href="three-graph.css">
 </head>
 <body>
-<button id="mobile-toggle" title="Open search and filters">&#9776;</button>
+<button id="mobile-toggle" class="visible" title="Open search and filters">&#9776;</button>
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
   <button id="btn-dataset" title="About this dataset / 關於此資料集">Dataset / 資料集</button>
+  <button id="btn-reader" title="Read articles / 閱讀文章">Reader / 閱讀器</button>
 </div>
 <div id="graph">
   <div id="loading">
@@ -22,10 +23,7 @@
   <div id="tooltip"></div>
   <div id="wiki-tooltip"></div>
   <div id="controls">
-    <button id="btn-reset" title="Reset camera">Reset View / 重設視角</button>
-    <button id="btn-physics" title="Toggle physics simulation">Physics / 物理模擬</button>
-    <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
-    <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+    <button id="btn-reset" title="Reset camera / 重設視角">Reset View / 重設視角</button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
   </div>
   <div id="zoom-bar">
@@ -38,40 +36,55 @@
     <span class="zoom-label">Zoom</span>
   </div>
 </div>
-<div id="sidebar">
+<div id="sidebar" class="closed">
   <div id="sidebar-header">
-    <span>Search & Filters / 搜尋與篩選</span>
+    <div id="sidebar-tabs" role="tablist">
+      <button type="button" class="tab active" id="tab-btn-search" data-tab="search" role="tab" aria-selected="true">Search & Filters<span class="tab-zh">搜尋與篩選</span></button>
+      <button type="button" class="tab" id="tab-btn-settings" data-tab="settings" role="tab" aria-selected="false">Settings<span class="tab-zh">設定</span></button>
+    </div>
     <button id="sidebar-close" title="Close panel">&times;</button>
   </div>
-  <div id="search-wrap">
-    <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
-    <div id="search-results"></div>
-  </div>
-  <div id="trace-panel">
-    <div id="trace-header">
-      <span>Graph Query / 圖形查詢</span>
-      <span class="chevron" id="trace-chevron">&#9654;</span>
+  <div class="tab-pane" id="tab-search">
+    <div id="search-wrap">
+      <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
+      <div id="search-results"></div>
     </div>
-    <div id="trace-body">
-      <select id="trace-select">
-        <option value="">Select a query...</option>
-      </select>
-      <div id="trace-summary"></div>
-      <div id="trace-routes"></div>
-      <div id="trace-key-nodes"></div>
-      <button id="trace-clear">Clear Trace / 清除追蹤</button>
+    <div id="trace-panel">
+      <div id="trace-header">
+        <span>Graph Query / 圖形查詢</span>
+        <span class="chevron" id="trace-chevron">&#9654;</span>
+      </div>
+      <div id="trace-body">
+        <select id="trace-select">
+          <option value="">Select a query...</option>
+        </select>
+        <div id="trace-summary"></div>
+        <div id="trace-routes"></div>
+        <div id="trace-key-nodes"></div>
+        <button id="trace-clear">Clear Trace / 清除追蹤</button>
+      </div>
+    </div>
+    <div id="info-panel">
+      <h3>Node Info / 節點資訊</h3>
+      <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
+    </div>
+    <div id="legend-wrap">
+      <div id="community-key-nodes"></div>
+      <h3>Communities / 社群</h3>
+      <div id="legend"></div>
+    </div>
+    <div id="stats"></div>
+  </div>
+  <div class="tab-pane" id="tab-settings" hidden>
+    <div id="display-panel">
+      <h3>Display / 顯示</h3>
+      <div class="display-grid">
+        <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
+        <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
+        <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+      </div>
     </div>
   </div>
-  <div id="info-panel">
-    <h3>Node Info / 節點資訊</h3>
-    <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
-  </div>
-  <div id="legend-wrap">
-    <div id="community-key-nodes"></div>
-    <h3>Communities / 社群</h3>
-    <div id="legend"></div>
-  </div>
-  <div id="stats"></div>
 </div>
 
 <!-- Dataset info panel (content rendered by graph.js from loaded data) -->
@@ -125,6 +138,22 @@
   </div>
 </div>
 
+<!-- Reader modal (loads articles in iframe) -->
+<div id="page-modal-overlay">
+  <div id="page-modal">
+    <div id="page-modal-header">
+      <h2 id="page-modal-title">Reader / 閱讀器</h2>
+      <div class="page-modal-actions">
+        <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
+        <select id="reader-select" title="Choose article / 選擇文章"></select>
+        <a id="page-modal-open" href="#" target="_blank" rel="noopener">Open in new tab</a>
+        <button id="page-modal-close" title="Close / 關閉">&times;</button>
+      </div>
+    </div>
+    <iframe id="page-modal-frame" title="Reader"></iframe>
+  </div>
+</div>
+
 <script type="importmap">
 {
   "imports": {
@@ -134,6 +163,6 @@
 }
 </script>
 
-<script type="module" src="graph.js"></script>
+<script type="module" src="components/graph.js"></script>
 </body>
 </html>

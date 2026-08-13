@@ -28,8 +28,8 @@ Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark an
 [[#Heading in same note]]              Same-note heading link
 ```
 
-> [!warning] Pipe conflict in markdown tables
-> The `|` in `[[Link|Display Text]]` is interpreted as a table column separator inside markdown tables. **Never use display-text wiki links (`[[Note|Display]]`) inside table cells.** Use bare `[[Note]]` instead, or restructure the content to avoid wiki links in tables. This applies to all GFM/CommonMark table syntax.
+> [!warning]
+> Pipe conflict in markdown tables — The `|` in `[[Link|Display Text]]` is interpreted as a table column separator inside markdown tables. **Never use display-text wiki links (`[[Note|Display]]`) inside table cells.** Use bare `[[Note]]` instead, or restructure the content to avoid wiki links in tables. This applies to all GFM/CommonMark table syntax.
 
 Define a block ID by appending `^block-id` to any paragraph:
 
@@ -61,16 +61,23 @@ See [EMBEDS.md](references/EMBEDS.md) for audio, video, search embeds, and exter
 
 ## Callouts
 
+Callouts use `> [!type]` with the marker on its own line and the content on the following lines. Use this form so callouts render correctly in both Obsidian and GitHub:
+
 ```markdown
 > [!note]
 > Basic callout.
 
-> [!warning] Custom Title
-> Callout with a custom title.
+> [!warning]
+> Title text goes here as the first content line.
 
 > [!faq]- Collapsed by default
-> Foldable callout (- collapsed, + expanded).
+> Foldable callout (- collapsed, + expanded). Obsidian-only; GitHub will not render it as an alert.
 ```
+
+> [!important]
+> Always put the marker on its own line — GitHub does not render single-line callouts or inline titles (`> [!note] text`, `> [!info] Custom Title`) as alerts; they fall back to plain blockquotes. Keep `> [!type]` alone on the first line and move all text (including any intended title) to a following `> ` line. Obsidian accepts this form too, so it is the default.
+
+Obsidian-only callout features — custom titles, foldable callouts (`+`/`-`), and nesting — work in Obsidian but will not render as alerts on GitHub. Use them only when GitHub rendering is not a concern.
 
 Common types: `note`, `tip`, `warning`, `info`, `example`, `quote`, `bug`, `danger`, `success`, `failure`, `question`, `abstract`, `todo`.
 
@@ -171,8 +178,8 @@ status: in-progress
 
 This project aims to [[improve workflow]] using modern techniques.
 
-> [!important] Key Deadline
-> The first milestone is due on ==January 30th==.
+> [!important]
+> Key Deadline — The first milestone is due on ==January 30th==.
 
 ## Tasks
 
@@ -210,7 +217,8 @@ Use `> [!info]` callouts to attribute document-derived insights within entity bo
 
 - Existing content about IL-6 signaling...
 
-> [!info] Source: [[SASP: The Dark Side of Tumor Suppression]]
+> [!info]
+> Source: [[SASP: The Dark Side of Tumor Suppression]]
 > IL-6 secretion is directly controlled by persistent DNA-damage signaling through ATM and CHK2, independent of the p53 pathway.
 
 - Additional existing content...
