@@ -9,7 +9,7 @@ import { updateHash } from './routing.js';
 export const ARTICLES = [
   {
     id: 'sirtuin-pleiotropy',
-    title: 'Sirtuin Pleiotropic Roles / 去乙醯酶多效性',
+    title: 'Sirtuin Pleiotropic Roles',
     path: 'pages/sirtuin_pleiotropic_roles.html',
     default: true,
   },
