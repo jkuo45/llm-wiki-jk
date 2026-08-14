@@ -32,6 +32,7 @@ td .mod-ind{color:var(--blue);}
     <a class="n" href="#spectrum">對立的 SIRTs</a>
     <a class="n" href="#compartment">細胞分佈圖</a>
     <a class="n" href="#axes">代謝軸</a>
+    <a class="n" href="#diseases">疾病</a>
     <a class="n" href="#network">知識圖譜</a>
     <a class="n" href="#sirts">逐一檢視 SIRT</a>
     <a class="n" href="#substrates">受質與標靶</a>
@@ -168,6 +169,20 @@ td .mod-ind{color:var(--blue);}
         <button class="copy-btn" data-copy="matrixSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- DISEASES -->
+<section id="diseases">
+  <div class="wrap">
+    <h2>逐一併發症分解</h2>
+    <p class="lead" style="margin-bottom:16px;">
+      每個併發症標註：(a) 哪些 SIRT 上升或下降，(b) 預後／生物標記權重，(c) 機制角色。
+      標籤顯示每個 SIRT 的綜合角色：<span class="chip P">P</span> 保護性／抑制性，
+      <span class="chip H">H</span> 有害／驅動性，<span class="chip D">D</span> 雙重。
+    </p>
+    <div class="sys-tabs" id="sysTabs"></div>
+    <div class="dis-grid" id="disGrid"></div>
   </div>
 </section>
 
@@ -920,6 +935,101 @@ renderMatrix('matrixSvg', AXES, sirtOrder, SIRTS, MATRIX, MECH, {W:920, left:92,
 })();
 
 ['spectrumSvg','compSvg','matrixSvg','theraSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
+
+/* ============================= DISEASE BREAKDOWN ============================= */
+(function diseases(){
+  const SYS = [
+ {id:'癌症', diseases:[
+   {n:'乳癌', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|P','SIRT7|H'], t:'SIRT2/SIRT4↓ 存活較長；SIRT1/SIRT7↑ 預後不良。情境依賴的抑制 vs 促進。'},
+   {n:'肺癌', r:['SIRT1|D','SIRT2|D','SIRT3|H','SIRT6|D','SIRT4|N'], t:'血清 SIRT3 診斷 (AUC 0.918)；SIRT1–3 偏高 ↔ NSCLC 存活不佳；角色衝突。'},
+   {n:'肝細胞癌', r:['SIRT1|H','SIRT2|P','SIRT3|D','SIRT4|P','SIRT5|D','SIRT6|P','SIRT7|H'], t:'非粒線體 SIRT1/2/6↑，粒線體 SIRT3–5↓；SIRT4 低 ↔ 存活下降。'},
+   {n:'大腸直腸癌', r:['SIRT1|D','SIRT2|P','SIRT3|H','SIRT4|P','SIRT5|H','SIRT6|P','SIRT7|D'], t:'SIRT1/SIRT7↑，SIRT2/4/6↓；SIRT5↑ 預後差，SIRT6↑ 存活改善。'},
+   {n:'胃癌', r:['SIRT1|H','SIRT4|P','SIRT6|P','SIRT2|N','SIRT3|N'], t:'SIRT1↑；SIRT4/6↓ 與腫瘤分級負相關 → 預後不良。'},
+   {n:'胰臟癌', r:['SIRT5|P','SIRT6|P','SIRT1|H'], t:'SIRT5 缺失 → GOT1 乙醯化 → 增殖；KLF10↑SIRT6 影響 EMT/轉移。'},
+   {n:'卵巢癌', r:['SIRT1|H','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|H','SIRT6|P','SIRT7|P'], t:'SIRT1–3/6↓，SIRT5↑；SIRT2/5–7 高表達有利，SIRT1/4 高表達不利。'},
+   {n:'子宮內膜癌', r:['SIRT1|H','SIRT2|H','SIRT6|P'], t:'SIRT1↑ 促進自噬/增殖與順鉑抗性；SIRT2↑ 促進幹性。'},
+   {n:'子宮頸癌', r:['SIRT1|H','SIRT2|P','SIRT3|H','SIRT4|N'], t:'SIRT2↓ 存活較佳；SIRT1 使 AIM2 免疫失效；SIRT3 驅動脂質新生/侵襲。'},
+   {n:'神經膠質瘤', r:['SIRT1|D','SIRT3|H','SIRT6|P','SIRT7|H','SIRT2|N'], t:'SIRT1/7↑，SIRT3/6↓；SIRT1 為抑制子 (PAK1) 但 SIRT1/3 偏高更差。'},
+   {n:'白血病', r:['SIRT1|H','SIRT2|D','SIRT6|P','SIRT7|P'], t:'SIRT1 促進 T-ALL；SIRT2 在急性骨髓性白血病（活化降低）與 T-ALL（抑制抑制）呈分歧。'}
+ ]},
+ {id:'心血管', diseases:[
+   {n:'心臟肥厚', r:['SIRT1|D','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|P','SIRT6|P','SIRT7|P'], t:'SIRT1 具劑量依賴；SIRT3/6 保護；SIRT4 不良 (MnSOD 抑制)。'},
+   {n:'心臟纖維化', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|P','SIRT6|P','SIRT7|D'], t:'白藜蘆醇/SIRT1/3 減輕；SIRT4 參與；SIRT7 不一致。'},
+   {n:'心臟衰竭', r:['SIRT1|P','SIRT2|N','SIRT3|N','SIRT4|N','SIRT5|N','SIRT6|P','SIRT7|N'], t:'SIRT1/6 在心衰中下降；過度表達提升存活/抗氧化路徑。'},
+   {n:'動脈粥樣硬化', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT4|P','SIRT6|P','SIRT7|N'], t:'在內皮、血管平滑肌、巨噬細胞皆具保護；SIRT7 經 Wnt/β-catenin 調節血管平滑肌。'},
+   {n:'冠狀動脈疾病', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'基因多型性與 CAD 風險相關；患者中 SIRT1 下降。'},
+   {n:'心肌缺血再灌注損傷', r:['SIRT1|P','SIRT3|P','SIRT4|P','SIRT5|H','SIRT6|P','SIRT2|N','SIRT7|N'], t:'SIRT1/3/6 保護；SIRT4 在損傷後下降；SIRT5 缺失增大梗塞。'},
+   {n:'高血壓', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'減輕 Ang II/DOCA-salt 模型；SIRT3/6 保護腎臟與血管。'}
+ ]},
+ {id:'呼吸系統', diseases:[
+   {n:'慢性阻塞性肺病', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1 顯著下降；抗發炎/抗氧化；SIRT6 下降 → 自噬不足。'},
+   {n:'肺纖維化', r:['SIRT1|P','SIRT3|P','SIRT6|P','SIRT7|H'], t:'SIRT1/3/6 經 TGF-β/自噬減輕；SIRT7 下降具促纖維化。'},
+   {n:'氣喘', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|P','SIRT7|H'], t:'SIRT1 在重症下降；SIRT2 加劇發炎；SIRT6/7 重構氣道。'},
+   {n:'急性肺損傷', r:['SIRT1|D','SIRT3|P','SIRT6|P'], t:'SIRT1 保護 (敲除易感) 但在內毒素血症中可能有害；SIRT3/6 保護。'},
+   {n:'COVID-19', r:['SIRT1|P','SIRT3|P'], t:'p53/SIRT1 軸失衡；重症患者血清 SIRT3 較低。'}
+ ]},
+ {id:'消化系統', diseases:[
+   {n:'非酒精性脂肪肝病', r:['SIRT1|D','SIRT2|D','SIRT3|D','SIRT4|D','SIRT5|D','SIRT6|P','SIRT7|H'], t:'SIRT1–3/5/6↓；SIRT1 保護但酒精性/肝膽疾病中有害；SIRT7 高表達有害。'},
+   {n:'肝臟缺血再灌注損傷', r:['SIRT1|P','SIRT2|H','SIRT3|P'], t:'SIRT1/3 保護；SIRT2 經 MAPK 磷酸酶-1 去乙醯化有害。'},
+   {n:'HBV 感染', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|P','SIRT5|D','SIRT6|P','SIRT7|D'], t:'SIRT3/4/6↓ 抑制複製；SIRT1/2/5/7 略升；SIRT7 限制 cccDNA。'},
+   {n:'胰臟炎', r:['SIRT1|D','SIRT2|N','SIRT3|N'], t:'SIRT1 在急性中低表達/保護；慢性中上升 → EMT。'},
+   {n:'腸道發炎性疾病', r:['SIRT1|D','SIRT2|P','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|P'], t:'患者中 SIRT2/6↓；SIRT1 雙面 (缺失促發炎，但 Foxp3+ Treg 具保護)。'},
+   {n:'腸道缺血再灌注損傷', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1/3 抑制 ROS/凋亡；SIRT6 下降 (miR-351) 加重。'}
+ ]},
+ {id:'神經系統', diseases:[
+   {n:'阿茲海默症', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|N'], t:'SIRT1/3 對抗 Aβ/tau 具保護；SIRT2 有害 (β分泌酶、Fzd 啟動子)。'},
+   {n:'帕金森氏症', r:['SIRT1|P','SIRT2|H','SIRT3|P'], t:'SIRT1/3 對抗 α-突觸核蛋白粒線體功能障礙；SIRT2 缺失具保護。'},
+   {n:'亨廷頓舞蹈症', r:['SIRT1|P','SIRT2|H'], t:'SIRT1 過度表達改善存活/BDNF；SIRT2 抑制具神經保護。'},
+   {n:'中風／腦部缺血再灌注', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT5|H'], t:'SIRT1/3 神經保護；SIRT2 有害；SIRT5 增加血腦屏障通透性。'},
+   {n:'多發性硬化／肌萎縮性側索硬化', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'模式中 SIRT1/3↑；SIRT6 消除突變 SOD1 星形膠質細胞神經毒性。'},
+   {n:'癲癇', r:['SIRT1|P','SIRT3|P','SIRT5|H'], t:'SIRT1 致效劑神經保護；SIRT3 保護；SIRT5 缺失惡化發作。'},
+   {n:'認知／脊髓損傷／疼痛', r:['SIRT1|P','SIRT2|D','SIRT3|P','SIRT6|P'], t:'SIRT1/3/6 保護；SIRT2 混合 (缺血有害，減輕神經性疼痛)。'}
+ ]},
+ {id:'內分泌', diseases:[
+   {n:'糖尿病', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|D','SIRT5|H','SIRT6|P'], t:'SIRT1–3↓，SIRT5/6↑；SIRT5 促進進展；SIRT6 抑制糖質新生。'},
+   {n:'糖尿病腎病變', r:['SIRT1|P','SIRT3|N','SIRT4|N'], t:'SIRT1 高表達經 p53/FoxO3a/Nrf2 保護腎臟/延緩病程。'},
+   {n:'糖尿病神經病變', r:['SIRT1|P','SIRT3|N'], t:'SIRT1 調節神經元存活，減輕神經性疼痛與認知衰退。'},
+   {n:'糖尿病視網膜病變／心肌病變', r:['SIRT1|P','SIRT3|P'], t:'SIRT1 防止毛細血管凋亡 (視網膜)；SIRT3 經 p53/PFKFB3 減輕心肌病變。'},
+   {n:'肥胖', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|H'], t:'SIRT1/3 抑制肥胖；SIRT2/6 促進 (HIF-1α/STAT3 軸)。'}
+ ]},
+ {id:'泌尿生殖', diseases:[
+   {n:'急性腎損傷', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT4|N','SIRT5|P','SIRT6|P','SIRT7|H'], t:'粒線體 SIRT3–5 保護；SIRT2 敲除改善；SIRT7 缺失受保護。'},
+   {n:'慢性腎臟病', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|H'], t:'SIRT1/3 保護纖維化與結石；SIRT6 抑制血管鈣化；SIRT7 促進損傷。'},
+   {n:'生殖系統疾病', r:['SIRT1|D','SIRT3|D'], t:'SIRT1 在勃起功能/多囊性卵巢/子宮內膜異位具保護；SIRT3 缺失損害卵母細胞。'}
+ ]},
+ {id:'運動系統', diseases:[
+   {n:'骨關節炎', r:['SIRT1|P','SIRT2|P','SIRT3|D','SIRT6|P'], t:'SIRT1 研究最多 (Wnt/β-catenin)；SIRT3 雙面 (恆定 vs 凋亡)。'},
+   {n:'骨質疏鬆', r:['SIRT1|P','SIRT6|P'], t:'SIRT1 敲除骨量低；SIRT6 抑制年齡相關骨流失。'},
+   {n:'椎間盤退化', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT6|P'], t:'四者皆抑制核髓細胞內 NF-κB/氧化壓力/衰老。'},
+   {n:'骨骼肌萎縮', r:['SIRT1|P','SIRT2|P','SIRT3|P'], t:'SIRT1 (PGC-1α)、SIRT2 (自噬流)、SIRT3 (粒線體) 皆具保護。'}
+ ]},
+ {id:'衰老', diseases:[
+   {n:'細胞與血管衰老', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1/6 抑制 p53/NF-κB 並維持端粒/DNA 修復；SIRT3 缺失 → 間質幹細胞衰老。'}
+ ]}
+  ];
+  const tabsEl=document.getElementById('sysTabs');
+  const gridEl=document.getElementById('disGrid');
+  let active=SYS[0].id;
+  SYS.forEach(s=>{
+    const b=document.createElement('button');
+    b.className='sys-tab'+(s.id===active?' active':'');
+    b.textContent=s.id+' ('+s.diseases.length+')';
+    b.addEventListener('click',()=>{active=s.id;[...tabsEl.children].forEach(c=>c.classList.remove('active'));b.classList.add('active');render();});
+    tabsEl.appendChild(b);
+  });
+  function render(){
+    const sys=SYS.find(x=>x.id===active);
+    gridEl.innerHTML='';
+    sys.diseases.forEach(d=>{
+      const card=document.createElement('div');card.className='dis-card';
+      let chips='';
+      d.r.forEach(pair=>{const[s,r]=pair.split('|');chips+=`<span class="chip ${r}">${s.replace('SIRT','S')}</span>`;});
+      card.innerHTML=`<h4>${d.n}</h4><div class="chips">${chips}</div><div class="note">${d.t}</div>`;
+      gridEl.appendChild(card);
+    });
+  }
+  render();
+})();
 </script>
 </body>
 </html>
