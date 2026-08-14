@@ -9,7 +9,7 @@ import {
 } from './data.js';
 import { state } from './state.js';
 import {
-  container, nodeObjects, nodeMeshes, edgeObjects, edgeGroup, labelObjects,
+  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeObjects, edgeGroup, labelObjects,
   setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
@@ -536,6 +536,98 @@ document.getElementById('btn-reset').addEventListener('click', () => {
   deselectNode();
   clearCommunityFocus();
   animateCamera(new THREE.Vector3(-120, 0, 500), new THREE.Vector3(170, 0, 0));
+});
+
+// ------------------------------------------------------------
+// Copy graph as transparent PNG
+// ------------------------------------------------------------
+document.getElementById('btn-copy-png').addEventListener('click', async (e) => {
+  const btn = e.currentTarget;
+  const origIcon = btn.innerHTML;
+  const origTitle = btn.title;
+  btn.disabled = true;
+  const mainBg = scene.background;
+
+  const captureLayer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+  let dataUrl = null;
+  try {
+    const cw = container.clientWidth, ch = container.clientHeight;
+    captureLayer.setSize(cw, ch);
+    captureLayer.setPixelRatio(window.devicePixelRatio);
+
+    scene.background = null;
+    captureLayer.render(scene, camera);
+    dataUrl = captureLayer.domElement.toDataURL('image/png');
+    scene.background = mainBg;
+    renderer.render(scene, camera); // restore main canvas without an async gap
+
+    const pxW = captureLayer.domElement.width;
+    const pxH = captureLayer.domElement.height;
+    const img = await new Promise((res, rej) => {
+      const im = new Image();
+      im.onload = () => res(im);
+      im.onerror = rej;
+      im.src = dataUrl;
+    });
+
+    const canvas = document.createElement('canvas');
+    canvas.width = pxW; canvas.height = pxH;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(img, 0, 0, pxW, pxH);
+
+    // Composite CSS2D node labels so the PNG includes names.
+    labelObjects.forEach((label, nodeId) => {
+      if (!label.visible || !label.element) return;
+      const el = label.element;
+      const v = label.position.clone().project(camera);
+      if (v.z < -1 || v.z > 1) return;
+      const sx = (v.x + 1) / 2 * pxW;
+      const sy = (1 - v.y) / 2 * pxH;
+      const lines = (el.innerText || el.textContent || '').split('\n').filter(Boolean);
+      if (!lines.length) return;
+      const fs = parseFloat(getComputedStyle(el).fontSize) || 16;
+      const scale = pxW / cw;
+      ctx.font = `600 ${fs * scale}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = 'rgba(15,15,26,0.9)';
+      ctx.fillStyle = '#e0e0e0';
+      const lh = (fs + 3) * scale;
+      const baseY = sy - (lines.length - 1) * lh / 2 - 4 * scale;
+      lines.forEach((line, i) => {
+        const y = baseY + i * lh;
+        ctx.strokeText(line, sx, y);
+        ctx.fillText(line, sx, y);
+      });
+    });
+
+    const blob = await new Promise((res, rej) => canvas.toBlob(b => b ? res(b) : rej(new Error('no-blob')), 'image/png'));
+    if (navigator.clipboard && window.ClipboardItem) {
+      await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+      btn.classList.add('ok');
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+      btn.title = 'Copied ✓ / 已複製 ✓';
+    } else {
+      const a = document.createElement('a');
+      a.download = 'llm-wiki-graph.png';
+      a.href = URL.createObjectURL(blob);
+      a.click();
+      URL.revokeObjectURL(a.href);
+      btn.classList.add('ok');
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
+      btn.title = 'Downloaded PNG / 已下載 PNG';
+    }
+  } catch (err) {
+    btn.classList.add('err');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+    btn.title = 'Copy failed / 複製失敗';
+  } finally {
+    scene.background = mainBg;
+    renderer.render(scene, camera);
+    captureLayer.dispose();
+    btn.disabled = false;
+    setTimeout(() => { btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok', 'err'); }, 1800);
+  }
 });
 
 document.getElementById('btn-physics').addEventListener('click', (e) => {
