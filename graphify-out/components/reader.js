@@ -9,7 +9,7 @@ import { updateHash } from './routing.js';
 export const ARTICLES = [
   {
     id: 'sirtuin-pleiotropy',
-    title: 'Sirtuins - Pleiotropy in in Tumor Cell Metabolism',
+    title: 'Sirtuins - Pleiotropy in Tumor Cell Metabolism',
     path: 'pages/sirtuins_pleiotropic_roles.html',
     default: true,
   },
