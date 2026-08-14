@@ -17,6 +17,16 @@ export const ARTICLES = [
     id: 'sirtuin-pleiotropy-zh',
     title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
     path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
+  },
+  {
+    id: 'sirtuin-disease-complications',
+    title: 'Sirtuins - Disease Complications',
+    path: 'pages/sirtuins_disease_complications.html',
+  },
+  {
+    id: 'sirtuin-disease-complications-zh',
+    title: 'Sirtuins - 疾病併發症（繁體中文）',
+    path: 'pages/sirtuins_disease_complications_zh-TW.html',
   }
 ];
 

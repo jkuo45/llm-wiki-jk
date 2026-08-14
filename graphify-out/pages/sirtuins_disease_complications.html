@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIRT Disease Atlas — Sirtuins in Health &amp; Disease, Complication by Complication</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫀</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="Back to graph">&#8592; Back</a>
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#spectrum">Role Spectrum</a>
+    <a class="n" href="#map">System Map</a>
+    <a class="n" href="#matrix">Role Matrix</a>
+    <a class="n" href="#diseases">Disease Explorer</a>
+    <a class="n" href="#sirts">SIRT Dossiers</a>
+    <a class="n" href="#flips">Sign Flips</a>
+    <a class="n" href="#patterns">Patterns</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Interactive explainer · llm-wiki-jk</div>
+    <h1>SIRTs in Health &amp; Disease — a Complication-by-Complication Atlas</h1>
+    <p class="lead" style="margin-top:14px;">
+      The seven mammalian sirtuins (SIRT1–SIRT7) are expressed aberrantly in almost every disease state, acting as
+      <b style="color:var(--text)">tumor suppressors and/or oncogenes</b> and as
+      <b style="color:var(--text)">protective or harmful factors</b> depending on genetic context, tissue, tumor type and stage.
+      This page turns the task-output complication compilation (cancer → aging) into interactive charts of
+      <b style="color:var(--teal)">who protects</b>, <b style="color:var(--red)">who harms</b>, and
+      <b style="color:var(--amber)">who flips sign</b>.
+    </p>
+    <div class="meta">
+      Source review: <a href="https://doi.org/10.1038/s41392-022-01257-8" target="_blank">Sirtuins in Health and Disease (Wu et al., 2022)</a> ·
+      built from <code>src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md</code>
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">9 organ systems</span>
+      <span class="badge">49 conditions</span>
+      <span class="badge teal" id="annBadge">~200 disease–sirtuin annotations</span>
+      <span class="badge">P / H / D annotation code</span>
+      <span class="badge red">dose-&amp;-stage dependent</span>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <h2>Why the same enzyme can protect one organ and harm another</h2>
+    <p class="lead" style="margin-bottom:20px;">Context-dependence has three interacting sources at the disease level.</p>
+    <div class="grid g3">
+      <div class="card">
+        <h3>1 · One enzyme, many organs</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b style="color:var(--text)">SIRT4</b> suppresses GI cancers and protects metabolism yet <i>aggravates</i> cardiac hypertrophy/fibrosis.<br>
+          <b style="color:var(--text)">SIRT2</b> harms the brain (AD, PD, HD, stroke, asthma) yet protects joints and kidney fibrosis.<br>
+          <b style="color:var(--text)">SIRT3</b> is near-universally protective in heart/lung/kidney injury — but its low-ROS "guardian"
+          phenotype creates cancer radio/chemoresistance. "Protective" or "harmful" is always conditional on the organ.
+        </p>
+      </div>
+      <div class="card">
+        <h3>2 · Dose and stage rule</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Cardiac SIRT1: 2.5× and 7.5× overexpression attenuate hypertrophy; 12.5× converts it into pathology.<br>
+          CRC SIRT1: <i>heterozygous</i> KO drives c-Myc/glutamine proliferation, <i>homozygous</i> KO triggers apoptosis.<br>
+          SIRT7 rises with positive leukemia treatment response and falls on relapse — a monitoring marker,
+          not a fixed tumorigenic role. Direction is meaningless without dose and stage.
+        </p>
+      </div>
+      <div class="card">
+        <h3>3 · The P / H / D annotation code</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Every condition is annotated with chips per sirtuin: <span class="chip P">P</span> protective / suppressive,
+          <span class="chip H">H</span> harmful / driving, <span class="chip D">D</span> dual, <span class="chip N">N</span> not annotated.
+          The same sirtuin frequently wears <span class="chip P">P</span> and <span class="chip H">H</span> in different rows of
+          the <i>same</i> organ system — the explorer below surfaces those decisive contexts.
+        </p>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div class="stat-num" style="color:var(--teal); font-weight:700;">9</div>
+        <div style="color:var(--dim); font-size:.85rem;">Organ systems — cancer, cardiovascular, respiratory, digestive, nervous, endocrine, urogenital, motor, aging</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div class="stat-num" style="color:var(--purple); font-weight:700;">49</div>
+        <div style="color:var(--dim); font-size:.85rem;">Conditions annotated with sirtuin expression, prognosis and mechanism</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div class="stat-num" style="color:var(--red); font-weight:700;">0</div>
+        <div style="color:var(--dim); font-size:.85rem;">Sirtuins with a single, unconditional verdict — every isoform flips by tissue, dose and stage</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECTRUM -->
+<section id="spectrum">
+  <div class="wrap">
+    <h2>Net lean across diseases — the protective ⇄ harmful spectrum</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      Each bar is a sirtuin's <b style="color:var(--text)">net lean</b> aggregated over the 49 annotated conditions
+      (right = more consistently protective, left = more consistently harmful). The shaded
+      <b style="color:var(--dim)">context window</b> shows how far the same isoform can flip sign across organs.
+      Hover a bar for the rationale.
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="spectrumSvg" viewBox="0 0 1000 634" role="img" aria-label="Sirtuin protective-harmful spectrum across diseases"></svg>
+        <button class="copy-btn" data-copy="spectrumSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> net protective lean</span>
+        <span><span class="sw" style="background:var(--red)"></span> net harmful / pro-disease lean</span>
+        <span><span class="sw" style="background:rgba(224,224,224,.12)"></span> context window (flip range)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROLE MAP -->
+<section id="map">
+  <div class="wrap">
+    <h2>SIRT × system role map — the bipartite knowledge graph</h2>
+    <p class="lead">
+      A curated 16-node map of the disease compilation: the 7 sirtuin hubs (left) connected to 9 organ systems (right).
+      Edge color = net role of that sirtuin in that system (<b style="color:var(--teal)">green</b> protective,
+      <b style="color:var(--red)">red</b> harmful, <b style="color:var(--amber)">amber</b> dual).
+      Hover a system node to see per-sirtuin verdicts; click a sirtuin hub to highlight its footprint.
+    </p>
+    <div class="net-head">
+      <button class="btn" id="mapReset">Reset highlight</button>
+      <span class="badge" id="mapStats"></span>
+    </div>
+    <div style="position:relative;">
+      <svg id="mapSvg" viewBox="0 0 1100 560" role="img" aria-label="Sirtuin by organ system role map"></svg>
+      <div id="netTip"></div>
+      <button class="copy-btn" data-copy="mapSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+    </div>
+    <div class="net-legend">
+      <span><span class="sw" style="background:var(--teal)"></span> protective lean</span>
+      <span><span class="sw" style="background:var(--red)"></span> harmful lean</span>
+      <span><span class="sw" style="background:var(--amber)"></span> dual / context-dependent</span>
+    </div>
+  </div>
+</section>
+
+<!-- MATRIX -->
+<section id="matrix">
+  <div class="wrap">
+    <h2>Who protects whom — SIRT × system role matrix</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Net effect of each sirtuin within each organ system. <b style="color:var(--teal)">Teal</b> = protective /
+      suppressive on that system, <b style="color:var(--red)">red</b> = harmful / pro-disease,
+      <b style="color:var(--amber)">amber</b> = genuinely dual within that system.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Hover a cell for the per-condition breakdown.</p>
+    <div class="spectrum-card">
+      <div id="matrixWrap" style="position:relative;">
+        <svg id="matrixSvg" viewBox="0 0 1220 660" role="img" aria-label="Sirtuin by organ system role matrix"></svg>
+        <button class="copy-btn" data-copy="matrixSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DISEASE EXPLORER -->
+<section id="diseases">
+  <div class="wrap">
+    <h2>Complication-by-complication view</h2>
+    <p class="lead" style="margin-bottom:16px;">
+      Each condition annotated with (a) which SIRTs rise or fall, (b) prognostic/biomarker weight, and (c) mechanistic role.
+      Chips show each sirtuin's net role: <span class="chip P">P</span> protective/suppressive,
+      <span class="chip H">H</span> harmful/driving, <span class="chip D">D</span> dual, <span class="chip N">N</span> not annotated.
+    </p>
+    <div class="sys-tabs" id="sysTabs"></div>
+    <div class="dis-grid" id="disGrid"></div>
+  </div>
+</section>
+
+<!-- SIRT DOSSIERS -->
+<section id="sirts">
+  <div class="wrap">
+    <h2>SIRT dossiers — follow one enzyme across all systems</h2>
+    <p class="lead" style="margin-bottom:20px;">
+      Every isoform carries a <b style="color:var(--green)">protective face</b> and a <b style="color:var(--red)">harmful face</b>.
+      The balance depends on tissue, dose, and stage.
+    </p>
+    <div class="grid g2" style="gap:18px;">
+
+      <!-- SIRT1 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">the most-studied double agent — protective in most systems, harmful in most cancers</span>
+          <span class="comp">Nucleus<br>+ cytosol</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective across systems</h4><ul>
+              <li><b>CVD</b> — low/moderate dose cardiovascular protection (hypertrophy 2.5×/7.5×, HF antioxidant, atherosclerosis eNOS, MI/R, hypertension)</li>
+              <li><b>Respiratory</b> — COPD anti-inflammatory (NF-κB), lung-fibrosis AT2 self-renewal, asthma, ALI</li>
+              <li><b>Digestive</b> — NAFLD lipid homeostasis, liver I/R via MFN2, pancreatitis, intestinal I/R</li>
+              <li><b>Nervous</b> — near-universal neuroprotection (AD, PD, HD, stroke, epilepsy, cognition, SCI)</li>
+              <li><b>Renal / endocrine / motor</b> — DKD, diabetic neuropathy/retinopathy, obesity, OA, osteoporosis, IDD, muscle</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / adverse</h4><ul>
+              <li><b>Cancers</b> — HCC, GC, PC, OC, EC, CC, leukemia (EMT, chemoresistance, stemness), tamoxifen/cisplatin resistance</li>
+              <li><b>Cardiac hypertrophy at high dose</b> — 12.5× exacerbates (Akt/PDK1)</li>
+              <li><b>NAFLD / alcoholic hepatitis</b> — intestinal SIRT1 intensifies ferroptosis; myeloid SIRT1 harmful</li>
+              <li><b>HBV</b> — agonists promote viral transcription</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context variables:</b> dose (cardiac 2.5×/7.5× protective vs 12.5× pathogenic; CRC heterozygous KO → proliferation, homozygous KO → apoptosis), tumor type (suppressor in some BC/LC/HCC models, promoter in others), IBD (deficiency pro-inflammatory, yet deletion protective via Foxp3+ Treg).</div>
+        </div>
+      </div>
+
+      <!-- SIRT2 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--purple)">SIRT2</h3><span class="tagline">the axis-opposer — harms the brain, protects joints &amp; kidney fibrosis</span>
+          <span class="comp">Cytosol</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective / suppressive</h4><ul>
+              <li><b>Musculoskeletal</b> — OA (p65/ECM), IDD, skeletal-muscle protein metabolism</li>
+              <li><b>Kidney</b> — TGF-β1 fibroblast activation suppression in CKD fibrosis</li>
+              <li><b>Cancers</b> — BRCA1–BARD1 (breast), IDH1 (CRC), AKR1C1/STAT3 (NSCLC), ovarian cisplatin sensitization</li>
+              <li><b>Other</b> — IBD (Wnt/β-catenin), atherosclerosis (macrophage polarization), obesity antagonism (in some readings)</li>
+              <li>AML — NAMPT/SIRT2 activation reduces proliferation</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / pro-disease</h4><ul>
+              <li><b>Neurodegeneration</b> — AD (β-secretase, Fzd H4K16), PD (α-syn toxicity), HD, ischemic stroke (serum biomarker ↑)</li>
+              <li><b>Asthma</b> — enhances Th2 allergic inflammation</li>
+              <li><b>Liver</b> — I/R injury (MKP-1 deacetylation → MAPK), fibrosis (SIRT2/ERK/c-Myc)</li>
+              <li><b>AKI</b> — KO ameliorates cisplatin injury</li>
+              <li>Basal-like breast invasion (Slug), endometrial stemness, T-ALL (LMO2), lung tumor growth (PGM K100 → NADPH)</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context:</b> cytosolic tubulin/cell-cycle sirtuin that often <b>opposes the protective SIRT1/3/6 axis</b>. Splits cleanly within one organ: in leukemia, activation helps AML while inhibition suppresses T-ALL; in diabetes it promotes glucose uptake yet counterbalances Akt in neurons.</div>
+        </div>
+      </div>
+
+      <!-- SIRT3 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">the mitochondrial guardian — near-universal protection with a cancer caveat</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective (dominant)</h4><ul>
+              <li><b>Kidney</b> — AKI (sepsis, FAO, ischemia), CKD fibrosis (PDH E1α), kidney stones (Nrf2/HO-1)</li>
+              <li><b>CVD</b> — hypertrophy (FoxO1/3, PARP-1), fibrosis, MI/R, hypertension, DCM (p53/PFKFB3)</li>
+              <li><b>Respiratory</b> — COPD, lung fibrosis, asthma, ALI (MnSOD, NLRP3)</li>
+              <li><b>Metabolic</b> — obesity (macroautophagy/lipid droplets), muscle glucose uptake, FLD, memory/cognition, epilepsy</li>
+              <li>Motoric — IDD, muscle atrophy; anti-cancer EMT suppression (Twist, ERα–p53)</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / adverse</h4><ul>
+              <li><b>Cancer therapy resistance</b> — radioresistance (ATM–Chk2), chemo-resistance in CRC (SOD2/PGC-1α)</li>
+              <li><b>OA</b> — overexpression promotes chondrocyte apoptosis / OA progression</li>
+              <li><b>FLD</b> — liver-specific knockdown alleviated alcoholic feeding injury</li>
+              <li>Alcoholic hepato-injury, cervical cancer lipogenic invasion (ACC1)</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context:</b> the primary mitochondrial sirtuin; genuinely dual only in OA and fatty liver. The same low-ROS "guardian" phenotype that prevents injury keeps <b>established tumors alive</b> under therapy. Elevated in node-positive breast cancer and OSCC; serum SIRT3 is a lung-cancer diagnostic (AUC 0.918).</div>
+        </div>
+      </div>
+
+      <!-- SIRT4 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--teal)">SIRT4</h3><span class="tagline">glutamine &amp; lipid brake — a tumor suppressor with cardiac and hepatic costs</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective / suppressive (dominant)</h4><ul>
+              <li><b>GI cancers</b> — HCC (glutamine metabolism, p16/p21 apoptosis), CRC (E-cadherin), GC (anti-EMT), BC (negatively regulates SIRT1)</li>
+              <li><b>Metabolic</b> — protects against dyslipidemia/lipogenesis in some models, diabetic kidney</li>
+              <li><b>CVD</b> — MI/R (decreased after injury; overexpression shrinks infarct)</li>
+              <li>Liver fibrosis — SIRT4/Smad4 axis restrains lipid accumulation/fibrogenesis</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / adverse</h4><ul>
+              <li><b>Cardiac</b> — the only sirtuin with adverse cardiac effects: aggravates Ang II hypertrophy/fibrosis via MnSOD inhibition</li>
+              <li><b>NAFLD</b> — deacetylates/destabilizes mitochondrial trifunctional protein-α → lipid accumulation</li>
+              <li><b>Ovarian cancer</b> — high SIRT4 ↔ poor survival</li>
+              <li>Reduced amino-acid-stimulated insulin secretion; suppresses hepatic FAO — metabolically "thrifty"</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context:</b> loss is <b>uniformly prognostic for poor survival</b> in HCC, gastric, CRC, bladder, breast cancer. GDH mono-ADP-ribosylation directly throttles glutamine–α-KG anaplerosis — a natural brake on glutamine-addicted tumors that is costly to systemic metabolism and cardiac stress responses.</div>
+        </div>
+      </div>
+
+      <!-- SIRT5 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--orange)">SIRT5</h3><span class="tagline">the nicotinamide-resistant deacylase — truly mixed across systems</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective / contextual</h4><ul>
+              <li><b>Hepatic</b> — KO → impaired FAO steatosis; fibrosis increases in KO; protects in liver metabolic disease</li>
+              <li><b>Kidney</b> — AKI mitochondrial protection (FAO balance)</li>
+              <li><b>CVD</b> — prevents age-related hypertrophy; loss increases cardiac infarct (succinylation)</li>
+              <li>Epilepsy, pancreatic cancer (favorable prognosis), antioxidant defense (SOD1/IDH2)</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / pro-disease</h4><ul>
+              <li><b>Metabolic</b> — DM progression (PDX1 repression, inhibits insulin secretion)</li>
+              <li><b>Cancers</b> — CRC (deglutarylation-glutaminolysis, LDHB→autophagy), HCC (OXPHOS→glycolysis), ovarian cisplatin resistance (Nrf2/HO-1)</li>
+              <li><b>Stroke</b> — BBB permeability via occludin degradation → IR brain damage</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Note:</b> almost no classical deacetylase activity (desuccinylase/demalonylase/deglutarylase) and <b>resists nicotinamide inhibition</b> — stays active in tissues where SIRT1–3 are suppressed. In the task's cross-cutting tally: protective in hepatic steatosis/epilepsy/AKI; pro-disease in DM, CRC, HCC.</div>
+        </div>
+      </div>
+
+      <!-- SIRT6 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">the most consistently protective — dual only in lung, HCC and obesity</span>
+          <span class="comp">Nucleus (heterochromatin)</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective (dominant)</h4><ul>
+              <li><b>CVD</b> — hypertrophy, fibrosis (AMPK–ACE2), HF (telomerase), atherosclerosis, CAD, MI/R, hypertension</li>
+              <li><b>Respiratory</b> — COPD, lung fibrosis, asthma, ALI/ARDS (macrophage polarization)</li>
+              <li><b>Digestive</b> — NAFLD (ChREBP/SREBP-1c), HBV cccDNA suppression, IBD (Rspo1), intestinal I/R</li>
+              <li><b>Kidney &amp; aging</b> — AKI, CKD fibrosis/VC (MDL-800), telomere preservation, 53BP1</li>
+              <li>Most cancers — anti-glycolysis (hnRNP A1), JAK2/STAT3 inhibition, DDR (CHD4), survivin/c-MYC repression</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / dual</h4><ul>
+              <li><b>Lung cancer</b> — snail-dependent KLF4 transrepression → EMT/metastasis</li>
+              <li><b>HCC</b> — high SIRT6 correlates with chemoresistance</li>
+              <li><b>Obesity</b> — exacerbates diet-induced obesity (STAT3 acetylation ↓, POMC ↓)</li>
+              <li>Chemoresistance in breast/prostate — the DDR/austerity program that prevents initiation sustains established tumors in therapy</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Bottom line:</b> the most unambiguously protective sirtuin across CVD, respiratory, digestive, kidney and most cancers. Its genome-stability/austerity program is the double edge during <b>cancer therapy</b>, where its pro-repair activity rescues stressed tumor cells.</div>
+        </div>
+      </div>
+
+      <!-- SIRT7 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--pink)">SIRT7</h3><span class="tagline">the least-studied, most-inconsistent sirtuin</span>
+          <span class="comp">Nucleus → nucleolus</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Protective / contextual</h4><ul>
+              <li><b>Leukemia</b> — rises with positive treatment response, falls on relapse → monitoring biomarker</li>
+              <li><b>HBV</b> — restricts transcription/replication via cccDNA H3 desuccinylation</li>
+              <li><b>Lung fibrosis</b> — SIRT7 decline in fibroblasts is profibrotic (Smad3)</li>
+              <li>Cardiac fibrosis — KO also reported to result in fibrosis</li>
+              <li>Anti-metastatic — H3K18 deacetylation silences EMT genes</li>
+            </ul></div>
+            <div class="face red"><h4>Harmful / dual</h4><ul>
+              <li><b>Liver</b> — high expression in alcoholic hepatitis / NAFLD is harmful</li>
+              <li><b>Kidney</b> — SIRT7-deficient mice protected against AKI; promotes tubular damage/inflammation</li>
+              <li><b>Asthma</b> — promotes airway remodeling (TGF-β1 ASMC)</li>
+              <li><b>Cardiac fibrosis</b> — enhanced expression/phosphorylation promotes fibrosis (Smad2/ERK)</li>
+              <li>Cancer — ribosome-biogenesis/growth driver (RNA Pol I), p21 suppression in most cancers</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>Context:</b> RNA Pol I / ribosome-biogenesis driver whose roles are frequently inconsistent (dual in HBV, cardiac fibrosis, CRC). Its H3K18 mark is the canonical sign-flip: lifting p21 (pro-proliferative) in one promoter, silencing EMT genes (anti-metastatic) at another. Undrugged target.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGN FLIPS -->
+<section id="flips">
+  <div class="wrap">
+    <h2>The sign-flip ledger — one sirtuin, two verdicts</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      The granularity underneath the P/H/D code: specific conditions where a single sirtuin flips polarity.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Protective/beneficial face versus harmful/adverse face of the same enzyme, in the same or directly adjacent condition.</p>
+    <div class="tbl-wrap" style="max-height:none;">
+      <table class="flip">
+        <colgroup><col style="width:9%"><col style="width:17%"><col style="width:37%"><col style="width:37%"></colgroup>
+        <thead><tr><th>Sirtuin</th><th>Condition</th><th>Protective / beneficial face</th><th>Harmful / adverse face</th></tr></thead>
+        <tbody>
+          <tr><td><span style="color:var(--amber);font-weight:700">SIRT1</span></td><td>Cardiac hypertrophy</td>
+            <td class="mod-act">Low/moderate (2.5×–7.5×) overexpression attenuates Ang II hypertrophy</td>
+            <td class="mod-inh">High-dose (12.5×) exacerbates via Akt/PDK1 membrane localization</td></tr>
+          <tr><td><span style="color:var(--amber);font-weight:700">SIRT1</span></td><td>Colorectal cancer</td>
+            <td class="mod-act">Homozygous deletion → apoptosis, reduced tumor formation</td>
+            <td class="mod-inh">Heterozygous deletion → c-Myc/glutamine metabolism → proliferation/autophagy</td></tr>
+          <tr><td><span style="color:var(--amber);font-weight:700">SIRT1</span></td><td>Inflammatory bowel disease</td>
+            <td class="mod-act">Deletion protects via Foxp3+ Treg induction → attenuated colitis</td>
+            <td class="mod-inh">Deficiency activates Paneth/goblet cells → NF-κB, pro-inflammatory genes</td></tr>
+          <tr><td><span style="color:var(--green);font-weight:700">SIRT3</span></td><td>Osteoarthritis</td>
+            <td class="mod-act">Maintains mitochondrial homeostasis (SOD2 activity), inhibits degeneration</td>
+            <td class="mod-inh">Overexpression promotes chondrocyte apoptosis / reduced proliferation → OA progression</td></tr>
+          <tr><td><span style="color:var(--teal);font-weight:700">SIRT4</span></td><td>Fatty liver (NAFLD)</td>
+            <td class="mod-act">SIRT4/Smad4 axis inhibits HFD-induced lipid accumulation/fibrogenesis</td>
+            <td class="mod-inh">Deacetylates/destabilizes mitochondrial trifunctional protein-α → lipid accumulation</td></tr>
+          <tr><td><span style="color:var(--orange);font-weight:700">SIRT5</span></td><td>Hepatocellular carcinoma</td>
+            <td class="mod-act">Suppresses immune evasion / bile-acid-metabolism-driven HCC</td>
+            <td class="mod-inh">Promotes growth/metastasis via OXPHOS → glycolysis reprogramming</td></tr>
+          <tr><td><span style="color:var(--blue);font-weight:700">SIRT6</span></td><td>Lung cancer</td>
+            <td class="mod-act">Anti-carcinogenic via CHD4 → DNA repair/chromatin relaxation</td>
+            <td class="mod-inh">Snail-dependent KLF4 transrepression → EMT/metastasis</td></tr>
+          <tr><td><span style="color:var(--blue);font-weight:700">SIRT6</span></td><td>Hepatocellular carcinoma</td>
+            <td class="mod-act">hnRNP A1 deacetylation → suppresses glycolysis/growth</td>
+            <td class="mod-inh">High SIRT6 correlates with chemoresistance (MDR1 downregulation on depletion) </td></tr>
+          <tr><td><span style="color:var(--pink);font-weight:700">SIRT7</span></td><td>Cardiac fibrosis</td>
+            <td class="mod-act">SIRT7 KO also reported to result in fibrosis</td>
+            <td class="mod-inh">Enhanced expression/phosphorylation promotes fibrosis via Smad2/ERK</td></tr>
+          <tr><td><span style="color:var(--pink);font-weight:700">SIRT7</span></td><td>Hepatocellular carcinoma / leukemia</td>
+            <td class="mod-act">Suppresses p53 in HCC contexts; rises with positive leukemia treatment response</td>
+            <td class="mod-inh">RNA Pol I/ribosome-biogenesis driver promoting growth in most cancers</td></tr>
+          <tr><td><span style="color:var(--purple);font-weight:700">SIRT2</span></td><td>Leukemia</td>
+            <td class="mod-act">NAMPT/SIRT2 activation reduces AML proliferation (Akt/GSK-3β/β-catenin)</td>
+            <td class="mod-inh">Inhibition suppresses T-ALL growth/engraftment (diminished LMO2 deacetylation)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- PATTERNS -->
+<section id="patterns">
+  <div class="wrap">
+    <h2>Cross-cutting observations &amp; the bottom line</h2>
+    <div style="margin-top:18px;">
+      <div class="pattern"><b>1 · SIRT1 is the most extensively studied and shows opposing roles across and within diseases.</b>
+        Tumor suppressor vs promoter in breast, lung, HCC, CRC; protective vs harmful in hypertrophy, fatty liver, IBD,
+        AKI, kidney fibrosis, diabetes and lung injury. Its name is a caveat, not an answer.</div>
+      <div class="pattern"><b>2 · SIRT2 often opposes the SIRT1/SIRT3/SIRT6 protective axis.</b>
+        Harmful in AD, PD, HD, asthma and liver I/R; mostly protective in OA, IDD, kidney fibrosis and neuropathic pain —
+        and it splits within single organs (AML vs T-ALL).</div>
+      <div class="pattern"><b>3 · SIRT3 is the mitochondrial workhorse with near-universal protective roles</b>
+        in AKI, MI/R injury, diabetic cardiomyopathy, lung fibrosis, DKD and metabolic disease (dual only in OA and fatty liver),
+        with a cancer caveat: its low-ROS phenotype confers therapy resistance.</div>
+      <div class="pattern"><b>4 · SIRT4 is predominantly tumor-suppressive and metabolically protective</b>
+        (BC, HCC, CRC, GC, diabetes, DKD) — but the <b>only sirtuin with adverse cardiac effects</b> (aggravates Ang II
+        hypertrophy/fibrosis), a living example of tissue-specific sign.</div>
+      <div class="pattern"><b>5 · SIRT6 is consistently protective</b>
+        across CVD, respiratory, digestive, kidney and most cancers (context-dependent only in lung and HCC).
+        The most reliable "anti-disease" sirtuin at the system level.</div>
+      <div class="pattern"><b>6 · SIRT7 is the least studied and most inconsistent</b>
+        (dual in HBV, cardiac fibrosis, CRC) — a monitoring biomarker in leukemia whose RNA-Pol-I axis drives proliferation.</div>
+      <div class="pattern"><b>7 · SIRT5 is genuinely mixed</b>
+        — protective in hepatic steatosis, epilepsy, AKI; pro-disease in DM, CRC, HCC; and nicotinamide-resistant,
+        so it stays active where SIRT1–3 are pharmacologically suppressed.</div>
+    </div>
+    <div class="caveat">
+      <b>Caveat.</b> Every sirtuin shows dual, context-dependent behavior — an organ or tumor's phenotype cannot be read from
+      a single sirtuin in isolation. The same enzyme is simultaneously a tumor suppressor in one tissue, a pro-disease driver in
+      another, and a dose-dependent switch within a single organ. Where the task output records conflicting studies
+      (SIRT1 in lung, SIRT7 in fibrosis), the conflicting verdicts themselves are the data. That is why sirtuin modulation —
+      activator or inhibitor — must be tissue-, stage- and dose-aware, and why SIRT1's dose window and SIRT4's glutamine brake
+      are the most instructive therapeutic leads this compilation yields.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Sources</b></p>
+    <p>Wu et al., <i>Sirtuins in Health and Disease</i>, Signal Transduct Target Ther 2022 — DOI 10.1038/s41392-022-01257-8 ·
+      llm-wiki-jk task output: <code>src/tasks/task_output_sirtuins_disease_complications_11_August_2026.md</code> (manual extraction of the
+      "Regulatory role of SIRTs in human diseases" sections: cancer, CVD, respiratory, digestive, nervous, endocrine, urogenital, motor, aging).</p>
+    <p>Wiki entities referenced: [[SIRT1]]–[[SIRT7]], [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]],
+      [[Cardiac Hypertrophy]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Diabetes Mellitus]], [[Osteoarthritis]], and conditions in the explorer.</p>
+    <p style="margin-top:10px; color:var(--mute);">All charts are client-side rendered SVG/CSS — no external dependencies, works offline. Role spectrum scores and matrix values are aggregated at runtime from the P/H/D/N annotations.</p>
+  </div>
+</footer>
+
+<script src="shared/pages-core.js"></script>
+<script src="shared/pages-svg.js"></script>
+<script src="shared/render-spectrum.js"></script>
+<script src="shared/render-matrix.js"></script>
+<script>
+
+/* ============================= DATA ============================= */
+const SYS = [
+ {id:'Cancer', diseases:[
+   {n:'Breast cancer', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|P','SIRT7|H'],
+    t:'SIRT2/SIRT4↓ longer OS; SIRT1/SIRT7↑ poor prognosis. Context-dependent suppressor vs promoter.',
+    d:['SIRT4 tumor-suppressive — negatively regulates SIRT1 via repressing glutamine metabolism (mitochondrial–nuclear crosstalk)',
+       'SIRT1 prometastatic via EMT/metadherin and tamoxifen-resistant MRP2 pathway (FoxO1 deacetylation); still suppresses metastasis in some models (PRRX1/KLF4/ALDH1)',
+       'SIRT3 disrupts ERα–p53 interaction; SIRT7 depletion inhibits growth via p38/MAPK']},
+   {n:'Lung cancer', r:['SIRT1|D','SIRT2|D','SIRT3|H','SIRT6|D'],
+    t:'Serum SIRT3 diagnostic (AUC 0.918); high SIRT1–3 ↔ poor NSCLC survival; conflicting roles.',
+    d:['SIRT1 suppressor via SNHG10/osteopontin–NF-κB, yet promoter via circ_0001946→Wnt/β-catenin in adenocarcinoma',
+       'SIRT2 suppresses migration (AKR1C1/STAT3) but drives growth via PGM K100→NADPH channeling',
+       'SIRT6 pro-DDR (CHD4) vs pro-EMT (snail–KLF4); SIRT3 radioresistance via ATM–Chk2, yet protects against cisplatin (FoxO3/CDT1)']},
+   {n:'Hepatocellular carcinoma', r:['SIRT1|H','SIRT3|D','SIRT4|P','SIRT5|D','SIRT6|P','SIRT7|H'],
+    t:'Non-mito SIRT1/2/6↑, mito SIRT3–5↓; low SIRT4 ↔ decreased survival.',
+    d:['SIRT4 tumor suppressor — inhibits glutamine metabolism, upregulates p16/p21, suppresses CyclinB1/Cdc2/Cdc25c → apoptosis',
+       'SIRT5 dual — suppresses immune evasion & bile-acid HCC yet promotes growth via OXPHOS→glycolysis reprogramming',
+       'SIRT1/SIRT6 deacetylate hnRNP A1 → anti-glycolysis; SIRT3 downregulates GST-π1 → sensitizes to sorafenib/chemo']},
+   {n:'Colorectal cancer', r:['SIRT1|D','SIRT3|H','SIRT4|P','SIRT5|H','SIRT6|P','SIRT7|D'],
+    t:'SIRT1/SIRT7↑, SIRT2/4/6↓; SIRT5↑ poor, SIRT6↑ improved survival.',
+    d:['SIRT1 dose-dependent glutamine dual — heterozygous KO→c-Myc/glutamine proliferation; homozygous KO→apoptosis',
+       'SIRT4 restores E-cadherin, suppresses proliferation via glutamine metabolism, sensitizes 5-FU',
+       'SIRT5 deglutarylation-dependent glutaminolysis + LDHB deacetylation→autophagy; SIRT3 drug resistance via SOD2/PGC-1α']},
+   {n:'Gastric cancer', r:['SIRT1|H','SIRT4|P','SIRT6|P'],
+    t:'SIRT1↑; SIRT4/6↓ negatively correlates with tumor grade → poor prognosis.',
+    d:['SIRT1 depletion promotes progression via STAT3/MMP-13',
+       'SIRT4 inhibits proliferation/migration/invasion via EMT',
+       'SIRT6 inhibits JAK2/STAT3; silencing it overcomes sorafenib resistance via ferroptosis']},
+   {n:'Pancreatic cancer', r:['SIRT1|H','SIRT5|P','SIRT6|P'],
+    t:'SIRT5 loss → GOT1 acetylation → proliferation; KLF10↑SIRT6 influences EMT/metastasis.',
+    d:['SIRT5 expression correlates with favorable prognosis — loss promotes GOT1 acetylation → proliferation via glutamine/glutathione metabolism',
+       'KLF10-upregulated SIRT6 influences glycolysis, EMT, distant metastasis',
+       'SIRT1 facilitates chemoresistance via adaptive response to chemo-induced stress']},
+   {n:'Ovarian cancer', r:['SIRT1|H','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|H','SIRT6|P','SIRT7|P'],
+    t:'SIRT1–3/6↓, SIRT5↑; high SIRT2/5–7 favorable, high SIRT1/4 poor.',
+    d:['SIRT1 suppresses HMGB1 → inhibits migration/invasion/angiogenesis; MHY2245 (SIRT1 inhibitor) blocks PKM2/mTOR',
+       'SIRT2 overexpression enhances cisplatin sensitivity; SIRT5 promotes cisplatin resistance via Nrf2/HO-1',
+       'SIRT3 suppresses metastasis via Twist-downregulation EMT inhibition']},
+   {n:'Endometrial cancer', r:['SIRT1|H','SIRT2|H','SIRT6|P'],
+    t:'SIRT1↑ promotes autophagy/proliferation & cisplatin resistance; SIRT2↑ promotes stemness.',
+    d:['SIRT1 reduces LC3 acetylation → autophagy/proliferation; promotes growth & cisplatin resistance',
+       'SIRT2 promotes stemness and MEK-ERK signaling, represses chemosensitivity',
+       'SIRT6 tumor suppressor — represses survivin → inhibits AN3CA/KLE proliferation']},
+   {n:'Cervical cancer', r:['SIRT1|H','SIRT2|P','SIRT3|H'],
+    t:'SIRT2↓ favorable survival; SIRT1 nullifies AIM2 immunity; SIRT3 drives lipogenesis/invasion.',
+    d:['SIRT2 decreased in CC — negatively correlates with tumor size & lymph-node metastasis → favorable survival',
+       'SIRT1 overexpressed in HPV-infected cells — nullifies AIM2 inflammasome immunity',
+       'SIRT3 reprograms fatty-acid synthesis (ACC1, de novo lipogenesis) → invasion/metastasis']},
+   {n:'Glioma', r:['SIRT1|D','SIRT3|H','SIRT6|P','SIRT7|H'],
+    t:'SIRT1/7↑, SIRT3/6↓; SIRT1 tumor suppressor (PAK1) yet high SIRT1/3 worse.',
+    d:['SIRT1 tumor suppressor — PAK1 K420 deacetylation hinders glioblastoma growth; inhibition increases temozolomide sensitivity via ROS',
+       'SIRT3 stabilizes Ku70–Bax → viability; higher SIRT1 or SIRT3 ↔ worse prognosis',
+       'SIRT6 suppresses growth (apoptosis, JAK2/STAT3); SIRT7 promotes proliferation via ERK/STAT3; SIRT5↓ ↔ shorter survival']},
+   {n:'Leukemia', r:['SIRT1|H','SIRT2|D','SIRT6|P','SIRT7|P'],
+    t:'SIRT1 promotes T-ALL; SIRT2 splits AML (activation reduces) vs T-ALL (inhibition suppresses).',
+    d:['SIRT1 promotes T-ALL via CDK2 deacetylation → p27 degradation; knockdown sensitizes AML to tyrosine-kinase inhibitors',
+       'SIRT2 overexpressed in AML — NAMPT/activation reduces proliferation (Akt/GSK-3β/β-catenin); inhibition suppresses T-ALL (LMO2)',
+       'SIRT6 DNA-repair deficiencies synergize with NAMPT targeting; SIRT7 is a biomarker of leukemia treatment response']}
+ ]},
+ {id:'CVD', diseases:[
+   {n:'Cardiac hypertrophy', r:['SIRT1|D','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|P','SIRT6|P','SIRT7|P'],
+    t:'Dose-dependent SIRT1; SIRT3/6 protective; SIRT4 adverse (MnSOD inhibition).',
+    d:['SIRT1 dose-dependent — 2.5×/7.5× attenuated, 12.5× exacerbated (Akt/PDK1 membrane localization)',
+       'SIRT3 promotes autophagy (FoxO1) + FoxO3a antioxidant defense, lowers PARP-1 acetylation',
+       'SIRT4 adverse — aggravates Ang II-induced hypertrophy by inhibiting MnSOD activity']},
+   {n:'Cardiac fibrosis', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|P','SIRT6|P','SIRT7|D'],
+    t:'Resveratrol/SIRT1/3 attenuate; SIRT4 contributes; SIRT7 inconsistent.',
+    d:['Resveratrol activation of SIRT1/3 attenuates fibrosis via TGF-β/Smad3 inhibition',
+       'SIRT6 prevents fibrosis via AMPK–ACE2; SIRT2 protects via LKB1/AMPK; SIRT5 KO increases fibrosis',
+       'SIRT4 global KO confers resistance to Ang II; SIRT7 inconsistent (pro-fibrotic expression vs KO also fibrotic)']},
+   {n:'Heart failure', r:['SIRT1|P','SIRT6|P'],
+    t:'SIRT1/6 decreased in HF; overexpression upregulates survival/antioxidant pathways.',
+    d:['SIRT1 attenuates oxidative stress/apoptosis (MnSOD, thioredoxin1, Bcl-xL), restores SERCA2a via K492 deacetylation',
+       'SIRT6 overexpression increases survival of TAC-induced HF mice via telomerase (TERT, TRF1)',
+       'SIRT2/SIRT4/SIRT5/SIRT7 — limited studies']},
+   {n:'Atherosclerosis', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT4|P','SIRT6|P'],
+    t:'Protective across endothelium, VSMC, macrophages.',
+    d:['SIRT1 eNOS activation, NBS1 DNA-damage protection, Lox-1/NF-κB foam-cell suppression',
+       'SIRT6 protects endothelium/VSMC, reduces oxLDL uptake (scavenger receptor 1)',
+       'SIRT2 (macrophage polarization), SIRT3/SOD2 (circ_0003423), SIRT4 (PI3K/Akt/NF-κB) all protective']},
+   {n:'Coronary artery disease', r:['SIRT1|P','SIRT3|P','SIRT6|P'],
+    t:'Genetic polymorphisms associated with CAD risk; SIRT1 reduced in patients.',
+    d:['SIRT1 polymorphic variants & reduced expression in patients; C2dat1 promotes SIRT1 → suppresses miR-34a → VSMC protection',
+       'SIRT3 and SIRT6 genetic polymorphisms associated with CAD risk (mechanism unelucidated)']},
+   {n:'MI/R injury', r:['SIRT1|P','SIRT3|P','SIRT4|P','SIRT5|H','SIRT6|P'],
+    t:'SIRT1/3/6 protective; SIRT4↓ after injury; SIRT5 loss increases infarct.',
+    d:['SIRT1 KO increases infarct size; overexpression upregulates FoxO1/MnSOD, suppresses Bax/caspase-3',
+       'SIRT6 FoxO3α antioxidant defense; SIRT4 overexpression decreases infarct size (mitochondrial preservation, reduced apoptosis)',
+       'SIRT5 loss increases infarct via succinylation modulation; SIRT2/SIRT7 few studies']},
+   {n:'Hypertension', r:['SIRT1|P','SIRT3|P','SIRT6|P'],
+    t:'Attenuates Ang II/DOCA-salt models; SIRT3/6 protect kidney & vasculature.',
+    d:['SIRT1 VSMC overexpression attenuates Ang II hypertension; NAMPT alleviates ROS; urinary SIRT1 = early renal-damage biomarker',
+       'SIRT3 counteracts SOD2 inactivation; alleviates hypertensive renal injury via anti-EMT',
+       'Endothelial SIRT6 deletion → increased BP via Nkx3.2–GATA5']}
+ ]},
+ {id:'Respiratory', diseases:[
+   {n:'COPD', r:['SIRT1|P','SIRT3|P','SIRT6|P'],
+    t:'SIRT1 substantially decreased; anti-inflammatory/antioxidant.',
+    d:['SIRT1 anti-inflammatory/anti-apoptotic/antioxidant (NF-κB), deacetylates FoxO3/p53; SRT1720 inhibits LPS cytokine release',
+       'SIRT6 reduced → insufficient autophagy (cellular senescence) during cigarette-smoke exposure',
+       'SIRT3 inhibits airway epithelial mitochondrial oxidative stress']},
+   {n:'Lung fibrosis', r:['SIRT1|P','SIRT3|P','SIRT6|P','SIRT7|H'],
+    t:'SIRT1/3/6 attenuate via TGF-β/autophagy; SIRT7 decline profibrotic.',
+    d:['SIRT1 activation promotes alveolar-type-2 self-renewal; attenuates LF via canonical TGF-β1/p300',
+       'SIRT3 deficiency promotes LF via TGF-β1 and AEC mitochondrial DNA damage/apoptosis',
+       'SIRT6 inactivates TGF-β1/Smad2, prevents myofibroblast differentiation & EMT; SIRT7 decline → profibrotic Smad3 changes']},
+   {n:'Asthma', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|P','SIRT7|H'],
+    t:'SIRT1↓ severe; SIRT2 enhances inflammation; SIRT6/7 remodel airway.',
+    d:['SIRT1 anti-inflammatory (IL-6/Akt, mTOR–HIF-1α); miR-138-5p/SIRT1 blocks NF-κB',
+       'SIRT2 enhances allergic inflammation (Th2, macrophage polarization); ablation attenuates',
+       'SIRT6 ameliorates airway remodeling via EMT; SIRT7 promotes remodeling via TGF-β1 ASMC proliferation/migration']},
+   {n:'Acute lung injury', r:['SIRT1|D','SIRT3|P','SIRT6|P'],
+    t:'SIRT1 protective (KO susceptible) yet may be detrimental in endotoxemia.',
+    d:['SIRT1 KO highly susceptible to sepsis lung injury (NF-κB); resveratrol reduces LPS ALI; but EX-527 alleviates endotoxemia ALI',
+       'SIRT3 promotes MnSOD (hyperoxia); deficiency → NLRP3 inflammasome activation in macrophages',
+       'SIRT6 regulates macrophage polarization → alleviates sepsis ARDS (autophagy-dependent & -independent)']},
+   {n:'COVID-19', r:['SIRT1|P','SIRT3|P'],
+    t:'Unbalanced p53/SIRT1 axis; serum SIRT3 lower in severe vs mild.',
+    d:['Persistently activated p53 due to low SIRT1 impacts lymphocyte homeostasis; increased SIRT1 may alleviate pathogenesis',
+       'Serum SIRT3 markedly lower in severe vs mild/moderate patients — associates with clinical outcome/prognosis']}
+ ]},
+ {id:'Digestive', diseases:[
+   {n:'NAFLD / fatty liver', r:['SIRT1|D','SIRT2|D','SIRT3|D','SIRT4|D','SIRT5|D','SIRT6|P','SIRT7|H'],
+    t:'SIRT1–3/5/6↓; SIRT1 protective yet harmful in some contexts; SIRT7 high harmful.',
+    d:['SIRT1 deacetylates ChREBP/SREBP-1c (lipid homeostasis), blocks stellate-cell activation; but intestinal SIRT1 intensifies ferroptosis, myeloid SIRT1 harmful in alcoholic hepatitis',
+       'SIRT6 hepatocyte-KO → fibrosis/oxidative stress; SIRT2 protects via HNF4α; SIRT3 mitochondrial trifunctional proteins; SIRT5 KO → periportal steatosis',
+       'SIRT4 in NAFLD is split (Smad4-protective vs MTP-α-destabilizing); SIRT7 high expression → harmful']},
+   {n:'Liver I/R injury', r:['SIRT1|P','SIRT2|H','SIRT3|P'],
+    t:'SIRT1/3 protective; SIRT2 detrimental via MAPK phosphatase-1.',
+    d:['SIRT1 declines after IRI; overexpression alleviates via MFN2, autophagy/inflammation',
+       'SIRT3 protective (TGR5 KO → SIRT3 suppression → pro-inflammatory macrophages)',
+       'SIRT2 deacetylates MKP-1 → activates MAPK → augments inflammatory injury/cell death']},
+   {n:'HBV infection', r:['SIRT1|D','SIRT3|P','SIRT4|P','SIRT6|P','SIRT7|D'],
+    t:'SIRT3/4/6↓ inhibit replication; SIRT1/2/5/7 slightly ↑; SIRT7 restricts cccDNA.',
+    d:['SIRT3/SIRT6 inhibit HBV via H3K9 deacetylation on cccDNA; HBx suppresses SIRT4',
+       'Resveratrol (SIRT1 agonist) activates HBV transcription; sirtinol/EX-527 anti-HBV',
+       'SIRT7 restricts HBV transcription/replication via cccDNA H3 desuccinylation']},
+   {n:'Pancreatitis', r:['SIRT1|D'],
+    t:'SIRT1 low/protective in AP; upregulated in chronic → EMT.',
+    d:['Acute: SIRT1 low/protective — resveratrol protects via p53/HSF1 deacetylation',
+       'Chronic: SIRT1 significantly upregulated; loss of miR-278 inhibition → inflammation-induced EMT']},
+   {n:'Inflammatory bowel disease', r:['SIRT1|D','SIRT2|P','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|P'],
+    t:'SIRT2/6↓ in patients; SIRT1 dual (deficiency pro-inflammatory, deletion protective via Foxp3+ Treg).',
+    d:['SIRT2/6 downregulated — deletion promotes NF-κB inflammation; SIRT6 preserves Rspo1 (epithelial resistance)',
+       'SIRT3/SIRT5/SIRT7 KO susceptible to colitis',
+       'SIRT1 dual — deficiency activates Paneth/goblet + NF-κB, yet deletion may protect via Foxp3+ Treg induction']},
+   {n:'Intestinal I/R injury', r:['SIRT1|P','SIRT3|P','SIRT6|P'],
+    t:'SIRT1/3 suppress ROS/apoptosis; SIRT6 downregulation (miR-351) aggravates.',
+    d:['SIRT1 suppresses epithelial ROS (miR-34a-5p); resveratrol via SIRT1–NF-κB–iNOS–NO',
+       'SIRT3 alleviates mitochondrial damage via peroxiredoxin 3 deacetylation',
+       'SIRT6 reduced by miR-351-5p → aggravated oxidative stress/inflammation/apoptosis']}
+ ]},
+ {id:'Nervous', diseases:[
+   {n:'Alzheimer\'s disease', r:['SIRT1|P','SIRT2|H','SIRT3|P'],
+    t:'SIRT1/3 protective vs Aβ/tau; SIRT2 harmful (β-secretase, Fzd promoters).',
+    d:['SIRT1 reduces Aβ-induced senescence/mitochondrial dysfunction, reduces tau O-GlcNAcylation',
+       'SIRT2 hyperactivated (FoxO1→Fzd1/7, H4K16ac reduction); inhibition alleviates Aβ/cognitive deficits',
+       'SIRT3 protective; serum/saliva SIRT1, SIRT3, SIRT6 inversely correlate with AD (noninvasive diagnostic)']},
+   {n:'Parkinson\'s disease', r:['SIRT1|P','SIRT2|H','SIRT3|P'],
+    t:'SIRT1/3 counteract α-syn mitochondrial dysfunction; SIRT2 deletion protective.',
+    d:['SIRT1 ameliorates autophagic degradation of α-synuclein; improves motor defects',
+       'SIRT2 mediates exacerbation of α-syn toxicity; rs2015 SNP → PD risk; deletion protective',
+       'SIRT3 counteracts α-syn-induced mitochondrial dysfunction (reduced oligomers, normalized bioenergetics)']},
+   {n:'Huntington\'s disease', r:['SIRT1|P','SIRT2|H'],
+    t:'SIRT1 overexpression improves survival/BDNF; SIRT2 inhibition neuroprotective.',
+    d:['SIRT1 brain-specific KO exacerbates; overexpression rescues CRTC1–CREB → BDNF transcription',
+       'SIRT2 inhibition achieves neuroprotection — sterol biosynthesis manipulation mimics it']},
+   {n:'Stroke / brain IRI', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT5|H'],
+    t:'SIRT1/3 neuroprotective; SIRT2 detrimental; SIRT5 increases BBB permeability.',
+    d:['SIRT1 neuroprotective (quaking 6 → PGC-1α); NAMPT promotes SIRT1-dependent neuronal survival',
+       'SIRT2 detrimental — inhibition neuroprotective (Akt/FoxO3a, MAPK); serum SIRT2 = risk/prognosis marker in AIS',
+       'SIRT3 prosurvival via HIF-1α/VEGF in astrocytes; SIRT5 degrades occludin → BBB permeability → IR damage']},
+   {n:'MS / ALS', r:['SIRT1|P','SIRT3|P','SIRT6|P'],
+    t:'SIRT1/3↑ in models; SIRT6 abrogates mutant SOD1 astrocyte neurotoxicity.',
+    d:['SIRT1 increased in SOD1-G93A mice; SIRT3 increased in ALS spinal cord',
+       'SIRT6 activity abrogates ALS-linked mutant SOD1 astrocyte neurotoxicity']},
+   {n:'Epilepsy', r:['SIRT1|P','SIRT3|P','SIRT5|H'],
+    t:'SIRT1 agonist neuroprotective; SIRT3 protects; SIRT5 deficiency worsens seizures.',
+    d:['SIRT1 agonist CAY10602 neuroprotective; rescues circadian-rhythm genes',
+       'SIRT5 deficiency increases mortality/seizure severity',
+       'SIRT3 protects from kainic-acid excitotoxicity (miR-134-5p inhibition)']},
+   {n:'Cognitive / SCI / pain', r:['SIRT1|P','SIRT2|D','SIRT3|P','SIRT6|P'],
+    t:'SIRT1/3/6 protective; SIRT2 mixed (harmful ischemia, alleviates neuropathic pain).',
+    d:['SIRT1 protects hippocampal atrophy/aging cognition, suppresses microglial inflammation in SCI',
+       'SIRT3 protects from fluoride-induced mitochondrial dysfunction; honokiol upregulates SIRT3',
+       'SIRT6 alleviates SCI inflammation/oxidative stress; AK-7 (SIRT2 inhibitor) exacerbates TBI yet SIRT2 overexpression alleviates neuropathic pain']}
+ ]},
+ {id:'Endocrine', diseases:[
+   {n:'Diabetes mellitus', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|D','SIRT5|H','SIRT6|P'],
+    t:'SIRT1–3↓, SIRT5/6↑; SIRT5 promotes progression; SIRT6 suppresses gluconeogenesis.',
+    d:['SIRT1/2 dual — improve insulin sensitivity (SIRT1) and hepatic glucose uptake (SIRT2/GKRP) vs counterbalancing hepatic glucose production',
+       'SIRT3 KO impairs insulin-stimulated muscle glucose uptake; SIRT6 deacetylates PGC-1α/FoxO1 → suppresses gluconeogenic genes',
+       'SIRT5 promotes progression — negatively regulates PDX1; inhibition facilitates β-cell proliferation/insulin secretion']},
+   {n:'Diabetic kidney disease', r:['SIRT1|P'],
+    t:'SIRT1 high expression protects kidney/slows DKD via p53/FoxO3a/Nrf2.',
+    d:['SIRT1 deacetylates p53, activates FoxO3a and Nrf2; resveratrol promotes resistance to diabetic renal fibrosis via Nrf2']},
+   {n:'Diabetic neuropathy', r:['SIRT1|P'],
+    t:'SIRT1 modulates neuronal viability, alleviates neuropathic pain & cognitive decline.',
+    d:['SIRT1 modulates neuronal viability/differentiation/synaptic plasticity; decreased hippocampal SIRT1 → reduced TORC1/p-CREB/BDNF']},
+   {n:'Diabetic retinopathy / cardiomyopathy', r:['SIRT1|P','SIRT3|P'],
+    t:'SIRT1 prevents capillary apoptosis (DR); SIRT3 attenuates DCM via p53/PFKFB3.',
+    d:['DR: SIRT1 overexpression prevents capillary-cell apoptosis, reduces retinal inflammation',
+       'DCM: SIRT1 activation inhibits ROS/fibrosis; SIRT3 regulates fibrosis/inflammation via p53-acetylation reduction and PFKFB3 upregulation']},
+   {n:'Obesity', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|H'],
+    t:'SIRT1/3 suppress obesity; SIRT2/6 promote.',
+    d:['SIRT1/3 suppress adipogenesis — SIRT1 via miR-146b, SIRT3 via AMPK–ULK1 macroautophagy + chaperone-mediated autophagy of lipid droplets',
+       'SIRT2 blocks fatty-acid catabolism (HIF-1α→SIRT2–PGC-1α axis); SIRT6 exacerbates diet-induced obesity (STAT3 acetylation ↓, POMC ↓)']}
+ ]},
+ {id:'Urogenital', diseases:[
+   {n:'Acute kidney injury', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|H'],
+    t:'Mito SIRT3–5 protective; SIRT2 KO ameliorates; SIRT7-deficient protected.',
+    d:['SIRT3–5 protective (mitochondrial) — SIRT3 deficiency worsens sepsis/FAO dysfunction; honokiol activation boosts ATP, reduces ROS',
+       'SIRT2 KO ameliorates cisplatin-induced injury; SIRT7 deficiency protected (it promotes tubular damage/kidney inflammation)',
+       'SIRT1 protective via JNK/DUSP16; NAD+/SIRT1/GSK-3β/Nrf2 axis protects; SIRT5/6 protective (FAO balance, apoptosis inhibition)']},
+   {n:'Chronic kidney disease', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|H'],
+    t:'SIRT1/3 protect fibrosis & stones; SIRT6 suppresses vascular calcification; SIRT7 promotes damage.',
+    d:['SIRT1 suppresses TGF-β1/CTGF; SIRT2 knockdown/inhibition attenuates TGF-β1 fibroblast activation',
+       'SIRT3 KO susceptible to severe fibrosis (PDH E1α hyperacetylation at K385); SIRT7 promotes tubular damage',
+       'SIRT6 (MDL-800) mitigates UUO fibrosis and suppresses VSMC osteogenic transdifferentiation (vascular calcification)']},
+   {n:'Genital disorders', r:['SIRT1|D','SIRT3|D'],
+    t:'SIRT1 protective in erectile function/PCOS/endometriosis; SIRT3 deficiency impairs oocytes.',
+    d:['Resveratrol/SIRT1 protective in erectile function & nicotine-induced reproductive damage',
+       'PCOS: higher SIRT1 + SIRT1/AMPK axis in autophagy; SIRT3 deficiency in granulosa cells → impaired oocytes',
+       'Endometriosis: SIRT1 overexpressed in eutopic endometrium; miRNA-34a biomarker; resveratrol therapeutic potential']}
+ ]},
+ {id:'Motor', diseases:[
+   {n:'Osteoarthritis', r:['SIRT1|P','SIRT2|P','SIRT3|D','SIRT6|P'],
+    t:'SIRT1 best studied (Wnt/β-catenin); SIRT3 dual.',
+    d:['SIRT1 reduces apoptosis/ECM degradation via Wnt/β-catenin, EGFR ubiquitination, PGC-1α/PPAR-γ cascade, chondrocyte senescence',
+       'SIRT2 inhibits ECM degradation (p65); SIRT6 inhibits senescence (NF-κB)',
+       'SIRT3 dual — SOD2 mitochondrial homeostasis vs overexpression → chondrocyte apoptosis/progression']},
+   {n:'Osteoporosis', r:['SIRT1|P','SIRT6|P'],
+    t:'SIRT1 KO low bone mass; SIRT6 inhibits age-related bone loss.',
+    d:['SIRT1 KO → low bone mass; overexpression boosts osteoblast osteogenesis (FoxO3a, oxidative-stress inhibition)',
+       'SIRT1 deacetylates sclerostin → Wnt/β-catenin → bone anabolism; SIRT6 stabilizes ERα in preosteoblastic cells']},
+   {n:'Intervertebral disc degeneration', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT6|P'],
+    t:'All four inhibit NF-κB/oxidative stress/senescence in nucleus pulposus.',
+    d:['SIRT1 reduced in degenerative NP tissue; inhibits NF-κB and c-Fos/c-Jun',
+       'SIRT2 reverses IL-1β via p53/p21; SIRT3 maintains mitochondrial homeostasis',
+       'SIRT6 inhibits inflammatory response/senescence via NF-κB inhibition']},
+   {n:'Skeletal muscle atrophy', r:['SIRT1|P','SIRT2|P','SIRT3|P'],
+    t:'SIRT1 (PGC-1α), SIRT2 (autophagic flux), SIRT3 (mitochondrial) each protective.',
+    d:['SIRT1 alleviates drug-induced mitochondrial dysfunction/atrophy via PGC-1α signaling',
+       'SIRT2 inhibits autophagic flux → maintains protein metabolism homeostasis',
+       'SIRT3 deficiency enhances Ang II fiber-type transformation/metabolic reprogramming → exacerbates atrophy']}
+ ]},
+ {id:'Aging', diseases:[
+   {n:'Cellular & vascular aging', r:['SIRT1|P','SIRT3|P','SIRT6|P'],
+    t:'SIRT1/6 dampen p53/NF-κB & preserve telomeres/DNA repair; SIRT3 deficiency → MSC senescence.',
+    d:['SIRT1 via La RNP7 dampens p53/NF-κB; chromatin redistribution on DNA damage → repair/genomic stability',
+       'SIRT6 preserves telomere integrity (53BP1), deacetylates Polβ → DNA-damage resistance → prevents progeroid pathologies',
+       'SIRT3 deficiency → LAD detachment, aberrant repetitive-sequence transcription → MSC senescence']}
+ ]}
+];
+
+const SIRT_NAMES = ['SIRT1','SIRT2','SIRT3','SIRT4','SIRT5','SIRT6','SIRT7'];
+const ABBR_COLORS = {SIRT1:'#E8A33D',SIRT2:'#9D8DF1',SIRT3:'#58D68D',SIRT4:'#3EC9A7',SIRT5:'#F5A65B',SIRT6:'#5DA8FF',SIRT7:'#F283B2'};
+const SIRT_COMP = {SIRT1:'Nucleus + cytosol', SIRT2:'Cytosol', SIRT3:'Mitochondria', SIRT4:'Mitochondria', SIRT5:'Mitochondria', SIRT6:'Nucleus (heterochromatin)', SIRT7:'Nucleus → nucleolus'};
+function sysName(s){ return s.replace('SIRT','S'); }
+
+/* tally P/H/D/N per sirtuin */
+const TALLY = {};
+SIRT_NAMES.forEach(s=>TALLY[s]=[0,0,0,0]); /* P,H,D,N */
+let ANN = 0;
+SYS.forEach(sy=>sy.diseases.forEach(dis=>dis.r.forEach(pair=>{
+  const [s,r]=pair.split('|'); ANN++;
+  if(r==='P')TALLY[s][0]++; else if(r==='H')TALLY[s][1]++; else if(r==='D')TALLY[s][2]++; else TALLY[s][3]++;
+})));
+
+/* ============================= SPECTRUM ============================= */
+const SIRTS = SIRT_NAMES.map(s=>{
+  const [p,h,d,n]=TALLY[s]; const N=p+h+d+n;
+  const lean=(p-h)/N;
+  return {
+    id:s, name:s, color:ABBR_COLORS[s], comp:SIRT_COMP[s],
+    score: lean*2.6,
+    range: 0.9 + (d/N)*2.2,
+    ptl:p, hrm:h, dual:d,
+    net:{SIRT1:'The double agent — protective in most systems, harmful in most cancers',
+         SIRT2:'Axis-opposer — harms the brain, protects joints & kidney fibrosis',
+         SIRT3:'Mitochondrial guardian — near-universal protective',
+         SIRT4:'Tumor & glutamine brake with cardiac/hepatic costs',
+         SIRT5:'Nicotinamide-resistant deacylase — truly mixed',
+         SIRT6:'The most consistently protective across systems',
+         SIRT7:'Least studied — roles frequently inconsistent'}[s],
+    rationale:{SIRT1:'Opposing roles across and within diseases (BC/LC/HCC/CRC, hypertrophy, FLD, IBD, AKI, DM). Dose-dependent: cardiac 2.5×/7.5× protective, 12.5× pathogenic.',
+               SIRT2:'Harmful in AD, PD, HD, asthma, liver I/R, AKI; protective in OA, IDD, kidney fibrosis, neuropathic pain; splits within single organs (AML vs T-ALL).',
+               SIRT3:'Near-universal protection in AKI, MI/R, DCM, LF, DKD, metabolic disease; dual only in OA and FLD; low-ROS phenotype confers cancer radio/chemoresistance.',
+               SIRT4:'Tumor-suppressive in BC/HCC/CRC/GC and protective in metabolism; the only sirtuin with adverse cardiac effects and a NAFLD cost.',
+               SIRT5:'Protective in hepatic steatosis, epilepsy, AKI; pro-disease in DM, CRC, HCC; loss increases cardiac and liver injury.',
+               SIRT6:'Consistently protective across CVD, respiratory, digestive, kidney, motor and most cancers; context-dependent only in lung, HCC, obesity.',
+               SIRT7:'Dual in HBV, cardiac fibrosis, CRC; protective surface (leukemia biomarker, HBV restriction) vs pro-disease in NAFLD/AKI/CKD.'}[s]
+  };
+});
+
+const SIRTCONF = {};
+SIRT_NAMES.forEach(s=>{
+  const [p,h,d,n]=TALLY[s];
+  SIRTCONF[s]=`<b style="color:${ABBR_COLORS[s]}">${s}</b> — ${p} protective · ${h} harmful · ${d} dual across ${p+h+d+n} annotation${p+h+d+n===1?'':'s'}.<br><span style="color:var(--dim)">${SIRTS.find(x=>x.id===s).rationale}</span>`;
+});
+
+/* ============================= MATRIX ============================= */
+const SYSTEMS = SYS.map(x=>x.id);
+const MATRIX = {}, MECH = {};
+const roleName={P:'protective',H:'harmful',D:'dual',N:'not annotated'};
+SIRT_NAMES.forEach(s=>{
+  const vals=[], cells=[];
+  SYS.forEach(sy=>{
+    const hits = sy.diseases.filter(di=>di.r.some(pr=>pr.split('|')[0]===s));
+    if(hits.length===0){
+      vals.push(0);
+      cells.push({des:'No annotation in this system · '+sy.id, txt:'No annotated sirtuin role in '+sy.id});
+      return;
+    }
+    let p=0,h=0,d=0;
+    hits.forEach(di=>{ const rl=di.r.find(pr=>pr.split('|')[0]===s).split('|')[1]; if(rl==='P')p++; else if(rl==='H')h++; else if(rl==='D')d++; });
+    const tot=p+h+d;
+    const dfrac=d/tot, lean=(p-h)/tot;
+    let val;
+    if(dfrac>=0.45) val='D';
+    else if(lean>=0.65) val=2;
+    else if(lean>=0.2) val=1;
+    else if(lean<=-0.65) val=-2;
+    else if(lean<=-0.2) val=-1;
+    else val=0;
+    vals.push(val);
+    cells.push({des:`${sy.id}: ${hits.length} annotation${hits.length>1?'s':''} (${hits.map(dd=>dd.n).join(', ')})`,
+                txt:hits.map(dd=>{const rl=dd.r.find(pr=>pr.split('|')[0]===s).split('|')[1]; return `<span style="color:${rl==='P'?'var(--green)':rl==='H'?'var(--red)':rl==='D'?'var(--amber)':'var(--mute)'}">${roleName[rl]}</span> ${dd.n}`;}).join(' · ')});
+  });
+  MATRIX[s]=[vals];
+  MECH[s]=cells;
+});
+
+function cellVal(s,sy){ return MATRIX[s][0][SYSTEMS.indexOf(sy)]; }
+function cellColor(val){
+  if(val==='D') return '#E8A33D';
+  if(+val>0) return '#58D68D';
+  if(+val<0) return '#E4575E';
+  return '#3a3a5e';
+}
+
+renderSpectrum('spectrumSvg', SIRTS, {top:'PROTECTIVE ⇄ HARMFUL ACROSS DISEASE SYSTEMS', center:'center = genuinely dual / balanced across systems', left:'← harmful / pro-disease', right:'protective / anti-disease →'});
+renderMatrix('matrixSvg', SYSTEMS, SIRT_NAMES, SIRTS, MATRIX, MECH, {W:1220, top:95, left:110, cw:118, rh:80, labelFontSize:'12', cellFontSize:'17', cellPadX:6, cellPadW:14});
+
+/* ============================= ROLE MAP ============================= */
+(function roleMap(){
+  const svg = document.getElementById('mapSvg');
+  const W=1100, H=560;
+  const hubs = SIRT_NAMES.map((s,i)=>({id:s, x:150, y:52+i*70, color:ABBR_COLORS[s]}));
+  const sysN = SYS.map((sy,i)=>({id:sy.id, x:950, y:25+i*62, n:sy.diseases.length}));
+  let curr = null;
+  const lines = [];
+
+  sysN.forEach(sy=>{
+    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    const rec = document.createElementNS('http://www.w3.org/2000/svg','rect');
+    rec.setAttribute('x', sy.x-90); rec.setAttribute('y', sy.y-25); rec.setAttribute('width',180); rec.setAttribute('height',50); rec.setAttribute('rx',11);
+    rec.setAttribute('fill','#1a1a3a'); rec.setAttribute('stroke','#3a3a5e'); rec.setAttribute('stroke-width','1');
+    const t1 = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t1.setAttribute('x', sy.x); t1.setAttribute('y', sy.y+6); t1.setAttribute('text-anchor','middle'); t1.setAttribute('font-size','14'); t1.setAttribute('fill','#e0e0e0'); t1.setAttribute('font-weight','700');
+    t1.textContent = sy.id;
+    const t2 = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t2.setAttribute('x', sy.x); t2.setAttribute('y', sy.y+21); t2.setAttribute('text-anchor','middle'); t2.setAttribute('font-size','10'); t2.setAttribute('fill','#6b6b85');
+    t2.textContent = sy.n + ' condition' + (sy.n>1?'s':'');
+    g.appendChild(rec); g.appendChild(t1); g.appendChild(t2);
+    g.addEventListener('mouseenter', ()=>{
+      let html=`<b style="color:var(--teal)">${sy.id}</b> — per-sirtuin verdicts:<br>`;
+      SIRT_NAMES.forEach(s=>{
+        const v=cellVal(s,sy.id);
+        if(v===0){ return; }
+        const c=cellColor(v);
+        html+=`<span style="color:${ABBR_COLORS[s]};font-weight:700">${sysName(s)}</span> <span style="color:${c}">${v==='D'?'dual':(+v>0?'protective '+('+'.repeat(+v)):'harmful '+('−'.repeat(-v)))}</span> · <span style="color:var(--dim)">${MECH[s][SYSTEMS.indexOf(sy.id)].txt}</span><br>`;
+      });
+      showTip(html);
+    });
+    g.addEventListener('mousemove', moveTip);
+    g.addEventListener('mouseleave', hideTip);
+    g.addEventListener('touchstart', ev=>tipTap(ev, sy.id));
+    svg.appendChild(g);
+  });
+
+  hubs.forEach(h=>{
+    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.style.cursor='pointer';
+    const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c.setAttribute('cx',h.x); c.setAttribute('cy',h.y); c.setAttribute('r',22);
+    c.setAttribute('fill','#1a1a3a'); c.setAttribute('stroke',h.color); c.setAttribute('stroke-width','2');
+    const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t.setAttribute('x',h.x); t.setAttribute('y',h.y+4); t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','12'); t.setAttribute('fill',h.color); t.setAttribute('font-weight','800');
+    t.textContent = h.id.replace('SIRT','S');
+    g.appendChild(c); g.appendChild(t);
+    g.addEventListener('mouseenter', ()=>{ if(!curr){ showTip(SIRTCONF[h.id]); } });
+    g.addEventListener('mousemove', moveTip);
+    g.addEventListener('mouseleave', hideTip);
+    g.addEventListener('click', ()=>{
+      if(curr){ curr=null; drawLines(); }
+      else { curr=h.id; drawLines(); }
+    });
+    h._g=g;
+    svg.appendChild(g);
+  });
+
+  function edgeColor(v){ if(v==='D')return '#E8A33D'; return +v>0 ? '#58D68D' : '#E4575E'; }
+  function drawLines(){
+    lines.forEach(l=>l.remove()); lines.length=0;
+    hubs.forEach(h=>{
+      SYS.forEach((sy,i)=>{
+        const v=cellVal(h.id,sy.id);
+        if(v===0) return;
+        const c=edgeColor(v);
+        const dim = curr ? h.id!==curr : false;
+        const ln = document.createElementNS('http://www.w3.org/2000/svg','line');
+        ln.setAttribute('x1',h.x+24); ln.setAttribute('y1',h.y);
+        ln.setAttribute('x2',sysN[i].x-92); ln.setAttribute('y2',sysN[i].y);
+        ln.setAttribute('stroke',c); ln.setAttribute('stroke-width', dim?1:2.2); ln.setAttribute('stroke-opacity', dim?0.06:0.6);
+        ln.setAttribute('pointer-events','none');
+        svg.insertBefore(ln, svg.firstChild);
+        lines.push(ln);
+      });
+    });
+    hubs.forEach(o=>o._g.setAttribute('opacity', curr ? (o.id===curr?1:0.3) : 1));
+    document.getElementById('mapStats').textContent = '7 hubs × 9 systems — ' + lines.length + ' system-level role edges (from ' + ANN + ' condition annotations)';
+  }
+  drawLines();
+
+  const foot = document.createElementNS('http://www.w3.org/2000/svg','text');
+  foot.setAttribute('x',105); foot.setAttribute('y',H-18); foot.setAttribute('fill','#6b6b85'); foot.setAttribute('font-size','11');
+  foot.textContent = 'Edge color = net role of sirtuin in that system · click a hub to isolate its footprint';
+  svg.appendChild(foot);
+
+  document.getElementById('mapReset').addEventListener('click', ()=>{ curr=null; drawLines(); });
+})();
+
+/* ============================= DISEASE EXPLORER ============================= */
+(function diseases(){
+  const tabsEl=document.getElementById('sysTabs');
+  const gridEl=document.getElementById('disGrid');
+  let active=SYS[0].id;
+  SYS.forEach(s=>{
+    const b=document.createElement('button');
+    b.className='sys-tab'+(s.id===active?' active':'');
+    b.textContent=s.id+' ('+s.diseases.length+')';
+    b.addEventListener('click',()=>{active=s.id;[...tabsEl.children].forEach(c=>c.classList.remove('active'));b.classList.add('active');render();});
+    tabsEl.appendChild(b);
+  });
+  function render(){
+    const sys=SYS.find(x=>x.id===active);
+    gridEl.innerHTML='';
+    sys.diseases.forEach(d=>{
+      const card=document.createElement('div');card.className='dis-card';
+      let chips='';
+      d.r.forEach(pair=>{const[s,r]=pair.split('|');chips+=`<span class="chip ${r}">${sysName(s)}</span>`;});
+      let dlist='';
+      if(d.d && d.d.length){ dlist='<ul class="d-list">'+d.d.map(x=>`<li>${x}</li>`).join('')+'</ul>'; }
+      card.innerHTML=`<h4>${d.n}</h4><div class="chips">${chips}</div><div class="note">${d.t}</div>${dlist}`;
+      gridEl.appendChild(card);
+    });
+  }
+  render();
+})();
+
+/* ============================= STATS ============================= */
+document.getElementById('annBadge').textContent = ANN + ' disease–sirtuin annotations';
+
+['spectrumSvg','matrixSvg','mapSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
+</script>
+</body>
+</html>
