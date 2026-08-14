@@ -6,28 +6,8 @@
 <title>SIRT Pleiotropy Explorer — Tumor Metabolism &amp; Therapeutics</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="shared/pages.css">
-<style>
-:root{--wrap-width:1200px;}
-/* compartment map */
-#compSvg{width:100%; height:auto;}
-/* face variant: suppress/onco */
-.face.suppress{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
-.face.onco{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
-.face.suppress h4{color:var(--green);}
-.face.onco h4{color:var(--red);}
-/* therapeutic modifiers */
-td .mod-act{color:var(--green);}
-td .mod-inh{color:var(--red);}
-td .mod-ind{color:var(--blue);}
-/* stage badges */
-.stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
-.stage.prec{color:var(--amber); border-color:var(--amber);}
-.stage.phase{color:var(--blue); border-color:var(--blue);}
-.stage.ct{color:var(--teal); border-color:var(--teal);}
-.stage.appr{color:var(--green); border-color:var(--green);}
-</style>
 </head>
-<body>
+<body style="--wrap-width:1200px;">
 
 <nav>
   <div class="wrap">
@@ -226,14 +206,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Nucleus<br>+ cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Tumor-suppressive</h4><ul>
+            <div class="face green"><h4>Tumor-suppressive</h4><ul>
               <li>Deacetylates p53, Ku70, p73, FOXO → favors <b>repair over apoptosis</b> under acute stress</li>
               <li>hnRNP A1 deacetylation → suppresses glycolysis/growth in <b>HCC</b></li>
               <li>AR (Lys630) deacetylation → represses prostate growth</li>
               <li>NF-κB p65 &amp; HMGB1 suppression → anti-angiogenic in ovarian cancer</li>
               <li>PAK1 K420 deacetylation → hinders glioblastoma</li>
             </ul></div>
-            <div class="face onco"><h4>Oncogenic / pro-tumor</h4><ul>
+            <div class="face red"><h4>Oncogenic / pro-tumor</h4><ul>
               <li>p53 deacetylation in <b>chronic</b> setting blunts the tumor-suppressor brake</li>
               <li>Partners with c-Myc &amp; HIF-1α</li>
               <li>EMT/metadherin → chemoresistance in TNBC</li>
@@ -250,13 +230,13 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Tumor-suppressive</h4><ul>
+            <div class="face green"><h4>Tumor-suppressive</h4><ul>
               <li>BRCA1–BARD1 heterodimerization → homologous recombination (breast)</li>
               <li>IDH1 deacetylation → inhibits CRC liver metastasis</li>
               <li>AKR1C1 + STAT3 inhibition → suppresses NSCLC migration</li>
               <li>Sensitizes ovarian cancer to cisplatin</li>
             </ul></div>
-            <div class="face onco"><h4>Oncogenic / pro-tumor</h4><ul>
+            <div class="face red"><h4>Oncogenic / pro-tumor</h4><ul>
               <li>Slug deacetylation → stabilization → basal-like breast invasion</li>
               <li>Phosphoglycerate mutase K100 → NADPH flux → lung tumor growth</li>
               <li>Endometrial cancer stemness / MEK-ERK signaling</li>
@@ -272,14 +252,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Tumor-suppressive (metabolic)</h4><ul>
+            <div class="face green"><h4>Tumor-suppressive (metabolic)</h4><ul>
               <li>MnSOD/SOD2 + IDH2 activation → lowers ROS → <b>destabilizes HIF-1α</b> (anti-Warburg)</li>
               <li>Stimulates pyruvate dehydrogenase → oxidative TCA flux</li>
               <li>Twist downregulation → suppresses ovarian metastasis</li>
               <li>GST-π1 downregulation → sensitizes HCC to sorafenib/chemo</li>
               <li>Disrupts ERα–p53 interaction in breast</li>
             </ul></div>
-            <div class="face onco"><h4>Oncogenic (same biology, flipped)</h4><ul>
+            <div class="face red"><h4>Oncogenic (same biology, flipped)</h4><ul>
               <li>Suppresses ROS so well → <b>radiore/chemoresistance</b> (ATM–Chk2 in NSCLC)</li>
               <li>Improves drug resistance in CRC (SOD2/PGC-1α)</li>
               <li>p53 deacetylation (onco-route)</li>
@@ -296,14 +276,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Tumor-suppressive (dominant)</h4><ul>
+            <div class="face green"><h4>Tumor-suppressive (dominant)</h4><ul>
               <li>GDH mono-ADP-ribosylation → limits glutamine→α-KG flux → <b>directly attacks glutamine addiction</b></li>
               <li>Represses mTOR via amino-acid-stimulated insulin secretion</li>
               <li>p16/p21 upregulation + CyclinB1/Cdc2/Cdc25c suppression → HCC apoptosis</li>
               <li>Restores E-cadherin in CRC</li>
               <li>Negatively regulates SIRT1 via glutamine-metabolism repression</li>
             </ul></div>
-            <div class="face onco"><h4>Why context still matters</h4><ul>
+            <div class="face red"><h4>Why context still matters</h4><ul>
               <li>GDH inhibition → reduced amino-acid-stimulated insulin secretion</li>
               <li>Suppresses hepatic fatty-acid oxidation (MTPα) → lipid accumulation</li>
               <li>Only sirtuin with adverse cardiac effects (aggravates Ang II hypertrophy/fibrosis)</li>
@@ -319,12 +299,12 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Tumor-suppressive / contextual</h4><ul>
+            <div class="face green"><h4>Tumor-suppressive / contextual</h4><ul>
               <li>Pancreatic cancer: high expression → <b>favorable prognosis</b> (loss → GOT1 acetylation → proliferation)</li>
               <li>HCC: suppresses immune evasion / bile-acid-metabolism-driven HCC</li>
               <li>SOD1/IDH2 desuccinylation → antioxidant defense</li>
             </ul></div>
-            <div class="face onco"><h4>Pro-tumor metabolic reprogramming</h4><ul>
+            <div class="face red"><h4>Pro-tumor metabolic reprogramming</h4><ul>
               <li>Overexpressed in HCC, CRC, NSCLC → pushes glutaminolysis + glycolysis</li>
               <li>LDHB desuccinylation → hyperactive autophagy → nutrient recycling</li>
               <li>Deglutarylation-dependent glutaminolysis in CRC</li>
@@ -341,14 +321,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Nucleus (heterochromatin)</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Anti-cancer (dominant)</h4><ul>
+            <div class="face green"><h4>Anti-cancer (dominant)</h4><ul>
               <li>Corepresses HIF-1α → suppresses glycolytic enzymes → <b>anti-Warburg</b></li>
               <li>Represses survivin, c-MYC, SREBP1/2, ChREBP (anti-lipogenesis)</li>
               <li>Coordinates CHD4 → DNA repair (DDR)</li>
               <li>JAK2/STAT3 inhibition → HCC growth suppression</li>
               <li>hnRNP A1 deacetylation → anti-glycolysis in HCC</li>
             </ul></div>
-            <div class="face onco"><h4>Dual exceptions + chemoresistance</h4><ul>
+            <div class="face red"><h4>Dual exceptions + chemoresistance</h4><ul>
               <li>Lung: snail-dependent KLF4 transrepression → EMT/metastasis</li>
               <li>HCC: high SIRT6 correlates with chemoresistance</li>
               <li>Suppresses apoptosis (survivin/HIF-1α) so effectively → chemoresistance in breast/prostate</li>
@@ -364,11 +344,11 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">Nucleus → nucleolus</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>Anti-metastatic (contextual)</h4><ul>
+            <div class="face green"><h4>Anti-metastatic (contextual)</h4><ul>
               <li>H3K18 deacetylation at EMT-related promoters → suppresses metastasis</li>
               <li>Same H3K18 mark that lifts p21 (pro-proliferative) also silences EMT genes — sign flips by promoter context</li>
             </ul></div>
-            <div class="face onco"><h4>Pro-tumor (most cancers)</h4><ul>
+            <div class="face red"><h4>Pro-tumor (most cancers)</h4><ul>
               <li>RNA Pol I activation → ribosome biogenesis → growth capacity</li>
               <li>p21/CDKN1A promoter H3K18 deacetylation → cell-cycle progression</li>
               <li>Overexpressed in breast, thyroid, HCC</li>
@@ -398,7 +378,6 @@ td .mod-ind{color:var(--blue);}
     </p>
     <div class="spectrum-card">
       <div class="tbl-wrap" style="max-height:none;">
-        <style>#substrates table{table-layout:fixed; width:100%;} #substrates td{white-space:normal; vertical-align:top;} #substrates th{white-space:normal; line-height:1.4; padding:16px 12px; vertical-align:top;} #substrates .sirt{font-weight:700; font-size:.9rem;}</style>
         <table>
           <colgroup><col style="width:8%"><col style="width:18%"><col style="width:19%"><col style="width:17%"><col style="width:38%"></colgroup>
           <thead><tr><th>Sirtuin</th><th>Substrates (modification)</th><th>Targets — activation</th><th>Targets — inhibition</th><th>Function</th></tr></thead>

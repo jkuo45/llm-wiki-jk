@@ -78,6 +78,19 @@ header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
 .face h4{font-size:.78rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;}
 .face ul{padding-left:16px; margin:0;}
 .face li{margin-bottom:5px;}
+.face.green{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
+.face.green h4{color:var(--green);}
+.face.red{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
+.face.red h4{color:var(--red);}
+/* therapeutic modifiers */
+td .mod-act{color:var(--green);}
+td .mod-inh{color:var(--red);}
+td .mod-ind{color:var(--blue);}
+/* substrates table */
+#substrates table{table-layout:fixed; width:100%;}
+#substrates td{white-space:normal; vertical-align:top;}
+#substrates th{white-space:normal; line-height:1.4; padding:16px 12px; vertical-align:top;}
+#substrates .sirt{font-weight:700; font-size:.9rem;}
 .context{padding:12px; border-radius:10px; background:#23233f; border:1px solid var(--line); font-size:.82rem; margin-top:12px;}
 .context b{color:var(--amber);}
 /* tables */
@@ -117,5 +130,13 @@ footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute);
 .chip.H{color:var(--red); border-color:rgba(228,87,94,.4); background:rgba(228,87,94,.08);}
 .chip.D{color:var(--amber); border-color:rgba(232,163,61,.4); background:rgba(232,163,61,.08);}
 .chip.N{color:var(--mute); border-color:var(--line2); background:rgba(224,224,224,.04);}
+/* compartment map */
+#compSvg{width:100%; height:auto;}
+/* stage / stance badges */
+.stance,.stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
+.stage.prec,.stance.prot{color:var(--green); border-color:var(--green);}
+.stage.ct,.stance.harm{color:var(--red); border-color:var(--red);}
+.stage.phase,.stance.dual{color:var(--amber); border-color:var(--amber);}
+.stage.appr{color:var(--blue); border-color:var(--blue);}
 /* responsive */
 @media (max-width:720px){ .faces{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} .dis-grid{grid-template-columns:1fr;} }

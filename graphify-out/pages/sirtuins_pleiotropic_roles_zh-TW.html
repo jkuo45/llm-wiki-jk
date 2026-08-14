@@ -6,24 +6,8 @@
 <title>SIRT 多效性探索器 — 腫瘤代謝與治療</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="shared/pages.css">
-<style>
-:root{--wrap-width:1200px;}
-#compSvg{width:100%; height:auto;}
-.face.suppress{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
-.face.onco{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
-.face.suppress h4{color:var(--green);}
-.face.onco h4{color:var(--red);}
-td .mod-act{color:var(--green);}
-td .mod-inh{color:var(--red);}
-td .mod-ind{color:var(--blue);}
-.stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
-.stage.prec{color:var(--amber); border-color:var(--amber);}
-.stage.phase{color:var(--blue); border-color:var(--blue);}
-.stage.ct{color:var(--teal); border-color:var(--teal);}
-.stage.appr{color:var(--green); border-color:var(--green);}
-</style>
 </head>
-<body>
+<body style="--wrap-width:1200px;">
 
 <nav>
   <div class="wrap">
@@ -222,14 +206,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">細胞核<br>+ 細胞質</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>腫瘤抑制</h4><ul>
+            <div class="face green"><h4>腫瘤抑制</h4><ul>
               <li>去乙醯化 p53、Ku70、p73、FOXO → 在急性壓力下偏向<b>修復而非凋亡</b></li>
               <li>hnRNP A1 去乙醯化 → 在 <b>HCC</b> 中抑制糖解/生長</li>
               <li>AR（Lys630）去乙醯化 → 抑制前列腺生長</li>
               <li>抑制 NF-κB p65 與 HMGB1 → 在卵巢癌中具抗血管新生作用</li>
               <li>PAK1 K420 去乙醯化 → 阻礙膠質母細胞瘤</li>
             </ul></div>
-            <div class="face onco"><h4>致癌 / 促腫瘤</h4><ul>
+            <div class="face red"><h4>致癌 / 促腫瘤</h4><ul>
               <li><b>慢性</b>情境下的 p53 去乙醯化削弱了腫瘤抑制煞車</li>
               <li>與 c-Myc 及 HIF-1α 合作</li>
               <li>EMT/metadherin → 三陰性乳癌中的化學抗藥性</li>
@@ -246,13 +230,13 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">細胞質</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>腫瘤抑制</h4><ul>
+            <div class="face green"><h4>腫瘤抑制</h4><ul>
               <li>BRCA1–BARD1 異源二聚化 → 同源重組（乳癌）</li>
               <li>IDH1 去乙醯化 → 抑制 CRC 肝轉移</li>
               <li>AKR1C1 + STAT3 抑制 → 抑制 NSCLC 遷移</li>
               <li>使卵巢癌對順鉑敏感化</li>
             </ul></div>
-            <div class="face onco"><h4>致癌 / 促腫瘤</h4><ul>
+            <div class="face red"><h4>致癌 / 促腫瘤</h4><ul>
               <li>Slug 去乙醯化 → 穩定化 → 基底樣乳癌侵襲</li>
               <li>磷酸甘油酸變位酶 K100 → NADPH 流 → 肺腫瘤生長</li>
               <li>子宮內膜癌幹性 / MEK-ERK 訊號</li>
@@ -268,14 +252,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">粒線體</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>腫瘤抑制（代謝性）</h4><ul>
+            <div class="face green"><h4>腫瘤抑制（代謝性）</h4><ul>
               <li>MnSOD/SOD2 + IDH2 活化 → 降低 ROS → <b>不穩定化 HIF-1α</b>（抗瓦伯格效應）</li>
               <li>刺激丙酮酸脫氫酶 → 氧化性 TCA 流</li>
               <li>Twist 下調 → 抑制卵巢癌轉移</li>
               <li>GST-π1 下調 → 使 HCC 對索拉非尼/化療敏感化</li>
               <li>破壞乳癌中的 ERα–p53 交互作用</li>
             </ul></div>
-            <div class="face onco"><h4>致癌（同一套生物學，方向翻轉）</h4><ul>
+            <div class="face red"><h4>致癌（同一套生物學，方向翻轉）</h4><ul>
               <li>ROS 抑制得過於徹底 → <b>放射/化學抗藥性</b>（NSCLC 中的 ATM–Chk2）</li>
               <li>提升 CRC 中的藥物抗性（SOD2/PGC-1α）</li>
               <li>p53 去乙醯化（致癌途徑）</li>
@@ -292,14 +276,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">粒線體</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>腫瘤抑制（主導）</h4><ul>
+            <div class="face green"><h4>腫瘤抑制（主導）</h4><ul>
               <li>GDH 單 ADP-核醣基化 → 限制麩醯胺酸→α-KG 流 → <b>直接打擊麩醯胺酸依賴</b></li>
               <li>經由胺基酸刺激的胰島素分泌抑制 mTOR</li>
               <li>p16/p21 上調 + CyclinB1/Cdc2/Cdc25c 抑制 → HCC 凋亡</li>
               <li>在 CRC 中恢復 E-cadherin</li>
               <li>透過抑制麩醯胺酸代謝負向調節 SIRT1</li>
             </ul></div>
-            <div class="face onco"><h4>為何情境仍然重要</h4><ul>
+            <div class="face red"><h4>為何情境仍然重要</h4><ul>
               <li>GDH 抑制 → 胺基酸刺激的胰島素分泌減少</li>
               <li>抑制肝臟脂肪酸氧化（MTPα）→ 脂質堆積</li>
               <li>唯一具有不良心臟作用的 SIRT（加劇血管緊張素 II 肥厚/纖維化）</li>
@@ -315,12 +299,12 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">粒線體</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>腫瘤抑制 / 情境性</h4><ul>
+            <div class="face green"><h4>腫瘤抑制 / 情境性</h4><ul>
               <li>胰臟癌：高表現 → <b>預後良好</b>（缺失 → GOT1 乙醯化 → 增殖）</li>
               <li>HCC：抑制免疫逃逸 / 由膽汁酸代謝驅動的 HCC</li>
               <li>SOD1/IDH2 去琥珀醯化 → 抗氧化防禦</li>
             </ul></div>
-            <div class="face onco"><h4>促腫瘤代謝重程式化</h4><ul>
+            <div class="face red"><h4>促腫瘤代謝重程式化</h4><ul>
               <li>在 HCC、CRC、NSCLC 中過度表現 → 推動麩醯胺酸分解 + 糖解</li>
               <li>LDHB 去琥珀醯化 → 過度活化的自噬 → 營養回收</li>
               <li>CRC 中依賴去戊二醯化的麩醯胺酸分解</li>
@@ -337,14 +321,14 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">細胞核（異染色質）</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>抗癌（主導）</h4><ul>
+            <div class="face green"><h4>抗癌（主導）</h4><ul>
               <li>共抑制 HIF-1α → 抑制糖解酵素 → <b>抗瓦伯格效應</b></li>
               <li>抑制 survivin、c-MYC、SREBP1/2、ChREBP（抗脂肪生成）</li>
               <li>協調 CHD4 → DNA 修復（DDR）</li>
               <li>JAK2/STAT3 抑制 → HCC 生長抑制</li>
               <li>hnRNP A1 去乙醯化 → HCC 中的抗糖解</li>
             </ul></div>
-            <div class="face onco"><h4>雙重例外 + 化學抗藥性</h4><ul>
+            <div class="face red"><h4>雙重例外 + 化學抗藥性</h4><ul>
               <li>肺：依賴 snail 的 KLF4 轉錄抑制 → EMT/轉移</li>
               <li>HCC：高 SIRT6 與化學抗藥性相關</li>
               <li>抑制凋亡（survivin/HIF-1α）過於有效 → 乳癌/前列腺癌中的化學抗藥性</li>
@@ -360,11 +344,11 @@ td .mod-ind{color:var(--blue);}
           <span class="comp">細胞核 → 核仁</span></div>
         <div class="sirt-body">
           <div class="faces">
-            <div class="face suppress"><h4>抗轉移（情境性）</h4><ul>
+            <div class="face green"><h4>抗轉移（情境性）</h4><ul>
               <li>EMT 相關啟動子上的 H3K18 去乙醯化 → 抑制轉移</li>
               <li>同樣提升 p21（促增殖）的 H3K18 標記也沉默 EMT 基因——方向依啟動子情境而翻轉</li>
             </ul></div>
-            <div class="face onco"><h4>促腫瘤（大多數癌症）</h4><ul>
+            <div class="face red"><h4>促腫瘤（大多數癌症）</h4><ul>
               <li>RNA 聚合酶 I 活化 → 核醣體生合成 → 生長能力</li>
               <li>p21/CDKN1A 啟動子 H3K18 去乙醯化 → 細胞週期進展</li>
               <li>在乳癌、甲狀腺癌、HCC 中過度表現</li>
@@ -394,7 +378,6 @@ td .mod-ind{color:var(--blue);}
     </p>
     <div class="spectrum-card">
       <div class="tbl-wrap" style="max-height:none;">
-        <style>#substrates table{table-layout:fixed; width:100%;} #substrates td{white-space:normal; vertical-align:top;} #substrates th{white-space:normal; line-height:1.4; padding:16px 12px; vertical-align:top;} #substrates .sirt{font-weight:700; font-size:.9rem;}</style>
         <table>
           <colgroup><col style="width:8%"><col style="width:18%"><col style="width:19%"><col style="width:17%"><col style="width:38%"></colgroup>
           <thead><tr><th>SIRT</th><th>受質（修飾）</th><th>標靶 — 活化</th><th>標靶 — 抑制</th><th>功能</th></tr></thead>
