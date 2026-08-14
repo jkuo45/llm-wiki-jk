@@ -9,14 +9,24 @@ import { updateHash } from './routing.js';
 export const ARTICLES = [
   {
     id: 'sirtuin-pleiotropy',
-    title: 'Sirtuin Pleiotropic Roles',
+    title: 'Sirtuins - Pleiotropy in in Tumor Cell Metabolism',
     path: 'pages/sirtuins_pleiotropic_roles.html',
     default: true,
   },
   {
     id: 'sirtuin-pleiotropy-zh',
-    title: '去乙醯酶多效性（繁體中文)',
-    path: 'pages/sirtuins_pleiotropic_roles_zh_TW.html',
+    title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
+    path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
+  },
+  {
+    id: 'sirtuin-regulatory-roles',
+    title: 'Sirtuins - Regulatory Roles (by disease)',
+    path: 'pages/sirtuins_regulatory_roles.html',
+  },
+  {
+    id: 'sirtuin-regulatory-roles-zh',
+    title: 'Sirtuins - 依疾病分類的調控角色（繁體中文）',
+    path: 'pages/sirtuins_regulatory_roles_zh-TW.html',
   },
 ];
 
