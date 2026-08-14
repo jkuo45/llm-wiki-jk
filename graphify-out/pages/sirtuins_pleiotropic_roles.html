@@ -16,7 +16,6 @@
     <a class="n" href="#spectrum">Opposing SIRTs</a>
     <a class="n" href="#compartment">Cell Map</a>
     <a class="n" href="#axes">Metabolic Axes</a>
-    <a class="n" href="#diseases">Diseases</a>
     <a class="n" href="#network">Knowledge Graph</a>
     <a class="n" href="#sirts">SIRT by SIRT</a>
     <a class="n" href="#substrates">Substrates &amp; Targets</a>
@@ -156,21 +155,7 @@
   </div>
 </section>
 
-<!-- DISEASES -->
-<section id="diseases">
-  <div class="wrap">
-    <h2>Complication-by-complication breakdown</h2>
-    <p class="lead" style="margin-bottom:16px;">
-      Each complication annotated with (a) which SIRTs rise or fall, (b) prognostic/biomarker weight, and (c) mechanistic role.
-      Chips show each sirtuin's net role: <span class="chip P">P</span> protective/suppressive,
-      <span class="chip H">H</span> harmful/driving, <span class="chip D">D</span> dual.
-    </p>
-    <div class="sys-tabs" id="sysTabs"></div>
-    <div class="dis-grid" id="disGrid"></div>
-  </div>
-</section>
 
-<!-- NETWORK -->
 <section id="network">
   <div class="wrap">
     <h2>SIRT knowledge graph — from the wiki graph</h2>
@@ -916,100 +901,7 @@ renderNetwork('netSvg', netData, nodeColor, legendDefs);
 
 ['spectrumSvg','compSvg','matrixSvg','theraSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
 
-/* ============================= DISEASE BREAKDOWN ============================= */
-(function diseases(){
-  const SYS = [
- {id:'Cancer', diseases:[
-   {n:'Breast cancer', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|P','SIRT7|H'], t:'SIRT2/SIRT4↓ longer OS; SIRT1/SIRT7↑ poor prognosis. Context-dependent suppressor vs promoter.'},
-   {n:'Lung cancer', r:['SIRT1|D','SIRT2|D','SIRT3|H','SIRT6|D','SIRT4|N'], t:'Serum SIRT3 diagnostic (AUC 0.918); high SIRT1–3 ↔ poor NSCLC survival; conflicting roles.'},
-   {n:'Hepatocellular carcinoma', r:['SIRT1|H','SIRT2|P','SIRT3|D','SIRT4|P','SIRT5|D','SIRT6|P','SIRT7|H'], t:'Non-mito SIRT1/2/6↑, mito SIRT3–5↓; low SIRT4 ↔ decreased survival.'},
-   {n:'Colorectal cancer', r:['SIRT1|D','SIRT2|P','SIRT3|H','SIRT4|P','SIRT5|H','SIRT6|P','SIRT7|D'], t:'SIRT1/SIRT7↑, SIRT2/4/6↓; SIRT5↑ poor, SIRT6↑ improved survival.'},
-   {n:'Gastric cancer', r:['SIRT1|H','SIRT4|P','SIRT6|P','SIRT2|N','SIRT3|N'], t:'SIRT1↑; SIRT4/6↓ negatively correlates with tumor grade → poor prognosis.'},
-   {n:'Pancreatic cancer', r:['SIRT5|P','SIRT6|P','SIRT1|H'], t:'SIRT5 loss → GOT1 acetylation → proliferation; KLF10↑SIRT6 influences EMT/metastasis.'},
-   {n:'Ovarian cancer', r:['SIRT1|H','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|H','SIRT6|P','SIRT7|P'], t:'SIRT1–3/6↓, SIRT5↑; high SIRT2/5–7 favorable, high SIRT1/4 poor.'},
-   {n:'Endometrial cancer', r:['SIRT1|H','SIRT2|H','SIRT6|P'], t:'SIRT1↑ promotes autophagy/proliferation & cisplatin resistance; SIRT2↑ promotes stemness.'},
-   {n:'Cervical cancer', r:['SIRT1|H','SIRT2|P','SIRT3|H','SIRT4|N'], t:'SIRT2↓ favorable survival; SIRT1 nullifies AIM2 immunity; SIRT3 drives lipogenesis/invasion.'},
-   {n:'Glioma', r:['SIRT1|D','SIRT3|H','SIRT6|P','SIRT7|H','SIRT2|N'], t:'SIRT1/7↑, SIRT3/6↓; SIRT1 tumor suppressor (PAK1) yet high SIRT1/3 worse.'},
-   {n:'Leukemia', r:['SIRT1|H','SIRT2|D','SIRT6|P','SIRT7|P'], t:'SIRT1 promotes T-ALL; SIRT2 splits AML (activation reduces) vs T-ALL (inhibition suppresses).'}
- ]},
- {id:'CVD', diseases:[
-   {n:'Cardiac hypertrophy', r:['SIRT1|D','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|P','SIRT6|P','SIRT7|P'], t:'Dose-dependent SIRT1; SIRT3/6 protective; SIRT4 adverse (MnSOD inhibition).'},
-   {n:'Cardiac fibrosis', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT4|H','SIRT5|P','SIRT6|P','SIRT7|D'], t:'Resveratrol/SIRT1/3 attenuate; SIRT4 contributes; SIRT7 inconsistent.'},
-   {n:'Heart failure', r:['SIRT1|P','SIRT2|N','SIRT3|N','SIRT4|N','SIRT5|N','SIRT6|P','SIRT7|N'], t:'SIRT1/6 decreased in HF; overexpression upregulates survival/antioxidant pathways.'},
-   {n:'Atherosclerosis', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT4|P','SIRT6|P','SIRT7|N'], t:'Protective across endothelium, VSMC, macrophages; SIRT7 regulates VSMC via Wnt/β-catenin.'},
-   {n:'Coronary artery disease', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'Genetic polymorphisms associated with CAD risk; SIRT1 reduced in patients.'},
-   {n:'MI/R injury', r:['SIRT1|P','SIRT3|P','SIRT4|P','SIRT5|H','SIRT6|P','SIRT2|N','SIRT7|N'], t:'SIRT1/3/6 protective; SIRT4↓ after injury; SIRT5 loss increases infarct.'},
-   {n:'Hypertension', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'Attenuates Ang II/DOCA-salt models; SIRT3/6 protect kidney & vasculature.'}
- ]},
- {id:'Respiratory', diseases:[
-   {n:'COPD', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1 substantially decreased; anti-inflammatory/antioxidant; SIRT6 reduced → insufficient autophagy.'},
-   {n:'Lung fibrosis', r:['SIRT1|P','SIRT3|P','SIRT6|P','SIRT7|H'], t:'SIRT1/3/6 attenuate via TGF-β/autophagy; SIRT7 decline profibrotic.'},
-   {n:'Asthma', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|P','SIRT7|H'], t:'SIRT1↓ severe; SIRT2 enhances inflammation; SIRT6/7 remodel airway.'},
-   {n:'Acute lung injury', r:['SIRT1|D','SIRT3|P','SIRT6|P'], t:'SIRT1 protective (KO susceptible) yet may be detrimental in endotoxemia; SIRT3/6 protective.'},
-   {n:'COVID-19', r:['SIRT1|P','SIRT3|P'], t:'Unbalanced p53/SIRT1 axis; serum SIRT3 lower in severe vs mild.'}
- ]},
- {id:'Digestive', diseases:[
-   {n:'NAFLD / fatty liver', r:['SIRT1|D','SIRT2|D','SIRT3|D','SIRT4|D','SIRT5|D','SIRT6|P','SIRT7|H'], t:'SIRT1–3/5/6↓; SIRT1 protective yet harmful in alcoholic/hepatobiliary; SIRT7 high harmful.'},
-   {n:'Liver I/R injury', r:['SIRT1|P','SIRT2|H','SIRT3|P'], t:'SIRT1/3 protective; SIRT2 detrimental via MAPK phosphatase-1 deacetylation.'},
-   {n:'HBV infection', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|P','SIRT5|D','SIRT6|P','SIRT7|D'], t:'SIRT3/4/6↓ inhibit replication; SIRT1/2/5/7 slightly ↑; SIRT7 restricts cccDNA.'},
-   {n:'Pancreatitis', r:['SIRT1|D','SIRT2|N','SIRT3|N'], t:'SIRT1 low/protective in AP; upregulated in chronic → EMT.'},
-   {n:'Inflammatory bowel disease', r:['SIRT1|D','SIRT2|P','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|P'], t:'SIRT2/6↓ in patients; SIRT1 dual (deficiency pro-inflammatory yet Foxp3+ Treg protective).'},
-   {n:'Intestinal I/R injury', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1/3 suppress ROS/apoptosis; SIRT6 downregulation (miR-351) aggravates.'}
- ]},
- {id:'Nervous', diseases:[
-   {n:'Alzheimer\'s disease', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|N'], t:'SIRT1/3 protective vs Aβ/tau; SIRT2 harmful (β-secretase, Fzd promoters).'},
-   {n:'Parkinson\'s disease', r:['SIRT1|P','SIRT2|H','SIRT3|P'], t:'SIRT1/3 counteract α-syn mitochondrial dysfunction; SIRT2 deletion protective.'},
-   {n:'Huntington\'s disease', r:['SIRT1|P','SIRT2|H'], t:'SIRT1 overexpression improves survival/BDNF; SIRT2 inhibition neuroprotective.'},
-   {n:'Stroke / brain IRI', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT5|H'], t:'SIRT1/3 neuroprotective; SIRT2 detrimental; SIRT5 increases BBB permeability.'},
-   {n:'MS / ALS', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1/3↑ in models; SIRT6 abrogates mutant SOD1 astrocyte neurotoxicity.'},
-   {n:'Epilepsy', r:['SIRT1|P','SIRT3|P','SIRT5|H'], t:'SIRT1 agonist neuroprotective; SIRT3 protects; SIRT5 deficiency worsens seizures.'},
-   {n:'Cognitive / SCI / pain', r:['SIRT1|P','SIRT2|D','SIRT3|P','SIRT6|P'], t:'SIRT1/3/6 protective; SIRT2 mixed (harmful ischemia, alleviates neuropathic pain).'}
- ]},
- {id:'Endocrine', diseases:[
-   {n:'Diabetes mellitus', r:['SIRT1|D','SIRT2|D','SIRT3|P','SIRT4|D','SIRT5|H','SIRT6|P'], t:'SIRT1–3↓, SIRT5/6↑; SIRT5 promotes progression; SIRT6 suppresses gluconeogenesis.'},
-   {n:'Diabetic kidney disease', r:['SIRT1|P','SIRT3|N','SIRT4|N'], t:'SIRT1 high expression protects kidney/slows DKD via p53/FoxO3a/Nrf2.'},
-   {n:'Diabetic neuropathy', r:['SIRT1|P','SIRT3|N'], t:'SIRT1 modulates neuronal viability, alleviates neuropathic pain & cognitive decline.'},
-   {n:'Diabetic retinopathy / cardiomyopathy', r:['SIRT1|P','SIRT3|P'], t:'SIRT1 prevents capillary apoptosis (DR); SIRT3 attenuates DCM via p53/PFKFB3.'},
-   {n:'Obesity', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT6|H'], t:'SIRT1/3 suppress obesity; SIRT2/6 promote (HIF-1α/STAT3 axes).'}
- ]},
- {id:'Urogenital', diseases:[
-   {n:'Acute kidney injury', r:['SIRT1|P','SIRT2|H','SIRT3|P','SIRT4|N','SIRT5|P','SIRT6|P','SIRT7|H'], t:'Mito SIRT3–5 protective; SIRT2 KO ameliorates; SIRT7-deficient protected.'},
-   {n:'Chronic kidney disease', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT5|P','SIRT6|P','SIRT7|H'], t:'SIRT1/3 protect fibrosis & stones; SIRT6 suppresses VC; SIRT7 promotes damage.'},
-   {n:'Genital disorders', r:['SIRT1|D','SIRT3|D'], t:'SIRT1 protective in erectile function/PCOS/endometriosis; SIRT3 deficiency impairs oocytes.'}
- ]},
- {id:'Motor', diseases:[
-   {n:'Osteoarthritis', r:['SIRT1|P','SIRT2|P','SIRT3|D','SIRT6|P'], t:'SIRT1 best studied (Wnt/β-catenin); SIRT3 dual (homeostasis vs apoptosis).'},
-   {n:'Osteoporosis', r:['SIRT1|P','SIRT6|P'], t:'SIRT1 KO low bone mass; SIRT6 inhibits age-related bone loss.'},
-   {n:'Intervertebral disc degeneration', r:['SIRT1|P','SIRT2|P','SIRT3|P','SIRT6|P'], t:'All four inhibit NF-κB/oxidative stress/senescence in nucleus pulposus.'},
-   {n:'Skeletal muscle atrophy', r:['SIRT1|P','SIRT2|P','SIRT3|P'], t:'SIRT1 (PGC-1α), SIRT2 (autophagic flux), SIRT3 (mitochondrial) each protective.'}
- ]},
- {id:'Aging', diseases:[
-   {n:'Cellular & vascular aging', r:['SIRT1|P','SIRT3|P','SIRT6|P'], t:'SIRT1/6 dampen p53/NF-κB & preserve telomeres/DNA repair; SIRT3 deficiency → MSC senescence.'}
- ]}
-  ];
-  const tabsEl=document.getElementById('sysTabs');
-  const gridEl=document.getElementById('disGrid');
-  let active=SYS[0].id;
-  SYS.forEach(s=>{
-    const b=document.createElement('button');
-    b.className='sys-tab'+(s.id===active?' active':'');
-    b.textContent=s.id+' ('+s.diseases.length+')';
-    b.addEventListener('click',()=>{active=s.id;[...tabsEl.children].forEach(c=>c.classList.remove('active'));b.classList.add('active');render();});
-    tabsEl.appendChild(b);
-  });
-  function render(){
-    const sys=SYS.find(x=>x.id===active);
-    gridEl.innerHTML='';
-    sys.diseases.forEach(d=>{
-      const card=document.createElement('div');card.className='dis-card';
-      let chips='';
-      d.r.forEach(pair=>{const[s,r]=pair.split('|');chips+=`<span class="chip ${r}">${s.replace('SIRT','S')}</span>`;});
-      card.innerHTML=`<h4>${d.n}</h4><div class="chips">${chips}</div><div class="note">${d.t}</div>`;
-      gridEl.appendChild(card);
-    });
-  }
-  render();
-})();
+
 </script>
 </body>
 </html>
