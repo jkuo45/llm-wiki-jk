@@ -4,129 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SIRT 調控角色探索器 —— 去乙醯酶（Sirtuin）在健康與疾病中的角色</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
 <style>
-  :root{
-    --bg:#0f0f1a; --bg2:#16162b; --card:#1a1a2e; --line:#2a2a4e; --line2:#3a3a5e;
-    --text:#e0e0e0; --dim:#9a9ab0; --mute:#6b6b85;
-    --teal:#3EC9A7; --red:#E4575E; --amber:#E8A33D; --purple:#9D8DF1; --blue:#5DA8FF; --pink:#F283B2;
-    --green:#58D68D; --orange:#F5A65B;
-  }
-  *{box-sizing:border-box; margin:0; padding:0;}
-  html{scroll-behavior:smooth;}
-  html,body{overflow-x:hidden; overflow-x:clip;}
-  body{
-    background:var(--bg); color:var(--text);
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang TC","Microsoft JhengHei",Helvetica,Arial,sans-serif;
-  }
-  a{color:var(--teal); text-decoration:none;}
-  a:hover{text-decoration:underline;}
-  code{background:#23233f; padding:1px 6px; border-radius:4px; font-size:.9em; overflow-wrap:anywhere;}
-  .wrap{max-width:1240px; margin:0 auto; padding:0 24px;}
-  section{padding:56px 0; border-top:1px solid var(--line); scroll-margin-top:60px;}
-  h1{font-size:2.3rem; line-height:1.2; letter-spacing:-.5px;}
-  h2{font-size:1.5rem; margin-bottom:6px; letter-spacing:-.3px;}
-  h3{font-size:1.05rem; margin:18px 0 8px;}
-  .sub{color:var(--dim);}
-  .lead{color:var(--dim); max-width:900px; font-size:1.05rem;}
-  .badge{display:inline-block; background:#23233f; border:1px solid var(--line); color:var(--dim);
-    padding:2px 10px; border-radius:999px; font-size:.75rem; margin-right:6px; margin-bottom:6px;}
-  .badge.teal{color:var(--teal); border-color:var(--teal);}
-  .badge.red{color:var(--red); border-color:var(--red);}
-  .grid{display:grid; gap:16px;}
-  .g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
-  .g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
-  .g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));}
-  .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px;}
-  .card h3{margin-top:0;}
-  .kicker{text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--teal); margin-bottom:8px; font-weight:700;}
-  /* nav */
-  nav{position:sticky; top:0; z-index:50; background:rgba(15,15,26,.92); backdrop-filter:blur(8px);
-    border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex; align-items:center; gap:18px; overflow-x:auto; white-space:nowrap; height:52px;}
-  nav .brand{font-weight:700; color:var(--text); margin-right:6px;}
-  nav a.brand:hover{color:var(--teal); text-decoration:none;}
-  nav a.n{color:var(--dim); font-size:.85rem;}
-  nav a.n:hover{color:var(--teal); text-decoration:none;}
-  nav a.back-home{display:inline-block; margin-right:4px; color:var(--text); font-size:.85rem; font-weight:700; background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px;}
-  nav a.back-home:hover{color:var(--teal); border-color:var(--teal); text-decoration:none;}
-  body.embedded nav a.back-home{display:none;}
-  /* hero */
-  header{padding:64px 0 40px;}
-  header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
-  .pill-row{margin-top:14px;}
-  /* spectrum */
-  .spectrum-card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;}
-  #spectrumSvg{width:100%; height:auto; display:block;}
-  .legend{display:flex; flex-wrap:wrap; gap:14px; font-size:.8rem; color:var(--dim); margin-top:10px;}
-  .legend span{display:flex; align-items:center; gap:6px;}
-  .sw{width:12px; height:12px; border-radius:3px; display:inline-block;}
-  /* matrix */
-  #matrixSvg{width:100%; height:auto;}
-  /* network */
-  .net-head{display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:8px;}
-  #netSvg{width:100%; height:560px; background:radial-gradient(circle at 50% 45%, #191934 0%, #0f0f1a 70%); border:1px solid var(--line); border-radius:12px;}
-  .net-legend{display:flex; flex-wrap:wrap; gap:10px; font-size:.75rem; color:var(--dim); margin-top:8px;}
-  #netTip{position:fixed; pointer-events:none; background:#23233f; border:1px solid var(--line2);
-    padding:8px 12px; border-radius:8px; font-size:.78rem; max-width:320px; display:none; box-shadow:0 6px 24px rgba(0,0,0,.5); z-index:60;}
-  /* sirt cards */
-  .sirt-card{border-radius:14px; border:1px solid var(--line); background:var(--card); overflow:hidden;}
-  .sirt-head{padding:16px 20px; display:flex; align-items:flex-start; gap:12px; border-bottom:1px solid var(--line);}
-  .sirt-head h3{font-size:1.15rem; margin:0; min-width:64px; line-height:1.25; flex-shrink:0;}
-  .sirt-head .tagline{flex:1; min-width:0; color:var(--dim); font-size:.78rem;}
-  .sirt-head .comp{color:var(--dim); font-size:.8rem; margin-left:auto; text-align:right; white-space:nowrap; flex-shrink:0; line-height:1.4;}
-  .sirt-body{padding:16px 20px;}
-  .faces{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
-  .face{padding:12px; border-radius:10px; font-size:.85rem;}
-  .face.prot{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
-  .face.harm{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
-  .face h4{font-size:.78rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;}
-  .face.prot h4{color:var(--green);}
-  .face.harm h4{color:var(--red);}
-  .face ul{padding-left:16px; margin:0;}
-  .face li{margin-bottom:5px;}
-  .context{padding:12px; border-radius:10px; background:#23233f; border:1px solid var(--line); font-size:.82rem; margin-top:12px;}
-  .context b{color:var(--amber);}
-  /* overview table */
-  .tbl-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:12px; max-height:520px; overflow-y:auto;}
-  table{border-collapse:collapse; width:100%; font-size:.83rem;}
-  th,td{padding:8px 12px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap;}
-  th{position:sticky; top:0; background:var(--bg2); color:var(--dim); font-size:.72rem; text-transform:uppercase; letter-spacing:1px; z-index:2;}
-  tbody tr:hover{background:#202038;}
-  .stance{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
-  .stance.prot{color:var(--green); border-color:var(--green);}
-  .stance.harm{color:var(--red); border-color:var(--red);}
-  .stance.dual{color:var(--amber); border-color:var(--amber);}
-  /* patterns */
-  .pattern{border-left:3px solid var(--teal); padding:4px 0 4px 16px; margin-bottom:14px;}
-  .pattern b{color:var(--teal);}
-  .caveat{background:rgba(232,163,61,.08); border:1px solid rgba(232,163,61,.3); border-radius:12px; padding:18px 22px; margin-top:24px;}
-  .caveat b{color:var(--amber);}
-  footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute); font-size:.8rem;}
-  .btn{display:inline-block; background:var(--teal); color:#0b1220; font-weight:700; padding:8px 18px; border-radius:8px; font-size:.85rem; cursor:pointer; border:none;}
-  .btn:hover{filter:brightness(1.1); text-decoration:none;}
-  .copy-btn{position:absolute; right:8px; bottom:8px; z-index:5; width:34px; height:34px; display:flex; align-items:center; justify-content:center;
-    background:rgba(35,35,63,.9); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:6px; backdrop-filter:blur(4px);}
-  .copy-btn:hover{border-color:var(--teal); filter:brightness(1.15);}
-  .copy-btn:disabled{opacity:.7; cursor:wait;}
-  .copy-btn svg{width:100%; height:100%; display:block;}
-  .copy-btn.ok{color:var(--green); border-color:var(--green);}
-  .copy-btn.err{color:var(--red); border-color:var(--red);}
-  /* disease breakdown */
-  .sys-tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;}
-  .sys-tab{background:var(--card); border:1px solid var(--line2); border-radius:999px; padding:6px 14px; font-size:.82rem; color:var(--dim); cursor:pointer;}
-  .sys-tab:hover{border-color:var(--teal); color:var(--teal);}
-  .sys-tab.active{background:var(--teal); color:#0b1220; border-color:var(--teal); font-weight:700;}
-  .dis-grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));}
-  .dis-card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px;}
-  .dis-card h4{font-size:.98rem; margin:0 0 4px;}
-  .dis-card .note{color:var(--dim); font-size:.8rem; margin:8px 0 10px; line-height:1.45;}
-  .chips{display:flex; flex-wrap:wrap; gap:5px;}
-  .chip{font-size:.7rem; padding:2px 8px; border-radius:999px; font-weight:700; border:1px solid; letter-spacing:.3px;}
-  .chip.P{color:var(--green); border-color:rgba(88,214,141,.4); background:rgba(88,214,141,.08);}
-  .chip.H{color:var(--red); border-color:rgba(228,87,94,.4); background:rgba(228,87,94,.08);}
-  .chip.D{color:var(--amber); border-color:rgba(232,163,61,.4); background:rgba(232,163,61,.08);}
-  .chip.N{color:var(--mute); border-color:var(--line2); background:rgba(224,224,224,.04);}
-  @media (max-width:720px){ .faces{grid-template-columns:1fr;} .dis-grid{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} }
+:root{--wrap-width:1240px;}
+.face.prot{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
+.face.harm{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
+.face.prot h4{color:var(--green);}
+.face.harm h4{color:var(--red);}
+.stance{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
+.stance.prot{color:var(--green); border-color:var(--green);}
+.stance.harm{color:var(--red); border-color:var(--red);}
+.stance.dual{color:var(--amber); border-color:var(--amber);}
+.sys-tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;}
+.sys-tab{background:var(--card); border:1px solid var(--line2); border-radius:999px; padding:6px 14px; font-size:.82rem; color:var(--dim); cursor:pointer;}
+.sys-tab:hover{border-color:var(--teal); color:var(--teal);}
+.sys-tab.active{background:var(--teal); color:#0b1220; border-color:var(--teal); font-weight:700;}
+.dis-grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));}
+.dis-card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px;}
+.dis-card h4{font-size:.98rem; margin:0 0 4px;}
+.dis-card .note{color:var(--dim); font-size:.8rem; margin:8px 0 10px; line-height:1.45;}
+.chips{display:flex; flex-wrap:wrap; gap:5px;}
+.chip{font-size:.7rem; padding:2px 8px; border-radius:999px; font-weight:700; border:1px solid; letter-spacing:.3px;}
+.chip.P{color:var(--green); border-color:rgba(88,214,141,.4); background:rgba(88,214,141,.08);}
+.chip.H{color:var(--red); border-color:rgba(228,87,94,.4); background:rgba(228,87,94,.08);}
+.chip.D{color:var(--amber); border-color:rgba(232,163,61,.4); background:rgba(232,163,61,.08);}
+.chip.N{color:var(--mute); border-color:var(--line2); background:rgba(224,224,224,.04);}
+@media (max-width:720px){ .dis-grid{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
@@ -647,23 +551,12 @@
   </div>
 </footer>
 
+<script src="shared/pages-core.js"></script>
+<script src="shared/pages-svg.js"></script>
+<script src="shared/render-spectrum.js"></script>
+<script src="shared/render-matrix.js"></script>
+<script src="shared/render-network.js"></script>
 <script>
-"use strict";
-
-if (window.self !== window.top) {
-  document.body.classList.add('embedded');
-}
-
-/* ============================= DATA ============================= */
-
-const DIAGRAM_TEXT_SCALE = 1.5;
-function scaleDiagramText(svg){
-  svg.querySelectorAll('text').forEach(t=>{
-    const s = parseFloat(t.getAttribute('font-size'));
-    if (s) t.setAttribute('font-size', (s*DIAGRAM_TEXT_SCALE).toFixed(1));
-  });
-}
-
 const SIRTS = [
  {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'細胞核 ↔ 細胞質', score:0,  range:2.4,
   net:'幾乎每個系統皆雙面／對立',
@@ -768,365 +661,31 @@ const MATRIX = {
 const MECH = {};
 sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<9;i++){ MECH[s].push(MATRIX[s][i+1]); } });
 
-/* ============================= SPECTRUM CHART ============================= */
-(function spectrum(){
-  const svg = document.getElementById('spectrumSvg');
-  const W = 1000, mid = W/2, scale = 120;
-  const padL = 150, padR = 150;
-  const barH = 34, rowGap = 20;
-  const H = 54 + SIRTS.length*(barH + rowGap + 20) + 62;
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  let y = 54;
-  const defs = document.createElementNS('http://www.w3.org/2000/svg','defs');
-  defs.innerHTML = '<linearGradient id="gradSupp" x1="0" x2="1"><stop offset="0" stop-color="#58D68D" stop-opacity=".05"/><stop offset="1" stop-color="#3EC9A7"/></linearGradient>'+
-                   '<linearGradient id="gradOnco" x1="1" x2="0"><stop offset="0" stop-color="#E4575E" stop-opacity=".05"/><stop offset="1" stop-color="#E4575E"/></linearGradient>';
-  svg.appendChild(defs);
-  svg.innerHTML += `<line x1="${mid}" y1="30" x2="${mid}" y2="${H-40}" stroke="#2a2a4e" stroke-width="2"/>` +
-                   `<text x="${mid}" y="${H-24}" text-anchor="middle" fill="#9a9ab0" font-size="13" font-weight="600">有害／致病</text>` +
-                   `<text x="${mid}" y="${H-8}" text-anchor="middle" fill="#6b6b85" font-size="11">中央＝依情境而定</text>` +
-                   `<text x="${mid-24}" y="44" text-anchor="end" fill="#E4575E" font-size="12" font-weight="700">← 有害</text>` +
-                   `<text x="${mid+24}" y="44" text-anchor="start" fill="#58D68D" font-size="12" font-weight="700">保護 →</text>`;
+renderSpectrum('spectrumSvg', SIRTS, {top:'HARMFUL / deleterious', center:'center = context-dependent', left:'← harmful', right:'protective →'});
+renderMatrix('matrixSvg', SYSTEMS, sirtOrder, SIRTS, MATRIX, MECH);
 
-  function showTip(t){ document.getElementById('netTip').style.display='block'; document.getElementById('netTip').innerHTML=t; }
-  function moveTip(ev){ const t=document.getElementById('netTip'); t.style.left=(ev.clientX+14)+'px'; t.style.top=(ev.clientY+10)+'px'; }
-  function hideTip(){ document.getElementById('netTip').style.display='none'; }
-  function tipTap(ev, html){
-    const tc = ev.touches && ev.touches[0];
-    const t = document.getElementById('netTip');
-    t.style.display='block'; t.innerHTML=html;
-    if (tc){ t.style.left=(tc.clientX+14)+'px'; t.style.top=(tc.clientY+10)+'px'; }
-    ev.stopPropagation();
-  }
+const netData = {"nodes": [{"id": "sirt4", "label": "SIRT4", "degree": 10}, {"id": "p53", "label": "p53", "degree": 6}, {"id": "cervical_cancer_progression", "label": "子宮頸癌進展", "degree": 1}, {"id": "mnsod", "label": "MnSOD", "degree": 5}, {"id": "pancreatitis", "label": "胰臟炎", "degree": 1}, {"id": "autophagy", "label": "自噬作用", "degree": 4}, {"id": "fatty_acid_oxidation", "label": "脂肪酸氧化", "degree": 3}, {"id": "kidney_stones", "label": "腎結石", "degree": 1}, {"id": "obesity", "label": "肥胖", "degree": 3}, {"id": "myocardial_ischemia_reperfusion_injury", "label": "心肌缺血再灌注損傷", "degree": 3}, {"id": "ischemic_stroke", "label": "缺血性中風", "degree": 3}, {"id": "adp_ribosylation", "label": "ADP-核糖基化", "degree": 2}, {"id": "hepatocellular_carcinoma", "label": "肝細胞癌", "degree": 2}, {"id": "alzheimer_s_disease", "label": "阿茲海默症", "degree": 3}, {"id": "colorectal_cancer", "label": "大腸直腸癌", "degree": 1}, {"id": "chronic_kidney_disease", "label": "慢性腎病", "degree": 1}, {"id": "oxidative_stress", "label": "氧化壓力", "degree": 3}, {"id": "cardiac_fibrosis", "label": "心臟纖維化", "degree": 2}, {"id": "acute_kidney_injury", "label": "急性腎損傷", "degree": 3}, {"id": "sirt7", "label": "SIRT7", "degree": 7}, {"id": "diabetes_mellitus", "label": "糖尿病", "degree": 3}, {"id": "sasp", "label": "SASP", "degree": 6}, {"id": "huntington_s_disease", "label": "亨廷頓舞蹈症", "degree": 1}, {"id": "diabetic_nephropathy", "label": "糖尿病腎病變", "degree": 1}, {"id": "non_alcoholic_fatty_liver_disease", "label": "非酒精性脂肪肝病", "degree": 2}, {"id": "sirt3", "label": "SIRT3", "degree": 24}, {"id": "osteoarthritis", "label": "骨關節炎", "degree": 4}, {"id": "glioma_tumour_formation", "label": "神經膠質瘤形成", "degree": 1}, {"id": "osteoporosis", "label": "骨質疏鬆症", "degree": 2}, {"id": "sirt2", "label": "SIRT2", "degree": 16}, {"id": "breast_cancer", "label": "乳癌", "degree": 3}, {"id": "kidney_fibrosis", "label": "腎臟纖維化", "degree": 2}, {"id": "ampk", "label": "AMPK", "degree": 6}, {"id": "liver_ischemia_reperfusion_injury", "label": "肝臟缺血再灌注損傷",", "degree": 2}, {"id": "vascular_calcification", "label": "血管鈣化", "degree": 1}, {"id": "mitochondria", "label": "粒線體", "degree": 3}, {"id": "nf_b", "label": "NF-κB", "degree": 7}, {"id": "lung_cancer", "label": "肺癌", "degree": 2}, {"id": "cardiac_hypertrophy", "label": "心臟肥厚", "degree": 3}, {"id": "gastric_cancer", "label": "胃癌", "degree": 1}, {"id": "pancreatic_cancer_cells", "label": "胰臟癌細胞", "degree": 1}, {"id": "parkinson_s_disease", "label": "帕金森氏症", "degree": 3}, {"id": "sirt1", "label": "SIRT1", "degree": 26}, {"id": "epilepsy", "label": "癲癇", "degree": 1}, {"id": "cellular_senescence", "label": "細胞衰老", "degree": 5}, {"id": "sirt5", "label": "SIRT5", "degree": 9}, {"id": "nad", "label": "NAD+", "degree": 2}, {"id": "covid_19", "label": "COVID-19", "degree": 1}, {"id": "sirt6", "label": "SIRT6", "degree": 21}, {"id": "senescence", "label": "衰老", "degree": 5}, {"id": "asthma", "label": "氣喘", "degree": 3}, {"id": "dna_damage", "label": "DNA損傷", "degree": 4}, {"id": "atherosclerosis", "label": "動脈粥樣硬化", "degree": 3}, {"id": "copd", "label": "COPD", "degree": 3}, {"id": "akt", "label": "Akt", "degree": 1}, {"id": "hif_1", "label": "HIF-1α", "degree": 4}, {"id": "acute_lung_injury", "label": "急性肺損傷", "degree": 1}, {"id": "nicotinamide_riboside", "label": "菸鹼醯胺核苷", "degree": 7}, {"id": "heart_failure", "label": "心臟衰竭", "degree": 2}], edges: [{"from": "sirt4", "to": "mitochondria", "label": "localizes_to"}, {"from": "sirt4", "to": "adp_ribosylation", "label": "exhibits_activity_as"}, {"from": "sirt4", "to": "mnsod", "label": "inhibits_via_adp_ribosylation"}, {"from": "sirt4", "to": "cardiac_fibrosis", "label": "promotes"}, {"from": "sirt4", "to": "ampk", "label": "inhibited_by"}, {"from": "sirt4", "to": "fatty_acid_oxidation", "label": "functions_in_aging"}, {"from": "sirt4", "to": "nf_b", "label": "inhibited_by"}, {"from": "sirt4", "to": "hepatocellular_carcinoma", "label": "is_downregulated_in"}, {"from": "sirt4", "to": "cardiac_hypertrophy", "label": "promotes"}, {"from": "sirt4", "to": "atherosclerosis", "label": "is_protective_in"}, {"from": "p53", "to": "sasp", "label": "restrains"}, {"from": "p53", "to": "sirt1", "label": "inhibited_by"}, {"from": "p53", "to": "sirt3", "label": "inhibits"}, {"from": "p53", "to": "sirt6", "label": "activated_by"}, {"from": "p53", "to": "sirt2", "label": "inhibits"}, {"from": "p53", "to": "sirt7", "label": "inhibited_by"}, {"from": "cervical_cancer_progression", "to": "sirt2", "label": "inhibits"}, {"from": "mnsod", "to": "sirt1", "label": "activates"}, {"from": "mnsod", "to": "sirt3", "label": "deacetylates"}, {"from": "mnsod", "to": "sirt6", "label": "upregulates"}, {"from": "mnsod", "to": "sirt2", "label": "activated_by"}, {"from": "pancreatitis", "to": "sirt1", "label": "is_protective_in"}, {"from": "autophagy", "to": "parkinson_s_disease", "label": "impairs"}, {"from": "autophagy", "to": "sasp", "label": "suppresses"}, {"from": "autophagy", "to": "senescence", "label": "is_impaired_in"}, {"from": "autophagy", "to": "ampk", "label": "activates"}, {"from": "fatty_acid_oxidation", "to": "ampk", "label": "promotes"}, {"from": "fatty_acid_oxidation", "to": "sirt5", "label": "functions_in_aging"}, {"from": "kidney_stones", "to": "sirt3", "label": "is_protective_in"}, {"from": "obesity", "to": "nicotinamide_riboside", "label": "protects_against"}, {"from": "obesity", "to": "sirt3", "label": "suppresses"}, {"from": "obesity", "to": "sirt6", "label": "promotes"}, {"from": "myocardial_ischemia_reperfusion_injury", "to": "sirt1", "label": "is_protective_in"}, {"from": "myocardial_ischemia_reperfusion_injury", "to": "sirt3", "label": "is_protective_in"}, {"from": "myocardial_ischemia_reperfusion_injury", "to": "sirt5", "label": "is_protective_in"}, {"from": "ischemic_stroke", "to": "sirt3", "label": "is_protective_in"}, {"from": "ischemic_stroke", "to": "sirt2", "label": "is_increased_in"}, {"from": "ischemic_stroke", "to": "sirt5", "label": "is_harmful_in"}, {"from": "adp_ribosylation", "to": "sirt6", "label": "exhibits_activity_as"}, {"from": "hepatocellular_carcinoma", "to": "sirt3", "label": "is_downregulated_in"}, {"from": "alzheimer_s_disease", "to": "sirt1", "label": "is_a_diagnostic_marker_for"}, {"from": "alzheimer_s_disease", "to": "sirt3", "label": "is_protective_in"}, {"from": "alzheimer_s_disease", "to": "sirt2", "label": "is_harmful_in"}, {"from": "colorectal_cancer", "to": "sirt5", "label": "enhances_glutaminolysis_in"}, {"from": "chronic_kidney_disease", "to": "sirt6", "label": "is_protective_in"}, {"from": "oxidative_stress", "to": "senescence", "label": "is_induced_by"}, {"from": "oxidative_stress", "to": "sirt3", "label": "functions_in_aging"}, {"from": "oxidative_stress", "to": "sirt5", "label": "functions_in_aging"}, {"from": "cardiac_fibrosis", "to": "sirt7", "label": "promotes"}, {"from": "acute_kidney_injury", "to": "sirt3", "label": "is_protective_in"}, {"from": "acute_kidney_injury", "to": "sirt2", "label": "promotes"}, {"from": "acute_kidney_injury", "to": "sirt5", "label": "is_protective_in"}, {"from": "sirt7", "to": "breast_cancer", "label": "is_upregulated_in"}, {"from": "sirt7", "to": "nf_b", "label": "inhibits_nuclear_translocation_of"}, {"from": "sirt7", "to": "sirt1", "label": "inhibits_autocatalytic_activation_of"}, {"from": "sirt7", "to": "asthma", "label": "promotes_airway_remodeling_in"}, {"from": "sirt7", "to": "hif_1", "label": "inhibited_by"}, {"from": "diabetes_mellitus", "to": "sirt3", "label": "is_protective_in"}, {"from": "diabetes_mellitus", "to": "sirt6", "label": "is_protective_in"}, {"from": "diabetes_mellitus", "to": "sirt5", "label": "promotes"}, {"from": "sasp", "to": "cellular_senescence", "label": "is_secreted_by"}, {"from": "sasp", "to": "nf_b", "label": "regulates"}, {"from": "sasp", "to": "sirt1", "label": "is_repressed_by"}, {"from": "sasp", "to": "senescence", "label": "produces"}, {"from": "huntington_s_disease", "to": "sirt1", "label": "is_protective_in"}, {"from": "diabetic_nephropathy", "to": "sirt1", "label": "is_protective_in"}, {"from": "non_alcoholic_fatty_liver_disease", "to": "nicotinamide_riboside", "label": "protects_against"}, {"from": "non_alcoholic_fatty_liver_disease", "to": "sirt2", "label": "prevents"}, {"from": "sirt3", "to": "nicotinamide_riboside", "label": "activates"}, {"from": "sirt3", "to": "mitochondria", "label": "localizes_to"}, {"from": "sirt3", "to": "hif_1", "label": "inhibits"}, {"from": "sirt3", "to": "copd", "label": "inhibits_airway_epithelial_mitochondrial_oxidative_stress_in"}, {"from": "sirt3", "to": "nf_b", "label": "inhibited_by"}, {"from": "sirt3", "to": "lung_cancer", "label": "is_a_diagnostic_biomarker_for"}, {"from": "sirt3", "to": "covid_19", "label": "is_associated_with"}, {"from": "sirt3", "to": "acute_lung_injury", "label": "is_protective_in"}, {"from": "sirt3", "to": "liver_ischemia_reperfusion_injury", "label": "is_protective_in"}, {"from": "sirt3", "to": "osteoarthritis", "label": "has_a_dual_role_in"}, {"from": "sirt3", "to": "epilepsy", "label": "is_protective_in"}, {"from": "sirt3", "to": "kidney_fibrosis", "label": "is_protective_in"}, {"from": "sirt3", "to": "cellular_senescence", "label": "is_protective_in"}, {"from": "osteoarthritis", "to": "cellular_senescence", "label": "contributes_to"}, {"from": "osteoarthritis", "to": "sirt1", "label": "is_protective_in"}, {"from": "osteoarthritis", "to": "sirt2", "label": "is_protective_in"}, {"from": "glioma_tumour_formation", "to": "sirt2", "label": "suppresses"}, {"from": "osteoporosis", "to": "sirt1", "label": "is_protective_in"}, {"from": "osteoporosis", "to": "sirt6", "label": "is_protective_in"}, {"from": "sirt2", "to": "nf_b", "label": "inhibited_by"}, {"from": "sirt2", "to": "parkinson_s_disease", "label": "is_harmful_in"}, {"from": "sirt2", "to": "nad", "label": "activated_by"}, {"from": "sirt2", "to": "akt", "label": "inhibited_by"}, {"from": "sirt2", "to": "breast_cancer", "label": "is_downregulated_in"}, {"from": "sirt2", "to": "asthma", "label": "promotes"}, {"from": "sirt2", "to": "liver_ischemia_reperfusion_injury", "label": "is_harmful_in"}, {"from": "breast_cancer", "to": "sirt1", "label": "is_upregulated_in"}, {"from": "kidney_fibrosis", "to": "sirt1", "label": "is_protective_in"}, {"from": "ampk", "to": "sirt1", "label": "activates"}, {"from": "ampk", "to": "sirt6", "label": "upregulates"}, {"from": "ampk", "to": "sirt5", "label": "activates"}, {"from": "vascular_calcification", "to": "sirt6", "label": "suppresses"}, {"from": "mitochondria", "to": "sirt5", "label": "localizes_to"}, {"from": "nf_b", "to": "sirt1", "label": "inhibited_by"}, {"from": "nf_b", "to": "sirt6", "label": "inhibited_by"}, {"from": "lung_cancer", "to": "sirt6", "label": "has_a_dual_role_in"}, {"from": "cardiac_hypertrophy", "to": "sirt1", "label": "has_a_dual_role_in"}, {"from": "cardiac_hypertrophy", "to": "sirt6", "label": "is_protective_in"}, {"from": "gastric_cancer", "to": "sirt6", "label": "is_a_tumor_suppressor_in"}, {"from": "pancreatic_cancer_cells", "to": "sirt1", "label": "facilitates_chemoresistance_of"}, {"from": "parkinson_s_disease", "to": "sirt1", "label": "is_neuroprotective_in"}, {"from": "sirt1", "to": "nicotinamide_riboside", "label": "activates"}, {"from": "sirt1", "to": "dna_damage", "label": "relocalizes_to"}, {"from": "sirt1", "to": "senescence", "label": "prevents"}, {"from": "sirt1", "to": "hif_1", "label": "inhibits"}, {"from": "sirt1", "to": "copd", "label": "is_decreased_in"}, {"from": "sirt1", "to": "sirt6", "label": "activates"}, {"from": "sirt1", "to": "cellular_senescence", "label": "inhibits"}, {"from": "sirt1", "to": "atherosclerosis", "label": "is_protective_in"}, {"from": "cellular_senescence", "to": "sirt6", "label": "is_protective_in"}, {"from": "nad", "to": "nicotinamide_riboside", "label": "converts_to"}, {"from": "sirt6", "to": "dna_damage", "label": "relocalizes_to"}, {"from": "sirt6", "to": "hif_1", "label": "inhibits"}, {"from": "sirt6", "to": "atherosclerosis", "label": "protects_against_endothelial_dysfunction_and"}, {"from": "sirt6", "to": "asthma", "label": "ameliorates_airway_remodeling_in"}, {"from": "sirt6", "to": "heart_failure", "label": "is_protective_in"}, {"from": "sirt6", "to": "copd", "label": "is_decreased_in"}, {"from": "senescence", "to": "dna_damage", "label": "is_induced_by"}, {"from": "dna_damage", "to": "nicotinamide_riboside", "label": "prevents"}, {"from": "nicotinamide_riboside", "to": "heart_failure", "label": "protects_against"}] };
 
-  SIRTS.forEach(s=>{
-    const x = mid + s.score*scale;
-    const lo = mid + (s.score - s.range)*scale;
-    const hi = mid + (s.score + s.range)*scale;
-    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
-    const win = document.createElementNS('http://www.w3.org/2000/svg','rect');
-    win.setAttribute('x', Math.min(lo,hi)); win.setAttribute('y', y+4); win.setAttribute('width', Math.abs(hi-lo));
-    win.setAttribute('height', barH-8); win.setAttribute('rx', 8); win.setAttribute('fill','#23233f'); win.setAttribute('stroke','#3a3a5e'); win.setAttribute('stroke-width','1');
-    const wbar = document.createElementNS('http://www.w3.org/2000/svg','rect');
-    const left = s.score<0, w = Math.abs(s.score)*scale;
-    wbar.setAttribute('x', left? x : mid); wbar.setAttribute('y', y+4); wbar.setAttribute('width', Math.max(w,6)); wbar.setAttribute('height', barH-8);
-    wbar.setAttribute('rx',8); wbar.setAttribute('fill', left? 'url(#gradOnco)' : 'url(#gradSupp)'); wbar.setAttribute('stroke', left? '#E4575E':'#3EC9A7'); wbar.setAttribute('stroke-width','1.2');
-    const lab = document.createElementNS('http://www.w3.org/2000/svg','text');
-    lab.setAttribute('x', padL); lab.setAttribute('y', y+barH/2+5); lab.setAttribute('text-anchor','end');
-    lab.setAttribute('font-size','16'); lab.setAttribute('font-weight','700'); lab.setAttribute('fill', s.color);
-    lab.textContent = s.id;
-    const cap = document.createElementNS('http://www.w3.org/2000/svg','text');
-    cap.setAttribute('x', mid); cap.setAttribute('y', y+barH+14); cap.setAttribute('text-anchor','middle');
-    cap.setAttribute('font-size','10.5'); cap.setAttribute('fill','#6b6b85');
-    cap.textContent = s.net;
-    g.appendChild(win); g.appendChild(wbar); g.appendChild(lab); g.appendChild(cap);
-    g.style.cursor='pointer';
-    g.addEventListener('mouseenter', ()=>showTip(`<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
-    g.addEventListener('mousemove', moveTip);
-    g.addEventListener('mouseleave', hideTip);
-    g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
-    svg.appendChild(g);
-    y += barH + rowGap + 20;
-  });
-})();
-
-/* ============================= MATRIX ============================= */
-(function matrix(){
-  const svg = document.getElementById('matrixSvg');
-  const W=1240, top=90, left=110, cw=118, ch=84, rh=72;
-  const lastBottom = top + (sirtOrder.length-1)*rh + (ch-16);
-  const pad = top - 56;
-  const H = lastBottom + pad;
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  SYSTEMS.forEach((a,i)=>{
-    const cx = left + i*cw + cw/2;
-    const parts = a.split(' / ');
-    let label = '';
-    if (parts.length > 1){
-      label += `<text x="${cx}" y="${top-62}" text-anchor="middle" fill="#9a9ab0" font-size="11.5" font-weight="600"><tspan x="${cx}">${parts[0]}</tspan><tspan x="${cx}" dy="14">${parts[1]}</tspan></text>`;
-    } else {
-      label += `<text x="${cx}" y="${top-55}" text-anchor="middle" fill="#9a9ab0" font-size="11.5" font-weight="600">${a}</text>`;
-    }
-    svg.innerHTML += label +
-      `<line x1="${cx}" y1="${top-40}" x2="${cx}" y2="${top+sirtOrder.length*rh-10}" stroke="#23233f" stroke-width="1"/>`;
-  });
-  sirtOrder.forEach((s,row)=>{
-    const y = top + row*rh;
-    svg.innerHTML += `<text x="${left-14}" y="${y+rh/2+5}" text-anchor="end" fill="${SIRTS.find(x=>x.id===s).color}" font-size="16" font-weight="700">${s}</text>`;
-    SYSTEMS.forEach((a,col)=>{
-      const val = MATRIX[s][0][col];
-      const cell = MECH[s][col];
-      const x = left + col*cw, cx = x + cw/2, cy = y + rh/2;
-      let fill, stroke, txtcol, sym;
-      if (val==='D') { fill='rgba(232,163,61,.12)'; stroke='#E8A33D'; txtcol='#E8A33D'; sym='⇄'; }
-      else if (+val>0) { fill=`rgba(88,214,141,${0.06+0.10*(+val)})`; stroke='#58D68D'; txtcol='#58D68D'; sym='+' .repeat(+val); }
-      else if (+val<0) { const v=-val; fill=`rgba(228,87,94,${0.06+0.10*v})`; stroke='#E4575E'; txtcol='#E4575E'; sym='−'.repeat(v); }
-      else { fill='rgba(224,224,224,.04)'; stroke='#3a3a5e'; txtcol='#6b6b85'; sym='·'; }
-      const g = document.createElementNS('http://www.w3.org/2000/svg','g');
-      const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
-      r.setAttribute('x', x+5); r.setAttribute('y', y+8); r.setAttribute('width', cw-10); r.setAttribute('height', rh-16); r.setAttribute('rx',10);
-      r.setAttribute('fill', fill); r.setAttribute('stroke', stroke); r.setAttribute('stroke-width','1.2');
-      const t1 = document.createElementNS('http://www.w3.org/2000/svg','text');
-      t1.setAttribute('x', cx); t1.setAttribute('y', cy+5); t1.setAttribute('text-anchor','middle'); t1.setAttribute('font-size','16'); t1.setAttribute('font-weight','800'); t1.setAttribute('fill', txtcol);
-      t1.textContent = sym;
-      g.appendChild(r); g.appendChild(t1);
-      g.style.cursor='pointer';
-      g.addEventListener('mouseenter',()=>{
-        const tip = document.getElementById('netTip');
-        tip.style.display='block';
-        tip.innerHTML=`<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`;
-      });
-      g.addEventListener('mousemove', moveTip);
-      g.addEventListener('mouseleave', hideTip);
-      g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`));
-      svg.appendChild(g);
-    });
-  });
-})();
-
-/* ============================= KNOWLEDGE GRAPH ============================= */
-(function network(){
-  const DATA = { nodes: [{"id": "sirt4", "label": "SIRT4", "degree": 10}, {"id": "p53", "label": "p53", "degree": 6}, {"id": "cervical_cancer_progression", "label": "子宮頸癌進展", "degree": 1}, {"id": "mnsod", "label": "MnSOD", "degree": 5}, {"id": "pancreatitis", "label": "胰臟炎", "degree": 1}, {"id": "autophagy", "label": "自噬作用", "degree": 4}, {"id": "fatty_acid_oxidation", "label": "脂肪酸氧化", "degree": 3}, {"id": "kidney_stones", "label": "腎結石", "degree": 1}, {"id": "obesity", "label": "肥胖", "degree": 3}, {"id": "myocardial_ischemia_reperfusion_injury", "label": "心肌缺血再灌注損傷", "degree": 3}, {"id": "ischemic_stroke", "label": "缺血性中風", "degree": 3}, {"id": "adp_ribosylation", "label": "ADP-核糖基化", "degree": 2}, {"id": "hepatocellular_carcinoma", "label": "肝細胞癌", "degree": 2}, {"id": "alzheimer_s_disease", "label": "阿茲海默症", "degree": 3}, {"id": "colorectal_cancer", "label": "大腸直腸癌", "degree": 1}, {"id": "chronic_kidney_disease", "label": "慢性腎病", "degree": 1}, {"id": "oxidative_stress", "label": "氧化壓力", "degree": 3}, {"id": "cardiac_fibrosis", "label": "心臟纖維化", "degree": 2}, {"id": "acute_kidney_injury", "label": "急性腎損傷", "degree": 3}, {"id": "sirt7", "label": "SIRT7", "degree": 7}, {"id": "diabetes_mellitus", "label": "糖尿病", "degree": 3}, {"id": "sasp", "label": "SASP", "degree": 6}, {"id": "huntington_s_disease", "label": "亨廷頓舞蹈症", "degree": 1}, {"id": "diabetic_nephropathy", "label": "糖尿病腎病變", "degree": 1}, {"id": "non_alcoholic_fatty_liver_disease", "label": "非酒精性脂肪肝病", "degree": 2}, {"id": "sirt3", "label": "SIRT3", "degree": 24}, {"id": "osteoarthritis", "label": "骨關節炎", "degree": 4}, {"id": "glioma_tumour_formation", "label": "神經膠質瘤形成", "degree": 1}, {"id": "osteoporosis", "label": "骨質疏鬆症", "degree": 2}, {"id": "sirt2", "label": "SIRT2", "degree": 16}, {"id": "breast_cancer", "label": "乳癌", "degree": 3}, {"id": "kidney_fibrosis", "label": "腎臟纖維化", "degree": 2}, {"id": "ampk", "label": "AMPK", "degree": 6}, {"id": "liver_ischemia_reperfusion_injury", "label": "肝臟缺血再灌注損傷", "degree": 2}, {"id": "vascular_calcification", "label": "血管鈣化", "degree": 1}, {"id": "mitochondria", "label": "粒線體", "degree": 3}, {"id": "nf_b", "label": "NF-κB", "degree": 7}, {"id": "lung_cancer", "label": "肺癌", "degree": 2}, {"id": "cardiac_hypertrophy", "label": "心臟肥厚", "degree": 3}, {"id": "gastric_cancer", "label": "胃癌", "degree": 1}, {"id": "pancreatic_cancer_cells", "label": "胰臟癌細胞", "degree": 1}, {"id": "parkinson_s_disease", "label": "帕金森氏症", "degree": 3}, {"id": "sirt1", "label": "SIRT1", "degree": 26}, {"id": "epilepsy", "label": "癲癇", "degree": 1}, {"id": "cellular_senescence", "label": "細胞衰老", "degree": 5}, {"id": "sirt5", "label": "SIRT5", "degree": 9}, {"id": "nad", "label": "NAD+", "degree": 2}, {"id": "covid_19", "label": "COVID-19", "degree": 1}, {"id": "sirt6", "label": "SIRT6", "degree": 21}, {"id": "senescence", "label": "衰老", "degree": 5}, {"id": "asthma", "label": "氣喘", "degree": 3}, {"id": "dna_damage", "label": "DNA損傷", "degree": 4}, {"id": "atherosclerosis", "label": "動脈粥樣硬化", "degree": 3}, {"id": "copd", "label": "COPD", "degree": 3}, {"id": "akt", "label": "Akt", "degree": 1}, {"id": "hif_1", "label": "HIF-1α", "degree": 4}, {"id": "acute_lung_injury", "label": "急性肺損傷", "degree": 1}, {"id": "nicotinamide_riboside", "label": "菸鹼醯胺核苷", "degree": 7}, {"id": "heart_failure", "label": "心臟衰竭", "degree": 2}], edges: [{"from": "sirt4", "to": "mitochondria", "label": "localizes_to"}, {"from": "sirt4", "to": "adp_ribosylation", "label": "exhibits_activity_as"}, {"from": "sirt4", "to": "mnsod", "label": "inhibits_via_adp_ribosylation"}, {"from": "sirt4", "to": "cardiac_fibrosis", "label": "promotes"}, {"from": "sirt4", "to": "ampk", "label": "inhibited_by"}, {"from": "sirt4", "to": "fatty_acid_oxidation", "label": "functions_in_aging"}, {"from": "sirt4", "to": "nf_b", "label": "inhibited_by"}, {"from": "sirt4", "to": "hepatocellular_carcinoma", "label": "is_downregulated_in"}, {"from": "sirt4", "to": "cardiac_hypertrophy", "label": "promotes"}, {"from": "sirt4", "to": "atherosclerosis", "label": "is_protective_in"}, {"from": "p53", "to": "sasp", "label": "restrains"}, {"from": "p53", "to": "sirt1", "label": "inhibited_by"}, {"from": "p53", "to": "sirt3", "label": "inhibits"}, {"from": "p53", "to": "sirt6", "label": "activated_by"}, {"from": "p53", "to": "sirt2", "label": "inhibits"}, {"from": "p53", "to": "sirt7", "label": "inhibited_by"}, {"from": "cervical_cancer_progression", "to": "sirt2", "label": "inhibits"}, {"from": "mnsod", "to": "sirt1", "label": "activates"}, {"from": "mnsod", "to": "sirt3", "label": "deacetylates"}, {"from": "mnsod", "to": "sirt6", "label": "upregulates"}, {"from": "mnsod", "to": "sirt2", "label": "activated_by"}, {"from": "pancreatitis", "to": "sirt1", "label": "is_protective_in"}, {"from": "autophagy", "to": "parkinson_s_disease", "label": "impairs"}, {"from": "autophagy", "to": "sasp", "label": "suppresses"}, {"from": "autophagy", "to": "senescence", "label": "is_impaired_in"}, {"from": "autophagy", "to": "ampk", "label": "activates"}, {"from": "fatty_acid_oxidation", "to": "ampk", "label": "promotes"}, {"from": "fatty_acid_oxidation", "to": "sirt5", "label": "functions_in_aging"}, {"from": "kidney_stones", "to": "sirt3", "label": "is_protective_in"}, {"from": "obesity", "to": "nicotinamide_riboside", "label": "protects_against"}, {"from": "obesity", "to": "sirt3", "label": "suppresses"}, {"from": "obesity", "to": "sirt6", "label": "promotes"}, {"from": "myocardial_ischemia_reperfusion_injury", "to": "sirt1", "label": "is_protective_in"}, {"from": "myocardial_ischemia_reperfusion_injury", "to": "sirt3", "label": "is_protective_in"}, {"from": "myocardial_ischemia_reperfusion_injury", "to": "sirt5", "label": "is_protective_in"}, {"from": "ischemic_stroke", "to": "sirt3", "label": "is_protective_in"}, {"from": "ischemic_stroke", "to": "sirt2", "label": "is_increased_in"}, {"from": "ischemic_stroke", "to": "sirt5", "label": "is_harmful_in"}, {"from": "adp_ribosylation", "to": "sirt6", "label": "exhibits_activity_as"}, {"from": "hepatocellular_carcinoma", "to": "sirt3", "label": "is_downregulated_in"}, {"from": "alzheimer_s_disease", "to": "sirt1", "label": "is_a_diagnostic_marker_for"}, {"from": "alzheimer_s_disease", "to": "sirt3", "label": "is_protective_in"}, {"from": "alzheimer_s_disease", "to": "sirt2", "label": "is_harmful_in"}, {"from": "colorectal_cancer", "to": "sirt5", "label": "enhances_glutaminolysis_in"}, {"from": "chronic_kidney_disease", "to": "sirt6", "label": "is_protective_in"}, {"from": "oxidative_stress", "to": "senescence", "label": "is_induced_by"}, {"from": "oxidative_stress", "to": "sirt3", "label": "functions_in_aging"}, {"from": "oxidative_stress", "to": "sirt5", "label": "functions_in_aging"}, {"from": "cardiac_fibrosis", "to": "sirt7", "label": "promotes"}, {"from": "acute_kidney_injury", "to": "sirt3", "label": "is_protective_in"}, {"from": "acute_kidney_injury", "to": "sirt2", "label": "promotes"}, {"from": "acute_kidney_injury", "to": "sirt5", "label": "is_protective_in"}, {"from": "sirt7", "to": "breast_cancer", "label": "is_upregulated_in"}, {"from": "sirt7", "to": "nf_b", "label": "inhibits_nuclear_translocation_of"}, {"from": "sirt7", "to": "sirt1", "label": "inhibits_autocatalytic_activation_of"}, {"from": "sirt7", "to": "asthma", "label": "promotes_airway_remodeling_in"}, {"from": "sirt7", "to": "hif_1", "label": "inhibited_by"}, {"from": "diabetes_mellitus", "to": "sirt3", "label": "is_protective_in"}, {"from": "diabetes_mellitus", "to": "sirt6", "label": "is_protective_in"}, {"from": "diabetes_mellitus", "to": "sirt5", "label": "promotes"}, {"from": "sasp", "to": "cellular_senescence", "label": "is_secreted_by"}, {"from": "sasp", "to": "nf_b", "label": "regulates"}, {"from": "sasp", "to": "sirt1", "label": "is_repressed_by"}, {"from": "sasp", "to": "senescence", "label": "produces"}, {"from": "huntington_s_disease", "to": "sirt1", "label": "is_protective_in"}, {"from": "diabetic_nephropathy", "to": "sirt1", "label": "is_protective_in"}, {"from": "non_alcoholic_fatty_liver_disease", "to": "nicotinamide_riboside", "label": "protects_against"}, {"from": "non_alcoholic_fatty_liver_disease", "to": "sirt2", "label": "prevents"}, {"from": "sirt3", "to": "nicotinamide_riboside", "label": "activates"}, {"from": "sirt3", "to": "mitochondria", "label": "localizes_to"}, {"from": "sirt3", "to": "hif_1", "label": "inhibits"}, {"from": "sirt3", "to": "copd", "label": "inhibits_airway_epithelial_mitochondrial_oxidative_stress_in"}, {"from": "sirt3", "to": "nf_b", "label": "inhibited_by"}, {"from": "sirt3", "to": "lung_cancer", "label": "is_a_diagnostic_biomarker_for"}, {"from": "sirt3", "to": "covid_19", "label": "is_associated_with"}, {"from": "sirt3", "to": "acute_lung_injury", "label": "is_protective_in"}, {"from": "sirt3", "to": "liver_ischemia_reperfusion_injury", "label": "is_protective_in"}, {"from": "sirt3", "to": "osteoarthritis", "label": "has_a_dual_role_in"}, {"from": "sirt3", "to": "epilepsy", "label": "is_protective_in"}, {"from": "sirt3", "to": "kidney_fibrosis", "label": "is_protective_in"}, {"from": "sirt3", "to": "cellular_senescence", "label": "is_protective_in"}, {"from": "osteoarthritis", "to": "cellular_senescence", "label": "contributes_to"}, {"from": "osteoarthritis", "to": "sirt1", "label": "is_protective_in"}, {"from": "osteoarthritis", "to": "sirt2", "label": "is_protective_in"}, {"from": "glioma_tumour_formation", "to": "sirt2", "label": "suppresses"}, {"from": "osteoporosis", "to": "sirt1", "label": "is_protective_in"}, {"from": "osteoporosis", "to": "sirt6", "label": "is_protective_in"}, {"from": "sirt2", "to": "nf_b", "label": "inhibited_by"}, {"from": "sirt2", "to": "parkinson_s_disease", "label": "is_harmful_in"}, {"from": "sirt2", "to": "nad", "label": "activated_by"}, {"from": "sirt2", "to": "akt", "label": "inhibited_by"}, {"from": "sirt2", "to": "breast_cancer", "label": "is_downregulated_in"}, {"from": "sirt2", "to": "asthma", "label": "promotes"}, {"from": "sirt2", "to": "liver_ischemia_reperfusion_injury", "label": "is_harmful_in"}, {"from": "breast_cancer", "to": "sirt1", "label": "is_upregulated_in"}, {"from": "kidney_fibrosis", "to": "sirt1", "label": "is_protective_in"}, {"from": "ampk", "to": "sirt1", "label": "activates"}, {"from": "ampk", "to": "sirt6", "label": "upregulates"}, {"from": "ampk", "to": "sirt5", "label": "activates"}, {"from": "vascular_calcification", "to": "sirt6", "label": "suppresses"}, {"from": "mitochondria", "to": "sirt5", "label": "localizes_to"}, {"from": "nf_b", "to": "sirt1", "label": "inhibited_by"}, {"from": "nf_b", "to": "sirt6", "label": "inhibited_by"}, {"from": "lung_cancer", "to": "sirt6", "label": "has_a_dual_role_in"}, {"from": "cardiac_hypertrophy", "to": "sirt1", "label": "has_a_dual_role_in"}, {"from": "cardiac_hypertrophy", "to": "sirt6", "label": "is_protective_in"}, {"from": "gastric_cancer", "to": "sirt6", "label": "is_a_tumor_suppressor_in"}, {"from": "pancreatic_cancer_cells", "to": "sirt1", "label": "facilitates_chemoresistance_of"}, {"from": "parkinson_s_disease", "to": "sirt1", "label": "is_neuroprotective_in"}, {"from": "sirt1", "to": "nicotinamide_riboside", "label": "activates"}, {"from": "sirt1", "to": "dna_damage", "label": "relocalizes_to"}, {"from": "sirt1", "to": "senescence", "label": "prevents"}, {"from": "sirt1", "to": "hif_1", "label": "inhibits"}, {"from": "sirt1", "to": "copd", "label": "is_decreased_in"}, {"from": "sirt1", "to": "sirt6", "label": "activates"}, {"from": "sirt1", "to": "cellular_senescence", "label": "inhibits"}, {"from": "sirt1", "to": "atherosclerosis", "label": "is_protective_in"}, {"from": "cellular_senescence", "to": "sirt6", "label": "is_protective_in"}, {"from": "nad", "to": "nicotinamide_riboside", "label": "converts_to"}, {"from": "sirt6", "to": "dna_damage", "label": "relocalizes_to"}, {"from": "sirt6", "to": "hif_1", "label": "inhibits"}, {"from": "sirt6", "to": "atherosclerosis", "label": "protects_against_endothelial_dysfunction_and"}, {"from": "sirt6", "to": "asthma", "label": "ameliorates_airway_remodeling_in"}, {"from": "sirt6", "to": "heart_failure", "label": "is_protective_in"}, {"from": "sirt6", "to": "copd", "label": "is_decreased_in"}, {"from": "senescence", "to": "dna_damage", "label": "is_induced_by"}, {"from": "dna_damage", "to": "nicotinamide_riboside", "label": "prevents"}, {"from": "nicotinamide_riboside", "to": "heart_failure", "label": "protects_against"}] };
-
-  const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
-  function nodeColor(id){
-    if (sirtColor[id]) return sirtColor[id];
-    if (/alzheimer|parkinson|huntington|stroke|epilepsy/.test(id)) return '#9D8DF1';
-    if (/cardiac|heart|atheroscler|hypertroph|calcification|myocardial/.test(id)) return '#E4575E';
-    if (/copd|asthma|lung_injury|covid/.test(id)) return '#F5A65B';
-    if (/liver|hepatocell|pancreat|nafld|non_alcoholic/.test(id)) return '#E8A33D';
-    if (/cancer|glioma|cervical|colorectal|gastric|breast/.test(id)) return '#F283B2';
-    if (/diabetes|diabetic|obesity/.test(id)) return '#58D68D';
-    if (/kidney|renal|stones/.test(id)) return '#5DA8FF';
-    if (/osteo|osteoporosis|motor/.test(id)) return '#3EC9A7';
-    if (/senesc|sasp/.test(id)) return '#8b8bb0';
-    if (/nad|nicotinamide/.test(id)) return '#F5A65B';
-    if (/mitochondria|oxidative|ros/.test(id)) return '#58D68D';
-    return '#8b8bb0';
-  }
-
-  const svg = document.getElementById('netSvg');
-  const ns = 'http://www.w3.org/2000/svg';
-  const W = 1100, H = 560;
-
-  const byId = {}; DATA.nodes.forEach(n=>byId[n.id]=n);
-  const adj = {}; DATA.nodes.forEach(n=>adj[n.id]=new Set());
-  DATA.edges.forEach(e=>{ if(adj[e.from])adj[e.from].add(e.to); if(adj[e.to])adj[e.to].add(e.from); });
-
-  DATA.nodes.forEach((n,i)=>{
-    n.x = W/2 + (Math.random()-0.5)*360;
-    n.y = H/2 + (Math.random()-0.5)*260;
-    n.vx=0; n.vy=0;
-  });
-
-  function step(){
-    const k = 0.02, rep = 1400, spring = 0.08;
-    DATA.nodes.forEach(a=>{
-      DATA.nodes.forEach(b=>{
-        if(a===b) return;
-        let dx = a.x-b.x, dy = a.y-b.y;
-        let d2 = dx*dx+dy*dy+0.01, d = Math.sqrt(d2);
-        let f = rep/d2;
-        a.vx += (dx/d)*f; a.vy += (dy/d)*f;
-      });
-      a.vx += (W/2 - a.x)*k*1.2; a.vy += (H/2 - a.y)*k*1.2;
-      a.vx *= 0.6; a.vy *= 0.6;
-    });
-    DATA.edges.forEach(e=>{
-      const a = byId[e.from], b = byId[e.to];
-      let dx = b.x-a.x, dy = b.y-a.y, d = Math.sqrt(dx*dx+dy*dy)+0.001;
-      let f = (d-70)*spring;
-      a.vx += (dx/d)*f; a.vy += (dy/d)*f;
-      b.vx -= (dx/d)*f; b.vy -= (dy/d)*f;
-    });
-    DATA.nodes.forEach(n=>{ n.x += n.vx; n.y += n.vy; n.x=Math.max(30,Math.min(W-30,n.x)); n.y=Math.max(30,Math.min(H-30,n.y)); });
-  }
-  for(let i=0;i<220;i++) step();
-
-  function showTip(t){ document.getElementById('netTip').style.display='block'; document.getElementById('netTip').innerHTML=t; }
-  function moveTip(ev){ const t=document.getElementById('netTip'); t.style.left=(ev.clientX+14)+'px'; t.style.top=(ev.clientY+10)+'px'; }
-  function hideTip(){ document.getElementById('netTip').style.display='none'; }
-  function tipTap(ev, html){
-    const tc = ev.touches && ev.touches[0];
-    const t = document.getElementById('netTip');
-    t.style.display='block'; t.innerHTML=html;
-    if (tc){ t.style.left=(tc.clientX+14)+'px'; t.style.top=(tc.clientY+10)+'px'; }
-    ev.stopPropagation();
-  }
-
-  function render(){
-    const byId2 = {}; DATA.nodes.forEach(n=>byId2[n.id]=n);
-    let edgeMarkup = '';
-    DATA.edges.forEach(e=>{
-      const a=byId2[e.from], b=byId2[e.to];
-      edgeMarkup += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="#2a2a4e" stroke-width="1" data-f="${e.from}" data-t="${e.to}"/>`;
-    });
-    svg.innerHTML = edgeMarkup;
-
-    DATA.nodes.forEach(n=>{
-      const r = 5 + Math.sqrt(n.degree)*3.2;
-      const c = nodeColor(n.id);
-      const g = document.createElementNS(ns,'g');
-      g.setAttribute('data-id', n.id);
-      g.setAttribute('class','n');
-      g.style.cursor='grab';
-      const circle = document.createElementNS(ns,'circle');
-      circle.setAttribute('cx', n.x); circle.setAttribute('cy', n.y); circle.setAttribute('r', r);
-      circle.setAttribute('fill', c); circle.setAttribute('fill-opacity', n.id.startsWith('sirt')?0.95:0.5);
-      circle.setAttribute('stroke', c); circle.setAttribute('stroke-width', n.id.startsWith('sirt')?2:0.8);
-      g.appendChild(circle);
-      if (n.id.startsWith('sirt') || n.degree>=4){
-        const t = document.createElementNS(ns,'text');
-        t.setAttribute('x', n.x); t.setAttribute('y', n.y - r - 4); t.setAttribute('text-anchor','middle');
-        t.setAttribute('font-size', n.id.startsWith('sirt')?'13':'10'); t.setAttribute('font-weight', n.id.startsWith('sirt')?'700':'400');
-        t.setAttribute('fill', n.id.startsWith('sirt')?c:'#c9c9dd');
-        t.textContent = n.label;
-        g.appendChild(t);
-      }
-      g.addEventListener('mousedown', ev=>{
-        ev.preventDefault();
-        const svgRect = svg.getBoundingClientRect();
-        const sx = (ev.clientX-svgRect.left)/svgRect.width*W, sy=(ev.clientY-svgRect.top)/svgRect.height*H;
-        function m(ev2){
-          const rect = svg.getBoundingClientRect();
-          n.x = (ev2.clientX-rect.left)/rect.width*W; n.y=(ev2.clientY-rect.top)/rect.height*H;
-          render();
-        }
-        function u(){ window.removeEventListener('mousemove',m); window.removeEventListener('mouseup',u); }
-        window.addEventListener('mousemove',m); window.addEventListener('mouseup',u);
-      });
-      g.addEventListener('mouseenter', ev=>{
-        svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=0.15; });
-        g.style.opacity=1;
-        const nb = adj[n.id]||new Set();
-        svg.querySelectorAll('line').forEach(l=>{
-          if (l.getAttribute('data-f')===n.id || l.getAttribute('data-t')===n.id){ l.setAttribute('stroke','#5a5a8a'); l.setAttribute('stroke-width','2'); }
-        });
-        svg.querySelectorAll('.n').forEach(x=>{ if(nb.has(x.getAttribute('data-id')) || x===g) x.style.opacity=1; });
-        const neighbors = [...nb].map(id=>byId[id]?.label||id);
-        showTip(`<b style="color:${c}">${n.label}</b><br>度數 ${n.degree}<br><span style="color:var(--dim)">${neighbors.length?'連接：'+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'子圖中無連接邊'}</span>`);
-      });
-      g.addEventListener('touchstart', ev=>{
-        const neighbors = [...(adj[n.id]||[])].map(id=>byId[id]?.label||id);
-        tipTap(ev, `<b style="color:${c}">${n.label}</b><br>度數 ${n.degree}<br><span style="color:var(--dim)">${neighbors.length?'連接：'+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'子圖中無連接邊'}</span>`);
-      });
-      g.addEventListener('mousemove', moveTip);
-      g.addEventListener('mouseleave', ev=>{
-        svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=1; });
-        svg.querySelectorAll('line').forEach(l=>{ l.setAttribute('stroke','#2a2a4e'); l.setAttribute('stroke-width','1'); });
-        hideTip();
-      });
-      g.addEventListener('click', ev=>{
-        if(ev.detail>1) return;
-        const nb = adj[n.id]||new Set();
-        svg.querySelectorAll('.n').forEach(x=>{
-          const id=x.getAttribute('data-id');
-          x.style.opacity = (id===n.id||nb.has(id))?1:0.06;
-        });
-        svg.querySelectorAll('line').forEach(l=>{
-          const on = l.getAttribute('data-f')===n.id||l.getAttribute('data-t')===n.id;
-          l.setAttribute('stroke', on? '#5a5a8a':'#1a1a30'); l.setAttribute('stroke-width', on?'2':'0.6');
-        });
-      });
-      svg.appendChild(g);
-    });
-    scaleDiagramText(svg);
-  }
-  render();
-
-  document.getElementById('netStats').textContent = DATA.nodes.length + ' 個節點 · ' + DATA.edges.length + ' 條邊 (graphify-out/graph.json)';
-  const lg = document.getElementById('netLegend');
-  const legendDefs = [['sirt1','SIRT 樞紐'],['#9D8DF1','神經退化'],['#E4575E','心血管'],['#F5A65B','呼吸／NAD+'],['#E8A33D','肝臟／消化'],['#F283B2','癌症'],['#58D68D','內分泌／粒線體'],['#5DA8FF','腎臟'],['#3EC9A7','肌肉骨骼'],['#8b8bb0','衰老／機制']];
-  lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${c}"></span> ${l}</span>`).join('');
-
-  document.getElementById('netReset').addEventListener('click', ()=>{
-    DATA.nodes.forEach(n=>{ n.x=W/2+(Math.random()-0.5)*360; n.y=H/2+(Math.random()-0.5)*260; n.vx=0; n.vy=0; });
-    for(let i=0;i<220;i++) step();
-    render();
-  });
-})();
-
-function showTip(t){ const el=document.getElementById('netTip'); el.style.display='block'; el.innerHTML=t; }
-function moveTip(ev){ const el=document.getElementById('netTip'); el.style.left=(ev.clientX+14)+'px'; el.style.top=(ev.clientY+10)+'px'; }
-function hideTip(){ document.getElementById('netTip').style.display='none'; }
-['spectrumSvg','matrixSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
-document.addEventListener('touchstart', ()=>hideTip(), true);
-window.addEventListener('scroll', hideTip, true);
-
-/* ============================= COPY DIAGRAM AS PNG ============================= */
-function svgToPngBlob(svgId, scale){
-  const svg = document.getElementById(svgId);
-  const clone = svg.cloneNode(true);
-  clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
-  clone.setAttribute('xmlns:xlink','http://www.w3.org/1999/xlink');
-  const vb = svg.viewBox.baseVal;
-  const w = vb.width, h = vb.height;
-  clone.setAttribute('width', w);
-  clone.setAttribute('height', h);
-  const svgCS = getComputedStyle(svg);
-  let bg = '';
-  const sBgImage = svgCS.backgroundImage && svgCS.backgroundImage !== 'none' ? svgCS.backgroundImage : '';
-  const sBgColor = svgCS.backgroundColor && svgCS.backgroundColor !== 'rgba(0, 0, 0, 0)' ? svgCS.backgroundColor : '';
-  if (sBgImage) bg = sBgImage;
-  else if (sBgColor) bg = sBgColor;
-  else {
-    const card = svg.closest('.spectrum-card');
-    const cCS = card ? getComputedStyle(card) : null;
-    bg = cCS && cCS.backgroundColor ? cCS.backgroundColor : 'transparent';
-  }
-  const xml = new XMLSerializer().serializeToString(clone);
-  const url = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(xml);
-  return new Promise((resolve, reject)=>{
-    const img = new Image();
-    img.onload = ()=>{
-      const canvas = document.createElement('canvas');
-      canvas.width = w*scale; canvas.height = h*scale;
-      const ctx = canvas.getContext('2d');
-      ctx.scale(scale, scale);
-      if (bg && bg !== 'transparent'){ ctx.fillStyle = bg; ctx.fillRect(0,0,w,h); }
-      ctx.drawImage(img, 0, 0, w, h);
-      canvas.toBlob(b=> b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
-    };
-    img.onerror = ()=>reject(new Error('svg-load'));
-    img.src = url;
-  });
+const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
+function nodeColor(id){
+  if (sirtColor[id]) return sirtColor[id];
+  if (/alzheimer|parkinson|huntington|stroke|epilepsy/.test(id)) return '#9D8DF1';
+  if (/cardiac|heart|atheroscler|hypertroph|calcification|myocardial/.test(id)) return '#E4575E';
+  if (/copd|asthma|lung_injury|covid/.test(id)) return '#F5A65B';
+  if (/liver|hepatocell|pancreat|nafld|non_alcoholic/.test(id)) return '#E8A33D';
+  if (/cancer|glioma|cervical|colorectal|gastric|breast/.test(id)) return '#F283B2';
+  if (/diabetes|diabetic|obesity/.test(id)) return '#58D68D';
+  if (/kidney|renal|stones/.test(id)) return '#5DA8FF';
+  if (/osteo|osteoporosis|motor/.test(id)) return '#3EC9A7';
+  if (/senesc|sasp/.test(id)) return '#8b8bb0';
+  if (/nad|nicotinamide/.test(id)) return '#F5A65B';
+  if (/mitochondria|oxidative|ros/.test(id)) return '#58D68D';
+  return '#8b8bb0';
 }
-document.querySelectorAll('.copy-btn').forEach(btn=>{
-  btn.addEventListener('click', async ()=>{
-    const svgId = btn.getAttribute('data-copy');
-    const origTitle = btn.getAttribute('title') || '複製為 PNG';
-    const origIcon = btn.innerHTML;
-    btn.disabled = true;
-    try {
-      const blob = await svgToPngBlob(svgId, 2);
-      if (navigator.clipboard && window.ClipboardItem){
-        await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
-        btn.classList.add('ok');
-        btn.title = '已複製 ✓';
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
-      } else {
-        throw new Error('clipboard-unsupported');
-      }
-    } catch (err) {
-      try {
-        const blob = await svgToPngBlob(svgId, 2);
-        const a = document.createElement('a');
-        a.download = svgId + '.png';
-        a.href = URL.createObjectURL(blob);
-        a.click();
-        URL.revokeObjectURL(a.href);
-        btn.classList.add('ok');
-        btn.title = '已下載 PNG';
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
-      } catch (_) {
-        btn.classList.add('err');
-        btn.title = '複製失敗';
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-      }
-    }
-    btn.disabled = false;
-    setTimeout(()=>{ btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok','err'); }, 1800);
-  });
-});
+const legendDefs = [['sirt1','SIRT 樞紐'],['#9D8DF1','神經退化'],['#E4575E','心血管'],['#F5A65B','呼吸／NAD+'],['#E8A33D','肝臟／消化'],['#F283B2','癌症'],['#58D68D','內分泌／粒線體'],['#5DA8FF','腎臟'],['#3EC9A7','肌肉骨骼'],['#8b8bb0','衰老／機制']];
+renderNetwork('netSvg', netData, nodeColor, legendDefs);
+
+['spectrumSvg','matrixSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
 /* ===================== DISEASE BREAKDOWN ===================== */
 (function diseases(){
   const SYS = [

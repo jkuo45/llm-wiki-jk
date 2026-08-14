@@ -4,120 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SIRT Pleiotropy Explorer — Tumor Metabolism &amp; Therapeutics</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
 <style>
-  :root{
-    --bg:#0f0f1a; --bg2:#16162b; --card:#1a1a2e; --line:#2a2a4e; --line2:#3a3a5e;
-    --text:#e0e0e0; --dim:#9a9ab0; --mute:#6b6b85;
-    --teal:#3EC9A7; --red:#E4575E; --amber:#E8A33D; --purple:#9D8DF1; --blue:#5DA8FF; --pink:#F283B2;
-    --green:#58D68D; --orange:#F5A65B;
-  }
-  *{box-sizing:border-box; margin:0; padding:0;}
-  html{scroll-behavior:smooth;}
-  html,body{overflow-x:hidden; overflow-x:clip;}
-  body{
-    background:var(--bg); color:var(--text);
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  }
-  a{color:var(--teal); text-decoration:none;}
-  a:hover{text-decoration:underline;}
-  code{background:#23233f; padding:1px 6px; border-radius:4px; font-size:.9em; overflow-wrap:anywhere;}
-  .wrap{max-width:1200px; margin:0 auto; padding:0 24px;}
-  section{padding:56px 0; border-top:1px solid var(--line); scroll-margin-top:60px;}
-  h1{font-size:2.3rem; line-height:1.2; letter-spacing:-.5px;}
-  h2{font-size:1.5rem; margin-bottom:6px; letter-spacing:-.3px;}
-  h3{font-size:1.05rem; margin:18px 0 8px;}
-  .sub{color:var(--dim);}
-  .lead{color:var(--dim); max-width:900px; font-size:1.05rem;}
-  .badge{display:inline-block; background:#23233f; border:1px solid var(--line); color:var(--dim);
-    padding:2px 10px; border-radius:999px; font-size:.75rem; margin-right:6px; margin-bottom:6px;}
-  .badge.teal{color:var(--teal); border-color:var(--teal);}
-  .badge.red{color:var(--red); border-color:var(--red);}
-  .grid{display:grid; gap:16px;}
-  .g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
-  .g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
-  .g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));}
-  .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px;}
-  .card h3{margin-top:0;}
-  .kicker{text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--teal); margin-bottom:8px; font-weight:700;}
-  /* nav */
-  nav{position:sticky; top:0; z-index:50; background:rgba(15,15,26,.92); backdrop-filter:blur(8px);
-    border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex; align-items:center; gap:18px; overflow-x:auto; white-space:nowrap; height:52px;}
-  nav .brand{font-weight:700; color:var(--text); margin-right:6px;}
-  nav a.brand:hover{color:var(--teal); text-decoration:none;}
-  nav a.n{color:var(--dim); font-size:.85rem;}
-  nav a.n:hover{color:var(--teal); text-decoration:none;}
-  nav a.back-home{display:inline-block; margin-right:4px; color:var(--text); font-size:.85rem; font-weight:700; background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px;}
-  nav a.back-home:hover{color:var(--teal); border-color:var(--teal); text-decoration:none;}
-  body.embedded nav a.back-home{display:none;}
-  /* hero */
-  header{padding:64px 0 40px;}
-  header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
-  .pill-row{margin-top:14px;}
-  /* spectrum */
-  .spectrum-card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;}
-  #spectrumSvg{width:100%; height:auto; display:block;}
-  .legend{display:flex; flex-wrap:wrap; gap:14px; font-size:.8rem; color:var(--dim); margin-top:10px;}
-  .legend span{display:flex; align-items:center; gap:6px;}
-  .sw{width:12px; height:12px; border-radius:3px; display:inline-block;}
-  /* compartment map */
-  #compSvg{width:100%; height:auto;}
-  /* matrix */
-  #matrixSvg{width:100%; height:auto;}
-  /* network */
-  .net-head{display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:8px;}
-  #netSvg{width:100%; height:560px; background:radial-gradient(circle at 50% 45%, #191934 0%, #0f0f1a 70%); border:1px solid var(--line); border-radius:12px;}
-  .net-legend{display:flex; flex-wrap:wrap; gap:10px; font-size:.75rem; color:var(--dim); margin-top:8px;}
-  #netTip{position:fixed; pointer-events:none; background:#23233f; border:1px solid var(--line2);
-    padding:8px 12px; border-radius:8px; font-size:.78rem; max-width:320px; display:none; box-shadow:0 6px 24px rgba(0,0,0,.5); z-index:60;}
-  /* sirt cards */
-  .sirt-card{border-radius:14px; border:1px solid var(--line); background:var(--card); overflow:hidden;}
-  .sirt-head{padding:16px 20px; display:flex; align-items:flex-start; gap:12px; border-bottom:1px solid var(--line);}
-  .sirt-head h3{font-size:1.15rem; margin:0; min-width:64px; line-height:1.25; flex-shrink:0;}
-  .sirt-head .tagline{flex:1; min-width:0; color:var(--dim); font-size:.78rem;}
-  .sirt-head .comp{color:var(--dim); font-size:.8rem; margin-left:auto; text-align:right; white-space:nowrap; flex-shrink:0; line-height:1.4;}
-  .sirt-body{padding:16px 20px;}
-  .faces{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
-  .face{padding:12px; border-radius:10px; font-size:.85rem;}
-  .face.suppress{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
-  .face.onco{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
-  .face h4{font-size:.78rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;}
-  .face.suppress h4{color:var(--green);}
-  .face.onco h4{color:var(--red);}
-  .face ul{padding-left:16px; margin:0;}
-  .face li{margin-bottom:5px;}
-  .context{padding:12px; border-radius:10px; background:#23233f; border:1px solid var(--line); font-size:.82rem; margin-top:12px;}
-  .context b{color:var(--amber);}
-  /* therapeutic table */
-  .tbl-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:12px; max-height:520px; overflow-y:auto;}
-  table{border-collapse:collapse; width:100%; font-size:.83rem;}
-  th,td{padding:8px 12px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap;}
-  th{position:sticky; top:0; background:var(--bg2); color:var(--dim); font-size:.72rem; text-transform:uppercase; letter-spacing:1px; z-index:2;}
-  tbody tr:hover{background:#202038;}
-  td .mod-act{color:var(--green);}
-  td .mod-inh{color:var(--red);}
-  td .mod-ind{color:var(--blue);}
-  .stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
-  .stage.prec{color:var(--amber); border-color:var(--amber);}
-  .stage.phase{color:var(--blue); border-color:var(--blue);}
-  .stage.ct{color:var(--teal); border-color:var(--teal);}
-  .stage.appr{color:var(--green); border-color:var(--green);}
-  /* patterns */
-  .pattern{border-left:3px solid var(--teal); padding:4px 0 4px 16px; margin-bottom:14px;}
-  .pattern b{color:var(--teal);}
-  .caveat{background:rgba(232,163,61,.08); border:1px solid rgba(232,163,61,.3); border-radius:12px; padding:18px 22px; margin-top:24px;}
-  .caveat b{color:var(--amber);}
-  footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute); font-size:.8rem;}
-  .btn{display:inline-block; background:var(--teal); color:#0b1220; font-weight:700; padding:8px 18px; border-radius:8px; font-size:.85rem; cursor:pointer; border:none;}
-  .btn:hover{filter:brightness(1.1); text-decoration:none;}
-  .copy-btn{position:absolute; right:8px; bottom:8px; z-index:5; width:34px; height:34px; display:flex; align-items:center; justify-content:center;
-    background:rgba(35,35,63,.9); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:6px; backdrop-filter:blur(4px);}
-  .copy-btn:hover{border-color:var(--teal); filter:brightness(1.15);}
-  .copy-btn:disabled{opacity:.7; cursor:wait;}
-  .copy-btn svg{width:100%; height:100%; display:block;}
-  .copy-btn.ok{color:var(--green); border-color:var(--green);}
-  .copy-btn.err{color:var(--red); border-color:var(--red);}
-  @media (max-width:720px){ .faces{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} }
+:root{--wrap-width:1200px;}
+/* compartment map */
+#compSvg{width:100%; height:auto;}
+/* face variant: suppress/onco */
+.face.suppress{background:rgba(88,214,141,.08); border:1px solid rgba(88,214,141,.25);}
+.face.onco{background:rgba(228,87,94,.08); border:1px solid rgba(228,87,94,.25);}
+.face.suppress h4{color:var(--green);}
+.face.onco h4{color:var(--red);}
+/* therapeutic modifiers */
+td .mod-act{color:var(--green);}
+td .mod-inh{color:var(--red);}
+td .mod-ind{color:var(--blue);}
+/* stage badges */
+.stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:#23233f; border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
+.stage.prec{color:var(--amber); border-color:var(--amber);}
+.stage.phase{color:var(--blue); border-color:var(--blue);}
+.stage.ct{color:var(--teal); border-color:var(--teal);}
+.stage.appr{color:var(--green); border-color:var(--green);}
 </style>
 </head>
 <body>
@@ -651,23 +558,12 @@
   </div>
 </footer>
 
+<script src="shared/pages-core.js"></script>
+<script src="shared/pages-svg.js"></script>
+<script src="shared/render-spectrum.js"></script>
+<script src="shared/render-matrix.js"></script>
+<script src="shared/render-network.js"></script>
 <script>
-"use strict";
-
-if (window.self !== window.top) {
-  document.body.classList.add('embedded');
-}
-
-/* ============================= DATA ============================= */
-
-const DIAGRAM_TEXT_SCALE = 1.5;
-function scaleDiagramText(svg){
-  svg.querySelectorAll('text').forEach(t=>{
-    const s = parseFloat(t.getAttribute('font-size'));
-    if (s) t.setAttribute('font-size', (s*DIAGRAM_TEXT_SCALE).toFixed(1));
-  });
-}
-
 const SIRTS = [
  {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'Nucleus + cytosol', score:0,  range:2.6,
   net:'Archetypal double-edged sword',
@@ -745,71 +641,7 @@ const MATRIX = {
 const MECH = {};
 sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][i+1]); } });
 
-/* ============================= SPECTRUM CHART ============================= */
-(function spectrum(){
-  const svg = document.getElementById('spectrumSvg');
-  const W = 1000, mid = W/2, scale = 120;
-  const padL = 150, padR = 150;
-  const barH = 34, rowGap = 20;
-  const H = 54 + SIRTS.length*(barH + rowGap + 20) + 62;
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  let y = 54;
-  const defs = document.createElementNS('http://www.w3.org/2000/svg','defs');
-  defs.innerHTML = '<linearGradient id="gradSupp" x1="0" x2="1"><stop offset="0" stop-color="#58D68D" stop-opacity=".05"/><stop offset="1" stop-color="#3EC9A7"/></linearGradient>'+
-                   '<linearGradient id="gradOnco" x1="1" x2="0"><stop offset="0" stop-color="#E4575E" stop-opacity=".05"/><stop offset="1" stop-color="#E4575E"/></linearGradient>';
-  svg.appendChild(defs);
-  // center axis
-  svg.innerHTML += `<line x1="${mid}" y1="30" x2="${mid}" y2="${H-40}" stroke="#2a2a4e" stroke-width="2"/>` +
-                   `<text x="${mid}" y="${H-24}" text-anchor="middle" fill="#9a9ab0" font-size="13" font-weight="600">ONCOGENIC / pro-tumor</text>` +
-                   `<text x="${mid}" y="${H-8}" text-anchor="middle" fill="#6b6b85" font-size="11">center = fully context-dependent</text>` +
-                   `<text x="${mid-24}" y="44" text-anchor="end" fill="#E4575E" font-size="12" font-weight="700">← oncogenic</text>` +
-                   `<text x="${mid+24}" y="44" text-anchor="start" fill="#58D68D" font-size="12" font-weight="700">tumor-suppressive →</text>`;
-
-  function showTip(t){ document.getElementById('netTip').style.display='block'; document.getElementById('netTip').innerHTML=t; }
-  function moveTip(ev){ const t=document.getElementById('netTip'); t.style.left=(ev.clientX+14)+'px'; t.style.top=(ev.clientY+10)+'px'; }
-  function hideTip(){ document.getElementById('netTip').style.display='none'; }
-  function tipTap(ev, html){
-    const tc = ev.touches && ev.touches[0];
-    const t = document.getElementById('netTip');
-    t.style.display='block'; t.innerHTML=html;
-    if (tc){ t.style.left=(tc.clientX+14)+'px'; t.style.top=(tc.clientY+10)+'px'; }
-    ev.stopPropagation();
-  }
-
-  SIRTS.forEach(s=>{
-    const x = mid + s.score*scale;
-    const lo = mid + (s.score - s.range)*scale;
-    const hi = mid + (s.score + s.range)*scale;
-    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
-    // context window
-    const win = document.createElementNS('http://www.w3.org/2000/svg','rect');
-    win.setAttribute('x', Math.min(lo,hi)); win.setAttribute('y', y+4); win.setAttribute('width', Math.abs(hi-lo));
-    win.setAttribute('height', barH-8); win.setAttribute('rx', 8); win.setAttribute('fill','#23233f'); win.setAttribute('stroke','#3a3a5e'); win.setAttribute('stroke-width','1');
-    // bar
-    const wbar = document.createElementNS('http://www.w3.org/2000/svg','rect');
-    const left = s.score<0, w = Math.abs(s.score)*scale;
-    wbar.setAttribute('x', left? x : mid); wbar.setAttribute('y', y+4); wbar.setAttribute('width', Math.max(w,6)); wbar.setAttribute('height', barH-8);
-    wbar.setAttribute('rx',8); wbar.setAttribute('fill', left? 'url(#gradOnco)' : 'url(#gradSupp)'); wbar.setAttribute('stroke', left? '#E4575E':'#3EC9A7'); wbar.setAttribute('stroke-width','1.2');
-    // label
-    const lab = document.createElementNS('http://www.w3.org/2000/svg','text');
-    lab.setAttribute('x', padL); lab.setAttribute('y', y+barH/2+5); lab.setAttribute('text-anchor','end');
-    lab.setAttribute('font-size','16'); lab.setAttribute('font-weight','700'); lab.setAttribute('fill', s.color);
-    lab.textContent = s.id;
-    // net caption
-    const cap = document.createElementNS('http://www.w3.org/2000/svg','text');
-    cap.setAttribute('x', mid); cap.setAttribute('y', y+barH+14); cap.setAttribute('text-anchor','middle');
-    cap.setAttribute('font-size','10.5'); cap.setAttribute('fill','#6b6b85');
-    cap.textContent = s.net;
-    g.appendChild(win); g.appendChild(wbar); g.appendChild(lab); g.appendChild(cap);
-    g.style.cursor='pointer';
-    g.addEventListener('mouseenter', ()=>showTip(`<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
-    g.addEventListener('mousemove', moveTip);
-    g.addEventListener('mouseleave', hideTip);
-    g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${s.color}">${s.id}</b> — ${s.net}<br><span style="color:var(--dim)">${s.rationale}</span>`));
-    svg.appendChild(g);
-    y += barH + rowGap + 20;
-  });
-})();
+renderSpectrum('spectrumSvg', SIRTS, {top:'ONCOGENIC / pro-tumor', center:'center = fully context-dependent', left:'← oncogenic', right:'tumor-suppressive →'});
 
 /* ============================= COMPARTMENT MAP ============================= */
 (function compartment(){
@@ -860,344 +692,162 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
   svg.innerHTML = nuc + s6 + s1 + cyto + s2 + mito + m3 + m4 + m5 + mnote + foot;
 })();
 
-/* ============================= MATRIX ============================= */
-(function matrix(){
-  const svg = document.getElementById('matrixSvg');
-  const W=920, top=90, left=92, cw=150, ch=84, rh=72;
-  const lastBottom = top + (sirtOrder.length-1)*rh + (ch-16);
-  const pad = top - 56;
-  const H = lastBottom + pad;
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  // axis labels (top)
-  AXES.forEach((a,i)=>{
-    const cx = left + i*cw + cw/2;
-    const parts = a.split(' / ');
-    let label = '';
-    if (parts.length > 1){
-      label += `<text x="${cx}" y="${top-62}" text-anchor="middle" fill="#9a9ab0" font-size="12" font-weight="600"><tspan x="${cx}">${parts[0]}</tspan><tspan x="${cx}" dy="15">${parts[1]}</tspan></text>`;
-    } else {
-      label += `<text x="${cx}" y="${top-55}" text-anchor="middle" fill="#9a9ab0" font-size="12" font-weight="600">${a}</text>`;
-    }
-    svg.innerHTML += label +
-      `<line x1="${cx}" y1="${top-40}" x2="${cx}" y2="${top+sirtOrder.length*rh-10}" stroke="#23233f" stroke-width="1"/>`;
-  });
-  sirtOrder.forEach((s,row)=>{
-    const y = top + row*rh;
-    svg.innerHTML += `<text x="${left-14}" y="${y+rh/2+5}" text-anchor="end" fill="${SIRTS.find(x=>x.id===s).color}" font-size="16" font-weight="700">${s}</text>`;
-    AXES.forEach((a,col)=>{
-      const val = MATRIX[s][0][col];
-      const cell = MECH[s][col];
-      const x = left + col*cw, cx = x + cw/2, cy = y + rh/2;
-      let fill, stroke, txtcol, sym;
-      if (val==='D') { fill='rgba(232,163,61,.12)'; stroke='#E8A33D'; txtcol='#E8A33D'; sym='⇄'; }
-      else if (+val>0) { fill=`rgba(88,214,141,${0.06+0.10*val})`; stroke='#58D68D'; txtcol='#58D68D'; sym='+' .repeat(+val); }
-      else if (+val<0) { const v=-val; fill=`rgba(228,87,94,${0.06+0.10*v})`; stroke='#E4575E'; txtcol='#E4575E'; sym='−'.repeat(v); }
-      else { fill='rgba(224,224,224,.04)'; stroke='#3a3a5e'; txtcol='#6b6b85'; sym='·'; }
-      const g = document.createElementNS('http://www.w3.org/2000/svg','g');
-      const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
-      r.setAttribute('x', x+8); r.setAttribute('y', y+8); r.setAttribute('width', cw-16); r.setAttribute('height', rh-16); r.setAttribute('rx',10);
-      r.setAttribute('fill', fill); r.setAttribute('stroke', stroke); r.setAttribute('stroke-width','1.2');
-      const t1 = document.createElementNS('http://www.w3.org/2000/svg','text');
-      t1.setAttribute('x', cx); t1.setAttribute('y', cy+5); t1.setAttribute('text-anchor','middle'); t1.setAttribute('font-size','18'); t1.setAttribute('font-weight','800'); t1.setAttribute('fill', txtcol);
-      t1.textContent = sym;
-      g.appendChild(r); g.appendChild(t1);
-      g.style.cursor='pointer';
-      g.addEventListener('mouseenter',()=>showTip(`<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`));
-      g.addEventListener('mousemove', moveTip);
-      g.addEventListener('mouseleave', hideTip);
-      g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${stroke}">${s} × ${a}</b> — ${cell.des}<br><span style="color:var(--dim)">${cell.txt}</span>`));
-      svg.appendChild(g);
-    });
-  });
-})();
+renderMatrix('matrixSvg', AXES, sirtOrder, SIRTS, MATRIX, MECH, {W:920, left:92, cw:150, labelFontSize:'12', cellFontSize:'18', cellPadX:8, cellPadW:16});
 
-/* ============================= KNOWLEDGE GRAPH ============================= */
-(function network(){
-  const DATA = { nodes: [
-    {id:"sirt1",label:"SIRT1",degree:19,community:"SIRT1"},
-    {id:"sirt2",label:"SIRT2",degree:10,community:"SIRT2"},
-    {id:"sirt3",label:"SIRT3",degree:17,community:"SIRT3"},
-    {id:"sirt4",label:"SIRT4",degree:11,community:"SIRT4"},
-    {id:"sirt5",label:"SIRT5",degree:4,community:"SIRT5"},
-    {id:"sirt6",label:"SIRT6",degree:13,community:"SIRT6"},
-    {id:"sirt7",label:"SIRT7",degree:7,community:"SIRT7"},
-    {id:"glycolysis_warburg_effect",label:"Glycolysis (Warburg)",degree:1,community:"SIRT6"},
-    {id:"glycolysis",label:"Glycolysis",degree:2,community:"p53"},
-    {id:"glutaminolysis",label:"Glutaminolysis",degree:1,community:"SIRT5"},
-    {id:"glutamine_metabolism",label:"Glutamine metabolism",degree:1,community:"SIRT4"},
-    {id:"gdh_glutamate_dehydrogenase",label:"GDH (Glutamate Dehydrogenase)",degree:1,community:"SIRT4"},
-    {id:"glutamate_dehydrogenase",label:"Glutamate dehydrogenase",degree:1,community:"SIRT4"},
-    {id:"hif_1",label:"HIF-1α",degree:3,community:"Cancer Stem Cells"},
-    {id:"hif_2",label:"HIF-2α",degree:1,community:"SIRT1"},
-    {id:"pgc_1",label:"PGC-1α",degree:1,community:"AMPK"},
-    {id:"pyruvate_dehydrogenase",label:"Pyruvate Dehydrogenase",degree:1,community:"SIRT4"},
-    {id:"pyruvate_dehydrogenase_e1",label:"PDH E1α",degree:1,community:"SIRT3"},
-    {id:"pyruvate_dehydrogenase_pdh",label:"Pyruvate Dehydrogenase (PDH)",degree:1,community:"SIRT3"},
-    {id:"sod2",label:"SOD2",degree:2,community:"Mitochondrial ROS"},
-    {id:"mnsod",label:"MnSOD",degree:3,community:"Peroxynitrite"},
-    {id:"mnsod_k68_k122",label:"MnSOD (K68, K122)",degree:1,community:"SIRT3"},
-    {id:"idh2",label:"IDH2",degree:1,community:"SIRT3"},
-    {id:"reactive_oxygen_species",label:"Reactive Oxygen Species",degree:2,community:"Reactive Oxygen Species"},
-    {id:"mitochondrial_ros",label:"Mitochondrial ROS",degree:4,community:"Mitochondrial ROS"},
-    {id:"srebp_1c",label:"SREBP-1c",degree:2,community:"Atherosclerosis"},
-    {id:"srebp2",label:"SREBP2",degree:1,community:"SIRT6"},
-    {id:"chrebp",label:"ChREBP",degree:2,community:"SIRT6"},
-    {id:"acecs1_cytoplasmic_acetyl_coa_synthetase",label:"AceCS1 (cytosolic)",degree:1,community:"SIRT1"},
-    {id:"acecs2_mitochondrial_acetyl_coa_synthetase",label:"AceCS2 (mito)",degree:1,community:"SIRT3"},
-    {id:"foxo1",label:"FOXO1",degree:4,community:"FOXO1"},
-    {id:"foxo3a",label:"FOXO3a",degree:3,community:"SIRT2"},
-    {id:"p53",label:"p53",degree:5,community:"p53"},
-    {id:"ku70",label:"Ku70",degree:1,community:"SIRT1"},
-    {id:"nf_b",label:"NF-κB",degree:9,community:"NF-κB"},
-    {id:"rela_p65_nf_b_subunit",label:"RelA/p65 (NF-κB)",degree:1,community:"SIRT1"},
-    {id:"survivin",label:"Survivin",degree:2,community:"Caspase-3"},
-    {id:"c_myc",label:"c-Myc",degree:1,community:"Cellular Reprogramming"},
-    {id:"n_myc_and_c_myc",label:"N-Myc and c-Myc",degree:1,community:"SIRT2"},
-    {id:"slug_emt_transcription_factor",label:"Slug (EMT)",degree:1,community:"SIRT2"},
-    {id:"brca1",label:"BRCA1",degree:1,community:"SIRT2"},
-    {id:"ldhb",label:"LDHB",degree:1,community:"SIRT5"},
-    {id:"rna_polymerase_i_transcription",label:"RNA Pol I transcription",degree:1,community:"SIRT7"},
-    {id:"rrna_transcription",label:"rRNA transcription",degree:1,community:"SIRT7"},
-    {id:"h3k18",label:"H3K18",degree:1,community:"SIRT7"},
-    {id:"h3k18ac",label:"H3K18ac",degree:1,community:"SIRT7"},
-    {id:"h4k16",label:"H4K16",degree:1,community:"SIRT1"},
-    {id:"p21",label:"p21",degree:0,community:"Therapy-Induced Senescence"},
-    {id:"p16_and_p21",label:"p16 and p21",degree:1,community:"SIRT4"},
-    {id:"mtp_fatty_acid_oxidation",label:"MTPα (FAO)",degree:1,community:"SIRT4"},
-    {id:"mtp_mitochondrial_trifunctional_protein",label:"MTPα (trifunctional)",degree:1,community:"SIRT4"},
-    {id:"cancer",label:"Cancer",degree:8,community:"Cancer"},
-    {id:"autophagy",label:"Autophagy",degree:4,community:"Autophagy"},
-    {id:"senescence",label:"Senescence",degree:5,community:"Senescence"},
-    {id:"sasp",label:"SASP",degree:7,community:"SASP"},
-    {id:"nad",label:"NAD+",degree:1,community:"NAD+"},
-    {id:"nicotinamide",label:"Nicotinamide",degree:2,community:"CD38"},
-    {id:"apoptosis",label:"Apoptosis",degree:1,community:"Apoptosis"},
-    {id:"atm_chk2_dna_damage_repair",label:"ATM-Chk2 repair",degree:1,community:"SIRT3"},
-    {id:"dna_repair",label:"DNA Repair",degree:0,community:"Sirtuins"},
-    {id:"homologous_recombination",label:"Homologous recombination",degree:1,community:"SIRT1"},
-    {id:"mitochondria",label:"Mitochondria",degree:4,community:"Reactive Oxygen Species"},
-    {id:"nucleus_heterochromatin",label:"Nucleus (heterochromatin)",degree:1,community:"SIRT6"},
-    {id:"nucleolus",label:"Nucleolus",degree:1,community:"SIRT7"},
-    {id:"cytoplasm",label:"Cytoplasm",degree:1,community:"SIRT2"},
-    {id:"phosphoglycerate_mutase_k100",label:"PGM (K100)",degree:1,community:"SIRT2"},
-    {id:"acc1",label:"ACC1",degree:1,community:"SIRT3"},
-    {id:"acc1_upregulation_driven_de_novo_lipogenesis",label:"ACC1-driven lipogenesis",degree:1,community:"SIRT3"},
-    {id:"idh1_repressing_crc_migration",label:"IDH1 (CRC migration)",degree:1,community:"SIRT2"},
-    {id:"sirt1_via_glutamine_metabolism",label:"SIRT1 (glutamine)",degree:1,community:"SIRT4"},
-    {id:"akr1c1_inhibiting_stat3_transactivation",label:"AKR1C1 (STAT3)",degree:1,community:"SIRT2"},
-    {id:"p27_cdk2_deacetylation",label:"p27/CDK2 deacetylation",degree:1,community:"SIRT1"},
-    {id:"e_cadherin_promotion",label:"E-cadherin promotion",degree:1,community:"SIRT4"},
-    {id:"twist_downregulation",label:"Twist downregulation",degree:1,community:"SIRT3"},
-    {id:"ku70_bax",label:"Ku70–Bax",degree:1,community:"SIRT3"},
-    {id:"jak2_stat3_pathway",label:"JAK2/STAT3 pathway",degree:1,community:"SIRT6"}
-  ],
-  edges: [
-    {"from":"sasp","to":"sirt1","label":"is_repressed_by"},{"from":"autophagy","to":"cancer","label":"is_pro_survival_in"},
-    {"from":"autophagy","to":"sasp","label":"suppresses"},{"from":"autophagy","to":"senescence","label":"is_impaired_in"},
-    {"from":"senescence","to":"sasp","label":"produces"},{"from":"senescence","to":"cancer","label":"can_promote"},
-    {"from":"p53","to":"cancer","label":"is_mutated_in"},{"from":"p53","to":"sasp","label":"restrains"},
-    {"from":"cancer","to":"apoptosis","label":"evades"},{"from":"cancer","to":"nf_b","label":"is_driven_by"},
-    {"from":"cancer","to":"p53","label":"is_suppressed_by"},{"from":"cancer","to":"senescence","label":"is_suppressed_by"},
-    {"from":"nad","to":"glycolysis","label":"required_for"},{"from":"mitochondria","to":"reactive_oxygen_species","label":"primary_source_of"},
-    {"from":"mitochondrial_ros","to":"autophagy","label":"activates"},{"from":"mitochondrial_ros","to":"nf_b","label":"stimulates"},
-    {"from":"sirt1","to":"pgc_1","label":"deacetylates_and_activates"},{"from":"sirt1","to":"h4k16","label":"deacetylates"},
-    {"from":"sirt1","to":"senescence","label":"prevents"},{"from":"sirt1","to":"p53","label":"deacetylates"},
-    {"from":"sirt1","to":"ku70","label":"deacetylates"},{"from":"sirt1","to":"foxo1","label":"positive_feedback"},
-    {"from":"sirt1","to":"foxo3a","label":"deacetylates"},{"from":"sirt1","to":"rela_p65_nf_b_subunit","label":"deacetylates"},
-    {"from":"sirt1","to":"acecs1_cytoplasmic_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
-    {"from":"sirt1","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt1","to":"hif_1","label":"deacetylates"},
-    {"from":"sirt1","to":"hif_2","label":"deacetylates"},{"from":"sirt1","to":"p27_cdk2_deacetylation","label":"promotes_T-ALL_via"},
-    {"from":"sirt1","to":"homologous_recombination","label":"promotes"},{"from":"sirt1","to":"srebp_1c","label":"deacetylates"},
-    {"from":"sirt1","to":"chrebp","label":"deacetylates"},
-    {"from":"sirt3","to":"sod2","label":"deacetylates"},{"from":"sirt3","to":"mitochondria","label":"localizes_to"},
-    {"from":"sirt3","to":"acecs2_mitochondrial_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
-    {"from":"sirt3","to":"mnsod_k68_k122","label":"deacetylates"},{"from":"sirt3","to":"mitochondrial_ros","label":"reduces"},
-    {"from":"sirt3","to":"hif_1","label":"inhibits"},{"from":"sirt3","to":"acc1","label":"deacetylates"},
-    {"from":"sirt3","to":"foxo1","label":"deacetylates"},{"from":"sirt3","to":"pyruvate_dehydrogenase_e1","label":"deacetylates"},
-    {"from":"sirt3","to":"foxo3a","label":"activates"},{"from":"sirt3","to":"idh2","label":"deacetylates_and_activates"},
-    {"from":"sirt3","to":"pyruvate_dehydrogenase_pdh","label":"maintains_activity_of"},
-    {"from":"sirt3","to":"atm_chk2_dna_damage_repair","label":"radioresistance_via"},
-    {"from":"sirt3","to":"twist_downregulation","label":"suppresses_metastasis_via"},
-    {"from":"sirt3","to":"ku70_bax","label":"stabilizes_in_glioma"},
-    {"from":"sirt3","to":"acc1_upregulation_driven_de_novo_lipogenesis","label":"cervical_cancer_via"},
-    {"from":"sirt3","to":"mnsod","label":"activates"},{"from":"sod2","to":"mitochondrial_ros","label":"reduces"},
-    {"from":"nicotinamide","to":"sirt1","label":"binds_C_pocket"},
-    {"from":"sirt6","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt6","to":"nucleus_heterochromatin","label":"localizes_to"},
-    {"from":"sirt6","to":"hif_1","label":"represses"},{"from":"sirt6","to":"glycolysis_warburg_effect","label":"suppresses"},
-    {"from":"sirt6","to":"foxo1","label":"deacetylates"},{"from":"sirt6","to":"mnsod","label":"upregulates"},
-    {"from":"sirt6","to":"jak2_stat3_pathway","label":"inhibits"},{"from":"sirt6","to":"srebp_1c","label":"represses_lipogenesis"},
-    {"from":"sirt6","to":"srebp2","label":"represses_lipogenesis"},{"from":"sirt6","to":"glycolysis","label":"suppresses"},
-    {"from":"sirt6","to":"c_myc","label":"inhibits_activity"},{"from":"sirt6","to":"survivin","label":"represses_expression"},
-    {"from":"sirt6","to":"chrebp","label":"deacetylates"},
-    {"from":"sirt2","to":"cytoplasm","label":"localizes_to"},{"from":"sirt2","to":"nf_b","label":"deacetylates"},
-    {"from":"sirt2","to":"brca1","label":"deacetylates"},{"from":"sirt2","to":"foxo1","label":"deacetylates"},
-    {"from":"sirt2","to":"foxo3a","label":"deacetylates"},{"from":"sirt2","to":"n_myc_and_c_myc","label":"enhances_stability"},
-    {"from":"sirt2","to":"akr1c1_inhibiting_stat3_transactivation","label":"deacetylates"},
-    {"from":"sirt2","to":"idh1_repressing_crc_migration","label":"deacetylates"},
-    {"from":"sirt2","to":"slug_emt_transcription_factor","label":"stabilizes"},
-    {"from":"sirt2","to":"phosphoglycerate_mutase_k100","label":"deacetylates"},{"from":"survivin","to":"cancer","label":"overexpressed_in"},
-    {"from":"sirt4","to":"mitochondria","label":"localizes_to"},{"from":"sirt4","to":"gdh_glutamate_dehydrogenase","label":"ADP-ribosylates_inhibits"},
-    {"from":"sirt4","to":"glutamate_dehydrogenase","label":"inhibits"},{"from":"sirt4","to":"glutamine_metabolism","label":"suppresses"},
-    {"from":"sirt4","to":"mnsod","label":"inhibits"},{"from":"sirt4","to":"mtp_fatty_acid_oxidation","label":"inhibits"},
-    {"from":"sirt4","to":"mtp_mitochondrial_trifunctional_protein","label":"inhibits"},
-    {"from":"sirt4","to":"pyruvate_dehydrogenase","label":"lipoamidase"},{"from":"sirt4","to":"e_cadherin_promotion","label":"suppresses_EMT_via"},
-    {"from":"sirt4","to":"sirt1_via_glutamine_metabolism","label":"negatively_regulates"},
-    {"from":"sirt4","to":"p16_and_p21","label":"upregulates"},
-    {"from":"sirt5","to":"mitochondria","label":"localizes_to"},{"from":"sirt5","to":"ldhb","label":"deacetylates"},
-    {"from":"sirt5","to":"nicotinamide","label":"resists_inhibition"},{"from":"sirt5","to":"glutaminolysis","label":"enhances"},
-    {"from":"sirt7","to":"nucleolus","label":"localizes_to"},{"from":"sirt7","to":"rna_polymerase_i_transcription","label":"activates"},
-    {"from":"sirt7","to":"rrna_transcription","label":"regulates"},{"from":"sirt7","to":"h3k18","label":"deacetylates"},
-    {"from":"sirt7","to":"nf_b","label":"inhibits_translocation"},{"from":"sirt7","to":"h3k18ac","label":"deacetylates"},
-    {"from":"sirt7","to":"sirt1","label":"inhibits_activation"}
-  ]};
+const netData = { nodes: [
+  {id:"sirt1",label:"SIRT1",degree:19,community:"SIRT1"},
+  {id:"sirt2",label:"SIRT2",degree:10,community:"SIRT2"},
+  {id:"sirt3",label:"SIRT3",degree:17,community:"SIRT3"},
+  {id:"sirt4",label:"SIRT4",degree:11,community:"SIRT4"},
+  {id:"sirt5",label:"SIRT5",degree:4,community:"SIRT5"},
+  {id:"sirt6",label:"SIRT6",degree:13,community:"SIRT6"},
+  {id:"sirt7",label:"SIRT7",degree:7,community:"SIRT7"},
+  {id:"glycolysis_warburg_effect",label:"Glycolysis (Warburg)",degree:1,community:"SIRT6"},
+  {id:"glycolysis",label:"Glycolysis",degree:2,community:"p53"},
+  {id:"glutaminolysis",label:"Glutaminolysis",degree:1,community:"SIRT5"},
+  {id:"glutamine_metabolism",label:"Glutamine metabolism",degree:1,community:"SIRT4"},
+  {id:"gdh_glutamate_dehydrogenase",label:"GDH (Glutamate Dehydrogenase)",degree:1,community:"SIRT4"},
+  {id:"glutamate_dehydrogenase",label:"Glutamate dehydrogenase",degree:1,community:"SIRT4"},
+  {id:"hif_1",label:"HIF-1α",degree:3,community:"Cancer Stem Cells"},
+  {id:"hif_2",label:"HIF-2α",degree:1,community:"SIRT1"},
+  {id:"pgc_1",label:"PGC-1α",degree:1,community:"AMPK"},
+  {id:"pyruvate_dehydrogenase",label:"Pyruvate Dehydrogenase",degree:1,community:"SIRT4"},
+  {id:"pyruvate_dehydrogenase_e1",label:"PDH E1α",degree:1,community:"SIRT3"},
+  {id:"pyruvate_dehydrogenase_pdh",label:"Pyruvate Dehydrogenase (PDH)",degree:1,community:"SIRT3"},
+  {id:"sod2",label:"SOD2",degree:2,community:"Mitochondrial ROS"},
+  {id:"mnsod",label:"MnSOD",degree:3,community:"Peroxynitrite"},
+  {id:"mnsod_k68_k122",label:"MnSOD (K68, K122)",degree:1,community:"SIRT3"},
+  {id:"idh2",label:"IDH2",degree:1,community:"SIRT3"},
+  {id:"reactive_oxygen_species",label:"Reactive Oxygen Species",degree:2,community:"Reactive Oxygen Species"},
+  {id:"mitochondrial_ros",label:"Mitochondrial ROS",degree:4,community:"Mitochondrial ROS"},
+  {id:"srebp_1c",label:"SREBP-1c",degree:2,community:"Atherosclerosis"},
+  {id:"srebp2",label:"SREBP2",degree:1,community:"SIRT6"},
+  {id:"chrebp",label:"ChREBP",degree:2,community:"SIRT6"},
+  {id:"acecs1_cytoplasmic_acetyl_coa_synthetase",label:"AceCS1 (cytosolic)",degree:1,community:"SIRT1"},
+  {id:"acecs2_mitochondrial_acetyl_coa_synthetase",label:"AceCS2 (mito)",degree:1,community:"SIRT3"},
+  {id:"foxo1",label:"FOXO1",degree:4,community:"FOXO1"},
+  {id:"foxo3a",label:"FOXO3a",degree:3,community:"SIRT2"},
+  {id:"p53",label:"p53",degree:5,community:"p53"},
+  {id:"ku70",label:"Ku70",degree:1,community:"SIRT1"},
+  {id:"nf_b",label:"NF-κB",degree:9,community:"NF-κB"},
+  {id:"rela_p65_nf_b_subunit",label:"RelA/p65 (NF-κB)",degree:1,community:"SIRT1"},
+  {id:"survivin",label:"Survivin",degree:2,community:"Caspase-3"},
+  {id:"c_myc",label:"c-Myc",degree:1,community:"Cellular Reprogramming"},
+  {id:"n_myc_and_c_myc",label:"N-Myc and c-Myc",degree:1,community:"SIRT2"},
+  {id:"slug_emt_transcription_factor",label:"Slug (EMT)",degree:1,community:"SIRT2"},
+  {id:"brca1",label:"BRCA1",degree:1,community:"SIRT2"},
+  {id:"ldhb",label:"LDHB",degree:1,community:"SIRT5"},
+  {id:"rna_polymerase_i_transcription",label:"RNA Pol I transcription",degree:1,community:"SIRT7"},
+  {id:"rrna_transcription",label:"rRNA transcription",degree:1,community:"SIRT7"},
+  {id:"h3k18",label:"H3K18",degree:1,community:"SIRT7"},
+  {id:"h3k18ac",label:"H3K18ac",degree:1,community:"SIRT7"},
+  {id:"h4k16",label:"H4K16",degree:1,community:"SIRT1"},
+  {id:"p21",label:"p21",degree:0,community:"Therapy-Induced Senescence"},
+  {id:"p16_and_p21",label:"p16 and p21",degree:1,community:"SIRT4"},
+  {id:"mtp_fatty_acid_oxidation",label:"MTPα (FAO)",degree:1,community:"SIRT4"},
+  {id:"mtp_mitochondrial_trifunctional_protein",label:"MTPα (trifunctional)",degree:1,community:"SIRT4"},
+  {id:"cancer",label:"Cancer",degree:8,community:"Cancer"},
+  {id:"autophagy",label:"Autophagy",degree:4,community:"Autophagy"},
+  {id:"senescence",label:"Senescence",degree:5,community:"Senescence"},
+  {id:"sasp",label:"SASP",degree:7,community:"SASP"},
+  {id:"nad",label:"NAD+",degree:1,community:"NAD+"},
+  {id:"nicotinamide",label:"Nicotinamide",degree:2,community:"CD38"},
+  {id:"apoptosis",label:"Apoptosis",degree:1,community:"Apoptosis"},
+  {id:"atm_chk2_dna_damage_repair",label:"ATM-Chk2 repair",degree:1,community:"SIRT3"},
+  {id:"dna_repair",label:"DNA Repair",degree:0,community:"Sirtuins"},
+  {id:"homologous_recombination",label:"Homologous recombination",degree:1,community:"SIRT1"},
+  {id:"mitochondria",label:"Mitochondria",degree:4,community:"Reactive Oxygen Species"},
+  {id:"nucleus_heterochromatin",label:"Nucleus (heterochromatin)",degree:1,community:"SIRT6"},
+  {id:"nucleolus",label:"Nucleolus",degree:1,community:"SIRT7"},
+  {id:"cytoplasm",label:"Cytoplasm",degree:1,community:"SIRT2"},
+  {id:"phosphoglycerate_mutase_k100",label:"PGM (K100)",degree:1,community:"SIRT2"},
+  {id:"acc1",label:"ACC1",degree:1,community:"SIRT3"},
+  {id:"acc1_upregulation_driven_de_novo_lipogenesis",label:"ACC1-driven lipogenesis",degree:1,community:"SIRT3"},
+  {id:"idh1_repressing_crc_migration",label:"IDH1 (CRC migration)",degree:1,community:"SIRT2"},
+  {id:"sirt1_via_glutamine_metabolism",label:"SIRT1 (glutamine)",degree:1,community:"SIRT4"},
+  {id:"akr1c1_inhibiting_stat3_transactivation",label:"AKR1C1 (STAT3)",degree:1,community:"SIRT2"},
+  {id:"p27_cdk2_deacetylation",label:"p27/CDK2 deacetylation",degree:1,community:"SIRT1"},
+  {id:"e_cadherin_promotion",label:"E-cadherin promotion",degree:1,community:"SIRT4"},
+  {id:"twist_downregulation",label:"Twist downregulation",degree:1,community:"SIRT3"},
+  {id:"ku70_bax",label:"Ku70–Bax",degree:1,community:"SIRT3"},
+  {id:"jak2_stat3_pathway",label:"JAK2/STAT3 pathway",degree:1,community:"SIRT6"}
+],
+edges: [
+  {"from":"sasp","to":"sirt1","label":"is_repressed_by"},{"from":"autophagy","to":"cancer","label":"is_pro_survival_in"},
+  {"from":"autophagy","to":"sasp","label":"suppresses"},{"from":"autophagy","to":"senescence","label":"is_impaired_in"},
+  {"from":"senescence","to":"sasp","label":"produces"},{"from":"senescence","to":"cancer","label":"can_promote"},
+  {"from":"p53","to":"cancer","label":"is_mutated_in"},{"from":"p53","to":"sasp","label":"restrains"},
+  {"from":"cancer","to":"apoptosis","label":"evades"},{"from":"cancer","to":"nf_b","label":"is_driven_by"},
+  {"from":"cancer","to":"p53","label":"is_suppressed_by"},{"from":"cancer","to":"senescence","label":"is_suppressed_by"},
+  {"from":"nad","to":"glycolysis","label":"required_for"},{"from":"mitochondria","to":"reactive_oxygen_species","label":"primary_source_of"},
+  {"from":"mitochondrial_ros","to":"autophagy","label":"activates"},{"from":"mitochondrial_ros","to":"nf_b","label":"stimulates"},
+  {"from":"sirt1","to":"pgc_1","label":"deacetylates_and_activates"},{"from":"sirt1","to":"h4k16","label":"deacetylates"},
+  {"from":"sirt1","to":"senescence","label":"prevents"},{"from":"sirt1","to":"p53","label":"deacetylates"},
+  {"from":"sirt1","to":"ku70","label":"deacetylates"},{"from":"sirt1","to":"foxo1","label":"positive_feedback"},
+  {"from":"sirt1","to":"foxo3a","label":"deacetylates"},{"from":"sirt1","to":"rela_p65_nf_b_subunit","label":"deacetylates"},
+  {"from":"sirt1","to":"acecs1_cytoplasmic_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
+  {"from":"sirt1","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt1","to":"hif_1","label":"deacetylates"},
+  {"from":"sirt1","to":"hif_2","label":"deacetylates"},{"from":"sirt1","to":"p27_cdk2_deacetylation","label":"promotes_T-ALL_via"},
+  {"from":"sirt1","to":"homologous_recombination","label":"promotes"},{"from":"sirt1","to":"srebp_1c","label":"deacetylates"},
+  {"from":"sirt1","to":"chrebp","label":"deacetylates"},
+  {"from":"sirt3","to":"sod2","label":"deacetylates"},{"from":"sirt3","to":"mitochondria","label":"localizes_to"},
+  {"from":"sirt3","to":"acecs2_mitochondrial_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
+  {"from":"sirt3","to":"mnsod_k68_k122","label":"deacetylates"},{"from":"sirt3","to":"mitochondrial_ros","label":"reduces"},
+  {"from":"sirt3","to":"hif_1","label":"inhibits"},{"from":"sirt3","to":"acc1","label":"deacetylates"},
+  {"from":"sirt3","to":"foxo1","label":"deacetylates"},{"from":"sirt3","to":"pyruvate_dehydrogenase_e1","label":"deacetylates"},
+  {"from":"sirt3","to":"foxo3a","label":"activates"},{"from":"sirt3","to":"idh2","label":"deacetylates_and_activates"},
+  {"from":"sirt3","to":"pyruvate_dehydrogenase_pdh","label":"maintains_activity_of"},
+  {"from":"sirt3","to":"atm_chk2_dna_damage_repair","label":"radioresistance_via"},
+  {"from":"sirt3","to":"twist_downregulation","label":"suppresses_metastasis_via"},
+  {"from":"sirt3","to":"ku70_bax","label":"stabilizes_in_glioma"},
+  {"from":"sirt3","to":"acc1_upregulation_driven_de_novo_lipogenesis","label":"cervical_cancer_via"},
+  {"from":"sirt3","to":"mnsod","label":"activates"},{"from":"sod2","to":"mitochondrial_ros","label":"reduces"},
+  {"from":"nicotinamide","to":"sirt1","label":"binds_C_pocket"},
+  {"from":"sirt6","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt6","to":"nucleus_heterochromatin","label":"localizes_to"},
+  {"from":"sirt6","to":"hif_1","label":"represses"},{"from":"sirt6","to":"glycolysis_warburg_effect","label":"suppresses"},
+  {"from":"sirt6","to":"foxo1","label":"deacetylates"},{"from":"sirt6","to":"mnsod","label":"upregulates"},
+  {"from":"sirt6","to":"jak2_stat3_pathway","label":"inhibits"},{"from":"sirt6","to":"srebp_1c","label":"represses_lipogenesis"},
+  {"from":"sirt6","to":"srebp2","label":"represses_lipogenesis"},{"from":"sirt6","to":"glycolysis","label":"suppresses"},
+  {"from":"sirt6","to":"c_myc","label":"inhibits_activity"},{"from":"sirt6","to":"survivin","label":"represses_expression"},
+  {"from":"sirt6","to":"chrebp","label":"deacetylates"},
+  {"from":"sirt2","to":"cytoplasm","label":"localizes_to"},{"from":"sirt2","to":"nf_b","label":"deacetylates"},
+  {"from":"sirt2","to":"brca1","label":"deacetylates"},{"from":"sirt2","to":"foxo1","label":"deacetylates"},
+  {"from":"sirt2","to":"foxo3a","label":"deacetylates"},{"from":"sirt2","to":"n_myc_and_c_myc","label":"enhances_stability"},
+  {"from":"sirt2","to":"akr1c1_inhibiting_stat3_transactivation","label":"deacetylates"},
+  {"from":"sirt2","to":"idh1_repressing_crc_migration","label":"deacetylates"},
+  {"from":"sirt2","to":"slug_emt_transcription_factor","label":"stabilizes"},
+  {"from":"sirt2","to":"phosphoglycerate_mutase_k100","label":"deacetylates"},{"from":"survivin","to":"cancer","label":"overexpressed_in"},
+  {"from":"sirt4","to":"mitochondria","label":"localizes_to"},{"from":"sirt4","to":"gdh_glutamate_dehydrogenase","label":"ADP-ribosylates_inhibits"},
+  {"from":"sirt4","to":"glutamate_dehydrogenase","label":"inhibits"},{"from":"sirt4","to":"glutamine_metabolism","label":"suppresses"},
+  {"from":"sirt4","to":"mnsod","label":"inhibits"},{"from":"sirt4","to":"mtp_fatty_acid_oxidation","label":"inhibits"},
+  {"from":"sirt4","to":"mtp_mitochondrial_trifunctional_protein","label":"inhibits"},
+  {"from":"sirt4","to":"pyruvate_dehydrogenase","label":"lipoamidase"},{"from":"sirt4","to":"e_cadherin_promotion","label":"suppresses_EMT_via"},
+  {"from":"sirt4","to":"sirt1_via_glutamine_metabolism","label":"negatively_regulates"},
+  {"from":"sirt4","to":"p16_and_p21","label":"upregulates"},
+  {"from":"sirt5","to":"mitochondria","label":"localizes_to"},{"from":"sirt5","to":"ldhb","label":"deacetylates"},
+  {"from":"sirt5","to":"nicotinamide","label":"resists_inhibition"},{"from":"sirt5","to":"glutaminolysis","label":"enhances"},
+  {"from":"sirt7","to":"nucleolus","label":"localizes_to"},{"from":"sirt7","to":"rna_polymerase_i_transcription","label":"activates"},
+  {"from":"sirt7","to":"rrna_transcription","label":"regulates"},{"from":"sirt7","to":"h3k18","label":"deacetylates"},
+  {"from":"sirt7","to":"nf_b","label":"inhibits_translocation"},{"from":"sirt7","to":"h3k18ac","label":"deacetylates"},
+  {"from":"sirt7","to":"sirt1","label":"inhibits_activation"}
+]};
 
-  const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
-  function nodeColor(id, community){
-    if (sirtColor[id]) return sirtColor[id];
-    if (/glycol|warburg|pyruvate|nad\b/.test(id)) return '#F5A65B';
-    if (/glutamine|glutamin|gdh|ldhb/.test(id)) return '#9D8DF1';
-    if (/ros|sod|mnsod|idh2|reactive/.test(id)) return '#58D68D';
-    if (/srebp|chrebp|acecs|acc1|mtp|lipid/.test(id)) return '#E8C65B';
-    if (/rna_pol|rrna|h3k18|nucleolus|p21|p16|survivin|myc|slug|brca1|p27|cdk2|ribosome/.test(id)) return '#F283B2';
-    if (/nucleus|cytoplasm|mitochondria/.test(id)) return '#8fb7d9';
-    if (/hif/.test(id)) return '#5DA8FF';
-    return '#8b8bb0';
-  }
+const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
+function nodeColor(id, community){
+  if (sirtColor[id]) return sirtColor[id];
+  if (/glycol|warburg|pyruvate|nad\b/.test(id)) return '#F5A65B';
+  if (/glutamine|glutamin|gdh|ldhb/.test(id)) return '#9D8DF1';
+  if (/ros|sod|mnsod|idh2|reactive/.test(id)) return '#58D68D';
+  if (/srebp|chrebp|acecs|acc1|mtp|lipid/.test(id)) return '#E8C65B';
+  if (/rna_pol|rrna|h3k18|nucleolus|p21|p16|survivin|myc|slug|brca1|p27|cdk2|ribosome/.test(id)) return '#F283B2';
+  if (/nucleus|cytoplasm|mitochondria/.test(id)) return '#8fb7d9';
+  if (/hif/.test(id)) return '#5DA8FF';
+  return '#8b8bb0';
+}
 
-  const svg = document.getElementById('netSvg');
-  const ns = 'http://www.w3.org/2000/svg';
-  const W = 1100, H = 560;
+const legendDefs = [['sirt1','SIRT hub'],['#F5A65B','Glycolysis / NAD'],['#9D8DF1','Glutamine / GDH'],['#58D68D','ROS / redox'],['#E8C65B','Lipid / lipogenesis'],['#F283B2','Growth / ribosome / cell fate'],['#5DA8FF','HIF / hypoxia'],['#8fb7d9','Compartment'],['#8b8bb0','Other']];
 
-  // build adjacency
-  const byId = {}; DATA.nodes.forEach(n=>byId[n.id]=n);
-  const adj = {}; DATA.nodes.forEach(n=>adj[n.id]=new Set());
-  DATA.edges.forEach(e=>{ if(adj[e.from])adj[e.from].add(e.to); if(adj[e.to])adj[e.to].add(e.from); });
-
-  // init positions
-  DATA.nodes.forEach((n,i)=>{
-    n.x = W/2 + (Math.random()-0.5)*360;
-    n.y = H/2 + (Math.random()-0.5)*260;
-    n.vx=0; n.vy=0;
-  });
-
-  // force simulation (simple)
-  function step(){
-    const k = 0.02, rep = 1400, spring = 0.08;
-    DATA.nodes.forEach(a=>{
-      DATA.nodes.forEach(b=>{
-        if(a===b) return;
-        let dx = a.x-b.x, dy = a.y-b.y;
-        let d2 = dx*dx+dy*dy+0.01, d = Math.sqrt(d2);
-        let f = rep/d2;
-        a.vx += (dx/d)*f; a.vy += (dy/d)*f;
-      });
-      a.vx += (W/2 - a.x)*k*1.2; a.vy += (H/2 - a.y)*k*1.2;
-      a.vx *= 0.6; a.vy *= 0.6;
-    });
-    DATA.edges.forEach(e=>{
-      const a = byId[e.from], b = byId[e.to];
-      let dx = b.x-a.x, dy = b.y-a.y, d = Math.sqrt(dx*dx+dy*dy)+0.001;
-      let f = (d-70)*spring;
-      a.vx += (dx/d)*f; a.vy += (dy/d)*f;
-      b.vx -= (dx/d)*f; b.vy -= (dy/d)*f;
-    });
-    DATA.nodes.forEach(n=>{ n.x += n.vx; n.y += n.vy; n.x=Math.max(30,Math.min(W-30,n.x)); n.y=Math.max(30,Math.min(H-30,n.y)); });
-  }
-  for(let i=0;i<220;i++) step();
-
-  function render(){
-    const byId2 = {}; DATA.nodes.forEach(n=>byId2[n.id]=n);
-    let edgeMarkup = '';
-    DATA.edges.forEach(e=>{
-      const a=byId2[e.from], b=byId2[e.to];
-      edgeMarkup += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="#2a2a4e" stroke-width="1" data-f="${e.from}" data-t="${e.to}"/>`;
-    });
-    svg.innerHTML = edgeMarkup;
-
-    DATA.nodes.forEach(n=>{
-      const r = 5 + Math.sqrt(n.degree)*3.2;
-      const c = nodeColor(n.id, n.community);
-      const g = document.createElementNS(ns,'g');
-      g.setAttribute('data-id', n.id);
-      g.setAttribute('class','n');
-      g.style.cursor='grab';
-      const circle = document.createElementNS(ns,'circle');
-      circle.setAttribute('cx', n.x); circle.setAttribute('cy', n.y); circle.setAttribute('r', r);
-      circle.setAttribute('fill', c); circle.setAttribute('fill-opacity', n.id.startsWith('sirt')?0.95:0.5);
-      circle.setAttribute('stroke', c); circle.setAttribute('stroke-width', n.id.startsWith('sirt')?2:0.8);
-      g.appendChild(circle);
-      if (n.id.startsWith('sirt') || n.degree>=5){
-        const t = document.createElementNS(ns,'text');
-        t.setAttribute('x', n.x); t.setAttribute('y', n.y - r - 4); t.setAttribute('text-anchor','middle');
-        t.setAttribute('font-size', n.id.startsWith('sirt')?'13':'10'); t.setAttribute('font-weight', n.id.startsWith('sirt')?'700':'400');
-        t.setAttribute('fill', n.id.startsWith('sirt')?c:'#c9c9dd');
-        t.textContent = n.label;
-        g.appendChild(t);
-      }
-      // drag
-      g.addEventListener('mousedown', ev=>{
-        ev.preventDefault();
-        const svgRect = svg.getBoundingClientRect();
-        const sx = (ev.clientX-svgRect.left)/svgRect.width*W, sy=(ev.clientY-svgRect.top)/svgRect.height*H;
-        function m(ev2){
-          const rect = svg.getBoundingClientRect();
-          n.x = (ev2.clientX-rect.left)/rect.width*W; n.y=(ev2.clientY-rect.top)/rect.height*H;
-          render();
-        }
-        function u(){ window.removeEventListener('mousemove',m); window.removeEventListener('mouseup',u); }
-        window.addEventListener('mousemove',m); window.addEventListener('mouseup',u);
-      });
-      // highlight on hover
-      g.addEventListener('mouseenter', ev=>{
-        svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=0.15; });
-        g.style.opacity=1;
-        const nb = adj[n.id]||new Set();
-        svg.querySelectorAll('line').forEach(l=>{
-          if (l.getAttribute('data-f')===n.id || l.getAttribute('data-t')===n.id){ l.setAttribute('stroke','#5a5a8a'); l.setAttribute('stroke-width','2'); }
-        });
-        svg.querySelectorAll('.n').forEach(x=>{ if(nb.has(x.getAttribute('data-id')) || x===g) x.style.opacity=1; });
-        const neighbors = [...nb].map(id=>byId[id]?.label||id);
-        showTip(`<b style="color:${c}">${n.label}</b><br>degree ${n.degree} · community: ${n.community}<br><span style="color:var(--dim)">${neighbors.length?'connects to: '+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'no graph edges in subgraph'}</span>`);
-      });
-      g.addEventListener('touchstart', ev=>{
-        const neighbors = [...(adj[n.id]||[])].map(id=>byId[id]?.label||id);
-        tipTap(ev, `<b style="color:${c}">${n.label}</b><br>degree ${n.degree} · community: ${n.community}<br><span style="color:var(--dim)">${neighbors.length?'connects to: '+neighbors.slice(0,14).join(', ')+(neighbors.length>14?', …':''):'no graph edges in subgraph'}</span>`);
-      });
-      g.addEventListener('mousemove', moveTip);
-      g.addEventListener('mouseleave', ev=>{
-        svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=1; });
-        svg.querySelectorAll('line').forEach(l=>{ l.setAttribute('stroke','#2a2a4e'); l.setAttribute('stroke-width','1'); });
-        hideTip();
-      });
-      g.addEventListener('click', ev=>{
-        if(ev.detail>1) return;
-        const nb = adj[n.id]||new Set();
-        svg.querySelectorAll('.n').forEach(x=>{
-          const id=x.getAttribute('data-id');
-          x.style.opacity = (id===n.id||nb.has(id))?1:0.06;
-        });
-        svg.querySelectorAll('line').forEach(l=>{
-          const on = l.getAttribute('data-f')===n.id||l.getAttribute('data-t')===n.id;
-          l.setAttribute('stroke', on? '#5a5a8a':'#1a1a30'); l.setAttribute('stroke-width', on?'2':'0.6');
-        });
-      });
-      svg.appendChild(g);
-    });
-    scaleDiagramText(svg);
-  }
-  render();
-
-  document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (graphify-out/graph.json)';
-  const lg = document.getElementById('netLegend');
-  const legendDefs = [['sirt1','SIRT hub'],['#F5A65B','Glycolysis / NAD'],['#9D8DF1','Glutamine / GDH'],['#58D68D','ROS / redox'],['#E8C65B','Lipid / lipogenesis'],['#F283B2','Growth / ribosome / cell fate'],['#5DA8FF','HIF / hypoxia'],['#8fb7d9','Compartment'],['#8b8bb0','Other']];
-  lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${c}"></span> ${l}</span>`).join('');
-
-  document.getElementById('netReset').addEventListener('click', ()=>{
-    DATA.nodes.forEach(n=>{ n.x=W/2+(Math.random()-0.5)*360; n.y=H/2+(Math.random()-0.5)*260; n.vx=0; n.vy=0; });
-    for(let i=0;i<220;i++) step();
-    render();
-  });
-})();
+renderNetwork('netSvg', netData, nodeColor, legendDefs);
 
 /* ============================= THERAPEUTICS ============================= */
 (function therapeutics(){
@@ -1268,88 +918,9 @@ sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][
   caption2.setAttribute('fill', '#6b6b85'); caption2.setAttribute('font-size', '11');
   caption2.textContent = '(NMN / NR, CD38 inhibition).';
   svg.appendChild(caption2);
-})();function showTip(t){ const el=document.getElementById('netTip'); el.style.display='block'; el.innerHTML=t; }
-function moveTip(ev){ const el=document.getElementById('netTip'); el.style.left=(ev.clientX+14)+'px'; el.style.top=(ev.clientY+10)+'px'; }
-function hideTip(){ document.getElementById('netTip').style.display='none'; }
-['spectrumSvg','compSvg','matrixSvg','theraSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
-document.addEventListener('touchstart', ()=>hideTip(), true);
-window.addEventListener('scroll', hideTip, true);
+})();
 
-/* ============================= COPY DIAGRAM AS PNG ============================= */
-function svgToPngBlob(svgId, scale){
-  const svg = document.getElementById(svgId);
-  const clone = svg.cloneNode(true);
-  clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
-  clone.setAttribute('xmlns:xlink','http://www.w3.org/1999/xlink');
-  const vb = svg.viewBox.baseVal;
-  const w = vb.width, h = vb.height;
-  clone.setAttribute('width', w);
-  clone.setAttribute('height', h);
-  const svgCS = getComputedStyle(svg);
-  let bg = '';
-  const sBgImage = svgCS.backgroundImage && svgCS.backgroundImage !== 'none' ? svgCS.backgroundImage : '';
-  const sBgColor = svgCS.backgroundColor && svgCS.backgroundColor !== 'rgba(0, 0, 0, 0)' ? svgCS.backgroundColor : '';
-  if (sBgImage) bg = sBgImage;
-  else if (sBgColor) bg = sBgColor;
-  else {
-    const card = svg.closest('.spectrum-card');
-    const cCS = card ? getComputedStyle(card) : null;
-    bg = cCS && cCS.backgroundColor ? cCS.backgroundColor : 'transparent';
-  }
-  const xml = new XMLSerializer().serializeToString(clone);
-  const url = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(xml);
-  return new Promise((resolve, reject)=>{
-    const img = new Image();
-    img.onload = ()=>{
-      const canvas = document.createElement('canvas');
-      canvas.width = w*scale; canvas.height = h*scale;
-      const ctx = canvas.getContext('2d');
-      ctx.scale(scale, scale);
-      if (bg && bg !== 'transparent'){ ctx.fillStyle = bg; ctx.fillRect(0,0,w,h); }
-      ctx.drawImage(img, 0, 0, w, h);
-      canvas.toBlob(b=> b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
-    };
-    img.onerror = ()=>reject(new Error('svg-load'));
-    img.src = url;
-  });
-}
-document.querySelectorAll('.copy-btn').forEach(btn=>{
-  btn.addEventListener('click', async ()=>{
-    const svgId = btn.getAttribute('data-copy');
-    const origTitle = btn.getAttribute('title') || 'Copy as PNG';
-    const origIcon = btn.innerHTML;
-    btn.disabled = true;
-    try {
-      const blob = await svgToPngBlob(svgId, 2);
-      if (navigator.clipboard && window.ClipboardItem){
-        await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
-        btn.classList.add('ok');
-        btn.title = 'Copied ✓';
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
-      } else {
-        throw new Error('clipboard-unsupported');
-      }
-    } catch (err) {
-      try {
-        const blob = await svgToPngBlob(svgId, 2);
-        const a = document.createElement('a');
-        a.download = svgId + '.png';
-        a.href = URL.createObjectURL(blob);
-        a.click();
-        URL.revokeObjectURL(a.href);
-        btn.classList.add('ok');
-        btn.title = 'Downloaded PNG';
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
-      } catch (_) {
-        btn.classList.add('err');
-        btn.title = 'Copy failed';
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-      }
-    }
-    btn.disabled = false;
-    setTimeout(()=>{ btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok','err'); }, 1800);
-  });
-});
+['spectrumSvg','compSvg','matrixSvg','theraSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
 </script>
 </body>
 </html>
