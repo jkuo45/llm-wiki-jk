@@ -14,7 +14,6 @@ import asyncio
 import json
 import logging
 import os
-import re
 import time
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
@@ -36,6 +35,7 @@ from .llm import (
     OpencodeUnavailable,
     create_session,
     delete_session,
+    detect_lang,
     health as opencode_health,
     parse_intent,
     stream_answer,
@@ -72,26 +72,6 @@ HEARTBEAT_SECONDS = int(os.environ.get("HEARTBEAT_SECONDS", "15"))
 
 _sessions: dict[str, float] = {}
 _session_lock = asyncio.Lock()
-
-_CJK_RE = re.compile(r"[\u4e00-\u9fff\u3400-\u4dbf]")
-_KANA_RE = re.compile(r"[\u3040-\u30ff]")
-_HANGUL_RE = re.compile(r"[\uac00-\ud7af]")
-_CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
-# Characters simplified-only, used to split zh-CN from zh-TW without a model.
-_SIMPLIFIED_HINT_RE = re.compile(r"[国说这么会来对时长发过还给样应关点]")
-
-
-def detect_lang(text: str) -> str:
-    """Cheap script-based language detection. No model call."""
-    if _KANA_RE.search(text):
-        return "ja"
-    if _HANGUL_RE.search(text):
-        return "ko"
-    if _CJK_RE.search(text):
-        return "zh-CN" if _SIMPLIFIED_HINT_RE.search(text) else "zh-TW"
-    if _CYRILLIC_RE.search(text):
-        return "ru"
-    return "en"
 
 
 async def _reap_sessions() -> None:
@@ -491,7 +471,7 @@ async def execute_stream(request: ExecuteRequest):
         if analysis_data:
             try:
                 narrative = await write_analysis_narrative(
-                    analysis_data, request.analysis or "", request.lang or "en"
+                    analysis_data, request.analysis or ""
                 )
                 if narrative:
                     result = {**result, "text": narrative}
@@ -505,7 +485,7 @@ async def execute_stream(request: ExecuteRequest):
         and request.lang != "en"
         and request.intent in ("query", "explain", "path", "analyze")
     ):
-        result["text"] = await translate_text(result["text"], request.lang)
+        result["text"] = await translate_text(result["text"], request.message)
 
     logger.info(
         f"Reply nodes: intent={request.intent}, "

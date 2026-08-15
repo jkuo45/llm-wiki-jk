@@ -34,9 +34,34 @@ OPENCODE_URL = os.environ.get("OPENCODE_URL", "http://127.0.0.1:4096")
 OPENCODE_USERNAME = os.environ.get("OPENCODE_SERVER_USERNAME", "opencode")
 OPENCODE_PASSWORD = os.environ.get("OPENCODE_SERVER_PASSWORD", "")
 CHAT_AGENT = os.environ.get("OPENCODE_CHAT_AGENT", "wiki-chat")
-UTILITY_AGENT = os.environ.get("OPENCODE_UTILITY_AGENT", "wiki-chat")
+UTILITY_AGENT = os.environ.get("OPENCODE_UTILITY_AGENT", "wiki-util")
 
 _AUTH = (OPENCODE_USERNAME, OPENCODE_PASSWORD) if OPENCODE_PASSWORD else None
+
+
+# ----------------------------------------------------------------------------
+# Language detection
+# ----------------------------------------------------------------------------
+
+
+_CJK_RE = re.compile(r"[\u4e00-\u9fff\u3400-\u4dbf]")
+_KANA_RE = re.compile(r"[\u3040-\u30ff]")
+_HANGUL_RE = re.compile(r"[\uac00-\ud7af]")
+_CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
+_SIMPLIFIED_HINT_RE = re.compile(r"[国说这么会来对时长发过还给样应关点]")
+
+
+def detect_lang(text: str) -> str:
+    """Cheap script-based language detection. No model call."""
+    if _KANA_RE.search(text):
+        return "ja"
+    if _HANGUL_RE.search(text):
+        return "ko"
+    if _CJK_RE.search(text):
+        return "zh-CN" if _SIMPLIFIED_HINT_RE.search(text) else "zh-TW"
+    if _CYRILLIC_RE.search(text):
+        return "ru"
+    return "en"
 
 
 def _client(timeout: float | None = 30.0) -> httpx.AsyncClient:
@@ -296,38 +321,36 @@ INTENT_PROMPT = """You are an intent classifier for a biomedical knowledge graph
 
 Given the user's message, classify it into EXACTLY ONE of these intents and respond with ONLY a JSON object (no markdown, no explanation).
 
-ALSO detect the language of the user's message and include it as "lang" (use BCP 47 codes: "en", "zh-TW", "zh-CN", "ja", "ko", "es", "fr", "de", "ru", etc.).
-
 1. query - user asks an OPEN-ENDED, natural language question about the graph / knowledge base (e.g. "what are the key nodes in longevity research?").
-    Response: {"intent": "query", "question": "<the question>", "lang": "<detected language>"}
+    Response: {"intent": "query", "question": "<the question>"}
 
 2. explain - user wants a deep dive on a SINGLE entity / concept / node.
-    Response: {"intent": "explain", "node": "<node name>", "lang": "<detected language>"}
+    Response: {"intent": "explain", "node": "<node name>"}
 
 3. path - user wants the DIRECT relationship traced between TWO OR MORE nodes (the shortest/absolute path connecting them), optionally naming intermediate waypoints ("through", "via", "->", "then").
-    Response: {"intent": "path", "nodes": ["<node A>", "<node B>", "<node C>"], "lang": "<detected language>"}
-    For a simple two-node case you may instead use {"intent": "path", "from": "<node A>", "to": "<node B>", "lang": "..."}.
+    Response: {"intent": "path", "nodes": ["<node A>", "<node B>", "<node C>"]}
+    For a simple two-node case you may instead use {"intent": "path", "from": "<node A>", "to": "<node B>"}.
 
 4. analyze - user wants a custom analysis or comparison of specific node(s):
     centrality, degree, common neighbours, bridging nodes, neighbourhood overlap,
     pairwise paths, or a node's structural role in the graph. The analysis may be
     comparative (two or more nodes) or about a single node.
-    Response: {"intent": "analyze", "nodes": ["<node A>", "<node B>"], "analysis": "<short phrase describing what to compute>", "lang": "<detected language>"}
+    Response: {"intent": "analyze", "nodes": ["<node A>", "<node B>"], "analysis": "<short phrase describing what to compute>"}
 
 5. unknown - cannot classify
-    Response: {"intent": "unknown", "lang": "<detected language>"}
+    Response: {"intent": "unknown"}
 
 Examples:
-- "What is autophagy?" -> {"intent": "explain", "node": "Autophagy", "lang": "en"}
-- "自噬是什麼？" -> {"intent": "explain", "node": "Autophagy", "lang": "zh-TW"}
-- "How does rapamycin relate to mTOR?" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "en"}
-- "雷帕霉素和mTOR有什么关系？" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "zh-CN"}
-- "Path from NAD+ via SIRT1 to Mitophagy" -> {"intent": "path", "nodes": ["NAD+", "SIRT1", "Mitophagy"], "lang": "en"}
-- "從 CD38 經 NAD+ 追蹤到 SIRT1" -> {"intent": "path", "nodes": ["CD38", "NAD+", "SIRT1"], "lang": "zh-TW"}
-- "Compare the centrality and common neighbours of NAD+ and SIRT1" -> {"intent": "analyze", "nodes": ["NAD+", "SIRT1"], "analysis": "centrality and common neighbours", "lang": "en"}
-- "分析 NAD+ 與 SIRT1 的橋接節點" -> {"intent": "analyze", "nodes": ["NAD+", "SIRT1"], "analysis": "bridging nodes", "lang": "zh-TW"}
-- "hello" -> {"intent": "unknown", "lang": "en"}
-- "你好" -> {"intent": "unknown", "lang": "zh-TW"}
+- "What is autophagy?" -> {"intent": "explain", "node": "Autophagy"}
+- "自噬是什麼？" -> {"intent": "explain", "node": "Autophagy"}
+- "How does rapamycin relate to mTOR?" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR"}
+- "雷帕霉素和mTOR有什么关系？" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR"}
+- "Path from NAD+ via SIRT1 to Mitophagy" -> {"intent": "path", "nodes": ["NAD+", "SIRT1", "Mitophagy"]}
+- "從 CD38 經 NAD+ 追蹤到 SIRT1" -> {"intent": "path", "nodes": ["CD38", "NAD+", "SIRT1"]}
+- "Compare the centrality and common neighbours of NAD+ and SIRT1" -> {"intent": "analyze", "nodes": ["NAD+", "SIRT1"], "analysis": "centrality and common neighbours"}
+- "分析 NAD+ 與 SIRT1 的橋接節點" -> {"intent": "analyze", "nodes": ["NAD+", "SIRT1"], "analysis": "bridging nodes"}
+- "hello" -> {"intent": "unknown"}
+- "你好" -> {"intent": "unknown"}
 
 User message: {message}
 
@@ -381,7 +404,7 @@ Write the narrative:"""
 
 
 async def write_analysis_narrative(
-    computed_data: dict, request: str = "", lang: str = "en", timeout: float = 120.0
+    computed_data: dict, request: str = "", timeout: float = 120.0
 ) -> str:
     """Turn computed graph metrics into a plain-language analysis narrative.
 
@@ -408,20 +431,27 @@ async def write_analysis_narrative(
 # Translation
 # ----------------------------------------------------------------------------
 
-TRANSLATE_PROMPT = """Translate the following text to {lang}. Preserve markdown
-formatting and leave [[wiki links]], entity names, and gene/protein symbols in
-their original form. Output ONLY the translation, no explanation or extra text:
+TRANSLATE_PROMPT = """Translate the following text into the SAME language as the
+user's request below. Preserve markdown formatting and leave [[wiki links]],
+entity names, and gene/protein symbols in their original form. Output ONLY the
+translation, no explanation or extra text:
 
-{text}"""
+{text}
+
+User request:
+{message}"""
 
 
-async def translate_text(text: str, target_lang: str, timeout: float = 90.0) -> str:
-    """Translate text to target language. Returns the original on failure."""
-    if not text or target_lang == "en":
+async def translate_text(text: str, user_message: str, timeout: float = 90.0) -> str:
+    """Translate text into the language of the user's message.
+
+    Returns the original on failure or when the message is English.
+    """
+    if not text or detect_lang(user_message) == "en":
         return text
 
-    prompt = TRANSLATE_PROMPT.replace("{lang}", target_lang).replace(
-        "{text}", text[:3000]
+    prompt = TRANSLATE_PROMPT.replace("{text}", text[:3000]).replace(
+        "{message}", user_message
     )
     session_id = None
     try:
