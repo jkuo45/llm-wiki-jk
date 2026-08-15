@@ -1,4 +1,4 @@
-"""Graph operations: query, explain, path, trace. Read-only against graph.json."""
+"""Graph operations: query, explain, path, analyze. Read-only against graph.json."""
 
 import json
 import logging
@@ -84,7 +84,7 @@ def match_nodes_in_text(text: str, query_text: str = "") -> dict:
         if pattern.search(blob):
             matched_ids.add(nid)
             continue
-        for alias in (ndata.get("aliases") or []):
+        for alias in ndata.get("aliases") or []:
             alias = alias.strip()
             if not alias:
                 continue
@@ -110,8 +110,7 @@ def match_nodes_in_text(text: str, query_text: str = "") -> dict:
                 highlight_edges.append([u, v])
 
     logger.info(
-        f"match_nodes_in_text: {len(matched_ids)} nodes, "
-        f"{len(highlight_edges)} edges"
+        f"match_nodes_in_text: {len(matched_ids)} nodes, {len(highlight_edges)} edges"
     )
     return {
         "highlight_nodes": list(matched_ids),
@@ -278,7 +277,9 @@ def _shortest_path(G: nx.MultiDiGraph, src: str, tgt: str) -> list[str]:
         return nx.shortest_path(G.to_undirected(), src, tgt)
 
 
-def _hop_lines(G: nx.MultiDiGraph, path: list[str]) -> tuple[list[str], list[list[str]]]:
+def _hop_lines(
+    G: nx.MultiDiGraph, path: list[str]
+) -> tuple[list[str], list[list[str]]]:
     """Render a node chain as numbered hop lines plus its edge pairs."""
     lines: list[str] = []
     edges: list[list[str]] = []
@@ -297,87 +298,24 @@ def _hop_lines(G: nx.MultiDiGraph, path: list[str]) -> tuple[list[str], list[lis
     return lines, edges
 
 
-def graph_path(from_name: str, to_name: str) -> dict:
-    """Find shortest path between two nodes."""
-    G = get_graph()
-    src = _find_node(G, from_name)
-    tgt = _find_node(G, to_name)
+def graph_path(waypoints: list[str]) -> dict:
+    """Find the shortest route through two or more waypoint nodes.
 
-    if not src:
-        return {
-            "type": "path",
-            "text": f"Could not find node matching '{from_name}'.",
-            "highlight_nodes": [],
-            "highlight_edges": [],
-            "primary_node": None,
-        }
-    if not tgt:
-        return {
-            "type": "path",
-            "text": f"Could not find node matching '{to_name}'.",
-            "highlight_nodes": [],
-            "highlight_edges": [],
-            "primary_node": None,
-        }
-
-    src_label = G.nodes[src].get("label", src)
-    tgt_label = G.nodes[tgt].get("label", tgt)
-    logger.info(f"graph_path: from={src_label!r}, to={tgt_label!r}")
-
-    try:
-        path = _shortest_path(G, src, tgt)
-        path_lines, highlight_edges = _hop_lines(G, path)
-
-        text_lines = [
-            f"Path from **{src_label}** to **{tgt_label}** ({len(path) - 1} hops):",
-            "",
-            *path_lines,
-        ]
-
-        return {
-            "type": "path",
-            "text": "\n".join(text_lines),
-            "highlight_nodes": path,
-            "highlight_edges": highlight_edges,
-            "primary_node": src,
-        }
-
-    except nx.NetworkXNoPath:
-        src_label = G.nodes[src].get("label", src)
-        tgt_label = G.nodes[tgt].get("label", tgt)
-        return {
-            "type": "path",
-            "text": f"No path found between '{src_label}' and '{tgt_label}'.",
-            "highlight_nodes": [src, tgt],
-            "highlight_edges": [],
-            "primary_node": src,
-        }
-
-
-def _trace_error(text: str) -> dict:
-    return {
-        "type": "trace",
-        "text": text,
-        "highlight_nodes": [],
-        "highlight_edges": [],
-        "primary_node": None,
-    }
-
-
-def graph_trace(waypoints: list[str]) -> dict:
-    """Trace a route through an ordered list of waypoints (A -> via B -> C).
-
-    Each consecutive pair is connected with a shortest path and narrated as its
-    own leg, so a trace is a chained, multi-hop generalisation of `graph_path`.
-    Legs with no connection are reported inline rather than aborting the trace.
+    A two-waypoint call finds a single shortest path; three or more waypoints
+    chain a shortest path per consecutive pair (each leg reported separately,
+    unconnected legs noted inline). This subsumes the old multi-hop "trace" op.
     """
     G = get_graph()
     terms = [w.strip() for w in (waypoints or []) if isinstance(w, str) and w.strip()]
     if len(terms) < 2:
-        return _trace_error(
-            "A trace needs at least two concepts, e.g. "
-            '"trace from NAD+ via SIRT1 to Mitophagy".'
-        )
+        return {
+            "type": "path",
+            "text": "A path needs at least two concepts, e.g. "
+            '"Path from NAD+ to SIRT1" or "Path from CD38 via NAD+ to SIRT1".',
+            "highlight_nodes": [],
+            "highlight_edges": [],
+            "primary_node": None,
+        }
 
     resolved: list[str] = []
     missing: list[str] = []
@@ -389,11 +327,17 @@ def graph_trace(waypoints: list[str]) -> dict:
             resolved.append(nid)
 
     if len(resolved) < 2:
-        unmatched = ", ".join(f"'{m}'" for m in missing) or "the given waypoints"
-        return _trace_error(f"Could not find enough nodes matching {unmatched}.")
+        unmatched = ", ".join(f"'{m}'" for m in missing) or "the given concepts"
+        return {
+            "type": "path",
+            "text": f"Could not find enough nodes matching {unmatched}.",
+            "highlight_nodes": [],
+            "highlight_edges": [],
+            "primary_node": None,
+        }
 
     labels = [G.nodes[nid].get("label", nid) for nid in resolved]
-    logger.info(f"graph_trace: {' -> '.join(labels)}")
+    logger.info(f"graph_path: {' -> '.join(labels)}")
 
     highlight_nodes: list[str] = []
     highlight_edges: list[list[str]] = []
@@ -420,9 +364,7 @@ def graph_trace(waypoints: list[str]) -> dict:
 
         lines, edges = _hop_lines(G, path)
         total_hops += len(path) - 1
-        body.append(
-            f"**Leg {leg} — {src_label} → {tgt_label}** ({len(path) - 1} hops)"
-        )
+        body.append(f"**Leg {leg} — {src_label} → {tgt_label}** ({len(path) - 1} hops)")
         body.extend(lines)
         body.append("")
         highlight_edges.extend(edges)
@@ -432,12 +374,12 @@ def graph_trace(waypoints: list[str]) -> dict:
                 highlight_nodes.append(nid)
 
     legs = len(resolved) - 1
-    header = "Trace: " + " → ".join(f"**{lbl}**" for lbl in labels)
+    header = "Path: " + " → ".join(f"**{lbl}**" for lbl in labels)
     header += f" ({total_hops} hops across {legs} leg{'s' if legs != 1 else ''})"
 
     notes = []
     if missing:
-        notes.append("Unresolved waypoints: " + ", ".join(f"'{m}'" for m in missing))
+        notes.append("Unresolved concepts: " + ", ".join(f"'{m}'" for m in missing))
     if broken:
         notes.append(f"{broken} leg(s) had no connecting path.")
 
@@ -446,9 +388,162 @@ def graph_trace(waypoints: list[str]) -> dict:
         text_lines.append("_" + " ".join(notes) + "_")
 
     return {
-        "type": "trace",
+        "type": "path",
         "text": "\n".join(text_lines).rstrip(),
         "highlight_nodes": highlight_nodes,
         "highlight_edges": highlight_edges,
         "primary_node": resolved[0],
+    }
+
+
+def _analyze_error(text: str) -> dict:
+    return {
+        "type": "analyze",
+        "text": text,
+        "highlight_nodes": [],
+        "highlight_edges": [],
+        "primary_node": None,
+    }
+
+
+def graph_analyze(nodes: list[str], analysis_text: str = "") -> dict:
+    """Custom, user-described analysis of one or more nodes.
+
+    Resolves the named nodes, computes networkx metrics (degree, in/out degree,
+    betweenness, closeness, clustering, pagerank) plus pairwise shortest paths,
+    distances and common neighbours, and builds an induced neighbourhood
+    subgraph for highlighting / export. The LLM narrative is layered on in
+    `api/main.py`; this function returns the computed summary + structured
+    `analysis_data` the client downloads.
+    """
+    G = get_graph()
+    terms = [w.strip() for w in (nodes or []) if isinstance(w, str) and w.strip()]
+    resolved: list[str] = []
+    missing: list[str] = []
+    for term in terms:
+        nid = _find_node(G, term)
+        if nid is None:
+            missing.append(term)
+        elif not resolved or resolved[-1] != nid:
+            resolved.append(nid)
+
+    if not resolved:
+        unmatched = ", ".join(f"'{m}'" for m in missing) or "the given nodes"
+        return _analyze_error(f"Could not find any nodes matching {unmatched}.")
+
+    labels = [G.nodes[nid].get("label", nid) for nid in resolved]
+    logger.info(f"graph_analyze: {' + '.join(labels)}")
+
+    # Global structural metrics (cheap for a ~2.5k node graph).
+    U = G.to_undirected()
+    try:
+        between = nx.betweenness_centrality(U)
+        close = nx.closeness_centrality(U)
+        cluster = nx.clustering(U)
+        pr = nx.pagerank(U)
+    except Exception as e:  # noqa: BLE001 - fall back to zeros if a metric fails
+        logger.warning(f"graph_analyze metrics partial failure: {e}")
+        between = close = cluster = pr = {}
+
+    node_rows = []
+    for nid in resolved:
+        nd = G.nodes[nid]
+        node_rows.append({
+            "id": nid,
+            "label": nd.get("label", nid),
+            "community": nd.get("community", ""),
+            "degree": G.degree(nid),
+            "in_degree": G.in_degree(nid),
+            "out_degree": G.out_degree(nid),
+            "betweenness": round(between.get(nid, 0.0), 6),
+            "closeness": round(close.get(nid, 0.0), 6),
+            "clustering": round(cluster.get(nid, 0.0), 6),
+            "pagerank": round(pr.get(nid, 0.0), 6),
+            "description": (nd.get("description", "") or "")[:400],
+        })
+
+    pair_rows = []
+    for i in range(len(resolved)):
+        for j in range(i + 1, len(resolved)):
+            a, b = resolved[i], resolved[j]
+            try:
+                path = _shortest_path(G, a, b)
+                distance = len(path) - 1
+            except nx.NetworkXNoPath:
+                path, distance = [], None
+            try:
+                cn = list(nx.common_neighbors(U, a, b))
+            except Exception:
+                cn = []
+            denom = U.degree(a) + U.degree(b)
+            jac = (len(cn) / denom) if denom else 0.0
+            pair_rows.append({
+                "a": G.nodes[a].get("label", a),
+                "b": G.nodes[b].get("label", b),
+                "distance": distance,
+                "common_neighbor_count": len(cn),
+                "jaccard": round(jac, 4),
+                "common_neighbors": [G.nodes[c].get("label", c) for c in cn][:20],
+                "path": [G.nodes[p].get("label", p) for p in path],
+            })
+
+    # Induced neighbourhood (BFS depth 2) for highlight + PNG export.
+    subgraph_nodes: set[str] = set(resolved)
+    frontier: set[str] = set(resolved)
+    subgraph_edges: list[tuple[str, str]] = []
+    for _ in range(2):
+        nxt: set[str] = set()
+        for n in frontier:
+            for nb in set(G.predecessors(n)) | set(G.successors(n)):
+                if nb not in subgraph_nodes:
+                    nxt.add(nb)
+                    subgraph_edges.append((n, nb))
+        subgraph_nodes.update(nxt)
+        frontier = nxt
+    sub_set = subgraph_nodes
+    highlight_edges = [
+        [u, v] for u, v in subgraph_edges if u in sub_set and v in sub_set
+    ][:200]
+
+    summary_lines = [f"Analysis of {len(resolved)} node(s): " + ", ".join(labels)]
+    if analysis_text:
+        summary_lines.append(f"Request: {analysis_text}")
+    if missing:
+        summary_lines.append(f"Unresolved: {', '.join(missing)}")
+    summary_lines += ["", "Nodes:"]
+    for r in node_rows:
+        summary_lines.append(
+            f"- **{r['label']}** (deg {r['degree']}, in {r['in_degree']}, "
+            f"out {r['out_degree']}, betweenness {r['betweenness']}, "
+            f"closeness {r['closeness']}, pagerank {r['pagerank']:.4f})"
+        )
+    if pair_rows:
+        summary_lines += ["", "Pairwise:"]
+        for p in pair_rows:
+            dist = p["distance"] if p["distance"] is not None else "no path"
+            summary_lines.append(
+                f"- **{p['a']}** ↔ **{p['b']}**: distance {dist}, "
+                f"{p['common_neighbor_count']} common neighbor(s)"
+            )
+
+    analysis_data = {
+        "query": analysis_text,
+        "nodes": node_rows,
+        "pairs": pair_rows,
+        "subgraph": {
+            "nodes": list(subgraph_nodes)[:200],
+            "edges": [
+                [u, v] for u, v in subgraph_edges if u in sub_set and v in sub_set
+            ][:200],
+        },
+        "primary_node": resolved[0],
+    }
+
+    return {
+        "type": "analyze",
+        "text": "\n".join(summary_lines),
+        "highlight_nodes": list(subgraph_nodes)[:200],
+        "highlight_edges": highlight_edges,
+        "primary_node": resolved[0],
+        "analysis_data": analysis_data,
     }

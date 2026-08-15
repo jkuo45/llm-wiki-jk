@@ -298,29 +298,34 @@ Given the user's message, classify it into EXACTLY ONE of these intents and resp
 
 ALSO detect the language of the user's message and include it as "lang" (use BCP 47 codes: "en", "zh-TW", "zh-CN", "ja", "ko", "es", "fr", "de", "ru", etc.).
 
-1. query - user asks a question about entities in wiki, graph. knowledge base.
-   Response: {"intent": "query", "question": "<the question>", "lang": "<detected language>"}
+1. query - user asks an OPEN-ENDED, natural language question about the graph / knowledge base (e.g. "what are the key nodes in longevity research?").
+    Response: {"intent": "query", "question": "<the question>", "lang": "<detected language>"}
 
-2. explain - user wants to understand a specific concept/node
-   Response: {"intent": "explain", "node": "<node name>", "lang": "<detected language>"}
+2. explain - user wants a deep dive on a SINGLE entity / concept / node.
+    Response: {"intent": "explain", "node": "<node name>", "lang": "<detected language>"}
 
-3. path - user wants the connection between EXACTLY TWO concepts
-   Response: {"intent": "path", "from": "<node A>", "to": "<node B>", "lang": "<detected language>"}
+3. path - user wants the DIRECT relationship traced between TWO OR MORE nodes (the shortest/absolute path connecting them), optionally naming intermediate waypoints ("through", "via", "->", "then").
+    Response: {"intent": "path", "nodes": ["<node A>", "<node B>", "<node C>"], "lang": "<detected language>"}
+    For a simple two-node case you may instead use {"intent": "path", "from": "<node A>", "to": "<node B>", "lang": "..."}.
 
-4. trace - user wants a route through THREE OR MORE concepts, or names intermediate
-   waypoints ("through", "via", "->", "then"), or asks to walk/trace a chain hop by hop
-   Response: {"intent": "trace", "nodes": ["<node A>", "<node B>", "<node C>"], "lang": "<detected language>"}
+4. analyze - user wants a custom analysis or comparison of specific node(s):
+    centrality, degree, common neighbours, bridging nodes, neighbourhood overlap,
+    pairwise paths, or a node's structural role in the graph. The analysis may be
+    comparative (two or more nodes) or about a single node.
+    Response: {"intent": "analyze", "nodes": ["<node A>", "<node B>"], "analysis": "<short phrase describing what to compute>", "lang": "<detected language>"}
 
 5. unknown - cannot classify
-   Response: {"intent": "unknown", "lang": "<detected language>"}
+    Response: {"intent": "unknown", "lang": "<detected language>"}
 
 Examples:
 - "What is autophagy?" -> {"intent": "explain", "node": "Autophagy", "lang": "en"}
 - "自噬是什麼？" -> {"intent": "explain", "node": "Autophagy", "lang": "zh-TW"}
 - "How does rapamycin relate to mTOR?" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "en"}
 - "雷帕霉素和mTOR有什么关系？" -> {"intent": "path", "from": "Rapamycin", "to": "mTOR", "lang": "zh-CN"}
-- "trace from Adrenochrome through Sirtuins to Cellular Senescence" -> {"intent": "trace", "nodes": ["Adrenochrome", "Sirtuins", "Cellular Senescence"], "lang": "en"}
-- "從 CD38 經 NAD+ 追蹤到 SIRT1" -> {"intent": "trace", "nodes": ["CD38", "NAD+", "SIRT1"], "lang": "zh-TW"}
+- "Path from NAD+ via SIRT1 to Mitophagy" -> {"intent": "path", "nodes": ["NAD+", "SIRT1", "Mitophagy"], "lang": "en"}
+- "從 CD38 經 NAD+ 追蹤到 SIRT1" -> {"intent": "path", "nodes": ["CD38", "NAD+", "SIRT1"], "lang": "zh-TW"}
+- "Compare the centrality and common neighbours of NAD+ and SIRT1" -> {"intent": "analyze", "nodes": ["NAD+", "SIRT1"], "analysis": "centrality and common neighbours", "lang": "en"}
+- "分析 NAD+ 與 SIRT1 的橋接節點" -> {"intent": "analyze", "nodes": ["NAD+", "SIRT1"], "analysis": "bridging nodes", "lang": "zh-TW"}
 - "hello" -> {"intent": "unknown", "lang": "en"}
 - "你好" -> {"intent": "unknown", "lang": "zh-TW"}
 
@@ -349,6 +354,51 @@ async def parse_intent(message: str, timeout: float = 60.0) -> dict:
     except Exception as e:
         logger.error(f"parse_intent error: {e}")
         return {"intent": "unknown"}
+    finally:
+        if session_id:
+            await delete_session(session_id)
+
+
+# ----------------------------------------------------------------------------
+# Analysis narrative
+# ----------------------------------------------------------------------------
+
+ANALYSIS_PROMPT = """You are narrating a custom graph analysis that was computed by a script over a biomedical knowledge graph. You are given the user's request and the exact computed metrics (degree, centrality, common neighbours, pairwise paths). Write a clear, plain-language interpretation of what the numbers mean for the named nodes.
+
+Rules:
+- The metrics are system-computed. Do NOT claim to have calculated, measured, or queried them. Present them as given.
+- Narrate ONLY what the supplied data supports. Do not invent nodes, edges, scores, or relationships that are not in the data.
+- Use the exact node labels from the data, wrapped as [[Node Name]] so the UI can highlight them.
+- Where a finding has a biological meaning, connect it to the wiki; otherwise keep the interpretation strictly to graph structure.
+- Keep it concise: 3-6 short paragraphs or a tight bulleted list. This renders in a small chat panel beside a 3D graph.
+
+User request: {request}
+
+Computed analysis (JSON):
+{data}
+
+Write the narrative:"""
+
+
+async def write_analysis_narrative(
+    computed_data: dict, request: str = "", lang: str = "en", timeout: float = 120.0
+) -> str:
+    """Turn computed graph metrics into a plain-language analysis narrative.
+
+    Uses the utility agent (read-only). Returns "" on any failure so the caller
+    can fall back to the computed summary text.
+    """
+    prompt = ANALYSIS_PROMPT.replace("{request}", request or "(none)").replace(
+        "{data}", json.dumps(computed_data, ensure_ascii=False)[:4000]
+    )
+    session_id = None
+    try:
+        session_id = await create_session(title="analysis")
+        text = await _prompt_sync(session_id, prompt, timeout=timeout)
+        return text.strip()
+    except Exception as e:  # noqa: BLE001 - narrative is best-effort
+        logger.error(f"write_analysis_narrative failed: {e}")
+        return ""
     finally:
         if session_id:
             await delete_session(session_id)

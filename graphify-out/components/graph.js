@@ -60,7 +60,7 @@ datasetScroll.innerHTML = `
 
   <h3>How to Use / 使用方式</h3>
   <ul class="dataset-list">
-    <li><b>Search</b> nodes in the left panel, or <b>Graph Query</b> to trace paths.</li>
+    <li><b>Search</b> nodes in the left panel, or <b>Graph Query</b> to find paths.</li>
     <li><b>Drag</b> nodes to explore; Cmd/Ctrl-drag moves their neighbors.</li>
     <li><b>Chat</b> — ask questions and follow up conversationally.</li>
     <li><b>Click</b> edges and nodes to inspect relations and jump to source notes.</li>

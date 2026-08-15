@@ -3,7 +3,7 @@
 Responsibilities:
   - translate the opencode event bus into the SSE contract graphify-out/components/chat.js
     already speaks ({type: reasoning|text|highlight|done|error})
-  - run read-only networkx graph operations (query/explain/path/trace)
+  - run read-only networkx graph operations (query/explain/path/analyze)
   - map browser chat windows onto long-lived opencode sessions
 
 The opencode server itself is never exposed publicly; it binds to loopback and
@@ -26,10 +26,10 @@ from pydantic import BaseModel, Field
 
 from .graph_ops import (
     get_graph,
+    graph_analyze,
     graph_explain,
     graph_path,
     graph_query,
-    graph_trace,
     match_nodes_in_text,
 )
 from .llm import (
@@ -40,8 +40,14 @@ from .llm import (
     parse_intent,
     stream_answer,
     translate_text,
+    write_analysis_narrative,
 )
-from .sanitize import sanitize_input, sanitize_node_name, validate_intent
+from .sanitize import (
+    sanitize_analysis,
+    sanitize_input,
+    sanitize_node_name,
+    validate_intent,
+)
 
 logging.basicConfig(level=os.environ.get("LOG_LEVEL", "INFO"))
 logger = logging.getLogger(__name__)
@@ -167,7 +173,7 @@ class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=500)
     session_id: str | None = None
     # Client-side routing switch (the "Graphify" checkbox in the chat composer).
-    # True  -> always attempt a graph op (query/explain/path/trace)
+    # True  -> always attempt a graph op (query/explain/path/analyze)
     # False -> always answer from the wiki via chat, even if the text says "graphify"
     # None  -> legacy behaviour: sniff for an explicit "graphify <op>" phrase
     graphify: bool | None = None
@@ -181,6 +187,7 @@ class IntentResponse(BaseModel):
     from_node: str | None = None
     to_node: str | None = None
     nodes: list[str] | None = None
+    analysis: str | None = None
     message: str | None = None
     session_id: str | None = None
 
@@ -193,6 +200,7 @@ class ExecuteRequest(BaseModel):
     from_node: str | None = None
     to_node: str | None = None
     nodes: list[str] | None = None
+    analysis: str | None = None
     message: str | None = None
     session_id: str | None = None
     # Accepted for backwards compatibility; server-side sessions supersede it.
@@ -264,7 +272,7 @@ async def intent_endpoint(request: ChatRequest):
 
     lowered = clean.lower()
     keyword_op = "graphify" in lowered and any(
-        op in lowered for op in ("explain", "path", "query", "trace")
+        op in lowered for op in ("explain", "path", "query", "analyze")
     )
     is_graphify_op = keyword_op if request.graphify is None else request.graphify
 
@@ -284,6 +292,7 @@ async def intent_endpoint(request: ChatRequest):
                 from_node=intent.get("from"),
                 to_node=intent.get("to"),
                 nodes=intent.get("nodes"),
+                analysis=intent.get("analysis"),
                 session_id=request.session_id,
             )
         logger.info("Graphify op unresolved; falling back to wiki chat")
@@ -319,10 +328,10 @@ def _greeting_result() -> dict:
         "text": (
             "Hey! I'm your knowledge graph assistant. With **Graphify** on I run graph "
             "operations; switch it off to answer from the wiki instead.\n\n"
-            '- **explain** — *"Explain SASP"* — deep dive on one node\n'
-            '- **path** — *"How does Rapamycin relate to mTOR?"* — shortest link between two nodes\n'
-            '- **trace** — *"Trace from NAD+ via SIRT1 to Mitophagy"* — multi-hop route through waypoints\n'
-            '- **query** — *"Key nodes in longevity research"* — search the graph\n\n'
+            '- **explain** — *"Explain SASP"* — deep dive on a single entity\n'
+            '- **path** — *"How does Rapamycin relate to mTOR?"* — traces the direct relationship between two or more nodes\n'
+            '- **analyze** — *"Compare the centrality of NAD+ and SIRT1"* — custom node analysis you can download\n'
+            '- **query** — *"Key nodes in longevity research"* — open-ended, natural language questions\n\n'
             "Type a question to get started!"
         ),
         "highlight_nodes": [],
@@ -335,10 +344,10 @@ def _unknown_result() -> dict:
         "type": "unknown",
         "text": (
             "I couldn't understand your question. Try one of:\n\n"
-            '- **explain** — *"What is Autophagy?"*\n'
-            '- **path** — *"How does Rapamycin relate to mTOR?"*\n'
-            '- **trace** — *"Trace from CD38 via NAD+ to SIRT1"*\n'
-            '- **query** — *"Key nodes in longevity research"*\n\n'
+            '- **explain** — *"What is Autophagy?"* — deep dive on a single entity\n'
+            '- **path** — *"How does Rapamycin relate to mTOR?"* — traces the direct relationship between two or more nodes\n'
+            '- **analyze** — *"Compare the centrality of NAD+ and SIRT1"*\n'
+            '- **query** — *"Key nodes in longevity research"* — open-ended, natural language questions\n\n'
             "Or switch **Graphify** off to answer from the wiki instead."
         ),
         "highlight_nodes": [],
@@ -404,8 +413,10 @@ async def execute_stream(request: ExecuteRequest):
         request.nodes = [
             n for n in (sanitize_node_name(x) for x in request.nodes[:8]) if n
         ]
+    if request.analysis:
+        request.analysis = sanitize_analysis(request.analysis)
 
-    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "trace"}
+    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "analyze"}
     if request.intent not in ALLOWED_INTENTS:
         async def _unknown():
             yield _sse({"type": "text", "text": _unknown_result()["text"]})
@@ -461,17 +472,38 @@ async def execute_stream(request: ExecuteRequest):
         result = graph_query(request.question)
     elif request.intent == "explain" and request.node:
         result = graph_explain(request.node)
-    elif request.intent == "path" and request.from_node and request.to_node:
-        result = graph_path(request.from_node, request.to_node)
-    elif request.intent == "trace" and request.nodes and len(request.nodes) >= 2:
-        result = graph_trace(request.nodes)
+    elif request.intent == "path" and (
+        (request.nodes and len(request.nodes) >= 2)
+        or (request.from_node and request.to_node)
+    ):
+        waypoints = (
+            request.nodes
+            if request.nodes and len(request.nodes) >= 2
+            else [request.from_node, request.to_node]
+        )
+        result = graph_path(waypoints)
+    elif request.intent == "analyze" and request.nodes:
+        result = graph_analyze(
+            request.nodes, request.message or request.analysis or ""
+        )
+        # Layer an LLM narrative over the computed summary (best-effort).
+        analysis_data = result.get("analysis_data")
+        if analysis_data:
+            try:
+                narrative = await write_analysis_narrative(
+                    analysis_data, request.analysis or "", request.lang or "en"
+                )
+                if narrative:
+                    result = {**result, "text": narrative}
+            except Exception as e:  # noqa: BLE001 - keep computed text on failure
+                logger.error(f"analyze narrative failed: {e}")
     else:
         result = _unknown_result()
 
     if (
         request.lang
         and request.lang != "en"
-        and request.intent in ("query", "explain", "path", "trace")
+        and request.intent in ("query", "explain", "path", "analyze")
     ):
         result["text"] = await translate_text(result["text"], request.lang)
 
@@ -489,6 +521,7 @@ async def execute_stream(request: ExecuteRequest):
                 "highlight_nodes": result.get("highlight_nodes", []),
                 "highlight_edges": result.get("highlight_edges", []),
                 "primary_node": result.get("primary_node"),
+                "analysis_data": result.get("analysis_data"),
             }
         )
         yield _sse({"type": "done", "elapsed": 0})

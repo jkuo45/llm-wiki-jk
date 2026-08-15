@@ -541,13 +541,11 @@ document.getElementById('btn-reset').addEventListener('click', () => {
 // ------------------------------------------------------------
 // Save graph as PNG (download)
 // ------------------------------------------------------------
-document.getElementById('btn-save-png').addEventListener('click', async (e) => {
-  const btn = e.currentTarget;
-  const origIcon = btn.innerHTML;
-  const origTitle = btn.title;
-  btn.disabled = true;
+// Render the current scene (including any active highlight) to a PNG and
+// download it under `filename`. Reuses a throwaway preserveDrawingBuffer layer
+// and composites CSS2D node labels so names are visible in the export.
+export async function exportGraphPNG(filename) {
   const mainBg = scene.background;
-
   const captureLayer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
   let dataUrl = null;
   try {
@@ -603,10 +601,25 @@ document.getElementById('btn-save-png').addEventListener('click', async (e) => {
 
     const blob = await new Promise((res, rej) => canvas.toBlob(b => b ? res(b) : rej(new Error('no-blob')), 'image/png'));
     const a = document.createElement('a');
-    a.download = 'graph.png';
+    a.download = filename || 'graph.png';
     a.href = URL.createObjectURL(blob);
     a.click();
     URL.revokeObjectURL(a.href);
+    return true;
+  } finally {
+    scene.background = mainBg;
+    renderer.render(scene, camera);
+    captureLayer.dispose();
+  }
+}
+
+document.getElementById('btn-save-png').addEventListener('click', async (e) => {
+  const btn = e.currentTarget;
+  const origIcon = btn.innerHTML;
+  const origTitle = btn.title;
+  btn.disabled = true;
+  try {
+    await exportGraphPNG('graph.png');
     btn.classList.add('ok');
     btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
     btn.title = 'Saved graph.png ✓ / 已另存 graph.png ✓';
@@ -615,9 +628,6 @@ document.getElementById('btn-save-png').addEventListener('click', async (e) => {
     btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
     btn.title = 'Save failed / 儲存失敗';
   } finally {
-    scene.background = mainBg;
-    renderer.render(scene, camera);
-    captureLayer.dispose();
     btn.disabled = false;
     setTimeout(() => { btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok', 'err'); }, 1800);
   }

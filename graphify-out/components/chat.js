@@ -9,7 +9,7 @@ import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from './ui.js';
 import { deselectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 
@@ -52,12 +52,12 @@ let chatSessionId = null;
 // Graphify routing switch
 // ------------------------------------------------------------
 // Checked (default): every turn is routed through a graphify graph operation
-// (explain / trace / path / query). Unchecked: the turn is answered from the
+// (explain / path / query / analyze). Unchecked: the turn is answered from the
 // wiki by the chat model, even if the text happens to say "graphify".
 // The switch resets to on with the rest of the session state on reload.
 const OP_TEMPLATES = {
+  query: { text: 'Query ', caret: null },
   explain: { text: 'Explain ', caret: null },
-  trace: { text: 'Trace from  via  to ', caret: 11 },
   path: { text: 'Path from  to ', caret: 10 },
 };
 
@@ -69,7 +69,7 @@ function syncGraphifyUI() {
   const on = graphifyEnabled();
   chatModes.classList.toggle('graphify-off', !on);
   chatInput.placeholder = on
-    ? 'Ask the graph — explain, trace, path'
+    ? 'Ask the graph — query, explain, path, or describe a custom analysis'
     : 'Ask the wiki';
 }
 
@@ -372,7 +372,7 @@ async function sendChatMessage() {
     // Update indicator only when a translation pass will actually run. Chat
     // turns answer in the user's language natively, so no translation step.
     const willTranslate = intentData.lang && intentData.lang !== 'en'
-      && ['query', 'explain', 'path', 'trace'].includes(intentData.intent);
+      && ['query', 'explain', 'path', 'analyze'].includes(intentData.intent);
     if (willTranslate) {
       typingDiv.querySelector('#typing-label').textContent = 'Translating';
     }
@@ -536,6 +536,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   let highlightNodes = [];
   let highlightEdges = [];
   let primaryNode = null;
+  let analysisData = null;
 
   try {
     const resp = await fetch(EXECUTE_STREAM_API, {
@@ -549,7 +550,8 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
         from_node: intentData.from_node,
         to_node: intentData.to_node,
         nodes: intentData.nodes,
-        message: intentData.message,
+        analysis: intentData.analysis,
+        message: intentData.message || clean,
         session_id: chatSessionId,
       }),
     });
@@ -575,6 +577,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
           highlightNodes = evt.highlight_nodes || [];
           highlightEdges = evt.highlight_edges || [];
           primaryNode = evt.primary_node || null;
+          analysisData = evt.analysis_data || null;
         }
       }
     }
@@ -589,8 +592,8 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
   if (typingTimerId) clearInterval(typingTimerId);
 
-  // Badge names the graph op that produced the answer (explain / trace / path / query).
-  const op = ['query', 'explain', 'path', 'trace'].includes(intentData.intent)
+  // Badge names the graph op that produced the answer (explain / path / analyze / query).
+  const op = ['query', 'explain', 'path', 'analyze'].includes(intentData.intent)
     ? intentData.intent : null;
   const div = document.createElement('div');
   div.className = 'chat-msg bot';
@@ -611,6 +614,48 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
       highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
     }
   }
+
+  // Custom node analysis: offer JSON + PNG downloads of the computed result.
+  if (intentData.intent === 'analyze' && analysisData) {
+    addAnalysisActions(div, analysisData);
+  }
+}
+
+// Build the download row for a custom node analysis message.
+function addAnalysisActions(div, data, fallbackLabel) {
+  const primaryLabel =
+    (data && data.nodes && data.nodes[0] && data.nodes[0].label) || fallbackLabel || 'analysis';
+  const safe = String(primaryLabel).replace(/[^\w\u4e00-\u9fff\-]+/g, '_').slice(0, 60);
+
+  const row = document.createElement('div');
+  row.className = 'chat-analysis-actions';
+
+  const jsonBtn = document.createElement('button');
+  jsonBtn.className = 'chat-analysis-btn';
+  jsonBtn.type = 'button';
+  jsonBtn.textContent = '⬇ JSON';
+  jsonBtn.title = 'Download analysis as JSON / 下載 JSON';
+  jsonBtn.addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.download = `analysis-${safe}.json`;
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  const pngBtn = document.createElement('button');
+  pngBtn.className = 'chat-analysis-btn';
+  pngBtn.type = 'button';
+  pngBtn.textContent = '⬇ PNG';
+  pngBtn.title = 'Download highlighted subgraph as PNG / 下載 PNG';
+  pngBtn.addEventListener('click', () => {
+    exportGraphPNG(`analysis-${safe}.png`);
+  });
+
+  row.appendChild(jsonBtn);
+  row.appendChild(pngBtn);
+  div.appendChild(row);
 }
 
 chatSend.addEventListener('click', sendChatMessage);

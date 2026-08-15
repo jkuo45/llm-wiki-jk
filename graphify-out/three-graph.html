@@ -115,9 +115,9 @@
       <span>Graphify</span>
     </label>
     <div id="graphify-ops" role="group" aria-label="Graphify operations">
-      <button type="button" class="graphify-op" data-op="explain" title="Deep dive on one node / 解釋單一節點">explain</button>
-      <button type="button" class="graphify-op" data-op="trace" title="Multi-hop route through waypoints / 多段路徑追蹤">trace</button>
-      <button type="button" class="graphify-op" data-op="path" title="Shortest link between two nodes / 兩節點最短路徑">path</button>
+      <button type="button" class="graphify-op" data-op="query" title="Open-ended, natural language questions / 開放式自然語言提問">query</button>
+      <button type="button" class="graphify-op" data-op="explain" title="Deep dive on a single entity / 深入解釋單一實體">explain</button>
+      <button type="button" class="graphify-op" data-op="path" title="Traces the direct relationship between two or more nodes / 追蹤兩個以上節點之間的直接關係">path</button>
     </div>
     <span id="graphify-off-hint">Wiki retrieval</span>
   </div>
@@ -165,7 +165,6 @@
   }
 }
 </script>
-
 <script type="module" src="components/graph.js"></script>
 </body>
 </html>
