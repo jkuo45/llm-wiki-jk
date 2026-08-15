@@ -15,6 +15,7 @@
   - Contains task outputs. Default to saving task outputs to this directory.
 - Execute python scripts using `uv run --with`.
 - Graphify is installed as a uv tool.
+- **Graphify updates** use `scripts/03_rebuild_from_triples.py` (the vault's canonical rebuild from per-topic `src/**/_triples.json`), NOT standard graphify ingest. Run it to regenerate `graphify-out/` (graph.json, GRAPH_REPORT.md, labels, html, nodes/edges/legend.json, wiki-context.json) after triples change. Update translation files as needed.
 
 ## Retrieval Guidelines:
 
