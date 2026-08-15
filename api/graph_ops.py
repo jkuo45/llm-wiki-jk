@@ -8,6 +8,8 @@ from pathlib import Path
 import networkx as nx
 from networkx.readwrite import json_graph
 
+from api.wiki import enrich_description
+
 logger = logging.getLogger(__name__)
 
 GRAPH_PATH = Path(__file__).parent.parent / "graphify-out" / "graph.json"
@@ -202,7 +204,8 @@ def graph_explain(node_name: str) -> dict:
     ndata = G.nodes[nid]
     label = ndata.get("label", nid)
     logger.info(f"graph_explain: requested={node_name!r}, matched_node={label!r}")
-    desc = ndata.get("description", "")
+    enriched = enrich_description(nid, label, (ndata.get("description", "") or ""))
+    desc = enriched["description"]
     source = ndata.get("source_file", "")
     community = ndata.get("community", "")
     degree = G.degree(nid)
@@ -251,6 +254,8 @@ def graph_explain(node_name: str) -> dict:
         "highlight_nodes": highlight_node_ids,
         "highlight_edges": highlight_edges[:100],
         "primary_node": nid,
+        "wiki_source": enriched["wiki_source"],
+        "task_outputs": enriched["task_outputs"],
     }
 
 
@@ -451,6 +456,9 @@ def graph_analyze(nodes: list[str], analysis_text: str = "") -> dict:
     node_rows = []
     for nid in resolved:
         nd = G.nodes[nid]
+        enriched = enrich_description(
+            nid, nd.get("label", nid), (nd.get("description", "") or "")
+        )
         node_rows.append({
             "id": nid,
             "label": nd.get("label", nid),
@@ -462,7 +470,9 @@ def graph_analyze(nodes: list[str], analysis_text: str = "") -> dict:
             "closeness": round(close.get(nid, 0.0), 6),
             "clustering": round(cluster.get(nid, 0.0), 6),
             "pagerank": round(pr.get(nid, 0.0), 6),
-            "description": (nd.get("description", "") or "")[:400],
+            "description": enriched["description"],
+            "wiki_source": enriched["wiki_source"],
+            "task_outputs": enriched["task_outputs"],
         })
 
     pair_rows = []
