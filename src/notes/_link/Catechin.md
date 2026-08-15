@@ -26,7 +26,9 @@ In the fisetin senolytic screening panel (Yousefzadeh et al., 2018), catechin wa
   - [[Flavonoids]], [[Polyphenols]]: Parent classes.
   - [[Fisetin]], [[Quercetin]]: Flavonoids that outperformed catechin as senolytics.
   - [[Antioxidant]], [[Inflammation]]: Core activities.
+  - [[Proanthocyanidins]]: Catechin is a monomeric flavan-3-ol building block of polymeric proanthocyanidins.
+  - [[STACs]] / [[SIRT1]]: Catechin belongs to the natural-polyphenol STAC family that activates SIRT1 via K-type allosteric modulation.
 
 ## Linking Summary
 
-  - New links added: [[Catechin]], [[Flavonoids]], [[Antioxidant]], [[Inflammation]], [[EGCG]], [[Polyphenols]], [[Fisetin]], [[Quercetin]]
+  - New links added: [[Catechin]], [[Flavonoids]], [[Antioxidant]], [[Inflammation]], [[EGCG]], [[Polyphenols]], [[Fisetin]], [[Quercetin]], [[Proanthocyanidins]], [[STACs]], [[SIRT1]]

@@ -29,6 +29,7 @@ aliases:
 ### Natural Polyphenols (First-Generation)
 The founding member and most famous first-generation STAC is **[[Resveratrol|Resveratrol 1]]**, a natural polyphenol synthesized by grapes, berries, and other plants in response to environmental stress (a concept known as **[[Xenohormesis|Xenohormesis]]**).
 - Other natural STACs include fisetin, quercetin, butein, and piceatannol.
+- The broader flavonoid/polyphenol STAC family also encompasses [[Kaempferol]], [[Catechin]], [[Proanthocyanidins]], and [[Resveratrol]] (stilbenes), all of which activate SIRT1 via the shared K-type allosteric mechanism.
 - These compounds are relatively weak activators *in vitro* and exhibit low bioavailability and poor target selectivity.
 
 ### Synthetic Small Molecules (Second- and Third-Generation)

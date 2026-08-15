@@ -24,7 +24,7 @@ Polyphenols encompass over 8,000 identified compounds broadly classified into fo
 - **Hydroxybenzoic acids** (C6-C1): gallic acid, vanillic acid, syringic acid—present in Tea, Red Wine, and Berries
 - **Hydroxycinnamic acids** (C6-C3): caffeic acid, ferulic acid, p-coumaric acid, sinapic acid—abundant in coffee, fruits, and cereals; often esterified as **chlorogenic acid** (caffeoylquinic acid)
 ### 2. Flavonoids
-The largest subclass (see [[Flavonoids]]), including flavonols, flavones, isoflavones, flavanones, flavanols, and anthocyanidins, sharing the diphenylpropane (C6-C3-C6) scaffold.
+The largest subclass (see [[Flavonoids]]), including flavonols, flavones, isoflavones, flavanones, flavanols, anthocyanidins, and [[Proanthocyanidins]] (oligomeric/polymeric flavan-3-ols), sharing the diphenylpropane (C6-C3-C6) scaffold.
 ### 3. Stilbenes
 Characterized by the C6-C2-C6 framework:
 - **[[Resveratrol]]** (3,5,4′-trihydroxy-trans-stilbene): The most studied stilbene, found in red wine, grapes, and [[Polygonum cuspidatum]]; activates [[Sirtuin 1|SIRT1]] and [[AMPK]]
@@ -137,6 +137,7 @@ List of documents that mention this entity
 - [[Oxidative Stress]]
 - [[Cancer]]
 - [[Flavonoids]]: Major subclass of polyphenols
+- [[Proanthocyanidins]]: Oligomeric/polymeric flavan-3-ol (condensed tannin) subclass; SIRT1-modulatory
 - [[Resveratrol]]: Prototypical stilbene polyphenol
 - [[Genistein]]: Isoflavone polyphenol with phytoestrogen activity
 - [[Gut Microbiome]]: Critical for polyphenol biotransformation
@@ -147,5 +148,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]]
-- Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]]
+- Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]], [[Proanthocyanidins]]
   - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]
