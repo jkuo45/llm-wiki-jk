@@ -63,6 +63,22 @@ def sanitize_analysis(text: str) -> str:
     return text
 
 
+def sanitize_tags(tags) -> list[str]:
+    """Sanitize client-supplied @-tagged node names (deduped, bounded)."""
+    if not isinstance(tags, list):
+        return []
+    out: list[str] = []
+    for t in tags:
+        if not isinstance(t, str):
+            continue
+        name = sanitize_node_name(t)
+        if name and name not in out:
+            out.append(name)
+        if len(out) >= MAX_TRACE_NODES:
+            break
+    return out
+
+
 def validate_intent(intent: dict) -> dict:
     """Validate and sanitize a parsed model intent."""
     if not isinstance(intent, dict):

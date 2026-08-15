@@ -46,6 +46,7 @@ from .sanitize import (
     sanitize_analysis,
     sanitize_input,
     sanitize_node_name,
+    sanitize_tags,
     validate_intent,
 )
 
@@ -157,6 +158,8 @@ class ChatRequest(BaseModel):
     # False -> always answer from the wiki via chat, even if the text says "graphify"
     # None  -> legacy behaviour: sniff for an explicit "graphify <op>" phrase
     graphify: bool | None = None
+    # @-tagged node names from the composer (explicit context for the turn).
+    tags: list[str] | None = None
 
 
 class IntentResponse(BaseModel):
@@ -183,6 +186,8 @@ class ExecuteRequest(BaseModel):
     analysis: str | None = None
     message: str | None = None
     session_id: str | None = None
+    # @-tagged node names from the composer (explicit context for the turn).
+    tags: list[str] | None = None
     # Accepted for backwards compatibility; server-side sessions supersede it.
     history: list[dict] | None = None
 
@@ -243,7 +248,9 @@ async def intent_endpoint(request: ChatRequest):
     if not clean:
         raise HTTPException(status_code=400, detail="Invalid or empty input")
 
-    logger.info(f"Question asked: {clean!r}")
+    tags = sanitize_tags(request.tags)
+
+    logger.info(f"Question asked: {clean!r} (tags={tags})")
 
     if clean.lower().strip().rstrip("!.?") in GREETING_WORDS:
         return IntentResponse(
@@ -257,7 +264,12 @@ async def intent_endpoint(request: ChatRequest):
     is_graphify_op = keyword_op if request.graphify is None else request.graphify
 
     if is_graphify_op:
-        raw_intent = await parse_intent(clean)
+        # Explicit @-tags are appended to the classifier prompt so the tagged
+        # nodes bias intent parsing (e.g. "compare" + @NAD+ @SIRT1 -> analyze).
+        classify_msg = clean
+        if tags:
+            classify_msg = f"{clean}\n\nReferenced nodes: {', '.join(tags)}"
+        raw_intent = await parse_intent(classify_msg)
         intent = validate_intent(raw_intent)
         lang = raw_intent.get("lang") or detect_lang(clean)
         logger.info(f"Graphify intent: {intent}, lang: {lang}")
@@ -395,6 +407,7 @@ async def execute_stream(request: ExecuteRequest):
         ]
     if request.analysis:
         request.analysis = sanitize_analysis(request.analysis)
+    request.tags = sanitize_tags(request.tags)
 
     ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "analyze"}
     if request.intent not in ALLOWED_INTENTS:
@@ -423,7 +436,15 @@ async def execute_stream(request: ExecuteRequest):
         async def _chat():
             text_buf = ""
             done_seen = False
-            async for chunk in stream_answer(request.message, session_id=session_id):
+            # Explicit @-tagged nodes are pinned into the prompt as context so
+            # the model grounds its answer on them.
+            agent_message = request.message
+            if request.tags:
+                agent_message = (
+                    f"Referenced graph nodes (pinned by the user): "
+                    f"{', '.join(request.tags)}\n\nUser message:\n{request.message}"
+                )
+            async for chunk in stream_answer(agent_message, session_id=session_id):
                 if chunk.get("type") == "text":
                     text_buf += chunk.get("text", "")
                 if chunk.get("type") == "done":

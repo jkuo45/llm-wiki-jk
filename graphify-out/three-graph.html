@@ -105,7 +105,7 @@
 <div id="chat-highlight-badge" title="Click to clear chat highlights">Highlighting active</div>
 <div id="chat-panel">
   <div id="chat-header">
-    <span>Graph Chat / 圖形對話</span>
+    <span>Analysis / 分析</span>
     <div class="chat-header-actions">
       <button id="chat-new" title="New chat / 新對話">New</button>
       <button id="chat-maximize" title="Maximize window / 放大視窗" aria-label="Maximize window">
@@ -128,8 +128,10 @@
     </div>
     <span id="graphify-off-hint">Wiki retrieval</span>
   </div>
+  <div id="chat-tags"></div>
   <div id="chat-input-wrap">
-    <textarea id="chat-input" rows="1" placeholder="Enter prompt" maxlength="500"></textarea>
+    <div id="chat-tag-popup"></div>
+    <textarea id="chat-input" rows="1" placeholder="Enter prompt — type @ to tag nodes" maxlength="500"></textarea>
     <button id="chat-send" title="Send">Send</button>
   </div>
 </div>

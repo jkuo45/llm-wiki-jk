@@ -300,11 +300,11 @@ a.data-source:hover { border-color: #6b9bc7; }
 #chat-btn:hover { background: #5d8ab8; transform: scale(1.08); }
 #chat-btn.open { background: #2a2a4e; border-color: #3a3a5e; }
 
-/* Chat panel */
+/* Chat panel — analysis panel, large floating window on the right */
 #chat-panel {
-  position: fixed; bottom: 92px; right: 24px; z-index: 290;
-  width: 400px; max-width: calc(100vw - 48px); height: 520px;
-  max-height: calc(100vh - 120px); max-height: calc(100dvh - 120px);
+  position: fixed; top: 12px; right: 12px; bottom: 12px; z-index: 290;
+  width: min(56vw, 820px); max-width: calc(100vw - 24px);
+  height: auto; max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px);
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
   display: none; flex-direction: column; overflow: hidden;
   box-shadow: 0 8px 32px rgba(0,0,0,0.5);
@@ -458,6 +458,7 @@ a.data-source:hover { border-color: #6b9bc7; }
   display: flex; gap: 8px; padding: 8px 14px 12px;
   flex-shrink: 0;
   flex-direction: row-reverse;
+  position: relative;
 }
 #chat-input {
   flex: 1; background: #0f0f1a; border: 1px solid #3a3a5e;
@@ -474,6 +475,41 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 #chat-send:hover { background: #5d8ab8; }
 #chat-send:disabled { background: #2a2a4e; color: #555; cursor: default; }
+
+/* @-tag chips + node autocomplete popup */
+#chat-tags { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 14px 0; flex-shrink: 0; min-height: 0; }
+#chat-tags:empty { display: none; }
+.chat-tag-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(78,121,167,0.18); border: 1px solid #4E79A7;
+  color: #a0d4f0; border-radius: 14px; padding: 3px 8px 3px 10px;
+  font-size: 12px; cursor: pointer; transition: all 0.15s; max-width: 100%;
+}
+.chat-tag-chip:hover { background: rgba(78,121,167,0.32); border-color: #7cb3d4; }
+.chat-tag-chip .tag-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chat-tag-chip .tag-remove {
+  background: none; border: none; color: #7cb3d4; cursor: pointer;
+  font-size: 13px; line-height: 1; padding: 0 2px; border-radius: 50%;
+}
+.chat-tag-chip .tag-remove:hover { color: #ff6b6b; }
+
+#chat-tag-popup {
+  position: absolute; bottom: calc(100% + 8px); left: 14px; right: 14px;
+  background: #1a1a2e; border: 1px solid #4E79A7; border-radius: 10px;
+  box-shadow: 0 -8px 32px rgba(0,0,0,0.55), 0 8px 32px rgba(0,0,0,0.55);
+  max-height: 260px; overflow-y: auto; z-index: 305; display: none;
+}
+#chat-tag-popup.visible { display: block; }
+.chat-tag-item {
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px;
+  cursor: pointer; font-size: 13px; border-bottom: 1px solid #2a2a4e;
+  color: #e0e0e0;
+}
+.chat-tag-item:last-child { border-bottom: none; }
+.chat-tag-item:hover, .chat-tag-item.active { background: rgba(78,121,167,0.22); }
+.chat-tag-item .tag-kind { color: #7cb3d4; font-size: 11px; flex-shrink: 0; }
+.chat-tag-item .tag-degree { margin-left: auto; color: #666; font-size: 11px; flex-shrink: 0; }
+.chat-tag-item .tag-empty { color: #888; font-style: italic; }
 
 /* Chat highlight overlay indicator */
 #chat-highlight-badge {
@@ -496,7 +532,7 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 
 @media (max-width: 480px) {
-  #chat-panel { width: calc(100vw - 24px); right: 12px; bottom: 84px; height: 60vh; }
+  #chat-panel { top: auto; bottom: 84px; width: calc(100vw - 24px); right: 12px; height: 62vh; max-height: calc(100vh - 100px); }
   #chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
   #chat-highlight-badge { bottom: 76px; right: 72px; }
   #top-links { right: 76px; flex-wrap: wrap; gap: 6px; }
