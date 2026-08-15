@@ -61,6 +61,8 @@ List of documents that mention this entity
 
 ## Connections
 - [[Incoherent Bivalent Motif]] — the network motif centered on mTORC1 that generates rapamycin hormesis
+- [[Hyperfunction Theory of Aging]] — the theoretical basis for rapamycin as an anti-aging drug (suppresses quasi-programmed growth)
+- [[mTORopathies]] / [[Hamartoma]] — monogenic, rapamycin-responsive growth-driven conditions that model accelerated aging
 - [[Biphasic Dose-Response Curve]] — rapamycin's non-monotonic efficacy (peak ~1 nM)
 - [[Saturated Enzymatic Regime]] — the low-K mTORC1→S6K1/2 link amplifying hormesis
 - [[mTORC2]] — the Output of the rapamycin incoherent bivalent loop; trapped by long-term rapamycin

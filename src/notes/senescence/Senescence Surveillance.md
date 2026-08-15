@@ -44,6 +44,7 @@ The [[cGAS-STING Pathway|cGAS-STING pathway]] in senescent cells promotes type-I
 - Clearance of [[Oncogene-Induced Senescence|oncogene-induced senescent cells]] in benign lesions prevents progression to malignancy
 - Senescence surveillance maintains the pre-malignant state: impairing surveillance (e.g., by immunosuppression or aging) accelerates tumorigenesis
 - SASP-driven immune recruitment is essential for the full tumor-suppressive effect of senescence
+- [[Benign Tumor]]: Benign lesions (e.g., nevi) are the arrested, tumor-suppressive end-state that surveillance protects; retaining them is longevity-positive, and clearing them prematurely can permit progression
 
 ### Immune Evasion by Senescent Cells
 Aging and chronic inflammation impair immune function, leading to senescence surveillance failure:

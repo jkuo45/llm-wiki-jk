@@ -41,7 +41,7 @@ OIS acts as a fail-safe mechanism against malignant transformation. In vivo, OIS
 
 ## Interactions with Senolytics
 
-OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/[[Bcl-xL]] inhibitor). However, eliminating OIS cells in premalignant lesions may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier. An open question is whether transient OIS cell clearance can reduce the pro-tumorigenic [[SASP|Senescence-Associated Secretory Phenotype]] without compromising tumor suppression.
+OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/[[Bcl-xL]] inhibitor). However, eliminating OIS cells in premalignant lesions may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier — the [[Senolytic Paradox]]. An open question is whether transient OIS cell clearance can reduce the pro-tumorigenic [[SASP|Senescence-Associated Secretory Phenotype]] without compromising tumor suppression.
 
 ## Documents
 
@@ -113,6 +113,7 @@ List of documents that mention this entity
 - [[Bcl-2]]: Anti-apoptotic target exploited by Navitoclax to kill OIS cells
 - [[Bcl-xL]]: Anti-apoptotic target exploited by Navitoclax to kill OIS cells
 - [[Paracrine Senescence]]: OIS cells transmit senescence to neighbouring normal cells via secreted SASP factors, expanding the senescent footprint of preneoplastic lesions
+- [[Benign Tumor]]: The benign nevus is the protective, arrested end-state of OIS — a case where "benign tumor growth" is longevity-positive because the growth triggers permanent arrest rather than progression
 
 ## Linking Summary
 - New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic Drugs]], [[Cancer]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]]
