@@ -870,7 +870,7 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
   if (targetPos) {
     // Camera flies in along the node's direction and looks slightly away from
     // it, so the node sits in the upper-left quadrant of the view.
-    const hasSidebar = window.innerWidth >= 768;
+    const hasSidebar = window.innerWidth >= 1200;
     const dist = 320;
     const direction = targetPos.clone().sub(camera.position);
     if (direction.lengthSq() > 0.0001) direction.normalize();

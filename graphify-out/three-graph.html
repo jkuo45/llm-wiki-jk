@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 graph agent">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
@@ -145,13 +146,17 @@
 <div id="page-modal-overlay">
   <div id="page-modal">
     <div id="page-modal-header">
-      <h2 id="page-modal-title">Reader / 閱讀器</h2>
-      <div class="page-modal-actions">
-        <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
-        <select id="reader-select" title="Choose article / 選擇文章"></select>
-        <a id="page-modal-open" href="#" target="_blank" rel="noopener">Open in new tab</a>
-        <button id="page-modal-close" title="Close / 關閉">&times;</button>
+      <div class="page-modal-header-row">
+        <h2 id="page-modal-title">Reader / 閱讀器</h2>
+        <div class="page-modal-actions">
+          <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
+          <a id="page-modal-open" href="#" target="_blank" rel="noopener" title="Open in new tab / 新分頁開啟" aria-label="Open in new tab">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <button id="page-modal-close" title="Close / 關閉">&times;</button>
+        </div>
       </div>
+      <select id="reader-select" title="Choose article / 選擇文章"></select>
     </div>
     <iframe id="page-modal-frame" title="Reader"></iframe>
   </div>
