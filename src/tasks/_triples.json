@@ -1374,5 +1374,333 @@
     "context": "SIRT3 deficiency causes lamina-associated domain detachment, increased chromatin accessibility, and aberrant repetitive-sequence transcription leading to senescence of human MSCs. SIRT1 activation of La Ribonucleoprotein 7 dampens p53 and NF-kB p65 transcriptional activity to ameliorate cellular senescence, while SIRT6 preserves telomere integrity and deacetylates Pol-beta for DNA-damage resistance.",
     "confidence": "0.85",
     "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "prevents",
+    "object": "Melanoma",
+    "context": "Oncogene-induced senescence (OIS) is the permanent cell-cycle arrest triggered in cells carrying BRAF/RAS/MYC mutations. The benign melanocytic nevus (mole) is the in-vivo embodiment of OIS and prevents melanoma; bypass of OIS via p53/PTEN loss or TERT activation is required for malignancy. Capped, arrested growth is therefore tumor-suppressive.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "BRAF",
+    "predicate": "induces",
+    "object": "Oncogene-Induced Senescence",
+    "context": "Oncogenic BRAF (V600E), RAS, or MYC drive a hyperproliferative burst that causes DNA replication stress and a DNA damage response, permanently arresting the cell via p53/p21 and p16/Rb. OIS is therefore induced by oncogenic signaling yet confronts it with a tumor-suppressive barrier in benign lesions.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "derepresses",
+    "object": "CDKN2A",
+    "context": "OIS derepresses the CDKN2A locus to upregulate p16INK4A, reinforcing the p16/Rb cell-cycle arrest that locks the benign lesion in a permanent frozen, tumor-suppressive state. This p16-mediated arrest is the mechanistic backbone of the protective benign nevus.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "is_cleared_by",
+    "object": "Navitoclax",
+    "context": "OIS cells in benign/premalignant lesions are vulnerable to Navitoclax-class senolytics. Eliminating them may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier — the senolytic paradox — so retaining certain benign tumors is functionally protective against cancer.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Benign Tumor",
+    "predicate": "has_dual_nature_with",
+    "object": "Hamartoma",
+    "context": "Benign tumors are dual-natured: OIS-type arrested lesions (nevi) are longevity-positive cancer barriers, whereas growth-signal-driven benign growths such as TSC1/TSC2-loss mTORC1 hamartomas are themselves disease (Tuberous Sclerosis, angiomyolipoma, epilepsy). Arrested growth is good; ongoing growth is bad.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "TSC1",
+    "predicate": "loss_activates",
+    "object": "mTORC1",
+    "context": "Loss of TSC1 or TSC2 removes the GAP that restrains Rheb, causing constitutive mTORC1 hyperactivation that drives benign hamartomas (Tuberous Sclerosis, renal angiomyolipoma, epilepsy, autism). Here benign growth is itself the disease, contrasting with the protective OIS-type benign lesion.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Hyperfunction Theory of Aging",
+    "predicate": "implicates",
+    "object": "mTOR",
+    "context": "The hyperfunction theory of aging holds that aging is the quasi-programmed continuation of developmental growth signaling; mTOR is the engine of aging and Rapamycin extends lifespan by suppressing mTOR. This frames the key distinction that arrested growth (OIS) is protective while ongoing, unopposed growth signaling is pathogenic.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Teratoma",
+    "predicate": "assays",
+    "object": "Pluripotency",
+    "context": "Teratoma formation is the gold-standard assay of pluripotency, validating induced pluripotent stem cells (iPSC) and embryonic stem cells (ESC) for rejuvenation medicine. This is an instrumental, research-level benefit of a benign tumor rather than an organismal longevity benefit.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "clears",
+    "object": "Oncogene-Induced Senescence",
+    "context": "The immune system clears oncogene-induced senescent cells in benign lesions; surveillance failure accelerates tumorigenesis. p16/p21 double-knockout raises cancer rates, evidencing that senescence in benign/premalignant lesions is tumor-suppressive and that retaining it is beneficial.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "Glutamate Dehydrogenase",
+    "context": "SIRT4 is the clearest anti-glutamine sirtuin: it mono-ADP-ribosylates glutamate dehydrogenase (GDH), limiting glutamate to alpha-ketoglutarate flux and restricting the anaplerotic carbon supply to the TCA cycle that glutamine-addicted cancers depend on. Loss of SIRT4 is common in HCC, gastric, CRC, bladder, and breast cancer, marking it a metabolic tumor suppressor.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "destabilizes",
+    "object": "HIF-1α",
+    "context": "SIRT3 opposes aerobic glycolysis indirectly through redox: it activates MnSOD/SOD2 and IDH2, lowering ROS, which destabilizes HIF-1alpha and cuts the master glycolytic transcription factor. SIRT3 loss therefore skews cells toward the Warburg effect and supports tumor metabolism.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "corepresses",
+    "object": "HIF-1α",
+    "context": "SIRT6 is the clearest anti-Warburg sirtuin: it corepresses HIF-1alpha and suppresses transcription of glycolytic enzymes (glucose transporters, Hexokinase 2) and deacetylates histone H3 at ERK1/2 promoters. Loss of SIRT6 permits Warburg-like aerobic glycolysis; its restoration suppresses glycolysis in HCC/glioma and enhances radiosensitivity in lung cancer.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "activates",
+    "object": "Ribosome Biogenesis",
+    "context": "SIRT7 drives ribosome biogenesis by activating RNA Pol I at rDNA and suppresses p21 via H3K18 deacetylation, fueling the biosynthetic capacity tumors need; it is overexpressed in breast, thyroid, and HCC. This proliferative, biosynthetic driver role makes SIRT7 an oncogenic sirtuin.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "Phosphoglycerate Mutase",
+    "context": "SIRT2 promotes tumor glycolysis in some settings by deacetylating phosphoglycerate mutase at Lys100, channeling carbon into NADPH production and accelerating tumor growth in lung cancer. This illustrates SIRT2's context-dependent, often harmful, metabolic face versus the protective SIRT1/3/6 axis.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "desuccinylates",
+    "object": "LDHB",
+    "context": "SIRT5 is protumorigenic in CRC, HCC, and NSCLC by reprogramming metabolism toward glycolysis and glutaminolysis; it desuccinylates lactate dehydrogenase B (LDHB) to hyperactivate autophagy, feeding cancer cells recycled nutrients. SIRT5 is a desuccinylase largely resistant to nicotinamide inhibition.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "Resveratrol is a SIRT1-activating compound (STAC) evaluated clinically with mixed results and now largely a research/nutraceutical. As a SIRT1 activator it improves insulin sensitivity and opposes several age-related diseases, though in bulk-phase physiology it protects the epigenome without inhibiting COMT.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "EX-527",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": "EX-527 (Selisistat) is the most advanced isoform-selective SIRT1 inhibitor, taken to Phase I/II in Huntington's disease and explored for oncology chemo-sensitization. It is one of the few sirtuin-directed agents to have reached human trials, contrasting with the purely preclinical SIRT2/3/4/5/6/7 chemistry.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "depend_on",
+    "object": "NAD+",
+    "context": "The sirtuin family (SIRT1-SIRT7) are NAD+-dependent acyltransferases whose output is gated by NAD+ availability. Tumor metabolic state (Complex I activity, glutaminolysis, NAMPT/CD38) directly sets sirtuin activity, which is why NAD+ depletion is emerging as a synthetic-lethal lever in MYC-high and glutamine-dependent cancers.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "requires",
+    "object": "Reactive Oxygen Species",
+    "context": "Mitohormesis requires a transient, acute ROS pulse as the signal to trigger adaptive cytoprotective responses (catalase upregulation, chaperone expression, UPRmt, mitochondrial biogenesis). Mitochondrial ROS are active signaling molecules rather than mere damage agents; quenching the pulse blocks the entire adaptive program.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "is_blocked_by",
+    "object": "Antioxidants",
+    "context": "Chronic antioxidant supplementation can inhibit the hormetic response and thereby block the cytoprotective adaptations mitohormesis induces. This may explain disappointing antioxidant clinical trials (SELECT, HOPE, Bjelakovic meta-analysis) where large meta-analyses generally failed to show benefit and sometimes suggested increased mortality.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "N-Acetylcysteine",
+    "predicate": "blocks",
+    "object": "Mitohormesis",
+    "context": "In C. elegans, glucose restriction normally raises mitochondrial respiration and ROS, inducing catalase and extending lifespan; NAC pre-treatment completely abolished both the ROS rise and the longevity benefit. NAC is the strongest direct evidence that scavenging the ROS signal blocks mitohormesis.",
+    "confidence": "0.95",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Vitamin C",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Biogenesis",
+    "context": "Gomez-Cabrera et al. (2008, PMID 18175748) showed oral vitamin C decreases muscle mitochondrial biogenesis and hampers training-induced endurance adaptations. This is among the cleanest human studies showing antioxidant interference with a hormetic stressor (exercise), blunting the necessary acute ROS signal.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Vitamin E",
+    "predicate": "increases",
+    "object": "Prostate Cancer",
+    "context": "The SELECT trial (Lippman et al., 2009, JAMA, PMID 19066370) found vitamin E supplementation (400 IU/day) increased prostate cancer risk by 17% in healthy men, cited as a key example of antioxidant supplementation failure. The HOPE trial similarly showed no cardiovascular benefit and a trend to increased heart failure.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Antioxidants",
+    "predicate": "prevent",
+    "object": "Endogenous Antioxidant Upregulation",
+    "context": "Exogenous antioxidants prevent the upregulation of endogenous defense enzymes (SOD, GPx) that exercise normally induces via NRF2. The Ristow 2009 study showed antioxidant-supplemented subjects failed to upregulate endogenous SOD/GPx and lost the insulin-sensitizing benefit of exercise.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "triggers",
+    "object": "Mitohormesis",
+    "context": "Caloric restriction is a canonical mitohormetic stressor: a transient energy deficit activates AMPK, PGC-1alpha, SIRT1, and NRF2, driving mitochondrial biogenesis, mitophagy, and endogenous antioxidant defenses. Glucose restriction and CR are among the best-established triggers of the hormetic longevity response.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Exercise",
+    "predicate": "induces",
+    "object": "Mitohormesis",
+    "context": "Exercise generates acute ROS bursts that drive mitochondrial biogenesis, antioxidant upregulation, and metabolic adaptation via NRF2 and PGC-1alpha. Post-workout high-dose synthetic antioxidants (vitamin C/E) blunt this necessary ROS signal, so letting endogenous adaptation occur is the therapeutic goal.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "N-Acetylcysteine",
+    "predicate": "inhibits",
+    "object": "PRDX6",
+    "context": "Beyond ROS scavenging, NAC is a selective inhibitor of the peroxidase activity of PRDX6 (IC50 ~15.5 uM), a distinct antioxidant-enzyme interaction. This dual action underscores why NAC, used as a timed redox buffer in hormetic protocols, can also blunt adaptive signaling when taken chronically.",
+    "confidence": "0.85",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "is_activated_by",
+    "object": "Mitohormesis",
+    "context": "The mitohormetic trigger activates key nutrient-sensing and stress-response pathways including AMPK, PGC-1alpha, SIRT1, and NRF2. AMPK then drives mitochondrial biogenesis and autophagy, leaving a resilient metabolic engine; this is why mild, pulsed stress enhances longevity and metabolic efficiency.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "STAT3",
+    "context": "Ivermectin promotes proteasomal degradation of PAK1, which in turn suppresses STAT3. This damps IL-6 transcription, Th17 inflammaging in aging CD4+ T cells, and the OCT4/NANOG/SOX2 stemness loop — entering the same inflammaging/SASP axis that metformin targets, but via PAK1 rather than AMPK.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "NF-kB",
+    "context": "PAK1 facilitates NF-kB nuclear activation; ivermectin's PAK1 degradation therefore dampens NF-kB signaling. Because NF-kB is the master transcriptional regulator of the SASP, this overlaps with the senomorphic strategy — targeting SASP production without killing senescent cells.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "Oct4",
+    "context": "Ivermectin inhibits expression of Nanog, Oct4, and Sox2 in cancer stem cells via the PAK1-STAT3 axis. Because Oct4 and Sox2 are core Yamanaka factors, this lowers reprogramming capacity and opposes partial reprogramming, while being therapeutically desirable against CSCs.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "Sox2",
+    "context": "Through PAK1-STAT3, ivermectin downregulates Sox2 (with Oct4 and Nanog), suppressing the transcription factors rejuvenation requires turned on. This is mechanistically opposing to Yamanaka-factor rejuvenation, though exogenous OSKM delivery may partially bypass the suppression.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "hinders",
+    "object": "Partial Reprogramming",
+    "context": "By suppressing Oct4 and Sox2 via PAK1-STAT3, ivermectin reduces reprogramming capacity and opposes partial reprogramming. Its separate mTOR inhibition/autophagy induction sits in the same longevity space as rapamycin, but the OSKM-suppressive action is counterproductive for epigenetic rejuvenation.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces_autophagy_via",
+    "object": "TFEB",
+    "context": "Ivermectin inhibits the PAK1/Akt/mTOR axis, allowing calcineurin to dephosphorylate TFEB (Ser142/211) and drive its nuclear translocation to the CLEAR network, inducing lysosomal biogenesis and autophagic flux. This is the same axis rapamycin, metformin, spermidine, and CR use for healthspan, independent of Yamanaka factors.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "hinders",
+    "object": "Partial Reprogramming",
+    "context": "Fenbendazole downregulates MDM2/MdmX, stabilizing p53, which arrests or apoptoses transduced (reprogramming-competent) cells — p53 is the dominant upstream roadblock to iPSC induction. This is a more direct opposition to rejuvenation than ivermectin's downstream Oct4/Sox2 suppression.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "p53",
+    "predicate": "blocks",
+    "object": "Induced Pluripotent Stem Cells",
+    "context": "p53 is the most significant biological barrier to efficient iPSC induction: damage activates p53, which initiates apoptosis or senescence in transduced cells, sharply reducing reprogramming yield. Fenbendazole's p53 stabilization therefore directly undermines epigenetic rejuvenation strategies requiring reprogramming.",
+    "confidence": "0.95",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "is_suppressed_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin preferentially targets and inhibits cancer stem cells, suppressing Nanog, Oct4, and Sox2 expression through the PAK1-STAT3 axis. This kills CSCs therapeutically in breast cancer but simultaneously lowers the reprogramming factors needed for Yamanaka-factor rejuvenation.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Berberine",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "Berberine activates AMPK to manage blood glucose and prevent excessive glycation during high-calorie bulk phases, mimicking caloric restriction. As an AMPK activator it supports the nutrient-sensing axis that drives autophagy and metabolic health.",
+    "confidence": "0.85",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "subject": "Quercetin",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": "High-catechol flavonoids such as quercetin, fisetin, and luteolin can inhibit COMT, leading to catecholamine accumulation and worrier-type symptoms during a bulk phase. Slow-COMT individuals are especially advised to avoid these during high catecholamine turnover to prevent adrenochrome pathway fueling.",
+    "confidence": "0.80",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "suppresses",
+    "object": "Autophagy",
+    "context": "During a bulk (anabolism) phase, high nutrient availability activates mTORC1, promoting protein synthesis and growth but naturally suppressing autophagy. The shred scenario instead leverages nutrient scarcity to inhibit mTOR and maximize autophagic housecleaning and fat oxidation.",
+    "confidence": "0.90",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Intermittent fasting (16:8 or 20:4) is the primary shred-phase tool to drive autophagy, with fasted training maximizing the AMPK signal. Refined sugars and alcohol shut the autophagic process down, so timing and macronutrient strategy are essential to the cleanup benefit.",
+    "confidence": "0.90",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
   }
 ]
