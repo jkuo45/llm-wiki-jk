@@ -539,9 +539,9 @@ document.getElementById('btn-reset').addEventListener('click', () => {
 });
 
 // ------------------------------------------------------------
-// Copy graph as transparent PNG
+// Save graph as PNG (download)
 // ------------------------------------------------------------
-document.getElementById('btn-copy-png').addEventListener('click', async (e) => {
+document.getElementById('btn-save-png').addEventListener('click', async (e) => {
   const btn = e.currentTarget;
   const origIcon = btn.innerHTML;
   const origTitle = btn.title;
@@ -602,25 +602,18 @@ document.getElementById('btn-copy-png').addEventListener('click', async (e) => {
     });
 
     const blob = await new Promise((res, rej) => canvas.toBlob(b => b ? res(b) : rej(new Error('no-blob')), 'image/png'));
-    if (navigator.clipboard && window.ClipboardItem) {
-      await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
-      btn.classList.add('ok');
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
-      btn.title = 'Copied ✓ / 已複製 ✓';
-    } else {
-      const a = document.createElement('a');
-      a.download = 'llm-wiki-graph.png';
-      a.href = URL.createObjectURL(blob);
-      a.click();
-      URL.revokeObjectURL(a.href);
-      btn.classList.add('ok');
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
-      btn.title = 'Downloaded PNG / 已下載 PNG';
-    }
+    const a = document.createElement('a');
+    a.download = 'graph.png';
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    URL.revokeObjectURL(a.href);
+    btn.classList.add('ok');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+    btn.title = 'Saved graph.png ✓ / 已另存 graph.png ✓';
   } catch (err) {
     btn.classList.add('err');
     btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-    btn.title = 'Copy failed / 複製失敗';
+    btn.title = 'Save failed / 儲存失敗';
   } finally {
     scene.background = mainBg;
     renderer.render(scene, camera);
