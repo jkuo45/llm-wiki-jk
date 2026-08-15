@@ -13,8 +13,8 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 
 ## Maintenance
 
-- Last updated: 13_JULY_2026 12:00 PM PDT
-- Total count of entities: 218
+- Last updated: 15_August_2026 12:00 PM PDT
+- Total count of entities: 236
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
 - **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3a]], [[TET Enzymes]], [[HDAC1]]/[[HDAC2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
@@ -346,6 +346,25 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[miR-543]] | 13_JULY_2026 12:00 PM PDT | Biological Molecule | 6 | 0 | microRNA involved in fibrosis, senescence, and epigenetic control. |
 | [[Drosha]] | 13_JULY_2026 12:00 PM PDT | Enzyme | 9 | 0 | Core Microprocessor component processing pri-miRNAs to pre-miRNAs. |
 | [[DGCR8]] | 13_JULY_2026 12:00 PM PDT | Protein | 9 | 0 | Microprocessor double-stranded RNA-binding partner of Drosha. |
+| [[Biological Age]] | 15_August_2026 12:00 PM PDT | Scientific Concept | 8 | 0 | An epigenetic clock-derived estimate of biological aging based on DNA methylation at defined CpG sites, used as a biomarker of aging and ... |
+| [[DNA-PKcs]] | 15_August_2026 12:00 PM PDT | Enzyme | 8 | 0 | The catalytic subunit of DNA-dependent protein kinase, a key factor in non-homologous end joining of DNA double-strand breaks, whose mobi... |
+| [[Gene Silencing]] | 15_August_2026 12:00 PM PDT | Biological Process | 8 | 0 | The epigenetic repression of gene expression, frequently achieved by promoter DNA methylation in CpG islands that recruits methyl-CpG-bin... |
+| [[Genome stability]] | 15_August_2026 12:00 PM PDT | Biological Process | 8 | 1 | The maintenance of genetic integrity through faithful DNA replication, repair, and telomere protection, supported by sirtuin-dependent de... |
+| [[HERV]] | 15_August_2026 12:00 PM PDT | Biological Molecule | 7 | -1 | Human endogenous retroviruses, dormant retroviral sequences in the genome whose age-related derepression drives cGAS-STING innate immune ... |
+| [[Homologous recombination repair]] | 15_August_2026 12:00 PM PDT | Biological Process | 8 | 1 | A high-fidelity DNA double-strand break repair pathway driven by BRCA1-mediated end resection and RAD51 loading, whose loss underlies her... |
+| [[ICAD]] | 15_August_2026 12:00 PM PDT | Protein | 6 | 0 | The inhibitor of the caspase-activated DNase (CAD); cleavage of ICAD by executioner caspases releases CAD to fragment nuclear DNA during ... |
+| [[ICF Syndrome]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | A rare autosomal recessive disorder caused by DNMT3B mutations, characterized by immunodeficiency, centromere instability, facial anomali... |
+| [[NRTI]] | 15_August_2026 12:00 PM PDT | Chemical Class | 6 | 0 | Nucleoside reverse transcriptase inhibitors, antiretroviral drugs that also block LINE-1 and HERV retrotransposition, reducing cGAS-STING... |
+| [[Nucleolus]] | 15_August_2026 12:00 PM PDT | Anatomy | 6 | 0 | A nuclear subcompartment and the site of ribosomal DNA transcription and ribosome biogenesis, where SIRT7 concentrates to deacetylate H3K... |
+| [[PARylation]] | 15_August_2026 12:00 PM PDT | Biological Process | 7 | -1 | The post-translational addition of poly(ADP-ribose) polymers by PARP enzymes; pathologically elevated PARylation depletes NAD+ and is a h... |
+| [[Pericentromeric Satellite Repeats]] | 15_August_2026 12:00 PM PDT | Biological Molecule | 7 | 0 | Highly repetitive satellite DNA flanking centromeres that DNMT3b preferentially methylates to establish constitutive heterochromatin, mai... |
+| [[SAM]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 7 | 0 | S-adenosylmethionine, the universal methyl donor that DNMT1 uses to transfer methyl groups to cytosine, generating 5-methylcytosine and S... |
+| [[Sas2p]] | 15_August_2026 12:00 PM PDT | Enzyme | 6 | 0 | A yeast histone acetyltransferase that, opposing Sir2p, sets H4K16 acetylation at the telomere-euchromatin boundary, a balance whose disr... |
+| [[UHRF1]] | 15_August_2026 12:00 PM PDT | Protein | 8 | 0 | A key accessory protein that recruits DNMT1 to hemi-methylated CpG sites during DNA replication, ensuring faithful maintenance of symmetr... |
+| [[X-Chromosome Inactivation]] | 15_August_2026 12:00 PM PDT | Biological Process | 8 | 0 | The process by which one X chromosome is transcriptionally silenced in female cells to ensure dosage compensation, driven by the long non... |
+| [[XIST]] | 15_August_2026 12:00 PM PDT | Biological Molecule | 7 | 0 | A long non-coding RNA that drives X-chromosome inactivation by coating the inactive X chromosome and recruiting chromatin-modifying enzym... |
+| [[single nucleotide variation]] | 15_August_2026 12:00 PM PDT | Scientific Concept | 5 | 0 | A variation at a single nucleotide position in the genome, the most common type of genetic variation, including functional variants such ... |
+
 ## Consolidated to notes/_link/
 
 - [[Epithelial-to-Mesenchymal Transition]] — merged into `notes/_link/Epithelial-to-mesenchymal transition.md` (canonical casing).

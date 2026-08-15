@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 29_July_2026 12:00 PM PDT
-- Total count of entities: 52
+- Last updated: 15_August_2026 12:00 PM PDT
+- Total count of entities: 70
 
 > [!note] Cross-topic entities relocated to `_link/`
 > The following 18 entities are referenced across multiple topics and were moved to `notes/_link/` as the single source of truth (consolidated 16_July_2026): 1,3-Bisphosphoglycerate, Aminooxyacetate, CCCP, Citric Acid Cycle, CpG Islands, Cyclin A, Cyclin B, Damage-Associated Molecular Patterns, Glyceraldehyde 3-Phosphate, LeucoMB, Malate Dehydrogenase, Malate-Aspartate Shuttle, Malate, Mesenchymal Stem Cells, Oxaloacetate, Plasmacytoid Dendritic Cells, S-Nitrosoglutathione Reductase, c-Fos.
@@ -134,3 +134,21 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[LeucoMB]]                                            | 16_July_2026 12:30 PM PDT | Metabolite             |      3      |      1      | Reduced methylene blue; donates electrons to complex IV, enhancing mitochondria and delaying senescence. |
 | [[Mesenchymal Stem Cells]]                             | 16_July_2026 12:30 PM PDT | Cell Type              |      5      |      1      | MSC mitochondria reverse senescence; mesenchymal state acquired during EndoMT. |
 | [[Plasmacytoid Dendritic Cells]]                       | 16_July_2026 12:30 PM PDT | Cell Type              |      4      |     -1      | pDCs internalize TFAM-mtDNA via RAGE/TLR9, producing inflammatory factors in senescence. |
+| [[Adaptor Protein]] | 15_August_2026 12:00 PM PDT | Protein | 5 | 0 | >- |
+| [[Amifostine]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 6 | 1 | >- |
+| [[Autophagosome-lysosome fusion]] | 15_August_2026 12:00 PM PDT | Biological Process | 6 | 0 | >- |
+| [[Diabetic Kidney Disease]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | >- |
+| [[Follistatin]] | 15_August_2026 12:00 PM PDT | Protein | 5 | 0 | >- |
+| [[Gut Dysbiosis]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | >- |
+| [[Immune Complex]] | 15_August_2026 12:00 PM PDT | Biological Molecule | 5 | -1 | >- |
+| [[Inflammatory Pain]] | 15_August_2026 12:00 PM PDT | Medical Condition | 5 | -1 | >- |
+| [[Innate Immune Defense]] | 15_August_2026 12:00 PM PDT | Biological Process | 6 | 1 | >- |
+| [[Intestinal Barrier]] | 15_August_2026 12:00 PM PDT | Anatomy | 5 | 0 | >- |
+| [[Lamins]] | 15_August_2026 12:00 PM PDT | Protein | 5 | 0 | >- |
+| [[Lymphopenia]] | 15_August_2026 12:00 PM PDT | Medical Condition | 5 | -1 | >- |
+| [[MHC Class Ib]] | 15_August_2026 12:00 PM PDT | Protein | 5 | 0 | >- |
+| [[Myddosome]] | 15_August_2026 12:00 PM PDT | Protein | 6 | 0 | >- |
+| [[Natalizumab (Tysabri)]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 5 | 0 | >- |
+| [[Salmonella enterica]] | 15_August_2026 12:00 PM PDT | Organism | 4 | -1 | >- |
+| [[Stemness]] | 15_August_2026 12:00 PM PDT | Biological Process | 5 | 0 | >- |
+| [[Viral Replication]] | 15_August_2026 12:00 PM PDT | Biological Process | 4 | -1 | >- |

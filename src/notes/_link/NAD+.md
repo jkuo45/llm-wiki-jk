@@ -67,7 +67,7 @@ List of documents that mention this entity
   - [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)]]
     - Complex I regenerates NAD+ to sustain the glutamine-fueled TCA cycle in MYC^high^ cancers; NAD+ depletion by Complex I inhibitors is synthetic lethal.
 
-  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
     - In stress conditions, NAD+ biosynthesis and levels decrease as well as the activity of consuming enzymes rises.
 
   - [[_document_ - MRR - mitohormesis|mitohormesis]]

@@ -44,7 +44,7 @@ Robust NAD+ biosynthesis underpins [[Mitochondrial Dysfunction]] resistance, [[M
 
   - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside Review]]
     - Comprehensive review of [[NR]] and NAD+ biosynthesis/therapeutics.
-  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NMN/NR Dietary Contribution]]
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NMN/NR Dietary Contribution]]
     - Details precursor contributions to NAD+ pools.
 
 ## Connections

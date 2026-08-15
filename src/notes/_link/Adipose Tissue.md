@@ -25,7 +25,7 @@ aliases: [Fat]
 
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic]]
     - Describes senescent-cell accumulation in adipose tissue and the metabolic and healthspan benefits of clearing senescent adipocytes with senolytics.
-  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors NMN and NR]]
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors NMN and NR]]
     - Discusses adipose tissue metabolism and NAD+-dependent regulation of energy balance and insulin sensitivity.
 
 ## Connections
