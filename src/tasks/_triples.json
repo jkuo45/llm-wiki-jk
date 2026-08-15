@@ -1453,7 +1453,7 @@
     "object": "Glutamate Dehydrogenase",
     "context": "SIRT4 is the clearest anti-glutamine sirtuin: it mono-ADP-ribosylates glutamate dehydrogenase (GDH), limiting glutamate to alpha-ketoglutarate flux and restricting the anaplerotic carbon supply to the TCA cycle that glutamine-addicted cancers depend on. Loss of SIRT4 is common in HCC, gastric, CRC, bladder, and breast cancer, marking it a metabolic tumor suppressor.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "SIRT3",
@@ -1461,7 +1461,7 @@
     "object": "HIF-1α",
     "context": "SIRT3 opposes aerobic glycolysis indirectly through redox: it activates MnSOD/SOD2 and IDH2, lowering ROS, which destabilizes HIF-1alpha and cuts the master glycolytic transcription factor. SIRT3 loss therefore skews cells toward the Warburg effect and supports tumor metabolism.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "SIRT6",
@@ -1469,7 +1469,7 @@
     "object": "HIF-1α",
     "context": "SIRT6 is the clearest anti-Warburg sirtuin: it corepresses HIF-1alpha and suppresses transcription of glycolytic enzymes (glucose transporters, Hexokinase 2) and deacetylates histone H3 at ERK1/2 promoters. Loss of SIRT6 permits Warburg-like aerobic glycolysis; its restoration suppresses glycolysis in HCC/glioma and enhances radiosensitivity in lung cancer.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "SIRT7",
@@ -1477,7 +1477,7 @@
     "object": "Ribosome Biogenesis",
     "context": "SIRT7 drives ribosome biogenesis by activating RNA Pol I at rDNA and suppresses p21 via H3K18 deacetylation, fueling the biosynthetic capacity tumors need; it is overexpressed in breast, thyroid, and HCC. This proliferative, biosynthetic driver role makes SIRT7 an oncogenic sirtuin.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "SIRT2",
@@ -1485,7 +1485,7 @@
     "object": "Phosphoglycerate Mutase",
     "context": "SIRT2 promotes tumor glycolysis in some settings by deacetylating phosphoglycerate mutase at Lys100, channeling carbon into NADPH production and accelerating tumor growth in lung cancer. This illustrates SIRT2's context-dependent, often harmful, metabolic face versus the protective SIRT1/3/6 axis.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "SIRT5",
@@ -1493,7 +1493,7 @@
     "object": "LDHB",
     "context": "SIRT5 is protumorigenic in CRC, HCC, and NSCLC by reprogramming metabolism toward glycolysis and glutaminolysis; it desuccinylates lactate dehydrogenase B (LDHB) to hyperactivate autophagy, feeding cancer cells recycled nutrients. SIRT5 is a desuccinylase largely resistant to nicotinamide inhibition.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "Resveratrol",
@@ -1501,7 +1501,7 @@
     "object": "SIRT1",
     "context": "Resveratrol is a SIRT1-activating compound (STAC) evaluated clinically with mixed results and now largely a research/nutraceutical. As a SIRT1 activator it improves insulin sensitivity and opposes several age-related diseases, though in bulk-phase physiology it protects the epigenome without inhibiting COMT.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "EX-527",
@@ -1509,7 +1509,7 @@
     "object": "SIRT1",
     "context": "EX-527 (Selisistat) is the most advanced isoform-selective SIRT1 inhibitor, taken to Phase I/II in Huntington's disease and explored for oncology chemo-sensitization. It is one of the few sirtuin-directed agents to have reached human trials, contrasting with the purely preclinical SIRT2/3/4/5/6/7 chemistry.",
     "confidence": "0.80",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "Sirtuins",
@@ -1517,7 +1517,7 @@
     "object": "NAD+",
     "context": "The sirtuin family (SIRT1-SIRT7) are NAD+-dependent acyltransferases whose output is gated by NAD+ availability. Tumor metabolic state (Complex I activity, glutaminolysis, NAMPT/CD38) directly sets sirtuin activity, which is why NAD+ depletion is emerging as a synthetic-lethal lever in MYC-high and glutamine-dependent cancers.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
   },
   {
     "subject": "Mitohormesis",
