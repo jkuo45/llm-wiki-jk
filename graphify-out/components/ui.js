@@ -568,34 +568,69 @@ export async function exportGraphPNG(filename) {
       im.src = dataUrl;
     });
 
-    const canvas = document.createElement('canvas');
+    const canvas = document.createElement('canvas');  
     canvas.width = pxW; canvas.height = pxH;
     const ctx = canvas.getContext('2d');
-    ctx.drawImage(img, 0, 0, pxW, pxH);
 
-    // Composite CSS2D node labels so the PNG includes names.
-    labelObjects.forEach((label, nodeId) => {
+    // Compute the screen-space bounding box of all visible nodes so the export
+    // can be re-framed: centered in the frame with breathing room instead of
+    // clipping at the current viewport edges.
+    let bMinX = Infinity, bMinY = Infinity, bMaxX = -Infinity, bMaxY = -Infinity;
+    const visible = [];
+    const frameTol = 0.1 * Math.max(pxW, pxH);
+    labelObjects.forEach((label) => {
       if (!label.visible || !label.element) return;
-      const el = label.element;
       const v = label.position.clone().project(camera);
       if (v.z < -1 || v.z > 1) return;
       const sx = (v.x + 1) / 2 * pxW;
       const sy = (1 - v.y) / 2 * pxH;
+      if (sx < -frameTol || sx > pxW + frameTol || sy < -frameTol || sy > pxH + frameTol) return;
+      visible.push({ label, sx, sy });
+      if (sx < bMinX) bMinX = sx;
+      if (sx > bMaxX) bMaxX = sx;
+      if (sy < bMinY) bMinY = sy;
+      if (sy > bMaxY) bMaxY = sy;
+    });
+
+    let drawScale = 1, drawOffsetX = 0, drawOffsetY = 0;
+    const hasContent = visible.length && bMaxX > bMinX && bMaxY > bMinY;
+    if (hasContent) {
+      const MARGIN = 0.1; // 10% padding on each side of the frame
+      const pad = 40 * (pxW / cw); // extra room so labels don't touch the edge
+      const availW = pxW * (1 - 2 * MARGIN);
+      const availH = pxH * (1 - 2 * MARGIN);
+      const contentW = bMaxX - bMinX + pad * 2;
+      const contentH = bMaxY - bMinY + pad * 2;
+      drawScale = Math.max(0.2, Math.min(availW / contentW, availH / contentH, 3));
+      drawOffsetX = (pxW - contentW * drawScale) / 2 - (bMinX - pad) * drawScale;
+      drawOffsetY = (pxH - contentH * drawScale) / 2 - (bMinY - pad) * drawScale;
+      // Clear and redraw the captured image fitted into the frame.
+      ctx.clearRect(0, 0, pxW, pxH);
+      ctx.drawImage(img, drawOffsetX, drawOffsetY, pxW * drawScale, pxH * drawScale);
+    } else {
+      ctx.drawImage(img, 0, 0, pxW, pxH);
+    }
+
+    // Composite CSS2D node labels so the PNG includes names.
+    visible.forEach(({ label, sx, sy }) => {
+      const el = label.element;
+      const x = sx * drawScale + drawOffsetX;
+      const y = sy * drawScale + drawOffsetY;
       const lines = (el.innerText || el.textContent || '').split('\n').filter(Boolean);
       if (!lines.length) return;
       const fs = parseFloat(getComputedStyle(el).fontSize) || 16;
-      const scale = pxW / cw;
+      const scale = (pxW / cw) * drawScale;
       ctx.font = `600 ${fs * scale}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
       ctx.textAlign = 'center';
       ctx.lineWidth = 3;
       ctx.strokeStyle = 'rgba(15,15,26,0.9)';
       ctx.fillStyle = '#e0e0e0';
       const lh = (fs + 3) * scale;
-      const baseY = sy - (lines.length - 1) * lh / 2 - 4 * scale;
+      const baseY = y - (lines.length - 1) * lh / 2 - 4 * scale;
       lines.forEach((line, i) => {
-        const y = baseY + i * lh;
-        ctx.strokeText(line, sx, y);
-        ctx.fillText(line, sx, y);
+        const ly = baseY + i * lh;
+        ctx.strokeText(line, x, ly);
+        ctx.fillText(line, x, ly);
       });
     });
 
