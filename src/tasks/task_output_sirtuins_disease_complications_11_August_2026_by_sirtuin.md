@@ -20,7 +20,7 @@ source: https://doi.org/10.1038/s41392-022-01257-8
 
 # Sirtuins in Health and Disease — SIRT-by-SIRT Disease Landscape
 
-> Companion to `task_output_sirtuins_disease_complications_11_August_2026.md`. The same review (Wu et al. 2022, s41392-022-01257-8) viewed from the sirtuin side: one section per SIRT member, listing every disease/complication where that sirtuin plays a role.
+> Companion to `task_output_sirtuins_disease_complications_11_August_2026_by_disease.md`. The same review (Wu et al. 2022, s41392-022-01257-8) viewed from the sirtuin side: one section per SIRT member, listing every disease/complication where that sirtuin plays a role.
 > Date: 11_August_2026
 > Method: Manual extraction of the "Regulatory role of SIRTs in human diseases" sections, inverted by sirtuin member.
 
@@ -419,4 +419,4 @@ Nuclear/nucleolar sirtuin — the **least studied**, with frequently **inconsist
 
 - Create per-sirtuin entity notes capturing the disease landscape (e.g., enrich existing [[SIRT1]]/[[SIRT2]]/[[SIRT3]]/[[SIRT4]]/[[SIRT5]]/[[SIRT6]]/[[SIRT7]] notes with a "Disease landscape" section summarizing these roles).
 - Flag SIRT1's and SIRT2's opposing roles per disease as candidates for a dedicated "SIRT1 dual role" / "SIRT2 counter-regulatory role" synthesis note.
-- Cross-reference this sirtuin-first view against the complication-first view in `task_output_sirtuins_disease_complications_11_August_2026.md` to identify gaps (e.g., SIRT7 roles in AD, SIRT5 roles in ALS/MS).
+- Cross-reference this sirtuin-first view against the complication-first view in `task_output_sirtuins_disease_complications_11_August_2026_by_disease.md` to identify gaps (e.g., SIRT7 roles in AD, SIRT5 roles in ALS/MS).
