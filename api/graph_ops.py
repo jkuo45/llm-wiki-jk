@@ -259,8 +259,11 @@ def _edge_meta(G: nx.MultiDiGraph, a: str, b: str) -> tuple[str, str]:
     edge_data = G.get_edge_data(a, b) or G.get_edge_data(b, a)
     if not edge_data:
         return "", ""
+    # graph.json is a DiGraph (multigraph: false), so get_edge_data returns the
+    # attribute dict directly. A MultiDiGraph instead nests attr dicts under edge
+    # keys. Handle both so the real relation is returned rather than "related_to".
     first_edge = (
-        next(iter(edge_data.values())) if isinstance(edge_data, dict) else edge_data
+        next(iter(edge_data.values())) if isinstance(G, nx.MultiDiGraph) else edge_data
     )
     if isinstance(first_edge, dict):
         return first_edge.get("relation", "related_to"), first_edge.get(
