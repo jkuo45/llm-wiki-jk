@@ -87,10 +87,11 @@ td .mod-act{color:var(--green);}
 td .mod-inh{color:var(--red);}
 td .mod-ind{color:var(--blue);}
 /* substrates table */
-#substrates table{table-layout:fixed; width:100%;}
-#substrates td{white-space:normal; vertical-align:top;}
-#substrates th{white-space:normal; line-height:1.4; padding:16px 12px; vertical-align:top;}
-#substrates .sirt{font-weight:700; font-size:.9rem;}
+/* fixed-width (wrapping) tables — reusable */
+.tbl-fixed{table-layout:fixed; width:100%;}
+.tbl-fixed td{white-space:normal; vertical-align:top; line-height:1.45;}
+.tbl-fixed th{white-space:normal; line-height:1.4; padding:16px 12px; vertical-align:top;}
+.sirt{font-weight:700; font-size:.9rem;}
 .context{padding:12px; border-radius:10px; background:#23233f; border:1px solid var(--line); font-size:.82rem; margin-top:12px;}
 .context b{color:var(--amber);}
 /* tables */
