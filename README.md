@@ -25,14 +25,14 @@
 ## 📝 updates
 
 > [!NOTE]
-> **Currently Reading**
->
-> Sirtuins, Cellular Senescence, `task_output`, etc. 
->
+> 
+> **Sirtuins, Cellular Senescence, `task_output`**
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
-> - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
-> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
+> - [Sirtuins - Biological Relevance](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|wiki]]
+> 
+> **Graphify Rebuild From `_triples.json`**
+> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical graph rebuild: iterates every `src/**/_triples.json`, accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels by majority overlap, then regenerates `graph.json`, `GRAPH_REPORT.md`, `graph.html` (`graphify export html`), and the three-graph exports `nodes.json`/`edges.json`/`legend.json` plus `wiki-context.json` for node info panels. Run with `python3 scripts/03_rebuild_from_triples.py`.  
 
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
