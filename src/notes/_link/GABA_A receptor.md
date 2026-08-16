@@ -31,7 +31,7 @@ The **[[GABA_A receptor]]** is a pentameric, ligand-gated **ion channel** that m
 
 [[Honokiol]] and [[Magnolol]] are **positive allosteric modulators (PAMs)** of both synaptic and extrasynaptic GABA<sub>A</sub> receptors. They increase [[Muscimol|[<sup>3</sup>H]muscimol]] binding-site number ~3-fold by allosterically increasing the affinity of low-affinity sites, and show markedly higher efficacy at **δ-subunit-containing** receptors (900–1100% response) than at αβγ-only receptors (300–500%). Their anxiolytic and sleep-promoting effects are mediated at the benzodiazepine site and blocked by [[Bicuculline]] (a GABA<sub>A</sub> antagonist) and flumazenil.
 
-> [!info] Source: [[Neuro-Modulating Effects of Honokiol A Review]]
+> [!info] Source: [[raw/_document_ - Neuro-Modulating Effects of Honokiol A Review]]
 > Honokiol exerts anxiolysis with a better side-effect profile than [[Diazepam]] and promotes NREM sleep by exciting neurons in the [[Ventrolateral Preoptic Area]], both via positive allosteric modulation of the GABA<sub>A</sub> receptor at the benzodiazepine site.
 
 ## Physiological Function

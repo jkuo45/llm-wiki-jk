@@ -1,25 +1,32 @@
 ---
 title: mTORC2
 description: mTOR complex 2 is a multi-protein signaling complex built around the mTOR kinase with rictor, responsible for phosphorylating AKT, SGK, and PKC; insensitively regulated by acute rapamycin but trapped by long-term rapamycin exposure.
-created: 2026-07-09
-updated: 2026-07-09
+created: 2026-07-04
+updated: 2026-08-16
 tags:
   - protein
   - mtor
   - signaling-complex
-aliases: [mechanistic target of rapamycin complex 2, mTOR Complex 2, mTORC2]
+  - scientific-concept
+aliases:
+  - mechanistic target of rapamycin complex 2
+  - mTOR Complex 2
+  - mTORC2
+  - mTOR complex 2
 ---
 
 # mTORC2
 
-**mTORC2** (mechanistic target of rapamycin complex 2) is a multi-protein complex built around the [[mTOR]] kinase in association with **rictor** (rapamycin-insensitive companion of mTOR), **mLST8**, **mSIN1**, **PROTOR**, and **DEPTOR**. It is a central regulator of cell survival, metabolism, cytoskeletal organization, and [[Aging]]. mTORC2 is the **Output readout** in the [[Incoherent Bivalent Motif]] that explains [[Rapamycin]] hormesis [^1].
+**mTORC2** (mechanistic target of rapamycin complex 2) is a multi-protein complex built around the [[mTOR]] kinase in association with **rictor** (rapamycin-insensitive companion of mTOR), **mSIN1**, **mLST8**, **PROTOR**, and **DEPTOR**. It is a central regulator of cell survival, metabolism, cytoskeletal organization, and [[Aging]], primarily by phosphorylating [[Akt]] at Ser473. mTORC2 is the **Output readout** in the [[Incoherent Bivalent Motif]] that explains [[Rapamycin]] hormesis [^1].
 
 ## Structure and Subunits
 
 - **mTOR** — catalytic core (shared with [[mTORC1]]).
 - **Rictor** — defining mTORC2-specific scaffold; the FRB domain of mTOR within mTORC2 is shielded from [[FKBP12]]-rapamycin binding, rendering acute rapamycin *insensitive*.
 - **mSIN1** — required for complex integrity and [[Akt]] phosphorylation at Ser473; its phosphorylation by S6K1 impairs mTORC2 integrity [^2].
-- **mLST8**, **PROTOR/PRR5**, **DEPTOR** — auxiliary subunits.
+- **mLST8** — auxiliary subunit.
+- **PROTOR/PRR5 (Protor-1)** — auxiliary subunit.
+- **DEPTOR** — auxiliary subunit.
 
 mTORC2 localizes primarily at the [[Plasma Membrane]] and [[Mitochondria]]-associated ER membranes (MAM), where it interfaces with [[Akt]] and mitochondrial physiology [^3].
 
@@ -40,23 +47,38 @@ mTORC2 localizes primarily at the [[Plasma Membrane]] and [[Mitochondria]]-assoc
 - **Survival & proliferation**: mTORC2-Akt drives cell-cycle progression and resistance to apoptosis.
 - **Metabolic health & longevity**: Hypothalamic mTORC2 is essential for metabolic health and longevity; its elimination alleviates aging progression [^5][^6].
 - **Mitochondrial physiology**: mTORC2-Akt signaling at MAM regulates mitochondrial function, metabolism, and integrity [^3].
+- **Cytoskeletal organization**: mTORC2 regulates actin cytoskeleton dynamics through PKCα.
 - **Cancer**: mTORC2 promotes tumorigenesis; Sin1 phosphorylation impairs complex integrity and suppresses downstream Akt signaling [^2].
 
 ## Rapamycin and the Hormetic Incoherent Bivalent Motif
 
-Long-term (≥24 h) [[Rapamycin]] exposure traps [[mTOR|mTOR]] in [[mTORC1]] complexes, obstructing mTORC2 assembly [^7]. Because rapamycin *indirectly activates* mTORC2 (via [[PI3K]]) while *indirectly inhibiting* it (via mTORC1 sequestration), the arrangement forms an [[Incoherent Bivalent Motif]] centered on [[mTORC1]], with mTORC2 as the Output. This is proposed as the mechanistic basis of rapamycin's inverted-U ([[Biphasic Dose-Response Curve]], peak ~1 nM) hormetic response [^1].
+Long-term (≥24 h) [[Rapamycin]] exposure traps [[mTOR]] in [[mTORC1]] complexes, obstructing mTORC2 assembly [^7]. Because rapamycin *indirectly activates* mTORC2 (via [[PI3K]]) while *indirectly inhibiting* it (via mTORC1 sequestration), the arrangement forms an [[Incoherent Bivalent Motif]] centered on [[mTORC1]], with mTORC2 as the Output. This is proposed as the mechanistic basis of rapamycin's inverted-U ([[Biphasic Dose-Response Curve]], peak ~1 nM) hormetic response [^1].
 
 ## Documents
 
-- [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
-  - Models mTORC2 as the downstream Output of an mTORC1-centered incoherent bivalent motif, explaining rapamycin hormesis.
+List of documents that mention this entity
+
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Models mTORC2 as the downstream Output of an mTORC1-centered incoherent bivalent motif, explaining rapamycin hormesis.
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The protein kinase mTOR is formed by two complexes, mTORC1 and mTORC2. mTORC1 predominantly controls nutrient-sensitive growth signalling and is a master regulator of fundamental homeostatic processes, such as autophagy and translation.
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTOR nucleates at least two distinct multi-protein complexes, mTORC1 and mTORC2 (reviewed by Guertin and Sabatini, 2007).
 
 ## Connections
 
 - [[mTOR]] — catalytic core shared with mTORC1
 - [[mTORC1]] — the rapamycin-sensitive complex; competes with mTORC2 for free mTOR
 - [[Rictor]] — mTORC2-defining scaffold
+- [[mSIN1]] — required for complex integrity and Akt Ser473 phosphorylation
+- [[Protor-1]] — auxiliary mTORC2 subunit
+- [[mLST8]] — auxiliary mTORC2 subunit
+- [[Deptor]] — auxiliary mTORC2 subunit
 - [[Akt]] — major mTORC2 substrate (Ser473)
+- [[SGK1]] — mTORC2 substrate
+- [[PKCα]] — mTORC2 substrate; regulates cytoskeletal organization
 - [[PI3K]] — upstream activator of mTORC2
 - [[FKBP12]] — binds rapamycin but cannot access mTORC2's FRB
 - [[Rapamycin]] — long-term exposure disrupts mTORC2 assembly, generating hormesis
@@ -65,9 +87,15 @@ Long-term (≥24 h) [[Rapamycin]] exposure traps [[mTOR|mTOR]] in [[mTORC1]] com
 
 ## Linking Summary
 
-- New links added: [[mTOR]], [[mTORC1]], [[Rictor]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapamycin]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Aging]], [[Insulin Signaling]], [[Plasma Membrane]]
+- New links added: [[mTOR]], [[mTORC1]], [[Rictor]], [[Akt]], [[mSIN1]], [[Protor-1]], [[mLST8]], [[Deptor]], [[SGK1]], [[PKCα]], [[PI3K]], [[FKBP12]], [[Rapamycin]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Aging]], [[Insulin Signaling]], [[Plasma Membrane]]
 - Suggested new entity notes to create: [[Rictor]], [[mSIN1]], [[PROTOR]]
-- Strong connections to strengthen: [[mTORC2]] ↔ [[mTORC1]]; [[mTORC2]] ↔ [[Rapamycin]]; [[mTORC2]] ↔ [[Incoherent Bivalent Motif]]
+- Strong connections to strengthen:
+  - [[mTORC2]] ↔ [[mTORC1]]
+  - [[mTORC2]] ↔ [[Rapamycin]]
+  - [[mTORC2]] ↔ [[Incoherent Bivalent Motif]]
+  - [[mTORC2]] ↔ [[Akt]]
+
+  - Justification: mTORC2's functions are defined by its substrate specificity (Akt Ser473), its rapamycin-insensitive assembly, and its role as the Output of the incoherent bivalent motif explaining rapamycin hormesis.
 
 [^1]: Cerrillo G, Vidakovic H, Míguez DG. *The Biochemical Basis of Hormesis.* bioRxiv 2026.04.20.719646 (2026).
 [^2]: Liu P, et al. Sin1 phosphorylation impairs mTORC2 complex integrity and inhibits downstream Akt signalling. *Nat Cell Biol* 15:1340-1350 (2013).

@@ -1,9 +1,9 @@
 ---
 title: PD-L1
-description: Programmed death-ligand 1, a transmembrane protein that inhibits T-cell function by binding to PD-1, serving as a key immune checkpoint in cancer and inflammation
+description: Programmed death-ligand 1 (CD274/B7-H1); a transmembrane protein that inhibits T-cell function by binding PD-1, serving as a key immune checkpoint in cancer and a target modulated by SASP signaling in the senescent tumor microenvironment.
 protected: false
-created: 2026-07-13
-updated: 2026-07-13
+created: 2026-07-06
+updated: 2026-08-16
 tags:
   - protein
   - immune-checkpoint
@@ -16,6 +16,8 @@ aliases:
   - programmed death-ligand 1
   - program death ligand 1
 ---
+
+# PD-L1
 
 ## Overview
 
@@ -49,6 +51,12 @@ The [[SASP]] influences PD-L1 expression through multiple indirect mechanisms:
 - SASP inflammatory cytokines can induce PD-L1 on tumor and immune cells
 - SASP-mediated immunosuppression synergizes with PD-L1/PD-1 axis to create an immune-excluded TME
 
+## Role in Cancer
+
+- **Immune Evasion**: Many cancer cells express PD-L1 to inhibit the activity of T cells, allowing the tumor to evade the immune response.
+- **Breast Cancer**: PD-L1 expression is high in [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
+- **Regulation**: [[melittin]] has been shown to significantly reduce PD-L1 expression in tumors.
+
 ## Therapeutic Targeting
 
 - **Anti-PD-L1 antibodies**: Atezolizumab, durvalumab, avelumab
@@ -59,6 +67,11 @@ The [[SASP]] influences PD-L1 expression through multiple indirect mechanisms:
 > [!tip] Therapeutic Implication
 > Combining senolytic therapy with immune checkpoint inhibitors targeting PD-L1/PD-1 could overcome the immunosuppressive barrier created by senescent cells in the TME, restoring anti-tumor immune surveillance.
 
+## Documents
+
+- [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation]]
+  - The immune-checkpoint protein PD-L1 reduces the functionality of activated T cells; melittin attenuates PD-L1 levels, potentially improving antitumoral immune responses.
+
 ## Connections
 
 - [[Tumor Microenvironment]] — PD-L1 is a key immune checkpoint molecule expressed within the TME
@@ -68,12 +81,17 @@ The [[SASP]] influences PD-L1 expression through multiple indirect mechanisms:
 - [[IL-6]] — SASP cytokine that drives adenosine-CD73-PD-L1 axis
 - [[Senescent Cells]] — Sources of SASP factors that promote PD-L1-mediated immunosuppression
 - [[CD8 T cells]] — PD-L1 suppresses CD8+ T-cell function, preventing tumor cell killing
+- [[triple-negative breast cancer]] — Subtype with high PD-L1 expression
+- [[melittin]] — Attenuates PD-L1 levels, potentially improving antitumoral immune responses
+- [[HER2-enriched breast cancer]] — Subtype with high PD-L1 expression
+- [[PD-1]] — Receptor for PD-L1
 
 ## Linking Summary
 
-- New links added: [[PD-L1]]
+- New links added: [[PD-L1]], [[HER2-enriched breast cancer]], [[melittin]], [[triple-negative breast cancer]], [[PD-1]], [[Tumor Microenvironment]], [[CD73]], [[SASP]], [[IL-6]]
 - Suggested new entity notes to create: None (this note)
 - Strong connections to strengthen:
     - [[CD73]] ↔ [[PD-L1]]
     - [[SASP]] ↔ [[PD-L1]]
     - [[Tumor Microenvironment]] ↔ [[PD-L1]]
+    - [[PD-L1]] ↔ [[triple-negative breast cancer]]

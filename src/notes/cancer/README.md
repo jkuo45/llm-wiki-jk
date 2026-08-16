@@ -51,6 +51,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Bax]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 0 | Pro-apoptotic Bcl-2 family member critical for mitochondrial permeability. |
 | [[Bcl-2]] | 31_May_2026 05:30 PM PDT | Protein | 10 | 0 | Anti-apoptotic protein and major regulator of cell death; frequently overexpressed in cancer. |
 | [[Bcl-2 family]] | 31_May_2026 05:30 PM PDT | Chemical Class | 9 | 0 | Group of proteins that regulate the intrinsic pathway of apoptosis. |
+| [[Bcl-xL]] | 16_August_2026 09:50 AM PDT | Protein | 9 | 0 | Anti-apoptotic Bcl-2 family member; central hub in `notes/_link/Bcl-xL.md`. |
 | [[Benzimidazole]] | 21_May_2026 06:45 PM PDT | Chemical Class | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[BET inhibitors]] | 09_Jul_2026 01:00 PM PDT | Chemical Class | 8 | 1 | Epigenetic drugs targeting BRD4; suppress SASP transcription and MYC-driven cancers. |
 | [[Bid]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | BH3-only protein that links the extrinsic and intrinsic apoptotic pathways. |
@@ -248,7 +249,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[USP9X]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Deubiquitinating enzyme that stabilizes Mcl-1. |
 | [[Glutamine]] | 06_July_2026 12:00 PM PDT | Amino Acid | 8 | 0 | Conditional essential amino acid and primary fuel source for rapidly dividing cells, including cancer cells. |
 | [[Oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
-| [[Tumour Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
+| [[Tumor Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
 | [[task_output_caspase_01_JUN_2026]] | 16_July_2026 12:00 PM PDT | Document | 9 | 0 | Research report on five critical phosphorylation switches in apoptotic signaling: Caspase-8/SHP1, Caspase-7/PAK2, BAX/Pin1, BAK/PTPN5, XIAP/TBK1. |
 | [[BAY 87-2243]] | 25_July_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Q-site Complex I inhibitor with MYC-high selectivity in TNBC drug screen. |
 | [[Mubritinib]] | 25_July_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Q-site Complex I inhibitor (TAK-165); highest MYC selectivity; synergistic with CB-839 in MYC-high TNBC PDX models. |
@@ -294,7 +295,7 @@ The following entities were moved to `notes/_link/` as cross-topic shared notes 
 - [[Caspase-7]] — executioner caspase regulated by PAK2; central hub in `notes/_link/Caspase-7.md`
 - [[Caspase-9]] — initiator caspase of intrinsic pathway; central hub in `notes/_link/Caspase-9.md`
 - [[Caspase-3]] — primary executioner caspase; central hub in `notes/_link/Caspase-3.md`
-- [[XIAP]] — inhibitor of apoptosis protein; central hub in `notes/_link/XIAP.md`
+- [[XIAP]] — inhibitor of apoptosis protein; central hub in `notes/cancer/XIAP.md`
 - [[PAK2]] — p21-activated kinase 2; central hub in `notes/_link/PAK2.md`
 - [[Pin1]] — peptidyl-prolyl isomerase; central hub in `notes/_link/Pin1.md`
 - [[PTPN5]] — STEP phosphatase; central hub in `notes/_link/PTPN5.md`
@@ -302,6 +303,6 @@ The following entities were moved to `notes/_link/` as cross-topic shared notes 
 - [[Src]] — proto-oncogenic tyrosine kinase; central hub in `notes/_link/Src.md`
 - [[FAK]] — focal adhesion kinase; central hub in `notes/_link/FAK.md`
 - [[IKKepsilon]] — inducible I kappa B kinase; central hub in `notes/_link/IKKepsilon.md`
-- [[TRAIL]] — TNF-related apoptosis-inducing ligand; central hub in `notes/_link/TRAIL.md`
+- [[TRAIL]] — TNF-related apoptosis-inducing ligand; central hub in `notes/cancer/TRAIL.md`
 - [[FasL]] — Fas ligand; central hub in `notes/_link/FasL.md`
 - [[JNK]] — c-Jun N-terminal kinase; central hub in `notes/_link/JNK.md`

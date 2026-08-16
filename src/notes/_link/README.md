@@ -10,8 +10,8 @@ updated: 2026-08-01
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 01_AUGUST_2026 12:00 PM PDT
-- Total count of entities: 526
+- Last updated: 16_AUGUST_2026 09:50 AM PDT
+- Total count of entities: 549
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | [[5-Fluorouracil]] | 28_July_2026 03:00 PM PDT | drug | Cancer, Chemotherapy |
@@ -141,6 +141,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Heat Shock Proteins]] | 09_Jul_2026 07:00 PM | Protein | Chaperone, Heat Shock Response, Mitohormesis |
 | [[Heart Rate Variability]] | 09_Jul_2026 07:00 PM | Biological Process | HRV, Autonomic Nervous System, Recovery |
 | [[HIIT]] | 09_Jul_2026 07:00 PM | Biological Process | Exercise, Mitohormesis, Mitochondrial Biogenesis |
+| [[Hormesis]] | 16_August_2026 09:50 AM PDT | scientific-concept | Hormesis, Dose-Response, Stress Adaptation |
 | [[Human Growth Hormone]]                         | 08_Jul_2026 12:00 PM | Protein                | Hormone, Longevity, mTOR                        |
 | [[Hutchinson-Gilford Progeria Syndrome]]         | 31_May_2026 06:45 PM | Medical Condition      | Epigenetics, Yamanaka Factors                   |
 | [[Hydrogen Peroxide]]                            | 29_May_2026 08:20 AM | Chemical Compound      | Oxidative Stress                                |
@@ -205,7 +206,6 @@ This directory contains entities that span across multiple topics within the kno
 | [[Norepinephrine]]                               | 31_May_2026 12:52 PM | Chemical Compound      | Neurotransmitter                                |
 | [[Oligomycin]]                                   | 08_Jul_2026 12:00 PM | Chemical Compound      | ATP Synthase Inhibitor, Bioenergetics           |
 | [[Opioids]]                                      | 08_Jul_2026 11:28 AM | Medical Product        | Pharmacology, Analgesia                         |
-| [[Oxidative Stress]]                             | 29_May_2026 08:20 AM | Scientific Concept     | Pathology                                       |
 | [[p53]]                                          | 29_May_2026 08:20 AM | Protein                | Cancer, DNA Repair                              |
 | [[Parkinson's Disease]]                          | 29_May_2026 08:20 AM | Medical Condition      | Neurodegeneration                               |
 | [[PDE5 Inhibitors]]                              | 08_Jul_2026 12:00 PM | Chemical Class         | Cardiovascular, Longevity, Anti-aging           |
@@ -390,7 +390,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[IL-18]] | 13_JULY_2026 12:00 PM PDT | Cytokine | Inflammation, Inflammasome, SASP |
 | [[BNP]] | 13_JULY_2026 12:00 PM PDT | Peptide Hormone | Cardiovascular, Cardiac Biomarker, Natriuresis |
 | [[Kidney]] | 13_JULY_2026 12:00 PM PDT | Anatomy | Renal, Filtration, AGE Clearance |
-| [[Honokiol]] | 14_JULY_2026 12:00 PM PDT | Chemical Compound | Neuroprotection, Neuropharmacology, Magnoliaceae, Anxiety |
+
 | [[Magnolol]] | 14_JULY_2026 12:00 PM PDT | Chemical Compound | Neuroprotection, Neuropharmacology, Magnoliaceae |
 | [[GABA_A receptor]] | 14_JULY_2026 12:00 PM PDT | Receptor | Inhibitory Neurotransmission, CNS, Neuropharmacology |
 | [[NMDA receptor]] | 14_JULY_2026 12:00 PM PDT | Receptor | Excitatory Neurotransmission, Glutamate, Excitotoxicity |
@@ -424,7 +424,6 @@ This directory contains entities that span across multiple topics within the kno
 | [[C11-BODIPY]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Assay, Ferroptosis, Lipid Peroxidation |
 | [[Docosahexaenoic acid]] | 17_JULY_2026 12:00 PM PDT | Lipid | PUFA, Oxidative Stress, Neuroscience |
 | [[Ferrostatin-1]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Ferroptosis, Antioxidant |
-| [[Hydroxyl Radicals]] | 17_JULY_2026 12:00 PM PDT | ROS | Oxidative Stress, DNA Damage, Lipid Peroxidation |
 | [[Liproxstatin-1]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Ferroptosis, Antioxidant |
 | [[Necrostatin-1]] | 17_JULY_2026 12:00 PM PDT | Chemical Compound | Necroptosis, Cell Death |
 | [[Pheochromocytoma]] | 17_JULY_2026 12:00 PM PDT | Disease | Endocrine, Catecholamines, Adrenal |
@@ -542,3 +541,28 @@ This directory contains entities that span across multiple topics within the kno
 | [[DdCBE]] | 01_AUGUST_2026 12:00 PM PDT | genetic-tool | Gene Editing, Mitochondria, Base Editing |
 | [[Zinc Finger]] | 01_AUGUST_2026 12:00 PM PDT | protein-domain | Gene Editing, DNA Binding, ZFN |
 | [[Mitochondrial Translation]] | 01_AUGUST_2026 12:00 PM PDT | biological-process | Mitochondria, Protein Synthesis, OXPHOS, Aging |
+| [[ABCA1]] | 16_August_2026 09:50 AM PDT | transporter | Lipid Metabolism, Reverse Cholesterol Transport, Atherosclerosis, Oxidative Stress |
+| [[Antioxidant]] | 16_August_2026 09:50 AM PDT | scientific-concept | Redox, Reactive Oxygen Species, Atherosclerosis, Oxidative Stress |
+| [[ATGL]] | 16_August_2026 09:50 AM PDT | enzyme | Lipolysis, Lipid Metabolism, Autophagy, Adipocyte Biology |
+| [[Bcl-xL]] | 16_August_2026 09:50 AM PDT | protein | Apoptosis, Bcl-2 Family, Senescence, Cancer |
+| [[Caspase-3]] | 16_August_2026 09:50 AM PDT | enzyme | Apoptosis, Caspase, Cell Death, Cancer |
+| [[Caspase-7]] | 16_August_2026 09:50 AM PDT | enzyme | Apoptosis, Caspase, Cell Death, Cancer |
+| [[Caspase-8]] | 16_August_2026 09:50 AM PDT | enzyme | Apoptosis, Caspase, Cell Death, Cancer |
+| [[Caspase-9]] | 16_August_2026 09:50 AM PDT | enzyme | Apoptosis, Caspase, Cell Death, Cancer |
+| [[Cholesterol]] | 16_August_2026 09:50 AM PDT | chemical-compound | Lipid Metabolism, Reverse Cholesterol Transport, Atherosclerosis, Oxidative Stress |
+| [[FAK]] | 16_August_2026 09:50 AM PDT | kinase | Focal Adhesion, Cancer, Migration, Adhesion |
+| [[FasL]] | 16_August_2026 09:50 AM PDT | protein | Apoptosis, Fas Signaling, Immunology, Cancer |
+| [[Fibroblast]] | 16_August_2026 09:50 AM PDT | cell-type | Extracellular Matrix, Fibrosis, Senescence, Cancer |
+| [[Foam Cells]] | 16_August_2026 09:50 AM PDT | cell-type | Atherosclerosis, Lipid Metabolism, Macrophage |
+| [[French Paradox]] | 16_August_2026 09:50 AM PDT | scientific-concept | Cardiovascular, Resveratrol, Red Wine |
+| [[IGF1]] | 16_August_2026 09:50 AM PDT | hormone | Growth Factor, Longevity, Immune System, Aging |
+| [[Induced Pluripotent Stem Cells]] | 16_August_2026 09:50 AM PDT | cell-type | Stem Cell, Reprogramming, Disease Modeling |
+| [[JNK]] | 16_August_2026 09:50 AM PDT | kinase | Stress Signaling, MAPK, Apoptosis, Inflammation, Cancer |
+| [[LKB1]] | 16_August_2026 09:50 AM PDT | kinase | AMPK Signaling, Tumor Suppressor, Metabolic Regulation, Autophagy |
+| [[PD-L1]] | 16_August_2026 09:50 AM PDT | protein | Immune Checkpoint, Cancer, Immunology, Senescence |
+| [[PON1]] | 16_August_2026 09:50 AM PDT | enzyme | HDL, Antioxidant, Atherosclerosis, Lipid Peroxidation |
+| [[SARM1]] | 16_August_2026 09:50 AM PDT | enzyme | NAD+ Consumption, Axon Degeneration, Neurodegeneration |
+| [[T Cell Receptor]] | 16_August_2026 09:50 AM PDT | receptor | T Cell Biology, Adaptive Immunity, Thymopoiesis |
+| [[Thymic Involution]] | 16_August_2026 09:50 AM PDT | biological-process | Aging, Thymus, Immune System, T Lymphocyte |
+| [[TXNIP]] | 16_August_2026 09:50 AM PDT | protein | Redox, Insulin Secretion, NLRP3, Beta-Cell |
+| [[XBP1]] | 16_August_2026 09:50 AM PDT | transcription-factor | ER Stress, UPR, Metabolism, Gene Regulation |

@@ -8,6 +8,7 @@ import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
+  restoreDefaultLabels,
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
@@ -24,7 +25,9 @@ const chatSend = document.getElementById('chat-send');
 const chatMaximizeBtn = document.getElementById('chat-maximize');
 const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
-const chatHighlightBadge = document.getElementById('chat-highlight-badge');
+const chatFilterToggle = document.getElementById('chat-filter-toggle');
+const chatFilterCheckbox = document.getElementById('chat-filter-nodes');
+const chatFilterCount = document.getElementById('chat-filter-count');
 const chatModes = document.getElementById('chat-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const graphifyOps = document.getElementById('graphify-ops');
@@ -71,8 +74,8 @@ function syncGraphifyUI() {
   const on = graphifyEnabled();
   chatModes.classList.toggle('graphify-off', !on);
   chatInput.placeholder = on
-    ? 'Ask the graph — type @ to tag nodes / query, explain, path...'
-    : 'Ask the wiki — type @ to tag nodes';
+    ? 'Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)'
+    : 'Analyze the wiki — type @ to tag nodes (e.g. @NAD+ @SIRT1)';
 }
 
 graphifyCheckbox.addEventListener('change', () => {
@@ -94,40 +97,41 @@ graphifyOps.addEventListener('click', (e) => {
 
 syncGraphifyUI();
 
+// Message + close icons for the floating analysis button (SVG, stroke style like
+// the other inline icons so they inherit the button's text color).
+const MSG_ICON = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>';
+const CLOSE_ICON = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+
 chatBtn.addEventListener('click', () => {
   chatOpen = !chatOpen;
   chatPanel.classList.toggle('open', chatOpen);
   chatBtn.classList.toggle('open', chatOpen);
-  chatBtn.innerHTML = chatOpen ? '&#10005;' : '&#128172;';
+  chatBtn.innerHTML = chatOpen ? CLOSE_ICON : MSG_ICON;
   if (!chatOpen) setActiveWindow(null);
   if (chatOpen) chatInput.focus();
-  positionChatBadge();
+  syncChatPanelKeyboard();
 });
 
-// Keep the "Highlighting active" badge out from under the large panel: while
-// the panel is open it sits on the graph side of it; otherwise above the
-// chat button. On small screens the panel spans the width, so the badge falls
-// back to its CSS position above the chat button.
-function positionChatBadge() {
-  if (window.innerWidth <= 480) {
-    chatHighlightBadge.style.top = 'auto';
-    chatHighlightBadge.style.bottom = '';
-    chatHighlightBadge.style.right = '';
+// Fix for mobile keyboards: on iOS (and older Android) the virtual keyboard
+// overlays fixed elements instead of resizing the layout viewport, so the
+// composer's send button gets buried under it. `visualViewport` reports the
+// visible area above the keyboard — raise the panel's bottom edge to match.
+// Android with `interactive-widget=resizes-content` already shrinks
+// `innerHeight`, so the offset self-corrects to zero there.
+function syncChatPanelKeyboard() {
+  if (!chatPanel) return;
+  if (!chatPanel.classList.contains('open') || !window.visualViewport) {
+    chatPanel.style.bottom = '';
     return;
   }
-  const open = chatPanel.classList.contains('open');
-  if (open) {
-    const panelW = Math.min(0.56 * window.innerWidth, 820);
-    chatHighlightBadge.style.bottom = 'auto';
-    chatHighlightBadge.style.top = '16px';
-    chatHighlightBadge.style.right = (panelW + 28) + 'px';
-  } else {
-    chatHighlightBadge.style.top = 'auto';
-    chatHighlightBadge.style.bottom = '92px';
-    chatHighlightBadge.style.right = '88px';
-  }
+  const keyboard = Math.max(0, window.innerHeight - window.visualViewport.height);
+  chatPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
 }
-window.addEventListener('resize', positionChatBadge);
+if (window.visualViewport) {
+  window.visualViewport.addEventListener('resize', syncChatPanelKeyboard);
+}
+window.addEventListener('resize', syncChatPanelKeyboard);
+syncChatPanelKeyboard();
 
 const MAXIMIZE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>';
 const RESTORE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5V1H5"/><path d="M13 9V13H9"/><path d="M5 13H1V9"/><path d="M9 1H13V5"/></svg>';
@@ -143,7 +147,7 @@ function closeChat() {
   chatOpen = false;
   chatPanel.classList.remove('open');
   chatBtn.classList.remove('open');
-  chatBtn.innerHTML = '&#128172;';
+  chatBtn.innerHTML = MSG_ICON;
   setActiveWindow(null);
 }
 
@@ -443,6 +447,8 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
   let reasoningBuf = '';
   let textBuf = '';
+  let traceContent = null;
+  let traceOpen = false;
   let finalElapsed = 0;
   let serverHighlightNodes = [];
   let serverHighlightEdges = [];
@@ -489,15 +495,26 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
         if (evt.type === 'reasoning' && evt.text) {
           reasoningBuf += evt.text;
-          if (traceDiv.style.display === 'none') {
+          labelEl.textContent = 'Thinking';
+          if (!traceContent) {
             traceDiv.style.display = 'block';
-            labelEl.textContent = 'Thinking';
+            traceDiv.innerHTML = '<span class="chat-trace-toggle" style="cursor:pointer;color:#999;font-size:11px;user-select:none;display:block;width:fit-content">&#9654; Thinking trace</span>'
+              + '<div class="chat-trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap"><div></div></div>';
+            traceContent = traceDiv.querySelector('.chat-trace-content');
+            traceDiv.querySelector('.chat-trace-toggle').addEventListener('click', () => {
+              traceOpen = !traceOpen;
+              traceContent.style.display = traceOpen ? 'block' : 'none';
+              if (traceOpen) {
+                traceContent.scrollTop = traceContent.scrollHeight;
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+              }
+            });
           }
-          traceDiv.innerHTML = '<span class="trace-toggle" style="cursor:pointer;color:#999;font-size:11px">&#9654; Thinking trace</span>'
-            + '<div class="trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap">'
-            + esc(reasoningBuf) + '</div>';
-          traceDiv.scrollTop = traceDiv.scrollHeight;
-          chatMessages.scrollTop = chatMessages.scrollHeight;
+          traceContent.textContent = reasoningBuf;
+          if (traceOpen) {
+            traceContent.scrollTop = traceContent.scrollHeight;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+          }
         } else if (evt.type === 'text' && evt.text) {
           textBuf += evt.text;
           labelEl.textContent = 'Answering';
@@ -550,9 +567,6 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   addCopyButton(div, responseText);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
-
-  // Toggle trace visibility on click (inline trace in typing div is gone,
-  // but the <details> in the final message handles its own toggle).
 
   chatHistory.push({ role: 'assistant', content: responseText });
 
@@ -734,7 +748,7 @@ chatInput.addEventListener('keydown', (e) => {
 // Auto-resize textarea + @-tag popup on input
 chatInput.addEventListener('input', () => {
   chatInput.style.height = 'auto';
-  chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
   updateTagPopup();
 });
 
@@ -844,7 +858,7 @@ function selectTagNode(node) {
   const caret = (before + insertion + ' ').length;
   chatInput.setSelectionRange(caret, caret);
   chatInput.style.height = 'auto';
-  chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
   chatTagSet.set(node.id, node);
   renderTagChips();
   highlightTaggedNodes();
@@ -860,7 +874,7 @@ function removeTagChip(id) {
     const re = new RegExp('@' + escLabel + '(?=\\s|$|@)', 'i');
     chatInput.value = chatInput.value.replace(re, '').replace(/\s{2,}/g, ' ').trim();
     chatInput.style.height = 'auto';
-    chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+    chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
   }
   renderTagChips();
   highlightTaggedNodes();
@@ -900,24 +914,42 @@ chatTags.addEventListener('click', (e) => {
 // Suggestion chips
 // ------------------------------------------------------------
 const SUGGESTION_SETS = [
-  ["Trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop", "How does NAD+ decline drive the SASP and what can SIRT1 do about it?", "Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？"],
-  ["Trace from CD38 to NAD+ to SIRT1 and how this axis degrades with age", "Do SIRT1 and SIRT6 differ in how they restrain senescence and SASP?", "為什麼 NAD+ 會隨年齡下降，Sirtuins 如何參與這個過程？"],
-  ["Trace from Cellular Senescence to SASP to Inflammaging", "What distinguishes a senescent cell from a quiescent cell at the molecular level?", "Senolytics 與 senomorphic 在清除衰老細胞的策略上有何不同？"],
-  ["Trace from Adrenochrome to Inflammaging via the miR-217 epigenetic bridge", "Does adrenochrome push cells into senescence through the SASP, and which microRNAs mediate that?", "腎上腺素氧化與衰老分泌表型之間有哪些已知的連結？"],
-  ["Trace from SIRT1 to TFEB to Mitophagy and its role in clearing senescent mitochondria", "Why does SIRT1 fall during replicative senescence, and can NAD+ repletion restore its activity?", "Sirtuins 如何透過自噬與粒線體恆定來延緩細胞衰老？"],
-  ["Trace from Oxidative Stress through Sirtuins to Mitohormesis", "Can low-dose catecholamine oxidation products trigger a hormetic NRF2/PGC1A response that Sirtuins amplify?", "Sirtuins 對抗腎上腺素氧化損傷的分子機制是什麼？"],
-  ["Trace from NAD+ to BNIP3 mitophagy and how this intersects with senescence", "How does CD38-mediated NAD+ depletion link microglial inflammation to neuronal senescence?", "為什麼 SIRT1 活化需要足夠的 NAD+，而 CD38 會打破這個平衡？"],
-  ["Trace from Adrenochrome to Foam Cells via lipophagy and atherosclerosis", "How does neuromelanin formation relate to catecholamine oxidation, COMT genotype, and oxidative stress?", "腎上腺素氧化產物如何影響巨噬細胞與動脈粥樣硬化？"],
+  [
+    { q: "Trace from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed lysosomal stress", tags: ["Adrenochrome", "Neuromelanin", "Autophagy", "TFEB"] },
+    { q: "How does COMT channel catecholamines into the Adrenochrome Pathway, and what is the Fisetin route back toward ROS?", tags: ["COMT", "Adrenochrome Pathway", "Fisetin", "ROS"] },
+    { q: "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？", tags: ["NRF2", "NF-κB", "Adrenochrome"] },
+  ],
+  [
+    { q: "Trace from CD38 through Aging to SIRT1 and explain how NAD+ consumption drives the decline", tags: ["CD38", "Aging", "SIRT1", "NAD+"] },
+    { q: "Why does Fisetin clear senescent cells while NR simply converts to NAD+ upstream of SIRT1?", tags: ["Fisetin", "Nicotinamide Riboside", "NAD+", "SIRT1"] },
+    { q: "NAD+ 為何是 Sirtuins 的必要條件，CD38 消耗 NAD+ 這一步如何成為老化關鍵開關？", tags: ["NAD+", "Sirtuins", "CD38"] },
+  ],
+  [
+    { q: "Compare the senolytic (Fisetin) and senomorphic paths to senescent-cell clearance through Fisetin, mTORC1, and Autophagy", tags: ["Fisetin", "mTORC1", "Autophagy"] },
+    { q: "Trace Creatine to SIRT1 to FOXO to Autophagy and explain the AMPK handoff between them", tags: ["Creatine", "SIRT1", "FOXO", "AMPK", "Autophagy"] },
+    { q: "mTORC1、TFEB、自噬這條軸如何決定衰老細胞的清除 vs 存活？", tags: ["mTORC1", "TFEB", "Autophagy"] },
+  ],
+  [
+    { q: "Trace from Bcl-2 family MOMP through the Intrinsic Pathway to Caspase-9 and explain where SIRT1 lands on this line", tags: ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
+    { q: "How does Honokiol protect MFN2-mediated mitochondrial fusion, and why does that intersect Caspase-3 via its dual role in cardiac hypertrophy?", tags: ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
+    { q: "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？", tags: ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] },
+  ],
+  [
+    { q: "Trace from Methylene blue through Monoamine oxidase and Aminoguanidine to Methemoglobinemia and explain the enzyme-inhibitor web", tags: ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
+    { q: "Why does Ivermectin induce Autophagy which suppresses NF-κB — and what does Adrenochrome contribute on the same subgraph?", tags: ["Ivermectin", "Autophagy", "NF-κB", "Adrenochrome"] },
+    { q: "甲基藍治療變性血紅素血症的作用機制，透過 MAO 抑制劑那一跳如何反過來連向氨基胍？", tags: ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
+  ],
 ];
 let suggestionIndex = 1;
 
+function suggestionHTML(q) {
+  const tags = (q.tags || []).join(',');
+  return `<button class="chat-suggestion" data-query="${esc(q.q)}" data-tags="${esc(tags)}">${esc(q.q)}</button>`;
+}
+
 function defaultSuggestionsHTML() {
-  return `
-    <button class="chat-suggestion" data-query="Trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop">Trace from Adrenochrome through Sirtuins to Cellular Senescence and explain each hop</button>
-    <button class="chat-suggestion" data-query="How does NAD+ decline drive the SASP and what can SIRT1 do about it?">How does NAD+ decline drive the SASP and what can SIRT1 do about it?</button>
-    <button class="chat-suggestion" data-query="Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？">Sirtuins 與細胞衰老：SIRT1 如何調控 SASP 與慢性發炎？</button>
-    <button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>
-  `;
+  return SUGGESTION_SETS[0].map(suggestionHTML).join('') +
+    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>`;
 }
 
 function appendSuggestions(parent) {
@@ -936,9 +968,19 @@ async function generateSuggestions() {
   const questions = SUGGESTION_SETS[suggestionIndex % SUGGESTION_SETS.length];
   suggestionIndex++;
 
-  suggestionsDiv.innerHTML = questions.map(q =>
-    `<button class="chat-suggestion" data-query="${esc(q)}">${esc(q)}</button>`
-  ).join('') + `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>`;
+  suggestionsDiv.innerHTML = questions.map(suggestionHTML).join('') +
+    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>`;
+}
+
+function tagSuggestionNodes(labels) {
+  const nodes = [];
+  labels.forEach(label => {
+    const node = RAW_NODES.find(n => n.label === label);
+    if (node && !chatTagSet.has(node.id)) nodes.push(node);
+  });
+  nodes.forEach(node => chatTagSet.set(node.id, node));
+  renderTagChips();
+  highlightTaggedNodes();
 }
 
 // Delegate clicks on suggestion chips (initial + generated)
@@ -949,6 +991,9 @@ chatMessages.addEventListener('click', (e) => {
     generateSuggestions();
   } else {
     chatInput.value = btn.dataset.query;
+    if (btn.dataset.tags) {
+      tagSuggestionNodes(btn.dataset.tags.split(',').map(s => s.trim()).filter(Boolean));
+    }
     chatInput.focus();
   }
 });
@@ -1075,8 +1120,11 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 
   setLabelVisibility(idSet);
 
-  // Show highlight badge
-  chatHighlightBadge.classList.add('visible');
+  // Offer node filtering with a count of highlighted nodes
+  chatFilterToggle.classList.add('visible');
+  chatFilterCheckbox.disabled = false;
+  chatFilterCount.textContent = nodeIds.length;
+  applyChatNodeFilter();
 
   // Frame the camera on the primary node (if any), positioning it toward the
   // top-left of the viewport so the side panel on the right doesn't cover it.
@@ -1116,12 +1164,40 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 function clearChatHighlights() {
   chatHighlightedNodes = [];
   chatHighlightedEdges = [];
-  chatHighlightBadge.classList.remove('visible');
+  chatFilterToggle.classList.remove('visible');
+  chatFilterCheckbox.checked = false;
+  chatFilterCheckbox.disabled = true;
+  chatFilterCount.textContent = '0';
+  applyChatNodeFilter();
 
   resetVisualState();
 }
 
-chatHighlightBadge.addEventListener('click', clearChatHighlights);
+// Toggle whether the graph is cropped down to just the highlighted nodes (and
+// the edges between them). OFF keeps the full graph with the highlight styling;
+// ON hides every node/edge outside the highlighted set.
+function applyChatNodeFilter() {
+  const enabled = !!(chatFilterCheckbox && chatFilterCheckbox.checked);
+  const idSet = new Set(chatHighlightedNodes);
+
+  nodeMeshes.forEach(m => {
+    m.visible = !enabled || idSet.has(m.userData.nodeId);
+  });
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    line.visible = !enabled || (idSet.has(edge.from) && idSet.has(edge.to));
+  });
+
+  if (chatHighlightedNodes.length) {
+    // Whatever the filter state, labels track the highlighted set (visibility
+    // of non-highlighted meshes is already handled above).
+    setLabelVisibility(idSet);
+  } else {
+    restoreDefaultLabels();
+  }
+}
+
+chatFilterCheckbox.addEventListener('change', applyChatNodeFilter);
 
 // ------------------------------------------------------------
 // Init

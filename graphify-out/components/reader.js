@@ -1,4 +1,6 @@
 // Reader module: article registry, modal open/close, and hash-driven loading.
+// Articles are organized by `group` (a logical article) × `lang` (en / zh).
+// The article dropdown picks the group; the language toggle swaps within it.
 
 import { state } from './state.js';
 import { updateHash } from './routing.js';
@@ -9,29 +11,97 @@ import { updateHash } from './routing.js';
 export const ARTICLES = [
   {
     id: 'sirtuin-pleiotropy',
+    group: 'sirtuin-pleiotropy',
+    lang: 'en-US',
     title: 'Sirtuins - Pleiotropy in Tumor Cell Metabolism',
     path: 'pages/sirtuins_pleiotropic_roles.html',
+    created: '2026-08-13',
+    updated: '2026-08-15',
     default: true,
   },
   {
     id: 'sirtuin-pleiotropy-zh',
+    group: 'sirtuin-pleiotropy',
+    lang: 'zh-TW',
     title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
     path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
+    created: '2026-08-14',
+    updated: '2026-08-16',
   },
   {
     id: 'sirtuin-disease-complications',
+    group: 'sirtuin-disease-complications',
+    lang: 'en-US',
     title: 'Sirtuins - Disease Complications',
     path: 'pages/sirtuins_disease_complications.html',
+    created: '2026-08-14',
+    updated: '2026-08-15',
   },
   {
     id: 'sirtuin-disease-complications-zh',
+    group: 'sirtuin-disease-complications',
+    lang: 'zh-TW',
     title: 'Sirtuins - 疾病併發症（繁體中文）',
     path: 'pages/sirtuins_disease_complications_zh-TW.html',
+    created: '2026-08-14',
+    updated: '2026-08-15',
+  },
+  {
+    id: 'ivermectin-fenbendazole-anticancer',
+    group: 'ivermectin-fenbendazole-anticancer',
+    lang: 'en-US',
+    title: '(Preclinical) Ivermectin × Fenbendazole (complementary mechanisms)',
+    path: 'pages/ivermectin-fenbendazole-anticancer.html',
+    created: '2026-08-16',
+    updated: '2026-08-16',
+  },
+  {
+    id: 'ivermectin-fenbendazole-anticancer-zh',
+    group: 'ivermectin-fenbendazole-anticancer',
+    lang: 'zh-TW',
+    title: '伊維菌素 × 芬苯達唑（互補抗癌機制）（繁體中文）',
+    path: 'pages/ivermectin-fenbendazole-anticancer_zh-TW.html',
+    created: '2026-08-16',
+    updated: '2026-08-16',
   }
 ];
 
 export const getArticle = (id) => ARTICLES.find((a) => a.id === id) || null;
 export const getDefaultArticle = () => ARTICLES.find((a) => a.default) || ARTICLES[0];
+
+// ------------------------------------------------------------
+// Group / language helpers
+// ------------------------------------------------------------
+const groupKey = new Map();
+ARTICLES.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
+
+function stripSuffix(title) {
+  return title.replace(/\s*（繁體中文）\s*$/, '');
+}
+
+function groupTitle(group) {
+  const en = ARTICLES.find((a) => a.group === group && a.lang === 'en-US');
+  const zh = ARTICLES.find((a) => a.group === group && a.lang === 'zh-TW');
+  const base = en || zh || groupKey.get(group) || ARTICLES[0];
+  if (zh) return `${base.title} · ${stripSuffix(zh.title)}`;
+  return base.title;
+}
+
+function groupHasLang(group, lang) {
+  return ARTICLES.some((a) => a.group === group && a.lang === lang);
+}
+
+function resolveForGroup(group, lang) {
+  return (
+    ARTICLES.find((a) => a.group === group && a.lang === lang) ||
+    ARTICLES.find((a) => a.group === group) ||
+    null
+  );
+}
+
+function currentArticle() {
+  return (state.readerId && getArticle(state.readerId)) || getDefaultArticle();
+}
 
 // ------------------------------------------------------------
 // DOM refs
@@ -40,6 +110,7 @@ const overlay = document.getElementById('page-modal-overlay');
 const frame = document.getElementById('page-modal-frame');
 const openLink = document.getElementById('page-modal-open');
 const select = document.getElementById('reader-select');
+const langBtns = Array.from(document.querySelectorAll('#reader-lang [data-lang]'));
 const prevBtn = document.getElementById('reader-prev');
 
 // ------------------------------------------------------------
@@ -61,13 +132,21 @@ function loadArticle(article, section) {
 }
 
 function buildOptions() {
-  select.innerHTML = ARTICLES.map(
-    (a) => `<option value="${a.id}">${a.title}</option>`,
-  ).join('');
+  select.innerHTML = Array.from(groupKey.keys())
+    .map((g) => `<option value="${g}">${groupTitle(g)}</option>`)
+    .join('');
 }
 
-function setSelect(id) {
-  select.value = id;
+function setSelectFor(article) {
+  select.value = article.group;
+}
+
+function setLangToggleFor(article) {
+  langBtns.forEach((btn) => {
+    const lang = btn.dataset.lang;
+    btn.disabled = !groupHasLang(article.group, lang);
+    btn.classList.toggle('active', lang === article.lang);
+  });
 }
 
 // ------------------------------------------------------------
@@ -89,7 +168,8 @@ export function openReader(id, { restore = false, section = null } = {}) {
     readerStack.push(article.id);
   }
   loadArticle(article, section);
-  setSelect(article.id);
+  setSelectFor(article);
+  setLangToggleFor(article);
   overlay.classList.add('visible');
   state.readerId = article.id;
   state.readerSection = section;
@@ -154,18 +234,31 @@ buildOptions();
 updatePrevBtn();
 
 // ------------------------------------------------------------
-// Wire up (button, select, overlay, keyboard)
+// Wire up (button, select, language toggle, overlay, keyboard)
 // ------------------------------------------------------------
 const readerBtn = document.getElementById('btn-reader');
 
-readerBtn.addEventListener('click', () => {
-  const id = select.value || (getDefaultArticle() || {}).id;
-  openReader(id);
-});
+function openSelected() {
+  const group = select.value;
+  if (!group) return;
+  const lang = currentArticle().lang;
+  const article = resolveForGroup(group, lang);
+  if (article) openReader(article.id, { section: state.readerSection });
+}
 
-select.addEventListener('change', () => {
-  const id = select.value;
-  if (getArticle(id)) openReader(id);
+readerBtn.addEventListener('click', openSelected);
+
+select.addEventListener('change', openSelected);
+
+langBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const lang = btn.dataset.lang;
+    const cur = currentArticle();
+    const target = resolveForGroup(cur.group, lang);
+    if (target && target.id !== cur.id) {
+      openReader(target.id, { section: state.readerSection });
+    }
+  });
 });
 
 prevBtn.addEventListener('click', () => {

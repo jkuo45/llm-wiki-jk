@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_AUG_2026 | 30 | 1584 | 924,944 | 7.99 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 11_AUG_2026 | 19 | 262 | 200,668 | 2.24 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 09_AUG_2026 | 12 | 233 | 181,011 | 1.54 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_AUG_2026 | 11 | 269 | 236,901 | 2.45 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 09_AUG_2026 | 2 | 34 | 20,917 | 0.30 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 09_AUG_2026 | 9 | 195 | 198,594 | 1.75 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 11_AUG_2026 | 1 | 65 | 68,432 | 0.76 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 14_AUG_2026 | 15 | 47 | 144,836 | 1.85 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 14_AUG_2026 | 14 | 148 | 263,527 | 2.89 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 16_AUG_2026 | 30 | 1576 | 933,883 | 8.05 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 16_AUG_2026 | 19 | 259 | 198,105 | 2.22 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 16_AUG_2026 | 12 | 226 | 178,167 | 1.52 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 16_AUG_2026 | 11 | 280 | 244,107 | 2.50 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 15_AUG_2026 | 2 | 44 | 25,152 | 0.33 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 15_AUG_2026 | 9 | 209 | 205,023 | 1.79 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 62,530 | 0.67 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 16_AUG_2026 | 1 | 94 | 79,473 | 0.84 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 16_AUG_2026 | 15 | 65 | 154,535 | 1.92 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 16_AUG_2026 | 14 | 169 | 272,696 | 2.96 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_AUG_2026 | **115** | **2910** | **2,293,507** | **22.36 MB** |
+| **subtotal** | 16_AUG_2026 | **115** | **3013** | **2,353,671** | **22.81 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -39,12 +39,12 @@
 
 - 📝 Sirtuins tumor metabolism & therapeutics task output:
     - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-        - [https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles)
+        - [https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
         - Synthesis of the pleiotropic roles of SIRT1–SIRT7 in tumor cell metabolism (glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis), the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents (STAC activators, SIRT1/2 inhibitors, SIRT3/SIRT6 activators, NAD⁺ precursors NMN/NR, CD38 inhibition) with development stage and indications.
         - 🀄️ (zh-TW): 綜述七種去乙醯酶（SIRT1–SIRT7）在腫瘤細胞代謝中的多效性角色（糖解/Warburg效應、麩醯胺酸代謝/TCA回補、ROS/氧化還原、脂質恆定）、各成員雙重且依情境而定的腫瘤抑制與致癌行為，以及現有去乙醯酶標靶治療藥物比較表（STAC激活劑、SIRT1/2抑制劑、SIRT3/SIRT6激活劑、NAD⁺前驅物NMN/NR、CD38抑制），並註明開發階段與適應症。
 - 📝 Sirtuins disease complications task output:
     - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-        - [https://graph.johnnykuo.com/pages/sirtuins_disease_complications](https://graph.johnnykuo.com/pages/sirtuins_disease_complications)
+        - [https://graph.johnnykuo.com/pages/sirtuins_disease_complications](https://graph.johnnykuo.com/pages/sirtuins_disease_complications) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
         - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
         - 🀄️ (zh-TW): 從去乙醯酶綜述（s41392-022-01257-8）整理的逐SIRT疾病全景——每個去乙醯酶（SIRT1–SIRT7）一個章節，列出其牽涉的每一種疾病/併發症、所扮演角色（保護性/有害性/雙重性）、表現變化與機制。
     - [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
@@ -55,9 +55,9 @@
 		- Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
 		- 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
 - 🔎 Graphify queries: path, explain, trace:
-    - https://github.com/Graphify-Labs/graphify
-	- https://graph.johnnykuo.com/
-    - https://api.johnnykuo.com/health
+    - [https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+	- [https://graph.johnnykuo.com/](https://graph.johnnykuo.com/)
+    - [https://api.johnnykuo.com/health](https://api.johnnykuo.com/health)
     - 🔬 Explain (`graphify explain "Entity"`): surfaces a single entity's context - Use to inspect one gene/protein/disease node and understand its immediate biological environment.
     - 🛤️ Path (`graphify path "A" "B"`): traces the explicit hop-by-hop chain between two entities. Use to see how distant concepts connect, e.g., from a receptor/signaling node down to a downstream metabolic or disease node.
     - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.
@@ -90,10 +90,8 @@
 
 `from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
 
-- triples + graphify
 - example: suggested schedule (Resveratrol, and Creatine)
-	link to sinclair [resveratrol](https://x.com/davidasinclair/status/2076000921402675509)
-
+	[resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol_en-US|wiki]]
 	| Time   | Meal                         | Supplement             |
 	| ------ | ---------------------------- | ---------------------- |
 	| Lunch  | Chicken soup + rice          | Creatine 5 g           |
@@ -111,7 +109,6 @@
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
     - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
     - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
-
 
 ---
 
@@ -244,13 +241,17 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (71 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (75 total)</strong> — click to expand</summary>
 
+- [task_output_node_comt_mao_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_comt_mao_15_August_2026.md) [[src/tasks/task_output_node_comt_mao_15_August_2026.md|wiki]] (16_AUG_2026 09:53 AM PDT)
+- [task_output_node_sirtuins_adrenochrome_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md|wiki]] (16_AUG_2026 09:53 AM PDT)
+- [task_output_node_sirtuins_catecholamines_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md|wiki]] (16_AUG_2026 09:53 AM PDT)
+- [task_output_sirtuin_research_gaps_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md) [[src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md|wiki]] (15_AUG_2026 03:41 PM PDT)
+- [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md|wiki]] (14_AUG_2026 07:15 PM PDT)
+- [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (14_AUG_2026 07:15 PM PDT)
 - [task_output_sirt1_ktype_allosteric_activation_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md) [[src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md|wiki]] (14_AUG_2026 06:33 PM PDT)
 - [task_output_benign_tumor_longevity_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_benign_tumor_longevity_14_August_2026.md) [[src/tasks/task_output_benign_tumor_longevity_14_August_2026.md|wiki]] (14_AUG_2026 05:19 PM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (13_AUG_2026 08:48 AM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md|wiki]] (11_AUG_2026 03:56 PM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (11_AUG_2026 08:43 AM PDT)
+- [task_output_sirtuins_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md|wiki]] (13_AUG_2026 08:48 AM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [task_output_adrenochrome_sirtuins_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md) [[src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)

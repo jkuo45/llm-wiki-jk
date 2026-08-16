@@ -1,8 +1,8 @@
 ---
 title: Thymic Involution
-description: The age-related shrinkage and functional decline of the thymus, characterized by loss of thymic epithelial space, reduced thymopoiesis, and decreased naive T cell output.
-created: 2026-07-26
-updated: 2026-07-26
+description: The age-related shrinkage and functional decline of the thymus, characterized by loss of thymic epithelial space, reduced thymopoiesis, and decreased naive T cell output, contributing to immune aging; reversible by interventions including autophagy induction.
+created: 2026-07-04
+updated: 2026-08-16
 tags:
   - biological-process
   - aging
@@ -14,7 +14,7 @@ aliases:
 
 # Thymic Involution
 
-**Thymic involution** is the progressive age-related shrinkage and functional decline of the [[Thymus|thymus]], resulting in reduced [[Thymopoiesis|thymopoiesis]], decreased naïve [[T Lymphocyte|T cell]] output, and impaired immune function. It is one of the most conspicuous and consistent features of mammalian aging.
+**Thymic involution** is the progressive age-related shrinkage and functional decline of the [[Thymus|thymus]], resulting in reduced [[Thymopoiesis|thymopoiesis]], decreased naïve [[T Lymphocyte|T cell]] output, and impaired immune function. It is one of the most conspicuous and consistent features of mammalian aging and is a major contributor to [[Immune Aging|immune aging]].
 
 ## Timeline
 
@@ -46,6 +46,11 @@ aliases:
 - Increased susceptibility to infection, [[Autoimmune Disease|autoimmunity]], and cancer
 - Impaired immune reconstitution after [[Chemotherapy|chemotherapy]], radiation, or [[HIV|HIV-1]] infection
 
+### Impact on Immune System
+- Results in a decrease in peripheral naïve adaptive immune cells
+- Contributes to [[Immune Aging]] and impaired immune reactions to new antigens
+- Perturbs memory responses in the [[Adaptive Immune Response]]
+
 ## Evolutionary Hypotheses
 
 - **Energy reallocation** (Shanley et al.) — Thymic involution evolved to redirect energy from T cell production to reproduction once a diverse TCR repertoire is established
@@ -58,6 +63,11 @@ In BALB/c mice (aged 6–90 weeks):
 - Decrease detectable as early as 12 weeks of age
 - After 35 weeks, thymus weight stabilizes at ~45% of 6-week size
 - sjTREC per milligram of thymus tissue decreases significantly with age
+
+## Relationship with Autophagy
+
+- Strategies to rejuvenate the aged [[Immune System]] often focus on counteracting the effects of thymic involution through [[Autophagy Inducer|autophagy induction]].
+- Autophagy decline contributes to thymic aging, linking the two processes in age-related immune decline.
 
 ## Therapeutic Reversal
 
@@ -72,8 +82,13 @@ Multiple strategies aim to reverse or attenuate thymic involution:
 
 ## Documents
 
-- [[_document_ - Thymic Rejuvenation and Aging|Thymic Rejuvenation and Aging]]
-  - Central topic of the review; covers mechanisms, timeline, and therapeutic strategies for reversing thymic involution.
+List of documents that mention this entity
+
+  - [[_document_ - Thymic Rejuvenation and Aging|Thymic Rejuvenation and Aging]]
+    - Central topic of the review; covers mechanisms, timeline, and therapeutic strategies for reversing thymic involution.
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Thymic involution results in reduced T cell output and reduced B cell production in the bone marrow, leading to a decrease in peripheral naïve adaptive immune cells.
 
 ## Connections
 
@@ -85,6 +100,10 @@ Multiple strategies aim to reverse or attenuate thymic involution:
 - [[sjTREC]] — Molecular marker that quantifies involution-related decline
 - [[Aging]] — Thymic involution is a hallmark of aging
 - [[Immune System]] — Involution impairs overall immune function
+- [[Immune Aging]] — Involution is a major contributor to immune aging
+- [[Adaptive Immune Response]] — Involution perturbs memory responses
+- [[Autophagy Inducer]] — Autophagy induction counteracts involution-related immune decline
+- [[Autophagy]] — Autophagy decline contributes to thymic aging
 - [[Sex Steroid Ablation]] — Primary therapeutic approach for reversing involution
 - [[IL-7]], [[Keratinocyte Growth Factor]], [[IL-22]], [[Human Growth Hormone]], [[Ghrelin]] — Cytokines and hormones used to reverse involution
 - [[LHRH]] — Pharmacological agent for sex steroid ablation
@@ -95,6 +114,12 @@ Multiple strategies aim to reverse or attenuate thymic involution:
 
 ## Linking Summary
 
-- New links added: [[Thymus]], [[Thymopoiesis]], [[Thymic Epithelial Cells]], [[T Lymphocyte]], [[T Cell Receptor]], [[sjTREC]], [[Aging]], [[Immune System]], [[Sex Steroid Ablation]], [[IL-7]], [[Keratinocyte Growth Factor]], [[IL-22]], [[Human Growth Hormone]], [[Ghrelin]], [[LHRH]], [[Autoimmune Disease]], [[HIV]], [[Chemotherapy]], [[Adipose Tissue]]
+- New links added: [[Thymus]], [[Thymopoiesis]], [[Thymic Epithelial Cells]], [[T Lymphocyte]], [[T Cell Receptor]], [[sjTREC]], [[Aging]], [[Immune System]], [[Immune Aging]], [[Adaptive Immune Response]], [[Autophagy Inducer]], [[Autophagy]], [[Sex Steroid Ablation]], [[IL-7]], [[Keratinocyte Growth Factor]], [[IL-22]], [[Human Growth Hormone]], [[Ghrelin]], [[LHRH]], [[Autoimmune Disease]], [[HIV]], [[Chemotherapy]], [[Adipose Tissue]]
 - Suggested new entity notes to create: none
-- Strong connections to strengthen: [[Thymic Involution]] ↔ [[Aging]], [[Thymic Involution]] ↔ [[Thymus]], [[Thymic Involution]] ↔ [[Thymic Epithelial Cells]]
+- Strong connections to strengthen:
+  - [[Thymic Involution]] ↔ [[Aging]]
+  - [[Thymic Involution]] ↔ [[Thymus]]
+  - [[Thymic Involution]] ↔ [[Thymic Epithelial Cells]]
+  - [[Thymic Involution]] ↔ [[Immune Aging]]
+
+  - Justification: Thymic involution is the central driver of age-related immune decline, bridging the aging, immunology, and autophagy-rejuvenation literature; connections to immune aging and autophagy induction capture its cross-topic relevance.

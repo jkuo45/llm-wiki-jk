@@ -83,7 +83,7 @@ datasetBtn.addEventListener('click', (e) => {
   datasetPanel.classList.toggle('visible');
 });
 datasetPanel.addEventListener('click', (e) => {
-  if (e.target.id === 'dataset-close') {
+  if (e.target.id === 'dataset-close' || e.target === datasetPanel) {
     datasetPanel.classList.remove('visible');
     setActiveWindow(null);
   }
