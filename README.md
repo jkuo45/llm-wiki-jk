@@ -63,7 +63,7 @@
     - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.
     - 🀄️ (zh-TW): 三種知識圖譜查詢方式：Explain（解釋單一實體的來源位置、連結與社群）；Path（追蹤兩實體間一步步的關聯鏈）；Query/Trace（以自然語言或BFS檢索符合概念的相關節點子圖）。
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
-    - [[task_output_mitohormetic_window_13_JUL_2026|MRR - mitohormetic window biomarkers]]
+    - [MRR - mitohormetic window biomarkers](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md)[[task_output_mitohormetic_window_13_JUL_2026|wiki]]
     - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
     - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
     - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
@@ -102,7 +102,7 @@
 - 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[_document_ - Creatine in Health and Disease|wiki]]
 	- Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
 	- 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
-- 🍇 [[Resveratrol]] (therapeutic levels, calculation):
+- 🍇 [Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/Resveratrol.md) [[Resveratrol|wiki]] (therapeutic levels, calculation):
 	- Polyphenolic stilbene and prototypical SIRT1 activator; therapeutic dose (500 mg) requires ~263 L of red wine (~351 bottles, ~1,778 glasses) or ~46–150 lbs of grapes — daily intake impossible from food alone, supplements required due to poor oral bioavailability (~1–2%).
 	- 🀄️ (zh-TW): 多酚類芪烯醇與原型SIRT1激活劑；治療劑量（500毫克）需約263公升紅酒（約351瓶、1,778杯）或46–150磅葡萄——每日攝入量無法從食物獲取，因口服生物利用度低（約1–2%），需依賴補充劑。
 - 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md) [[task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
