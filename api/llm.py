@@ -166,13 +166,21 @@ async def stream_answer(
          relayed or it corrupts the client's text buffer.
       2. The final `message.part.updated` for a part carries the full text while
          trailing deltas may be coalesced or dropped, so any unsent suffix is
-         flushed on that event.
+         flushed on that event. Both feeds describe slices of one cumulative
+         string; deltas advance the emitted cursor and a superseding snapshot
+         absorbs any remaining suffix without replay.
     """
     start = time.monotonic()
     part_types: dict[str, str] = {}
     part_messages: dict[str, str] = {}
     message_roles: dict[str, str] = {}
-    streamed: dict[str, int] = {}
+    # Cumulative text already relayed downstream for each part. Both the delta
+    # and the part.updated snapshot feeds describe slices of the SAME
+    # append-only cumulative string, so tracking the full emitted text (rather
+    # than a bare length) lets a superseding snapshot absorb trailing deltas
+    # without any replay.
+    sented: dict[str, str] = {}
+    snap_text: dict[str, str] = {}
     emitted_done = False
 
     def _is_user_part(part_id: str) -> bool:
@@ -187,11 +195,13 @@ async def stream_answer(
         if _is_user_part(pid):
             return None
         full = part.get("text") or ""
-        sent = streamed.get(pid, 0)
-        if len(full) <= sent:
+        have = sented.get(pid, "")
+        if len(full) <= len(have):
             return None
-        streamed[pid] = len(full)
-        return {"type": kind, "text": full[sent:]}
+        # The snapshot supersedes partial deltas: emit only the suffix that has
+        # not gone out yet, then adopt the snapshot as the canonical text.
+        sented[pid] = full
+        return {"type": kind, "text": full[len(have):]}
 
     try:
         async with _client(timeout=None) as c:
@@ -264,6 +274,8 @@ async def stream_answer(
                             part_types[pid] = ptype
                             if part.get("messageID"):
                                 part_messages[pid] = part["messageID"]
+                            if ptype in ("text", "reasoning"):
+                                snap_text[pid] = part.get("text") or ""
                         chunk = _flush(part)
                         if chunk:
                             yield chunk
@@ -280,7 +292,18 @@ async def stream_answer(
                         delta = props.get("delta") or ""
                         if not delta:
                             continue
-                        streamed[pid] = streamed.get(pid, 0) + len(delta)
+                        # Deltas are incremental slices of a cumulative string. If
+                        # the most recent part.updated snapshot already contains
+                        # this slice, it has been (or will be) relayed by the
+                        # snapshot flush — do not re-emit it or the trace greps
+                        # it twice. Otherwise it is a genuine continuation.
+                        have = sented.get(pid, "")
+                        cand = have + delta
+                        snap = snap_text.get(pid)
+                        if snap and snap.startswith(cand):
+                            sented[pid] = cand
+                            continue
+                        sented[pid] = cand
                         yield {"type": kind, "text": delta}
 
                     elif etype == "session.error":

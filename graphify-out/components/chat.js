@@ -422,6 +422,8 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
   let reasoningBuf = '';
   let textBuf = '';
+  let traceContent = null;
+  let traceOpen = false;
   let finalElapsed = 0;
   let serverHighlightNodes = [];
   let serverHighlightEdges = [];
@@ -468,15 +470,26 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
         if (evt.type === 'reasoning' && evt.text) {
           reasoningBuf += evt.text;
-          if (traceDiv.style.display === 'none') {
+          labelEl.textContent = 'Thinking';
+          if (!traceContent) {
             traceDiv.style.display = 'block';
-            labelEl.textContent = 'Thinking';
+            traceDiv.innerHTML = '<span class="chat-trace-toggle" style="cursor:pointer;color:#999;font-size:11px;user-select:none;display:block;width:fit-content">&#9654; Thinking trace</span>'
+              + '<div class="chat-trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap"><div></div></div>';
+            traceContent = traceDiv.querySelector('.chat-trace-content');
+            traceDiv.querySelector('.chat-trace-toggle').addEventListener('click', () => {
+              traceOpen = !traceOpen;
+              traceContent.style.display = traceOpen ? 'block' : 'none';
+              if (traceOpen) {
+                traceContent.scrollTop = traceContent.scrollHeight;
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+              }
+            });
           }
-          traceDiv.innerHTML = '<span class="trace-toggle" style="cursor:pointer;color:#999;font-size:11px">&#9654; Thinking trace</span>'
-            + '<div class="trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap">'
-            + esc(reasoningBuf) + '</div>';
-          traceDiv.scrollTop = traceDiv.scrollHeight;
-          chatMessages.scrollTop = chatMessages.scrollHeight;
+          traceContent.textContent = reasoningBuf;
+          if (traceOpen) {
+            traceContent.scrollTop = traceContent.scrollHeight;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+          }
         } else if (evt.type === 'text' && evt.text) {
           textBuf += evt.text;
           labelEl.textContent = 'Answering';
@@ -529,9 +542,6 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   addCopyButton(div, responseText);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
-
-  // Toggle trace visibility on click (inline trace in typing div is gone,
-  // but the <details> in the final message handles its own toggle).
 
   chatHistory.push({ role: 'assistant', content: responseText });
 
