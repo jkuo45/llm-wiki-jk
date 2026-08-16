@@ -1053,7 +1053,7 @@
     "object": "Tamoxifen",
     "context": "SIRT1 causes tamoxifen resistance in ER-alpha-positive breast cancer by upregulating multidrug resistance protein 2 (MRP2) through FoxO1 deacetylation. SIRT1 inhibition therefore augments paclitaxel and doxorubicin cytotoxicity, while SIRT4 enhances tamoxifen sensitivity via STAT3 inhibition. This makes SIRT1 status a determinant of endocrine-therapy response in breast cancer.",
     "confidence": "0.95",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1061,7 +1061,7 @@
     "object": "Cisplatin",
     "context": "SIRT1 promotes cisplatin resistance in lung cancer via VEGF-A signaling, whereas SIRT2 upregulation and SIRT3 (via the FoxO3/CDT1 axis) each increase cisplatin sensitivity. SIRT3 also promotes DNA repair and radioresistance through ATM-Chk2. The opposing SIRT1 vs SIRT2/SIRT3 actions define the chemo-resistance balance in NSCLC.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT2",
@@ -1069,7 +1069,7 @@
     "object": "AKR1C1",
     "context": "SIRT2 suppresses NSCLC migration by deacetylating AKR1C1 and inhibiting STAT3. In a counteracting oncogenic axis SIRT2 deacetylates phosphoglycerate mutase at K100 to generate NADPH and accelerate tumor growth, giving SIRT2 a context-dependent dual role in lung cancer.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1077,7 +1077,7 @@
     "object": "Lung Cancer",
     "context": "SIRT6 is anticarcinogenic in lung cancer through CHD4 coordination that enables chromatin relaxation and DNA repair, but pro-carcinogenic via snail-dependent transrepression of KLF4 that drives EMT and metastasis. SIRT6 also inhibits glycolysis to enhance radiosensitivity, so its overall effect depends on the EMT/metabolic state of the tumor.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT4",
@@ -1085,7 +1085,7 @@
     "object": "E-cadherin",
     "context": "SIRT4 upregulates E-cadherin in colorectal cancer while suppressing proliferation, migration, and invasion via glutamine-metabolism inhibition. SIRT4 also increases sensitivity to 5-fluorouracil by inhibiting the cell cycle, cementing its tumor-suppressive role in CRC.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT5",
@@ -1093,7 +1093,7 @@
     "object": "Glutaminolysis",
     "context": "SIRT5 enhances glutaminolysis in colorectal cancer in a deglutarylation-dependent manner to drive colorectal carcinogenesis, and it deacetylates lactate dehydrogenase B to induce hyperactive autophagy and tumorigenesis. SIRT5 overexpression is associated with poor prognosis in CRC, contrasting with protective SIRT6.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1101,7 +1101,7 @@
     "object": "Gastric Cancer",
     "context": "SIRT6 is downregulated in gastric cancer where low expression negatively correlates with tumor size and pathological grade and predicts poor prognosis. It inhibits the JAK2/STAT3 pathway to suppress growth, and SIRT6 silencing overcomes sorafenib resistance by promoting ferroptosis.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT3",
@@ -1109,7 +1109,7 @@
     "object": "Metastasis",
     "context": "SIRT3 overexpression suppresses ovarian cancer metastasis via Twist-downregulation-driven EMT inhibition. In contrast SIRT3 promotes viability in glioma by stabilizing the Ku70-Bax interaction, and in cervical cancer it promotes invasion and metastasis by reprogramming fatty acid synthesis through ACC1 upregulation. The metastatic effect of SIRT3 is therefore tumor-type dependent.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT5",
@@ -1117,7 +1117,7 @@
     "object": "Cisplatin",
     "context": "SIRT5 promotes cisplatin resistance in ovarian cancer via Nrf2/HO-1-mediated ROS-dependent DNA-damage suppression, while SIRT2 overexpression enhances cisplatin sensitivity in resistant ovarian cancer cells. High SIRT5 expression in ovarian cancer is nonetheless associated with favorable survival.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1125,7 +1125,7 @@
     "object": "AIM2",
     "context": "SIRT1 is overexpressed in HPV-infected cervical cancer cells and nullifies AIM2 inflammasome-mediated immunity, correlating with poor clinical outcomes. This immunosuppressive action allows cervical cancer cells to evade inflammasome-driven clearance, positioning SIRT1 as an oncogenic factor in HPV-driven cervical cancer.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1133,7 +1133,7 @@
     "object": "CDK2",
     "context": "SIRT1 promotes T-ALL progression by deacetylating CDK2, which drives p27 phosphorylation and degradation, and SIRT1 knockdown sensitizes AML to tyrosine kinase inhibitor treatment. SIRT2 activation by NAMPT reduces proliferation and induces apoptosis in AML blasts via the Akt/GSK-3beta/beta-catenin axis, showing opposing leukemic roles for the two sirtuins.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT2",
@@ -1141,7 +1141,7 @@
     "object": "NFATc2",
     "context": "SIRT2 is protective in cardiac hypertrophy by deacetylating NFATc2, and loss of SIRT2 reduces AMPK to promote aging-related and angiotensin II-induced hypertrophy. SIRT2 also protects against cardiac fibrosis by deacetylating LKB1 to activate AMPK. These cardiovascular roles contrast with SIRT2's harmful actions in neurodegenerative disease.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1149,7 +1149,7 @@
     "object": "SERCA2a",
     "context": "SIRT1 restores SERCA2a activity in failing hearts via deacetylation at K492, recovering calcium handling and contractility. SIRT1 is decreased in advanced heart failure, and its loss attenuates the anti-oxidative, anti-apoptotic defenses mediated by MnSOD, thioredoxin 1, Bcl-xL, and FoxO1 nuclear translocation.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT4",
@@ -1157,7 +1157,7 @@
     "object": "Atherosclerosis",
     "context": "SIRT4 suppresses the PI3K/Akt/NF-kB pathway to relieve oxLDL-induced HUVEC injury, protecting the endothelium in atherosclerosis. SIRT4 is downregulated after myocardial ischemia/reperfusion, and its overexpression decreases infarct size through mitochondrial preservation and reduced apoptosis.",
     "confidence": "0.80",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT5",
@@ -1165,7 +1165,7 @@
     "object": "Myocardial Ischemia-Reperfusion Injury",
     "context": "Loss of SIRT5 increases myocardial infarct size through modulation of protein succinylation, and SIRT5 knockout mice show increased cardiac fibrosis versus age-matched wild-type. SIRT5 also prevents age-related cardiac hypertrophy, giving it a broadly protective cardiovascular profile.",
     "confidence": "0.80",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1173,7 +1173,7 @@
     "object": "Coronary Artery Disease",
     "context": "Genetic SIRT1 polymorphisms are associated with coronary artery disease risk, and SIRT1 expression is reduced in CAD patients where its downregulation is linked to acetylated p53 in CAD monocytes. The lncRNA C2dat1 promotes SIRT1 to suppress miR-34a, driving VSMC proliferation and migration in the vessel wall.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1181,7 +1181,7 @@
     "object": "COPD",
     "context": "Reduced SIRT6 expression contributes to COPD through insufficient autophagy and cellular senescence during cigarette-smoke exposure, while SIRT6 overexpression weakens autophagy via the IGF-Akt-mTOR axis. SIRT3 inhibits airway epithelial mitochondrial oxidative stress to attenuate COPD progression, and SIRT1 is substantially decreased in COPD and emphysema lungs.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1189,7 +1189,7 @@
     "object": "TGFβ",
     "context": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1197,7 +1197,7 @@
     "object": "SMAD2",
     "context": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1205,7 +1205,7 @@
     "object": "Macrophage Polarization",
     "context": "SIRT6 regulates macrophage polarization to alleviate sepsis-induced acute respiratory distress syndrome through both autophagy-dependent and autophagy-independent mechanisms. In asthma SIRT6 is upregulated in bronchial epithelial cells and ameliorates airway remodeling via EMT regulation, while SIRT2 enhances allergic asthmatic inflammation through Th2 responses and macrophage polarization.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT2",
@@ -1213,7 +1213,7 @@
     "object": "Non-alcoholic Fatty Liver Disease",
     "context": "SIRT2 prevents NAFLD by deacetylating hepatocyte nuclear factor 4 alpha, but is deleterious in hepatic fibrosis through the SIRT2/ERK/c-Myc axis. SIRT4 upregulation inhibits high-fat-diet-induced lipid accumulation, inflammation, and fibrogenesis via the SIRT4/Smad4 axis, though SIRT4 is harmful in NAFLD by destabilizing mitochondrial trifunctional protein alpha.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1221,7 +1221,7 @@
     "object": "ChREBP",
     "context": "SIRT1 and SIRT6 both deacetylate the lipogenic transcription factors ChREBP and SREBP-1c to maintain hepatic lipid homeostasis and oppose fatty liver disease. SIRT1 additionally antagonizes liver fibrosis by blocking hepatic stellate cell activation, while hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice.",
     "confidence": "0.90",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT2",
@@ -1229,7 +1229,7 @@
     "object": "Liver Ischemia-Reperfusion Injury",
     "context": "SIRT2 is detrimental in liver ischemia-reperfusion injury: it deacetylates MAPK phosphatase-1 to activate MAPK and augment inflammatory responses and cell death, whereas SIRT1 and SIRT3 are protective. SIRT1 is decreased after IRI and its high levels predict superior survival in human liver transplants via suppression of mitochondrial dysfunction through MFN2.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1237,7 +1237,7 @@
     "object": "Rspo1",
     "context": "SIRT6 preserves Rspo1 expression to confer intestinal epithelium injury resistance in inflammatory bowel disease, and SIRT6 deletion promotes inflammation via NF-kB. SIRT2 similarly inhibits Wnt/beta-catenin to maintain gut homeostasis, while SIRT3, SIRT5, and SIRT7 knockout mice are susceptible to colitis.",
     "confidence": "0.80",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1245,7 +1245,7 @@
     "object": "Intestinal Ischemia-Reperfusion Injury",
     "context": "SIRT1 suppresses intestinal epithelial ROS accumulation and apoptosis after ischemia-reperfusion, and resveratrol protects through the SIRT1-NF-kB-iNOS-NO pathway. SIRT3 alleviates mitochondrial oxidative damage and apoptosis via peroxiredoxin 3 deacetylation, while SIRT6 downregulation by miR-351-5p aggravates intestinal IRI injury.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1253,7 +1253,7 @@
     "object": "Tau",
     "context": "SIRT1 reduces O-GlcNAcylation of tau via CREB in Alzheimer's disease, and SIRT3 plays a role in tau acetylation as a potential therapy target. SIRT2 affects tau phosphorylation and autophagic flux, and nuclear SIRT2 is hyperactivated in AD where FoxO1 recruits it to Fzd1/Fzd7 promoters to reduce H4K16ac.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1261,7 +1261,7 @@
     "object": "Beclin1",
     "context": "SIRT1 enhances beneficial autophagy in Alzheimer's disease by deacetylating Beclin-1, and in Parkinson's disease it ameliorates LC3-deacetylation-mediated autophagic degradation of alpha-synuclein to improve motor defects. Pro-autophagic SIRT1 action thereby helps clear pathological protein aggregates in neurodegeneration.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT5",
@@ -1269,7 +1269,7 @@
     "object": "Ischemic Stroke",
     "context": "SIRT5 mediates ischemia-reperfusion-induced brain damage by increasing blood-brain barrier permeability through occludin degradation, whereas SIRT1 and SIRT3 are neuroprotective in ischemic stroke. Serum SIRT2 is increased in acute ischemic stroke patients as a risk and prognosis marker, and SIRT2 inhibition is neuroprotective via downregulation of Akt/FoxO3a and MAPK.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1277,7 +1277,7 @@
     "object": "Amyotrophic Lateral Sclerosis",
     "context": "Enhanced SIRT6 activity abrogates the neurotoxicity of ALS-linked mutant SOD1 astrocytes, making SIRT6 a therapeutic target in ALS. SIRT1 is increased in SOD1-G93A mice and SIRT3 is increased in ALS spinal cord, with functional implications still unclear, while SIRT6 upregulation also alleviates inflammation, oxidative stress, and apoptosis after spinal cord injury.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT3",
@@ -1285,7 +1285,7 @@
     "object": "Epilepsy",
     "context": "SIRT3 protects against kainic acid excitotoxicity in epilepsy via miR-134-5p inhibition, and SIRT5 deficiency increases mortality and seizure severity, indicating a neuroprotective role. SIRT1 is a therapeutic target to rescue circadian rhythm genes and the SIRT1 agonist CAY10602 is neuroprotective against seizure-related damage.",
     "confidence": "0.80",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT2",
@@ -1293,7 +1293,7 @@
     "object": "GKRP",
     "context": "SIRT2 promotes glucose-dependent hepatic glucose uptake by deacetylating GKRP at K126, and its downregulation ameliorates reduced Akt activity while increasing insulin-stimulated glucose uptake in insulin-resistant neuro-2a cells. SIRT1 overexpression improves insulin sensitivity, but hepatic SIRT1 knockdown prevents fasting hyperglycemia by increasing hepatic insulin responsiveness, illustrating SIRT1's dual role in diabetes.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT4",
@@ -1301,7 +1301,7 @@
     "object": "Insulin Secretion",
     "context": "SIRT4 overexpression leads to dyslipidemia, lipogenesis, and decreased fatty acid oxidation while deactivating AMPK and inhibiting insulin secretion, yet is described as protective against diabetes mellitus progression. SIRT5 promotes DM progression by negatively regulating PDX1 transcription, and SIRT6 protects by inducing PGC-1alpha acetylation to suppress hepatic glucose production.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1309,7 +1309,7 @@
     "object": "Diabetic Retinopathy",
     "context": "SIRT1 overexpression prevents capillary cell apoptosis and degenerative capillary formation in diabetic retinopathy, reduces DM-induced retinal inflammation, and improves visual function. In diabetic cardiomyopathy SIRT1 activation inhibits ROS-induced oxidative stress and fibrosis, while SIRT3 regulates fibrosis, inflammation, apoptosis, and oxidative stress in the diabetic myocardium.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT5",
@@ -1317,7 +1317,7 @@
     "object": "Acute Kidney Injury",
     "context": "SIRT5 protects against acute kidney injury by regulating the balance between mitochondrial and peroxisomal fatty acid oxidation in proximal tubular epithelial cells, and SIRT6 inhibits LPS-induced apoptosis while promoting autophagy in HK-2 cells. SIRT7-deficient mice are protected against AKI, indicating SIRT7 promotes tubular damage and kidney inflammation.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT3",
@@ -1325,7 +1325,7 @@
     "object": "Kidney Fibrosis",
     "context": "SIRT3 knockout mice are susceptible to severe kidney fibrosis due to PDH E1alpha hyperacetylation at K385, and SIRT6 proximal-tubule knockout aggravates UUO fibrosis with the MDL-800 activator mitigating it. SIRT1 overexpression abolishes TGF-beta1-induced apoptosis and fibrosis through CTGF suppression, and SRT1720 attenuates UUO-induced fibrosis.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT3",
@@ -1333,7 +1333,7 @@
     "object": "Kidney Stones",
     "context": "SIRT3 is downregulated in kidney stone patients and protects via the Nrf2/heme oxygenase-1 pathway, while suppressing SIRT1 promotes calcium oxalate crystal-cell adhesion and exacerbates injury. SIRT1 also protects against aging-induced kidney injury through HIF-1alpha deacetylation of tubulointerstitial damage.",
     "confidence": "0.80",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT6",
@@ -1341,7 +1341,7 @@
     "object": "Vascular Calcification",
     "context": "SIRT6 is markedly downregulated in CKD and vascular calcification patients and suppresses osteogenic transdifferentiation of vascular smooth muscle cells via runt-related transcription factor 2. MSC exosomes inhibit high-phosphate aortic calcification through SIRT6-HMGB1 deacetylation, and soluble epoxide hydrolase destabilizes SIRT3 to accelerate VSMC calcification.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT2",
@@ -1349,7 +1349,7 @@
     "object": "Osteoarthritis",
     "context": "SIRT2 is protective in osteoarthritis by preventing p65 acetylation to inhibit ECM degradation, and SIRT6 inhibits chondrocyte senescence by negatively regulating NF-kB-mediated inflammatory responses. SIRT1 reduces chondrocyte apoptosis and ECM degradation via Wnt/beta-catenin, while SIRT3 has a dual role dependent on SOD2 acetylation status.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1357,7 +1357,7 @@
     "object": "Sclerostin",
     "context": "SIRT1 deacetylates sclerostin to activate Wnt/beta-catenin signaling and increase bone anabolism, and SIRT1 knockout mice have a low bone-mass phenotype while SIRT1 overexpression increases osteoblast osteogenesis via FoxO3a. SIRT6 inhibits age-related bone loss by stabilizing estrogen receptor alpha in preosteoblastic cells.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT1",
@@ -1365,7 +1365,7 @@
     "object": "Intervertebral Disc Degeneration",
     "context": "SIRT1 is reduced in degenerative nucleus pulposus tissues with severity, and inhibits NF-kB transcriptional activity while suppressing c-Fos/c-Jun phosphorylation. SIRT2 reverses IL-1beta action by inhibiting the p53/p21 pathway, SIRT3 maintains nucleus pulposus cell homeostasis, and SIRT6 inhibits inflammatory responses and senescence via NF-kB in IDD.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
   },
   {
     "subject": "SIRT3",
@@ -1373,6 +1373,334 @@
     "object": "Cellular Senescence",
     "context": "SIRT3 deficiency causes lamina-associated domain detachment, increased chromatin accessibility, and aberrant repetitive-sequence transcription leading to senescence of human MSCs. SIRT1 activation of La Ribonucleoprotein 7 dampens p53 and NF-kB p65 transcriptional activity to ameliorate cellular senescence, while SIRT6 preserves telomere integrity and deacetylates Pol-beta for DNA-damage resistance.",
     "confidence": "0.85",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026.md"
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "prevents",
+    "object": "Melanoma",
+    "context": "Oncogene-induced senescence (OIS) is the permanent cell-cycle arrest triggered in cells carrying BRAF/RAS/MYC mutations. The benign melanocytic nevus (mole) is the in-vivo embodiment of OIS and prevents melanoma; bypass of OIS via p53/PTEN loss or TERT activation is required for malignancy. Capped, arrested growth is therefore tumor-suppressive.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "BRAF",
+    "predicate": "induces",
+    "object": "Oncogene-Induced Senescence",
+    "context": "Oncogenic BRAF (V600E), RAS, or MYC drive a hyperproliferative burst that causes DNA replication stress and a DNA damage response, permanently arresting the cell via p53/p21 and p16/Rb. OIS is therefore induced by oncogenic signaling yet confronts it with a tumor-suppressive barrier in benign lesions.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "derepresses",
+    "object": "CDKN2A",
+    "context": "OIS derepresses the CDKN2A locus to upregulate p16INK4A, reinforcing the p16/Rb cell-cycle arrest that locks the benign lesion in a permanent frozen, tumor-suppressive state. This p16-mediated arrest is the mechanistic backbone of the protective benign nevus.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "is_cleared_by",
+    "object": "Navitoclax",
+    "context": "OIS cells in benign/premalignant lesions are vulnerable to Navitoclax-class senolytics. Eliminating them may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier — the senolytic paradox — so retaining certain benign tumors is functionally protective against cancer.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Benign Tumor",
+    "predicate": "has_dual_nature_with",
+    "object": "Hamartoma",
+    "context": "Benign tumors are dual-natured: OIS-type arrested lesions (nevi) are longevity-positive cancer barriers, whereas growth-signal-driven benign growths such as TSC1/TSC2-loss mTORC1 hamartomas are themselves disease (Tuberous Sclerosis, angiomyolipoma, epilepsy). Arrested growth is good; ongoing growth is bad.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "TSC1",
+    "predicate": "loss_activates",
+    "object": "mTORC1",
+    "context": "Loss of TSC1 or TSC2 removes the GAP that restrains Rheb, causing constitutive mTORC1 hyperactivation that drives benign hamartomas (Tuberous Sclerosis, renal angiomyolipoma, epilepsy, autism). Here benign growth is itself the disease, contrasting with the protective OIS-type benign lesion.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Hyperfunction Theory of Aging",
+    "predicate": "implicates",
+    "object": "mTOR",
+    "context": "The hyperfunction theory of aging holds that aging is the quasi-programmed continuation of developmental growth signaling; mTOR is the engine of aging and Rapamycin extends lifespan by suppressing mTOR. This frames the key distinction that arrested growth (OIS) is protective while ongoing, unopposed growth signaling is pathogenic.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Teratoma",
+    "predicate": "assays",
+    "object": "Pluripotency",
+    "context": "Teratoma formation is the gold-standard assay of pluripotency, validating induced pluripotent stem cells (iPSC) and embryonic stem cells (ESC) for rejuvenation medicine. This is an instrumental, research-level benefit of a benign tumor rather than an organismal longevity benefit.",
+    "confidence": "0.90",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "Senescence Surveillance",
+    "predicate": "clears",
+    "object": "Oncogene-Induced Senescence",
+    "context": "The immune system clears oncogene-induced senescent cells in benign lesions; surveillance failure accelerates tumorigenesis. p16/p21 double-knockout raises cancer rates, evidencing that senescence in benign/premalignant lesions is tumor-suppressive and that retaining it is beneficial.",
+    "confidence": "0.85",
+    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "Glutamate Dehydrogenase",
+    "context": "SIRT4 is the clearest anti-glutamine sirtuin: it mono-ADP-ribosylates glutamate dehydrogenase (GDH), limiting glutamate to alpha-ketoglutarate flux and restricting the anaplerotic carbon supply to the TCA cycle that glutamine-addicted cancers depend on. Loss of SIRT4 is common in HCC, gastric, CRC, bladder, and breast cancer, marking it a metabolic tumor suppressor.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "destabilizes",
+    "object": "HIF-1α",
+    "context": "SIRT3 opposes aerobic glycolysis indirectly through redox: it activates MnSOD/SOD2 and IDH2, lowering ROS, which destabilizes HIF-1alpha and cuts the master glycolytic transcription factor. SIRT3 loss therefore skews cells toward the Warburg effect and supports tumor metabolism.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "corepresses",
+    "object": "HIF-1α",
+    "context": "SIRT6 is the clearest anti-Warburg sirtuin: it corepresses HIF-1alpha and suppresses transcription of glycolytic enzymes (glucose transporters, Hexokinase 2) and deacetylates histone H3 at ERK1/2 promoters. Loss of SIRT6 permits Warburg-like aerobic glycolysis; its restoration suppresses glycolysis in HCC/glioma and enhances radiosensitivity in lung cancer.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "activates",
+    "object": "Ribosome Biogenesis",
+    "context": "SIRT7 drives ribosome biogenesis by activating RNA Pol I at rDNA and suppresses p21 via H3K18 deacetylation, fueling the biosynthetic capacity tumors need; it is overexpressed in breast, thyroid, and HCC. This proliferative, biosynthetic driver role makes SIRT7 an oncogenic sirtuin.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "Phosphoglycerate Mutase",
+    "context": "SIRT2 promotes tumor glycolysis in some settings by deacetylating phosphoglycerate mutase at Lys100, channeling carbon into NADPH production and accelerating tumor growth in lung cancer. This illustrates SIRT2's context-dependent, often harmful, metabolic face versus the protective SIRT1/3/6 axis.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "desuccinylates",
+    "object": "LDHB",
+    "context": "SIRT5 is protumorigenic in CRC, HCC, and NSCLC by reprogramming metabolism toward glycolysis and glutaminolysis; it desuccinylates lactate dehydrogenase B (LDHB) to hyperactivate autophagy, feeding cancer cells recycled nutrients. SIRT5 is a desuccinylase largely resistant to nicotinamide inhibition.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "Resveratrol is a SIRT1-activating compound (STAC) evaluated clinically with mixed results and now largely a research/nutraceutical. As a SIRT1 activator it improves insulin sensitivity and opposes several age-related diseases, though in bulk-phase physiology it protects the epigenome without inhibiting COMT.",
+    "confidence": "0.85",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "EX-527",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": "EX-527 (Selisistat) is the most advanced isoform-selective SIRT1 inhibitor, taken to Phase I/II in Huntington's disease and explored for oncology chemo-sensitization. It is one of the few sirtuin-directed agents to have reached human trials, contrasting with the purely preclinical SIRT2/3/4/5/6/7 chemistry.",
+    "confidence": "0.80",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "depend_on",
+    "object": "NAD+",
+    "context": "The sirtuin family (SIRT1-SIRT7) are NAD+-dependent acyltransferases whose output is gated by NAD+ availability. Tumor metabolic state (Complex I activity, glutaminolysis, NAMPT/CD38) directly sets sirtuin activity, which is why NAD+ depletion is emerging as a synthetic-lethal lever in MYC-high and glutamine-dependent cancers.",
+    "confidence": "0.90",
+    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "requires",
+    "object": "Reactive Oxygen Species",
+    "context": "Mitohormesis requires a transient, acute ROS pulse as the signal to trigger adaptive cytoprotective responses (catalase upregulation, chaperone expression, UPRmt, mitochondrial biogenesis). Mitochondrial ROS are active signaling molecules rather than mere damage agents; quenching the pulse blocks the entire adaptive program.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "is_blocked_by",
+    "object": "Antioxidants",
+    "context": "Chronic antioxidant supplementation can inhibit the hormetic response and thereby block the cytoprotective adaptations mitohormesis induces. This may explain disappointing antioxidant clinical trials (SELECT, HOPE, Bjelakovic meta-analysis) where large meta-analyses generally failed to show benefit and sometimes suggested increased mortality.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "N-Acetylcysteine",
+    "predicate": "blocks",
+    "object": "Mitohormesis",
+    "context": "In C. elegans, glucose restriction normally raises mitochondrial respiration and ROS, inducing catalase and extending lifespan; NAC pre-treatment completely abolished both the ROS rise and the longevity benefit. NAC is the strongest direct evidence that scavenging the ROS signal blocks mitohormesis.",
+    "confidence": "0.95",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Vitamin C",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Biogenesis",
+    "context": "Gomez-Cabrera et al. (2008, PMID 18175748) showed oral vitamin C decreases muscle mitochondrial biogenesis and hampers training-induced endurance adaptations. This is among the cleanest human studies showing antioxidant interference with a hormetic stressor (exercise), blunting the necessary acute ROS signal.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Vitamin E",
+    "predicate": "increases",
+    "object": "Prostate Cancer",
+    "context": "The SELECT trial (Lippman et al., 2009, JAMA, PMID 19066370) found vitamin E supplementation (400 IU/day) increased prostate cancer risk by 17% in healthy men, cited as a key example of antioxidant supplementation failure. The HOPE trial similarly showed no cardiovascular benefit and a trend to increased heart failure.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Antioxidants",
+    "predicate": "prevent",
+    "object": "Endogenous Antioxidant Upregulation",
+    "context": "Exogenous antioxidants prevent the upregulation of endogenous defense enzymes (SOD, GPx) that exercise normally induces via NRF2. The Ristow 2009 study showed antioxidant-supplemented subjects failed to upregulate endogenous SOD/GPx and lost the insulin-sensitizing benefit of exercise.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "triggers",
+    "object": "Mitohormesis",
+    "context": "Caloric restriction is a canonical mitohormetic stressor: a transient energy deficit activates AMPK, PGC-1alpha, SIRT1, and NRF2, driving mitochondrial biogenesis, mitophagy, and endogenous antioxidant defenses. Glucose restriction and CR are among the best-established triggers of the hormetic longevity response.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Exercise",
+    "predicate": "induces",
+    "object": "Mitohormesis",
+    "context": "Exercise generates acute ROS bursts that drive mitochondrial biogenesis, antioxidant upregulation, and metabolic adaptation via NRF2 and PGC-1alpha. Post-workout high-dose synthetic antioxidants (vitamin C/E) blunt this necessary ROS signal, so letting endogenous adaptation occur is the therapeutic goal.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "N-Acetylcysteine",
+    "predicate": "inhibits",
+    "object": "PRDX6",
+    "context": "Beyond ROS scavenging, NAC is a selective inhibitor of the peroxidase activity of PRDX6 (IC50 ~15.5 uM), a distinct antioxidant-enzyme interaction. This dual action underscores why NAC, used as a timed redox buffer in hormetic protocols, can also blunt adaptive signaling when taken chronically.",
+    "confidence": "0.85",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "is_activated_by",
+    "object": "Mitohormesis",
+    "context": "The mitohormetic trigger activates key nutrient-sensing and stress-response pathways including AMPK, PGC-1alpha, SIRT1, and NRF2. AMPK then drives mitochondrial biogenesis and autophagy, leaving a resilient metabolic engine; this is why mild, pulsed stress enhances longevity and metabolic efficiency.",
+    "confidence": "0.90",
+    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "STAT3",
+    "context": "Ivermectin promotes proteasomal degradation of PAK1, which in turn suppresses STAT3. This damps IL-6 transcription, Th17 inflammaging in aging CD4+ T cells, and the OCT4/NANOG/SOX2 stemness loop — entering the same inflammaging/SASP axis that metformin targets, but via PAK1 rather than AMPK.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "NF-kB",
+    "context": "PAK1 facilitates NF-kB nuclear activation; ivermectin's PAK1 degradation therefore dampens NF-kB signaling. Because NF-kB is the master transcriptional regulator of the SASP, this overlaps with the senomorphic strategy — targeting SASP production without killing senescent cells.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "Oct4",
+    "context": "Ivermectin inhibits expression of Nanog, Oct4, and Sox2 in cancer stem cells via the PAK1-STAT3 axis. Because Oct4 and Sox2 are core Yamanaka factors, this lowers reprogramming capacity and opposes partial reprogramming, while being therapeutically desirable against CSCs.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "Sox2",
+    "context": "Through PAK1-STAT3, ivermectin downregulates Sox2 (with Oct4 and Nanog), suppressing the transcription factors rejuvenation requires turned on. This is mechanistically opposing to Yamanaka-factor rejuvenation, though exogenous OSKM delivery may partially bypass the suppression.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "hinders",
+    "object": "Partial Reprogramming",
+    "context": "By suppressing Oct4 and Sox2 via PAK1-STAT3, ivermectin reduces reprogramming capacity and opposes partial reprogramming. Its separate mTOR inhibition/autophagy induction sits in the same longevity space as rapamycin, but the OSKM-suppressive action is counterproductive for epigenetic rejuvenation.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces_autophagy_via",
+    "object": "TFEB",
+    "context": "Ivermectin inhibits the PAK1/Akt/mTOR axis, allowing calcineurin to dephosphorylate TFEB (Ser142/211) and drive its nuclear translocation to the CLEAR network, inducing lysosomal biogenesis and autophagic flux. This is the same axis rapamycin, metformin, spermidine, and CR use for healthspan, independent of Yamanaka factors.",
+    "confidence": "0.85",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "hinders",
+    "object": "Partial Reprogramming",
+    "context": "Fenbendazole downregulates MDM2/MdmX, stabilizing p53, which arrests or apoptoses transduced (reprogramming-competent) cells — p53 is the dominant upstream roadblock to iPSC induction. This is a more direct opposition to rejuvenation than ivermectin's downstream Oct4/Sox2 suppression.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "p53",
+    "predicate": "blocks",
+    "object": "Induced Pluripotent Stem Cells",
+    "context": "p53 is the most significant biological barrier to efficient iPSC induction: damage activates p53, which initiates apoptosis or senescence in transduced cells, sharply reducing reprogramming yield. Fenbendazole's p53 stabilization therefore directly undermines epigenetic rejuvenation strategies requiring reprogramming.",
+    "confidence": "0.95",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Cancer Stem Cells",
+    "predicate": "is_suppressed_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin preferentially targets and inhibits cancer stem cells, suppressing Nanog, Oct4, and Sox2 expression through the PAK1-STAT3 axis. This kills CSCs therapeutically in breast cancer but simultaneously lowers the reprogramming factors needed for Yamanaka-factor rejuvenation.",
+    "confidence": "0.90",
+    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+  },
+  {
+    "subject": "Berberine",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "Berberine activates AMPK to manage blood glucose and prevent excessive glycation during high-calorie bulk phases, mimicking caloric restriction. As an AMPK activator it supports the nutrient-sensing axis that drives autophagy and metabolic health.",
+    "confidence": "0.85",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "subject": "Quercetin",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": "High-catechol flavonoids such as quercetin, fisetin, and luteolin can inhibit COMT, leading to catecholamine accumulation and worrier-type symptoms during a bulk phase. Slow-COMT individuals are especially advised to avoid these during high catecholamine turnover to prevent adrenochrome pathway fueling.",
+    "confidence": "0.80",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "suppresses",
+    "object": "Autophagy",
+    "context": "During a bulk (anabolism) phase, high nutrient availability activates mTORC1, promoting protein synthesis and growth but naturally suppressing autophagy. The shred scenario instead leverages nutrient scarcity to inhibit mTOR and maximize autophagic housecleaning and fat oxidation.",
+    "confidence": "0.90",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": "Intermittent fasting (16:8 or 20:4) is the primary shred-phase tool to drive autophagy, with fasted training maximizing the AMPK signal. Refined sugars and alcohol shut the autophagic process down, so timing and macronutrient strategy are essential to the cleanup benefit.",
+    "confidence": "0.90",
+    "source": "task_output_physiologist_shred_vs_bulk.md"
   }
 ]

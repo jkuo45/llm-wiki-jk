@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 28_July_2026 04:00 PM PDT
-- Total count of entities: 330
+- Last updated: 15_August_2026 12:00 PM PDT
+- Total count of entities: 353
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -259,6 +259,30 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Diffuse large B-cell lymphoma]] | 28_July_2026 03:00 PM PDT | Cancer Type | 8 | -1 | Most common aggressive non-Hodgkin lymphoma; fenbendazole self-administration case with radiographic improvement. |
 | [[R-CHOP]] | 28_July_2026 03:00 PM PDT | Chemotherapy Regimen | 8 | -1 | First-line DLBCL regimen (rituximab + cyclophosphamide/doxorubicin/vincristine/prednisone). |
 | [[EMT6]] | 28_July_2026 04:00 PM PDT | Cell Line | 7 | 0 | Mouse mammary tumor cell line; negative-result model for fenbendazole in vivo anticancer activity. |
+
+| [[ATM Kinase]] | 15_August_2026 12:00 PM PDT | Protein | 8 | 0 | The master coordinator of the DNA-damage response to double-strand breaks, activated by ionizing radiation to phosphorylate Chk2, p53, an... |
+| [[Acute Myeloid Leukemia]] | 15_August_2026 12:00 PM PDT | Medical Condition | 8 | -1 | A hematologic malignancy driven by recurrent mutations such as DNMT3A R882H, with epigenetic dysregulation cooperating with other mutatio... |
+| [[Acute Pancreatitis]] | 15_August_2026 12:00 PM PDT | Medical Condition | 7 | -1 | An inflammatory disorder of the pancreas exacerbated by gut microbiota dysbiosis, in which microbiota-derived NMN raises NAD+ levels and ... |
+| [[Cell Cycle Arrest]] | 15_August_2026 12:00 PM PDT | Biological Process | 8 | 0 | A regulated halting of cell cycle progression at the G1 or G2/M phase, induced by CDK inhibition and Rb hypophosphorylation through both ... |
+| [[Cyclin D1]] | 15_August_2026 12:00 PM PDT | Protein | 7 | 0 | A G1/S regulatory cyclin that, with CDK4, phosphorylates Rb and also opposes SIRT1-dependent regulation of cell-cycle genes; the cyclin D... |
+| [[Immature Myeloid Cell]] | 15_August_2026 12:00 PM PDT | Cell Type | 6 | 0 | Myeloid cells in an arrested differentiation state, exemplified by myeloid-derived suppressor cells (MDSCs), which expand under pathologi... |
+| [[Immune Checkpoint Inhibitors]] | 15_August_2026 12:00 PM PDT | Chemical Class | 8 | 1 | Antibodies that release the brakes on T cells by blocking PD-1/PD-L1 or CTLA-4 interactions, positioned as a therapeutic modality against... |
+| [[MCPIP1]] | 15_August_2026 12:00 PM PDT | Protein | 7 | 0 | An RNase (monocyte chemoattractant protein-induced protein 1) that alleviates inflammatory responses by promoting SIRT1 expression throug... |
+| [[MEK]] | 15_August_2026 12:00 PM PDT | Enzyme | 8 | 0 | A dual-specificity kinase (MEK1/2) immediately upstream of ERK1/2 in the RAS-RAF-MEK cascade that integrates proliferative signals and dr... |
+| [[N-Myc]] | 15_August_2026 12:00 PM PDT | Gene | 7 | 0 | A MYC family transcription factor deacetylated by SIRT1, which modulates its stability and transcriptional output in proliferation and tu... |
+| [[Oral squamous cell carcinoma]] | 15_August_2026 12:00 PM PDT | Medical Condition | 7 | -1 | A head and neck cancer in which SIRT3 is overexpressed, supporting tumor growth and therapy resistance; SIRT3 downregulation has antiprol... |
+| [[Pancreatic Beta Cells]] | 15_August_2026 12:00 PM PDT | Cell Type | 6 | 0 | Insulin-secreting cells of the pancreatic islets that humanin protects from serum starvation- and cytokine-induced apoptosis in an ERK- a... |
+| [[Pancreatic Ductal Adenocarcinoma]] | 15_August_2026 12:00 PM PDT | Medical Condition | 8 | -1 | The most common pancreatic cancer, in which NMN supplementation in oncogenic mouse models promotes progression by increasing pro-inflamma... |
+| [[Peutz-Jeghers syndrome]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | An inherited cancer-predisposition syndrome caused by germline loss-of-function mutations in STK11 (LKB1), characterized by hamartomatous... |
+| [[Regulated Cell Death]] | 15_August_2026 12:00 PM PDT | Biological Process | 8 | 0 | Genetically encoded cell death programs distinct from accidental necrosis, including apoptosis, necroptosis, pyroptosis, and ferroptosis,... |
+| [[Sotorasib]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 7 | 1 | A covalent, selective inhibitor of the KRAS G12C mutant with demonstrated clinical efficacy in previously refractory lung adenocarcinoma,... |
+| [[TGFβ Superfamily]] | 15_August_2026 12:00 PM PDT | Chemical Class | 7 | 0 | A large family of cytokines, including TGF-β1 and activin A, that signal through serine/threonine kinase receptors and SMAD transcription... |
+| [[Thrombospondin-1]] | 15_August_2026 12:00 PM PDT | Protein | 6 | 0 | A matricellular glycoprotein that binds CD36 to activate Fyn and p38 MAPK signaling, influencing cell adhesion, survival, inflammation, p... |
+| [[VEGF Family]] | 15_August_2026 12:00 PM PDT | Chemical Class | 7 | 0 | A family of cysteine-knot growth factors including VEGF-A, VEGF-C, and VEGFR ligands that drive angiogenesis and lymphangiogenesis, with ... |
+| [[VEGFR2]] | 15_August_2026 12:00 PM PDT | Receptor | 7 | 0 | The principal receptor for VEGF-A and, after proteolytic processing, VEGF-C on blood vascular endothelium, driving angiogenesis with dist... |
+| [[VEGFR3]] | 15_August_2026 12:00 PM PDT | Receptor | 6 | 0 | The receptor for VEGF-C on lymphatic endothelium, promoting lymphangiogenesis and lymphatic vessel sprouting; a canonical mediator of lym... |
+| [[Xp11 translocation RCC]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | A distinct subtype of renal cell carcinoma defined by TFE3 gene fusions, most often arising in children and young adults, with constituti... |
+| [[acute promyelocytic leukaemia]] | 15_August_2026 12:00 PM PDT | Medical Condition | 7 | -1 | A distinct subtype of acute myeloid leukemia caused by the PML-RARA fusion, in which SIRT2 activity sits upstream of leukaemia cell survi... |
 
 ## Consolidated to notes/_link/
 

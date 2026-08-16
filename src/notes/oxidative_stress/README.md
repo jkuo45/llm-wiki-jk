@@ -9,8 +9,8 @@ updated: 2026-07-06
 
 ## Maintenance
 
-- Last updated: 17_July_2026 10:35 AM PDT
-- Total count of entities: 76
+- Last updated: 15_August_2026 12:00 PM PDT
+- Total count of entities: 109
 
 This directory contains notes and research on **oxidative stress**, its generation via reactive oxygen species (ROS), mitochondrial function, and enzymes such as [[NADPH Oxidase]] and [[Myeloperoxidase]]. It covers the resulting biochemical effects (lipid peroxidation, DNA damage, protein oxidation) and its **dual role** as both a source of damage and an essential cellular signal.
 
@@ -161,3 +161,36 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[Xanthine Oxidase]]                          | 04_July_2026 08:00 PM | Enzyme              | 9           | 0           | Enzyme that generates superoxide; involved in gout and vascular damage.                 |
 | [[Lipid peroxyl radical]]                     | 17_July_2026 10:35 AM | Chemical Compound   | 10          | -1          | Chain-propagating species in lipid peroxidation; formed when L• reacts with O₂.         |
 | [[Lipid hydroperoxide]]                       | 17_July_2026 10:35 AM | Chemical Compound   | 10          | -1          | Primary stable product of lipid peroxidation; accumulates in ferroptosis.               |
+| [[Acatalasemia]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | Rare autosomal recessive catalase deficiency causing oral ulcers and periodontal destruction from accumulated H2O2. |
+| [[Aldose reductase]] | 15_August_2026 12:00 PM PDT | Enzyme | 7 | 0 | Polyol-pathway enzyme converting glucose to sorbitol; implicated in diabetic complications and a target of aminoguanidine. |
+| [[Argyria]] | 15_August_2026 12:00 PM PDT | Medical Condition | 5 | -1 | Permanent blue-gray pigmentation of skin, eyes, and mucous membranes from silver deposition after large-dose exposure. |
+| [[Cyanidin-3-glucoside]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 6 | 1 | Anthocyanin abundant in elderberries; a natural SIRT6 activator with antioxidant activity and immunomodulatory potential. |
+| [[Eosinophil Peroxidase]] | 15_August_2026 12:00 PM PDT | Enzyme | 7 | 0 | Heme peroxidase of eosinophils that generates hypobromous acid from bromide and H2O2 during eosinophilic inflammation. |
+| [[Febuxostat]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 6 | 1 | Non-purine selective xanthine oxidase inhibitor blocking both oxidized and reduced enzyme forms to lower urate. |
+| [[Formamide]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 4 | 0 | Simple one-carbon amide whose scaffold underlies aminoguanidine's chemical classification. |
+| [[Fructosamine]] | 15_August_2026 12:00 PM PDT | Biological Molecule | 6 | -1 | Amadori product of glucose-protein glycation, the early reversible intermediate whose repair is initiated by FN3K. |
+| [[Fructose]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 6 | -1 | Reducing sugar produced by the polyol pathway that feeds glycation reactions more readily than glucose. |
+| [[Glutathione S-transferase π1]] | 15_August_2026 12:00 PM PDT | Enzyme | 7 | 0 | Phase II detoxification enzyme (GSTP1) whose SIRT3-mediated downregulation enhances sorafenib sensitivity in HCC. |
+| [[Glycotoxins]] | 15_August_2026 12:00 PM PDT | Chemical Class | 6 | -1 | Exogenous glycation compounds, notably from cigarette smoke, that enter the bloodstream and raise in vivo AGE levels. |
+| [[Gold]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 4 | 0 | Precious metal occurring with silver in native alloys; chemically related to silver in redox and deposition behavior. |
+| [[Guanidine]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 4 | 0 | Strongly basic nitrogenous compound whose guanidinium group anchors aminoguanidine's enzyme-inhibitory pharmacology. |
+| [[Guanidines]] | 15_August_2026 12:00 PM PDT | Chemical Class | 4 | 0 | Chemical family built on the basic guanidinium group, frequently appearing in drugs that interact with amine-handling enzymes. |
+| [[Guanylhydrazone]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 5 | 0 | Stable linkage formed by reacting carbonyls with aminoguanidine, central to dual-action glyco-oxidative modulators. |
+| [[Hydrazines]] | 15_August_2026 12:00 PM PDT | Chemical Class | 4 | 0 | Nitrogen-nitrogen bond compounds used to stabilize adrenochrome and prepare hemostatic medicines. |
+| [[Hypobromous Acid]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 7 | -1 | Brominating oxidant produced by eosinophil peroxidase from bromide and H2O2 in eosinophilic inflammation. |
+| [[Indoles]] | 15_August_2026 12:00 PM PDT | Chemical Class | 4 | 0 | Heterocyclic chemical class whose indoline-5,6-dione scaffold underlies adrenochrome and related catecholamine pigments. |
+| [[Keshan disease]] | 15_August_2026 12:00 PM PDT | Medical Condition | 7 | -1 | Endemic cardiomyopathy caused by selenium deficiency and coxsackievirus interaction via impaired cardiac glutathione peroxidase. |
+| [[Melanoidins]] | 15_August_2026 12:00 PM PDT | Chemical Class | 6 | 0 | Final Maillard reaction products in foods that show prebiotic effects on gut bacteria, contrasting with pro-inflammatory AGEs. |
+| [[Methionine sulfoxide reductases]] | 15_August_2026 12:00 PM PDT | Enzyme | 7 | 1 | Enzymes that reduce oxidized methionine back to methionine using the thioredoxin system, acting as reversible oxidant sinks. |
+| [[Polyol Pathway]] | 15_August_2026 12:00 PM PDT | Metabolic Pathway | 7 | -1 | Glucose-to-sorbitol-to-fructose route that feeds glycation and contributes to diabetic complications under hyperglycemia. |
+| [[Prodrug]] | 15_August_2026 12:00 PM PDT | Scientific Concept | 4 | 0 | Inactive precursor converted to the active drug in vivo; proposed mechanism for controlled aminoguanidine release from AMM. |
+| [[Protein Citrullination]] | 15_August_2026 12:00 PM PDT | Biological Process | 6 | 0 | Post-translational conversion of arginine to citrulline by PAD enzymes, promoted by oxidative stress and linked to autoimmunity. |
+| [[Silver]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 5 | 0 | Metallic element (Ag, atomic number 47) occurring free, in gold alloys, and as minerals; source of antimicrobial compounds. |
+| [[Silver compounds]] | 15_August_2026 12:00 PM PDT | Chemical Class | 5 | 0 | Silver derivatives prepared from silver(I) oxide, including soluble salts, coordination complexes, and nanoparticles. |
+| [[Silver ion]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 5 | -1 | Bioactive Ag+ species that inhibits glutathione peroxidase and Na+,K+-ATPase, linking silver to oxidative stress. |
+| [[Silver nanoparticles]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 5 | -1 | Nanoscale silver particles that disrupt mitochondrial respiration, causing oxidative stress, reduced ATP, and DNA damage. |
+| [[Silver salts]] | 15_August_2026 12:00 PM PDT | Chemical Class | 5 | 0 | Silver compounds that are transformed in the body into soluble silver sulfide albuminates for systemic distribution. |
+| [[Silver sulfide albuminates]] | 15_August_2026 12:00 PM PDT | Chemical Compound | 5 | -1 | Soluble protein-bound silver species that transport silver systemically and drive tissue deposition. |
+| [[UDP-glucuronosyltransferases]] | 15_August_2026 12:00 PM PDT | Enzyme | 6 | 0 | Phase II conjugation enzymes that glucuronidate polyphenols like fisetin, limiting their oral bioavailability. |
+| [[UV Light]] | 15_August_2026 12:00 PM PDT | Scientific Concept | 5 | 0 | Ultraviolet radiation that generates ROS driving catecholamine oxidation, degrading epinephrine into adrenochrome. |
+| [[flavanone]] | 15_August_2026 12:00 PM PDT | Chemical Class | 6 | 1 | Flavonoid subclass with saturated C-ring lacking catechol motifs; includes hesperidin and naringenin. |

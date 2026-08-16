@@ -12,6 +12,7 @@ import re
 MAX_INPUT_LENGTH = 500
 MAX_NODE_NAME_LENGTH = 200
 MAX_TRACE_NODES = 8
+MAX_ANALYSIS_LENGTH = 400
 
 _HTML_TAG_RE = re.compile(r"<[^>]+>")
 _CONTROL_CHAR_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
@@ -49,6 +50,35 @@ def sanitize_node_name(name: str) -> str:
     return name[:MAX_NODE_NAME_LENGTH]
 
 
+def sanitize_analysis(text: str) -> str:
+    """Sanitize the free-text description of a custom node analysis."""
+    if not text or not isinstance(text, str):
+        return ""
+    text = _HTML_TAG_RE.sub("", text)
+    text = _CONTROL_CHAR_RE.sub("", text)
+    text = _WHITESPACE_RE.sub(" ", text).strip()
+    text = text[:MAX_ANALYSIS_LENGTH]
+    if _XSS_RE.search(text):
+        return ""
+    return text
+
+
+def sanitize_tags(tags) -> list[str]:
+    """Sanitize client-supplied @-tagged node names (deduped, bounded)."""
+    if not isinstance(tags, list):
+        return []
+    out: list[str] = []
+    for t in tags:
+        if not isinstance(t, str):
+            continue
+        name = sanitize_node_name(t)
+        if name and name not in out:
+            out.append(name)
+        if len(out) >= MAX_TRACE_NODES:
+            break
+    return out
+
+
 def validate_intent(intent: dict) -> dict:
     """Validate and sanitize a parsed model intent."""
     if not isinstance(intent, dict):
@@ -75,19 +105,10 @@ def validate_intent(intent: dict) -> dict:
             return {"intent": "unknown"}
         return {"intent": "path", "from": from_node, "to": to_node}
 
-    if raw_intent == "trace":
+    if raw_intent == "analyze":
         raw_nodes = intent.get("nodes")
         if not isinstance(raw_nodes, list):
-            # Tolerate a from/via/to shape from the classifier.
-            raw_nodes = [
-                intent.get("from"),
-                *(
-                    intent.get("via")
-                    if isinstance(intent.get("via"), list)
-                    else [intent.get("via")]
-                ),
-                intent.get("to"),
-            ]
+            raw_nodes = [intent.get("node")]
         nodes = []
         for raw in raw_nodes[:MAX_TRACE_NODES]:
             if not isinstance(raw, str):
@@ -95,8 +116,9 @@ def validate_intent(intent: dict) -> dict:
             node = sanitize_node_name(raw)
             if node:
                 nodes.append(node)
-        if len(nodes) < 2:
+        if not nodes:
             return {"intent": "unknown"}
-        return {"intent": "trace", "nodes": nodes}
+        analysis = sanitize_analysis(intent.get("analysis", ""))
+        return {"intent": "analyze", "nodes": nodes, "analysis": analysis}
 
     return {"intent": "unknown"}

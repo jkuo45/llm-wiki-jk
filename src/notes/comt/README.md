@@ -11,8 +11,8 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 
 ## Maintenance
 
-- Last updated: 29_July_2026 12:00 PM PDT
-- Total count of entities: 62
+- Last updated: 15_August_2026 12:00 PM PDT
+- Total count of entities: 72
 
 | entity | datetime updated |
 | :--- | :---: |
@@ -78,3 +78,13 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[Bcl-xL]] | 29_July_2026 12:00 PM PDT |
 | [[Entacapone]] | 29_July_2026 12:00 PM PDT |
 | [[Tolcapone]] | 29_July_2026 12:00 PM PDT |
+| [[Adiposity]] | 15_August_2026 12:00 PM PDT |
+| [[Aerobic Capacity]] | 15_August_2026 12:00 PM PDT |
+| [[Alcohol-Induced Depression]] | 15_August_2026 12:00 PM PDT |
+| [[Creatine Kinase]] | 15_August_2026 12:00 PM PDT |
+| [[D1 receptor]] | 15_August_2026 12:00 PM PDT |
+| [[Muscle Mass]] | 15_August_2026 12:00 PM PDT |
+| [[Opicapone]] | 15_August_2026 12:00 PM PDT |
+| [[Phosphocreatine (PCr)]] | 15_August_2026 12:00 PM PDT |
+| [[narcolepsy]] | 15_August_2026 12:00 PM PDT |
+| [[nootropic]] | 15_August_2026 12:00 PM PDT |

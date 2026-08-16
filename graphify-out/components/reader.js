@@ -9,15 +9,25 @@ import { updateHash } from './routing.js';
 export const ARTICLES = [
   {
     id: 'sirtuin-pleiotropy',
-    title: 'Sirtuin Pleiotropic Roles / 去乙醯酶多效性',
-    path: 'pages/sirtuin_pleiotropic_roles.html',
+    title: 'Sirtuins - Pleiotropy in Tumor Cell Metabolism',
+    path: 'pages/sirtuins_pleiotropic_roles.html',
     default: true,
   },
   {
     id: 'sirtuin-pleiotropy-zh',
-    title: '去乙醯酶多效性（繁體中文)',
-    path: 'pages/sirtuin_pleiotropic_roles_zh_TW.html',
+    title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
+    path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
   },
+  {
+    id: 'sirtuin-disease-complications',
+    title: 'Sirtuins - Disease Complications',
+    path: 'pages/sirtuins_disease_complications.html',
+  },
+  {
+    id: 'sirtuin-disease-complications-zh',
+    title: 'Sirtuins - 疾病併發症（繁體中文）',
+    path: 'pages/sirtuins_disease_complications_zh-TW.html',
+  }
 ];
 
 export const getArticle = (id) => ARTICLES.find((a) => a.id === id) || null;

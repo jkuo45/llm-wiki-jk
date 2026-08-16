@@ -11,8 +11,8 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 
 ## Maintenance
 
-- Last updated: 27_July_2026 12:00 PM PDT
-- Total count of entities: 116
+- Last updated: 15_August_2026 12:00 PM PDT
+- Total count of entities: 134
 
 | entity                                       |   datetime updated   | entity_type_1           |
 | :------------------------------------------- | :------------------: | ----------------------- |
@@ -132,6 +132,25 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Vagus Nerve]]                              | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[Ventral Tegmental Area]]       | 25_May_2026 05:23 PM | Anatomy                 |
 | [[Vesicular Monoamine Transporter 2]]        | 25_May_2026 05:23 PM | Protein                 |
+
+| [[Arterial Thrombosis]] | 15_August_2026 12:00 PM PDT | Medical Condition |
+| [[Axonal Degeneration]] | 15_August_2026 12:00 PM PDT | Biological Process |
+| [[Cardiac Function]] | 15_August_2026 12:00 PM PDT | Scientific Concept |
+| [[Diazepam]] | 15_August_2026 12:00 PM PDT | Chemical Compound |
+| [[Dyslipidemia]] | 15_August_2026 12:00 PM PDT | Medical Condition |
+| [[Erβ]] | 15_August_2026 12:00 PM PDT | Receptor |
+| [[Glomerular Filtration Rate]] | 15_August_2026 12:00 PM PDT | Scientific Concept |
+| [[Glutamic Acid Decarboxylase]] | 15_August_2026 12:00 PM PDT | Enzyme |
+| [[Ifosfamide-induced Encephalopathy]] | 15_August_2026 12:00 PM PDT | Medical Condition |
+| [[Noise-Induced Hearing Loss]] | 15_August_2026 12:00 PM PDT | Medical Condition |
+| [[Non-REM Sleep]] | 15_August_2026 12:00 PM PDT | Biological Process |
+| [[Proteinuria]] | 15_August_2026 12:00 PM PDT | Medical Condition |
+| [[Proton Leak]] | 15_August_2026 12:00 PM PDT | Biological Process |
+| [[Retinal Photoreceptors]] | 15_August_2026 12:00 PM PDT | Cell Type |
+| [[Systolic Blood Pressure]] | 15_August_2026 12:00 PM PDT | Scientific Concept |
+| [[Tangier disease]] | 15_August_2026 12:00 PM PDT | Medical Condition |
+| [[Thyroid Hormones]] | 15_August_2026 12:00 PM PDT | Biological Molecule |
+| [[Ventricular arrhythmias]] | 15_August_2026 12:00 PM PDT | Medical Condition |
 
 ## Consolidated to notes/_link/
 

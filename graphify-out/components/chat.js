@@ -9,8 +9,8 @@ import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow } from './ui.js';
-import { deselectNode } from './interaction.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from './ui.js';
+import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 
 // ------------------------------------------------------------
@@ -28,6 +28,8 @@ const chatHighlightBadge = document.getElementById('chat-highlight-badge');
 const chatModes = document.getElementById('chat-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const graphifyOps = document.getElementById('graphify-ops');
+const chatTagPopup = document.getElementById('chat-tag-popup');
+const chatTags = document.getElementById('chat-tags');
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
 const INTENT_API = `${API_BASE}/intent`;
@@ -52,12 +54,12 @@ let chatSessionId = null;
 // Graphify routing switch
 // ------------------------------------------------------------
 // Checked (default): every turn is routed through a graphify graph operation
-// (explain / trace / path / query). Unchecked: the turn is answered from the
+// (explain / path / query / analyze). Unchecked: the turn is answered from the
 // wiki by the chat model, even if the text happens to say "graphify".
 // The switch resets to on with the rest of the session state on reload.
 const OP_TEMPLATES = {
+  query: { text: 'Query ', caret: null },
   explain: { text: 'Explain ', caret: null },
-  trace: { text: 'Trace from  via  to ', caret: 11 },
   path: { text: 'Path from  to ', caret: 10 },
 };
 
@@ -69,8 +71,8 @@ function syncGraphifyUI() {
   const on = graphifyEnabled();
   chatModes.classList.toggle('graphify-off', !on);
   chatInput.placeholder = on
-    ? 'Ask the graph — explain, trace, path'
-    : 'Ask the wiki';
+    ? 'Ask the graph — type @ to tag nodes / query, explain, path...'
+    : 'Ask the wiki — type @ to tag nodes';
 }
 
 graphifyCheckbox.addEventListener('change', () => {
@@ -99,7 +101,33 @@ chatBtn.addEventListener('click', () => {
   chatBtn.innerHTML = chatOpen ? '&#10005;' : '&#128172;';
   if (!chatOpen) setActiveWindow(null);
   if (chatOpen) chatInput.focus();
+  positionChatBadge();
 });
+
+// Keep the "Highlighting active" badge out from under the large panel: while
+// the panel is open it sits on the graph side of it; otherwise above the
+// chat button. On small screens the panel spans the width, so the badge falls
+// back to its CSS position above the chat button.
+function positionChatBadge() {
+  if (window.innerWidth <= 480) {
+    chatHighlightBadge.style.top = 'auto';
+    chatHighlightBadge.style.bottom = '';
+    chatHighlightBadge.style.right = '';
+    return;
+  }
+  const open = chatPanel.classList.contains('open');
+  if (open) {
+    const panelW = Math.min(0.56 * window.innerWidth, 820);
+    chatHighlightBadge.style.bottom = 'auto';
+    chatHighlightBadge.style.top = '16px';
+    chatHighlightBadge.style.right = (panelW + 28) + 'px';
+  } else {
+    chatHighlightBadge.style.top = 'auto';
+    chatHighlightBadge.style.bottom = '92px';
+    chatHighlightBadge.style.right = '88px';
+  }
+}
+window.addEventListener('resize', positionChatBadge);
 
 const MAXIMIZE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>';
 const RESTORE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5V1H5"/><path d="M13 9V13H9"/><path d="M5 13H1V9"/><path d="M9 1H13V5"/></svg>';
@@ -325,9 +353,13 @@ async function sendChatMessage() {
   const clean = sanitizeChatInput(raw);
   if (!clean || chatBusy) return;
 
+  // Explicitly tagged nodes travel with the request as server-side context.
+  const tags = Array.from(chatTagSet.values()).map(n => n.label);
+
   chatBusy = true;
   chatSend.disabled = true;
   chatInput.value = '';
+  clearChatTags();
 
   // Hide suggestions after first message
   const suggestions = document.getElementById('chat-suggestions');
@@ -354,6 +386,7 @@ async function sendChatMessage() {
         message: clean,
         session_id: chatSessionId,
         graphify: graphifyEnabled(),
+        tags,
       }),
     });
 
@@ -372,18 +405,18 @@ async function sendChatMessage() {
     // Update indicator only when a translation pass will actually run. Chat
     // turns answer in the user's language natively, so no translation step.
     const willTranslate = intentData.lang && intentData.lang !== 'en'
-      && ['query', 'explain', 'path', 'trace'].includes(intentData.intent);
+      && ['query', 'explain', 'path', 'analyze'].includes(intentData.intent);
     if (willTranslate) {
       typingDiv.querySelector('#typing-label').textContent = 'Translating';
     }
 
     if (intentData.intent === 'chat' && intentData.message) {
       // Streaming path for chat intent — streams thinking + answer
-      await streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean);
+      await streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags);
       typingTimerId = null; // consumed by streamChatResponse
     } else {
       // Single-event path for graph ops / greeting (still uses streaming endpoint)
-      await streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean);
+      await streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean, tags);
       typingTimerId = null;
     }
   } catch (e) {
@@ -398,7 +431,7 @@ async function sendChatMessage() {
   }
 }
 
-async function streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean) {
+async function streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags) {
   const labelEl = typingDiv.querySelector('#typing-label');
   labelEl.textContent = 'Thinking';
 
@@ -422,6 +455,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
         intent: intentData.intent,
         message: intentData.message,
         session_id: chatSessionId,
+        tags,
       }),
     });
 
@@ -531,11 +565,12 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   }
 }
 
-async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean) {
+async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean, tags) {
   let textBuf = '';
   let highlightNodes = [];
   let highlightEdges = [];
   let primaryNode = null;
+  let analysisData = null;
 
   try {
     const resp = await fetch(EXECUTE_STREAM_API, {
@@ -549,8 +584,10 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
         from_node: intentData.from_node,
         to_node: intentData.to_node,
         nodes: intentData.nodes,
-        message: intentData.message,
+        analysis: intentData.analysis,
+        message: intentData.message || clean,
         session_id: chatSessionId,
+        tags,
       }),
     });
 
@@ -575,6 +612,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
           highlightNodes = evt.highlight_nodes || [];
           highlightEdges = evt.highlight_edges || [];
           primaryNode = evt.primary_node || null;
+          analysisData = evt.analysis_data || null;
         }
       }
     }
@@ -589,8 +627,8 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
   if (typingTimerId) clearInterval(typingTimerId);
 
-  // Badge names the graph op that produced the answer (explain / trace / path / query).
-  const op = ['query', 'explain', 'path', 'trace'].includes(intentData.intent)
+  // Badge names the graph op that produced the answer (explain / path / analyze / query).
+  const op = ['query', 'explain', 'path', 'analyze'].includes(intentData.intent)
     ? intentData.intent : null;
   const div = document.createElement('div');
   div.className = 'chat-msg bot';
@@ -611,20 +649,251 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
       highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
     }
   }
+
+  // Custom node analysis: offer JSON + PNG downloads of the computed result.
+  if (intentData.intent === 'analyze' && analysisData) {
+    addAnalysisActions(div, analysisData);
+  }
+}
+
+// Build the download row for a custom node analysis message.
+function addAnalysisActions(div, data, fallbackLabel) {
+  const primaryLabel =
+    (data && data.nodes && data.nodes[0] && data.nodes[0].label) || fallbackLabel || 'analysis';
+  const safe = String(primaryLabel).replace(/[^\w\u4e00-\u9fff\-]+/g, '_').slice(0, 60);
+
+  const row = document.createElement('div');
+  row.className = 'chat-analysis-actions';
+
+  const jsonBtn = document.createElement('button');
+  jsonBtn.className = 'chat-analysis-btn';
+  jsonBtn.type = 'button';
+  jsonBtn.textContent = '⬇ JSON';
+  jsonBtn.title = 'Download analysis as JSON / 下載 JSON';
+  jsonBtn.addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.download = `analysis-${safe}.json`;
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  const pngBtn = document.createElement('button');
+  pngBtn.className = 'chat-analysis-btn';
+  pngBtn.type = 'button';
+  pngBtn.textContent = '⬇ PNG';
+  pngBtn.title = 'Download highlighted subgraph as PNG / 下載 PNG';
+  pngBtn.addEventListener('click', () => {
+    exportGraphPNG(`analysis-${safe}.png`);
+  });
+
+  row.appendChild(jsonBtn);
+  row.appendChild(pngBtn);
+  div.appendChild(row);
 }
 
 chatSend.addEventListener('click', sendChatMessage);
 chatInput.addEventListener('keydown', (e) => {
+  // @-tag popup keyboard navigation takes priority over send
+  if (chatTagPopup.classList.contains('visible') && tagMatches.length) {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      tagActiveIdx = (tagActiveIdx + 1) % tagMatches.length;
+      renderTagPopup();
+      return;
+    }
+    if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      tagActiveIdx = (tagActiveIdx - 1 + tagMatches.length) % tagMatches.length;
+      renderTagPopup();
+      return;
+    }
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      selectTagNode(tagMatches[tagActiveIdx]);
+      return;
+    }
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      selectTagNode(tagMatches[tagActiveIdx]);
+      return;
+    }
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closeTagPopup();
+      return;
+    }
+  }
   if (e.key === 'Enter' && !e.shiftKey) {
     e.preventDefault();
     sendChatMessage();
   }
 });
 
-// Auto-resize textarea
+// Auto-resize textarea + @-tag popup on input
 chatInput.addEventListener('input', () => {
   chatInput.style.height = 'auto';
   chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+  updateTagPopup();
+});
+
+// ------------------------------------------------------------
+// @-tag node autocomplete
+// ------------------------------------------------------------
+let chatTagSet = new Map(); // nodeId -> node data for currently tagged nodes
+let tagMatches = [];
+let tagActiveIdx = -1;
+
+// Find the "@token" being typed before the caret. Only "@" preceded by
+// whitespace/start-of-input counts (so emails/words like "name@host" don't
+// trigger the picker).
+function getTagToken() {
+  const val = chatInput.value;
+  const caret = chatInput.selectionStart;
+  const before = val.slice(0, caret);
+  const atIdx = before.lastIndexOf('@');
+  if (atIdx === -1) return null;
+  if (atIdx > 0 && !/\s/.test(before[atIdx - 1])) return null;
+  return { atIdx, query: before.slice(atIdx + 1) };
+}
+
+function tagMatchesFor(query) {
+  const q = String(query || '').toLowerCase();
+  if (!q) return [];
+  const matches = [];
+  RAW_NODES.forEach(n => {
+    const label = String(n.label || '').toLowerCase();
+    const zh = String(TRANSLATIONS[n.label] || '').toLowerCase();
+    if (label.includes(q) || zh.includes(q)) matches.push(n);
+  });
+  matches.sort((a, b) => {
+    const ap = String(a.label).toLowerCase().startsWith(q) ? 0 : 1;
+    const bp = String(b.label).toLowerCase().startsWith(q) ? 0 : 1;
+    if (ap !== bp) return ap - bp;
+    return (b.degree || 0) - (a.degree || 0);
+  });
+  return matches.slice(0, 20);
+}
+
+function renderTagPopup() {
+  chatTagPopup.innerHTML = tagMatches.map((n, i) => {
+    const zh = TRANSLATIONS[n.label] || '';
+    const zhText = zh && zh !== n.label ? ` <span style="color:#888;font-size:11px">${esc(zh)}</span>` : '';
+    return `<div class="chat-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}">
+      <span class="tag-kind">@</span>
+      <span>${esc(n.label)}${zhText}</span>
+      <span class="tag-degree">${n.degree}</span>
+    </div>`;
+  }).join('');
+  chatTagPopup.classList.add('visible');
+}
+
+function updateTagPopup() {
+  const token = getTagToken();
+  if (!token || !token.query) { closeTagPopup(); return; }
+  const matches = tagMatchesFor(token.query);
+  if (!matches.length) { closeTagPopup(); return; }
+  tagMatches = matches;
+  tagActiveIdx = 0;
+  renderTagPopup();
+}
+
+function closeTagPopup() {
+  tagMatches = [];
+  tagActiveIdx = -1;
+  chatTagPopup.classList.remove('visible');
+  chatTagPopup.innerHTML = '';
+}
+
+function renderTagChips() {
+  chatTags.innerHTML = '';
+  chatTagSet.forEach(node => {
+    const chip = document.createElement('span');
+    chip.className = 'chat-tag-chip';
+    chip.dataset.id = node.id;
+    const labelSpan = document.createElement('span');
+    labelSpan.className = 'tag-label';
+    labelSpan.textContent = '@' + node.label;
+    const rm = document.createElement('button');
+    rm.type = 'button';
+    rm.className = 'tag-remove';
+    rm.title = 'Remove tag / 移除標記';
+    rm.textContent = '×';
+    chip.appendChild(labelSpan);
+    chip.appendChild(rm);
+    chatTags.appendChild(chip);
+  });
+}
+
+function highlightTaggedNodes() {
+  const ids = Array.from(chatTagSet.keys());
+  if (!ids.length) { clearChatHighlights(); return; }
+  const edges = edgesBetween(ids);
+  highlightChatNodes(ids, edges, ids[0]);
+}
+
+function selectTagNode(node) {
+  const token = getTagToken();
+  if (!token) return;
+  const val = chatInput.value;
+  const before = val.slice(0, token.atIdx);
+  const after = val.slice(chatInput.selectionStart);
+  const insertion = '@' + node.label;
+  chatInput.value = before + insertion + ' ' + after;
+  const caret = (before + insertion + ' ').length;
+  chatInput.setSelectionRange(caret, caret);
+  chatInput.style.height = 'auto';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+  chatTagSet.set(node.id, node);
+  renderTagChips();
+  highlightTaggedNodes();
+  closeTagPopup();
+  chatInput.focus();
+}
+
+function removeTagChip(id) {
+  const node = chatTagSet.get(id);
+  chatTagSet.delete(id);
+  if (node) {
+    const escLabel = escapeRegex(node.label);
+    const re = new RegExp('@' + escLabel + '(?=\\s|$|@)', 'i');
+    chatInput.value = chatInput.value.replace(re, '').replace(/\s{2,}/g, ' ').trim();
+    chatInput.style.height = 'auto';
+    chatInput.style.height = Math.min(chatInput.scrollHeight, 80) + 'px';
+  }
+  renderTagChips();
+  highlightTaggedNodes();
+  chatInput.focus();
+}
+
+function clearChatTags() {
+  chatTagSet = new Map();
+  chatTags.innerHTML = '';
+}
+
+chatTagPopup.addEventListener('pointerdown', (e) => {
+  e.preventDefault();
+  const item = e.target.closest('.chat-tag-item');
+  if (!item) return;
+  selectTagNode(tagMatches[Number(item.dataset.idx)]);
+});
+
+chatTagPopup.addEventListener('mousemove', (e) => {
+  const item = e.target.closest('.chat-tag-item');
+  if (!item) return;
+  const idx = Number(item.dataset.idx);
+  if (idx !== tagActiveIdx) {
+    tagActiveIdx = idx;
+    renderTagPopup();
+  }
+});
+
+chatTags.addEventListener('click', (e) => {
+  const rm = e.target.closest('.tag-remove');
+  if (rm) { removeTagChip(rm.closest('.chat-tag-chip').dataset.id); return; }
+  const chip = e.target.closest('.chat-tag-chip');
+  if (chip && nodeMap.has(chip.dataset.id)) selectNode(chip.dataset.id);
 });
 
 // ------------------------------------------------------------
@@ -699,6 +968,7 @@ chatNewBtn.addEventListener('click', () => {
   chatHistory = [];
   chatMessages.innerHTML = '';
   clearChatHighlights();
+  clearChatTags();
   appendSuggestions(chatMessages);
   chatInput.value = '';
   chatInput.focus();
@@ -824,19 +1094,21 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 
   if (targetPos) {
     // Camera flies in along the node's direction and looks slightly away from
-    // it, so the node sits in the upper-left quadrant of the view.
-    const hasSidebar = window.innerWidth >= 768;
+    // it, so the node sits in the upper-left quadrant of the view. The chat
+    // panel (large by default) occupies the right side, so keep the target
+    // well inside the visible graph area.
+    const hasSidebar = window.innerWidth >= 1200;
+    const chatOpen = chatPanel.classList.contains('open');
     const dist = 320;
     const direction = targetPos.clone().sub(camera.position);
     if (direction.lengthSq() > 0.0001) direction.normalize();
     const offsetDir = new THREE.Vector3(-1, 1, -1).normalize(); // up-left-forward
     const camPos = targetPos.clone().addScaledVector(direction, dist * 0.4)
       .addScaledVector(offsetDir, dist);
-    const lookTarget = targetPos.clone().addScaledVector(
-      hasSidebar ? new THREE.Vector3(0.35, -0.3, 0).normalize()
-                 : new THREE.Vector3(0, 0, 0),
-      dist * 0.4
-    );
+    const lookShift = hasSidebar
+      ? (chatOpen ? new THREE.Vector3(0.55, -0.3, 0) : new THREE.Vector3(0.35, -0.3, 0)).normalize()
+      : new THREE.Vector3(0, 0, 0);
+    const lookTarget = targetPos.clone().addScaledVector(lookShift, dist * 0.4);
     animateCamera(camPos, lookTarget);
   }
 }

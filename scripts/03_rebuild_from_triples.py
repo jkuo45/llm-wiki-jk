@@ -13,7 +13,7 @@ What it does, in order:
   6. Regenerates graph.html via `graphify export html`.
   7. Exports nodes.json, edges.json, legend.json for three-graph.html.
 
-Run:  python3 scripts/03_rebuild_from_topics.py
+Run:  python3 scripts/03_rebuild_from_triples.py
 """
 
 from __future__ import annotations

@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-08-13
+updated: 2026-08-15
 ---
 # Sirtuins
 
@@ -238,3 +238,52 @@ updated: 2026-08-13
 |--------|--------------|-------------|
 | [[Multiple Myeloma]] | Medical Condition | Plasma cell malignancy; high CD38 expression; primary indication for anti-CD38 mAbs |
 | [[Tumor Microenvironment]] | Biological Process | Complex cellular milieu surrounding tumors; CD38⁺ immunosuppressive cells targeted by anti-CD38 therapies |
+
+
+### 2026-08-15 Graph-Audit Additions
+
+### Enzymes & Metabolism
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[Adenosine Kinase]] | Enzyme | An enzyme that acts as an NRH kinase, providing an NMRK-independent biosynthetic route for NAD+ from the reduced nucleoside NRH via the NMNH intermediate. |
+| [[CobB]] | Enzyme | The first bacterial sirtuin, discovered in Salmonella enterica, linking cobalamin biosynthesis and propionic catabolism to prokaryotic NAD+-dependent deacetylation. |
+| [[Deacetylases]] | Enzyme | Enzymes that remove acetyl groups from lysine residues; sirtuins are the NAD+-dependent subclass linking deacetylation to cellular energy state. |
+| [[Dioxygenase]] | Enzyme | Heme-dependent enzymes, including IDO1, that incorporate molecular oxygen into substrates; IDO1 is the tryptophan-degrading dioxygenase of the kynurenine pathway. |
+| [[DLD (dihydrolipoamide dehydrogenase)]] | Enzyme | Mitochondrial enzyme of the α-ketoacid dehydrogenase complexes that is deacetylated and activated by SIRT3 to support mitochondrial metabolism. |
+| [[GDH (Glutamate Dehydrogenase)]] | Enzyme | Mitochondrial enzyme inhibited by SIRT4 mono-ADP-ribosylation, controlling glutamate oxidative deamination, anaplerosis, and insulin secretion. |
+| [[Glutamate dehydrogenase]] | Enzyme | Mitochondrial enzyme whose oxidative deamination of glutamate to α-ketoglutarate is suppressed by SIRT4, limiting anaplerosis and insulin secretion. |
+| [[Malonyl-CoA decarboxylase]] | Enzyme | Enzyme inhibited by SIRT4 in hepatocytes that shifts liver metabolism away from mitochondrial fatty-acid oxidation toward anabolic lipid conservation. |
+| [[PEPCK]] | Enzyme | Phosphoenolpyruvate carboxykinase, a key gluconeogenic enzyme activated by SIRT2 deacetylation, linking sirtuins to glucose metabolism and redox balance. |
+| [[Phosphoglycerate Mutase]] | Enzyme | Glycolytic enzyme deacetylated by SIRT2 at Lys100 to promote tumor glycolysis and NADPH production, illustrating SIRT2's context-dependent metabolic face. |
+| [[Purine Nucleoside Phosphorylase]] | Enzyme | Enzyme that converts nicotinamide riboside to nicotinamide, a variable step possibly explaining the low and interindividually variable oral bioavailability of NR. |
+| [[insulin-degrading enzyme (IDE)]] | Enzyme | Protease downstream of SIRT4 that controls PTEN stability, linking mitochondrial sirtuin signaling to PI3K/Akt and tumor suppression. |
+| [[urea cycle]] | Metabolic Pathway | Liver metabolic pathway for ammonia detoxification whose enzymes, including CPS1, are regulated by SIRT5 via desuccinylation/demalonylation. |
+
+### NAD+ Precursors & Metabolism
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[NAAD]] | Biological Molecule | Nicotinic acid adenine dinucleotide, a biomarker of the deamidated (Preiss-Handler) route of NAD+ precursor metabolism that rises sharply after NR supplementation. |
+| [[NMNH]] | Biological Molecule | Dihydronicotinamide mononucleotide, the reduced form of NMN, an alternative NAD+ precursor that promotes NAD+ synthesis alongside NRH. |
+| [[NRH]] | Biological Molecule | Dihydronicotinamide riboside, the reduced form of nicotinamide riboside, an orally bioavailable NAD+ precursor that promotes NAD+ synthesis. |
+
+### Regulatory Proteins & Transcription Factors
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[CCNDBP1]] | Protein | Cyclin D-binding protein 1, a SIRT6 target whose deacetylation/activation links sirtuin signaling to cell-cycle and stress responses. |
+| [[FOXO3]] | Transcription Factor | Forkhead box O3 transcription factor that forms a feed-forward stress-resistance loop with SIRT1 and is central to longevity-associated signaling. |
+| [[FXR]] | Nuclear Receptor | Farnesoid X receptor, a bile-acid-activated nuclear receptor regulated by SIRT1, linking NAD+ status to cholesterol and metabolic homeostasis. |
+| [[PCAF]] | Enzyme | p300/CBP-associated factor, a histone acetyltransferase whose deacetylation by SIRT1 counterbalances muscle-gene acetylation during myogenesis. |
+| [[RELA]] | Transcription Factor | The p65 subunit of NF-κB, a pro-inflammatory transcription factor repressed by SIRT6 through chromatin deacetylation. |
+| [[WRN]] | Protein | Werner syndrome helicase, a DNA-repair enzyme deacetylated and activated by SIRT1, linking sirtuins to genomic stability. |
+| [[XPA]] | Protein | Core nucleotide-excision-repair factor whose deacetylation by SIRT1 enhances DNA-damage recognition. |
+| [[spliced X-box binding protein 1]] | Transcription Factor | Active form of the ER-stress transcription factor XBP1 that, when deacetylated by SIRT1 downstream of AMPK, inhibits NLRP3 inflammasome assembly. |
+
+### Pharmacological Agents
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[Rifampicin]] | Chemical Compound | Hepatic enzyme inducer that can accelerate metabolism of drugs such as urolithin A by activating CYP450 enzymes, reducing systemic exposure. |
+| [[Tenovin-1 and Tenovin-6]] | Chemical Compound | Small-molecule sirtuin inhibitors that block SIRT1/SIRT2 deacetylation of p53, causing p53 hyperacetylation and activation with anticancer activity. |

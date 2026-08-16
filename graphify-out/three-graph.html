@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 graph agent">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
@@ -11,7 +12,6 @@
 <button id="mobile-toggle" class="visible" title="Open search and filters">&#9776;</button>
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
-  <button id="btn-dataset" title="About this dataset / 關於此資料集">Dataset / 資料集</button>
   <button id="btn-reader" title="Read articles / 閱讀文章">Reader / 閱讀器</button>
 </div>
 <div id="graph">
@@ -24,6 +24,16 @@
   <div id="wiki-tooltip"></div>
   <div id="controls">
     <button id="btn-reset" title="Reset camera / 重設視角">Reset View / 重設視角</button>
+    <button id="btn-dataset" title="About this dataset / 關於此資料集" aria-label="About this dataset">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+    </button>
+    <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+    </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
   </div>
   <div id="zoom-bar">
@@ -95,7 +105,7 @@
 <div id="chat-highlight-badge" title="Click to clear chat highlights">Highlighting active</div>
 <div id="chat-panel">
   <div id="chat-header">
-    <span>Graph Chat / 圖形對話</span>
+    <span>Analysis / 分析</span>
     <div class="chat-header-actions">
       <button id="chat-new" title="New chat / 新對話">New</button>
       <button id="chat-maximize" title="Maximize window / 放大視窗" aria-label="Maximize window">
@@ -112,14 +122,16 @@
       <span>Graphify</span>
     </label>
     <div id="graphify-ops" role="group" aria-label="Graphify operations">
-      <button type="button" class="graphify-op" data-op="explain" title="Deep dive on one node / 解釋單一節點">explain</button>
-      <button type="button" class="graphify-op" data-op="trace" title="Multi-hop route through waypoints / 多段路徑追蹤">trace</button>
-      <button type="button" class="graphify-op" data-op="path" title="Shortest link between two nodes / 兩節點最短路徑">path</button>
+      <button type="button" class="graphify-op" data-op="query" title="Open-ended, natural language questions / 開放式自然語言提問">query</button>
+      <button type="button" class="graphify-op" data-op="explain" title="Deep dive on a single entity / 深入解釋單一實體">explain</button>
+      <button type="button" class="graphify-op" data-op="path" title="Traces the direct relationship between two or more nodes / 追蹤兩個以上節點之間的直接關係">path</button>
     </div>
     <span id="graphify-off-hint">Wiki retrieval</span>
   </div>
+  <div id="chat-tags"></div>
   <div id="chat-input-wrap">
-    <textarea id="chat-input" rows="1" placeholder="Enter prompt" maxlength="500"></textarea>
+    <div id="chat-tag-popup"></div>
+    <textarea id="chat-input" rows="1" placeholder="Enter prompt — type @ to tag nodes" maxlength="500"></textarea>
     <button id="chat-send" title="Send">Send</button>
   </div>
 </div>
@@ -142,13 +154,17 @@
 <div id="page-modal-overlay">
   <div id="page-modal">
     <div id="page-modal-header">
-      <h2 id="page-modal-title">Reader / 閱讀器</h2>
-      <div class="page-modal-actions">
-        <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
-        <select id="reader-select" title="Choose article / 選擇文章"></select>
-        <a id="page-modal-open" href="#" target="_blank" rel="noopener">Open in new tab</a>
-        <button id="page-modal-close" title="Close / 關閉">&times;</button>
+      <div class="page-modal-header-row">
+        <h2 id="page-modal-title">Reader / 閱讀器</h2>
+        <div class="page-modal-actions">
+          <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
+          <a id="page-modal-open" href="#" target="_blank" rel="noopener" title="Open in new tab / 新分頁開啟" aria-label="Open in new tab">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <button id="page-modal-close" title="Close / 關閉">&times;</button>
+        </div>
       </div>
+      <select id="reader-select" title="Choose article / 選擇文章"></select>
     </div>
     <iframe id="page-modal-frame" title="Reader"></iframe>
   </div>
@@ -162,7 +178,6 @@
   }
 }
 </script>
-
 <script type="module" src="components/graph.js"></script>
 </body>
 </html>

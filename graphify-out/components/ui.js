@@ -9,7 +9,7 @@ import {
 } from './data.js';
 import { state } from './state.js';
 import {
-  container, nodeObjects, nodeMeshes, edgeObjects, edgeGroup, labelObjects,
+  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeObjects, edgeGroup, labelObjects,
   setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
@@ -536,6 +536,136 @@ document.getElementById('btn-reset').addEventListener('click', () => {
   deselectNode();
   clearCommunityFocus();
   animateCamera(new THREE.Vector3(-120, 0, 500), new THREE.Vector3(170, 0, 0));
+});
+
+// ------------------------------------------------------------
+// Save graph as PNG (download)
+// ------------------------------------------------------------
+// Render the current scene (including any active highlight) to a PNG and
+// download it under `filename`. Reuses a throwaway preserveDrawingBuffer layer
+// and composites CSS2D node labels so names are visible in the export.
+export async function exportGraphPNG(filename) {
+  const mainBg = scene.background;
+  const captureLayer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+  let dataUrl = null;
+  try {
+    const cw = container.clientWidth, ch = container.clientHeight;
+    captureLayer.setSize(cw, ch);
+    captureLayer.setPixelRatio(window.devicePixelRatio);
+
+    scene.background = null;
+    captureLayer.render(scene, camera);
+    dataUrl = captureLayer.domElement.toDataURL('image/png');
+    scene.background = mainBg;
+    renderer.render(scene, camera); // restore main canvas without an async gap
+
+    const pxW = captureLayer.domElement.width;
+    const pxH = captureLayer.domElement.height;
+    const img = await new Promise((res, rej) => {
+      const im = new Image();
+      im.onload = () => res(im);
+      im.onerror = rej;
+      im.src = dataUrl;
+    });
+
+    const canvas = document.createElement('canvas');  
+    canvas.width = pxW; canvas.height = pxH;
+    const ctx = canvas.getContext('2d');
+
+    // Compute the screen-space bounding box of all visible nodes so the export
+    // can be re-framed: centered in the frame with breathing room instead of
+    // clipping at the current viewport edges.
+    let bMinX = Infinity, bMinY = Infinity, bMaxX = -Infinity, bMaxY = -Infinity;
+    const visible = [];
+    const frameTol = 0.1 * Math.max(pxW, pxH);
+    labelObjects.forEach((label) => {
+      if (!label.visible || !label.element) return;
+      const v = label.position.clone().project(camera);
+      if (v.z < -1 || v.z > 1) return;
+      const sx = (v.x + 1) / 2 * pxW;
+      const sy = (1 - v.y) / 2 * pxH;
+      if (sx < -frameTol || sx > pxW + frameTol || sy < -frameTol || sy > pxH + frameTol) return;
+      visible.push({ label, sx, sy });
+      if (sx < bMinX) bMinX = sx;
+      if (sx > bMaxX) bMaxX = sx;
+      if (sy < bMinY) bMinY = sy;
+      if (sy > bMaxY) bMaxY = sy;
+    });
+
+    let drawScale = 1, drawOffsetX = 0, drawOffsetY = 0;
+    const hasContent = visible.length && bMaxX > bMinX && bMaxY > bMinY;
+    if (hasContent) {
+      const MARGIN = 0.1; // 10% padding on each side of the frame
+      const pad = 40 * (pxW / cw); // extra room so labels don't touch the edge
+      const availW = pxW * (1 - 2 * MARGIN);
+      const availH = pxH * (1 - 2 * MARGIN);
+      const contentW = bMaxX - bMinX + pad * 2;
+      const contentH = bMaxY - bMinY + pad * 2;
+      drawScale = Math.max(0.2, Math.min(availW / contentW, availH / contentH, 3));
+      drawOffsetX = (pxW - contentW * drawScale) / 2 - (bMinX - pad) * drawScale;
+      drawOffsetY = (pxH - contentH * drawScale) / 2 - (bMinY - pad) * drawScale;
+      // Clear and redraw the captured image fitted into the frame.
+      ctx.clearRect(0, 0, pxW, pxH);
+      ctx.drawImage(img, drawOffsetX, drawOffsetY, pxW * drawScale, pxH * drawScale);
+    } else {
+      ctx.drawImage(img, 0, 0, pxW, pxH);
+    }
+
+    // Composite CSS2D node labels so the PNG includes names.
+    visible.forEach(({ label, sx, sy }) => {
+      const el = label.element;
+      const x = sx * drawScale + drawOffsetX;
+      const y = sy * drawScale + drawOffsetY;
+      const lines = (el.innerText || el.textContent || '').split('\n').filter(Boolean);
+      if (!lines.length) return;
+      const fs = parseFloat(getComputedStyle(el).fontSize) || 16;
+      const scale = (pxW / cw) * drawScale;
+      ctx.font = `600 ${fs * scale}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = 'rgba(15,15,26,0.9)';
+      ctx.fillStyle = '#e0e0e0';
+      const lh = (fs + 3) * scale;
+      const baseY = y - (lines.length - 1) * lh / 2 - 4 * scale;
+      lines.forEach((line, i) => {
+        const ly = baseY + i * lh;
+        ctx.strokeText(line, x, ly);
+        ctx.fillText(line, x, ly);
+      });
+    });
+
+    const blob = await new Promise((res, rej) => canvas.toBlob(b => b ? res(b) : rej(new Error('no-blob')), 'image/png'));
+    const a = document.createElement('a');
+    a.download = filename || 'graph.png';
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    URL.revokeObjectURL(a.href);
+    return true;
+  } finally {
+    scene.background = mainBg;
+    renderer.render(scene, camera);
+    captureLayer.dispose();
+  }
+}
+
+document.getElementById('btn-save-png').addEventListener('click', async (e) => {
+  const btn = e.currentTarget;
+  const origIcon = btn.innerHTML;
+  const origTitle = btn.title;
+  btn.disabled = true;
+  try {
+    await exportGraphPNG('graph.png');
+    btn.classList.add('ok');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+    btn.title = 'Saved graph.png ✓ / 已另存 graph.png ✓';
+  } catch (err) {
+    btn.classList.add('err');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+    btn.title = 'Save failed / 儲存失敗';
+  } finally {
+    btn.disabled = false;
+    setTimeout(() => { btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok', 'err'); }, 1800);
+  }
 });
 
 document.getElementById('btn-physics').addEventListener('click', (e) => {

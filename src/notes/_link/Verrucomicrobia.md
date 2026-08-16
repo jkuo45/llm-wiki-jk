@@ -28,7 +28,7 @@ Aging is accompanied by microbial shifts (dysbiosis) that correlate with low-gra
 
   - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|Gut Microbiome, Aging & Longevity Review]]
     - Reviews how gut commensals including *Akkermansia* (Verrucomicrobia) shift with age and relate to longevity.
-  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors (NMN/NR)]]
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors (NMN/NR)]]
     - Notes *Akkermansia muciniphila* among gut microbes influenced by NAD+ precursor supplementation.
 
 ## Connections

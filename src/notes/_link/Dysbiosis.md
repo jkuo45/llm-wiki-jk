@@ -33,7 +33,7 @@ Dysbiosis fuels [[Inflammaging]] and [[Immunosenescence]], promotes [[Metabolic 
     - Systematic review linking dysbiosis to aging phenotypes and longevity.
   - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Urolithin A Review]]
     - Notes microbiota modulation by mitophagy activators.
-  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NMN/NR Dietary Contribution]]
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NMN/NR Dietary Contribution]]
     - Connects NAD+ precursors to microbial and metabolic health.
 
 ## Connections

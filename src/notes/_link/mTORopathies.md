@@ -37,6 +37,8 @@ List of documents in the wiki that mention this entity
   - [[mTOR]] / [[mTORC1]] — hyperactivated driver
   - [[Ribosomal Protein S6]] — candidate pharmacodynamic biomarker
   - [[Aging]] — heterogeneous contrast population
+  - [[Hamartoma]] — the benign tumor-like lesions (cortical tubers, angiomyolipoma, SEGA) that define mTORopathies
+  - [[Hyperfunction Theory of Aging]] — mTORopathies as an accelerated, monogenic model of growth-driven pathology
 
 ## Linking Summary
 
