@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>（推測性）伊維菌素 × 芬苯達唑 — 互補的抗癌機制與 Sirtuin 連結</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="返回圖譜首頁">&#8592; 返回</a>
+    <a class="n" href="#overview">總覽</a>
+    <a class="n" href="#lineage">起源 → 重新定位</a>
+    <a class="n" href="#division">分工</a>
+    <a class="n" href="#convergence">匯聚節點</a>
+    <a class="n" href="#sirtuins">Sirtuin 交叉點</a>
+    <a class="n" href="#nad-gate">NAD<sup>+</sup> 閘門</a>
+    <a class="n" href="#network">知識圖譜</a>
+    <a class="n" href="#combination">組合邏輯</a>
+    <a class="n" href="#caveats">警示</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">互動式解說 · llm-wiki-jk</div>
+    <h1>伊維菌素 × 芬苯達唑 — 互補的抗癌機制與 Sirtuin 連結 <span class="badge red" style="vertical-align:middle; font-size:.58rem; background:var(--red); color:#0b1220; border-color:var(--red);">推測性</span></h1>
+    <p class="lead" style="margin-top:14px;">
+      兩種被重新定位（老藥新用）的抗寄生蟲藥攻擊 <b style="color:var(--text)">癌症生物學中根本不同的節點</b> —
+      伊維菌素作用於 <b style="color:var(--teal)">激酶 / 訊號樞紐</b>，芬苯達唑作用於
+      <b style="color:var(--orange)">結構 / 代謝機械</b>。兩者的主要機制幾乎不重疊，而這正是它們被討論為
+      潛在藥物重新定位組合的原因。本頁將任務輸出綜述轉化為互動圖表，
+      並追蹤 <b style="color:var(--blue)">sirtuins</b> — 與 NAD<sup>+</sup> 耦聯的代謝恆定調節器 — 如何與這對組合交會。
+    </p>
+    <div class="meta">
+      來源綜述：<code>src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md</code> ·
+      圖譜追蹤譜系 <code>src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</code> ·
+      維基筆記 [[Ivermectin]]、[[Fenbendazole]]、[[Benzimidazole]]、[[GLUT1]]、[[Hexokinase 2]] ·
+      知識圖譜 <code>graphify-out/graph.json</code> · Tang et al. 2020 · Nguyen et al. 2024 · Dogra et al. 2018
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">2 種重新定位的抗寄生蟲藥</span>
+      <span class="badge">訊號樞紐 × 結構 / 代謝</span>
+      <span class="badge">抗寄生蟲起源 → 重新定位標靶</span>
+      <span class="badge">5 個匯聚終點</span>
+      <span class="badge red">≥ 4 個 Sirtuin 交叉點</span>
+      <span class="badge teal">僅臨床前 · 尚無臨床試驗</span>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <h2>互補性論點：一種藥移除訊號，另一種藥移除機械</h2>
+    <p class="lead" style="margin-bottom:20px;">互補性（而非冗餘性）是這對組合的整個基礎。</p>
+    <div class="grid g3">
+      <div class="card">
+        <h3 style="color:var(--teal)">伊維菌素 — 訊號與激酶樞紐</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          促成 [[PAK1]] 的 <b style="color:var(--text)">蛋白酶體降解</b> — PAK1 是 Akt/mTOR、NF-κB、STAT3
+          與 Wnt/β-catenin 上游的樞紐；並獨立抑制 [[YAP1]]（Hippo）與 P-gp 外排泵。另直接擾亂粒線體（ΔΨm 崩潰、
+          Bax↑/Bcl-2↓），並誘導三種死亡模式：細胞凋亡、自噬、細胞焦亡。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--orange)">芬苯達唑 — 結構與代謝機械</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          結合 β-[[Tubulin]] 的 <b style="color:var(--text)">秋水仙鹼位點</b> → 有絲分裂停滯；下調 [[GLUT1]] 並抑制
+          [[Hexokinase 2]] → 瓦伯格效應阻斷；抑制 [[MDM2]]/MdmX → p53 活化；經由 MEK3/6–p38 軸誘導 ROS。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber)">為何聯合用藥合理</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          依賴激酶的細胞敗於伊維菌素；依賴代謝的細胞敗於芬苯達唑。兩者的下游效應從不同入口 <i>匯聚</i>
+          於粒線體、氧化還原、細胞週期與代謝 — 同時伊維菌素的 P-gp 封鎖與芬苯達唑的
+          NADPH/穀胱甘肽崩潰，使兩者成為潛在可減量、不易產生抗藥性的組合。
+        </p>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--teal); font-weight:700;">2</div>
+        <div style="color:var(--dim); font-size:.85rem;">截然不同的主要機制 — PAK1 降解相對於微管蛋白結合 — 標靶幾乎不重疊</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--amber); font-weight:700;">5</div>
+        <div style="color:var(--dim); font-size:.85rem;">匯聚的終點 — 粒線體凋亡 · ROS · 細胞週期 · 瓦伯格效應 · NF-κB</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--blue); font-weight:700;">4</div>
+        <div style="color:var(--dim); font-size:.85rem;">觸及此組合的 Sirtuin 樞紐 — SIRT1 · SIRT2 · SIRT3 · SIRT6（受 NAD<sup>+</sup> 調控）</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORIGIN → REPOSITIONING -->
+<section id="lineage">
+  <div class="wrap">
+    <h2>抗寄生蟲起源 → 重新定位的抗癌機制</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      伊維菌素並非一開始就是抗癌藥物。圖譜追蹤（<code>src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</code>）
+      還原了完整的譜系：做為大量給藥驅蟲藥誕生的大環內酯類，透過
+      <b style="color:var(--text)">人類缺乏其無脊椎動物特異性標靶</b> 這個事實，轉變為 <b style="color:var(--teal)">重新定位的抗癌藥物</b>。
+      此橋樑是 <i>藥理學意義</i> 上的 — 單一安全骨架，其對脊椎動物安全的劑量窗口，保留了攻擊保守哺乳類存活激酶的餘裕。
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="lineageSvg" viewBox="0 0 1000 460" role="img" aria-label="伊維菌素從抗寄生蟲起源到重新定位抗癌機制的譜系"></svg>
+        <button class="copy-btn" data-copy="lineageSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--green)"></span> 抗寄生蟲譜系與機制</span>
+        <span><span class="sw" style="background:var(--amber)"></span> 轉折點 — 脊椎動物安全餘裕</span>
+        <span><span class="sw" style="background:var(--teal)"></span> 重新定位的哺乳類標靶</span>
+        <span><span class="sw" style="background:var(--red)"></span> 誠實的缺口 — 僅臨床前</span>
+      </div>
+    </div>
+
+    <div class="grid g3" style="margin-top:18px;">
+      <div class="card">
+        <h3 style="color:var(--green)">抗寄生蟲起源分支</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          伊維菌素是 [[Avermectin]] 的半合成二氫衍生物，Avermectin 是來自
+          <i>Streptomyces avermectinius</i> 的 16 員大環內酯，由
+          [[Kitasato Institute]] 的 [[Satoshi Ōmura]] 與 [[William C. Campbell]]
+          （2015 年諾貝爾獎）發現。其驅蟲機制是 [[Glutamate-gated Cl- channels]]（GluCls）的異位性促效作用 —
+          這是無脊椎動物專屬的通道，Cl<sup>−</sup> 內流使蟲體過極化並癱瘓。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber)">轉折點 — 人類缺乏的標靶</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          人類 <b style="color:var(--text)">沒有 GluCls</b>。脊椎動物的 GABA<sub>A</sub>/甘胺酸受體需要約
+          <b style="color:var(--text)">~100 倍更高</b> 的伊維菌素濃度，因此治療濃度下的血漿水平可避開宿主
+          （Glutamate-gated Cl- channels.md:21）。這種內建的安全餘裕 — 由數十年的大量給藥
+          （OCP、APOC、Mectizan 計畫）背書 — 正是重新定位試驗在醫學上站得住腳的原因。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal)">重新定位的哺乳類標靶</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          在治療濃度下，同一分子改為作用於 <i>哺乳類</i> 標靶而非 GluCls：
+          主要宿主激酶 [[PAK1]]（蛋白酶體降解）、Hippo 效應因子 [[YAP1]]、存活軸 [[Akt]]/[[mTOR]]、
+          [[STAT3]] 與外排泵 [[P-gp]]。它誘導 [[Apoptosis]]、[[Autophagy]] 與 [[Pyroptosis]]，
+          驅動免疫原性細胞死亡（[[HMGB1]] 釋放），並經由 PAK1–STAT3 軸抑制 [[Cancer Stem Cells]]。
+        </p>
+      </div>
+    </div>
+    <div class="context" style="margin-top:16px;">
+      <b>核心發現。</b> 維基語料庫嚴格地將伊維菌素框定為 <b>重新定位的治療藥物</b>，而非初級預防藥物：
+      每一則筆記都把它放在治療 / 輔助情境中（抑制增殖、轉移、血管新生；逆轉多重抗藥性）。
+      <b style="color:var(--red)">沒有任何筆記談及初級預防（降低健康族群癌症發生率）</b> — 預防性的框定是超出語料庫的推論。
+    </div>
+
+    <div class="spectrum-card" style="margin-top:20px;">
+      <div class="tbl-wrap" style="max-height:none;">
+        <table class="tbl-fixed">
+          <colgroup><col style="width:22%"><col style="width:44%"><col style="width:34%"></colgroup>
+          <thead><tr><th>腫瘤類型</th><th>語料庫引用的機制</th><th>語料庫參考</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>[[Lung Cancer]]</b></td>
+              <td>與 [[erlotinib]] 協同；EGFR 標靶</td>
+              <td>Lung Cancer.md — 與下方芬苯達唑的代謝軸相呼應</td>
+            </tr>
+            <tr>
+              <td><b>[[glioblastoma]]</b></td>
+              <td>經由粒線體功能障礙 + 氧化壓力抑制血管新生 / 生長 / 存活</td>
+              <td>Ivermectin.md — 正是這對組合匯聚於其上的 ΔΨm 槓桿</td>
+            </tr>
+            <tr>
+              <td><b>[[Prostate Cancer]]</b></td>
+              <td>逆轉 [[enzalutamide]] / [[docetaxel]] 抗藥性；抑制 [[HSP27]] 磷酸化</td>
+              <td>Prostate Cancer.md</td>
+            </tr>
+            <tr>
+              <td><b>[[Hepatocellular Carcinoma]]</b></td>
+              <td>[[YAP1]] / Hippo 途徑標靶</td>
+              <td>Hepatocellular Carcinoma.md — 社群 6 腫瘤發生</td>
+            </tr>
+            <tr>
+              <td><b>[[Colon Cancer]] · [[Cholangiocarcinoma]] · [[Leukemia]] · [[Renal Cell Carcinoma]]</b></td>
+              <td>與 [[Fenbendazole]]、[[Mebendazole]] 歸屬於 [[Drug Repositioning]]</td>
+              <td>Drug Repositioning 集群（社群 33）— 與下方複合體同屬一家族</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="caveat" style="margin-top:20px;">
+      <b>誠實的缺口。</b> 抗癌證據完全屬於臨床前 — 腫瘤細胞與異種移植模型 — 且語料庫本身聲明
+      臨床驗證「仍是研究優先事項」。數十年的抗寄生蟲安全資料為 <i>重新定位試驗</i> 背書，但
+      <b>抗癌劑量與療程尚未確立</b>，且整個資料庫中不存在任何初級預防證據。
+    </div>
+  </div>
+</section>
+
+<!-- DIVISION -->
+<section id="division">
+  <div class="wrap">
+    <h2>分工 — 不重疊的主要標靶</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      每種藥物佔據自己的一組節點。中間帶正是它們 <i>向下游匯聚</i> 之處 —
+      這是合理化組合（而非冗餘）的基礎。
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="divisionSvg" viewBox="0 0 1000 560" role="img" aria-label="伊維菌素與芬苯達唑之間的分工"></svg>
+        <button class="copy-btn" data-copy="divisionSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> 伊維菌素 — 訊號與激酶樞紐</span>
+        <span><span class="sw" style="background:var(--orange)"></span> 芬苯達唑 — 結構與代謝機械</span>
+        <span><span class="sw" style="background:var(--amber)"></span> 匯聚的下游終點</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONVERGENCE -->
+<section id="convergence">
+  <div class="wrap">
+    <h2>匯聚節點 — 兩種藥物在何處互相強化</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      兩種化合物都匯入相同的下游終點，但從不同入口進入。這種不重疊正是把單藥效應
+      轉化為潛在聯合攻擊的關鍵。
+    </p>
+    <div class="spectrum-card">
+      <div class="tbl-wrap" style="max-height:none;">
+        <table class="tbl-fixed">
+          <colgroup><col style="width:15%"><col style="width:28%"><col style="width:28%"><col style="width:29%"></colgroup>
+          <thead><tr><th>終點</th><th><span style="color:var(--teal)">伊維菌素</span></th><th><span style="color:var(--orange)">芬苯達唑</span></th><th><span style="color:var(--amber)">合併 / 協同點</span></th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>內源性凋亡 / 粒線體</b></td>
+              <td>直接：ΔΨm 崩潰、Bax↑ / Bcl-2↓、細胞色素 c 釋放、ATP 崩潰、ROS 放大</td>
+              <td>間接：HK2 自 VDAC 釋放 → MOMP / 細胞色素 c 釋放去抑制</td>
+              <td>伊維菌素從訊號側準備、芬苯達唑從代謝側準備 — 兩者合力把細胞推過任何單藥皆無法達到的粒線體閾值</td>
+            </tr>
+            <tr>
+              <td><b>ROS 與氧化還原</b></td>
+              <td>經由粒線體去極化 + Cl<sup>−</sup> 通道膜過極化產生 ROS</td>
+              <td>經由 MEK3/6–p38 + 糖解性 NADPH 崩潰 → 穀胱甘肽回收失敗</td>
+              <td>芬苯達唑解除抗氧化緩衝；伊維菌素將 ROS 推過致死閾值 — 潛在的「氧化還原災難」</td>
+            </tr>
+            <tr>
+              <td><b>細胞週期停滯</b></td>
+              <td>G1/S 或 S 期停滯（情境依賴，經由 PAK1 喪失）</td>
+              <td>經由紡錘體破壞 G2/M 停滯 + p21 介導的停滯（p53 → p21）</td>
+              <td>雙檢查點夾擊 — 逃離一個阻斷的細胞會被另一個逮住</td>
+            </tr>
+            <tr>
+              <td><b>瓦伯格效應 / 糖解</b></td>
+              <td>間接：Akt/mTOR 與 HIF-1α 抑制移除了上調 GLUT1/HK2 的 <i>訊號</i></td>
+              <td>直接：GLUT1↓（攝入）+ HK2↓（糖解第一步）移除了 <i>機械</i></td>
+              <td>芬苯達唑移除酵素，伊維菌素移除會恢復這些酵素的訊號</td>
+            </tr>
+            <tr>
+              <td><b>NF-κB 抑制</b></td>
+              <td>直接經由 PAK1 喪失（PAK1 使 NF-κB 核活化成為可能）</td>
+              <td>調節 NF-κB，可能經由 ROS / p53 間接達成</td>
+              <td>通向主存活開關的兩條獨立途徑 — Bcl-xL / XIAP / cIAP 下調相互加乘</td>
+            </tr>
+            <tr>
+              <td><b>自噬</b></td>
+              <td>誘導（PAK1 → Akt 去磷酸 → mTOR 關閉 → Beclin-1 複合體；TFEB 入核）</td>
+              <td>情境依賴 — ROS 驅動，依細胞類型而異</td>
+              <td>自噬流可殺死或保護腫瘤 — 劑量的關鍵情境警示</td>
+            </tr>
+            <tr>
+              <td><b>藥物外排 / MDR</b></td>
+              <td>P-gp 與 MRP1/2/3 的直接強效抑制劑</td>
+              <td>苯並咪唑類藥物部分躲避 P-gp 辨識</td>
+              <td>伊維菌素的外排封鎖提高腫瘤內芬苯達唑（及併用化療）的滯留，而無需提高全身劑量</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIRTUINS -->
+<section id="sirtuins">
+  <div class="wrap">
+    <h2>Sirtuin 交叉點 — 這對組合如何遇上 NAD<sup>+</sup> 恆定調節器</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      七種 sirtuin 是依賴 NAD<sup>+</sup> 的去醯基酶，其輸出受這些藥物所擾動的氧化還原與代謝狀態調控。
+      四個樞紐以具體、經圖譜背書的方式與此組合交會：<b style="color:var(--amber)">SIRT1</b>（p53 / NF-κB / PAK1）、
+      <b style="color:var(--purple)">SIRT2</b>（微管蛋白）、<b style="color:var(--green)">SIRT3</b>（粒線體 ROS）與
+      <b style="color:var(--blue)">SIRT6</b>（抗瓦伯格）。綠色 = 強化組合；紅色 = 抵銷 / 情境依賴。
+    </p>
+    <div class="spectrum-card" style="margin-bottom:20px;">
+      <div style="position:relative;">
+        <svg id="sirtMapSvg" viewBox="0 0 1000 600" role="img" aria-label="Sirtuin 交叉點圖與藥物標靶"></svg>
+        <button class="copy-btn" data-copy="sirtMapSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> 伊維菌素及其標靶</span>
+        <span><span class="sw" style="background:var(--orange)"></span> 芬苯達唑及其標靶</span>
+        <span><span class="sw" style="background:var(--amber)"></span> SIRT1</span>
+        <span><span class="sw" style="background:var(--purple)"></span> SIRT2</span>
+        <span><span class="sw" style="background:var(--green)"></span> SIRT3</span>
+        <span><span class="sw" style="background:var(--blue)"></span> SIRT6</span>
+        <span><span class="sw" style="background:var(--pink)"></span> NAD<sup>+</sup> 閘門</span>
+      </div>
+    </div>
+
+    <div class="grid g2" style="gap:18px;">
+      <!-- SIRT1 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">p53 / NF-κB / PAK1 恆定調節器</span>
+          <span class="comp">細胞核 + 細胞質</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>強化這對組合</h4><ul>
+              <li>去乙醯化 <b>p53</b>（Lys379）→ 抑制其促凋亡輸出；p53 反過來 <i>抑制</i> SIRT1，因此芬苯達唑的 p53 穩定化透過降低 SIRT1 自我放大</li>
+              <li>去乙醯化 <b>RelA/p65（NF-κB）</b> 與 <b>STAT3</b> → 進入兩種藥物已抑制的存活軸的第三條途徑</li>
+              <li>抑制 <b>HIF-1α</b> 與 <b>mTOR</b>，去乙醯化 ULK1 / Beclin-1 / Atg5-7 / LC3 → 抗瓦伯格 + 促自噬，與伊維菌素的 PAK1→Akt→mTOR 支路一致</li>
+              <li>SIRT1 介導的 <b>PAK1 K420 去乙醯化阻礙膠質母細胞瘤生長</b> — 與伊維菌素降解的同一 PAK1 節點，改以另一條轉譯後修飾途徑攻擊</li>
+            </ul></div>
+            <div class="face red"><h4>抵銷 / 情境</h4><ul>
+              <li>慢性 SIRT1 活性 <b>鈍化 p53</b> 並驅動化療抗藥性（tamoxifen 經 FoxO1/MDR2；cisplatin 經 VEGF-A）</li>
+              <li>高 SIRT1 腫瘤鈍化芬苯達唑的 p53 槓桿；在某些情境下與 c-Myc/HIF-1α 為伍</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <!-- SIRT2 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--purple)">SIRT2</h3><span class="tagline">微管蛋白節點</span>
+          <span class="comp">細胞質</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>強化這對組合</h4><ul>
+              <li>一種 <b>微管蛋白去乙醯酶</b>（α-微管蛋白 K40）— 它位於芬苯達唑在 β-微管蛋白處不穩定的同一細胞骨架節點上</li>
+              <li>抑制 <b>p53</b> → SIRT2 抑制加深芬苯達唑的 p53 活化，並伴隨 MDM2/MdmX 抑制</li>
+              <li>去乙醯化 NF-κB → 與兩種藥物的 NF-κB 抑制一致</li>
+            </ul></div>
+            <div class="face red"><h4>抵銷 / 開放問題</h4><ul>
+              <li>乙醯化的 α-微管蛋白標記穩定聚合體 — SIRT2 的去乙醯酶活性調控芬苯達唑所破壞的動態不穩定性；對微管阻斷的方向性尚未定論</li>
+              <li>受 <b>Akt</b> 與 <b>Wnt</b> 抑制（兩者皆被伊維菌素抑制）→ 組合可能間接改變 SIRT2 活性；有助或有害取決於情境</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <!-- SIRT3 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">粒線體守護者 — 敏感度開關</span>
+          <span class="comp">粒線體</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>強化這對組合</h4><ul>
+              <li>低 SIRT3 腫瘤（約 40% 的乳癌 / 卵巢癌）帶有高粒線體 ROS — 一種 <b>氧化還原預備</b> 狀態，應會對兩種藥物的氧化 / 粒線體攻擊敏感</li>
+              <li>不穩定 <b>HIF-1α</b> → 抗瓦伯格，與芬苯達唑的 GLUT1/HK2 計畫一致</li>
+            </ul></div>
+            <div class="face red"><h4>抵銷 / 情境</h4><ul>
+              <li>高 SIRT3 清除 ROS（SOD2/MnSOD、IDH2）並維護粒線體（Complex I、PDH）— 正是 <b>伊維菌素所崩潰的槓桿</b>（ΔΨm、呼吸、ATP）</li>
+              <li>高 SIRT3 細胞是這對組合之 ROS 依賴性死亡的可能抗藥情境</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <!-- SIRT6 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">芬苯達唑的核內雙胞胎</span>
+          <span class="comp">細胞核（異染色質）</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>強化這對組合（最強的交叉點）</h4><ul>
+              <li><b>共同抑制 HIF-1α</b> 並抑制 <b>GLUT1 / HK2 轉錄</b> → 在轉錄層面抗糖解，而芬苯達唑在蛋白質層面打擊相同的基因產物 — 同一軸、兩個層級</li>
+              <li><b>p53 活化 SIRT6</b> → 芬苯達唑的 p53 穩定化回饋提高 SIRT6，強化糖解 / NF-κB / HIF-1α 抑制（一個乾淨的協同迴路）</li>
+              <li>抑制 NF-κB（標靶啟動子處的 H3K9）並抑制 JAK2/STAT3 → 加入兩種藥物</li>
+            </ul></div>
+            <div class="face red"><h4>抵銷 / 情境</h4><ul>
+              <li>需要 <b>NAD<sup>+</sup></b> — 氧化壓力下的 PARP 消耗可能在最需要它時將其餓死</li>
+              <li>其節約 / DNA 修復計畫可在既成腫瘤中賦予化療抗藥性</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="context" style="margin-top:20px;">
+      <b>次要異構酶：</b> <b style="color:var(--teal)">SIRT4</b>（麩醯胺酸依賴煞車；上調 p16/p21 — 與芬苯達唑的 p21 停滯一致）·
+      <b style="color:var(--orange)">SIRT5</b>（麩醯胺酸分解 / 糖解驅動者 — 抑制它有助益）·
+      <b style="color:var(--pink)">SIRT7</b>（核醣體生合成 / 細胞週期驅動者 — 致癌性；與這對組合關聯較少）。
+    </div>
+  </div>
+</section>
+
+<!-- NAD GATE -->
+<section id="nad-gate">
+  <div class="wrap">
+    <h2>NAD<sup>+</sup> 閘門 — 治療中氧化還原重寫 Sirtuin 恆定調節器</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Sirtuin 是消耗 NAD<sup>+</sup> 的酵素，而 NAD<sup>+</sup> 也是糖解輔因子（GAPDH）。因此這對組合的
+      氧化與代謝攻擊不只是 <i>讀取</i> sirtuin 活性 — 它還 <i>重寫</i> 調控 sirtuin 的 NAD<sup>+</sup> 池。
+      這是最具假說生成意義的交叉點，應視為假說而非既成事實。
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="nadSvg" viewBox="0 0 1000 460" role="img" aria-label="NAD+ 閘門流程圖"></svg>
+        <button class="copy-btn" data-copy="nadSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> 伊維菌素的貢獻</span>
+        <span><span class="sw" style="background:var(--orange)"></span> 芬苯達唑的貢獻</span>
+        <span><span class="sw" style="background:var(--pink)"></span> NAD<sup>+</sup> 池 / PARP</span>
+        <span><span class="sw" style="background:var(--blue)"></span> sirtuin 輸出</span>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:18px;">
+      <div class="card"><h3>NAD<sup>+</sup> 消耗的上行面</h3><p style="color:var(--dim); font-size:.85rem;">
+        藥物誘導的氧化壓力 → PARP 消耗 NAD<sup>+</sup> → sirtuin 輸出下降。這降低 <b style="color:var(--amber)">SIRT1</b> 的 p53 去乙醯化
+        （強化芬苯達唑）、<b style="color:var(--purple)">SIRT2</b> 的 p53 抑制，與 <b style="color:var(--green)">SIRT3</b> 的 ROS 清除 —
+        放大這對組合的死亡訊號。</p></div>
+      <div class="card"><h3>NAD<sup>+</sup> 消耗的下行面</h3><p style="color:var(--dim); font-size:.85rem;">
+        同樣的消耗降低 <b style="color:var(--blue)">SIRT6</b>（失去抗瓦伯格強化）與 <b style="color:var(--amber)">SIRT1</b>
+        （失去 NF-κB / STAT3 抑制）— 兩個最理想的抗腫瘤 sirtuin 輸出。治療期間淨 sirtuin 行為是
+        氧化還原狀態的函數，而非常數。</p></div>
+      <div class="card"><h3>判讀</h3><p style="color:var(--dim); font-size:.85rem;">
+        任何「組合會提升 sirtuin」或「阻斷 sirtuin」的說法都過度簡化。誠實的框架是：這對組合改變
+        <b style="color:var(--pink)">NAD<sup>+</sup>/NADH</b> 與 <b style="color:var(--green)">NADPH/穀胱甘肽</b> 池，每個 sirtuin 的
+        正負號相應翻轉 — 一個情境依賴、異構酶特異的結果。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NETWORK -->
+<section id="network">
+  <div class="wrap">
+    <h2>知識圖譜 — 藥物 × Sirtuin 子圖</h2>
+    <p class="lead">
+      圍繞兩種藥物與四個交會 sirtuin 樞紐的 <code>graphify-out/graph.json</code> 33-節點 / 63-邊子圖。
+      節點大小 = 連接度；可拖曳節點、懸停檢視、點擊樞紐以突顯其鄰域。
+      sirtuin 樞紐（SIRT1/2/3/6）清楚地位於兩種藥物的標靶場域之間。
+    </p>
+    <div class="net-head">
+      <button class="btn" id="netReset">重設佈局</button>
+      <span class="badge" id="netStats"></span>
+    </div>
+    <div style="position:relative;">
+      <svg id="netSvg" viewBox="0 0 1100 560" role="img" aria-label="伊維菌素-芬苯達唑-sirtuin 知識圖譜"></svg>
+      <div id="netTip"></div>
+      <button class="copy-btn" data-copy="netSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+    </div>
+    <div class="net-legend" id="netLegend"></div>
+  </div>
+</section>
+
+<!-- COMBINATION -->
+<section id="combination">
+  <div class="wrap">
+    <h2>理論上的組合邏輯</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      兩種藥物的貢獻如何在腫瘤生物學的各個面向中對應。合併效應假設機制確實互補 —
+      這是在臨床上仍未經檢驗的假說。
+    </p>
+    <div class="spectrum-card">
+      <div class="tbl-wrap" style="max-height:none;">
+        <table class="tbl-fixed">
+          <colgroup><col style="width:13%"><col style="width:29%"><col style="width:29%"><col style="width:29%"></colgroup>
+          <thead><tr><th>面向</th><th><span style="color:var(--teal)">伊維菌素</span></th><th><span style="color:var(--orange)">芬苯達唑</span></th><th>合併效應</th></tr></thead>
+          <tbody>
+            <tr><td><b>訊號</b></td><td>PAK1 / YAP1 / Akt / mTOR 抑制</td><td>對訊號的直接影響極小</td><td>伊維菌素移除致癌訊號；芬苯達唑利用隨之而來的代謝脆弱性</td></tr>
+            <tr><td><b>結構</b></td><td>對微管蛋白無直接效應</td><td>微管不穩定化 → 有絲分裂停滯</td><td>芬苯達唑困住分裂中的細胞；伊維菌素阻止其經由存活訊號逃脫</td></tr>
+            <tr><td><b>代謝</b></td><td>間接（Akt/mTOR → 糖解基因調控）</td><td>直接（GLUT1 ↓、HK2 ↓、瓦伯格效應破壞）</td><td>芬苯達唑餓死細胞；伊維菌素阻止代謝補償重程式化</td></tr>
+            <tr><td><b>ROS / 凋亡</b></td><td>粒線體去極化、Cl<sup>−</sup> 通道 ROS</td><td>代謝性 ROS + NADPH 耗竭</td><td>芬苯達唑解除抗氧化防禦；伊維菌素把 ROS 推過致死閾值</td></tr>
+            <tr><td><b>p53</b></td><td>非主要機制</td><td>MDM2/MdmX 抑制 → p53 穩定化</td><td>在具野生型 p53 / MDM2 過度表現的腫瘤中恢復 p53 功能</td></tr>
+            <tr><td><b>幹細胞</b></td><td>PAK1–STAT3 軸抑制（NANOG、OCT-4、SOX-2）</td><td>無具體證據</td><td>伊維菌素瞄準驅動復發的癌症幹細胞族群</td></tr>
+            <tr><td><b>抗藥性</b></td><td>強效 P-gp / MDR 蛋白抑制劑</td><td>部分躲避 P-gp（苯並咪唑類）</td><td>伊維菌素可能提高腫瘤內芬苯達唑滯留</td></tr>
+            <tr><td><b>免疫</b></td><td>HMGB1 釋放 → 免疫原性細胞死亡</td><td>較少特徵化</td><td>伊維菌素可能啟動免疫系統對垂死腫瘤細胞的辨識</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAVEATS -->
+<section id="caveats">
+  <div class="wrap">
+    <h2>跨面向警示與總結</h2>
+    <div style="margin-top:18px;">
+      <div class="pattern"><b>一切都是臨床前。</b>
+        此處引用的每個機制都來自細胞株與異種移植模型（Tang et al. 2020；Nguyen et al. 2024）。兩種化合物做為
+        抗癌藥皆 <b>沒有臨床試驗</b>。組合的合理性是一個機制性假說。</div>
+      <div class="pattern"><b>自噬悖論。</b>
+        伊維菌素的自噬性死亡在乳癌中是主要死亡模式，但在黑色素瘤中卻是保護性的；情境決定自噬流
+        是殺死還是保護。劑量與腫瘤類型將決定淨效應。</div>
+      <div class="pattern"><b>Sirtuin 正負號翻轉。</b>
+        SIRT1/3/6 在某些情境下抗癌，在另一些情境下是化療抗藥性因子。這對組合的 NAD<sup>+</sup> 消耗使情況更糟：
+        同一種強化 p53 / ROS 的氧化還原壓力也餓死 SIRT6 — 因此「支持 sirtuin」不能作為通則策略。</div>
+      <div class="pattern"><b>SIRT2 方向性尚未定論。</b>
+        SIRT2 位於芬苯達唑所攻擊的微管蛋白節點上，但它的 α-微管蛋白去乙醯化是放大還是抵消微管
+        阻斷，仍是開放問題。</div>
+    </div>
+    <div class="caveat">
+      <b>總結。</b> 伊維菌素與芬苯達唑是一對機制上互補的組合 — 訊號樞紐對照結構 / 代謝機械 — 在粒線體、
+      氧化還原、細胞週期與代謝終點上匯聚。最具體的 sirtuin 連結是
+      <b>SIRT6（芬苯達唑的抗瓦伯格雙胞胎，帶 p53→SIRT6 回饋迴路）</b>、<b>SIRT1（p53 / NF-κB / PAK1 恆定調節器）</b>、
+      <b>SIRT3（粒線體 ROS 敏感度開關）</b>，與 <b>SIRT2（微管蛋白節點）</b> — 全部受這對組合自身所重寫的 NAD<sup>+</sup> 池調控。
+      在體內檢驗之前，請將 sirtuin 面向視為假說生成。
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>資料來源</b></p>
+    <p>Tang M et al., <i>Ivermectin, a potential anticancer drug derived from an antiparasitic drug.</i> Pharmacol Res 2020;163:105207 (PMID 32971268) · Nguyen J et al., <i>Oral Fenbendazole for Cancer Therapy in Humans and Animals.</i> Anticancer Res 2024 · Dou Q et al., <i>Cancer Res</i> 2016 (PMID 27302166) · Dogra N et al., <i>Sci Rep</i> 2018 · Mrkvová Z et al., <i>Molecules</i> 2019 · Peng Y et al., <i>Chem Biol Interact</i> 2022 · llm-wiki-jk 筆記：[[Ivermectin]]、[[Fenbendazole]]、[[Benzimidazole]]、[[GLUT1]]、[[Hexokinase 2]]、[[SIRT1]]、[[SIRT3]]、[[SIRT6]]、[[NAD+]]、[[p53]]、[[HIF-1α]]、[[NF-κB]]。</p>
+    <p>任務輸出：<code>src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md</code>（組合綜述）· <code>src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</code>（抗寄生蟲起源圖譜追蹤）· 知識圖譜：<code>graphify-out/graph.json</code>（33-節點 / 63-邊子圖）。</p>
+    <p style="margin-top:10px; color:var(--mute);">所有圖表皆為客戶端 SVG/CSS 渲染 — 無外部依賴，可離線運作。</p>
+  </div>
+</footer>
+
+<script src="shared/pages-core.js"></script>
+<script src="shared/pages-svg.js"></script>
+<script src="shared/render-network.js"></script>
+<script>
+/* ============================= DIVISION OF LABOR ============================= */
+(function division(){
+  const svg = document.getElementById('divisionSvg');
+  const W=1000, H=560;
+  const iverChips = ['PAK1 — 蛋白酶體降解','YAP1（Hippo）','Akt / mTOR','NF-κB','STAT3','Wnt / β-catenin','P-gp（外排逆轉）','HSP27','KPNB1（importin-β1）','癌症幹細胞（Oct4 · Sox2）'];
+  const fenChips = ['β-微管蛋白 · 秋水仙鹼位點','微管（紡錘體）','GLUT1 ↓（葡萄糖攝入）','己糖激酶2 ↓','MDM2 / MdmX ↓','p53 ↑','MEK3/6–p38（ROS）','p21 · G2/M 停滯'];
+  const shared = ['細胞凋亡','ROS / 氧化還原','自噬','糖解','NF-κB'];
+
+  const Lx=16, Lw=400, Cx=424, Cw=152, Rx=584, Rw=400, Y=80, Bh=440;
+  let m='<defs><linearGradient id="gradShared" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8A33D" stop-opacity=".20"/><stop offset="1" stop-color="#E4575E" stop-opacity=".18"/></linearGradient></defs>';
+  m += `<rect x="${Lx}" y="${Y}" width="${Lw}" height="${Bh}" rx="16" fill="rgba(62,201,167,.08)" stroke="#3EC9A7" stroke-width="1.5"/>`;
+  m += `<rect x="${Cx}" y="${Y}" width="${Cw}" height="${Bh}" rx="14" fill="url(#gradShared)" stroke="#E8A33D" stroke-width="1.5" stroke-dasharray="5 4"/>`;
+  m += `<rect x="${Rx}" y="${Y}" width="${Rw}" height="${Bh}" rx="16" fill="rgba(245,166,91,.08)" stroke="#F5A65B" stroke-width="1.5"/>`;
+  m += `<text x="${Lx+Lw/2}" y="${Y+28}" text-anchor="middle" fill="#3EC9A7" font-size="15" font-weight="800">IVERMECTIN</text>`;
+  m += `<text x="${Lx+Lw/2}" y="${Y+46}" text-anchor="middle" fill="#6b6b85" font-size="10.5">訊號與激酶樞紐</text>`;
+  m += `<text x="${Rx+Rw/2}" y="${Y+28}" text-anchor="middle" fill="#F5A65B" font-size="15" font-weight="800">FENBENDAZOLE</text>`;
+  m += `<text x="${Rx+Rw/2}" y="${Y+46}" text-anchor="middle" fill="#6b6b85" font-size="10.5">結構與代謝機械</text>`;
+  m += `<text x="${Cx+Cw/2}" y="${Y+30}" text-anchor="middle" fill="#E8A33D" font-size="12" font-weight="700">CONVERGENT</text>`;
+  m += `<text x="${Cx+Cw/2}" y="${Y+46}" text-anchor="middle" fill="#6b6b85" font-size="9">下游</text>`;
+
+  function chips(arr, bx, w, color, startY){
+    const cw=185, chh=48, gap=12, xs=[bx+14, bx+14+197], start=startY+64;
+    let out='', i=0;
+    arr.forEach(c=>{
+      const col = i % 2, row = Math.floor(i/2);
+      const x = xs[col], y = start + row*(chh+gap);
+      out += `<rect x="${x}" y="${y}" width="${cw}" height="${chh}" rx="10" fill="#16162b" stroke="${color}" stroke-width="1.1"/>`+
+             `<text x="${x+cw/2}" y="${y+chh/2+4}" text-anchor="middle" fill="#e0e0e0" font-size="10.5">${c}</text>`;
+      i++;
+    });
+    return out;
+  }
+  m += chips(iverChips, Lx, Lw, '#3EC9A7', Y);
+  m += chips(fenChips, Rx, Rw, '#F5A65B', Y);
+  shared.forEach((s,i)=>{
+    const y = Y + 90 + i*74;
+    m += `<circle cx="${Cx+Cw/2}" cy="${y}" r="26" fill="#16162b" stroke="#E8A33D" stroke-width="1.2"/>`+
+         `<text x="${Cx+Cw/2}" y="${y+4}" text-anchor="middle" fill="#E8C65B" font-size="9.5" font-weight="600">${s}</text>`;
+  });
+  svg.innerHTML = m;
+})();
+
+/* ============================= SIRTUIN INTERSECTION MAP ============================= */
+(function sirtMap(){
+  const svg = document.getElementById('sirtMapSvg');
+  const left = [
+    {id:'ivm', label:'伊維菌素', x:130, y:70,  r:34, color:'#3EC9A7'},
+    {id:'pak1',label:'PAK1',       x:130, y:160, r:24, color:'#7fd1c3'},
+    {id:'stat3',label:'STAT3',     x:130, y:250, r:24, color:'#7fd1c3'},
+    {id:'mtor',label:'Akt / mTOR', x:130, y:340, r:24, color:'#7fd1c3'},
+    {id:'nfkb',label:'NF-κB',      x:130, y:430, r:24, color:'#7fd1c3'},
+    {id:'yap1',label:'YAP1',       x:130, y:510, r:24, color:'#7fd1c3'},
+  ];
+  const center = [
+    {id:'s1', label:'SIRT1', color:'#E8A33D'},
+    {id:'s2', label:'SIRT2', color:'#9D8DF1'},
+    {id:'s3', label:'SIRT3', color:'#58D68D'},
+    {id:'s6', label:'SIRT6', color:'#5DA8FF'},
+  ];
+  const cy0=[80,200,320,440];
+  center.forEach((c,i)=>{ c.x=500; c.y=cy0[i]; c.r=30; });
+  const right = [
+    {id:'fen', label:'芬苯達唑', x:870, y:70,  r:34, color:'#F5A65B'},
+    {id:'p53', label:'p53',          x:870, y:160, r:24, color:'#d8bff7'},
+    {id:'glut',label:'GLUT1 / HK2',  x:870, y:250, r:24, color:'#f8c891'},
+    {id:'tub', label:'微管蛋白',      x:870, y:330, r:24, color:'#f8c891'},
+    {id:'hif', label:'HIF-1α',       x:870, y:410, r:24, color:'#f8c891'},
+    {id:'ros', label:'粒線體 / ROS',  x:870, y:490, r:24, color:'#f8c891'},
+  ];
+  const all = left.concat(center, right);
+  const byId = {}; all.forEach(n=>byId[n.id]=n);
+
+  const edges = [
+    ['ivm','pak1','降解'],['ivm','yap1','抑制'],['ivm','mtor','抑制'],
+    ['ivm','stat3','抑制'],['ivm','nfkb','抑制'],
+    ['pak1','s1','K420 去乙醯化'],['stat3','s1','去乙醯化'],
+    ['mtor','s1','抑制 mTOR'],['nfkb','s1','去乙醯化 p65'],
+    ['fen','p53','穩定化'],['fen','glut','GLUT1↓ · HK2↓'],['fen','tub','秋水仙鹼位點'],
+    ['p53','s1','去乙醯化（抑制）'],['p53','s6','活化'],['p53','s2','抑制'],
+    ['glut','s6','抑制轉錄'],['hif','s6','共同抑制'],['hif','s3','不穩定化'],
+    ['tub','s2','去乙醯化 α-微管蛋白'],['ros','s3','SOD2 → ROS↓'],
+  ];
+  let m = '';
+  edges.forEach(([a,b,lab])=>{
+    const A=byId[a], B=byId[b];
+    const midx=(A.x+B.x)/2, midy=(A.y+B.y)/2;
+    m += `<line x1="${A.x}" y1="${A.y}" x2="${B.x}" y2="${B.y}" stroke="#3a3a5e" stroke-width="1.2"/>`;
+    m += `<text x="${midx}" y="${midy-6}" text-anchor="middle" fill="#6b6b85" font-size="8.5">${lab}</text>`;
+  });
+  // NAD+ gate (dashed band through the center column base)
+  m += `<line x1="130" y1="575" x2="870" y2="575" stroke="#F283B2" stroke-width="1.4" stroke-dasharray="6 4"/>`;
+  m += `<text x="500" y="592" text-anchor="middle" fill="#F283B2" font-size="11" font-weight="700">NAD+ — SIRT1 / 2 / 3 / 6 的輔因子閘門</text>`;
+  // nodes
+  all.forEach(n=>{
+    m += `<circle cx="${n.x}" cy="${n.y}" r="${n.r}" fill="#16162b" stroke="${n.color}" stroke-width="1.8"/>`+
+         `<text x="${n.x}" y="${n.y+4}" text-anchor="middle" fill="${n.color}" font-size="${n.r>30?13:10}" font-weight="700">${n.label}</text>`;
+  });
+  // column captions
+  m += `<text x="130" y="34" text-anchor="middle" fill="#3EC9A7" font-size="11" letter-spacing="1.5">IVERMECTIN FIELD</text>`;
+  m += `<text x="500" y="34" text-anchor="middle" fill="#9a9ab0" font-size="11" letter-spacing="1.5">SIRTUIN HUBS</text>`;
+  m += `<text x="870" y="34" text-anchor="middle" fill="#F5A65B" font-size="11" letter-spacing="1.5">FENBENDAZOLE FIELD</text>`;
+  svg.innerHTML = m;
+})();
+
+/* ============================= NAD+ GATE FLOW ============================= */
+(function nadFlow(){
+  const svg = document.getElementById('nadSvg');
+  const W=1000, H=460;
+  let m = '<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b6b85"/></marker></defs>';
+  const box = (x,y,w,h,title,lines,stroke,fill,tsize) => {
+    let o = `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="${fill}" stroke="${stroke}" stroke-width="1.5"/>`+
+            `<text x="${x+w/2}" y="${y+26}" text-anchor="middle" fill="${stroke}" font-size="12.5" font-weight="800">${title}</text>`;
+    lines.forEach((ln,i)=>{
+      o += `<text x="${x+w/2}" y="${y+52+i*18}" text-anchor="middle" fill="#c9c9dd" font-size="10">${ln}</text>`;
+    });
+    return o;
+  };
+  // Column A: drugs
+  m += box(20,70,210,160,'FENBENDAZOLE',
+    ['GLUT1↓ · HK2↓ → 糖解↓','→ NADPH↓ · 穀胱甘肽↓'],
+    '#F5A65B','rgba(245,166,91,.08)');
+  m += box(20,250,210,160,'IVERMECTIN',
+    ['ΔΨm 崩潰 · Cl⁻ 通道','→ 粒線體 ROS↑'],
+    '#3EC9A7','rgba(62,201,167,.08)');
+  // Column B: redox hub
+  m += box(300,110,210,220,'氧化還原樞紐',
+    ['NADPH / 穀胱甘肽崩潰','+ 粒線體 ROS 爆發','= 「氧化還原災難」','（同時雙向）'],
+    '#E8C65B','rgba(232,198,91,.08)');
+  // Column C: NAD+ pool
+  m += box(570,110,210,220,'NAD+ 池',
+    ['氧化壓力 → PARP ↑','PARP 消耗 NAD+','→ NAD+ / NADH 下降','（糖解也需要 NAD+）'],
+    '#F283B2','rgba(242,131,178,.08)');
+  // Column D: sirtuin output
+  m += box(840,60,140,320,'SIRTUIN OUTPUT',
+    ['SIRT6 — 抗瓦伯格 ↓','SIRT1 — p53/NF-κB 閘門 ↓','SIRT3 — ROS 清除 ↓','SIRT2 — 微管蛋白 ⇄','（異構酶特異正負號翻轉）'],
+    '#5DA8FF','rgba(93,168,255,.08)');
+  // arrows A->B, B->C, C->D
+  m += `<line x1="230" y1="200" x2="290" y2="200" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#arr)"/>`;
+  m += `<line x1="510" y1="200" x2="560" y2="200" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#arr)"/>`;
+  m += `<line x1="780" y1="200" x2="830" y2="200" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#arr)"/>`;
+  // feedback: sirtuins gate the same pathways (D -> A)
+  m += `<line x1="910" y1="390" x2="910" y2="430" stroke="#3a3a5e" stroke-width="1.3" marker-end="url(#arr)"/>`;
+  m += `<line x1="910" y1="430" x2="125" y2="430" stroke="#3a3a5e" stroke-width="1.3"/>`;
+  m += `<line x1="125" y1="430" x2="125" y2="385" stroke="#3a3a5e" stroke-width="1.3" marker-end="url(#arr)"/>`;
+  m += `<text x="500" y="445" text-anchor="middle" fill="#6b6b85" font-size="10">回饋 — sirtuin 調控相同的途徑（SIRT6 → GLUT1/HK2 轉錄 · SIRT3 → SOD2 → ROS · SIRT1 → p53 / NF-κB / mTOR）</text>`;
+  svg.innerHTML = m;
+})();
+
+/* ============================= LINEAGE: ORIGIN → REPOSITIONING ============================= */
+(function lineage(){
+  const svg = document.getElementById('lineageSvg');
+  const W=1000, H=460;
+  const bw=205, bh=175, y0=45, gap=40;
+  const xs=[30,275,520,765];
+  let m = '<defs><marker id="larr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b6b85"/></marker></defs>';
+  const stages = [
+    {t:'ORIGIN', color:'#58D68D', fill:'rgba(88,214,141,.08)', lines:[
+      'AVERMECTIN — 16 員大環內酯 ·',
+      'Streptomyces avermectinius',
+      '北里研究所 · Ōmura 與 Campbell',
+      '· 諾貝爾 2015 → IVERMECTIN',
+      '（半合成二氫衍生物）']},
+    {t:'ANTIPARASITIC MODE', color:'#58D68D', fill:'rgba(88,214,141,.08)', lines:[
+      'GluCls 異位性促效作用 —',
+      '無脊椎動物專屬通道',
+      'Cl⁻ 內流 → 過極化',
+      '→ 蟲體癱瘓與死亡']},
+    {t:'THE PIVOT', color:'#E8A33D', fill:'rgba(232,163,61,.08)', lines:[
+      '人類 LACK GluCls',
+      '脊椎動物 GABA_A / 甘胺酸',
+      '受體需要 ~100× 更高劑量',
+      '→ 治療血漿濃度',
+      '避開宿主 — 重新定位可行']},
+    {t:'REPOSITIONED TARGETS', color:'#3EC9A7', fill:'rgba(62,201,167,.08)', lines:[
+      'PAK1 降解 · YAP1 ·',
+      'Akt/mTOR · STAT3 · P-gp',
+      '細胞凋亡 · 自噬 ·',
+      '焦亡 · ICD（HMGB1）·',
+      '癌症幹細胞經 PAK1–STAT3']},
+  ];
+  stages.forEach((s,i)=>{
+    const x = xs[i];
+    m += `<rect x="${x}" y="${y0}" width="${bw}" height="${bh}" rx="14" fill="${s.fill}" stroke="${s.color}" stroke-width="1.5"/>`;
+    m += `<text x="${x+bw/2}" y="${y0+24}" text-anchor="middle" fill="${s.color}" font-size="11" font-weight="800" letter-spacing="1">${s.t}</text>`;
+    s.lines.forEach((ln,j)=>{
+      m += `<text x="${x+bw/2}" y="${y0+50+j*19}" text-anchor="middle" fill="#c9c9dd" font-size="9.5">${ln}</text>`;
+    });
+    if(i<3){
+      m += `<line x1="${x+bw+8}" y1="${y0+bh/2}" x2="${xs[i+1]-8}" y2="${y0+bh/2}" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#larr)"/>`;
+    }
+  });
+  // honest gap band
+  m += `<rect x="30" y="270" width="940" height="160" rx="14" fill="rgba(228,87,94,.06)" stroke="#E4575E" stroke-width="1.5" stroke-dasharray="6 4"/>`;
+  m += `<text x="500" y="296" text-anchor="middle" fill="#E4575E" font-size="12" font-weight="800" letter-spacing="1">HONEST GAP — ALL PRECLINICAL</text>`;
+  const gapLines = [
+    '證據僅限於腫瘤細胞與異種移植模型 · 臨床驗證「仍是研究優先事項」（Lung Cancer.md）',
+    '抗癌劑量 / 療程尚未確立 — 僅抗寄生蟲安全資料（OCP · APOC · Mectizan）為重新定位背書',
+    '資料庫中沒有針對無癌健康者初級化學預防的筆記',
+  ];
+  gapLines.forEach((ln,j)=>{
+    m += `<text x="500" y="${330+j*24}" text-anchor="middle" fill="#c9c9dd" font-size="10.5">${ln}</text>`;
+  });
+  svg.innerHTML = m;
+})();
+
+/* ============================= KNOWLEDGE GRAPH ============================= */
+const netData = { nodes: [
+  {id:"ivermectin", label:"伊維菌素", degree:16, community:"ivermectin"},
+  {id:"fenbendazole", label:"芬苯達唑", degree:9, community:"fenbendazole"},
+  {id:"pak1", label:"PAK1", degree:4, community:"signaling"},
+  {id:"yap1", label:"YAP1", degree:2, community:"signaling"},
+  {id:"wnt", label:"Wnt", degree:2, community:"signaling"},
+  {id:"akt", label:"Akt", degree:3, community:"signaling"},
+  {id:"mtor", label:"mTOR", degree:3, community:"signaling"},
+  {id:"mtorc1", label:"mTORC1", degree:3, community:"signaling"},
+  {id:"stat3", label:"STAT3", degree:3, community:"signaling"},
+  {id:"cancer_stem_cells", label:"癌症幹細胞", degree:7, community:"signaling"},
+  {id:"oct4", label:"Oct4", degree:4, community:"signaling"},
+  {id:"sox2", label:"Sox2", degree:4, community:"signaling"},
+  {id:"p_gp", label:"P-gp", degree:1, community:"signaling"},
+  {id:"microtubule", label:"微管", degree:1, community:"machinery"},
+  {id:"tubulin", label:"α-微管蛋白", degree:2, community:"machinery"},
+  {id:"glut1", label:"GLUT1", degree:1, community:"machinery"},
+  {id:"hexokinase_2", label:"己糖激酶 2", degree:1, community:"machinery"},
+  {id:"benzimidazole", label:"苯並咪唑", degree:1, community:"machinery"},
+  {id:"warburg_effect", label:"瓦伯格效應", degree:3, community:"metabolism"},
+  {id:"glycolysis", label:"糖解", degree:4, community:"metabolism"},
+  {id:"glycolysis_warburg_effect", label:"糖解（瓦伯格）", degree:1, community:"metabolism"},
+  {id:"hif_1", label:"HIF-1α", degree:4, community:"metabolism"},
+  {id:"nad", label:"NAD+", degree:2, community:"nad"},
+  {id:"p53", label:"p53", degree:8, community:"p53"},
+  {id:"mdm2", label:"MDM2", degree:3, community:"p53"},
+  {id:"nf_b", label:"NF-κB", degree:5, community:"nfkb"},
+  {id:"apoptosis", label:"細胞凋亡", degree:4, community:"death"},
+  {id:"autophagy", label:"自噬", degree:2, community:"death"},
+  {id:"reactive_oxygen_species", label:"活性氧", degree:1, community:"death"},
+  {id:"sirt1", label:"SIRT1", degree:7, community:"sirtuins"},
+  {id:"sirt2", label:"SIRT2", degree:6, community:"sirtuins"},
+  {id:"sirt3", label:"SIRT3", degree:3, community:"sirtuins"},
+  {id:"sirt6", label:"SIRT6", degree:6, community:"sirtuins"},
+],
+edges: [
+  {"from":"reactive_oxygen_species","to":"nf_b","label":"activate"},
+  {"from":"apoptosis","to":"ivermectin","label":"is_induced_by"},
+  {"from":"apoptosis","to":"fenbendazole","label":"is_induced_by"},
+  {"from":"p53","to":"mdm2","label":"is_inhibited_by"},
+  {"from":"nad","to":"glycolysis","label":"required_for"},
+  {"from":"akt","to":"mtorc1","label":"activates"},
+  {"from":"mtorc1","to":"autophagy","label":"suppresses"},
+  {"from":"mtor","to":"mtorc1","label":"forms"},
+  {"from":"sirt1","to":"p53","label":"deacetylates"},
+  {"from":"sirt1","to":"nf_b","label":"deacetylates_p65"},
+  {"from":"sirt1","to":"hif_1","label":"inhibits"},
+  {"from":"sirt1","to":"stat3","label":"deacetylates"},
+  {"from":"sirt1","to":"tubulin","label":"deacetylates"},
+  {"from":"sirt1","to":"sirt6","label":"activates"},
+  {"from":"sirt1","to":"mtor","label":"inhibits"},
+  {"from":"sirt3","to":"hif_1","label":"destabilizes"},
+  {"from":"sirt3","to":"p53","label":"inhibits"},
+  {"from":"sirt3","to":"nf_b","label":"is_inhibited_by"},
+  {"from":"sirt6","to":"nf_b","label":"is_inhibited_by"},
+  {"from":"sirt6","to":"hif_1","label":"corepresses"},
+  {"from":"sirt6","to":"glycolysis_warburg_effect","label":"suppresses"},
+  {"from":"sirt6","to":"glycolysis","label":"suppresses"},
+  {"from":"sirt6","to":"p53","label":"is_activated_by"},
+  {"from":"sirt2","to":"nf_b","label":"is_inhibited_by"},
+  {"from":"sirt2","to":"tubulin","label":"deacetylates"},
+  {"from":"sirt2","to":"p53","label":"inhibits"},
+  {"from":"sirt2","to":"nad","label":"is_activated_by"},
+  {"from":"sirt2","to":"wnt","label":"is_inhibited_by"},
+  {"from":"sirt2","to":"akt","label":"is_inhibited_by"},
+  {"from":"yap1","to":"ivermectin","label":"is_inhibited_by"},
+  {"from":"ivermectin","to":"pak1","label":"promotes_degradation_of"},
+  {"from":"ivermectin","to":"yap1","label":"inhibits"},
+  {"from":"ivermectin","to":"wnt","label":"inhibits"},
+  {"from":"ivermectin","to":"akt","label":"inhibits"},
+  {"from":"ivermectin","to":"mtor","label":"inhibits"},
+  {"from":"ivermectin","to":"apoptosis","label":"induces"},
+  {"from":"ivermectin","to":"autophagy","label":"induces"},
+  {"from":"ivermectin","to":"cancer_stem_cells","label":"inhibits"},
+  {"from":"ivermectin","to":"p_gp","label":"inhibits"},
+  {"from":"ivermectin","to":"stat3","label":"suppresses"},
+  {"from":"ivermectin","to":"oct4","label":"suppresses"},
+  {"from":"ivermectin","to":"sox2","label":"suppresses"},
+  {"from":"fenbendazole","to":"microtubule","label":"destabilizes"},
+  {"from":"fenbendazole","to":"glycolysis","label":"suppresses"},
+  {"from":"fenbendazole","to":"p53","label":"stabilizes"},
+  {"from":"fenbendazole","to":"apoptosis","label":"induces"},
+  {"from":"fenbendazole","to":"benzimidazole","label":"is_a_type_of"},
+  {"from":"fenbendazole","to":"glut1","label":"downregulates"},
+  {"from":"fenbendazole","to":"hexokinase_2","label":"inhibits"},
+  {"from":"mdm2","to":"p53","label":"blocks"},
+  {"from":"mdm2","to":"fenbendazole","label":"is_downregulated_by"},
+  {"from":"warburg_effect","to":"glycolysis","label":"involves"},
+  {"from":"warburg_effect","to":"hif_1","label":"is_driven_by"},
+  {"from":"warburg_effect","to":"p53","label":"is_suppressed_by"},
+  {"from":"cancer_stem_cells","to":"pak1","label":"are_regulated_by"},
+  {"from":"cancer_stem_cells","to":"stat3","label":"are_regulated_by"},
+  {"from":"cancer_stem_cells","to":"ivermectin","label":"is_suppressed_by"},
+  {"from":"cancer_stem_cells","to":"oct4","label":"express"},
+  {"from":"cancer_stem_cells","to":"sox2","label":"express"},
+  {"from":"pak1","to":"cancer_stem_cells","label":"regulates"},
+  {"from":"pak1","to":"ivermectin","label":"is_inhibited_by"},
+  {"from":"oct4","to":"sox2","label":"forms_heterodimer_with"},
+  {"from":"sox2","to":"oct4","label":"forms_heterodimer_with"},
+]};
+
+const netColor = {
+  ivermectin:'#3EC9A7', fenbendazole:'#F5A65B',
+  sirt1:'#E8A33D', sirt2:'#9D8DF1', sirt3:'#58D68D', sirt6:'#5DA8FF',
+};
+function nodeColor(id, community){
+  if (netColor[id]) return netColor[id];
+  if (community==='signaling') return '#7fd1c3';
+  if (community==='machinery') return '#f8c891';
+  if (community==='metabolism') return '#E8C65B';
+  if (community==='p53') return '#b39df7';
+  if (community==='nfkb') return '#E4575E';
+  if (community==='death') return '#8febc4';
+  if (community==='nad') return '#F283B2';
+  return '#8b8bb0';
+}
+
+const legendDefs = [
+  ['#3EC9A7','伊維菌素'],['#7fd1c3','訊號標靶（PAK1 · YAP1 · STAT3 · Akt/mTOR · 癌症幹細胞）'],
+  ['#F5A65B','芬苯達唑'],['#f8c891','結構/代謝標靶（微管蛋白 · GLUT1 · 己糖激酶 2）'],
+  ['#E8C65B','瓦伯格 / 代謝 / HIF-1α'],['#b39df7','p53 · MDM2'],['#E4575E','NF-κB'],
+  ['#8febc4','細胞死亡（凋亡 · 自噬 · ROS）'],['#F283B2','NAD+'],
+  ['#E8A33D','SIRT1'],['#9D8DF1','SIRT2'],['#58D68D','SIRT3'],['#5DA8FF','SIRT6']
+];
+
+renderNetwork('netSvg', netData, nodeColor, legendDefs);
+
+['divisionSvg','sirtMapSvg','nadSvg','lineageSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
+</script>
+</body>
+</html>

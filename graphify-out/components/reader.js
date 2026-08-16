@@ -11,22 +11,44 @@ export const ARTICLES = [
     id: 'sirtuin-pleiotropy',
     title: 'Sirtuins - Pleiotropy in Tumor Cell Metabolism',
     path: 'pages/sirtuins_pleiotropic_roles.html',
+    created: '2026-08-13',
+    updated: '2026-08-15',
     default: true,
   },
   {
     id: 'sirtuin-pleiotropy-zh',
     title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
     path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
+    created: '2026-08-14',
+    updated: '2026-08-16',
   },
   {
     id: 'sirtuin-disease-complications',
     title: 'Sirtuins - Disease Complications',
     path: 'pages/sirtuins_disease_complications.html',
+    created: '2026-08-14',
+    updated: '2026-08-15',
   },
   {
     id: 'sirtuin-disease-complications-zh',
     title: 'Sirtuins - 疾病併發症（繁體中文）',
     path: 'pages/sirtuins_disease_complications_zh-TW.html',
+    created: '2026-08-14',
+    updated: '2026-08-15',
+  },
+  {
+    id: 'ivermectin-fenbendazole-anticancer',
+    title: 'Ivermectin × Fenbendazole (complementary anticancer mechanisms)',
+    path: 'pages/ivermectin-fenbendazole-anticancer.html',
+    created: '2026-08-16',
+    updated: '2026-08-16',
+  },
+  {
+    id: 'ivermectin-fenbendazole-anticancer-zh',
+    title: '伊維菌素 × 芬苯達唑（互補抗癌機制）（繁體中文）',
+    path: 'pages/ivermectin-fenbendazole-anticancer_zh-TW.html',
+    created: '2026-08-16',
+    updated: '2026-08-16',
   }
 ];
 
