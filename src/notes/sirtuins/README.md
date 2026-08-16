@@ -136,67 +136,67 @@ updated: 2026-08-15
 
 ### Key Regulatory Proteins (Sirtuin Targets/Effectors)
 
-| Entity | entity_type_1 | Description |
-|--------|--------------|-------------|
-| [[PGC-1α]] | Protein | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective |
-| [[Mitochondrial Biogenesis]] | Biological Process | PGC-1α/AMPK/p38-regulated de novo mitochondrial formation; central hub in `notes/_link/Mitochondrial Biogenesis.md` |
-| [[p53]] | Protein | Tumour suppressor; deacetylated by SIRT1; SIRT1–HIC1–p53 feedback loop |
-| [[FoxO1]] | Protein | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
-| [[FOXO3a]] | Protein | Forkhead transcription factor; SIRT1 deacetylation shifts output from apoptosis to stress survival |
-| [[FOXO4]] | Protein | Forkhead transcription factor; deacetylated by SIRT1 to enhance antioxidant defense via GADD45 |
-| [[DAF-16]] | Protein | Nematode FOXO orthologue required for sirtuin-mediated lifespan extension |
-| [[Ku70]] | Protein | DNA repair protein; deacetylated by SIRT1 to sequester Bax and prevent stress-induced apoptosis |
-| [[E2F1]] | Protein | Cell cycle and apoptosis regulator; forms a negative feedback loop with SIRT1 |
-| [[p73]] | Protein | Tumour suppressor related to p53; deacetylated and inhibited by SIRT1 |
-| [[Smad7]] | Protein | TGF-β antagonist; deacetylated by SIRT1 to promote its degradation and protect mesangial cells |
-| [[HIC1]] | Protein | Transcriptional repressor; represses SIRT1; forms HIC1–SIRT1–p53 feedback loop |
-| [[Adiponectin]] | Protein | Adipocyte-derived hormone; transcription activated by SIRT1 via FOXO1 deacetylation |
-| [[AceCS1]] | Enzyme | Cytoplasmic acetyl-CoA synthetase; deacetylated and activated by SIRT1 |
-| [[AceCS2]] | Enzyme | Mitochondrial acetyl-CoA synthetase; deacetylated and activated by SIRT3 |
-| [[NAMPT]] | Enzyme | Rate-limiting enzyme of NAD⁺ salvage; converts nicotinamide to NMN; critical upstream regulator of sirtuins |
-| [[CPS1]] | Enzyme | Rate-limiting enzyme of the urea cycle; mitochondrial; desuccinylated and activated by SIRT5 |
-| [[UCP2]] | Protein | Uncoupling protein 2; transcriptionally repressed by SIRT1 in pancreatic β-cells to enhance ATP |
-| [[Glutamate Dehydrogenase (GDH)]] | Enzyme | Mitochondrial enzyme; mono-ADP-ribosylated and inhibited by SIRT4 in pancreatic β-cells |
-| [[TRPM2]] | Ion Channel | Cation channel gated by sirtuin reaction by-product OAADPr; regulates cell death |
-| [[TAFI68]] | Protein | Ribosome biogenesis factor (TAF1B); deacetylated by SIRT1 to repress RNA Pol I transcription |
-| [[MEF2D]] | Protein | Muscle transcription factor; deacetylated by SIRT1 to promote sumoylation by HDAC4, repressing myogenesis |
-| [[PML]] | Protein | Tumor suppressor; recruits SIRT1 and p53 to nuclear bodies where SIRT1 deacetylates p53 to rescue from senescence |
-| [[CDC14B]] | Protein | Mitotic phosphatase; dephosphorylates and destabilizes SIRT2, triggering proteasomal degradation |
-| [[MyoD]] | Protein | Myogenic transcription factor; deacetylated and inactivated by SIRT1, repressing muscle gene expression |
-| [[NFKB|NF-κB (RelA/p65)]] | Protein | Master inflammatory transcription factor; deacetylated/suppressed by SIRT1 and SIRT2, repressed epigenetically by SIRT6 |
-| [[eNOS]] | Enzyme | Endothelial nitric oxide synthase; deacetylated/activated by SIRT1; promotes vasodilation |
-| [[CREB]] | Protein | cAMP Response Element Binding protein; deacetylated by SIRT1 at K136; regulates lipid metabolism |
-| [[MnSOD]] | Enzyme | Mitochondrial superoxide dismutase; deacetylated/activated by SIRT3 at K68/K122; antioxidant |
-| [[PTP1B]] | Enzyme | Protein tyrosine phosphatase 1B; downregulated by SIRT1; increases insulin sensitivity |
-| [[SERCA2a]] | Protein | Cardiac Ca²⁺-ATPase; deacetylated/activated by SIRT1 at K492; restores contractile function |
-| [[GATA4]] | Protein | Cardiac transcription factor; deacetylated by SIRT7; anti-hypertrophic |
-| [[Androgen receptor]] | Protein | Nuclear receptor; deacetylated by SIRT1 at K630; represses oncogenic signalling |
-| [[HNF4α]] | Protein | Hepatocyte nuclear factor 4α; deacetylated by SIRT2; prevents hepatic steatosis |
-| [[TIMP3]] | Protein | Tissue inhibitor of metalloproteinases 3; regulated by SIRT1; vascular protection |
-| [[ACC1]] | Enzyme | Acetyl-CoA carboxylase 1; deacetylated by SIRT3; promotes de novo lipogenesis |
-| [[LDHB]] | Enzyme | Lactate dehydrogenase B; deacetylated by SIRT5; hyperactivates autophagy |
-| [[OSCP]] | Protein | ATP synthase peripheral stalk subunit; deacetylated by SIRT3; optimizes energy output |
-| [[GLUT2]] | Protein | Glucose transporter 2; expression increased by SIRT6 via FoxO1 deacetylation |
-| [[GATA5]] | Protein | GATA binding protein 5; induced by SIRT6; prevents endothelial injury |
-| [[Lox-1]] | Protein | Lectin-like oxidized LDL receptor 1; suppressed by SIRT1; reduces foam cell formation |
-| [[Histone H1]] | Protein | Linker histone; deacetylated by SIRT1 at K9/K26; chromatin structure |
-| [[Histone H4]] | Protein | Core histone; deacetylated at K16 by SIRT1 and SIRT2; mitotic chromatin condensation |
-| [[Histone H2A.Z]] | Protein | Histone variant; deacetylated by SIRT1 at K115/K121; protects against cardiac hypertrophy |
-| [[Hes1 and Hey2]] | Protein | bHLH Notch repressors; interact with SIRT1; modulate transcriptional repression |
-| [[BMAL1]] | Protein | Core circadian clock TF; deacetylated/activated by SIRT1; drives NAMPT/NAD⁺ rhythmicity |
-| [[CLOCK]] | Protein | Core circadian clock TF; heterodimerizes with BMAL1; deacetylated/activated by SIRT1 |
-| [[Liver X Receptor]] | Protein | Nuclear receptor (LXR); deacetylated/modulated by SIRT1 in lipid/cholesterol metabolism |
-| [[Lipid Metabolism]] | Biological Process | Synthesis/oxidation of lipids; gated by SIRT1 via PGC-1α, LXR, FOXO, CREB |
-| [[HOXA10]] | Protein | Homeobox transcription factor; interacts with SIRT2; embryogenesis |
-| [[p33ING1b]] | Protein | Inhibitor of growth protein 1; inhibits SIRT1 deacetylation of p53; tumour suppressor |
-| [[ADAM10]] | Enzyme | Principal α-secretase; induced by SIRT1→RARβ; shifts APP away from β-secretase, attenuating β-amyloid |
-| [[IDH2]] | Enzyme | Mitochondrial isocitrate dehydrogenase; deacetylated/activated by SIRT3 to regenerate glutathione and lower ROS |
-| [[OX2R]] | Receptor | Orexin receptor type 2; upregulated by SIRT1 (via NKX2-1) in hypothalamus; mediates BRASTO lifespan extension |
-| [[CtIP]] | Protein | DNA end-resection factor; deacetylated by SIRT6; supports homologous recombination and genome stability |
-| [[SREBP2]] | Transcription Factor | Lipogenic/cholesterol transcription factor; negatively regulated by SIRT6 |
-| [[ELK4]] | Protein | ETS-domain ternary complex factor; stabilizes SIRT7 at target promoters for H3K18 deacetylation |
-| [[ELK1]] | Protein | Founding member of the ETS ternary complex factor subfamily; ERK/MAPK target; reference point for ELK4-mediated SIRT7 recruitment |
-| [[ETS]] | Transcription Factor | ETS-domain transcription factor family; ELK4 member recruits SIRT7 in tumor suppressor gene repression |
+| Entity                            | entity_type_1        | Description                                                                                                                       |
+| --------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [[PGC-1α]]                        | Protein              | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective                                    |
+| [[Mitochondrial Biogenesis]]      | Biological Process   | PGC-1α/AMPK/p38-regulated de novo mitochondrial formation; central hub in `notes/_link/Mitochondrial Biogenesis.md`               |
+| [[p53]]                           | Protein              | Tumour suppressor; deacetylated by SIRT1; SIRT1–HIC1–p53 feedback loop                                                            |
+| [[FoxO1]]                         | Protein              | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival                                         |
+| [[FOXO3a]]                        | Protein              | Forkhead transcription factor; SIRT1 deacetylation shifts output from apoptosis to stress survival                                |
+| [[FOXO4]]                         | Protein              | Forkhead transcription factor; deacetylated by SIRT1 to enhance antioxidant defense via GADD45                                    |
+| [[DAF-16]]                        | Protein              | Nematode FOXO orthologue required for sirtuin-mediated lifespan extension                                                         |
+| [[Ku70]]                          | Protein              | DNA repair protein; deacetylated by SIRT1 to sequester Bax and prevent stress-induced apoptosis                                   |
+| [[E2F1]]                          | Protein              | Cell cycle and apoptosis regulator; forms a negative feedback loop with SIRT1                                                     |
+| [[p73]]                           | Protein              | Tumour suppressor related to p53; deacetylated and inhibited by SIRT1                                                             |
+| [[Smad7]]                         | Protein              | TGF-β antagonist; deacetylated by SIRT1 to promote its degradation and protect mesangial cells                                    |
+| [[HIC1]]                          | Protein              | Transcriptional repressor; represses SIRT1; forms HIC1–SIRT1–p53 feedback loop                                                    |
+| [[Adiponectin]]                   | Protein              | Adipocyte-derived hormone; transcription activated by SIRT1 via FOXO1 deacetylation                                               |
+| [[AceCS1]]                        | Enzyme               | Cytoplasmic acetyl-CoA synthetase; deacetylated and activated by SIRT1                                                            |
+| [[AceCS2]]                        | Enzyme               | Mitochondrial acetyl-CoA synthetase; deacetylated and activated by SIRT3                                                          |
+| [[NAMPT]]                         | Enzyme               | Rate-limiting enzyme of NAD⁺ salvage; converts nicotinamide to NMN; critical upstream regulator of sirtuins                       |
+| [[CPS1]]                          | Enzyme               | Rate-limiting enzyme of the urea cycle; mitochondrial; desuccinylated and activated by SIRT5                                      |
+| [[UCP2]]                          | Protein              | Uncoupling protein 2; transcriptionally repressed by SIRT1 in pancreatic β-cells to enhance ATP                                   |
+| [[Glutamate Dehydrogenase (GDH)]] | Enzyme               | Mitochondrial enzyme; mono-ADP-ribosylated and inhibited by SIRT4 in pancreatic β-cells                                           |
+| [[TRPM2]]                         | Ion Channel          | Cation channel gated by sirtuin reaction by-product OAADPr; regulates cell death                                                  |
+| [[TAFI68]]                        | Protein              | Ribosome biogenesis factor (TAF1B); deacetylated by SIRT1 to repress RNA Pol I transcription                                      |
+| [[MEF2D]]                         | Protein              | Muscle transcription factor; deacetylated by SIRT1 to promote sumoylation by HDAC4, repressing myogenesis                         |
+| [[PML]]                           | Protein              | Tumor suppressor; recruits SIRT1 and p53 to nuclear bodies where SIRT1 deacetylates p53 to rescue from senescence                 |
+| [[CDC14B]]                        | Protein              | Mitotic phosphatase; dephosphorylates and destabilizes SIRT2, triggering proteasomal degradation                                  |
+| [[MyoD]]                          | Protein              | Myogenic transcription factor; deacetylated and inactivated by SIRT1, repressing muscle gene expression                           |
+| [[NFKB\|NF-κB (RelA/p65)]]        | Protein              | Master inflammatory transcription factor; deacetylated/suppressed by SIRT1 and SIRT2, repressed epigenetically by SIRT6           |
+| [[eNOS]]                          | Enzyme               | Endothelial nitric oxide synthase; deacetylated/activated by SIRT1; promotes vasodilation                                         |
+| [[CREB]]                          | Protein              | cAMP Response Element Binding protein; deacetylated by SIRT1 at K136; regulates lipid metabolism                                  |
+| [[MnSOD]]                         | Enzyme               | Mitochondrial superoxide dismutase; deacetylated/activated by SIRT3 at K68/K122; antioxidant                                      |
+| [[PTP1B]]                         | Enzyme               | Protein tyrosine phosphatase 1B; downregulated by SIRT1; increases insulin sensitivity                                            |
+| [[SERCA2a]]                       | Protein              | Cardiac Ca²⁺-ATPase; deacetylated/activated by SIRT1 at K492; restores contractile function                                       |
+| [[GATA4]]                         | Protein              | Cardiac transcription factor; deacetylated by SIRT7; anti-hypertrophic                                                            |
+| [[Androgen receptor]]             | Protein              | Nuclear receptor; deacetylated by SIRT1 at K630; represses oncogenic signalling                                                   |
+| [[HNF4α]]                         | Protein              | Hepatocyte nuclear factor 4α; deacetylated by SIRT2; prevents hepatic steatosis                                                   |
+| [[TIMP3]]                         | Protein              | Tissue inhibitor of metalloproteinases 3; regulated by SIRT1; vascular protection                                                 |
+| [[ACC1]]                          | Enzyme               | Acetyl-CoA carboxylase 1; deacetylated by SIRT3; promotes de novo lipogenesis                                                     |
+| [[LDHB]]                          | Enzyme               | Lactate dehydrogenase B; deacetylated by SIRT5; hyperactivates autophagy                                                          |
+| [[OSCP]]                          | Protein              | ATP synthase peripheral stalk subunit; deacetylated by SIRT3; optimizes energy output                                             |
+| [[GLUT2]]                         | Protein              | Glucose transporter 2; expression increased by SIRT6 via FoxO1 deacetylation                                                      |
+| [[GATA5]]                         | Protein              | GATA binding protein 5; induced by SIRT6; prevents endothelial injury                                                             |
+| [[Lox-1]]                         | Protein              | Lectin-like oxidized LDL receptor 1; suppressed by SIRT1; reduces foam cell formation                                             |
+| [[Histone H1]]                    | Protein              | Linker histone; deacetylated by SIRT1 at K9/K26; chromatin structure                                                              |
+| [[Histone H4]]                    | Protein              | Core histone; deacetylated at K16 by SIRT1 and SIRT2; mitotic chromatin condensation                                              |
+| [[Histone H2A.Z]]                 | Protein              | Histone variant; deacetylated by SIRT1 at K115/K121; protects against cardiac hypertrophy                                         |
+| [[Hes1 and Hey2]]                 | Protein              | bHLH Notch repressors; interact with SIRT1; modulate transcriptional repression                                                   |
+| [[BMAL1]]                         | Protein              | Core circadian clock TF; deacetylated/activated by SIRT1; drives NAMPT/NAD⁺ rhythmicity                                           |
+| [[CLOCK]]                         | Protein              | Core circadian clock TF; heterodimerizes with BMAL1; deacetylated/activated by SIRT1                                              |
+| [[Liver X Receptor]]              | Protein              | Nuclear receptor (LXR); deacetylated/modulated by SIRT1 in lipid/cholesterol metabolism                                           |
+| [[Lipid Metabolism]]              | Biological Process   | Synthesis/oxidation of lipids; gated by SIRT1 via PGC-1α, LXR, FOXO, CREB                                                         |
+| [[HOXA10]]                        | Protein              | Homeobox transcription factor; interacts with SIRT2; embryogenesis                                                                |
+| [[p33ING1b]]                      | Protein              | Inhibitor of growth protein 1; inhibits SIRT1 deacetylation of p53; tumour suppressor                                             |
+| [[ADAM10]]                        | Enzyme               | Principal α-secretase; induced by SIRT1→RARβ; shifts APP away from β-secretase, attenuating β-amyloid                             |
+| [[IDH2]]                          | Enzyme               | Mitochondrial isocitrate dehydrogenase; deacetylated/activated by SIRT3 to regenerate glutathione and lower ROS                   |
+| [[OX2R]]                          | Receptor             | Orexin receptor type 2; upregulated by SIRT1 (via NKX2-1) in hypothalamus; mediates BRASTO lifespan extension                     |
+| [[CtIP]]                          | Protein              | DNA end-resection factor; deacetylated by SIRT6; supports homologous recombination and genome stability                           |
+| [[SREBP2]]                        | Transcription Factor | Lipogenic/cholesterol transcription factor; negatively regulated by SIRT6                                                         |
+| [[ELK4]]                          | Protein              | ETS-domain ternary complex factor; stabilizes SIRT7 at target promoters for H3K18 deacetylation                                   |
+| [[ELK1]]                          | Protein              | Founding member of the ETS ternary complex factor subfamily; ERK/MAPK target; reference point for ELK4-mediated SIRT7 recruitment |
+| [[ETS]]                           | Transcription Factor | ETS-domain transcription factor family; ELK4 member recruits SIRT7 in tumor suppressor gene repression                            |
 
 ### Resveratrol Signalling Cascade
 
