@@ -167,7 +167,13 @@
           <button id="page-modal-close" title="Close / 關閉">&times;</button>
         </div>
       </div>
-      <select id="reader-select" title="Choose article / 選擇文章"></select>
+      <div class="page-modal-controls">
+        <select id="reader-select" title="Choose article / 選擇文章"></select>
+        <div class="lang-toggle" id="reader-lang" role="group" aria-label="Language / 語言">
+          <button type="button" data-lang="en-US" title="English (US)">en-US</button>
+          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">zh-TW</button>
+        </div>
+      </div>
     </div>
     <iframe id="page-modal-frame" title="Reader"></iframe>
   </div>
