@@ -8,6 +8,7 @@ import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
+  restoreDefaultLabels,
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
@@ -24,7 +25,9 @@ const chatSend = document.getElementById('chat-send');
 const chatMaximizeBtn = document.getElementById('chat-maximize');
 const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
-const chatHighlightBadge = document.getElementById('chat-highlight-badge');
+const chatFilterToggle = document.getElementById('chat-filter-toggle');
+const chatFilterCheckbox = document.getElementById('chat-filter-nodes');
+const chatFilterCount = document.getElementById('chat-filter-count');
 const chatModes = document.getElementById('chat-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const graphifyOps = document.getElementById('graphify-ops');
@@ -1117,8 +1120,11 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 
   setLabelVisibility(idSet);
 
-  // Show highlight badge
-  chatHighlightBadge.classList.add('visible');
+  // Offer node filtering with a count of highlighted nodes
+  chatFilterToggle.classList.add('visible');
+  chatFilterCheckbox.disabled = false;
+  chatFilterCount.textContent = nodeIds.length;
+  applyChatNodeFilter();
 
   // Frame the camera on the primary node (if any), positioning it toward the
   // top-left of the viewport so the side panel on the right doesn't cover it.
@@ -1158,12 +1164,40 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 function clearChatHighlights() {
   chatHighlightedNodes = [];
   chatHighlightedEdges = [];
-  chatHighlightBadge.classList.remove('visible');
+  chatFilterToggle.classList.remove('visible');
+  chatFilterCheckbox.checked = false;
+  chatFilterCheckbox.disabled = true;
+  chatFilterCount.textContent = '0';
+  applyChatNodeFilter();
 
   resetVisualState();
 }
 
-chatHighlightBadge.addEventListener('click', clearChatHighlights);
+// Toggle whether the graph is cropped down to just the highlighted nodes (and
+// the edges between them). OFF keeps the full graph with the highlight styling;
+// ON hides every node/edge outside the highlighted set.
+function applyChatNodeFilter() {
+  const enabled = !!(chatFilterCheckbox && chatFilterCheckbox.checked);
+  const idSet = new Set(chatHighlightedNodes);
+
+  nodeMeshes.forEach(m => {
+    m.visible = !enabled || idSet.has(m.userData.nodeId);
+  });
+  edgeObjects.forEach(line => {
+    const { edge } = line.userData;
+    line.visible = !enabled || (idSet.has(edge.from) && idSet.has(edge.to));
+  });
+
+  if (chatHighlightedNodes.length) {
+    // Whatever the filter state, labels track the highlighted set (visibility
+    // of non-highlighted meshes is already handled above).
+    setLabelVisibility(idSet);
+  } else {
+    restoreDefaultLabels();
+  }
+}
+
+chatFilterCheckbox.addEventListener('change', applyChatNodeFilter);
 
 // ------------------------------------------------------------
 // Init
