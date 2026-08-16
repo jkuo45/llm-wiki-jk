@@ -3054,5 +3054,301 @@
     "context": "SRC kinase promotes degradation of Bik. SRC is a non-receptor tyrosine kinase that promotes survival and, notably, phosphorylates and inactivates caspase-8 and Bik. Bik is a BH3-only protein that directly activates Bax/Bak and is itself suppressed by oncogenic kinase signaling. The relationship is directional, with SRC kinase acting as the operative agent upon Bik rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
     "confidence": 0.95,
     "source_document": "SRC kinase.md"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "is_precursor_of",
+    "object": "Ivermectin",
+    "context": "Avermectin B1a is the natural macrocyclic-lactone precursor of ivermectin (22,23-dihydroavermectin B1a), the semi-synthetic lead derivative developed for human and veterinary medicine.",
+    "confidence": 0.97,
+    "source_document": "Avermectin.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "is_derived_from",
+    "object": "Avermectin",
+    "context": "Ivermectin is the 22,23-dihydro derivative of avermectin B1a, produced by chemical reduction of the natural avermectin fermentation product.",
+    "confidence": 0.97,
+    "source_document": "Ivermectin.md"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "is_produced_by",
+    "object": "Streptomyces avermectinius",
+    "context": "Avermectins are 16-membered macrocyclic lactones biosynthesized by the soil actinomycete Streptomyces avermectinius (formerly S. avermitilis).",
+    "confidence": 0.97,
+    "source_document": "Avermectin.md"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "acts_as_agonist_of",
+    "object": "Glutamate-gated Cl- channels",
+    "context": "Avermectins are allosteric potentiators/agonists of invertebrate glutamate-gated chloride channels (GluCls); Cl- influx hyperpolarizes and paralyzes parasites.",
+    "confidence": 0.95,
+    "source_document": "Avermectin.md"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "acts_as_agonist_of",
+    "object": "GABA-gated chloride channels",
+    "context": "Avermectins also potentiate invertebrate GABA-gated chloride channels; vertebrate GABA_A receptors require roughly 100-fold higher concentrations, underpinning selective safety.",
+    "confidence": 0.9,
+    "source_document": "Avermectin.md"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "is_repositioned_for",
+    "object": "Cancer",
+    "context": "Avermectin's derivative ivermectin is under active preclinical investigation for anticancer repositioning (Wnt/beta-catenin, AKT/mTOR and PAK1 inhibition; apoptosis; multidrug-resistance reversal).",
+    "confidence": 0.7,
+    "source_document": "Avermectin.md"
+  },
+  {
+    "subject": "Glutamate-gated Cl- channels",
+    "predicate": "is_activated_by",
+    "object": "Ivermectin",
+    "context": "Ivermectin is a positive allosteric modulator/agonist of invertebrate glutamate-gated chloride channels, causing sustained Cl- influx and parasite paralysis.",
+    "confidence": 0.95,
+    "source_document": "Glutamate-gated Cl- channels.md"
+  },
+  {
+    "subject": "Glutamate-gated Cl- channels",
+    "predicate": "is_absent_in",
+    "object": "Humans",
+    "context": "Humans and other vertebrates lack glutamate-gated chloride channels, which underpins the selective safety of avermectin/ivermectin at therapeutic doses.",
+    "confidence": 0.9,
+    "source_document": "Glutamate-gated Cl- channels.md"
+  },
+  {
+    "subject": "Glutamate-gated Cl- channels",
+    "predicate": "mediates",
+    "object": "Parasiticidal effect",
+    "context": "Activation of GluCls in nematodes and arthropods drives Cl- influx, membrane hyperpolarization, flaccid paralysis and death.",
+    "confidence": 0.9,
+    "source_document": "Glutamate-gated Cl- channels.md"
+  },
+  {
+    "subject": "Kitasato Institute",
+    "predicate": "is_affiliated_with",
+    "object": "Satoshi Ōmura",
+    "context": "Satoshi Omura performed the soil-microbe screening that isolated Streptomyces avermectinius at the Kitasato Institute, Tokyo.",
+    "confidence": 0.97,
+    "source_document": "Kitasato Institute.md"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "was_discovered_at",
+    "object": "Kitasato Institute",
+    "context": "Avermectin was discovered from a soil actinomycete isolated at the Kitasato Institute; the lead strain yielded the ivermectin precursor.",
+    "confidence": 0.95,
+    "source_document": "Kitasato Institute.md"
+  },
+  {
+    "subject": "Streptomyces avermectinius",
+    "predicate": "was_isolated_at",
+    "object": "Kitasato Institute",
+    "context": "The avermectin-producing strain Streptomyces avermectinius was isolated from Japanese soil at the Kitasato Institute.",
+    "confidence": 0.95,
+    "source_document": "Kitasato Institute.md"
+  },
+  {
+    "subject": "Satoshi Ōmura",
+    "predicate": "discovered",
+    "object": "Streptomyces avermectinius",
+    "context": "Omura isolated and cultured Streptomyces avermectinius from Japanese soil, the sole known natural source of avermectins.",
+    "confidence": 0.97,
+    "source_document": "Satoshi Ōmura.md"
+  },
+  {
+    "subject": "Satoshi Ōmura",
+    "predicate": "was_awarded",
+    "object": "Nobel Prize in Physiology or Medicine",
+    "context": "Omura shared the 2015 Nobel Prize in Physiology or Medicine with William C. Campbell for the discovery of avermectin/ivermectin.",
+    "confidence": 0.98,
+    "source_document": "Satoshi Ōmura.md"
+  },
+  {
+    "subject": "Satoshi Ōmura",
+    "predicate": "is_affiliated_with",
+    "object": "Kitasato Institute",
+    "context": "Omura conducted the avermectin discovery research at the Kitasato Institute.",
+    "confidence": 0.97,
+    "source_document": "Satoshi Ōmura.md"
+  },
+  {
+    "subject": "William C. Campbell",
+    "predicate": "was_awarded",
+    "object": "Nobel Prize in Physiology or Medicine",
+    "context": "Campbell shared the 2015 Nobel Prize in Physiology or Medicine for developing avermectin into ivermectin.",
+    "confidence": 0.98,
+    "source_document": "William C. Campbell.md"
+  },
+  {
+    "subject": "William C. Campbell",
+    "predicate": "developed",
+    "object": "Ivermectin",
+    "context": "At Merck, Campbell led the effort to derivatize avermectin B1a into 22,23-dihydroavermectin B1a (ivermectin).",
+    "confidence": 0.97,
+    "source_document": "William C. Campbell.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "was_developed_by",
+    "object": "William C. Campbell",
+    "context": "Ivermectin was developed from avermectin by William C. Campbell and colleagues at Merck.",
+    "confidence": 0.97,
+    "source_document": "William C. Campbell.md"
+  },
+  {
+    "subject": "William C. Campbell",
+    "predicate": "is_associated_with",
+    "object": "Merck & Co. Inc",
+    "context": "Campbell's avermectin-to-ivermectin development was carried out at Merck & Co.",
+    "confidence": 0.95,
+    "source_document": "William C. Campbell.md"
+  },
+  {
+    "subject": "Leukemia",
+    "predicate": "is_a",
+    "object": "Cancer",
+    "context": "Leukemia is a clonal hematologic malignancy arising from abnormal hematopoietic stem/progenitor cells.",
+    "confidence": 0.97,
+    "source_document": "Leukemia.md"
+  },
+  {
+    "subject": "Leukemia",
+    "predicate": "originates_from",
+    "object": "Hematopoietic stem cells",
+    "context": "Leukemic clones derive from transformed hematopoietic stem or progenitor cells.",
+    "confidence": 0.9,
+    "source_document": "Leukemia.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Leukemia",
+    "context": "Ivermectin preferentially kills leukemia cells at low concentrations while sparing normal hematopoietic cells in preclinical screens (Tang et al., 2020; PMID 32971268).",
+    "confidence": 0.8,
+    "source_document": "Leukemia.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Leukemia",
+    "context": "Benzimidazole anthelmintics including fenbendazole show preclinical anticancer activity across leukemic models via microtubule disruption.",
+    "confidence": 0.7,
+    "source_document": "Leukemia.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "inhibits",
+    "object": "Leukemia",
+    "context": "Mebendazole exerts preclinical antileukemic effects through tubulin depolymerization and mitotic arrest.",
+    "confidence": 0.7,
+    "source_document": "Leukemia.md"
+  },
+  {
+    "subject": "Leukemia",
+    "predicate": "is_treated_by",
+    "object": "Chemotherapy",
+    "context": "Leukemia is treated with cytotoxic chemotherapy and, in selected cases, targeted agents; ivermectin's activity remains preclinical.",
+    "confidence": 0.9,
+    "source_document": "Leukemia.md"
+  },
+  {
+    "subject": "Cholangiocarcinoma",
+    "predicate": "is_a",
+    "object": "Cancer",
+    "context": "Cholangiocarcinoma is a malignancy of the bile-duct epithelium (adenocarcinoma).",
+    "confidence": 0.97,
+    "source_document": "Cholangiocarcinoma.md"
+  },
+  {
+    "subject": "Cholangiocarcinoma",
+    "predicate": "is_treated_by",
+    "object": "Chemotherapy",
+    "context": "First-line systemic therapy is gemcitabine plus cisplatin; options remain limited and prognosis poor.",
+    "confidence": 0.9,
+    "source_document": "Cholangiocarcinoma.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Cholangiocarcinoma",
+    "context": "Ivermectin suppresses cholangiocarcinoma cell proliferation and migration in preclinical models.",
+    "confidence": 0.7,
+    "source_document": "Cholangiocarcinoma.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "is_repositioned_for",
+    "object": "Cholangiocarcinoma",
+    "context": "Fenbendazole is under preclinical investigation for cholangiocarcinoma as part of the repurposed anthelmintic anticancer cluster.",
+    "confidence": 0.65,
+    "source_document": "Cholangiocarcinoma.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "inhibits",
+    "object": "Cholangiocarcinoma",
+    "context": "Mebendazole shows preclinical antiproliferative activity in cholangiocarcinoma via microtubule interference.",
+    "confidence": 0.65,
+    "source_document": "Cholangiocarcinoma.md"
+  },
+  {
+    "subject": "Cholangiocarcinoma",
+    "predicate": "expresses",
+    "object": "Cancer Stem Cells",
+    "context": "Cholangiocarcinoma harbors cancer stem-like cells that drive recurrence and chemoresistance.",
+    "confidence": 0.7,
+    "source_document": "Cholangiocarcinoma.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "is_a",
+    "object": "Benzimidazole",
+    "context": "Mebendazole is a benzimidazole anthelmintic in the same class as fenbendazole and albendazole.",
+    "confidence": 0.97,
+    "source_document": "Mebendazole.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "binds",
+    "object": "Tubulin",
+    "context": "Mebendazole binds the colchicine site of beta-tubulin, inhibiting microtubule polymerization (Sasaki et al., Mol Cancer Ther 2002).",
+    "confidence": 0.95,
+    "source_document": "Mebendazole.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "disrupts",
+    "object": "Microtubule",
+    "context": "By blocking tubulin polymerization, mebendazole disrupts the mitotic spindle, causing G2/M arrest and apoptosis.",
+    "confidence": 0.95,
+    "source_document": "Mebendazole.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "is_repositioned_for",
+    "object": "Cancer",
+    "context": "Mebendazole elicits potent antitumor effects in vitro and in vivo across multiple cancers (Mukhopadhyay et al., Clin Cancer Res 2002).",
+    "confidence": 0.8,
+    "source_document": "Mebendazole.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": "Mebendazole induces mitotic arrest and apoptosis in cancer cells via microtubule depolymerization.",
+    "confidence": 0.9,
+    "source_document": "Mebendazole.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "is_structurally_related_to",
+    "object": "Fenbendazole",
+    "context": "Mebendazole and fenbendazole are structurally related benzimidazole anthelmintics with overlapping anticancer mechanisms.",
+    "confidence": 0.95,
+    "source_document": "Mebendazole.md"
   }
 ]

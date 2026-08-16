@@ -79,8 +79,13 @@ aliases:
 - HMGB1 is a major mediator of sterile inflammation in tissue injury, ischemia-reperfusion injury, and metabolic disease
 - Blockade of HMGB1 (e.g., with anti-HMGB1 antibodies or glycyrrhizin) reduces inflammation in multiple disease models
 
+## Ivermectin & Immunogenic Cell Death
+
+In the ivermectin anticancer-repositioning literature, [[Ivermectin]] induces **immunogenic cell death (ICD)** in tumor cells, characterized by surface exposure of **calreticulin (CRT)** and **ATP** release, followed by **HMGB1 release**. HMGB1 is therefore a downstream DAMP/effector of ivermectin-triggered ICD, linking the antiparasitic's anticancer action to innate immune activation and an abscopal-like antitumor response (Tang et al., 2020; PMID 32971268). This positions HMGB1 as a mechanistic bridge between ivermectin and the SASP/DAMP inflammatory network already described above.
+
 ## Connections
 
+- [[Ivermectin]] — Induces ICD with HMGB1 release; mechanistic bridge to SASP/DAMP signaling
 - [[SASP]] — HMGB1 is a key SASP component that amplifies the inflammatory secretome
 - [[Senescent Cells]] — Source of extracellular HMGB1 via p53-dependent release
 - [[NF-kappaB]] — HMGB1 activates NF-κB through TLR4/RAGE signaling, sustaining SASP
@@ -102,9 +107,10 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Inflammasome]], [[Inflammaging]], [[RAGE]], [[TLR4]], [[Senescence Surveillance]]
-- Suggested new entity notes to create: None
+- New links added: [[Inflammasome]], [[Inflammaging]], [[RAGE]], [[TLR4]], [[Senescence Surveillance]], [[Ivermectin]], [[Calreticulin]], [[ATP]]
+- Suggested new entity notes to create: [[Calreticulin]], [[ATP]]
 - Strong connections to strengthen:
     - [[HMGB1]] ↔ [[SASP]]
     - [[HMGB1]] ↔ [[NF-kappaB]]
     - [[HMGB1]] ↔ [[Senescent Cells]]
+    - [[HMGB1]] ↔ [[Ivermectin]] (ivermectin-induced ICD with HMGB1 release)
