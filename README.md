@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_AUG_2026 | 30 | 1584 | 924,944 | 7.99 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 15_AUG_2026 | 30 | 1584 | 924,944 | 7.99 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 11_AUG_2026 | 19 | 262 | 200,668 | 2.24 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 09_AUG_2026 | 12 | 233 | 181,011 | 1.54 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_AUG_2026 | 11 | 269 | 236,901 | 2.45 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 09_AUG_2026 | 2 | 34 | 20,917 | 0.30 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 09_AUG_2026 | 9 | 195 | 198,594 | 1.75 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 27_JUL_2026 | 2 | 73 | 53,677 | 0.61 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 11_AUG_2026 | 1 | 65 | 68,432 | 0.76 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 14_AUG_2026 | 15 | 47 | 144,836 | 1.85 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 14_AUG_2026 | 14 | 148 | 263,527 | 2.89 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 15_AUG_2026 | 11 | 292 | 248,165 | 2.53 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 15_AUG_2026 | 2 | 44 | 25,152 | 0.33 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 15_AUG_2026 | 9 | 213 | 207,411 | 1.81 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 15_AUG_2026 | 2 | 91 | 62,530 | 0.67 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 15_AUG_2026 | 1 | 98 | 81,233 | 0.85 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 15_AUG_2026 | 15 | 65 | 153,906 | 1.92 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 15_AUG_2026 | 14 | 174 | 274,868 | 2.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_AUG_2026 | **115** | **2910** | **2,293,507** | **22.36 MB** |
+| **subtotal** | 15_AUG_2026 | **115** | **3056** | **2,359,888** | **22.86 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -90,7 +90,6 @@
 
 `from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
 
-- triples + graphify
 - example: suggested schedule (Resveratrol, and Creatine)
 	link to sinclair [resveratrol](https://x.com/davidasinclair/status/2076000921402675509)
 
@@ -111,7 +110,6 @@
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
     - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
     - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
-
 
 ---
 
@@ -244,13 +242,14 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (71 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (72 total)</strong> — click to expand</summary>
 
+- [task_output_sirtuin_research_gaps_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md) [[src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md|wiki]] (15_AUG_2026 03:41 PM PDT)
+- [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md|wiki]] (14_AUG_2026 07:15 PM PDT)
+- [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (14_AUG_2026 07:15 PM PDT)
 - [task_output_sirt1_ktype_allosteric_activation_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md) [[src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md|wiki]] (14_AUG_2026 06:33 PM PDT)
 - [task_output_benign_tumor_longevity_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_benign_tumor_longevity_14_August_2026.md) [[src/tasks/task_output_benign_tumor_longevity_14_August_2026.md|wiki]] (14_AUG_2026 05:19 PM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (13_AUG_2026 08:48 AM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md|wiki]] (11_AUG_2026 03:56 PM PDT)
-- [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (11_AUG_2026 08:43 AM PDT)
+- [task_output_sirtuins_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md|wiki]] (13_AUG_2026 08:48 AM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [task_output_adrenochrome_sirtuins_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md) [[src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
