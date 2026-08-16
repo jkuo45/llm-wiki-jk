@@ -168,8 +168,11 @@ a.data-source:hover { border-color: #6b9bc7; }
   border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0;
 }
 .page-modal-header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-#page-modal-header h2 { font-size: 16px; color: #e0e0e0; margin: 0; padding-right: 16px; white-space: nowrap; }
-#page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; }
+#page-modal-header h2 { font-size: 16px; color: #e0e0e0; margin: 0; padding-right: 8px; white-space: nowrap; }
+.page-modal-controls { display: flex; align-items: center; gap: 8px; width: 100%; }
+.page-modal-controls #reader-select { flex: 1; }
+.page-modal-controls .lang-toggle { flex-shrink: 0; }
+#page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; margin-left: auto; }
 #page-modal-open {
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
   color: #7cb3d4; display: inline-flex; align-items: center; justify-content: center;
@@ -186,16 +189,15 @@ a.data-source:hover { border-color: #6b9bc7; }
 #reader-prev:hover:not(:disabled) { border-color: #4E79A7; background: #2a2a4e; }
 #reader-prev:disabled { opacity: 0.35; cursor: default; }
 #reader-select {
-  flex: 1; min-width: 0;
+  flex: 1; min-width: 0; width: auto;
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
   color: #e0e0e0; font-size: 13px; padding: 6px 8px; cursor: pointer;
 }
 #reader-select:focus { outline: none; border-color: #4E79A7; }
-.page-modal-controls { display: flex; align-items: center; gap: 10px; }
 .lang-toggle { display: inline-flex; flex-shrink: 0; background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px; overflow: hidden; }
 .lang-toggle button {
   background: transparent; border: none; color: #888; font-size: 12px; line-height: 1;
-  padding: 8px 14px; cursor: pointer; transition: background 0.15s, color 0.15s;
+  padding: 8px 12px; cursor: pointer; transition: background 0.15s, color 0.15s;
 }
 .lang-toggle button + button { border-left: 1px solid #3a3a5e; }
 .lang-toggle button:hover:not(.active) { color: #e0e0e0; }
@@ -581,5 +583,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 /* Reader modal: header must fit within the viewport on smaller screens */
 @media (max-width: 1199px) {
   #page-modal-header { gap: 8px; padding: 10px 12px; }
-  #reader-select { min-width: 120px; }
+  #reader-select { min-width: 100px; }
+  #page-modal-header h2 { font-size: 14px; }
 }
