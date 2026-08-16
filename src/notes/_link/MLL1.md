@@ -1,30 +1,51 @@
 ---
 title: MLL1
-description: Histone-lysine N-methyltransferase 2A (KMT2A), the major H3K4me3 methyltransferase that restrains SASP by sustaining the DNA damage response in senescent cells.
+description: Histone-lysine N-methyltransferase 2A (KMT2A), the major H3K4me3 methyltransferase that regulates development and hematopoiesis, drives MLL-rearranged leukemias, and restrains SASP by sustaining the DNA damage response in senescent cells.
+protected: false
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-08-16
 tags:
   - enzyme
+  - gene
   - epigenetics
   - histone-methyltransferase
   - senescence
   - sasp
+  - leukemia
+  - cancer
 aliases:
   - KMT2A
   - Histone-lysine N-methyltransferase 2A
+  - Mixed Lineage Leukemia 1
+  - HRX
+  - ALL-1
+  - CXXC7
+url: #
+source: #
 ---
 
 # MLL1
 
-MLL1 (mixed-lineage leukemia 1), also known as KMT2A (histone-lysine N-methyltransferase 2A), is a histone methyltransferase that deposits the activating mark histone H3 lysine 4 trimethylation ([[H3K4me3]]) at promoters of actively transcribed genes. In senescence, MLL1 emerges as an unexpected brake on the [[SASP|Senescence-Associated Secretory Phenotype]]: its depletion or inhibition reduces SASP expression without releasing the senescence growth arrest, doing so primarily by impairing the [[DNA Damage Response|DNA damage response (DDR)]] rather than by removing H3K4me3.
-
 ## Overview
 
-MLL1 is a large (~400 kDa) SET-domain methyltransferase that methylates H3K4. It operates in multiprotein complexes containing WDR5, RBBP5, ASH2L, and DPY30 (the WRAD subcomplex) that are required for full catalytic activity. MLL1 is essential for maintaining H3K4me3 at promoters of housekeeping and developmental genes, and its N-terminal translocation partners (in MLL-rearranged leukemias) drive aberrant H3K4me3 at oncogenic loci.
+MLL1 (mixed-lineage leukemia 1), also known as KMT2A (histone-lysine N-methyltransferase 2A), is a [[histone methyltransferase]] that deposits the activating mark histone H3 lysine 4 trimethylation ([[H3K4me3]]) at promoters of actively transcribed genes, a hallmark of active [[transcription]]. It is a master regulator of [[HOX gene]] expression during [[development]] and [[hematopoiesis]]. In senescence, MLL1 emerges as an unexpected brake on the [[SASP|Senescence-Associated Secretory Phenotype]]: its depletion or inhibition reduces SASP expression without releasing the senescence growth arrest, doing so primarily by impairing the DNA damage response (DDR) rather than by removing H3K4me3.
 
-## Structure & Function
+## Structure & Domains
 
-The catalytic SET domain of MLL1 transfers methyl groups from SAM to H3K4. H3K4me3 is a canonical "active" mark recognized by chromatin readers (e.g., TAF3, ING proteins, BPTF) that promote transcription initiation. MLL1 complexes are recruited to chromatin through transcription-factor and CpG-island interactions, establishing bivalent and active promoter states during development and differentiation.
+- Contains multiple functional domains: AT-hooks, [[CXXC domain]] (binds unmethylated [[CpG islands]]), PHD fingers, bromodomain, and SET domain (catalytic).
+- The catalytic SET domain of MLL1 transfers methyl groups from SAM to H3K4.
+- [[Menin]] (encoded by [[MEN1]]) is a critical co-factor that recruits MLL1 to chromatin.
+- MLL1 operates in multiprotein complexes containing WDR5, RBBP5, ASH2L, and DPY30 (the WRAD subcomplex) that are required for full catalytic activity.
+
+## Function
+
+H3K4me3 is a canonical "active" mark recognized by chromatin readers (e.g., TAF3, ING proteins, BPTF) that promote transcription initiation. MLL1 complexes are recruited to chromatin through transcription-factor and CpG-island interactions, establishing bivalent and active promoter states during development and differentiation. MLL1 is essential for maintaining H3K4me3 at promoters of housekeeping and developmental genes, and its N-terminal translocation partners (in MLL-rearranged leukemias) drive aberrant H3K4me3 at oncogenic loci.
+
+## Role in Cancer: MLL Rearrangements
+
+- **[[MLL rearrangements]]**: Chromosomal translocations involving MLL1 at 11q23 produce oncogenic fusion proteins (e.g., MLL-AF4, MLL-AF9, MLL-ENL).
+- These fusions are found in aggressive [[leukemia|leukemias]], particularly infant leukemia and therapy-related AML.
+- The fusion proteins retain the N-terminal [[menin]]-binding domain, making menin inhibitors (e.g., [[revumenib]]/SNDX-5613) a therapeutic strategy.
 
 ## Role in Senescence / SASP
 
@@ -38,21 +59,27 @@ The review describes MLL1 as a histone methyltransferase responsible for H3K4me3
 
 ## Therapeutic Relevance
 
-MLL1/KMT2A inhibitors (e.g., menin-MLL1 interaction blockers such as revumenib/syros SNDX-5613) are in clinical trials for MLL-rearranged leukemias (NCT04065399, NCT03797109). The review notes that disrupting MLL1 epigenetics can suppress SASP without affecting growth arrest, supporting future repurposing of KMT2A-targeted agents as [[Senomorphic|senomorphics]] for age-related inflammation.
+MLL1/KMT2A inhibitors (e.g., menin-MLL1 interaction blockers such as [[revumenib]]/SNDX-5613) are in clinical trials for MLL-rearranged leukemias (NCT04065399, NCT03797109). The review notes that disrupting MLL1 epigenetics can suppress SASP without affecting growth arrest, supporting future repurposing of KMT2A-targeted agents as [[Senomorphic|senomorphics]] for age-related inflammation.
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review presents MLL1 (KMT2A) as the H3K4me3 methyltransferase whose depletion reduces SASP primarily by impairing DDR activation rather than by loss of H3K4me3, positioning MLL1 inhibition as a senomorphic strategy that spares the senescence arrest.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
+  - The review presents MLL1 (KMT2A) as the H3K4me3 methyltransferase whose depletion reduces SASP primarily by impairing DDR activation rather than by loss of H3K4me3, positioning MLL1 inhibition as a senomorphic strategy that spares the senescence arrest.
 
 ## Connections
 
 - [[EZH2]]: opposing H3K27me3 methyltransferase in senescence enhancer balance
 - [[H3K4me3]]: activating mark deposited by MLL1
-- [[DNA Damage Response]]: MLL1 loss impairs DDR, suppressing SASP
+- [[DNA Damage]]: MLL1 loss impairs the DDR that drives SASP
 - [[SASP|Senescence-Associated Secretory Phenotype]]: MLL1 is a senomorphic SASP regulator
+- [[Menin]]: Essential co-factor for MLL1 activity
+- [[HOX genes]]: Key transcriptional targets of MLL1
+- [[Leukemia]]: MLL rearrangements drive aggressive leukemias
+- [[KDM4]] / [[DOT1L]]: Other epigenetic SASP modulators with senomorphic knockdown phenotype
+- [[Senomorphic]]: MLL1 inhibition blunts SASP while preserving growth arrest
 
 ## Linking Summary
 
-- New links added: [[EZH2]], [[H3K4me3]], [[H3K27me3]], [[DNA Damage Response]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[Senomorphic]], [[Senescence]]
-- Suggested new entity notes to create: [[H3K4me3]], [[WRAD Complex]], [[Menin]]
-- Strong connections to strengthen: [[MLL1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (DDR-dependent senomorphic), [[MLL1]] ↔ [[EZH2]] (H3K4me3/H3K27me3 balance)
+- New links added: [[EZH2]], [[H3K4me3]], [[H3K27me3]], [[DNA Damage]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[DOT1L]], [[Senomorphic]], [[Senescence]], [[Menin]], [[SET domain]], [[CXXC domain]], [[HOX genes]], [[MLL rearrangements]], [[revumenib]]
+- Suggested new entity notes to create: [[H3K4me3]], [[WRAD Complex]], [[Menin]], [[Menin inhibitors]]
+- Strong connections to strengthen: [[MLL1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (DDR-dependent senomorphic), [[MLL1]] ↔ [[EZH2]] (H3K4me3/H3K27me3 balance), [[MLL1]] ↔ [[Menin]] (co-factor), [[MLL1]] ↔ [[Leukemia]] (translocations)

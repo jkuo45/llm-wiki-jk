@@ -29,7 +29,7 @@ The **[[NMDA receptor]]** (N-methyl-D-aspartate receptor) is a glutamate-gated i
 
 [[Honokiol]] blocks [[NMDA receptor]]-, glutamate-, and K<sup>+</sup>-evoked cationic influx and raises seizure threshold (i.p. 1 and 5 mg/kg; honokiol more potent than [[Magnolol]]). In ischemia-reperfusion, a key neuroprotective mechanism is **disruption of the PSD95–[[nNOS]] interaction** at the NMDA receptor complex, preventing Ca<sup>2+</sup>-dependent, neurotoxic [[Nitric Oxide]] production.
 
-> [!tip] Source: [[Neuro-Modulating Effects of Honokiol A Review]]
+> [!tip] Source: [[raw/_document_ - Neuro-Modulating Effects of Honokiol A Review]]
 > Honokiol protects the brain against ischemia-reperfusion injury by disrupting PSD95–nNOS coupling at the NMDA receptor, blocking NMDA-evoked calcium influx and downstream nitric-oxide-mediated neurotoxicity.
 
 ## Physiological Function

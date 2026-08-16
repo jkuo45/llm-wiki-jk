@@ -52,6 +52,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Atg16]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Part of the expansion complex required for LC3 lipidation. |
 | [[Atg16L1]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Required for the proper localization of the autophagic machinery. |
 | [[Atg17]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Scaffold protein for the Atg1/ULK1 initiation complex. |
+| [[ATGL]]                                      | 16_August_2026 09:50 AM PDT | Enzyme                    |         8          |      1      | Lipid-droplet TG lipase; provides lipid substrate for lipophagy; central hub in `notes/_link/ATGL.md`. |
 | [[Atg4]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      0      | Cysteine protease that processes Atg8 family proteins. |
 | [[Atg5]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Critical component of the expansion complex; essential for autophagosome formation. |
 | [[Atg7]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      0      | E1-like enzyme essential for Atg12 and Atg8/LC3 conjugation. |
@@ -102,6 +103,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Ketogenic Diet]]                            | 09_Jun_2026 10:15 AM PDT | Medical Treatment        |         8          |      1      | Dietary intervention that mimics fasting and induces autophagy. |
 | [[LC3]]                                       | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Gold-standard marker for autophagosome formation and flux. |
 | [[LKB1]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | Upstream kinase of AMPK; essential for energy-sensing induction. |
+| [[METTL3]]                                    | 16_August_2026 09:50 AM PDT | Enzyme                    |         8          |      0      | m6A writer that suppresses TFEB and regulates autophagy via ULK1/Beclin1/LC3B; central hub in `notes/_link/METTL3.md`. |
 | [[LPS]]                           | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         8          |      1      | Bacterial endotoxin that triggers TFE3 translocation. |
 | [[Macroautophagy]]                            | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      1      | Primary form of autophagy; essential for bulk recycling. |
 | [[Macrophage]]                    | 09_Jun_2026 10:15 AM PDT | Cell Type                |         8          |      1      | Immune cell utilizing autophagy for pathogen clearance. |
@@ -210,6 +212,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Vps15]]                                     | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      0      | Regulatory subunit of the Vps34 PI3K complex. |
 | [[Vps34]]                                     | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      1      | Class III PI3K essential for autophagosome nucleation via PI3P production. |
 | [[Yoshinori Ohsumi]]                          | 09_Jun_2026 10:15 AM PDT | Person                   |         4          |      1      | Nobel laureate who discovered the molecular mechanisms of autophagy in yeast. |
+| [[XBP1]]                                      | 16_August_2026 09:50 AM PDT | Transcription Factor     |         8          |      1      | IRE1-spliced bZIP transcription factor that activates Beclin1/LC3B autophagy; central hub in `notes/_link/XBP1.md`. |
 | [[ZKSCAN3]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Transcriptional repressor of autophagy and lysosomal genes, counteracting TFEB. |
 
 ## Consolidated to notes/_link/
