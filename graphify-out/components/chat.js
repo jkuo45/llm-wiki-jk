@@ -106,7 +106,29 @@ chatBtn.addEventListener('click', () => {
   chatBtn.innerHTML = chatOpen ? CLOSE_ICON : MSG_ICON;
   if (!chatOpen) setActiveWindow(null);
   if (chatOpen) chatInput.focus();
+  syncChatPanelKeyboard();
 });
+
+// Fix for mobile keyboards: on iOS (and older Android) the virtual keyboard
+// overlays fixed elements instead of resizing the layout viewport, so the
+// composer's send button gets buried under it. `visualViewport` reports the
+// visible area above the keyboard — raise the panel's bottom edge to match.
+// Android with `interactive-widget=resizes-content` already shrinks
+// `innerHeight`, so the offset self-corrects to zero there.
+function syncChatPanelKeyboard() {
+  if (!chatPanel) return;
+  if (!chatPanel.classList.contains('open') || !window.visualViewport) {
+    chatPanel.style.bottom = '';
+    return;
+  }
+  const keyboard = Math.max(0, window.innerHeight - window.visualViewport.height);
+  chatPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
+}
+if (window.visualViewport) {
+  window.visualViewport.addEventListener('resize', syncChatPanelKeyboard);
+}
+window.addEventListener('resize', syncChatPanelKeyboard);
+syncChatPanelKeyboard();
 
 const MAXIMIZE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>';
 const RESTORE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5V1H5"/><path d="M13 9V13H9"/><path d="M5 13H1V9"/><path d="M9 1H13V5"/></svg>';

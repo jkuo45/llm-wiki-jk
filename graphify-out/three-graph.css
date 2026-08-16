@@ -553,6 +553,10 @@ a.data-source:hover { border-color: #6b9bc7; }
   body:has(#chat-panel.open) #chat-btn { display: none; }
   #chat-header { padding-top: calc(14px + env(safe-area-inset-top)); }
   #chat-input-wrap { padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
+  /* >=16px font stops iOS auto-zoom on focus (the cause of the viewport
+     centering on the input); enlarge the send hit area + kill tap-zoom delay. */
+  #chat-input { font-size: 16px; }
+  #chat-send { min-width: 64px; min-height: 44px; touch-action: manipulation; }
   #chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
   #dataset-panel { padding: 16px 10px; }
   #dataset-panel .panel-scroll {
