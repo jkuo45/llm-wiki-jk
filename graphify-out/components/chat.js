@@ -106,33 +106,7 @@ chatBtn.addEventListener('click', () => {
   chatBtn.innerHTML = chatOpen ? CLOSE_ICON : MSG_ICON;
   if (!chatOpen) setActiveWindow(null);
   if (chatOpen) chatInput.focus();
-  positionChatBadge();
 });
-
-// Keep the "Highlighting active" badge out from under the large panel: while
-// the panel is open it sits on the graph side of it; otherwise above the
-// chat button. On small screens the panel spans the width, so the badge falls
-// back to its CSS position above the chat button.
-function positionChatBadge() {
-  if (window.innerWidth <= 480) {
-    chatHighlightBadge.style.top = 'auto';
-    chatHighlightBadge.style.bottom = '';
-    chatHighlightBadge.style.right = '';
-    return;
-  }
-  const open = chatPanel.classList.contains('open');
-  if (open) {
-    const panelW = Math.min(0.56 * window.innerWidth, 820);
-    chatHighlightBadge.style.bottom = 'auto';
-    chatHighlightBadge.style.top = '16px';
-    chatHighlightBadge.style.right = (panelW + 28) + 'px';
-  } else {
-    chatHighlightBadge.style.top = 'auto';
-    chatHighlightBadge.style.bottom = '92px';
-    chatHighlightBadge.style.right = '88px';
-  }
-}
-window.addEventListener('resize', positionChatBadge);
 
 const MAXIMIZE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>';
 const RESTORE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5V1H5"/><path d="M13 9V13H9"/><path d="M5 13H1V9"/><path d="M9 1H13V5"/></svg>';

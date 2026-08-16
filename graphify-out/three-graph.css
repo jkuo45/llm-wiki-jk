@@ -516,16 +516,16 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-tag-item .tag-degree { margin-left: auto; color: #666; font-size: 11px; flex-shrink: 0; }
 .chat-tag-item .tag-empty { color: #888; font-style: italic; }
 
-/* Chat highlight overlay indicator */
+/* Chat highlight indicator, shown in the chat header while graph highlights
+   are active. Clicking it clears the highlighted nodes/edges. */
 #chat-highlight-badge {
-  position: fixed; bottom: 92px; right: 88px; z-index: 280;
-  background: #4E79A7; color: #fff; font-size: 12px;
-  padding: 4px 10px; border-radius: 12px;
-  display: none; cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background: rgba(78,121,167,0.18); border: 1px solid #4E79A7; color: #a0d4f0;
+  font-size: 11px; padding: 3px 10px; border-radius: 12px;
+  display: none; cursor: pointer; align-items: center; white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s; font-family: inherit;
 }
-#chat-highlight-badge.visible { display: block; }
-#chat-highlight-badge:hover { background: #5d8ab8; }
+#chat-highlight-badge.visible { display: inline-flex; }
+#chat-highlight-badge:hover { background: rgba(78,121,167,0.32); border-color: #7cb3d4; color: #e0f0ff; }
 
 /* Tablet / large-phone sheet: sidebar becomes a centered app sheet instead of
    stretching edge to edge, and the graph stays fully visible behind it. */
@@ -554,7 +554,6 @@ a.data-source:hover { border-color: #6b9bc7; }
   #chat-header { padding-top: calc(14px + env(safe-area-inset-top)); }
   #chat-input-wrap { padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
   #chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
-  #chat-highlight-badge { bottom: 76px; right: 72px; }
   #dataset-panel { padding: 16px 10px; }
   #dataset-panel .panel-scroll {
     max-width: calc(100vw - 20px);
