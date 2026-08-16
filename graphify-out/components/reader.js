@@ -50,7 +50,7 @@ export const ARTICLES = [
     id: 'ivermectin-fenbendazole-anticancer',
     group: 'ivermectin-fenbendazole-anticancer',
     lang: 'en-US',
-    title: '(Speculative) Ivermectin × Fenbendazole (complementary mechanisms)',
+    title: '(Preclinical) Ivermectin × Fenbendazole (complementary mechanisms)',
     path: 'pages/ivermectin-fenbendazole-anticancer.html',
     created: '2026-08-16',
     updated: '2026-08-16',
