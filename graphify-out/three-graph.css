@@ -186,13 +186,13 @@ a.data-source:hover { border-color: #6b9bc7; }
 #reader-prev:hover:not(:disabled) { border-color: #4E79A7; background: #2a2a4e; }
 #reader-prev:disabled { opacity: 0.35; cursor: default; }
 #reader-select {
+  flex: 1; min-width: 0;
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
   color: #e0e0e0; font-size: 13px; padding: 6px 8px; cursor: pointer;
-  max-width: 320px;
 }
 #reader-select:focus { outline: none; border-color: #4E79A7; }
-.page-modal-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.lang-toggle { display: inline-flex; background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px; overflow: hidden; }
+.page-modal-controls { display: flex; align-items: center; gap: 10px; }
+.lang-toggle { display: inline-flex; flex-shrink: 0; background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px; overflow: hidden; }
 .lang-toggle button {
   background: transparent; border: none; color: #888; font-size: 12px; line-height: 1;
   padding: 8px 14px; cursor: pointer; transition: background 0.15s, color 0.15s;
@@ -581,5 +581,5 @@ a.data-source:hover { border-color: #6b9bc7; }
 /* Reader modal: header must fit within the viewport on smaller screens */
 @media (max-width: 1199px) {
   #page-modal-header { gap: 8px; padding: 10px 12px; }
-  #reader-select { max-width: 100%; width: 100%; }
+  #reader-select { min-width: 120px; }
 }
