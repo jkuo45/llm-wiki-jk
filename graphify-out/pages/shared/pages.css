@@ -167,6 +167,7 @@ table thead th:first-child{z-index:4;}
 .spectrum-card table tbody th:first-child,
 .spectrum-card table tbody td:first-child{background:var(--card);}
 .tbl-wrap table{min-width:820px;}
+.tbl-wrap td{word-wrap:break-word; overflow-wrap:break-word; white-space:normal;}
 .face ul li b{color:var(--text);}
 .leg-chip{display:inline-flex; align-items:center; gap:6px; font-size:.8rem; color:var(--dim);}
 /* responsive */
