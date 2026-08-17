@@ -17,6 +17,10 @@ What it does, in order:
       web/data/version.json with a content-hash tag the app uses for
       cache busting (tooltips/modals read entity descriptions straight
       from graph.json nodes; wiki-context.json is retired).
+   8. Regenerates the "## Node Analysis (Knowledge Graph)" section of
+      web/llms.txt from the rebuilt graph so the LLM-facing summary
+      stays in sync (the hand-written title, summary, and article links
+      above it are preserved).
 
 Run:  python3 scripts/03_rebuild_from_triples.py
 """
@@ -318,6 +322,115 @@ def write_version_file() -> None:
 
 
 # ------------------------------------------------------------------
+# llms.txt Node Analysis: keep the LLM-facing graph summary in
+# web/llms.txt in sync with the freshly rebuilt graph. Only the
+# "## Node Analysis (Knowledge Graph)" section is regenerated; the
+# hand-written title, summary, and article links above it are preserved.
+# ------------------------------------------------------------------
+
+LLMS_PATH = WEB / "llms.txt"
+LLMS_NODE_SECTION = "## Node Analysis (Knowledge Graph)"
+LLMS_GRAPH_URL = "https://graph.johnnykuo.com/"
+
+
+def _one_liner(desc: str, limit: int = 160) -> str:
+    """Collapse whitespace and truncate a node description for the summary."""
+    s = " ".join((desc or "").split())
+    if len(s) > limit:
+        s = s[:limit].rstrip() + "…"
+    return s
+
+
+def _build_node_analysis_section(graph: dict) -> str:
+    """Render the Node Analysis markdown section from a graph.json dict."""
+    nodes = graph["nodes"]
+    links = graph["links"]
+    n_nodes = len(nodes)
+    n_links = len(links)
+    n_comms = len({n.get("community") for n in nodes if n.get("community") is not None})
+
+    # Largest communities by member count (skip unnamed fallback labels).
+    comm_counts: Counter = Counter()
+    for n in nodes:
+        name = n.get("community_name") or ""
+        if name.startswith("Community "):
+            continue
+        comm_counts[name] += 1
+    top_comms = comm_counts.most_common(18)
+    comm_line = ", ".join(f"{name} ({c})" for name, c in top_comms)
+
+    # Central hubs by degree (surface PageRank alongside).
+    hubs = sorted(nodes, key=lambda n: n.get("degree", 0), reverse=True)[:15]
+    hub_lines = [
+        f"- **{n.get('label', n['id'])}** (deg {n.get('degree', 0)}, "
+        f"PR {n.get('pagerank', 0.0):.4f}) — {_one_liner(n.get('description', ''))}"
+        for n in hubs
+    ]
+
+    # Bridge nodes by betweenness centrality.
+    bridges = sorted(
+        nodes, key=lambda n: n.get("betweenness_centrality", 0.0), reverse=True
+    )[:10]
+    bridge_line = " > ".join(
+        f"{n.get('label', n['id'])} ({n.get('betweenness_centrality', 0.0):.3f})"
+        for n in bridges
+    )
+
+    lines = [
+        LLMS_NODE_SECTION,
+        "",
+        f"The graph holds [{n_nodes:,} concept nodes and {n_links:,} links]({LLMS_GRAPH_URL}), "
+        f"grouped into {n_comms:,} communities (most small; the largest cluster around the seven "
+        "mammalian sirtuins). Node importance below is ranked by degree, PageRank (PR), and "
+        "betweenness centrality.",
+        "",
+        "### Graph statistics",
+        f"- Nodes: {n_nodes:,} · Links: {n_links:,} · Communities: {n_comms:,} · All nodes are "
+        "`concept` type.",
+        f"- Largest communities by member count: {comm_line}.",
+        "",
+        "### Central hubs (highest degree / PageRank)",
+    ]
+    lines.extend(hub_lines)
+    lines += [
+        "",
+        "### Bridge nodes (highest betweenness — connect otherwise-separate clusters)",
+        f"{bridge_line}. These nodes are the highest-leverage points for traversing the graph from "
+        "one topic cluster to another.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def update_llms_node_analysis() -> None:
+    """Regenerate only the Node Analysis section of web/llms.txt.
+
+    Preserves the hand-written header/summary/article links; replaces the
+    existing Node Analysis block if present, or appends it otherwise.
+    """
+    src = DATA_DIR / "graph.json"
+    if not src.exists():
+        print("  skip llms.txt node analysis (web/data/graph.json missing)")
+        return
+    graph = json.loads(src.read_text(encoding="utf-8"))
+    section = _build_node_analysis_section(graph)
+
+    if LLMS_PATH.exists():
+        text = LLMS_PATH.read_text(encoding="utf-8")
+        idx = text.find(LLMS_NODE_SECTION)
+        if idx != -1:
+            text = text[:idx].rstrip() + "\n\n" + section
+        else:
+            text = text.rstrip() + "\n\n" + section
+    else:
+        # No llms.txt yet: create a minimal one around the node analysis.
+        text = "# llm-wiki-jk — Biomedical Knowledge Graph\n\n" + section
+
+    LLMS_PATH.write_text(text, encoding="utf-8")
+    print(f"Updated web/llms.txt Node Analysis ({len(graph['nodes'])} nodes)")
+
+
+# ------------------------------------------------------------------
 # Graph enrichment: pre-compute node/edge metrics for graph.json
 # ------------------------------------------------------------------
 
@@ -589,6 +702,9 @@ def main() -> int:
 
     # --- write content-hash version tag for web-app cache busting ---
     write_version_file()
+
+    # --- regenerate the Node Analysis section of web/llms.txt ---
+    update_llms_node_analysis()
 
     return 0
 

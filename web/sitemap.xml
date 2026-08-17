@@ -1,51 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://graph.johnnykuo.com/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/"/>
+  </url>
+
   <url>
     <loc>https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html"/>
   </url>
   <url>
     <loc>https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html"/>
   </url>
   <url>
     <loc>https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html"/>
   </url>
   <url>
     <loc>https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html"/>
   </url>
+
   <url>
     <loc>https://graph.johnnykuo.com/pages/adrenochrome-protocol.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol.html"/>
   </url>
   <url>
     <loc>https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol.html"/>
   </url>
+
 </urlset>
