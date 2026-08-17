@@ -34,9 +34,8 @@
 > **Graphify Rebuild From `_triples.json`**:
 > - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical graph rebuild: iterates every `src/**/_triples.json`, accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels by majority overlap, then regenerates `graph.json`, `GRAPH_REPORT.md`, `graph.html` (`graphify export html`), and the three-graph exports `nodes.json`/`edges.json`/`legend.json` plus `wiki-context.json` for node info panels. Run with `python3 scripts/03_rebuild_from_triples.py`.  
 > 
-> **Node Analysis**:
-> - [`scripts/node_analysis.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/node_analysis.py) — multi-node graph analysis using NetworkX and SciPy: shortest-path multiplicity with edge relations, neighborhood Jaccard similarity, Adamic-Adar link prediction, k-core nesting, spectral connectivity (Fiedler vector), effective resistance/commute distance, and personalized PageRank. Loads pre-computed metrics and graph metadata from `graph.json` for context reporting. Run: `uv run --with networkx --with scipy python3 scripts/node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`.
 
+---
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
