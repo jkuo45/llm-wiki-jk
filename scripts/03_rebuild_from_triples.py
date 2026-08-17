@@ -11,9 +11,9 @@ What it does, in order:
   4. Re-clusters (Leiden), preserving old community labels by majority overlap.
    5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
    6. Regenerates graph.html via `graphify export html`.
-   7. Exports nodes.json, edges.json, legend.json, wiki-context.json for the
-      web app (web/), and copies the shared graphify JSON the app consumes
-      (graph.json, manifest.json, query.json, translations-zh-TW.json) into web/.
+    7. Exports nodes.json, edges.json, legend.json, wiki-context.json for the
+       web app (web/), and copies the shared graphify JSON the app consumes
+       (graph.json, manifest.json) into web/.
 
 Run:  python3 scripts/03_rebuild_from_triples.py
 """
@@ -454,8 +454,6 @@ def export_wiki_context(gp: Path, node_ids: set[str]) -> None:
 WEB_SHARED_JSON = (
     "graph.json",
     "manifest.json",
-    "query.json",
-    "translations-zh-TW.json",
 )
 
 
