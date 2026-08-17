@@ -393,6 +393,12 @@
         </p>
       </div>
     </div>
+    <div class="spectrum-card" style="margin-top:18px;">
+      <div style="position:relative;">
+        <svg id="sirtIsoformSvg" viewBox="0 0 1000 430" role="img" aria-label="Per-sirtuin adrenochrome connections"></svg>
+        <button class="copy-btn" data-copy="sirtIsoformSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -592,14 +598,14 @@
         <table>
           <thead><tr><th>Biomarker</th><th>What It Tells You</th><th>Market Availability</th><th>Action</th></tr></thead>
           <tbody>
-            <tr><td>SIRT3-SIRT4 Ratio</td><td>Sets window width/position</td><td><span style="color:var(--red)">NOT clinically available</span></td><td>Infer from GSH, MnSOD activity, exercise HRV response</td></tr>
-            <tr><td>MitoSOX (superoxide)</td><td>Mitochondrial superoxide burst — reports adrenochrome-derived ROS processed by MnSOD; SIRT3/SIRT4 ratio sets amplitude</td><td><span style="color:var(--amber)">Research only</span> (flow cytometry / fluorescence)</td><td><span style="color:var(--teal)">Best direct readout</span> of hormetic window position in vitro; pair with acetyl-Lys68/Lys122 Western blot</td></tr>
-            <tr><td>HRV (wearable)</td><td>Real-time recovery vs overshoot</td><td><span style="color:var(--teal)">Ubiquitous</span> (Oura, Whoop, Garmin)</td><td>Gate stressors on Green Zone only</td></tr>
-            <tr><td>Rapamycin TDM</td><td>Drug level (trough 5–20 ng/mL)</td><td><span style="color:var(--teal)">Widely available</span> (Quest, Mayo)</td><td>Ensure Phase 1 stays in target range</td></tr>
-            <tr><td>8-OHdG</td><td>DNA oxidative damage (safety)</td><td><span style="color:var(--teal)">Commercial</span> (LabCorp, Cayman)</td><td>If rising → MB dose too high / window exceeded</td></tr>
-            <tr><td>GSH/GSSG</td><td>Intracellular redox buffer</td><td><span style="color:var(--teal)">Commercial</span> (LabCorp $149)</td><td>Confirm GlyNAC buffer is engaged</td></tr>
+            <tr><td>SIRT3-SIRT4 Ratio</td><td>Window width &amp; position</td><td><span style="color:var(--red)">NOT clinically available</span></td><td>Infer from GSH, MnSOD, HRV</td></tr>
+            <tr><td>MitoSOX (superoxide)</td><td>Mito superoxide burst; SIRT3/SIRT4 sets amplitude</td><td><span style="color:var(--amber)">Research only</span> (flow / fluorescence)</td><td><span style="color:var(--teal)">Best direct readout</span> in vitro; pair with acetyl-Lys68 WB</td></tr>
+            <tr><td>HRV (wearable)</td><td>Recovery vs overshoot</td><td><span style="color:var(--teal)">Ubiquitous</span> (Oura, Whoop)</td><td>Gate stressors on Green Zone</td></tr>
+            <tr><td>Rapamycin TDM</td><td>Drug trough (5–20 ng/mL)</td><td><span style="color:var(--teal)">Widely available</span> (Quest)</td><td>Ensure Phase 1 target range</td></tr>
+            <tr><td>8-OHdG</td><td>DNA oxidative damage</td><td><span style="color:var(--teal)">Commercial</span> (LabCorp)</td><td>Rising → MB too high / window exceeded</td></tr>
+            <tr><td>GSH/GSSG</td><td>Redox buffer status</td><td><span style="color:var(--teal)">Commercial</span> (LabCorp)</td><td>Confirm GlyNAC buffer engaged</td></tr>
             <tr><td>Methemoglobin</td><td>MB / hemolysis safety</td><td><span style="color:var(--teal)">Routine</span> (co-oximetry)</td><td>Screen; stop if elevated (G6PD)</td></tr>
-            <tr><td>NAD⁺ (blood)</td><td>Circulating NAD metabolome</td><td><span style="color:var(--amber)">Commercial</span> (Jinfiniti)</td><td><span style="color:var(--red)">Poor surrogate</span> for tissue NAD⁺</td></tr>
+            <tr><td>NAD⁺ (blood)</td><td>Circulating NAD metabolome</td><td><span style="color:var(--amber)">Commercial</span> (Jinfiniti)</td><td><span style="color:var(--red)">Poor surrogate</span> for tissue</td></tr>
           </tbody>
         </table>
       </div>
@@ -917,6 +923,91 @@
   s += '<text x="500" y="355" text-anchor="middle" fill="#6b6b85" font-size="14">Spans 3 graph communities: adrenochrome chemistry (42) \u2194 redox/mitochondrial biology (9) \u2194 sirtuin/longevity system (varies)</text>';
   // Key nodes table
   s += '<text x="500" y="385" text-anchor="middle" fill="#9a9ab0" font-size="14">Key bridge nodes: Oxidative Stress (414) \u00b7 Sirtuins (93) \u00b7 SIRT1 (198) \u00b7 NR (55) \u00b7 MRR doc (63) \u00b7 MnSOD (18) \u00b7 PGC-1\u03b1 (26)</text>';
+  svg.innerHTML = s;
+})();
+
+/* ===================== SIRTUIN ISOFORM MAP ===================== */
+(function(){
+  const svg = document.getElementById('sirtIsoformSvg');
+  if(!svg) return;
+  let s = '';
+  s += '<text x="500" y="24" text-anchor="middle" fill="#9a9ab0" font-size="16" letter-spacing="2" font-weight="600">ADRENOCHROME \u2192 SIRTUIN ISOFORM MAP</text>';
+  s += '<text x="500" y="44" text-anchor="middle" fill="#6b6b85" font-size="13">Each sirtuin isoform and its documented (or absent) connection to adrenochrome</text>';
+  // Central adrenochrome node
+  s += '<circle cx="500" cy="190" r="42" fill="#191934" stroke="#E8A33D" stroke-width="2"/>';
+  s += '<text x="500" y="185" text-anchor="middle" fill="#E8A33D" font-size="13" font-weight="700">Adreno-</text>';
+  s += '<text x="500" y="200" text-anchor="middle" fill="#E8A33D" font-size="13" font-weight="700">chrome</text>';
+  // SIRT1 — far left
+  s += '<rect x="30" y="80" width="155" height="110" rx="10" fill="#191934" stroke="#58D68D" stroke-width="1.5"/>';
+  s += '<text x="108" y="100" text-anchor="middle" fill="#58D68D" font-size="14" font-weight="700">SIRT1</text>';
+  s += '<text x="108" y="118" text-anchor="middle" fill="#9a9ab0" font-size="11">miR derepression</text>';
+  s += '<text x="108" y="132" text-anchor="middle" fill="#9a9ab0" font-size="11">(miR-217/543/378)</text>';
+  s += '<text x="108" y="150" text-anchor="middle" fill="#9a9ab0" font-size="11">\u2192 NAD\u207a hormesis</text>';
+  s += '<text x="108" y="168" text-anchor="middle" fill="#9a9ab0" font-size="11">SIRT1/PGC-1\u03b1 axis</text>';
+  s += '<text x="108" y="184" text-anchor="middle" fill="#58D68D" font-size="10">STRONG</text>';
+  // SIRT2 — left-center
+  s += '<rect x="210" y="80" width="155" height="110" rx="10" fill="#191934" stroke="#58D68D" stroke-width="1.5"/>';
+  s += '<text x="288" y="100" text-anchor="middle" fill="#58D68D" font-size="14" font-weight="700">SIRT2</text>';
+  s += '<text x="288" y="118" text-anchor="middle" fill="#9a9ab0" font-size="11">TFEB bypass</text>';
+  s += '<text x="288" y="132" text-anchor="middle" fill="#9a9ab0" font-size="11">autophagy activation</text>';
+  s += '<text x="288" y="150" text-anchor="middle" fill="#9a9ab0" font-size="11">SIRT2-INDEPENDENT</text>';
+  s += '<text x="288" y="168" text-anchor="middle" fill="#9a9ab0" font-size="11">avoids \u03b1-tubulin tox</text>';
+  s += '<text x="288" y="184" text-anchor="middle" fill="#58D68D" font-size="10">MODERATE</text>';
+  // SIRT3 — top center
+  s += '<rect x="390" y="310" width="155" height="120" rx="10" fill="#191934" stroke="#58D68D" stroke-width="2.5"/>';
+  s += '<text x="468" y="330" text-anchor="middle" fill="#58D68D" font-size="14" font-weight="700">SIRT3</text>';
+  s += '<text x="468" y="348" text-anchor="middle" fill="#E8A33D" font-size="11">MnSOD deacetylation</text>';
+  s += '<text x="468" y="363" text-anchor="middle" fill="#9a9ab0" font-size="11">(Lys68 / Lys122)</text>';
+  s += '<text x="468" y="380" text-anchor="middle" fill="#9a9ab0" font-size="11">\u2192 superoxide clearance</text>';
+  s += '<text x="468" y="395" text-anchor="middle" fill="#9a9ab0" font-size="11">SIRT3/SIRT4 = window dial</text>';
+  s += '<text x="468" y="415" text-anchor="middle" fill="#E8A33D" font-size="10" font-weight="700">STRONGEST</text>';
+  // SIRT4 — right-center
+  s += '<rect x="590" y="80" width="155" height="110" rx="10" fill="#191934" stroke="#FF6B6B" stroke-width="1.5"/>';
+  s += '<text x="668" y="100" text-anchor="middle" fill="#FF6B6B" font-size="14" font-weight="700">SIRT4</text>';
+  s += '<text x="668" y="118" text-anchor="middle" fill="#9a9ab0" font-size="11">ADP-ribosylation</text>';
+  s += '<text x="668" y="132" text-anchor="middle" fill="#9a9ab0" font-size="11">\u2192 INHIBITS MnSOD</text>';
+  s += '<text x="668" y="150" text-anchor="middle" fill="#9a9ab0" font-size="11">antagonizes SIRT3</text>';
+  s += '<text x="668" y="168" text-anchor="middle" fill="#9a9ab0" font-size="11">narrows the window</text>';
+  s += '<text x="668" y="184" text-anchor="middle" fill="#FF6B6B" font-size="10">ANTAGONIST</text>';
+  // SIRT5 — far right
+  s += '<rect x="770" y="80" width="155" height="110" rx="10" fill="#191934" stroke="#4a4a6a" stroke-width="1" stroke-dasharray="4 3"/>';
+  s += '<text x="848" y="100" text-anchor="middle" fill="#6b6b85" font-size="14" font-weight="700">SIRT5</text>';
+  s += '<text x="848" y="120" text-anchor="middle" fill="#6b6b85" font-size="11">No documented</text>';
+  s += '<text x="848" y="135" text-anchor="middle" fill="#6b6b85" font-size="11">adrenochrome</text>';
+  s += '<text x="848" y="150" text-anchor="middle" fill="#6b6b85" font-size="11">connection</text>';
+  s += '<text x="848" y="170" text-anchor="middle" fill="#6b6b85" font-size="11">(desuccinylase role</text>';
+  s += '<text x="848" y="184" text-anchor="middle" fill="#6b6b85" font-size="11">unexplored)</text>';
+  // SIRT6 — bottom left
+  s += '<rect x="210" y="310" width="155" height="110" rx="10" fill="#191934" stroke="#58D68D" stroke-width="1.5"/>';
+  s += '<text x="288" y="330" text-anchor="middle" fill="#58D68D" font-size="14" font-weight="700">SIRT6</text>';
+  s += '<text x="288" y="348" text-anchor="middle" fill="#9a9ab0" font-size="11">Nrf2-dependent</text>';
+  s += '<text x="288" y="363" text-anchor="middle" fill="#9a9ab0" font-size="11">induction via ARE</text>';
+  s += '<text x="288" y="380" text-anchor="middle" fill="#9a9ab0" font-size="11">DNA repair accel.</text>';
+  s += '<text x="288" y="395" text-anchor="middle" fill="#9a9ab0" font-size="11">H3K9ac reduction</text>';
+  s += '<text x="288" y="415" text-anchor="middle" fill="#58D68D" font-size="10">MODERATE</text>';
+  // SIRT7 — bottom right
+  s += '<rect x="770" y="310" width="155" height="110" rx="10" fill="#191934" stroke="#4a4a6a" stroke-width="1" stroke-dasharray="4 3"/>';
+  s += '<text x="848" y="330" text-anchor="middle" fill="#6b6b85" font-size="14" font-weight="700">SIRT7</text>';
+  s += '<text x="848" y="350" text-anchor="middle" fill="#6b6b85" font-size="11">No documented</text>';
+  s += '<text x="848" y="365" text-anchor="middle" fill="#6b6b85" font-size="11">adrenochrome</text>';
+  s += '<text x="848" y="380" text-anchor="middle" fill="#6b6b85" font-size="11">connection</text>';
+  s += '<text x="848" y="400" text-anchor="middle" fill="#6b6b85" font-size="11">(rRNA 2\'-O-Me</text>';
+  s += '<text x="848" y="415" text-anchor="middle" fill="#6b6b85" font-size="11">role unexplored)</text>';
+  // Arrows from center to each isoform
+  s += '<line x1="465" y1="175" x2="265" y2="140" stroke="#58D68D" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  s += '<line x1="468" y1="175" x2="365" y2="140" stroke="#58D68D" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  s += '<line x1="500" y1="232" x2="500" y2="308" stroke="#E8A33D" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  s += '<line x1="535" y1="175" x2="668" y2="140" stroke="#FF6B6B" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  s += '<line x1="542" y1="175" x2="770" y2="140" stroke="#4a4a6a" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  s += '<line x1="468" y1="232" x2="365" y2="310" stroke="#58D68D" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  s += '<line x1="535" y1="232" x2="770" y2="310" stroke="#4a4a6a" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr)"/>';
+  // Legend
+  s += '<rect x="30" y="28" width="8" height="8" rx="2" fill="#58D68D"/>';
+  s += '<text x="44" y="37" fill="#58D68D" font-size="10">Documented</text>';
+  s += '<rect x="110" y="28" width="8" height="8" rx="2" fill="#FF6B6B"/>';
+  s += '<text x="124" y="37" fill="#FF6B6B" font-size="10">Antagonist</text>';
+  s += '<rect x="196" y="28" width="8" height="8" rx="2" fill="#4a4a6a"/>';
+  s += '<text x="210" y="37" fill="#6b6b85" font-size="10">No connection found</text>';
   svg.innerHTML = s;
 })();
 
