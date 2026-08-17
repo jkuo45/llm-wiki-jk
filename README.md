@@ -2,20 +2,19 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table
-| topic | updated | documents | entities | words | disk |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 16_AUG_2026 | 30 | 1576 | 974,929 | 8.33 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 16_AUG_2026 | 19 | 259 | 198,105 | 2.22 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 16_AUG_2026 | 12 | 226 | 178,167 | 1.52 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 16_AUG_2026 | 11 | 280 | 244,149 | 2.51 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 15_AUG_2026 | 2 | 44 | 25,152 | 0.33 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 15_AUG_2026 | 9 | 209 | 205,023 | 1.79 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 62,530 | 0.67 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 16_AUG_2026 | 1 | 94 | 79,473 | 0.84 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 16_AUG_2026 | 15 | 65 | 154,535 | 1.92 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 16_AUG_2026 | 14 | 169 | 272,702 | 2.96 MB |
-| --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 16_AUG_2026 | **115** | **3013** | **2,394,765** | **23.10 MB** |
+| topic                                                                                                                                  | updated     | documents | entities |     words     |     disk     |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :-------: | :------: | :-----------: | :----------: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]]                                  | 16_AUG_2026 |    30     |   1576   |    974,929    |   8.33 MB    |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]]             | 16_AUG_2026 |    19     |   259    |    198,105    |   2.22 MB    |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]]                      | 16_AUG_2026 |    12     |   226    |    178,167    |   1.52 MB    |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]]                               | 16_AUG_2026 |    11     |   280    |    244,149    |   2.51 MB    |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]]                                     | 15_AUG_2026 |     2     |    44    |    25,152     |   0.33 MB    |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]]                | 15_AUG_2026 |     9     |   209    |    205,023    |   1.79 MB    |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]]             | 16_AUG_2026 |     2     |    91    |    62,530     |   0.67 MB    |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 16_AUG_2026 |     1     |    94    |    79,473     |   0.84 MB    |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]]                   | 16_AUG_2026 |    15     |    65    |    154,535    |   1.92 MB    |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]]                         | 16_AUG_2026 |    14     |   169    |    272,702    |   2.96 MB    |
+| **subtotal**                                                                                                                           | 16_AUG_2026 |  **115**  | **3013** | **2,394,765** | **23.10 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
