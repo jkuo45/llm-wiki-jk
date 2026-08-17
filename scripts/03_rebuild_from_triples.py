@@ -9,9 +9,11 @@ What it does, in order:
   2. Prunes generic type/category hubs (e.g. 'chemical', 'protein', 'enzyme').
   3. Prunes document-title nodes (sources of 'discusses' edges).
   4. Re-clusters (Leiden), preserving old community labels by majority overlap.
-  5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
-  6. Regenerates graph.html via `graphify export html`.
-  7. Exports nodes.json, edges.json, legend.json for three-graph.html.
+   5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
+   6. Regenerates graph.html via `graphify export html`.
+   7. Exports nodes.json, edges.json, legend.json, wiki-context.json for the
+      web app (web/), and copies the shared graphify JSON the app consumes
+      (graph.json, manifest.json, query.json, translations-zh-TW.json) into web/.
 
 Run:  python3 scripts/03_rebuild_from_triples.py
 """
@@ -33,7 +35,8 @@ from graphify.export import to_json
 from graphify.report import generate
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root
-GP = ROOT / "graphify-out"
+GP = ROOT / "graphify-out"          # canonical graphify analysis artifacts
+WEB = ROOT / "web"                  # standalone three-graph web app (deployed)
 
 # generic type/category vocabulary to drop (abstract ontology hubs)
 DENYLIST = {
@@ -146,7 +149,11 @@ def generate_community_colors(legend: list[dict]) -> dict[int, str]:
 
 
 def export_three_json(gp: Path, labels: dict[int, str]) -> None:
-    """Export nodes.json, edges.json, legend.json from graph.json for three-graph.html."""
+    """Export nodes.json, edges.json, legend.json to web/ for the three-graph app.
+
+    Reads the canonical graph.json from graphify-out (gp) but writes the
+    web-only data files into WEB.
+    """
     graph = json.loads((gp / "graph.json").read_text(encoding="utf-8"))
 
     nodes = graph["nodes"]
@@ -166,7 +173,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     for entry in legend:
         entry["color"] = color_map[entry["cid"]]
 
-    # Build node objects for three-graph.html (use pre-computed metrics)
+    # Build node objects for web/ (use pre-computed metrics)
     node_objects = []
     node_id_set = {n["id"] for n in nodes}
     for n in nodes:
@@ -188,7 +195,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "color": {"background": color_map.get(cid, "#888888")},
         })
 
-    # Build edge objects for three-graph.html
+    # Build edge objects for web/
     edge_objects = []
     for link in links:
         src = link["source"]
@@ -206,15 +213,15 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "color": {"opacity": max(0.1, min(1.0, conf))},
         })
 
-    (gp / "nodes.json").write_text(
+    (WEB / "nodes.json").write_text(
         json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (gp / "edges.json").write_text(
+    (WEB / "edges.json").write_text(
         json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (gp / "legend.json").write_text(
+    (WEB / "legend.json").write_text(
         json.dumps(legend, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
@@ -224,7 +231,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
 
 # ------------------------------------------------------------------
-# Wiki context export (for three-graph.html Source/Context node panels)
+# Wiki context export (for web/ Source/Context node panels)
 # ------------------------------------------------------------------
 
 GITHUB_BASE = "https://github.com/jkuo45/llm-wiki-jk/blob/dev/"
@@ -395,7 +402,11 @@ def _build_note_index() -> dict[str, str]:
 
 
 def export_wiki_context(gp: Path, node_ids: set[str]) -> None:
-    """Write wiki-context.json mapping node IDs to wiki note content + source URLs."""
+    """Write web/wiki-context.json mapping node IDs to wiki note content + source URLs.
+
+    Reads the canonical graph.json from graphify-out (gp) but writes the
+    web-only data file into WEB.
+    """
     note_index = _build_note_index()
     # Load graph.json to get node labels (canonical names)
     graph = json.loads((gp / "graph.json").read_text(encoding="utf-8"))
@@ -426,11 +437,42 @@ def export_wiki_context(gp: Path, node_ids: set[str]) -> None:
         }
         matched += 1
 
-    (gp / "wiki-context.json").write_text(
+    (WEB / "wiki-context.json").write_text(
         json.dumps(ctx, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     not_found = len(node_ids) - matched
     print(f"Wiki context: {matched} nodes matched, {not_found} not found")
+
+
+# ------------------------------------------------------------------
+# Copy shared graphify JSON that the web app consumes at runtime.
+# These remain canonical in graphify-out (the source of truth) and are
+# copied verbatim into web/ so the deployed app is self-contained.
+# ------------------------------------------------------------------
+
+# Graphify-standard artifacts the web app fetches (components/data.js).
+WEB_SHARED_JSON = (
+    "graph.json",
+    "manifest.json",
+    "query.json",
+    "translations-zh-TW.json",
+)
+
+
+def copy_shared_json() -> None:
+    """Copy canonical graphify JSON into web/ for the deployed app."""
+    copied = 0
+    for name in WEB_SHARED_JSON:
+        src = GP / name
+        if not src.exists():
+            print(f"  skip (missing): {name}")
+            continue
+        import shutil
+
+        WEB.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, WEB / name)
+        copied += 1
+    print(f"Copied {copied} shared graphify JSON files into web/")
 
 
 # ------------------------------------------------------------------
@@ -673,6 +715,8 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    WEB.mkdir(parents=True, exist_ok=True)
+
     wrote = to_json(G, communities, str(GP / "graph.json"), force=True)
     print("to_json wrote:", wrote)
 
@@ -695,9 +739,12 @@ def main() -> int:
     # --- export three-graph JSON (nodes.json, edges.json, legend.json) ---
     export_three_json(GP, new_labels)
 
-    # --- export wiki context for three-graph.html node info panels ---
+    # --- export wiki context for web/ node info panels ---
     node_ids = set(G.nodes())
     export_wiki_context(GP, node_ids)
+
+    # --- copy shared graphify JSON the web app needs into web/ ---
+    copy_shared_json()
 
     return 0
 

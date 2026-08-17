@@ -123,7 +123,7 @@ datasetScroll.innerHTML = `
   </table>
 
   <p class="dataset-source">
-    <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/graphify-out" target="_blank" rel="noopener">Data Source</a>
+    <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/web" target="_blank" rel="noopener">Data Source</a>
     &middot; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/GRAPH_REPORT.md" target="_blank" rel="noopener">Graph Report</a>
   </p>
 `;

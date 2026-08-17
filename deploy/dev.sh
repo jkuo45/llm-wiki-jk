@@ -52,10 +52,10 @@ cat <<EOF
   adapter   http://127.0.0.1:8000/health
   opencode  ${OPENCODE_URL}/doc
 
-  To point the graph UI at this backend, serve graphify-out/ and set:
+  To point the graph UI at this backend, serve web/ and set:
     <script>window.GRAPH_API_BASE = 'http://127.0.0.1:8000';</script>
   before graph.js loads, or run:
-    cd graphify-out && python3 -m http.server 8080
+    cd web && python3 -m http.server 8080
 
   Ctrl-C to stop both.
 
