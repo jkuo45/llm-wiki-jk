@@ -69,6 +69,59 @@ datasetScroll.innerHTML = `
   <h3>Knowledge Gaps / 缺口</h3>
   <p class="dataset-intro"><b>${isolatedCount}</b> isolated nodes (&le;1 connection) are candidates for missing edges or undocumented components.</p>
 
+  <h3>Node Fields / 節點欄位</h3>
+  <table class="dataset-table">
+    <thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td><code>id</code></td><td>string</td><td>Unique snake_case identifier (e.g. <code>sirt1</code>)</td></tr>
+      <tr><td><code>label</code></td><td>string</td><td>Human-readable display name (e.g. <code>SIRT1</code>)</td></tr>
+      <tr><td><code>norm_label</code></td><td>string</td><td>Diacritics-stripped, lowercased label for fuzzy search</td></tr>
+      <tr><td><code>file_type</code></td><td>string</td><td>Always <code>concept</code></td></tr>
+      <tr><td><code>source_file</code></td><td>string</td><td>Originating document filename</td></tr>
+      <tr><td><code>source_triples</code></td><td>string</td><td>Path to the <code>_triples.json</code> that produced this node</td></tr>
+      <tr><td><code>description</code></td><td>string</td><td>Summarized context paragraph from the source</td></tr>
+      <tr><td><code>community</code></td><td>int</td><td>Community cluster ID (Leiden algorithm)</td></tr>
+      <tr><td><code>community_name</code></td><td>string</td><td>Human-readable community hub name</td></tr>
+      <tr><td><code>community_size</code></td><td>int</td><td>Number of nodes in the node's community</td></tr>
+      <tr><td><code>degree</code></td><td>int</td><td>Total connections (in + out)</td></tr>
+      <tr><td><code>in_degree</code></td><td>int</td><td>Incoming edges</td></tr>
+      <tr><td><code>out_degree</code></td><td>int</td><td>Outgoing edges</td></tr>
+      <tr><td><code>pagerank</code></td><td>float</td><td>Global standard PageRank (alpha=0.85)</td></tr>
+      <tr><td><code>betweenness_centrality</code></td><td>float</td><td>Fraction of shortest paths passing through this node</td></tr>
+      <tr><td><code>clustering_coefficient</code></td><td>float</td><td>Local cohesiveness (fraction of neighbor triples that are edges)</td></tr>
+      <tr><td><code>k_core_number</code></td><td>int</td><td>Deepest k-core the node belongs to</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Edge Fields / 邊緣欄位</h3>
+  <table class="dataset-table">
+    <thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td><code>source</code></td><td>string</td><td>Source node ID</td></tr>
+      <tr><td><code>target</code></td><td>string</td><td>Target node ID</td></tr>
+      <tr><td><code>relation</code></td><td>string</td><td>Relationship predicate (e.g. <code>promotes</code>, <code>inhibits</code>, <code>deacetylates</code>)</td></tr>
+      <tr><td><code>confidence</code></td><td>string</td><td>Tier: <code>EXTRACTED</code> (99.3%) or <code>AMBIGUOUS</code> (0.7%)</td></tr>
+      <tr><td><code>confidence_score</code></td><td>float</td><td>Numeric confidence (0.4–0.98)</td></tr>
+      <tr><td><code>weight</code></td><td>float</td><td>Alias of <code>confidence_score</code> for weighted graph metrics</td></tr>
+      <tr><td><code>source_file</code></td><td>string</td><td>Originating document filename</td></tr>
+      <tr><td><code>source_triples</code></td><td>string</td><td>Path to the <code>_triples.json</code> that produced this edge</td></tr>
+      <tr><td><code>context</code></td><td>string</td><td>Evidence sentence/paragraph from the source document</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Graph Metadata / 圖形中繼資料</h3>
+  <table class="dataset-table">
+    <thead><tr><th>Key</th><th>Type</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td><code>community_labels</code></td><td>dict</td><td><code>{community_id: hub_name}</code> mapping</td></tr>
+      <tr><td><code>community_cohesion</code></td><td>dict</td><td><code>{community_id: float}</code> intra-community edge density</td></tr>
+      <tr><td><code>community_sizes</code></td><td>dict</td><td><code>{community_id: int}</code> node counts</td></tr>
+      <tr><td><code>god_nodes</code></td><td>list</td><td>Top 10 most connected entities (degree-ranked, noise-filtered)</td></tr>
+      <tr><td><code>surprising_connections</code></td><td>list</td><td>Cross-community edges with high betweenness</td></tr>
+      <tr><td><code>metrics_computed_at</code></td><td>string</td><td>Timestamp of metric computation</td></tr>
+    </tbody>
+  </table>
+
   <p class="dataset-source">
     <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/graphify-out" target="_blank" rel="noopener">Data Source</a>
     &middot; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/GRAPH_REPORT.md" target="_blank" rel="noopener">Graph Report</a>

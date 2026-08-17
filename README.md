@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 16_AUG_2026 | 30 | 1576 | 933,883 | 8.05 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 16_AUG_2026 | 30 | 1576 | 974,929 | 8.33 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 16_AUG_2026 | 19 | 259 | 198,105 | 2.22 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 16_AUG_2026 | 12 | 226 | 178,167 | 1.52 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 16_AUG_2026 | 11 | 280 | 244,107 | 2.50 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 15_AUG_2026 | 2 | 44 | 25,152 | 0.33 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 15_AUG_2026 | 9 | 209 | 205,023 | 1.79 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 62,530 | 0.67 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 16_AUG_2026 | 1 | 94 | 79,473 | 0.84 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 16_AUG_2026 | 15 | 65 | 154,535 | 1.92 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 16_AUG_2026 | 14 | 169 | 272,696 | 2.96 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 16_AUG_2026 | 12 | 226 | 181,033 | 1.53 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 16_AUG_2026 | 11 | 280 | 244,149 | 2.51 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 16_AUG_2026 | 2 | 44 | 25,881 | 0.34 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 16_AUG_2026 | 9 | 209 | 202,666 | 1.77 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 64,018 | 0.68 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 16_AUG_2026 | 1 | 94 | 78,773 | 0.83 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 16_AUG_2026 | 15 | 65 | 154,194 | 1.93 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 16_AUG_2026 | 14 | 169 | 272,702 | 2.96 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 16_AUG_2026 | **115** | **3013** | **2,353,671** | **22.81 MB** |
+| **subtotal** | 16_AUG_2026 | **115** | **3013** | **2,396,450** | **23.11 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -26,14 +26,16 @@
 
 > [!NOTE]
 > 
-> **Sirtuins, Cellular Senescence, `task_output`**
+> **Sirtuins, Cellular Senescence, `task_output`**:
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 > - [Sirtuins - Biological Relevance](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|wiki]]
 > 
-> **Graphify Rebuild From `_triples.json`**
+> **Graphify Rebuild From `_triples.json`**:
 > - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical graph rebuild: iterates every `src/**/_triples.json`, accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels by majority overlap, then regenerates `graph.json`, `GRAPH_REPORT.md`, `graph.html` (`graphify export html`), and the three-graph exports `nodes.json`/`edges.json`/`legend.json` plus `wiki-context.json` for node info panels. Run with `python3 scripts/03_rebuild_from_triples.py`.  
+> 
 
+---
 ### 📌 notable:
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
@@ -118,6 +120,7 @@
 <details>
 <summary><strong>Documents (115 total)</strong> — click to expand</summary>
 
+- `senescence`: [SASP, senescent cells, grok](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20SASP%2C%20senescent%20cells%2C%20grok.md) [[src/notes/senescence/_document_ - SASP, senescent cells, grok.md|wiki]] (16_AUG_2026 06:26 PM PDT)
 - `sirtuins`: [Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Rejuvenating%20Sirtuins%20The%20Rise%20of%20a%20New%20Family%20of%20Cancer%20Drug%20Targets.md) [[src/notes/sirtuins/_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md|wiki]] (13_AUG_2026 09:48 AM PDT)
 - `sirtuins`: [Sirtuins and their Biological Relevance in Aging and Age-Related Diseases](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[src/notes/sirtuins/_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md|wiki]] (12_AUG_2026 04:48 PM PDT)
 - `_link`: [Kinase](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Kinase.md) [[src/notes/_link/_document_ - Kinase.md|wiki]] (09_AUG_2026 06:08 PM PDT)
@@ -166,7 +169,6 @@
 - `senescence`: [Fisetin is a senotherapeutic that extends health and lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[src/notes/senescence/_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `senescence`: [Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Mitochondrial%20dysfunction%20in%20cellular%20senescence%20a%20bridge%20to%20neurodegenerative%20disease.md) [[src/notes/senescence/_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `senescence`: [SASP (detrimental, beneficial) Table](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20SASP%20%28detrimental%2C%20beneficial%29%20Table.md) [[src/notes/senescence/_document_ - SASP (detrimental, beneficial) Table.md|wiki]] (25_JUL_2026 01:17 AM PDT)
-- `senescence`: [SASP, senescent cells, grok](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20SASP%2C%20senescent%20cells%2C%20grok.md) [[src/notes/senescence/_document_ - SASP, senescent cells, grok.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `senescence`: [Senecent cell activate neighboring macrophages](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Senecent%20cell%20activate%20neighboring%20macrophages.md) [[src/notes/senescence/_document_ - Senecent cell activate neighboring macrophages.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `senescence`: [Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated...](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Senolytic%20Treatment%20With%20Fisetin%20Reverses%20Age%E2%80%90Related%20Endothelial%20Dysfunction%20Partially%20Mediated%20by%20SASP%20Factor%20CXCL12.md) [[src/notes/senescence/_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `senescence`: [Small molecule compounds that induce cellular senescence](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Small%20molecule%20compounds%20that%20induce%20cellular%20senescence.md) [[src/notes/senescence/_document_ - Small molecule compounds that induce cellular senescence.md|wiki]] (25_JUL_2026 01:17 AM PDT)
@@ -243,10 +245,10 @@
 <details>
 <summary><strong>Tasks (75 total)</strong> — click to expand</summary>
 
+- [task_output_sirtuin_research_gaps_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md) [[src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md|wiki]] (16_AUG_2026 10:57 AM PDT)
 - [task_output_node_comt_mao_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_comt_mao_15_August_2026.md) [[src/tasks/task_output_node_comt_mao_15_August_2026.md|wiki]] (16_AUG_2026 09:53 AM PDT)
 - [task_output_node_sirtuins_adrenochrome_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md|wiki]] (16_AUG_2026 09:53 AM PDT)
 - [task_output_node_sirtuins_catecholamines_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md|wiki]] (16_AUG_2026 09:53 AM PDT)
-- [task_output_sirtuin_research_gaps_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md) [[src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md|wiki]] (15_AUG_2026 03:41 PM PDT)
 - [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md|wiki]] (14_AUG_2026 07:15 PM PDT)
 - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (14_AUG_2026 07:15 PM PDT)
 - [task_output_sirt1_ktype_allosteric_activation_14_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md) [[src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md|wiki]] (14_AUG_2026 06:33 PM PDT)

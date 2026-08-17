@@ -30,6 +30,7 @@ h3{font-size:1.05rem; margin:18px 0 8px;}
   padding:2px 10px; border-radius:999px; font-size:.75rem; margin-right:6px; margin-bottom:6px;}
 .badge.teal{color:var(--teal); border-color:var(--teal);}
 .badge.red{color:var(--red); border-color:var(--red);}
+.badge.amber{background:#E8A33D; color:#191934; border-color:#E8A33D; font-weight:700;}
 .grid{display:grid; gap:16px;}
 .g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
 .g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
@@ -71,6 +72,10 @@ header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
 .net-legend{display:flex; flex-wrap:wrap; gap:10px; font-size:.75rem; color:var(--dim); margin-top:8px;}
 #netTip{position:fixed; pointer-events:none; background:#23233f; border:1px solid var(--line2);
   padding:8px 12px; border-radius:8px; font-size:.78rem; max-width:320px; display:none; box-shadow:0 6px 24px rgba(0,0,0,.5); z-index:60;}
+/* wiki-link tooltips (spans created at runtime from wiki-context.json) */
+.wikilink{color:var(--teal); cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='%2316162b' stroke='%235fe3c0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4'/%3E%3Cpath d='M12 8h.01'/%3E%3C/svg%3E") 2 2, help; text-decoration:none;
+  border-bottom:1px dotted rgba(62,201,167,.55);}
+.wikilink:hover{color:#5fe3c0;}
 /* sirt cards */
 .sirt-card{border-radius:14px; border:1px solid var(--line); background:var(--card); overflow:hidden;}
 .sirt-head{padding:16px 20px; display:flex; align-items:flex-start; gap:12px; border-bottom:1px solid var(--line);}
@@ -114,7 +119,7 @@ footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute);
 .btn{display:inline-block; background:var(--teal); color:#0b1220; font-weight:700; padding:8px 18px; border-radius:8px; font-size:.85rem; cursor:pointer; border:none;}
 .btn:hover{filter:brightness(1.1); text-decoration:none;}
 /* copy button */
-.copy-btn{position:absolute; right:16px; bottom:16px; margin:4px; z-index:5; width:38px; height:38px; display:flex; align-items:center; justify-content:center;
+.copy-btn{position:absolute; right:2px; bottom:2px; margin:0; z-index:5; width:38px; height:38px; display:flex; align-items:center; justify-content:center;
   background:rgba(35,35,63,.9); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:8px; backdrop-filter:blur(4px);}
 .copy-btn:hover{border-color:var(--teal); filter:brightness(1.15);}
 .copy-btn:disabled{opacity:.7; cursor:wait;}
@@ -162,9 +167,44 @@ table thead th:first-child{z-index:4;}
 .spectrum-card table tbody th:first-child,
 .spectrum-card table tbody td:first-child{background:var(--card);}
 .tbl-wrap table{min-width:820px;}
+.tbl-wrap td{word-wrap:break-word; overflow-wrap:break-word; white-space:normal;}
 .face ul li b{color:var(--text);}
 .leg-chip{display:inline-flex; align-items:center; gap:6px; font-size:.8rem; color:var(--dim);}
 /* responsive */
 @media (max-width:720px){ .faces{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} .dis-grid{grid-template-columns:1fr;}
   nav .wrap{scrollbar-width:none;}
   nav .wrap::-webkit-scrollbar{display:none;} }
+
+/* ===== Diagram lightbox (tap a diagram to view full-screen) ===== */
+svg[role="img"]{ cursor: zoom-in; touch-action: manipulation; }
+#diagram-lightbox{
+  position: fixed; inset: 0; z-index: 1000;
+  display: none; align-items: center; justify-content: center;
+  padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+  background: rgba(8,8,16,.92);
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  overscroll-behavior: contain;
+}
+#diagram-lightbox.open{ display: flex; }
+#diagram-lightbox .diagram-lightbox-stage{
+  display: flex; align-items: center; justify-content: center;
+  max-width: 100%; max-height: 100%; overflow: auto;
+}
+#diagram-lightbox .diagram-lightbox-svg{
+  display: block; background: var(--card); border-radius: 14px; padding: 14px;
+  box-shadow: 0 24px 70px rgba(0,0,0,.6);
+}
+#diagram-lightbox .diagram-lightbox-caption{
+  position: absolute; left: 0; right: 0; bottom: max(14px, env(safe-area-inset-bottom));
+  text-align: center; color: var(--dim); font-size: .82rem; padding: 0 16px;
+  pointer-events: none;
+}
+#diagram-lightbox-close{
+  position: absolute; top: max(14px, env(safe-area-inset-top)); right: 14px;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.28); background: rgba(20,20,40,.85);
+  color: #fff; font-size: 30px; line-height: 1; cursor: pointer; z-index: 2;
+  display: flex; align-items: center; justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+}
+#diagram-lightbox-close:hover{ border-color: var(--teal); color: var(--teal); }

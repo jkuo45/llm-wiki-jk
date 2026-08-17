@@ -4222,5 +4222,309 @@
     "context": "Zone 2 cardio performed 3 to 4 times per week for 45-60 minutes builds the aerobic base, increases mitochondrial volume, and improves fat oxidation efficiency, and is the recommended low-intensity alternative when HRV is significantly below baseline and heavy stressors must be skipped. It is positioned as the aerobic foundation of the training protocol, complementing HIIT and sprint interval training done 1-2 times per week that generate the acute ROS spike and lactate accumulation to trigger PGC-1alpha, the master regulator of mitochondrial biogenesis.",
     "confidence": 0.89,
     "source_document": "_document_ - mitohormesis, heart rate variability.md"
+  },
+  {
+    "subject": "HMGB1",
+    "predicate": "is_a",
+    "object": "Damage-associated molecular pattern",
+    "context": "HMGB1 is a chromatin protein released as a damage-associated molecular pattern (DAMP) from dying or stressed cells.",
+    "confidence": 0.95,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "HMGB1",
+    "predicate": "binds",
+    "object": "TLR4",
+    "context": "Extracellular disulfide-HMGB1 signals through TLR4 on antigen-presenting cells to drive inflammatory and antitumor immune responses.",
+    "confidence": 0.92,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "HMGB1",
+    "predicate": "binds",
+    "object": "RAGE",
+    "context": "HMGB1 engages the receptor for advanced glycation end products (RAGE/AGER), promoting inflammation, migration and metastasis.",
+    "confidence": 0.9,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces_release_of",
+    "object": "HMGB1",
+    "context": "Ivermectin triggers immunogenic cell death in tumor cells with extracellular release of HMGB1 (and ATP, calreticulin), alerting T cells (Tang et al., 2020; PMID 32971268).",
+    "confidence": 0.85,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "HMGB1",
+    "predicate": "mediates",
+    "object": "Immunogenic cell death",
+    "context": "HMGB1 release is a hallmark DAMP of immunogenic cell death, necessary for anticancer immune priming.",
+    "confidence": 0.9,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "HMGB1",
+    "predicate": "promotes",
+    "object": "Inflammation",
+    "context": "By engaging TLR4/RAGE, HMGB1 amplifies sterile and tumor-associated inflammation.",
+    "confidence": 0.9,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "HMGB1",
+    "predicate": "is_involved_in",
+    "object": "Metastasis",
+    "context": "HMGB1-RAGE signaling can promote tumor cell migration, invasion and metastasis in several contexts.",
+    "confidence": 0.8,
+    "source_document": "HMGB1.md"
+  },
+  {
+    "subject": "HSP27",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": "HSP27 (HSPB1) is a small heat-shock protein that buffers stress and inhibits apoptosis, contributing to chemoresistance.",
+    "confidence": 0.92,
+    "source_document": "HSP27.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits_phosphorylation_of",
+    "object": "HSP27",
+    "context": "Ivermectin reduces taxane-induced phosphorylated HSP27 (p-HSP27) and sensitizes docetaxel-resistant prostate cancer cells.",
+    "confidence": 0.8,
+    "source_document": "HSP27.md"
+  },
+  {
+    "subject": "HSP27",
+    "predicate": "is_phosphorylated_by",
+    "object": "p38 MAPK",
+    "context": "HSP27 is phosphorylated by the p38 MAPK/MK2 axis, regulating its chaperone and anti-apoptotic functions.",
+    "confidence": 0.9,
+    "source_document": "HSP27.md"
+  },
+  {
+    "subject": "HSP27",
+    "predicate": "confers",
+    "object": "Multidrug Resistance",
+    "context": "Elevated HSP27 correlates with resistance to chemotherapy (e.g., docetaxel) in prostate and other cancers.",
+    "confidence": 0.85,
+    "source_document": "HSP27.md"
+  },
+  {
+    "subject": "HSP27",
+    "predicate": "is_upregulated_in",
+    "object": "Cancer",
+    "context": "HSP27 is commonly upregulated in tumors and serves as a prognostic and therapeutic-resistance marker.",
+    "confidence": 0.85,
+    "source_document": "HSP27.md"
+  },
+  {
+    "subject": "Renal Cell Carcinoma",
+    "predicate": "is_a",
+    "object": "Cancer",
+    "context": "Renal cell carcinoma (RCC) is the most common malignant kidney tumor, usually clear-cell subtype.",
+    "confidence": 0.97,
+    "source_document": "Renal Cell Carcinoma.md"
+  },
+  {
+    "subject": "Renal Cell Carcinoma",
+    "predicate": "is_driven_by",
+    "object": "HIF-1α",
+    "context": "Clear-cell RCC is driven by VHL loss, leading to HIF-1alpha/2alpha stabilization, angiogenesis and metabolic reprogramming.",
+    "confidence": 0.9,
+    "source_document": "Renal Cell Carcinoma.md"
+  },
+  {
+    "subject": "Renal Cell Carcinoma",
+    "predicate": "is_treated_by",
+    "object": "Antiangiogenic therapy",
+    "context": "RCC is treated with VEGF-pathway inhibitors (e.g., sunitinib) and mTOR inhibitors; chemotherapy is largely ineffective.",
+    "confidence": 0.9,
+    "source_document": "Renal Cell Carcinoma.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Renal Cell Carcinoma",
+    "context": "Preclinical studies report ivermectin selectively inhibits RCC proliferation (Tang et al., 2020).",
+    "confidence": 0.7,
+    "source_document": "Renal Cell Carcinoma.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Renal Cell Carcinoma",
+    "context": "Fenbendazole shows preclinical anticancer activity in RCC models.",
+    "confidence": 0.65,
+    "source_document": "Renal Cell Carcinoma.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "inhibits",
+    "object": "Renal Cell Carcinoma",
+    "context": "Mebendazole shows preclinical antitumor activity in RCC via microtubule disruption.",
+    "confidence": 0.65,
+    "source_document": "Renal Cell Carcinoma.md"
+  },
+  {
+    "subject": "Tubulin",
+    "predicate": "polymerizes_into",
+    "object": "Microtubule",
+    "context": "alpha/beta-tubulin heterodimers polymerize into microtubules, the dynamic polymers of the mitotic spindle and cytoskeleton.",
+    "confidence": 0.97,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "binds",
+    "object": "Tubulin",
+    "context": "Fenbendazole binds the colchicine site of beta-tubulin, preventing polymerization and destabilizing microtubules (Dogra & Mukhopadhyay, Sci Rep 2018).",
+    "confidence": 0.95,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "binds",
+    "object": "Tubulin",
+    "context": "Mebendazole binds beta-tubulin at the colchicine site, inhibiting microtubule assembly (Sasaki et al., Mol Cancer Ther 2002).",
+    "confidence": 0.95,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "Tubulin",
+    "context": "SIRT2 is an NAD+-dependent deacetylase of alpha-tubulin lysine-40 (K40); its knockdown causes tubulin hyperacetylation (North et al., Mol Cell 2003; PMID 12571239).",
+    "confidence": 0.95,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "Paclitaxel",
+    "predicate": "stabilizes",
+    "object": "Tubulin",
+    "context": "Paclitaxel stabilizes microtubules by binding polymerized tubulin, arresting mitosis (contrast to benzimidazole destabilizers).",
+    "confidence": 0.9,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "Tubulin",
+    "predicate": "is_targeted_by",
+    "object": "Microtubule inhibitors",
+    "context": "Tubulin is the target of microtubule-interfering agents including benzimidazoles, taxanes and vinca alkaloids.",
+    "confidence": 0.9,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "Tubulin",
+    "predicate": "regulates",
+    "object": "Mitosis",
+    "context": "Tubulin polymerization into the mitotic spindle is essential for chromosome segregation; its disruption triggers G2/M arrest.",
+    "confidence": 0.95,
+    "source_document": "Tubulin.md"
+  },
+  {
+    "subject": "Enzalutamide",
+    "predicate": "inhibits",
+    "object": "Androgen Receptor",
+    "context": "Enzalutamide (Xtandi) is a second-generation androgen receptor (AR) antagonist that blocks AR nuclear translocation.",
+    "confidence": 0.97,
+    "source_document": "enzalutamide.md"
+  },
+  {
+    "subject": "Enzalutamide",
+    "predicate": "is_used_for",
+    "object": "Prostate Cancer",
+    "context": "Enzalutamide is approved for castration-resistant prostate cancer.",
+    "confidence": 0.97,
+    "source_document": "enzalutamide.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "enhances",
+    "object": "Enzalutamide",
+    "context": "Ivermectin enhanced enzalutamide activity in LNCaP prostate cancer cells (Tang et al., 2020; PMID 32971268).",
+    "confidence": 0.8,
+    "source_document": "enzalutamide.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "reverses_resistance_to",
+    "object": "Enzalutamide",
+    "context": "Ivermectin restored enzalutamide sensitivity / reversed resistance in prostate cancer models (Tang 2020 review).",
+    "confidence": 0.75,
+    "source_document": "enzalutamide.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "reverses_resistance_to",
+    "object": "Docetaxel",
+    "context": "Ivermectin reversed docetaxel resistance in PC3 prostate cancer cells via HSP27 modulation.",
+    "confidence": 0.75,
+    "source_document": "enzalutamide.md"
+  },
+  {
+    "subject": "Enzalutamide",
+    "predicate": "is_a",
+    "object": "Anti-androgen",
+    "context": "Enzalutamide is a nonsteroidal anti-androgen used in endocrine therapy of prostate cancer.",
+    "confidence": 0.95,
+    "source_document": "enzalutamide.md"
+  },
+  {
+    "subject": "Glioblastoma",
+    "predicate": "is_a",
+    "object": "Cancer",
+    "context": "Glioblastoma (GBM) is the most malignant primary brain tumor in adults (grade IV astrocytoma).",
+    "confidence": 0.97,
+    "source_document": "glioblastoma.md"
+  },
+  {
+    "subject": "Glioblastoma",
+    "predicate": "is_treated_by",
+    "object": "Chemotherapy",
+    "context": "Standard therapy is maximal resection, radiotherapy and temozolomide; prognosis remains poor (median <15 months).",
+    "confidence": 0.9,
+    "source_document": "glioblastoma.md"
+  },
+  {
+    "subject": "Glioblastoma",
+    "predicate": "expresses",
+    "object": "Cancer Stem Cells",
+    "context": "Glioblastoma stem-like cells (GSCs) drive therapy resistance and recurrence.",
+    "confidence": 0.9,
+    "source_document": "glioblastoma.md"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Glioblastoma",
+    "context": "Ivermectin inhibits glioblastoma growth/survival via mitochondrial dysfunction and oxidative stress, inducing apoptosis (Tang et al., 2020).",
+    "confidence": 0.8,
+    "source_document": "glioblastoma.md"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Glioblastoma",
+    "context": "Fenbendazole shows preclinical anti-glioblastoma activity via microtubule and metabolic disruption.",
+    "confidence": 0.65,
+    "source_document": "glioblastoma.md"
+  },
+  {
+    "subject": "Glioblastoma",
+    "predicate": "is_resistant_to",
+    "object": "Temozolomide",
+    "context": "MGMT expression confers temozolomide resistance in a subset of GBM.",
+    "confidence": 0.85,
+    "source_document": "glioblastoma.md"
+  },
+  {
+    "subject": "Acid ceramidase",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Glioblastoma",
+    "context": "Acid ceramidase (ASAH1) is a poor-prognosis marker and therapeutic target in GBM stem-like cells (Doan et al., Oncotarget 2017; PMID 29348854).",
+    "confidence": 0.85,
+    "source_document": "glioblastoma.md"
   }
 ]
