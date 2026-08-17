@@ -36,6 +36,12 @@ const chatTagPopup = document.getElementById('chat-tag-popup');
 const chatTags = document.getElementById('chat-tags');
 const chatModeSwitch = document.getElementById('chat-mode-switch');
 const analysisTools = document.getElementById('analysis-tools');
+const htmlModeOverlay = document.getElementById('html-mode-overlay');
+const htmlModeFrame = document.getElementById('html-mode-frame');
+const htmlModeTitle = document.getElementById('html-mode-title');
+const htmlModeClose = document.getElementById('html-mode-close');
+const htmlModeDownload = document.getElementById('html-mode-download');
+const responseModeWrap = document.getElementById('response-mode');
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
 const INTENT_API = `${API_BASE}/intent`;
@@ -86,17 +92,65 @@ graphifyCheckbox.addEventListener('change', () => {
   chatInput.focus();
 });
 
+// ------------------------------------------------------------
+// Response view mode (MD / HTML) — choose how a response is rendered.
+//   md   : render markdown inline in the chat bubble (default)
+//   html : open the response in the standalone HTML-mode page (pages.css)
+// The per-message globe button still lets you open HTML on demand in MD mode.
+// ------------------------------------------------------------
+let responseMode = 'html'; // 'md' | 'html'
+
+if (responseModeWrap) {
+  responseModeWrap.querySelectorAll('.resp-mode-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      responseMode = btn.dataset.mode === 'html' ? 'html' : 'md';
+      responseModeWrap.querySelectorAll('.resp-mode-btn').forEach(b => {
+        const on = b === btn;
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+    });
+  });
+}
+
+// Auto-open HTML mode for a freshly rendered response when HTML view is active.
+function maybeOpenHtml(div, text) {
+  if (responseMode !== 'html') return;
+  const badge = div.querySelector('.chat-badge');
+  openHtmlMode(text, (badge && badge.textContent) || 'Response');
+}
+
+// Append the user's chosen output format as a spec to the message sent to the
+// server (the model responds with .md markdown or a standalone .html doc).
+// Idempotent so it is never doubled when the server echoes the message back.
+function withOutputSpec(text) {
+  if (!text) return text;
+  if (/\[Output format: \.(md|html)\]/.test(text)) return text;
+  if (responseMode === 'html') {
+    const spec = [
+      '[Output format: .html]',
+      'Respond with HTML and ONLY HTML. Do not wrap the answer in markdown code fences, and do not add any prose, commentary, or explanation outside the HTML. Output must be valid HTML content directly renderable in a page (you may include inline style elements and SVG; no external assets, no scripts).',
+      'When it helps clarity, enrich the answer with diagrams and charts. Use inline SVG only — pure SVG markup plus CSS, no external images, no img elements, and no JavaScript chart libraries (no Chart.js, D3, or Mermaid).',
+      'Match this page visual style: dark theme with background #0f0f1a, cards #1a1a2e with a 1px #2a2a4e border and 12px border radius, body text #e0e0e0, and accent colors teal #3EC9A7, red #E4575E, amber #E8A33D, purple #9D8DF1, blue #5DA8FF, green #58D68D. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible text labels, subtle 1px #2a2a4e strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).',
+    ].join('\n\n');
+    return `${text}\n\n${spec}`;
+  }
+  return `${text}\n\n[Output format: .md]`;
+}
+
 // Op chips prefill an operation template so the three graph ops stay discoverable.
-graphifyOps.addEventListener('click', (e) => {
-  const btn = e.target.closest('.graphify-op');
-  if (!btn) return;
-  const tpl = OP_TEMPLATES[btn.dataset.op];
-  if (!tpl) return;
-  chatInput.value = tpl.text;
-  chatInput.focus();
-  const pos = tpl.caret === null ? tpl.text.length : tpl.caret;
-  chatInput.setSelectionRange(pos, pos);
-});
+if (graphifyOps) {
+  graphifyOps.addEventListener('click', (e) => {
+    const btn = e.target.closest('.graphify-op');
+    if (!btn) return;
+    const tpl = OP_TEMPLATES[btn.dataset.op];
+    if (!tpl) return;
+    chatInput.value = tpl.text;
+    chatInput.focus();
+    const pos = tpl.caret === null ? tpl.text.length : tpl.caret;
+    chatInput.setSelectionRange(pos, pos);
+  });
+}
 
 syncGraphifyUI();
 
@@ -214,6 +268,22 @@ function addCopyButton(div, text) {
   div.appendChild(btn);
 }
 
+// "Open HTML page" affordance on a bot message: re-opens the standalone
+// pages.css page for that response (used to reopen after closing the overlay).
+function addOpenHtmlButton(div, text) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'chat-page-btn';
+  btn.textContent = 'Open HTML page ↗';
+  btn.title = 'Open this response as a standalone HTML page / 以 HTML 頁面開啟';
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const badge = div.querySelector('.chat-badge');
+    openHtmlMode(text, (badge && badge.textContent) || 'Response');
+  });
+  div.appendChild(btn);
+}
+
 // Map wiki file basename -> wiki-context entry, so chat [[entity]] links can
 // show a brief excerpt on hover.
 const wikiCtxByFile = new Map();
@@ -225,11 +295,8 @@ Object.values(WIKI_CONTEXT).forEach(v => {
 });
 
 function formatBotMessage(text) {
-  let html = esc(text);
-  // Bold: **text**
-  html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
-  // Inline code: `text`
-  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Render full markdown (headers, lists, tables, code, bold, links, etc.).
+  let html = renderMarkdown(text);
   // Wiki links: [[Name]] or [[Name|Display]] -> open wiki modal on click
   html = html.replace(/\[\[([^\]\|]+?)(?:\|([^\]]+?))?\]\]/g, (m, name, display) => {
     const wikiBase = name.trim().replace(/\.md$/i, '');
@@ -237,10 +304,9 @@ function formatBotMessage(text) {
     const label = (display || name).trim();
     return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}" style="color:#7cb3d4;text-decoration:underline;cursor:pointer">${esc(label)}</span>`;
   });
-  // Node links: make node names clickable in highlight results
-  html = html.replace(/^(\d+)\.\s/gm, '<span style="color:#666">$1.</span> ');
-  // Convert newlines
-  html = html.replace(/\n/g, '<br>');
+  // Long code blocks: collapse them so they don't dominate the response.
+  html = html.replace(/<pre><code>([\s\S]*?)<\/code><\/pre>/g,
+    '<details class="md-code"><summary>Code</summary><pre><code>$1</code></pre></details>');
   return html;
 }
 
@@ -325,9 +391,106 @@ wikiModalClose.addEventListener('click', closeWikiModal);
 wikiModalOverlay.addEventListener('click', (e) => {
   if (e.target === wikiModalOverlay) closeWikiModal();
 });
+
+// ------------------------------------------------------------
+// HTML mode — render a chat response as a standalone page styled with pages.css
+// ------------------------------------------------------------
+let htmlModeDoc = '';
+
+// Collapse fenced code blocks (```...```) into <details> so long code samples
+// don't dominate the rendered page. Code is escaped so it shows as text.
+function collapseFencedCode(html) {
+  return html.replace(/```(\w*)\n?([\s\S]*?)```/g, (m, lang, code) => {
+    const safe = esc(code.replace(/\n+$/, ''));
+    const label = lang ? `Code · ${esc(lang)}` : 'Code';
+    return `<details class="md-code"><summary>${label}</summary><pre><code>${safe}</code></pre></details>`;
+  });
+}
+
+function buildHtmlModeDoc(text, title) {
+  // In HTML mode the model returns a .html document (including inline SVG
+  // diagrams), so inject it RAW rather than through the markdown escaper (which
+  // would turn <svg> into literal text). Scripts are blocked by the iframe
+  // sandbox; we also strip <script> tags here as defense-in-depth.
+  const raw = String(text || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<script\b[^>]*>/gi, '');
+  const content = collapseFencedCode(raw);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>${esc(title)}</title>
+<link rel="stylesheet" href="pages/shared/pages.css">
+<style>
+  body { background: var(--bg); }
+  .wrap { padding-top: 32px; padding-bottom: 72px; }
+  .md-meta { color: var(--mute); font-size: .85rem; margin: 0 0 24px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+  .md-body { font-size: 1rem; }
+  .md-body h1 { font-size: 1.9rem; margin-bottom: 8px; }
+  .md-body h2 { font-size: 1.4rem; }
+  .md-body h3 { font-size: 1.1rem; }
+  .md-body code { background: #23233f; }
+  .md-code { border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; background: #0f0f1a; overflow: hidden; }
+  .md-code > summary { cursor: pointer; padding: 8px 12px; color: var(--dim); font-size: .85rem; user-select: none; }
+  .md-code > summary:hover { color: var(--teal); }
+  .md-code > pre { margin: 0; border-top: 1px solid var(--line); }
+  .md-body svg { max-width: 100%; height: auto; display: block; }
+  .md-body svg text { fill: var(--text); font-family: inherit; }
+  .md-body .wikilink { color: var(--teal); text-decoration: none; border-bottom: 1px dotted rgba(62,201,167,.55); }
+  .md-body .wikilink:hover { color: #5fe3c0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <article class="md-body">${content}</article>
+</div>
+</body>
+</html>`;
+}
+
+function openHtmlMode(text, title) {
+  if (!htmlModeOverlay || !htmlModeFrame) return;
+  htmlModeDoc = buildHtmlModeDoc(text, title || 'Response');
+  if (htmlModeTitle) htmlModeTitle.textContent = title || 'Response';
+  htmlModeFrame.srcdoc = htmlModeDoc;
+  htmlModeOverlay.classList.add('visible');
+}
+
+function closeHtmlMode() {
+  if (!htmlModeOverlay) return;
+  htmlModeOverlay.classList.remove('visible');
+  if (htmlModeFrame) htmlModeFrame.srcdoc = '';
+  htmlModeDoc = '';
+}
+
+if (htmlModeClose) htmlModeClose.addEventListener('click', closeHtmlMode);
+if (htmlModeOverlay) {
+  htmlModeOverlay.addEventListener('click', (e) => {
+    if (e.target === htmlModeOverlay) closeHtmlMode();
+  });
+}
+if (htmlModeDownload) {
+  htmlModeDownload.addEventListener('click', () => {
+    if (!htmlModeDoc) return;
+    const blob = new Blob([htmlModeDoc], { type: 'text/html' });
+    const a = document.createElement('a');
+    const safe = (htmlModeTitle ? htmlModeTitle.textContent : 'response').replace(/[^\w\u4e00-\u9fff\-]+/g, '_').slice(0, 60);
+    a.download = `response-${safe}.html`;
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+}
+// Allow the in-iframe "back" link to close the overlay.
+window.addEventListener('message', (e) => {
+  if (e.data === 'html-mode-close') closeHtmlMode();
+});
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
   if (wikiModalOverlay.classList.contains('visible')) { closeWikiModal(); return; }
+  if (htmlModeOverlay && htmlModeOverlay.classList.contains('visible')) { closeHtmlMode(); return; }
   if (chatPanel.classList.contains('open')) { closeChat(); return; }
   const datasetPanelEl = document.getElementById('dataset-panel');
   if (datasetPanelEl && datasetPanelEl.classList.contains('visible')) {
@@ -360,6 +523,7 @@ async function sendChatMessage() {
   chatSend.disabled = true;
   chatInput.value = '';
   clearChatTags();
+  setChatThinking(true);
 
   // Hide suggestions after first message
   const suggestions = document.getElementById('chat-suggestions');
@@ -384,7 +548,7 @@ async function sendChatMessage() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        message: clean,
+        message: withOutputSpec(clean),
         session_id: chatSessionId,
         graphify: graphifyEnabled(),
         tags,
@@ -428,6 +592,7 @@ async function sendChatMessage() {
     if (typingTimerId) { clearInterval(typingTimerId); typingTimerId = null; }
     chatBusy = false;
     chatSend.disabled = false;
+    setChatThinking(false);
     chatInput.focus();
   }
 }
@@ -456,7 +621,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         intent: intentData.intent,
-        message: intentData.message,
+        message: withOutputSpec(intentData.message),
         session_id: chatSessionId,
         tags,
       }),
@@ -562,8 +727,10 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   html += formatBotMessage(responseText);
   div.innerHTML = html;
   addCopyButton(div, responseText);
+  if (responseMode === 'html') addOpenHtmlButton(div, responseText);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
+  maybeOpenHtml(div, responseText);
 
   chatHistory.push({ role: 'assistant', content: responseText });
 
@@ -596,7 +763,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
         to_node: intentData.to_node,
         nodes: intentData.nodes,
         analysis: intentData.analysis,
-        message: intentData.message || clean,
+        message: withOutputSpec(intentData.message || clean),
         session_id: chatSessionId,
         tags,
       }),
@@ -649,8 +816,10 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   html += formatBotMessage(textBuf);
   div.innerHTML = html;
   addCopyButton(div, textBuf);
+  if (responseMode === 'html') addOpenHtmlButton(div, textBuf);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
+  maybeOpenHtml(div, textBuf);
 
   chatHistory.push({ role: 'assistant', content: textBuf });
 
@@ -1264,6 +1433,17 @@ function refreshActivity() {
   if (chatActivityDot) chatActivityDot.classList.toggle('on', promptActive || graphActive);
 }
 
+// Prompt indicator: yellow (pulsing) while the assistant is generating, green
+// when idle/ready. Drives the floating chat button's dot and the Prompt tab dot.
+function setChatThinking(on) {
+  if (chatActivityDot) {
+    chatActivityDot.classList.add('on');
+    chatActivityDot.classList.toggle('thinking', on);
+  }
+  const promptTab = chatPanel.querySelector('.chat-mode-tab[data-mode="ask"]');
+  if (promptTab) promptTab.classList.toggle('thinking', on);
+}
+
 // ------------------------------------------------------------
 // Explore mode — instant, offline dataset analytics
 // ------------------------------------------------------------
@@ -1396,7 +1576,7 @@ function renderAnalysisTools() {
         <div class="at-set b" id="at-set-b"><div class="at-set-label">Set B</div><div class="at-set-chips"></div></div>
       </div>
       <div class="at-actions">
-        <button class="at-compare-btn" id="at-compare-go">Compare A vs B</button>
+        <button class="at-compare-btn" id="at-compare-go">Analyze A and B</button>
         <button class="at-prompt-btn" id="at-send-prompt" title="Send this selection to the Prompt panel as an analysis query / 將此選擇傳送至 Prompt 面板">&#8594; Prompt</button>
         <button class="at-export-json-btn" id="at-export-json" title="Export this selection as JSON / 匯出選擇為 JSON">Save</button>
       </div>

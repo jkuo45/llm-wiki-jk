@@ -9,7 +9,7 @@ oversized or malformed payloads.
 
 import re
 
-MAX_INPUT_LENGTH = 500
+MAX_INPUT_LENGTH = 4000
 MAX_NODE_NAME_LENGTH = 200
 MAX_TRACE_NODES = 8
 MAX_ANALYSIS_LENGTH = 400

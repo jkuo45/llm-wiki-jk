@@ -130,15 +130,16 @@
   <div id="analysis-tools"></div>
   <div id="chat-modes">
     <label id="graphify-toggle" title="On: run graph operations (explain / trace / path). Off: answer from the wiki.">
-      <input type="checkbox" id="graphify-checkbox" checked>
+      <input type="checkbox" id="graphify-checkbox">
       <span>Graphify</span>
     </label>
-    <div id="graphify-ops" role="group" aria-label="Graphify operations">
-      <button type="button" class="graphify-op" data-op="query" title="Open-ended, natural language questions / 開放式自然語言提問">query</button>
-      <button type="button" class="graphify-op" data-op="explain" title="Deep dive on a single entity / 深入解釋單一實體">explain</button>
-      <button type="button" class="graphify-op" data-op="path" title="Traces the direct relationship between two or more nodes / 追蹤兩個以上節點之間的直接關係">path</button>
-    </div>
     <span id="graphify-off-hint">Wiki retrieval</span>
+    <span class="chat-mode-divider"></span>
+    <div id="response-mode" role="group" aria-label="Response view mode">
+      <span class="resp-mode-label">MODE</span>
+      <button type="button" class="resp-mode-btn" data-mode="md" title="Render response as inline markdown">MD</button>
+      <button type="button" class="resp-mode-btn active" data-mode="html" title="Render response as a standalone HTML page">HTML</button>
+    </div>
   </div>
   <div id="chat-tags"></div>
   <div id="chat-input-wrap">
@@ -186,6 +187,24 @@
       </div>
     </div>
     <iframe id="page-modal-frame" title="Reader"></iframe>
+  </div>
+</div>
+
+<!-- HTML mode overlay — renders a chat response as a standalone page (pages.css) -->
+<div id="html-mode-overlay">
+  <div id="html-mode-modal">
+    <div id="html-mode-header">
+      <div class="page-modal-header-row">
+        <h2 id="html-mode-title">Response</h2>
+        <div class="page-modal-actions">
+          <button id="html-mode-download" title="Download as HTML / 下載 HTML" aria-label="Download as HTML">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+          </button>
+          <button id="html-mode-close" title="Close / 關閉" aria-label="Close">&times;</button>
+        </div>
+      </div>
+    </div>
+    <iframe id="html-mode-frame" title="HTML response" sandbox="allow-same-origin"></iframe>
   </div>
 </div>
 
