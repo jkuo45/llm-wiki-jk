@@ -72,7 +72,7 @@ header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
 #netTip{position:fixed; pointer-events:none; background:#23233f; border:1px solid var(--line2);
   padding:8px 12px; border-radius:8px; font-size:.78rem; max-width:320px; display:none; box-shadow:0 6px 24px rgba(0,0,0,.5); z-index:60;}
 /* wiki-link tooltips (spans created at runtime from wiki-context.json) */
-.wikilink{color:var(--teal); cursor:pointer; text-decoration:none;
+.wikilink{color:var(--teal); cursor:help; text-decoration:none;
   border-bottom:1px dotted rgba(62,201,167,.55);}
 .wikilink:hover{color:#5fe3c0;}
 /* sirt cards */

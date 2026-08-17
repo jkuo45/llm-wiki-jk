@@ -65,10 +65,9 @@
         var c = body.lastIndexOf(".", 300);
         body = (c > 150 ? body.slice(0, c) : body.slice(0, 300)).replace(/[.,;:]\s*$/, "") + "…";
       }
-      var link = e.wiki_url ? '<br><span style="color:var(--teal)">Open note ↑</span>' : "";
       return (
         '<b style="color:var(--teal)">' + esc(disp) + "</b><br>" +
-        '<span style="color:var(--text)">' + esc(body) + "</span>" + link
+        '<span style="color:var(--text)">' + esc(body) + "</span>"
       );
     }
     return '<span style="color:var(--dim)">No wiki note yet for ' + esc(disp) + "</span>";
@@ -80,10 +79,6 @@
     });
     span.addEventListener("mousemove", moveTip);
     span.addEventListener("mouseleave", hideTip);
-    span.addEventListener("click", function () {
-      var e = lookup(key);
-      if (e && e.wiki_url) window.open(e.wiki_url, "_blank", "noopener");
-    });
   }
 
   function processNode(node) {
