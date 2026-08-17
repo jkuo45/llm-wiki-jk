@@ -286,8 +286,11 @@ List of documents that mention this entity
 - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
   - Reviews SIRT1's dual cancer role: deacetylates and inhibits NF-κB and β-Catenin (tumor-suppressive) yet inactivates p53 and proapoptotic FOXO factors (cancer-promoting). Deduces that SIRT1 inhibition (e.g., EX-527, sirtinol, cambinol, tenovins) is anticancer in many contexts, and that STACs such as resveratrol and SRT compounds may act indirectly via the cAMP–Epac1–AMPK axis.
 
-- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+ - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
   - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT1 functions in aging via lifespan extension, DNA repair, cell cycle arrest, and cellular senescence; positively regulated by eNOS, Erβ, FOXO3 and negatively by PAI-1, p53, p16INK4a, NF-κB, p66Shc, LKB1, Cyclin D1, and mTOR/S6K.
+
+- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+  - Review (Grabowska et al., Biogerontology 2017) detailing SIRT1 deacetylation of p53 (K320/K373/K382), NBS1, XPA and LKB1, the p53–miR-34a–SIRT1 loop, P66shc repression, and SIRT1 as a senescence marker.
 
 ## Connections
 

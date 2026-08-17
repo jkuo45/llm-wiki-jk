@@ -262,8 +262,11 @@ List of documents that mention this entity
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - Recently, however, mono-ADP-ribosyl transferase activity has been found to be the main enzymatic activity of at least two of the mammalian sirtuins, SIRT4 and SIRT6 (Figure 1), as discussed below.
 
-  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+   - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
     - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+    - Review (Grabowska et al., Biogerontology 2017) describing the severe premature-aging phenotype of SIRT6 knockout mice, SIRT6 telomere stabilization (H3K9 deacetylation, WRN), mono-ADP-ribosylation of PARP-1 K521, and CtIP deacetylation in DNA repair.
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.

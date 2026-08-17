@@ -164,8 +164,11 @@ List of documents that mention this entity
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 
-  - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+   - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
     - Reviews SIRT2's tumor-suppressor role: disruption raises Aurora-A/Aurora-B mitotic regulator levels, aneuploidy, and mitotic death (SIRT2-deficient mice develop gender-specific mammary/hepatocellular tumors). Documents SIRT2 inhibitors (kinase-inhibitor scaffolds Ro31-8220, GW5074; suramin analogs; AC93253 with Akt-inhibiting effects) and notes SIRT2 inhibition may be counterproductive during microtubule-inhibitor therapy.
+
+- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+  - Review (Grabowska et al., Biogerontology 2017) noting SIRT2 as a cellular-senescence marker (elevated in senescent but not quiescent/apoptotic cells), its deacetylation of α-tubulin, and its role as the main cytoplasmic FOXO1 deacetylase.
 
 ## Connections
 

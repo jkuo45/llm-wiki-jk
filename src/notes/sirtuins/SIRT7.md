@@ -148,8 +148,11 @@ List of documents that mention this entity
 - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
   - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT7 functions in aging via epigenetic regulation, stress resistance, and apoptosis; positively regulated by FOXO3 and negatively by Myc, HIF-1α, p53.
 
-  - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+   - [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
     - Reports SIRT7 as the clearest pro-oncogenic sirtuin in the review: it deacetylates H3K18 to repress tumor-suppressor genes, is stabilized at promoters by the ETS factor ELK4, and SIRT7 depletion reduces xenograft tumorigenicity. Positions SIRT7 inhibition as the therapeutic direction in cancer.
+
+- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+  - Review (Grabowska et al., Biogerontology 2017) noting SIRT7 knockout mice age prematurely with a progeroid phenotype and lethal heart hypertrophy, and that SIRT7 deacetylates H3K18 to repress tumor-suppressor genes.
 
 ## Connections
 

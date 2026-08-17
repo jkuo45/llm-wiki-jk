@@ -1,68 +1,49 @@
 ---
 title: HIF-1α
-description: HIF-1α (Hypoxia-inducible factor 1-alpha) is a transcription factor that mediates cellular responses to low oxygen (hypoxia). It regulates metabolic reprogramming, including the shift to Glycolysis...
-created: '2026-07-04'
-updated: '2026-07-04'
+description: Hypoxia-inducible factor 1 alpha; master transcriptional regulator of the hypoxic response, repressed by SIRT6 and de-repressed by SIRT3 loss.
+protected: false
+created: 2026-08-17
+updated: 2026-08-17
 tags:
-  - protein
+  - transcription-factor
+  - hypoxia
+  - senescence
+  - sirtuins
+  - cancer-metabolism
 aliases:
-  - HIF1A
-  - HIF-1α
-  - HIF1alpha
-  - Hypoxia-inducible factor 1-alpha
+  - HIF1α
+  - HIF1a
 ---
 
+HIF-1α (hypoxia-inducible factor 1 alpha) is the oxygen-regulated subunit of the HIF-1 transcription factor, the central mediator of cellular and systemic responses to low oxygen. Under normoxia, HIF-1α is hydroxylated, ubiquitinated by the VHL E3 ligase, and degraded; under hypoxia it accumulates, dimerizes with HIF-1β/ARNT, and drives transcription of glycolytic, angiogenic, and survival genes.
 
+## Cross-talk with the sirtuin network
 
+HIF-1α intersects the sirtuin–NAD+ axis at several points:
 
-# HIF-1α
+- **SIRT3 loss → HIF-1α activation.** Cells lacking [[SIRT3|SIRT3]] show increased [[Reactive Oxygen Species|ROS]] that can activate HIF-1α (Finley et al.; Bell et al.), linking mitochondrial sirtuin deficiency to a pseudo-hypoxic, Warburg-like metabolic state.
+- **SIRT6 represses HIF-1α.** [[SIRT6|SIRT6]] restrains HIF-1α and its downstream glycolytic/lipogenic program, favoring oxidative metabolism and genomic stability; loss of SIRT6 de-represses HIF-1α-dependent metabolism, a shift exploited by cancer cells (reviewed in the sirtuin literature).
 
-**HIF-1α** (Hypoxia-inducible factor 1-alpha) is a transcription factor that mediates cellular responses to low oxygen (hypoxia). It regulates metabolic reprogramming, including the shift to [[Glycolysis]] (the [[Warburg Effect]]), and is a key driver of [[Angiogenesis]] via [[VEGF]].
+These relationships position HIF-1α as a downstream effector through which sirtuin activity shapes metabolic reprogramming in ageing, cancer, and ischemia.
 
-## Sirtuin Regulation
+## Relevance to ageing and disease
 
-- [[SIRT3]] negatively regulates HIF-1α by promoting its prolyl hydroxylation and degradation, suppressing aerobic glycolysis
-- [[SIRT6]] represses HIF-1α to regulate glycolysis and lipid metabolism
-- [[SIRT2]] can destabilize HIF-1α, contributing to tumor-suppressive functions
-
-## Clinical Relevance
-
-HIF-1α is frequently overexpressed in [[Cancer]] and linked to poor prognosis. It is a therapeutic target in [[Renal Cell Carcinoma]], [[glioblastoma]], and [[Breast Cancer]].
-
-# 
+HIF-1α activation is double-edged: physiologically protective during ischemia (preconditioning, angiogenesis) but, when constitutively engaged—as in SIRT3 deficiency or the ageing milieu—it can promote the glycolytic shift, [[Inflammaging|low-grade inflammation]], and tumor growth associated with age-related disease.
 
 ## Documents
 
-List of documents that mention this entity
-
-  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
-    - Hypoxia inducible factor-1α (HIF-1α) deacetylation mediated by SIRT2 is necessary for HIF-1α destabilisation and tumour cell hypoxia response (Seo et al. ).
-
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - Mechanistically, SIRT3 negatively regulates aerobic Glycolysis by inhibiting HIF-1α. SIRT6 takes part in the maintenance of glucose metabolic homeostasis in the whole body and in local tissues such as liver and skeletal muscle.
-
+- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+  - Notes that SIRT3 loss raises ROS and can activate HIF-1α, and lists HIF-1α among SIRT6-interacting/inhibited factors in the sirtuin substrate table.
 
 ## Connections
 
-- [[SIRT3]] — Destabilizes HIF-1α
-- [[SIRT6]] — Represses HIF-1α target genes
-- [[Warburg Effect]] — HIF-1α drives aerobic glycolysis
-- [[Breast Cancer]] — Overexpressed in hypoxic tumors
-- [[Glycolysis]] — Key downstream metabolic target
-
-## Additional Content from Topic Directory
-
-Hypoxia-inducible factor 1-alpha (HIF-1α) is a transcription factor that mediates cellular responses to low oxygen (hypoxia). It regulates metabolic reprogramming in cancer cells. Sirtuins, such as [[SIRT2]] and [[SIRT3]], can destabilize HIF-1α, contributing to their tumor-suppressive functions.
-
-- New links added: [[SIRT2]], [[SIRT3]]
-- Suggested new entity notes to create: 
-  - Strong connections to strengthen: [[HIF-1α]] ↔ SIRT3, [[HIF-1α]] ↔ SIRT2
-
-## Sirtuin Regulation of HIF-1α
-
-[[SIRT3]] negatively regulates aerobic glycolysis by inhibiting HIF-1α. [[SIRT6]] represses HIF-1α to regulate glycolysis and lipid metabolism.
+- [[SIRT3]]: Loss of SIRT3 → ROS → HIF-1α activation.
+- [[SIRT6]]: Represses HIF-1α transcriptional program.
+- [[Reactive Oxygen Species]], [[Oxidative Stress]]: Upstream activators of HIF-1α in the sirtuin context.
+- [[Mitochondria]]: Source of ROS that links SIRT3 to HIF-1α.
 
 ## Linking Summary
-- New links added: [[SIRT3]], [[SIRT6]], [[SIRT2]], [[Glycolysis]], [[Warburg Effect]], [[Angiogenesis]], [[VEGF]], [[Cancer]], [[Renal Cell Carcinoma]], [[Breast Cancer]]
-- Suggested new entity notes to create: [[VHL]], [[PHD enzymes]], [[HIF-1β]]
-  - Strong connections to strengthen: [[HIF-1α]] ↔ SIRT3, [[HIF-1α]] ↔ SIRT6
+
+- New links added: [[SIRT3]], [[SIRT6]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Mitochondria]]
+- Suggested new entity notes to create: none
+- Strong connections to strengthen: [[SIRT3]] ↔ [[HIF-1α]] (SIRT3 loss activates HIF-1α); [[SIRT6]] ↔ [[HIF-1α]] (SIRT6 represses)
