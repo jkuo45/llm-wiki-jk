@@ -14,6 +14,13 @@ Metrics computed (on the undirected giant component):
      a random-node null sample (pseudoinverse Laplacian via thresholded eigh)
   7. Personalized PageRank (random-walk flow) seeded at each target
 
+Pre-computed metrics loaded from graph.json:
+  - degree, in_degree, out_degree, pagerank, betweenness_centrality,
+    clustering_coefficient, k_core_number, community_size, community_name
+
+Graph-level metadata loaded from graph.json:
+  - god_nodes, surprising_connections, community_labels, community_cohesion
+
 Pitfalls handled (do not "fix" these):
   - scipy eigsh(which='SM') returns the trivial zero mode for the singular
     Laplacian and renders the Fiedler vector useless -> use dense eigh.
@@ -68,26 +75,140 @@ def label_of(node_id: str, id2lab: dict[str, str]) -> str:
     return id2lab.get(node_id, node_id)
 
 
-def load_graph(path: Path) -> tuple[nx.Graph, list[dict], int]:
+def load_graph(
+    path: Path,
+) -> tuple[nx.Graph, list[dict], int, dict]:
+    """Load graph with edge attributes and graph-level metadata.
+
+    Returns (G, nodes_list, total_count, metadata) where metadata contains
+    god_nodes, surprising_connections, community_labels, etc.
+    """
     if not path.exists():
         sys.exit(f"graph not found at {path}")
     data = json.loads(path.read_text(encoding="utf-8"))
     G = nx.Graph()
     G.add_nodes_from((n["id"], n) for n in data["nodes"])
-    G.add_edges_from((l["source"], l["target"]) for l in data["links"])
+    # Load edges with full attributes (weight, relation, confidence, source_file)
+    for link in data["links"]:
+        attrs = {
+            k: v
+            for k, v in link.items()
+            if k not in ("source", "target")
+        }
+        G.add_edge(link["source"], link["target"], **attrs)
     G.remove_edges_from(nx.selfloop_edges(G))
     total = G.number_of_nodes()
     cc = max(nx.connected_components(G), key=len)
-    return G.subgraph(cc).copy(), data["nodes"], total
+    metadata = data.get("metadata", {})
+    return G.subgraph(cc).copy(), data["nodes"], total, metadata
 
 
 def section(num: int, title: str) -> None:
     print(f"\n{num}. {title}")
 
 
-def report_path_multiplicity(
-    G: nx.Graph, sources: list[str], targets: list[str], id2lab: dict[str, str]
+def report_graph_context(
+    nodes: list[dict],
+    metadata: dict,
+    sources: list[str],
+    targets: list[str],
+    id2lab: dict[str, str],
 ) -> None:
+    """Report pre-computed metrics and graph-level metadata for source/target nodes."""
+    node_map = {n["id"]: n for n in nodes}
+
+    section(0, "Pre-computed node metrics")
+    for nid in sources + targets:
+        n = node_map.get(nid, {})
+        name = label_of(nid, id2lab)
+        deg = n.get("degree", "?")
+        pr = n.get("pagerank", "?")
+        btw = n.get("betweenness_centrality", "?")
+        cc = n.get("clustering_coefficient", "?")
+        kc = n.get("k_core_number", "?")
+        cid = n.get("community", "?")
+        cname = n.get("community_name", "?")
+        csize = n.get("community_size", "?")
+        ind = n.get("in_degree", "?")
+        outd = n.get("out_degree", "?")
+        print(f"    {name}:")
+        print(f"      degree={deg}  in={ind}  out={outd}  pagerank={pr}")
+        print(f"      betweenness={btw}  clustering={cc}  k_core={kc}")
+        print(f"      community={cid} ({cname}, size={csize})")
+
+    gods = metadata.get("god_nodes", [])
+    if gods:
+        print(f"\n    God nodes (top {len(gods)} by degree):")
+        for g in gods[:10]:
+            print(f"      {g['label']}: degree={g['degree']}")
+
+    surprises = metadata.get("surprising_connections", [])
+    if surprises:
+        print(f"\n    Surprising connections ({len(surprises)} found):")
+        for s in surprises[:5]:
+            src = s.get("source", "?")
+            tgt = s.get("target", "?")
+            rel = s.get("relation", "?")
+            why = s.get("why", s.get("note", ""))
+            print(f"      {src} --[{rel}]--> {tgt}: {why}")
+
+    cohesion = metadata.get("community_cohesion", {})
+    if cohesion:
+        low = {k: v for k, v in cohesion.items() if v < 0.15}
+        if low:
+            print(f"\n    Low-cohesion communities (<0.15): {len(low)}")
+            for k, v in sorted(low.items(), key=lambda x: x[1])[:5]:
+                cname = metadata.get("community_labels", {}).get(k, f"Community {k}")
+                print(f"      {cname} (id={k}): {v:.4f}")
+
+
+def report_community_context(
+    G: nx.Graph, nodes: list[dict], involved: list[str], id2lab: dict[str, str]
+) -> None:
+    """Report community assignments and cross-community connections."""
+    node_map = {n["id"]: n for n in nodes}
+    section("0b", "Community context")
+
+    # Group involved nodes by community
+    by_community: dict[str, list[str]] = {}
+    for nid in involved:
+        cid = node_map.get(nid, {}).get("community", "?")
+        by_community.setdefault(str(cid), []).append(label_of(nid, id2lab))
+    for cid, names in by_community.items():
+        cname = node_map.get(
+            [n for n in involved if str(node_map.get(n, {}).get("community")) == cid][0],
+            {},
+        ).get("community_name", f"Community {cid}")
+        print(f"    Community {cid} ({cname}): {names}")
+
+    # Check if sources and targets share communities
+    source_comms = {
+        str(node_map.get(s, {}).get("community")) for s in involved if s in node_map
+    }
+    if len(source_comms) > 1:
+        print(f"    Cross-community analysis: {len(source_comms)} distinct communities")
+    else:
+        print(f"    All involved nodes share community {source_comms}")
+
+    # Source file overlap
+    source_files = {}
+    for nid in involved:
+        sf = node_map.get(nid, {}).get("source_file", "")
+        source_files.setdefault(sf, []).append(label_of(nid, id2lab))
+    if len(source_files) > 1:
+        print(f"\n    Source document provenance ({len(source_files)} documents):")
+        for sf, names in source_files.items():
+            short = sf.split(" - ", 1)[-1] if " - " in sf else sf
+            print(f"      {short[:60]}: {names}")
+
+
+def report_path_multiplicity(
+    G: nx.Graph,
+    sources: list[str],
+    targets: list[str],
+    id2lab: dict[str, str],
+) -> None:
+    """Shortest-path analysis with edge relations and confidence along paths."""
     section(1, "Shortest-path multiplicity (bridges = first hop, NetworkX)")
     for s in sources:
         for t in targets:
@@ -102,21 +223,50 @@ def report_path_multiplicity(
                 f"    {label_of(s, id2lab)} -> {label_of(t, id2lab)}: "
                 f"{len(paths)} shortest path(s), bridges = {bridges}"
             )
+            # Show first path with edge details
+            if paths:
+                p = paths[0]
+                segments = []
+                for i in range(len(p) - 1):
+                    edata = G.get_edge_data(p[i], p[i + 1]) or {}
+                    rel = edata.get("relation", "?")
+                    conf = edata.get("confidence_score", "?")
+                    segments.append(
+                        f"{label_of(p[i], id2lab)} --[{rel}|{conf}]--> "
+                        f"{label_of(p[i + 1], id2lab)}"
+                    )
+                print(f"      Path: {'  '.join(segments[:5])}")
+                if len(segments) > 5:
+                    print(f"      ... ({len(segments) - 5} more hops)")
 
 
 def report_neighborhood(G: nx.Graph, nodes: list[str], id2lab: dict[str, str]) -> None:
+    """Neighborhood distinctness with pre-computed metrics and edge details."""
     section(2, "Neighborhood distinctness (degree + pairwise Jaccard)")
     nbrs = {n: set(G.neighbors(n)) for n in nodes}
     for n in nodes:
-        print(f"    degree {label_of(n, id2lab)}: {G.degree(n)}")
+        deg = G.degree(n)
+        # Get pre-computed metrics if available on node
+        ndata = G.nodes[n]
+        pr = ndata.get("pagerank", "")
+        btw = ndata.get("betweenness_centrality", "")
+        extra = ""
+        if pr or btw:
+            extra = f"  pagerank={pr}  betweenness={btw}"
+        print(f"    degree {label_of(n, id2lab)}: {deg}{extra}")
+
     for i in range(len(nodes)):
         for j in range(i + 1, len(nodes)):
             a, b = nodes[i], nodes[j]
             inter = nbrs[a] & nbrs[b]
             union = nbrs[a] | nbrs[b]
             jac = len(inter) / len(union) if union else 0.0
+            shared = [label_of(x, id2lab) for x in sorted(inter)]
             print(
                 f"    Jaccard({label_of(a, id2lab)} vs {label_of(b, id2lab)}) = {jac:.3f}"
+            )
+            print(
+                f"      shared ({len(shared)}): {shared[:15]}"
             )
             print(
                 f"      {label_of(a, id2lab)}-only: "
@@ -142,10 +292,13 @@ def report_adamic_adar(
 
 
 def report_kcore(G: nx.Graph, nodes: list[str], id2lab: dict[str, str]) -> None:
+    """k-core with pre-computed values when available."""
     section(4, "k-core nesting depth")
     core = nx.core_number(G)
     for n in nodes:
-        print(f"    k-core {label_of(n, id2lab)}: {core[n]}")
+        pre = G.nodes[n].get("k_core_number", "")
+        extra = f"  (pre-computed={pre})" if pre != "" and pre != core[n] else ""
+        print(f"    k-core {label_of(n, id2lab)}: {core[n]}{extra}")
 
 
 def report_spectral(
@@ -213,7 +366,20 @@ def report_effective_resistance(
 def report_pagerank(
     G: nx.Graph, sources: list[str], targets: list[str], id2lab: dict[str, str]
 ) -> None:
+    """PPR with comparison to pre-computed standard PageRank."""
     section(7, "Personalized PageRank (random-walk flow seeded at each target)")
+
+    # Show pre-computed standard PageRank for context
+    pre_pr = {}
+    for n in sources + targets:
+        p = G.nodes[n].get("pagerank")
+        if p is not None:
+            pre_pr[n] = p
+    if pre_pr:
+        print("    Standard PageRank (pre-computed):")
+        for n, p in sorted(pre_pr.items(), key=lambda x: -x[1]):
+            print(f"      {label_of(n, id2lab)}: {p:.8f}")
+
     order_cache: dict[str, list[str]] = {}
     for t in targets:
         pr = nx.pagerank(
@@ -221,11 +387,11 @@ def report_pagerank(
         )
         order = sorted(pr, key=pr.get, reverse=True)
         order_cache[t] = order
+        print(f"\n    PPR seeded at {label_of(t, id2lab)}:")
         for s in sources:
             rank = order.index(s) + 1
             print(
-                f"    PPR-from-{label_of(t, id2lab)} rank {label_of(s, id2lab)}: "
-                f"#{rank} (score {pr[s]:.5f})"
+                f"      {label_of(s, id2lab)}: rank #{rank} (score {pr[s]:.5f})"
             )
 
 
@@ -256,7 +422,7 @@ def main() -> None:
     )
     args = ap.parse_args()
 
-    G, nodes, total = load_graph(args.graph)
+    G, nodes, total, metadata = load_graph(args.graph)
     id2lab = {n["id"]: n["label"] for n in nodes}
     try:
         sources = [resolve(s, nodes) for s in args.sources]
@@ -275,6 +441,8 @@ def main() -> None:
     )
 
     prng = np.random.default_rng(args.seed)
+    report_graph_context(nodes, metadata, sources, targets, id2lab)
+    report_community_context(G, nodes, involved, id2lab)
     report_path_multiplicity(G, sources, targets, id2lab)
     report_neighborhood(G, involved, id2lab)
     report_adamic_adar(G, sources, targets, id2lab)

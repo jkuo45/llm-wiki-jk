@@ -22,6 +22,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -151,12 +152,6 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     nodes = graph["nodes"]
     links = graph["links"]
 
-    # Build degree map
-    degree: Counter = Counter()
-    for link in links:
-        degree[link["source"]] += 1
-        degree[link["target"]] += 1
-
     # Build community membership counts
     community_counts: Counter = Counter()
     for n in nodes:
@@ -171,20 +166,24 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     for entry in legend:
         entry["color"] = color_map[entry["cid"]]
 
-    # Build node objects for three-graph.html
+    # Build node objects for three-graph.html (use pre-computed metrics)
     node_objects = []
     node_id_set = {n["id"] for n in nodes}
     for n in nodes:
         cid = n["community"]
-        deg = degree.get(n["id"], 0)
+        deg = n.get("degree", 0)
         node_objects.append({
             "id": n["id"],
             "label": n["label"],
             "file_type": n.get("file_type", "concept"),
             "community": cid,
-            "community_name": labels.get(cid, f"Community {cid}"),
+            "community_name": n.get("community_name", labels.get(cid, f"Community {cid}")),
             "degree": deg,
             "size": max(3, min(20, 3 + deg * 0.8)),
+            "pagerank": n.get("pagerank", 0.0),
+            "betweenness": n.get("betweenness_centrality", 0.0),
+            "clustering": n.get("clustering_coefficient", 0.0),
+            "k_core": n.get("k_core_number", 0),
             "source_file": n.get("source_file", ""),
             "color": {"background": color_map.get(cid, "#888888")},
         })
@@ -203,6 +202,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "label": link.get("relation", ""),
             "confidence": link.get("confidence", "EXTRACTED"),
             "confidence_score": conf,
+            "weight": link.get("weight", conf),
             "color": {"opacity": max(0.1, min(1.0, conf))},
         })
 
@@ -433,6 +433,104 @@ def export_wiki_context(gp: Path, node_ids: set[str]) -> None:
     print(f"Wiki context: {matched} nodes matched, {not_found} not found")
 
 
+# ------------------------------------------------------------------
+# Graph enrichment: pre-compute node/edge metrics for graph.json
+# ------------------------------------------------------------------
+
+
+def enrich_graph_metrics(
+    G: nx.DiGraph,
+    communities: dict[int, list[str]],
+    new_labels: dict[int, str],
+    cohesion: dict[int, float],
+    gods: list[dict],
+    surprises: list[dict],
+) -> dict:
+    """Compute and attach node/edge metrics, return graph-level metadata.
+
+    Node attributes added: degree, in_degree, out_degree, pagerank,
+    betweenness_centrality, clustering_coefficient, k_core_number,
+    community_size, community_name.
+
+    Edge attributes added: weight (from confidence_score).
+
+    Returns a dict of graph-level metadata to inject into graph.json
+    after to_json writes it.
+    """
+    import time
+
+    t0 = time.time()
+
+    # --- undirected view for metrics that don't need direction ---
+    G_und = G.to_undirected()
+
+    # --- node metrics ---
+    print("  Computing node metrics...")
+
+    for n in G.nodes():
+        G.nodes[n]["degree"] = G.in_degree(n) + G.out_degree(n)
+        G.nodes[n]["in_degree"] = G.in_degree(n)
+        G.nodes[n]["out_degree"] = G.out_degree(n)
+
+    pr = nx.pagerank(G, alpha=0.85, max_iter=200)
+    for n in G.nodes():
+        G.nodes[n]["pagerank"] = round(pr.get(n, 0.0), 8)
+
+    bet = nx.betweenness_centrality(G_und)
+    for n in G.nodes():
+        G.nodes[n]["betweenness_centrality"] = round(bet.get(n, 0.0), 8)
+
+    clust = nx.clustering(G_und)
+    for n in G.nodes():
+        G.nodes[n]["clustering_coefficient"] = round(clust.get(n, 0.0), 8)
+
+    kcore = nx.core_number(G_und)
+    for n in G.nodes():
+        G.nodes[n]["k_core_number"] = kcore.get(n, 0)
+
+    community_sizes = {cid: len(members) for cid, members in communities.items()}
+    node_community = {}
+    for cid, members in communities.items():
+        for m in members:
+            node_community[m] = cid
+    for n in G.nodes():
+        cid = node_community.get(n)
+        G.nodes[n]["community_size"] = community_sizes.get(cid, 0) if cid is not None else 0
+        G.nodes[n]["community_name"] = new_labels.get(cid, f"Community {cid}") if cid is not None else ""
+
+    # --- edge weight from confidence_score ---
+    for u, v, d in G.edges(data=True):
+        d["weight"] = d.get("confidence_score", 0.7)
+
+    node_count = G.number_of_nodes()
+    edge_count = G.number_of_edges()
+    dt = time.time() - t0
+    print(f"  Node/edge metrics computed in {dt:.1f}s ({node_count}n/{edge_count}e)")
+
+    # --- graph-level metadata ---
+    graph_meta = {
+        "community_labels": {str(k): v for k, v in new_labels.items()},
+        "community_cohesion": {str(k): round(v, 4) for k, v in cohesion.items()},
+        "community_sizes": {str(k): v for k, v in community_sizes.items()},
+        "god_nodes": gods,
+        "surprising_connections": surprises,
+        "metrics_computed_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    return graph_meta
+
+
+def inject_graph_metadata(gp: Path, metadata: dict) -> None:
+    """Post-process graph.json to add graph-level metadata."""
+    path = gp / "graph.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    data["metadata"] = metadata
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    print(f"Injected graph metadata: {len(metadata)} top-level keys")
+
+
 def main() -> int:
     topics = sorted(str(p) for p in ROOT.glob("src/**/_triples.json"))
     if not topics:
@@ -545,6 +643,10 @@ def main() -> int:
     gods = god_nodes(G)
     surprises = surprising_connections(G, communities)
     questions = suggest_questions(G, communities, new_labels)
+
+    # --- enrich graph with pre-computed metrics ---
+    graph_meta = enrich_graph_metrics(G, communities, new_labels, cohesion, gods, surprises)
+
     # Count topic triple files (the actual graph sources)
     total_words = sum(len(Path(f).read_text(encoding="utf-8").split()) for f in topics)
     detection = {
@@ -573,6 +675,10 @@ def main() -> int:
 
     wrote = to_json(G, communities, str(GP / "graph.json"), force=True)
     print("to_json wrote:", wrote)
+
+    # --- inject graph-level metadata ---
+    inject_graph_metadata(GP, graph_meta)
+
     print(
         f"FINAL: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges, {len(communities)} communities"
     )
