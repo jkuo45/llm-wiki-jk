@@ -31,8 +31,11 @@
         <line x1="12" y1="8" x2="12.01" y2="8"></line>
       </svg>
     </button>
-    <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG">
+    <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+    </button>
+    <button id="btn-chat" title="Analysis panel / 分析面板" aria-label="Analysis panel">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
   </div>
@@ -101,8 +104,8 @@
 <div id="dataset-panel">
   <div class="panel-scroll" id="dataset-scroll"></div>
 </div>
-<button id="chat-btn" title="Analysis panel / 分析面板" aria-label="Analysis panel"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></button>
 <div id="chat-panel">
+  <div id="chat-box">
   <div id="chat-header">
     <span>Analysis / 分析</span>
     <div class="chat-header-actions">
@@ -136,6 +139,7 @@
     <div id="chat-tag-popup"></div>
     <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="500" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
     <button id="chat-send" title="Send">Send</button>
+  </div>
   </div>
 </div>
 

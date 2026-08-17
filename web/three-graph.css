@@ -143,7 +143,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 a.data-source:hover { border-color: #6b9bc7; }
 
 /* Dataset info panel */
-#btn-dataset { flex: none; white-space: nowrap; }
+#btn-dataset { flex: none; white-space: nowrap; color: #9a9ab0; }
 #btn-dataset svg { display: block; }
 #top-links a.btn-page { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; }
 #top-links a.btn-page:hover { background: #2a2a4e; border-color: #4E79A7; }
@@ -215,12 +215,12 @@ a.data-source:hover { border-color: #6b9bc7; }
   padding: 24px;
 }
 #dataset-panel.visible { display: flex; }
-#dataset-panel.active, #chat-panel.active {
+#dataset-panel.active, #chat-panel.active #chat-box {
   border-color: #4E79A7;
   box-shadow: 0 0 0 1px rgba(78, 121, 167, 0.55), 0 8px 32px rgba(0, 0, 0, 0.55);
 }
-#dataset-panel.dimmed, #chat-panel.dimmed { opacity: 0.35; }
-#dataset-panel, #chat-panel {
+#dataset-panel.dimmed, #chat-panel.dimmed #chat-box { opacity: 0.35; }
+#dataset-panel, #chat-box {
   transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 #dataset-panel .panel-scroll {
@@ -273,7 +273,7 @@ a.data-source:hover { border-color: #6b9bc7; }
 #controls button { display: flex; align-items: center; justify-content: center; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 0 1 auto; min-width: 0; white-space: nowrap; }
 #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
 #controls button.active { background: #4E79A7; border-color: #4E79A7; }
-#controls #btn-save-png { flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
+#controls #btn-save-png { display: none; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
 #controls #btn-save-png svg { width: 100%; height: 100%; display: block; }
 #controls #btn-save-png:hover { color: #e0e0e0; border-color: #4E79A7; }
 #controls #btn-save-png.ok { color: #58D68D; border-color: #58D68D; }
@@ -310,29 +310,33 @@ a.data-source:hover { border-color: #6b9bc7; }
   #controls button { flex: none; }
 }
 
-/* Chat button */
-#chat-btn {
-  position: fixed; bottom: 24px; right: 24px; z-index: 300;
-  width: 56px; height: 56px; border-radius: 50%;
-  background: #4E79A7; border: 2px solid #6b9bc7; color: #fff;
-  font-size: 24px; cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
-  transition: all 0.2s;
-}
-#chat-btn:hover { background: #5d5d6d; border-color: #7a7a8a; transform: scale(1.08); }
-#chat-btn.open { background: #2a2a4e; border-color: #3a3a5e; }
+/* Chat button (in controls bar) */
+#controls #btn-chat { flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
+#controls #btn-chat svg { width: 100%; height: 100%; display: block; }
+#controls #btn-chat:hover { color: #e0e0e0; border-color: #4E79A7; }
+#controls #btn-chat.open, #controls #btn-chat.active { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
 
-/* Chat panel — analysis panel, large floating window on the right */
+/* Chat panel — analysis panel, centered modal sized like the dataset panel */
 #chat-panel {
-  position: fixed; top: 12px; right: 12px; bottom: 12px; z-index: 290;
-  width: min(56vw, 820px); max-width: calc(100vw - 24px);
-  height: auto; max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px);
-  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
-  display: none; flex-direction: column; overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  position: fixed; inset: 0; z-index: 500;
+  display: none; align-items: center; justify-content: center;
+  padding: 24px;
 }
 #chat-panel.open { display: flex; }
+#chat-panel::before {
+  content: ''; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
+}
+#chat-box {
+  position: relative; z-index: 1;
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
+  width: min(1200px, calc(100vw - 48px));
+  height: min(880px, calc(100vh - 48px)); height: min(880px, calc(100dvh - 48px));
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 48px); max-height: calc(100dvh - 48px);
+  display: flex; flex-direction: column; overflow: hidden;
+}
 
 #chat-header {
   display: flex; align-items: center; justify-content: space-between;
@@ -349,10 +353,10 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 #chat-maximize:hover { border-color: #4E79A7; color: #e0e0e0; }
 #chat-maximize:active { background: #2a2a4e; }
-#chat-panel.maximized {
-  top: 12px; left: 12px; right: 12px; bottom: 12px;
-  width: auto; max-width: none; height: auto; max-height: none;
-  z-index: 295; border-radius: 12px;
+#chat-panel.maximized { padding: 12px; }
+#chat-panel.maximized #chat-box {
+  width: calc(100vw - 24px); max-width: none;
+  max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px);
 }
 #chat-panel.maximized #chat-messages { font-size: 15px; }
 #chat-clear {
@@ -439,15 +443,18 @@ a.data-source:hover { border-color: #6b9bc7; }
 .typing-dots span:nth-child(3) { animation-delay: 0.3s; }
 @keyframes typing-bounce { 0%, 60%, 100% { transform: translateY(0); opacity: .4; } 30% { transform: translateY(-4px); opacity: 1; } }
 
-.chat-suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.chat-suggestions { display: flex; flex-direction: column; gap: 4px; margin-top: 6px; }
 .chat-suggestion {
-  background: transparent; border: 1px dashed #555; color: #999;
-  padding: 8px 14px; border-radius: 20px; font-size: 13px; cursor: pointer;
-  transition: all 0.15s; font-family: inherit;
+  background: transparent; border: none; border-bottom: 1px solid #2a2a4e;
+  color: #ccc; text-align: left; padding: 10px 12px 10px 28px; font-size: 14px; cursor: pointer;
+  transition: background 0.15s, color 0.15s; font-family: inherit; line-height: 1.45;
+  position: relative; border-radius: 6px; white-space: normal;
 }
-.chat-suggestion:hover { background: rgba(120,120,140,0.12); border-color: #888; color: #ccc; }
-.chat-suggestion-more { border-style: solid; border-color: #777; color: #aaa; }
-.chat-suggestion-more:hover { background: rgba(150,150,170,0.12); border-color: #999; color: #ddd; }
+.chat-suggestion::before { content: '\2022'; position: absolute; left: 12px; top: 10px; color: #7cb3d4; font-size: 14px; }
+.chat-suggestion:hover { background: rgba(120,120,140,0.12); color: #e0e0e0; }
+.chat-suggestion-more { color: #a0d4f0; }
+.chat-suggestion-more::before { content: '\2192'; }
+.chat-suggestion-more:hover { background: rgba(78,121,167,0.12); color: #cfe6f5; }
 
 .chat-node-link {
   color: #7cb3d4; cursor: pointer; text-decoration: underline;
@@ -557,27 +564,18 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 
 @media (max-width: 480px) {
-  /* Analysis panel: full-height sheet sliding up over the graph — the same
-     pattern as the hamburger (sidebar) sheet. While open it covers the screen;
-     Close lives in the sheet header and the floating analysis button hides. */
-  #chat-panel {
-    display: flex;
-    position: fixed; inset: 0; width: 100%; max-width: none;
-    max-height: none; border-radius: 0; z-index: 295;
-    transform: translateY(100%);
-    transition: transform 0.3s ease, opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-  }
-  #chat-panel.open { transform: translateY(0); }
-  #chat-panel.maximized { inset: 0; border-radius: 0; z-index: 295; }
+  /* Analysis panel: full-screen sheet over the graph. Close lives in the
+     sheet header and the controls analysis button reflects its state. */
+  #chat-panel { padding: 0; }
+  #chat-panel::before { display: none; }
+  #chat-box { width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 0; border: none; box-shadow: none; }
   #chat-maximize { display: none; }
-  body:has(#chat-panel.open) #chat-btn { display: none; }
   #chat-header { padding-top: calc(14px + env(safe-area-inset-top)); }
   #chat-input-wrap { padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
   /* >=16px font stops iOS auto-zoom on focus (the cause of the viewport
      centering on the input); enlarge the send hit area + kill tap-zoom delay. */
   #chat-input { font-size: 16px; }
   #chat-send { min-width: 64px; min-height: 44px; touch-action: manipulation; }
-  #chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
   #dataset-panel { padding: 16px 10px; }
   #dataset-panel .panel-scroll {
     max-width: calc(100vw - 20px);

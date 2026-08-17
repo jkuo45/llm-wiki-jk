@@ -17,7 +17,7 @@ import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } fro
 // ------------------------------------------------------------
 // Elements + API endpoints
 // ------------------------------------------------------------
-const chatBtn = document.getElementById('chat-btn');
+const chatBtn = document.getElementById('btn-chat');
 const chatPanel = document.getElementById('chat-panel');
 const chatMessages = document.getElementById('chat-messages');
 const chatInput = document.getElementById('chat-input');
@@ -949,7 +949,7 @@ function suggestionHTML(q) {
 
 function defaultSuggestionsHTML() {
   return SUGGESTION_SETS[0].map(suggestionHTML).join('') +
-    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 Suggest questions</button>`;
+    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more questions</button>`;
 }
 
 function appendSuggestions(parent) {
@@ -969,7 +969,7 @@ async function generateSuggestions() {
   suggestionIndex++;
 
   suggestionsDiv.innerHTML = questions.map(suggestionHTML).join('') +
-    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">🧠 More</button>`;
+    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more questions</button>`;
 }
 
 function tagSuggestionNodes(labels) {
