@@ -131,9 +131,14 @@
   function processAdded(node) {
     if (node.nodeType === 3) { processNode(node); return; } // text node
     if (node.nodeType !== 1) return; // only elements contain text
+    // Snapshot text nodes first: processNode() replaces the walker's current
+    // node (replaceChild), which ends a live TreeWalker traversal early and
+    // skips every later node (chips, list items). Process from a snapshot —
+    // same pattern as run() above.
     var walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, { acceptNode: acceptText });
-    var n;
-    while ((n = walker.nextNode())) processNode(n);
+    var all = [];
+    while (walker.nextNode()) all.push(walker.currentNode);
+    for (var i = 0; i < all.length; i++) processNode(all[i]);
   }
 
   function initObserver() {
