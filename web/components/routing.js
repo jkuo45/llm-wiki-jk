@@ -21,6 +21,10 @@ export function updateHash(pushState = true) {
       parts.push(`section=${encodeURIComponent(state.readerSection)}`);
     }
   }
+  if (state.analysisOpen) {
+    parts.push('analysis');
+    parts.push(`mode=${encodeURIComponent(state.analysisMode)}`);
+  }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
   if (pushState) {
@@ -35,8 +39,15 @@ export function parseHash() {
   if (!hash) return null;
   const params = {};
   hash.split('&').forEach(pair => {
-    const [k, v] = pair.split('=');
-    if (k && v !== undefined) params[decodeURIComponent(k)] = decodeURIComponent(v);
+    if (!pair) return;
+    const eq = pair.indexOf('=');
+    if (eq === -1) {
+      params[decodeURIComponent(pair)] = true;
+    } else {
+      const k = pair.slice(0, eq);
+      const v = pair.slice(eq + 1);
+      if (k) params[decodeURIComponent(k)] = decodeURIComponent(v);
+    }
   });
   return params;
 }

@@ -62,7 +62,7 @@ datasetScroll.innerHTML = `
   <ul class="dataset-list">
     <li><b>Search</b> nodes in the left panel, or <b>Graph Query</b> to find paths.</li>
     <li><b>Drag</b> nodes to explore; Cmd/Ctrl-drag moves their neighbors.</li>
-    <li><b>Chat</b> — ask questions and follow up conversationally.</li>
+    <li><b>Analysis panel</b> — open <b>Prompt</b> to query the graph, or <b>Graph</b> for instant dataset analytics.</li>
     <li><b>Click</b> edges and nodes to inspect relations and jump to source notes.</li>
   </ul>
 
@@ -184,6 +184,16 @@ function restoreFromHash(params) {
     selectNode(params.node);
   } else if (!params.edge) {
     deselectNode();
+  }
+  // Analysis panel: open/close and restore Prompt vs Graph mode from the hash.
+  const analysisBtn = document.getElementById('btn-chat');
+  if (params.analysis) {
+    if (!analysisBtn.classList.contains('open')) analysisBtn.click();
+    const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
+    const tab = document.querySelector(`.chat-mode-tab[data-mode="${tabMode}"]`);
+    if (tab && !tab.classList.contains('active')) tab.click();
+  } else if (analysisBtn.classList.contains('open')) {
+    analysisBtn.click();
   }
   state.suppressHashUpdate = false;
 }

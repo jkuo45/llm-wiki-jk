@@ -3,7 +3,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, WIKI_CONTEXT, nodeMap } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, WIKI_CONTEXT, nodeMap, LEGEND, adjacency } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
@@ -13,16 +13,17 @@ import {
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
+import { updateHash } from './routing.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
 // ------------------------------------------------------------
 const chatBtn = document.getElementById('btn-chat');
+const chatActivityDot = document.getElementById('chat-activity-dot');
 const chatPanel = document.getElementById('chat-panel');
 const chatMessages = document.getElementById('chat-messages');
 const chatInput = document.getElementById('chat-input');
 const chatSend = document.getElementById('chat-send');
-const chatMaximizeBtn = document.getElementById('chat-maximize');
 const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
 const chatFilterToggle = document.getElementById('chat-filter-toggle');
@@ -33,6 +34,8 @@ const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const graphifyOps = document.getElementById('graphify-ops');
 const chatTagPopup = document.getElementById('chat-tag-popup');
 const chatTags = document.getElementById('chat-tags');
+const chatModeSwitch = document.getElementById('chat-mode-switch');
+const analysisTools = document.getElementById('analysis-tools');
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
 const INTENT_API = `${API_BASE}/intent`;
@@ -98,18 +101,19 @@ graphifyOps.addEventListener('click', (e) => {
 syncGraphifyUI();
 
 // Message + close icons for the floating analysis button (SVG, stroke style like
-// the other inline icons so they inherit the button's text color).
-const MSG_ICON = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>';
-const CLOSE_ICON = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+// the other inline icons so they inherit the button's text color). The icon is
+// a static chart/diagram glyph; the button simply toggles the analysis panel.
 
 chatBtn.addEventListener('click', () => {
   chatOpen = !chatOpen;
   chatPanel.classList.toggle('open', chatOpen);
   chatBtn.classList.toggle('open', chatOpen);
-  chatBtn.innerHTML = chatOpen ? CLOSE_ICON : MSG_ICON;
   if (!chatOpen) setActiveWindow(null);
   if (chatOpen) chatInput.focus();
   syncChatPanelKeyboard();
+  state.analysisOpen = chatOpen;
+  state.analysisMode = panelMode;
+  updateHash();
 });
 
 // Fix for mobile keyboards: on iOS (and older Android) the virtual keyboard
@@ -133,22 +137,14 @@ if (window.visualViewport) {
 window.addEventListener('resize', syncChatPanelKeyboard);
 syncChatPanelKeyboard();
 
-const MAXIMIZE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1H1V5"/><path d="M9 13H13V9"/><path d="M1 9V13H5"/><path d="M13 5V1H9"/></svg>';
-const RESTORE_ICON = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5V1H5"/><path d="M13 9V13H9"/><path d="M5 13H1V9"/><path d="M9 1H13V5"/></svg>';
-
-chatMaximizeBtn.addEventListener('click', () => {
-  const maximized = chatPanel.classList.toggle('maximized');
-  chatMaximizeBtn.innerHTML = maximized ? RESTORE_ICON : MAXIMIZE_ICON;
-  chatMaximizeBtn.title = maximized ? 'Restore window / 還原視窗' : 'Maximize window / 放大視窗';
-  if (maximized) chatInput.focus();
-});
-
 function closeChat() {
   chatOpen = false;
   chatPanel.classList.remove('open');
   chatBtn.classList.remove('open');
   chatBtn.innerHTML = MSG_ICON;
   setActiveWindow(null);
+  state.analysisOpen = false;
+  updateHash();
 }
 
 chatCloseBtn.addEventListener('click', closeChat);
@@ -371,6 +367,7 @@ async function sendChatMessage() {
 
   addChatMessage(clean, 'user');
   chatHistory.push({ role: 'user', content: clean });
+  refreshActivity();
 
   const typingDiv = addChatMessage('Thinking', 'typing');
   typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" style="color:#666;font-size:12px;min-width:42px;display:inline-block"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
@@ -750,6 +747,7 @@ chatInput.addEventListener('input', () => {
   chatInput.style.height = 'auto';
   chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
   updateTagPopup();
+  refreshActivity();
 });
 
 // ------------------------------------------------------------
@@ -838,6 +836,7 @@ function renderTagChips() {
     chip.appendChild(rm);
     chatTags.appendChild(chip);
   });
+  refreshActivity();
 }
 
 function highlightTaggedNodes() {
@@ -913,43 +912,70 @@ chatTags.addEventListener('click', (e) => {
 // ------------------------------------------------------------
 // Suggestion chips
 // ------------------------------------------------------------
-const SUGGESTION_SETS = [
-  [
-    { q: "Trace from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed lysosomal stress", tags: ["Adrenochrome", "Neuromelanin", "Autophagy", "TFEB"] },
-    { q: "How does COMT channel catecholamines into the Adrenochrome Pathway, and what is the Fisetin route back toward ROS?", tags: ["COMT", "Adrenochrome Pathway", "Fisetin", "ROS"] },
-    { q: "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？", tags: ["NRF2", "NF-κB", "Adrenochrome"] },
-  ],
-  [
-    { q: "Trace from CD38 through Aging to SIRT1 and explain how NAD+ consumption drives the decline", tags: ["CD38", "Aging", "SIRT1", "NAD+"] },
-    { q: "Why does Fisetin clear senescent cells while NR simply converts to NAD+ upstream of SIRT1?", tags: ["Fisetin", "Nicotinamide Riboside", "NAD+", "SIRT1"] },
-    { q: "NAD+ 為何是 Sirtuins 的必要條件，CD38 消耗 NAD+ 這一步如何成為老化關鍵開關？", tags: ["NAD+", "Sirtuins", "CD38"] },
-  ],
-  [
-    { q: "Compare the senolytic (Fisetin) and senomorphic paths to senescent-cell clearance through Fisetin, mTORC1, and Autophagy", tags: ["Fisetin", "mTORC1", "Autophagy"] },
-    { q: "Trace Creatine to SIRT1 to FOXO to Autophagy and explain the AMPK handoff between them", tags: ["Creatine", "SIRT1", "FOXO", "AMPK", "Autophagy"] },
-    { q: "mTORC1、TFEB、自噬這條軸如何決定衰老細胞的清除 vs 存活？", tags: ["mTORC1", "TFEB", "Autophagy"] },
-  ],
-  [
-    { q: "Trace from Bcl-2 family MOMP through the Intrinsic Pathway to Caspase-9 and explain where SIRT1 lands on this line", tags: ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
-    { q: "How does Honokiol protect MFN2-mediated mitochondrial fusion, and why does that intersect Caspase-3 via its dual role in cardiac hypertrophy?", tags: ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
-    { q: "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？", tags: ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] },
-  ],
-  [
-    { q: "Trace from Methylene blue through Monoamine oxidase and Aminoguanidine to Methemoglobinemia and explain the enzyme-inhibitor web", tags: ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
-    { q: "Why does Ivermectin induce Autophagy which suppresses NF-κB — and what does Adrenochrome contribute on the same subgraph?", tags: ["Ivermectin", "Autophagy", "NF-κB", "Adrenochrome"] },
-    { q: "甲基藍治療變性血紅素血症的作用機制，透過 MAO 抑制劑那一跳如何反過來連向氨基胍？", tags: ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
-  ],
+const RECIPE_GROUPS = [
+  {
+    title: 'Trace a mechanism / 追蹤機制',
+    items: [
+      { q: "Analyze the mechanism from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed lysosomal stress", tags: ["Adrenochrome", "Neuromelanin", "Autophagy", "TFEB"] },
+      { q: "Trace how COMT channels catecholamines into the Adrenochrome Pathway, and where the Fisetin route loops back to ROS", tags: ["COMT", "Adrenochrome Pathway", "Fisetin", "ROS"] },
+      { q: "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？", tags: ["NRF2", "NF-κB", "Adrenochrome"] },
+    ],
+  },
+  {
+    title: 'Find drivers & connectors / 找出驅動因子',
+    items: [
+      { q: "Identify the top connector nodes bridging the NAD+ and Autophagy communities", tags: ["NAD+", "Autophagy"] },
+      { q: "Which nodes have the highest betweenness across the Sirtuin and mTOR networks?", tags: ["Sirtuins", "mTORC1"] },
+      { q: "Find the hubs that link CD38-driven NAD+ decline to SIRT1 and aging", tags: ["CD38", "NAD+", "SIRT1", "Aging"] },
+    ],
+  },
+  {
+    title: 'Compare interventions / 比較介入',
+    items: [
+      { q: "Compare the senolytic (Fisetin) versus senomorphic paths to senescent-cell clearance", tags: ["Fisetin", "mTORC1", "Autophagy"] },
+      { q: "Contrast NR conversion to NAD+ upstream of SIRT1 with Fisetin's direct senolytic action", tags: ["Nicotinamide Riboside", "NAD+", "SIRT1", "Fisetin"] },
+      { q: "NAD+ 為何是 Sirtuins 的必要條件，CD38 消耗 NAD+ 這一步如何成為老化關鍵開關？", tags: ["NAD+", "Sirtuins", "CD38"] },
+    ],
+  },
+  {
+    title: 'Enrich a node set / 擴充節點集合',
+    items: [
+      { q: "Given Creatine, SIRT1, FOXO and AMPK, map the autophagy handoff between them", tags: ["Creatine", "SIRT1", "FOXO", "AMPK", "Autophagy"] },
+      { q: "Expand the Methylene blue → MAO → Aminoguanidine → Methemoglobinemia enzyme-inhibitor web", tags: ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
+      { q: "Ivermectin 如何誘發自噬抑制 NF-κB，並與 Adrenochrome 在同一子圖上交會？", tags: ["Ivermectin", "Autophagy", "NF-κB", "Adrenochrome"] },
+    ],
+  },
+  {
+    title: 'Pathology & clinical / 病理與臨床',
+    items: [
+      { q: "Trace MOMP through the Intrinsic Pathway to Caspase-9 and place SIRT1 on that line", tags: ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
+      { q: "How does Honokiol protect MFN2 mitochondrial fusion and intersect Caspase-3 in cardiac hypertrophy?", tags: ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
+      { q: "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？", tags: ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] },
+    ],
+  },
 ];
-let suggestionIndex = 1;
+const ALL_RECIPES = RECIPE_GROUPS.flatMap(g => g.items);
+const SUGGESTIONS_PER_PAGE = 7;
+let suggestionOffset = 0;
 
 function suggestionHTML(q) {
   const tags = (q.tags || []).join(',');
-  return `<button class="chat-suggestion" data-query="${esc(q.q)}" data-tags="${esc(tags)}">${esc(q.q)}</button>`;
+  return `<button class="chat-suggestion" data-query="${esc(q.q)}" data-tags="${esc(tags)}">&ldquo;${esc(q.q)}&rdquo;</button>`;
+}
+
+function pageSuggestionsHTML() {
+  const items = [];
+  for (let i = 0; i < SUGGESTIONS_PER_PAGE; i++) {
+    const q = ALL_RECIPES[(suggestionOffset + i) % ALL_RECIPES.length];
+    items.push(suggestionHTML(q));
+  }
+  return `<div class="chat-suggestion-group">${items.join('')}</div>` +
+    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more analyses</button>`;
 }
 
 function defaultSuggestionsHTML() {
-  return SUGGESTION_SETS[0].map(suggestionHTML).join('') +
-    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more questions</button>`;
+  suggestionOffset = 0;
+  return pageSuggestionsHTML();
 }
 
 function appendSuggestions(parent) {
@@ -964,12 +990,9 @@ async function generateSuggestions() {
   const suggestionsDiv = document.getElementById('chat-suggestions');
   if (!suggestionsDiv) return;
 
-  // Cycle through preset suggestion sets
-  const questions = SUGGESTION_SETS[suggestionIndex % SUGGESTION_SETS.length];
-  suggestionIndex++;
-
-  suggestionsDiv.innerHTML = questions.map(suggestionHTML).join('') +
-    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more questions</button>`;
+  // Advance by a full page, wrapping around the flattened recipe pool.
+  suggestionOffset = (suggestionOffset + SUGGESTIONS_PER_PAGE) % ALL_RECIPES.length;
+  suggestionsDiv.innerHTML = pageSuggestionsHTML();
 }
 
 function tagSuggestionNodes(labels) {
@@ -1013,10 +1036,14 @@ chatNewBtn.addEventListener('click', () => {
   chatHistory = [];
   chatMessages.innerHTML = '';
   clearChatHighlights();
+  compareA = [];
+  compareB = [];
+  renderCompareSets();
   clearChatTags();
   appendSuggestions(chatMessages);
   chatInput.value = '';
   chatInput.focus();
+  refreshActivity();
 });
 
 // ------------------------------------------------------------
@@ -1200,6 +1227,424 @@ function applyChatNodeFilter() {
 chatFilterCheckbox.addEventListener('change', applyChatNodeFilter);
 
 // ------------------------------------------------------------
+// Panel mode (Prompt / Graph) — the panel is always full-screen
+// ------------------------------------------------------------
+let panelMode = 'explore'; // 'ask' (Prompt) | 'explore' (Graph) — Graph is the default view
+
+function setPanelMode(mode) {
+  panelMode = mode;
+  state.analysisMode = mode === 'explore' ? 'graph' : 'prompt';
+  chatPanel.classList.toggle('mode-explore', mode === 'explore');
+  chatModeSwitch.querySelectorAll('.chat-mode-tab').forEach(t => {
+    const active = t.dataset.mode === mode;
+    t.classList.toggle('active', active);
+    t.setAttribute('aria-selected', active ? 'true' : 'false');
+  });
+  if (mode === 'explore') renderAnalysisTools();
+  updateHash();
+}
+
+chatModeSwitch.addEventListener('click', (e) => {
+  const tab = e.target.closest('.chat-mode-tab');
+  if (!tab) return;
+  setPanelMode(tab.dataset.mode);
+});
+
+// Activity dots: Prompt tab lights when a conversation is active; Graph tab
+// lights when there are selections (tags / compare sets). The floating
+// analysis button lights when either panel has active work.
+function refreshActivity() {
+  const promptActive = chatHistory.length > 0 ||
+    (panelMode !== 'explore' && chatInput.value.trim().length > 0);
+  const graphActive = compareA.length > 0 || compareB.length > 0;
+  const promptTab = chatPanel.querySelector('.chat-mode-tab[data-mode="ask"]');
+  const graphTab = chatPanel.querySelector('.chat-mode-tab[data-mode="explore"]');
+  if (promptTab) promptTab.classList.toggle('has-activity', promptActive);
+  if (graphTab) graphTab.classList.toggle('has-activity', graphActive);
+  if (chatActivityDot) chatActivityDot.classList.toggle('on', promptActive || graphActive);
+}
+
+// ------------------------------------------------------------
+// Explore mode — instant, offline dataset analytics
+// ------------------------------------------------------------
+// Memoized derived metrics computed once from the loaded graph. No server call:
+// nodes already carry degree / pagerank / betweenness / community, and the
+// LEGEND array describes communities.
+let datasetStats = null;
+// Compare sets hold entries: {type:'node', id} | {type:'community', cid, label, ids:[]}
+let compareA = [];
+let compareB = [];
+
+function entryIds(entries) {
+  const set = new Set();
+  entries.forEach(e => {
+    if (e.type === 'node') set.add(e.id);
+    else (e.ids || []).forEach(id => set.add(id));
+  });
+  return set;
+}
+
+function computeDatasetStats() {
+  if (datasetStats) return datasetStats;
+  const N = RAW_NODES.length, E = RAW_EDGES.length;
+  const commIds = new Set(RAW_NODES.map(n => n.community));
+  const nodesByCommunity = new Map();
+  RAW_NODES.forEach(n => {
+    if (!nodesByCommunity.has(n.community)) nodesByCommunity.set(n.community, []);
+    nodesByCommunity.get(n.community).push(n);
+  });
+  const hubs = RAW_NODES.slice().sort((a, b) => (b.degree || 0) - (a.degree || 0));
+  const connectors = RAW_NODES.slice().sort((a, b) => (b.betweenness || 0) - (a.betweenness || 0));
+  const meanPagerank = RAW_NODES.reduce((s, n) => s + (n.pagerank || 0), 0) / Math.max(1, N);
+  const crossComm = new Map();
+  RAW_NODES.forEach(n => {
+    const comms = new Set();
+    (adjacency.get(n.id) || []).forEach(a => {
+      const tn = nodeMap.get(a.target);
+      if (tn) comms.add(tn.community);
+    });
+    crossComm.set(n.id, comms.size);
+  });
+  datasetStats = {
+    N, E,
+    communities: commIds.size,
+    avgDegree: (2 * E) / Math.max(1, N),
+    density: (2 * E) / (N * Math.max(1, N - 1)),
+    godNodes: hubs.slice(0, 10),
+    meanPagerank,
+    hubs, connectors, nodesByCommunity, crossComm,
+  };
+  return datasetStats;
+}
+
+function atRowHTML(n, metric, kind, cross) {
+  const zh = TRANSLATIONS[n.label] || '';
+  const extra = kind === 'btw' ? ` · ${cross || 1} comm` : '';
+  const meta = (kind === 'btw' ? `β ${(metric || 0).toFixed(3)}` : `deg ${metric}`) + extra;
+  const ab = `<span class="at-ab">
+      <button class="set-a" data-set="a" title="Add to Set A">A</button>
+      <button class="set-b" data-set="b" title="Add to Set B">B</button>
+    </span>`;
+  const zhText = zh && zh !== n.label ? ` <span style="color:#888;font-size:11px">${esc(zh)}</span>` : '';
+  return `<li class="at-row" data-id="${n.id}">
+    <span class="at-name">${esc(n.label)}${zhText}</span>
+    <span class="at-meta">${meta}</span>${ab}
+  </li>`;
+}
+
+function exploreFocusNode(id) {
+  const ids = Array.from(new Set([id, ...(adjacency.get(id) || []).map(a => a.target)]));
+  highlightChatNodes(ids, edgesBetween(ids), id);
+  chatFilterCheckbox.checked = false;
+  applyChatNodeFilter();
+}
+
+function exploreIsolate(ids) {
+  const primary = ids.slice().sort((a, b) => (nodeMap.get(b)?.degree || 0) - (nodeMap.get(a)?.degree || 0))[0];
+  highlightChatNodes(ids, edgesBetween(ids), primary);
+  chatFilterCheckbox.checked = true;
+  applyChatNodeFilter();
+}
+
+function renderAnalysisTools() {
+  const s = computeDatasetStats();
+  const cards = [
+    ['Nodes', s.N], ['Edges', s.E], ['Communities', s.communities],
+    ['Avg degree', s.avgDegree.toFixed(2)], ['Density', s.density.toFixed(4)],
+    ['God nodes', s.godNodes.length],
+  ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
+
+  const hubRows = s.hubs.slice(0, 25).map(n => atRowHTML(n, n.degree, 'deg')).join('');
+  const connRows = s.connectors.slice(0, 20).map(n => atRowHTML(n, n.betweenness, 'btw', s.crossComm.get(n.id))).join('');
+  const commHTML = LEGEND.slice().sort((a, b) => b.count - a.count).map(c => {
+    const top = (s.nodesByCommunity.get(c.cid) || [])
+      .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
+    return `<div class="at-comm" data-cid="${c.cid}">
+      <span class="sw" style="background:${esc(c.color)}"></span>
+      <span class="at-comm-name">${esc(c.label)}</span>
+      <span class="at-comm-count">${c.count} · ${top}</span>
+      <span class="at-ab">
+        <button class="set-a" data-set="a" title="Add community to Set A">A</button>
+        <button class="set-b" data-set="b" title="Add community to Set B">B</button>
+      </span>
+    </div>`;
+  }).join('');
+
+  analysisTools.innerHTML = `
+    <div class="at-section">
+      <h4 class="at-h">Dataset Overview / 資料集概覽</h4>
+      <div class="at-cards">${cards}</div>
+      <button class="at-reset" data-action="clear">Clear highlights / 清除高亮</button>
+    </div>
+    <div class="at-section">
+      <h4 class="at-h"><span>Top Hubs</span><span style="color:#666;font-weight:400;text-transform:none">by degree — click to focus, A/B to compare</span></h4>
+      <ul class="at-list" id="at-hubs">${hubRows}</ul>
+    </div>
+    <div class="at-section">
+      <h4 class="at-h"><span>Connectors / Bridges</span><span style="color:#666;font-weight:400;text-transform:none">by betweenness</span></h4>
+      <ul class="at-list" id="at-connectors">${connRows}</ul>
+    </div>
+    <div class="at-section">
+      <h4 class="at-h"><span>Communities / 社群</span><span style="color:#666;font-weight:400;text-transform:none">by community</span></h4>
+      <div class="at-communities">${commHTML}</div>
+    </div>
+    <div class="at-section">
+      <h4 class="at-h">Compare Two Node Sets</h4>
+      <p class="at-hint">Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths.</p>
+      <div class="at-compare-sets">
+        <div class="at-set a" id="at-set-a"><div class="at-set-label">Set A</div><div class="at-set-chips"></div></div>
+        <div class="at-set b" id="at-set-b"><div class="at-set-label">Set B</div><div class="at-set-chips"></div></div>
+      </div>
+      <div class="at-actions">
+        <button class="at-compare-btn" id="at-compare-go">Compare A vs B</button>
+        <button class="at-prompt-btn" id="at-send-prompt" title="Send this selection to the Prompt panel as an analysis query / 將此選擇傳送至 Prompt 面板">&#8594; Prompt</button>
+        <button class="at-export-json-btn" id="at-export-json" title="Export this selection as JSON / 匯出選擇為 JSON">Save</button>
+      </div>
+      <div class="at-compare-result" id="at-compare-result"></div>
+    </div>
+  `;
+
+  analysisTools.querySelector('[data-action="clear"]').addEventListener('click', () => {
+    clearChatHighlights();
+    compareA = []; compareB = [];
+    renderCompareSets();
+  });
+  analysisTools.querySelectorAll('.at-row').forEach(row => {
+    const id = row.dataset.id;
+    row.addEventListener('click', (e) => {
+      if (e.target.closest('.at-ab')) return;
+      exploreFocusNode(id);
+    });
+    row.querySelectorAll('.at-ab button').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleCompare(id, btn.dataset.set);
+      });
+    });
+  });
+  analysisTools.querySelectorAll('.at-comm').forEach(el => {
+    const cid = Number(el.dataset.cid);
+    const ids = (s.nodesByCommunity.get(cid) || []).map(n => n.id);
+    const label = el.querySelector('.at-comm-name').textContent;
+    el.addEventListener('click', (e) => {
+      if (e.target.closest('.at-ab')) return;
+      exploreIsolate(ids);
+    });
+    el.querySelectorAll('.at-ab button').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleCompareCommunity(cid, label, ids, btn.dataset.set);
+      });
+    });
+  });
+  analysisTools.querySelector('#at-compare-go').addEventListener('click', runCompare);
+  analysisTools.querySelector('#at-send-prompt').addEventListener('click', sendSelectionToPrompt);
+  analysisTools.querySelector('#at-export-json').addEventListener('click', exportSelectionJSON);
+  renderCompareSets();
+}
+
+// Export the current Graph selection (Compare Sets A/B + selected nodes/edges)
+// as a standalone .json file.
+function exportSelectionJSON() {
+  const ids = new Set([...entryIds(compareA), ...entryIds(compareB)]);
+  if (!ids.size) {
+    alert('Add nodes or communities to Set A / Set B before exporting.');
+    return;
+  }
+  const safe = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
+  const nodes = RAW_NODES.filter(n => ids.has(n.id)).map(n => ({
+    id: n.id, label: n.label, community: n.community,
+    degree: n.degree, pagerank: n.pagerank, betweenness: n.betweenness,
+    description: n.description,
+  }));
+  const edges = RAW_EDGES.filter(e => ids.has(e.from) && ids.has(e.to)).map(e => ({
+    from: e.from, to: e.to, relation: e.relation, confidence: e.confidence,
+  }));
+  const data = {
+    exported_at: new Date().toISOString(),
+    selection: { node_count: ids.size, edge_count: edges.length },
+    sets: { A: compareA, B: compareB },
+    tagged_nodes: Array.from(chatTagSet.values()).map(n => ({ id: n.id, label: n.label })),
+    nodes,
+    edges,
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.download = `selection-${safe}.json`;
+  a.href = URL.createObjectURL(blob);
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// Build a natural-language analysis prompt from the current Graph selection
+// (Compare Sets A/B) and drop it, pre-tagged with @mentions, into the Prompt
+// composer. Switching modes also persists the selection in the URL hash.
+function entryLabels(entries) {
+  const out = [];
+  entries.forEach(e => {
+    if (e.type === 'node') {
+      const n = nodeMap.get(e.id);
+      if (n) out.push(n.label);
+    } else if (e.label) {
+      out.push(e.label);
+    }
+  });
+  return out;
+}
+
+function sendSelectionToPrompt() {
+  const ids = new Set([...entryIds(compareA), ...entryIds(compareB)]);
+  if (!ids.size) {
+    alert('Add nodes or communities to Set A / Set B before sending to Prompt.');
+    return;
+  }
+  const a = entryLabels(compareA);
+  const b = entryLabels(compareB);
+  let text;
+  if (a.length && b.length) {
+    text = `Analyze and compare these two node sets:\nSet A: ${a.map(l => '@' + l).join(', ')}\nSet B: ${b.map(l => '@' + l).join(', ')}\n\nWhat pathways, mechanisms, or biological themes connect or distinguish them?`;
+  } else {
+    const all = [...a, ...b];
+    text = `Analyze the following nodes: ${all.map(l => '@' + l).join(', ')}.\nExplain their roles, interactions, and relevance to longevity and disease.`;
+  }
+  setPanelMode('ask');
+  chatInput.value = text;
+  chatInput.style.height = 'auto';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+  // Tag the selected nodes so they travel as structured context.
+  chatTagSet.clear();
+  ids.forEach(id => {
+    const n = nodeMap.get(id);
+    if (n) chatTagSet.set(id, n);
+  });
+  renderTagChips();
+  chatInput.focus();
+  refreshActivity();
+}
+
+function neighborsOf(id) { return new Set((adjacency.get(id) || []).map(a => a.target)); }
+
+function toggleCompare(id, set) {
+  const arr = set === 'a' ? compareA : compareB;
+  const i = arr.findIndex(e => e.type === 'node' && e.id === id);
+  if (i >= 0) arr.splice(i, 1);
+  else arr.push({ type: 'node', id });
+  renderCompareSets();
+}
+
+function toggleCompareCommunity(cid, label, ids, set) {
+  const arr = set === 'a' ? compareA : compareB;
+  const i = arr.findIndex(e => e.type === 'community' && e.cid === cid);
+  if (i >= 0) arr.splice(i, 1);
+  else arr.push({ type: 'community', cid, label, ids: ids.slice() });
+  renderCompareSets();
+}
+
+function removeEntry(set, idx) {
+  const arr = set === 'a' ? compareA : compareB;
+  if (idx >= 0 && idx < arr.length) arr.splice(idx, 1);
+  renderCompareSets();
+}
+
+function renderCompareSets() {
+  const fill = (elId, arr, cls) => {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    el.querySelector('.at-set-chips').innerHTML = arr.map((e, idx) => {
+      let label, sub = '';
+      if (e.type === 'node') { const n = nodeMap.get(e.id); label = n ? n.label : e.id; }
+      else { label = e.label; sub = ` (${e.ids.length})`; }
+      return `<span class="at-set-chip" data-idx="${idx}" data-set="${cls}">${esc(label)}${esc(sub)}<button data-idx="${idx}" data-set="${cls}">&times;</button></span>`;
+    }).join('');
+    el.querySelectorAll('.at-set-chip button').forEach(b => b.addEventListener('click', (e) => {
+      e.stopPropagation();
+      removeEntry(b.dataset.set, Number(b.dataset.idx));
+    }));
+  };
+  fill('at-set-a', compareA, 'a');
+  fill('at-set-b', compareB, 'b');
+  const idsA = entryIds(compareA), idsB = entryIds(compareB);
+  document.querySelectorAll('.at-row').forEach(row => {
+    const id = row.dataset.id;
+    const a = row.querySelector('.set-a'); if (a) a.classList.toggle('on', idsA.has(id));
+    const b = row.querySelector('.set-b'); if (b) b.classList.toggle('on', idsB.has(id));
+  });
+  document.querySelectorAll('.at-comm').forEach(el => {
+    const cid = Number(el.dataset.cid);
+    const a = el.querySelector('.set-a'); if (a) a.classList.toggle('on', compareA.some(e => e.type === 'community' && e.cid === cid));
+    const b = el.querySelector('.set-b'); if (b) b.classList.toggle('on', compareB.some(e => e.type === 'community' && e.cid === cid));
+  });
+  const hasSelection = compareA.length > 0 || compareB.length > 0;
+  const exportBtn = document.getElementById('at-export-json');
+  if (exportBtn) exportBtn.disabled = !hasSelection;
+  const promptBtn = document.getElementById('at-send-prompt');
+  if (promptBtn) promptBtn.disabled = !hasSelection;
+  refreshActivity();
+}
+
+function bfsFromSets(seedIds) {
+  const distance = new Map();
+  const from = new Map();
+  const q = [];
+  seedIds.forEach(id => { if (!distance.has(id)) { distance.set(id, 0); from.set(id, id); q.push(id); } });
+  let head = 0; const MAX = 6;
+  while (head < q.length) {
+    const cur = q[head++];
+    const d = distance.get(cur);
+    if (d >= MAX) break;
+    (adjacency.get(cur) || []).forEach(a => {
+      if (!distance.has(a.target)) {
+        distance.set(a.target, d + 1);
+        from.set(a.target, from.get(cur));
+        q.push(a.target);
+      }
+    });
+  }
+  return { distance, from };
+}
+
+function runCompare() {
+  const res = document.getElementById('at-compare-result');
+  const idsA = entryIds(compareA), idsB = entryIds(compareB);
+  if (!idsA.size || !idsB.size) {
+    res.innerHTML = '<span style="color:#E4575E">Add at least one node or community to both Set A and Set B.</span>';
+    return;
+  }
+  const nA = new Set(); idsA.forEach(id => { nA.add(id); neighborsOf(id).forEach(x => nA.add(x)); });
+  const nB = new Set(); idsB.forEach(id => { nB.add(id); neighborsOf(id).forEach(x => nB.add(x)); });
+  const inter = new Set([...nA].filter(x => nB.has(x)));
+  const uni = new Set([...nA, ...nB]);
+  const jaccard = uni.size ? inter.size / uni.size : 0;
+
+  const dist = bfsFromSets([...idsA]);
+  const pairs = [];
+  idsB.forEach(b => { if (dist.distance.has(b)) pairs.push([dist.from.get(b), b, dist.distance.get(b)]); });
+  pairs.sort((x, y) => x[2] - y[2]);
+  const topPairs = pairs.slice(0, 5);
+
+  const highlightIds = Array.from(new Set([...idsA, ...idsB, ...inter]));
+  const primary = idsA.size ? [...idsA][0] : null;
+  highlightChatNodes(highlightIds, edgesBetween(highlightIds), primary);
+  chatFilterCheckbox.checked = false;
+  applyChatNodeFilter();
+
+  res.innerHTML = `
+    <div>Set A: <span class="at-metric">${idsA.size}</span> nodes · Set B: <span class="at-metric">${idsB.size}</span> nodes</div>
+    <div>Neighborhood (incl. neighbors) A: <span class="at-metric">${nA.size}</span> · B: <span class="at-metric">${nB.size}</span></div>
+    <div>Shared neighborhood: <span class="at-metric">${inter.size}</span> · Jaccard: <span class="at-metric">${jaccard.toFixed(3)}</span></div>
+    ${topPairs.length
+      ? `<table><thead><tr><th>Shortest A → B</th><th>Steps</th></tr></thead><tbody>${topPairs.map(p => `<tr><td>${esc(nodeMap.get(p[0])?.label || p[0])} → ${esc(nodeMap.get(p[1])?.label || p[1])}</td><td>${p[2]}</td></tr>`).join('')}</tbody></table>`
+      : '<div>No direct path within 6 steps.</div>'}
+  `;
+}
+
+// ------------------------------------------------------------
 // Init
 // ------------------------------------------------------------
+// Sync the default mode (Graph/Explore) — sets the active tab and renders the
+// analytics tools so they're ready when the panel opens.
+state.suppressHashUpdate = true;
+setPanelMode(panelMode);
+state.suppressHashUpdate = false;
 appendSuggestions(chatMessages);
+refreshActivity();

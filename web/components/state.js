@@ -15,6 +15,8 @@ export const state = {
   suppressHashUpdate: false,
   readerId: null,
   readerSection: null,
+  analysisOpen: false,
+  analysisMode: 'graph',
 };
 
 export const stickyNodes = new Set();
