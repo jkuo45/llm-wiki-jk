@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 import {
   RAW_NODES, RAW_EDGES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
-  descriptionMap, WIKI_CONTEXT, githubSourceUrl,
+  descriptionMap, githubSourceUrl, noteUrl,
 } from './data.js';
 import { state } from './state.js';
 import {
@@ -183,7 +183,6 @@ export function showInfo(nodeId) {
   }).join('');
 
   const description = descriptionMap.get(nodeId);
-  const wikiCtx = WIKI_CONTEXT[nodeId] || null;
 
   const zhTWName = TRANSLATIONS[n.label] || '';
   const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
@@ -191,21 +190,20 @@ export function showInfo(nodeId) {
   const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
   const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
 
-  const wikiLink = wikiCtx
-    ? `<a href="${esc(wikiCtx.wiki_url)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(wikiCtx.wiki_path.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+  // Source (node): deep link to the wiki note when one exists for the label
+  // (reconstructed from the manifest), else the triple-source file link.
+  const noteHref = noteUrl(n.label) || (n.source_file ? githubSourceUrl(n.source_file) : '');
+  const wikiLink = noteHref
+    ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(n.label)} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
     : '—';
 
-  const wikiDesc = wikiCtx && wikiCtx.description
-    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context (node):</span><br><div class="wiki-context-text" style="font-size:15px;color:#bbb;line-height:1.7;max-height:260px;overflow-y:auto;margin-top:6px">${esc(wikiCtx.description.slice(0, 2800))}${wikiCtx.description.length > 2800 ? '…' : ''}</div></div>`
+  const wikiDesc = description
+    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context:</span><br><div class="wiki-context-text" style="font-size:15px;color:#bbb;line-height:1.7;max-height:260px;overflow-y:auto;margin-top:6px">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>`
     : '';
 
   const edgeSourceLink = n.source_file
     ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(n.source_file.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
     : '-';
-
-  const edgeDesc = description
-    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context (edge):</span><br><div style="font-size:14px;color:#bbb;line-height:1.7;max-height:160px;overflow-y:auto;margin-top:6px">${esc(description.slice(0, 700))}${description.length > 700 && n.source_file ? `… <a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:13px">[read more]</a>` : ''}</div></div>`
-    : '';
 
   document.getElementById('info-content').innerHTML = `
     <div class="field"><b>${esc(displayName)}</b></div>
@@ -214,7 +212,6 @@ export function showInfo(nodeId) {
     <div class="field"><span style="color:#aaa;font-size:14px">Source (node):</span> ${wikiLink}</div>
     ${wikiDesc}
     <div class="field" style="margin-top:8px;border-top:1px solid #2a2a4e;padding-top:8px"><span style="color:#aaa;font-size:14px">Source (edge):</span> ${edgeSourceLink}</div>
-    ${edgeDesc}
     <div class="field">Degree: ${n.degree}</div>
     ${neighbors.length ? `<div class="field" style="margin-top:12px;color:#aaa;font-size:14px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;

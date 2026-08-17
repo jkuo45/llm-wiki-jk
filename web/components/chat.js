@@ -3,7 +3,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, WIKI_CONTEXT, nodeMap, LEGEND, adjacency } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
@@ -284,15 +284,9 @@ function addOpenHtmlButton(div, text) {
   div.appendChild(btn);
 }
 
-// Map wiki file basename -> wiki-context entry, so chat [[entity]] links can
-// show a brief excerpt on hover.
-const wikiCtxByFile = new Map();
-Object.values(WIKI_CONTEXT).forEach(v => {
-  if (v && v.wiki_path) {
-    const base = String(v.wiki_path).split('/').pop().replace(/\.md$/i, '');
-    if (base && !wikiCtxByFile.has(base)) wikiCtxByFile.set(base, v);
-  }
-});
+// Entity summaries come straight from graph.json node descriptions (every
+// node has one), keyed by label so chat [[entity]] links can show a brief
+// excerpt on hover. wiki-context.json is retired.
 
 function formatBotMessage(text) {
   // Render full markdown (headers, lists, tables, code, bold, links, etc.).
@@ -300,7 +294,7 @@ function formatBotMessage(text) {
   // Wiki links: [[Name]] or [[Name|Display]] -> open wiki modal on click
   html = html.replace(/\[\[([^\]\|]+?)(?:\|([^\]]+?))?\]\]/g, (m, name, display) => {
     const wikiBase = name.trim().replace(/\.md$/i, '');
-    if (!wikiBase || !wikiCtxByFile.has(wikiBase)) return esc(m);
+    if (!wikiBase || !descByLabel.has(wikiBase)) return esc(m);
     const label = (display || name).trim();
     return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}" style="color:#7cb3d4;text-decoration:underline;cursor:pointer">${esc(label)}</span>`;
   });
@@ -332,8 +326,9 @@ function positionWikiTooltip(anchor) {
 }
 
 function showWikiTooltip(anchor) {
-  const ctx = wikiCtxByFile.get(anchor.dataset.wiki);
-  const excerpt = ctx && ctx.description ? wikiExcerpt(ctx.description) : '';
+  const desc = descByLabel.get(anchor.dataset.wiki);
+  if (!desc) { hideWikiTooltip(); return; }
+  const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
   const title = anchor.textContent.trim() || (anchor.dataset.wiki || '');
   wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span style="color:#666;font-size:11px;margin-top:4px;display:inline-block">Click to expand</span>`;
@@ -373,12 +368,12 @@ const wikiModalLink = document.getElementById('wiki-modal-link');
 const wikiModalClose = document.getElementById('wiki-modal-close');
 
 function openWikiModal(wikiKey) {
-  const ctx = wikiCtxByFile.get(wikiKey);
-  if (!ctx) return;
-  const title = ctx.wiki_path ? ctx.wiki_path.split('/').pop().replace(/\.md$/i, '') : wikiKey.replace(/_/g, ' ');
+  const desc = descByLabel.get(wikiKey);
+  if (!desc) return;
+  const title = wikiKey.replace(/_/g, ' ');
   wikiModalTitle.textContent = title;
-  wikiModalBody.innerHTML = renderMarkdown(ctx.description || 'No content available.');
-  wikiModalLink.href = ctx.wiki_url || '#';
+  wikiModalBody.innerHTML = renderMarkdown(desc);
+  wikiModalLink.href = noteUrl(wikiKey) || '#';
   wikiModalOverlay.classList.add('visible');
   hideWikiTooltip();
 }

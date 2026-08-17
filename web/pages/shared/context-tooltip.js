@@ -1,19 +1,20 @@
 "use strict";
 
-/* Wiki-link tooltips sourced directly from graphify-out/wiki-context.json.
- * Converts [[Entity]] / [[Entity|Display]] in page prose into hover-tooltip
- * spans. Reuses the shared #netTip element and showTip/moveTip/hideTip
- * helpers from pages-core.js.
+/* Wiki-link tooltips sourced directly from web/data/graph.json node
+ * descriptions. Converts [[Entity]] / [[Entity|Display]] in page prose into
+ * hover-tooltip spans. Reuses the shared #netTip element and
+ * showTip/moveTip/hideTip helpers from pages-core.js.
  *
  * Highlighting is applied immediately (no network needed); the definition
- * tooltip is enriched once wiki-context.json has loaded. The context file is
- * fetched from a path relative to this page (graphify-out/pages/ -> ../wiki-context.json).
+ * tooltip is enriched once graph.json has loaded. The graph file is fetched
+ * from a path relative to this page (web/pages/ -> ../data/graph.json), and
+ * every node carries a description, so tooltip coverage is complete.
  */
 
 (function () {
   if (typeof showTip !== "function") return; // tooltip infra missing
 
-  var CTX_URL = "../wiki-context.json";
+  var CTX_URL = "../data/graph.json";
   var MAP = null; // populated after fetch
 
   function esc(s) {
@@ -28,19 +29,17 @@
     return String(s).trim().toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
   }
 
-  // Build lookup maps from wiki-context.json: keyed by note-label (basename of
-  // wiki_path) and by normalized node id.
-  function buildMap(ctx) {
+  // Build lookup maps from graph.json nodes: keyed by node label (exact and
+  // lowercase) and by normalized node id.
+  function buildMap(graph) {
     var byLabel = {}, byId = {};
-    Object.keys(ctx).forEach(function (id) {
-      var info = ctx[id];
-      byId[id] = info;
-      var path = info && info.wiki_path ? info.wiki_path : "";
-      var label = path.split("/").pop().replace(/\.md$/, "");
-      if (label) {
-        byLabel[label] = info;
-        byLabel[label.toLowerCase()] = info;
-      }
+    (graph.nodes || []).forEach(function (n) {
+      if (!n.description) return;
+      var info = { description: n.description, label: n.label };
+      byId[n.id] = info;
+      byLabel[n.label] = info;
+      var lower = n.label.toLowerCase();
+      if (!byLabel[lower]) byLabel[lower] = info;
     });
     return { byLabel: byLabel, byId: byId };
   }
@@ -141,7 +140,7 @@
     if (typeof fetch !== "function") return;
     fetch(CTX_URL)
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-      .then(function (ctx) { MAP = buildMap(ctx); })
+      .then(function (graph) { MAP = buildMap(graph); })
       .catch(function () { /* tooltips stay unavailable; highlight still works */ });
   }
 

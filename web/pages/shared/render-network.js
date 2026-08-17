@@ -126,7 +126,7 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
   }
   render();
 
-  document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (graphify-out/graph.json)';
+  document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (web/data/graph.json)';
   const lg = document.getElementById('netLegend');
   lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${c}"></span> ${l}</span>`).join('');
 
