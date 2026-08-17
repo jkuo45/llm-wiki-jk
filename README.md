@@ -32,7 +32,7 @@
 > - [Sirtuins - Biological Relevance](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|wiki]]
 > 
 > **Graphify Rebuild From `_triples.json`**:
-> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical graph rebuild: iterates every `src/**/_triples.json`, accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels by majority overlap, then regenerates `graph.json`, `GRAPH_REPORT.md`, `graph.html` (`graphify export html`), and the three-graph exports `nodes.json`/`edges.json`/`legend.json` plus `wiki-context.json` for node info panels. Run with `python3 scripts/03_rebuild_from_triples.py`.  
+> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and exports the standalone web app to `web/` (`index.html`, `components/`, `pages/`, plus `nodes.json`/`edges.json`/`legend.json`/`wiki-context.json` and copies of `graph.json`/`manifest.json`/`query.json`/`translations-zh-TW.json`). Run with the graphify python: `python3 scripts/03_rebuild_from_triples.py`.  
 > 
 
 ---
