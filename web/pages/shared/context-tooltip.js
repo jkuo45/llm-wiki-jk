@@ -9,6 +9,10 @@
  * tooltip is enriched once graph.json has loaded. The graph file is fetched
  * from a path relative to this page (web/pages/ -> ../data/graph.json), and
  * every node carries a description, so tooltip coverage is complete.
+ *
+ * A MutationObserver also processes content rendered after load (e.g.
+ * explorer tabs that swap innerHTML), so wiki links in dynamic cards get
+ * tooltips on every render, not just the initial one.
  */
 
 (function () {
@@ -108,27 +112,46 @@
     }
   }
 
+  function acceptText(n) {
+    if (!n.nodeValue || n.nodeValue.indexOf("[[") === -1)
+      return NodeFilter.FILTER_REJECT;
+    var p = n.parentNode;
+    if (
+      p &&
+      (p.tagName === "SCRIPT" ||
+        p.tagName === "STYLE" ||
+        p.tagName === "SVG" ||
+        p.tagName === "NOSCRIPT" ||
+        p.tagName === "TEXTAREA")
+    )
+      return NodeFilter.FILTER_REJECT;
+    return NodeFilter.FILTER_ACCEPT;
+  }
+
+  function processAdded(node) {
+    if (node.nodeType === 3) { processNode(node); return; } // text node
+    if (node.nodeType !== 1) return; // only elements contain text
+    var walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, { acceptNode: acceptText });
+    var n;
+    while ((n = walker.nextNode())) processNode(n);
+  }
+
+  function initObserver() {
+    if (typeof MutationObserver !== "function") return;
+    var mo = new MutationObserver(function (muts) {
+      for (var i = 0; i < muts.length; i++) {
+        var added = muts[i].addedNodes;
+        for (var j = 0; j < added.length; j++) processAdded(added[j]);
+      }
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+  }
+
   function run() {
     var walker = document.createTreeWalker(
       document.body,
       NodeFilter.SHOW_TEXT,
-      {
-        acceptNode: function (n) {
-          if (!n.nodeValue || n.nodeValue.indexOf("[[") === -1)
-            return NodeFilter.FILTER_REJECT;
-          var p = n.parentNode;
-          if (
-            p &&
-            (p.tagName === "SCRIPT" ||
-              p.tagName === "STYLE" ||
-              p.tagName === "SVG" ||
-              p.tagName === "NOSCRIPT" ||
-              p.tagName === "TEXTAREA")
-          )
-            return NodeFilter.FILTER_REJECT;
-          return NodeFilter.FILTER_ACCEPT;
-        },
-      },
+      { acceptNode: acceptText },
       false
     );
     var nodes = [];
@@ -145,7 +168,8 @@
   }
 
   // Highlight immediately (independent of network); enrich tooltips when ready.
+  // The observer keeps tooltips working in dynamically rendered content.
   if (document.readyState === "loading")
-    document.addEventListener("DOMContentLoaded", function () { run(); loadContext(); });
-  else { run(); loadContext(); }
+    document.addEventListener("DOMContentLoaded", function () { run(); initObserver(); loadContext(); });
+  else { run(); initObserver(); loadContext(); }
 })();

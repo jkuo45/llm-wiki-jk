@@ -6,6 +6,10 @@
 <title>SIRT Pleiotropy Explorer — Tumor Metabolism &amp; Therapeutics</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="shared/pages.css">
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html">
+  <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html">
+  <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html">
 </head>
 <body style="--wrap-width:1200px;">
 
@@ -57,9 +61,9 @@
       <div class="card">
         <h3>1 · Compartmentalization</h3>
         <p style="color:var(--dim); font-size:.9rem;">
-          <b style="color:var(--text)">Nuclear</b> SIRT1/6/7 control <i>transcription</i> of metabolic programs.<br>
-          <b style="color:var(--text)">Cytosolic</b> SIRT2 tunes cytoskeleton &amp; cell cycle.<br>
-          <b style="color:var(--text)">Mitochondrial</b> SIRT3/4/5 set the <i>metabolic setpoint</i> (TCA, glutamine, redox).
+          <b style="color:var(--text)">Nuclear</b> [[SIRT1]]/6/7 control <i>transcription</i> of metabolic programs.<br>
+          <b style="color:var(--text)">Cytosolic</b> [[SIRT2]] tunes cytoskeleton &amp; cell cycle.<br>
+          <b style="color:var(--text)">Mitochondrial</b> [[SIRT3]]/4/5 set the <i>metabolic setpoint</i> (TCA, glutamine, redox).
           "SIRT output" is the integration of a mitochondrial setpoint and a nuclear transcriptional gate.
         </p>
       </div>
@@ -67,14 +71,14 @@
         <h3>2 · Catalytic promiscuity</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Beyond deacetylation: <code>demalonylation</code>, <code>desuccinylation</code>, <code>deglutarylation</code>, and
-          <code>ADP-ribosylation</code>. SIRT5 has almost no classical deacetylase activity (a desuccinylase/demalonylase/deglutarylase),
+          <code>ADP-ribosylation</code>. [[SIRT5]] has almost no classical deacetylase activity (a desuccinylase/demalonylase/deglutarylase),
           and resists <b style="color:var(--amber)">nicotinamide inhibition</b> — staying active where SIRT1–3 are suppressed.
         </p>
       </div>
       <div class="card">
         <h3>3 · Context-dependence</h3>
         <p style="color:var(--dim); font-size:.9rem;">
-          Same substrate, opposite sign: SIRT1 and SIRT3 both deacetylate <code>p53</code> yet with pro- vs anti-tumor consequences;
+          Same substrate, opposite sign: SIRT1 and SIRT3 both deacetylate <code>[[p53]]</code> yet with pro- vs anti-tumor consequences;
           SIRT7's H3K18 deacetylation both lifts <code>p21</code> (pro-proliferative) and silences EMT genes (anti-metastatic).
           No sirtuin is purely "pro-" or "anti-" cancer.
         </p>
@@ -187,38 +191,38 @@
     <div class="grid g2" style="gap:18px;">
       <!-- SIRT1 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">the archetypal "double-edged sword"</span>
+        <div class="sirt-head"><h3 style="color:var(--amber)">[[SIRT1]]</h3><span class="tagline">the archetypal "double-edged sword"</span>
           <span class="comp">Nucleus<br>+ cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Tumor-suppressive</h4><ul>
-              <li>Deacetylates p53, Ku70, p73, FOXO → favors <b>repair over apoptosis</b> under acute stress</li>
-              <li>hnRNP A1 deacetylation → suppresses glycolysis/growth in <b>HCC</b></li>
+              <li>Deacetylates [[p53]], [[Ku70]], p73, [[FOXO]] → favors <b>repair over apoptosis</b> under acute stress</li>
+              <li>hnRNP A1 deacetylation → suppresses glycolysis/growth in <b>[[Hepatocellular Carcinoma|HCC]]</b></li>
               <li>AR (Lys630) deacetylation → represses prostate growth</li>
-              <li>NF-κB p65 &amp; HMGB1 suppression → anti-angiogenic in ovarian cancer</li>
-              <li>PAK1 K420 deacetylation → hinders glioblastoma</li>
+              <li>[[NF-κB]] p65 &amp; HMGB1 suppression → anti-angiogenic in [[Ovarian Cancer|ovarian cancer]]</li>
+              <li>PAK1 K420 deacetylation → hinders [[Glioblastoma]]</li>
             </ul></div>
             <div class="face red"><h4>Oncogenic / pro-tumor</h4><ul>
               <li>p53 deacetylation in <b>chronic</b> setting blunts the tumor-suppressor brake</li>
-              <li>Partners with c-Myc &amp; HIF-1α</li>
+              <li>Partners with [[c-Myc]] &amp; [[HIF-1α]]</li>
               <li>EMT/metadherin → chemoresistance in TNBC</li>
               <li>cisplatin resistance (VEGF-A) in NSCLC; tamoxifen resistance (MRP2/FoxO1)</li>
               <li>T-ALL via CDK2 deacetylation → p27 degradation</li>
             </ul></div>
           </div>
-          <div class="context"><b>Context variables:</b> dose (CRC: heterozygous KO → c-Myc/glutamine/proliferation; homozygous KO → apoptosis), tumor type (suppressor in glioma/HCC; promoter in gastric/endometrial/leukemia), severity (cardiac: 7.5× protective, 12.5× pathogenic).</div>
+          <div class="context"><b>Context variables:</b> dose ([[Colorectal Cancer|CRC]]: heterozygous KO → c-Myc/glutamine/proliferation; homozygous KO → apoptosis), tumor type (suppressor in glioma/HCC; promoter in gastric/endometrial/leukemia), severity (cardiac: 7.5× protective, 12.5× pathogenic).</div>
         </div>
       </div>
       <!-- SIRT2 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--purple)">SIRT2</h3><span class="tagline">epithelial suppressor, basal-like/leukemia promoter</span>
+        <div class="sirt-head"><h3 style="color:var(--purple)">[[SIRT2]]</h3><span class="tagline">epithelial suppressor, basal-like/leukemia promoter</span>
           <span class="comp">Cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Tumor-suppressive</h4><ul>
-              <li>BRCA1–BARD1 heterodimerization → homologous recombination (breast)</li>
+              <li>[[BRCA1]]–BARD1 heterodimerization → homologous recombination (breast)</li>
               <li>IDH1 deacetylation → inhibits CRC liver metastasis</li>
-              <li>AKR1C1 + STAT3 inhibition → suppresses NSCLC migration</li>
+              <li>AKR1C1 + [[STAT3]] inhibition → suppresses NSCLC migration</li>
               <li>Sensitizes ovarian cancer to cisplatin</li>
             </ul></div>
             <div class="face red"><h4>Oncogenic / pro-tumor</h4><ul>
@@ -228,17 +232,17 @@
               <li>LMO2 deacetylation → T-ALL growth/engraftment</li>
             </ul></div>
           </div>
-          <div class="context"><b>Context:</b> cytosolic sirtuin that often <b>opposes the protective SIRT1/3/6 axis</b>. Harmful in neurodegeneration (AD, PD, HD), protective in metabolic/renal/joint disease. In leukemia it splits: NAMPT/SIRT2 activation reduces AML proliferation, but SIRT2 inhibition suppresses T-ALL.</div>
+          <div class="context"><b>Context:</b> cytosolic sirtuin that often <b>opposes the protective SIRT1/3/6 axis</b>. Harmful in neurodegeneration ([[Alzheimer's Disease|AD]], [[Parkinson's Disease|PD]], [[Huntington's Disease|HD]]), protective in metabolic/renal/joint disease. In leukemia it splits: NAMPT/SIRT2 activation reduces AML proliferation, but SIRT2 inhibition suppresses T-ALL.</div>
         </div>
       </div>
       <!-- SIRT3 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">mitochondrial "guardian", double-edged oxidative phenotype</span>
+        <div class="sirt-head"><h3 style="color:var(--green)">[[SIRT3]]</h3><span class="tagline">mitochondrial "guardian", double-edged oxidative phenotype</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Tumor-suppressive (metabolic)</h4><ul>
-              <li>MnSOD/SOD2 + IDH2 activation → lowers ROS → <b>destabilizes HIF-1α</b> (anti-Warburg)</li>
+              <li>[[MnSOD]]/SOD2 + IDH2 activation → lowers ROS → <b>destabilizes HIF-1α</b> (anti-Warburg)</li>
               <li>Stimulates pyruvate dehydrogenase → oxidative TCA flux</li>
               <li>Twist downregulation → suppresses ovarian metastasis</li>
               <li>GST-π1 downregulation → sensitizes HCC to sorafenib/chemo</li>
@@ -252,18 +256,18 @@
               <li>Ku70–Bax stabilization → glioma viability</li>
             </ul></div>
           </div>
-          <div class="context"><b>Core tension:</b> low-ROS/intact-OXPHOS "guardian" phenotype prevents <b>cancer initiation</b> but keeps <b>established tumors</b> alive by preventing stress-induced death. Genuinely dual in NAFLD and osteoarthritis. Elevated in node-positive breast cancer and OSCC.</div>
+          <div class="context"><b>Core tension:</b> low-ROS/intact-OXPHOS "guardian" phenotype prevents <b>cancer initiation</b> but keeps <b>established tumors</b> alive by preventing stress-induced death. Genuinely dual in NAFLD and [[Osteoarthritis]]. Elevated in node-positive [[Breast Cancer]] and OSCC.</div>
         </div>
       </div>
       <!-- SIRT4 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--teal)">SIRT4</h3><span class="tagline">most consistently tumor-suppressive — with a metabolic cost</span>
+        <div class="sirt-head"><h3 style="color:var(--teal)">[[SIRT4]]</h3><span class="tagline">most consistently tumor-suppressive — with a metabolic cost</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Tumor-suppressive (dominant)</h4><ul>
-              <li>GDH mono-ADP-ribosylation → limits glutamine→α-KG flux → <b>directly attacks glutamine addiction</b></li>
-              <li>Represses mTOR via amino-acid-stimulated insulin secretion</li>
+              <li>[[GDH]] mono-ADP-ribosylation → limits glutamine→α-KG flux → <b>directly attacks glutamine addiction</b></li>
+              <li>Represses [[mTOR]] via amino-acid-stimulated insulin secretion</li>
               <li>p16/p21 upregulation + CyclinB1/Cdc2/Cdc25c suppression → HCC apoptosis</li>
               <li>Restores E-cadherin in CRC</li>
               <li>Negatively regulates SIRT1 via glutamine-metabolism repression</li>
@@ -275,12 +279,12 @@
               <li>Metabolically "thrifty" — antitumor but costly</li>
             </ul></div>
           </div>
-          <div class="context"><b>Loss is uniformly prognostic for poor survival</b> in HCC, gastric, CRC, bladder, breast cancer. Therapeutic angle: preserve/induce as a glutamine-addiction brake.</div>
+          <div class="context"><b>Loss is uniformly prognostic for poor survival</b> in HCC, [[Gastric Cancer|gastric]], CRC, bladder, breast cancer. Therapeutic angle: preserve/induce as a glutamine-addiction brake.</div>
         </div>
       </div>
       <!-- SIRT5 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--orange)">SIRT5</h3><span class="tagline">deacylase with pro-tumor metabolic bias</span>
+        <div class="sirt-head"><h3 style="color:var(--orange)">[[SIRT5]]</h3><span class="tagline">deacylase with pro-tumor metabolic bias</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -293,7 +297,7 @@
               <li>Overexpressed in HCC, CRC, NSCLC → pushes glutaminolysis + glycolysis</li>
               <li>LDHB desuccinylation → hyperactive autophagy → nutrient recycling</li>
               <li>Deglutarylation-dependent glutaminolysis in CRC</li>
-              <li>cisplatin resistance in ovarian cancer via Nrf2/HO-1</li>
+              <li>cisplatin resistance in ovarian cancer via [[Nrf2]]/HO-1</li>
               <li>HCC: promotes growth/metastasis via OXPHOS→glycolysis switch</li>
             </ul></div>
           </div>
@@ -302,19 +306,19 @@
       </div>
       <!-- SIRT6 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">most consistently protective — dual only in lung/HCC</span>
+        <div class="sirt-head"><h3 style="color:var(--blue)">[[SIRT6]]</h3><span class="tagline">most consistently protective — dual only in lung/HCC</span>
           <span class="comp">Nucleus (heterochromatin)</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Anti-cancer (dominant)</h4><ul>
               <li>Corepresses HIF-1α → suppresses glycolytic enzymes → <b>anti-Warburg</b></li>
-              <li>Represses survivin, c-MYC, SREBP1/2, ChREBP (anti-lipogenesis)</li>
+              <li>Represses [[Survivin|survivin]], c-MYC, SREBP1/2, [[ChREBP]] (anti-lipogenesis)</li>
               <li>Coordinates CHD4 → DNA repair (DDR)</li>
-              <li>JAK2/STAT3 inhibition → HCC growth suppression</li>
+              <li>[[JAK2]]/STAT3 inhibition → HCC growth suppression</li>
               <li>hnRNP A1 deacetylation → anti-glycolysis in HCC</li>
             </ul></div>
             <div class="face red"><h4>Dual exceptions + chemoresistance</h4><ul>
-              <li>Lung: snail-dependent KLF4 transrepression → EMT/metastasis</li>
+              <li>Lung: snail-dependent [[KLF4]] transrepression → [[EMT]]/metastasis</li>
               <li>HCC: high SIRT6 correlates with chemoresistance</li>
               <li>Suppresses apoptosis (survivin/HIF-1α) so effectively → chemoresistance in breast/prostate</li>
               <li>The DDR/austerity program that prevents initiation later keeps established tumors alive in therapy</li>
@@ -325,7 +329,7 @@
       </div>
       <!-- SIRT7 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--pink)">SIRT7</h3><span class="tagline">proliferative biosynthetic driver</span>
+        <div class="sirt-head"><h3 style="color:var(--pink)">[[SIRT7]]</h3><span class="tagline">proliferative biosynthetic driver</span>
           <span class="comp">Nucleus → nucleolus</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -341,7 +345,7 @@
               <li>Suppresses p53 in HCC</li>
             </ul></div>
           </div>
-          <div class="context"><b>Biomarker note:</b> expression rises with positive leukemia treatment response and falls on relapse — monitoring utility rather than a fixed tumorigenic role. Undrugged target.</div>
+          <div class="context"><b>Biomarker note:</b> expression rises with positive [[Leukemia]] treatment response and falls on relapse — monitoring utility rather than a fixed tumorigenic role. Undrugged target.</div>
         </div>
       </div>
     </div>
@@ -369,14 +373,14 @@
             <tr>
               <td><span class="sirt" style="color:var(--amber)">SIRT1</span></td>
               <td>Both</td>
-              <td>lung cancer, prostatic cancer, colon cancer, breast cancer, ovarian cancer, leukemia, neuroblastomas, osteo-sarcomas, and non-melanoma skin carcinomas</td>
-              <td>early onset-mutant (BRCA1) breast cancer, beta-catenin-driven colon cancer model, sarcomas, lymphomas, teratomas, and carcinomas arising from deletion of p53, HFD-induced hepatocarcinomas, and age-associated spontaneous tumor development</td>
+              <td>[[Lung Cancer|lung cancer]], prostatic cancer, [[Colorectal Cancer|colon cancer]], [[Breast Cancer|breast cancer]], [[Ovarian Cancer|ovarian cancer]], [[Leukemia|leukemia]], neuroblastomas, osteo-sarcomas, and non-melanoma skin carcinomas</td>
+              <td>early onset-mutant ([[BRCA1]]) breast cancer, beta-catenin-driven colon cancer model, sarcomas, lymphomas, teratomas, and carcinomas arising from deletion of p53, HFD-induced hepatocarcinomas, and age-associated spontaneous tumor development</td>
             </tr>
             <tr>
               <td><span class="sirt" style="color:var(--purple)">SIRT2</span></td>
               <td>Both</td>
-              <td>acute myeloid leukemia, pancreatic cancer, neuroblastoma, high-grade human HCC and prostate cancer</td>
-              <td>glioma, liver cancer, and esophageal and gastric adenocarcinomas</td>
+              <td>acute myeloid leukemia, pancreatic cancer, neuroblastoma, high-grade human [[Hepatocellular Carcinoma|HCC]] and prostate cancer</td>
+              <td>glioma, liver cancer, and esophageal and [[Gastric Cancer|gastric adenocarcinomas]]</td>
             </tr>
             <tr>
               <td><span class="sirt" style="color:var(--green)">SIRT3</span></td>
@@ -405,7 +409,7 @@
             <tr>
               <td><span class="sirt" style="color:var(--pink)">SIRT7</span></td>
               <td>Oncogene</td>
-              <td>thyroid cancer, hepatocellular carcinoma, bladder cancer and colorectal cancer</td>
+              <td>thyroid cancer, [[Hepatocellular Carcinoma|hepatocellular carcinoma]], bladder cancer and [[Colorectal Cancer|colorectal cancer]]</td>
               <td>—</td>
             </tr>
           </tbody>
@@ -443,7 +447,7 @@
       <table>
         <thead><tr><th>Agent</th><th>Primary Target</th><th>Modality</th><th>Development Stage</th><th>Indication(s)</th></tr></thead>
         <tbody>
-          <tr><td>Resveratrol (SRT501)</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage phase">Clinically evaluated</span></td><td>Metabolic syndrome, aging, CV, neuroprotection</td></tr>
+          <tr><td>[[Resveratrol]] (SRT501)</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage phase">Clinically evaluated</span></td><td>Metabolic syndrome, aging, CV, neuroprotection</td></tr>
           <tr><td>Pterostilbene</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage prec">Preclinical / nutraceutical</span></td><td>Metabolic, longevity</td></tr>
           <tr><td>SRT1720</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage prec">Preclinical (tool)</span></td><td>Metabolic (obesity/insulin sensitivity)</td></tr>
           <tr><td>SRT2104</td><td>SIRT1</td><td class="mod-act">Activator (STAC)</td><td><span class="stage phase">Phase I/II (completed)</span></td><td>Psoriasis, endotoxemia/coagulation, T2D, elderly</td></tr>
@@ -452,7 +456,7 @@
           <tr><td>Cambinol</td><td>SIRT1 / SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>HCC/lung metastasis, chemo-sensitization</td></tr>
           <tr><td>Tenovin-1 / Tenovin-6</td><td>SIRT1 / SIRT2 (+SIRT3)</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>p53-activating oncology, anti-tumor</td></tr>
           <tr><td>Suramin</td><td>SIRT1 / SIRT2 / SIRT5</td><td class="mod-inh">Inhibitor</td><td><span class="stage appr">Approved (antiparasitic)</span></td><td>Repurposed oncology research</td></tr>
-          <tr><td>EX-527 (Selisistat)</td><td>SIRT1</td><td class="mod-inh">Inhibitor</td><td><span class="stage phase">Phase I/II (Huntington's)</span></td><td>Huntington's; oncology chemo-sensitization</td></tr>
+          <tr><td>[[EX-527]] (Selisistat)</td><td>SIRT1</td><td class="mod-inh">Inhibitor</td><td><span class="stage phase">Phase I/II (Huntington's)</span></td><td>Huntington's; oncology chemo-sensitization</td></tr>
           <tr><td>AGK2</td><td>SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Parkinson's, stroke, oncology</td></tr>
           <tr><td>AK-7</td><td>SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Neurodegeneration</td></tr>
           <tr><td>SirReal2</td><td>SIRT2</td><td class="mod-inh">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Neurodegeneration (microtubule stability)</td></tr>
@@ -467,8 +471,8 @@
           <tr><td>UBCS039</td><td>SIRT6</td><td class="mod-act">Activator (allosteric)</td><td><span class="stage prec">Preclinical</span></td><td>Acute liver failure, kidney fibrosis, tumor suppression</td></tr>
           <tr><td>Cyanidin</td><td>SIRT6</td><td class="mod-act">Activator (natural)</td><td><span class="stage prec">Preclinical</span></td><td>Anti-Warburg, antioxidant</td></tr>
           <tr><td>Fucoidan (F. vesiculosus)</td><td>SIRT6</td><td class="mod-act">Activator (natural)</td><td><span class="stage prec">Preclinical</span></td><td>Progeria/senotherapeutics, aging</td></tr>
-          <tr><td>NMN</td><td>Pan-sirtuin (via NAD<sup>+</sup>)</td><td class="mod-ind">Indirect activator</td><td><span class="stage ct">Clinical trials (ongoing)</span></td><td>Healthy aging, metabolic disease</td></tr>
-          <tr><td>NR (Nicotinamide Riboside)</td><td>Pan-sirtuin (via NAD<sup>+</sup>)</td><td class="mod-ind">Indirect activator</td><td><span class="stage ct">Clinical trials (ongoing)</span></td><td>Healthy aging, metabolic disease</td></tr>
+          <tr><td>[[NMN]]</td><td>Pan-sirtuin (via NAD<sup>+</sup>)</td><td class="mod-ind">Indirect activator</td><td><span class="stage ct">Clinical trials (ongoing)</span></td><td>Healthy aging, metabolic disease</td></tr>
+          <tr><td>[[Nicotinamide Riboside|NR (Nicotinamide Riboside)]]</td><td>Pan-sirtuin (via NAD<sup>+</sup>)</td><td class="mod-ind">Indirect activator</td><td><span class="stage ct">Clinical trials (ongoing)</span></td><td>Healthy aging, metabolic disease</td></tr>
           <tr><td>CD38 inhibitor 78c</td><td>Indirect (NAD<sup>+</sup> preservation)</td><td class="mod-ind">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Longevity / aging (male-biased signal)</td></tr>
           <tr><td>AAV-SIRT6</td><td>SIRT6</td><td class="mod-ind">Gene therapy</td><td><span class="stage prec">Preclinical</span></td><td>Progeria, aging-associated defects</td></tr>
           <tr><td>Caloric Restriction / mimetics</td><td>Pan-sirtuin</td><td>Lifestyle / indirect</td><td><span class="stage appr">Established biology</span></td><td>Aging, metabolic health</td></tr>
@@ -503,7 +507,7 @@
         SIRT3/SIRT6 protect against oxidative damage and fix DNA — this <i>prevents tumor initiation</i> but <i>mediates therapy resistance</i>
         in established disease (SIRT3 radioresistance, SIRT6 chemoresistance).</div>
       <div class="pattern"><b>Substrate sharing with opposite sign.</b>
-        SIRT1/SIRT3 both deacetylate p53 — SIRT1's repression is protumorigenic, SIRT3's in some models an "oncogene" route;
+        SIRT1/SIRT3 both deacetylate [[p53]] — SIRT1's repression is protumorigenic, SIRT3's in some models an "oncogene" route;
         SIRT2 deacetylates Slug (onco) but BRCA1 (suppressive) via entirely different complexes.</div>
       <div class="pattern"><b>Compartment matters.</b>
         The mitochondrial trio (SIRT3/4/5) governs metabolic state, nuclear SIRT1/6/7 govern the transcription of the same programs —
@@ -535,6 +539,7 @@
 <script src="shared/render-spectrum.js"></script>
 <script src="shared/render-matrix.js"></script>
 <script src="shared/render-network.js"></script>
+<script src="shared/context-tooltip.js"></script>
 <script>
 const SIRTS = [
  {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'Nucleus + cytosol', score:0,  range:2.6,
