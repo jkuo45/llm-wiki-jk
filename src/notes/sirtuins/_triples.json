@@ -6934,5 +6934,205 @@
     "context": "Protein kinases share an adenosine-binding site with sirtuins such as SIRT2, an overlap exploited by screening known kinase inhibitors against sirtuins as a drug-discovery strategy. This shared adenosine pocket allows scaffolds like the bisindolylmaleimide Ro31-8220 and the indolinone GW5074 to engage both families, inhibiting SIRT1 and SIRT2 in the low micromolar range while retaining kinase activity. Directionally, the enzyme superfamily of Kinase proteins and sirtuin deacetylases both rely on an adenosine-binding pocket, explaining the cross-reactivity between kinase-inhibitor scaffolds and sirtuins. This structural convergence frames interpretation of kinase-inhibitor effects in sirtuin biology.",
     "confidence": "high",
     "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md"
+  },
+  {
+    "subject": "Curcumin",
+    "predicate": "is_a_candidate_regulator_of",
+    "object": "Sirtuins",
+    "context": "The review highlights natural compounds, especially curcumin, as candidates to activate or otherwise regulate sirtuins, positioning them as low-toxicity anti-ageing interventions. Directionally, curcumin is upstream as a putative sirtuin modulator. A caveat is that the review frames this as a hope/area of active research rather than established clinical efficacy, and sirtuin activation by curcumin remains less mechanistically defined than for resveratrol.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "miR-34a",
+    "predicate": "represses_translation_of",
+    "object": "SIRT1",
+    "context": "The 3'UTR of the SIRT1 transcript contains a miR-34a-responsive element; active miR-34a represses SIRT1 translation. Directionally, miR-34a sits upstream to lower SIRT1 protein. Because SIRT1 deacetylates and inhibits p53, this repression is part of a negative feedback loop that helps explain the drop in SIRT1 observed during senescence.",
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "p53",
+    "predicate": "induces",
+    "object": "miR-34a",
+    "context": "Active p53 transcriptionally induces miR-34a, a tumor-suppressive microRNA. Directionally, p53 is upstream of miR-34a expression. miR-34a then feeds back to repress SIRT1 translation, coupling the p53 damage-response program to the sirtuin-NAD+ axis.",
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "NF-κB",
+    "predicate": "suppresses",
+    "object": "SIRT1",
+    "context": "NF-kB can decrease SIRT1 activity by modulating miR-34a expression, mirroring the p53-miR-34a-SIRT1 loop. Directionally, NF-kB engagement of the miR-34a arm suppresses SIRT1 translation. This provides a route by which chronic inflammatory signaling blunts sirtuin activity during ageing.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "increases",
+    "object": "SIRT2",
+    "context": "Caloric restriction raises the level of almost all sirtuins except SIRT4; SIRT2 is among those increased by CR (observed in white fat and kidney of CR mice). Directionally, CR is the upstream stimulus and elevated SIRT2 a downstream mediator. This generalizes the CR-sirtuin axis beyond SIRT1/SIRT3.",
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "increases",
+    "object": "SIRT3",
+    "context": "Caloric restriction raises SIRT3 levels, consistent with SIRT3's role as a mitochondrial metabolic sensor engaged during CR and fasting. Directionally, CR increases SIRT3 abundance/activity. This supports the view that CR benefits are mediated across the sirtuin family, not only SIRT1.",
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "increases",
+    "object": "SIRT5",
+    "context": "Caloric restriction increases SIRT5 levels alongside other sirtuins (except SIRT4). Directionally, CR is upstream of elevated SIRT5. SIRT5 desuccinylates/demalonylates metabolic enzymes, so its CR induction fits the broader CR-driven remodeling of mitochondrial acylation.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "increases",
+    "object": "SIRT6",
+    "context": "Caloric restriction increases SIRT6 levels; SIRT6 is otherwise depleted in senescent fibroblasts and vascular cells. Directionally, CR raises SIRT6, supporting its genome-stability and metabolic functions. This aligns SIRT6 with the CR- and healthspan-protective sirtuin program.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "Caloric Restriction",
+    "predicate": "increases",
+    "object": "SIRT7",
+    "context": "Caloric restriction increases SIRT7 levels; SIRT7 otherwise declines in senescent fibroblasts. Directionally, CR is upstream of elevated SIRT7. Given SIRT7's nucleolar/ribosomal and stress roles, its CR induction extends sirtuin-mediated adaptation to the nucleolus.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is_a_marker_of",
+    "object": "Cellular Senescence",
+    "context": "SIRT2 levels rise in senescent cells regardless of trigger (stress, oncogene, replicative exhaustion) but not in quiescent or apoptotic cells, and SIRT2 is not required to induce senescence. Directionally, senescence causes elevated SIRT2 rather than vice versa. This makes SIRT2 a useful biomarker of the senescent state.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "negatively_regulates",
+    "object": "P66shc",
+    "context": "SIRT1 binds the P66shc promoter and deacetylates histone H3 there, reducing P66shc transcription and lowering this pro-oxidant adaptor. Directionally, SIRT1 suppresses P66shc. This axis lowers mitochondrial ROS and is a plausible contributor to the ~30% lifespan extension seen in P66shc knockout mice, and to calorie-restriction benefits.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "P66shc",
+    "predicate": "inhibits",
+    "object": "FOXO3a",
+    "context": "P66shc inhibits the activity of the FOXO3a transcription factor, blunting a key stress-resistance and antioxidant program. Directionally, P66shc suppresses FOXO3a output. Because SIRT1 represses P66shc, sirtuin activity indirectly unleashes FOXO3a-dependent defense pathways.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "P66shc",
+    "predicate": "extends_lifespan_in",
+    "object": "Mus musculus",
+    "context": "P66shc knockout mice live about 30% longer than wild-type controls and show enhanced resistance to oxidative stress and age-related pathologies, indicating P66shc is a negative regulator of longevity. Directionally, loss of P66shc extends lifespan. This makes P66shc an attractive node, with SIRT1 as an upstream suppressor, for longevity interventions.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "mono_adp_ribosylates",
+    "object": "PARP1",
+    "context": "In response to oxidative stress SIRT6 mono-ADP-ribosylates PARP-1 on K521, increasing PARP-1 activity and facilitating DNA repair via NHEJ and homologous recombination. Directionally, SIRT6 enzymatically modifies PARP-1 to boost repair. This links SIRT6's ADP-ribosyltransferase activity directly to the PARPs that compete with sirtuins for NAD+.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "stabilizes",
+    "object": "Telomere",
+    "context": "SIRT6 deacetylates H3K9 at telomeric regions in response to DNA damage and stabilizes the WRN helicase at telomeres, tightening telomere structure and preventing dysfunction during replication. Directionally, SIRT6 maintains telomere integrity. Loss of SIRT6 causes H3K9 hyperacetylation and chromatin relaxation at telomeres, tying it to genomic stability in ageing.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "Histone H4",
+    "context": "Under stress the nuclear fraction of SIRT3 deacetylates H4K16 and H3K9, regulating expression of genes involved in mitochondrial biogenesis and metabolism. Directionally, SIRT3 acts enzymatically on chromatin in the nucleus. This reveals a nuclear, chromatin-level face of the otherwise mitochondrial sirtuin, complementing its metabolic roles.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "desuccinylates",
+    "object": "SOD1",
+    "context": "SIRT5 desuccinylates superoxide dismutase 1 (SOD1), increasing its activity and thereby enhancing cytosolic antioxidant defense. Directionally, SIRT5 enzymatically activates SOD1. This extends sirtuin control of antioxidant enzymes beyond SIRT3's activation of mitochondrial MnSOD/IDH2.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "Histone H3",
+    "context": "SIRT7 deacetylates histone H3 at K18 (and H2A/H2B), an activity associated with repression of tumor-suppressor genes; SIRT7 thereby helps sustain the cancer phenotype without driving transformation. Directionally, SIRT7 enzymatically remodels chromatin to favor oncogenic transcription. This links nucleolar SIRT7 to tumor biology.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "is_reduced_in",
+    "object": "Oocyte",
+    "context": "In mouse oocytes aged in vivo or in vitro, expression of SIRT1, SIRT2 and SIRT3 is dramatically reduced; prolonged expression of these sirtuins reduces postovulatory oocyte ageing. Directionally, loss of SIRT3 (with SIRT1/2) accompanies oocyte ageing. SIRT1 and SIRT3 act as redox sensors in oocytes, implicating them in female fertility and age-related reproductive decline.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "is_reduced_in",
+    "object": "Oocyte",
+    "context": "Aged mouse oocytes show sharply reduced SIRT1 (together with SIRT2 and SIRT3); maintaining SIRT1 expression reduces postovulatory oocyte ageing in vitro and in vivo. Directionally, SIRT1 decline contributes to oocyte ageing. This positions SIRT1 among the sirtuins guarding oocyte redox state and female fertility.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "lower_levels_associated_with",
+    "object": "Frailty",
+    "context": "In humans, lower serum SIRT1 levels are associated with frailty compared with non-frail individuals, suggesting circulating sirtuins as a non-invasive frailty marker. Directionally, the association is correlative: reduced SIRT1 tracks frail phenotype. A caveat is that this is a biomarker correlation, not proof of causality.",
+    "confidence": 0.8,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "lower_levels_associated_with",
+    "object": "Frailty",
+    "context": "Alongside SIRT1, lower serum SIRT3 levels are associated with frailty in older individuals, supporting serum sirtuins as a candidate non-invasive frailty biomarker. Directionally, the association is correlative. Longitudinal validation is needed, but the finding motivates sirtuin-level monitoring in ageing cohorts.",
+    "confidence": 0.8,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "Nicotinamide",
+    "predicate": "feedback_inhibits",
+    "object": "Sirtuins",
+    "context": "Nicotinamide (NAM), a product of the sirtuin deacetylation reaction, is a non-competitive feedback inhibitor of sirtuin activity. Directionally, NAM accumulation suppresses the very enzymes that produce it, gating sirtuin flux by the NAD+/NAM ratio. This feedback is a key reason NAD+ availability (and NAMPT salvage vs PARP1 consumption) limits sirtuin activity in ageing.",
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "NAMPT",
+    "predicate": "is_regulated_by",
+    "object": "BMAL1",
+    "context": "NAMPT, the rate-limiting NAD+ salvage enzyme, is regulated by the CLOCK:BMAL1 circadian complex, coupling NAD+ biosynthesis and thus sirtuin activity to the daily rhythm. Directionally, the CLOCK/BMAL1 loop drives rhythmic NAMPT and NAD+ levels. This explains the circadian gating of sirtuin-dependent processes and links clock disruption to altered sirtuin activity.",
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "loss_activates",
+    "object": "HIF-1α",
+    "context": "Loss of SIRT3 raises mitochondrial ROS, which can activate HIF-1α, producing a pseudo-hypoxic, glycolytic metabolic shift. Directionally, SIRT3 deficiency is upstream of HIF-1α activation. This connects mitochondrial sirtuin failure to hypoxia-signaling and the Warburg-like metabolism seen in ageing and cancer.",
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process"
   }
 ]

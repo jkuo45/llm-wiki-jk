@@ -151,7 +151,7 @@ async def origin_gate(request: Request, call_next):
 
 
 class ChatRequest(BaseModel):
-    message: str = Field(..., min_length=1, max_length=500)
+    message: str = Field(..., min_length=1, max_length=4000)
     session_id: str | None = None
     # Client-side routing switch (the "Graphify" checkbox in the chat composer).
     # True  -> always attempt a graph op (query/explain/path/analyze)

@@ -209,7 +209,11 @@ List of documents that mention this entity
     - SIRT3 deacetylates OPA1 (Lys926/Lys931) to activate fusion during stress.
 
 
-  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+  - Review (Grabowska et al., Biogerontology 2017) covering conflicting human-longevity evidence for SIRT3, its nuclear H4K16/H3K9 deacetylation, reduced expression in aged oocytes, and loss-of-SIRT3 activation of HIF-1α.
+
 ## Connections
 
 - [[SIRT1]] — cytoplasmic counterpart; SIRT1 deacetylates AceCS1 (cytoplasmic) while SIRT3 deacetylates AceCS2 (mitochondrial)

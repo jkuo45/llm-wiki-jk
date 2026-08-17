@@ -9,15 +9,25 @@ What it does, in order:
   2. Prunes generic type/category hubs (e.g. 'chemical', 'protein', 'enzyme').
   3. Prunes document-title nodes (sources of 'discusses' edges).
   4. Re-clusters (Leiden), preserving old community labels by majority overlap.
-  5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
-  6. Regenerates graph.html via `graphify export html`.
-  7. Exports nodes.json, edges.json, legend.json for three-graph.html.
+   5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
+   6. Regenerates graph.html via `graphify export html`.
+   7. Exports nodes.json, edges.json, legend.json for the web app
+      (web/data/), copies the shared graphify JSON the app consumes
+      (graph.json, manifest.json) into web/data/, and writes
+      web/data/version.json with a content-hash tag the app uses for
+      cache busting (tooltips/modals read entity descriptions straight
+      from graph.json nodes; wiki-context.json is retired).
+   8. Regenerates the "## Node Analysis (Knowledge Graph)" section of
+      web/llms.txt from the rebuilt graph so the LLM-facing summary
+      stays in sync (the hand-written title, summary, and article links
+      above it are preserved).
 
 Run:  python3 scripts/03_rebuild_from_triples.py
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import subprocess
@@ -33,7 +43,16 @@ from graphify.export import to_json
 from graphify.report import generate
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root
-GP = ROOT / "graphify-out"
+GP = ROOT / "graphify-out"          # canonical graphify analysis artifacts
+WEB = ROOT / "web"                  # standalone three-graph web app (deployed)
+DATA_DIR = WEB / "data"             # runtime data JSONs consumed by the web app
+
+# Hand-maintained data files the script does NOT produce but that must exist
+# alongside the generated ones in web/data/ (checked by ensure_manual_data_files).
+MANUAL_DATA_FILES = (
+    "query.json",               # curated graph-query traces for the Trace panel
+    "translations-zh-TW.json",  # zh-TW translation dictionary for UI/node labels
+)
 
 # generic type/category vocabulary to drop (abstract ontology hubs)
 DENYLIST = {
@@ -146,7 +165,12 @@ def generate_community_colors(legend: list[dict]) -> dict[int, str]:
 
 
 def export_three_json(gp: Path, labels: dict[int, str]) -> None:
-    """Export nodes.json, edges.json, legend.json from graph.json for three-graph.html."""
+    """Export nodes.json, edges.json, legend.json to web/data/ for the three-graph app.
+
+    Reads the canonical graph.json from graphify-out (gp) but writes the
+    web-only data files into DATA_DIR.
+    """
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     graph = json.loads((gp / "graph.json").read_text(encoding="utf-8"))
 
     nodes = graph["nodes"]
@@ -166,7 +190,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     for entry in legend:
         entry["color"] = color_map[entry["cid"]]
 
-    # Build node objects for three-graph.html (use pre-computed metrics)
+    # Build node objects for web/ (use pre-computed metrics)
     node_objects = []
     node_id_set = {n["id"] for n in nodes}
     for n in nodes:
@@ -188,7 +212,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "color": {"background": color_map.get(cid, "#888888")},
         })
 
-    # Build edge objects for three-graph.html
+    # Build edge objects for web/
     edge_objects = []
     for link in links:
         src = link["source"]
@@ -206,15 +230,15 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "color": {"opacity": max(0.1, min(1.0, conf))},
         })
 
-    (gp / "nodes.json").write_text(
+    (DATA_DIR / "nodes.json").write_text(
         json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (gp / "edges.json").write_text(
+    (DATA_DIR / "edges.json").write_text(
         json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (gp / "legend.json").write_text(
+    (DATA_DIR / "legend.json").write_text(
         json.dumps(legend, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
@@ -223,214 +247,187 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     )
 
 
+def ensure_manual_data_files() -> None:
+    """Warn when hand-maintained data files expected by the web app are absent.
+
+    query.json and translations-zh-TW.json are curated by hand (not generated
+    by this script) but must live in web/data/ for the deployed app.
+    """
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    missing = [name for name in MANUAL_DATA_FILES if not (DATA_DIR / name).exists()]
+    if missing:
+        print(
+            "WARNING: hand-maintained data files missing from web/data/ "
+            f"(add them manually): {', '.join(missing)}"
+        )
+
 # ------------------------------------------------------------------
-# Wiki context export (for three-graph.html Source/Context node panels)
+# Copy shared graphify JSON that the web app consumes at runtime.
+# These remain canonical in graphify-out (the source of truth) and are
+# copied verbatim into web/data/ so the deployed app is self-contained.
 # ------------------------------------------------------------------
 
-GITHUB_BASE = "https://github.com/jkuo45/llm-wiki-jk/blob/dev/"
-NOTES_DIR = ROOT / "src" / "notes"
-TARGET_WORDS = 650
-MAX_WORDS = 700
+# Graphify-standard artifacts the web app fetches (components/data.js).
+WEB_SHARED_JSON = (
+    "graph.json",
+    "manifest.json",
+)
 
 
-def _strip_frontmatter(text: str) -> str:
-    return re.sub(r"^---.*?---\s*", "", text, count=1, flags=re.DOTALL).strip()
-
-
-def _strip_markdown(text: str) -> str:
-    """Remove all markdown/obsidian syntax, leaving plain prose."""
-    s = text
-    # Wiki links [[Link]] or [[Link|Display]] → Display or Link
-    # Also handles malformed [[A], [B]] patterns
-    s = re.sub(r"\[\[(.+?)\]\]",
-               lambda m: m.group(1).split("|", 1)[1] if "|" in m.group(1) else m.group(1), s)
-    # Cleanup any stray ]] or [[ left by malformed/truncated links
-    s = s.replace("]]", "")
-    s = s.replace("[[", "")
-    # Stray single-bracket links [Entity] that look like wiki links
-    s = re.sub(r"\[([A-Z][^\]]{2,}?)\](?!\()", r"\1", s)
-    # Footnotes [^1]
-    s = re.sub(r"\[\^\d+\]", "", s)
-    # Images ![alt](url)
-    s = re.sub(r"!\[([^\]]*)\]\([^)]*\)", r"\1", s)
-    # Inline links [text](url) → text
-    s = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", s)
-    # Headings  ## Foo → Foo
-    s = re.sub(r"^#{1,6}\s+", "", s, flags=re.MULTILINE)
-    # Bold / italic variants (DOTALL to match across newlines)
-    s = re.sub(r"\*\*\*(.+?)\*\*\*", r"\1", s, flags=re.DOTALL)
-    s = re.sub(r"___(.+?)___", r"\1", s, flags=re.DOTALL)
-    s = re.sub(r"\*\*(.+?)\*\*", r"\1", s, flags=re.DOTALL)
-    s = re.sub(r"__(.+?)__", r"\1", s, flags=re.DOTALL)
-    s = re.sub(r"\*(.+?)\*", r"\1", s, flags=re.DOTALL)
-    s = re.sub(r"_(.+?)_", r"\1", s, flags=re.DOTALL)
-    # Strikethrough
-    s = re.sub(r"~~(.+?)~~", r"\1", s, flags=re.DOTALL)
-    # Blockquotes  > text → text
-    s = re.sub(r"^>\s?", "", s, flags=re.MULTILINE)
-    # Horizontal rules
-    s = re.sub(r"^[-*_]{3,}\s*$", "", s, flags=re.MULTILINE)
-    # Table syntax  | col | col |  →  col  col
-    s = re.sub(r"^\|", "", s, flags=re.MULTILINE)
-    s = re.sub(r"\|$", "", s, flags=re.MULTILINE)
-    s = re.sub(r"\|", "  ", s)
-    # Unordered list markers
-    s = re.sub(r"^[\s]*[-*+]\s+", "", s, flags=re.MULTILINE)
-    # Ordered list markers
-    s = re.sub(r"^[\s]*\d+\.\s+", "", s, flags=re.MULTILINE)
-    # Inline code
-    s = re.sub(r"`([^`]+)`", r"\1", s)
-    # HTML tags (sub, sup, br, span, etc.)
-    s = re.sub(r"<[^>]+>", "", s)
-    # Collapse blank lines
-    s = re.sub(r"\n{3,}", "\n\n", s)
-    # Remove duplicated headings: if a non-empty line starts with the same
-    # text as a recent non-empty line (heading stub repeated as body opener),
-    # drop the shorter one.  Blank lines between them are fine.
-    # Also handles "The Epigenome" matching heading "Epigenome" and
-    # end-of-heading + start-of-body overlaps.
-    def _words_overlap_end_start(a: str, b: str) -> bool:
-        """Check if the end of line a matches the start of line b (word-boundary).
-        Allows skipping 1-2 leading words in b (e.g. 'In the Prefrontal Cortex')."""
-        wa, wb = a.lower().split(), b.lower().split()
-        for n in range(min(3, len(wa), len(wb)), 0, -1):
-            tail = wa[-n:]
-            for skip in range(min(3, len(wb) - n + 1)):
-                if wb[skip:skip + n] == tail:
-                    return True
-        return False
-
-    lines = s.split("\n")
-    deduped: list[str] = []
-    recent_nonempty: list[int] = []
-    for line in lines:
-        stripped = line.strip()
-        if stripped:
-            drop = False
-            for idx in reversed(recent_nonempty):
-                prev = deduped[idx].strip()
-                if not prev:
-                    continue
-                sl, pl = stripped.lower(), prev.lower()
-                # Direct prefix match
-                if sl.startswith(pl) or pl.startswith(sl):
-                    if len(stripped) > len(prev):
-                        deduped[idx] = ""
-                        recent_nonempty.remove(idx)
-                    else:
-                        drop = True
-                    break
-                # Skip leading article ("The Epigenome" vs "Epigenome")
-                matched_skip = False
-                longer = sl if len(sl) >= len(pl) else pl
-                shorter = pl if len(sl) >= len(pl) else sl
-                for skip in range(1, min(3, len(longer.split()))):
-                    remainder = " ".join(longer.split()[skip:])
-                    if remainder.startswith(shorter):
-                        if len(stripped) > len(prev):
-                            deduped[idx] = ""
-                            recent_nonempty.remove(idx)
-                        else:
-                            drop = True
-                        matched_skip = True
-                        break
-                if matched_skip:
-                    break
-                # End-of-heading matches start-of-body
-                if _words_overlap_end_start(prev, stripped) or _words_overlap_end_start(stripped, prev):
-                    if len(stripped) > len(prev):
-                        deduped[idx] = ""
-                        recent_nonempty.remove(idx)
-                    else:
-                        drop = True
-                    break
-            if drop:
-                continue
-        deduped.append(line)
-        if stripped:
-            recent_nonempty.append(len(deduped) - 1)
-            if len(recent_nonempty) > 5:
-                recent_nonempty.pop(0)
-    # Also deduplicate repeated phrases within a single line (heading + body
-    # concatenated into one line after markdown stripping).
-    result_lines: list[str] = []
-    for line in deduped:
-        words = line.split()
-        if len(words) >= 4:
-            lower = [w.lower() for w in words]
-            # Check for any consecutive repeated phrase (not just from pos 0)
-            for n in range(min(5, len(words) // 2), 1, -1):
-                found = False
-                for i in range(len(words) - 2 * n + 1):
-                    if lower[i:i + n] == lower[i + n:i + 2 * n]:
-                        line = " ".join(words[:i] + words[i + n:])
-                        found = True
-                        break
-                if found:
-                    break
-        result_lines.append(line)
-    return "\n".join(result_lines).strip()
-
-
-def _truncate_words(text: str, target: int = TARGET_WORDS, hard_max: int = MAX_WORDS) -> str:
-    words = text.split()
-    if len(words) <= hard_max:
-        return text
-    truncated = " ".join(words[:target])
-    # Cut at last sentence boundary
-    cut = max(truncated.rfind("."), truncated.rfind("!"), truncated.rfind("?"))
-    if cut > target * 0.5:
-        truncated = truncated[: cut + 1]
-    return truncated
-
-
-def _build_note_index() -> dict[str, str]:
-    """Map lowercase note filenames (without .md) → relative path from repo root."""
-    index: dict[str, str] = {}
-    for md_file in NOTES_DIR.rglob("*.md"):
-        if md_file.stem == md_file.parent.name:
+def copy_shared_json() -> None:
+    """Copy canonical graphify JSON into web/data/ for the deployed app."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    copied = 0
+    for name in WEB_SHARED_JSON:
+        src = GP / name
+        if not src.exists():
+            print(f"  skip (missing): {name}")
             continue
-        index[md_file.stem.lower()] = md_file.relative_to(ROOT).as_posix()
-    return index
+        import shutil
+
+        shutil.copy2(src, DATA_DIR / name)
+        copied += 1
+    print(f"Copied {copied} shared graphify JSON files into web/data/")
 
 
-def export_wiki_context(gp: Path, node_ids: set[str]) -> None:
-    """Write wiki-context.json mapping node IDs to wiki note content + source URLs."""
-    note_index = _build_note_index()
-    # Load graph.json to get node labels (canonical names)
-    graph = json.loads((gp / "graph.json").read_text(encoding="utf-8"))
-    id_to_label = {n["id"]: n["label"] for n in graph["nodes"]}
+def write_version_file() -> None:
+    """Write web/data/version.json with a content-hash cache tag.
 
-    ctx: dict[str, dict] = {}
-    matched = 0
-    for nid in node_ids:
-        label = id_to_label.get(nid, "")
-        if not label:
-            continue
-        rel_path = note_index.get(label.lower())
-        if not rel_path:
-            continue
-        full_path = ROOT / rel_path
-        if not full_path.exists():
-            continue
-        try:
-            raw = full_path.read_text(encoding="utf-8")
-        except Exception:  # noqa: BLE001
-            continue
-        body = _strip_frontmatter(raw)
-        body = _strip_markdown(body)
-        ctx[nid] = {
-            "wiki_path": rel_path,
-            "wiki_url": GITHUB_BASE + rel_path,
-            "description": _truncate_words(body),
-        }
-        matched += 1
-
-    (gp / "wiki-context.json").write_text(
-        json.dumps(ctx, ensure_ascii=False, indent=2), encoding="utf-8"
+    The web app fetches this tiny file with a no-cache query string and uses
+    the tag (`?v=...`) to cache-bust the larger data files, so browsers only
+    re-download them when the data actually changed (instead of on every page
+    load). The tag covers all data files, including hand-maintained ones, so
+    manual edits to query.json/translations also bump it. Written last so a
+    failed rebuild never leaves a fresh tag pointing at stale data.
+    """
+    files = sorted(p for p in DATA_DIR.glob("*.json") if p.name != "version.json")
+    h = hashlib.sha256()
+    for p in files:
+        h.update(p.name.encode("utf-8"))
+        h.update(p.read_bytes())
+    tag = h.hexdigest()[:16]
+    (DATA_DIR / "version.json").write_text(
+        json.dumps(
+            {
+                "generated": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "tag": tag,
+                "files": [p.name for p in files],
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
     )
-    not_found = len(node_ids) - matched
-    print(f"Wiki context: {matched} nodes matched, {not_found} not found")
+    print(f"Wrote data version tag {tag} over {len(files)} files")
+
+
+# ------------------------------------------------------------------
+# llms.txt Node Analysis: keep the LLM-facing graph summary in
+# web/llms.txt in sync with the freshly rebuilt graph. Only the
+# "## Node Analysis (Knowledge Graph)" section is regenerated; the
+# hand-written title, summary, and article links above it are preserved.
+# ------------------------------------------------------------------
+
+LLMS_PATH = WEB / "llms.txt"
+LLMS_NODE_SECTION = "## Node Analysis (Knowledge Graph)"
+LLMS_GRAPH_URL = "https://graph.johnnykuo.com/"
+
+
+def _one_liner(desc: str, limit: int = 160) -> str:
+    """Collapse whitespace and truncate a node description for the summary."""
+    s = " ".join((desc or "").split())
+    if len(s) > limit:
+        s = s[:limit].rstrip() + "…"
+    return s
+
+
+def _build_node_analysis_section(graph: dict) -> str:
+    """Render the Node Analysis markdown section from a graph.json dict."""
+    nodes = graph["nodes"]
+    links = graph["links"]
+    n_nodes = len(nodes)
+    n_links = len(links)
+    n_comms = len({n.get("community") for n in nodes if n.get("community") is not None})
+
+    # Largest communities by member count (skip unnamed fallback labels).
+    comm_counts: Counter = Counter()
+    for n in nodes:
+        name = n.get("community_name") or ""
+        if name.startswith("Community "):
+            continue
+        comm_counts[name] += 1
+    top_comms = comm_counts.most_common(18)
+    comm_line = ", ".join(f"{name} ({c})" for name, c in top_comms)
+
+    # Central hubs by degree (surface PageRank alongside).
+    hubs = sorted(nodes, key=lambda n: n.get("degree", 0), reverse=True)[:15]
+    hub_lines = [
+        f"- **{n.get('label', n['id'])}** (deg {n.get('degree', 0)}, "
+        f"PR {n.get('pagerank', 0.0):.4f}) — {_one_liner(n.get('description', ''))}"
+        for n in hubs
+    ]
+
+    # Bridge nodes by betweenness centrality.
+    bridges = sorted(
+        nodes, key=lambda n: n.get("betweenness_centrality", 0.0), reverse=True
+    )[:10]
+    bridge_line = " > ".join(
+        f"{n.get('label', n['id'])} ({n.get('betweenness_centrality', 0.0):.3f})"
+        for n in bridges
+    )
+
+    lines = [
+        LLMS_NODE_SECTION,
+        "",
+        f"The graph holds [{n_nodes:,} concept nodes and {n_links:,} links]({LLMS_GRAPH_URL}), "
+        f"grouped into {n_comms:,} communities (most small; the largest cluster around the seven "
+        "mammalian sirtuins). Node importance below is ranked by degree, PageRank (PR), and "
+        "betweenness centrality.",
+        "",
+        "### Graph statistics",
+        f"- Nodes: {n_nodes:,} · Links: {n_links:,} · Communities: {n_comms:,} · All nodes are "
+        "`concept` type.",
+        f"- Largest communities by member count: {comm_line}.",
+        "",
+        "### Central hubs (highest degree / PageRank)",
+    ]
+    lines.extend(hub_lines)
+    lines += [
+        "",
+        "### Bridge nodes (highest betweenness — connect otherwise-separate clusters)",
+        f"{bridge_line}. These nodes are the highest-leverage points for traversing the graph from "
+        "one topic cluster to another.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def update_llms_node_analysis() -> None:
+    """Regenerate only the Node Analysis section of web/llms.txt.
+
+    Preserves the hand-written header/summary/article links; replaces the
+    existing Node Analysis block if present, or appends it otherwise.
+    """
+    src = DATA_DIR / "graph.json"
+    if not src.exists():
+        print("  skip llms.txt node analysis (web/data/graph.json missing)")
+        return
+    graph = json.loads(src.read_text(encoding="utf-8"))
+    section = _build_node_analysis_section(graph)
+
+    if LLMS_PATH.exists():
+        text = LLMS_PATH.read_text(encoding="utf-8")
+        idx = text.find(LLMS_NODE_SECTION)
+        if idx != -1:
+            text = text[:idx].rstrip() + "\n\n" + section
+        else:
+            text = text.rstrip() + "\n\n" + section
+    else:
+        # No llms.txt yet: create a minimal one around the node analysis.
+        text = "# llm-wiki-jk — Biomedical Knowledge Graph\n\n" + section
+
+    LLMS_PATH.write_text(text, encoding="utf-8")
+    print(f"Updated web/llms.txt Node Analysis ({len(graph['nodes'])} nodes)")
 
 
 # ------------------------------------------------------------------
@@ -673,6 +670,8 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    WEB.mkdir(parents=True, exist_ok=True)
+
     wrote = to_json(G, communities, str(GP / "graph.json"), force=True)
     print("to_json wrote:", wrote)
 
@@ -695,9 +694,17 @@ def main() -> int:
     # --- export three-graph JSON (nodes.json, edges.json, legend.json) ---
     export_three_json(GP, new_labels)
 
-    # --- export wiki context for three-graph.html node info panels ---
-    node_ids = set(G.nodes())
-    export_wiki_context(GP, node_ids)
+    # --- copy shared graphify JSON the web app needs into web/data/ ---
+    copy_shared_json()
+
+    # --- sanity-check hand-maintained data files (query.json, translations) ---
+    ensure_manual_data_files()
+
+    # --- write content-hash version tag for web-app cache busting ---
+    write_version_file()
+
+    # --- regenerate the Node Analysis section of web/llms.txt ---
+    update_llms_node_analysis()
 
     return 0
 

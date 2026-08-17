@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIRT 多效性探索器 — 腫瘤代謝與治療</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html">
+  <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html">
+  <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html">
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="返回圖譜首頁">&#8592; 返回</a>
+    <a class="n" href="#overview">總覽</a>
+    <a class="n" href="#spectrum">對立的 SIRTs</a>
+    <a class="n" href="#compartment">細胞分佈圖</a>
+    <a class="n" href="#axes">代謝軸</a>
+    <a class="n" href="#network">知識圖譜</a>
+     <a class="n" href="#sirts">逐一檢視 SIRT</a>
+     <a class="n" href="#therapeutics">治療藥物</a>
+    <a class="n" href="#patterns">規律模式</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">互動式解說 · llm-wiki-jk</div>
+    <h1>SIRT 在腫瘤細胞代謝中的多效性角色與治療標靶</h1>
+    <p class="lead" style="margin-top:14px;">
+      七種哺乳類 SIRT（SIRT1–SIRT7）是依賴 NAD<sup>+</sup> 的醯基轉移酶，扮演著
+      <b style="color:var(--text)">區隔化、情境依賴的代謝恆定調節器</b>。同一種酶究竟具有腫瘤抑制性
+      <i>抑或</i>致癌性，取決於次細胞位置、腫瘤類型、病程階段與 NAD<sup>+</sup> 的可用度。
+      本頁將任務輸出綜述轉化為可互動的圖表，呈現 SIRT 相互對立的行為。
+    </p>
+    <div class="meta">
+      來源綜述：<a href="https://doi.org/10.1038/s41392-022-01257-8" target="_blank">Sirtuins in Health and Disease（Wu et al., 2022）</a> ·
+      Giblin et al. 2014 · SIRT1–SIRT7 維基筆記 · 建構自 <code>src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md</code>
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">7 種異構酶</span>
+      <span class="badge">依賴 NAD<sup>+</sup></span>
+      <span class="badge">去乙醯酶 / 去丙二醯酶 / 去琥珀醯酶 / 去戊二醯酶 / ADP-核醣基化酶</span>
+      <span class="badge teal">3 個區隔</span>
+      <span class="badge red">雙重 · 情境依賴</span>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <h2>為何同一種酶既能抗癌又能助癌</h2>
+    <p class="lead" style="margin-bottom:20px;">多效性源自三個相互作用的來源。</p>
+    <div class="grid g3">
+      <div class="card">
+        <h3>1 · 區隔化</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b style="color:var(--text)">細胞核</b> [[SIRT1]]/6/7 調控代謝程式的<i>轉錄</i>。<br>
+          <b style="color:var(--text)">細胞質</b> [[SIRT2]] 調節細胞骨架與細胞週期。<br>
+          <b style="color:var(--text)">粒線體</b> [[SIRT3]]/4/5 設定<i>代謝定點</i>（TCA、麩醯胺酸、氧化還原）。
+          「SIRT 輸出」是粒線體定點與細胞核轉錄門控的整合。
+        </p>
+      </div>
+      <div class="card">
+        <h3>2 · 催化廣效性</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          除去乙醯化外，還有：<code>去丙二醯化</code>、<code>去琥珀醯化</code>、<code>去戊二醯化</code>與
+          <code>ADP-核醣基化</code>。[[SIRT5]] 幾乎沒有典型的去乙醯酶活性（是去琥珀醯酶/去丙二醯酶/去戊二醯酶），
+          並抵抗<b style="color:var(--amber)">菸鹼醯胺抑制</b>——在 SIRT1–3 受抑制的環境中仍保持活性。
+        </p>
+      </div>
+      <div class="card">
+        <h3>3 · 情境依賴</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          同一受質、方向相反：SIRT1 與 SIRT3 都去乙醯化 <code>[[p53]]</code>，卻分別造成促腫瘤與抗腫瘤的後果；
+          SIRT7 的 H3K18 去乙醯化既提升 <code>p21</code>（促增殖），也沉默 EMT 基因（抗轉移）。
+          沒有任何 SIRT 是純「促」或純「抗」癌的。
+        </p>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--teal); font-weight:700;">7</div>
+        <div style="color:var(--dim); font-size:.85rem;">與 NAD<sup>+</sup> 耦合的異構酶——腫瘤代謝狀態（複合物 I、麩醯胺酸分解、NAMPT/CD38）直接決定其輸出</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--purple); font-weight:700;">3</div>
+        <div style="color:var(--dim); font-size:.85rem;">細胞核 [[SIRT1]]/6/7 · 細胞質 [[SIRT2]] · 粒線體 [[SIRT3]]/4/5</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--red); font-weight:700;">0</div>
+        <div style="color:var(--dim); font-size:.85rem;">完全純抗癌的 SIRT——每個異構酶都具有情境依賴性</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECTRUM -->
+<section id="spectrum">
+  <div class="wrap">
+    <h2>對立的 SIRTs — 腫瘤抑制 ⇄ 致癌光譜</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      每個長條代表某個 SIRT 在腫瘤生物學中的<b style="color:var(--text)">整體傾向</b>（右 = 較一致地腫瘤抑制，
+      左 = 較一致地致癌/促腫瘤）。陰影的<b style="color:var(--dim)">情境窗口</b>顯示同一異構酶可依腫瘤類型、
+      階段或劑量翻轉方向的程度。將滑鼠移到長條上可查看理由。
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="spectrumSvg" viewBox="0 0 1000 634" role="img" aria-label="SIRT 雙重性光譜"></svg>
+        <button class="copy-btn" data-copy="spectrumSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> 偏腫瘤抑制</span>
+        <span><span class="sw" style="background:var(--red)"></span> 偏致癌 / 促腫瘤</span>
+        <span><span class="sw" style="background:rgba(224,224,224,.12)"></span> 情境窗口（雙重範圍）</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARTMENT -->
+<section id="compartment">
+  <div class="wrap">
+    <h2>區隔圖 — 每個 SIRT 的作用位置</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      區隔是預測 SIRT 角色的首要因子：粒線體三兄弟主導代謝狀態，
+      細胞核三兄弟主導<i>同一套</i>代謝程式的轉錄。
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="compSvg" viewBox="0 0 1000 560" role="img" aria-label="細胞區隔示意圖"></svg>
+        <button class="copy-btn" data-copy="compSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MATRIX -->
+<section id="axes">
+  <div class="wrap">
+    <h2>代謝軸 × SIRT 矩陣</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      每個 SIRT 在四條腫瘤代謝軸上的淨效應。<b style="color:var(--teal)">青色</b> = 對該軸的腫瘤抑制作用，
+      <b style="color:var(--red)">紅色</b> = 促腫瘤作用，<b style="color:var(--amber)">琥珀色</b> = 在該軸上真正雙向/雙重。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">將滑鼠移到格子可查看機制。</p>
+    <div class="spectrum-card">
+      <div id="matrixWrap" style="position:relative;">
+        <svg id="matrixSvg" viewBox="0 0 920 624" role="img" aria-label="SIRT × 代謝軸矩陣"></svg>
+        <button class="copy-btn" data-copy="matrixSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="network">
+  <div class="wrap">
+    <h2>SIRT 知識圖譜 — 來自維基圖譜</h2>
+    <p class="lead">
+      以七個 SIRT 樞紐為中心的 <code>graphify-out/graph.json</code> 之子圖（76 個節點 / 101 條邊）。
+      節點大小 = 連接度；邊標籤為圖譜本身提取的關係。可拖曳節點、滑鼠懸停檢視，點擊樞紐可突顯其鄰域。
+    </p>
+    <div class="net-head">
+      <button class="btn" id="netReset">重設佈局</button>
+      <span class="badge" id="netStats"></span>
+    </div>
+    <div style="position:relative;">
+      <svg id="netSvg" viewBox="0 0 1100 560" role="img" aria-label="SIRT 知識圖譜"></svg>
+      <div id="netTip"></div>
+      <button class="copy-btn" data-copy="netSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+    </div>
+    <div class="net-legend" id="netLegend"></div>
+  </div>
+</section>
+
+<!-- SIRT BY SIRT -->
+<section id="sirts">
+  <div class="wrap">
+    <h2>逐一檢視 SIRT — 雙重面貌</h2>
+    <p class="lead" style="margin-bottom:20px;">
+      每個異構酶都兼具<b style="color:var(--green)">抑制者</b>與<b style="color:var(--red)">致癌者</b>兩副面貌。
+      兩者間的平衡取決於劑量、階段與基因背景。
+    </p>
+    <div class="grid g2" style="gap:18px;">
+      <!-- SIRT1 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--amber)">[[SIRT1]]</h3><span class="tagline">典型的「雙刃劍」</span>
+          <span class="comp">細胞核<br>+ 細胞質</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>腫瘤抑制</h4><ul>
+              <li>去乙醯化 [[p53]]、[[Ku70]]、p73、[[FOXO]] → 在急性壓力下偏向<b>修復而非凋亡</b></li>
+              <li>hnRNP A1 去乙醯化 → 在 <b>[[Hepatocellular Carcinoma|HCC]]</b> 中抑制糖解/生長</li>
+              <li>AR（Lys630）去乙醯化 → 抑制前列腺生長</li>
+              <li>抑制 [[NF-κB]] p65 與 HMGB1 → 在[[Ovarian Cancer|卵巢癌]]中具抗血管新生作用</li>
+              <li>[[PAK1]] K420 去乙醯化 → 阻礙[[Glioblastoma|膠質母細胞瘤]]</li>
+            </ul></div>
+            <div class="face red"><h4>致癌 / 促腫瘤</h4><ul>
+              <li><b>慢性</b>情境下的 p53 去乙醯化削弱了腫瘤抑制煞車</li>
+              <li>與 [[c-Myc]] 及 [[HIF-1α]] 合作</li>
+              <li>EMT/metadherin → 三陰性乳癌中的化學抗藥性</li>
+              <li>NSCLC 中順鉑抗藥性（VEGF-A）；他莫昔芬抗藥性（MRP2/FoxO1）</li>
+              <li>經由 CDK2 去乙醯化導致 T-ALL → p27 降解</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>情境變數：</b>劑量（[[Colorectal Cancer|CRC]]：異型合子剔除 → c-Myc/麩醯胺酸/增殖；同型合子剔除 → 凋亡）、腫瘤類型（在膠質瘤/HCC 中為抑制者；在胃/子宮內膜/白血病中為促進者）、嚴重度（心臟：7.5 倍保護性、12.5 倍病理性）。</div>
+        </div>
+      </div>
+      <!-- SIRT2 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--purple)">[[SIRT2]]</h3><span class="tagline">上皮抑制者，基底樣/白血病促進者</span>
+          <span class="comp">細胞質</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>腫瘤抑制</h4><ul>
+              <li>[[BRCA1]]–BARD1 異源二聚化 → 同源重組（乳癌）</li>
+              <li>IDH1 去乙醯化 → 抑制 CRC 肝轉移</li>
+              <li>AKR1C1 + [[STAT3]] 抑制 → 抑制 NSCLC 遷移</li>
+              <li>使卵巢癌對順鉑敏感化</li>
+            </ul></div>
+            <div class="face red"><h4>致癌 / 促腫瘤</h4><ul>
+              <li>Slug 去乙醯化 → 穩定化 → 基底樣乳癌侵襲</li>
+              <li>磷酸甘油酸變位酶 K100 → NADPH 流 → 肺腫瘤生長</li>
+              <li>子宮內膜癌幹性 / MEK-ERK 訊號</li>
+              <li>LMO2 去乙醯化 → T-ALL 生長/移植</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>情境：</b>常與具保護性的 SIRT1/3/6 軸<b>對立</b>的細胞質 SIRT。在神經退化性疾病（[[Alzheimer's Disease|AD]]、[[Parkinson's Disease|PD]]、[[Huntington's Disease|HD]]）中有害，在代謝/腎臟/關節疾病中具保護性。在白血病中則分歧：NAMPT/SIRT2 活化可降低 AML 增殖，但 SIRT2 抑制則抑制 T-ALL。</div>
+        </div>
+      </div>
+      <!-- SIRT3 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--green)">[[SIRT3]]</h3><span class="tagline">粒線體「守護者」，氧化表型雙刃</span>
+          <span class="comp">粒線體</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>腫瘤抑制（代謝性）</h4><ul>
+              <li>[[MnSOD]]/SOD2 + IDH2 活化 → 降低 ROS → <b>不穩定化 HIF-1α</b>（抗瓦伯格效應）</li>
+              <li>刺激丙酮酸脫氫酶 → 氧化性 TCA 流</li>
+              <li>Twist 下調 → 抑制卵巢癌轉移</li>
+              <li>GST-π1 下調 → 使 HCC 對索拉非尼/化療敏感化</li>
+              <li>破壞乳癌中的 ERα–p53 交互作用</li>
+            </ul></div>
+            <div class="face red"><h4>致癌（同一套生物學，方向翻轉）</h4><ul>
+              <li>ROS 抑制得過於徹底 → <b>放射/化學抗藥性</b>（NSCLC 中的 ATM–Chk2）</li>
+              <li>提升 CRC 中的藥物抗性（SOD2/PGC-1α）</li>
+              <li>p53 去乙醯化（致癌途徑）</li>
+              <li>ACC1 上調 → 脂肪生成 → 子宮頸癌侵襲</li>
+              <li>Ku70–Bax 穩定化 → 膠質瘤存活</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>核心矛盾：</b>「低 ROS / 完整氧化磷酸化」的守護者表型防止<b>癌症起始</b>，但透過防止壓力誘發的死亡讓<b>已確立的腫瘤</b>存活。在 NAFLD 與[[Osteoarthritis|骨關節炎]]中確實雙重。在淋巴結陽性[[Breast Cancer|乳癌]]與 OSCC 中升高。</div>
+        </div>
+      </div>
+      <!-- SIRT4 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--teal)">[[SIRT4]]</h3><span class="tagline">最一致地腫瘤抑制——但伴隨代謝成本</span>
+          <span class="comp">粒線體</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>腫瘤抑制（主導）</h4><ul>
+              <li>[[GDH]] 單 ADP-核醣基化 → 限制麩醯胺酸→α-KG 流 → <b>直接打擊麩醯胺酸依賴</b></li>
+              <li>經由胺基酸刺激的胰島素分泌抑制 [[mTOR]]</li>
+              <li>p16/p21 上調 + CyclinB1/Cdc2/Cdc25c 抑制 → HCC 凋亡</li>
+              <li>在 CRC 中恢復 E-cadherin</li>
+              <li>透過抑制麩醯胺酸代謝負向調節 SIRT1</li>
+            </ul></div>
+            <div class="face red"><h4>為何情境仍然重要</h4><ul>
+              <li>GDH 抑制 → 胺基酸刺激的胰島素分泌減少</li>
+              <li>抑制肝臟脂肪酸氧化（MTPα）→ 脂質堆積</li>
+              <li>唯一具有不良心臟作用的 SIRT（加劇血管緊張素 II 肥厚/纖維化）</li>
+              <li>代謝上「節儉」——抗腫瘤但代價高昂</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>其缺失一致地預示較差的存活率</b>，見於 HCC、[[Gastric Cancer|胃癌]]、CRC、膀胱癌、乳癌。治療角度：作為麩醯胺酸依賴煞車予以保留/誘導。</div>
+        </div>
+      </div>
+      <!-- SIRT5 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--orange)">[[SIRT5]]</h3><span class="tagline">具促腫瘤代謝偏向的去醯酶</span>
+          <span class="comp">粒線體</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>腫瘤抑制 / 情境性</h4><ul>
+              <li>胰臟癌：高表現 → <b>預後良好</b>（缺失 → GOT1 乙醯化 → 增殖）</li>
+              <li>HCC：抑制免疫逃逸 / 由膽汁酸代謝驅動的 HCC</li>
+              <li>SOD1/IDH2 去琥珀醯化 → 抗氧化防禦</li>
+            </ul></div>
+            <div class="face red"><h4>促腫瘤代謝重程式化</h4><ul>
+              <li>在 HCC、CRC、NSCLC 中過度表現 → 推動麩醯胺酸分解 + 糖解</li>
+              <li>LDHB 去琥珀醯化 → 過度活化的自噬 → 營養回收</li>
+              <li>CRC 中依賴去戊二醯化的麩醯胺酸分解</li>
+              <li>卵巢癌中經由 [[Nrf2]]/HO-1 的順鉑抗藥性</li>
+              <li>HCC：經由氧化磷酸化→糖解的轉換促進生長/轉移</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>注意：</b>幾乎沒有典型的去乙醯酶活性（去琥珀醯酶/去丙二醯酶/去戊二醯酶），且<b>抵抗菸鹼醯胺抑制</b>——在 SIRT1–3 受抑制的腫瘤微環境中仍保持活性。</div>
+        </div>
+      </div>
+      <!-- SIRT6 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--blue)">[[SIRT6]]</h3><span class="tagline">最一致地具保護性——僅在肺癌/HCC 中雙重</span>
+          <span class="comp">細胞核（異染色質）</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>抗癌（主導）</h4><ul>
+              <li>共抑制 HIF-1α → 抑制糖解酵素 → <b>抗瓦伯格效應</b></li>
+              <li>抑制 [[Survivin|survivin]]、c-MYC、SREBP1/2、[[ChREBP]]（抗脂肪生成）</li>
+              <li>協調 CHD4 → DNA 修復（DDR）</li>
+              <li>[[JAK2]]/STAT3 抑制 → HCC 生長抑制</li>
+              <li>hnRNP A1 去乙醯化 → HCC 中的抗糖解</li>
+            </ul></div>
+            <div class="face red"><h4>雙重例外 + 化學抗藥性</h4><ul>
+              <li>肺：依賴 snail 的 [[KLF4]] 轉錄抑制 → [[EMT]]/轉移</li>
+              <li>HCC：高 SIRT6 與化學抗藥性相關</li>
+              <li>抑制凋亡（survivin/HIF-1α）過於有效 → 乳癌/前列腺癌中的化學抗藥性</li>
+              <li>先前防止腫瘤起始的 DDR/節約程式，之後在治療中讓已確立的腫瘤存活</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>結論：</b>最明確無疑的抗癌 SIRT（抗瓦伯格效應、促 DDR）。其具保護性的基因組穩定性程式在治療期間是一把雙刃劍。</div>
+        </div>
+      </div>
+      <!-- SIRT7 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--pink)">[[SIRT7]]</h3><span class="tagline">促增殖的生合成驅動者</span>
+          <span class="comp">細胞核 → 核仁</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>抗轉移（情境性）</h4><ul>
+              <li>EMT 相關啟動子上的 H3K18 去乙醯化 → 抑制轉移</li>
+              <li>同樣提升 p21（促增殖）的 H3K18 標記也沉默 EMT 基因——方向依啟動子情境而翻轉</li>
+            </ul></div>
+            <div class="face red"><h4>促腫瘤（大多數癌症）</h4><ul>
+              <li>RNA 聚合酶 I 活化 → 核醣體生合成 → 生長能力</li>
+              <li>p21/CDKN1A 啟動子 H3K18 去乙醯化 → 細胞週期進展</li>
+              <li>在乳癌、甲狀腺癌、HCC 中過度表現</li>
+              <li>抑制 E-cadherin（EMT）→ CRC 侵襲</li>
+              <li>在 HCC 中抑制 p53</li>
+            </ul></div>
+          </div>
+          <div class="context"><b>生物標記備註：</b>其表現隨[[Leukemia|白血病]]治療反應良好而上升，復發時下降——具有監測價值而非固定的致腫瘤角色。為尚未開發藥物的標靶。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- THERAPEUTICS -->
+<section id="therapeutics">
+  <div class="wrap">
+    <h2>針對恆定調節器的治療布局</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      目前領域的進展。僅有以 SIRT1 為標的的藥物進入人體試驗；最先進的臨床槓桿是
+      <b style="color:var(--teal)">間接 NAD<sup>+</sup> 補充</b>。將滑鼠移到泡泡上可查看細節。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">泡泡面積 ∝ 該標靶 × 階段的藥物數量。</p>
+    <div class="spectrum-card" style="margin-bottom:18px;">
+      <div style="position:relative;">
+        <svg id="theraSvg" viewBox="0 0 1180 480" role="img" aria-label="治療藥物泡泡圖"></svg>
+        <button class="copy-btn" data-copy="theraSvg" title="複製為 PNG" aria-label="複製圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--green)"></span> 活化劑</span>
+        <span><span class="sw" style="background:var(--red)"></span> 抑制劑</span>
+        <span><span class="sw" style="background:var(--blue)"></span> 間接（NAD<sup>+</sup>）</span>
+        <span><span class="sw" style="background:var(--purple)"></span> 基因治療 / 生活型態</span>
+      </div>
+    </div>
+
+    <h3>完整比較表</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>藥物</th><th>主要標靶</th><th>作用模式</th><th>開發階段</th><th>適應症</th></tr></thead>
+        <tbody>
+          <tr><td>[[Resveratrol|白藜蘆醇（Resveratrol，SRT501）]]</td><td>SIRT1</td><td class="mod-act">活化劑（STAC）</td><td><span class="stage phase">臨床評估中</span></td><td>代謝症候群、老化、心血管、神經保護</td></tr>
+          <tr><td>紫檀芪（Pterostilbene）</td><td>SIRT1</td><td class="mod-act">活化劑（STAC）</td><td><span class="stage prec">臨床前 / 保健食品</span></td><td>代謝、長壽</td></tr>
+          <tr><td>SRT1720</td><td>SIRT1</td><td class="mod-act">活化劑（STAC）</td><td><span class="stage prec">臨床前（工具藥）</span></td><td>代謝（肥胖/胰島素敏感度）</td></tr>
+          <tr><td>SRT2104</td><td>SIRT1</td><td class="mod-act">活化劑（STAC）</td><td><span class="stage phase">一期/二期（已完成）</span></td><td>乾癬、內毒素血症/凝血、第2型糖尿病、老年人</td></tr>
+          <tr><td>Sirtinol</td><td>SIRT1 / SIRT2</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前（工具藥）</span></td><td>腫瘤學、細胞衰老、表觀遺傳探測</td></tr>
+          <tr><td>Salermide</td><td>SIRT1 / SIRT2</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>腫瘤學（含 CRC 幹細胞）、表觀遺傳治療</td></tr>
+          <tr><td>Cambinol</td><td>SIRT1 / SIRT2</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>HCC/肺轉移、化療增敏</td></tr>
+          <tr><td>Tenovin-1 / Tenovin-6</td><td>SIRT1 / SIRT2（+SIRT3）</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>活化 p53 的腫瘤治療、抗腫瘤</td></tr>
+          <tr><td>Suramin</td><td>SIRT1 / SIRT2 / SIRT5</td><td class="mod-inh">抑制劑</td><td><span class="stage appr">已核准（抗寄生蟲）</span></td><td>老藥新用腫瘤學研究</td></tr>
+          <tr><td>[[EX-527|EX-527（Selisistat）]]</td><td>SIRT1</td><td class="mod-inh">抑制劑</td><td><span class="stage phase">一期/二期（亨丁頓舞蹈症）</span></td><td>亨丁頓舞蹈症；腫瘤化療增敏</td></tr>
+          <tr><td>AGK2</td><td>SIRT2</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>帕金森氏症、中風、腫瘤學</td></tr>
+          <tr><td>AK-7</td><td>SIRT2</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>神經退化性疾病</td></tr>
+          <tr><td>SirReal2</td><td>SIRT2</td><td class="mod-inh">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>神經退化性疾病（微管穩定性）</td></tr>
+          <tr><td>和厚朴酚（Honokiol）</td><td>SIRT3</td><td class="mod-act">活化劑</td><td><span class="stage prec">臨床前</span></td><td>心血管（肥厚）、神經保護</td></tr>
+          <tr><td>二氫楊梅素（Dihydromyricetin，蛇葡萄素）</td><td>SIRT3</td><td class="mod-act">活化劑</td><td><span class="stage prec">臨床前（膳食來源）</span></td><td>代謝、保肝、神經</td></tr>
+          <tr><td>C12</td><td>SIRT3</td><td class="mod-act">活化劑</td><td><span class="stage prec">臨床前</span></td><td>心臟保護</td></tr>
+          <tr><td>2-APQC</td><td>SIRT3</td><td class="mod-act">活化劑</td><td><span class="stage prec">臨床前</span></td><td>心臟保護</td></tr>
+          <tr><td>SKLB-11A</td><td>SIRT3</td><td class="mod-act">活化劑（異位調控）</td><td><span class="stage prec">臨床前</span></td><td>心臟毒性預防</td></tr>
+          <tr><td>SZC-6</td><td>SIRT3</td><td class="mod-act">活化劑（異位調控）</td><td><span class="stage prec">臨床前</span></td><td>糖尿病腎病變</td></tr>
+          <tr><td>MDL-800</td><td>SIRT6</td><td class="mod-act">活化劑（異位調控）</td><td><span class="stage prec">臨床前</span></td><td>纖維化、癌症（抗糖解）</td></tr>
+          <tr><td>MDL-801</td><td>SIRT6</td><td class="mod-act">活化劑（異位調控）</td><td><span class="stage prec">臨床前</span></td><td>纖維化、癌症、基因組穩定性</td></tr>
+          <tr><td>UBCS039</td><td>SIRT6</td><td class="mod-act">活化劑（異位調控）</td><td><span class="stage prec">臨床前</span></td><td>急性肝衰竭、腎臟纖維化、腫瘤抑制</td></tr>
+          <tr><td>花青素（Cyanidin）</td><td>SIRT6</td><td class="mod-act">活化劑（天然）</td><td><span class="stage prec">臨床前</span></td><td>抗瓦伯格效應、抗氧化</td></tr>
+          <tr><td>褐藻醣膠（Fucoidan，囊葉藻）</td><td>SIRT6</td><td class="mod-act">活化劑（天然）</td><td><span class="stage prec">臨床前</span></td><td>早老症/抗衰老治療、老化</td></tr>
+          <tr><td>[[NMN]]</td><td>泛-SIRT（經由 NAD<sup>+</sup>）</td><td class="mod-ind">間接活化劑</td><td><span class="stage ct">臨床試驗（進行中）</span></td><td>健康老化、代謝疾病</td></tr>
+          <tr><td>[[Nicotinamide Riboside|NR（菸鹼醯胺核糖苷）]]</td><td>泛-SIRT（經由 NAD<sup>+</sup>）</td><td class="mod-ind">間接活化劑</td><td><span class="stage ct">臨床試驗（進行中）</span></td><td>健康老化、代謝疾病</td></tr>
+          <tr><td>CD38 抑制劑 78c</td><td>間接（NAD<sup>+</sup> 保存）</td><td class="mod-ind">抑制劑</td><td><span class="stage prec">臨床前</span></td><td>長壽 / 老化（雄性偏向訊號）</td></tr>
+          <tr><td>AAV-SIRT6</td><td>SIRT6</td><td class="mod-ind">基因治療</td><td><span class="stage prec">臨床前</span></td><td>早老症、老化相關缺陷</td></tr>
+          <tr><td>熱量限制 / 模擬物</td><td>泛-SIRT</td><td>生活型態 / 間接</td><td><span class="stage appr">已確立的生物學</span></td><td>老化、代謝健康</td></tr>
+          <tr><td>SIRT4</td><td>—</td><td class="mod-inh">尚無專一藥物</td><td>—</td><td>麩醯胺酸依賴煞車</td></tr>
+          <tr><td>SIRT5</td><td>—</td><td class="mod-inh">尚無專一藥物</td><td>—</td><td>去琥珀醯酶；菸鹼醯胺抗性；開放性標靶</td></tr>
+          <tr><td>SIRT7</td><td>—</td><td class="mod-inh">尚無專一藥物</td><td>—</td><td>核醣體生合成驅動者；尚無藥物</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card"><h3>階段圖例</h3><p style="color:var(--dim); font-size:.85rem;">
+        <b style="color:var(--amber)">臨床前</b> = 細胞/動物或研究工具 ·
+        <b style="color:var(--blue)">一期/二期</b> = 人體試驗（大致已完成，無關鍵性進展） ·
+        <b style="color:var(--teal)">臨床試驗（進行中）</b> = NAD<sup>+</sup> 前驅物策略 ·
+        <b style="color:var(--green)">已核准</b> = 為非 SIRT 適應症上市。</p></div>
+      <div class="card"><h3>選擇性注意事項</h3><p style="color:var(--dim); font-size:.85rem;">
+        早期的抑制劑（sirtinol、cambinol、tenovins、suramin）均為雙/多異構酶。真正具異構酶選擇性的異位調控劑
+        （EX-527→SIRT1、AGK2/SirReal2→SIRT2、MDL-800/801 與 UBCS039→SIRT6）都是近期且處於臨床前階段。</p></div>
+      <div class="card"><h3>情境決定用法</h3><p style="color:var(--dim); font-size:.85rem;">
+        當該異構酶具腫瘤抑制性時（HCC 中的 SIRT6、作為守護者的 SIRT3），活化劑有幫助；但當其致癌時
+        （胃/子宮內膜癌中的 SIRT1、SIRT3 放射抗性、SIRT6 化學抗藥性）則有害；抑制劑則面臨相反的風險。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PATTERNS -->
+<section id="patterns">
+  <div class="wrap">
+    <h2>貫穿性規律與最終結論</h2>
+    <div style="margin-top:18px;">
+      <div class="pattern"><b>活性氧與 DNA 修復是分界線。</b>
+        SIRT3/SIRT6 保護免受氧化損傷並修復 DNA——這<i>防止腫瘤起始</i>，但<i>造成</i>已確立疾病的治療抗性
+        （SIRT3 放射抗性、SIRT6 化學抗藥性）。</div>
+      <div class="pattern"><b>共用受質但方向相反。</b>
+        SIRT1/SIRT3 都會去乙醯化 [[p53]]——SIRT1 的抑制具促腫瘤性，在某些模型中 SIRT3 則被視為「致癌基因」途徑；
+        SIRT2 經由完全不同的複合物去乙醯化 Slug（致癌），但去乙醯化 BRCA1（抑制）。</div>
+      <div class="pattern"><b>區隔至關重要。</b>
+        粒線體三兄弟（SIRT3/4/5）主導代謝狀態，細胞核 SIRT1/6/7 主導同一套程式的轉錄——
+        細胞的「SIRT 輸出」是粒線體定點與細胞核轉錄門控的整合。</div>
+      <div class="pattern"><b>劑量與病程階段主導一切。</b>
+        CRC 的 SIRT1、心臟的 SIRT1 以及 SIRT7 的 H3K18ac 都展現相同原則：低/中度活性具保護性，
+        高/長期活化則轉為病理性；早期缺失有利於腫瘤起始，晚期缺失則對治療敏感化。</div>
+    </div>
+    <div class="caveat">
+      <b>注意事項。</b>每個 SIRT 都展現雙重/情境依賴的行為——無法單獨從單一 SIRT 解讀代謝表型。
+      多效性並非隨機：它是 <b>NAD<sup>+</sup> 可用度</b>、<b>次細胞區隔</b>、
+      <b>標靶位點選擇性</b>與<b>腫瘤演化階段</b>的產物。這就是為何 NAD<sup>+</sup> 耗竭正成為
+      MYC 高表現 / 麩醯胺酸依賴型癌症中的合成致死槓桿，也是為何 SIRT 調控必須具備情境意識。
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>資料來源</b></p>
+    <p>Wu et al., <i>Sirtuins in Health and Disease</i>, Signal Transduct Target Ther 2022 — DOI 10.1038/s41392-022-01257-8 · Giblin et al., <i>Sirtuins: Guardians of Mammalian Healthspan</i> (2014) · llm-wiki-jk 筆記：[[SIRT1]]–[[SIRT7]]、[[NAD+]]、[[HIF-1α]]、[[p53]]、[[Warburg Effect]]。</p>
+    <p>任務輸出：<code>src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md</code> · 知識圖譜：<code>graphify-out/graph.json</code>（76 個節點的 SIRT 子圖、101 條邊）。</p>
+    <p style="margin-top:10px; color:var(--mute);">所有圖表皆為客戶端渲染的 SVG/CSS——無外部依賴，可離線運作。</p>
+  </div>
+</footer>
+
+<script src="shared/pages-core.js"></script>
+<script src="shared/pages-svg.js"></script>
+<script src="shared/render-spectrum.js"></script>
+<script src="shared/render-matrix.js"></script>
+<script src="shared/render-network.js"></script>
+<script src="shared/context-tooltip.js"></script>
+<script>
+"use strict";
+
+/* ============================= DATA ============================= */
+
+const SIRTS = [
+ {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'Nucleus + cytosol', score:0,  range:2.6,
+  net:'典型雙刃劍',
+  rationale:'去乙醯化 p53、Ku70、FOXO（偏向修復而非凋亡），但也與 c-Myc/HIF-1α 合作並驅動化學抗藥性。劑量、腫瘤類型與病程階段決定其方向。'},
+ {id:'SIRT2', name:'SIRT2', color:'#9D8DF1', comp:'Cytosol', score:0.9, range:2.0,
+  net:'上皮抑制者，基底樣/白血病促進者',
+  rationale:'抑制側有 BRCA1–BARD1、IDH1、AKR1C1；促腫瘤側有 Slug、PGM K100、LMO2。'},
+ {id:'SIRT3', name:'SIRT3', color:'#58D68D', comp:'Mitochondria', score:1.5, range:1.7,
+  net:'大致具有保護性；氧化表型雙刃',
+  rationale:'透過 ROS↓ → HIF-1α 不穩定化產生抗瓦伯格效應，但低 ROS 會造成放射/化學抗藥性。對腫瘤起始是守護者，對已確立的腫瘤則是累贅。'},
+ {id:'SIRT4', name:'SIRT4', color:'#3EC9A7', comp:'Mitochondria', score:1.9, range:0.9,
+  net:'最一致地腫瘤抑制',
+  rationale:'GDH 的 ADP-核醣基化直接打擊麩醯胺酸依賴；其缺失一致地預示較差的存活率。代謝上「節儉」（脂質堆積、不良心臟作用）。'},
+ {id:'SIRT5', name:'SIRT5', color:'#F5A65B', comp:'Mitochondria', score:-1.2, range:1.3,
+  net:'具促腫瘤代謝偏向的去醯酶',
+  rationale:'在 HCC/CRC/NSCLC 中推動麩醯胺酸分解與糖解；LDHB 去琥珀醯化驅動自噬。在胰臟癌中預後良好；具有菸鹼醯胺抗性。'},
+ {id:'SIRT6', name:'SIRT6', color:'#5DA8FF', comp:'Nucleus (heterochromatin)', score:2.0, range:0.8,
+  net:'最一致地具保護性；僅在肺癌/HCC 中雙重',
+  rationale:'抗瓦伯格效應（HIF-1α 共抑制子）、促 DNA 損傷修復、抑制 survivin/c-MYC。化學抗藥性面貌：同一套節約程式讓已確立的腫瘤存活。'},
+ {id:'SIRT7', name:'SIRT7', color:'#F283B2', comp:'Nucleus → nucleolus', score:-1.4, range:1.1,
+  net:'促增殖的生合成驅動者',
+  rationale:'RNA 聚合酶 I → 核醣體生合成；p21 H3K18 去乙醯化 → 細胞週期。透過 EMT 啟動子上的同一 H3K18 標記展現抗轉移面貌。'},
+];
+
+const AXES = ['糖解 / 瓦伯格效應', '麩醯胺酸 / TCA 回補', '活性氧 / 氧化還原', '脂質恆定', '生長機制 / 細胞命運'];
+const sirtOrder = ['SIRT1','SIRT2','SIRT3','SIRT4','SIRT5','SIRT6','SIRT7'];
+
+/* value: +2 strong suppressor action, 0 neutral/absent, -2 strong pro-tumor; "D" = dual */
+const MATRIX = {
+ 'SIRT1':[['D','-1','+1','-1','-1'],
+          {txt:'PGC-1α 去乙醯化抑制糖解並驅動氧化磷酸化；在某些情境中與 c-Myc/HIF-1α 合作',
+           des:'糖解上雙重'},
+          {txt:'CRC 異型合子缺失 → c-Myc → 麩醯胺酸代謝 → 增殖', des:'麩醯胺酸上促腫瘤'},
+          {txt:'活化 Nrf2；FOXO→SOD2/過氧化氫酶；去乙醯化 p53/Ku70（抑制凋亡）', des:'氧化還原作用混合'},
+          {txt:'活化細胞質 AceCS1（脂肪酸合成）；調節 PPAR-γ', des:'促脂肪生成'},
+          {txt:'慢性活化下 p53/Ku70/FOXO 去乙醯化抑制凋亡', des:'促生長'}],
+ 'SIRT2':[['0','0','+1','0','-1'],
+          {txt:'透過 PGM K100 去乙醯化促進腫瘤糖解 → NADPH 導流（肺）', des:'促腫瘤'},
+          {txt:'本綜述中無直接麩醯胺酸節點', des:'中性'},
+          {txt:'保護神經細胞免受氧化損傷', des:'抑制者'},
+          {txt:'本綜述中無直接脂質節點', des:'中性'},
+          {txt:'微管蛋白/細胞週期調節；Slug 穩定化（致癌）、BRCA1（抑制）', des:'生長作用雙重'}],
+ 'SIRT3':[['+2','+1','+2','-1','-1'],
+          {txt:'MnSOD/SOD2 + IDH2 → ROS↓ → HIF-1α 不穩定化 → 抗瓦伯格效應', des:'抗瓦伯格效應'},
+          {txt:'刺激 PDC + AceCS2 → 氧化性 TCA 流', des:'促 TCA（偏抑制）'},
+          {txt:'SOD2/SOD1、IDH2、NADPH 回收；降低粒線體膜電位與 ROS', des:'抗氧化但造成放射抗性'},
+          {txt:'ACC1 上調 → 從頭脂肪生成 → 子宮頸癌侵襲', des:'促脂肪生成'},
+          {txt:'Ku70–Bax 穩定化 → 膠質瘤存活；GST-π1↓ 使 HCC 敏感化', des:'生長作用混合'}],
+ 'SIRT4':[['0','+2','-1','-1','+1'],
+          {txt:'本綜述中無直接糖解節點', des:'中性'},
+          {txt:'GDH 單 ADP-核醣基化 → 限制麩胺酸→α-KG → 限制回補碳源', des:'抗麩醯胺酸依賴'},
+          {txt:'透過 ADP-核醣基化抑制 MnSOD', des:'促氧化（輕微）'},
+          {txt:'抑制肝臟脂肪酸氧化（MTPα）→ 脂質堆積', des:'促脂質儲存'},
+          {txt:'p16/p21 上調；CyclinB1/Cdc2/Cdc25c 抑制 → HCC 凋亡；恢復 E-cadherin', des:'抗生長'}],
+ 'SIRT5':[['-2','-2','+1','0','0'],
+          {txt:'在 CRC/HCC/NSCLC 中具促腫瘤性 → 重程式化為糖解', des:'促糖解'},
+          {txt:'增強麩醯胺酸分解；LDHB 去琥珀醯化 → 過度活化的自噬', des:'促麩醯胺酸分解'},
+          {txt:'SOD1/IDH2 去琥珀醯化 → 抗氧化防禦', des:'抑制者'},
+          {txt:'本綜述中無直接脂質節點', des:'中性'},
+          {txt:'本綜述中無直接生長節點', des:'中性'}],
+ 'SIRT6':[['+2','0','+1','+2','+2'],
+          {txt:'共抑制 HIF-1α；抑制 GLUTs、HK2、ERK1/2 啟動子 → 抗瓦伯格效應', des:'抗瓦伯格效應'},
+          {txt:'本綜述中無直接麩醯胺酸節點', des:'中性'},
+          {txt:'上調 MnSOD、過氧化氫酶、Nrf2 訊號', des:'抗氧化'},
+          {txt:'SREBP/ChREBP 啟動子上的 H3 去乙醯化 → 抑制從頭脂肪生成', des:'抗脂肪生成'},
+          {txt:'抑制 survivin、c-MYC、HIF-1α；促 DNA 損傷修復（CHD4）', des:'抗生長（治療中出現化學抗藥性面貌）'}],
+ 'SIRT7':[['0','0','0','0','-2'],
+          {txt:'本綜述中無直接糖解節點', des:'中性'},
+          {txt:'本綜述中無直接麩醯胺酸節點', des:'中性'},
+          {txt:'本綜述中無直接氧化還原節點', des:'中性'},
+          {txt:'本綜述中無直接脂質節點', des:'中性'},
+          {txt:'RNA 聚合酶 I → 核醣體生合成；H3K18 去乙醯化 → p21 抑制 → 增殖', des:'促生長'}],
+};
+/* descriptions per (sirt,axis) — flatten for tooltip */
+const MECH = {};
+sirtOrder.forEach(s=>{ MECH[s]=[]; for(let i=0;i<5;i++){ MECH[s].push(MATRIX[s][i+1]); } });
+
+/* ============================= SPECTRUM CHART ============================= */
+renderSpectrum('spectrumSvg', SIRTS, {top:'ONCOGENIC / pro-tumor', center:'center = fully context-dependent', left:'← oncogenic', right:'tumor-suppressive →'});
+
+/* ============================= COMPARTMENT MAP ============================= */
+(function compartment(){
+  const svg = document.getElementById('compSvg');
+  const W=1000, H=560;
+  // nucleus
+  const nuc='<ellipse cx="500" cy="250" rx="300" ry="210" fill="#191934" stroke="#2a2a4e" stroke-width="2"/>'+
+            '<text x="500" y="70" text-anchor="middle" fill="#9a9ab0" font-size="13" letter-spacing="2">細胞核</text>'+
+            '<text x="500" y="86" text-anchor="middle" fill="#6b6b85" font-size="11">轉錄門控 — 調控代謝程式的轉錄</text>'+
+            // nucleolus
+            '<circle cx="500" cy="150" r="52" fill="#1f1f3a" stroke="#F283B2" stroke-width="1.5" stroke-dasharray="4 3"/>'+
+            '<text x="500" y="146" text-anchor="middle" fill="#F283B2" font-size="13" font-weight="700">SIRT7</text>'+
+            '<text x="500" y="162" text-anchor="middle" fill="#6b6b85" font-size="9">核醣體生合成</text>';
+  // SIRT6 (heterochromatin)
+  const s6='<rect x="330" y="180" width="130" height="86" rx="10" fill="#1a1a3a" stroke="#5DA8FF" stroke-width="1.5"/>'+
+           '<text x="395" y="208" text-anchor="middle" fill="#5DA8FF" font-size="14" font-weight="700">SIRT6</text>'+
+           '<text x="395" y="226" text-anchor="middle" fill="#9a9ab0" font-size="9">HIF-1α、c-MYC、survivin</text>'+
+           '<text x="395" y="240" text-anchor="middle" fill="#9a9ab0" font-size="9">SREBP、ChREBP、DDR</text>'+
+           '<text x="395" y="254" text-anchor="middle" fill="#6b6b85" font-size="8">抗瓦伯格效應 · 抗脂肪生成</text>';
+  // SIRT1 (euchromatin)
+  const s1='<rect x="540" y="180" width="130" height="86" rx="10" fill="#1a1a3a" stroke="#E8A33D" stroke-width="1.5"/>'+
+           '<text x="605" y="208" text-anchor="middle" fill="#E8A33D" font-size="14" font-weight="700">SIRT1</text>'+
+           '<text x="605" y="226" text-anchor="middle" fill="#9a9ab0" font-size="9">p53、Ku70、FOXO、HIF-1α</text>'+
+           '<text x="605" y="240" text-anchor="middle" fill="#9a9ab0" font-size="9">PGC-1α、c-Myc、NF-κB</text>'+
+           '<text x="605" y="254" text-anchor="middle" fill="#6b6b85" font-size="8">雙刃 · 情境依賴</text>';
+  // cytoplasm (cell membrane)
+  const cyto='<rect x="120" y="30" width="760" height="500" rx="30" fill="none" stroke="#2a2a4e" stroke-width="2"/>'+
+             '<text x="150" y="52" fill="#9a9ab0" font-size="12" letter-spacing="2">細胞質</text>';
+  // SIRT2 in cytoplasm
+  const s2='<rect x="150" y="320" width="130" height="86" rx="10" fill="#1a1a3a" stroke="#9D8DF1" stroke-width="1.5"/>'+
+           '<text x="215" y="348" text-anchor="middle" fill="#9D8DF1" font-size="14" font-weight="700">SIRT2</text>'+
+           '<text x="215" y="366" text-anchor="middle" fill="#9a9ab0" font-size="9">tubulin · Slug · PGM</text>'+
+           '<text x="215" y="380" text-anchor="middle" fill="#9a9ab0" font-size="9">BRCA1 · IDH1</text>'+
+           '<text x="215" y="394" text-anchor="middle" fill="#6b6b85" font-size="8">細胞骨架與細胞週期</text>';
+  // mitochondria
+  const mito='<rect x="700" y="360" width="240" height="130" rx="14" fill="#191934" stroke="#2a2a4e" stroke-width="2"/>'+
+             '<text x="820" y="384" text-anchor="middle" fill="#9a9ab0" font-size="12" letter-spacing="2">粒線體</text>'+
+             '<text x="820" y="400" text-anchor="middle" fill="#6b6b85" font-size="10">代謝定點 — TCA · 麩醯胺酸 · 氧化還原</text>';
+  // mito SIRTs
+  const m3='<circle cx="755" cy="450" r="24" fill="#1a1a3a" stroke="#58D68D" stroke-width="1.5"/><text x="755" y="455" text-anchor="middle" fill="#58D68D" font-size="13" font-weight="700">S3</text>';
+  const m4='<circle cx="820" cy="450" r="24" fill="#1a1a3a" stroke="#3EC9A7" stroke-width="1.5"/><text x="820" y="455" text-anchor="middle" fill="#3EC9A7" font-size="13" font-weight="700">S4</text>';
+  const m5='<circle cx="885" cy="450" r="24" fill="#1a1a3a" stroke="#F5A65B" stroke-width="1.5"/><text x="885" y="455" text-anchor="middle" fill="#F5A65B" font-size="13" font-weight="700">S5</text>';
+  // notes under mito
+  const mnote='<text x="820" y="476" text-anchor="middle" fill="#6b6b85" font-size="9">S3 氧化還原/PDC · S4 GDH（麩醯胺酸煞車）</text>'+
+              '<text x="820" y="489" text-anchor="middle" fill="#6b6b85" font-size="9">· S5 去琥珀醯酶（麩醯胺酸分解）</text>';
+  // footer legend
+  const foot='<text x="500" y="535" text-anchor="middle" fill="#9a9ab0" font-size="11">粒線體三兄弟（S3/S4/S5）= 代謝定點 &nbsp;·&nbsp; 細胞核三兄弟（S1/S6/S7）= 轉錄門控</text>';
+  svg.innerHTML = nuc + s6 + s1 + cyto + s2 + mito + m3 + m4 + m5 + mnote + foot;
+})();
+
+/* ============================= MATRIX ============================= */
+renderMatrix('matrixSvg', AXES, sirtOrder, SIRTS, MATRIX, MECH, {W:920, left:92, cw:150, labelFontSize:'12', cellFontSize:'18', cellPadX:8, cellPadW:16});
+
+/* ============================= KNOWLEDGE GRAPH ============================= */
+(function network(){
+  const DATA = { nodes: [
+    {id:"sirt1",label:"SIRT1",degree:19,community:"SIRT1"},
+    {id:"sirt2",label:"SIRT2",degree:10,community:"SIRT2"},
+    {id:"sirt3",label:"SIRT3",degree:17,community:"SIRT3"},
+    {id:"sirt4",label:"SIRT4",degree:11,community:"SIRT4"},
+    {id:"sirt5",label:"SIRT5",degree:4,community:"SIRT5"},
+    {id:"sirt6",label:"SIRT6",degree:13,community:"SIRT6"},
+    {id:"sirt7",label:"SIRT7",degree:7,community:"SIRT7"},
+    {id:"glycolysis_warburg_effect",label:"糖解（瓦伯格效應）",degree:1,community:"SIRT6"},
+    {id:"glycolysis",label:"糖解",degree:2,community:"p53"},
+    {id:"glutaminolysis",label:"麩醯胺酸分解",degree:1,community:"SIRT5"},
+    {id:"glutamine_metabolism",label:"麩醯胺酸代謝",degree:1,community:"SIRT4"},
+    {id:"gdh_glutamate_dehydrogenase",label:"GDH（麩胺酸脫氫酶）",degree:1,community:"SIRT4"},
+    {id:"glutamate_dehydrogenase",label:"麩胺酸脫氫酶",degree:1,community:"SIRT4"},
+    {id:"hif_1",label:"HIF-1α",degree:3,community:"Cancer Stem Cells"},
+    {id:"hif_2",label:"HIF-2α",degree:1,community:"SIRT1"},
+    {id:"pgc_1",label:"PGC-1α",degree:1,community:"AMPK"},
+    {id:"pyruvate_dehydrogenase",label:"丙酮酸脫氫酶",degree:1,community:"SIRT4"},
+    {id:"pyruvate_dehydrogenase_e1",label:"PDH E1α",degree:1,community:"SIRT3"},
+    {id:"pyruvate_dehydrogenase_pdh",label:"丙酮酸脫氫酶（PDH）",degree:1,community:"SIRT3"},
+    {id:"sod2",label:"SOD2",degree:2,community:"Mitochondrial ROS"},
+    {id:"mnsod",label:"MnSOD",degree:3,community:"Peroxynitrite"},
+    {id:"mnsod_k68_k122",label:"MnSOD（K68、K122）",degree:1,community:"SIRT3"},
+    {id:"idh2",label:"IDH2",degree:1,community:"SIRT3"},
+    {id:"reactive_oxygen_species",label:"活性氧",degree:2,community:"Reactive Oxygen Species"},
+    {id:"mitochondrial_ros",label:"粒線體活性氧",degree:4,community:"Mitochondrial ROS"},
+    {id:"srebp_1c",label:"SREBP-1c",degree:2,community:"Atherosclerosis"},
+    {id:"srebp2",label:"SREBP2",degree:1,community:"SIRT6"},
+    {id:"chrebp",label:"ChREBP",degree:2,community:"SIRT6"},
+    {id:"acecs1_cytoplasmic_acetyl_coa_synthetase",label:"AceCS1（細胞質）",degree:1,community:"SIRT1"},
+    {id:"acecs2_mitochondrial_acetyl_coa_synthetase",label:"AceCS2（粒線體）",degree:1,community:"SIRT3"},
+    {id:"foxo1",label:"FOXO1",degree:4,community:"FOXO1"},
+    {id:"foxo3a",label:"FOXO3a",degree:3,community:"SIRT2"},
+    {id:"p53",label:"p53",degree:5,community:"p53"},
+    {id:"ku70",label:"Ku70",degree:1,community:"SIRT1"},
+    {id:"nf_b",label:"NF-κB",degree:9,community:"NF-κB"},
+    {id:"rela_p65_nf_b_subunit",label:"RelA/p65（NF-κB）",degree:1,community:"SIRT1"},
+    {id:"survivin",label:"Survivin",degree:2,community:"Caspase-3"},
+    {id:"c_myc",label:"c-Myc",degree:1,community:"Cellular Reprogramming"},
+    {id:"n_myc_and_c_myc",label:"N-Myc 與 c-Myc",degree:1,community:"SIRT2"},
+    {id:"slug_emt_transcription_factor",label:"Slug（EMT）",degree:1,community:"SIRT2"},
+    {id:"brca1",label:"BRCA1",degree:1,community:"SIRT2"},
+    {id:"ldhb",label:"LDHB",degree:1,community:"SIRT5"},
+    {id:"rna_polymerase_i_transcription",label:"RNA 聚合酶 I 轉錄",degree:1,community:"SIRT7"},
+    {id:"rrna_transcription",label:"rRNA 轉錄",degree:1,community:"SIRT7"},
+    {id:"h3k18",label:"H3K18",degree:1,community:"SIRT7"},
+    {id:"h3k18ac",label:"H3K18ac",degree:1,community:"SIRT7"},
+    {id:"h4k16",label:"H4K16",degree:1,community:"SIRT1"},
+    {id:"p21",label:"p21",degree:0,community:"Therapy-Induced Senescence"},
+    {id:"p16_and_p21",label:"p16 與 p21",degree:1,community:"SIRT4"},
+    {id:"mtp_fatty_acid_oxidation",label:"MTPα（脂肪酸氧化）",degree:1,community:"SIRT4"},
+    {id:"mtp_mitochondrial_trifunctional_protein",label:"MTPα（三功能蛋白）",degree:1,community:"SIRT4"},
+    {id:"cancer",label:"癌症",degree:8,community:"Cancer"},
+    {id:"autophagy",label:"自噬",degree:4,community:"Autophagy"},
+    {id:"senescence",label:"細胞衰老",degree:5,community:"Senescence"},
+    {id:"sasp",label:"SASP",degree:7,community:"SASP"},
+    {id:"nad",label:"NAD+",degree:1,community:"NAD+"},
+    {id:"nicotinamide",label:"菸鹼醯胺",degree:2,community:"CD38"},
+    {id:"apoptosis",label:"細胞凋亡",degree:1,community:"Apoptosis"},
+    {id:"atm_chk2_dna_damage_repair",label:"ATM-Chk2 修復",degree:1,community:"SIRT3"},
+    {id:"dna_repair",label:"DNA 修復",degree:0,community:"Sirtuins"},
+    {id:"homologous_recombination",label:"同源重組",degree:1,community:"SIRT1"},
+    {id:"mitochondria",label:"粒線體",degree:4,community:"Reactive Oxygen Species"},
+    {id:"nucleus_heterochromatin",label:"細胞核（異染色質）",degree:1,community:"SIRT6"},
+    {id:"nucleolus",label:"核仁",degree:1,community:"SIRT7"},
+    {id:"cytoplasm",label:"細胞質",degree:1,community:"SIRT2"},
+    {id:"phosphoglycerate_mutase_k100",label:"PGM（K100）",degree:1,community:"SIRT2"},
+    {id:"acc1",label:"ACC1",degree:1,community:"SIRT3"},
+    {id:"acc1_upregulation_driven_de_novo_lipogenesis",label:"ACC1 驅動的脂肪生成",degree:1,community:"SIRT3"},
+    {id:"idh1_repressing_crc_migration",label:"IDH1（CRC 遷移）",degree:1,community:"SIRT2"},
+    {id:"sirt1_via_glutamine_metabolism",label:"SIRT1（麩醯胺酸）",degree:1,community:"SIRT4"},
+    {id:"akr1c1_inhibiting_stat3_transactivation",label:"AKR1C1（STAT3）",degree:1,community:"SIRT2"},
+    {id:"p27_cdk2_deacetylation",label:"p27/CDK2 去乙醯化",degree:1,community:"SIRT1"},
+    {id:"e_cadherin_promotion",label:"促進 E-cadherin",degree:1,community:"SIRT4"},
+    {id:"twist_downregulation",label:"Twist 下調",degree:1,community:"SIRT3"},
+    {id:"ku70_bax",label:"Ku70–Bax",degree:1,community:"SIRT3"},
+    {id:"jak2_stat3_pathway",label:"JAK2/STAT3 途徑",degree:1,community:"SIRT6"}
+  ],
+  edges: [
+    {"from":"sasp","to":"sirt1","label":"is_repressed_by"},{"from":"autophagy","to":"cancer","label":"is_pro_survival_in"},
+    {"from":"autophagy","to":"sasp","label":"suppresses"},{"from":"autophagy","to":"senescence","label":"is_impaired_in"},
+    {"from":"senescence","to":"sasp","label":"produces"},{"from":"senescence","to":"cancer","label":"can_promote"},
+    {"from":"p53","to":"cancer","label":"is_mutated_in"},{"from":"p53","to":"sasp","label":"restrains"},
+    {"from":"cancer","to":"apoptosis","label":"evades"},{"from":"cancer","to":"nf_b","label":"is_driven_by"},
+    {"from":"cancer","to":"p53","label":"is_suppressed_by"},{"from":"cancer","to":"senescence","label":"is_suppressed_by"},
+    {"from":"nad","to":"glycolysis","label":"required_for"},{"from":"mitochondria","to":"reactive_oxygen_species","label":"primary_source_of"},
+    {"from":"mitochondrial_ros","to":"autophagy","label":"activates"},{"from":"mitochondrial_ros","to":"nf_b","label":"stimulates"},
+    {"from":"sirt1","to":"pgc_1","label":"deacetylates_and_activates"},{"from":"sirt1","to":"h4k16","label":"deacetylates"},
+    {"from":"sirt1","to":"senescence","label":"prevents"},{"from":"sirt1","to":"p53","label":"deacetylates"},
+    {"from":"sirt1","to":"ku70","label":"deacetylates"},{"from":"sirt1","to":"foxo1","label":"positive_feedback"},
+    {"from":"sirt1","to":"foxo3a","label":"deacetylates"},{"from":"sirt1","to":"rela_p65_nf_b_subunit","label":"deacetylates"},
+    {"from":"sirt1","to":"acecs1_cytoplasmic_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
+    {"from":"sirt1","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt1","to":"hif_1","label":"deacetylates"},
+    {"from":"sirt1","to":"hif_2","label":"deacetylates"},{"from":"sirt1","to":"p27_cdk2_deacetylation","label":"promotes_T-ALL_via"},
+    {"from":"sirt1","to":"homologous_recombination","label":"promotes"},{"from":"sirt1","to":"srebp_1c","label":"deacetylates"},
+    {"from":"sirt1","to":"chrebp","label":"deacetylates"},
+    {"from":"sirt3","to":"sod2","label":"deacetylates"},{"from":"sirt3","to":"mitochondria","label":"localizes_to"},
+    {"from":"sirt3","to":"acecs2_mitochondrial_acetyl_coa_synthetase","label":"deacetylates_and_activates"},
+    {"from":"sirt3","to":"mnsod_k68_k122","label":"deacetylates"},{"from":"sirt3","to":"mitochondrial_ros","label":"reduces"},
+    {"from":"sirt3","to":"hif_1","label":"inhibits"},{"from":"sirt3","to":"acc1","label":"deacetylates"},
+    {"from":"sirt3","to":"foxo1","label":"deacetylates"},{"from":"sirt3","to":"pyruvate_dehydrogenase_e1","label":"deacetylates"},
+    {"from":"sirt3","to":"foxo3a","label":"activates"},{"from":"sirt3","to":"idh2","label":"deacetylates_and_activates"},
+    {"from":"sirt3","to":"pyruvate_dehydrogenase_pdh","label":"maintains_activity_of"},
+    {"from":"sirt3","to":"atm_chk2_dna_damage_repair","label":"radioresistance_via"},
+    {"from":"sirt3","to":"twist_downregulation","label":"suppresses_metastasis_via"},
+    {"from":"sirt3","to":"ku70_bax","label":"stabilizes_in_glioma"},
+    {"from":"sirt3","to":"acc1_upregulation_driven_de_novo_lipogenesis","label":"cervical_cancer_via"},
+    {"from":"sirt3","to":"mnsod","label":"activates"},{"from":"sod2","to":"mitochondrial_ros","label":"reduces"},
+    {"from":"nicotinamide","to":"sirt1","label":"binds_C_pocket"},
+    {"from":"sirt6","to":"nf_b","label":"proteasomal_degradation"},{"from":"sirt6","to":"nucleus_heterochromatin","label":"localizes_to"},
+    {"from":"sirt6","to":"hif_1","label":"represses"},{"from":"sirt6","to":"glycolysis_warburg_effect","label":"suppresses"},
+    {"from":"sirt6","to":"foxo1","label":"deacetylates"},{"from":"sirt6","to":"mnsod","label":"upregulates"},
+    {"from":"sirt6","to":"jak2_stat3_pathway","label":"inhibits"},{"from":"sirt6","to":"srebp_1c","label":"represses_lipogenesis"},
+    {"from":"sirt6","to":"srebp2","label":"represses_lipogenesis"},{"from":"sirt6","to":"glycolysis","label":"suppresses"},
+    {"from":"sirt6","to":"c_myc","label":"inhibits_activity"},{"from":"sirt6","to":"survivin","label":"represses_expression"},
+    {"from":"sirt6","to":"chrebp","label":"deacetylates"},
+    {"from":"sirt2","to":"cytoplasm","label":"localizes_to"},{"from":"sirt2","to":"nf_b","label":"deacetylates"},
+    {"from":"sirt2","to":"brca1","label":"deacetylates"},{"from":"sirt2","to":"foxo1","label":"deacetylates"},
+    {"from":"sirt2","to":"foxo3a","label":"deacetylates"},{"from":"sirt2","to":"n_myc_and_c_myc","label":"enhances_stability"},
+    {"from":"sirt2","to":"akr1c1_inhibiting_stat3_transactivation","label":"deacetylates"},
+    {"from":"sirt2","to":"idh1_repressing_crc_migration","label":"deacetylates"},
+    {"from":"sirt2","to":"slug_emt_transcription_factor","label":"stabilizes"},
+    {"from":"sirt2","to":"phosphoglycerate_mutase_k100","label":"deacetylates"},{"from":"survivin","to":"cancer","label":"overexpressed_in"},
+    {"from":"sirt4","to":"mitochondria","label":"localizes_to"},{"from":"sirt4","to":"gdh_glutamate_dehydrogenase","label":"ADP-ribosylates_inhibits"},
+    {"from":"sirt4","to":"glutamate_dehydrogenase","label":"inhibits"},{"from":"sirt4","to":"glutamine_metabolism","label":"suppresses"},
+    {"from":"sirt4","to":"mnsod","label":"inhibits"},{"from":"sirt4","to":"mtp_fatty_acid_oxidation","label":"inhibits"},
+    {"from":"sirt4","to":"mtp_mitochondrial_trifunctional_protein","label":"inhibits"},
+    {"from":"sirt4","to":"pyruvate_dehydrogenase","label":"lipoamidase"},{"from":"sirt4","to":"e_cadherin_promotion","label":"suppresses_EMT_via"},
+    {"from":"sirt4","to":"sirt1_via_glutamine_metabolism","label":"negatively_regulates"},
+    {"from":"sirt4","to":"p16_and_p21","label":"upregulates"},
+    {"from":"sirt5","to":"mitochondria","label":"localizes_to"},{"from":"sirt5","to":"ldhb","label":"deacetylates"},
+    {"from":"sirt5","to":"nicotinamide","label":"resists_inhibition"},{"from":"sirt5","to":"glutaminolysis","label":"enhances"},
+    {"from":"sirt7","to":"nucleolus","label":"localizes_to"},{"from":"sirt7","to":"rna_polymerase_i_transcription","label":"activates"},
+    {"from":"sirt7","to":"rrna_transcription","label":"regulates"},{"from":"sirt7","to":"h3k18","label":"deacetylates"},
+    {"from":"sirt7","to":"nf_b","label":"inhibits_translocation"},{"from":"sirt7","to":"h3k18ac","label":"deacetylates"},
+    {"from":"sirt7","to":"sirt1","label":"inhibits_activation"}
+  ]};
+
+  const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
+  function nodeColor(id, community){
+    if (sirtColor[id]) return sirtColor[id];
+    if (/glycol|warburg|pyruvate|nad\b/.test(id)) return '#F5A65B';
+    if (/glutamine|glutamin|gdh|ldhb/.test(id)) return '#9D8DF1';
+    if (/ros|sod|mnsod|idh2|reactive/.test(id)) return '#58D68D';
+    if (/srebp|chrebp|acecs|acc1|mtp|lipid/.test(id)) return '#E8C65B';
+    if (/rna_pol|rrna|h3k18|nucleolus|p21|p16|survivin|myc|slug|brca1|p27|cdk2|ribosome/.test(id)) return '#F283B2';
+    if (/nucleus|cytoplasm|mitochondria/.test(id)) return '#8fb7d9';
+    if (/hif/.test(id)) return '#5DA8FF';
+    return '#8b8bb0';
+  }
+
+  const legendDefs = [['sirt1','SIRT 樞紐'],['#F5A65B','糖解 / NAD'],['#9D8DF1','麩醯胺酸 / GDH'],['#58D68D','活性氧 / 氧化還原'],['#E8C65B','脂質 / 脂肪生成'],['#F283B2','生長 / 核醣體 / 細胞命運'],['#5DA8FF','HIF / 缺氧'],['#8fb7d9','細胞區隔'],['#8b8bb0','其他']];
+  renderNetwork('netSvg', DATA, nodeColor, legendDefs);
+})();
+
+/* ============================= THERAPEUTICS ============================= */
+(function therapeutics(){
+  const svg = document.getElementById('theraSvg');
+  const W=1180, H=480, left=180, top=70, plotW=760, plotH=300;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const stages = [
+    {y:0, label:'臨床前'},
+    {y:1, label:'一期/二期'},
+    {y:2, label:'臨床試驗（進行中）'},
+    {y:3, label:'已核准 / 確立'}
+  ];
+  // x categories
+  const targets = ['SIRT1','SIRT1/2','SIRT2','SIRT3','SIRT6','泛-SIRT / NAD+','SIRT4/5/7（尚無藥物）'];
+  const agents = [
+    {t:'SIRT1', s:0, m:'act', n:'白藜蘆醇、紫檀芪、SRT1720（STAC）', c:0},
+    {t:'SIRT1', s:1, m:'act', n:'SRT2104（一期/二期已完成）', c:1},
+    {t:'SIRT1/2', s:0, m:'inh', n:'Sirtinol、Salermide、Cambinol、Tenovins、Suramin', c:2},
+    {t:'SIRT1', s:1, m:'inh', n:'EX-527（Selisistat）— 亨丁頓舞蹈症一期/二期', c:3},
+    {t:'SIRT2', s:0, m:'inh', n:'AGK2、AK-7、SirReal2', c:4},
+    {t:'SIRT3', s:0, m:'act', n:'和厚朴酚、二氫楊梅素、C12、2-APQC、SKLB-11A、SZC-6', c:5},
+    {t:'SIRT6', s:0, m:'act', n:'MDL-800、MDL-801、UBCS039、花青素、褐藻醣膠', c:6},
+    {t:'泛-SIRT / NAD+', s:2, m:'ind', n:'NMN、NR — 進行中的臨床試驗', c:7},
+    {t:'泛-SIRT / NAD+', s:0, m:'ind', n:'CD38 抑制劑 78c（NAD+ 保存）', c:8},
+    {t:'SIRT6', s:0, m:'ind', n:'AAV-SIRT6 基因治療', c:9},
+    {t:'SIRT4/5/7（尚無藥物）', s:0, m:'inh', n:'尚無專一藥物 — 未開發標靶', c:10},
+  ];
+  // draw axes
+  stages.forEach((st,i)=>{
+    const y = top + plotH - (i+0.5)*(plotH/4);
+    svg.innerHTML += `<line x1="${left}" y1="${y}" x2="${left+plotW}" y2="${y}" stroke="#23233f" stroke-width="1"/>`+
+      `<text x="${left+plotW+8}" y="${y+4}" fill="#9a9ab0" font-size="11">${st.label}</text>`;
+  });
+  targets.forEach((t,i)=>{
+    const x = left + (i+0.5)*(plotW/targets.length);
+    svg.innerHTML += `<text x="${x}" y="${top-40}" text-anchor="middle" fill="#9a9ab0" font-size="11.5" font-weight="600">${t}</text>`;
+  });
+  // bubbles
+  agents.forEach(a=>{
+    const xi = targets.indexOf(a.t);
+    const x = left + (xi+0.5)*(plotW/targets.length);
+    const y = top + plotH - (a.s+0.5)*(plotH/4);
+    const col = a.m==='act' ? '#58D68D' : a.m==='inh' ? '#E4575E' : '#5DA8FF';
+    const r = 16 + (a.n.length>25 ? 8 : 0);
+    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.style.cursor='pointer';
+    const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c.setAttribute('cx',x); c.setAttribute('cy',y); c.setAttribute('r',r);
+    c.setAttribute('fill',col); c.setAttribute('fill-opacity',0.28); c.setAttribute('stroke',col); c.setAttribute('stroke-width','1.5');
+    const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t.setAttribute('x',x); t.setAttribute('y',y+3.5); t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','10');
+    t.setAttribute('fill','#0b1220'); t.setAttribute('font-weight','700');
+    t.textContent = a.m.toUpperCase();
+    g.appendChild(c); g.appendChild(t);
+    g.addEventListener('mouseenter',()=>showTip(`<b style="color:${col}">${a.n}</b><br><span style="color:var(--dim)">標靶 ${a.t} · ${a.m.toUpperCase()} · 階段 ${stages[a.s].label}</span>`));
+    g.addEventListener('mousemove', moveTip);
+    g.addEventListener('mouseleave', hideTip);
+    g.addEventListener('touchstart', ev=>tipTap(ev, `<b style="color:${col}">${a.n}</b><br><span style="color:var(--dim)">標靶 ${a.t} · ${a.m.toUpperCase()} · 階段 ${stages[a.s].label}</span>`));
+    svg.appendChild(g);
+  });
+  const caption = document.createElementNS('http://www.w3.org/2000/svg','text');
+  caption.setAttribute('x', left); caption.setAttribute('y', top+plotH+34);
+  caption.setAttribute('fill', '#6b6b85'); caption.setAttribute('font-size', '11');
+  caption.innerHTML = '僅有以 SIRT1 為標的的藥物進入人體試驗——最先進的臨床槓桿是間接 NAD<sup>+</sup> 補充（NMN / NR、CD38 抑制）。';
+  svg.appendChild(caption);
+})();
+
+['spectrumSvg','compSvg','matrixSvg','theraSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+# llm-wiki-jk — Biomedical Knowledge Graph
+
+> An interactive knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Built from an Obsidian-style biomedical wiki; content is available in English and Traditional Chinese (中文).
+
+## Interactive Graph
+
+- [Graph View](https://graph.johnnykuo.com/): Interactive 3D knowledge-graph explorer of the llm-wiki-jk biomedical wiki, with entity tooltips and an analysis/chat panel (EN / 中文).
+
+## Articles (English)
+
+- [SIRT Disease Atlas](https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html): Sirtuins (SIRT1–SIRT7) in health and disease, examined complication by complication across cancer, metabolic, cardiovascular, and neurodegenerative contexts.
+- [SIRT Pleiotropy Explorer](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html): The seven mammalian sirtuins as compartmentalized, context-dependent metabolic rheostats in tumor cell metabolism and therapeutic targeting.
+- [(Preclinical) Ivermectin × Fenbendazole](https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html): Complementary anticancer mechanisms of ivermectin and fenbendazole and their connections to sirtuin biology (preclinical evidence).
+- [(Speculative) Adrenochrome MB/AG Protocol](https://graph.johnnykuo.com/pages/adrenochrome-protocol.html): Interactive explorer of a speculative adrenochrome methylene-blue / ascorbate-glutathione protocol — clearly labeled as speculative, not medical advice.
+
+## Articles (Traditional Chinese / 中文)
+
+- [SIRT 疾病圖譜](https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html): 健康與疾病中的 SIRT，逐併發症檢視。
+- [SIRT 多效性探索器](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html): 腫瘤代謝與治療中的 SIRT 多效性角色。
+- [（臨床前）伊維菌素 × 芬苯達唑](https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html): 互補的抗癌機制與 Sirtuin 連結（臨床前證據）。
+- [（推測性）Adrenochrome MB/AG 方案](https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html): 互動式解說器 — 推測性方案，非醫療建議。
+
+## Node Analysis (Knowledge Graph)
+
+The graph holds [2,512 concept nodes and 3,649 links](https://graph.johnnykuo.com/), grouped into 371 communities (most small; the largest cluster around the seven mammalian sirtuins). Node importance below is ranked by degree, PageRank (PR), and betweenness centrality.
+
+### Graph statistics
+- Nodes: 2,512 · Links: 3,649 · Communities: 371 · All nodes are `concept` type.
+- Largest communities by member count: SIRT1 (124), SIRT6 (69), SIRT3 (57), SIRT2 (53), Mitohormesis (43), MOMP (38), COMT (36), Cancer (35), Senescence (33), Resveratrol (33), Adrenochrome (33), Caspase-3 (32), Acid ceramidase (31), SIRT5 (31), Nicotinamide Riboside (30), p53 (30), SIRT7 (29), Val158Met (29).
+
+### Central hubs (highest degree / PageRank)
+- **SIRT1** (deg 216, PR 0.0040) — Overexpression of the NAD-dependent deacetylase sir-2.1, the C. elegans homolog of SIRT1, extends lifespan in a manner that requires activation of the mitochond…
+- **SIRT6** (deg 117, PR 0.0017) — SIRT6 attenuates NF-kB signaling via histone H3 lysine 9 (H3K9) deacetylation at the chromatin of NF-kB target gene promoters, which are related to apoptosis an…
+- **SIRT3** (deg 108, PR 0.0005) — SIRT3, a mitochondrial sirtuin whose activity depends on NAD+, weakens antioxidant defenses and mitochondrial detoxification when NAD+ is depleted during aging.…
+- **SASP** (deg 101, PR 0.0073) — Acetate is converted intracellularly into acetyl-CoA by ACSS2 and is not membrane-permeable acetyl-CoA itself. Acetate supplementation increases global nuclear…
+- **SIRT2** (deg 81, PR 0.0011) — SIRT2 is an NAD+-dependent deacetylase of alpha-tubulin lysine-40 (K40); its knockdown causes tubulin hyperacetylation (North et al., Mol Cell 2003; PMID 125712…
+- **Cancer** (deg 73, PR 0.0036) — Aspirin not only reduces inflammation, a hallmark of aging, it also reduces the risk of cardiovascular disease, thrombosis and cancer; low-dose aspirin prevents…
+- **Adrenochrome** (deg 60, PR 0.0051) — Adrenochrome is a cyclic amino ketone pigment classified as a member of indoles. It bears the core indoline-5,6-dione scaffold, a fused bicyclic ring system der…
+- **COMT** (deg 59, PR 0.0032) — Catechol-O-methyltransferase (COMT) is one of the principal enzymes that clear adrenaline, the catecholamine precursor of adrenochrome. Together with monoamine…
+- **Nicotinamide Riboside** (deg 57, PR 0.0018) — Restoring NAD+ with nicotinamide riboside (NR) reactivated mitochondrial metabolism, upregulated prohibitin proteins, and induced UPRmt, delaying stem cell sene…
+- **TFEB** (deg 54, PR 0.0033) — TFEB binds Rag GTPases as part of the amino acid-sensing machinery at the lysosomal surface, and this interaction is modulated by post-translational modificatio…
+- **Neuromelanin** (deg 51, PR 0.0071) — Dopaminergic neurons, particularly those in the substantia nigra, synthesize neuromelanin through oxidative polymerization of catecholamine-derived precursors,…
+- **Aging** (deg 48, PR 0.0076) — Aging is associated with cardiac enlargement and arterial stiffening, and one theory attributes this to an age-related accumulation of advanced glycation end pr…
+- **NF-κB** (deg 48, PR 0.0044) — Apigenin suppresses NF-kB signaling, a ubiquitous transcription factor controlling cell survival, apoptosis, and immune function. In gastric cancer cells infect…
+- **SIRT5** (deg 45, PR 0.0003) — SIRT5 localizes to the mitochondrial matrix and is specialized for removing lysine succinyl, malonyl, and glutaryl groups from metabolic enzymes including CPS1,…
+- **Methylene blue** (deg 45, PR 0.0004) — Methylene blue (MB) functions as an alternative mitochondrial electron-transfer carrier. It accepts electrons from NADH, likely via mitochondrial complex I, and…
+
+### Bridge nodes (highest betweenness — connect otherwise-separate clusters)
+SIRT1 (0.165) > COMT (0.081) > NF-κB (0.065) > SIRT6 (0.064) > SASP (0.060) > SIRT3 (0.059) > Cancer (0.056) > Aging (0.046) > SIRT2 (0.043) > Oxidative Stress (0.041). These nodes are the highest-leverage points for traversing the graph from one topic cluster to another.

@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>(Preclinical) Ivermectin × Fenbendazole — Complementary Anticancer Mechanisms</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html">
+  <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html">
+  <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html">
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="Back to graph">&#8592; Back</a>
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#lineage">Origin → Repositioning</a>
+    <a class="n" href="#division">Division of Labor</a>
+    <a class="n" href="#convergence">Convergent Nodes</a>
+    <a class="n" href="#sirtuins">Sirtuin Intersections</a>
+    <a class="n" href="#nad-gate">NAD<sup>+</sup> Gate</a>
+    <a class="n" href="#network">Knowledge Graph</a>
+    <a class="n" href="#combination">Combination Logic</a>
+    <a class="n" href="#caveats">Caveats</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Interactive explainer · llm-wiki-jk</div>
+    <h1>Ivermectin × Fenbendazole — Complementary Anticancer Mechanisms &amp; the Sirtuin Connection <span class="badge red" style="vertical-align:middle; font-size:.58rem; background:var(--red); color:#0b1220; border-color:var(--red);">Preclinical</span></h1>
+    <p class="lead" style="margin-top:14px;">
+      Two repurposed antiparasitics attack <b style="color:var(--text)">fundamentally different nodes of cancer biology</b> —
+      ivermectin at <b style="color:var(--teal)">kinase / signaling hubs</b>, fenbendazole at
+      <b style="color:var(--orange)">structural / metabolic machinery</b>. Their primary mechanisms barely overlap, which is precisely why
+      they are discussed as a potential drug-repositioning combination. This page turns the task-output synthesis into interactive charts,
+      then traces where the <b style="color:var(--blue)">sirtuins</b> — the NAD<sup>+</sup>-coupled metabolic rheostat — intersect the pair.
+    </p>
+    <div class="meta">
+      Source synthesis: <code>src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md</code> ·
+      graph-traced lineage <code>src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</code> ·
+      wiki notes [[Ivermectin]], [[Fenbendazole]], [[Benzimidazole]], [[GLUT1]], [[Hexokinase 2]] ·
+      knowledge graph <code>graphify-out/graph.json</code> · Tang et al. 2020 · Nguyen et al. 2024 · Dogra et al. 2018
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">2 repurposed antiparasitics</span>
+      <span class="badge">signaling hub × structural / metabolic</span>
+      <span class="badge">antiparasitic origin → repositioned targets</span>
+      <span class="badge">5 convergent endpoints</span>
+      <span class="badge red">≥ 4 sirtuin intersections</span>
+      <span class="badge teal">preclinical only · no clinical trials</span>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <h2>The complementary thesis: one drug removes signals, the other removes machinery</h2>
+    <p class="lead" style="margin-bottom:20px;">Complementarity, not redundancy, is the entire basis of the pairing.</p>
+    <div class="grid g3">
+      <div class="card">
+        <h3 style="color:var(--teal)">Ivermectin — signaling &amp; kinase hubs</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Promotes <b style="color:var(--text)">proteasomal degradation of [[PAK1]]</b>, a hub upstream of [[Akt]]/[[mTOR]], [[NF-κB]], [[STAT3]]
+          and [[Wnt]]/[[β-Catenin]]; independently inhibits [[YAP1]] (Hippo) and P-gp efflux. Also disrupts mitochondria directly (ΔΨm collapse,
+          [[BAX|Bax]]↑/[[Bcl-2]]↓) and induces three death modes: apoptosis, autophagy, pyroptosis.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--orange)">Fenbendazole — structural &amp; metabolic machinery</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Binds the <b style="color:var(--text)">colchicine site of β-[[Tubulin]]</b> → mitotic arrest; down-regulates [[GLUT1]] and inhibits
+          [[Hexokinase 2]] → Warburg blockade; suppresses [[MDM2]]/MdmX → p53 activation; induces ROS via the MEK3/6–p38 axis.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber)">Why pairing makes sense</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Kinase-addicted cells fall to ivermectin; metabolically-addicted cells fall to fenbendazole. Their downstream effects <i>converge</i>
+          on mitochondria, redox, cell cycle and metabolism — from different doors — while ivermectin's P-gp blockade and fenbendazole's
+          NADPH/glutathione collapse make the two a potential dose-sparing, resistance-averse pair.
+        </p>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--teal); font-weight:700;">2</div>
+        <div style="color:var(--dim); font-size:.85rem;">Distinct primary mechanisms — PAK1 degradation vs tubulin binding — with little target overlap</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--amber); font-weight:700;">5</div>
+        <div style="color:var(--dim); font-size:.85rem;">Convergent endpoints — mitochondrial apoptosis · ROS · cell cycle · Warburg · NF-κB</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--blue); font-weight:700;">4</div>
+        <div style="color:var(--dim); font-size:.85rem;">Sirtuin hubs that touch the combination — SIRT1 · SIRT2 · SIRT3 · SIRT6 (gated by NAD<sup>+</sup>)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORIGIN → REPOSITIONING -->
+<section id="lineage">
+  <div class="wrap">
+    <h2>Antiparasitic origin → repositioned anticancer mechanisms</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      Ivermectin did not start as an anticancer drug. The graph trace (<code>src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</code>)
+      recovers the full lineage: a macrocyclic lactone born as a mass-drug-administration anthelmintic pivots, through the fact that
+      <b style="color:var(--text)">humans lack its invertebrate-specific target</b>, into a <b style="color:var(--teal)">repurposed anticancer agent</b>.
+      The bridge is <i>pharmacological</i> — one safe scaffold whose vertebrate-sparing dose window leaves headroom to hit conserved mammalian survival kinases.
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="lineageSvg" viewBox="0 0 1000 460" role="img" aria-label="Ivermectin lineage from antiparasitic origin to repositioned anticancer mechanisms"></svg>
+        <button class="copy-btn" data-copy="lineageSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--green)"></span> antiparasitic lineage &amp; mechanism</span>
+        <span><span class="sw" style="background:var(--amber)"></span> pivot — vertebrate safety margin</span>
+        <span><span class="sw" style="background:var(--teal)"></span> repositioned mammalian targets</span>
+        <span><span class="sw" style="background:var(--red)"></span> honest gap — preclinical only</span>
+      </div>
+    </div>
+
+    <div class="grid g3" style="margin-top:18px;">
+      <div class="card">
+        <h3 style="color:var(--green)">Antiparasitic origin branch</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Ivermectin is a semi-synthetic dihydro derivative of [[Avermectin]], a 16-membered macrocyclic lactone from
+          <i>Streptomyces avermectinius</i>, discovered at the [[Kitasato Institute]] by [[Satoshi Ōmura]] and [[William C. Campbell]]
+          (2015 Nobel Prize). Its anthelmintic mechanism is allosteric agonism of [[Glutamate-gated Cl- channels]] (GluCls) —
+          invertebrate-exclusive channels where Cl<sup>−</sup> influx hyperpolarizes and paralyzes the parasite.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber)">The pivot — a target humans lack</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Humans <b style="color:var(--text)">have no GluCls</b>. Vertebrate GABA<sub>A</sub>/glycine receptors need roughly
+          <b style="color:var(--text)">~100× higher</b> ivermectin concentrations, so therapeutic plasma levels spare the host
+          (Glutamate-gated Cl- channels.md:21). This built-in safety margin — underwritten by decades of mass drug administration
+          (OCP, APOC, the Mectizan program) — is what makes repurposing trials medically defensible.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal)">Repositioned mammalian targets</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          At therapeutic concentrations the same molecule engages <i>mammalian</i> targets instead of GluCls:
+          primary host kinase [[PAK1]] (proteasomal degradation), Hippo-effector [[YAP1]], the survival axis [[Akt]]/[[mTOR]],
+          [[STAT3]] and the efflux pump [[P-gp]]. It induces [[Apoptosis]], [[Autophagy]] and [[Pyroptosis]], drives
+          immunogenic cell death ([[HMGB1]] release), and suppresses [[Cancer Stem Cells]] via the PAK1–STAT3 axis.
+        </p>
+      </div>
+    </div>
+    <div class="context" style="margin-top:16px;">
+      <b>Headline finding.</b> The wiki corpus frames ivermectin strictly as a <b>repurposed therapeutic agent</b>, not a primary preventive:
+      every note places it in treatment/adjuvant contexts (inhibiting proliferation, metastasis, angiogenesis; reversing multidrug resistance).
+      <b style="color:var(--red)">No note addresses primary prevention (reducing cancer incidence in healthy people)</b> — the preventive framing is inference beyond the corpus.
+    </div>
+
+    <div class="spectrum-card" style="margin-top:20px;">
+      <div class="tbl-wrap" style="max-height:none;">
+        <table class="tbl-fixed">
+          <colgroup><col style="width:22%"><col style="width:44%"><col style="width:34%"></colgroup>
+          <thead><tr><th>Tumor type</th><th>Mechanism cited in corpus</th><th>Corpus reference</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>[[Lung Cancer]]</b></td>
+              <td>Synergy with [[erlotinib]]; EGFR targeting</td>
+              <td>Lung Cancer.md — co-voiced with fenbendazole's metabolic axis below</td>
+            </tr>
+            <tr>
+              <td><b>[[Glioblastoma]]</b></td>
+              <td>Angiogenesis / growth / survival inhibited via mitochondrial dysfunction + oxidative stress</td>
+              <td>Ivermectin.md — the exact ΔΨm levers the pair converges on</td>
+            </tr>
+            <tr>
+              <td><b>[[Prostate Cancer]]</b></td>
+              <td>Reverses [[enzalutamide]] / [[docetaxel]] resistance; inhibits [[HSP27]] phosphorylation</td>
+              <td>Prostate Cancer.md</td>
+            </tr>
+            <tr>
+              <td><b>[[Hepatocellular Carcinoma]]</b></td>
+              <td>[[YAP1]] / Hippo-pathway targeting</td>
+              <td>Hepatocellular Carcinoma.md — community 6 tumorigenesis</td>
+            </tr>
+            <tr>
+              <td><b>[[Colon Cancer]] · [[Cholangiocarcinoma]] · [[Leukemia]] · [[Renal Cell Carcinoma]]</b></td>
+              <td>Grouped under [[Drug Repositioning]] with [[Fenbendazole]] and [[Mebendazole]]</td>
+              <td>Drug Repositioning cluster (community 33) — the shared family with complexes below</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="caveat" style="margin-top:20px;">
+      <b>Honest gap.</b> The anticancer evidence is entirely preclinical — tumor-cell and xenograft models — and the corpus itself states clinical
+      validation "remains a research priority." Decades of antiparasitic safety data underwrite <i>repurposing trials</i>, but
+      <b>anticancer dosing and schedules are not established</b>, and no primary-prevention evidence exists anywhere in the vault.
+    </div>
+  </div>
+</section>
+
+<!-- DIVISION -->
+<section id="division">
+  <div class="wrap">
+    <h2>Division of labor — non-overlapping primary targets</h2>
+    <p class="lead" style="margin-bottom:18px;">
+      Each drug claims its own set of nodes. The middle band is where they <i>converge downstream</i> —
+      the basis of rational combination rather than redundancy.
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="divisionSvg" viewBox="0 0 1000 560" role="img" aria-label="Division of labor between ivermectin and fenbendazole"></svg>
+        <button class="copy-btn" data-copy="divisionSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> ivermectin — signaling &amp; kinase hubs</span>
+        <span><span class="sw" style="background:var(--orange)"></span> fenbendazole — structural &amp; metabolic machinery</span>
+        <span><span class="sw" style="background:var(--amber)"></span> convergent downstream endpoints</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONVERGENCE -->
+<section id="convergence">
+  <div class="wrap">
+    <h2>Convergent nodes — where the two drugs reinforce</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Both compounds funnel into the same downstream endpoints, but enter from different doors. This non-overlap is what turns
+      single-agent effects into a potential combined attack.
+    </p>
+    <div class="spectrum-card">
+      <div class="tbl-wrap" style="max-height:none;">
+        <table class="tbl-fixed">
+          <colgroup><col style="width:15%"><col style="width:28%"><col style="width:28%"><col style="width:29%"></colgroup>
+          <thead><tr><th>Endpoint</th><th><span style="color:var(--teal)">Ivermectin</span></th><th><span style="color:var(--orange)">Fenbendazole</span></th><th><span style="color:var(--amber)">Combined / synergy point</span></th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>Intrinsic apoptosis / mitochondria</b></td>
+              <td>Direct: ΔΨm collapse, Bax↑ / Bcl-2↓, cytochrome c release, ATP collapse, ROS amplification</td>
+              <td>Indirect: HK2 released from VDAC → de-repressed MOMP / cytochrome c release</td>
+              <td>Ivermectin primes from the signaling side, fenbendazole from the metabolic side — together they push cells past the mitochondrial threshold neither reaches alone</td>
+            </tr>
+            <tr>
+              <td><b>ROS &amp; redox</b></td>
+              <td>ROS via mitochondrial depolarization + Cl<sup>−</sup>-channel membrane hyperpolarization</td>
+              <td>ROS via MEK3/6–p38 + collapse of glycolytic NADPH → glutathione recycling fails</td>
+              <td>Fenbendazole disarms the antioxidant buffer; ivermectin pushes ROS past the lethal threshold — a potential "redox catastrophe"</td>
+            </tr>
+            <tr>
+              <td><b>Cell-cycle arrest</b></td>
+              <td>G1/S or S-phase arrest (context-dependent, via PAK1 loss)</td>
+              <td>G2/M arrest via spindle disruption + p21-mediated arrest (p53 → p21)</td>
+              <td>Dual-checkpoint trapping — cells escaping one block are caught by the other</td>
+            </tr>
+            <tr>
+              <td><b>Warburg / glycolysis</b></td>
+              <td>Indirect: Akt/mTOR &amp; HIF-1α suppression removes the <i>signals</i> that upregulate GLUT1/HK2</td>
+              <td>Direct: GLUT1↓ (import) + HK2↓ (first glycolytic step) removes the <i>machinery</i></td>
+              <td>Fenbendazole removes the enzymes, ivermectin removes the signals that would restore them</td>
+            </tr>
+            <tr>
+              <td><b>NF-κB suppression</b></td>
+              <td>Direct via PAK1 loss (PAK1 enables NF-κB nuclear activation)</td>
+              <td>Modulates NF-κB, likely indirect via ROS / p53</td>
+              <td>Two independent routes into the master survival switch — Bcl-xL / XIAP / cIAP downregulation compounds</td>
+            </tr>
+            <tr>
+              <td><b>Autophagy</b></td>
+              <td>Induces (PAK1 → Akt dephos → mTOR off → [[Beclin1|Beclin-1]] complex; TFEB nuclear)</td>
+              <td>Contextual — ROS-driven, cell-type dependent</td>
+              <td>Autophagic flux can kill or protect depending on tumor — a key context caveat for dosing</td>
+            </tr>
+            <tr>
+              <td><b>Drug efflux / MDR</b></td>
+              <td>Direct potent inhibitor of P-gp and MRP1/2/3</td>
+              <td>Benzimidazole class partially evades P-gp recognition</td>
+              <td>Ivermectin's efflux blockade raises intratumoral fenbendazole (and co-administered chemo) retention without raising systemic dose</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIRTUINS -->
+<section id="sirtuins">
+  <div class="wrap">
+    <h2>Sirtuin intersections — where the pair meets the NAD<sup>+</sup> rheostat</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      The seven sirtuins are NAD<sup>+</sup>-dependent deacylases whose output is gated by the very redox and metabolic state these drugs perturb.
+      Four hubs intersect the combination in concrete, graph-backed ways: <b style="color:var(--amber)">SIRT1</b> (p53 / NF-κB / PAK1),
+      <b style="color:var(--purple)">SIRT2</b> (tubulin), <b style="color:var(--green)">SIRT3</b> (mitochondrial ROS) and
+      <b style="color:var(--blue)">SIRT6</b> (anti-Warburg). Green = reinforces the combination; red = opposes / context-dependent.
+    </p>
+    <div class="spectrum-card" style="margin-bottom:20px;">
+      <div style="position:relative;">
+        <svg id="sirtMapSvg" viewBox="0 0 1000 600" role="img" aria-label="Sirtuin intersection map with drug targets"></svg>
+        <button class="copy-btn" data-copy="sirtMapSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> ivermectin &amp; targets</span>
+        <span><span class="sw" style="background:var(--orange)"></span> fenbendazole &amp; targets</span>
+        <span><span class="sw" style="background:var(--amber)"></span> SIRT1</span>
+        <span><span class="sw" style="background:var(--purple)"></span> SIRT2</span>
+        <span><span class="sw" style="background:var(--green)"></span> SIRT3</span>
+        <span><span class="sw" style="background:var(--blue)"></span> SIRT6</span>
+        <span><span class="sw" style="background:var(--pink)"></span> NAD<sup>+</sup> gate</span>
+      </div>
+    </div>
+
+    <div class="grid g2" style="gap:18px;">
+      <!-- SIRT1 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">the p53 / NF-κB / PAK1 rheostat</span>
+          <span class="comp">Nucleus + cytosol</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Reinforces the combination</h4><ul>
+              <li>Deacetylates <b>p53</b> (Lys379) → restrains its pro-apoptotic output; p53 reciprocally <i>inhibits</i> SIRT1, so fenbendazole's p53 stabilization self-amplifies by lowering SIRT1</li>
+              <li>Deacetylates <b>RelA/p65 (NF-κB)</b> and <b>STAT3</b> → a third pathway into the survival axes both drugs already suppress</li>
+              <li>Inhibits <b>[[HIF-1α]]</b> and <b>[[mTOR]]</b>, deacetylates [[ULK1]] / [[Beclin1|Beclin-1]] / [[Atg5]]-[[Atg7|7]] / [[LC3]] → [[Warburg Effect|anti-Warburg]] + pro-autophagy, aligned with ivermectin's PAK1→Akt→mTOR arm</li>
+              <li>SIRT1-mediated <b>PAK1 deacetylation at K420 hinders glioblastoma growth</b> — the same PAK1 node ivermectin degrades, hit via a separate post-translational route</li>
+            </ul></div>
+            <div class="face red"><h4>Opposes / context</h4><ul>
+              <li>Chronic SIRT1 activity <b>blunts p53</b> and drives chemoresistance (tamoxifen via FoxO1/MDR2; cisplatin via VEGF-A)</li>
+              <li>High-SIRT1 tumors blunt fenbendazole's p53 lever; partners [[c-Myc]]/HIF-1α in some contexts</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <!-- SIRT2 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--purple)">SIRT2</h3><span class="tagline">the tubulin node</span>
+          <span class="comp">Cytosol</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Reinforces the combination</h4><ul>
+              <li>A <b>tubulin deacetylase</b> (α-tubulin K40) — it sits on the same cytoskeleton node fenbendazole destabilizes at β-tubulin</li>
+              <li>Inhibits <b>p53</b> → SIRT2 inhibition deepens fenbendazole's p53 activation alongside MDM2/MdmX suppression</li>
+              <li>Deacetylates NF-κB → aligned with both drugs' NF-κB suppression</li>
+            </ul></div>
+            <div class="face red"><h4>Opposes / open question</h4><ul>
+              <li>Acetylated α-tubulin marks stable polymers — SIRT2's deacetylase activity governs the very dynamic instability fenbendazole disrupts; directionality vs the microtubule block is unresolved</li>
+              <li>Inhibited by <b>Akt</b> and <b>Wnt</b> (both suppressed by ivermectin) → the combination may indirectly shift SIRT2 activity; whether that helps or hurts is context-dependent</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <!-- SIRT3 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">the mitochondrial guardian — a sensitivity switch</span>
+          <span class="comp">Mitochondria</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Reinforces the combination</h4><ul>
+              <li>Low-SIRT3 tumors (~40% of breast/ovarian cancers) run high mitochondrial ROS — a <b>redox-primed</b> state that should sensitize to both drugs' oxidative / mitochondrial attack</li>
+              <li>Destabilizes <b>HIF-1α</b> → anti-Warburg, aligned with fenbendazole's GLUT1/HK2 program</li>
+            </ul></div>
+            <div class="face red"><h4>Opposes / context</h4><ul>
+              <li>High SIRT3 clears ROS (SOD2/MnSOD, IDH2) and maintains mitochondria (Complex I, PDH) — the <b>exact levers ivermectin collapses</b> (ΔΨm, respiration, ATP)</li>
+              <li>High-SIRT3 cells are the likely resistance context for the pair's ROS-dependent death</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <!-- SIRT6 -->
+      <div class="sirt-card">
+        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">fenbendazole's nuclear twin</span>
+          <span class="comp">Nucleus (heterochromatin)</span></div>
+        <div class="sirt-body">
+          <div class="faces">
+            <div class="face green"><h4>Reinforces the combination (strongest intersection)</h4><ul>
+              <li><b>Corepresses HIF-1α</b> and suppresses <b>GLUT1 / HK2 transcription</b> → anti-glycolysis at the transcriptional level, while fenbendazole hits the same gene products at the protein level — one axis, two levels</li>
+              <li><b>p53 activates SIRT6</b> → fenbendazole's p53 stabilization feeds back to raise SIRT6, reinforcing glycolysis / NF-κB / HIF-1α suppression (a clean synergy loop)</li>
+              <li>Suppresses NF-κB (H3K9 at target promoters) and inhibits [[JAK2]]/STAT3 → joins both drugs</li>
+            </ul></div>
+            <div class="face red"><h4>Opposes / context</h4><ul>
+              <li>Requires <b>NAD<sup>+</sup></b> — oxidative-stress PARP consumption may starve it exactly when needed</li>
+              <li>Its austerity / DNA-repair program can confer chemoresistance in established tumors</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="context" style="margin-top:20px;">
+      <b>Secondary isoforms:</b> <b style="color:var(--teal)">SIRT4</b> (glutamine-addiction brake; upregulates p16/p21 — aligned with fenbendazole's p21 arrest) ·
+      <b style="color:var(--orange)">SIRT5</b> (glutaminolysis / glycolysis driver — its inhibition would help) ·
+      <b style="color:var(--pink)">SIRT7</b> (ribosome biogenesis / cell-cycle driver — oncogenic; less connected to this pair).
+    </div>
+  </div>
+</section>
+
+<!-- NAD GATE -->
+<section id="nad-gate">
+  <div class="wrap">
+    <h2>The NAD<sup>+</sup> gate — redox rewires the sirtuin rheostat mid-treatment</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Sirtuins are NAD<sup>+</sup>-consuming enzymes, and NAD<sup>+</sup> is also a glycolytic cofactor (GAPDH). The pair's
+      oxidative and metabolic attack therefore does not just <i>read</i> sirtuin activity — it <i>rewrites</i> the NAD<sup>+</sup> pool
+      that gates it. This is the most hypothesis-generating intersection and should be read as a hypothesis, not established fact.
+    </p>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <svg id="nadSvg" viewBox="0 0 1000 460" role="img" aria-label="NAD+ gate flow diagram"></svg>
+        <button class="copy-btn" data-copy="nadSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal)"></span> ivermectin contribution</span>
+        <span><span class="sw" style="background:var(--orange)"></span> fenbendazole contribution</span>
+        <span><span class="sw" style="background:var(--pink)"></span> NAD<sup>+</sup> pool / PARP</span>
+        <span><span class="sw" style="background:var(--blue)"></span> sirtuin output</span>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:18px;">
+      <div class="card"><h3>Upside of NAD<sup>+</sup> drain</h3><p style="color:var(--dim); font-size:.85rem;">
+        Drug-induced oxidative stress → PARP consumes NAD<sup>+</sup> → sirtuin output falls. This lowers <b style="color:var(--amber)">SIRT1</b>'s p53 deacetylation
+        (reinforces fenbendazole), <b style="color:var(--purple)">SIRT2</b>'s p53 inhibition, and <b style="color:var(--green)">SIRT3</b>'s ROS scavenging —
+        amplifying the pair's death signals.</p></div>
+      <div class="card"><h3>Downside of NAD<sup>+</sup> drain</h3><p style="color:var(--dim); font-size:.85rem;">
+        The same drain lowers <b style="color:var(--blue)">SIRT6</b> (anti-Warburg reinforcement lost) and <b style="color:var(--amber)">SIRT1</b>
+        (NF-κB / STAT3 suppression lost) — two of the most desirable anti-tumor sirtuin outputs. Net sirtuin behavior during treatment is a
+        function of redox state, not a constant.</p></div>
+      <div class="card"><h3>Read-out</h3><p style="color:var(--dim); font-size:.85rem;">
+        Any claim that "the combination boosts sirtuins" or "blocks sirtuins" is over-simplified. The honest framing: the pair shifts the
+        <b style="color:var(--pink)">NAD<sup>+</sup>/NADH</b> and <b style="color:var(--green)">NADPH/glutathione</b> pools, and each sirtuin's
+        sign flips accordingly — a context-dependent, isoform-specific outcome.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NETWORK -->
+<section id="network">
+  <div class="wrap">
+    <h2>Knowledge graph — the drug × sirtuin subgraph</h2>
+    <p class="lead">
+      A 33-node / 63-edge subgraph of <code>graphify-out/graph.json</code> around the two drugs and the four intersecting sirtuin hubs.
+      Node size = connectivity; drag nodes, hover to inspect, click a hub to highlight its neighborhood.
+      The sirtuin hubs (SIRT1/2/3/6) sit visibly between the two drugs' target fields.
+    </p>
+    <div class="net-head">
+      <button class="btn" id="netReset">Reset layout</button>
+      <span class="badge" id="netStats"></span>
+    </div>
+    <div style="position:relative;">
+      <svg id="netSvg" viewBox="0 0 1100 560" role="img" aria-label="Ivermectin-fenbendazole-sirtuin knowledge graph"></svg>
+      <div id="netTip"></div>
+      <button class="copy-btn" data-copy="netSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+    </div>
+    <div class="net-legend" id="netLegend"></div>
+  </div>
+</section>
+
+<!-- COMBINATION -->
+<section id="combination">
+  <div class="wrap">
+    <h2>Theoretical combination logic</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      How the two drugs' contributions map across the dimensions of tumor biology. Combined effects assume the mechanisms are truly
+      complementary — a hypothesis that remains untested clinically.
+    </p>
+    <div class="spectrum-card">
+      <div class="tbl-wrap" style="max-height:none;">
+        <table class="tbl-fixed">
+          <colgroup><col style="width:13%"><col style="width:29%"><col style="width:29%"><col style="width:29%"></colgroup>
+          <thead><tr><th>Dimension</th><th><span style="color:var(--teal)">Ivermectin</span></th><th><span style="color:var(--orange)">Fenbendazole</span></th><th>Combined effect</th></tr></thead>
+          <tbody>
+            <tr><td><b>Signaling</b></td><td>PAK1 / YAP1 / Akt / mTOR suppression</td><td>Minimal direct signaling impact</td><td>Ivermectin removes oncogenic signaling; fenbendazole exploits the resulting metabolic vulnerability</td></tr>
+            <tr><td><b>Structure</b></td><td>No direct tubulin effect</td><td>Microtubule destabilization → mitotic arrest</td><td>Fenbendazole traps dividing cells; ivermectin prevents escape via survival signaling</td></tr>
+            <tr><td><b>Metabolism</b></td><td>Indirect (Akt/mTOR → glycolytic gene regulation)</td><td>Direct (GLUT1 ↓, HK2 ↓, Warburg disruption)</td><td>Fenbendazole starves the cell; ivermectin prevents compensatory metabolic reprogramming</td></tr>
+            <tr><td><b>ROS / apoptosis</b></td><td>Mitochondrial depolarization, Cl<sup>−</sup>-channel ROS</td><td>Metabolic ROS + NADPH depletion</td><td>Fenbendazole disarms antioxidant defenses; ivermectin pushes ROS past the lethal threshold</td></tr>
+            <tr><td><b>p53</b></td><td>Not a primary mechanism</td><td>MDM2/MdmX suppression → p53 stabilization</td><td>Restores p53 function in wild-type-p53 / MDM2-overexpressing tumors</td></tr>
+            <tr><td><b>Stem cells</b></td><td>PAK1–STAT3 axis suppression (NANOG, OCT-4, SOX-2)</td><td>Not specifically demonstrated</td><td>Ivermectin targets the recurrence-driving CSC population</td></tr>
+            <tr><td><b>Drug resistance</b></td><td>Potent P-gp / MDR protein inhibitor</td><td>Partial P-gp evasion (benzimidazole class)</td><td>Ivermectin may raise intratumoral fenbendazole retention</td></tr>
+            <tr><td><b>Immune</b></td><td>HMGB1 release → immunogenic cell death</td><td>Less characterized</td><td>Ivermectin may prime immune recognition of dying tumor cells</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAVEATS -->
+<section id="caveats">
+  <div class="wrap">
+    <h2>Cross-cutting caveats &amp; the bottom line</h2>
+    <div style="margin-top:18px;">
+      <div class="pattern"><b>Everything is preclinical.</b>
+        Every mechanism cited here is from cell lines and xenograft models (Tang et al. 2020; Nguyen et al. 2024). There are
+        <b>no clinical trials</b> of either compound as an anticancer agent. The combination rationale is a mechanistic hypothesis.</div>
+      <div class="pattern"><b>The autophagy paradox.</b>
+        Ivermectin's autophagic death is the primary mode in breast cancer but protective in melanoma; context decides whether autophagic flux
+        kills or shields. Dose and tumor type will dictate net effect.</div>
+      <div class="pattern"><b>Sirtuins flip sign.</b>
+        SIRT1/3/6 are anti-tumor in some settings and chemoresistance factors in others. The pair's NAD<sup>+</sup> drain makes this worse:
+        the same redox stress that empowers p53 / ROS also starves SIRT6 — so "sirtuin support" cannot be prescribed as a blanket strategy.</div>
+      <div class="pattern"><b>SIRT2 directionality is unresolved.</b>
+        SIRT2 sits on the tubulin node fenbendazole attacks, but whether its deacetylation of α-tubulin amplifies or counteracts the microtubule
+        block is an open question.</div>
+    </div>
+    <div class="caveat">
+      <b>Bottom line.</b> Ivermectin and fenbendazole are a mechanistically complementary pair — signaling hub vs structural/metabolic machinery —
+      with convergent mitochondria, redox, cell-cycle, and metabolic endpoints. The most concrete sirtuin links are
+      <b>SIRT6 (fenbendazole's anti-Warburg twin, with a p53→SIRT6 feedback loop)</b>, <b>SIRT1 (p53 / NF-κB / PAK1 rheostat)</b>,
+      <b>SIRT3 (mitochondrial ROS sensitivity switch)</b>, and <b>SIRT2 (tubulin node)</b> — all gated by the NAD<sup>+</sup> pool the pair itself rewrites.
+      Treat the sirtuin dimension as hypothesis-generating until tested in vivo.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Sources</b></p>
+    <p>Tang M et al., <i>Ivermectin, a potential anticancer drug derived from an antiparasitic drug.</i> Pharmacol Res 2020;163:105207 (PMID 32971268) · Nguyen J et al., <i>Oral Fenbendazole for Cancer Therapy in Humans and Animals.</i> Anticancer Res 2024 · Dou Q et al., <i>Cancer Res</i> 2016 (PMID 27302166) · Dogra N et al., <i>Sci Rep</i> 2018 · Mrkvová Z et al., <i>Molecules</i> 2019 · Peng Y et al., <i>Chem Biol Interact</i> 2022 · llm-wiki-jk notes: [[Ivermectin]], [[Fenbendazole]], [[Benzimidazole]], [[GLUT1]], [[Hexokinase 2]], [[SIRT1]], [[SIRT3]], [[SIRT6]], [[NAD+]], [[p53]], [[HIF-1α]], [[NF-κB]].</p>
+    <p>Task outputs: <code>src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md</code> (combination synthesis) · <code>src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</code> (antiparasitic-origin graph trace) · Knowledge graph: <code>graphify-out/graph.json</code> (33-node / 63-edge subgraph).</p>
+    <p style="margin-top:10px; color:var(--mute);">All charts are client-side rendered SVG/CSS — no external dependencies, works offline.</p>
+  </div>
+</footer>
+
+<script src="shared/pages-core.js"></script>
+<script src="shared/pages-svg.js"></script>
+<script src="shared/render-network.js"></script>
+<script src="shared/context-tooltip.js"></script>
+<script>
+/* ============================= DIVISION OF LABOR ============================= */
+(function division(){
+  const svg = document.getElementById('divisionSvg');
+  const W=1000, H=560;
+  const iverChips = ['PAK1 — proteasomal degradation','YAP1 (Hippo)','Akt / mTOR','NF-κB','STAT3','Wnt / β-catenin','P-gp (efflux reversal)','HSP27','KPNB1 (importin-β1)','CSCs (Oct4 · Sox2)'];
+  const fenChips = ['β-tubulin · colchicine site','Microtubules (spindle)','GLUT1 ↓ (glucose import)','Hexokinase 2 ↓','MDM2 / MdmX ↓','p53 ↑','MEK3/6–p38 (ROS)','p21 · G2/M arrest'];
+  const shared = ['Apoptosis','ROS / redox','Autophagy','Glycolysis','NF-κB'];
+
+  const Lx=16, Lw=400, Cx=424, Cw=152, Rx=584, Rw=400, Y=80, Bh=440;
+  let m='<defs><linearGradient id="gradShared" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8A33D" stop-opacity=".20"/><stop offset="1" stop-color="#E4575E" stop-opacity=".18"/></linearGradient></defs>';
+  m += `<rect x="${Lx}" y="${Y}" width="${Lw}" height="${Bh}" rx="16" fill="rgba(62,201,167,.08)" stroke="#3EC9A7" stroke-width="1.5"/>`;
+  m += `<rect x="${Cx}" y="${Y}" width="${Cw}" height="${Bh}" rx="14" fill="url(#gradShared)" stroke="#E8A33D" stroke-width="1.5" stroke-dasharray="5 4"/>`;
+  m += `<rect x="${Rx}" y="${Y}" width="${Rw}" height="${Bh}" rx="16" fill="rgba(245,166,91,.08)" stroke="#F5A65B" stroke-width="1.5"/>`;
+  m += `<text x="${Lx+Lw/2}" y="${Y+28}" text-anchor="middle" fill="#3EC9A7" font-size="15" font-weight="800">IVERMECTIN</text>`;
+  m += `<text x="${Lx+Lw/2}" y="${Y+46}" text-anchor="middle" fill="#6b6b85" font-size="10.5">signaling &amp; kinase hubs</text>`;
+  m += `<text x="${Rx+Rw/2}" y="${Y+28}" text-anchor="middle" fill="#F5A65B" font-size="15" font-weight="800">FENBENDAZOLE</text>`;
+  m += `<text x="${Rx+Rw/2}" y="${Y+46}" text-anchor="middle" fill="#6b6b85" font-size="10.5">structural &amp; metabolic machinery</text>`;
+  m += `<text x="${Cx+Cw/2}" y="${Y+30}" text-anchor="middle" fill="#E8A33D" font-size="12" font-weight="700">CONVERGENT</text>`;
+  m += `<text x="${Cx+Cw/2}" y="${Y+46}" text-anchor="middle" fill="#6b6b85" font-size="9">downstream</text>`;
+
+  function chips(arr, bx, w, color, startY){
+    const cw=185, chh=48, gap=12, xs=[bx+14, bx+14+197], start=startY+64;
+    let out='', i=0;
+    arr.forEach(c=>{
+      const col = i % 2, row = Math.floor(i/2);
+      const x = xs[col], y = start + row*(chh+gap);
+      out += `<rect x="${x}" y="${y}" width="${cw}" height="${chh}" rx="10" fill="#16162b" stroke="${color}" stroke-width="1.1"/>`+
+             `<text x="${x+cw/2}" y="${y+chh/2+4}" text-anchor="middle" fill="#e0e0e0" font-size="10.5">${c}</text>`;
+      i++;
+    });
+    return out;
+  }
+  m += chips(iverChips, Lx, Lw, '#3EC9A7', Y);
+  m += chips(fenChips, Rx, Rw, '#F5A65B', Y);
+  shared.forEach((s,i)=>{
+    const y = Y + 90 + i*74;
+    m += `<circle cx="${Cx+Cw/2}" cy="${y}" r="26" fill="#16162b" stroke="#E8A33D" stroke-width="1.2"/>`+
+         `<text x="${Cx+Cw/2}" y="${y+4}" text-anchor="middle" fill="#E8C65B" font-size="9.5" font-weight="600">${s}</text>`;
+  });
+  svg.innerHTML = m;
+})();
+
+/* ============================= SIRTUIN INTERSECTION MAP ============================= */
+(function sirtMap(){
+  const svg = document.getElementById('sirtMapSvg');
+  const left = [
+    {id:'ivm', label:'Ivermectin', x:130, y:70,  r:34, color:'#3EC9A7'},
+    {id:'pak1',label:'PAK1',       x:130, y:160, r:24, color:'#7fd1c3'},
+    {id:'stat3',label:'STAT3',     x:130, y:250, r:24, color:'#7fd1c3'},
+    {id:'mtor',label:'Akt / mTOR', x:130, y:340, r:24, color:'#7fd1c3'},
+    {id:'nfkb',label:'NF-κB',      x:130, y:430, r:24, color:'#7fd1c3'},
+    {id:'yap1',label:'YAP1',       x:130, y:510, r:24, color:'#7fd1c3'},
+  ];
+  const center = [
+    {id:'s1', label:'SIRT1', color:'#E8A33D'},
+    {id:'s2', label:'SIRT2', color:'#9D8DF1'},
+    {id:'s3', label:'SIRT3', color:'#58D68D'},
+    {id:'s6', label:'SIRT6', color:'#5DA8FF'},
+  ];
+  const cy0=[80,200,320,440];
+  center.forEach((c,i)=>{ c.x=500; c.y=cy0[i]; c.r=30; });
+  const right = [
+    {id:'fen', label:'Fenbendazole', x:870, y:70,  r:34, color:'#F5A65B'},
+    {id:'p53', label:'p53',          x:870, y:160, r:24, color:'#d8bff7'},
+    {id:'glut',label:'GLUT1 / HK2',  x:870, y:250, r:24, color:'#f8c891'},
+    {id:'tub', label:'Tubulin',      x:870, y:330, r:24, color:'#f8c891'},
+    {id:'hif', label:'HIF-1α',       x:870, y:410, r:24, color:'#f8c891'},
+    {id:'ros', label:'Mito / ROS',   x:870, y:490, r:24, color:'#f8c891'},
+  ];
+  const all = left.concat(center, right);
+  const byId = {}; all.forEach(n=>byId[n.id]=n);
+
+  const edges = [
+    ['ivm','pak1','degrades'],['ivm','yap1','inhibits'],['ivm','mtor','inhibits'],
+    ['ivm','stat3','suppresses'],['ivm','nfkb','suppresses'],
+    ['pak1','s1','K420 deacetylation'],['stat3','s1','deacetylates'],
+    ['mtor','s1','inhibits mTOR'],['nfkb','s1','deacetylates p65'],
+    ['fen','p53','stabilizes'],['fen','glut','GLUT1↓ · HK2↓'],['fen','tub','colchicine site'],
+    ['p53','s1','deacetylates (restrains)'],['p53','s6','activates'],['p53','s2','inhibits'],
+    ['glut','s6','suppresses transcription'],['hif','s6','corepresses'],['hif','s3','destabilizes'],
+    ['tub','s2','deacetylates α-tubulin'],['ros','s3','SOD2 → ROS↓'],
+  ];
+  let m = '';
+  edges.forEach(([a,b,lab])=>{
+    const A=byId[a], B=byId[b];
+    const midx=(A.x+B.x)/2, midy=(A.y+B.y)/2;
+    m += `<line x1="${A.x}" y1="${A.y}" x2="${B.x}" y2="${B.y}" stroke="#3a3a5e" stroke-width="1.2"/>`;
+    m += `<text x="${midx}" y="${midy-6}" text-anchor="middle" fill="#6b6b85" font-size="8.5">${lab}</text>`;
+  });
+  // NAD+ gate (dashed band through the center column base)
+  m += `<line x1="130" y1="575" x2="870" y2="575" stroke="#F283B2" stroke-width="1.4" stroke-dasharray="6 4"/>`;
+  m += `<text x="500" y="592" text-anchor="middle" fill="#F283B2" font-size="11" font-weight="700">NAD+ — cofactor gate for SIRT1 / 2 / 3 / 6</text>`;
+  // nodes
+  all.forEach(n=>{
+    m += `<circle cx="${n.x}" cy="${n.y}" r="${n.r}" fill="#16162b" stroke="${n.color}" stroke-width="1.8"/>`+
+         `<text x="${n.x}" y="${n.y+4}" text-anchor="middle" fill="${n.color}" font-size="${n.r>30?13:10}" font-weight="700">${n.label}</text>`;
+  });
+  // column captions
+  m += `<text x="130" y="34" text-anchor="middle" fill="#3EC9A7" font-size="11" letter-spacing="1.5">IVERMECTIN FIELD</text>`;
+  m += `<text x="500" y="34" text-anchor="middle" fill="#9a9ab0" font-size="11" letter-spacing="1.5">SIRTUIN HUBS</text>`;
+  m += `<text x="870" y="34" text-anchor="middle" fill="#F5A65B" font-size="11" letter-spacing="1.5">FENBENDAZOLE FIELD</text>`;
+  svg.innerHTML = m;
+})();
+
+/* ============================= NAD+ GATE FLOW ============================= */
+(function nadFlow(){
+  const svg = document.getElementById('nadSvg');
+  const W=1000, H=460;
+  let m = '<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b6b85"/></marker></defs>';
+  const box = (x,y,w,h,title,lines,stroke,fill,tsize) => {
+    let o = `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="${fill}" stroke="${stroke}" stroke-width="1.5"/>`+
+            `<text x="${x+w/2}" y="${y+26}" text-anchor="middle" fill="${stroke}" font-size="12.5" font-weight="800">${title}</text>`;
+    lines.forEach((ln,i)=>{
+      o += `<text x="${x+w/2}" y="${y+52+i*18}" text-anchor="middle" fill="#c9c9dd" font-size="10">${ln}</text>`;
+    });
+    return o;
+  };
+  // Column A: drugs
+  m += box(20,70,210,160,'FENBENDAZOLE',
+    ['GLUT1↓ · HK2↓ → glycolysis↓','→ NADPH↓ · glutathione↓'],
+    '#F5A65B','rgba(245,166,91,.08)');
+  m += box(20,250,210,160,'IVERMECTIN',
+    ['ΔΨm collapse · Cl⁻ channels','→ mitochondrial ROS↑'],
+    '#3EC9A7','rgba(62,201,167,.08)');
+  // Column B: redox hub
+  m += box(300,110,210,220,'REDOX HUB',
+    ['NADPH / glutathione collapse','+ mitochondrial ROS burst','= "redox catastrophe"','(two directions at once)'],
+    '#E8C65B','rgba(232,198,91,.08)');
+  // Column C: NAD+ pool
+  m += box(570,110,210,220,'NAD+ POOL',
+    ['oxidative stress → PARP ↑','PARP consumes NAD+','→ NAD+ / NADH falls','(glycolysis also needs NAD+)'],
+    '#F283B2','rgba(242,131,178,.08)');
+  // Column D: sirtuin output
+  m += box(840,60,140,320,'SIRTUIN OUTPUT',
+    ['SIRT6 — anti-Warburg ↓','SIRT1 — p53/NF-κB gate ↓','SIRT3 — ROS scavenge ↓','SIRT2 — tubulin ⇄','(isoform-specific sign flips)'],
+    '#5DA8FF','rgba(93,168,255,.08)');
+  // arrows A->B, B->C, C->D
+  m += `<line x1="230" y1="200" x2="290" y2="200" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#arr)"/>`;
+  m += `<line x1="510" y1="200" x2="560" y2="200" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#arr)"/>`;
+  m += `<line x1="780" y1="200" x2="830" y2="200" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#arr)"/>`;
+  // feedback: sirtuins gate the same pathways (D -> A)
+  m += `<line x1="910" y1="390" x2="910" y2="430" stroke="#3a3a5e" stroke-width="1.3" marker-end="url(#arr)"/>`;
+  m += `<line x1="910" y1="430" x2="125" y2="430" stroke="#3a3a5e" stroke-width="1.3"/>`;
+  m += `<line x1="125" y1="430" x2="125" y2="385" stroke="#3a3a5e" stroke-width="1.3" marker-end="url(#arr)"/>`;
+  m += `<text x="500" y="445" text-anchor="middle" fill="#6b6b85" font-size="10">feedback — sirtuins gate the same pathways (SIRT6 → GLUT1/HK2 transcription · SIRT3 → SOD2 → ROS · SIRT1 → p53 / NF-κB / mTOR)</text>`;
+  svg.innerHTML = m;
+})();
+
+/* ============================= LINEAGE: ORIGIN → REPOSITIONING ============================= */
+(function lineage(){
+  const svg = document.getElementById('lineageSvg');
+  const W=1000, H=460;
+  const bw=205, bh=175, y0=45, gap=40;
+  const xs=[30,275,520,765];
+  let m = '<defs><marker id="larr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b6b85"/></marker></defs>';
+  const stages = [
+    {t:'ORIGIN', color:'#58D68D', fill:'rgba(88,214,141,.08)', lines:[
+      'AVERMECTIN — 16-membered',
+      'macrocyclic lactone ·',
+      'Streptomyces avermectinius',
+      'Kitasato Institute · Ōmura &',
+      'Campbell · Nobel 2015 → IVERMECTIN',
+      '(semi-synthetic dihydro derivative)']},
+    {t:'ANTIPARASITIC MODE', color:'#58D68D', fill:'rgba(88,214,141,.08)', lines:[
+      'Allosteric agonism of GluCls —',
+      'invertebrate-exclusive channels',
+      'Cl⁻ influx → hyperpolarization',
+      '→ paralysis & death of the',
+      'parasite']},
+    {t:'THE PIVOT', color:'#E8A33D', fill:'rgba(232,163,61,.08)', lines:[
+      'Humans LACK GluCls',
+      'Vertebrate GABA_A / glycine',
+      'receptors need ~100× more',
+      '→ therapeutic plasma levels',
+      'spare the host — repurposing',
+      'enabled']},
+    {t:'REPOSITIONED TARGETS', color:'#3EC9A7', fill:'rgba(62,201,167,.08)', lines:[
+      'PAK1 degradation · YAP1 ·',
+      'Akt/mTOR · STAT3 · P-gp',
+      'Apoptosis · Autophagy ·',
+      'Pyroptosis · ICD (HMGB1) ·',
+      'CSCs via PAK1–STAT3']},
+  ];
+  stages.forEach((s,i)=>{
+    const x = xs[i];
+    m += `<rect x="${x}" y="${y0}" width="${bw}" height="${bh}" rx="14" fill="${s.fill}" stroke="${s.color}" stroke-width="1.5"/>`;
+    m += `<text x="${x+bw/2}" y="${y0+24}" text-anchor="middle" fill="${s.color}" font-size="11" font-weight="800" letter-spacing="1">${s.t}</text>`;
+    s.lines.forEach((ln,j)=>{
+      m += `<text x="${x+bw/2}" y="${y0+50+j*19}" text-anchor="middle" fill="#c9c9dd" font-size="9.5">${ln}</text>`;
+    });
+    if(i<3){
+      m += `<line x1="${x+bw+8}" y1="${y0+bh/2}" x2="${xs[i+1]-8}" y2="${y0+bh/2}" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#larr)"/>`;
+    }
+  });
+  // honest gap band
+  m += `<rect x="30" y="270" width="940" height="160" rx="14" fill="rgba(228,87,94,.06)" stroke="#E4575E" stroke-width="1.5" stroke-dasharray="6 4"/>`;
+  m += `<text x="500" y="296" text-anchor="middle" fill="#E4575E" font-size="12" font-weight="800" letter-spacing="1">HONEST GAP — ALL PRECLINICAL</text>`;
+  const gapLines = [
+    'Evidence limited to tumor-cell & xenograft models · clinical validation "remains a research priority" (Lung Cancer.md)',
+    'Anticancer dosing / schedules not established — only antiparasitic safety data (OCP · APOC · Mectizan) underwrite repurposing',
+    'No note in the vault addresses primary chemoprevention in cancer-free individuals',
+  ];
+  gapLines.forEach((ln,j)=>{
+    m += `<text x="500" y="${330+j*24}" text-anchor="middle" fill="#c9c9dd" font-size="10.5">${ln}</text>`;
+  });
+  svg.innerHTML = m;
+})();
+
+/* ============================= KNOWLEDGE GRAPH ============================= */
+const netData = { nodes: [
+  {id:"ivermectin", label:"Ivermectin", degree:16, community:"ivermectin"},
+  {id:"fenbendazole", label:"Fenbendazole", degree:9, community:"fenbendazole"},
+  {id:"pak1", label:"PAK1", degree:4, community:"signaling"},
+  {id:"yap1", label:"YAP1", degree:2, community:"signaling"},
+  {id:"wnt", label:"Wnt", degree:2, community:"signaling"},
+  {id:"akt", label:"Akt", degree:3, community:"signaling"},
+  {id:"mtor", label:"mTOR", degree:3, community:"signaling"},
+  {id:"mtorc1", label:"mTORC1", degree:3, community:"signaling"},
+  {id:"stat3", label:"STAT3", degree:3, community:"signaling"},
+  {id:"cancer_stem_cells", label:"Cancer Stem Cells", degree:7, community:"signaling"},
+  {id:"oct4", label:"Oct4", degree:4, community:"signaling"},
+  {id:"sox2", label:"Sox2", degree:4, community:"signaling"},
+  {id:"p_gp", label:"P-gp", degree:1, community:"signaling"},
+  {id:"microtubule", label:"Microtubule", degree:1, community:"machinery"},
+  {id:"tubulin", label:"α-tubulin", degree:2, community:"machinery"},
+  {id:"glut1", label:"GLUT1", degree:1, community:"machinery"},
+  {id:"hexokinase_2", label:"Hexokinase 2", degree:1, community:"machinery"},
+  {id:"benzimidazole", label:"Benzimidazole", degree:1, community:"machinery"},
+  {id:"warburg_effect", label:"Warburg Effect", degree:3, community:"metabolism"},
+  {id:"glycolysis", label:"Glycolysis", degree:4, community:"metabolism"},
+  {id:"glycolysis_warburg_effect", label:"Glycolysis (Warburg)", degree:1, community:"metabolism"},
+  {id:"hif_1", label:"HIF-1α", degree:4, community:"metabolism"},
+  {id:"nad", label:"NAD+", degree:2, community:"nad"},
+  {id:"p53", label:"p53", degree:8, community:"p53"},
+  {id:"mdm2", label:"MDM2", degree:3, community:"p53"},
+  {id:"nf_b", label:"NF-κB", degree:5, community:"nfkb"},
+  {id:"apoptosis", label:"Apoptosis", degree:4, community:"death"},
+  {id:"autophagy", label:"Autophagy", degree:2, community:"death"},
+  {id:"reactive_oxygen_species", label:"Reactive Oxygen Species", degree:1, community:"death"},
+  {id:"sirt1", label:"SIRT1", degree:7, community:"sirtuins"},
+  {id:"sirt2", label:"SIRT2", degree:6, community:"sirtuins"},
+  {id:"sirt3", label:"SIRT3", degree:3, community:"sirtuins"},
+  {id:"sirt6", label:"SIRT6", degree:6, community:"sirtuins"},
+],
+edges: [
+  {"from":"reactive_oxygen_species","to":"nf_b","label":"activate"},
+  {"from":"apoptosis","to":"ivermectin","label":"is_induced_by"},
+  {"from":"apoptosis","to":"fenbendazole","label":"is_induced_by"},
+  {"from":"p53","to":"mdm2","label":"is_inhibited_by"},
+  {"from":"nad","to":"glycolysis","label":"required_for"},
+  {"from":"akt","to":"mtorc1","label":"activates"},
+  {"from":"mtorc1","to":"autophagy","label":"suppresses"},
+  {"from":"mtor","to":"mtorc1","label":"forms"},
+  {"from":"sirt1","to":"p53","label":"deacetylates"},
+  {"from":"sirt1","to":"nf_b","label":"deacetylates_p65"},
+  {"from":"sirt1","to":"hif_1","label":"inhibits"},
+  {"from":"sirt1","to":"stat3","label":"deacetylates"},
+  {"from":"sirt1","to":"tubulin","label":"deacetylates"},
+  {"from":"sirt1","to":"sirt6","label":"activates"},
+  {"from":"sirt1","to":"mtor","label":"inhibits"},
+  {"from":"sirt3","to":"hif_1","label":"destabilizes"},
+  {"from":"sirt3","to":"p53","label":"inhibits"},
+  {"from":"sirt3","to":"nf_b","label":"is_inhibited_by"},
+  {"from":"sirt6","to":"nf_b","label":"is_inhibited_by"},
+  {"from":"sirt6","to":"hif_1","label":"corepresses"},
+  {"from":"sirt6","to":"glycolysis_warburg_effect","label":"suppresses"},
+  {"from":"sirt6","to":"glycolysis","label":"suppresses"},
+  {"from":"sirt6","to":"p53","label":"is_activated_by"},
+  {"from":"sirt2","to":"nf_b","label":"is_inhibited_by"},
+  {"from":"sirt2","to":"tubulin","label":"deacetylates"},
+  {"from":"sirt2","to":"p53","label":"inhibits"},
+  {"from":"sirt2","to":"nad","label":"is_activated_by"},
+  {"from":"sirt2","to":"wnt","label":"is_inhibited_by"},
+  {"from":"sirt2","to":"akt","label":"is_inhibited_by"},
+  {"from":"yap1","to":"ivermectin","label":"is_inhibited_by"},
+  {"from":"ivermectin","to":"pak1","label":"promotes_degradation_of"},
+  {"from":"ivermectin","to":"yap1","label":"inhibits"},
+  {"from":"ivermectin","to":"wnt","label":"inhibits"},
+  {"from":"ivermectin","to":"akt","label":"inhibits"},
+  {"from":"ivermectin","to":"mtor","label":"inhibits"},
+  {"from":"ivermectin","to":"apoptosis","label":"induces"},
+  {"from":"ivermectin","to":"autophagy","label":"induces"},
+  {"from":"ivermectin","to":"cancer_stem_cells","label":"inhibits"},
+  {"from":"ivermectin","to":"p_gp","label":"inhibits"},
+  {"from":"ivermectin","to":"stat3","label":"suppresses"},
+  {"from":"ivermectin","to":"oct4","label":"suppresses"},
+  {"from":"ivermectin","to":"sox2","label":"suppresses"},
+  {"from":"fenbendazole","to":"microtubule","label":"destabilizes"},
+  {"from":"fenbendazole","to":"glycolysis","label":"suppresses"},
+  {"from":"fenbendazole","to":"p53","label":"stabilizes"},
+  {"from":"fenbendazole","to":"apoptosis","label":"induces"},
+  {"from":"fenbendazole","to":"benzimidazole","label":"is_a_type_of"},
+  {"from":"fenbendazole","to":"glut1","label":"downregulates"},
+  {"from":"fenbendazole","to":"hexokinase_2","label":"inhibits"},
+  {"from":"mdm2","to":"p53","label":"blocks"},
+  {"from":"mdm2","to":"fenbendazole","label":"is_downregulated_by"},
+  {"from":"warburg_effect","to":"glycolysis","label":"involves"},
+  {"from":"warburg_effect","to":"hif_1","label":"is_driven_by"},
+  {"from":"warburg_effect","to":"p53","label":"is_suppressed_by"},
+  {"from":"cancer_stem_cells","to":"pak1","label":"are_regulated_by"},
+  {"from":"cancer_stem_cells","to":"stat3","label":"are_regulated_by"},
+  {"from":"cancer_stem_cells","to":"ivermectin","label":"is_suppressed_by"},
+  {"from":"cancer_stem_cells","to":"oct4","label":"express"},
+  {"from":"cancer_stem_cells","to":"sox2","label":"express"},
+  {"from":"pak1","to":"cancer_stem_cells","label":"regulates"},
+  {"from":"pak1","to":"ivermectin","label":"is_inhibited_by"},
+  {"from":"oct4","to":"sox2","label":"forms_heterodimer_with"},
+  {"from":"sox2","to":"oct4","label":"forms_heterodimer_with"},
+]};
+
+const netColor = {
+  ivermectin:'#3EC9A7', fenbendazole:'#F5A65B',
+  sirt1:'#E8A33D', sirt2:'#9D8DF1', sirt3:'#58D68D', sirt6:'#5DA8FF',
+};
+function nodeColor(id, community){
+  if (netColor[id]) return netColor[id];
+  if (community==='signaling') return '#7fd1c3';
+  if (community==='machinery') return '#f8c891';
+  if (community==='metabolism') return '#E8C65B';
+  if (community==='p53') return '#b39df7';
+  if (community==='nfkb') return '#E4575E';
+  if (community==='death') return '#8febc4';
+  if (community==='nad') return '#F283B2';
+  return '#8b8bb0';
+}
+
+const legendDefs = [
+  ['#3EC9A7','Ivermectin'],['#7fd1c3','Signaling targets (PAK1 · YAP1 · STAT3 · Akt/mTOR · CSCs)'],
+  ['#F5A65B','Fenbendazole'],['#f8c891','Structural/metabolic targets (tubulin · GLUT1 · HK2)'],
+  ['#E8C65B','Warburg / metabolism / HIF-1α'],['#b39df7','p53 · MDM2'],['#E4575E','NF-κB'],
+  ['#8febc4','Cell death (apoptosis · autophagy · ROS)'],['#F283B2','NAD+'],
+  ['#E8A33D','SIRT1'],['#9D8DF1','SIRT2'],['#58D68D','SIRT3'],['#5DA8FF','SIRT6']
+];
+
+renderNetwork('netSvg', netData, nodeColor, legendDefs);
+
+['divisionSvg','sirtMapSvg','nadSvg','lineageSvg'].forEach(id=>scaleDiagramText(document.getElementById(id)));
+</script>
+</body>
+</html>
