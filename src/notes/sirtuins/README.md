@@ -25,6 +25,7 @@ updated: 2026-08-18
 | [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases\|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]] | Review surveying sirtuin structure, NAD⁺-dependent deacetylation, roles in aging and age-related diseases (neurodegenerative, cardiovascular, metabolic, cancer), and STAC/sirtuin modulators; includes Tables 2 (substrates/targets/modifiers/activators/inhibitors) and 3 (mammalian signaling pathways) |
 | [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets\|Rejuvenating Sirtuins: Cancer Drug Targets (Bruzzone et al., 2013)]] | Review on sirtuins as cancer drug targets: context-dependent tumor-suppressor/oncogenic roles, sirtuin structure, inhibitor scaffolds (nicotinamide, sirtinol/cambinol/splitomicin, EX-527, tenovins, suramin/NF675, kinase-inhibitor scaffolds), STACs (resveratrol, SRT compounds), and biochemical/cell-based screening assays |
 | [[_document_ - Sirtuins, a promising target in slowing down the ageing process\|Sirtuins: A Promising Target in Slowing Ageing (Grabowska et al., 2017)]] | Review arguing sirtuins are promising anti-ageing targets; details NAD+-dependent deacetylation, chromatin/DNA-repair roles, senescence modulation via p53/FOXO/NF-κB/AMPK/P66shc, the p53–miR-34a–SIRT1 loop, and curcumin as a candidate regulator |
+| [[_document_ - Roles of SIRT3 in aging and aging-related diseases\|Roles of SIRT3 in Aging & Aging-Related Diseases (You & Wang 2025)]] | Int J Biol Sci review: SIRT3 as the only sirtuin directly linked to human longevity — mitochondrial metabolism (TCA/β-oxidation/OXPHOS), IDH2-NADPH & SOD2 antioxidant axes, nuclear roles (H3K56, 53BP1/NHEJ, decrotonylation), apoptosis (GSK-3β, AMPK/SENP1), anti-fibrotic GSK-3β-Lys15 mechanism; disease coverage (AD/PD/ALS/HD, CVD, diabetes/DCM, cancer, AKI/CKD, AHL, COPD, IDD/OA) and SIRT3 activators (honokiol, resveratrol, melatonin, 2-APQC, silybin, matrine, liquiritigenin, poricoic acid A) |
 
 ## Entity Notes
 
@@ -82,6 +83,7 @@ updated: 2026-08-18
 | [[Resveratrol]] | Chemical Compound | Polyphenol STAC; direct allosteric (E230) + indirect (PDE4/AMPK/NAMPT/NAD⁺) SIRT1 activation |
 | [[SRT2104]] | Chemical Compound | Synthetic STAC; highly potent, selective allosteric SIRT1 activator; evaluated in clinical trials |
 | [[Honokiol]] | Chemical Compound | Biphenolic lignan from *Magnolia grandiflora*; direct SIRT3 binding; cardioprotective; deacetylates MnSOD/OSCP |
+| [[2-APQC]] | Chemical Compound | 2-Acetylphenolquinone congener; small-molecule SIRT3 agonist; alleviates cardiac hypertrophy/fibrosis via AKT/mTOR/p70S6K and JNK/TGF-β/Smad3 suppression (validated in SIRT3-KO and NAM inhibition) |
 | [[Dihydromyricetin]] | Chemical Compound | Flavonoid from vine tea (*Ampelopsis grossedentata*); SIRT3 + AMPK activator; hepatoprotective |
 | [[UBCS039]] | Chemical Compound | First synthetic SIRT6 allosteric activator; hydrophobic pocket binding; tumor suppressive; liver-protective |
 | [[MDL-801]] | Chemical Compound | Potent synthetic SIRT6 allosteric activator; more potent than parent MDL-800; anti-fibrotic |
@@ -292,3 +294,48 @@ updated: 2026-08-18
 |--------|--------------|-------------|
 | [[Rifampicin]] | Chemical Compound | Hepatic enzyme inducer that can accelerate metabolism of drugs such as urolithin A by activating CYP450 enzymes, reducing systemic exposure. |
 | [[Tenovin-1 and Tenovin-6]] | Chemical Compound | Small-molecule sirtuin inhibitors that block SIRT1/SIRT2 deacetylation of p53, causing p53 hyperacetylation and activation with anticancer activity. |
+
+### 2026-08-18 SIRT3 Review Additions (Roles of SIRT3 in aging and aging-related diseases)
+
+Entities created from the [[_document_ - Roles of SIRT3 in aging and aging-related diseases|SIRT3 review (You & Wang 2025)]]; cross-topic entities live in `src/notes/_link/`.
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[Type 2 Diabetes]] | Disease | Chronic metabolic disorder of insulin resistance and progressive β-cell dysfunction; SIRT3 deficiency impairs muscle glucose handling |
+| [[Diabetic Cardiomyopathy]] | Disease | Cardiac dysfunction in diabetes independent of CAD/hypertension; SIRT3 protects via the AGO2/cytochrome b axis |
+| [[Age-related Hearing Loss]] | Disease | Cumulative auditory impairment; SIRT3-driven IDH2/NADPH defense preserves cochlear hair cells under CR |
+| [[Periodontitis]] | Disease | Inflammatory disease of tooth-supporting tissues; SIRT3 is the obligatory node for irisin osteoprotection |
+| [[Chronic Lymphocytic Leukemia]] | Disease | Most common adult leukemia; SIRT3 ROS buffering confers chemoresistance |
+| [[Non-homologous End Joining]] | Pathway | DSB repair ligating broken ends; SIRT3 boosts efficiency via 53BP1 and H3K56 deacetylation |
+| [[Histone Crotonylation]] | Scientific Concept | Lysine crotonylation erased by SIRT3 decrotonylase activity; controlled at ETS1 loci in metastasis |
+| [[Lactylation]] | Scientific Concept | Lactate-derived lysine acylation; SIRT3 loss drives ACSL4 lactylation and disc ferroptosis |
+| [[SENP1]] | Enzyme | SUMO protease; metformin/AMPK-driven deSUMOylation activates SIRT3 in AKI |
+| [[Succinate Dehydrogenase]] | Enzyme | SDH/complex II; SIRT3-regulated acetylation node coupling TCA flux to ETC |
+| [[MMP-7]] | Enzyme | Matrix metalloproteinase 7; ECM/EMT remodeler downstream of β-catenin deacetylation |
+| [[NADPH oxidase]] | Enzyme | NOX superoxide generator; inhibited by SIRT3 in angiotensin II nephropathy |
+| [[soluble epoxide hydrolase]] | Enzyme | sEH/EPHX2; proteolytically modulates SIRT3 turnover in renal vascular calcification |
+| [[DNA Ligase IV]] | Enzyme | LIG4; terminal NHEJ ligase in the SIRT3-associated DNA repair network |
+| [[Mst1]] | Enzyme | STK4 kinase; inhibited by melatonin alongside SIRT3 upregulation in DCM |
+| [[MIP-2]] | Protein | CXCL2 chemokine; expression suppressed downstream of SIRT3 activation |
+| [[Irisin]] | Protein | FNDC5-derived myokine; osteoprotection and redox control require SIRT3 |
+| [[GRP75]] | Protein | Mortalin/HSPA9; VDAC1/IP3R calcium bridge inhibited by SIRT3 in diabetic neurotoxicity |
+| [[COL1A1]] | Gene | Type I collagen α1; pro-fibrotic gene deacetylated/suppressed by SIRT3 |
+| [[ETS1]] | Gene | ETS transcription factor; promoter H3K27 crotonylation controlled by SIRT3 |
+| [[FOS]] | Gene | c-Fos/AP-1 component; SIRT3 suppresses its pro-fibrotic signaling in cardiomyocytes |
+| [[DACH1]] | Gene | Dachshund homolog 1; lncRNA DACH1 interacts with SIRT3 in heart failure |
+| [[AGO2]] | Protein | Argonaute 2; SIRT3-modulated AGO2/cytochrome b axis in DCM |
+| [[Stanniocalcin-1]] | Protein | Glycoprotein hormone; hormetic AMPK/SIRT3 axis inhibits BNIP3 in diabetic kidney injury |
+| [[Intermedin]] | Protein | Adrenomedullin 2; AMPK/SIRT3 cristae remodeling opposes vascular calcification |
+| [[Meteorin-like]] | Protein | Metrnl myokine; activates PGC-1α/SIRT3 axis in diabetic nephropathy |
+| [[Annexin A1]] | Protein | ANXA1; its tripeptide Ac2-26 transcriptionally upregulates SIRT3 |
+| [[Hair Cells]] | Cell Type | Cochlear mechanosensory cells preserved by the SIRT3–IDH2–NADPH axis |
+| [[Cochlea]] | Anatomy | Auditory organ whose CR protection requires SIRT3 |
+| [[Nucleus Pulposus]] | Tissue | Disc core; NPC ferroptosis in IDD linked to SIRT3 loss and ACSL4 lactylation |
+| [[miR-494-3p]] | MicroRNA | Targets SIRT3 under oxidative stress, driving senescence and COPD airway aging |
+| [[Withaferin A]] | Chemical Compound | Withanolide; hepatic anti-fibrotic effect is SIRT3-dependent |
+| [[Indole-3-propionic acid]] | Chemical Compound | Gut-derived metabolite potentiating SIRT3 in HFpEF |
+| [[Silybin]] | Chemical Compound | Milk-thistle flavonolignan; SIRT3-mediated cisplatin nephroprotection |
+| [[Matrine]] | Chemical Compound | Sophora alkaloid; SIRT3/OPA1 and SIRT3/AMPK renal/cardiac protection |
+| [[Liquiritigenin]] | Chemical Compound | Licorice flavanone; Nrf2-driven SIRT3 potentiation in AKI |
+| [[Poricoic acid A]] | Chemical Compound | Poria triterpenoid; SIRT3 upregulation and β-catenin K49 deacetylation |
+| [[2-APQC]] | Chemical Compound | Small-molecule SIRT3 agonist; anti-hypertrophic/fibrotic via AKT/mTOR and JNK/TGF-β/Smad3 suppression |
