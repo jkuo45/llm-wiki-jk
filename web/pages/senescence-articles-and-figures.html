@@ -69,6 +69,39 @@
       line-height: 1.5;
       margin-bottom: 10px;
     }
+    .gallery-card .gap {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-left: 3px solid var(--teal);
+      padding: 2px 0 0 12px;
+      margin-bottom: 10px;
+    }
+    .gallery-card .gap b,
+    .gallery-card .context b { color: var(--text); }
+    .rg-summary {
+      font-size: .82rem;
+      line-height: 1.5;
+      color: var(--dim);
+      background: rgba(127,127,220,.05);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--teal);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 4px 0 16px;
+    }
+    .rg-summary h3 {
+      font-size: .85rem;
+      margin: 0 0 8px;
+      color: var(--text);
+      letter-spacing: .3px;
+    }
+    .rg-summary ul { margin: 4px 0 0; padding-left: 18px; }
+    .rg-summary li { margin: 5px 0; }
+    .rg-summary .fill { color: var(--teal); font-weight: 700; }
+    .rg-summary .partial { color: var(--amber); font-weight: 700; }
+    .rg-summary .open { color: var(--red); font-weight: 700; }
+
     .gallery-card .context {
       font-size: .78rem;
       color: var(--mute);
@@ -170,7 +203,7 @@
     <a class="n" href="#epigenetics">Epigenetics</a>
     <a class="n" href="#mitochondria">Mitochondria</a>
     <a class="n" href="#cancer">Cancer &amp; SASP</a>
-    <a class="n" href="#tier1">Tier 1 Papers</a>
+    <a class="n" href="#research">Research Gaps</a>
     <a class="n" href="#library">Documents Index</a>
   </div>
 </nav>
@@ -1013,9 +1046,9 @@
 </section>
 
 <!-- ==================== TIER 1 PAPERS (RESEARCH-GAP RECOMMENDATIONS) ==================== -->
-<section id="tier1">
+<section id="research">
   <div class="wrap">
-    <h2>Tier 1 Papers — Research-Gap Recommendations (18 Aug 2026)</h2>
+    <h2>Research Gaps — Recommendations (18 Aug 2026)</h2>
     <p class="lead" style="margin-bottom:6px;">
       21 figures from the eleven Tier 1 papers recommended on 18 August 2026 to fill the research gaps catalogued in
       the senescence gap analysis (<code>src/tasks/task_output_senescence_research_gaps_18_August_2026.md</code>):
@@ -1040,10 +1073,25 @@
       from PMC under the 12-month NIH embargo — see
       <a href="https://pubmed.ncbi.nlm.nih.gov/40203808/" target="_blank">PubMed ↗</a>.</span>
     </p>
-    <div class="gallery-grid" data-gallery="tier1">
+    <div class="rg-summary">
+      <h3>How these papers map to the gaps</h3>
+      <p style="margin:0 0 6px;">Eleven Tier 1 papers were recommended on 18 Aug 2026 to fill the senescence gaps below; the figures on this page correspond to them as follows.</p>
+      <ul>
+        <li><b>SAHF–SASP necessity &amp; 3D genome</b> — <span class="partial">partially filled</span>: Olan 2024 (HMGA1 3D networks) + Shaban &amp; Gasser 2025 (3D review); a definitive SAHF-ablation / in vivo necessity test is still missing.</li>
+        <li><b>DNA hypomethylation → enhancer/SASP loops + LINE-1 derepression</b> — <span class="partial">partially filled</span>: Dalgarno 2025 preprint (~2.75 kb loops, hypomethylation-driven, LINE-1 hotspot); enhancer causality in vivo remains untested.</li>
+        <li><b>mtDNA release pore identity</b> — <span class="fill">filled</span>: Victorelli 2023 (BAX/BAK macropores) + Li 2024 (VDAC1 in postmitotic muscle).</li>
+        <li><b>Nuclear cGAS noncanonical functions</b> — <span class="partial">partially filled</span>: Dvorkin 2024 + Tan 2026 (reviews).</li>
+        <li><b>SADS / pericentromeric heterochromatin</b> — <span class="partial">partially filled</span>: Mendez-Bermudez 2022 (TP53-driven dismantling) + Zhang 2021 (heterochromatin-loss 3D).</li>
+        <li><b>TIS escape</b> — <span class="fill">filled at concept level</span>: Saleh 2024 (escapability commentary).</li>
+        <li><b>LINE-1 / NRTI senomorphic axis</b> — <span class="partial">partially filled</span>: Simon 2019 (NRTI suppression; lifespan in SIRT6-KO); no human NRTI trial yet.</li>
+        <li><b>3D genome reorganization (framework)</b> — <span class="fill">filled</span>: Shaban &amp; Gasser 2025 (defining cell states through chromatin).</li>
+      </ul>
+      <p class="rg-note" style="margin:8px 0 0;">Gaps from the full analysis not covered by the figures on this page (addressed elsewhere in the Tier 2/3 lists): <b>CCF formation mechanism</b>; <b>OIS senolytic paradox</b>; <b>universal senescence biomarker</b> (SenCat/SenePy/SenNet); <b>clinical senolytic &amp; intermittent-dosing trials</b> (UBX1325, SToMP-AD); <b>SADS universality screen</b>.</p>
+    </div>
+    <div class="gallery-grid" data-gallery="research">
 
       <!-- OLAN FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e2ea/11319441/eaef6ac3935d/41467_2024_51153_Fig1_HTML.jpg"
                alt="Protein-level changes of key senescence genes in proliferating IMR90, OIS, and OIS with HMGA1 knockdown"
@@ -1059,16 +1107,18 @@
             DAPI (blue) and HMGA1 (magenta) in Grow, OIS and OIS-shA1 cells, and HMGA1 consensus peaks are intersected
             with the OIS transcriptome.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SAHF–SASP necessity & 3D genome organization: “The necessity of SAHF for SASP expression remains unresolved” — SAHF formation correlates with SASP, but 3D-seq data showing how compaction coexists with SASP euchromatin were lacking.
+          </div>
           <div class="context">
-            Establishes HMGA1 — an architectural chromatin protein — as an active organizer of senescence
-            transcriptional heterogeneity, connecting the "3D genome in senescence" gap to the SASP output.
+            <b>How it fills the gap:</b> Establishes HMGA1 — an architectural chromatin protein — as an active organizer of senescence transcriptional heterogeneity, connecting the “3D genome in senescence” gap to the SASP output.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11319441/" target="_blank">Source: PMC11319441 ↗</a>
         </div>
       </div>
 
       <!-- OLAN FIG 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e2ea/11319441/08431c123fb3/41467_2024_51153_Fig2_HTML.jpg"
                alt="Hi-C interaction maps of IMR90 fibroblasts in Grow, Grow-shA1, OIS and OIS-shA1 with H3K9me3 peaks and interaction arcs"
@@ -1083,16 +1133,18 @@
             differential interactions in OIS-shA1 versus OIS are cross-checked against OIS versus Grow, and interaction
             changes are annotated for HMGA1 binding (minimum five peaks per bin) and interaction-distance dependence.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Compartment switching vs. heterochromatin loss: the degree to which 3D remodeling (compartments, subcompartments, loops) drives SASP versus merely correlates remains unresolved.
+          </div>
           <div class="context">
-            Directly addresses the "chromatin rewiring in senescence" gap: HMGA1-dependent compartment switching is a
-            mechanism by which the senescent 3D genome is reorganized around H3K9me3-dense regions.
+            <b>How it fills the gap:</b> Directly addresses the “chromatin rewiring in senescence” gap — HMGA1-dependent compartment switching is a mechanism by which the senescent 3D genome is reorganized around H3K9me3-dense regions.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11319441/" target="_blank">Source: PMC11319441 ↗</a>
         </div>
       </div>
 
       <!-- DALGARNO FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91f2/12262444/376aa9e7dd9c/nihpp-2025.06.11.659151v1-f0001.jpg"
                alt="Quality control and experimental overview: Hi-C, RNA-seq and long-read DNA sequencing of proliferating and replicatively senescent LF1 fibroblasts"
@@ -1107,16 +1159,18 @@
             displays key architectural features and genomic annotations, and multidimensional scaling (MDS) shows tight
             clustering of biological replicates.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Late-stage senescence understudied: “Late (chronically retained) senescent cells are the most therapeutically relevant population but are rarely profiled due to experimental difficulty”; most senescence Hi-C maps are >10 kb, too coarse for loops and enhancer–promoter contacts.
+          </div>
           <div class="context">
-            A preprint (2025.06.11.659151) filling the "large-scale chromatin rewiring" gap with late-stage RS data —
-            the stage at which SASP and transposable-element activation dominate the transcriptome.
+            <b>How it fills the gap:</b> A preprint (2025.06.11.659151) filling the “large-scale chromatin rewiring” gap with ≈2.75 kb late-stage RS maps — the stage at which SASP and transposable-element activation dominate the transcriptome.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262444/" target="_blank">Source: PMC12262444 ↗</a>
         </div>
       </div>
 
       <!-- DALGARNO FIG 6 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91f2/12262444/b30af8ec6816/nihpp-2025.06.11.659151v1-f0006.jpg"
                alt="Senescence-associated chromatin remodeling promotes LINE-1 derepression: expression, subcompartment shifts and loop proximity"
@@ -1131,16 +1185,18 @@
             proliferating-specific, RS-specific and shared chromatin loops is quantified — tying 3D reorganization
             directly to repeat-element activation.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Retrotransposon–3D link: “DNA demethylation and heterochromatin decondensation trigger ERV transcription, and LINE-1 derepression drives IFN-mediated inflammation; how 3D genome architecture supports retrotransposon activation … is only beginning to be defined.”
+          </div>
           <div class="context">
-            Links the "3D genome" and "LINE-1" gaps: 3D chromatin rewiring in senescence is a route by which LINE-1
-            derepression — and downstream inflammation — is unleashed.
+            <b>How it fills the gap:</b> Links the “3D genome” and “LINE-1” gaps — 3D chromatin rewiring in senescence is a route by which LINE-1 derepression, and downstream inflammation, is unleashed.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262444/" target="_blank">Source: PMC12262444 ↗</a>
         </div>
       </div>
 
       <!-- VICTORELLI FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c763/10584674/3238f6667795/41586_2023_6621_Fig1_HTML.jpg"
                alt="Super-resolution SIM images showing cytochrome c outside mitochondria in radiation-induced senescent fibroblasts"
@@ -1155,17 +1211,18 @@
             with TOM20 in senescent cells. Quantification uses Pearson's correlation coefficient, with relative levels of
             cytosolic Cyt c measured across conditions.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> mtDNA release pore identity: “It remains unclear … which mitochondrial pores or channels mediate mtDNA release, and whether these processes are conserved across cell types” (JCI quote in the gap analysis).
+          </div>
           <div class="context">
-            Grounds the "mtDNA-driven SASP" gap in the miMOMP concept: mitochondria in senescent cells undergo
-            BAX/BAK-dependent membrane permeabilization that leaks mitochondrial content — including mtDNA — into the
-            cytosol without killing the cell.
+            <b>How it fills the gap:</b> Grounds the “mtDNA-driven SASP” gap in the miMOMP concept — mitochondria in senescent cells undergo BAX/BAK-dependent membrane permeabilization that leaks mitochondrial content, including mtDNA, into the cytosol without killing the cell.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10584674/" target="_blank">Source: PMC10584674 ↗</a>
         </div>
       </div>
 
       <!-- VICTORELLI EXT DATA FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c763/10584674/bf8527c03bb1/41586_2023_6621_Fig7_ESM.jpg"
                alt="Scheme of the mechanism by which ABT-737 induces miMOMP: mitochondrial outer membrane permeabilization without cell death, driving SASP"
@@ -1179,16 +1236,18 @@
             (miMOMP): cleaved caspase 3 appears in treated MRC5 fibroblasts, LDH release shows no increase in cell
             death over 72 h, and IL-6 secretion rises — a non-lethal, mitochondrial-driven inflammatory program.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same pore-identity gap — needed proof that the leak itself (not apoptosis) is sufficient to drive the SASP.
+          </div>
           <div class="context">
-            The mechanistic summary of the paper: miMOMP (and its mtDNA cargo) is sufficient to trigger the SASP via
-            cGAS-STING, independent of apoptosis — the core of the [[mtDNA]]/[[BAX]]/[[BAK]] gap recommendations.
+            <b>How it fills the gap:</b> The mechanistic summary of the paper — miMOMP (and its mtDNA cargo) is sufficient to trigger the SASP via cGAS-STING, independent of apoptosis; the core of the [[mtDNA]]/[[BAX]]/[[BAK]] gap recommendations.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10584674/" target="_blank">Source: PMC10584674 ↗</a>
         </div>
       </div>
 
       <!-- LI FIG 5 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d742/11263593/f0691f2a7c55/41419_2024_6863_Fig5_HTML.jpg"
                alt="cGAS accumulation at VDAC1-high vesicles in aged muscle myofibers with oxidative mtDNA damage"
@@ -1202,16 +1261,18 @@
             co-immunostained for cGAS and VDAC1: Z24<sup>−/−</sup> myofibers show increased cGAS<sup>+</sup> vesicles,
             frequently adjacent to VDAC1-high mitochondria (yellow and white arrows) — sites of mtDNA sensing.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> mtDNA release in postmitotic cells (VDAC1): pore identity is trigger- and cell-type-dependent — in some neuronal lines mPTP inhibition fails to reduce cytosolic mtDNA; the VDAC1 portal was proposed but not visualized in vivo.
+          </div>
           <div class="context">
-            Direct imaging evidence for the "VDAC1 in senescence" gap: VDAC1 oligomerization portals are where
-            cytosolic cGAS meets leaked mtDNA in vivo.
+            <b>How it fills the gap:</b> Direct imaging evidence for the “VDAC1 in senescence” gap — VDAC1 oligomerization portals are where cytosolic cGAS meets leaked mtDNA in vivo.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11263593/" target="_blank">Source: PMC11263593 ↗</a>
         </div>
       </div>
 
       <!-- LI FIG 8 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d742/11263593/e3dae3fa77da/41419_2024_6863_Fig8_HTML.jpg"
                alt="Model: oxidative mtDNA damage promotes VDAC1 oligomerization and mtDNA leakage, activating cGAS-STING and NF-kB in aged muscle"
@@ -1226,16 +1287,18 @@
             into the cytosol. cGAS-STING innate immune signaling is activated by cytosolic mtDNA, leading to p-TBK1/IRF3
             and NF-κB activation and expression of pro-inflammatory factors including type-I interferons.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — a mechanistic model of ox-mtDNA → VDAC1 oligomerization → leakage → cGAS-STING in postmitotic tissue was needed.
+          </div>
           <div class="context">
-            A mechanistic fill for the "VDAC1–mtDNA–cGAS-STING" gap in postmitotic tissue — where senescence of
-            non-dividing muscle cells drives accelerated aging.
+            <b>How it fills the gap:</b> A mechanistic fill for the “VDAC1–mtDNA–cGAS-STING” gap in postmitotic tissue — where senescence of non-dividing muscle cells drives accelerated aging.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11263593/" target="_blank">Source: PMC11263593 ↗</a>
         </div>
       </div>
 
       <!-- DVORKIN FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/aa5d/11013568/48c5e8af12d6/nihms-1971916-f0001.jpg"
                alt="Multiple sources of self and foreign DNA converge on cGAS activation leading to STING-dependent signaling"
@@ -1249,16 +1312,18 @@
             signaling — including mitochondrial DNA, micronuclei/cytoplasmic chromatin fragments, and LINE-1-derived
             cDNA that accumulate in senescence.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Nuclear cGAS noncanonical functions: “Further studies are needed to elucidate nuclear cGAS–interacting proteins and the functional consequences of nuclear cGAS on chromatin” (JCI quote).
+          </div>
           <div class="context">
-            The conceptual anchor for the "nuclear cGAS" gap: understanding which DNA species activate cGAS requires
-            the full inventory of self-DNA sources that senescence produces.
+            <b>How it fills the gap:</b> The conceptual anchor for the “nuclear cGAS” gap — understanding which DNA species activate cGAS requires the full inventory of self-DNA sources that senescence produces.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11013568/" target="_blank">Source: PMC11013568 ↗</a>
         </div>
       </div>
 
       <!-- DVORKIN FIG 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/aa5d/11013568/bee2ca103607/nihms-1971916-f0002.jpg"
                alt="Two pools of cGAS: nuclear cGAS sequestered inactive on the nucleosome acidic patch and cytosolic cGAS competent to signal"
@@ -1273,16 +1338,18 @@
             activated by pathogenic DNA or by self-DNA released after mitochondrial or genomic DNA damage, stimulating
             production of the second messenger cGAMP.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — why cGAS is largely silent in the nucleus until DNA arrives in the cytosol was unexplained.
+          </div>
           <div class="context">
-            Directly fills the "nuclear cGAS in senescence" gap: nuclear tethering explains why cGAS is largely silent
-            until DNA is delivered to the cytoplasm — the event miMOMP and CCF formation provide.
+            <b>How it fills the gap:</b> Directly fills the “nuclear cGAS in senescence” gap — nuclear tethering explains why cGAS is largely silent until DNA is delivered to the cytoplasm, the event miMOMP and CCF formation provide.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11013568/" target="_blank">Source: PMC11013568 ↗</a>
         </div>
       </div>
 
       <!-- TAN FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d345/13170000/bd8f07a4bccb/12964_2026_2855_Fig1_HTML.jpg"
                alt="Mechanism by which cGAS regulates the DNA damage response in cellular senescence: micronuclei, nuclear membrane rupture and SASP"
@@ -1297,16 +1364,18 @@
             where it binds cGAS and activates STING signaling, promoting the production of senescence-associated
             secretory phenotype (SASP) factors.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Nuclear cGAS / mtDNA in senescence & aging (2026 state): no unified, current diagram of the cGAS–DDR–SASP axis existed for the vault.
+          </div>
           <div class="context">
-            Review-scale synthesis for the "cGAS-STING in senescence" gap: a unified diagram of how DNA-damage-derived
-            cytosolic DNA drives the SASP.
+            <b>How it fills the gap:</b> Review-scale synthesis for the “cGAS-STING in senescence” gap — a unified diagram of how DNA-damage-derived cytosolic DNA drives the SASP.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13170000/" target="_blank">Source: PMC13170000 ↗</a>
         </div>
       </div>
 
       <!-- TAN FIG 8 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d345/13170000/20811a880018/12964_2026_2855_Fig8_HTML.jpg"
                alt="cGAS-STING integrates stress signals including DNA damage, hypoxia, ammonia-induced cell death and NETs to drive senescence and inflammation"
@@ -1321,16 +1390,18 @@
             By recognizing accumulated cytoplasmic damaged DNA (mtDNA, nuclear fragments, NET-derived DNA), it induces
             both cell-autonomous senescence and secretion of inflammatory cytokines.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — a synthesis positioning cGAS-STING at the convergence of the mtDNA, L1-cDNA and CCF literature, with therapy mapping, was needed.
+          </div>
           <div class="context">
-            Positions cGAS-STING as the convergence point across the senescence field's mtDNA, L1-cDNA and CCF
-            literature — including therapeutic opportunities (cGAS/STING inhibitors, senolytics).
+            <b>How it fills the gap:</b> Positions cGAS-STING as the convergence point across the senescence field's mtDNA, L1-cDNA and CCF literature — including therapeutic opportunities (cGAS/STING inhibitors, senolytics).
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13170000/" target="_blank">Source: PMC13170000 ↗</a>
         </div>
       </div>
 
       <!-- MENDEZ-BERMUDEZ FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a24/9303393/86a5ba83d306/gkac603fig1.jpg"
                alt="Pericentromeric damage during cellular senescence: telomeric TIFs, pericentromeric PIFs and opening of satellite III repeats across population doublings"
@@ -1344,16 +1415,18 @@
             pericentromeric damage (PIFs) and opening of satellite III (Sat III; PNA-signal diameter) were estimated
             from immunofluorescent confocal microscopy by colocalization of 53BP1 with repeat-element PNA probes.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SADS universality: “The main uncertainty is the degree to which SADS is universal across senescence inducers versus context-specific”; also, the mechanism of pericentromeric dismantling was unknown.
+          </div>
           <div class="context">
-            Fills the "pericentromeric heterochromatin dismantling" gap in replicative senescence — damage and opening
-            of satellite repeats precede full senescence, distinct from telomere-driven TIFs.
+            <b>How it fills the gap:</b> Fills the “pericentromeric heterochromatin dismantling” gap in replicative senescence — damage and opening of satellite repeats precede full senescence, distinct from telomere-driven TIFs.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9303393/" target="_blank">Source: PMC9303393 ↗</a>
         </div>
       </div>
 
       <!-- MENDEZ-BERMUDEZ FIG 8 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a24/9303393/d13553bcb929/gkac603fig8.jpg"
                alt="Model of pericentromeric DNA dismantling during cellular senescence: TP53-dependent TRF2 loss, satellite release and cGAS activation"
@@ -1367,16 +1440,18 @@
             destabilizes pericentromeric heterochromatin (PCH) at Sat II/III, releasing satellite DNA into the cytosol
             where it activates cGAS — a distinct senescence-associated source of cytosolic self-DNA.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — a molecular model (TP53-dependent TRF2 loss) tying SADS to a cytosolic self-DNA source was needed.
+          </div>
           <div class="context">
-            A third cytosolic-DNA feed for the cGAS-STING SASP alongside mtDNA and L1 cDNA — completing the
-            self-DNA inventory in the gap analysis.
+            <b>How it fills the gap:</b> A third cytosolic-DNA feed for the cGAS-STING SASP alongside mtDNA and L1 cDNA — completing the self-DNA inventory in the gap analysis.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9303393/" target="_blank">Source: PMC9303393 ↗</a>
         </div>
       </div>
 
       <!-- ZHANG FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4961/8256869/8b53443d1a0b/1121f01.jpg"
                alt="Compartment switching of H3K27me3-associated heterochromatin: A-to-B and B-to-A transitions during senescence"
@@ -1391,16 +1466,18 @@
             reversed (QR) IMR90 cells: clusters 1–2 correspond to A-to-B transitions and clusters 3–4 to B-to-A,
             with B-to-A regions occupying a higher proportion of the genome.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SADS / heterochromatin loss & 3D genome: the genome-wide link between heterochromatin loss and compartment reorganization was not established at scale.
+          </div>
           <div class="context">
-            Anchors the "heterochromatin loss" gap at compartment scale: senescence reorganizes which genomic regions
-            are active (A) versus repressive (B) at the megabase level.
+            <b>How it fills the gap:</b> Anchors the “heterochromatin loss” gap at compartment scale — senescence reorganizes which genomic regions are active (A) versus repressive (B) at the megabase level.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8256869/" target="_blank">Source: PMC8256869 ↗</a>
         </div>
       </div>
 
       <!-- ZHANG FIG 7 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4961/8256869/c5e136610569/1121f07.jpg"
                alt="Model for heterochromatin reorganization in senescent cells: B-to-A switches, H3K9me3 loss, H3K27me3 gain, novel loops and gene expression leakage"
@@ -1415,16 +1492,18 @@
             form novel loops. These changes accompany loss of H3K9me3, gain of H3K27me3, increased chromatin
             accessibility, and gene-expression leakage with aberrant repetitive-element expression.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — an integrative multiscale model connecting heterochromatin loss to aberrant transcription was needed.
+          </div>
           <div class="context">
-            The integrative model for the "heterochromatin loss &amp; 3D genome" gaps: multiscale reorganization leads
-            to both inflammatory gene derepression and repeat-element activation in senescence.
+            <b>How it fills the gap:</b> The integrative model for the “heterochromatin loss & 3D genome” gaps — multiscale reorganization leads to both inflammatory gene derepression and repeat-element activation in senescence.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8256869/" target="_blank">Source: PMC8256869 ↗</a>
         </div>
       </div>
 
       <!-- SALEH FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8cc5/11229739/4891300e58fc/KCCY_A_2364579_F0001_OC.jpg"
                alt="Timeline of major events in the evolution of therapy-induced senescence escape, from Hayflick's replicative senescence to recent TIS escape findings"
@@ -1440,16 +1519,18 @@
             bleomycin can induce senescence — and, finally, the recent demonstrations that therapy-induced senescence
             is not always irreversible.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> TIS escape: “A small population of TIS cells can override arrest and re-enter the cell cycle, seeding recurrence”; molecular determinants, frequency in patients, and whether senolytic clearance of TIS cells improves outcomes “remain poorly defined.”
+          </div>
           <div class="context">
-            A single-figure commentary filling the "TIS escape" gap: cancer cells can escape therapy-induced
-            senescence, and the 3D-genome and LINE-1 mechanisms catalogued above may contribute to that escape.
+            <b>How it fills the gap:</b> A single-figure commentary — cancer cells can escape therapy-induced senescence, and the 3D-genome and LINE-1 mechanisms catalogued above may contribute to that escape.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11229739/" target="_blank">Source: PMC11229739 ↗</a>
         </div>
       </div>
 
       <!-- SIMON FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1eae/6449196/58381a00d9f2/nihms-1522926-f0001.jpg"
                alt="Treatment with the NRTIs 3TC and d4T inhibits L1 retrotransposition in wild-type and SIRT6 knockout MEFs"
@@ -1464,16 +1545,18 @@
             plasmids containing full-length L1 elements; de novo retrotransposition events that activated GFP were
             scored by flow cytometry and normalized for transfection efficiency.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> LINE-1 / NRTI senomorphic axis: “LINE-1/NRTI interventions (e.g., lamivudine) suppress retrotransposon-driven inflammation in mice but lack human clinical evidence” — the direct pharmacological test of L1-driven inflammation was missing.
+          </div>
           <div class="context">
-            The mechanistic basis for the "LINE-1–NRTI" gap: reverse-transcriptase inhibitors are a pharmacological
-            handle on L1-driven inflammation in senescence.
+            <b>How it fills the gap:</b> The mechanistic basis for the “LINE-1–NRTI” gap — reverse-transcriptase inhibitors are a pharmacological handle on L1-driven inflammation in senescence.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6449196/" target="_blank">Source: PMC6449196 ↗</a>
         </div>
       </div>
 
       <!-- SIMON FIG 5 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1eae/6449196/b4ea46368edd/nihms-1522926-f0005.jpg"
                alt="NRTI treatment improves the appearance and extends mean and maximum lifespan of SIRT6 knockout mice"
@@ -1488,16 +1571,18 @@
             untreated SIRT6-KO controls; n = 10 animals, p &lt; 0.0001, log-rank test) and improves body weight (n = 10,
             p &lt; 0.0001, one-way ANOVA).
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — whether NRTI treatment has organism-level (lifespan) consequences in vivo was untested.
+          </div>
           <div class="context">
-            In vivo proof that dampening L1 retrotransposition is anti-inflammatory and pro-longevity in a
-            premature-aging model — direct support for the LINE-1/NRTI gap recommendations.
+            <b>How it fills the gap:</b> In vivo proof that dampening L1 retrotransposition is anti-inflammatory and pro-longevity in a premature-aging model — direct support for the LINE-1/NRTI gap recommendations.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6449196/" target="_blank">Source: PMC6449196 ↗</a>
         </div>
       </div>
 
       <!-- SHABAN FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5b13/11748698/c366300a2565/41418_2023_1197_Fig1_HTML.jpg"
                alt="Overview of the senescence program: inducers, cellular and molecular effects, and irreversible arrest"
@@ -1513,16 +1598,18 @@
             metabolic and mitochondrial alterations, and accumulation of DNA damage — all stimuli leading to
             irreversible cell-cycle arrest.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> 3D genome reorganization (review context): the many 3D-genome papers needed a shared framework defining cell states through chromatin — where reorganization sits in the senescence program.
+          </div>
           <div class="context">
-            Review-level framing for the "3D genome in senescence" gap: where chromatin reorganization sits within the
-            broader senescence program.
+            <b>How it fills the gap:</b> Review-level framing for the “3D genome in senescence” gap — where chromatin reorganization sits within the broader senescence program.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748698/" target="_blank">Source: PMC11748698 ↗</a>
         </div>
       </div>
 
       <!-- SHABAN FIG 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5b13/11748698/98c9b1929ef1/41418_2023_1197_Fig2_HTML.jpg"
                alt="SAHF formation in oncogene-induced senescence: LADs move from the nuclear periphery to the interior and assemble into multi-layered heterochromatin"
@@ -1538,9 +1625,11 @@
             regions (green), euchromatin is shown in blue, and senescence-specific LADs move toward the periphery — a
             multi-layered heterochromatin architecture.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap — the nuclear-architecture (LAD/SAHF) mechanism tying pericentromeric dismantling to 3D reorganization was not consolidated.
+          </div>
           <div class="context">
-            Connects the "pericentromeric dismantling" and "3D genome" gaps at the level of nuclear architecture:
-            LAD detachment is the scaffolding event behind heterochromatin restructuring.
+            <b>How it fills the gap:</b> Connects the “pericentromeric dismantling” and “3D genome” gaps at the level of nuclear architecture — LAD detachment is the scaffolding event behind heterochromatin restructuring.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748698/" target="_blank">Source: PMC11748698 ↗</a>
         </div>
@@ -1559,7 +1648,7 @@
       all <b style="color:var(--text)">15 source documents</b> in <code>src/notes/senescence/</code> are catalogued below
       (canonical index: <code>src/notes/senescence/README.md</code>). Every figure in the gallery above is drawn from one of the
       starred documents (★) or from the Tier 1 papers in the
-      <a href="#tier1">Tier 1 Papers section</a> (pending ingestion, recommended 18 Aug 2026).
+      <a href="#research">Research Gaps section</a> (pending ingestion, recommended 18 Aug 2026).
     </p>
     <div class="pill-row" style="margin-top:14px;">
       <span class="badge teal">15 documents</span>

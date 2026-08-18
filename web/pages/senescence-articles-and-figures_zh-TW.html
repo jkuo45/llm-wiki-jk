@@ -72,6 +72,39 @@
       line-height: 1.5;
       margin-bottom: 10px;
     }
+    .gallery-card .gap {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-left: 3px solid var(--teal);
+      padding: 2px 0 0 12px;
+      margin-bottom: 10px;
+    }
+    .gallery-card .gap b,
+    .gallery-card .context b { color: var(--text); }
+    .rg-summary {
+      font-size: .82rem;
+      line-height: 1.5;
+      color: var(--dim);
+      background: rgba(127,127,220,.05);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--teal);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 4px 0 16px;
+    }
+    .rg-summary h3 {
+      font-size: .85rem;
+      margin: 0 0 8px;
+      color: var(--text);
+      letter-spacing: .3px;
+    }
+    .rg-summary ul { margin: 4px 0 0; padding-left: 18px; }
+    .rg-summary li { margin: 5px 0; }
+    .rg-summary .fill { color: var(--teal); font-weight: 700; }
+    .rg-summary .partial { color: var(--amber); font-weight: 700; }
+    .rg-summary .open { color: var(--red); font-weight: 700; }
+
     .gallery-card .context {
       font-size: .78rem;
       color: var(--mute);
@@ -173,6 +206,7 @@
     <a class="n" href="#epigenetics">表觀遺傳</a>
     <a class="n" href="#mitochondria">粒線體</a>
     <a class="n" href="#cancer">癌症與 SASP</a>
+    <a class="n" href="#research">研究缺口</a>
     <a class="n" href="#library">文獻索引</a>
   </div>
 </nav>
@@ -185,10 +219,12 @@
       本頁是 <b style="color:var(--text)">senescence 主題在 wiki 中的索引</b>——下方完整收錄
       <code>src/notes/senescence/</code> 目錄中的全部 <b style="color:var(--text)">15 份文件</b>，
       從同儕審查文章（其中 6 篇為 PMC 回顧）到 AI 對話衍生與綜合整理筆記，皆附引用資訊
-      與原始出版品連結。圖表庫選自 8 個開放取用來源中的
-      <b style="color:var(--text)">29 張圖表</b>——涵蓋 SASP、cGAS-STING 在發炎與癌症中的
-      訊號傳遞、衰老溶解／調節干預（非瑟酮）、SASP 的表觀遺傳調控、粒線體功能障礙，
-      以及衰老在神經退化中的角色。
+      與原始出版品連結。圖表庫選自 19 個開放取用來源中的
+      <b style="color:var(--text)">50 張圖表</b>——涵蓋 SASP、cGAS-STING 在發炎與癌症中的
+      訊號傳遞、衰老溶解／調節干預（非瑟酮）、SASP 的表觀遺傳調控、粒線體功能障礙、
+      衰老在神經退化中的角色，以及
+      <b style="color:var(--text)">mtDNA 驅動的 SASP、染色質重新佈線與異染色質瓦解</b>
+      （Tier 1 論文，2026 年 8 月 18 日）。
     </p>
     <div class="meta">
       收錄 15 份文件：6 篇 PMC 回顧 · 6 篇期刊文章 · 3 則 AI／綜合筆記 · 圖像出自開放取用出版品
@@ -197,8 +233,9 @@
     <div class="pill-row" style="margin-top:14px;">
       <span class="badge teal">15 份 wiki 文件</span>
       <span class="badge">6 篇 PMC 回顧 · 6 篇期刊 · 3 則筆記</span>
-      <span class="badge">29 張圖表</span>
+      <span class="badge">50 張圖表</span>
       <span class="badge">SASP · cGAS-STING · 衰老溶解劑</span>
+      <span class="badge">Tier 1 缺口 · 染色質 · mtDNA</span>
       <span class="badge">衰老 · 發炎 · 老化</span>
     </div>
   </div>
@@ -977,6 +1014,591 @@
   </div>
 </section>
 
+<!-- ==================== 研究缺口（建議清單） ==================== -->
+<section id="research">
+  <div class="wrap">
+    <h2>研究缺口 — 建議（2026 年 8 月 18 日）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      21 張圖表來自 2026 年 8 月 18 日為填補 senescence 研究缺口分析
+      （<code>src/tasks/task_output_senescence_research_gaps_18_August_2026.md</code>）所建議的十一篇 Tier 1 論文：
+      mtDNA 釋放與 VDAC1 在 cGAS-STING SASP 中的角色、染色質重新佈線與異染色質瓦解
+      （HMGA1、著絲點周邊 DNA、3D 基因體）、LINE-1 去抑制與治療誘發衰老的逃脫。
+      十一篇附圖論文全部開放取用（PMC；其中一篇為 bioRxiv 預印本）；尚未匯入知識庫。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11319441/" target="_blank">Olan et al., <i>Nat Commun</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262444/" target="_blank">Dalgarno et al., <i>bioRxiv</i> 2025</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10584674/" target="_blank">Victorelli et al., <i>Nature</i> 2023</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11263593/" target="_blank">Li et al., <i>Cell Death Dis</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11013568/" target="_blank">Dvorkin et al., <i>Immunity</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13170000/" target="_blank">Tan et al., <i>Cell Commun Signal</i> 2026</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9303393/" target="_blank">Mendez-Bermudez et al., <i>NAR</i> 2022</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8256869/" target="_blank">Zhang et al., <i>Genome Res</i> 2021</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11229739/" target="_blank">Saleh, <i>Cell Cycle</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6449196/" target="_blank">Simon et al., <i>Cell Metab</i> 2019</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748698/" target="_blank">Shaban &amp; Gasser, <i>Cell Death Differ</i> 2025</a>.
+      <span style="color:var(--mute);">註：Lai 等人 2025（<i>Immunity</i> 58(4):811–825，衰老腫瘤細胞釋放 mtDNA、
+      經由 cGAS-STING 驅動 PMN-MDSC 免疫抑制）尚無開放取用圖表——依 NIH 12 個月禁運期
+      未收錄於 PMC——見
+      <a href="https://pubmed.ncbi.nlm.nih.gov/40203808/" target="_blank">PubMed ↗</a>。</span>
+    </p>
+    <div class="rg-summary">
+      <h3>這些論文如何填補各缺口</h3>
+      <p style="margin:0 0 6px;">2026 年 8 月 18 日共建議十一篇 Tier 1 論文以填補下列 senescence 缺口；本頁圖表與其對應如下。</p>
+      <ul>
+        <li><b>SAHF–SASP 必要性與 3D 基因體</b> — <span class="partial">部分填補</span>：Olan 2024（HMGA1 3D 網路）＋ Shaban &amp; Gasser 2025（3D 回顧）；仍缺少決定性的 SAHF 剔除／體內必要性測試。</li>
+        <li><b>DNA 去甲基化 → 增強子/SASP 環路＋LINE-1 去抑制</b> — <span class="partial">部分填補</span>：Dalgarno 2025 預印本（約 2.75 kb 環路、去甲基化驅動、LINE-1 熱點）；增強子在體內之因果性仍未經測試。</li>
+        <li><b>mtDNA 釋放孔道身分</b> — <span class="fill">已填補</span>：Victorelli 2023（BAX/BAK 大孔）＋ Li 2024（分裂後肌肉中的 VDAC1）。</li>
+        <li><b>核 cGAS 的非典型功能</b> — <span class="partial">部分填補</span>：Dvorkin 2024 ＋ Tan 2026（回顧）。</li>
+        <li><b>SADS／著絲點周邊異染色質</b> — <span class="partial">部分填補</span>：Mendez-Bermudez 2022（TP53 驅動的瓦解）＋ Zhang 2021（異染色質流失 3D）。</li>
+        <li><b>TIS 逃脫</b> — <span class="fill">概念層級填補</span>：Saleh 2024（可逃脫性評論）。</li>
+        <li><b>LINE-1／NRTI 衰老調節軸</b> — <span class="partial">部分填補</span>：Simon 2019（NRTI 抑制；SIRT6-KO 中的壽命延長）；尚無人類 NRTI 試驗。</li>
+        <li><b>3D 基因體重組（框架）</b> — <span class="fill">已填補</span>：Shaban &amp; Gasser 2025（以染色質定義細胞狀態）。</li>
+      </ul>
+      <p class="rg-note" style="margin:8px 0 0;">完整分析中本頁圖表未涵蓋的缺口（由 Tier 2/3 清單中的其他論文處理）：<b>CCF 形成機制</b>；<b>OIS 衰老溶解悖論</b>；<b>通用衰老生物標記</b>（SenCat/SenePy/SenNet）；<b>臨床衰老溶解與間歇給藥試驗</b>（UBX1325、SToMP-AD）；<b>SADS 普遍性篩檢</b>。</p>
+    </div>
+    <div class="gallery-grid" data-gallery="research">
+
+      <!-- OLAN 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e2ea/11319441/eaef6ac3935d/41467_2024_51153_Fig1_HTML.jpg"
+               alt="增殖中 IMR90、OIS 與 HMGA1 knockdown OIS 中關鍵衰老基因的蛋白質層級變化"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Olan 2024</div>
+          <h3>HMGA1 敲低重塑 OIS 程式</h3>
+          <div class="caption">
+            增殖中 IMR90 纖維母細胞（Grow；第 0 天）與致癌基因誘發衰老（OIS；第 6 天）
+            在不含／含 shHMGA1（shA1）下的關鍵衰老基因蛋白質層級變化——每條件三個重複。
+            基因表現對數摺疊變化依方向分群；免疫螢光顯示 Grow、OIS 與 OIS-shA1 細胞中的
+            IL-8（綠）、細胞核 DAPI（藍）與 HMGA1（洋紅）；HMGA1 共識峰並與 OIS
+            轉錄體進行交集分析。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SAHF–SASP 必要性與 3D 基因體組織」：「SAHF 對 SASP 表現的必要性仍未解決」——SAHF 形成與 SASP 相關，但缺乏顯示緊縮如何與 SASP 真染色質共存的 3D 定序數據。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 確立 HMGA1——一種架構性染色質蛋白——為衰老轉錄異質性的主動組織者，將「衰老中的 3D 基因體」缺口連結至 SASP 輸出。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11319441/" target="_blank">來源：PMC11319441 ↗</a>
+        </div>
+      </div>
+
+      <!-- OLAN 圖 2 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e2ea/11319441/08431c123fb3/41467_2024_51153_Fig2_HTML.jpg"
+               alt="Grow、Grow-shA1、OIS 與 OIS-shA1 IMR90 纖維母細胞的 Hi-C 交互作用圖，含 H3K9me3 峰與交互作用弧線"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Olan 2024</div>
+          <h3>HMGA1 控制區室層級的 3D 重組</h3>
+          <div class="caption">
+            Grow、Grow-shA1、OIS 與 OIS-shA1 IMR90 細胞的 Hi-C 交互作用圖（200 kb 解析度），
+            標記 H3K9me3 峰（藍色），弧線代表增加（紅）與減少（藍）的交互作用。
+            OIS-shA1 對比 OIS 的量化差異交互作用與 OIS 對比 Grow 相互驗證，
+            交互作用變化並註記 HMGA1 結合（每 bin 至少五個峰）與交互作用距離依賴性。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「區室切換與異染色質流失」：3D 重塑（區室、亞區室、環路）驅動 SASP 的程度與僅是相關性的程度仍未解決。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 直接回應「衰老中的染色質重新佈線」缺口——HMGA1 依賴的區室切換是衰老 3D 基因體在 H3K9me3 密集區域重組的機制。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11319441/" target="_blank">來源：PMC11319441 ↗</a>
+        </div>
+      </div>
+
+      <!-- DALGARNO 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91f2/12262444/376aa9e7dd9c/nihpp-2025.06.11.659151v1-f0001.jpg"
+               alt="品質控制與實驗總覽：增殖與複製性衰老 LF1 纖維母細胞的 Hi-C、RNA-seq 與長讀序 DNA 定序"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Dalgarno 2025</div>
+          <h3>晚期複製性衰老中的染色質重新佈線</h3>
+          <div class="caption">
+            實驗總覽：對增殖與晚期複製性衰老（RS）LF1 纖維母細胞進行 Hi-C、總 RNA-seq
+            與長讀序 DNA 定序。代表性高解析度 Hi-C 接觸圖顯示關鍵架構特徵與基因體註解，
+            多維尺度分析（MDS）顯示生物重複緊密聚集。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「晚期衰老研究不足」：「晚期（慢性滯留）衰老細胞是最具治療相關性的族群，但因實驗困難而鮮少被分析」；多數衰老 Hi-C 圖譜解析度 >10 kb，過於粗略，無法解析環路與增強子–啟動子接觸。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 以約 2.75 kb 解析度的晚期 RS 圖譜填補「大規模染色質重新佈線」缺口的預印本（2025.06.11.659151）——此階段 SASP 與轉位子活化主導轉錄體。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262444/" target="_blank">來源：PMC12262444 ↗</a>
+        </div>
+      </div>
+
+      <!-- DALGARNO 圖 6 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91f2/12262444/b30af8ec6816/nihpp-2025.06.11.659151v1-f0006.jpg"
+               alt="衰老相關染色質重塑促進 LINE-1 去抑制：表現、亞區室轉移與環路接近度"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 6 · Dalgarno 2025</div>
+          <h3>染色質重塑促進 LINE-1 去抑制</h3>
+          <div class="caption">
+            與增殖細胞相比，複製性衰老（RS）細胞中 LINE-1 元件的整體表現上升。
+            LINE-1 位點向轉錄更活躍的亞區室狀態轉移，並量化其與增殖特異、RS 特異
+            與共享染色質環路的接近度——將 3D 重組直接連結至重複元件活化。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「反轉錄轉位子–3D 連結」：「DNA 去甲基化與異染色質去凝縮觸發 ERV 轉錄，LINE-1 去抑制驅動 IFN 介導的發炎；3D 基因體架構如何支持反轉錄轉位子活化才剛開始被定義。」
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 連結「3D 基因體」與「LINE-1」兩個缺口——衰老中的 3D 染色質重新佈線是 LINE-1 去抑制（以及下游發炎）得以釋放的路徑。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262444/" target="_blank">來源：PMC12262444 ↗</a>
+        </div>
+      </div>
+
+      <!-- VICTORELLI 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c763/10584674/3238f6667795/41586_2023_6621_Fig1_HTML.jpg"
+               alt="超解析度 SIM 影像顯示輻射誘發衰老纖維母細胞中粒線體外的細胞色素 c"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Victorelli 2023</div>
+          <h3>衰老中 BAX/BAK 依賴的細胞質細胞色素 c</h3>
+          <div class="caption">
+            增殖中與輻射誘發衰老（Sen IR）人類纖維母細胞中 Cyt c（綠）與 TOM20（紅）的
+            代表性超解析度 SIM 影像；放大區域顯示衰老細胞中不與 TOM20 共定位的 Cyt c。
+            定量使用皮爾森相關係數，並測量各條件下細胞質 Cyt c 的相對水準。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「mtDNA 釋放孔道／通道與粒線體 DAMP」：「仍不清楚哪種粒線體孔道或通道介導 mtDNA 釋放，以及這些過程是否跨細胞類型保守」（缺口分析引述 JCI 文件）。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 以 miMOMP 概念為「mtDNA 驅動的 SASP」缺口奠定基礎——衰老細胞的粒線體經歷 BAX/BAK 依賴的膜通透化，在細胞不死的情況下將粒線體內容（包括 mtDNA）洩漏至細胞質。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10584674/" target="_blank">來源：PMC10584674 ↗</a>
+        </div>
+      </div>
+
+      <!-- VICTORELLI 擴展資料圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c763/10584674/bf8527c03bb1/41586_2023_6621_Fig7_ESM.jpg"
+               alt="ABT-737 誘導 miMOMP 的機制示意：無細胞死亡的粒線體外膜通透化，驅動 SASP"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">擴展資料圖 1 · Victorelli 2023</div>
+          <h3>miMOMP–SASP 級聯</h3>
+          <div class="caption">
+            ABT-737 誘導粒線體外膜通透化（miMOMP）機制的示意圖：處理的 MRC5 纖維母細胞
+            出現 cleaved caspase 3，72 小時內 LDH 釋放未顯示細胞死亡增加，而 IL-6
+            分泌上升——一個非致命、由粒線體驅動的發炎程式。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——需要證明洩漏本身（而非細胞凋亡）即足以驅動 SASP。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 本論文的機制總結——miMOMP（及其 mtDNA 貨物）足以經由 cGAS-STING 觸發 SASP，獨立於細胞凋亡；正是 [[mtDNA]]／[[BAX]]／[[BAK]] 缺口建議的核心。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10584674/" target="_blank">來源：PMC10584674 ↗</a>
+        </div>
+      </div>
+
+      <!-- LI 圖 5 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d742/11263593/f0691f2a7c55/41419_2024_6863_Fig5_HTML.jpg"
+               alt="具氧化性 mtDNA 損傷的老化肌肉肌纖維中，cGAS 累積於高 VDAC1 囊泡"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · Li 2024</div>
+          <h3>cGAS 聚集於高 VDAC1 粒線體</h3>
+          <div class="caption">
+            取自 WT 與 Z24<sup>−/−</sup> 小鼠（5 個月大，雄性）快縮 FDB 肌肉的單一肌纖維，
+            以 cGAS 與 VDAC1 共免疫染色：Z24<sup>−/−</sup> 肌纖維顯示增加的 cGAS<sup>+</sup> 囊泡，
+            常見於高 VDAC1 粒線體旁（黃色與白色箭頭）——mtDNA 感測的位點。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「分裂後細胞中的 mtDNA 釋放（VDAC1）」：孔道身分取決於誘因與細胞類型——某些神經元細胞株中 mPTP 抑制無法降低細胞質 mtDNA；VDAC1 孔道雖被提出，但從未在體內直接觀察。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「衰老中的 VDAC1」缺口的直接影像證據——VDAC1 寡聚化孔道正是細胞質 cGAS 在體內接觸洩漏 mtDNA 之處。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11263593/" target="_blank">來源：PMC11263593 ↗</a>
+        </div>
+      </div>
+
+      <!-- LI 圖 8 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d742/11263593/e3dae3fa77da/41419_2024_6863_Fig8_HTML.jpg"
+               alt="模型：氧化性 mtDNA 損傷促進 VDAC1 寡聚化與 mtDNA 洩漏，在老化的肌肉中活化 cGAS-STING 與 NF-kB"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 8 · Li 2024</div>
+          <h3>Ox-mtDNA → VDAC1 → cGAS-STING 模型</h3>
+          <div class="caption">
+            工作模型：Z24<sup>−/−</sup> 肌纖維粒線體中氧化壓力與 ROS 生成增加，造成 mtDNA
+            的氧化性損傷（ox-mtDNA），促進 VDAC1 寡聚化並使 mtDNA 洩漏至細胞質。
+            細胞質 mtDNA 活化 cGAS-STING 先天免疫訊號，導致 p-TBK1/IRF3 與 NF-κB 活化，
+            以及包括第一型干擾素在內的促發炎因子表現。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——需要 ox-mtDNA → VDAC1 寡聚化 → 洩漏 → cGAS-STING 在分裂後組織中的機制模型。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 對分裂後組織中「VDAC1–mtDNA–cGAS-STING」缺口的機制性填補——其中不分裂肌肉細胞的衰老驅動加速老化。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11263593/" target="_blank">來源：PMC11263593 ↗</a>
+        </div>
+      </div>
+
+      <!-- DVORKIN 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/aa5d/11013568/48c5e8af12d6/nihms-1971916-f0001.jpg"
+               alt="多種自體與外源 DNA 來源匯聚於 cGAS 活化，導致 STING 依賴性訊號傳遞"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Dvorkin 2024</div>
+          <h3>自體 DNA 來源匯聚於 cGAS</h3>
+          <div class="caption">
+            多種自體與外源 DNA 來源匯聚於 cGAS 活化，導致 STING 依賴性訊號傳遞——
+            包括在衰老中累積的粒線體 DNA、微核／細胞質染色質片段，以及 LINE-1
+            衍生的 cDNA。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「核 cGAS 的非典型功能」：「需要進一步研究以闡明核 cGAS 交互作用蛋白與核 cGAS 對染色質的功能後果」（缺口分析引述 JCI 文件）。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「細胞核 cGAS」缺口的觀念錨點——理解哪些 DNA 物種活化 cGAS，需要衰老所產生之自體 DNA 來源的完整清單。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11013568/" target="_blank">來源：PMC11013568 ↗</a>
+        </div>
+      </div>
+
+      <!-- DVORKIN 圖 2 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/aa5d/11013568/bee2ca103607/nihms-1971916-f0002.jpg"
+               alt="cGAS 的兩個池：核 cGAS 被隔離於核小體酸性斑塊上而失活，細胞質 cGAS 則具訊號能力"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Dvorkin 2024</div>
+          <h3>cGAS 的核與細胞質池</h3>
+          <div class="caption">
+            恆定狀態下細胞內存在兩個 cGAS 池：大多數位於細胞核，被隔離並錨定於核小體
+            酸性斑塊上保持失活；較小的細胞質池則具訊號能力。cGAS 被病原 DNA 或
+            粒線體／基因體 DNA 損傷後釋放的自體 DNA 活化，刺激第二訊息 cGAMP 的生成。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——cGAS 在 DNA 送達細胞質前為何在細胞核中大多靜默，此前未被解釋。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 直接填補「衰老中的核 cGAS」缺口——核錨定解釋了為何 cGAS 在 DNA 被送達細胞質（miMOMP 與 CCF 形成所提供的事件）之前大多靜默。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11013568/" target="_blank">來源：PMC11013568 ↗</a>
+        </div>
+      </div>
+
+      <!-- TAN 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d345/13170000/bd8f07a4bccb/12964_2026_2855_Fig1_HTML.jpg"
+               alt="cGAS 在細胞衰老中調控 DNA 損傷反應的機制：微核、核膜破裂與 SASP"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Tan 2026</div>
+          <h3>細胞衰老中的 cGAS–DDR 軸</h3>
+          <div class="caption">
+            衰老相關刺激（ROS、環境污染物、細菌毒素）誘導 DNA 損傷，導致微核形成與
+            核膜破裂。這將雙股 DNA 釋放至細胞質，與 cGAS 結合並活化 STING 訊號，
+            促進衰老相關分泌表型（SASP）因子的生成。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「衰老與老化中的核 cGAS／mtDNA（2026 現況）」——知識庫中缺乏統一、最新的 cGAS–DDR–SASP 軸圖解。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「衰老中的 cGAS-STING」缺口的綜述層級綜合——以統一的圖解呈現 DNA 損傷衍生的細胞質 DNA 如何驅動 SASP。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13170000/" target="_blank">來源：PMC13170000 ↗</a>
+        </div>
+      </div>
+
+      <!-- TAN 圖 8 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d345/13170000/20811a880018/12964_2026_2855_Fig8_HTML.jpg"
+               alt="cGAS-STING 整合 DNA 損傷、低氧、氨誘導細胞死亡與 NET 等壓力訊號，驅動衰老與發炎"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 8 · Tan 2026</div>
+          <h3>cGAS-STING 作為衰老壓力整合器</h3>
+          <div class="caption">
+            cGAS-STING 路徑整合各種壓力訊號——DNA 損傷、低氧、氨誘導細胞死亡與 NET——
+            並作為驅動細胞衰老與發炎反應的中央路徑。透過辨識累積的細胞質受損 DNA
+            （mtDNA、核片段、NET 衍生 DNA），它同時誘導細胞自主衰老與發炎性
+            細胞激素的分泌。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——需要一份將 cGAS-STING 定位於 mtDNA、L1-cDNA 與 CCF 文獻匯聚點並標示治療策略的綜合。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 將 cGAS-STING 定位為衰老領域 mtDNA、L1-cDNA 與 CCF 文獻的匯聚點——包括治療機會（cGAS/STING 抑制劑、衰老溶解劑）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13170000/" target="_blank">來源：PMC13170000 ↗</a>
+        </div>
+      </div>
+
+      <!-- MENDEZ-BERMUDEZ 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a24/9303393/86a5ba83d306/gkac603fig1.jpg"
+               alt="細胞衰老期間的著絲點周邊損傷：端粒 TIF、著絲點周邊 PIF 與衛星 III 重複序列隨群體倍增開啟"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Mendez-Bermudez 2022</div>
+          <h3>衰老起始時的著絲點周邊損傷</h3>
+          <div class="caption">
+            MRC-5 細胞在不同群體倍增（PD）時收集直至衰老：以 53BP1 與重複元件 PNA
+            探針共定位，以免疫螢光共軛焦顯微鏡估計端粒損傷（TIF）、著絲點周邊損傷
+            （PIF）與衛星 III（Sat III；PNA 訊號直徑）的開啟。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SADS 普遍性」：「主要的不確定性在於 SADS 在各種衰老誘因間是普遍存在還是特定情境」；此外，著絲點周邊瓦解的機制此前未知。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 填補複製性衰老中「著絲點周邊異染色質瓦解」缺口——衛星重複序列的損傷與開啟先於完全衰老，且不同於端粒驅動的 TIF。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9303393/" target="_blank">來源：PMC9303393 ↗</a>
+        </div>
+      </div>
+
+      <!-- MENDEZ-BERMUDEZ 圖 8 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a24/9303393/d13553bcb929/gkac603fig8.jpg"
+               alt="細胞衰老期間著絲點周邊 DNA 瓦解模型：TP53 依賴的 TRF2 流失、衛星 DNA 釋放與 cGAS 活化"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 8 · Mendez-Bermudez 2022</div>
+          <h3>著絲點周邊 DNA 瓦解模型</h3>
+          <div class="caption">
+            細胞衰老期間著絲點周邊 DNA 瓦解的模型：TP53 依賴的 TRF2 下調使 Sat II/III
+            的著絲點周邊異染色質（PCH）不穩定，將衛星 DNA 釋放至細胞質而活化 cGAS——
+            一種獨特的衰老相關細胞質自體 DNA 來源。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——需要一個將 SADS 連結至細胞質自體 DNA 來源的分子模型（TP53 依賴的 TRF2 流失）。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 與 mtDNA 及 L1 cDNA 並列的 cGAS-STING SASP 第三個細胞質 DNA 供給——補全缺口分析中的自體 DNA 清單。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9303393/" target="_blank">來源：PMC9303393 ↗</a>
+        </div>
+      </div>
+
+      <!-- ZHANG 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4961/8256869/8b53443d1a0b/1121f01.jpg"
+               alt="H3K27me3 相關異染色質的區室切換：衰老期間的 A 至 B 與 B 至 A 轉換"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Zhang 2021</div>
+          <h3>H3K27me3 異染色質的區室切換</h3>
+          <div class="caption">
+            實驗設計（每種細胞狀態兩個生物重複）與生長（G）、接觸抑制靜止（Q）、深度衰老
+            （DS）與靜止回復（QR）IMR90 細胞差異區室 bin 的階層分群：群集 1–2 對應
+            A 至 B 轉換，群集 3–4 對應 B 至 A，其中 B 至 A 區域佔基因體較高比例。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SADS／異染色質流失與 3D 基因體」：異染色質流失與區室重組之間的基因體層級連結，尚未大規模確立。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 在區室尺度錨定「異染色質流失」缺口——衰老在百萬鹼基（megabase）層級重新組織哪些基因體區域為活性（A）相較於抑制性（B）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8256869/" target="_blank">來源：PMC8256869 ↗</a>
+        </div>
+      </div>
+
+      <!-- ZHANG 圖 7 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4961/8256869/c5e136610569/1121f07.jpg"
+               alt="衰老細胞異染色質重組模型：B 至 A 切換、H3K9me3 流失、H3K27me3 增加、新環路與基因表現洩漏"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 7 · Zhang 2021</div>
+          <h3>多尺度異染色質重組模型</h3>
+          <div class="caption">
+            衰老細胞異染色質重組的模型：B 至 A 區域與 H3K27me3 相關；生長細胞的
+            H3K9me3 相關異染色質傾向同時增加長程與局部交互作用並形成新環路。
+            這些變化伴隨 H3K9me3 流失、H3K27me3 增加、染色質可及性上升，
+            以及伴隨異常重複元件表現的基因表現洩漏。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——需要一個連結異染色質流失與異常轉錄的整合多尺度模型。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「異染色質流失與 3D 基因體」缺口的整合模型——多尺度重組同時導致衰老中的發炎基因去抑制與重複元件活化。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8256869/" target="_blank">來源：PMC8256869 ↗</a>
+        </div>
+      </div>
+
+      <!-- SALEH 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8cc5/11229739/4891300e58fc/KCCY_A_2364579_F0001_OC.jpg"
+               alt="治療誘發衰老逃脫演進的重大事件時間軸，從 Hayflick 的複製性衰老到近期的 TIS 逃脫發現"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Saleh 2024</div>
+          <h3>治療誘發衰老逃脫的時間軸</h3>
+          <div class="caption">
+            TIS 逃脫演進重大事件的時間軸：從 Hayflick 與 Moorhead 在人類纖維母細胞中
+            發現複製性衰老（RS），經過 SA-β-gal 作為標記，到二十世紀末 Wahl、Ames
+            與 Adami 團隊觀察到游離輻射與博來黴素等 DNA 損傷劑可誘導衰老——最後是
+            近期證明治療誘發衰老並非永遠不可逆。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「TIS 逃脫」：「一小群 TIS 細胞可凌駕停滯並重新進入細胞週期，播下復發」；逃脫的分子決定因素、在患者中的頻率，以及衰老溶解清除 TIS 細胞是否能改善預後「仍定義不良」。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 填補「TIS 逃脫」缺口的單圖評論——癌細胞可以逃脫治療誘發衰老，而上述 3D 基因體與 LINE-1 機制可能促成該逃脫。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11229739/" target="_blank">來源：PMC11229739 ↗</a>
+        </div>
+      </div>
+
+      <!-- SIMON 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1eae/6449196/58381a00d9f2/nihms-1522926-f0001.jpg"
+               alt="NRTI 藥物 3TC 與 d4T 治療抑制野生型與 SIRT6 基因剔除 MEF 的 L1 反轉錄轉位"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Simon 2019</div>
+          <h3>NRTI 阻斷 LINE-1 反轉錄轉位</h3>
+          <div class="caption">
+            以 3TC（拉米夫定）或 d4T（司他夫定）治療可抑制 L1 反轉錄轉位事件：
+            以 10 μM 3TC 或 d4T 培養的 WT 與 SIRT6-KO MEF，轉染含全長 L1 元件的
+            人類或小鼠 L1-EGFP 報導質體；活化 GFP 的新生反轉錄轉位事件以流式細胞術
+            計分，並以轉染效率正規化。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「LINE-1／NRTI 衰老調節軸」：「LINE-1/NRTI 干預（如拉米夫定）在小鼠中抑制反轉錄轉位子驅動的發炎，但缺乏人類臨床證據」——缺少 L1 驅動發炎的直接藥理測試。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「LINE-1–NRTI」缺口的機制基礎——反轉錄酶抑制劑是處理衰老中 L1 驅動發炎的藥理學工具。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6449196/" target="_blank">來源：PMC6449196 ↗</a>
+        </div>
+      </div>
+
+      <!-- SIMON 圖 5 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1eae/6449196/b4ea46368edd/nihms-1522926-f0005.jpg"
+               alt="NRTI 治療改善 SIRT6 基因剔除小鼠外觀並延長平均與最長壽命"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · Simon 2019</div>
+          <h3>NRTI 治療延長 SIRT6-KO 小鼠壽命</h3>
+          <div class="caption">
+            NRTI 治療改善 SIRT6-KO 動物的外觀並減緩消瘦表型（30 日齡照片）、
+            延長平均與最長壽命（存活曲線顯著不同於未治療的 SIRT6-KO 對照；
+            n = 10 隻動物，p &lt; 0.0001，log-rank 檢定），並改善體重（n = 10，
+            p &lt; 0.0001，單因子 ANOVA）。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——NRTI 治療是否具有整體（壽命）層級的體內後果，此前未經測試。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 在早衰模型中證明抑制 L1 反轉錄轉位具抗發炎與促長壽作用——直接支持 LINE-1/NRTI 缺口建議。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6449196/" target="_blank">來源：PMC6449196 ↗</a>
+        </div>
+      </div>
+
+      <!-- SHABAN 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5b13/11748698/c366300a2565/41418_2023_1197_Fig1_HTML.jpg"
+               alt="衰老程式總覽：誘因、細胞與分子效應，以及不可逆停滯"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Shaban &amp; Gasser 2025</div>
+          <h3>衰老程式一覽</h3>
+          <div class="caption">
+            衰老程式可經由多種途徑活化：複製壓力（DNA 複製機制缺陷與端粒縮短）、
+            致癌基因活化、氧化壓力、DNA 損傷與化療藥物。主要細胞與分子效應包括
+            溶酶體區室擴張、代謝與粒線體改變、DNA 損傷累積——所有刺激最終導致
+            不可逆的細胞週期停滯。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「3D 基因體重組（回顧脈絡）」——多篇 3D 基因體論文需要一個以染色質定義細胞狀態的共同框架，說明重組在衰老程式中所處的位置。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「衰老中的 3D 基因體」缺口的綜述層級框架——染色質重組在更廣泛的衰老程式中所處的位置。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748698/" target="_blank">來源：PMC11748698 ↗</a>
+        </div>
+      </div>
+
+      <!-- SHABAN 圖 2 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5b13/11748698/98c9b1929ef1/41418_2023_1197_Fig2_HTML.jpg"
+               alt="致癌基因誘發衰老中的 SAHF 形成：LAD 從核周緣移入內部並組裝為多層異染色質"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Shaban &amp; Gasser 2025</div>
+          <h3>SAHF 形成與 LAD 重新組織</h3>
+          <div class="caption">
+            致癌基因誘發衰老中的 SAHF 形成：在生長細胞中，LAD（紅）位於核膜周緣；
+            衰老期間，LAD 液滴移入核空間內部。附著於核纖層（灰）的組成性異染色質
+            LAD（紅）兩側為 H3K27me3 區域（綠），真染色質以藍色顯示，衰老特異的
+            LAD 則移向周緣——形成多層異染色質架構。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——將著絲點周邊瓦解連結至 3D 重組的核架構（LAD/SAHF）機制，此前未被整合。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 在核架構層級連結「著絲點周邊瓦解」與「3D 基因體」缺口——LAD 脫離是異染色質重組背後的支架事件。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748698/" target="_blank">來源：PMC11748698 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ==================== 文獻索引 ==================== -->
 <section id="library">
   <div class="wrap">
@@ -986,11 +1608,12 @@
       下方完整收錄 <code>src/notes/senescence/</code> 目錄中的全部
       <b style="color:var(--text)">15 份來源文件</b>（權威索引：
       <code>src/notes/senescence/README.md</code>）。上方圖庫中的每一張圖表皆出自某一篇
-      標星號（★）的文獻。
+      標星號（★）的文獻，或出自<a href="#research">「研究缺口」章節</a>（待匯入，
+      2026 年 8 月 18 日建議）。
     </p>
     <div class="pill-row" style="margin-top:14px;">
       <span class="badge teal">15 份文件</span>
-      <span class="badge">8 個圖表來源 ★</span>
+      <span class="badge">8 個圖表來源 ★ · 11 篇 Tier 1 論文</span>
       <span class="badge">6 篇 PMC 回顧</span>
       <span class="badge">6 篇期刊文章</span>
       <span class="badge">3 則 AI／綜合筆記</span>
@@ -1200,11 +1823,24 @@
       5. Mahoney et al., <i>Senolytic Treatment With Fisetin Reverses Age-Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12</i>, Aging Cell 25(5):e70500 (2026) — PMC13103471<br>
       6. Dasgupta et al., <i>The role of the dynamic epigenetic landscape in senescence: orchestrating SASP expression</i>, npj Aging (2024) — s41514-024-00172-2<br>
       7. Hruby &amp; Higuchi-Sanabria, <i>Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease</i>, npj Aging (2025) — s41514-025-00291-4<br>
-      8. Dong et al., <i>Cellular senescence and SASP in tumor progression and therapeutic opportunities</i>, Mol. Cancer 23:181 (2024) — PMC11365203
+      8. Dong et al., <i>Cellular senescence and SASP in tumor progression and therapeutic opportunities</i>, Mol. Cancer 23:181 (2024) — PMC11365203<br>
+      9. Olan et al., <i>HMGA1 orchestrates chromatin compartmentalization and sequesters genes into 3D networks coordinating senescence heterogeneity</i>, Nat. Commun. 15:6891 (2024) — PMC11319441<br>
+      10. Dalgarno et al., <i>Senescence-Associated Chromatin Rewiring Promotes Inflammation and Transposable Element Activation</i>, bioRxiv preprint (2025), 10.1101/2025.06.11.659151 — PMC12262444<br>
+      11. Victorelli et al., <i>Apoptotic stress causes mtDNA release during senescence and drives the SASP</i>, Nature 622:627–636 (2023) — PMC10584674<br>
+      12. Li et al., <i>mtDNA release promotes cGAS-STING activation and accelerated aging of postmitotic muscle cells</i>, Cell Death Dis. 15:523 (2024) — PMC11263593<br>
+      13. Dvorkin et al., <i>New frontiers in the cGAS-STING intracellular DNA-sensing pathway</i>, Immunity 57(4):718–730 (2024) — PMC11013568<br>
+      14. Tan et al., <i>The cGAS-STING pathway in senescence and aging-related diseases: mechanisms and therapeutic opportunities</i>, Cell Commun. Signal. 24:292 (2026) — PMC13170000<br>
+      15. Mendez-Bermudez et al., <i>Selective pericentromeric heterochromatin dismantling caused by TP53 activation during senescence</i>, Nucleic Acids Res. 50(13):7493–7510 (2022) — PMC9303393<br>
+      16. Zhang et al., <i>The loss of heterochromatin is associated with multiscale three-dimensional genome reorganization and aberrant transcription during cellular senescence</i>, Genome Res. 31(7):1121–1135 (2021) — PMC8256869<br>
+      17. Saleh, <i>Therapy-induced senescence is finally escapable, what is next?</i>, Cell Cycle 23(6):713–721 (2024) — PMC11229739<br>
+      18. Simon et al., <i>LINE1 Derepression in Aged Wild-Type and SIRT6-Deficient Mice Drives Inflammation</i>, Cell Metab. 29(4):871–885.e5 (2019) — PMC6449196<br>
+      19. Shaban &amp; Gasser, <i>Dynamic 3D genome reorganization during senescence: defining cell states through chromatin</i>, Cell Death Differ. 32(1):9–15 (2025) — PMC11748698
     </p>
     <p style="margin-top:10px; color:var(--mute);">
-      所有圖像皆來自開放取用的出版品（PMC、JCI、Springer Nature）。圖庫由
-      <code>src/notes/senescence/</code> 中的 wiki 筆記生成。為 llm-wiki-jk 知識圖譜建置。
+      所有圖像皆來自開放取用的出版品（PMC、JCI、Springer Nature）。來源 9–19 為
+      2026 年 8 月 18 日建議以填補研究缺口的 Tier 1 senescence 論文——待匯入
+      <code>src/notes/senescence/</code>。圖庫由 <code>src/notes/senescence/</code>
+      中的 wiki 筆記生成。為 llm-wiki-jk 知識圖譜建置。
     </p>
   </div>
 </footer>

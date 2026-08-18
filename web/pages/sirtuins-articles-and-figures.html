@@ -69,6 +69,39 @@
       line-height: 1.5;
       margin-bottom: 10px;
     }
+    .gallery-card .gap {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-left: 3px solid var(--teal);
+      padding: 2px 0 0 12px;
+      margin-bottom: 10px;
+    }
+    .gallery-card .gap b,
+    .gallery-card .context b { color: var(--text); }
+    .rg-summary {
+      font-size: .82rem;
+      line-height: 1.5;
+      color: var(--dim);
+      background: rgba(127,127,220,.05);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--teal);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 4px 0 16px;
+    }
+    .rg-summary h3 {
+      font-size: .85rem;
+      margin: 0 0 8px;
+      color: var(--text);
+      letter-spacing: .3px;
+    }
+    .rg-summary ul { margin: 4px 0 0; padding-left: 18px; }
+    .rg-summary li { margin: 5px 0; }
+    .rg-summary .fill { color: var(--teal); font-weight: 700; }
+    .rg-summary .partial { color: var(--amber); font-weight: 700; }
+    .rg-summary .open { color: var(--red); font-weight: 700; }
+
     .gallery-card .context {
       font-size: .78rem;
       color: var(--mute);
@@ -171,7 +204,7 @@
     <a class="n" href="#structures">Protein Structures</a>
     <a class="n" href="#pharmacology">Pharmacology</a>
     <a class="n" href="#substrates">Substrates &amp; Partners</a>
-    <a class="n" href="#tier1">Tier 1 Papers</a>
+    <a class="n" href="#research">Research Gaps</a>
     <a class="n" href="#library">Documents Index</a>
   </div>
 </nav>
@@ -887,9 +920,9 @@
 </section>
 
 <!-- ==================== TIER 1 PAPERS (RESEARCH-GAP RECOMMENDATIONS) ==================== -->
-<section id="tier1">
+<section id="research">
   <div class="wrap">
-    <h2>Tier 1 Papers — Research-Gap Recommendations (18 Aug 2026)</h2>
+    <h2>Research Gaps — Recommendations (18 Aug 2026)</h2>
     <p class="lead" style="margin-bottom:6px;">
       20 figures from the ten Tier 1 papers recommended on 18 August 2026 to fill the research gaps catalogued in the
       sirtuin gap analysis (<code>src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md</code>): SIRT3 in
@@ -911,10 +944,25 @@
       <span style="color:var(--mute);">Note: Pannek et al. 2024 (<i>J Med Chem</i>, first-in-class SIRT4 inhibitors) has no
       open-access figures — see <a href="https://pubmed.ncbi.nlm.nih.gov/38253001/" target="_blank">PubMed ↗</a>.</span>
     </p>
-    <div class="gallery-grid" data-gallery="tier1">
+    <div class="rg-summary">
+      <h3>How these papers map to the gaps</h3>
+      <p style="margin:0 0 6px;">Ten Tier 1 papers were recommended on 18 Aug 2026 to fill the sirtuin gaps below; the figures on this page correspond to them as follows.</p>
+      <ul>
+        <li><b>SIRT3 longevity untested in vivo</b> — <span class="partial">partially filled</span>: You &amp; Wang 2025 (review of SIRT3–aging) + Dikalova 2020 (Sirt3OX model); a Sirt3OX lifespan study is still the missing experiment.</li>
+        <li><b>SIRT5 disease roles &amp; cardiac metabolism</b> — <span class="fill">filled</span>: Wu 2024 (CPT2 desuccinylation → FAO) + Grzeczka 2025 (SIRT5–cardiac review).</li>
+        <li><b>SIRT5–autophagy</b> — <span class="fill">filled</span>: Li 2024 (TOM1 desuccinylation drives autophagic flux; in vivo MI cardioprotection).</li>
+        <li><b>SIRT6/SIRT7 in autophagy &amp; mitophagy</b> — <span class="fill">filled</span>: Lagunas-Rangel 2025 (sirtuin–mitophagy interplay; PINK1/PARKIN).</li>
+        <li><b>SIRT7 aging</b> — <span class="fill">filled</span>: Raza 2024 (comprehensive review + Sirt7-KO in vivo aging phenotype).</li>
+        <li><b>SIRT7 aging/inflammation mechanism</b> — <span class="fill">filled</span>: Tran 2025 (SIRT7–NUCKS1 chromatin axis → inflammatory SASP).</li>
+        <li><b>SIRT7 cardiovascular</b> — <span class="fill">filled</span>: Zhang 2024 (endothelial SIRT7–KLF4 axis in pulmonary hypertension).</li>
+        <li><b>SIRT2 cardiac context-dependence</b> — <span class="fill">filled</span>: Yang 2023 (SIRT2 up in failing hearts; AGK2 inhibition protective).</li>
+      </ul>
+      <p class="rg-note" style="margin:8px 0 0;">Gaps from the full analysis still open after these papers: <b>SIRT3 lifespan study</b>; <b>SIRT4 in vivo mechanism &amp; first-in-class SIRT4 inhibitors</b> (Pannek 2024 has no open-access figures); <b>SIRT3/SIRT4 clinical biomarker</b>; <b>direct on-target STAC proof</b>.</p>
+    </div>
+    <div class="gallery-grid" data-gallery="research">
 
       <!-- YOU & WANG FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg"
                alt="The multidimensional regulatory network of SIRT3 in cellular homeostasis: redox defense, DNA repair, apoptosis and metabolism"
@@ -931,17 +979,18 @@
             promoting TCA-cycle activity, fatty-acid oxidation, pyruvate-to-lactate conversion, and ketone-body
             production.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Longevity claims for SIRT3 rest on correlative human SNP data and cell/mouse pharmacology, but no direct gain-of-function lifespan test exists. Per the gap analysis (14 Aug 2026): “No SIRT3-overexpressing transgenic mouse exists to directly test lifespan extension — a critical gap. Human SNP associations with longevity are inconsistent across cohorts.”
+          </div>
           <div class="context">
-            Fills the "SIRT3 longevity untested in vivo" gap with the 2025 state of the field: SIRT3 exerts multimodal
-            control over mitochondria, redox and epigenetics — yet no SIRT3-overexpressing lifespan study has been
-            reported, so the in vivo longevity question remains open.
+            <b>How it fills the gap:</b> 2025 state-of-the-field synthesis: SIRT3 exerts multimodal control over mitochondria, redox and epigenetics — yet no SIRT3-overexpressing lifespan study has been reported, so the in vivo longevity question remains open.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">Source: PMC12374834 ↗</a>
         </div>
       </div>
 
       <!-- YOU & WANG FIG 3 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg"
                alt="Regulatory mechanisms of SIRT3 in aging-related pathologies: cellular senescence, neurodegeneration, renal, cardiovascular, metabolic and oncogenic processes"
@@ -957,16 +1006,18 @@
             cover neurodegeneration and age-related hearing loss (B), renal pathophysiology (C), cardiovascular
             protection via PINK1-mediated mitophagy (D), metabolic dysregulation (E) and oncogenic processes (F).
           </div>
+          <div class="gap">
+            <b>Research gap:</b> The same core gap viewed at the age-related-disease level: the concrete disease associations (senescence, neurodegeneration, cardiovascular, metabolic) are catalogued, but whether SIRT3 gain-of-function extends lifespan in vivo remains untested.
+          </div>
           <div class="context">
-            Directly relevant to senescence biology: the cellular-senescence panel (A) frames SIRT3 as a modulator of
-            the senescence program rather than a passive bystander of mitochondrial aging.
+            <b>How it fills the gap:</b> The cellular-senescence panel (A) frames SIRT3 as a modulator of the senescence program rather than a passive bystander of mitochondrial aging — directly relevant to senescence biology.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">Source: PMC12374834 ↗</a>
         </div>
       </div>
 
       <!-- DIKALOVA FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7e57/7035170/3dc02aaa8f28/nihms-1549189-f0002.jpg"
                alt="Sirt3 overexpression protects against Ang II-induced hypertension: telemetric blood pressure, endothelial-dependent relaxation, aortic superoxide and nitric oxide"
@@ -982,17 +1033,18 @@
             endothelial-dependent relaxation to acetylcholine, reduced aortic superoxide (DHE-HPLC) and maintained
             endothelial nitric oxide bioavailability (EPR).
           </div>
+          <div class="gap">
+            <b>Research gap:</b> The Sirt3OX mouse is the closest existing gain-of-function model, but it has never been run in a lifespan study — per the gap analysis, “a lifespan study in Sirt3OX mice remains the missing experiment.”
+          </div>
           <div class="context">
-            Provides the in vivo gain-of-function evidence missing from SIRT3 research: Sirt3 protects vascular
-            function under hypertensive stress, but no lifespan data exist for this model — the "SIRT3 longevity in
-            vivo" gap remains open.
+            <b>How it fills the gap:</b> Provides the in vivo gain-of-function evidence missing from SIRT3 research — Sirt3 protects vascular function under hypertensive stress, but no lifespan data exist for this model, so the “SIRT3 longevity in vivo” gap remains open.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">Source: PMC7035170 ↗</a>
         </div>
       </div>
 
       <!-- DIKALOVA FIG 6 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7e57/7035170/c3e59af7c9a9/nihms-1549189-f0007.jpg"
                alt="Aortic TERT, p21 and SA-beta-gal in wild-type, Sirt3 knockout and Sirt3 overexpressing mice"
@@ -1007,16 +1059,18 @@
             Sirt3 overexpression reversed this pattern. Systolic blood pressure was also elevated in Sirt3<sup>−/−</sup>
             mice at baseline.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same gap plus the vascular-senescence dimension: SIRT3's relationship to the tissue senescence phenotype (SA-β-gal, p21) previously had only correlative support.
+          </div>
           <div class="context">
-            A direct link between a sirtuin and the senescence phenotype in the vessel wall — SA-β-gal and p21 are the
-            canonical senescence markers of vascular aging.
+            <b>How it fills the gap:</b> A direct link between a sirtuin and the senescence phenotype in the vessel wall — SA-β-gal and p21 are the canonical senescence markers of vascular aging.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">Source: PMC7035170 ↗</a>
         </div>
       </div>
 
       <!-- WU FIG 7 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3310/11091707/398e3181ddb6/gr7.jpg"
                alt="Integrated metabolomics and succinylomics identify CPT2 as the functional succinylated substrate of SIRT5 in fatty acid oxidation"
@@ -1031,16 +1085,18 @@
             enzymes (KEGG). The analysis flowchart (D) and tables (E) converge on CPT2; immunoprecipitation confirmed
             increased CPT2 succinylation with reduced CPT2 enzymatic activity in Sirt5<sup>−/−</sup> hearts.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SIRT5 understudied in disease: SIRT5-specific mechanisms in cardiac fibrosis, CAD, hypertension and atherogenesis “need further study”, and the biological significance of SIRT5's positive correlation with insulin sensitivity “still remains to be confirmed” (14 Aug gap analysis).
+          </div>
           <div class="context">
-            Fills the "SIRT5-specific disease mechanisms" gap: SIRT5 desuccinylates CPT2 to sustain fatty-acid
-            oxidation, preventing lipotoxic cardiomyopathy — [[CPT2]] is suggested as a new entity note for the vault.
+            <b>How it fills the gap:</b> SIRT5 desuccinylates CPT2 to sustain fatty-acid oxidation, preventing lipotoxic cardiomyopathy — [[CPT2]] is suggested as a new entity note for the vault.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">Source: PMC11091707 ↗</a>
         </div>
       </div>
 
       <!-- WU FIG 8 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3310/11091707/a4c04f0bdf0f/gr8.jpg"
                alt="CPT2 Lys424 succinylation drives cardiac lipotoxicity: mass spectrum, homology, K424R rescue of enzyme activity, FAO and lipid accumulation"
@@ -1055,16 +1111,18 @@
             restored CPT2 activity, rescued FAO measured by Seahorse, and reduced lipid droplets and triglyceride
             content in cardiomyocytes under palmitate stress.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT5 gap — previous evidence was correlative; a mechanistic causal link (which residue, which enzyme step) was missing.
+          </div>
           <div class="context">
-            The K424R rescue is the causal proof: a single succinylation site mediates SIRT5-dependent FAO control in
-            diabetic cardiomyopathy — a mechanistic, not merely correlative, fill for the SIRT5 gap.
+            <b>How it fills the gap:</b> The K424R rescue is the causal proof — a single succinylation site mediates SIRT5-dependent FAO control in diabetic cardiomyopathy, a mechanistic rather than correlative fill.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">Source: PMC11091707 ↗</a>
         </div>
       </div>
 
       <!-- LI FIG 3 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de1e/11363360/5f7622b9d396/12872_2024_4120_Fig3_HTML.jpg"
                alt="SIRT5 interacts with TOM1 and decreases its succinylation at site K48 in cardiomyocytes"
@@ -1079,16 +1137,18 @@
             interaction. The succinylation site was mapped to K48, and the K48R mutant abolished SIRT5-dependent
             regulation of TOM1 protein stability (CHX chase).
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Autophagy/mitophagy gap: “Mechanisms of mtSIRTs (SIRT3–5) on autophagy still unclear” — no SIRT5-specific autophagy target in the heart was known.
+          </div>
           <div class="context">
-            The first mechanistic SIRT5–autophagy link in the heart: TOM1 desuccinylation couples SIRT5 to autophagic
-            flux — [[TOM1]] is suggested as a new entity note.
+            <b>How it fills the gap:</b> The first mechanistic SIRT5–autophagy link in the heart — TOM1 desuccinylation couples SIRT5 to autophagic flux; [[TOM1]] is suggested as a new entity note.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">Source: PMC11363360 ↗</a>
         </div>
       </div>
 
       <!-- LI FIG 5 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de1e/11363360/2f524977756c/12872_2024_4120_Fig5_HTML.jpg"
                alt="SIRT5 alleviates myocardial injury in in vivo MI models: TTC infarct staining, HE histology and autophagy marker western blots"
@@ -1103,16 +1163,18 @@
             groups show SIRT5 raising TOM1 and the LC3-II/I ratio while lowering TOM1-succ and p62 — consistent with
             autophagy activation in the injured myocardium.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT5–autophagy gap — the in vivo (whole-heart) validation step was missing.
+          </div>
           <div class="context">
-            In vivo validation that SIRT5's desuccinylase activity translates into cardioprotection, connecting the
-            SIRT5–autophagy axis to cardiac mitophagy and the sirtuin–heart disease literature.
+            <b>How it fills the gap:</b> In vivo validation that SIRT5's desuccinylase activity translates into cardioprotection, connecting the SIRT5–autophagy axis to cardiac mitophagy and the sirtuin–heart disease literature.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">Source: PMC11363360 ↗</a>
         </div>
       </div>
 
       <!-- LAGUNAS-RANGEL FIG 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c6ce/12594717/0ac08a126bf6/11010_2025_5358_Fig2_HTML.jpg"
                alt="Sirtuins that positively regulate mitophagy: SIRT1, SIRT3 and SIRT6 via FOXO, TFAM, PARKIN recruitment and AMPK"
@@ -1127,16 +1189,18 @@
             supports PARKIN recruitment by promoting HK2 dissociation from VDAC1 and deacetylating ATP5IF1; SIRT6 acts
             indirectly by activating AMPK and thereby FOXO3.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SIRT6/SIRT7 in autophagy & mitophagy: SIRT6's mechanism of promoting autophagy “needs further study”; SIRT7's role in autophagy is inconsistent and under-investigated — no systematic account of the sirtuin–mitophagy interplay existed.
+          </div>
           <div class="context">
-            Fills the "SIRT6/SIRT7 in autophagy &amp; mitophagy" gap with a systematic overview — the PINK1/[[PARKIN]]
-            axis is suggested as a new entity note.
+            <b>How it fills the gap:</b> A systematic overview of sirtuins that positively regulate mitophagy (SIRT1/3/6 via FOXO, TFAM, PARKIN recruitment and AMPK) — the PINK1/[[PARKIN]] axis is suggested as a new entity note.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">Source: PMC12594717 ↗</a>
         </div>
       </div>
 
       <!-- LAGUNAS-RANGEL FIG 4 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c6ce/12594717/b1f2f1761876/11010_2025_5358_Fig4_HTML.jpg"
                alt="Differential roles of sirtuins in mitophagy with subcellular localization: SIRT1, SIRT3, SIRT6 positive; SIRT2, SIRT4, SIRT5, SIRT7 inhibitory"
@@ -1150,16 +1214,18 @@
             SIRT4, SIRT5 and SIRT7 more commonly limit it. The subcellular localization of each sirtuin is depicted
             (nuclear, cytosolic, mitochondrial), highlighting compartment-specific functions.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same mitophagy gap, plus the whole-family imbalance: “SIRT2 and SIRT7 are far less studied in metabolism than SIRT1/3/6.”
+          </div>
           <div class="context">
-            The polarity map directly informs the under-studied isoform gaps: SIRT4 and SIRT7 emerge as inhibitory
-            nodes whose mechanistic details "need further study".
+            <b>How it fills the gap:</b> The polarity map directly informs the under-studied isoform gaps — SIRT4 and SIRT7 emerge as inhibitory nodes whose mechanistic details “need further study.”
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">Source: PMC12594717 ↗</a>
         </div>
       </div>
 
       <!-- RAZA FIG 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c5fd/11281815/ac519e2af930/physrev.00044.2022_f002.jpg"
                alt="Aging declines SIRT7 expression and activity across tissues and stem cells"
@@ -1173,16 +1239,18 @@
             colon, skin, leukocytes, and stem cells (hair follicle stem cells, hematopoietic stem cells and neural stem
             cells).
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SIRT7 is the least understood sirtuin in aging — “SIRT2 and SIRT7 are far less studied in metabolism than SIRT1/3/6”; no dedicated comprehensive SIRT7 review existed in the vault.
+          </div>
           <div class="context">
-            Anchor evidence for the "SIRT7 under-studied in aging" gap: SIRT7 decline is a conserved feature of
-            organismal aging, motivating its investigation in cellular senescence.
+            <b>How it fills the gap:</b> Anchor evidence for the “SIRT7 under-studied in aging” gap — SIRT7 decline is a conserved feature of organismal aging, motivating its investigation in cellular senescence.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">Source: PMC11281815 ↗</a>
         </div>
       </div>
 
       <!-- RAZA FIG 10 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c5fd/11281815/aabc10d7d5bd/physrev.00044.2022_f010.jpg"
                alt="Sirt7 deficiency accelerates murine aging with shorter lifespan and defects across organs"
@@ -1196,16 +1264,18 @@
             observed across brain, heart, liver, kidney, adipose tissue, colon, bone, reproductive organs, blood, hair
             and ears.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT7 gap — whether SIRT7 loss-of-function drives in vivo aging phenotypes had not been consolidated in one place.
+          </div>
           <div class="context">
-            The in vivo aging evidence for SIRT7: unlike SIRT3, SIRT7 has a loss-of-function lifespan phenotype in mice —
-            a key contrast for the vault's sirtuin longevity notes.
+            <b>How it fills the gap:</b> The in vivo aging evidence for SIRT7 — unlike SIRT3, SIRT7 has a loss-of-function lifespan phenotype in mice, a key contrast for the vault's sirtuin longevity notes.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">Source: PMC11281815 ↗</a>
         </div>
       </div>
 
       <!-- TRAN FIG 4 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a807/12225685/84e6d6ae707d/nihms-2085594-f0005.jpg"
                alt="SIRT7 loss during senescence promotes NUCKS1 acetylation and chromatin binding in IMR90 fibroblasts"
@@ -1220,16 +1290,18 @@
             the nucleus and onto chromatin (immunofluorescence, compartmental proteomics, chromatin fractionation),
             correlating with increased NUCKS1 acetylation.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Inflammation gap: “Whether SIRT depletion is a common pathological change in inflammation-related diseases … need further study. Role of SIRTs in inflammatory responses remains incompletely defined” — SIRT7's chromatin mechanism in senescence was undefined.
+          </div>
           <div class="context">
-            A molecular explanation for the senescent epigenome: SIRT7 loss during senescence promotes NUCKS1
-            acetylation and chromatin binding — [[NUCKS1]] is suggested as a new entity note.
+            <b>How it fills the gap:</b> A molecular explanation for the senescent epigenome — SIRT7 loss during senescence promotes NUCKS1 acetylation and chromatin binding; [[NUCKS1]] is suggested as a new entity note.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">Source: PMC12225685 ↗</a>
         </div>
       </div>
 
       <!-- TRAN FIG 5 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a807/12225685/77361e1fbbb1/nihms-2085594-f0006.jpg"
                alt="NUCKS1 depletion delays etoposide-induced senescence and reduces inflammatory SASP gene expression"
@@ -1243,16 +1315,18 @@
             lowered IL-8 expression; RNA-seq showed 2,738 differentially expressed genes enriched in NF-κB (RELA) and
             CEBPβ targets, and NUCKS1 acetylation mimetics raised IL-6, IL-8 and MMP3.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT7–inflammation gap — correlation vs. causation for SIRT7 in the inflammatory SASP had not been resolved.
+          </div>
           <div class="context">
-            Functional proof that the SIRT7–NUCKS1 axis drives the inflammatory SASP — a central theme in
-            sirtuin–senescence research — and that SIRT7 loss is a trigger rather than a consequence of senescence.
+            <b>How it fills the gap:</b> Functional proof that the SIRT7–NUCKS1 axis drives the inflammatory SASP — a central theme in sirtuin–senescence research — and that SIRT7 loss is a trigger rather than a consequence of senescence.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">Source: PMC12225685 ↗</a>
         </div>
       </div>
 
       <!-- ZHANG GRAPHICAL ABSTRACT -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ef3e/10981524/ce5e1c44ad36/cvae011_ga.jpg"
                alt="The SIRT7-KLF4 axis in pulmonary artery endothelial cells: deacetylation at K228 stabilizes KLF4; SIRT7 loss drives KLF4 degradation in pulmonary hypertension"
@@ -1267,16 +1341,18 @@
             reduced, KLF4 acetylation rises and KLF4 is ubiquitinated and degraded — driving endothelial dysfunction
             and vascular remodeling.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Cardiovascular gap: “Limited studies on SIRT2/4/5/7 in heart failure, MI/reperfusion, hypertension, CAD and atherogenesis; relevant molecular mechanisms need to be further explored” — no defined tissue-specific SIRT7 mechanism in vascular disease.
+          </div>
           <div class="context">
-            A defined tissue-specific SIRT7 mechanism — links to the existing [[Klf4]] entity note and fills the
-            "SIRT7 cardiovascular" gap with a therapeutically targetable axis.
+            <b>How it fills the gap:</b> A defined tissue-specific SIRT7 mechanism — links to the existing [[Klf4]] entity note and fills the “SIRT7 cardiovascular” gap with a therapeutically targetable axis.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">Source: PMC10981524 ↗</a>
         </div>
       </div>
 
       <!-- ZHANG FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ef3e/10981524/6d84a38f4f9e/cvae011f1.jpg"
                alt="SIRT7 deficiency exacerbates pulmonary hypertension: patient GEO data, SuHx mouse model, Sirt7 knockout and AAV-shSirt7"
@@ -1291,16 +1367,18 @@
             AAV-shSirt7 knockdown worsened right ventricular systolic pressure, the Fulton index and pulmonary arterial
             wall thickness in SuHx mice.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT7 cardiovascular gap — causal (not merely correlative) evidence for SIRT7 in pulmonary hypertension was needed.
+          </div>
           <div class="context">
-            Human + mouse evidence that SIRT7 loss is causal in PH — fills the SIRT7 cardiovascular gap with both
-            loss- and gain-of-function data (AAV-Sirt7 delivery and NR treatment reverse the phenotype).
+            <b>How it fills the gap:</b> Human + mouse evidence that SIRT7 loss is causal in PH — fills the SIRT7 cardiovascular gap with both loss- and gain-of-function data (AAV-Sirt7 delivery and NR treatment reverse the phenotype).
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">Source: PMC10981524 ↗</a>
         </div>
       </div>
 
       <!-- YANG FIG 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/acb8/10558204/fadb91c8205c/elife-85571-fig1.jpg"
                alt="SIRT2 levels rise in mouse hearts after trans-aortic constriction and in failing human hearts with dilated or ischemic cardiomyopathy"
@@ -1314,16 +1392,18 @@
             other sirtuins did not. SIRT2 protein was also increased in explanted human hearts from patients with
             dilated cardiomyopathy and with ischemic heart failure compared with healthy controls.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SIRT2 context-dependence: “Opposing roles of SIRT2 in cardiac contractility, apoptosis, proliferation and fibrosis across cell types need resolution; precise role in cardiac contractile function under physiological/pathological conditions is undefined.”
+          </div>
           <div class="context">
-            Directly relevant to the "SIRT2 context-dependence" gap: SIRT2 is the only sirtuin consistently elevated in
-            failing hearts, supporting its maladaptive role under cardiac stress.
+            <b>How it fills the gap:</b> SIRT2 is the only sirtuin consistently elevated in failing human hearts, supporting its maladaptive role under cardiac stress — directly relevant to the context-dependence gap.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">Source: PMC10558204 ↗</a>
         </div>
       </div>
 
       <!-- YANG FIG 6 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/acb8/10558204/99beca2f0888/elife-85571-fig6.jpg"
                alt="Nrf2 deletion reverses Sirt2 knockout protection and AGK2 SIRT2 inhibition protects against cardiac hypertrophy"
@@ -1338,16 +1418,18 @@
             the protective mediator. Pharmacological inhibition with the selective SIRT2 inhibitor AGK2 (40 mg/kg,
             twice weekly, protocol in C) improved echo measures of cardiac remodeling after TAC.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT2 gap — the pharmacology arm (selective SIRT2 inhibitor AGK2) had not been tested in hypertrophy models.
+          </div>
           <div class="context">
-            The pharmacological arm fills the SIRT2 gap's therapeutic side: SIRT2 inhibition — not just deletion —
-            protects against hypertrophy and maladaptive remodeling.
+            <b>How it fills the gap:</b> The pharmacological arm fills the therapeutic side — SIRT2 inhibition with AGK2, not just genetic deletion, protects against hypertrophy and maladaptive remodeling.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">Source: PMC10558204 ↗</a>
         </div>
       </div>
 
       <!-- GRZECZKA FIG 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f69e/12972463/136a4c711577/11357_2025_2021_Fig2_HTML.jpg"
                alt="Consequences of aberrant post-translational modifications in the SIRT5 network: SOD1, SDHA, GCDH and GAPDH"
@@ -1362,16 +1444,18 @@
             dehydrogenase subunit A) and GCDH (glutaryl-CoA dehydrogenase) defects reduce ATP production; GAPDH
             dysregulation disturbs carbohydrate metabolism.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> SIRT5 understudied in cardiac disease — no dedicated SIRT5–cardiac synthesis existed; the field's evidence was scattered across individual papers.
+          </div>
           <div class="context">
-            Review-level synthesis for the "SIRT5 understudied in disease" gap: SIRT5's
-            desuccinylase/demalonylase/deglutarylase network is central to cardiac energy homeostasis.
+            <b>How it fills the gap:</b> Review-level synthesis — SIRT5's desuccinylase/demalonylase/deglutarylase network is central to cardiac energy homeostasis.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">Source: PMC12972463 ↗</a>
         </div>
       </div>
 
       <!-- GRZECZKA FIG 3 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f69e/12972463/a5054fbac2d3/11357_2025_2021_Fig3_HTML.jpg"
                alt="Scheme of myocardial infarction: causes, risk factors, types, symptoms and development of myocardial necrosis"
@@ -1385,9 +1469,11 @@
             myocardial-cell necrosis shown at the bottom — the clinical context in which SIRT5's cardioprotective
             roles operate.
           </div>
+          <div class="gap">
+            <b>Research gap:</b> Same SIRT5–cardiac gap — the mechanism papers lacked an explicit clinical context (myocardial infarction).
+          </div>
           <div class="context">
-            Positions the SIRT5 mechanism papers (CPT2, TOM1) within the clinical MI landscape — the disease endpoint
-            featured in the vault's cardiac sirtuin notes.
+            <b>How it fills the gap:</b> Positions the SIRT5 mechanism papers (CPT2, TOM1) within the clinical MI landscape — the disease endpoint featured in the vault's cardiac sirtuin notes.
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">Source: PMC12972463 ↗</a>
         </div>
@@ -1406,7 +1492,7 @@
       all <b style="color:var(--text)">15 source documents</b> in <code>src/notes/sirtuins/</code> are catalogued below
       (canonical index: <code>src/notes/sirtuins/README.md</code>). Every figure in the gallery above is drawn from one of the
       starred documents (★) or from the Tier 1 papers in the
-      <a href="#tier1">Tier 1 Papers section</a> (pending ingestion, recommended 18 Aug 2026).
+      <a href="#research">Research Gaps section</a> (pending ingestion, recommended 18 Aug 2026).
     </p>
     <div class="pill-row" style="margin-top:14px;">
       <span class="badge teal">15 documents</span>

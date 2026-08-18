@@ -72,6 +72,39 @@
       line-height: 1.5;
       margin-bottom: 10px;
     }
+    .gallery-card .gap {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-left: 3px solid var(--teal);
+      padding: 2px 0 0 12px;
+      margin-bottom: 10px;
+    }
+    .gallery-card .gap b,
+    .gallery-card .context b { color: var(--text); }
+    .rg-summary {
+      font-size: .82rem;
+      line-height: 1.5;
+      color: var(--dim);
+      background: rgba(127,127,220,.05);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--teal);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 4px 0 16px;
+    }
+    .rg-summary h3 {
+      font-size: .85rem;
+      margin: 0 0 8px;
+      color: var(--text);
+      letter-spacing: .3px;
+    }
+    .rg-summary ul { margin: 4px 0 0; padding-left: 18px; }
+    .rg-summary li { margin: 5px 0; }
+    .rg-summary .fill { color: var(--teal); font-weight: 700; }
+    .rg-summary .partial { color: var(--amber); font-weight: 700; }
+    .rg-summary .open { color: var(--red); font-weight: 700; }
+
     .gallery-card .context {
       font-size: .78rem;
       color: var(--mute);
@@ -174,7 +207,7 @@
     <a class="n" href="#structures">蛋白質結構</a>
     <a class="n" href="#pharmacology">藥理學</a>
     <a class="n" href="#substrates">受質與夥伴</a>
-    <a class="n" href="#tier1">Tier 1 論文</a>
+    <a class="n" href="#research">研究缺口</a>
     <a class="n" href="#library">文獻索引</a>
   </div>
 </nav>
@@ -891,9 +924,9 @@
 </section>
 
 <!-- ==================== TIER 1 論文（研究缺口建議） ==================== -->
-<section id="tier1">
+<section id="research">
   <div class="wrap">
-    <h2>Tier 1 論文 — 研究缺口建議（2026 年 8 月 18 日）</h2>
+    <h2>研究缺口 — 建議（2026 年 8 月 18 日）</h2>
     <p class="lead" style="margin-bottom:6px;">
       20 張圖表來自 2026 年 8 月 18 日為填補 sirtuin 研究缺口分析
       （<code>src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md</code>）所建議的十篇 Tier 1 論文：
@@ -914,10 +947,25 @@
       <span style="color:var(--mute);">註：Pannek 等人 2024（<i>J Med Chem</i>，首款具細胞活性的 SIRT4 抑制劑）
       無開放取用圖表——見 <a href="https://pubmed.ncbi.nlm.nih.gov/38253001/" target="_blank">PubMed ↗</a>。</span>
     </p>
-    <div class="gallery-grid" data-gallery="tier1">
+    <div class="rg-summary">
+      <h3>這些論文如何填補各缺口</h3>
+      <p style="margin:0 0 6px;">2026 年 8 月 18 日共建議十篇 Tier 1 論文以填補下列 sirtuin 缺口；本頁圖表與其對應如下。</p>
+      <ul>
+        <li><b>SIRT3 長壽效應未經體內驗證</b> — <span class="partial">部分填補</span>：You &amp; Wang 2025（SIRT3–老化回顧）＋ Dikalova 2020（Sirt3OX 模型）；Sirt3OX 的壽命研究仍是缺失的實驗。</li>
+        <li><b>SIRT5 疾病角色與心臟代謝</b> — <span class="fill">已填補</span>：Wu 2024（CPT2 去琥珀醯化 → FAO）＋ Grzeczka 2025（SIRT5–心臟回顧）。</li>
+        <li><b>SIRT5–自噬</b> — <span class="fill">已填補</span>：Li 2024（TOM1 去琥珀醯化驅動自噬通量；體內 MI 心臟保護）。</li>
+        <li><b>SIRT6/SIRT7 在自噬與粒線體自噬</b> — <span class="fill">已填補</span>：Lagunas-Rangel 2025（sirtuin–粒線體自噬交互作用；PINK1/PARKIN）。</li>
+        <li><b>SIRT7 老化</b> — <span class="fill">已填補</span>：Raza 2024（綜合回顧＋Sirt7-KO 體內老化表型）。</li>
+        <li><b>SIRT7 老化／發炎機制</b> — <span class="fill">已填補</span>：Tran 2025（SIRT7–NUCKS1 染色質軸 → 發炎性 SASP）。</li>
+        <li><b>SIRT7 心血管</b> — <span class="fill">已填補</span>：Zhang 2024（肺動脈高壓中的內皮 SIRT7–KLF4 軸）。</li>
+        <li><b>SIRT2 心臟情境依賴性</b> — <span class="fill">已填補</span>：Yang 2023（衰竭心臟中 SIRT2 上升；AGK2 抑制具保護作用）。</li>
+      </ul>
+      <p class="rg-note" style="margin:8px 0 0;">完整分析中在這些論文之後仍開放的缺口：<b>SIRT3 壽命研究</b>；<b>SIRT4 體內機制與首款 SIRT4 抑制劑</b>（Pannek 2024 無開放取用圖表）；<b>SIRT3/SIRT4 臨床生物標記</b>；<b>直接的 STAC 靶內（on-target）證明</b>。</p>
+    </div>
+    <div class="gallery-grid" data-gallery="research">
 
       <!-- YOU & WANG 圖 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg"
                alt="SIRT3 在細胞恆定中的多維調控網路：氧化還原防禦、DNA 修復、細胞凋亡與代謝"
@@ -933,17 +981,18 @@
             延緩細胞色素 c 釋放及下游 caspase 活化來調控細胞凋亡；(D) 它透過促進 TCA 循環活性、
             脂肪酸氧化、丙酮酸轉為乳酸以及酮體生成，整合代謝通量。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> SIRT3 的長壽主張目前僅建立在相關性的人類 SNP 數據與細胞／小鼠藥理學之上，缺乏直接的功能增益長壽測試。缺口分析（2026 年 8 月 14 日）指出：「至今不存在可直接測試延長壽命的 SIRT3 過度表現基因轉殖小鼠——這是一項關鍵缺口。人類 SNP 與長壽的關聯在不同佇列間不一致。」
+          </div>
           <div class="context">
-            填補「SIRT3 長壽效應未經體內驗證」的缺口，提供 2025 年領域現況：SIRT3 對粒線體、
-            氧化還原與表觀遺傳具有多模式控制——但至今仍無 SIRT3 過度表現的壽命研究，
-            體內長壽問題仍未解。
+            <b>填補方式：</b> 2025 年領域現況綜合：SIRT3 對粒線體、氧化還原與表觀遺傳具有多模式控制——但至今仍無 SIRT3 過度表現的壽命研究，體內長壽問題仍未解。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">來源：PMC12374834 ↗</a>
         </div>
       </div>
 
       <!-- YOU & WANG 圖 3 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg"
                alt="SIRT3 在年齡相關疾病中的調控機制：細胞衰老、神經退化、腎臟、心血管、代謝與致癌過程"
@@ -959,16 +1008,18 @@
             腎臟病理（C）、經由 PINK1 介導粒線體自噬的心血管保護（D）、代謝失調（E）
             與致癌過程（F）。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一核心缺口的疾病層級面向：具體的疾病關聯（細胞衰老、神經退化、心血管、代謝）已被整理成冊，但 SIRT3 功能增益是否在體內延長壽命仍未經測試。
+          </div>
           <div class="context">
-            與衰老生物學直接相關：細胞衰老圖板（A）將 SIRT3 定位為衰老程式的調節者，
-            而非粒線體老化的被動旁觀者。
+            <b>填補方式：</b> 細胞衰老圖板（A）將 SIRT3 定位為衰老程式的調節者，而非粒線體老化的被動旁觀者——與衰老生物學直接相關。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">來源：PMC12374834 ↗</a>
         </div>
       </div>
 
       <!-- DIKALOVA 圖 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7e57/7035170/3dc02aaa8f28/nihms-1549189-f0002.jpg"
                alt="Sirt3 過度表現對抗血管收縮素 II 誘導的高血壓：遙測血壓、內皮依賴性舒張、主動脈超氧化物與一氧化氮"
@@ -984,16 +1035,18 @@
             內皮依賴性舒張、降低主動脈超氧化物（DHE-HPLC）並維持內皮一氧化氮
             生物可用性（EPR）。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> Sirt3OX 小鼠是目前最接近的功能增益模型，但從未進行壽命研究——缺口分析指出：「Sirt3OX 小鼠的壽命研究仍是缺失的實驗。」
+          </div>
           <div class="context">
-            提供 SIRT3 研究中所欠缺的體內功能增益證據：Sirt3 在高血壓壓力下保護血管功能，
-            但此模型尚無壽命數據——「SIRT3 體內長壽」缺口仍然開放。
+            <b>填補方式：</b> 提供 SIRT3 研究中所欠缺的體內功能增益證據——Sirt3 在高血壓壓力下保護血管功能，但此模型尚無壽命數據，「SIRT3 體內長壽」缺口仍然開放。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">來源：PMC7035170 ↗</a>
         </div>
       </div>
 
       <!-- DIKALOVA 圖 6 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7e57/7035170/c3e59af7c9a9/nihms-1549189-f0007.jpg"
                alt="野生型、Sirt3 基因剔除與 Sirt3 過度表現小鼠主動脈中的 TERT、p21 與 SA-β-gal"
@@ -1007,16 +1060,18 @@
             的西方墨點：Sirt3 剔除提高 p21 與 SA-β-gal，同時降低端粒酶逆轉錄酶（TERT）；
             Sirt3 過度表現則逆轉此模式。Sirt3<sup>−/−</sup> 小鼠的基礎收縮壓亦升高。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口加上血管衰老面向：SIRT3 與組織衰老表型（SA-β-gal、p21）的關聯先前僅有相關性支持。
+          </div>
           <div class="context">
-            sirtuin 與血管壁衰老表型之間的直接連結——SA-β-gal 與 p21 是血管老化的
-            經典衰老標記。
+            <b>填補方式：</b> sirtuin 與血管壁衰老表型之間的直接連結——SA-β-gal 與 p21 是血管老化的經典衰老標記。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">來源：PMC7035170 ↗</a>
         </div>
       </div>
 
       <!-- WU 圖 7 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3310/11091707/398e3181ddb6/gr7.jpg"
                alt="整合代謝體學與琥珀醯體學鑑定 CPT2 為 SIRT5 在脂肪酸氧化中的功能性琥珀醯化受質"
@@ -1031,16 +1086,18 @@
             分析流程圖（D）與表格（E）收斂至 CPT2；免疫沉澱證實 Sirt5<sup>−/−</sup> 心臟中
             CPT2 琥珀醯化增加，同時 CPT2 酶活性下降。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT5 在疾病中研究不足」：SIRT5 在心臟纖維化、冠狀動脈疾病、高血壓與動脈粥狀硬化中的特異性機制「仍需進一步研究」，SIRT5 與胰島素敏感性正相關的生物學意義「仍有待確認」（2026 年 8 月 14 日缺口分析）。
+          </div>
           <div class="context">
-            填補「SIRT5 特異性疾病機制」缺口：SIRT5 透過去琥珀醯化 CPT2 維持脂肪酸氧化，
-            防止脂毒性心肌病變——[[CPT2]] 建議作為知識庫新實體筆記。
+            <b>填補方式：</b> SIRT5 透過去琥珀醯化 CPT2 維持脂肪酸氧化，防止脂毒性心肌病變——[[CPT2]] 建議作為知識庫新實體筆記。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">來源：PMC11091707 ↗</a>
         </div>
       </div>
 
       <!-- WU 圖 8 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3310/11091707/a4c04f0bdf0f/gr8.jpg"
                alt="CPT2 Lys424 琥珀醯化驅動心臟脂毒性：質譜、同源性、K424R 挽救酶活性、FAO 與脂質累積"
@@ -1054,16 +1111,18 @@
             心臟中腺病毒表現抗琥珀醯化的 CPT2 K424R 突變體，可恢復 CPT2 活性、
             挽救 Seahorse 測量的 FAO，並減少棕櫚酸壓力下心肌細胞的脂滴與三酸甘油酯含量。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——先前僅有相關性連結，缺少機制性因果證明（哪個殘基、哪個酶步驟）。
+          </div>
           <div class="context">
-            K424R 挽救是因果性證明：單一琥珀醯化位點介導 SIRT5 依賴的 FAO 控制在
-            糖尿病心肌病變中的角色——這是機制性而非僅相關性的缺口填補。
+            <b>填補方式：</b> K424R 挽救是因果性證明——單一琥珀醯化位點介導 SIRT5 依賴的 FAO 控制在糖尿病心肌病變中的角色，是機制性而非僅相關性的填補。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">來源：PMC11091707 ↗</a>
         </div>
       </div>
 
       <!-- LI 圖 3 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de1e/11363360/5f7622b9d396/12872_2024_4120_Fig3_HTML.jpg"
                alt="SIRT5 與 TOM1 交互作用並降低心肌細胞中 K48 位點的琥珀醯化"
@@ -1077,16 +1136,18 @@
             琥珀醯化；外源與內源性共免疫沉澱顯示 SIRT5–TOM1 直接交互作用。琥珀醯化位點
             定位至 K48，K48R 突變體消除了 SIRT5 依賴的 TOM1 蛋白穩定性調控（CHX 追蹤）。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「自噬／粒線體自噬」缺口：「粒線體 sirtuin（SIRT3–5）對自噬的機制仍不清楚」——心臟中缺乏已知的 SIRT5 特異性自噬靶點。
+          </div>
           <div class="context">
-            心臟中首個機制性 SIRT5–自噬連結：TOM1 去琥珀醯化將 SIRT5 耦聯至自噬通量——
-            [[TOM1]] 建議作為新實體筆記。
+            <b>填補方式：</b> 心臟中首個機制性 SIRT5–自噬連結——TOM1 去琥珀醯化將 SIRT5 耦聯至自噬通量；[[TOM1]] 建議作為新實體筆記。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">來源：PMC11363360 ↗</a>
         </div>
       </div>
 
       <!-- LI 圖 5 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de1e/11363360/2f524977756c/12872_2024_4120_Fig5_HTML.jpg"
                alt="SIRT5 在體內 MI 模型中減輕心肌損傷：TTC 梗塞染色、HE 組織學與自噬標記西方墨點"
@@ -1100,16 +1161,18 @@
             並改善心肌組織學（H&amp;E）。四個治療組的西方墨點顯示 SIRT5 提高 TOM1 與
             LC3-II/I 比值，同時降低 TOM1-succ 與 p62——與損傷心肌中的自噬活化一致。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT5–自噬缺口——缺少體內（整體心臟）驗證步驟。
+          </div>
           <div class="context">
-            體內驗證 SIRT5 的去琥珀醯酶活性可轉化為心臟保護，將 SIRT5–自噬軸連結至
-            心臟粒線體自噬與 sirtuin–心臟疾病文獻。
+            <b>填補方式：</b> 體內驗證 SIRT5 的去琥珀醯酶活性可轉化為心臟保護，將 SIRT5–自噬軸連結至心臟粒線體自噬與 sirtuin–心臟疾病文獻。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">來源：PMC11363360 ↗</a>
         </div>
       </div>
 
       <!-- LAGUNAS-RANGEL 圖 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c6ce/12594717/0ac08a126bf6/11010_2025_5358_Fig2_HTML.jpg"
                alt="正向調節粒線體自噬的 sirtuin：SIRT1、SIRT3 與 SIRT6，經由 FOXO、TFAM、PARKIN 招募與 AMPK"
@@ -1124,16 +1187,18 @@
             並藉由促進 HK2 與 VDAC1 解離及去乙醯化 ATP5IF1 支持 PARKIN 招募；SIRT6 則
             間接透過活化 AMPK 進而活化 FOXO3。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT6/SIRT7 在自噬與粒線體自噬」：SIRT6 促進自噬的機制「仍需進一步研究」；SIRT7 在自噬中的角色不一致且研究不足——缺乏 sirtuin–粒線體自噬交互作用的系統性記述。
+          </div>
           <div class="context">
-            以系統性綜述填補「SIRT6/SIRT7 在自噬與粒線體自噬」缺口——PINK1/[[PARKIN]]
-            軸建議作為新實體筆記。
+            <b>填補方式：</b> 正向調節粒線體自噬之 sirtuin（SIRT1/3/6 經由 FOXO、TFAM、PARKIN 招募、AMPK）的系統性綜述——PINK1/[[PARKIN]] 軸建議作為新實體筆記。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">來源：PMC12594717 ↗</a>
         </div>
       </div>
 
       <!-- LAGUNAS-RANGEL 圖 4 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c6ce/12594717/b1f2f1761876/11010_2025_5358_Fig4_HTML.jpg"
                alt="sirtuin 在粒線體自噬中的差異角色與亞細胞定位：SIRT1、SIRT3、SIRT6 正向；SIRT2、SIRT4、SIRT5、SIRT7 抑制"
@@ -1147,16 +1212,18 @@
             SIRT4、SIRT5 與 SIRT7 較常限制之。圖中繪製各 sirtuin 的亞細胞定位
             （核、細胞質、粒線體），凸顯區室特異性功能。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一粒線體自噬缺口，加上家族失衡：「SIRT2 與 SIRT7 在代謝中的研究遠少於 SIRT1/3/6。」
+          </div>
           <div class="context">
-            此極性圖譜直接指引研究不足之異構酶的缺口：SIRT4 與 SIRT7 是機制細節
-            「仍需進一步研究」的抑制節點。
+            <b>填補方式：</b> 此極性圖譜直接指引研究不足之異構酶的缺口——SIRT4 與 SIRT7 是機制細節「仍需進一步研究」的抑制節點。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">來源：PMC12594717 ↗</a>
         </div>
       </div>
 
       <!-- RAZA 圖 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c5fd/11281815/ac519e2af930/physrev.00044.2022_f002.jpg"
                alt="老化使 SIRT7 在全身組織與幹細胞中的表現與活性下降"
@@ -1169,16 +1236,18 @@
             老化降低多種組織與細胞類型中的 SIRT7 表現與活性——腦、心臟、肺、肝、結腸、
             皮膚、白血球，以及幹細胞（毛囊幹細胞、造血幹細胞與神經幹細胞）。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> SIRT7 是老化研究中最不被了解的 sirtuin——「SIRT2 與 SIRT7 在代謝中的研究遠少於 SIRT1/3/6」；知識庫中沒有專門的 SIRT7 綜合性回顧。
+          </div>
           <div class="context">
-            「SIRT7 在老化中研究不足」缺口的錨定證據：SIRT7 下降是個體老化的保守特徵，
-            促成其在細胞衰老中的研究。
+            <b>填補方式：</b> 「SIRT7 在老化中研究不足」缺口的錨定證據——SIRT7 下降是個體老化的保守特徵，促成其在細胞衰老中的研究。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">來源：PMC11281815 ↗</a>
         </div>
       </div>
 
       <!-- RAZA 圖 10 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c5fd/11281815/aabc10d7d5bd/physrev.00044.2022_f010.jpg"
                alt="Sirt7 缺失加速小鼠老化，壽命縮短且多器官缺陷"
@@ -1191,16 +1260,18 @@
             Sirt7 基因剔除小鼠提早老化，且伴隨疾病相關的較短壽命；腦、心臟、肝、腎、
             脂肪組織、結腸、骨骼、生殖器官、血液、毛髮與耳朵均可觀察到缺陷與疾病。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT7 缺口——SIRT7 功能缺失是否在體內造成老化表型，缺乏集中整理。
+          </div>
           <div class="context">
-            SIRT7 的體內老化證據：與 SIRT3 不同，SIRT7 缺失在小鼠中具有壽命表型——
-            這是知識庫 sirtuin 長壽筆記中的關鍵對比。
+            <b>填補方式：</b> SIRT7 的體內老化證據——與 SIRT3 不同，SIRT7 缺失在小鼠中具有壽命表型，是知識庫 sirtuin 長壽筆記中的關鍵對比。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">來源：PMC11281815 ↗</a>
         </div>
       </div>
 
       <!-- TRAN 圖 4 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a807/12225685/84e6d6ae707d/nihms-2085594-f0005.jpg"
                alt="衰老期間 SIRT7 缺失促進 IMR90 纖維母細胞中 NUCKS1 乙醯化與染色質結合"
@@ -1214,16 +1285,18 @@
             誘導的衰老——SIRT7 被 E3 連接酶 TRIP12 降解——時，NUCKS1 轉位至細胞核與
             染色質（免疫螢光、區室蛋白質體學、染色質分餾），並與 NUCKS1 乙醯化增加相關。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「發炎」缺口：SIRT 耗竭是否為發炎相關疾病的常見病理變化、「SIRTs 在發炎反應中的角色仍未完全定義」——SIRT7 在衰老中的染色質機制此前未被定義。
+          </div>
           <div class="context">
-            衰老表觀基因體的分子解釋：衰老期間 SIRT7 缺失促進 NUCKS1 乙醯化與染色質結合——
-            [[NUCKS1]] 建議作為新實體筆記。
+            <b>填補方式：</b> 衰老表觀基因體的分子解釋——衰老期間 SIRT7 缺失促進 NUCKS1 乙醯化與染色質結合；[[NUCKS1]] 建議作為新實體筆記。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">來源：PMC12225685 ↗</a>
         </div>
       </div>
 
       <!-- TRAN 圖 5 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a807/12225685/77361e1fbbb1/nihms-2085594-f0006.jpg"
                alt="NUCKS1 耗竭延遲依託泊苷誘導的衰老並降低發炎性 SASP 基因表現"
@@ -1237,16 +1310,18 @@
             並降低 IL-8 表現；RNA-seq 顯示 2,738 個差異表現基因富集於 NF-κB（RELA）與
             CEBPβ 靶點，而 NUCKS1 乙醯化模擬突變體提高 IL-6、IL-8 與 MMP3。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT7–發炎缺口——SIRT7 與發炎性 SASP 的關係停留在相關性，缺少因果性證明。
+          </div>
           <div class="context">
-            功能性證明 SIRT7–NUCKS1 軸驅動發炎性 SASP——sirtuin–衰老研究的核心主題——
-            且 SIRT7 缺失是衰老的觸發因素而非後果。
+            <b>填補方式：</b> 功能性證明 SIRT7–NUCKS1 軸驅動發炎性 SASP——sirtuin–衰老研究的核心主題——且 SIRT7 缺失是衰老的觸發因素而非後果。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">來源：PMC12225685 ↗</a>
         </div>
       </div>
 
       <!-- ZHANG 圖形摘要 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ef3e/10981524/ce5e1c44ad36/cvae011_ga.jpg"
                alt="肺動脈內皮細胞中的 SIRT7-KLF4 軸：K228 去乙醯化穩定 KLF4；SIRT7 缺失在肺動脈高壓中驅動 KLF4 降解"
@@ -1260,16 +1335,18 @@
             內皮恆定與肺血管功能。在肺動脈高壓中，SIRT7 減少、KLF4 乙醯化上升，
             KLF4 被泛素化降解——驅動內皮功能障礙與血管重塑。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「心血管」缺口：「SIRT2/4/5/7 在心臟衰竭、心肌梗塞／再灌流、高血壓、冠狀動脈疾病與動脈粥狀硬化中的研究有限，相關分子機制仍需進一步探索」——血管疾病中缺乏已定義的組織特異性 SIRT7 機制。
+          </div>
           <div class="context">
-            明確的組織特異性 SIRT7 機制——連結至既有的 [[Klf4]] 實體筆記，並以可治療的
-            軸填補「SIRT7 心血管」缺口。
+            <b>填補方式：</b> 明確的組織特異性 SIRT7 機制——連結至既有的 [[Klf4]] 實體筆記，並以可治療的軸填補「SIRT7 心血管」缺口。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">來源：PMC10981524 ↗</a>
         </div>
       </div>
 
       <!-- ZHANG 圖 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ef3e/10981524/6d84a38f4f9e/cvae011f1.jpg"
                alt="SIRT7 缺失加劇肺動脈高壓：患者 GEO 數據、SuHx 小鼠模型、Sirt7 基因剔除與 AAV-shSirt7"
@@ -1283,16 +1360,18 @@
             Sugen5416/低氧（SuHx）小鼠肺中亦同。Sirt7 基因剔除與內皮靶向 AAV-shSirt7
             knockdown 使 SuHx 小鼠的右心室收縮壓、Fulton 指數與肺動脈壁厚度惡化。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT7 心血管缺口——需要 SIRT7 在肺動脈高壓中的因果性（而非僅相關性）證據。
+          </div>
           <div class="context">
-            人類＋小鼠證據顯示 SIRT7 缺失在肺動脈高壓中具因果性——以功能缺失與功能增益
-            數據（AAV-Sirt7 遞送與 NR 治療可逆轉表型）填補 SIRT7 心血管缺口。
+            <b>填補方式：</b> 人類＋小鼠證據顯示 SIRT7 缺失在肺動脈高壓中具因果性——以功能缺失與功能增益數據（AAV-Sirt7 遞送與 NR 治療可逆轉表型）填補 SIRT7 心血管缺口。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">來源：PMC10981524 ↗</a>
         </div>
       </div>
 
       <!-- YANG 圖 1 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/acb8/10558204/fadb91c8205c/elife-85571-fig1.jpg"
                alt="橫主動脈縮窄後小鼠心臟及擴張型或缺血性心肌病變衰竭人類心臟中 SIRT2 含量上升"
@@ -1306,16 +1385,18 @@
             SIRT2 上升，而其他 sirtuin 沒有。與健康對照相比，擴張型心肌病與缺血性
             心臟衰竭患者的移植心臟中 SIRT2 蛋白亦增加。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT2 情境依賴性」：「SIRT2 在心臟收縮力、細胞凋亡、增生與纖維化中跨細胞類型的相反角色需要釐清；其在生理／病理條件下心臟收縮功能中的確切角色尚未定義。」
+          </div>
           <div class="context">
-            與「SIRT2 情境依賴性」缺口直接相關：SIRT2 是衰竭心臟中唯一持續升高的
-            sirtuin，支持其心臟壓力下的適應不良角色。
+            <b>填補方式：</b> SIRT2 是衰竭人類心臟中唯一持續升高的 sirtuin，支持其心臟壓力下的適應不良角色——與情境依賴性缺口直接相關。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">來源：PMC10558204 ↗</a>
         </div>
       </div>
 
       <!-- YANG 圖 6 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/acb8/10558204/99beca2f0888/elife-85571-fig6.jpg"
                alt="Nrf2 剔除逆轉 Sirt2 基因剔除保護；AGK2 SIRT2 抑制保護心臟免於肥大"
@@ -1330,16 +1411,18 @@
             保護性中介因子。以選擇性 SIRT2 抑制劑 AGK2（40 mg/kg，每週兩次，方案見 C）
             進行藥理抑制，改善了 TAC 後心臟重塑的超音波指標。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT2 缺口——選擇性 SIRT2 抑制劑（AGK2）在肥大模型中的藥理學測試此前未進行。
+          </div>
           <div class="context">
-            藥理學部分填補 SIRT2 缺口的治療面：SIRT2 抑制——不僅是基因剔除——可防止
-            肥大與適應不良重塑。
+            <b>填補方式：</b> 藥理學部分填補治療面——以 AGK2 進行 SIRT2 抑制（不僅是基因剔除）可防止肥大與適應不良重塑。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">來源：PMC10558204 ↗</a>
         </div>
       </div>
 
       <!-- GRZECZKA 圖 2 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f69e/12972463/136a4c711577/11357_2025_2021_Fig2_HTML.jpg"
                alt="SIRT5 網路中異常翻譯後修飾的後果：SOD1、SDHA、GCDH 與 GAPDH"
@@ -1353,16 +1436,18 @@
             削弱抗氧化防禦；SDHA（琥珀酸脫氫酶次單元 A）與 GCDH（戊二醯輔酶 A 脫氫酶）
             缺陷降低 ATP 生成；GAPDH 失調擾亂碳水化合物代謝。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT5 在心臟疾病中研究不足」——缺乏專門的 SIRT5–心臟綜合整理；文獻中的證據散落於各篇論文。
+          </div>
           <div class="context">
-            「SIRT5 在疾病中研究不足」缺口的綜述層級綜合：SIRT5 的去琥珀醯酶／去丙二醯酶／
-            去戊二醯酶網路是心臟能量恆定的核心。
+            <b>填補方式：</b> 綜述層級綜合——SIRT5 的去琥珀醯酶／去丙二醯酶／去戊二醯酶網路是心臟能量恆定的核心。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">來源：PMC12972463 ↗</a>
         </div>
       </div>
 
       <!-- GRZECZKA 圖 3 -->
-      <div class="gallery-card" data-cat="tier1">
+      <div class="gallery-card" data-cat="research">
         <div class="img-wrap">
           <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f69e/12972463/a5054fbac2d3/11357_2025_2021_Fig3_HTML.jpg"
                alt="心肌梗塞示意圖：病因、風險因子、類型、症狀與心肌壞死的發展"
@@ -1375,9 +1460,11 @@
             心肌梗塞之病因、風險因子、類型與症狀的示意圖，底部顯示心肌細胞壞死的發展——
             即 SIRT5 心臟保護作用所在的臨床脈絡。
           </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT5–心臟缺口——機制論文缺少明確的臨床脈絡（心肌梗塞）。
+          </div>
           <div class="context">
-            將 SIRT5 機制論文（CPT2、TOM1）置於臨床心肌梗塞景觀中——知識庫心臟
-            sirtuin 筆記所著重之疾病終點。
+            <b>填補方式：</b> 將 SIRT5 機制論文（CPT2、TOM1）置於臨床心肌梗塞景觀中——知識庫心臟 sirtuin 筆記所著重之疾病終點。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">來源：PMC12972463 ↗</a>
         </div>
@@ -1395,7 +1482,7 @@
       本頁同時作為 llm-wiki-jk 知識庫中 sirtuins 主題文獻的索引：下方列出
       <code>src/notes/sirtuins/</code> 目錄內的<b style="color:var(--text)">全部 15 份來源文獻</b>
       （標準索引：<code>src/notes/sirtuins/README.md</code>）。上方圖庫中的每張圖表皆出自
-      帶星號（★）的文獻，或出自<a href="#tier1">「Tier 1 論文」章節</a>（待匯入，
+      帶星號（★）的文獻，或出自<a href="#research">「研究缺口」章節</a>（待匯入，
       2026 年 8 月 18 日建議）。
     </p>
     <div class="pill-row" style="margin-top:14px;">
