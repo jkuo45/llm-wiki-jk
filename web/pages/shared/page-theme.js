@@ -9,7 +9,9 @@
    page template.
 
    Theme key: localStorage 'llm-wiki-theme' = 'dark' | 'light', set by the
-   reader header toggle in the graph app (components/theme.js). */
+   reader header toggle in the graph app (components/theme.js). Light is the
+   default when no preference is stored; only an explicit 'dark' opts into
+   the dark theme. */
 (function () {
   var KEY = 'llm-wiki-theme';
   var link = document.createElement('link');
@@ -17,9 +19,9 @@
   link.href = 'shared/pages-light.css';
   link.id = 'theme-light';
   try {
-    link.disabled = localStorage.getItem(KEY) !== 'light';
+    link.disabled = localStorage.getItem(KEY) === 'dark';
   } catch (err) {
-    link.disabled = true; // storage unavailable -> stay dark
+    link.disabled = false; // storage unavailable -> stay light (default)
   }
   document.head.appendChild(link);
 })();

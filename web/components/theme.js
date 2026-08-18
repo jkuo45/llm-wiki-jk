@@ -1,7 +1,8 @@
 // Reader theme toggle (light/dark): a sun/moon button in the reader header
 // (next to the open-in-new-tab and close buttons). It themes ONLY the reader
 // article pages (web/pages/*.html), persisted to localStorage under
-// 'llm-wiki-theme'.
+// 'llm-wiki-theme'. Light is the default when no preference is stored; only
+// an explicit 'dark' opts into the dark theme.
 //
 // How the theme reaches the article:
 //  - On load: each page's <head> bootstrap (shared/page-theme.js) starts its
@@ -19,8 +20,10 @@ const ICON_SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" str
 const ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
 
 function getTheme() {
-  try { return localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark'; }
-  catch (err) { return 'dark'; }
+  // Light is the default when no preference is stored (or storage is
+  // unavailable); only an explicit 'dark' opts into the dark theme.
+  try { return localStorage.getItem(THEME_KEY) === 'dark' ? 'dark' : 'light'; }
+  catch (err) { return 'light'; }
 }
 
 function setTheme(theme) {
@@ -64,7 +67,7 @@ if (themeBtn) {
 
 // Sync across tabs (article pages sync themselves via the same storage event).
 window.addEventListener('storage', (e) => {
-  if (e.key === THEME_KEY) applyTheme(e.newValue === 'light' ? 'light' : 'dark');
+  if (e.key === THEME_KEY) applyTheme(e.newValue === 'dark' ? 'dark' : 'light');
 });
 
 applyTheme(getTheme());
