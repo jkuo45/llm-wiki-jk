@@ -40,6 +40,9 @@
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
       <span id="chat-activity-dot" class="chat-activity-dot" aria-hidden="true"></span>
     </button>
+    <button id="btn-notes" title="Handwritten notes / 手寫筆記" aria-label="Handwritten notes panel">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
+    </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
   </div>
   <div id="zoom-bar">
@@ -149,6 +152,156 @@
     <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="500" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
     <button id="chat-send" title="Send">Send</button>
   </div>
+  </div>
+</div>
+
+<!-- Handwritten notes panel (gallery + upload + lightbox) -->
+<div id="notes-panel">
+  <div id="notes-box">
+    <div id="notes-header">
+      <div class="chat-header-left">
+        <span class="chat-title">Handwritten Notes <span class="chat-title-zh">手寫筆記</span></span>
+        <div id="notes-mode-switch" role="tablist" aria-label="Notes view">
+          <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true">Browse<span class="mode-dot" aria-hidden="true"></span></button>
+          <button type="button" class="chat-mode-tab" data-view="upload" role="tab" aria-selected="false">Upload<span class="mode-dot" aria-hidden="true"></span></button>
+        </div>
+      </div>
+      <div class="chat-header-actions">
+        <button id="notes-refresh" title="Refresh gallery / 重新整理">Refresh</button>
+        <button id="notes-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
+      </div>
+    </div>
+
+    <div id="notes-browse">
+      <div id="notes-filters">
+        <input id="notes-search" type="text" placeholder="Search notes, OCR, entities, tags / 搜尋筆記..." autocomplete="off">
+        <select id="notes-topic-filter" title="Filter by topic / 主題篩選"><option value="">All topics / 全部主題</option></select>
+        <button id="notes-upload-fast" type="button" title="Jump to upload / 上傳">Upload</button>
+        <span id="notes-count" class="notes-count"></span>
+      </div>
+      <div id="notes-gallery"></div>
+      <div id="notes-empty" class="notes-empty" hidden></div>
+    </div>
+
+    <div id="notes-upload" hidden>
+      <div class="at-h">New note / 新筆記</div>
+      <div id="notes-drop" class="notes-drop" tabindex="0" role="button">
+        <div class="notes-drop-inner">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <p>Drop photos of your handwritten notes here…</p>
+          <div class="notes-drop-actions">
+            <button id="notes-pick" type="button">Choose files</button>
+            <button id="notes-camera" type="button">Use camera</button>
+          </div>
+        </div>
+        <input id="notes-file" type="file" accept="image/*" multiple hidden>
+      </div>
+      <div id="notes-pages-preview" class="notes-page-grid"></div>
+      <div class="at-section notes-details">
+        <div class="at-h">Details / 詳細資料</div>
+        <div class="notes-field">
+          <label for="notes-title-field">Title</label>
+          <input id="notes-title-field" type="text" placeholder="e.g. Sirtuins review — mechanism sketch" maxlength="120">
+        </div>
+        <div class="notes-field">
+          <label for="notes-doc-field">Paper / Document</label>
+          <select id="notes-doc-field"><option value="">None</option></select>
+        </div>
+        <div class="notes-field">
+          <label for="notes-topic-field">Topic</label>
+          <input id="notes-topic-field" type="text" placeholder="e.g. sirtuins" maxlength="40">
+        </div>
+        <div class="notes-field">
+          <label for="notes-entities-field">Entities (@-tags, comma-separated)</label>
+          <input id="notes-entities-field" type="text" list="notes-entity-list" placeholder="SIRT1, NAD+, Autophagy" maxlength="500">
+          <datalist id="notes-entity-list"></datalist>
+        </div>
+        <div class="notes-field">
+          <label for="notes-tags-field">Tags (comma-separated)</label>
+          <input id="notes-tags-field" type="text" placeholder="aging, metabolism" maxlength="200">
+        </div>
+      </div>
+      <div class="notes-upload-submit">
+        <span id="notes-upload-status" class="notes-upload-status"></span>
+        <button id="notes-submit" type="button">Upload note</button>
+      </div>
+    </div>
+
+    <div id="notes-lightbox" hidden>
+      <div class="notes-lb-top">
+        <button id="notes-lb-back" title="Back to gallery / 返回圖庫">&larr; Gallery</button>
+        <div class="notes-lb-title" id="notes-lb-title"></div>
+        <div class="notes-lb-actions">
+          <button id="notes-lb-edit" title="Edit metadata / 編輯資料">Edit</button>
+          <button id="notes-lb-graph" title="Focus entities on the graph / 圖中聚焦實體">Graph</button>
+          <button id="notes-lb-doc" title="Open linked document / 開啟來源論文">Document</button>
+        </div>
+      </div>
+      <div class="notes-lb-body">
+        <div class="notes-lb-stage">
+          <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous page / 上一頁" disabled>&larr;</button></div>
+          <div class="notes-lb-imgwrap" id="notes-lb-imgwrap">
+            <div class="notes-lb-zoomable" id="notes-lb-zoomable">
+              <img id="notes-lb-img" alt="Handwritten note page">
+              <svg id="notes-lb-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+            </div>
+            <div class="notes-lb-zoom">
+              <button id="notes-lb-zoomin" title="Zoom in">+</button>
+              <button id="notes-lb-zoomout" title="Zoom out">&minus;</button>
+              <button id="notes-lb-fit" title="Fit / 重設">Fit</button>
+            </div>
+          </div>
+          <div class="notes-lb-nav"><button id="notes-lb-next" title="Next page / 下一頁" disabled>&rarr;</button></div>
+        </div>
+        <div class="notes-lb-pages" id="notes-lb-pages"></div>
+        <div class="notes-lb-side">
+          <div class="at-h">
+            <span>OCR transcript</span>
+            <button id="notes-lb-transcribe" type="button" title="Transcribe handwriting via OCR">Transcribe</button>
+          </div>
+          <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
+          <div class="at-h">Entities</div>
+          <div id="notes-lb-entities" class="notes-chip-row"></div>
+          <div class="at-h">Tags</div>
+          <div id="notes-lb-tags" class="notes-chip-row"></div>
+          <div class="at-h">
+            <span>Annotations</span>
+            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page">Clear</button>
+          </div>
+          <div class="notes-ann-tools">
+            <button data-tool="circle" title="Circle highlight">∘ Circle</button>
+            <button data-tool="rect" title="Rectangle highlight">▭ Rect</button>
+            <button data-tool="arrow" title="Arrow">→ Arrow</button>
+            <button data-tool="label" title="Text label">A Label</button>
+          </div>
+          <div class="notes-ann-colors" id="notes-ann-colors">
+            <button data-color="#ffcc00" style="background:#ffcc00" title="Yellow"></button>
+            <button data-color="#7bd88f" style="background:#7bd88f" title="Green"></button>
+            <button data-color="#7fb3ff" style="background:#7fb3ff" title="Blue"></button>
+            <button data-color="#ff7b72" style="background:#ff7b72" title="Red"></button>
+            <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple"></button>
+          </div>
+          <button id="notes-lb-ann-save" type="button" class="notes-save-ann">Save annotations</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Camera capture overlay -->
+<div id="camera-overlay" hidden>
+  <div id="camera-box">
+    <div id="camera-header">
+      <span class="chat-title">Camera <span class="chat-title-zh">相機</span></span>
+      <div class="chat-header-actions">
+        <button id="camera-capture" type="button">Capture</button>
+        <button id="camera-close" type="button" title="Close / 關閉" aria-label="Close">&times;</button>
+      </div>
+    </div>
+    <div id="camera-stage">
+      <video id="camera-video" autoplay playsinline></video>
+      <p id="camera-hint" class="notes-muted">Position the note in frame, then press Capture.</p>
+    </div>
   </div>
 </div>
 

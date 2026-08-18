@@ -31,6 +31,7 @@ from .graph_ops import (
     graph_query,
     match_nodes_in_text,
 )
+from .handwritten import router as handwritten_router
 from .llm import (
     OpencodeUnavailable,
     create_session,
@@ -61,6 +62,16 @@ ALLOWED_ORIGINS = {
     ).split(",")
     if o.strip()
 }
+
+# Local development origins. Browsers cannot spoof these from the public web,
+# so allowing them is safe and makes `file://` / localhost frontends work
+# against the API without editing ALLOWED_ORIGINS.
+LOCAL_ORIGIN_HINTS = (
+    "http://localhost",
+    "http://127.0.0.1",
+    "http://[::1]",
+    "file://",
+)
 
 # Idle chat sessions are reaped so a long-running server does not accumulate
 # opencode sessions from abandoned browser tabs.
@@ -124,6 +135,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=sorted(ALLOWED_ORIGINS),
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
@@ -134,18 +146,24 @@ api_v1 = APIRouter(prefix="/v1")
 
 @app.middleware("http")
 async def origin_gate(request: Request, call_next):
-    """Reject requests that did not originate from an allowed UI origin."""
+    """Reject requests that did not originate from an allowed UI origin.
+
+    Local-development origins (localhost/127.0.0.1/file://) are always allowed.
+    """
     if request.url.path == "/v1/health":
         return await call_next(request)
+
+    def _local(header_value: str) -> bool:
+        return header_value.startswith(LOCAL_ORIGIN_HINTS)
 
     origin = request.headers.get("origin")
     referer = request.headers.get("referer", "")
 
     if origin:
-        if origin in ALLOWED_ORIGINS:
+        if origin in ALLOWED_ORIGINS or _local(origin):
             return await call_next(request)
-    elif referer.startswith("http") and any(
-        referer.startswith(u) for u in ALLOWED_ORIGINS
+    elif referer.startswith("http") and (
+        _local(referer) or any(referer.startswith(u) for u in ALLOWED_ORIGINS)
     ):
         return await call_next(request)
 
@@ -536,3 +554,4 @@ async def execute_stream(request: ExecuteRequest):
 
 
 app.include_router(api_v1)
+app.include_router(handwritten_router)
