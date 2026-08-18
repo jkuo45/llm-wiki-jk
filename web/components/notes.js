@@ -243,18 +243,15 @@ function populatePickers() {
     topics.map((t) => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
   topicFilter.value = filterTopic;
 
-  // Upload → document picker
-  docField.innerHTML = '<option value="">None</option>' +
-    documents.map((d) => `<option value="${esc(d.filename)}">${esc(d.filename)}</option>`).join('');
+  // Search placeholder hint
+  searchInput.placeholder = 'Search notes, OCR, entities, tags / 搜尋筆記...';
 
-  // Entity autocomplete (graph node labels)
-  const labels = [...new Set(RAW_NODES.map((n) => n.label))].slice(0, 4000);
-  entityList.innerHTML = labels.map((l) => `<option value="${esc(l)}"></option>`).join('');
-
-  // Search placeholder hints from the first card
-  searchInput.placeholder = notes.length
-    ? 'Search notes, OCR, entities, tags / 搜尋筆記...'
-    : 'Search notes, OCR, entities, tags / 搜尋筆記...';
+  // NOTE: The Upload screen is disabled (its tab and view are hidden, and
+  // setView() snaps any non-browse request back to browse). It therefore does
+  // NOT populate the upload-only controls here — populating them was expensive:
+  // the entity <datalist> built up to 4000 <option> nodes and the document
+  // picker grew with every src/notes document, all for a view that can't be
+  // reached. If upload is re-enabled, restore that population here.
 }
 
 function filteredNotes() {
