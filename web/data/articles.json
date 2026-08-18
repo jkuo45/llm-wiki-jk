@@ -81,21 +81,21 @@
     "active": true
   },
   {
-    "id": "sirtuins-images-and-figures",
-    "group": "sirtuins-images-and-figures",
+    "id": "sirtuins-articles-and-figures",
+    "group": "sirtuins-articles-and-figures",
     "lang": "en-US",
     "title": "Sirtuins - Articles, figures, images (index)",
-    "path": "pages/sirtuins-images-and-figures.html",
+    "path": "pages/sirtuins-articles-and-figures.html",
     "created": "2026-08-17",
     "updated": "2026-08-17",
     "active": true
   },
   {
-    "id": "sirtuins-images-and-figures-zh",
-    "group": "sirtuins-images-and-figures",
+    "id": "sirtuins-articles-and-figures-zh",
+    "group": "sirtuins-articles-and-figures",
     "lang": "zh-TW",
     "title": "文章、圖像與圖表（索引）",
-    "path": "pages/sirtuins-images-and-figures_zh-TW.html",
+    "path": "pages/sirtuins-articles-and-figures_zh-TW.html",
     "created": "2026-08-17",
     "updated": "2026-08-17",
     "active": true
@@ -119,5 +119,25 @@
     "created": "2026-08-17",
     "updated": "2026-08-17",
     "active": false
+  },
+  {
+    "id": "senescence-articles-and-figures",
+    "group": "senescence-articles-and-figures",
+    "lang": "en-US",
+    "title": "Senescence - Articles, figures, images (index)",
+    "path": "pages/senescence-articles-and-figures.html",
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "active": true
+  },
+  {
+    "id": "senescence-articles-and-figures-zh",
+    "group": "senescence-articles-and-figures",
+    "lang": "zh-TW",
+    "title": "文章、圖像與圖表（索引）",
+    "path": "pages/senescence-articles-and-figures_zh-TW.html",
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "active": true
   }
 ]
