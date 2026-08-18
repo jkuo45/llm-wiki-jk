@@ -506,7 +506,9 @@ Rules:
 - Where diagrams/arrows/boxes appear, fold them into inline text or a short
   bulleted list so nothing meaningful is lost.
 - Render chemical, gene, and protein symbols in their standard forms (e.g.
-  SIRT1, NAD+). Do not wrap them in [[wiki links]]."""
+  SIRT1, NAD+). Do not wrap them in [[wiki links]].
+- IMPORTANT: If you cannot actually see or read the image (for example, your
+  model has no vision support), reply EXACTLY with the single line: OCR_FAILED"""
 
 
 async def transcribe_image(

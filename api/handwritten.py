@@ -47,6 +47,23 @@ _ALLOWED_CONTENT = {
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
 
+# Model refusals / vision-less responses must never be cached as a finished OCR
+# transcript. The OCR prompt is instructed to return the exact sentinel
+# OCR_FAILED when it cannot see the image; older refusals are caught here too.
+_OCR_FAIL_RE = re.compile(
+    r"OCR_FAILED|"
+    r"cannot (transcribe|process|read)|"
+    r"can'?t (process|read|see)|"
+    r"unable to (process|read|see)|"
+    r"doesn'?t support|does not support image|"
+    r"no vision|image files? directly|not support images?",
+    re.IGNORECASE,
+)
+
+
+def _looks_like_ocr_failure(text: str) -> bool:
+    return bool(text and _OCR_FAIL_RE.search(text))
+
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -134,7 +151,7 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
         "pages": n.get("pages") or [],
         "ocr": n.get("ocr") or "",
         "ocr_lang": n.get("ocr_lang") or "en",
-        "has_ocr": bool(n.get("ocr")),
+        "has_ocr": bool(n.get("ocr")) and not _looks_like_ocr_failure(n.get("ocr", "")),
         "annotations": n.get("annotations") or [],
         "created": n.get("created") or _today(),
         "updated": n.get("updated") or _today(),
@@ -298,7 +315,7 @@ async def transcribe_note(payload: dict) -> dict:
     note = _note_lookup().get(note_id)
     if note is None:
         raise HTTPException(status_code=404, detail="Note not found")
-    if note.get("ocr"):
+    if note.get("ocr") and not _looks_like_ocr_failure(note["ocr"]):
         return {"id": note_id, "ocr": note["ocr"], "cached": True}
 
     lang = payload.get("lang") or note.get("ocr_lang") or "en"
@@ -310,8 +327,12 @@ async def transcribe_note(payload: dict) -> dict:
                 chunks.append(f"--- Page {p['page']}: image missing ---")
                 continue
             text = await transcribe_image(str(path))
-            if not text:
-                raise RuntimeError(f"OCR failed for page {p['page']}")
+            if not text or _looks_like_ocr_failure(text):
+                raise RuntimeError(
+                    "The OCR agent could not read the image — the wiki-util "
+                    "model may not support vision. Switch to a vision-capable "
+                    "model and try again."
+                )
             chunks.append(f"--- Page {p['page']} ---\n{text}")
     except OpencodeUnavailable as e:
         raise HTTPException(status_code=503, detail=f"OCR unavailable: {e}")
