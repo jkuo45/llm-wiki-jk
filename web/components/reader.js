@@ -186,6 +186,13 @@ export function openReader(id, { restore = false, section = null } = {}) {
     readerStack.push(article.id);
   }
   loadArticle(article, section);
+  // No section specified → default to the top of the page. Also handles the
+  // case where `frame.src` is unchanged (reopening the same article), which
+  // would otherwise keep the previous scroll position.
+  if (!section) {
+    const w = frame.contentWindow;
+    if (w) w.scrollTo(0, 0);
+  }
   setSelectFor(article);
   setLangToggleFor(article);
   overlay.classList.add('visible');
@@ -224,7 +231,10 @@ function pollActiveSection() {
   const sections = Array.from(doc.querySelectorAll('section[id]'));
   if (!sections.length) return;
   const navBottom = 60; // sticky nav offset within the article
-  let active = sections[0].id;
+  // Only a section actually scrolled under the nav counts. At the top of the
+  // article no section qualifies, so we clear the section (opening without a
+  // section must default to the top of the page, not the first section).
+  let active = null;
   for (const s of sections) {
     if (s.getBoundingClientRect().top <= navBottom + 1) active = s.id;
   }
@@ -246,7 +256,15 @@ function stopSectionTracking() {
   }
 }
 
-frame.addEventListener('load', startSectionTracking);
+frame.addEventListener('load', () => {
+  // Opened without a section → default to the top of the page. Guards against
+  // the browser restoring a previous iframe scroll position on reload.
+  if (!state.readerSection) {
+    const w = frame.contentWindow;
+    if (w) w.scrollTo(0, 0);
+  }
+  startSectionTracking();
+});
 
 buildOptions();
 updatePrevBtn();
