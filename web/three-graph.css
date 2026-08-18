@@ -433,25 +433,21 @@ a.data-source:hover { border-color: #6b9bc7; }
 #controls #btn-chat:hover { color: #e0e0e0; border-color: #4E79A7; }
 #controls #btn-chat.open, #controls #btn-chat.active { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
 
-/* Chat panel — analysis panel, centered modal sized like the dataset panel */
+/* Analysis panel — full-viewport overlay like the reader: opaque and edge-to-edge,
+   slides up over the graph. #chat-box fills the entire view. */
 #chat-panel {
   position: fixed; inset: 0; z-index: 500;
-  display: none; align-items: center; justify-content: center;
-  padding: 24px;
+  background: #1a1a2e;
+  display: none; align-items: stretch; justify-content: center;
+  padding: 0;
 }
-#chat-panel.open { display: flex; }
-#chat-panel::before {
-  content: ''; position: fixed; inset: 0;
-  background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
-}
+#chat-panel.open { display: flex; animation: reader-in 0.28s ease; }
 #chat-box {
   position: relative; z-index: 1;
-  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
-  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
-  width: min(1200px, calc(100vw - 48px));
-  height: min(880px, calc(100vh - 48px)); height: min(880px, calc(100dvh - 48px));
-  max-width: calc(100vw - 48px);
-  max-height: calc(100vh - 48px); max-height: calc(100dvh - 48px);
+  background: #1a1a2e;
+  width: 100%; height: 100%;
+  max-width: 100%; max-height: 100%;
+  border: none; border-radius: 0; box-shadow: none;
   display: flex; flex-direction: column; overflow: hidden;
 }
 
@@ -517,12 +513,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 #chat-panel.mode-explore #chat-tags,
 #chat-panel.mode-explore #chat-input-wrap { display: none; }
 #chat-panel.mode-explore #analysis-tools { display: flex; }
-
-/* The panel is always full-screen: opaque, near-full viewport with a small inset frame */
-#chat-panel.open { padding: 10px; align-items: stretch; justify-content: center; }
-#chat-panel.open #chat-box {
-  width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 12px;
-}
 
 /* Explore widgets */
 .at-section { border-bottom: 1px solid #2a2a4e; padding-bottom: 12px; }
@@ -882,11 +872,9 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 
 @media (max-width: 480px) {
-  /* Analysis panel: full-screen sheet over the graph. Close lives in the
-     sheet header and the controls analysis button reflects its state. */
-  #chat-panel { padding: 0; }
-  #chat-panel::before { display: none; }
-  #chat-box { width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 0; border: none; box-shadow: none; }
+  /* Analysis panel: full-viewport edge-to-edge overlay (base rules already
+     apply); the close button lives in the panel header and the controls
+     analysis button reflects its state. */
   #chat-header {
     align-items: center;
     gap: 8px;
