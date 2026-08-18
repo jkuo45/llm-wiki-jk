@@ -1132,7 +1132,19 @@ a.data-source:hover { border-color: #6b9bc7; }
   #notes-panel { padding: 0; }
   #notes-panel::before { display: none; }
   #notes-box { border-radius: 0; border: none; }
-  #notes-header { padding: 10px 12px calc(10px + env(safe-area-inset-top)); flex-wrap: wrap; }
+  #notes-header {
+    padding: 10px 12px calc(10px + env(safe-area-inset-top));
+    flex-wrap: wrap;
+    /* Align the actions (Refresh/×) with the title row; the mode tabs drop
+       below instead of crowding the top bar. */
+    align-items: flex-start;
+    row-gap: 8px;
+  }
+  #notes-header .chat-header-left { flex-wrap: wrap; row-gap: 6px; }
+  /* Browse/Upload tabs: own full-width row on phones, half-split and padded
+     for comfortable touch targets. */
+  #notes-mode-switch { flex-basis: 100%; }
+  #notes-mode-switch .chat-mode-tab { flex: 1 1 0; padding: 8px 12px; }
   #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
   #notes-gallery { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; padding: 12px; }
 }
