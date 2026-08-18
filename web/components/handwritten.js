@@ -289,8 +289,8 @@ function renderGallery() {
 function apiErrorBanner() {
   const isLocal = location.protocol === 'file:' ||
     ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
-  const devHint = isLocal && !window.GRAPH_API_BASE
-    ? `<p class="notes-muted">Running locally? Set <code>window.GRAPH_API_BASE = 'http://127.0.0.1:8000/v1'</code> in <b>index.html</b> before <code>components/graph.js</code> loads, start the API with <code>./deploy/dev.sh</code>, and serve <b>web/</b> over <code>http://localhost</code> (the API now allows localhost origins).</p>`
+  const devHint = isLocal
+    ? `<p class="notes-muted">Running locally? This page auto-points at the dev API (<code>http://127.0.0.1:8000/v1</code>) — start it with <code>./deploy/dev.sh</code> and serve <b>web/</b> over <code>http://localhost</code>.</p>`
     : '';
   const offline = navigator.onLine === false
     ? '<p class="notes-muted">You appear to be offline.</p>' : '';
@@ -829,13 +829,57 @@ async function addFiles(fileList) {
     if (!/^image\/(jpe?g|png|webp|gif)$/.test(f.type || '')) { skipped += 1; continue; }
     if (f.size > MAX_BYTES) { skipped += 1; continue; }
     if (draftFiles.length + ok.length >= MAX_PAGES) { skipped += 1; break; }
-    ok.push({ file: f, thumb: await fileToThumb(f) });
+    const compressed = await compressImage(f);
+    ok.push({ upload: compressed.blob, thumb: compressed.thumb, name: f.name });
   }
   if (skipped > 0) {
     setStatus(`${skipped} file(s) skipped — accepted formats: JPG, PNG, WebP, GIF (≤30 MB).`, false);
   }
   draftFiles.push(...ok);
   renderDraftPreview();
+}
+
+// Downscale + JPEG-encode a photo in the browser before upload. Photos are
+// typically 2–8 MB straight off a phone; compressed pages upload in a few
+// hundred KB so they survive restrictive proxy body limits and load faster.
+// PNG/WebP lose transparency — acceptable for handwritten notes. GIFs are
+// passed through untouched to preserve animation.
+function compressImage(file, maxDim = 2400, quality = 0.82) {
+  return new Promise((resolve) => {
+    const type = (file.type || '').toLowerCase();
+    if (type === 'image/gif') {
+      resolve({ blob: file, thumb: null });
+      return;
+    }
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      const scale = Math.min(1, maxDim / Math.max(img.width, img.height));
+      const w = Math.max(1, Math.round(img.width * scale));
+      const h = Math.max(1, Math.round(img.height * scale));
+      const cv = document.createElement('canvas');
+      cv.width = w; cv.height = h;
+      cv.getContext('2d').drawImage(img, 0, 0, w, h);
+
+      // Thumbnail (≈320px) for the preview grid.
+      const tw = Math.min(320, w);
+      const th = Math.max(1, Math.round(h * (tw / w)));
+      const tc = document.createElement('canvas');
+      tc.width = tw; tc.height = th;
+      tc.getContext('2d').drawImage(cv, 0, 0, tw, th);
+      const thumb = tc.toDataURL('image/jpeg', 0.72);
+
+      cv.toBlob((blob) => {
+        URL.revokeObjectURL(url);
+        resolve({
+          blob: blob && blob.size < file.size ? blob : file,
+          thumb,
+        });
+      }, 'image/jpeg', quality);
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); resolve({ blob: file, thumb: null }); };
+    img.src = url;
+  });
 }
 
 function renderDraftPreview() {
@@ -852,31 +896,21 @@ function renderDraftPreview() {
     }));
 }
 
-function fileToThumb(file) {
-  return new Promise((resolve) => {
-    const url = URL.createObjectURL(file);
-    const img = new Image();
-    img.onload = () => {
-      const scale = Math.min(1, 320 / img.width);
-      const cv = document.createElement('canvas');
-      cv.width = Math.max(1, Math.round(img.width * scale));
-      cv.height = Math.max(1, Math.round(img.height * scale));
-      cv.getContext('2d').drawImage(img, 0, 0, cv.width, cv.height);
-      URL.revokeObjectURL(url);
-      resolve(cv.toDataURL('image/jpeg', 0.72));
-    };
-    img.onerror = () => { URL.revokeObjectURL(url); resolve(null); };
-    img.src = url;
-  });
-}
-
 submitBtn.addEventListener('click', async () => {
   if (!draftFiles.length) { setStatus('Add at least one image first.', false); return; }
+  // Guard against restrictive proxy body limits (nginx defaults to 1 MB): warn
+  // before a doomed round-trip. The server still accepts up to 30 MB/file.
+  const totalBytes = draftFiles.reduce((s, d) => s + (d.upload ? d.upload.size : 0), 0);
+  if (totalBytes > 1024 * 1024) {
+    setStatus(`Upload is ~${(totalBytes / (1024 * 1024)).toFixed(1)} MB total — if the server rejects it, raise nginx client_max_body_size (see deploy/README). Common default is 1 MB.`, false);
+  } else {
+    uploadStatus.textContent = '';
+  }
   submitBtn.disabled = true;
   uploadStatus.className = 'notes-upload-status';
   uploadStatus.textContent = 'Uploading…';
   const fd = new FormData();
-  draftFiles.forEach((d) => fd.append('files', d.file, d.file.name || 'page.jpg'));
+  draftFiles.forEach((d) => fd.append('files', d.upload, d.name || 'page.jpg'));
   fd.append('title', titleField.value.trim());
   fd.append('topic', topicField.value.trim());
   fd.append('document', docField.value);
@@ -884,7 +918,14 @@ submitBtn.addEventListener('click', async () => {
   fd.append('tags', JSON.stringify(tokens(tagsField.value)));
   try {
     const resp = await fetch(`${HN_API}/upload`, { method: 'POST', body: fd });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    if (!resp.ok) {
+      let detail = `HTTP ${resp.status}`;
+      try {
+        const body = await resp.json();
+        if (body && body.detail) detail = String(body.detail);
+      } catch (_) { /* non-JSON error body */ }
+      throw new Error(detail);
+    }
     const note = await resp.json();
     draftFiles = [];
     renderDraftPreview();
@@ -894,8 +935,9 @@ submitBtn.addEventListener('click', async () => {
     setView('browse');
     openLightbox(note);
   } catch (err) {
+    const isFetchAbort = typeof err === 'object' && err && err.name === 'AbortError';
     console.warn('upload failed:', err);
-    setStatus('Upload failed — is the API server running?', false);
+    setStatus(isFetchAbort ? 'Upload aborted.' : `Upload failed — ${netErrorText(err)}`, false);
   } finally {
     submitBtn.disabled = false;
   }
@@ -905,7 +947,24 @@ function setStatus(msg, ok) {
   uploadStatus.className = 'notes-upload-status' + (ok ? '' : ' error');
   uploadStatus.textContent = msg;
   clearTimeout(statusTimer);
-  statusTimer = setTimeout(() => { uploadStatus.textContent = ''; }, 6000);
+  statusTimer = setTimeout(() => { uploadStatus.textContent = ''; }, 8000);
+}
+
+// A fetch that rejects with `TypeError: Failed to fetch` means the request
+// never completed (server unreachable, or the browser blocked the cross-origin
+// call because the response carried no CORS headers). Turn that into a
+// readable, actionable message.
+function netErrorText(err) {
+  const base = (err && err.message) || 'Unknown error';
+  const local = location.protocol === 'file:' ||
+    ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
+  const parts = [`${base} (${API_BASE})`];
+  if (navigator.onLine === false) parts.push('you appear to be offline.');
+  else if (local)
+    parts.push('running locally? start the dev API with ./deploy/dev.sh (this page auto-points at http://127.0.0.1:8000/v1 when served from localhost).');
+  else
+    parts.push('the API may be down, the page origin not in ALLOWED_ORIGINS, or the request exceeded the proxy body-size limit (raise nginx client_max_body_size).');
+  return parts.join(' — ');
 }
 
 // ------------------------------------------------------------

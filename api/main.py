@@ -171,6 +171,20 @@ async def origin_gate(request: Request, call_next):
     return JSONResponse(status_code=403, content={"detail": "Origin not allowed"})
 
 
+@app.exception_handler(Exception)
+async def unhandled_exception_handler(request: Request, exc: Exception):
+    """Convert unhandled server errors into clean JSON so the CORS middleware
+    can attach headers and the browser sees a readable response instead of an
+    opaque `Failed to fetch` / CORS-blocked failure."""
+    logger.exception(
+        "Unhandled error on %s %s", request.method, request.url.path
+    )
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"Internal server error ({exc.__class__.__name__})"},
+    )
+
+
 class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=4000)
     session_id: str | None = None

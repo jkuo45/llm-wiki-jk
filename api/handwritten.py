@@ -232,13 +232,23 @@ async def upload_notes(
         suffix += 1
 
     ngroup = _note_dir(note_id)
-    ngroup.mkdir(parents=True, exist_ok=True)
-
-    pages = []
-    for idx, (ext, data) in enumerate(buffered, start=1):
-        fname = f"page-{idx}{ext}"
-        (ngroup / fname).write_bytes(data)
-        pages.append({"page": idx, "file": fname})
+    try:
+        ngroup.mkdir(parents=True, exist_ok=True)
+        pages = []
+        for idx, (ext, data) in enumerate(buffered, start=1):
+            fname = f"page-{idx}{ext}"
+            (ngroup / fname).write_bytes(data)
+            pages.append({"page": idx, "file": fname})
+    except OSError as e:
+        logger.exception("handwritten upload write failed for %s", note_id)
+        raise HTTPException(
+            status_code=500,
+            detail=(
+                f"Could not save the note on the server ({e}). "
+                "The API user needs write access to media/handwritten "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/media)."
+            ),
+        )
 
     note = {
         "id": note_id,
@@ -260,7 +270,21 @@ async def upload_notes(
 
     staged = _staged_notes()
     staged.append(note)
-    _write_staged(staged)
+    try:
+        _write_staged(staged)
+    except OSError as e:
+        logger.exception("handwritten staged manifest write failed for %s", note_id)
+        # Remove the just-written images so the failed upload leaves no orphan.
+        import shutil
+        shutil.rmtree(ngroup, ignore_errors=True)
+        raise HTTPException(
+            status_code=500,
+            detail=(
+                f"Could not register the note ({e}). "
+                "The API user needs write access to media/handwritten "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/media)."
+            ),
+        )
     logger.info(f"handwritten upload: {note_id} ({len(pages)} pages)")
     return _public_note(note)
 
