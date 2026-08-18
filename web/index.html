@@ -212,7 +212,6 @@
           <p>Drop photos of your handwritten notes here…</p>
           <div class="notes-drop-actions">
             <button id="notes-pick" type="button">Choose files</button>
-            <button id="notes-camera" type="button">Use camera</button>
           </div>
         </div>
         <input id="notes-file" type="file" accept="image/*" multiple hidden>
@@ -279,7 +278,6 @@
         <div class="notes-lb-side">
           <div class="at-h">
             <span>OCR transcript</span>
-            <button id="notes-lb-transcribe" type="button" title="Transcribe handwriting via OCR" disabled>Transcribe</button>
           </div>
           <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
           <div class="at-h">Entities</div>
@@ -303,26 +301,9 @@
             <button data-color="#ff7b72" style="background:#ff7b72" title="Red"></button>
             <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple"></button>
           </div>
-          <button id="notes-lb-ann-save" type="button" class="notes-save-ann">Save annotations</button>
+          <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in">Download with annotations</button>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Camera capture overlay -->
-<div id="camera-overlay" hidden>
-  <div id="camera-box">
-    <div id="camera-header">
-      <span class="chat-title">Camera <span class="chat-title-zh">相機</span></span>
-      <div class="chat-header-actions">
-        <button id="camera-capture" type="button">Capture</button>
-        <button id="camera-close" type="button" title="Close / 關閉" aria-label="Close">&times;</button>
-      </div>
-    </div>
-    <div id="camera-stage">
-      <video id="camera-video" autoplay playsinline></video>
-      <p id="camera-hint" class="notes-muted">Position the note in frame, then press Capture.</p>
     </div>
   </div>
 </div>

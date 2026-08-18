@@ -1,6 +1,6 @@
 // Notes panel — gallery + lightbox with OCR transcripts and persistent
 // annotation overlays, deep links to the linked paper and graph entities.
-// The upload screen (files / camera) is hidden for now. Sibling of the
+// The upload screen (files) is hidden for now. Sibling of the
 // analysis (#chat) panel.
 
 import { RAW_NODES, descByLabel, noteUrl, githubSourceUrl } from './data.js';
@@ -35,7 +35,6 @@ const countEl = $('notes-count');
 const drop = $('notes-drop');
 const fileInput = $('notes-file');
 const pickBtn = $('notes-pick');
-const cameraBtn = $('notes-camera');
 const pagesPreview = $('notes-pages-preview');
 const titleField = $('notes-title-field');
 const docField = $('notes-doc-field');
@@ -61,21 +60,14 @@ const lbPrev = $('notes-lb-prev');
 const lbNext = $('notes-lb-next');
 const lbPages = $('notes-lb-pages');
 const lbOcr = $('notes-lb-ocr');
-const lbTranscribe = $('notes-lb-transcribe');
 const lbEntities = $('notes-lb-entities');
 const lbTags = $('notes-lb-tags');
-const annSave = $('notes-lb-ann-save');
+const annDownload = $('notes-lb-ann-download');
 const annClear = $('notes-lb-ann-clear');
 const annColors = $('notes-ann-colors');
 const zoomIn = $('notes-lb-zoomin');
 const zoomOut = $('notes-lb-zoomout');
 const fitBtn = $('notes-lb-fit');
-
-// Camera
-const cameraOverlay = $('camera-overlay');
-const cameraVideo = $('camera-video');
-const camCapture = $('camera-capture');
-const camClose = $('camera-close');
 
 // ------------------------------------------------------------
 // State
@@ -102,7 +94,6 @@ let editMode = false;
 let viewMode = false;        // fullscreen image view (side details hidden)
 
 let draftFiles = [];         // { file, thumb }
-let cameraStream = null;
 let statusTimer = null;
 
 const ARROW_MARKER = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
@@ -137,7 +128,6 @@ function openNotes() {
 function closeNotes() {
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
-  stopCamera();
   setLightbox(null);
   syncNotesKeyboard();
   syncNotesHash();
@@ -201,12 +191,8 @@ modeSwitch.addEventListener('click', (e) => {
 
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
-  if (cameraOverlay.hasAttribute('hidden')) {
-    if (!lightboxEl.hidden) { goBackToGallery(); return; }
-    if (notesPanel.classList.contains('open')) closeNotes();
-  } else {
-    stopCamera();
-  }
+  if (!lightboxEl.hidden) { goBackToGallery(); return; }
+  if (notesPanel.classList.contains('open')) closeNotes();
 });
 
 // ------------------------------------------------------------
@@ -446,12 +432,6 @@ function renderLightbox() {
   lbTitle.textContent = n.title;
   lbTitle.title = n.title;
   lbDoc.disabled = !n.document;
-  const ocrText = (n.ocr || '').trim();
-  const ocrBroken = looksLikeOcrFailure(ocrText);
-  // OCR is temporarily disabled until the wiki-util model is vision-capable.
-  lbTranscribe.disabled = true;
-  lbTranscribe.title = 'OCR temporarily unavailable';
-  lbTranscribe.textContent = 'Transcribe';
   renderPagesStrip();
   setPage(currentPage);
   renderOcr();
@@ -749,84 +729,101 @@ function svgEl(tag, attrs, text) {
   return el;
 }
 
-annSave.addEventListener('click', async () => {
-  if (!currentNote) return;
-  annSave.disabled = true;
-  annSave.textContent = 'Saving…';
-  try {
-    const resp = await fetch(`${NOTES_API}/${encodeURIComponent(currentNote.id)}/annotations`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ annotations: currentNote.annotations || [] }),
-    });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    currentNote.annotations = data.annotations;
-    syncGalleryNote(currentNote);
-    setStatus('Annotations saved.', true);
-  } catch (err) {
-    setStatus('Failed to save annotations.', false);
-    console.warn('annotations save failed:', err);
-  } finally {
-    annSave.disabled = false;
-    annSave.textContent = 'Save annotations';
-  }
-});
+// Download the current page with the annotation overlay burned into a PNG.
+// Annotations are no longer POSTed back to the server (the overlay lives in
+// the exported image).
+annDownload.addEventListener('click', () => downloadAnnotationsImage());
 annClear.addEventListener('click', () => {
   if (!currentNote) return;
   currentNote.annotations = (currentNote.annotations || []).filter((a) => a.page !== currentPage);
   renderAnnotations();
 });
 
-// ------------------------------------------------------------
-// OCR transcript
-// ------------------------------------------------------------
-async function runTranscribe() {
-  // OCR is temporarily disabled — the button stays inert.
-  if (lbTranscribe.disabled) return;
-  if (!currentNote || (currentNote.ocr || '').trim()) return;
-  lbTranscribe.disabled = true;
-  lbTranscribe.textContent = 'Transcribing…';
-  lbOcr.classList.add('loading');
-  lbOcr.textContent = 'Reading the handwriting…';
-  try {
-    const resp = await fetch(`${NOTES_API}/transcribe`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: currentNote.id }),
-    });
-    if (!resp.ok) {
-      const detail = resp.status === 503 ? 'OCR service unavailable.' :
-        (await resp.json().catch(() => ({}))).detail || `HTTP ${resp.status}`;
-      throw new Error(detail);
+function drawAnnotationsToCanvas(ctx, W, H) {
+  for (const a of (currentNote.annotations || [])) {
+    if (a.page !== currentPage) continue;
+    const color = a.color || '#ffcc00';
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.lineWidth = 3.5;
+    ctx.lineCap = 'round';
+    switch (a.type) {
+      case 'circle':
+        ctx.beginPath();
+        ctx.arc(a.x * W, a.y * H, (a.r || 0) * W, 0, Math.PI * 2);
+        ctx.stroke();
+        break;
+      case 'rect': {
+        ctx.globalAlpha = 0.25;
+        ctx.fillRect(a.x * W, a.y * H, (a.w || 0) * W, (a.h || 0) * H);
+        ctx.globalAlpha = 1;
+        ctx.strokeRect(a.x * W, a.y * H, (a.w || 0) * W, (a.h || 0) * H);
+        break;
+      }
+      case 'arrow': {
+        const x1 = a.x1 * W, y1 = a.y1 * H, x2 = a.x2 * W, y2 = a.y2 * H;
+        const ang = Math.atan2(y2 - y1, x2 - x1);
+        ctx.beginPath();
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x2, y2);
+        ctx.stroke();
+        const len = 11;
+        ctx.beginPath();
+        ctx.moveTo(x2, y2);
+        ctx.lineTo(x2 - len * Math.cos(ang - 0.4), y2 - len * Math.sin(ang - 0.4));
+        ctx.lineTo(x2 - len * Math.cos(ang + 0.4), y2 - len * Math.sin(ang + 0.4));
+        ctx.closePath();
+        ctx.fill();
+        break;
+      }
+      case 'label':
+        ctx.font = '16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+        ctx.fillText((a.label || ''), a.x * W, a.y * H);
+        break;
     }
-    const data = await resp.json();
-    const text = (data.ocr || '').trim();
-    if (looksLikeOcrFailure(text)) {
-      lbOcr.textContent = 'The OCR model could not read this image (it may not support vision). Nothing was saved — switch the wiki-util model to one with vision and try again.';
-      return; // do not store a refusal as a finished transcript
-    }
-    currentNote.ocr = text;
-    currentNote.has_ocr = !!text;
-    syncGalleryNote(currentNote);
-    renderOcr();
-  } catch (err) {
-    lbOcr.textContent = `Transcription failed: ${err.message}`;
-  } finally {
-    lbTranscribe.disabled = true; // OCR temporarily disabled
-    lbTranscribe.textContent = 'Transcribe';
-    lbOcr.classList.remove('loading');
   }
 }
-lbTranscribe.addEventListener('click', runTranscribe);
 
+async function downloadAnnotationsImage() {
+  const n = currentNote;
+  if (!n) return;
+  if (!naturalW || !naturalH) { setStatus('Page image not ready yet.', false); return; }
+  const canvas = document.createElement('canvas');
+  canvas.width = naturalW;
+  canvas.height = naturalH;
+  const ctx = canvas.getContext('2d');
+  try {
+    // Load the full-res page fresh with CORS so drawing it does not taint the
+    // canvas (a cross-origin img drawn without CORS would block toDataURL).
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.src = imageUrl(n, currentPage, false);
+    await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; });
+    ctx.drawImage(img, 0, 0, naturalW, naturalH);
+  } catch (err) {
+    setStatus('Could not load the page image for export.', false);
+    console.warn('annotated-image export: page load failed:', err);
+    return;
+  }
+  drawAnnotationsToCanvas(ctx, naturalW, naturalH);
+  const a = document.createElement('a');
+  a.download = `${n.id}-p${currentPage}-annotated.png`;
+  a.href = canvas.toDataURL('image/png');
+  a.click();
+  setStatus('Downloaded annotated page.', true);
+}
+
+// ------------------------------------------------------------
+// OCR transcript (display-only — transcription is handled server-side /
+// via reconciliation, not from the browser)
+// ------------------------------------------------------------
 function renderOcr() {
   const text = (currentNote && currentNote.ocr || '').trim();
   if (!text) {
-    lbOcr.textContent = 'No transcript yet. Press Transcribe to read the handwriting once.';
+    lbOcr.textContent = 'No transcript yet.';
     lbOcr.classList.remove('ocr-warn');
   } else if (looksLikeOcrFailure(text)) {
-    lbOcr.textContent = 'The previous transcription failed — the OCR model could not read the image (it may not support vision). You can try again after the wiki-util model is vision-capable.';
+    lbOcr.textContent = 'The existing transcription failed — the OCR model could not read the image (it may not support vision).';
     lbOcr.classList.add('ocr-warn');
   } else {
     lbOcr.textContent = text;
@@ -1091,57 +1088,6 @@ function netErrorText(err) {
     parts.push('the API may be down, the page origin not in ALLOWED_ORIGINS, or the request exceeded the proxy body-size limit (raise nginx client_max_body_size).');
   return parts.join(' — ');
 }
-
-// ------------------------------------------------------------
-// Camera capture
-// ------------------------------------------------------------
-async function openCamera() {
-  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-    setStatus('Camera not supported in this browser — use file upload.', false);
-    return;
-  }
-  try {
-    cameraStream = await navigator.mediaDevices.getUserMedia({
-      video: { facingMode: 'environment' },
-      audio: false,
-    });
-    cameraVideo.srcObject = cameraStream;
-    cameraOverlay.hidden = false;
-    if (notesPanel.classList.contains('open')) syncNotesKeyboard();
-  } catch (err) {
-    setStatus('Camera unavailable — use file upload instead.', false);
-    console.warn('getUserMedia failed:', err);
-  }
-}
-cameraBtn.addEventListener('click', openCamera);
-camClose.addEventListener('click', stopCamera);
-cameraOverlay.addEventListener('click', (e) => { if (e.target === cameraOverlay) stopCamera(); });
-
-function stopCamera() {
-  if (cameraStream) {
-    cameraStream.getTracks().forEach((t) => t.stop());
-    cameraStream = null;
-  }
-  cameraVideo.srcObject = null;
-  cameraOverlay.hidden = true;
-}
-
-camCapture.addEventListener('click', () => {
-  if (!cameraStream || !cameraVideo.videoWidth) return;
-  const cv = document.createElement('canvas');
-  cv.width = cameraVideo.videoWidth;
-  cv.height = cameraVideo.videoHeight;
-  cv.getContext('2d').drawImage(cameraVideo, 0, 0, cv.width, cv.height);
-  cv.toBlob(async (blob) => {
-    if (!blob) { setStatus('Could not capture the photo.', false); return; }
-    const file = new File([blob], `camera-${Date.now()}.jpg`, { type: 'image/jpeg' });
-    await addFiles([file]);
-    stopCamera();
-    setView('upload');
-  }, 'image/jpeg', 0.85);
-});
-
-window.addEventListener('beforeunload', stopCamera);
 
 // ------------------------------------------------------------
 // URL-hash restore / deep links
