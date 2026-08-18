@@ -188,5 +188,68 @@
     "author": "you",
     "draft": false,
     "updated_at": "2026-08-18T22:32:54+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-epinephrine-notes-00",
+    "title": "Adrenaline → Adrenochrome formation & chemical stability (IMG_6183)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Reactive Oxygen Species",
+      "Oxidative Stress",
+      "Oxidation"
+    ],
+    "tags": [
+      "adrenochrome",
+      "oxidative-stress"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6183.jpeg"
+      }
+    ],
+    "ocr": "Adrenaline\n\nTherapeutic Side Effects (Effects)\nStress → Epinephrine (Adrenalin)\n- benzene ring with two attached hydroxyl groups & a side chain containing a secondary amine group hydrocarbon.\n- oxidation of alcohol\n- has six BH groups lose electrons (red hydrogen peroxide) makes O-glucose (ortho glucose) intermediate reactive.\nCyclization → side chains around other alters the glucose into aldehyde, leading to ring closure and formation of the molecule (fixed the membrane nitrogen amino structure).\n→ adrenochrome, induced with oxidants like silver oxide (Ag2O), potassium permanganate, or even in vitro water at halide conditions.\n- by the body, dimer by ROS (reactive oxygen species).\nSuperoxide: amine/red hydrogen peroxide (H2O2)\n- dark colors (typically) to reduce the alcohol.\n- enzymes like hydride macrophages (Macrophages or systems generating radicals) can autocatalyze, altering related intermediates such as a sulfhydryl radical of epinephrine.\n- this pathway becomes more noticeable under oxidative stress (hypoxic, ischemia-reperfusion toxic period, certain diseases).\n\nChemical Stability → oxidative step\n\n↑ Control -> pH control (epinephrine most stable in an acidic environment)\n↑ reducing agents -> pH control\n↑ metal catalysts -> compounds like ascorbic acid / uric acid (pot.)\n↑ Temperature -> glutathione, sulfide, methanol etc. (more soluble in oxygen)\n& Glutathione -> development protein\n↑ Maybe able of red color -> \"oxime\" structure electrons, the hydroxyl groups on the side chain ring are promoted (metal on to methylene agent).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T23:07:08+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T23:07:08+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-redox-pathway-00",
+    "title": "Chemical pathway & redox mechanism of adrenochrome formation (IMG_6193)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Adrenaline-quinone",
+      "Leuco-adrenochrome"
+    ],
+    "tags": [
+      "adrenochrome",
+      "redox"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6193.jpeg"
+      }
+    ],
+    "ocr": "CHEMICAL PATHWAY AND REDOX MECHANISM OF ADRENOCHROME FORMATION\n從腎上腺素至腎上腺色素形成的化學途徑和氧化還原機制\n\n1. EPINEPHRINE (ADRENALINE) | 腎上腺素\n2. ADRENALINE-QUINONE (highly reactive electrophile) 腎上腺素酮 (高度反應性親電體)\n3. LEUCO-ADRENOCHROME (\"WHITE\") 腎上腺素 (還原形，\"白色\") (S)-1-Methylindole-3,5,6-triol\n4. ADRENOCHROME (Distinctly colored red/pink/orange) 腎上腺素 (具有特殊性的紅色/粉色/橙色)\n   Extended Conjugated System 擴展共軛系統\n\nDiagram: flowchart-style diagram illustrating the chemical pathway from epinephrine to adrenochrome. Highlights key steps including oxidation, cyclization and reduction, along with redox mechanisms. Rectangles represent molecules; curved arrows indicate reaction pathways; colored circles/shapes represent different forms of adrenochrome (white, red/pink/orange) and the extended conjugated system.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T23:07:08+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T23:07:08+00:00"
   }
 ]
