@@ -6,7 +6,7 @@ feed one place:
   - committed curation  : media/notes/manifest.json  (durable, ships with the wiki)
   - live uploads        : media/notes/.staged.json   (browser uploads, served immediately)
 
-The GET index merges both. A reconcile script (scripts/09_reconcile_notes.py)
+The GET index merges both. A reconcile script (scripts/02_reconcile_notes.py)
 folds staged drafts into the committed manifest.
 
 Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
@@ -128,6 +128,50 @@ def _page_path(note: dict, page: int) -> Path | None:
     return None
 
 
+def _thumb_path(page_path: Path) -> Path:
+    """Sibling thumbnail the gallery requests via `?thumb=1`.
+
+    get_image() looks up `<stem>.thumb.<ext>` next to the page file and serves
+    it when present; otherwise it falls back to the full-res original. Uploads
+    write this file so the gallery never pays full-res bandwidth."""
+    return page_path.parent / (page_path.stem + ".thumb" + page_path.suffix)
+
+
+_THUMB_SIZE = 400  # longest edge — plenty for the small gallery cards
+
+
+def _make_thumbnail(page_path: Path) -> None:
+    """Downscale a page image into a .thumb sibling (best-effort).
+
+    Pillow/JPEG robustness lets us generate a small thumbnail here, but we treat
+    the import as optional so an upload never fails just because the deploy
+    hasn't installed it yet — missing thumbs fall back to full-res (see
+    get_image) and scripts/01_generate_thumbnail.py can backfill later.
+    Keeping the source format means the served content-type stays correct."""
+    try:
+        from PIL import Image, ImageOps  # noqa: PLC0415 - deferred optional dep
+    except ImportError:
+        return
+    try:
+        with Image.open(page_path) as im:
+            im = ImageOps.exif_transpose(im)
+            im.thumbnail((_THUMB_SIZE, _THUMB_SIZE))
+            tpath = _thumb_path(page_path)
+            ext = page_path.suffix.lower()
+            if ext in (".jpg", ".jpeg"):
+                if im.mode in ("RGBA", "P", "LA"):
+                    im = im.convert("RGB")
+                im.save(tpath, format="JPEG", quality=74, optimize=True)
+            elif ext == ".webp":
+                im.save(tpath, format="WEBP", quality=74)
+            elif ext == ".gif":
+                im.convert("RGB").save(tpath, format="GIF", optimize=True)
+            else:  # .png
+                im.save(tpath, format="PNG", optimize=True)
+    except Exception as exc:  # noqa: BLE001 - thumbnails are best-effort
+        logger.warning("notes thumb generation failed for %s: %s", page_path.name, exc)
+
+
 def _list_documents() -> list[dict]:
     """Index of paper/document notes in src/notes for the upload picker."""
     out = []
@@ -193,7 +237,7 @@ async def get_image(note_id: str, page: int, thumb: bool = False) -> FileRespons
     if path is None or not path.exists():
         raise HTTPException(status_code=404, detail="Image not found")
     if thumb:
-        tpath = path.parent / (path.stem + ".thumb" + path.suffix)
+        tpath = _thumb_path(path)
         if tpath.exists():
             path = tpath
     return FileResponse(path)
@@ -254,8 +298,12 @@ async def upload_notes(
         pages = []
         for idx, (ext, data) in enumerate(buffered, start=1):
             fname = f"page-{idx}{ext}"
-            (ngroup / fname).write_bytes(data)
+            page_path = ngroup / fname
+            page_path.write_bytes(data)
             pages.append({"page": idx, "file": fname})
+            # Generate a small thumbnail so the gallery (which requests
+            # `?thumb=1` for every card/page-strip) doesn't pull full-res.
+            _make_thumbnail(page_path)
     except OSError as e:
         logger.exception("notes upload write failed for %s", note_id)
         raise HTTPException(

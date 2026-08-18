@@ -31,10 +31,10 @@ Works on any graphify-out/graph.json. Node arguments accept either entity
 label ("SIRT3") or graph id ("sirt3"), matched case-insensitively.
 
 Run:
-  uv run --with networkx --with scipy python3 scripts/node_analysis.py
-  uv run --with networkx --with scipy python3 scripts/node_analysis.py \
+  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py
+  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
       --sources comt mao --targets dopamine epinephrine
-  uv run --with networkx --with scipy python3 scripts/node_analysis.py \
+  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
       --graph other-vault/graphify-out/graph.json
 """
 

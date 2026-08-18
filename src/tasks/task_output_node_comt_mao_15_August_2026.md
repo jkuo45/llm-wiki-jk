@@ -1,6 +1,6 @@
 ---
 title: COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026
-description: "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/node_analysis.py."
+description: "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py."
 created: 2026-08-15
 updated: 2026-08-15
 tags:
@@ -15,13 +15,13 @@ tags:
   - dopamine
   - epinephrine
   - graph-theory
-source: graphify-out/graph.json + scripts/node_analysis.py (networkx/scipy)
+source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 ---
 
 # COMT × MAO Node Analysis vs Dopamine / Epinephrine
 
 > Graph-derived comparative node analysis. Date: 15_August_2026
-> Method: `uv run --with networkx --with scipy python3 scripts/node_analysis.py --sources comt mao --targets dopamine epinephrine`
+> Method: `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources comt mao --targets dopamine epinephrine`
 > Corpus: `graphify-out/graph.json` (2479 nodes / 3388 links directed), undirected projection, self-loops removed, giant component analysed (2028 nodes, 209 total components).
 
 ## Data Reduction Note
@@ -124,7 +124,7 @@ Pairwise Jaccard: COMT–MAO **0.017**, COMT–Dopamine 0.015, COMT–Epinephrin
 - Fiedler eigenvector sign is arbitrary; compare magnitudes/relative placement, not sign.
 - `eigsh(which='SM')` and truncated `svds` are deliberately avoided (see task_output_sirtuins_adrenochrome_node_analysis_15_August_2026.md).
 - Adamic-Adar of 0.000 means zero common neighbors, not necessarily zero relatedness.
-- Numbers reproduce with `scripts/node_analysis.py`; default seed 1.
+- Numbers reproduce with `scripts/04_node_analysis.py`; default seed 1.
 
 ## Suggested Follow-ups
 

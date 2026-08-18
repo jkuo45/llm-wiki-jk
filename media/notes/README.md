@@ -56,7 +56,7 @@ Writes are currently public; auth will be added later.
 ## Reconcile (live → durable)
 
 ```bash
-uv run --with ... python scripts/09_reconcile_notes.py
+uv run --with ... python scripts/02_reconcile_notes.py
 ```
 
 Moves every `.staged.json` entry into `manifest.json` (deduplicated by id),

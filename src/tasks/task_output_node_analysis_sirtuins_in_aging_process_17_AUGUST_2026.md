@@ -1,7 +1,7 @@
 # Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Their Targets & Substrates
 
 > [!info]
-> **Task**: Run `scripts/node_analysis.py` on the seven mammalian sirtuins against the intracellular **targets and substrates** catalogued in the target/substrate table of the source review *"Sirtuins, a promising target in slowing down the ageing process"* ([[Sirtuins, a promising target in slowing down the ageing process]]; Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017; [PMC5514220](https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/); DOI 10.1007/s10522-017-9685-9) — organized by the review's three target columns: **Modification**, **Activation**, **Inhibition** — supplemented with web research.
+> **Task**: Run `scripts/04_node_analysis.py` on the seven mammalian sirtuins against the intracellular **targets and substrates** catalogued in the target/substrate table of the source review *"Sirtuins, a promising target in slowing down the ageing process"* ([[Sirtuins, a promising target in slowing down the ageing process]]; Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017; [PMC5514220](https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/); DOI 10.1007/s10522-017-9685-9) — organized by the review's three target columns: **Modification**, **Activation**, **Inhibition** — supplemented with web research.
 > **Date**: 17_AUGUST_2026 10:20 AM PDT
 > **Graph**: `graphify-out/graph.json` — 2506 nodes / 2055 giant-component nodes / 3213 edges
 > **Runs**: 3 (one per target category from the source document), full reproducible commands in Reproducibility.
@@ -264,17 +264,17 @@ The source review (2017) already notes the field's shift from "deacetylases" to 
 
 ```bash
 # Modification
-uv run --with networkx --with scipy python3 scripts/node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
   --sources SIRT1 SIRT2 SIRT3 SIRT6 SIRT7 \
   --targets p53 Tubulin "Histone H4" H3K9 H4K16 H3K56 H2BK12 WRN H2A H2B H3K18ac
 
 # Activation
-uv run --with networkx --with scipy python3 scripts/node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
   --sources SIRT1 SIRT2 SIRT3 SIRT5 SIRT6 SIRT7 \
   --targets SUV39H1 LKB1 AMPK NBS1 XPA MnSOD Ku70 FOXO PGC-1α Catalase IDH2 PARP1 CtIP "SOD1 (via desuccinylation)"
 
 # Inhibition
-uv run --with networkx --with scipy python3 scripts/node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
   --sources SIRT1 SIRT2 SIRT3 SIRT4 SIRT6 SIRT7 \
   --targets NF-κB P300 p66Shc mTOR HIF-1α IGF-1 GDH "RNA Polymerase I" p53
 ```

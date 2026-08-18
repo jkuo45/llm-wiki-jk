@@ -6,7 +6,7 @@ entry into media/notes/manifest.json, deduplicated by id. The draft flag
 is dropped and .staged.json is left empty so the next upload starts clean.
 
 Usage:
-    uv run python scripts/09_reconcile_notes.py
+    uv run python scripts/02_reconcile_notes.py
 """
 
 import json
