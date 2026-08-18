@@ -113,13 +113,6 @@ if (responseModeWrap) {
   });
 }
 
-// Auto-open HTML mode for a freshly rendered response when HTML view is active.
-function maybeOpenHtml(div, text) {
-  if (responseMode !== 'html') return;
-  const badge = div.querySelector('.chat-badge');
-  openHtmlMode(text, (badge && badge.textContent) || 'Response');
-}
-
 // Append the user's chosen output format as a spec to the message sent to the
 // server (the model responds with .md markdown or a standalone .html doc).
 // Idempotent so it is never doubled when the server echoes the message back.
@@ -270,7 +263,8 @@ function addCopyButton(div, text) {
 
 // "Open HTML page" affordance on a bot message: re-opens the standalone
 // pages.css page for that response (used to reopen after closing the overlay).
-function addOpenHtmlButton(div, text) {
+// `query` is the user's question, used as a title fallback.
+function addOpenHtmlButton(div, text, query) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'chat-page-btn';
@@ -278,8 +272,7 @@ function addOpenHtmlButton(div, text) {
   btn.title = 'Open this response as a standalone HTML page / 以 HTML 頁面開啟';
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
-    const badge = div.querySelector('.chat-badge');
-    openHtmlMode(text, (badge && badge.textContent) || 'Response');
+    openHtmlMode(text, suggestPageTitle(text, query));
   });
   div.appendChild(btn);
 }
@@ -400,6 +393,44 @@ function collapseFencedCode(html) {
     const label = lang ? `Code · ${esc(lang)}` : 'Code';
     return `<details class="md-code"><summary>${label}</summary><pre><code>${safe}</code></pre></details>`;
   });
+}
+
+// Inline HTML render: inject a server-authored HTML document directly into the
+// chat bubble so it renders visually (diagrams, cards, tables) instead of
+// appearing as escaped markdown/code. Scripts are stripped — the iframe modal
+// is script-sandboxed, but inline injection has no sandbox, so this is mandatory
+// defense-in-depth. The <html>/<head>/<body> wrapper is dropped (only the body
+// content is embedded) so we don't nest document roots inside the message.
+// Any <style> blocks inside the body are preserved (the model emits inline/SVG
+// styles this way); they apply document-wide, which is acceptable for authored
+// response content.
+function renderInlineHtml(html) {
+  const raw = String(html || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<script\b[^>]*>/gi, '');
+  const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+  return bodyMatch ? bodyMatch[1] : raw;
+}
+
+// Derive a short, human-readable page title for an HTML-mode response so the
+// modal header / download file aren't all labelled "wiki" or "Response". We
+// prefer the first heading (h1-h3); if none, fall back to the first meaningful
+// text run (tags stripped), capped to a sane length. When the response yields
+// nothing usable, fall back to the user's question (query), then "Response".
+function suggestPageTitle(text, query) {
+  const t = String(text || '').replace(/<script[\s\S]*?<\/script>/gi, '');
+  const h = t.match(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/i);
+  let title = h ? h[1] : t.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  title = title.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  if (!title && query) {
+    title = String(query)
+      .replace(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g, '$1') // wiki links -> label
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+  if (!title) return 'Response';
+  return title.length > 80 ? title.slice(0, 77).trim() + '…' : title;
 }
 
 function buildHtmlModeDoc(text, title) {
@@ -732,13 +763,12 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
       + '</details>';
   }
 
-  html += formatBotMessage(responseText);
+  html += responseMode === 'html' ? `<div class="chat-html-inline">${renderInlineHtml(responseText)}</div>` : formatBotMessage(responseText);
   div.innerHTML = html;
   addCopyButton(div, responseText);
-  if (responseMode === 'html') addOpenHtmlButton(div, responseText);
+  if (responseMode === 'html') addOpenHtmlButton(div, responseText, clean);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
-  maybeOpenHtml(div, responseText);
 
   chatHistory.push({ role: 'assistant', content: responseText });
 
@@ -821,13 +851,12 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   let html = `<span class="chat-badge graphify">${op ? `graphify · ${op}` : 'graphify'}</span>`;
   const secs = ((performance.now() - typingStart) / 1000);
   html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
-  html += formatBotMessage(textBuf);
+  html += responseMode === 'html' ? `<div class="chat-html-inline">${renderInlineHtml(textBuf)}</div>` : formatBotMessage(textBuf);
   div.innerHTML = html;
   addCopyButton(div, textBuf);
-  if (responseMode === 'html') addOpenHtmlButton(div, textBuf);
+  if (responseMode === 'html') addOpenHtmlButton(div, textBuf, clean);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
-  maybeOpenHtml(div, textBuf);
 
   chatHistory.push({ role: 'assistant', content: textBuf });
 

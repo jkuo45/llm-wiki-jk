@@ -648,6 +648,31 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-msg.bot details.md-code > summary { cursor: pointer; padding: 6px 10px; color: #9a9ab0; font-size: .82rem; user-select: none; }
 .chat-msg.bot details.md-code > summary:hover { color: #7cb3d4; }
 .chat-msg.bot details.md-code > pre { margin: 0; border-top: 1px solid #2a2a4e; }
+/* Server-rendered HTML document injected inline (HTML response mode) */
+.chat-html-inline {
+  margin: 10px 0 4px; padding: 14px 16px;
+  background: #1a1a2e; border: 1px solid #2a2a4e; border-radius: 12px;
+  color: #e0e0e0; font-size: 14px; line-height: 1.6;
+}
+.chat-html-inline h1, .chat-html-inline h2, .chat-html-inline h3, .chat-html-inline h4 {
+  color: #e0e0e0; margin: 14px 0 8px; font-weight: 600; line-height: 1.25;
+}
+.chat-html-inline h1 { font-size: 19px; }
+.chat-html-inline h2 { font-size: 16px; }
+.chat-html-inline h3 { font-size: 14px; }
+.chat-html-inline p { margin: 8px 0; }
+.chat-html-inline a { color: #7cb3d4; text-decoration: none; border-bottom: 1px dotted rgba(62,201,167,.55); }
+.chat-html-inline a:hover { color: #a0d4f0; }
+.chat-html-inline svg { max-width: 100%; height: auto; display: block; }
+.chat-html-inline svg text { fill: #e0e0e0; font-family: inherit; }
+.chat-html-inline code { background: #0f0f1a; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+.chat-html-inline table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+.chat-html-inline th, .chat-html-inline td { border: 1px solid #2a2a4e; padding: 4px 8px; font-size: 13px; }
+.chat-html-inline th { background: #16162b; color: #aaa; }
+.chat-html-inline details.md-code { border: 1px solid #2a2a4e; border-radius: 8px; margin: 8px 0; background: #0f0f1a; overflow: hidden; }
+.chat-html-inline details.md-code > summary { cursor: pointer; padding: 6px 10px; color: #9a9ab0; font-size: .82rem; user-select: none; }
+.chat-html-inline details.md-code > summary:hover { color: #7cb3d4; }
+.chat-html-inline blockquote { border-left: 3px solid #4E79A7; padding: 6px 12px; margin: 8px 0; background: rgba(78,121,167,0.06); color: #bbb; }
 .chat-msg.error { background: #3a1a1a; color: #ff8888; align-self: center; font-size: 13px; }
 .chat-msg.typing { color: #888; align-self: flex-start; display: flex; align-items: center; gap: 8px; font-size: 13px; flex-wrap: wrap; }
 .typing-dots { display: inline-flex; gap: 3px; }
