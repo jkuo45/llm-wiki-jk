@@ -167,6 +167,7 @@
 <nav>
   <div class="wrap">
     <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="返回圖譜首頁">&#8592; 返回</a>
+    <a class="n" href="#foundational">基礎綜述</a>
     <a class="n" href="#networks">網路圖譜</a>
     <a class="n" href="#chromatin">染色質與修復</a>
     <a class="n" href="#lifespan">壽命與健康壽命</a>
@@ -179,29 +180,184 @@
 
 <header>
   <div class="wrap">
-    <div class="kicker">視覺參考 · llm-wiki-jk</div>
+    <div class="kicker">主題索引 · llm-wiki-jk</div>
     <h1>Sirtuins — 文章中的圖像／圖表</h1>
     <p class="lead" style="margin-top:14px;">
-      來自同儕審查文獻的精選
-      <b style="color:var(--text)">18 張圖表</b>——涵蓋蛋白質晶體結構、細胞區室圖譜、藥理學藥物、
-      染色質生物學、壽命研究，以及蛋白質–受質交互作用網路。每張圖像皆連結回
-      wiki 中的來源文件。本頁同時作為 sirtuins 主題文獻的索引：下方列出
-      <code>src/notes/sirtuins/</code> 目錄中的全部 15 份文件。
+      本頁是 <b style="color:var(--text)">sirtuins 主題在 wiki 中的索引</b>——下方完整收錄
+      <code>src/notes/sirtuins/</code> 目錄中的全部 <b style="color:var(--text)">15 份文件</b>，
+      從同儕審查文章（其中 8 篇為 PMC 回顧）到 AI 對話衍生的 wiki 筆記，皆附引用資訊
+      與原始出版品連結。圖表庫用來說明這些文章與筆記，選自 8 篇 PMC 回顧文章中的
+      <b style="color:var(--text)">24 張圖表</b>——涵蓋蛋白質晶體結構、細胞區室圖譜、藥理學藥物、
+      染色質生物學、壽命研究，以及蛋白質–受質交互作用網路。
     </p>
     <div class="meta">
-      來源：6 篇來自 PMC 的回顧文章 · 所有圖像皆出自開放取用出版品。
+      收錄 15 份文件：8 篇 PMC 回顧文章 · 3 則 AI 對話筆記 · 圖像出自開放取用 PMC 出版品。
     </div>
     <div class="pill-row" style="margin-top:14px;">
-      <span class="badge teal">18 張圖表</span>
-      <span class="badge">6 份來源文件</span>
+      <span class="badge teal">15 份 wiki 文件</span>
+      <span class="badge">8 篇 PMC 回顧 · 3 則對話筆記</span>
+      <span class="badge">24 張圖表</span>
       <span class="badge">SIRT1–SIRT7</span>
       <span class="badge">結構 · 路徑 · 藥理學</span>
-      <span class="badge">已索引 15 份文獻</span>
     </div>
   </div>
 </header>
 
 
+
+<!-- ==================== 基礎綜述 ==================== -->
+<section id="foundational">
+  <div class="wrap">
+    <h2>基礎綜述 — Michan 與 Sinclair（2007）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      定義 sirtuin 生物學的標竿綜述——酵素學、七種哺乳類 sirtuin，以及它們的細胞功能。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">"Sirtuins in mammals: insights into their biological function"</a>（2007）— NIH 公共取用手稿
+    </p>
+    <div class="gallery-grid" data-gallery="foundational">
+
+      <!-- 圖 1：Sirtuin 酵素活性 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/874818fb0189/nihms-134884-f0001.jpg"
+               alt="Sirtuin 酵素活性——NAD+ 依賴的去乙醯化與單 ADP-核糖基化"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 酵素學</div>
+          <h3>Sirtuin 酵素活性</h3>
+          <div class="caption">
+            Sirtuin 是 NAD<sup>+</sup> 依賴的去乙醯酶與單 ADP-核糖基轉移酶，調控參與代謝與細胞存活的諸多蛋白質。
+            標靶蛋白的 ε-乙醯賴胺酸殘基即為受質；去乙醯化反應產生副產物 2′-O-乙醯-ADP-核糖（OAADPr）。
+            NAM，菸鹼醯胺。
+          </div>
+          <div class="context">
+            每水解一個 NAD<sup>+</sup> 分子即產生一個菸鹼醯胺與一個 OAADPr——此偶聯將 sirtuin 活性連結至細胞能量狀態。
+            對 SIRT4 與 SIRT6 而言，單 ADP-核糖基轉移是其主要酶活性。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 2：七種哺乳類 Sirtuin -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/f7524e55c54c/nihms-134884-f0002.jpg"
+               alt="七種哺乳類 sirtuin SIRT1-SIRT7 及其催化核心與細胞定位"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · 七種 Sirtuin</div>
+          <h3>七種哺乳類 Sirtuin</h3>
+          <div class="caption">
+            哺乳類有七種 sirtuin（SIRT1–7），各自帶有約 275 個胺基酸的保守 NAD<sup>+</sup> 依賴催化核心，
+            可能優先作為 ADP-核糖基轉移酶（ART）與／或 NAD<sup>+</sup> 依賴去乙醯酶（DAC），
+            並由可變的 N 端與 C 端序列包夾。SIRT1、SIRT6、SIRT7 主要位於細胞核，SIRT2 位於細胞質，
+            SIRT3–SIRT5 位於粒線體。
+          </div>
+          <div class="context">
+            經授權轉載自 Frye（Biochem. Biophys. Res. Commun. 273:793–798，2000）——sirtuin 家族
+            及其區室分佈的經典圖譜。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 3：哺乳類 Sirtuin 分類 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/4d2c52200115/nihms-134884-f0003.jpg"
+               alt="七種哺乳類 sirtuin 的 I-IV 類親緣分類"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · 親緣分類</div>
+          <h3>哺乳類 Sirtuin 的親緣分類</h3>
+          <div class="caption">
+            對約 60 個 sirtuin 核心結構域的親緣分析將哺乳類 sirtuin 歸入四個類別：
+            SIRT1–SIRT3（I 類）、SIRT4（II 類）、SIRT5（III 類），以及 SIRT6/SIRT7（IV 類）。
+            II、III 與 U 類 sirtuin 似乎演化最早。
+          </div>
+          <div class="context">
+            SIRT4 與 SIRT5 因此可能是最古老的哺乳類 sirtuin，而 I 類與 IV 類 sirtuin 僅存在於真核生物。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 4：哺乳類 Sirtuin 的細胞功能 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/11b23b92d1a2/nihms-134884-f0004.jpg"
+               alt="哺乳類 sirtuin 在細胞核、細胞質與粒線體中的細胞功能"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · 細胞圖譜</div>
+          <h3>哺乳類 Sirtuin 的細胞功能</h3>
+          <div class="caption">
+            細胞核中的 SIRT1 去乙醯化組蛋白 H1/H3/H4，以及 p300、p53、MyoD/MEF2、PPAR-γ 與 Tat；
+            SIRT6 在異染色質中調節鹼基切除修復；SIRT7 在核仁中活化 RNA 聚合酶 I；
+            SIRT2 於有絲分裂期間穿梭入核（H4K16）。細胞質 SIRT1 活化 AceCS1；
+            粒線體 SIRT3 活化 AceCS2，SIRT4 則以 ADP-核糖基化 GDH 抑制胺基酸刺激的胰島素分泌。
+          </div>
+          <div class="context">
+            sirtuin 領域的經典「細胞圖譜」——一個家族、三個區室、數十種受質——至今仍是
+            理解 sirtuin 輸出如何組織的框架。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 5：SIRT1 調控細胞凋亡與存活 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/ffe435bf41db/nihms-134884-f0005.jpg"
+               alt="SIRT1 調控細胞凋亡與細胞存活"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · 凋亡與存活</div>
+          <h3>SIRT1 在細胞凋亡與存活中的角色</h3>
+          <div class="caption">
+            SIRT1 去乙醯化 p53、Ku70、E2F1、p73 與 FOXO 因子，抑制細胞凋亡並促進存活。
+            圖中繪製的路徑包括 p53/HIC1 回饋迴路、Ku70 對 Bax 的隔離、FOXO 驅動的壓力抗性，
+            以及對 NF-κB（RelA/p65）轉錄活化的抑制。
+          </div>
+          <div class="context">
+            2007 年時 SIRT1 在體內究竟是腫瘤抑制子還是致癌基因仍懸而未決——這個問題
+            催生了 sirtuin–癌症研究領域。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 6：SIRT1 與 SIRT2 在腦中的差異定位 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/259279706c75/nihms-134884-f0006.jpg"
+               alt="SIRT1 與 SIRT2 在腦中的差異定位"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 6 · 神經解剖</div>
+          <h3>SIRT1 與 SIRT2 在腦中的差異定位</h3>
+          <div class="caption">
+            皮質、海馬迴與紋狀體的免疫螢光染色顯示，SIRT1（綠）與神經元標記 NeuN 共定位於神經元；
+            SIRT2 則不標記神經元——它與白質中有髓鞘的軸突纖維及寡突膠質細胞共定位。
+          </div>
+          <div class="context">
+            兩者截然不同的表現型態預示了代謝之外的更多功能：SIRT1 的神經保護，SIRT2 的髓鞘形成
+            與神經膠質生物學——以及日後與神經退化的關聯。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- ==================== 網路圖譜 ==================== -->
 <section id="networks">
@@ -743,8 +899,8 @@
     </p>
     <div class="pill-row" style="margin-top:14px;">
       <span class="badge teal">15 份文獻</span>
-      <span class="badge">6 份圖表來源 ★</span>
-      <span class="badge">7 篇 PMC 綜述</span>
+      <span class="badge">7 份圖表來源 ★</span>
+      <span class="badge">8 篇 PMC 綜述</span>
       <span class="badge">3 篇 AI 對話筆記</span>
     </div>
     <div class="tbl-wrap" style="margin-top:16px;">
@@ -766,8 +922,8 @@
               <span style="color:var(--dim); font-size:.8rem;">哺乳類 sirtuin 生物學的奠基綜述。</span>
             </td>
             <td style="white-space:normal;">Michan &amp; Sinclair, <i>Biochem J.</i> 404(1):1–13 (2007)</td>
-            <td>—</td>
-            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1042/BJ20070140" target="_blank">DOI ↗</a>&nbsp;<span style="color:var(--mute);">· 存放於知識庫的 PDF</span></td>
+            <td>6 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1042/BJ20070140" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">PMC2753453 ↗</a>&nbsp;<span style="color:var(--mute);">· 存放於知識庫的 PDF</span></td>
           </tr>
 
           <tr>
@@ -950,7 +1106,9 @@
       3. Worm &amp; Bhatt, <i>The Sirtuin System: The Holy Grail of Resveratrol?</i> (2012) — PMC3613783<br>
       4. Grabowska et al., <i>Sirtuins, a promising target in slowing down the ageing process</i> (2017) — PMC5514220<br>
       5. Rotili &amp; Mai, <i>Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets</i> (2013) — PMC3549556<br>
-      6. Giblin et al., <i>Sirtuins: Guardians of Mammalian Healthspan</i> (2014) — PMC4077918
+      6. Giblin et al., <i>Sirtuins: Guardians of Mammalian Healthspan</i> (2014) — PMC4077918<br>
+      7. Zhao et al., <i>Sirtuins and their Biological Relevance in Aging and Age-Related Diseases</i> (2020) — PMC7390530<br>
+      8. Michan &amp; Sinclair, <i>Sirtuins in mammals: insights into their biological function</i> (2007) — PMC2753453
     </p>
     <p style="margin-top:10px; color:var(--mute);">
       所有圖像皆來自開放取用的 PMC 出版品。圖庫由 <code>src/notes/sirtuins/</code>
