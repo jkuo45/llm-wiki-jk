@@ -9,37 +9,43 @@ import { ARTICLES } from './data.js';
 // ------------------------------------------------------------
 // Article registry (semantic IDs, not file paths)
 // Single source of truth: web/data/articles.json, loaded via data.js.
+// Only articles with `active: true` are listed/opened by the reader —
+// set `active: false` in articles.json while an article is being
+// edited so it stays hidden until it's ready. Entries missing the
+// property are treated as active.
 // ------------------------------------------------------------
 
-export const getArticle = (id) => ARTICLES.find((a) => a.id === id) || null;
-export const getDefaultArticle = () => ARTICLES.find((a) => a.default) || ARTICLES[0];
+const ACTIVE_ARTICLES = ARTICLES.filter((a) => a.active !== false);
+
+export const getArticle = (id) => ACTIVE_ARTICLES.find((a) => a.id === id) || null;
+export const getDefaultArticle = () => ACTIVE_ARTICLES.find((a) => a.default) || ACTIVE_ARTICLES[0];
 
 // ------------------------------------------------------------
 // Group / language helpers
 // ------------------------------------------------------------
 const groupKey = new Map();
-ARTICLES.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
+ACTIVE_ARTICLES.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
 
 function stripSuffix(title) {
   return title.replace(/\s*（繁體中文）\s*$/, '');
 }
 
 function groupTitle(group) {
-  const en = ARTICLES.find((a) => a.group === group && a.lang === 'en-US');
-  const zh = ARTICLES.find((a) => a.group === group && a.lang === 'zh-TW');
-  const base = en || zh || groupKey.get(group) || ARTICLES[0];
+  const en = ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === 'en-US');
+  const zh = ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === 'zh-TW');
+  const base = en || zh || groupKey.get(group) || ACTIVE_ARTICLES[0];
   if (zh) return `${base.title} · ${stripSuffix(zh.title)}`;
   return base.title;
 }
 
 function groupHasLang(group, lang) {
-  return ARTICLES.some((a) => a.group === group && a.lang === lang);
+  return ACTIVE_ARTICLES.some((a) => a.group === group && a.lang === lang);
 }
 
 function resolveForGroup(group, lang) {
   return (
-    ARTICLES.find((a) => a.group === group && a.lang === lang) ||
-    ARTICLES.find((a) => a.group === group) ||
+    ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === lang) ||
+    ACTIVE_ARTICLES.find((a) => a.group === group) ||
     null
   );
 }
