@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sirtuins - Figures and images from articles</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/sirtuins-images-and-figures.html">
+  <style>
+    /* ===== Gallery-specific styles ===== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color .2s;
+    }
+    .gallery-card:hover { border-color: var(--teal); }
+    .gallery-card .img-wrap {
+      position: relative;
+      background: #111122;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+      min-height: 220px;
+      cursor: zoom-in;
+    }
+    .gallery-card .img-wrap img {
+      max-width: 100%;
+      max-height: 320px;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+    .gallery-card .card-body {
+      padding: 16px 18px 18px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .gallery-card .fig-label {
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--teal);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .gallery-card h3 {
+      font-size: .95rem;
+      margin: 0 0 6px;
+      color: var(--text);
+      line-height: 1.35;
+    }
+    .gallery-card .caption {
+      font-size: .83rem;
+      color: var(--dim);
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    .gallery-card .context {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      margin-top: auto;
+    }
+    .gallery-card .source-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: .78rem;
+      color: var(--teal);
+    }
+    .source-link:hover { text-decoration: underline; }
+
+    /* lightbox */
+    .gallery-lightbox {
+      position: fixed; inset: 0; z-index: 1000;
+      display: none; align-items: center; justify-content: center;
+      padding: 24px;
+      background: rgba(8,8,16,.94);
+      -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+    }
+    .gallery-lightbox.open { display: flex; }
+    .gallery-lightbox img {
+      max-width: 95vw; max-height: 90vh;
+      border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.7);
+    }
+    .gallery-lightbox-close {
+      position: absolute; top: 18px; right: 18px;
+      width: 44px; height: 44px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.25); background: rgba(20,20,40,.85);
+      color: #fff; font-size: 28px; cursor: pointer; z-index: 2;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .gallery-lightbox-close:hover { border-color: var(--teal); color: var(--teal); }
+    .gallery-lightbox-cap {
+      position: absolute; bottom: 20px; left: 0; right: 0;
+      text-align: center; color: var(--dim); font-size: .85rem; padding: 0 20px;
+    }
+    @media (max-width:720px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="Back to graph">&#8592; Back</a>
+    <a class="n" href="#structures">Protein Structures</a>
+    <a class="n" href="#networks">Network Diagrams</a>
+    <a class="n" href="#pharmacology">Pharmacology</a>
+    <a class="n" href="#chromatin">Chromatin &amp; Repair</a>
+    <a class="n" href="#lifespan">Lifespan &amp; Healthspan</a>
+    <a class="n" href="#substrates">Substrates &amp; Partners</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Visual reference · llm-wiki-jk</div>
+    <h1>Sirtuins - Figures and images from articles</h1>
+    <p class="lead" style="margin-top:14px;">
+      A curated collection of <b style="color:var(--text)">18 figures</b> from the peer-reviewed literature on sirtuins — covering
+      protein crystal structures, cellular compartment maps, pharmacological agents, chromatin biology, lifespan studies,
+      and protein–substrate interaction networks. Each image links back to its source document in the wiki.
+    </p>
+    <div class="meta">
+      Sources: 6 review articles from PMC · all figures are from open-access publications.
+    </div>
+    <div class="pill-row" style="margin-top:14px;">
+      <span class="badge teal">18 figures</span>
+      <span class="badge">6 source documents</span>
+      <span class="badge">SIRT1–SIRT7</span>
+      <span class="badge">structures · pathways · pharmacology</span>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- ==================== PROTEIN STRUCTURES ==================== -->
+<section id="structures">
+  <div class="wrap">
+    <h2>Protein Structures</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Crystal structures of human sirtuin isoforms resolved by X-ray crystallography, revealing the conserved
+      Rossmann-fold domain, zinc-binding domain, and cofactor/substrate binding sites.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      From: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">"Sirtuins: Shedding light on structure, function and regulation"</a> (2023)
+      &amp; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a> (2013)
+    </p>
+    <div class="gallery-grid" data-gallery="structures">
+
+      <!-- Fig 1: SIRT1 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/9b171a7a581e/13205_2022_3455_Fig1_HTML.jpg"
+               alt="Crystal structure of human SIRT1 (PDB: 4IG9)" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 1 · SIRT1</div>
+          <h3>Structure of SIRT1 (PDB: 4IG9)</h3>
+          <div class="caption">
+            The NAD<sup>+</sup> binding region consists of a core six-stranded parallel β-sheet (strands β1–3, β7–9)
+            and eight helices. The helical module (αC–F) and Zn<sup>2+</sup>-binding unit (β4–6, αI) form the smaller domain.
+            The C-terminal regulatory region (CTR) creates a β-hairpin covering a hydrophobic core.
+          </div>
+          <div class="context">
+            SIRT1 has strong deacetylase activity and modulates anti-ageing signalling with AMPK. It promotes healthy ageing,
+            protects against metabolic-syndrome-linked cancers, and delays neurodegeneration.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Fig 2: SIRT2 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/ab2397811137/13205_2022_3455_Fig2_HTML.jpg"
+               alt="Crystal structure of human SIRT2 (PDB: 3ZGO)" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 2 · SIRT2</div>
+          <h3>Structure of SIRT2 (PDB: 3ZGO)</h3>
+          <div class="caption">
+            The catalytic core is an elongated structure with a larger Rossmann-fold domain (six β-strands, six α-helices)
+            and a smaller domain comprising a helical module (α3–α6) and a zinc-binding region (β4–6, α9).
+            A large groove at the domain intersection forms the active site cleft.
+          </div>
+          <div class="context">
+            SIRT2 has both mono-ADP-ribosyl transferase and deacetylase activity. It controls metabolic reprogramming
+            during induced pluripotency and mediates tubulin acetylation. Upregulated in NSCLC and metastatic melanoma.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Fig 3: SIRT3 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/b0125f17e465/13205_2022_3455_Fig3_HTML.jpg"
+               alt="Crystal structure of human SIRT3 (PDB: 3GLS)" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 3 · SIRT3</div>
+          <h3>Structure of SIRT3 (PDB: 3GLS)</h3>
+          <div class="caption">
+            SIRT3 has a two-domain structure: a large Rossmann-fold domain for NAD<sup>+</sup> binding and a smaller domain
+            consisting of a helical bundle and zinc-binding region created by two extending loops from the large domain.
+            A groove between the zinc-binding and helical bundle may participate in protein–protein interactions.
+          </div>
+          <div class="context">
+            The principal mitochondrial deacetylase. Full-length SIRT3 is inactive; cleavage of the N-terminal 101 residues
+            by mitochondrial processing peptidase activates it. Suppresses tumor growth via HIF-1α regulation and ROS suppression.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Fig 4: SIRT5 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/c0646e7ed9ec/13205_2022_3455_Fig4_HTML.jpg"
+               alt="Crystal structure of human SIRT5 (PDB: 2NYR)" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 4 · SIRT5</div>
+          <h3>Structure of SIRT5 (PDB: 2NYR)</h3>
+          <div class="caption">
+            Made up of 14 α-helices and 9 β-strands arranged in two globular domains. The larger Rossmann-fold domain
+            contains a core β-sheet of six parallel strands and nine α-helices. The smaller zinc-binding domain has a unique
+            insertion: helix α9 and a 16-residue preceding loop specific to human SIRT5.
+          </div>
+          <div class="context">
+            SIRT5 has weak deacetylase activity but is a potent desuccinylase/demalonylase/deglutarylase.
+            Its deacetylation activity is unusually resistant to nicotinamide inhibition — relevant for drug design.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Fig 5: SIRT6 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/0babcee70a57/13205_2022_3455_Fig5_HTML.jpg"
+               alt="Crystal structure of human SIRT6 (PDB: 3K35)" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 5 · SIRT6</div>
+          <h3>Structure of SIRT6 (PDB: 3K35)</h3>
+          <div class="caption">
+            Two globular domains with eight α-helices and nine β-strands. The Rossmann-fold domain features a six-stranded
+            parallel β-sheet. The smaller zinc-binding domain is formed by two extending loops. Notably, SIRT6 lacks the
+            cofactor-binding loop found in other sirtuins — replaced by a single helix (α3) with NAD<sup>+</sup>-binding residues.
+          </div>
+          <div class="context">
+            SIRT6 is a mono-ADP-ribosyl transferase essential for telomere maintenance, DNA repair, and inhibition of
+            glycolysis and ROS. Its compact small domain (no helix bundle) may underlie its unique NAD<sup>+</sup> binding properties.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Fig 6: SIRT7 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/5479d7466a93/13205_2022_3455_Fig6_HTML.jpg"
+               alt="Crystal structure of human SIRT7 N-terminal domain (PDB: 5IQZ)" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 6 · SIRT7</div>
+          <h3>Structure of SIRT7 (PDB: 5IQZ)</h3>
+          <div class="caption">
+            The SIRT7 N-terminal domain (NTD) consists of three helices (α1–α3) connected by a short 3<sub>10</sub> helix.
+            α1 is the longest helix (35 residues, Gly5–Arg37). α2 and α3 are nearly perpendicular to α1.
+            The NTD shows structural similarities to transcription factor regulators and may participate in DNA binding.
+          </div>
+          <div class="context">
+            SIRT7 has deacetylase activity critical for ageing and hematopoietic cell lifespan. It regulates rDNA
+            transcription, pre-rRNA cleavage, and acts as a heterochromatin stabiliser counteracting stem cell ageing.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- SIRT3-Xray (from Rejuvenating Sirtuins) -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/56bb/3549556/8b221166898f/CPD-19-614_F1.jpg"
+               alt="X-ray structure of human SIRT3 in complex with ADPR and Acetyl-coenzyme A synthetase 2 peptide"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 1 · SIRT3 Complex</div>
+          <h3>X-ray Structure of SIRT3 with Acetyl-CoA Synthetase 2</h3>
+          <div class="caption">
+            Human SIRT3 in complex with ADPR bound to the Acetyl-coenzyme A synthetase 2 (AceCS2) peptide containing
+            thioacetyl lysine (PDB: 3GLT). Color-coded: red = Rossmann-fold domain, yellow = zinc-binding domain,
+            green = cofactor-binding loop. Surfaces of substrate-binding (purple) and NAD<sup>+</sup>-binding (light blue) sites are highlighted.
+          </div>
+          <div class="context">
+            This co-crystal structure reveals the productive binding mode of the acetyl-lysine substrate and NAD<sup>+</sup> cofactor
+            in the extended cleft between the two domains — a template for structure-based drug design.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">Source: PMC3549556 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NETWORK DIAGRAMS ==================== -->
+<section id="networks">
+  <div class="wrap">
+    <h2>Network Diagrams</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Integrated views of the sirtuin regulatory network across cellular compartments and NAD<sup>+</sup> metabolism.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      From: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">"The Sirtuin Network: Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis"</a> (2025)
+    </p>
+    <div class="gallery-grid" data-gallery="networks">
+
+      <!-- FIGURE 1: Compartmentalised network -->
+      <div class="gallery-card" data-cat="network">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/c077addc161e/DMRR-42-e70201-g002.jpg"
+               alt="Compartmentalised sirtuin network linking NAD+ metabolism to systemic metabolic regulation"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 1 · Compartment Map</div>
+          <h3>The Compartmentalised Sirtuin Network</h3>
+          <div class="caption">
+            Nuclear sirtuins (SIRT1, SIRT6, SIRT7) orchestrate transcriptional programs controlling metabolism and inflammation.
+            Mitochondrial sirtuins (SIRT3, SIRT4, SIRT5) directly regulate metabolic flux and redox homoeostasis.
+            Cytosolic SIRT2 connects metabolic signalling with cytoskeletal and cell-cycle processes.
+            NAD<sup>+</sup> metabolism dynamically modulates sirtuin activity across compartments.
+          </div>
+          <div class="context">
+            Central to this system, NAD<sup>+</sup> metabolism enables coupling of cellular energy status to coordinated metabolic responses
+            across glucose/lipid metabolism, inflammatory signalling, and mitochondrial function.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">Source: PMC13364290 ↗</a>
+        </div>
+      </div>
+
+      <!-- FIGURE 2: NAD+ metabolism -->
+      <div class="gallery-card" data-cat="network">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/6ad3a64bf5e1/DMRR-42-e70201-g001.jpg"
+               alt="NAD+ metabolism as central regulator of sirtuin activity and cellular energy homoeostasis"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 2 · NAD+ Metabolism</div>
+          <h3>NAD<sup>+</sup> as Central Regulator of Sirtuin Activity</h3>
+          <div class="caption">
+            NAD<sup>+</sup> is produced through de novo (tryptophan → kynurenine), Preiss–Handler (nicotinic acid), and salvage
+            (nicotinamide → NMN via NAMPT) pathways. Beyond its role as a redox cofactor, NAD<sup>+</sup> serves as essential substrate
+            for sirtuins, directly linking its availability to their enzymatic activity across compartments.
+          </div>
+          <div class="context">
+            Changes in NAD<sup>+</sup> levels across cellular compartments dynamically regulate the sirtuin network, influencing
+            mitochondrial function, metabolic pathways, and stress responses. Age-related NAD<sup>+</sup> decline (via CD38 upregulation)
+            compromises sirtuin function.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">Source: PMC13364290 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin disease network (Guardians Fig 2) -->
+      <div class="gallery-card" data-cat="network lifespan">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/a0a932700c27/nihms591997f2.jpg"
+               alt="SIRT1, SIRT3, and SIRT6 attenuate multiple age-associated diseases"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 2 · Disease Network</div>
+          <h3>SIRT1, SIRT3, and SIRT6 Attenuate Age-Associated Diseases</h3>
+          <div class="caption">
+            Schematic overview of how SIRT1, SIRT3, and SIRT6 protect against neurodegeneration, metabolic dysfunction,
+            inflammation, cancer, and cardiovascular disease. Tumor suppressor and oncogenic properties have been reported
+            for each protein. SIRT1 and SIRT6 overexpression extend longevity in mice.
+          </div>
+          <div class="context">
+            This figure from the landmark Giblin et al. (2014) review summarizes the evidence that mammalian sirtuins
+            act as "guardians of healthspan" across the major hallmarks of ageing.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">Source: PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PHARMACOLOGY ==================== -->
+<section id="pharmacology">
+  <div class="wrap">
+    <h2>Pharmacology — Activators &amp; Inhibitors</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Chemical structures of small molecules that modulate sirtuin activity, from natural polyphenols to synthetic STACs and inhibitors.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      From: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">"Sirtuins: Shedding light on structure"</a> &amp;
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a> &amp;
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/" target="_blank">"The Sirtuin System: The Holy Grail of Resveratrol?"</a>
+    </p>
+    <div class="gallery-grid" data-gallery="pharma">
+
+      <!-- Fig 7: Sirtuin Activators (from comprehensive review) -->
+      <div class="gallery-card" data-cat="pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/9acbd5c7872d/13205_2022_3455_Fig7_HTML.jpg"
+               alt="Chemical structures of sirtuin activators: butein, isoliquiritigenin, piceatannol, resveratrol, SRT1720"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 7 · Activators</div>
+          <h3>Sirtuin Activating Compounds (STACs)</h3>
+          <div class="caption">
+            Structures of five sirtuin activators: (a) buteīn, (b) isoliquiritigenin, (c) piceatannol,
+            (d) resveratrol, and (e) SRT1720. The first four are natural polyphenols; SRT1720 is a synthetic STAC
+            with substantially more potent SIRT1 activation.
+          </div>
+          <div class="context">
+            Plant polyphenols activate recombinant SIRT1. Resveratrol replicates calorie restriction effects in lower organisms
+            and improves insulin resistance in HFD mice. Synthetic STACs (imidazo[1,2-b]thiazole core) activate SIRT1 more potently.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Fig 8: Sirtuin Inhibitors (from comprehensive review) -->
+      <div class="gallery-card" data-cat="pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/c2edb84745a6/13205_2022_3455_Fig8_HTML.jpg"
+               alt="Chemical structures of sirtuin inhibitors: Splitomicin, HR73, Sirtinol, AGK2, Cambinol, Salermide, Suramin"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 8 · Inhibitors</div>
+          <h3>Sirtuin Inhibiting Compounds (STICs)</h3>
+          <div class="caption">
+            Structures of seven sirtuin inhibitors: (a) Splitomicin, (b) HR73, (c) Sirtinol, (d) AGK2,
+            (e) Cambinol, (f) Salermide, and (g) Suramin. Most inhibit SIRT1 and/or SIRT2; some also affect SIRT3 and SIRT5.
+          </div>
+          <div class="context">
+            Up-regulated SIRT1 in cancer cell lines makes inhibitors potential therapeutics. Suramin inhibits SIRT1/SIRT2 at nanomolar
+            concentrations. Cambinol is effective against Burkitt lymphoma. Salermide causes p53-independent apoptosis in cancer cells.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">Source: PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- Resveratrol & CAD (Holy Grail) -->
+      <div class="gallery-card" data-cat="pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/978b/3613783/b88edf62a514/nihms428770f1.jpg"
+               alt="Many effects of resveratrol on coronary artery disease risk factors"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 1 · Resveratrol &amp; CAD</div>
+          <h3>Resveratrol's Effects on Coronary Artery Disease Risk</h3>
+          <div class="caption">
+            Comprehensive diagram summarizing the proposed mechanisms by which resveratrol influences factors contributing to
+            coronary artery disease (CAD). Resveratrol modifies a large number of atherogenic pathways including oxidative stress,
+            inflammation, lipid metabolism, endothelial function, and platelet aggregation.
+          </div>
+          <div class="context">
+            The "French Paradox" — reduced CVD in French populations with moderate wine consumption — motivated research into
+            resveratrol as a cardioprotective polyphenol. It is a known SIRT1 activator with anti-proliferative and anti-inflammatory properties.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/" target="_blank">Source: PMC3613783 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CHROMATIN & REPAIR ==================== -->
+<section id="chromatin">
+  <div class="wrap">
+    <h2>Chromatin Biology &amp; DNA Repair</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Sirtuins as epigenetic regulators — deacetylating histones to promote heterochromatin formation, telomere maintenance,
+      and DNA damage repair.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      From: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">"Sirtuins, a promising target in slowing down the ageing process"</a> (2017)
+      &amp; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a> (2013)
+    </p>
+    <div class="gallery-grid" data-gallery="chromatin">
+
+      <!-- Fig 1: SIRT1/SIRT6 & Chromatin Condensation -->
+      <div class="gallery-card" data-cat="chromatin">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/04a6/5514220/05bb658e5ee7/10522_2017_9685_Fig1_HTML.jpg"
+               alt="Role of SIRT1 and SIRT6 in chromatin condensation" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 1 · Chromatin</div>
+          <h3>Role of SIRT1 and SIRT6 in Chromatin Condensation</h3>
+          <div class="caption">
+            Both sirtuins promote heterochromatin formation through three mechanisms: (1) deacetylation of H3K9 enabling
+            its trimethylation and HP1α binding, (2) SIRT1 decreases p300 histone acetyltransferase activity, and
+            (3) SIRT1 activates SUV39H1 methyltransferase by deacetylating K266. Arrows = positive regulation;
+            T-bars = inhibition. Thick arrows indicate changes during ageing.
+          </div>
+          <div class="context">
+            H3K9 deacetylation by SIRT1 and SIRT6 is essential for heterochromatin formation. Loss of this function
+            during ageing contributes to genomic instability, aberrant gene expression, and cellular senescence.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">Source: PMC5514220 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin interactome (Guardians Fig 3) -->
+      <div class="gallery-card" data-cat="chromatin substrates">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/f1e4428d9f7d/nihms591997f3.jpg"
+               alt="Examples of sirtuin protein interacting partners or substrates" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 3 · Interactome</div>
+          <h3>Sirtuin Protein Interacting Partners &amp; Substrates</h3>
+          <div class="caption">
+            Examples of sirtuin interacting partners and substrates relevant to the pathways outlined in the review:
+            metabolism (PGC-1α, FOXO, NF-κB), chromatin biology (H3K9, H3K56, H4K16), DNA repair (Ku70, WRN, CtIP),
+            cell survival (p53, survivin, c-MYC), and mitochondrial function (SOD2, IDH2).
+          </div>
+          <div class="context">
+            The overlapping substrate usage among SIRT1, SIRT3, and SIRT6 — sometimes with opposing functional outcomes —
+            underscores the context-dependent nature of sirtuin biology and the difficulty of pan-sirtuin therapeutic strategies.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">Source: PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== LIFESPAN & HEALTHSPAN ==================== -->
+<section id="lifespan">
+  <div class="wrap">
+    <h2>Lifespan &amp; Healthspan</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Key experimental evidence for sirtuin-mediated lifespan extension in mice — brain-specific SIRT1 and whole-body SIRT6 overexpression.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      From: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">"Sirtuins: Guardians of Mammalian Healthspan"</a> (2014)
+    </p>
+    <div class="gallery-grid" data-gallery="lifespan">
+
+      <!-- Fig 1: SIRT1/SIRT6 lifespan -->
+      <div class="gallery-card" data-cat="lifespan">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/e3806a2c1685/nihms591997f1.jpg"
+               alt="SIRT1 and SIRT6 overexpression extend mouse lifespan" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 1 · Lifespan</div>
+          <h3>SIRT1 &amp; SIRT6 Overexpression Extend Mouse Lifespan</h3>
+          <div class="caption">
+            <b>Panel A:</b> SIRT1 overexpressed in dorsomedial/lateral hypothalamic nuclei (DMH/LH) extends lifespan of both
+            sexes by upregulating the orexin type 2 receptor (OX2R) via deacetylation of NK2 homeobox 1 (NKX2-1).
+            <b>Panel B:</b> Whole-body SIRT6 overexpression extends male lifespan by inhibiting IGF-1/AKT signaling cascade,
+            including downstream pAKT, pFOXO1, pFOXO3, and pS6 kinase.
+          </div>
+          <div class="context">
+            Brain-specific SIRT1 overexpression (BRASTO mice) increases median lifespan ~11% and mimics calorie restriction.
+            SIRT6 overexpression extends male median lifespan by 14.5% and 9.9% in two independent strains — a male-specific
+            effect linked to reduced serum IGF-1 levels.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">Source: PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SUBSTRATES & PARTNERS ==================== -->
+<section id="substrates">
+  <div class="wrap">
+    <h2>Substrates &amp; Chemical Probes</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Chemical structures of sirtuin inhibitors and activators from the cancer drug discovery perspective,
+      covering diverse scaffolds identified through screening, rational design, and natural product analysis.
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      From: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets"</a> (2013)
+    </p>
+    <div class="gallery-grid" data-gallery="substrates">
+
+      <!-- Sirtuin Inhibitors (Rejuvenating) -->
+      <div class="gallery-card" data-cat="substrates pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/56bb/3549556/1e5fbf886c5b/CPD-19-614_F2.jpg"
+               alt="Sirtuin inhibitor chemical structures: nicotinamide, sirtinol, salermide, cambinol, splitomicin, EX-527, suramin, and others"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 2 · Inhibitors</div>
+          <h3>Sirtuin Inhibitor Chemical Space</h3>
+          <div class="caption">
+            Structural diversity of sirtuin inhibitors spanning: nicotinamide (endogenous product inhibitor), sirtinol,
+            salermide, cambinol, splitomicin, kinase inhibitors (Ro31-8220, GW5074), EX-527 (nanomolar-selective SIRT1 inhibitor),
+            suramin (nanomolar dual SIRT1/SIRT2), and NF675 (20-fold SIRT1 selectivity).
+          </div>
+          <div class="context">
+            Inhibitors bind different sirtuin pockets depending on the isoform and scaffold. EX-527 is the most potent and
+            selective SIRT1 inhibitor known. Suramin occupies the nicotinamide ribose pocket (B-pocket), C-pocket, and part
+            of the substrate-binding site (co-crystal with SIRT5).
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">Source: PMC3549556 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin Activators (Rejuvenating) -->
+      <div class="gallery-card" data-cat="substrates pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/56bb/3549556/dfb500a61591/CPD-19-614_F3.jpg"
+               alt="Sirtuin activator chemical structures: resveratrol, piceatannol, butein, quercetin, myricetin, SRT1460, SRT1720, SRT2183"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">Figure 3 · Activators</div>
+          <h3>Sirtuin Activating Compounds (STACs)</h3>
+          <div class="caption">
+            Natural polyphenolic activators (1–5): resveratrol, piceatannol, buteīn, quercetin, and myricetin.
+            Synthetic STACs (6–8): SRT1460, SRT1720, and SRT2183 — chemically diverse and more potent than the natural compounds.
+            Non-polyphenolic allosteric activators have also been reported.
+          </div>
+          <div class="context">
+            <b>Controversy:</b> SIRT1 activation by these compounds was often only demonstrated with fluorescently tagged substrates.
+            Resveratrol's <i>in vivo</i> effects may be indirect via the cAMP–Epac1–AMPK pathway rather than direct SIRT1 binding.
+            The specific amino acid in SIRT1 targeted by STACs has been identified — mutation at this site abolishes STAC response.
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">Source: PMC3549556 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="gallery-lightbox" id="galleryLightbox" onclick="closeLightbox()">
+  <button class="gallery-lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+  <div class="gallery-lightbox-cap" id="lightboxCap"></div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><b>Sources</b></p>
+    <p>
+      1. Kumari et al., <i>Sirtuins: Shedding light on structure, function and regulation of human sirtuins</i> (2023) — PMC9805487<br>
+      2. Srivastava et al., <i>The Sirtuin Network: Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis</i> (2025) — PMC13364290<br>
+      3. Worm &amp; Bhatt, <i>The Sirtuin System: The Holy Grail of Resveratrol?</i> (2012) — PMC3613783<br>
+      4. Grabowska et al., <i>Sirtuins, a promising target in slowing down the ageing process</i> (2017) — PMC5514220<br>
+      5. Rotili &amp; Mai, <i>Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets</i> (2013) — PMC3549556<br>
+      6. Giblin et al., <i>Sirtuins: Guardians of Mammalian Healthspan</i> (2014) — PMC4077918
+    </p>
+    <p style="margin-top:10px; color:var(--mute);">
+      All images are from open-access PMC publications. Gallery generated from wiki notes in
+      <code>src/notes/sirtuins/</code>. Built for the llm-wiki-jk knowledge graph.
+    </p>
+  </div>
+</footer>
+
+<script src="shared/pages-core.js"></script>
+<script>
+/* ===== Gallery lightbox ===== */
+(function(){
+  /* lightbox */
+  window.openLightbox = function(src, alt) {
+    const lb = document.getElementById('galleryLightbox');
+    const img = document.getElementById('lightboxImg');
+    const cap = document.getElementById('lightboxCap');
+    img.src = src;
+    img.alt = alt || '';
+    cap.textContent = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  };
+  window.closeLightbox = function() {
+    const lb = document.getElementById('galleryLightbox');
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+</body>
+</html>
