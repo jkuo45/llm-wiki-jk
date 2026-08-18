@@ -2,7 +2,7 @@
 title: Research Gaps in Sirtuin Biology — Most Recent Documents
 description: Consolidated research gaps and open questions about sirtuins extracted from the most recently updated wiki documents (Aug 2026).
 created: 2026-08-14
-updated: 2026-08-16
+updated: 2026-08-18
 tags:
   - sirtuins
   - research-gaps
@@ -114,3 +114,108 @@ Direct excerpts from sirtuins-topic documents describing specific small-molecule
 - Validated clinical biomarkers/assays (SIRT3/SIRT4 ratio; isoform-selective activity readouts).
 - Isoform-selective modulator chemistry overcoming selectivity/bioavailability/off-target limits.
 - Contradictory SIRT roles in inflammation (esp. SIRT7) and cancer duality resolution.
+
+---
+
+# Paper Recommendations to Fill the Gaps — 18 August 2026
+
+Compiled 18 August 2026 via targeted web search (PubMed/DOI verification) against every gap listed above. Each recommendation maps to at least one open question; papers are tiered by how directly they fill the gap, recency, and value to the vault (entity enrichment + new `_document_` files). All DOIs/PMIDs verified.
+
+## Tier 1 — Direct Experimental / Mechanistic Fills (highest priority)
+
+| # | Gap addressed | Recommended paper | Why it fills the gap |
+|---|---|---|---|
+| 1 | **SIRT3 longevity untested in vivo** | **You Y, Wang Z. "Roles of SIRT3 in aging and aging-related diseases."** *Int J Biol Sci.* 2025;21(11):5135-5163. doi:10.7150/ijbs.115518 | Comprehensive 2025 review consolidating SIRT3–aging/longevity evidence (mitochondrial metabolism, ROS, mitophagy, aging-related diseases). Single best anchor document to enrich [[SIRT3]] with the current state of the field and the precise remaining in vivo questions. |
+| 2 | **SIRT3 longevity untested in vivo** | **Dikalova AE, et al. "Mitochondrial Deacetylase Sirt3 Reduces Vascular Dysfunction and Hypertension While Sirt3 Depletion in Essential Hypertension Is Linked to Vascular Inflammation and Oxidative Stress."** *Circ Res.* 2020;126(4):439-452. doi:10.1161/CIRCRESAHA.119.315767. PMID 31852393 | The **Sirt3OX global overexpression mouse** — the closest existing gain-of-function model — is characterized here (vascular/BP protection, no lifespan data). Documents the model landscape so the "no longevity transgenic" gap is precisely bounded; makes explicit that a **lifespan study in Sirt3OX mice remains the missing experiment**. |
+| 3 | **SIRT4 mechanistic void; "no good inhibitors of SIRT4"** | **Pannek M, et al. "Specific Inhibitors of Mitochondrial Deacylase Sirtuin 4 Endowed with Cellular Activity."** *J Med Chem.* 2024;67(3):1843-1860. doi:10.1021/acs.jmedchem.3c01496 | **First-in-class SIRT4 inhibitors with cellular activity** (compound 69 isoform-selective over SIRT1/2/3/5). Directly attacks the "no good inhibitors of SIRT4" gap and provides chemical probes to dissect SIRT4's elusive mechanism of insulin-secretion/FAO regulation. |
+| 4 | **SIRT5 understudied in cardiac disease** | **Grzeczka A, Graczyk S, Kordowitzki P. "Unveiling the importance of SIRT5 for cardiac health and disease..."** *GeroScience.* 2025;48(2):2101-2121. doi:10.1007/s11357-025-02021-w. PMID 41254262 | Dedicated SIRT5-cardiac review (fibrosis, CAD, hypertension, atherogenesis, aging heart) — directly answers the "SIRT5-specific mechanisms in cardiac fibrosis/CAD need further study" gap with a synthesis document. |
+| 5 | **SIRT5 disease mechanism (cardiac metabolism)** | **Wu M, et al. "Sirt5 improves cardiomyocytes fatty acid metabolism...diabetic cardiomyopathy via CPT2 de-succinylation."** *Redox Biol.* 2024;73:103184. doi:10.1016/j.redox.2024.103184 | Concrete molecular mechanism: SIRT5 desuccinylates [[CPT2]] to rescue FAO in diabetic cardiomyopathy — an experimental fill for SIRT5's metabolic role, not just a review. |
+| 6 | **SIRT5–autophagy gap** | **Li Z, et al. "SIRT5 induces autophagy and alleviates myocardial infarction via desuccinylation of TOM1."** *BMC Cardiovasc Disord.* 2024;24:464. doi:10.1186/s12872-024-04120-6 | First mechanistic SIRT5–autophagy link in the heart (TOM1 desuccinylation) — fills "mechanisms of mtSIRTs (SIRT3–5) on autophagy still unclear" for SIRT5. |
+| 7 | **SIRT6/SIRT7 in mitophagy** | **Lagunas-Rangel FA. "Sirtuins in mitophagy: key gatekeepers of mitochondrial quality."** *Mol Cell Biochem.* 2025;480(12):5877-5896. doi:10.1007/s11010-025-05358-0. PMID 40705152 | Dedicated review on sirtuin–mitophagy interplay (PINK1/PARKIN axis, receptor-mediated mitophagy); fills the mtSIRT/SIRT6/SIRT7 mitophagy mechanism gap flagged on 14 Aug. |
+| 8 | **SIRT7 aging (comprehensive)** | **Raza U, et al. "SIRT7: the seventh key to unlocking the mystery of aging."** *Physiol Rev.* 2024;104(1):253-280. doi:10.1152/physrev.00044.2022 | Landmark comprehensive SIRT7 review (aging, stress, metabolism, cardiac) — anchor document for the under-investigated SIRT7 isoform. |
+| 9 | **SIRT7 aging/inflammation mechanism** | **Tran KA, et al. "SIRT7 regulates NUCKS1 chromatin binding to elicit metabolic and inflammatory gene expression in senescence and liver aging."** *Mol Cell.* 2025;85:2390-2408.e6. doi:10.1016/j.molcel.2025.05.025 | Mechanistic 2025 fill for SIRT7 in senescence/liver aging via [[NUCKS1]] — resolves part of the "SIRT7 aging/inflammation incompletely defined" gap with a defined chromatin mechanism. |
+| 10 | **SIRT7 cardiovascular** | **Zhang J, et al. "Endothelium-specific SIRT7 targeting ameliorates pulmonary hypertension through KLF4 deacetylation."** *Cardiovasc Res.* 2024;120(4):403-416. doi:10.1093/cvr/cvae011 | Tissue-specific (endothelium) SIRT7 mechanism via [[Klf4]] deacetylation — fills SIRT7 cardio gap and exemplifies cell-type-specific regulation. |
+| 11 | **SIRT2 cardiac context-dependence** | **Yang X, et al. "SIRT2 inhibition protects against cardiac hypertrophy and ischemic injury."** *eLife.* 2023;12:e85571. doi:10.7554/eLife.85571 | Direct experimental resolution of SIRT2's opposing cardiac roles (inhibition protective in hypertrophy/ischemia) — key primary data for the context-dependence gap. |
+
+## Tier 2 — Human Translation & NAD+ Compartmentalization
+
+| # | Gap addressed | Recommended paper | Why it fills the gap |
+|---|---|---|---|
+| 12 | **NAD+ compartmentalization** | **Høyland LE, et al. "Subcellular NAD+ pools are interconnected and buffered by mitochondrial NAD+."** *Nat Metab.* 2024. doi:10.1038/s42255-024-01174-w | Primary experimental fill for the "compartmentalized impact of NAD+ metabolism on sirtuin activity not fully understood" gap: subcellular NAD+ pool dynamics and mitochondrial buffering. |
+| 13 | **NAD+ compartmentalization (interpretation)** | **Fitzpatrick FM, Kory N. "Guardians of the cell: mitochondria as a rheostat for cellular NAD+ levels."** *Nat Metab.* 2024;6:2215-2217. doi:10.1038/s42255-024-01160-2 | Concise expert commentary framing the mitochondrial-NAD+ rheostat concept — pairs with #12 as an accessible companion note. |
+| 14 | **Human NAD+ precursor translation** | **Christen S, et al. "The differential impact of three different NAD+ boosters on circulatory NAD and microbial metabolism in humans."** *Nat Metab.* 2026. doi:10.1038/s42255-025-01421-8. PMID 41540253 | Head-to-head human RCT of three NAD+ boosters (NR/NMN/NAM) — the most current clinical translation evidence for NAD+ precursor supplementation. |
+| 15 | **Human NAD+ precursor translation (PAD)** | **McDermott MM, et al. "Nicotinamide riboside for peripheral artery disease: the NICE randomized clinical trial."** *Nat Commun.* 2024;15:5046. doi:10.1038/s41467-024-49092-5 | Pivotal negative/null trial (NR in PAD) — essential for a balanced view of human precursor translation and for the "SRT2104/peripheral arterial disease" thread in the vault. |
+| 16 | **Human NAD+ precursor translation (cognition)** | **Orr ME, et al. "A randomized placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment."** *Geroscience.* 2024;46(1):665-682. doi:10.1007/s11357-023-00999-9 | Human NR trial in MCI — fills the neurocognitive translation dimension. |
+| 17 | **Human NAD+ precursor translation (review)** | **Tzoulis C, et al. "NAD+ precursor supplementation in human ageing: clinical evidence and challenges."** *Nat Metab.* 2025. doi:10.1038/s42255-025-01387-7 | Authoritative synthesis of clinical evidence/challenges — anchor for the human translation gap. |
+| 18 | **SIRT3 human longevity SNPs** | **Albani D, et al. "Modulation of human longevity by SIRT3 SNPs...TRELONG."** *Age (Dordr).* 2014. PMID 23839864 | Key human cohort study (TRELONG) linking SIRT3 locus variants to longevity — the primary evidence behind the "inconsistent SNP associations" gap; useful for a nuanced reading of the inconsistency. |
+| 19 | **Mitochondrial sirtuins & aging review (bridge)** | **Cao Y, et al. "Unraveling the roles of mitochondrial sirtuins in aging-related diseases..."** *Metabolism.* 2025;172:156356. doi:10.1016/j.metabol.2025.156356 | 2025 synthesis tying SIRT3/4/5 to aging-related disease — bridges Tier 1 isoform papers and the human translation gap. |
+
+## Tier 3 — Isoform-Selective Modulators & Cancer Duality
+
+| # | Gap addressed | Recommended paper | Why it fills the gap |
+|---|---|---|---|
+| 20 | **Isoform-selective modulators** | **"Current Trends in Sirtuin Activator and Inhibitor Development."** *Molecules.* 2024;29(5):1185. doi:10.3390/molecules29051185 | 2024 state-of-the-art on isoform-selective sirtuin modulators — update to the 2022-07-09 "no good inhibitors of SIRT3–7" statement. |
+| 21 | **STAC mechanism controversy + bench-to-bedside** | **Fiorentino F, et al. "Activation and inhibition of sirtuins: From bench to bedside."** *Med Res Rev.* 2025. doi:10.1002/med.22076 | 2025 review addressing the STAC direct-vs-indirect mechanism controversy and clinical translation — directly relevant to the top gap. |
+| 22 | **SIRT5-targeting natural products** | **"SIRT5: a potential target for discovering bioactive natural products."** *J Nat Med.* 2025. doi:10.1007/s11418-024-01871-6 | Fills the SIRT5-modulator sub-gap (natural-product chemistry, desuccinylase selectivity). |
+| 23 | **Isoform-specific cardiovascular modulators** | **"Roles of Sirtuins in Cardiovascular Diseases: Mechanisms and Therapeutics."** *Circ Res.* 2025. doi:10.1161/CIRCRESAHA.124.325440 | 2025 cardiovascular synthesis covering under-investigated isoforms (SIRT2/4/5/7) and therapeutic modulation — fills the CVD isoform gap. |
+| 24 | **Cancer duality (context-dependence)** | **Aly A, et al. "Decoding context-dependent sirtuin pharmacology in cancer: Metabolic-epigenetic switches and precision therapeutic targeting."** *Crit Rev Oncol Hematol.* 2026;226:105513. doi:10.1016/j.critrevonc.2026.105513 | Directly targets "mechanisms/conditions enabling opposing tumor-suppressor vs tumor-promoter roles" — the 2026 framing of the cancer duality challenge. |
+| 25 | **Cancer duality (SIRT7-specific)** | **Ianni A, et al. "SIRT7: a novel molecular target for personalized cancer treatment?"** *Oncogene.* 2024;43:1007-1024. doi:10.1038/s41388-024-02976-8 | SIRT7's dual cancer roles + personalized targeting strategy. |
+| 26 | **Cancer duality (whole family)** | **Lu Y, et al. "The dual role of sirtuins in cancer: biological functions and implications."** *Front Oncol.* 2024;14:1384928. doi:10.3389/fonc.2024.1384928 | Whole-family dual-role synthesis — anchor for the cancer duality gap. |
+| 27 | **Cancer duality (mitochondrial sirtuins)** | **Shen H, et al. "Mitochondrial Sirtuins in Cancer..."** *Theranostics.* 2024;14(7):2993-3013. doi:10.7150/thno.97320 | SIRT3/4/5 in tumor metabolism — fills the mitochondrial-sirtuin cancer dimension. |
+
+## Coverage Summary Table
+
+| Gap (14 Aug list) | Status after these recommendations |
+|---|---|
+| STAC mechanism controversy | Partially filled (Fiorentino 2025, Molecules 2024 — review-level synthesis; no new mechanistic primary data found) |
+| SIRT3 longevity in vivo | Partially filled (You & Wang 2025 review + Dikalova 2020 Sirt3OX model; **a Sirt3OX lifespan study is still missing from the literature**) |
+| SIRT4 mechanistic void | Partially filled (Pannek 2024 chemical probes; in vivo mechanistic studies still absent) |
+| SIRT5 disease roles | **Filled** (Grzeczka 2025 review; Wu 2024 CPT2; Li 2024 TOM1) |
+| SIRT6/SIRT7 autophagy/mitophagy | **Filled** (Lagunas-Rangel 2025 mitophagy review; Raza 2024 SIRT7 review) |
+| SIRT7 aging/inflammation | **Filled** (Tran 2025 NUCKS1 mechanism) |
+| SIRT2 cardiac context-dependence | **Filled** (Yang 2023 eLife) |
+| NAD+ compartmentalization | **Filled** (Høyland 2024 + Fitzpatrick & Kory 2024) |
+| Human NAD+ precursor translation | **Filled** (Christen 2026 RCT; McDermott 2024 NICE; Orr 2024 MCI; Tzoulis 2025 review) |
+| SIRT3 human longevity SNP inconsistency | Partially filled (Albani 2014 primary cohort; Cao 2025 review) |
+| Isoform-selective modulators | **Filled at review level** (Molecules 2024; Fiorentino 2025; J Nat Med 2025; Circ Res 2025) |
+| Cancer duality | **Filled** (Aly 2026; Ianni 2024; Lu 2024; Shen 2024) |
+| SIRT3/SIRT4 ratio clinical biomarker | **Unfilled** — no validated assay or dedicated clinical paper located; remains an open need |
+
+## Already Queued in `raw/` (relevant to these gaps — no new action needed)
+
+- `_document_ - SIRT3 activator Honokiol attenuates β-Amyloid by modulating amyloidogenic pathway.md` — Honokiol as SIRT3 activator in Alzheimer's disease (PLoS One 2018;13(1):e0190350) — feeds the SIRT3-pharmacology and neuro gaps.
+- `_document_ - sirtuin_activators_13543770902762893.md` — Alcaín & Villalba, *Expert Opin Ther Patents* 2009 sirtuin-activator patent review — historical STAC context for the mechanism controversy.
+- `_document_ - Structural Basis of Inhibition of the Human NAD+-Dependent Deacetylase SIRT5 by Suramin.md` — SIRT5–suramin structural pharmacology, relevant to the SIRT5 modulator gap.
+
+## Gaps Still Unfilled (flag for future searches)
+
+- **SIRT3 lifespan study in Sirt3OX (or equivalent) transgenic mice** — not found as of 18 Aug 2026.
+- **SIRT4 in vivo mechanistic studies** (knockout/knockin physiology beyond insulin secretion).
+- **SIRT7 autophagy-specific molecular mechanism** (the NUCKS1/chromatin axis is defined; autophagy link still thin).
+- **Validated clinical assay for the SIRT3/SIRT4 ratio** — no paper located; surrogate-marker standardization still open.
+- **Direct, on-target proof of STAC pharmacology in vivo** (fluorophore-artifact-free) — reviews exist; definitive experiment not located.
+
+## Suggested New Entity Notes (Step 3 of ingestion workflow)
+
+Create (no existing note; verified 18 Aug 2026):
+
+- **[[PARKIN]]** — central to sirtuin–mitophagy papers (PINK1/PARKIN axis in Lagunas-Rangel 2025); currently only text-mentions in `senescence/`, `autophagy/`, `adrenochrome/` documents.
+- **[[CPT2]]** — SIRT5 desuccinylation target in diabetic cardiomyopathy (Wu 2024).
+- **[[TOM1]]** — SIRT5 desuccinylation target driving autophagy in MI (Li 2024).
+- **[[NUCKS1]]** — SIRT7 chromatin-binding target in senescence/liver aging (Tran 2025).
+
+Do **not** create (already covered):
+
+- [[Klf4]] — exists as `src/notes/epigenetics/Klf4.md`; link `[[Klf4]]` (Zhang 2024 and SIRT6/NSCLC context).
+- [[NFE2L2]] — covered as an alias of `src/notes/_link/NRF2.md`.
+- [[NRF2]], [[TFEB]], [[OPA1]], [[Quercetin]], [[PARK7]] — existing entities already linked from sirtuin notes.
+
+## Existing Entity Notes to Enrich (Step 2 of ingestion workflow)
+
+- **[[SIRT3]]** — add You & Wang 2025, Dikalova 2020, Albani 2014, Cao 2025; update `updated:` date.
+- **[[SIRT4]]** — add Pannek 2024 (first-in-class inhibitors, compound 69).
+- **[[SIRT5]]** — add Grzeczka 2025, Wu 2024 (CPT2), Li 2024 (TOM1), J Nat Med 2025.
+- **[[SIRT6]]** — add Lagunas-Rangel 2025 (mitophagy).
+- **[[SIRT7]]** — add Raza 2024, Tran 2025 (NUCKS1), Zhang 2024 (KLF4).
+- **[[SIRT2]]** — add Yang 2023 (cardiac hypertrophy/ischemia).
+- **[[NAD+]] / NAD+ precursor notes** — add Høyland 2024, Fitzpatrick & Kory 2024, Christen 2026, McDermott 2024, Orr 2024, Tzoulis 2025.
