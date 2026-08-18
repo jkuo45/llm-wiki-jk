@@ -26,15 +26,23 @@ export const getDefaultArticle = () => ACTIVE_ARTICLES.find((a) => a.default) ||
 const groupKey = new Map();
 ACTIVE_ARTICLES.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
 
-function stripSuffix(title) {
-  return title.replace(/\s*（繁體中文）\s*$/, '');
+// Display order is derived here (not baked into articles.json): newest group
+// first. Each group is a single dropdown option, so en/zh pairs always stay
+// together regardless of per-article `created` differences. Swap `created`
+// for `updated` below if you'd rather sort by last-modified.
+function groupCreated(group) {
+  return ACTIVE_ARTICLES
+    .filter((a) => a.group === group)
+    .reduce((max, a) => (a.created > max ? a.created : max), '');
 }
+const sortedGroups = Array.from(groupKey.keys())
+  .sort((a, b) => groupCreated(b).localeCompare(groupCreated(a)));
 
 function groupTitle(group) {
   const en = ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === 'en-US');
   const zh = ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === 'zh-TW');
   const base = en || zh || groupKey.get(group) || ACTIVE_ARTICLES[0];
-  if (zh) return `${base.title} · ${stripSuffix(zh.title)}`;
+  if (zh) return `${base.title} · ${zh.title}`;
   return base.title;
 }
 
@@ -83,7 +91,7 @@ function loadArticle(article, section) {
 }
 
 function buildOptions() {
-  select.innerHTML = Array.from(groupKey.keys())
+  select.innerHTML = sortedGroups
     .map((g) => `<option value="${g}">${groupTitle(g)}</option>`)
     .join('');
 }
