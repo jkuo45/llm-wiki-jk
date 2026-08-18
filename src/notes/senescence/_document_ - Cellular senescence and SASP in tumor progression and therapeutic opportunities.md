@@ -105,7 +105,7 @@ Lehmann et al. were among the first to report an increase in senescence-associat
 
 ## CS and SASP on the Tumor Microenvironment
 
-The impact of SASP on the [[Tumor Microenvironment]] varies significantly depending on the type of cells undergoing senescence and the specific triggers of senescence. For example, SASP can promote the neuroendocrine transdifferentiation of breast cancer cells through the [[NF-kappaB]] pathway. In melanoma, treatment with SASP-associated cytokines supports the immune system's self-sustained surveillance of senescent cells. Furthermore, senescent cells can enhance melanoma metastasis by increasing the production of soluble [[E-cadherin]].
+The impact of SASP on the [[Tumor Microenvironment]] varies significantly depending on the type of cells undergoing senescence and the specific triggers of senescence. For example, SASP can promote the neuroendocrine transdifferentiation of breast cancer cells through the [[NF-κB]] pathway. In melanoma, treatment with SASP-associated cytokines supports the immune system's self-sustained surveillance of senescent cells. Furthermore, senescent cells can enhance melanoma metastasis by increasing the production of soluble [[E-cadherin]].
 
 In HCC, hepatic SASP facilitates HCC progression by polarizing macrophages, a process closely linked to Bcl3 expression in hepatocytes. SASP components such as Coactosin-like protein 1, Alpha-enolase, and Peroxiredoxin 2 contribute to the proliferation and behavioral changes of HCC cells. Additionally, acute SASP derived from mesenchymal stromal cells induce senescence in immortal prostate cells, but not in prostate cancer cells, suggesting that SASPs from acutely senescent cells may be more effective at preventing cancer initiation within the TME rather than eradicating established cancer cells.
 
@@ -266,7 +266,7 @@ A better understanding of the mechanisms underlying CS and SASP could lead to mo
 - [[IL-8]] — SASP factor promoting tumor migration and invasion
 - [[CXCR2]] — Chemokine receptor reinforcing senescence and attracting TAMs
 - [[CCL2]] — SASP chemokine promoting tumor migration
-- [[NF-kappaB]] — Transcription factor driving SASP expression
+- [[NF-κB]] — Transcription factor driving SASP expression
 - [[STAT3]] — Signaling molecule mediating SASP effects on tumor cells
 - [[CD73]] — Ecto-5'-nucleotidase upregulated by SASP; metabolic immune checkpoint
 - [[PD-L1]] — Immune checkpoint upregulated by adenosine in TME

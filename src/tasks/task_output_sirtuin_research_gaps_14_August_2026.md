@@ -199,7 +199,7 @@ Compiled 18 August 2026 via targeted web search (PubMed/DOI verification) agains
 
 Create (no existing note; verified 18 Aug 2026):
 
-- **[[PARKIN]]** — central to sirtuin–mitophagy papers (PINK1/PARKIN axis in Lagunas-Rangel 2025); currently only text-mentions in `senescence/`, `autophagy/`, `adrenochrome/` documents.
+- **[[Parkin]]** — central to sirtuin–mitophagy papers (PINK1/PARKIN axis in Lagunas-Rangel 2025); currently only text-mentions in `senescence/`, `autophagy/`, `adrenochrome/` documents.
 - **[[CPT2]]** — SIRT5 desuccinylation target in diabetic cardiomyopathy (Wu 2024).
 - **[[TOM1]]** — SIRT5 desuccinylation target driving autophagy in MI (Li 2024).
 - **[[NUCKS1]]** — SIRT7 chromatin-binding target in senescence/liver aging (Tran 2025).

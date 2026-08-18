@@ -20,7 +20,7 @@ A **senolytic** is a compound or intervention that selectively kills [[Senescenc
 
 ## Mechanism of Action
 
-[[Senescent Cells|Senescent cells]] upregulate SCAPs (e.g., [[Bcl-2|BCL-2 family]] members, [[PI3K]]/[[Akt]], [[p21]], [[HSP90|HSP90]]) that defend them against their own pro-apoptotic [[SASP|Senescence-Associated Secretory Phenotype]]. Senolytics disable these pathways, triggering selective apoptosis.
+[[Senescent Cells|Senescent cells]] upregulate SCAPs (e.g., [[Bcl-2|BCL-2 family]] members, [[PI3K]]/[[Akt]], [[p21]], [[Hsp90|HSP90]]) that defend them against their own pro-apoptotic [[SASP|Senescence-Associated Secretory Phenotype]]. Senolytics disable these pathways, triggering selective apoptosis.
 
 > [!info] Hit-and-run kinetics
 > Senolytics need not be present continuously. A short pulse can clear senescent cells whose removal persists for weeks, because new senescent cells form slowly — enabling intermittent ("quarterly or annual") dosing that minimizes side effects.
@@ -55,6 +55,6 @@ Senolytics alleviate frailty, [[Osteoporosis]], [[Cardiovascular Disease|cardiov
 
 ## Linking Summary
 
-  - New links added: [[Senolytic]], [[Senescence]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Fisetin]], [[Quercetin]], [[Dasatinib]], [[Navitoclax]], [[Bcl-xL]], [[Bcl-2]], [[PI3K]], [[Akt]], [[p21]], [[HSP90]], [[Luteolin]], [[Curcumin]], [[Myricetin]], [[Apigenin]], [[Flavonol]], [[Healthspan]], [[Lifespan]], [[Osteoporosis]], [[Cardiovascular Disease]], [[Osteoarthritis]], [[Inflammation]], [[Senomorphic]]
+  - New links added: [[Senolytic]], [[Senescence]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Fisetin]], [[Quercetin]], [[Dasatinib]], [[Navitoclax]], [[Bcl-xL]], [[Bcl-2]], [[PI3K]], [[Akt]], [[p21]], [[Hsp90]], [[Luteolin]], [[Curcumin]], [[Myricetin]], [[Apigenin]], [[Flavonol]], [[Healthspan]], [[Lifespan]], [[Osteoporosis]], [[Cardiovascular Disease]], [[Osteoarthritis]], [[Inflammation]], [[Senomorphic]]
   - Suggested new entity notes to create: [[Senomorphic]], [[Navitoclax]]
   - Strong connections to strengthen: [[Senolytic]] ↔ [[Senescence]], [[Senolytic]] ↔ [[Fisetin]], [[Senolytic]] ↔ [[Senomorphic]]

@@ -47,7 +47,7 @@ Normal IMR90 Cherry cells also underwent arrest when co-cultured with IMR90 MEK:
 ### Paracrine senescence is a stable arrest mediated by secreted factors
 
 > [!info] Stable Arrest
-> Normal cells arrested with a slight delay compared with cells undergoing OIS in co-cultures, consistent with a paracrine response. SASP components ([[CXCL1]], [[IL-8]], [[CCL20]], [[activin A]] or [[VEGFc]]) were induced as early as 2–3 days after [[RAS]] activation.
+> Normal cells arrested with a slight delay compared with cells undergoing OIS in co-cultures, consistent with a paracrine response. SASP components ([[CXCL1]], [[IL-8]], [[CCL20]], [[Activin A]] or [[VEGFc]]) were induced as early as 2–3 days after [[RAS]] activation.
 
 Using Transwell inserts that ensure physical separation of the cells, IMR90 cells at the bottom exhibited a senescent morphology and became arrested when co-cultured in the presence of senescent cells in the top chamber. After 7 days of Transwell co-culture, normal IMR90 cells were split and cultured alone for 14 additional days — cells that had undergone paracrine senescence continued exhibiting features of senescence, demonstrating that the **transmitted phenotype is stable**.
 

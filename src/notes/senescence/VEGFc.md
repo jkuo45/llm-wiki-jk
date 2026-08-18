@@ -34,7 +34,7 @@ aliases:
 ## Role in Senescence / SASP
 
 > [!info] Source: Acosta et al., 2013 (PMID 23636316)
-> Quantitative SILAC proteomics of the OIS secretome identified VEGF family ligands as top SASP hits. VEGF-C (notated VEGFc) was induced as early as 2–3 days after [[RAS]] activation, together with [[CXCL1]], [[IL-8]], [[CCL20]], and [[activin A]]. Among the SASP mediators of paracrine senescence, [[VEGF]] family factors (alongside [[TGFβ]] family ligands, [[CCL2]], and CCL20) were validated by receptor-inhibition: a [[VEGFR2]]/FLT3 inhibitor suppressed paracrine senescence in vitro and, combined with IL-1R, CCR2, and TGFBR1 inhibitors, reduced senescent hepatocyte burden *in vivo* in an Nras[G12V] liver model.
+> Quantitative SILAC proteomics of the OIS secretome identified VEGF family ligands as top SASP hits. VEGF-C (notated VEGFc) was induced as early as 2–3 days after [[RAS]] activation, together with [[CXCL1]], [[IL-8]], [[CCL20]], and [[Activin A]]. Among the SASP mediators of paracrine senescence, [[VEGF]] family factors (alongside [[TGFβ]] family ligands, [[CCL2]], and CCL20) were validated by receptor-inhibition: a [[VEGFR2]]/FLT3 inhibitor suppressed paracrine senescence in vitro and, combined with IL-1R, CCR2, and TGFBR1 inhibitors, reduced senescent hepatocyte burden *in vivo* in an Nras[G12V] liver model.
 
 - VEGF-C is a secreted SASP growth factor that, like [[VEGF]]-A, contributes to the pro-angiogenic and paracrine signaling milieu of senescent cells.
 - It supports the SASP's dual character: reinforcing the tumour-suppressive senescence arrest microenvironment while simultaneously promoting angiogenesis that can aid tumour growth and immune evasion in the [[Tumor Microenvironment]].
@@ -66,7 +66,7 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[VEGF]], [[VEGFR2]], [[VEGFR3|VEGFR-3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]], [[Oncogene-Induced Senescence|OIS]], [[RAS]], [[RAF]], [[MEK]], [[IL-1α]], [[NF-κB|NF-κB]], [[Angiogenesis]], [[Lymphangiogenesis]], [[Tumor Microenvironment]], [[Senescent Cells]], [[CXCL1]], [[IL-8]], [[CCL20]], [[activin A]]
+- New links added: [[VEGF]], [[VEGFR2]], [[VEGFR3|VEGFR-3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]], [[Oncogene-Induced Senescence|OIS]], [[RAS]], [[RAF]], [[MEK]], [[IL-1α]], [[NF-κB|NF-κB]], [[Angiogenesis]], [[Lymphangiogenesis]], [[Tumor Microenvironment]], [[Senescent Cells]], [[CXCL1]], [[IL-8]], [[CCL20]], [[Activin A]]
 - Suggested new entity notes to create: [[VEGFR3|VEGFR-3]], [[Lymphangiogenesis]]
 - Strong connections to strengthen:
     - [[VEGFc]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
