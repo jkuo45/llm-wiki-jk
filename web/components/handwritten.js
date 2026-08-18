@@ -20,7 +20,6 @@ const $ = (id) => document.getElementById(id);
 const notesPanel = $('notes-panel');
 const notesBox = $('notes-box');
 const notesBtn = $('btn-notes');
-const notesRefresh = $('notes-refresh');
 const notesClose = $('notes-close');
 const modeSwitch = $('notes-mode-switch');
 const browseEl = $('notes-browse');
@@ -31,7 +30,6 @@ const topicFilter = $('notes-topic-filter');
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
 const countEl = $('notes-count');
-const uploadFast = $('notes-upload-fast');
 
 const drop = $('notes-drop');
 const fileInput = $('notes-file');
@@ -196,7 +194,6 @@ modeSwitch.addEventListener('click', (e) => {
   const tab = e.target.closest('.chat-mode-tab');
   if (tab) { setView(tab.dataset.view); syncNotesHash(); }
 });
-uploadFast.addEventListener('click', () => setView('upload'));
 
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
@@ -223,8 +220,11 @@ async function loadIndex() {
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
     populatePickers();
-    renderGallery();
+    // Mark the index as loaded BEFORE rendering so the post-fetch gallery
+    // render actually draws the cards (previously it bailed early, showing
+    // the placeholder until a later filter re-render).
     loaded = true;
+    renderGallery();
   } catch (err) {
     apiDown = true;
     apiError = (err && err.message) || 'Unknown error';
@@ -388,11 +388,6 @@ topicFilter.addEventListener('change', () => {
   filterTopic = topicFilter.value;
   renderGallery();
 });
-notesRefresh.addEventListener('click', () => {
-  loaded = false;
-  renderGallery();
-  loadIndex();
-});
 
 // ------------------------------------------------------------
 // Lightbox
@@ -449,8 +444,10 @@ function renderLightbox() {
   lbDoc.disabled = !n.document;
   const ocrText = (n.ocr || '').trim();
   const ocrBroken = looksLikeOcrFailure(ocrText);
-  lbTranscribe.disabled = !!ocrText && !ocrBroken;
-  lbTranscribe.textContent = ocrBroken ? 'Transcribe' : (ocrText ? 'Transcribed' : 'Transcribe');
+  // OCR is temporarily disabled until the wiki-util model is vision-capable.
+  lbTranscribe.disabled = true;
+  lbTranscribe.title = 'OCR temporarily unavailable';
+  lbTranscribe.textContent = 'Transcribe';
   renderPagesStrip();
   setPage(currentPage);
   renderOcr();
@@ -734,6 +731,8 @@ annClear.addEventListener('click', () => {
 // OCR transcript
 // ------------------------------------------------------------
 async function runTranscribe() {
+  // OCR is temporarily disabled — the button stays inert.
+  if (lbTranscribe.disabled) return;
   if (!currentNote || (currentNote.ocr || '').trim()) return;
   lbTranscribe.disabled = true;
   lbTranscribe.textContent = 'Transcribing…';
@@ -763,8 +762,8 @@ async function runTranscribe() {
   } catch (err) {
     lbOcr.textContent = `Transcription failed: ${err.message}`;
   } finally {
-    lbTranscribe.disabled = !!(currentNote.ocr || '').trim();
-    lbTranscribe.textContent = (currentNote.ocr || '').trim() ? 'Transcribed' : 'Transcribe';
+    lbTranscribe.disabled = true; // OCR temporarily disabled
+    lbTranscribe.textContent = 'Transcribe';
     lbOcr.classList.remove('loading');
   }
 }

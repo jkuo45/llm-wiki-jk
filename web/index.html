@@ -160,14 +160,13 @@
   <div id="notes-box">
     <div id="notes-header">
       <div class="chat-header-left">
-        <span class="chat-title">Handwritten Notes <span class="chat-title-zh">手寫筆記</span></span>
-        <div id="notes-mode-switch" role="tablist" aria-label="Notes view">
-          <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true">Browse<span class="mode-dot" aria-hidden="true"></span></button>
-          <button type="button" class="chat-mode-tab" data-view="upload" role="tab" aria-selected="false">Upload<span class="mode-dot" aria-hidden="true"></span></button>
-        </div>
+        <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
+      </div>
+      <div id="notes-mode-switch" role="tablist" aria-label="Notes view">
+        <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true">Browse<span class="mode-dot" aria-hidden="true"></span></button>
+        <button type="button" class="chat-mode-tab" data-view="upload" role="tab" aria-selected="false">Upload<span class="mode-dot" aria-hidden="true"></span></button>
       </div>
       <div class="chat-header-actions">
-        <button id="notes-refresh" title="Refresh gallery / 重新整理">Refresh</button>
         <button id="notes-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
       </div>
     </div>
@@ -176,7 +175,6 @@
       <div id="notes-filters">
         <input id="notes-search" type="text" placeholder="Search notes, OCR, entities, tags / 搜尋筆記..." autocomplete="off">
         <select id="notes-topic-filter" title="Filter by topic / 主題篩選"><option value="">All topics / 全部主題</option></select>
-        <button id="notes-upload-fast" type="button" title="Jump to upload / 上傳">Upload</button>
         <span id="notes-count" class="notes-count"></span>
       </div>
       <div id="notes-gallery"></div>
@@ -232,7 +230,6 @@
         <button id="notes-lb-back" title="Back to gallery / 返回圖庫">&larr; Gallery</button>
         <div class="notes-lb-title" id="notes-lb-title"></div>
         <div class="notes-lb-actions">
-          <button id="notes-lb-view" type="button" title="Fullscreen view of the note / 全螢幕檢視">⛶ View</button>
           <button id="notes-lb-edit" title="Edit metadata / 編輯資料">Edit</button>
           <button id="notes-lb-graph" title="Focus entities on the graph / 圖中聚焦實體">Graph</button>
           <button id="notes-lb-doc" title="Open linked document / 開啟來源論文">Document</button>
@@ -250,6 +247,7 @@
               <button id="notes-lb-zoomin" title="Zoom in">+</button>
               <button id="notes-lb-zoomout" title="Zoom out">&minus;</button>
               <button id="notes-lb-fit" title="Fit / 重設">Fit</button>
+              <button id="notes-lb-view" type="button" title="Fullscreen view of the note / 全螢幕檢視">⛶ View</button>
             </div>
           </div>
           <div class="notes-lb-nav"><button id="notes-lb-next" title="Next page / 下一頁" disabled>&rarr;</button></div>
@@ -258,7 +256,7 @@
         <div class="notes-lb-side">
           <div class="at-h">
             <span>OCR transcript</span>
-            <button id="notes-lb-transcribe" type="button" title="Transcribe handwriting via OCR">Transcribe</button>
+            <button id="notes-lb-transcribe" type="button" title="Transcribe handwriting via OCR" disabled>Transcribe</button>
           </div>
           <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
           <div class="at-h">Entities</div>

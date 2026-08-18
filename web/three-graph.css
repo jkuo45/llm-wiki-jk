@@ -887,8 +887,11 @@ a.data-source:hover { border-color: #6b9bc7; }
   padding: 14px 16px; border-bottom: 1px solid #2a2a4e;
   background: #16162b; flex-shrink: 0; gap: 10px;
 }
-#notes-header .chat-header-left { gap: 12px; flex: 1 1 auto; min-width: 0; }
-#notes-mode-switch { display: inline-flex; border: 1px solid #3a3a5e; border-radius: 12px; overflow: hidden; }
+/* Browse/Upload tabs sit centered between the title and Close: neutralise the
+   shared .chat-header-actions auto-margin so space-between balances the gaps. */
+#notes-header .chat-header-actions { margin-left: 0; }
+#notes-header .chat-header-left { gap: 12px; flex: 0 1 auto; min-width: 0; }
+#notes-mode-switch { display: inline-flex; flex: none; border: 1px solid #3a3a5e; border-radius: 12px; overflow: hidden; }
 #notes-mode-switch .chat-mode-tab {
   background: none; border: none; color: #888; font-size: 12px; padding: 4px 12px;
   cursor: pointer; font-family: inherit; transition: all 0.15s;
@@ -898,12 +901,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 
 /* Header action buttons — mirror the analysis panel's Reset/× styling */
 #notes-header .chat-header-actions button { font-family: inherit; }
-#notes-header button#notes-refresh {
-  background: none; border: 1px solid #3a3a5e; color: #888;
-  padding: 4px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
-  transition: all 0.15s;
-}
-#notes-header button#notes-refresh:hover { border-color: #4E79A7; color: #e0e0e0; }
 #notes-header button#notes-close {
   background: none; border: none; color: #888;
   font-size: 20px; line-height: 1; padding: 2px 6px; border-radius: 4px;
@@ -926,11 +923,6 @@ a.data-source:hover { border-color: #6b9bc7; }
   background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
   padding: 7px 10px; font-size: 12px; font-family: inherit; max-width: 220px;
 }
-#notes-filters button {
-  background: none; border: 1px solid #3a3a5e; color: #888; border-radius: 6px;
-  font-size: 12px; padding: 6px 12px; cursor: pointer; font-family: inherit;
-}
-#notes-filters button:hover { border-color: #4E79A7; color: #e0e0e0; }
 .notes-count { color: #777; font-size: 12px; margin-left: 2px; white-space: nowrap; }
 
 /* Gallery */
@@ -1133,18 +1125,14 @@ a.data-source:hover { border-color: #6b9bc7; }
   #notes-panel::before { display: none; }
   #notes-box { border-radius: 0; border: none; }
   #notes-header {
-    padding: 10px 12px calc(10px + env(safe-area-inset-top));
-    flex-wrap: wrap;
-    /* Align the actions (Refresh/×) with the title row; the mode tabs drop
-       below instead of crowding the top bar. */
-    align-items: flex-start;
-    row-gap: 8px;
+    padding: 8px 12px calc(8px + env(safe-area-inset-top));
+    flex-wrap: nowrap;
+    gap: 8px;
   }
-  #notes-header .chat-header-left { flex-wrap: wrap; row-gap: 6px; }
-  /* Browse/Upload tabs: own full-width row on phones, half-split and padded
-     for comfortable touch targets. */
-  #notes-mode-switch { flex-basis: 100%; }
-  #notes-mode-switch .chat-mode-tab { flex: 1 1 0; padding: 8px 12px; }
+  /* Single row like the analysis panel: Handwritten Notes + Browse/Upload +
+     Close. Shrink the title and tabs slightly so all three fit on phones. */
+  #notes-header .chat-title { font-size: 13px; }
+  #notes-mode-switch .chat-mode-tab { padding: 4px 8px; font-size: 11px; }
   #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
   #notes-gallery { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; padding: 12px; }
 }
