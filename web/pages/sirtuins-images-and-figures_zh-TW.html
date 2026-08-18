@@ -31,7 +31,7 @@
     .gallery-card:hover { border-color: var(--teal); }
     .gallery-card .img-wrap {
       position: relative;
-      background: #111122;
+      background: var(--img-plate-bg);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -116,6 +116,49 @@
     @media (max-width:720px) {
       .gallery-grid { grid-template-columns: 1fr; }
       h1 { font-size: 1.7rem; }
+
+      /* ===== 行動版：將文獻表格堆疊為卡片 ===== */
+      .tbl-wrap {
+        max-height: none;
+        overflow: visible;
+        border: none;
+        background: transparent;
+      }
+      .tbl-wrap table { min-width: 0; }
+      .tbl-wrap thead { display: none; }
+      .tbl-wrap tbody { display: block; }
+      .tbl-wrap tr {
+        display: block;
+        width: 100%;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin-bottom: 14px;
+      }
+      .tbl-wrap td {
+        display: block;
+        width: 100%;
+        position: static;          /* 取消第一欄 sticky */
+        background: transparent;   /* 取消 sticky 儲存格底色 */
+        border-bottom: 1px solid var(--line);
+        padding: 4px 0 12px;
+      }
+      .tbl-wrap td:last-child { border-bottom: none; padding-bottom: 0; }
+      .tbl-wrap td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: .68rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: var(--teal);
+        margin-bottom: 3px;
+      }
+      .tbl-wrap td:nth-child(1)::before { content: "文獻"; }
+      .tbl-wrap td:nth-child(2)::before { content: "引用"; }
+      .tbl-wrap td:nth-child(3)::before { content: "圖表"; }
+      .tbl-wrap td:nth-child(4)::before { content: "來源"; }
     }
   </style>
 </head>
