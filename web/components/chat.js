@@ -494,6 +494,19 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
+// Enter in Graph mode runs the Set A/B comparison (equivalent to the
+// &#9166; A and B button). Ignore keystrokes aimed at text fields or buttons,
+// which already have native Enter behavior.
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter' || e.shiftKey) return;
+  const t = e.target;
+  if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
+      t.tagName === 'SELECT' || t.isContentEditable)) return;
+  if (panelMode !== 'explore' || !chatPanel.classList.contains('open')) return;
+  e.preventDefault();
+  runCompare();
+});
+
 // Delegate click on chat entity links to open modal
 chatMessages.addEventListener('click', (e) => {
   const anchor = e.target.closest('.chat-entity-link');
@@ -1565,13 +1578,13 @@ function renderAnalysisTools() {
     </div>
     <div class="at-section">
       <h4 class="at-h">Compare Two Node Sets</h4>
-      <p class="at-hint">Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths.</p>
+      <p class="at-hint">Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths. Press <kbd>Enter</kbd> to run the comparison / 按 <kbd>Enter</kbd> 執行比較。</p>
       <div class="at-compare-sets">
         <div class="at-set a" id="at-set-a"><div class="at-set-label">Set A</div><div class="at-set-chips"></div></div>
         <div class="at-set b" id="at-set-b"><div class="at-set-label">Set B</div><div class="at-set-chips"></div></div>
       </div>
       <div class="at-actions">
-        <button class="at-compare-btn" id="at-compare-go">Analyze A and B</button>
+        <button class="at-compare-btn" id="at-compare-go" title="Analyze Set A vs Set B — or press Enter / 比較 A 和 B — 或按 Enter"><span class="enter-ico">&#9166;</span> A and B</button>
         <button class="at-prompt-btn" id="at-send-prompt" title="Send this selection to the Prompt panel as an analysis query / 將此選擇傳送至 Prompt 面板">&#8594; Prompt</button>
         <button class="at-export-json-btn" id="at-export-json" title="Export this selection as JSON / 匯出選擇為 JSON">Save</button>
       </div>
