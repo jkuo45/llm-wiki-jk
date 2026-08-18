@@ -25,16 +25,18 @@
   <div id="tooltip"></div>
   <div id="wiki-tooltip"></div>
   <div id="controls">
-    <button id="btn-reset" title="Reset camera / 重設視角">Reset View / 重設視角</button>
+    <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
+    </button>
     <button id="btn-dataset" title="About this dataset / 關於此資料集" aria-label="About this dataset">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="10"></circle>
         <line x1="12" y1="16" x2="12" y2="12"></line>
         <line x1="12" y1="8" x2="12.01" y2="8"></line>
-      </svg>
+      </svg></span>
     </button>
     <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></span>
     </button>
     <button id="btn-chat" title="Analysis panel / 分析面板" aria-label="Analysis panel">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
