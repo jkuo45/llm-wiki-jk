@@ -9,13 +9,31 @@ import { ARTICLES } from './data.js';
 // ------------------------------------------------------------
 // Article registry (semantic IDs, not file paths)
 // Single source of truth: web/data/articles.json, loaded via data.js.
+// The registry is nested: one entry per logical article (`id`) with a
+// `langs` block per language. It is flattened below to one row per
+// article × lang, with `id` derived (en-US → the article id, other
+// langs → <id>-<lang>) so existing URLs like #reader=<id>-zh keep
+// resolving. Lang-level fields (title/path/dates) override group
+// defaults; `active`/`default` are group-level.
 // Only articles with `active: true` are listed/opened by the reader —
 // set `active: false` in articles.json while an article is being
 // edited so it stays hidden until it's ready. Entries missing the
 // property are treated as active.
 // ------------------------------------------------------------
 
-const ACTIVE_ARTICLES = ARTICLES.filter((a) => a.active !== false);
+const ACTIVE_ARTICLES = ARTICLES.flatMap((a) => {
+  const langs = Object.entries(a.langs || {});
+  return langs.map(([lang, l], i) => ({
+    ...a, ...l, // lang-level title/path/dates override group defaults
+    id: lang === 'en-US' ? a.id : `${a.id}-${lang.split('-')[0].toLowerCase()}`,
+    group: a.id,
+    lang,
+    // `active`/`default` are group-level in articles.json; keep `default`
+    // on the first language row only so getDefaultArticle() is deterministic
+    // (matches the old flat-schema behavior where default marked one entry).
+    default: i === 0 ? a.default : undefined,
+  }));
+}).filter((a) => a.active !== false);
 
 export const getArticle = (id) => ACTIVE_ARTICLES.find((a) => a.id === id) || null;
 export const getDefaultArticle = () => ACTIVE_ARTICLES.find((a) => a.default) || ACTIVE_ARTICLES[0];

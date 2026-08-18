@@ -1,143 +1,129 @@
 [
   {
     "id": "sirtuin-pleiotropy",
-    "group": "sirtuin-pleiotropy",
-    "lang": "en-US",
-    "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
-    "path": "pages/sirtuins_pleiotropic_roles.html",
-    "created": "2026-08-13",
-    "updated": "2026-08-15",
     "active": true,
-    "default": true
-  },
-  {
-    "id": "sirtuin-pleiotropy-zh",
-    "group": "sirtuin-pleiotropy",
-    "lang": "zh-TW",
-    "title": "腫瘤細胞代謝中的多效性",
-    "path": "pages/sirtuins_pleiotropic_roles_zh-TW.html",
-    "created": "2026-08-14",
-    "updated": "2026-08-16",
-    "active": true
+    "default": true,
+    "langs": {
+      "en-US": {
+        "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
+        "path": "pages/sirtuins_pleiotropic_roles.html",
+        "created": "2026-08-13",
+        "updated": "2026-08-15"
+      },
+      "zh-TW": {
+        "title": "腫瘤細胞代謝中的多效性",
+        "path": "pages/sirtuins_pleiotropic_roles_zh-TW.html",
+        "created": "2026-08-14",
+        "updated": "2026-08-16"
+      }
+    }
   },
   {
     "id": "sirtuin-disease-complications",
-    "group": "sirtuin-disease-complications",
-    "lang": "en-US",
-    "title": "Sirtuins - Disease Complications",
-    "path": "pages/sirtuins_disease_complications.html",
-    "created": "2026-08-14",
-    "updated": "2026-08-15",
-    "active": true
-  },
-  {
-    "id": "sirtuin-disease-complications-zh",
-    "group": "sirtuin-disease-complications",
-    "lang": "zh-TW",
-    "title": "疾病併發症",
-    "path": "pages/sirtuins_disease_complications_zh-TW.html",
-    "created": "2026-08-14",
-    "updated": "2026-08-15",
-    "active": true
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "Sirtuins - Disease Complications",
+        "path": "pages/sirtuins_disease_complications.html",
+        "created": "2026-08-14",
+        "updated": "2026-08-15"
+      },
+      "zh-TW": {
+        "title": "疾病併發症",
+        "path": "pages/sirtuins_disease_complications_zh-TW.html",
+        "created": "2026-08-14",
+        "updated": "2026-08-15"
+      }
+    }
   },
   {
     "id": "ivermectin-fenbendazole-anticancer",
-    "group": "ivermectin-fenbendazole-anticancer",
-    "lang": "en-US",
-    "title": "[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)",
-    "path": "pages/ivermectin-fenbendazole-anticancer.html",
-    "created": "2026-08-16",
-    "updated": "2026-08-16",
-    "active": true
-  },
-  {
-    "id": "ivermectin-fenbendazole-anticancer-zh",
-    "group": "ivermectin-fenbendazole-anticancer",
-    "lang": "zh-TW",
-    "title": "伊維菌素 × 芬苯達唑（互補抗癌機制）",
-    "path": "pages/ivermectin-fenbendazole-anticancer_zh-TW.html",
-    "created": "2026-08-16",
-    "updated": "2026-08-16",
-    "active": true
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)",
+        "path": "pages/ivermectin-fenbendazole-anticancer.html",
+        "created": "2026-08-16",
+        "updated": "2026-08-16"
+      },
+      "zh-TW": {
+        "title": "伊維菌素 × 芬苯達唑（互補抗癌機制）",
+        "path": "pages/ivermectin-fenbendazole-anticancer_zh-TW.html",
+        "created": "2026-08-16",
+        "updated": "2026-08-16"
+      }
+    }
   },
   {
     "id": "adrenochrome-protocol",
-    "group": "adrenochrome-protocol",
-    "lang": "en-US",
-    "title": "[Speculative] Adrenochrome MB/AG Protocol",
-    "path": "pages/adrenochrome-protocol.html",
-    "created": "2026-08-16",
-    "updated": "2026-08-16",
-    "active": true
-  },
-  {
-    "id": "adrenochrome-protocol-zh",
-    "group": "adrenochrome-protocol",
-    "lang": "zh-TW",
-    "title": "腎上腺色素 亞甲藍/銀 方案（推測性）",
-    "path": "pages/adrenochrome-protocol_zh-TW.html",
-    "created": "2026-08-16",
-    "updated": "2026-08-16",
-    "active": true
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "[Speculative] Adrenochrome MB/AG Protocol",
+        "path": "pages/adrenochrome-protocol.html",
+        "created": "2026-08-16",
+        "updated": "2026-08-16"
+      },
+      "zh-TW": {
+        "title": "腎上腺色素 亞甲藍/銀 方案（推測性）",
+        "path": "pages/adrenochrome-protocol_zh-TW.html",
+        "created": "2026-08-16",
+        "updated": "2026-08-16"
+      }
+    }
   },
   {
     "id": "sirtuins-articles-and-figures",
-    "group": "sirtuins-articles-and-figures",
-    "lang": "en-US",
-    "title": "Sirtuins - Articles, figures, images (index)",
-    "path": "pages/sirtuins-articles-and-figures.html",
-    "created": "2026-08-17",
-    "updated": "2026-08-17",
-    "active": true
-  },
-  {
-    "id": "sirtuins-articles-and-figures-zh",
-    "group": "sirtuins-articles-and-figures",
-    "lang": "zh-TW",
-    "title": "Sirtuins — 文章中的圖像與圖表",
-    "path": "pages/sirtuins-articles-and-figures_zh-TW.html",
-    "created": "2026-08-17",
-    "updated": "2026-08-17",
-    "active": true
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "Sirtuins - Articles, figures, images (index)",
+        "path": "pages/sirtuins-articles-and-figures.html",
+        "created": "2026-08-17",
+        "updated": "2026-08-17"
+      },
+      "zh-TW": {
+        "title": "Sirtuins — 文章中的圖像與圖表",
+        "path": "pages/sirtuins-articles-and-figures_zh-TW.html",
+        "created": "2026-08-17",
+        "updated": "2026-08-17"
+      }
+    }
   },
   {
     "id": "oxidized-catecholamines-feed-lysosomal-stress",
-    "group": "oxidized-catecholamines-feed-lysosomal-stress",
-    "lang": "en-US",
-    "title": "[Speculative] Oxidized Catecholamines Feed Lysosomal Stress",
-    "path": "pages/oxidized-catecholamines-feed-lysosomal-stress.html",
-    "created": "2026-08-17",
-    "updated": "2026-08-17",
-    "active": false
-  },
-  {
-    "id": "oxidized-catecholamines-feed-lysosomal-stress-zh",
-    "group": "oxidized-catecholamines-feed-lysosomal-stress",
-    "lang": "zh-TW",
-    "title": "氧化兒茶酚胺誘發溶酶體壓力（推測性）",
-    "path": "pages/oxidized-catecholamines-feed-lysosomal-stress_zh-TW.html",
-    "created": "2026-08-17",
-    "updated": "2026-08-17",
-    "active": false
+    "active": false,
+    "langs": {
+      "en-US": {
+        "title": "[Speculative] Oxidized Catecholamines Feed Lysosomal Stress",
+        "path": "pages/oxidized-catecholamines-feed-lysosomal-stress.html",
+        "created": "2026-08-17",
+        "updated": "2026-08-17"
+      },
+      "zh-TW": {
+        "title": "氧化兒茶酚胺誘發溶酶體壓力（推測性）",
+        "path": "pages/oxidized-catecholamines-feed-lysosomal-stress_zh-TW.html",
+        "created": "2026-08-17",
+        "updated": "2026-08-17"
+      }
+    }
   },
   {
     "id": "senescence-articles-and-figures",
-    "group": "senescence-articles-and-figures",
-    "lang": "en-US",
-    "title": "Senescence - Articles, figures, images (index)",
-    "path": "pages/senescence-articles-and-figures.html",
-    "created": "2026-08-18",
-    "updated": "2026-08-18",
-    "active": true
-  },
-  {
-    "id": "senescence-articles-and-figures-zh",
-    "group": "senescence-articles-and-figures",
-    "lang": "zh-TW",
-    "title": "細胞衰老 — 文章中的圖像與圖表",
-    "path": "pages/senescence-articles-and-figures_zh-TW.html",
-    "created": "2026-08-18",
-    "updated": "2026-08-18",
-    "active": true
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "Senescence - Articles, figures, images (index)",
+        "path": "pages/senescence-articles-and-figures.html",
+        "created": "2026-08-18",
+        "updated": "2026-08-18"
+      },
+      "zh-TW": {
+        "title": "細胞衰老 — 文章中的圖像與圖表",
+        "path": "pages/senescence-articles-and-figures_zh-TW.html",
+        "created": "2026-08-18",
+        "updated": "2026-08-18"
+      }
+    }
   }
 ]
