@@ -47,6 +47,8 @@ const uploadStatus = $('notes-upload-status');
 
 const lbBack = $('notes-lb-back');
 const lbTitle = $('notes-lb-title');
+const lbView = $('notes-lb-view');
+const lbBody = $('notes-lb-body');
 const lbEdit = $('notes-lb-edit');
 const lbGraph = $('notes-lb-graph');
 const lbDoc = $('notes-lb-doc');
@@ -95,6 +97,7 @@ let annColor = '#ffcc00';
 let drawing = null;          // in-progress shape
 let panning = null;
 let editMode = false;
+let viewMode = false;        // fullscreen image view (side details hidden)
 
 let draftFiles = [];         // { file, thumb }
 let cameraStream = null;
@@ -374,6 +377,7 @@ function openLightbox(note) {
   browseEl.hidden = true;
   uploadEl.hidden = true;
   lightboxEl.hidden = false;
+  setViewMode(false);
   renderLightbox();
 }
 function setLightbox(note) {
@@ -387,7 +391,25 @@ function goBackToGallery() {
   browseEl.hidden = false;
   uploadEl.hidden = true;
   currentNote = null;
+  setViewMode(false);
   renderGallery();
+}
+
+// Toggle the fullscreen image view (side details hidden, image fills the panel).
+function setViewMode(on) {
+  viewMode = on;
+  lbBody.classList.toggle('view-mode', viewMode);
+  lbView.textContent = viewMode ? '⛶ Details' : '⛶ View';
+  lbView.title = viewMode ? 'Show details panel / 顯示詳情' : 'Fullscreen view of the note / 全螢幕檢視';
+}
+lbView.addEventListener('click', () => setViewMode(!viewMode));
+
+// Models without vision return a refusal instead of a transcript when asked to
+// read an image. Detect those so a failed attempt is not treated as a finished,
+// cached OCR result.
+const OCR_FAIL_RE = /OCR_FAILED|cannot (transcribe|process|read)|can'?t (process|read|see)|unable to (process|read|see)|doesn'?t support|does not support image|no vision|image files? directly|not support images?|use (google lens|microsoft lens)/i;
+function looksLikeOcrFailure(text) {
+  return !!(text && OCR_FAIL_RE.test(text));
 }
 
 function renderLightbox() {
@@ -396,8 +418,10 @@ function renderLightbox() {
   lbTitle.textContent = n.title;
   lbTitle.title = n.title;
   lbDoc.disabled = !n.document;
-  lbTranscribe.disabled = !!(n.ocr || '').trim();
-  lbTranscribe.textContent = (n.ocr || '').trim() ? 'Transcribed' : 'Transcribe';
+  const ocrText = (n.ocr || '').trim();
+  const ocrBroken = looksLikeOcrFailure(ocrText);
+  lbTranscribe.disabled = !!ocrText && !ocrBroken;
+  lbTranscribe.textContent = ocrBroken ? 'Transcribe' : (ocrText ? 'Transcribed' : 'Transcribe');
   renderPagesStrip();
   setPage(currentPage);
   renderOcr();
@@ -690,14 +714,19 @@ async function runTranscribe() {
       throw new Error(detail);
     }
     const data = await resp.json();
-    currentNote.ocr = data.ocr || '';
-    currentNote.has_ocr = !!currentNote.ocr;
+    const text = (data.ocr || '').trim();
+    if (looksLikeOcrFailure(text)) {
+      lbOcr.textContent = 'The OCR model could not read this image (it may not support vision). Nothing was saved — switch the wiki-util model to one with vision and try again.';
+      return; // do not store a refusal as a finished transcript
+    }
+    currentNote.ocr = text;
+    currentNote.has_ocr = !!text;
     syncGalleryNote(currentNote);
     renderOcr();
   } catch (err) {
     lbOcr.textContent = `Transcription failed: ${err.message}`;
   } finally {
-    lbTranscribe.disabled = !(currentNote.ocr || '').trim();
+    lbTranscribe.disabled = !!(currentNote.ocr || '').trim();
     lbTranscribe.textContent = (currentNote.ocr || '').trim() ? 'Transcribed' : 'Transcribe';
     lbOcr.classList.remove('loading');
   }
@@ -706,7 +735,16 @@ lbTranscribe.addEventListener('click', runTranscribe);
 
 function renderOcr() {
   const text = (currentNote && currentNote.ocr || '').trim();
-  lbOcr.textContent = text || 'No transcript yet. Press Transcribe to read the handwriting once.';
+  if (!text) {
+    lbOcr.textContent = 'No transcript yet. Press Transcribe to read the handwriting once.';
+    lbOcr.classList.remove('ocr-warn');
+  } else if (looksLikeOcrFailure(text)) {
+    lbOcr.textContent = 'The previous transcription failed — the OCR model could not read the image (it may not support vision). You can try again after the wiki-util model is vision-capable.';
+    lbOcr.classList.add('ocr-warn');
+  } else {
+    lbOcr.textContent = text;
+    lbOcr.classList.remove('ocr-warn');
+  }
 }
 
 // ------------------------------------------------------------
