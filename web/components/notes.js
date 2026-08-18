@@ -336,7 +336,7 @@ function syncGalleryNote(n) {
 function cardHTML(n) {
   const first = (n.pages || [])[0];
   const thumb = first
-    ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(n.title)}" loading="lazy">`
+    ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(n.title)}" loading="lazy" decoding="async">`
     : '<div class="notes-card-thumb"></div>';
   const doc = n.document
     ? `<span class="notes-badge" title="${esc(n.document)}">${esc(shortDoc(n.document))}</span>` : '';
@@ -477,7 +477,7 @@ function renderPagesStrip() {
   const pages = currentNote.pages || [];
   lbPages.innerHTML = pages.map((p) =>
     `<button class="${p.page === currentPage ? 'page-active' : ''}" data-page="${p.page}" title="Page ${p.page}">
-      <img src="${esc(imageUrl(currentNote, p.page, true))}" alt="Page ${p.page}">
+      <img src="${esc(imageUrl(currentNote, p.page, true))}" alt="Page ${p.page}" loading="lazy" decoding="async">
     </button>`).join('');
   lbPages.querySelectorAll('button').forEach((b) =>
     b.addEventListener('click', () => changePage(parseInt(b.dataset.page, 10))));
