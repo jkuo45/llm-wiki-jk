@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Reconcile live handwritten uploads into the durable committed manifest.
 
-Reads media/handwritten/.staged.json (live browser uploads) and merges every
-entry into media/handwritten/manifest.json, deduplicated by id. The draft flag
+Reads media/notes/.staged.json (live browser uploads) and merges every
+entry into media/notes/manifest.json, deduplicated by id. The draft flag
 is dropped and .staged.json is left empty so the next upload starts clean.
 
 Usage:
-    uv run python scripts/09_reconcile_handwritten.py
+    uv run python scripts/09_reconcile_notes.py
 """
 
 import json
@@ -15,9 +15,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-HAND = REPO_ROOT / "media" / "handwritten"
-MANIFEST = HAND / "manifest.json"
-STAGED = HAND / ".staged.json"
+MEDIA_NOTES_DIR = REPO_ROOT / "media" / "notes"
+MANIFEST = MEDIA_NOTES_DIR / "manifest.json"
+STAGED = MEDIA_NOTES_DIR / ".staged.json"
 
 
 def read_list(path: Path) -> list:
@@ -27,7 +27,7 @@ def read_list(path: Path) -> list:
         data = json.loads(path.read_text(encoding="utf-8"))
         return data if isinstance(data, list) else []
     except (json.JSONDecodeError, OSError) as exc:
-        print(f"[reconcile-handwritten] WARN could not read {path}: {exc}", file=sys.stderr)
+        print(f"[reconcile-notes] WARN could not read {path}: {exc}", file=sys.stderr)
         return []
 
 
@@ -44,7 +44,7 @@ def main() -> int:
     manifest = read_list(MANIFEST)
     staged = read_list(STAGED)
     if not staged:
-        print("[reconcile-handwritten] nothing staged — nothing to do")
+        print("[reconcile-notes] nothing staged — nothing to do")
         return 0
 
     by_id = {n.get("id"): n for n in manifest}
@@ -60,7 +60,7 @@ def main() -> int:
 
     write_list(MANIFEST, sorted(by_id.values(), key=lambda n: n.get("created_at") or ""))
     write_list(STAGED, [])
-    print(f"[reconcile-handwritten] merged {moved} staged note(s) into manifest.json")
+    print(f"[reconcile-notes] merged {moved} staged note(s) into manifest.json")
     return 0
 
 

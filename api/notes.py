@@ -3,10 +3,10 @@
 Serves + accepts photos of handwritten notes about papers. Two posting paths
 feed one place:
 
-  - committed curation  : media/handwritten/manifest.json  (durable, ships with the wiki)
-  - live uploads        : media/handwritten/.staged.json   (browser uploads, served immediately)
+  - committed curation  : media/notes/manifest.json  (durable, ships with the wiki)
+  - live uploads        : media/notes/.staged.json   (browser uploads, served immediately)
 
-The GET index merges both. A reconcile script (scripts/09_reconcile_handwritten.py)
+The GET index merges both. A reconcile script (scripts/09_reconcile_notes.py)
 folds staged drafts into the committed manifest.
 
 Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
@@ -29,12 +29,12 @@ from .llm import OpencodeUnavailable, transcribe_image
 
 logger = logging.getLogger(__name__)
 
-router = APIRouter(prefix="/v1/handwritten", tags=["handwritten"])
+router = APIRouter(prefix="/v1/notes", tags=["notes"])
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-HANDWRITTEN_DIR = REPO_ROOT / "media" / "handwritten"
-MANIFEST_FILE = HANDWRITTEN_DIR / "manifest.json"
-STAGED_FILE = HANDWRITTEN_DIR / ".staged.json"
+MEDIA_NOTES_DIR = REPO_ROOT / "media" / "notes"
+MANIFEST_FILE = MEDIA_NOTES_DIR / "manifest.json"
+STAGED_FILE = MEDIA_NOTES_DIR / ".staged.json"
 NOTES_DIR = REPO_ROOT / "src" / "notes"
 
 MAX_FILE_BYTES = 30 * 1024 * 1024  # 30 MB per image
@@ -118,7 +118,7 @@ def _note_dir(note_id: str) -> Path:
     safe = Path(note_id).name
     if safe != note_id:
         raise HTTPException(status_code=400, detail="Invalid note id")
-    return HANDWRITTEN_DIR / safe
+    return MEDIA_NOTES_DIR / safe
 
 
 def _page_path(note: dict, page: int) -> Path | None:
@@ -168,7 +168,7 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
 
 
 @router.get("")
-async def get_handwritten() -> dict:
+async def get_notes() -> dict:
     """Gallery index: merged committed + staged notes, plus the document index."""
     by_id: dict[str, dict] = {}
     for n in _committed_notes() + _staged_notes():
@@ -240,12 +240,12 @@ async def upload_notes(
     parsed_tags = [str(t).strip().lower().replace(" ", "-") for t in parsed_tags[:40] if str(t).strip()]
 
     slug_base = _SLUG_RE.sub("-", ((title or "note").strip().lower()))[:40].strip("-") or "note"
-    note_id = f"hn-{_today().replace('-', '')}-{slug_base}"
+    note_id = f"n-{_today().replace('-', '')}-{slug_base}"
     # Avoid collisions if the same title arrives twice on one day.
     existing = _note_lookup()
     suffix = 2
     while note_id in existing:
-        note_id = f"hn-{_today().replace('-', '')}-{slug_base}-{suffix}"
+        note_id = f"n-{_today().replace('-', '')}-{slug_base}-{suffix}"
         suffix += 1
 
     ngroup = _note_dir(note_id)
@@ -257,12 +257,12 @@ async def upload_notes(
             (ngroup / fname).write_bytes(data)
             pages.append({"page": idx, "file": fname})
     except OSError as e:
-        logger.exception("handwritten upload write failed for %s", note_id)
+        logger.exception("notes upload write failed for %s", note_id)
         raise HTTPException(
             status_code=500,
             detail=(
                 f"Could not save the note on the server ({e}). "
-                "The API user needs write access to media/handwritten "
+                "The API user needs write access to media/notes "
                 "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/media)."
             ),
         )
@@ -290,7 +290,7 @@ async def upload_notes(
     try:
         _write_staged(staged)
     except OSError as e:
-        logger.exception("handwritten staged manifest write failed for %s", note_id)
+        logger.exception("notes staged manifest write failed for %s", note_id)
         # Remove the just-written images so the failed upload leaves no orphan.
         import shutil
         shutil.rmtree(ngroup, ignore_errors=True)
@@ -298,11 +298,11 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not register the note ({e}). "
-                "The API user needs write access to media/handwritten "
+                "The API user needs write access to media/notes "
                 "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/media)."
             ),
         )
-    logger.info(f"handwritten upload: {note_id} ({len(pages)} pages)")
+    logger.info(f"notes upload: {note_id} ({len(pages)} pages)")
     return _public_note(note)
 
 
@@ -400,7 +400,7 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
 def _persist_note(note: dict) -> None:
     """Write an edit back to wherever the note already lives.
 
-    Committed notes update media/handwritten/manifest.json; drafts and
+    Committed notes update media/notes/manifest.json; drafts and
     new edits go to .staged.json (promoted by the reconcile script).
     """
     committed = _committed_notes()

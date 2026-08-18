@@ -1,8 +1,8 @@
 # Handwritten Notes / 手寫筆記
 
 Photos of handwritten notes about papers in the wiki. Served and posted through
-the **Handwritten Notes panel** in `web/index.html` (API at
-`/v1/handwritten/*` in `api/handwritten.py`).
+the **Notes panel** in `web/index.html` (API at
+`/v1/notes/*` in `api/notes.py`).
 
 ## Layout
 
@@ -10,14 +10,14 @@ the **Handwritten Notes panel** in `web/index.html` (API at
   ships with the wiki).
 - `.staged.json` — live browser uploads, served immediately. A reconcile run
   (below) folds these into `manifest.json`.
-- `<topic>/hn-<date>-<slug>/` — per-note folders holding `page-N.<ext>` images
+- `<topic>/n-<date>-<slug>/` — per-note folders holding `page-N.<ext>` images
   and optional `page-N.thumb.<ext>` thumbnails.
 
 ## Record schema
 
 ```jsonc
 {
-  "id": "hn-20260818-sirtuins-mechanisms",
+  "id": "n-20260818-sirtuins-mechanisms",
   "title": "Sirtuins review — mechanism sketch",
   "topic": "sirtuins",
   "document": "_document_ - sirtuins ... .md",   // plain filename; no wiki links in data files
@@ -44,19 +44,19 @@ Annotation coordinates are normalized 0–1 across tools:
 
 | Endpoint | Purpose |
 |---|---|
-| `GET /v1/handwritten` | Merged gallery index + `src/notes` document index |
-| `GET /v1/handwritten/image/{id}/{page}?thumb=1` | Note photo (or thumbnail) |
-| `POST /v1/handwritten/upload` | Browser upload (multipart: `files`, `title`, `topic`, `document`, `entities`, `tags`) |
-| `POST /v1/handwritten/transcribe` | OCR once per note via the read-only wiki-util agent |
-| `POST /v1/handwritten/{id}/annotations` | Persist annotation overlays |
-| `POST /v1/handwritten/{id}/metadata` | Update title / document / entities / tags |
+| `GET /v1/notes` | Merged gallery index + `src/notes` document index |
+| `GET /v1/notes/image/{id}/{page}?thumb=1` | Note photo (or thumbnail) |
+| `POST /v1/notes/upload` | Browser upload (multipart: `files`, `title`, `topic`, `document`, `entities`, `tags`) |
+| `POST /v1/notes/transcribe` | OCR once per note via the read-only wiki-util agent |
+| `POST /v1/notes/{id}/annotations` | Persist annotation overlays |
+| `POST /v1/notes/{id}/metadata` | Update title / document / entities / tags |
 
 Writes are currently public; auth will be added later.
 
 ## Reconcile (live → durable)
 
 ```bash
-uv run --with ... python scripts/09_reconcile_handwritten.py
+uv run --with ... python scripts/09_reconcile_notes.py
 ```
 
 Moves every `.staged.json` entry into `manifest.json` (deduplicated by id),

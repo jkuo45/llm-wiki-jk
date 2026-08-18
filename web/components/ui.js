@@ -10,7 +10,7 @@ import {
 import { state } from './state.js';
 import {
   container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeObjects, edgeGroup, labelObjects,
-  setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
+  edgeOffColor, setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
 } from './core.js';
@@ -198,7 +198,7 @@ export function showInfo(nodeId) {
     : '—';
 
   const wikiDesc = description
-    ? `<div class="field" style="margin-top:8px"><span style="color:#aaa;font-size:14px">Context:</span><br><div class="wiki-context-text" style="font-size:15px;color:#bbb;line-height:1.7;max-height:260px;overflow-y:auto;margin-top:6px">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>`
+    ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>`
     : '';
 
   const edgeSourceLink = n.source_file
@@ -209,11 +209,11 @@ export function showInfo(nodeId) {
     <div class="field"><b>${esc(displayName)}</b></div>
     <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
     <div class="field">Community: ${esc(displayCommunity)}</div>
-    <div class="field"><span style="color:#aaa;font-size:14px">Source (node):</span> ${wikiLink}</div>
+    <div class="field"><span class="info-muted">Source (node):</span> ${wikiLink}</div>
     ${wikiDesc}
-    <div class="field" style="margin-top:8px;border-top:1px solid #2a2a4e;padding-top:8px"><span style="color:#aaa;font-size:14px">Source (edge):</span> ${edgeSourceLink}</div>
+    <div class="field info-divider"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>
     <div class="field">Degree: ${n.degree}</div>
-    ${neighbors.length ? `<div class="field" style="margin-top:12px;color:#aaa;font-size:14px">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+    ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
   `;
 }
 
@@ -228,7 +228,7 @@ document.addEventListener('click', e => {
 // Community Legend (click-to-focus)
 // ------------------------------------------------------------
 function renderKeyNodeSpans(parent, items) {
-  parent.innerHTML = '<div style="color:#aaa;font-size:14px;margin:10px 0 6px">Key Nodes</div>';
+  parent.innerHTML = '<div class="key-nodes-title">Key Nodes</div>';
   items.forEach(item => {
     const span = document.createElement('span');
     span.className = 'trace-key-node';
@@ -273,7 +273,7 @@ function focusOnCommunity(cid) {
     const fromNode = nodeMap.get(edge.from);
     const toNode = nodeMap.get(edge.to);
     return (fromNode && fromNode.community === cid) || (toNode && toNode.community === cid);
-  }, 0x4E79A7, 0.6, 0x4a4a6a, 0.02);
+  }, 0x4E79A7, 0.6, edgeOffColor(), 0.02);
 
   // Show key nodes for this community (top 15 by degree)
   const communityKeyNodes = document.getElementById('community-key-nodes');
@@ -319,7 +319,7 @@ LEGEND.forEach(c => {
 
   const zhTWLabel = TRANSLATIONS[c.label] || '';
   const bilingualLabel = zhTWLabel && zhTWLabel !== c.label
-    ? `${c.label}<br><span style="color:#888;font-size:13px">${zhTWLabel}</span>`
+    ? `${c.label}<br><span class="legend-zh">${zhTWLabel}</span>`
     : c.label;
 
   item.innerHTML = `
@@ -400,7 +400,7 @@ export function activateTrace(trace) {
   const sourceLink = trace.sourceUrl
     ? `<div style="margin-top:8px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:14px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
     : '';
-  traceSummary.innerHTML = `<div style="color:#aaa;font-size:14px;margin-bottom:6px">${esc(trace.question)}</div><div style="font-size:15px">${esc(trace.summary)}</div>${sourceLink}`;
+  traceSummary.innerHTML = `<div class="trace-question">${esc(trace.question)}</div><div style="font-size:15px">${esc(trace.summary)}</div>${sourceLink}`;
 
   // Show routes
   traceRoutes.innerHTML = '';
@@ -453,7 +453,7 @@ export function highlightTraceNodes(trace) {
     const { edge } = line.userData;
     const key = `${edge.from}::${edge.to}`;
     return traceEdges.has(key);
-  }, 0x4E79A7, 0.8, 0x4a4a6a, 0.02);
+  }, 0x4E79A7, 0.8, edgeOffColor(), 0.02);
 
   setLabelVisibility(traceIds);
 }
@@ -493,7 +493,7 @@ export function activateRoute(trace, routeIdx) {
   applyEdgeState(line => {
     const { edge } = line.userData;
     return routePairs.has(`${edge.from}::${edge.to}`);
-  }, 0x7cb3d4, 1, 0x4a4a6a, 0.02);
+  }, 0x7cb3d4, 1, edgeOffColor(), 0.02);
 
   setLabelVisibility(routeNodeIds);
 
@@ -507,9 +507,9 @@ export function activateRoute(trace, routeIdx) {
       return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
     }).join('');
     document.getElementById('info-content').innerHTML = `
-      <div class="field"><b>${esc(route.name)}</b><span style="color:#666;font-size:13px;margin-left:8px">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
+      <div class="field"><b>${esc(route.name)}</b><span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
       <div style="margin:10px 0">${pathHtml}</div>
-      <div class="field" style="font-size:15px;color:#bbb;line-height:1.7">${esc(route.mechanism)}</div>
+      <div class="field route-mechanism">${esc(route.mechanism)}</div>
     `;
   }
 
@@ -616,12 +616,19 @@ export async function exportGraphPNG(filename) {
       const lines = (el.innerText || el.textContent || '').split('\n').filter(Boolean);
       if (!lines.length) return;
       const fs = parseFloat(getComputedStyle(el).fontSize) || 16;
+      // Theme-aware label colors: read the live style so exported PNGs match
+      // the active theme (light chips get dark text/light halo, dark get the
+      // inverse). Fall back to the current theme's palette if a style is empty.
+      const cs = getComputedStyle(el);
+      const light = state.theme === 'light';
+      const fill = cs.color || (light ? '#22304A' : '#e0e0e0');
+      const chip = cs.backgroundColor || (light ? 'rgba(255,255,255,0.85)' : 'rgba(15,15,26,0.9)');
       const scale = (pxW / cw) * drawScale;
       ctx.font = `600 ${fs * scale}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
       ctx.textAlign = 'center';
       ctx.lineWidth = 3;
-      ctx.strokeStyle = 'rgba(15,15,26,0.9)';
-      ctx.fillStyle = '#e0e0e0';
+      ctx.strokeStyle = chip;
+      ctx.fillStyle = fill;
       const lh = (fs + 3) * scale;
       const baseY = y - (lines.length - 1) * lh / 2 - 4 * scale;
       lines.forEach((line, i) => {

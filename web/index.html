@@ -7,6 +7,20 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <link rel="stylesheet" href="three-graph.css">
+<link rel="stylesheet" href="three-graph-light.css" id="theme-light">
+<script>
+  /* Site-wide theme bootstrap (light is the default; only an explicit 'dark'
+     preference opts into dark). Runs before first paint so the light
+     stylesheet starts in the right state — mirrors web/pages/shared/page-theme.js
+     for the app shell. The value is driven by components/theme.js on demand. */
+  (function () {
+    var link = document.getElementById('theme-light');
+    if (!link) return;
+    var dark = false;
+    try { dark = localStorage.getItem('llm-wiki-theme') === 'dark'; } catch (e) {}
+    link.disabled = dark;
+  })();
+</script>
   <link rel="canonical" href="https://graph.johnnykuo.com/">
   <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/">
 </head>
@@ -103,6 +117,13 @@
         <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
         <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
         <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+      </div>
+    </div>
+    <div id="theme-panel">
+      <h3>Theme / 主題</h3>
+      <div class="display-grid" id="theme-grid">
+        <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
+        <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
       </div>
     </div>
   </div>

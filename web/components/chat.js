@@ -6,7 +6,7 @@ import * as THREE from 'three';
 import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
 import { state } from './state.js';
 import {
-  camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
+  camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, edgeOffColor, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
@@ -14,6 +14,7 @@ import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
+import { currentTheme } from './theme.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -120,11 +121,16 @@ function withOutputSpec(text) {
   if (!text) return text;
   if (/\[Output format: \.(md|html)\]/.test(text)) return text;
   if (responseMode === 'html') {
+    // Tell the model which visual palette to match so generated diagrams
+    // blend with the site's active theme (light is the default).
+    const styleSpec = currentTheme() === 'light'
+      ? 'Match this page visual style: light theme with background #F6F3EC, white cards #FFFFFF with a 1px #E2DCCE border and 12px border radius, body text #22304A, muted text #4B5563, and accent colors teal #0F766E, red #C0392B, amber #B45309, purple #6D5BD0, blue #2563A8, green #1E7A4E. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible dark text labels, subtle 1px #E2DCCE strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).'
+      : 'Match this page visual style: dark theme with background #0f0f1a, cards #1a1a2e with a 1px #2a2a4e border and 12px border radius, body text #e0e0e0, and accent colors teal #3EC9A7, red #E4575E, amber #E8A33D, purple #9D8DF1, blue #5DA8FF, green #58D68D. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible text labels, subtle 1px #2a2a4e strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).';
     const spec = [
       '[Output format: .html]',
       'Respond with HTML and ONLY HTML. Do not wrap the answer in markdown code fences, and do not add any prose, commentary, or explanation outside the HTML. Output must be valid HTML content directly renderable in a page (you may include inline style elements and SVG; no external assets, no scripts).',
       'When it helps clarity, enrich the answer with diagrams and charts. Use inline SVG only — pure SVG markup plus CSS, no external images, no img elements, and no JavaScript chart libraries (no Chart.js, D3, or Mermaid).',
-      'Match this page visual style: dark theme with background #0f0f1a, cards #1a1a2e with a 1px #2a2a4e border and 12px border radius, body text #e0e0e0, and accent colors teal #3EC9A7, red #E4575E, amber #E8A33D, purple #9D8DF1, blue #5DA8FF, green #58D68D. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible text labels, subtle 1px #2a2a4e strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).',
+      styleSpec,
     ].join('\n\n');
     return `${text}\n\n${spec}`;
   }
@@ -159,7 +165,9 @@ chatBtn.addEventListener('click', () => {
   if (chatOpen) chatInput.focus();
   syncChatPanelKeyboard();
   state.analysisOpen = chatOpen;
-  state.analysisMode = panelMode;
+  // Do NOT overwrite state.analysisMode here: setPanelMode already keeps it in
+  // canonical hash form ('graph' / 'prompt') synced with `panelMode`, while
+  // panelMode itself uses the UI tab names ('explore' / 'ask').
   updateHash();
 });
 
@@ -188,7 +196,6 @@ function closeChat() {
   chatOpen = false;
   chatPanel.classList.remove('open');
   chatBtn.classList.remove('open');
-  chatBtn.innerHTML = MSG_ICON;
   setActiveWindow(null);
   state.analysisOpen = false;
   updateHash();
@@ -289,7 +296,7 @@ function formatBotMessage(text) {
     const wikiBase = name.trim().replace(/\.md$/i, '');
     if (!wikiBase || !descByLabel.has(wikiBase)) return esc(m);
     const label = (display || name).trim();
-    return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}" style="color:#7cb3d4;text-decoration:underline;cursor:pointer">${esc(label)}</span>`;
+    return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}">${esc(label)}</span>`;
   });
   // Long code blocks: collapse them so they don't dominate the response.
   html = html.replace(/<pre><code>([\s\S]*?)<\/code><\/pre>/g,
@@ -324,7 +331,7 @@ function showWikiTooltip(anchor) {
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
   const title = anchor.textContent.trim() || (anchor.dataset.wiki || '');
-  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span style="color:#666;font-size:11px;margin-top:4px;display:inline-block">Click to expand</span>`;
+  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
   wikiTooltipVisible = true;
   wikiTooltipEl.classList.add('visible');
   positionWikiTooltip(anchor);
@@ -384,6 +391,7 @@ wikiModalOverlay.addEventListener('click', (e) => {
 // HTML mode — render a chat response as a standalone page styled with pages.css
 // ------------------------------------------------------------
 let htmlModeDoc = '';
+let htmlModeRaw = ''; // raw server HTML — kept so the doc can be rebuilt on theme switch
 
 // Collapse fenced code blocks (```...```) into <details> so long code samples
 // don't dominate the rendered page. Code is escaped so it shows as text.
@@ -449,6 +457,7 @@ function buildHtmlModeDoc(text, title) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
 <link rel="stylesheet" href="pages/shared/pages.css">
+<link rel="stylesheet" href="pages/shared/pages-light.css" id="theme-light"${currentTheme() === 'light' ? '' : ' disabled'}>
 <style>
   body { background: var(--bg); }
   .wrap { padding-top: 32px; padding-bottom: 72px; }
@@ -478,6 +487,7 @@ function buildHtmlModeDoc(text, title) {
 
 function openHtmlMode(text, title) {
   if (!htmlModeOverlay || !htmlModeFrame) return;
+  htmlModeRaw = text;
   htmlModeDoc = buildHtmlModeDoc(text, title || 'Response');
   if (htmlModeTitle) htmlModeTitle.textContent = title || 'Response';
   htmlModeFrame.srcdoc = htmlModeDoc;
@@ -489,6 +499,7 @@ function closeHtmlMode() {
   htmlModeOverlay.classList.remove('visible');
   if (htmlModeFrame) htmlModeFrame.srcdoc = '';
   htmlModeDoc = '';
+  htmlModeRaw = '';
 }
 
 if (htmlModeClose) htmlModeClose.addEventListener('click', closeHtmlMode);
@@ -497,6 +508,16 @@ if (htmlModeOverlay) {
     if (e.target === htmlModeOverlay) closeHtmlMode();
   });
 }
+// Rebuild an open HTML-mode document when the site theme changes (theme.js
+// dispatches site-theme-change). The sandboxed frame cannot run a bootstrap
+// script, so the pages-light.css disabled state is baked in at build time.
+window.addEventListener('site-theme-change', () => {
+  if (!htmlModeOverlay || !htmlModeOverlay.classList.contains('visible') || !htmlModeFrame) return;
+  if (!htmlModeDoc) return;
+  const title = htmlModeTitle ? htmlModeTitle.textContent : 'Response';
+  htmlModeDoc = buildHtmlModeDoc(htmlModeRaw || htmlModeDoc, title);
+  htmlModeFrame.srcdoc = htmlModeDoc;
+});
 if (htmlModeDownload) {
   htmlModeDownload.addEventListener('click', () => {
     if (!htmlModeDoc) return;
@@ -573,7 +594,7 @@ async function sendChatMessage() {
   refreshActivity();
 
   const typingDiv = addChatMessage('Thinking', 'typing');
-  typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" style="color:#666;font-size:12px;min-width:42px;display:inline-block"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
+  typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" class="typing-elapsed"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
 
   const typingStart = performance.now();
   const typingElapsed = typingDiv.querySelector('#typing-elapsed');
@@ -699,8 +720,8 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
           labelEl.textContent = 'Thinking';
           if (!traceContent) {
             traceDiv.style.display = 'block';
-            traceDiv.innerHTML = '<span class="chat-trace-toggle" style="cursor:pointer;color:#999;font-size:11px;user-select:none;display:block;width:fit-content">&#9654; Thinking trace</span>'
-              + '<div class="chat-trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap"><div></div></div>';
+            traceDiv.innerHTML = '<span class="chat-trace-toggle">&#9654; Thinking trace</span>'
+              + '<div class="chat-trace-content"><div></div></div>';
             traceContent = traceDiv.querySelector('.chat-trace-content');
             traceDiv.querySelector('.chat-trace-toggle').addEventListener('click', () => {
               traceOpen = !traceOpen;
@@ -997,7 +1018,7 @@ function tagMatchesFor(query) {
 function renderTagPopup() {
   chatTagPopup.innerHTML = tagMatches.map((n, i) => {
     const zh = TRANSLATIONS[n.label] || '';
-    const zhText = zh && zh !== n.label ? ` <span style="color:#888;font-size:11px">${esc(zh)}</span>` : '';
+    const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
     return `<div class="chat-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}">
       <span class="tag-kind">@</span>
       <span>${esc(n.label)}${zhText}</span>
@@ -1349,7 +1370,7 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
     const fwd = `${edge.from}::${edge.to}`;
     const rev = `${edge.to}::${edge.from}`;
     return edgePairSet.has(fwd) || edgePairSet.has(rev);
-  }, 0x4E79A7, 0.8, 0x4a4a6a, 0.02);
+  }, 0x4E79A7, 0.8, edgeOffColor(), 0.02);
 
   setLabelVisibility(idSet);
 
@@ -1542,7 +1563,7 @@ function atRowHTML(n, metric, kind, cross) {
       <button class="set-a" data-set="a" title="Add to Set A">A</button>
       <button class="set-b" data-set="b" title="Add to Set B">B</button>
     </span>`;
-  const zhText = zh && zh !== n.label ? ` <span style="color:#888;font-size:11px">${esc(zh)}</span>` : '';
+  const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
   return `<li class="at-row" data-id="${n.id}">
     <span class="at-name">${esc(n.label)}${zhText}</span>
     <span class="at-meta">${meta}</span>${ab}
@@ -1594,16 +1615,16 @@ function renderAnalysisTools() {
       <button class="at-reset" data-action="clear">Clear highlights / 清除高亮</button>
     </div>
     <div class="at-section">
-      <h4 class="at-h"><span>Top Hubs</span><span style="color:#666;font-weight:400;text-transform:none">by degree — click to focus, A/B to compare</span></h4>
+      <h4 class="at-h"><span>Communities / 社群</span><span class="at-note">by community</span></h4>
+      <div class="at-communities">${commHTML}</div>
+    </div>
+    <div class="at-section">
+      <h4 class="at-h"><span>Top Hubs</span><span class="at-note">by degree — click to focus, A/B to compare</span></h4>
       <ul class="at-list" id="at-hubs">${hubRows}</ul>
     </div>
     <div class="at-section">
-      <h4 class="at-h"><span>Connectors / Bridges</span><span style="color:#666;font-weight:400;text-transform:none">by betweenness</span></h4>
+      <h4 class="at-h"><span>Connectors / Bridges</span><span class="at-note">by betweenness</span></h4>
       <ul class="at-list" id="at-connectors">${connRows}</ul>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h"><span>Communities / 社群</span><span style="color:#666;font-weight:400;text-transform:none">by community</span></h4>
-      <div class="at-communities">${commHTML}</div>
     </div>
     <div class="at-section">
       <h4 class="at-h">Compare Two Node Sets</h4>

@@ -1,4 +1,4 @@
-// Handwritten Notes panel — gallery, upload (files / camera), lightbox with
+// Notes panel — gallery, upload (files / camera), lightbox with
 // OCR transcripts and persistent annotation overlays, deep links to the linked
 // paper and graph entities. Sibling of the analysis (#chat) panel.
 
@@ -9,7 +9,7 @@ import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
-const HN_API = `${API_BASE}/handwritten`;
+const NOTES_API = `${API_BASE}/notes`;
 const MAX_PAGES = 24;
 const MAX_BYTES = 30 * 1024 * 1024;
 
@@ -117,7 +117,7 @@ arrowPath.setAttribute('fill', '#ffcc00');
 ARROW_MARKER.appendChild(arrowPath);
 
 function imageUrl(note, page, thumb) {
-  const base = `${HN_API}/image/${encodeURIComponent(note.id)}/${page}`;
+  const base = `${NOTES_API}/image/${encodeURIComponent(note.id)}/${page}`;
   return thumb ? base + '?thumb=1' : base;
 }
 
@@ -142,7 +142,7 @@ function closeNotes() {
   syncNotesHash();
 }
 
-// Push the current handwritten-panel view into the shared state so the URL
+// Push the current notes-panel view into the shared state so the URL
 // hash reflects it (`#notes` = gallery, `&note=<id>` = lightbox, plus page /
 // fullscreen flags) and the URL can be shared / restored.
 function syncNotesHash(pushState = true) {
@@ -214,7 +214,7 @@ async function loadIndex() {
   apiError = '';
   renderGallery();
   try {
-    const resp = await fetch(HN_API);
+    const resp = await fetch(NOTES_API);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     notes = Array.isArray(data.notes) ? data.notes : [];
@@ -231,7 +231,7 @@ async function loadIndex() {
     notes = [];
     documents = [];
     renderGallery();
-    console.warn('handwritten index failed:', err);
+    console.warn('notes index failed:', err);
   } finally {
     loading = false;
   }
@@ -325,7 +325,7 @@ function apiErrorBanner() {
     ? '<p class="notes-muted">You appear to be offline.</p>' : '';
   return `<div class="notes-api-error">
     <b>Handwritten Notes API unreachable</b>
-    <p class="notes-muted">Could not load notes from <code>${esc(HN_API)}</code> (${esc(apiError)}).</p>
+    <p class="notes-muted">Could not load notes from <code>${esc(NOTES_API)}</code> (${esc(apiError)}).</p>
     ${offline}
     ${devHint}
     <button id="notes-retry" type="button" class="notes-retry">Retry</button>
@@ -703,7 +703,7 @@ annSave.addEventListener('click', async () => {
   annSave.disabled = true;
   annSave.textContent = 'Saving…';
   try {
-    const resp = await fetch(`${HN_API}/${encodeURIComponent(currentNote.id)}/annotations`, {
+    const resp = await fetch(`${NOTES_API}/${encodeURIComponent(currentNote.id)}/annotations`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ annotations: currentNote.annotations || [] }),
@@ -739,7 +739,7 @@ async function runTranscribe() {
   lbOcr.classList.add('loading');
   lbOcr.textContent = 'Reading the handwriting…';
   try {
-    const resp = await fetch(`${HN_API}/transcribe`, {
+    const resp = await fetch(`${NOTES_API}/transcribe`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id: currentNote.id }),
@@ -854,7 +854,7 @@ lbEdit.addEventListener('click', () => renderEditMode(!editMode));
 async function saveMetadata(entities, tags) {
   lbEdit.disabled = true;
   try {
-    const resp = await fetch(`${HN_API}/${encodeURIComponent(currentNote.id)}/metadata`, {
+    const resp = await fetch(`${NOTES_API}/${encodeURIComponent(currentNote.id)}/metadata`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ entities, tags }),
@@ -991,7 +991,7 @@ submitBtn.addEventListener('click', async () => {
   fd.append('entities', JSON.stringify(tokens(entitiesField.value)));
   fd.append('tags', JSON.stringify(tokens(tagsField.value)));
   try {
-    const resp = await fetch(`${HN_API}/upload`, { method: 'POST', body: fd });
+    const resp = await fetch(`${NOTES_API}/upload`, { method: 'POST', body: fd });
     if (!resp.ok) {
       let detail = `HTTP ${resp.status}`;
       try {
@@ -1099,7 +1099,7 @@ export function isNotesOpen() {
   return notesPanel.classList.contains('open');
 }
 
-// Restore the handwritten-notes panel from URL-hash params:
+// Restore the notes panel from URL-hash params:
 //   #notes          → open the panel to the gallery (browse) view
 //   &note=<id>      → open that note in the lightbox
 //   &page=N         → open that page of the note

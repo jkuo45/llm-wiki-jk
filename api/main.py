@@ -31,7 +31,7 @@ from .graph_ops import (
     graph_query,
     match_nodes_in_text,
 )
-from .handwritten import router as handwritten_router
+from .notes import router as notes_router
 from .llm import (
     OpencodeUnavailable,
     create_session,
@@ -568,4 +568,4 @@ async def execute_stream(request: ExecuteRequest):
 
 
 app.include_router(api_v1)
-app.include_router(handwritten_router)
+app.include_router(notes_router)

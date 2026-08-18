@@ -11,6 +11,7 @@ export const state = {
   focusedCommunity: null,
   physicsEnabled: false,
   showLabels: true,
+  theme: 'light', // 'light' | 'dark' — mirrors the llm-wiki-theme preference
   sidebarInfoActive: true,
   suppressHashUpdate: false,
   readerId: null,
@@ -18,7 +19,7 @@ export const state = {
   analysisOpen: false,
   analysisMode: 'graph',
   // Handwritten notes panel (gallery / lightbox). Synced to the URL hash by
-  // handwritten.js → routing.updateHash() so a note can be deep-linked.
+  // notes.js → routing.updateHash() so a note can be deep-linked.
   notesOpen: false,
   notesNoteId: null,
   notesPage: null,
