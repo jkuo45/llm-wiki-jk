@@ -4,85 +4,12 @@
 
 import { state } from './state.js';
 import { updateHash } from './routing.js';
+import { ARTICLES } from './data.js';
 
 // ------------------------------------------------------------
 // Article registry (semantic IDs, not file paths)
+// Single source of truth: web/data/articles.json, loaded via data.js.
 // ------------------------------------------------------------
-export const ARTICLES = [
-  {
-    id: 'sirtuin-pleiotropy',
-    group: 'sirtuin-pleiotropy',
-    lang: 'en-US',
-    title: 'Sirtuins - Pleiotropy in Tumor Cell Metabolism',
-    path: 'pages/sirtuins_pleiotropic_roles.html',
-    created: '2026-08-13',
-    updated: '2026-08-15',
-    default: true,
-  },
-  {
-    id: 'sirtuin-pleiotropy-zh',
-    group: 'sirtuin-pleiotropy',
-    lang: 'zh-TW',
-    title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
-    path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
-    created: '2026-08-14',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'sirtuin-disease-complications',
-    group: 'sirtuin-disease-complications',
-    lang: 'en-US',
-    title: 'Sirtuins - Disease Complications',
-    path: 'pages/sirtuins_disease_complications.html',
-    created: '2026-08-14',
-    updated: '2026-08-15',
-  },
-  {
-    id: 'sirtuin-disease-complications-zh',
-    group: 'sirtuin-disease-complications',
-    lang: 'zh-TW',
-    title: 'Sirtuins - 疾病併發症（繁體中文）',
-    path: 'pages/sirtuins_disease_complications_zh-TW.html',
-    created: '2026-08-14',
-    updated: '2026-08-15',
-  },
-  {
-    id: 'ivermectin-fenbendazole-anticancer',
-    group: 'ivermectin-fenbendazole-anticancer',
-    lang: 'en-US',
-    title: '[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)',
-    path: 'pages/ivermectin-fenbendazole-anticancer.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'ivermectin-fenbendazole-anticancer-zh',
-    group: 'ivermectin-fenbendazole-anticancer',
-    lang: 'zh-TW',
-    title: '伊維菌素 × 芬苯達唑（互補抗癌機制）（繁體中文）',
-    path: 'pages/ivermectin-fenbendazole-anticancer_zh-TW.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'adrenochrome-protocol',
-    group: 'adrenochrome-protocol',
-    lang: 'en-US',
-    title: '[Speculative] Adrenochrome MB/AG Protocol',
-    path: 'pages/adrenochrome-protocol.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'adrenochrome-protocol-zh',
-    group: 'adrenochrome-protocol',
-    lang: 'zh-TW',
-    title: 'Adrenochrome MB/AG 方案（推測性）（繁體中文）',
-    path: 'pages/adrenochrome-protocol_zh-TW.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  }
-];
 
 export const getArticle = (id) => ARTICLES.find((a) => a.id === id) || null;
 export const getDefaultArticle = () => ARTICLES.find((a) => a.default) || ARTICLES[0];
@@ -266,13 +193,13 @@ frame.addEventListener('load', () => {
   startSectionTracking();
 });
 
-buildOptions();
-updatePrevBtn();
-
 // ------------------------------------------------------------
 // Wire up (button, select, language toggle, overlay, keyboard)
 // ------------------------------------------------------------
 const readerBtn = document.getElementById('btn-reader');
+
+buildOptions();
+updatePrevBtn();
 
 function openSelected() {
   const group = select.value;
@@ -313,5 +240,3 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-buildOptions();
-updatePrevBtn();
