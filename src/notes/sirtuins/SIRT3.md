@@ -3,7 +3,7 @@ title: SIRT3
 description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
   within the Mitochondria.
 created: 2026-07-04
-updated: 2026-08-11
+updated: 2026-08-18
 tags:
   - enzyme
   - nad-plus
@@ -213,6 +213,9 @@ List of documents that mention this entity
 
 - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
   - Review (Grabowska et al., Biogerontology 2017) covering conflicting human-longevity evidence for SIRT3, its nuclear H4K16/H3K9 deacetylation, reduced expression in aged oocytes, and loss-of-SIRT3 activation of HIF-1α.
+
+- [[_document_ - Roles of SIRT3 in aging and aging-related diseases|Roles of SIRT3 in Aging and Aging-Related Diseases (You & Wang 2025)]]
+  - Comprehensive review (Int J Biol Sci 2025) of SIRT3 as the only sirtuin directly linked to human longevity: mitochondrial metabolism (TCA, β-oxidation, OXPHOS), IDH2/NADPH and SOD2 antioxidant axes, nuclear chromatin roles (H3K56 deacetylation, 53BP1/NHEJ, decrotonylase activity), apoptosis (GSK-3β, AMPK/SENP1 axis), anti-fibrotic GSK-3β-Lys15 mechanism, and disease coverage across neurodegeneration (AD/PD/ALS/HD), CVD, diabetes/DCM, cancer (dual roles), AKI/CKD, AHL, COPD, and IDD/OA; plus therapeutic SIRT3 activators (honokiol, resveratrol, melatonin, 2-APQC, natural compounds).
 
 ## Connections
 
