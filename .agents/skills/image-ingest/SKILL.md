@@ -1,6 +1,6 @@
 ---
 name: image-ingest
-description: Ingest screenshots or photos (e.g. graph-analysis screenshots, handwritten notes) into the wiki notes panel using a LOCAL ollama vision model for OCR. Creates one media/notes folder per image, moves the file from raw/, and adds a curated entry (with OCR transcription) to media/notes/manifest.json.
+description: Ingest screenshots or photos (e.g. graph-analysis screenshots, handwritten notes) into the wiki notes panel using a LOCAL ollama vision model for OCR. Creates one media/notes folder per image, moves the file from raw/, adds a curated entry (with OCR transcription) to media/notes/manifest.json, and generates a web-gallery thumbnail.
 ---
 
 # Image Ingest (local ollama OCR)
@@ -124,6 +124,26 @@ Validate the file:
 python3 -m json.tool media/notes/manifest.json > /dev/null && echo OK
 ```
 
+### 4b. Generate a thumbnail
+
+Every note needs a `<stem>.thumb.<ext>` sibling: the web gallery requests
+`?thumb=1` for every card / page-strip, and the API serves the full-resolution
+original when no thumbnail exists (making the gallery slow). Once the manifest
+entry is in place, run the shared backfill script — it scans `media/notes/`
+(manifest + staged) and creates a `.thumb` for any page that lacks one
+(idempotent, format-preserving, keeps EXIF orientation):
+
+```bash
+uv run --with pillow python scripts/01_generate_thumbnail.py
+```
+
+Confirm this note's thumbnail was written:
+
+```bash
+ls -lh media/notes/n-<YYYYMMDD>-<slug>-00/
+# expect: <source>.<ext>  AND  <source>.thumb.<ext>
+```
+
 ### 5. Clean up `raw/`
 
 Remove the original from `raw/` now that a copy lives in the note folder:
@@ -144,8 +164,12 @@ rm raw/<source>.png
   and stop; do not invent a transcription.
 - **Always strip ANSI / control characters** from `ollama run` output before
   storing it in the manifest.
+- **Always generate the thumbnail** — after appending the manifest entry, run
+  `uv run --with pillow python scripts/01_generate_thumbnail.py` (Step 4b) so
+  the web gallery's `?thumb=1` requests get a small file instead of the
+  full-resolution original.
 - **Only touch `manifest.json`** — `.staged.json` is for live browser uploads;
-  leave it alone unless the user asks to reconcile.
+  leave it alone unless the user asks to reconcile (scripts/02_reconcile_notes.py).
 - Timestamps must be real (use `date -u`) and match the project display format
   rules in AGENTS.md where applicable.
 
