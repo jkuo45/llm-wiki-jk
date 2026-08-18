@@ -59,7 +59,7 @@
 - 🔎 Graphify queries: path, explain, trace:
     - [https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 	- [https://graph.johnnykuo.com/](https://graph.johnnykuo.com/)
-    - [https://api.johnnykuo.com/health](https://api.johnnykuo.com/health)
+    - [https://api.johnnykuo.com/v1/health](https://api.johnnykuo.com/v1/health)
     - 🔬 Explain (`graphify explain "Entity"`): surfaces a single entity's context - Use to inspect one gene/protein/disease node and understand its immediate biological environment.
     - 🛤️ Path (`graphify path "A" "B"`): traces the explicit hop-by-hop chain between two entities. Use to see how distant concepts connect, e.g., from a receptor/signaling node down to a downstream metabolic or disease node.
     - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.

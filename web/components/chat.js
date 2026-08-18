@@ -43,7 +43,7 @@ const htmlModeClose = document.getElementById('html-mode-close');
 const htmlModeDownload = document.getElementById('html-mode-download');
 const responseModeWrap = document.getElementById('response-mode');
 
-const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
+const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const INTENT_API = `${API_BASE}/intent`;
 const EXECUTE_STREAM_API = `${API_BASE}/execute/stream`;
 const SESSION_RESET_API = `${API_BASE}/session/reset`;

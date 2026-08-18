@@ -18,7 +18,7 @@ import time
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import APIRouter, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
@@ -128,11 +128,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# All public endpoints live under the /v1 prefix.
+api_v1 = APIRouter(prefix="/v1")
+
 
 @app.middleware("http")
 async def origin_gate(request: Request, call_next):
     """Reject requests that did not originate from an allowed UI origin."""
-    if request.url.path == "/health":
+    if request.url.path == "/v1/health":
         return await call_next(request)
 
     origin = request.headers.get("origin")
@@ -210,7 +213,7 @@ async def _touch_session(session_id: str | None) -> str:
     return new_id
 
 
-@app.get("/health")
+@api_v1.get("/health")
 async def health():
     """Health check for the adapter and the upstream opencode server."""
     G = get_graph()
@@ -235,7 +238,7 @@ GREETING_WORDS = {
 }
 
 
-@app.post("/intent", response_model=IntentResponse)
+@api_v1.post("/intent", response_model=IntentResponse)
 async def intent_endpoint(request: ChatRequest):
     """Phase 1: route the turn to a graph op or to wiki chat.
 
@@ -303,7 +306,7 @@ async def intent_endpoint(request: ChatRequest):
     )
 
 
-@app.post("/session/reset")
+@api_v1.post("/session/reset")
 async def reset_session(request: ChatRequest):
     """Drop a chat session so the next turn starts with clean context."""
     if request.session_id:
@@ -390,7 +393,7 @@ async def _with_heartbeat(
         task.cancel()
 
 
-@app.post("/execute/stream")
+@api_v1.post("/execute/stream")
 async def execute_stream(request: ExecuteRequest):
     """SSE endpoint. Chat streams reasoning + text; graph ops emit one event."""
     if request.message:
@@ -530,3 +533,6 @@ async def execute_stream(request: ExecuteRequest):
     return StreamingResponse(
         _single(), media_type="text/event-stream", headers=SSE_HEADERS
     )
+
+
+app.include_router(api_v1)
