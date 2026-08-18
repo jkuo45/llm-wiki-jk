@@ -181,6 +181,14 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 #page-modal-open:hover { color: #a0d4f0; border-color: #4E79A7; background: #2a2a4e; }
 #page-modal-open svg { width: 14px; height: 14px; display: block; }
+#page-modal-theme {
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
+  color: #e0e0e0; display: inline-flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; cursor: pointer; padding: 0;
+  transition: all 0.15s;
+}
+#page-modal-theme:hover { color: #a0d4f0; border-color: #4E79A7; background: #2a2a4e; }
+#page-modal-theme svg { width: 14px; height: 14px; display: block; }
 #reader-prev {
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
   color: #e0e0e0; font-size: 15px; line-height: 1; padding: 6px 10px; cursor: pointer;
@@ -208,6 +216,34 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 #page-modal-close:hover { color: #e0e0e0; }
 #page-modal-frame { flex: 1; width: 100%; border: none; background: #0f0f1a; min-height: 0; }
+
+/* Reader light theme — header bar and chrome follow the article theme
+   (#page-modal-overlay.light-theme is toggled by components/theme.js). */
+#page-modal-overlay.light-theme,
+#page-modal-overlay.light-theme #page-modal { background: #F6F3EC; }
+#page-modal-overlay.light-theme #page-modal-header { background: #FFFFFF; border-bottom-color: #E2DCCE; }
+#page-modal-overlay.light-theme #page-modal-header h2 { color: #22304A; }
+#page-modal-overlay.light-theme #page-modal-open,
+#page-modal-overlay.light-theme #page-modal-theme,
+#page-modal-overlay.light-theme #reader-prev,
+#page-modal-overlay.light-theme #reader-select,
+#page-modal-overlay.light-theme .lang-toggle {
+  background: #F6F3EC; border-color: #CCC5B2; color: #22304A;
+}
+#page-modal-overlay.light-theme #page-modal-open { color: #2563A8; }
+#page-modal-overlay.light-theme #page-modal-open:hover,
+#page-modal-overlay.light-theme #page-modal-theme:hover,
+#page-modal-overlay.light-theme #reader-prev:hover:not(:disabled) {
+  background: #ECE8DD; border-color: #0F766E; color: #0F766E;
+}
+#page-modal-overlay.light-theme #reader-select:focus { border-color: #0F766E; }
+#page-modal-overlay.light-theme .lang-toggle button { color: #7C8698; }
+#page-modal-overlay.light-theme .lang-toggle button + button { border-left-color: #CCC5B2; }
+#page-modal-overlay.light-theme .lang-toggle button:hover:not(.active) { color: #22304A; }
+#page-modal-overlay.light-theme .lang-toggle button.active { background: #0F766E; color: #fff; }
+#page-modal-overlay.light-theme #page-modal-close { color: #7C8698; }
+#page-modal-overlay.light-theme #page-modal-close:hover { color: #22304A; }
+#page-modal-overlay.light-theme #page-modal-frame { background: #F6F3EC; }
 
 /* HTML mode overlay — renders a chat response as a standalone pages.css page */
 #html-mode-overlay {

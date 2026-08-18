@@ -426,15 +426,15 @@ function buildHtmlModeDoc(text, title) {
   .md-body h1 { font-size: 1.9rem; margin-bottom: 8px; }
   .md-body h2 { font-size: 1.4rem; }
   .md-body h3 { font-size: 1.1rem; }
-  .md-body code { background: #23233f; }
-  .md-code { border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; background: #0f0f1a; overflow: hidden; }
+  .md-body code { background: var(--code-bg); }
+  .md-code { border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; background: var(--md-code-bg, var(--bg)); overflow: hidden; }
   .md-code > summary { cursor: pointer; padding: 8px 12px; color: var(--dim); font-size: .85rem; user-select: none; }
   .md-code > summary:hover { color: var(--teal); }
   .md-code > pre { margin: 0; border-top: 1px solid var(--line); }
   .md-body svg { max-width: 100%; height: auto; display: block; }
   .md-body svg text { fill: var(--text); font-family: inherit; }
-  .md-body .wikilink { color: var(--teal); text-decoration: none; border-bottom: 1px dotted rgba(62,201,167,.55); }
-  .md-body .wikilink:hover { color: #5fe3c0; }
+  .md-body .wikilink { color: var(--teal); text-decoration: none; border-bottom: 1px dotted var(--link-dash, rgba(62,201,167,.55)); }
+  .md-body .wikilink:hover { color: var(--teal-hover); }
 </style>
 </head>
 <body>

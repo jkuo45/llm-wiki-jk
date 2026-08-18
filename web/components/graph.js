@@ -14,6 +14,8 @@ import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: chat.js attaches its own listeners.
 import './chat.js';
+// Side-effect import: theme.js wires the Settings tab theme toggle.
+import './theme.js';
 
 // ------------------------------------------------------------
 // Stats footer (derived from data)

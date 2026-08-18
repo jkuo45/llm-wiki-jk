@@ -6,6 +6,7 @@
 <title>Sirtuins — 文章中的圖像與圖表</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
 <link rel="stylesheet" href="shared/pages.css">
+<script src="shared/page-theme.js"></script>
   <link rel="canonical" href="https://graph.johnnykuo.com/pages/sirtuins-images-and-figures_zh-TW.html">
   <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins-images-and-figures.html">
   <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins-images-and-figures_zh-TW.html">
@@ -123,11 +124,11 @@
 <nav>
   <div class="wrap">
     <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="返回圖譜首頁">&#8592; 返回</a>
-    <a class="n" href="#structures">蛋白質結構</a>
     <a class="n" href="#networks">網路圖譜</a>
-    <a class="n" href="#pharmacology">藥理學</a>
     <a class="n" href="#chromatin">染色質與修復</a>
     <a class="n" href="#lifespan">壽命與健康壽命</a>
+    <a class="n" href="#structures">蛋白質結構</a>
+    <a class="n" href="#pharmacology">藥理學</a>
     <a class="n" href="#substrates">受質與夥伴</a>
   </div>
 </nav>
@@ -155,6 +156,199 @@
 </header>
 
 
+
+<!-- ==================== 網路圖譜 ==================== -->
+<section id="networks">
+  <div class="wrap">
+    <h2>網路圖譜</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      跨細胞區室的 sirtuin 調控網路與 NAD<sup>+</sup> 代謝的整合視圖。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">"The Sirtuin Network: Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis"</a>（2025）
+    </p>
+    <div class="gallery-grid" data-gallery="networks">
+
+      <!-- 圖 1：區室化網路 -->
+      <div class="gallery-card" data-cat="network">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/c077addc161e/DMRR-42-e70201-g002.jpg"
+               alt="將 NAD+ 代謝連結至全身代謝調控的區室化 sirtuin 網路"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 區室圖譜</div>
+          <h3>區室化 Sirtuin 網路</h3>
+          <div class="caption">
+            核 sirtuin（SIRT1、SIRT6、SIRT7）協調控制代謝與發炎的轉錄程式。
+            粒線體 sirtuin（SIRT3、SIRT4、SIRT5）直接調節代謝通量與氧化還原恆定。
+            細胞質 SIRT2 將代謝訊號連結至細胞骨架與細胞週期過程。
+            NAD<sup>+</sup> 代謝動態調節各區室的 sirtuin 活性。
+          </div>
+          <div class="context">
+            此系統的核心是 NAD<sup>+</sup> 代謝，使細胞能量狀態得以耦合至葡萄糖／脂質代謝、
+            發炎訊號與粒線體功能上的協調代謝反應。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">來源：PMC13364290 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 2：NAD+ 代謝 -->
+      <div class="gallery-card" data-cat="network">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/6ad3a64bf5e1/DMRR-42-e70201-g001.jpg"
+               alt="NAD+ 代謝作為 sirtuin 活性與細胞能量恆定的中央調控因子"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · NAD+ 代謝</div>
+          <h3>NAD<sup>+</sup> 作為 Sirtuin 活性的中央調控因子</h3>
+          <div class="caption">
+            NAD<sup>+</sup> 透過從頭合成（色胺酸 → 犬尿胺酸）、Preiss–Handler（菸鹼酸）與
+            回收（菸鹼醯胺 → 經 NAMPT 生成 NMN）途徑產生。除了作為氧化還原輔因子，
+            NAD<sup>+</sup> 也是 sirtuin 不可或缺的受質，將其可用性直接連結至各區室的酶活性。
+          </div>
+          <div class="context">
+            各細胞區室 NAD<sup>+</sup> 濃度的變化會動態調節 sirtuin 網路，影響粒線體功能、
+            代謝途徑與壓力反應。與年齡相關的 NAD<sup>+</sup> 下降（經由 CD38 上調）
+            會損害 sirtuin 功能。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">來源：PMC13364290 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin 疾病網路（Guardians 圖 2） -->
+      <div class="gallery-card" data-cat="network lifespan">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/a0a932700c27/nihms591997f2.jpg"
+               alt="SIRT1、SIRT3 與 SIRT6 減輕多種年齡相關疾病"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · 疾病網路</div>
+          <h3>SIRT1、SIRT3 與 SIRT6 減輕年齡相關疾病</h3>
+          <div class="caption">
+            SIRT1、SIRT3 與 SIRT6 如何保護神經退化、代謝功能障礙、發炎、癌症與心血管
+            疾病的示意圖。每個蛋白質都曾報導兼具腫瘤抑制與致癌性質。
+            SIRT1 與 SIRT6 過度表現可延長小鼠壽命。
+          </div>
+          <div class="context">
+            此圖來自 Giblin 等人（2014）的里程碑回顧，總結哺乳類 sirtuin 在老化的
+            主要特徵中扮演「健康壽命守護者」的證據。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 染色質與修復 ==================== -->
+<section id="chromatin">
+  <div class="wrap">
+    <h2>染色質生物學與 DNA 修復</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Sirtuin 作為表觀遺傳調控因子——去乙醯化組蛋白以促進異染色質形成、端粒維持
+      與 DNA 損傷修復。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">"Sirtuins, a promising target in slowing down the ageing process"</a>（2017）
+      ＆ <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a>（2013）
+    </p>
+    <div class="gallery-grid" data-gallery="chromatin">
+
+      <!-- 圖 1：SIRT1/SIRT6 與染色質凝縮 -->
+      <div class="gallery-card" data-cat="chromatin">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/04a6/5514220/05bb658e5ee7/10522_2017_9685_Fig1_HTML.jpg"
+               alt="SIRT1 與 SIRT6 在染色質凝縮中的角色" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 染色質</div>
+          <h3>SIRT1 與 SIRT6 在染色質凝縮中的角色</h3>
+          <div class="caption">
+            兩種 sirtuin 透過三個機制促進異染色質形成：(1) H3K9 去乙醯化使其得以三甲基化
+            並結合 HP1α；(2) SIRT1 降低 p300 組蛋白乙醯轉移酶活性；(3) SIRT1 透過去乙醯化
+            K266 活化 SUV39H1 甲基轉移酶。箭頭 = 正向調控；T 形橫線 = 抑制。
+            粗箭頭表示老化過程中的變化。
+          </div>
+          <div class="context">
+            SIRT1 與 SIRT6 對 H3K9 的去乙醯化是異染色質形成的必要條件。
+            老化過程中此功能的喪失導致基因體不穩定、異常基因表現與細胞衰老。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">來源：PMC5514220 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin 交互作用體（Guardians 圖 3） -->
+      <div class="gallery-card" data-cat="chromatin substrates">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/f1e4428d9f7d/nihms591997f3.jpg"
+               alt="sirtuin 蛋白質交互作用夥伴或受質的範例" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · 交互作用體</div>
+          <h3>Sirtuin 蛋白質交互作用夥伴與受質</h3>
+          <div class="caption">
+            與回顧中敘述之路徑相關的 sirtuin 交互作用夥伴與受質範例：代謝（PGC-1α、FOXO、
+            NF-κB）、染色質生物學（H3K9、H3K56、H4K16）、DNA 修復（Ku70、WRN、CtIP）、
+            細胞存活（p53、survivin、c-MYC）與粒線體功能（SOD2、IDH2）。
+          </div>
+          <div class="context">
+            SIRT1、SIRT3 與 SIRT6 之間重疊的受質使用——有時造成相反的機能結果——
+            凸顯 sirtuin 生物學的情境依賴本質，以及泛 sirtuin 治療策略的困難。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 壽命與健康壽命 ==================== -->
+<section id="lifespan">
+  <div class="wrap">
+    <h2>壽命與健康壽命</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      小鼠 sirtuin 延長壽命的關鍵實驗證據——腦特異性 SIRT1 與全身性 SIRT6 過度表現。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">"Sirtuins: Guardians of Mammalian Healthspan"</a>（2014）
+    </p>
+    <div class="gallery-grid" data-gallery="lifespan">
+
+      <!-- 圖 1：SIRT1/SIRT6 壽命 -->
+      <div class="gallery-card" data-cat="lifespan">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/e3806a2c1685/nihms591997f1.jpg"
+               alt="SIRT1 與 SIRT6 過度表現延長小鼠壽命" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 壽命</div>
+          <h3>SIRT1 ＆ SIRT6 過度表現延長小鼠壽命</h3>
+          <div class="caption">
+            <b>圖 A：</b>在背內側／外側下視丘核（DMH/LH）過度表現 SIRT1，透過去乙醯化
+            NK2 同源框 1（NKX2-1）上調食慾素第 2 型受體（OX2R），延長兩性壽命。
+            <b>圖 B：</b>全身性 SIRT6 過度表現藉由抑制 IGF-1/AKT 訊號級聯
+            （包括下游 pAKT、pFOXO1、pFOXO3 與 pS6 激酶）延長雄性壽命。
+          </div>
+          <div class="context">
+            腦特異性 SIRT1 過度表現（BRASTO 小鼠）使中位壽命增加約 11%，並模仿
+            卡路里限制。SIRT6 過度表現分別在兩個獨立品系中將雄性中位壽命延長
+            14.5% 與 9.9%——此雄性特異性效果與血清 IGF-1 降低有關。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- ==================== 蛋白質結構 ==================== -->
 <section id="structures">
@@ -335,93 +529,6 @@
   </div>
 </section>
 
-<!-- ==================== 網路圖譜 ==================== -->
-<section id="networks">
-  <div class="wrap">
-    <h2>網路圖譜</h2>
-    <p class="lead" style="margin-bottom:6px;">
-      跨細胞區室的 sirtuin 調控網路與 NAD<sup>+</sup> 代謝的整合視圖。
-    </p>
-    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
-      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">"The Sirtuin Network: Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis"</a>（2025）
-    </p>
-    <div class="gallery-grid" data-gallery="networks">
-
-      <!-- 圖 1：區室化網路 -->
-      <div class="gallery-card" data-cat="network">
-        <div class="img-wrap">
-          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/c077addc161e/DMRR-42-e70201-g002.jpg"
-               alt="將 NAD+ 代謝連結至全身代謝調控的區室化 sirtuin 網路"
-               loading="lazy" onclick="openLightbox(this.src, this.alt)">
-        </div>
-        <div class="card-body">
-          <div class="fig-label">圖 1 · 區室圖譜</div>
-          <h3>區室化 Sirtuin 網路</h3>
-          <div class="caption">
-            核 sirtuin（SIRT1、SIRT6、SIRT7）協調控制代謝與發炎的轉錄程式。
-            粒線體 sirtuin（SIRT3、SIRT4、SIRT5）直接調節代謝通量與氧化還原恆定。
-            細胞質 SIRT2 將代謝訊號連結至細胞骨架與細胞週期過程。
-            NAD<sup>+</sup> 代謝動態調節各區室的 sirtuin 活性。
-          </div>
-          <div class="context">
-            此系統的核心是 NAD<sup>+</sup> 代謝，使細胞能量狀態得以耦合至葡萄糖／脂質代謝、
-            發炎訊號與粒線體功能上的協調代謝反應。
-          </div>
-          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">來源：PMC13364290 ↗</a>
-        </div>
-      </div>
-
-      <!-- 圖 2：NAD+ 代謝 -->
-      <div class="gallery-card" data-cat="network">
-        <div class="img-wrap">
-          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/6ad3a64bf5e1/DMRR-42-e70201-g001.jpg"
-               alt="NAD+ 代謝作為 sirtuin 活性與細胞能量恆定的中央調控因子"
-               loading="lazy" onclick="openLightbox(this.src, this.alt)">
-        </div>
-        <div class="card-body">
-          <div class="fig-label">圖 2 · NAD+ 代謝</div>
-          <h3>NAD<sup>+</sup> 作為 Sirtuin 活性的中央調控因子</h3>
-          <div class="caption">
-            NAD<sup>+</sup> 透過從頭合成（色胺酸 → 犬尿胺酸）、Preiss–Handler（菸鹼酸）與
-            回收（菸鹼醯胺 → 經 NAMPT 生成 NMN）途徑產生。除了作為氧化還原輔因子，
-            NAD<sup>+</sup> 也是 sirtuin 不可或缺的受質，將其可用性直接連結至各區室的酶活性。
-          </div>
-          <div class="context">
-            各細胞區室 NAD<sup>+</sup> 濃度的變化會動態調節 sirtuin 網路，影響粒線體功能、
-            代謝途徑與壓力反應。與年齡相關的 NAD<sup>+</sup> 下降（經由 CD38 上調）
-            會損害 sirtuin 功能。
-          </div>
-          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">來源：PMC13364290 ↗</a>
-        </div>
-      </div>
-
-      <!-- Sirtuin 疾病網路（Guardians 圖 2） -->
-      <div class="gallery-card" data-cat="network lifespan">
-        <div class="img-wrap">
-          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/a0a932700c27/nihms591997f2.jpg"
-               alt="SIRT1、SIRT3 與 SIRT6 減輕多種年齡相關疾病"
-               loading="lazy" onclick="openLightbox(this.src, this.alt)">
-        </div>
-        <div class="card-body">
-          <div class="fig-label">圖 2 · 疾病網路</div>
-          <h3>SIRT1、SIRT3 與 SIRT6 減輕年齡相關疾病</h3>
-          <div class="caption">
-            SIRT1、SIRT3 與 SIRT6 如何保護神經退化、代謝功能障礙、發炎、癌症與心血管
-            疾病的示意圖。每個蛋白質都曾報導兼具腫瘤抑制與致癌性質。
-            SIRT1 與 SIRT6 過度表現可延長小鼠壽命。
-          </div>
-          <div class="context">
-            此圖來自 Giblin 等人（2014）的里程碑回顧，總結哺乳類 sirtuin 在老化的
-            主要特徵中扮演「健康壽命守護者」的證據。
-          </div>
-          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
 <!-- ==================== 藥理學 ==================== -->
 <section id="pharmacology">
   <div class="wrap">
@@ -504,112 +611,6 @@
             心臟保護多酚的研究。它是已知的 SIRT1 活化劑，具有抗增生與抗發炎特性。
           </div>
           <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/" target="_blank">來源：PMC3613783 ↗</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ==================== 染色質與修復 ==================== -->
-<section id="chromatin">
-  <div class="wrap">
-    <h2>染色質生物學與 DNA 修復</h2>
-    <p class="lead" style="margin-bottom:6px;">
-      Sirtuin 作為表觀遺傳調控因子——去乙醯化組蛋白以促進異染色質形成、端粒維持
-      與 DNA 損傷修復。
-    </p>
-    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
-      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">"Sirtuins, a promising target in slowing down the ageing process"</a>（2017）
-      ＆ <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a>（2013）
-    </p>
-    <div class="gallery-grid" data-gallery="chromatin">
-
-      <!-- 圖 1：SIRT1/SIRT6 與染色質凝縮 -->
-      <div class="gallery-card" data-cat="chromatin">
-        <div class="img-wrap">
-          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/04a6/5514220/05bb658e5ee7/10522_2017_9685_Fig1_HTML.jpg"
-               alt="SIRT1 與 SIRT6 在染色質凝縮中的角色" loading="lazy"
-               onclick="openLightbox(this.src, this.alt)">
-        </div>
-        <div class="card-body">
-          <div class="fig-label">圖 1 · 染色質</div>
-          <h3>SIRT1 與 SIRT6 在染色質凝縮中的角色</h3>
-          <div class="caption">
-            兩種 sirtuin 透過三個機制促進異染色質形成：(1) H3K9 去乙醯化使其得以三甲基化
-            並結合 HP1α；(2) SIRT1 降低 p300 組蛋白乙醯轉移酶活性；(3) SIRT1 透過去乙醯化
-            K266 活化 SUV39H1 甲基轉移酶。箭頭 = 正向調控；T 形橫線 = 抑制。
-            粗箭頭表示老化過程中的變化。
-          </div>
-          <div class="context">
-            SIRT1 與 SIRT6 對 H3K9 的去乙醯化是異染色質形成的必要條件。
-            老化過程中此功能的喪失導致基因體不穩定、異常基因表現與細胞衰老。
-          </div>
-          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">來源：PMC5514220 ↗</a>
-        </div>
-      </div>
-
-      <!-- Sirtuin 交互作用體（Guardians 圖 3） -->
-      <div class="gallery-card" data-cat="chromatin substrates">
-        <div class="img-wrap">
-          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/f1e4428d9f7d/nihms591997f3.jpg"
-               alt="sirtuin 蛋白質交互作用夥伴或受質的範例" loading="lazy"
-               onclick="openLightbox(this.src, this.alt)">
-        </div>
-        <div class="card-body">
-          <div class="fig-label">圖 3 · 交互作用體</div>
-          <h3>Sirtuin 蛋白質交互作用夥伴與受質</h3>
-          <div class="caption">
-            與回顧中敘述之路徑相關的 sirtuin 交互作用夥伴與受質範例：代謝（PGC-1α、FOXO、
-            NF-κB）、染色質生物學（H3K9、H3K56、H4K16）、DNA 修復（Ku70、WRN、CtIP）、
-            細胞存活（p53、survivin、c-MYC）與粒線體功能（SOD2、IDH2）。
-          </div>
-          <div class="context">
-            SIRT1、SIRT3 與 SIRT6 之間重疊的受質使用——有時造成相反的機能結果——
-            凸顯 sirtuin 生物學的情境依賴本質，以及泛 sirtuin 治療策略的困難。
-          </div>
-          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ==================== 壽命與健康壽命 ==================== -->
-<section id="lifespan">
-  <div class="wrap">
-    <h2>壽命與健康壽命</h2>
-    <p class="lead" style="margin-bottom:6px;">
-      小鼠 sirtuin 延長壽命的關鍵實驗證據——腦特異性 SIRT1 與全身性 SIRT6 過度表現。
-    </p>
-    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
-      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">"Sirtuins: Guardians of Mammalian Healthspan"</a>（2014）
-    </p>
-    <div class="gallery-grid" data-gallery="lifespan">
-
-      <!-- 圖 1：SIRT1/SIRT6 壽命 -->
-      <div class="gallery-card" data-cat="lifespan">
-        <div class="img-wrap">
-          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/e3806a2c1685/nihms591997f1.jpg"
-               alt="SIRT1 與 SIRT6 過度表現延長小鼠壽命" loading="lazy"
-               onclick="openLightbox(this.src, this.alt)">
-        </div>
-        <div class="card-body">
-          <div class="fig-label">圖 1 · 壽命</div>
-          <h3>SIRT1 ＆ SIRT6 過度表現延長小鼠壽命</h3>
-          <div class="caption">
-            <b>圖 A：</b>在背內側／外側下視丘核（DMH/LH）過度表現 SIRT1，透過去乙醯化
-            NK2 同源框 1（NKX2-1）上調食慾素第 2 型受體（OX2R），延長兩性壽命。
-            <b>圖 B：</b>全身性 SIRT6 過度表現藉由抑制 IGF-1/AKT 訊號級聯
-            （包括下游 pAKT、pFOXO1、pFOXO3 與 pS6 激酶）延長雄性壽命。
-          </div>
-          <div class="context">
-            腦特異性 SIRT1 過度表現（BRASTO 小鼠）使中位壽命增加約 11%，並模仿
-            卡路里限制。SIRT6 過度表現分別在兩個獨立品系中將雄性中位壽命延長
-            14.5% 與 9.9%——此雄性特異性效果與血清 IGF-1 降低有關。
-          </div>
-          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
         </div>
       </div>
 
