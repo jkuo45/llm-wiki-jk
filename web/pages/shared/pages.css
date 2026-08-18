@@ -27,6 +27,7 @@
   --chip-d-bg:rgba(232,163,61,.08); --chip-d-border:rgba(232,163,61,.4);
   --chip-n-bg:rgba(224,224,224,.04);
   --badge-amber-bg:#E8A33D; --badge-amber-fg:#191934;
+  --badge-preclin-bg:#E8A33D; --badge-preclin-fg:#FFFFFF;
   --btn-fg:#0b1220;
   --lightbox-bg:rgba(8,8,16,.92);
   --scroll-thumb:rgba(107,107,133,.45);
@@ -57,6 +58,8 @@ h3{font-size:1.05rem; margin:18px 0 8px;}
 .badge.teal{color:var(--teal); border-color:var(--teal);}
 .badge.red{color:var(--red); border-color:var(--red);}
 .badge.amber{background:var(--badge-amber-bg); color:var(--badge-amber-fg); border-color:var(--badge-amber-bg); font-weight:700;}
+.badge.speculative{background:var(--red); color:#fff; border-color:var(--red); font-weight:700;}
+.badge.preclinical{background:var(--badge-preclin-bg); color:var(--badge-preclin-fg); border-color:var(--badge-preclin-bg); font-weight:700;}
 .grid{display:grid; gap:16px;}
 .g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
 .g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
@@ -171,7 +174,8 @@ footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute);
 #compSvg{width:100%; height:auto;}
 /* stage / stance badges */
 .stance,.stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:var(--code-bg); border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
-.stage.prec,.stance.prot{color:var(--green); border-color:var(--green);}
+.stance.prot{color:var(--green); border-color:var(--green);}
+.stage.prec{background:var(--badge-preclin-bg); color:var(--badge-preclin-fg); border-color:var(--badge-preclin-bg); font-weight:700;}
 .stage.ct,.stance.harm{color:var(--red); border-color:var(--red);}
 .stage.phase,.stance.dual{color:var(--amber); border-color:var(--amber);}
 .stage.appr{color:var(--blue); border-color:var(--blue);}
