@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-08-15
+updated: 2026-08-18
 ---
 # Sirtuins
 
@@ -198,6 +198,9 @@ updated: 2026-08-15
 | [[ELK4]]                          | Protein              | ETS-domain ternary complex factor; stabilizes SIRT7 at target promoters for H3K18 deacetylation                                   |
 | [[ELK1]]                          | Protein              | Founding member of the ETS ternary complex factor subfamily; ERK/MAPK target; reference point for ELK4-mediated SIRT7 recruitment |
 | [[ETS]]                           | Transcription Factor | ETS-domain transcription factor family; ELK4 member recruits SIRT7 in tumor suppressor gene repression                            |
+| [[CPT2]]                          | Protein              | Carnitine palmitoyltransferase 2; mitochondrial FAO enzyme desuccinylated/activated by SIRT5 (K424); rescues fatty-acid oxidation in diabetic cardiomyopathy                                  |
+| [[TOM1]]                          | Protein              | Target of Myb1; endosomal trafficking adaptor; desuccinylated by SIRT5 (K48) to stabilize protein and drive protective autophagy in myocardial infarction                                            |
+| [[NUCKS1]]                        | Protein              | Nuclear casein kinase and CDK substrate 1; HMG-box chromatin factor; SIRT7-dependent deacetylation links it to senescence and SASP regulation                                                        |
 
 ### Resveratrol Signalling Cascade
 
