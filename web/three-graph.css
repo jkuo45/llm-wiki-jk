@@ -911,7 +911,6 @@ a.data-source:hover { border-color: #6b9bc7; }
    Handwritten Notes panel (#notes-panel) — sibling of the analysis panel
    --------------------------------------------------------------------------- */
 #controls #btn-notes { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
-#controls #btn-notes { display: none; } /* hidden for now — deep links (#notes) still open the panel */
 #controls #btn-notes:hover { color: #e0e0e0; border-color: #4E79A7; }
 #controls #btn-notes.open { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
 
@@ -942,6 +941,8 @@ a.data-source:hover { border-color: #6b9bc7; }
 #notes-header .chat-header-actions { margin-left: 0; }
 #notes-header .chat-header-left { gap: 12px; flex: 0 1 auto; min-width: 0; }
 #notes-mode-switch { display: inline-flex; flex: none; border: 1px solid #3a3a5e; border-radius: 12px; overflow: hidden; }
+/* The Browse/Upload toggle is hidden for now — only the gallery view exists. */
+#notes-mode-switch[hidden] { display: none; }
 #notes-mode-switch .chat-mode-tab {
   background: none; border: none; color: #888; font-size: 12px; padding: 4px 12px;
   cursor: pointer; font-family: inherit; transition: all 0.15s;

@@ -185,9 +185,9 @@
       <div class="chat-header-left">
         <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
       </div>
-      <div id="notes-mode-switch" role="tablist" aria-label="Notes view">
+      <div id="notes-mode-switch" role="tablist" aria-label="Notes view" hidden>
         <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true">Browse<span class="mode-dot" aria-hidden="true"></span></button>
-        <button type="button" class="chat-mode-tab" data-view="upload" role="tab" aria-selected="false">Upload<span class="mode-dot" aria-hidden="true"></span></button>
+        <button type="button" class="chat-mode-tab" data-view="upload" role="tab" aria-selected="false" hidden>Upload<span class="mode-dot" aria-hidden="true"></span></button>
       </div>
       <div class="chat-header-actions">
         <button id="notes-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
@@ -260,7 +260,7 @@
       </div>
       <div class="notes-lb-body" id="notes-lb-body">
         <div class="notes-lb-stage">
-          <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous page / 上一頁" disabled>&larr;</button></div>
+          <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous image / 上一張" disabled>&larr;</button></div>
           <div class="notes-lb-imgwrap" id="notes-lb-imgwrap">
             <div class="notes-lb-zoomable" id="notes-lb-zoomable">
               <img id="notes-lb-img" alt="Handwritten note page">
@@ -273,7 +273,7 @@
               <button id="notes-lb-view" type="button" title="Fullscreen view of the note / 全螢幕檢視">⛶ View</button>
             </div>
           </div>
-          <div class="notes-lb-nav"><button id="notes-lb-next" title="Next page / 下一頁" disabled>&rarr;</button></div>
+          <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image / 下一張" disabled>&rarr;</button></div>
         </div>
         <div class="notes-lb-pages" id="notes-lb-pages"></div>
         <div class="notes-lb-side">

@@ -1,6 +1,7 @@
-// Notes panel — gallery, upload (files / camera), lightbox with
-// OCR transcripts and persistent annotation overlays, deep links to the linked
-// paper and graph entities. Sibling of the analysis (#chat) panel.
+// Notes panel — gallery + lightbox with OCR transcripts and persistent
+// annotation overlays, deep links to the linked paper and graph entities.
+// The upload screen (files / camera) is hidden for now. Sibling of the
+// analysis (#chat) panel.
 
 import { RAW_NODES, descByLabel, noteUrl, githubSourceUrl } from './data.js';
 import { esc, renderMarkdown } from './markdown.js';
@@ -180,6 +181,9 @@ document.addEventListener('click', (e) => {
 notesClose.addEventListener('click', closeNotes);
 
 function setView(view) {
+  // The Upload screen is hidden (notes arrive via the backend); Browse is the
+  // only reachable view. Programmatic requests for upload snap back to browse.
+  if (view !== 'browse') view = 'browse';
   modeSwitch.querySelectorAll('.chat-mode-tab').forEach((t) => {
     const active = t.dataset.view === view;
     t.classList.toggle('active', active);
@@ -301,7 +305,7 @@ function renderGallery() {
     emptyEl.hidden = false;
     emptyEl.textContent = notes.length
       ? 'No notes match your filters.'
-      : 'No handwritten notes yet. Switch to Upload to add photos of your paper notes.';
+      : 'No handwritten notes yet.';
     return;
   }
   emptyEl.hidden = true;
@@ -480,8 +484,12 @@ function setPage(page) {
     lbImg.removeAttribute('src');
     lbSvg.removeAttribute('viewBox');
   }
-  lbPrev.disabled = currentPage <= 1;
-  lbNext.disabled = currentPage >= pages;
+  // ←/→ move across every image in the gallery (not just pages of one note),
+  // so back/forth steps to the previous/next image in Browse order.
+  const entries = imageEntries();
+  const idx = currentImageIndex();
+  lbPrev.disabled = idx <= 0 || entries.length === 0;
+  lbNext.disabled = idx < 0 || idx >= entries.length - 1 || entries.length === 0;
   renderPagesStrip();
 }
 
@@ -503,8 +511,51 @@ function changePage(page) {
   syncNotesHash(false);
 }
 
-lbPrev.addEventListener('click', () => changePage(currentPage - 1));
-lbNext.addEventListener('click', () => changePage(currentPage + 1));
+// ------------------------------------------------------------
+// Gallery image navigation (lightbox ←/→): move across every image of every
+// note in the current Browse gallery, not just the pages of one note.
+// ------------------------------------------------------------
+// Flat, gallery-ordered list of { note, page } for every image.
+function imageEntries() {
+  return filteredNotes().flatMap((n) => (n.pages || []).map((p) => ({ note: n, page: p.page })));
+}
+
+// Index of the currently viewed image within imageEntries(), or 0 if the note
+// isn't in the current gallery, or -1 when there are no images at all.
+function currentImageIndex() {
+  const entries = imageEntries();
+  if (!entries.length) return -1;
+  let idx = entries.findIndex((e) => e.note.id === currentNote?.id && e.page === currentPage);
+  if (idx === -1) idx = entries.findIndex((e) => e.note.id === currentNote?.id);
+  return idx !== -1 ? idx : 0;
+}
+
+// Step +1 (forward) or -1 (back) through the gallery's images. Crossing a note
+// boundary switches the open note; within a note it just flips the page.
+function navigateImage(delta) {
+  const entries = imageEntries();
+  if (!entries.length) return;
+  const target = currentImageIndex() + delta;
+  if (target < 0 || target >= entries.length) return;
+  const { note, page } = entries[target];
+  if (note.id !== currentNote?.id) {
+    currentNote = note;
+    renderLightbox();
+  }
+  changePage(page);
+}
+
+lbPrev.addEventListener('click', () => navigateImage(-1));
+lbNext.addEventListener('click', () => navigateImage(+1));
+// Arrow keys step through images while the lightbox is open (ignored while
+// typing in a metadata field).
+document.addEventListener('keydown', (e) => {
+  if (lightboxEl.hidden) return;
+  const t = e.target;
+  if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+  if (e.key === 'ArrowLeft') { navigateImage(-1); e.preventDefault(); }
+  else if (e.key === 'ArrowRight') { navigateImage(+1); e.preventDefault(); }
+});
 
 // ------------------------------------------------------------
 // Zoom / pan
