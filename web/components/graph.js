@@ -14,8 +14,8 @@ import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: chat.js attaches its own listeners.
 import './chat.js';
-// Side-effect import: handwritten notes panel (gallery / upload / lightbox).
-import './handwritten.js';
+// Handwritten notes panel (gallery / upload / lightbox).
+import { isNotesOpen, closeNotes, restoreNotes } from './handwritten.js';
 // Side-effect import: theme.js wires the Settings tab theme toggle.
 import './theme.js';
 
@@ -161,6 +161,11 @@ function restoreFromHash(params) {
     openReader(params.reader, { section: params.section || null });
   } else if (isReaderOpen()) {
     closeReader();
+  }
+  if (params && (params.note || params.notes)) {
+    restoreNotes(params);
+  } else if (isNotesOpen()) {
+    closeNotes();
   }
   if (!params) {
     deselectNode();

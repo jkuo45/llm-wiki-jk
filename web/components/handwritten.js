@@ -5,6 +5,8 @@
 import { RAW_NODES, descByLabel, noteUrl, githubSourceUrl } from './data.js';
 import { esc, renderMarkdown } from './markdown.js';
 import { selectNode } from './interaction.js';
+import { updateHash, parseHash } from './routing.js';
+import { state } from './state.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const HN_API = `${API_BASE}/handwritten`;
@@ -87,6 +89,7 @@ let loaded = false;
 let loading = false;
 let apiDown = false;
 let apiError = '';
+let loadPromise = null;
 
 let currentNote = null;      // note object being viewed in the lightbox
 let currentPage = 1;
@@ -129,7 +132,8 @@ function openNotes() {
   notesPanel.classList.add('open');
   notesBtn.classList.add('open');
   syncNotesKeyboard();
-  if (!loaded && !loading) loadIndex();
+  ensureIndexLoaded();
+  syncNotesHash();
 }
 function closeNotes() {
   notesPanel.classList.remove('open');
@@ -137,6 +141,19 @@ function closeNotes() {
   stopCamera();
   setLightbox(null);
   syncNotesKeyboard();
+  syncNotesHash();
+}
+
+// Push the current handwritten-panel view into the shared state so the URL
+// hash reflects it (`#notes` = gallery, `&note=<id>` = lightbox, plus page /
+// fullscreen flags) and the URL can be shared / restored.
+function syncNotesHash(pushState = true) {
+  const viewingNote = currentNote && !lightboxEl.hidden;
+  state.notesOpen = notesPanel.classList.contains('open');
+  state.notesNoteId = viewingNote ? currentNote.id : null;
+  state.notesPage = viewingNote ? currentPage : null;
+  state.notesViewMode = viewingNote ? viewMode : false;
+  updateHash(pushState);
 }
 
 function syncNotesKeyboard() {
@@ -177,7 +194,7 @@ function setView(view) {
 }
 modeSwitch.addEventListener('click', (e) => {
   const tab = e.target.closest('.chat-mode-tab');
-  if (tab) setView(tab.dataset.view);
+  if (tab) { setView(tab.dataset.view); syncNotesHash(); }
 });
 uploadFast.addEventListener('click', () => setView('upload'));
 
@@ -218,6 +235,15 @@ async function loadIndex() {
   } finally {
     loading = false;
   }
+}
+
+// Resolve once the index has been fetched at least once. openNotes and URL-hash
+// restore share the same in-flight load so a deep link can open the lightbox as
+// soon as the gallery data lands (and never starts a duplicate fetch).
+function ensureIndexLoaded() {
+  if (loaded) return Promise.resolve();
+  if (!loadPromise) loadPromise = loadIndex();
+  return loadPromise.finally(() => { loadPromise = null; });
 }
 
 function populatePickers() {
@@ -379,6 +405,7 @@ function openLightbox(note) {
   lightboxEl.hidden = false;
   setViewMode(false);
   renderLightbox();
+  syncNotesHash();
 }
 function setLightbox(note) {
   if (!note) { currentNote = null; return; }
@@ -393,6 +420,7 @@ function goBackToGallery() {
   currentNote = null;
   setViewMode(false);
   renderGallery();
+  syncNotesHash();
 }
 
 // Toggle the fullscreen image view (side details hidden, image fills the panel).
@@ -401,6 +429,7 @@ function setViewMode(on) {
   lbBody.classList.toggle('view-mode', viewMode);
   lbView.textContent = viewMode ? '⛶ Details' : '⛶ View';
   lbView.title = viewMode ? 'Show details panel / 顯示詳情' : 'Fullscreen view of the note / 全螢幕檢視';
+  syncNotesHash();
 }
 lbView.addEventListener('click', () => setViewMode(!viewMode));
 
@@ -466,11 +495,19 @@ function renderPagesStrip() {
       <img src="${esc(imageUrl(currentNote, p.page, true))}" alt="Page ${p.page}">
     </button>`).join('');
   lbPages.querySelectorAll('button').forEach((b) =>
-    b.addEventListener('click', () => setPage(parseInt(b.dataset.page, 10))));
+    b.addEventListener('click', () => changePage(parseInt(b.dataset.page, 10))));
 }
 
-lbPrev.addEventListener('click', () => setPage(currentPage - 1));
-lbNext.addEventListener('click', () => setPage(currentPage + 1));
+// Flip to a specific page and persist it in the URL hash (replaceState — page
+// flips shouldn't add a history entry per click, but the shared page number
+// stays in the URL).
+function changePage(page) {
+  setPage(page);
+  syncNotesHash(false);
+}
+
+lbPrev.addEventListener('click', () => changePage(currentPage - 1));
+lbNext.addEventListener('click', () => changePage(currentPage + 1));
 
 // ------------------------------------------------------------
 // Zoom / pan
@@ -1055,6 +1092,39 @@ camCapture.addEventListener('click', () => {
 });
 
 window.addEventListener('beforeunload', stopCamera);
+
+// ------------------------------------------------------------
+// URL-hash restore / deep links
+// ------------------------------------------------------------
+export function isNotesOpen() {
+  return notesPanel.classList.contains('open');
+}
+
+// Restore the handwritten-notes panel from URL-hash params:
+//   #notes          → open the panel to the gallery (browse) view
+//   &note=<id>      → open that note in the lightbox
+//   &page=N         → open that page of the note
+//   &noteview=full  → toggle the fullscreen image view
+// Called by graph.js's restoreFromHash; updateHash is suppressed during restore.
+export async function restoreNotes(params) {
+  if (!notesPanel.classList.contains('open')) openNotes();
+  setView('browse');
+  if (!params || !params.note) return;
+  try {
+    await ensureIndexLoaded();
+  } catch (err) {
+    return; // API unreachable — the gallery shows the error banner instead.
+  }
+  // Bail if the hash changed while the gallery was loading (e.g. the user
+  // pressed Back before the fetch resolved) — don't force-open a stale note.
+  if (parseHash()?.note !== params.note) return;
+  const note = notes.find((n) => n.id === params.note);
+  if (!note) return; // unknown / deleted id → stays in gallery view
+  openLightbox(note);
+  const page = parseInt(params.page, 10);
+  if (page && page >= 1) setPage(page);
+  setViewMode(params.noteview === 'full');
+}
 
 // Kick the panel open on initial load if already referenced (no-op guard).
 export { openNotes, closeNotes };

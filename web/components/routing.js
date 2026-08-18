@@ -25,8 +25,24 @@ export function updateHash(pushState = true) {
     parts.push('analysis');
     parts.push(`mode=${encodeURIComponent(state.analysisMode)}`);
   }
+  if (state.notesOpen) {
+    parts.push('notes');
+    if (state.notesNoteId) {
+      parts.push(`note=${encodeURIComponent(state.notesNoteId)}`);
+      if (state.notesPage != null) {
+        parts.push(`page=${state.notesPage}`);
+      }
+      if (state.notesViewMode) {
+        parts.push('noteview=full');
+      }
+    }
+  }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
+  // Skip when nothing changed — avoids stacking duplicate history entries when
+  // several handlers push the same state in quick succession (e.g. opening a
+  // handwritten note runs openLightbox → setViewMode → setPage).
+  if (url === window.location.href) return;
   if (pushState) {
     history.pushState({ hash }, '', url);
   } else {
