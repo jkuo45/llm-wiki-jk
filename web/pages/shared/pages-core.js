@@ -16,12 +16,21 @@ function scaleDiagramText(svg){
 
 /* ============================= TOOLTIP HELPERS ============================= */
 
-function showTip(t){ const el=document.getElementById('netTip'); el.style.display='block'; el.innerHTML=t; }
-function moveTip(ev){ const el=document.getElementById('netTip'); el.style.left=(ev.clientX+14)+'px'; el.style.top=(ev.clientY+10)+'px'; }
-function hideTip(){ document.getElementById('netTip').style.display='none'; }
+function getTip(){
+  let el = document.getElementById('netTip');
+  if (!el){ // pages without a network diagram have no #netTip — create one lazily
+    el = document.createElement('div');
+    el.id = 'netTip';
+    (document.body || document.documentElement).appendChild(el);
+  }
+  return el;
+}
+function showTip(t){ const el=getTip(); el.style.display='block'; el.innerHTML=t; }
+function moveTip(ev){ const el=getTip(); el.style.left=(ev.clientX+14)+'px'; el.style.top=(ev.clientY+10)+'px'; }
+function hideTip(){ const el=getTip(); el.style.display='none'; }
 function tipTap(ev, html){
   const tc = ev.touches && ev.touches[0];
-  const el = document.getElementById('netTip');
+  const el = getTip();
   el.style.display='block'; el.innerHTML=html;
   if (tc){ el.style.left=(tc.clientX+14)+'px'; el.style.top=(tc.clientY+10)+'px'; }
   ev.stopPropagation();

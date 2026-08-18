@@ -165,6 +165,14 @@
   }
 
   function loadContext() {
+    // Pages may embed a lightweight node subset as window.__WIKI_CTX__
+    // (generated from web/data/graph.json) so tooltips work even when the
+    // page is opened directly from disk (file://), where fetch() is blocked
+    // by CORS. Falls back to fetching the full graph over HTTP when absent.
+    if (window.__WIKI_CTX__ && Array.isArray(window.__WIKI_CTX__) && window.__WIKI_CTX__.length) {
+      MAP = buildMap({ nodes: window.__WIKI_CTX__ });
+      return;
+    }
     if (typeof fetch !== "function") return;
     fetch(CTX_URL)
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
