@@ -19,13 +19,16 @@ model** — no cloud/API OCR, no agent vision required.
 
 ## Conventions (follow exactly)
 
-- **One image per folder.** Each note folder holds exactly one `page-N.<ext>`
-  image. Two separate screenshots → two separate folders + two manifest entries.
+- **One image per folder.** Each note folder holds exactly one image file (its
+  original basename). Two separate screenshots → two separate folders + two manifest entries.
 - **Folder naming**: `media/notes/n-<YYYYMMDD>-<slug>-00/`
   - `YYYYMMDD` = today (e.g. `20260818`)
   - `slug` = short kebab-case descriptor (e.g. `graph-analysis-creatine-mb-prompt`)
   - `-00` suffix (collision counter if needed)
-- **Page file**: `page-1.<ext>` (use `.png` for PNG, `.jpg`/`.jpeg` for JPEG).
+- **Retain the original file name** — do NOT rename to `page-N`. When copying
+  into the note folder, keep the source basename (e.g. `IMG_6170.jpeg`,
+  `gr1_autophagosomes.jpg`). The manifest `pages[].file` must list that basename.
+  (Preserves source provenance and avoids ambiguity across notes.)
 - **Move, don't copy**: after copying the image into its note folder, remove the
   original from `raw/` (the user's "move image there" intent).
 - Timestamps: frontmatter-style `created`/`updated` = `YYYY-MM-DD`; `created_at`/
@@ -57,7 +60,7 @@ path, and the manifest points into the folder):
 
 ```bash
 mkdir -p "media/notes/n-20260818-<slug>-00"
-cp raw/<source>.png "media/notes/n-20260818-<slug>-00/page-1.png"
+cp raw/<source>.<ext> "media/notes/n-20260818-<slug>-00/<source>.<ext>"
 ```
 
 Then run ollama on the copy. Clean the ANSI control-char noise from the output:
@@ -91,7 +94,7 @@ Schema:
   "document": "",                 // plain filename; only if it maps to a doc
   "entities": ["<GraphNodeLabel>", ...],   // graph node labels, plain text
   "tags": ["<kebab-case tags>"],
-  "pages": [{ "page": 1, "file": "page-1.png" }],
+  "pages": [{ "page": 1, "file": "<original-basename>.<ext>" }],
   "ocr": "<transcription from Step 3>",
   "ocr_lang": "en",
   "annotations": [],
@@ -110,6 +113,8 @@ Schema:
 - `topic`: reuse an existing topic name where possible; ask the user otherwise.
 - `ocr`: single page → just the text. Multi-page (separate entries) each carry
   their own page text.
+- `pages[].file`: the **original source basename** (not `page-1`), e.g.
+  `IMG_6170.jpeg`. It must exactly match the file placed in the note folder.
 - When a value is genuinely unknown/not applicable, leave `document` as `""`
   and `annotations` as `[]` rather than inventing data.
 
@@ -129,8 +134,10 @@ rm raw/<source>.png
 
 ## Rules / pitfalls
 
-- **One folder per image** — never lump two screenshots into one folder as
-  `page-1`/`page-2` unless the user explicitly wants a multi-page note.
+- **One folder per image** — never lump two screenshots into one folder as two
+  page files unless the user explicitly wants a multi-page note.
+- **Retain original file names** — do not normalize to `page-N`; keep the source
+  basename in the folder and in `pages[].file`.
 - **No wiki links in data files** — `ocr`, `entities`, `document`, `entities`
   are plain text, never `[[...]]`.
 - **No fabricated OCR** — if a model cannot read the image (no vision), say so
