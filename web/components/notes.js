@@ -78,7 +78,6 @@ const fitBtn = $('notes-lb-fit');
 let notes = [];
 let documents = [];
 let filterQ = '';
-let filterDoc = '';   // active document filter ('' = all documents)
 let uiLang = 'en-US'; // panel + note-content language; persisted across visits
 try {
   const savedLang = localStorage.getItem('llm-wiki-notes-ui-lang');
@@ -325,7 +324,6 @@ function closeNotes() {
 function syncNotesHash(pushState = true) {
   const viewingNote = currentNote && !lightboxEl.hidden;
   state.notesOpen = notesPanel.classList.contains('open');
-  state.notesDoc = filterDoc || '';
   state.notesUiLang = uiLang;
   state.notesNoteId = viewingNote ? currentNote.id : null;
   state.notesPage = viewingNote ? currentPage : null;
@@ -426,7 +424,6 @@ function populatePickers() {
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
   return notes.filter((n) => {
-    if (filterDoc && (n.document || '') !== filterDoc) return false;
     if (!q) return true;
     const hay = [
       activeTitle(n), n.topic, n.document, (activeOcr(n) || ''),
@@ -539,14 +536,6 @@ searchInput.addEventListener('keydown', (e) => {
 let comboboxItems = [];
 let comboboxIdx = -1;
 
-// Sorted list of documents that actually have notes (every option leads to a
-// non-empty gallery — not the full `_document_` index).
-function documentOptions() {
-  return [...new Set(notes.map((n) => (n.document || '').trim()).filter(Boolean))]
-    .sort((a, b) => a.localeCompare(b))
-    .map((v) => ({ value: v, label: shortDoc(v) }));
-}
-
 // Notes matching the current query (title/OCR/entities/tags/document).
 function searchMatches() {
   const q = filterQ.trim().toLowerCase();
@@ -560,39 +549,21 @@ function searchMatches() {
   }).slice(0, 12);
 }
 
-// Render the dropdown: a Notes section (all note/image titles when empty,
-// matching notes while typing) plus a Documents section to filter by document.
+// Own the dropdown with every note's image title when empty, narrowed to
+// matches while typing.
 function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
-  const docs = documentOptions();
-  // Populate with every note's title (the image name from the manifest) on
-  // open; narrow to matches once the user types. `notes` is newest-first.
   const matches = q ? searchMatches() : notes;
-  const mDocs = q
-    ? docs.filter((d) => d.label.toLowerCase().includes(q) || d.value.toLowerCase().includes(q))
-    : docs;
-
   const parts = [];
   if (matches.length) {
     parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
     parts.push(matches.map((n) => noteItemHTML(n)).join(''));
-  }
-  if (mDocs.length) {
-    parts.push(`<div class="notes-section-label">${esc(t('allDocuments'))}</div>`);
-    parts.push(`<button type="button" class="notes-popup-item doc" data-doc="" role="option" aria-selected="${!filterDoc}">
-      <span class="popup-topic">${esc(t('allDocuments'))}</span>
-      <span class="popup-check" ${!filterDoc ? '' : 'hidden'}>✓</span>
-    </button>`);
-    parts.push(mDocs.map((d) => docItemHTML(d)).join(''));
-  }
-  if (!matches.length && !mDocs.length) {
+  } else {
     parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
   }
   comboboxPopup.innerHTML = parts.join('');
-  comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-doc], [data-note]'));
+  comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-note]'));
   comboboxIdx = -1;
-  comboboxPopup.querySelectorAll('[data-doc]').forEach((b) =>
-    b.addEventListener('click', () => commitDocumentFilter(b.dataset.doc)));
   comboboxPopup.querySelectorAll('[data-note]').forEach((b) =>
     b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
 }
@@ -604,26 +575,8 @@ function noteItemHTML(n) {
   </button>`;
 }
 
-function docItemHTML(d) {
-  return `<button type="button" class="notes-popup-item doc" data-doc="${esc(d.value)}" role="option" aria-selected="${filterDoc === d.value}">
-    <span class="popup-topic">${esc(d.label)}</span>
-    <span class="popup-check" ${filterDoc === d.value ? '' : 'hidden'}>✓</span>
-  </button>`;
-}
-
 function highlightCombobox() {
   comboboxItems.forEach((b, i) => b.classList.toggle('active', i === comboboxIdx));
-}
-
-function commitDocumentFilter(value) {
-  setDocumentFilter(value);
-  closeCombobox();
-}
-
-function setDocumentFilter(value) {
-  filterDoc = value;
-  renderGallery();
-  syncNotesHash();
 }
 
 function openNoteFromCombobox(id) {
@@ -1456,9 +1409,6 @@ export async function restoreNotes(params) {
   setView('browse');
   if (params && params.uilang && params.uilang !== 'en-US') {
     applyUiLang(params.uilang);
-  }
-  if (params && params.doc) {
-    filterDoc = params.doc;
   }
   renderGallery();
   if (!params || !params.note) return;
