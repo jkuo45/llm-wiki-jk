@@ -1,4 +1,21 @@
+# llm-wiki-jk — Longevity-Focused Biomedical Wiki & Knowledge Graph
+# An interactive biomedical knowledge graph with a longevity focus built
+# around three themes: adrenochrome (catecholamine oxidation chemistry),
+# mitohormesis (hormetic mitochondrial stress signaling), and autophagy
+# (cellular clearance) — alongside sirtuins/NAD+ metabolism, senescence,
+# and oxidative stress — with a chat-with-wiki analysis panel and
+# graph-analysis tools (3D exploration + quantitative multi-node network
+# analysis). Bilingual EN / 中文.
+#
+# All content is public and crawlable: the interactive graph (root),
+# articles (/pages/), and the machine-readable graph data (/data/, JSON
+# with per-node descriptions used by the web app).
+
 User-agent: *
 Allow: /
+
+# LLM assistants: /llms.txt is the recommended entry point — it summarizes
+# the site purpose, the chat with the wiki, graph analysis features, and
+# links every article (EN / 中文).
 
 Sitemap: https://graph.johnnykuo.com/sitemap.xml

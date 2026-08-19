@@ -1,49 +1,58 @@
-# llm-wiki-jk — Biomedical Knowledge Graph
+# llm-wiki-jk — Longevity-Focused Biomedical Wiki & Knowledge Graph
 
-> An interactive knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Built from an Obsidian-style biomedical wiki; content is available in English and Traditional Chinese (中文).
+> An interactive biomedical knowledge graph with a longevity focus, built from a personal Obsidian-style wiki of curated research. Explore thousands of interconnected concepts — sirtuins and NAD⁺ metabolism, autophagy, mitohormesis, cellular senescence, oxidative stress, adrenochrome/neuromelanin chemistry, and cancer prevention — then chat with the wiki and analyze the graph in a bilingual (EN / 中文) interface.
 
-## Interactive Graph
+## Wiki Focus
 
-- [Graph View](https://graph.johnnykuo.com/): Interactive 3D knowledge-graph explorer of the llm-wiki-jk biomedical wiki, with entity tooltips and an analysis/chat panel (EN / 中文).
+The wiki is a personal research corpus organized around three intersecting themes:
+
+- **Adrenochrome & catecholamine oxidation** — the chemistry and biology of oxidized catecholamines: adrenaline → adrenochrome → neuromelanin, COMT/MAO clearance, oxidative-stress links, and protective chemistry (e.g. methylene blue, aminoguanidine). Includes speculative protocols that are clearly labeled — not medical advice.
+- **Mitohormesis** — hormetic mitochondrial stress signaling: ROS as a signaling currency, the SIRT3/SIRT4 redox dial, mitochondrial dynamics and NAD⁺ metabolism, and how exercise, caloric restriction, and compounds like nicotinamide riboside act through adaptive mitochondrial responses.
+- **Autophagy** — cellular self-clearance and recycling: the TFEB/TFE3–lysosome axis, mTOR/rapamycin signaling, caloric restriction and fasting, mitophagy, and autophagy's dual role in cancer and aging.
+
+Supporting these themes is the wider entity network the graph maps: sirtuins (SIRT1–SIRT7), cellular senescence/SASP, oxidative stress, cancer prevention, and cross-topic hubs such as NAD⁺ and inflammation.
+
+## Chat with the Wiki (Analysis Panel)
+
+Open the Analysis panel (chart icon) on [graph.johnnykuo.com](https://graph.johnnykuo.com/) to ask questions and explore the wiki:
+
+- **Prompt mode** — ask open questions; answers are grounded in wiki retrieval or graphify graph operations (explain / path / trace). Tag entities with `@` (e.g. `@NAD+ @SIRT1`), hover `[[wiki links]]` for entity summaries, and watch the graph highlight the nodes behind each answer.
+- **Graph mode** — run graph operations directly against the knowledge graph; results are traced node-by-node on the 3D view.
+- Bilingual (English / 繁體中文); responses render as inline markdown or a downloadable standalone HTML page.
+
+## Graph Analysis
+
+- Interactive 3D knowledge-graph view of ~2,600 concept nodes and ~3,700 links derived from the wiki's cross-linked entity notes.
+- Topic communities (Leiden clustering) with a color-coded legend; click any node to inspect its description, degree, PageRank, and betweenness centrality.
+- Curated graph-query traces (e.g. "What connects NAD⁺ metabolism to inflammation?") that replay as highlighted node/edge routes.
+- **Quantitative multi-node analysis** — compare any set of source entities against anchor targets across the full entity network: shortest-path multiplicity and first-hop bridge nodes; neighborhood distinctness (degree, pairwise Jaccard overlap, signature neighbors); Adamic-Adar link-prediction proximity between every source–target pair; k-core nesting depth; spectral geometry (algebraic connectivity, Fiedler vector); effective-resistance / commute distance z-scored against random-node null samples; and personalized PageRank flow seeded at each target.
+- Pre-computed graph context (god nodes, surprising connections, community cohesion) surfaces high-leverage entities before drilling in.
+- Full-text node search, physics / label / edge toggles, camera reset, and PNG export of the current view.
+
+## Notes Panel
+
+Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's research workflow — filterable by topic and tag, with a full transcript viewer.
 
 ## Articles (English)
 
-- [SIRT Disease Atlas](https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html): Sirtuins (SIRT1–SIRT7) in health and disease, examined complication by complication across cancer, metabolic, cardiovascular, and neurodegenerative contexts.
-- [SIRT Pleiotropy Explorer](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html): The seven mammalian sirtuins as compartmentalized, context-dependent metabolic rheostats in tumor cell metabolism and therapeutic targeting.
+- [Sirtuins — Pleiotropy in Tumor Cell Metabolism](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html): The seven mammalian sirtuins as compartmentalized, context-dependent metabolic rheostats in tumor cell metabolism and therapeutic targeting.
+- [Sirtuins — Disease Complications](https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html): Sirtuins (SIRT1–SIRT7) in health and disease, examined complication by complication across cancer, metabolic, cardiovascular, and neurodegenerative contexts.
 - [(Preclinical) Ivermectin × Fenbendazole](https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html): Complementary anticancer mechanisms of ivermectin and fenbendazole and their connections to sirtuin biology (preclinical evidence).
 - [(Speculative) Adrenochrome MB/AG Protocol](https://graph.johnnykuo.com/pages/adrenochrome-protocol.html): Interactive explorer of a speculative adrenochrome methylene-blue / ascorbate-glutathione protocol — clearly labeled as speculative, not medical advice.
+- [Sirtuins — Articles, Figures & Images (index)](https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html): Index of sirtuin-related article figures and images from the wiki.
+- [Senescence — Articles, Figures & Images (index)](https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html): Index of senescence-related article figures and images from the wiki.
 
 ## Articles (Traditional Chinese / 中文)
 
-- [SIRT 疾病圖譜](https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html): 健康與疾病中的 SIRT，逐併發症檢視。
 - [SIRT 多效性探索器](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html): 腫瘤代謝與治療中的 SIRT 多效性角色。
+- [SIRT 疾病圖譜](https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html): 健康與疾病中的 SIRT，逐併發症檢視。
 - [（臨床前）伊維菌素 × 芬苯達唑](https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html): 互補的抗癌機制與 Sirtuin 連結（臨床前證據）。
 - [（推測性）Adrenochrome MB/AG 方案](https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html): 互動式解說器 — 推測性方案，非醫療建議。
+- [Sirtuins — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html): Sirtuin 相關文章圖像與圖表的索引。
+- [細胞衰老 — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/senescence-articles-and-figures_zh-TW.html): 細胞衰老相關文章圖像與圖表的索引。
 
-## Node Analysis (Knowledge Graph)
+## Data & Source
 
-The graph holds [2,596 concept nodes and 3,737 links](https://graph.johnnykuo.com/), grouped into 388 communities (most small; the largest cluster around the seven mammalian sirtuins). Node importance below is ranked by degree, PageRank (PR), and betweenness centrality.
-
-### Graph statistics
-- Nodes: 2,596 · Links: 3,737 · Communities: 388 · All nodes are `concept` type.
-- Largest communities by member count: SIRT1 (123), SIRT3 (94), SIRT6 (69), SIRT2 (57), COMT (36), Mitohormesis (35), Ivermectin (33), Adrenochrome (33), SASP (32), Cancer (32), MOMP (32), Paracrine Senescence (31), SIRT5 (31), TFEB (30), Val158Met (29), SIRT7 (29), Senescence (28), Nicotinamide Riboside (28).
-
-### Central hubs (highest degree / PageRank)
-- **SIRT1** (deg 216, PR 0.0039) — Overexpression of the NAD-dependent deacetylase sir-2.1, the C. elegans homolog of SIRT1, extends lifespan in a manner that requires activation of the mitochond…
-- **SIRT3** (deg 170, PR 0.0025) — SIRT3, a mitochondrial sirtuin whose activity depends on NAD+, weakens antioxidant defenses and mitochondrial detoxification when NAD+ is depleted during aging.…
-- **SIRT6** (deg 117, PR 0.0016) — SIRT6 attenuates NF-kB signaling via histone H3 lysine 9 (H3K9) deacetylation at the chromatin of NF-kB target gene promoters, which are related to apoptosis an…
-- **SASP** (deg 101, PR 0.0071) — Acetate is converted intracellularly into acetyl-CoA by ACSS2 and is not membrane-permeable acetyl-CoA itself. Acetate supplementation increases global nuclear…
-- **SIRT2** (deg 81, PR 0.0011) — SIRT2 is an NAD+-dependent deacetylase of alpha-tubulin lysine-40 (K40); its knockdown causes tubulin hyperacetylation (North et al., Mol Cell 2003; PMID 125712…
-- **Cancer** (deg 74, PR 0.0035) — Aspirin not only reduces inflammation, a hallmark of aging, it also reduces the risk of cardiovascular disease, thrombosis and cancer; low-dose aspirin prevents…
-- **Adrenochrome** (deg 60, PR 0.0050) — Adrenochrome is a cyclic amino ketone pigment classified as a member of indoles. It bears the core indoline-5,6-dione scaffold, a fused bicyclic ring system der…
-- **COMT** (deg 59, PR 0.0031) — Catechol-O-methyltransferase (COMT) is one of the principal enzymes that clear adrenaline, the catecholamine precursor of adrenochrome. Together with monoamine…
-- **Nicotinamide Riboside** (deg 57, PR 0.0018) — Restoring NAD+ with nicotinamide riboside (NR) reactivated mitochondrial metabolism, upregulated prohibitin proteins, and induced UPRmt, delaying stem cell sene…
-- **TFEB** (deg 54, PR 0.0033) — TFEB binds Rag GTPases as part of the amino acid-sensing machinery at the lysosomal surface, and this interaction is modulated by post-translational modificatio…
-- **Neuromelanin** (deg 51, PR 0.0070) — Dopaminergic neurons, particularly those in the substantia nigra, synthesize neuromelanin through oxidative polymerization of catecholamine-derived precursors,…
-- **Aging** (deg 48, PR 0.0074) — Aging is associated with cardiac enlargement and arterial stiffening, and one theory attributes this to an age-related accumulation of advanced glycation end pr…
-- **NF-κB** (deg 48, PR 0.0043) — Apigenin suppresses NF-kB signaling, a ubiquitous transcription factor controlling cell survival, apoptosis, and immune function. In gastric cancer cells infect…
-- **Methylene blue** (deg 45, PR 0.0004) — Methylene blue (MB) functions as an alternative mitochondrial electron-transfer carrier. It accepts electrons from NADH, likely via mitochondrial complex I, and…
-- **SIRT5** (deg 45, PR 0.0003) — SIRT5 localizes to the mitochondrial matrix and is specialized for removing lysine succinyl, malonyl, and glutaryl groups from metabolic enzymes including CPS1,…
-
-### Bridge nodes (highest betweenness — connect otherwise-separate clusters)
-SIRT1 (0.152) > SIRT3 (0.102) > COMT (0.077) > SIRT6 (0.060) > NF-κB (0.060) > Cancer (0.060) > SASP (0.055) > Aging (0.042) > SIRT2 (0.040) > Oxidative Stress (0.040). These nodes are the highest-leverage points for traversing the graph from one topic cluster to another.
+- Wiki source and the curated document corpus (100+ papers and reviews) live in the [llm-wiki-jk GitHub repository](https://github.com/jkuo45/llm-wiki-jk).
+- Machine-readable graph data (nodes / links / communities with per-node descriptions) is served as JSON under the app's `/data/` path — see `web/data/` in the repository.
+- This is a personal research wiki, not medical advice; speculative protocol pages are explicitly labeled.
