@@ -9,7 +9,13 @@
       "@ivermectin",
       "@fenbendazole"
     ],
-    "tags": [],
+    "tags": [
+      "notes",
+      "apoptosis",
+      "cell-death",
+      "cancer",
+      "mitochondria"
+    ],
     "pages": [
       {
         "page": 1,
@@ -47,7 +53,10 @@
       "Methylene Blue"
     ],
     "tags": [
-      "graph-analysis"
+      "graph-analysis",
+      "creatine",
+      "methylene-blue",
+      "cognition"
     ],
     "pages": [
       {
@@ -75,7 +84,10 @@
       "Methylene Blue"
     ],
     "tags": [
-      "graph-analysis"
+      "graph-analysis",
+      "creatine",
+      "methylene-blue",
+      "cognition"
     ],
     "pages": [
       {
@@ -106,7 +118,9 @@
       "Lysosome"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "macroautophagy",
+      "autophagosome"
     ],
     "pages": [
       {
@@ -139,7 +153,11 @@
     "tags": [
       "autophagy",
       "fasting",
-      "metabolism"
+      "metabolism",
+      "notes",
+      "ampk",
+      "mtor",
+      "insulin"
     ],
     "pages": [
       {
@@ -171,7 +189,11 @@
     "tags": [
       "aging",
       "fasting",
-      "senescence"
+      "senescence",
+      "notes",
+      "cancer",
+      "calorie-restriction",
+      "stem-cells"
     ],
     "pages": [
       {
@@ -203,7 +225,11 @@
     ],
     "tags": [
       "adrenochrome",
-      "oxidative-stress"
+      "oxidative-stress",
+      "notes",
+      "epinephrine",
+      "oxidation",
+      "catecholamines"
     ],
     "pages": [
       {
@@ -234,7 +260,10 @@
     ],
     "tags": [
       "adrenochrome",
-      "redox"
+      "redox",
+      "epinephrine",
+      "oxidation",
+      "catecholamines"
     ],
     "pages": [
       {
@@ -266,7 +295,9 @@
       "spermidine",
       "autophagy",
       "aging",
-      "polyamines"
+      "polyamines",
+      "notes",
+      "mitochondria"
     ],
     "pages": [
       {
@@ -295,7 +326,9 @@
     "tags": [
       "spermidine",
       "polyamines",
-      "metabolism"
+      "metabolism",
+      "notes",
+      "nutrition"
     ],
     "pages": [
       {
@@ -324,7 +357,9 @@
     "tags": [
       "polyamines",
       "neurochemistry",
-      "phenethylamine"
+      "phenethylamine",
+      "notes",
+      "monoamine"
     ],
     "pages": [
       {
@@ -357,7 +392,11 @@
     "tags": [
       "adrenochrome",
       "redox",
-      "oxidative-stress"
+      "oxidative-stress",
+      "notes",
+      "epinephrine",
+      "metal-chelation",
+      "catecholamines"
     ],
     "pages": [
       {
@@ -392,7 +431,10 @@
     ],
     "tags": [
       "blood-cells",
-      "hematology"
+      "hematology",
+      "notes",
+      "leukocytes",
+      "erythrocyte"
     ],
     "pages": [
       {
@@ -426,7 +468,11 @@
     "tags": [
       "adrenochrome",
       "redox",
-      "oxidative-stress"
+      "oxidative-stress",
+      "notes",
+      "epinephrine",
+      "superoxide",
+      "catecholamines"
     ],
     "pages": [
       {
@@ -434,7 +480,7 @@
         "file": "IMG_6190.jpeg"
       }
     ],
-    "ocr": "05/16/26 Thursday\n\nAdrenochrome / oxidation intermediates (\"astaxanthin\" per OCR — appears to be adrenochrome/quinone chemistry)\n- Form: red\n- (adrenochrome) chemical intermediate, the oxidation pathway of epi to adrenochrome.\n- Reduces adrenochrome into adrenochrome carbonate.\n- Reduces intermediate into our simple oxide oxygen uptake.\n- Free radical component to superoxide anion. Produced in some systems.\n- Appears as an impurity in epi/adrenochrome-related products.\n- In alkali conditions or enzymatic oxidation -> beta-adrenergic/adrenergic – dopamine.\n- (adrenochrome) can participate in redox (ROS).\n- Influences reactive oxygen species production.\n- Replaces more stable free amine intermediates but can be re-oxidized to adrenaline.\n- (oxygen/carbon/nitrogen/carbon/nitrogen/carbon) Mechanistic.\n- Spontaneously into oxidation of epinephrine.\n- Mechanisms/events -> these radicals and hydrogen peroxide can co-oxidate -> epi + epinephrine.\n- (Free radicals) participate in redox recycling.\n- Via systems: hydroxyl/methyl/hydroxy/methyl-RR (red/yellow).\n- Suppressed amplifies oxidative stress in erythrocytes.\n- (adrenochrome fluorescence observations).\n- It is associable with Vitamin C, can reduce adrenaline.\n- No strong evidence shows direct binding of (adrenochrome) molecule.\n\n(Diagram showing pathway from epi to adrenochrome, with arrows indicating transformations and key intermediates.)\n(A small table with the following items: Red blood cells, Alkaline conditions, Enzymatic oxidation.)\n(Mechanistic notes are written in the margins - red handwritten note - \"this pathway increases its potential through ROS and antioxidants processes.\")",
+    "ocr": "05/16/26 Thursday\n\nAdrenochrome / oxidation intermediates (\"astaxanthin\" per OCR — appears to be adrenochrome/quinone chemistry)\n- Form: red\n- (adrenochrome) chemical intermediate, the oxidation pathway of epi to adrenochrome.\n- Reduces adrenochrome into adrenochrome carbonate.\n- Reduces intermediate into our simple oxide oxygen uptake.\n- Free radical component to superoxide anion. Produced in some systems.\n- Appears as an impurity in epi/adrenochrome-related products.\n- In alkali conditions or enzymatic oxidation -> beta-adrenergic/adrenergic – dopamine.\n- (adrenochrome) can participate in redox (ROS).\n- Influences reactive oxygen species production.\n- Replaces more stable free amine intermediates but can be re-oxidized to adrenaline.\n- (oxygen/carbon/nitrogen/carbon/nitrogen/carbon) Mechanistic.\n- Spontaneously into oxidation of epinephrine.\n- Mechanisms/events -> these radicals and hydrogen peroxide can co-oxidate -> epi + epinephrine.\n- (Free radicals) participate in redox recycling.\n- Via systems: hydroxyl/methyl/hydroxy/methyl-RR (red/yellow).\n- Suppressed amplifies oxidative stress in erythrocytes.\n- (adrenochrome fluorescence observations).\n- It is associable with Vitamin C, can reduce adrenaline.\n- No strong evidence shows direct binding of (adrenochrome) molecule.\n\n(Diagram showing pathway from epi to adrenochrome, with arrows indicating transformations and key intermediates.)\n(A small table with the following items: Red blood cells, Alkaline conditions, Enzymatic oxidation.)\n(Mechanistic notes are written in the margins - red notes note - \"this pathway increases its potential through ROS and antioxidants processes.\")",
     "ocr_lang": "en",
     "annotations": [],
     "created": "2026-08-18",
@@ -460,7 +506,11 @@
     "tags": [
       "adrenochrome",
       "redox",
-      "catecholamines"
+      "catecholamines",
+      "notes",
+      "hemoglobin",
+      "superoxide",
+      "adrenergic"
     ],
     "pages": [
       {
@@ -494,7 +544,11 @@
     "tags": [
       "adrenochrome",
       "erythrocyte",
-      "redox"
+      "redox",
+      "notes",
+      "glutathione",
+      "hemoglobin",
+      "antioxidants"
     ],
     "pages": [
       {
@@ -529,7 +583,9 @@
     ],
     "tags": [
       "blood-cells",
-      "hematology"
+      "hematology",
+      "leukocytes",
+      "erythrocyte"
     ],
     "pages": [
       {
