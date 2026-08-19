@@ -3,8 +3,8 @@
 Serves + accepts photos of handwritten notes about papers. Two posting paths
 feed one place:
 
-  - committed curation  : media/notes/manifest.json  (durable, ships with the wiki)
-  - live uploads        : media/notes/.staged.json   (browser uploads, served immediately)
+  - committed curation  : data/notes/manifest.json  (durable, ships with the wiki)
+  - live uploads        : data/notes/.staged.json   (browser uploads, served immediately)
 
 The GET index merges both. A reconcile script (scripts/02_reconcile_notes.py)
 folds staged drafts into the committed manifest.
@@ -32,9 +32,9 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/v1/notes", tags=["notes"])
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MEDIA_NOTES_DIR = REPO_ROOT / "media" / "notes"
-MANIFEST_FILE = MEDIA_NOTES_DIR / "manifest.json"
-STAGED_FILE = MEDIA_NOTES_DIR / ".staged.json"
+DATA_NOTES_DIR = REPO_ROOT / "data" / "notes"
+MANIFEST_FILE = DATA_NOTES_DIR / "manifest.json"
+STAGED_FILE = DATA_NOTES_DIR / ".staged.json"
 NOTES_DIR = REPO_ROOT / "src" / "notes"
 
 MAX_FILE_BYTES = 30 * 1024 * 1024  # 30 MB per image
@@ -118,7 +118,7 @@ def _note_dir(note_id: str) -> Path:
     safe = Path(note_id).name
     if safe != note_id:
         raise HTTPException(status_code=400, detail="Invalid note id")
-    return MEDIA_NOTES_DIR / safe
+    return DATA_NOTES_DIR / safe
 
 
 def _page_path(note: dict, page: int) -> Path | None:
@@ -310,8 +310,8 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not save the note on the server ({e}). "
-                "The API user needs write access to media/notes "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/media)."
+                "The API user needs write access to data/notes "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/data)."
             ),
         )
 
@@ -346,8 +346,8 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not register the note ({e}). "
-                "The API user needs write access to media/notes "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/media)."
+                "The API user needs write access to data/notes "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/data)."
             ),
         )
     logger.info(f"notes upload: {note_id} ({len(pages)} pages)")
@@ -448,7 +448,7 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
 def _persist_note(note: dict) -> None:
     """Write an edit back to wherever the note already lives.
 
-    Committed notes update media/notes/manifest.json; drafts and
+    Committed notes update data/notes/manifest.json; drafts and
     new edits go to .staged.json (promoted by the reconcile script).
     """
     committed = _committed_notes()

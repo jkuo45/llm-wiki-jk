@@ -1,12 +1,12 @@
 ---
 name: image-ingest
-description: Ingest screenshots or photos (e.g. graph-analysis screenshots, handwritten notes) into the wiki notes panel using a LOCAL ollama vision model for OCR. Creates one media/notes folder per image, moves the file from raw/, adds a curated entry (with OCR transcription) to media/notes/manifest.json, and generates a web-gallery thumbnail.
+description: Ingest screenshots or photos (e.g. graph-analysis screenshots, handwritten notes) into the wiki notes panel using a LOCAL ollama vision model for OCR. Creates one data/notes folder per image, moves the file from raw/, adds a curated entry (with OCR transcription) to data/notes/manifest.json, and generates a web-gallery thumbnail.
 ---
 
 # Image Ingest (local ollama OCR)
 
 Turn an image located in `raw/` (or elsewhere) into a curated note entry in the
-Notes panel (`media/notes/`), transcribing its text with a **local ollama vision
+Notes panel (`data/notes/`), transcribing its text with a **local ollama vision
 model** — no cloud/API OCR, no agent vision required.
 
 ## When to use
@@ -14,14 +14,14 @@ model** — no cloud/API OCR, no agent vision required.
 - A screenshot (e.g. graph-analysis UI, prompt, results, node sets) or photo of
   handwritten notes needs to be added to the wiki's Notes panel.
 - The source image lives in `raw/` (or a given path) and should be moved into a
-  per-note folder in `media/notes/`.
+  per-note folder in `data/notes/`.
 - You need an `ocr` transcription for the manifest entry.
 
 ## Conventions (follow exactly)
 
 - **One image per folder.** Each note folder holds exactly one image file (its
   original basename). Two separate screenshots → two separate folders + two manifest entries.
-- **Folder naming**: `media/notes/n-<YYYYMMDD>-<slug>-00/`
+- **Folder naming**: `data/notes/n-<YYYYMMDD>-<slug>-00/`
   - `YYYYMMDD` = today (e.g. `20260818`)
   - `slug` = short kebab-case descriptor (e.g. `graph-analysis-creatine-mb-prompt`)
   - `-00` suffix (collision counter if needed)
@@ -59,8 +59,8 @@ Create the note folder and copy the image in first (OCR works off the final
 path, and the manifest points into the folder):
 
 ```bash
-mkdir -p "media/notes/n-20260818-<slug>-00"
-cp raw/<source>.<ext> "media/notes/n-20260818-<slug>-00/<source>.<ext>"
+mkdir -p "data/notes/n-20260818-<slug>-00"
+cp raw/<source>.<ext> "data/notes/n-20260818-<slug>-00/<source>.<ext>"
 ```
 
 Then run ollama on the copy. Clean the ANSI control-char noise from the output:
@@ -83,7 +83,7 @@ OLLAMA_NOPROGRESS=1 ollama run <model> \
 
 ### 4. Add the manifest entry
 
-Append a new object to `media/notes/manifest.json` (keep existing entries).
+Append a new object to `data/notes/manifest.json` (keep existing entries).
 Schema:
 
 ```jsonc
@@ -121,7 +121,7 @@ Schema:
 Validate the file:
 
 ```bash
-python3 -m json.tool media/notes/manifest.json > /dev/null && echo OK
+python3 -m json.tool data/notes/manifest.json > /dev/null && echo OK
 ```
 
 ### 4b. Generate a thumbnail
@@ -129,7 +129,7 @@ python3 -m json.tool media/notes/manifest.json > /dev/null && echo OK
 Every note needs a `<stem>.thumb.<ext>` sibling: the web gallery requests
 `?thumb=1` for every card / page-strip, and the API serves the full-resolution
 original when no thumbnail exists (making the gallery slow). Once the manifest
-entry is in place, run the shared backfill script — it scans `media/notes/`
+entry is in place, run the shared backfill script — it scans `data/notes/`
 (manifest + staged) and creates a `.thumb` for any page that lacks one
 (idempotent, format-preserving, keeps EXIF orientation):
 
@@ -140,7 +140,7 @@ uv run --with pillow python scripts/01_generate_thumbnail.py
 Confirm this note's thumbnail was written:
 
 ```bash
-ls -lh media/notes/n-<YYYYMMDD>-<slug>-00/
+ls -lh data/notes/n-<YYYYMMDD>-<slug>-00/
 # expect: <source>.<ext>  AND  <source>.thumb.<ext>
 ```
 

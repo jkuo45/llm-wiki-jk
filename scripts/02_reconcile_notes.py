@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Reconcile live handwritten uploads into the durable committed manifest.
 
-Reads media/notes/.staged.json (live browser uploads) and merges every
-entry into media/notes/manifest.json, deduplicated by id. The draft flag
+Reads data/notes/.staged.json (live browser uploads) and merges every
+entry into data/notes/manifest.json, deduplicated by id. The draft flag
 is dropped and .staged.json is left empty so the next upload starts clean.
 
 Usage:
@@ -15,9 +15,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MEDIA_NOTES_DIR = REPO_ROOT / "media" / "notes"
-MANIFEST = MEDIA_NOTES_DIR / "manifest.json"
-STAGED = MEDIA_NOTES_DIR / ".staged.json"
+DATA_NOTES_DIR = REPO_ROOT / "data" / "notes"
+MANIFEST = DATA_NOTES_DIR / "manifest.json"
+STAGED = DATA_NOTES_DIR / ".staged.json"
 
 
 def read_list(path: Path) -> list:

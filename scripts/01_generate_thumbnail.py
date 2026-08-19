@@ -7,7 +7,7 @@ falls back to the full-resolution original (330 KB–1.5 MB each), which makes
 the gallery slow to load. Nothing previously generated those thumbnails.
 
 This script backfills (and keeps in sync) a `.thumb` file next to every page
-image under media/notes/: manifest.json (committed curation) plus .staged.json
+image under data/notes/: manifest.json (committed curation) plus .staged.json
 (live browser uploads). It is idempotent — fresh thumbnails are left alone
 unless `--force` is passed.
 
@@ -30,9 +30,9 @@ except ImportError as exc:  # pragma: no cover - hard to trigger deterministical
     sys.exit(f"Pillow is required: run with  uv run --with pillow python {Path(__file__).name}  ({exc})")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MEDIA_NOTES_DIR = REPO_ROOT / "media" / "notes"
-MANIFEST = MEDIA_NOTES_DIR / "manifest.json"
-STAGED = MEDIA_NOTES_DIR / ".staged.json"
+DATA_NOTES_DIR = REPO_ROOT / "data" / "notes"
+MANIFEST = DATA_NOTES_DIR / "manifest.json"
+STAGED = DATA_NOTES_DIR / ".staged.json"
 
 DEFAULT_THUMB_SIZE = 400  # longest edge in pixels — plenty for the small gallery cards
 
@@ -58,7 +58,7 @@ def page_paths() -> list[Path]:
             fname = p.get("file")
             if not fname:
                 continue
-            path = MEDIA_NOTES_DIR / nid / fname
+            path = DATA_NOTES_DIR / nid / fname
             if path.exists():
                 out.append(path)
     return out
@@ -100,7 +100,7 @@ def main() -> int:
 
     sources = page_paths()
     if not sources:
-        print("[note-thumbs] no note page images found in media/notes/")
+        print("[note-thumbs] no note page images found in data/notes/")
         return 0
 
     made = skipped = failed = 0
@@ -119,7 +119,7 @@ def main() -> int:
             failed += 1
 
     print(f"[note-thumbs] generated {made}, skipped {skipped}, failed {failed} "
-          f"thumbnail(s) in {MEDIA_NOTES_DIR}")
+          f"thumbnail(s) in {DATA_NOTES_DIR}")
     return 1 if failed else 0
 
 
