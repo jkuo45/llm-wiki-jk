@@ -961,6 +961,21 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   width: 14px; height: 14px; position: absolute; right: 8px; top: 50%;
   transform: translateY(-50%); color: #888; pointer-events: none;
 }
+/* Selected-tag multiselect chips rendered inside the combobox field, ahead of
+   the search input. Each carries an inline × to drop just that tag. */
+.notes-tag-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: #2a2a4e; border: 1px solid #4E79A7; color: #9ec1e8;
+  border-radius: 12px; padding: 2px 4px 2px 9px; font-size: 11px; line-height: 1;
+  white-space: nowrap; user-select: none;
+}
+.notes-tag-chip .notes-chip-remove {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 16px; height: 16px; padding: 0; margin: 0; border: none; border-radius: 50%;
+  background: none; color: #9ec1e8; font-size: 14px; line-height: 1; cursor: pointer;
+  font-family: inherit;
+}
+.notes-tag-chip .notes-chip-remove:hover { background: rgba(78,121,167,0.35); color: #fff; }
 /* Clear-filter × inside the combobox — replaces the caret while a filter is
    active (filterQ non-empty), so one click drops the search/filter back to the
    full gallery. */
@@ -991,6 +1006,8 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 }
 .notes-popup-item:last-child { border-bottom: none; }
 .notes-popup-item:hover, .notes-popup-item.active { background: rgba(78,121,167,0.22); }
+.notes-popup-item .popup-check { color: #4E79A7; font-weight: 700; flex-shrink: 0; }
+.notes-popup-item.selected { background: rgba(78,121,167,0.28); }
 .notes-popup-item .popup-topic { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .notes-popup-item .popup-sub { color: #888; font-size: 11px; flex-shrink: 0; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* EN/中 toggle inside the filters bar — same look as the Reader's, sized to

@@ -20,6 +20,42 @@ const NOTES_API = `${API_BASE}/notes`;
 const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
   || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/data/notes').replace(/\/$/, '');
 
+// Bilingual (zh-TW) display labels for the controlled tag vocabulary. The raw
+// slug remains the source of truth for filtering/search — only the rendered
+// text is localized via `tagLabel()`. Resolve relative to this module so it
+// works no matter where the server root is (same convention as components/data.js).
+const NOTES_DATA_BASE = new URL('../data/', import.meta.url).href;
+let TAG_LABELS = null;            // { <slug>: '繁體中文 label' } once loaded
+let tagLabelsPending = false;
+
+function refreshTagLabels() {
+  renderGallery();                                          // cards + card badges
+  if (!comboboxPopup.hidden) renderCombobox();              // tag suggestions
+  if (!lightboxEl.hidden && currentNote) renderLightbox();  // lightbox tag chips
+}
+
+function loadTagLabels() {
+  if (TAG_LABELS !== null || tagLabelsPending) return;
+  tagLabelsPending = true;
+  fetch(NOTES_DATA_BASE + 'notes-tags-zh-TW.json?v=' + Date.now())
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((d) => {
+      TAG_LABELS = d || {};
+      if (uiLang === 'zh-TW') refreshTagLabels();
+    })
+    .catch(() => { TAG_LABELS = {}; })
+    .finally(() => { tagLabelsPending = false; });
+}
+
+// Localized display label for a tag slug. Returns the zh-TW label when the
+// panel language is 繁體中文 and a label exists; otherwise the raw slug.
+function tagLabel(tag) {
+  if (uiLang !== 'zh-TW') return tag;
+  return (TAG_LABELS && TAG_LABELS[tag]) || tag;
+}
+
+loadTagLabels();
+
 // ------------------------------------------------------------
 // DOM refs
 // ------------------------------------------------------------
@@ -34,6 +70,7 @@ const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
+const fieldsEl = document.querySelector('.notes-combobox-field');
 const notesSearchClear = $('notes-search-clear');
 const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-toggle'));
 const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang]'));
@@ -71,6 +108,9 @@ const labelCancel = $('notes-label-cancel');
 let notes = [];
 let documents = [];
 let filterQ = '';
+// Selected tag filters (multiselect). Notes must carry every tag in this set
+// (AND semantics), combined with the free-text `filterQ` query.
+const activeTags = new Set();
 let uiLang = 'en-US'; // panel + note-content language; persisted across visits
 try {
   const savedLang = localStorage.getItem('llm-wiki-notes-ui-lang');
@@ -113,6 +153,7 @@ const UI_STRINGS = {
     galleryApiDown: 'Notes API unreachable — could not load notes.',
     galleryNoMatch: 'No notes match your filters.',
     galleryEmpty: 'No handwritten notes yet.',
+    removeTagFilter: 'Remove tag filter',
     back: '← Gallery',
     backToGallery: 'Back to gallery',
     prevImg: 'Previous image',
@@ -165,6 +206,7 @@ const UI_STRINGS = {
     galleryApiDown: '無法連線 Notes API — 無法載入筆記。',
     galleryNoMatch: '沒有符合篩選條件的筆記。',
     galleryEmpty: '尚無手寫筆記。',
+    removeTagFilter: '移除標籤篩選',
     back: '← 圖庫',
     backToGallery: '返回圖庫',
     prevImg: '上一張',
@@ -318,11 +360,12 @@ lbImg.addEventListener('error', () => {
 
 // Notes no longer carry a `topic` field — categorization lives in tags.
 // Derive a display topic from the tags list (prefer the topic-style
-// tag when present, otherwise the first tag).
+// tag when present, otherwise the first tag). This mirrors the controlled
+// vocabulary in scripts/normalize_manifest_vocab.py (TOPICS set).
 const KNOWN_TOPICS = [
   'adrenochrome', 'autophagy', 'blood-cells', 'cancer', 'comt', 'creatine',
-  'diagrams-charts', 'epigenetics', 'misc', 'neuromelanin', 'oxidative-stress',
-  'senescence', 'sirtuins', 'spermidine',
+  'epigenetics', 'eye', 'immunology', 'metabolism', 'neuromelanin', 'nutrition',
+  'oxidative-stress', 'parasitology', 'senescence', 'sirtuins', 'spermidine',
 ];
 function noteTopic(note) {
   const tags = note.tags || [];
@@ -459,7 +502,13 @@ function ensureIndexLoaded() {
 
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
+  // AND-multiselect tag filter: a note must carry every active tag.
+  const tags = [...activeTags].map((t) => t.toLowerCase());
   const list = notes.filter((n) => {
+    if (tags.length) {
+      const noteTags = (n.tags || []).map((t) => String(t).toLowerCase());
+      if (!tags.every((t) => noteTags.includes(t))) return false;
+    }
     if (!q) return true;
     const hay = [
       activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
@@ -478,9 +527,15 @@ function filteredNotes() {
   });
 }
 
+// Whether any filter is active: a free-text query and/or selected tag chips.
+function isFiltering() {
+  return !!filterQ.trim() || activeTags.size > 0;
+}
+
 function renderGallery() {
   // Show the clear-× (in place of the caret) whenever a filter/search is active.
-  notesCombobox.classList.toggle('filtering', !!filterQ.trim());
+  notesCombobox.classList.toggle('filtering', isFiltering());
+  renderTagChips();
   const list = filteredNotes();
   if (apiDown) {
     galleryEl.classList.add('centered');
@@ -534,9 +589,9 @@ function cardHTML(n) {
   const img = first
     ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(activeTitle(n))}" loading="lazy" decoding="async">`
     : '';
-  const topic = noteTopic(n).toUpperCase();
+  const topic = tagLabel(noteTopic(n)).toUpperCase();
   const tags = (n.tags || []).slice(0, 3).map((t) =>
-    `<span class="notes-badge topic">#${esc(t)}</span>`).join('');
+    `<span class="notes-badge topic">#${esc(tagLabel(t))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
   const meta = (tags || doc)
@@ -576,6 +631,8 @@ notesSearchClear.addEventListener('click', (e) => {
   e.stopPropagation();
   searchInput.value = '';
   filterQ = '';
+  activeTags.clear();
+  renderTagChips();
   renderGallery();
   searchInput.focus();   // refocus the field; focus() reopens the dropdown...
   closeCombobox();       // ...so close it again for a clean cleared state
@@ -630,7 +687,9 @@ function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
   const cap = q ? 12 : 100; // keep the empty-query dropdown from ballooning
   const tagCounts = q
-    ? distinctTags().filter(([t]) => t.toLowerCase().includes(q)).slice(0, cap)
+    ? distinctTags().filter(([t]) =>
+        t.toLowerCase().includes(q)
+        || (tagLabel(t) || '').toLowerCase().includes(q)).slice(0, cap)
     : distinctTags().slice(0, cap);
   const matches = q ? searchMatches() : notes;
   const parts = [];
@@ -650,7 +709,7 @@ function renderCombobox() {
   comboboxPopup.querySelectorAll('[data-note]').forEach((b) =>
     b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
   comboboxPopup.querySelectorAll('[data-tag]').forEach((b) =>
-    b.addEventListener('click', () => applyValueFilter(b.dataset.tag)));
+    b.addEventListener('click', () => toggleTag(b.dataset.tag)));
 }
 
 function noteItemHTML(n) {
@@ -661,8 +720,11 @@ function noteItemHTML(n) {
 }
 function tagItemHTML(tag, count) {
   const sub = count != null ? `(${count})` : esc(t('tags'));
-  return `<button type="button" class="notes-popup-item" data-tag="${esc(tag)}" role="option">
-    <span class="popup-topic">#${esc(tag)}</span>
+  const selected = activeTags.has(tag) ? ' selected' : '';
+  const check = activeTags.has(tag) ? '<span class="popup-check" aria-hidden="true">✓</span>' : '';
+  return `<button type="button" class="notes-popup-item${selected}" data-tag="${esc(tag)}" role="option">
+    ${check}
+    <span class="popup-topic">#${esc(tagLabel(tag))}</span>
     <span class="popup-sub">${sub}</span>
   </button>`;
 }
@@ -681,13 +743,40 @@ function openNoteFromCombobox(id) {
   openLightbox(n);
 }
 
-// A tag suggestion filters the gallery to notes carrying that value —
-// filteredNotes() already matches against note.tags.
-function applyValueFilter(value) {
-  closeCombobox();
-  searchInput.value = value;
-  filterQ = value;
+// A tag suggestion toggles it in the multiselect filter (adds/removes from
+// `activeTags`) and re-renders the gallery + chips + dropdown state.
+function toggleTag(tag) {
+  if (activeTags.has(tag)) activeTags.delete(tag);
+  else activeTags.add(tag);
+  renderTagChips();
   renderGallery();
+  renderCombobox();
+}
+
+// Render the selected-tag chips inside the combobox field, ahead of the search
+// input. Each chip shows its tag with an inline × to drop just that tag.
+function renderTagChips() {
+  fieldsEl.querySelectorAll('.notes-tag-chip').forEach((el) => el.remove());
+  const insertBefore = searchInput;
+  for (const tag of activeTags) {
+    const chip = document.createElement('span');
+    chip.className = 'notes-tag-chip';
+    chip.textContent = `#${tagLabel(tag)}`;
+    chip.title = tag;
+    const remove = document.createElement('button');
+    remove.type = 'button';
+    remove.className = 'notes-chip-remove';
+    remove.setAttribute('aria-label', t('removeTagFilter'));
+    remove.title = t('removeTagFilter');
+    remove.textContent = '×';
+    remove.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleTag(tag);
+    });
+    chip.appendChild(remove);
+    fieldsEl.insertBefore(chip, insertBefore);
+  }
 }
 
 function closeCombobox() {
@@ -1452,7 +1541,7 @@ function renderChips() {
   if (!currentNote) return;
   const tags = currentNote.tags || [];
   lbTags.innerHTML = tags.length
-    ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tag)}</span>`).join('')
+    ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tagLabel(tag))}</span>`).join('')
     : `<span class="notes-muted">${esc(t('none'))}</span>`;
 }
 

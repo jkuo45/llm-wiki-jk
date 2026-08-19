@@ -385,9 +385,14 @@ body {
 .notes-combobox-field:focus-within { border-color: #0F766E; }
 #notes-search { color: #22304A; }
 .notes-combobox-caret { color: #7C8698; }
+.notes-tag-chip { background: rgba(37, 99, 168, 0.1); border-color: #2563A8; color: #2563A8; }
+.notes-tag-chip .notes-chip-remove { color: #2563A8; }
+.notes-tag-chip .notes-chip-remove:hover { background: rgba(37, 99, 168, 0.18); color: #0B5F59; }
 .notes-section-label { color: #7C8698; }
 .notes-popup { background: #FFFFFF; border-color: #2563A8; box-shadow: 0 12px 32px rgba(34, 48, 74, 0.16); }
 .notes-popup-item { border-bottom-color: #E2DCCE; color: #22304A; }
+.notes-popup-item.selected { background: rgba(37, 99, 168, 0.16); }
+.notes-popup-item .popup-check { color: #2563A8; }
 .notes-popup-item:hover, .notes-popup-item.active { background: rgba(37, 99, 168, 0.12); }
 .notes-popup-item .popup-sub { color: #7C8698; }
 /* EN/中 toggle in the notes filters bar — mirrors the Reader's light chrome. */
