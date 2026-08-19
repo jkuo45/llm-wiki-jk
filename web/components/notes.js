@@ -56,8 +56,9 @@ const submitBtn = $('notes-submit');
 const uploadStatus = $('notes-upload-status');
 
 const lbBack = $('notes-lb-back');
-const lbTitle = $('notes-lb-title');
+const lbTopPrev = $('notes-lb-top-prev');
 const lbTopNext = $('notes-lb-top-next');
+const lbTitle = $('notes-lb-title');
 const lbView = $('notes-lb-view');
 const lbBody = $('notes-lb-body');
 const lbImg = $('notes-lb-img');
@@ -133,9 +134,10 @@ const UI_STRINGS = {
     galleryApiDown: 'Notes API unreachable — could not load notes.',
     galleryNoMatch: 'No notes match your filters.',
     galleryEmpty: 'No handwritten notes yet.',
-    back: '← Back',
+    back: '← Gallery',
     backToGallery: 'Back to gallery',
     prevImg: 'Previous image',
+    prevNav: '← Previous',
     nextImg: 'Next image',
     zoomIn: 'Zoom in',
     zoomOut: 'Zoom out',
@@ -186,9 +188,10 @@ const UI_STRINGS = {
     galleryApiDown: '無法連線 Notes API — 無法載入筆記。',
     galleryNoMatch: '沒有符合篩選條件的筆記。',
     galleryEmpty: '尚無手寫筆記。',
-    back: '← 返回',
+    back: '← 圖庫',
     backToGallery: '返回圖庫',
     prevImg: '上一張',
+    prevNav: '← 上一張',
     nextImg: '下一張',
     zoomIn: '放大',
     zoomOut: '縮小',
@@ -277,6 +280,7 @@ function applyUiLang(lang) {
   renderGallery();
   setViewMode(viewMode);
   if (!lightboxEl.hidden && currentNote) renderLightbox();
+  updateCloseLabel();
   syncNotesHash();
 }
 
@@ -367,6 +371,10 @@ function closeNotes() {
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
   setLightbox(null);
+  // Reset to the gallery view so reopening always lands there.
+  lightboxEl.hidden = true;
+  browseEl.hidden = false;
+  updateCloseLabel();
   updatePromptAvailability();
   syncNotesKeyboard();
   syncNotesHash();
@@ -408,7 +416,19 @@ notesBtn.addEventListener('click', () => {
 document.addEventListener('click', (e) => {
   if (notesPanel.classList.contains('open') && e.target.closest('#btn-chat')) closeNotes();
 }, true);
-notesClose.addEventListener('click', closeNotes);
+// The header close (×) doubles as the back-to-gallery control in the
+// single-image view. It always stays an × icon; only its help text reflects
+// the current view: "Back to gallery" while an image is open, "Close panel"
+// on the gallery.
+function updateCloseLabel() {
+  const key = !lightboxEl.hidden ? 'backToGallery' : 'panelClose';
+  notesClose.title = t(key);
+  notesClose.setAttribute('aria-label', t(key));
+}
+notesClose.addEventListener('click', () => {
+  if (!lightboxEl.hidden) { goBackToGallery(); return; }
+  closeNotes();
+});
 
 function setView(view) {
   // The Upload screen is hidden (notes arrive via the backend); Browse is the
@@ -418,6 +438,7 @@ function setView(view) {
   uploadEl.hidden = view !== 'upload';
   lightboxEl.hidden = true;
   currentNote = null;
+  updateCloseLabel();
 }
 
 document.addEventListener('keydown', (e) => {
@@ -480,7 +501,7 @@ function filteredNotes() {
     if (!q) return true;
     const hay = [
       activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
-      (n.tags || []).join(' '),
+      (n.tags || []).join(' '), (n.entities || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
   });
@@ -517,9 +538,65 @@ function renderGallery() {
     const note = findNote(id);
     const first = note && (note.pages || [])[0];
     const img = card.querySelector('.notes-card-thumb');
-    if (note && first && img) bindImageFallback(img, note, first.page, true);
+    if (note && first && img) {
+      bindImageFallback(img, note, first.page, true);
+      // Lazy thumbnails shift the card heights once they load — re-balance then.
+      img.addEventListener('load', scheduleMasonry, { once: true });
+    }
+  });
+  layoutMasonry();
+}
+
+// ------------------------------------------------------------
+// Pinterest-style masonry: pack cards into balanced columns so they stack flush
+// vertically (no white gaps below shorter cards). Cards are distributed into
+// the currently-shortest column; re-run on image load / window resize.
+// ------------------------------------------------------------
+const GALLERY_GAP = () => (window.matchMedia('(max-width: 900px)').matches ? 10 : 14);
+const GALLERY_MIN = () => (window.matchMedia('(max-width: 900px)').matches ? 150 : 240);
+let masonryTimer = null;
+let masonryWidth = 0;
+
+function layoutMasonry() {
+  const cards = Array.from(galleryEl.querySelectorAll('.notes-card'));
+  if (!cards.length) { galleryEl.innerHTML = ''; return; }
+  const gap = GALLERY_GAP();
+  const width = galleryEl.clientWidth;
+  masonryWidth = width;
+  const cols = Math.max(1, Math.floor((width + gap) / (GALLERY_MIN() + gap)));
+
+  galleryEl.innerHTML = '';
+  const colEls = Array.from({ length: cols }, () => {
+    const el = document.createElement('div');
+    el.className = 'notes-col';
+    galleryEl.appendChild(el);
+    return el;
+  });
+  const heights = new Array(cols).fill(0);
+  cards.forEach((card) => {
+    let idx = 0;
+    for (let i = 1; i < cols; i++) if (heights[i] < heights[idx]) idx = i;
+    colEls[idx].appendChild(card);
+    heights[idx] += card.offsetHeight + gap;
   });
 }
+
+// Debounced re-pack. `byHeight` is true when a lazy thumbnail finished loading
+// (its height changed the balance); otherwise it's a resize — only repack if
+// the gallery width actually changed, so self-triggered layout settles.
+function scheduleMasonry(byHeight = false) {
+  clearTimeout(masonryTimer);
+  masonryTimer = setTimeout(() => {
+    const w = galleryEl.clientWidth;
+    if (!byHeight && w === masonryWidth) return;
+    masonryWidth = w;
+    layoutMasonry();
+  }, 120);
+}
+
+// The notes panel is a fixed full-screen overlay, so its width follows the
+// window — a resize listener covers every reflow without an observer loop.
+window.addEventListener('resize', () => scheduleMasonry(false));
 
 function findNote(id) {
   return notes.find((n) => n.id === id) || currentNote;
@@ -534,19 +611,27 @@ function syncGalleryNote(n) {
 
 function cardHTML(n) {
   const first = (n.pages || [])[0];
-  const thumb = first
-    ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(n.title)}" loading="lazy" decoding="async">`
-    : '<div class="notes-card-thumb"></div>';
+  const img = first
+    ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(activeTitle(n))}" loading="lazy" decoding="async">`
+    : '';
+  const topic = noteTopic(n).toUpperCase();
   const tags = (n.tags || []).slice(0, 3).map((t) =>
     `<span class="notes-badge topic">#${esc(t)}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
+  const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
+  const meta = (tags || doc)
+    ? `<div class="context">
+        ${tags ? `<div class="notes-card-meta">${tags}</div>` : ''}
+        ${doc}
+      </div>`
+    : '';
   return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(activeTitle(n))}">
-    ${thumb}
+    <div class="img-wrap">${img}</div>
     <div class="notes-card-body">
-      <div class="notes-card-title">${esc(activeTitle(n))}</div>
-      <hr class="notes-card-divider">
-      ${snip ? `<p class="notes-ocr-snip">${esc(snip)}</p>` : ''}
-      ${tags ? `<div class="notes-card-meta">${tags}</div>` : ''}
+      <div class="fig-label">${esc(`Note · ${topic}`)}</div>
+      <h3 class="notes-card-title">${esc(activeTitle(n))}</h3>
+      ${snip ? `<p class="caption notes-ocr-snip">${esc(snip)}</p>` : ''}
+      ${meta}
     </div>
   </div>`;
 }
@@ -597,19 +682,20 @@ function searchMatches() {
   return notes.filter((n) => {
     const hay = [
       activeTitle(n), (activeOcr(n) || ''), n.document,
-      (n.tags || []).join(' '),
+      (n.tags || []).join(' '), (n.entities || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
   }).slice(0, 12);
 }
 
-// Distinct tag labels across every note, most-referenced first, so the
+// Distinct tag/entity labels across every note, most-referenced first, so the
 // empty-query dropdown surfaces the most useful suggestions up front.
+// Both tags (facets) and entities (concepts) are browsable labels.
 function distinctTags() {
   const counts = new Map();
   for (const n of notes) {
     const seen = new Set();
-    for (const tg of n.tags || []) {
+    for (const tg of [...(n.tags || []), ...(n.entities || []).map(String)]) {
       const key = String(tg).trim();
       if (!key || seen.has(key)) continue;
       seen.add(key);
@@ -706,6 +792,7 @@ function openLightbox(note) {
   browseEl.hidden = true;
   uploadEl.hidden = true;
   lightboxEl.hidden = false;
+  updateCloseLabel();
   setViewMode(false);
   renderLightbox();
   syncNotesHash();
@@ -721,6 +808,7 @@ function goBackToGallery() {
   browseEl.hidden = false;
   uploadEl.hidden = true;
   currentNote = null;
+  updateCloseLabel();
   setViewMode(false);
   updatePromptAvailability();
   renderGallery();
@@ -793,6 +881,7 @@ function setPage(page) {
   const entries = imageEntries();
   const idx = currentImageIndex();
   lbTopNext.disabled = !entries.length || idx < 0 || idx >= entries.length - 1;
+  lbTopPrev.disabled = !entries.length || idx <= 0;
   renderPagesStrip();
 }
 
@@ -878,6 +967,14 @@ lbTopNext.addEventListener('click', () => {
   const entries = imageEntries();
   const idx = currentImageIndex();
   if (idx >= 0 && idx < entries.length - 1) goToImage(idx + 1);
+});
+// Top-bar Previous: step back to the previous image in the current (filtered)
+// gallery, mirroring the top-bar Next. `goToImage` crosses note boundaries as
+// needed; the button's disabled state (managed in setPage) guards the start.
+lbTopPrev.addEventListener('click', () => {
+  const entries = imageEntries();
+  const idx = currentImageIndex();
+  if (idx > 0) goToImage(idx - 1);
 });
 // Arrow keys flip pages within the open note while the lightbox is open
 // (ignored while typing in a metadata field). They respect the button disabled

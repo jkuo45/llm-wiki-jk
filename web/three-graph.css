@@ -1,4 +1,11 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
+/* Shared accent tokens — mirror the article pages' teal keyword (pages.css) so
+   gallery labels, badges and links all use the same green. Dark-theme defaults
+   live here; three-graph-light.css overrides the same tokens for light. */
+:root {
+  --teal: #3EC9A7;
+  --teal-hover: #5fe3c0;
+}
 html, body { height: 100%; }
 body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; flex-direction: column; height: 100vh; height: 100dvh; overflow: hidden; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
 #graph { flex: 1; position: relative; z-index: 0; min-width: 0; min-height: 0; overflow: hidden; }
@@ -1021,42 +1028,67 @@ a.data-source:hover { border-color: #6b9bc7; }
    engages: without it the flex item defaults to min-height:auto and grows to
    fit all cards, overflowing the clipped Browse container instead of scrolling. */
 #notes-gallery {
-  flex: 1 1 auto; min-height: 0; overflow-y: auto; overflow-x: hidden; padding: 16px; display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; align-content: start;
+  flex: 1 1 auto; min-height: 0; overflow-y: auto; overflow-x: hidden; padding: 16px;
+  display: flex; align-items: flex-start; gap: 14px;
+  /* Pinterest-style masonry: cards are packed into JS-balanced columns
+     (renderGallery -> layoutMasonry) so they stack flush vertically with no
+     white gaps below shorter cards. */
+}
+.notes-col {
+  flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 14px;
 }
 .notes-card {
-  background: #23233f; border: 1px solid #3a3a5e; border-radius: 10px;
+  background: #23233f; border: 1px solid #3a3a5e; border-radius: 14px;
   cursor: pointer; display: flex; flex-direction: column; min-width: 0;
-  /* No overflow:hidden here — it was clipping long/wrapped card titles on
-     narrow mobile cards. The thumbnail clips its own top corners below, so the
-     card never needs to hide overflow and the full title always renders. */
+  /* No overflow:hidden here — it collapses the card to 2px inside the
+     scrollable grid (>= the reference style). The img-wrap clips its own top
+     corners instead, and the full title always renders. */
   transition: border-color 0.15s, transform 0.1s;
 }
 .notes-card:hover { border-color: #4E79A7; transform: translateY(-2px); }
-.notes-card-thumb {
-  width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #10101e;
-  display: block; border-bottom: 1px solid #2a2a4e; border-radius: 10px 10px 0 0;
+.notes-card .img-wrap {
+  position: relative; background: #10101e; display: flex; align-items: center;
+  justify-content: center; padding: 14px; height: 300px;
+  /* Fixed-height image slot keeps card heights stable before lazy images load,
+     so re-balancing never shifts cards around while thumbnails stream in. */
+  border-radius: 14px 14px 0 0;
 }
-.notes-card-body { padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1 1 auto; min-width: 0; }
+.notes-card .img-wrap img {
+  max-width: 100%; max-height: 100%; width: auto; height: auto;
+  object-fit: contain; border-radius: 8px; display: block;
+}
+.notes-card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1 1 0; min-width: 0; }
+.notes-card .fig-label {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--teal);
+  font-weight: 700; margin: 0; overflow-wrap: anywhere;
+}
 .notes-card-title {
-  color: #e8eef7; font-size: 13px; font-weight: 600; line-height: 1.4;
+  color: #e8eef7; font-size: 14px; font-weight: 600; line-height: 1.35; margin: 0;
   /* Long titles (with trailing filenames, em-dash compounds, etc.) must wrap
      inside the card so the full title shows even on narrow mobile cards. */
   overflow-wrap: anywhere; word-break: break-word; white-space: normal;
 }
-.notes-card-meta { color: #7c7c94; font-size: 11px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.notes-card .caption {
+  color: #9a9ab0; font-size: 12px; line-height: 1.5; margin: 2px 0 8px;
+}
+.notes-card .context {
+  font-size: 11px; color: #7c7c94; line-height: 1.45; border-top: 1px solid #3a3a5e;
+  padding-top: 10px; margin-top: auto; display: flex; flex-direction: column; gap: 6px;
+}
+.notes-card-meta { color: #7c7c94; font-size: 11px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .notes-badge { background: #2a2a4e; border: 1px solid #3a3a5e; color: #9ec1e8; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; white-space: nowrap; }
-.notes-badge.topic { color: #7bd88f; }
+.notes-badge.topic { color: var(--teal); }
 .notes-badge.ocr { color: #d2a8ff; }
 .notes-badge.draft { color: #E8A33D; }
+.notes-doc { overflow-wrap: anywhere; font-size: 10.5px; color: #7c7c94; }
 .notes-ocr-snip {
-  color: #9a9ab0; font-size: 11.5px; line-height: 1.45; max-height: 14.5em; overflow: hidden;
-  display: -webkit-box; -webkit-line-clamp: 10; -webkit-box-orient: vertical; margin: 0;
+  color: inherit; font-size: inherit; line-height: 1.5; max-height: 16em; overflow: hidden;
+  margin: 0;
 }
 /* Thin divider separating the card title from the transcript preview. */
 .notes-card-divider { border: none; border-top: 1px solid #3a3a5e; margin: 2px 0; }
-.notes-empty { padding: 40px 20px; text-align: center; color: #888; font-size: 13px; }
-.notes-loading { padding: 40px 20px; display: flex; flex-direction: column; align-items: center; gap: 14px; color: #888; font-size: 13px; grid-column: 1 / -1; }
+.notes-empty { padding: 40px 20px; text-align: center; color: #888; font-size: 13px; margin: auto; }
+.notes-loading { padding: 40px 20px; display: flex; flex-direction: column; align-items: center; gap: 14px; color: #888; font-size: 13px; margin: auto; }
 .notes-loading .spinner { width: 32px; height: 32px; border-width: 3px; margin-bottom: 0; }
 .notes-muted { color: #777; font-size: 12px; }
 .notes-muted code { background: #23233f; border: 1px solid #3a3a5e; border-radius: 4px; padding: 1px 6px; font-size: 11px; color: #cfe3f5; }
@@ -1093,14 +1125,15 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 .notes-field input:focus, .notes-field select:focus, #notes-search:focus { outline: none; border-color: #4E79A7; }
 .notes-upload-submit { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
-.notes-upload-status { color: #7bd88f; font-size: 12px; }
+.notes-upload-status { color: var(--teal); font-size: 12px; }
 .notes-upload-status.error { color: #ff7b72; }
 
 /* Lightbox */
 .notes-lb-top {
-  display: flex; align-items: center; gap: 10px; padding: 10px 14px;
-  border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0; flex-wrap: nowrap;
+  display: flex; flex-direction: column; gap: 6px; padding: 10px 14px;
+  border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0;
 }
+.notes-lb-topbar { display: flex; align-items: center; gap: 10px; }
 .notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
   background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px;
   font-size: 12px; padding: 5px 10px; cursor: pointer; font-family: inherit;
@@ -1108,6 +1141,8 @@ a.data-source:hover { border-color: #6b9bc7; }
 /* Keep the Back button at a fixed size regardless of how long the note title is. */
 #notes-lb-back { flex: 0 0 auto; }
 #notes-lb-top-next { flex: 0 0 auto; white-space: nowrap; }
+/* Push the Previous | language-toggle | Next cluster to the right. */
+#notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; margin-left: auto; }
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
 .notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
@@ -1183,7 +1218,7 @@ a.data-source:hover { border-color: #6b9bc7; }
   padding: 3px 10px; font-size: 11.5px; cursor: pointer; font-family: inherit;
 }
 .notes-chip:hover { border-color: #4E79A7; color: #fff; }
-.notes-chip.topic-chip { color: #7bd88f; }
+.notes-chip.topic-chip { color: var(--teal); }
 .notes-chip.tag-chip { color: #9a9ab0; cursor: default; }
 .notes-chip.del { color: #ff7b72; }
 .notes-chip.del:hover { border-color: #e2534a; }
@@ -1272,5 +1307,7 @@ a.data-source:hover { border-color: #6b9bc7; }
      fits on phones. */
   #notes-header .chat-title { font-size: 13px; }
   #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
-  #notes-gallery { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; padding: 12px; }
+  #notes-gallery { gap: 10px; padding: 12px; }
+  #notes-gallery .notes-col { gap: 10px; }
+  #notes-gallery .notes-card .img-wrap { height: 220px; }
 }

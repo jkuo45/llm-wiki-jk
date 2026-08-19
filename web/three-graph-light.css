@@ -13,6 +13,12 @@ body {
   background: #F6F3EC;
   color: #22304A;
 }
+/* Light-theme accent tokens — same names/values as pages-light.css, so gallery
+   labels, badges and the app chrome share one teal keyword per theme. */
+:root {
+  --teal: #0F766E;
+  --teal-hover: #0B5F59;
+}
 
 /* CSS2D labels on the graph canvas */
 .node-label {
@@ -406,11 +412,15 @@ body {
 .notes-lb-top .lang-toggle button.active { background: #0F766E; color: #fff; }
 .notes-card { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 .notes-card:hover { border-color: #0F766E; }
-.notes-card-thumb { background: #ECE8DD; border-bottom-color: #E2DCCE; }
+.notes-card .img-wrap { background: #ECE8DD; }
+.notes-card .fig-label { color: var(--teal); }
 .notes-card-title { color: #22304A; }
+.notes-card .caption { color: #7C8698; }
+.notes-card .context { color: #7C8698; border-top-color: #E2DCCE; }
 .notes-card-meta { color: #7C8698; }
+.notes-doc { color: #7C8698; }
 .notes-badge { background: #F6F3EC; border-color: #E2DCCE; color: #2563A8; }
-.notes-badge.topic { color: #1E7A4E; }
+.notes-badge.topic { color: var(--teal); }
 .notes-badge.ocr { color: #6D5BD0; }
 .notes-badge.draft { color: #B45309; }
 .notes-ocr-snip { color: #7C8698; }
@@ -423,7 +433,7 @@ body {
 .notes-drop-actions button, #notes-submit, .notes-ann-download, #notes-lb-edit { background: #0F766E; color: #fff; }
 .notes-drop-actions button:hover, #notes-submit:hover, .notes-ann-download:hover, #notes-lb-edit:hover { background: #0B5F59; }
 .notes-field label { color: #7C8698; }
-.notes-upload-status { color: #1E7A4E; }
+.notes-upload-status { color: var(--teal); }
 .notes-upload-status.error { color: #C0392B; }
 .notes-page-thumb img { border-color: #CCC5B2; }
 .notes-page-thumb .page-num { background: rgba(255, 255, 255, 0.8); color: #22304A; }
@@ -458,7 +468,7 @@ body {
 .notes-lb-status { color: #B45309; }
 .notes-chip { background: #F6F3EC; border-color: #CCC5B2; color: #22304A; }
 .notes-chip:hover { border-color: #0F766E; color: #0B5F59; }
-.notes-chip.topic-chip { color: #1E7A4E; }
+.notes-chip.topic-chip { color: var(--teal); }
 .notes-chip.tag-chip { color: #7C8698; }
 .notes-chip.del { color: #C0392B; }
 .notes-ann-tools button { background: #FFFFFF; border-color: #CCC5B2; color: #7C8698; }

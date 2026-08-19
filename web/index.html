@@ -186,7 +186,7 @@
         <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
       </div>
       <div class="chat-header-actions">
-        <button id="notes-close" aria-label="Close panel" data-i18n-title="panelClose" title="Close panel">&times;</button>
+        <button id="notes-close" aria-label="Close panel" title="Close panel">&times;</button>
       </div>
     </div>
 
@@ -249,13 +249,16 @@
 
     <div id="notes-lightbox" hidden>
       <div class="notes-lb-top">
-        <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Back</button>
-        <div class="notes-lb-title" id="notes-lb-title"></div>
-        <button id="notes-lb-top-next" type="button" title="Next image" data-i18n-title="nextImg" disabled>Next &rarr;</button>
-        <div class="lang-toggle" id="notes-lb-lang" role="group" aria-label="Panel language">
-          <button type="button" data-lang="en-US" title="English (US)">EN</button>
-          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+        <div class="notes-lb-topbar">
+          <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Gallery</button>
+          <button id="notes-lb-top-prev" type="button" title="Previous image" data-i18n="prevNav" data-i18n-title="prevImg" disabled>&larr; Previous</button>
+          <div class="lang-toggle" id="notes-lb-lang" role="group" aria-label="Panel language">
+            <button type="button" data-lang="en-US" title="English (US)">EN</button>
+            <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+          </div>
+          <button id="notes-lb-top-next" type="button" title="Next image" data-i18n-title="nextImg" disabled>Next &rarr;</button>
         </div>
+        <div class="notes-lb-title" id="notes-lb-title"></div>
       </div>
       <div class="notes-lb-body" id="notes-lb-body">
         <div class="notes-lb-stage">
