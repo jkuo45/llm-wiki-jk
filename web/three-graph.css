@@ -908,7 +908,7 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 
 /* ---------------------------------------------------------------------------
-   Handwritten Notes panel (#notes-panel) — sibling of the analysis panel
+   Notes panel (#notes-panel) — sibling of the analysis panel
    --------------------------------------------------------------------------- */
 #controls #btn-notes { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
 #controls #btn-notes:hover { color: #e0e0e0; border-color: #4E79A7; }
@@ -1012,16 +1012,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-empty { padding: 40px 20px; text-align: center; color: #888; font-size: 13px; }
 .notes-muted { color: #777; font-size: 12px; }
 .notes-muted code { background: #23233f; border: 1px solid #3a3a5e; border-radius: 4px; padding: 1px 6px; font-size: 11px; color: #cfe3f5; }
-.notes-api-error {
-  grid-column: 1 / -1; background: #16162b; border: 1px solid #3a3a5e; border-radius: 10px;
-  padding: 28px 22px; text-align: center; color: #e8eef7; font-size: 14px; line-height: 1.6;
-}
-.notes-api-error .notes-muted { margin: 8px 0; }
-.notes-retry {
-  margin-top: 10px; background: #4E79A7; border: none; color: #fff; border-radius: 6px;
-  padding: 8px 18px; font-size: 13px; cursor: pointer; font-family: inherit;
-}
-.notes-retry:hover { background: #5d8bbd; }
 
 /* Upload view */
 #notes-upload { padding: 14px 16px; overflow-y: auto; }
@@ -1171,7 +1161,7 @@ a.data-source:hover { border-color: #6b9bc7; }
     flex-wrap: nowrap;
     gap: 8px;
   }
-  /* Single row like the analysis panel: Handwritten Notes + Browse/Upload +
+  /* Single row like the analysis panel: Notes + Browse/Upload +
      Close. Shrink the title and tabs slightly so all three fit on phones. */
   #notes-header .chat-title { font-size: 13px; }
   #notes-mode-switch .chat-mode-tab { padding: 4px 8px; font-size: 11px; }

@@ -79,7 +79,6 @@ let filterTopic = '';
 let loaded = false;
 let loading = false;
 let apiDown = false;
-let apiError = '';
 let loadPromise = null;
 
 let currentNote = null;      // note object being viewed in the lightbox
@@ -201,7 +200,6 @@ document.addEventListener('keydown', (e) => {
 async function loadIndex() {
   loading = true;
   apiDown = false;
-  apiError = '';
   renderGallery();
   try {
     const resp = await fetch(NOTES_API);
@@ -217,7 +215,6 @@ async function loadIndex() {
     renderGallery();
   } catch (err) {
     apiDown = true;
-    apiError = (err && err.message) || 'Unknown error';
     notes = [];
     documents = [];
     renderGallery();
@@ -272,15 +269,9 @@ function renderGallery() {
   const list = filteredNotes();
   countEl.textContent = apiDown ? '—' : `${list.length} / ${notes.length}`;
   if (apiDown) {
-    galleryEl.innerHTML = apiErrorBanner();
-    emptyEl.hidden = true;
-    const retry = $('notes-retry');
-    if (retry) retry.addEventListener('click', () => loadIndex());
-    return;
-  }
-  if (!loaded) {
-    galleryEl.innerHTML = '<div class="notes-empty">Notes live on the API server — open the <b>Handwritten Notes</b> panel with the backend running to see your uploads.</div>';
-    emptyEl.hidden = true;
+    galleryEl.innerHTML = '';
+    emptyEl.hidden = false;
+    emptyEl.textContent = 'Notes API unreachable — could not load notes.';
     return;
   }
   if (!list.length) {
@@ -297,26 +288,6 @@ function renderGallery() {
     const id = card.dataset.id;
     card.addEventListener('click', () => openLightbox(findNote(id)));
   });
-}
-
-// A fetch that never returned (TypeError: Failed to fetch) usually means the
-// API is unreachable or the browser blocked the cross-origin call. Give the
-// user the actionable detail instead of a silent empty state.
-function apiErrorBanner() {
-  const isLocal = location.protocol === 'file:' ||
-    ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
-  const devHint = isLocal
-    ? `<p class="notes-muted">Running locally? This page auto-points at the dev API (<code>http://127.0.0.1:8000/v1</code>) — start it with <code>./deploy/dev.sh</code> and serve <b>web/</b> over <code>http://localhost</code>.</p>`
-    : '';
-  const offline = navigator.onLine === false
-    ? '<p class="notes-muted">You appear to be offline.</p>' : '';
-  return `<div class="notes-api-error">
-    <b>Handwritten Notes API unreachable</b>
-    <p class="notes-muted">Could not load notes from <code>${esc(NOTES_API)}</code> (${esc(apiError)}).</p>
-    ${offline}
-    ${devHint}
-    <button id="notes-retry" type="button" class="notes-retry">Retry</button>
-  </div>`;
 }
 
 function findNote(id) {

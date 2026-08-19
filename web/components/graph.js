@@ -14,7 +14,7 @@ import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: chat.js attaches its own listeners.
 import './chat.js';
-// Handwritten notes panel (gallery / upload / lightbox).
+// Notes panel (gallery / upload / lightbox).
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
 // Side-effect import: theme.js wires the Settings tab theme toggle.
 import './theme.js';

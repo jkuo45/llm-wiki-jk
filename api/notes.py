@@ -1,4 +1,4 @@
-"""Handwritten Notes panel support.
+"""Notes panel support.
 
 Serves + accepts photos of handwritten notes about papers. Two posting paths
 feed one place:

@@ -1,4 +1,4 @@
-# Handwritten Notes / 手寫筆記
+# Notes / 笔记
 
 Photos of handwritten notes about papers in the wiki. Served and posted through
 the **Notes panel** in `web/index.html` (API at

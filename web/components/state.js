@@ -18,7 +18,7 @@ export const state = {
   readerSection: null,
   analysisOpen: false,
   analysisMode: 'graph',
-  // Handwritten notes panel (gallery / lightbox). Synced to the URL hash by
+  // Notes panel (gallery / lightbox). Synced to the URL hash by
   // notes.js → routing.updateHash() so a note can be deep-linked.
   notesOpen: false,
   notesNoteId: null,
