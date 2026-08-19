@@ -12,7 +12,7 @@ image under data/notes/: manifest.json (committed curation) plus .staged.json
 unless `--force` is passed.
 
 Usage:
-    uv run --with pillow python scripts/01_generate_thumbnail.py [--thumb-size 400] [--force]
+    uv run --with pillow python scripts/99_generate_thumbnail.py [--thumb-size 400] [--force]
 
 New uploads also generate a thumbnail at upload time (see api/notes.py), so
 running this is only needed as a backfill or after a server deploy without

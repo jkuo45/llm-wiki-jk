@@ -134,7 +134,7 @@ entry is in place, run the shared backfill script — it scans `data/notes/`
 (idempotent, format-preserving, keeps EXIF orientation):
 
 ```bash
-uv run --with pillow python scripts/01_generate_thumbnail.py
+uv run --with pillow python scripts/99_generate_thumbnail.py
 ```
 
 Confirm this note's thumbnail was written:
@@ -165,11 +165,11 @@ rm raw/<source>.png
 - **Always strip ANSI / control characters** from `ollama run` output before
   storing it in the manifest.
 - **Always generate the thumbnail** — after appending the manifest entry, run
-  `uv run --with pillow python scripts/01_generate_thumbnail.py` (Step 4b) so
+  `uv run --with pillow python scripts/99_generate_thumbnail.py` (Step 4b) so
   the web gallery's `?thumb=1` requests get a small file instead of the
   full-resolution original.
 - **Only touch `manifest.json`** — `.staged.json` is for live browser uploads;
-  leave it alone unless the user asks to reconcile (scripts/02_reconcile_notes.py).
+  leave it alone unless the user asks to reconcile.
 - Timestamps must be real (use `date -u`) and match the project display format
   rules in AGENTS.md where applicable.
 

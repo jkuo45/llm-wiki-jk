@@ -6,12 +6,10 @@ feed one place:
   - committed curation  : data/notes/manifest.json  (durable, ships with the wiki)
   - live uploads        : data/notes/.staged.json   (browser uploads, served immediately)
 
-The GET index merges both. A reconcile script (scripts/02_reconcile_notes.py)
-folds staged drafts into the committed manifest. Manifest entries may also
-carry a `path` field pointing at an image that stays in place elsewhere in the
-repo (resolved relative to data/notes/, e.g. '../biology/<topic>/<file>'); such
-notes are served from that location and their thumbnail lives in data/notes/<id>/.
-scripts/02_sync_notes.py keeps those in-place entries in sync.
+The GET index merges both. Manifest entries may also carry a `path` field
+pointing at an image that stays in place elsewhere in the repo (resolved
+relative to data/notes/, e.g. '../biology/<topic>/<file>'); such notes are
+served from that location and their thumbnail lives in data/notes/<id>/.
 
 Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
 the site. OCR runs ONCE per note through the read-only wiki-util agent: the
@@ -177,7 +175,7 @@ def _make_thumbnail(page_path: Path, note: dict | None = None) -> None:
     Pillow/JPEG robustness lets us generate a small thumbnail here, but we treat
     the import as optional so an upload never fails just because the deploy
     hasn't installed it yet — missing thumbs fall back to full-res (see
-    get_image) and scripts/01_generate_thumbnail.py can backfill later.
+    get_image) and scripts/99_generate_thumbnail.py can backfill later.
     Keeping the source format means the served content-type stays correct."""
     try:
         from PIL import Image, ImageOps  # noqa: PLC0415 - deferred optional dep
@@ -483,7 +481,7 @@ def _persist_note(note: dict) -> None:
     """Write an edit back to wherever the note already lives.
 
     Committed notes update data/notes/manifest.json; drafts and
-    new edits go to .staged.json (promoted by the reconcile script).
+    new edits go to .staged.json.
     """
     committed = _committed_notes()
     for i, n in enumerate(committed):
