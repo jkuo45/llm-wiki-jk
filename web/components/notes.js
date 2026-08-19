@@ -121,7 +121,7 @@ let statusTimer = null;
 const UI_STRINGS = {
   'en-US': {
     panelClose: 'Close panel',
-    searchPlaceholder: 'Search transcribed notes, tags',
+    searchPlaceholder: '🔎 Search notes, transcripts, tags, etc.',
     sectionNotes: 'Notes',
     filterByTopic: 'Filter by topic',
     allTopics: 'All topics',
@@ -644,41 +644,40 @@ function searchMatches() {
   }).slice(0, 12);
 }
 
-// Distinct tag/entity labels across every note, most-referenced first, so the
+// Distinct tag labels across every note, most-referenced first, so the
 // empty-query dropdown surfaces the most useful suggestions up front.
-// Both tags (facets) and entities (concepts) are browsable labels.
 function distinctTags() {
   const counts = new Map();
   for (const n of notes) {
     const seen = new Set();
-    for (const tg of [...(n.tags || []), ...(n.entities || []).map(String)]) {
+    for (const tg of n.tags || []) {
       const key = String(tg).trim();
       if (!key || seen.has(key)) continue;
       seen.add(key);
       counts.set(key, (counts.get(key) || 0) + 1);
     }
   }
-  return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([k]) => k);
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]); // [[label, count], ...] most-referenced first
 }
 
 // Own the dropdown with tag suggestions up front, then every note's image
 // title when empty, all narrowed to matches while typing.
 function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
-  const cap = q ? 12 : 8; // keep the empty-query dropdown from ballooning
-  const tags = q
-    ? distinctTags().filter((t) => t.toLowerCase().includes(q)).slice(0, cap)
+  const cap = q ? 12 : 100; // keep the empty-query dropdown from ballooning
+  const tagCounts = q
+    ? distinctTags().filter(([t]) => t.toLowerCase().includes(q)).slice(0, cap)
     : distinctTags().slice(0, cap);
   const matches = q ? searchMatches() : notes;
   const parts = [];
-  if (tags.length) {
+  if (tagCounts.length) {
     parts.push(`<div class="notes-section-label">${esc(t('tags'))}</div>`);
-    parts.push(tags.map(tagItemHTML).join(''));
+    parts.push(tagCounts.map(([t, c]) => tagItemHTML(t, c)).join(''));
   }
   if (matches.length) {
     parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
     parts.push(matches.map((n) => noteItemHTML(n)).join(''));
-  } else if (!tags.length) {
+  } else if (!tagCounts.length) {
     parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
   }
   comboboxPopup.innerHTML = parts.join('');
@@ -696,10 +695,11 @@ function noteItemHTML(n) {
     <span class="popup-sub">${esc(noteTopic(n))}</span>
   </button>`;
 }
-function tagItemHTML(tag) {
+function tagItemHTML(tag, count) {
+  const sub = count != null ? `(${count})` : esc(t('tags'));
   return `<button type="button" class="notes-popup-item" data-tag="${esc(tag)}" role="option">
     <span class="popup-topic">#${esc(tag)}</span>
-    <span class="popup-sub">${esc(t('tags'))}</span>
+    <span class="popup-sub">${sub}</span>
   </button>`;
 }
 
