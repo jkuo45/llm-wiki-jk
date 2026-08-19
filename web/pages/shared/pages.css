@@ -64,7 +64,6 @@ h3{font-size:1.05rem; margin:18px 0 8px;}
 .grid{display:grid; gap:16px;}
 .g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
 .g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
-.g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));}
 .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px;}
 .card h3{margin-top:0;}
 .kicker{text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--teal); margin-bottom:8px; font-weight:700;}
@@ -77,8 +76,6 @@ nav .wrap{display:flex; align-items:center; gap:18px; overflow-x:auto; overflow-
 nav .wrap::-webkit-scrollbar{height:4px;}
 nav .wrap::-webkit-scrollbar-track{background:transparent;}
 nav .wrap::-webkit-scrollbar-thumb{background:var(--scroll-thumb); border-radius:4px;}
-nav .brand{font-weight:700; color:var(--text); margin-right:6px;}
-nav a.brand:hover{color:var(--teal); text-decoration:none;}
 nav a.n{color:var(--dim); font-size:.85rem;}
 nav a.n:hover{color:var(--teal); text-decoration:none;}
 nav a.back-home{display:inline-block; margin-right:4px; color:var(--text); font-size:.85rem; font-weight:700; background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px;}
@@ -173,13 +170,6 @@ footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute);
 .chip.N{color:var(--mute); border-color:var(--line2); background:var(--chip-n-bg);}
 /* compartment map */
 #compSvg{width:100%; height:auto;}
-/* stage / stance badges */
-.stance,.stage{font-size:.72rem; padding:2px 8px; border-radius:999px; background:var(--code-bg); border:1px solid var(--line); color:var(--dim); white-space:nowrap;}
-.stance.prot{color:var(--green); border-color:var(--green);}
-.stage.prec{background:var(--badge-preclin-bg); color:var(--badge-preclin-fg); border-color:var(--badge-preclin-bg); font-weight:700;}
-.stage.ct,.stance.harm{color:var(--red); border-color:var(--red);}
-.stage.phase,.stance.dual{color:var(--amber); border-color:var(--amber);}
-.stage.appr{color:var(--blue); border-color:var(--blue);}
 /* disease atlas */
 #mapSvg{width:100%; height:560px; background:var(--net-bg); border:1px solid var(--line); border-radius:12px;}
 .d-list{padding-left:16px; margin:8px 0 0; font-size:.8rem; color:var(--dim); line-height:1.5;}
@@ -200,7 +190,6 @@ table thead th:first-child{z-index:4;}
 .tbl-wrap table{min-width:820px;}
 .tbl-wrap td{word-wrap:break-word; overflow-wrap:break-word; white-space:normal;}
 .face ul li b{color:var(--text);}
-.leg-chip{display:inline-flex; align-items:center; gap:6px; font-size:.8rem; color:var(--dim);}
 /* responsive */
 @media (max-width:720px){ .faces{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} .dis-grid{grid-template-columns:1fr;}
   nav .wrap{scrollbar-width:none;}

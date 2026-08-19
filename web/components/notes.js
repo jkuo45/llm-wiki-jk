@@ -1,7 +1,6 @@
 // Notes panel — gallery + lightbox with OCR transcripts and persistent
 // annotation overlays, deep links to the linked paper and graph entities.
-// The upload screen (files) is hidden for now. Sibling of the
-// analysis (#chat) panel.
+// Sibling of the analysis (#chat) panel.
 
 import { descByLabel, noteUrl } from './data.js';
 import { esc, renderMarkdown } from './markdown.js';
@@ -21,8 +20,6 @@ const NOTES_API = `${API_BASE}/notes`;
 // different deploy branch with:  window.GRAPH_NOTES_IMAGE_BASE = '…';
 const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
   || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/data/notes').replace(/\/$/, '');
-const MAX_PAGES = 24;
-const MAX_BYTES = 30 * 1024 * 1024;
 
 // ------------------------------------------------------------
 // DOM refs
@@ -43,17 +40,6 @@ const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-tog
 const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang]'));
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
-
-const drop = $('notes-drop');
-const fileInput = $('notes-file');
-const pickBtn = $('notes-pick');
-const pagesPreview = $('notes-pages-preview');
-const titleField = $('notes-title-field');
-const docField = $('notes-doc-field');
-const topicField = $('notes-topic-field');
-const tagsField = $('notes-tags-field');
-const submitBtn = $('notes-submit');
-const uploadStatus = $('notes-upload-status');
 
 const lbBack = $('notes-lb-back');
 const lbTopPrev = $('notes-lb-top-prev');
@@ -108,9 +94,6 @@ let annColor = '#ffcc00';
 let drawing = null;          // in-progress shape
 let panning = null;
 let viewMode = false;        // fullscreen image view (side details hidden)
-
-let draftFiles = [];         // { file, thumb }
-let statusTimer = null;
 
 // ------------------------------------------------------------
 // UI language (EN / 中) — panel chrome strings + note-content selection.
@@ -275,7 +258,6 @@ function applyUiLang(lang) {
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('searchPlaceholder');
   closeCombobox();
-  populatePickers();
 
   renderGallery();
   setViewMode(viewMode);
@@ -370,7 +352,7 @@ function closeNotes() {
   closeCombobox();
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
-  setLightbox(null);
+  currentNote = null;
   // Reset to the gallery view so reopening always lands there.
   lightboxEl.hidden = true;
   browseEl.hidden = false;
@@ -460,7 +442,6 @@ async function loadIndex() {
     const data = await resp.json();
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
-    populatePickers();
     // If the user opened the combobox before the fetch resolved, fill it now.
     if (!comboboxPopup.hidden) renderCombobox();
     loaded = true;
@@ -482,17 +463,6 @@ function ensureIndexLoaded() {
   if (loaded) return Promise.resolve();
   if (!loadPromise) loadPromise = loadIndex();
   return loadPromise.finally(() => { loadPromise = null; });
-}
-
-function populatePickers() {
-  // Search placeholder (kept in sync on load / lang swap).
-  searchInput.placeholder = t('searchPlaceholder');
-
-  // NOTE: The Upload screen is disabled (its tab and view are hidden, and
-  // setView() snaps any non-browse request back to browse). It therefore does
-  // NOT populate the upload-only controls here — populating them was expensive
-  // because the document picker grew with every src/notes document, all for a
-  // view that can't be reached. If upload is re-enabled, restore population here.
 }
 
 function filteredNotes() {
@@ -556,13 +526,6 @@ function renderGallery() {
 
 function findNote(id) {
   return notes.find((n) => n.id === id) || currentNote;
-}
-
-// Keep the in-memory gallery in sync after edits/OCR so cards reflect the
-// latest state without a manual refresh.
-function syncGalleryNote(n) {
-  const i = notes.findIndex((x) => x.id === n.id);
-  if (i >= 0) notes[i] = n;
 }
 
 function cardHTML(n) {
@@ -752,10 +715,6 @@ function openLightbox(note) {
   setViewMode(false);
   renderLightbox();
   syncNotesHash();
-}
-function setLightbox(note) {
-  if (!note) { currentNote = null; return; }
-  openLightbox(note);
 }
 lbBack.addEventListener('click', goBackToGallery);
 
@@ -1224,7 +1183,7 @@ function drawAnnotationsToCanvas(ctx, W, H) {
 async function downloadAnnotationsImage() {
   const n = currentNote;
   if (!n) return;
-  if (!naturalW || !naturalH) { setStatus('Page image not ready yet.', false); return; }
+  if (!naturalW || !naturalH) { flashTranscriptStatus('Page image not ready yet.'); return; }
   const canvas = document.createElement('canvas');
   canvas.width = naturalW;
   canvas.height = naturalH;
@@ -1243,7 +1202,7 @@ async function downloadAnnotationsImage() {
     await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; });
     ctx.drawImage(img, 0, 0, naturalW, naturalH);
   } catch (err) {
-    setStatus('Could not load the page image for export.', false);
+    flashTranscriptStatus('Could not load the page image for export.');
     console.warn('annotated-image export: page load failed:', err);
     return;
   }
@@ -1252,7 +1211,7 @@ async function downloadAnnotationsImage() {
   a.download = `${n.id}-p${currentPage}-annotated.png`;
   a.href = canvas.toDataURL('image/png');
   a.click();
-  setStatus('Downloaded annotated page.', true);
+  flashTranscriptStatus('Downloaded annotated page.');
 }
 
 // ------------------------------------------------------------
@@ -1358,188 +1317,14 @@ applyUiLang(uiLang);
 state.suppressHashUpdate = false;
 
 // ------------------------------------------------------------
-// Entity / tag chips + wiki modal
+// Tag chips
 // ------------------------------------------------------------
-function openWikiModal(key, event) {
-  const overlay = $('wiki-modal-overlay');
-  const desc = descByLabel.get(key);
-  if (!desc) {
-    const url = noteUrl(key);
-    if (url) window.open(url, '_blank', 'noopener');
-    return;
-  }
-  $('wiki-modal-title').textContent = key.replace(/_/g, ' ');
-  $('wiki-modal-body').innerHTML = renderMarkdown(desc);
-  $('wiki-modal-link').href = noteUrl(key) || '#';
-  overlay.classList.add('visible');
-  event && event.stopPropagation();
-}
-
 function renderChips() {
   if (!currentNote) return;
   const tags = currentNote.tags || [];
   lbTags.innerHTML = tags.length
     ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tag)}</span>`).join('')
     : `<span class="notes-muted">${esc(t('none'))}</span>`;
-}
-
-// ------------------------------------------------------------
-// Upload
-// ------------------------------------------------------------
-function tokens(str) {
-  return String(str || '').split(',').map((s) => s.trim()).filter(Boolean);
-}
-
-pickBtn.addEventListener('click', () => fileInput.click());
-drop.addEventListener('click', () => fileInput.click());
-fileInput.addEventListener('change', () => { addFiles([...fileInput.files]); fileInput.value = ''; });
-
-['dragenter', 'dragover'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('drag'); }));
-['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('drag'); }));
-drop.addEventListener('drop', (e) => addFiles([...e.dataTransfer.files]));
-
-async function addFiles(fileList) {
-  const ok = [];
-  let skipped = 0;
-  for (const f of fileList) {
-    if (!/^image\/(jpe?g|png|webp|gif)$/.test(f.type || '')) { skipped += 1; continue; }
-    if (f.size > MAX_BYTES) { skipped += 1; continue; }
-    if (draftFiles.length + ok.length >= MAX_PAGES) { skipped += 1; break; }
-    const compressed = await compressImage(f);
-    ok.push({ upload: compressed.blob, thumb: compressed.thumb, name: f.name });
-  }
-  if (skipped > 0) {
-    setStatus(`${skipped} file(s) skipped — accepted formats: JPG, PNG, WebP, GIF (≤30 MB).`, false);
-  }
-  draftFiles.push(...ok);
-  renderDraftPreview();
-}
-
-// Downscale + JPEG-encode a photo in the browser before upload. Photos are
-// typically 2–8 MB straight off a phone; compressed pages upload in a few
-// hundred KB so they survive restrictive proxy body limits and load faster.
-// PNG/WebP lose transparency — acceptable for handwritten notes. GIFs are
-// passed through untouched to preserve animation.
-function compressImage(file, maxDim = 2400, quality = 0.82) {
-  return new Promise((resolve) => {
-    const type = (file.type || '').toLowerCase();
-    if (type === 'image/gif') {
-      resolve({ blob: file, thumb: null });
-      return;
-    }
-    const url = URL.createObjectURL(file);
-    const img = new Image();
-    img.onload = () => {
-      const scale = Math.min(1, maxDim / Math.max(img.width, img.height));
-      const w = Math.max(1, Math.round(img.width * scale));
-      const h = Math.max(1, Math.round(img.height * scale));
-      const cv = document.createElement('canvas');
-      cv.width = w; cv.height = h;
-      cv.getContext('2d').drawImage(img, 0, 0, w, h);
-
-      // Thumbnail (≈320px) for the preview grid.
-      const tw = Math.min(320, w);
-      const th = Math.max(1, Math.round(h * (tw / w)));
-      const tc = document.createElement('canvas');
-      tc.width = tw; tc.height = th;
-      tc.getContext('2d').drawImage(cv, 0, 0, tw, th);
-      const thumb = tc.toDataURL('image/jpeg', 0.72);
-
-      cv.toBlob((blob) => {
-        URL.revokeObjectURL(url);
-        resolve({
-          blob: blob && blob.size < file.size ? blob : file,
-          thumb,
-        });
-      }, 'image/jpeg', quality);
-    };
-    img.onerror = () => { URL.revokeObjectURL(url); resolve({ blob: file, thumb: null }); };
-    img.src = url;
-  });
-}
-
-function renderDraftPreview() {
-  pagesPreview.innerHTML = draftFiles.map((d, i) =>
-    `<div class="notes-page-thumb">
-      ${d.thumb ? `<img src="${d.thumb}" alt="Page ${i + 1}">` : '<img alt="">'}
-      <span class="page-num">${i + 1}</span>
-      <button class="rm" data-i="${i}" title="Remove page">×</button>
-    </div>`).join('');
-  pagesPreview.querySelectorAll('.rm').forEach((b) =>
-    b.addEventListener('click', () => {
-      draftFiles.splice(parseInt(b.dataset.i, 10), 1);
-      renderDraftPreview();
-    }));
-}
-
-submitBtn.addEventListener('click', async () => {
-  if (!draftFiles.length) { setStatus('Add at least one image first.', false); return; }
-  // Guard against restrictive proxy body limits (nginx defaults to 1 MB): warn
-  // before a doomed round-trip. The server still accepts up to 30 MB/file.
-  const totalBytes = draftFiles.reduce((s, d) => s + (d.upload ? d.upload.size : 0), 0);
-  if (totalBytes > 1024 * 1024) {
-    setStatus(`Upload is ~${(totalBytes / (1024 * 1024)).toFixed(1)} MB total — if the server rejects it, raise nginx client_max_body_size (see deploy/README). Common default is 1 MB.`, false);
-  } else {
-    uploadStatus.textContent = '';
-  }
-  submitBtn.disabled = true;
-  uploadStatus.className = 'notes-upload-status';
-  uploadStatus.textContent = 'Uploading…';
-  const fd = new FormData();
-  draftFiles.forEach((d) => fd.append('files', d.upload, d.name || 'page.jpg'));
-  fd.append('title', titleField.value.trim());
-  fd.append('topic', topicField.value.trim());
-  fd.append('document', docField.value);
-  fd.append('tags', JSON.stringify(tokens(tagsField.value)));
-  try {
-    const resp = await fetch(`${NOTES_API}/upload`, { method: 'POST', body: fd });
-    if (!resp.ok) {
-      let detail = `HTTP ${resp.status}`;
-      try {
-        const body = await resp.json();
-        if (body && body.detail) detail = String(body.detail);
-      } catch (_) { /* non-JSON error body */ }
-      throw new Error(detail);
-    }
-    const note = await resp.json();
-    draftFiles = [];
-    renderDraftPreview();
-    titleField.value = ''; topicField.value = ''; tagsField.value = ''; docField.value = '';
-    setStatus('Uploaded. You can now open it and run OCR.', true);
-    await loadIndex();
-    setView('browse');
-    openLightbox(note);
-  } catch (err) {
-    const isFetchAbort = typeof err === 'object' && err && err.name === 'AbortError';
-    console.warn('upload failed:', err);
-    setStatus(isFetchAbort ? 'Upload aborted.' : `Upload failed — ${netErrorText(err)}`, false);
-  } finally {
-    submitBtn.disabled = false;
-  }
-});
-
-function setStatus(msg, ok) {
-  uploadStatus.className = 'notes-upload-status' + (ok ? '' : ' error');
-  uploadStatus.textContent = msg;
-  clearTimeout(statusTimer);
-  statusTimer = setTimeout(() => { uploadStatus.textContent = ''; }, 8000);
-}
-
-// A fetch that rejects with `TypeError: Failed to fetch` means the request
-// never completed (server unreachable, or the browser blocked the cross-origin
-// call because the response carried no CORS headers). Turn that into a
-// readable, actionable message.
-function netErrorText(err) {
-  const base = (err && err.message) || 'Unknown error';
-  const local = location.protocol === 'file:' ||
-    ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
-  const parts = [`${base} (${API_BASE})`];
-  if (navigator.onLine === false) parts.push('you appear to be offline.');
-  else if (local)
-    parts.push('running locally? start the dev API with ./deploy/dev.sh (this page auto-points at http://127.0.0.1:8000/v1 when served from localhost).');
-  else
-    parts.push('the API may be down, the page origin not in ALLOWED_ORIGINS, or the request exceeded the proxy body-size limit (raise nginx client_max_body_size).');
-  return parts.join(' — ');
 }
 
 // ------------------------------------------------------------
@@ -1580,4 +1365,4 @@ export async function restoreNotes(params) {
 }
 
 // Kick the panel open on initial load if already referenced (no-op guard).
-export { openNotes, closeNotes };
+export { closeNotes };

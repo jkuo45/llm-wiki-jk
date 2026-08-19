@@ -184,13 +184,9 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #top-links a:hover { background: #2a2a4e; border-color: #4E79A7; }
 #top-links button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; cursor: pointer; font-family: inherit; line-height: 1.2; }
 #top-links button:hover { background: #2a2a4e; border-color: #4E79A7; }
-#top-links a.data-source { display: inline-flex; align-items: center; justify-content: center; padding: 12px 14px; font-family: monospace; font-size: 15px; letter-spacing: 0.5px; }
-a.data-source:hover { border-color: #6b9bc7; }
 
 /* Dataset info panel */
 #controls #btn-dataset { flex: none; white-space: nowrap; color: #9a9ab0; display: none; }
-#top-links a.btn-page { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; }
-#top-links a.btn-page:hover { background: #2a2a4e; border-color: #4E79A7; }
 
 /* Full-page reader overlay — edge-to-edge screen like the analysis sheet.
    The whole overlay slides up over the graph and fills the viewport. */
@@ -582,13 +578,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-suggestion-group { display: flex; flex-direction: column; gap: 4px; }
 .chat-suggestion-group + .chat-suggestion-group,
 .chat-suggestion-group + .chat-suggestion-more { margin-top: 8px; }
-.chat-suggestion-group-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #777; padding: 4px 12px 0; }
-#chat-clear {
-  background: none; border: 1px solid #3a3a5e; color: #888;
-  padding: 4px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
-  transition: all 0.15s;
-}
-#chat-clear:hover { border-color: #4E79A7; color: #e0e0e0; }
 #chat-new {
   background: none; border: 1px solid #3a3a5e; color: #888;
   padding: 4px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
@@ -739,12 +728,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-suggestion-more::before { content: '\2192'; }
 .chat-suggestion-more:hover { background: rgba(78,121,167,0.12); color: #cfe6f5; }
 
-.chat-node-link {
-  color: #7cb3d4; cursor: pointer; text-decoration: underline;
-  text-decoration-style: dotted;
-}
-.chat-node-link:hover { color: #a0d4f0; }
-
 /* Themed utilities for JS-generated inline content (sidebars, tooltips, chat).
    Inline styles must NOT be used for theme-dependent colours — theme switching
    (three-graph-light.css) only works through classes, so new markup should use
@@ -771,16 +754,8 @@ a.data-source:hover { border-color: #6b9bc7; }
   font-size: 12px; color: #a78bfa; user-select: none;
 }
 #graphify-toggle input { accent-color: #6b5ce7; cursor: pointer; margin: 0; }
-#graphify-ops { display: flex; gap: 6px; }
-.graphify-op {
-  background: rgba(107,92,231,0.12); border: 1px solid #4a3f8a; color: #b8a7ff;
-  padding: 3px 9px; border-radius: 12px; font-size: 11px; cursor: pointer;
-  font-family: inherit; letter-spacing: 0.03em; transition: all 0.15s;
-}
-.graphify-op:hover { background: rgba(107,92,231,0.28); border-color: #a78bfa; color: #d5c9ff; }
 #graphify-off-hint { display: none; font-size: 11px; color: #7fe0c8; }
 #chat-modes.graphify-off #graphify-toggle { color: #666; }
-#chat-modes.graphify-off #graphify-ops { display: none; }
 #chat-modes.graphify-off #graphify-off-hint { display: inline; }
 .chat-mode-divider { width: 1px; align-self: stretch; background: #2a2a4e; margin: 2px 2px; }
 #response-mode { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: #9a9ab0; user-select: none; margin-left: auto; }
@@ -848,7 +823,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-tag-item:hover, .chat-tag-item.active { background: rgba(78,121,167,0.22); }
 .chat-tag-item .tag-kind { color: #7cb3d4; font-size: 11px; flex-shrink: 0; }
 .chat-tag-item .tag-degree { margin-left: auto; color: #666; font-size: 11px; flex-shrink: 0; }
-.chat-tag-item .tag-empty { color: #888; font-style: italic; }
 
 /* Filter-nodes bar lives in the panel body (below the header). */
 #chat-filter-bar {
@@ -998,10 +972,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-combobox-clear:hover { color: #e0e0e0; background: rgba(255,255,255,0.08); }
 #notes-combobox.filtering .notes-combobox-caret { display: none; }
 #notes-combobox.filtering .notes-combobox-clear { display: flex; }
-.notes-doc-field, #notes-upload #notes-doc-field {
-  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
-  padding: 7px 10px; font-size: 12px; font-family: inherit; max-width: 220px;
-}
 /* Shared dropdown (search/document combobox) */
 .notes-popup {
   position: absolute; top: calc(100% + 5px); left: 0; right: 0;
@@ -1021,7 +991,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-popup-item:last-child { border-bottom: none; }
 .notes-popup-item:hover, .notes-popup-item.active { background: rgba(78,121,167,0.22); }
 .notes-popup-item .popup-topic { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
-.notes-popup-item .popup-check { color: #7cb3d4; margin-left: auto; flex-shrink: 0; }
 .notes-popup-item .popup-sub { color: #888; font-size: 11px; flex-shrink: 0; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
    match the filter inputs so the row stays aligned. */
@@ -1090,55 +1059,19 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-card-meta { color: #7c7c94; font-size: 11px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .notes-badge { background: #2a2a4e; border: 1px solid #3a3a5e; color: #9ec1e8; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; white-space: nowrap; }
 .notes-badge.topic { color: var(--teal); }
-.notes-badge.ocr { color: #d2a8ff; }
-.notes-badge.draft { color: #E8A33D; }
 .notes-doc { overflow-wrap: anywhere; font-size: 10.5px; color: #7c7c94; }
 .notes-ocr-snip {
   color: inherit; font-size: inherit; line-height: 1.5; max-height: 16em; overflow: hidden;
   margin: 0;
 }
-/* Thin divider separating the card title from the transcript preview. */
-.notes-card-divider { border: none; border-top: 1px solid #3a3a5e; margin: 2px 0; }
 .notes-empty { padding: 40px 20px; text-align: center; color: #888; font-size: 13px; margin: auto; }
 .notes-loading { padding: 40px 20px; display: flex; flex-direction: column; align-items: center; gap: 14px; color: #888; font-size: 13px; margin: auto; }
 .notes-loading .spinner { width: 32px; height: 32px; border-width: 3px; margin-bottom: 0; }
 .notes-muted { color: #777; font-size: 12px; }
 .notes-muted code { background: #23233f; border: 1px solid #3a3a5e; border-radius: 4px; padding: 1px 6px; font-size: 11px; color: #cfe3f5; }
 
-/* Upload view */
-#notes-upload { padding: 14px 16px; overflow-y: auto; overflow-x: hidden; }
-.notes-drop {
-  border: 1.5px dashed #3a3a5e; border-radius: 10px; padding: 22px 16px; text-align: center;
-  color: #9a9ab0; background: #16162b; cursor: pointer; transition: border-color 0.15s;
-}
-.notes-drop:hover, .notes-drop.drag { border-color: #4E79A7; color: #e0e0e0; }
-.notes-drop-inner p { margin: 8px 0 12px; font-size: 13px; }
-.notes-drop-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-.notes-drop-actions button, #notes-submit, .notes-ann-download, #notes-lb-edit {
-  background: #4E79A7; border: none; color: #fff; border-radius: 6px; padding: 8px 16px;
-  font-size: 13px; cursor: pointer; font-family: inherit;
-}
-.notes-drop-actions button:hover, #notes-submit:hover, .notes-ann-download:hover, #notes-lb-edit:hover { background: #5d8bbd; }
-.notes-page-grid { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
-.notes-page-thumb { position: relative; width: 112px; }
-.notes-page-thumb img { width: 112px; height: 84px; object-fit: cover; border-radius: 6px; border: 1px solid #3a3a5e; display: block; }
-.notes-page-thumb .page-num { position: absolute; left: 4px; bottom: 4px; background: rgba(0,0,0,0.65); color: #e0e0e0; font-size: 10px; padding: 1px 6px; border-radius: 8px; }
-.notes-page-thumb button.rm {
-  position: absolute; top: -6px; right: -6px; width: 20px; height: 20px; border-radius: 50%;
-  background: #c0392b; color: #fff; border: 1px solid #e74c3c; font-size: 11px; line-height: 1; cursor: pointer; padding: 0;
-}
-#notes-upload .at-section { margin-top: 4px; }
-.notes-details { display: flex; flex-direction: column; gap: 8px; padding: 4px 0 8px; }
-.notes-field { display: flex; flex-direction: column; gap: 4px; }
-.notes-field label { color: #9a9ab0; font-size: 12px; }
-.notes-field input, .notes-field select {
-  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
-  padding: 8px 10px; font-size: 13px; font-family: inherit; width: 100%; box-sizing: border-box;
-}
-.notes-field input:focus, .notes-field select:focus, #notes-search:focus { outline: none; border-color: #4E79A7; }
-.notes-upload-submit { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
-.notes-upload-status { color: var(--teal); font-size: 12px; }
-.notes-upload-status.error { color: #ff7b72; }
+/* Search focus outline */
+#notes-search:focus { outline: none; border-color: #4E79A7; }
 
 /* Lightbox */
 .notes-lb-top {
@@ -1171,7 +1104,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
 .notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
 .notes-lb-title { flex: 1 1 auto; min-width: 0; color: #e8eef7; font-size: 15px; font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
-.notes-lb-actions { display: flex; gap: 8px; flex-shrink: 0; }
 
 .notes-lb-body { flex: 1 1 auto; min-height: 0; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(280px, 1fr); grid-template-rows: minmax(0, 1fr) auto; grid-template-areas: "stage side" "pages side"; }
 .notes-lb-stage { grid-area: stage; position: relative; display: flex; flex-direction: column; min-height: 0; }
@@ -1242,15 +1174,7 @@ a.data-source:hover { border-color: #6b9bc7; }
   padding: 3px 10px; font-size: 11.5px; cursor: pointer; font-family: inherit;
 }
 .notes-chip:hover { border-color: #4E79A7; color: #fff; }
-.notes-chip.topic-chip { color: var(--teal); }
 .notes-chip.tag-chip { color: #9a9ab0; cursor: default; }
-.notes-chip.del { color: #ff7b72; }
-.notes-chip.del:hover { border-color: #e2534a; }
-.notes-edit-input {
-  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
-  padding: 6px 9px; font-size: 12px; font-family: inherit; width: 100%; box-sizing: border-box;
-}
-.notes-edit-input:focus { outline: none; border-color: #4E79A7; }
 
 .notes-ann-tools { display: flex; gap: 6px; flex-wrap: wrap; }
 .notes-ann-tools button { background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px; font-size: 11.5px; padding: 5px 9px; cursor: pointer; font-family: inherit; }
@@ -1330,7 +1254,6 @@ a.data-source:hover { border-color: #6b9bc7; }
   /* Single row like the analysis panel: Notes + Close. Match the Reader title's
      mobile size (14px) so the Notes title stays consistent with it. */
   #notes-header .chat-title { font-size: 14px; }
-  #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
   #notes-gallery { gap: 10px; padding: 12px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
   #notes-gallery .notes-card .img-wrap { height: 220px; }
 }

@@ -6,7 +6,7 @@ import * as THREE from 'three';
 import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
 import { state } from './state.js';
 import {
-  camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, edgeOffColor, animateCamera,
+  camera, nodeObjects, nodeMeshes, edgeObjects, edgeOffColor, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
@@ -32,7 +32,6 @@ const chatFilterCheckbox = document.getElementById('chat-filter-nodes');
 const chatFilterCount = document.getElementById('chat-filter-count');
 const chatModes = document.getElementById('chat-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
-const graphifyOps = document.getElementById('graphify-ops');
 const chatTagPopup = document.getElementById('chat-tag-popup');
 const chatTags = document.getElementById('chat-tags');
 const chatModeSwitch = document.getElementById('chat-mode-switch');
@@ -52,12 +51,10 @@ const SESSION_RESET_API = `${API_BASE}/session/reset`;
 let chatOpen = false;
 let chatBusy = false;
 let chatHighlightedNodes = [];
-let chatHighlightedEdges = [];
-// In-memory conversation history (session only; intentionally NOT persisted to
-// localStorage/sessionStorage so a refresh clears it). Rendered in the panel and
-// kept as a fallback; conversational context now lives server-side, keyed by
-// chatSessionId.
-let chatHistory = [];
+// Tracks whether a conversation has started (the message array contents are no
+// longer kept client-side — conversational context now lives server-side, keyed
+// by chatSessionId). Used only to light the Prompt tab's activity dot.
+let chatActive = false;
 // opencode session id, assigned by the server on the first turn. Sending it back
 // keeps follow-up questions in the same conversation without re-uploading the
 // whole transcript on every request.
@@ -70,12 +67,6 @@ let chatSessionId = null;
 // (explain / path / query / analyze). Unchecked: the turn is answered from the
 // wiki by the chat model, even if the text happens to say "graphify".
 // The switch resets to on with the rest of the session state on reload.
-const OP_TEMPLATES = {
-  query: { text: 'Query ', caret: null },
-  explain: { text: 'Explain ', caret: null },
-  path: { text: 'Path from  to ', caret: 10 },
-};
-
 function graphifyEnabled() {
   return !!(graphifyCheckbox && graphifyCheckbox.checked);
 }
@@ -95,8 +86,8 @@ graphifyCheckbox.addEventListener('change', () => {
 
 // ------------------------------------------------------------
 // Response view mode (MD / HTML) — choose how a response is rendered.
-//   md   : render markdown inline in the chat bubble (default)
-//   html : open the response in the standalone HTML-mode page (pages.css)
+//   html : open the response in the standalone HTML-mode page (pages.css) (default)
+//   md   : render markdown inline in the chat bubble
 // The per-message globe button still lets you open HTML on demand in MD mode.
 // ------------------------------------------------------------
 let responseMode = 'html'; // 'md' | 'html'
@@ -135,20 +126,6 @@ function withOutputSpec(text) {
     return `${text}\n\n${spec}`;
   }
   return `${text}\n\n[Output format: .md]`;
-}
-
-// Op chips prefill an operation template so the three graph ops stay discoverable.
-if (graphifyOps) {
-  graphifyOps.addEventListener('click', (e) => {
-    const btn = e.target.closest('.graphify-op');
-    if (!btn) return;
-    const tpl = OP_TEMPLATES[btn.dataset.op];
-    if (!tpl) return;
-    chatInput.value = tpl.text;
-    chatInput.focus();
-    const pos = tpl.caret === null ? tpl.text.length : tpl.caret;
-    chatInput.setSelectionRange(pos, pos);
-  });
 }
 
 syncGraphifyUI();
@@ -214,18 +191,10 @@ function sanitizeChatInput(text) {
   return t.slice(0, 4000);
 }
 
-function addChatMessage(text, type, badge) {
+function addChatMessage(text, type) {
   const div = document.createElement('div');
   div.className = `chat-msg ${type}`;
-  if (type === 'bot') {
-    let html = '';
-    if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
-    html += formatBotMessage(text);
-    div.innerHTML = html;
-    addCopyButton(div, text);
-  } else {
-    div.textContent = text;
-  }
+  div.textContent = text;
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
   return div;
@@ -590,7 +559,7 @@ async function sendChatMessage() {
   if (suggestions) suggestions.remove();
 
   addChatMessage(clean, 'user');
-  chatHistory.push({ role: 'user', content: clean });
+  chatActive = true;
   refreshActivity();
 
   const typingDiv = addChatMessage('Thinking', 'typing');
@@ -617,7 +586,6 @@ async function sendChatMessage() {
 
     if (!intentResp.ok) {
       chatMessages.removeChild(typingDiv);
-      chatHistory.pop();
       addChatMessage('Server error', 'error');
       return;
     }
@@ -646,7 +614,6 @@ async function sendChatMessage() {
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    chatHistory.pop();
     addChatMessage('Could not reach the chat server.', 'error');
   } finally {
     if (typingTimerId) { clearInterval(typingTimerId); typingTimerId = null; }
@@ -752,7 +719,6 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    chatHistory.pop();
     addChatMessage('Stream error. Please try again.', 'error');
     if (typingTimerId) clearInterval(typingTimerId);
     throw e; // re-throw so finally in caller handles cleanup
@@ -791,14 +757,10 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
 
-  chatHistory.push({ role: 'assistant', content: responseText });
-
   // Highlight relevant nodes
-  if (responseText) {
-    const highlighted = highlightForMessage(clean, { text: responseText, highlight_nodes: serverHighlightNodes, highlight_edges: serverHighlightEdges });
-    if (highlighted.nodes.length > 0) {
-      highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
-    }
+  const highlighted = highlightForMessage(clean, { text: responseText, highlight_nodes: serverHighlightNodes, highlight_edges: serverHighlightEdges });
+  if (highlighted.nodes.length > 0) {
+    highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
   }
 }
 
@@ -855,7 +817,6 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    chatHistory.pop();
     addChatMessage('Server error', 'error');
     if (typingTimerId) clearInterval(typingTimerId);
     return;
@@ -879,8 +840,6 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
 
-  chatHistory.push({ role: 'assistant', content: textBuf });
-
   if (textBuf || highlightNodes.length) {
     const highlighted = highlightForMessage(clean, { text: textBuf, highlight_nodes: highlightNodes, highlight_edges: highlightEdges, primary_node: primaryNode });
     if (highlighted.nodes.length > 0) {
@@ -895,9 +854,9 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
 }
 
 // Build the download row for a custom node analysis message.
-function addAnalysisActions(div, data, fallbackLabel) {
+function addAnalysisActions(div, data) {
   const primaryLabel =
-    (data && data.nodes && data.nodes[0] && data.nodes[0].label) || fallbackLabel || 'analysis';
+    (data && data.nodes && data.nodes[0] && data.nodes[0].label) || 'analysis';
   const safe = String(primaryLabel).replace(/[^\w\u4e00-\u9fff\-]+/g, '_').slice(0, 60);
 
   const row = document.createElement('div');
@@ -1200,16 +1159,13 @@ function pageSuggestionsHTML() {
     `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more analyses</button>`;
 }
 
-function defaultSuggestionsHTML() {
-  suggestionOffset = 0;
-  return pageSuggestionsHTML();
-}
-
 function appendSuggestions(parent) {
   const div = document.createElement('div');
   div.className = 'chat-suggestions';
   div.id = 'chat-suggestions';
-  div.innerHTML = defaultSuggestionsHTML();
+  // Initial page starts at offset 0.
+  suggestionOffset = 0;
+  div.innerHTML = pageSuggestionsHTML();
   parent.appendChild(div);
 }
 
@@ -1260,7 +1216,7 @@ chatNewBtn.addEventListener('click', () => {
       keepalive: true,
     }).catch(() => {});
   }
-  chatHistory = [];
+  chatActive = false;
   chatMessages.innerHTML = '';
   clearChatHighlights();
   compareA = [];
@@ -1358,7 +1314,6 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
   if (state.selectedNode) deselectNode();
 
   chatHighlightedNodes = nodeIds;
-  chatHighlightedEdges = edgePairs;
   const idSet = new Set(nodeIds);
 
   applyNodeState(idSet, 1, 0.6, 0.06, 0.03);
@@ -1417,7 +1372,6 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 
 function clearChatHighlights() {
   chatHighlightedNodes = [];
-  chatHighlightedEdges = [];
   chatFilterToggle.classList.remove('visible');
   chatFilterCheckbox.checked = false;
   chatFilterCheckbox.disabled = true;
@@ -1481,7 +1435,7 @@ chatModeSwitch.addEventListener('click', (e) => {
 // lights when there are selections (tags / compare sets). The floating
 // analysis button lights when either panel has active work.
 function refreshActivity() {
-  const promptActive = chatHistory.length > 0 ||
+  const promptActive = chatActive ||
     (panelMode !== 'explore' && chatInput.value.trim().length > 0);
   const graphActive = compareA.length > 0 || compareB.length > 0;
   const promptTab = chatPanel.querySelector('.chat-mode-tab[data-mode="ask"]');
@@ -1802,8 +1756,6 @@ export function openPromptComposer(text, tags = []) {
   refreshActivity();
 }
 
-function neighborsOf(id) { return new Set((adjacency.get(id) || []).map(a => a.target)); }
-
 function toggleCompare(id, set) {
   const arr = set === 'a' ? compareA : compareB;
   const i = arr.findIndex(e => e.type === 'node' && e.id === id);
@@ -1890,8 +1842,9 @@ function runCompare() {
     res.innerHTML = '<span style="color:#E4575E">Add at least one node or community to both Set A and Set B.</span>';
     return;
   }
-  const nA = new Set(); idsA.forEach(id => { nA.add(id); neighborsOf(id).forEach(x => nA.add(x)); });
-  const nB = new Set(); idsB.forEach(id => { nB.add(id); neighborsOf(id).forEach(x => nB.add(x)); });
+  const nb = (id) => new Set((adjacency.get(id) || []).map(a => a.target));
+  const nA = new Set(); idsA.forEach(id => { nA.add(id); nb(id).forEach(x => nA.add(x)); });
+  const nB = new Set(); idsB.forEach(id => { nB.add(id); nb(id).forEach(x => nB.add(x)); });
   const inter = new Set([...nA].filter(x => nB.has(x)));
   const uni = new Set([...nA, ...nB]);
   const jaccard = uni.size ? inter.size / uni.size : 0;
