@@ -2358,6 +2358,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "oxidative-stress",
       "senescence"
     ],
@@ -2400,7 +2401,8 @@
       "Caspases"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -2442,7 +2444,8 @@
       "Tumor"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -2483,7 +2486,8 @@
       "Redox"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -2522,6 +2526,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -2564,7 +2569,8 @@
       "Tumor"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -2605,7 +2611,8 @@
       "p53"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -2860,6 +2867,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "senescence"
     ],
     "pages": [
@@ -2901,7 +2909,8 @@
       "AMPK"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -2944,6 +2953,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "spermidine"
     ],
     "pages": [
@@ -2984,7 +2994,8 @@
       "Proteins"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -3026,7 +3037,8 @@
       "Glucose"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -3068,7 +3080,8 @@
       "Heart"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -3109,7 +3122,8 @@
       "Glucose"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -3151,6 +3165,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "cancer"
     ],
     "pages": [
@@ -3393,6 +3408,7 @@
     ],
     "tags": [
       "epigenetics",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -3434,6 +3450,7 @@
     ],
     "tags": [
       "epigenetics",
+      "notes",
       "senescence"
     ],
     "pages": [
@@ -3476,7 +3493,8 @@
       "Methylation"
     ],
     "tags": [
-      "epigenetics"
+      "epigenetics",
+      "notes"
     ],
     "pages": [
       {
@@ -3516,6 +3534,7 @@
     ],
     "tags": [
       "epigenetics",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -3589,6 +3608,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "oxidative-stress",
       "photo"
     ],
@@ -3631,7 +3651,8 @@
       "ATP"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -3673,7 +3694,8 @@
       "Tumor"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -3939,7 +3961,8 @@
       "IL-6"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -3974,6 +3997,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "misc",
       "photo"
     ],
@@ -4017,7 +4041,8 @@
       "PI3K"
     ],
     "tags": [
-      "misc"
+      "misc",
+      "notes"
     ],
     "pages": [
       {
@@ -4056,6 +4081,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -4098,7 +4124,8 @@
       "YAP1"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -4140,7 +4167,8 @@
       "Tumor"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -4180,7 +4208,8 @@
       "Tumor"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -4223,6 +4252,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "cancer"
     ],
     "pages": [
@@ -4265,7 +4295,8 @@
       "EMT"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -4307,7 +4338,8 @@
       "Apoptosis"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -4348,6 +4380,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "cancer"
     ],
     "pages": [
@@ -4382,6 +4415,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -4418,6 +4452,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -4458,6 +4493,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -4492,6 +4528,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -4693,7 +4730,8 @@
       "Nucleus"
     ],
     "tags": [
-      "blood-cells"
+      "blood-cells",
+      "notes"
     ],
     "pages": [
       {
@@ -4729,6 +4767,7 @@
     ],
     "tags": [
       "blood-cells",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -4771,7 +4810,8 @@
       "Antigens"
     ],
     "tags": [
-      "blood-cells"
+      "blood-cells",
+      "notes"
     ],
     "pages": [
       {
@@ -4813,7 +4853,8 @@
       "Antigen"
     ],
     "tags": [
-      "blood-cells"
+      "blood-cells",
+      "notes"
     ],
     "pages": [
       {
@@ -5087,7 +5128,8 @@
       "Oxygen"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -5130,6 +5172,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "cancer"
     ],
     "pages": [
@@ -5167,6 +5210,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -5210,7 +5254,8 @@
       "Beta-catenin"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -5250,7 +5295,8 @@
       "ATP"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -5292,7 +5338,8 @@
       "RSK"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -5334,7 +5381,8 @@
       "Tumor"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "notes"
     ],
     "pages": [
       {
@@ -5376,6 +5424,7 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -5460,7 +5509,8 @@
       "Catalase"
     ],
     "tags": [
-      "oxidative-stress"
+      "oxidative-stress",
+      "notes"
     ],
     "pages": [
       {
@@ -5502,7 +5552,8 @@
       "Iron"
     ],
     "tags": [
-      "oxidative-stress"
+      "oxidative-stress",
+      "notes"
     ],
     "pages": [
       {
@@ -5540,6 +5591,7 @@
     ],
     "tags": [
       "oxidative-stress",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -5583,6 +5635,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "oxidative-stress"
     ],
     "pages": [
@@ -6543,7 +6596,8 @@
       "Sirtuins"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "notes"
     ],
     "pages": [
       {
@@ -6621,6 +6675,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -6663,7 +6718,8 @@
       "Microbiome"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -6703,6 +6759,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -6743,6 +6800,7 @@
     ],
     "tags": [
       "cancer",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -6785,7 +6843,8 @@
       "MAPK"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "notes"
     ],
     "pages": [
       {
@@ -8384,6 +8443,7 @@
     ],
     "tags": [
       "epigenetics",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -8416,6 +8476,7 @@
     ],
     "tags": [
       "epigenetics",
+      "notes",
       "photo"
     ],
     "pages": [
@@ -8451,6 +8512,7 @@
     ],
     "tags": [
       "epigenetics",
+      "notes",
       "photo"
     ],
     "pages": [
