@@ -185,10 +185,6 @@
       <div class="chat-header-left">
         <span class="chat-title"><span class="ui-en">Notes</span><span class="ui-zh chat-title-zh" hidden>筆記</span></span>
       </div>
-      <div id="notes-mode-switch" role="tablist" aria-label="Notes view">
-        <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true"><span class="ui-en">Browse</span><span class="ui-zh" hidden>瀏覽</span><span class="mode-dot" aria-hidden="true"></span></button>
-        <button type="button" class="chat-mode-tab" data-view="prompt" role="tab" aria-selected="false"><span class="ui-en">Prompt</span><span class="ui-zh" hidden>提示</span><span class="mode-dot" aria-hidden="true"></span></button>
-      </div>
       <div class="chat-header-actions">
         <button id="notes-close" aria-label="Close panel" data-i18n-title="panelClose" title="Close panel">&times;</button>
       </div>
@@ -196,17 +192,16 @@
 
     <div id="notes-browse">
       <div id="notes-filters">
-        <div class="notes-search-wrap">
-          <input id="notes-search" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="notes-search-popup">
-          <div id="notes-search-popup" class="notes-popup" role="listbox" hidden></div>
-        </div>
-        <select id="notes-doc-filter" title="Filter by document"><option value=""></option></select>
-        <div class="notes-topic-wrap">
-          <button id="notes-topic-btn" class="notes-filter-btn" type="button" aria-expanded="false" aria-haspopup="listbox" data-i18n-title="filterByTopic" title="Filter by topic">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-            <span id="notes-topic-badge" class="notes-filter-badge" hidden></span>
-          </button>
-          <div id="notes-topic-popup" class="notes-popup notes-topic-menu" role="listbox" aria-label="Topics" hidden></div>
+        <div class="notes-combobox" id="notes-combobox">
+          <div class="notes-combobox-field">
+            <span id="notes-doc-chip" class="notes-combobox-chip" hidden>
+              <span id="notes-doc-chip-label"></span>
+              <button id="notes-doc-chip-x" type="button" title="Clear document" aria-label="Clear document">&times;</button>
+            </span>
+            <input id="notes-search" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="notes-combobox-popup">
+          </div>
+          <svg class="notes-combobox-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          <div id="notes-combobox-popup" class="notes-popup" role="listbox" hidden></div>
         </div>
         <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
           <button type="button" data-lang="en-US" title="English (US)">EN</button>

@@ -22,16 +22,14 @@ const notesPanel = $('notes-panel');
 const notesBox = $('notes-box');
 const notesBtn = $('btn-notes');
 const notesClose = $('notes-close');
-const modeSwitch = $('notes-mode-switch');
 const browseEl = $('notes-browse');
 const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
-const searchPopup = $('notes-search-popup');
-const docFilter = $('notes-doc-filter');
-const topicBtn = $('notes-topic-btn');
-const topicPopup = $('notes-topic-popup');
-const topicBadge = $('notes-topic-badge');
+const comboboxPopup = $('notes-combobox-popup');
+const docChip = $('notes-doc-chip');
+const docChipLabel = $('notes-doc-chip-label');
+const docChipX = $('notes-doc-chip-x');
 const langToggle = $('notes-lang');
 const langBtns = Array.from(document.querySelectorAll('#notes-lang [data-lang]'));
 const galleryEl = $('notes-gallery');
@@ -83,7 +81,6 @@ const fitBtn = $('notes-lb-fit');
 let notes = [];
 let documents = [];
 let filterQ = '';
-let filterTopic = '';
 let filterDoc = '';   // active document filter ('' = all documents)
 let uiLang = 'en-US'; // panel + note-content language; persisted across visits
 try {
@@ -117,8 +114,8 @@ let statusTimer = null;
 const UI_STRINGS = {
   'en-US': {
     panelClose: 'Close panel',
-    notesViewAria: 'Notes view',
     searchPlaceholder: 'Search notes, OCR, entities, tags',
+    sectionNotes: 'Notes',
     filterByTopic: 'Filter by topic',
     allTopics: 'All topics',
     filterByDocument: 'Filter by document',
@@ -171,8 +168,8 @@ const UI_STRINGS = {
   },
   'zh-TW': {
     panelClose: '關閉面板',
-    notesViewAria: '筆記檢視',
     searchPlaceholder: '搜尋筆記、OCR、實體與標籤',
+    sectionNotes: '筆記',
     filterByTopic: '主題篩選',
     allTopics: '全部主題',
     filterByDocument: '文件篩選',
@@ -266,12 +263,11 @@ function applyUiLang(lang) {
     if (key && t(key)) el.title = t(key);
   });
 
-  modeSwitch.setAttribute('aria-label', t('notesViewAria'));
   notesClose.setAttribute('aria-label', t('panelClose'));
   langToggle.setAttribute('aria-label', t('panelLanguage'));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('searchPlaceholder');
-  closeSearchPopup();
+  closeCombobox();
   populatePickers();
 
   renderGallery();
@@ -317,8 +313,7 @@ function openNotes() {
   syncNotesHash();
 }
 function closeNotes() {
-  closeTopicPopup();
-  closeSearchPopup();
+  closeCombobox();
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
   setLightbox(null);
@@ -370,22 +365,11 @@ function setView(view) {
   // The Upload screen is hidden (notes arrive via the backend); Browse is the
   // only reachable view. Programmatic requests for upload snap back to browse.
   if (view !== 'browse') view = 'browse';
-  modeSwitch.querySelectorAll('.chat-mode-tab').forEach((t) => {
-    const active = t.dataset.view === view;
-    t.classList.toggle('active', active);
-    t.setAttribute('aria-selected', active ? 'true' : 'false');
-  });
   browseEl.hidden = view !== 'browse';
   uploadEl.hidden = view !== 'upload';
   lightboxEl.hidden = true;
   currentNote = null;
 }
-modeSwitch.addEventListener('click', (e) => {
-  const tab = e.target.closest('.chat-mode-tab');
-  if (!tab) return;
-  if (tab.dataset.view === 'prompt') { sendTranscriptToPrompt(); return; }
-  setView(tab.dataset.view); syncNotesHash();
-});
 
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
@@ -429,33 +413,9 @@ function ensureIndexLoaded() {
 }
 
 function populatePickers() {
-  // Topic filter — rendered as a popup menu behind the funnel icon button.
-  const topics = [...new Set(notes.map(noteTopic))].sort();
-  const topicItems = [{ value: '', label: t('allTopics') }]
-    .concat(topics.map((tp) => ({ value: tp, label: tp })));
-  topicPopup.innerHTML = topicItems.map((it) => {
-    const active = filterTopic === it.value;
-    return `<button type="button" class="notes-popup-item topic" data-topic="${esc(it.value)}" role="option" aria-selected="${active}">
-      <span class="popup-topic">${esc(it.label)}</span>
-      <span class="popup-check" ${active ? '' : 'hidden'}>✓</span>
-    </button>`;
-  }).join('');
-  topicPopup.querySelectorAll('[data-topic]').forEach((b) =>
-    b.addEventListener('click', () => setTopicFilter(b.dataset.topic)));
-  updateTopicBadge();
-
-  // Document filter — built from the notes that actually carry a document so
-  // every option leads to a non-empty gallery (versus listing the full
-  // `_document_` index, most of which have no notes yet).
-  const docs = [...new Set(notes.map((n) => (n.document || '').trim()).filter(Boolean))]
-    .sort((a, b) => a.localeCompare(b));
-  docFilter.innerHTML = `<option value="">${esc(t('allDocuments'))}</option>` +
-    docs.map((d) => `<option value="${esc(d)}">${esc(shortDoc(d))}</option>`).join('');
-  docFilter.value = filterDoc;
-  docFilter.disabled = !docs.length;
-
-  // Search placeholder hint
+  // Search placeholder + active-document chip (kept in sync on load / lang swap).
   searchInput.placeholder = t('searchPlaceholder');
+  syncDocumentChip();
 
   // NOTE: The Upload screen is disabled (its tab and view are hidden, and
   // setView() snaps any non-browse request back to browse). It therefore does
@@ -468,7 +428,6 @@ function populatePickers() {
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
   return notes.filter((n) => {
-    if (filterTopic && noteTopic(n) !== filterTopic) return false;
     if (filterDoc && (n.document || '') !== filterDoc) return false;
     if (!q) return true;
     const hay = [
@@ -557,40 +516,45 @@ function shortDoc(filename) {
 // ------------------------------------------------------------
 // Filters
 // ------------------------------------------------------------
+searchInput.addEventListener('focus', () => {
+  renderCombobox();
+  comboboxPopup.hidden = false;
+  searchInput.setAttribute('aria-expanded', 'true');
+});
 searchInput.addEventListener('input', () => {
   filterQ = searchInput.value;
   renderGallery();
-  updateSearchPopup();
+  renderCombobox();
 });
 searchInput.addEventListener('keydown', (e) => {
-  if (!searchPopup.hidden && searchMatchesList.length) {
-    if (e.key === 'ArrowDown') { e.preventDefault(); searchIdx = (searchIdx + 1) % searchMatchesList.length; highlightSearch(); return; }
-    if (e.key === 'ArrowUp') { e.preventDefault(); searchIdx = (searchIdx - 1 + searchMatchesList.length) % searchMatchesList.length; highlightSearch(); return; }
-    if (e.key === 'Enter') { e.preventDefault(); selectSearchMatch(searchIdx < 0 ? 0 : searchIdx); return; }
-    if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); closeSearchPopup(); return; }
+  if (!comboboxPopup.hidden && comboboxItems.length) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); comboboxIdx = (comboboxIdx + 1) % comboboxItems.length; highlightCombobox(); return; }
+    if (e.key === 'ArrowUp') { e.preventDefault(); comboboxIdx = (comboboxIdx - 1 + comboboxItems.length) % comboboxItems.length; highlightCombobox(); return; }
+    if (e.key === 'Enter') { e.preventDefault(); comboboxItems[Math.max(0, comboboxIdx)].click(); return; }
+    if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); closeCombobox(); return; }
   }
 });
-docFilter.addEventListener('change', () => {
-  filterDoc = docFilter.value;
-  renderGallery();
-  syncNotesHash();
-});
-topicBtn.addEventListener('click', () => {
-  if (topicPopup.hidden) {
-    populatePickers(); // refresh active check + labels while closed→open
-    topicPopup.hidden = false;
-    topicBtn.setAttribute('aria-expanded', 'true');
-  } else {
-    closeTopicPopup();
-  }
+docChipX.addEventListener('click', (e) => {
+  e.stopPropagation();
+  setDocumentFilter('');
+  searchInput.focus();
 });
 
 // ------------------------------------------------------------
-// Search combobox + topic filter popup
+// Search + document combobox
 // ------------------------------------------------------------
-let searchMatchesList = [];
-let searchIdx = -1;
+let comboboxItems = [];
+let comboboxIdx = -1;
 
+// Sorted list of documents that actually have notes (every option leads to a
+// non-empty gallery — not the full `_document_` index).
+function documentOptions() {
+  return [...new Set(notes.map((n) => (n.document || '').trim()).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b))
+    .map((v) => ({ value: v, label: shortDoc(v) }));
+}
+
+// Notes matching the current query (title/OCR/entities/tags/document).
 function searchMatches() {
   const q = filterQ.trim().toLowerCase();
   if (!q) return [];
@@ -600,70 +564,97 @@ function searchMatches() {
       (n.entities || []).join(' '), (n.tags || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
-  }).slice(0, 8);
+  }).slice(0, 6);
 }
 
-function updateSearchPopup() {
-  const matches = searchMatches();
-  if (!matches.length) { closeSearchPopup(); return; }
-  searchMatchesList = matches;
-  searchIdx = -1;
-  searchPopup.innerHTML = matches.map((n, i) =>
-    `<button type="button" class="notes-popup-item" data-idx="${i}" role="option" aria-selected="false">
-      <span class="popup-topic">${esc(activeTitle(n))}</span>
-      <span class="popup-sub">${esc(noteTopic(n))}</span>
-    </button>`).join('');
-  searchPopup.hidden = false;
-  searchInput.setAttribute('aria-expanded', 'true');
-  searchPopup.querySelectorAll('[data-idx]').forEach((b) =>
-    b.addEventListener('click', () => selectSearchMatch(parseInt(b.dataset.idx, 10))));
+// Render the dropdown: a Documents section (selectable to set the doc chip)
+// always, plus a Notes section once the user is typing.
+function renderCombobox() {
+  const q = filterQ.trim().toLowerCase();
+  const docs = documentOptions();
+  let docList = docs;
+  if (q) docList = docs.filter((d) =>
+    d.label.toLowerCase().includes(q) || d.value.toLowerCase().includes(q));
+
+  const parts = [];
+  if (docList.length) {
+    parts.push(`<div class="notes-section-label">${esc(t('allDocuments'))}</div>`);
+    parts.push(`<button type="button" class="notes-popup-item doc" data-doc="" role="option" aria-selected="${!filterDoc}">
+      <span class="popup-topic">${esc(t('allDocuments'))}</span>
+      <span class="popup-check" ${!filterDoc ? '' : 'hidden'}>✓</span>
+    </button>`);
+    parts.push(docList.map((d) =>
+      `<button type="button" class="notes-popup-item doc" data-doc="${esc(d.value)}" role="option" aria-selected="${filterDoc === d.value}">
+        <span class="popup-topic">${esc(d.label)}</span>
+        <span class="popup-check" ${filterDoc === d.value ? '' : 'hidden'}>✓</span>
+      </button>`).join(''));
+  }
+  if (q) {
+    const matches = searchMatches();
+    if (matches.length) {
+      parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
+      parts.push(matches.map((n) =>
+        `<button type="button" class="notes-popup-item note" data-note="${esc(n.id)}" role="option">
+          <span class="popup-topic">${esc(activeTitle(n))}</span>
+          <span class="popup-sub">${esc(noteTopic(n))}</span>
+        </button>`).join(''));
+    }
+  }
+  if (!parts.length) {
+    parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
+  }
+  comboboxPopup.innerHTML = parts.join('');
+  comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-doc], [data-note]'));
+  comboboxIdx = -1;
+  comboboxPopup.querySelectorAll('[data-doc]').forEach((b) =>
+    b.addEventListener('click', () => commitDocumentFilter(b.dataset.doc)));
+  comboboxPopup.querySelectorAll('[data-note]').forEach((b) =>
+    b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
 }
 
-function highlightSearch() {
-  searchPopup.querySelectorAll('[data-idx]').forEach((b) =>
-    b.classList.toggle('active', parseInt(b.dataset.idx, 10) === searchIdx));
+function highlightCombobox() {
+  comboboxItems.forEach((b, i) => b.classList.toggle('active', i === comboboxIdx));
 }
 
-function selectSearchMatch(idx) {
-  const n = searchMatchesList[idx];
+function commitDocumentFilter(value) {
+  setDocumentFilter(value);
+  closeCombobox();
+}
+
+function setDocumentFilter(value) {
+  filterDoc = value;
+  syncDocumentChip();
+  renderGallery();
+  syncNotesHash();
+}
+
+function syncDocumentChip() {
+  if (!filterDoc) { docChip.hidden = true; return; }
+  docChipLabel.textContent = shortDoc(filterDoc);
+  docChip.hidden = false;
+}
+
+function openNoteFromCombobox(id) {
+  const n = findNote(id);
   if (!n) return;
-  closeSearchPopup();
+  closeCombobox();
   searchInput.value = activeTitle(n);
   filterQ = activeTitle(n);
   renderGallery();
-  openLightbox(findNote(n.id));
+  openLightbox(n);
 }
 
-function closeSearchPopup() {
-  searchPopup.hidden = true;
-  searchPopup.innerHTML = '';
-  searchMatchesList = [];
-  searchIdx = -1;
+function closeCombobox() {
+  comboboxPopup.hidden = true;
+  comboboxPopup.innerHTML = '';
+  comboboxItems = [];
+  comboboxIdx = -1;
   searchInput.setAttribute('aria-expanded', 'false');
 }
 
-function setTopicFilter(value) {
-  filterTopic = value;
-  closeTopicPopup();
-  renderGallery();
-}
-
-function closeTopicPopup() {
-  topicPopup.hidden = true;
-  topicBtn.setAttribute('aria-expanded', 'false');
-}
-
-function updateTopicBadge() {
-  const has = !!filterTopic;
-  topicBadge.hidden = !has;
-  if (has) topicBadge.textContent = filterTopic;
-  topicBtn.classList.toggle('active', has);
-}
-
-// Clicking anywhere outside a popup (or its trigger) closes it.
+// Clicking anywhere outside the combobox closes its dropdown.
 document.addEventListener('pointerdown', (e) => {
-  if (!e.target.closest('.notes-topic-wrap')) closeTopicPopup();
-  if (!e.target.closest('.notes-search-wrap')) closeSearchPopup();
+  if (!e.target.closest('.notes-combobox')) closeCombobox();
 }, true);
 
 // ------------------------------------------------------------
@@ -1185,10 +1176,6 @@ function renderOcr() {
 // withOutputSpec appends on send) stays under the API's 4000-char limit.
 const PROMPT_CHAR_CAP = 3000;
 
-function notePromptTab() {
-  return modeSwitch.querySelector('.chat-mode-tab[data-view="prompt"]');
-}
-
 // Returns the trimmed transcript when the note can be analyzed, or false.
 function usableTranscript(note) {
   if (!note) return false;
@@ -1198,20 +1185,15 @@ function usableTranscript(note) {
   return text;
 }
 
-// Enable/disable the header Prompt tab (activity dot) and the lightbox "→ Prompt"
-// button based on whether the open note has a usable transcript.
+// Enable/disable the lightbox "→ Prompt" button based on whether the open note
+// has a usable transcript.
 function updatePromptAvailability() {
   const usable = usableTranscript(currentNote);
-  const tab = notePromptTab();
   const tip = usable
     ? t('sendPrompt')
     : currentNote
       ? t('noUsableTranscript')
       : t('openNoteToSend');
-  if (tab) {
-    tab.classList.toggle('has-activity', !!usable);
-    tab.title = tip;
-  }
   if (lbSendPrompt) {
     lbSendPrompt.disabled = !usable;
     lbSendPrompt.title = tip;
@@ -1259,14 +1241,7 @@ function sendTranscriptToPrompt() {
   const note = currentNote;
   const text = usableTranscript(note);
   if (!text) {
-    // In the lightbox the inline status is visible; in the gallery there's no
-    // note to analyze, so just hand the user a fresh Prompt composer.
-    if (note) {
-      flashTranscriptStatus(t('noUsableTranscript'));
-      return;
-    }
-    closeNotes();
-    openPromptComposer('');
+    flashTranscriptStatus(t('noUsableTranscript'));
     return;
   }
   closeNotes();
@@ -1492,7 +1467,7 @@ export async function restoreNotes(params) {
   }
   if (params && params.doc) {
     filterDoc = params.doc;
-    docFilter.value = filterDoc;
+    syncDocumentChip();
   }
   renderGallery();
   if (!params || !params.note) return;

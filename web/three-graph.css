@@ -936,20 +936,6 @@ a.data-source:hover { border-color: #6b9bc7; }
   padding: 14px 16px; border-bottom: 1px solid #2a2a4e;
   background: #16162b; flex-shrink: 0; gap: 10px;
 }
-/* Browse/Prompt tabs sit centered between the title and Close: neutralise the
-   shared .chat-header-actions auto-margin so space-between balances the gaps. */
-#notes-header .chat-header-actions { margin-left: 0; }
-#notes-header .chat-header-left { gap: 12px; flex: 0 1 auto; min-width: 0; }
-#notes-mode-switch { display: inline-flex; flex: none; border: 1px solid #3a3a5e; border-radius: 12px; overflow: hidden; }
-/* `hidden` still wins if the switch is ever re-hidden for maintenance. */
-#notes-mode-switch[hidden] { display: none; }
-#notes-mode-switch .chat-mode-tab {
-  background: none; border: none; color: #888; font-size: 12px; padding: 4px 12px;
-  cursor: pointer; font-family: inherit; transition: all 0.15s;
-}
-#notes-mode-switch .chat-mode-tab:hover { color: #e0e0e0; }
-#notes-mode-switch .chat-mode-tab.active { background: #4E79A7; color: #fff; }
-
 /* Header action buttons — mirror the analysis panel's Reset/× styling */
 #notes-header .chat-header-actions button { font-family: inherit; }
 #notes-header button#notes-close {
@@ -971,25 +957,50 @@ a.data-source:hover { border-color: #6b9bc7; }
   display: flex; align-items: center; gap: 8px; padding: 10px 14px;
   border-bottom: 1px solid #2a2a4e; flex-wrap: wrap; flex-shrink: 0;
 }
-/* Search combobox: input + live suggestion popup */
-.notes-search-wrap { position: relative; flex: 1 1 220px; min-width: 160px; display: flex; }
-#notes-search {
-  width: 100%; flex: 1; background: #23233f; color: #e0e0e0;
-  border: 1px solid #3a3a5e; border-radius: 6px; padding: 7px 10px; font-size: 13px; font-family: inherit;
+/* Search + document combobox: one field with free-text search, a document
+   chip (active doc filter), and a dropdown listing documents + note matches. */
+.notes-combobox { position: relative; flex: 1 1 240px; min-width: 180px; }
+.notes-combobox-field {
+  display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 3px 6px; cursor: text; min-height: 33px;
+  transition: border-color 0.15s;
 }
-#notes-doc-filter, #notes-doc-field, #notes-upload #notes-doc-field {
+.notes-combobox-field:focus-within { border-color: #4E79A7; }
+#notes-search {
+  flex: 1; min-width: 60px; background: transparent; border: none; outline: none;
+  color: #e0e0e0; font-size: 13px; font-family: inherit; padding: 4px 20px 4px 2px;
+}
+.notes-combobox-chip {
+  display: inline-flex; align-items: center; gap: 3px; background: #2a2a4e;
+  border: 1px solid #4E79A7; color: #cfe3f5; border-radius: 12px;
+  font-size: 11px; padding: 2px 6px 2px 9px; max-width: 180px;
+}
+.notes-combobox-chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.notes-combobox-chip button {
+  background: none; border: none; color: #a0d4f0; font-size: 14px; line-height: 1;
+  cursor: pointer; padding: 0 2px;
+}
+.notes-combobox-chip button:hover { color: #ff6b6b; }
+.notes-combobox-caret {
+  width: 14px; height: 14px; position: absolute; right: 8px; top: 50%;
+  transform: translateY(-50%); color: #888; pointer-events: none;
+}
+.notes-doc-field, #notes-upload #notes-doc-field {
   background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
   padding: 7px 10px; font-size: 12px; font-family: inherit; max-width: 220px;
 }
-#notes-doc-filter { flex: 1 1 200px; min-width: 150px; max-width: 320px; }
-/* Shared popup (search suggestions + topic menu) */
+/* Shared dropdown (search/document combobox) */
 .notes-popup {
   position: absolute; top: calc(100% + 5px); left: 0; right: 0;
   background: #1a1a2e; border: 1px solid #4E79A7; border-radius: 8px;
   box-shadow: 0 12px 32px rgba(0,0,0,0.55);
   max-height: 260px; overflow-y: auto; z-index: 305;
 }
-.notes-topic-menu { left: auto; right: -1px; width: 200px; }
+.notes-section-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: #888; padding: 8px 12px 4px; white-space: nowrap;
+}
 .notes-popup-item {
   display: flex; align-items: center; gap: 8px; width: 100%;
   padding: 8px 12px; background: none; border: none; border-bottom: 1px solid #2a2a4e;
@@ -1000,21 +1011,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-popup-item .popup-topic { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .notes-popup-item .popup-check { color: #7cb3d4; margin-left: auto; flex-shrink: 0; }
 .notes-popup-item .popup-sub { color: #888; font-size: 11px; flex-shrink: 0; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-/* Topic filter icon button */
-.notes-topic-wrap { position: relative; flex-shrink: 0; }
-.notes-filter-btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
-  padding: 7px 9px; cursor: pointer; font-family: inherit; height: 100%;
-  transition: border-color 0.15s, background 0.15s;
-}
-.notes-filter-btn:hover { border-color: #4E79A7; }
-.notes-filter-btn.active { border-color: #4E79A7; background: #2a2a4e; }
-.notes-filter-btn svg { width: 15px; height: 15px; display: block; }
-.notes-filter-badge {
-  background: #4E79A7; color: #fff; border-radius: 10px; font-size: 10.5px;
-  padding: 1px 7px; white-space: nowrap; max-width: 120px; overflow: hidden; text-overflow: ellipsis;
-}
 /* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
    match the filter inputs so the row stays aligned. */
 #notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }
@@ -1266,10 +1262,9 @@ a.data-source:hover { border-color: #6b9bc7; }
     flex-wrap: nowrap;
     gap: 8px;
   }
-  /* Single row like the analysis panel: Notes + Browse/Prompt +
-     Close. Shrink the title and tabs slightly so all three fit on phones. */
+  /* Single row like the analysis panel: Notes + Close. Shrink the title so it
+     fits on phones. */
   #notes-header .chat-title { font-size: 13px; }
-  #notes-mode-switch .chat-mode-tab { padding: 4px 8px; font-size: 11px; }
   #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
   #notes-gallery { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; padding: 12px; }
 }
