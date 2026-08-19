@@ -434,8 +434,8 @@ body {
 .notes-lb-title { color: #22304A; }
 .notes-lb-nav button { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(3px); }
 .notes-lb-imgwrap { background: #ECE8DD; }
-.notes-lb-zoom button { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(3px); }
-/* Download icon floating over the image — match the Fit/View zoom buttons */
+.notes-lb-zoom button { background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(3px); }
+/* Download icon floating over the image */
 #notes-lb-ann-download { background: #0F766E; border-color: #0F766E; color: #fff; }
 #notes-lb-ann-download:hover { background: #0B5F59; border-color: #0B5F59; color: #fff; }
 #notes-lb-ann-download:active { background: #094F4A; border-color: #094F4A; color: #fff; }

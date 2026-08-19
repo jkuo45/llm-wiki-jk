@@ -45,7 +45,7 @@ export function updateHash(pushState = true) {
   const url = window.location.pathname + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
-  // note runs openLightbox → setViewMode → setPage). Compare full
+  // note runs openLightbox → setPage). Compare full
   // URLs: the relative `url` above rewrites against the current location.
   if (new URL(url, window.location.href).href === window.location.href) return;
   if (pushState) {

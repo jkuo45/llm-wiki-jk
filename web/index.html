@@ -264,28 +264,17 @@
           <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous image" data-i18n-title="prevImg" disabled>&larr;</button></div>
           <div class="notes-lb-imgwrap" id="notes-lb-imgwrap">
             <div class="notes-lb-zoomable" id="notes-lb-zoomable">
-              <img id="notes-lb-img" alt="Note page">
+              <img id="notes-lb-img" alt="Note page" draggable="false">
               <svg id="notes-lb-svg" xmlns="http://www.w3.org/2000/svg"></svg>
             </div>
             <div class="notes-lb-zoom">
-              <button id="notes-lb-zoomin" title="Zoom in" data-i18n-title="zoomIn">+</button>
-              <button id="notes-lb-zoomout" title="Zoom out" data-i18n-title="zoomOut">&minus;</button>
-              <button id="notes-lb-fit" title="Fit" data-i18n="fit" data-i18n-title="fit">Fit</button>
-              <button id="notes-lb-view" type="button" title="Fullscreen view of the note">⛶ View</button>
+              <button id="notes-lb-view" type="button" title="Fullscreen view of the note">⛶ Full</button>
             </div>
           </div>
           <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image" data-i18n-title="nextImg" disabled>&rarr;</button></div>
         </div>
         <div class="notes-lb-pages" id="notes-lb-pages"></div>
         <div class="notes-lb-side">
-          <div class="at-h">
-            <span data-i18n="transcript">Transcript</span>
-            <span class="at-h-right">
-              <span id="notes-lb-status" class="notes-lb-status" role="status"></span>
-              <button id="notes-lb-send-prompt" type="button" class="notes-prompt-btn" data-i18n="sendPromptBtn" data-i18n-title="sendPrompt">→ Prompt</button>
-            </span>
-          </div>
-          <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
           <div class="at-h" data-i18n="tags">Tags</div>
           <div id="notes-lb-tags" class="notes-chip-row"></div>
           <div class="at-h" id="notes-ann-start">
@@ -308,6 +297,14 @@
             <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page" data-i18n="clearAnn" data-i18n-title="clearAnnTitle">Clear</button>
             <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" data-i18n-title="annDownload" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
           </div>
+          <div class="at-h">
+            <span data-i18n="transcript">Transcript</span>
+            <span class="at-h-right">
+              <span id="notes-lb-status" class="notes-lb-status" role="status"></span>
+              <button id="notes-lb-send-prompt" type="button" class="notes-prompt-btn" data-i18n="sendPromptBtn" data-i18n-title="sendPrompt">→ Prompt</button>
+            </span>
+          </div>
+          <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
         </div>
       </div>
     </div>

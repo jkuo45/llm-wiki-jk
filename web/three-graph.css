@@ -1115,6 +1115,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .notes-lb-imgwrap {
   flex: 1 1 auto; min-height: 0; position: relative; overflow: hidden;
   background: #10101e; touch-action: none; cursor: grab;
+  user-select: none; -webkit-user-drag: none;
 }
 .notes-lb-imgwrap.panning { cursor: grabbing; }
 /* The zoomable wrapper fills the stage exactly. Sizing the image to the actual
@@ -1123,13 +1124,14 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
    taller than the stage and gets clipped by .notes-lb-imgwrap's overflow:hidden. */
 .notes-lb-zoomable {
   position: absolute; inset: 0; transform-origin: center center;
-  transition: transform 0.08s linear; line-height: 0;
+  line-height: 0;
   display: flex; align-items: center; justify-content: center;
 }
 .notes-lb-zoomable img { display: block; max-width: 100%; max-height: 100%; }
 #notes-lb-svg { position: absolute; inset: 0; pointer-events: none; }
 #notes-lb-svg .ann { pointer-events: auto; cursor: pointer; }
 #notes-lb-svg text { font-family: inherit; font-size: 16px; paint-order: stroke; stroke: #0a0a14; stroke-width: 3px; stroke-linejoin: round; }
+/* Floating "Full" button over the image (bottom-right), toggling fullscreen view. */
 .notes-lb-zoom { position: absolute; right: 12px; bottom: 12px; display: flex; gap: 6px; z-index: 3; }
 .notes-lb-zoom button { background: rgba(16,16,30,0.85); backdrop-filter: blur(3px); }
 .notes-lb-pages {
@@ -1169,7 +1171,8 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   overflow: hidden; text-overflow: ellipsis; max-width: 220px;
 }
 
-/* Fullscreen "View" mode: image fills the panel, side details hidden */
+/* Fullscreen image view (toggled by the floating "Full" button): image fills
+   the panel, side (transcript/details) hidden. */
 .notes-lb-body.view-mode {
   grid-template-columns: 1fr;
   grid-template-rows: minmax(0, 1fr) auto;

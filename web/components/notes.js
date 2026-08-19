@@ -64,9 +64,6 @@ const labelModal = $('notes-label-modal');
 const labelInput = $('notes-label-input');
 const labelOk = $('notes-label-ok');
 const labelCancel = $('notes-label-cancel');
-const zoomIn = $('notes-lb-zoomin');
-const zoomOut = $('notes-lb-zoomout');
-const fitBtn = $('notes-lb-fit');
 
 // ------------------------------------------------------------
 // State
@@ -122,10 +119,7 @@ const UI_STRINGS = {
     prevNav: '← Previous',
     nextNav: 'Next →',
     nextImg: 'Next image',
-    zoomIn: 'Zoom in',
-    zoomOut: 'Zoom out',
-    fit: 'Fit',
-    viewLabel: '⛶ View',
+    viewLabel: '⛶ Full',
     detailsLabel: '⛶ Details',
     viewFull: 'Fullscreen view of the note',
     viewDetails: 'Show details panel',
@@ -177,10 +171,7 @@ const UI_STRINGS = {
     prevNav: '← 上一張',
     nextNav: '下一張 →',
     nextImg: '下一張',
-    zoomIn: '放大',
-    zoomOut: '縮小',
-    fit: '重設',
-    viewLabel: '⛶ 檢視',
+    viewLabel: '⛶ 全螢幕',
     detailsLabel: '⛶ 詳情',
     viewFull: '筆記全螢幕檢視',
     viewDetails: '顯示詳情面板',
@@ -707,6 +698,7 @@ document.addEventListener('pointerdown', (e) => {
 // Lightbox
 // ------------------------------------------------------------
 function openLightbox(note) {
+  pointers.clear(); pinch = null;
   currentNote = note;
   currentPage = (note.pages && note.pages[0] && note.pages[0].page) || 1;
   browseEl.hidden = true;
@@ -720,6 +712,7 @@ function openLightbox(note) {
 lbBack.addEventListener('click', goBackToGallery);
 
 function goBackToGallery() {
+  pointers.clear(); pinch = null;
   lightboxEl.hidden = true;
   browseEl.hidden = false;
   uploadEl.hidden = true;
@@ -732,6 +725,8 @@ function goBackToGallery() {
 }
 
 // Toggle the fullscreen image view (side details hidden, image fills the panel).
+// The floating "Full" button over the image toggles this; the overlay ←/→
+// arrows keep navigating next/previous image while in full view.
 function setViewMode(on) {
   viewMode = on;
   lbBody.classList.toggle('view-mode', viewMode);
@@ -786,26 +781,24 @@ function setPage(page) {
     lbImg.removeAttribute('src');
     lbSvg.removeAttribute('viewBox');
   }
-  // ←/→ flip pages WITHIN the open note only. With a single page
-  // (e.g. one image per folder), both arrows stay disabled.
-  const pageCount = (n.pages || []).length;
-  lbPrev.disabled = pageCount <= 1 || currentPage <= 1;
-  lbNext.disabled = pageCount <= 1 || currentPage >= pageCount;
-  // The top-bar Next advances to the next image in the current (filtered)
-  // gallery — with one image per folder that means the next note — so it is
-  // only disabled at the very last image.
+  // The overlay ←/→ arrows and the top-bar Previous/Next all step through the
+  // gallery one image at a time: within a multi-page note that moves
+  // page-to-page; past its last page it hops to the next/previous note. All
+  // four are disabled only at the very first / very last image of the gallery.
   const entries = imageEntries();
   const idx = currentImageIndex();
-  lbTopNext.disabled = !entries.length || idx < 0 || idx >= entries.length - 1;
-  lbTopPrev.disabled = !entries.length || idx <= 0;
+  const atStart = !entries.length || idx <= 0;
+  const atEnd = !entries.length || idx < 0 || idx >= entries.length - 1;
+  lbPrev.disabled = atStart;
+  lbNext.disabled = atEnd;
+  lbTopPrev.disabled = atStart;
+  lbTopNext.disabled = atEnd;
   renderPagesStrip();
 }
 
-// The bottom filmstrip is the cross-note switcher: it renders EVERY image in
-// the current (filtered) gallery — one thumbnail per note (and per page for
-// multi-page notes) — highlights the one being viewed, and clicking any
-// thumbnail jumps to it. The ←/→ arrows above are page-only navigation within
-// the open note, so the filmstrip is what lets you move between notes.
+// The bottom filmstrip shows every image in the current (filtered) gallery —
+// one thumbnail per note (and per page for multi-page notes) — highlights the
+// one being viewed, and clicking any thumbnail jumps straight to it.
 function renderPagesStrip() {
   const entries = imageEntries();
   if (!entries.length) {
@@ -855,8 +848,8 @@ function changePage(page) {
 
 // ------------------------------------------------------------
 // Gallery image index (filmstrip): flat, gallery-ordered list of { note, page }
-// for every image. The filmstrip + currentImageIndex drive cross-note hopping;
-// the lightbox ←/→ arrows are page-only within the open note.
+// for every image. The filmstrip thumbnails and all four navigation arrows
+// (overlay ←/→ + top-bar Previous/Next) drive navigation through this list.
 // ------------------------------------------------------------
 // Flat, gallery-ordered list of { note, page } for every image.
 function imageEntries() {
@@ -873,72 +866,195 @@ function currentImageIndex() {
   return idx !== -1 ? idx : 0;
 }
 
-lbPrev.addEventListener('click', () => changePage(currentPage - 1));
-lbNext.addEventListener('click', () => changePage(currentPage + 1));
-// Top-bar Next: advance to the next image in the current (filtered) gallery.
-// `goToImage` crosses note boundaries as needed; single-page notes therefore
-// step note-to-note. The button's disabled state (managed in setPage) guards
-// the last image.
-lbTopNext.addEventListener('click', () => {
+// Step to the previous image in the current (filtered) gallery. `goToImage`
+// crosses note boundaries as needed: single-page notes step note-to-note, while
+// multi-page notes first step page-to-page within the open note.
+function goPrevImage() {
+  const idx = currentImageIndex();
+  if (idx > 0) goToImage(idx - 1);
+}
+function goNextImage() {
   const entries = imageEntries();
   const idx = currentImageIndex();
   if (idx >= 0 && idx < entries.length - 1) goToImage(idx + 1);
-});
-// Top-bar Previous: step back to the previous image in the current (filtered)
-// gallery, mirroring the top-bar Next. `goToImage` crosses note boundaries as
-// needed; the button's disabled state (managed in setPage) guards the start.
-lbTopPrev.addEventListener('click', () => {
-  const entries = imageEntries();
-  const idx = currentImageIndex();
-  if (idx > 0) goToImage(idx - 1);
-});
-// Arrow keys flip pages within the open note while the lightbox is open
-// (ignored while typing in a metadata field). They respect the button disabled
-// state so a single-page note stays non-navigable.
+}
+// The overlay ←/→ arrows and the top-bar Previous/Next are equivalent — they
+// both navigate next/previous image. The disabled states are managed in setPage.
+lbPrev.addEventListener('click', goPrevImage);
+lbNext.addEventListener('click', goNextImage);
+lbTopPrev.addEventListener('click', goPrevImage);
+lbTopNext.addEventListener('click', goNextImage);
+// Arrow keys navigate the same way while the lightbox is open (ignored while
+// typing in a metadata field). They respect the button disabled state so the
+// very first/last image stays non-navigable.
 document.addEventListener('keydown', (e) => {
   if (lightboxEl.hidden) return;
   const t = e.target;
   if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-  if (e.key === 'ArrowLeft') { if (lbPrev && !lbPrev.disabled) changePage(currentPage - 1); e.preventDefault(); }
-  else if (e.key === 'ArrowRight') { if (lbNext && !lbNext.disabled) changePage(currentPage + 1); e.preventDefault(); }
+  if (e.key === 'ArrowLeft') { if (lbPrev && !lbPrev.disabled) goPrevImage(); e.preventDefault(); }
+  else if (e.key === 'ArrowRight') { if (lbNext && !lbNext.disabled) goNextImage(); e.preventDefault(); }
 });
 
 // ------------------------------------------------------------
 // Zoom / pan
 // ------------------------------------------------------------
+// Apply the current zoom/pan state to the stage. Rendering is always instant:
+// the on-image zoom controls are gone, so every interaction (wheel, drag, pinch)
+// must track the pointer 1:1 with no transition lag.
 function updateZoom() {
   lbZoomable.style.transform = `translate(${panX}px, ${panY}px) scale(${zoom})`;
 }
-zoomIn.addEventListener('click', () => { zoom = Math.min(6, zoom * 1.35); updateZoom(); });
-zoomOut.addEventListener('click', () => { zoom = Math.max(1, zoom / 1.35); if (zoom === 1) { panX = 0; panY = 0; } updateZoom(); });
-fitBtn.addEventListener('click', () => { zoom = 1; panX = 0; panY = 0; updateZoom(); });
 
+// On-screen size of the fitted (natural) image inside the current stage.
+function fitScale() {
+  if (!naturalW || !naturalH) return 0;
+  const rect = lbImgwrap.getBoundingClientRect();
+  const w = rect.width, h = rect.height;
+  if (w <= 0 || h <= 0) return 0;
+  return Math.min(w / naturalW, h / naturalH);
+}
+
+// Keep the zoomed image inside the viewport so the user can never "lose" it by
+// panning it off-screen. Because at zoom 1 the image always fits the stage,
+// clamping also forces the pan back to center — which clears any leftover
+// offset from a previous zoom-out.
+function clampPan() {
+  const rect = lbImgwrap.getBoundingClientRect();
+  const w = rect.width, h = rect.height;
+  if (w <= 0 || h <= 0) return;
+  const s = fitScale();
+  if (!s) return;
+  const imgW = naturalW * s * zoom;
+  const imgH = naturalH * s * zoom;
+  const maxX = Math.max(0, (imgW - w) / 2);
+  const maxY = Math.max(0, (imgH - h) / 2);
+  panX = Math.max(-maxX, Math.min(maxX, panX));
+  panY = Math.max(-maxY, Math.min(maxY, panY));
+}
+
+// Apply one zoom step of `factor`, keeping the wrapper-space point under the
+// cursor anchored so the area you are looking at stays put while you zoom — no
+// drift. Driven by the wheel and pinch now that the on-image buttons are gone.
+function zoomFocal(factor, clientX, clientY) {
+  const old = zoom;
+  const next = Math.min(6, Math.max(1, old * factor));
+  const rect = lbImgwrap.getBoundingClientRect();
+  if (next !== old && rect.width > 0 && rect.height > 0) {
+    const ox = rect.left + rect.width / 2;
+    const oy = rect.top + rect.height / 2;
+    const k = next / old;
+    panX = (clientX - ox) - (clientX - ox - panX) * k;
+    panY = (clientY - oy) - (clientY - oy - panY) * k;
+  }
+  zoom = next;
+  clampPan();
+  updateZoom();
+}
+
+// Wheel zooms toward the cursor and stays anchored there.
 lbImgwrap.addEventListener('wheel', (e) => {
   e.preventDefault();
-  zoom = Math.min(6, Math.max(1, zoom * (e.deltaY > 0 ? 0.85 : 1.18)));
-  updateZoom();
+  zoomFocal(e.deltaY > 0 ? 0.85 : 1.18, e.clientX, e.clientY);
 }, { passive: false });
 
+// Pointer bookkeeping for pan + two-finger pinch. Kept in a Map keyed by
+// pointerId so multiple pointers (pinch) can be tracked independently.
+const pointers = new Map();
+let pinch = null;
+
 lbImgwrap.addEventListener('pointerdown', (e) => {
+  // Clicks on the floating controls overlaid on the image (the Full button)
+  // must pass through untouched: grabbing the pointer here would retarget the
+  // subsequent click away from the button.
+  if (e.target.closest('.notes-lb-zoom')) return;
+  try { lbImgwrap.setPointerCapture(e.pointerId); } catch (_) { /* capture unsupported */ }
+  pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+  if (pointers.size === 2) {
+    // A second finger turns the gesture into a pinch: cancel whatever the
+    // first finger was doing (pan or draw) and start tracking the two points.
+    panning = null;
+    drawing = null;
+    lbImgwrap.classList.remove('panning');
+    const ps = [...pointers.values()];
+    pinch = { x1: ps[0].x, y1: ps[0].y, x2: ps[1].x, y2: ps[1].y, zoom, panX, panY };
+    return;
+  }
+  if (pointers.size > 1) return;
+
   if (annTool) { beginDraw(e); return; }
   if (zoom > 1) {
     panning = { startX: e.clientX, startY: e.clientY, px: panX, py: panY };
     lbImgwrap.classList.add('panning');
   }
+  e.preventDefault();
 });
+
+function updatePinch() {
+  const ps = [...pointers.values()];
+  if (ps.length < 2) return;
+  const [a, b] = ps;
+  const dist = Math.hypot(a.x - b.x, a.y - b.y);
+  const midX = (a.x + b.x) / 2;
+  const midY = (a.y + b.y) / 2;
+  const startDist = Math.hypot(pinch.x2 - pinch.x1, pinch.y2 - pinch.y1);
+  const startMidX = (pinch.x1 + pinch.x2) / 2;
+  const startMidY = (pinch.y1 + pinch.y2) / 2;
+
+  zoom = Math.min(6, Math.max(1, pinch.zoom * (startDist > 0 ? dist / startDist : 1)));
+  const rect = lbImgwrap.getBoundingClientRect();
+  if (rect.width > 0 && rect.height > 0) {
+    const ox = rect.left + rect.width / 2;
+    const oy = rect.top + rect.height / 2;
+    // Content point that sat under the fingers at pinch start…
+    const cX = (startMidX - ox - pinch.panX) / pinch.zoom;
+    const cY = (startMidY - oy - pinch.panY) / pinch.zoom;
+    // …stays anchored under the fingers now (zooms about the moving midpoint,
+    // which also lets the pinch pan two-dimensionally).
+    panX = (midX - ox) - cX * zoom;
+    panY = (midY - oy) - cY * zoom;
+  }
+  clampPan();
+  updateZoom();
+}
+
 window.addEventListener('pointermove', (e) => {
+  const p = pointers.get(e.pointerId);
+  if (p) { p.x = e.clientX; p.y = e.clientY; }
+  if (pinch) { updatePinch(); return; }
   if (panning) {
     panX = panning.px + (e.clientX - panning.startX);
     panY = panning.py + (e.clientY - panning.startY);
+    clampPan();
     updateZoom();
   } else if (drawing) {
     updateDraw(e);
   }
 });
+
+function endNotePointer(e) {
+  pointers.delete(e.pointerId);
+  if (pointers.size < 2) pinch = null;
+}
+window.addEventListener('pointerup', endNotePointer);
+window.addEventListener('pointercancel', endNotePointer);
+window.addEventListener('lostpointercapture', endNotePointer);
+
 window.addEventListener('pointerup', () => {
   if (panning) { panning = null; lbImgwrap.classList.remove('panning'); }
   if (drawing) finishDraw();
 });
+
+// Re-clamp the pan when the stage changes size (collapsing the side panel or
+// resizing the window) so the note never silently ends up off-center/off-screen.
+if (typeof ResizeObserver !== 'undefined') {
+  const lbWrapResize = new ResizeObserver(() => {
+    if (lightboxEl.hidden || !currentNote) return;
+    clampPan();
+    updateZoom();
+  });
+  lbWrapResize.observe(lbImgwrap);
+}
 
 // ------------------------------------------------------------
 // Annotation overlay
@@ -1342,7 +1458,7 @@ export function isNotesOpen() {
 //   #notes          → open the panel to the gallery (browse) view
 //   &note=<id>      → open that note in the lightbox
 //   &page=N         → open that page of the note
-//   &noteview=full  → toggle the fullscreen image view
+//   &noteview=full  → open in fullscreen image view
 // Called by graph.js's restoreFromHash; updateHash is suppressed during restore.
 export async function restoreNotes(params) {
   if (!notesPanel.classList.contains('open')) openNotes();
