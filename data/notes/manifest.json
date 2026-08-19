@@ -11,7 +11,9 @@
     "tags": [
       "cancer",
       "notes",
-      "cell-death"
+      "cell-death",
+      "mitochondria",
+      "lysosome"
     ],
     "pages": [
       {
@@ -55,7 +57,13 @@
     ],
     "tags": [
       "creatine",
-      "graph-analysis"
+      "graph-analysis",
+      "diagrams-charts",
+      "cognition",
+      "mitochondria",
+      "redox",
+      "metabolism",
+      "nad-metabolism"
     ],
     "pages": [
       {
@@ -88,7 +96,13 @@
     ],
     "tags": [
       "creatine",
-      "graph-analysis"
+      "graph-analysis",
+      "diagrams-charts",
+      "cognition",
+      "mitochondria",
+      "growth",
+      "nad-metabolism",
+      "neurodegeneration"
     ],
     "pages": [
       {
@@ -124,7 +138,9 @@
     ],
     "tags": [
       "autophagy",
-      "autophagosome"
+      "diagrams-charts",
+      "autophagosome",
+      "lysosome"
     ],
     "pages": [
       {
@@ -161,8 +177,11 @@
     ],
     "tags": [
       "autophagy",
+      "notes",
       "metabolism",
-      "notes"
+      "metabolic-fasting",
+      "autophagosome",
+      "growth"
     ],
     "pages": [
       {
@@ -199,8 +218,11 @@
     ],
     "tags": [
       "cancer",
-      "senescence",
-      "notes"
+      "notes",
+      "metabolism",
+      "metabolic-fasting",
+      "stem-cells",
+      "senescence"
     ],
     "pages": [
       {
@@ -236,8 +258,12 @@
     ],
     "tags": [
       "adrenochrome",
-      "oxidative-stress",
-      "notes"
+      "notes",
+      "catecholamines",
+      "redox",
+      "antioxidants",
+      "leukocytes",
+      "oxidative-stress"
     ],
     "pages": [
       {
@@ -273,6 +299,8 @@
     ],
     "tags": [
       "adrenochrome",
+      "diagrams-charts",
+      "catecholamines",
       "redox"
     ],
     "pages": [
@@ -306,9 +334,16 @@
     ],
     "tags": [
       "autophagy",
-      "spermidine",
+      "notes",
+      "mitochondria",
       "polyamines",
-      "notes"
+      "antioxidants",
+      "inflammation",
+      "metabolism",
+      "growth",
+      "development",
+      "physiology",
+      "spermidine"
     ],
     "pages": [
       {
@@ -338,9 +373,9 @@
     "entities": [],
     "tags": [
       "spermidine",
+      "notes",
       "polyamines",
       "metabolism",
-      "notes",
       "nutrition"
     ],
     "pages": [
@@ -373,10 +408,12 @@
     ],
     "tags": [
       "adrenochrome",
-      "polyamines",
-      "neurochemistry",
       "notes",
-      "monoamine"
+      "monoamine",
+      "polyamines",
+      "circadian-rhythm",
+      "physiology",
+      "neurochemistry"
     ],
     "pages": [
       {
@@ -412,9 +449,12 @@
     ],
     "tags": [
       "adrenochrome",
-      "oxidative-stress",
-      "redox",
       "notes",
+      "catecholamines",
+      "redox",
+      "antioxidants",
+      "sod",
+      "oxidative-stress",
       "metal-chelation"
     ],
     "pages": [
@@ -454,9 +494,9 @@
     ],
     "tags": [
       "blood-cells",
-      "hematology",
       "notes",
-      "leukocytes"
+      "leukocytes",
+      "hematology"
     ],
     "pages": [
       {
@@ -493,9 +533,13 @@
     ],
     "tags": [
       "adrenochrome",
-      "oxidative-stress",
+      "notes",
+      "catecholamines",
       "redox",
-      "notes"
+      "antioxidants",
+      "adrenergic",
+      "hematology",
+      "oxidative-stress"
     ],
     "pages": [
       {
@@ -531,8 +575,10 @@
     ],
     "tags": [
       "adrenochrome",
-      "redox",
       "notes",
+      "catecholamines",
+      "redox",
+      "hematology",
       "adrenergic"
     ],
     "pages": [
@@ -570,8 +616,12 @@
     ],
     "tags": [
       "adrenochrome",
-      "redox",
-      "notes"
+      "notes",
+      "hematology",
+      "antioxidants",
+      "nad-metabolism",
+      "catecholamines",
+      "redox"
     ],
     "pages": [
       {
@@ -610,8 +660,9 @@
     ],
     "tags": [
       "blood-cells",
-      "hematology",
-      "leukocytes"
+      "diagrams-charts",
+      "leukocytes",
+      "hematology"
     ],
     "pages": [
       {
@@ -646,7 +697,9 @@
       "Chromatin"
     ],
     "tags": [
-      "epigenetics"
+      "epigenetics",
+      "diagrams-charts",
+      "mutations"
     ],
     "pages": [
       {
@@ -687,6 +740,12 @@
     ],
     "tags": [
       "sirtuins",
+      "diagrams-charts",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "senolytics",
+      "sasp",
       "spermidine"
     ],
     "pages": [
@@ -725,6 +784,13 @@
     ],
     "tags": [
       "adrenochrome",
+      "diagrams-charts",
+      "catecholamines",
+      "redox",
+      "leukocytes",
+      "inflammation",
+      "neurochemistry",
+      "cardiovascular",
       "neuromelanin",
       "oxidative-stress"
     ],
@@ -763,7 +829,10 @@
     ],
     "tags": [
       "epigenetics",
-      "ncRNA"
+      "diagrams-charts",
+      "ncrna",
+      "mutations",
+      "development"
     ],
     "pages": [
       {
@@ -796,7 +865,8 @@
       "Chromatin"
     ],
     "tags": [
-      "epigenetics"
+      "epigenetics",
+      "diagrams-charts"
     ],
     "pages": [
       {
@@ -834,8 +904,8 @@
     ],
     "tags": [
       "eye",
-      "anatomy",
       "vision",
+      "anatomy",
       "diagrams-charts"
     ],
     "pages": [
@@ -875,6 +945,10 @@
     ],
     "tags": [
       "autophagy",
+      "metabolism",
+      "metabolic-fasting",
+      "mitochondria",
+      "growth",
       "spermidine"
     ],
     "pages": [
@@ -914,7 +988,11 @@
       "mTOR"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "autophagosome",
+      "lysosome",
+      "growth"
     ],
     "pages": [
       {
@@ -951,6 +1029,15 @@
     ],
     "tags": [
       "autophagy",
+      "mitochondria",
+      "polyamines",
+      "neurodegeneration",
+      "cognition",
+      "autophagosome",
+      "lysosome",
+      "angiogenesis",
+      "neurochemistry",
+      "cardiovascular",
       "spermidine"
     ],
     "pages": [
@@ -990,7 +1077,13 @@
       "Metastasis"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts",
+      "metabolism",
+      "metabolic-fasting",
+      "cell-death",
+      "metastasis",
+      "mutations"
     ],
     "pages": [
       {
@@ -1026,7 +1119,10 @@
       "Catecholamines"
     ],
     "tags": [
-      "adrenochrome"
+      "adrenochrome",
+      "diagrams-charts",
+      "catecholamines",
+      "redox"
     ],
     "pages": [
       {
@@ -1065,7 +1161,11 @@
     ],
     "tags": [
       "oxidative-stress",
-      "sod"
+      "sod",
+      "redox",
+      "hematology",
+      "catecholamines",
+      "antioxidants"
     ],
     "pages": [
       {
@@ -1106,7 +1206,12 @@
     ],
     "tags": [
       "oxidative-stress",
-      "redox"
+      "hematology",
+      "nad-metabolism",
+      "sod",
+      "redox",
+      "antioxidants",
+      "catecholamines"
     ],
     "pages": [
       {
@@ -1142,6 +1247,10 @@
     ],
     "tags": [
       "adrenochrome",
+      "catecholamines",
+      "inflammation",
+      "metabolism",
+      "physiology",
       "comt",
       "neuromelanin"
     ],
@@ -1180,8 +1289,13 @@
     ],
     "tags": [
       "adrenochrome",
+      "diagrams-charts",
+      "catecholamines",
+      "hematology",
+      "antioxidants",
       "redox",
-      "speculative"
+      "cardiovascular",
+      "physiology"
     ],
     "pages": [
       {
@@ -1218,6 +1332,8 @@
     ],
     "tags": [
       "oxidative-stress",
+      "diagrams-charts",
+      "hematology",
       "diagnosis"
     ],
     "pages": [
@@ -1256,6 +1372,11 @@
     ],
     "tags": [
       "autophagy",
+      "diagrams-charts",
+      "cell-death",
+      "stem-cells",
+      "drug-resistance",
+      "growth",
       "cancer"
     ],
     "pages": [
@@ -1295,8 +1416,13 @@
     ],
     "tags": [
       "autophagy",
-      "cancer",
-      "metabolism"
+      "diagrams-charts",
+      "autophagosome",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "physiology",
+      "cancer"
     ],
     "pages": [
       {
@@ -1337,7 +1463,12 @@
       "Multidrug Resistance"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts",
+      "stem-cells",
+      "mitochondria",
+      "drug-resistance",
+      "growth"
     ],
     "pages": [
       {
@@ -1372,10 +1503,11 @@
       "Parasite Life Cycle"
     ],
     "tags": [
-      "cancer",
       "parasitology",
+      "diagrams-charts",
+      "filariasis",
       "vector-borne",
-      "filariasis"
+      "cancer"
     ],
     "pages": [
       {
@@ -1413,6 +1545,12 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "cell-death",
+      "redox",
+      "metabolism",
+      "growth",
+      "pathology",
       "oxidative-stress"
     ],
     "pages": [
@@ -1453,7 +1591,14 @@
       "P2X7"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts",
+      "drug-resistance",
+      "stem-cells",
+      "mitochondria",
+      "metastasis",
+      "angiogenesis",
+      "growth"
     ],
     "pages": [
       {
@@ -1488,12 +1633,12 @@
       "Circadian Rhythm"
     ],
     "tags": [
+      "metabolism",
+      "metabolic-fasting",
+      "circadian-rhythm",
       "adrenochrome",
       "oxidative-stress",
-      "spermidine",
-      "comparison",
-      "metabolism",
-      "misc"
+      "spermidine"
     ],
     "pages": [
       {
@@ -1530,7 +1675,13 @@
       "Catecholamines"
     ],
     "tags": [
-      "adrenochrome"
+      "adrenochrome",
+      "diagrams-charts",
+      "leukocytes",
+      "nad-metabolism",
+      "redox",
+      "catecholamines",
+      "inflammation"
     ],
     "pages": [
       {
@@ -1570,6 +1721,7 @@
     ],
     "tags": [
       "blood-cells",
+      "diagrams-charts",
       "leukocytes",
       "hematology",
       "immunology"
@@ -1609,7 +1761,10 @@
       "Metastasis"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts",
+      "cell-adhesion",
+      "metastasis"
     ],
     "pages": [
       {
@@ -1645,7 +1800,12 @@
       "Cognitive Function"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "microbiome",
+      "cognition",
+      "metabolism",
+      "neurochemistry"
     ],
     "pages": [
       {
@@ -1680,6 +1840,8 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "cell-adhesion",
       "drug-delivery"
     ],
     "pages": [
@@ -1714,7 +1876,8 @@
     ],
     "tags": [
       "blood-cells",
-      "wbc",
+      "leukocytes",
+      "circadian-rhythm",
       "physiology"
     ],
     "pages": [
@@ -1753,6 +1916,13 @@
     ],
     "tags": [
       "adrenochrome",
+      "diagrams-charts",
+      "inflammation",
+      "redox",
+      "hocl",
+      "leukocytes",
+      "catecholamines",
+      "cardiovascular",
       "oxidative-stress"
     ],
     "pages": [
@@ -1790,10 +1960,13 @@
       "Immune response"
     ],
     "tags": [
+      "immunology",
+      "inflammation",
+      "innate-immunity",
+      "leukocytes",
       "vaccines",
       "adjuvants",
-      "immunology",
-      "misc"
+      "pathology"
     ],
     "pages": [
       {
@@ -1834,6 +2007,9 @@
     ],
     "tags": [
       "autophagy",
+      "diagrams-charts",
+      "lysosome",
+      "mitochondria",
       "metabolism",
       "growth"
     ],
@@ -1875,7 +2051,8 @@
     ],
     "tags": [
       "autophagy",
-      "growth-signaling"
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -1913,9 +2090,12 @@
     ],
     "tags": [
       "cancer",
-      "carcinogenesis",
-      "oncology",
-      "mutations"
+      "diagrams-charts",
+      "cell-death",
+      "angiogenesis",
+      "mutations",
+      "inflammation",
+      "growth"
     ],
     "pages": [
       {
@@ -1957,7 +2137,12 @@
     ],
     "tags": [
       "cancer",
-      "cell-death"
+      "diagrams-charts",
+      "cell-death",
+      "inflammation",
+      "mitochondria",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -1999,7 +2184,12 @@
       "Intrinsic Pathway"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts",
+      "cell-death",
+      "mitochondria",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -2035,8 +2225,12 @@
     ],
     "tags": [
       "cancer",
+      "cell-death",
+      "neurodegeneration",
+      "cardiovascular",
       "development",
-      "pathology"
+      "pathology",
+      "physiology"
     ],
     "pages": [
       {
@@ -2074,7 +2268,10 @@
       "Caspases"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts",
+      "cell-death",
+      "mutations"
     ],
     "pages": [
       {
@@ -2108,8 +2305,11 @@
       "Diethylcarbamazine"
     ],
     "tags": [
-      "cancer",
+      "parasitology",
+      "diagrams-charts",
+      "filariasis",
       "dec",
+      "cancer",
       "clinical-trial"
     ],
     "pages": [
@@ -2150,7 +2350,12 @@
     ],
     "tags": [
       "blood-cells",
+      "generated-image",
+      "diagrams-charts",
+      "leukocytes",
+      "innate-immunity",
       "immunology",
+      "parasitology",
       "hematology"
     ],
     "pages": [
@@ -2188,7 +2393,13 @@
       "Catecholamines"
     ],
     "tags": [
-      "adrenochrome"
+      "adrenochrome",
+      "hocl",
+      "catecholamines",
+      "nad-metabolism",
+      "redox",
+      "inflammation",
+      "leukocytes"
     ],
     "pages": [
       {
@@ -2226,6 +2437,10 @@
     "tags": [
       "oxidative-stress",
       "hocl",
+      "leukocytes",
+      "nad-metabolism",
+      "redox",
+      "inflammation",
       "innate-immunity"
     ],
     "pages": [
@@ -2265,7 +2480,9 @@
     ],
     "tags": [
       "adrenochrome",
-      "bilingual"
+      "diagrams-charts",
+      "catecholamines",
+      "redox"
     ],
     "pages": [
       {
@@ -2308,6 +2525,12 @@
     "tags": [
       "cancer",
       "notes",
+      "cell-death",
+      "inflammation",
+      "mutations",
+      "growth",
+      "sasp",
+      "pathology",
       "oxidative-stress",
       "senescence"
     ],
@@ -2351,7 +2574,12 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "mutations",
+      "cell-death",
+      "mitochondria",
+      "inflammation",
+      "nf-kappab"
     ],
     "pages": [
       {
@@ -2393,7 +2621,11 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "cell-death",
+      "mitochondria",
+      "pathology",
+      "physiology"
     ],
     "pages": [
       {
@@ -2434,7 +2666,14 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "cell-death",
+      "mitochondria",
+      "leukocytes",
+      "redox",
+      "lysosome",
+      "neurochemistry",
+      "cognition"
     ],
     "pages": [
       {
@@ -2473,7 +2712,10 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "metastasis",
+      "cell-death",
+      "mutations",
+      "physiology"
     ],
     "pages": [
       {
@@ -2515,7 +2757,9 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "mutations",
+      "cell-death"
     ],
     "pages": [
       {
@@ -2556,7 +2800,10 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "cell-death",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -2599,6 +2846,10 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "cell-death",
+      "mitochondria",
+      "inflammation",
       "oxidative-stress"
     ],
     "pages": [
@@ -2641,6 +2892,10 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "cell-death",
+      "mitochondria",
+      "inflammation",
       "oxidative-stress"
     ],
     "pages": [
@@ -2682,7 +2937,8 @@
       "Bik"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "cell-death"
     ],
     "pages": [
       {
@@ -2723,7 +2979,8 @@
       "Bim"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "cell-death"
     ],
     "pages": [
       {
@@ -2764,7 +3021,11 @@
       "Bmf"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "generated-image",
+      "diagrams-charts",
+      "cell-death",
+      "growth"
     ],
     "pages": [
       {
@@ -2806,6 +3067,11 @@
     "tags": [
       "autophagy",
       "notes",
+      "metabolism",
+      "leukocytes",
+      "sasp",
+      "innate-immunity",
+      "immunology",
       "senescence"
     ],
     "pages": [
@@ -2847,7 +3113,10 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "inflammation",
+      "autophagosome",
+      "growth"
     ],
     "pages": [
       {
@@ -2889,6 +3158,11 @@
     "tags": [
       "autophagy",
       "notes",
+      "mitochondria",
+      "development",
+      "polyamines",
+      "metabolism",
+      "growth",
       "spermidine"
     ],
     "pages": [
@@ -2929,7 +3203,14 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "development",
+      "autophagosome",
+      "lysosome",
+      "cell-death",
+      "circadian-rhythm",
+      "pathology",
+      "physiology"
     ],
     "pages": [
       {
@@ -2971,7 +3252,12 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "cell-death",
+      "leukocytes",
+      "lysosome",
+      "autophagosome",
+      "pathology"
     ],
     "pages": [
       {
@@ -3013,7 +3299,14 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "lysosome",
+      "neurochemistry",
+      "cardiovascular",
+      "autophagosome",
+      "cell-death",
+      "metabolism",
+      "metabolic-fasting"
     ],
     "pages": [
       {
@@ -3054,7 +3347,13 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "metabolism",
+      "metabolic-fasting",
+      "innate-immunity",
+      "inflammation",
+      "metastasis",
+      "immunology"
     ],
     "pages": [
       {
@@ -3095,6 +3394,11 @@
     "tags": [
       "autophagy",
       "notes",
+      "cell-adhesion",
+      "inflammation",
+      "cell-death",
+      "metabolism",
+      "metastasis",
       "cancer"
     ],
     "pages": [
@@ -3128,6 +3432,9 @@
       "Rapamycin"
     ],
     "tags": [
+      "immunology",
+      "diagrams-charts",
+      "vaccines",
       "autophagy",
       "spermidine"
     ],
@@ -3165,10 +3472,11 @@
       "Tumor"
     ],
     "tags": [
-      "cancer",
       "creatine",
-      "bilingual",
-      "photo"
+      "adjuvants",
+      "leukocytes",
+      "metabolism",
+      "cancer"
     ],
     "pages": [
       {
@@ -3207,7 +3515,9 @@
       "Aging"
     ],
     "tags": [
-      "epigenetics"
+      "epigenetics",
+      "diagrams-charts",
+      "mutations"
     ],
     "pages": [
       {
@@ -3247,6 +3557,11 @@
     ],
     "tags": [
       "autophagy",
+      "diagrams-charts",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "sasp",
       "epigenetics",
       "spermidine"
     ],
@@ -3289,6 +3604,9 @@
     ],
     "tags": [
       "autophagy",
+      "diagrams-charts",
+      "metabolism",
+      "growth",
       "epigenetics"
     ],
     "pages": [
@@ -3327,7 +3645,7 @@
     "tags": [
       "epigenetics",
       "notes",
-      "photo"
+      "stem-cells"
     ],
     "pages": [
       {
@@ -3367,6 +3685,9 @@
     "tags": [
       "epigenetics",
       "notes",
+      "mutations",
+      "ncrna",
+      "sasp",
       "senescence"
     ],
     "pages": [
@@ -3409,7 +3730,12 @@
     ],
     "tags": [
       "epigenetics",
-      "notes"
+      "notes",
+      "mitochondria",
+      "sasp",
+      "mutations",
+      "ncrna",
+      "cell-death"
     ],
     "pages": [
       {
@@ -3449,7 +3775,7 @@
     "tags": [
       "epigenetics",
       "notes",
-      "photo"
+      "cell-death"
     ],
     "pages": [
       {
@@ -3481,8 +3807,9 @@
     ],
     "tags": [
       "epigenetics",
-      "senescence",
-      "paper-figure"
+      "diagrams-charts",
+      "sasp",
+      "senescence"
     ],
     "pages": [
       {
@@ -3520,8 +3847,9 @@
     "tags": [
       "cancer",
       "notes",
-      "oxidative-stress",
-      "photo"
+      "neurochemistry",
+      "parasitology",
+      "oxidative-stress"
     ],
     "pages": [
       {
@@ -3562,7 +3890,9 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "leukocytes",
+      "metabolism"
     ],
     "pages": [
       {
@@ -3604,7 +3934,13 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "metabolism",
+      "cell-death",
+      "neurochemistry",
+      "growth",
+      "nad-metabolism",
+      "pathology"
     ],
     "pages": [
       {
@@ -3640,9 +3976,8 @@
       "Milk"
     ],
     "tags": [
-      "misc",
-      "bilingual",
-      "photo"
+      "nutrition",
+      "polyphenols"
     ],
     "pages": [
       {
@@ -3680,9 +4015,13 @@
       "ROS"
     ],
     "tags": [
+      "nutrition",
+      "diagrams-charts",
+      "glycation",
+      "antioxidants",
+      "catecholamines",
       "adrenochrome",
-      "oxidative-stress",
-      "misc"
+      "oxidative-stress"
     ],
     "pages": [
       {
@@ -3717,9 +4056,8 @@
       "CML"
     ],
     "tags": [
-      "misc",
-      "bilingual",
-      "photo"
+      "nutrition",
+      "glycation"
     ],
     "pages": [
       {
@@ -3759,7 +4097,9 @@
       "Glucose"
     ],
     "tags": [
-      "misc"
+      "nutrition",
+      "diagrams-charts",
+      "glycation"
     ],
     "pages": [
       {
@@ -3792,7 +4132,7 @@
     ],
     "tags": [
       "cancer",
-      "paper-figure"
+      "diagrams-charts"
     ],
     "pages": [
       {
@@ -3825,7 +4165,8 @@
     ],
     "tags": [
       "cancer",
-      "paper-figure"
+      "diagrams-charts",
+      "cell-death"
     ],
     "pages": [
       {
@@ -3867,7 +4208,10 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "leukocytes",
+      "cell-death",
+      "growth"
     ],
     "pages": [
       {
@@ -3902,8 +4246,7 @@
     "tags": [
       "cancer",
       "notes",
-      "misc",
-      "photo"
+      "diagnosis"
     ],
     "pages": [
       {
@@ -3945,8 +4288,14 @@
       "PI3K"
     ],
     "tags": [
-      "misc",
-      "notes"
+      "cancer",
+      "notes",
+      "cell-adhesion",
+      "angiogenesis",
+      "cell-death",
+      "immunology",
+      "growth",
+      "physiology"
     ],
     "pages": [
       {
@@ -3985,7 +4334,12 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "angiogenesis",
+      "stem-cells",
+      "metastasis",
+      "cell-death",
+      "growth",
+      "parasitology"
     ],
     "pages": [
       {
@@ -4027,7 +4381,12 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "cell-death",
+      "inflammation",
+      "immunology",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -4069,7 +4428,10 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "metabolism",
+      "cell-death",
+      "growth"
     ],
     "pages": [
       {
@@ -4109,7 +4471,10 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "stem-cells",
+      "cell-death",
+      "mitochondria"
     ],
     "pages": [
       {
@@ -4151,6 +4516,12 @@
     "tags": [
       "autophagy",
       "notes",
+      "angiogenesis",
+      "metastasis",
+      "immunology",
+      "growth",
+      "sasp",
+      "diagnosis",
       "cancer"
     ],
     "pages": [
@@ -4193,7 +4564,10 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "neurodegeneration",
+      "metastasis",
+      "growth"
     ],
     "pages": [
       {
@@ -4236,7 +4610,10 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "mitochondria",
+      "cell-death",
+      "lysosome"
     ],
     "pages": [
       {
@@ -4276,6 +4653,10 @@
     "tags": [
       "autophagy",
       "notes",
+      "cell-death",
+      "lysosome",
+      "mitochondria",
+      "growth",
       "cancer"
     ],
     "pages": [
@@ -4310,7 +4691,7 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "parasitology"
     ],
     "pages": [
       {
@@ -4346,7 +4727,7 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "parasitology"
     ],
     "pages": [
       {
@@ -4386,7 +4767,12 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "neurochemistry",
+      "innate-immunity",
+      "inflammation",
+      "immunology",
+      "parasitology",
+      "physiology"
     ],
     "pages": [
       {
@@ -4420,7 +4806,8 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "microbiome",
+      "parasitology"
     ],
     "pages": [
       {
@@ -4459,6 +4846,12 @@
     ],
     "tags": [
       "autophagy",
+      "diagrams-charts",
+      "inflammation",
+      "vaccines",
+      "lysosome",
+      "growth",
+      "sasp",
       "cancer",
       "senescence",
       "spermidine"
@@ -4503,6 +4896,13 @@
     ],
     "tags": [
       "autophagy",
+      "diagrams-charts",
+      "drug-resistance",
+      "angiogenesis",
+      "metastasis",
+      "cell-death",
+      "growth",
+      "stem-cells",
       "cancer"
     ],
     "pages": [
@@ -4537,8 +4937,11 @@
       "Skin"
     ],
     "tags": [
-      "cancer",
-      "paper-figure"
+      "parasitology",
+      "diagrams-charts",
+      "vector-borne",
+      "filariasis",
+      "cancer"
     ],
     "pages": [
       {
@@ -4570,8 +4973,10 @@
       "Ivermectin"
     ],
     "tags": [
-      "cancer",
-      "paper-figure"
+      "parasitology",
+      "diagrams-charts",
+      "dec",
+      "cancer"
     ],
     "pages": [
       {
@@ -4614,7 +5019,12 @@
     ],
     "tags": [
       "blood-cells",
-      "notes"
+      "notes",
+      "innate-immunity",
+      "inflammation",
+      "leukocytes",
+      "hematology",
+      "immunology"
     ],
     "pages": [
       {
@@ -4651,7 +5061,10 @@
     "tags": [
       "blood-cells",
       "notes",
-      "photo"
+      "inflammation",
+      "leukocytes",
+      "immunology",
+      "parasitology"
     ],
     "pages": [
       {
@@ -4694,7 +5107,13 @@
     ],
     "tags": [
       "blood-cells",
-      "notes"
+      "notes",
+      "leukocytes",
+      "inflammation",
+      "lysosome",
+      "immunology",
+      "neurochemistry",
+      "cognition"
     ],
     "pages": [
       {
@@ -4737,7 +5156,13 @@
     ],
     "tags": [
       "blood-cells",
-      "notes"
+      "notes",
+      "leukocytes",
+      "inflammation",
+      "cell-death",
+      "immunology",
+      "neurochemistry",
+      "cognition"
     ],
     "pages": [
       {
@@ -4770,7 +5195,9 @@
       "Blood"
     ],
     "tags": [
-      "blood-cells"
+      "blood-cells",
+      "diagrams-charts",
+      "leukocytes"
     ],
     "pages": [
       {
@@ -4806,7 +5233,10 @@
       "MXL-3"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "autophagosome",
+      "lysosome"
     ],
     "pages": [
       {
@@ -4846,7 +5276,12 @@
       "TRPML1"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "lysosome",
+      "development",
+      "autophagosome",
+      "cell-adhesion"
     ],
     "pages": [
       {
@@ -4887,7 +5322,12 @@
       "mTOR"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "lysosome",
+      "metabolism",
+      "metabolic-fasting",
+      "growth"
     ],
     "pages": [
       {
@@ -4925,7 +5365,12 @@
       "Aging"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "stem-cells",
+      "development",
+      "lysosome",
+      "mutations"
     ],
     "pages": [
       {
@@ -4964,7 +5409,12 @@
       "~14%"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "autophagosome",
+      "cell-adhesion",
+      "mitophagy",
+      "lysosome"
     ],
     "pages": [
       {
@@ -5006,7 +5456,10 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "lysosome",
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -5048,6 +5501,13 @@
     "tags": [
       "autophagy",
       "notes",
+      "cell-death",
+      "neurochemistry",
+      "inflammation",
+      "immunology",
+      "metabolism",
+      "mutations",
+      "growth",
       "cancer"
     ],
     "pages": [
@@ -5085,7 +5545,8 @@
     "tags": [
       "autophagy",
       "notes",
-      "photo"
+      "cell-adhesion",
+      "metabolism"
     ],
     "pages": [
       {
@@ -5128,7 +5589,8 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "growth"
     ],
     "pages": [
       {
@@ -5168,7 +5630,11 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "cell-death",
+      "mitochondria",
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -5210,7 +5676,13 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "lysosome",
+      "autophagosome",
+      "mitochondria",
+      "metabolism",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -5252,7 +5724,10 @@
     ],
     "tags": [
       "autophagy",
-      "notes"
+      "notes",
+      "mutations",
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -5290,7 +5765,7 @@
     "tags": [
       "autophagy",
       "notes",
-      "photo"
+      "growth"
     ],
     "pages": [
       {
@@ -5332,7 +5807,13 @@
       "Mitophagy"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "mitochondria",
+      "inflammation",
+      "mitophagy",
+      "nf-kappab",
+      "growth"
     ],
     "pages": [
       {
@@ -5375,7 +5856,13 @@
     ],
     "tags": [
       "oxidative-stress",
-      "notes"
+      "notes",
+      "catecholamines",
+      "antioxidants",
+      "hematology",
+      "redox",
+      "neurochemistry",
+      "physiology"
     ],
     "pages": [
       {
@@ -5418,7 +5905,11 @@
     ],
     "tags": [
       "oxidative-stress",
-      "notes"
+      "notes",
+      "redox",
+      "mitochondria",
+      "metal-chelation",
+      "sod"
     ],
     "pages": [
       {
@@ -5457,7 +5948,8 @@
     "tags": [
       "oxidative-stress",
       "notes",
-      "photo"
+      "hematology",
+      "metal-chelation"
     ],
     "pages": [
       {
@@ -5500,6 +5992,10 @@
     "tags": [
       "cancer",
       "notes",
+      "cell-adhesion",
+      "drug-delivery",
+      "mitochondria",
+      "cell-death",
       "oxidative-stress"
     ],
     "pages": [
@@ -5542,7 +6038,15 @@
     ],
     "tags": [
       "autophagy",
-      "misc"
+      "diagrams-charts",
+      "mitochondria",
+      "neurodegeneration",
+      "pathology",
+      "redox",
+      "inflammation",
+      "autophagosome",
+      "mitophagy",
+      "neurochemistry"
     ],
     "pages": [
       {
@@ -5583,7 +6087,13 @@
       "NAD+"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "redox",
+      "mitochondria",
+      "mitophagy",
+      "nad-metabolism",
+      "mitohormesis"
     ],
     "pages": [
       {
@@ -5624,7 +6134,14 @@
       "Hypoxia"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "mitochondria",
+      "antioxidants",
+      "mitohormesis",
+      "polyphenols",
+      "metabolism",
+      "metabolic-fasting",
+      "clinical-trial"
     ],
     "pages": [
       {
@@ -5665,7 +6182,14 @@
       "Proteins"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "antioxidants",
+      "mitochondria",
+      "sod",
+      "redox",
+      "mitohormesis",
+      "cell-death",
+      "clinical-trial"
     ],
     "pages": [
       {
@@ -5708,6 +6232,15 @@
     ],
     "tags": [
       "oxidative-stress",
+      "mitochondria",
+      "antioxidants",
+      "metabolism",
+      "redox",
+      "mitophagy",
+      "mitohormesis",
+      "growth",
+      "nad-metabolism",
+      "neurochemistry",
       "sirtuins"
     ],
     "pages": [
@@ -5747,7 +6280,10 @@
     ],
     "tags": [
       "sirtuins",
-      "bilingual"
+      "cardiovascular",
+      "metabolism",
+      "metabolic-fasting",
+      "angiogenesis"
     ],
     "pages": [
       {
@@ -5784,7 +6320,10 @@
     ],
     "tags": [
       "sirtuins",
-      "paper-figure"
+      "diagrams-charts",
+      "mitochondria",
+      "metal-chelation",
+      "mitohormesis"
     ],
     "pages": [
       {
@@ -5821,7 +6360,9 @@
     ],
     "tags": [
       "sirtuins",
-      "paper-figure"
+      "diagrams-charts",
+      "mitochondria",
+      "cell-death"
     ],
     "pages": [
       {
@@ -5862,7 +6403,11 @@
       "FGF21"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "metabolism",
+      "pathology",
+      "mitochondria"
     ],
     "pages": [
       {
@@ -5904,7 +6449,16 @@
       "Inflammasome"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "mitochondria",
+      "neurodegeneration",
+      "mitophagy",
+      "metabolism",
+      "pathology",
+      "nf-kappab",
+      "inflammation",
+      "mitohormesis"
     ],
     "pages": [
       {
@@ -5940,7 +6494,10 @@
       "Aging"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "mitochondria",
+      "metabolism"
     ],
     "pages": [
       {
@@ -5977,7 +6534,11 @@
     ],
     "tags": [
       "sirtuins",
-      "paper-figure"
+      "diagrams-charts",
+      "inflammation",
+      "microbiome",
+      "nad-metabolism",
+      "metabolism"
     ],
     "pages": [
       {
@@ -6014,7 +6575,10 @@
     ],
     "tags": [
       "sirtuins",
-      "paper-figure"
+      "diagrams-charts",
+      "nad-metabolism",
+      "redox",
+      "metabolism"
     ],
     "pages": [
       {
@@ -6055,7 +6619,12 @@
       "Nucleus"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "nad-metabolism",
+      "metabolism",
+      "mitochondria",
+      "redox"
     ],
     "pages": [
       {
@@ -6096,7 +6665,13 @@
       "brain"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "metabolism",
+      "inflammation",
+      "nad-metabolism",
+      "neurochemistry",
+      "angiogenesis",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -6136,6 +6711,8 @@
     ],
     "tags": [
       "oxidative-stress",
+      "diagrams-charts",
+      "nad-metabolism",
       "sirtuins"
     ],
     "pages": [
@@ -6175,7 +6752,11 @@
       "ATP"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "cardiovascular",
+      "nad-metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -6206,7 +6787,8 @@
       "Liver"
     ],
     "tags": [
-      "cancer"
+      "cancer",
+      "diagrams-charts"
     ],
     "pages": [
       {
@@ -6245,6 +6827,8 @@
     ],
     "tags": [
       "senescence",
+      "diagrams-charts",
+      "lysosome",
       "spermidine"
     ],
     "pages": [
@@ -6282,7 +6866,10 @@
     ],
     "tags": [
       "senescence",
-      "paper-figure"
+      "diagrams-charts",
+      "stem-cells",
+      "leukocytes",
+      "neurochemistry"
     ],
     "pages": [
       {
@@ -6316,7 +6903,10 @@
     ],
     "tags": [
       "senescence",
-      "paper-figure"
+      "diagrams-charts",
+      "sasp",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -6353,8 +6943,15 @@
     ],
     "tags": [
       "autophagy",
-      "senescence",
-      "paper-figure"
+      "diagrams-charts",
+      "redox",
+      "mitochondria",
+      "lysosome",
+      "cell-death",
+      "metabolism",
+      "growth",
+      "development",
+      "senescence"
     ],
     "pages": [
       {
@@ -6395,7 +6992,12 @@
       "SIRT1"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "metabolism",
+      "metabolic-fasting",
+      "polyphenols",
+      "physiology"
     ],
     "pages": [
       {
@@ -6437,7 +7039,17 @@
     ],
     "tags": [
       "sirtuins",
-      "notes"
+      "notes",
+      "sod",
+      "redox",
+      "inflammation",
+      "angiogenesis",
+      "antioxidants",
+      "mitochondria",
+      "hematology",
+      "growth",
+      "nad-metabolism",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -6478,7 +7090,14 @@
       "Monocyte"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "leukocytes",
+      "cell-death",
+      "inflammation",
+      "metabolism",
+      "metastasis",
+      "growth",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -6514,7 +7133,7 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "diagnosis"
     ],
     "pages": [
       {
@@ -6557,7 +7176,16 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "mitochondria",
+      "sasp",
+      "mutations",
+      "microbiome",
+      "innate-immunity",
+      "inflammation",
+      "immunology",
+      "neurochemistry",
+      "cognition"
     ],
     "pages": [
       {
@@ -6597,7 +7225,10 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "cell-adhesion",
+      "drug-delivery",
+      "angiogenesis",
+      "immunology"
     ],
     "pages": [
       {
@@ -6637,7 +7268,11 @@
     "tags": [
       "cancer",
       "notes",
-      "photo"
+      "leukocytes",
+      "angiogenesis",
+      "metastasis",
+      "cell-adhesion",
+      "drug-delivery"
     ],
     "pages": [
       {
@@ -6679,7 +7314,11 @@
     ],
     "tags": [
       "cancer",
-      "notes"
+      "notes",
+      "cell-adhesion",
+      "angiogenesis",
+      "immunology",
+      "growth"
     ],
     "pages": [
       {
@@ -6709,7 +7348,9 @@
     "entities": [],
     "tags": [
       "cancer",
-      "paper-figure"
+      "diagrams-charts",
+      "cell-adhesion",
+      "drug-delivery"
     ],
     "pages": [
       {
@@ -6742,7 +7383,9 @@
     ],
     "tags": [
       "cancer",
-      "paper-figure"
+      "diagrams-charts",
+      "cell-adhesion",
+      "drug-delivery"
     ],
     "pages": [
       {
@@ -6780,7 +7423,10 @@
       "SASP"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "senolytics",
+      "sasp"
     ],
     "pages": [
       {
@@ -6814,6 +7460,11 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "leukocytes",
+      "sasp",
+      "cell-adhesion",
+      "drug-delivery",
       "senescence"
     ],
     "pages": [
@@ -6855,6 +7506,15 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "innate-immunity",
+      "leukocytes",
+      "stem-cells",
+      "inflammation",
+      "immunology",
+      "growth",
+      "sasp",
+      "development",
       "senescence"
     ],
     "pages": [
@@ -6896,7 +7556,10 @@
       "HMGB2"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "mutations",
+      "sasp"
     ],
     "pages": [
       {
@@ -6937,7 +7600,12 @@
       "JNK"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "mitochondria",
+      "redox",
+      "nf-kappab",
+      "sasp"
     ],
     "pages": [
       {
@@ -6978,7 +7646,17 @@
       "ROS"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "mitochondria",
+      "redox",
+      "sasp",
+      "mitophagy",
+      "lysosome",
+      "nad-metabolism",
+      "metabolism",
+      "neurodegeneration",
+      "pathology"
     ],
     "pages": [
       {
@@ -7019,7 +7697,12 @@
       "p16"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "sasp",
+      "leukocytes",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -7060,7 +7743,10 @@
       "Wnt"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "development",
+      "sasp"
     ],
     "pages": [
       {
@@ -7101,7 +7787,13 @@
       "NF-kappaB"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "sasp",
+      "redox",
+      "mutations",
+      "mitochondria",
+      "nf-kappab"
     ],
     "pages": [
       {
@@ -7142,6 +7834,15 @@
     ],
     "tags": [
       "adrenochrome",
+      "mitochondria",
+      "antioxidants",
+      "mitophagy",
+      "neurodegeneration",
+      "cell-death",
+      "nf-kappab",
+      "redox",
+      "mutations",
+      "sasp",
       "senescence"
     ],
     "pages": [
@@ -7184,6 +7885,14 @@
     ],
     "tags": [
       "oxidative-stress",
+      "sasp",
+      "leukocytes",
+      "senolytics",
+      "mutations",
+      "inflammation",
+      "nf-kappab",
+      "growth",
+      "cardiovascular",
       "senescence"
     ],
     "pages": [
@@ -7225,7 +7934,17 @@
       "Vitamin C"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "diagrams-charts",
+      "mitochondria",
+      "cardiovascular",
+      "antioxidants",
+      "mitohormesis",
+      "inflammation",
+      "cell-death",
+      "redox",
+      "angiogenesis",
+      "growth"
     ],
     "pages": [
       {
@@ -7266,7 +7985,17 @@
       "Fibrosis"
     ],
     "tags": [
-      "senescence"
+      "senescence",
+      "sasp",
+      "cardiovascular",
+      "development",
+      "inflammation",
+      "metastasis",
+      "leukocytes",
+      "pathology",
+      "cell-death",
+      "angiogenesis",
+      "physiology"
     ],
     "pages": [
       {
@@ -7301,7 +8030,8 @@
     ],
     "tags": [
       "senescence",
-      "paper-figure"
+      "diagrams-charts",
+      "mutations"
     ],
     "pages": [
       {
@@ -7339,6 +8069,11 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "sasp",
+      "inflammation",
+      "mutations",
+      "pathology",
       "senescence"
     ],
     "pages": [
@@ -7369,7 +8104,7 @@
     "entities": [],
     "tags": [
       "sirtuins",
-      "paper-figure"
+      "diagrams-charts"
     ],
     "pages": [
       {
@@ -7401,7 +8136,8 @@
     ],
     "tags": [
       "sirtuins",
-      "paper-figure"
+      "diagrams-charts",
+      "nad-metabolism"
     ],
     "pages": [
       {
@@ -7444,7 +8180,11 @@
     ],
     "tags": [
       "sirtuins",
-      "nf-kappab-p65"
+      "diagrams-charts",
+      "nf-kappab",
+      "inflammation",
+      "nad-metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -7486,7 +8226,15 @@
       "Microtubule"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "mitochondria",
+      "metabolism",
+      "development",
+      "nad-metabolism",
+      "inflammation",
+      "antioxidants",
+      "nf-kappab"
     ],
     "pages": [
       {
@@ -7528,7 +8276,18 @@
       "Type 2 Diabetes"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "generated-image",
+      "diagrams-charts",
+      "neurodegeneration",
+      "pathology",
+      "mitochondria",
+      "cardiovascular",
+      "mutations",
+      "metabolism",
+      "sasp",
+      "cell-death",
+      "nf-kappab"
     ],
     "pages": [
       {
@@ -7571,7 +8330,17 @@
     ],
     "tags": [
       "oxidative-stress",
-      "sirtuins"
+      "generated-image",
+      "diagrams-charts",
+      "sod",
+      "redox",
+      "mitochondria",
+      "cardiovascular",
+      "nad-metabolism",
+      "polyphenols",
+      "mutations",
+      "sasp",
+      "cell-death"
     ],
     "pages": [
       {
@@ -7614,7 +8383,17 @@
     ],
     "tags": [
       "oxidative-stress",
-      "sirtuins"
+      "generated-image",
+      "diagrams-charts",
+      "mitochondria",
+      "cardiovascular",
+      "mutations",
+      "sasp",
+      "metabolism",
+      "nad-metabolism",
+      "inflammation",
+      "cell-death",
+      "angiogenesis"
     ],
     "pages": [
       {
@@ -7657,6 +8436,15 @@
     ],
     "tags": [
       "oxidative-stress",
+      "generated-image",
+      "diagrams-charts",
+      "redox",
+      "hocl",
+      "leukocytes",
+      "nad-metabolism",
+      "catecholamines",
+      "inflammation",
+      "innate-immunity",
       "sirtuins"
     ],
     "pages": [
@@ -7699,6 +8487,13 @@
     ],
     "tags": [
       "oxidative-stress",
+      "generated-image",
+      "diagrams-charts",
+      "redox",
+      "catecholamines",
+      "mitochondria",
+      "hematology",
+      "leukocytes",
       "sirtuins"
     ],
     "pages": [
@@ -7741,7 +8536,16 @@
       "DNA Repair"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "metabolism",
+      "metabolic-fasting",
+      "neurodegeneration",
+      "mitochondria",
+      "nad-metabolism",
+      "inflammation",
+      "mutations",
+      "growth",
+      "neurochemistry"
     ],
     "pages": [
       {
@@ -7785,7 +8589,13 @@
     ],
     "tags": [
       "sirtuins",
-      "nf-kappab-p65"
+      "cardiovascular",
+      "neurodegeneration",
+      "nf-kappab",
+      "inflammation",
+      "antioxidants",
+      "angiogenesis",
+      "growth"
     ],
     "pages": [
       {
@@ -7826,6 +8636,9 @@
     ],
     "tags": [
       "autophagy",
+      "mutations",
+      "growth",
+      "sasp",
       "sirtuins"
     ],
     "pages": [
@@ -7869,6 +8682,14 @@
     ],
     "tags": [
       "oxidative-stress",
+      "diagrams-charts",
+      "development",
+      "angiogenesis",
+      "inflammation",
+      "cell-death",
+      "metabolism",
+      "metastasis",
+      "growth",
       "sirtuins"
     ],
     "pages": [
@@ -7912,7 +8733,9 @@
       "TGF-beta"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "nf-kappab",
+      "inflammation"
     ],
     "pages": [
       {
@@ -7945,7 +8768,8 @@
     ],
     "tags": [
       "spermidine",
-      "paper-figure"
+      "diagrams-charts",
+      "microbiome"
     ],
     "pages": [
       {
@@ -7984,7 +8808,8 @@
     ],
     "tags": [
       "autophagy",
-      "paper-figure"
+      "diagrams-charts",
+      "lysosome"
     ],
     "pages": [
       {
@@ -8022,7 +8847,9 @@
     ],
     "tags": [
       "autophagy",
-      "paper-figure"
+      "diagrams-charts",
+      "lysosome",
+      "growth"
     ],
     "pages": [
       {
@@ -8061,7 +8888,11 @@
       "TFEB"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "generated-image",
+      "diagrams-charts",
+      "lysosome",
+      "growth"
     ],
     "pages": [
       {
@@ -8090,7 +8921,8 @@
     "document": "",
     "entities": [],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts"
     ],
     "pages": [
       {
@@ -8128,7 +8960,13 @@
     ],
     "tags": [
       "autophagy",
-      "paper-figure"
+      "diagrams-charts",
+      "mitochondria",
+      "lysosome",
+      "mitophagy",
+      "metabolism",
+      "metabolic-fasting",
+      "growth"
     ],
     "pages": [
       {
@@ -8169,7 +9007,17 @@
       "Antigen"
     ],
     "tags": [
-      "autophagy"
+      "autophagy",
+      "diagrams-charts",
+      "mitochondria",
+      "lysosome",
+      "innate-immunity",
+      "leukocytes",
+      "mitophagy",
+      "inflammation",
+      "immunology",
+      "neurochemistry",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -8211,7 +9059,17 @@
       "Antioxidant"
     ],
     "tags": [
-      "sirtuins"
+      "sirtuins",
+      "diagrams-charts",
+      "inflammation",
+      "mitochondria",
+      "antioxidants",
+      "sod",
+      "redox",
+      "metabolism",
+      "microbiome",
+      "cell-death",
+      "growth"
     ],
     "pages": [
       {
@@ -8241,8 +9099,7 @@
     "entities": [],
     "tags": [
       "epigenetics",
-      "notes",
-      "photo"
+      "notes"
     ],
     "pages": [
       {
@@ -8274,8 +9131,7 @@
     ],
     "tags": [
       "epigenetics",
-      "notes",
-      "photo"
+      "notes"
     ],
     "pages": [
       {
@@ -8310,7 +9166,7 @@
     "tags": [
       "epigenetics",
       "notes",
-      "photo"
+      "leukocytes"
     ],
     "pages": [
       {
@@ -8343,6 +9199,10 @@
       "Retina"
     ],
     "tags": [
+      "eye",
+      "vision",
+      "anatomy",
+      "diagrams-charts",
       "epigenetics"
     ],
     "pages": [
@@ -8379,6 +9239,12 @@
       "Wnt"
     ],
     "tags": [
+      "eye",
+      "vision",
+      "anatomy",
+      "development",
+      "nad-metabolism",
+      "stem-cells",
       "epigenetics"
     ],
     "pages": [
@@ -8415,8 +9281,11 @@
       "Retina"
     ],
     "tags": [
-      "epigenetics",
-      "bilingual"
+      "eye",
+      "vision",
+      "anatomy",
+      "diagrams-charts",
+      "epigenetics"
     ],
     "pages": [
       {
@@ -8453,6 +9322,10 @@
       "Retina"
     ],
     "tags": [
+      "eye",
+      "vision",
+      "anatomy",
+      "diagrams-charts",
       "epigenetics"
     ],
     "pages": [
@@ -8487,6 +9360,10 @@
       "Retina"
     ],
     "tags": [
+      "eye",
+      "vision",
+      "anatomy",
+      "diagrams-charts",
       "epigenetics"
     ],
     "pages": [
@@ -8528,6 +9405,9 @@
     ],
     "tags": [
       "cancer",
+      "diagrams-charts",
+      "neurodegeneration",
+      "pathology",
       "epigenetics"
     ],
     "pages": [
@@ -8569,6 +9449,11 @@
     ],
     "tags": [
       "epigenetics",
+      "diagrams-charts",
+      "sasp",
+      "mutations",
+      "stem-cells",
+      "development",
       "senescence"
     ],
     "pages": [
