@@ -398,6 +398,12 @@ body {
 #notes-filters .lang-toggle button + button { border-left-color: #CCC5B2; }
 #notes-filters .lang-toggle button:hover:not(.active) { color: #22304A; }
 #notes-filters .lang-toggle button.active { background: #0F766E; color: #fff; }
+/* EN/中 toggle in the notes lightbox top bar — same light chrome. */
+.notes-lb-top .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
+.notes-lb-top .lang-toggle button { color: #7C8698; }
+.notes-lb-top .lang-toggle button + button { border-left-color: #CCC5B2; }
+.notes-lb-top .lang-toggle button:hover:not(.active) { color: #22304A; }
+.notes-lb-top .lang-toggle button.active { background: #0F766E; color: #fff; }
 .notes-card { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 .notes-card:hover { border-color: #0F766E; }
 .notes-card-thumb { background: #ECE8DD; border-bottom-color: #E2DCCE; }

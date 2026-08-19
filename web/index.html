@@ -183,7 +183,7 @@
   <div id="notes-box">
     <div id="notes-header">
       <div class="chat-header-left">
-        <span class="chat-title"><span class="ui-en">Notes</span><span class="ui-zh chat-title-zh" hidden>筆記</span></span>
+        <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
       </div>
       <div class="chat-header-actions">
         <button id="notes-close" aria-label="Close panel" data-i18n-title="panelClose" title="Close panel">&times;</button>
@@ -195,6 +195,7 @@
         <div class="notes-combobox" id="notes-combobox">
           <div class="notes-combobox-field">
             <input id="notes-search" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="notes-combobox-popup">
+            <button id="notes-search-clear" type="button" class="notes-combobox-clear" title="Clear filter" aria-label="Clear filter">&times;</button>
           </div>
           <svg class="notes-combobox-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
           <div id="notes-combobox-popup" class="notes-popup" role="listbox" hidden></div>
@@ -232,13 +233,8 @@
           <select id="notes-doc-field"><option value="">None</option></select>
         </div>
         <div class="notes-field">
-          <label for="notes-topic-field">Topic</label>
+          <label for="notes-topic-field">Primary tag</label>
           <input id="notes-topic-field" type="text" placeholder="e.g. sirtuins" maxlength="40">
-        </div>
-        <div class="notes-field">
-          <label for="notes-entities-field">Entities (@-tags, comma-separated)</label>
-          <input id="notes-entities-field" type="text" list="notes-entity-list" placeholder="SIRT1, NAD+, Autophagy" maxlength="500">
-          <datalist id="notes-entity-list"></datalist>
         </div>
         <div class="notes-field">
           <label for="notes-tags-field">Tags (comma-separated)</label>
@@ -255,6 +251,11 @@
       <div class="notes-lb-top">
         <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Back</button>
         <div class="notes-lb-title" id="notes-lb-title"></div>
+        <button id="notes-lb-top-next" type="button" title="Next image" data-i18n-title="nextImg" disabled>Next &rarr;</button>
+        <div class="lang-toggle" id="notes-lb-lang" role="group" aria-label="Panel language">
+          <button type="button" data-lang="en-US" title="English (US)">EN</button>
+          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+        </div>
       </div>
       <div class="notes-lb-body" id="notes-lb-body">
         <div class="notes-lb-stage">
@@ -284,8 +285,6 @@
             </span>
           </div>
           <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
-          <div class="at-h" data-i18n="entities">Entities</div>
-          <div id="notes-lb-entities" class="notes-chip-row"></div>
           <div class="at-h" data-i18n="tags">Tags</div>
           <div id="notes-lb-tags" class="notes-chip-row"></div>
           <div class="at-h" id="notes-ann-start">

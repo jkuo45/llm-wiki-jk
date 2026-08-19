@@ -3,7 +3,7 @@
 // The upload screen (files) is hidden for now. Sibling of the
 // analysis (#chat) panel.
 
-import { descByLabel, noteUrl, RAW_NODES } from './data.js';
+import { descByLabel, noteUrl } from './data.js';
 import { esc, renderMarkdown } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
@@ -37,8 +37,10 @@ const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const comboboxPopup = $('notes-combobox-popup');
-const langToggle = $('notes-lang');
-const langBtns = Array.from(document.querySelectorAll('#notes-lang [data-lang]'));
+const notesCombobox = $('notes-combobox');
+const notesSearchClear = $('notes-search-clear');
+const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-toggle'));
+const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang]'));
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
 
@@ -49,14 +51,13 @@ const pagesPreview = $('notes-pages-preview');
 const titleField = $('notes-title-field');
 const docField = $('notes-doc-field');
 const topicField = $('notes-topic-field');
-const entitiesField = $('notes-entities-field');
 const tagsField = $('notes-tags-field');
-const entityList = $('notes-entity-list');
 const submitBtn = $('notes-submit');
 const uploadStatus = $('notes-upload-status');
 
 const lbBack = $('notes-lb-back');
 const lbTitle = $('notes-lb-title');
+const lbTopNext = $('notes-lb-top-next');
 const lbView = $('notes-lb-view');
 const lbBody = $('notes-lb-body');
 const lbImg = $('notes-lb-img');
@@ -69,7 +70,6 @@ const lbPages = $('notes-lb-pages');
 const lbOcr = $('notes-lb-ocr');
 const lbSendPrompt = $('notes-lb-send-prompt');
 const lbStatus = $('notes-lb-status');
-const lbEntities = $('notes-lb-entities');
 const lbTags = $('notes-lb-tags');
 const annDownload = $('notes-lb-ann-download');
 const annClear = $('notes-lb-ann-clear');
@@ -120,7 +120,7 @@ let statusTimer = null;
 const UI_STRINGS = {
   'en-US': {
     panelClose: 'Close panel',
-    searchPlaceholder: 'Search notes, OCR, entities, tags',
+    searchPlaceholder: 'Search transcribed notes, tags',
     sectionNotes: 'Notes',
     filterByTopic: 'Filter by topic',
     allTopics: 'All topics',
@@ -146,7 +146,6 @@ const UI_STRINGS = {
     viewDetails: 'Show details panel',
     annDownload: 'Download this page as a PNG with the annotations drawn in',
     transcript: 'Transcript',
-    entities: 'Entities',
     tags: 'Tags',
     annotations: 'Annotations',
     none: 'none',
@@ -174,7 +173,7 @@ const UI_STRINGS = {
   },
   'zh-TW': {
     panelClose: '關閉面板',
-    searchPlaceholder: '搜尋筆記、OCR、實體與標籤',
+    searchPlaceholder: '搜尋轉錄筆記、標籤',
     sectionNotes: '筆記',
     filterByTopic: '主題篩選',
     allTopics: '全部主題',
@@ -200,7 +199,6 @@ const UI_STRINGS = {
     viewDetails: '顯示詳情面板',
     annDownload: '將此頁及標註下載為 PNG',
     transcript: '文字稿',
-    entities: '實體',
     tags: '標籤',
     annotations: '標註',
     none: '無',
@@ -270,7 +268,7 @@ function applyUiLang(lang) {
   });
 
   notesClose.setAttribute('aria-label', t('panelClose'));
-  langToggle.setAttribute('aria-label', t('panelLanguage'));
+  langToggles.forEach((el) => el.setAttribute('aria-label', t('panelLanguage')));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('searchPlaceholder');
   closeCombobox();
@@ -340,7 +338,19 @@ lbImg.addEventListener('error', () => {
   if (fb && lbImg.src !== fb) lbImg.src = fb;
 });
 
-function noteTopic(note) { return (note.topic || 'misc').trim(); }
+// Notes no longer carry a `topic` field — categorization lives in tags.
+// Derive a display topic from the tags list (prefer the topic-style
+// tag when present, otherwise the first tag).
+const KNOWN_TOPICS = [
+  'adrenochrome', 'autophagy', 'blood-cells', 'cancer', 'comt', 'creatine',
+  'diagrams-charts', 'epigenetics', 'misc', 'neuromelanin', 'oxidative-stress',
+  'senescence', 'sirtuins', 'spermidine',
+];
+function noteTopic(note) {
+  const tags = note.tags || [];
+  const hit = tags.find((t) => KNOWN_TOPICS.includes(t));
+  return (hit || tags[0] || 'misc').trim();
+}
 
 // ------------------------------------------------------------
 // Panel open / close
@@ -459,10 +469,9 @@ function populatePickers() {
 
   // NOTE: The Upload screen is disabled (its tab and view are hidden, and
   // setView() snaps any non-browse request back to browse). It therefore does
-  // NOT populate the upload-only controls here — populating them was expensive:
-  // the entity <datalist> built up to 4000 <option> nodes and the document
-  // picker grew with every src/notes document, all for a view that can't be
-  // reached. If upload is re-enabled, restore that population here.
+  // NOT populate the upload-only controls here — populating them was expensive
+  // because the document picker grew with every src/notes document, all for a
+  // view that can't be reached. If upload is re-enabled, restore population here.
 }
 
 function filteredNotes() {
@@ -470,8 +479,7 @@ function filteredNotes() {
   return notes.filter((n) => {
     if (!q) return true;
     const hay = [
-      activeTitle(n), n.topic, n.document, (activeOcr(n) || ''),
-      (n.entities || []).join(' '),
+      activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
       (n.tags || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
@@ -479,6 +487,8 @@ function filteredNotes() {
 }
 
 function renderGallery() {
+  // Show the clear-× (in place of the caret) whenever a filter/search is active.
+  notesCombobox.classList.toggle('filtering', !!filterQ.trim());
   const list = filteredNotes();
   if (apiDown) {
     galleryEl.innerHTML = '';
@@ -527,33 +537,18 @@ function cardHTML(n) {
   const thumb = first
     ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(n.title)}" loading="lazy" decoding="async">`
     : '<div class="notes-card-thumb"></div>';
-  const doc = n.document
-    ? `<span class="notes-badge" title="${esc(n.document)}">${esc(shortDoc(n.document))}</span>` : '';
-  const entities = (n.entities || []).slice(0, 3).map((e) =>
-    `<span class="notes-badge">${esc(e)}</span>`).join('');
   const tags = (n.tags || []).slice(0, 3).map((t) =>
     `<span class="notes-badge topic">#${esc(t)}</span>`).join('');
-  const ocrBadge = n.has_ocr ? '<span class="notes-badge ocr">OCR</span>' : '';
-  const draftBadge = n.draft ? '<span class="notes-badge draft">draft</span>' : '';
-  const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 220);
+  const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(activeTitle(n))}">
     ${thumb}
     <div class="notes-card-body">
       <div class="notes-card-title">${esc(activeTitle(n))}</div>
-      <div class="notes-card-meta">
-        <span class="notes-badge topic">${esc(noteTopic(n))}</span>
-        ${doc}${entities}<span class="notes-badge">${(n.pages || []).length}p</span>
-        ${ocrBadge}${draftBadge}
-      </div>
+      <hr class="notes-card-divider">
       ${snip ? `<p class="notes-ocr-snip">${esc(snip)}</p>` : ''}
       ${tags ? `<div class="notes-card-meta">${tags}</div>` : ''}
     </div>
   </div>`;
-}
-
-function shortDoc(filename) {
-  const base = filename.startsWith('_document_ - ') ? filename.slice('_document_ - '.length) : filename;
-  return base.length > 46 ? base.slice(0, 43) + '…' : base;
 }
 
 // ------------------------------------------------------------
@@ -568,6 +563,17 @@ searchInput.addEventListener('input', () => {
   filterQ = searchInput.value;
   renderGallery();
   renderCombobox();
+});
+// Drop the active filter/search and restore the full gallery. Stops the click
+// from also toggling the dropdown via the field's cursor:text handler.
+notesSearchClear.addEventListener('click', (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  searchInput.value = '';
+  filterQ = '';
+  renderGallery();
+  searchInput.focus();   // refocus the field; focus() reopens the dropdown...
+  closeCombobox();       // ...so close it again for a clean cleared state
 });
 searchInput.addEventListener('keydown', (e) => {
   if (!comboboxPopup.hidden && comboboxItems.length) {
@@ -584,42 +590,74 @@ searchInput.addEventListener('keydown', (e) => {
 let comboboxItems = [];
 let comboboxIdx = -1;
 
-// Notes matching the current query (title/OCR/entities/tags/document).
+// Notes matching the current query (title/OCR/tags/document).
 function searchMatches() {
   const q = filterQ.trim().toLowerCase();
   if (!q) return [];
   return notes.filter((n) => {
     const hay = [
       activeTitle(n), (activeOcr(n) || ''), n.document,
-      (n.entities || []).join(' '), (n.tags || []).join(' '),
+      (n.tags || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
   }).slice(0, 12);
 }
 
-// Own the dropdown with every note's image title when empty, narrowed to
-// matches while typing.
+// Distinct tag labels across every note, most-referenced first, so the
+// empty-query dropdown surfaces the most useful suggestions up front.
+function distinctTags() {
+  const counts = new Map();
+  for (const n of notes) {
+    const seen = new Set();
+    for (const tg of n.tags || []) {
+      const key = String(tg).trim();
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      counts.set(key, (counts.get(key) || 0) + 1);
+    }
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([k]) => k);
+}
+
+// Own the dropdown with tag suggestions up front, then every note's image
+// title when empty, all narrowed to matches while typing.
 function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
+  const cap = q ? 12 : 8; // keep the empty-query dropdown from ballooning
+  const tags = q
+    ? distinctTags().filter((t) => t.toLowerCase().includes(q)).slice(0, cap)
+    : distinctTags().slice(0, cap);
   const matches = q ? searchMatches() : notes;
   const parts = [];
+  if (tags.length) {
+    parts.push(`<div class="notes-section-label">${esc(t('tags'))}</div>`);
+    parts.push(tags.map(tagItemHTML).join(''));
+  }
   if (matches.length) {
     parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
     parts.push(matches.map((n) => noteItemHTML(n)).join(''));
-  } else {
+  } else if (!tags.length) {
     parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
   }
   comboboxPopup.innerHTML = parts.join('');
-  comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-note]'));
+  comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-note], [data-tag]'));
   comboboxIdx = -1;
   comboboxPopup.querySelectorAll('[data-note]').forEach((b) =>
     b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
+  comboboxPopup.querySelectorAll('[data-tag]').forEach((b) =>
+    b.addEventListener('click', () => applyValueFilter(b.dataset.tag)));
 }
 
 function noteItemHTML(n) {
   return `<button type="button" class="notes-popup-item note" data-note="${esc(n.id)}" role="option">
     <span class="popup-topic">${esc(activeTitle(n))}</span>
     <span class="popup-sub">${esc(noteTopic(n))}</span>
+  </button>`;
+}
+function tagItemHTML(tag) {
+  return `<button type="button" class="notes-popup-item" data-tag="${esc(tag)}" role="option">
+    <span class="popup-topic">#${esc(tag)}</span>
+    <span class="popup-sub">${esc(t('tags'))}</span>
   </button>`;
 }
 
@@ -635,6 +673,15 @@ function openNoteFromCombobox(id) {
   filterQ = activeTitle(n);
   renderGallery();
   openLightbox(n);
+}
+
+// A tag suggestion filters the gallery to notes carrying that value —
+// filteredNotes() already matches against note.tags.
+function applyValueFilter(value) {
+  closeCombobox();
+  searchInput.value = value;
+  filterQ = value;
+  renderGallery();
 }
 
 function closeCombobox() {
@@ -735,19 +782,25 @@ function setPage(page) {
     lbImg.removeAttribute('src');
     lbSvg.removeAttribute('viewBox');
   }
-  // ←/→ move across every image in the gallery (not just pages of one note),
-  // so back/forth steps to the previous/next image in Browse order.
+  // ←/→ flip pages WITHIN the open note only. With a single page
+  // (e.g. one image per folder), both arrows stay disabled.
+  const pageCount = (n.pages || []).length;
+  lbPrev.disabled = pageCount <= 1 || currentPage <= 1;
+  lbNext.disabled = pageCount <= 1 || currentPage >= pageCount;
+  // The top-bar Next advances to the next image in the current (filtered)
+  // gallery — with one image per folder that means the next note — so it is
+  // only disabled at the very last image.
   const entries = imageEntries();
   const idx = currentImageIndex();
-  lbPrev.disabled = idx <= 0 || entries.length === 0;
-  lbNext.disabled = idx < 0 || idx >= entries.length - 1 || entries.length === 0;
+  lbTopNext.disabled = !entries.length || idx < 0 || idx >= entries.length - 1;
   renderPagesStrip();
 }
 
-// The bottom filmstrip mirrors the lightbox's ←/→ navigation, which steps
-// through EVERY image in the current (filtered) gallery — not just one note's
-// pages. So it renders all gallery images, highlights the one being viewed,
-// and clicking any thumbnail jumps to it.
+// The bottom filmstrip is the cross-note switcher: it renders EVERY image in
+// the current (filtered) gallery — one thumbnail per note (and per page for
+// multi-page notes) — highlights the one being viewed, and clicking any
+// thumbnail jumps to it. The ←/→ arrows above are page-only navigation within
+// the open note, so the filmstrip is what lets you move between notes.
 function renderPagesStrip() {
   const entries = imageEntries();
   if (!entries.length) {
@@ -796,8 +849,9 @@ function changePage(page) {
 }
 
 // ------------------------------------------------------------
-// Gallery image navigation (lightbox ←/→): move across every image of every
-// note in the current Browse gallery, not just the pages of one note.
+// Gallery image index (filmstrip): flat, gallery-ordered list of { note, page }
+// for every image. The filmstrip + currentImageIndex drive cross-note hopping;
+// the lightbox ←/→ arrows are page-only within the open note.
 // ------------------------------------------------------------
 // Flat, gallery-ordered list of { note, page } for every image.
 function imageEntries() {
@@ -814,31 +868,26 @@ function currentImageIndex() {
   return idx !== -1 ? idx : 0;
 }
 
-// Step +1 (forward) or -1 (back) through the gallery's images. Crossing a note
-// boundary switches the open note; within a note it just flips the page.
-function navigateImage(delta) {
+lbPrev.addEventListener('click', () => changePage(currentPage - 1));
+lbNext.addEventListener('click', () => changePage(currentPage + 1));
+// Top-bar Next: advance to the next image in the current (filtered) gallery.
+// `goToImage` crosses note boundaries as needed; single-page notes therefore
+// step note-to-note. The button's disabled state (managed in setPage) guards
+// the last image.
+lbTopNext.addEventListener('click', () => {
   const entries = imageEntries();
-  if (!entries.length) return;
-  const target = currentImageIndex() + delta;
-  if (target < 0 || target >= entries.length) return;
-  const { note, page } = entries[target];
-  if (note.id !== currentNote?.id) {
-    currentNote = note;
-    renderLightbox();
-  }
-  changePage(page);
-}
-
-lbPrev.addEventListener('click', () => navigateImage(-1));
-lbNext.addEventListener('click', () => navigateImage(+1));
-// Arrow keys step through images while the lightbox is open (ignored while
-// typing in a metadata field).
+  const idx = currentImageIndex();
+  if (idx >= 0 && idx < entries.length - 1) goToImage(idx + 1);
+});
+// Arrow keys flip pages within the open note while the lightbox is open
+// (ignored while typing in a metadata field). They respect the button disabled
+// state so a single-page note stays non-navigable.
 document.addEventListener('keydown', (e) => {
   if (lightboxEl.hidden) return;
   const t = e.target;
   if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-  if (e.key === 'ArrowLeft') { navigateImage(-1); e.preventDefault(); }
-  else if (e.key === 'ArrowRight') { navigateImage(+1); e.preventDefault(); }
+  if (e.key === 'ArrowLeft') { if (lbPrev && !lbPrev.disabled) changePage(currentPage - 1); e.preventDefault(); }
+  else if (e.key === 'ArrowRight') { if (lbNext && !lbNext.disabled) changePage(currentPage + 1); e.preventDefault(); }
 });
 
 // ------------------------------------------------------------
@@ -1203,23 +1252,18 @@ function updatePromptAvailability() {
   }
 }
 
-// Resolve a note's entity names to graph node labels (only those that exist in
-// the graph can be @-tagged as structured context).
-function graphLabelsFor(entities) {
-  if (!Array.isArray(entities) || !entities.length) return [];
-  const labelSet = new Set(RAW_NODES.map(n => n.label));
-  return entities.map((e) => String(e).trim()).filter((e) => labelSet.has(e));
-}
-
 // Build the analysis prompt: instruction line + note metadata + OCR transcript.
 function buildTranscriptPrompt(note) {
   const ocr = (note.ocr || '').trim();
+  // Merge tags + entities into one labeled list (deduped) so both travel to the
+  // analysis agent as plain text.
+  const combined = [...new Set([...(note.tags || []), ...(note.entities || []).map(String)])]
+    .map((s) => String(s).trim()).filter(Boolean);
   const header = [
     'Analyze this handwritten note transcript and summarize the key insights, mechanisms, and biomedical entities it mentions.',
     `Note: ${activeTitle(note) || '(untitled)'}`,
-    note.topic ? `Topic: ${note.topic}` : '',
+    combined.length ? `Entities/tags: ${combined.join(', ')}` : '',
     note.document ? `Document: ${note.document}` : '',
-    (note.entities || []).length ? `Entities: ${note.entities.join(', ')}` : '',
     '---',
     ocr,
   ].filter(Boolean).join('\n');
@@ -1238,7 +1282,7 @@ function flashTranscriptStatus(msg, timeout = 4200) {
 
 // Hand the open note's transcript to the analysis agent: close Notes, open the
 // Analysis panel in Prompt mode with the transcript pre-loaded in the composer
-// (entities @-tagged) for the user to review and send.
+// (the note's tags and entities are included as plain text) for review and send.
 function sendTranscriptToPrompt() {
   // Capture the note before closeNotes() nulls the module-level currentNote.
   const note = currentNote;
@@ -1248,11 +1292,17 @@ function sendTranscriptToPrompt() {
     return;
   }
   closeNotes();
-  openPromptComposer(buildTranscriptPrompt(note), graphLabelsFor(note.entities));
+  openPromptComposer(buildTranscriptPrompt(note));
 }
 lbSendPrompt.addEventListener('click', sendTranscriptToPrompt);
 updatePromptAvailability();
+// Apply the default UI language for the initial render WITHOUT pushing a URL
+// hash entry. At module load this runs before graph.js reads the hash to
+// restore a shared deep link (#notes&note=...); pushing the empty default
+// state here would wipe that hash before restore runs.
+state.suppressHashUpdate = true;
 applyUiLang(uiLang);
+state.suppressHashUpdate = false;
 
 // ------------------------------------------------------------
 // Entity / tag chips + wiki modal
@@ -1274,16 +1324,7 @@ function openWikiModal(key, event) {
 
 function renderChips() {
   if (!currentNote) return;
-  const entities = currentNote.entities || [];
   const tags = currentNote.tags || [];
-  lbEntities.innerHTML = entities.length
-    ? entities.map((e) => `<button class="notes-chip" data-entity="${esc(e)}">${esc(e)}</button>`).join('')
-    : `<span class="notes-muted">${esc(t('none'))}</span>`;
-  lbEntities.querySelectorAll('.notes-chip').forEach((c) =>
-    c.addEventListener('click', (e) => {
-      e.stopPropagation();
-      openWikiModal(c.dataset.entity, e);
-    }));
   lbTags.innerHTML = tags.length
     ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tag)}</span>`).join('')
     : `<span class="notes-muted">${esc(t('none'))}</span>`;
@@ -1396,7 +1437,6 @@ submitBtn.addEventListener('click', async () => {
   fd.append('title', titleField.value.trim());
   fd.append('topic', topicField.value.trim());
   fd.append('document', docField.value);
-  fd.append('entities', JSON.stringify(tokens(entitiesField.value)));
   fd.append('tags', JSON.stringify(tokens(tagsField.value)));
   try {
     const resp = await fetch(`${NOTES_API}/upload`, { method: 'POST', body: fd });
@@ -1411,7 +1451,7 @@ submitBtn.addEventListener('click', async () => {
     const note = await resp.json();
     draftFiles = [];
     renderDraftPreview();
-    titleField.value = ''; topicField.value = ''; entitiesField.value = ''; tagsField.value = ''; docField.value = '';
+    titleField.value = ''; topicField.value = ''; tagsField.value = ''; docField.value = '';
     setStatus('Uploaded. You can now open it and run OCR.', true);
     await loadIndex();
     setView('browse');
