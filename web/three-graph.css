@@ -971,15 +971,50 @@ a.data-source:hover { border-color: #6b9bc7; }
   display: flex; align-items: center; gap: 8px; padding: 10px 14px;
   border-bottom: 1px solid #2a2a4e; flex-wrap: wrap; flex-shrink: 0;
 }
+/* Search combobox: input + live suggestion popup */
+.notes-search-wrap { position: relative; flex: 1 1 220px; min-width: 160px; display: flex; }
 #notes-search {
-  flex: 1 1 220px; min-width: 160px; background: #23233f; color: #e0e0e0;
+  width: 100%; flex: 1; background: #23233f; color: #e0e0e0;
   border: 1px solid #3a3a5e; border-radius: 6px; padding: 7px 10px; font-size: 13px; font-family: inherit;
 }
-#notes-topic-filter, #notes-doc-filter, #notes-doc-field, #notes-upload #notes-doc-field {
+#notes-doc-filter, #notes-doc-field, #notes-upload #notes-doc-field {
   background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
   padding: 7px 10px; font-size: 12px; font-family: inherit; max-width: 220px;
 }
 #notes-doc-filter { flex: 1 1 200px; min-width: 150px; max-width: 320px; }
+/* Shared popup (search suggestions + topic menu) */
+.notes-popup {
+  position: absolute; top: calc(100% + 5px); left: 0; right: 0;
+  background: #1a1a2e; border: 1px solid #4E79A7; border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.55);
+  max-height: 260px; overflow-y: auto; z-index: 305;
+}
+.notes-topic-menu { left: auto; right: -1px; width: 200px; }
+.notes-popup-item {
+  display: flex; align-items: center; gap: 8px; width: 100%;
+  padding: 8px 12px; background: none; border: none; border-bottom: 1px solid #2a2a4e;
+  cursor: pointer; font-size: 13px; color: #e0e0e0; font-family: inherit; text-align: left;
+}
+.notes-popup-item:last-child { border-bottom: none; }
+.notes-popup-item:hover, .notes-popup-item.active { background: rgba(78,121,167,0.22); }
+.notes-popup-item .popup-topic { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.notes-popup-item .popup-check { color: #7cb3d4; margin-left: auto; flex-shrink: 0; }
+.notes-popup-item .popup-sub { color: #888; font-size: 11px; flex-shrink: 0; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Topic filter icon button */
+.notes-topic-wrap { position: relative; flex-shrink: 0; }
+.notes-filter-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 7px 9px; cursor: pointer; font-family: inherit; height: 100%;
+  transition: border-color 0.15s, background 0.15s;
+}
+.notes-filter-btn:hover { border-color: #4E79A7; }
+.notes-filter-btn.active { border-color: #4E79A7; background: #2a2a4e; }
+.notes-filter-btn svg { width: 15px; height: 15px; display: block; }
+.notes-filter-badge {
+  background: #4E79A7; color: #fff; border-radius: 10px; font-size: 10.5px;
+  padding: 1px 7px; white-space: nowrap; max-width: 120px; overflow: hidden; text-overflow: ellipsis;
+}
 /* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
    match the filter inputs so the row stays aligned. */
 #notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }

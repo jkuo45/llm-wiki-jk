@@ -27,8 +27,11 @@ const browseEl = $('notes-browse');
 const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
-const topicFilter = $('notes-topic-filter');
+const searchPopup = $('notes-search-popup');
 const docFilter = $('notes-doc-filter');
+const topicBtn = $('notes-topic-btn');
+const topicPopup = $('notes-topic-popup');
+const topicBadge = $('notes-topic-badge');
 const langToggle = $('notes-lang');
 const langBtns = Array.from(document.querySelectorAll('#notes-lang [data-lang]'));
 const galleryEl = $('notes-gallery');
@@ -268,6 +271,7 @@ function applyUiLang(lang) {
   langToggle.setAttribute('aria-label', t('panelLanguage'));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('searchPlaceholder');
+  closeSearchPopup();
   populatePickers();
 
   renderGallery();
@@ -313,6 +317,8 @@ function openNotes() {
   syncNotesHash();
 }
 function closeNotes() {
+  closeTopicPopup();
+  closeSearchPopup();
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
   setLightbox(null);
@@ -423,11 +429,20 @@ function ensureIndexLoaded() {
 }
 
 function populatePickers() {
-  // Topic filter
+  // Topic filter — rendered as a popup menu behind the funnel icon button.
   const topics = [...new Set(notes.map(noteTopic))].sort();
-  topicFilter.innerHTML = `<option value="">${esc(t('allTopics'))}</option>` +
-    topics.map((topic) => `<option value="${esc(topic)}">${esc(topic)}</option>`).join('');
-  topicFilter.value = filterTopic;
+  const topicItems = [{ value: '', label: t('allTopics') }]
+    .concat(topics.map((tp) => ({ value: tp, label: tp })));
+  topicPopup.innerHTML = topicItems.map((it) => {
+    const active = filterTopic === it.value;
+    return `<button type="button" class="notes-popup-item topic" data-topic="${esc(it.value)}" role="option" aria-selected="${active}">
+      <span class="popup-topic">${esc(it.label)}</span>
+      <span class="popup-check" ${active ? '' : 'hidden'}>✓</span>
+    </button>`;
+  }).join('');
+  topicPopup.querySelectorAll('[data-topic]').forEach((b) =>
+    b.addEventListener('click', () => setTopicFilter(b.dataset.topic)));
+  updateTopicBadge();
 
   // Document filter — built from the notes that actually carry a document so
   // every option leads to a non-empty gallery (versus listing the full
@@ -545,16 +560,111 @@ function shortDoc(filename) {
 searchInput.addEventListener('input', () => {
   filterQ = searchInput.value;
   renderGallery();
+  updateSearchPopup();
 });
-topicFilter.addEventListener('change', () => {
-  filterTopic = topicFilter.value;
-  renderGallery();
+searchInput.addEventListener('keydown', (e) => {
+  if (!searchPopup.hidden && searchMatchesList.length) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); searchIdx = (searchIdx + 1) % searchMatchesList.length; highlightSearch(); return; }
+    if (e.key === 'ArrowUp') { e.preventDefault(); searchIdx = (searchIdx - 1 + searchMatchesList.length) % searchMatchesList.length; highlightSearch(); return; }
+    if (e.key === 'Enter') { e.preventDefault(); selectSearchMatch(searchIdx < 0 ? 0 : searchIdx); return; }
+    if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); closeSearchPopup(); return; }
+  }
 });
 docFilter.addEventListener('change', () => {
   filterDoc = docFilter.value;
   renderGallery();
   syncNotesHash();
 });
+topicBtn.addEventListener('click', () => {
+  if (topicPopup.hidden) {
+    populatePickers(); // refresh active check + labels while closed→open
+    topicPopup.hidden = false;
+    topicBtn.setAttribute('aria-expanded', 'true');
+  } else {
+    closeTopicPopup();
+  }
+});
+
+// ------------------------------------------------------------
+// Search combobox + topic filter popup
+// ------------------------------------------------------------
+let searchMatchesList = [];
+let searchIdx = -1;
+
+function searchMatches() {
+  const q = filterQ.trim().toLowerCase();
+  if (!q) return [];
+  return notes.filter((n) => {
+    const hay = [
+      activeTitle(n), (activeOcr(n) || ''), n.document,
+      (n.entities || []).join(' '), (n.tags || []).join(' '),
+    ].join(' ').toLowerCase();
+    return hay.includes(q);
+  }).slice(0, 8);
+}
+
+function updateSearchPopup() {
+  const matches = searchMatches();
+  if (!matches.length) { closeSearchPopup(); return; }
+  searchMatchesList = matches;
+  searchIdx = -1;
+  searchPopup.innerHTML = matches.map((n, i) =>
+    `<button type="button" class="notes-popup-item" data-idx="${i}" role="option" aria-selected="false">
+      <span class="popup-topic">${esc(activeTitle(n))}</span>
+      <span class="popup-sub">${esc(noteTopic(n))}</span>
+    </button>`).join('');
+  searchPopup.hidden = false;
+  searchInput.setAttribute('aria-expanded', 'true');
+  searchPopup.querySelectorAll('[data-idx]').forEach((b) =>
+    b.addEventListener('click', () => selectSearchMatch(parseInt(b.dataset.idx, 10))));
+}
+
+function highlightSearch() {
+  searchPopup.querySelectorAll('[data-idx]').forEach((b) =>
+    b.classList.toggle('active', parseInt(b.dataset.idx, 10) === searchIdx));
+}
+
+function selectSearchMatch(idx) {
+  const n = searchMatchesList[idx];
+  if (!n) return;
+  closeSearchPopup();
+  searchInput.value = activeTitle(n);
+  filterQ = activeTitle(n);
+  renderGallery();
+  openLightbox(findNote(n.id));
+}
+
+function closeSearchPopup() {
+  searchPopup.hidden = true;
+  searchPopup.innerHTML = '';
+  searchMatchesList = [];
+  searchIdx = -1;
+  searchInput.setAttribute('aria-expanded', 'false');
+}
+
+function setTopicFilter(value) {
+  filterTopic = value;
+  closeTopicPopup();
+  renderGallery();
+}
+
+function closeTopicPopup() {
+  topicPopup.hidden = true;
+  topicBtn.setAttribute('aria-expanded', 'false');
+}
+
+function updateTopicBadge() {
+  const has = !!filterTopic;
+  topicBadge.hidden = !has;
+  if (has) topicBadge.textContent = filterTopic;
+  topicBtn.classList.toggle('active', has);
+}
+
+// Clicking anywhere outside a popup (or its trigger) closes it.
+document.addEventListener('pointerdown', (e) => {
+  if (!e.target.closest('.notes-topic-wrap')) closeTopicPopup();
+  if (!e.target.closest('.notes-search-wrap')) closeSearchPopup();
+}, true);
 
 // ------------------------------------------------------------
 // Lightbox

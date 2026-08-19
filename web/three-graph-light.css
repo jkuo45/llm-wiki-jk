@@ -384,8 +384,17 @@ body {
 #notes-header button#notes-close { color: #7C8698; }
 #notes-header button#notes-close:hover { color: #C0392B; background: rgba(192, 57, 43, 0.1); }
 #notes-filters { border-bottom-color: #E2DCCE; }
-#notes-search, #notes-topic-filter, #notes-doc-filter, #notes-doc-field, #notes-upload #notes-doc-field,
+#notes-search, #notes-doc-filter, #notes-doc-field, #notes-upload #notes-doc-field,
 .notes-field input, .notes-field select, .notes-edit-input { background: #FFFFFF; color: #22304A; border-color: #CCC5B2; }
+.notes-popup { background: #FFFFFF; border-color: #2563A8; box-shadow: 0 12px 32px rgba(34, 48, 74, 0.16); }
+.notes-popup-item { border-bottom-color: #E2DCCE; color: #22304A; }
+.notes-popup-item:hover, .notes-popup-item.active { background: rgba(37, 99, 168, 0.12); }
+.notes-popup-item .popup-check { color: #2563A8; }
+.notes-popup-item .popup-sub { color: #7C8698; }
+.notes-filter-btn { background: #FFFFFF; color: #22304A; border-color: #CCC5B2; }
+.notes-filter-btn:hover { border-color: #0F766E; }
+.notes-filter-btn.active { border-color: #0F766E; background: #ECE8DD; }
+.notes-filter-badge { background: #0F766E; color: #fff; }
 /* EN/中 toggle in the notes filters bar — mirrors the Reader's light chrome. */
 #notes-filters .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
 #notes-filters .lang-toggle button { color: #7C8698; }
