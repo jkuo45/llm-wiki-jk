@@ -56,7 +56,7 @@
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
       <span id="chat-activity-dot" class="chat-activity-dot" aria-hidden="true"></span>
     </button>
-    <button id="btn-notes" title="Notes / 笔记" aria-label="Notes panel">
+    <button id="btn-notes" title="Notes / 筆記" aria-label="Notes panel">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
@@ -137,14 +137,13 @@
   <div id="chat-box">
   <div id="chat-header">
     <div class="chat-header-left">
-      <span class="chat-title">Analysis <span class="chat-title-zh">分析</span></span>
+      <span class="chat-title">Analysis / <span class="chat-title-zh">分析</span></span>
       <div id="chat-mode-switch" role="tablist" aria-label="Analysis mode">
         <button type="button" class="chat-mode-tab active" data-mode="ask" role="tab" aria-selected="true">Prompt<span class="mode-dot" aria-hidden="true"></span></button>
         <button type="button" class="chat-mode-tab" data-mode="explore" role="tab" aria-selected="false">Graph<span class="mode-dot" aria-hidden="true"></span></button>
       </div>
     </div>
     <div class="chat-header-actions">
-      <button id="chat-new" title="Reset analysis / 重設分析">Reset</button>
       <button id="chat-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
     </div>
   </div>
@@ -183,7 +182,7 @@
   <div id="notes-box">
     <div id="notes-header">
       <div class="chat-header-left">
-        <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
+        <span class="chat-title">Notes / <span class="chat-title-zh">筆記</span></span>
       </div>
       <div class="chat-header-actions">
         <button id="notes-close" aria-label="Close panel" title="Close panel">&times;</button>
@@ -252,7 +251,7 @@
         <div class="notes-lb-topbar">
           <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Gallery</button>
           <button id="notes-lb-top-prev" type="button" title="Previous image" data-i18n="prevNav" data-i18n-title="prevImg" disabled>&larr; Previous</button>
-          <button id="notes-lb-top-next" type="button" title="Next image" data-i18n-title="nextImg" disabled>Next &rarr;</button>
+          <button id="notes-lb-top-next" type="button" title="Next image" data-i18n="nextNav" data-i18n-title="nextImg" aria-label="Next →" disabled>Next &rarr;</button>
           <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
             <button type="button" data-lang="en-US" title="English (US)">EN</button>
             <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>

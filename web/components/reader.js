@@ -35,8 +35,8 @@ const ACTIVE_ARTICLES = ARTICLES.flatMap((a) => {
   }));
 }).filter((a) => a.active !== false);
 
-export const getArticle = (id) => ACTIVE_ARTICLES.find((a) => a.id === id) || null;
-export const getDefaultArticle = () => ACTIVE_ARTICLES.find((a) => a.default) || ACTIVE_ARTICLES[0];
+const getArticle = (id) => ACTIVE_ARTICLES.find((a) => a.id === id) || null;
+const getDefaultArticle = () => ACTIVE_ARTICLES.find((a) => a.default) || ACTIVE_ARTICLES[0];
 
 // ------------------------------------------------------------
 // Group / language helpers

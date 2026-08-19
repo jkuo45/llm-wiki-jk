@@ -4,17 +4,17 @@
 import * as THREE from 'three';
 
 import {
-  RAW_NODES, RAW_EDGES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
+  RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
   descriptionMap, githubSourceUrl, noteUrl,
 } from './data.js';
 import { state } from './state.js';
 import {
-  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeObjects, edgeGroup, labelObjects,
+  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeGroup, labelObjects,
   edgeOffColor, setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
 } from './core.js';
-import { selectNode, deselectNode, selectEdge } from './interaction.js';
+import { selectNode, deselectNode } from './interaction.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
 

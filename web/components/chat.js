@@ -25,7 +25,6 @@ const chatPanel = document.getElementById('chat-panel');
 const chatMessages = document.getElementById('chat-messages');
 const chatInput = document.getElementById('chat-input');
 const chatSend = document.getElementById('chat-send');
-const chatNewBtn = document.getElementById('chat-new');
 const chatCloseBtn = document.getElementById('chat-close');
 const chatFilterToggle = document.getElementById('chat-filter-toggle');
 const chatFilterCheckbox = document.getElementById('chat-filter-nodes');
@@ -1204,7 +1203,7 @@ chatMessages.addEventListener('click', (e) => {
   }
 });
 
-chatNewBtn.addEventListener('click', () => {
+function resetChat() {
   // Release the server-side session so the next turn starts with clean context.
   if (chatSessionId) {
     const stale = chatSessionId;
@@ -1227,7 +1226,7 @@ chatNewBtn.addEventListener('click', () => {
   chatInput.value = '';
   chatInput.focus();
   refreshActivity();
-});
+}
 
 // ------------------------------------------------------------
 // Chat Graph Highlighting
@@ -1279,7 +1278,6 @@ function edgesBetween(nodeIds) {
 function highlightForMessage(queryText, data) {
   const serverNodes = (data.highlight_nodes || []).filter(Boolean);
   const serverEdges = (data.highlight_edges || []).filter(p => Array.isArray(p) && p.length >= 2);
-  const serverSet = new Set(serverNodes);
   const localSet = matchNodesInText(queryText + ' ' + (data.text || ''));
   const allSet = new Set(serverNodes);
   localSet.forEach(id => allSet.add(id));
@@ -1590,6 +1588,7 @@ function renderAnalysisTools() {
       <div class="at-actions">
         <button class="at-compare-btn" id="at-compare-go" title="Analyze Set A vs Set B — or press Enter / 比較 A 和 B — 或按 Enter"><span class="enter-ico">&#9166;</span> A and B</button>
         <button class="at-prompt-btn" id="at-send-prompt" title="Send this selection to the Prompt panel as an analysis query / 將此選擇傳送至 Prompt 面板">&#8594; Prompt</button>
+        <button id="chat-new" title="Reset analysis / 重設分析">Reset</button>
         <button class="at-export-json-btn" id="at-export-json" title="Export this selection as JSON / 匯出選擇為 JSON">Save</button>
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
@@ -1632,6 +1631,7 @@ function renderAnalysisTools() {
   analysisTools.querySelector('#at-compare-go').addEventListener('click', runCompare);
   analysisTools.querySelector('#at-send-prompt').addEventListener('click', sendSelectionToPrompt);
   analysisTools.querySelector('#at-export-json').addEventListener('click', exportSelectionJSON);
+  analysisTools.querySelector('#chat-new').addEventListener('click', resetChat);
   renderCompareSets();
 }
 

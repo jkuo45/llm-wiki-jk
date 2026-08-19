@@ -93,7 +93,7 @@ scene.add(backLight);
 export const nodeObjects = new Map();
 export const nodeMeshes = [];
 export const labelObjects = new Map();
-export const labelThreshold = 15;
+const labelThreshold = 15;
 
 const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
 

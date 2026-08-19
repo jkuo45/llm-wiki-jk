@@ -42,8 +42,8 @@ body {
 #sidebar-tabs .tab { color: #7C8698; }
 #sidebar-tabs .tab:hover { color: #22304A; }
 #sidebar-tabs .tab.active { color: #22304A; border-bottom-color: #0F766E; }
-#sidebar-tabs .tab .tab-zh { color: #9AA4B3; }
-#sidebar-tabs .tab.active .tab-zh { color: #4B5563; }
+#sidebar-tabs .tab .tab-zh { color: inherit; }
+#sidebar-tabs .tab.active .tab-zh { color: inherit; }
 #sidebar-close { color: #7C8698; }
 #sidebar-close:hover { color: #22304A; }
 
@@ -58,7 +58,7 @@ body {
 /* Trace panel */
 #trace-panel { border-bottom-color: #E2DCCE; }
 #trace-header:hover { background: #F6F3EC; }
-#trace-header span { color: #4B5563; }
+#trace-header span { color: #22304A; }
 #trace-header .chevron { color: #9AA4B3; }
 #trace-select { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
 #trace-select:focus { border-color: #0F766E; }
@@ -75,7 +75,7 @@ body {
 
 /* Info panel */
 #info-panel { border-bottom-color: #E2DCCE; }
-#info-panel h3 { color: #4B5563; }
+#info-panel h3 { color: #22304A; }
 #info-content { color: #4B5563; }
 #info-content .field b { color: #22304A; }
 #info-content .empty { color: #9AA4B3; }
@@ -88,7 +88,7 @@ body {
 .neighbor-link:hover { background: #ECE8DD; }
 
 /* Community legend + stats */
-#legend-wrap h3 { color: #4B5563; }
+#legend-wrap h3 { color: #22304A; }
 .legend-item:hover { background: #ECE8DD; }
 .legend-count { color: #7C8698; }
 #stats { border-top-color: #E2DCCE; color: #7C8698; }
@@ -179,9 +179,9 @@ body {
 #controls #btn-save-png.err { color: #C0392B; border-color: #C0392B; }
 
 #display-panel { border-bottom-color: #E2DCCE; }
-#display-panel h3 { color: #4B5563; }
+#display-panel h3 { color: #22304A; }
 #theme-panel { border-bottom-color: #E2DCCE; }
-#theme-panel h3 { color: #4B5563; }
+#theme-panel h3 { color: #22304A; }
 .display-grid button { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
 .display-grid button:hover { background: #ECE8DD; border-color: #0F766E; }
 .display-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
@@ -220,8 +220,9 @@ body {
 #chat-panel { background: #FFFFFF; }
 #chat-box { background: #FFFFFF; }
 #chat-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
-#chat-header span, .chat-title { color: #4B5563; }
-.chat-title-zh { color: #9AA4B3; }
+#chat-header span { color: #4B5563; }
+#chat-header .chat-title { color: #22304A; }
+#chat-header .chat-title-zh { color: inherit; }
 /* Notes panel header title — mirrors the Reader's light-theme h2 color. */
 #notes-header .chat-title { color: #22304A; }
 #chat-mode-switch { border-color: #CCC5B2; }

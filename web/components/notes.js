@@ -2,8 +2,7 @@
 // annotation overlays, deep links to the linked paper and graph entities.
 // Sibling of the analysis (#chat) panel.
 
-import { descByLabel, noteUrl } from './data.js';
-import { esc, renderMarkdown } from './markdown.js';
+import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
 import { openPromptComposer } from './chat.js';
@@ -26,7 +25,7 @@ const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
 // ------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const notesPanel = $('notes-panel');
-const notesBox = $('notes-box');
+
 const notesBtn = $('btn-notes');
 const notesClose = $('notes-close');
 const browseEl = $('notes-browse');
@@ -121,6 +120,7 @@ const UI_STRINGS = {
     backToGallery: 'Back to gallery',
     prevImg: 'Previous image',
     prevNav: '← Previous',
+    nextNav: 'Next →',
     nextImg: 'Next image',
     zoomIn: 'Zoom in',
     zoomOut: 'Zoom out',
@@ -175,6 +175,7 @@ const UI_STRINGS = {
     backToGallery: '返回圖庫',
     prevImg: '上一張',
     prevNav: '← 上一張',
+    nextNav: '下一張 →',
     nextImg: '下一張',
     zoomIn: '放大',
     zoomOut: '縮小',
@@ -958,7 +959,10 @@ annColors.addEventListener('click', (e) => {
 });
 
 function annPos(e) {
-  const r = lbZoomable.getBoundingClientRect();
+  // Map against the image's on-screen box, not the wrapping stage. The wrapper
+  // now fills the whole stage (the image is centered/letterboxed inside it), so
+  // that rect would include margins and misplace annotations on portrait notes.
+  const r = lbImg.getBoundingClientRect();
   if (r.width <= 0 || r.height <= 0) return { x: 0.5, y: 0.5 };
   const x = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
   const y = Math.min(1, Math.max(0, (e.clientY - r.top) / r.height));
