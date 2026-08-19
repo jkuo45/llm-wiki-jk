@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sirtuins — 文章中的圖像與圖表</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="shared/pages.css">
+<script src="shared/page-theme.js"></script>
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html">
+  <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html">
+  <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html">
+  <style>
+    /* ===== Gallery-specific styles ===== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color .2s;
+    }
+    .gallery-card:hover { border-color: var(--teal); }
+    .gallery-card .img-wrap {
+      position: relative;
+      background: var(--img-plate-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+      min-height: 220px;
+      cursor: zoom-in;
+    }
+    .gallery-card .img-wrap img {
+      max-width: 100%;
+      max-height: 320px;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+    .gallery-card .card-body {
+      padding: 16px 18px 18px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .gallery-card .fig-label {
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--teal);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .gallery-card h3 {
+      font-size: .95rem;
+      margin: 0 0 6px;
+      color: var(--text);
+      line-height: 1.35;
+    }
+    .gallery-card .caption {
+      font-size: .83rem;
+      color: var(--dim);
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    .gallery-card .gap {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-left: 3px solid var(--teal);
+      padding: 2px 0 0 12px;
+      margin-bottom: 10px;
+    }
+    .gallery-card .gap b,
+    .gallery-card .context b { color: var(--text); }
+    .rg-summary {
+      font-size: .82rem;
+      line-height: 1.5;
+      color: var(--dim);
+      background: rgba(127,127,220,.05);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--teal);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 4px 0 16px;
+    }
+    .rg-summary h3 {
+      font-size: .85rem;
+      margin: 0 0 8px;
+      color: var(--text);
+      letter-spacing: .3px;
+    }
+    .rg-summary ul { margin: 4px 0 0; padding-left: 18px; }
+    .rg-summary li { margin: 5px 0; }
+    .rg-summary .fill { color: var(--teal); font-weight: 700; }
+    .rg-summary .partial { color: var(--amber); font-weight: 700; }
+    .rg-summary .open { color: var(--red); font-weight: 700; }
+
+    .gallery-card .context {
+      font-size: .78rem;
+      color: var(--mute);
+      line-height: 1.45;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      margin-top: auto;
+    }
+    .gallery-card .source-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: .78rem;
+      color: var(--teal);
+    }
+    .source-link:hover { text-decoration: underline; }
+
+    /* lightbox */
+    .gallery-lightbox {
+      position: fixed; inset: 0; z-index: 1000;
+      display: none; align-items: center; justify-content: center;
+      padding: 24px;
+      background: rgba(8,8,16,.94);
+      -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+    }
+    .gallery-lightbox.open { display: flex; }
+    .gallery-lightbox img {
+      max-width: 95vw; max-height: 90vh;
+      border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.7);
+    }
+    .gallery-lightbox-close {
+      position: absolute; top: 18px; right: 18px;
+      width: 44px; height: 44px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.25); background: rgba(20,20,40,.85);
+      color: #fff; font-size: 28px; cursor: pointer; z-index: 2;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .gallery-lightbox-close:hover { border-color: var(--teal); color: var(--teal); }
+    .gallery-lightbox-cap {
+      position: absolute; bottom: 20px; left: 0; right: 0;
+      text-align: center; color: var(--dim); font-size: .85rem; padding: 0 20px;
+    }
+    @media (max-width:720px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 1.7rem; }
+
+      /* ===== 行動版：將文獻表格堆疊為卡片 ===== */
+      .tbl-wrap {
+        max-height: none;
+        overflow: visible;
+        border: none;
+        background: transparent;
+      }
+      .tbl-wrap table { min-width: 0; }
+      .tbl-wrap thead { display: none; }
+      .tbl-wrap tbody { display: block; }
+      .tbl-wrap tr {
+        display: block;
+        width: 100%;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin-bottom: 14px;
+      }
+      .tbl-wrap td {
+        display: block;
+        width: 100%;
+        position: static;          /* 取消第一欄 sticky */
+        background: transparent;   /* 取消 sticky 儲存格底色 */
+        border-bottom: 1px solid var(--line);
+        padding: 4px 0 12px;
+      }
+      .tbl-wrap td:last-child { border-bottom: none; padding-bottom: 0; }
+      .tbl-wrap td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: .68rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: var(--teal);
+        margin-bottom: 3px;
+      }
+      .tbl-wrap td:nth-child(1)::before { content: "文獻"; }
+      .tbl-wrap td:nth-child(2)::before { content: "引用"; }
+      .tbl-wrap td:nth-child(3)::before { content: "圖表"; }
+      .tbl-wrap td:nth-child(4)::before { content: "來源"; }
+    }
+  </style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="https://graph.johnnykuo.com" title="返回圖譜首頁">&#8592; 返回</a>
+    <a class="n" href="#foundational">基礎綜述</a>
+    <a class="n" href="#networks">網路圖譜</a>
+    <a class="n" href="#chromatin">染色質與修復</a>
+    <a class="n" href="#lifespan">壽命與健康壽命</a>
+    <a class="n" href="#structures">蛋白質結構</a>
+    <a class="n" href="#pharmacology">藥理學</a>
+    <a class="n" href="#substrates">受質與夥伴</a>
+    <a class="n" href="#research">研究缺口</a>
+    <a class="n" href="#library">文獻索引</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">主題索引 · llm-wiki-jk</div>
+    <h1>Sirtuins — 文章中的圖像／圖表</h1>
+    <p class="lead" style="margin-top:14px;">
+      本頁是 <b style="color:var(--text)">sirtuins 主題在 wiki 中的索引</b>——下方完整收錄
+      <code>src/notes/sirtuins/</code> 目錄中的全部 <b style="color:var(--text)">15 份文件</b>，
+      從同儕審查文章（其中 8 篇為 PMC 回顧）到 AI 對話衍生的 wiki 筆記，皆附引用資訊
+      與原始出版品連結。圖表庫用來說明這些文章與筆記，選自 17 個開放取用來源中的
+      <b style="color:var(--text)">44 張圖表</b>——涵蓋蛋白質晶體結構、細胞區室圖譜、藥理學藥物、
+      染色質生物學、壽命研究、蛋白質–受質交互作用網路，以及
+      <b style="color:var(--text)">粒線體自噬、細胞衰老與心臟生物學</b>（Tier 1 論文，2026 年 8 月 18 日）。
+    </p>
+    <div class="meta">
+      收錄 15 份文件：8 篇 PMC 回顧文章 · 3 則 AI 對話筆記 · 圖像出自開放取用出版品
+      （PMC、Elsevier、AHA、eLife）。
+    </div>
+    <div class="pill-row" style="margin-top:14px;">
+      <span class="badge teal">15 份 wiki 文件</span>
+      <span class="badge">8 篇 PMC 回顧 · 3 則對話筆記</span>
+      <span class="badge">44 張圖表</span>
+      <span class="badge">SIRT1–SIRT7</span>
+      <span class="badge">結構 · 路徑 · 藥理學 · Tier 1 缺口</span>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- ==================== 基礎綜述 ==================== -->
+<section id="foundational">
+  <div class="wrap">
+    <h2>基礎綜述 — Michan 與 Sinclair（2007）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      定義 sirtuin 生物學的標竿綜述——酵素學、七種哺乳類 sirtuin，以及它們的細胞功能。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">"Sirtuins in mammals: insights into their biological function"</a>（2007）— NIH 公共取用手稿
+    </p>
+    <div class="gallery-grid" data-gallery="foundational">
+
+      <!-- 圖 1：Sirtuin 酵素活性 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/874818fb0189/nihms-134884-f0001.jpg"
+               alt="Sirtuin 酵素活性——NAD+ 依賴的去乙醯化與單 ADP-核糖基化"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 酵素學</div>
+          <h3>Sirtuin 酵素活性</h3>
+          <div class="caption">
+            Sirtuin 是 NAD<sup>+</sup> 依賴的去乙醯酶與單 ADP-核糖基轉移酶，調控參與代謝與細胞存活的諸多蛋白質。
+            標靶蛋白的 ε-乙醯賴胺酸殘基即為受質；去乙醯化反應產生副產物 2′-O-乙醯-ADP-核糖（OAADPr）。
+            NAM，菸鹼醯胺。
+          </div>
+          <div class="context">
+            每水解一個 NAD<sup>+</sup> 分子即產生一個菸鹼醯胺與一個 OAADPr——此偶聯將 sirtuin 活性連結至細胞能量狀態。
+            對 SIRT4 與 SIRT6 而言，單 ADP-核糖基轉移是其主要酶活性。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 2：七種哺乳類 Sirtuin -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/f7524e55c54c/nihms-134884-f0002.jpg"
+               alt="七種哺乳類 sirtuin SIRT1-SIRT7 及其催化核心與細胞定位"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · 七種 Sirtuin</div>
+          <h3>七種哺乳類 Sirtuin</h3>
+          <div class="caption">
+            哺乳類有七種 sirtuin（SIRT1–7），各自帶有約 275 個胺基酸的保守 NAD<sup>+</sup> 依賴催化核心，
+            可能優先作為 ADP-核糖基轉移酶（ART）與／或 NAD<sup>+</sup> 依賴去乙醯酶（DAC），
+            並由可變的 N 端與 C 端序列包夾。SIRT1、SIRT6、SIRT7 主要位於細胞核，SIRT2 位於細胞質，
+            SIRT3–SIRT5 位於粒線體。
+          </div>
+          <div class="context">
+            經授權轉載自 Frye（Biochem. Biophys. Res. Commun. 273:793–798，2000）——sirtuin 家族
+            及其區室分佈的經典圖譜。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 3：哺乳類 Sirtuin 分類 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/4d2c52200115/nihms-134884-f0003.jpg"
+               alt="七種哺乳類 sirtuin 的 I-IV 類親緣分類"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · 親緣分類</div>
+          <h3>哺乳類 Sirtuin 的親緣分類</h3>
+          <div class="caption">
+            對約 60 個 sirtuin 核心結構域的親緣分析將哺乳類 sirtuin 歸入四個類別：
+            SIRT1–SIRT3（I 類）、SIRT4（II 類）、SIRT5（III 類），以及 SIRT6/SIRT7（IV 類）。
+            II、III 與 U 類 sirtuin 似乎演化最早。
+          </div>
+          <div class="context">
+            SIRT4 與 SIRT5 因此可能是最古老的哺乳類 sirtuin，而 I 類與 IV 類 sirtuin 僅存在於真核生物。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 4：哺乳類 Sirtuin 的細胞功能 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/11b23b92d1a2/nihms-134884-f0004.jpg"
+               alt="哺乳類 sirtuin 在細胞核、細胞質與粒線體中的細胞功能"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · 細胞圖譜</div>
+          <h3>哺乳類 Sirtuin 的細胞功能</h3>
+          <div class="caption">
+            細胞核中的 SIRT1 去乙醯化組蛋白 H1/H3/H4，以及 p300、p53、MyoD/MEF2、PPAR-γ 與 Tat；
+            SIRT6 在異染色質中調節鹼基切除修復；SIRT7 在核仁中活化 RNA 聚合酶 I；
+            SIRT2 於有絲分裂期間穿梭入核（H4K16）。細胞質 SIRT1 活化 AceCS1；
+            粒線體 SIRT3 活化 AceCS2，SIRT4 則以 ADP-核糖基化 GDH 抑制胺基酸刺激的胰島素分泌。
+          </div>
+          <div class="context">
+            sirtuin 領域的經典「細胞圖譜」——一個家族、三個區室、數十種受質——至今仍是
+            理解 sirtuin 輸出如何組織的框架。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 5：SIRT1 調控細胞凋亡與存活 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/ffe435bf41db/nihms-134884-f0005.jpg"
+               alt="SIRT1 調控細胞凋亡與細胞存活"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · 凋亡與存活</div>
+          <h3>SIRT1 在細胞凋亡與存活中的角色</h3>
+          <div class="caption">
+            SIRT1 去乙醯化 p53、Ku70、E2F1、p73 與 FOXO 因子，抑制細胞凋亡並促進存活。
+            圖中繪製的路徑包括 p53/HIC1 回饋迴路、Ku70 對 Bax 的隔離、FOXO 驅動的壓力抗性，
+            以及對 NF-κB（RelA/p65）轉錄活化的抑制。
+          </div>
+          <div class="context">
+            2007 年時 SIRT1 在體內究竟是腫瘤抑制子還是致癌基因仍懸而未決——這個問題
+            催生了 sirtuin–癌症研究領域。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 6：SIRT1 與 SIRT2 在腦中的差異定位 -->
+      <div class="gallery-card" data-cat="foundational">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cb2/2753453/259279706c75/nihms-134884-f0006.jpg"
+               alt="SIRT1 與 SIRT2 在腦中的差異定位"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 6 · 神經解剖</div>
+          <h3>SIRT1 與 SIRT2 在腦中的差異定位</h3>
+          <div class="caption">
+            皮質、海馬迴與紋狀體的免疫螢光染色顯示，SIRT1（綠）與神經元標記 NeuN 共定位於神經元；
+            SIRT2 則不標記神經元——它與白質中有髓鞘的軸突纖維及寡突膠質細胞共定位。
+          </div>
+          <div class="context">
+            兩者截然不同的表現型態預示了代謝之外的更多功能：SIRT1 的神經保護，SIRT2 的髓鞘形成
+            與神經膠質生物學——以及日後與神經退化的關聯。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">來源：PMC2753453 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 網路圖譜 ==================== -->
+<section id="networks">
+  <div class="wrap">
+    <h2>網路圖譜</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      跨細胞區室的 sirtuin 調控網路與 NAD<sup>+</sup> 代謝的整合視圖。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">"The Sirtuin Network: Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis"</a>（2025）
+    </p>
+    <div class="gallery-grid" data-gallery="networks">
+
+      <!-- 圖 1：區室化網路 -->
+      <div class="gallery-card" data-cat="network">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/c077addc161e/DMRR-42-e70201-g002.jpg"
+               alt="將 NAD+ 代謝連結至全身代謝調控的區室化 sirtuin 網路"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 區室圖譜</div>
+          <h3>區室化 Sirtuin 網路</h3>
+          <div class="caption">
+            核 sirtuin（SIRT1、SIRT6、SIRT7）協調控制代謝與發炎的轉錄程式。
+            粒線體 sirtuin（SIRT3、SIRT4、SIRT5）直接調節代謝通量與氧化還原恆定。
+            細胞質 SIRT2 將代謝訊號連結至細胞骨架與細胞週期過程。
+            NAD<sup>+</sup> 代謝動態調節各區室的 sirtuin 活性。
+          </div>
+          <div class="context">
+            此系統的核心是 NAD<sup>+</sup> 代謝，使細胞能量狀態得以耦合至葡萄糖／脂質代謝、
+            發炎訊號與粒線體功能上的協調代謝反應。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">來源：PMC13364290 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 2：NAD+ 代謝 -->
+      <div class="gallery-card" data-cat="network">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cae3/13364290/6ad3a64bf5e1/DMRR-42-e70201-g001.jpg"
+               alt="NAD+ 代謝作為 sirtuin 活性與細胞能量恆定的中央調控因子"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · NAD+ 代謝</div>
+          <h3>NAD<sup>+</sup> 作為 Sirtuin 活性的中央調控因子</h3>
+          <div class="caption">
+            NAD<sup>+</sup> 透過從頭合成（色胺酸 → 犬尿胺酸）、Preiss–Handler（菸鹼酸）與
+            回收（菸鹼醯胺 → 經 NAMPT 生成 NMN）途徑產生。除了作為氧化還原輔因子，
+            NAD<sup>+</sup> 也是 sirtuin 不可或缺的受質，將其可用性直接連結至各區室的酶活性。
+          </div>
+          <div class="context">
+            各細胞區室 NAD<sup>+</sup> 濃度的變化會動態調節 sirtuin 網路，影響粒線體功能、
+            代謝途徑與壓力反應。與年齡相關的 NAD<sup>+</sup> 下降（經由 CD38 上調）
+            會損害 sirtuin 功能。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">來源：PMC13364290 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin 疾病網路（Guardians 圖 2） -->
+      <div class="gallery-card" data-cat="network lifespan">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/a0a932700c27/nihms591997f2.jpg"
+               alt="SIRT1、SIRT3 與 SIRT6 減輕多種年齡相關疾病"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · 疾病網路</div>
+          <h3>SIRT1、SIRT3 與 SIRT6 減輕年齡相關疾病</h3>
+          <div class="caption">
+            SIRT1、SIRT3 與 SIRT6 如何保護神經退化、代謝功能障礙、發炎、癌症與心血管
+            疾病的示意圖。每個蛋白質都曾報導兼具腫瘤抑制與致癌性質。
+            SIRT1 與 SIRT6 過度表現可延長小鼠壽命。
+          </div>
+          <div class="context">
+            此圖來自 Giblin 等人（2014）的里程碑回顧，總結哺乳類 sirtuin 在老化的
+            主要特徵中扮演「健康壽命守護者」的證據。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 染色質與修復 ==================== -->
+<section id="chromatin">
+  <div class="wrap">
+    <h2>染色質生物學與 DNA 修復</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Sirtuin 作為表觀遺傳調控因子——去乙醯化組蛋白以促進異染色質形成、端粒維持
+      與 DNA 損傷修復。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">"Sirtuins, a promising target in slowing down the ageing process"</a>（2017）
+      ＆ <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a>（2013）
+    </p>
+    <div class="gallery-grid" data-gallery="chromatin">
+
+      <!-- 圖 1：SIRT1/SIRT6 與染色質凝縮 -->
+      <div class="gallery-card" data-cat="chromatin">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/04a6/5514220/05bb658e5ee7/10522_2017_9685_Fig1_HTML.jpg"
+               alt="SIRT1 與 SIRT6 在染色質凝縮中的角色" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 染色質</div>
+          <h3>SIRT1 與 SIRT6 在染色質凝縮中的角色</h3>
+          <div class="caption">
+            兩種 sirtuin 透過三個機制促進異染色質形成：(1) H3K9 去乙醯化使其得以三甲基化
+            並結合 HP1α；(2) SIRT1 降低 p300 組蛋白乙醯轉移酶活性；(3) SIRT1 透過去乙醯化
+            K266 活化 SUV39H1 甲基轉移酶。箭頭 = 正向調控；T 形橫線 = 抑制。
+            粗箭頭表示老化過程中的變化。
+          </div>
+          <div class="context">
+            SIRT1 與 SIRT6 對 H3K9 的去乙醯化是異染色質形成的必要條件。
+            老化過程中此功能的喪失導致基因體不穩定、異常基因表現與細胞衰老。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">來源：PMC5514220 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin 交互作用體（Guardians 圖 3） -->
+      <div class="gallery-card" data-cat="chromatin substrates">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/f1e4428d9f7d/nihms591997f3.jpg"
+               alt="sirtuin 蛋白質交互作用夥伴或受質的範例" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · 交互作用體</div>
+          <h3>Sirtuin 蛋白質交互作用夥伴與受質</h3>
+          <div class="caption">
+            與回顧中敘述之路徑相關的 sirtuin 交互作用夥伴與受質範例：代謝（PGC-1α、FOXO、
+            NF-κB）、染色質生物學（H3K9、H3K56、H4K16）、DNA 修復（Ku70、WRN、CtIP）、
+            細胞存活（p53、survivin、c-MYC）與粒線體功能（SOD2、IDH2）。
+          </div>
+          <div class="context">
+            SIRT1、SIRT3 與 SIRT6 之間重疊的受質使用——有時造成相反的機能結果——
+            凸顯 sirtuin 生物學的情境依賴本質，以及泛 sirtuin 治療策略的困難。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 壽命與健康壽命 ==================== -->
+<section id="lifespan">
+  <div class="wrap">
+    <h2>壽命與健康壽命</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      小鼠 sirtuin 延長壽命的關鍵實驗證據——腦特異性 SIRT1 與全身性 SIRT6 過度表現。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">"Sirtuins: Guardians of Mammalian Healthspan"</a>（2014）
+    </p>
+    <div class="gallery-grid" data-gallery="lifespan">
+
+      <!-- 圖 1：SIRT1/SIRT6 壽命 -->
+      <div class="gallery-card" data-cat="lifespan">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a4e/4077918/e3806a2c1685/nihms591997f1.jpg"
+               alt="SIRT1 與 SIRT6 過度表現延長小鼠壽命" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 壽命</div>
+          <h3>SIRT1 ＆ SIRT6 過度表現延長小鼠壽命</h3>
+          <div class="caption">
+            <b>圖 A：</b>在背內側／外側下視丘核（DMH/LH）過度表現 SIRT1，透過去乙醯化
+            NK2 同源框 1（NKX2-1）上調食慾素第 2 型受體（OX2R），延長兩性壽命。
+            <b>圖 B：</b>全身性 SIRT6 過度表現藉由抑制 IGF-1/AKT 訊號級聯
+            （包括下游 pAKT、pFOXO1、pFOXO3 與 pS6 激酶）延長雄性壽命。
+          </div>
+          <div class="context">
+            腦特異性 SIRT1 過度表現（BRASTO 小鼠）使中位壽命增加約 11%，並模仿
+            卡路里限制。SIRT6 過度表現分別在兩個獨立品系中將雄性中位壽命延長
+            14.5% 與 9.9%——此雄性特異性效果與血清 IGF-1 降低有關。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">來源：PMC4077918 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 蛋白質結構 ==================== -->
+<section id="structures">
+  <div class="wrap">
+    <h2>蛋白質結構</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      以 X 光晶體學解析的人類 sirtuin 異構酶晶體結構——顯示保守的 Rossmann 摺疊結構域、
+      鋅結合結構域，以及輔因子／受質結合位點。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">"Sirtuins: Shedding light on structure, function and regulation"</a>（2023）
+      ＆ <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a>（2013）
+    </p>
+    <div class="gallery-grid" data-gallery="structures">
+
+      <!-- 圖 1：SIRT1 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/9b171a7a581e/13205_2022_3455_Fig1_HTML.jpg"
+               alt="人類 SIRT1 的晶體結構（PDB: 4IG9）" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · SIRT1</div>
+          <h3>SIRT1 的結構（PDB: 4IG9）</h3>
+          <div class="caption">
+            NAD<sup>+</sup> 結合區由核心的六股平行 β-摺板（β1–3、β7–9 股）與八個螺旋組成。
+            螺旋模組（αC–F）與 Zn<sup>2+</sup> 結合單元（β4–6、αI）構成較小的結構域。
+            C 端調控區（CTR）形成覆蓋疏水核心的 β-髮夾結構。
+          </div>
+          <div class="context">
+            SIRT1 具有強去乙醯酶活性，並與 AMPK 共同調節抗衰老訊號。它促進健康衰老、
+            預防代謝症候群相關癌症，並延緩神經退化。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 2：SIRT2 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/ab2397811137/13205_2022_3455_Fig2_HTML.jpg"
+               alt="人類 SIRT2 的晶體結構（PDB: 3ZGO）" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · SIRT2</div>
+          <h3>SIRT2 的結構（PDB: 3ZGO）</h3>
+          <div class="caption">
+            催化核心為細長結構，包含較大的 Rossmann 摺疊結構域（六股 β-摺板、六個 α-螺旋），
+            以及由螺旋模組（α3–α6）和鋅結合區（β4–6、α9）組成的較小結構域。
+            兩結構域交會處的大型凹槽形成活性位點裂縫。
+          </div>
+          <div class="context">
+            SIRT2 同時具有單 ADP-核糖轉移酶與去乙醯酶活性。它控制誘導多能性過程中的
+            代謝重編程，並調節微管蛋白乙醯化。在 NSCLC 與轉移性黑色素瘤中表現上升。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 3：SIRT3 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/b0125f17e465/13205_2022_3455_Fig3_HTML.jpg"
+               alt="人類 SIRT3 的晶體結構（PDB: 3GLS）" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · SIRT3</div>
+          <h3>SIRT3 的結構（PDB: 3GLS）</h3>
+          <div class="caption">
+            SIRT3 為雙結構域結構：用於 NAD<sup>+</sup> 結合的大型 Rossmann 摺疊結構域，
+            以及由大結構域延伸出的兩個環所構成的螺旋束與鋅結合區。
+            鋅結合區與螺旋束之間的凹槽可能參與蛋白質–蛋白質交互作用。
+          </div>
+          <div class="context">
+            主要的粒線體去乙醯酶。全長 SIRT3 無活性；粒線體處理胜肽酶切除 N 端 101 個
+            殘基後才會活化。透過調控 HIF-1α 與抑制 ROS 來壓制腫瘤生長。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 4：SIRT5 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/c0646e7ed9ec/13205_2022_3455_Fig4_HTML.jpg"
+               alt="人類 SIRT5 的晶體結構（PDB: 2NYR）" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · SIRT5</div>
+          <h3>SIRT5 的結構（PDB: 2NYR）</h3>
+          <div class="caption">
+            由 14 個 α-螺旋與 9 個 β-摺板排列成兩個球形結構域。較大的 Rossmann 摺疊結構域
+            包含六股平行摺板的核心 β-摺板與九個 α-螺旋。較小的鋅結合結構域具有獨特插入：
+            α9 螺旋與其前的 16 個殘基環，為人類 SIRT5 特有。
+          </div>
+          <div class="context">
+            SIRT5 的去乙醯酶活性較弱，但卻是強效的去琥珀醯酶／去丙二醯酶／去戊二醯酶。
+            其去乙醯化活性對菸鹼醯胺抑制異常抵抗——對藥物設計具參考價值。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 5：SIRT6 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/0babcee70a57/13205_2022_3455_Fig5_HTML.jpg"
+               alt="人類 SIRT6 的晶體結構（PDB: 3K35）" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · SIRT6</div>
+          <h3>SIRT6 的結構（PDB: 3K35）</h3>
+          <div class="caption">
+            兩個球形結構域，含八個 α-螺旋與九個 β-摺板。Rossmann 摺疊結構域具有六股
+            平行 β-摺板。較小的鋅結合結構域由兩個延伸環構成。值得注意的是，SIRT6 缺少
+            其他 sirtuin 中常見的輔因子結合環——由單一螺旋（α3）取代，其上帶有 NAD<sup>+</sup> 結合殘基。
+          </div>
+          <div class="context">
+            SIRT6 是單 ADP-核糖轉移酶，對端粒維持、DNA 修復以及糖解作用與 ROS 的抑制
+            至關重要。其緊湊的小結構域（無螺旋束）可能造就其獨特的 NAD<sup>+</sup> 結合特性。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 6：SIRT7 -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/5479d7466a93/13205_2022_3455_Fig6_HTML.jpg"
+               alt="人類 SIRT7 N 端結構域的晶體結構（PDB: 5IQZ）" loading="lazy"
+               onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 6 · SIRT7</div>
+          <h3>SIRT7 的結構（PDB: 5IQZ）</h3>
+          <div class="caption">
+            SIRT7 N 端結構域（NTD）由三個螺旋（α1–α3）構成，以短 3<sub>10</sub> 螺旋連接。
+            α1 是最長的螺旋（35 個殘基，Gly5–Arg37）。α2 與 α3 幾乎與 α1 垂直。
+            NTD 與轉錄因子調控子結構相似，可能參與 DNA 結合。
+          </div>
+          <div class="context">
+            SIRT7 的去乙醯酶活性對衰老與造血細胞壽命至關重要。它調節 rDNA 轉錄、
+            pre-rRNA 切割，並作為對抗幹細胞衰老的異染色質穩定劑。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- SIRT3-Xray（出自 Rejuvenating Sirtuins） -->
+      <div class="gallery-card" data-cat="structure">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/56bb/3549556/8b221166898f/CPD-19-614_F1.jpg"
+               alt="人類 SIRT3 與 ADPR、乙醯輔酶 A 合成酶 2 胜肽複合的 X 光結構"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · SIRT3 複合物</div>
+          <h3>與乙醯輔酶 A 合成酶 2 複合的 SIRT3 X 光結構</h3>
+          <div class="caption">
+            人類 SIRT3 與 ADPR、含有硫代乙醯離胺酸之乙醯輔酶 A 合成酶 2（AceCS2）胜肽的
+            複合物（PDB: 3GLT）。顏色標示：紅 = Rossmann 摺疊結構域、黃 = 鋅結合結構域、
+            綠 = 輔因子結合環。受質結合位（紫色）與 NAD<sup>+</sup> 結合位（淺藍色）的表面已標示。
+          </div>
+          <div class="context">
+            此共晶結構揭示了乙醯離胺酸受質與 NAD<sup>+</sup> 輔因子在兩個結構域間延伸裂縫中的
+            有效結合模式——是結構導向藥物設計的模板。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">來源：PMC3549556 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 藥理學 ==================== -->
+<section id="pharmacology">
+  <div class="wrap">
+    <h2>藥理學 — 活化劑與抑制劑</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      調節 sirtuin 活性之小分子的化學結構——從天然多酚到合成 STAC 與抑制劑。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">"Sirtuins: Shedding light on structure"</a> ＆
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins"</a> ＆
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/" target="_blank">"The Sirtuin System: The Holy Grail of Resveratrol?"</a>
+    </p>
+    <div class="gallery-grid" data-gallery="pharma">
+
+      <!-- 圖 7：Sirtuin 活化劑（出自綜合回顧） -->
+      <div class="gallery-card" data-cat="pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/9acbd5c7872d/13205_2022_3455_Fig7_HTML.jpg"
+               alt="sirtuin 活化劑的化學結構：紫鉚花素、異甘草素、白皮杉醇、白藜蘆醇、SRT1720"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 7 · 活化劑</div>
+          <h3>Sirtuin 活化化合物（STAC）</h3>
+          <div class="caption">
+            五種 sirtuin 活化劑的結構：(a) 紫鉚花素（butein）、(b) 異甘草素（isoliquiritigenin）、
+            (c) 白皮杉醇（piceatannol）、(d) 白藜蘆醇（resveratrol）與 (e) SRT1720。
+            前四種為天然多酚；SRT1720 是合成 STAC，SIRT1 活化效力大幅提升。
+          </div>
+          <div class="context">
+            植物多酚可活化重組 SIRT1。白藜蘆醇在低等生物中重現卡路里限制的效果，
+            並改善高脂飲食小鼠的胰島素抗性。合成 STAC（咪唑并[1,2-b]噻唑核心）
+            活化 SIRT1 的效力更強。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 圖 8：Sirtuin 抑制劑（出自綜合回顧） -->
+      <div class="gallery-card" data-cat="pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9620/9805487/c2edb84745a6/13205_2022_3455_Fig8_HTML.jpg"
+               alt="sirtuin 抑制劑的化學結構：Splitomicin、HR73、Sirtinol、AGK2、Cambinol、Salermide、Suramin"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 8 · 抑制劑</div>
+          <h3>Sirtuin 抑制化合物（STIC）</h3>
+          <div class="caption">
+            七種 sirtuin 抑制劑的結構：(a) Splitomicin、(b) HR73、(c) Sirtinol、(d) AGK2、
+            (e) Cambinol、(f) Salermide 與 (g) Suramin。
+            多數抑制 SIRT1 與／或 SIRT2；部分也影響 SIRT3 與 SIRT5。
+          </div>
+          <div class="context">
+            癌症細胞株中 SIRT1 上調，使抑制劑成為潛在療法。Suramin 在奈莫耳濃度即抑制
+            SIRT1/SIRT2。Cambinol 對伯基特淋巴瘤有效。Salermide 在癌細胞中引起
+            p53 非依賴性凋亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">來源：PMC9805487 ↗</a>
+        </div>
+      </div>
+
+      <!-- 白藜蘆醇與 CAD（Holy Grail） -->
+      <div class="gallery-card" data-cat="pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/978b/3613783/b88edf62a514/nihms428770f1.jpg"
+               alt="白藜蘆醇對冠狀動脈疾病風險因子的多種影響"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 白藜蘆醇與 CAD</div>
+          <h3>白藜蘆醇對冠狀動脈疾病風險的影響</h3>
+          <div class="caption">
+            總結白藜蘆醇影響冠狀動脈疾病（CAD）促成因子之可能機制的綜合圖。
+            白藜蘆醇改變大量致動脈粥樣硬化途徑，包括氧化壓力、發炎、脂質代謝、
+            內皮功能與血小板凝集。
+          </div>
+          <div class="context">
+            「法國悖論」——法國人口適度飲酒卻有較低心血管疾病率——推動了白藜蘆醇作為
+            心臟保護多酚的研究。它是已知的 SIRT1 活化劑，具有抗增生與抗發炎特性。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/" target="_blank">來源：PMC3613783 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 受質與化學探針 ==================== -->
+<section id="substrates">
+  <div class="wrap">
+    <h2>受質與化學探針</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      從癌症藥物開發視角出發的 sirtuin 抑制劑與活化劑化學結構——涵蓋透過篩選、
+      合理設計與天然物分析鑑定的多樣骨架。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">"Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets"</a>（2013）
+    </p>
+    <div class="gallery-grid" data-gallery="substrates">
+
+      <!-- Sirtuin 抑制劑（Rejuvenating） -->
+      <div class="gallery-card" data-cat="substrates pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/56bb/3549556/1e5fbf886c5b/CPD-19-614_F2.jpg"
+               alt="sirtuin 抑制劑化學結構：菸鹼醯胺、sirtinol、salermide、cambinol、splitomicin、EX-527、suramin 等"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · 抑制劑</div>
+          <h3>Sirtuin 抑制劑化學空間</h3>
+          <div class="caption">
+            sirtuin 抑制劑的結構多樣性涵蓋：菸鹼醯胺（內源性產物抑制劑）、sirtinol、
+            salermide、cambinol、splitomicin、激酶抑制劑（Ro31-8220、GW5074）、
+            EX-527（奈莫耳級選擇性 SIRT1 抑制劑）、suramin（奈莫耳級雙重 SIRT1/SIRT2）
+            與 NF675（20 倍 SIRT1 選擇性）。
+          </div>
+          <div class="context">
+            抑制劑依異構酶與骨架的不同而結合不同的 sirtuin 口袋。EX-527 是已知最強效
+            且具選擇性的 SIRT1 抑制劑。Suramin 佔據菸鹼醯胺核糖口袋（B 口袋）、C 口袋
+            及部分受質結合位（與 SIRT5 共晶）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">來源：PMC3549556 ↗</a>
+        </div>
+      </div>
+
+      <!-- Sirtuin 活化劑（Rejuvenating） -->
+      <div class="gallery-card" data-cat="substrates pharma">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/56bb/3549556/dfb500a61591/CPD-19-614_F3.jpg"
+               alt="sirtuin 活化劑化學結構：白藜蘆醇、白皮杉醇、紫鉚花素、槲皮素、楊梅素、SRT1460、SRT1720、SRT2183"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · 活化劑</div>
+          <h3>Sirtuin 活化化合物（STAC）</h3>
+          <div class="caption">
+            天然多酚活化劑（1–5）：白藜蘆醇、白皮杉醇、紫鉚花素、槲皮素與楊梅素。
+            合成 STAC（6–8）：SRT1460、SRT1720 與 SRT2183——化學多樣性高且比天然化合物
+            更強效。也已有非多酚類異位活化劑的報導。
+          </div>
+          <div class="context">
+            <b>爭議：</b>這些化合物對 SIRT1 的活化常僅以螢光標記受質證實。
+            白藜蘆醇的<i>體內</i>效果可能透過 cAMP–Epac1–AMPK 途徑間接產生，而非直接
+            結合 SIRT1。STAC 所針對的 SIRT1 特定胺基酸已被鑑定——此位點的突變
+            會消除 STAC 反應。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">來源：PMC3549556 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TIER 1 論文（研究缺口建議） ==================== -->
+<section id="research">
+  <div class="wrap">
+    <h2>研究缺口 — 建議（2026 年 8 月 18 日）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      20 張圖表來自 2026 年 8 月 18 日為填補 sirtuin 研究缺口分析
+      （<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md" target="_blank">src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md</a></code>）所建議的十篇 Tier 1 論文：
+      SIRT3 在老化與血管衰老、SIRT5 在心臟代謝與自噬、sirtuin 在粒線體自噬、SIRT7 在細胞衰老
+      與個體老化，以及 SIRT2 在心臟壓力中的角色。所有論文皆開放取用（PMC）；尚未匯入知識庫。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">You &amp; Wang, <i>Int J Biol Sci</i> 2025</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">Dikalova et al., <i>Circ Res</i> 2020</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">Wu et al., <i>Redox Biol</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">Li et al., <i>BMC Cardiovasc Disord</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">Lagunas-Rangel, <i>Mol Cell Biochem</i> 2025</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">Raza et al., <i>Physiol Rev</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">Tran et al., <i>Mol Cell</i> 2025</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">Zhang et al., <i>Cardiovasc Res</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">Yang et al., <i>eLife</i> 2023</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">Grzeczka et al., <i>GeroScience</i> 2025</a>.
+      <span style="color:var(--mute);">註：Pannek 等人 2024（<i>J Med Chem</i>，首款具細胞活性的 SIRT4 抑制劑）
+      無開放取用圖表——見 <a href="https://pubmed.ncbi.nlm.nih.gov/38253001/" target="_blank">PubMed ↗</a>。</span>
+    </p>
+    <div class="rg-summary">
+      <h3>這些論文如何填補各缺口</h3>
+      <p style="margin:0 0 6px;">2026 年 8 月 18 日共建議十篇 Tier 1 論文以填補下列 sirtuin 缺口；本頁圖表與其對應如下。</p>
+      <ul>
+        <li><b>SIRT3 長壽效應未經體內驗證</b> — <span class="partial">部分填補</span>：You &amp; Wang 2025（SIRT3–老化回顧）＋ Dikalova 2020（Sirt3OX 模型）；Sirt3OX 的壽命研究仍是缺失的實驗。</li>
+        <li><b>SIRT5 疾病角色與心臟代謝</b> — <span class="fill">已填補</span>：Wu 2024（CPT2 去琥珀醯化 → FAO）＋ Grzeczka 2025（SIRT5–心臟回顧）。</li>
+        <li><b>SIRT5–自噬</b> — <span class="fill">已填補</span>：Li 2024（TOM1 去琥珀醯化驅動自噬通量；體內 MI 心臟保護）。</li>
+        <li><b>SIRT6/SIRT7 在自噬與粒線體自噬</b> — <span class="fill">已填補</span>：Lagunas-Rangel 2025（sirtuin–粒線體自噬交互作用；PINK1/PARKIN）。</li>
+        <li><b>SIRT7 老化</b> — <span class="fill">已填補</span>：Raza 2024（綜合回顧＋Sirt7-KO 體內老化表型）。</li>
+        <li><b>SIRT7 老化／發炎機制</b> — <span class="fill">已填補</span>：Tran 2025（SIRT7–NUCKS1 染色質軸 → 發炎性 SASP）。</li>
+        <li><b>SIRT7 心血管</b> — <span class="fill">已填補</span>：Zhang 2024（肺動脈高壓中的內皮 SIRT7–KLF4 軸）。</li>
+        <li><b>SIRT2 心臟情境依賴性</b> — <span class="fill">已填補</span>：Yang 2023（衰竭心臟中 SIRT2 上升；AGK2 抑制具保護作用）。</li>
+      </ul>
+      <p class="rg-note" style="margin:8px 0 0;">完整分析中在這些論文之後仍開放的缺口：<b>SIRT3 壽命研究</b>；<b>SIRT4 體內機制與首款 SIRT4 抑制劑</b>（Pannek 2024 無開放取用圖表）；<b>SIRT3/SIRT4 臨床生物標記</b>；<b>直接的 STAC 靶內（on-target）證明</b>。</p>
+    </div>
+    <div class="gallery-grid" data-gallery="research">
+
+      <!-- YOU & WANG 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg"
+               alt="SIRT3 在細胞恆定中的多維調控網路：氧化還原防禦、DNA 修復、細胞凋亡與代謝"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · You &amp; Wang 2025</div>
+          <h3>SIRT3 的多維調控網路</h3>
+          <div class="caption">
+            SIRT3 位於粒線體恆定的中心：(A) 作為氧化還原調節因子，它活化抗氧化酶 MnSOD2、
+            過氧化氫酶（catalase）、GPX 與 PRDX 對抗 ROS；(B) 它透過 NHEJ 路徑與 PARP1、
+            Ku70/80、XRCC1 及 DNA 連接酶 4 協同支持 DNA 修復；(C) 它透過去乙醯化 Bcl-2、
+            延緩細胞色素 c 釋放及下游 caspase 活化來調控細胞凋亡；(D) 它透過促進 TCA 循環活性、
+            脂肪酸氧化、丙酮酸轉為乳酸以及酮體生成，整合代謝通量。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> SIRT3 的長壽主張目前僅建立在相關性的人類 SNP 數據與細胞／小鼠藥理學之上，缺乏直接的功能增益長壽測試。缺口分析（2026 年 8 月 14 日）指出：「至今不存在可直接測試延長壽命的 SIRT3 過度表現基因轉殖小鼠——這是一項關鍵缺口。人類 SNP 與長壽的關聯在不同佇列間不一致。」
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 2025 年領域現況綜合：SIRT3 對粒線體、氧化還原與表觀遺傳具有多模式控制——但至今仍無 SIRT3 過度表現的壽命研究，體內長壽問題仍未解。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">來源：PMC12374834 ↗</a>
+        </div>
+      </div>
+
+      <!-- YOU & WANG 圖 3 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg"
+               alt="SIRT3 在年齡相關疾病中的調控機制：細胞衰老、神經退化、腎臟、心血管、代謝與致癌過程"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · You &amp; Wang 2025</div>
+          <h3>SIRT3 在年齡相關疾病中的作用</h3>
+          <div class="caption">
+            圖 A 將 SIRT3 連結至細胞衰老本身：老化相關的粒線體功能障礙與核不穩定性，
+            受到 SIRT3 對核結構、染色質重塑與蛋白質恆定之控制的對抗，進而影響衰老、
+            幹細胞耗竭與基因體不穩定。其餘圖板涵蓋神經退化與年齡相關聽力損失（B）、
+            腎臟病理（C）、經由 PINK1 介導粒線體自噬的心血管保護（D）、代謝失調（E）
+            與致癌過程（F）。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一核心缺口的疾病層級面向：具體的疾病關聯（細胞衰老、神經退化、心血管、代謝）已被整理成冊，但 SIRT3 功能增益是否在體內延長壽命仍未經測試。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 細胞衰老圖板（A）將 SIRT3 定位為衰老程式的調節者，而非粒線體老化的被動旁觀者——與衰老生物學直接相關。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank">來源：PMC12374834 ↗</a>
+        </div>
+      </div>
+
+      <!-- DIKALOVA 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7e57/7035170/3dc02aaa8f28/nihms-1549189-f0002.jpg"
+               alt="Sirt3 過度表現對抗血管收縮素 II 誘導的高血壓：遙測血壓、內皮依賴性舒張、主動脈超氧化物與一氧化氮"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Dikalova 2020</div>
+          <h3>Sirt3 過度表現對抗血管收縮素 II 高血壓</h3>
+          <div class="caption">
+            全身性 Sirt3 過度表現（Sirt3OX）基因轉殖小鼠——目前最接近的 SIRT3 功能增益模型——
+            接受血管收縮素 II 輸注（0.7 mg/kg/day）：Sirt3OX 小鼠的遙測收縮壓維持低於
+            野生型同窩小鼠（插圖：主動脈 Sirt3 免疫墨點）。Sirt3OX 亦保留了對乙醯膽鹼的
+            內皮依賴性舒張、降低主動脈超氧化物（DHE-HPLC）並維持內皮一氧化氮
+            生物可用性（EPR）。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> Sirt3OX 小鼠是目前最接近的功能增益模型，但從未進行壽命研究——缺口分析指出：「Sirt3OX 小鼠的壽命研究仍是缺失的實驗。」
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 提供 SIRT3 研究中所欠缺的體內功能增益證據——Sirt3 在高血壓壓力下保護血管功能，但此模型尚無壽命數據，「SIRT3 體內長壽」缺口仍然開放。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">來源：PMC7035170 ↗</a>
+        </div>
+      </div>
+
+      <!-- DIKALOVA 圖 6 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7e57/7035170/c3e59af7c9a9/nihms-1549189-f0007.jpg"
+               alt="野生型、Sirt3 基因剔除與 Sirt3 過度表現小鼠主動脈中的 TERT、p21 與 SA-β-gal"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 6 · Dikalova 2020</div>
+          <h3>Sirt3 設定血管衰老標記</h3>
+          <div class="caption">
+            6 個月大野生型、Sirt3<sup>−/−</sup> 與 Sirt3OX 小鼠主動脈中 TERT、p21 與 SA-β-gal
+            的西方墨點：Sirt3 剔除提高 p21 與 SA-β-gal，同時降低端粒酶逆轉錄酶（TERT）；
+            Sirt3 過度表現則逆轉此模式。Sirt3<sup>−/−</sup> 小鼠的基礎收縮壓亦升高。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口加上血管衰老面向：SIRT3 與組織衰老表型（SA-β-gal、p21）的關聯先前僅有相關性支持。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> sirtuin 與血管壁衰老表型之間的直接連結——SA-β-gal 與 p21 是血管老化的經典衰老標記。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7035170/" target="_blank">來源：PMC7035170 ↗</a>
+        </div>
+      </div>
+
+      <!-- WU 圖 7 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3310/11091707/398e3181ddb6/gr7.jpg"
+               alt="整合代謝體學與琥珀醯體學鑑定 CPT2 為 SIRT5 在脂肪酸氧化中的功能性琥珀醯化受質"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 7 · Wu 2024</div>
+          <h3>琥珀醯體學鎖定 CPT2 為 SIRT5 的脂肪酸氧化受質</h3>
+          <div class="caption">
+            糖尿病（HFD/STZ）心臟的整合代謝體學與琥珀醯體學：Sirt5<sup>−/−</sup> 心肌出現
+            數百條過度琥珀醯化的胜肽，富集於粒線體脂肪酸氧化（FAO）酶（KEGG）。
+            分析流程圖（D）與表格（E）收斂至 CPT2；免疫沉澱證實 Sirt5<sup>−/−</sup> 心臟中
+            CPT2 琥珀醯化增加，同時 CPT2 酶活性下降。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT5 在疾病中研究不足」：SIRT5 在心臟纖維化、冠狀動脈疾病、高血壓與動脈粥狀硬化中的特異性機制「仍需進一步研究」，SIRT5 與胰島素敏感性正相關的生物學意義「仍有待確認」（2026 年 8 月 14 日缺口分析）。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> SIRT5 透過去琥珀醯化 CPT2 維持脂肪酸氧化，防止脂毒性心肌病變——[[CPT2]] 建議作為知識庫新實體筆記。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">來源：PMC11091707 ↗</a>
+        </div>
+      </div>
+
+      <!-- WU 圖 8 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3310/11091707/a4c04f0bdf0f/gr8.jpg"
+               alt="CPT2 Lys424 琥珀醯化驅動心臟脂毒性：質譜、同源性、K424R 挽救酶活性、FAO 與脂質累積"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 8 · Wu 2024</div>
+          <h3>CPT2 Lys424 琥珀醯化驅動心臟脂毒性</h3>
+          <div class="caption">
+            質譜鑑定 Lys424 為 CPT2 上的關鍵琥珀醯化位點（跨物種保守）。在 Sirt5<sup>−/−</sup>
+            心臟中腺病毒表現抗琥珀醯化的 CPT2 K424R 突變體，可恢復 CPT2 活性、
+            挽救 Seahorse 測量的 FAO，並減少棕櫚酸壓力下心肌細胞的脂滴與三酸甘油酯含量。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一缺口——先前僅有相關性連結，缺少機制性因果證明（哪個殘基、哪個酶步驟）。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> K424R 挽救是因果性證明——單一琥珀醯化位點介導 SIRT5 依賴的 FAO 控制在糖尿病心肌病變中的角色，是機制性而非僅相關性的填補。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11091707/" target="_blank">來源：PMC11091707 ↗</a>
+        </div>
+      </div>
+
+      <!-- LI 圖 3 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de1e/11363360/5f7622b9d396/12872_2024_4120_Fig3_HTML.jpg"
+               alt="SIRT5 與 TOM1 交互作用並降低心肌細胞中 K48 位點的琥珀醯化"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Li 2024</div>
+          <h3>SIRT5 在 K48 位點去琥珀醯化 TOM1</h3>
+          <div class="caption">
+            在缺氧／復氧（H/R）損傷的心肌細胞中，SIRT5 過度表現降低、knockdown 提高 TOM1
+            琥珀醯化；外源與內源性共免疫沉澱顯示 SIRT5–TOM1 直接交互作用。琥珀醯化位點
+            定位至 K48，K48R 突變體消除了 SIRT5 依賴的 TOM1 蛋白穩定性調控（CHX 追蹤）。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「自噬／粒線體自噬」缺口：「粒線體 sirtuin（SIRT3–5）對自噬的機制仍不清楚」——心臟中缺乏已知的 SIRT5 特異性自噬靶點。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 心臟中首個機制性 SIRT5–自噬連結——TOM1 去琥珀醯化將 SIRT5 耦聯至自噬通量；[[TOM1]] 建議作為新實體筆記。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">來源：PMC11363360 ↗</a>
+        </div>
+      </div>
+
+      <!-- LI 圖 5 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de1e/11363360/2f524977756c/12872_2024_4120_Fig5_HTML.jpg"
+               alt="SIRT5 在體內 MI 模型中減輕心肌損傷：TTC 梗塞染色、HE 組織學與自噬標記西方墨點"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · Li 2024</div>
+          <h3>SIRT5 在體內減輕心肌損傷</h3>
+          <div class="caption">
+            在大鼠心肌梗塞／缺血再灌流損傷模型中，SIRT5 過度表現縮小 TTC 染色的梗塞區域
+            並改善心肌組織學（H&amp;E）。四個治療組的西方墨點顯示 SIRT5 提高 TOM1 與
+            LC3-II/I 比值，同時降低 TOM1-succ 與 p62——與損傷心肌中的自噬活化一致。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT5–自噬缺口——缺少體內（整體心臟）驗證步驟。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 體內驗證 SIRT5 的去琥珀醯酶活性可轉化為心臟保護，將 SIRT5–自噬軸連結至心臟粒線體自噬與 sirtuin–心臟疾病文獻。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11363360/" target="_blank">來源：PMC11363360 ↗</a>
+        </div>
+      </div>
+
+      <!-- LAGUNAS-RANGEL 圖 2 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c6ce/12594717/0ac08a126bf6/11010_2025_5358_Fig2_HTML.jpg"
+               alt="正向調節粒線體自噬的 sirtuin：SIRT1、SIRT3 與 SIRT6，經由 FOXO、TFAM、PARKIN 招募與 AMPK"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Lagunas-Rangel 2025</div>
+          <h3>促進粒線體自噬的 Sirtuin</h3>
+          <div class="caption">
+            正向調節者：SIRT1 活化 FOXO1/FOXO3 以誘導粒線體降解基因；SIRT3 透過 FOXO3
+            增強粒線體自噬、去乙醯化 TFAM（TFAM 與 LC3 交互作用以啟動粒線體自噬體形成），
+            並藉由促進 HK2 與 VDAC1 解離及去乙醯化 ATP5IF1 支持 PARKIN 招募；SIRT6 則
+            間接透過活化 AMPK 進而活化 FOXO3。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT6/SIRT7 在自噬與粒線體自噬」：SIRT6 促進自噬的機制「仍需進一步研究」；SIRT7 在自噬中的角色不一致且研究不足——缺乏 sirtuin–粒線體自噬交互作用的系統性記述。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 正向調節粒線體自噬之 sirtuin（SIRT1/3/6 經由 FOXO、TFAM、PARKIN 招募、AMPK）的系統性綜述——PINK1/[[PARKIN]] 軸建議作為新實體筆記。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">來源：PMC12594717 ↗</a>
+        </div>
+      </div>
+
+      <!-- LAGUNAS-RANGEL 圖 4 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c6ce/12594717/b1f2f1761876/11010_2025_5358_Fig4_HTML.jpg"
+               alt="sirtuin 在粒線體自噬中的差異角色與亞細胞定位：SIRT1、SIRT3、SIRT6 正向；SIRT2、SIRT4、SIRT5、SIRT7 抑制"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · Lagunas-Rangel 2025</div>
+          <h3>Sirtuin 在粒線體自噬中的差異角色</h3>
+          <div class="caption">
+            家族層級圖譜：SIRT1、SIRT3 與 SIRT6 通常是粒線體自噬的正向調節者，而 SIRT2、
+            SIRT4、SIRT5 與 SIRT7 較常限制之。圖中繪製各 sirtuin 的亞細胞定位
+            （核、細胞質、粒線體），凸顯區室特異性功能。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一粒線體自噬缺口，加上家族失衡：「SIRT2 與 SIRT7 在代謝中的研究遠少於 SIRT1/3/6。」
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 此極性圖譜直接指引研究不足之異構酶的缺口——SIRT4 與 SIRT7 是機制細節「仍需進一步研究」的抑制節點。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12594717/" target="_blank">來源：PMC12594717 ↗</a>
+        </div>
+      </div>
+
+      <!-- RAZA 圖 2 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c5fd/11281815/ac519e2af930/physrev.00044.2022_f002.jpg"
+               alt="老化使 SIRT7 在全身組織與幹細胞中的表現與活性下降"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Raza 2024</div>
+          <h3>老化使 SIRT7 在全身組織中下降</h3>
+          <div class="caption">
+            老化降低多種組織與細胞類型中的 SIRT7 表現與活性——腦、心臟、肺、肝、結腸、
+            皮膚、白血球，以及幹細胞（毛囊幹細胞、造血幹細胞與神經幹細胞）。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> SIRT7 是老化研究中最不被了解的 sirtuin——「SIRT2 與 SIRT7 在代謝中的研究遠少於 SIRT1/3/6」；知識庫中沒有專門的 SIRT7 綜合性回顧。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 「SIRT7 在老化中研究不足」缺口的錨定證據——SIRT7 下降是個體老化的保守特徵，促成其在細胞衰老中的研究。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">來源：PMC11281815 ↗</a>
+        </div>
+      </div>
+
+      <!-- RAZA 圖 10 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c5fd/11281815/aabc10d7d5bd/physrev.00044.2022_f010.jpg"
+               alt="Sirt7 缺失加速小鼠老化，壽命縮短且多器官缺陷"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 10 · Raza 2024</div>
+          <h3>Sirt7 缺失加速小鼠老化</h3>
+          <div class="caption">
+            Sirt7 基因剔除小鼠提早老化，且伴隨疾病相關的較短壽命；腦、心臟、肝、腎、
+            脂肪組織、結腸、骨骼、生殖器官、血液、毛髮與耳朵均可觀察到缺陷與疾病。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT7 缺口——SIRT7 功能缺失是否在體內造成老化表型，缺乏集中整理。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> SIRT7 的體內老化證據——與 SIRT3 不同，SIRT7 缺失在小鼠中具有壽命表型，是知識庫 sirtuin 長壽筆記中的關鍵對比。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11281815/" target="_blank">來源：PMC11281815 ↗</a>
+        </div>
+      </div>
+
+      <!-- TRAN 圖 4 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a807/12225685/84e6d6ae707d/nihms-2085594-f0005.jpg"
+               alt="衰老期間 SIRT7 缺失促進 IMR90 纖維母細胞中 NUCKS1 乙醯化與染色質結合"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · Tran 2025</div>
+          <h3>衰老中 SIRT7 缺失使 NUCKS1 進入染色質</h3>
+          <div class="caption">
+            在 IMR90 纖維母細胞中，SIRT7 與 HMG-box 轉錄因子 NUCKS1 免疫沉澱。在依託泊苷
+            誘導的衰老——SIRT7 被 E3 連接酶 TRIP12 降解——時，NUCKS1 轉位至細胞核與
+            染色質（免疫螢光、區室蛋白質體學、染色質分餾），並與 NUCKS1 乙醯化增加相關。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「發炎」缺口：SIRT 耗竭是否為發炎相關疾病的常見病理變化、「SIRTs 在發炎反應中的角色仍未完全定義」——SIRT7 在衰老中的染色質機制此前未被定義。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 衰老表觀基因體的分子解釋——衰老期間 SIRT7 缺失促進 NUCKS1 乙醯化與染色質結合；[[NUCKS1]] 建議作為新實體筆記。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">來源：PMC12225685 ↗</a>
+        </div>
+      </div>
+
+      <!-- TRAN 圖 5 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a807/12225685/77361e1fbbb1/nihms-2085594-f0006.jpg"
+               alt="NUCKS1 耗竭延遲依託泊苷誘導的衰老並降低發炎性 SASP 基因表現"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · Tran 2025</div>
+          <h3>NUCKS1 耗竭延遲衰老</h3>
+          <div class="caption">
+            在 IMR90 細胞中 knockdown NUCKS1 可降低依託泊苷處理後的 β-半乳糖苷酶陽性，
+            並降低 IL-8 表現；RNA-seq 顯示 2,738 個差異表現基因富集於 NF-κB（RELA）與
+            CEBPβ 靶點，而 NUCKS1 乙醯化模擬突變體提高 IL-6、IL-8 與 MMP3。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT7–發炎缺口——SIRT7 與發炎性 SASP 的關係停留在相關性，缺少因果性證明。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 功能性證明 SIRT7–NUCKS1 軸驅動發炎性 SASP——sirtuin–衰老研究的核心主題——且 SIRT7 缺失是衰老的觸發因素而非後果。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12225685/" target="_blank">來源：PMC12225685 ↗</a>
+        </div>
+      </div>
+
+      <!-- ZHANG 圖形摘要 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ef3e/10981524/ce5e1c44ad36/cvae011_ga.jpg"
+               alt="肺動脈內皮細胞中的 SIRT7-KLF4 軸：K228 去乙醯化穩定 KLF4；SIRT7 缺失在肺動脈高壓中驅動 KLF4 降解"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖形摘要 · Zhang 2024</div>
+          <h3>內皮恆定中的 SIRT7–KLF4 軸</h3>
+          <div class="caption">
+            在健康的肺動脈內皮細胞中，SIRT7 在 K228 位點去乙醯化 KLF4 使其穩定，維持
+            內皮恆定與肺血管功能。在肺動脈高壓中，SIRT7 減少、KLF4 乙醯化上升，
+            KLF4 被泛素化降解——驅動內皮功能障礙與血管重塑。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「心血管」缺口：「SIRT2/4/5/7 在心臟衰竭、心肌梗塞／再灌流、高血壓、冠狀動脈疾病與動脈粥狀硬化中的研究有限，相關分子機制仍需進一步探索」——血管疾病中缺乏已定義的組織特異性 SIRT7 機制。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 明確的組織特異性 SIRT7 機制——連結至既有的 [[Klf4]] 實體筆記，並以可治療的軸填補「SIRT7 心血管」缺口。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">來源：PMC10981524 ↗</a>
+        </div>
+      </div>
+
+      <!-- ZHANG 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ef3e/10981524/6d84a38f4f9e/cvae011f1.jpg"
+               alt="SIRT7 缺失加劇肺動脈高壓：患者 GEO 數據、SuHx 小鼠模型、Sirt7 基因剔除與 AAV-shSirt7"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Zhang 2024</div>
+          <h3>SIRT7 缺失加劇肺動脈高壓</h3>
+          <div class="caption">
+            肺動脈高壓患者肺組織中的 SIRT7 mRNA 降低（GEO 資料集 GSE113439、GSE117261），
+            Sugen5416/低氧（SuHx）小鼠肺中亦同。Sirt7 基因剔除與內皮靶向 AAV-shSirt7
+            knockdown 使 SuHx 小鼠的右心室收縮壓、Fulton 指數與肺動脈壁厚度惡化。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT7 心血管缺口——需要 SIRT7 在肺動脈高壓中的因果性（而非僅相關性）證據。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 人類＋小鼠證據顯示 SIRT7 缺失在肺動脈高壓中具因果性——以功能缺失與功能增益數據（AAV-Sirt7 遞送與 NR 治療可逆轉表型）填補 SIRT7 心血管缺口。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10981524/" target="_blank">來源：PMC10981524 ↗</a>
+        </div>
+      </div>
+
+      <!-- YANG 圖 1 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/acb8/10558204/fadb91c8205c/elife-85571-fig1.jpg"
+               alt="橫主動脈縮窄後小鼠心臟及擴張型或缺血性心肌病變衰竭人類心臟中 SIRT2 含量上升"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Yang 2023</div>
+          <h3>衰竭人類心臟中 SIRT2 升高</h3>
+          <div class="caption">
+            橫主動脈縮窄（TAC）後小鼠心臟中的 SIRT1、SIRT2、SIRT3 與 SIRT6 含量：
+            SIRT2 上升，而其他 sirtuin 沒有。與健康對照相比，擴張型心肌病與缺血性
+            心臟衰竭患者的移植心臟中 SIRT2 蛋白亦增加。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT2 情境依賴性」：「SIRT2 在心臟收縮力、細胞凋亡、增生與纖維化中跨細胞類型的相反角色需要釐清；其在生理／病理條件下心臟收縮功能中的確切角色尚未定義。」
+          </div>
+          <div class="context">
+            <b>填補方式：</b> SIRT2 是衰竭人類心臟中唯一持續升高的 sirtuin，支持其心臟壓力下的適應不良角色——與情境依賴性缺口直接相關。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">來源：PMC10558204 ↗</a>
+        </div>
+      </div>
+
+      <!-- YANG 圖 6 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/acb8/10558204/99beca2f0888/elife-85571-fig6.jpg"
+               alt="Nrf2 剔除逆轉 Sirt2 基因剔除保護；AGK2 SIRT2 抑制保護心臟免於肥大"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 6 · Yang 2023</div>
+          <h3>Nrf2 剔除逆轉保護；AGK2 保護心臟</h3>
+          <div class="caption">
+            缺血再灌流後，Sirt2<sup>−/−</sup> 小鼠的射血分數與縮短分率較佳，但在
+            Sirt2<sup>−/−</sup>/Nrf2<sup>−/−</sup> 雙重剔除中回復至野生型水準——Nrf2 是
+            保護性中介因子。以選擇性 SIRT2 抑制劑 AGK2（40 mg/kg，每週兩次，方案見 C）
+            進行藥理抑制，改善了 TAC 後心臟重塑的超音波指標。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT2 缺口——選擇性 SIRT2 抑制劑（AGK2）在肥大模型中的藥理學測試此前未進行。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 藥理學部分填補治療面——以 AGK2 進行 SIRT2 抑制（不僅是基因剔除）可防止肥大與適應不良重塑。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10558204/" target="_blank">來源：PMC10558204 ↗</a>
+        </div>
+      </div>
+
+      <!-- GRZECZKA 圖 2 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f69e/12972463/136a4c711577/11357_2025_2021_Fig2_HTML.jpg"
+               alt="SIRT5 網路中異常翻譯後修飾的後果：SOD1、SDHA、GCDH 與 GAPDH"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Grzeczka 2025</div>
+          <h3>SIRT5 的翻譯後修飾網路及其失靈</h3>
+          <div class="caption">
+            SIRT5 受質網路中異常翻譯後修飾後果的圖解：SOD1（超氧化物歧化酶 1）調控失敗
+            削弱抗氧化防禦；SDHA（琥珀酸脫氫酶次單元 A）與 GCDH（戊二醯輔酶 A 脫氫酶）
+            缺陷降低 ATP 生成；GAPDH 失調擾亂碳水化合物代謝。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 「SIRT5 在心臟疾病中研究不足」——缺乏專門的 SIRT5–心臟綜合整理；文獻中的證據散落於各篇論文。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 綜述層級綜合——SIRT5 的去琥珀醯酶／去丙二醯酶／去戊二醯酶網路是心臟能量恆定的核心。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">來源：PMC12972463 ↗</a>
+        </div>
+      </div>
+
+      <!-- GRZECZKA 圖 3 -->
+      <div class="gallery-card" data-cat="research">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f69e/12972463/a5054fbac2d3/11357_2025_2021_Fig3_HTML.jpg"
+               alt="心肌梗塞示意圖：病因、風險因子、類型、症狀與心肌壞死的發展"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Grzeczka 2025</div>
+          <h3>心肌梗塞：從風險因子到壞死</h3>
+          <div class="caption">
+            心肌梗塞之病因、風險因子、類型與症狀的示意圖，底部顯示心肌細胞壞死的發展——
+            即 SIRT5 心臟保護作用所在的臨床脈絡。
+          </div>
+          <div class="gap">
+            <b>研究缺口：</b> 同一 SIRT5–心臟缺口——機制論文缺少明確的臨床脈絡（心肌梗塞）。
+          </div>
+          <div class="context">
+            <b>填補方式：</b> 將 SIRT5 機制論文（CPT2、TOM1）置於臨床心肌梗塞景觀中——知識庫心臟 sirtuin 筆記所著重之疾病終點。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12972463/" target="_blank">來源：PMC12972463 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 文獻索引 ==================== -->
+<section id="library">
+  <div class="wrap">
+    <h2>文獻索引 — <code>src/notes/sirtuins/</code> 目錄</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      本頁同時作為 llm-wiki-jk 知識庫中 sirtuins 主題文獻的索引：下方列出
+      <code>src/notes/sirtuins/</code> 目錄內的<b style="color:var(--text)">全部 15 份來源文獻</b>
+      （標準索引：<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/README.md" target="_blank">src/notes/sirtuins/README.md</a></code>）。上方圖庫中的每張圖表皆出自
+      帶星號（★）的文獻，或出自<a href="#research">「研究缺口」章節</a>（待匯入，
+      2026 年 8 月 18 日建議）。
+    </p>
+    <div class="pill-row" style="margin-top:14px;">
+      <span class="badge teal">15 份文獻</span>
+      <span class="badge">7 份知識庫圖表來源 ★ · 10 篇 Tier 1 論文</span>
+      <span class="badge">8 篇 PMC 綜述</span>
+      <span class="badge">3 篇 AI 對話筆記</span>
+    </div>
+    <div class="tbl-wrap" style="margin-top:16px;">
+      <table>
+        <thead>
+          <tr>
+            <th style="width:36%;">文獻</th>
+            <th>引用</th>
+            <th style="width:8%;">圖表</th>
+            <th style="width:17%;">來源</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Michan &amp; Sinclair 2007</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md" target="_blank">_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">哺乳類 sirtuin 生物學的奠基綜述。</span>
+            </td>
+            <td style="white-space:normal;">Michan &amp; Sinclair, <i>Biochem J.</i> 404(1):1–13 (2007)</td>
+            <td>6 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1042/BJ20070140" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2753453/" target="_blank">PMC2753453 ↗</a>&nbsp;<span style="color:var(--mute);">· 存放於知識庫的 PDF</span></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Berrougui et al., Atherosclerosis 2009</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20berrougui2009_resveratrol_as_atheroprotective_compound.md" target="_blank">_document_ - berrougui2009_resveratrol_as_atheroprotective_compound.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">白藜蘆醇作為抗動脈粥狀硬化化合物——脂蛋白氧化與 ABCA1 介導的膽固醇外流。</span>
+            </td>
+            <td style="white-space:normal;">Berrougui et al., <i>Atherosclerosis</i> 207:420–427 (2009)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><span style="color:var(--mute);">存放於知識庫的 PDF</span></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>The Sirtuin System: The Holy Grail of Resveratrol?</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20The%20Sirtuin%20System%20The%20Holy%20Grail%20of%20Resveratrol%3F.md" target="_blank">_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">白藜蘆醇藥理、sirtuin 系統與心血管疾病。</span>
+            </td>
+            <td style="white-space:normal;">Mohar &amp; Malik, <i>J. Clin. Exp. Cardiolog.</i> 3(11):216 (2012)</td>
+            <td>1 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/" target="_blank">PMC3613783 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Rejuvenating Sirtuins: Cancer Drug Targets</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Rejuvenating%20Sirtuins%20The%20Rise%20of%20a%20New%20Family%20of%20Cancer%20Drug%20Targets.md" target="_blank">_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">sirtuin 作為癌症藥物靶點——抑制劑骨架、STAC 與篩選試驗。</span>
+            </td>
+            <td style="white-space:normal;">Bruzzone et al., <i>Curr. Pharm. Des.</i> 19(4):614–623 (2013)</td>
+            <td>3 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3549556/" target="_blank">PMC3549556 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuins: Guardians of Mammalian Healthspan</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20Guardians%20of%20Mammalian%20Healthspan.md" target="_blank">_document_ - Sirtuins Guardians of Mammalian Healthspan.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">SIRT1/SIRT3/SIRT6 作為老化特徵中健康壽命的守護者。</span>
+            </td>
+            <td style="white-space:normal;">Giblin et al., <i>Trends Genet.</i> 30(7):271–286 (2014)</td>
+            <td>3 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4077918/" target="_blank">PMC4077918 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuins: A Promising Target in Slowing Ageing</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%2C%20a%20promising%20target%20in%20slowing%20down%20the%20ageing%20process.md" target="_blank">_document_ - Sirtuins, a promising target in slowing down the ageing process.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">sirtuin 在染色質、DNA 修復與衰老中的角色；薑黃素作為候選調節劑。</span>
+            </td>
+            <td style="white-space:normal;">Grabowska et al., <i>Biogerontology</i> 18(4):447–476 (2017)</td>
+            <td>1 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/" target="_blank">PMC5514220 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuins and their Biological Relevance in Aging and Age-Related Diseases</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md" target="_blank">_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">sirtuin 在老化與年齡相關疾病中的生物學；sirtuin 靶向藥物發展。</span>
+            </td>
+            <td style="white-space:normal;">Zhao et al., <i>Aging Dis.</i> (2020)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7390530/" target="_blank">PMC7390530 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuins in Health and Disease</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md" target="_blank">_document_ - sirtuins in health and disease s41392-022-01257-8.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">sirtuin 家族在癌症、心血管、呼吸、消化與神經系統疾病中的角色。</span>
+            </td>
+            <td style="white-space:normal;">Wu et al., <i>Signal Transduct. Target Ther.</i> 7:402 (2022)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1038/s41392-022-01257-8" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Comprehensive Sirtuin Review — Shedding light on structure</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20Shedding%20light%20on%20structure%2C%20function%20and%20regulation%20of%20human%20sirtuins%20a%20comprehensive%20review.md" target="_blank">_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">七種人類 sirtuin 的結構、功能與調控；天然與合成調節劑。</span>
+            </td>
+            <td style="white-space:normal;">Sharma et al., <i>3 Biotech</i> 13(1):29 (2023)</td>
+            <td>8 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9805487/" target="_blank">PMC9805487 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>SIRT1: Protein Roles at the Nexus</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20SIRT1%20Protein%20roles%20at%20the%20nexus%20of%20health%2C%20disease%2C%20and%20therapeutics.md" target="_blank">_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">SIRT1 作為情境依賴的「變形者」，串聯代謝、心血管、神經血管與致癌過程。</span>
+            </td>
+            <td style="white-space:normal;">Chaqour, <i>J. Cell Commun. Signal.</i> (2026)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1002/ccs3.70086" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuin Network (Szczęsny-Małysiak et al.)</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20The%20Sirtuin%20Network%20Linking%20NAD%2B%20Metabolism%2C%20Mitochondrial%20Function%2C%20and%20Metabolic%20Homoeostasis.md" target="_blank">_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">肥胖、T2DM、MASLD 與心臟代謝疾病中的區室化 NAD<sup>+</sup>-依賴 sirtuin 網路。</span>
+            </td>
+            <td style="white-space:normal;">Szczęsny-Małysiak et al., <i>Diabetes Metab. Res. Rev.</i> 42(5):e70201 (2026)</td>
+            <td>2 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13364290/" target="_blank">PMC13364290 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Centenarian SIRT6 Variants Study</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20centenarian_SIRT6%20nihpp-rs9997679v1.md" target="_blank">_document_ - centenarian_SIRT6 nihpp-rs9997679v1.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">長壽者 SIRT6 變異（N308K/A313S）——vimentin、衰老抗性與早衰症。</span>
+            </td>
+            <td style="white-space:normal;">Suh et al., <i>Research Square</i> preprint (2026)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.21203/rs.3.rs-9997679/v1" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuins CD38 KO, Cancer Therapies (Grok)</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md" target="_blank">_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">AI 綜述——sirtuin 生物學、CD38 剔除風險與新興癌症療法。</span>
+            </td>
+            <td style="white-space:normal;">Grok 對話筆記（2026）</td>
+            <td>—</td>
+            <td style="white-space:normal;"><span style="color:var(--mute);">AI 對話筆記</span></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>RCM Hypothesis (Grok)</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20relocalization%20of%20sirtuins%20-%20chromatin%20modifiers%2C%20grok.md" target="_blank">_document_ - relocalization of sirtuins - chromatin modifiers, grok.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">染色質修飾因子再定位（RCM）假說與老化資訊理論（Sinclair 實驗室）。</span>
+            </td>
+            <td style="white-space:normal;">Grok 摘要，源自 Yang &amp; Sinclair et al., <i>Cell</i> 186:1507 (2023)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://x.com/i/grok?conversation=2070368639329685677" target="_blank">x.com ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Sirtuins &amp; Resveratrol (Gemini)</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md" target="_blank">_document_ - sirtuins (resveratrol), gemini.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">白藜蘆醇–SIRT1 活化、SIRT2–SIRT7 調節劑、膳食來源與劑量。</span>
+            </td>
+            <td style="white-space:normal;">Gemini 對話筆記（2026）</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C" target="_blank">AI Studio ↗</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <p class="sub" style="font-size:.78rem; margin-top:10px;">
+      ★ = 上方圖庫圖表的來源文獻 · AI 對話筆記為匯入知識庫的 AI 生成摘要
+      （12 份科學來源 + 3 篇 AI 筆記 = 15 份文獻）。
+    </p>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="gallery-lightbox" id="galleryLightbox" onclick="closeLightbox()">
+  <button class="gallery-lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+  <div class="gallery-lightbox-cap" id="lightboxCap"></div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><b>資料來源</b></p>
+    <p>
+      1. Kumari et al., <i>Sirtuins: Shedding light on structure, function and regulation of human sirtuins</i> (2023) — PMC9805487<br>
+      2. Srivastava et al., <i>The Sirtuin Network: Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis</i> (2025) — PMC13364290<br>
+      3. Worm &amp; Bhatt, <i>The Sirtuin System: The Holy Grail of Resveratrol?</i> (2012) — PMC3613783<br>
+      4. Grabowska et al., <i>Sirtuins, a promising target in slowing down the ageing process</i> (2017) — PMC5514220<br>
+      5. Rotili &amp; Mai, <i>Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets</i> (2013) — PMC3549556<br>
+      6. Giblin et al., <i>Sirtuins: Guardians of Mammalian Healthspan</i> (2014) — PMC4077918<br>
+      7. Zhao et al., <i>Sirtuins and their Biological Relevance in Aging and Age-Related Diseases</i> (2020) — PMC7390530<br>
+      8. Michan &amp; Sinclair, <i>Sirtuins in mammals: insights into their biological function</i> (2007) — PMC2753453<br>
+      9. You &amp; Wang, <i>Roles of SIRT3 in aging and aging-related diseases</i>, Int. J. Biol. Sci. 21(11):5135–5163 (2025) — PMC12374834<br>
+      10. Dikalova et al., <i>Mitochondrial Deacetylase Sirt3 Reduces Vascular Dysfunction and Hypertension While Sirt3 Depletion in Essential Hypertension Is Linked to Vascular Inflammation and Interrupted Vascular Nitric Oxide</i>, Circ. Res. 126(4):439–452 (2020) — PMC7035170<br>
+      11. Wu et al., <i>Sirt5 improves cardiomyocytes fatty acid metabolism and ameliorates cardiac lipotoxicity in diabetic cardiomyopathy via CPT2 de-succinylation</i>, Redox Biol. 73:103184 (2024) — PMC11091707<br>
+      12. Li et al., <i>SIRT5 induces autophagy and alleviates myocardial infarction via desuccinylation of TOM1</i>, BMC Cardiovasc. Disord. 24:464 (2024) — PMC11363360<br>
+      13. Lagunas-Rangel, <i>Sirtuins in mitophagy: key gatekeepers of mitochondrial quality</i>, Mol. Cell. Biochem. 480(12):5877–5896 (2025) — PMC12594717<br>
+      14. Raza et al., <i>SIRT7: the seventh key to unlocking the mystery of aging</i>, Physiol. Rev. 104(1):253–280 (2024) — PMC11281815<br>
+      15. Tran et al., <i>SIRT7 regulates NUCKS1 chromatin binding to elicit metabolic and inflammatory gene expression in senescence and liver aging</i>, Mol. Cell 85:2390–2408.e6 (2025) — PMC12225685<br>
+      16. Zhang et al., <i>Endothelium-specific SIRT7 targeting ameliorates pulmonary hypertension through Krüppel-like factor 4 deacetylation</i>, Cardiovasc. Res. 120(4):403–416 (2024) — PMC10981524<br>
+      17. Yang et al., <i>SIRT2 inhibition protects against cardiac hypertrophy and ischemic injury</i>, eLife 12:e85571 (2023) — PMC10558204<br>
+      18. Grzeczka et al., <i>Unveiling the importance of SIRT5 for cardiac health and disease in an era of increasing longevity</i>, GeroScience 48(2):2101–2121 (2025) — PMC12972463
+    </p>
+    <p style="margin-top:10px; color:var(--mute);">
+      所有圖像皆來自開放取用的出版品（PMC、Elsevier、AHA、eLife）。來源 9–18 為
+      2026 年 8 月 18 日建議以填補研究缺口的 Tier 1 sirtuin 論文——待匯入
+      <code>src/notes/sirtuins/</code>。圖庫由 <code>src/notes/sirtuins/</code>
+      中的 wiki 筆記生成。為 llm-wiki-jk 知識圖譜建置。
+    </p>
+  </div>
+</footer>
+
+<script src="shared/pages-core.js"></script>
+<script>
+/* ===== Gallery lightbox ===== */
+(function(){
+  /* lightbox */
+  window.openLightbox = function(src, alt) {
+    const lb = document.getElementById('galleryLightbox');
+    const img = document.getElementById('lightboxImg');
+    const cap = document.getElementById('lightboxCap');
+    img.src = src;
+    img.alt = alt || '';
+    cap.textContent = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  };
+  window.closeLightbox = function() {
+    const lb = document.getElementById('galleryLightbox');
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+</body>
+</html>

@@ -42,7 +42,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Epinephrine (4), Adrenochrome (4), Adrenochrome formation (3), Oxidative Stress (2), PGC1α (2)            |
 | Top predicates    | is (9), promotes (4), activates (4), induces (3), causes (3)                                              |
 
-<img src="triples/_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%">
+<img src="_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%">
 
 ---
 
@@ -60,7 +60,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3) |
 | Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)    |
 
-<img src="triples/_triples_autophagy.svg" alt="autophagy triples" width="100%">
+<img src="_triples_autophagy.svg" alt="autophagy triples" width="100%">
 
 ---
 
@@ -78,7 +78,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3) |
 | Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                            |
 
-<img src="triples/_triples_comt.svg" alt="comt triples" width="100%">
+<img src="_triples_comt.svg" alt="comt triples" width="100%">
 
 ---
 
@@ -96,7 +96,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Epinephrine (4), Adrenochrome (4), Adrenochrome formation (3), Oxidative Stress (2), PGC1α (2)            |
 | Top predicates    | is (9), promotes (4), activates (4), induces (3), causes (3)                                              |
 
-<img src="triples/_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%">
+<img src="_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%">
 
 ---
 
@@ -114,7 +114,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3) |
 | Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)    |
 
-<img src="triples/_triples_autophagy.svg" alt="autophagy triples" width="100%">
+<img src="_triples_autophagy.svg" alt="autophagy triples" width="100%">
 
 ---
 
@@ -132,7 +132,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3) |
 | Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                            |
 
-<img src="triples/_triples_comt.svg" alt="comt triples" width="100%">
+<img src="_triples_comt.svg" alt="comt triples" width="100%">
 
 ---
 
@@ -150,7 +150,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Induced Pluripotent Stem Cells (134), Yamanaka Factors (130), Cancer (123), Cellular Reprogramming (93), Aging (77)                                                                                 |
 | Top predicates    | co_occurs_with (4528), mentions (1803), causes (406), connected_to (322), links_to (90)                                                                                                             |
 
-<img src="triples/_triples_epigenetics.svg" alt="epigenetics triples" width="100%">
+<img src="_triples_epigenetics.svg" alt="epigenetics triples" width="100%">
 
 ---
 
@@ -168,7 +168,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Parkinson's Disease (28), Neuromelanin (25), Dopamine (8), Neuroinflammation (7), Alpha-Synuclein (6) |
 | Top predicates    | bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)             |
 
-<img src="triples/_triples_neuromelanin.svg" alt="neuromelanin triples" width="100%">
+<img src="_triples_neuromelanin.svg" alt="neuromelanin triples" width="100%">
 
 ---
 
@@ -186,7 +186,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | Lipid Peroxidation (9), Superoxide Radicals (8), notes/\_link/Hydrogen Peroxide (7), NF-kappa B (7), notes/\_link/Nitric Oxide (6) |
 | Top predicates    | produces (13), causes (13), activates (11), contributes to (9), reduces (7)                                                        |
 
-<img src="triples/_triples_oxidative_stress.svg" alt="oxidative_stress triples" width="100%">
+<img src="_triples_oxidative_stress.svg" alt="oxidative_stress triples" width="100%">
 
 ---
 
@@ -204,7 +204,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top objects       | SIRT1 (8), Mitochondria (6), NFKB (6), SIRT6 (5), AMPK (4)                          |
 | Top predicates    | deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10) |
 
-<img src="triples/_triples_sirtuins.svg" alt="sirtuins triples" width="100%">
+<img src="_triples_sirtuins.svg" alt="sirtuins triples" width="100%">
 
 #### adrenochrome triples
 
@@ -221,7 +221,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates     | has_type (149), is (9), promotes (4), activates (4), induces (3)                                                                                                                                                        |
 | zh-TW              | 主詞：腎上腺素紅(10)、腎上腺素(4)、白腎上腺素紅(4)、腎上腺素紅假說(4)、變性血紅蛋白(3)；受詞：腎上腺素(4)、腎上腺素紅(4)、腎上腺素紅形成(3)、PGC1α(2)、氧化壓力(2)；謂語：類型為(149)、是(9)、促進(4)、激活(4)、誘導(3) |
 
-<img src="triples/_triples_adrenochrome.svg" alt="Adrenochrome triples" width="100%">
+<img src="_triples_adrenochrome.svg" alt="Adrenochrome triples" width="100%">
 
 ---
 
@@ -240,7 +240,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)                                                                                                        |
 | zh-TW             | 主詞：TFEB(18)、mTORC1(14)、自噬(8)、亞精胺(7)、HLH-30(5)；受詞：自噬(15)、mTORC1(6)、S211位點TFEB(5)、間歇性禁食(3)、衰老(3)；謂語：磷酸化(19)、激活(11)、抑制(10)、調控(8)、誘導(6) |
 
-<img src="triples/_triples_autophagy.svg" alt="Autophagy triples" width="100%">
+<img src="_triples_autophagy.svg" alt="Autophagy triples" width="100%">
 
 ---
 
@@ -259,7 +259,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                                                                                                                         |
 | zh-TW             | 主詞：COMT(15)、Val158Met(9)、D2受體(6)、Met/Met(6)、Val/Val(6)；受詞：COMT(9)、慢COMT替代抗炎劑(3)、前額葉皮層(3)、兒茶酚(3)、工作記憶(3)；謂語：是(29)、與...相關(11)、調節(7)、支持(6)、影響(6) |
 
-<img src="triples/_triples_comt.svg" alt="COMT triples" width="100%">
+<img src="_triples_comt.svg" alt="COMT triples" width="100%">
 
 ---
 
@@ -278,7 +278,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates    | co_occurs_with (4,528), mentions (1,803), causes (406), connected_to (322), links_to (90)                                                                                                                                                                                   |
 | zh-TW             | 主詞：細胞靜止機制與調控(179)、表觀遺傳學與衰老(121)、誘導細胞衰老的小分子化合物(112)、誘導多能幹細胞(96)、OSKM(94)；受詞：誘導多能幹細胞(134)、山中因子(130)、癌症(123)、細胞重編程(93)、衰老(77)；謂語：與...共現(4,528)、提及(1,803)、導致(406)、連接至(322)、鏈接至(90) |
 
-<img src="triples/_triples_epigenetics.svg" alt="Epigenetics triples" width="100%">
+<img src="_triples_epigenetics.svg" alt="Epigenetics triples" width="100%">
 
 ---
 
@@ -297,7 +297,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates    | bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)                                                                                                                             |
 | zh-TW             | 主詞：神經黑色素(35)、自噬(8)、帕金森病(8)、多巴胺(7)、α-突觸核蛋白(4)；受詞：帕金森病(28)、神經黑色素(25)、多巴胺(8)、神經炎症(7)、α-突觸核蛋白(6)；謂語：雙向關聯(104)、是一種(30)、導致(18)、轉化為(12)、結合至(8) |
 
-<img src="triples/_triples_neuromelanin.svg" alt="Neuromelanin triples" width="100%">
+<img src="_triples_neuromelanin.svg" alt="Neuromelanin triples" width="100%">
 
 ---
 
@@ -316,7 +316,7 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates    | produces (13), causes (13), activates (11), contributes to (9), reduces (7)                                                                                                                                   |
 | zh-TW             | 主詞：過氧亞硝酸鹽(11)、氧化壓力(8)、超氧自由基(7)、羥自由基(6)、NADPH氧化酶(6)；受詞：脂質過氧化(9)、超氧自由基(8)、過氧化氫(7)、NF-κB(7)、一氧化氮(6)；謂語：產生(13)、導致(13)、激活(11)、促成(9)、減少(7) |
 
-<img src="triples/_triples_oxidative_stress.svg" alt="Oxidative Stress triples" width="100%">
+<img src="_triples_oxidative_stress.svg" alt="Oxidative Stress triples" width="100%">
 
 ---
 
@@ -335,4 +335,4 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 | Top predicates    | deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)                                                                                                     |
 | zh-TW             | 主詞：SIRT1(65)、SIRT6(25)、白藜蘆醇(25)、SIRT3(19)、SIRT2(14)；受詞：SIRT1(8)、線粒體(6)、NFKB(6)、SIRT6(5)、AMPK(4)；謂語：去乙醯化(53)、抑制(30)、激活(22)、定位至(10)、抑制轉錄(10) |
 
-<img src="triples/_triples_sirtuins.svg" alt="Sirtuins triples" width="100%">
+<img src="_triples_sirtuins.svg" alt="Sirtuins triples" width="100%">

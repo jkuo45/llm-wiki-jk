@@ -26,7 +26,7 @@ SASP is highly heterogeneous and dynamic. Its exact makeup depends on:
 - Stage (acute/transient vs. chronic) and microenvironment.
 	[en.wikipedia.org](https://en.wikipedia.org/wiki/Senescence-associated_secretory_phenotype)
 Core components typically include:
-- Pro-inflammatory cytokines: [[IL-1α]], [[IL-1β]], [[IL-6]], [[IL-8]] (highly conserved and robust markers), [[TNF-α]].
+- Pro-inflammatory cytokines: [[IL-1α]], [[IL-1β]], [[IL-6]], [[IL-8]] (highly conserved and robust markers), [[TNFα]].
 - Chemokines: [[CXCL]] family (e.g., GRO-α, MCPs), attracting immune cells.
 - Growth factors and regulators: [[IGFBPs]], [[VEGF]], [[Amphiregulin]], [[HGF]].
 - Proteases and ECM remodelers: [[MMP-1]], [[MMP-3]], [[MMP-10]], etc., and regulators like [[PAI-1]], [[uPA]].
@@ -119,7 +119,7 @@ SASP components (e.g., Bcl-xL) can themselves contribute to this anti-apoptotic 
 2. SASP Can Induce or Modulate Apoptosis in Neighboring Cells
 
 SASP has paracrine pro-apoptotic effects on some cells while protecting or altering others:
-- Pro-apoptotic/inhibitory effects: Factors like [[IL-6]] and [[TNF-α]] can enhance T-cell apoptosis, impairing adaptive immunity and immune clearance of senescent or cancer cells. SASP can kill neighboring normal cells in some contexts. Certain SASP elements (e.g., IGFBP-7 in melanocytes) induce apoptosis in specific cancer cells.
+- Pro-apoptotic/inhibitory effects: Factors like [[IL-6]] and [[TNFα]] can enhance T-cell apoptosis, impairing adaptive immunity and immune clearance of senescent or cancer cells. SASP can kill neighboring normal cells in some contexts. Certain SASP elements (e.g., IGFBP-7 in melanocytes) induce apoptosis in specific cancer cells.
 	[en.wikipedia.org](https://en.wikipedia.org/wiki/Senescence-associated_secretory_phenotype)
 - Anti-apoptotic or survival-promoting effects: SASP can confer apoptosis resistance to some neighboring cells via paracrine signaling, contributing to therapy resistance or tissue dysfunction. It may shift cell fate from apoptosis toward senescence in damaged cells.
 	[aging-us.com](https://www.aging-us.com/article/100971/text)
@@ -152,7 +152,7 @@ NF-κB (Nuclear Factor kappa-light-chain-enhancer of activated B cells):
 - Structure and activation: NF-κB is a family of dimeric TFs (e.g., p65/RelA, p50) held inactive in the cytoplasm by [[IkappaB]] inhibitors. Upon stimulation, the [[IKK complex]] phosphorylates IκB, leading to its degradation and NF-κB nuclear translocation.
 - In senescence: Persistent DDR, ROS, or cytosolic DNA activates NF-κB. It is often triggered downstream of [[p38 MAPK]], TAK1, or [[cGAS-STING Pathway|cGAS-STING]]. Reduced CK2 (casein kinase 2) levels in senescent cells also promote its activation.
 	[mdpi.com](https://www.mdpi.com/2073-4409/14/13/942)
-- Role in SASP: NF-κB drives transcription of core pro-inflammatory SASP genes ([[IL-6]], [[IL-8]], [[IL-1β]], [[TNF-α]], [[MCP-1]], etc.). It influences more SASP genes than p53 or pRB combined in some models. It also creates positive feedback loops (e.g., via [[IL-1α]]). Silencing NF-κB can suppress SASP and allow senescence bypass in some contexts.
+- Role in SASP: NF-κB drives transcription of core pro-inflammatory SASP genes ([[IL-6]], [[IL-8]], [[IL-1β]], [[TNFα]], [[MCP-1]], etc.). It influences more SASP genes than p53 or pRB combined in some models. It also creates positive feedback loops (e.g., via [[IL-1α]]). Silencing NF-κB can suppress SASP and allow senescence bypass in some contexts.
 	[pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3205583/)
 - Context: It integrates multiple upstream signals (DNA damage, inflammation, oxidative stress) and is central to the pro-inflammatory shift in chronic SASP.
 C/EBPβ (CCAAT/Enhancer-Binding Protein β):

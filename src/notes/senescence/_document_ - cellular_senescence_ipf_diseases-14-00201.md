@@ -114,7 +114,7 @@ Moreover, [[Telomere Attrition|telomere dysfunction]] is closely associated with
 
 [[Mitochondrial Dysfunction|Mitochondrial dysfunction]] is a defining feature of senescent epithelial cells in IPF. Reduced expression of [[PINK1]] and impaired [[Mitophagy|mitophagy]] result in the accumulation of dysfunctional mitochondria, leading to excessive [[Reactive Oxygen Species|ROS production]] and disruption of cellular bioenergetics.
 
-Elevated mitochondrial [[Reactive Oxygen Species|ROS]] not only exacerbate [[DNA Damage|DNA damage]] but also activate redox-sensitive transcription factors, including [[NF-kappaB|NF-κB]], which regulates the expression of [[SASP|SASP components]]. In parallel, [[Reactive Oxygen Species|oxidative stress]] enhances [[TGFβ|TGF-β activation]] and promotes [[Fibroblast|fibroblast]] differentiation.
+Elevated mitochondrial [[Reactive Oxygen Species|ROS]] not only exacerbate [[DNA Damage|DNA damage]] but also activate redox-sensitive transcription factors, including [[NF-κB|NF-κB]], which regulates the expression of [[SASP|SASP components]]. In parallel, [[Reactive Oxygen Species|oxidative stress]] enhances [[TGFβ|TGF-β activation]] and promotes [[Fibroblast|fibroblast]] differentiation.
 
 Importantly, [[Mitochondrial Dysfunction|mitochondrial dysfunction]] and [[Senescence|senescence]] form a self-reinforcing cycle: impaired [[Mitophagy|mitophagy]] sustains [[Reactive Oxygen Species|ROS production]], while senescence-associated metabolic reprogramming further suppresses mitochondrial turnover.
 
@@ -122,15 +122,15 @@ Importantly, [[Mitochondrial Dysfunction|mitochondrial dysfunction]] and [[Senes
 
 [[TGFβ|Transforming growth factor-β (TGF-β)]] plays a central role at the intersection of fibrosis and senescence. Canonical [[SMAD2|SMAD2/3 signaling]] induces transcription of extracellular matrix genes and drives myofibroblast differentiation.
 
-At the same time, [[TGFβ|TGF-β]] directly promotes epithelial senescence through suppression of [[PTEN]] and activation of [[NF-kappaB|NF-κB signaling pathways]]. Loss of [[PTEN]] leads to enhanced [[PI3K]]/[[Akt|AKT signaling]], which supports the survival of senescent [[Fibroblast|fibroblasts]] and contributes to their resistance to [[Apoptosis|apoptosis]].
+At the same time, [[TGFβ|TGF-β]] directly promotes epithelial senescence through suppression of [[PTEN]] and activation of [[NF-κB|NF-κB signaling pathways]]. Loss of [[PTEN]] leads to enhanced [[PI3K]]/[[Akt|AKT signaling]], which supports the survival of senescent [[Fibroblast|fibroblasts]] and contributes to their resistance to [[Apoptosis|apoptosis]].
 
 Sustained [[TGFβ|TGF-β exposure]] therefore establishes a profibrotic microenvironment characterized by persistent accumulation of [[Senescent Cells|senescent cells]] and excessive matrix deposition. Notably, [[Senescent Cells|senescent cells]] further amplify [[TGFβ|TGF-β signaling]] through [[SASP|SASP production]], creating a self-perpetuating feedback loop linking epithelial dysfunction to [[Fibroblast|fibroblast]] activation.
 
 #### 3.2.5. mTOR, NF-κB, and SASP Regulation
 
-The maintenance of the senescent phenotype requires continuous activation of metabolic and inflammatory signaling pathways. [[mTOR|mTOR signaling]] enhances the translation of [[SASP|SASP components]], while [[NF-kappaB|NF-κB]] functions as a key transcriptional regulator of pro-inflammatory cytokines, including [[IL-6]], [[IL-8]], and [[TNF-alpha|TNF-α]].
+The maintenance of the senescent phenotype requires continuous activation of metabolic and inflammatory signaling pathways. [[mTOR|mTOR signaling]] enhances the translation of [[SASP|SASP components]], while [[NF-κB|NF-κB]] functions as a key transcriptional regulator of pro-inflammatory cytokines, including [[IL-6]], [[IL-8]], and [[TNF-alpha|TNF-α]].
 
-Multiple upstream signals—such as [[DNA Damage|DDR activation]], mitochondrial [[Reactive Oxygen Species|ROS]], and autocrine cytokine signaling—converge on [[NF-kappaB|NF-κB]], transforming transient stress responses into chronic inflammatory signaling. Persistent [[NF-kappaB|NF-κB activation]] stabilizes the [[SASP]] and contributes to sustained [[Fibroblast|fibroblast]] activation in IPF.
+Multiple upstream signals—such as [[DNA Damage|DDR activation]], mitochondrial [[Reactive Oxygen Species|ROS]], and autocrine cytokine signaling—converge on [[NF-κB|NF-κB]], transforming transient stress responses into chronic inflammatory signaling. Persistent [[NF-κB|NF-κB activation]] stabilizes the [[SASP]] and contributes to sustained [[Fibroblast|fibroblast]] activation in IPF.
 
 #### 3.2.6. Autophagy and Proteostatic Imbalance
 
@@ -145,7 +145,7 @@ Epigenetic mechanisms contribute to the stabilization of the senescent phenotype
 In addition, DNA methylation changes and histone modifications promote long-term silencing of cell-cycle regulators while sustaining inflammatory gene expression. Emerging evidence suggests that age-related epigenetic drift may predispose [[Alveolar Type II Cells|alveolar epithelial cells]] to maladaptive stress responses in IPF. Thus, chromatin remodeling represents an additional regulatory layer linking environmental stressors to stable senescence programming.
 
 > [!info] Systems-level view
-> The IPF senescence network is circular: [[Telomere Attrition|telomere attrition]] → [[DNA Damage|DDR]] → [[Mitochondrial Dysfunction|mitochondrial ROS]] → [[NF-kappaB|NF-κB]] → [[SASP]] → [[TGFβ|TGF-β]] → further senescence + [[Fibroblast|fibroblast]] activation. This explains the persistence of fibrosis even after the inciting injury resolves.
+> The IPF senescence network is circular: [[Telomere Attrition|telomere attrition]] → [[DNA Damage|DDR]] → [[Mitochondrial Dysfunction|mitochondrial ROS]] → [[NF-κB|NF-κB]] → [[SASP]] → [[TGFβ|TGF-β]] → further senescence + [[Fibroblast|fibroblast]] activation. This explains the persistence of fibrosis even after the inciting injury resolves.
 
 **Table 1.** Key molecular mechanisms of cellular senescence in IPF and potential therapeutic targets.
 
@@ -166,7 +166,7 @@ Source: Compiled by the authors based on data reported in references [10–13,17
 
 #### 3.3.1. Molecular Regulation of SASP
 
-The induction and maintenance of the [[SASP]] are tightly controlled by interconnected signaling pathways, including persistent [[DNA Damage|DNA damage response (DDR) activation]], [[NF-kappaB|NF-κB signaling]], and [[mTOR|mTOR-dependent translational regulation]]. Activation of [[ATM]] within the [[DNA Damage|DDR pathway]] promotes [[NF-kappaB|NF-κB signaling]] through [[NEMO|NEMO-dependent mechanisms]], thereby initiating the transcription of pro-inflammatory mediators.
+The induction and maintenance of the [[SASP]] are tightly controlled by interconnected signaling pathways, including persistent [[DNA Damage|DNA damage response (DDR) activation]], [[NF-κB|NF-κB signaling]], and [[mTOR|mTOR-dependent translational regulation]]. Activation of [[ATM]] within the [[DNA Damage|DDR pathway]] promotes [[NF-κB|NF-κB signaling]] through [[NEMO|NEMO-dependent mechanisms]], thereby initiating the transcription of pro-inflammatory mediators.
 
 In parallel, [[mTOR|mTOR signaling]] enhances the translation of [[IL-1α]], a key upstream regulator of [[SASP|SASP amplification]], establishing a self-sustaining inflammatory loop that reinforces senescent cell activity.
 
@@ -197,7 +197,7 @@ Among the most extensively studied combinations is [[Dasatinib|dasatinib]] plus 
 
 Importantly, a pilot clinical study evaluating [[Dasatinib|dasatinib]] in combination with [[Quercetin|quercetin]] in patients with IPF demonstrated improvements in physical function alongside an acceptable safety profile, supporting the feasibility of senolytic approaches in humans. While these findings require confirmation in larger randomized trials, they provide important proof-of-concept evidence for senescence-targeted therapy in fibrotic lung disease.
 
-Beyond classical [[Senolytics|senolytics]], alternative strategies include [[Senomorphic|senomorphics]]—agents that suppress [[SASP|SASP activity]] without eliminating [[Senescent Cells|senescent cells]]. Targeting pathways such as [[mTOR]], [[NF-kappaB|NF-κB]], and [[JAK|JAK]]/[[STAT3|STAT]] may attenuate profibrotic signaling while preserving potentially beneficial aspects of transient senescence responses.
+Beyond classical [[Senolytics|senolytics]], alternative strategies include [[Senomorphic|senomorphics]]—agents that suppress [[SASP|SASP activity]] without eliminating [[Senescent Cells|senescent cells]]. Targeting pathways such as [[mTOR]], [[NF-κB|NF-κB]], and [[JAK|JAK]]/[[STAT3|STAT]] may attenuate profibrotic signaling while preserving potentially beneficial aspects of transient senescence responses.
 
 #### 3.4.2. Natural Polyphenols as Senescence-Modulating Agents
 
@@ -216,9 +216,9 @@ Other [[Polyphenols|polyphenols]], including [[Hesperetin|hesperetin]], [[Luteol
 | [[Quercetin|Quercetin]] | [[PI3K]], [[Bcl-2|BCL-2]] | Senolytic, [[SASP|SASP suppression]] | Clinical + preclinical |
 | [[Dasatinib|Dasatinib]] + [[Quercetin|Quercetin]] | Tyrosine kinases | Senolytic | Pilot clinical data |
 | [[Procyanidin C1|Procyanidin C1]] | [[Bcl-2|BCL-2]] | Senescent cell clearance | Animal models |
-| [[Curcumin|Curcumin]] | [[NF-kappaB|NF-κB]] | Anti-inflammatory | Experimental |
+| [[Curcumin|Curcumin]] | [[NF-κB|NF-κB]] | Anti-inflammatory | Experimental |
 | [[EF24|EF24]] | [[PTEN|PTEN/PI3K]] | Anti-senescence | Experimental |
-| [[Resveratrol|Resveratrol]] | [[SIRT1]], [[NF-kappaB|NF-κB]] | Mitochondrial protection | Preclinical |
+| [[Resveratrol|Resveratrol]] | [[SIRT1]], [[NF-κB|NF-κB]] | Mitochondrial protection | Preclinical |
 | [[Hesperetin|Hesperetin]] | [[Autophagy|Autophagy]] | [[Reactive Oxygen Species|ROS reduction]] | Experimental |
 
 Source: Compiled by the authors based on data reported in references [21,23,31–36]. ROS: [[Reactive Oxygen Species|Reactive Oxygen Species]]; [[SASP|SASP]]: Senescence-Associated Secretory Phenotype.
@@ -243,7 +243,7 @@ Accordingly, future strategies should prioritize targeted delivery systems, opti
 
 The integration of [[Aging|aging biology]] into fibrotic pathogenesis has fundamentally reframed IPF as a disorder of maladaptive tissue repair driven by persistent [[Senescence|cellular senescence]]. While [[Alveolar Type II Cells|epithelial injury]] has long been recognized as a key initiating event, growing evidence indicates that senescence is not merely a downstream consequence but a central organizing mechanism coordinating chronic inflammation, [[Fibroblast|fibroblast]] activation, and extracellular matrix deposition.
 
-A major conceptual advance lies in understanding senescence as a network-level process sustained by interconnected signaling loops. [[Telomere Attrition|Telomere attrition]] activates [[DNA Damage|DNA damage response (DDR) pathways]] that compromise [[Mitochondrial Dysfunction|mitochondrial function]]; mitochondrial-derived [[Reactive Oxygen Species|reactive oxygen species]] stabilize [[NF-kappaB|NF-κB activation]]; [[SASP|SASP-associated cytokines]] enhance [[TGFβ|TGF-β signaling]]; and [[TGFβ|TGF-β]], in turn, reinforces both senescence and [[Fibroblast|fibroblast]] activation. This tightly integrated signaling network provides a plausible mechanistic explanation for the persistence and apparent irreversibility of fibrotic remodeling, even after the initial injurious stimulus has been removed.
+A major conceptual advance lies in understanding senescence as a network-level process sustained by interconnected signaling loops. [[Telomere Attrition|Telomere attrition]] activates [[DNA Damage|DNA damage response (DDR) pathways]] that compromise [[Mitochondrial Dysfunction|mitochondrial function]]; mitochondrial-derived [[Reactive Oxygen Species|reactive oxygen species]] stabilize [[NF-κB|NF-κB activation]]; [[SASP|SASP-associated cytokines]] enhance [[TGFβ|TGF-β signaling]]; and [[TGFβ|TGF-β]], in turn, reinforces both senescence and [[Fibroblast|fibroblast]] activation. This tightly integrated signaling network provides a plausible mechanistic explanation for the persistence and apparent irreversibility of fibrotic remodeling, even after the initial injurious stimulus has been removed.
 
 Despite these advances, several challenges continue to limit clinical translation. First, the marked heterogeneity of [[Senescent Cells|senescent cells]] complicates therapeutic targeting. [[Senescent Cells|Senescent cells]] do not represent a uniform population; depending on context, some subsets may retain beneficial roles in tissue repair and tumor suppression. Consequently, non-selective elimination strategies may lead to unintended effects.
 

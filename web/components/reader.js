@@ -4,115 +4,74 @@
 
 import { state } from './state.js';
 import { updateHash } from './routing.js';
+import { ARTICLES } from './data.js';
 
 // ------------------------------------------------------------
 // Article registry (semantic IDs, not file paths)
+// Single source of truth: web/data/articles.json, loaded via data.js.
+// The registry is nested: one entry per logical article (`id`) with a
+// `langs` block per language. It is flattened below to one row per
+// article × lang, with `id` derived (en-US → the article id, other
+// langs → <id>-<lang>) so existing URLs like #reader=<id>-zh keep
+// resolving. Lang-level fields (title/path/dates) override group
+// defaults; `active`/`default` are group-level.
+// Only articles with `active: true` are listed/opened by the reader —
+// set `active: false` in articles.json while an article is being
+// edited so it stays hidden until it's ready. Entries missing the
+// property are treated as active.
 // ------------------------------------------------------------
-export const ARTICLES = [
-  {
-    id: 'sirtuin-pleiotropy',
-    group: 'sirtuin-pleiotropy',
-    lang: 'en-US',
-    title: 'Sirtuins - Pleiotropy in Tumor Cell Metabolism',
-    path: 'pages/sirtuins_pleiotropic_roles.html',
-    created: '2026-08-13',
-    updated: '2026-08-15',
-    default: true,
-  },
-  {
-    id: 'sirtuin-pleiotropy-zh',
-    group: 'sirtuin-pleiotropy',
-    lang: 'zh-TW',
-    title: 'Sirtuins - 腫瘤細胞代謝中的多效性（繁體中文）',
-    path: 'pages/sirtuins_pleiotropic_roles_zh-TW.html',
-    created: '2026-08-14',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'sirtuin-disease-complications',
-    group: 'sirtuin-disease-complications',
-    lang: 'en-US',
-    title: 'Sirtuins - Disease Complications',
-    path: 'pages/sirtuins_disease_complications.html',
-    created: '2026-08-14',
-    updated: '2026-08-15',
-  },
-  {
-    id: 'sirtuin-disease-complications-zh',
-    group: 'sirtuin-disease-complications',
-    lang: 'zh-TW',
-    title: 'Sirtuins - 疾病併發症（繁體中文）',
-    path: 'pages/sirtuins_disease_complications_zh-TW.html',
-    created: '2026-08-14',
-    updated: '2026-08-15',
-  },
-  {
-    id: 'ivermectin-fenbendazole-anticancer',
-    group: 'ivermectin-fenbendazole-anticancer',
-    lang: 'en-US',
-    title: '[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)',
-    path: 'pages/ivermectin-fenbendazole-anticancer.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'ivermectin-fenbendazole-anticancer-zh',
-    group: 'ivermectin-fenbendazole-anticancer',
-    lang: 'zh-TW',
-    title: '伊維菌素 × 芬苯達唑（互補抗癌機制）（繁體中文）',
-    path: 'pages/ivermectin-fenbendazole-anticancer_zh-TW.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'adrenochrome-protocol',
-    group: 'adrenochrome-protocol',
-    lang: 'en-US',
-    title: '[Speculative] Adrenochrome MB/AG Protocol',
-    path: 'pages/adrenochrome-protocol.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  },
-  {
-    id: 'adrenochrome-protocol-zh',
-    group: 'adrenochrome-protocol',
-    lang: 'zh-TW',
-    title: 'Adrenochrome MB/AG 方案（推測性）（繁體中文）',
-    path: 'pages/adrenochrome-protocol_zh-TW.html',
-    created: '2026-08-16',
-    updated: '2026-08-16',
-  }
-];
 
-export const getArticle = (id) => ARTICLES.find((a) => a.id === id) || null;
-export const getDefaultArticle = () => ARTICLES.find((a) => a.default) || ARTICLES[0];
+const ACTIVE_ARTICLES = ARTICLES.flatMap((a) => {
+  const langs = Object.entries(a.langs || {});
+  return langs.map(([lang, l], i) => ({
+    ...a, ...l, // lang-level title/path/dates override group defaults
+    id: lang === 'en-US' ? a.id : `${a.id}-${lang.split('-')[0].toLowerCase()}`,
+    group: a.id,
+    lang,
+    // `active`/`default` are group-level in articles.json; keep `default`
+    // on the first language row only so getDefaultArticle() is deterministic
+    // (matches the old flat-schema behavior where default marked one entry).
+    default: i === 0 ? a.default : undefined,
+  }));
+}).filter((a) => a.active !== false);
+
+export const getArticle = (id) => ACTIVE_ARTICLES.find((a) => a.id === id) || null;
+export const getDefaultArticle = () => ACTIVE_ARTICLES.find((a) => a.default) || ACTIVE_ARTICLES[0];
 
 // ------------------------------------------------------------
 // Group / language helpers
 // ------------------------------------------------------------
 const groupKey = new Map();
-ARTICLES.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
+ACTIVE_ARTICLES.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
 
-function stripSuffix(title) {
-  return title.replace(/\s*（繁體中文）\s*$/, '');
+// Display order is derived here (not baked into articles.json): newest group
+// first. Each group is a single dropdown option, so en/zh pairs always stay
+// together regardless of per-article `created` differences. Swap `created`
+// for `updated` below if you'd rather sort by last-modified.
+function groupCreated(group) {
+  return ACTIVE_ARTICLES
+    .filter((a) => a.group === group)
+    .reduce((max, a) => (a.created > max ? a.created : max), '');
 }
+const sortedGroups = Array.from(groupKey.keys())
+  .sort((a, b) => groupCreated(b).localeCompare(groupCreated(a)));
 
 function groupTitle(group) {
-  const en = ARTICLES.find((a) => a.group === group && a.lang === 'en-US');
-  const zh = ARTICLES.find((a) => a.group === group && a.lang === 'zh-TW');
-  const base = en || zh || groupKey.get(group) || ARTICLES[0];
-  if (zh) return `${base.title} · ${stripSuffix(zh.title)}`;
+  const en = ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === 'en-US');
+  const zh = ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === 'zh-TW');
+  const base = en || zh || groupKey.get(group) || ACTIVE_ARTICLES[0];
+  if (zh) return `${base.title} · ${zh.title}`;
   return base.title;
 }
 
 function groupHasLang(group, lang) {
-  return ARTICLES.some((a) => a.group === group && a.lang === lang);
+  return ACTIVE_ARTICLES.some((a) => a.group === group && a.lang === lang);
 }
 
 function resolveForGroup(group, lang) {
   return (
-    ARTICLES.find((a) => a.group === group && a.lang === lang) ||
-    ARTICLES.find((a) => a.group === group) ||
+    ACTIVE_ARTICLES.find((a) => a.group === group && a.lang === lang) ||
+    ACTIVE_ARTICLES.find((a) => a.group === group) ||
     null
   );
 }
@@ -150,7 +109,7 @@ function loadArticle(article, section) {
 }
 
 function buildOptions() {
-  select.innerHTML = Array.from(groupKey.keys())
+  select.innerHTML = sortedGroups
     .map((g) => `<option value="${g}">${groupTitle(g)}</option>`)
     .join('');
 }
@@ -186,6 +145,13 @@ export function openReader(id, { restore = false, section = null } = {}) {
     readerStack.push(article.id);
   }
   loadArticle(article, section);
+  // No section specified → default to the top of the page. Also handles the
+  // case where `frame.src` is unchanged (reopening the same article), which
+  // would otherwise keep the previous scroll position.
+  if (!section) {
+    const w = frame.contentWindow;
+    if (w) w.scrollTo(0, 0);
+  }
   setSelectFor(article);
   setLangToggleFor(article);
   overlay.classList.add('visible');
@@ -224,7 +190,10 @@ function pollActiveSection() {
   const sections = Array.from(doc.querySelectorAll('section[id]'));
   if (!sections.length) return;
   const navBottom = 60; // sticky nav offset within the article
-  let active = sections[0].id;
+  // Only a section actually scrolled under the nav counts. At the top of the
+  // article no section qualifies, so we clear the section (opening without a
+  // section must default to the top of the page, not the first section).
+  let active = null;
   for (const s of sections) {
     if (s.getBoundingClientRect().top <= navBottom + 1) active = s.id;
   }
@@ -246,15 +215,23 @@ function stopSectionTracking() {
   }
 }
 
-frame.addEventListener('load', startSectionTracking);
-
-buildOptions();
-updatePrevBtn();
+frame.addEventListener('load', () => {
+  // Opened without a section → default to the top of the page. Guards against
+  // the browser restoring a previous iframe scroll position on reload.
+  if (!state.readerSection) {
+    const w = frame.contentWindow;
+    if (w) w.scrollTo(0, 0);
+  }
+  startSectionTracking();
+});
 
 // ------------------------------------------------------------
 // Wire up (button, select, language toggle, overlay, keyboard)
 // ------------------------------------------------------------
 const readerBtn = document.getElementById('btn-reader');
+
+buildOptions();
+updatePrevBtn();
 
 function openSelected() {
   const group = select.value;
@@ -295,5 +272,3 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-buildOptions();
-updatePrevBtn();

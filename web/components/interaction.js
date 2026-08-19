@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 import {
   container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeObjects,
-  edgeLabel, edgeLabelDiv, animateCamera, CAMERA_OFFSET, midpoint,
+  edgeLabel, edgeLabelDiv, edgeOffColor, animateCamera, CAMERA_OFFSET, midpoint,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
 } from './core.js';
@@ -80,14 +80,14 @@ function resetEdgeStyle(line) {
   const { edge } = line.userData;
   if (state.selectedNode) {
     const connected = edge.from === state.selectedNode || edge.to === state.selectedNode;
-    line.material.color.set(connected ? 0x4E79A7 : 0x4a4a6a);
+    line.material.color.set(connected ? 0x4E79A7 : edgeOffColor());
     line.material.opacity = connected ? 0.8 : 0.05;
   } else if (state.selectedEdge) {
     const sel = edge === state.selectedEdge;
-    line.material.color.set(sel ? 0x4E79A7 : 0x4a4a6a);
+    line.material.color.set(sel ? 0x4E79A7 : edgeOffColor());
     line.material.opacity = sel ? 0.9 : 0.05;
   } else {
-    line.material.color.set(0x4a4a6a);
+    line.material.color.set(edgeOffColor());
     line.material.opacity = edge.color.opacity * 0.6;
   }
 }
@@ -463,7 +463,7 @@ export function selectNode(nodeId) {
   applyEdgeState(line => {
     const { edge } = line.userData;
     return edge.from === nodeId || edge.to === nodeId || edge === state.selectedEdge;
-  }, 0x4E79A7, 0.8, 0x4a4a6a, 0.05);
+  }, 0x4E79A7, 0.8, edgeOffColor(), 0.05);
 
   setLabelVisibility(neighborIds);
 
@@ -516,7 +516,7 @@ export function selectEdge(edge) {
   // Dim all nodes, highlight source and target
   applyNodeState(new Set([fromId, toId]), 0.95, 0.5, 0.3, 0.15);
 
-  applyEdgeState(line => line.userData.edge === edge, 0x4E79A7, 0.9, 0x4a4a6a, 0.05);
+  applyEdgeState(line => line.userData.edge === edge, 0x4E79A7, 0.9, edgeOffColor(), 0.05);
 
   // Show labels for both nodes and their neighbors
   const visibleIds = new Set([fromId, toId]);

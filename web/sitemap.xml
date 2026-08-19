@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <url>
+<url>
     <loc>https://graph.johnnykuo.com/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,7 +10,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/"/>
   </url>
 
-  <url>
+<url>
     <loc>https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -19,7 +19,8 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html"/>
   </url>
-  <url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer_zh-TW.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -29,7 +30,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/ivermectin-fenbendazole-anticancer.html"/>
   </url>
 
-  <url>
+<url>
+    <loc>https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress_zh-TW.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/oxidized-catecholamines-feed-lysosomal-stress.html"/>
+  </url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -38,7 +59,8 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html"/>
   </url>
-  <url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/sirtuins_disease_complications_zh-TW.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -48,7 +70,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_disease_complications.html"/>
   </url>
 
-  <url>
+<url>
     <loc>https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,7 +79,8 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html"/>
   </url>
-  <url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles_zh-TW.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -67,7 +90,47 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles.html"/>
   </url>
 
-  <url>
+<url>
+    <loc>https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/senescence-articles-and-figures_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/senescence-articles-and-figures_zh-TW.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/senescence-articles-and-figures_zh-TW.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html"/>
+  </url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/adrenochrome-protocol.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -76,7 +139,8 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol.html"/>
   </url>
-  <url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>

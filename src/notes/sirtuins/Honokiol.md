@@ -2,7 +2,7 @@
 title: Honokiol
 description: Honokiol (HKL) is a lipid-soluble biphenyl neolignan from Magnolia species with pleiotropic bioactivity — direct SIRT3 activation (mitochondrial antioxidant/energetic), GABA-A positive allosteric modulation (anxiolytic/sedative), NF-κB suppression (anti-inflammatory), and neuroprotective, cardioprotective, and anti-tumor effects.
 created: 2026-07-03
-updated: 2026-08-16
+updated: 2026-08-18
 tags:
   - chemical-compound
   - phytochemical
@@ -108,6 +108,9 @@ List of documents in the wiki that mention this entity
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - The natural bisphenol compound Honokiol upregulated the expression of SIRT3 protein in vivo and in vitro, and its protective effect against oxidative stress and mitochondrial dysfunction could be abrogated by SIRT3 shRNA.
+
+  - [[_document_ - Roles of SIRT3 in aging and aging-related diseases|Roles of SIRT3 in Aging and Aging-Related Diseases (You & Wang 2025)]]
+    - Profiles HKL as the lead natural SIRT3 activator: mitigates silica-induced fibrosis and mtDNA damage via the cGAS/STING pathway, promotes mitochondrial fusion via SIRT3/AMPK after subarachnoid hemorrhage, protects against I/R injury, attenuates intracerebral hemorrhage-induced apoptosis/mitochondrial fission, upregulates mitochondrial GPX4 to inhibit neuronal ferroptosis, and bridges glycolysis/TCA via pyruvate dehydrogenase E1α deacetylation in renal fibrosis.
 
 ## Connections
 

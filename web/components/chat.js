@@ -6,7 +6,7 @@ import * as THREE from 'three';
 import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
 import { state } from './state.js';
 import {
-  camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, animateCamera,
+  camera, nodeObjects, nodeMeshes, edgeObjects, labelObjects, edgeOffColor, animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
@@ -14,6 +14,7 @@ import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
+import { currentTheme } from './theme.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -43,7 +44,7 @@ const htmlModeClose = document.getElementById('html-mode-close');
 const htmlModeDownload = document.getElementById('html-mode-download');
 const responseModeWrap = document.getElementById('response-mode');
 
-const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com').replace(/\/$/, '');
+const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const INTENT_API = `${API_BASE}/intent`;
 const EXECUTE_STREAM_API = `${API_BASE}/execute/stream`;
 const SESSION_RESET_API = `${API_BASE}/session/reset`;
@@ -113,13 +114,6 @@ if (responseModeWrap) {
   });
 }
 
-// Auto-open HTML mode for a freshly rendered response when HTML view is active.
-function maybeOpenHtml(div, text) {
-  if (responseMode !== 'html') return;
-  const badge = div.querySelector('.chat-badge');
-  openHtmlMode(text, (badge && badge.textContent) || 'Response');
-}
-
 // Append the user's chosen output format as a spec to the message sent to the
 // server (the model responds with .md markdown or a standalone .html doc).
 // Idempotent so it is never doubled when the server echoes the message back.
@@ -127,11 +121,16 @@ function withOutputSpec(text) {
   if (!text) return text;
   if (/\[Output format: \.(md|html)\]/.test(text)) return text;
   if (responseMode === 'html') {
+    // Tell the model which visual palette to match so generated diagrams
+    // blend with the site's active theme (light is the default).
+    const styleSpec = currentTheme() === 'light'
+      ? 'Match this page visual style: light theme with background #F6F3EC, white cards #FFFFFF with a 1px #E2DCCE border and 12px border radius, body text #22304A, muted text #4B5563, and accent colors teal #0F766E, red #C0392B, amber #B45309, purple #6D5BD0, blue #2563A8, green #1E7A4E. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible dark text labels, subtle 1px #E2DCCE strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).'
+      : 'Match this page visual style: dark theme with background #0f0f1a, cards #1a1a2e with a 1px #2a2a4e border and 12px border radius, body text #e0e0e0, and accent colors teal #3EC9A7, red #E4575E, amber #E8A33D, purple #9D8DF1, blue #5DA8FF, green #58D68D. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible text labels, subtle 1px #2a2a4e strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).';
     const spec = [
       '[Output format: .html]',
       'Respond with HTML and ONLY HTML. Do not wrap the answer in markdown code fences, and do not add any prose, commentary, or explanation outside the HTML. Output must be valid HTML content directly renderable in a page (you may include inline style elements and SVG; no external assets, no scripts).',
       'When it helps clarity, enrich the answer with diagrams and charts. Use inline SVG only — pure SVG markup plus CSS, no external images, no img elements, and no JavaScript chart libraries (no Chart.js, D3, or Mermaid).',
-      'Match this page visual style: dark theme with background #0f0f1a, cards #1a1a2e with a 1px #2a2a4e border and 12px border radius, body text #e0e0e0, and accent colors teal #3EC9A7, red #E4575E, amber #E8A33D, purple #9D8DF1, blue #5DA8FF, green #58D68D. Build diagrams from an SVG element with a viewBox (for example 0 0 1000 500), using rounded-rect nodes or cards, legible text labels, subtle 1px #2a2a4e strokes, and a small legend where it aids reading. Keep each diagram self-contained and responsive (width 100%).',
+      styleSpec,
     ].join('\n\n');
     return `${text}\n\n${spec}`;
   }
@@ -166,7 +165,9 @@ chatBtn.addEventListener('click', () => {
   if (chatOpen) chatInput.focus();
   syncChatPanelKeyboard();
   state.analysisOpen = chatOpen;
-  state.analysisMode = panelMode;
+  // Do NOT overwrite state.analysisMode here: setPanelMode already keeps it in
+  // canonical hash form ('graph' / 'prompt') synced with `panelMode`, while
+  // panelMode itself uses the UI tab names ('explore' / 'ask').
   updateHash();
 });
 
@@ -195,7 +196,6 @@ function closeChat() {
   chatOpen = false;
   chatPanel.classList.remove('open');
   chatBtn.classList.remove('open');
-  chatBtn.innerHTML = MSG_ICON;
   setActiveWindow(null);
   state.analysisOpen = false;
   updateHash();
@@ -211,7 +211,7 @@ function sanitizeChatInput(text) {
   let t = text.replace(/<[^>]+>/g, '');
   t = t.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
   t = t.replace(/\s+/g, ' ').trim();
-  return t.slice(0, 500);
+  return t.slice(0, 4000);
 }
 
 function addChatMessage(text, type, badge) {
@@ -270,7 +270,8 @@ function addCopyButton(div, text) {
 
 // "Open HTML page" affordance on a bot message: re-opens the standalone
 // pages.css page for that response (used to reopen after closing the overlay).
-function addOpenHtmlButton(div, text) {
+// `query` is the user's question, used as a title fallback.
+function addOpenHtmlButton(div, text, query) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'chat-page-btn';
@@ -278,8 +279,7 @@ function addOpenHtmlButton(div, text) {
   btn.title = 'Open this response as a standalone HTML page / 以 HTML 頁面開啟';
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
-    const badge = div.querySelector('.chat-badge');
-    openHtmlMode(text, (badge && badge.textContent) || 'Response');
+    openHtmlMode(text, suggestPageTitle(text, query));
   });
   div.appendChild(btn);
 }
@@ -296,7 +296,7 @@ function formatBotMessage(text) {
     const wikiBase = name.trim().replace(/\.md$/i, '');
     if (!wikiBase || !descByLabel.has(wikiBase)) return esc(m);
     const label = (display || name).trim();
-    return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}" style="color:#7cb3d4;text-decoration:underline;cursor:pointer">${esc(label)}</span>`;
+    return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}">${esc(label)}</span>`;
   });
   // Long code blocks: collapse them so they don't dominate the response.
   html = html.replace(/<pre><code>([\s\S]*?)<\/code><\/pre>/g,
@@ -331,7 +331,7 @@ function showWikiTooltip(anchor) {
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
   const title = anchor.textContent.trim() || (anchor.dataset.wiki || '');
-  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span style="color:#666;font-size:11px;margin-top:4px;display:inline-block">Click to expand</span>`;
+  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
   wikiTooltipVisible = true;
   wikiTooltipEl.classList.add('visible');
   positionWikiTooltip(anchor);
@@ -391,6 +391,7 @@ wikiModalOverlay.addEventListener('click', (e) => {
 // HTML mode — render a chat response as a standalone page styled with pages.css
 // ------------------------------------------------------------
 let htmlModeDoc = '';
+let htmlModeRaw = ''; // raw server HTML — kept so the doc can be rebuilt on theme switch
 
 // Collapse fenced code blocks (```...```) into <details> so long code samples
 // don't dominate the rendered page. Code is escaped so it shows as text.
@@ -400,6 +401,44 @@ function collapseFencedCode(html) {
     const label = lang ? `Code · ${esc(lang)}` : 'Code';
     return `<details class="md-code"><summary>${label}</summary><pre><code>${safe}</code></pre></details>`;
   });
+}
+
+// Inline HTML render: inject a server-authored HTML document directly into the
+// chat bubble so it renders visually (diagrams, cards, tables) instead of
+// appearing as escaped markdown/code. Scripts are stripped — the iframe modal
+// is script-sandboxed, but inline injection has no sandbox, so this is mandatory
+// defense-in-depth. The <html>/<head>/<body> wrapper is dropped (only the body
+// content is embedded) so we don't nest document roots inside the message.
+// Any <style> blocks inside the body are preserved (the model emits inline/SVG
+// styles this way); they apply document-wide, which is acceptable for authored
+// response content.
+function renderInlineHtml(html) {
+  const raw = String(html || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<script\b[^>]*>/gi, '');
+  const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+  return bodyMatch ? bodyMatch[1] : raw;
+}
+
+// Derive a short, human-readable page title for an HTML-mode response so the
+// modal header / download file aren't all labelled "wiki" or "Response". We
+// prefer the first heading (h1-h3); if none, fall back to the first meaningful
+// text run (tags stripped), capped to a sane length. When the response yields
+// nothing usable, fall back to the user's question (query), then "Response".
+function suggestPageTitle(text, query) {
+  const t = String(text || '').replace(/<script[\s\S]*?<\/script>/gi, '');
+  const h = t.match(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/i);
+  let title = h ? h[1] : t.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  title = title.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  if (!title && query) {
+    title = String(query)
+      .replace(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g, '$1') // wiki links -> label
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+  if (!title) return 'Response';
+  return title.length > 80 ? title.slice(0, 77).trim() + '…' : title;
 }
 
 function buildHtmlModeDoc(text, title) {
@@ -418,6 +457,7 @@ function buildHtmlModeDoc(text, title) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
 <link rel="stylesheet" href="pages/shared/pages.css">
+<link rel="stylesheet" href="pages/shared/pages-light.css" id="theme-light"${currentTheme() === 'light' ? '' : ' disabled'}>
 <style>
   body { background: var(--bg); }
   .wrap { padding-top: 32px; padding-bottom: 72px; }
@@ -426,15 +466,15 @@ function buildHtmlModeDoc(text, title) {
   .md-body h1 { font-size: 1.9rem; margin-bottom: 8px; }
   .md-body h2 { font-size: 1.4rem; }
   .md-body h3 { font-size: 1.1rem; }
-  .md-body code { background: #23233f; }
-  .md-code { border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; background: #0f0f1a; overflow: hidden; }
+  .md-body code { background: var(--code-bg); }
+  .md-code { border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; background: var(--md-code-bg, var(--bg)); overflow: hidden; }
   .md-code > summary { cursor: pointer; padding: 8px 12px; color: var(--dim); font-size: .85rem; user-select: none; }
   .md-code > summary:hover { color: var(--teal); }
   .md-code > pre { margin: 0; border-top: 1px solid var(--line); }
   .md-body svg { max-width: 100%; height: auto; display: block; }
   .md-body svg text { fill: var(--text); font-family: inherit; }
-  .md-body .wikilink { color: var(--teal); text-decoration: none; border-bottom: 1px dotted rgba(62,201,167,.55); }
-  .md-body .wikilink:hover { color: #5fe3c0; }
+  .md-body .wikilink { color: var(--teal); text-decoration: none; border-bottom: 1px dotted var(--link-dash, rgba(62,201,167,.55)); }
+  .md-body .wikilink:hover { color: var(--teal-hover); }
 </style>
 </head>
 <body>
@@ -447,6 +487,7 @@ function buildHtmlModeDoc(text, title) {
 
 function openHtmlMode(text, title) {
   if (!htmlModeOverlay || !htmlModeFrame) return;
+  htmlModeRaw = text;
   htmlModeDoc = buildHtmlModeDoc(text, title || 'Response');
   if (htmlModeTitle) htmlModeTitle.textContent = title || 'Response';
   htmlModeFrame.srcdoc = htmlModeDoc;
@@ -458,6 +499,7 @@ function closeHtmlMode() {
   htmlModeOverlay.classList.remove('visible');
   if (htmlModeFrame) htmlModeFrame.srcdoc = '';
   htmlModeDoc = '';
+  htmlModeRaw = '';
 }
 
 if (htmlModeClose) htmlModeClose.addEventListener('click', closeHtmlMode);
@@ -466,6 +508,16 @@ if (htmlModeOverlay) {
     if (e.target === htmlModeOverlay) closeHtmlMode();
   });
 }
+// Rebuild an open HTML-mode document when the site theme changes (theme.js
+// dispatches site-theme-change). The sandboxed frame cannot run a bootstrap
+// script, so the pages-light.css disabled state is baked in at build time.
+window.addEventListener('site-theme-change', () => {
+  if (!htmlModeOverlay || !htmlModeOverlay.classList.contains('visible') || !htmlModeFrame) return;
+  if (!htmlModeDoc) return;
+  const title = htmlModeTitle ? htmlModeTitle.textContent : 'Response';
+  htmlModeDoc = buildHtmlModeDoc(htmlModeRaw || htmlModeDoc, title);
+  htmlModeFrame.srcdoc = htmlModeDoc;
+});
 if (htmlModeDownload) {
   htmlModeDownload.addEventListener('click', () => {
     if (!htmlModeDoc) return;
@@ -492,6 +544,19 @@ document.addEventListener('keydown', (e) => {
     datasetPanelEl.classList.remove('visible');
     setActiveWindow(null);
   }
+});
+
+// Enter in Graph mode runs the Set A/B comparison (equivalent to the
+// &#9166; A and B button). Ignore keystrokes aimed at text fields or buttons,
+// which already have native Enter behavior.
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter' || e.shiftKey) return;
+  const t = e.target;
+  if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
+      t.tagName === 'SELECT' || t.isContentEditable)) return;
+  if (panelMode !== 'explore' || !chatPanel.classList.contains('open')) return;
+  e.preventDefault();
+  runCompare();
 });
 
 // Delegate click on chat entity links to open modal
@@ -529,7 +594,7 @@ async function sendChatMessage() {
   refreshActivity();
 
   const typingDiv = addChatMessage('Thinking', 'typing');
-  typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" style="color:#666;font-size:12px;min-width:42px;display:inline-block"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
+  typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" class="typing-elapsed"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
 
   const typingStart = performance.now();
   const typingElapsed = typingDiv.querySelector('#typing-elapsed');
@@ -655,8 +720,8 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
           labelEl.textContent = 'Thinking';
           if (!traceContent) {
             traceDiv.style.display = 'block';
-            traceDiv.innerHTML = '<span class="chat-trace-toggle" style="cursor:pointer;color:#999;font-size:11px;user-select:none;display:block;width:fit-content">&#9654; Thinking trace</span>'
-              + '<div class="chat-trace-content" style="display:none;margin-top:4px;padding:6px 8px;background:rgba(255,255,255,0.04);border-radius:4px;font-size:12px;color:#888;max-height:120px;overflow-y:auto;white-space:pre-wrap"><div></div></div>';
+            traceDiv.innerHTML = '<span class="chat-trace-toggle">&#9654; Thinking trace</span>'
+              + '<div class="chat-trace-content"><div></div></div>';
             traceContent = traceDiv.querySelector('.chat-trace-content');
             traceDiv.querySelector('.chat-trace-toggle').addEventListener('click', () => {
               traceOpen = !traceOpen;
@@ -719,13 +784,12 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
       + '</details>';
   }
 
-  html += formatBotMessage(responseText);
+  html += responseMode === 'html' ? `<div class="chat-html-inline">${renderInlineHtml(responseText)}</div>` : formatBotMessage(responseText);
   div.innerHTML = html;
   addCopyButton(div, responseText);
-  if (responseMode === 'html') addOpenHtmlButton(div, responseText);
+  if (responseMode === 'html') addOpenHtmlButton(div, responseText, clean);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
-  maybeOpenHtml(div, responseText);
 
   chatHistory.push({ role: 'assistant', content: responseText });
 
@@ -808,13 +872,12 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   let html = `<span class="chat-badge graphify">${op ? `graphify · ${op}` : 'graphify'}</span>`;
   const secs = ((performance.now() - typingStart) / 1000);
   html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
-  html += formatBotMessage(textBuf);
+  html += responseMode === 'html' ? `<div class="chat-html-inline">${renderInlineHtml(textBuf)}</div>` : formatBotMessage(textBuf);
   div.innerHTML = html;
   addCopyButton(div, textBuf);
-  if (responseMode === 'html') addOpenHtmlButton(div, textBuf);
+  if (responseMode === 'html') addOpenHtmlButton(div, textBuf, clean);
   chatMessages.appendChild(div);
   chatMessages.scrollTop = chatMessages.scrollHeight;
-  maybeOpenHtml(div, textBuf);
 
   chatHistory.push({ role: 'assistant', content: textBuf });
 
@@ -955,7 +1018,7 @@ function tagMatchesFor(query) {
 function renderTagPopup() {
   chatTagPopup.innerHTML = tagMatches.map((n, i) => {
     const zh = TRANSLATIONS[n.label] || '';
-    const zhText = zh && zh !== n.label ? ` <span style="color:#888;font-size:11px">${esc(zh)}</span>` : '';
+    const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
     return `<div class="chat-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}">
       <span class="tag-kind">@</span>
       <span>${esc(n.label)}${zhText}</span>
@@ -1307,7 +1370,7 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
     const fwd = `${edge.from}::${edge.to}`;
     const rev = `${edge.to}::${edge.from}`;
     return edgePairSet.has(fwd) || edgePairSet.has(rev);
-  }, 0x4E79A7, 0.8, 0x4a4a6a, 0.02);
+  }, 0x4E79A7, 0.8, edgeOffColor(), 0.02);
 
   setLabelVisibility(idSet);
 
@@ -1500,7 +1563,7 @@ function atRowHTML(n, metric, kind, cross) {
       <button class="set-a" data-set="a" title="Add to Set A">A</button>
       <button class="set-b" data-set="b" title="Add to Set B">B</button>
     </span>`;
-  const zhText = zh && zh !== n.label ? ` <span style="color:#888;font-size:11px">${esc(zh)}</span>` : '';
+  const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
   return `<li class="at-row" data-id="${n.id}">
     <span class="at-name">${esc(n.label)}${zhText}</span>
     <span class="at-meta">${meta}</span>${ab}
@@ -1552,26 +1615,26 @@ function renderAnalysisTools() {
       <button class="at-reset" data-action="clear">Clear highlights / 清除高亮</button>
     </div>
     <div class="at-section">
-      <h4 class="at-h"><span>Top Hubs</span><span style="color:#666;font-weight:400;text-transform:none">by degree — click to focus, A/B to compare</span></h4>
-      <ul class="at-list" id="at-hubs">${hubRows}</ul>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h"><span>Connectors / Bridges</span><span style="color:#666;font-weight:400;text-transform:none">by betweenness</span></h4>
-      <ul class="at-list" id="at-connectors">${connRows}</ul>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h"><span>Communities / 社群</span><span style="color:#666;font-weight:400;text-transform:none">by community</span></h4>
+      <h4 class="at-h"><span>Communities / 社群</span><span class="at-note">by community</span></h4>
       <div class="at-communities">${commHTML}</div>
     </div>
     <div class="at-section">
+      <h4 class="at-h"><span>Top Hubs</span><span class="at-note">by degree — click to focus, A/B to compare</span></h4>
+      <ul class="at-list" id="at-hubs">${hubRows}</ul>
+    </div>
+    <div class="at-section">
+      <h4 class="at-h"><span>Connectors / Bridges</span><span class="at-note">by betweenness</span></h4>
+      <ul class="at-list" id="at-connectors">${connRows}</ul>
+    </div>
+    <div class="at-section">
       <h4 class="at-h">Compare Two Node Sets</h4>
-      <p class="at-hint">Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths.</p>
+      <p class="at-hint">Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths. Press <kbd>Enter</kbd> to run the comparison / 按 <kbd>Enter</kbd> 執行比較。</p>
       <div class="at-compare-sets">
         <div class="at-set a" id="at-set-a"><div class="at-set-label">Set A</div><div class="at-set-chips"></div></div>
         <div class="at-set b" id="at-set-b"><div class="at-set-label">Set B</div><div class="at-set-chips"></div></div>
       </div>
       <div class="at-actions">
-        <button class="at-compare-btn" id="at-compare-go">Analyze A and B</button>
+        <button class="at-compare-btn" id="at-compare-go" title="Analyze Set A vs Set B — or press Enter / 比較 A 和 B — 或按 Enter"><span class="enter-ico">&#9166;</span> A and B</button>
         <button class="at-prompt-btn" id="at-send-prompt" title="Send this selection to the Prompt panel as an analysis query / 將此選擇傳送至 Prompt 面板">&#8594; Prompt</button>
         <button class="at-export-json-btn" id="at-export-json" title="Export this selection as JSON / 匯出選擇為 JSON">Save</button>
       </div>
@@ -1693,6 +1756,48 @@ function sendSelectionToPrompt() {
     if (n) chatTagSet.set(id, n);
   });
   renderTagChips();
+  chatInput.focus();
+  refreshActivity();
+}
+
+// Open the analysis panel in Prompt (ask) mode with `text` pre-loaded into the
+// composer and `tags` (@-tagged graph node labels) pinned as structured context.
+// Used by the Notes panel to hand a note's transcript to the chat agent — closes
+// Notes first (they share the full-screen overlay) so only Analysis is visible.
+export function openPromptComposer(text, tags = []) {
+  // Both panels are full-viewport overlays — dismiss Notes before showing chat.
+  const notesPanel = document.getElementById('notes-panel');
+  const notesClose = document.getElementById('notes-close');
+  if (notesPanel && notesPanel.classList.contains('open') && notesClose) {
+    notesClose.click();
+  }
+  state.analysisOpen = true;
+  setPanelMode('ask');
+  if (!chatPanel.classList.contains('open')) {
+    chatOpen = true;
+    chatPanel.classList.add('open');
+    chatBtn.classList.add('open');
+    syncChatPanelKeyboard();
+    updateHash();
+  }
+  // Hide the suggestion chips only when we're handing over a real message to
+  // review; an empty composer keeps them as a starting point.
+  if (text) {
+    const suggestions = document.getElementById('chat-suggestions');
+    if (suggestions) suggestions.remove();
+  }
+  chatInput.value = text || '';
+  chatInput.style.height = 'auto';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+  // Tag the resolved graph nodes so they travel as structured context (and get
+  // highlighted on the graph).
+  chatTagSet.clear();
+  (tags || []).forEach(label => {
+    const node = RAW_NODES.find(n => n.label === label);
+    if (node && !chatTagSet.has(node.id)) chatTagSet.set(node.id, node);
+  });
+  renderTagChips();
+  highlightTaggedNodes();
   chatInput.focus();
   refreshActivity();
 }

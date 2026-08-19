@@ -1,10 +1,16 @@
 /* ============================= KNOWLEDGE GRAPH ============================= */
+let _netRerender = null;
+
 function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
-  const sirtColor = {sirt1:'#E8A33D',sirt2:'#9D8DF1',sirt3:'#58D68D',sirt4:'#3EC9A7',sirt5:'#F5A65B',sirt6:'#5DA8FF',sirt7:'#F283B2'};
+  function sirtColorMap(){
+    const C = wikiThemeColors();
+    return {sirt1:C.amber, sirt2:C.purple, sirt3:C.green, sirt4:C.teal, sirt5:C.orange, sirt6:C.blue, sirt7:C.pink};
+  }
   if(!nodeColorFn){
     nodeColorFn = function(id){
-      if (sirtColor[id]) return sirtColor[id];
-      return '#8b8bb0';
+      const c = sirtColorMap()[id];
+      if (c) return c;
+      return wikiThemeColors().node;
     };
   }
 
@@ -47,17 +53,18 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
   for(let i=0;i<220;i++) step();
 
   function render(){
+    const C = wikiThemeColors();
     const byId2 = {}; DATA.nodes.forEach(n=>byId2[n.id]=n);
     let edgeMarkup = '';
     DATA.edges.forEach(e=>{
       const a=byId2[e.from], b=byId2[e.to];
-      edgeMarkup += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="#2a2a4e" stroke-width="1" data-f="${e.from}" data-t="${e.to}"/>`;
+      edgeMarkup += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="${C.line}" stroke-width="1" data-f="${e.from}" data-t="${e.to}"/>`;
     });
     svg.innerHTML = edgeMarkup;
 
     DATA.nodes.forEach(n=>{
       const r = 5 + Math.sqrt(n.degree)*3.2;
-      const c = nodeColorFn(n.id);
+      const c = wikiAccent(nodeColorFn(n.id));
       const g = document.createElementNS(ns,'g');
       g.setAttribute('data-id', n.id);
       g.setAttribute('class','n');
@@ -71,7 +78,7 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
         const t = document.createElementNS(ns,'text');
         t.setAttribute('x', n.x); t.setAttribute('y', n.y - r - 4); t.setAttribute('text-anchor','middle');
         t.setAttribute('font-size', n.id.startsWith('sirt')?'13':'10'); t.setAttribute('font-weight', n.id.startsWith('sirt')?'700':'400');
-        t.setAttribute('fill', n.id.startsWith('sirt')?c:'#c9c9dd');
+        t.setAttribute('fill', n.id.startsWith('sirt')?c:C.netText);
         t.textContent = n.label;
         g.appendChild(t);
       }
@@ -92,7 +99,7 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
         g.style.opacity=1;
         const nb = adj[n.id]||new Set();
         svg.querySelectorAll('line').forEach(l=>{
-          if (l.getAttribute('data-f')===n.id || l.getAttribute('data-t')===n.id){ l.setAttribute('stroke','#5a5a8a'); l.setAttribute('stroke-width','2'); }
+          if (l.getAttribute('data-f')===n.id || l.getAttribute('data-t')===n.id){ l.setAttribute('stroke',C.lineOn); l.setAttribute('stroke-width','2'); }
         });
         svg.querySelectorAll('.n').forEach(x=>{ if(nb.has(x.getAttribute('data-id')) || x===g) x.style.opacity=1; });
         const neighbors = [...nb].map(id=>byId[id]?.label||id);
@@ -105,7 +112,7 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
       g.addEventListener('mousemove', moveTip);
       g.addEventListener('mouseleave', ev=>{
         svg.querySelectorAll('.n').forEach(x=>{ x.style.opacity=1; });
-        svg.querySelectorAll('line').forEach(l=>{ l.setAttribute('stroke','#2a2a4e'); l.setAttribute('stroke-width','1'); });
+        svg.querySelectorAll('line').forEach(l=>{ l.setAttribute('stroke',C.line); l.setAttribute('stroke-width','1'); });
         hideTip();
       });
       g.addEventListener('click', ev=>{
@@ -117,7 +124,7 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
         });
         svg.querySelectorAll('line').forEach(l=>{
           const on = l.getAttribute('data-f')===n.id||l.getAttribute('data-t')===n.id;
-          l.setAttribute('stroke', on? '#5a5a8a':'#1a1a30'); l.setAttribute('stroke-width', on?'2':'0.6');
+          l.setAttribute('stroke', on? C.lineOn:C.lineOff); l.setAttribute('stroke-width', on?'2':'0.6');
         });
       });
       svg.appendChild(g);
@@ -128,11 +135,18 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
 
   document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (web/data/graph.json)';
   const lg = document.getElementById('netLegend');
-  lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${c}"></span> ${l}</span>`).join('');
+  lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${wikiAccent(c)}"></span> ${l}</span>`).join('');
 
   document.getElementById('netReset').addEventListener('click', ()=>{
     DATA.nodes.forEach(n=>{ n.x=W/2+(Math.random()-0.5)*360; n.y=H/2+(Math.random()-0.5)*260; n.vx=0; n.vy=0; });
     for(let i=0;i<220;i++) step();
     render();
   });
+
+  // Re-render on theme switch so the diagram adopts the active palette.
+  _netRerender = render;
 }
+
+document.addEventListener('wiki-theme', function(){
+  if (_netRerender) _netRerender();
+});

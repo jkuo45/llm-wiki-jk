@@ -7,6 +7,20 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <link rel="stylesheet" href="three-graph.css">
+<link rel="stylesheet" href="three-graph-light.css" id="theme-light">
+<script>
+  /* Site-wide theme bootstrap (light is the default; only an explicit 'dark'
+     preference opts into dark). Runs before first paint so the light
+     stylesheet starts in the right state — mirrors web/pages/shared/page-theme.js
+     for the app shell. The value is driven by components/theme.js on demand. */
+  (function () {
+    var link = document.getElementById('theme-light');
+    if (!link) return;
+    var dark = false;
+    try { dark = localStorage.getItem('llm-wiki-theme') === 'dark'; } catch (e) {}
+    link.disabled = dark;
+  })();
+</script>
   <link rel="canonical" href="https://graph.johnnykuo.com/">
   <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/">
 </head>
@@ -25,20 +39,25 @@
   <div id="tooltip"></div>
   <div id="wiki-tooltip"></div>
   <div id="controls">
-    <button id="btn-reset" title="Reset camera / 重設視角">Reset View / 重設視角</button>
+    <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
+    </button>
     <button id="btn-dataset" title="About this dataset / 關於此資料集" aria-label="About this dataset">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="10"></circle>
         <line x1="12" y1="16" x2="12" y2="12"></line>
         <line x1="12" y1="8" x2="12.01" y2="8"></line>
-      </svg>
+      </svg></span>
     </button>
     <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></span>
     </button>
     <button id="btn-chat" title="Analysis panel / 分析面板" aria-label="Analysis panel">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
       <span id="chat-activity-dot" class="chat-activity-dot" aria-hidden="true"></span>
+    </button>
+    <button id="btn-notes" title="Notes / 笔记" aria-label="Notes panel">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
   </div>
@@ -100,6 +119,13 @@
         <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
       </div>
     </div>
+    <div id="theme-panel">
+      <h3>Theme / 主題</h3>
+      <div class="display-grid" id="theme-grid">
+        <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
+        <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -146,9 +172,156 @@
   <div id="chat-tags"></div>
   <div id="chat-input-wrap">
     <div id="chat-tag-popup"></div>
-    <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="500" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
+    <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="4000" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
     <button id="chat-send" title="Send">Send</button>
   </div>
+  </div>
+</div>
+
+<!-- Notes panel (gallery + upload + lightbox) -->
+<div id="notes-panel">
+  <div id="notes-box">
+    <div id="notes-header">
+      <div class="chat-header-left">
+        <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
+      </div>
+      <div class="chat-header-actions">
+        <button id="notes-close" aria-label="Close panel" title="Close panel">&times;</button>
+      </div>
+    </div>
+
+    <div id="notes-browse">
+      <div id="notes-filters">
+        <div class="notes-combobox" id="notes-combobox">
+          <div class="notes-combobox-field">
+            <input id="notes-search" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="notes-combobox-popup">
+            <button id="notes-search-clear" type="button" class="notes-combobox-clear" title="Clear filter" aria-label="Clear filter">&times;</button>
+          </div>
+          <svg class="notes-combobox-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          <div id="notes-combobox-popup" class="notes-popup" role="listbox" hidden></div>
+        </div>
+        <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
+          <button type="button" data-lang="en-US" title="English (US)">EN</button>
+          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+        </div>
+      </div>
+      <div id="notes-gallery"></div>
+      <div id="notes-empty" class="notes-empty" hidden></div>
+    </div>
+
+    <div id="notes-upload" hidden>
+      <div class="at-h">New note / 新筆記</div>
+      <div id="notes-drop" class="notes-drop" tabindex="0" role="button">
+        <div class="notes-drop-inner">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <p>Drop photos of your handwritten notes here…</p>
+          <div class="notes-drop-actions">
+            <button id="notes-pick" type="button">Choose files</button>
+          </div>
+        </div>
+        <input id="notes-file" type="file" accept="image/*" multiple hidden>
+      </div>
+      <div id="notes-pages-preview" class="notes-page-grid"></div>
+      <div class="at-section notes-details">
+        <div class="at-h">Details / 詳細資料</div>
+        <div class="notes-field">
+          <label for="notes-title-field">Title</label>
+          <input id="notes-title-field" type="text" placeholder="e.g. Sirtuins review — mechanism sketch" maxlength="120">
+        </div>
+        <div class="notes-field">
+          <label for="notes-doc-field">Paper / Document</label>
+          <select id="notes-doc-field"><option value="">None</option></select>
+        </div>
+        <div class="notes-field">
+          <label for="notes-topic-field">Primary tag</label>
+          <input id="notes-topic-field" type="text" placeholder="e.g. sirtuins" maxlength="40">
+        </div>
+        <div class="notes-field">
+          <label for="notes-tags-field">Tags (comma-separated)</label>
+          <input id="notes-tags-field" type="text" placeholder="aging, metabolism" maxlength="200">
+        </div>
+      </div>
+      <div class="notes-upload-submit">
+        <span id="notes-upload-status" class="notes-upload-status"></span>
+        <button id="notes-submit" type="button">Upload note</button>
+      </div>
+    </div>
+
+    <div id="notes-lightbox" hidden>
+      <div class="notes-lb-top">
+        <div class="notes-lb-topbar">
+          <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Gallery</button>
+          <button id="notes-lb-top-prev" type="button" title="Previous image" data-i18n="prevNav" data-i18n-title="prevImg" disabled>&larr; Previous</button>
+          <button id="notes-lb-top-next" type="button" title="Next image" data-i18n-title="nextImg" disabled>Next &rarr;</button>
+          <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
+            <button type="button" data-lang="en-US" title="English (US)">EN</button>
+            <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+          </div>
+        </div>
+        <div class="notes-lb-title" id="notes-lb-title"></div>
+      </div>
+      <div class="notes-lb-body" id="notes-lb-body">
+        <div class="notes-lb-stage">
+          <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous image" data-i18n-title="prevImg" disabled>&larr;</button></div>
+          <div class="notes-lb-imgwrap" id="notes-lb-imgwrap">
+            <div class="notes-lb-zoomable" id="notes-lb-zoomable">
+              <img id="notes-lb-img" alt="Note page">
+              <svg id="notes-lb-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+            </div>
+            <div class="notes-lb-zoom">
+              <button id="notes-lb-zoomin" title="Zoom in" data-i18n-title="zoomIn">+</button>
+              <button id="notes-lb-zoomout" title="Zoom out" data-i18n-title="zoomOut">&minus;</button>
+              <button id="notes-lb-fit" title="Fit" data-i18n="fit" data-i18n-title="fit">Fit</button>
+              <button id="notes-lb-view" type="button" title="Fullscreen view of the note">⛶ View</button>
+              <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" data-i18n-title="annDownload" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
+            </div>
+          </div>
+          <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image" data-i18n-title="nextImg" disabled>&rarr;</button></div>
+        </div>
+        <div class="notes-lb-pages" id="notes-lb-pages"></div>
+        <div class="notes-lb-side">
+          <div class="at-h">
+            <span data-i18n="transcript">Transcript</span>
+            <span class="at-h-right">
+              <span id="notes-lb-status" class="notes-lb-status" role="status"></span>
+              <button id="notes-lb-send-prompt" type="button" class="notes-prompt-btn" data-i18n="sendPromptBtn" data-i18n-title="sendPrompt">→ Prompt</button>
+            </span>
+          </div>
+          <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
+          <div class="at-h" data-i18n="tags">Tags</div>
+          <div id="notes-lb-tags" class="notes-chip-row"></div>
+          <div class="at-h" id="notes-ann-start">
+            <span data-i18n="annotations">Annotations</span>
+          </div>
+          <div class="notes-ann-tools">
+            <button data-tool="circle" title="Circle highlight" data-i18n="toolCircleLabel" data-i18n-title="toolCircle">∘ Circle</button>
+            <button data-tool="rect" title="Rectangle highlight" data-i18n="toolRectLabel" data-i18n-title="toolRect">▭ Rect</button>
+            <button data-tool="arrow" title="Arrow" data-i18n="toolArrowLabel" data-i18n-title="toolArrow">→ Arrow</button>
+            <button data-tool="label" title="Text label" data-i18n="toolLabelLabel" data-i18n-title="toolLabel">A Label</button>
+            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page" data-i18n="clearAnn" data-i18n-title="clearAnnTitle">Clear</button>
+          </div>
+          <div class="notes-ann-colors" id="notes-ann-colors">
+            <button data-color="#ffcc00" style="background:#ffcc00" title="Yellow" data-i18n-title="colorYellow"></button>
+            <button data-color="#7bd88f" style="background:#7bd88f" title="Green" data-i18n-title="colorGreen"></button>
+            <button data-color="#7fb3ff" style="background:#7fb3ff" title="Blue" data-i18n-title="colorBlue"></button>
+            <button data-color="#ff7b72" style="background:#ff7b72" title="Red" data-i18n-title="colorRed"></button>
+            <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple" data-i18n-title="colorPurple"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Annotation label input modal -->
+<div id="notes-label-modal" hidden>
+  <div class="notes-label-box">
+    <div class="at-h">Add Label</div>
+    <input id="notes-label-input" type="text" placeholder="Label text" autocomplete="off" maxlength="120">
+    <div class="notes-label-actions">
+      <button id="notes-label-cancel" type="button">Cancel</button>
+      <button id="notes-label-ok" type="button">Add</button>
+    </div>
   </div>
 </div>
 
@@ -177,6 +350,7 @@
           <a id="page-modal-open" href="#" target="_blank" rel="noopener" title="Open in new tab / 新分頁開啟" aria-label="Open in new tab">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
+          <button id="page-modal-theme" title="Light theme / 切換淺色主題" aria-label="Toggle light/dark theme"></button>
           <button id="page-modal-close" title="Close / 關閉">&times;</button>
         </div>
       </div>

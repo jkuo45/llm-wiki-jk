@@ -3,7 +3,7 @@
 > [!info]
 > **Task**: Synthesize how the per-node centrality metrics in `graphify-out/graph.json` can be used to triage biomedical entities, walk through concrete worked examples already present in the vault's graph, document the analysis methods available, and propose concrete next steps to push this line of work forward.
 > **Date**: 16_AUG_2026
-> **Scope**: `graphify-out/graph.json` node metrics + `scripts/node_analysis.py` + `scripts/03_rebuild_from_triples.py`
+> **Scope**: `graphify-out/graph.json` node metrics + `scripts/04_node_analysis.py` + `scripts/03_rebuild_from_triples.py`
 
 ---
 
@@ -64,7 +64,7 @@ Two pipeline choices make these readings trustworthy for biology:
 
 ## 4. Analysis Methods Already Available
 
-Beyond the static fingerprint, `scripts/node_analysis.py` (referenced in README "Node Analysis") adds multi-node, relation-aware analytics on top of the same `graph.json`:
+Beyond the static fingerprint, `scripts/04_node_analysis.py` (referenced in README "Node Analysis") adds multi-node, relation-aware analytics on top of the same `graph.json`:
 
 - **Shortest-path multiplicity with edge relations** — not just *whether* A reaches B, but the *labeled* chain (e.g. `Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis`).
 - **Neighborhood Jaccard similarity** — finds entities that share the same biological neighborhood (candidate mechanistic analogs / off-target twins).
@@ -75,7 +75,7 @@ Beyond the static fingerprint, `scripts/node_analysis.py` (referenced in README 
 - **Personalized PageRank** — seed with a node of interest (e.g. `sirt1`) to rank the rest of the graph by relevance to *that* starting point.
 
 Run form (from README):
-`uv run --with networkx --with scipy python3 scripts/node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`
+`uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`
 
 ---
 
@@ -110,5 +110,5 @@ Run form (from README):
 
 ## 6. Summary
 
-The `graph.json` node fingerprint is biologically meaningful because it runs on a **directed, relation-typed, confidence-weighted** graph and explicitly removes abstract type hubs. The worked examples (Acid ceramidase's out-degree spread, SASP's betweenness nexus, Aging's PageRank/core backbone, GPX4/iNOS/Cataract's unit clustering, the k-core-6 senescence core) show the fingerprint already recovers real, literature-backed biological roles. Pairing the static fingerprint with `scripts/node_analysis.py`'s relation-aware analytics — and adding the role classifier, senolytic score, PPR sweep, and link-prediction queue above — would turn the graph from a navigation aid into an active target-prioritization engine for the vault's longevity research.
+The `graph.json` node fingerprint is biologically meaningful because it runs on a **directed, relation-typed, confidence-weighted** graph and explicitly removes abstract type hubs. The worked examples (Acid ceramidase's out-degree spread, SASP's betweenness nexus, Aging's PageRank/core backbone, GPX4/iNOS/Cataract's unit clustering, the k-core-6 senescence core) show the fingerprint already recovers real, literature-backed biological roles. Pairing the static fingerprint with `scripts/04_node_analysis.py`'s relation-aware analytics — and adding the role classifier, senolytic score, PPR sweep, and link-prediction queue above — would turn the graph from a navigation aid into an active target-prioritization engine for the vault's longevity research.
 

@@ -14,6 +14,10 @@ import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: chat.js attaches its own listeners.
 import './chat.js';
+// Notes panel (gallery / upload / lightbox).
+import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
+// Side-effect import: theme.js wires the Settings tab theme toggle.
+import './theme.js';
 
 // ------------------------------------------------------------
 // Stats footer (derived from data)
@@ -151,12 +155,25 @@ document.addEventListener('click', (e) => {
 // ------------------------------------------------------------
 // Hash restore (also used by popstate)
 // ------------------------------------------------------------
-function restoreFromHash(params) {
+async function restoreFromHash(params) {
   state.suppressHashUpdate = true;
   if (params && params.reader) {
     openReader(params.reader, { section: params.section || null });
   } else if (isReaderOpen()) {
     closeReader();
+  }
+  if (params && (params.note || params.notes)) {
+    // Notes wins over analysis when both are in the hash. Close the analysis
+    // panel FIRST — clicking its button while notes is open would close notes
+    // via the notes panel's btn-chat capture listener.
+    const analysisBtn = document.getElementById('btn-chat');
+    if (analysisBtn.classList.contains('open')) analysisBtn.click();
+    // Await the (possibly async) notes restore so hash updates stay suppressed
+    // through the gallery fetch + lightbox opening (openLightbox etc. push
+    // visibility state otherwise). restoreFromHash is called fire-and-forget.
+    await restoreNotes(params);
+  } else if (isNotesOpen()) {
+    closeNotes();
   }
   if (!params) {
     deselectNode();
@@ -185,22 +202,35 @@ function restoreFromHash(params) {
   } else if (!params.edge) {
     deselectNode();
   }
-  // Analysis panel: open/close and restore Prompt vs Graph mode from the hash.
+  // Analysis panel: open/close and restore mode from the hash. Notes wins when
+  // both are present — the overlays are mutually exclusive and the hash leads
+  // with #notes when the notes panel is shown, so the analysis panel is closed.
+  const notesActive = !!(params.notes || params.note);
   const analysisBtn = document.getElementById('btn-chat');
-  if (params.analysis) {
+  if (params.analysis && !notesActive) {
     if (!analysisBtn.classList.contains('open')) analysisBtn.click();
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
     const tab = document.querySelector(`.chat-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
-  } else if (analysisBtn.classList.contains('open')) {
+  } else if (!notesActive && analysisBtn.classList.contains('open')) {
     analysisBtn.click();
   }
   state.suppressHashUpdate = false;
 }
 
-window.addEventListener('popstate', () => {
-  restoreFromHash(parseHash());
-});
+// Guard against double-handling: back/forward between hash-only entries fires
+// both popstate AND hashchange for the same final hash.
+let lastRestoredHash = null;
+function restoreFromHashEvent(params) {
+  if (window.location.hash === lastRestoredHash) return;
+  lastRestoredHash = window.location.hash;
+  restoreFromHash(params);
+}
+
+window.addEventListener('popstate', () => restoreFromHashEvent(parseHash()));
+// Same-document navigation to a deep link (pasting a #notes URL into an open
+// tab, clicking a hash link) — without this no panel would restore.
+window.addEventListener('hashchange', () => restoreFromHashEvent(parseHash()));
 
 // ------------------------------------------------------------
 // Loading overlay
@@ -246,5 +276,6 @@ new ResizeObserver(() => {
 const hashParams = parseHash();
 if (hashParams) {
   restoreFromHash(hashParams);
+  lastRestoredHash = window.location.hash;
   history.replaceState({ hash: window.location.hash }, '', window.location.href);
 }

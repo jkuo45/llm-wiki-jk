@@ -18,7 +18,7 @@ import time
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import APIRouter, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
@@ -31,6 +31,7 @@ from .graph_ops import (
     graph_query,
     match_nodes_in_text,
 )
+from .notes import router as notes_router
 from .llm import (
     OpencodeUnavailable,
     create_session,
@@ -61,6 +62,16 @@ ALLOWED_ORIGINS = {
     ).split(",")
     if o.strip()
 }
+
+# Local development origins. Browsers cannot spoof these from the public web,
+# so allowing them is safe and makes `file://` / localhost frontends work
+# against the API without editing ALLOWED_ORIGINS.
+LOCAL_ORIGIN_HINTS = (
+    "http://localhost",
+    "http://127.0.0.1",
+    "http://[::1]",
+    "file://",
+)
 
 # Idle chat sessions are reaped so a long-running server does not accumulate
 # opencode sessions from abandoned browser tabs.
@@ -123,31 +134,58 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=sorted(ALLOWED_ORIGINS),
+    allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
+# All public endpoints live under the /v1 prefix.
+api_v1 = APIRouter(prefix="/v1")
+
 
 @app.middleware("http")
 async def origin_gate(request: Request, call_next):
-    """Reject requests that did not originate from an allowed UI origin."""
-    if request.url.path == "/health":
+    """Reject requests that did not originate from an allowed UI origin.
+
+    Local-development origins (localhost/127.0.0.1/file://) are always allowed.
+    """
+    if request.url.path == "/v1/health":
         return await call_next(request)
+
+    def _local(header_value: str) -> bool:
+        # Browsers send the literal string "null" (not "file://") as the Origin
+        # header when a file:// page issues a fetch(). Treat it as a local
+        # origin so opening web/index.html directly still works against the API.
+        return header_value == "null" or header_value.startswith(LOCAL_ORIGIN_HINTS)
 
     origin = request.headers.get("origin")
     referer = request.headers.get("referer", "")
 
     if origin:
-        if origin in ALLOWED_ORIGINS:
+        if origin in ALLOWED_ORIGINS or _local(origin):
             return await call_next(request)
-    elif referer.startswith("http") and any(
-        referer.startswith(u) for u in ALLOWED_ORIGINS
+    elif referer.startswith("http") and (
+        _local(referer) or any(referer.startswith(u) for u in ALLOWED_ORIGINS)
     ):
         return await call_next(request)
 
     logger.warning(f"Blocked request from origin={origin!r} referer={referer!r}")
     return JSONResponse(status_code=403, content={"detail": "Origin not allowed"})
+
+
+@app.exception_handler(Exception)
+async def unhandled_exception_handler(request: Request, exc: Exception):
+    """Convert unhandled server errors into clean JSON so the CORS middleware
+    can attach headers and the browser sees a readable response instead of an
+    opaque `Failed to fetch` / CORS-blocked failure."""
+    logger.exception(
+        "Unhandled error on %s %s", request.method, request.url.path
+    )
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"Internal server error ({exc.__class__.__name__})"},
+    )
 
 
 class ChatRequest(BaseModel):
@@ -210,7 +248,7 @@ async def _touch_session(session_id: str | None) -> str:
     return new_id
 
 
-@app.get("/health")
+@api_v1.get("/health")
 async def health():
     """Health check for the adapter and the upstream opencode server."""
     G = get_graph()
@@ -235,7 +273,7 @@ GREETING_WORDS = {
 }
 
 
-@app.post("/intent", response_model=IntentResponse)
+@api_v1.post("/intent", response_model=IntentResponse)
 async def intent_endpoint(request: ChatRequest):
     """Phase 1: route the turn to a graph op or to wiki chat.
 
@@ -303,7 +341,7 @@ async def intent_endpoint(request: ChatRequest):
     )
 
 
-@app.post("/session/reset")
+@api_v1.post("/session/reset")
 async def reset_session(request: ChatRequest):
     """Drop a chat session so the next turn starts with clean context."""
     if request.session_id:
@@ -390,7 +428,7 @@ async def _with_heartbeat(
         task.cancel()
 
 
-@app.post("/execute/stream")
+@api_v1.post("/execute/stream")
 async def execute_stream(request: ExecuteRequest):
     """SSE endpoint. Chat streams reasoning + text; graph ops emit one event."""
     if request.message:
@@ -530,3 +568,7 @@ async def execute_stream(request: ExecuteRequest):
     return StreamingResponse(
         _single(), media_type="text/event-stream", headers=SSE_HEADERS
     )
+
+
+app.include_router(api_v1)
+app.include_router(notes_router)

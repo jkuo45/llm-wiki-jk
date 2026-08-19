@@ -1,0 +1,56 @@
+/* ===== Light theme for graphify-out pages =====
+   Companion to pages.css (dark, default). Pages include this file as a
+   second stylesheet (<link id="theme-light">) placed AFTER pages.css, and
+   the app's Settings tab toggles it via the `disabled` attribute.
+
+   Palette: deep teal, vibrant orange accents, white/cream surfaces,
+   dark navy text.
+*/
+:root{
+  --bg:#F6F3EC; --bg2:#ECE8DD; --card:#FFFFFF; --line:#E2DCCE; --line2:#CCC5B2;
+  --text:#22304A; --dim:#4B5563; --mute:#7C8698;
+  --teal:#0F766E; --teal-hover:#0B5F59; --red:#C0392B; --amber:#B45309; --purple:#6D5BD0; --blue:#2563A8; --pink:#C6538F;
+  --green:#1E7A4E; --orange:#D9480F;
+  /* surfaces & states */
+  --nav-bg:rgba(246,243,236,.92);
+  --code-bg:#EFEBE1;
+  --img-plate-bg:#EFEBE1;
+  --row-hover:#F1ECE0;
+  --copy-btn-bg:rgba(255,255,255,.9);
+  --tip-bg:#FFFFFF; --tip-shadow:0 6px 24px rgba(34,48,74,.16);
+  --link-dash:rgba(15,118,110,.45);
+  --md-code-bg:#FFFFFF;
+  /* diagram canvases */
+  --net-bg:radial-gradient(circle at 50% 45%, #FDFCF9 0%, #E9E4D8 70%);
+  --net-node:#4B5563; --net-text:#22304A; --net-line-on:#0F766E; --net-line-off:#F3EFE6;
+  /* tinted panels & chips */
+  --amber-bg:rgba(180,83,9,.08); --amber-border:rgba(180,83,9,.32);
+  --face-green-bg:rgba(30,122,78,.07); --face-green-border:rgba(30,122,78,.28);
+  --face-red-bg:rgba(192,57,43,.07); --face-red-border:rgba(192,57,43,.28);
+  --chip-p-bg:rgba(30,122,78,.08); --chip-p-border:rgba(30,122,78,.4);
+  --chip-h-bg:rgba(192,57,43,.08); --chip-h-border:rgba(192,57,43,.4);
+  --chip-d-bg:rgba(180,83,9,.08); --chip-d-border:rgba(180,83,9,.4);
+  --chip-n-bg:rgba(34,48,74,.045);
+  --badge-amber-bg:#D9480F; --badge-amber-fg:#FFFFFF;
+  --badge-preclin-bg:#D97706; --badge-preclin-fg:#FFFFFF;
+  --btn-fg:#FFFFFF;
+  --lightbox-bg:rgba(24,28,38,.6);
+  --scroll-thumb:rgba(124,134,152,.4);
+  --wrap-width:1240px;
+}
+
+/* Subtle depth for cards on the cream background */
+.card, .spectrum-card, .sirt-card, .dis-card, .tbl-wrap, #netSvg, #mapSvg{
+  box-shadow:0 1px 3px rgba(34,48,74,.06);
+}
+
+/* wikilink cursor — data URIs can't reference CSS variables, so the light
+   variant (white chip, deep-teal ring) lives here */
+.wikilink{
+  cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='%23ffffff' stroke='%230f766e' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4'/%3E%3Cpath d='M12 8h.01'/%3E%3C/svg%3E") 2 2, help;
+}
+
+/* Tint-on-tint panels keep a soft complementary look instead of hard blocks:
+   --amber (orange) panels below cards/windows picked up --code-bg in dark,
+   so nudge them onto the cream family for the light theme. */
+.tbl-wrap{background:var(--card);}

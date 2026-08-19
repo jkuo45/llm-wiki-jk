@@ -5,6 +5,22 @@ import { state } from './state.js';
 export function updateHash(pushState = true) {
   if (state.suppressHashUpdate) return;
   const parts = [];
+  // Notes panel first so the hash always opens with #notes when it's shown.
+  if (state.notesOpen) {
+    parts.push('notes');
+    if (state.notesUiLang && state.notesUiLang !== 'en-US') {
+      parts.push(`uilang=${encodeURIComponent(state.notesUiLang)}`);
+    }
+    if (state.notesNoteId) {
+      parts.push(`note=${encodeURIComponent(state.notesNoteId)}`);
+      if (state.notesPage != null) {
+        parts.push(`page=${state.notesPage}`);
+      }
+      if (state.notesViewMode) {
+        parts.push('noteview=full');
+      }
+    }
+  }
   if (state.activeTrace) {
     parts.push(`trace=${encodeURIComponent(state.activeTrace.id)}`);
     if (state.activeRouteIdx >= 0) parts.push(`route=${state.activeRouteIdx}`);
@@ -27,6 +43,11 @@ export function updateHash(pushState = true) {
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
+  // Skip when nothing changed — avoids stacking duplicate history entries when
+  // several handlers push the same state in quick succession (e.g. opening a
+  // note runs openLightbox → setViewMode → setPage). Compare full
+  // URLs: the relative `url` above rewrites against the current location.
+  if (new URL(url, window.location.href).href === window.location.href) return;
   if (pushState) {
     history.pushState({ hash }, '', url);
   } else {

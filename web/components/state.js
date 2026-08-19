@@ -11,12 +11,20 @@ export const state = {
   focusedCommunity: null,
   physicsEnabled: false,
   showLabels: true,
+  theme: 'light', // 'light' | 'dark' — mirrors the llm-wiki-theme preference
   sidebarInfoActive: true,
   suppressHashUpdate: false,
   readerId: null,
   readerSection: null,
   analysisOpen: false,
   analysisMode: 'graph',
+  // Notes panel (gallery / lightbox). Synced to the URL hash by
+  // notes.js → routing.updateHash() so a note can be deep-linked.
+  notesOpen: false,
+  notesNoteId: null,
+  notesPage: null,
+  notesViewMode: false,
+  notesUiLang: 'en-US', // panel/note content language ('en-US' | 'zh-TW')
 };
 
 export const stickyNodes = new Set();

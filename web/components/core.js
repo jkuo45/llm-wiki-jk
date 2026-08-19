@@ -11,11 +11,46 @@ import { state, stickyNodes, velocities } from './state.js';
 import { esc } from './markdown.js';
 
 // ------------------------------------------------------------
+// Theme-driven 3D colors. The site defaults to light (matching the reader /
+// article pages); theme.js calls applyGraphTheme() at startup and on toggle
+// so the scene follows before the first rendered frame.
+// ------------------------------------------------------------
+const SCENE_BG_LIGHT = 0xF6F3EC;   // cream, matches pages-light --bg / three-graph-light body
+const SCENE_BG_DARK = 0x0f0f1a;    // existing dark navy
+const EDGE_OFF_LIGHT = 0x9a9486;   // warm grey readable on cream
+const EDGE_OFF_DARK = 0x4a4a6a;    // existing muted indigo
+
+// Current theme-aware "resting" edge color. Highlight code paths (hover,
+// selection, traces) call this instead of a hard-coded dark grey so edges
+// read correctly on either background.
+export function edgeOffColor() {
+  return state.theme === 'light' ? EDGE_OFF_LIGHT : EDGE_OFF_DARK;
+}
+
+// Apply the active theme to the 3D scene (background + resting edges). DOM
+// surfaces (node labels, tooltips, panels) are themed by the light
+// stylesheet, so only the canvas needs JS here.
+export function applyGraphTheme(light) {
+  state.theme = light ? 'light' : 'dark';
+  scene.background = new THREE.Color(light ? SCENE_BG_LIGHT : SCENE_BG_DARK);
+  const oldOff = light ? EDGE_OFF_DARK : EDGE_OFF_LIGHT;
+  const newOff = edgeOffColor();
+  // Only reset edges currently at the previous off color; highlighted/selected
+  // edges keep their accent color across the switch.
+  edgeObjects.forEach(line => {
+    if (line.material.color.getHex() === oldOff) {
+      line.material.color.set(newOff);
+    }
+  });
+}
+
+// ------------------------------------------------------------
 // Renderer / camera / controls
 // ------------------------------------------------------------
 export const container = document.getElementById('graph');
 export const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x0f0f1a);
+// Light is the site-wide default; applyGraphTheme() updates this on toggle.
+scene.background = new THREE.Color(SCENE_BG_LIGHT);
 
 export const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 10000);
 camera.position.set(-120, 0, 500);
@@ -122,7 +157,7 @@ RAW_EDGES.forEach(e => {
 
   const geometry = new THREE.BufferGeometry().setFromPoints([fromMesh.position.clone(), toMesh.position.clone()]);
   const material = new THREE.LineBasicMaterial({
-    color: 0x4a4a6a,
+    color: EDGE_OFF_DARK,
     transparent: true,
     opacity: e.color.opacity * 0.6,
     linewidth: 1,
@@ -144,24 +179,10 @@ function createLabel(nodeData, mesh) {
 
   const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
   if (zhTWLabel && zhTWLabel !== nodeData.label) {
-    div.innerHTML = `${esc(nodeData.label)}<br><span style="color:#aaa;font-size:14px">${esc(zhTWLabel)}</span>`;
+    div.innerHTML = `${esc(nodeData.label)}<br><span class="zh">${esc(zhTWLabel)}</span>`;
   } else {
     div.textContent = nodeData.label;
   }
-
-  div.style.cssText = `
-    color: #e0e0e0;
-    font-size: 16px;
-    padding: 4px 10px;
-    background: rgba(15, 15, 26, 0.8);
-    border-radius: 4px;
-    white-space: nowrap;
-    pointer-events: auto;
-    cursor: grab;
-    text-shadow: 0 0 4px rgba(0,0,0,0.8);
-    text-align: center;
-    line-height: 1.3;
-  `;
 
   const label = new CSS2DObject(div);
   label.position.copy(mesh.position);
@@ -180,20 +201,7 @@ RAW_NODES.forEach(n => {
 // Edge label (reusable, appears on hover)
 // ------------------------------------------------------------
 export const edgeLabelDiv = document.createElement('div');
-edgeLabelDiv.style.cssText = `
-  color: #a0c4ff;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 5px 10px;
-  background: rgba(15, 15, 26, 0.9);
-  border: 1px solid rgba(78, 121, 167, 0.4);
-  border-radius: 5px;
-  white-space: nowrap;
-  pointer-events: auto;
-  cursor: pointer;
-  text-shadow: 0 0 4px rgba(0,0,0,0.8);
-  display: none;
-`;
+edgeLabelDiv.className = 'edge-label';
 export const edgeLabel = new CSS2DObject(edgeLabelDiv);
 edgeLabel.visible = false;
 scene.add(edgeLabel);
@@ -447,7 +455,7 @@ export function resetVisualState() {
   });
   edgeObjects.forEach(line => {
     line.material.opacity = line.userData.edge.color.opacity * 0.6;
-    line.material.color.set(0x4a4a6a);
+    line.material.color.set(edgeOffColor());
   });
   restoreDefaultLabels();
 }

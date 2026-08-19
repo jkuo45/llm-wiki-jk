@@ -1,7 +1,46 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
+/* Shared accent tokens — mirror the article pages' teal keyword (pages.css) so
+   gallery labels, badges and links all use the same green. Dark-theme defaults
+   live here; three-graph-light.css overrides the same tokens for light. */
+:root {
+  --teal: #3EC9A7;
+  --teal-hover: #5fe3c0;
+}
 html, body { height: 100%; }
 body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; flex-direction: column; height: 100vh; height: 100dvh; overflow: hidden; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
 #graph { flex: 1; position: relative; z-index: 0; min-width: 0; min-height: 0; overflow: hidden; }
+
+/* CSS2D node labels + hovered-edge label (created in core.js). These are real
+   DOM elements, so the light theme (three-graph-light.css) restyles them by
+   class — no per-label JS restyle needed on theme switch. */
+.node-label {
+  color: #e0e0e0;
+  font-size: 16px;
+  padding: 4px 10px;
+  background: rgba(15, 15, 26, 0.8);
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: auto;
+  cursor: grab;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+  text-align: center;
+  line-height: 1.3;
+}
+.node-label .zh { color: #aaa; font-size: 14px; }
+.edge-label {
+  color: #a0c4ff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background: rgba(15, 15, 26, 0.9);
+  border: 1px solid rgba(78, 121, 167, 0.4);
+  border-radius: 5px;
+  white-space: nowrap;
+  pointer-events: auto;
+  cursor: pointer;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+  display: none;
+}
 
 #sidebar { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; background: #1a1a2e; display: flex; flex-direction: column; overflow: hidden; z-index: 100; transform: translateY(100%); transition: transform 0.3s ease; }
 #sidebar.open { transform: translateY(0); }
@@ -54,6 +93,12 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #info-content .field { margin-bottom: 7px; }
 #info-content .field b { color: #e0e0e0; font-size: 18px; }
 #info-content .empty { color: #555; font-style: italic; }
+/* Themed muted/divider utilities used by the info panel markup (ui.js). */
+.info-muted { color: #aaa; font-size: 14px; }
+.info-divider { margin-top: 8px; border-top: 1px solid #2a2a4e; padding-top: 8px; }
+.info-connections { margin-top: 12px; color: #aaa; font-size: 14px; }
+.wiki-context-text { font-size: 15px; color: #bbb; line-height: 1.7; max-height: 260px; overflow-y: auto; margin-top: 6px; }
+.key-nodes-title { color: #aaa; font-size: 14px; margin: 10px 0 6px; }
 .neighbor-link { display: block; padding: 10px 12px; margin: 4px 0; border-radius: 4px; cursor: pointer; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; transition: background 0.15s; }
 .neighbor-link:hover { background: #2a2a4e; }
 #neighbors-list { max-height: 40vh; overflow-y: auto; margin-top: 6px; }
@@ -144,7 +189,6 @@ a.data-source:hover { border-color: #6b9bc7; }
 
 /* Dataset info panel */
 #controls #btn-dataset { flex: none; white-space: nowrap; color: #9a9ab0; display: none; }
-#btn-dataset svg { display: block; }
 #top-links a.btn-page { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; }
 #top-links a.btn-page:hover { background: #2a2a4e; border-color: #4E79A7; }
 
@@ -181,6 +225,14 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 #page-modal-open:hover { color: #a0d4f0; border-color: #4E79A7; background: #2a2a4e; }
 #page-modal-open svg { width: 14px; height: 14px; display: block; }
+#page-modal-theme {
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
+  color: #e0e0e0; display: inline-flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; cursor: pointer; padding: 0;
+  transition: all 0.15s;
+}
+#page-modal-theme:hover { color: #a0d4f0; border-color: #4E79A7; background: #2a2a4e; }
+#page-modal-theme svg { width: 14px; height: 14px; display: block; }
 #reader-prev {
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
   color: #e0e0e0; font-size: 15px; line-height: 1; padding: 6px 10px; cursor: pointer;
@@ -208,6 +260,34 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 #page-modal-close:hover { color: #e0e0e0; }
 #page-modal-frame { flex: 1; width: 100%; border: none; background: #0f0f1a; min-height: 0; }
+
+/* Reader light theme — header bar and chrome follow the article theme
+   (#page-modal-overlay.light-theme is toggled by components/theme.js). */
+#page-modal-overlay.light-theme,
+#page-modal-overlay.light-theme #page-modal { background: #F6F3EC; }
+#page-modal-overlay.light-theme #page-modal-header { background: #FFFFFF; border-bottom-color: #E2DCCE; }
+#page-modal-overlay.light-theme #page-modal-header h2 { color: #22304A; }
+#page-modal-overlay.light-theme #page-modal-open,
+#page-modal-overlay.light-theme #page-modal-theme,
+#page-modal-overlay.light-theme #reader-prev,
+#page-modal-overlay.light-theme #reader-select,
+#page-modal-overlay.light-theme .lang-toggle {
+  background: #F6F3EC; border-color: #CCC5B2; color: #22304A;
+}
+#page-modal-overlay.light-theme #page-modal-open { color: #2563A8; }
+#page-modal-overlay.light-theme #page-modal-open:hover,
+#page-modal-overlay.light-theme #page-modal-theme:hover,
+#page-modal-overlay.light-theme #reader-prev:hover:not(:disabled) {
+  background: #ECE8DD; border-color: #0F766E; color: #0F766E;
+}
+#page-modal-overlay.light-theme #reader-select:focus { border-color: #0F766E; }
+#page-modal-overlay.light-theme .lang-toggle button { color: #7C8698; }
+#page-modal-overlay.light-theme .lang-toggle button + button { border-left-color: #CCC5B2; }
+#page-modal-overlay.light-theme .lang-toggle button:hover:not(.active) { color: #22304A; }
+#page-modal-overlay.light-theme .lang-toggle button.active { background: #0F766E; color: #fff; }
+#page-modal-overlay.light-theme #page-modal-close { color: #7C8698; }
+#page-modal-overlay.light-theme #page-modal-close:hover { color: #22304A; }
+#page-modal-overlay.light-theme #page-modal-frame { background: #F6F3EC; }
 
 /* HTML mode overlay — renders a chat response as a standalone pages.css page */
 #html-mode-overlay {
@@ -306,15 +386,27 @@ a.data-source:hover { border-color: #6b9bc7; }
 #controls button { display: flex; align-items: center; justify-content: center; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 0 1 auto; min-width: 0; white-space: nowrap; }
 #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
 #controls button.active { background: #4E79A7; border-color: #4E79A7; }
-#controls #btn-save-png { display: none; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
-#controls #btn-save-png svg { width: 100%; height: 100%; display: block; }
+/* Icon buttons in the controls bar — uniform compact squares like #btn-notes.
+   44px with a centered .btn-icon, muted color, bright/outlined on hover.
+   save-png and dataset stay hidden until used. */
+#controls .btn-icon { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
+#controls .btn-icon svg { width: 100%; height: 100%; display: block; }
+#controls #btn-reset,
+#controls #btn-dataset,
+#controls #btn-save-png { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
+#controls #btn-reset:hover,
+#controls #btn-dataset:hover,
 #controls #btn-save-png:hover { color: #e0e0e0; border-color: #4E79A7; }
+#controls #btn-save-png { display: none; }
 #controls #btn-save-png.ok { color: #58D68D; border-color: #58D68D; }
 #controls #btn-save-png.err { color: #E4575E; border-color: #E4575E; }
 
 /* Display toggles (in sidebar) */
 #display-panel { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; }
 #display-panel h3 { font-size: 15px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+#theme-panel { padding: 16px 20px; border-bottom: 1px solid #2a2a4e; }
+#theme-panel h3 { font-size: 15px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+#theme-grid { grid-template-columns: repeat(2, 1fr); }
 .display-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .display-grid button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 10px 6px; border-radius: 8px; cursor: pointer; font-size: 13px; transition: all 0.15s; white-space: nowrap; }
 .display-grid button:hover { background: #2a2a4e; border-color: #4E79A7; }
@@ -345,30 +437,24 @@ a.data-source:hover { border-color: #6b9bc7; }
 
 /* Chat button (in controls bar) */
 #controls #btn-chat { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
-#controls #btn-chat svg { width: 100%; height: 100%; display: block; }
-#controls #btn-chat .btn-icon { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
 #controls #btn-chat:hover { color: #e0e0e0; border-color: #4E79A7; }
 #controls #btn-chat.open, #controls #btn-chat.active { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
 
-/* Chat panel — analysis panel, centered modal sized like the dataset panel */
+/* Analysis panel — full-viewport overlay like the reader: opaque and edge-to-edge,
+   slides up over the graph. #chat-box fills the entire view. */
 #chat-panel {
   position: fixed; inset: 0; z-index: 500;
-  display: none; align-items: center; justify-content: center;
-  padding: 24px;
+  background: #1a1a2e;
+  display: none; align-items: stretch; justify-content: center;
+  padding: 0;
 }
-#chat-panel.open { display: flex; }
-#chat-panel::before {
-  content: ''; position: fixed; inset: 0;
-  background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
-}
+#chat-panel.open { display: flex; animation: reader-in 0.28s ease; }
 #chat-box {
   position: relative; z-index: 1;
-  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
-  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
-  width: min(1200px, calc(100vw - 48px));
-  height: min(880px, calc(100vh - 48px)); height: min(880px, calc(100dvh - 48px));
-  max-width: calc(100vw - 48px);
-  max-height: calc(100vh - 48px); max-height: calc(100dvh - 48px);
+  background: #1a1a2e;
+  width: 100%; height: 100%;
+  max-width: 100%; max-height: 100%;
+  border: none; border-radius: 0; box-shadow: none;
   display: flex; flex-direction: column; overflow: hidden;
 }
 
@@ -426,7 +512,7 @@ a.data-source:hover { border-color: #6b9bc7; }
 
 /* Explore mode shows the tools surface, hides the Ask composer */
 #analysis-tools {
-  display: none; flex: 1; overflow-y: auto; padding: 12px 14px; gap: 16px;
+  display: none; flex: 1; overflow-y: auto; overflow-x: hidden; padding: 12px 14px; gap: 16px;
   flex-direction: column;
 }
 #chat-panel.mode-explore #chat-messages,
@@ -435,17 +521,12 @@ a.data-source:hover { border-color: #6b9bc7; }
 #chat-panel.mode-explore #chat-input-wrap { display: none; }
 #chat-panel.mode-explore #analysis-tools { display: flex; }
 
-/* The panel is always full-screen: opaque, near-full viewport with a small inset frame */
-#chat-panel.open { padding: 10px; align-items: stretch; justify-content: center; }
-#chat-panel.open #chat-box {
-  width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 12px;
-}
-
 /* Explore widgets */
 .at-section { border-bottom: 1px solid #2a2a4e; padding-bottom: 12px; }
 .at-section:last-child { border-bottom: none; }
 .at-h { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #9a9ab0; margin: 0 0 8px; display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
 .at-hint { font-size: 12px; color: #888; margin: 0 0 8px; line-height: 1.5; }
+.at-hint kbd { background: #2a2a4e; border: 1px solid #4a4a6e; border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; font-family: inherit; font-size: 10px; color: #cfe3f5; }
 .at-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
 .at-card { background: #23233f; border: 1px solid #3a3a5e; border-radius: 8px; padding: 8px 10px; }
 .at-card .v { font-size: 18px; color: #e0e0e0; font-variant-numeric: tabular-nums; }
@@ -462,12 +543,12 @@ a.data-source:hover { border-color: #6b9bc7; }
 .at-ab button:hover { border-color: #4E79A7; color: #e0e0e0; }
 .at-ab button.set-a.on { background: #4E79A7; color: #fff; border-color: #4E79A7; }
 .at-ab button.set-b.on { background: #a78bfa; color: #fff; border-color: #a78bfa; }
-.at-communities { display: flex; flex-direction: column; gap: 2px; max-height: 280px; overflow-y: auto; }
+.at-communities { display: flex; flex-direction: column; gap: 2px; max-height: 280px; overflow-y: auto; overflow-x: hidden; }
 .at-comm { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-comm:hover { background: rgba(120,120,140,0.12); }
 .at-comm .sw { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
-.at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; }
-.at-comm .at-comm-count { color: #777; font-size: 11px; flex-shrink: 0; text-align: right; }
+.at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.at-comm .at-comm-count { color: #777; font-size: 11px; flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .at-comm .at-ab { margin-left: auto; }
 .at-compare-sets { display: flex; gap: 10px; margin-bottom: 8px; }
 .at-set { flex: 1; border: 1px solid #3a3a5e; border-radius: 8px; padding: 6px 8px; min-height: 42px; }
@@ -481,6 +562,7 @@ a.data-source:hover { border-color: #6b9bc7; }
 .at-set.b .at-set-chip { background: rgba(167,139,250,0.18); border-color: #a78bfa; color: #cbb8ff; }
 .at-set-chip button { background: none; border: none; color: inherit; cursor: pointer; font-size: 12px; line-height: 1; padding: 0; }
 .at-compare-btn { background: #4E79A7; border: none; color: #fff; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; }
+.at-compare-btn .enter-ico { font-size: 14px; vertical-align: -1px; margin-right: 3px; }
 .at-compare-btn:hover { background: #5d8ab8; }
 .at-compare-btn:disabled { background: #2a2a4e; color: #555; cursor: default; }
 .at-prompt-btn { background: #2a2a4e; border: 1px solid #4E79A7; color: #cfe3f5; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
@@ -610,6 +692,31 @@ a.data-source:hover { border-color: #6b9bc7; }
 .chat-msg.bot details.md-code > summary { cursor: pointer; padding: 6px 10px; color: #9a9ab0; font-size: .82rem; user-select: none; }
 .chat-msg.bot details.md-code > summary:hover { color: #7cb3d4; }
 .chat-msg.bot details.md-code > pre { margin: 0; border-top: 1px solid #2a2a4e; }
+/* Server-rendered HTML document injected inline (HTML response mode) */
+.chat-html-inline {
+  margin: 10px 0 4px; padding: 14px 16px;
+  background: #1a1a2e; border: 1px solid #2a2a4e; border-radius: 12px;
+  color: #e0e0e0; font-size: 14px; line-height: 1.6;
+}
+.chat-html-inline h1, .chat-html-inline h2, .chat-html-inline h3, .chat-html-inline h4 {
+  color: #e0e0e0; margin: 14px 0 8px; font-weight: 600; line-height: 1.25;
+}
+.chat-html-inline h1 { font-size: 19px; }
+.chat-html-inline h2 { font-size: 16px; }
+.chat-html-inline h3 { font-size: 14px; }
+.chat-html-inline p { margin: 8px 0; }
+.chat-html-inline a { color: #7cb3d4; text-decoration: none; border-bottom: 1px dotted rgba(62,201,167,.55); }
+.chat-html-inline a:hover { color: #a0d4f0; }
+.chat-html-inline svg { max-width: 100%; height: auto; display: block; }
+.chat-html-inline svg text { fill: #e0e0e0; font-family: inherit; }
+.chat-html-inline code { background: #0f0f1a; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+.chat-html-inline table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+.chat-html-inline th, .chat-html-inline td { border: 1px solid #2a2a4e; padding: 4px 8px; font-size: 13px; }
+.chat-html-inline th { background: #16162b; color: #aaa; }
+.chat-html-inline details.md-code { border: 1px solid #2a2a4e; border-radius: 8px; margin: 8px 0; background: #0f0f1a; overflow: hidden; }
+.chat-html-inline details.md-code > summary { cursor: pointer; padding: 6px 10px; color: #9a9ab0; font-size: .82rem; user-select: none; }
+.chat-html-inline details.md-code > summary:hover { color: #7cb3d4; }
+.chat-html-inline blockquote { border-left: 3px solid #4E79A7; padding: 6px 12px; margin: 8px 0; background: rgba(78,121,167,0.06); color: #bbb; }
 .chat-msg.error { background: #3a1a1a; color: #ff8888; align-self: center; font-size: 13px; }
 .chat-msg.typing { color: #888; align-self: flex-start; display: flex; align-items: center; gap: 8px; font-size: 13px; flex-wrap: wrap; }
 .typing-dots { display: inline-flex; gap: 3px; }
@@ -637,6 +744,22 @@ a.data-source:hover { border-color: #6b9bc7; }
   text-decoration-style: dotted;
 }
 .chat-node-link:hover { color: #a0d4f0; }
+
+/* Themed utilities for JS-generated inline content (sidebars, tooltips, chat).
+   Inline styles must NOT be used for theme-dependent colours — theme switching
+   (three-graph-light.css) only works through classes, so new markup should use
+   these instead of hard-coded hexes. */
+.chat-entity-link { color: #7cb3d4; text-decoration: underline; cursor: pointer; }
+.wiki-tooltip-hint { color: #666; font-size: 11px; margin-top: 4px; display: inline-block; }
+.typing-elapsed { color: #666; font-size: 12px; min-width: 42px; display: inline-block; }
+.chat-trace-toggle { cursor: pointer; color: #999; font-size: 11px; user-select: none; display: block; width: fit-content; }
+.chat-trace-content { display: none; margin-top: 4px; padding: 6px 8px; background: rgba(255, 255, 255, 0.04); border-radius: 4px; font-size: 12px; color: #888; max-height: 120px; overflow-y: auto; white-space: pre-wrap; }
+.zh-mini { color: #888; font-size: 11px; }
+.at-note { color: #666; font-weight: 400; text-transform: none; }
+.legend-zh { color: #888; font-size: 13px; }
+.trace-question { color: #aaa; font-size: 14px; margin-bottom: 6px; }
+.route-meta { color: #666; font-size: 13px; margin-left: 8px; }
+.route-mechanism { font-size: 15px; color: #bbb; line-height: 1.7; }
 
 #chat-modes {
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -756,11 +879,9 @@ a.data-source:hover { border-color: #6b9bc7; }
 }
 
 @media (max-width: 480px) {
-  /* Analysis panel: full-screen sheet over the graph. Close lives in the
-     sheet header and the controls analysis button reflects its state. */
-  #chat-panel { padding: 0; }
-  #chat-panel::before { display: none; }
-  #chat-box { width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 0; border: none; box-shadow: none; }
+  /* Analysis panel: full-viewport edge-to-edge overlay (base rules already
+     apply); the close button lives in the panel header and the controls
+     analysis button reflects its state. */
   #chat-header {
     align-items: center;
     gap: 8px;
@@ -791,4 +912,425 @@ a.data-source:hover { border-color: #6b9bc7; }
   #page-modal-header { gap: 8px; padding: 10px 12px; }
   #reader-select { min-width: 100px; }
   #page-modal-header h2 { font-size: 14px; }
+}
+
+/* ---------------------------------------------------------------------------
+   Notes panel (#notes-panel) — sibling of the analysis panel
+   --------------------------------------------------------------------------- */
+#controls #btn-notes { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
+#controls #btn-notes:hover { color: #e0e0e0; border-color: #4E79A7; }
+#controls #btn-notes.open { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
+
+#notes-panel {
+  position: fixed; inset: 0; z-index: 490;
+  display: none; align-items: stretch; justify-content: center;
+  padding: 10px;
+}
+#notes-panel.open { display: flex; }
+#notes-panel::before {
+  content: ''; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
+}
+#notes-box {
+  position: relative; z-index: 1;
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
+  width: 100%; max-width: 100%; height: 100%; max-height: 100%;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+#notes-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 16px; border-bottom: 1px solid #2a2a4e;
+  background: #16162b; flex-shrink: 0; gap: 10px;
+}
+/* Header action buttons — mirror the analysis panel's Reset/× styling */
+#notes-header .chat-header-actions button { font-family: inherit; }
+#notes-header button#notes-close {
+  background: none; border: none; color: #888;
+  font-size: 20px; line-height: 1; padding: 2px 6px; border-radius: 4px;
+  cursor: pointer; transition: color 0.15s, background 0.15s;
+}
+#notes-header button#notes-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.12); }
+/* Notes panel header title — same style as the Reader modal's h2 title
+   (e.g. "Reader / 閱讀器"): 16px, #e0e0e0, bold, normal letter-spacing. */
+#notes-header .chat-title { font-size: 16px; font-weight: 700; color: #e0e0e0; letter-spacing: normal; }
+#notes-header .chat-title-zh { color: inherit; font-weight: 700; }
+
+#notes-lightbox { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
+
+/* Browse view — flex child of #notes-box. Must be a constrained-height flex
+   column (min-height:0) so the gallery's own overflow-y:auto actually scrolls
+   instead of growing past the panel and getting clipped by overflow:hidden. */
+#notes-browse { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
+
+/* Filters bar */
+#notes-filters {
+  display: flex; align-items: center; gap: 8px; padding: 10px 14px;
+  border-bottom: 1px solid #2a2a4e; flex-wrap: wrap; flex-shrink: 0;
+}
+/* Search + document combobox: one field with free-text search, a document
+   chip (active doc filter), and a dropdown listing documents + note matches. */
+.notes-combobox { position: relative; flex: 1 1 240px; min-width: 180px; }
+.notes-combobox-field {
+  display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 3px 6px; cursor: text; min-height: 33px;
+  transition: border-color 0.15s;
+}
+.notes-combobox-field:focus-within { border-color: #4E79A7; }
+#notes-search {
+  flex: 1; min-width: 60px; background: transparent; border: none; outline: none;
+  color: #e0e0e0; font-size: 13px; font-family: inherit; padding: 4px 20px 4px 2px;
+}
+.notes-combobox-caret {
+  width: 14px; height: 14px; position: absolute; right: 8px; top: 50%;
+  transform: translateY(-50%); color: #888; pointer-events: none;
+}
+/* Clear-filter × inside the combobox — replaces the caret while a filter is
+   active (filterQ non-empty), so one click drops the search/filter back to the
+   full gallery. */
+.notes-combobox-clear {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  width: 18px; height: 18px; display: none; align-items: center; justify-content: center;
+  background: none; border: none; color: #9a9ab0; font-size: 15px; line-height: 1;
+  cursor: pointer; border-radius: 50%; padding: 0; font-family: inherit;
+}
+.notes-combobox-clear:hover { color: #e0e0e0; background: rgba(255,255,255,0.08); }
+#notes-combobox.filtering .notes-combobox-caret { display: none; }
+#notes-combobox.filtering .notes-combobox-clear { display: flex; }
+.notes-doc-field, #notes-upload #notes-doc-field {
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 7px 10px; font-size: 12px; font-family: inherit; max-width: 220px;
+}
+/* Shared dropdown (search/document combobox) */
+.notes-popup {
+  position: absolute; top: calc(100% + 5px); left: 0; right: 0;
+  background: #1a1a2e; border: 1px solid #4E79A7; border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.55);
+  max-height: 260px; overflow-y: auto; z-index: 305;
+}
+.notes-section-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: #888; padding: 8px 12px 4px; white-space: nowrap;
+}
+.notes-popup-item {
+  display: flex; align-items: center; gap: 4px; width: 100%;
+  padding: 8px 12px; background: none; border: none; border-bottom: 1px solid #2a2a4e;
+  cursor: pointer; font-size: 13px; color: #e0e0e0; font-family: inherit; text-align: left;
+}
+.notes-popup-item:last-child { border-bottom: none; }
+.notes-popup-item:hover, .notes-popup-item.active { background: rgba(78,121,167,0.22); }
+.notes-popup-item .popup-topic { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.notes-popup-item .popup-check { color: #7cb3d4; margin-left: auto; flex-shrink: 0; }
+.notes-popup-item .popup-sub { color: #888; font-size: 11px; flex-shrink: 0; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
+   match the filter inputs so the row stays aligned. */
+#notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }
+#notes-filters .lang-toggle button { font-size: 12px; padding: 8px 11px; }
+
+/* Gallery — min-height:0 is required so the grid's overflow-y:auto actually
+   engages: without it the flex item defaults to min-height:auto and grows to
+   fit all cards, overflowing the clipped Browse container instead of scrolling. */
+#notes-gallery {
+  flex: 1 1 auto; min-height: 0; overflow-y: auto; overflow-x: hidden; padding: 16px;
+  /* Simple aligned grid (no masonry): cards flow row-major into fixed
+     columns, aligned to the top of each row. They are never re-packed
+     vertically based on height. */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  align-items: start;
+  align-content: start;
+}
+/* Loading/empty/api-down states: center the spinner / message within the full
+   panel instead of pinning it to the top row of the grid. */
+#notes-gallery.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notes-card {
+  background: #23233f; border: 1px solid #3a3a5e; border-radius: 14px;
+  cursor: pointer; display: flex; flex-direction: column; min-width: 0;
+  /* No overflow:hidden here — it collapses the card to 2px inside the
+     scrollable grid (>= the reference style). The img-wrap clips its own top
+     corners instead, and the full title always renders. */
+  transition: border-color 0.15s, transform 0.1s;
+}
+.notes-card:hover { border-color: #4E79A7; transform: translateY(-2px); }
+.notes-card .img-wrap {
+  position: relative; background: #10101e; display: flex; align-items: center;
+  justify-content: center; padding: 14px; height: 300px;
+  /* Fixed-height image slot keeps card heights stable before lazy images load,
+     so re-balancing never shifts cards around while thumbnails stream in. */
+  border-radius: 14px 14px 0 0;
+}
+.notes-card .img-wrap img {
+  max-width: 100%; max-height: 100%; width: auto; height: auto;
+  object-fit: contain; border-radius: 8px; display: block;
+}
+.notes-card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1 1 0; min-width: 0; }
+.notes-card .fig-label {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--teal);
+  font-weight: 700; margin: 0; overflow-wrap: anywhere;
+}
+.notes-card-title {
+  color: #e8eef7; font-size: 14px; font-weight: 600; line-height: 1.35; margin: 0;
+  /* Long titles (with trailing filenames, em-dash compounds, etc.) must wrap
+     inside the card so the full title shows even on narrow mobile cards. */
+  overflow-wrap: anywhere; word-break: break-word; white-space: normal;
+}
+.notes-card .caption {
+  color: #9a9ab0; font-size: 12px; line-height: 1.5; margin: 2px 0 8px;
+}
+.notes-card .context {
+  font-size: 11px; color: #7c7c94; line-height: 1.45; border-top: 1px solid #3a3a5e;
+  padding-top: 10px; margin-top: auto; display: flex; flex-direction: column; gap: 6px;
+}
+.notes-card-meta { color: #7c7c94; font-size: 11px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.notes-badge { background: #2a2a4e; border: 1px solid #3a3a5e; color: #9ec1e8; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; white-space: nowrap; }
+.notes-badge.topic { color: var(--teal); }
+.notes-badge.ocr { color: #d2a8ff; }
+.notes-badge.draft { color: #E8A33D; }
+.notes-doc { overflow-wrap: anywhere; font-size: 10.5px; color: #7c7c94; }
+.notes-ocr-snip {
+  color: inherit; font-size: inherit; line-height: 1.5; max-height: 16em; overflow: hidden;
+  margin: 0;
+}
+/* Thin divider separating the card title from the transcript preview. */
+.notes-card-divider { border: none; border-top: 1px solid #3a3a5e; margin: 2px 0; }
+.notes-empty { padding: 40px 20px; text-align: center; color: #888; font-size: 13px; margin: auto; }
+.notes-loading { padding: 40px 20px; display: flex; flex-direction: column; align-items: center; gap: 14px; color: #888; font-size: 13px; margin: auto; }
+.notes-loading .spinner { width: 32px; height: 32px; border-width: 3px; margin-bottom: 0; }
+.notes-muted { color: #777; font-size: 12px; }
+.notes-muted code { background: #23233f; border: 1px solid #3a3a5e; border-radius: 4px; padding: 1px 6px; font-size: 11px; color: #cfe3f5; }
+
+/* Upload view */
+#notes-upload { padding: 14px 16px; overflow-y: auto; overflow-x: hidden; }
+.notes-drop {
+  border: 1.5px dashed #3a3a5e; border-radius: 10px; padding: 22px 16px; text-align: center;
+  color: #9a9ab0; background: #16162b; cursor: pointer; transition: border-color 0.15s;
+}
+.notes-drop:hover, .notes-drop.drag { border-color: #4E79A7; color: #e0e0e0; }
+.notes-drop-inner p { margin: 8px 0 12px; font-size: 13px; }
+.notes-drop-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.notes-drop-actions button, #notes-submit, .notes-ann-download, #notes-lb-edit {
+  background: #4E79A7; border: none; color: #fff; border-radius: 6px; padding: 8px 16px;
+  font-size: 13px; cursor: pointer; font-family: inherit;
+}
+.notes-drop-actions button:hover, #notes-submit:hover, .notes-ann-download:hover, #notes-lb-edit:hover { background: #5d8bbd; }
+.notes-page-grid { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
+.notes-page-thumb { position: relative; width: 112px; }
+.notes-page-thumb img { width: 112px; height: 84px; object-fit: cover; border-radius: 6px; border: 1px solid #3a3a5e; display: block; }
+.notes-page-thumb .page-num { position: absolute; left: 4px; bottom: 4px; background: rgba(0,0,0,0.65); color: #e0e0e0; font-size: 10px; padding: 1px 6px; border-radius: 8px; }
+.notes-page-thumb button.rm {
+  position: absolute; top: -6px; right: -6px; width: 20px; height: 20px; border-radius: 50%;
+  background: #c0392b; color: #fff; border: 1px solid #e74c3c; font-size: 11px; line-height: 1; cursor: pointer; padding: 0;
+}
+#notes-upload .at-section { margin-top: 4px; }
+.notes-details { display: flex; flex-direction: column; gap: 8px; padding: 4px 0 8px; }
+.notes-field { display: flex; flex-direction: column; gap: 4px; }
+.notes-field label { color: #9a9ab0; font-size: 12px; }
+.notes-field input, .notes-field select {
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 8px 10px; font-size: 13px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+.notes-field input:focus, .notes-field select:focus, #notes-search:focus { outline: none; border-color: #4E79A7; }
+.notes-upload-submit { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+.notes-upload-status { color: var(--teal); font-size: 12px; }
+.notes-upload-status.error { color: #ff7b72; }
+
+/* Lightbox */
+.notes-lb-top {
+  display: flex; flex-direction: column; gap: 6px; padding: 10px 14px;
+  border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0;
+}
+.notes-lb-topbar { display: flex; align-items: center; gap: 10px; }
+.notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
+  background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px;
+  font-size: 12px; padding: 5px 10px; cursor: pointer; font-family: inherit;
+}
+/* Keep the Back button at a fixed size regardless of how long the note title
+   is. Its right auto-margin (paired with the toggle's left auto-margin) splits
+   the free space evenly, centering the Prev/Next cluster between them. */
+#notes-lb-back { flex: 0 0 auto; margin-right: auto; }
+#notes-lb-top-next { flex: 0 0 auto; white-space: nowrap; }
+#notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; }
+/* EN/中 toggle in the lightbox top bar — same component as the gallery filters
+   bar (and its segmented look), pinned to the far right of the row. */
+.notes-lb-topbar > .lang-toggle { margin-left: auto; border-radius: 6px; }
+.notes-lb-topbar > .lang-toggle button,
+.notes-lb-topbar > .lang-toggle button:hover {
+  background: transparent; border: none; border-radius: 0; color: #888;
+  font-size: 12px; line-height: 1; padding: 8px 11px;
+}
+.notes-lb-topbar > .lang-toggle button:hover:not(.active) { color: #e0e0e0; }
+.notes-lb-topbar > .lang-toggle button.active,
+.notes-lb-topbar > .lang-toggle button.active:hover { background: #4E79A7; color: #fff; }
+.notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
+.notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
+.notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
+.notes-lb-title { flex: 1 1 auto; min-width: 0; color: #e8eef7; font-size: 15px; font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
+.notes-lb-actions { display: flex; gap: 8px; flex-shrink: 0; }
+
+.notes-lb-body { flex: 1 1 auto; min-height: 0; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(280px, 1fr); grid-template-rows: minmax(0, 1fr) auto; grid-template-areas: "stage side" "pages side"; }
+.notes-lb-stage { grid-area: stage; position: relative; display: flex; flex-direction: column; min-height: 0; }
+.notes-lb-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 4; }
+.notes-lb-stage .notes-lb-nav:first-child { left: 10px; }
+.notes-lb-stage .notes-lb-nav:last-child { right: 10px; }
+.notes-lb-nav button { box-shadow: 0 2px 10px rgba(0,0,0,0.35); background: rgba(16,16,30,0.85); backdrop-filter: blur(3px); font-size: 15px; padding: 6px 12px; }
+.notes-lb-imgwrap {
+  flex: 1 1 auto; min-height: 0; position: relative; overflow: hidden;
+  background: #10101e; display: flex; align-items: center; justify-content: center;
+  touch-action: none; cursor: grab;
+}
+.notes-lb-imgwrap.panning { cursor: grabbing; }
+.notes-lb-zoomable { position: relative; transform-origin: center center; transition: transform 0.08s linear; line-height: 0; }
+.notes-lb-zoomable img { display: block; max-width: 100%; max-height: calc(100dvh - 140px); }
+#notes-lb-svg { position: absolute; inset: 0; pointer-events: none; }
+#notes-lb-svg .ann { pointer-events: auto; cursor: pointer; }
+#notes-lb-svg text { font-family: inherit; font-size: 16px; paint-order: stroke; stroke: #0a0a14; stroke-width: 3px; stroke-linejoin: round; }
+.notes-lb-zoom { position: absolute; right: 12px; bottom: 12px; display: flex; gap: 6px; z-index: 3; }
+.notes-lb-zoom button { background: rgba(16,16,30,0.85); backdrop-filter: blur(3px); }
+.notes-lb-pages {
+  grid-area: pages;
+  display: flex; gap: 8px; padding: 8px 12px; background: #16162b; overflow-x: auto; flex-shrink: 0;
+  border-top: 1px solid #2a2a4e;
+}
+.notes-lb-pages button {
+  flex: none; width: 52px; height: 40px; padding: 0; overflow: hidden; border-radius: 5px; border-width: 1px;
+}
+.notes-lb-pages button img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.75; }
+.notes-lb-pages button.page-active { border-color: #4E79A7; }
+.notes-lb-pages button.page-active img { opacity: 1; }
+
+.notes-lb-side { grid-area: side; min-height: 0; border-left: 1px solid #2a2a4e; overflow-y: auto; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; }
+.notes-lb-side .at-h { margin: 0; }
+.notes-lb-ocr {
+  background: #16162b; border: 1px solid #2a2a4e; border-radius: 6px; padding: 10px;
+  font-size: 12px; line-height: 1.5; color: #cfe3f5;
+  white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; font-family: inherit;
+}
+.notes-lb-ocr.loading::after { content: '…'; color: #E8A33D; }
+.notes-lb-ocr.ocr-warn { color: #E8A33D; }
+
+/* Transcript "→ Prompt" send button + inline status hint */
+.at-h-right { display: inline-flex; align-items: center; gap: 8px; flex: none; min-width: 0; }
+.notes-prompt-btn {
+  background: none; border: 1px solid #4E79A7; color: #9ec1e8; border-radius: 6px;
+  font-size: 11px; padding: 3px 10px; cursor: pointer; font-family: inherit; line-height: 1.4;
+  transition: background 0.15s, color 0.15s; flex: none;
+}
+.notes-prompt-btn:hover { background: #4E79A7; color: #fff; }
+.notes-prompt-btn:disabled { opacity: 0.45; cursor: default; }
+.notes-prompt-btn:disabled:hover { background: none; color: #9ec1e8; }
+.notes-lb-status {
+  color: #E8A33D; font-size: 11px; line-height: 1.4; white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis; max-width: 220px;
+}
+
+/* Fullscreen "View" mode: image fills the panel, side details hidden */
+.notes-lb-body.view-mode {
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-areas: "stage" "pages";
+}
+.notes-lb-body.view-mode .notes-lb-side { display: none; }
+.notes-chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.notes-chip {
+  background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 12px;
+  padding: 3px 10px; font-size: 11.5px; cursor: pointer; font-family: inherit;
+}
+.notes-chip:hover { border-color: #4E79A7; color: #fff; }
+.notes-chip.topic-chip { color: var(--teal); }
+.notes-chip.tag-chip { color: #9a9ab0; cursor: default; }
+.notes-chip.del { color: #ff7b72; }
+.notes-chip.del:hover { border-color: #e2534a; }
+.notes-edit-input {
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 6px 9px; font-size: 12px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+.notes-edit-input:focus { outline: none; border-color: #4E79A7; }
+
+.notes-ann-tools { display: flex; gap: 6px; flex-wrap: wrap; }
+.notes-ann-tools button { background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px; font-size: 11.5px; padding: 5px 9px; cursor: pointer; font-family: inherit; }
+.notes-ann-colors { display: flex; gap: 6px; }
+/* "Clear" button — sits inline with the last tool (A Label) in the tools row,
+   pushed to the very right via margin-left:auto. Disabled until the current
+   page has an annotation (see renderAnnotations). */
+#notes-lb-ann-clear {
+  margin-left: auto; align-self: center;
+  background: #e2534a; border: 1px solid #e2534a; color: #fff;
+  border-radius: 6px; font-size: 13px; padding: 6px 16px; cursor: pointer; font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
+}
+#notes-lb-ann-clear:hover { background: #c23d35; border-color: #c23d35; color: #fff; }
+#notes-lb-ann-clear:disabled { background: #3a3a5e; border-color: #3a3a5e; color: #9a9ab0; cursor: default; }
+
+/* Annotation label input modal */
+#notes-label-modal {
+  position: fixed; inset: 0; z-index: 600;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px; background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(3px);
+}
+#notes-label-modal[hidden] { display: none; }
+.notes-label-box {
+  width: 100%; max-width: 380px; background: #1a1a2e; border: 1px solid #3a3a5e;
+  border-radius: 10px; box-shadow: 0 12px 48px rgba(0,0,0,0.6); padding: 16px;
+  display: flex; flex-direction: column; gap: 12px;
+}
+#notes-label-input {
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 8px 10px; font-size: 14px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+#notes-label-input:focus { outline: none; border-color: #4E79A7; }
+.notes-label-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.notes-label-actions button {
+  border-radius: 6px; font-size: 13px; padding: 7px 16px; cursor: pointer; font-family: inherit;
+}
+#notes-label-cancel { background: none; border: 1px solid #3a3a5e; color: #9a9ab0; }
+#notes-label-cancel:hover { border-color: #4E79A7; color: #e0e0e0; }
+#notes-label-ok { background: #4E79A7; border: 1px solid #4E79A7; color: #fff; }
+#notes-label-ok:hover { background: #5d8bbd; border-color: #5d8bbd; }
+.notes-ann-colors button { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #3a3a5e; cursor: pointer; padding: 0; }
+.notes-ann-colors button.active { border-color: #fff; }
+/* Download button: a small icon button that sits inline in the zoom cluster,
+   to the right of the View button. Matches the Fit/View button look. */
+.notes-ann-download {
+  width: 30px; height: 30px; padding: 0;
+  background: rgba(16, 16, 30, 0.85); backdrop-filter: blur(3px);
+  border: 1px solid #3a3a5e; border-radius: 6px; color: #9a9ab0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: inherit; font-size: 12px; cursor: pointer;
+}
+.notes-ann-download:hover {
+  background: rgba(16, 16, 30, 0.85); border-color: #4E79A7; color: #e0e0e0;
+}
+
+/* The `hidden` attribute must win over the layout display rules below
+   (author styles otherwise override the UA `[hidden] { display:none }`). */
+#notes-browse[hidden],
+#notes-upload[hidden],
+#notes-lightbox[hidden] { display: none !important; }
+
+@media (max-width: 900px) {
+  .notes-lb-body { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1.1fr) auto minmax(0, 1fr); grid-template-areas: "stage" "pages" "side"; }
+  .notes-lb-body.view-mode { grid-template-rows: minmax(0, 1fr) auto; grid-template-areas: "stage" "pages"; }
+  .notes-lb-side { border-left: none; border-top: 1px solid #2a2a4e; }
+}
+@media (max-width: 480px) {
+  #notes-panel { padding: 0; }
+  #notes-panel::before { display: none; }
+  #notes-box { border-radius: 0; border: none; }
+  #notes-header {
+    padding: 8px 12px calc(8px + env(safe-area-inset-top));
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  /* Single row like the analysis panel: Notes + Close. Match the Reader title's
+     mobile size (14px) so the Notes title stays consistent with it. */
+  #notes-header .chat-title { font-size: 14px; }
+  #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
+  #notes-gallery { gap: 10px; padding: 12px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  #notes-gallery .notes-card .img-wrap { height: 220px; }
 }

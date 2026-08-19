@@ -42,7 +42,7 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
@@ -50,6 +50,7 @@ async function loadAllData() {
     getJSON('manifest.json', 'manifest'),
     getJSON('query.json', 'traces'),
     getJSON('translations-zh-TW.json', 'translations'),
+    getJSON('articles.json', 'articles'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
@@ -59,10 +60,11 @@ async function loadAllData() {
     MANIFEST: MANIFEST || {},
     TRACES: TRACES || [],
     TRANSLATIONS: TRANSLATIONS || {},
+    ARTICLES: ARTICLES || [],
   };
 }
 
-export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS } = await loadAllData();
+export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES } = await loadAllData();
 
 export const nodeMap = new Map();
 RAW_NODES.forEach(n => nodeMap.set(n.id, n));

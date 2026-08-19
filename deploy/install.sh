@@ -186,7 +186,7 @@ systemctl is-active --quiet opencode-serve.service \
 systemctl is-active --quiet wiki-api.service \
   || die "wiki-api failed: journalctl -u wiki-api -n 50"
 
-curl -fsS http://127.0.0.1:8000/health | python3 -m json.tool
+curl -fsS http://127.0.0.1:8000/v1/health | python3 -m json.tool
 
 cat <<EOF
 
