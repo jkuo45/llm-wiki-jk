@@ -390,6 +390,8 @@ async function loadIndex() {
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
     populatePickers();
+    // If the user opened the combobox before the fetch resolved, fill it now.
+    if (!comboboxPopup.hidden) renderCombobox();
     loaded = true;
   } catch (err) {
     apiDown = true;
@@ -558,17 +560,17 @@ function searchMatches() {
       (n.entities || []).join(' '), (n.tags || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
-  }).slice(0, 6);
+  }).slice(0, 12);
 }
 
-// Render the dropdown: a Notes section (recent notes when empty, matches while
-// typing) plus a Documents section to filter by document.
+// Render the dropdown: a Notes section (all note/image titles when empty,
+// matching notes while typing) plus a Documents section to filter by document.
 function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
   const docs = documentOptions();
-  // Populate the dropdown immediately on open with the most recent notes; narrow
-  // to matching notes once the user types. `notes` is newest-first from the API.
-  const matches = q ? searchMatches() : notes.slice(0, 8);
+  // Populate with every note's title (the image name from the manifest) on
+  // open; narrow to matches once the user types. `notes` is newest-first.
+  const matches = q ? searchMatches() : notes;
   const mDocs = q
     ? docs.filter((d) => d.label.toLowerCase().includes(q) || d.value.toLowerCase().includes(q))
     : docs;
