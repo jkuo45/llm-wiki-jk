@@ -951,6 +951,10 @@ a.data-source:hover { border-color: #6b9bc7; }
   cursor: pointer; transition: color 0.15s, background 0.15s;
 }
 #notes-header button#notes-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.12); }
+/* Notes panel header title — same style as the Reader modal's h2 title
+   (e.g. "Reader / 閱讀器"): 16px, #e0e0e0, bold, normal letter-spacing. */
+#notes-header .chat-title { font-size: 16px; font-weight: 700; color: #e0e0e0; letter-spacing: normal; }
+#notes-header .chat-title-zh { color: inherit; font-weight: 700; }
 
 #notes-lightbox { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
 
@@ -1010,7 +1014,7 @@ a.data-source:hover { border-color: #6b9bc7; }
   color: #888; padding: 8px 12px 4px; white-space: nowrap;
 }
 .notes-popup-item {
-  display: flex; align-items: center; gap: 8px; width: 100%;
+  display: flex; align-items: center; gap: 4px; width: 100%;
   padding: 8px 12px; background: none; border: none; border-bottom: 1px solid #2a2a4e;
   cursor: pointer; font-size: 13px; color: #e0e0e0; font-family: inherit; text-align: left;
 }
@@ -1146,13 +1150,23 @@ a.data-source:hover { border-color: #6b9bc7; }
   background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px;
   font-size: 12px; padding: 5px 10px; cursor: pointer; font-family: inherit;
 }
-/* Keep the Back button at a fixed size regardless of how long the note title is. */
-#notes-lb-back { flex: 0 0 auto; }
+/* Keep the Back button at a fixed size regardless of how long the note title
+   is. Its right auto-margin (paired with the toggle's left auto-margin) splits
+   the free space evenly, centering the Prev/Next cluster between them. */
+#notes-lb-back { flex: 0 0 auto; margin-right: auto; }
 #notes-lb-top-next { flex: 0 0 auto; white-space: nowrap; }
 #notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; }
-/* Center the language-toggle with even margins; drop the outer border so the
-   cluster reads as a clean segmented control against the header. */
-#notes-lb-lang { margin: 0 auto; border: none; }
+/* EN/中 toggle in the lightbox top bar — same component as the gallery filters
+   bar (and its segmented look), pinned to the far right of the row. */
+.notes-lb-topbar > .lang-toggle { margin-left: auto; border-radius: 6px; }
+.notes-lb-topbar > .lang-toggle button,
+.notes-lb-topbar > .lang-toggle button:hover {
+  background: transparent; border: none; border-radius: 0; color: #888;
+  font-size: 12px; line-height: 1; padding: 8px 11px;
+}
+.notes-lb-topbar > .lang-toggle button:hover:not(.active) { color: #e0e0e0; }
+.notes-lb-topbar > .lang-toggle button.active,
+.notes-lb-topbar > .lang-toggle button.active:hover { background: #4E79A7; color: #fff; }
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
 .notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
@@ -1313,9 +1327,9 @@ a.data-source:hover { border-color: #6b9bc7; }
     flex-wrap: nowrap;
     gap: 8px;
   }
-  /* Single row like the analysis panel: Notes + Close. Shrink the title so it
-     fits on phones. */
-  #notes-header .chat-title { font-size: 13px; }
+  /* Single row like the analysis panel: Notes + Close. Match the Reader title's
+     mobile size (14px) so the Notes title stays consistent with it. */
+  #notes-header .chat-title { font-size: 14px; }
   #notes-upload { padding-bottom: calc(14px + env(safe-area-inset-bottom)); }
   #notes-gallery { gap: 10px; padding: 12px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
   #notes-gallery .notes-card .img-wrap { height: 220px; }

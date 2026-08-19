@@ -224,6 +224,8 @@ body {
 #chat-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
 #chat-header span, .chat-title { color: #4B5563; }
 .chat-title-zh { color: #9AA4B3; }
+/* Notes panel header title — mirrors the Reader's light-theme h2 color. */
+#notes-header .chat-title { color: #22304A; }
 #chat-mode-switch { border-color: #CCC5B2; }
 .chat-mode-tab { color: #7C8698; }
 .chat-mode-tab:hover { color: #22304A; }
@@ -410,6 +412,13 @@ body {
 .notes-lb-top .lang-toggle button + button { border-left-color: #CCC5B2; }
 .notes-lb-top .lang-toggle button:hover:not(.active) { color: #22304A; }
 .notes-lb-top .lang-toggle button.active { background: #0F766E; color: #fff; }
+.notes-lb-topbar > .lang-toggle button,
+.notes-lb-topbar > .lang-toggle button:hover {
+  background: transparent; border: none; border-radius: 0; color: #7C8698;
+}
+.notes-lb-topbar > .lang-toggle button:hover:not(.active) { color: #22304A; }
+.notes-lb-topbar > .lang-toggle button.active,
+.notes-lb-topbar > .lang-toggle button.active:hover { background: #0F766E; color: #fff; }
 .notes-card { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 .notes-card:hover { border-color: #0F766E; }
 .notes-card .img-wrap { background: #ECE8DD; }
