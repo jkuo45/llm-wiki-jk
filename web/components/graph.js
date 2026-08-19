@@ -13,7 +13,7 @@ import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: chat.js attaches its own listeners.
-import './chat.js';
+import { applyAnalysisUiLang } from './chat.js';
 // Notes panel (gallery / upload / lightbox).
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
 // Side-effect import: theme.js wires the Settings tab theme toggle.
@@ -212,6 +212,7 @@ async function restoreFromHash(params) {
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
     const tab = document.querySelector(`.chat-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
+    applyAnalysisUiLang(params.uilang);
   } else if (!notesActive && analysisBtn.classList.contains('open')) {
     analysisBtn.click();
   }

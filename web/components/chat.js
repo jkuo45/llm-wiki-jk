@@ -26,6 +26,7 @@ const chatMessages = document.getElementById('chat-messages');
 const chatInput = document.getElementById('chat-input');
 const chatSend = document.getElementById('chat-send');
 const chatCloseBtn = document.getElementById('chat-close');
+const chatLangBtns = Array.from(document.querySelectorAll('#chat-panel .lang-toggle [data-lang]'));
 const chatFilterToggle = document.getElementById('chat-filter-toggle');
 const chatFilterCheckbox = document.getElementById('chat-filter-nodes');
 const chatFilterCount = document.getElementById('chat-filter-count');
@@ -60,6 +61,220 @@ let chatActive = false;
 let chatSessionId = null;
 
 // ------------------------------------------------------------
+// UI language (EN / 中) — panel chrome strings for the whole analysis panel.
+// Sibling of the Notes panel's language toggle: `uiLang` drives both the
+// Prompt and Graph (Explore) surfaces. Persisted across visits, synced to the
+// URL hash by routing.js (`&uilang=`), and restored from deep links.
+// ------------------------------------------------------------
+let uiLang = 'en-US';
+try {
+  const savedLang = localStorage.getItem('llm-wiki-analysis-ui-lang');
+  if (savedLang === 'en-US' || savedLang === 'zh-TW') uiLang = savedLang;
+} catch (e) { /* localStorage unavailable — keep the default */ }
+
+const UI_STRINGS = {
+  'en-US': {
+    panelClose: 'Close panel',
+    panelLanguage: 'Panel language',
+    langEn: 'English (US)',
+    langZh: '繁體中文（台灣）',
+    modeSwitchLabel: 'Analysis mode',
+    modeAsk: 'Prompt',
+    modeGraph: 'Graph',
+    filterLabel: 'Filter',
+    filterTitle: 'Only show the highlighted nodes and their links',
+    graphifyLabel: 'Graphify',
+    graphifyTitle: 'On: run graph operations (explain / trace / path). Off: answer from the wiki.',
+    graphifyOff: 'Wiki retrieval',
+    respModeLabel: 'MODE',
+    respModeAskTitle: 'Render response as inline markdown',
+    respModeHtmlTitle: 'Render response as a standalone HTML page',
+    sendLabel: 'Send',
+    sendTitle: 'Send',
+    inputPlaceholderGraphOn: 'Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)',
+    inputPlaceholderGraphOff: 'Analyze the wiki — type @ to tag nodes (e.g. @NAD+ @SIRT1)',
+    thinking: 'Thinking',
+    answering: 'Answering',
+    translating: 'Translating',
+    serverError: 'Server error',
+    streamError: 'Stream error. Please try again.',
+    noResponse: 'No response received.',
+    couldNotReach: 'Could not reach the chat server.',
+    copy: 'Copy to clipboard',
+    copied: 'Copied',
+    openHtmlPage: 'Open HTML page ↗',
+    openHtmlTitle: 'Open this response as a standalone HTML page',
+    removeTag: 'Remove tag',
+    tagHint: 'Remove tag',
+    suggestMore: 'Suggest more analyses',
+    // Explore / Graph analytics
+    datasetOverview: 'Dataset Overview',
+    networkTopology: 'Network Topology',
+    communities: 'Communities',
+    communityNote: 'by community',
+    topHubs: 'Top Hubs',
+    hubsNote: 'by degree — click to focus, A/B to compare',
+    connectors: 'Connectors / Bridges',
+    connectorsNote: 'by betweenness',
+    pagerankLeaders: 'PageRank Leaders',
+    pagerankNote: 'by pagerank',
+    compareTitle: 'Compare Two Node Sets',
+    compareHint: 'Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths. Press Enter to run the comparison.',
+    setALabel: 'Set A',
+    setBLabel: 'Set B',
+    addToSetA: 'Add to Set A',
+    addToSetB: 'Add to Set B',
+    addCommToSetA: 'Add community to Set A',
+    addCommToSetB: 'Add community to Set B',
+    runCompare: 'A and B',
+    runCompareTitle: 'Analyze Set A vs Set B — or press Enter',
+    promptBtn: '→ Prompt',
+    promptBtnTitle: 'Send this selection to the Prompt panel as an analysis query',
+    reset: 'Reset',
+    resetTitle: 'Reset analysis',
+    saveBtn: 'Save',
+    saveBtnTitle: 'Export this selection as JSON',
+    clearHighlights: 'Clear highlights',
+    metricNodes: 'Nodes',
+    metricEdges: 'Edges',
+    metricCommunities: 'Communities',
+    metricAvgDegree: 'Avg degree',
+    metricDensity: 'Density',
+    metricGodNodes: 'God nodes',
+    topoMeanClustering: 'Mean clustering',
+    topoMaxKCore: 'Max k-core',
+    topoMeanPagerank: 'Mean pagerank',
+    topoMedianDegree: 'Median degree',
+    topoBridges: 'Bridging nodes',
+    compareEmpty: 'Add at least one node or community to both Set A and Set B.',
+    compareSetA: 'Set A',
+    compareSetB: 'Set B',
+    compareNeighborhoodA: 'Neighborhood (incl. neighbors) A',
+    compareNeighborhoodB: 'Neighborhood (incl. neighbors) B',
+    compareSharedNeighborhood: 'Shared neighborhood',
+    compareJaccard: 'Jaccard',
+    compareShortestPath: 'Shortest A → B',
+    compareSteps: 'Steps',
+    compareNoPath: 'No direct path within 6 steps.',
+    exportNeedSelection: 'Add nodes or communities to Set A / Set B before exporting.',
+    promptNeedSelection: 'Add nodes or communities to Set A / Set B before sending to Prompt.',
+    nodeInfoLabel: 'Details',
+    focusNode: 'Focus',
+    // Per-node topology labels
+    propertyCommunity: 'Community',
+    propertyDegree: 'Degree',
+    propertyPagerank: 'Pagerank',
+    propertyBetweenness: 'Betweenness',
+    propertyClustering: 'Clustering',
+    propertyKCore: 'k-core',
+    propertySource: 'Source file',
+    // Analysis download actions
+    downloadJson: 'Download analysis as JSON',
+    downloadPng: 'Download highlighted subgraph as PNG',
+  },
+  'zh-TW': {
+    panelClose: '關閉面板',
+    panelLanguage: '面板語言',
+    langEn: '英語（美國）',
+    langZh: '繁體中文（台灣）',
+    modeSwitchLabel: '分析模式',
+    modeAsk: '提示',
+    modeGraph: '圖譜',
+    filterLabel: '篩選',
+    filterTitle: '只顯示被高亮的節點及其連結',
+    graphifyLabel: '圖譜化',
+    graphifyTitle: '開啟：執行圖譜操作（說明 / 追蹤 / 路徑）。關閉：由 wiki 回答。',
+    graphifyOff: 'Wiki 檢索',
+    respModeLabel: '模式',
+    respModeAskTitle: '以內嵌 Markdown 呈現回應',
+    respModeHtmlTitle: '以獨立 HTML 頁面呈現回應',
+    sendLabel: '傳送',
+    sendTitle: '傳送',
+    inputPlaceholderGraphOn: '分析圖譜 — 輸入 @ 標記節點（例如 @NAD+ @SIRT1）',
+    inputPlaceholderGraphOff: '分析 wiki — 輸入 @ 標記節點（例如 @NAD+ @SIRT1）',
+    thinking: '思考中',
+    answering: '回答中',
+    translating: '翻譯中',
+    serverError: '伺服器錯誤',
+    streamError: '串流錯誤，請重試。',
+    noResponse: '未收到回應。',
+    couldNotReach: '無法連線至聊天伺服器。',
+    copy: '複製到剪貼簿',
+    copied: '已複製',
+    openHtmlPage: '以 HTML 頁面開啟 ↗',
+    openHtmlTitle: '以獨立 HTML 頁面開啟此回應',
+    removeTag: '移除標記',
+    tagHint: '移除標記',
+    suggestMore: '產生更多分析建議',
+    datasetOverview: '資料集概覽',
+    networkTopology: '網路拓撲',
+    communities: '社群',
+    communityNote: '依社群',
+    topHubs: '高樞紐節點',
+    hubsNote: '依度數 — 點擊聚焦，A/B 比較',
+    connectors: '橋接節點',
+    connectorsNote: '依介數',
+    pagerankLeaders: 'PageRank 領袖',
+    pagerankNote: '依 PageRank',
+    compareTitle: '比較兩個節點集合',
+    compareHint: '透過 A/B 按鈕將節點——或整個社群——加入集合 A（藍色）或集合 B（紫色），比較它們的共同鄰域、Jaccard 相似度與最短路徑。按 Enter 執行比較。',
+    setALabel: '集合 A',
+    setBLabel: '集合 B',
+    addToSetA: '加入集合 A',
+    addToSetB: '加入集合 B',
+    addCommToSetA: '將社群加入集合 A',
+    addCommToSetB: '將社群加入集合 B',
+    runCompare: 'A 和 B',
+    runCompareTitle: '分析集合 A 與 B — 或按 Enter',
+    promptBtn: '→ 提示',
+    promptBtnTitle: '將此選擇傳送至 Prompt 面板作為分析查詢',
+    reset: '重設',
+    resetTitle: '重設分析',
+    saveBtn: '儲存',
+    saveBtnTitle: '匯出選擇為 JSON',
+    clearHighlights: '清除高亮',
+    metricNodes: '節點',
+    metricEdges: '邊',
+    metricCommunities: '社群',
+    metricAvgDegree: '平均度數',
+    metricDensity: '密度',
+    metricGodNodes: '關鍵節點',
+    topoMeanClustering: '平均聚類係數',
+    topoMaxKCore: '最大 k-core',
+    topoMeanPagerank: '平均 PageRank',
+    topoMedianDegree: '中位數度數',
+    topoBridges: '橋接節點',
+    compareEmpty: '請在集合 A 與集合 B 中至少各加入一個節點或社群。',
+    compareSetA: '集合 A',
+    compareSetB: '集合 B',
+    compareNeighborhoodA: '鄰域（含鄰居）A',
+    compareNeighborhoodB: '鄰域（含鄰居）B',
+    compareSharedNeighborhood: '共同鄰域',
+    compareJaccard: 'Jaccard',
+    compareShortestPath: 'A → B 最短路徑',
+    compareSteps: '步數',
+    compareNoPath: '在 6 步內無直接路徑。',
+    exportNeedSelection: '請先在集合 A / B 加入節點或社群再匯出。',
+    promptNeedSelection: '請先在集合 A / B 加入節點或社群再傳送至提示。',
+    nodeInfoLabel: '詳情',
+    focusNode: '聚焦',
+    propertyCommunity: '社群',
+    propertyDegree: '度數',
+    propertyPagerank: 'PageRank',
+    propertyBetweenness: '介數',
+    propertyClustering: '聚類',
+    propertyKCore: 'k-core',
+    propertySource: '來源檔案',
+    downloadJson: '下載分析 JSON',
+    downloadPng: '下載高亮子圖 PNG',
+  },
+};
+
+function t(key) {
+  return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
+}
+
+// ------------------------------------------------------------
 // Graphify routing switch
 // ------------------------------------------------------------
 // Checked (default): every turn is routed through a graphify graph operation
@@ -74,13 +289,61 @@ function syncGraphifyUI() {
   const on = graphifyEnabled();
   chatModes.classList.toggle('graphify-off', !on);
   chatInput.placeholder = on
-    ? 'Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)'
-    : 'Analyze the wiki — type @ to tag nodes (e.g. @NAD+ @SIRT1)';
+    ? t('inputPlaceholderGraphOn')
+    : t('inputPlaceholderGraphOff');
 }
 
 graphifyCheckbox.addEventListener('change', () => {
   syncGraphifyUI();
   chatInput.focus();
+});
+
+// ------------------------------------------------------------
+// UI language — sibling of the Notes panel's toggle. Apply the active language
+// to the whole analysis panel: toggle the EN/中 buttons, rewrite data-i18n
+// labels/titles on static chrome, re-render the active view, and sync state.
+// ------------------------------------------------------------
+function applyUiLang(lang) {
+  if (lang !== 'en-US' && lang !== 'zh-TW') lang = 'en-US';
+  uiLang = lang;
+  try { localStorage.setItem('llm-wiki-analysis-ui-lang', uiLang); } catch (e) { /* ignore */ }
+  state.analysisUiLang = uiLang;
+
+  chatLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
+  [...chatLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
+  const langToggle = document.getElementById('chat-lang');
+  if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
+
+  chatPanel.querySelectorAll('[data-i18n]').forEach((el) => {
+    const key = el.dataset.i18n;
+    if (key && t(key)) { el.textContent = t(key); el.setAttribute('aria-label', t(key)); }
+  });
+  chatPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
+    const key = el.dataset.i18nTitle;
+    if (key && t(key)) el.title = t(key);
+  });
+  chatCloseBtn.setAttribute('aria-label', t('panelClose'));
+  // Response-mode button tooltips (chrome without data-i18n markers).
+  document.querySelectorAll('#response-mode .resp-mode-btn').forEach((b) => {
+    b.title = t(b.dataset.mode === 'md' ? 'respModeAskTitle' : 'respModeHtmlTitle');
+  });
+
+  syncGraphifyUI();
+  if (panelMode === 'explore') renderAnalysisTools();
+  updateHash();
+}
+
+// Restore the analysis panel's UI language from URL-hash params during hash
+// restore (graph.js restoreFromHash). `updateHash` is suppressed by the caller.
+export function applyAnalysisUiLang(lang) {
+  if ((lang === 'en-US' || lang === 'zh-TW') && lang !== uiLang) applyUiLang(lang);
+}
+
+chatLangBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const lang = btn.dataset.lang;
+    if (lang && lang !== uiLang) applyUiLang(lang);
+  });
 });
 
 // ------------------------------------------------------------
@@ -204,7 +467,7 @@ const COPY_ICON = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" s
 function addCopyButton(div, text) {
   const btn = document.createElement('button');
   btn.className = 'chat-copy-btn';
-  btn.title = 'Copy to clipboard / 複製';
+  btn.title = t('copy');
   btn.setAttribute('aria-label', 'Copy message');
   btn.innerHTML = COPY_ICON;
   btn.addEventListener('click', async (e) => {
@@ -222,12 +485,12 @@ function addCopyButton(div, text) {
         document.body.removeChild(ta);
       }
       btn.classList.add('copied');
-      btn.title = 'Copied / 已複製';
+      btn.title = t('copied');
       btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
       setTimeout(() => {
         btn.classList.remove('copied');
         btn.innerHTML = COPY_ICON;
-        btn.title = 'Copy to clipboard / 複製';
+        btn.title = t('copy');
       }, 1500);
     } catch (err) {
       console.error('Copy failed:', err);
@@ -243,8 +506,8 @@ function addOpenHtmlButton(div, text, query) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'chat-page-btn';
-  btn.textContent = 'Open HTML page ↗';
-  btn.title = 'Open this response as a standalone HTML page / 以 HTML 頁面開啟';
+  btn.textContent = t('openHtmlPage');
+  btn.title = t('openHtmlTitle');
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
     openHtmlMode(text, suggestPageTitle(text, query));
@@ -561,7 +824,7 @@ async function sendChatMessage() {
   chatActive = true;
   refreshActivity();
 
-  const typingDiv = addChatMessage('Thinking', 'typing');
+  const typingDiv = addChatMessage(t('thinking'), 'typing');
   typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" class="typing-elapsed"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
 
   const typingStart = performance.now();
@@ -585,7 +848,7 @@ async function sendChatMessage() {
 
     if (!intentResp.ok) {
       chatMessages.removeChild(typingDiv);
-      addChatMessage('Server error', 'error');
+      addChatMessage(t('serverError'), 'error');
       return;
     }
 
@@ -599,7 +862,7 @@ async function sendChatMessage() {
     const willTranslate = intentData.lang && intentData.lang !== 'en'
       && ['query', 'explain', 'path', 'analyze'].includes(intentData.intent);
     if (willTranslate) {
-      typingDiv.querySelector('#typing-label').textContent = 'Translating';
+      typingDiv.querySelector('#typing-label').textContent = t('translating');
     }
 
     if (intentData.intent === 'chat' && intentData.message) {
@@ -613,7 +876,7 @@ async function sendChatMessage() {
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage('Could not reach the chat server.', 'error');
+    addChatMessage(t('couldNotReach'), 'error');
   } finally {
     if (typingTimerId) { clearInterval(typingTimerId); typingTimerId = null; }
     chatBusy = false;
@@ -625,7 +888,7 @@ async function sendChatMessage() {
 
 async function streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags) {
   const labelEl = typingDiv.querySelector('#typing-label');
-  labelEl.textContent = 'Thinking';
+  labelEl.textContent = t('thinking');
 
   // Add collapsible thinking trace container
   const traceDiv = document.createElement('div');
@@ -683,7 +946,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
         if (evt.type === 'reasoning' && evt.text) {
           reasoningBuf += evt.text;
-          labelEl.textContent = 'Thinking';
+          labelEl.textContent = t('thinking');
           if (!traceContent) {
             traceDiv.style.display = 'block';
             traceDiv.innerHTML = '<span class="chat-trace-toggle">&#9654; Thinking trace</span>'
@@ -705,7 +968,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
           }
         } else if (evt.type === 'text' && evt.text) {
           textBuf += evt.text;
-          labelEl.textContent = 'Answering';
+          labelEl.textContent = t('answering');
         } else if (evt.type === 'highlight') {
           serverHighlightNodes = evt.highlight_nodes || [];
           serverHighlightEdges = evt.highlight_edges || [];
@@ -718,7 +981,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage('Stream error. Please try again.', 'error');
+    addChatMessage(t('streamError'), 'error');
     if (typingTimerId) clearInterval(typingTimerId);
     throw e; // re-throw so finally in caller handles cleanup
   }
@@ -727,7 +990,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
   if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
   if (typingTimerId) clearInterval(typingTimerId);
 
-  const responseText = textBuf || 'No response received.';
+  const responseText = textBuf || t('noResponse');
   const badge = 'wiki';
 
   // Build final message with elapsed time + optional thinking trace
@@ -816,7 +1079,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
     }
   } catch (e) {
     if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage('Server error', 'error');
+    addChatMessage(t('serverError'), 'error');
     if (typingTimerId) clearInterval(typingTimerId);
     return;
   }
@@ -865,7 +1128,7 @@ function addAnalysisActions(div, data) {
   jsonBtn.className = 'chat-analysis-btn';
   jsonBtn.type = 'button';
   jsonBtn.textContent = '⬇ JSON';
-  jsonBtn.title = 'Download analysis as JSON / 下載 JSON';
+  jsonBtn.title = t('downloadJson');
   jsonBtn.addEventListener('click', () => {
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
@@ -879,7 +1142,7 @@ function addAnalysisActions(div, data) {
   pngBtn.className = 'chat-analysis-btn';
   pngBtn.type = 'button';
   pngBtn.textContent = '⬇ PNG';
-  pngBtn.title = 'Download highlighted subgraph as PNG / 下載 PNG';
+  pngBtn.title = t('downloadPng');
   pngBtn.addEventListener('click', () => {
     exportGraphPNG(`analysis-${safe}.png`);
   });
@@ -1015,7 +1278,7 @@ function renderTagChips() {
     const rm = document.createElement('button');
     rm.type = 'button';
     rm.className = 'tag-remove';
-    rm.title = 'Remove tag / 移除標記';
+    rm.title = t('removeTag');
     rm.textContent = '×';
     chip.appendChild(labelSpan);
     chip.appendChild(rm);
@@ -1155,7 +1418,7 @@ function pageSuggestionsHTML() {
     items.push(suggestionHTML(q));
   }
   return `<div class="chat-suggestion-group">${items.join('')}</div>` +
-    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">Suggest more analyses</button>`;
+    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">${esc(t('suggestMore'))}</button>`;
 }
 
 function appendSuggestions(parent) {
@@ -1485,7 +1748,12 @@ function computeDatasetStats() {
   });
   const hubs = RAW_NODES.slice().sort((a, b) => (b.degree || 0) - (a.degree || 0));
   const connectors = RAW_NODES.slice().sort((a, b) => (b.betweenness || 0) - (a.betweenness || 0));
+  const pagerankLeaders = RAW_NODES.slice().sort((a, b) => (b.pagerank || 0) - (a.pagerank || 0));
   const meanPagerank = RAW_NODES.reduce((s, n) => s + (n.pagerank || 0), 0) / Math.max(1, N);
+  const meanClustering = RAW_NODES.reduce((s2, n) => s2 + (n.clustering || 0), 0) / Math.max(1, N);
+  const maxKCore = RAW_NODES.reduce((m, n) => Math.max(m, n.k_core || 0), 0);
+  const degrees = RAW_NODES.map(n => n.degree || 0).sort((a, b) => a - b);
+  const medianDegree = degrees.length ? degrees[Math.floor(degrees.length / 2)] : 0;
   const crossComm = new Map();
   RAW_NODES.forEach(n => {
     const comms = new Set();
@@ -1495,6 +1763,7 @@ function computeDatasetStats() {
     });
     crossComm.set(n.id, comms.size);
   });
+  const bridgingCount = RAW_NODES.filter(n => (crossComm.get(n.id) || 1) >= 2).length;
   datasetStats = {
     N, E,
     communities: commIds.size,
@@ -1502,23 +1771,35 @@ function computeDatasetStats() {
     density: (2 * E) / (N * Math.max(1, N - 1)),
     godNodes: hubs.slice(0, 10),
     meanPagerank,
-    hubs, connectors, nodesByCommunity, crossComm,
+    meanClustering,
+    maxKCore,
+    medianDegree,
+    bridgingCount,
+    hubs, connectors, pagerankLeaders, nodesByCommunity, crossComm,
   };
   return datasetStats;
 }
 
-function atRowHTML(n, metric, kind, cross) {
+function atRowHTML(n, kind, s) {
   const zh = TRANSLATIONS[n.label] || '';
-  const extra = kind === 'btw' ? ` · ${cross || 1} comm` : '';
-  const meta = (kind === 'btw' ? `β ${(metric || 0).toFixed(3)}` : `deg ${metric}`) + extra;
-  const ab = `<span class="at-ab">
-      <button class="set-a" data-set="a" title="Add to Set A">A</button>
-      <button class="set-b" data-set="b" title="Add to Set B">B</button>
-    </span>`;
   const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
+  let meta;
+  if (kind === 'btw') {
+    const cross = (s && s.crossComm && s.crossComm.get(n.id)) || 1;
+    meta = `β ${(n.betweenness || 0).toFixed(3)} · ${cross} comm`;
+  } else if (kind === 'pr') {
+    meta = `PR ${(n.pagerank || 0).toFixed(4)}`;
+  } else {
+    meta = `deg ${n.degree}`;
+  }
+  const ab = `<span class="at-ab">
+      <button class="set-a" data-set="a" title="${esc(t('addToSetA'))}">A</button>
+      <button class="set-b" data-set="b" title="${esc(t('addToSetB'))}">B</button>
+    </span>`;
   return `<li class="at-row" data-id="${n.id}">
     <span class="at-name">${esc(n.label)}${zhText}</span>
     <span class="at-meta">${meta}</span>${ab}
+    <button class="at-info" data-info="${n.id}" title="${esc(t('nodeInfoLabel'))}" aria-label="${esc(t('nodeInfoLabel'))}">&#8942;</button>
   </li>`;
 }
 
@@ -1539,60 +1820,79 @@ function exploreIsolate(ids) {
 function renderAnalysisTools() {
   const s = computeDatasetStats();
   const cards = [
-    ['Nodes', s.N], ['Edges', s.E], ['Communities', s.communities],
-    ['Avg degree', s.avgDegree.toFixed(2)], ['Density', s.density.toFixed(4)],
-    ['God nodes', s.godNodes.length],
+    [t('metricNodes'), s.N], [t('metricEdges'), s.E], [t('metricCommunities'), s.communities],
+    [t('metricAvgDegree'), s.avgDegree.toFixed(2)], [t('metricDensity'), s.density.toFixed(4)],
+    [t('metricGodNodes'), s.godNodes.length],
   ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
 
-  const hubRows = s.hubs.slice(0, 25).map(n => atRowHTML(n, n.degree, 'deg')).join('');
-  const connRows = s.connectors.slice(0, 20).map(n => atRowHTML(n, n.betweenness, 'btw', s.crossComm.get(n.id))).join('');
+  const topoCards = [
+    [t('topoMeanClustering'), s.meanClustering.toFixed(3)],
+    [t('topoMaxKCore'), s.maxKCore],
+    [t('topoMeanPagerank'), s.meanPagerank.toFixed(5)],
+    [t('topoMedianDegree'), s.medianDegree],
+    [t('topoBridges'), s.bridgingCount],
+  ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
+
+  const hubRows = s.hubs.slice(0, 40).map(n => atRowHTML(n, 'deg', s)).join('');
+  const prRows = s.pagerankLeaders.slice(0, 40).map(n => atRowHTML(n, 'pr', s)).join('');
+  const connRows = s.connectors.slice(0, 32).map(n => atRowHTML(n, 'btw', s)).join('');
+
   const commHTML = LEGEND.slice().sort((a, b) => b.count - a.count).map(c => {
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
     return `<div class="at-comm" data-cid="${c.cid}">
       <span class="sw" style="background:${esc(c.color)}"></span>
       <span class="at-comm-name">${esc(c.label)}</span>
-      <span class="at-comm-count">${c.count} · ${top}</span>
+      <span class="at-comm-count">${c.count} · ${esc(top)}</span>
       <span class="at-ab">
-        <button class="set-a" data-set="a" title="Add community to Set A">A</button>
-        <button class="set-b" data-set="b" title="Add community to Set B">B</button>
+        <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
+        <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
       </span>
     </div>`;
   }).join('');
 
   analysisTools.innerHTML = `
-    <div class="at-section">
-      <h4 class="at-h">Dataset Overview / 資料集概覽</h4>
+    <section class="at-section at-span-12">
+      <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
       <div class="at-cards">${cards}</div>
-      <button class="at-reset" data-action="clear">Clear highlights / 清除高亮</button>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h"><span>Communities / 社群</span><span class="at-note">by community</span></h4>
+      <button class="at-reset" data-action="clear">${esc(t('clearHighlights'))}</button>
+    </section>
+    <section class="at-section at-span-5">
+      <h4 class="at-h">${esc(t('networkTopology'))}</h4>
+      <div class="at-cards">${topoCards}</div>
+    </section>
+    <section class="at-section at-span-7">
+      <h4 class="at-h"><span>${esc(t('communities'))}</span><span class="at-note">${esc(t('communityNote'))}</span></h4>
       <div class="at-communities">${commHTML}</div>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h"><span>Top Hubs</span><span class="at-note">by degree — click to focus, A/B to compare</span></h4>
+    </section>
+    <section class="at-section at-span-4">
+      <h4 class="at-h"><span>${esc(t('topHubs'))}</span><span class="at-note">${esc(t('hubsNote'))}</span></h4>
       <ul class="at-list" id="at-hubs">${hubRows}</ul>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h"><span>Connectors / Bridges</span><span class="at-note">by betweenness</span></h4>
+    </section>
+    <section class="at-section at-span-4">
+      <h4 class="at-h"><span>${esc(t('pagerankLeaders'))}</span><span class="at-note">${esc(t('pagerankNote'))}</span></h4>
+      <ul class="at-list" id="at-pagerank">${prRows}</ul>
+    </section>
+    <section class="at-section at-span-4">
+      <h4 class="at-h"><span>${esc(t('connectors'))}</span><span class="at-note">${esc(t('connectorsNote'))}</span></h4>
       <ul class="at-list" id="at-connectors">${connRows}</ul>
-    </div>
-    <div class="at-section">
-      <h4 class="at-h">Compare Two Node Sets</h4>
-      <p class="at-hint">Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths. Press <kbd>Enter</kbd> to run the comparison / 按 <kbd>Enter</kbd> 執行比較。</p>
+    </section>
+    <section class="at-section at-span-12">
+      <h4 class="at-h">${esc(t('compareTitle'))}</h4>
+      <p class="at-hint">${esc(t('compareHint'))}</p>
       <div class="at-compare-sets">
-        <div class="at-set a" id="at-set-a"><div class="at-set-label">Set A</div><div class="at-set-chips"></div></div>
-        <div class="at-set b" id="at-set-b"><div class="at-set-label">Set B</div><div class="at-set-chips"></div></div>
+        <div class="at-set a" id="at-set-a"><div class="at-set-label">${esc(t('setALabel'))}</div><div class="at-set-chips"></div></div>
+        <div class="at-set b" id="at-set-b"><div class="at-set-label">${esc(t('setBLabel'))}</div><div class="at-set-chips"></div></div>
       </div>
       <div class="at-actions">
-        <button class="at-compare-btn" id="at-compare-go" title="Analyze Set A vs Set B — or press Enter / 比較 A 和 B — 或按 Enter"><span class="enter-ico">&#9166;</span> A and B</button>
-        <button class="at-prompt-btn" id="at-send-prompt" title="Send this selection to the Prompt panel as an analysis query / 將此選擇傳送至 Prompt 面板">&#8594; Prompt</button>
-        <button id="chat-new" title="Reset analysis / 重設分析">Reset</button>
-        <button class="at-export-json-btn" id="at-export-json" title="Export this selection as JSON / 匯出選擇為 JSON">Save</button>
+        <button class="at-compare-btn" id="at-compare-go" title="${esc(t('runCompareTitle'))}"><span class="enter-ico">&#9166;</span> ${esc(t('runCompare'))}</button>
+        <button class="at-prompt-btn" id="at-send-prompt" title="${esc(t('promptBtnTitle'))}">${esc(t('promptBtn'))}</button>
+        <button id="chat-new" title="${esc(t('resetTitle'))}">${esc(t('reset'))}</button>
+        <button class="at-export-json-btn" id="at-export-json" title="${esc(t('saveBtnTitle'))}">${esc(t('saveBtn'))}</button>
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
-    </div>
+    </section>
+    <div id="at-node-detail" class="at-node-detail" hidden></div>
   `;
 
   analysisTools.querySelector('[data-action="clear"]').addEventListener('click', () => {
@@ -1603,7 +1903,7 @@ function renderAnalysisTools() {
   analysisTools.querySelectorAll('.at-row').forEach(row => {
     const id = row.dataset.id;
     row.addEventListener('click', (e) => {
-      if (e.target.closest('.at-ab')) return;
+      if (e.target.closest('.at-ab') || e.target.closest('.at-info')) return;
       exploreFocusNode(id);
     });
     row.querySelectorAll('.at-ab button').forEach(btn => {
@@ -1611,6 +1911,12 @@ function renderAnalysisTools() {
         e.stopPropagation();
         toggleCompare(id, btn.dataset.set);
       });
+    });
+  });
+  analysisTools.querySelectorAll('.at-info').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openNodeDetail(btn.dataset.info);
     });
   });
   analysisTools.querySelectorAll('.at-comm').forEach(el => {
@@ -1635,12 +1941,65 @@ function renderAnalysisTools() {
   renderCompareSets();
 }
 
+// Per-node detail popover — a compact card with the node's full metric set
+// (all values are already in memory on each node) plus a wiki summary excerpt
+// and quick actions (focus / add to Set A or B).
+function openNodeDetail(id) {
+  const n = nodeMap.get(id);
+  const wrap = document.getElementById('at-node-detail');
+  if (!n || !wrap) return;
+  const comm = LEGEND.find((c) => c.cid === n.community);
+  const zh = TRANSLATIONS[n.label] || '';
+  const desc = descByLabel.get(n.label) || '';
+  const excerpt = desc ? wikiExcerpt(desc) : '';
+  wrap.innerHTML = `
+    <div class="at-node-head">
+      <span class="at-node-title">${esc(n.label)}${zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : ''}</span>
+      <button type="button" class="at-node-close" aria-label="${esc(t('panelClose'))}">&times;</button>
+    </div>
+    <div class="at-node-metrics">
+      ${comm ? `<div class="at-kv"><span class="key"><span class="sw" style="background:${esc(comm.color)}"></span>${esc(t('propertyCommunity'))}</span><span class="val">${esc(comm.label)}</span></div>` : ''}
+      <div class="at-kv"><span class="key">${esc(t('propertyDegree'))}</span><span class="val">${esc(String(n.degree))}</span></div>
+      <div class="at-kv"><span class="key">${esc(t('propertyPagerank'))}</span><span class="val">${esc((n.pagerank || 0).toFixed(5))}</span></div>
+      <div class="at-kv"><span class="key">${esc(t('propertyBetweenness'))}</span><span class="val">${esc((n.betweenness || 0).toFixed(4))}</span></div>
+      <div class="at-kv"><span class="key">${esc(t('propertyClustering'))}</span><span class="val">${esc((n.clustering || 0).toFixed(3))}</span></div>
+      <div class="at-kv"><span class="key">${esc(t('propertyKCore'))}</span><span class="val">${esc(String(n.k_core))}</span></div>
+    </div>
+    ${excerpt ? `<div class="at-node-desc">${esc(excerpt)}</div>` : ''}
+    <div class="at-node-actions">
+      <button type="button" class="at-node-btn at-focus" data-focus="${n.id}">${esc(t('focusNode'))}</button>
+      <button type="button" class="at-node-btn at-add" data-set="a" data-id="${n.id}">${esc(t('addToSetA'))}</button>
+      <button type="button" class="at-node-btn at-add" data-set="b" data-id="${n.id}">${esc(t('addToSetB'))}</button>
+    </div>
+  `;
+  wrap.hidden = false;
+  wrap.querySelector('.at-node-close').addEventListener('click', closeNodeDetail);
+  const focusBtn = wrap.querySelector('.at-focus');
+  if (focusBtn) focusBtn.addEventListener('click', () => { exploreFocusNode(n.id); closeNodeDetail(); });
+  wrap.querySelectorAll('.at-add').forEach((b) => {
+    b.addEventListener('click', (e) => { e.stopPropagation(); toggleCompare(b.dataset.id, b.dataset.set); });
+  });
+}
+
+function closeNodeDetail() {
+  const wrap = document.getElementById('at-node-detail');
+  if (wrap) wrap.hidden = true;
+}
+
+// Dismiss the per-node detail popover on outside click.
+document.addEventListener('click', (e) => {
+  const wrap = document.getElementById('at-node-detail');
+  if (!wrap || wrap.hidden) return;
+  if (e.target.closest('#at-node-detail') || e.target.closest('.at-info')) return;
+  closeNodeDetail();
+});
+
 // Export the current Graph selection (Compare Sets A/B + selected nodes/edges)
 // as a standalone .json file.
 function exportSelectionJSON() {
   const ids = new Set([...entryIds(compareA), ...entryIds(compareB)]);
   if (!ids.size) {
-    alert('Add nodes or communities to Set A / Set B before exporting.');
+    alert(t('exportNeedSelection'));
     return;
   }
   const safe = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
@@ -1687,7 +2046,7 @@ function entryLabels(entries) {
 function sendSelectionToPrompt() {
   const ids = new Set([...entryIds(compareA), ...entryIds(compareB)]);
   if (!ids.size) {
-    alert('Add nodes or communities to Set A / Set B before sending to Prompt.');
+    alert(t('promptNeedSelection'));
     return;
   }
   const a = entryLabels(compareA);
@@ -1839,7 +2198,7 @@ function runCompare() {
   const res = document.getElementById('at-compare-result');
   const idsA = entryIds(compareA), idsB = entryIds(compareB);
   if (!idsA.size || !idsB.size) {
-    res.innerHTML = '<span style="color:#E4575E">Add at least one node or community to both Set A and Set B.</span>';
+    res.innerHTML = `<span style="color:#E4575E">${esc(t('compareEmpty'))}</span>`;
     return;
   }
   const nb = (id) => new Set((adjacency.get(id) || []).map(a => a.target));
@@ -1862,12 +2221,12 @@ function runCompare() {
   applyChatNodeFilter();
 
   res.innerHTML = `
-    <div>Set A: <span class="at-metric">${idsA.size}</span> nodes · Set B: <span class="at-metric">${idsB.size}</span> nodes</div>
-    <div>Neighborhood (incl. neighbors) A: <span class="at-metric">${nA.size}</span> · B: <span class="at-metric">${nB.size}</span></div>
-    <div>Shared neighborhood: <span class="at-metric">${inter.size}</span> · Jaccard: <span class="at-metric">${jaccard.toFixed(3)}</span></div>
+    <div>${esc(t('compareSetA'))}: <span class="at-metric">${idsA.size}</span> ${esc(t('metricNodes'))} · ${esc(t('compareSetB'))}: <span class="at-metric">${idsB.size}</span> ${esc(t('metricNodes'))}</div>
+    <div>${esc(t('compareNeighborhoodA'))}: <span class="at-metric">${nA.size}</span> · ${esc(t('compareNeighborhoodB'))}: <span class="at-metric">${nB.size}</span></div>
+    <div>${esc(t('compareSharedNeighborhood'))}: <span class="at-metric">${inter.size}</span> · ${esc(t('compareJaccard'))}: <span class="at-metric">${jaccard.toFixed(3)}</span></div>
     ${topPairs.length
-      ? `<table><thead><tr><th>Shortest A → B</th><th>Steps</th></tr></thead><tbody>${topPairs.map(p => `<tr><td>${esc(nodeMap.get(p[0])?.label || p[0])} → ${esc(nodeMap.get(p[1])?.label || p[1])}</td><td>${p[2]}</td></tr>`).join('')}</tbody></table>`
-      : '<div>No direct path within 6 steps.</div>'}
+      ? `<table><thead><tr><th>${esc(t('compareShortestPath'))}</th><th>${esc(t('compareSteps'))}</th></tr></thead><tbody>${topPairs.map(p => `<tr><td>${esc(nodeMap.get(p[0])?.label || p[0])} → ${esc(nodeMap.get(p[1])?.label || p[1])}</td><td>${p[2]}</td></tr>`).join('')}</tbody></table>`
+      : `<div>${esc(t('compareNoPath'))}</div>`}
   `;
 }
 
@@ -1878,6 +2237,7 @@ function runCompare() {
 // analytics tools so they're ready when the panel opens.
 state.suppressHashUpdate = true;
 setPanelMode(panelMode);
+applyUiLang(uiLang);
 state.suppressHashUpdate = false;
 appendSuggestions(chatMessages);
 refreshActivity();

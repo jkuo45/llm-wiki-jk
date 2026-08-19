@@ -266,6 +266,27 @@ body {
 .at-compare-result td, .at-compare-result th { border-bottom-color: #E2DCCE; }
 .at-compare-result td:first-child { color: #2563A8; }
 
+/* Analysis dashboard cards + per-node popover (light) */
+#chat-header .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
+#chat-header .lang-toggle button { color: #7C8698; }
+#chat-header .lang-toggle button + button { border-left-color: #CCC5B2; }
+#chat-header .lang-toggle button:hover:not(.active) { color: #22304A; }
+#chat-header .lang-toggle button.active { background: #0F766E; color: #fff; }
+#analysis-tools .at-section { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
+.at-info { border-color: #CCC5B2; color: #7C8698; }
+.at-info:hover { border-color: #0F766E; color: #22304A; }
+#at-node-detail { background: #FFFFFF; border-color: #CCC5B2; box-shadow: 0 16px 48px rgba(34, 48, 74, 0.18); }
+.at-node-title { color: #22304A; }
+.at-node-close { color: #7C8698; }
+.at-node-close:hover { color: #C0392B; }
+.at-kv { background: #F6F3EC; border-color: #E2DCCE; }
+.at-kv .key { color: #7C8698; }
+.at-kv .val { color: #22304A; }
+.at-node-desc { color: #4B5563; }
+.at-node-btn { background: #F6F3EC; border-color: #CCC5B2; color: #0F766E; }
+.at-node-btn:hover { border-color: #0F766E; color: #0F766E; }
+.at-node-btn.at-focus { border-color: #0F766E; color: #0F766E; }
+
 /* Chat suggestions (Ask mode) */
 #chat-new { border-color: #CCC5B2; color: #7C8698; }
 #chat-new:hover { border-color: #0F766E; color: #22304A; }
@@ -392,6 +413,8 @@ body {
 .notes-popup { background: #FFFFFF; border-color: #2563A8; box-shadow: 0 12px 32px rgba(34, 48, 74, 0.16); }
 .notes-popup-item { border-bottom-color: #E2DCCE; color: #22304A; }
 .notes-popup-item.selected { background: rgba(37, 99, 168, 0.16); }
+.notes-popup-item.zero { opacity: 0.45; }
+.notes-popup-item.zero:hover, .notes-popup-item.zero.active { opacity: 0.85; }
 .notes-popup-item .popup-check { color: #2563A8; }
 .notes-popup-item:hover, .notes-popup-item.active { background: rgba(37, 99, 168, 0.12); }
 .notes-popup-item .popup-sub { color: #7C8698; }

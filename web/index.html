@@ -138,32 +138,36 @@
   <div id="chat-header">
     <div class="chat-header-left">
       <span class="chat-title">Analysis / <span class="chat-title-zh">分析</span></span>
-      <div id="chat-mode-switch" role="tablist" aria-label="Analysis mode">
-        <button type="button" class="chat-mode-tab active" data-mode="ask" role="tab" aria-selected="true">Prompt<span class="mode-dot" aria-hidden="true"></span></button>
-        <button type="button" class="chat-mode-tab" data-mode="explore" role="tab" aria-selected="false">Graph<span class="mode-dot" aria-hidden="true"></span></button>
-      </div>
     </div>
     <div class="chat-header-actions">
-      <button id="chat-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
+      <div class="lang-toggle" id="chat-lang" role="group" aria-label="Panel language">
+        <button type="button" data-lang="en-US" title="English (US)">EN</button>
+        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+      </div>
+      <button id="chat-close" title="Close panel / 關閉面板" aria-label="Close panel" data-i18n-title="panelClose">&times;</button>
     </div>
   </div>
   <div id="chat-filter-bar">
-    <label id="chat-filter-toggle" title="Only show the highlighted nodes and their links">
+    <div id="chat-mode-switch" role="tablist" aria-label="Analysis mode" data-i18n-title="modeSwitchLabel">
+      <button type="button" class="chat-mode-tab active" data-mode="ask" role="tab" aria-selected="true"><span data-i18n="modeAsk">Prompt</span><span class="mode-dot" aria-hidden="true"></span></button>
+      <button type="button" class="chat-mode-tab" data-mode="explore" role="tab" aria-selected="false"><span data-i18n="modeGraph">Graph</span><span class="mode-dot" aria-hidden="true"></span></button>
+    </div>
+    <label id="chat-filter-toggle" data-i18n-title="filterTitle">
       <input type="checkbox" id="chat-filter-nodes" disabled>
-      <span>Filter (<span id="chat-filter-count">0</span>)</span>
+      <span><span data-i18n="filterLabel">Filter</span> (<span id="chat-filter-count">0</span>)</span>
     </label>
   </div>
   <div id="chat-messages"></div>
   <div id="analysis-tools"></div>
   <div id="chat-modes">
-    <label id="graphify-toggle" title="On: run graph operations (explain / trace / path). Off: answer from the wiki.">
+    <label id="graphify-toggle" data-i18n-title="graphifyTitle">
       <input type="checkbox" id="graphify-checkbox">
-      <span>Graphify</span>
+      <span data-i18n="graphifyLabel">Graphify</span>
     </label>
-    <span id="graphify-off-hint">Wiki retrieval</span>
+    <span id="graphify-off-hint" data-i18n="graphifyOff">Wiki retrieval</span>
     <span class="chat-mode-divider"></span>
     <div id="response-mode" role="group" aria-label="Response view mode">
-      <span class="resp-mode-label">MODE</span>
+      <span class="resp-mode-label" data-i18n="respModeLabel">MODE</span>
       <button type="button" class="resp-mode-btn" data-mode="md" title="Render response as inline markdown">MD</button>
       <button type="button" class="resp-mode-btn active" data-mode="html" title="Render response as a standalone HTML page">HTML</button>
     </div>
@@ -172,7 +176,7 @@
   <div id="chat-input-wrap">
     <div id="chat-tag-popup"></div>
     <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="4000" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
-    <button id="chat-send" title="Send">Send</button>
+    <button id="chat-send" data-i18n="sendLabel" data-i18n-title="sendTitle">Send</button>
   </div>
   </div>
 </div>

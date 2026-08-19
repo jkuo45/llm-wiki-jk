@@ -40,6 +40,9 @@ export function updateHash(pushState = true) {
   if (state.analysisOpen) {
     parts.push('analysis');
     parts.push(`mode=${encodeURIComponent(state.analysisMode)}`);
+    if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
+      parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
+    }
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;

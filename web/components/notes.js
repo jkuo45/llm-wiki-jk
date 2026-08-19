@@ -500,22 +500,27 @@ function ensureIndexLoaded() {
   return loadPromise.finally(() => { loadPromise = null; });
 }
 
+// Case-insensitive AND check: does the note carry every tag in the set?
+function noteHasTags(n, tags) {
+  if (!tags.length) return true;
+  const noteTags = (n.tags || []).map((t) => String(t).toLowerCase());
+  const wanted = tags.map((t) => String(t).toLowerCase());
+  return wanted.every((t) => noteTags.includes(t));
+}
+
+// Free-text query match against title/OCR/doc/tags/entities.
+function noteMatchesText(n, q) {
+  if (!q) return true;
+  const hay = [
+    activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
+    (n.tags || []).join(' '), (n.entities || []).join(' '),
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
-  // AND-multiselect tag filter: a note must carry every active tag.
-  const tags = [...activeTags].map((t) => t.toLowerCase());
-  const list = notes.filter((n) => {
-    if (tags.length) {
-      const noteTags = (n.tags || []).map((t) => String(t).toLowerCase());
-      if (!tags.every((t) => noteTags.includes(t))) return false;
-    }
-    if (!q) return true;
-    const hay = [
-      activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
-      (n.tags || []).join(' '), (n.entities || []).join(' '),
-    ].join(' ').toLowerCase();
-    return hay.includes(q);
-  });
+  const list = notes.filter((n) => noteHasTags(n, [...activeTags]) && noteMatchesText(n, q));
   // Default order: newest first by creation date (descending). `created` is an
   // ISO-ish `YYYY-MM-DD` string, which compares correctly lexicographically.
   // Missing dates sort last; the note id breaks ties stably.
@@ -665,6 +670,16 @@ function searchMatches() {
   }).slice(0, 12);
 }
 
+// Faceted count for a candidate tag in the dropdown: how many notes match the
+// current filters (free-text query + every selected tag) AND also carry this
+// tag. This is exactly what the gallery would show if the user added it, so
+// the numbers always stay consistent with the result set.
+function countWithTag(tag) {
+  const q = filterQ.trim().toLowerCase();
+  return notes.filter((n) =>
+    noteHasTags(n, [...activeTags, tag]) && noteMatchesText(n, q)).length;
+}
+
 // Distinct tag labels across every note, most-referenced first, so the
 // empty-query dropdown surfaces the most useful suggestions up front.
 function distinctTags() {
@@ -695,7 +710,10 @@ function renderCombobox() {
   const parts = [];
   if (tagCounts.length) {
     parts.push(`<div class="notes-section-label">${esc(t('tags'))}</div>`);
-    parts.push(tagCounts.map(([t, c]) => tagItemHTML(t, c)).join(''));
+    // Dynamic faceted counts: each number predicts how many notes that tag
+    // would yield *in addition to* the current text query + selected tags,
+    // so the dropdown always matches what the gallery shows.
+    parts.push(tagCounts.map(([t]) => tagItemHTML(t, countWithTag(t))).join(''));
   }
   if (matches.length) {
     parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
@@ -721,8 +739,11 @@ function noteItemHTML(n) {
 function tagItemHTML(tag, count) {
   const sub = count != null ? `(${count})` : esc(t('tags'));
   const selected = activeTags.has(tag) ? ' selected' : '';
+  // Unselected tags that would yield zero notes with the current filter are
+  // dimmed (still toggleable) so users don't chase dead-end combinations.
+  const zero = !selected && count === 0 ? ' zero' : '';
   const check = activeTags.has(tag) ? '<span class="popup-check" aria-hidden="true">✓</span>' : '';
-  return `<button type="button" class="notes-popup-item${selected}" data-tag="${esc(tag)}" role="option">
+  return `<button type="button" class="notes-popup-item${selected}${zero}" data-tag="${esc(tag)}" role="option">
     ${check}
     <span class="popup-topic">#${esc(tagLabel(tag))}</span>
     <span class="popup-sub">${sub}</span>
