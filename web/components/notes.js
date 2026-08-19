@@ -99,7 +99,7 @@ let viewMode = false;        // fullscreen image view (side details hidden)
 // UI language (EN / 中) — panel chrome strings + note-content selection.
 // Sibling of the Reader's article language toggle: `uiLang` picks both the
 // panel's own labels and, per note, `note.translations[uiLang]` when present
-// (falling back to the root/original fields).
+// (falling back to `note.translations['en-US']`, then to legacy root fields).
 // ------------------------------------------------------------
 const UI_STRINGS = {
   'en-US': {
@@ -216,16 +216,16 @@ function t(key) {
   return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
 }
 
-// Manifest notes may carry per-language content in `note.translations`
-// (e.g. translations.zh-TW.ocr). Prefer the active language, then fall back
-// to the root (original) fields.
+// Manifest notes carry per-language content in `note.translations`
+// (e.g. translations.en-US.title/ocr). Prefer the active language, then fall
+// back to the default locale (en-US), then to legacy root fields.
 function activeTitle(note) {
-  const tr = (note.translations || {})[uiLang];
+  const tr = (note.translations || {})[uiLang] || (note.translations || {})['en-US'];
   return (tr && tr.title) || note.title || '';
 }
 
 function activeOcr(note) {
-  const tr = (note.translations || {})[uiLang];
+  const tr = (note.translations || {})[uiLang] || (note.translations || {})['en-US'];
   return (tr && tr.ocr) || note.ocr || '';
 }
 
@@ -1266,7 +1266,7 @@ function updatePromptAvailability() {
 
 // Build the analysis prompt: instruction line + note metadata + OCR transcript.
 function buildTranscriptPrompt(note) {
-  const ocr = (note.ocr || '').trim();
+  const ocr = (activeOcr(note) || '').trim();
   // Merge tags + entities into one labeled list (deduped) so both travel to the
   // analysis agent as plain text.
   const combined = [...new Set([...(note.tags || []), ...(note.entities || []).map(String)])]

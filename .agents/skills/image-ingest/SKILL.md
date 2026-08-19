@@ -107,9 +107,10 @@ OLLAMA_NOPROGRESS=1 ollama run <model> \
   spinner/toolbar noise, fix obvious OCR errors (e.g. "Crestine" → "Creatine"),
   and normalize symbols to standard forms (e.g. `NAD+`, `SIRT1`). Never wrap
   entities in `[[wiki links]]` inside the OCR text.
-- **Store plain text only** — `ocr`/`title` are plain-text fields, not markdown.
-  Normalize the transcription to the project's plain-text standard before
-  writing it (details below in "OCR plain-text hygiene").
+- **Store plain text only** — `translations["en-US"]`/`title`/`ocr` are
+  plain-text fields, not markdown. Normalize the transcription to the project's
+  plain-text standard before writing it (details below in "OCR plain-text
+  hygiene").
 
 ### 4. Add the manifest entry
 
@@ -120,14 +121,14 @@ Append a new object to `data/notes/manifest.json` (keep existing entries).
 ```jsonc
 {
   "id": "n-20260818-sirtuins-mechanisms",
-  "title": "Sirtuins review — mechanism sketch",
   "document": "_document_ - sirtuins ... .md",   // plain filename; no wiki links in data files
   "entities": ["SIRT1", "NAD+"],       // concepts = graph node labels (plain text)
   "tags": ["sirtuins", "note"],       // facets: topic first, then format
   "pages": [{ "page": 1, "file": "page-1.jpg" }],
-  "ocr": "Transcribed plain text...", // plain text: no markdown, table pipes, or bullets
-  "ocr_lang": "en",
-  "translations": { "zh-TW": { "title": "...", "ocr": "..." } },  // optional bilingual pairs
+  "translations": {
+    "en-US": { "title": "Sirtuins review — mechanism sketch", "ocr": "Transcribed plain text..." },  // default locale; title + ocr always live here
+    "zh-TW": { "title": "...", "ocr": "..." }  // optional bilingual pairs
+  },
   "annotations": [{ "id": "a1", "type": "circle", "page": 1,
                     "x": 0.3, "y": 0.4, "r": 0.08, "color": "#ffcc00", "label": "" }],
   "path": "../biology/<topic>/<file>", // optional; in-place source, anchored at data/notes/
@@ -136,6 +137,12 @@ Append a new object to `data/notes/manifest.json` (keep existing entries).
   "draft": true
 }
 ```
+
+`translations` is the single home for all localizable content: `title` and `ocr`
+for every locale. **`en-US` is the canonical default** — every entry must carry
+it, and readers fall back to it (there is no top-level `title`/`ocr`/`ocr_lang`
+anymore; those only remain on legacy/un-migrated entries and are used as
+fallbacks).
 
 Annotation coordinates are normalized 0–1 across tools:
 - `circle` → `x, y, r`
@@ -166,8 +173,9 @@ Annotation coordinates are normalized 0–1 across tools:
   tags, non-facet tags, and entities without a graph node.
 - `topic`: reuse an existing topic name where possible; ask the user otherwise.
   (`topic` is no longer a stored field — it lives as the first `tags` entry.)
-- `ocr`: single page → just the text. Multi-page (separate entries) each carry
-  their own page text.
+- `translations[locale].ocr`: single page → just the text. Multi-page (separate
+  entries) each carry their own page text. English goes in `translations["en-US"]`
+  (the always-present default); translations in their locale key (e.g. `"zh-TW"`).
 - `pages[].file`: the **original source basename** (not `page-1`), e.g.
   `IMG_6170.jpeg`. It must exactly match the file placed in the note folder.
 - `path` (optional): in-place source anchored at `data/notes/` (e.g.
@@ -219,8 +227,9 @@ rm raw/<source>.png
   page files unless the user explicitly wants a multi-page note.
 - **Retain original file names** — do not normalize to `page-N`; keep the source
   basename in the folder and in `pages[].file`.
-- **No wiki links in data files** — `ocr`, `entities`, `document`, `entities`
-  are plain text, never `[[...]]`. Also no `[[wiki links]]` in `title`.
+- **No wiki links in data files** — `translations[locale].ocr`, `entities`,
+  `document` are plain text, never `[[...]]`. Also no `[[wiki links]]` in
+  `translations[locale].title`.
 - **OCR plain-text hygiene** — the manifest `ocr`/`title` fields are **plain
   text, never markdown**. Strip / normalize the transcription to match the
   cleaned-vault standard:

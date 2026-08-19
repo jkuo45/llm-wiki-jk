@@ -75,6 +75,28 @@ def _looks_like_ocr_failure(text: str) -> bool:
     return bool(text and _OCR_FAIL_RE.search(text))
 
 
+# OCR locale aliases → canonical BCP-47 keys used in note.translations. English
+# (en-US) is the default locale; Traditional Chinese is this wiki's second.
+_LOCALE_ALIASES = {
+    "en": "en-US",
+    "en-us": "en-US",
+    "en_us": "en-US",
+    "zh": "zh-TW",
+    "zh-tw": "zh-TW",
+    "zh_tw": "zh-TW",
+    "zh-hant": "zh-TW",
+    "zh-hant-tw": "zh-TW",
+    "zh-hk": "zh-TW",
+    "zh-cn": "zh-CN",
+    "zh-hans": "zh-CN",
+}
+
+
+def _locale_of(code: str) -> str:
+    """Map a loose language code to a canonical translations key (en-US default)."""
+    return _LOCALE_ALIASES.get((code or "").strip().lower(), "en-US")
+
+
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
@@ -213,17 +235,28 @@ def _list_documents() -> list[dict]:
     return out
 
 
+def _tr(n: dict, code: str) -> dict:
+    """Resolve a locale block from a note's translations map (empty dict if absent)."""
+    tr = n.get("translations") or {}
+    loc = tr.get(code)
+    return loc if isinstance(loc, dict) else {}
+
+
 def _public_note(n: dict, with_private: bool = False) -> dict:
+    # Default content reads from translations["en-US"]; legacy root title/ocr
+    # fields remain as fallbacks for un-migrated or staged entries.
+    en = _tr(n, "en-US")
+    title = en.get("title") or n.get("title") or n.get("id", "Untitled note")
+    ocr = en.get("ocr") or n.get("ocr") or ""
     pub = {
         "id": n.get("id"),
-        "title": n.get("title") or n.get("id", "Untitled note"),
+        "title": title,
         "document": n.get("document") or "",
         "entities": n.get("entities") or [],
         "tags": n.get("tags") or [],
         "pages": n.get("pages") or [],
-        "ocr": n.get("ocr") or "",
-        "ocr_lang": n.get("ocr_lang") or "en",
-        "has_ocr": bool(n.get("ocr")) and not _looks_like_ocr_failure(n.get("ocr", "")),
+        "ocr": ocr,
+        "has_ocr": bool(ocr) and not _looks_like_ocr_failure(ocr),
         "annotations": n.get("annotations") or [],
         "translations": n.get("translations") or {},
         "created": n.get("created") or _today(),
@@ -354,13 +387,16 @@ async def upload_notes(
 
     note = {
         "id": note_id,
-        "title": title.strip() or note_id,
         "document": document.strip(),
         "entities": parsed_entities,
         "tags": parsed_tags,
         "pages": pages,
-        "ocr": "",
-        "ocr_lang": "en",
+        "translations": {
+            "en-US": {
+                "title": title.strip() or note_id,
+                "ocr": "",
+            }
+        },
         "annotations": [],
         "created": _today(),
         "updated": _today(),
@@ -398,10 +434,20 @@ async def transcribe_note(payload: dict) -> dict:
     note = _note_lookup().get(note_id)
     if note is None:
         raise HTTPException(status_code=404, detail="Note not found")
-    if note.get("ocr") and not _looks_like_ocr_failure(note["ocr"]):
-        return {"id": note_id, "ocr": note["ocr"], "cached": True}
 
-    lang = payload.get("lang") or note.get("ocr_lang") or "en"
+    # Transcripts live in translations[<locale>]; en-US is the default and
+    # legacy root `ocr` is a fallback for un-migrated/staged entries.
+    lang = payload.get("lang") or "en"
+    locale = _locale_of(lang)
+    existing = (
+        _tr(note, locale).get("ocr")
+        or _tr(note, "en-US").get("ocr")
+        or note.get("ocr")
+        or ""
+    )
+    if existing and not _looks_like_ocr_failure(existing):
+        return {"id": note_id, "ocr": existing, "cached": True}
+
     chunks = []
     try:
         for p in note.get("pages", []):
@@ -422,11 +468,11 @@ async def transcribe_note(payload: dict) -> dict:
     except RuntimeError as e:
         raise HTTPException(status_code=502, detail=str(e))
 
-    note["ocr"] = "\n\n".join(chunks)
-    note["ocr_lang"] = lang
+    transcript = "\n\n".join(chunks)
+    note.setdefault("translations", {}).setdefault(locale, {})["ocr"] = transcript
     note["updated"] = _today()
     _persist_note(note)
-    return {"id": note_id, "ocr": note["ocr"], "cached": False}
+    return {"id": note_id, "ocr": transcript, "cached": False}
 
 
 @router.post("/{note_id}/annotations")
@@ -465,7 +511,9 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
     if note is None:
         raise HTTPException(status_code=404, detail="Note not found")
     if "title" in payload and payload["title"] is not None:
-        note["title"] = str(payload["title"]).strip() or note["title"]
+        new_title = str(payload["title"]).strip()
+        if new_title:
+            note.setdefault("translations", {}).setdefault("en-US", {})["title"] = new_title
     if "document" in payload and payload["document"] is not None:
         note["document"] = str(payload["document"]).strip()
     if "entities" in payload and isinstance(payload["entities"], list):
