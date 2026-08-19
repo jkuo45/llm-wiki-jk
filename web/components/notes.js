@@ -29,7 +29,6 @@ const searchInput = $('notes-search');
 const comboboxPopup = $('notes-combobox-popup');
 const docChip = $('notes-doc-chip');
 const docChipLabel = $('notes-doc-chip-label');
-const docChipX = $('notes-doc-chip-x');
 const langToggle = $('notes-lang');
 const langBtns = Array.from(document.querySelectorAll('#notes-lang [data-lang]'));
 const galleryEl = $('notes-gallery');
@@ -534,11 +533,6 @@ searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); closeCombobox(); return; }
   }
 });
-docChipX.addEventListener('click', (e) => {
-  e.stopPropagation();
-  setDocumentFilter('');
-  searchInput.focus();
-});
 
 // ------------------------------------------------------------
 // Search + document combobox
@@ -567,40 +561,32 @@ function searchMatches() {
   }).slice(0, 6);
 }
 
-// Render the dropdown: a Documents section (selectable to set the doc chip)
-// always, plus a Notes section once the user is typing.
+// Render the dropdown: a Notes section (recent notes when empty, matches while
+// typing) plus a Documents section to filter by document.
 function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
   const docs = documentOptions();
-  let docList = docs;
-  if (q) docList = docs.filter((d) =>
-    d.label.toLowerCase().includes(q) || d.value.toLowerCase().includes(q));
+  // Populate the dropdown immediately on open with the most recent notes; narrow
+  // to matching notes once the user types. `notes` is newest-first from the API.
+  const matches = q ? searchMatches() : notes.slice(0, 8);
+  const mDocs = q
+    ? docs.filter((d) => d.label.toLowerCase().includes(q) || d.value.toLowerCase().includes(q))
+    : docs;
 
   const parts = [];
-  if (docList.length) {
+  if (matches.length) {
+    parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
+    parts.push(matches.map((n) => noteItemHTML(n)).join(''));
+  }
+  if (mDocs.length) {
     parts.push(`<div class="notes-section-label">${esc(t('allDocuments'))}</div>`);
     parts.push(`<button type="button" class="notes-popup-item doc" data-doc="" role="option" aria-selected="${!filterDoc}">
       <span class="popup-topic">${esc(t('allDocuments'))}</span>
       <span class="popup-check" ${!filterDoc ? '' : 'hidden'}>✓</span>
     </button>`);
-    parts.push(docList.map((d) =>
-      `<button type="button" class="notes-popup-item doc" data-doc="${esc(d.value)}" role="option" aria-selected="${filterDoc === d.value}">
-        <span class="popup-topic">${esc(d.label)}</span>
-        <span class="popup-check" ${filterDoc === d.value ? '' : 'hidden'}>✓</span>
-      </button>`).join(''));
+    parts.push(mDocs.map((d) => docItemHTML(d)).join(''));
   }
-  if (q) {
-    const matches = searchMatches();
-    if (matches.length) {
-      parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
-      parts.push(matches.map((n) =>
-        `<button type="button" class="notes-popup-item note" data-note="${esc(n.id)}" role="option">
-          <span class="popup-topic">${esc(activeTitle(n))}</span>
-          <span class="popup-sub">${esc(noteTopic(n))}</span>
-        </button>`).join(''));
-    }
-  }
-  if (!parts.length) {
+  if (!matches.length && !mDocs.length) {
     parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
   }
   comboboxPopup.innerHTML = parts.join('');
@@ -610,6 +596,20 @@ function renderCombobox() {
     b.addEventListener('click', () => commitDocumentFilter(b.dataset.doc)));
   comboboxPopup.querySelectorAll('[data-note]').forEach((b) =>
     b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
+}
+
+function noteItemHTML(n) {
+  return `<button type="button" class="notes-popup-item note" data-note="${esc(n.id)}" role="option">
+    <span class="popup-topic">${esc(activeTitle(n))}</span>
+    <span class="popup-sub">${esc(noteTopic(n))}</span>
+  </button>`;
+}
+
+function docItemHTML(d) {
+  return `<button type="button" class="notes-popup-item doc" data-doc="${esc(d.value)}" role="option" aria-selected="${filterDoc === d.value}">
+    <span class="popup-topic">${esc(d.label)}</span>
+    <span class="popup-check" ${filterDoc === d.value ? '' : 'hidden'}>✓</span>
+  </button>`;
 }
 
 function highlightCombobox() {
