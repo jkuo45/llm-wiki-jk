@@ -219,7 +219,6 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
     pub = {
         "id": n.get("id"),
         "title": n.get("title") or n.get("id", "Untitled note"),
-        "topic": n.get("topic", "misc"),
         "document": n.get("document") or "",
         "entities": n.get("entities") or [],
         "tags": n.get("tags") or [],
@@ -252,7 +251,7 @@ async def get_notes() -> dict:
     for n in _committed_notes() + _staged_notes():
         by_id[n["id"]] = n  # staged wins on collision (still-pending drafts)
     notes = list(by_id.values())
-    notes.sort(key=lambda n: n.get("created_at") or n.get("updated") or "", reverse=True)
+    notes.sort(key=lambda n: (n.get("updated") or "", n.get("id") or ""), reverse=True)
     return {
         "notes": [_public_note(n) for n in notes],
         "documents": _list_documents(),
@@ -305,7 +304,9 @@ async def upload_notes(
             raise HTTPException(status_code=400, detail="Image exceeds 30 MB")
         buffered.append((ext, data))
 
-    clean_topic = (_SLUG_RE.sub("-", (topic or "misc").strip().lower()).strip("-") or "misc")[:40]
+    # Legacy topic field (empty when not provided) is folded into tags below;
+    # no topic key is stored on notes anymore.
+    clean_topic = (_SLUG_RE.sub("-", (topic or "").strip().lower()).strip("-") or "")[:40]
 
     try:
         parsed_entities = json.loads(entities)
@@ -316,6 +317,10 @@ async def upload_notes(
         raise HTTPException(status_code=400, detail="entities/tags must be JSON arrays")
     parsed_entities = [str(e).strip() for e in parsed_entities[:40] if str(e).strip()]
     parsed_tags = [str(t).strip().lower().replace(" ", "-") for t in parsed_tags[:40] if str(t).strip()]
+    # Topic no longer exists on notes; fold the legacy topic field into the
+    # tags list so categorization lives in tags/entities only.
+    if clean_topic and clean_topic not in parsed_tags:
+        parsed_tags.insert(0, clean_topic)
 
     slug_base = _SLUG_RE.sub("-", ((title or "note").strip().lower()))[:40].strip("-") or "note"
     note_id = f"n-{_today().replace('-', '')}-{slug_base}"
@@ -352,7 +357,6 @@ async def upload_notes(
     note = {
         "id": note_id,
         "title": title.strip() or note_id,
-        "topic": clean_topic,
         "document": document.strip(),
         "entities": parsed_entities,
         "tags": parsed_tags,
@@ -362,7 +366,6 @@ async def upload_notes(
         "annotations": [],
         "created": _today(),
         "updated": _today(),
-        "created_at": _now_iso(),
         "author": "you",
         "draft": True,
     }
@@ -424,7 +427,6 @@ async def transcribe_note(payload: dict) -> dict:
     note["ocr"] = "\n\n".join(chunks)
     note["ocr_lang"] = lang
     note["updated"] = _today()
-    note["updated_at"] = _now_iso()
     _persist_note(note)
     return {"id": note_id, "ocr": note["ocr"], "cached": False}
 
@@ -454,7 +456,6 @@ async def save_annotations(note_id: str, payload: dict) -> dict:
             )
     note["annotations"] = cleaned
     note["updated"] = _today()
-    note["updated_at"] = _now_iso()
     _persist_note(note)
     return {"id": note_id, "annotations": cleaned}
 
@@ -474,7 +475,6 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
     if "tags" in payload and isinstance(payload["tags"], list):
         note["tags"] = [str(t).strip().lower().replace(" ", "-") for t in payload["tags"][:40] if str(t).strip()]
     note["updated"] = _today()
-    note["updated_at"] = _now_iso()
     _persist_note(note)
     return _public_note(note)
 

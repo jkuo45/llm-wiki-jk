@@ -134,7 +134,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=sorted(ALLOWED_ORIGINS),
+    allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
     allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
@@ -154,7 +154,10 @@ async def origin_gate(request: Request, call_next):
         return await call_next(request)
 
     def _local(header_value: str) -> bool:
-        return header_value.startswith(LOCAL_ORIGIN_HINTS)
+        # Browsers send the literal string "null" (not "file://") as the Origin
+        # header when a file:// page issues a fetch(). Treat it as a local
+        # origin so opening web/index.html directly still works against the API.
+        return header_value == "null" or header_value.startswith(LOCAL_ORIGIN_HINTS)
 
     origin = request.headers.get("origin")
     referer = request.headers.get("referer", "")
