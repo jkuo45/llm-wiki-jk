@@ -4,7 +4,6 @@
     "title": "Ivermectin - 21_MAY_2026-00",
     "document": "_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md",
     "entities": [
-      "Cancer",
       "Ivermectin",
       "Fenbendazole",
       "Apoptosis",
@@ -52,7 +51,6 @@
     "title": "Graph analysis — Creatine vs Methylene Blue (prompt)",
     "document": "",
     "entities": [
-      "Creatine",
       "Methylene blue",
       "Cognition"
     ],
@@ -86,7 +84,6 @@
     "title": "Graph analysis — Creatine vs Methylene Blue (node sets)",
     "document": "",
     "entities": [
-      "Creatine",
       "Methylene blue",
       "Cognition"
     ],
@@ -120,7 +117,6 @@
     "title": "Autophagy pathway figure (GR1)",
     "document": "",
     "entities": [
-      "Autophagy",
       "LC3",
       "ULK1",
       "Atg7",
@@ -158,7 +154,6 @@
     "document": "",
     "entities": [
       "Metabolic Fasting",
-      "Autophagy",
       "AMPK",
       "mTORC1",
       "Insulin",
@@ -234,7 +229,6 @@
     "title": "Adrenaline → Adrenochrome formation & chemical stability (IMG_6183)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Reactive Oxygen Species",
       "Oxidative Stress",
@@ -272,7 +266,6 @@
     "title": "Chemical pathway & redox mechanism of adrenochrome formation (IMG_6193)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Adrenaline-quinone",
       "Leuco-adrenochrome",
@@ -309,8 +302,6 @@
     "title": "Spermidine — physiological autophagy inducer (IMG_6162)",
     "document": "",
     "entities": [
-      "Spermidine",
-      "Autophagy",
       "Mitochondria",
       "Aging"
     ],
@@ -345,9 +336,7 @@
     "id": "n-20260818-spermidine-levels-00",
     "title": "Spermidine levels, absorption & polyamine sources (IMG_6163)",
     "document": "",
-    "entities": [
-      "Spermidine"
-    ],
+    "entities": [],
     "tags": [
       "spermidine",
       "polyamines",
@@ -415,7 +404,6 @@
     "title": "Adrenochrome stability, metal chelation & antioxidants (IMG_6184)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Reactive Oxygen Species",
       "Glutathione",
@@ -496,7 +484,6 @@
     "title": "Adrenochrome formation & oxidation intermediates (IMG_6190)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Dopamine",
       "Reactive Oxygen Species",
@@ -536,7 +523,6 @@
     "title": "Adrenochrome, metachrome & catecholamine metabolism (IMG_6191)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Norepinephrine",
       "Catecholamines",
@@ -575,7 +561,6 @@
     "title": "Adrenochrome effects on erythrocytes & antioxidants (IMG_6192)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Erythrocytes",
       "Glutathione",
       "NADH",
@@ -691,7 +676,6 @@
     "entities": [
       "Caloric Restriction",
       "Rapamycin",
-      "Spermidine",
       "Metformin",
       "mTOR",
       "AMPK",
@@ -731,12 +715,10 @@
     "title": "Adrenochrome formation in the body — tissue sources (bilingual)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Reactive Oxygen Species",
       "Neutrophils",
       "Chromaffin cells",
-      "Neuromelanin",
       "Oxidative Stress",
       "Catecholamines",
       "Inflammation"
@@ -772,7 +754,6 @@
     "title": "Epigenetics guide — changing gene switches (IMG_6135, Chinese)",
     "document": "",
     "entities": [
-      "Epigenetics",
       "DNA Methylation",
       "Histone",
       "Non-Coding RNA",
@@ -810,7 +791,6 @@
     "title": "Epigenetic mechanisms — DNA, chromatin & histone (IMG_6136)",
     "document": "",
     "entities": [
-      "Epigenetics",
       "DNA Methylation",
       "Histone",
       "Chromatin"
@@ -886,11 +866,9 @@
     "entities": [
       "Rapamycin",
       "Metformin",
-      "Spermidine",
       "Caloric Restriction",
       "mTORC1",
       "AMPK",
-      "Autophagy",
       "Mitochondria",
       "mTOR",
       "Aging"
@@ -925,7 +903,6 @@
     "title": "Autophagy pathway — molecular machinery (IMG_6166, bilingual)",
     "document": "",
     "entities": [
-      "Autophagy",
       "ULK1",
       "VPS34",
       "ATG12",
@@ -965,8 +942,6 @@
     "title": "Spermidine — cellular renewal & longevity (IMG_6167, bilingual)",
     "document": "",
     "entities": [
-      "Spermidine",
-      "Autophagy",
       "Longevity",
       "Mitochondria",
       "Polyamines",
@@ -1005,7 +980,6 @@
     "document": "",
     "entities": [
       "Caloric Restriction",
-      "Cancer",
       "E-cadherin",
       "MMP",
       "Caspase-3",
@@ -1044,7 +1018,6 @@
     "title": "Chemical pathway & redox mechanism of adrenochrome formation (IMG_6193, bilingual)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Adrenaline-quinone",
       "Leuco-adrenochrome",
@@ -1165,10 +1138,7 @@
       "Dopamine",
       "Norepinephrine",
       "Epinephrine",
-      "COMT",
-      "MAO",
-      "Neuromelanin",
-      "Adrenochrome"
+      "MAO"
     ],
     "tags": [
       "adrenochrome",
@@ -1201,7 +1171,6 @@
     "title": "Hypothetical adrenochrome replenishment protocol (IMG_6203, bilingual)",
     "document": "",
     "entities": [
-      "Adrenochrome",
       "Epinephrine",
       "Erythrocytes",
       "Hemoglobin",
@@ -1278,8 +1247,6 @@
     "document": "",
     "entities": [
       "Ivermectin",
-      "Cancer",
-      "Autophagy",
       "Apoptosis",
       "Pyroptosis",
       "mTOR",
@@ -1321,10 +1288,8 @@
       "mTORC1",
       "Akt",
       "ULK1",
-      "Autophagy",
       "Rapamycin",
       "TSC2",
-      "Cancer",
       "Aging",
       "mTOR"
     ],
@@ -1360,7 +1325,6 @@
     "document": "",
     "entities": [
       "Ivermectin",
-      "Cancer",
       "Wnt",
       "Akt",
       "mTOR",
@@ -1445,7 +1409,6 @@
       "Apoptosis",
       "MAPK",
       "Oxidative Stress",
-      "Cancer",
       "Microtubule"
     ],
     "tags": [
@@ -1519,10 +1482,8 @@
     "document": "",
     "entities": [
       "Oxidative Stress",
-      "Adrenochrome",
       "Ivermectin",
       "Fenbendazole",
-      "Spermidine",
       "Caloric Restriction",
       "Circadian Rhythm"
     ],
@@ -1564,7 +1525,6 @@
       "NADPH oxidase",
       "Reactive Oxygen Species",
       "Epinephrine",
-      "Adrenochrome",
       "Inflammation",
       "ROS",
       "Catecholamines"
@@ -1642,7 +1602,6 @@
     "entities": [
       "Integrins",
       "RGD Peptide",
-      "Cancer",
       "Cell Adhesion",
       "Breast Cancer",
       "Lung Cancer",
@@ -1717,7 +1676,6 @@
       "RGD Peptide",
       "Integrins",
       "Nanoparticles",
-      "Cancer",
       "Endocytosis"
     ],
     "tags": [
@@ -1786,7 +1744,6 @@
     "document": "",
     "entities": [
       "Inflammation",
-      "Adrenochrome",
       "Reactive Oxygen Species",
       "Myeloperoxidase",
       "Neutrophils",
@@ -1872,7 +1829,6 @@
       "PTEN",
       "TSC1",
       "Rheb",
-      "Autophagy",
       "TFEB",
       "Protein synthesis"
     ],
@@ -1915,7 +1871,6 @@
       "Akt",
       "S6K1",
       "4E-BP1",
-      "Autophagy",
       "Rapamycin"
     ],
     "tags": [
@@ -1948,7 +1903,6 @@
     "title": "Tumor formation & common cancer types (IMG_6286, bilingual)",
     "document": "",
     "entities": [
-      "Cancer",
       "Tumor",
       "Apoptosis",
       "Angiogenesis",
@@ -2074,7 +2028,6 @@
     "document": "",
     "entities": [
       "Apoptosis",
-      "Cancer",
       "Immune response",
       "Neurodegeneration",
       "Viral Infection",
@@ -2117,7 +2070,6 @@
       "Bak",
       "p53",
       "IAP",
-      "Cancer",
       "Caspase",
       "Caspases"
     ],
@@ -2228,7 +2180,6 @@
     "document": "",
     "entities": [
       "Myeloperoxidase",
-      "Adrenochrome",
       "Epinephrine",
       "NADPH oxidase",
       "Reactive Oxygen Species",
@@ -2307,7 +2258,6 @@
       "Leuco-adrenochrome",
       "Adrenaline-quinone",
       "Electrophile",
-      "Adrenochrome",
       "Epinephrine",
       "Adrenaline",
       "Oxidation",
@@ -2348,7 +2298,6 @@
       "Biological Process",
       "Oxidative Stress",
       "Inflammation",
-      "Senescence",
       "DNA Damage",
       "Cell Death",
       "Caspase-1",
@@ -2439,7 +2388,6 @@
       "Carcinoma",
       "Proteins",
       "Caspase",
-      "Cancer",
       "Bcl-2",
       "Tumor"
     ],
@@ -2482,7 +2430,6 @@
       "Cytoplasm",
       "Chromatin",
       "Apoptosis",
-      "Cancer",
       "Redox"
     ],
     "tags": [
@@ -2521,7 +2468,6 @@
       "Caspases",
       "Survival",
       "Caspase",
-      "Cancer",
       "Tumor"
     ],
     "tags": [
@@ -2564,7 +2510,6 @@
       "Apoptosis",
       "Proteins",
       "Hypoxia",
-      "Cancer",
       "Bcl-2",
       "Tumor"
     ],
@@ -2604,7 +2549,6 @@
       "Cell Death",
       "Apoptosis",
       "Proteins",
-      "Cancer",
       "Bcl-xL",
       "Bcl-2",
       "Mcl-1",
@@ -2692,7 +2636,6 @@
       "Omi/HtrA2",
       "Hypoxia",
       "Caspase",
-      "Cancer",
       "DISC",
       "FADD"
     ],
@@ -2728,7 +2671,6 @@
     "entities": [
       "Apoptosis",
       "Proteins",
-      "Cancer",
       "Bcl-xL",
       "Bcl-w",
       "Bcl-2",
@@ -2769,7 +2711,6 @@
     "document": "",
     "entities": [
       "Caspases",
-      "Cancer",
       "Bcl-w",
       "Mcl-1",
       "Noxa",
@@ -2816,7 +2757,6 @@
       "Proteins",
       "Caspases",
       "Caspase",
-      "Cancer",
       "Bcl-2",
       "Mcl-1",
       "Noxa",
@@ -2858,8 +2798,6 @@
       "Hematopoiesis",
       "Immune System",
       "Immune Aging",
-      "Senescence",
-      "Autophagy",
       "Proteins",
       "Antigens",
       "Aging",
@@ -2901,7 +2839,6 @@
       "Microautophagy",
       "Macroautophagy",
       "Inflammation",
-      "Autophagy",
       "Rapamycin",
       "ER stress",
       "mTORC1",
@@ -2942,9 +2879,7 @@
       "differentiation",
       "Drug Discovery",
       "Mitochondria",
-      "Spermidine",
       "Cytoplasm",
-      "Autophagy",
       "Oxidation",
       "Exercise",
       "Liver",
@@ -2989,7 +2924,6 @@
       "Autophagosome",
       "Environment",
       "Cell Death",
-      "Autophagy",
       "Lysosome",
       "Proteins"
     ],
@@ -3029,7 +2963,6 @@
       "Amino Acids",
       "Pyroptosis",
       "Cell Death",
-      "Autophagy",
       "Apoptosis",
       "Platelets",
       "Lysosome",
@@ -3070,7 +3003,6 @@
       "Phospholipid",
       "Amino Acids",
       "Cell Death",
-      "Autophagy",
       "Lysosome",
       "Proteins",
       "Flushing",
@@ -3116,7 +3048,6 @@
       "Amino Acids",
       "Metastasis",
       "Cytokines",
-      "Autophagy",
       "Proteins",
       "Survival",
       "Glucose"
@@ -3156,9 +3087,7 @@
       "Inflammation",
       "E-cadherin",
       "Caspase-3",
-      "Autophagy",
       "Insulin",
-      "Cancer",
       "Leptin",
       "Tumor",
       "ECM"
@@ -3195,8 +3124,6 @@
     "document": "",
     "entities": [
       "Vaccination",
-      "Spermidine",
-      "Autophagy",
       "Metformin",
       "Rapamycin"
     ],
@@ -3232,10 +3159,8 @@
     "entities": [
       "Ascorbic Acid",
       "Environment",
-      "Creatine",
       "Adjuvant",
       "Kinase",
-      "Cancer",
       "T Cell",
       "Tumor"
     ],
@@ -3275,7 +3200,6 @@
       "Transcriptional Drift",
       "DNA Methylation",
       "Methyl groups",
-      "Epigenetics",
       "Methylation",
       "Chromosome",
       "Chromatin",
@@ -3314,10 +3238,7 @@
       "Caloric Restriction",
       "Heterochromatin",
       "DNA Methylation",
-      "Epigenetics",
       "Methylation",
-      "Spermidine",
-      "Autophagy",
       "Metformin",
       "Rapamycin",
       "Longevity",
@@ -3357,9 +3278,7 @@
     "entities": [
       "Glucose metabolism",
       "Insulin signaling",
-      "Epigenetics",
       "Cytoplasm",
-      "Autophagy",
       "Proteins",
       "Glucose",
       "Insulin",
@@ -3400,7 +3319,6 @@
     "entities": [
       "Cellular Reprogramming",
       "Epigenetic Drift",
-      "Epigenetics",
       "Stem Cells",
       "Epigenome",
       "Longevity",
@@ -3442,8 +3360,6 @@
       "Genomic Instability",
       "gene expression",
       "Non-Coding RNA",
-      "Epigenetics",
-      "Senescence",
       "Chromatin",
       "Histone",
       "Aging"
@@ -3489,7 +3405,6 @@
       "Heterochromatin",
       "DNA Methylation",
       "Non-Coding RNA",
-      "Epigenetics",
       "Methylation"
     ],
     "tags": [
@@ -3525,7 +3440,6 @@
       "Histone Acetylation",
       "DNA Methylation",
       "Rejuvenation",
-      "Epigenetics",
       "Methylation",
       "Chromosome",
       "Chromatin",
@@ -3563,9 +3477,7 @@
     "title": "DNA breakage & senescence — young-to-old cell states",
     "document": "",
     "entities": [
-      "gene expression",
-      "Epigenetics",
-      "Senescence"
+      "gene expression"
     ],
     "tags": [
       "epigenetics",
@@ -3603,7 +3515,6 @@
       "Microtubules",
       "Microtubule",
       "Glucose",
-      "Cancer",
       "Humans"
     ],
     "tags": [
@@ -3645,7 +3556,6 @@
       "Pyruvate",
       "Lactate",
       "Glucose",
-      "Cancer",
       "Oxygen",
       "Tumor",
       "ATP"
@@ -3689,7 +3599,6 @@
       "Apoptosis",
       "Survival",
       "Glucose",
-      "Cancer",
       "brain",
       "Tumor"
     ],
@@ -3763,7 +3672,6 @@
     "entities": [
       "Oxidative Stress",
       "Aminoguanidine",
-      "Adrenochrome",
       "Dicarbonyls",
       "Glutathione",
       "Adrenaline",
@@ -3880,7 +3788,6 @@
     "document": "",
     "entities": [
       "Breast Cancer",
-      "Cancer",
       "HER2"
     ],
     "tags": [
@@ -3914,7 +3821,6 @@
     "document": "",
     "entities": [
       "Apoptosis",
-      "Cancer",
       "50%"
     ],
     "tags": [
@@ -3954,7 +3860,6 @@
       "Apoptosis",
       "Carcinoma",
       "Melanoma",
-      "Cancer",
       "BRCA1",
       "Tumor",
       "HER2",
@@ -3992,7 +3897,6 @@
     "entities": [
       "Pancreatic Ductal Adenocarcinoma",
       "Appetite",
-      "Cancer",
       "Liver"
     ],
     "tags": [
@@ -4076,7 +3980,6 @@
       "Metastasis",
       "Cell Death",
       "Proteins",
-      "Cancer",
       "Tumor"
     ],
     "tags": [
@@ -4117,7 +4020,6 @@
       "E-cadherin",
       "Cell Death",
       "Kinase",
-      "Cancer",
       "Liver",
       "Tumor",
       "PI3K",
@@ -4161,7 +4063,6 @@
       "Caspase-3",
       "Apoptosis",
       "Carcinoma",
-      "Cancer",
       "Kidney",
       "Liver",
       "Tumor"
@@ -4204,7 +4105,6 @@
       "Proteins",
       "Leukemia",
       "Caspase",
-      "Cancer",
       "Tumor"
     ],
     "tags": [
@@ -4242,11 +4142,9 @@
       "Glioblastoma",
       "Microtubule",
       "Metastasis",
-      "Autophagy",
       "Survival",
       "Kinase",
       "mTORC1",
-      "Cancer",
       "Tumor",
       "PKC"
     ],
@@ -4286,7 +4184,6 @@
       "Carcinoma",
       "Melanoma",
       "MAPK/ERK",
-      "Cancer",
       "Tumor",
       "BRAF",
       "IL-6",
@@ -4370,11 +4267,9 @@
       "Chemotherapy",
       "Environment",
       "Cell Death",
-      "Autophagy",
       "Apoptosis",
       "Lysosome",
       "Survival",
-      "Cancer",
       "Tumor",
       "LKB1"
     ],
@@ -4409,7 +4304,6 @@
     "title": "- (Mucosal bowel worms of the parasitic creates nodules in the abdomen",
     "document": "",
     "entities": [
-      "Cancer",
       "Liver",
       "Skin"
     ],
@@ -4445,7 +4339,6 @@
     "document": "",
     "entities": [
       "Microfilariae",
-      "Cancer",
       "Humans",
       "Blood",
       "Skin"
@@ -4486,7 +4379,6 @@
       "Immune System",
       "Inflammation",
       "Environment",
-      "Cancer",
       "Blood",
       "brain",
       "Skin"
@@ -4523,7 +4415,6 @@
     "document": "",
     "entities": [
       "Microbiome",
-      "Cancer",
       "Skin"
     ],
     "tags": [
@@ -4560,14 +4451,10 @@
       "Immune Aging",
       "Inflammation",
       "Vaccination",
-      "Senescence",
-      "Spermidine",
-      "Autophagy",
       "Metformin",
       "Rapamycin",
       "Lysosome",
       "mTORC1",
-      "Cancer",
       "Aging"
     ],
     "tags": [
@@ -4609,9 +4496,7 @@
       "Ivermectin",
       "Metastasis",
       "Cell Death",
-      "Autophagy",
       "Apoptosis",
-      "Cancer",
       "mTOR",
       "MAPK",
       "Beta-catenin"
@@ -4648,7 +4533,6 @@
     "entities": [
       "Microfilariae",
       "Simulium",
-      "Cancer",
       "Blood",
       "Skin"
     ],
@@ -4683,8 +4567,7 @@
     "document": "",
     "entities": [
       "Microfilariae",
-      "Ivermectin",
-      "Cancer"
+      "Ivermectin"
     ],
     "tags": [
       "cancer",
@@ -4916,7 +4799,6 @@
     "document": "",
     "entities": [
       "Autophagosome",
-      "Autophagy",
       "Lipophagy",
       "Proteins",
       "movement",
@@ -4959,7 +4841,6 @@
       "Microtubule",
       "Endocytosis",
       "Phagophore",
-      "Autophagy",
       "Lysosome",
       "movement",
       "TRPML1"
@@ -4994,7 +4875,6 @@
     "document": "",
     "entities": [
       "Signaling Molecules",
-      "Autophagy",
       "Oxidation",
       "Proteins",
       "Lysosome",
@@ -5039,7 +4919,6 @@
       "Hematopoietic Stem Cell",
       "differentiation",
       "Stem Cells",
-      "Autophagy",
       "Lysosome",
       "Lifespan",
       "Nucleus",
@@ -5079,7 +4958,6 @@
       "Endocytosis",
       "Phagophore",
       "Mitophagy",
-      "Autophagy",
       "Lysosome",
       "Proteins",
       "LC3",
@@ -5117,7 +4995,6 @@
       "Protein synthesis",
       "Lysosomal surface",
       "Amino Acids",
-      "Autophagy",
       "Rapamycin",
       "Proteins",
       "Glucose",
@@ -5159,11 +5036,9 @@
     "entities": [
       "Stress resistance",
       "Breast Cancer",
-      "Autophagy",
       "Apoptosis",
       "Survival",
       "Antigen",
-      "Cancer",
       "brain",
       "Aging",
       "Tumor",
@@ -5203,7 +5078,6 @@
     "entities": [
       "Cytoskeletal organization",
       "Cell Adhesion",
-      "Autophagy",
       "Proteins",
       "Survival",
       "Mitosis"
@@ -5243,7 +5117,6 @@
       "Cell Membrane",
       "Akt at Ser473",
       "β-Catenin",
-      "Autophagy",
       "Proteins",
       "mTORC1",
       "PDCD4",
@@ -5284,7 +5157,6 @@
     "document": "",
     "entities": [
       "Cholesterol",
-      "Autophagy",
       "Rapamycin",
       "Apoptosis",
       "Proteins",
@@ -5325,7 +5197,6 @@
     "document": "",
     "entities": [
       "Protein synthesis",
-      "Autophagy",
       "Rapamycin",
       "Lysosome",
       "Pyruvate",
@@ -5371,7 +5242,6 @@
       "mTOR signaling",
       "Tumorigenesis",
       "DNA Damage",
-      "Autophagy",
       "Proteins",
       "Hypoxia",
       "Insulin",
@@ -5417,7 +5287,6 @@
       "Amino Acids",
       "Acetyl-CoA",
       "Cytoplasm",
-      "Autophagy",
       "Glutamate",
       "Proteins",
       "Raptor"
@@ -5629,7 +5498,6 @@
       "Oxidation",
       "Melanoma",
       "melittin",
-      "Cancer",
       "Tumor",
       "HER2"
     ],
@@ -5671,7 +5539,6 @@
       "Autophagosome",
       "Mitochondria",
       "Mitophagy",
-      "Autophagy",
       "Neuron",
       "Oxygen",
       "brain",
@@ -5715,7 +5582,6 @@
       "Superoxide",
       "Mitophagy",
       "Complex I",
-      "Sirtuins",
       "SIRT1",
       "Redox",
       "NAD+"
@@ -5757,7 +5623,6 @@
       "Antioxidant",
       "Resveratrol",
       "Vitamin E",
-      "Sirtuins",
       "Exercise",
       "Lifespan",
       "Hypoxia"
@@ -5801,8 +5666,7 @@
       "Superoxide",
       "Vitamin E",
       "Apoptosis",
-      "Proteins",
-      "Sirtuins"
+      "Proteins"
     ],
     "tags": [
       "sirtuins"
@@ -5882,7 +5746,6 @@
       "Heart Rate Variability",
       "Cardiovascular System",
       "Vagus Nerve",
-      "Sirtuins",
       "Fasting",
       "Heart"
     ],
@@ -5918,7 +5781,6 @@
     "entities": [
       "Mitochondrial stress",
       "Mitochondria",
-      "Sirtuins",
       "Cytosol",
       "Nucleus",
       "ATF4",
@@ -5958,7 +5820,6 @@
       "Mitochondria",
       "Proteasome",
       "Cell Death",
-      "Sirtuins",
       "Cytosol",
       "Nucleus"
     ],
@@ -5996,7 +5857,6 @@
       "Hepatic Steatosis",
       "Mitochondria",
       "Chromatin",
-      "Sirtuins",
       "Nucleus",
       "Insulin",
       "MOTS-c",
@@ -6080,7 +5940,6 @@
       "Age-Related Diseases",
       "Lifespan extension",
       "Mitochondria",
-      "Sirtuins",
       "Lifespan",
       "Aging"
     ],
@@ -6117,7 +5976,6 @@
       "Neuroprotection",
       "Gut Microbiota",
       "Microbiota",
-      "Sirtuins",
       "PARPs",
       "NMN"
     ],
@@ -6152,7 +6010,6 @@
     "document": "",
     "entities": [
       "NMN and NR",
-      "Sirtuins",
       "PARPs",
       "NMNAT",
       "CD157",
@@ -6197,7 +6054,6 @@
       "Glycolysis",
       "Tryptophan",
       "Cytoplasm",
-      "Sirtuins",
       "Histone",
       "Obesity",
       "Nucleus"
@@ -6238,7 +6094,6 @@
       "Nicotinamide",
       "lipogenesis",
       "Oxidation",
-      "Sirtuins",
       "Exercise",
       "Insulin",
       "Kidney",
@@ -6275,7 +6130,6 @@
     "entities": [
       "Oxidative Stress",
       "Proteins",
-      "Sirtuins",
       "NAMPT",
       "NADPH",
       "SIRT1",
@@ -6315,7 +6169,6 @@
     "document": "",
     "entities": [
       "Heart Failure",
-      "Sirtuins",
       "Glucose",
       "NAMPT",
       "Heart",
@@ -6354,7 +6207,6 @@
     "title": "ERCP anatomy — bile duct catheterization of digestive organs",
     "document": "",
     "entities": [
-      "Cancer",
       "Liver"
     ],
     "tags": [
@@ -6387,8 +6239,6 @@
     "document": "",
     "entities": [
       "Methylation",
-      "Senescence",
-      "Spermidine",
       "Cytoplasm",
       "Nucleus",
       "SMAD3",
@@ -6430,7 +6280,6 @@
       "Hematopoietic stem cells",
       "Skeletal Muscle",
       "Lymphocytes",
-      "Senescence",
       "Stem Cells",
       "brain",
       "Liver"
@@ -6467,7 +6316,6 @@
     "entities": [
       "Extracellular Matrix",
       "Quiescence",
-      "Senescence",
       "DNA Damage"
     ],
     "tags": [
@@ -6502,8 +6350,6 @@
     "entities": [
       "Reactive Oxygen Species",
       "Mitochondria",
-      "Senescence",
-      "Autophagy",
       "Lysosome",
       "Nucleus",
       "Oxygen",
@@ -6546,7 +6392,6 @@
       "Synthetic STAC",
       "Resveratrol",
       "Polyphenols",
-      "Sirtuins",
       "SRT1720",
       "Insulin",
       "Butein",
@@ -6592,8 +6437,7 @@
       "Vasodilation",
       "Nitric Oxide",
       "Antioxidant",
-      "Superoxide",
-      "Sirtuins"
+      "Superoxide"
     ],
     "tags": [
       "sirtuins",
@@ -6635,7 +6479,6 @@
       "Oxidation",
       "Apoptosis",
       "Proteins",
-      "Sirtuins",
       "Monocyte"
     ],
     "tags": [
@@ -6669,7 +6512,6 @@
     "entities": [
       "Pancreatic Ductal Adenocarcinoma",
       "Appetite",
-      "Cancer",
       "Liver",
       "Tumor"
     ],
@@ -6754,7 +6596,6 @@
       "Angiogenesis",
       "Integrins",
       "Proteins",
-      "Cancer",
       "Tumor"
     ],
     "tags": [
@@ -6795,7 +6636,6 @@
       "Integrins",
       "Platelets",
       "Melanoma",
-      "Cancer",
       "Tumor"
     ],
     "tags": [
@@ -6837,7 +6677,6 @@
       "Integrins",
       "Proteins",
       "Kinase",
-      "Cancer",
       "Tumor",
       "PI3K",
       "MAPK"
@@ -6871,9 +6710,7 @@
     "id": "n-20260819-cancer-rgd-cam4-13-e6800-g002",
     "title": "RGD-based drug delivery — benefits & challenges",
     "document": "",
-    "entities": [
-      "Cancer"
-    ],
+    "entities": [],
     "tags": [
       "cancer",
       "paper-figure"
@@ -6904,8 +6741,7 @@
     "document": "",
     "entities": [
       "Endocytosis",
-      "Integrins",
-      "Cancer"
+      "Integrins"
     ],
     "tags": [
       "cancer",
@@ -6941,7 +6777,6 @@
       "Doxorubicin",
       "Navitoclax",
       "Senolytics",
-      "Senescence",
       "Healthspan",
       "Rapamycin",
       "Lifespan",
@@ -6978,8 +6813,6 @@
     "entities": [
       "Senescent Cells",
       "Chemotherapy",
-      "Senescence",
-      "Cancer",
       "Tumor"
     ],
     "tags": [
@@ -7014,12 +6847,10 @@
     "entities": [
       "Tumor Microenvironment",
       "Antigen Presentation",
-      "Senescence",
       "Neutrophil",
       "Macrophage",
       "Stemness",
       "Antigen",
-      "Cancer",
       "T Cell",
       "Tumor",
       "IL-8",
@@ -7057,7 +6888,6 @@
     "entities": [
       "Epigenetic regulation",
       "Methylation",
-      "Senescence",
       "DNA Damage",
       "Chromatin",
       "Proteins",
@@ -7100,7 +6930,6 @@
       "Electron Transport Chain",
       "Reactive Oxygen Species",
       "p16 and p21",
-      "Senescence",
       "Proteins",
       "Oxygen",
       "mtDNA",
@@ -7145,7 +6974,6 @@
       "Adenosine Triphosphate",
       "Cellular Senescence",
       "Mitochondria",
-      "Senescence",
       "Mitophagy",
       "Lysosome",
       "Oxygen",
@@ -7184,7 +7012,6 @@
       "Cellular Senescence",
       "Cell Cycle Arrest",
       "Senescent Cells",
-      "Senescence",
       "DNA Damage",
       "p16INK4a",
       "Lamin B1",
@@ -7226,7 +7053,6 @@
       "Embryonic Development",
       "Paracrine Senescence",
       "Wound Healing",
-      "Senescence",
       "TGF-beta",
       "IL-1beta",
       "Tumor",
@@ -7270,7 +7096,6 @@
       "Secretory Phenotype",
       "DNA Damage Response",
       "Mitochondria",
-      "Senescence",
       "DNA Damage",
       "NF-κB",
       "Proteins",
@@ -7310,11 +7135,9 @@
       "Mitochondrial Dysfunction",
       "Antioxidant Response",
       "Parkinson's Disease",
-      "Adrenochrome",
       "Aminochromes",
       "Antioxidant",
       "Aminochrome",
-      "Senescence",
       "Apoptosis",
       "Survival",
       "NF-kB",
@@ -7357,7 +7180,6 @@
       "Wound Healing",
       "Neurogenesis",
       "Senolytics",
-      "Senescence",
       "DNA Damage",
       "Cytokines",
       "TNF-alpha",
@@ -7402,7 +7224,6 @@
       "Inflammation",
       "Antioxidant",
       "Muscle Mass",
-      "Senescence",
       "Cell Death",
       "Vitamin C"
     ],
@@ -7442,7 +7263,6 @@
       "Osteoarthritis",
       "Wound Healing",
       "Inflammation",
-      "Senescence",
       "Metastasis",
       "Macrophage",
       "Cell Death",
@@ -7477,7 +7297,6 @@
     "title": "Senescence triggers — DNA damage, telomeres & p16/p21",
     "document": "",
     "entities": [
-      "Senescence",
       "DNA Damage",
       "Chromatin",
       "p16",
@@ -7517,9 +7336,7 @@
       "Secretory Phenotype",
       "Chronic SASP",
       "Inflammation",
-      "Senescence",
       "DNA Damage",
-      "Cancer",
       "Aging",
       "p53"
     ],
@@ -7552,9 +7369,7 @@
     "id": "n-20260819-sirtuins-10522-2017-9685-fig1-html",
     "title": "Sirtuin levels change during ageing",
     "document": "",
-    "entities": [
-      "Sirtuins"
-    ],
+    "entities": [],
     "tags": [
       "sirtuins",
       "paper-figure"
@@ -7584,7 +7399,6 @@
     "title": "SIRT1 domain architecture — NAD+ binding modules",
     "document": "",
     "entities": [
-      "Sirtuins",
       "NAD+"
     ],
     "tags": [
@@ -7624,7 +7438,6 @@
       "NF-κB",
       "Cytokines",
       "TNF-alpha",
-      "Sirtuins",
       "IL-1beta",
       "SIRT3",
       "PARP1",
@@ -7883,7 +7696,6 @@
       "Hemoglobin",
       "Superoxide",
       "Neutrophil",
-      "Sirtuins",
       "Nucleus",
       "Oxygen"
     ],
@@ -8009,10 +7821,8 @@
       "Warburg Effect",
       "Rejuvenation",
       "DNA Repair",
-      "Autophagy",
       "Chromatin",
       "Telomere",
-      "Sirtuins",
       "UBCS039",
       "Cancer"
     ],
@@ -8095,7 +7905,6 @@
       "Inflammation",
       "NF-κB",
       "TNF-alpha",
-      "Sirtuins",
       "IL-1beta",
       "TGFβ",
       "SIRT3",
@@ -8133,7 +7942,6 @@
     "title": "Spermidine decline with aging — sources & health",
     "document": "",
     "entities": [
-      "Spermidine",
       "Microbiome",
       "Aging"
     ],
@@ -8169,7 +7977,6 @@
     "entities": [
       "Methylation",
       "Cytoplasm",
-      "Autophagy",
       "Proteins",
       "Nucleus",
       "PDCD4",
@@ -8209,7 +8016,6 @@
     "entities": [
       "calcineurin",
       "Cytoplasm",
-      "Autophagy",
       "Lysosome",
       "Nucleus",
       "mTORC1",
@@ -8248,7 +8054,6 @@
     "entities": [
       "gene expression",
       "calcineurin",
-      "Autophagy",
       "Proteins",
       "movement",
       "Lysosome",
@@ -8285,9 +8090,7 @@
     "id": "n-20260819-autophagy-af-p19484-f1-predicted-aligned-error-v6",
     "title": "AlphaFold predicted aligned error plot (no visible text)",
     "document": "",
-    "entities": [
-      "Autophagy"
-    ],
+    "entities": [],
     "tags": [
       "autophagy"
     ],
@@ -8320,7 +8123,6 @@
       "Mitochondria",
       "calcineurin",
       "Ragulator",
-      "Autophagy",
       "ER stress",
       "mTORC1",
       "Parkin"
@@ -8364,7 +8166,6 @@
       "Immune response",
       "Macrophages",
       "Mitophagy",
-      "Autophagy",
       "Survival",
       "Antigen"
     ],
@@ -8438,9 +8239,7 @@
     "id": "n-20260819-epigenetics-img-6148",
     "title": "“Personal Notes”]",
     "document": "",
-    "entities": [
-      "Epigenetics"
-    ],
+    "entities": [],
     "tags": [
       "epigenetics",
       "notes",
@@ -8471,7 +8270,6 @@
     "title": "Handwritten personal notes — Kaminicka travel log",
     "document": "",
     "entities": [
-      "Epigenetics",
       "~14%"
     ],
     "tags": [
@@ -8506,7 +8304,6 @@
     "document": "",
     "entities": [
       "Lymphocytes",
-      "Epigenetics",
       "Collagen",
       "B Cells"
     ],
@@ -8541,7 +8338,6 @@
     "title": "Eye cross-section — anatomy of retina & choroid",
     "document": "",
     "entities": [
-      "Epigenetics",
       "Choroid",
       "Macula",
       "Retina"
@@ -8577,7 +8373,6 @@
     "entities": [
       "differentiation",
       "Nicotinamide",
-      "Epigenetics",
       "Stem Cells",
       "Activin A",
       "iPSC",
@@ -8615,7 +8410,6 @@
       "Inner Nuclear Layer",
       "Outer Nuclear Layer",
       "Photoreceptors",
-      "Epigenetics",
       "Pigment",
       "Choroid",
       "Retina"
@@ -8654,7 +8448,6 @@
       "Inner Nuclear Layer",
       "Outer Nuclear Layer",
       "Photoreceptors",
-      "Epigenetics",
       "Pigment",
       "Choroid",
       "Retina"
@@ -8690,7 +8483,6 @@
     "entities": [
       "Retinal Pigment Epithelium",
       "Photoreceptors",
-      "Epigenetics",
       "Pigment",
       "Retina"
     ],
@@ -8731,8 +8523,6 @@
       "Somatic Cells",
       "Rejuvenation",
       "Chemotherapy",
-      "Epigenetics",
-      "Cancer",
       "c-Myc",
       "Oct4"
     ],
@@ -8769,9 +8559,7 @@
       "Cellular Senescence",
       "Telomere Attrition",
       "oxidative damage",
-      "Epigenetics",
       "DNA Repair",
-      "Senescence",
       "Stem Cells",
       "Chromatin",
       "Telomere",
