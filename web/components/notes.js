@@ -512,17 +512,20 @@ function renderGallery() {
   notesCombobox.classList.toggle('filtering', !!filterQ.trim());
   const list = filteredNotes();
   if (apiDown) {
+    galleryEl.classList.add('centered');
     galleryEl.innerHTML = '';
     emptyEl.hidden = false;
     emptyEl.textContent = t('galleryApiDown');
     return;
   }
   if (loading) {
+    galleryEl.classList.add('centered');
     galleryEl.innerHTML = `<div class="notes-loading"><span class="spinner"></span><span>${esc(t('galleryLoading'))}</span></div>`;
     emptyEl.hidden = true;
     return;
   }
   if (!list.length) {
+    galleryEl.classList.add('centered');
     galleryEl.innerHTML = '';
     emptyEl.hidden = false;
     emptyEl.textContent = notes.length
@@ -531,6 +534,7 @@ function renderGallery() {
     return;
   }
   emptyEl.hidden = true;
+  galleryEl.classList.remove('centered');
   galleryEl.innerHTML = list.map(cardHTML).join('');
   galleryEl.querySelectorAll('.notes-card').forEach((card) => {
     const id = card.dataset.id;
@@ -540,63 +544,15 @@ function renderGallery() {
     const img = card.querySelector('.notes-card-thumb');
     if (note && first && img) {
       bindImageFallback(img, note, first.page, true);
-      // Lazy thumbnails shift the card heights once they load — re-balance then.
-      img.addEventListener('load', scheduleMasonry, { once: true });
     }
   });
-  layoutMasonry();
 }
 
 // ------------------------------------------------------------
-// Pinterest-style masonry: pack cards into balanced columns so they stack flush
-// vertically (no white gaps below shorter cards). Cards are distributed into
-// the currently-shortest column; re-run on image load / window resize.
+// Gallery uses a plain CSS grid (see #notes-gallery in three-graph.css):
+// cards are laid out in aligned rows/columns and are never re-packed
+// vertically, so no JS layout balancing is required.
 // ------------------------------------------------------------
-const GALLERY_GAP = () => (window.matchMedia('(max-width: 900px)').matches ? 10 : 14);
-const GALLERY_MIN = () => (window.matchMedia('(max-width: 900px)').matches ? 150 : 240);
-let masonryTimer = null;
-let masonryWidth = 0;
-
-function layoutMasonry() {
-  const cards = Array.from(galleryEl.querySelectorAll('.notes-card'));
-  if (!cards.length) { galleryEl.innerHTML = ''; return; }
-  const gap = GALLERY_GAP();
-  const width = galleryEl.clientWidth;
-  masonryWidth = width;
-  const cols = Math.max(1, Math.floor((width + gap) / (GALLERY_MIN() + gap)));
-
-  galleryEl.innerHTML = '';
-  const colEls = Array.from({ length: cols }, () => {
-    const el = document.createElement('div');
-    el.className = 'notes-col';
-    galleryEl.appendChild(el);
-    return el;
-  });
-  const heights = new Array(cols).fill(0);
-  cards.forEach((card) => {
-    let idx = 0;
-    for (let i = 1; i < cols; i++) if (heights[i] < heights[idx]) idx = i;
-    colEls[idx].appendChild(card);
-    heights[idx] += card.offsetHeight + gap;
-  });
-}
-
-// Debounced re-pack. `byHeight` is true when a lazy thumbnail finished loading
-// (its height changed the balance); otherwise it's a resize — only repack if
-// the gallery width actually changed, so self-triggered layout settles.
-function scheduleMasonry(byHeight = false) {
-  clearTimeout(masonryTimer);
-  masonryTimer = setTimeout(() => {
-    const w = galleryEl.clientWidth;
-    if (!byHeight && w === masonryWidth) return;
-    masonryWidth = w;
-    layoutMasonry();
-  }, 120);
-}
-
-// The notes panel is a fixed full-screen overlay, so its width follows the
-// window — a resize listener covers every reflow without an observer loop.
-window.addEventListener('resize', () => scheduleMasonry(false));
 
 function findNote(id) {
   return notes.find((n) => n.id === id) || currentNote;
