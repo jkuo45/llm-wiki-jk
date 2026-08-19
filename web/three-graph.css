@@ -1141,8 +1141,9 @@ a.data-source:hover { border-color: #6b9bc7; }
 /* Keep the Back button at a fixed size regardless of how long the note title is. */
 #notes-lb-back { flex: 0 0 auto; }
 #notes-lb-top-next { flex: 0 0 auto; white-space: nowrap; }
-/* Push the Previous | language-toggle | Next cluster to the right. */
-#notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; margin-left: auto; }
+#notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; }
+/* Push the language-toggle | Previous | Next cluster to the right. */
+#notes-lb-lang { margin-left: auto; }
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
 .notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
