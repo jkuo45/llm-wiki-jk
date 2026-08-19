@@ -2768,7 +2768,7 @@
   },
   {
     "id": "n-20260819-cancer-img-6316",
-    "title": "IMG_6316 (cancer)",
+    "title": "Apoptosis — orchestrated cell death & morphological hallmarks",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -2813,7 +2813,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6316（癌症）",
+        "title": "細胞凋亡——精細調控的細胞死亡與形態學特徵",
         "ocr": "細胞凋亡（Apoptosis）\n\n研究筆記——凋亡細胞「精巧」地協調的細胞死亡（redox flow）[原文不清]\n星期日——凋亡過程中的細胞結構與細胞質會在不同的細胞類型與物種間被區隔化（compartmentalized）。\n– 形態學特徵為染色質凝縮。\n– 以及細胞核碎裂。\n– 伴隨細胞的圓縮\n     – 細胞體積下降（cytolysis）\n     – 粒線體與磷酸囊泡（phosphate pods）[原文不清]減少\n– 染色質凝縮至周邊\n     – 核膜，從真染色質（高轉錄活性）\n     – 染色質（較鬆散凝縮）使細胞收縮\n     – 在膜完整的狀況下，核破裂（karyorrhexis）。\n– 質膜釋放細胞質，此過程\n     – 細胞形狀改變／膜起泡、細胞質[原文不清]改變\n     – 碎片化，以及膜完整性喪失。\n– 通常吞噬細胞在凋亡小體形成之前就會吞噬凋亡細胞。\n– 如果凋亡細胞未被吞噬細胞清除，它們\n     – 可能發生程序性細胞死亡[原文不清]壞死，此\n     – 現象被稱為「次級壞死」（secondary necrosis）。\n\n細胞死亡的類型 1. DNA 蛋白質分解\n（細胞事件）   2. 膜變化\n– 改變      3. 由吞噬細胞[原文不清]引起的細胞形態與行為變化。\n– 什麼      早期凋亡中有 FS（Frataxin，弗氏共濟失調蛋白）在絲胺酸[原文不清]的表現\n– 兩種      – 細胞的其他層面包括膜、溶酶體與「非[原文不清]\n– 過程          – 巨噬細胞對死亡細胞的早期辨識（在\n                – 參與初級細胞成分的形成[原文不清]"
       }
     }
@@ -2868,7 +2868,7 @@
   },
   {
     "id": "n-20260819-cancer-img-6324",
-    "title": "IMG_6324 (cancer)",
+    "title": "Evading apoptosis in cancer — intrinsic pathway & genetic control",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -2914,14 +2914,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6324（癌症）",
+        "title": "癌症中的凋亡逃逸——內在途徑與遺傳調控",
         "ocr": "**撲滅細胞凋亡（續）**\n\n06/01/2020\n星期一\n\n癌細胞受到較弱的控制結構，例如致癌壓力（oncogenic stress）、基因組不穩定（genomic instability）與細胞缺氧（hypoxia）。\n-> 因應誘導的凋亡信號，內在（粒線體）途徑通常會被使用，因為……\n-> 然而癌細胞常能透過延遲凋亡過程來活化細胞反應。\n-> 抗凋亡蛋白（例如 BCL-2）的促進性表現，可顯著削弱由單一基因（如 p53）誘導的程式性細胞死亡。\n-> 然而，單獨過度表現抗凋亡蛋白（例如 BCL-2）可能無法防止同時發生的失控，因為即使兩者單獨都具有致癌性。\n\n癌細胞可包含凋亡途徑的轉錄（transcriptional）、染色體（chromosomal）與轉錄後（post-transcriptional）層面的改變。\n-> 在某些情況下，癌細胞可能透過增加或刪除抗凋亡或促凋亡基因的表現來逃避免凋亡。\n-> 癌細胞也可能透過轉錄後修飾（例如磷酸化）改變抗凋亡或促凋亡蛋白的功能，以逃避免凋亡。\n\n**轉錄/染色體調控**\n\n-> 遺傳與表觀遺傳異常是癌細胞的特徵。基因拷貝數擴增（gene copy number amplification）。\n-> 染色體基因缺失、基因靜默（gene silencing）、DNA甲基化，以及治療因子的活化（或失活）->\n-> 凋亡蛋白的表現——這些是透過大量轉錄本控制基因表現所必需的機制。\n-> 可以說癌細胞直接改變凋亡誘導之基因表現水準的閾值。\n-> 視目標標記而定，可被分析為腫瘤抑制基因或致癌基因。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6325",
-    "title": "IMG_6325 (cancer)",
+    "title": "Anti-apoptotic BCL-2 family & MCL-1 regulation in cancer",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -2966,14 +2966,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6325（癌症）",
+        "title": "癌症中的抗凋亡 BCL-2 家族與 MCL-1 調控",
         "ocr": "逃避免凋亡（Evading Apoptosis）\n\n星期一　說明抗凋亡表現\n\n- 為了克服壓力信號，癌細胞通常表現抗凋亡蛋白，尤其是 BCL-2 家族蛋白。\n- 癌細胞透過擴增抗凋亡 BCL-2 家族蛋白，並抑制一或多個抗凋亡 BCL-2 蛋白來防止細胞死亡，因為這些蛋白的表現可導致癌細胞凋亡。\n- 常說癌細胞已「預備走向細胞死亡」（primed to cell death）。\n- 或由抗凋亡 BCL-2 家族蛋白誘導。\n- 已報導（在癌症中）BCL-xL 基因擴增，包括肺癌、卵巢癌與骨腫瘤細胞。\n- 也已在支氣管肺癌樣本中鑑定出 BCL-1 基因擴增。\n\nMCL-1：在正常細胞中，MCL-1 轉錄會因細胞激素（cytokine）與生長因子刺激而誘導，包括 MCL-1 合成；並在各種壓力/DNA損傷時受到抑制。\n- 已知 MCL-1 控制促存活與凋亡。\n- 正常 MCL-1 基因表現透過直接結合 MCL-1 轉錄子（CTTP 反應元件結合蛋白與 SREB1-3（信號轉導與轉錄活化子，STAT））來調控，以活化 p53 等基因調控因子及其他下游蛋白。\n- 同樣地，這些用以監測正常細胞組織恆定（homeostatic）狀態的結構/調控機制，常被癌細胞破壞。\n- 尤其是 PKA……途徑常因突變及其他因素而在癌細胞中過度活化（[原文不清]）。\n- 抑制 SREB1-3 可阻止 MCL-1 表現。癌細胞仍受抑制。\n\n已知位點——MCL-1 表現於支氣管癌細胞。經由……觀察（[原文不清]）。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-1",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "Apoptosis pathways — extrinsic & intrinsic with Smac/DIABLO–IAP",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -3019,14 +3019,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "細胞凋亡途徑——外在與內在途徑及 Smac/DIABLO–IAP",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**外在（死亡受體）途徑（Extrinsic Pathway）**\n「死亡信號」\n\nTNF\nTNFR\nFas\nFasL\nDISC\nTRADD\nFADD\nCaspase 8\nPro-caspase 8\n\n**內在（粒線體）途徑（Intrinsic Mitochondrial Pathway）**\n基因損傷\n缺氧\n高細胞質 [Ca2+]\n氧化壓力\n粒線體\n細胞色素c\nSmac\nDIABLO\nOmi/HtrA2\nApf-1\nCaspase 9\nIAP\n\n**Caspase 3 或 Caspase 9 的活化**\n**Smac、DIABLO 或 Omi/HtrA2 與 IAPs 的結合，會破壞 caspase 3 或 9 與 IAPs 的結合**\n\n**圖示說明：**\n該圖顯示通往細胞凋亡（程式性細胞死亡）的兩條途徑：外在途徑與內在粒線體途徑。\n\n*   **外在途徑：** 描繪 TNF 與 TNFR 結合後，經 FasL、DISC、TRADD 和 FADD 傳遞信號，活化 Caspase 8 的過程。\n*   **內在途徑：** 顯示細胞色素c因基因損傷、缺氧、高細胞質鈣與氧化壓力等因素而從粒線體釋放。這會觸發涉及 Smac、DIABLO、Omi/HtrA2 與 IAPs 的級聯反應，最終導致 Caspase 9 活化與細胞凋亡。\n\nIAPs（凋亡抑制蛋白，inhibitor of apoptosis proteins）以藍色區塊表示。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-1-02",
-    "title": "Here’s the transcription of all visible text from the image",
+    "title": "Extrinsic & intrinsic apoptosis pathways — IAP regulation",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -3072,14 +3072,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "外在與內在凋亡途徑——IAP 調控",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**外在（死亡受體）途徑（Extrinsic Pathway）**\n「死亡信號」\n\nTNF\nTNFR\nFasL\nDISC\nTRADD\nFADD\nCaspase 8\nPro-caspase 8\n\n**內在（粒線體）途徑（Intrinsic Mitochondrial Pathway）**\n基因損傷\n缺氧\n高細胞質 [Ca2+]\n氧化壓力\n粒線體\n細胞色素c\nSmac\nDIABLO\nOmi/HtrA2\nIAP\n細胞凋亡\nCaspase 3 或 Caspase 9 的活化\nSmac、DIABLO 或 Omi/HtrA2 與 IAPs 的結合，會破壞 caspase 3 或 9 與 IAPs 的結合"
       }
     }
   },
   {
     "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-2",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Dysregulated apoptosis in cancer — Bcl-2 family groups & IAPs",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -3125,14 +3125,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "癌症中的凋亡失調——Bcl-2 家族分組與 IAPs",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**死亡信號表現減少**\n\n**受體信號途徑受損**\n\n**細胞凋亡失調與癌症（Dysregulated Apoptosis & Cancer）**\n\n**Bcl-2 家族蛋白平衡失調**\n\n**IAPs 表現增加**\n\n**第 I 組：** Bid、Bcl-2、Bcl-xL、Bcl-w、Mcl-1、Bcl-2、A1/BF-1、BclB/Bcl2L10\n\n**第 II 組：** Bax、Bak、Bok/Mtd\n\n**第 III 組：** Noxa、Bad、Bmf、Hrk、Bik"
       }
     }
   },
   {
     "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-2-02",
-    "title": "Here is the transcription of the visible text from the image",
+    "title": "BCL-2 family classification & apoptosis dysregulation in cancer",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -3178,7 +3178,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中可見文字的轉錄",
+        "title": "BCL-2 家族分類與癌症中的凋亡失調",
         "ocr": "以下是圖片中可見文字的轉錄：\n\n**第 I 組**\nBcl-2、Bcl-xL、Mcl-1、Bcl-w、A1/BF-1、BclB/Bcl2L10\n\n**第 II 組**\nBid、Bim、Puma、Noxa、Bad、Bmf、Hrk、Bik\n\n**第 III 組**\nBax、Bak、Bok/Mtd\n\n**胱天蛋白酶表現減少**\n\n**IAPs 表現增加**"
       }
     }
@@ -3291,7 +3291,7 @@
   },
   {
     "id": "n-20260819-autophagy-img-6160",
-    "title": "IMG_6160 (autophagy)",
+    "title": "Autophagy in cellular aging — clearing damaged macromolecules",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3336,14 +3336,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6160（自噬）",
+        "title": "細胞老化中的自噬——清除受損大分子",
         "ocr": "細胞老化\n-> 受損大分子（例如蛋白質、脂質與聚集物）在長壽命的終末分化細胞（post-mitotic cells）中累積並過量。\n-> 受損結構的累積，加上修復與更新機制的衰退，導致損傷加劇。\n\n自噬：被認為能同時預防細胞老化與慢性低度發炎的候選路徑。\n-> 降解並清除受損的細胞物質，例如錯誤摺疊的聚集物與胞器，以維持細胞健康與恆定。\n-> 使細胞得以應對細胞壓力（如內質網壓力或氧化壓力）進行降解。\n-> 「核心過程」本質上是抑制哺乳動物雷帕黴素標靶蛋白複合物1（mTORC1）以及 AMPK 的細胞組成。\n-> 兩者皆為自噬的典型媒介（canonical mediators）。\n-> 對代謝壓力的反應。\n-> 細胞質物質被雙層膜的自噬體吞噬，自噬體隨後與（內容物被降解並回收的）胞器融合[原文不清]。\n-> 自噬有三種類型：巨自噬、微自噬、分子伴侶介導自噬。\n\n選擇性 vs. 非選擇性\n-> 選擇性 vs 非選擇性自噬。\n\n迫近性[原文不清]（Imminence）：\n-> 提供能量與新代謝物來源的標準。\n-> 自噬流隨年齡增加而下降[原文不清]（Sacrographic 疑為 autophagic 之誤）。\n-> 與小鼠相關且與年齡相關的疾病可能出現（與自噬增加有關）[原文不清]。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6161",
-    "title": "IMG_6161 (autophagy)",
+    "title": "Autophagy, immunity & mitophagy — repurposed drugs",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3389,14 +3389,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6161（自噬）",
+        "title": "自噬、免疫與粒線體自噬——老藥新用",
         "ocr": "自噬塑造免疫力——\n- 選擇性降解細胞廢物（免疫代謝）\n- 調節免疫力與細胞動態。\n- 在免疫細胞的分化與……問題中扮演重要角色[原文不清]。\n- 其餘則在於究竟是什麼支撐了分子機制、清除與身體淨化的過程[原文不清]。\n- 自噬也促進受損或功能失調的粒線體之選擇性降解，特別是其數量的調控——自噬也能防止粒線體 DNA 逸漏至細胞質中（或維持粒線體恆定），因此「……干擾訊號傳導」[原文不清]。\n- 免疫力需要。\n\n藥物研發已找出許多小分子化合物，\n可逆轉自噬中與年齡相關的效應——「頻繁」[原文不清]\n> 「自噬的累積性施行顯示出高度潛力。」\n- 理想上，氧化、運動與 Dr. ……逆轉自噬路徑[原文不清]。\n- 數種重新定位（repurposed）且已獲 FDA 核准的藥物可抑制 mTORC1 或增強 AMPK。\n\n雷帕黴素（Rapamycin）——「第一個肝臟標靶排斥[原文不清]」。\n二甲雙胍（Metformin）——抗糖尿病藥物\n亞精胺（Spermidine）——「新穎的抗老化聚胺」"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6168",
-    "title": "IMG_6168 (autophagy)",
+    "title": "Autophagy as stress response — types & adaptive roles",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3440,14 +3440,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6168（自噬）",
+        "title": "作為壓力反應的自噬——類型與適應性角色",
         "ocr": "自噬：對細胞壓力的反應與補充（Refilling）\n\n*   **定義：** 在生理與病理情境下，對壓力刺激的早期細胞反應。\n\n*   **自噬修復（Autophagy Fixes）**宿主細胞，清除受損蛋白質與錯誤摺疊的蛋白質。\n    *   **自噬的媒介因子（Mediators of autophagy）**在多種病理狀況中被建議作為治療標的。\n\n*   **其目標是**促進適應性自噬並提高真核細胞的複雜度。\n\n*   **若執行性自噬反應受阻[原文不清]**，便會觸發……並因此刺激第二型自噬性細胞死亡（type II autophagy cell death）[原文不清]。\n\n*   **這是一個與……相關的保護機制**，此現象仍在研究中[原文不清]。\n\n*   **恆定（Homeostasis）**——穩定（平衡）的細胞內環境。\n\n*   **除了在細胞恆定中的角色外，自噬也積極參與多種胚胎細胞與成體細胞的發育、分化與再生潛能。**\n\n*   **真核細胞（細胞骨架束縛）**自噬維持兩套系統，用於降解主要的降解／清除分子[原文不清]。\n\n*   **自噬的類型**\n\n    *   **巨自噬（Macroautophagy）：**唯一能清除整個被吞噬胞器的方式。\n        *   **自噬……[原文不清]**（Autophagie NSC）由雙層膜囊泡（自噬體）的形成所觸發。\n        *   **自噬體**被合成並與溶酶體融合，透過吞噬數種水解酶進行內吞式降解[原文不清]。\n\n    *   **分子伴侶介導自噬（Chaperone-mediated autophagy）：**伴侶（chaperone）過程可能受晝夜節律影響。\n\n    *   **……區室[原文不清]**（Oxysolele compartmental，或分子伴侶介導）由標靶蛋白組成。……被輸送到溶酶體中的伴侶……活性[原文不清]。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6169",
-    "title": "IMG_6169 (autophagy)",
+    "title": "Autophagy response & flux — energy dependence & lysosomes",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3493,14 +3493,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6169（自噬）",
+        "title": "自噬反應與自噬流——能量依賴與溶酶體",
         "ocr": "以下是影像的忠實轉錄：\n\n**自噬反應**\n\n07/05/26 週二 自噬。儘管自噬在受壓力的細胞中扮演保護角色，異常或過度的自噬反應仍可能導致病理結果，例如刺激細胞程式性死亡，如細胞凋亡（apoptosis）、焦亡（pyroptosis）等。\n\n溶酶體 自噬的嚴重減少可能促成疾病——\n以補償……基因不穩定性、內質網壓力、老化與無法控制的疾病等病理狀況[原文不清]。\n\n……[原文不清]（Shanker）低能量水平——ATP 耗竭與增加\n必需營養素耗竭（AMP（低 ATP 比值）\n（胺基酸、葡萄糖）\n> 儘管自噬由低 ATP 所觸發，但自噬本身的細胞過程仍會消耗 ATP。\n> 自噬依賴能量。即使 ATP 被吸附，也會消耗能量導致耗竭[原文不清]。\n> 飢餓的人將自身資源轉化為生存的策略。\n\n自噬流（Autophagy Flux）  > 細胞物質（貨物）被分解進入自噬體的速率。\n> 隨時間推移，路徑中三種類型的降解活性。\n  （破壞區域受阻）\n  > 在阻斷溶酶體降解的條件下評估腫瘤，並比較累積量。L-5-T 腫瘤測定\n  > 在醫師診間計算自噬流：<GL 11-12 水平，有與……[原文不清]\n  > 上層 L-3-7 累積，健康狀態、無血小板。\n  tsh/mph = 較高自噬流\n\n溶酶體  > 自噬體與溶酶體最終匯聚於溶酶體，以消化並回收其內容物。\n\n>自噬／溶酶體機制被回收至細胞質中，\n  以維持生物活性營養素，或被排出細胞外。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6176",
-    "title": "IMG_6176 (autophagy)",
+    "title": "Autophagy in liver & heart — ATP depletion & ketone bodies",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3546,14 +3546,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6176（自噬）",
+        "title": "肝臟與心臟中的自噬——ATP 耗竭與酮體",
         "ocr": "以下是影像文字的忠實轉錄：\n\n**肝臟反應與（F）[原文不清]**\n\n*   極度自噬流中的快速 ATP 耗竭，會提高溶酶體的降解能力，因而導致自噬體累積與細胞死亡[原文不清]。\n*   腦（在小鼠唾液中，被證實稱為「concavals」[原文不清]）\n*   縮小飢餓尺寸「細胞」，以阻止因快速 ATP 耗竭與細胞恆定喪失所造成的進一步屏障滲漏[原文不清]。\n*   在 CNS 生命中，自噬功能在心臟、……與心肌細胞（Cardio Myocyte）恆定中扮演關鍵角色[原文不清]。\n*   吸收 AMP/ATP\n*   內質網透過調節特定生物分子與自噬反應，介導功能性活動並減少心臟個體中的任何問題[原文不清]。\n\n**肝臟**\n\n肝臟是飢餓期間酮體實際累積的主要場所。\n– 膽汁自噬與酮體污染物之間明顯減少[原文不清]。\n\n**……機制[原文不清]**（Holohydry Machinery）被認為可降解、分解、水解並代謝其他分泌物，如血液與含磷蛋白質。\n– 定期沖洗週期在自噬反應中的角色。\n– 雙苯基肝細胞（Biphenyl hepatocyte）→ 促進肝臟對磷脂因子的降解，並將其從細胞外基質釋放出來[原文不清]。\n– 人類、爬蟲類的核……潛在 [mRNA][原文不清]。\n\n**其他**\n\n心肌細胞進一步、基本上……不分享其細胞，因為……預成系統提供能量於策略性的「血液」以供連接[原文不清]。\n– 蛋白質轉為胺基酸。\n– 自催化是基本的細胞降解序列，用於蛋白質分解，消耗許多……[原文不清]。\n– 氣體如二氧化碳。\n– 分裂可促成其從骨骼釋放的其他……——「組織」微生物連接[原文不清]。\n\n---\n\n**注意：** 這似乎是手寫筆記，可能來自講座或學習課程。字跡較為密集，且有些輕微的格式不一致。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6177",
-    "title": "Here's the transcription of the image",
+    "title": "Calorie restriction & autophagy in cancer control",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3599,14 +3599,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6177（自噬）",
+        "title": "熱量限制與自噬在癌症控制中的角色",
         "ocr": "以下是影像的轉錄：\n\n**自噬反應及其……[原文不清]**\n\n* 熱量限制的幾種形式，如飲食限制、低……與熱量限制，被用來控制多種癌症類型的發展與進展[原文不清]。\n* 低能量飲食可影響腫瘤細胞的代謝與維持。——> 癌細胞的……與轉移率取決於蛋白質含量、高存活率，以及對化療副作用的耐受性[原文不清]。\n* 胺基酸負責腫瘤細胞的動態生長，以及與正常循環相關的穩定性。\n* 暴露於癌症受體與輻射的細胞——> 然而，其對……癌症狀態的治癒影響仍很大程度上未知[原文不清]。\n\n**熱量限制的效應**\n\n* 臨床觀察顯示，在熱量限制飲食的個體中，葡萄糖與特定碳水化合物（8-12 脂肪與葡萄糖）會降低[原文不清]。\n* 這種代謝概況可導致癌症發生率、……與發炎降低。——> 癌症可延長暴露後的訊息傳導[原文不清]。\n* 低……與熱量限制可導致 mTOR 去磷酸化。\n* 其他機制，例如 Hedgehog 的活化。\n* 磷酸……／磷酸酶比值增加[原文不清]。\n* 癌症下，趨化因子（Chemokines）\n* 飢餓細胞激素\n *   - 初步資料顯示，短期熱量限制中的蛋白質具有抗癌特性，或在短期癌症前可重塑免疫耐受性[原文不清]。\n\n**筆記**\n*   功能性自噬的缺乏可能促成癌症進展。\n*   免疫系統的增加可能產生免疫缺陷效應[原文不清]。\n*   微生物組（microbiome）與糞便代謝物參與癌症的減少。\n*   熱量限制也能減少癌症的副作用。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6182",
-    "title": "Diagram Description",
+    "title": "E-cadherin, ECM proteases & apoptosis — cancer cell notes",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3651,14 +3651,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖示說明",
+        "title": "E-cadherin、ECM 蛋白酶與細胞凋亡——癌細胞筆記",
         "ocr": "以下是影像中文字的轉錄，盡可能忠實呈現：\n\n---\n\n**筆記**\n\n*   **細胞間交互作用** – 細胞間黏附\n    *   在許多癌症中，E-cadherin 濃度下降，使腫瘤細胞得以脫離、侵入組織並轉移。\n    *   Shallow[原文不清]可以幫助／保持癌細胞並降低其侵襲性行為。\n*   **黏附／瘦素（lepton）交互作用**（疑為 Leptin 之誤）\n    *   瘦素（Leptin）（其他分泌／排泄物）\n    *   發炎與腫瘤生長。\n*   **心房利鈉肽（Atriopeptin）** – 一般具有支持性、保護性效應。\n    *   （抗發炎、肌肉適應、可抑制生長）\n*   **Shallow[原文不清]**（增加寒冷效能並增強清除（瘦素）> 比值——某些癌症進行性腫瘤生長的風險）\n*   **成熟蛋白酶（酶原，zymogens）** – 分解細胞外基質（ECM）\n    *   癌細胞製造基質分子並分泌……Shallow[原文不清]提供這些……（空腔）以限制腫瘤侵襲、血栓，MMPs 具有複雜的角色。\n*   **伴侶蛋白與環狀二肽** – 這些是呈遞分子\n    *   簡單插入與胰島素生長……治療[原文不清]。\n    *   Shallow[原文不清]可將平衡轉向更具腫瘤成熟反應的方向，並減少其長期……。\n    *   慢性發炎。\n*   **Caspase-3** – 主要的執行者。\n    *   caspase-3 可在癌細胞中活化，導致程式性自毀／使健康細胞……[原文不清]。\n    *   可能備份／恢復壓力。\n*   **Shallow（p127）[原文不清]** – p127 損傷、反應與修復。\n    *   Shallow[原文不清]可誘導非抗體性癒合，維持基因組穩定性或訊號反應\n    *   也是應對快速細胞壓力的更好……[原文不清]。\n\n**時間框架**\n\n*   **早期** – E-cadherin 濃度下降，使腫瘤細胞得以脫離。\n*   **晚期** – E-cadherin 濃度恢復。\n*   **整體而言** – E-cadherin 濃度恢復。\n\n---\n\n**圖示說明：**\n\n影像包含多則手寫筆記，依「細胞間交互作用」、「黏附／瘦素交互作用」、「成熟蛋白酶」、「伴侶蛋白與環狀二肽」、「Caspase-3」與「時間框架」等類別組織。每個區段含有說明癌症與細胞過程相關各方面的項目符號。這是一系列觀察與假設，以略顯凌亂的筆記形式寫成。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-dmm-15-049345-g1",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Autophagy enhancers & immune aging — vaccination response",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -3692,7 +3692,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像中所有可見文字的轉錄",
+        "title": "自噬增強劑與免疫老化——疫苗反應",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n*   雷帕黴素（Rapamycin）\n*   二甲雙胍（Metformin）\n*   亞精胺（Spermidine）\n*   飲食限制（DR，Dietary Restriction）\n\n改善（Improvement in）：\n\n*   疫苗反應\n*   與年齡相關的狀況"
       }
     }
@@ -3748,7 +3748,7 @@
   },
   {
     "id": "n-20260819-epigenetics-1600584-f1",
-    "title": "Here’s a transcription of all visible text in the image",
+    "title": "Aging & genomic instability — chromatin states",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -3792,14 +3792,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄",
+        "title": "老化與基因組不穩定——染色質狀態",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**圖1（左）：**\n\n*   「染色體」（Chromosome）\n*   「mRNA」\n*   「老化」（Aging）\n*   「轉錄漂移」（Transcriptional drift）\n*   「DNA突變」（DNA mutation）\n*   「新轉位子插入」（New transposable element insertions）\n\n**圖2（底部）：**\n\n*   「正常染色質狀態」（Normal chromatin state）\n*   「異常染色質狀態」（Abnormal chromatin state）\n*   圖中顯示DNA甲基化，標有「染色質修飾因子（Chromatin modifiers）」和「Me」（可能指甲基），以及組蛋白變體，標有「DNA突變（DNA mutation）」、「組蛋白修飾模式的改變（Altered patterns of histone modifications）」和「Me」。\n\n**圖示簡述：**\n\n*   **圖1**描繪老化進程及相關基因組變化：突變增加、轉錄漂移，以及轉位子的新插入。\n*   **圖2**說明正常與異常染色質狀態之間的對比。正常狀態顯示DNA甲基化和組蛋白修飾；異常狀態則顯示DNA突變及組蛋白修飾模式的改變。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-1600584-f4-autophagy-epigenetics",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Longevity interventions — autophagy & epigenetic pathways",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -3845,7 +3845,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄",
+        "title": "長壽干預——自噬與表觀遺傳途徑",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**長壽（Longevity）**\n\n*   **熱量限制**（Calorie restriction）\n*   **營養素**（Nutrients）\n*   **胰島素**（Insulin）\n*   **雷帕黴素**（Rapamycin）\n*   **亞精胺**（Spermidine）\n*   **乙醯輔酶A耗竭**（Acetyl CoA depletion）\n*   **STACs**（衰老相關細胞類型，Senescence-Associated Cell Types）\n*   **二甲雙胍**（Metformin）\n*   **自噬**（Autophagy）\n*   **FOXO**\n*   **ATG基因**\n\n**圖示說明：**\n\n此圖為複雜的示意圖，說明與長壽及老化相關干預措施有關的途徑。關鍵要素包括：\n\n*   **細胞途徑：**顯示多條途徑，包括mTOR訊號傳導、AMPK訊號傳導、自噬，以及DNA甲基化的調控（HATs與DNMTs）。\n*   **干預措施：**描繪多種干預措施，如熱量限制、營養調控、胰島素處理、雷帕黴素、亞精胺補充和二甲雙胍給藥。\n*   **基因調控：**此圖突顯FOXO和ATG基因在老化中的角色，以及它們如何受到SIRT1的調控。\n*   **異染色質重組：**顯示老化期間異染色質重組的概念。\n*   **STACs：**此圖將STACs（衰老相關細胞類型）標示為長壽的關鍵因素。"
       }
     }
@@ -3951,7 +3951,7 @@
   },
   {
     "id": "n-20260819-epigenetics-img-6143",
-    "title": "IMG_6143 (epigenetics)",
+    "title": "Epigenetic changes in aging — histones, ncRNA & transposons",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -3995,14 +3995,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6143（表觀遺傳學）",
+        "title": "老化中的表觀遺傳變化——組蛋白、非編碼RNA與轉位子",
         "ocr": "星期二 02/28/23\n\n表觀遺傳變化（Epigenetic changes），即表觀遺傳變化對老化過程有巨大影響。這些變化發生在各種層次，包括核心組蛋白總量降低、組蛋白轉譯後修飾（post-translational modifications）的顯著改變、以組蛋白變體取代典型組蛋白，以及非編碼RNA的表達，這些都會促成加速老化與複製性衰老。\n\n老化期間表觀遺傳變化的淨結果，是改變基因組內容在局部的可及性（accessibility），導致基因表達改變、轉位子的去抑制（derepression）與基因組不穩定。\n\n某些類型的表觀遺傳變化可以跨世代（transgenerational）方式傳遞，以強化後代的壽命。\n\n*   比起基因組的預先印記（genomic imprinting），它更像一個儲存由表觀遺傳決定之表觀遺傳資訊的空間。\n    *   對表觀遺傳酶的抑制可以被限制在壽命範圍內。\n\n*   每個細胞都有相似的基因表達模式。\n    *   各細胞在大型結構域中具有相似表觀遺傳特徵的情況減少。\n    *   表觀遺傳變化會零散地減少。\n    *   對環境暴露的反應是所有生物體的共同因素。\n*   衰老細胞中受損的染色質結構也會導致新的轉位子插入基因組，並伴隨DNA突變。\n\n*   首要促成因素：染色質結構的表觀遺傳調控是老化過程中的主要角色。\n    *   這段共表達的472個鹼基對（base pairs）編碼一種特異性組蛋白（每種核心組蛋白各兩個拷貝）。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-img-6144",
-    "title": "IMG_6144 (epigenetics)",
+    "title": "Epigenetic clock & methylation shifts in aging",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -4048,14 +4048,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6144（表觀遺傳學）",
+        "title": "表觀遺傳時鐘與老化中的甲基化變化",
         "ocr": "05/12/28\n星期三\n\n**表觀遺傳學（Epigenetics）**——老化的關鍵誘因/標誌。\n   - 表觀基因組累積的變化會改變基因表達模式，進而影響細胞間通訊、決定因素，並增加與疾病相關的風險——儘管DNA訊號本身大多保持不變。\n\n**幾種可預期的轉變會發生**\n\n*   DNA甲基化模式\n*   全基因組低甲基化（基因組中許多甲基的喪失，可能導致基因組不穩定，以及通常被沉默的區域（表觀遺傳元件）被活化）\n*   位點特異性低甲基化，通常發生於腫瘤抑制基因或其他蛋白質編碼基因的啟動子區域。\n*   這些變化通常在整個細胞中是一致的。\n*   組蛋白修飾\n*   染色質的改變與組蛋白蛋白質的修飾變化。\n*   其他非編碼RNA被包裹於細胞核內（異染色質的拱形區域、轉錄噪音、「不當的基因表達」）。\n\n**生物時鐘的測量**\n\n*   這些觀察結果沿著長時間尺度（細胞衰老、細胞死亡、粒線體功能障礙、染色體不穩定等）。\n*   **海佛烈克極限（Hayflick Limit）**——你的細胞有多老，取決於它們的（分裂）次數。\n\n**表觀遺傳年齡（Epigenetic Age）**——Avelism（良性）[原文不清]\n   - 曆法年齡（chronological age）：實際（曆法）年齡\n   - 早期死亡率\n   - 老化相關疾病\n   - 老年人的壽命：肥胖、矮小身材、體能活動不足，以及2天週期（滲透作用、光合作用、持續時間/DE）[原文不清]\n\n老化與老化相關疾病的沉默指標。\n  -  人類、動物及其他物種的健康壽命呈線性。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-img-6145",
-    "title": "IMG_6145 (epigenetics)",
+    "title": "Calorie restriction, DNA methylation & lifespan extension",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -4098,14 +4098,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6145（表觀遺傳學）",
+        "title": "熱量限制、DNA 甲基化與壽命延長",
         "ocr": "6/4/96 圖2 表觀遺傳學/星期三\n\n異時性（Heterochronic）基因刪除會降低反轉錄轉位（retrotransport）的程度。它是決定組蛋白喪失的關鍵過程，並延長複製性壽命。\n\n反轉錄轉位（retrotransp.）-> -> -> 來自非轉位子元件的處理粒子現在由反轉錄轉位元件運輸，並被轉化為染色質的建構與beta基因。[原文不清]\n\nDNA甲基化——壽命延長調節因子的上調，至少透過表觀遺傳途徑發揮功能。\n\n-> 迄今為止，最能直接延長壽命的方式是恢復CR（熱量限制，calone）[原文不清]\n\n-> 雖然已顯示CR（calone）透過多種不同途徑起作用，但其延長壽命效果的確切機制仍有待確定。然而，證據表明表觀遺傳改變（包括DNA甲基化和組蛋白修飾）可能在CR延長壽命方面扮演關鍵角色。\n\n-> CR在調控基因組個別位點的DNA甲基化模式方面至關重要，而非全基因組DNA甲基化模式，因此可能伴隨特定基因（minor）表達水準或活性的改變或增加。\n\n-> 某些由CR介導的功能已顯示可預期地保護免受[illegible]的影響。\n\n-> 基因經常複製，如同在生命早期的情況，然後（走向）死亡。\n\n-> 高程度的回溯性（retroactivity），例如壽命延長。[原文不清]\n\n-> 組蛋白修飾的減少，尤其是組蛋白乙醯化。\n\n-> 高度DNA聚合化，在壽命延長時，染色體的[illegible]與壽命延長。\n\n-> CR是CR所含的染色體原型。[原文不清]\n\n-> 工具是細胞凋亡期間的閉合。[原文不清]\n\nDR資料集（DR dataset）\nCR（calone，熱量限制）\n回春（rejuvenation）\nalphacyt"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-nihms-1015538-f0002",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "DNA breakage & senescence — young-to-old cell states",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -4136,14 +4136,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄",
+        "title": "DNA 斷裂與衰老——從年輕到年老的細胞狀態",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**年輕（Young）**\n**DNA斷裂與其他擾動（DNA breakage & other perturbations）**\n**年老（Old）**\n\n**功能完全的細胞（Fully functional cell）**\n**細胞身分的喪失與細胞衰老（Loss of cell identity & cell senescence）**\n\n**圖示說明：**\n\n此圖描繪三個連續的細胞狀態，代表細胞從年輕到老年的進程。\n\n*   **年輕細胞：**顯示一條DNA鏈，上面有數個「ON」和「OFF」開關，表示活躍與不活躍的基因表達。\n*   **中間狀態細胞：**顯示一條帶有斷裂（以黃色箭頭表示）的DNA鏈，以及因該擾動而隨後活化的基因（「ON」開關）。\n*   **年老細胞：**顯示一條以「ON」開關為主的DNA鏈，並有一個「OFF」開關，象徵細胞身分的喪失與細胞衰老的開始。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6233",
-    "title": "IMG_6233 (cancer)",
+    "title": "Fenbendazole — benzimidazole antihelminthic mechanism",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -4182,7 +4182,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6233（癌症）",
+        "title": "芬苯達唑——苯並咪唑類抗蠕蟲藥作用機制",
         "ocr": "febendazole（人類與動物口服腸道治療藥）\n-> febendazole 是一種苯并咪唑類抗蠕蟲藥（benzimidazole antihelminthic agent），常用於治療各種寄生蟲感染。\n-> 在人類中，其他抗蠕蟲藥（例如 metronidazole）也被用作抗蠕蟲藥劑。\n-> febendazole 的抗蠕蟲作用主要作用於腸道，透過破壞寄生蟲的微管（microtubules）來發揮。\n-> 抑制腸道分泌性囊泡運輸。\n-> 與寄生蟲的 β-微管蛋白（beta-tubulin）結合，導致微管解組（microtubule disorganization）並阻礙其建立。\n-> 干擾腸道神經元，例如葡萄糖攝取\n    -> 影響寄生蟲的能量轉移。\n-> 因其吸收差，僅能以口服方式給藥。febendazole 對寄生蟲的標靶特別有效。\n\nfebendazole 的抗寄生蟲活性已在多種口服途徑中獲得研究。\n-> 對多種腸道寄生蟲具有抗蠕蟲作用。\n-> 吸收選擇性差限制了其在人類的治療用途。\n-> 口服給藥時，febendazole 能到達胃腸道區域並有效用於治療，因為寄生蟲所需的治療物質不可或缺。\n\n抗菌作用\n-> 抑制細胞裂解（cell lysis）\n-> 下調葡萄糖攝取\n-> 抑制氧化壓力\n-> [原文不清]\n-> [原文不清]\n-> 有效增強"
       }
     }
@@ -4241,7 +4241,7 @@
   },
   {
     "id": "n-20260819-cancer-img-6235",
-    "title": "IMG_6235 (cancer)",
+    "title": "Hexokinase, glycolysis & p53 — fenbendazole mechanisms in cancer",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -4287,7 +4287,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6235（癌症）",
+        "title": "己糖激酶、糖酵解與 p53——芬苯達唑的抗癌機制",
         "ocr": "貝特類（Fibrates）\n\n透過 p53 活化，fibersolact 被誘導以平衡與調節己糖激酶（hexokinase, HK）——糖酵解途徑中對癌細胞生長至關重要的第一個酶。\n\n- 作為葡萄糖代謝的主要酶，HK 的起始可促進腫瘤發展。\n- 這透過糖酵解、HK 與己糖激酶/fibersolact，可導致癌細胞生長，並逆轉任何抗藥性，殺死癌症腫瘤。\n\n除了糖酵解/己糖激酶/fibersolact 之外，還包括適應性改變——\n-> 對大腸直腸癌細胞（CRC）與纖維母細胞型細胞，透過調節 myo-gel 與 caspase-3/PARP 途徑誘導細胞凋亡（[原文不清]）。\n- 3-m 型大腸直腸癌（CRC）中，fibersolact 誘導 p53 媒介的細胞凋亡與 caspase-3 表現。\n- 抑制己糖激酶與 myo-gel，以及細胞凋亡\n\nfibersolact 也是一種有絲分裂穩定劑。\n- 中間標靶抗增殖性癌症/細胞存活，因此保護細胞結構完整性的重要性及其他細胞事件。\n- 一些癌症療法驅動關鍵模組（導致細胞凋亡和/或抑制癌細胞）。\n- fibersolact 在人癌細胞中顯示微管沉積/修飾活性（例如，體內細胞增殖）。\n- 抑制 G1/S 期的 Cyclin D 細胞週期，以及 G2/M 期。\n- 在 G2/M 期具有「……（[原文不清]）」微管形成活性。\n- 標靶癌症的細胞週期錯誤。\n- 以微克/微量濃度口服給藥時，fibersolact 能有效降低癌細胞生長。\n- 對抗惡病質（cachexia），減少 MMIXX（G-BDF4）途徑（[原文不清]）。\n- 抑制癌症（例如骨髓瘤）"
       }
     }
@@ -4434,7 +4434,7 @@
   },
   {
     "id": "n-20260819-misc-age-fig-2",
-    "title": "age-fig-2 (misc)",
+    "title": "AGE formation pathway & therapeutic intervention targets",
     "topic": "misc",
     "document": "",
     "entities": [
@@ -4478,7 +4478,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "AGEs 圖 2（misc）",
+        "title": "AGEs 形成途徑與治療干預標靶",
         "ocr": "糖（包括葡萄糖及其他還原糖）\n+\n蛋白質\n血糖控制\nAmadori 產物（糖化蛋白質）\n反應性羰基化合物\n苯磷硫胺（Benfotiamine）\n外源性 AGEs\nsRAGE\n晚期糖化終末產物（AGEs）\n氨基胍（Aminoguanidine）\nALT-946\nOPB-9195\n吡哆胺（Pyridoxamine）\nACE 抑制劑\n受體阻斷劑（原文不清：「All receptor blockers」）\n二甲雙胍（Metformin）\n交聯斷裂劑（PTB、alagebrium）\nAGE 受體"
       }
     }
@@ -4655,7 +4655,7 @@
   },
   {
     "id": "n-20260819-misc-img-6281",
-    "title": "accurately as possible",
+    "title": "RGD peptide delivery & integrin interactions",
     "topic": "misc",
     "document": "",
     "entities": [
@@ -4701,14 +4701,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "盡可能準確",
+        "title": "RGD 胜肽遞送與整合素交互作用",
         "ocr": "好的，以下是圖中手寫文字的轉錄，盡可能準確：\n\n**星期二**\n\n**Red Peptide（紅色胜肽）**\n\n->  生物活化、胺基響應的乾式遞送胜肽，用於在特定生理條件（pH、黏附性與濃度）及非生物條件（溫度、濕度與氧氣）下才遞送藥物並釋放其作用[原文不清：release their edges]。其設計目的是調控／降低藥物釋放[原文不清：upregulate/re-decrease]。\n\n**188S Peptide（188S 胜肽）**\n\n->  首個非聚合胜肽，透過與腫瘤血管上的整合素結合（深入而細微的穿透）及與 VEGFR1[原文不清：VEGFR1/1] 的交互作用進行乾式遞送，以全面促進腫瘤生長。\n\nRGD 序列與整合素受體之間的交互作用：\n->  具體而言，位於配體上的 RGD 序列（此處）導致受體—配體交互作用及整合素的構型改變。\n->  構型改變使整合素得以與其他細胞蛋白質結合，導致局部黏附的形成／細胞—基質的崩解。\nFAK（局部黏附激酶，Focal Adhesion Kinase）\nMAPK（促分裂原活化蛋白激酶，Mitogen-Activated Protein Kinases）\nPI3K（磷脂醯肌醇 3-激酶，Phosphatidylinositol 3-Kinase）\n->  調節細胞內／外訊息傳導路徑、基因表現、細胞週期與細胞凋亡。\n->  RGD + 整合素（Medibion 的[原文不清：endopylar]開發）+ 組織恆定 + 免疫反應。\n->  參與細胞黏附、癒合的微遞送、血管新生及相關試劑。\n\n*圖示／註記*：圖片包含蛋白質（FAK、MAPK、PI3K）的條列清單，並將它們與其作用（調節路徑、基因表現等）連結。另也提及「Medibion 的 endopylar 開發」。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6211",
-    "title": "Here's a transcription of the text",
+    "title": "Ivermectin — anti-tumor & antiparasitic mechanisms",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -4749,14 +4749,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為文字的轉錄",
+        "title": "伊維菌素——抗腫瘤與抗寄生蟲機制",
         "ocr": "**[圖片轉錄]**\n\n該圖片是一張手寫筆記，可能是藥物資訊單或臨床筆記，標題為「apotosin, chloropyrimidines.」（[原文不清]）。以深藍色墨水寫在淺色背景上。筆記以箭頭與項目符號組織。\n\n以下是文字的轉錄：\n\n「DS 21/26\n星期四」\n\n-> 具有強大的抗腫瘤作用，包括在各種情況下抑制細胞增殖、轉移與血管新生。\n-> DAPI 染色。\n-> Umeclidinic 磷酸鹽被 PKM2 磷酸化。\n-> Umeclidinic 酸/形態與吡啶。\n-> 也可抑制腫瘤幹細胞並降低多重抗藥性，與其他化療藥物併用時能達到最佳效果。\n-> 大環內酯類抗寄生蟲藥，具有『l-furocoumarines』環（主要用於治療多種寄生蟲疾病：衣原體病、象皮病與疥瘡）\n-> 阻斷寄生蟲中與麩胺酸相關的氯離子通道，導致大量氯離子內流並引起過極化，使 s4sr（γ-胺基丁酸，Gamma-aminobutyric acid, GABA）釋放到運動神經，以及肌肉細胞的神經傳導。\n-> 抑制豬、雞等家畜的寄生蟲麻痺。\n-> 也顯示對其他寄生蟲疾病如瘧疾、低維生素血症、血吸蟲肌肉感染等具有有益作用。\n-> 可能也具有潛在的抗病毒作用。\n-> 可抑制 CMV、Flavivirus（黃病毒）的複製，透過標靶 NS3 解旋酶（helicase）。\n-> 透過直接標靶 CMV 感染的核運輸，阻斷病毒蛋白的核質運輸，並對 HIV 與登革病毒發揮抗病毒作用。\n-> CMV 感染在腫瘤細胞中產生細胞毒性的具體機制尚不清楚，可能與 vim 在各種肝臟途徑中的作用有關。\n-> 將導致體內細胞死亡。\n-> 也促成抗腫瘤作用。」\n\n**圖示/元素描述：**\n\n圖片包含數個手寫箭頭與項目符號，用於組織資訊。有一個用藍筆繪製的小型不規則圓圈。整體印象是一份詳細、密集書寫的筆記。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6212",
-    "title": "IMG_6212 (cancer)",
+    "title": "Breast cancer signaling — Akt pathway, EMT & YAP1",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -4802,14 +4802,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6212（癌症）",
+        "title": "乳癌訊息傳導——Akt 途徑、EMT 與 YAP1",
         "ocr": "**US 2/26/26**\n星期四\n\n**乳癌（Breast cancer）**\n-> 由乳腺上皮細胞基因突變引起的惡性腫瘤，由多種致癌基因（oncogenes）導致。\n-> 在 Proxart（[原文不清]）之後，多種乳癌細胞株的增殖，包括 MCF-7、MDA-MB-231 與 MET-p，均被合成性地降低。\n-> 所涉機制與 Akt/Park 途徑的 NIH/Nmu（[原文不清]）有關（包括 c-akt、akt 與 PI3K 活化激酶（PAK）），在體內活化癌細胞。\n-> 細胞透過阻斷細胞週期進入 G1（靜止期）來抑制犬乳腺腫瘤……的問題（[原文不清]）。\nNmu 的機制可能與 Wnt 途徑的存在有關。\n-> TMB（腫瘤突變負荷（乳癌））：指癌症與惡性……透過建立受體、蛋白酶受體與人類表皮生長因子受體 -> 最具侵襲性乳癌細胞亞型的 TMB 程式（[原文不清]）\n-> 它調節上皮間質轉化（EMT）相關基因（E-cadherin）的表現，以恢復 TMB 細胞的腫瘤形成能力。它抑制蛋白 I/II 作為癌症末端的表觀遺傳標記之功能（[原文不清]）。\n-> 它調節微環境的量並介導免疫抑制性細胞死亡，這可能對癌症有保護作用。\n-> 大量 I/II 釋放到細胞外環境中。\n-> 細胞媒介的免疫反應，例如發炎反應。\n\n**消化系統癌症**\n-> 一些最常見的惡性腫瘤。\n-> YAP1（Yes-associated protein）——體內的腫瘤細胞。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6213",
-    "title": "Here is the transcription of the text in the image",
+    "title": "Ivermectin against liver, bile duct, kidney & prostate cancers",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -4855,14 +4855,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中文字的轉錄",
+        "title": "伊維菌素對抗肝癌、膽管癌、腎癌與前列腺癌",
         "ocr": "以下是圖片中文字的轉錄：\n\n葡萄膜炎（Uveitis）：*相關病例*\n* 治療後，裂解 IVM（伊維菌素），DDLI 與 L134 細胞中 caspase-3 的表現增加，顯示 IVM 具有促凋亡作用*\n* 也抑制下游基因的表現，提供其他治療選擇\n* 肝細胞癌（Hepatocellular carcinoma）是癌症死亡的主要原因（約 80% 的病例為肝癌）\n* 由 B 型肝炎（HBV）與 C 型肝炎（HCV）感染引起\n* 膽管癌（Cholangiocarcinoma）是起源於肝內與肝外膽管的惡性腫瘤。\n* IVM 抑制 KCC214 膽管癌細胞的增殖，以劑量與時間依賴的方式減少。\n* IVM 殺死細胞（eye-to-12 球體，[原文不清]）並促進細胞凋亡。\n\nKCC214\n\n泌尿系統癌症：\n* 腎細胞癌是腎臟的致命惡性腫瘤，來源於腎小管和/或近端細胞。\n* 腎細胞癌細胞存活……受影響正常腎細胞的機率，其機制可能與個體微細胞變化有關（[原文不清]）。\n* 細胞暫時降低微細胞膜電位，並抑制肺部呼吸與 ATP 產生。\n* KCC214 膽管癌細胞的產物為（可……）（有用）……裂解抑制反應（[原文不清]）。\n* 前列腺癌是來源於前列腺上皮的惡性腫瘤，如神經內分泌……僅浮動於 IVM 並增強抗凋亡活性，驅動癌細胞治療的抗藥性（[原文不清]）。\n* 前列腺癌細胞（IVM）抗藥性的過程是恢復正常的速率，提供 home AlDP 保護（[原文不清]）。\n\nDUTIES（[原文不清]）"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6217",
-    "title": "IMG_6217 (cancer)",
+    "title": "Ivermectin in leukemia & gynecologic cancers",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -4906,7 +4906,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6217（癌症）",
+        "title": "伊維菌素在白血病與婦科癌症中的作用",
         "ocr": "星期二 05/21/20\n\n**白血病（Leukemia）**\n\n→ 白血病是由異常造血幹細胞引起的惡性克隆性疾病。\n\n→ 它主要殺死白血病細胞（或低濃度）受影響的正常造血細胞——\n\n→ 機制與進入細胞的 chlorolase mRNA 水準升高有關，導致質膜插入與 PBS 蛋白的……（[原文不清]）。\n\n→ 它具有特徵性的 L1 細胞質條紋，記錄於白血病的框架上（[原文不清]）。\n\n→ 它（IVM）顯著導致粒線體阻塞與細胞毒性，使慢性骨髓性白血病（chronic myeloid）K562 細胞完成複雜的胱天蛋白酶依賴性細胞凋亡，並與正常骨髓細胞相關——\n\n→ 它（IVM）在體外以劑量依賴性方式抑制腫瘤生長，並證明療效改善。\n\n**生殖系統癌症**\n\n→ 婦科癌症是最常見的婦科惡性腫瘤之一，約占新癌症病例的 8%（[原文不清]）。\n\n→ 多由 HPV（原文作 HBV，[原文不清]）感染引起。\n\n→ 它（在體外）與 HeLa 細胞共培養並促進細胞凋亡。\n\n→ 在 S 期，細胞顯示與細胞凋亡相關的典型形態學變化。\n\n→ 它與（PAI）增加有關。\n\n→（VMAT）參與者對卵巢癌具有協同作用，實驗室實驗中兩種治療幾乎完全抑制腫瘤生長——\n\n→ 它可在體外增強順鉑（cisplatin）的療效，作為治療之一。"
       }
     }
@@ -5253,7 +5253,7 @@
   },
   {
     "id": "n-20260819-cancer-img-6230",
-    "title": "IMG_6230 (cancer)",
+    "title": "Ivermectin — microbiome & polyparasitism notes",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -5284,14 +5284,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6230（癌症）",
+        "title": "伊維菌素——微生物組與多重寄生蟲感染筆記",
         "ocr": "IVM（伊維菌素）\n\n救援與公共有效性包括 SROC 活性、安全性與範圍，以及以微生物群[原文不清]微絲蟲生態系統——特別是*微生物組*囊泡。\n\n- 添加 IVM 顯著減少釋放至微生物群的病原體數量——證據支持「快速清除微絲蟲會延遲*微生物組*顆粒衰竭」的理論，他可[原文不清]藥物的危險影響，但同時抑制細菌重建系統以逃避宿主免疫防禦機制的能力。\n\n對人體使用安全，副作用極小\n- 可由非醫療人員給藥\n- 用於對抗諸如*出血性*症候群、出血、骨腫瘤、過度與肌肉[原文不清]等疾病\n導向一般健康改善的普遍支持 -\n- 任何形式的感染盛行率 – *革蘭氏陽性*蠕蟲寄生蟲\n- 與披衣菌感染者服用 IVM 錠劑正面交鋒[原文不清]。\n- IVM 是首個用於建立與腸道蠕蟲、骨骼、皮膚疾病不間斷[原文不清]的藥物，這些疾病很常見——通常與同時感染蟲卵及其他寄生蟲的個體共存。\n- 明智地治療多重寄生蟲感染的族群，以減輕基本控制措施[原文不清]。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-dmm-15-049345-g1",
-    "title": "Diagram Descriptions",
+    "title": "Autophagy pathway & immune aging — rapamycin, metformin, spermidine",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -5337,14 +5337,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖示說明",
+        "title": "自噬途徑與免疫老化——雷帕黴素、二甲雙胍、亞精胺",
         "ocr": "以下是圖片中所有可見文字的轉錄，以及圖示的簡短描述：\n\n**轉錄文字：**\n\n*   Rapamycin（雷帕黴素）\n*   Metformin（二甲雙胍）\n*   Spermidine（亞精胺）\n*   DR\n\n**圖示說明：**\n\n1.  **免疫細胞圖示：**一個免疫細胞的圓形插圖，帶有顯著的溶酶體（顯示為一個大而圓的結構），以及自噬的描繪（顯示為多個圓形結構吞噬細胞成分）。這些結構與細胞內其他分子之間繪有連線，表示一個訊息傳導途徑。\n\n2.  **途徑圖示：**顯示涉及 mTORC1 與 AMPK 的途徑。該圖示說明下列交互作用：\n\n    *   Rapamycin、Metformin、Spermidine 與 DR 會影響 mTORC1。\n    *   AMPK 被活化，導致自噬增加。\n    *   自噬增加有助於減少發炎與免疫衰老，以及衰老與細胞老化。\n\n3.  **底部圖示：**兩個代表老年人的圖像，標籤指出：\n\n    *   改善：\n        *   疫苗接種反應\n        *   與年齡相關的疾病"
       }
     }
   },
   {
     "id": "n-20260819-cancer-ivermectin-ga1-lrg",
-    "title": "Text Transcription",
+    "title": "Ivermectin anti-cancer mechanism flowchart",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -5390,14 +5390,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "文字轉錄",
+        "title": "伊維菌素抗癌機制流程圖",
         "ocr": "以下是圖片中所有可見文字的轉錄，以及圖示的描述：\n\n**文字轉錄：**\n\n*   癌症幹細胞（Cancer stem cell）\n*   PAK1\n*   影響多條途徑（Akt / mTOR、Wnt / β-catenin、MAPK 等）\n*   Ivermectin（伊維菌素）\n*   癌細胞死亡（Cancer cell death）\n*   細胞凋亡（Apoptosis）\n*   自噬（Autophagy）\n*   細胞焦亡（Pyroptosis）\n*   抗癌作用（細胞週期停滯、抑制增殖、轉移與血管新生）\n*   聯合治療（Combination therapy）\n*   逆轉多重抗藥性（Reverses multidrug resistance）\n\n**圖示說明：**\n\n1.  **流程圖：**核心元素是一個說明 Ivermectin 對抗癌症之擬議作用機制的流程圖。從「癌症幹細胞」與「PAK1」節點開始，導向「Ivermectin」節點。從 Ivermectin 出發，箭頭指向各種作用，包括「癌細胞死亡」、「細胞凋亡」、「自噬」與「細胞焦亡」。這些作用最終導向「抗癌作用」（細胞週期停滯、抑制增殖、轉移與血管新生）。也顯示了「聯合治療」路徑，表示 Ivermectin 可與其他治療合併使用。最後，流程圖指出 Ivermectin 可逆轉「多重抗藥性」。\n\n2.  **方框/形狀：**圖片使用不同的形狀來表示不同的元素：\n    *   圓角矩形：表示關鍵實體，如「癌症幹細胞」、「PAK1」、「Ivermectin」，以及「多條途徑」等途徑。\n    *   矩形：表示「癌細胞死亡」、「細胞凋亡」、「自噬」與「細胞焦亡」等過程。\n    *   菱形：表示「抗癌作用」的結果。\n\n我已準確轉錄文字，並提供視覺元素的描述。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-ivermectin-pjab-87-013-g003",
-    "title": "Diagram Notes",
+    "title": "Onchocerciasis life cycle — human & blackfly stages",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -5432,7 +5432,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖示說明",
+        "title": "蟠尾絲蟲症生活史——人類與蚋（黑蠅）階段",
         "ocr": "以下是圖片中所有可見文字的轉錄，忠實呈現：\n\n**人體宿主階段**\n1. 雌蠅吸血時，L3 幼蟲進入人類皮膚\n2. 幼蟲移行至皮下組織，發育為成蟲並形成結節（6–12 個月成熟）\n3. 雌成蟲產生無鞘微絲蟲（每天約 1,000 條），移行至皮膚、結締組織淋巴系統，以及周邊血液\n4. 微絲蟲在白天移行至皮膚，此時黑蠅（blackflies）在吸血時將其攝入\n\n**Simulium 黑蠅階段**\n5. 微絲蟲脫鞘，穿透中腸並移行至胸肌\n6. 幼蟲階段（L1 與 L2）\n7. L3 幼蟲\n8. L3 幼蟲移行至頭部、口器與唾液（7 天內成熟）\n\n**圖示說明：**\n*   圖片是一個流程圖，說明 *Simulium* 黑蠅的生命週期及其與人類宿主的交互作用，特別是有關絲蟲病（filariasis）的部分。\n*   它顯示蠅的發育階段以及微絲蟲透過宿主的傳播。\n*   有人類、黑蠅與幼蟲階段的插圖。\n*   右下角有「ra」標誌。"
       }
     }
@@ -5530,7 +5530,7 @@
   },
   {
     "id": "n-20260819-blood-cells-img-6269",
-    "title": "IMG_6269 (blood-cells)",
+    "title": "Neutrophil & eosinophil — dysregulation notes",
     "topic": "blood-cells",
     "document": "",
     "entities": [
@@ -5566,14 +5566,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6269（血球）",
+        "title": "嗜中性球與嗜酸性球——失調筆記",
         "ocr": "嗜中性球 (Neutrophil)：嗜中性球過低\n   → 延遲感染偵測\n   → 75% 重複，類型：shwann [原文不清]\n   → 骨髓穩定，自體免疫引起新的免疫反應 [原文不清]\n\n嗜中性球 (Neutrophil)：嗜中性球過高\n   → 侵襲性嗜中性球（過早離開骨髓）\n   → 類風濕性關節炎、自體免疫造成骨髓過早（釋出）[原文不清]\n   → 嗜中性球（晚期）[原文不清]\n\n嗜酸性球 (Eosinophil)：35-51µm，- / - / 4% → 由「骨髓」(bone marrow) 產生\n   → 100-150 微米——感染部位（幹細胞）的結締組織 [原文不清]\n   → 細胞質收縮——受影響的細胞：嗜中性顆粒 [原文不清]\n   → 血球溶解（24 小時）／嗜中性球中 10 小時，參數 [原文不清]\n   → / - / 4%——細胞外流 [原文不清]\n\nIgG 的表面受體，並與 IgG 抗原複合物結合\n  → 結合階段。– [原文不清]\n  → 釋放抗寄生蟲物質 (cartions) [原文不清]、蛋白質與主要鹼性蛋白 (major basic protein)\n  → 釋放組織胺 (histamine)、限制發炎、分化 [原文不清]\n  → 以及肥大細胞去顆粒化\n   → 免疫性過敏反應 [原文不清]\n\n酒精：中毒——神經毒素\n  → — — charlson 的產物 [原文不清]\n   → 寄生蟲感染\n\n注意事項 (Cave)：\n   → （上皮控制）[原文不清]"
       }
     }
   },
   {
     "id": "n-20260819-blood-cells-img-6270",
-    "title": "IMG_6270 (blood-cells)",
+    "title": "Leukocyte types — basophils, neutrophils & monocytes",
     "topic": "blood-cells",
     "document": "",
     "entities": [
@@ -5619,14 +5619,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6270（血球）",
+        "title": "白血球類型——嗜鹼性球、嗜中性球與單核球",
         "ocr": "2019年10月26日\n\n白血球 (Leukocytes WBC)\n\n*   **嗜鹼性球 (Basophils)** → 保護身體對抗真菌病原體（如酵母菌、黴菌、病毒感染）、過敏物質，並釋放酵素以防止血液凝塊（更多，在血液中受損）[原文不清]\n    → 在骨髓中發育，成熟後流入肝臟再循環 → 占白血球 (WBC) 的 1-5%，占多形核白血球 (PMNs) 的 25-74%\n    → 嗜鹼性顆粒含有肝素 (heparin)、組織胺 (histamine) 及其他數種發炎物質\n\n*   **嗜中性球 (Neutrophils)** → 主要為膜受體（白血球）與抗體\n    → 「圖中細胞圖三層、看起來毛茸茸的」→ 45-74%\n    → 吞噬作用 → 透過辨識病原體進行消化並摧毀細胞物質\n    → 表現第二類 MHC 抗原 (class II MHC)\n    → 骨髓 → 周邊組織\n    → 衍生出巨噬細胞與樹突細胞\n    → 樹突細胞、血小板、多形核白血球 (PMNs) 與移動細胞 → 釋放細胞激素 → 聚集其他白血球\n    → 巨噬細胞——處理入侵者，以及神經／結締細胞 [原文不清]\n    → 嗜中性球：調理作用、趨化作用、壞死、化學溶解\n\n*   **Agastobophils** [原文不清] → 體積最大的白血球類型，但僅占 2-4%，每微升 100 - 700 個\n    → 酸性吞噬細胞 (Acidic Phasey Cells) [原文不清]，含有溶酶體 (lysosomes)\n    → 酸性吞噬細胞透過辨識病原體進行消化並摧毀細胞物質\n\n*   **單核球 (Monocytes)** →  20-40%\n    → 分化為巨噬細胞與樹突細胞\n    → 釋放細胞激素並聚集其他白血球\n    → 血液中最常見的白血球、免疫細胞與駐留細胞\n\n圖示：\n圖中顯示白血球的分層結構，並標示關鍵術語，例如「囊泡 (Vesicles)」、「溶酶體 (Lysosomes)」與「酸性吞噬細胞 (Acidic Phasey Cells) [原文不清]」"
       }
     }
   },
   {
     "id": "n-20260819-blood-cells-img-6271",
-    "title": "IMG_6271 (blood-cells)",
+    "title": "Lymphocytes — B cells, T cells & NK cells",
     "topic": "blood-cells",
     "document": "",
     "entities": [
@@ -5672,14 +5672,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6271（血球）",
+        "title": "淋巴球——B 細胞、T 細胞與自然殺手細胞",
         "ocr": "白血球 (Leukocytes WBC)\n\n淋巴球 (Lymphocytes)／淋巴球\n淋巴球 (Lymphocytes)／淋巴球\n- 負責發展特異性免疫 (specific immunity)，\n- 具有抗原特異性受體，可形成免疫記憶 (immunological memory)。\n\n淋巴球——B細胞 (Lymphocytes, B cells)\n- 在骨髓 (bone marrow) 中成熟 [原文不清]\n- 遇到抗原後，分化為漿細胞 (plasma cells)。\n- 產生抗體（IgM、IgG、IgA）\n- 抗體中和病原體，並調理巨噬細胞 [原文不清]\n- 主要的 B細胞負責長期免疫力 [原文不清]\n\n**淋巴球——T細胞 (Lymphocytes, T cells)**\n- 在血漿中活躍 [原文不清]\n- 輔助T細胞 (CD4+) 透過釋放細胞激素協調免疫反應，並活化 B細胞、巨噬細胞與細胞毒性T細胞\n- 細胞毒性T細胞 (CD8+) 透過釋放穿孔素 (perforin) 與顆粒酶 (granzymes)，主動殺死受病毒感染的細胞及／或癌細胞（包括誘導細胞凋亡 apoptosis）。\n\n自然殺手細胞 (NK, Natural Killer)\n- 由淋巴球／巨噬細胞進行成熟的免疫殺傷 [原文不清]\n- 細胞表面與活化決定細胞死亡類型 [原文不清]\n- 脂質與分子引起細胞辨識 [原文不清]\n- 分泌穿孔素、顆粒酶與 Fas 配體 (Fas ligand) 以誘導細胞凋亡 (apoptosis)\n- 特定的生物葉 (BLF) [原文不清]"
       }
     }
   },
   {
     "id": "n-20260819-blood-cells-types-of-leukocytes-white-blood-cells",
-    "title": "Types-of-Leukocytes-White-Blood-Cells (blood-cells)",
+    "title": "Types of leukocytes — white blood cells poster",
     "topic": "blood-cells",
     "document": "",
     "entities": [
@@ -5710,14 +5710,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "白血球的種類（白血球）(blood-cells)",
+        "title": "白血球種類——白血球海報",
         "ocr": "白血球的種類\n（白血球）\n\n生物學筆記 (The Biology Notes)\n化學筆記 (The Chemistry Notes)\nbio business\n由 Simon Arron 設計"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-lipophagy-nihms479427f8",
-    "title": "Here's a transcription of all the text visible in the image",
+    "title": "Lipophagy in intestinal cells — HLH-30/MXL-3 regulation",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -5755,14 +5755,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像中所有可見文字的轉錄",
+        "title": "腸道細胞中的脂噬——HLH-30/MXL-3 調控",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n*   **營養素（Nutrients）**\n*   **HLH-30**\n*   **MXL-3**\n*   **CACGTG**\n*   **酸性脂肪酶（Acid lipases）**\n*   **溶酶體脂肪酶（Lysosomal lipase）**\n*   **自噬體（Autophagosome）**\n*   **必需自噬蛋白（Essential autophagy proteins）**\n*   **脂滴（Liquid droplets, LD）**\n*   **黃色箭頭**（代表路徑）\n*   **綠色箭頭**（代表路徑）\n*   **藍色箭頭**（代表路徑）\n\n**圖示說明：**\n\n*   **兩個腸道細胞**被描繪出來，一個在左側（基礎脂噬，basal lipophagy），一個在右側（活化的脂噬，activated lipophagy）。\n*   **LD**（脂滴）以紅色圓圈表示。\n*   **黃色箭頭**表示脂滴的移動與處理過程。\n*   **綠色箭頭**表示自噬的流向。\n*   **藍色箭頭**表示營養素的攝取。\n*   **關鍵術語**標有對應的圖示。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-lysosome-jcb-202102001-fig2",
-    "title": "Here’s the transcription of all visible text in the image",
+    "title": "Lysosome reformation — ELR, ALR & PLR pathways",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -5808,7 +5808,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像中所有可見文字的轉錄",
+        "title": "溶酶體再形成——ELR、ALR 與 PLR 途徑",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**A：內吞性溶酶體再形成（Endocytic Lysosome Reformation, ELR）**\n\n*   早期內體（Early Endosome）\n*   晚期內體（Late Endosome）\n*   內體（Endosome）\n*   Ptdins3P\n*   Ptdins(3,5)P\n*   PIK3yE\n*   TRPML1\n*   溶酶體（Lysosome）\n*   管狀形成／分裂（Tubulation/Scission）\n*   成熟（Maturation）\n*   Ptdins3P\n*   Ptdins(3,5)P\n*   PIK3yE\n*   TRPML1\n\n**B：自噬性溶酶體再形成（Autophagic Lysosome Reformation, ALR）**\n\n*   溶酶體（Lysosome）\n*   自噬體（Autophagosome）\n*   吞噬泡（Phagophore）\n*   PIPK3K1B\n*   PIPK3α\n*   自噬溶酶體（Autolysosome）\n*   KIF5B\n*   延伸（Extension）\n*   成熟（Maturation）\n*   PtdIns4P\n*   LAMP1\n*   Ptdins(4,5)P\n*   分裂[原文不清]（Spinerster）\n*   AP2\n*   KIF5B\n*   網格蛋白（Clathrin）\n*   動力蛋白 2（Dynamin 2）\n*   微管（Microtubule）\n*   肌動蛋白絲（Actin filament）\n*   溶酶體（Lysosome）\n\n**C：吞噬性溶酶體再形成（Phagocytic Lysosome Reformation, PLR）**\n\n*   溶酶體（Lysosome）\n*   吞噬體（Phagosome）\n*   融合（Fusion）\n*   胺基酸（Amino Acid）\n*   溶酶體（Lysosome）\n*   管狀形成／分裂（Tubulation/Scission）\n*   成熟（Maturation）\n*   TRPML1\n*   PIK3yE\n*   Ptdins3P\n*   SLC36/SLC36A1-4\n*   Ca2+\n\n**圖示說明：**\n\n影像由三個圖板（A、B、C）組成，分別說明內吞作用、自噬作用與吞噬作用之後的溶酶體再形成。每個圖板詳細呈現各過程中的關鍵步驟與分子參與者，包括：\n\n*   **形狀／表示方式：** 各圖板結合圖表（例如表示運動方向的箭頭、代表胞器的封閉形狀）與細胞結構的簡化插圖。\n*   **顏色編碼：** 不同顏色代表關鍵分子或過程，便於視覺區分。例如：\n    *   紅色：PtdIns3P\n    *   橘色：Ptdins(3,5)P\n    *   藍色：Ca2+\n    *   粉紅色：PIK3yE\n    *   綠色：TRPML1\n    *   黃色：PIPK3K1B、PIPK3α\n    *   紫色：KIF5B\n    *   棕色：LAMP1\n    *   灰色：SLC36/SLC36A1-4\n*   **標籤：** 每個圖板標有過程名稱（ELR、ALR、PLR）及涉及的關鍵分子。"
       }
     }
@@ -6024,7 +6024,7 @@
   },
   {
     "id": "n-20260819-autophagy-img-6288",
-    "title": "IMG_6288 (autophagy)",
+    "title": "mTORC1 — components, signaling & disease relevance",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -6070,7 +6070,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6288（自噬）",
+        "title": "mTORC1——組成、訊息傳導與疾病相關性",
         "ocr": "mTORC1 第二章（複合物）\n\n→ 核心組分：mRNA、核醣體（RNA）聚合酶、轉錄酶、RNA 蛋白酶與 DETs[原文不清]。\n→ LTR 對重複（循環）序列的反應，保護免受 DNA 突變[原文不清]（活性）。\n→ 調控細胞存活、細胞核醣體器官生長[原文不清]（週期性異常[原文不清]）。\n→ 關鍵骨架磷蛋白、ATP（[原文不清]）（ABR、PBR 與 SFTP）。\n→ 參與多步驟訊息傳遞回饋，以及細胞水合作用／蛋白質分解（proteolysis）。\n\n健康與疾病[原文不清] → 正常生理，對生長、發育、免疫功能與組織恆定至關重要。→ 失調（dysregulation）。\n   → 過度活化：常見於癌症（胰島素／IGF-1／PI3K／AKT／PTEN 路徑）\n   → 藥物／化學物質誘導的細胞凋亡（apoptosis），[原文不清] 以供觀察（第二型細胞凋亡與老化）\n   → 調控：[原文不清] 保護 DNA 穩定性（透過 Colibril[原文不清]／[原文不清]）\n   → 分泌（正常生物體中由基質（stroma）分泌的細胞激素（cytokine））\n   → 星狀細胞用於壓力抵抗。\n\n治療（[原文不清]）                                    （術語／定義）\n→ （EGFR）與同源物（[原文不清]）\n→ 抑制（mTOR）\n→ （細胞免疫反應）（[原文不清]）\n→ （細胞驅動因子）（例如活化的神經細胞）（癌症／致癌／遺傳性[原文不清] 腦腫瘤、乳癌）\n→ LTR 聚焦結節性硬化複合體（TSC）[原文不清]（突變／蛋白質交互作用[原文不清]、蛋白酶過度活化／組織／癌症的異質性）（增加、抗原耐受性的破壞[原文不清]）"
       }
     }
@@ -6225,7 +6225,7 @@
   },
   {
     "id": "n-20260819-autophagy-img-6292",
-    "title": "IMG_6292 (autophagy)",
+    "title": "mTORC1 control of mitochondria, PGC-1α & autophagy",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -6271,14 +6271,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6292（自噬）",
+        "title": "mTORC1 對粒線體、PGC-1α 與自噬的調控",
         "ocr": "粒線體拷貝數，以及許多編碼參與氧化代謝之蛋白的基因表現，會因雷帕黴素而降低，並因活化 mTORC1 訊息傳遞的突變而增加。\n\nmTORC1 控制 PGC-1α 轉錄複合體（一個在粒線體[原文不清]與氧化代謝中扮演關鍵角色的基質複合物）的轉錄活性。\n→ 透過直接影響與另一轉錄因子 YY1 的物理交互作用\n\n自噬\n→ 細胞內組分的重新組織（經由自噬體）及其被溶酶體的降解。\n→ 當[原文不清]達成時，胞器與蛋白質的[原文不清]降解透過自噬完成，保護生物材料以獲得合成代謝產物，例如蛋白質合成與能量產生。\n→ mTORC1 透過調控由 UNC-51 樣激酶（ULK1）、自噬相關基因 13（ATG13）與 200 kDa 的 FIP200[原文不清]家族蛋白組成的蛋白質複合物來控制自噬。\n→ mTORC1 藉由磷酸化並因此抑制 ULK1 與 ATG13 來抑制自噬。\n\n生長因子 → 生長因子透過活化經典的 Ras 訊息傳遞路徑來刺激 mTORC1。\n→ 這些路徑的刺激會增加 TSC2 被蛋白激酶 B（AKT）激酶磷酸化的程度。\n\n丙酮酸 → 糖酵解轉換受丙酮酸激酶（PK）／[原文不清]與 p90 核醣體 S6 激酶（RSK）調控。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6293",
-    "title": "Here is the transcription of the image text",
+    "title": "mTORC1 regulation — insulin, oxygen & AMPK",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -6324,14 +6324,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像文字的轉錄",
+        "title": "mTORC1 調控——胰島素、氧氣與 AMPK",
         "ocr": "以下是影像文字的轉錄：\n\nmTORC1\n生長因子\n→ 胰島素與其細胞表面受體的結合\n    會促進胰島素受體的酪胺酸激酶活性。\n→ 胰島素受體受質（IRS）的招募\n    在某些細胞類型中，mTORC1 的活化會促進\n    IRS1 的磷酸化並降低其穩定性。\n→ 此自體調控路徑被描述為\n    SH2B1 依賴性的負回饋迴路。\n→ 研究顯示此現象對代謝疾病與腫瘤發生\n    都具有深遠的意義。\n→ 獨立於 IRS1 的其他核心蛋白質\n    也可能促成 mTORC1 的活化。\n\n氧氣濃度\n→ 部分缺氧 → ATP 濃度降低會活化 AMPK，\n    進而促進 TSC1/2 活化並抑制 mTORC1\n    訊息傳遞。\n→ 缺氧亦可透過 DNA 損傷反應（DDR）的轉錄調控\n    來活化 TSC1/2。\n→ REDD1（RRF[原文不清]）藉由釋放\n    TSC2 脫離其生長因子誘導的結合\n    [與 14-3-3 蛋白]\n    來阻斷 mTOR 訊息傳遞。\n→ REDD1（RRFPI[原文不清]）透過破壞 TSC2 與 14-3-3 的\n    交互作用來降低 mTORC1 訊息傳遞的能力，\n    可能在氧氣、蛋白質或空間不足時\n    限制耗能過程[原文不清]。\n\nPI3K 腫瘤抑制與 BCA2-腺病毒[原文不清]\nRNA → 在 mTORC1 訊息傳遞路徑中，藉由\n    破壞 mTOR 與其正向調控因子 Rheb 之間的交互作用[原文不清]。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-img-6294",
-    "title": "IMG_6294 (autophagy)",
+    "title": "Amino acid sensing of mTORC1 — Rag GTPases & Raptor",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -6370,7 +6370,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6294（自噬）",
+        "title": "mTORC1 的胺基酸感測——Rag GTPase 與 Raptor",
         "ocr": "mTORC1：\n\n胺基酸是正向調控 mTORC1 的強烈訊號。\n- 白胺酸是 mTORC1 所需的必需胺基酸[原文不清]。\n- 乙醯輔酶A（Acetyl-CoA）被[原文不清]輸送入細胞。\n- [原文不清]\n- 麩醯胺酸透過 SLC1A5[原文不清]被利用於與[原文不清]回收。\n- SLC3A2 進行交換以輸入麩醯胺酸。\n- 一個由溶質載體家族 1（SLC1）－SLC2A1－SLC2A2－溶質載體家族 5（SLC7A5）[原文不清]組成的異質四聚體系統。\n\n胺基酸對 mTORC1 的活化已知獨立於 TSC1/2，因為在缺乏 TSC1/TSC2 的細胞中，mTORC1 的主要蛋白質對胺基酸耗竭仍然敏感。\n\n關鍵蛋白：一組四個相關的主要 GTPase 以胺基酸敏感的方式與 mTORC1 交互作用，並且是胺基酸活化 mTORC1 路徑所必需的。\n\n在胺基酸存在時，關鍵蛋白會結合 Raptor，並促進 mTORC1 從細胞質各處的分散位置重新定位至含有其活化位點的核周區域。\n\n胺基酸耗竭時，mTORC1 與 Raptor 的物理[原文不清]主要影響 Raptor 的多麩醯胺酸[原文不清]，這是缺乏胺基酸時 mTORC1 訊息傳遞的主要因子[原文不清]。"
       }
     }
@@ -6582,7 +6582,7 @@
   },
   {
     "id": "n-20260819-oxidative-stress-img-6206",
-    "title": "IMG_6206 (oxidative_stress)",
+    "title": "Honeybee venom & melittin as anti-cancer agents",
     "topic": "oxidative_stress",
     "document": "",
     "entities": [
@@ -6628,14 +6628,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6206（氧化壓力）",
+        "title": "蜜蜂毒液與蜂毒肽作為抗癌藥物",
         "ocr": "星期二 03/16/26\n義大利蜜蜂（Apis mellifera，蜜蜂毒液）作為抗癌劑——蜂毒肽（melittin，原文誤作 melanin/黑色素）及其他成分誘導細胞死亡。\n具體而言，它能抑制三陰性 HER2 誘導的致死性癌症結果（原文不清）。\n– 藉由干擾 EGFR-HER2 在人類癌細胞質膜上的磷酸化，抑制 EGFR-HER2 的活化。\n– 蜂毒肽顯示，帶正電的 C 端與含磷脂的膜（C 末端……細胞質磷脂膜，原文不清）結合是穩定的，並具有抗癌活性。\n– PAP 基序（PAP motif）提供證據，顯示蜂毒肽可靶向殺傷/細胞死亡，且對正常細胞的毒性極小。\n– 蜂毒肽的累積在海藻酸鹽（alginate）模型中抑制了無序細胞存活對乳腺腫瘤生長的促進效應。\n– OCR 工作顯示一個涉及蜂毒肽活化與聚集的保護機制，以及經處理的細胞輪廓（原文不清）。\n\n研究（註記，最重大的癌症案例）\n\n上述成分：蜜蜂毒液的活性成分包括蜂毒肽（melittin）等。\n– 具有電荷，琥珀色/紫色 26-抗癌潛力（原文不清）。\n– 與膜雙層的磷脂交互作用，藉由形成直徑 21-44 nm（奈米）的孔隙造成細胞死亡。\n– 流體相孔隙可能使活細胞內的氧化得以進行。\n– 破壞小型粒線體/細胞，引發依賴 caspase 的細胞死亡。\n– 蜜蜂毒液與蜂毒肽皆已在黑色素瘤、非小細胞肺癌、膠質母細胞瘤中證實具有抗腫瘤效果。\n– HER2 受體耗竭。\n– 在癌細胞中，已證實會下調……\n– 粒線體細胞\n– 人類奈米粒子已被用來承載活的蜂毒肽（melittin）"
       }
     }
   },
   {
     "id": "n-20260819-misc-screenshot-2026-07-17-at-3-40-36-pm",
-    "title": "Here's a transcription of the text visible in the image",
+    "title": "Mitophagy & quality control in neurodegeneration",
     "topic": "misc",
     "document": "",
     "entities": [
@@ -6681,7 +6681,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖中可見文字的轉錄",
+        "title": "神經退化中的粒線體自噬與品質控管",
         "ocr": "以下是圖中可見文字的轉錄：\n\n**關鍵字：** 粒線體自噬（mitophagy）、粒線體品質控管、神經退化性疾病、神經元\n\n**圖以 BioRender.com 製作**\n\n---\n\n**圖示說明：**\n\n此圖說明粒線體自噬的過程及其在神經退化性疾病中的作用。圖中描繪以下階段：\n\n1.  **正常粒線體：** 以綠色橢圓形繪示，內部呈現化學反應（ATP、ADP、H+）。\n2.  **粒線體自噬：** 顯示受損粒線體在粉紅色橢圓形內被細胞結構（可能為自噬體）吞噬。粉紅色橢圓形內亦顯示活性氧（ROS）。\n3.  **受損粒線體：** 以紅色粒線體繪示，正被自噬過程吞噬。\n4.  **訊息傳遞：** 顯示神經元之間相互溝通。\n5.  **神經元去髓鞘化、神經發炎與神經元退化：** 在大腦中呈現，顯示粒線體自噬失敗的後果。這些過程以免疫細胞與受損神經元的插圖視覺化呈現。"
       }
     }
@@ -6794,7 +6794,7 @@
   },
   {
     "id": "n-20260819-sirtuins-img-6403",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "Mitohormesis — mild mitochondrial stress & defenses",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -6840,14 +6840,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "粒線體激效——輕度粒線體壓力與防禦機制",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**理解（UNDERSTANDING）**\n**粒線體激效應（MITOHORMESIS）**\n\n**在人類生物學中（IN HUMAN BIOLOGY）**\n\n**什麼是粒線體激效應？（WHAT IS MITOHORMESIS?）**\n\n*   概念：輕度粒線體壓力觸發相關的保護性反應。\n*   激效反應（Hormetic response）：壓力導致韌性（resilience）提升。\n\n    低度壓力（Low-level stress）→ 反應性物種（RNS）→ 低氧劑量（有益）／高氧劑量（損傷）→ 細胞損傷（Cellular damage）\n\n**對人類健康的影響（IMPLICATIONS FOR HUMAN HEALTH）**\n\n*   潛在益處：更長的壽命（模式生物）\n    *   粒線體激效（Mitochondrosis）使模式生物獲得更長的壽命。\n*   粒線體激效反應（例如來自運動）\n    *   運動（作為壓力）\n        *   增加抗氧化蛋白（例如超氧化物歧化酶、麩胱甘肽、麩胱甘肽過氧化酶）。\n        *   抗氧化蛋白水平\n        *   運動作為「輕度壓力」。\n*   相較於抗氧化劑的效應\n    *   維生素C      維生素E\n\n        可能對緩解（mitigating）反應產生負面影響\n        阻止細胞保護措施的誘導\n        抑制運動的益處。\n\n**臨床觀察與理論（CLINICAL OBSERVATIONS & THEORIES）**\n\n*   令人失望的臨床經驗\n    *   眾多隨機研究未能顯示益處。大型統合分析（meta-analyses）顯示某些抗氧化劑可能增加死亡率。\n    *   風險增加（↑ INCREASED RISKS）\n*   對無效性的解釋\n    *   劑量不當（Improper Dosing）\n    *   無法充分定位到粒線體來源（Insufficient localization to mitochondrial source）\n    *   保護基因受損的癌前細胞免於細胞凋亡（推測為癌症發生率增加的線索）。\n    *   缺血會產生有益的 ROS 激效信號，這些信號可能被維生素E抑制。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-img-6410",
-    "title": "Here is the transcription of all visible text from the image",
+    "title": "Mitochondrial hormetic redox relay (MRR) — mechanism",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -6893,14 +6893,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "粒線體激效氧化還原接力（MRR）——作用機制",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**粒線體激效氧化還原接力（MRR）／線粒體毒性激動 [原文不清]、氧化／還原中置（MRR）**\n\n主要目標：緩解粒線體功能障礙（mitochondrial dysfunction）與能量衰竭\n\n**成分（COMPOSITION）**\n\n*   **觸發劑（TRIGGER）：** 咔唑（Carbazole，穩定化的腎上腺素紅衍生物）——（中文註釋：卡波唑（穩定型上粒線體衍生物）[原文不清]）\n    （咔唑分子的示意圖）\n*   **放大器（AMPLIFIER）：** 亞甲藍（Methylene blue，粒線體電子循環激活劑）——（中文註釋：甲基藍（線粒體電子循環激活劑））\n    （亞甲藍分子的示意圖）\n*   **燃料（FUEL）：** NAD+（NAD+ 前驅物）——（中文註釋：燃料：NADP+（前體 NADH）[原文不清]）\n*   **清理（CLEANUP）：** 尿石素A（Urolithin A，粒線體自噬誘導劑）——（中文註釋：尿囊素A（線粒體吞噬誘導劑））\n\n**作用機制（MECHANISM OF ACTION, MOA）**\n\n1.  **氧化還原信號傳導（REDOX SIGNALING）**\n    *   咔唑誘發短暫、受控的氧化還原循環——（中文註釋：觸發劑使線粒體在有限範圍內持續進行氧化還原循環）\n    *   在基質中產生低幅度的超氧化物信號——（中文註釋：產生軸向的亞超氧化物信號 [原文不清]）\n2.  **電子分流（ELECTRON SHUNTING）**\n    *   亞甲藍作為替代電子載體——（中文註釋：甲基藍充當替代電子傳遞體）\n    *   繞過正常的 ROS 還原電位以利恢復——（中文註釋：繞過正常 ROS 減少勢能，用於恢復）\n    *   維持信號脈衝——（中文註釋：維持信號脈衝）\n3.  **路徑激活（PATHWAY ACTIVATION）**\n    *   激活 Nrf2/ARE 抗氧化反應——（中文註釋：激活 Nrf2/ARE 抗氧化反應）\n    *   透過 Sirt1/AMPK 刺激 PGC-1α（由 NR/NMN 啟動）——（中文註釋：藉由 Sirt1/AMPK 和 PGC-1α（在 NR/NN 誘導下））\n4.  **選擇性粒線體自噬（SELECTIVE MITOPHAGY）**\n    *   尿石素A確保 MRR 過程觸發的粒線體更新增加，會使受損粒線體被選擇性自噬，且不影響其他細胞的健康——（中文註釋：尿囊素A確保 MRR 觸發的線粒體轉化，不會影響其他細胞健康）\n\n**預期結果（EXPECTED OUTCOMES）**\n\n*   **增強的複合物粒線體呼吸（OCR）與 ATP 產生**\n*   **增強細胞對缺血與氧化壓力的抵抗**\n*   **調控生物老化（REGULATED BIOLOGICAL AGEING）**\n*   **潛在產率與劑量策略：（25%–50%）**\n\n**（帶有粒線體的細胞示意圖）**\n\n*   **粒線體動力學（Mitochondrial Dynamics）**\n*   **能量產生（Energy Production）**\n*   **壓力反應（Stress Response）**\n\n（註：一張描繪小鼠大腦並帶有「AGE」字樣的小圖——表示老化）"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-img-6416",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "Heart rate variability & autonomic nervous system balance",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -6943,14 +6943,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "心率變異性與自主神經系統平衡",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**了解 HRV：心率變異性（Understanding HRV: Heart Rate Variability）**\n\n1. 什麼是 HRV？（WHAT IS HRV?）\n    * 與直覺相反，更具變異性的心率（高 HRV）是健康與體能良好的徵象——（中文註釋：高 HRV 意味著健康和健身狀態，代表著強健的體能和健康狀態 [原文不清]）。\n    * 心率（HR）測量每分鐘的跳動次數，而 HRV 測量以毫秒為單位的精確變異——（中文註釋：心率測量每分鐘的節拍數，而 HRV 測量到毫秒單位的變異性）。\n\n    * HRV 65 ms（高 HRV）\n    * HRV 25 ms（低 HRV）\n\n2. 進入神經系統的窗口（THE WINDOW INTO THE NERVOUS SYSTEM）\n    * HRV 由自主神經系統（Autonomic Nervous System, ANS）控制。\n\n    * 交感神經系統（SYMPATHETIC NERVOUS SYSTEM, SNS）\n        * 「戰鬥、逃跑或僵住」（Fight, Flight, or Freeze）\n        * 為行動做好準備（例如 HIIT 訓練、冷水浸泡、禁食——中文註釋：冷身干預、鍛煉、冷水池等 [原文不清]）\n        * 心跳更快、更有節奏——（中文註釋：心跳更快，更有節奏）\n        * 讓人顯得煥然一新 [原文不清]\n    * 副交感神經系統（PARASYMPATHETIC NERVOUS SYSTEM, PNS）\n        * 「休息、消化與修復」（Rest, Digest, and Repair）\n        * 使身體平靜、消化食物、修復細胞——（中文註釋：使身體平靜、消化食物、修復細胞）\n        * 允許心跳之間有更多波動——（中文註釋：允許心跳之間有更多波動）\n        * 受迷走神經（Vagus Nerve）控制\n\n    * 自主神經系統平衡（ANS BALANCE）\n        * 高 HRV 表示你的副交感神經系統具有強勢主導——你的自主神經系統能有效控制心血管系統，能夠做出快速且具回應性的反應，使神經系統更協調 [原文不清]。\n        * 迷走神經張力（vagal tone）通常如同踩下剎車，使你的心血管系統高度靈敏且健康。\n\n**健康概覽（Health Overview）**\n\n* 心率：60 BPM（HEART RATE: 60 BPM）"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-nihms-1939566-f0001",
-    "title": "Here is the transcription of all visible text from the image",
+    "title": "Mitochondrial stress & iron — ATF4/HRI/OMA-1 pathway",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -6989,14 +6989,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "粒線體壓力與鐵——ATF4/HRI/OMA-1 途徑",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**細胞核（Nucleus）**\n\n*   ATF4\n*   AARE\n*   激效反應基因（Hormetic Response Genes）\n\n**細胞質（Cytosol）**\n\n*   eIF2α\n*   ATF4 (P)\n*   轉譯（Translation）\n\n**粒線體（Mitochondria）**\n\n*   OMA-1\n*   粒線體壓力（Mitochondrial Stress）\n\n**圖示說明（Diagram Descriptions）：**\n\n*   **流程圖（Flowchart）：** 圖片包含一個說明粒線體壓力、缺鐵與 ATF4/HRI/OMA-1 路徑之間機制關聯的流程圖。\n*   **方框／標籤（Boxes/Labels）：** 有多個帶標籤的方框，包括：「ATF4」、「AARE」、「激效反應基因」、「eIF2α」、「轉譯」、「OMA-1」、「粒線體壓力」、「P」、「Fe」（代表鐵）與「DELETE-S」。\n*   **箭頭（Arrows）：** 箭頭表示路徑內信號的流動與蛋白質相互作用。\n*   **顏色編碼（Color Coding）：** 使用顏色區分不同區室（細胞核、細胞質、粒線體），並突顯路徑中的特定元素（例如磷酸標記）。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-nihms-1939566-f0002",
-    "title": "Diagram/Element Descriptions",
+    "title": "Mitochondrial protein quality control pathways",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7035,14 +7035,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖示／元素說明（Diagram/Element Descriptions）",
+        "title": "粒線體蛋白質品質控管途徑",
         "ocr": "以下為圖片內所有可見文字的轉錄，並附上圖示／元素的說明：\n\n**轉錄（Transcription）：**\n\na) mPOS\nmPOS 媒介的細胞死亡（mPOS-mediated cell death）\n\nb) mitoStore\nmitoStore\n\nc) mitoTAD\nCdc48/p97\nUbx2\n\nd) 錯誤靶向的 TA 蛋白質（Mistargeted TA-protein）——（原文「Mistered」[原文不清]）\n\ne) mitoCPR\n蛋白酶體降解（Proteasomal Degradation）\n\nf) mitoRQC\nLtn1\nVms1\n核糖體停滯（Ribosome stalling）\n\n**圖示／元素說明（Diagram/Element Descriptions）：**\n\n*   **a) mPOS：** 一個顯示含有多個粒線體（藍色球體）的細胞之示意圖，箭頭標示「mPOS 媒介的細胞死亡」。HSF-1 與 RPN4 被標示出來。\n*   **b) mitoStore：** mitoStore 複合體的描繪，包括 Hsp、Hsp、Hsp 與 Hsp。\n*   **c) mitoTAD：** mitoTAD 複合體的近距離視圖，顯示 Cdc48/p97 與 Ubx2 與一個蛋白質相互作用。\n*   **d) 錯誤靶向的 TA 蛋白質（Mistargeted TA-protein）：** 一個標示為「TA」的蛋白質，顯示其從粒線體被錯誤靶向。\n*   **e) mitoCPR：** 說明 mitoCPR 複合體，顯示 Cis1 與蛋白酶體相互作用。\n*   **f) mitoRQC：** 描繪 mitoRQC 複合體，標示出 Ltn1 與 Vms1，並顯示核糖體停滯。\n\n*   **整體圖示（Overall Diagram）：** 一個說明粒線體品質控制相關多條路徑的示意圖。標示出關鍵細胞區室（細胞核、細胞質、粒線體）。線條與箭頭顯示分子與過程的流動。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-nihms-1939566-f0003",
-    "title": "Here's a transcription of all visible text in the image",
+    "title": "Mitochondrial stress signaling — ISR-ATF4, GDF15/FGF21 & MOTS-c",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7088,7 +7088,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "粒線體壓力訊號——ISR-ATF4、GDF15/FGF21 與 MOTS-c",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n*   **肝臟（Liver）**\n*   **脂肪組織（Adipose Tissue）**\n*   **壓力（Stress）**\n*   **粒線體功能障礙／擾動（Mitochondria dysfunction/perturbation）**\n*   **ISR-ATF4 路徑（ISR-ATF4 Pathway）**\n*   **ATF4**\n*   **GDF15**\n*   **FGF21**\n*   **12S RNA**\n*   **mtDNA**\n*   **16S RNA**\n*   **人類 ↑（SHLP 1-6）**\n*   **MOTS-c ↑**\n*   **增加胰島素敏感性並增加內臟脂肪累積**\n*   **體脂肪量調控與逆轉肝臟脂肪變性**\n\n**圖示說明（Diagram Descriptions）：**\n\n*   **細胞圖（Cell Diagram）：** 描繪一個風格化的細胞與細胞器，包括粒線體與核糖體。\n*   **細胞核圖（Nucleus Diagram）：** 顯示一個含有染色質（DNA）的細胞核。\n*   **核糖體（Ribosomes）：** 內質網上顯示多個核糖體。\n*   **箭頭（Arrows）：** 箭頭表示信號傳導路徑與分子間的相互作用。\n*   **流程圖（Flow Charts）：** ISR-ATF4 路徑與 MOTS-c 的作用以流程圖形式描繪。\n*   **形狀（Shapes）：** 圓圈代表分子或細胞組成部分，矩形代表路徑。\n*   **文字方框（Text Boxes）：** 小方框包含各種過程作用的描述。"
       }
     }
@@ -7148,7 +7148,7 @@
   },
   {
     "id": "n-20260819-sirtuins-nihms562199f3",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Mitochondria in aging — stress, biogenesis & lifespan",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7188,14 +7188,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "老化中的粒線體——壓力、生合成與壽命",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**停滯的粒線體核糖體（Stalled mitochondrial ribosomes）**\n**mTOR／去乙醯酶／胰島素／IGF 信號傳導路徑的改變（Alterations in signaling pathway mTOR/sirtuins/insulin/IGF）**\n**外源性物質／毒素（Xenobiotic/toxins）**\n**粒線體生合成（Mitochondrial biogenesis）**\n**蛋白質伴護蛋白（Protein chaperones）**\n**電子傳遞／能量受質／運動（Electron transport/energetic substrates/exercise）**\n**代謝適應（Metabolic adaptation）**\n**壓力防禦（Stress defenses）**\n**？？壽命延長（Lifespan extension）**\n**？？延緩與年齡相關的疾病（Delayed age-related diseases）**\n\n**圖示說明（Diagram Description）：** 圖片是一個說明粒線體在細胞老化與疾病中角色的示意圖。它描繪一個帶有嵴（cristae）的粒線體，並顯示各種過程與其相連。箭頭表示這些過程之間的訊息與影響流動。圖示右側有三個包含文字的方框。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-13668-2023-475-fig1-html",
-    "title": "Here's a transcription of all visible text in the image",
+    "title": "NAD+ precursors — sirtuin & health benefit pathways",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7234,7 +7234,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "NAD+ 前驅物——去乙醯酶與健康益處途徑",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**健康益處（Health Benefits）**\n*   抗發炎（Anti-inflammatory）\n*   抗老化（Anti-aging）\n*   心臟保護（Cardioprotection）\n*   神經保護（Neuroprotection）\n\n**能量代謝（Energetic Metabolism）**\n*   表觀遺傳調節（Epigenetic Modulation）\n*   腸道菌群調節（Gut Microbiota Modulation）\n\n**去乙醯酶（SIRTUINS）**\n**PARPs**\n**CD38/157**\n\n**飲食攝取或補充（Food Intake or Supplementation）**\n\n*   NR\n*   NMN"
       }
     }
@@ -7287,7 +7287,7 @@
   },
   {
     "id": "n-20260819-sirtuins-dmrr-42-e70201-g001",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "NAD+ biosynthesis — Preiss-Handler, de novo & salvage pathways",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7333,14 +7333,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "NAD+ 生合成——Preiss-Handler、從頭合成與補救途徑",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**主要途徑（Main Pathways）：**\n*   酵素（Enzymes）\n*   主要途徑（Main Pathways）\n*   分流／回饋（Diversions/Feedback）\n\n**限速步驟（Rate-Limiting）：**\n*   菸醯胺核糖苷激酶（Nicotinamide riboside kinases）\n*   失調發生於（肥胖、癌症）\n*   菸醯胺（Preiss-Handler）——（原文「Press-Handler」[原文不清]）\n*   色胺酸（從頭合成 De Novo）\n*   菸醯胺核糖苷（補救途徑 Salvage）\n\n**途徑（Pathways）：**\n\n*   **Preiss-Handler 途徑（Preiss-Handler Pathway）：**\n    *   菸鹼酸（Nicotinic acid）\n    *   色胺酸（Tryptophan）\n    *   喹啉酸（Quinolinic acid）\n    *   菸鹼酸單核苷酸（Nicotinic mononucleotide, NMN）\n    *   菸鹼酸腺嘌呤二核苷酸（Nicotinic adenine dinucleotide, NAAD）\n    *   喹啉酸磷酸核糖轉移酶（Quinolate phosphoryltransferase）\n*   **從頭合成途徑（De Novo Pathway）：**\n    *   菸鹼酸（Nicotinic acid）\n    *   喹啉酸磷酸核糖轉移酶（Quinolate phosphoryltransferase）\n    *   1-甲基菸醯胺（1-Methylnicotinamide, 1-MNM）——（原文「1-Methylnicotinamine」[原文不清]）\n*   **補救途徑（來自菸醯胺核糖苷）（Salvage Pathway from Nicotinamide Riboside）：**\n    *   菸醯胺核糖苷激酶（Nicotinamide riboside kinases）\n\n**其他組成部分（Other Components）：**\n*   氧化還原反應中的 NAD+ / NADH\n*   NAD+ 合成酶（NAD+ synthase）\n*   PARPs\n*   糖酵解（Glycolysis）\n*   甘油醛（Glyceraldehyde）– 1,3-BPG——（原文「Glycéraldehyde」[原文不清]）\n*   NADH 再生（NADH regeneration）\n*   NAD+/NADH 的波動調節氧化還原狀態與能量代謝\n*   ETC（電子傳遞鏈）\n*   NAD+ 的可用性調節去乙醯酶活性——將代謝與基因表達聯繫起來\n*   去乙醯酶（組蛋白去乙醯酶、ATP、糖酵解、TCA／粒線體）\n\n**圖示筆記（Diagram Notes）：**\n\n*   此示意圖說明菸醯胺代謝涉及的各種途徑，強調關鍵酵素與代謝物。\n*   它顯示 Preiss-Handler、從頭合成與補救途徑等途徑之間的聯繫。\n*   此示意圖包含細胞核與細胞質的呈現，暗示其在細胞調控中的角色。\n*   重點強調菸醯胺、NAD+、去乙醯酶與能量代謝之間的聯繫。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-nad-boosting",
-    "title": "Here is the transcription of all visible text in the image",
+    "title": "NAD+ system-wide effects — exercise, diet & boosters",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7386,14 +7386,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "NAD+ 的全身性作用——運動、飲食與增強劑",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**腦與神經系統（Brain & Nervous System）：** 感覺與運動功能\n**肝臟（Liver）：** 糖質新生、脂肪酸氧化\n**血管系統（Vascular）：** 內皮功能\n**心臟（Heart）：** 心臟保護\n**淋巴組織（Lymphoid Tissue）：** 免疫與抗發炎\n**生殖器官（Reproductive Organs）：** 生育力\n**腎臟（Kidney）：** 腎臟保護\n**胰臟（Pancreas）：** 胰島素分泌\n**肌肉（Muscle）：** 胰島素敏感性、脂肪酸氧化\n**脂肪組織（Adipose Tissue）：** 脂肪生成（Lipogenesis）\n\n**運動（Exercise）**\n**飲食（Diet）**\n**NAD+ 增強劑（NAD Boosters）**\n\n*圖示（Diagram）：* 此圖片是一個說明 NAD+（菸醯胺腺嘌呤二核苷酸）對各身體系統廣泛作用的示意圖。箭頭表示 NAD+ 從來源（飲食、運動、NAD+ 增強劑）流向不同組織／器官。受影響的系統包括腦與神經系統、肝臟、血管系統、心臟、淋巴組織、生殖器官、腎臟、胰臟、肌肉與脂肪組織。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-nutrients-12-01616-g001",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "NAD+ salvage & Preiss-Handler pathways — NAMPT & sirtuins",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7437,7 +7437,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下為圖片中所有可見文字的轉錄",
+        "title": "NAD+ 補救與 Preiss-Handler 途徑——NAMPT 與去乙醯酶",
         "ocr": "以下為圖片中所有可見文字的轉錄：\n\n**補救途徑（Salvage pathway）**\nNR\nNRK\nNMN\nNP\nNAM\n去乙醯酶（Sirtuins）\n抑制（Inhibition）\n\n**Preiss-Handler 途徑（Preis-Handler pathway）**\nNA\nNAAMN\nQA\nTrp\n從頭合成（de novo synthesis）\n\n**圖示說明（Diagram Description）：**\n\n此圖片是一個說明細胞內 NAD+ 與 NADP+ 恆定性相關的兩條代謝途徑之示意圖：補救途徑與 Preiss-Handler 途徑。它強調這些途徑涉及的關鍵酵素與調控步驟，包括 NAMPT、SIRT1，以及這些途徑對蛋白質過度乙醯化與氧化壓力的影響。示意圖顯示 NAM、NAD+、NADH、NADPH、NAAD 與 Trp 等分子的流動。也有方框強調各種蛋白質與因子在這些途徑中的參與。"
       }
     }
@@ -7495,7 +7495,7 @@
   },
   {
     "id": "n-20260819-cancer-ds00165-ds00357-ds00371-ds00425-ds00918",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "ERCP anatomy — bile duct catheterization of digestive organs",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -7523,14 +7523,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "ERCP 解剖——膽管導管的消化器官示意圖",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n*   內視鏡（Scope）\n*   食道（Esophagus）\n*   肝臟（Liver）\n*   胃（Stomach）\n*   胰臟（Pancreas）\n*   膽管（Bile duct）\n*   膽管中的導管（Catheter in bile duct）\n*   小腸（Small intestine）\n\n**圖示說明：**\n\n圖片是人類消化系統的詳細解剖圖。它顯示食道、胃、肝臟、胰臟、膽管、小腸及相關器官。圖中描繪一支內視鏡插入食道。有一個放大插圖顯示胃與十二指腸的更詳細視圖。標籤指向關鍵結構。\n\n**版權：**\n\n*   MAYO FOUNDATION FOR MEDICAL EDUCATION AND RESEARCH. ALL RIGHTS RESERVED.（梅約醫學教育與研究基金會。版權所有。）"
       }
     }
   },
   {
     "id": "n-20260819-senescence-tfeb-41420-2024-1850-fig1-html",
-    "title": "Here’s the transcription of all visible text from the image",
+    "title": "TFEB mRNA regulation — hypusination & m6A methylation",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -7574,14 +7574,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "TFEB mRNA 調控——羥丁胺化與 m6A 甲基化",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**轉錄：**\n\n*   **5’**\n*   **TFEB mRNA**\n*   eIF5A\n*   亞精胺（Spermidine）\n*   Hyp-eIF5A\n*   **3’ - UTR**\n*   **METTL**\n*   **5’**\n*   **TFEB pre-mRNA**\n*   **3’**\n*   **ALKBH5**\n*   **5’**\n*   **TFEB pre-mRNA**\n*   **3’**\n*   **HNRNPD**\n*   **5’ - UTR**\n*   **TFEB 編碼區（TFEB-Coding Region）**\n*   **3’ - UTR**\n*   **SMAD3**\n*   細胞質（Cytoplasm）\n*   細胞核（Nucleus）\n*   **TFEB 蛋白（TFEB protein）**\n*   **XBP1**\n*   **MYC**\n\n**圖示說明：**\n\n*   **流程圖：**此影像為說明TFEB mRNA調控過程的流程圖。流程圖顯示轉錄、mRNA加工（包括羥丁胺化（hypusination）、甲基化與去甲基化）、轉譯與蛋白質生成的步驟。\n*   **箭頭：**箭頭表示過程的方向，顯示分子的流動與不同組成之間的交互作用。\n*   **顏色編碼元素：**\n    *   橘色：促進\n    *   紅色：抑制\n    *   藍色：m³A（甲基化）\n    *   綠色：必要\n    *   淺藍色：羥丁胺化（Hypusinated）\n*   **形狀：**圓形代表細胞質與細胞核，指示不同步驟的位置。\n*   **標籤：**圖中包含關鍵分子與過程的標籤，例如eIF5A、亞精胺（Spermidine）、Hyp-eIF5A、METTL、ALKBH5、HNRNPD、SMAD3與TFEB。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-nihms-1635620-f0001",
-    "title": "nihms-1635620-f0001 (senescence)",
+    "title": "Stem cell reservoirs across tissues",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -7620,14 +7620,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "nihms-1635620-f0001（衰老）",
+        "title": "各組織中的幹細胞儲備",
         "ocr": "淋巴結（Lymph node）\n淋巴細胞（Lymphocytes）\n卵巢（Ovary）\n卵母細胞（Oocytes）\n骨骼肌（Skeletal Muscle）\n肌肉幹細胞（Muscle Stem Cells）\n腦（Brain）\n神經幹細胞（Neural Stem Cells）\n肝臟（Liver）\n肝細胞（Hepatocytes）\n骨髓（Bone Marrow）\n造血幹細胞（Hematopoietic Stem Cells）"
       }
     }
   },
   {
     "id": "n-20260819-senescence-nihms-1635620-f0003",
-    "title": "nihms-1635620-f0003 (senescence)",
+    "title": "Quiescence vs proliferation — stem cell niche signals",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -7660,14 +7660,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "nihms-1635620-f0003（衰老）",
+        "title": "靜止期與增殖——幹細胞微環境訊號",
         "ocr": "細胞間接觸（Cell-cell contact）\n可溶性因子訊號傳導（Soluble Factor Signaling）\n靜止期（Quiescence）\n增殖（Proliferation）\nDNA損傷（DNA damage）\n細胞外基質交互作用（Extracellular Matrix Interactions）"
       }
     }
   },
   {
     "id": "n-20260819-senescence-nihms-1635620-f0004",
-    "title": "Text Transcription",
+    "title": "Stem cell organelles — cilium, mitochondria & lysosomes",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -7708,7 +7708,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "文字轉錄",
+        "title": "幹細胞胞器——纖毛、粒線體與溶酶體",
         "ocr": "以下是影像中所有可見文字的轉錄內容，以及圖示的說明：\n\n**文字轉錄：**\n\n*   初級纖毛（Primary Cilium）\n*   粒線體（Mitochondria）\n*   代謝（Metabolism）\n*   ROS（活性氧）\n*   核孔大小（Nuclear pore size）\n*   增殖（Proliferation）\n*   分化／凋亡（Differentiation/Apoptosis）\n*   保護（Protection）\n*   溶酶體（Lysosomes）\n*   自噬（Autophagy）\n*   MCM2-7\n*   CENP-A\n\n**圖示說明：**\n\n1.  **細胞示意圖：**中央描繪一個大型藍色細胞，展示數個關鍵胞器：\n    *   **初級纖毛：**位於頂端，顯示為帶有放射狀附屬構造。\n    *   **粒線體：**細胞內部以標籤標示粒線體，強調代謝與ROS（活性氧，Reactive Oxygen Species）。\n    *   **細胞核：**中央有一個顯著的細胞核，帶有雙股螺旋DNA結構。\n    *   **溶酶體：**以球形結構表示，標示其在溶酶體與自噬中的角色。\n\n2.  **MCM2-7圖示：**一個小插圖顯示一群綠色蛋白質結構，標示為「MCM2-7」，以六邊形圖案排列。\n\n3.  **CENP-A圖示：**另一個獨立插圖顯示一個較大的紅色結構，標示為「CENP-A」，描繪為球形囊泡，內部漂浮著較小的囊泡，暗示一種運輸或遞送機制。"
       }
     }
@@ -7821,7 +7821,7 @@
   },
   {
     "id": "n-20260819-sirtuins-nihms428770f1",
-    "title": "nihms428770f1 (sirtuins)",
+    "title": "SIRT1 cardiovascular & metabolic effects",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -7867,7 +7867,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "SIRT1 心血管與代謝作用（nihms428770f1）",
+        "title": "SIRT1 的心血管與代謝作用",
         "ocr": "血清脂質濃度：↓ 總膽固醇、↓ LDL、↓ 三酸甘油酯、↑ HDL\n\n巨噬細胞活化\n單核球募集、↓ HDL、↓ 脂質氧化、↓ 膽固醇流出\n\n平滑肌細胞侵襲\n細胞激素產生、↓ 細胞外基質（ECM）重塑、↓ 血管張力素II、↓ 同半胱胺酸\n\n血栓形成\n血小板黏附、↓ PKC活性、↓ 血小板凋亡\n\n葡萄糖恆定\n↑ 葡萄糖轉運蛋白活性、↑ AMPK活性\n\n肥胖\n↑ 脂肪酸合成、↓ 脂肪生成基因、↑ 基礎代謝\n\n高血壓\n↓ 動脈重塑、↑ 內皮一氧化氮產生\n\n急性缺血-再灌流\n↓ 梗塞面積、↓ 細胞凋亡、↑ 心輸出量、↑ 冠狀動脈血流、↑ 缺血預處理\n\n慢性缺血\n↑ 側支依賴性血流、↑ 微血管舒張、↑ 血管新生蛋白\n\n縮寫：AMPK：AMP活化蛋白激酶；ECM：細胞外基質；HDL：高密度脂蛋白；LDL：低密度脂蛋白；PKC：蛋白激酶C"
       }
     }
@@ -7969,7 +7969,7 @@
   },
   {
     "id": "n-20260819-cancer-img-6279",
-    "title": "IMG_6279 (cancer)",
+    "title": "RGD peptide & integrins — cancer targeting notes",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -8012,14 +8012,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6279（癌症）",
+        "title": "RGD 胜肽與整合素——癌症標靶筆記",
         "ocr": "alphaline[原文不清]（與）天門冬胺酸（aspartic acid）（與）\n丙胺酸（alanine）（與）天門冬胺酸（Asp）\n（Asp）胜肽\n\n（c2/6/26 b）\n（星期二）\n\n-> 此胜肽存在於細胞黏附與訊息傳導蛋白中（如纖維黏連蛋白 fibronectin、層黏連蛋白 laminin、纖維蛋白聚醣 fibroglycan）。\n-> 主要功能是透過與細胞表面的整合素（integrin）受體交互作用來促進細胞黏附。\n-> RGD 胜肽可用於靶向癌細胞與腫瘤微環境，藉由參與抗癌機制。\n免疫反應 -> 提升藥物遞送效率並減少對健康組織的不良作用。\n傷口癒合 -> 特定的整合素能識別蛋白質中的 RGD 序列並與此胜肽結合，促進細胞黏附/溝通。\n血管新生 -> 為了靶向在癌症等疾病中過度表現的特定（整合素受體），RGD 胜肽可與配體/蛋白質或奈米顆粒偶聯。\n-> 在各種細胞中以劑量[原文不清]的方式展現顯著活性，使其成為有價值的資源。\n-> 受體依賴性生物學 -> （將藥物轉化為實際療法[原文不清]。具體而言，它是[原文不清]（機制）。）\n-> RGD 功能化藥物載體可被設計來攜帶多種治療藥物到達目標區域。\n-> 釋放可由外部刺激（pH、溫度等）觸發，或透過配體之間的交互作用。\n-> RGD 胜肽可用於（[原文不清]腫瘤發展和/或腫瘤消退）（例如，外泌體、脂質類治療藥物）。\n\n整合素（Integrins）— 一類細胞表面受體（表現於細胞黏附、遷移與訊息傳導）。\n-> 由兩個次單元組成的疏水性補丁。\n-> 眾所周知，它們會聚集在一起以建立次細胞交互作用。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6280",
-    "title": "IMG_6280 (cancer)",
+    "title": "Integrin αvβ3 & RGD peptide targeting in cancer",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -8062,14 +8062,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6280（癌症）",
+        "title": "整合素 αvβ3 與 RGD 胜肽在癌症中的標靶",
         "ocr": "R&D（RGD）胜肽公司，會議[原文不清]\n\n整合素：某些整合素是 R&D（RGD）開發的主要靶點（因為它們表現於癌細胞及動物腫瘤血管的細胞表面）。\n- 揭示多種細胞類型：黑色素瘤、膠質母細胞瘤（glioblastoma）、乳癌、前列腺癌、卵巢癌等惡性腫瘤。\n- 黑色素瘤：過度表現 αvβ3 整合素\n- αvβ3 的表面表現 αvβ3 整合素，與血小板凝集相關。\n- 即使完整的血小板凝集與腫瘤細胞沒有持久的關聯，[原文不清]兩個細胞可[原文不清]以促進轉移。\n- 抑制血小板凝集（通常與血小板細胞一起）可透過靶向 αvβ3 整合素來達成。\n\nRGD 胜肽源自天然序列，包括一些血小板中免疫區域發現的序列。\n- 可能導致產生針對 RGD 胜肽的抗體，可能降低治療藥物對細胞的效力。\n- 像 αvβ3 胜肽可作為載體，透過延長在體內的[原文不清]時間來遞送抗體。\n- 因其穩定性最佳，並降低藥物遞送中[原文不清]的可能性。\n\n整合素表現的異質性對 RGD 胜肽構成挑戰，組織可在不同細胞類型上表現不同的整合素——整合素亞型。\n- 僅使用單一胜肽，提供潛在的有效解決方案。\n- 分子群組或胜肽依賴性機制。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-img-6281",
-    "title": "accurately as possible",
+    "title": "RGD peptide delivery & integrin signaling",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -8115,14 +8115,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "盡可能準確",
+        "title": "RGD 胜肽遞送與整合素訊息傳導",
         "ocr": "好的，以下是圖片中手寫文字的轉錄，盡可能準確：\n\n**星期三**\n**星期二**\n\n**RGD 胜肽**\n\n- 生物靶向胜肽，確保 RGD 胜肽精準遞送至目標 RGD 位置。該胜肽也[原文不清]其邊緣，以允許更大的通透性（細胞黏附/腐蝕[原文不清]）。\n- 主動脈腫瘤參與[原文不清]，在全身性抗體反應中，上調一氧化氮的釋放並減少血管新生。\n\n**RGD 胜肽**\n\n- 引導胜肽，透過身體精準遞送至目標深層與厚實的血管/動脈，並以微顆粒促進過濾。\nRGD 序列與整合素受體之間的交互作用：\n- 具體而言，RGD 與整合素的配體側結合。\n- 訊息傳導誘導整合素的構象改變。\n- 構象改變使整合素能與其他 ECM 蛋白結合，導致黏著斑（focal adhesion）的形成/引導途徑。\nFAK（黏著斑激酶，Focal Adhesion Kinase）\nMAPK（絲裂原活化蛋白激酶，Mitogen Activated Protein Kinases）\nPI3K（磷脂醯肌醇 3-激酶，Phosphatidylinositol 3-Kinase）\n- 調節細胞過程、細胞訊息傳導、基因表現、細胞週期與增殖。\n- RGD/整合素（媒介、內源性發育、免疫反應）\n- 參與細胞黏附與遷移、[原文不清]誘導的癒合、血管新生與血管再生。\n\n**備註：**文件在腳註中提到「RGD 分子（RGD molecule）」。\n\n---\n\n**圖示/按鈕/表格：**\n\n圖片中沒有明顯的圖示、按鈕或表格。文字以標準、線性的方式書寫。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-rgd-cam4-13-e6800-g002",
-    "title": "Diagram Descriptions",
+    "title": "RGD-based drug delivery — benefits & challenges",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -8149,14 +8149,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖示說明",
+        "title": "RGD 基礎藥物遞送——優點與挑戰",
         "ocr": "以下是圖片中所有可見文字的轉錄，以及圖示的描述：\n\n**優點（Benefits）**\n\n*   多種治療藥物的共同遞送\n*   可能的刺激反應性藥物釋放\n*   標靶藥物遞送\n*   增強的細胞攝取\n\n**挑戰（Challenges）**\n\n*   整合素表現的異質性\n*   合成的複雜性與成本\n*   穩定性有限\n*   潛在的免疫原性\n\n**圖示說明：**\n\n*   **版面配置：**圖片分為兩欄，標示為「優點」與「挑戰」。\n*   **方框/氣泡：**每項優點與挑戰都呈現在彩色圓角矩形方框中。顏色：優點為綠色，挑戰為橘色。\n*   **三角形：**圖片底部中央有一個小的白色三角形。"
       }
     }
   },
   {
     "id": "n-20260819-cancer-rgd-cam4-13-e6800-g003",
-    "title": "Here’s the transcription of all visible text in the image",
+    "title": "RGD-mediated endocytosis in cancer targeting",
     "topic": "cancer",
     "document": "",
     "entities": [
@@ -8187,14 +8187,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "RGD 介導的內吞作用於癌症標靶",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**RGD 在癌症靶向中的應用**\n\n*   RGD 介導的內吞作用（RGD-mediated endocytosis）\n*   內吞作用（Endocytosis）\n\n**圖例（Key）：**\n\n*   RGD：藥物、顯影劑、穩定劑等\n*   可能的奈米載體（nanocarrier）\n*   λ-4：可能的連接子（linkers）\n*   癌細胞中過度表現的整合素，包括 αvβ3、α3β1 等"
       }
     }
   },
   {
     "id": "n-20260819-senescence-1-s2-0-s2468501118300075-gr1-lrg",
-    "title": "Here's a transcription of all visible text from the image",
+    "title": "Senolytic nanocarriers — targeting senescent cells",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8236,14 +8236,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "清除衰老細胞的奈米載體——靶向衰老細胞",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**A**\n*   貨物（Cargos）：藥物／Senolytics（清除衰老細胞藥物）（清除）、抑制劑／效應分子（SASP調控）、小分子（重新程式化）\n*   應用（Applications）：組織再生／回春、延長健康壽命／壽命、腫瘤消退（組合治療）\n\n**B**\n*   GaMix寡聚體：二氧化矽支架／羅丹明（rhodamine）\n*   GOS奈米粒子（NPs）\n*   Gal8寡聚體：二氧化矽支架／Doxorubicin／Navitoclax\n*   GAL奈米粒子（NPs）\n*   CD9/Lac-PEG/CaCO₃奈米粒子（NPs）：CD9-mAb／Rapamycin／Lac-PEG\n*   MoS₂奈米粒子（NPs）"
       }
     }
   },
   {
     "id": "n-20260819-senescence-1-s2-0-s2468501118300075-gr2-lrg",
-    "title": "Here's the transcription of the text visible in the image",
+    "title": "Chemotherapy, senescence induction & nanotherapy regression",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8277,14 +8277,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中可見文字的轉錄內容",
+        "title": "化療、衰老誘導與奈米療法的腫瘤消退",
         "ocr": "以下是影像中可見文字的轉錄內容：\n\n**頂排：**\n\n*   **衰老細胞負荷（Senescent burden）：**描繪一個帶有藍色與紅色細胞的腫瘤，顯示大量的衰老細胞。\n*   **清除（Clearance）：**顯示衰老細胞負荷被奈米療法（以奈米粒子表示）清除。\n*   **組織再生（Tissue regeneration）：**描繪腫瘤經組織生長而再生。\n\n**底排：**\n\n*   **腫瘤（Tumour）：**顯示一個由紅色與藍色細胞組成的大型腫瘤。\n*   **化療（Chemotherapy）：**描繪化療在腫瘤細胞中誘發衰老。\n*   **衰老誘導（Senescence induction）：**描繪化療導致衰老。\n*   **腫瘤消退（Tumour regression）：**顯示奈米療法成功縮小腫瘤。\n\n**圖示說明：**\n\n此影像利用圖示說明癌症治療的不同階段，展示化療與奈米療法在靶向衰老細胞、誘導衰老以及最終達成腫瘤消退方面的角色。共有四個不同的面板，各自代表過程中的不同階段，以標示的圖示與箭頭指示治療的流程。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-12943-2024-2096-fig1-html",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "Senescence & immunity in the tumor microenvironment",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8330,7 +8330,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "腫瘤微環境中的衰老與免疫",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n*   **抗腫瘤（Anti-tumor）**（左上標籤）\n*   **促腫瘤（Pro-tumor）**（右上標籤）\n*   **G₁**\n*   **G₀**\n*   **M**\n*   **S**\n*   **EMT**（上皮間質轉化，Epithelial-Mesenchymal Transition）\n*   **IL-6**（介白素-6，Interleukin-6）\n*   **IL-8**（介白素-8，Interleukin-8）\n*   **BMP**（骨形態發生蛋白，Bone Morphogenetic Protein）\n*   **增殖 ↓**（向下箭頭）\n*   **免疫抑制（immune suppression）**\n*   **衰老細胞（senescent cell）**\n*   **嗜中性球（neutrophil）**\n*   **巨噬細胞（macrophage）**\n*   **T細胞（T cell）**\n*   **自然殺手細胞（NK cell）**\n*   **骨髓系細胞（myeloid cell）**\n*   **癌細胞（cancer cell）**\n*   **癌症幹細胞（cancer stem cell）**\n*   **免疫清除（Immune clearance）**\n*   **抗原呈現（antigen presentation）**\n*   **IFNγ**（干擾素-γ，Interferon Gamma）\n*   **HMB61**\n*   **增殖 ↑**（向上箭頭）\n*   **幹細胞性（幹性，stemness）**\n\n**圖示說明：**\n\n此影像是一張描繪腫瘤微環境中免疫細胞與癌細胞複雜交互作用的圖示。它使用中央圓形圖示來代表不同的細胞族群（免疫細胞與癌細胞）及其交互作用。圖示同時強調抗腫瘤與促腫瘤機制，說明各種因素如何促成抑制或促進腫瘤生長與擴散。圖示顯示細胞週期階段（G0、G1、G2與S）、EMT（上皮間質轉化）、免疫抑制、抗原呈現與免疫清除途徑，並有箭頭指示交互作用的方向與細胞族群的變化（增殖）。"
       }
     }
@@ -8390,7 +8390,7 @@
   },
   {
     "id": "n-20260819-senescence-41514-2025-291-fig1-html",
-    "title": "Here is the transcription of all visible text in the image",
+    "title": "Mitochondrial miMOMP, DAMPs & SASP in senescence",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8436,14 +8436,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "粒線體 miMOMP、DAMPs 與衰老中的 SASP",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**miMOMP**\nAMP/ADP\nATP\n-\n**DAMP釋放（DAMP Release）**\nmtDNA\n**SASPs**\n-\n\n**圖示說明：**\n\n*   **細胞週期（Cell Cycle）：**以圓形圖示代表細胞週期，包含關鍵階段與過程。\n*   **融合／分裂（Fusion/Fission）：**說明粒線體融合與分裂過程的圖示。\n*   **ROS：**圖示多處標示「ROS」，代表活性氧（Reactive Oxygen Species）。\n*   **ER：**標示為ER（內質網，Endoplasmic Reticulum）的圖示。\n*   **ETC：**電子傳遞鏈（Electron Transport Chain）的標示。\n*   **ATM：**ATM蛋白的標示。\n*   **ATR：**ATR蛋白的標示。\n*   **NF-κB：**NF-κB的標示。\n*   **p16/p21：**顯示p16與p21蛋白的圖示。\n*   **JNK：**JNK蛋白的標示。\n*   **CCF：**CCF蛋白的標示。\n*   **cGAS：**cGAS蛋白的標示。\n*   **STING：**STING蛋白的標示。\n*   **TLR9：**TLR9蛋白的標示。\n*   **NLRP3：**NLRP3蛋白的標示。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-41514-2025-291-fig2-html",
-    "title": "Here's a transcription of all visible text in the image",
+    "title": "Mitochondrial dysfunction hallmarks — senescence & neurodegeneration",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8489,14 +8489,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "粒線體功能障礙特徵——衰老與神經退化",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**主要文字（Main Text）：**\n\n「細胞衰老與神經退化性疾病（AD、PD、HD）中粒線體功能障礙的共同特徵（Shared hallmarks of mitochondrial dysfunction in cellular senescence and neurodegenerative disease）」\n\n**圓形區段與說明（Circular Sections and Descriptions）：**\n\n*   **頂部區段：**「OXPHOS功能障礙」，在ETC（電子傳遞鏈）影像與藍色的Δψm（質子驅動力）影像上畫有紅色「X」。\n*   **右上方區段：**「ROS產生增加」，帶有大型紅色「ROS」圖示。\n*   **左下方區段：**「DAMP釋放」，帶有細胞外囊泡與小顆粒的圖示。\n*   **下方中央區段：**「粒線體自噬受損（Impaired mitophagy）」，帶有粒線體與溶酶體的簡化圖示。\n*   **右下方區段：**「能量代謝改變」，帶有NAD+與ATP的圖示。\n*   **右下方區段：**「鈣離子累積」，帶有多個描繪的鈣（Ca²⁺）離子。\n\n**圖示說明（Diagram Descriptions）：**\n\n*   **ETC（電子傳遞鏈）：**描繪ETC的簡化圖示，含有多個蛋白質複合物與電子流動。\n*   **Δψm（質子驅動力）：**描繪粒線體內部膜兩側的質子梯度。\n*   **ROS（活性氧）：**一個代表ROS的大型紅色圓圈。\n*   **DAMPs（損傷相關分子模式）：**顯示細胞外囊泡（小顆粒）被釋放的圖示。\n*   **粒線體自噬（Mitophagy）：**說明粒線體自噬過程的簡化圖示。\n*   **ATP（三磷酸腺苷）：**ATP的分子結構。\n*   **鈣離子（Ca²⁺）：**多個描繪的鈣（Ca²⁺）離子。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-cas-111-304-g001",
-    "title": "Here’s a transcription of all the visible text in the image",
+    "title": "Cellular senescence — characteristics & cell cycle arrest",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8542,14 +8542,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "細胞衰老——特徵與細胞週期停滯",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**細胞衰老（Cellular senescence）**\n\n*   正常細胞（Normal cells）\n*   衰老細胞（Senescent cells）\n\n**特徵（Characteristics）**\n\n*   p16INK4a、p21WAF1/CIP1↑\n*   SASP因子↑\n*   DNA損傷焦點↑\n*   SAHF↑\n*   增殖↓\n*   Lamin B1↓\n\n**圖示（Diagram）：**\n\n此影像描繪一個說明細胞衰老過程的流程圖，顯示正常細胞與衰老細胞之間的比較，並概述與衰老相關的關鍵事件與特徵。圖示包含：\n\n*   DNA複製與細胞週期的示意圖。\n*   衰老相關途徑的視覺分解，包括p53、p21、CDK2、p16、Rb與Cyclin D/E的角色。\n*   不可逆細胞週期停滯的指示。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-cas-111-304-g002",
-    "title": "Text Transcription",
+    "title": "SASP functions — wound healing, development & tumor progression",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8595,14 +8595,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "文字轉錄",
+        "title": "SASP 功能——傷口癒合、發育與腫瘤進展",
         "ocr": "以下是影像中所有可見文字的轉錄內容，以及圖示／按鈕／表格的簡要說明：\n\n**文字轉錄（Text Transcription）：**\n\n*   傷口癒合（Wound healing）\n*   胚胎發育（Embryonic development）\n*   腫瘤進展／遷移（Tumor progression / migration）\n*   PDGF-AA\n*   MMP、VEGF、IL-1β\n*   TGF-β\n*   Wnt\n*   CXCL1、CCL2、CCL5\n*   PGE2\n*   免疫招募（Immune recruitment）\n*   旁分泌衰老（Paracrine senescence）\n*   自分泌衰老（Autocrine senescence）\n*   抗腫瘤免疫的抑制（Suppression of anti-tumor immunity）\n\n**圖示／按鈕說明（Diagram/Button Descriptions）：**\n\n1.  **傷口癒合（Wound Healing）：**描繪皮膚傷口的圖示，以紅線表示切口，周圍有一些組織。\n2.  **胚胎發育（Embryonic Development）：**顯示胚胎的簡化插圖，帶有內部結構的描繪。\n3.  **腫瘤進展／遷移（Tumor Progression/Migration）：**顯示一群圓形粉紅色細胞（可能為腫瘤細胞），以成群方式排列。\n4.  **免疫招募（Immune Recruitment）：**描繪免疫細胞（各種形狀與顏色）包圍中央細胞，應是表示免疫細胞招募的過程。\n5.  **抗腫瘤免疫的抑制（Suppression of Anti-Tumor Immunity）：**呈現數個灰色的免疫細胞（可能為T細胞），帶有打叉符號，暗示抗腫瘤免疫受到抑制。\n\n主要的中央細胞呈粉紅色，並連接到所描繪的其他數個過程。箭頭指示影響此中央細胞的訊號或過程。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-cas-111-304-g003-cgas-sting",
-    "title": "Here is the transcription of all visible text in the image",
+    "title": "cGAS–STING & LINE-1 in the senescence SASP",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8648,14 +8648,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "cGAS–STING 與 LINE-1 在衰老 SASP 中的作用",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n*   **LINE-1**（多個藍色圓圈代表LINE-1元件）\n*   **壓力（Stress）**（紅色圓圈表示壓力）\n*   **DSB**（代表DNA雙股斷裂的圖示）\n*   **IRF3**（多個藍色圓圈代表IRF3蛋白）\n*   **IFN-β**（多個藍色圓圈代表干擾素-β，Interferon-beta）\n*   **衰老相關分泌表型（SASP，Senescence-associated secretory phenotype）**（文字標籤）\n*   **ROS**（代表活性氧的紅色圓圈）\n*   **CCF**（文字標籤）\n*   **受損粒線體（Damaged Mitochondria）**（受損粒線體的圖示）\n*   **IL-6、IL-8**（IL-6與IL-8的文字標籤）\n*   **NF-κB**（多個藍色圓圈代表NF-κB）\n*   **STING**（STING蛋白的圖示）\n*   **TBK1**（TBK1的文字標籤）\n*   **IKK**（IKK的文字標籤）\n*   **IκBα**（IκBα的文字標籤）\n*   **AMP**（AMP的文字標籤）\n*   **GMP**（GMP的文字標籤）\n*   **2’3’-cGAMP**（文字標籤）\n*   **ATP + GDP**（文字標籤）\n\n**圖示說明（Diagram Descriptions）：**\n\n*   有數個蛋白質與核酸成分的圓形表示，指示它們參與各種途徑。\n*   圖示強調途徑之間的交互作用，例如干擾素反應、DNA損傷反應與衰老途徑。\n*   描繪多條途徑，顯示IRF3、NF-κB與STING等蛋白質之間的連接。\n*   也有粒線體與內質網（ER）等細胞組成成分的表示。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-img-6396",
-    "title": "Here’s the transcription of all visible text in the image",
+    "title": "Aminochromes as senotherapeutics — adrenochrome's dual potential",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8701,14 +8701,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "氨基色素作為衰老療法——腎上腺素紅的雙重潛能",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**探索氨基色素（AMINOCHROMES）作為衰老療法藥物（SENOTHERAPEUTIC AGENTS）**\n\n**研究假說：腎上腺素紅（ADRENOCHROME）的雙重潛能（RESEARCH HYPOTHESIS: ADRENOCHROME'S DUAL POTENTIAL）**\n**研究假說：腎上腺素紅的雙重潛能**\n\n1.  **衰老細胞溶解假說（THE SENEOLYSIS HYPOTHESIS）：**ROS驅動的選擇性凋亡\n    *   1.  表現於衰老細胞溶解誘導，即ROS驅動的選擇性凋亡\n\n    健康細胞（HEALTHY CELL）\n\n    NGQT/GST/M2\n    NGQT/GST/M2 報導\n\n    Aminochrome\n    氨基色素（Aminochrome）\n\n    NGTM2酶（NGTM2 Enzyme）\n\n    防禦受損 & 高ROS（COMPROMISED DEFENSE & HIGH ROS）\n\n    氧化還原循環（REDOX CYCLING）\n\n    雙電子安全／低氧化還原（TWO-ELECTRON SAFE/LOW REDOX）\n\n    存活（SURVIVAL）\n\n2.  **衰老形態調控假說（THE SENEMORPHIC HYPOTHESIS）：**SASP調控\n    *   2.  衰老形態調控（Senomorphic）& SASP調控\n\n    小分子氨基色素（Small Molecule Aminochrome）\n\n    IKK\n    NRF2\n\n    親電性共價修飾（ELECTROPHILIC COVALENT MODIFICATION）\n\n    抑制（Inhibits）\n    NF-κB的p65次單元\n\n    NRF2媒介的SASP抑制（NRF2-MEDIATED SASP SUPPRESSION）\n\n    抗氧化反應元件（ARE，Antioxidant Response Elements）\n\n    上調（Upregulate）\n\n    減弱的SASP轉錄（BLUNTED SASP TRANSCRIPTION）（I、II、III、IV）\n\n    靜止型非分泌表型（QUIESCENT NON-SECRETORY PHENOTYPE）\n\n3.  **關鍵風險與轉譯挑戰（CRITICAL RISKS & TRANSLATIONAL CHALLENGES）**\n    *   3.  關鍵風險與轉化挑戰\n\n    遺傳性神經毒性（INHERENT NEUROTOXICITY）\n\n    粒線體功能障礙（Mitochondrial dysfunction）\n\n    與帕金森病相關（Linked to Parkinson's disease）\n\n    芳香族突變（AROMATIC MUTATION）\n\n    間質性\n    心血管\n    液體毒性（INTERSTITIAL FLUID TOXICITY）\n\n    冠狀動脈痙攣（CORONARY SPASMS）\n\n    細胞內「超載」（INTRACELLULAR OVERLOAD）\n\n    嚴重心律不整（SEVERE ARRHYTHMIAS）\n\n    化學不穩定（CHEMICAL INSTABILITY）\n\n    類尼曼化合物（Niemann-like compounds）\n\n    難以進行治療性靶向（Difficult to target therapeutically）"
       }
     }
   },
   {
     "id": "n-20260819-senescence-img-6400",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "SASP & senescent cell phenotypes — secretome & consequences",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8754,14 +8754,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄內容",
+        "title": "SASP 與衰老細胞表型——分泌體與後果",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**了解SASP及其相關表型（Understanding SASP and its Associated Phenotypes）**\n\n**什麼是衰老細胞？（WHAT ARE SENESCENT CELLS?）**\n*   壓力源（STRESSORS）\n*   DNA損傷（DNA DAMAGE）\n*   氧化壓力（OXIDATIVE STRESS）\n*   致癌基因活化（ONCOGENE ACTIVATION）\n*   永久性細胞週期停滯（PERMANENT CELL-CYCLE ARREST）\n*   基因體替代性複製（GENOME ALTERNATIVE REPLICATION）\n\n**SASP分泌體（THE SASP SECRETOME）**\n*   發炎性細胞激素（INFLAMMATORY CYTOKINES）\n*   生長因子（GROWTH FACTORS & BILING，原文不清）\n*   蛋白酶（PROTEASES）\n*   趨化激素（CHEMOKINES，原文CHHROMOXINES疑為CHEMOKINES之誤）\n*   CXCL1、CCL2/3\n*   BMPs（例如BMP-1/3）\n*   TNF-α\n*   IGFBP5、GDF15、ActinA\n\n**功能與後果（FUNCTIONS & CONSEQUENCES）**\n*   傳播衰老（SPREAD SENESCENCE）\n*   急性衰老（ACUTE SENESCENCE）\n*   健康情境（HEALTHY CONTEXTS）\n*   傷口癒合（WOUND HEALING）\n*   ECM重塑（ECM REMODELING）\n\n**調控與緩解（REGULATION & MITIGATION）**\n*   關鍵途徑（KEY PATHWAYS）\n*   NF-κB、C/EBP/γ-33MAP（原文不清）\n*   持續性DOR抑制（PERSISTENT DOR）\n*   心臟細胞健康（HEART CELL HEALTH）\n\n**神經發生中的SASP動態（SASP DYNAMICS IN NEUROGENESIS）**\n*   HO（高階，High Order）\n*   NH2（中性氫，Neutral Hydrogen）\n*   中間產物（Intermediates）\n\n**SASP對組織重塑的影響（SAP EFFECT ON TISSUE REMODELING）**\n*   Senolytics（清除衰老細胞藥物）\n*   例如JAK/STAT抑制劑\n*   研究與治療（Research and Therapy）\n\n**備註（Note）：**\n\n*   影像包含數個圖示與流程圖，描繪衰老與SASP（衰老相關分泌表型，Senescence-Associated Secretory Phenotype）所涉及的機制與途徑。\n*   有一個小型表格，摘要調控與緩解的關鍵途徑。\n*   有一個較小的方框顯示「SAP Effects on Tissue Remodeling（SASP對組織重塑的影響）」，並附有圖示。"
       }
     }
   },
   {
     "id": "n-20260819-senescence-img-6401",
-    "title": "Main Title",
+    "title": "Mitohormesis & the antioxidant paradox",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8807,7 +8807,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "主要標題",
+        "title": "粒線體激效與抗氧化劑悖論",
         "ocr": "以下是影像中所有可見文字的轉錄內容：\n\n**主要標題（Main Title）：**\n\n檢視生活方式與老化對人類健康造成的影響，使我們能更確切地理解粒線體功能障礙（Mitochondrial Dysfunction）。\n（Reviewing the effects of aging and lifestyle on human health, allowing us to more clearly understand Mitochondrial Dysfunction.）\n\n**副標題（Subtitle）：**\n\n什麼是粒線體毒物興奮效應（MITOHORMESIS）？\n\n**編號重點與說明及插圖（Numbered Points with Explanations & Illustrations）：**\n\n1.  **正常途徑（Normal Pathway）（抗氧化補充劑，Antioxidant Supplements）：**為什麼抗氧化劑能使細胞健康？\n    *   **壓力源（stressors）**（例如運動、低氧）\n2.  **增加粒線體ROS（increases mitochondrial ROS）**\n3.  **誘發毒物興奮反應（TRIGGERS HORMETIC RESPONSE）**\n    *   防禦基因訊號的活化\n4.  **增強細胞保護（ENHANCED CYTOPROTECTION）**\n    *   分子伴護蛋白（chaperones，協助蛋白質摺疊的分子）的上調\n    *   外源物解毒（Xenobiotic detoxification）\n    *   抗氧化防禦（Antioxidant defenses）\n5.  **潛在健康益處／潛在壽命（POTENTIAL HEALTH BENEFITS / LIFESPAN）**\n    *   更健康、更長壽、理想的健康（更長的壽命，理想健康）\n    *   抗氧化劑臨床試驗令人失望：結果不盡理想\n6.  **一般性失敗：未能展示益處（GENERAL FAILURE: Failed to demonstrate benefit）**\n    *   **死亡率增加（increases mortality）**\n    *   **癌症風險**（cancer risk）\n    *   **心血管疾病**（心臟中的心血管疾病訊號）\n7.  **圖表／流程圖（Diagram/Flowchart）：**\n    *   顯示粒線體氧化還原循環。\n    *   說明抗氧化劑的「悖論」：高ROS濃度誘發毒物興奮反應。\n8.  **抗氧化劑消耗（Antioxidant Consumption）：**\n    *   **增加肌肉量**（muscle mass）\n    *   **增強能量**（enhanced energy）\n    *   **抗氧化能力**（antioxidant capacity）\n    *   **減少發炎**（reduce inflammation）\n9.  **抑制毒物興奮反應（INHIBITS HORMETIC RESPONSE）**\n    *   訊號與防禦基因保持不活化。\n\n**方框／註記中的文字（Text in Boxes/Callouts）：**\n\n*   **抗氧化劑的負面效應？（THE NEGATIVE EFFECT OF ANTIOXIDANTS?）**（被阻斷的途徑）\n*   **抗氧化劑（Antioxidants）（維生素C、E）**它們在ROS傳遞訊號前捕捉ROS爆發\n*   **不（No）**（紅色圓圈帶有「NO」符號）\n*   **可能的原因（Possible Explanations）：**\n    *   不希望消滅（cancer cells don't disappear）\n    *   抗氧化劑影響細胞內定位（anti-oxidant localization）\n    *   抑制毒物興奮反應（inhibits hormetic response）\n    *   生物學氧化（biological oxidation）\n    *   邏輯與化學（Logical and Chemical）\n\n**其他文字（Other Text）：**\n\n*   沿途徑的細胞（cells along the pathway）\n*   細胞的生長（cell growth）\n*   細胞的死亡（cell death）\n\n**圖示說明（Diagram Description）：**影像包含一個說明粒線體氧化還原循環與抗氧化劑「悖論」的圓形圖示——高濃度ROS會誘發毒物興奮反應，而非單純導致氧化損傷。圖中有一個人物的視覺呈現，帶有健康符號；另一個人則以骷髏與醫療圖示表示，暗示死亡風險。數個較小的圖示代表肌肉量、能量、抗氧化劑與發炎等概念。另有一個帶紅色圓圈與「NO」符號的註記，象徵高濃度抗氧化劑的負面效應。"
       }
     }
@@ -8867,7 +8867,7 @@
   },
   {
     "id": "n-20260819-senescence-nihms-627997-f0001",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Senescence triggers — DNA damage, telomeres & p16/p21",
     "topic": "senescence",
     "document": "",
     "entities": [
@@ -8902,7 +8902,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖片中所有可見文字的轉錄",
+        "title": "衰老的觸發因素——DNA 損傷、端粒與 p16/p21",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**文字內容：**\n\n*   「不可逆的細胞週期停滯」(位於藍色圓圈中央)\n*   「染色質不穩定性」\n*   「非端粒DNA損傷」\n*   「短/功能失常的端粒」\n*   「致癌基因/致癌性突變」\n*   「過度表現的細胞週期抑制因子 (p16, p21)」\n*   「強烈的促分裂/壓力訊號」\n*   「DNA損傷 = SASE」\n*   「無DNA損傷 = 無SASE」\n\n**圖示說明：**\n\n此圖示闡述「持續性自主自我毀滅程式」(Sustained Autonomous Self-Destruction Program, SASE) 對 DNA 損傷的反應概念。中央元素是「不可逆的細胞週期停滯」，以藍色圓圈表示。多個導致此停滯的因素自圓圈向外輻射展開，包括：染色質不穩定性、非端粒DNA損傷、短/功能失常的端粒、致癌基因/致癌性突變、細胞週期抑制因子 (p16, p21) 的過度表現，以及強烈的促分裂/壓力訊號。文字標籤詳細說明這些因素與不可逆停滯之間的關聯。底部文字區塊強調 DNA 損傷與 SASE 之間的關係。"
       }
     }
@@ -8960,7 +8960,7 @@
   },
   {
     "id": "n-20260819-sirtuins-10522-2017-9685-fig1-html",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Sirtuin levels change during ageing",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -8987,14 +8987,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "老化期間去乙醯酶水平的變化",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n*   **隨老化而減少（decrease during ageing）**\n*   **隨老化而增加（Increase during ageing）**"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-13205-2022-3455-fig1-html",
-    "title": "13205_2022_3455_Fig1_HTML (sirtuins)",
+    "title": "SIRT1 domain architecture — NAD+ binding modules",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -9023,7 +9023,7 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "SIRT1 結構域示意圖（13205_2022_3455_Fig1）",
+        "title": "SIRT1 結構域架構——NAD+ 結合模組",
         "ocr": "Zn²⁺結合模組\n螺旋模組\nNAD⁺結合域\nC端調控區段（CTR）"
       }
     }
@@ -9136,7 +9136,7 @@
   },
   {
     "id": "n-20260819-sirtuins-generated-image-july-05-2026-1-10am",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Mammalian sirtuins SIRT1–7 — health & disease review",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -9182,14 +9182,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "哺乳動物去乙醯酶 SIRT1–7——健康與疾病回顧",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**綜合回顧：哺乳動物Sirtuin（SIRT1–7）在健康與疾病中的作用**\n\n**NAD+依賴性去乙醯酶家族：代謝、發炎、壓力韌性與長壽的主控調節因子。**\n\n**代謝調控**\n*   增強脂肪酸氧化\n*   改善胰島素敏感性\n*   糖質新生調控\n*   粒線體生合成\n\n**氧化壓力與細胞凋亡**\n*   ROS解毒（SOD2活化）\n*   細胞凋亡調控（p53抑制）\n\n**發炎與免疫**\n*   NF-κB去活化\n*   DNA修復\n*   發炎性細胞激素的抑制\n\n**細胞衰老與老化**\n*   自噬\n*   端粒維持\n*   DNA修復\n\n**在癌症中的意義**\n\n**心血管疾病（CVD）**\n\n**神經退化**\n\n**代謝疾病**\n\n**治療潛力與臨床現況**\n*   目標 | 期別 | 疾病適應症\n*   SIRT1 | 2 | 第2型糖尿病\n*   SIRT2 | 2 | 神經退化性疾病\n*   SIRT3 | 4 | 壞死性凋亡\n*   SIRT4 | 0 | 心血管疾病\n*   SIRT6 | 0 | （無數據）\n*   SIRT7 | 0 | （無數據）\n\n**圖示說明：**\n\n*   **圓形圖：** 圖片使用數個圓形圖來表示不同的生物過程與路徑：\n    *   代謝調控、氧化壓力與細胞凋亡、發炎與免疫、細胞衰老與老化。\n*   **流程圖：** 小型流程圖說明關鍵過程，如ROS解毒和細胞凋亡調控。\n*   **表格：** 一個表格總結SIRT抑制劑的治療潛力，按目標蛋白、期別和疾病適應症分類。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-generated-image-july-05-2026-1-11am",
-    "title": "Main Title",
+    "title": "Sirtuin family overview — metabolism & aging",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -9235,7 +9235,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "主標題",
+        "title": "去乙醯酶家族總覽——代謝與老化",
         "ocr": "以下是圖片中所有可見文字的忠實重現：\n\n**主標題：**\n\n全圖解說：哺乳動物Sirtuin（SIRT1–7）在健康與疾病中的角色\n（National Overview: Mammalian Sirtuins in Health and Disease）\n\n**副標題：** NAD⁺依賴性去乙醯酶家族：代償、衰老、蛋白質恆定（[原文不清]）與最重要的蛋白質因子\n\n**章節與描述：**\n\n*   **代謝調節（Metabolic Regulation）**\n    *   ATP\n    *   葡萄糖脂質代謝（Glucose lipid metabolism）\n    *   糖質新生調控（Gluconeogenesis Control）\n*   **免疫與發炎（Immunity & Inflammation）**\n    *   NF-κB\n    *   去乙醯化（Deacetylation）\n    *   細胞激素抑制（Suppression of Cytokines）\n*   **氧化壓力與細胞凋亡（Oxidative Stress and Cell Apoptosis）**\n    *   ROS（活性氧）\n    *   SOD2（超氧化物歧化酶2）\n    *   p53抑制（p53 Inhibition）\n*   **細胞衰老與老化（Senescence & Aging）**\n    *   自噬（Autophagy）\n    *   端粒維持（Telomere Maintenance）\n    *   促進DNA修復（DNA Repair）\n\n**SIRT酶分類與功能（以圓形圖說明）：**\n\n*   **SIRT1：** p53去乙醯化、DNA修復、NF-κB去乙醯化、粒線體生合成\n*   **SIRT2：** DNA修復\n*   **SIRT3：** p53去乙醯化、DNA修復、粒線體生合成\n*   **SIRT4：** PGC-1α去乙醯化、DNA修復\n*   **SIRT6：** DNA修復、粒線體生合成、NF-κB調控\n*   **SIRT7：** 自噬、NF-κB與PGC-1α的去乙醯化\n\n**治療潛力與臨床現況：**\n\n| SIRT抑制劑（SIRT Inhibitors） | 抑制效果（Inhibition Effect） |\n|---|---|\n| 白藜蘆醇（Resveratrol） | SIRT活化 1 |\n| 白藜蘆醇（Resveratrol） | SIRT活化 2 |\n| 白藜蘆醇（Resveratrol） | SIRT活化 3 |\n| NAD+前驅物（NAD+ Precursors） | SIRT活化 4 |\n| NAD+前驅物（NAD+ Precursors） | SIRT活化 5 |\n| （無資料） | SIRT活化 6 |\n| （無資料） | SIRT活化 7 |\n| （無資料） | SIRT活化 8 |\n| （無資料） | SIRT活化 9 |\n| （無資料） | SIRT活化 10 |\n\n**疾病上的意義：**\n\n*   **心血管疾病（CVD）**\n*   **神經退化性疾病（ND）**\n*   **代謝疾病（Metabolic Disorders）**\n\n**備註：**\n\n*   圖中以箭頭表示涉及SIRT酶的各種路徑與相互作用。\n*   按鈕/表格呈現與SIRT抑制劑及其影響相關的數據。\n*   整張圖片是一個複雜的資訊圖表，旨在說明SIRT酶家族在各種生理與病理過程中的作用。"
       }
     }
@@ -9454,7 +9454,7 @@
   },
   {
     "id": "n-20260819-sirtuins-nihms591997f3",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "SIRT1, SIRT3 & SIRT6 targets across processes",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -9500,7 +9500,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "SIRT1、SIRT3 與 SIRT6 在各過程中的標靶",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**上段——SIRT1**\n\nSIRT1\n\nCaMKKβ\nPPARα\nNF-κB p65\nFOXOs\n\nUCP2\nHIF-1α\nc-MYC\nTFAM\n\nRARP\nADAM10\nTau\nHSF1/HSP70\n\nTFAm\nPPARγ\nPGC-1α\n\nHIF-1α\nc-MYC\nSurvivin\nβ-catenin\n\nNKX2-1\nOXR2\n\n**中段——SIRT3**\n\nSIRT3\n\nSOD2\nCatalase\nIGF-AKT\n\n---\n\nPDC\nLCAD\n\nLKB1/AMPK\nSOD2\n\nPDC\nLCAD\n\nSOD2\nIDH2\np53\n\n---\n\n**下段——SIRT6**\n\nSIRT6\n\nc-Jun\nIGF-AKT\n\nH3K9Ac\nNF-κB p65\nFOXOs\nTNFα\n\nIGF-1\nPGC-1α\n\nPGC-1α\nSREBP1,2\n\nH3K56Ac\nH3K9Ac\nHIF-1α\nc-MYC\nSurvivin\n\nIGF-1\n\n**圖示/表格：**\n\n*   **三個表格：** 圖片包含三個表格，每個表格代表不同的Sirtuin（SIRT1、SIRT3與SIRT6）。\n*   **圖示：** 每個表格都關聯到一個代表生物過程或疾病狀態的圖示（例如，心血管疾病、發炎、葡萄糖恆定、神經退化、肥胖、癌症、壽命）。"
       }
     }
@@ -9613,7 +9613,7 @@
   },
   {
     "id": "n-20260819-sirtuins-sirtuins-nlrp3-inflammasome",
-    "title": "Here’s the transcription of all visible text from the image",
+    "title": "SIRT1/3 regulation of NLRP3 inflammasome",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -9659,14 +9659,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "SIRT1/3 對 NLRP3 發炎體之調控",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**上段（發炎機制與SIRT調節）：**\n\n*   發炎機制與SIRT調節（MECHANISMS OF INFLAMMATION）\n*   發炎路徑\n*   SIRT調節（抗發炎作用）\n\n**發炎路徑圖：**\n\n*   損傷相關分子（DAMPs）92-97\n*   TLR4受體\n*   活化NF-κB訊息傳導\n*   NF-κB訊息傳導路徑\n*   NLRP3表達\n*   發炎加劇\n*   IL-1β、IL-18、TNF-α、TGFβ\n*   NLRP3發炎體形成\n*   zh-97\n*   zh-TW\n\n**SIRT調節（抗發炎）圖：**\n\n*   SIRT1與SIRT3\n*   SIRT1減弱NLRP3活性\n*   SIRT1減輕NLRP3活性\n*   對發炎的保護作用\n*   抗發炎保護作用\n*   SIRT1/3靶向NLRP3以達到抗發炎作用\n\n**圖示簡述：**\n\n*   **上圖：** 顯示涉及損傷相關分子（DAMPs）、TLR4受體、NF-κB訊息傳導、NLRP3表達與發炎加劇的路徑。彩色圖示代表各種發炎介質（IL-1β、IL-18、TNF-α、TGFβ）。\n*   **下圖：** 說明SIRT1/3調節NLRP3活性的機制。顯示SIRT1減弱NLRP3活性並產生對發炎的保護作用。"
       }
     }
   },
   {
     "id": "n-20260819-spermidine-spermidine-health-kaup-15-01-1530929-g00",
-    "title": "Here is the transcription of all visible text in the image",
+    "title": "Spermidine decline with aging — sources & health",
     "topic": "spermidine",
     "document": "",
     "entities": [
@@ -9697,14 +9697,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "此為圖片中所有可見文字之轉錄內容",
+        "title": "亞精胺隨老化而下降——來源與健康",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n**吸收減少**\n**運輸減弱**\n**微生物組改變**\n**細胞內生合成減少**\n**降解增加**\n\n**老化時的內源性亞精胺濃度**\n\n富含亞精胺的食物\n合成亞精胺\n亞精胺強化萃取物\n用於亞精胺合成的益生菌\n\n**健康 ↓**（紅色方框，左側有一個人像與向下的箭頭）\n**健康 ↑**（綠色方框，右側有一個人像與向上的箭頭）\n\n---\n\n**圖示說明：** 此圖片呈現了與亞精胺濃度相關之健康結果的視覺比較。圖片使用兩個人物——一個帶有向下的箭頭，表示健康不佳；另一個帶有向上的箭頭，表示健康良好——以及數個方框，概述影響亞精胺濃度的因素。箭頭將這些因素與對應的人物相連。方框中列出導致亞精胺濃度降低或升高的潛在機制，並提供可望改善健康的亞精胺來源。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-41420-2024-1850-fig1-html",
-    "title": "Diagram/Elements Descriptions",
+    "title": "TFEB mRNA regulation — hypusination & m6A methylation",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -9747,14 +9747,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "圖示／元素說明",
+        "title": "TFEB mRNA 調控——羥丁胺化與 m6A 甲基化",
         "ocr": "以下是影像文字的忠實轉錄：\n\n**轉錄：**\n\n*   **TFEB mRNA**（5' → 3'，藍色股）\n*   **3'-UTR**（藍色股）\n*   **TFEB 前驅 mRNA（pre-mRNA）**（紅色股）\n*   **METTL**\n*   **甲基化**（m⁶A）\n*   **TFEB 前驅 mRNA（pre-mRNA）**（紅色股）\n*   **HNRNPD**\n*   **降解**（綠色箭頭）\n*   **5'-UTR**\n*   **TFEB 編碼區**\n*   **5'-UTR 啟動子**\n*   **TFEB**（灰色橢圓）\n*   **PGC-1α（PQC-1a[原文不清]）**\n*   **MYC**\n*   **SMAD3**\n\n**圖示／元素說明：**\n\n*   **圓形圖示：** 這是一張分為「細胞核」與「細胞質」兩大區塊的圓形圖示。\n*   **顏色標示：** 使用顏色來區分不同的過程：\n    *   橘色：促進\n    *   紅色：抑制\n    *   藍色：m⁶A（甲基化）\n    *   綠色：降解\n    *   紫色：羥丁胺化（Hypusinated）\n*   **箭頭：** 箭頭表示資訊與分子在不同步驟中的流動方向。\n*   **標籤：** 標籤描述所涉及的各種蛋白質與區域（例如 eIF4A、PDCD4、TFEB、3'-UTR、啟動子）。\n*   **方框／陰影：** 彩色方框標示關鍵步驟與組分（例如羥丁胺化（Hypusination）、轉譯）。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-41420-2024-1850-fig2-html",
-    "title": "visible elements",
+    "title": "TFEB regulation by mTORC1 — basal vs stress conditions",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -9795,7 +9795,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "可見元素",
+        "title": "mTORC1 對 TFEB 的調控——基礎與壓力條件",
         "ocr": "以下是影像文字的忠實轉錄，呈現所有可見元素：\n\n**主圖示——基礎條件下**\n\n*   **TFEB**（紅色）\n*   **MAP4K3**\n*   **S3-S211-TFEB**\n*   **14-3-3**\n*   **S3-S211-TFEB**\n*   **溶酶體**\n\n**主圖示——細胞壓力條件下**\n\n*   **mTORC1**（非活性）\n*   **Rag GTPase**\n*   **mTORC1**（活性）\n*   **MCOLN1**\n*   **鈣調神經磷酸酶（Calcineurin）**\n*   **溶酶體**\n*   **S211-TFEB**\n*   **14-3-3**\n\n**圖示——細胞質與細胞核**\n\n*   **細胞質**\n*   **細胞核**\n*   **TFEB 標靶基因**（顯示為一條圓形 DNA 股，帶有從 5' 端指向 3' 端的箭頭）\n\n**圖示——TFEB 調控路徑**\n\n*   **TFEB**（紅色）\n*   **CRM1**\n*   **S138-S142-TFEB**\n*   **S138-S142-TFEB**\n*   **NES**（核輸出訊號，Nuclear Export Signal）\n*   **P**（磷酸化）"
       }
     }
@@ -9853,7 +9853,7 @@
   },
   {
     "id": "n-20260819-autophagy-af-p19484-f1-predicted-aligned-error-v6",
-    "title": "AF-P19484-F1-predicted_aligned_error_v6 (autophagy)",
+    "title": "AlphaFold predicted aligned error plot (no visible text)",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -9879,14 +9879,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "AF-P19484-F1-predicted_aligned_error_v6（自噬）",
+        "title": "AlphaFold 預測比對誤差圖（無可見文字）",
         "ocr": "影像中沒有可見文字。它看起來是一張模糊、抽象的影像，帶有綠色線條與形狀。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-nihms-821698-f0001",
-    "title": "Here’s the transcription of all visible text from the image",
+    "title": "TFEB/TFE3 activation by cellular stresses",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -9927,14 +9927,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像中所有可見文字的轉錄",
+        "title": "細胞壓力對 TFEB/TFE3 的活化",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n1.  內質網壓力（ER Stress）\n2.  粒線體損傷\n3.  病原體感染\n4.  飢餓\n\n**圖示說明：**\n\n*   **內質網壓力：** 描繪一個粉紅色的內質網（ER），有兩個箭頭指向它，標示為「2. 內質網壓力」。\n*   **粒線體損傷：** 描繪一個紫色的粒線體，有一個箭頭指向它，標示為「3. 粒線體損傷」。\n*   **病原體感染：** 描繪一個藍色的細菌，標示為「4. 病原體感染」。\n*   **飢餓：** 描繪一個黃色球體，標示為「1. 飢餓」。\n\n**關鍵蛋白質／組分：**\n\n*   TFEB/TFE3：以 DNA 轉錄的形式呈現，與細胞對壓力的反應相關。\n*   PERK：以藍色方塊呈現，與 TFEB/TFE3 相關。\n*   Parkin：以紫色結構呈現，與 TFEB/TFE3 及 PERK 相關。\n*   TLR：以藍色三角形呈現，與 TFEB/TFE3 相關。\n*   鈣調神經磷酸酶（Calcineurin）：以粉紅色圓圈呈現，與 TFEB/TFE3 相關。\n*   v-ATPase：以藍色泡泡呈現，與 TFEB/TFE3 相關。\n*   Ragulator：以綠色方塊呈現，與 TFEB/TFE3 相關。\n*   14-3-3：以灰色螺旋呈現，與 TFEB/TFE3 相關。\n*   mTORC1：以綠色方塊呈現，與 RagA/B、RagC/D 及 Ragulator 相關。\n*   Rheb：以綠色方塊呈現。"
       }
     }
   },
   {
     "id": "n-20260819-autophagy-nihms-821698-f0002",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "TFEB/TFE3 roles across tissues — autophagy & lysosomes",
     "topic": "autophagy",
     "document": "",
     "entities": [
@@ -9980,14 +9980,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像中所有可見文字的轉錄",
+        "title": "TFEB/TFE3 在各組織中的角色——自噬與溶酶體",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**文字轉錄：**\n\n*   **肝細胞（Hepatocytes）**\n    *   自噬\n    *   溶酶體生合成\n    *   脂質分解代謝（Lipid catabolism）\n*   **巨噬細胞（Macrophages）**\n    *   自噬\n    *   溶酶體生合成\n    *   細胞激素產生（Cytokine production）\n    *   抗原呈現（Antigen presentation）\n    *   免疫反應（Immune Response）\n*   **神經元（Neurons）**\n    *   自噬\n    *   溶酶體生合成\n    *   溶酶體胞吐（Lysosomal exocytosis）\n    *   細胞清除（Cellular Clearance）\n*   **心肌（Cardiac muscle）**\n    *   粒線體生合成\n    *   粒線體自噬\n    *   心臟保護（Cardioprotection）\n*   **腫瘤細胞（Tumor cells）**\n    *   自噬\n    *   溶酶體生合成\n    *   細胞內訊息傳遞（Intracellular signaling）\n    *   存活（Survival）\n*   **TFEB/TFE3**（連接所有細胞類型的中央節點）\n*   **底部文字：**「自噬與溶酶體生合成」\n\n**圖示說明：**\n\n影像是一張示意圖，說明自噬與溶酶體生合成在各種細胞類型中的角色，及其對存活與細胞過程的影響。關鍵細胞類型（肝細胞、巨噬細胞、神經元、心肌與腫瘤細胞）以箭頭顯示它們所參與的不同過程。標示為「TFEB/TFE3」的中央節點代表調控這些過程的轉錄因子。圖示包含自噬（蟲狀形狀）、溶酶體生合成（小囊泡）與其他細胞功能的視覺呈現。"
       }
     }
   },
   {
     "id": "n-20260819-sirtuins-nutrients-15-04441-g002",
-    "title": "Here's the transcription of all visible text in the image",
+    "title": "Urolithin A & gut microbiota — muscle health pathways",
     "topic": "sirtuins",
     "document": "",
     "entities": [
@@ -10033,7 +10033,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是圖片中所有可見文字的轉錄",
+        "title": "尿石素A與腸道菌群——肌肉健康途徑",
         "ocr": "以下是圖片中所有可見文字的轉錄：\n\n<start_of_image>\n\n*   **腸道菌叢代謝（Gut microbiota metabolism）**\n    <吸收、分布、代謝與排泄（Absorption, distribution, metabolism, and excretion）>\n    <影響吸收與分布的因素>\n    <粒線體自噬與再生的活化>\n    <抗氧化活性>\n    <細胞週期與細胞凋亡的調控>\n    <對代謝調控的影響>\n    <對肌肉健康的影響>\n    <抗發炎作用>\n    <促進粒線體功能與肌肉能量代謝>\n\n*   **在結腸中：** <涉及變形菌門（Proteobacteria）、梭菌屬（Clostridium）、雙歧桿菌屬（Bifidobacterium）、真桿菌屬（Eubacterium）與糞腸球菌（Enterococcus faecium）的代謝>\n    <轉化為葡萄糖醛酸苷與硫酸鹽形式（[原文不清]）>\n    <參與葡萄糖代謝與脂肪酸氧化等代謝過程>\n    <透過腎臟與腸道排出體外>\n\n*   **膳食成分（Dietary components）** <腸道菌叢的組成與活性> <個體差異> <藥物交互作用>\n\n*   **活化PINK1/Parkin訊息傳導路徑**\n    <刺激Nrf2-ARE訊息傳導路徑>\n    <活化穀胱甘肽S-轉移酶（GSTs）的表達>\n\n*   **活化Nrf2抗氧化路徑**\n    <上調穀胱甘肽過氧化酶與超氧化物歧化酶的表達>\n    <抑制與ROS產生相關的酶的活性>\n\n*   **抑制CDKs的活性**\n    <降低細胞週期蛋白的表達>\n    <增加細胞週期抑制蛋白>\n    <增加Bax/Bcl-2比值>\n    <活化JNK與p38 MAPK>\n\n*   **活化AMPK訊息傳導路徑**\n    <增加PPARγ的表達>\n    <活化Nrf2與PINK1/Parkin訊息傳導路徑>\n    <活化JNK/p38 MAPK訊息傳導路徑>\n\n*   **活化超氧化物歧化酶（SOD）與穀胱甘肽過氧化酶（GPx）**\n    <促進穀胱甘肽（GSH）的合成，使細胞恢復>\n\n*   **有助於減輕肌肉疼痛與發炎，並促進肌肉修復與恢復**\n    <增加能量產生及肌肉細胞恢復的能力>\n\n*   **活化PGC-1α的基因表達**\n    <促進肌肉細胞中ATP的生成>\n    <促進粒線體功能與肌肉能量代謝>\n\n<end_of_image>\n\n**圖示/版面描述：**\n\n圖片是流程圖形式的圖示。它從「代謝」與「尿石素A（Urolithin A）」等中心概念分支出去，探索與腸道菌叢、肌肉健康及生態/藥理作用相關的下游效應與機制。方框與箭頭的使用表示因果關係及所涉及的各種相互關聯路徑。"
       }
     }
@@ -10074,7 +10074,7 @@
   },
   {
     "id": "n-20260819-epigenetics-img-6149",
-    "title": "IMG_6149 (epigenetics)",
+    "title": "Handwritten personal notes — Kaminicka travel log",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10103,14 +10103,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "IMG_6149（表觀遺傳學）",
+        "title": "手寫個人筆記——Kaminicka 旅行日誌",
         "ocr": "**Kaminicka**\n**Skiern Niedrza**\n**2019年6月14日 星期六——中午12:00至14:00**\n*   海的兩側。\n*   沿著海岸散步，看到一些貝殼和石頭。\n*   簡短討論裝備——手提收音機、相機和錄音機——需要確保它們運作正常。\n*   七點離開，晚餐時間，相機、錄音機、防曬乳。\n\n**星期三**\n1.  早期警察妨礙：是否存在任何顯著的阻力？\n    *   向警方發出訊號：澄清——是否存在需要警方協助的新需求？\n    *   CMP，[illegible]——確認沒有問題。\n    *   [illegible]——1000時——確認CMP正常。\n    *   WOLA已取消——沒有請求。\n    *   [illegible]——已確認——沒有問題\n    *   WOLA取消拜訪[illegible]——要求在華沙附近[illegible]拜訪。\n\n2.  臨時地點\n    *   情況：在Mauer街底端，靠近[illegible]——離教堂很近。\n    *   [illegible]——[illegible]——[illegible]——靠近河邊——沒有問題。或是在教堂內。\n    *   大型木製長椅，受保護的[illegible]——[illegible]——[illegible]——[illegible]——[illegible]——\n    *   一個老舊破損的[illegible]——破損的[illegible]——[illegible]——[illegible]——\n\n3.  訊問\n    *   受訊者控制了BEREK的表達（一個藍色小[illegible]——藍色石棉——+香煙），[illegible]——[illegible]——[illegible]——[illegible]——\n    *   [illegible]——[illegible]——[illegible]——[illegible]——[illegible]——[illegible]——\n    *   [illegible]——關於完善審查空間管理的決定——\n    *   [illegible]——確認更新時程，並且——\n    *   [illegible]——所有[illegible]——[illegible]"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-img-6150",
-    "title": "Here's the transcription of the visible text in the image",
+    "title": "Lymphatic tissues & bone marrow — handwritten notes",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10143,14 +10143,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中可見文字的轉錄",
+        "title": "淋巴組織與骨髓——手寫筆記",
         "ocr": "以下是影像中可見文字的轉錄：\n\n**第1頁**\n\n*   淋巴組織（Lymphatic Tissues）\n    *   Discourse Modeling（2019年1月）——1990年至9月——[原文不清]\n        *   漿細胞、B細胞、淋巴細胞，於1990年——\n            *   抗體等——漿細胞與淋巴細胞\n*   骨髓（Bone Marrow）\n    *   骨髓細胞\n    *   淋巴過程細胞（LP）\n    *   細胞質細胞與漿細胞（CD）\n    *   B細胞與T細胞免疫庫細胞\n\n**第2頁**\n\n*   骨骼支持（Bone Support）\n    *   硬骨（Osteo）與軟骨（Fibro——膠原骨、成骨細胞/骨細胞）之比較\n        *   骨、骨組織、硬骨——硬骨與軟組織及中間型\n*   邊緣區（MZ）——邊緣區（MZ）——\n    *   邊緣區、邊緣區（MZ）（漿B細胞、邊緣區、邊緣區（MZ）（MZ）——[原文不清]\n    *   黏膜（特別是扁桃腺）對應腫脹/正常的狀態\n        *   MZ是單層細胞，可能還有支持細胞、常見細胞、快速修復區域和支持\n    *   骨髓則以骨骼、骨骼……作為回應[原文不清]\n    *   邊緣區域是關鍵\n    *   某些MZ細胞可以被培養——「告訴我們」\n\n---\n**圖示/筆記說明：**\n\n影像包含討論淋巴組織、骨髓和邊緣區的手寫筆記。寫有骨髓細胞、漿細胞、淋巴細胞、骨骼支持（成骨細胞/骨細胞）和邊緣區等關鍵術語與概念。圖中似乎有骨骼結構的素描及一些註解，暗示其與骨髓及其支持淋巴系統功能的關聯。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-image-cross-section",
-    "title": "image_cross_section (epigenetics)",
+    "title": "Eye cross-section — anatomy of retina & choroid",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10182,14 +10182,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "image_cross_section（表觀遺傳學）",
+        "title": "眼睛橫截面——視網膜與脈絡膜解剖",
         "ocr": "角膜（Cornea）[原文不清]\n瞳孔（Pupil）\n虹膜（Iris）\n睫狀體（Ciliary body）\n睫狀體（Ciliary body）\n鞏膜（Sclera）\n脈絡膜（Choroid）\n視神經（Optic）\n脈絡膜（Choroid）\n視網膜（Retina）\n黃斑（Macula）\n視神經（Optic nerve）[原文不清]\n玻璃體液（Vitreous humor）"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-image-ipsc-rpe-differentiation-protocol",
-    "title": "Here's the transcription of all visible text from the image",
+    "title": "iPSC-to-RPE differentiation protocol",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10227,14 +10227,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄",
+        "title": "iPSC 分化為 RPE 的方案",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**iPSC分化為RPE的流程方案**\n\n人類iPSC（Human iPSCs）\n\n多潛能幹細胞培養於包被Matrigel的培養皿上，使用E8或mTeSR培養基\n\n**起始／神經誘導（第0-7天）**\n轉換至分化培養基＋菸鹼醯胺（Nicotinamide）或雙重SMAD抑制\n\n**RPE特化（第1-4週）**\n加入Activin A、CHIR99021（Wnt拮抗劑），有時加入FGF抑制\n\n**色素性RPE前驅細胞出現（第4-8週）**\n自發性或引導性的色素斑塊出現\n\n**成熟與擴增（第8-12週以上）**\n含添加物的RPE培養基；細胞形成鵝卵石狀單層，表現RPE標記（RPE65、CRALBP、Bestrophin、PMEL、MITF、ZO-1）\n\n**純化／富集**\n手工挑選色素性群落，或使用FACS／分選"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-image-layers-of-retina-zh-tw",
-    "title": "Here is the transcription of all visible text from the image",
+    "title": "Retina layers — cross-section diagram (bilingual)",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10273,14 +10273,14 @@
     "updated_at": "2026-08-19T04:54:13+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄",
+        "title": "視網膜層——橫截面圖示（雙語）",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**人眼層狀示意圖（Layer Diagram of the Human Eye）**\n\n**（玻璃膜側）** –（視網膜側，Retinal side）\n\n*   神經纖維層——Nerve fiber layer\n*   節細胞層——Ganglion cell layer\n*   內核層——Inner Nuclear layer\n*   內網狀層——Inner plexiform layer\n*   外網狀層——Outer plexiform layer\n*   外界膜——Outer limiting membrane\n*   視網膜色素上皮——pigment epithelium[原文不清]\n\n**光感受器**——Photoreceptors\n\n*   視桿細胞與視錐細胞——Rods and Cones\n*   外核層——Outer nuclear layer\n*   外雙極細胞——Outer bipolar cells\n*   Cor視錐細胞——Cor cell[原文不清]\n\n**RPE**\n\n*   脈絡膜——Choroid\n*   脈絡膜——Choroid\n\n**圖示說明：**\n\n此圖是人眼的層狀示意圖，標示了各種視網膜細胞層。圖中顯示以下各層：神經纖維層、節細胞層、內核層、內網狀層、外網狀層、外界膜與色素上皮。圖中顯示感光細胞（視桿細胞與視錐細胞），以及雙極細胞和Cor細胞。圖也標示包圍視網膜的脈絡膜。箭頭從感光細胞指出，表示光線偵測的方向。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-image-layers-of-retina",
-    "title": "Text Transcription",
+    "title": "Retina layers — cross-section anatomy diagram",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10320,14 +10320,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "文字轉錄",
+        "title": "視網膜層——橫截面解剖圖示",
         "ocr": "以下是影像中所有可見文字的轉錄，以及圖示的說明：\n\n**文字轉錄：**\n\n*   （玻璃體液側，Vitreous humor side）\n*   黃色\n*   Oil[原文不清]\n*   雙極細胞\n*   Diven'[原文不清]\n*   神經纖維層\n*   節細胞層\n*   內核層\n*   內網狀層\n*   外網狀層\n*   外界膜\n*   視網膜色素上皮\n*   RPE\n*   脈絡膜\n*   脈絡膜\n*   感光細胞\n*   視桿細胞\n*   視錐細胞\n*   Bruch膜（玻璃膜）\n*   膜\n*   外核層\n\n**圖示說明：**\n\n*   **眼睛的橫截面：**此圖是帶標籤的人眼橫截面示意圖，顯示視網膜的各種層和支撐結構。\n*   **各層：**此圖清楚說明眼睛的不同層，包括：\n    *   玻璃體液（最外層）\n    *   視網膜色素上皮（RPE）\n    *   脈絡膜\n    *   視網膜各層（內核層、節細胞層、神經纖維層等）\n    *   感光細胞（視桿細胞和視錐細胞）\n*   **細胞類型：**此圖標示視網膜內關鍵的細胞類型，如雙極細胞、視桿細胞和視錐細胞。\n*   **箭頭：**箭頭表示光線進入眼睛的方向以及神經訊號的通路。\n*   **Bruch膜：**一個小的圓形結構被標示為「Bruch膜」，它是玻璃體液與視網膜之間的屏障。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-image-macula-rpe",
-    "title": "Here’s the transcription of all visible text in the image",
+    "title": "Macula & RPE anatomy — healthy vs AMD-damaged",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10361,14 +10361,14 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "影像中所有可見文字的轉錄",
+        "title": "黃斑與 RPE 解剖——健康與 AMD 受損比較",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n*   **鞏膜（Sclera）**\n*   **視網膜色素（RPE單層）**\n*   **健康的RPE：均勻**\n*   **受AMD損傷的RPE：不規則**\n*   **中央凹（Fovea）**\n*   **RPE**\n*   **Bruch膜（玻璃膜）**\n*   **脈絡膜（Choroid）**\n*   **視網膜色素上皮**\n\n**圖示說明：**\n\n此圖是人類視網膜的詳細橫截面示意圖，顯示以下各層：\n\n1.  **鞏膜：**眼睛最外層的白色層。\n2.  **視網膜色素上皮（RPE）：**位於感光細胞下方的單層細胞，負責營養供應和光線吸收。圖中描繪了健康且均勻的一層，以及顯示不規則性的AMD受損層。\n3.  **感光細胞層：**包含視桿細胞和視錐細胞，即對光敏感的細胞。\n4.  **中央凹：**視網膜中央的凹陷，含有最高濃度的視錐細胞，以獲得最銳利的視覺。\n5.  **Bruch膜：**將RPE與感光細胞層分開的特化膜。\n6.  **脈絡膜（Choroid）：**視網膜最內層。[原文不清]\n7.  **視網膜色素上皮**——RPE下方的層。"
       }
     }
   },
   {
     "id": "n-20260819-epigenetics-oskm-application-genes-14-01697-g004",
-    "title": "Here's a transcription of all the visible text in the image",
+    "title": "Yamanaka factors — applications in cancer & rejuvenation",
     "topic": "epigenetics",
     "document": "",
     "entities": [
@@ -10414,7 +10414,7 @@
     "updated_at": "2026-08-19T04:58:20+00:00",
     "translations": {
       "zh-TW": {
-        "title": "以下是影像中所有可見文字的轉錄",
+        "title": "山中因子——癌症與回春中的應用",
         "ocr": "以下是影像中所有可見文字的轉錄：\n\n**頂部區塊：**\n\n*   Oct4\n*   山中因子（Yamanaka transcription factors）\n*   C-myc\n*   Sox2\n*   Klf4\n\n**應用（中央區塊）：**\n\n*   癌症\n    *   了解不同腫瘤的發展與行為。\n    *   建立腫瘤疾病的預後判斷。\n    *   評估對化療的敏感度。\n    *   癌症細胞治療。\n*   神經退化性疾病\n    *   進行疾病建模。\n    *   實現藥物篩選。\n    *   神經退化性疾病細胞治療。\n*   回春/年輕化\n    *   動物與人類體細胞的部分重編程。\n    *   利用細胞重編程進行體內組織再生。\n\n**圖示說明：**\n\n此圖為流程圖形式的圖示，說明山中因子（Oct4、Sox2、Klf4 與 C-myc）的潛在應用。圖示向外分支，顯示其在癌症、神經退化性疾病與回春/年輕化方面的應用，並附上各項簡短說明。"
       }
     }
