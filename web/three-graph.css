@@ -989,17 +989,25 @@ a.data-source:hover { border-color: #6b9bc7; }
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; align-content: start;
 }
 .notes-card {
-  background: #23233f; border: 1px solid #3a3a5e; border-radius: 10px; overflow: hidden;
+  background: #23233f; border: 1px solid #3a3a5e; border-radius: 10px;
   cursor: pointer; display: flex; flex-direction: column; min-width: 0;
+  /* No overflow:hidden here — it was clipping long/wrapped card titles on
+     narrow mobile cards. The thumbnail clips its own top corners below, so the
+     card never needs to hide overflow and the full title always renders. */
   transition: border-color 0.15s, transform 0.1s;
 }
 .notes-card:hover { border-color: #4E79A7; transform: translateY(-2px); }
 .notes-card-thumb {
   width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #10101e;
-  display: block; border-bottom: 1px solid #2a2a4e;
+  display: block; border-bottom: 1px solid #2a2a4e; border-radius: 10px 10px 0 0;
 }
-.notes-card-body { padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1 1 auto; }
-.notes-card-title { color: #e8eef7; font-size: 13px; font-weight: 600; line-height: 1.35; }
+.notes-card-body { padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1 1 auto; min-width: 0; }
+.notes-card-title {
+  color: #e8eef7; font-size: 13px; font-weight: 600; line-height: 1.4;
+  /* Long titles (with trailing filenames, em-dash compounds, etc.) must wrap
+     inside the card so the full title shows even on narrow mobile cards. */
+  overflow-wrap: anywhere; word-break: break-word; white-space: normal;
+}
 .notes-card-meta { color: #7c7c94; font-size: 11px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .notes-badge { background: #2a2a4e; border: 1px solid #3a3a5e; color: #9ec1e8; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; white-space: nowrap; }
 .notes-badge.topic { color: #7bd88f; }
@@ -1010,6 +1018,8 @@ a.data-source:hover { border-color: #6b9bc7; }
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; margin: 0;
 }
 .notes-empty { padding: 40px 20px; text-align: center; color: #888; font-size: 13px; }
+.notes-loading { padding: 40px 20px; display: flex; flex-direction: column; align-items: center; gap: 14px; color: #888; font-size: 13px; grid-column: 1 / -1; }
+.notes-loading .spinner { width: 32px; height: 32px; border-width: 3px; margin-bottom: 0; }
 .notes-muted { color: #777; font-size: 12px; }
 .notes-muted code { background: #23233f; border: 1px solid #3a3a5e; border-radius: 4px; padding: 1px 6px; font-size: 11px; color: #cfe3f5; }
 
@@ -1051,7 +1061,7 @@ a.data-source:hover { border-color: #6b9bc7; }
 /* Lightbox */
 .notes-lb-top {
   display: flex; align-items: center; gap: 10px; padding: 10px 14px;
-  border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0; flex-wrap: wrap;
+  border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0; flex-wrap: nowrap;
 }
 .notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
   background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px;
@@ -1130,16 +1140,57 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-ann-tools { display: flex; gap: 6px; flex-wrap: wrap; }
 .notes-ann-tools button { background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px; font-size: 11.5px; padding: 5px 9px; cursor: pointer; font-family: inherit; }
 .notes-ann-colors { display: flex; gap: 6px; }
-/* "Clear" button in the Annotations section header */
+/* "Clear" button — sits inline with the last tool (A Label) in the tools row,
+   pushed to the very right via margin-left:auto. Disabled until the current
+   page has an annotation (see renderAnnotations). */
 #notes-lb-ann-clear {
-  background: none; border: 1px solid #3a3a5e; color: #9a9ab0;
-  border-radius: 6px; font-size: 11.5px; padding: 3px 9px; cursor: pointer; font-family: inherit;
-  transition: border-color 0.15s, color 0.15s;
+  margin-left: auto; align-self: center;
+  background: #e2534a; border: 1px solid #e2534a; color: #fff;
+  border-radius: 6px; font-size: 13px; padding: 6px 16px; cursor: pointer; font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
 }
-#notes-lb-ann-clear:hover { border-color: #ff6b6b; color: #ff6b6b; }
+#notes-lb-ann-clear:hover { background: #c23d35; border-color: #c23d35; color: #fff; }
+#notes-lb-ann-clear:disabled { background: #3a3a5e; border-color: #3a3a5e; color: #9a9ab0; cursor: default; }
+
+/* Annotation label input modal */
+#notes-label-modal {
+  position: fixed; inset: 0; z-index: 600;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px; background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(3px);
+}
+#notes-label-modal[hidden] { display: none; }
+.notes-label-box {
+  width: 100%; max-width: 380px; background: #1a1a2e; border: 1px solid #3a3a5e;
+  border-radius: 10px; box-shadow: 0 12px 48px rgba(0,0,0,0.6); padding: 16px;
+  display: flex; flex-direction: column; gap: 12px;
+}
+#notes-label-input {
+  background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
+  padding: 8px 10px; font-size: 14px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+#notes-label-input:focus { outline: none; border-color: #4E79A7; }
+.notes-label-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.notes-label-actions button {
+  border-radius: 6px; font-size: 13px; padding: 7px 16px; cursor: pointer; font-family: inherit;
+}
+#notes-label-cancel { background: none; border: 1px solid #3a3a5e; color: #9a9ab0; }
+#notes-label-cancel:hover { border-color: #4E79A7; color: #e0e0e0; }
+#notes-label-ok { background: #4E79A7; border: 1px solid #4E79A7; color: #fff; }
+#notes-label-ok:hover { background: #5d8bbd; border-color: #5d8bbd; }
 .notes-ann-colors button { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #3a3a5e; cursor: pointer; padding: 0; }
 .notes-ann-colors button.active { border-color: #fff; }
-.notes-ann-download { align-self: flex-end; }
+/* Download button: a small icon button that sits inline in the zoom cluster,
+   to the right of the View button. Matches the Fit/View button look. */
+.notes-ann-download {
+  width: 30px; height: 30px; padding: 0;
+  background: rgba(16, 16, 30, 0.85); backdrop-filter: blur(3px);
+  border: 1px solid #3a3a5e; border-radius: 6px; color: #9a9ab0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: inherit; font-size: 12px; cursor: pointer;
+}
+.notes-ann-download:hover {
+  background: rgba(16, 16, 30, 0.85); border-color: #4E79A7; color: #e0e0e0;
+}
 
 /* The `hidden` attribute must win over the layout display rules below
    (author styles otherwise override the UA `[hidden] { display:none }`). */

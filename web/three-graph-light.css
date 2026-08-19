@@ -398,6 +398,7 @@ body {
 .notes-badge.draft { color: #B45309; }
 .notes-ocr-snip { color: #7C8698; }
 .notes-empty { color: #7C8698; }
+.notes-loading { color: #7C8698; }
 .notes-muted { color: #7C8698; }
 .notes-muted code { background: #F6F3EC; border-color: #E2DCCE; color: #22304A; }
 .notes-drop { border-color: #CCC5B2; background: #F6F3EC; color: #7C8698; }
@@ -419,7 +420,16 @@ body {
 .notes-lb-nav button { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(3px); }
 .notes-lb-imgwrap { background: #ECE8DD; }
 .notes-lb-zoom button { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(3px); }
+/* Download icon floating over the image — match the Fit/View zoom buttons */
+.notes-ann-download { background: rgba(255, 255, 255, 0.9); border-color: #CCC5B2; color: #7C8698; }
+.notes-ann-download:hover { background: rgba(255, 255, 255, 0.9); border-color: #0F766E; color: #22304A; }
 .notes-lb-pages { background: #F6F3EC; border-top-color: #E2DCCE; }
+#notes-lb-ann-clear:disabled { background: #E2DCCE; border-color: #E2DCCE; color: #9AA4B3; }
+.notes-label-box { background: #F6F3EC; border-color: #CCC5B2; }
+#notes-label-input { background: #FFFFFF; color: #22304A; border-color: #CCC5B2; }
+#notes-label-input:focus { border-color: #0F766E; }
+#notes-label-cancel { border-color: #CCC5B2; color: #7C8698; }
+#notes-label-cancel:hover { border-color: #0F766E; color: #22304A; }
 .notes-lb-pages button img { opacity: 0.75; }
 .notes-lb-pages button.page-active { border-color: #0F766E; }
 .notes-lb-side { border-left-color: #E2DCCE; }

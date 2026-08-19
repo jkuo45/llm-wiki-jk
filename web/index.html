@@ -251,11 +251,6 @@
       <div class="notes-lb-top">
         <button id="notes-lb-back" title="Back to gallery / 返回圖庫">&larr; Gallery</button>
         <div class="notes-lb-title" id="notes-lb-title"></div>
-        <div class="notes-lb-actions">
-          <button id="notes-lb-edit" title="Edit metadata / 編輯資料">Edit</button>
-          <button id="notes-lb-graph" title="Focus entities on the graph / 圖中聚焦實體">Graph</button>
-          <button id="notes-lb-doc" title="Open linked document / 開啟來源論文">Document</button>
-        </div>
       </div>
       <div class="notes-lb-body" id="notes-lb-body">
         <div class="notes-lb-stage">
@@ -270,6 +265,7 @@
               <button id="notes-lb-zoomout" title="Zoom out">&minus;</button>
               <button id="notes-lb-fit" title="Fit / 重設">Fit</button>
               <button id="notes-lb-view" type="button" title="Fullscreen view of the note / 全螢幕檢視">⛶ View</button>
+              <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
             </div>
           </div>
           <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image / 下一張" disabled>&rarr;</button></div>
@@ -284,15 +280,15 @@
           <div id="notes-lb-entities" class="notes-chip-row"></div>
           <div class="at-h">Tags</div>
           <div id="notes-lb-tags" class="notes-chip-row"></div>
-          <div class="at-h">
+          <div class="at-h" id="notes-ann-start">
             <span>Annotations</span>
-            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page">Clear</button>
           </div>
           <div class="notes-ann-tools">
             <button data-tool="circle" title="Circle highlight">∘ Circle</button>
             <button data-tool="rect" title="Rectangle highlight">▭ Rect</button>
             <button data-tool="arrow" title="Arrow">→ Arrow</button>
             <button data-tool="label" title="Text label">A Label</button>
+            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page">Clear</button>
           </div>
           <div class="notes-ann-colors" id="notes-ann-colors">
             <button data-color="#ffcc00" style="background:#ffcc00" title="Yellow"></button>
@@ -301,9 +297,20 @@
             <button data-color="#ff7b72" style="background:#ff7b72" title="Red"></button>
             <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple"></button>
           </div>
-          <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in">Download with annotations</button>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- Annotation label input modal -->
+<div id="notes-label-modal" hidden>
+  <div class="notes-label-box">
+    <div class="at-h">Add Label</div>
+    <input id="notes-label-input" type="text" placeholder="Label text" autocomplete="off" maxlength="120">
+    <div class="notes-label-actions">
+      <button id="notes-label-cancel" type="button">Cancel</button>
+      <button id="notes-label-ok" type="button">Add</button>
     </div>
   </div>
 </div>

@@ -3,9 +3,8 @@
 // The upload screen (files) is hidden for now. Sibling of the
 // analysis (#chat) panel.
 
-import { RAW_NODES, descByLabel, noteUrl, githubSourceUrl } from './data.js';
+import { descByLabel, noteUrl } from './data.js';
 import { esc, renderMarkdown } from './markdown.js';
-import { selectNode } from './interaction.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
 
@@ -49,9 +48,6 @@ const lbBack = $('notes-lb-back');
 const lbTitle = $('notes-lb-title');
 const lbView = $('notes-lb-view');
 const lbBody = $('notes-lb-body');
-const lbEdit = $('notes-lb-edit');
-const lbGraph = $('notes-lb-graph');
-const lbDoc = $('notes-lb-doc');
 const lbImg = $('notes-lb-img');
 const lbSvg = $('notes-lb-svg');
 const lbZoomable = $('notes-lb-zoomable');
@@ -65,6 +61,10 @@ const lbTags = $('notes-lb-tags');
 const annDownload = $('notes-lb-ann-download');
 const annClear = $('notes-lb-ann-clear');
 const annColors = $('notes-ann-colors');
+const labelModal = $('notes-label-modal');
+const labelInput = $('notes-label-input');
+const labelOk = $('notes-label-ok');
+const labelCancel = $('notes-label-cancel');
 const zoomIn = $('notes-lb-zoomin');
 const zoomOut = $('notes-lb-zoomout');
 const fitBtn = $('notes-lb-fit');
@@ -89,7 +89,6 @@ let annTool = null;          // circle | rect | arrow | label
 let annColor = '#ffcc00';
 let drawing = null;          // in-progress shape
 let panning = null;
-let editMode = false;
 let viewMode = false;        // fullscreen image view (side details hidden)
 
 let draftFiles = [];         // { file, thumb }
@@ -200,7 +199,7 @@ document.addEventListener('keydown', (e) => {
 async function loadIndex() {
   loading = true;
   apiDown = false;
-  renderGallery();
+  renderGallery(); // show the loading spinner while the fetch is in flight
   try {
     const resp = await fetch(NOTES_API);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
@@ -208,19 +207,15 @@ async function loadIndex() {
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
     populatePickers();
-    // Mark the index as loaded BEFORE rendering so the post-fetch gallery
-    // render actually draws the cards (previously it bailed early, showing
-    // the placeholder until a later filter re-render).
     loaded = true;
-    renderGallery();
   } catch (err) {
     apiDown = true;
     notes = [];
     documents = [];
-    renderGallery();
     console.warn('notes index failed:', err);
   } finally {
     loading = false;
+    renderGallery(); // draw the real content (or empty/error state) now
   }
 }
 
@@ -272,6 +267,11 @@ function renderGallery() {
     galleryEl.innerHTML = '';
     emptyEl.hidden = false;
     emptyEl.textContent = 'Notes API unreachable — could not load notes.';
+    return;
+  }
+  if (loading) {
+    galleryEl.innerHTML = '<div class="notes-loading"><span class="spinner"></span><span>Loading notes…</span></div>';
+    emptyEl.hidden = true;
     return;
   }
   if (!list.length) {
@@ -399,12 +399,10 @@ function renderLightbox() {
   if (!n) return;
   lbTitle.textContent = n.title;
   lbTitle.title = n.title;
-  lbDoc.disabled = !n.document;
   renderPagesStrip();
   setPage(currentPage);
   renderOcr();
   renderChips();
-  renderEditMode(false);
   renderAnnotations();
 }
 
@@ -441,14 +439,43 @@ function setPage(page) {
   renderPagesStrip();
 }
 
+// The bottom filmstrip mirrors the lightbox's ←/→ navigation, which steps
+// through EVERY image in the current (filtered) gallery — not just one note's
+// pages. So it renders all gallery images, highlights the one being viewed,
+// and clicking any thumbnail jumps to it.
 function renderPagesStrip() {
-  const pages = currentNote.pages || [];
-  lbPages.innerHTML = pages.map((p) =>
-    `<button class="${p.page === currentPage ? 'page-active' : ''}" data-page="${p.page}" title="Page ${p.page}">
-      <img src="${esc(imageUrl(currentNote, p.page, true))}" alt="Page ${p.page}" loading="lazy" decoding="async">
-    </button>`).join('');
+  const entries = imageEntries();
+  if (!entries.length) {
+    lbPages.innerHTML = '';
+    return;
+  }
+  const curIdx = currentImageIndex();
+  lbPages.innerHTML = entries.map((e, i) => {
+    const multi = (e.note.pages || []).length > 1;
+    const label = multi
+      ? `${e.note.title} · page ${e.page}`
+      : e.note.title;
+    return `<button class="${i === curIdx ? 'page-active' : ''}" data-idx="${i}" title="${esc(label)}">
+      <img src="${esc(imageUrl(e.note, e.page, true))}" alt="${esc(label)}" loading="lazy" decoding="async">
+    </button>`;
+  }).join('');
   lbPages.querySelectorAll('button').forEach((b) =>
-    b.addEventListener('click', () => changePage(parseInt(b.dataset.page, 10))));
+    b.addEventListener('click', () => goToImage(parseInt(b.dataset.idx, 10))));
+  // Keep the active thumbnail in view so the filmstrip tracks navigation.
+  const activeBtn = lbPages.querySelector('.page-active');
+  if (activeBtn) activeBtn.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+}
+
+// Jump the lightbox to a specific gallery image (filmstrip thumbnail click).
+function goToImage(idx) {
+  const entries = imageEntries();
+  const target = entries[idx];
+  if (!target) return;
+  if (target.note.id !== currentNote?.id) {
+    currentNote = target.note;
+    renderLightbox();
+  }
+  changePage(target.page);
 }
 
 // Flip to a specific page and persist it in the URL hash (replaceState — page
@@ -586,8 +613,7 @@ function finishDraw() {
   drawing = null;
   if (!d) return;
   if (d.tool === 'label') {
-    const text = window.prompt('Label text:', '');
-    if (text && text.trim()) addAnnotation({ type: 'label', x: d.start.x, y: d.start.y, label: text.trim() });
+    openLabelModal(d.start);
     return;
   }
   const ex = d.end.x, ey = d.end.y;
@@ -652,6 +678,8 @@ function addAnnotation(ann) {
 }
 
 function renderAnnotations() {
+  // Clear is only actionable once the current page has at least one annotation.
+  annClear.disabled = !(currentNote && (currentNote.annotations || []).some((a) => a.page === currentPage));
   lbSvg.innerHTML = '';
   if (!naturalW || !naturalH || !currentNote) return;
   if (!lbSvg.querySelector('defs')) lbSvg.appendChild(ARROW_MARKER);
@@ -705,6 +733,36 @@ annClear.addEventListener('click', () => {
   if (!currentNote) return;
   currentNote.annotations = (currentNote.annotations || []).filter((a) => a.page !== currentPage);
   renderAnnotations();
+});
+
+// ------------------------------------------------------------
+// Label text input modal (replaces window.prompt)
+// ------------------------------------------------------------
+let pendingLabel = null; // { x, y } normalized tap point for the label
+
+function openLabelModal(start) {
+  pendingLabel = start;
+  labelInput.value = '';
+  labelModal.hidden = false;
+  setTimeout(() => labelInput.focus(), 0);
+}
+function closeLabelModal() {
+  labelModal.hidden = true;
+  pendingLabel = null;
+}
+function commitLabel() {
+  const text = labelInput.value.trim();
+  if (text && pendingLabel) {
+    addAnnotation({ type: 'label', x: pendingLabel.x, y: pendingLabel.y, label: text });
+  }
+  closeLabelModal();
+}
+labelOk.addEventListener('click', commitLabel);
+labelCancel.addEventListener('click', closeLabelModal);
+labelModal.addEventListener('click', (e) => { if (e.target === labelModal) closeLabelModal(); });
+labelInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { e.preventDefault(); commitLabel(); }
+  else if (e.key === 'Escape') { e.preventDefault(); closeLabelModal(); }
 });
 
 function drawAnnotationsToCanvas(ctx, W, H) {
@@ -833,69 +891,6 @@ function renderChips() {
     ? tags.map((t) => `<span class="notes-chip tag-chip">#${esc(t)}</span>`).join('')
     : '<span class="notes-muted">none</span>';
 }
-
-lbGraph.addEventListener('click', () => {
-  if (!currentNote) return;
-  const names = (currentNote.entities || []).map((e) => String(e).toLowerCase());
-  let found = null;
-  for (const node of RAW_NODES) {
-    if (names.includes(node.label.toLowerCase())) { found = node; break; }
-  }
-  if (!found) {
-    setStatus('No entities from this note exist in the graph.', false);
-    return;
-  }
-  selectNode(found.id);
-});
-
-// ------------------------------------------------------------
-// Metadata edit (lightbox)
-// ------------------------------------------------------------
-function renderEditMode(mode) {
-  editMode = mode;
-  lbEdit.textContent = mode ? 'Done' : 'Edit';
-  if (!mode) { renderChips(); return; }
-  lbEntities.innerHTML = `<input class="notes-edit-input" id="lb-entities-input" value="${esc((currentNote.entities || []).join(', '))}" list="notes-entity-list" placeholder="SIRT1, NAD+">`;
-  lbTags.innerHTML = `<input class="notes-edit-input" id="lb-tags-input" value="${esc((currentNote.tags || []).join(', '))}" placeholder="aging, metabolism">`;
-  const done = () => {
-    const ents = tokens($('lb-entities-input').value);
-    const tagsIn = tokens($('lb-tags-input').value).map((t) => t.toLowerCase().replace(/ /g, '-'));
-    saveMetadata(ents, tagsIn);
-  };
-  $('lb-entities-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') done(); });
-  $('lb-tags-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') done(); });
-}
-lbEdit.addEventListener('click', () => renderEditMode(!editMode));
-
-async function saveMetadata(entities, tags) {
-  lbEdit.disabled = true;
-  try {
-    const resp = await fetch(`${NOTES_API}/${encodeURIComponent(currentNote.id)}/metadata`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ entities, tags }),
-    });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const updated = await resp.json();
-    Object.assign(currentNote, updated);
-    syncGalleryNote(currentNote);
-    renderEditMode(false);
-    renderLightbox();
-    setStatus('Metadata saved.', true);
-  } catch (err) {
-    renderEditMode(false);
-    setStatus('Failed to save metadata.', false);
-    console.warn('metadata save failed:', err);
-  } finally {
-    lbEdit.disabled = false;
-  }
-}
-
-lbDoc.addEventListener('click', () => {
-  if (!currentNote || !currentNote.document) return;
-  const url = githubSourceUrl(currentNote.document);
-  if (url) window.open(url, '_blank', 'noopener');
-});
 
 // ------------------------------------------------------------
 // Upload
