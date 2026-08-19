@@ -1,0 +1,2206 @@
+[
+  {
+    "id": "n-20260818-ivermectin-21-may-2026-00",
+    "title": "Ivermectin - 21_MAY_2026-00",
+    "topic": "cancer",
+    "document": "_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md",
+    "entities": [
+      "@cancer",
+      "@ivermectin",
+      "@fenbendazole"
+    ],
+    "tags": [
+      "notes",
+      "apoptosis",
+      "cell-death",
+      "cancer",
+      "mitochondria"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "page-1.jpeg"
+      }
+    ],
+    "ocr": "Apoptosis\n\n03/21/26\nThursday\n\nApoptosis – programmed cell death that is regulated by genes & is a normal cell death.\n\n- Involves two central pathways:\n1. intrinsic (endoplasmic reticulum stress / mitochondrial) pathway\n2. extrinsic death receptor pathway\n- The decrease in mitochondrial membrane potential and the release of cytochrome c / caspases from mitochondria into the cytoplasm was detected after the activation of BIM in HeLa cells.\n- Morphological changes caused by apoptosis:\n- Chromatin condensation\n- Nuclear fragmentation\n- DNA degradation\n- Apoptotic cell, however, are observed\n- ↓M changes the balance between pro-apoptotic-related proteins by upregulating pro-apoptotic protein Bax and down regulating anti-apoptotic protein Bcl-2. Therefore, activating caspase 9 & 3 to induce apoptosis.\n- Cancer cells exposure to BIM causes:\n- generate ROS generation\n- reduce membrane potential of mitochondria\n- can upregulate Bax and down regulate Bcl-2\n- promote heterochromatin & chromosome contraction\n- Cascade of apoptotic factors are triggered\n\nApoptosis → lysosome-dependent form of programmed cell death.\n- eliminate superfluous organelles in the cytoplasm to prevent [illegible]\n- double layered or multi layered nuclear structures [illegible]\n- ... cytoplasmic components (apoptosis)\n- ... used in tumor development\n- Apoptosis can help tumor adapt to the nutritional deficiency ... and lead a certain extent to protect tumor cells from chemotherapy- or radiotherapy-induced [stress]",
+    "ocr_lang": "en",
+    "annotations": [
+      {
+        "id": "amsz272s0xnav",
+        "type": "circle",
+        "page": 1,
+        "color": "#ffcc00",
+        "label": "",
+        "x": 0.2932251060080776,
+        "y": 0.4079091313477259,
+        "r": 0.11967773324800782
+      }
+    ],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T19:30:39+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T22:07:48+00:00"
+  },
+  {
+    "id": "n-20260818-graph-analysis-creatine-mb-prompt-00",
+    "title": "Graph analysis — Creatine vs Methylene Blue (prompt)",
+    "topic": "creatine",
+    "document": "",
+    "entities": [
+      "Creatine",
+      "Methylene Blue"
+    ],
+    "tags": [
+      "graph-analysis",
+      "creatine",
+      "methylene-blue",
+      "cognition"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "graph_analysis_creatine_mb_prompt.png"
+      }
+    ],
+    "ocr": "--- Page 1 ---\nAnalyze the mechanism from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed Graphify Wiki retrieval.\n\nFilter (53)\n@Creatine x @Cognition x @Methylglyoxal (MG) x @Exercise Performance x @Muscle Mass x @Nutraceuticals x @Creatine Phosphate x @Phosphocreatine (PCr) x @Dietary Supplement x @Skeletal Muscle x @Amino Acids x @Arginine x @Glycine x @Cancer Metabolism x @Spinal Cord Injury (SCI) x @ADP x @Creatine Kinase x @Creatine Synthesis Deficiency x @MTHFR function x @Methylene Blue x @NAD+ x @Hemolysis x @Serotonin Syndrome x @Dose-dependent Toxicity x @Glucose Oxidase x @Serotonin x @Selective Serotonin Reuptake Inhibitors x @Pulse Oximetry x @Phenothiazine x @Glucose-6-Phosphate Dehydrogenase x @Methemoglobin Reductase x @Antimalarial Agent x @Intraoperative Staining x @Glutamate x @Iodoacetic Acid x @Mitochondrial Superoxide x @Fosthamidine-Induced Encephalopathy x @G6PD deficiency.\n\nAnalyze and compare these two node sets:\nSet A: @Creatine\nSet B: @Methylene Blue. What pathways, mechanisms, or biological themes connect or distinguish them?",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T22:03:45+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T22:03:45+00:00"
+  },
+  {
+    "id": "n-20260818-graph-analysis-creatine-mb-node-sets-00",
+    "title": "Graph analysis — Creatine vs Methylene Blue (node sets)",
+    "topic": "creatine",
+    "document": "",
+    "entities": [
+      "Creatine",
+      "Methylene Blue"
+    ],
+    "tags": [
+      "graph-analysis",
+      "creatine",
+      "methylene-blue",
+      "cognition"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "graph_analysis_creatine_mb_node_sets.png"
+      }
+    ],
+    "ocr": "--- Page 1 ---\nAnalysis 分析\n\nFilter (53) - Checkbox\nAdrenochrome 肾上腺素红 - deg 60\n\nCONNECTORS / BRIDGES\nNicotinamide Riboside 烟酰胺核苷 β 0.034 - 28 comm A B\nTFEB 转录因子EB β 0.034 - 13 comm A B\nMethylene Blue 亚甲蓝 β 0.031 - 20 comm A B\nNeuromelanin 神经黑色素 β 0.030 - 14 comm A B\nParkinson's Disease 帕金森氏症 β 0.029 - 14 comm A B\nAutophagy 自噬 β 0.028 - 21 comm A B\nAMPK AMP活化蛋白激酶 β 0.026 - 16 comm A B\n\nCOMPARE TWO NODE SETS\nAdd nodes - or entire communities - to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths.\nPress [Enter] to run the comparison.\n\nSet A: Creatine (27)\nSet B: Methylene Blue (24)\nNeighborhood (incl. neighbors): A: 42 - B: 47\nShared neighborhood: 4 - Jaccard: 0.047\n\nShortest A -> B\nCognition -> Methylene Blue - 1\nCognition -> NADH - 2\nCognition -> Complex III - 2\nCognition -> Mitochondrial Electron Transport Chain - 2\nCognition -> Hemolysis - 2\n\n[Save]\n\nNetwork graph visualization: nodes color-coded (blue/purple) for the two node sets (Creatine and Methylene Blue); connecting lines represent relationships.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T22:03:45+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T22:03:45+00:00"
+  },
+  {
+    "id": "n-20260818-gr1-autophagosomes-00",
+    "title": "Autophagy pathway figure (GR1)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "Autophagy",
+      "LC3",
+      "ULK1",
+      "ATG7",
+      "Lysosome"
+    ],
+    "tags": [
+      "autophagy",
+      "macroautophagy",
+      "autophagosome"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "gr1_autophagosomes.jpg"
+      }
+    ],
+    "ocr": "Figure: Autophagy pathway (GR1)\n\nMain text labels:\n- Autophagy stimulus\n- Cytoplasm\n- Degradation of cargo within autolysosome\n\nAnatomy of the pathway:\n- ULK1 complex\n- VPS34 complex\n- ATG12/ATG7 complex\n- ATG3/ATG16L1 complex\n- LC3-I → PE (Phosphatidylethanolamine) → LC3-II\n- Phagophore nucleation → Phagophore expansion → Autophagosome formation\n- Cargo\n- Lysosome\n- Autophagosome-lysosome fusion\n- Degradation of cargo within autolysosome",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T22:32:54+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T22:32:54+00:00"
+  },
+  {
+    "id": "n-20260818-metabolic-fasting-autophagy-00",
+    "title": "Metabolic Fasting & Autophagy (IMG_6170)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "Metabolic Fasting",
+      "Autophagy",
+      "AMPK",
+      "mTORC1",
+      "Insulin"
+    ],
+    "tags": [
+      "autophagy",
+      "fasting",
+      "metabolism",
+      "notes",
+      "ampk",
+      "mtor",
+      "insulin"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6170.jpeg"
+      }
+    ],
+    "ocr": "Increased insulin responsiveness can reflect both increased autophagy response and abnormal reduction of autophagosome formation. Therefore, the increase of pro-autophagy autophagosomes does not necessarily mean a complete autophagy response.\n\nMetabolic Fasting (MF) — mechanisms by which it can regulate autophagy. It's a central regulator between starvation and autophagy induction via deactivation of AMPK and further interruption until AMP ...\n\n- Once the intracellular concentration of ATP and glucose drop below the normal values, the elevation of AMP promotes the allosteric changes in AMPK and its enzyme activity.\n- AMPK actively inhibits mTORC1 and protein synthesis to minimize ATP consumption, by controlling glycolytic and gluconeogenic (for carbon source) / AMP, glucose feedback processes.\n- Acetyl-CoA carboxylation to trigger the oxidation of fatty acids; phosphorylation for AMP (levels-coexpressing fatty acid glycerols at the expression level).\n\nRegulation by data: supports the fact that insulin inhibits the autophagy machinery intrinsically via the activation of mTORC1 ...\n\n- High glucose condition => stimulate fast star stage!\n- It's possible that the community of hypometabolic conditions lead to an abnormal (expressive) autophagy response.\n- Presence of common effect responses between glucose metabolism, insulin signaling pathway and autophagy under several conditions.\n\nRole of IF: The bluegraphical shape of ATP synthesis is related to leveraging short-term fasting and protein effect in processes active & responsive in deep-time protein ...",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T22:32:54+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T22:32:54+00:00"
+  },
+  {
+    "id": "n-20260818-if-anti-aging-benefit-00",
+    "title": "Hypothetical Anti-Aging Benefit of IF (IMG_6175)",
+    "topic": "senescence",
+    "document": "",
+    "entities": [
+      "Intermittent Fasting",
+      "Calorie Restriction",
+      "Autophagy",
+      "Stem Cells"
+    ],
+    "tags": [
+      "aging",
+      "fasting",
+      "senescence",
+      "notes",
+      "cancer",
+      "calorie-restriction",
+      "stem-cells"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6175.jpeg"
+      }
+    ],
+    "ocr": "Hypothetical – Anti-Aging Benefit of IF\n\nObstacle – IF may be an alternative method to conventional therapies (particularly expensive oncologic properties and even increasing cancer patient's reliance on chemotherapy).\n\nNeed for benefits of IF: It is argued healthy cells are more resilient to chemotherapeutic threats; the intensity of all targeted side effects is less than conventional patients who have undergone lasting & profound effects of IF.\n\nThe depletion of normal cells to create reservoirs leads to consumption of ATP for maintenance and regenerated purposes rather than ...\n\nIn vivo, the reduction in several cancerous processes (molecular pathways) increases the protean and thus cell sensibility to chelation therapy; protect against side effects of IF – oral mucositis and immune suppression.\n\nPossibly many take place into multiple schemes.\n\nStem cell dynamic growth and function.\n- These cells can resist the depletion of damaged cells and replace lost cells.\n- The conditions of normal muscles are coupled to elimination of age-related changes like increased developed healthy capacity under ischemic state.\n\nCytological – Calorie Restriction is chiefly may not be a good strategy\n\nFor P2: To eliminate the intracellular inclusion bodies like the complex autophagy machinery.\n\nCells can reduce functions but regulate energy reduction acceptance. - in a timeframe, or even rate of reduction is a prolonged type, - depletion which further increases ATP consumption. - Smaller size conditioned by micronutrient supply is targeted to the processes of another cellular area.\nMembrane changes are visible dependent upon fate of the cells found noticeable symptoms rather than depleted of ATP & fewer dead.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T22:32:54+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T22:32:54+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-epinephrine-notes-00",
+    "title": "Adrenaline → Adrenochrome formation & chemical stability (IMG_6183)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Reactive Oxygen Species",
+      "Oxidative Stress",
+      "Oxidation"
+    ],
+    "tags": [
+      "adrenochrome",
+      "oxidative-stress",
+      "notes",
+      "epinephrine",
+      "oxidation",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6183.jpeg"
+      }
+    ],
+    "ocr": "Adrenaline\n\nTherapeutic Side Effects (Effects)\nStress → Epinephrine (Adrenalin)\n- benzene ring with two attached hydroxyl groups & a side chain containing a secondary amine group hydrocarbon.\n- oxidation of alcohol\n- has six BH groups lose electrons (red hydrogen peroxide) makes O-glucose (ortho glucose) intermediate reactive.\nCyclization → side chains around other alters the glucose into aldehyde, leading to ring closure and formation of the molecule (fixed the membrane nitrogen amino structure).\n→ adrenochrome, induced with oxidants like silver oxide (Ag2O), potassium permanganate, or even in vitro water at halide conditions.\n- by the body, dimer by ROS (reactive oxygen species).\nSuperoxide: amine/red hydrogen peroxide (H2O2)\n- dark colors (typically) to reduce the alcohol.\n- enzymes like hydride macrophages (Macrophages or systems generating radicals) can autocatalyze, altering related intermediates such as a sulfhydryl radical of epinephrine.\n- this pathway becomes more noticeable under oxidative stress (hypoxic, ischemia-reperfusion toxic period, certain diseases).\n\nChemical Stability → oxidative step\n\n↑ Control -> pH control (epinephrine most stable in an acidic environment)\n↑ reducing agents -> pH control\n↑ metal catalysts -> compounds like ascorbic acid / uric acid (pot.)\n↑ Temperature -> glutathione, sulfide, methanol etc. (more soluble in oxygen)\n& Glutathione -> development protein\n↑ Maybe able of red color -> \"oxime\" structure electrons, the hydroxyl groups on the side chain ring are promoted (metal on to methylene agent).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T23:07:08+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T23:07:08+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-redox-pathway-00",
+    "title": "Chemical pathway & redox mechanism of adrenochrome formation (IMG_6193)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Adrenaline-quinone",
+      "Leuco-adrenochrome"
+    ],
+    "tags": [
+      "adrenochrome",
+      "redox",
+      "epinephrine",
+      "oxidation",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6193.jpeg"
+      }
+    ],
+    "ocr": "CHEMICAL PATHWAY AND REDOX MECHANISM OF ADRENOCHROME FORMATION\n從腎上腺素至腎上腺色素形成的化學途徑和氧化還原機制\n\n1. EPINEPHRINE (ADRENALINE) | 腎上腺素\n2. ADRENALINE-QUINONE (highly reactive electrophile) 腎上腺素酮 (高度反應性親電體)\n3. LEUCO-ADRENOCHROME (\"WHITE\") 腎上腺素 (還原形，\"白色\") (S)-1-Methylindole-3,5,6-triol\n4. ADRENOCHROME (Distinctly colored red/pink/orange) 腎上腺素 (具有特殊性的紅色/粉色/橙色)\nExtended Conjugated System 擴展共軛系統\n\nDiagram: flowchart-style diagram illustrating the chemical pathway from epinephrine to adrenochrome. Highlights key steps including oxidation, cyclization and reduction, along with redox mechanisms. Rectangles represent molecules; curved arrows indicate reaction pathways; colored circles/shapes represent different forms of adrenochrome (white, red/pink/orange) and the extended conjugated system.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-18T23:07:08+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-18T23:07:08+00:00"
+  },
+  {
+    "id": "n-20260818-spermidine-autophagy-00",
+    "title": "Spermidine — physiological autophagy inducer (IMG_6162)",
+    "topic": "spermidine",
+    "document": "",
+    "entities": [
+      "Spermidine",
+      "Autophagy",
+      "Mitochondria"
+    ],
+    "tags": [
+      "spermidine",
+      "autophagy",
+      "aging",
+      "polyamines",
+      "notes",
+      "mitochondria"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6162.jpeg"
+      }
+    ],
+    "ocr": "Spermidine – Physiological Autophagy Inducer\n\n09/18/92 (Thursday)\n- Natural polyamine that stimulates cytoskeletal macroautophagy.\n- External supplementation of spermidine (levels dependent) and health span across several years/decades.\n- It enhances spermidine levels (which decrease with aging), and a possible connection between reduced endogenous spermidine concentrations and age-related dementias has been suggested.\n- Increased levels of spermidine (with spermidine ADDs) diminishes overall mortality (associated with AD and cancer).\n\nSpermidine – A natural polyamine critically involved in the maintenance of cellular homeostasis.\n- Cellular biological process\n- Cell growth and proliferation\n- Tissue morphogenesis – regulation of homeostasis\n- DNA/RNA stabilization\n- Anti-inflammatory and anti-oxidant properties\n- Enhances mitochondrial metabolism (further respiration)\n- Promotes chaperone activity and [un?]proteases\n- Official supplementation of spermidine exerts various beneficial effects on aging / age-related diseases.\n- Many anti-aging properties have been [attributed to] the consistency of spermidine to ensure proteases through the humblest of cytoprotective macroautophagy.\n\nSpermidine induces autophagy through the reduction of cellular [stress/autophagy induction].\n- This theory has been recently granted to be [related] to that of mammals.\n- In case of poisoning (levels dramatically correlated; organisms are highly depleted).\n- One commodity of the tissue in conditions of spermidine deficiencies (muscle, fat tissue, etc.).\n- Key agents – role of spermidine levels (an antioxidant) (aging and certain levels relate to older individuals).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-spermidine-levels-00",
+    "title": "Spermidine levels, absorption & polyamine sources (IMG_6163)",
+    "topic": "spermidine",
+    "document": "",
+    "entities": [
+      "Spermidine"
+    ],
+    "tags": [
+      "spermidine",
+      "polyamines",
+      "metabolism",
+      "notes",
+      "nutrition"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6163.jpeg"
+      }
+    ],
+    "ocr": "Spermidine\n\nThe apical concentration of spermidine in the human stomach, and the distal absorptive levels, shortly after, have still absorbed to some degree.\n\nIn principle, spermidine's broadest activity is [defined] by the three essential sources:\n1. Cellular [autophagy]\n2. Production of urinary [amines]\n3. Nutritional supply\n\nObservations / Unanswered questions?\nWith age, [spermidine's] reproductive consequences diminish due to cellular increases of several versions of the [amine]. The decline also is exacerbated by the substance's viscosity. It is readily absorbed by polyamine-rich plant parts, [products like] spermidine, and [found in certain foods].\n\nWith [certain cells], spermidine is [taken up] prior to proper deliverance (combines, or by oxidative degradation of spermidine). The apical spermidine content further depends on its collection, which is mainly driven by [transporters] and other [mechanisms]; by the time it is [taken up] from the extracellular space and its excretory cells – may be reduced by membrane transport, and its excretory cells (one, ongoing, yeast cell bacteria, but could also absorb glucose) – still, polyamine transport is variable, and results need further examination.\n\nMarginal microbial [contributions] render another source of spermidine synthesis within our body.\n\nConcentration of spermidine is directly dependent on the color of urine. When [low?] has been shown to – [illegible]",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-phenethylamine-00",
+    "title": "Phenethylamine — systemic effects & strategies (IMG_6164)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Phenethylamine"
+    ],
+    "tags": [
+      "polyamines",
+      "neurochemistry",
+      "phenethylamine",
+      "notes",
+      "monoamine"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6164.jpeg"
+      }
+    ],
+    "ocr": "Permissive\n- Agents can beat may regulate polymodal concentration in the human prefrontal.\n- Agazine may be considered as a previable for stimulating or modulating sympathetic [pathways].\n- At low levels of phenethylamine, phenethylamine can be up regulated through oral administration of the polyamine – namely, polyamine based solution.\n- Effects can be enhanced by combined use of additional supplemental agent (could be considered prohibitive).\n\nOther Strategies\n- Physiological pathways involved in buffering or integration of phenethylamine molecules by various circuits (e.g., mesolimbic, septal, etc.).\n\nAralkyl Amine\n- Phenethylamine is relatively non-toxic from the intestinal tract and distributed in the body into secondary [compartments].\n- Low levels can have significant systemic content and can contribute to the pharmacodynamic behavior of the phenethylamine.\n- Additional effects include reduced appetite, poorer sleep, and alertness.\n- Effects on systemic levels: levels of phenethylamine are intermittently discharged further directly by the injection of polyamine such as, for example, or delivery of either of the dose of the phenethylamine profoundly increases.\n\nThe use of phenethylamine is to elevate systemic spritual levels.\n- Humans beings may contribute a primary strategy for promoting healthy aging.\n- Epidemiological studies report health associations between normal phenethylamine levels and high mental states and well-being.\n- Individuals well rich total of natural phenethylamine (spice).\n- Highly commonly reduced resistance to illness (oral, infectious)\n- Alternatively, special improvement [and] morbidity, could be related, and/or\n\nThe age-dependent effects of increased phenethylamine [remain to be determined], from which the pathway should be a desirable strategy, and the reduction in [levels] of normal species, will cover the full scope.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-stability-00",
+    "title": "Adrenochrome stability, metal chelation & antioxidants (IMG_6184)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Reactive Oxygen Species",
+      "Glutathione",
+      "Superoxide Dismutase"
+    ],
+    "tags": [
+      "adrenochrome",
+      "redox",
+      "oxidative-stress",
+      "notes",
+      "epinephrine",
+      "metal-chelation",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6184.jpeg"
+      }
+    ],
+    "ocr": "Adrenochrome\n\nMetal Chelation – transfer metals [Fe (iron) or Cu (copper)] as a process to oxidize epinephrine.\n- Speeds up transfer of electrons downstream.\n- Chlorophyll [aged?] (Cloe, 1878) and brass metals, patchy then, used, plus the metal catalyst – the [oxidation] of epi slows down drastically.\n\nTemperature and Light\n- At low temperature, epi retards collagen & [oxidation?].\n- UV light generates ROS → keeping epi in an amber-colored state.\n\nStability of Adrenochrome\n- The polymerization problem – highly reactive electrophile.\n- Since it forms, it does not stay around like a stable molecule.\n- Rapidly undergoes further reactions → polymerizes in live tissues.\n- (the bare black form (brown, pigments found in skin acid and hair))\n\n- In [solution], adrenochrome is fleeting, its lifetime is measured in minutes to hours, depending on temperature, pH, and the presence of other nucleophiles.\n- Chemically Resistant – Adrenochrome is stable (to heat, to pH, and other cellular factors)\n\nBlock the \"\"anti-adrenochrome\"\" (See)\n- (Glutathione Complex)\n- (Superoxide Dismutase - SOD)\n- (Tryptophan)\n(Mito, 1876, 1888)\n- Suggests that there is contention of [adrenochrome]\n- Several zero of inactive\n\nConsidered toxic to cells, certainly damaging the structure of tissues by which it then\n- consumes additives\n- oxygen additives\n- (Methionine, glutathione exposed – reacts to, then spar)\n- (Superoxide – converted to oxygen)\n- (Adenosine – converted to aromatic acid)\nThey have done its oxidation of epi.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-blood-cells-diagram-00",
+    "title": "Blood cells — types (English & Chinese) (IMG_6188)",
+    "topic": "blood-cells",
+    "document": "",
+    "entities": [
+      "Monocyte",
+      "Lymphocyte",
+      "Neutrophil",
+      "Eosinophil",
+      "Basophil",
+      "Macrophage",
+      "Erythrocyte",
+      "Platelets"
+    ],
+    "tags": [
+      "blood-cells",
+      "hematology",
+      "notes",
+      "leukocytes",
+      "erythrocyte"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6188.jpeg"
+      }
+    ],
+    "ocr": "Blood Cells\n\nMonocyte (單核球)\nLymphocyte (淋巴球)\nNeutrophil (嗜中性球)\nEosinophil (嗜酸性球)\nBasophil (嗜鹼性球)\n\nMacrophage (巨噬細胞)\nErythrocyte (紅血球)\nPlatelets (血小板)\n\n(Diagram shows various types of blood cells with their names in both English and Chinese. A central yellow circle highlights the Erythrocyte.)",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-oxidation-00",
+    "title": "Adrenochrome formation & oxidation intermediates (IMG_6190)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Dopamine",
+      "Reactive Oxygen Species",
+      "Superoxide",
+      "Vitamin C"
+    ],
+    "tags": [
+      "adrenochrome",
+      "redox",
+      "oxidative-stress",
+      "notes",
+      "epinephrine",
+      "superoxide",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6190.jpeg"
+      }
+    ],
+    "ocr": "05/16/26 Thursday\n\nAdrenochrome / oxidation intermediates (\"astaxanthin\" per OCR — appears to be adrenochrome/quinone chemistry)\n- Form: red\n- (adrenochrome) chemical intermediate, the oxidation pathway of epi to adrenochrome.\n- Reduces adrenochrome into adrenochrome carbonate.\n- Reduces intermediate into our simple oxide oxygen uptake.\n- Free radical component to superoxide anion. Produced in some systems.\n- Appears as an impurity in epi/adrenochrome-related products.\n- In alkali conditions or enzymatic oxidation -> beta-adrenergic/adrenergic – dopamine.\n- (adrenochrome) can participate in redox (ROS).\n- Influences reactive oxygen species production.\n- Replaces more stable free amine intermediates but can be re-oxidized to adrenaline.\n- (oxygen/carbon/nitrogen/carbon/nitrogen/carbon) Mechanistic.\n- Spontaneously into oxidation of epinephrine.\n- Mechanisms/events -> these radicals and hydrogen peroxide can co-oxidate -> epi + epinephrine.\n- (Free radicals) participate in redox recycling.\n- Via systems: hydroxyl/methyl/hydroxy/methyl-RR (red/yellow).\n- Suppressed amplifies oxidative stress in erythrocytes.\n- (adrenochrome fluorescence observations).\n- It is associable with Vitamin C, can reduce adrenaline.\n- No strong evidence shows direct binding of (adrenochrome) molecule.\n\n(Diagram showing pathway from epi to adrenochrome, with arrows indicating transformations and key intermediates.)\n(A small table with the following items: Red blood cells, Alkaline conditions, Enzymatic oxidation.)\n(Mechanistic notes are written in the margins - red notes note - \"this pathway increases its potential through ROS and antioxidants processes.\")",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-metachrome-00",
+    "title": "Adrenochrome, metachrome & catecholamine metabolism (IMG_6191)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Norepinephrine",
+      "Catecholamines",
+      "Superoxide",
+      "Hemoglobin"
+    ],
+    "tags": [
+      "adrenochrome",
+      "redox",
+      "catecholamines",
+      "notes",
+      "hemoglobin",
+      "superoxide",
+      "adrenergic"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6191.jpeg"
+      }
+    ],
+    "ocr": "8/11/20 Monday\n\nAdrenergic / [adrenochrome]\n- α-Adrenergic [pathways] in PNS & components to PNS pathways (including epinephrine and norepinephrine) that promote metachrome formation in high concentrations.\n- On CNS penetration into sympathetic membranes, enters adrenergic conditions. Have adrenergic receptors as a redox intermediate can convert metachrome.\n\n(The red circle area: Metachrome)\n- The most significant interaction between epi molecules and hemoglobin vs their contribution to metachrome – is a condition where [Iron] in hemoglobin is delivered from the ferrous state (Fe2+).\n- Adrenal (pre-corticoid) (Precursors to Adrenochrome) are anionic agents. (As molecules can act as photoactive (H2O2 + O2), they can demonstrate the oxygen bond.\n\nRole of Superoxide (O2-)\n- The oxidation of O2 and its metabolites generate hydrogen peroxide, superoxide radicals and oxygen [species] to form metachrome (COH2) and hydrogen peroxide (H2O2).\n- Metachrome can efficiently transport oxygen to tissue.\n- [Oxygen] has enzymatic effects (via sulfhydryl reactions).\n\nCatecholamine metabolites\n- (Oxyphenylacetic acid systems)\n- Dealing to reduced oxygen stemming, capillary.\n\nAdrenergic/Lev0-Adrenergic (epinephrine)\n- Lev0-Adrenergic (norepinephrine)\n- Catecholamines (Phenylethanolamine groups)\n- Cately-oxides (Phenylethanolamine derivatives)\n- Cately-sulfones\n- Cately-carboxylic acid\n\n- The \"shape of the wool\" phenomenon defends the arteries.\n- The overall role will become wiser, defensive mechanism.\n(diagram of cells)",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-erythrocyte-00",
+    "title": "Adrenochrome effects on erythrocytes & antioxidants (IMG_6192)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Erythrocyte",
+      "Glutathione",
+      "NADH",
+      "Hemoglobin",
+      "Catalase"
+    ],
+    "tags": [
+      "adrenochrome",
+      "erythrocyte",
+      "redox",
+      "notes",
+      "glutathione",
+      "hemoglobin",
+      "antioxidants"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6192.jpeg"
+      }
+    ],
+    "ocr": "Exhysolite (1982) Adrenochrome/Hecox-adrenochrome\n\nIntroduction: Exhysolite (EB) Integrity\n- Interacts between NADH and RBC and its membrane.\n- Membrane NADH-gradients (hypodises of pyridine) are cytoplasmic and can lead to damage to the proteins and lipids that make up the RBC membrane.\n- Can alter shape of the cell (echinocytes) and decrease its deformability.\n\n- [Effects] realized late during [life of] RBC.\n- In experimental weeks when high concentrations of these catecholamine oxidation/exhibition products are (adrenal, resorcinol) have observed increased osmotic fragility, probably leads to shorter lifespan of RBC.\n\nGlutathione (GSH)\n- RBC contain high levels of reduced glutathione, which is antioxidant, as confirmed, to neutralize amines and lipids before they can damage hemoglobin or the [acid] membrane.\n\nIn a healthy [cell], the antioxidant defense (glutathione, catalase) effectively clears free waste, metabolizable pyruvic acid, substrates, (metabolites).\n- Hecox-adrenochrome is equally an antioxidant.\n- Can exist in epinephrine will adrenochrome.\n\nCells are a protoporphyrin (a complex functional membrane job).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-blood-cells-figure-00",
+    "title": "Blood cells — types (printed figure) (blood_cells_503952)",
+    "topic": "blood-cells",
+    "document": "",
+    "entities": [
+      "Monocyte",
+      "Lymphocyte",
+      "Neutrophil",
+      "Eosinophil",
+      "Basophil",
+      "Macrophage",
+      "Erythrocyte",
+      "Platelets"
+    ],
+    "tags": [
+      "blood-cells",
+      "hematology",
+      "leukocytes",
+      "erythrocyte"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "blood_cells_503952.jpg"
+      }
+    ],
+    "ocr": "Blood Cells\n\nMonocyte\nLymphocyte\nNeutrophil\nEosinophil\nBasophil\n\nMacrophage\nErythrocyte\nPlatelets\n\n© 2007 Terese Winslow\nU.S. Govt. has certain rights",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T00:32:03+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T00:32:03+00:00"
+  },
+  {
+    "id": "n-20260818-aging-genomic-instability-f1-00",
+    "title": "Aging & genomic instability — chromatin states (Fig 1, 1600584)",
+    "topic": "epigenetics",
+    "document": "",
+    "entities": [
+      "Aging",
+      "Genomic Instability",
+      "DNA Methylation",
+      "Histone",
+      "Chromatin"
+    ],
+    "tags": [
+      "aging",
+      "epigenetics",
+      "chromatin",
+      "genomic-instability",
+      "histones"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "1600584-F1.jpeg"
+      }
+    ],
+    "ocr": "**Transcribed Text:**\n\n*   Chromosome\n*   mRNA\n*   Aging\n*   Transcriptional drift\n*   DNA mutation\n*   New transposable element insertions\n*   DNA methylation\n*   Histone variant\n*   Altered patterns of histone modifications\n\n**Diagram Descriptions:**\n\n*   **Main Diagram:** This diagram illustrates the progression of genomic i\ninstability associated with aging. It shows a young person on the left and\nan elderly person on the right, with highlighted differences in chromosomes and DNA mutations.\n*   **Left Diagram (Normal Chromatin State):** This is a simplified representation of a chromosome. It depicts DNA wrapped around histone proteins (the \"beads on a string\" structure) with DNA methylation marks shown as small circles around the DNA.\n*   **Right Diagram (Abnormal Chromatin State):** This diagram shows an abnormal chromatin state, with a DNA mutation (shown as a red/white ball) a\nand altered patterns of histone modifications (different colored hexagons r\nrepresenting variations in histone modifications).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-longevity-interventions-pathways-f4-00",
+    "title": "Longevity interventions & signaling pathways (Fig 4, 1600584)",
+    "topic": "sirtuins",
+    "document": "",
+    "entities": [
+      "Calorie Restriction",
+      "Rapamycin",
+      "Spermidine",
+      "Metformin",
+      "mTOR",
+      "AMPK",
+      "SIRT1",
+      "FOXO",
+      "Autophagy"
+    ],
+    "tags": [
+      "longevity",
+      "sirtuins",
+      "aging",
+      "calorie-restriction",
+      "rapamycin",
+      "spermidine",
+      "metformin"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "1600584-F4_autophagy_epigenetics.jpeg"
+      }
+    ],
+    "ocr": "**Longevity**\n\n*   Calorie restriction\n*   Nutrients\n*   Insulin\n*   Rapamycin\n*   Spermidine\n*   Acetyl CoA depletion\n*   STACs (Senolytic Therapeutic Agents)\n*   Metformin\n\n**Diagram Notes:**\n\nThe image is a complex diagram illustrating pathways related to longevity,\ncellular senescence, and potential interventions. Key elements include:\n\n*   **Cellular Pathways:** Multiple pathways are shown, including those influenced by Akt, mTOR, AMPK, SIRT1, FOXO, and autophagy.\n*   **Interventions:** Various interventions like calorie restriction, metformin, STACs, and rapamycin are shown interacting with these pathways.\n*   **Gene Regulation:** The diagram illustrates the regulation of “ATG genes” and their relationship to RNA and heterochromatin reorganization, su\nsuggesting a mechanism for slowing down aging.\n*   **Components:**  Specific molecules such as DNMTs and HATs are depicted, along with their roles in epigenetic regulation.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-formation-body-sites-00",
+    "title": "Adrenochrome formation in the body — tissue sources (bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Reactive Oxygen Species",
+      "Neutrophils",
+      "Chromaffin Cells",
+      "Neuromelanin",
+      "Oxidative Stress"
+    ],
+    "tags": [
+      "adrenochrome",
+      "catecholamines",
+      "oxidative-stress",
+      "inflammation",
+      "neuromelanin"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "image_adrenochrome_formation_in_the_body.jpg"
+      }
+    ],
+    "ocr": "Adrenochrome Formation in the Body\n旅 深扎 需 替 息 美 使 根 源\n\n1.  Adrenal Medulla Chromaffin Cells\nClassic source. Chromaffin cells produce & store epinephrine. Oxidation turns extracts reddish (noted since 19th century)\n在 化 下 平 舍 栈 摸 拭 詳 材 代理 (19 年 月 歲)\n\n2.  Polymorphonuclear Leukocytes (Neutrophils)\nImmune cells oxidize adrenaline to adrenochrome using reactive oxygen s\nspecies (ROS) during inflammation. Major catabolism pathway.\n赤 仗 性 倡 差 輪 (ROS) 因 傷 考 培 輸 骨 煮\n\n3.  Cardiac Cells (Cardiomyocytes)\nObserved in heart cells. Linked to potential cardiotoxicity under high\nstress or catecholamine levels.\n水 液 携 続 棟 責 茸 責 拘 刃 利 疾 體 繊 模\n\n4.  Brain (Neuromelanin Pathway)\nIntermediate in neuromelanin synthesis in dopaminergic neurons. Normal\nprocess; excess may contribute to oxidative stress.\n在 待 的 移 診 慣 携\n\nOther Tissues\nSympathetic nerves, endothelial cells, inflamed tissues (e.g., rheumatoid j\njoints) where epinephrine is oxidized.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-epigenetics-guide-zh-00",
+    "title": "Epigenetics guide — changing gene switches (IMG_6135, Chinese)",
+    "topic": "epigenetics",
+    "document": "",
+    "entities": [
+      "Epigenetics",
+      "DNA Methylation",
+      "Histone",
+      "Non-coding RNA",
+      "Chromatin",
+      "Gene Expression"
+    ],
+    "tags": [
+      "epigenetics",
+      "dna-methylation",
+      "histones",
+      "ncRNA",
+      "aging"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6135.jpeg"
+      }
+    ],
+    "ocr": "**表觀遺傳學指南：**\n**環境如何改變我們的基因開關**\n\n1) 什麼是表觀遺傳？\n- DNA序列本身的變化（突變）之外，\n- 影響基因表達的修飾。像是個 -\n- 影響因素：環境、生活方式、年齡、經歷。\n- 遺傳性：有些標記可以通過遺傳後代。\n- 可能性：許多標記是可建立的。\nDNA 辨光開關 基因開關\n\n2) 核心機制\nA DNA 甲基化\n- 甲基 -> 甲基 -> 關閉\n- 仰造基因玻ட்டம்次\n(柳立在織維中)\nB 組織白修飾\n- 化學堙在許多組織/細胞/蛋白質\n軸、組織導致其在基因集表動\nC 非編碼 RNA\n- 递边解理 mRNA 或脱顺转酶在转移 後後後\n继行創作\nD 高階染色色彩結構\n- 染色體在細胞核心內的高度 3D 組織和擁 傳方式。\n\n3) 環境影響與細胞分化\n\n細胞分化\n- 飲食：環境和生命基對細胞\n- 國力： 測測、事責、咬解\n- 運動\n\n*Diagram Description:*\n\n*   **Panel 1:** Shows a DNA helix diagram with labels for DNA, mutation, a\nand gene expression. There are also icons representing factors influencing\ngene expression (e.g., age, environment).\n*   **Panel 2:** Illustrates DNA methylation (A) and modification (B) along with simplified diagrams of cells and chromosomes.\n*   **Panel 3:** Displays a flowchart of environmental impacts on cellular\ndifferentiation, including icons for diet, politics, and movement. There ar\nare also schematic diagrams of cell division.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-epigenetic-mechanisms-diagram-00",
+    "title": "Epigenetic mechanisms — DNA, chromatin & histone (IMG_6136)",
+    "topic": "epigenetics",
+    "document": "",
+    "entities": [
+      "Epigenetics",
+      "DNA Methylation",
+      "Histone",
+      "Chromatin"
+    ],
+    "tags": [
+      "epigenetics",
+      "dna-methylation",
+      "histones",
+      "chromatin"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6136.jpeg"
+      }
+    ],
+    "ocr": "**EPIGENETIC MECHANISMS**\n\n**Diagram Description:**\n\nThe image illustrates epigenetic mechanisms involving DNA, chromatin, and e\nepigenetic factors. It shows the following key elements:\n\n*   **Chromosome:** A highly condensed, double-stranded helix representing\na chromosome.\n*   **Chromatin:** The structure within a chromosome, depicted as a coiled\nform.\n*   **Histone Tail & Histone:** Shows the interaction between histones and\nDNA within the chromatin structure.\n*   **DNA:** The double helix representing the genetic material.\n*   **DNA Accessible, Gene Active:** Illustrates a region of DNA where the\nsequence is accessible and the gene is actively transcribed.\n*   **Methyl Group:** Represents a methyl group modification attached to DN\nDNA, indicating gene silencing.\n*   **DNA Inaccessible, Gene Inactive:** Represents a region of DNA where t\nthe sequence is inaccessible and the gene is not transcribed.\n*   **Epigenetic Factor:** A protein (depicted as a red arrow) influencing\nchromatin structure and gene expression.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-retina-layers-diagram-00",
+    "title": "Retina layers — cross-section anatomy (IMG_6147, bilingual)",
+    "topic": "diagrams-charts",
+    "document": "",
+    "entities": [
+      "Retina",
+      "Photoreceptors",
+      "Retinal Pigment Epithelium",
+      "Rod Cells",
+      "Cone Cells",
+      "Ganglion Cells",
+      "Choroid"
+    ],
+    "tags": [
+      "retina",
+      "eye",
+      "anatomy",
+      "photoreceptors",
+      "vision"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6147.jpeg"
+      }
+    ],
+    "ocr": "**Labels:**\n\n*   (玻璃體側) – (Vitreous Side)\n*   神経繊維層 – Nerve fiber layer\n*   節細胞層 – Ganglion cell layer\n*   内核層 – Inner Nuclear layer\n*   内網狀層 – Inner plexiform layer\n*   外網狀層 – Outer plexiform layer\n*   外界膜 – Outer limiting membrane\n*   色素膜色素上皮 – pigment epithelium\n*   光感受器 – Photoreceptors\n*   視桿細胞與視錐細胞 – Rods & Cones\n*   Outer nuclear layer\n*   Inner bipolar cells\n*   外雙 – Outer bipolar cells\n*   Cor 視錐細胞 – Cone photoreceptors\n*   RPE\n*   Choroid\n*   Membrane\n*   Choroid\n\n**Diagram Description:**\n\nThe image is a cross-sectional diagram of the human eye, illustrating the l\nlayers of the retina. The diagram shows:\n\n*   The outer layers including the pigment epithelium, RPE (Retinal Pigment Epithelium), outer plexiform layer, outer nuclear layer, and nerve\nfiber layer.\n*   The inner layers showing the inner plexiform layer, inner bipolar cells, cones and rods.\n*   Photoreceptors (rods and cones) are represented as small circles indicating light reception.\n*   The choroid and vitreous humor are shown as background structures.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-mtor-ampk-longevity-drugs-00",
+    "title": "Rapamycin, metformin, spermidine & dietary restriction (IMG_6158, bilingual)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "Rapamycin",
+      "Metformin",
+      "Spermidine",
+      "Calorie Restriction",
+      "mTORC1",
+      "AMPK",
+      "Autophagy",
+      "Mitochondria"
+    ],
+    "tags": [
+      "rapamycin",
+      "metformin",
+      "spermidine",
+      "calorie-restriction",
+      "mtor",
+      "ampk",
+      "autophagy",
+      "aging"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6158.jpeg"
+      }
+    ],
+    "ocr": "*   雷帕黴素 (Rapamycin)\n*   二甲雙胍 (Metformin)\n*   亞精胺 (Spermidine)\n*   飲食限制 (DR)\n\nDiagram: A cell with a highlighted endoplasmic reticulum and mitochondria.\nArrows show interactions between mTORC1, AMPK, and cellular processes. Different types of cells (stressed, starved, and normal) are illustrated.\n\nText:\n\n*   疫普及\n*   疫苗反應\n*   年齡相關狀況",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-autophagy-pathway-zh-00",
+    "title": "Autophagy pathway — molecular machinery (IMG_6166, bilingual)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "Autophagy",
+      "ULK1",
+      "VPS34",
+      "ATG12",
+      "ATG16L1",
+      "mTORC1",
+      "Lysosome",
+      "Autophagosome"
+    ],
+    "tags": [
+      "autophagy",
+      "macroautophagy",
+      "autophagosome",
+      "ulk1",
+      "mtor"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6166.jpeg"
+      }
+    ],
+    "ocr": "*   Autophagy stimulus (自噬刺激)\n*   Cytoplasm (胞質)\n*   ATG12\n*   ATG16L1\n*   mTORC1\n*   mTOR複合物1\n*   ULK1複合物\n*   VPS34複合物\n*   Phagophore nucleation (吞噬泡成核)\n*   Phagophore expansion (吞噬泡擴張)\n*   Autophagosome-lysosome fusion (自噬體-溶酶體吞縮)\n*   Degradation of cargo within autophagosome (自噬囊泡內貨物降解)\n*   lysosome (溶酶體)\n*   Cargo (貨物)\n*   PE (磷脂)",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-spermidine-cellular-renewal-infographic-00",
+    "title": "Spermidine — cellular renewal & longevity (IMG_6167, bilingual)",
+    "topic": "spermidine",
+    "document": "",
+    "entities": [
+      "Spermidine",
+      "Autophagy",
+      "Longevity",
+      "Mitochondria",
+      "Polyamines",
+      "Neurodegeneration"
+    ],
+    "tags": [
+      "spermidine",
+      "polyamines",
+      "autophagy",
+      "aging",
+      "longevity",
+      "cognition"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6167.jpeg"
+      }
+    ],
+    "ocr": "**Title:** SPERMIDINE: CELLULAR RENEWAL & LONGEVITY\n**Subtitle:** 亞理蛋白新异与長壽\n\n**What is Spermidine?**\n*   什麼是亞理蛋白？\n*   A natural polyamine compound found in all cells.\n*   存在於所有細胞中的天然多胺化合物\n*   Role in renewal, growth, regeneration.\n*   其在細胞更新、生長和再新陳代謝中作用\n\n**The Key Mechanism: AUTOPHAGY**\n*   核心機制：自噬\n*   (Diagram showing Autophagy process: Damage components & cellular wa\nwaste -> Autophagosome Formation -> Lysosome Fusion and Degradation -> Recycled nutrients new healthy cells)\n\n**CELLULAR RENEWAL**\n*   細胞更新\n*   Helps maintain cellular health, mitochondrial function, genome stability.\n*   幫助維持細胞健康、線粒體功能、基因穩定性\n*   By inducing Autophagy\n*   通過誘導自噬\n\n**LONGEVITY & DISEASE PREVENTION**\n*   長壽與疾病預防\n*   Observational studies link higher dietary intake to lower mortality.\n*   觀察性研究顯示高飲食攝取與死亡率降低\n*   Reduced risk of cardiovascular disease & certain cancers.\n*   降低心血管疾病和某些癌症的風險\n*   Long Life (Icon)\n\n**COGNITIVE FUNCTION**\n*   認知功能\n*   May support memory and brain health.\n*   可能支持記憶和大腦健康\n*   Research suggests potential to slow age-related decline & protect a\nagainst neurodegeneration.\n*   研究表明其有潛力減緩與年齡相關的退化和保護免受神經退化損傷\n*   (Diagram showing Brain & + icons suggesting cognitive boost)\n\n**Spermidine**\n*   亞理蛋白\n\n---\n**Brief Description of Diagrams/Elements:**\n\n1.  **Autophagy Diagram:** A circular flow diagram illustrating the autophagy process with labeled steps (Damage components & cellular waste, A\nAutophagosome Formation, Lysosome Fusion and Degradation, Recycled nutrients new healthy cells).\n2.  **Long Life Icon:** A simple icon of a long-lived individual or a lifespan symbol.\n3.  **Brain Diagram:** A depiction of a brain with plus signs, implying cognitive enhancement or function.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-starvation-cancer-inhibition-mechanisms-00",
+    "title": "Starvation & cancer inhibition — molecular mechanisms (IMG_6181, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Calorie Restriction",
+      "Cancer",
+      "E-cadherin",
+      "MMP",
+      "Caspase-3",
+      "Apoptosis",
+      "Adiponectin",
+      "Leptin",
+      "Fasting"
+    ],
+    "tags": [
+      "cancer",
+      "fasting",
+      "calorie-restriction",
+      "e-cadherin",
+      "apoptosis",
+      "metastasis"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6181.jpeg"
+      }
+    ],
+    "ocr": "**MOLECULAR MECHANISMS: STARVATION & CANCER INHIBITION**\n分子機制：飢餓與癌症抑制\n\n**E-CADHERIN (CELL-ADHESION)**\n| E-钙黏蛋白 (细胞黏附蛋白) |\nNORMAL/STARVATION | 正常/饥饿状態\n\nPREVENTS SPREAD | 阻止扩散\nCANCER | 癌症\n\nCELLS CLICK TOGETHER | 细胞连接在一起\n\nCELLS BREAK AWAY | 细胞分离\n\nINVASION & METASTASIS | 侵袭和转移\n\nSTARVATION INCREASES E-CADHERIN | 饥饿增加 E-钙黏蛋白\n\nMODULATION OF ENZYMES & SIGNALING | 酶调节与信号\n\nENZYMES (MMPs) | 酶 (多糖蛋白酶)\n\nNORMAL: | 正常: 受到\nCONTROLLED | 调控\n\nTISSUE REARRANGES | 组织重新排列\nSTARVATION: | 饥饿: 增加\n\nINVASION & METASTASIS | 侵袭和转移\n\n**CELL DEATH & REPAIR MECHANISMS | 细胞死亡与修复機制**\n\nCASPASE-3 (APOPTOSIS) | 催体 3 (凋亡)\n\n**ADIPONECTIN** | 脂肪素\n\nLEPTIN | 瘦素\n\n**STEVARATION INCREASES RATIO, LINKED TO REDUCED CANCER RISK | 饥饿增加比率\n，与降低癌症风险相关**\n\n**HISTONE H2A DNA REPAIR | 组蛋白 H2A DNA 修復**\n\nDNA DAMAGE RESPONSE | DNA 損傷回應\n\n**GENETIC STABILITY OR DEATH | 遗传稳定性或死亡**\n\nBased on scientific concepts",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-formation-redox-pathway-00",
+    "title": "Chemical pathway & redox mechanism of adrenochrome formation (IMG_6193, bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Adrenaline-quinone",
+      "Leuco-adrenochrome",
+      "Redox"
+    ],
+    "tags": [
+      "adrenochrome",
+      "epinephrine",
+      "redox",
+      "oxidation",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6193.jpeg"
+      }
+    ],
+    "ocr": "**Chemical Pathway and Redox Mechanism of Adrenochrome Formation**\n從降蒎嗪到褪黑激素 化學途徑和氧化還元機制\n\n**FROM EPINEPHRINE TO ADRENOCHROME**\n\n1.  **EPINEPHRINE (Adrenaline)** | 腎上腺素\n(腎上素分泌形成的化學途徑和氧化還元機制)\n\n2.  **ADRENALINE-QUINONE** (highly reactive electrophile) | 腎上腺素-醌 (高\n度反應性親電試劑)\n\n3.  **LEUCO-ADRENOCHROME** (reduced form, \"white\") | 褪黑素 (具有帶有橙色的\n紅/粉色)\n(还原形式，“白色”)\n\n4.  **ADRENOCHROME** (distinctly colored red/pink/orange) | 腎上腺素紅 (具有\n帶有橙色的紅/粉色)\n( distinctly colored red/pink/orange)\n\nextended conjugated system  | 擴展共軛系統\n\n(S)-1-Methylindole-3,5,6-triol\n\n---\n\n**Diagram Description:**\n\nThe image is a flowchart illustrating the chemical pathway for the formation of adrenochrome from epinephrine. It details the oxidation process, cyclization, and the resulting colors of adrenochrome in its various forms (leuco-adrenochrome, red/pink/orange adrenochrome). It also d\ndepicts an \"extended conjugated system\" alongside the diagram, likely representing the molecule's expanded electronic structure and its role in t\nthe color formation.  There is also a small table showing the structure of\n(S)-1-Methylindole-3,5,6-triol.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-sod-antioxidant-hemoglobin-autoxidation-00",
+    "title": "Superoxide dismutase & hemoglobin autoxidation in red blood cells (IMG_6196, bilingual)",
+    "topic": "oxidative_stress",
+    "document": "",
+    "entities": [
+      "Superoxide Dismutase",
+      "Superoxide",
+      "Hemoglobin",
+      "Erythrocyte",
+      "Epinephrine",
+      "Oxidative Stress",
+      "Antioxidants"
+    ],
+    "tags": [
+      "sod",
+      "superoxide",
+      "oxidative-stress",
+      "erythrocyte",
+      "hemoglobin",
+      "antioxidants",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6196.jpeg"
+      }
+    ],
+    "ocr": "**SUPEROXIDE DISMUTASE (SOD): CRITICAL ANTIOXIDANT PROTEIN** 组织化物转置酶\n(SOD): 關鍵的抗氧化保護酶\nProtects cells from oxidative damage. 保護細胞免於氧化損傷\nRapidly removes superoxide radical (O₂•) 快速清除超氧基自由基 (O₂•)\n\n**HEMOGLOBIN AUTOXIDATION AND SOD IN RED BLOOD CELLS** 血紅蛋白自氧化與紅血\n球中的 SOD\nErythocyte 紅血球\nOxyhemoglobin (HbO₂) 氧血紅蛋白 (HbO₂)\nMethmeoglobin 高鐵血紅蛋白\nAntioxidant Network 抗氧化網絡\n\n**WITHOUT SOD; CONSEQUENCES 缺乏 SOD 的後果**\n(Diagram shows a series of negative consequences, including: Accelerated Ep\nEpinephrine Degradation, Increased Oxidative Stress, etc.)\n\n**ACCELERATED EPINEPHRINE DEGRADATION** 催 hız 乙烯基胺降解\n(Diagram shows epinephrine breaking down faster in the presence of superoxide)\n\n**INCREASED OXIDATIVE STRESS** 增加氧化應激\n(Diagram shows an increased level of oxidative stress)\n\n**metHb** 某種情況下的血紅蛋白代謝物\n**Levno-adronochrome**  某種情況下的血紅蛋白代謝物\n\n**Notes:**\n*   The image includes a complex flow chart illustrating the roles of SOD,\nsuperoxide dismutase, and related molecules in oxidative reactions.\n*   Key terms like \"O₂•\" (superoxide radical) and \"HbO₂\" (oxyhemoglobin) ar\nare visually represented.\n*   The image highlights the importance of SOD as a critical antioxidant an\nand the detrimental effects of its absence.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-methemoglobin-reductase-rbc-00",
+    "title": "Methemoglobin reductase (C5B3R3) & epinephrine oxidation (IMG_6197, bilingual)",
+    "topic": "oxidative_stress",
+    "document": "",
+    "entities": [
+      "Methemoglobin",
+      "Methemoglobin Reductase",
+      "NADH",
+      "Erythrocyte",
+      "Hemoglobin",
+      "Superoxide Dismutase",
+      "Catalase",
+      "Epinephrine",
+      "Adrenochrome"
+    ],
+    "tags": [
+      "methemoglobin",
+      "erythrocyte",
+      "hemoglobin",
+      "oxidative-stress",
+      "epinephrine",
+      "catecholamines",
+      "redox"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6197.jpeg"
+      }
+    ],
+    "ocr": "**Main Title:**\n\nUNDERSTANDING METHEMOGLOBIN REDUCTASE (C5B3R3)\n瞭解變性性血紅素還原酶\n\n**What is it? (注意圖!)**\nWHAT IS IT? (定義圖)\nC5B3R3\nNAD⁺/citochrome B5 binding site\nNAD⁺/血紅素 B5 結合位點\nCytochrome B5 reductase domain\n總變性性血紅素還原酶\nHistorically, NADH-disparase, mehemoglobin reductase\n歷史上， NADH-離子分離劑，變性性血紅素還原酶\n\n**Key Function in Red Blood Cells**\n紅血球中的關鍵功能\nA MAINTAINING FUNCTIONAL HEMOGLOBIN\n維持自身的 功能性血紅素\nOxygen Transport 氣體運輸\nOxidative Stress 氧化壓力\nFunctional HbO2 函數性HbO2\n\n**In the Context of Epinephrine (與腎上腺素之相關性)**\nB COUNTERING OXyMEmOGLOBIN AUTODIXATION\n控制 血紅素自自聚合\nSuperoxide Dismutase (SOD)\n超氧化物離子分解酶 (SOD)\nHBO2 (Slow)\nHBO2 (慢)\nMeththio (Meth)\nMeththio\nCatalase\n催化酶\n\n**In the Context of Epinephrine (與腎上腺素之相關性)**\nEpinephrine formulations & Blood\n腎上腺素製劑及血\nAccelerating\n促進\nMeththio or ROS (Reactive Oxygen Species) 增加\nEpinephrine -> (Intermediates) -> Adrenochrome\n腎上腺素 -> (中間體) -> 腎上腺素\nOxygen Transport 氣體運輸\n\n**Diagrams/Buttons/Tables:**\n\n1.  **Diagram of RBC:** A stylized representation of a red blood cell (RBC)\n(RBC) with highlighted regions indicating functional hemoglobin (HbO2) and\noxidative stress.\n\n2.  **Chemical Structures:** Illustrations of epinephrine, meththio, and re\nreactive oxygen species (ROS).\n\n3.  **Flowchart of Mechanisms:** A diagram outlining the process of epinephrine formulation, oxygen transport, and the role of C5B3R3 in counteracting auto-dimerization.  Arrows indicate the flow of molecules and enzymatic reactions.\n\n4. **\"Vivo In-vivo Mitigation of Oxidative Stress\" Diagram:** Depicts a cell being protected from oxidative stress, with C5B3R3 highlighted as blocking the effect.\n\n5. **Buttons/Labels**:  Several labels including: \"C5B3R3 blocks GST\", \"C5B3R3 Mitigates\" are visible.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-catecholamines-metabolism-infographic-00",
+    "title": "Catecholamines — structure, metabolism & oxidation (IMG_6202, bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Catecholamines",
+      "Dopamine",
+      "Norepinephrine",
+      "Epinephrine",
+      "COMT",
+      "MAO",
+      "Neuromelanin",
+      "Adrenochrome"
+    ],
+    "tags": [
+      "catecholamines",
+      "dopamine",
+      "norepinephrine",
+      "epinephrine",
+      "comt",
+      "mao",
+      "neuromelanin",
+      "adrenochrome"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6202.jpeg"
+      }
+    ],
+    "ocr": "CATECHOLEMINES: KEY HORMONES: 主要的激素神经 전달物\n\n**CATECHOLEAMINE STRUCTURE** (兒茶酚胺結構)\n*   Catechol Group (兒茶酚團)\n*   Amine Side Chain (胺側鏈)\n\n**PRIMARY TYPES & PHYSIOLOGICAL ROLES** (主要類型及生理功能)\n*   DOPAMINE (多巴胺)\n*   NOREPINEPHRINE (去甲腎上腺素)\n*   EPIPHYNE (腎上腺素)\n*   COMT (去甲-O, 甲基類化酶)\n*   MAO (単酸利紫化酶)\n\n**INCREASED BY STRESS, SMOKING, INFLAMMATION** (因壓力、吸菸、發炎症增加)\n\n**METABOLISM & OXIDATION PATHWAYS** (代謝 與氧化途徑)\n*   OXIDATION PATHWAY (氧化途徑) - In High-Risk Conditions (在高活性環境下)\n)\n*   NORMAL DEGRADATION (正常降解) (ENZYMATIC)\n*   AMINOCHROMES: Reactive Intermediates (底色素: 反應性中間體)\n*   NEUROMELANIN (稱菜黑色素)\n*   Polymerization (聚合)\n*   Dark pigment (黑色素)\n\nBilingual Infographic & ጽաղրատ դասարան դառնչ և աղբյուր տեղեկություն",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-adrenochrome-replenishment-protocol-00",
+    "title": "Hypothetical adrenochrome replenishment protocol (IMG_6203, bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Adrenochrome",
+      "Epinephrine",
+      "Erythrocyte",
+      "Hemoglobin",
+      "Glutathione",
+      "Oxidative Stress",
+      "Methemoglobin"
+    ],
+    "tags": [
+      "adrenochrome",
+      "epinephrine",
+      "erythrocyte",
+      "hemoglobin",
+      "redox",
+      "speculative"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6203.jpeg"
+      }
+    ],
+    "ocr": "**HYPOTETICAL PROTOCOL: HUMAN ADRENOCHROME REPLENISHMENT | 假设性人腺素红血\n常规补充方案**\n\n**OBJECTIVE | 目標** MAINTAIN CONTROLLED ADRENOCHROME | 維持理想的控制在血浆\n累积\n\n**PHASE I: COMPOUND STABILIZATION & PREPARATION | 第一階段: 化合物穩定化與製\n備**\n\n*   PURE ADRENOCHROME (C₄H₆N₂O₃) IS UNSTABLE | 纯腺素红血浆不稳定\n*   A. FORMULATION PARAMETERS | A.  formulation参数\n*   pH REGULATION | pH 调节 (Slightly acidic 弱酸性)\n*   alKALINE | alkaline\n*   ADRENOLUTIN | adrenolutin\n*   Green Fluorescence |  绿血浆累积 (绿色荧光)\n*   2. STABILIZING AGENTS | 稳定剂\n*   BARBADOCHROME COMPLEXING | 中卫安培络合剂\n*   ANTIOXIDANT BUFFERING (THIOCYCLEROL, SODIUM METABISULFITE) | 抗氧化\n缓冲剂 (硫环唑，次碳酸钠)\n*   3. INERT STORAGE | 惰性储存\n*   STORE UNDER ARGON OR NITROGEN GAS | 储存于氩气或氮气\n*   B. ERYTHROCYTE / HEMOGLOBIN INTEGRATION | B.  erythrocytes / 血红蛋白整\n合\n*   CARRIER COMPLEX | 载体络合物\n*   RED OX CYCLE (\"BATTERY\") | redox 循环 (\"电池\")\n\n**PHASE II: ADMINISTRATION & DOSING | 第二階段: 给药與剂量**\n\n*   A. ROUTE | A. 途径\n*   INTRAVENOUS INFUSION (Controlled Drip) | 静脉滴注(控制滴速)\n*   B. CARRIER MEDIUM | 载体介质\n*   ISOTONIC SALT SOLUTION |  isotonic 盐溶液\n*   CONVERT EXCESS OXYGEN TO EPINEPHRINE | 将多余的氧气转化为肾上腺素\n*   GLUTATHIONE (Safety Valve) | 果糖酸盐 (安全阀)\n\n**PHASE III: MONITORING & SAFETY | 第三阶段: 监测与安全**\n\n*   NARROW THE WINDOW | 缩短窗口\n*   A. CONTINUOUS MONITORING | A. 持续监测\n*   CRITICAL SAFETY VALUE (R. 5-5.5 (40% - 50%)) | 关键安全值 (R. 5-5.5-5.5 (40%-50%))\n*   CARDIOTOXICITY | 心跳毒性\n*   OXIDATIVE STRESS | 氧化应激\n*   METHOLEGLOBIN | 麦地血红蛋白\n*   BARBADOCHROME COMPLEXING (HEG) | 中卫安培络合剂 (HEG)\n*   ERYTHROCYTE / HEMOGLOBIN INTEGRATION |  erythrocytes / 血红蛋白整合\n\n*   RED OX CYCLE (\"BATTERY\") | redox 循环 (“电池”)\n*   B.  CONTROLLED RATE OF INFUSION | 控制给药速率\n*   C.  ADJUSTMENT OF ADMINISTRATION | 调整给药\n*   D.  SAFETY VALVE | 安全阀\n\n**Diagram Description:**\n\nThe image contains a stylized illustration of an intravenous drip system wi\nwith an adult patient. Key components are labeled including:\n\n*   Blood cells (erythrocytes)\n*   Hemoglobin\n*   Oxymoglobin\n*   Methaemoglobin\n*   Various chemical compounds represented with icons (e.g., Barbadochrome,\nBarbadochrome, Thiocyclerol)\n*   A display showing data waveforms (likely heart rate and/or related physiological parameters).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-methemoglobinemia-pathophysiology-00",
+    "title": "Methemoglobinemia — pathophysiology, symptoms & diagnosis (IMG_6208, bilingual)",
+    "topic": "oxidative_stress",
+    "document": "",
+    "entities": [
+      "Methemoglobin",
+      "Hemoglobin",
+      "Methemoglobinemia",
+      "Oxidative Stress",
+      "Pulse Oximetry",
+      "Erythrocyte"
+    ],
+    "tags": [
+      "methemoglobin",
+      "methemoglobinemia",
+      "hemoglobin",
+      "erythrocyte",
+      "oxidative-stress",
+      "diagnosis"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6208.jpeg"
+      }
+    ],
+    "ocr": "**Main Title:**\n\nUNDERSTANDING METHEMOGLOBINIA\n\n**Subtitle:**\n\n*   PATHOPHYSIOLOGY AND SYMPTOMS\n*   了解血紅蛋白變異 (MetHb) 病理生理和症狀\n\n**Sections:**\n\n*   PATHOPHYSIOLOGY | 病理生理型\n*   NORMAL HEMOGLOBIN (Hb) | 正製血紅蛋白\n*   METHEMOGLOBIN | 正製血紅蛋白變異\n*   NORMAL LEVELS & SYMPTOM THRESHOLDS | 正做水平果幾點限值\n\n**Diagram Descriptions:**\n\n*   **Normal Hemoglobin vs. Methemoglobin:**  Two diagrams side-by-side showing the structure of normal hemoglobin (Hb) and methemoglobin (Fe3+). H\nHb can carry O2, while methemoglobin cannot.\n*   **Normal Levels & Symptom Thresholds:** A water droplet graphic with co\ncolor-coded ranges representing normal hemoglobin levels (<1-2% or less) an\nand associated symptom ranges.\n*   **Diagnostic & Key Findings:** A table with three icons representing:\n*   Pulse Oximetry (血氧血導波) - an instrument.\n*   Arterial Blood Gas (ABG) (動脈血氣分析) - an instrument.\n*   CO-Oximetry (夾血氧儀) - an instrument.\n\n**Table Content (Diagnostic & Key Findings):**\n\n| **Pulse Oximetry 血氧血導波** | **Arterial Blood Gas 動脈血氣分析** | **C\n**CO-Oximetry 夾血氧儀** |\n| --------------------------------- | ---------------------------------- |\n--------------------------------- |\n| Often leads inaccurately (around 85%) |  Blood PaO, but clinical symptoms are useful | Gold standard for directly measuring methemoglobin le\nlevels. |\n|                                   |   Unresponsive to O2  |\n|\n**Additional Text:**\n\n*   1. Left shift O2-dissociation curve (SpO2, release)\n*   2. Functional anemia (功能性貧血)\n*   3. Elevated levels cause methemoglobin\n*   4. Reduced O2 delivery, potential tissue hypoxia\n*   Decreased blood oxygen, 潛在組織缺氧\n\n**Note:** The text is in Chinese and English.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-ivermectin-anticancer-mechanisms-flowchart-00",
+    "title": "Ivermectin — anti-cancer mechanisms & pathways (IMG_6210, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Ivermectin",
+      "Cancer",
+      "Autophagy",
+      "Apoptosis",
+      "Pyroptosis",
+      "mTOR",
+      "Wnt",
+      "MAPK",
+      "Cancer Stem Cells"
+    ],
+    "tags": [
+      "ivermectin",
+      "cancer",
+      "autophagy",
+      "apoptosis",
+      "pyroptosis",
+      "wnt",
+      "mtor",
+      "mapk"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6210.jpeg"
+      }
+    ],
+    "ocr": "**Top Section:**\n\n*   affect multiple pathways (影響多條情境通路)\n*   anti-cancer effect (抗癌效果)\n\n**Pathway Details:**\n\n*   (Akt / mTOR 通路)\n*   (Akt / mTOR 通路)\n*   Wnt / β-catenin\n*   Wnt / β- 遠環蛋白通路\n*   MAPK 等)\n\n**Process Details:**\n\n*   apoptosis (細胞凋亡)\n*   autophagy (細胞自噬)\n*   pyroptosis (焦亡)\n\n**Other Labels:**\n\n*   Cancer stem cell (癌症幹細胞)\n*   Combination therapy (聯合療法)\n*   Ivermectin (伊維菌素)\n*   Cancer cell death (癌細胞死亡)\n*   reverses multidrug resistance (逆轉多藥耐性)\n\n**Diagram Description:**\n\nThe image is a flowchart illustrating how Ivermectin, in combination with o\nother therapies, can affect cancer stem cells and lead to cancer cell death. It highlights multiple pathways involved, including Akt/mTOR, Wnt/β-\nWnt/β-catenin, and MAPK, and different mechanisms of cell death like apoptosis, autophagy, and pyroptosis. The flow chart indicates that Ivermectin can reverse multidrug resistance.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-ampk-mtorc1-akt-mtor-autophagy-00",
+    "title": "AMPK/mTORC1 vs AKT/mTOR — autophagy regulation (IMG_6215, bilingual)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "AMPK",
+      "mTORC1",
+      "AKT",
+      "ULK1",
+      "Autophagy",
+      "Rapamycin",
+      "TSC2",
+      "Cancer",
+      "Aging"
+    ],
+    "tags": [
+      "ampk",
+      "mtor",
+      "akt",
+      "ulk1",
+      "autophagy",
+      "rapamycin",
+      "cancer",
+      "aging",
+      "metabolism"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6215.jpeg"
+      }
+    ],
+    "ocr": "**Key Comparison:** AMPK/mTORC1 vs. AKT/mTOR in Autophagy 自噬作用中 AMPK/mTORC1 與 AKT/mTOR 通路的概念比較\n\n*   **AMPK-mTORC1 Pathway (Promotes Autophagy 促進自噬):**\n*   TRIGGER (觸發因素)\n*   Low Energy (低能量，高 ATP) 低能量 (高 ATP), 壓力\n*   Inhibit mTORC1 (抑制 mTORC1 透過 TSC2, Raptor)\n*   **AKT-mTOR Pathway (Inhibits Autophagy 抑制自噬):**\n*   Growth Factors, Insulin, Nutrients (生長因子, 胰島素, 營養素)\n\n**Effect on mTORC1 (對 mTORC1 的影響)**\n\n*   mTORC1 ↑\n*   Activates mTORC1 (激活 mTORC1 透過 TSC2)\n\n**Effect on ULK1 (對 ULK1 的影響)**\n\n*   ULK1 ↑\n*   Direct Activation (直接激活) + Indirect Activation (間接激活)\n*   Inhibits Autophagy (抑制自噬)\n\n**Autophagy Outcome (自噬結果)**\n\n*   PROMOTES (促進) (Catabolic, Recycling, 回收利用)\n\n**Physiological Context (生理背景)**\n\n*   Starvation, Exercise, Energy Crisis, 嚴重危機\n*   Fed State, Growth, Proliferation (飽和狀態, 生長, 增殖)\n\n**Complex Networks & Feedback Loops (複雜網絡與反饋迴路)**\n\n*   Interconnected Pathways: e.g., ULK1 phosphorylation by AMPK or Raptor (\n(相互連接的通路, 例如 ULK1 磷酸化 AMPK 或 Raptor)\n*   mTORC2 Influence (mTORC2 影響 – activates AKT, can negatively influence autophagy (可能會激活 AKT, 也能負面影響自噬))\n\n**Clinical Significance (臨床意義)**\n\n*   CANCER (癌症)\n*   METABOLIC DISORDERS (代謝紊亂)\n*   NEURODGENERATIVE DISORDERS (神經退行性疾病)\n*   AGING (衰老)\n*   Rapamycin (雷帕黴素) (mTOR Inhibitor, 抑制 mTOR)\n*   Therapeutic Targets (治療目標)\n\n**Dysregulation (失調)**\n\n*   STARVESS\n*   PREVENTION (預防)\n\n**CONTEXT-SPECIFIC (特定情境)**\n\n*   CONSISTENCY (協調性) - Roles of e.g. ULK1, mTORC1, TSC2 (ULK1, mTORC1,\nTSC2 的角色)\n\n**Note:** <end_of_image> is present, marking the end of the image transcription.\n\n**Diagram Description:** The image contains various diagrams and pathways i\nillustrating the interplay between AMPK, mTORC1, AKT, and ULK1 in the regulation of autophagy.  Arrows denote the flow of signals and influence b\nbetween these pathways. There is a detailed infographic of the mTORC1 pathway, with sections labeled \"Promotes\" and \"Inhibits\". There are icons r\nrepresenting catabolic recycling, starvation, and various physiological conditions. Several interconnected pathways are shown.  A table highlights\nclinical relevance.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-ivermectin-anticancer-comprehensive-00",
+    "title": "Ivermectin anti-cancer — comprehensive mechanism overview (IMG_6216, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Ivermectin",
+      "Cancer",
+      "Wnt",
+      "AKT",
+      "mTOR",
+      "MAPK",
+      "YAP1",
+      "PAK1",
+      "HSP27",
+      "Cancer Stem Cells",
+      "Mitochondria"
+    ],
+    "tags": [
+      "ivermectin",
+      "cancer",
+      "wnt",
+      "akt",
+      "mtor",
+      "mapk",
+      "multidrug-resistance",
+      "cancer-stem-cells"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6216.jpeg"
+      }
+    ],
+    "ocr": "**Title:** <start_of_image>\n- 併強儘衰的抗癌機位總檢\n\nA Comprehensive Overview of IVM's Potential Against Cancer -\n併強儘衰的抗癌機位總檢的完全面視圖\n\n**MECHANISM | 機機制**\n\n*   INHIBIT WNT PATHWAY | 抑制 WNT 通路\n*   INHIBIT Akt/mTOR PATHWAY | 抑制 Akt/mTOR 通路\n*   INHIBIT MAPK PATHWAY | 抑制 MAPK 通路\n*   INHIBIT YAPI PROTEIN | 抑制 YAPI 蛋白\n*   INHIBIT PAKI PROTEIN | 抑制 PAKI 蛋白\n*   INHIBIT HSP27 | 抑制 HSP27\n*   INDUCE MITOCHONDRIAL DYSFUNCTION | 誘導細胞質功能障礙\n*   INHIBIT CANCER STEM CELLS | 抑制癌幹細胞\n*   & MDR PROTEIN | & MDR 蛋白\n*   ACTIVATE P2X7 RECEPTOR | 激活 P2X7 受體\n*   INHIBIT SIN3 SG/COPROTEIN | 抑制 SIN3 S/C 蛋白\n*   INHIBIT DCC2X HELICASE | 抑制 DCC2X 螺旋酶\n*   SHH/IOD DREAM2 | SHH/IOD DREAM2\n*   CHIP29/CHIP29L | CHIP29/CHIP29L\n*   INCREASE KIF13B | 增加 KIF13B\n*   TARGET TRE3 | 靶向 TRE3\n\n**CANCER TYPES | 癌症類型**\n\n*   Breast Cancer | 乳癌 [33, 41]\n*   Colorectal Cancer | 大腸直腸癌\n*   Breast Cancer, Ovarian Cancer | 乳癌、卵巢癌 [32, 60, 64]\n*   Nasopharyngeal Carcinoma | 鼻咽癌 [69, 73]\n*   Gastric Cancer | 胃癌\n*   Liver Cancer | 肝癌\n*   Breast Cancer, Ovarian Cancer | 乳癌、卵巢癌 [32, 58, 69, 73]\n*   Nasopharyngeal Carcinoma | 鼻咽癌 [69, 73]\n*   Melanoma | 黑色素瘤\n*   Prostate Cancer, Lung Cancer, Colorectal Cancer | 前列腺癌、肺癌、大腸直\n腸癌\n*   Renal Cell Carcinoma | 腎細胞癌 [48, 53, 65]\n*   Leukemia | 白血病 [95, 96]\n*   Breast Cancer | 乳癌\n*   Colorectal Cancer, Breast | 大腸直腸癌、乳癌、白血病\n*   Breast Cancer | 乳癌\n*   Colorectal Cancer | 大腸直腸癌\n*   Glioblastoma | 腦瘤\n*   Leukemia | 白血病\n*   Leukemia | 白血病\n*   Melanoma | 黑色素瘤\n*   Breast Cancer | 乳癌 [154]\n\n**REFERENCES | 參考文獻**\n[33, 41, 48, 50, 51, 53, 58, 60, 64, 65, 69, 73, 95, 96, 154]\n\n**Diagram Description:** The image is a complex infographic illustrating va\nvarious anticancer mechanisms of IVM (ivermectin). It presents a network of interconnected pathways and proteins, indicating how IVM affects cancer\ncells. Key molecules involved are highlighted, and specific cancer types ar\nare listed alongside their respective associations with the mechanisms.  Th\nThe overall design is visually dense with many nodes and arrows to represent complex biological interactions.  Color coding is used to categorize the mechanisms and associated cancer types.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-onchocerciasis-life-cycle-00",
+    "title": "Onchocerciasis — human & blackfly (Simulium) life cycle (IMG_6232)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Onchocerciasis",
+      "Ivermectin",
+      "Microfilariae",
+      "Simulium",
+      "Parasite Life Cycle"
+    ],
+    "tags": [
+      "onchocerciasis",
+      "ivermectin",
+      "parasitology",
+      "vector-borne",
+      "filariasis"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6232.jpeg"
+      }
+    ],
+    "ocr": "**Human host stages**\n\n1.  L3 larvae enter human skin when a female fly takes a blood meal\n2.  Larvae migrate to subcutaneous tissue and develop into adults and form\nnodules (mature in 6-12個月内成熟)\n3.  Adult females produce unsheathed microfilariae (around 1,000/day) that\nmigrate into the skin and connective tissue lymphatics, as well as into peripheral blood.\n4.  Microfilariae migrate to the skin during the day when blackflies ingest them in the bloodmeal\n5.  Microfilariae shed sheaths, penetrate midgut and migrate to thoracic mu\nmuscles (穿在中間避移 至胸肌)\n6.  L3 larval stages (L1 and L2)\n7.  L3 larvae migrate to head. proboscis and saliva 口器和唾液 (mature in 7 days) (7天内成熟)\n8.  L3 larvae migrate to head\n**Simulium blackfly stages**\n幼黑階段 (L1和L2)\n\n(Diagram shows a human figure with arrows indicating the life cycle stages\nof the blackfly, including larval stages, adult female with microfilariiae,\nmicrofilariiae, and the progression of the parasite through the host.)",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-fenbendazole-anticancer-mechanisms-00",
+    "title": "Fenbendazole — multi-faceted anti-cancer mechanisms (IMG_6236, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Fenbendazole",
+      "Microtubules",
+      "Tubulin",
+      "Apoptosis",
+      "MAPK",
+      "Oxidative Stress",
+      "Cancer"
+    ],
+    "tags": [
+      "fenbendazole",
+      "cancer",
+      "microtubule",
+      "tubulin",
+      "apoptosis",
+      "mapk",
+      "oxidative-stress"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6236.jpeg"
+      }
+    ],
+    "ocr": "**FENBENDAZOLE’S MULTI-FACETED MECHANISMS OF ACTION & ANTI-CANCER POTENTIAL**\n芬苯達唑的具有多個層面的機制及抗癌潛力 (en-TW)\n\n**A MICROTUBE-TARGETING AGENT (微管標靶藥物)**\n微管標靶藥物\n\nFENBENDAZOLE ACTS AS A MICROTUBE-DESTABILIZING AGENT (芬苯達唑作為微管去穩定\n劑的作用)\n芬苯達唑作為微管去穩定劑的作用\n\nTUBULIN (微管蛋白)\n微管蛋白\n\nMICROTUBULES (微管)\n微管\n\nPOLYMERIZATION (聚合)\n聚合\n\nSTABILIZERS (例如: PACLITACL) (例如:PACLITACL)\n(例如:PACLITACL)\n\nFENBENDAZOLE (AND VINCRISTINE/VINBLASTINE) (芬苯達唑(與維克星/維布斯汀))\n(與維克星/維布斯汀)\n\nINHIBITS POLYMERIZATION (阻斷聚合)\n阻斷聚合\n\nDEPOLYMERIZATION (分解聚合)\n分解聚合/進一步崩解/分解\n(進一步崩解/分解)\n\n**CONCENTRATION (1 μM to 10 μM)**\n濃度 (1 μM to 10 μM)\n\n*   METAPHASES ARREST (分裂期停滯)\n*   APOPTOSIS (凋亡)\n\n**KEY ANTI-CANCER MECHANISMS (主要抗癌機制)**\n\n*   SIGNALING & PROLIFERATION (信號和增殖)\n*   OXIDATIVE STRESS (氧化壓力)\n*   FREE RADICALS (自由基)\n*   INHIBITS CANCER CELL GROWTH (阻斷癌細胞生長)\n*   BLOCKS CANCER CELL GROWTH (阻斷癌細胞生長)\n*   ENHANCES APOPTOSIS (增強凋亡)\n*   INHIBITS CELL PROLIFERATION (阻抑細胞增殖)\n*   INHIBITS CELL PROLIFERATION (阻抑細胞增殖)\n*   ACTIVATES MEK3/6-P38 MAPK PATHWAY (活化MEK3/6-P38 MAPK 通路)\n*   RESTRAINS CELL MIGRATION & METABOLISM (限制細胞遷移和代謝)\n*   RESTRAINS CELL MIGRATION & METABOLISM (限制細胞遷移和代謝)\n*   METABOLISM & MIGRATION (代謝和遷移)\n*   IMPAIRS ENERGY METABOLISM (損害能量代謝)\n*   IMPAIRS ENERGY METABOLISM (損害能量代謝)\n*   GLYCOLYSIS (有氧分解)\n*   GLYCOLYSIS (有氧分解)\n\n\n**BEYOND ONCOLOGY (腫瘤學之外)**\n\n*   POTENTIAL IN TREATING PULMONARY FIBROSIS (潛力在治療肺纖維化)\n*   INHIBITS BLEOMYCIN-INDUCED LUNG FIBROSIS PROGRESSION (阻斷BLEOMYCIN引起\n的肺纖維化進展)\n\n---\n\n**Diagram Descriptions:**\n\n*   **Flowchart:** Illustrates the mechanism of action, showing steps like\nmicrotubule destabilization, G2/M phase arrest, apoptosis, and signaling pa\npathways.\n*   **Boxes with Icons:** Each key mechanism is represented by a box with a\nan icon and a brief description (e.g., a flame icon for oxidative stress).\n*   **Pathway Diagram:** A diagram showing the MEK3/6-P38 MAPK pathway.\n*   **Flowchart:** Illustrates the mechanism of action, showing steps like\nmicrotubule destabilization, G2/M phase arrest, apoptosis, and signaling pa\npathways.\n*   **Table:** Displays the concentration range of fenbendazole.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-ivermectin-drug-resistance-targets-00",
+    "title": "Ivermectin — drug resistance & molecular targets (IMG_6237, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Ivermectin",
+      "Multidrug Resistance",
+      "Cancer Stem Cells",
+      "AKT",
+      "mTOR",
+      "Wnt",
+      "YAP1",
+      "P-glycoprotein",
+      "HSP27",
+      "P2X7"
+    ],
+    "tags": [
+      "ivermectin",
+      "cancer",
+      "multidrug-resistance",
+      "wnt",
+      "akt",
+      "mtor",
+      "yap1"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6237.jpeg"
+      }
+    ],
+    "ocr": "*   **Multidrug Resistance 多重耐藥性**\n*   **Cancer Stem Cells 癌 stem 細胞**\n*   **Akt/mTOR pathway Akt/mTOR 通路**\n*   **Wnt pathway Wnt 通路**\n*   **YAP1 轉譯表達因子 YAP1**\n*   **Mitochondrial dysfunction 線粒體功能障礙**\n*   **P-glycoprotein P-酶蛋白**\n*   **HSP27 phosphorylation HSP27 磷酸化**\n*   **Glutamate-gated chloride channels 麩氨酸 gated 門控氯離子通道**\n*   **NS3 helicase NS3 螺旋酶**\n*   **Taxol 培美替芯**\n*   **Cisplatin 順鉑**\n*   **Paclitaxel 藥杉苷**\n*   **Angiogenesis 血管生成**\n*   **Metastasis 轉移**\n*   **SIN3-interaction domain mimic SIN3相互作用域 構模物**\n\n**Diagram Description:**\n\nThe image is a complex flow chart illustrating the multifaceted mechanisms\nof drug resistance, specifically focusing on the interplay between Ivermectin and various cellular and molecular targets involved in resistance. It demonstrates pathways and processes like Akt/mTOR, Wnt, YAP1, mitochondrial dysfunction, HSP27, glutamate channels, NS3 helicase, a\nand the inhibition of angiogenesis and metastasis. Arrows indicate the direction of interaction and influence between these elements.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-health-comparisons-infographic-00",
+    "title": "Health-related comparisons — oxidative stress & interventions (IMG_6251, bilingual)",
+    "topic": "misc",
+    "document": "",
+    "entities": [
+      "Oxidative Stress",
+      "Adrenochrome",
+      "Ivermectin",
+      "Fenbendazole",
+      "Spermidine",
+      "Calorie Restriction",
+      "Circadian Rhythm"
+    ],
+    "tags": [
+      "comparison",
+      "oxidative-stress",
+      "adrenochrome",
+      "ivermectin",
+      "fenbendazole",
+      "spermidine",
+      "metabolism"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6251.jpeg"
+      }
+    ],
+    "ocr": "**Title:** 健康相關比較 (健康相容性) (Health Related Comparisons (Health Co\nCompatibility))\n\n**Sections & Content:**\n\n1.  **Elevated Resting Metabolic Rate vs. Risks of Uneven Sleep**\n*   A: HIGHER RMR (較高的基礎代謝率)\n*   B: IRREGULAR SLEEP (不規律的睡眠)\n*   Diagram: Running person with increased calorie burning.\n*   Text: Increased Calorie Burning, Health Risks Disrupted Circadian R\nRhythm Metabolic Issues\n\n2.  **Some Oxidative Stress Benefits vs. Unhealthy Overall**\n*   A: SOME OXIDATIVE STRESS (少量氧化壓力)\n*   B: EXCESSIVE OXIDATIVE STRESS (過度氧化壓力)\n*   Diagram:  Several icons of stress/health related icons.\n\n3.  **Trigger Cellular Adaptation**\n*   A: LARGE EVENING MEAL (晚食事)\n*   B: LIGHT EVENING MEAL (輕晚餐)\n*   Text: Strengthen Defenses (劑型效應), Cell Damage & Aging, Chronic\nDiseases\n\n4.  **Adrenochrome “Benefits” vs. Adrenochrome Reality**\n*   A: ADRENOCHROME - SCIENTIFIC VIEW (科學觀點)\n*   B: ADRENOCHROME - PERCEIVED EFFECTS (感知效果)\n*   Diagram:  Microscope and flask with chemical reaction, then a smiling face.\n*   Text: Limited Biological Efficacy, High Spermidine Rich Foods, Hype, Conspiracy Theories, Unproven Benefits\n\n5.  **Soybeans, Wheat germ Mushrooms, Cheese**\n*   A: Soybeans (大豆)\n*   A: Wheat Germ Mushrooms (蘑菇)\n*   A: Cheese (起司)\n*   Text: Focus on Cellular Repair & Longevity, Different Goals (如蔬菜\n, 魚, 甜果)\n\n6.  **Ivermectin/Fenbendazole vs. Cancer Chemotherapy**\n*   A: IVERMECTIN/FENBENDAZOLE (伊維멕汀/苯並曲唑)\n*   B: STANDARD CANCER CHEMOTHERAPY (標準癌症化療)\n*   Diagram:  Cancer cell icon versus chemical compounds.\n\n7.  **Dietary Approaches**\n*   A: Dietary Approaches\n*   B: Dietary Approaches\n*  Diagram: Pyramid, Keto, High-Protein\n\n\n\n**Notes:**\n\n*   The text is predominantly in Chinese.\n*   The image contains various diagrams, icons, and flowcharts to illustrate the concepts being presented.  The overall layout visually represents comparative information about health-related topics.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-neutrophil-adrenochrome-synthesis-00",
+    "title": "Neutrophil-mediated adrenochrome synthesis (IMG_6262, bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Neutrophils",
+      "NADPH Oxidase",
+      "Reactive Oxygen Species",
+      "Epinephrine",
+      "Adrenochrome",
+      "Inflammation"
+    ],
+    "tags": [
+      "adrenochrome",
+      "neutrophils",
+      "inflammation",
+      "ros",
+      "nadph-oxidase",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6262.jpeg"
+      }
+    ],
+    "ocr": "**NEUTROPHIL-MEDIATED ADRENOCROME SYNTHESIS**\n*嗜中性球介導的腎上腺素紅合成經*\n\n**MECHANISM OVERVIEW / 機制概述**\n\n**1 NEUTROPHIL ACTIVATION / 嗜中性球活化**\n*POLYNUCLEAR LEUKOCYTE (PMN) / 多核白血球*\nActivated during inflammation / 在炎症期间活化\nInflammatory Signal / 炎症訊號\n\n**2 ROS PRODUCTION / 產生活性氧氣量 (ROS)**\nNADPH氧化複雜 / NADPH 氧化酶複雜\nReactive Oxygen Species (ROS) / 活性氧 (ROS)\nNeutrophils produce radicals / 嗜中性球產生自由基\nO2, H2O, 廢氣廢水、過氧化化氧、釋氧自由基\n\n**3 ADRENALINE TO ADRENOCROME / 氧化適能劑轉化為腎上腺素紅**\nOxidation Pathway / 氧化途徑\n\n**4 OVERALL CYCLE / 整體循環**\nNeutrophil / 嗜中性球\nBlood Vessel / 血管\nAdrenochrome / 腎上腺素紅\nAdrenaline in Blood / 血中適能劑\nImplications in Inflammation / 在感染中的意義\n\nMajor catabolic pathway in PMNs / 嗜中性球中的主要代謝途徑",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-leukocyte-types-diagram-00",
+    "title": "Types of leukocytes — granulocytes & agranulocytes (IMG_6267, bilingual)",
+    "topic": "blood-cells",
+    "document": "",
+    "entities": [
+      "Neutrophil",
+      "Eosinophil",
+      "Basophil",
+      "Monocyte",
+      "Macrophage",
+      "Dendritic Cells",
+      "Lymphocyte",
+      "T Cells",
+      "B Cells"
+    ],
+    "tags": [
+      "blood-cells",
+      "leukocytes",
+      "hematology",
+      "immunology"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6267.jpeg"
+      }
+    ],
+    "ocr": "**Types of Leukocytes** (白色球型)\n*Neutrophil* 嗜中性白血球\n*Eosinophil* 嗜酸性白血球\n*Basophil* 嗜鹼性白血球\n\n*Monocyte* 單核球\n*Dendritic cell* 樹突細胞\n*Macrophage* 巨噬細胞\n*Lymphocyte* 淋巴球\n*T cell* T細胞\n*B cell* B細胞\n\n**(Diagrams/Elements Description)**\n\nThe image is a diagram illustrating the types of leukocytes (white blood ce\ncells) within the human body. It is divided into two main sections:\n\n1.  **Granulocytes:** This section shows the four main types of granulocytes: Neutrophils, Eosinophils, Basophils, and Dendritic Cells, each with a colored illustration of the cell and its name in both Chinese a\nand English.\n2.  **Acellular Leukocytes:** This section shows the types of lymphocytes -\n- Monocytes, Macrophages, T cells, and B cells, with illustrations and names in both Chinese and English.\n\nThe image also includes logos for \"The Biology\" and \"The Chemistry\" along w\nwith \"Notes\" and \"使用SugarRender 创建\" indicating the image was created wi\nwith SugarRender.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-integrins-rgd-cancer-overview-00",
+    "title": "Integrins, RGD peptides & cancer (IMG_6273, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Integrins",
+      "RGD Peptide",
+      "Cancer",
+      "Cell Adhesion",
+      "Breast Cancer",
+      "Lung Cancer",
+      "Colorectal Cancer"
+    ],
+    "tags": [
+      "integrins",
+      "rgd-peptide",
+      "cancer",
+      "cell-adhesion",
+      "metastasis"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6273.jpeg"
+      }
+    ],
+    "ocr": "**OVERVIEW OF INTEGRINS, RGD PEPTIDES, AND CANCER**\n\n**WHAT ARE INTEGRINS?**\n什麼是整合蛋白？\n細胞外極構域\n跨膜極構域\n細胞內極構域\n\n**CELL ADHESION**\n細胞黏著\nCELL SIGNALING\n細胞發酵\n\n**FREQUENTLY DISREGULATED IN CANCER**\n在癌症中經常失調\n\n**INTEGRINS INTERACTING WITH RGD PEPTIDE IN DIFFERENT CANCERS**\n整合蛋白與RGD肽在不同癌症中的交互作用\n\n*   **BREAST CANCER** (乳癌)\n*   Triple-negative breast cancer (TNBC)\n*   MDA-MB-231\n*   MDA-MB-468\n*   Luminal breast cancer\n*   MCF-7, T47D\n*   αβ3, αβ5, α5β1\n*   **LUNG CANCER** (肺癌)\n*   Non-small cell lung cancer (NSCLC)\n*   A549, H1299, H460\n*   HCC27, PC-9, H1975\n*   Small cell lung cancer (SCLC)\n*   H69\n*   αβ3, αβ5, αβ5\n*   **CERVICAL CANCER** (子宮頸癌)\n*   Squamous cell carcinoma (SCC)\n*   HeLa, SiHa\n*   αβ3, αβ5, α5β1\n*   **COLORECTAL CANCER** (大腸直腸癌)\n*   LHC116, HT-29, SW480, Caco2\n*   Lovo, L5174F, DLD-1, SW480, Colo205\n*   αβ3\n*   **LIVER CANCER** (肝癌)\n*   Hepatocellular carcinoma (HCC)\n*   HepG2, Huh7\n*   αβ3, αβ5, α5β1\n*   **PANCREATIC CANCER** (胰臟癌)\n*   Pancreatic ductal adenocarcinoma (PDA)\n*   PINC-1, Mia PaCa-2\n*   BxPC-3, AsPC-1\n*   αβ3, αβ5, α5β1\n*   **RECURRENT CELL (RCC)** (復發性細胞)\n*   Renal cell carcinoma (RCC)\n*   786-O, 4609\n*   αβ3, αβ5, α5β1\n\n**Diagram Descriptions:**\n\n*   **Integrin Structure:** A diagram shows a simplified representation of\nan integrin molecule with extracellular domains (α and β), a transmembrane\ndomain, and an intracellular domain.  This illustrates the key domains that contribute to its function.\n*   **RGD Peptide Binding:**  A diagram depicting RGD peptide binding to an integrin, illustrating the interaction between the two molecules through the RGD motif.\n*   **Cancer Types:** A list of cancer types (Breast, Lung, Cervical, Colorectal, Liver, Pancreatic, Renal) are listed with specific cancer cell\nlines associated with each type.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-gut-microbiota-aging-summary-00",
+    "title": "Gut microbiome & aging — findings summary (IMG_6274, bilingual)",
+    "topic": "senescence",
+    "document": "",
+    "entities": [
+      "Aging",
+      "Gut Microbiota",
+      "Microbiome",
+      "Longevity",
+      "Faecalibacterium",
+      "Cognitive Function"
+    ],
+    "tags": [
+      "aging",
+      "microbiome",
+      "gut-microbiota",
+      "longevity",
+      "senescence"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6274.jpeg"
+      }
+    ],
+    "ocr": "**SUMMARY OF AGE-RELATED FINDINGS**\n**腸道菌群指標在年龄相關研究發現摘要 (ZH-TW)**\n\n**(A) LONG-LIVED INDIVIDUALS (LL) 長壽個體 (LL)**\n\n*   **ALPHA DIVERSITY 內顯多樣性** - 60%\n*   5/5 studies - Differences between LL & younger groups (LL - YO, ADT) (L\n(LL - YO, ADT, 老人-年輕, 老人-成年) - 48%\n*   8/8 studies - Differences between LL and younger groups (LL - YO, ADT)\n*   **BETA DIVERSITY 良性多樣性** - 60%\n*   5/7 studies - Differences between LL and younger groups (LL - YO, ADT,\n老人-年輕, 老人-成年)\n*   8/8 studies -  KEEG studies - taxonomic differences, functional potential & metabolites\n*   **TAXONOMIC DIFFERENCES 物種分類差異** - 5/7 studies\n*   LL: *Proteobacteria*, *Firmicutes*, *Actinobacteria*, *Bacteroides*\n*Bacteroides*, *Faecalibacterium*, *Prevailibacterium*\n*   **FUNCTIONAL POTENTIAL & METABOLITES 功能潛力與代謝物功能能力測析測析**\n** - 4/4 studies\n*   YO: Central energy metabolism, biosynthesis, genetic information pr\nprocessing, metabolite production, lactate, short-chain fatty acids, amino\nacid metabolism\n\n**(B) LIFESPAN | 壽命**\n\n*   **ALPHA DIVERSITY 內顯多樣性** – higher in YO and LL\n*   Lowest at infancy, stable across adulthood, significant variance in older decades, community dwelling, long-term care YO\n*   Aging explains significant variance. Community dwelling. Long term care YO\n*   **BETA DIVERSITY 良性多樣性** - Infants Actinobacteria highest\n*   YO: *Proteobacteria*, *Bacteroides*, *Faecalibacterium*\n*   Specific *Lactobacillus* species\n*   *Faecalibacterium* prausnitzii\n*   Long term across lifespan\n*   **TAXONOMIC DIFFERENCES 物種分類差異** – changes across lifespan\n*   YO: *Actinobacteria*, *Bacteroides*, *Faecalibacterium*\n*   Specific *Lactobacillus* species\n*   *Faecalibacterium* prausnitzii\n*   Long term across lifespan\n*   **FUNCTIONAL POTENTIAL & METABOLITES 功能潛力與代謝物功能能力測析測析**\n** – YO changes\n*   YO: drug transporters, phosphate synthesis, bile acid metabolism, g\ngenetic mechanisms, amino acid production genes, short-chain fatty acids\n*   Changes in metabolism\n\n**(C) COGNITION 認知**\n\n*   Limited studies – studies of changes across lifespan\n*   Similar to findings in LL and lifespan\n\n**(D) DIETARY FACTORS 飲食因素**\n\n*   Limited studies – studies of changes across lifespan\n\n**(E) METABOLIC FACTORS 代謝因素**\n\n*   Limited studies – studies of changes across lifespan\n\n**(F)  KEY FINDINGS 主要發現**\n\n*   Microbiota diversity declines with age.\n*   Changes in metabolic function.\n*   Aging affects gene regulation\n\n**Diagram Descriptions:**\n\n*   **Flow Charts/Diagrams (A, B, C, D, E, F):** Each section (A, B, C, D,\nE, F) is represented by a distinct diagram with icons and arrows illustrating the age-related findings.\n*   **Tables/Graphs (within diagrams):** Small graphs/tables are used to di\ndisplay data such as alpha and beta diversity percentages, and key microbial groups.\n*   **Color Coding:** Different colors are used to indicate changes in diversity and metabolic pathways.\n*   **Icons:**  Common icons are utilized representing bacteria, genes, metabolites, and metabolic processes.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-rgd-nanoparticle-cancer-targeting-00",
+    "title": "RGD cancer targeting — nanoparticle endocytosis (IMG_6275, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "RGD Peptide",
+      "Integrins",
+      "Nanoparticles",
+      "Cancer",
+      "Endocytosis"
+    ],
+    "tags": [
+      "rgd-peptide",
+      "cancer",
+      "nanoparticles",
+      "drug-delivery",
+      "integrins"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6275.PNG"
+      }
+    ],
+    "ocr": "**Application of RGD in cancer targeting**\n**RGD 在癌症標靶治療中的應用**\n\nDiagram Description:\n\nThe image depicts a cell interacting with nanoparticles. The nanoparticles\nare decorated with coiled structures labeled \"RGD\" (likely representing Arg-Gly-Asp), which are shown mediating endocytosis – the process where the cell engulfs the nanoparticles.  Several cellular components are illustrated, including:\n\n*   A cell with various organelles (nucleus, cytoplasm, etc.).\n*   Highlighted integrin receptors (αvβs, αsβ1, etc.) which are overexpressed in cancer cells.\n*   Possible drug, imaging agent, and stabilizing agent payloads.\n*   A representation of a possible nanocarrier.\n*   Arrows indicating the direction of endocytosis.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-wbc-count-variations-00",
+    "title": "WBC count — normal ranges & physiological variations (IMG_6276, bilingual)",
+    "topic": "blood-cells",
+    "document": "",
+    "entities": [
+      "White Blood Cells",
+      "Leukocytes",
+      "Hematology"
+    ],
+    "tags": [
+      "wbc",
+      "leukocytes",
+      "blood-cells",
+      "hematology",
+      "physiology"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6276.jpeg"
+      }
+    ],
+    "ocr": "WBC COUNT VARIATIONS | 白血球計數變化 (白血球在生理變化)\n\nNORMAL WBC RANGE (ADULTS) | 成人正常白血球計數範圍\n—\n4,000 – 11,000 WBCs per microliter (WBCs/µL) | 每微升 4,000 – 11,000個 (WBCs/µL)\n\nPhysiological Variations of Leukocytes (WBC Count) | 白血球數的生理變化\n\n1. AGE | 年齡\n* Infant (嬰兒): >20,000, 20,000/µL\n* Children (兒童): 5,000-15,000, 5,000/µL\n* Adult (成人): 4,000-11,000, 4,000/µL\n\n2. SEX | 性別\n* Males: Slightly higher count than females. (男性: 一般比較多白血球)\n\n3. EMOTIONAL STRESS | 情绪壓力\n* Emotional Stress: Increases count. (情緒壓力：增加白血球數)\n\n4. EXERCISE | 運動\n* Exercise: Count increases after exercise. (運動後計數增加)\n\n5. SLEEP | 睡眠\n* Sleep: Count decreases during sleep. (睡眠：睡眠期間計數減少)\n\n6. PREGNANCY | 懷孕\n* Pregnancy: Count increases during pregnancy. (懷孕：懷孕期間計數增加)",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-inflammation-adrenochrome-formation-00",
+    "title": "Inflammation & adrenochrome formation — connection map (IMG_6282, bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Inflammation",
+      "Adrenochrome",
+      "Reactive Oxygen Species",
+      "Myeloperoxidase",
+      "Neutrophils",
+      "Epinephrine",
+      "Oxidative Stress"
+    ],
+    "tags": [
+      "inflammation",
+      "adrenochrome",
+      "myeloperoxidase",
+      "neutrophils",
+      "ros",
+      "oxidative-stress"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6282.jpeg"
+      }
+    ],
+    "ocr": "**Main Title:**\nINFLAMMATION AND\n發炎與腎上腺素形成\n\n**Subtitles & Text Blocks:**\n\n*   Harmful Stimuli\n有害刺激：病原體、受損細胞\n*   Neutrophil Recruitment\n嗜中性球募集\n*   Role in Adrenochrome Formation\n在腎上腺素紅形成中的作用\n*   Common Tissue Sites\n常見組織部位\n*   Acute vs. Chronic Inflammation\n急性 vs. 慢性發炎\n*   Summary of Connections\n總結連接\n\n**Smaller Text Elements & Labels:**\n\n*   Superoxide anion (O2-)\n過氧化陰離子\n*   Rhotic 氣旋\n*   Hydrogen peroxide (H2O2)\n過氧化氫\n*   ROS (Reactive Oxygen Species)\n活性氧\n*   Epinephrine (Adrenaline)\n腎上腺素 (腎上腺素)\n*   Myeloperoxidase (MPO)\n髓過氧化酶\n*   Lungs (e.g., pneumonia, ARDS)\n肺 (例如：肺炎、ARDS)\n*   Heart (e.g., myocarditis, infarction)\n心臟 (例如：心肌炎、心肌梗塞)\n*   Acute: Rapid Adrenochrome\n急性: 快速產生腎上腺素 (免疫反應高峰)\n*   Chronic: Gradual ‘Inflammaging’, Neuromelan Accumulation\n慢性: 逐漸“發炎老化”、神經色素素積累\n*   Inflammation in links tor init  ↔ Adrenochrome ↔ Oxidative Stress\n炎症在初始化鏈、腎上腺素和氧化性壓力之間\n*   Reactive Oxygen Stress\n活性氧壓力\n*   Myeloperoxidase\n髓過氧化酶\n\n**Diagram Descriptions:**\n\n1.  **Circular Diagram with Red Circle:** This central diagram depicts the\nkey players in adrenochrome formation. It illustrates the following connections:\n*   **Superoxide anion (O2-)** and **Rhotic 氣旋** leading to **ROS** (\n(Reactive Oxygen Species).\n*   **ROS** leading to **Oxidation of Epinephrine**.\n*   **Myeloperoxidase (MPO)** is shown as contributing to the oxidative environment.\n*   **Epinephrine (Adrenaline)** is shown as a product.\n\n2.  **Two Parallel Columns:**  These columns represent the comparison of ac\nacute and chronic inflammation:\n*   **Left Column:** Describes acute inflammation with \"Rapid Adrenochrome Production (peak response).\"\n*   **Right Column:** Describes chronic inflammation with \"Gradual 'Inflammaging', Neuromelan Accumulation.\"\n\n3. **Flowchart Diagram**: Shows the connections with arrows: Inflammation →\n→ Neutrophils → Adrenochrome → Oxidative Stress. It highlights the cyclical and interconnected nature of these processes.  A single arrow indicates the flow of influence between these elements.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-vaccines-inflammation-immune-response-00",
+    "title": "Vaccines & inflammation — immune activation (IMG_6283, bilingual)",
+    "topic": "misc",
+    "document": "",
+    "entities": [
+      "Inflammation",
+      "Immune System",
+      "Dendritic Cells",
+      "Macrophages",
+      "Vaccination",
+      "Cytokines"
+    ],
+    "tags": [
+      "vaccines",
+      "inflammation",
+      "immune-response",
+      "adjuvants",
+      "immunology"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6283.jpeg"
+      }
+    ],
+    "ocr": "**Title:** The Relationship Between Vaccines & Inflammation\n\n**Subtitle:** 疫苗與突發性的關係\n\n**Distinguishing Concepts (区分概念):**\n\n*   PATHOLOGICAL INFLAMMATION: 病理性發炎 (Causes tissue damage) (導致組織損\n傷)\n*   IMMUNOLOGICAL ACTIVATION: 免疫激活 (Intended Goal of Vaccination) (疫苗\n的预期目标)\n\n**1. The Role of the Vaccine (疫苗的作用)**\n\n*   **1. THE “DANGER” SIGNAL 訊息:**\n*   Body recognizes antigens as foreign. (身體將抗原判定為外來物)\n*   Cytokines & chemokines released. (釋放氣體和化學素)\n*   Localized inflammatory response triggered. (引發局部發炎反應)\n\n*   **2. RECRUITMENT 招募:**\n*   Signal flares draw immune cells. (訊號火花吸引免疫細胞)\n*   Dendritic cells, macrophages ‘capture’ antigens. (樹突細胞、巨噬細胞\n‘捕捉’抗原)\n*   Transported to lymph nodes to prime the adaptive system (B cells, T cells). (運送到淋巴節來激活適應系統)\n*   導致淋巴節性赤紅(B-細胞) –\n\n*   **3. SIDE EFFECTS ARE THE IMMUNE RESPONSE 副作用是免疫反應**\n*   Clinical signs of controlled inflammation, low-grade fever. (發燒過\n高的臨床表現)\n*   Redness, swelling, soreness, low-grade fever. (紅腫、腫脹、疼痛、輕\n微發燒)\n*   Indicates active immune work. (表明免疫系統正在作實際作用)\n\n**2. Adjuvants: Purposeful Inflammation (佐劑：有目的的發炎)**\n\n*   Enhance body’s immune response, 增强身體的免疫反應\n*   E.g., Alumimum salts (considered safe by FDA/CDC). (例如：鋁鹽(FDA/CDC 認為安全)\n*   'Depot' Effect (Slower release). (釋放速度慢)\n\n*   STIMULATE INNATE SYSTEM for stronger, longer-lasting protection. (刺激先\n天免疫系統，提供更強、更持久的保護)",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-mtor-pathway-master-regulator-00",
+    "title": "mTOR pathway — master regulator of growth & metabolism (IMG_6284, bilingual)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "mTOR",
+      "mTORC1",
+      "AMPK",
+      "PI3K",
+      "AKT",
+      "PTEN",
+      "TSC1",
+      "Rheb",
+      "Autophagy",
+      "TFEB"
+    ],
+    "tags": [
+      "mtor",
+      "mtorc1",
+      "ampk",
+      "autophagy",
+      "metabolism",
+      "protein-synthesis",
+      "growth"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6284.jpeg"
+      }
+    ],
+    "ocr": "**Title:** UNDERSTANDING THE mTOR PATHWAY\n**Japanese Title:** 瞭解 mTOR 通路 (瞭解働き素作用機制點)\n**English Translation of Title:** Understanding the mTOR Pathway (Understanding Mechanism of Action of mTOR)\n\n**Subtitle:** MASTER REGULATOR OF CELL GROWTH & METABOLISM\n**Japanese Translation of Subtitle:** 細胞生長與代謝的控制調節因子\n**English Translation of Subtitle:** Master Regulator of Cell Growth & Metabolism\n\n**Text Description:** INTEGRATES EXTERNAL SIGNALS TO CONTROL ANABOLIC AND C\nCATABOLIC PROCESSES\n**Japanese Text:** 整合外部信號以控制代造和異化代謝過程\n**English Translation:** Integrates external signals to control anabolic an\nand catabolic processes\n\n**Note:** HIGHLY CONSERVED FROM YEAST TO HUMANS\n**Japanese Text:** 従野生株到人類高度保存\n**English Translation:** Highly conserved from yeast to humans\n\n**Upstream Regulators**\n**Text:** 上游調節因子\n**Diagram Description:** A diagram showing the following pathways:\n*   **Growth Factors / Insulin:** A circular diagram showing insulin, PI3K,\nPI3K, Akt, and T.\n*   **PTEN:** A linear pathway depicting PTEN inhibiting PI3K.\n*   **TSC1/2:** A linear pathway depicting TSC1/2 as a negative regulator.\n*   **Rheb:** A linear pathway depicting Rheb activating mTORC1.\n\n**Downstream Effects**\n**Text:** 下游效果\n**Diagram Description:** A diagram showing the following pathways:\n*   **Protein Synthesis:** Showing Phosphorylates 4E-BP1 (releases eIF4E),\nPhosphorylates S6K1 (activates S6)\n*   **Autophagy Suppression:** Showing Phosphorylates ULK1 & TFEB\n*   **Metabolism:**  Showing Promotes Glycolysis, Promotes Lipid Synthesis\n(SREBPs), Improves Mitochondrial Function\n*   **Cell Growth, Survival:** Showing Cell Growth, Proliferation, Survival\n\n**Nutrients (Amino acids)**\n**Text:** 營養素 (胺基酸)\n**Description:** A block displaying the following:\n*   **Amino Acids:** A list of Amino acids.\n*   **Rag GTPases:**  A description of Rag GTPases recruiting mTORC1 to lysosomes.\n*   **mTORC1:**  Describes mTORC1 as the central hub.\n\n**Energy Status**\n**Text:** 能量狀況\n**Description:** A block showing:\n*   **Low ATP / Low Energy:**  An icon depicting low energy.\n*   **AMPK:**  Describes AMPK inhibiting mTORC1.\n\n**Stress / Low Oxygen**\n**Text:** 壓力/缺氧\n**Description:** An icon depicting stress.\n*   **Suppresses mTORC1:**  Describes suppression of mTORC1.\n\n**OVERALL SCENARIO**\n**Text:** 總體情況\n**Description:** An icon of a magnifying glass.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-mtor-complexes-mtorc1-mtorc2-00",
+    "title": "mTORC1 vs mTORC2 — complexes, components & effects (IMG_6285, bilingual)",
+    "topic": "autophagy",
+    "document": "",
+    "entities": [
+      "mTOR",
+      "mTORC1",
+      "mTORC2",
+      "Raptor",
+      "Rictor",
+      "AKT",
+      "S6K1",
+      "4E-BP1",
+      "Autophagy"
+    ],
+    "tags": [
+      "mtor",
+      "mtorc1",
+      "mtorc2",
+      "rapamycin",
+      "autophagy",
+      "growth-signaling"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6285.jpeg"
+      }
+    ],
+    "ocr": "**Title:** 了解一下 mTOR 蛋白複合物 | Understanding mTOR Complexes\n\n**Introductory Text:** mTOR - 是一種形成可能對複製細胞的適應。\n\n**Diagram 1: mTORC1**\n\n*   **Caption:** mTOR Complex 1\n*   簡單動情但敏感至蛋白質複合物 1\n*   **Components:**\n*   Raptor\n*   mLST8\n*   PRAS40\n*   DEPTOR\n*   **Core Components:** (translated) 核心組成部分\n*   SENSITIVITY TO RAPAMYCIN 對拉帕替尼的敏感性\n*   HIGH 高\n*   GROWTH FACTORS (e.g., Insulin) 生長因子 (例如：胰島素)\n*   ENERGY (ATP) 能量 (ATP)\n*   NUTRIENTS (Amino Acids like Leucine) 營養物質 (如氨基酸，如亮氨酸)\n*   **Cellular Effects & Key Substrates:** (translated) 細胞性影響及關鍵底物\n\n*   PROTEIN SYNTHESIS 蛋白質合成\n*   LIPID SYNTHESIS 脂類合成\n*   NUCLEOTIDE SYNTHESIS 核苷酸合成\n*   RIBOSOME 生物合成\n*   INHIBITS AUTOPHAGY 抑制自噬\n*   **Key Substrates:** (translated) 關鍵底物\n*   4E-BP1, SGK1 4E-BP1, SGK1\n\n**Diagram 2: mTORC2**\n\n*   **Caption:** mTOR Complex 2\n*   簡單動情但敏感至蛋白質複合物 2\n*   **Components:**\n*   Rictor\n*   mSIN1\n*   mLST8\n*   DEPTOR\n*   Protor\n*   **Core Components:** (translated) 核心組成部分\n*   SENSITIVITY TO RAPAMYCIN 對拉帕替尼的敏感性\n*   LESS SENSITIVE (Acute) 較不敏感 (急性)\n*   GROWTH FACTORS (e.g., IGF-1) 生長因子 (例如：IGF-1)\n*   **Cellular Effects & Key Substrates:** (translated) 細胞性影響及關鍵底物\n\n*   INSULIN SIGNALING 胰島素信號\n*   CELLULAR VITAL AKT (Ser473) 細胞細胞活力 AKT (Ser473)\n*   CYTOSTELETAL ORGANIZATION (Actin Remodeling) 細胞細胞組織 (肌動蛋白\n重塑)\n*   PHOSPHORYLATES S6K1 & PKC 磷酸化 S6K1 和 PKC\n*   **Key Substrates:** (translated) 關鍵底物\n*   Akt, SGK1, PKC\n\n**Diagram 3: Flow Charts/Arrows**\n\n*   Showing interconnected pathways: Arrows indicating flow from mTORC1/C2\nto Akt, PKC, and subsequent metabolic effects.\n\n**General Notes:**\n\n*   The image contains labeled diagrams illustrating the flow of information and molecules within mTOR signaling pathways.\n*   Color coding is used to differentiate between various components and pr\nprocesses.\n*   Key terms are labeled with their English translations.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-tumor-formation-cancer-types-00",
+    "title": "Tumor formation & common cancer types (IMG_6286, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Cancer",
+      "Tumor",
+      "Apoptosis",
+      "Angiogenesis",
+      "Proto-oncogene",
+      "Tumor Suppressor",
+      "Carcinoma",
+      "Melanoma"
+    ],
+    "tags": [
+      "cancer",
+      "tumor",
+      "carcinogenesis",
+      "oncology",
+      "mutations"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6286.jpeg"
+      }
+    ],
+    "ocr": "**Title:** HOW TUMORS AND COMMON CANCER TYPES\n(超細胞行為形成與常見癌症類型)\n\n**How Tumors Form (腫瘤形成)**\n\n*   Cells dividing with checkpoints controlled by the checkpoints controlled by genes like proto-oncogenes and tumor suppressors.\n*   Genetics 遺伝\n*   Smoking 吸煙\n*   UV Radiation 紫外線\n*   Chemicals 化学品\n*   Aging 老齡化\n*   Random Errors 隨機錯誤\n\n**Mutation Sources (突變來源)**\n\n*   Mutated mutations 突變\n*   Inflammation 炎症\n*   Viruses (e.g., HPV DNA) 病毒 (例如，HPV DNA)\n\n**Disrupted Cycle (細胞周期形狀 (腫瘤))**\n\nAccumulated DNA mutations occur\n\n1.  UNCONTROLLED PROLIFERATION 狂暴倍增細胞\n2.  AVOID APOPTOSIS 避免細胞死亡\n3.  SYSTEM ANGIOGENESIS 建立血管\n\n**Common Cancer Types (常見癌症類型)**\n\n*   **CARCINOMA (上皮細胞癌)**: Epithelial cells, skin, linings, breast, lu\nlung, prostate, colorectal\n例如：乳癌、肺癌、前列腺癌、大腸癌\n*   **LEUKEMIA (白血病)**: Blood-forming tissues. Acute myeloid leukemia.\n例如：急性骨髓白血球白血病\n*   **MYELOΜΑ (骨髓瘤)**: Plasma cells, Multiple myeloma\n例如：多發性骨髓瘤\n*   **MELANOMA (黑色素瘤)**: Melanocytes, pigment cells, skin melanoma\n例如：皮膚黑色素瘤\n\n*   **SARCOMA (肉瘤)**: Connective tissue, bone, muscle, osteosarcoma, leiomyosarcoma\n例如：骨肉瘤、肌肉瘤\n\n**Common Symptoms (常見症狀)**\n\n*   Lump or swelling 腫瘤或腫脹\n*   Unexplained weight loss 體重減輕\n*   Fatigue 疲勞\n*   Skin changes (e.g., rash, discoloration) 皮膚變化 (例如，疹子、色素沉澱\n)\n*   Changes in bowel habits (e.g., diarrhea, constipation) 改變腸道習慣 (例\n如，腹瀉、便秘)\n*   Pain 疼痛\n*   Night sweats 盜汗\n*   Fever 發燒\n*   Persistent weakness 慢性疲勞\n*   Increased thirst/ urination 增加口渴/尿量\n\n**Diagram Description:**\n\nThe image contains a flow chart illustrating the development of tumors. It\nshows a normal cell and then a \"disrupted cycle\" cell with accumulated DNA\nmutations. The chart highlights key processes such as uncontrolled proliferation, apoptosis avoidance, and angiogenesis. Additionally, it lists common cancer types (carcinoma, leukemia, myeloma, sarcoma, melanoma)\nmelanoma) and their associated symptoms.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-apoptosis-pathways-overview-00",
+    "title": "Mechanisms of apoptosis — intrinsic & extrinsic pathways (IMG_6310, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Apoptosis",
+      "Caspase-9",
+      "Caspase-3",
+      "Cytochrome c",
+      "Bax",
+      "MOMP",
+      "Death Receptor",
+      "TNF-alpha",
+      "Fas"
+    ],
+    "tags": [
+      "apoptosis",
+      "caspases",
+      "mitochondria",
+      "cancer",
+      "cell-death"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6310.jpeg"
+      }
+    ],
+    "ocr": "**Title:** MECHANISMS OF APOPTOSIS / 消亡機制\n\n**Text in Chinese:**\n\napoptosis occurs via two interconnected pathways converging on caspases, t\nthe \"executioner\" enzymes. 凋亡進程用兩個互相連繫的途徑進程，最終會受控制於\n級蛋白（caspases）的激活。\n\n**Sections and Text Breakdown:**\n\n**1. INTRINSIC (MITOCHONDRIAL) PATHWAY / 內顯性 (微粒體) 途徑**\n\n*   **Triggers / 觸發因素:** DNA damage; Cytochrome c release; Growth factor deprivation; Chemotherapeutic agents\n*   **Pre-apoptotic (p53) /  apoptotic前**\n*   Bax/Bak\n*   MOMP (Mitochondrial Permeabilization)\n*   **Cytochrome c / 級蛋白 c**\n*   **Procaspase-9 with Acaspase-9**\n\n**2. EXTRINSIC (DEATH RECEPTOR) PATHWAY / 外顯性 (死亡受體) 途徑**\n\n*   **Triggers / 觸發因素:** FasL, TNF-α, TRAIL\n*   **Death Receptor / 死亡受體**\n*   DISC (Death-inducing Signaling Complex)\n*   **Adapter Proteins / 適配蛋白** (e.g., FADD)\n*   **Initiator Caspases / 啟動級蛋白 (Caspase-8, 9)**\n*   **Executioner Caspases / 執行級蛋白 (Caspase-3, 6, 7)**\n*   **Cleave Bid to tBid / 裂解 Bid 為 tBid**\n*   **Cross-talk / 交叉訊息** Amplifies signals via the death pathway.  / 透\n過死亡途徑放大訊息。\n*   **DNA Laddering / DNA 階梯化**\n*   **Cell Dismantling / 细胞消亡** –  fragmentation, compaction. / 碎片化、\n緊縮。\n\n**EXECUTION PHASE / 執行階段**\n\n*   Initiator Caspases (8, 9) activate / 啟動級蛋白（8, 9）激活\n*   Executioner Caspases (3, 6, 7) amplify / 執行級蛋白（3, 6, 7）放大\n*   IAPs (X-IAP, survival) / IAPs (X-IAP, 生存)\n*   IAPs (X-IAP, survival) / IAPs (X-IAP, 生存)\n\n**Diagram Description:**\n\n*   The image contains a flowchart-style diagram illustrating the two main\npathways of apoptosis (intrinsic and extrinsic) with numerous interconnected components.\n*   Boxes represent various proteins, molecules, or cellular processes involved in the apoptotic cascade.\n*   Arrows indicate the flow of events and interactions between these components.\n*   Color-coding is used to differentiate between the two pathways.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-apoptosis-intrinsic-bcl2-pathway-00",
+    "title": "Intrinsic apoptosis — BCL-2 family & mitochondrial pathway (IMG_6311)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Apoptosis",
+      "BCL-2",
+      "Bax",
+      "Bak",
+      "Bim",
+      "MOMP",
+      "Cytochrome c",
+      "Apaf-1",
+      "Caspase-9"
+    ],
+    "tags": [
+      "apoptosis",
+      "bcl-2",
+      "mitochondria",
+      "caspases",
+      "intrinsic-pathway"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6311.jpeg"
+      }
+    ],
+    "ocr": "यहां छवि में मौजूद सभी दिखने वाले टेक्स्ट काTranscription:\n\n**मुख्य शीर्षक:** 凋亡機制 (jiāo dingtè jīzhì) - Mechanisms of Apoptosis\n\n**परिचय:** Apoptosis triggered via two interconnected pathways converging o\non the activation of key \"executor\" enzymes CASPASES (cytosolic proteases).\nproteases).\n\n**पथ 1: अंतrinsic (Intrinsinc) पथ (Intrinsic (Mitochondrial) Pathway):**  A\nApoptosis is triggered by two interconnected pathways converging on the activation of key “executor” enzymes CASPASES (cytosolic proteases).\n\n**चरण 1: आंतरिक कोशिकात तनाव (Internal Cellular Stresses):**\n* DNA damage - डीएनए क्षति\n* DNA損傷 (DNA損傷)\n* Onconeogenesis activation - ऑन्कोजेनेसिस सक्रियण\n* Oxidative stress - ऑक्सीडेटिव तनाव\n* Hypoxia - हाइपोक्सिया\n* Growth factor depletion - वृद्धि कारक की कमी\n* Chemotherapeutic agents - कीमोथेरेपी एजेंट\n\n**चरण 2: BCL-2 परिवार की प्रोटीन का सक्रियण (Activation of BCL-2 Family Proteins):**\n* Bak - बेक\n* BIm - बीम\n* Puma - पुमा\n* Noxa - नोक्सा\n* Pro-apoptotic members - प्रो-एपोप्टोटिक सदस्य\n\n**चरण 3: माइटोकॉन्ड्रिया की बाहरी झिल्ली का पारगम्यता में वृद्धि (Mitochondrial Outer Membrane Permeabilization (MOMP)):**\n* Mitochondrial - माइटोकॉन्ड्रिया\n* Cytosol - साइटोसोल\n\n**चरण 4: Apoptosome Formation & Caspase-9 Activation - Apoptosome निर्माण औ\nऔर Caspase-9 सक्रियण:**\n* Cytochrome c + Apaf-1 + Procaspase-9 - साइटोक्रोम सी + Apaf-1 + प्रोकास्प्रोकास्पाज-9\n* Forms Apoptosome - एपटोसोम बनाता है\n* Activating Initiator Caspase-9 - सक्रिय करने वाला इनिशिएटर Caspase-9\n\n**चरण 5: निष्पादन Caspase सक्रियण (Activation of Executioner Caspases):**\n* Activated Caspase-9 activates Executioner Caspases (3, 6, 7) - सक्रिय Caspase-9 सक्रिय निष्पादन Caspases (3, 6, 7)\n\n**चरण 6: सेल वि dismantling (Cell Dismantling (Execution Phase)):**\n* Protein cleavage - प्रोटीन क्लीवेज\n* DNA Laddering (DNases) - डीएनए Laddering (DNases)\n* Apoptotic features - एपोटोटिक सुविधाएँ: shrinkage, membrane blebbing - सि\nसिकुड़न, झिल्ली ब्लिabbing\n* APOPTOSOME BODIES - एपटोसोम बॉडीज\n\n**डिजाग्रेफ डिस्क्रिप्शन:**\n* Several circular diagrams depicting the steps of the intrinsic apoptotic\npathway.\n*  A depiction of the mitochondrial outer membrane permeabilization (MOMP)\nwith arrows showing the release of cytochrome c.\n*  Images representing DNA laddering (DNases).\n*  A visual representation of Apoptosome formation and caspase activation.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-apoptosis-physiological-pathological-00",
+    "title": "Apoptosis — physiological & pathological conditions (IMG_6312, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Apoptosis",
+      "Cancer",
+      "Immune Response",
+      "Neurodegeneration",
+      "Viral Infection",
+      "Cell Death"
+    ],
+    "tags": [
+      "apoptosis",
+      "cell-death",
+      "cancer",
+      "development",
+      "neurodegeneration",
+      "pathology"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6312.jpeg"
+      }
+    ],
+    "ocr": "**CONDITIONS INVOLVING PROGRAMMED CELL APOPTOSIS (程式性細胞死亡) / (Programmed Cell Death) (招牌的狀況)**\n\n**PHYSIOLOGICAL (Normal Processes) (病理狀況)**\n\n*   EMBRYONIC DEVELOPMENT (胚胎發育) / TISSUE SCULPTING (造像)\n*   e.g., sculpting tissue like digits (例如：塑造類似手指的組織)\n*   PHYSIOLOGIC INVOLUTION (生理 involution)\n*   (A) Shedding of the Endometrium (子宮線膜退化) (Menstruation)\n*   (B) Regression of Lactating Breast (泌乳乳房退化)\n\n**PATHOLOGICAL (Disease & Injury) (疾病與損傷)**\n\n*   ANTICANCER DRUG-INDUCED TUMOR CELL DEATH (抗癌藥物誘導腫瘤細胞死亡)\n*   Cytotoxic cell killing (細胞毒性細胞殺滅)\n*   e.g., Immune rejection (例如：免疫排斥)\n*   VIRUS-INDUCED CELL DEATH (病毒誘導細胞死亡) (HIV Infection, Hepatitis)\n*   PROGRESSIVE DELETION OF CD4+ CELLS IN AIDS (艾滋病中CD4+ 細胞的遞減)\n*   Hepatitis or Cirrhosis (肝炎或纖維化)\n*   PATHOLOGIC ATROPHY OF ORGANS (器官纖維化)\n*   Stimuli removal, e.g., prostatectomy (攝尿手術, 例如：移除睪丸後)\n*   CELL DEATH DUE TO INNIOUS AGENTS (因有害物質引起的細胞死亡)\n*   Radiation (輻射)\n*   Hypoxia (缺氧)\n*   Mild Thermal Injury (輕度熱傷)\n*   CELL DEATH IN DEGENERATIVE DISEASES (退化性疾病的細胞死亡)\n*   Alzheimer's, Parkinson's disease (阿茲海默氏症, 帕金森氏症)\n*   Heart cell death from infarction (梗塞引起的心臟細胞死亡)\n\n**Other Notes**\n\n*   A diagram showing the process of cell death with directional arrows.\n*   A small graphic of a cell.\n*   The title \"UNDERSTANDING APOPTOSIS\" (理解凋亡) is present, but not transcribed as it is a label on the image.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-apoptosis-evasion-cancer-00",
+    "title": "Evading apoptosis in cancer — deregulated pathways (IMG_6317, bilingual)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Apoptosis",
+      "BCL-2",
+      "Bax",
+      "Bak",
+      "p53",
+      "IAP",
+      "Cancer",
+      "Caspase"
+    ],
+    "tags": [
+      "apoptosis",
+      "cancer",
+      "bcl-2",
+      "p53",
+      "caspases",
+      "iap"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "IMG_6317.jpeg"
+      }
+    ],
+    "ocr": "*   **Reduced expression of death receptor** 死後表達環保\n*   **Reduced expression of death signals** 死後表達環保\n*   **Impaired receptor signaling pathway** 受後信號通路受損\n*   **Expression of decoy receptor without death domain** 表達無死域信號\n*   **抗凋亡蛋白過度表達** Overexpression of antiapoptotic proteins\n*   **促凋亡蛋白表達不足** Underexpression of apoptotic proteins\n*   **Group I** Bcl-2, Bcl-XL, Mcl-1, Bcl-w, A1/Bf-1, BclB/Bcl2L10\n*   **Group II** Bid, Bim, Bax, Bak, Puma, Noxa, Bad, Bmf, Hrk, Bik\n*   **Group III**\n*   **p53缺陷/突變** Defects/mutations in p53\n*   **Disregulated Apoptosis** 細胞凋亡失調\n*   **Reduced expression of caspases** 降低表達的促細胞凋亡蛋白\n*   **IAPs表達增加** Increased expression of IAPs\n*   **Bok/Mtd**",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-ivermectin-dec-microfilariae-graph-00",
+    "title": "Ivermectin vs DEC — geometric mean microfilariae over time (Fig 4)",
+    "topic": "cancer",
+    "document": "",
+    "entities": [
+      "Ivermectin",
+      "Microfilariae",
+      "Onchocerciasis",
+      "Diethylcarbamazine"
+    ],
+    "tags": [
+      "ivermectin",
+      "onchocerciasis",
+      "microfilariae",
+      "dec",
+      "clinical-trial"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "ivermectin_pjab-87-013-g004.jpeg"
+      }
+    ],
+    "ocr": "**Title:** Geometric mean microfilariae\n\n**Legend:**\n*   Ivermectin (single 12 mg dose) – Diamonds\n*   DEC (1.3 g over 8 days) – Solid line\n\n**Y-Axis Label:** Geometric mean microfilariae\n\n**X-Axis Label:** Day\n\n**Data Source:** Daddzie, et al. (1987)\n\n**Graph Description:** The image is a line graph showing the geometric mean of microfilariae for two treatments: Ivermectin (12 mg single dose) an\nand DEC (1.3 g over 8 days). The x-axis represents \"Day\" from 0 to 365. The y-axis represents the geometric mean of microfilariae. There are two li\nlines plotted on the graph.  The Ivermectin line is represented by diamonds. The DEC line is represented by a solid line. The graph shows the\nprogression of microfilariae counts over time for each treatment.",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-leukocytes-types-mechanisms-grok-00",
+    "title": "Leukocytes — types, functions & percentages (image_leukocytes_grok)",
+    "topic": "blood-cells",
+    "document": "",
+    "entities": [
+      "Leukocytes",
+      "Neutrophil",
+      "Eosinophil",
+      "Basophil",
+      "Monocyte",
+      "Macrophage",
+      "Lymphocyte",
+      "Natural Killer Cells"
+    ],
+    "tags": [
+      "leukocytes",
+      "blood-cells",
+      "immunology",
+      "hematology",
+      "immune-system"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "image_leukocytes_grok.jpg"
+      }
+    ],
+    "ocr": "**Leukocytes: Types & Mechanisms**\n白血白草·(脈股) : 症狀活躍解練\nThe Immune System's Defenders | 白血球的精幹\n\n**GRANULOCYTES (活細胞)**\nNeutrophils (模位) 50-70%\n• Phagocytosis, NETs\n| 裡用停留 活儲貌\n\nEosinophils\n• Anti-parasite, allergies\n| 模\n\n**AGRANULOCYTES (微細胞)**\nMonocytes/Macrophages (要體/說/較) 2-8%\n• Anti-p vs parasite,\n| 模\n\nBasophils (1-4%)\n• Histamine\nreleases, allergies\n| 模\n\nLymphocytes (模位) 20-40%\n• B cells (模態)\n• T cells (Helper & Cytotoxic) (模態)\n• NK cells (模件)\n\n**Diagrams/Tables:**\n\n*   **Table:** A table displays the percentages of various leukocyte types\nwithin the total leukocyte population. It's divided into two categories: Gr\nGranulocytes and Agranulocytes. Each category lists the types of leukocytes (Neutrophils, Eosinophils, Monocytes/Macrophages, Basophils, Lymphocytes) with their respective percentages.\n*   **Small Diagrams/Illustrations:** Small icons/illustrations accompany e\neach leukocyte type, visually representing the cell or its function. For ex\nexample, Neutrophils have a depiction of phagocytosis, and Eosinophils illustrate anti-parasite activity.\n*   **Textual Descriptions:** Below each leukocyte type, there are brief de\ndescriptions of their key functions (e.g., phagocytosis, antibody production, coordination).\n\n**Other Text:**\n\n*   Bone Marrow Sources | 骨髓源\n*   Innate vs Adaptive Immunity | 藔 荬 vs 伏 演",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-mpo-adrenochrome-production-00",
+    "title": "Myeloperoxidase (MPO) & adrenochrome production (bilingual)",
+    "topic": "adrenochrome",
+    "document": "",
+    "entities": [
+      "Myeloperoxidase",
+      "Adrenochrome",
+      "Epinephrine",
+      "NADPH Oxidase",
+      "Reactive Oxygen Species",
+      "Inflammation"
+    ],
+    "tags": [
+      "myeloperoxidase",
+      "adrenochrome",
+      "epinephrine",
+      "inflammation",
+      "ros",
+      "catecholamines"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "image_mpo_adrenochrome.jpg"
+      }
+    ],
+    "ocr": "**Title:** Myeloperoxidase (MPO) & Adrenochrome Production\n\n**Oxidation of Adrenaline (Epinephrine) by Neutrophil Enzyme**\n\n**支持催胺 oxidase (MPO) Myeloperoxidase (MPO)**\nMPO, stored in azurophilic granules of neutrophils, oxidizes catecholamines like adrenaline during oxidative burst.\n\n**(Diagram)**\n*   A stylized representation of MPO (a purple/blue cell) with circular arrows.\n*   Connected to the MPO are:\n*   Epinephrine (catecholamine) - depicted as a red molecule\n*   Adrenochrome - depicted as a yellow molecule\n*   Below this, there's a chemical reaction diagram:\n*   Epinephrine → MP0 + H₂O₂ → Adrenochrome\n*   NADP+ Oxidase → H₂O₂ → MPO + H₂O₂ → Compound I\n*   (or HOC1) oxidizes Epinephrine → Adrenochrome (via semiquinone radical intermediate)\n\n**Biological Context**\n\n*   Occurs during inflammation and neutrophil activation.\n*   Potential role in wound healing via radical polymerization and clot formation.\n*   MPO catalyzes oxidation of epinephrine to adrenochrome.\n\n**Significance**\n\n*   Contributes to oxidative stress; adrenochrome is a pigmented product in research researches indicator of reactive oxygen species.\n*   Linked to inflammatory responses and tissue damage.\n\n**Footnotes (small text at the bottom):**\n*   MPO (https://en.wikipedia.org/wiki/Myeloperoxidase)\n*   NADP+ Oxidase (https://en.wikipedia.org/wiki/NADPH_oxidase)\n\n**Brief Description of Diagrams/Elements:**\n\n*   **MPO Icon:** A stylized cell representing Myeloperoxidase.\n*   **Chemical Reaction Diagram:** Illustrates the key chemical reaction ca\ncatalyzed by MPO, involving epinephrine and hydrogen peroxide.  Includes th\nthe role of NADP+ oxidase and the potential involvement of hypochlorous acid (HOC1).\n*   **Color Coding:** The image utilizes color to differentiate molecules (\n(Epinephrine - red, Adrenochrome - yellow) and enzymes (MPO - purple/blue).",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  },
+  {
+    "id": "n-20260818-myeloperoxidase-overview-00",
+    "title": "Myeloperoxidase (MPO) — antimicrobial enzyme & oxidative cycles",
+    "topic": "oxidative_stress",
+    "document": "",
+    "entities": [
+      "Myeloperoxidase",
+      "Neutrophils",
+      "Hypochlorous Acid",
+      "NADPH Oxidase",
+      "Reactive Oxygen Species",
+      "Inflammation"
+    ],
+    "tags": [
+      "myeloperoxidase",
+      "neutrophils",
+      "hocl",
+      "oxidative-stress",
+      "innate-immunity",
+      "inflammation"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "image_mpo_myleperoxidase.jpg"
+      }
+    ],
+    "ocr": "**Myeloperoxidase (MPO)**\nKey Enzyme in Neutrophil Antimicrobial Defense\n\nStored in azurophilic granules of neutrophils (and monocytes/macrophages).\nHeme-containing peroxidase enzyme.\nCentral to oxidative burst in innate immunity.\n\n**Main Halogenation Cycle**\n\nNADPH Oxidase → H₂O → MPO (Native) → H₂O₂ + Cl⁺ (Hypochlorous acid)\nPrimary antimicrobial oxidant\n\n**Peroxidase Cycle**\n\nCompound I one-electron oxidations of substrates term like, tyrosine, urose, ascorbate, and nitrite.\nLeading to lipid peroxidation and protein modification\n\n**Function:**\n\n*   Potent antimicrobial activity via HOCl\n*   Contributes to inflammation and tissue damage if dysregulated\n*   NO oxidase activity → endothelial dysfunction\n\n**补充设低人思路和结果**\n(Supplemented low-level thoughts and results)\n极官自体是精物理的力男， 国的家族传统的公会化的模型， 优势图关系眼景受读→\nNO 氧化性 参与 endothelial dysfunction",
+    "ocr_lang": "en",
+    "annotations": [],
+    "created": "2026-08-18",
+    "updated": "2026-08-18",
+    "created_at": "2026-08-19T02:45:34+00:00",
+    "author": "you",
+    "draft": false,
+    "updated_at": "2026-08-19T02:45:34+00:00"
+  }
+]
