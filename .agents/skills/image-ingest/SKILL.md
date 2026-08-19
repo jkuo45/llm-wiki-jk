@@ -178,3 +178,10 @@ rm raw/<source>.png
 If the server is running, the Notes panel at `web/index.html` (API
 `/v1/notes` in `api/notes.py`) surfaces these entries. Confirm the new note
 appears and its image/OCR render correctly.
+
+Note on image hosting: the web client builds note-image URLs directly from the
+deterministic repo path `data/notes/<id>/<file>` on `raw.githubusercontent.com`
+(branch `dev`), with the `/v1/notes/image` endpoint as the browser's `onerror`
+fallback. So images render correctly even before they are committed/pushed to
+GitHub; once committed and pushed to `dev`, the browser starts loading them
+from GitHub's CDN (takes ~5 min for the raw cache to refresh).

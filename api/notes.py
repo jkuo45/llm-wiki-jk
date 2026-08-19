@@ -7,11 +7,23 @@ feed one place:
   - live uploads        : data/notes/.staged.json   (browser uploads, served immediately)
 
 The GET index merges both. A reconcile script (scripts/02_reconcile_notes.py)
-folds staged drafts into the committed manifest.
+folds staged drafts into the committed manifest. Manifest entries may also
+carry a `path` field pointing at an image that stays in place elsewhere in the
+repo (resolved relative to data/notes/, e.g. '../biology/<topic>/<file>'); such
+notes are served from that location and their thumbnail lives in data/notes/<id>/.
+scripts/02_sync_notes.py keeps those in-place entries in sync.
 
 Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
 the site. OCR runs ONCE per note through the read-only wiki-util agent: the
 endpoint short-circuits when a transcript already exists.
+
+IMAGE SERVING IS GITHUB-FIRST. The web client (web/components/notes.js) builds
+image URLs directly from the deterministic repo path data/notes/<id>/<file>
+(thumbnail <stem>.thumb.<ext>) hosted on raw.githubusercontent.com, so the
+browser loads note images from GitHub's CDN rather than proxying bytes through
+this server. This endpoint therefore acts only as a fallback for images not yet
+committed/pushed to GitHub (staged drafts in .staged.json) or on cache lag. It
+still serves every file locally so the client's onerror fallback always works.
 """
 
 import json
@@ -121,27 +133,46 @@ def _note_dir(note_id: str) -> Path:
     return DATA_NOTES_DIR / safe
 
 
+def _resolve_page_file(note: dict, fname: str) -> Path:
+    """Resolve a note page to an actual file on disk.
+
+    In-place ('path'-carrying) notes carry a `path` that is resolved relative
+    to data/notes/ (e.g. '../biology/<topic>/<file>' points at the physical
+    file under data/biology/); legacy notes hold the file inside their own
+    data/notes/<id>/ folder. Kept inside the repo so we can never serve an
+    arbitrary path."""
+    if note.get("path"):
+        p = (DATA_NOTES_DIR / note["path"]).resolve()
+        if p.is_relative_to(REPO_ROOT):
+            return p
+        raise HTTPException(status_code=400, detail="Invalid note path")
+    return _note_dir(note["id"]) / fname
+
+
 def _page_path(note: dict, page: int) -> Path | None:
     for p in note.get("pages", []):
         if p.get("page") == page:
-            return _note_dir(note["id"]) / p["file"]
+            return _resolve_page_file(note, p["file"])
     return None
 
 
-def _thumb_path(page_path: Path) -> Path:
-    """Sibling thumbnail the gallery requests via `?thumb=1`.
+def _thumb_path(page_path: Path, note: dict | None = None) -> Path:
+    """Thumbnail the gallery requests via `?thumb=1`.
 
-    get_image() looks up `<stem>.thumb.<ext>` next to the page file and serves
-    it when present; otherwise it falls back to the full-res original. Uploads
-    write this file so the gallery never pays full-res bandwidth."""
+    get_image() looks up `<stem>.thumb.<ext>` and serves it when present;
+    otherwise it falls back to the full-res original. For in-place notes the
+    thumb lives in the note's own data/notes/<id>/ folder (sibling of the full
+    image only for legacy notes whose image already sits inside that folder)."""
+    if note is not None and note.get("path"):
+        return _note_dir(note["id"]) / (page_path.stem + ".thumb" + page_path.suffix)
     return page_path.parent / (page_path.stem + ".thumb" + page_path.suffix)
 
 
 _THUMB_SIZE = 400  # longest edge — plenty for the small gallery cards
 
 
-def _make_thumbnail(page_path: Path) -> None:
-    """Downscale a page image into a .thumb sibling (best-effort).
+def _make_thumbnail(page_path: Path, note: dict | None = None) -> None:
+    """Downscale a page image into its thumbnail (best-effort).
 
     Pillow/JPEG robustness lets us generate a small thumbnail here, but we treat
     the import as optional so an upload never fails just because the deploy
@@ -156,7 +187,7 @@ def _make_thumbnail(page_path: Path) -> None:
         with Image.open(page_path) as im:
             im = ImageOps.exif_transpose(im)
             im.thumbnail((_THUMB_SIZE, _THUMB_SIZE))
-            tpath = _thumb_path(page_path)
+            tpath = _thumb_path(page_path, note)
             ext = page_path.suffix.lower()
             if ext in (".jpg", ".jpeg"):
                 if im.mode in ("RGBA", "P", "LA"):
@@ -206,9 +237,11 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
     if with_private:
         pub["image_dir"] = str(_note_dir(n["id"]))
         pub["image_paths"] = [
-            {"page": p.get("page"), "path": str(_note_dir(n["id"]) / p["file"])}
+            {"page": p.get("page"), "path": str(_resolve_page_file(n, p["file"]))}
             for p in n.get("pages", [])
         ]
+    else:
+        pub["path"] = n.get("path") or ""
     return pub
 
 
@@ -238,7 +271,7 @@ async def get_image(note_id: str, page: int, thumb: bool = False) -> FileRespons
     if path is None or not path.exists():
         raise HTTPException(status_code=404, detail="Image not found")
     if thumb:
-        tpath = _thumb_path(path)
+        tpath = _thumb_path(path, note)
         if tpath.exists():
             path = tpath
     return FileResponse(path)

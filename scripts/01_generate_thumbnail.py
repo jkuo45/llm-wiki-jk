@@ -47,9 +47,16 @@ def read_json(path: Path) -> list:
         return []
 
 
-def page_paths() -> list[Path]:
-    """Every page image file referenced by the committed + staged manifests."""
-    out: list[Path] = []
+def resolve_page_file(note: dict, fname: str) -> Path:
+    # `path` is resolved relative to data/notes/ (e.g. '../biology/<topic>/<file>').
+    if note.get("path"):
+        return (DATA_NOTES_DIR / note["path"]).resolve()
+    return DATA_NOTES_DIR / note.get("id", "") / fname
+
+
+def page_paths() -> list[tuple[Path, dict]]:
+    """Every page image (and its note) referenced by committed + staged manifests."""
+    out: list[tuple[Path, dict]] = []
     for note in read_json(MANIFEST) + read_json(STAGED):
         nid = note.get("id", "")
         if not nid or nid != Path(nid).name:
@@ -58,13 +65,16 @@ def page_paths() -> list[Path]:
             fname = p.get("file")
             if not fname:
                 continue
-            path = DATA_NOTES_DIR / nid / fname
+            path = resolve_page_file(note, fname)
             if path.exists():
-                out.append(path)
+                out.append((path, note))
     return out
 
 
-def thumb_path(src: Path) -> Path:
+def thumb_path(src: Path, note: dict | None = None) -> Path:
+    if note is not None and note.get("path"):
+        # in-place note -> thumb lives in its own data/notes/<id>/ folder
+        return DATA_NOTES_DIR / note["id"] / (src.stem + ".thumb" + src.suffix)
     return src.parent / (src.stem + ".thumb" + src.suffix)
 
 
@@ -104,8 +114,8 @@ def main() -> int:
         return 0
 
     made = skipped = failed = 0
-    for src in sources:
-        dst = thumb_path(src)
+    for src, note in sources:
+        dst = thumb_path(src, note)
         if dst.exists() and not args.force:
             # Regenerate only if the source is newer than an existing thumb.
             if src.stat().st_mtime <= dst.stat().st_mtime:

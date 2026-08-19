@@ -11,6 +11,16 @@ import { openPromptComposer } from './chat.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
+
+// GitHub-first image host. Every committed note image lives at the
+// deterministic path data/notes/<id>/<file> (thumbnail: <stem>.thumb.<ext>) in
+// this repo, so the browser loads it straight from raw.githubusercontent
+// instead of proxying image bytes through the API. The API `/v1/notes/image`
+// endpoint remains only as the onerror fallback (staged drafts, not-yet-pushed
+// images, or raw.githubusercontent cache lag). Override for local dev or a
+// different deploy branch with:  window.GRAPH_NOTES_IMAGE_BASE = '…';
+const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
+  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/data/notes').replace(/\/$/, '');
 const MAX_PAGES = 24;
 const MAX_BYTES = 30 * 1024 * 1024;
 
@@ -292,9 +302,43 @@ arrowPath.setAttribute('fill', '#ffcc00');
 ARROW_MARKER.appendChild(arrowPath);
 
 function imageUrl(note, page, thumb) {
+  const info = (note.pages || []).find((p) => p.page === page);
+  if (!info) return '';
+  const file = info.file || '';
+  const dot = file.lastIndexOf('.');
+  const stem = dot > 0 ? file.slice(0, dot) : file;
+  const ext = dot > 0 ? file.slice(dot) : '';
+  const name = (thumb && ext) ? `${stem}.thumb${ext}` : file;
+  return `${GH_NOTES_BASE}/${encodeURIComponent(note.id)}/${encodeURIComponent(name)}`;
+}
+
+// API fallback for images that aren't on GitHub yet (staged drafts,
+// not-yet-pushed commits) — the browser can still get them from the server.
+function apiImageUrl(note, page, thumb) {
   const base = `${NOTES_API}/image/${encodeURIComponent(note.id)}/${page}`;
   return thumb ? base + '?thumb=1' : base;
 }
+
+// Swap an <img> to the API fallback if its GitHub URL fails to load. Guards
+// against double-fallback and against overwriting an already-swapped src.
+function bindImageFallback(img, note, page, thumb) {
+  img.addEventListener('error', () => {
+    if (img.dataset.ghFallback) return;
+    img.dataset.ghFallback = '1';
+    const fb = apiImageUrl(note, page, thumb);
+    if (fb && img.src !== fb) img.src = fb;
+  });
+}
+
+// Lightbox full-res image: same GitHub-first + API fallback. Fires after
+// setPage() assigns lbImg.src, reading the current note/page at that time.
+lbImg.addEventListener('error', () => {
+  if (!currentNote) return;
+  if (lbImg.dataset.ghFallback) return;
+  lbImg.dataset.ghFallback = '1';
+  const fb = apiImageUrl(currentNote, currentPage, false);
+  if (fb && lbImg.src !== fb) lbImg.src = fb;
+});
 
 function noteTopic(note) { return (note.topic || 'misc').trim(); }
 
@@ -460,6 +504,10 @@ function renderGallery() {
   galleryEl.querySelectorAll('.notes-card').forEach((card) => {
     const id = card.dataset.id;
     card.addEventListener('click', () => openLightbox(findNote(id)));
+    const note = findNote(id);
+    const first = note && (note.pages || [])[0];
+    const img = card.querySelector('.notes-card-thumb');
+    if (note && first && img) bindImageFallback(img, note, first.page, true);
   });
 }
 
@@ -673,6 +721,7 @@ function setPage(page) {
   const info = pageInfo(currentPage);
   zoom = 1; panX = 0; panY = 0; naturalW = 0; naturalH = 0;
   if (info) {
+    lbImg.dataset.ghFallback = '';
     lbImg.src = imageUrl(n, currentPage, false);
     lbImg.onload = () => {
       naturalW = lbImg.naturalWidth || 1000;
@@ -715,8 +764,12 @@ function renderPagesStrip() {
       <img src="${esc(imageUrl(e.note, e.page, true))}" alt="${esc(label)}" loading="lazy" decoding="async">
     </button>`;
   }).join('');
-  lbPages.querySelectorAll('button').forEach((b) =>
-    b.addEventListener('click', () => goToImage(parseInt(b.dataset.idx, 10))));
+  lbPages.querySelectorAll('button').forEach((b) => {
+    b.addEventListener('click', () => goToImage(parseInt(b.dataset.idx, 10)));
+    const e = entries[parseInt(b.dataset.idx, 10)];
+    const img = b.querySelector('img');
+    if (e && img) bindImageFallback(img, e.note, e.page, true);
+  });
   // Keep the active thumbnail in view so the filmstrip tracks navigation.
   const activeBtn = lbPages.querySelector('.page-active');
   if (activeBtn) activeBtn.scrollIntoView({ block: 'nearest', inline: 'nearest' });
@@ -1079,6 +1132,11 @@ async function downloadAnnotationsImage() {
     // canvas (a cross-origin img drawn without CORS would block toDataURL).
     const img = new Image();
     img.crossOrigin = 'anonymous';
+    img.onerror = () => {
+      // GitHub copy not reachable — fall back to the API for the export.
+      img.onerror = null;
+      img.src = apiImageUrl(n, currentPage, false);
+    };
     img.src = imageUrl(n, currentPage, false);
     await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; });
     ctx.drawImage(img, 0, 0, naturalW, naturalH);

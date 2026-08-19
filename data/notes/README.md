@@ -9,9 +9,15 @@ the **Notes panel** in `web/index.html` (API at
 - `manifest.json` — committed, curated notes (the durable source of truth that
   ships with the wiki).
 - `.staged.json` — live browser uploads, served immediately. A reconcile run
-  (below) folds these into `manifest.json`.
+  (`scripts/02_reconcile_notes.py`) folds these into `manifest.json`.
 - `<topic>/n-<date>-<slug>/` — per-note folders holding `page-N.<ext>` images
   and optional `page-N.thumb.<ext>` thumbnails.
+- **In-place notes** — manifest entries may carry a `"path"` field pointing at
+  an image that lives outside `data/notes/` (e.g. `data/biology/<topic>/<file>`).
+  The value is anchored at `data/notes/` (`"../biology/<topic>/<file>"`), the
+  thumbnail is stored at `data/notes/<id>/<stem>.thumb.<ext>`, and the source
+  image is never moved or copied. `scripts/02_sync_notes.py` keeps these
+  entries in sync (idempotent; `--ocr` transcribes new/pending ones).
 
 ## Record schema
 
@@ -24,6 +30,7 @@ the **Notes panel** in `web/index.html` (API at
   "entities": ["SIRT1", "NAD+"],                 // graph node labels (plain text)
   "tags": ["aging", "metabolism"],
   "pages": [{ "page": 1, "file": "page-1.jpg" }],
+  "path": "../biology/<topic>/<file>",  // optional; in-place source, anchored at data/notes/
   "ocr": "--- Page 1 ---\nTranscribed text...",  // generated once via wiki-util OCR
   "ocr_lang": "en",
   "annotations": [{ "id": "a1", "type": "circle", "page": 1,
@@ -61,3 +68,16 @@ uv run --with ... python scripts/02_reconcile_notes.py
 
 Moves every `.staged.json` entry into `manifest.json` (deduplicated by id),
 drops the `draft` flag, and leaves `.staged.json` empty.
+
+## Sync (biological images in place)
+
+```bash
+uv run --with pillow python scripts/02_sync_notes.py            # sync + thumbs
+uv run --with pillow python scripts/02_sync_notes.py --ocr      # also OCR new/pending entries
+```
+
+Scans `data/biology/<topic>/` and adds a manifest entry for every image there
+(deduped by content hash against existing entries), storing a `path` anchored
+at `data/notes/` (`"../biology/<topic>/<file>"`) and a thumbnail under
+`data/notes/<id>/`. Images are **never moved**; re-run any time new images are
+dropped into `data/biology/`.
