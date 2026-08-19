@@ -288,6 +288,31 @@ rm raw/<source>.png
 - Timestamps must be real (use `date -u`) and match the project display format
   rules in AGENTS.md where applicable.
 
+## Transcript tightening & re-OCR
+
+Existing `ocr` transcripts can drift from the page (OCR models garble
+handwriting or append editorial narration). Two safety nets:
+
+- **`scripts/tighten_manifest_transcripts.py`** — a conservative, idempotent
+  cleanup across all `translations[locale].ocr` in `data/notes/manifest.json`.
+  It removes model editorial/narration blocks (e.g. trailing
+  "The image contains…", "Diagram/Table Description: …"), joins words that were
+  truncated across a line break ("frag\nfragmentation" → "fragmentation"),
+  collapses runaway duplicate words, normalizes `[illegible]`/`[unclear]` →
+  `[AMBIGUOUS]`, and strips zh editorial annotations. Run it (from the repo
+  root) after ingesting or editing transcripts:
+  `uv run python scripts/tighten_manifest_transcripts.py` (preview with
+  `--dry-run`). It never empties a transcript (safety net keeps the source).
+- **Local re-OCR with qwen3.5** — when a handwritten transcript is unusably
+  garbled, re-transcribe the source image with the local vision model:
+  `ollama run qwen3.5 --think=false "Transcribe all visible text…" /abs/path/img`
+  (the **absolute** image path is required for ollama to attach it; disable
+  thinking with `--think=false` or qwen loops for many minutes). For the 74
+  handwritten (`notes`-tagged) entries, the batch driver in
+  `scripts/tighten_manifest_transcripts.py` is not used — instead run the
+  QWEN_REOCR helper (see `src/tasks/` re-OCR notes) and fold results with
+  `apply_qwen_reocr.py`, then re-run `tighten_manifest_transcripts.py`.
+
 ## Bilingual tag labels (web)
 
 The Notes web panel renders tags in the panel language. English uses the raw
