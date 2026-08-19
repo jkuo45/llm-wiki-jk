@@ -253,7 +253,10 @@ function applyUiLang(lang) {
 
   notesPanel.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
-    if (key && t(key)) el.textContent = t(key);
+    if (key && t(key)) {
+      el.textContent = t(key);
+      el.setAttribute('aria-label', t(key));
+    }
   });
   notesPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
     const key = el.dataset.i18nTitle;
