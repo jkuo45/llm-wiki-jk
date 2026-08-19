@@ -27,8 +27,6 @@ const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const comboboxPopup = $('notes-combobox-popup');
-const docChip = $('notes-doc-chip');
-const docChipLabel = $('notes-doc-chip-label');
 const langToggle = $('notes-lang');
 const langBtns = Array.from(document.querySelectorAll('#notes-lang [data-lang]'));
 const galleryEl = $('notes-gallery');
@@ -414,9 +412,8 @@ function ensureIndexLoaded() {
 }
 
 function populatePickers() {
-  // Search placeholder + active-document chip (kept in sync on load / lang swap).
+  // Search placeholder (kept in sync on load / lang swap).
   searchInput.placeholder = t('searchPlaceholder');
-  syncDocumentChip();
 
   // NOTE: The Upload screen is disabled (its tab and view are hidden, and
   // setView() snaps any non-browse request back to browse). It therefore does
@@ -625,15 +622,8 @@ function commitDocumentFilter(value) {
 
 function setDocumentFilter(value) {
   filterDoc = value;
-  syncDocumentChip();
   renderGallery();
   syncNotesHash();
-}
-
-function syncDocumentChip() {
-  if (!filterDoc) { docChip.hidden = true; return; }
-  docChipLabel.textContent = shortDoc(filterDoc);
-  docChip.hidden = false;
 }
 
 function openNoteFromCombobox(id) {
@@ -1469,7 +1459,6 @@ export async function restoreNotes(params) {
   }
   if (params && params.doc) {
     filterDoc = params.doc;
-    syncDocumentChip();
   }
   renderGallery();
   if (!params || !params.note) return;

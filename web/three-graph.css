@@ -971,17 +971,6 @@ a.data-source:hover { border-color: #6b9bc7; }
   flex: 1; min-width: 60px; background: transparent; border: none; outline: none;
   color: #e0e0e0; font-size: 13px; font-family: inherit; padding: 4px 20px 4px 2px;
 }
-.notes-combobox-chip {
-  display: inline-flex; align-items: center; gap: 3px; background: #2a2a4e;
-  border: 1px solid #4E79A7; color: #cfe3f5; border-radius: 12px;
-  font-size: 11px; padding: 2px 6px 2px 9px; max-width: 180px;
-}
-.notes-combobox-chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.notes-combobox-chip button {
-  background: none; border: none; color: #a0d4f0; font-size: 14px; line-height: 1;
-  cursor: pointer; padding: 0 2px;
-}
-.notes-combobox-chip button:hover { color: #ff6b6b; }
 .notes-combobox-caret {
   width: 14px; height: 14px; position: absolute; right: 8px; top: 50%;
   transform: translateY(-50%); color: #888; pointer-events: none;

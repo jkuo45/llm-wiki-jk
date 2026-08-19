@@ -386,9 +386,6 @@ body {
 .notes-combobox-field:focus-within { border-color: #0F766E; }
 #notes-search { color: #22304A; }
 .notes-combobox-caret { color: #7C8698; }
-.notes-combobox-chip { background: #F6F3EC; border-color: #0F766E; color: #0B5F59; }
-.notes-combobox-chip button { color: #0F766E; }
-.notes-combobox-chip button:hover { color: #C0392B; }
 .notes-section-label { color: #7C8698; }
 .notes-popup { background: #FFFFFF; border-color: #2563A8; box-shadow: 0 12px 32px rgba(34, 48, 74, 0.16); }
 .notes-popup-item { border-bottom-color: #E2DCCE; color: #22304A; }
