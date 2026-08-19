@@ -459,13 +459,22 @@ function ensureIndexLoaded() {
 
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
-  return notes.filter((n) => {
+  const list = notes.filter((n) => {
     if (!q) return true;
     const hay = [
       activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
       (n.tags || []).join(' '), (n.entities || []).join(' '),
     ].join(' ').toLowerCase();
     return hay.includes(q);
+  });
+  // Default order: newest first by creation date (descending). `created` is an
+  // ISO-ish `YYYY-MM-DD` string, which compares correctly lexicographically.
+  // Missing dates sort last; the note id breaks ties stably.
+  return list.sort((a, b) => {
+    const ad = a.created || '';
+    const bd = b.created || '';
+    if (ad !== bd) return ad < bd ? 1 : -1;
+    return (b.id || '').localeCompare(a.id || '');
   });
 }
 
