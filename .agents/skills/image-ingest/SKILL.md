@@ -123,7 +123,7 @@ Append a new object to `data/notes/manifest.json` (keep existing entries).
   "id": "n-20260818-sirtuins-mechanisms",
   "document": "_document_ - sirtuins ... .md",   // plain filename; no wiki links in data files
   "entities": ["SIRT1", "NAD+"],       // concepts = graph node labels (plain text)
-  "tags": ["sirtuins", "note"],       // facets: topic first, then format
+  "tags": ["sirtuins", "notes"],       // closed vocab: topic first, then FORMAT/CONTENT
   "pages": [{ "page": 1, "file": "page-1.jpg" }],
   "translations": {
     "en-US": { "title": "Sirtuins review — mechanism sketch", "ocr": "Transcribed plain text..." },  // default locale; title + ocr always live here
@@ -157,20 +157,43 @@ Annotation coordinates are normalized 0–1 across tools:
   knowledge graph and are browsable in the Notes panel. If a concept has no
   graph node yet, still list the plain-text name (do NOT use `[[wiki links]]`);
   it will be flagged for entity-note creation.
-- `tags`: a small controlled vocabulary of **non-concept facets** ONLY:
-  - **FORMAT**: `photo`, `notes`, `paper-figure`, `graph-analysis`,
-    `diagrams-charts`, `bilingual`, `speculative`, `comparison`, `misc`
-  - **TOPIC** (kept as the **FIRST tag** — the "topic as first tag" rule):
+- `tags`: a small **closed** vocabulary of **non-concept facets** ONLY, capped at
+  ≤12 per entry. The **first tag is the TOPIC facet**; the rest are FORMAT and
+  CONTENT facets. Never put a biomedical concept/entity in `tags` — put it in
+  `entities` instead. The only tag allowed to coincide with an entity is the
+  TOPIC facet tag.
+  - **TOPIC** (first tag — exactly one per entry):
     `adrenochrome`, `autophagy`, `blood-cells`, `cancer`, `comt`, `creatine`,
-    `epigenetics`, `neuromelanin`, `oxidative-stress`, `senescence`,
-    `sirtuins`, `spermidine`
-  - **Never** put a concept in `tags` that is a biomedical entity — put it in
-    `entities` instead (a concept tag that duplicates an entity on the same note
-    is a violation). The only tag that may coincide with an entity is the TOPIC
-    facet tag.
-- Post-ingest check: run `python3 scripts/normalize_manifest_vocab.py` after
-  ingesting — it reports (and with `--write`, fixes) tag↔entity dups, junk
-  tags, non-facet tags, and entities without a graph node.
+    `epigenetics`, `eye`, `immunology`, `metabolism`, `neuromelanin`,
+    `nutrition`, `oxidative-stress`, `parasitology`, `senescence`, `sirtuins`,
+    `spermidine`
+  - **FORMAT** (content-form facet):
+    `notes` (handwritten corpus — the only handwritten marker),
+    `diagrams-charts`, `graph-analysis`, `generated-image`
+  - **CONTENT** (mechanistic/biomedical facet derived from entities + OCR):
+    `adjuvants`, `adrenergic`, `anatomy`, `angiogenesis`, `antioxidants`,
+    `autophagosome`, `cardiovascular`, `catecholamines`, `cell-adhesion`,
+    `cell-death`, `circadian-rhythm`, `clinical-trial`, `cognition`, `dec`,
+    `development`, `diagnosis`, `drug-delivery`, `drug-resistance`,
+    `filariasis`, `glycation`, `growth`, `hematology`, `hocl`, `immunology`,
+    `inflammation`, `innate-immunity`, `leukocytes`, `lysosome`,
+    `metabolic-fasting`, `metabolism`, `metal-chelation`, `metastasis`,
+    `microbiome`, `mitohormesis`, `mitophagy`, `mitochondria`, `monoamine`,
+    `mutations`, `nad-metabolism`, `ncrna`, `neurochemistry`,
+    `neurodegeneration`, `nf-kappab`, `nutrition`, `parasitology`, `pathology`,
+    `physiology`, `polyamines`, `polyphenols`, `redox`, `sasp`, `senolytics`,
+    `sod`, `stem-cells`, `vaccines`, `vector-borne`, `vision`
+  - **Legacy tags are banned** (`photo`, `paper-figure`, `bilingual`,
+    `speculative`, `comparison`, `misc`). `normalize_manifest_vocab.py` drops
+    them, re-homes `paper-figure` → `diagrams-charts`, `wbc` → `leukocytes`, and
+    kebab/lowercases `ncRNA` → `ncrna`, `nf-kappab-p65` → `nf-kappab`.
+  - **`notes` = handwritten only.** A photo of a printed infographic / paper
+    figure is NOT `notes` — tag it `diagrams-charts` instead. A note never
+    carries both `notes` and `diagrams-charts`.
+- Post-ingest check: run the canonical normalizer after writing the entry — it is
+  idempotent and enforces the closed vocabulary above:
+  `uv run python scripts/normalize_manifest_vocab.py` (applies; preview with
+  `--dry-run`).
 - `topic`: reuse an existing topic name where possible; ask the user otherwise.
   (`topic` is no longer a stored field — it lives as the first `tags` entry.)
 - `translations[locale].ocr`: single page → just the text. Multi-page (separate
@@ -250,7 +273,8 @@ rm raw/<source>.png
     in place.
   - A helper exists for bulk cleanup of an existing manifest:
     `python3 scripts/strip_manifest_markdown.py` (markdown/emphasis/sentinels),
-    plus `scripts/normalize_manifest_vocab.py` for entity/tag vocabulary.
+    plus `scripts/normalize_manifest_vocab.py` to enforce the closed tag
+    vocabulary.
 - **No fabricated OCR** — if a model cannot read the image (no vision), say so
   and stop; do not invent a transcription.
 - **Always strip ANSI / control characters** from `ollama run` output before
@@ -263,6 +287,17 @@ rm raw/<source>.png
   leave it alone unless the user asks to reconcile.
 - Timestamps must be real (use `date -u`) and match the project display format
   rules in AGENTS.md where applicable.
+
+## Bilingual tag labels (web)
+
+The Notes web panel renders tags in the panel language. English uses the raw
+slug; 繁體中文 pulls a label from `web/data/notes-tags-zh-TW.json`
+(`{ <slug>: '繁體中文 label' }`) via `tagLabel()` in
+`web/components/notes.js`. The file is hand-maintained and must cover the full
+closed vocabulary above — any time a new tag is added to the vocabulary, add a
+matching label there (and to `KNOWN_TOPICS`/filters in `notes.js` if it's a
+topic). The slug stays the source of truth for filtering/search; only the
+displayed text is localized.
 
 ## Optional: verify in the web app
 
