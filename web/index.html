@@ -172,7 +172,7 @@
   <div id="chat-tags"></div>
   <div id="chat-input-wrap">
     <div id="chat-tag-popup"></div>
-    <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="500" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
+    <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="4000" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
     <button id="chat-send" title="Send">Send</button>
   </div>
   </div>
@@ -183,22 +183,26 @@
   <div id="notes-box">
     <div id="notes-header">
       <div class="chat-header-left">
-        <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
+        <span class="chat-title"><span class="ui-en">Notes</span> <span class="ui-zh chat-title-zh" hidden>筆記</span></span>
       </div>
-      <div id="notes-mode-switch" role="tablist" aria-label="Notes view" hidden>
-        <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true">Browse<span class="mode-dot" aria-hidden="true"></span></button>
-        <button type="button" class="chat-mode-tab" data-view="upload" role="tab" aria-selected="false" hidden>Upload<span class="mode-dot" aria-hidden="true"></span></button>
+      <div id="notes-mode-switch" role="tablist" aria-label="Notes view">
+        <button type="button" class="chat-mode-tab active" data-view="browse" role="tab" aria-selected="true"><span class="ui-en">Browse</span><span class="ui-zh" hidden>瀏覽</span><span class="mode-dot" aria-hidden="true"></span></button>
+        <button type="button" class="chat-mode-tab" data-view="prompt" role="tab" aria-selected="false"><span class="ui-en">Prompt</span><span class="ui-zh" hidden>提示</span><span class="mode-dot" aria-hidden="true"></span></button>
       </div>
       <div class="chat-header-actions">
-        <button id="notes-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
+        <button id="notes-close" aria-label="Close panel" data-i18n-title="panelClose" title="Close panel">&times;</button>
       </div>
     </div>
 
     <div id="notes-browse">
       <div id="notes-filters">
-        <input id="notes-search" type="text" placeholder="Search notes, OCR, entities, tags / 搜尋筆記..." autocomplete="off">
-        <select id="notes-topic-filter" title="Filter by topic / 主題篩選"><option value="">All topics / 全部主題</option></select>
-        <span id="notes-count" class="notes-count"></span>
+        <input id="notes-search" type="text" autocomplete="off">
+        <select id="notes-topic-filter" title="Filter by topic"><option value=""></option></select>
+        <select id="notes-doc-filter" title="Filter by document"><option value=""></option></select>
+        <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
+          <button type="button" data-lang="en-US" title="English (US)">EN</button>
+          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+        </div>
       </div>
       <div id="notes-gallery"></div>
       <div id="notes-empty" class="notes-empty" hidden></div>
@@ -249,53 +253,57 @@
 
     <div id="notes-lightbox" hidden>
       <div class="notes-lb-top">
-        <button id="notes-lb-back" title="Back to gallery / 返回圖庫">&larr; Gallery</button>
+        <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Back</button>
         <div class="notes-lb-title" id="notes-lb-title"></div>
       </div>
       <div class="notes-lb-body" id="notes-lb-body">
         <div class="notes-lb-stage">
-          <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous image / 上一張" disabled>&larr;</button></div>
+          <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous image" data-i18n-title="prevImg" disabled>&larr;</button></div>
           <div class="notes-lb-imgwrap" id="notes-lb-imgwrap">
             <div class="notes-lb-zoomable" id="notes-lb-zoomable">
               <img id="notes-lb-img" alt="Note page">
               <svg id="notes-lb-svg" xmlns="http://www.w3.org/2000/svg"></svg>
             </div>
             <div class="notes-lb-zoom">
-              <button id="notes-lb-zoomin" title="Zoom in">+</button>
-              <button id="notes-lb-zoomout" title="Zoom out">&minus;</button>
-              <button id="notes-lb-fit" title="Fit / 重設">Fit</button>
-              <button id="notes-lb-view" type="button" title="Fullscreen view of the note / 全螢幕檢視">⛶ View</button>
-              <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
+              <button id="notes-lb-zoomin" title="Zoom in" data-i18n-title="zoomIn">+</button>
+              <button id="notes-lb-zoomout" title="Zoom out" data-i18n-title="zoomOut">&minus;</button>
+              <button id="notes-lb-fit" title="Fit" data-i18n="fit" data-i18n-title="fit">Fit</button>
+              <button id="notes-lb-view" type="button" title="Fullscreen view of the note">⛶ View</button>
+              <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" data-i18n-title="annDownload" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
             </div>
           </div>
-          <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image / 下一張" disabled>&rarr;</button></div>
+          <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image" data-i18n-title="nextImg" disabled>&rarr;</button></div>
         </div>
         <div class="notes-lb-pages" id="notes-lb-pages"></div>
         <div class="notes-lb-side">
           <div class="at-h">
-            <span>OCR transcript</span>
+            <span data-i18n="transcript">Transcript</span>
+            <span class="at-h-right">
+              <span id="notes-lb-status" class="notes-lb-status" role="status"></span>
+              <button id="notes-lb-send-prompt" type="button" class="notes-prompt-btn" data-i18n="sendPromptBtn" data-i18n-title="sendPrompt">→ Prompt</button>
+            </span>
           </div>
           <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
-          <div class="at-h">Entities</div>
+          <div class="at-h" data-i18n="entities">Entities</div>
           <div id="notes-lb-entities" class="notes-chip-row"></div>
-          <div class="at-h">Tags</div>
+          <div class="at-h" data-i18n="tags">Tags</div>
           <div id="notes-lb-tags" class="notes-chip-row"></div>
           <div class="at-h" id="notes-ann-start">
-            <span>Annotations</span>
+            <span data-i18n="annotations">Annotations</span>
           </div>
           <div class="notes-ann-tools">
-            <button data-tool="circle" title="Circle highlight">∘ Circle</button>
-            <button data-tool="rect" title="Rectangle highlight">▭ Rect</button>
-            <button data-tool="arrow" title="Arrow">→ Arrow</button>
-            <button data-tool="label" title="Text label">A Label</button>
-            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page">Clear</button>
+            <button data-tool="circle" title="Circle highlight" data-i18n="toolCircleLabel" data-i18n-title="toolCircle">∘ Circle</button>
+            <button data-tool="rect" title="Rectangle highlight" data-i18n="toolRectLabel" data-i18n-title="toolRect">▭ Rect</button>
+            <button data-tool="arrow" title="Arrow" data-i18n="toolArrowLabel" data-i18n-title="toolArrow">→ Arrow</button>
+            <button data-tool="label" title="Text label" data-i18n="toolLabelLabel" data-i18n-title="toolLabel">A Label</button>
+            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page" data-i18n="clearAnn" data-i18n-title="clearAnnTitle">Clear</button>
           </div>
           <div class="notes-ann-colors" id="notes-ann-colors">
-            <button data-color="#ffcc00" style="background:#ffcc00" title="Yellow"></button>
-            <button data-color="#7bd88f" style="background:#7bd88f" title="Green"></button>
-            <button data-color="#7fb3ff" style="background:#7fb3ff" title="Blue"></button>
-            <button data-color="#ff7b72" style="background:#ff7b72" title="Red"></button>
-            <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple"></button>
+            <button data-color="#ffcc00" style="background:#ffcc00" title="Yellow" data-i18n-title="colorYellow"></button>
+            <button data-color="#7bd88f" style="background:#7bd88f" title="Green" data-i18n-title="colorGreen"></button>
+            <button data-color="#7fb3ff" style="background:#7fb3ff" title="Blue" data-i18n-title="colorBlue"></button>
+            <button data-color="#ff7b72" style="background:#ff7b72" title="Red" data-i18n-title="colorRed"></button>
+            <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple" data-i18n-title="colorPurple"></button>
           </div>
         </div>
       </div>

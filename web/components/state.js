@@ -24,6 +24,8 @@ export const state = {
   notesNoteId: null,
   notesPage: null,
   notesViewMode: false,
+  notesDoc: '',      // active document filter ('' = all documents)
+  notesUiLang: 'en-US', // panel/note content language ('en-US' | 'zh-TW')
 };
 
 export const stickyNodes = new Set();

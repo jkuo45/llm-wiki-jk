@@ -197,6 +197,7 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
         "ocr_lang": n.get("ocr_lang") or "en",
         "has_ocr": bool(n.get("ocr")) and not _looks_like_ocr_failure(n.get("ocr", "")),
         "annotations": n.get("annotations") or [],
+        "translations": n.get("translations") or {},
         "created": n.get("created") or _today(),
         "updated": n.get("updated") or _today(),
         "author": n.get("author") or "you",

@@ -211,7 +211,7 @@ function sanitizeChatInput(text) {
   let t = text.replace(/<[^>]+>/g, '');
   t = t.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
   t = t.replace(/\s+/g, ' ').trim();
-  return t.slice(0, 500);
+  return t.slice(0, 4000);
 }
 
 function addChatMessage(text, type, badge) {
@@ -1756,6 +1756,48 @@ function sendSelectionToPrompt() {
     if (n) chatTagSet.set(id, n);
   });
   renderTagChips();
+  chatInput.focus();
+  refreshActivity();
+}
+
+// Open the analysis panel in Prompt (ask) mode with `text` pre-loaded into the
+// composer and `tags` (@-tagged graph node labels) pinned as structured context.
+// Used by the Notes panel to hand a note's transcript to the chat agent — closes
+// Notes first (they share the full-screen overlay) so only Analysis is visible.
+export function openPromptComposer(text, tags = []) {
+  // Both panels are full-viewport overlays — dismiss Notes before showing chat.
+  const notesPanel = document.getElementById('notes-panel');
+  const notesClose = document.getElementById('notes-close');
+  if (notesPanel && notesPanel.classList.contains('open') && notesClose) {
+    notesClose.click();
+  }
+  state.analysisOpen = true;
+  setPanelMode('ask');
+  if (!chatPanel.classList.contains('open')) {
+    chatOpen = true;
+    chatPanel.classList.add('open');
+    chatBtn.classList.add('open');
+    syncChatPanelKeyboard();
+    updateHash();
+  }
+  // Hide the suggestion chips only when we're handing over a real message to
+  // review; an empty composer keeps them as a starting point.
+  if (text) {
+    const suggestions = document.getElementById('chat-suggestions');
+    if (suggestions) suggestions.remove();
+  }
+  chatInput.value = text || '';
+  chatInput.style.height = 'auto';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+  // Tag the resolved graph nodes so they travel as structured context (and get
+  // highlighted on the graph).
+  chatTagSet.clear();
+  (tags || []).forEach(label => {
+    const node = RAW_NODES.find(n => n.label === label);
+    if (node && !chatTagSet.has(node.id)) chatTagSet.set(node.id, node);
+  });
+  renderTagChips();
+  highlightTaggedNodes();
   chatInput.focus();
   refreshActivity();
 }

@@ -8,6 +8,12 @@ export function updateHash(pushState = true) {
   // Notes panel first so the hash always opens with #notes when it's shown.
   if (state.notesOpen) {
     parts.push('notes');
+    if (state.notesDoc) {
+      parts.push(`doc=${encodeURIComponent(state.notesDoc)}`);
+    }
+    if (state.notesUiLang && state.notesUiLang !== 'en-US') {
+      parts.push(`uilang=${encodeURIComponent(state.notesUiLang)}`);
+    }
     if (state.notesNoteId) {
       parts.push(`note=${encodeURIComponent(state.notesNoteId)}`);
       if (state.notesPage != null) {

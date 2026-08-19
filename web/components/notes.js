@@ -3,10 +3,11 @@
 // The upload screen (files) is hidden for now. Sibling of the
 // analysis (#chat) panel.
 
-import { descByLabel, noteUrl } from './data.js';
+import { descByLabel, noteUrl, RAW_NODES } from './data.js';
 import { esc, renderMarkdown } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
+import { openPromptComposer } from './chat.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -27,9 +28,11 @@ const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const topicFilter = $('notes-topic-filter');
+const docFilter = $('notes-doc-filter');
+const langToggle = $('notes-lang');
+const langBtns = Array.from(document.querySelectorAll('#notes-lang [data-lang]'));
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
-const countEl = $('notes-count');
 
 const drop = $('notes-drop');
 const fileInput = $('notes-file');
@@ -56,6 +59,8 @@ const lbPrev = $('notes-lb-prev');
 const lbNext = $('notes-lb-next');
 const lbPages = $('notes-lb-pages');
 const lbOcr = $('notes-lb-ocr');
+const lbSendPrompt = $('notes-lb-send-prompt');
+const lbStatus = $('notes-lb-status');
 const lbEntities = $('notes-lb-entities');
 const lbTags = $('notes-lb-tags');
 const annDownload = $('notes-lb-ann-download');
@@ -76,6 +81,12 @@ let notes = [];
 let documents = [];
 let filterQ = '';
 let filterTopic = '';
+let filterDoc = '';   // active document filter ('' = all documents)
+let uiLang = 'en-US'; // panel + note-content language; persisted across visits
+try {
+  const savedLang = localStorage.getItem('llm-wiki-notes-ui-lang');
+  if (savedLang === 'en-US' || savedLang === 'zh-TW') uiLang = savedLang;
+} catch (e) { /* localStorage unavailable — keep the default */ }
 let loaded = false;
 let loading = false;
 let apiDown = false;
@@ -93,6 +104,181 @@ let viewMode = false;        // fullscreen image view (side details hidden)
 
 let draftFiles = [];         // { file, thumb }
 let statusTimer = null;
+
+// ------------------------------------------------------------
+// UI language (EN / 中) — panel chrome strings + note-content selection.
+// Sibling of the Reader's article language toggle: `uiLang` picks both the
+// panel's own labels and, per note, `note.translations[uiLang]` when present
+// (falling back to the root/original fields).
+// ------------------------------------------------------------
+const UI_STRINGS = {
+  'en-US': {
+    panelClose: 'Close panel',
+    notesViewAria: 'Notes view',
+    searchPlaceholder: 'Search notes, OCR, entities, tags',
+    filterByTopic: 'Filter by topic',
+    allTopics: 'All topics',
+    filterByDocument: 'Filter by document',
+    allDocuments: 'All documents',
+    panelLanguage: 'Panel language',
+    langEn: 'English (US)',
+    langZh: '繁體中文（台灣）',
+    galleryLoading: 'Loading notes…',
+    galleryApiDown: 'Notes API unreachable — could not load notes.',
+    galleryNoMatch: 'No notes match your filters.',
+    galleryEmpty: 'No handwritten notes yet.',
+    back: '← Back',
+    backToGallery: 'Back to gallery',
+    prevImg: 'Previous image',
+    nextImg: 'Next image',
+    zoomIn: 'Zoom in',
+    zoomOut: 'Zoom out',
+    fit: 'Fit',
+    viewLabel: '⛶ View',
+    detailsLabel: '⛶ Details',
+    viewFull: 'Fullscreen view of the note',
+    viewDetails: 'Show details panel',
+    annDownload: 'Download this page as a PNG with the annotations drawn in',
+    transcript: 'Transcript',
+    entities: 'Entities',
+    tags: 'Tags',
+    annotations: 'Annotations',
+    none: 'none',
+    noTranscript: 'No transcript yet.',
+    ocrFailed: 'The existing transcription failed — the OCR model could not read the image (it may not support vision).',
+    sendPromptBtn: '→ Prompt',
+    sendPrompt: 'Send this transcript to the analysis Prompt',
+    noUsableTranscript: 'This note has no usable transcript yet',
+    openNoteToSend: 'Open a note to send its transcript',
+    toolCircle: 'Circle highlight',
+    toolCircleLabel: '∘ Circle',
+    toolRect: 'Rectangle highlight',
+    toolRectLabel: '▭ Rect',
+    toolArrow: 'Arrow',
+    toolArrowLabel: '→ Arrow',
+    toolLabel: 'Text label',
+    toolLabelLabel: 'A Label',
+    clearAnn: 'Clear',
+    clearAnnTitle: 'Clear annotations on current page',
+    colorYellow: 'Yellow',
+    colorGreen: 'Green',
+    colorBlue: 'Blue',
+    colorRed: 'Red',
+    colorPurple: 'Purple',
+  },
+  'zh-TW': {
+    panelClose: '關閉面板',
+    notesViewAria: '筆記檢視',
+    searchPlaceholder: '搜尋筆記、OCR、實體與標籤',
+    filterByTopic: '主題篩選',
+    allTopics: '全部主題',
+    filterByDocument: '文件篩選',
+    allDocuments: '全部文件',
+    panelLanguage: '面板語言',
+    langEn: '英語（美國）',
+    langZh: '繁體中文（台灣）',
+    galleryLoading: '載入筆記中…',
+    galleryApiDown: '無法連線 Notes API — 無法載入筆記。',
+    galleryNoMatch: '沒有符合篩選條件的筆記。',
+    galleryEmpty: '尚無手寫筆記。',
+    back: '← 返回',
+    backToGallery: '返回圖庫',
+    prevImg: '上一張',
+    nextImg: '下一張',
+    zoomIn: '放大',
+    zoomOut: '縮小',
+    fit: '重設',
+    viewLabel: '⛶ 檢視',
+    detailsLabel: '⛶ 詳情',
+    viewFull: '筆記全螢幕檢視',
+    viewDetails: '顯示詳情面板',
+    annDownload: '將此頁及標註下載為 PNG',
+    transcript: '文字稿',
+    entities: '實體',
+    tags: '標籤',
+    annotations: '標註',
+    none: '無',
+    noTranscript: '尚無文字稿。',
+    ocrFailed: '既有的文字稿轉錄失敗 — OCR 模型無法讀取圖片（可能不支援視覺）。',
+    sendPromptBtn: '→ 傳送至提示',
+    sendPrompt: '將此文字稿傳送至分析提示',
+    noUsableTranscript: '此筆記尚無可用的文字稿',
+    openNoteToSend: '開啟筆記以傳送其文字稿',
+    toolCircle: '圓形標註',
+    toolCircleLabel: '∘ 圓形',
+    toolRect: '矩形標註',
+    toolRectLabel: '▭ 矩形',
+    toolArrow: '箭頭',
+    toolArrowLabel: '→ 箭頭',
+    toolLabel: '文字標籤',
+    toolLabelLabel: 'A 標籤',
+    clearAnn: '清除',
+    clearAnnTitle: '清除目前頁面的標註',
+    colorYellow: '黃色',
+    colorGreen: '綠色',
+    colorBlue: '藍色',
+    colorRed: '紅色',
+    colorPurple: '紫色',
+  },
+};
+
+function t(key) {
+  return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
+}
+
+// Manifest notes may carry per-language content in `note.translations`
+// (e.g. translations.zh-TW.ocr). Prefer the active language, then fall back
+// to the root (original) fields.
+function activeTitle(note) {
+  const tr = (note.translations || {})[uiLang];
+  return (tr && tr.title) || note.title || '';
+}
+
+function activeOcr(note) {
+  const tr = (note.translations || {})[uiLang];
+  return (tr && tr.ocr) || note.ocr || '';
+}
+
+// Apply the current UI language to the whole panel: toggle the EN/中 buttons,
+// hide/show the bilingual `.ui-en` / `.ui-zh` spans, rewrite data-i18n labels,
+// repopulate the filter options, and re-render whatever view is open.
+function applyUiLang(lang) {
+  if (lang !== 'en-US' && lang !== 'zh-TW') lang = 'en-US';
+  uiLang = lang;
+  try { localStorage.setItem('llm-wiki-notes-ui-lang', uiLang); } catch (e) { /* ignore */ }
+
+  langBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
+  notesPanel.querySelectorAll('.ui-en').forEach((el) => { el.hidden = uiLang !== 'en-US'; });
+  notesPanel.querySelectorAll('.ui-zh').forEach((el) => { el.hidden = uiLang === 'en-US'; });
+
+  notesPanel.querySelectorAll('[data-i18n]').forEach((el) => {
+    const key = el.dataset.i18n;
+    if (key && t(key)) el.textContent = t(key);
+  });
+  notesPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
+    const key = el.dataset.i18nTitle;
+    if (key && t(key)) el.title = t(key);
+  });
+
+  modeSwitch.setAttribute('aria-label', t('notesViewAria'));
+  notesClose.setAttribute('aria-label', t('panelClose'));
+  langToggle.setAttribute('aria-label', t('panelLanguage'));
+  langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
+  searchInput.placeholder = t('searchPlaceholder');
+  populatePickers();
+
+  renderGallery();
+  setViewMode(viewMode);
+  if (!lightboxEl.hidden && currentNote) renderLightbox();
+  syncNotesHash();
+}
+
+langBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const lang = btn.dataset.lang;
+    if (lang && lang !== uiLang) applyUiLang(lang);
+  });
+});
 
 const ARROW_MARKER = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
 ARROW_MARKER.setAttribute('id', 'notes-arrowhead');
@@ -127,6 +313,7 @@ function closeNotes() {
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
   setLightbox(null);
+  updatePromptAvailability();
   syncNotesKeyboard();
   syncNotesHash();
 }
@@ -137,6 +324,8 @@ function closeNotes() {
 function syncNotesHash(pushState = true) {
   const viewingNote = currentNote && !lightboxEl.hidden;
   state.notesOpen = notesPanel.classList.contains('open');
+  state.notesDoc = filterDoc || '';
+  state.notesUiLang = uiLang;
   state.notesNoteId = viewingNote ? currentNote.id : null;
   state.notesPage = viewingNote ? currentPage : null;
   state.notesViewMode = viewingNote ? viewMode : false;
@@ -184,7 +373,9 @@ function setView(view) {
 }
 modeSwitch.addEventListener('click', (e) => {
   const tab = e.target.closest('.chat-mode-tab');
-  if (tab) { setView(tab.dataset.view); syncNotesHash(); }
+  if (!tab) return;
+  if (tab.dataset.view === 'prompt') { sendTranscriptToPrompt(); return; }
+  setView(tab.dataset.view); syncNotesHash();
 });
 
 document.addEventListener('keydown', (e) => {
@@ -231,12 +422,22 @@ function ensureIndexLoaded() {
 function populatePickers() {
   // Topic filter
   const topics = [...new Set(notes.map(noteTopic))].sort();
-  topicFilter.innerHTML = '<option value="">All topics / 全部主題</option>' +
-    topics.map((t) => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
+  topicFilter.innerHTML = `<option value="">${esc(t('allTopics'))}</option>` +
+    topics.map((topic) => `<option value="${esc(topic)}">${esc(topic)}</option>`).join('');
   topicFilter.value = filterTopic;
 
+  // Document filter — built from the notes that actually carry a document so
+  // every option leads to a non-empty gallery (versus listing the full
+  // `_document_` index, most of which have no notes yet).
+  const docs = [...new Set(notes.map((n) => (n.document || '').trim()).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b));
+  docFilter.innerHTML = `<option value="">${esc(t('allDocuments'))}</option>` +
+    docs.map((d) => `<option value="${esc(d)}">${esc(shortDoc(d))}</option>`).join('');
+  docFilter.value = filterDoc;
+  docFilter.disabled = !docs.length;
+
   // Search placeholder hint
-  searchInput.placeholder = 'Search notes, OCR, entities, tags / 搜尋筆記...';
+  searchInput.placeholder = t('searchPlaceholder');
 
   // NOTE: The Upload screen is disabled (its tab and view are hidden, and
   // setView() snaps any non-browse request back to browse). It therefore does
@@ -250,9 +451,10 @@ function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
   return notes.filter((n) => {
     if (filterTopic && noteTopic(n) !== filterTopic) return false;
+    if (filterDoc && (n.document || '') !== filterDoc) return false;
     if (!q) return true;
     const hay = [
-      n.title, n.topic, n.document, (n.ocr || ''),
+      activeTitle(n), n.topic, n.document, (activeOcr(n) || ''),
       (n.entities || []).join(' '),
       (n.tags || []).join(' '),
     ].join(' ').toLowerCase();
@@ -262,15 +464,14 @@ function filteredNotes() {
 
 function renderGallery() {
   const list = filteredNotes();
-  countEl.textContent = apiDown ? '—' : `${list.length} / ${notes.length}`;
   if (apiDown) {
     galleryEl.innerHTML = '';
     emptyEl.hidden = false;
-    emptyEl.textContent = 'Notes API unreachable — could not load notes.';
+    emptyEl.textContent = t('galleryApiDown');
     return;
   }
   if (loading) {
-    galleryEl.innerHTML = '<div class="notes-loading"><span class="spinner"></span><span>Loading notes…</span></div>';
+    galleryEl.innerHTML = `<div class="notes-loading"><span class="spinner"></span><span>${esc(t('galleryLoading'))}</span></div>`;
     emptyEl.hidden = true;
     return;
   }
@@ -278,8 +479,8 @@ function renderGallery() {
     galleryEl.innerHTML = '';
     emptyEl.hidden = false;
     emptyEl.textContent = notes.length
-      ? 'No notes match your filters.'
-      : 'No handwritten notes yet.';
+      ? t('galleryNoMatch')
+      : t('galleryEmpty');
     return;
   }
   emptyEl.hidden = true;
@@ -314,11 +515,11 @@ function cardHTML(n) {
     `<span class="notes-badge topic">#${esc(t)}</span>`).join('');
   const ocrBadge = n.has_ocr ? '<span class="notes-badge ocr">OCR</span>' : '';
   const draftBadge = n.draft ? '<span class="notes-badge draft">draft</span>' : '';
-  const snip = (n.ocr || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 220);
-  return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(n.title)}">
+  const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 220);
+  return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(activeTitle(n))}">
     ${thumb}
     <div class="notes-card-body">
-      <div class="notes-card-title">${esc(n.title)}</div>
+      <div class="notes-card-title">${esc(activeTitle(n))}</div>
       <div class="notes-card-meta">
         <span class="notes-badge topic">${esc(noteTopic(n))}</span>
         ${doc}${entities}<span class="notes-badge">${(n.pages || []).length}p</span>
@@ -346,6 +547,11 @@ topicFilter.addEventListener('change', () => {
   filterTopic = topicFilter.value;
   renderGallery();
 });
+docFilter.addEventListener('change', () => {
+  filterDoc = docFilter.value;
+  renderGallery();
+  syncNotesHash();
+});
 
 // ------------------------------------------------------------
 // Lightbox
@@ -372,6 +578,7 @@ function goBackToGallery() {
   uploadEl.hidden = true;
   currentNote = null;
   setViewMode(false);
+  updatePromptAvailability();
   renderGallery();
   syncNotesHash();
 }
@@ -380,8 +587,8 @@ function goBackToGallery() {
 function setViewMode(on) {
   viewMode = on;
   lbBody.classList.toggle('view-mode', viewMode);
-  lbView.textContent = viewMode ? '⛶ Details' : '⛶ View';
-  lbView.title = viewMode ? 'Show details panel / 顯示詳情' : 'Fullscreen view of the note / 全螢幕檢視';
+  lbView.textContent = viewMode ? t('detailsLabel') : t('viewLabel');
+  lbView.title = viewMode ? t('viewDetails') : t('viewFull');
   syncNotesHash();
 }
 lbView.addEventListener('click', () => setViewMode(!viewMode));
@@ -397,8 +604,8 @@ function looksLikeOcrFailure(text) {
 function renderLightbox() {
   const n = currentNote;
   if (!n) return;
-  lbTitle.textContent = n.title;
-  lbTitle.title = n.title;
+  lbTitle.textContent = activeTitle(n);
+  lbTitle.title = activeTitle(n);
   renderPagesStrip();
   setPage(currentPage);
   renderOcr();
@@ -453,8 +660,8 @@ function renderPagesStrip() {
   lbPages.innerHTML = entries.map((e, i) => {
     const multi = (e.note.pages || []).length > 1;
     const label = multi
-      ? `${e.note.title} · page ${e.page}`
-      : e.note.title;
+      ? `${activeTitle(e.note)} · page ${e.page}`
+      : activeTitle(e.note);
     return `<button class="${i === curIdx ? 'page-active' : ''}" data-idx="${i}" title="${esc(label)}">
       <img src="${esc(imageUrl(e.note, e.page, true))}" alt="${esc(label)}" loading="lazy" decoding="async">
     </button>`;
@@ -844,18 +1051,117 @@ async function downloadAnnotationsImage() {
 // via reconciliation, not from the browser)
 // ------------------------------------------------------------
 function renderOcr() {
-  const text = (currentNote && currentNote.ocr || '').trim();
+  const text = (currentNote && activeOcr(currentNote) || '').trim();
   if (!text) {
-    lbOcr.textContent = 'No transcript yet.';
+    lbOcr.textContent = t('noTranscript');
     lbOcr.classList.remove('ocr-warn');
   } else if (looksLikeOcrFailure(text)) {
-    lbOcr.textContent = 'The existing transcription failed — the OCR model could not read the image (it may not support vision).';
+    lbOcr.textContent = t('ocrFailed');
     lbOcr.classList.add('ocr-warn');
   } else {
     lbOcr.textContent = text;
     lbOcr.classList.remove('ocr-warn');
   }
+  updatePromptAvailability();
 }
+
+// ------------------------------------------------------------
+// Send the open note's transcript to the analysis Prompt
+// ------------------------------------------------------------
+// Composed prompts are capped here so the message (+ the output-format spec that
+// withOutputSpec appends on send) stays under the API's 4000-char limit.
+const PROMPT_CHAR_CAP = 3000;
+
+function notePromptTab() {
+  return modeSwitch.querySelector('.chat-mode-tab[data-view="prompt"]');
+}
+
+// Returns the trimmed transcript when the note can be analyzed, or false.
+function usableTranscript(note) {
+  if (!note) return false;
+  const text = (activeOcr(note) || '').trim();
+  if (!text) return false;
+  if (looksLikeOcrFailure(text)) return false;
+  return text;
+}
+
+// Enable/disable the header Prompt tab (activity dot) and the lightbox "→ Prompt"
+// button based on whether the open note has a usable transcript.
+function updatePromptAvailability() {
+  const usable = usableTranscript(currentNote);
+  const tab = notePromptTab();
+  const tip = usable
+    ? t('sendPrompt')
+    : currentNote
+      ? t('noUsableTranscript')
+      : t('openNoteToSend');
+  if (tab) {
+    tab.classList.toggle('has-activity', !!usable);
+    tab.title = tip;
+  }
+  if (lbSendPrompt) {
+    lbSendPrompt.disabled = !usable;
+    lbSendPrompt.title = tip;
+  }
+}
+
+// Resolve a note's entity names to graph node labels (only those that exist in
+// the graph can be @-tagged as structured context).
+function graphLabelsFor(entities) {
+  if (!Array.isArray(entities) || !entities.length) return [];
+  const labelSet = new Set(RAW_NODES.map(n => n.label));
+  return entities.map((e) => String(e).trim()).filter((e) => labelSet.has(e));
+}
+
+// Build the analysis prompt: instruction line + note metadata + OCR transcript.
+function buildTranscriptPrompt(note) {
+  const ocr = (note.ocr || '').trim();
+  const header = [
+    'Analyze this handwritten note transcript and summarize the key insights, mechanisms, and biomedical entities it mentions.',
+    `Note: ${activeTitle(note) || '(untitled)'}`,
+    note.topic ? `Topic: ${note.topic}` : '',
+    note.document ? `Document: ${note.document}` : '',
+    (note.entities || []).length ? `Entities: ${note.entities.join(', ')}` : '',
+    '---',
+    ocr,
+  ].filter(Boolean).join('\n');
+  return header.length > PROMPT_CHAR_CAP
+    ? header.slice(0, PROMPT_CHAR_CAP) + '\n…(transcript truncated — remaining text omitted)'
+    : header;
+}
+
+// Transient inline feedback in the transcript heading (e.g. "open a note first").
+function flashTranscriptStatus(msg, timeout = 4200) {
+  if (!lbStatus) return;
+  lbStatus.textContent = msg;
+  clearTimeout(flashTranscriptStatus._timer);
+  flashTranscriptStatus._timer = setTimeout(() => { lbStatus.textContent = ''; }, timeout);
+}
+
+// Hand the open note's transcript to the analysis agent: close Notes, open the
+// Analysis panel in Prompt mode with the transcript pre-loaded in the composer
+// (entities @-tagged) for the user to review and send.
+function sendTranscriptToPrompt() {
+  // Capture the note before closeNotes() nulls the module-level currentNote.
+  const note = currentNote;
+  const text = usableTranscript(note);
+  if (!text) {
+    // In the lightbox the inline status is visible; in the gallery there's no
+    // note to analyze, so just hand the user a fresh Prompt composer.
+    if (note) {
+      flashTranscriptStatus(t('noUsableTranscript'));
+      return;
+    }
+    closeNotes();
+    openPromptComposer('');
+    return;
+  }
+  closeNotes();
+  openPromptComposer(buildTranscriptPrompt(note), graphLabelsFor(note.entities));
+}
+lbSendPrompt.addEventListener('click', sendTranscriptToPrompt);
+updatePromptAvailability();
+applyUiLang(uiLang);
 
 // ------------------------------------------------------------
 // Entity / tag chips + wiki modal
@@ -881,15 +1187,15 @@ function renderChips() {
   const tags = currentNote.tags || [];
   lbEntities.innerHTML = entities.length
     ? entities.map((e) => `<button class="notes-chip" data-entity="${esc(e)}">${esc(e)}</button>`).join('')
-    : '<span class="notes-muted">none</span>';
+    : `<span class="notes-muted">${esc(t('none'))}</span>`;
   lbEntities.querySelectorAll('.notes-chip').forEach((c) =>
     c.addEventListener('click', (e) => {
       e.stopPropagation();
       openWikiModal(c.dataset.entity, e);
     }));
   lbTags.innerHTML = tags.length
-    ? tags.map((t) => `<span class="notes-chip tag-chip">#${esc(t)}</span>`).join('')
-    : '<span class="notes-muted">none</span>';
+    ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tag)}</span>`).join('')
+    : `<span class="notes-muted">${esc(t('none'))}</span>`;
 }
 
 // ------------------------------------------------------------
@@ -1068,6 +1374,14 @@ export function isNotesOpen() {
 export async function restoreNotes(params) {
   if (!notesPanel.classList.contains('open')) openNotes();
   setView('browse');
+  if (params && params.uilang && params.uilang !== 'en-US') {
+    applyUiLang(params.uilang);
+  }
+  if (params && params.doc) {
+    filterDoc = params.doc;
+    docFilter.value = filterDoc;
+  }
+  renderGallery();
   if (!params || !params.note) return;
   try {
     await ensureIndexLoaded();

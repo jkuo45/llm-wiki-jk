@@ -386,7 +386,6 @@ body {
 #notes-filters { border-bottom-color: #E2DCCE; }
 #notes-search, #notes-topic-filter, #notes-doc-field, #notes-upload #notes-doc-field,
 .notes-field input, .notes-field select, .notes-edit-input { background: #FFFFFF; color: #22304A; border-color: #CCC5B2; }
-.notes-count { color: #7C8698; }
 .notes-card { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 .notes-card:hover { border-color: #0F766E; }
 .notes-card-thumb { background: #ECE8DD; border-bottom-color: #E2DCCE; }
@@ -434,6 +433,11 @@ body {
 .notes-lb-pages button.page-active { border-color: #0F766E; }
 .notes-lb-side { border-left-color: #E2DCCE; }
 .notes-lb-ocr { background: #FFFFFF; border-color: #E2DCCE; color: #22304A; }
+.notes-prompt-btn { border-color: #0F766E; color: #0F766E; }
+.notes-prompt-btn:hover { background: #0F766E; color: #fff; }
+.notes-prompt-btn:disabled { border-color: #CCC5B2; color: #9AA4B3; opacity: 0.8; }
+.notes-prompt-btn:disabled:hover { background: none; color: #9AA4B3; }
+.notes-lb-status { color: #B45309; }
 .notes-chip { background: #F6F3EC; border-color: #CCC5B2; color: #22304A; }
 .notes-chip:hover { border-color: #0F766E; color: #0B5F59; }
 .notes-chip.topic-chip { color: #1E7A4E; }

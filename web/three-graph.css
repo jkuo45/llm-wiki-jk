@@ -936,12 +936,12 @@ a.data-source:hover { border-color: #6b9bc7; }
   padding: 14px 16px; border-bottom: 1px solid #2a2a4e;
   background: #16162b; flex-shrink: 0; gap: 10px;
 }
-/* Browse/Upload tabs sit centered between the title and Close: neutralise the
+/* Browse/Prompt tabs sit centered between the title and Close: neutralise the
    shared .chat-header-actions auto-margin so space-between balances the gaps. */
 #notes-header .chat-header-actions { margin-left: 0; }
 #notes-header .chat-header-left { gap: 12px; flex: 0 1 auto; min-width: 0; }
 #notes-mode-switch { display: inline-flex; flex: none; border: 1px solid #3a3a5e; border-radius: 12px; overflow: hidden; }
-/* The Browse/Upload toggle is hidden for now — only the gallery view exists. */
+/* `hidden` still wins if the switch is ever re-hidden for maintenance. */
 #notes-mode-switch[hidden] { display: none; }
 #notes-mode-switch .chat-mode-tab {
   background: none; border: none; color: #888; font-size: 12px; padding: 4px 12px;
@@ -975,11 +975,15 @@ a.data-source:hover { border-color: #6b9bc7; }
   flex: 1 1 220px; min-width: 160px; background: #23233f; color: #e0e0e0;
   border: 1px solid #3a3a5e; border-radius: 6px; padding: 7px 10px; font-size: 13px; font-family: inherit;
 }
-#notes-topic-filter, #notes-doc-field, #notes-upload #notes-doc-field {
+#notes-topic-filter, #notes-doc-filter, #notes-doc-field, #notes-upload #notes-doc-field {
   background: #23233f; color: #e0e0e0; border: 1px solid #3a3a5e; border-radius: 6px;
   padding: 7px 10px; font-size: 12px; font-family: inherit; max-width: 220px;
 }
-.notes-count { color: #777; font-size: 12px; margin-left: 2px; white-space: nowrap; }
+#notes-doc-filter { flex: 1 1 200px; min-width: 150px; max-width: 320px; }
+/* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
+   match the filter inputs so the row stays aligned. */
+#notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }
+#notes-filters .lang-toggle button { font-size: 12px; padding: 8px 11px; }
 
 /* Gallery — min-height:0 is required so the grid's overflow-y:auto actually
    engages: without it the flex item defaults to min-height:auto and grows to
@@ -1114,6 +1118,21 @@ a.data-source:hover { border-color: #6b9bc7; }
 .notes-lb-ocr.loading::after { content: '…'; color: #E8A33D; }
 .notes-lb-ocr.ocr-warn { color: #E8A33D; }
 
+/* Transcript "→ Prompt" send button + inline status hint */
+.at-h-right { display: inline-flex; align-items: center; gap: 8px; flex: none; min-width: 0; }
+.notes-prompt-btn {
+  background: none; border: 1px solid #4E79A7; color: #9ec1e8; border-radius: 6px;
+  font-size: 11px; padding: 3px 10px; cursor: pointer; font-family: inherit; line-height: 1.4;
+  transition: background 0.15s, color 0.15s; flex: none;
+}
+.notes-prompt-btn:hover { background: #4E79A7; color: #fff; }
+.notes-prompt-btn:disabled { opacity: 0.45; cursor: default; }
+.notes-prompt-btn:disabled:hover { background: none; color: #9ec1e8; }
+.notes-lb-status {
+  color: #E8A33D; font-size: 11px; line-height: 1.4; white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis; max-width: 220px;
+}
+
 /* Fullscreen "View" mode: image fills the panel, side details hidden */
 .notes-lb-body.view-mode {
   grid-template-columns: 1fr;
@@ -1212,7 +1231,7 @@ a.data-source:hover { border-color: #6b9bc7; }
     flex-wrap: nowrap;
     gap: 8px;
   }
-  /* Single row like the analysis panel: Notes + Browse/Upload +
+  /* Single row like the analysis panel: Notes + Browse/Prompt +
      Close. Shrink the title and tabs slightly so all three fit on phones. */
   #notes-header .chat-title { font-size: 13px; }
   #notes-mode-switch .chat-mode-tab { padding: 4px 8px; font-size: 11px; }
