@@ -141,6 +141,7 @@ const UI_STRINGS = {
   'en-US': {
     panelClose: 'Close panel',
     searchPlaceholder: '🔎 Search notes, transcripts, tags, etc.',
+    done: 'Done',
     sectionNotes: 'Notes',
     filterByTopic: 'Filter by topic',
     allTopics: 'All topics',
@@ -194,6 +195,7 @@ const UI_STRINGS = {
   'zh-TW': {
     panelClose: '關閉面板',
     searchPlaceholder: '搜尋轉錄筆記、標籤',
+    done: '完成',
     sectionNotes: '筆記',
     filterByTopic: '主題篩選',
     allTopics: '全部主題',
@@ -721,6 +723,10 @@ function renderCombobox() {
   } else if (!tagCounts.length) {
     parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
   }
+  // Sticky footer so the dropdown always has an explicit close affordance on
+  // touch (tap-away deliberately does NOT open a card — see the outside-tap
+  // handler above). No data-note/data-tag → stays out of arrow-key items.
+  parts.push(`<button type="button" class="notes-popup-done" data-combobox-done>${esc(t('done'))}</button>`);
   comboboxPopup.innerHTML = parts.join('');
   comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-note], [data-tag]'));
   comboboxIdx = -1;
@@ -728,6 +734,8 @@ function renderCombobox() {
     b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
   comboboxPopup.querySelectorAll('[data-tag]').forEach((b) =>
     b.addEventListener('click', () => toggleTag(b.dataset.tag)));
+  const doneBtn = comboboxPopup.querySelector('[data-combobox-done]');
+  if (doneBtn) doneBtn.addEventListener('click', dismissCombobox);
 }
 
 function noteItemHTML(n) {
@@ -757,7 +765,7 @@ function highlightCombobox() {
 function openNoteFromCombobox(id) {
   const n = findNote(id);
   if (!n) return;
-  closeCombobox();
+  dismissCombobox();   // close the list + drop focus so the keyboard collapses
   searchInput.value = activeTitle(n);
   filterQ = activeTitle(n);
   renderGallery();
@@ -808,9 +816,60 @@ function closeCombobox() {
   searchInput.setAttribute('aria-expanded', 'false');
 }
 
-// Clicking anywhere outside the combobox closes its dropdown.
+// Fully dismiss the search dropdown: close the popup AND drop focus from the
+// input so the mobile keyboard collapses. Used by the Done button and by the
+// outside-tap dismissal (Escape alone would close the list but leave the
+// keyboard floating over the gallery).
+function dismissCombobox() {
+  closeCombobox();
+  searchInput.blur();
+}
+
+// Clicking anywhere outside the combobox closes its dropdown. On touch, that
+// same pointerdown would then fire a click on the gallery card beneath,
+// accidentally opening it — so swallow the click that follows a dismissal tap,
+// but only when it lands on a card (deliberate taps like the lang toggle or
+// the panel close still work normally).
+let suppressOutsideTap = false;
+let tapOrigin = null;   // { x, y, id } of the dismissal pointerdown
+
 document.addEventListener('pointerdown', (e) => {
-  if (!e.target.closest('.notes-combobox')) closeCombobox();
+  // A fresh pointerdown while the popup is already closed clears any stale
+  // flag from a dismissal gesture that never produced a click (defensive).
+  if (comboboxPopup.hidden) { suppressOutsideTap = false; return; }
+  if (e.target.closest('.notes-combobox')) return;
+  dismissCombobox();
+  // A touch/pen tap-away is frequently a dismissal gesture — swallow its
+  // click so it can't accidentally open a card. Mouse clicks are deliberate,
+  // so they can open the card in the same click after the dropdown closes.
+  if (e.pointerType !== 'mouse') {
+    suppressOutsideTap = true;
+    tapOrigin = { x: e.clientX, y: e.clientY, id: e.pointerId };
+  }
+}, true);
+
+// If the finger travelled, it was a scroll/drag, not a tap — nothing to swallow.
+document.addEventListener('pointerup', (e) => {
+  if (!suppressOutsideTap || !tapOrigin || e.pointerId !== tapOrigin.id) return;
+  if (Math.hypot(e.clientX - tapOrigin.x, e.clientY - tapOrigin.y) > 10) {
+    suppressOutsideTap = false;
+    tapOrigin = null;
+  }
+}, true);
+
+document.addEventListener('pointercancel', () => {
+  suppressOutsideTap = false;
+  tapOrigin = null;
+});
+
+document.addEventListener('click', (e) => {
+  if (!suppressOutsideTap) return;
+  suppressOutsideTap = false;
+  tapOrigin = null;
+  if (e.target.closest('.notes-card')) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
 }, true);
 
 // ------------------------------------------------------------

@@ -447,6 +447,9 @@ body {
 .notes-popup-item .popup-check { color: #2563A8; }
 .notes-popup-item:hover, .notes-popup-item.active { background: rgba(37, 99, 168, 0.12); }
 .notes-popup-item .popup-sub { color: #7C8698; }
+/* Dismiss button in the notes search dropdown — light chrome. */
+.notes-popup-done { background: #FFFFFF; border-top-color: #E2DCCE; color: #2563A8; }
+.notes-popup-done:hover { background: #F6F3EC; color: #0B5F59; }
 /* EN/中 toggle in the notes filters bar — mirrors the Reader's light chrome. */
 #notes-filters .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
 #notes-filters .lang-toggle button { color: #7C8698; }

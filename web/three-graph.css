@@ -1143,6 +1143,18 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .notes-popup-item.zero:hover, .notes-popup-item.zero.active { opacity: 0.85; }
 .notes-popup-item .popup-topic { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .notes-popup-item .popup-sub { color: #888; font-size: 11px; flex-shrink: 0; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Dismiss (Done) button pinned to the bottom of the open dropdown — always
+   visible even while the suggestion list scrolls, and the explicit way to
+   close the combobox on touch (tap-away is deliberately inert so it can't
+   open the gallery card underneath). */
+.notes-popup-done {
+  position: sticky; bottom: 0;
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; padding: 9px 12px;
+  background: #1a1a2e; border: none; border-top: 1px solid #3a3a5e;
+  color: #9ec1e8; font-size: 13px; font-family: inherit; cursor: pointer;
+}
+.notes-popup-done:hover { background: #23233f; color: #e0e0e0; }
 /* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
    match the filter inputs so the row stays aligned. */
 #notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }
@@ -1429,6 +1441,10 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
     flex-wrap: nowrap;
     gap: 8px;
   }
+  /* >=16px font stops iOS auto-zoom on focus (the cause of the viewport
+     centering/jumping on the search input); touch-action kills the tap-zoom
+     delay — same treatment the analysis panel gives #prompt-input. */
+  #notes-search { font-size: 16px; touch-action: manipulation; }
   /* Single row like the analysis panel: Notes + Close. Match the Reader title's
      mobile size (14px) so the Notes title stays consistent with it. */
   #notes-header .panel-title { font-size: 14px; }
