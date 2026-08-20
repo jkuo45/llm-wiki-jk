@@ -197,20 +197,31 @@ async function restoreFromHash(params) {
   } else if (!params.edge) {
     deselectNode();
   }
-  // Analysis panel: open/close and restore mode from the hash. Notes wins when
-  // both are present — the overlays are mutually exclusive and the hash leads
-  // with #notes when the notes panel is shown, so the analysis panel is closed.
-  // A node/edge/trace deep link also opens the panel so the info card surfaces.
-  const notesActive = !!(params.notes || params.note);
-  const hasSelection = !!(params.node || params.edge || params.trace);
+  // Analysis panel: open/close and restore mode/lang from the hash.
+  // Notes wins when both are requested. The analysis flag has three states:
+  //   bare `analysis`      → panel was OPEN: restore it + surface the info card
+  //   `analysis=off`       → selection persisted but panel CLOSED: keep it
+  //                          closed (faithful round-trip of an app-produced
+  //                          "#node=…" closed state — never reopen)
+  //   absent               → no analysis state recorded
+  // A selection with NO analysis marker still opens the panel (hand-authored
+  // deep-link intent), but a closed-with-selection state carries `analysis=off`
+  // and is never auto-reopened.
+  const notesActive = !!(params && (params.notes || params.note));
+  const hasSelection = !!(params && (params.node || params.edge || params.trace));
   const analysisBtn = document.getElementById('btn-prompt');
-  if ((params.analysis || hasSelection) && !notesActive) {
-    if (!analysisBtn.classList.contains('open')) analysisBtn.click();
+  const panelOpen = analysisBtn.classList.contains('open');
+  const hasAnalysisKey = !!(params && 'analysis' in params);
+  const shouldOpen = !notesActive && (params.analysis === true || (!hasAnalysisKey && hasSelection));
+  const shouldClose = !notesActive && (params.analysis === 'off' || (!hasAnalysisKey && !hasSelection && panelOpen));
+
+  if (shouldOpen && !panelOpen) {
+    analysisBtn.click();
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
     const tab = document.querySelector(`.prompt-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
     applyAnalysisUiLang(params.uilang);
-  } else if (!notesActive && !hasSelection && analysisBtn.classList.contains('open')) {
+  } else if (shouldClose && panelOpen) {
     analysisBtn.click();
   }
   state.suppressHashUpdate = false;

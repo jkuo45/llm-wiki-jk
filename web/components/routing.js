@@ -43,6 +43,11 @@ export function updateHash(pushState = true) {
     if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
     }
+  } else if (state.activeTrace || state.selectedNode || state.selectedEdge) {
+    // Panel closed but a selection persists: mark `analysis=off` so the hash
+    // round-trips faithfully (restore keeps the panel closed) while a
+    // hand-authored `#node=…` deep link (no marker) still opens it on restore.
+    parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;

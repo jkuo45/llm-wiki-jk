@@ -445,6 +445,9 @@ btnUnstick.addEventListener('click', () => {
 // ------------------------------------------------------------
 export function selectNode(nodeId) {
   state.selectedNode = nodeId;
+  // A node selection supersedes any edge selection (selectEdge clears the node
+  // in kind), so the hash/restore never carry both at once.
+  state.selectedEdge = null;
   const mesh = nodeObjects.get(nodeId);
   if (!mesh) return;
 
