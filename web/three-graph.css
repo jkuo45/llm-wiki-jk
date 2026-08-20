@@ -603,6 +603,14 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   flex: 1 1 auto; min-height: 0; overflow-y: auto;
   display: flex; flex-direction: column; gap: 10px; padding-right: 2px;
 }
+/* Single scroll region: within the detail sheet the whole content after the
+   language toggle (metrics, context, connections) must scroll together so the
+   wheel passes the metrics. Neutralize the nested scroll caps that otherwise
+   trap the scrollbar inside the connections list / context text. */
+#at-node-detail .wiki-context-text,
+#at-node-detail #neighbors-list {
+  max-height: none; overflow: visible;
+}
 #at-node-detail > .at-node-head { flex-shrink: 0; }
 #at-node-detail .at-node-actions { flex-shrink: 0; margin-top: 2px; }
 .at-node-head { display: flex; flex-direction: column; gap: 8px; }
@@ -672,12 +680,14 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #at-node-detail .at-node-link:hover { color: #a0d4f0; }
 #at-node-detail .node-type { font-size: 10px; font-weight: 600; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; margin-left: 6px; }
 #at-node-detail .wiki-context-text { font-size: 12px; color: #bbb; line-height: 1.6; margin-top: 4px; }
-/* Context section as a card, matching the metrics-card look (.at-kv). */
+/* Context section as a card, matching the metrics-card look (.at-kv). The node
+   view folds the Source (edge) document link into this same card. */
 #at-node-detail .wiki-context-card {
   display: flex; flex-direction: column; gap: 4px;
   background: #16162b; border: 1px solid #2a2a4e; border-radius: 6px;
   padding: 8px 10px; min-width: 0;
 }
+#at-node-detail .wiki-context-card .node-edge-source { margin-top: 4px; padding-top: 6px; border-top: 1px solid #2a2a4e; }
 #at-node-detail .info-connections { font-size: 12px; font-weight: 600; color: #ccc; margin-top: 10px; }
 #at-node-detail .neighbor-link:hover { border-color: #4E79A7; color: #fff; }
 #at-node-detail .route-arrow { color: #6b7280; font-size: 13px; }

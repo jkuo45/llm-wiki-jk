@@ -111,10 +111,12 @@ function setNodeLang(lang) {
 
 const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg>';
 
-// Context / evidence text rendered as a card that matches the metrics-card look.
-function contextCard(text, max = 2800) {
-  if (!text) return '';
-  return `<div class="wiki-context-card"><span class="info-muted">Context</span><div class="wiki-context-text">${esc(text.slice(0, max))}${text.length > max ? '…' : ''}</div></div>`;
+// Context / evidence text inside a card that matches the metrics-card look.
+// `footer` (optional) is appended inside the card — the node view uses it to
+// fold the Source (edge) document link into the same card.
+function contextCard(text, max = 2800, footer = '') {
+  if (!text) return footer ? `<div class="field" style="margin-top:8px">${footer}</div>` : '';
+  return `<div class="wiki-context-card"><span class="info-muted">Context</span><div class="wiki-context-text">${esc(text.slice(0, max))}${text.length > max ? '…' : ''}</div>${footer}</div>`;
 }
 
 // Render the merged node info card: identity + wiki/source links + context +
@@ -201,11 +203,12 @@ function renderNodeInfo(nodeId, actions) {
     ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" class="at-node-link">${esc(n.label)} ${LINK_ICON}</a>`
     : '—';
 
-  const wikiDesc = contextCard(description);
-
   const edgeSourceLink = n.source_file
     ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(n.source_file.split('/').pop())} ${LINK_ICON}</a>`
     : '-';
+
+  const edgeSourceField = `<div class="field node-edge-source"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>`;
+  const wikiDesc = contextCard(description, 2800, edgeSourceField);
 
   const inA = !!(actions && actions.isInA && actions.isInA());
   const inB = !!(actions && actions.isInB && actions.isInB());
@@ -243,7 +246,6 @@ function renderNodeInfo(nodeId, actions) {
       </div>
       <div class="field node-source-row"><span class="info-muted">Source (node):</span> ${wikiLink}</div>
       ${wikiDesc}
-      <div class="field info-divider"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>
       ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
     </div>
     <div class="at-node-head-actions-row">

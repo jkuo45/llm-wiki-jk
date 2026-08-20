@@ -296,6 +296,7 @@ body {
 #at-node-detail .info-muted { color: #7C8698; }
 #at-node-detail .wiki-context-text { color: #4B5563; }
 #at-node-detail .wiki-context-card { background: #F6F3EC; border-color: #E2DCCE; }
+#at-node-detail .wiki-context-card .node-edge-source { border-top-color: #E2DCCE; }
 #at-node-detail .info-connections { color: #22304A; }
 #at-node-detail .at-node-link { color: #2563A8; }
 #at-node-detail .at-node-link:hover { color: #0B5F59; }
