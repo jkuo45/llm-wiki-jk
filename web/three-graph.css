@@ -1226,6 +1226,11 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .notes-card .fig-label {
   font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--teal);
   font-weight: 700; margin: 0; overflow-wrap: anywhere;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+}
+.notes-card .fig-label .fig-label-date {
+  color: #7c7c94; font-weight: 600; letter-spacing: 0.8px; text-transform: none;
+  white-space: nowrap; flex-shrink: 0;
 }
 .notes-card-title {
   color: #e8eef7; font-size: 14px; font-weight: 600; line-height: 1.35; margin: 0;

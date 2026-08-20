@@ -387,6 +387,18 @@ function noteTopic(note) {
   return (hit || tags[0] || 'misc').trim();
 }
 
+const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+// Short "MMM YYYY" (uppercase) banner date for a note, derived from its
+// `updated` date (falling back to `created`), matching the gallery sort order.
+function noteMonthYear(n) {
+  const d = (n.updated && /^\d{4}-\d{2}-\d{2}/.test(n.updated)) ? n.updated
+    : (n.created && /^\d{4}-\d{2}-\d{2}/.test(n.created)) ? n.created : '';
+  if (!d) return '';
+  const [y, m] = d.split('-');
+  const mon = MONTHS_SHORT[parseInt(m, 10) - 1];
+  return (mon && y) ? `${mon} ${y}` : '';
+}
+
 // ------------------------------------------------------------
 // Panel open / close
 // ------------------------------------------------------------
@@ -655,10 +667,11 @@ function cardHTML(n) {
         ${doc}
       </div>`
     : '';
+  const monthYear = noteMonthYear(n);
   return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(activeTitle(n))}">
     <div class="img-wrap">${img}</div>
     <div class="notes-card-body">
-      <div class="fig-label">${esc(`Note · ${topic}`)}</div>
+      <div class="fig-label">${esc(`Note · ${topic}`)}${monthYear ? `<span class="fig-label-date">${esc(monthYear)}</span>` : ''}</div>
       <h3 class="notes-card-title">${esc(activeTitle(n))}</h3>
       ${snip ? `<p class="caption notes-ocr-snip">${esc(snip)}</p>` : ''}
       ${meta}

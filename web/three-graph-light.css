@@ -478,6 +478,7 @@ body {
 .notes-card .img-wrap { background: #ECE8DD; }
 .notes-card .fig-label { color: var(--teal); }
 .notes-card-title { color: #22304A; }
+.notes-card .fig-label .fig-label-date { color: #7C8698; }
 .notes-card .caption { color: #7C8698; }
 .notes-card .context { color: #7C8698; border-top-color: #E2DCCE; }
 .notes-card-meta { color: #7C8698; }
