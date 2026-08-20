@@ -6,12 +6,12 @@
     "object": "Epigenetics",
     "context": {
       "en-US": "DNA methylation is one of the most extensively studied epigenetic mechanisms, operating alongside histone modification and non-coding RNA regulation. It involves the covalent addition of methyl groups to cytosines at CpG dinucleotides, repressing gene expression in promoter CpG islands by recruiting methyl-binding proteins and chromatin remodeling factors. Patterns are established de novo by DNMT3 enzymes and maintained by DNMT1 during replication, while methylation also silences transposable elements. Age-related global hypomethylation with focal hypermethylation defines the aging methylome, and selected CpG sites feed the epigenetic clocks that estimate biological age.",
-      "zh-TW": ""
+      "zh-TW": "DNA 甲基化是研究最廣泛的表觀遺傳機制之一，與組蛋白修飾和非編碼 RNA 調控一起發揮作用。它涉及將 methyl groups 共價添加到 CpG 二核苷酸的胞嘧啶上，透過招募甲基結合蛋白和染色質重塑因子來抑制啟動子 CpG 島中的 gene expression。模式由 DNMT3 酶從頭建立，並在複製過程中由 DNMT1 維持，而甲基化也會沉默轉座元件。與年齡相關的整體低甲基化和局部高甲基化定義了衰老的甲基化組，並且選定的 CpG 位點為估計生物年齡的表觀遺傳時鐘提供了資訊。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "03d938edd681",
@@ -20,12 +20,12 @@
     "object": "Epigenetics",
     "context": {
       "en-US": "Histone modification is a core epigenetic mechanism operating through covalent marks on the N-terminal tails of histone proteins, including acetylation, methylation, phosphorylation, ubiquitination, and SUMOylation. These modifications alter chromatin structure and recruit reader proteins that modulate gene expression; acetylation neutralizes lysine charge to open chromatin, whereas methylation at H3K9 or H3K27 typically condenses it into repressive heterochromatin. The marks are written, erased, and read by families of enzymes such as acetyltransferases, deacetylases, and methyltransferases, and their dynamic balance shapes gene expression and becomes progressively dysregulated with age.",
-      "zh-TW": ""
+      "zh-TW": "Histone 修飾是一種核心表觀遺傳機制，透過組蛋白 N 端尾部的共價標記進行操作，包括乙醯化、甲基化、磷酸化、泛素化和 SUMO 化。這些修飾改變染色質結構並招募調節 gene expression 的讀取蛋白；乙醯化會中和賴氨酸電荷以打開染色質，而 H3K9 或 H3K27 的甲基化通常會將其凝結成抑制性異染色質。這些標記由乙醯轉移酶、去乙醯酶和甲基轉移酶等酵素家族書寫、擦除和讀取，它們的動態平衡塑造了 gene expression，並隨著年齡的增長而逐漸失調。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "28122fcc293c",
@@ -34,12 +34,12 @@
     "object": "Epigenetics",
     "context": {
       "en-US": "Non-coding RNAs, including microRNAs, piRNAs, and long non-coding RNAs, function as an epigenetic mechanism that regulates gene expression at both the transcriptional and post-transcriptional levels. MicroRNAs guide the RNA-induced silencing complex to target mRNAs to promote degradation or translational repression, piRNAs help silence transposable elements in the germline, and long non-coding RNAs can recruit chromatin-modifying complexes to specific genomic loci. Their expression is dynamically regulated across the lifespan, and age-related declines in microRNA levels and in RNA-processing enzymes such as Dicer contribute to the aging epigenome.",
-      "zh-TW": ""
+      "zh-TW": "非編碼 RNA，包括 microRNA、piRNA 和長非編碼 RNA，作為表觀遺傳機制在轉錄和轉錄後層級調節 gene expression。 MicroRNA 引導 R​​NA 誘導的沉默複合物靶向 mRNA，以促進降解或翻譯抑制，piRNA 幫助沉默種系中的轉座元件，長非編碼 RNA 可以將染色質修飾複合物招募到特定基因組位點。它們的表達在整個生命週期中受到動態調節，並且與年齡相關的 microRNA 水平和 RNA 加工酶（例如 Dicer）的下降導致了表觀基因組的衰老。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d3c7fa028b7a",
@@ -48,12 +48,12 @@
     "object": "DNA Methylation",
     "context": {
       "en-US": "DNA methylation is catalyzed by a family of enzymes known as DNA methyltransferases (DNMTs), which transfer a methyl group from the cofactor S-adenosylmethionine to the C5 position of cytosine residues, predominantly within CpG dinucleotides. The family is divided into maintenance methyltransferases such as DNMT1, which copies methylation patterns onto the daughter strand during DNA replication, and de novo methyltransferases such as DNMT3a and DNMT3b, which establish new methylation at previously unmethylated loci. The accessory factor DNMT3L stimulates the catalytic activity of the de novo enzymes, and dysregulation of this enzyme family underlies cancer and age-related epigenetic drift.",
-      "zh-TW": ""
+      "zh-TW": "DNA 甲基化由稱為 DNA 甲基轉移酶 (DNMT) 的酶家族催化，該酶將甲基從輔因子 S-adenosylmethionine 轉移到胞嘧啶殘基的 C5 位置，主要在 CpG 二核苷酸內。該家族分為維持甲基轉移酶（如 DNMT1）和從頭甲基轉移酶（如 DNMT3a 和 DNMT3b），前者在 DNA 複製過程中將甲基化模式複製到子鏈上，後者在先前未甲基化的位點建立新的甲基化。輔助因子 DNMT3L 刺激從頭酶的催化活性，該酶家族的失調是癌症和與年齡相關的表觀遺傳漂移的基礎。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b4a8dbc4fa42",
@@ -62,12 +62,12 @@
     "object": "DNA Methylation",
     "context": {
       "en-US": "DNMT1 is the primary maintenance methyltransferase that preserves DNA methylation patterns during DNA replication. It is recruited to hemi-methylated CpG sites in S phase through its interaction with UHRF1, which recognizes the methylated parental strand via its SRA domain, and copies the methylation pattern of the parental strand onto the newly synthesized daughter strand. It transfers methyl groups from S-adenosylmethionine to the C5 position of cytosine, and its efficiency declines with age, contributing to epigenetic drift. It is also a target of nucleoside inhibitors such as 5-azacytidine and decitabine used in epigenetic therapy.",
-      "zh-TW": ""
+      "zh-TW": "DNMT1 是主要的維持性甲基轉移酶，可在 DNA 複製過程中保留 DNA 甲基化模式。它透過與 UHRF1 相互作用被招募到 S 期的半甲基化 CpG 位點，UHRF1 透過其 SRA 結構域識別甲基化親代鏈，並將親代鏈的甲基化模式複製到新合成的子鏈上。它將 methyl groups 從 S-adenosylmethionine 轉移到胞嘧啶的 C5 位，其效率隨著年齡的增長而下降，導致表觀遺傳漂移。它也是表觀遺傳治療中使用的核苷抑制劑（例如 5-氮雜胞苷和地西他濱）的標靶。"
     },
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d367acd56957",
@@ -76,12 +76,12 @@
     "object": "DNA Methyltransferase",
     "context": {
       "en-US": "DNMT1 (DNA methyltransferase 1) is the principal maintenance methyltransferase of the DNMT enzyme family, responsible for faithfully copying existing DNA methylation patterns onto daughter DNA strands during cell division. It acts preferentially on hemi-methylated CpG dinucleotides that arise transiently after replication, ensuring that symmetric CpG methylation is restored on the nascent strand. Alongside the de novo methyltransferases DNMT3a and DNMT3b, it forms the catalytic core of the mammalian DNA methylation machinery, and its dysregulation is linked to cancer, aging, and epigenetic instability.",
-      "zh-TW": ""
+      "zh-TW": "DNMT1（DNA 甲基轉移酶 1）是 DNMT 酶家族的主要維持甲基轉移酶，負責在細胞分裂過程中將現有的 DNA 甲基化模式忠實地複製到子代 DNA 鏈上。它優先作用於複製後瞬時出現的半甲基化 CpG 二核苷酸，確保在新生鏈上恢復對稱 CpG 甲基化。它與從頭甲基轉移酶 DNMT3a 和 DNMT3b 一起形成哺乳動物 DNA 甲基化機制的催化核心，失調與癌症、老化和表觀遺傳不穩定有關。"
     },
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ae164554a2f8",
@@ -90,12 +90,12 @@
     "object": "UHRF1",
     "context": {
       "en-US": "UHRF1 is a key accessory protein that recruits DNMT1 to sites of DNA replication. During S phase, UHRF1 recognizes hemi-methylated CpG sites through its SRA (SET- and RING-associated) domain, binding the methylated parental strand while leaving the unmodified daughter strand available for methylation. This targeting directs DNMT1 to replication foci where it restores symmetric CpG methylation on the newly synthesized strand, ensuring faithful propagation of epigenetic information across cell divisions. Loss of this targeting mechanism leads to passive demethylation and epigenetic instability.",
-      "zh-TW": ""
+      "zh-TW": "UHRF1 是一種關鍵的輔助蛋白，它將 DNMT1 招募到 DNA 複製位點。在 S 期，UHRF1 透過其 SRA（SET 和 RING 相關）結構域識別半甲基化 CpG 位點，結合甲基化親代鏈，同時留下未修飾的子鏈可用於甲基化。這種標靶將 DNMT1 引導至複製焦點，在其中恢復新合成鏈上對稱的 CpG 甲基化，確保表觀遺傳訊息在細胞分裂中的忠實傳播。這種標靶機制的喪失會導致被動去甲基化和表觀遺傳不穩定。"
     },
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5083e86762d7",
@@ -104,12 +104,12 @@
     "object": "Aging",
     "context": {
       "en-US": "The expression and activity of DNMT1 decline as organisms age, leading to a gradual loss of methylation marks across the genome. Because DNMT1 is responsible for maintaining methylation patterns after DNA replication, its reduced efficiency promotes passive DNA demethylation, particularly at repetitive elements and gene bodies. This age-associated erosion of methylation contributes to epigenetic drift, activation of transposable elements, and chromatin decompaction, all of which are defining features of the aging epigenome.",
-      "zh-TW": ""
+      "zh-TW": "DNMT1 的表達和活性隨著生物體年齡的增長而下降，導致整個基因組中甲基化標記的逐漸喪失。由於 DNMT1 負責在 DNA 複製後維持甲基化模式，因此其效率降低會促進被動 DNA 去甲基化，特別是在重複元件和基因體上。這種與年齡相關的甲基化侵蝕會導致表觀遺傳漂移、轉座元件活化和染色質解壓縮，而這些都是老化表觀基因組的定義特徵。"
     },
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "48a4a1025581",
@@ -118,12 +118,12 @@
     "object": "SAM",
     "context": {
       "en-US": "S-adenosylmethionine (SAM) is the universal methyl donor for DNA methylation reactions. DNMT1 transfers the methyl group from SAM to the C5 position of cytosine residues on the nascent DNA strand, generating 5-methylcytosine and S-adenosylhomocysteine as products. Because SAM availability reflects one-carbon metabolism and methyl-donor supply, fluctuations in its levels can influence methylation maintenance and, consequently, gene silencing, transposable element repression, and overall epigenetic stability.",
-      "zh-TW": ""
+      "zh-TW": "S-adenosylmethionine (SAM) 是 DNA 甲基化反應的通用 methyl donor。 DNMT1 將甲基從 SAM 轉移到新生 DNA 鏈上胞嘧啶殘基的 C5 位置，生成 5-甲基胞嘧啶和 S-adenosylhomocysteine 作為產物。由於 SAM 的可用性反映了一碳代謝和甲基供體供應，因此其水平的波動會影響甲基化維持，從而影響基因沉默、轉座元件抑制和整體表觀遺傳穩定性。"
     },
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f6ed6d9d4490",
@@ -132,12 +132,12 @@
     "object": "DNA Methylation",
     "context": {
       "en-US": "DNMT3a is a de novo DNA methyltransferase that establishes new DNA methylation patterns at previously unmethylated loci, playing a central role in setting up the methylation landscape during development. It cooperates with DNMT3b and the stimulatory accessory factor DNMT3L to deposit methyl groups at targeted regions, and it prefers gene bodies and intergenic regions in contrast to the repetitive element bias of DNMT3b. DNMT3a is essential for hematopoiesis, and its somatic mutation drives clonal hematopoiesis and acute myeloid leukemia, making it both a developmental regulator and a disease-relevant enzyme.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3a 是一種從頭 DNA 甲基轉移酶，可在先前未甲基化的位點建立新的 DNA 甲基化模式，在發育過程中建立甲基化景觀中發揮核心作用。它與DNMT3b和刺激輔助因子DNMT3L合作，將methyl groups沉積在目標區域，與DNMT3b的重複元件偏向相比，它更喜歡基因體和基因間區域。 DNMT3a 對於造血至關重要，其體細胞突變可驅動克隆造血和急性髓性白血病，使其既是發育調節因子，也是疾病相關酶。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c5016cae299f",
@@ -146,12 +146,12 @@
     "object": "DNA Methyltransferase",
     "context": {
       "en-US": "DNMT3a (DNA methyltransferase 3 alpha) is a de novo methyltransferase within the DNMT enzyme family that establishes new DNA methylation patterns rather than maintaining existing ones. It is catalytically active on unmethylated DNA and deposits methyl groups at CpG dinucleotides, with a preference for gene bodies and intergenic regions. It is essential for lineage specification, particularly hematopoiesis, and is frequently mutated in blood cancers, where somatic DNMT3A mutations drive clonal hematopoiesis and predispose to acute myeloid leukemia.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3a（DNA 甲基轉移酶 3 α）是 DNMT 酶家族中的一種從頭甲基轉移酶，可建立新的 DNA 甲基化模式，而不是維持現有模式。它對未甲基化的 DNA 具有催化活性，並將 methyl groups 沉積在 CpG 二核苷酸上，並優先考慮基因體和基因間區域。它對於譜系規範（特別是造血作用）至關重要，並且在血癌中經常發生突變，其中體細胞 DNMT3A 突變驅動克隆造血並易患急性髓系白血病。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "56dd2b156812",
@@ -160,12 +160,12 @@
     "object": "DNMT3b",
     "context": {
       "en-US": "DNMT3a forms functional complexes with its paralog DNMT3b and with the accessory protein DNMT3L to deposit methylation at targeted loci. The two de novo methyltransferases share sequence homology but exhibit distinct genomic targeting preferences, with DNMT3b favoring repetitive elements while DNMT3a acts more broadly across gene bodies and intergenic regions. Their cooperative activity is critical during early embryogenesis for establishing the genome-wide methylation patterns that are subsequently maintained by DNMT1, and both are essential for normal development.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3a 與其旁系同源物 DNMT3b 和輔助蛋白 DNMT3L 形成功能複合物，在目標位點沉積甲基化。這兩種從頭甲基轉移酶具有序列同源性，但表現出不同的基因組靶向偏好，其中 DNMT3b 有利於重複元件，而 DNMT3a 在基因體和基因間區域中發揮更廣泛的作用。它們的合作活動在早期胚胎髮生過程中對於建立隨後由 DNMT1 維持的全基因組甲基化模式至關重要，並且兩者對於正常發育都是必需的。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0edeaa78f988",
@@ -174,12 +174,12 @@
     "object": "Gene Bodies",
     "context": {
       "en-US": "DNMT3a exhibits a preference for methylating gene bodies and intergenic regions, in contrast to DNMT3b, which preferentially targets repetitive elements and pericentromeric satellite DNA. Gene body methylation is associated with transcriptional regulation, alternative splicing, and suppression of spurious transcription initiation within genes. This differential targeting between the de novo methyltransferases helps shape the distinct compartmentalization of the methylome and influences patterns of gene expression, heterochromatin formation, and genomic stability.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3a 表現出對基因體和基因間區域甲基化的偏好，而 DNMT3b 則優先針對重複元件和著絲粒周圍衛星 DNA。基因體甲基化與基因內的轉錄調控、選擇性剪接和抑制虛假轉錄起始有關。從頭甲基轉移酶之間的這種差異靶向有助於形成甲基化組的獨特區室化，並影響 gene expression 的模式、異染色質形成和基因組穩定性。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "700b7fa5748e",
@@ -188,12 +188,12 @@
     "object": "Hematopoiesis",
     "context": {
       "en-US": "DNMT3a is essential for normal hematopoiesis, particularly for the differentiation and self-renewal of hematopoietic stem cells. It establishes DNA methylation patterns that restrict the expression of genes involved in stem cell maintenance and promotes commitment to the blood cell lineage. Loss or mutation of DNMT3a deregulates this epigenetic control, expanding self-renewal capacity and predisposing cells to clonal outgrowth, which underlies clonal hematopoiesis of indeterminate potential and progression to acute myeloid leukemia.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3a對於正常造血，特別是造血幹細胞的分化和自我更新至關重要。它建立 DNA 甲基化模式，限制參與幹細胞維持的基因表達，並促進對血球譜系的承諾。 DNMT3a的缺失或突變會解除這種表觀遺傳控制的調節，擴大自我更新能力並使細胞易於克隆生長，這是不確定潛力的克隆造血和進展為急性髓系白血病的基礎。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ab9c6f8c2e73",
@@ -202,12 +202,12 @@
     "object": "Clonal Hematopoiesis",
     "context": {
       "en-US": "Somatic mutations in the DNMT3A gene are among the most common drivers of clonal hematopoiesis of indeterminate potential (CHIP), a premalignant state in which a single hematopoietic stem cell clone expands in the blood. These mutations impair the enzyme's catalytic activity, altering DNA methylation at loci that regulate self-renewal and differentiation. Because DNMT3A-mutant clones persist and accumulate with age, they confer an elevated risk of hematologic malignancies such as acute myeloid leukemia, as well as cardiovascular disease.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3A 基因的體細胞突變是不確定潛能克隆造血 (CHIP) 的最常見驅動因素之一，這是一種單一造血幹細胞克隆在血液中擴增的癌前狀態。這些突變損害了酵素的催化活性，改變了調節自我更新和分化的位點的 DNA 甲基化。由於 DNMT3A 突變克隆會隨著年齡的增長而持續存在和積累，因此它們會增加急性髓性白血病等血液系統惡性腫瘤以及心血管疾病的風險。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "01c380290a67",
@@ -216,12 +216,12 @@
     "object": "Acute Myeloid Leukemia",
     "context": {
       "en-US": "Recurrent mutations in DNMT3A, notably the R882H hotspot mutation, are found in approximately 20% of acute myeloid leukemia (AML) cases. These mutations reduce the methyltransferase activity of DNMT3a, disrupting DNA methylation at regulatory regions that control hematopoietic stem cell behavior. The resulting epigenetic dysregulation cooperates with other mutations to drive leukemogenesis, and DNMT3A-mutant clones are frequently detectable in preleukemic states, linking age-associated clonal hematopoiesis to overt AML.",
-      "zh-TW": ""
+      "zh-TW": "在約 20% 的急性髓性白血病 (AML) 病例中發現了 DNMT3A 的複發突變，尤其是 R882H 熱點突變。這些突變降低了 DNMT3a 的甲基轉移酶活性，破壞了控製造血幹細胞行為的調節區域的 DNA 甲基化。由此產生的表觀遺傳失調與其他突變共同驅動白血病發生，並且在白血病前期狀態中經常可以檢測到 DNMT3A 突變克隆，將年齡相關的克隆造血與明顯的 AML 聯繫起來。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "df1aac4e0af0",
@@ -230,12 +230,12 @@
     "object": "DNA Methylation",
     "context": {
       "en-US": "DNMT3b works alongside DNMT3a as a de novo methyltransferase to establish new DNA methylation patterns during early development. It preferentially methylates repetitive elements, including pericentromeric satellite repeats, where its activity is essential for heterochromatin formation and genomic stability. Loss-of-function mutations in DNMT3B cause ICF syndrome, characterized by immunodeficiency, centromeric instability, and facial anomalies, while its overexpression is common in cancers, where it contributes to aberrant hypermethylation and tumor suppressor silencing.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3b 與 DNMT3a 一起作為從頭甲基轉移酶，在早期開發過程中建立新的 DNA 甲基化模式。它優先甲基化重複元件，包括著絲粒周圍衛星重複序列，其活性對於異染色質形成和基因組穩定性至關重要。 DNMT3B 的功能缺失突變會導致 ICF 綜合徵，其特徵是免疫缺陷、著絲粒不穩定和麵部異常，而其過度表達在癌症中很常見，會導致異常高甲基化和腫瘤抑制基因沉默。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9b7b0f1dbc22",
@@ -244,12 +244,12 @@
     "object": "DNA Methyltransferase",
     "context": {
       "en-US": "DNMT3b (DNA methyltransferase 3 beta) is a de novo methyltransferase in the DNMT enzyme family that establishes new DNA methylation patterns at unmethylated DNA. It acts in concert with DNMT3a during development and exhibits a strong preference for repetitive sequences such as pericentromeric satellite repeats and other tandem DNA. Mutations in DNMT3B cause ICF syndrome, while its overexpression in various cancers drives hypermethylation and silencing of tumor suppressor genes, underscoring its importance for both development and disease.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3b（DNA 甲基轉移酶 3 beta）是 DNMT 酶家族中的從頭甲基轉移酶，可在未甲基化的 DNA 上建立新的 DNA 甲基化模式。它在開發過程中與 DNMT3a 協同作用，並對重複序列（例如著絲粒周圍衛星重複序列和其他串聯 DNA）表現出強烈的偏好。 DNMT3B 突變會導致 ICF 綜合徵，而其在各種癌症中的過度表達會驅動腫瘤抑制基因的高甲基化和沈默，強調了其對發育和疾病的重要性。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9d3ae507589f",
@@ -258,12 +258,12 @@
     "object": "Pericentromeric Satellite Repeats",
     "context": {
       "en-US": "DNMT3b exhibits a strong preference for pericentromeric satellite repeats and other repetitive DNA, depositing methylation that is essential for constitutive heterochromatin formation and centromere function. By methylating these repetitive sequences, DNMT3b helps maintain centromere stability and prevent aberrant recombination and chromosome missegregation. Loss of this activity in ICF syndrome leads to centromeric instability, decondensation of satellite regions, and clinical features of immunodeficiency and facial anomalies.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3b 對著絲粒周圍衛星重複序列和其他重複 DNA 表現出強烈的偏好，沉積甲基化，這對於組成型異染色質形成和著絲粒功能至關重要。透過甲基化這些重複序列，DNMT3b 有助於維持著絲粒穩定性並防止異常重組和染色體錯誤分離。 ICF 症候群中這種活性的喪失會導致著絲粒不穩定、衛星區域去濃縮以及免疫缺陷和臉部異常的臨床特徵。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6d887d8aa194",
@@ -272,12 +272,12 @@
     "object": "ICF Syndrome",
     "context": {
       "en-US": "ICF syndrome (Immunodeficiency, Centromere instability, and Facial anomalies) is a rare autosomal recessive disorder caused by mutations in the DNMT3B gene. Loss of DNMT3b activity leads to hypomethylation of pericentromeric satellite repeats and juxtacentromeric regions, resulting in centromeric decondensation, chromosome instability, and characteristic chromosomal abnormalities in stimulated lymphocytes. The disease manifests as combined immunodeficiency with reduced immunoglobulin levels, facial dysmorphism, and developmental delay.",
-      "zh-TW": ""
+      "zh-TW": "ICF 症候群（免疫缺陷、著絲粒不穩定和臉部異常）是一種罕見的體染色體隱性遺傳疾病，由 DNMT3B 基因突變引起。 DNMT3b 活性的喪失會導致著絲粒周圍衛星重複序列和近著絲粒區域的低甲基化，從而導致著絲粒脫縮、染色體不穩定以及受刺激的淋巴細胞中的特徵性染色體異常。此疾病表現為聯合免疫缺陷，伴隨免疫球蛋白水平降低、臉部畸形和發育遲緩。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "72a70912340e",
@@ -286,12 +286,12 @@
     "object": "Cancer",
     "context": {
       "en-US": "Overexpression of DNMT3b is frequently observed in various cancers, where it contributes to aberrant hypermethylation and silencing of tumor suppressor genes. Elevated de novo methylation activity can target promoter CpG islands, turning off genes that normally restrain proliferation, migration, or apoptosis. Along with the global hypomethylation that accompanies tumorigenesis, DNMT3b-driven focal hypermethylation is a hallmark epigenetic alteration of cancer and provides a rationale for DNA methyltransferase inhibitor therapies.",
-      "zh-TW": ""
+      "zh-TW": "DNMT3b 的過度表現經常在各種癌症中觀察到，它會導致腫瘤抑制基因的異常高甲基化和沈默。升高的從頭甲基化活性可以靶向啟動子 CpG 島，關閉通常抑制增殖、遷移或凋亡的基因。与伴随肿瘤发生的整体低甲基化一起，DNMT3b 驱动的局灶性高甲基化是癌症的标志性表观遗传改变，并为 DNA 甲基转移酶抑制剂治疗提供了理论依据。"
     },
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "00d8cf109a35",
@@ -300,12 +300,12 @@
     "object": "Gene Silencing",
     "context": {
       "en-US": "High levels of DNA methylation in promoter regions, often concentrated in CpG islands, are strongly associated with gene silencing. Methylated promoters recruit methyl-CpG-binding domain (MBD) proteins and inhibit the binding of transcription factors, converting active promoters into transcriptionally inert chromatin. This repressive mechanism is used physiologically for imprinting and for silencing transposable elements, and its aberrant targeting of tumor suppressor gene promoters is a hallmark of cancer.",
-      "zh-TW": ""
+      "zh-TW": "啟動子區域的高水平 DNA 甲基化（通常集中在 CpG 島）與基因沉默密切相關。甲基化啟動子招募甲基 CpG 結合域 (MBD) 蛋白並抑制轉錄因子的結合，將活性啟動子轉化為轉錄惰性染色質。這種抑制機制在生理學上用於印記和沈默轉座元件，其對腫瘤抑制基因啟動子的異常靶向性是癌症的標誌。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "408ef1d1470e",
@@ -314,12 +314,12 @@
     "object": "Chromatin Remodeling",
     "context": {
       "en-US": "Methylated DNA is recognized by methyl-CpG-binding domain (MBD) proteins that recruit chromatin remodeling factors and histone deacetylases to the site. These recruited complexes remove acetyl groups and deposit repressive histone modifications, promoting condensation of the chromatin into a transcriptionally inactive state. This cross-talk between DNA methylation and histone modification establishes a self-reinforcing repressive loop that maintains stable gene silencing across cell divisions, and it is a major route by which promoter methylation converts active genes into silenced heterochromatin.",
-      "zh-TW": ""
+      "zh-TW": "甲基化 DNA 被甲基 CpG 結合域 (MBD) 蛋白識別，將染色質重塑因子和組蛋白去乙醯化酶募集到該位點。這些招募的複合物去除乙醯基並沉積抑制性組蛋白修飾，促進染色質凝結成轉錄失活狀態。 DNA甲基化和組蛋白修飾之間的這種串擾建立了一個自我強化的抑制環，在細胞分裂過程中維持穩定的基因沉默，並且它是啟動子甲基化將活性基因轉化為沉默的異染色質的主要途徑。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8ca50c313444",
@@ -328,12 +328,12 @@
     "object": "Cancer",
     "context": {
       "en-US": "Aberrant DNA methylation is a hallmark of many cancers, characterized by global hypomethylation across repetitive elements and gene bodies together with focal hypermethylation of tumor suppressor gene promoters. Global hypomethylation promotes genomic instability and reactivation of transposable elements, while promoter hypermethylation silences genes that protect against transformation. These alterations cooperate with genetic mutations to drive tumorigenesis and provide targets for epigenetic therapies using DNA methyltransferase inhibitors.",
-      "zh-TW": ""
+      "zh-TW": "異常 DNA 甲基化是許多癌症的標誌，其特徵是重複元件和基因體的整體低甲基化以及腫瘤抑制基因啟動子的局部高甲基化。整體低甲基化促進基因組不穩定和轉座元件重新激活，而啟動子高甲基化則沉默基因以防止轉化。這些改變與基因突變共同驅動腫瘤發生，並為使用 DNA 甲基轉移酶抑制劑的表觀遺傳學治療提供標靶。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "06196f53cab4",
@@ -342,12 +342,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Aging is accompanied by global DNA hypomethylation, particularly at repetitive regions and gene bodies, coupled with focal hypermethylation at CpG islands and specific gene promoters. This pattern of age-related methylation change, known as epigenetic drift, erodes cellular identity and can reactivate silenced transposable elements. The loss of methylation is partly attributed to declining DNMT1 activity, and the resultant epigenetic instability contributes to age-associated dysfunction and disease.",
-      "zh-TW": ""
+      "zh-TW": "Aging 伴隨著整體 DNA 低甲基化，特別是在重複區域和基因體，同時伴隨 CpG 島和特定基因啟動子的局部高甲基化。這種與年齡相關的甲基化變化模式（稱為表觀遺傳漂變）會破壞細胞身份，並可能重新激活沉默的轉座元件。甲基化的喪失部分歸因於 DNMT1 活性下降，由此產生的表觀遺傳不穩定導致與年齡相關的功能障礙和疾病。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "273473f007d1",
@@ -356,12 +356,12 @@
     "object": "Epigenetic Clock",
     "context": {
       "en-US": "Epigenetic clocks are built from DNA methylation measurements at defined sets of CpG sites whose methylation levels change predictably with chronological age. These statistical models convert methylome data into an estimate of biological age, and deviations between predicted and chronological age indicate accelerated or decelerated aging. Because methylation at these sites responds to interventions such as caloric restriction and partial reprogramming, clocks are used to track the effectiveness of rejuvenation strategies.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳時鐘是根據一組定義的 CpG 位點的 DNA 甲基化測量構建的，這些位點的甲基化水平可預測地隨著實際年齡的變化而變化。這些統計模型將甲基化組數據轉換為生物年齡的估計值，預測年齡和實際年齡之間的偏差表示老化加速或減慢。由於這些位點的甲基化會對熱量限制和部分重編程等乾預措施做出反應，因此時鐘被用來追蹤恢復活力策略的有效性。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "949f60761d3d",
@@ -370,12 +370,12 @@
     "object": "Transposable Elements",
     "context": {
       "en-US": "DNA methylation helps repress potentially harmful repetitive elements and retrotransposons within the genome. Methylation at the promoters and internal sequences of transposable elements such as LINE-1 and Alu elements maintains them in a transcriptionally silent state, preventing their mobilization and the genomic instability they would otherwise cause. Age-related loss of this methylation derepresses these elements, allowing their transcription and reverse transcription, which in turn triggers innate immune signaling and inflammaging.",
-      "zh-TW": ""
+      "zh-TW": "DNA 甲基化有助於抑制基因組內潛在有害的重複元件和逆轉錄轉座子。 Methylation 位於轉座元件（例如 LINE-1 和 Alu 元件）的啟動子和內部序列上，使它們保持轉錄沉默狀態，防止它們的動員和否則會導致的基因組不穩定。與年齡相關的甲基化缺失會抑制這些元件，從而允許它們轉錄和逆轉錄，進而觸發先天免疫訊號傳導和發炎。"
     },
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "35f1e9f4207c",
@@ -384,12 +384,12 @@
     "object": "Histone Acetylation",
     "context": {
       "en-US": "Histone acetyltransferases (HATs) catalyze the transfer of acetyl groups from acetyl-CoA to specific lysine residues on histone tails, a key step in epigenetic regulation. Acetylation neutralizes the positive charge of the lysine side chains, weakening histone-DNA interactions and opening the chromatin for transcription. HAT activity is opposed by histone deacetylases, and the balance between these opposing enzymes determines the acetylation state of chromatin and hence its transcriptional activity.",
-      "zh-TW": ""
+      "zh-TW": "Histone 乙醯轉移酶 (HAT) 催化乙醯基從乙醯輔酶 A 轉移到組蛋白尾部的特定離胺酸殘基，這是表觀遺傳調控的關鍵步驟。乙醯化會中和賴氨酸側鏈的正電荷，削弱組蛋白-DNA 相互作用並打開染色質進行轉錄。 HAT 的活性與組蛋白去乙醯化酶相反，這些相反酶之間的平衡決定了染色質的乙醯化狀態，從而決定了其轉錄活性。"
     },
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d856346241d0",
@@ -398,12 +398,12 @@
     "object": "Histone Deacetylase",
     "context": {
       "en-US": "Histone acetyltransferases (HATs) act in dynamic opposition to histone deacetylases (HDACs) to control the steady-state acetylation of histones. HATs deposit acetyl groups that open chromatin and promote gene activation, whereas HDACs remove them to restore a compact, repressive state. Signal-dependent recruitment of HATs couples extracellular cues to gene activation, and the antagonism between these enzyme families is disrupted in aging, neurodegeneration, and cancer, where restoring the balance is explored as a therapeutic strategy.",
-      "zh-TW": ""
+      "zh-TW": "Histone 乙醯轉移酶 (HAT) 與組蛋白去乙醯化酶 (HDAC) 動態對抗，以控制組蛋白的穩態乙醯化。 HAT 沉積乙醯基，打開染色質並促進基因激活，而 HDAC 則去除乙醯基以恢復緊湊的抑制狀態。 HAT 的訊號依賴性募集將細胞外訊號與基因活化結合起來，這些酵素家族之間的拮抗作用在老化、神經退化性疾病和癌症中被破壞，恢復平衡被探索作為一種治療策略。"
     },
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "345fef0af97e",
@@ -412,12 +412,12 @@
     "object": "Euchromatin",
     "context": {
       "en-US": "Histone acetylation promotes the formation of euchromatin, the open, transcriptionally permissive form of chromatin. Acetylation neutralizes the positive charge of lysine residues on histone tails, reducing their affinity for the negatively charged DNA backbone and loosening the nucleosome structure. This relaxed conformation allows transcription factors and RNA polymerase to access regulatory sequences, and acetylated lysines also serve as docking sites for bromodomain-containing reader proteins that further stimulate transcription.",
-      "zh-TW": ""
+      "zh-TW": "Histone 乙醯化促進常染色質的形成，常染色質是開放的、轉錄允許的染色質形式。乙醯化會中和組蛋白尾部賴氨酸殘基的正電荷，降低其與帶負電荷的 DNA 主鏈的親和力，並鬆開核小體結構。這種鬆弛的構象允許轉錄因子和 RNA 聚合酶存取調控序列，乙醯化離胺酸也可作為含溴結構域讀取蛋白的對接位點，進一步刺激轉錄。"
     },
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "14017ff54851",
@@ -426,12 +426,12 @@
     "object": "Acetyl-CoA",
     "context": {
       "en-US": "Histone acetyltransferases (HATs) use acetyl-CoA as the acetyl donor, transferring an acetyl group from acetyl-CoA to specific lysine residues on histone tails. The reaction converts a positively charged lysine into a neutral acetylated lysine, changing histone-DNA interactions and the overall charge distribution of the nucleosome. Because acetyl-CoA levels reflect the cellular metabolic state, HAT activity directly links metabolism to chromatin regulation and gene expression, allowing nutrient availability to influence the accessibility of genes to the transcriptional machinery.",
-      "zh-TW": ""
+      "zh-TW": "Histone 乙醯轉移酶 (HAT) 使用乙醯輔酶 A 作為乙醯供體，將乙醯基從乙醯輔酶 A 轉移到組蛋白尾部的特定離胺酸殘基上。此反應將帶正電荷的賴氨酸轉化為中性乙醯化賴氨酸，改變組蛋白-DNA 相互作用和核小體的整體電荷分佈。由於乙醯輔酶 A 水平反映了細胞代謝狀態，因此 HAT 活性將代謝與染色質調節和 gene expression 直接聯繫起來，從而使營養物質的可用性影響基因對轉錄機制的可及性。"
     },
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "169913b8b98b",
@@ -440,12 +440,12 @@
     "object": "Aging",
     "context": {
       "en-US": "The balance between histone acetyltransferase (HAT) and histone deacetylase (HDAC) activity is often disrupted in aging, with reduced histone acetylation observed in neurodegeneration and other age-related conditions. Because acetylation supports open chromatin and gene expression, its loss contributes to aberrant silencing of protective genes and to altered transcriptional programs. Restoring the HAT/HDAC balance is therefore explored as an intervention to counteract age-related epigenetic decline.",
-      "zh-TW": ""
+      "zh-TW": "組蛋白乙醯轉移酶 (HAT) 和組蛋白去乙醯化酶 (HDAC) 活性之間的平衡在老化過程中經常被破壞，在神經退化性疾病和其他與年齡相關的疾病中觀察到組蛋白乙醯化減少。由於乙醯化支持開放染色質和 gene expression，其缺失會導致保護基因的異常沉默和轉錄程序的改變。因此，恢復 HAT/HDAC 平衡被探討作為抵消與年齡相關的表觀遺傳衰退的干預措施。"
     },
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ac558187ad8f",
@@ -454,12 +454,12 @@
     "object": "Deacetylation",
     "context": {
       "en-US": "Histone deacetylases (HDACs) remove acetyl groups from epsilon-N-acetyl-lysine residues on histone tails, restoring the positive charge of lysine side chains. This increases the affinity of histones for DNA, allowing chromatin to wrap more tightly and generally repressing transcription. HDACs are grouped into classes, with class I and II enzymes using zinc-dependent catalysis and class III sirtuins using NAD+ as a cofactor, and HDAC inhibitors are widely used experimentally to reactivate gene expression.",
-      "zh-TW": ""
+      "zh-TW": "Histone 去乙醯化酶 (HDAC) 可去除組蛋白尾部 ε-N-乙醯基-賴氨酸殘基上的乙醯基，恢復離胺酸側鏈的正電荷。這增加了組蛋白與 DNA 的親和力，使染色質包裹得更緊，從而抑制轉錄。 HDAC 分為幾類，其中 I 類和 II 類酶使用鋅依賴性催化，III 類去乙醯化酶使用 NAD+ 作為輔因子，HDAC 抑制劑在實驗中廣泛用於重新激活 gene expression。"
     },
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6a0e5bad0030",
@@ -468,12 +468,12 @@
     "object": "Heterochromatin",
     "context": {
       "en-US": "By removing acetyl groups from histone tails, histone deacetylases restore the positive charge of lysine side chains, strengthening electrostatic interactions between histones and DNA. This promotes chromatin condensation into a more compact heterochromatin state that is generally refractory to transcription. Deacetylation therefore opposes the chromatin-opening effects of histone acetyltransferases, and the dynamic balance between these activities governs the accessibility of genes to the transcriptional machinery.",
-      "zh-TW": ""
+      "zh-TW": "通過去除組蛋白尾部的乙醯基，組蛋白去乙醯化酶恢復離胺酸側鏈的正電荷，從而加強組蛋白和 DNA 之間的靜電相互作用。這促進染色質濃縮成更緊湊的異染色質狀態，該狀態通常難以轉錄。因此，Deacetylation 對抗組蛋白乙醯轉移酶的染色質打開作用，而這些活性之間的動態平衡控制基因對轉錄機制的可及性。"
     },
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ed6c87c22fdc",
@@ -482,12 +482,12 @@
     "object": "Sirtuins",
     "context": {
       "en-US": "The class III histone deacetylases are the sirtuins (SIRT1-7), NAD+-dependent deacetylases that link metabolic state to chromatin regulation. Unlike class I and II HDACs, which use zinc-dependent catalysis, sirtuins couple deacetylation to NAD+ hydrolysis, making their activity sensitive to cellular energy status. Sirtuins deacetylate histones and numerous non-histone proteins and are strongly implicated in aging and longevity, with Sir2 overexpression extending lifespan in yeast and sirtuin activation emerging as a candidate anti-aging intervention.",
-      "zh-TW": ""
+      "zh-TW": "III 類組蛋白去乙醯化酶是沉默調節蛋白 (SIRT1-7)，這是一種 NAD+ 依賴性去乙醯化酶，將代謝狀態與染色質調節聯繫起來。與使用鋅依賴性催化作用的 I 型和 II 型 HDAC 不同，去乙醯化酶將去乙醯化與 NAD+ 水解結合起來，使其活性對細胞能量狀態敏感。 Sirtuins 使組蛋白和許多非組蛋白去乙醯化，與老化和長壽密切相關，Sir2 過度表達可延長酵母壽命，而 Sirtuin 活化則成為候選抗衰老幹預措施。"
     },
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "74e53c161198",
@@ -496,12 +496,12 @@
     "object": "Deacetylases",
     "context": {
       "en-US": "Sirtuins are NAD+-dependent deacetylases that couple the hydrolysis of NAD+ to the removal of acetyl groups from lysine residues on histones and other proteins. This dependence on NAD+ makes their activity directly responsive to the metabolic and energy state of the cell. They regulate chromatin structure, transcription factor activity, DNA repair, and metabolism, and have been strongly implicated in the control of aging and longevity, with sirtuin activation emerging as a candidate anti-aging intervention.",
-      "zh-TW": ""
+      "zh-TW": "Sirtuins 是 NAD+ 依賴性去乙醯化酶，可將 NAD+ 的水解與組蛋白和其他蛋白質上賴氨酸殘基上乙醯基的去除結合起來。這種對 NAD+ 的依賴使得它們的活性直接回應細胞的代謝和能量狀態。它們調節染色質結構、轉錄因子活性、DNA 修復和新陳代謝，並與老化和長壽的控制密切相關，而沉默調節蛋白的活化正在成為一種候選的抗衰老幹預措施。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - xenohormesis, mitohormesis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "46b6e437ef56",
@@ -510,12 +510,12 @@
     "object": "Yeast",
     "context": {
       "en-US": "Overexpression of the sirtuin Sir2 extends lifespan in budding yeast by suppressing the formation of toxic extrachromosomal rDNA circles. Sir2 maintains silencing at the rDNA locus, and its activity prevents the homologous recombination events that generate these circles during aging. This early discovery established sirtuins as longevity regulators and motivated extensive study of their mammalian homologs, particularly SIRT1, in aging and age-related disease, including the search for small-molecule sirtuin activators.",
-      "zh-TW": ""
+      "zh-TW": "Sirtuin Sir2 的過度表現可透過抑制有毒染色體外 rDNA 環的形成來延長芽殖酵母的壽命。 Sir2 在 rDNA 基因座上保持沉默，其活性可防止在老化過程中產生這些環的同源重組事件。這項早期發現確立了去乙醯化酶作為長壽調節劑的地位，並推動了對其哺乳動物同源物（特別是 SIRT1）在衰老和年齡相關疾病中的廣泛研究，包括尋找小分子去乙醯化酶激活劑。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - xenohormesis, mitohormesis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e33d5d85282b",
@@ -524,12 +524,12 @@
     "object": "H4K16",
     "context": {
       "en-US": "SIRT1, the yeast Sir2 homolog, is an H4K16 deacetylase that removes acetyl groups from lysine 16 of histone H4. Deacetylation of H4K16 promotes chromatin compaction and is required for transcriptional silencing at mating-type loci, rDNA, and telomeres. By regulating this key modification, SIRT1 maintains genomic stability and contributes to lifespan control, functions conserved from yeast to mammals; in human cells, sirtuins also stabilize rDNA by recruiting DNMT1 to prevent cellular senescence.",
-      "zh-TW": ""
+      "zh-TW": "SIRT1 是酵母 Sir2 同源物，是一种 H4K16 脱乙酰酶，可去除组蛋白 H4 赖氨酸 16 上的乙酰基。 H4K16 的 Deacetylation 促进染色质压缩，是交配型基因座、rDNA 和端粒转录沉默所必需的。透過調節此關鍵修飾，SIRT1 保持基因組穩定性並有助於壽命控制以及從酵母到哺乳動物的保守功能；在人類細胞中，去乙醯化酶也透過招募 DNMT1 來穩定 rDNA，以防止細胞老化。"
     },
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "405655385d52",
@@ -538,12 +538,12 @@
     "object": "DNA Damage",
     "context": {
       "en-US": "In response to DNA breaks, SIRT1 relocalizes from gene promoters and repetitive DNA to sites of DNA damage to facilitate repair. At damage sites, it deacetylates histones and DNA repair factors, promoting chromatin remodeling that allows access for the repair machinery. This relocalization is central to SIRT1's genome-stabilizing function, and its age-related decline or mislocalization is associated with impaired DNA repair and accelerated aging, paralleling the behavior of SIRT6 during the DNA damage response.",
-      "zh-TW": ""
+      "zh-TW": "為了回應 DNA 斷裂，SIRT1 從基因啟動子和重複 DNA 重新定位到 DNA 損傷位點以促進修復。在損傷部位，它使組蛋白和 DNA 修復因子去乙醯化，促進染色質重塑，從而允許修復機制進入。這種重新定位是 SIRT1 基因組穩定功能的核心，其與年齡相關的衰退或錯誤定位與 DNA 修復受損和加速老化有關，與 SIRT6 在 DNA 損傷反應期間的行為相似。"
     },
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "18806e79f4f3",
@@ -552,12 +552,12 @@
     "object": "FOXO",
     "context": {
       "en-US": "Beyond histones, the deacetylase SIRT1 targets non-histone proteins, including the FOXO family of transcription factors, thereby broadening its regulatory reach. Deacetylation of FOXO factors modulates their activity, influencing the expression of genes involved in stress resistance, metabolism, and longevity. This regulatory interaction connects nutrient and energy sensing through sirtuins to the transcriptional programs that protect cells against aging-associated stress, and it is particularly relevant to the effects of caloric restriction on the epigenome.",
-      "zh-TW": ""
+      "zh-TW": "除了組蛋白之外，去乙醯酶 SIRT1 還靶向非組蛋白，包括 FOXO 轉錄因子家族，從而擴大了其調控範圍。 FOXO 因子的 Deacetylation 調節其活性，影響與壓力抵抗、代謝和長壽相關的基因的表達。這種調節交互作用透過​​去乙醯化酶將營養和能量感測與保護細胞免受老化相關壓力的轉錄程序連接起來，並且與熱量限制對錶觀基因組的影響特別相關。"
     },
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2add507b23fc",
@@ -566,12 +566,12 @@
     "object": "LINE-1",
     "context": {
       "en-US": "SIRT6 represses LINE-1 retrotransposons by maintaining repressive chromatin at L1 loci through its deacetylase and mono-ADP-ribosyltransferase activities. SIRT6 recruits KAP1 and HP1 to deposit and maintain heterochromatin marks that silence LINE-1 elements, and this silencing declines with age as SIRT6 levels fall. Loss of SIRT6 permits LINE-1 derepression, and activating SIRT6 is explored as a strategy to suppress retrotransposon-driven inflammation in aging. Restoring SIRT6 activity may therefore help suppress retrotransposon-driven inflammation in aging.",
-      "zh-TW": ""
+      "zh-TW": "SIRT6 透過其去乙醯化酶和單 ADP-核糖基轉移酶活性維持 L1 位點的抑制性染色質，進而抑制 LINE-1 逆轉錄轉座子。 SIRT6 招募 KAP1 和 HP1 來沉積和維持使 LINE-1 元件沉默的異染色質標記，並且隨著 SIRT6 水平下降，這種沉默隨著年齡的增長而減弱。 SIRT6 的缺失使得 LINE-1 去抑制，並且激活 SIRT6 被探索作為抑制衰老過程中逆轉錄轉座子驅動的炎症的策略。因此，恢復 SIRT6 活性可能有助於抑制老化過程中逆轉錄轉座子驅動的發炎。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "adbf62872dc1",
@@ -580,12 +580,12 @@
     "object": "DNA Damage",
     "context": {
       "en-US": "In response to DNA damage signaling, SIRT6 moves away from gene promoters and repetitive loci to sites of DNA breaks, where it recruits DNA repair factors and modifies local chromatin. At damage sites, SIRT6 promotes the deacetylation of H3K56 and other substrates, facilitating efficient double-strand break repair. This mobilization from LINE-1 loci to damage sites simultaneously couples the DNA damage response to derepression of retrotransposons during aging, linking genomic stress to innate immune activation.",
-      "zh-TW": ""
+      "zh-TW": "為了回應 DNA 損傷訊號，SIRT6 從基因啟動子和重複基因座移至 DNA 斷裂位點，在那裡招募 DNA 修復因子並修飾局部染色質。在損傷部位，SIRT6 促進 H3K56 和其他底物的去乙醯化，促進有效的雙股斷裂修復。這種從 LINE-1 位點到損傷位點的動員同時將 DNA 損傷反應與老化過程中逆轉錄轉座子的去抑制結合起來，將基因組壓力與先天免疫活化聯繫起來。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fe3af196c78a",
@@ -594,12 +594,12 @@
     "object": "Histone Acetyltransferase",
     "context": {
       "en-US": "HAT is the standard abbreviation for histone acetyltransferase, a family of enzymes that transfer acetyl groups from acetyl-CoA to lysine residues on histone tails. These enzymes are grouped into families such as the GNAT, MYST, and p300/CBP families, and their activity is central to epigenetic control of gene expression. HATs oppose the action of histone deacetylases and are frequently deregulated in cancer and aging, where changes in acetylation contribute to aberrant gene silencing and loss of transcriptional fidelity.",
-      "zh-TW": ""
+      "zh-TW": "HAT 是組蛋白乙醯轉移酶的標準縮寫，該酶是將乙醯基從乙醯輔酶 A 轉移到組蛋白尾部賴氨酸殘基的酶家族。這些酵素分為 GNAT、MYST 和 p300/CBP 等家族，它們的活性對於 gene expression 的表觀遺傳控制至關重要。 HAT 對抗組蛋白去乙醯化酶的作用，並且在癌症和老化過程中經常失調，其中乙醯化的變化會導致異常基因沉默和轉錄保真度喪失。"
     },
     "confidence": 0.95,
     "source_document": "HAT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "32efaa174a3c",
@@ -608,12 +608,12 @@
     "object": "Histone Deacetylase",
     "context": {
       "en-US": "HDAC stands for histone deacetylase, a family of enzymes that remove acetyl groups from lysine residues on histone tails, counteracting the activity of histone acetyltransferases. By deacetylating histones, HDACs promote chromatin compaction and generally repress transcription, and they also regulate numerous non-histone proteins. They are divided into classes I, II, III (sirtuins), and IV, and HDAC inhibitors are widely studied as tools to reactivate silenced genes and as candidate therapeutic agents in cancer, inflammation, and aging.",
-      "zh-TW": ""
+      "zh-TW": "HDAC 代表組蛋白去乙醯化酶，這是一個酶家族，可去除組蛋白尾部賴氨酸殘基上的乙醯基，從而抵消組蛋白乙醯轉移酶的活性。透過組蛋白去乙醯化，HDAC 促進染色質壓縮並通常抑制轉錄，並且它們還調節許多非組蛋白。它們分為 I、II、III（sirtuins）和 IV 類，HDAC 抑制劑作為重新激活沉默基因的工具以及作為癌症、發炎和老化的候選治療劑而被廣泛研究。"
     },
     "confidence": 0.95,
     "source_document": "HDAC.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fff93a38607a",
@@ -622,12 +622,12 @@
     "object": "Biological Age",
     "context": {
       "en-US": "An epigenetic clock is a statistical estimator of biological age built from DNA methylation measurements at a defined set of CpG sites across the genome. Trained on large cohorts, these clocks compute an epigenetic age that correlates with chronological age but can also deviate from it, reflecting accelerated or decelerated biological aging. Clock acceleration is associated with disease and mortality risk, making epigenetic clocks valuable biomarkers for aging research and for evaluating anti-aging interventions.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳時鐘是生物年齡的統計估計器，是根據基因組中一組定義的 CpG 位點的 DNA 甲基化測量而建構的。這些時鐘經過對大群體的訓練，計算出與實際年齡相關的表觀遺傳年齡，但也可能偏離實際年齡，反映生物老化的加速或減慢。時鐘加速與疾病和死亡風險有關，這使得表觀遺傳時鐘成為老化研究和評估抗衰老幹預措施的寶貴生物標記。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0446b364b71a",
@@ -636,12 +636,12 @@
     "object": "DNA Methylation",
     "context": {
       "en-US": "Epigenetic clocks are trained on genome-wide DNA methylation arrays, selecting CpG sites whose methylation levels correlate strongly with chronological age. Using these selected sites, a regression model generates an epigenetic age estimate that can be compared with an individual's actual age. Because DNA methylation at these sites changes predictably over the lifespan and responds to lifestyle and pharmacological interventions, clocks serve as quantitative readouts of biological age and rejuvenation.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳時鐘在全基因組 DNA 甲基化陣列上訓練，選擇甲基化程度與實際年齡密切相關的 CpG 位點。使用這些選定的位點，迴歸模型會產生表觀遺傳年齡估計值，可以與個人的實際年齡進行比較。由於這些位點的 DNA 甲基化在整個生命週期中會發生可預測的變化，並對生活方式和藥物幹預做出反應，因此生理時鐘可以作為生物年齡和恢復活力的定量讀數。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c849433b0c9c",
@@ -650,12 +650,12 @@
     "object": "Epigenetic Clock",
     "context": {
       "en-US": "DNAmGrimAge is a second-generation epigenetic clock trained to predict morbidity, mortality, and physiological decline rather than simply chronological age. It incorporates DNA methylation surrogates for plasma proteins and smoking exposure, producing a DNAm-based age estimate that is a robust predictor of lifespan and healthspan. As a stronger predictor of time-to-death than first-generation clocks such as the Horvath and Hannum clocks, GrimAge is widely used as an endpoint in aging and rejuvenation studies.",
-      "zh-TW": ""
+      "zh-TW": "DNAmGrimAge 是第二代表觀遺傳時鐘，經過訓練可以預測發病率、死亡率和生理衰退，而不僅僅是實際年齡。它結合了血漿蛋白和吸煙暴露的 DNA 甲基化替代物，產生基於 DNAm 的年齡估計，這是壽命和健康壽命的強大預測因子。作為比第一代時鐘（例如 Horvath 和 Hannum 時鐘）更強大的死亡時間預測器，GrimAge 被廣泛用作衰老和復興研究的終點。"
     },
     "confidence": 0.95,
     "source_document": "DNAmGrimAge.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "910e3c149f57",
@@ -664,12 +664,12 @@
     "object": "Cardiovascular Disease",
     "context": {
       "en-US": "Acceleration of the epigenetic clock, where the methylation-predicted age exceeds chronological age, is a predictor of cardiovascular disease, cancer, and neurodegenerative diseases, often before clinical symptoms appear. Such clock acceleration reflects accelerated biological aging and has been observed across a range of pathological conditions. This predictive capacity makes epigenetic clocks powerful tools for early risk stratification and for monitoring interventions designed to slow or reverse biological aging.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳時鐘的加速，即甲基化預測的年齡超過實際年齡，是心血管疾病、癌症和神經退化性疾病的預測因子，通常發生在臨床症狀出現之前。這種時鐘加速反映了生物老化的加速，並且已經在一系列病理條件下觀察到。這種預測能力使表觀遺傳時鐘成為早期風險分層和監測旨在減緩或逆轉生物老化的干預措施的強大工具。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "160375870fe6",
@@ -678,12 +678,12 @@
     "object": "Caloric Restriction",
     "context": {
       "en-US": "Interventions such as caloric restriction, metformin, and partial cellular reprogramming have shown measurable reversal of the epigenetic clock in some studies. Clock reversal, where the methylation-predicted age decreases relative to chronological age, indicates that at least some aspects of biological aging are malleable rather than fixed. This has motivated the use of epigenetic clocks as primary endpoints in clinical trials of longevity and rejuvenation interventions and in tracking the effectiveness of lifestyle changes.",
-      "zh-TW": ""
+      "zh-TW": "在一些研究中，熱量限制、二甲雙胍和部分細胞重編程等乾預措施已顯示出可測量的表觀遺傳時鐘逆轉。時鐘逆轉，即甲基化預測年齡相對於實際年齡下降，表明生物衰老的至少某些方面是可塑的而不是固定的。這促使人們使用表觀遺傳時鐘作為長壽和返老還童幹預措施的臨床試驗以及追蹤生活方式改變的有效性的主要終點。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b4f007fd51f1",
@@ -692,12 +692,12 @@
     "object": "Partial Reprogramming",
     "context": {
       "en-US": "Partial cellular reprogramming, the transient expression of the Yamanaka factors, has shown measurable reversal of the epigenetic clock. Cells pass through an early reprogramming window sufficient to reset DNA methylation age while being returned to their original lineage before losing their identity. This demonstrated reversal of epigenetic age has motivated the use of clocks as endpoints in rejuvenation trials and supports the idea that biological age is reversible rather than an irreversible accumulation of damage.",
-      "zh-TW": ""
+      "zh-TW": "部分細胞重編程，即山中因子的瞬時表達，已顯示出表觀遺傳時鐘的可測量逆轉。細胞會經歷一個足以重置DNA甲基化年齡的早期重編程窗口，同時在失去其身份之前返回其原始譜系。這種表觀遺傳年齡的逆轉促使人們在返老還童試驗中使用生理時鐘作為終點，並支持了生物年齡是可逆的而不是不可逆轉的損傷累積的觀點。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "bb5af0513075",
@@ -706,12 +706,12 @@
     "object": "Global Hypomethylation",
     "context": {
       "en-US": "The best-characterized signature of epigenetic drift is global hypomethylation of repetitive elements and gene bodies coupled with site-specific hypermethylation of gene promoters. This age-related divergence of methylation patterns erodes the stability of the epigenome and contributes to the loss of cellular identity and transcriptional fidelity. Because drift accumulates with time and is modified by environment, lifestyle, and interventions such as caloric restriction, it underlies both biological aging and the age-associated increase in disease risk.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳漂變的最佳特徵是重複元件和基因體的整體低甲基化以及基因啟動子的位點特異性高甲基化。這種與年齡相關的甲基化模式的差異會侵蝕表觀基因組的穩定性，並導致細胞身份和轉錄保真度的喪失。由於漂移會隨著時間的推移而累積，並會受到環境、生活方式和熱量限制等乾預措施的改變，因此它是生物老化和與年齡相關的疾病風險增加的基礎。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "246999f39564",
@@ -720,12 +720,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Epigenetic drift is a core component of the hallmarks of aging, eroding cellular identity and function over time. The progressive divergence of DNA methylation and chromatin patterns from their youthful state impairs the precise gene expression programs that maintain tissue homeostasis, and it is compounded by declining activity of maintenance methyltransferases such as DNMT1. Because drift is at least partly reversible, it is a target for interventions such as partial reprogramming that aim to restore a more youthful epigenome.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳漂變是老化標誌的核心組成部分，隨著時間的推移，細胞身份和功能會受到侵蝕。 DNA 甲基化和染色質模式與年輕狀態的逐漸偏離，損害了維持組織穩態的精確 gene expression 程序，而 DNMT1 等維持性甲基轉移酶活性的下降使情況變得更加複雜。由於漂移至少部分是可逆的，因此它是部分重編程等乾預措施的目標，旨在恢復更年輕的表觀基因組。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e96332837489",
@@ -734,12 +734,12 @@
     "object": "Partial Reprogramming",
     "context": {
       "en-US": "Partial reprogramming can reset epigenetic drift, restoring younger epigenetic profiles and supporting the idea that age-related epigenetic decline is reversible. By transiently expressing the Yamanaka factors, cells erase some of the accumulated methylation and chromatin changes without losing their somatic identity, and this resetting is captured by reversal of DNA-methylation clocks. The capacity to reverse drift has made partial reprogramming a leading strategy for rejuvenation and a key experimental validation of the plasticity of the aging epigenome.",
-      "zh-TW": ""
+      "zh-TW": "部分重編程可以重置表觀遺傳漂移，恢復更年輕的表觀遺傳特徵，並支持與年齡相關的表觀遺傳衰退是可逆的觀點。透過瞬時表達山中因子，細胞消除了一些累積的甲基化和染色質變化，而不會失去其體細胞身份，而這種重置是透過 DNA 甲基化時鐘的逆轉來捕獲的。逆轉漂移的能力使部分重編程成為恢復活力的主要策略，也是老化表觀基因組可塑性的關鍵實驗驗證。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "953f5fa7246d",
@@ -748,12 +748,12 @@
     "object": "Somatic Cells",
     "context": {
       "en-US": "The Yamanaka factors (Oct4, Sox2, Klf4, and c-Myc, abbreviated OSKM) are a set of four transcription factors used to induce pluripotency in differentiated somatic cells. When introduced into fibroblasts or other somatic cells, they initiate a cascade of transcriptional and epigenetic changes that reset the cell toward an embryonic-stem-cell-like state, erasing somatic memory and installing the pluripotency network. This demonstration, pioneered by Shinya Yamanaka in 2006, established that cellular identity is not fixed but can be reprogrammed.",
-      "zh-TW": ""
+      "zh-TW": "山中因子（Oct4、Sox2、Klf4 和 c-Myc，縮寫為 OSKM）是一組四個轉錄因子，用於誘導分化體細胞的多能性。當引入成纖維細胞或其他體細胞時，它們會啟動一系列轉錄和表觀遺傳學變化，將細胞重置為胚胎幹細胞樣狀態，消除體細胞記憶並安裝多能性網路。此演示由 Shinya Yamanaka 於 2006 年首創，證實細胞身份不是固定的，而是可以重新編程的。"
     },
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e4790830c9e2",
@@ -762,12 +762,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "The four Yamanaka factors revert differentiated somatic cells such as fibroblasts to an embryonic-stem-cell-like state, generating induced pluripotent stem cells (iPSCs). Reprogramming erases somatic methylation and chromatin marks and re-establishes the pluripotency network, yielding cells capable of differentiating into all three germ layers. iPSCs are widely used for disease modeling, drug discovery, and regenerative medicine, and are validated by their ability to form teratomas containing derivatives of all three germ layers.",
-      "zh-TW": ""
+      "zh-TW": "四種山中因子將纖維母細胞等分化的體細胞恢復為胚胎幹細胞樣狀態，產生誘導性多能幹細胞 (iPSC)。重編程消除了體細胞甲基化和染色質標記，並重新建立了多能性網絡，產生能夠分化為所有三個胚層的細胞。 iPSC 廣泛用於疾病建模、藥物發現和再生醫學，並透過其形成含有所有三個胚層衍生物的畸胎瘤的能力得到驗證。"
     },
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d6da3076978a",
@@ -776,12 +776,12 @@
     "object": "Oct4",
     "context": {
       "en-US": "The Yamanaka factors are the four transcription factors used to reprogram somatic cells to induced pluripotency, and they include Oct4. Oct4 is the master regulator of pluripotency, expressed in pluripotent cells during embryogenesis and in embryonic stem cells, and it is essential for establishing and maintaining the pluripotent state. Because Oct4 is required to initiate the reprogramming process, its inclusion among the Yamanaka factors is central to iPSC generation. Without Oct4, the reprogramming cascade cannot initiate, underscoring its irreplaceable role.",
-      "zh-TW": ""
+      "zh-TW": "山中因子是用於將體細胞重編程為誘導多能性的四種轉錄因子，其中包括 Oct4。 Oct4 是多能性的主要調節因子，在胚胎髮生過程中的多能細胞和胚胎幹細胞中表達，對於建立和維持多能狀態至關重要。由於需要 Oct4 來啟動重編程過程，因此將其納入 Yamanaka 因子對於 iPSC 生成至關重要。如果沒有Oct4，重編程級聯就無法啟動，這凸顯了其不可取代的作用。"
     },
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cc157f6c59c6",
@@ -790,12 +790,12 @@
     "object": "Sox2",
     "context": {
       "en-US": "The Yamanaka factors are the four transcription factors Oct4, Sox2, Klf4, and c-Myc that reprogram somatic cells into induced pluripotent stem cells, and they include Sox2. Sox2 cooperates with Oct4 as a heterodimer to regulate pluripotency genes such as Nanog, Fgf4, and osteopontin, and it is also expressed in neural stem cells where it maintains neural identity. Its ectopic expression is essential for the establishment and maintenance of the pluripotent state. Sox2 is therefore essential both for pluripotency maintenance and for the reprogramming process itself.",
-      "zh-TW": ""
+      "zh-TW": "山中因子是將體細胞重編程為誘導多能幹細胞的四種轉錄因子Oct4、Sox2、Klf4和c-Myc，其中包括Sox2。 Sox2 與 Oct4 作為異二聚體配合調節 Nanog、Fgf4 和骨橋蛋白等多能性基因，並且在神經幹細胞中也表達，維持神經特性。其異位表達對於多能狀態的建立和維持至關重要。因此，Sox2 對於多能性維持和重編程過程本身至關重要。"
     },
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "64d95b33d4d9",
@@ -804,12 +804,12 @@
     "object": "Klf4",
     "context": {
       "en-US": "The Yamanaka factors are the four transcription factors Oct4, Sox2, Klf4, and c-Myc that reprogram somatic cells into induced pluripotent stem cells, and they include Klf4. Klf4 is a zinc-finger transcription factor that interacts directly with Oct4, is required for activation of Nanog, and promotes the mesenchymal-to-epithelial transition needed for reprogramming. Klf4 can act as both a tumor suppressor and an oncogene depending on cellular context. Klf4's dual nature underscores how context determines the function of reprogramming factors.",
-      "zh-TW": ""
+      "zh-TW": "山中因子是將體細胞重編程為誘導多能幹細胞的四種轉錄因子Oct4、Sox2、Klf4和c-Myc，其中包括Klf4。 Klf4 是一種鋅指轉錄因子，可與 Oct4 直接相互作用，是激活 Nanog 所必需的，並促進重編程所需的間質到上皮的轉變。根據細胞環境，Klf4 可以充當腫瘤抑制基因和癌基因。 Klf4 的雙重性質強調了情境如何決定重編程因子的功能。"
     },
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "96818d5d0821",
@@ -818,12 +818,12 @@
     "object": "c-Myc",
     "context": {
       "en-US": "The Yamanaka factors are the four transcription factors used to reprogram somatic cells into induced pluripotent stem cells, and they include the oncogene c-Myc. c-Myc opens chromatin by binding methylated regions and promotes the proliferation and metabolic changes that accompany reprogramming initiation. However, c-Myc is a potent oncogene that increases the risk of tumorigenesis in iPSC-derived cells, motivating efforts to exclude or replace it with safer alternatives. Its dual role as reprogramming enhancer and oncogene highlights the safety concerns of iPSC therapy.",
-      "zh-TW": ""
+      "zh-TW": "山中因子是用於將體細胞重編程為誘導多能幹細胞的四種轉錄因子，其中包括癌基因 c-Myc。 c-Myc 透過結合甲基化區域打開染色質，並促進伴隨重編程啟動的增殖和代謝變化。然而，c-Myc 是一種強效致癌基因，會增加 iPSC 衍生細胞發生腫瘤的風險，促使人們努力排除它或用更安全的替代品取代它。它作為重編程增強子和癌基因的雙重作用凸顯了 iPSC 治療的安全性問題。"
     },
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9b59f6b2e13f",
@@ -832,12 +832,12 @@
     "object": "Yamanaka Factors",
     "context": {
       "en-US": "The Yamanaka factors are also known as the OSKM cassette, named after the initials of its four constituent transcription factors: Oct4, Sox2, Klf4, and c-Myc. This quartet was identified by Shinya Yamanaka as sufficient to reprogram differentiated somatic cells into induced pluripotent stem cells, a discovery that earned the Nobel Prize in Physiology or Medicine in 2012. The OSKM designation is used throughout the reprogramming and rejuvenation literature, including in partial reprogramming protocols that express the factors transiently to reverse aging.",
-      "zh-TW": ""
+      "zh-TW": "Yamanaka 因子也稱為 OSKM 盒，以其四個組成轉錄因子的縮寫命名：Oct4、Sox2、Klf4 和 c-Myc。 Shinya Yamanaka 鑑定出這個四重體足以將分化的體細胞重編程為誘導多能幹細胞，這一發現贏得了 2012 年諾貝爾生理學或醫學獎。 OSKM 名稱在整個重編程和復興文獻中使用，包括在短暫表達因子以逆轉衰老的部分重編程方案中。"
     },
     "confidence": 0.95,
     "source_document": "OSKM.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0f3853e74246",
@@ -846,12 +846,12 @@
     "object": "Sox2",
     "context": {
       "en-US": "Oct4 and Sox2 form a core heterodimer that occupies both active and silent chromatin, opening chromatin and recruiting remodeling complexes to its target sites. Together they co-bind enhancers and promoters of pluripotency genes, functioning as the central regulatory unit of the pluripotency network and maintaining the balance between self-renewal and differentiation. This partnership is essential for establishing and maintaining the embryonic stem cell state and for initiating reprogramming of somatic cells toward induced pluripotency.",
-      "zh-TW": ""
+      "zh-TW": "Oct4 和 Sox2 形成核心異二聚體，佔據活性和沈默染色質，打開染色質並將重塑複合物招募到其目標位點。它們共同結合多能性基因的增強子和啟動子，作為多能性網絡的中央調節單元並維持自我更新和分化之間的平衡。這種夥伴關係對於建立和維持胚胎幹細胞狀態以及啟動體細胞重編程以實現誘導多能性至關重要。"
     },
     "confidence": 0.95,
     "source_document": "Oct4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2ef683b92fcf",
@@ -860,12 +860,12 @@
     "object": "Pluripotency",
     "context": {
       "en-US": "Oct4 is the master regulator of pluripotency, the transcription factor that establishes and maintains the pluripotent state of embryonic stem cells and induced pluripotent stem cells. It is required for the development of the inner cell mass of the blastocyst, and its absence prevents pluripotency while its dosage must be tightly controlled. Oct4 functions with Sox2 and Nanog to regulate the pluripotency gene network, and it is essential for initiating cellular reprogramming. Its role makes Oct4 both a defining marker and a key tool of pluripotent stem cell research.",
-      "zh-TW": ""
+      "zh-TW": "Oct4 是多能性的主要調節因子，是建立和維持胚胎幹細胞和誘導多能幹細胞的多能狀態的轉錄因子。它是囊胚內細胞團發育所必需的，它的缺乏會阻礙多能性，同時必須嚴格控制其劑量。 Oct4 與 Sox2 和 Nanog 一起調節多能性基因網絡，對於啟動細胞重編程至關重要。它的作用使得 Oct4 既是定義標記，也是多能幹細胞研究的關鍵工具。"
     },
     "confidence": 0.95,
     "source_document": "Oct4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "243eb2063a78",
@@ -874,12 +874,12 @@
     "object": "Mesenchymal-to-Epithelial Transition",
     "context": {
       "en-US": "During cellular reprogramming, Oct4 initiates the mesenchymal-to-epithelial transition (MET), a required early step in which fibroblast-like cells adopt an epithelial morphology. By suppressing mesenchymal genes and promoting epithelial ones, Oct4 helps reorganize the cytoskeleton and cell-adhesion program toward the epithelial identity characteristic of pluripotent cells. This MET is followed by erasure of somatic marks and establishment of the pluripotency network, and it is reinforced by the cooperation of Klf4.",
-      "zh-TW": ""
+      "zh-TW": "在細胞重編程過程中，Oct4 啟動間質到上皮的轉變 (MET)，這是纖維母細胞樣細胞採用上皮形態所需的早期步驟。透過抑制間質基因並促進上皮基因，Oct4 有助於重組細胞骨架和細胞黏附程序，以實現多能細胞的上皮身份特徵。該 MET 隨後是體細胞標記的擦除和多能性網絡的建立，並透過 Klf4 的合作得到加強。"
     },
     "confidence": 0.95,
     "source_document": "Oct4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c38fcda5e2c4",
@@ -888,12 +888,12 @@
     "object": "H3K9me3",
     "context": {
       "en-US": "During cellular reprogramming, Oct4 initiates the erasure of repressive marks, including H3K9me3 and H3K27me3, at target gene loci. As a pioneer-like factor, Oct4 binds enhancers and promoters of pluripotency genes and cooperates with chromatin remodelers to open compacted chromatin, allowing the establishment of the pluripotent transcriptional network. This erasure of repressive histone methylation at pluripotency loci is a key early step in resetting the somatic epigenome. This mark erasure is essential because repressive heterochromatin otherwise blocks the activation of pluripotency genes.",
-      "zh-TW": ""
+      "zh-TW": "在細胞重編程過程中，Oct4 啟動抑制標記的擦除，包括目標基因位點的 H3K9me3 和 H3K27me3。作為先鋒樣因子，Oct4結合多能基因的增強子和啟動子，並與染色質重塑者合作打開壓縮的染色質，從而建立多能轉錄網絡。這種多能性位點抑制性組蛋白甲基化的消除是重置體細胞表觀基因組的關鍵早期步驟。這種標記擦除是必要的，因為抑制性異染色質否則會阻止多能性基因的活化。"
     },
     "confidence": 0.95,
     "source_document": "Oct4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ea9c5eef106c",
@@ -902,12 +902,12 @@
     "object": "Oct4",
     "context": {
       "en-US": "Sox2 forms a core heterodimer with Oct4, co-occupying enhancers and promoters of pluripotency genes as the central regulatory unit of the pluripotency network. The two factors bind composite DNA elements cooperatively and recruit chromatin remodelers to maintain an open, active chromatin state that supports continued expression of pluripotency genes. This partnership is essential for establishing pluripotency during development and for reprogramming somatic cells into induced pluripotent stem cells.",
-      "zh-TW": ""
+      "zh-TW": "Sox2與Oct4形成核心異二聚體，共佔據多能性基因的增強子和啟動子，作為多能性網絡的中央調節單元。這兩個因子協同結合複合 DNA 元件，並招募染色質重塑劑以維持開放、活躍的染色質狀態，從而支持多能性基因的持續表達。這種夥伴關係對於在發育過程中建立多能性以及將體細胞重編程為誘導多能幹細胞至關重要。"
     },
     "confidence": 0.95,
     "source_document": "Sox2.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c819c900a027",
@@ -916,12 +916,12 @@
     "object": "Neural Stem Cell",
     "context": {
       "en-US": "Sox2 maintains neural stem cells by preserving their self-renewal and multipotency, the ability to generate neurons, astrocytes, and oligodendrocytes. Sox2 is expressed in neural stem cells of the developing and adult brain, where it is a central determinant of neural identity and is often necessary and sometimes sufficient for direct neural conversion. In reprogramming to induced neural stem cells, forced expression of Sox2 remodels the somatic epigenome toward a neural fate. Sox2 is thus a linchpin connecting pluripotency regulation to neurogenesis and neural repair.",
-      "zh-TW": ""
+      "zh-TW": "Sox2 透過保留神經幹細胞的自我更新和多能性、生成神經元、星狀膠質細胞和少突膠質細胞的能力來維持神經幹細胞。 Sox2 在發育中和成年 brain 的神經幹細胞中表達，它是神經身份的核心決定因素，對於直接神經轉換通常是必要的，有時是充分的。在對誘導神經幹細胞進行重編程時，Sox2 的強製表達將體細胞表觀基因組重塑為神經命運。因此，Sox2 是將多能性調節與神經生成和神經修復聯繫起來的關鍵。"
     },
     "confidence": 0.95,
     "source_document": "Sox2.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d924194bc8bc",
@@ -930,12 +930,12 @@
     "object": "Mesenchymal-to-Epithelial Transition",
     "context": {
       "en-US": "Klf4 promotes the mesenchymal-to-epithelial transition that is required for cellular reprogramming to pluripotency. Together with Oct4 and Sox2, Klf4 represses EMT-inducing transcription factors such as Snail and Slug and suppresses TGF-beta signaling, allowing the re-expression of epithelial genes such as E-cadherin, EpCAM, and occludin. This MET-promoting activity is essential for converting fibroblasts into induced pluripotent stem cells, and Klf4's epithelializing function underlies its requirement among the Yamanaka factors.",
-      "zh-TW": ""
+      "zh-TW": "Klf4 促進細胞重編程為多能性所需的間質到上皮的轉變。 Klf4 與 Oct4 和 Sox2 一起抑制 EMT 誘導轉錄因子（如 Snail 和 Slug），並抑制 TGF-β 訊號傳導，讓上皮基因（如 E-鈣黏蛋白、EpCAM 和 occludin）重新表達。這種 MET 促進活性對於將纖維母細胞轉化為誘導多能幹細胞至關重要，而 Klf4 的上皮化功能是其在山中因子中的要求的基礎。"
     },
     "confidence": 0.95,
     "source_document": "Klf4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2544572bf21e",
@@ -944,12 +944,12 @@
     "object": "Snail",
     "context": {
       "en-US": "Klf4 opposes the EMT drivers Snail and Slug, sitting at the boundary between epithelial identity and mesenchymal dispersal. By repressing these transcription factors, Klf4 stabilizes the epithelial gene program that is required for the mesenchymal-to-epithelial transition during reprogramming and for preventing the reverse transition to a migratory, fibroblast-like state. This antagonistic relationship is central to Klf4's contribution to the resetting of cellular identity in induced pluripotent stem cell generation.",
-      "zh-TW": ""
+      "zh-TW": "Klf4 opposes the EMT drivers Snail and Slug, sitting at the boundary between epithelial identity and mesenchymal dispersal.通過抑制這些轉錄因子，Klf4 可以穩定到重形成細胞運動到重形成細胞狀態，Klf4 可以穩定到重形成細胞狀態。這種拮抗關係對於 Klf4 在誘導多能幹細胞生成中重置細胞身份的貢獻至關重要。"
     },
     "confidence": 0.95,
     "source_document": "Klf4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b12707986477",
@@ -958,12 +958,12 @@
     "object": "Slug",
     "context": {
       "en-US": "Klf4 antagonizes the epithelial-mesenchymal transition factor Slug as part of the mesenchymal-to-epithelial transition that drives cellular reprogramming. During reprogramming with the Yamanaka factors, Klf4, together with Oct4 and Sox2, represses EMT-inducing transcription factors, promoting the silencing of mesenchymal genes and the re-expression of epithelial markers such as E-cadherin. This MET-promoting activity is essential for the conversion of fibroblasts into induced pluripotent stem cells.",
-      "zh-TW": ""
+      "zh-TW": "Klf4 拮抗上皮間質轉化因子 Slug，作為驅動細胞重編程的間質到上皮轉化的一部分。在使用山中因子重編程期間，Klf4 與 Oct4 和 Sox2 一起抑制 EMT 誘導轉錄因子，促進間質基因的沉默和上皮標記物（如 E-鈣粘蛋白）的重新表達。這種 MET 促進活性對於纖維母細胞轉化為誘導多能幹細胞至關重要。"
     },
     "confidence": 0.95,
     "source_document": "Klf4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "39108ab4bfb9",
@@ -972,12 +972,12 @@
     "object": "Epigenetic Remodeling",
     "context": {
       "en-US": "Cellular reprogramming is fundamentally an epigenetic remodeling process that erases somatic memory and installs a new cellular identity. Reprogramming requires global erasure of somatic DNA methylation, reconfiguration of histone marks, and resetting of the chromatin landscape at pluripotency loci, driven by pioneer factors and chromatin remodelers. The process proceeds through defined phases, including a mesenchymal-to-epithelial transition, and culminates in the establishment of a stable pluripotent state in induced pluripotent stem cells.",
-      "zh-TW": ""
+      "zh-TW": "細胞重編程從根本上來說是一種表觀遺傳重塑過程，它會消除體細胞記憶並安裝新的細胞身份。重編程需要在先鋒因子和染色質重塑因子的驅動下，全面消除體細胞 DNA 甲基化、重新配置組蛋白標記以及重置多能性位點的染色質景觀。這個過程經歷確定的階段，包括間質到上皮的轉變，並最終在誘導多能幹細胞中建立穩定的多能狀態。"
     },
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b8c2520f33bb",
@@ -986,12 +986,12 @@
     "object": "DNA Methylation",
     "context": {
       "en-US": "Cellular reprogramming erases somatic DNA methylation and other epigenetic marks to reset the cell to a pluripotent state. During iPSC generation, the Yamanaka factors promote active and passive demethylation of pluripotency gene promoters while somatic gene methylation is lost, and this global epigenetic reset is required for establishing the pluripotency gene network. The erasure of DNA methylation is a defining feature of the stochastic and deterministic phases of reprogramming. This epigenetic reset is what enables a differentiated cell to regain full developmental potential.",
-      "zh-TW": ""
+      "zh-TW": "細胞重編程會消除體細胞 DNA 甲基化和其他表觀遺傳標記，從而將細胞重置為多能狀態。在 iPSC 生成過程中，山中因子促進多能性基因啟動子主動和被動去甲基化，同時體細胞基因甲基化丟失，這種全局表觀遺傳重置是建立多能性基因網絡所必需的。 DNA 甲基化的消除是重編程隨機階段和確定性階段的決定性特徵。這種表觀遺傳重置使分化細胞能夠重新獲得全部發育潛力。"
     },
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a84025f64150",
@@ -1000,12 +1000,12 @@
     "object": "Mesenchymal-to-Epithelial Transition",
     "context": {
       "en-US": "Reprogramming proceeds through defined phases, including a mesenchymal-to-epithelial transition (MET) in which somatic fibroblasts adopt an epithelial morphology early in the process. The MET is driven by factors such as Oct4 and Klf4, which suppress mesenchymal genes and reinforce epithelial ones, and it is required because fibroblasts are mesenchymal while iPSCs are epithelial. This transition is a necessary early event that reorganizes cell adhesion and signaling before the full pluripotency program is established.",
-      "zh-TW": ""
+      "zh-TW": "重編程透過確定的階段進行，包括間質到上皮的轉變（MET），其中體細胞成纖維細胞在此過程的早期採用上皮形態。 MET 是由 Oct4 和 Klf4 等因子驅動的，這些因子抑制間質基因並增強上皮基因，這是必需的，因為成纖維細胞是間質的，而 iPSC 是上皮細胞。這種轉變是一個必要的早期事件，在建立完整的多能性程序之前重組細胞黏附和信號傳導。"
     },
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9878b6ff5e8f",
@@ -1014,12 +1014,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Partial reprogramming reverses molecular and functional signs of aging while the cell retains its somatic identity. By transiently expressing the Yamanaka factors, cells erase age-related epigenetic marks without losing differentiation, restoring youthful DNA methylation age, improving mitochondrial function, and reducing senescence. Cyclic, transient OSKM expression reversed signs of aging in progeroid mice and extended lifespan without tumor formation, establishing the reversibility of aging at the cellular level.",
-      "zh-TW": ""
+      "zh-TW": "部分重編程逆轉了老化的分子和功能跡象，同時細胞保留了其體細胞特性。透過瞬時表達山中因子，細胞在不失去分化的情況下消除與年齡相關的表觀遺傳標記，恢復年輕的DNA甲基化年齡，改善粒線體功能，並減少老化。週期性、瞬時的 OSKM 表達逆轉了早衰小鼠的衰老跡象，延長了壽命而不形成腫瘤，從而在細胞層面上確立了衰老的可逆性。"
     },
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e2036cb81e87",
@@ -1028,12 +1028,12 @@
     "object": "Yamanaka Factors",
     "context": {
       "en-US": "Partial reprogramming uses the Yamanaka factors, the four transcription factors Oct4, Sox2, Klf4, and c-Myc, but expresses them transiently and incompletely. Rather than pushing cells all the way to pluripotency, cyclic expression of OSKM resets age-related epigenetic marks and restores youthful gene expression while preserving somatic cell identity. This strategy avoids the teratoma formation and dedifferentiation risks of full reprogramming while still achieving rejuvenating effects in mice. The dose and timing of factor expression determine whether cells rejuvenate or fully reprogram.",
-      "zh-TW": ""
+      "zh-TW": "部分重編程使用山中因子，即四種轉錄因子Oct4、Sox2、Klf4和c-Myc，但表達它們是短暫且不完整的。 OSKM 的循環表達不是將細胞一路推向多能性，而是重置與年齡相關的表觀遺傳標記並恢復年輕的 gene expression，同時保留體細胞身份。此策略避免了完全重編程的畸胎瘤形成和去分化風險，同時仍在小鼠中實現返老還童的效果。因子表現的劑量和時間決定細胞是否恢復活力或完全重新編程。"
     },
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f2ade3b43f81",
@@ -1042,12 +1042,12 @@
     "object": "Teratoma",
     "context": {
       "en-US": "Partial reprogramming contrasts with full reprogramming to induced pluripotent stem cells, which risks teratoma formation due to the loss of somatic identity. By limiting Yamanaka factor expression to a transient window, cells erase aging-associated epigenetic marks without being converted to a pluripotent state, so growth arrest and differentiation are preserved. This design avoids the tumor risk associated with full reprogramming while still restoring a more youthful molecular and functional phenotype.",
-      "zh-TW": ""
+      "zh-TW": "部分重編程與誘導多能幹細胞的完全重編程形成對比，後者因體細胞身份的喪失而面臨畸胎瘤形成的風險。透過將山中因子的表達限制在一個短暫的窗口內，細胞可以消除與老化相關的表觀遺傳標記，而不會轉化為多能狀態，從而保留生長停滯和分化。這種設計避免了與完全重編程相關的腫瘤風險，同時仍恢復較年輕的分子和功能表型。"
     },
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e844f49fecf7",
@@ -1056,12 +1056,12 @@
     "object": "Senescence",
     "context": {
       "en-US": "Key observations from partial reprogramming include restoration of youthful DNA-methylation age, improved mitochondrial function, and reduced senescence. The transient expression of Yamanaka factors reverses markers of cellular aging and restores regenerative capacity in aged tissues, while avoiding the pluripotent state that risks tumorigenesis. These findings support partial reprogramming as a viable strategy for rejuvenating cells and organisms while avoiding the tumorigenic risks of full pluripotency.",
-      "zh-TW": ""
+      "zh-TW": "部分重編程的主要觀察包括恢復年輕的 DNA 甲基化年齡、改善粒線體功能和減少老化。山中因子的瞬時表達可逆轉細胞老化標記並恢復老化組織的再生能力，同時避免腫瘤發生風險的多能狀態。這些發現支持部分重編程作為使細胞和生物體恢復活力的可行策略，同時避免完全多能性的腫瘤風險。"
     },
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c79855b61a25",
@@ -1070,12 +1070,12 @@
     "object": "Epigenetic Clock",
     "context": {
       "en-US": "Partial reprogramming resets the epigenetic clock by transiently expressing Yamanaka factors to erase age-associated epigenetic marks without losing cell identity. Because it is applied cyclically and incompletely, partial reprogramming restores youthful DNA methylation patterns and gene expression while avoiding the dedifferentiation and tumor risk of full reprogramming. Epigenetic clock reversal following partial reprogramming provides a quantitative measure of the rejuvenating effect. This makes epigenetic age a tractable readout for optimizing partial reprogramming protocols.",
-      "zh-TW": ""
+      "zh-TW": "部分重編程透過瞬時表達山中因子來重置表觀遺傳時鐘，以消除與年齡相關的表觀遺傳標記而不丟失細胞身份。由於部分重編程是循環且不完全應用，因此可以恢復年輕的 DNA 甲基化模式和 gene expression，同時避免完全重編程的去分化和腫瘤風險。部分重編程後的表觀遺傳時鐘逆轉提供了恢復活力效果的定量測量。這使得表觀遺傳年齡成為優化部分重編程方案的易於處理的讀數。"
     },
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0cf254b6f99f",
@@ -1084,12 +1084,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "Rejuvenation can be achieved by cellular reprogramming, which resets age-related epigenetic changes to restore a youthful state. Full reprogramming to pluripotency erases somatic epigenetic marks and restores youthful gene expression, and partial reprogramming achieves rejuvenation without full dedifferentiation. Because aging is associated with reversible epigenetic alterations, resetting DNA methylation and chromatin marks through reprogramming can restore cellular and organismal function. The field now aims to translate these resetting effects into therapies that slow human aging.",
-      "zh-TW": ""
+      "zh-TW": "Rejuvenation可以透過細胞重編程來實現，細胞重編程會重置與年齡相關的表觀遺傳學變化，以恢復年輕狀態。完全重編程為多能性會消除體細胞表觀遺傳標記並恢復年輕的gene expression，而部分重編程則無需完全去分化即可實現返老還童。由於老化與可逆的表觀遺傳改變有關，因此透過重編程重置 DNA 甲基化和染色質標記可以恢復細胞和有機體功能。該領域現在的目標是將這些重置效應轉化為減緩人類老化的療法。"
     },
     "confidence": 0.95,
     "source_document": "Rejuvenation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "36a58efd602a",
@@ -1098,12 +1098,12 @@
     "object": "Epigenetic Clock",
     "context": {
       "en-US": "Rejuvenation is increasingly measured using epigenetic clocks, which estimate biological age from DNA methylation at selected CpG sites. Because methylation-based clocks track age-related changes and respond to interventions, a decrease in epigenetic age relative to chronological age is interpreted as evidence of rejuvenation. Interventions such as caloric restriction, metformin, and partial reprogramming show measurable clock reversal, making epigenetic clocks standard endpoints for evaluating rejuvenation strategies.",
-      "zh-TW": ""
+      "zh-TW": "Rejuvenation 越來越多地使用表觀遺傳時鐘進行測量，表觀遺傳時鐘根據選定 CpG 位點的 DNA 甲基化來估計生物年齡。由於基於甲基化的時鐘追蹤與年齡相關的變化並對幹預措施做出反應，因此表觀遺傳年齡相對於實際年齡的下降被解釋為返老還童的證據。熱量限制、二甲雙胍和部分重編程等乾預措施顯示出可測量的時鐘逆轉，使表觀遺傳時鐘成為評估返老還童策略的標準終點。"
     },
     "confidence": 0.95,
     "source_document": "Rejuvenation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "db346df2abc2",
@@ -1112,12 +1112,12 @@
     "object": "Cell Cycle Arrest",
     "context": {
       "en-US": "Quiescence is a state of reversible proliferative arrest in which cells exit the cell cycle but retain the capacity to re-enter upon appropriate stimuli. It is enforced at the restriction point by the retinoblastoma protein (pRb), which sequesters E2F transcription factors and blocks S-phase gene expression until mitogenic signals release the block. Unlike senescence, quiescence is reversible and lacks a senescence-associated secretory phenotype, and it is a key protective state for adult stem cells.",
-      "zh-TW": ""
+      "zh-TW": "Quiescence 是一種可逆的增殖停滯狀態，其中細胞退出細胞週期，但保留在適當刺激下重新進入細胞週期的能力。它在限制點由視網膜母細胞瘤蛋白 (pRb) 強制執行，該蛋白隔離 E2F 轉錄因子並阻斷 S 期 gene expression，直到有絲分裂信號釋放阻斷。與老化不同，靜止是可逆的，並且缺乏與老化相關的分泌表型，它是成體幹細胞的關鍵保護狀態。"
     },
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "61e428357815",
@@ -1126,12 +1126,12 @@
     "object": "Retinoblastoma Protein",
     "context": {
       "en-US": "Quiescence is enforced at the restriction point by the retinoblastoma protein (pRb), which sequesters E2F transcription factors and blocks the expression of S-phase genes. Growth factor signals relieve this inhibition through cyclin-dependent kinase phosphorylation of pRb, allowing cells to re-enter the cell cycle and resume proliferation. This reversible brake underlies the ability of quiescent cells to resume division, and it is mechanistically distinct from the irreversible arrest of senescence.",
-      "zh-TW": ""
+      "zh-TW": "Quiescence 在限制點由視網膜母細胞瘤蛋白 (pRb) 強制執行，該蛋白隔離 E2F 轉錄因子並阻斷 S 期基因的表達。生長因子訊號透過 pRb 的細胞週期蛋白依賴性激酶磷酸化緩解這種抑制，使細胞重新進入細胞週期並恢復增殖。這種可逆制動是靜止細胞恢復分裂能力的基礎，它在機制上與不可逆的衰老停滯不同。"
     },
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6706010424b3",
@@ -1140,12 +1140,12 @@
     "object": "Senescence",
     "context": {
       "en-US": "Quiescence is a reversible, non-inflammatory form of proliferative arrest, whereas senescence is an irreversible arrest accompanied by a proinflammatory senescence-associated secretory phenotype (SASP). While both states involve withdrawal from the cell cycle, they differ mechanistically and functionally: quiescent cells can re-enter proliferation on stimulation, whereas senescent cells are permanently growth-arrested. The distinction is clinically relevant because senescent cells accumulate with age and drive tissue dysfunction, while quiescence protects stem cell pools.",
-      "zh-TW": ""
+      "zh-TW": "Quiescence 是一種可逆的、非發炎形式的增殖停滯，而老化是一種不可逆的停滯，伴隨促發炎老化相關的分泌表型 (SASP)。雖然這兩種狀態都涉及退出細胞週期，但它們在機制和功能上有所不同：靜止細胞可以在刺激後重新進入增殖狀態，而衰老細胞則永久生長停滯。這種差異具有臨床相關性，因為老化細胞會隨著年齡的增長而累積並導致組織功能障礙，而靜止則可以保護幹細胞池。"
     },
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "67ac796772d5",
@@ -1154,12 +1154,12 @@
     "object": "Hematopoietic Stem Cell",
     "context": {
       "en-US": "Adult stem cells such as hematopoietic stem cells spend most of their lives in quiescence to protect the genome and preserve self-renewal capacity. By remaining in a low-activity state, these cells limit DNA replication-associated damage and metabolic stress, maintaining their regenerative potential over a lifetime and resisting stem cell exhaustion. Quiescence therefore serves as a protective mechanism that balances stem cell maintenance with the need to respond rapidly to hematopoietic demand.",
-      "zh-TW": ""
+      "zh-TW": "成體幹細胞（例如造血幹細胞）一生的大部分時間都處於靜止狀態，以保護基因組並保持自我更新能力。透過維持低活性狀態，這些細胞限制了 DNA 複製相關的損傷和代謝應激，在一生中保持其再生潛力並抵抗幹細胞衰竭。因此，Quiescence 作為一種保護機制，平衡幹細胞維持與快速反應造血需求的需要。"
     },
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "717c846681eb",
@@ -1168,12 +1168,12 @@
     "object": "Quiescence",
     "context": {
       "en-US": "RB1, the product of the retinoblastoma gene, enforces quiescence by sequestering E2F transcription factors and blocking the expression of S-phase genes. In its active hypophosphorylated form, pRb binds E2F and recruits repressive chromatin machinery to E2F target promoters, maintaining the G1/S restriction point. Cyclin-dependent kinase phosphorylation inactivates this brake and releases E2F, permitting cell cycle re-entry, while loss of RB1 function promotes unscheduled proliferation in cancer.",
-      "zh-TW": ""
+      "zh-TW": "RB1 是視網膜母細胞瘤基因的產物，透過隔離 E2F 轉錄因子並阻斷 S 期基因的表達來強制靜止。在其活性低磷酸化形式中，pRb 結合 E2F 並將抑制性染色質機制募集到 E2F 目標啟動子上，從而維持 G1/S 限制點。細胞週期蛋白依賴性激酶磷酸化使這種制動失活並釋放 E2F，允許細胞週期重新進入，而 RB1 功能的喪失會促進癌症中非計劃的增殖。"
     },
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a902e3f94637",
@@ -1182,12 +1182,12 @@
     "object": "LINE-1",
     "context": {
       "en-US": "RB1, the gene encoding the retinoblastoma protein, represses LINE-1 retrotransposons by maintaining repressive chromatin at L1 loci. Active Rb recruits chromatin modifiers, including the histone methyltransferase SUV39H1 and the H3K9me3-binding protein HP1, to deposit and maintain repressive marks that silence LINE-1 elements. Loss of Rb during senescence or tumorigenesis contributes to LINE-1 derepression and the retrotransposon-driven inflammation associated with aging. Thus Rb integrates cell cycle control with genome defense against retrotransposon mobilization.",
-      "zh-TW": ""
+      "zh-TW": "RB1 是編碼視網膜母細胞瘤蛋白的基因，透過在 L1 位點維持抑制性染色質來抑制 LINE-1 逆轉錄轉座子。活性 Rb 招募染色質修飾劑，包括組蛋白甲基轉移酶 SUV39H1 和 H3K9me3 結合蛋白 HP1，以沉積和維持抑制 LINE-1 元件的抑制標記。老化或腫瘤發生過程中 Rb 的缺失會導致 LINE-1 去抑制以及逆轉錄轉座子驅動的與老化相關的發炎。因此，Rb 將細胞週期控制與針對逆轉錄轉座子動員的基因組防禦結合。"
     },
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4a2bd69ce6d3",
@@ -1196,12 +1196,12 @@
     "object": "RB1",
     "context": {
       "en-US": "The retinoblastoma protein is the product of the RB1 gene, the prototypical tumor suppressor that controls the G1/S cell cycle checkpoint. In its active, hypophosphorylated state, Rb binds and inactivates E2F transcription factors, blocking the expression of cell cycle genes and enforcing quiescence or senescence. Cyclin-dependent kinase phosphorylation inactivates Rb, releasing E2F to drive proliferation, and loss of RB1 therefore promotes uncontrolled cell division and cancer. RB1 mutations are among the most frequent genetic alterations across human cancers.",
-      "zh-TW": ""
+      "zh-TW": "視網膜母細胞瘤蛋白是 RB1 基因的產物，RB1 基因是控制 G1/S 細胞週期檢查點的典型腫瘤抑制因子。在其活性、低磷酸化狀態下，Rb 結合 E2F 轉錄因子並使 E2F 轉錄因子失活，阻斷細胞週期基因的表達並強迫靜止或老化。細胞週期蛋白依賴性激酶磷酸化使 Rb 失活，釋放 E2F 來驅動增殖，因此 RB1 的缺失會促進不受控制的細胞分裂和癌症。 RB1 突變是人類癌症中最常見的基因改變之一。"
     },
     "confidence": 0.95,
     "source_document": "Retinoblastoma Protein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5a78466eeb0f",
@@ -1210,12 +1210,12 @@
     "object": "SASP",
     "context": {
       "en-US": "Cellular senescence is characterized by the SASP, the secretion of a complex mixture of pro-inflammatory cytokines, chemokines, growth factors, and proteases. Together with irreversible cell cycle arrest and the formation of senescence-associated heterochromatin foci, the SASP defines the senescent phenotype and mediates its effects on the tissue environment. The SASP is a double-edged sword, promoting tumor surveillance and wound healing when acute but driving inflammation and tissue dysfunction when senescent cells accumulate.",
-      "zh-TW": ""
+      "zh-TW": "細胞老化的特徵是 SASP，即促發炎細胞因子、趨化因子、生長因子和蛋白酶的複雜混合物的分泌。與不可逆的細胞週期停滯和衰老相關異染色質灶的形成一起，SASP 定義了衰老表型並介導其對組織環境的影響。 SASP 是一把雙面刃，在急性時促進腫瘤監測和傷口癒合，但在老化細胞累積時引發發炎和組織功能障礙。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "91a5c45f8ff9",
@@ -1224,12 +1224,12 @@
     "object": "DNA Damage Response",
     "context": {
       "en-US": "Senescence in adult tissues can be triggered by a persistent DNA damage response (DDR) induced by various internal and external factors, including oncogenic activation, oxidative and genotoxic stress, mitochondrial dysfunction, irradiation, and chemotherapy. A sustained DDR enforces a permanent proliferation arrest and drives the senescence-associated secretory phenotype. This link between DNA damage signaling and senescence makes the DDR a central mechanism by which genotoxic stress contributes to aging.",
-      "zh-TW": ""
+      "zh-TW": "成人組織中的 Senescence 可由各種內部和外部因素誘導的持續 DNA 損傷反應 (DDR) 觸發，包括致癌活化、氧化和基因毒性壓力、粒線體功能障礙、輻射和化療。持續的 DDR 會強制永久抑制增殖並驅動老化相關的分泌表型。 DNA 損傷訊號傳導與老化之間的這種連結使 DDR 成為基因毒性壓力導致老化的核心機制。"
     },
     "confidence": 0.95,
     "source_document": "DNA Damage Response.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d6126ab5ed4e",
@@ -1238,12 +1238,12 @@
     "object": "Chromatin Remodeling",
     "context": {
       "en-US": "Senescent cells display distinctive phenotypic changes encompassing chromatin remodeling, metabolic reprogramming, and establishment of the SASP. Chromatin remodeling in senescence includes changes in A/B compartment organization, formation of senescence-associated heterochromatin foci, loss of canonical histones, accumulation of histone variants, and decompaction of constitutive heterochromatin. These epigenetic changes orchestrate the transcriptional program that sustains growth arrest and drives SASP gene expression.",
-      "zh-TW": ""
+      "zh-TW": "衰老細胞表現出獨特的表型變化，包括染色質重塑、代謝重編程和 SASP 的建立。 Chromatin 老化過程中的重塑包括 A/B 區室組織的變化、衰老相關異染色質灶的形成、典型組蛋白的丟失、組蛋白變體的積累以及組成型異染色質的解壓縮。這些表觀遺傳變化協調了維持生長停滯並驅動 SASP gene expression 的轉錄程序。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d390c6c618d4",
@@ -1252,12 +1252,12 @@
     "object": "NF-κB",
     "context": {
       "en-US": "The SASP is primarily regulated by NF-kB, the master transcription factor that controls the expression of most SASP genes. NF-kB is activated in senescent cells by the cGAS-STING pathway, DNA damage signaling, and other SASP-inducing pathways, and it drives the transcription of pro-inflammatory cytokines and chemokines. Epigenetic mechanisms, including enhancer remodeling and relief of repressive marks at SASP loci, cooperate with NF-kB to produce the robust inflammatory secretome. Targeting NF-kB or its upstream activators is thus a central strategy for dampening SASP-driven inflammation.",
-      "zh-TW": ""
+      "zh-TW": "SASP 主要受 NF-kB 調節，NF-kB 是控制大多數 SASP 基因表現的主要轉錄因子。 NF-kB 在衰老細胞中透過 cGAS-STING 通路、DNA 損傷信號傳導和其他 SASP 誘導通路激活，並驅動促炎細胞因子和趨化因子的轉錄。表觀遺傳機制，包括增強子重塑和 SASP 基因座抑制標記的緩解，與 NF-kB 合作產生強大的發炎分泌組。因此，靶向 NF-kB 或其上游活化劑是抑制 SASP 驅動的發炎的核心策略。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "35a087658f3d",
@@ -1266,12 +1266,12 @@
     "object": "NF-κB",
     "context": {
       "en-US": "The cGAS-STING pathway activates NF-kB, the master transcription factor of the inflammatory response and a key regulator of the SASP. After cGAS binds cytosolic DNA and activates STING, downstream signaling converges on TBK1 and IKK complexes to activate NF-kB, which drives the transcription of pro-inflammatory cytokines and chemokines. In senescent cells this cGAS-STING to NF-kB cascade is a principal route by which cytosolic self-DNA, including retrotransposon cDNA, induces SASP expression. This pathway is therefore a central node linking genomic surveillance to the aging inflammatory program.",
-      "zh-TW": ""
+      "zh-TW": "cGAS-STING 路徑活化 NF-kB，這是發炎反應的主要轉錄因子，也是 SASP 的關鍵調節因子。 cGAS 結合胞質 DNA 並活化 STING 後，下游訊號傳導匯聚到 TBK1 和 IKK 複合物上以活化 NF-kB，從而驅動促炎細胞因子和趨化因子的轉錄。在老化細胞中，cGAS-STING 到 NF-kB 級聯是胞質自身 DNA（包括逆轉錄轉座子 cDNA）誘導 SASP 表現的主要途徑。因此，該途徑是將基因組監測與老化發炎程序聯繫起來的中心節點。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8bfbfe049dec",
@@ -1280,12 +1280,12 @@
     "object": "cGAS-STING Pathway",
     "context": {
       "en-US": "Cytoplasmic chromatin fragments activate the cGAS-STING pathway, the innate immune DNA-sensing cascade that links nuclear DNA damage to inflammation. During senescence, ruptures of the nuclear envelope release chromatin into the cytoplasm, where the DNA sensor cGAS binds this self-DNA and activates STING, driving NF-kB-dependent expression of SASP genes. This cGAS-STING signaling through cytoplasmic chromatin is a major mechanism coupling genomic instability to the inflammatory senescent phenotype.",
-      "zh-TW": ""
+      "zh-TW": "細胞質染色質片段會活化 cGAS-STING 通路，這是一種將核 DNA 損傷與發炎聯繫起來的先天免疫 DNA 感測級聯反應。在老化過程中，核膜的破裂將染色質釋放到細胞質中，其中 DNA 感測器 cGAS 結合這種自身 DNA 並活化 STING，驅動 SASP 基因的 NF-kB 依賴性表達。這種透過細胞質染色質的 cGAS-STING 訊號傳導是將基因組不穩定性與發炎老化表型耦合的主要機制。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4a59fcbc75e6",
@@ -1294,12 +1294,12 @@
     "object": "Inflammaging",
     "context": {
       "en-US": "The SASP contributes to inflammaging, the chronic low-grade inflammation that drives many age-related diseases. Senescent cells secrete pro-inflammatory cytokines, chemokines, and proteases that attract immune cells and remodel tissue, and the accumulation of these cells with age sustains systemic inflammation. Because SASP factors promote pathology in neighboring cells, suppressing the SASP or clearing senescent cells is a major therapeutic strategy to counteract inflammaging. Targeting SASP output is therefore one of the most active areas of geroscience drug development.",
-      "zh-TW": ""
+      "zh-TW": "SASP 會導致炎症，這是一種慢性低度炎症，可引發許多與年齡相關的疾病。衰老細胞分泌促發炎細胞因子、趨化因子和蛋白酶，吸引免疫細胞並重塑組織，這些細胞隨著年齡的增長而積累，維持全身發炎。由於 SASP 因子促進鄰近細胞的病理學，因此抑制 SASP 或清除老化細胞是對抗發炎的主要治療策略。因此，以 SASP 輸出為目標是老年科學藥物開發最活躍的領域之一。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0a6d4df09837",
@@ -1308,12 +1308,12 @@
     "object": "DNA Hypomethylation",
     "context": {
       "en-US": "LINE-1 retrotransposons are derepressed by DNA hypomethylation, since methylation of L1 promoters normally keeps these elements transcriptionally silent. Age-related global loss of DNA methylation, especially at repetitive elements, relieves this silencing and allows LINE-1 transcription and retrotransposition. The resulting L1 cDNA accumulates in the cytoplasm, where it activates the cGAS-STING pathway and contributes to the chronic inflammation and SASP that characterize aging. Restoring methylation at L1 promoters re-silences these elements, confirming the causal role of hypomethylation.",
-      "zh-TW": ""
+      "zh-TW": "LINE-1 逆轉錄轉座子因 DNA 低甲基化而被去抑制，因為 L1 啟動子的甲基化通常會使這些元件保持轉錄沉默。與年齡相關的 DNA 甲基化整體喪失，尤其是重複元件，可以緩解這種沉默並允許 LINE-1 轉錄和逆轉錄轉座。由此產生的 L1 cDNA 在細胞質中積累，激活 cGAS-STING 通路並導致慢性發炎和表徵衰老的 SASP。恢復 L1 啟動子的甲基化會使這些元件重新沉默，證實了低甲基化的因果作用。"
     },
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "93f47ba51738",
@@ -1322,12 +1322,12 @@
     "object": "cGAS-STING Pathway",
     "context": {
       "en-US": "LINE-1 retrotransposon activity triggers the cGAS-STING pathway, the innate immune DNA-sensing cascade that drives much of the inflammation in aging. When LINE-1 elements are derepressed, their RNA is reverse transcribed into L1 cDNA in the cytoplasm, where it is recognized by the DNA sensor cGAS, which activates STING and downstream NF-kB signaling. This L1-cGAS-STING axis promotes SASP expression and contributes to inflammaging, and inhibiting LINE-1 reverse transcription with NRTIs dampens this inflammatory response.",
-      "zh-TW": ""
+      "zh-TW": "LINE-1 逆轉錄轉座子活性觸發 cGAS-STING 通路，這是一種先天免疫 DNA 感測級聯，可驅動老化過程中的大部分發炎。當 LINE-1 元件被去抑制時，它們的 RNA 在細胞質中逆轉錄為 L1 cDNA，並被 DNA 感測器 cGAS 識別，活化 STING 和下游 NF-kB 訊號傳導。 L1-cGAS-STING 軸促進 SASP 表達並導致炎症，以 NRTI 抑制 LINE-1 逆轉錄可抑制這種炎症反應。"
     },
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1caf90e69d87",
@@ -1336,12 +1336,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Increased expression of retrotransposition-competent LINE-1 elements is a characteristic feature of aging, contributing to chronic inflammation. Age-related loss of DNA methylation and heterochromatin relieves the silencing of transposable elements, allowing their transcription and mobilization, and the resulting L1 cDNA is sensed by cytosolic DNA sensors. The accumulation of L1 cDNA and HERV products activates innate immune sensors and promotes the low-grade inflammation that drives age-related disease.",
-      "zh-TW": ""
+      "zh-TW": "具有逆轉錄轉座能力的 LINE-1 元件表現增加是老化的特徵，會導致慢性發炎。與年齡相關的 DNA 甲基化和異染色質流失緩解了轉座元件的沉默，允許它們轉錄和動員，並且由此產生的 L1 cDNA 被胞質 DNA 感測器感知。 L1 cDNA 和 HERV 產品的累積會激活先天免疫感測器並促進導致與年齡相關的疾病的低度發炎。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1e9f2e0da638",
@@ -1350,12 +1350,12 @@
     "object": "cGAS-STING Pathway",
     "context": {
       "en-US": "Human endogenous retroviruses activate the cGAS-STING pathway when their expression is derepressed during aging and senescence. Age-related loss of DNA methylation and heterochromatin permits HERV transcription, and the resulting HERV RNA is reverse transcribed into cDNA that is sensed by cGAS, triggering STING-dependent upregulation of type I interferons and SASP factors. HERV-driven innate immune signaling contributes to inflammaging and the paracrine spread of senescence. Suppressing HERV expression or reverse transcription therefore reduces this senescence-driving inflammatory signal.",
-      "zh-TW": ""
+      "zh-TW": "當人類內源性逆轉錄病毒的表達在老化和老化過程中被抑制時，它們會活化 cGAS-STING 路徑。與年齡相關的 DNA 甲基化和異染色質缺失允許 HERV 轉錄，並且所得的 HERV RNA 被逆轉錄為 cGAS 感知的 cDNA，觸發 I 型乾擾素和 SASP 因子的 STING 依賴性上調。 HERV 驅動的先天免疫訊號傳導有助於發炎和老化的旁分泌擴散。因此，抑制 HERV 表達或逆轉錄可以減少這種老化驅動的發炎訊號。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "23b8e9471d06",
@@ -1364,12 +1364,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Heterochromatin decreases with aging, with global loss of the compacted, transcriptionally silent chromatin domains that maintain genome stability. Age-related heterochromatin loss is associated with reduced HP1 and H3K9me3, altered lamin A, and reduced histone abundance, and it is accelerated in progeria syndromes such as Hutchinson-Gilford progeria. Loss of heterochromatin decompacts the genome, promoting transposable element activation, aberrant gene expression, and genomic instability as recognized hallmarks of aging.",
-      "zh-TW": ""
+      "zh-TW": "Heterochromatin 隨著年齡的增長而減少，維持基因組穩定性的緊密、轉錄沉默的染色質結構域全面喪失。年齡相關的異染色質缺失與 HP1 和 H3K9me3 減少、核纖層蛋白 A 改變以及組蛋白豐度減少有關，並且在早衰症（例如 Hutchinson-Gilford 早衰症）中加速。異染色質的流失會使基因組解壓縮，促進轉座元件活化、gene expression 異常和基因組不穩定，這些都是公認的老化標誌。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "68c017115996",
@@ -1378,12 +1378,12 @@
     "object": "Heterochromatin",
     "context": {
       "en-US": "H3K9me3, the trimethylation of histone H3 at lysine 9, is a defining mark of constitutive heterochromatin and stable gene silencing. The mark is deposited by the SUV39H, SETDB1, and G9a/GLP methyltransferases and is recognized by the chromodomain of HP1 proteins, which oligomerize to compact and spread silent chromatin. H3K9me3 is globally reduced with age and in progeria, contributing to heterochromatin loss, retrotransposon derepression, and genomic instability. Loss of this mark is thus coupled to the heterochromatin decompaction seen in aged cells.",
-      "zh-TW": ""
+      "zh-TW": "H3K9me3 是組蛋白 H3 在賴氨酸 9 處的三甲基化，是組成型異染色質和穩定基因沉默的定義標記。該標記由 SUV39H、SETDB1 和 G9a/GLP 甲基轉移酶沉積，並被 HP1 蛋白的染色質結構域識別，該蛋白寡聚化以壓縮和擴散沉默染色質。 H3K9me3 隨著年齡的增長和早衰症而整體減少，導致異染色質丟失、逆轉錄轉座子去抑制和基因組不穩定。因此，該標記的丟失與衰老細胞中觀察到的異染色質解壓縮有關。"
     },
     "confidence": 0.95,
     "source_document": "H3K9me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "83aad669e3a9",
@@ -1392,12 +1392,12 @@
     "object": "Aging",
     "context": {
       "en-US": "H3K9me3 globally decreases with aging, reflecting the progressive loss of constitutive heterochromatin. Reduced H3K9me3 is observed in aging flies, in progeria patient fibroblasts, and in aged mouse and human tissues, and it is accompanied by reduced HP1 and heterochromatin decompaction. This decline in the repressive mark permits derepression of transposable elements and aberrant gene expression, contributing to genomic instability and inflammation during aging. Restoring H3K9me3 levels is investigated as a means to stabilize the aging genome.",
-      "zh-TW": ""
+      "zh-TW": "H3K9me3 隨著年齡的增長而整體下降，反映了組成型異染色質的逐漸喪失。在衰老果蠅、早衰症患者成纖維細胞以及衰老小鼠和人體組織中觀察到 H3K9me3 減少，並且伴隨著 HP1 減少和異染色質解壓縮。抑制標記的下降允許轉座元件和異常 gene expression 的去抑制，從而導致老化過程中基因組不穩定和發炎。研究恢復 H3K9me3 水平作為穩定老化基因組的一種方法。"
     },
     "confidence": 0.95,
     "source_document": "H3K9me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "be373a5b4098",
@@ -1406,12 +1406,12 @@
     "object": "SASP",
     "context": {
       "en-US": "H3K27me3 is a repressive histone modification that silences SASP genes when present at their loci. Depleting or inhibiting EZH2, the methyltransferase that deposits this mark, removes H3K27me3 from SASP gene loci and derepresses the SASP program, enabling expression of the inflammatory secretome. Thus the maintenance of H3K27me3 at SASP loci keeps the senescence-associated secretory phenotype in check until senescence entry triggers its removal. Understanding this repressive control is important for designing senomorphic drugs that limit harmful inflammation.",
-      "zh-TW": ""
+      "zh-TW": "H3K27me3 是一種抑制性組蛋白修飾，當 SASP 基因存在於其位點時，它會沉默該基因。耗盡或抑制 EZH2（沉積此標記的甲基轉移酶），可以從 SASP 基因位點中去除 H3K27me3，並解除 SASP 程序的抑制，從而實現炎症分泌蛋白組的表達。因此，SASP 基因座上 H3K27me3 的維持使衰老相關的分泌表型保持在檢查狀態，直到衰老進入觸發其去除。了解這種抑制控制對於設計限制有害發炎的senomorphic藥物非常重要。"
     },
     "confidence": 0.95,
     "source_document": "H3K27me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8ddc158bfddb",
@@ -1420,12 +1420,12 @@
     "object": "H3K27me3",
     "context": {
       "en-US": "EZH2 is the catalytic subunit of the Polycomb repressive complex 2 and the histone methyltransferase that deposits H3K27me3, a repressive mark that silences gene expression. Its depletion removes H3K27me3 from SASP loci, enabling derepression of SASP genes in multiple senescence models and in cancer immunotherapy contexts. Because EZH2-mediated silencing restrains the inflammatory secretome, EZH2 inhibition is proposed as a senomorphic strategy. Because EZH2 modulates inflammatory gene silencing, its activity is relevant to SASP regulation and to cancer immunotherapy responses.",
-      "zh-TW": ""
+      "zh-TW": "EZH2 是 Polycomb 抑制複合物 2 和沈積 H3K27me3 的組蛋白甲基轉移酶的催化亞基，H3K27me3 是一種沉默 gene expression 的抑制標記。它的缺失將 H3K27me3 從 SASP 位點中移除，從而能夠在多種老化模型和癌症免疫治療背景下解除 SASP 基因的抑制。由於 EZH2 介導的沉默會抑制發炎分泌組，因此 EZH2 抑制被提議作為基因策略。由於 EZH2 調節發炎基因沉默，因此其活性與 SASP 調節和癌症免疫治療反應有關。"
     },
     "confidence": 0.95,
     "source_document": "H3K27me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "422b1ed056db",
@@ -1434,12 +1434,12 @@
     "object": "H3K9me3",
     "context": {
       "en-US": "KDM4 (also known as JMJD2) is a histone demethylase that removes methyl groups from H3K9, including the repressive H3K9me3 mark. In senescent cells, KDM4 expression increases, diminishing H3K9 methylation and thereby enhancing SASP gene expression at loci such as IL-6 and IL-8 by opening repressive chromatin. Inhibitors of KDM4 are in clinical trials for cancer and are being evaluated as senomorphic agents because KDM4 knockdown prevents SASP emergence without affecting cell cycle arrest. KDM4 inhibition is therefore a candidate strategy to blunt the inflammatory SASP.",
-      "zh-TW": ""
+      "zh-TW": "KDM4（也稱為 JMJD2）是一種組蛋白去甲基化酶，可從 H3K9 中去除 methyl groups，包括抑制性 H3K9me3 標記。在老化細胞中，KDM4 表達增加，減少 H3K9 甲基化，從而透過打開抑制性染色質來增強 IL-6 和 IL-8 等位點的 SASP gene expression。 KDM4 抑制劑正在進行癌症臨床試驗，並被評估為同型藥物，因為 KDM4 敲低可阻止 SASP 出現，而不影響細胞週期停滯。因此，KDM4 抑制是抑制發炎 SASP 的候選策略。"
     },
     "confidence": 0.95,
     "source_document": "H3K9me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a10716ef3e2f",
@@ -1448,12 +1448,12 @@
     "object": "H3K9me3",
     "context": {
       "en-US": "SUV39H1 is a histone methyltransferase that deposits the repressive H3K9me3 mark, nucleating constitutive heterochromatin at centromeric and pericentromeric regions. Its expression decreases in senescent cells, contributing to the global loss of H3K9me3 and heterochromatin that accompanies aging and to the diminished silencing of SASP gene loci. Because H3K9me3 is a repressive mark, the decline of SUV39H1 relieves silencing and promotes the inflammatory secretome of senescent cells. Conversely, restoring SUV39H1 activity reinforces heterochromatin and dampens SASP-associated gene expression.",
-      "zh-TW": ""
+      "zh-TW": "SUV39H1 是一種組蛋白甲基轉移酶，可沉積抑制性 H3K9me3 標記，在著絲粒和著絲粒周圍區域使組成型異染色質成核。它在老化細胞中的表現減少，導致伴隨老化的 H3K9me3 和異染色質的整體缺失以及 SASP 基因位點沉默的減弱。由於H3K9me3是抑制性標記，SUV39H1的下降會解除沉默並促進老化細胞的發炎分泌組。相反，恢復 SUV39H1 活性會增強異染色質並抑制 SASP 相關的 gene expression。"
     },
     "confidence": 0.95,
     "source_document": "H3K9me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d93b66e8ab03",
@@ -1462,12 +1462,12 @@
     "object": "SASP",
     "context": {
       "en-US": "The transcription factor AP-1 acts as a pioneering factor that binds to enhancers associated with SASP and other senescence-related genes, initiating the opening of closed chromatin. By pioneering open chromatin at these enhancers, AP-1 enables subsequent recruitment of transcriptional machinery, the histone acetyltransferase p300, and activation of SASP gene expression. Depletion of the AP-1 family member c-Jun alone can partially reverse senescence-associated cell cycle arrest, underscoring AP-1's central regulatory role.",
-      "zh-TW": ""
+      "zh-TW": "轉錄因子 AP-1 作為先鋒因子，與 SASP 和其他老化相關基因相關的增強子結合，啟動封閉染色質的打開。透過在這些增強子上率先開放染色質，AP-1 能夠隨後招募轉錄機制、組蛋白乙醯轉移酶 p300，並活化 SASP gene expression。單獨消耗 AP-1 家族成員 c-Jun 可以部分逆轉老化相關的細胞週期停滯，強調了 AP-1 的核心調節作用。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "12020f412345",
@@ -1476,12 +1476,12 @@
     "object": "H3K27ac",
     "context": {
       "en-US": "BRD4 is a BET family epigenetic reader that binds to H3K27ac, the acetylation mark present at active enhancers and promoters. At senescence-activated super-enhancers, BRD4 binding to H3K27ac, together with the transcription factor C/EBPalpha, facilitates the expression of SASP genes by supporting enhancer-promoter interactions and transcriptional elongation. BRD4 inhibition suppresses SASP while leaving cell cycle arrest intact, making it a candidate senomorphic target with BET inhibitors in clinical trials.",
-      "zh-TW": ""
+      "zh-TW": "BRD4 是 BET 家族表觀遺傳讀取器，可與 H3K27ac（活性增強子和啟動子上存在的乙醯化標記）結合。在老化活化的超級增強子中，BRD4 與 H3K27ac 結合，與轉錄因子 C/EBPα 一起，透過支持增強子-啟動子相互作用和轉錄延伸來促進 SASP 基因的表達。 BRD4 抑制可抑制 SASP，同時保持細胞週期停滯完整，使其成為臨床試驗中 BET 抑制劑的候選同型標靶。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "43118565c295",
@@ -1490,12 +1490,12 @@
     "object": "SASP",
     "context": {
       "en-US": "BRD4 drives the SASP by binding to senescence-activated enhancers that flank key SASP genes. Together with the transcription factor C/EBPalpha, BRD4 recognizes H3K27ac marks at these enhancers and promotes the transcription of inflammatory SASP genes by stabilizing enhancer-promoter contacts. Knocking down BRD4 prevents the emergence of SASP without affecting growth arrest, positioning BRD4 and BET bromodomain inhibitors as a promising senomorphic strategy. Because BRD4 acts upstream of many inflammatory genes, it offers a single target to suppress the entire SASP program.",
-      "zh-TW": ""
+      "zh-TW": "BRD4 透過與關鍵 SASP 基因側翼的衰老活化增強子結合來驅動 SASP。 BRD4 與轉錄因子 C/EBPα 一起識別這些增強子上的 H3K27ac 標記，並透過穩定增強子-啟動子接觸來促進發炎 SASP 基因的轉錄。敲除 BRD4 可防止 SASP 的出現，而不影響生長停滯，這將 BRD4 和 BET 溴結構域抑制劑定位為一種有前途的同型策略。由於 BRD4 在許多發炎基因的上游發揮作用，因此它提供了一個單一標靶來抑制整個 SASP 程序。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7d163f159551",
@@ -1504,12 +1504,12 @@
     "object": "H3K27ac",
     "context": {
       "en-US": "HDAC4, a class IIa histone deacetylase that is catalytically inactive and acts as an epigenetic reader, monitors H3K27ac, the acetylation mark at active enhancers. It is swiftly recruited to H3K27ac loci and, through interaction with the class I deacetylase HDAC3, oversees the acetylation status of AP-1-regulated super-enhancers. This buffering function keeps senescence-associated gene expression in check until HDAC4 degradation upon senescence entry unleashes the SASP program. This monitoring role links HDAC4 to the chromatin changes that set the threshold for SASP activation.",
-      "zh-TW": ""
+      "zh-TW": "HDAC4 是一種 IIa 類組蛋白去乙醯化酶，無催化活性，可作為表觀遺傳讀取器，監測活性增強子處的乙醯化標記 H3K27ac。它迅速被招募到 H3K27ac 基因座，並透過與 I 型去乙醯酶 HDAC3 相互作用，監督 AP-1 調節的超級增強子的乙醯化狀態。這種緩衝功能使與老化相關的 gene expression 保持在檢查狀態，直到老化進入時 HDAC4 降解釋放 SASP 程序。這種監測作用將 HDAC4 與染色質變化聯繫起來，從而設定 SASP 活化的閾值。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "659e303de699",
@@ -1518,12 +1518,12 @@
     "object": "Senescence",
     "context": {
       "en-US": "HDAC4 is degraded upon entry into senescence, an event that unleashes the AP-1-mediated senescence transcriptional program. Under normal conditions, HDAC4, a class IIa histone deacetylase that acts as an epigenetic reader, monitors H3K27 acetylation at AP-1-regulated super-enhancers and buffers the senescence program, keeping SASP gene expression repressed. Its degradation removes this brake, allowing the widespread activation of senescence-associated genes that drives the SASP. This proteolytic switch is one of the triggers that converts a buffered state into a full-blown senescent secretome.",
-      "zh-TW": ""
+      "zh-TW": "HDAC4 在進入老化時被降解，這一事件釋放了 AP-1 介導的衰老轉錄程序。在正常情況下，HDAC4（一種 IIa 類組蛋白去乙醯酶，可作為表觀遺傳讀取器）可監測 AP-1 調節的超級增強子上的 H3K27 乙醯化並緩衝老化程序，從而保持 SASP gene expression 受到抑制。它的降解消除了這種制動，從而使驅動 SASP 的衰老相關基因廣泛激活。這種蛋白水解開關是將緩衝狀態轉化為成熟的衰老分泌蛋白組的觸發器之一。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f42e2fab6f62",
@@ -1532,12 +1532,12 @@
     "object": "H3K9me3",
     "context": {
       "en-US": "Senescence-associated heterochromatin foci (SAHFs) are characterized by increased binding of HP1, H3K9me3 marks, macroH2A, and HMGA proteins. These foci are large domains of condensed heterochromatin that form in the nuclei of senescent cells and are believed to contribute to silencing of proliferation-associated genes. SAHF formation requires chromatin regulators including HIRA, ASF1a, and UBN1, and although not essential for growth arrest, their disruption correlates with reduced SASP expression.",
-      "zh-TW": ""
+      "zh-TW": "Senescence 相關異染色質灶 (SAHF) 的特徵是 HP1、H3K9me3 標記、macroH2A 和 HMGA 蛋白的結合增加。這些病灶是在老化細胞的細胞核中形成的濃縮異染色質的大結構域，被認為有助於增殖相關基因的沉默。 SAHF 的形成需要染色質調節因子，包括 HIRA、ASF1a 和 UBN1，雖然對於生長停滯不是必需的，但它們的破壞與 SASP 表達的減少有關。"
     },
     "confidence": 0.95,
     "source_document": "H3K9me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ed3f30215638",
@@ -1546,12 +1546,12 @@
     "object": "macroH2A",
     "context": {
       "en-US": "Senescence-associated heterochromatin foci contain macroH2A, along with HP1, H3K9me3, and HMGA proteins, which together form compacted chromatin domains in the nuclei of senescent cells. The accumulation of macroH2A in these foci promotes transcriptional silencing of proliferation-associated genes and helps stabilize the senescent state. Although not essential for growth arrest, the incorporation of macroH2A into SAHFs is a hallmark of senescence-associated chromatin reorganization. The enrichment of macroH2A distinguishes SAHFs from ordinary heterochromatin domains.",
-      "zh-TW": ""
+      "zh-TW": "Senescence 相關的異染色質灶包含 macroH2A 以及 HP1、H3K9me3 和 HMGA 蛋白，它們一起在老化細胞的細胞核中形成壓縮的染色質結構域。 macroH2A 在這些病灶中的累積促進了增殖相關基因的轉錄沉默，並有助於穩定老化狀態。儘管 macroH2A 摻入 SAHF 對生長停滯不是必需的，但它是衰老相關染色質重組的標誌。 macroH2A 的富集將 SAHF 與普通異染色質結構域區分開來。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3401c287bfb7",
@@ -1560,12 +1560,12 @@
     "object": "Senescence",
     "context": {
       "en-US": "In senescent cells, the histone variant H3.3 accumulates and progressively replaces the canonical histones H3.1 and H3.2. Both H3.3 and its N-terminally cleaved product H3.3cs1, generated by the lysosomal protease cathepsin L1, trigger senescence when ectopically expressed. Because H3.3 is deposited in a replication-independent manner, it accumulates in post-mitotic and senescent cells, and its long half-life makes it vulnerable to cumulative damage that contributes to epigenetic dysregulation during aging.",
-      "zh-TW": ""
+      "zh-TW": "在衰老細胞中，組蛋白變體 H3.3 累積並逐漸取代經典組蛋白 H3.1 和 H3.2。 H3.3 及其 N 端裂解產物 H3.3cs1（由溶小體蛋白酶組織蛋白酶 L1 產生）在異位表達時都會引發老化。由於 H3.3 以不依賴複製的方式沉積，因此它會在有絲分裂後和衰老細胞中積累，並且其較長的半衰期使其容易受到累積損傷，從而導致衰老過程中的表觀遺傳失調。"
     },
     "confidence": 0.95,
     "source_document": "Histone Variant.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a0848a6feab8",
@@ -1574,12 +1574,12 @@
     "object": "SASP",
     "context": {
       "en-US": "The histone variant H2A.J is enriched at the promoters of SASP genes, where it facilitates changes in chromatin accessibility that induce SASP expression. H2A.J accumulates in human senescent fibroblasts, in aged human skin, and in mouse tissues, particularly in response to persistent DNA damage. This DNA damage-associated incorporation of H2A.J at inflammatory gene loci links the DNA damage response to the activation of the senescence-associated secretory phenotype. This enrichment distinguishes H2A.J from canonical histones and marks the switch toward inflammatory gene expression in senescent cells.",
-      "zh-TW": ""
+      "zh-TW": "組蛋白變異體 H2A.J 在 SASP 基因的啟動子處富集，它促進染色質可及性的變化，從而誘導 SASP 表達。 H2A.J 在人類老化成纖維細胞、衰老人類皮膚和小鼠組織中積累，特別是在對持續 DNA 損傷的反應中。這種與 DNA 損傷相關的 H2A.J 在發炎基因位點的摻入將 DNA 損傷反應與老化相關分泌表型的活化聯繫起來。這種富集將 H2A.J 與典型組蛋白區分開來，並標誌著衰老細胞中向發炎 gene expression 的轉變。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "af5db94a5885",
@@ -1588,12 +1588,12 @@
     "object": "DNA Repair",
     "context": {
       "en-US": "gamma-H2A.X, the phosphorylated form of the histone variant H2A.X at serine 139, serves as a beacon that recruits DNA repair proteins to sites of double-strand DNA breaks. Phosphorylation of H2A.X spreads over large chromatin domains around the break, providing a platform for the assembly of DNA repair complexes and the amplification of damage signaling. Beyond its role in repair, gamma-H2A.X induces p53 expression and activates senescence signaling, and it accumulates with aging as a result of persistent DNA damage.",
-      "zh-TW": ""
+      "zh-TW": "γ-H2A.X 是組蛋白變體 H2A.X 在絲氨酸 139 的磷酸化形式，可作為將 DNA 修復蛋白招募到雙股 DNA 斷裂位點的信標。 H2A.X 的磷酸化遍布斷裂周圍的大染色質結構域，為 DNA 修復複合物的組裝和損傷訊號的放大提供了平台。除了修復作用之外，gamma-H2A.X 還誘導 p53 表達並激活衰老信號傳導，並且由於持續的 DNA 損傷，它會隨著衰老而累積。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "68137b4eebc3",
@@ -1602,12 +1602,12 @@
     "object": "Aging",
     "context": {
       "en-US": "macroH2A levels increase during aging in mice, baboons, and human senescent fibroblasts, making it a marker of the aged cellular state. As a histone variant with a very long half-life, macroH2A accumulates in post-mitotic cells, where it contributes to repressing proliferation genes and stabilizing senescence-associated heterochromatin foci. Its age-related accumulation is part of the altered chromatin landscape of aging cells and links histone variant dynamics to the senescent state. Thus macroH2A serves as both a marker and a contributor to age-related chromatin remodeling.",
-      "zh-TW": ""
+      "zh-TW": "macroH2A 水平在小鼠、狒狒和人類老化成纖維細胞的衰老過程中增加，使其成為衰老細胞狀態的標誌。作為一種半衰期很長的組蛋白變體，macroH2A 在有絲分裂後細胞中積累，有助於抑制增殖基因並穩定衰老相關的異染色質灶。它與年齡相關的累積是老化細胞染色質景觀改變的一部分，並將組蛋白變異動態與老化狀態聯繫起來。因此，macroH2A 既是年齡相關染色質重塑的標記物也是貢獻者。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "20127d3ee32a",
@@ -1616,12 +1616,12 @@
     "object": "SASP",
     "context": {
       "en-US": "macroH2A promotes the SASP by modulating the chromatin state at SASP loci during senescence. Although macroH2A is classically associated with transcriptional silencing and senescence-associated heterochromatin foci, its removal from SASP gene loci during oncogene-induced senescence is required for proper SASP gene induction, and knockout of macroH2A in senescent cells reduces SASP output. This dual role illustrates how dynamic changes in histone variant occupancy fine-tune the expression of the inflammatory secretome.",
-      "zh-TW": ""
+      "zh-TW": "macroH2A 透過在老化過程中調節 SASP 基因座的染色質狀態來促進 SASP。儘管 macroH2A 通常與轉錄沉默和衰老相關的異染色質灶相關，但在癌基因誘導的衰老過程中，需要將其從 SASP 基因位點中去除，以實現正確的 SASP 基因誘導，並且在衰老細胞中敲除 macroH2A 會減少 SASP 的輸出。這種雙重作用說明了組蛋白變異佔據的動態變化如何微調發炎分泌組的表達。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5223dd945d62",
@@ -1630,12 +1630,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Nucleosome remodeling capacity decreases with age, accompanied by the loss of core histones and nucleosome occupancy. In aging yeast, nucleosome occupancy decreases by up to 50 percent and half the core histone proteins are lost, and similar chromatin decompaction occurs in worms and human cells. Reduced histone abundance and nucleosome loss decompact chromatin, increasing DNA accessibility and transcriptional noise while contributing to genomic instability in aging cells. These findings support the view that chromatin decompaction is a fundamental driver of age-related dysfunction.",
-      "zh-TW": ""
+      "zh-TW": "Nucleosome 重塑能力隨著年齡的增長而降低，伴隨著核心組蛋白和核小體佔據的損失。在老化的酵母菌中，核小體佔有率下降高達 50%，一半的核心組蛋白流失，蠕蟲和人類細胞中也會發生類似的染色質解壓縮。組蛋白豐度的減少和核小體的流失會使染色質解壓縮，增加 DNA 的可及性和轉錄噪音，同時導致老化細胞的基因組不穩定。這些發現支持這樣的觀點：染色質解壓縮是與年齡相關的功能障礙的根本驅動因素。"
     },
     "confidence": 0.95,
     "source_document": "Nucleosome Remodeling.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "617caaf30483",
@@ -1644,12 +1644,12 @@
     "object": "SASP",
     "context": {
       "en-US": "SAHF disruption correlates with reduced SASP expression, though whether SAHF is necessary for SASP remains unresolved. While SAHF formation accompanies senescence and is thought to silence proliferation genes, its relationship to SASP is complex because SAHF are not readily observed in many in vivo contexts and in mouse cells, where they fail to form robustly. The correlation between SAHF integrity and SASP output nonetheless suggests a functional link between heterochromatin organization and the inflammatory secretome.",
-      "zh-TW": ""
+      "zh-TW": "SAHF 破壞與 SASP 表達減少有關，但 SAHF 是否是 SASP 所必需的仍未解決。雖然 SAHF 的形成伴隨著衰老，並被認為會沉默增殖基因，但它與 SASP 的關係很複雜，因為 SAHF 在許多體內環境和小鼠細胞中不容易觀察到，它們無法牢固地形成。儘管如此，SAHF 完整性和 SASP 輸出之間的相關性表明異染色質組織和發炎分泌組之間存在功能關聯。"
     },
     "confidence": 0.75,
     "source_document": "SAHF.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "657f406ff616",
@@ -1658,12 +1658,12 @@
     "object": "rDNA",
     "context": {
       "en-US": "SIRT1 stabilizes ribosomal DNA by maintaining the silencing of rDNA repeats, essentially performing in human cells the same function that the yeast sirtuin Sir2 performs at the rDNA locus. Through its deacetylase activity and recruitment of DNMT1, SIRT1 preserves rDNA methylation and prevents the recombination events that generate toxic extrachromosomal rDNA circles during aging. This conserved function links rDNA stability to genome integrity, cellular senescence, and lifespan control across species.",
-      "zh-TW": ""
+      "zh-TW": "SIRT1 透過維持 rDNA 重複序列的沉默來穩定核醣體 DNA，本質上在人類細胞中執行與酵母 Sirtuin Sir2 在 rDNA 基因座上執行的相同功能。透過其去乙醯化酶活性和 DNMT1 的募集，SIRT1 保留了 rDNA 甲基化，並防止在老化過程中產生有毒染色體外 rDNA 環的重組事件。這種保守的功能將 rDNA 的穩定性與基因組完整性、細胞老化和跨物種壽命控制聯繫起來。"
     },
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "01a18915dcdc",
@@ -1672,12 +1672,12 @@
     "object": "Senescence",
     "context": {
       "en-US": "SIRT1 prevents cellular senescence by maintaining chromatin silencing, stabilizing rDNA, and promoting DNA repair. SIRT1 deacetylates histones and transcription factors such as FOXO and p53, suppresses the age-related relocalization of silencing factors, and recruits DNMT1 to maintain rDNA methylation, preventing the genomic instability that triggers senescence. Overexpression of SIRT1 or activation by compounds such as resveratrol counteracts aging-related changes and delays cellular senescence.",
-      "zh-TW": ""
+      "zh-TW": "SIRT1 透過維持染色質沉默、穩定 rDNA 和促進 DNA 修復來防止細胞老化。 SIRT1 使組蛋白和轉錄因子（例如 FOXO 和 p53）去乙醯化，抑制沉默因子與年齡相關的重新定位，並招募 DNMT1 來維持 rDNA 甲基化，防止引發老化的基因組不穩定性。 SIRT1 的過度表現或白藜蘆醇等化合物的活化可以抵消與老化相關的變化並延緩細胞老化。"
     },
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2079e8fa4bc5",
@@ -1686,12 +1686,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "Induced pluripotent stem cells (iPSCs) are somatic cells reprogrammed to pluripotency by defined transcription factors through cellular reprogramming. The process erases somatic epigenetic marks, including DNA methylation and repressive histone modifications, and establishes a pluripotency gene network, yielding cells capable of differentiating into all three germ layers. iPSCs are validated by their pluripotent character and are used for disease modeling, drug discovery, and regenerative medicine.",
-      "zh-TW": ""
+      "zh-TW": "誘導多能幹細胞 (iPSC) 是透過細胞重編程，透過定義的轉錄因子重編程為多能性的體細胞。這個過程消除了體細胞表觀遺傳標記，包括 DNA 甲基化和抑制性組蛋白修飾，並建立了多能性基因網絡，產生能夠分化為所有三個胚層的細胞。 iPSC 因其多能特性得到驗證，可用於疾病建模、藥物發現和再生醫學。"
     },
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8a26e3ed1f4c",
@@ -1700,12 +1700,12 @@
     "object": "Disease Modeling",
     "context": {
       "en-US": "Induced pluripotent stem cells enable disease modeling by providing an unlimited, patient-derived source of disease-relevant cells. Reprogramming fibroblasts from patients with genetic disorders and differentiating them into affected cell types recapitulates key disease phenotypes in vitro, such as TDP-43 mislocalization in frontotemporal dementia. These models enable mechanistic studies, drug screening, and personalized medicine while avoiding the ethical constraints of fetal tissue. The resulting models have become central platforms for studying both rare and common diseases.",
-      "zh-TW": ""
+      "zh-TW": "誘導多能幹細胞透過提供無限的、源自患者的疾病相關細胞來源來實現疾病建模。對患有遺傳性疾病的患者的成纖維細胞進行重編程並將其分化為受影響的細胞類型，可以在體外重現關鍵的疾病表型，例如額顳葉失智症中的 TDP-43 錯誤定位。這些模型可以進行機制研究、藥物篩選和個人化醫療，同時避免胎兒組織的倫理限制。由此產生的模型已成為研究罕見和常見疾病的中心平台。"
     },
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e6f52b185ce0",
@@ -1714,12 +1714,12 @@
     "object": "Teratoma",
     "context": {
       "en-US": "Induced pluripotent stem cells are validated by the teratoma assay, in which the cells are injected into immunodeficient mice and assessed for the formation of benign tumors containing all three germ layers. The presence of endoderm, mesoderm, and ectoderm derivatives confirms true pluripotency and multilineage differentiation potential. This gold-standard test distinguishes fully pluripotent cells from partially reprogrammed or multipotent populations before research or clinical use. However, the assay also highlights the tumorigenic risk that must be controlled before clinical use.",
-      "zh-TW": ""
+      "zh-TW": "誘導多能幹細胞透過畸胎瘤測定進行驗證，其中將細胞注射到免疫缺陷小鼠體內，並評估包含所有三個胚層的良性腫瘤的形成。內胚層、中胚層和外胚層衍生物的存在證實了真正的多能性和多譜系分化潛力。這種黃金標準測試可在研究或臨床使用之前將完全多能細胞與部分重編程或多能細胞群區分開來。然而，該測定也強調了臨床使用前必須控制的致瘤風險。"
     },
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "93e282f19c2a",
@@ -1728,12 +1728,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "Shinya Yamanaka and colleagues discovered induced pluripotent stem cells in 2006, showing that somatic fibroblasts could be reprogrammed to pluripotency by the four transcription factors Oct4, Sox2, Klf4, and c-Myc. This landmark work, for which Yamanaka received the Nobel Prize in Physiology or Medicine in 2012, demonstrated that cell identity is not fixed and could be reset by defined factors. iPSC technology opened new avenues for disease modeling, drug discovery, and patient-specific regenerative medicine.",
-      "zh-TW": ""
+      "zh-TW": "Shinya Yamanaka 及其同事於 2006 年發現了誘導多能幹細胞，顯示體細胞纖維母細胞可以透過四種轉錄因子 Oct4、Sox2、Klf4 和 c-Myc 重新編程為多能性。山中伸彌憑藉這項具有里程碑意義的工作獲得了 2012 年諾貝爾生理學或醫學獎，它證明細胞身份不是固定的，可以透過確定的因素進行重置。 iPSC 技術為疾病建模、藥物發現和患者特異性再生醫學開闢了新途徑。"
     },
     "confidence": 0.95,
     "source_document": "Shinya Yamanaka.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b5cbdd8c1550",
@@ -1742,12 +1742,12 @@
     "object": "DNMT1",
     "context": {
       "en-US": "5-Azacytidine inhibits DNMT1, the maintenance DNA methyltransferase that copies methylation patterns onto daughter strands during DNA replication. As a cytidine analog, 5-azacytidine is incorporated into DNA, where it covalently traps DNMT1 and depletes the enzyme, causing passive loss of methylation on newly synthesized strands. This demethylation reactivates silenced genes, including tumor suppressors, and underlies its clinical use in myelodysplastic syndromes and acute myeloid leukemia. It is also studied for its capacity to modulate senescence and reactivate silenced developmental programs.",
-      "zh-TW": ""
+      "zh-TW": "5-Azacytidine 抑制 DNMT1，這是一種維持 DNA 甲基轉移酶，在 DNA 複製過程中將甲基化模式複製到子鏈上。作為胞苷類似物，5-氮雜胞苷摻入 DNA 中，共價捕獲 DNMT1 並耗盡該酶，導致新合成鏈上的甲基化被動喪失。这种去甲基化重新激活了沉默的基因，包括肿瘤抑制基因，这是其在骨髓增生异常综合征和急性髓系白血病中的临床应用的基础。人們也研究了它調節衰老和重新激活沉默的發育程序的能力。"
     },
     "confidence": 0.95,
     "source_document": "5-Azacytidine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7c7ef0166709",
@@ -1756,12 +1756,12 @@
     "object": "Epigenetic Modifiers",
     "context": {
       "en-US": "5-Azacytidine is classified as an epigenetic modifier, specifically a DNA methyltransferase (DNMT) inhibitor, and it is among the first epigenetic drugs used in the clinic. As a cytidine analog, it is incorporated into DNA during replication, where it covalently traps DNMT enzymes and causes passive loss of DNA methylation, reactivating silenced genes such as tumor suppressors. This mechanism underlies its use in myelodysplastic syndromes and leukemia and its application in research on gene silencing, development, and aging.",
-      "zh-TW": ""
+      "zh-TW": "5-Azacytidine被歸類為表觀遺傳修飾劑，特別是DNA甲基轉移酶（DNMT）抑制劑，是第一批應用於臨床的表觀遺傳藥物之一。作為胞苷類似物，它在複製過程中摻入 DNA，共價捕獲 DNMT 酶並導致 DNA 甲基化被動丟失，從而重新激活腫瘤抑制基因等沉默基因。這種機制是其在骨髓增生異常綜合症和白血病中的應用及其在基因沉默、發育和老化研究中的應用的基礎。"
     },
     "confidence": 0.95,
     "source_document": "5-Azacytidine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "41eb95ae9f51",
@@ -1770,12 +1770,12 @@
     "object": "DNA Methyltransferase",
     "context": {
       "en-US": "Decitabine is a nucleoside analog that inhibits DNA methyltransferases and is used as an epigenetic therapy in hematologic malignancies. After incorporation into DNA during replication, decitabine covalently traps DNMT enzymes, depleting them and causing passive loss of DNA methylation on newly synthesized strands. This demethylation reactivates genes silenced by promoter hypermethylation, such as tumor suppressors, which underlies its clinical efficacy in myelodysplastic syndromes and acute myeloid leukemia.",
-      "zh-TW": ""
+      "zh-TW": "Decitabine 是一種核苷類似物，可抑制 DNA 甲基轉移酶，用作血液惡性腫瘤的表觀遺傳療法。在複製過程中摻入 DNA 後，地西他濱共價捕獲 DNMT 酶，耗盡它們並導致新合成鏈上 DNA 甲基化的被動喪失。這種去甲基化重新激活了因啟動子高甲基化而沉默的基因，例如腫瘤抑制基因，這是其在骨髓增生異常綜合徵和急性髓系白血病中的臨床功效的基礎。"
     },
     "confidence": 0.95,
     "source_document": "Decitabine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "68cd26101598",
@@ -1784,12 +1784,12 @@
     "object": "Histone Deacetylase",
     "context": {
       "en-US": "Sodium valproate is an anticonvulsant and mood-stabilizing drug that also acts as a histone deacetylase inhibitor at therapeutic concentrations. By inhibiting class I HDACs, valproate increases histone acetylation and alters the expression of many genes, which contributes to its clinical effects and underlies its use as an experimental epigenetic modulator. Valproate is also used in research to enhance reprogramming, promote differentiation, and study the role of acetylation in gene regulation and aging.",
-      "zh-TW": ""
+      "zh-TW": "丙戊酸鈉是一種抗驚厥藥和情緒穩定藥，在治療濃度下也可用作組蛋白去乙醯化酶抑制劑。透過抑制 I 類 HDAC，丙戊酸增加組蛋白乙醯化並改變許多基因的表達，這有助於其臨床效果並奠定其作為實驗性表觀遺傳調節劑的基礎。丙戊酸也用於增強重編程、促進分化以及研究乙醯化在基因調控和老化中的作用的研究。"
     },
     "confidence": 0.95,
     "source_document": "Sodium Valproate.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e7a2f8cb6d27",
@@ -1798,12 +1798,12 @@
     "object": "Histone Deacetylase",
     "context": {
       "en-US": "Trichostatin A is a potent, broadly acting histone deacetylase inhibitor used extensively in epigenetics and senescence research. By blocking HDAC enzymes, trichostatin A increases histone acetylation, opening chromatin and reactivating genes silenced by deacetylation across the genome. In senescence studies it serves as a tool compound to probe how the balance between histone acetyltransferase and deacetylase activities influences the senescence phenotype, SASP regulation, and chromatin state. It is one of the most widely used tool compounds for manipulating the acetylome experimentally.",
-      "zh-TW": ""
+      "zh-TW": "Trichostatin A 是一種有效、廣泛作用的組蛋白去乙醯化酶抑制劑，廣泛用於表觀遺傳學和老化研究。透過阻斷 HDAC 酶，曲古抑菌素 A 增加組蛋白乙醯化，打開染色質並重新活化整個基因組中因去乙醯化而沉默的基因。在老化研究中，它作為工具化合物來探討組蛋白乙醯轉移酶和去乙醯化酶活性之間的平衡如何影響老化表型、SASP 調節和染色質狀態。它是用於實驗操縱乙醯基組的最廣泛使用的工具化合物之一。"
     },
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fb8b615a93b3",
@@ -1812,12 +1812,12 @@
     "object": "Epigenetic Drift",
     "context": {
       "en-US": "Caloric restriction attenuates epigenetic drift, the progressive divergence of methylation and chromatin marks that accumulates with age. In C. elegans, caloric restriction reverses the age-related decline of microRNAs, and in mammals it slows age-associated changes in DNA methylation, helping to preserve youthful epigenetic patterns. By limiting drift, caloric restriction maintains transcriptional fidelity and cellular identity, contributing to its well-documented effects on healthspan and lifespan.",
-      "zh-TW": ""
+      "zh-TW": "熱量限制會減弱表觀遺傳漂移，即隨著年齡的增長而累積的甲基化和染色質標記的逐漸分歧。在秀麗隱桿線蟲中，熱量限制逆轉了與年齡相關的 microRNA 衰退，在哺乳動物中，它減緩了與年齡相關的 DNA 甲基化變化，有助於維持年輕的表觀遺傳模式。透過限制漂移，熱量限制可以維持轉錄保真度和細胞特性，有助於其對健康壽命和壽命的影響。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ba3d37b2a283",
@@ -1826,12 +1826,12 @@
     "object": "Epigenetic Clock",
     "context": {
       "en-US": "Caloric restriction, the best-characterized lifespan-extending intervention, has shown measurable reversal of epigenetic clock estimates in some studies. By limiting energy intake, caloric restriction slows age-related changes in DNA methylation and chromatin, reducing the methylation-predicted biological age of tissues relative to chronological age. These findings indicate that biological age is malleable and have made epigenetic clocks standard endpoints in longevity research and intervention trials.",
-      "zh-TW": ""
+      "zh-TW": "熱量限制是最有特色的延長壽命的干預措施，在一些研究中表明表觀遺傳時鐘估計出現了可測量的逆轉。透過限制能量攝入，熱量限制可以減緩 DNA 甲基化和染色質中與年齡相關的變化，從而降低甲基化預測的組織相對於實際年齡的生物年齡。這些發現表明生物年齡是可塑的，並使表觀遺傳時鐘成為長壽研究和乾預試驗的標準終點。"
     },
     "confidence": 0.75,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "954fc7644a2c",
@@ -1840,12 +1840,12 @@
     "object": "Epigenetic Clock",
     "context": {
       "en-US": "Metformin, a widely used anti-diabetic drug, has shown measurable reversal of epigenetic clock estimates in some studies, reducing the DNA methylation-predicted age of tissues relative to chronological age. By demonstrating that biological age, as measured by the methylation state of selected CpG sites, can decrease in response to intervention, these findings support the notion that biological aging is modifiable. Epigenetic clocks have consequently become standard endpoints for evaluating longevity interventions such as metformin in clinical trials.",
-      "zh-TW": ""
+      "zh-TW": "Metformin 是一種廣泛使用的抗糖尿病藥物，在一些研究中顯示出可測量的表觀遺傳時鐘估計逆轉，降低了 DNA 甲基化預測的組織相對於實際年齡的年齡。透過證明生物年齡（透過選定 CpG 位點的甲基化狀態測量）可以響應幹預而降低，這些發現支持了生物老化是可改變的觀點。因此，表觀遺傳時鐘已成為評估臨床試驗中二甲雙胍等長壽幹預措施的標準終點。"
     },
     "confidence": 0.75,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "24f5fa8aad54",
@@ -1854,12 +1854,12 @@
     "object": "Sirtuins",
     "context": {
       "en-US": "AMPK interacts with sirtuins to link cellular energy status to chromatin regulation and aging. AMPK senses declining energy levels, elevates NAD+ to activate sirtuins such as SIRT1, and shares downstream targets including FOXO and PGC-1alpha, connecting nutrient availability to gene expression and metabolism. This AMPK-sirtuin axis mediates many effects of caloric restriction and hormetic stimuli, coordinating mitochondrial function, autophagy, and stress resistance with the epigenetic state. Pharmacological activation of this axis reproduces many benefits of dietary restriction.",
-      "zh-TW": ""
+      "zh-TW": "AMPK 與去乙醯化酶相互作用，將細胞能量狀態與染色質調節和老化聯繫起來。 AMPK 感知能量水平下降，提高 NAD+ 以激活 SIRT1 等去乙醯化酶，並共享包括 FOXO 和 PGC-1alpha 在內的下游目標，將營養可用性與 gene expression 和新陳代謝聯繫起來。 AMPK-sirtuin 軸介導熱量限制和荷爾蒙刺激的許多作用，協調粒線體功能、自噬和壓力抵抗與表觀遺傳狀態。此軸的藥理活化再現了飲食限制的許多好處。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - xenohormesis, mitohormesis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "11bd28934984",
@@ -1868,12 +1868,12 @@
     "object": "Cancer",
     "context": {
       "en-US": "Aging is associated with a markedly increased risk of cancer, driven in part by the accumulation of epigenetic dysregulation. Age-related global hypomethylation destabilizes the genome and activates transposable elements, while focal promoter hypermethylation silences tumor suppressor genes, and these changes cooperate with genetic mutations to drive tumorigenesis. The epigenetic alterations that accumulate with age are therefore targets of epigenetic therapies and biomarkers for cancer risk. This epigenetic-aging link provides a rationale for using epigenetic drugs in cancer prevention and therapy.",
-      "zh-TW": ""
+      "zh-TW": "Aging 與癌症風險顯著增加有關，部分原因是表觀遺傳失調的累積。與年齡相關的整體低甲基化會破壞基因組的穩定性並激活轉座元件，而局部啟動子高甲基化會沉默腫瘤抑制基因，這些變化與基因突變配合驅動腫瘤發生。因此，隨著年齡的增長而累積的表觀遺傳改變是表觀遺傳治療的目標和癌症風險的生物標記。這種表觀遺傳與老化的關聯為在癌症預防和治療中使用表觀遺傳藥物提供了理論基礎。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cfa8877b5aea",
@@ -1882,12 +1882,12 @@
     "object": "Neurodegenerative Diseases",
     "context": {
       "en-US": "Aging is the principal risk factor for neurodegenerative diseases, and epigenetic dysregulation contributes to this association. Altered histone acetylation and DNA methylation impair the expression of neuroprotective genes, exacerbate protein aggregation, and contribute to neuronal dysfunction in conditions such as Alzheimer's and Parkinson's disease. Because many of these epigenetic changes are reversible, they represent targets for therapeutic intervention in age-related neurodegeneration. These epigenetic targets are being explored as therapeutic avenues for delaying neurodegeneration.",
-      "zh-TW": ""
+      "zh-TW": "Aging 是神經退化性疾病的主要危險因素，表觀遺傳失調導致了這種關聯。組蛋白乙醯化和 DNA 甲基化的改變會損害神經保護基因的表達，加劇蛋白質聚集，並導致阿茲海默症和帕金森氏症等疾病的神經元功能障礙。由於許多表觀遺傳變化是可逆的，因此它們代表了年齡相關神經退化治療介入的目標。人們正在探索這些表觀遺傳標靶作為延緩神經退化性變的治療途徑。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "84ff2d5fc6a6",
@@ -1896,12 +1896,12 @@
     "object": "Epigenetic Drift",
     "context": {
       "en-US": "Aging involves epigenetic drift, the progressive divergence of DNA methylation and chromatin marks from the youthful state that erodes the fidelity of gene expression. Drift occurs stochastically, increasing variation both between individuals and between cells of the same tissue, and it contributes to cellular dysfunction and age-related disease. Polycomb group protein target genes are particularly susceptible to age-associated methylation changes, linking drift to the loss of cellular identity.",
-      "zh-TW": ""
+      "zh-TW": "Aging 涉及表觀遺傳漂移、DNA 甲基化和染色質標記與年輕狀態的逐漸分歧，從而侵蝕了 gene expression 的保真度。漂移是隨機發生的，增加了個體之間和同一組織細胞之間的變異，並導致細胞功能障礙和與年齡相關的疾病。多梳蛋白標靶基因特別容易受到與年齡相關的甲基化變化的影響，將漂移與細胞身份的喪失聯繫起來。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "40e950a576d1",
@@ -1910,12 +1910,12 @@
     "object": "Partial Reprogramming",
     "context": {
       "en-US": "Signs of aging can be reversed by partial reprogramming, in which the Yamanaka factors are expressed transiently and cyclically rather than continuously. This approach restored youthful gene expression and extended lifespan in progeroid mice without the tumor formation seen with full reprogramming to pluripotency. By resetting age-related epigenetic marks, including DNA methylation and chromatin state, partial reprogramming demonstrates that aspects of biological aging are reversible. This has established partial reprogramming as a leading candidate rejuvenation strategy.",
-      "zh-TW": ""
+      "zh-TW": "老化跡象可以透過部分重編程來逆轉，其中山中因子短暫且週期性地表達，而不是連續表達。這種方法恢復了 gene expression 的年輕狀態，並延長了早衰小鼠的壽命，並且在完全重編程為多能性時沒有腫瘤形成。透過重置與年齡相關的表觀遺傳標記，包括 DNA 甲基化和染色質狀態，部分重編程表明生物老化的各個方面是可逆的。這使得部分重編程成為主要的候選者復興策略。"
     },
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "62ea06dff315",
@@ -1924,12 +1924,12 @@
     "object": "Environment",
     "context": {
       "en-US": "Unlike the largely static genome, the epigenome is dynamic and responsive to diet, stress, exercise, toxins, and social environment. Environmental signals modify DNA methylation, histone modifications, and non-coding RNA expression, shaping gene expression over the lifespan and influencing the pace of biological aging. This responsiveness links lifestyle and environmental exposures to long-term health outcomes and provides a mechanistic basis for the effects of behavior and environment on aging.",
-      "zh-TW": ""
+      "zh-TW": "與基本上靜態的基因組不同，表觀基因組是動態的，並對飲食、壓力、運動、毒素和社會環境做出反應。環境訊號會改變 DNA 甲基化、組蛋白修飾和非編碼 RNA 表達，在整個生命週期中塑造 gene expression 並影響生物老化的速度。這種反應性將生活方式和環境暴露與長期健康結果聯繫起來，並為行為和環境對老化的影響提供了機制基礎。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b2c22e6207f4",
@@ -1938,12 +1938,12 @@
     "object": "Rejuvenation",
     "context": {
       "en-US": "The epigenome's responsiveness makes epigenetics a target for rejuvenation strategies. Because age-related epigenetic changes, including epigenetic drift and altered histone modifications, are reversible, interventions that reset DNA methylation and chromatin marks can restore youthful gene expression patterns. Partial reprogramming with Yamanaka factors, epigenetic drug treatments, and lifestyle interventions such as caloric restriction all exploit this epigenetic plasticity to reduce biological age, with epigenetic clocks serving as readouts of rejuvenation success.",
-      "zh-TW": ""
+      "zh-TW": "表觀基因組的反應性使表觀遺傳學成為復興策略的目標。由於與年齡相關的表觀遺傳學變化（包括表觀遺傳漂移和組蛋白修飾變化）是可逆的，因此重置 DNA 甲基化和染色質標記的干預措施可以恢復年輕的 gene expression 模式。使用山中因子進行部分重編程、表觀遺傳藥物治療和熱量限制等生活方式乾預都利用這種表觀遺傳可塑性來降低生物年齡，而表觀遺傳時鐘可以作為返老還童成功的讀數。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cce0b1f8a851",
@@ -1952,12 +1952,12 @@
     "object": "Epigenetics",
     "context": {
       "en-US": "Epigenetic dysregulation underlies cancer through silencing of tumor suppressors and global hypomethylation. Promoter hypermethylation silences genes that restrain proliferation, while global loss of methylation destabilizes the genome and activates transposable elements, and aberrant histone modifications reinforce these changes. These epigenetic alterations cooperate with genetic mutations to drive tumorigenesis and provide therapeutic targets for epigenetic drugs such as DNA methyltransferase inhibitors.",
-      "zh-TW": ""
+      "zh-TW": "表觀遺傳失調透過腫瘤抑制因子的沉默和整體低甲基化而成為癌症的基礎。啟動子高甲基化會沉默抑制增殖的基因，而甲基化的整體喪失會破壞基因組的穩定性並激活轉座元件，而異常的組蛋白修飾會強化這些變化。這些表觀遺傳學改變與基因突變共同驅動腫瘤發生，並為 DNA 甲基轉移酶抑制劑等表觀遺傳藥物提供治療標靶。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0a9831931a04",
@@ -1966,12 +1966,12 @@
     "object": "Epigenetic Drift",
     "context": {
       "en-US": "Polycomb group proteins are a primary target of epigenetic drift, as genes marked by Polycomb repressive complexes are especially vulnerable to age-associated methylation changes. The H3K27me3 mark deposited by Polycomb complexes and associated CpG methylation tend to be gained during aging, altering the expression of developmental and differentiation genes. This drift at Polycomb targets contributes to the loss of cellular identity and transcriptional fidelity that characterizes aging. Preventing such drift at Polycomb targets is a goal of epigenetic rejuvenation approaches.",
-      "zh-TW": ""
+      "zh-TW": "Polycomb 族蛋白是表觀遺傳漂變的主要目標，因為 Polycomb 抑制複合物標記的基因特別容易受到與年齡相關的甲基化變化的影響。 Polycomb 複合物沉積的 H3K27me3 標記和相關的 CpG 甲基化往往在老化過程中獲得，從而改變發育和分化基因的表達。 Polycomb 標靶的這種漂移導致細胞身份和轉錄保真度的喪失，而這正是衰老的特徵。防止多梳目標的這種漂移是表觀遺傳復興方法的目標。"
     },
     "confidence": 0.75,
     "source_document": "Polycomb Group Proteins.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "da22752bf9a1",
@@ -1980,12 +1980,12 @@
     "object": "Lamin A",
     "context": {
       "en-US": "Hutchinson-Gilford progeria syndrome is a rare premature aging disorder caused by mutations in the LMNA gene, which encodes lamin A. A silent point mutation (c.1824C>T) activates a cryptic splice site that produces progerin, a permanently farnesylated, toxic form of lamin A that accumulates at the nuclear membrane. Progerin causes nuclear blebbing, loss of heterochromatin, genomic instability, and premature senescence, producing the accelerated aging features of the disease. The disease demonstrates how defective nuclear envelope proteins disrupt chromatin organization and accelerate aging.",
-      "zh-TW": ""
+      "zh-TW": "Hutchinson-Gilford 早衰症是一種罕見的過早老化疾病，由編碼核纖層蛋白 A 的 LMNA 基因突變引起。沉默點突變 (c.1824C>T) 會活化一個神秘的剪接位點，產生早老素，這是核纖層蛋白 A 的一種永久法呢基化的有毒形式，在核膜上積聚。早老蛋白會導致核起泡、異染色質流失、基因組不穩定和過早衰老，從而產生該疾病的加速衰老特徵。這種疾病顯示了有缺陷的核膜蛋白如何破壞染色質組織並加速老化。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "57b798211e0d",
@@ -1994,12 +1994,12 @@
     "object": "DNA Repair",
     "context": {
       "en-US": "Werner syndrome is a progeroid disorder caused by mutations in the WRN gene, which encodes a protein with both helicase and exonuclease activities essential for DNA repair and genome stability. The WRN protein functions in pathways including homologous recombination, base excision repair, and resolution of replication stress, and its loss leads to accelerated genomic instability and premature aging. Werner syndrome patients prematurely develop age-related diseases such as atherosclerosis, diabetes, and cancer.",
-      "zh-TW": ""
+      "zh-TW": "Werner 症候群是一種由 WRN 基因突變引起的早衰症，該基因編碼的蛋白質具有解旋酶和核酸外切酶活性，對於 DNA 修復和基因組穩定性至關重要。 WRN 蛋白在同源重組、鹼基切除修復和複製壓力解決等途徑中發揮作用，其缺失會導致基因組不穩定加速和過早老化。沃納症候群患者過早地患有與年齡相關的疾病，如動脈粥狀硬化、糖尿病和癌症。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4a1160b26cd5",
@@ -2008,12 +2008,12 @@
     "object": "Nucleosome",
     "context": {
       "en-US": "Chromatin is composed of nucleosomes, the repeating structural units that package the genome within the nucleus. Each nucleosome consists of a histone octamer, with two copies each of H2A, H2B, H3, and H4, wrapped by approximately 147 base pairs of DNA. Nucleosomes are arranged along the DNA in a beads-on-a-string fashion and further compact into higher-order fibers, with their positioning and modification determining whether underlying DNA is accessible for transcription, replication, and repair.",
-      "zh-TW": ""
+      "zh-TW": "Chromatin 由核小體組成，核小體是將基因組包裝在細胞核內的重複結構單元。每個核小體由一個組蛋白八聚體組成，其中 H2A、H2B、H3 和 H4 各有兩個拷貝，由大約 147 個鹼基對的 DNA 包裹。核小體以串珠的方式沿著 DNA 排列，並進一步壓縮成高級纖維，其定位和修飾決定了底層 DNA 是否可用於轉錄、複製和修復。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "51a2534b8970",
@@ -2022,12 +2022,12 @@
     "object": "Histone",
     "context": {
       "en-US": "A nucleosome, the fundamental repeating unit of chromatin, is composed of a histone octamer around which DNA is wrapped. The octamer contains two copies each of the core histones H2A, H2B, H3, and H4, and approximately 147 base pairs of DNA wind around this protein core in a left-handed superhelix. Nucleosomes package the genome into chromatin, and their positioning and modification regulate access to DNA for transcription, replication, and repair. Linker histone H1 associates with the DNA between nucleosomes and helps fold the fiber into higher-order structures.",
-      "zh-TW": ""
+      "zh-TW": "核小體是染色質的基本重複單位，由 DNA 包覆的組蛋白八聚體組成。此八聚體包含核心組蛋白 H2A、H2B、H3 和 H4 各兩個拷貝，約 147 個鹼基對的 DNA 以左手超螺旋纏繞在該蛋白質核心周圍。核小體將基因組包裝成染色質，它們的定位和修飾調節 DNA 的轉錄、複製和修復。連接組蛋白 H1 與核小體之間的 DNA 結合，幫助將纖維折疊成更高階的結構。"
     },
     "confidence": 0.95,
     "source_document": "Nucleosome Remodeling.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8c3a4b02276a",
@@ -2036,12 +2036,12 @@
     "object": "Chromatin",
     "context": {
       "en-US": "Histone acetylation opens chromatin by neutralizing the positive charge of lysine residues on histone tails, weakening their electrostatic interaction with the negatively charged DNA backbone. This relaxes nucleosome compaction and increases the accessibility of DNA to transcription factors and other regulatory proteins, promoting gene expression. Acetylation is dynamically deposited by histone acetyltransferases and removed by histone deacetylases, and the balance between these activities tunes chromatin structure across the genome.",
-      "zh-TW": ""
+      "zh-TW": "Histone 乙醯化透過中和組蛋白尾部離胺酸殘基的正電荷來打開染色質，削弱它們與帶負電的 DNA 主鏈的靜電相互作用。這放鬆了核小體的壓縮並增加了 DNA 與轉錄因子和其他調節蛋白的可及性，從而促進了 gene expression。乙醯化由組蛋白乙醯轉移酶動態沉積並由組蛋白去乙醯酶去除，這些活性之間的平衡調節整個基因組的染色質結構。"
     },
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c13a92247b78",
@@ -2050,12 +2050,12 @@
     "object": "Chromatin",
     "context": {
       "en-US": "Histone deacetylation condenses chromatin by restoring the positive charge of lysine residues on histone tails, strengthening their electrostatic interaction with DNA and promoting nucleosome compaction. This condenses the chromatin fiber, reducing the accessibility of DNA to transcription factors and repressing gene expression. Deacetylation is catalyzed by histone deacetylases, which counterbalance the chromatin-opening effects of histone acetyltransferases and are targets of HDAC-inhibitor drugs.",
-      "zh-TW": ""
+      "zh-TW": "Histone 去乙醯化透過恢復組蛋白尾部離胺酸殘基的正電荷來濃縮染色質，加強其與 DNA 的靜電相互作用並促進核小體壓縮。這會壓縮染色質纖維，降低 DNA 對轉錄因子的可及性並抑制 gene expression。 Deacetylation 由組蛋白去乙醯化酶催化，可抵消組蛋白乙醯轉移酶的染色質打開作用，並且是 HDAC 抑制劑藥物的標靶。"
     },
     "confidence": 0.95,
     "source_document": "CHD4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "619370ff79d9",
@@ -2064,12 +2064,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "Disease modeling uses induced pluripotent stem cells to recreate genetic diseases in vitro by reprogramming patient somatic cells and differentiating them into the affected cell types. iPSC-derived models recapitulate disease phenotypes, such as TDP-43 mislocalization in frontotemporal dementia neurons, enabling mechanistic dissection of pathology and identification of therapeutic targets. Because the cells carry the patient's actual genome, they also support drug screening and personalized medicine approaches.",
-      "zh-TW": ""
+      "zh-TW": "疾病建模使用誘導多能幹細胞，透過對患者體細胞進行重新編程並將其分化為受影響的細胞類型，在體外重現遺傳疾病。 iPSC 衍生模型概括了疾病表型，例如額顳葉失智症神經元中的 TDP-43 錯誤定位，從而能夠對病理進行機械剖析並識別治療標靶。由於細胞攜帶患者的實際基因組，因此它們也支持藥物篩選和個人化醫療方法。"
     },
     "confidence": 0.95,
     "source_document": "Disease Modeling.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6d4550144074",
@@ -2078,12 +2078,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "Drug discovery increasingly uses induced pluripotent stem cells as a renewable, patient-derived platform for high-throughput compound screening. Because iPSCs can be generated from individuals with specific genetic diseases and differentiated into disease-relevant cell types, they allow researchers to test drug candidates on cells carrying the actual disease mutation. This approach improves the translatability of preclinical findings, supports personalized medicine, and reduces reliance on animal models and fetal tissue for mechanistic drug studies.",
-      "zh-TW": ""
+      "zh-TW": "藥物發現越來越多地使用誘導多能幹細胞作為可再生的、源自患者的平台，用於高通量化合物篩選。由於 iPSC 可以從患有特定遺傳疾病的個體中產生，並分化為與疾病相關的細胞類型，因此研究人員可以利用它們在攜帶實際疾病突變的細胞上測試候選藥物。這種方法提高了臨床前研究結果的可轉化性，支持個人化醫療，並減少機械藥物研究對動物模型和胎兒組織的依賴。"
     },
     "confidence": 0.95,
     "source_document": "Drug Discovery.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fed6fba21781",
@@ -2092,12 +2092,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "Regenerative medicine uses induced pluripotent stem cells as a source of patient-matched cells for replacing damaged or lost tissue. Because iPSCs can be derived from a patient's own somatic cells and directed to differentiate into any cell type of the three germ layers, they offer the prospect of personalized grafts that avoid immune rejection. Clinical applications include iPSC-derived retinal pigment epithelium for macular degeneration, dopaminergic neurons for Parkinson's disease, and cardiac and neural cells for other degenerative conditions.",
-      "zh-TW": ""
+      "zh-TW": "再生醫學使用誘導多能幹細胞作為患者匹配細胞的來源，以取代受損或流失的組織。由於 iPSC 可以源自患者自身的體細胞，並可定向分化為三個胚層的任何細胞類型，因此它們為避免免疫排斥的個人化移植提供了前景。臨床應用包括用於治療黃斑部病變的 iPSC 衍生的視網膜色素上皮、用於治療帕金森氏症的多巴胺能神經元以及用於其他退化性疾病的心臟和神經細胞。"
     },
     "confidence": 0.95,
     "source_document": "Regenerative Medicine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cbdf8c644184",
@@ -2106,12 +2106,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "CRISPR-based genome editing is used in cellular reprogramming to delete or modify genes that limit the generation of induced pluripotent stem cells. In the classic example, CRISPR-Cas9-mediated knockout of the transcription factor Oct4 in reprogramming studies demonstrates how targeted gene disruption can probe the requirements of pluripotency. Beyond knockouts, CRISPRi and CRISPRa allow transient modulation of reprogramming factors and pathways, enabling more efficient and controllable iPSC generation and lineage conversion.",
-      "zh-TW": ""
+      "zh-TW": "基於 CRISPR 的基因組編輯用於細胞重編程，以刪除或修改限制誘導多能幹細胞生成的基因。在經典範例中，重編程研究中 CRISPR-Cas9 介導的轉錄因子 Oct4 敲除證明了標靶基因破壞如何能夠偵測多能性的要求。除了敲除之外，CRISPRi 和 CRISPRa 還可以瞬時調節重編程因子和途徑，從而實現更有效率、更可控的 iPSC 生成和譜系轉換。"
     },
     "confidence": 0.95,
     "source_document": "CRISPR.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b72538f61b5d",
@@ -2120,12 +2120,12 @@
     "object": "Oct4",
     "context": {
       "en-US": "CRISPR-Cas9 gene editing can be used to target Oct4 (POU5F1), the master regulator of pluripotency, to test its functional requirement in cellular reprogramming and stem cell biology. Knockout of Oct4 via CRISPR demonstrates that without this transcription factor somatic cells cannot be reprogrammed to pluripotency, confirming its essential role in the process. CRISPR-mediated modulation of Oct4 expression, through either knockout or activation approaches, provides a precise tool for probing the pluripotency gene network.",
-      "zh-TW": ""
+      "zh-TW": "CRISPR-Cas9 基因編輯可用於靶向多能性的主調節因子 Oct4 (POU5F1)，以測試其在細胞重編程和幹細胞生物學中的功能需求。透過 CRISPR 敲除 Oct4 表明，如果沒有這種轉錄因子，體細胞就無法重編程為多能性，證實了其在此過程中的重要作用。透過敲除或活化方法，CRISPR 介導的 Oct4 表達調節為探測多能性基因網絡提供了精確的工具。"
     },
     "confidence": 0.95,
     "source_document": "CRISPR.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a95625d498ea",
@@ -2134,12 +2134,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "Mesenchymal-to-epithelial transition (MET) is an early, essential step in the cellular reprogramming of fibroblasts into induced pluripotent stem cells. During MET, cells silence mesenchymal genes and re-express epithelial markers such as E-cadherin (CDH1), EpCAM, and occludin, acquiring the epithelial morphology characteristic of pluripotent cells. The Yamanaka factors enforce MET by repressing EMT transcription factors and TGF-beta signaling, and blocking MET drastically reduces reprogramming efficiency, making it a deterministic early event in the establishment of pluripotency.",
-      "zh-TW": ""
+      "zh-TW": "間質到上皮細胞的轉變（MET）是成纖維細胞重編程為誘導多能幹細胞的早期重要步驟。在 MET 過程中，細胞沉默間質基因並重新表達上皮標記物，例如 E-鈣粘蛋白 (CDH1)、EpCAM 和 occludin，從而獲得多能細胞的上皮形態特徵。山中因子透過抑制 EMT 轉錄因子和 TGF-β 訊號傳導來強化 MET，而阻斷 MET 會大大降低重編程效率，使其成為多能性建立過程中的確定性早期事件。"
     },
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ffcc52a4fb6f",
@@ -2148,12 +2148,12 @@
     "object": "Mesenchymal-to-Epithelial Transition",
     "context": {
       "en-US": "Epithelial-to-mesenchymal transition (EMT) and mesenchymal-to-epithelial transition (MET) are opposite and reversible programs of cellular plasticity. EMT converts polarized epithelial cells into migratory mesenchymal cells, repressing E-cadherin via transcription factors such as Snail, Slug, Twist, and ZEB1, whereas MET restores epithelial identity by silencing these factors and re-expressing E-cadherin and other epithelial genes. In cellular reprogramming the MET step is required to generate iPSCs, while EMT promotes the differentiation and dissemination programs that MET reverses.",
-      "zh-TW": ""
+      "zh-TW": "上皮到間質轉化（EMT）和間質到上皮轉化（MET）是細胞可塑性的相反且可逆的程序。 EMT 將極化上皮細胞轉化為遷移性間質細胞，透過 Snail、Slug、Twist 和 ZEB1 等轉錄因子抑制 E-鈣黏蛋白，而 MET 則透過沉默這些因子並重新表達 E-鈣黏蛋白和其他上皮基因來恢復上皮身份。在細胞重編程中，需要 MET 步驟來產生 iPSC，而 EMT 則促進 MET 逆轉的分化和傳播程序。"
     },
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e93ae36b30b4",
@@ -2162,12 +2162,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "Inhibition of GSK3beta promotes cellular reprogramming by activating Wnt signaling and maintaining cells in an undifferentiated state. GSK3beta normally phosphorylates beta-catenin, c-Myc, and MYCN to mark them for degradation; inhibiting GSK3 stabilizes beta-catenin so it can enter the nucleus and drive pluripotency-associated transcription, and also stabilizes MYCN, which activates DNMT3A. GSK3 inhibition antagonizes differentiation, prevents epithelial-to-mesenchymal transition, and increases reprogramming efficiency in somatic cell fusion and iPSC generation experiments.",
-      "zh-TW": ""
+      "zh-TW": "GSK3beta 的抑制透過活化 Wnt 訊號傳導並維持細胞處於未分化狀態來促進細胞重編程。 GSK3beta 通常會磷酸化 β-連環蛋白、c-Myc 和 MYCN，以標記它們的降解；抑制 GSK3 可穩定 β-連環蛋白，使其能夠進入細胞核並驅動多能性相關轉錄，同時還可穩定 MYCN，從而激活 DNMT3A。 GSK3 抑制可拮抗分化，防止上皮間質轉化，並提高體細胞融合和 iPSC 生成實驗中的重編程效率。"
     },
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "69f6e5f2d425",
@@ -2176,12 +2176,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "p53 is activated during cellular reprogramming as a cellular stress response to the ectopic expression of the Yamanaka factors. OSKM transduction generates DNA damage, elevates reactive oxygen species, and activates innate immune signaling, and TP53 expression and phosphorylation increase within the first hours of reprogramming initiation. This p53 activation enforces cell cycle checkpoints and apoptosis, which limits the efficiency of iPSC generation but protects the genome from the destabilizing effects of reprogramming.",
-      "zh-TW": ""
+      "zh-TW": "p53 在細胞重編程過程中被激活，作為對山中因子異位表達的細胞壓力反應。 OSKM 轉導會產生 DNA 損傷，升高活性氧，並激活先天免疫信號傳導，並且 TP53 表達和磷酸化在重編程啟動的最初幾個小時內增加。 p53 的活化會強制執行細胞週期檢查點和細胞凋亡，這限制了 iPSC 生成的效率，但保護基因組免受重編程的不穩定影響。"
     },
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "93563c0f458f",
@@ -2190,12 +2190,12 @@
     "object": "Cellular Reprogramming",
     "context": {
       "en-US": "p53 acts as a barrier to cellular reprogramming, limiting the efficiency with which somatic cells can be converted into induced pluripotent stem cells. During reprogramming, OSKM transduction and the associated DNA damage and epigenetic stress activate p53, which enforces cell cycle arrest and apoptosis and thereby restricts the emergence of pluripotent cells. Suppressing p53 activity increases reprogramming efficiency, but at the cost of genome instability and tumor risk, illustrating the trade-off between reprogramming yield and genome integrity.",
-      "zh-TW": ""
+      "zh-TW": "p53 作為細胞重編程的屏障，限制了體細胞轉化為誘導多能幹細胞的效率。在重編程過程中，OSKM 轉導以及相關的 DNA 損傷和表觀遺傳壓力會活化 p53，從而強制細胞週期停滯和細胞凋亡，從而限制多能細胞的出現。抑制 p53 活性可以提高重編程效率，但代價是基因組不穩定和腫瘤風險，這說明了重編程產量和基因組完整性之間的權衡。"
     },
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8fa04e7bc33a",
@@ -2204,12 +2204,12 @@
     "object": "Senescent Cells",
     "context": {
       "en-US": "Senolytic drugs are agents designed to selectively eliminate senescent cells, the damaged cells that accumulate with age and drive age-related pathology through their pro-inflammatory secretome. Because senescent cells are resistant to apoptosis, senolytics typically target the anti-apoptotic pathways that keep them alive, such as the BCL-2 family members, enabling their clearance while sparing proliferating healthy cells. Clearing senescent cells in animal models delays the onset of age-related diseases, and several senolytics are now being tested in human clinical trials.",
-      "zh-TW": ""
+      "zh-TW": "老化藥物是一種旨在選擇性消除衰老細胞的藥物，衰老細胞是隨著年齡的增長而積累的受損細胞，並通過促炎分泌組驅動與年齡相關的病理。由於衰老細胞對細胞凋亡具有抵抗力，因此 senolytics 通常針對使它們保持活力的抗細胞凋亡途徑（例如 BCL-2 家族成員），從而在不傷害增殖的健康細胞的同時清除它們。在動物模型中清除衰老細胞可以延緩與年齡相關的疾病的發生，並且有幾種衰老藥物目前正在人體臨床試驗中進行測試。"
     },
     "confidence": 0.95,
     "source_document": "Senolytic Drugs.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1d4cc51546ea",
@@ -2218,12 +2218,12 @@
     "object": "SASP",
     "context": {
       "en-US": "Senomorphic drugs disrupt the senescence-associated secretory phenotype rather than killing senescent cells, attenuating the harmful inflammatory signaling that drives age-related disease. Because the SASP is the main route by which senescent cells damage their tissue environment, suppressing it while leaving growth arrest intact preserves the tumor-suppressive benefits of senescence. Epigenetic regulators that control SASP genes, such as KDM4, DOT1L, BRD4, and HMGB2, are candidate senomorphic targets.",
-      "zh-TW": ""
+      "zh-TW": "Senomorphic 藥物破壞與老化相關的分泌表型，而不是殺死老化細胞，從而減弱導致年齡相關疾病的有害發炎訊號。由於 SASP 是衰老細胞破壞其組織環境的主要途徑，因此抑制它，同時保持生長停滯完好無損，可以保留衰老的腫瘤抑制益處。控制 SASP 基因的表觀遺傳調節因子，例如 KDM4、DOT1L、BRD4 和 HMGB2，是候選的基因表現標靶。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "bddcf5aa13bf",
@@ -2232,12 +2232,12 @@
     "object": "LINE-1",
     "context": {
       "en-US": "Nucleoside reverse transcriptase inhibitors, developed as antiretroviral drugs for HIV, also inhibit LINE-1 retrotransposition. NRTIs act as chain-terminating nucleoside analogs that are incorporated into nascent DNA by reverse transcriptase, halting the synthesis of the L1 cDNA copies that would otherwise be generated from L1 RNA in the cytoplasm. By blocking LINE-1 reverse transcription, NRTIs reduce the cGAS-STING-dependent inflammation and SASP that arise from retrotransposon derepression during aging, and they are being explored as anti-aging interventions.",
-      "zh-TW": ""
+      "zh-TW": "核苷逆轉錄酶抑制劑是作為 HIV 抗逆轉錄病毒藥物而開發的，也能抑制 LINE-1 逆轉錄轉座。 NRTI 充當鏈終止核苷類似物，透過逆轉錄酶將其摻入新生 DNA 中，從而停止 L1 cDNA 副本的合成，否則這些副本將由細胞質中的 L1 RNA 產生。透過阻斷 LINE-1 逆轉錄，NRTI 可以減少 cGAS-STING 依賴性發炎和老化過程中逆轉錄轉座子去抑制引起的 SASP，並且它們正在被探索作為抗衰老幹預措施。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cc2e726e6469",
@@ -2246,12 +2246,12 @@
     "object": "Oncogene-Induced Senescence",
     "context": {
       "en-US": "BRAF, particularly the oncogenic BRAF V600E mutant, induces oncogene-induced senescence when expressed at high levels in normal cells. Hyperactive BRAF signaling drives aberrant proliferation and DNA damage, which activates the DNA damage response and p53, triggering a permanent growth arrest that protects against malignant transformation. Cells in BRAF-induced senescence display the full senescence phenotype, including senescence-associated heterochromatin foci and the SASP, making this a key experimental model.",
-      "zh-TW": ""
+      "zh-TW": "BRAF，特別是致癌 BRAF V600E 突變體，當在正常細胞中高水平表達時，會誘導癌基因誘導的衰老。過度活躍的 BRAF 訊號傳導會驅動異常增殖和 DNA 損傷，進而活化 DNA 損傷反應和 p53，引發永久性生長停滯，從而防止惡性轉化。 BRAF 誘導的衰老細胞表現出完整的衰老表型，包括衰老相關的異染色質灶和 SASP，使其成為關鍵的實驗模型。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8bd12a0c9043",
@@ -2260,12 +2260,12 @@
     "object": "Therapy-Induced Senescence",
     "context": {
       "en-US": "Doxorubicin is a widely used anthracycline chemotherapeutic that induces therapy-induced senescence in cancer cells and normal fibroblasts. As a DNA-damaging agent, doxorubicin intercalates into DNA, poisons topoisomerase II, and generates reactive oxygen species, producing DNA damage that activates the p53-p21 axis and triggers permanent cell cycle arrest. The resulting senescent cells exhibit the SASP and persistent DNA damage signaling, which can contribute to both the therapeutic response and long-term side effects such as cardiac toxicity.",
-      "zh-TW": ""
+      "zh-TW": "Doxorubicin 是一種廣泛使用的蒽環類化療藥物，可誘導癌細胞和正常纖維母細胞因治療而老化。作為 DNA 損傷劑，阿黴素會嵌入 DNA，毒害拓樸異構酶 II，並產生活性氧，產生 DNA 損傷，活化 p53-p21 軸並觸發永久性細胞週期停滯。由此產生的衰老細胞表現出 SASP 和持續的 DNA 損傷信號傳導，這可能有助於治療反應和長期副作用，例如心臟毒性。"
     },
     "confidence": 0.95,
     "source_document": "Daunorubicin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "56e9fa6ddf80",
@@ -2274,12 +2274,12 @@
     "object": "Therapy-Induced Senescence",
     "context": {
       "en-US": "Etoposide is a chemotherapeutic DNA-damaging agent that induces therapy-induced senescence by triggering a robust DNA damage response. As a topoisomerase II inhibitor, etoposide causes DNA double-strand breaks that activate p53 and the DNA damage response, leading to a permanent cell cycle arrest with the hallmarks of cellular senescence. In research, etoposide is a standard experimental tool for generating therapy-induced senescence in human fibroblasts to study SASP expression and epigenetic remodeling.",
-      "zh-TW": ""
+      "zh-TW": "Etoposide 是一種化療性 DNA 損傷劑，透過觸發強烈的 DNA 損傷反應來誘導治療引起的衰老。作為拓樸異構酶 II 抑制劑，依托泊苷會引起 DNA 雙股斷裂，進而活化 p53 和 DNA 損傷反應，進而導致具有細胞老化標誌的永久性細胞週期停滯。在研究中，依托泊苷是一種標準實驗工具，可在人類纖維母細胞中產生治療誘導的衰老，以研究 SASP 表達和表觀遺傳重塑。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "da39e9e2c82d",
@@ -2288,12 +2288,12 @@
     "object": "N6-methyladenosine",
     "context": {
       "en-US": "METTL3 is the catalytic subunit of the methyltransferase complex that deposits N6-methyladenosine (m6A), the most abundant internal modification of messenger RNA in mammalian cells. Together with the adaptor protein METTL14, METTL3 methylates the N6 position of adenosine in mRNA, and the resulting m6A mark regulates RNA stability, splicing, translation, and export. Beyond its RNA-methylation role, the METTL3-METTL14 complex also facilitates senescence-associated enhancer-promoter contacts and SASP expression in oncogene-induced senescence.",
-      "zh-TW": ""
+      "zh-TW": "METTL3 是甲基轉移酶複合物的催化亞基，可沉積 N6-methyladenosine (m6A)，N6-methyladenosine (m6A) 是哺乳動物細胞中最豐富的信使 RNA 內部修飾。 METTL3 與接頭蛋白 METTL14 一起甲基化 mRNA 中腺苷的 N6 位點，產生的 m6A 標記可調節 RNA 穩定性、剪接、翻譯和輸出。除了其 RNA 甲基化作用外，METTL3-METTL14 複合物還促進衰老相關的增強子-啟動子接觸以及癌基因誘導衰老中的 SASP 表達。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0873b2f9d3c4",
@@ -2302,12 +2302,12 @@
     "object": "SASP",
     "context": {
       "en-US": "METTL3 promotes the senescence-associated secretory phenotype through its role in the METTL3-METTL14 complex, which redistributes across the genome during oncogene-induced senescence. Despite being best known for depositing the m6A RNA modification, the complex promotes SASP expression through chromatin looping and enhancer-promoter contacts in an enzymatic activity-independent manner. This redistribution facilitates the hyper-connected enhancer-promoter network that drives robust expression of SASP genes, linking RNA-modifying proteins to the chromatin changes of senescence.",
-      "zh-TW": ""
+      "zh-TW": "METTL3 透過其在 METTL3-METTL14 複合物中的作用促進衰老相關的分泌表型，該複合物在癌基因誘導的衰老過程中在基因組中重新分佈。儘管該複合物以沉積 m6A RNA 修飾而聞名，但該複合物透過染色質環和增強子-啟動子接觸以獨立於酶活性的方式促進 SASP 表達。這種重新分佈促進了超連接的增強子-啟動子網絡，驅動 SASP 基因的穩健表達，將 RNA 修飾蛋白與老化的染色質變化聯繫起來。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0bb5ece2b875",
@@ -2316,12 +2316,12 @@
     "object": "SASP",
     "context": {
       "en-US": "HMGB2 is a chromatin-bound high mobility group box protein that protects SASP gene loci from silencing during oncogene-induced senescence. When chromatin-bound, HMGB2 binds to SASP gene loci and prevents the spread of repressive heterochromatin into them, keeping SASP genes out of senescence-associated heterochromatin foci and thereby preserving their expression. Depletion of HMGB2 is associated with the derepression of SASP genes, and HMGB2 knockdown can prevent the emergence of SASP while leaving cell cycle arrest unaffected.",
-      "zh-TW": ""
+      "zh-TW": "HMGB2 是一種染色質結合的高遷移率族盒蛋白，可保護 SASP 基因位點在癌基因誘導的衰老過程中免於沉默。當染色質結合時，HMGB2 與 SASP 基因位點結合，防止抑制性異染色質擴散到其中，使 SASP 基因遠離衰老相關的異染色質灶，從而保留其表達。 HMGB2 的耗盡與 SASP 基因的去抑制有關，HMGB2 敲低可以阻止 SASP 的出現，同時使細胞週期停滯不受影響。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "aa0b6e4158f7",
@@ -2330,12 +2330,12 @@
     "object": "Senescence",
     "context": {
       "en-US": "HMGB2 is depleted in senescent cells and aging tissues, a change that accompanies the loss of ordered three-dimensional genome architecture. This depletion shifts the balance between constitutive and facultative heterochromatin and is linked to increased expression of SASP genes in replicative senescence. HMGB2 loss upon senescence entry disrupts genomic organization and induces CTCF clustering, contributing to the widespread chromatin remodeling that characterizes the senescent state. Its loss is one of the earliest markers of the senescent chromatin phenotype.",
-      "zh-TW": ""
+      "zh-TW": "HMGB2 在老化細胞和老化組織中被耗盡，這種變化伴隨著有序三維基因組結構的喪失。這種耗竭改變了組成型和兼性異染色質之間的平衡，並與複製老化中 SASP 基因表現的增加有關。進入老化時 HMGB2 的缺失會破壞基因組組織並誘導 CTCF 聚類，從而導致廣泛的染色質重塑，從而表徵衰老狀態。它的流失是衰老染色質表型的最早標誌之一。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "23ecf823078e",
@@ -2344,12 +2344,12 @@
     "object": "Chromatin",
     "context": {
       "en-US": "Topologically associating domains organize chromatin into discrete three-dimensional compartments at an intermediate scale, spanning tens of kilobases to megabases. Within TADs, DNA sequences interact more frequently with each other than with sequences outside the domain, constraining enhancer-promoter contacts and insulating regulatory elements from inappropriate targets. The boundaries of these domains are delineated by proteins such as CTCF and HMGB1/2, and their disruption alters gene expression during senescence and aging.",
-      "zh-TW": ""
+      "zh-TW": "拓樸關聯結構域將染色質組織成中等規模的離散三維區室，跨越數十千鹼基到兆鹼基。在 TAD 內，DNA 序列之間的相互作用比與域外序列的相互作用更頻繁，從而限制了增強子-啟動子的接觸，並將調節元件與不適當的標靶隔離。這些結構域的邊界由 CTCF 和 HMGB1/2 等蛋白質劃定，它們的破壞會在老化和老化過程中改變 gene expression。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "375046278ec2",
@@ -2358,12 +2358,12 @@
     "object": "Topologically Associating Domain",
     "context": {
       "en-US": "Enhancer-promoter looping is regulated within topologically associating domains, the megabase-scale compartments in which DNA sequences interact more frequently with each other than with sequences outside. Because TADs confine enhancer-promoter contacts, genes are typically regulated by enhancers located within the same domain, and three-dimensional looping brings these regulatory elements into proximity with their target promoters. This organization allows the SASP to be driven by hyper-connected enhancer-promoter networks whose interactions are restructured during senescence.",
-      "zh-TW": ""
+      "zh-TW": "增強子-啟動子環在拓撲關聯域（兆鹼基級的區室）內受到調節，其中DNA序列彼此之間的相互作用比與外部序列之間的相互作用更頻繁。由於 TAD 限制了增強子-啟動子接觸，因此基因通常受到位於同一結構域內的增強子的調節，並且三維環使這些調節元件與其目標啟動子接近。這種組織允許 SASP 由超連接的增強子-啟動子網路驅動，其相互作用在老化過程中被重組。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "44ab99eff1b4",
@@ -2372,12 +2372,12 @@
     "object": "SASP",
     "context": {
       "en-US": "mTOR is a central regulator of the senescence-associated secretory phenotype (SASP). Rapamycin treatment of senescent cells suppresses SASP production at both the mRNA and protein levels, and mechanistic studies show that mTOR acts in part by promoting the translation of the SASP activator IL-1alpha, which then drives expression of downstream inflammatory cytokines. Because rapamycin reduces the inflammatory secretome while leaving growth arrest intact, mTOR inhibition is considered a senomorphic strategy that attenuates the detrimental effects of senescence without eliminating senescent cells.",
-      "zh-TW": ""
+      "zh-TW": "mTOR 是老化相關分泌表型 (SASP) 的中心調節因子。雷帕黴素治療老化細胞可在 mRNA 和蛋白質水平抑制 SASP 的產生，機制研究表明，mTOR 的部分作用是透過促進 SASP 活化劑 IL-1α 的翻譯，然後驅動下游發炎細胞因子的表達。由於雷帕黴素可減少發炎分泌組，同時保持生長停滯完整，因此 mTOR 抑制被認為是一種衰老策略，可減輕衰老的有害影響而不消除衰老細胞。"
     },
     "confidence": 0.95,
     "source_document": "Drosophila melanogaster.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f1dc6073563a",
@@ -2386,12 +2386,12 @@
     "object": "Aging",
     "context": {
       "en-US": "MicroRNA levels generally decline with age, contributing to the altered gene expression that accompanies aging. In C. elegans, most miRNAs are down-regulated with age and this decline is reversed by caloric restriction, while in mice and humans aging is associated with reproducible changes in miRNA abundance, though not in all organs. The age-related reduction in miRNAs, partly driven by declining levels of the processing enzyme Dicer, contributes to the loss of post-transcriptional gene regulation and to cellular senescence.",
-      "zh-TW": ""
+      "zh-TW": "MicroRNA 水平通常隨著年齡的增長而下降，導致 gene expression 隨年齡增長而改變。在秀麗隱桿線蟲中，大多數 miRNA 會隨著年齡的增長而下調，而這種下降可以透過熱量限制來逆轉，而在小鼠和人類中，老化與 miRNA 豐度的可重複變化相關，儘管並非在所有器官中都如此。與年齡相關的 miRNA 減少，部分是由於加工酶 Dicer 水平下降所致，導致轉錄後基因調控的喪失和細胞老化。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "267403b4a7df",
@@ -2400,12 +2400,12 @@
     "object": "MicroRNA",
     "context": {
       "en-US": "Dicer is an RNase III enzyme that processes microRNA precursors into mature, functional miRNAs. After the nuclear processing of pri-miRNA to pre-miRNA by Drosha and export to the cytoplasm, Dicer cleaves the pre-miRNA duplex to produce the mature 18 to 22 nucleotide miRNA. The mature miRNA then binds complementary sequences in target mRNAs, typically in the 3' untranslated region, to repress their expression; Dicer levels decline with age, contributing to reduced miRNA production in aging tissues.",
-      "zh-TW": ""
+      "zh-TW": "Dicer 是一種 RNase III 酶，可將 microRNA 前體加工成成熟的功能性 miRNA。在 Drosha 將 pri-miRNA 核加工為 pre-miRNA 並輸出到細胞質後，Dicer 裂解 pre-miRNA 雙股體，產生成熟的 18 至 22 核苷酸 miRNA。然後，成熟的 miRNA 結合目標 mRNA 中的互補序列（通常在 3' 非翻譯區），以抑制其表達； Dicer 水平隨著年齡的增長而下降，導致衰老組織中 miRNA 的產生減少。"
     },
     "confidence": 0.95,
     "source_document": "Drosha.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "114c5618eb49",
@@ -2414,12 +2414,12 @@
     "object": "IGF1",
     "context": {
       "en-US": "H19 is a long non-coding RNA whose expression changes with age, and it functions to repress IGF-1 signaling. H19 associates with MBD1, a methyl-CpG-binding domain protein, to repress the expression of longevity genes including insulin-like growth factor 1, and loss of H19-dependent IGF-1 silencing may contribute to cellular senescence. Because IGF-1 signaling is a conserved regulator of the insulin/IGF-1 pathway that influences lifespan, the age-related deregulation of H19 has implications for both senescence and longevity.",
-      "zh-TW": ""
+      "zh-TW": "H19 是一種長鏈非編碼 RNA，其表現隨年齡而變化，其功能是抑制 IGF-1 訊號傳導。 H19 與 MBD1（一種甲基 CpG 結合域蛋白）結合，抑制包括類胰島素生長因子 1 在內的長壽基因的表達，H19 依賴性 IGF-1 沉默的喪失可能導致細胞老化。由於 IGF-1 訊號傳導是影響壽命的胰島素/IGF-1 路徑的保守調節因子，因此 H19 與年齡相關的失調對老化和長壽都有影響。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5a14b3e4404c",
@@ -2428,12 +2428,12 @@
     "object": "X-Chromosome Inactivation",
     "context": {
       "en-US": "XIST is a long non-coding RNA that is the primary driver of X chromosome inactivation, the process by which one X chromosome is transcriptionally silenced in female cells to ensure appropriate gene dosage. XIST coats the inactive X chromosome and recruits chromatin-modifying enzymes that establish repressive marks, compacting the chromosome into a transcriptionally silent Barr body. This silencing is heritable through cell divisions, making XIST a paradigm for long-range, RNA-mediated epigenetic gene silencing.",
-      "zh-TW": ""
+      "zh-TW": "XIST 是一種長非編碼 RNA，是 X 染色體失活的主要驅動因素，在雌性細胞中，一條 X 染色體轉錄沉默，以確保適當的基因劑量。 XIST 覆蓋不活躍的 X 染色體，並招募染色質修飾酶來建立抑制標記，將染色體壓縮成轉錄沉默的巴爾體。這種沉默可透過細胞分裂遺傳，使 XIST 成為長程、RNA 介導的表觀遺傳基因沉默的範例。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5628e78670ee",
@@ -2442,12 +2442,12 @@
     "object": "Genomic Instability",
     "context": {
       "en-US": "Alu elements are short interspersed nuclear elements that, when derepressed, produce transcripts that contribute to genomic instability. In aging and stressed cells, loss of epigenetic silencing permits Alu transcription, and the resulting double-stranded RNA and retrotransposition intermediates challenge genome integrity by promoting insertions and activating innate immune DNA and RNA sensing pathways. Aberrant Alu activity is therefore both a consequence and a driver of the accumulating genomic instability recognized as a hallmark of aging.",
-      "zh-TW": ""
+      "zh-TW": "Alu 元件是短散佈的核元件，當去抑制時，會產生導致基因組不穩定的轉錄物。在老化和壓力的細胞中，表觀遺傳沉默的喪失允許 Alu 轉錄，由此產生的雙股 RNA 和逆轉錄轉座中間體透過促進插入和激活先天免疫 DNA 和 RNA 感測途徑來挑戰基因組完整性。因此，異常的 Alu 活性既是基因組不穩定性累積的結果，也是其驅動因素，而基因組不穩定性被認為是老化的標誌。"
     },
     "confidence": 0.75,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "84f7b7dedebc",
@@ -2456,12 +2456,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "The retinal pigment epithelium is a target for cell therapy using iPSC-derived RPE, which is being tested in clinical trials for age-related macular degeneration and Stargardt disease. iPSC-derived RPE cells are transplanted subretinally to replace dysfunctional RPE, restoring phagocytosis of photoreceptor outer segments, the visual cycle, and the blood-retina barrier. Key release criteria for such grafts include polarized monolayer formation, phagocytic competence, and RPE65 expression, though immune rejection and graft integration remain challenges.",
-      "zh-TW": ""
+      "zh-TW": "視網膜色素上皮是使用 iPSC 衍生的 RPE 進行細胞治療的目標，該細胞療法正在針對老年黃斑部病變和 Stargardt 病的臨床試驗中進行測試。 iPSC 衍生的 RPE 細胞被移植到視網膜下以取代功能失調的 RPE，恢復感光器外節的吞噬作用、視覺週期和血液視網膜屏障。此類移植物的關鍵釋放標準包括極化單層形成、吞噬能力和 RPE65 表達，儘管免疫排斥和移植物整合仍然是挑戰。"
     },
     "confidence": 0.95,
     "source_document": "Retinal Pigment Epithelium.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "54767f38e8eb",
@@ -2470,12 +2470,12 @@
     "object": "Induced Pluripotent Stem Cells",
     "context": {
       "en-US": "Frontotemporal dementia is modeled using patient-derived induced pluripotent stem cells, which capture the genetics of the disease in a dish. Fibroblasts from individuals carrying mutations in MAPT, GRN, or C9orf72 are reprogrammed to pluripotency and then differentiated into cortical neurons, where they recapitulate TDP-43 mislocalization, tau pathology, and altered neuronal networks. These iPSC-based models enable mechanistic studies, compound screening, and investigation of aging and rejuvenation effects on neurodegeneration without the ethical constraints of fetal tissue.",
-      "zh-TW": ""
+      "zh-TW": "額顳葉失智症是使用患者來源的誘導多能幹細胞進行建模的，這些幹細胞在培養皿中捕獲疾病的遺傳學。來自攜帶 MAPT、GRN 或 C9orf72 突變的個體的成纖維細胞被重編程為多能性，然後分化為皮質神經元，在其中再現 TDP-43 錯誤定位、tau 病理學和改變的神經元網絡。這些基於 iPSC 的模型能夠進行機制研究、化合物篩選以及衰老和恢復活力對神經退化性變的影響的研究，而不受胎兒組織的倫理限制。"
     },
     "confidence": 0.95,
     "source_document": "Frontotemporal Dementia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5b0d9f5f2698",
@@ -2484,11 +2484,11 @@
     "object": "Frontotemporal Dementia",
     "context": {
       "en-US": "Amyotrophic lateral sclerosis and frontotemporal dementia form a disease spectrum rather than fully separate disorders, since they share a common genetic basis and protein pathology. ALS is primarily a motor neuron disease, but the C9orf72 hexanucleotide repeat expansion and TDP-43 pathology that cause familial ALS are also the most common hereditary causes of FTD, producing overlapping FTD-ALS syndromes. Thus ALS can give rise to frontotemporal dementia when the neurodegenerative process extends into the frontal and temporal lobes.",
-      "zh-TW": ""
+      "zh-TW": "肌萎縮側索硬化症和額顳葉失智症形成了一個疾病譜，而不是完全獨立的疾病，因為它們具有共同的遺傳基礎和蛋白質病理學。 ALS 主要是一種運動神經元疾病，但導致家族性 ALS 的 C9orf72 六核苷酸重複擴增和 TDP-43 病理也是 FTD 最常見的遺傳原因，產生重疊的 FTD-ALS 綜合徵。因此，當神經退化過程延伸到額葉和顳葉時，ALS 可能會導致額顳葉失智症。"
     },
     "confidence": 0.95,
     "source_document": "Frontotemporal Dementia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   }
 ]

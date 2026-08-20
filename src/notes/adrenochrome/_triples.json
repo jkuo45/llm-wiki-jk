@@ -216,12 +216,12 @@
     "object": "Epinephrine",
     "context": {
       "en-US": "Transition metals such as iron and copper catalyze the oxidation of epinephrine by accelerating electron transfer to oxygen. In the presence of these metals, the catechol hydroxyls of epinephrine lose electrons more readily, generating the reactive o-quinone that proceeds to cyclize into adrenochrome. This metal-dependent acceleration is why pharmaceutical epinephrine solutions and laboratory preparations are vulnerable to autoxidation unless protected. The catalytic role of transition metals explains the utility of chelating agents such as EDTA, which bind the metals and render them inert, drastically slowing epinephrine autoxidation and therefore adrenochrome formation. Metal-catalyzed oxidation is likewise a recognized mechanism by which oxidative stress in tissues, where iron and copper can be released from proteins, promotes catecholamine oxidation in vivo.",
-      "zh-TW": ""
+      "zh-TW": "鐵、銅等過渡金屬透過加速電子轉移至氧氣，催化 epinephrine 的氧化。在這些金屬存在下，epinephrine 的兒茶酚羥基更容易失去電子，生成會進一步環化為 adrenochrome 的反應性鄰苯醌。這種依賴金屬的加速作用，正是藥用 epinephrine 溶液與實驗室製備物除非加以保護否則易受自氧化影響的原因。過渡金屬的催化角色說明了如 EDTA 等螯合劑的效用——EDTA 結合金屬使其失去活性，大幅減緩 epinephrine 的自氧化，從而減少 adrenochrome 的形成。金屬催化的氧化同樣是組織中氧化壓力促進兒茶酚胺體內氧化的一個已知機制，因為鐵和銅可從蛋白質中釋出。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1dafe4d33a97",
@@ -230,12 +230,12 @@
     "object": "Transition Metals",
     "context": {
       "en-US": "EDTA (ethylenediaminetetraacetic acid) is a chelating agent that binds transition metal ions such as iron and copper, making them inert and drastically slowing the autoxidation of epinephrine. Because these metals catalyze electron transfer from the catechol ring to oxygen, their removal suppresses the formation of the o-quinone intermediate that leads to adrenochrome. The strategy of metal chelation is therefore a key chemical defense against the oxidative conversion of adrenaline into its reactive oxidation product. EDTA exemplifies the broader class of chelating agents used to stabilize catecholamines in pharmaceutical and analytical settings, and it highlights the general principle that transition metal availability controls the rate at which the adrenochrome pathway can proceed in solution.",
-      "zh-TW": ""
+      "zh-TW": "EDTA（乙二胺四乙酸）是一種螯合劑，可結合鐵、銅等過渡金屬離子，使其失去活性並大幅減緩 epinephrine 的自氧化。由於這些金屬催化電子從兒茶酚環轉移至氧氣，移除它們會抑制導致 adrenochrome 的鄰苯醌中間體的形成。因此，金屬螯合策略是對抗 adrenaline 氧化轉化為其反應性氧化產物的一項關鍵化學防線。EDTA 是藥用與分析環境中用於穩定兒茶酚胺的更廣泛螯合劑類的典型代表，並凸顯了過渡金屬可得性控制 adrenochrome 途徑在溶液中進行的速率這一普遍原則。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "54854131f286",
@@ -272,12 +272,12 @@
     "object": "Minutes to hours",
     "context": {
       "en-US": "Adrenochrome is a very unstable molecule in aqueous solution, with a half-life ranging from minutes to hours depending on temperature, pH, and the presence of nucleophiles. The instability arises because adrenochrome is a highly reactive electrophilic quinone that rapidly undergoes further reactions, principally polymerization into melanins and covalent adduct formation with proteins and DNA. This transience is a central reason why adrenochrome has proven difficult to detect in biological fluids despite decades of interest in its possible role in disease: it does not persist long enough to accumulate. The short half-life also frames the clinical controversy around the compound, since any effect it exerts must occur quickly after formation, and its fleeting nature makes measurement of the relevant intermediate states technically challenging.",
-      "zh-TW": ""
+      "zh-TW": "Adrenochrome 在水溶液中是一種極不穩定的分子，其半衰期依溫度、pH 值及親核試體的存在與否，從數分鐘到數小時不等。此不穩定性源於 adrenochrome 是一種高反應性的親電醌，會迅速進行進一步反應，主要是聚合成 melanins 以及與蛋白質和 DNA 形成共價加合物。這種短暫性正是儘管數十年來對其在疾病中的潛在角色感興趣，adrenochrome 仍難以在生物液體中檢測出的核心原因：它存在時間不足以累積。短半衰期也構成了該化合物周圍的臨床爭議，因為其任何效應都必須在形成後迅速發生，而其轉瞬即逝的特性使得相關中間狀態的測量在技術上具挑戰性。"
     },
     "confidence": 0.85,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "01a2ab5b9621",
@@ -342,12 +342,12 @@
     "object": "Epinephrine",
     "context": {
       "en-US": "Epinephrine is most stable in an acidic environment, which is why pharmaceutical adrenaline used in emergency injectors is stored in slightly acidic solution. In acidic solutions the hydroxyl groups on the catechol ring are protonated, making it much harder for oxygen to steal electrons and thereby greatly slowing the oxidation that initiates the adrenochrome pathway. pH is described as the most important factor controlling the cyclization reaction because the reaction depends on chemical oxidation and is highly sensitive to environment. This pH dependence explains both the formulation chemistry of epinephrine products and the broader principle that tissue acid-base status may modulate how readily catecholamines undergo oxidative transformation in vivo, with more alkaline conditions favoring oxidation to quinones and downstream adrenochrome formation.",
-      "zh-TW": ""
+      "zh-TW": "Epinephrine 在酸性環境中最為穩定，這也是為什麼急救注射器中使用的藥用 adrenaline 儲存於微酸性溶液中。在酸性溶液中，兒茶酚環上的羥基被質子化，使氧氣更難奪取電子，從而大幅減緩啟動 adrenochrome 途徑的氧化。pH 值被描述為控制環化反應最重要的因素，因為反應依賴化學氧化且對環境高度敏感。這種 pH 依賴性同時解釋了 epinephrine 產品的配方化學，以及更廣泛的原則：組織酸鹼狀態可能調節兒茶酚胺在體內發生氧化轉化的容易程度，鹼性越強的條件越有利於氧化成醌及下游 adrenochrome 的形成。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "97cecbb460b1",
@@ -370,12 +370,12 @@
     "object": "Metabolic waste",
     "context": {
       "en-US": "In the chemistry of catecholamine handling, the main route is a clean enzymatic process in which MAO and COMT specifically target adrenaline, process it, and prepare it for excretion, keeping blood pressure and heart rate controlled. The adrenochrome pathway, by contrast, is a side pathway that essentially produces metabolic waste: adrenochrome is a chemical mishap formed when the body's antioxidant defenses are failing and epinephrine oxidizes on its own. Adrenochrome is therefore not a purposeful catabolite but an incidental oxidation product whose formation is considered undesirable because of the molecule's electrophilic reactivity toward proteins and DNA. Viewing adrenochrome as metabolic waste frames it as a failure marker of homeostasis whose accumulation is linked to oxidative stress, rather than a regulated product of normal catecholamine metabolism.",
-      "zh-TW": ""
+      "zh-TW": "在兒茶酚胺處理的化學中，主要途徑是一個乾淨的酵素過程，其中 MAO 和 COMT 專一地標靶 adrenaline，處理它並為排泄做準備，從而控制血壓和心率。相對地，adrenochrome 途徑是一條側路，本質上產生代謝廢物：adrenochrome 是當身體抗氧化防禦失效、epinephrine 自行氧化時所形成的化學意外。因此，adrenochrome 並非有目的的分解代謝物，而是一種偶發的氧化產物，其形成被視為不可取，因為該分子對蛋白質和 DNA 具有親電反應性。將 adrenochrome 視為代謝廢物，使其成為恆定性失敗的標記，其累積與氧化壓力相關，而非正常兒茶酚胺代謝的受調節產物。"
     },
     "confidence": 0.7,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8190b9612c10",
@@ -412,12 +412,12 @@
     "object": "Epinephrine",
     "context": {
       "en-US": "The adrenochrome pathway is an oxidative catabolic route through which the catecholamine adrenaline (epinephrine) is converted into reactive oxidation products, principally adrenochrome and adrenolutin. Its significance was such that in the 1930s and 1940s many investigators believed this pathway to be the major catabolic route for adrenaline in vivo, though that view was later revised as the MAO and COMT enzymatic routes were characterized. The pathway begins with oxygen-radical-mediated oxidation of adrenaline and proceeds through cyclization to adrenochrome, with adrenolutin as a downstream rearrangement catabolite. Because the pathway is driven by oxidative stress rather than dedicated enzymes, it is regarded as an aberrant side route whose activation reflects the failure of normal catecholamine clearance and antioxidant defense, particularly under conditions of stress and inflammation.",
-      "zh-TW": ""
+      "zh-TW": "Adrenochrome 途徑是一條氧化性分解代謝路線，兒茶酚胺 adrenaline（epinephrine）經由此轉化為反應性氧化產物，主要是 adrenochrome 和 adrenolutin。其重要性之大，使得在 1930 和 1940 年代許多研究者認為此途徑是體內 adrenaline 的主要分解代謝路線，儘管此觀點後來隨著 MAO 和 COMT 酵素途徑被闡明而修正。該途徑始於氧自由基介導的 adrenaline 氧化，經由環化進行到 adrenochrome，adrenolutin 則為下游重排分解代謝物。由於此途徑由氧化壓力而非專用酵素驅動，它被視為一條異常側路，其活化反映了正常兒茶酚胺清除與抗氧化防禦的失敗，尤其在壓力和發炎條件下。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "352b9fed2900",
@@ -440,12 +440,12 @@
     "object": "Adrenolutin",
     "context": {
       "en-US": "The adrenochrome pathway produces two major catabolites from the oxidation of adrenaline, and adrenolutin is one of them, alongside adrenochrome. Adrenolutin arises as a rearrangement product downstream of adrenochrome and represents the further transformation of the indoline quinone scaffold. The detection of these catabolites is central to the pathway's study: a compound with the same retention time as adrenochrome on HPLC was detected in a biological fluid rich in neutrophils, supporting the view that the pathway can operate in vivo. Adrenolutin, like adrenochrome, belongs to the family of oxidative adrenaline metabolites whose formation is driven by oxygen radicals produced by stimulated neutrophils, and its presence signals activation of the oxidative catecholamine metabolism implicated in stress-induced heart disease.",
-      "zh-TW": ""
+      "zh-TW": "Adrenochrome 途徑從 adrenaline 的氧化產生兩種主要分解代謝物，adrenolutin 是其中之一，與 adrenochrome 並列。Adrenolutin 是 adrenochrome 下游的重排產物，代表了 indoline 醌骨架的進一步轉化。這些分解代謝物的檢測是該途徑研究的核心：在富含中性粒細胞的生物液體中，檢測到一個與 adrenochrome 在 HPLC 上滯留時間相同的化合物，支持了該途徑可在體內運作的觀點。Adrenolutin 如同 adrenochrome，屬於由受刺激中性粒細胞產生的氧自由基所驅動形成的氧化性 adrenaline 代謝物家族，其存在標誌著與壓力誘發心臟病相關的氧化性兒茶酚胺代謝的活化。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "720caa0a5954",
@@ -566,12 +566,12 @@
     "object": "Biological fluids",
     "context": {
       "en-US": "Despite decades of interest in the adrenochrome pathway, adrenochrome has never been detected in biological fluids, and no established method for its formation in vivo has been demonstrated; this is the central reason the clinical significance of the compound remains controversial. The difficulty of detection is consistent with the molecule's chemical properties, including its instability and short half-life in aqueous solution, its rapid polymerization into melanins, and its reactivity with proteins and DNA, all of which would prevent accumulation. The strongest evidence for in vivo formation is indirect, such as the detection of a compound with the same HPLC retention time as adrenochrome in a biological fluid rich in neutrophils and the presence of oxidase activity in serum after myocardial infarction. Its apparent absence from biological fluids, however, has fueled skepticism about whether the pathway is truly significant in human disease.",
-      "zh-TW": ""
+      "zh-TW": "儘管數十年來對 adrenochrome 途徑感興趣，adrenochrome 從未在生物液體中被檢測到，也尚未建立證明其在體內形成的既成方法；這是該化合物臨床意義仍具爭議性的核心原因。檢測的困難與該分子的化學性質一致，包括其在水溶液中的不穩定性與短半衰期、迅速聚合成 melanins，以及對蛋白質和 DNA 的反應性，這些都會阻止其累積。體內形成最強的證據是間接的，例如在富含中性粒細胞的生物液體中檢測到與 adrenochrome 具有相同 HPLC 滯留時間的化合物，以及心肌梗塞後血清中出現氧化酶活性。然而，它明顯不存在於生物液體中，助長了對該途徑是否在人類疾病中真正重要的懷疑。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d82cd2c197d2",
@@ -608,12 +608,12 @@
     "object": "Guanidine",
     "context": {
       "en-US": "Aminoguanidine is described as a derivative of guanidine, sharing the basic guanidinium group that is protonated at physiological pH and contributes to strong hydrogen bonding and protein binding. Guanidine derivatives are common pharmacophores in enzyme inhibitors, and in aminoguanidine the guanidinium moiety combined with a hydrazine-like amino terminus generates a bifunctional molecule that can interact with enzyme active sites and dicarbonyl species. This dual functionality underpins its role as a monoamine oxidase and nitric oxide synthase inhibitor used to manage diabetic complications.",
-      "zh-TW": ""
+      "zh-TW": "Aminoguanidine 被描述為胍的衍生物，共享在生理 pH 下被質子化、並有助於強氫鍵結和蛋白質結合的鹼性胍鎓基團。胍衍生物是酵素抑制劑中常見的藥效團，在 aminoguanidine 中，胍鎓部分與肼樣胺端基結合，產生一個可與酵素活性位點和二羰基物種互動的雙功能分子。這種雙重功能支撐了它作為 monoamine oxidase 和 nitric oxide synthase 抑制劑、用於管理糖尿病併發症的角色。"
     },
     "confidence": 0.8,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "db45b3f13252",
@@ -622,12 +622,12 @@
     "object": "Formamide",
     "context": {
       "en-US": "Aminoguanidine can be regarded as a derivative of formamide, reflecting the one-carbon backbone that links its nitrogenous substituents. This formal relationship to formamide, a simple one-carbon amide, is used in chemistry databases to classify the compound's scaffold. Functionally the molecule behaves as a nucleophilic hydrazine derivative rather than an amide, but the formamide classification highlights the single-carbon core that makes aminoguanidine one of the smallest enzyme-inhibitory drugs, with a molecular weight of only 74.09 g/mol and zero rotatable bonds.",
-      "zh-TW": ""
+      "zh-TW": "Aminoguanidine 可視為甲醯胺的衍生物，反映了連結其含氮取代基的單碳骨架。這種與甲醯胺（一種簡單的單碳醯胺）的形式關係，用於化學資料庫中對該化合物骨架的分類。在功能上，該分子表現為親核性肼衍生物而非醯胺，但甲醯胺分類凸顯了使 aminoguanidine 成為最小酵素抑制藥物之一的單碳核心，其分子量僅 74.09 g/mol 且無可旋轉鍵。"
     },
     "confidence": 0.8,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "50017cd9b388",
@@ -650,12 +650,12 @@
     "object": "Monoamine oxidase",
     "context": {
       "en-US": "Aminoguanidine is an EC 1.4.3.4 (monoamine oxidase) inhibitor. Monoamine oxidase is the flavin-dependent mitochondrial enzyme that degrades catecholamines and other biogenic amines, and its inhibition can raise amine concentrations and alter cellular redox balance. Because aminoguanidine is a hydrazine derivative, its MAO inhibition parallels the mechanism of classic hydrazine-based MAO inhibitors, a property relevant both to its pharmacology and to off-target effects when the compound is used experimentally in catecholamine or adrenochrome research.",
-      "zh-TW": ""
+      "zh-TW": "Aminoguanidine 是一種 EC 1.4.3.4（monoamine oxidase）抑制劑。Monoamine oxidase 是降解兒茶酚胺和其他生物胺的黃素依賴型粒線體酵素，其抑制可升高胺濃度並改變細胞氧化還原平衡。由於 aminoguanidine 是肼衍生物，其 MAO 抑制作用與經典基於肼的 MAO 抑制劑機制相似，此性質既與其藥理學相關，也與該化合物在兒茶酚胺或 adrenochrome 研究中實驗使用時的脫靶效應相關。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5bd13087bfa2",
@@ -692,12 +692,12 @@
     "object": "Aldose reductase",
     "context": {
       "en-US": "Pimagedine (aminoguanidine) reportedly inhibits the formation of glycosylated proteins and has additional actions including inhibition of aldose reductase. Aldose reductase is the polyol-pathway enzyme that converts glucose to sorbitol and is implicated in diabetic complications, so its inhibition is itself a therapeutic goal in diabetes. This polypharmacology, combining AGE inhibition with MAO, iNOS, diamine oxidase, and aldose reductase blockade, means that aminoguanidine's benefits and side effects in diabetic models cannot be attributed to a single molecular target.",
-      "zh-TW": ""
+      "zh-TW": "Pimagedine（aminoguanidine）據報導可抑制糖基化蛋白的形成，並具有包括抑制醛糖還原酶在內的額外作用。Aldose reductase 是將葡萄糖轉化為山梨醇的多元醇途徑酵素，與糖尿病併發症有關，因此其抑制本身即是糖尿病中的治療目標。這種多藥理學——結合 AGE 抑制與 MAO、iNOS、diamine oxidase 和 aldose reductase 阻斷——意味著 aminoguanidine 在糖尿病模型中的益處和副作用不能歸因於單一分子標靶。"
     },
     "confidence": 0.75,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "958dace1f22d",
@@ -706,12 +706,12 @@
     "object": "Advanced Glycation End Products",
     "context": {
       "en-US": "Aminoguanidine is one of the most thoroughly studied prototype inhibitors of AGE formation. It acts as a nucleophilic trap for highly reactive dicarbonyl intermediates, such as methylglyoxal and glyoxal, before they can react with lysine or arginine residues on proteins to form irreversible crosslinks. In clinical trials, however, aminoguanidine was stopped due to safety concerns and lack of efficacy, with side effects including gastrointestinal disturbance and abnormal liver function. It remains the reference anti-glycation pharmacophore, and its incorporation into molecules such as adrenochrome monoaminoguanidine exploits this chemistry in more stable, targeted conjugates.",
-      "zh-TW": ""
+      "zh-TW": "Aminoguanidine 是研究最透徹的 AGE 形成原型抑制劑之一。它在高度反應性的二羰基中間體（如 methylglyoxal 和 glyoxal）與蛋白質上的 lysine 或 arginine 殘基反應形成不可逆交聯之前，充當其親核性捕捉劑。然而在臨床試驗中，aminoguanidine 因安全疑慮和療效不足而中止，副作用包括胃腸道不適和肝功能異常。它仍是參考性的抗糖化藥效團，其被併入如 adrenochrome monoaminoguanidine 等分子中，在更穩定、標靶性更強的共軛物中利用了此化學特性。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3d3ff6de5249",
