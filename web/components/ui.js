@@ -18,6 +18,7 @@ import {
 import { selectNode, deselectNode } from './interaction.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
+import { setUiLang } from './i18n.js';
 
 // ------------------------------------------------------------
 // Active-window highlight (dataset panel vs prompt panel)
@@ -63,6 +64,7 @@ const infoCard = document.getElementById('at-node-detail');
 
 export function hideNodeInfo() {
   if (infoCard) infoCard.hidden = true;
+  routeCardRerender = null;
   detailHistory = [];
   currentView = null;
 }
@@ -91,19 +93,19 @@ function bindHeadLangToggle() {
   });
 }
 
-// Apply a language chosen in the detail head: update the shared
-// analysis-panel language (+ persistence), sync the analysis panel's own
-// toggle, and re-render whatever detail card is showing.
+// Apply a language chosen in the detail head: persist + broadcast the shared
+// language (which re-renders the analysis + notes panels), then re-render the
+// current detail card in place.
 function setNodeLang(lang) {
   if (lang !== 'en-US' && lang !== 'zh-TW') return;
-  state.analysisUiLang = lang;
-  try { localStorage.setItem('llm-wiki-analysis-ui-lang', lang); } catch (e) { /* ignore */ }
-  document.querySelectorAll('#prompt-lang [data-lang]').forEach((b) =>
-    b.classList.toggle('active', b.dataset.lang === lang));
-  if (currentView && infoCard && !infoCard.hidden) {
+  setUiLang(lang);
+  if (!infoCard || infoCard.hidden) return;
+  if (currentView) {
     if (currentView.type === 'node') renderNodeInfo(currentView.id, currentView.actions);
     else if (currentView.type === 'community') renderCommunityInfo(currentView.cid, currentView.actions);
     else renderEdgeInfo(currentView.edge);
+  } else if (routeCardRerender) {
+    routeCardRerender(); // transient route card — re-render in place
   }
 }
 
@@ -118,6 +120,7 @@ const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" s
 const DETAIL_HISTORY_MAX = 50;
 let detailHistory = [];   // stack of earlier views (last entry = most recent)
 let currentView = null;   // { type:'node', id, actions } | { type:'edge', edge } | { type:'community', cid }
+let routeCardRerender = null; // re-render fn for the transient route card (not tracked in currentView)
 
 function viewEq(a, b) {
   if (!a || !b) return false;
@@ -149,6 +152,7 @@ export function goBackDetail() {
 function renderNodeInfo(nodeId, actions) {
   const n = nodeMap.get(nodeId);
   if (!n || !infoCard) return;
+  routeCardRerender = null;
 
   const neighbors = adjacency.get(nodeId) || [];
   const neighborItems = neighbors.map(({ target, edge }) => {
@@ -256,6 +260,7 @@ export function showEdgeInfo(edge) {
 
 function renderEdgeInfo(edge) {
   if (!infoCard) return;
+  routeCardRerender = null;
   const fromNode = nodeMap.get(edge.from);
   const toNode = nodeMap.get(edge.to);
   const fromLabel = fromNode ? fromNode.label : edge.from;
@@ -322,6 +327,7 @@ export function showCommunityInfo(cid, actions) {
 
 function renderCommunityInfo(cid, actions) {
   if (!infoCard) return;
+  routeCardRerender = null;
   const c = LEGEND.find(x => x.cid === cid);
   if (!c) return;
 
@@ -601,29 +607,33 @@ export function activateRoute(trace, routeIdx) {
 
   // Show route mechanism in the analysis-panel info card
   if (state.analysisOpen && infoCard) {
-    const pathHtml = route.path.map((id, i) => {
-      const n = nodeMap.get(id);
-      const label = n ? n.label : id;
-      const color = n ? n.color.background : '#555';
-      const arrow = i < route.path.length - 1 ? `<div class="route-arrow">↓</div>` : '';
-      return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
-    }).join('');
-    infoCard.innerHTML = `
-      <div class="at-node-head">
-        <div class="at-node-head-top">
-          <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
-          <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+    const renderRouteCard = () => {
+      const pathHtml = route.path.map((id, i) => {
+        const n = nodeMap.get(id);
+        const label = n ? n.label : id;
+        const color = n ? n.color.background : '#555';
+        const arrow = i < route.path.length - 1 ? `<div class="route-arrow">↓</div>` : '';
+        return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
+      }).join('');
+      infoCard.innerHTML = `
+        <div class="at-node-head">
+          <div class="at-node-head-top">
+            <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
+            <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+          </div>
+          ${headLangToggle()}
         </div>
-        ${headLangToggle()}
-      </div>
-      <div class="at-node-scroll">
-        <div class="route-path">${pathHtml}</div>
-        <div class="route-mechanism">${esc(route.mechanism)}</div>
-      </div>
-    `;
-    infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
-    bindHeadLangToggle();
-    infoCard.hidden = false;
+        <div class="at-node-scroll">
+          <div class="route-path">${pathHtml}</div>
+          <div class="route-mechanism">${esc(route.mechanism)}</div>
+        </div>
+      `;
+      infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+      bindHeadLangToggle();
+      infoCard.hidden = false;
+    };
+    routeCardRerender = renderRouteCard;
+    renderRouteCard();
   }
 
   // Focus camera on route midpoint

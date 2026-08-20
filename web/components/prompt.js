@@ -15,6 +15,7 @@ import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
+import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -66,11 +67,7 @@ let promptSessionId = null;
 // Prompt and Graph (Explore) surfaces. Persisted across visits, synced to the
 // URL hash by routing.js (`&uilang=`), and restored from deep links.
 // ------------------------------------------------------------
-let uiLang = 'en-US';
-try {
-  const savedLang = localStorage.getItem('llm-wiki-analysis-ui-lang');
-  if (savedLang === 'en-US' || savedLang === 'zh-TW') uiLang = savedLang;
-} catch (e) { /* localStorage unavailable — keep the default */ }
+let uiLang = getUiLang(); // analysis/graph panel language; shared across screens
 
 const UI_STRINGS = {
   'en-US': {
@@ -320,7 +317,7 @@ graphifyCheckbox.addEventListener('change', () => {
 function applyUiLang(lang) {
   if (lang !== 'en-US' && lang !== 'zh-TW') lang = 'en-US';
   uiLang = lang;
-  try { localStorage.setItem('llm-wiki-analysis-ui-lang', uiLang); } catch (e) { /* ignore */ }
+  persistUiLang(uiLang);
   state.analysisUiLang = uiLang;
 
   promptLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
@@ -356,9 +353,11 @@ export function applyAnalysisUiLang(lang) {
 promptLangBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const lang = btn.dataset.lang;
-    if (lang && lang !== uiLang) applyUiLang(lang);
+    if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
   });
 });
+// Re-render this panel whenever the shared language changes elsewhere.
+onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 
 // ------------------------------------------------------------
 // Response view mode (MD / HTML) — choose how a response is rendered.

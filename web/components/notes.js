@@ -6,6 +6,7 @@ import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
 import { openPromptComposer } from './prompt.js';
+import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -116,11 +117,7 @@ const activeTags = new Set();
 // false = oldest first (ascending). Matches the view that was open when the
 // sort toggle last changed.
 let sortDesc = true;
-let uiLang = 'en-US'; // panel + note-content language; persisted across visits
-try {
-  const savedLang = localStorage.getItem('llm-wiki-notes-ui-lang');
-  if (savedLang === 'en-US' || savedLang === 'zh-TW') uiLang = savedLang;
-} catch (e) { /* localStorage unavailable — keep the default */ }
+let uiLang = getUiLang(); // panel + note-content language; shared across screens
 let loaded = false;
 let loading = false;
 let apiDown = false;
@@ -282,7 +279,7 @@ function activeOcr(note) {
 function applyUiLang(lang) {
   if (lang !== 'en-US' && lang !== 'zh-TW') lang = 'en-US';
   uiLang = lang;
-  try { localStorage.setItem('llm-wiki-notes-ui-lang', uiLang); } catch (e) { /* ignore */ }
+  persistUiLang(uiLang);
 
   langBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
   notesPanel.querySelectorAll('.ui-en').forEach((el) => { el.hidden = uiLang !== 'en-US'; });
@@ -317,9 +314,11 @@ function applyUiLang(lang) {
 langBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const lang = btn.dataset.lang;
-    if (lang && lang !== uiLang) applyUiLang(lang);
+    if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
   });
 });
+// Re-render this panel whenever the shared language changes elsewhere.
+onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 
 const ARROW_MARKER = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
 ARROW_MARKER.setAttribute('id', 'notes-arrowhead');
