@@ -6,7 +6,7 @@ import * as THREE from 'three';
 
 import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
-  descriptionMap, githubSourceUrl, noteUrl,
+  descriptionMap, githubSourceUrl, noteUrl, predicateZh,
 } from './data.js';
 import { state } from './state.js';
 import {
@@ -85,7 +85,13 @@ export function showInfo(nodeId, actions) {
     return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nbDisplayName)}${label}</span>`;
   }).join('');
 
-  const description = descriptionMap.get(nodeId);
+  // Context text: surface the zh-TW translation when the analysis panel is in
+  // zh-TW and the node carries a real translation; otherwise the canonical
+  // en-US description (which is also the zh fallback emitted by the rebuild).
+  const useZh = state.analysisUiLang === 'zh-TW';
+  const description = useZh
+    ? (n.description_zh_TW || descriptionMap.get(nodeId))
+    : descriptionMap.get(nodeId);
 
   const zhTWName = TRANSLATIONS[n.label] || '';
   const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
@@ -164,6 +170,15 @@ export function showEdgeInfo(edge) {
   const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
   const relationLabel = edge.label || '';
   const confidence = edge.confidence || '';
+  // Localize the relationship predicate for the zh UI (display only — the
+  // graph keeps English predicates as canonical).
+  const displayRelation = state.analysisUiLang === 'zh-TW'
+    ? (predicateZh(relationLabel) || relationLabel)
+    : relationLabel;
+  // Edge evidence/context, bilingual per the panel language.
+  const edgeDesc = state.analysisUiLang === 'zh-TW'
+    ? (edge.context_zh_TW || edge.context || '')
+    : (edge.context || edge.context_zh_TW || '');
 
   infoCard.innerHTML = `
     <div class="at-node-head">
@@ -173,9 +188,10 @@ export function showEdgeInfo(edge) {
     <div class="at-node-scroll">
       <div class="field" style="margin-top:6px">
         <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(edge.from)}">${esc(fromDisplay)}</span>
-        <div class="route-arrow">↓ ${esc(relationLabel)} ${confidence ? `<span class="conf-hint">${esc(confidence)}</span>` : ''}</div>
+        <div class="route-arrow">↓ ${esc(displayRelation)} ${confidence ? `<span class="conf-hint">${esc(confidence)}</span>` : ''}</div>
         <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(edge.to)}">${esc(toDisplay)}</span>
       </div>
+      ${edgeDesc ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(edgeDesc.slice(0, 1200))}${edgeDesc.length > 1200 ? '…' : ''}</div></div>` : ''}
     </div>
   `;
 

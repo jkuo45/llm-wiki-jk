@@ -3,7 +3,7 @@ title: KG Triples Reference
 description: Detailed extraction rules and conventions for knowledge graph triples
 type: index
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-08-19
 tags:
   - reference
   - knowledge-graph
@@ -15,12 +15,26 @@ tags:
 
 Each triple is a JSON object with the following fields:
 
-| Field        | Type   | Description                                                          |
-| ------------ | ------ | -------------------------------------------------------------------- |
-| `subject`    | string | The source entity (normalized to canonical name)                     |
-| `predicate`  | string | The relationship verb (present tense, lowercase)                     |
-| `object`     | string | The target entity (normalized to canonical name)                     |
-| `context`    | string | Explanation grounding the triple in the source text.    |
+| Field        | Type              | Description                                                          |
+| ------------ | ----------------- | -------------------------------------------------------------------- |
+| `id`         | string (opt)      | Stable id = `sha1(norm(subject)|predicate|norm(object))[:12]`; filled by the normalizer |
+| `subject`    | string            | The source entity (normalized to canonical name)                     |
+| `predicate`  | string            | The relationship verb (present tense, lowercase)                     |
+| `object`     | string            | The target entity (normalized to canonical name)                     |
+| `context`    | object            | BCP-47 map: `{"en-US": string, "zh-TW": string}`. `en-US` is canonical; translate prose to `zh-TW`, preserve entity names. |
+| `confidence` | string \| float   | Confidence level (`high`/`medium`/`low`) or numeric score (0–1)       |
+| `source_document` | string       | Originating wiki note filename                                       |
+| `created`    | string (ISO UTC)  | `YYYY-MM-DDTHH:MM:SSZ` — first added; immutable                       |
+| `updated`    | string (ISO UTC)  | `YYYY-MM-DDTHH:MM:SSZ` — bumped on any content change                 |
+
+## Multilingual / Timestamp Rules
+
+- **Author both languages in one pass**: write the `en-US` context, then translate that exact text to `zh-TW`.
+- **`zh-TW` preserves proper nouns**: entity names, gene/protein symbols (`SIRT1`, `NAD+`, `p53`), and any `[[wiki link]]` targets stay unchanged. Only the surrounding prose is translated.
+- **No zh in endpoints**: `subject`/`predicate`/`object` must stay canonical English — the rebuild's `norm()` strips non-`[a-z0-9]`, so zh there would silently drop the triple.
+- **`created` immutable, `updated` advances**: when editing an existing triple, keep `id` and `created`, set `updated` to now (or `>= created`).
+- Missing `zh-TW` is allowed temporarily (the graph falls back to `en-US`), but the normalizer's `--check`/coverage report flags it so it can be filled.
+- `confidence` and `source_document` are always English-only (they are not translated).
 
 ## Predicate Naming
 
@@ -67,7 +81,13 @@ Each triple is a JSON object with the following fields:
 
 ## Deduplication
 
-When updating an existing `_triples.json`, do not duplicate identical triples (same subject + predicate + object). Use a merge strategy:
+When updating an existing `_triples.json`, do not duplicate identical triples (same `id`, i.e. same subject + predicate + object). Use a merge strategy:
 
-- Different context → keep both contexts (array or separate entries)
-- Different confidence → keep the higher confidence level
+- Keep the **existing `id` and `created`**, bump **`updated`** with the newer content.
+- Different context → keep the updated triple's context (both languages) as the canonical entry; retain any alternates as supplementary text if still valued.
+- Different confidence → keep the higher confidence level.
+- At graph-build time, `03_rebuild_from_triples.py` resolves cross-file edge collisions as **most-recent `updated` wins** (tie-break higher confidence, then first-seen). The schema normalizer enforces unique `id` within each file and drops later duplicates.
+
+## Normalization
+
+Run `scripts/normalize_triples_schema.py` (idempotent) after any triples edit — it fills `id`/`created`/`updated`, upgrades a legacy string `context` to the `en-US`/`zh-TW` map, validates the schema, and reports missing `zh-TW` coverage.

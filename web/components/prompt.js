@@ -3,7 +3,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeObjects, edgeOffColor, animateCamera,
@@ -577,7 +577,10 @@ function positionWikiTooltip(anchor) {
 }
 
 function showWikiTooltip(anchor) {
-  const desc = descByLabel.get(anchor.dataset.wiki);
+  // Surface the zh-TW description when the prompt UI is in zh-TW and a real
+  // translation exists; otherwise fall back to the canonical English summary.
+  const zh = uiLang === 'zh-TW' ? descByLabelZh.get(anchor.dataset.wiki) : null;
+  const desc = zh || descByLabel.get(anchor.dataset.wiki);
   if (!desc) { hideWikiTooltip(); return; }
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
@@ -619,7 +622,8 @@ const wikiModalLink = document.getElementById('wiki-modal-link');
 const wikiModalClose = document.getElementById('wiki-modal-close');
 
 function openWikiModal(wikiKey) {
-  const desc = descByLabel.get(wikiKey);
+  const zh = uiLang === 'zh-TW' ? descByLabelZh.get(wikiKey) : null;
+  const desc = zh || descByLabel.get(wikiKey);
   if (!desc) return;
   const title = wikiKey.replace(/_/g, ' ');
   wikiModalTitle.textContent = title;

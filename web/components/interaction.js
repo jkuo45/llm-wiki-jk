@@ -10,7 +10,7 @@ import {
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
 } from './core.js';
 import { state, stickyNodes, velocities } from './state.js';
-import { nodeMap, adjacency, TRANSLATIONS } from './data.js';
+import { nodeMap, adjacency, TRANSLATIONS, predicateZh } from './data.js';
 import { showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes } from './ui.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
@@ -53,7 +53,9 @@ function showEdgeLabel(line) {
   const { edge, fromMesh, toMesh } = line.userData;
   edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
 
-  const labelText = edge.label || '';
+  const labelText = state.analysisUiLang === 'zh-TW'
+    ? (predicateZh(edge.label) || edge.label || '')
+    : (edge.label || '');
   const confidence = edge.confidence || '';
   edgeLabelDiv.innerHTML = `<b>${esc(labelText)}</b> <span style="opacity:0.6;font-size:9px">${esc(confidence)}</span>`;
   edgeLabelDiv.style.display = 'block';

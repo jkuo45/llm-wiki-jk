@@ -17,7 +17,13 @@ What it does, in order:
       web/data/version.json with a content-hash tag the app uses for
       cache busting (tooltips/modals read entity descriptions straight
       from graph.json nodes; wiki-context.json is retired).
-   8. Leaves the hand-maintained web-root files untouched. Files at the
+   8. Multilingual contexts: /_triples.json v2 carries `context` as a BCP-47
+      map (en-US canonical, zh-TW translation), plus `created`/`updated`. Node
+      descriptions resolve to the most recently updated triple (en + zh-TW),
+      edges carry context/context_zh_TW + timestamps, and an i18n coverage
+      report is appended to GRAPH_REPORT.md and written to
+      web/data/i18n-coverage.json. Missing zh-TW falls back to en-US.
+   9. Leaves the hand-maintained web-root files untouched. Files at the
       web root — llms.txt, robots.txt, sitemap.xml, index.html,
       components/, pages/ — describe the site for crawlers/LLMs and are
       curated by hand; this script only ever writes under web/data/ and
@@ -35,6 +41,7 @@ import subprocess
 import sys
 import time
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 import networkx as nx
@@ -53,6 +60,7 @@ DATA_DIR = WEB / "data"             # runtime data JSONs consumed by the web app
 MANUAL_DATA_FILES = (
     "query.json",               # curated graph-query traces for the Trace panel
     "translations-zh-TW.json",  # zh-TW translation dictionary for UI/node labels
+    "predicates-zh-TW.json",    # zh-TW relationship-predicate labels (display only)
     "articles.json",            # article registry for the Reader (EN + zh-TW)
 )
 
@@ -145,6 +153,47 @@ def resolve_conf(t: dict) -> tuple[float, str]:
     return CONF_MAP.get(c, (0.75, "EXTRACTED"))
 
 
+def get_context(t: dict, lang: str) -> str:
+    """Return a triple's context for a language.
+
+    Handles both the legacy flat-string form (treated as en-US) and the v2
+    multilingual map. Languages without a translation fall back to en-US so a
+    partially-translated corpus never produces empty node/edge text.
+    """
+    c = t.get("context", "")
+    if isinstance(c, dict):
+        en = c.get("en-US", "") or ""
+        if lang == "en-US":
+            return en
+        return c.get(lang, "") or en
+    return c if lang == "en-US" else c
+
+
+def iso_ts(t: dict, key: str, default: str = "") -> str:
+    """Return a triple timestamp field as a string ('' when absent)."""
+    v = t.get(key)
+    return v if isinstance(v, str) and v else default
+
+
+def has_translation(t: dict, lang: str) -> bool:
+    """True when the triple carries a genuine non-empty context for `lang`
+    (not a fallback). Distinguishes 'translated to zh-TW' from the en-US
+    fallback that get_context() applies."""
+    c = t.get("context")
+    return isinstance(c, dict) and bool(c.get(lang))
+
+
+def _newer(updated: str, score: float, existing: dict) -> bool:
+    """Edge dedupe rule: most-recent `updated` wins; tie-break higher
+    confidence; on a full tie keep the first (existing) record.
+    ISO-8601 UTC strings are lexicographically orderable."""
+    if updated > existing["updated"]:
+        return True
+    if updated == existing["updated"] and score > existing["score"]:
+        return True
+    return False
+
+
 def strip_wikilink(s: str) -> str:
     return re.sub(
         r"\[\[([^\]]+)\]\]",
@@ -211,6 +260,10 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "clustering": n.get("clustering_coefficient", 0.0),
             "k_core": n.get("k_core_number", 0),
             "source_file": n.get("source_file", ""),
+            "source_triples": n.get("source_triples", ""),
+            "description": n.get("description", ""),
+            "description_zh_TW": n.get("description_zh_TW", ""),
+            "updated": n.get("updated", ""),
             "color": {"background": color_map.get(cid, "#888888")},
         })
 
@@ -229,6 +282,10 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "confidence": link.get("confidence", "EXTRACTED"),
             "confidence_score": conf,
             "weight": link.get("weight", conf),
+            "context": link.get("context", ""),
+            "context_zh_TW": link.get("context_zh_TW", ""),
+            "created": link.get("created", ""),
+            "updated": link.get("updated", ""),
             "color": {"opacity": max(0.1, min(1.0, conf))},
         })
 
@@ -422,6 +479,25 @@ def inject_graph_metadata(gp: Path, metadata: dict) -> None:
     print(f"Injected graph metadata: {len(metadata)} top-level keys")
 
 
+def _format_i18n_report(i18n: Counter) -> str:
+    """Render the multilingual-coverage report appended to GRAPH_REPORT.md."""
+    lines = [
+        "",
+        "## i18n / Multilingual Coverage",
+        "",
+        "Context fields are stored as a BCP-47 map (`en-US`, `zh-TW`); `en-US` is canonical.",
+        "",
+        "| Metric | Count |",
+        "| --- | --- |",
+        f"| Triples processed | {i18n.get('triples_total', 0)} |",
+        f"| Missing zh-TW context (falls back to en-US) | {i18n.get('missing_zh', 0)} |",
+        f"| Missing created/updated timestamps | {i18n.get('missing_dates', 0)} |",
+        f"| Stale triples (`updated` < source file mtime) | {i18n.get('stale_triples', 0)} |",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def main() -> int:
     topics = sorted(str(p) for p in ROOT.glob("src/**/_triples.json"))
     if not topics:
@@ -429,21 +505,47 @@ def main() -> int:
         return 1
 
     G = nx.DiGraph()
-    edge_seen = set()
     total_triples = 0
+    edge_records: dict[tuple, dict] = {}
+    node_candidates: dict[str, list[dict]] = defaultdict(list)
+    i18n = Counter()
     print("=== Iterating topics ===")
     for f in topics:
         rel = str(Path(f).relative_to(ROOT))
         triples = json.load(open(f, encoding="utf-8"))
-        n0, e0 = G.number_of_nodes(), G.number_of_edges()
+        n0 = G.number_of_nodes()
+        try:
+            f_mtime_iso = datetime.fromtimestamp(
+                Path(f).stat().st_mtime, tz=timezone.utc
+            ).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except OSError:
+            f_mtime_iso = ""
         for t in triples:
             total_triples += 1
+            i18n["triples_total"] += 1
             subj = strip_wikilink(t["subject"])
             obj = strip_wikilink(t["object"])
             sid, tid = norm(subj), norm(obj)
             if not sid or not tid or sid == tid:
                 continue
             src = t.get("source_document", "") or rel
+            en = get_context(t, "en-US")
+            if not en:
+                continue
+            zh = get_context(t, "zh-TW")
+            has_zh = has_translation(t, "zh-TW")
+            score, conf = resolve_conf(t)
+            updated = iso_ts(t, "updated", "")
+            created = iso_ts(t, "created", "")
+
+            # i18n / date coverage
+            if not has_zh:
+                i18n["missing_zh"] += 1
+            if not (created and updated):
+                i18n["missing_dates"] += 1
+            elif f_mtime_iso and updated < f_mtime_iso:
+                i18n["stale_triples"] += 1
+
             for nid, raw in ((sid, subj), (tid, obj)):
                 if nid not in G:
                     G.add_node(
@@ -452,26 +554,54 @@ def main() -> int:
                         file_type="concept",
                         source_file=src,
                         source_triples=rel,
-                        description=t.get("context", ""),
                     )
-            score, conf = resolve_conf(t)
-            key = (sid, t["predicate"], tid)
-            if key not in edge_seen:
-                edge_seen.add(key)
-                G.add_edge(
-                    sid,
-                    tid,
-                    relation=t["predicate"],
-                    confidence=conf,
-                    confidence_score=score,
-                    source_file=src,
-                    source_triples=rel,
-                    context=t.get("context", ""),
+                node_candidates[nid].append(
+                    {
+                        "created": created,
+                        "updated": updated,
+                        "score": score,
+                        "en": en,
+                        "zh": zh if has_zh else "",
+                        "id": t.get("id", ""),
+                    }
                 )
+
+            key = (sid, t["predicate"], tid)
+            rec = edge_records.get(key)
+            if rec is None or _newer(updated, score, rec):
+                edge_records[key] = {
+                    "relation": t["predicate"],
+                    "confidence": conf,
+                    "confidence_score": score,
+                    "score": score,
+                    "source_file": src,
+                    "source_triples": rel,
+                    "context": en,
+                    "context_zh_TW": zh if has_zh else "",
+                    "created": created,
+                    "updated": updated,
+                }
         print(
-            f"  {rel}: +{G.number_of_nodes() - n0}n +{G.number_of_edges() - e0}e "
-            f"(running {G.number_of_nodes()}n/{G.number_of_edges()}e)"
+            f"  {rel}: +{G.number_of_nodes() - n0}n "
+            f"(running {G.number_of_nodes()}n)"
         )
+
+    # --- add edges (latest-`updated` triple wins for an identical edge key) ---
+    for (sid, _pred, tid), rec in edge_records.items():
+        G.add_edge(
+            sid,
+            tid,
+            relation=rec["relation"],
+            confidence=rec["confidence"],
+            confidence_score=rec["confidence_score"],
+            source_file=rec["source_file"],
+            source_triples=rec["source_triples"],
+            context=rec["context"],
+            context_zh_TW=rec["context_zh_TW"],
+            created=rec["created"],
+            updated=rec["updated"],
+        )
+    print(f"Added {len(edge_records)} edges ({len(G.edges())} total after dedupe)")
 
     # --- prune generic type hubs ---
     hubs = [
@@ -501,6 +631,27 @@ def main() -> int:
     print(
         f"Pruned {len(docs)} document-title nodes (of {len(discusses_sources)} discusses sources)"
     )
+
+    # --- resolve node descriptions: most recently updated bilingual triple wins ---
+    # (tie-break higher confidence, then first-seen). en-US is canonical;
+    # zh-TW falls back to en-US when a triple is not yet translated.
+    desc_resolved = 0
+    for nid in list(G.nodes()):
+        cands = node_candidates.get(nid)
+        if not cands:
+            continue
+        chosen = max(cands, key=lambda c: (c["updated"], c["score"]))
+        G.nodes[nid]["description"] = chosen["en"]
+        # Only emit description_zh_TW when a genuine translation exists; the
+        # web layer falls back to the canonical en-US description otherwise.
+        if chosen["zh"]:
+            G.nodes[nid]["description_zh_TW"] = chosen["zh"]
+        G.nodes[nid]["description_source_triple"] = chosen["id"]
+        G.nodes[nid]["description_updated"] = chosen["updated"]
+        G.nodes[nid]["created"] = chosen["created"]
+        G.nodes[nid]["updated"] = chosen["updated"]
+        desc_resolved += 1
+    print(f"Resolved descriptions for {desc_resolved} nodes (latest-updated wins)")
 
     print(f"Graph before cluster: {G.number_of_nodes()}n/{G.number_of_edges()}e")
 
@@ -537,6 +688,7 @@ def main() -> int:
 
     # --- enrich graph with pre-computed metrics ---
     graph_meta = enrich_graph_metrics(G, communities, new_labels, cohesion, gods, surprises)
+    graph_meta["i18n"] = dict(i18n)
 
     # Count topic triple files (the actual graph sources)
     total_words = sum(len(Path(f).read_text(encoding="utf-8").split()) for f in topics)
@@ -559,6 +711,11 @@ def main() -> int:
         suggested_questions=questions,
     )
     Path(GP / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
+    # --- append the i18n / multilingual coverage section ---
+    i18n_report = _format_i18n_report(i18n)
+    with open(GP / "GRAPH_REPORT.md", "a", encoding="utf-8") as fh:
+        fh.write(i18n_report)
+    print(i18n_report.strip())
     Path(GP / ".graphify_labels.json").write_text(
         json.dumps({str(k): v for k, v in new_labels.items()}, ensure_ascii=False),
         encoding="utf-8",
@@ -593,6 +750,14 @@ def main() -> int:
 
     # --- sanity-check hand-maintained data files (query.json, translations) ---
     ensure_manual_data_files()
+
+    # --- write the i18n coverage report the web app can surface ---
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    (DATA_DIR / "i18n-coverage.json").write_text(
+        json.dumps({"generated": time.strftime("%Y-%m-%d %H:%M:%S"), **dict(i18n)},
+                   ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
     # --- write content-hash version tag for web-app cache busting ---
     write_version_file()

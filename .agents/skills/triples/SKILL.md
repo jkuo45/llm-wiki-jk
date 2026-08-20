@@ -16,13 +16,33 @@ Read the target document or entity notes and extract all key factual triples in 
 ```json
 [
   {
-    "subject": "Entity Name",
-    "predicate": "verb relation",
-    "object": "Related Entity",
-    "context": "Detailed explanation of the relationship. ~200-300 words",
-    "confidence": "0.95"
+    "id": "26e6166c7ae1",
+    "subject": "Sir2 (yeast)",
+    "predicate": "is_ancestor_of",
+    "object": "Sirtuins (SIRT1-7)",
+    "context": {
+      "en-US": "Detailed explanation of the relationship. ~200-300 words.",
+      "zh-TW": "關係的詳細說明（英文的翻譯）。保留專有名詞與基因/蛋白符號原樣。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sir2 (yeast).md",
+    "created": "2026-08-19T08:30:00Z",
+    "updated": "2026-08-19T08:30:00Z"
   }
 ]
+```
+
+Each triple is authored in **English (`en-US`)** with a **`zh-TW` translation** in the same pass. `en-US` is canonical; `zh-TW` translates the prose only and **preserves entity names, gene/protein symbols, and wiki-linked terms verbatim** (e.g. `SIRT1`, `NAD+`, `p53` stay unchanged). Subjects/objects/predicates always stay canonical **English** — zh text lives only inside `context`.
+
+**Timestamps** (`created` / `updated`) are ISO-8601 UTC (`YYYY-MM-DDTHH:MM:SSZ`):
+- `created` — set when the triple is first added; never change it afterwards.
+- `updated` — bump whenever `context`, `confidence`, `subject`, or `object` change.
+- `id` — stable, deterministic (`sha1(norm(subject)|predicate|norm(object))[:12]`). Set it via the normalizer; do not hand-author. When updating an existing triple, keep its `id` and `created`, bump `updated`.
+
+Run the schema normalizer after authoring/editing triples — it idempotently fills `id` / `created` / `updated` and validates the schema:
+
+```
+uv run scripts/normalize_triples_schema.py [--check]
 ```
 
 See [TRIPLE_RULES.md](references/TRIPLE_RULES.md) for detailed extraction guidelines.
@@ -55,6 +75,8 @@ This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, 
 - **Focus** on non-obvious, useful relations — avoid trivial ones
 - **Resolve coreferences** so that the same entity uses the same name across triples
 - **Confidence levels**: `high` (directly stated, well-established), `medium` (implied or supported), `low` (speculative or inferred)
+- **Multilingual context**: every triple carries `context` in `en-US` (canonical) **and** `zh-TW` (translation). Write EN first, then translate within the same extraction pass. Preserve entity names in zh-TW.
+- **Timestamps**: set `created` (first appearance, immutable) and `updated` (on change) as ISO-8601 UTC. Never regress `updated` below `created`.
 - **Context field must describe the relationship, not just one entity** — see below
 
 The `context` field is used as the node description in the graph visualization. When the rebuild script (`03_rebuild_from_triples.py`) builds `graph.json`, it assigns each node a description drawn from one of its triples' `context` fields. If the context only describes one entity's perspective, the other entity gets a misleading description.

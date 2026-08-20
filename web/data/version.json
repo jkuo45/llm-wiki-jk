@@ -1,13 +1,16 @@
 {
-  "generated": "2026-08-18 11:11:39",
-  "tag": "255d020d6a467af9",
+  "generated": "2026-08-19 20:54:03",
+  "tag": "1e699259e28e7adc",
   "files": [
     "articles.json",
     "edges.json",
     "graph.json",
+    "i18n-coverage.json",
     "legend.json",
     "manifest.json",
     "nodes.json",
+    "notes-tags-zh-TW.json",
+    "predicates-zh-TW.json",
     "query.json",
     "translations-zh-TW.json"
   ]

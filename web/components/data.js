@@ -42,7 +42,7 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
@@ -51,6 +51,7 @@ async function loadAllData() {
     getJSON('query.json', 'traces'),
     getJSON('translations-zh-TW.json', 'translations'),
     getJSON('articles.json', 'articles'),
+    getJSON('predicates-zh-TW.json', 'predicates'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
@@ -61,10 +62,11 @@ async function loadAllData() {
     TRACES: TRACES || [],
     TRANSLATIONS: TRANSLATIONS || {},
     ARTICLES: ARTICLES || [],
+    PREDICATES: PREDICATES || {},
   };
 }
 
-export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES } = await loadAllData();
+export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES } = await loadAllData();
 
 export const nodeMap = new Map();
 RAW_NODES.forEach(n => nodeMap.set(n.id, n));
@@ -72,6 +74,16 @@ RAW_NODES.forEach(n => nodeMap.set(n.id, n));
 export const descriptionMap = new Map();
 (graphData.nodes || []).forEach(n => {
   if (n.description) descriptionMap.set(n.id, n.description);
+});
+
+// zh-TW entity descriptions, keyed like the EN maps. The rebuild emits
+// description_zh_TW on every graph.json node (falls back to en-US when a
+// triple is untranslated), so coverage mirrors the EN maps.
+export const descriptionZhMap = new Map();
+(graphData.nodes || []).forEach(n => {
+  if (n.description_zh_TW && n.description_zh_TW !== n.description) {
+    descriptionZhMap.set(n.id, n.description_zh_TW);
+  }
 });
 
 // Entity summaries keyed by node label (exact + lowercase) — used for prompt
@@ -85,6 +97,24 @@ export const descByLabel = new Map();
   const lower = n.label.toLowerCase();
   if (!descByLabel.has(lower)) descByLabel.set(lower, n.description);
 });
+
+// zh-TW variant of descByLabel (only set when a real translation exists).
+export const descByLabelZh = new Map();
+(graphData.nodes || []).forEach(n => {
+  const zh = n.description_zh_TW;
+  if (!zh || zh === n.description) return;
+  if (!descByLabelZh.has(n.label)) descByLabelZh.set(n.label, zh);
+  const lower = n.label.toLowerCase();
+  if (!descByLabelZh.has(lower)) descByLabelZh.set(lower, zh);
+});
+
+// Localize a relationship predicate for display in the zh UI. Falls back to
+// the English predicate when untranslated. Hand-maintained in
+// web/data/predicates-zh-TW.json.
+export function predicateZh(pred) {
+  if (!pred) return pred;
+  return PREDICATES[pred] || PREDICATES[pred.replace(/_/g, ' ')] || pred;
+}
 
 export const adjacency = new Map();
 RAW_EDGES.forEach(e => {
