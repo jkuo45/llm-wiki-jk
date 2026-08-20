@@ -152,8 +152,8 @@ const UI_STRINGS = {
     allTopics: 'All topics',
     filterByDocument: 'Filter by document',
     allDocuments: 'All documents',
-    sortDesc: 'Sort by updated date — newest first',
-    sortAsc: 'Sort by updated date — oldest first',
+    sortDesc: 'Sort by created date — newest first',
+    sortAsc: 'Sort by created date — oldest first',
     filterByTagPrefix: 'Filter by tag: ',
     panelLanguage: 'Panel language',
     langEn: 'English (US)',
@@ -209,8 +209,8 @@ const UI_STRINGS = {
     allTopics: '全部主題',
     filterByDocument: '文件篩選',
     allDocuments: '全部文件',
-    sortDesc: '依更新日期排序 — 最新在前',
-    sortAsc: '依更新日期排序 — 最舊在前',
+    sortDesc: '依建立日期排序 — 最新在前',
+    sortAsc: '依建立日期排序 — 最舊在前',
     filterByTagPrefix: '以標籤篩選: ',
     panelLanguage: '面板語言',
     langEn: '英語（美國）',
@@ -389,10 +389,10 @@ function noteTopic(note) {
 
 const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 // Short "MMM YYYY" (uppercase) banner date for a note, derived from its
-// `updated` date (falling back to `created`), matching the gallery sort order.
+// `created` date (falling back to `updated`), matching the gallery sort order.
 function noteMonthYear(n) {
-  const d = (n.updated && /^\d{4}-\d{2}-\d{2}/.test(n.updated)) ? n.updated
-    : (n.created && /^\d{4}-\d{2}-\d{2}/.test(n.created)) ? n.created : '';
+  const d = (n.created && /^\d{4}-\d{2}-\d{2}/.test(n.created)) ? n.created
+    : (n.updated && /^\d{4}-\d{2}-\d{2}/.test(n.updated)) ? n.updated : '';
   if (!d) return '';
   const [y, m] = d.split('-');
   const mon = MONTHS_SHORT[parseInt(m, 10) - 1];
@@ -547,13 +547,13 @@ function noteMatchesText(n, q) {
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
   const list = notes.filter((n) => noteHasTags(n, [...activeTags]) && noteMatchesText(n, q));
-  // Sort by `updated` date (falling back to `created` when it is missing),
+  // Sort by `created` date (falling back to `updated` when it is missing),
   // direction driven by the sort toggle: newest first by default, oldest first
-  // when toggled. `updated`/`created` are ISO-ish `YYYY-MM-DD` strings, which
+  // when toggled. `created`/`updated` are ISO-ish `YYYY-MM-DD` strings, which
   // compare correctly lexicographically. Missing dates sort last; the note id
   // breaks ties stably.
   const dateKey = (n) => {
-    const d = (n.updated && /^\d{4}-\d{2}-\d{2}/.test(n.updated)) ? n.updated : (n.created || '');
+    const d = (n.created && /^\d{4}-\d{2}-\d{2}/.test(n.created)) ? n.created : (n.updated || '');
     return d;
   };
   return list.sort((a, b) => {
