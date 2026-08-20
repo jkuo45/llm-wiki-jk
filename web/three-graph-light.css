@@ -300,6 +300,11 @@ body {
 #at-node-detail .route-arrow { color: #9AA4B3; }
 #at-node-detail .route-meta { color: #7C8698; }
 #at-node-detail .route-mechanism { color: #4B5563; }
+#at-node-detail .at-node-head-langs { background: #FFFFFF; border-color: #CCC5B2; }
+#at-node-detail .at-node-head-langs button { color: #7C8698; }
+#at-node-detail .at-node-head-langs button + button { border-left-color: #CCC5B2; }
+#at-node-detail .at-node-head-langs button:hover:not(.active) { color: #22304A; }
+#at-node-detail .at-node-head-langs button.active { background: #0F766E; color: #fff; }
 #trace-summary .trace-question { color: #22304A; }
 #trace-summary .trace-summary-text { color: #4B5563; }
 #trace-clear { background: #F6F3EC; border-color: #CCC5B2; color: #0F766E; }

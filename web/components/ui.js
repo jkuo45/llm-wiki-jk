@@ -63,6 +63,48 @@ const infoCard = document.getElementById('at-node-detail');
 
 export function hideNodeInfo() {
   if (infoCard) infoCard.hidden = true;
+  detailHistory = [];
+  currentView = null;
+}
+
+// ------------------------------------------------------------
+// Node/edge detail head language toggle.
+// The detail sheet renders bilingual content from `state.analysisUiLang`
+// (shared with the analysis panel). A small EN/中 toggle in the head makes it
+// switchable in place; the head is laid out as two rows to fit it.
+// ------------------------------------------------------------
+function headLangToggle() {
+  const cur = state.analysisUiLang === 'zh-TW' ? 'zh-TW' : 'en-US';
+  return `<div class="at-node-head-langs" role="group" aria-label="Language / 語言">
+    <button type="button" data-nlang="en-US" class="${cur === 'en-US' ? 'active' : ''}" title="English (US)">EN</button>
+    <button type="button" data-nlang="zh-TW" class="${cur === 'zh-TW' ? 'active' : ''}" title="繁體中文（台灣）">中</button>
+  </div>`;
+}
+
+// Wire the head toggle buttons (recreated on every render) and sync their
+// active state to the shared analysis-panel language.
+function bindHeadLangToggle() {
+  if (!infoCard) return;
+  infoCard.querySelectorAll('.at-node-head [data-nlang]').forEach((b) => {
+    b.classList.toggle('active', b.dataset.nlang === state.analysisUiLang);
+    b.addEventListener('click', () => setNodeLang(b.dataset.nlang));
+  });
+}
+
+// Apply a language chosen in the detail head: update the shared
+// analysis-panel language (+ persistence), sync the analysis panel's own
+// toggle, and re-render whatever detail card is showing.
+function setNodeLang(lang) {
+  if (lang !== 'en-US' && lang !== 'zh-TW') return;
+  state.analysisUiLang = lang;
+  try { localStorage.setItem('llm-wiki-analysis-ui-lang', lang); } catch (e) { /* ignore */ }
+  document.querySelectorAll('#prompt-lang [data-lang]').forEach((b) =>
+    b.classList.toggle('active', b.dataset.lang === lang));
+  if (currentView && infoCard && !infoCard.hidden) {
+    if (currentView.type === 'node') renderNodeInfo(currentView.id, currentView.actions);
+    else if (currentView.type === 'community') renderCommunityInfo(currentView.cid, currentView.actions);
+    else renderEdgeInfo(currentView.edge);
+  }
 }
 
 const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg>';
@@ -70,7 +112,41 @@ const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" s
 // Render the merged node info card: identity + wiki/source links + context +
 // topology metrics + clickable connections. `actions` (optional) adds the
 // Graph-mode Focus / Set A / Set B buttons via callbacks supplied by prompt.js.
+// ---- Back-navigation history for the node/edge detail sheet ----
+// Records each node/edge card the user views so that clicking through
+// Connections (or selecting other nodes/edges) can be undone with Back.
+const DETAIL_HISTORY_MAX = 50;
+let detailHistory = [];   // stack of earlier views (last entry = most recent)
+let currentView = null;   // { type:'node', id, actions } | { type:'edge', edge } | { type:'community', cid }
+
+function viewEq(a, b) {
+  if (!a || !b) return false;
+  if (a.type !== b.type) return false;
+  if (a.type === 'node') return a.id === b.id;
+  if (a.type === 'community') return a.cid === b.cid;
+  return a.edge === b.edge;
+}
+
 export function showInfo(nodeId, actions) {
+  if (!nodeMap.get(nodeId) || !infoCard) return;
+  if (currentView && !viewEq(currentView, { type: 'node', id: nodeId })) {
+    detailHistory.push(currentView);
+    if (detailHistory.length > DETAIL_HISTORY_MAX) detailHistory.shift();
+  }
+  currentView = { type: 'node', id: nodeId, actions };
+  renderNodeInfo(nodeId, actions);
+}
+
+export function goBackDetail() {
+  const prev = detailHistory.pop();
+  if (!prev) return;
+  currentView = prev;
+  if (prev.type === 'node') renderNodeInfo(prev.id, prev.actions);
+  else if (prev.type === 'community') renderCommunityInfo(prev.cid, prev.actions);
+  else renderEdgeInfo(prev.edge);
+}
+
+function renderNodeInfo(nodeId, actions) {
   const n = nodeMap.get(nodeId);
   if (!n || !infoCard) return;
 
@@ -122,10 +198,17 @@ export function showInfo(nodeId, actions) {
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
 
+  const hasBack = detailHistory.length > 0;
+  const backBtn = hasBack ? '<button type="button" class="at-node-back" aria-label="Back" title="Back">&larr;</button>' : '';
+
   infoCard.innerHTML = `
     <div class="at-node-head">
-      <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
-      <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+      <div class="at-node-head-top">
+        ${backBtn}
+        <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
+        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+      </div>
+      ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -145,6 +228,8 @@ export function showInfo(nodeId, actions) {
   `;
 
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+  const backEl = infoCard.querySelector('.at-node-back');
+  if (backEl) backEl.addEventListener('click', goBackDetail);
   if (actions && actions.onFocus) {
     infoCard.querySelector('.at-focus').addEventListener('click', actions.onFocus);
   }
@@ -154,11 +239,22 @@ export function showInfo(nodeId, actions) {
   if (actions && actions.onAddB) {
     infoCard.querySelector('.at-add[data-set="b"]').addEventListener('click', actions.onAddB);
   }
+  bindHeadLangToggle();
   infoCard.hidden = false;
 }
 
 // Relation card for a selected edge (replaces the old sidebar edge info).
 export function showEdgeInfo(edge) {
+  if (!infoCard) return;
+  if (currentView && !viewEq(currentView, { type: 'edge', edge })) {
+    detailHistory.push(currentView);
+    if (detailHistory.length > DETAIL_HISTORY_MAX) detailHistory.shift();
+  }
+  currentView = { type: 'edge', edge };
+  renderEdgeInfo(edge);
+}
+
+function renderEdgeInfo(edge) {
   if (!infoCard) return;
   const fromNode = nodeMap.get(edge.from);
   const toNode = nodeMap.get(edge.to);
@@ -180,10 +276,17 @@ export function showEdgeInfo(edge) {
     ? (edge.context_zh_TW || edge.context || '')
     : (edge.context || edge.context_zh_TW || '');
 
+  const hasBack = detailHistory.length > 0;
+  const backBtn = hasBack ? '<button type="button" class="at-node-back" aria-label="Back" title="Back">&larr;</button>' : '';
+
   infoCard.innerHTML = `
     <div class="at-node-head">
-      <span class="at-node-title">Relation / 關聯</span>
-      <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+      <div class="at-node-head-top">
+        ${backBtn}
+        <span class="at-node-title">Relation / 關聯</span>
+        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+      </div>
+      ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
       <div class="field" style="margin-top:6px">
@@ -196,10 +299,107 @@ export function showEdgeInfo(edge) {
   `;
 
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+  const backEl = infoCard.querySelector('.at-node-back');
+  if (backEl) backEl.addEventListener('click', goBackDetail);
+  bindHeadLangToggle();
   infoCard.hidden = false;
 }
 
-// Click-through on connection chips inside the info card.
+// Community card: rendered into the same slide-up detail sheet when clicking a
+// community row in the analysis panel. Surfaces the community's hub concept
+// (description + wiki note), topology metrics, and its most-connected members.
+// `actions` (optional) provides Isolate / Set A / Set B callbacks from prompt.js.
+export function showCommunityInfo(cid, actions) {
+  const c = LEGEND.find(x => x.cid === cid);
+  if (!c || !infoCard) return;
+  if (currentView && !viewEq(currentView, { type: 'community', cid })) {
+    detailHistory.push(currentView);
+    if (detailHistory.length > DETAIL_HISTORY_MAX) detailHistory.shift();
+  }
+  currentView = { type: 'community', cid, actions };
+  renderCommunityInfo(cid, actions);
+}
+
+function renderCommunityInfo(cid, actions) {
+  if (!infoCard) return;
+  const c = LEGEND.find(x => x.cid === cid);
+  if (!c) return;
+
+  const members = RAW_NODES
+    .filter(n => n.community === cid)
+    .sort((a, b) => (b.degree || 0) - (a.degree || 0));
+  const hub = RAW_NODES.find(n => n.label === c.label);
+
+  const zhTWName = TRANSLATIONS[c.label] || '';
+  const displayName = zhTWName && zhTWName !== c.label ? `${c.label} / ${zhTWName}` : c.label;
+
+  // Representative description: fall back to the top-degree member when the hub
+  // node has no description. Mirror the node sheet's zh-TW handling.
+  const descNode = (hub && hub.description) ? hub : members[0];
+  const useZh = state.analysisUiLang === 'zh-TW';
+  const description = descNode
+    ? (useZh ? (descNode.description_zh_TW || descNode.description || '') : (descNode.description || ''))
+    : '';
+
+  const wikiLink = (hub && (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')))
+    ? `<a href="${esc(noteUrl(hub.label) || githubSourceUrl(hub.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(hub.label)} ${LINK_ICON}</a>`
+    : '—';
+
+  const memberLinks = members.slice(0, 12).map(n => {
+    const nbZhTW = TRANSLATIONS[n.label] || '';
+    const nbDisplay = nbZhTW && nbZhTW !== n.label ? `${n.label} / ${nbZhTW}` : n.label;
+    const color = (n.color && n.color.background) || '#555';
+    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(n.id)}">${esc(nbDisplay)} <span class="at-comm-count">${n.degree || 0}</span></span>`;
+  }).join('');
+
+  const actionsHTML = actions ? `
+    <div class="at-node-actions">
+      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus" title="Focus / 聚焦">Focus / 聚焦</button>` : ''}
+      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
+      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
+    </div>` : '';
+
+  const hasBack = detailHistory.length > 0;
+  const backBtn = hasBack ? '<button type="button" class="at-node-back" aria-label="Back" title="Back">&larr;</button>' : '';
+
+  infoCard.innerHTML = `
+    <div class="at-node-head">
+      <div class="at-node-head-top">
+        ${backBtn}
+        <span class="at-node-title">${esc(displayName)} <span class="node-type" style="color:${esc(c.color)}">community</span></span>
+        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+      </div>
+      ${headLangToggle()}
+    </div>
+    <div class="at-node-scroll">
+      <div class="at-node-metrics">
+        <div class="at-kv"><span class="key"><span class="sw" style="background:${esc(c.color)}"></span>Community</span><span class="val">#${c.cid}</span></div>
+        <div class="at-kv"><span class="key">Nodes</span><span class="val">${members.length}</span></div>
+        <div class="at-kv"><span class="key">Size</span><span class="val">${c.count || members.length}</span></div>
+        <div class="at-kv"><span class="key">Hub</span><span class="val">${esc(hub ? hub.label : c.label)}</span></div>
+      </div>
+      <div class="field node-source-row"><span class="info-muted">Source:</span> ${wikiLink}</div>
+      ${description ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>` : ''}
+      ${memberLinks ? `<div class="field info-connections">Top members (${members.length})</div><div id="neighbors-list">${memberLinks}</div>` : ''}
+    </div>
+    ${actionsHTML}
+  `;
+
+  infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+  const backEl = infoCard.querySelector('.at-node-back');
+  if (backEl) backEl.addEventListener('click', goBackDetail);
+  if (actions && actions.onIsolate) {
+    infoCard.querySelector('.at-node-actions .at-node-btn:not(.at-add)').addEventListener('click', actions.onIsolate);
+  }
+  if (actions && actions.onAddA) {
+    infoCard.querySelector('.at-node-actions .at-add[data-set="a"]').addEventListener('click', actions.onAddA);
+  }
+  if (actions && actions.onAddB) {
+    infoCard.querySelector('.at-node-actions .at-add[data-set="b"]').addEventListener('click', actions.onAddB);
+  }
+  bindHeadLangToggle();
+  infoCard.hidden = false;
+}
 document.addEventListener('click', e => {
   const el = e.target.closest('.neighbor-link');
   if (el && el.dataset.nid !== undefined) {
@@ -410,8 +610,11 @@ export function activateRoute(trace, routeIdx) {
     }).join('');
     infoCard.innerHTML = `
       <div class="at-node-head">
-        <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
-        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+        <div class="at-node-head-top">
+          <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
+          <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+        </div>
+        ${headLangToggle()}
       </div>
       <div class="at-node-scroll">
         <div class="route-path">${pathHtml}</div>
@@ -419,6 +622,7 @@ export function activateRoute(trace, routeIdx) {
       </div>
     `;
     infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+    bindHeadLangToggle();
     infoCard.hidden = false;
   }
 
