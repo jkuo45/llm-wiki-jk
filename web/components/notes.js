@@ -373,16 +373,33 @@ lbImg.addEventListener('error', () => {
 
 // Notes no longer carry a `topic` field — categorization lives in tags.
 // Derive a display topic from the tags list (prefer the topic-style
-// tag when present, otherwise the first tag). This mirrors the controlled
-// vocabulary in scripts/normalize_manifest_vocab.py (TOPICS set).
-const KNOWN_TOPICS = [
-  'adrenochrome', 'autophagy', 'blood-cells', 'cancer', 'comt', 'creatine',
-  'epigenetics', 'eye', 'immunology', 'metabolism', 'neuromelanin', 'nutrition',
-  'oxidative-stress', 'parasitology', 'senescence', 'sirtuins', 'spermidine',
-];
+// tag when present, otherwise the first tag). The controlled vocabulary
+// of valid topic slugs is auto-derived from the src/notes/*/ directory
+// layout and exported to web/data/topics.json by 03_rebuild_from_triples.py,
+// so adding a topic folder needs no code change. Until that JSON loads
+// (null), fall back to the tag list as before.
+let KNOWN_TOPICS = null;        // string[] once loaded from topics.json
+let topicsPending = false;
+
+function loadTopics() {
+  if (KNOWN_TOPICS !== null || topicsPending) return;
+  topicsPending = true;
+  fetch(NOTES_DATA_BASE + 'topics.json?v=' + Date.now())
+    .then((r) => (r.ok ? r.json() : []))
+    .then((d) => {
+      KNOWN_TOPICS = Array.isArray(d) ? d : [];
+      refreshTagLabels();        // re-render cards with the resolved topic
+    })
+    .catch(() => { KNOWN_TOPICS = []; })
+    .finally(() => { topicsPending = false; });
+}
+
+loadTopics();                  // kick off the fetch after KNOWN_TOPICS is initialized
+
 function noteTopic(note) {
   const tags = note.tags || [];
-  const hit = tags.find((t) => KNOWN_TOPICS.includes(t));
+  const list = KNOWN_TOPICS || [];
+  const hit = tags.find((t) => list.includes(t));
   return (hit || tags[0] || 'misc').trim();
 }
 

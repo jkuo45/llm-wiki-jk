@@ -320,8 +320,11 @@ slug; 繁體中文 pulls a label from `web/data/notes-tags-zh-TW.json`
 (`{ <slug>: '繁體中文 label' }`) via `tagLabel()` in
 `web/components/notes.js`. The file is hand-maintained and must cover the full
 closed vocabulary above — any time a new tag is added to the vocabulary, add a
-matching label there (and to `KNOWN_TOPICS`/filters in `notes.js` if it's a
-topic). The slug stays the source of truth for filtering/search; only the
+matching label there. The topic taxonomy itself is no longer hard-coded:
+`web/components/notes.js` loads the valid topic slugs from
+`web/data/topics.json`, which `scripts/03_rebuild_from_triples.py` auto-derives
+from the `src/notes/*/` directory layout (re-run the rebuild after adding a
+topic folder). The slug stays the source of truth for filtering/search; only the
 displayed text is localized.
 
 ## Optional: verify in the web app

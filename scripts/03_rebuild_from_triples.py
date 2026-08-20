@@ -54,6 +54,7 @@ ROOT = Path(__file__).resolve().parent.parent  # repo root
 GP = ROOT / "graphify-out"          # canonical graphify analysis artifacts
 WEB = ROOT / "web"                  # standalone three-graph web app (deployed)
 DATA_DIR = WEB / "data"             # runtime data JSONs consumed by the web app
+NOTES_DIR = ROOT / "src" / "notes"  # topic-scoped entity notes (topic = directory)
 
 # Hand-maintained data files the script does NOT produce but that must exist
 # alongside the generated ones in web/data/ (checked by ensure_manual_data_files).
@@ -381,6 +382,30 @@ def write_version_file() -> None:
     print(f"Wrote data version tag {tag} over {len(files)} files")
 
 
+def write_topics_json() -> None:
+    """Write web/data/topics.json: the controlled topic-slug vocabulary.
+
+    The web notes panel (components/notes.js) derives a card's display topic
+    from its tags by preferring a slug that is a real topic directory. Instead
+    of maintaining a hard-coded KNOWN_TOPICS list in JS, auto-derive it here
+    from the src/notes/*/ directory layout (excluding the shared _link/ folder).
+    Folder names with underscores are normalized to hyphens so they match the
+    tag-slug convention used throughout the manifest/vocab. Adding a topic is
+    now purely a matter of creating a new src/notes/<topic>/ directory.
+    """
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    topics = [
+        p.name.replace("_", "-")
+        for p in sorted(NOTES_DIR.iterdir())
+        if p.is_dir() and not p.name.startswith("_")
+    ]
+    (DATA_DIR / "topics.json").write_text(
+        json.dumps(topics, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"Wrote web/data/topics.json ({len(topics)} topics)")
+
+
 # ------------------------------------------------------------------
 # Graph enrichment: pre-compute node/edge metrics for graph.json
 # ------------------------------------------------------------------
@@ -569,7 +594,7 @@ def main() -> int:
             key = (sid, t["predicate"], tid)
             rec = edge_records.get(key)
             if rec is None or _newer(updated, score, rec):
-                edge_records[key] = {
+                edge = {
                     "relation": t["predicate"],
                     "confidence": conf,
                     "confidence_score": score,
@@ -577,10 +602,14 @@ def main() -> int:
                     "source_file": src,
                     "source_triples": rel,
                     "context": en,
-                    "context_zh_TW": zh if has_zh else "",
                     "created": created,
                     "updated": updated,
                 }
+                # Only carry a zh-TW context when a real translation exists;
+                # otherwise omit the field (the web layer falls back to en-US).
+                if has_zh:
+                    edge["context_zh_TW"] = zh
+                edge_records[key] = edge
         print(
             f"  {rel}: +{G.number_of_nodes() - n0}n "
             f"(running {G.number_of_nodes()}n)"
@@ -747,6 +776,9 @@ def main() -> int:
 
     # --- copy shared graphify JSON the web app needs into web/data/ ---
     copy_shared_json()
+
+    # --- regenerate the topic-slug vocabulary the notes panel consumes ---
+    write_topics_json()
 
     # --- sanity-check hand-maintained data files (query.json, translations) ---
     ensure_manual_data_files()
