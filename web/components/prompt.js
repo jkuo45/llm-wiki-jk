@@ -10,7 +10,7 @@ import {
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, hideNodeInfo } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, hideNodeInfo } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
@@ -1865,13 +1865,17 @@ function renderAnalysisTools() {
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
     return `<div class="at-comm" data-cid="${c.cid}">
-      <span class="sw" style="background:${esc(c.color)}"></span>
-      <span class="at-comm-name">${esc(c.label)}</span>
-      <span class="at-comm-count">${c.count} · ${esc(top)}</span>
-      <span class="at-ab">
-        <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
-        <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
-      </span>
+      <div class="at-comm-main">
+        <span class="sw" style="background:${esc(c.color)}"></span>
+        <span class="at-comm-name">${esc(c.label)}</span>
+      </div>
+      <div class="at-comm-foot">
+        <span class="at-comm-count">${c.count} · ${esc(top)}</span>
+        <span class="at-ab">
+          <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
+          <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
+        </span>
+      </div>
     </div>`;
   }).join('');
 
@@ -1939,7 +1943,11 @@ function renderAnalysisTools() {
     const label = el.querySelector('.at-comm-name').textContent;
     el.addEventListener('click', (e) => {
       if (e.target.closest('.at-ab')) return;
-      exploreIsolate(ids);
+      showCommunityInfo(cid, {
+        onIsolate: () => exploreIsolate(ids),
+        onAddA: () => toggleCompareCommunity(cid, label, ids, 'a'),
+        onAddB: () => toggleCompareCommunity(cid, label, ids, 'b'),
+      });
     });
     el.querySelectorAll('.at-ab button').forEach(btn => {
       btn.addEventListener('click', (e) => {

@@ -389,7 +389,7 @@ function onMouseUp() {
       addStickyRing(mesh);
     });
 
-    btnUnstick.style.display = 'block';
+    btnUnstick.style.display = 'flex';
   }
   isDragging = false;
   draggedNode = null;
