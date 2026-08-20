@@ -111,6 +111,12 @@ function setNodeLang(lang) {
 
 const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg>';
 
+// Context / evidence text rendered as a card that matches the metrics-card look.
+function contextCard(text, max = 2800) {
+  if (!text) return '';
+  return `<div class="wiki-context-card"><span class="info-muted">Context</span><div class="wiki-context-text">${esc(text.slice(0, max))}${text.length > max ? '…' : ''}</div></div>`;
+}
+
 // Render the merged node info card: identity + wiki/source links + context +
 // topology metrics + clickable connections. `actions` (optional) adds the
 // Graph-mode Focus / Set A / Set B buttons via callbacks supplied by prompt.js.
@@ -195,9 +201,7 @@ function renderNodeInfo(nodeId, actions) {
     ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" class="at-node-link">${esc(n.label)} ${LINK_ICON}</a>`
     : '—';
 
-  const wikiDesc = description
-    ? `<div class="wiki-context-card"><span class="info-muted">Context</span><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>`
-    : '';
+  const wikiDesc = contextCard(description);
 
   const edgeSourceLink = n.source_file
     ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(n.source_file.split('/').pop())} ${LINK_ICON}</a>`
@@ -311,6 +315,7 @@ function renderEdgeInfo(edge) {
         <span class="at-node-title">Relation / 關聯</span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
+      <div class="at-node-head-divider"></div>
       ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
@@ -319,7 +324,7 @@ function renderEdgeInfo(edge) {
         <div class="route-arrow">↓ ${esc(displayRelation)} ${confidence ? `<span class="conf-hint">${esc(confidence)}</span>` : ''}</div>
         <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(edge.to)}">${esc(toDisplay)}</span>
       </div>
-      ${edgeDesc ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(edgeDesc.slice(0, 1200))}${edgeDesc.length > 1200 ? '…' : ''}</div></div>` : ''}
+      ${contextCard(edgeDesc, 1200)}
     </div>
   `;
 
@@ -400,6 +405,7 @@ function renderCommunityInfo(cid, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type" style="color:${esc(c.color)}">community</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
+      <div class="at-node-head-divider"></div>
       ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
@@ -410,7 +416,7 @@ function renderCommunityInfo(cid, actions) {
         <div class="at-kv"><span class="key">Hub</span><span class="val">${esc(hub ? hub.label : c.label)}</span></div>
       </div>
       <div class="field node-source-row"><span class="info-muted">Source:</span> ${wikiLink}</div>
-      ${description ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>` : ''}
+      ${contextCard(description)}
       ${memberLinks ? `<div class="field info-connections">Top members (${members.length})</div><div id="neighbors-list">${memberLinks}</div>` : ''}
     </div>
     <div class="at-node-head-actions-row">
@@ -652,6 +658,7 @@ export function activateRoute(trace, routeIdx) {
             <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
             <button type="button" class="at-node-close" aria-label="Close">&times;</button>
           </div>
+          <div class="at-node-head-divider"></div>
           ${headLangToggle()}
         </div>
         <div class="at-node-scroll">
