@@ -288,6 +288,7 @@ body {
 .at-node-btn { background: #F6F3EC; border-color: #CCC5B2; color: #0F766E; }
 .at-node-btn:hover { border-color: #0F766E; color: #0F766E; }
 .at-node-btn.at-focus { border-color: #0F766E; color: #0F766E; }
+#at-node-detail .at-node-actions .at-node-btn.on { background: #0F766E; border-color: #0F766E; color: #fff; font-weight: 600; }
 #at-node-detail .field { color: #4B5563; }
 #at-node-detail .info-muted { color: #7C8698; }
 #at-node-detail .wiki-context-text { color: #4B5563; }

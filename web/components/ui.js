@@ -195,11 +195,13 @@ function renderNodeInfo(nodeId, actions) {
     ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(n.source_file.split('/').pop())} ${LINK_ICON}</a>`
     : '-';
 
+  const inA = !!(actions && actions.isInA && actions.isInA());
+  const inB = !!(actions && actions.isInB && actions.isInB());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus" title="Focus / 聚焦">Focus / 聚焦</button>` : ''}
-      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
-      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
+      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus" title="Filter / 篩選">Filter / 篩選</button>` : ''}
+      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
+      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
 
   const hasBack = detailHistory.length > 0;
@@ -212,7 +214,10 @@ function renderNodeInfo(nodeId, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
-      ${headLangToggle()}
+      <div class="at-node-head-actions-row">
+        ${actionsHTML}
+        ${headLangToggle()}
+      </div>
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -228,7 +233,6 @@ function renderNodeInfo(nodeId, actions) {
       <div class="field info-divider"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>
       ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
     </div>
-    ${actionsHTML}
   `;
 
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
@@ -238,10 +242,18 @@ function renderNodeInfo(nodeId, actions) {
     infoCard.querySelector('.at-focus').addEventListener('click', actions.onFocus);
   }
   if (actions && actions.onAddA) {
-    infoCard.querySelector('.at-add[data-set="a"]').addEventListener('click', actions.onAddA);
+    const btn = infoCard.querySelector('.at-add[data-set="a"]');
+    btn.addEventListener('click', () => {
+      actions.onAddA();
+      if (actions.isInA) btn.classList.toggle('on', actions.isInA());
+    });
   }
   if (actions && actions.onAddB) {
-    infoCard.querySelector('.at-add[data-set="b"]').addEventListener('click', actions.onAddB);
+    const btn = infoCard.querySelector('.at-add[data-set="b"]');
+    btn.addEventListener('click', () => {
+      actions.onAddB();
+      if (actions.isInB) btn.classList.toggle('on', actions.isInB());
+    });
   }
   bindHeadLangToggle();
   infoCard.hidden = false;
@@ -358,11 +370,13 @@ function renderCommunityInfo(cid, actions) {
     return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(n.id)}">${esc(nbDisplay)} <span class="at-comm-count">${n.degree || 0}</span></span>`;
   }).join('');
 
+  const inA = !!(actions && actions.isInA && actions.isInA());
+  const inB = !!(actions && actions.isInB && actions.isInB());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus" title="Focus / 聚焦">Focus / 聚焦</button>` : ''}
-      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
-      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
+      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus" title="Filter / 篩選">Filter / 篩選</button>` : ''}
+      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
+      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
 
   const hasBack = detailHistory.length > 0;
@@ -375,7 +389,10 @@ function renderCommunityInfo(cid, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type" style="color:${esc(c.color)}">community</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
-      ${headLangToggle()}
+      <div class="at-node-head-actions-row">
+        ${actionsHTML}
+        ${headLangToggle()}
+      </div>
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -388,7 +405,6 @@ function renderCommunityInfo(cid, actions) {
       ${description ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>` : ''}
       ${memberLinks ? `<div class="field info-connections">Top members (${members.length})</div><div id="neighbors-list">${memberLinks}</div>` : ''}
     </div>
-    ${actionsHTML}
   `;
 
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
@@ -398,10 +414,18 @@ function renderCommunityInfo(cid, actions) {
     infoCard.querySelector('.at-node-actions .at-node-btn:not(.at-add)').addEventListener('click', actions.onIsolate);
   }
   if (actions && actions.onAddA) {
-    infoCard.querySelector('.at-node-actions .at-add[data-set="a"]').addEventListener('click', actions.onAddA);
+    const btn = infoCard.querySelector('.at-node-actions .at-add[data-set="a"]');
+    btn.addEventListener('click', () => {
+      actions.onAddA();
+      if (actions.isInA) btn.classList.toggle('on', actions.isInA());
+    });
   }
   if (actions && actions.onAddB) {
-    infoCard.querySelector('.at-node-actions .at-add[data-set="b"]').addEventListener('click', actions.onAddB);
+    const btn = infoCard.querySelector('.at-node-actions .at-add[data-set="b"]');
+    btn.addEventListener('click', () => {
+      actions.onAddB();
+      if (actions.isInB) btn.classList.toggle('on', actions.isInB());
+    });
   }
   bindHeadLangToggle();
   infoCard.hidden = false;

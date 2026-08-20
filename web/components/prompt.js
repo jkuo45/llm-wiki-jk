@@ -1830,7 +1830,7 @@ function atRowHTML(n, kind, s) {
 function exploreFocusNode(id) {
   const ids = Array.from(new Set([id, ...(adjacency.get(id) || []).map(a => a.target)]));
   highlightPromptNodes(ids, edgesBetween(ids), id);
-  promptFilterCheckbox.checked = false;
+  promptFilterCheckbox.checked = true;
   applyPromptNodeFilter();
 }
 
@@ -1947,6 +1947,8 @@ function renderAnalysisTools() {
         onIsolate: () => exploreIsolate(ids),
         onAddA: () => toggleCompareCommunity(cid, label, ids, 'a'),
         onAddB: () => toggleCompareCommunity(cid, label, ids, 'b'),
+        isInA: () => compareA.some(e => e.type === 'community' && e.cid === cid),
+        isInB: () => compareB.some(e => e.type === 'community' && e.cid === cid),
       });
     });
     el.querySelectorAll('.at-ab button').forEach(btn => {
@@ -2034,6 +2036,8 @@ function openNodeDetail(id) {
     onFocus: () => { exploreFocusNode(n.id); hideNodeInfo(); },
     onAddA: () => toggleCompare(id, 'a'),
     onAddB: () => toggleCompare(id, 'b'),
+    isInA: () => compareA.some(e => e.type === 'node' && e.id === id),
+    isInB: () => compareB.some(e => e.type === 'node' && e.id === id),
   });
 }
 

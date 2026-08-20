@@ -604,8 +604,13 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   display: flex; flex-direction: column; gap: 10px; padding-right: 2px;
 }
 #at-node-detail > .at-node-head { flex-shrink: 0; }
-#at-node-detail > .at-node-actions { flex-shrink: 0; }
+#at-node-detail .at-node-actions { flex-shrink: 0; margin-top: 2px; }
 .at-node-head { display: flex; flex-direction: column; gap: 8px; }
+/* Shared row: quick actions on the left, language toggle on the right. */
+.at-node-head-actions-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 8px; flex-wrap: wrap;
+}
 .at-node-head-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 /* Language toggle row in the detail head (EN / 中), right-aligned below the
    title row. Mirrors the analysis/notes panel toggle styling. */
@@ -642,9 +647,12 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .at-kv .val { font-size: 12px; color: #e0e0e0; font-variant-numeric: tabular-nums; min-width: 0; white-space: normal; overflow-wrap: anywhere; text-align: right; }
 .at-node-desc { font-size: 12px; color: #bbb; line-height: 1.55; max-height: 120px; overflow: hidden; }
 .at-node-actions { display: flex; gap: 6px; flex-wrap: wrap; }
-.at-node-btn { background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 6px; padding: 5px 10px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+.at-node-btn { background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 6px; padding: 2px 10px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
 .at-node-btn:hover { border-color: #4E79A7; color: #fff; }
 .at-node-btn.at-focus { border-color: #4E79A7; }
+/* Solid/active state for Set A / Set B when the node is in the compare set. */
+.at-node-btn.on { background: #4E79A7; border-color: #4E79A7; color: #fff; font-weight: 600; }
+.at-node-btn.on:hover { border-color: #69a3d0; color: #fff; }
 /* ---- Consolidated node-info card additions (old sidebar removed) ---- */
 #at-node-detail .at-node-title { font-size: 14px; }
 #at-node-detail .field { font-size: 12px; color: #c6c6d4; }
