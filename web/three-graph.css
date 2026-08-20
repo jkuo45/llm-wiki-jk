@@ -606,8 +606,8 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #at-node-detail > .at-node-head { flex-shrink: 0; }
 #at-node-detail .at-node-actions { flex-shrink: 0; margin-top: 2px; }
 .at-node-head { display: flex; flex-direction: column; gap: 8px; }
-/* Fixed bottom-left action bar (Filter / A / B + language toggle). Always
-   visible, below the scrollable content. */
+/* Fixed bottom-left action bar (Filter / A / B). Always visible, below the
+   scrollable content. The language toggle stays top-right in the header. */
 .at-node-head-actions-row {
   display: flex; align-items: center; justify-content: flex-start;
   gap: 8px; flex-wrap: wrap; flex-shrink: 0;

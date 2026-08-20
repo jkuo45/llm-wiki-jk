@@ -217,6 +217,7 @@ function renderNodeInfo(nodeId, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
+      ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -234,7 +235,6 @@ function renderNodeInfo(nodeId, actions) {
     </div>
     <div class="at-node-head-actions-row">
       ${actionsHTML}
-      ${headLangToggle()}
     </div>
   `;
 
@@ -391,6 +391,7 @@ function renderCommunityInfo(cid, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type" style="color:${esc(c.color)}">community</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
+      ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -405,7 +406,6 @@ function renderCommunityInfo(cid, actions) {
     </div>
     <div class="at-node-head-actions-row">
       ${actionsHTML}
-      ${headLangToggle()}
     </div>
   `;
 
