@@ -1944,13 +1944,17 @@ function renderAnalysisTools() {
     el.addEventListener('click', (e) => {
       if (e.target.closest('.at-ab')) return;
       showCommunityInfo(cid, {
-        onIsolate: () => exploreIsolate(ids),
-        onAddA: () => toggleCompareCommunity(cid, label, ids, 'a'),
-        onAddB: () => toggleCompareCommunity(cid, label, ids, 'b'),
-        isInA: () => compareA.some(e => e.type === 'community' && e.cid === cid),
-        isInB: () => compareB.some(e => e.type === 'community' && e.cid === cid),
-        filterCount: ids.length,
-      });
+        onIsolate: () => {
+        if (promptFilterCheckbox.checked && promptHighlightedNodes.length) clearPromptHighlights();
+        else exploreIsolate(ids);
+      },
+      onAddA: () => toggleCompareCommunity(cid, label, ids, 'a'),
+      onAddB: () => toggleCompareCommunity(cid, label, ids, 'b'),
+      isInA: () => compareA.some(e => e.type === 'community' && e.cid === cid),
+      isInB: () => compareB.some(e => e.type === 'community' && e.cid === cid),
+      filterCount: ids.length,
+      filterActive: () => !!(promptFilterCheckbox.checked && promptHighlightedNodes.length),
+    });
     });
     el.querySelectorAll('.at-ab button').forEach(btn => {
       btn.addEventListener('click', (e) => {
@@ -2034,12 +2038,17 @@ function openNodeDetail(id) {
   // with Graph-mode quick actions, reusing the shared ui.js renderer that node
   // clicks and trace routes also use.
   showInfo(id, {
-    onFocus: () => { exploreFocusNode(n.id); hideNodeInfo(); },
+    onFocus: () => {
+      if (promptFilterCheckbox.checked && promptHighlightedNodes.length) clearPromptHighlights();
+      else exploreFocusNode(n.id);
+      hideNodeInfo();
+    },
     onAddA: () => toggleCompare(id, 'a'),
     onAddB: () => toggleCompare(id, 'b'),
     isInA: () => compareA.some(e => e.type === 'node' && e.id === id),
     isInB: () => compareB.some(e => e.type === 'node' && e.id === id),
     filterCount: 1 + (adjacency.get(id) || []).length,
+    filterActive: () => !!(promptFilterCheckbox.checked && promptHighlightedNodes.length),
   });
 }
 

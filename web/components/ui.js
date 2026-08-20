@@ -199,9 +199,10 @@ function renderNodeInfo(nodeId, actions) {
   const inB = !!(actions && actions.isInB && actions.isInB());
   const filterWord = state.analysisUiLang === 'zh-TW' ? '篩選' : 'Filter';
   const filterLabel = actions && actions.filterCount != null ? `${filterWord} (${actions.filterCount})` : filterWord;
+  const filterActive = !!(actions && actions.filterActive && actions.filterActive());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
+      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
       ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
@@ -372,9 +373,10 @@ function renderCommunityInfo(cid, actions) {
   const inB = !!(actions && actions.isInB && actions.isInB());
   const filterWord = state.analysisUiLang === 'zh-TW' ? '篩選' : 'Filter';
   const filterLabel = actions && actions.filterCount != null ? `${filterWord} (${actions.filterCount})` : filterWord;
+  const filterActive = !!(actions && actions.filterActive && actions.filterActive());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
+      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
       ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';

@@ -289,6 +289,7 @@ body {
 .at-node-btn:hover { border-color: #0F766E; color: #0F766E; }
 .at-node-btn.at-focus { border-color: #0F766E; color: #0F766E; }
 #at-node-detail .at-node-actions .at-node-btn.on { font-weight: 600; }
+#at-node-detail .at-node-actions .at-node-btn.at-focus.on { background: #0F766E; border-color: #0F766E; color: #fff; }
 #at-node-detail .at-node-actions .at-node-btn.at-add[data-set="a"].on { background: #2563A8; border-color: #2563A8; color: #fff; }
 #at-node-detail .at-node-actions .at-node-btn.at-add[data-set="b"].on { background: #6D5BD0; border-color: #6D5BD0; color: #fff; }
 #at-node-detail .field { color: #4B5563; }
