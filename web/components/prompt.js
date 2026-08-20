@@ -10,7 +10,7 @@ import {
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, hideNodeInfo } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, hideNodeInfo, setNodeActionBuilder } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
@@ -2037,10 +2037,17 @@ function openNodeDetail(id) {
   // Render the full node card (metrics + source links + context + connections)
   // with Graph-mode quick actions, reusing the shared ui.js renderer that node
   // clicks and trace routes also use.
-  showInfo(id, {
+  showInfo(id, buildNodeDetailActions(id));
+}
+
+// Graph-mode quick actions for a node detail sheet: focus/filter and add to
+// Set A / B. Registered into ui.js so every open path (panel open, graph node
+// click, search dropdown) renders the Filter/A/B row, not just this one.
+function buildNodeDetailActions(id) {
+  return {
     onFocus: () => {
       if (promptFilterCheckbox.checked && promptHighlightedNodes.length) clearPromptHighlights();
-      else exploreFocusNode(n.id);
+      else exploreFocusNode(id);
       hideNodeInfo();
     },
     onAddA: () => toggleCompare(id, 'a'),
@@ -2049,8 +2056,10 @@ function openNodeDetail(id) {
     isInB: () => compareB.some(e => e.type === 'node' && e.id === id),
     filterCount: 1 + (adjacency.get(id) || []).length,
     filterActive: () => !!(promptFilterCheckbox.checked && promptHighlightedNodes.length),
-  });
+  };
 }
+
+setNodeActionBuilder(buildNodeDetailActions);
 
 function closeNodeDetail() {
   const wrap = document.getElementById('at-node-detail');

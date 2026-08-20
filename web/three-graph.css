@@ -606,6 +606,9 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #at-node-detail > .at-node-head { flex-shrink: 0; }
 #at-node-detail .at-node-actions { flex-shrink: 0; margin-top: 2px; }
 .at-node-head { display: flex; flex-direction: column; gap: 8px; }
+.at-node-head-divider {
+  width: 100%; border-bottom: 1px solid #2a2a4e; margin: 0;
+}
 /* Fixed bottom-left action bar (Filter / A / B). Always visible, below the
    scrollable content. The language toggle stays top-right in the header. */
 .at-node-head-actions-row {
@@ -669,6 +672,12 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #at-node-detail .at-node-link:hover { color: #a0d4f0; }
 #at-node-detail .node-type { font-size: 10px; font-weight: 600; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; margin-left: 6px; }
 #at-node-detail .wiki-context-text { font-size: 12px; color: #bbb; line-height: 1.6; margin-top: 4px; }
+/* Context section as a card, matching the metrics-card look (.at-kv). */
+#at-node-detail .wiki-context-card {
+  display: flex; flex-direction: column; gap: 4px;
+  background: #16162b; border: 1px solid #2a2a4e; border-radius: 6px;
+  padding: 8px 10px; min-width: 0;
+}
 #at-node-detail .info-connections { font-size: 12px; font-weight: 600; color: #ccc; margin-top: 10px; }
 #at-node-detail .neighbor-link:hover { border-color: #4E79A7; color: #fff; }
 #at-node-detail .route-arrow { color: #6b7280; font-size: 13px; }

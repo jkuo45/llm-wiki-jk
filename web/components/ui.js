@@ -122,6 +122,13 @@ let detailHistory = [];   // stack of earlier views (last entry = most recent)
 let currentView = null;   // { type:'node', id, actions } | { type:'edge', edge } | { type:'community', cid }
 let routeCardRerender = null; // re-render fn for the transient route card (not tracked in currentView)
 
+// Registered by prompt.js: builds the Graph-mode quick actions (Filter / A / B)
+// for a node when the detail sheet is opened from a path that doesn't supply an
+// explicit `actions` object (panel open, graph node click). Kept here as a hook
+// to avoid introducing a circular import between ui.js and prompt.js.
+let nodeActionBuilder = null;
+export function setNodeActionBuilder(build) { nodeActionBuilder = build; }
+
 function viewEq(a, b) {
   if (!a || !b) return false;
   if (a.type !== b.type) return false;
@@ -132,6 +139,7 @@ function viewEq(a, b) {
 
 export function showInfo(nodeId, actions) {
   if (!nodeMap.get(nodeId) || !infoCard) return;
+  if (!actions && nodeActionBuilder) actions = nodeActionBuilder(nodeId);
   if (currentView && !viewEq(currentView, { type: 'node', id: nodeId })) {
     detailHistory.push(currentView);
     if (detailHistory.length > DETAIL_HISTORY_MAX) detailHistory.shift();
@@ -188,7 +196,7 @@ function renderNodeInfo(nodeId, actions) {
     : '—';
 
   const wikiDesc = description
-    ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>`
+    ? `<div class="wiki-context-card"><span class="info-muted">Context</span><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>`
     : '';
 
   const edgeSourceLink = n.source_file
@@ -217,6 +225,7 @@ function renderNodeInfo(nodeId, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
+      <div class="at-node-head-divider"></div>
       ${headLangToggle()}
     </div>
     <div class="at-node-scroll">
