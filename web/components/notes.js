@@ -645,8 +645,8 @@ function cardHTML(n) {
     ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(activeTitle(n))}" loading="lazy" decoding="async">`
     : '';
   const topic = tagLabel(noteTopic(n)).toUpperCase();
-  const tags = (n.tags || []).map((t) =>
-    `<span class="notes-badge topic tag-filter" data-tag="${esc(t)}" title="${esc(t('filterByTagPrefix') + tagLabel(t))}">#${esc(tagLabel(t))}</span>`).join('');
+  const tags = (n.tags || []).map((tag) =>
+    `<span class="notes-badge topic tag-filter" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix') + tagLabel(tag))}">#${esc(tagLabel(tag))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
   const meta = (tags || doc)
