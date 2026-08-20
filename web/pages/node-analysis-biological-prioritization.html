@@ -538,6 +538,9 @@ figcaption strong {
   font: inherit;
   color: inherit;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   box-shadow: none;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
@@ -554,6 +557,23 @@ figcaption strong {
   color: var(--slate);
   margin: 0 0 4px;
 }
+
+.badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1px 7px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  order: 9;
+  margin: auto 0 0;
+  align-self: flex-end;
+}
+
+.badge.directed { color: var(--slate); }
+.badge.undirected { color: var(--gold); }
 
 .metric h3 {
   margin: 0 0 6px;
@@ -674,6 +694,7 @@ tbody tr[data-node]:hover {
   border: 1px solid var(--rule);
   padding: 16px 18px 8px;
   margin: 0 0 10px;
+  position: relative;
 }
 
 .practices > li h3 {
@@ -682,6 +703,24 @@ tbody tr[data-node]:hover {
   gap: 10px;
   align-items: baseline;
 }
+
+/* Scope tag — flags whether a practice is a portable NetworkX rule
+   ("General practice") or wiring specific to this vault ("This vault"). */
+.ptag {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+}
+
+.ptag.general { color: var(--forest-soft); }
+.ptag.vault { color: var(--gold-soft); }
 
 .practices > li h3::before {
   counter-increment: prac;
@@ -792,6 +831,18 @@ pre code {
   margin: 0 0 0.6em;
 }
 
+.method p.method-bio {
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+  margin-top: 12px;
+}
+
+p.method-ex {
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  margin-top: 12px;
+}
+
 .method .op {
   font-family: var(--mono);
   font-size: 11.5px;
@@ -799,6 +850,20 @@ pre code {
 }
 
 /* ——— Refs ——— */
+
+.footnote {
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--mute);
+  padding-top: 10px;
+  margin: 4px 0 26px;
+  max-width: 76ch;
+}
+
+.footnote strong {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
 
 .refs {
   list-style: none;
@@ -1292,10 +1357,10 @@ body.lb-open {
     <div class="nav-links">
       <a href="#fingerprint">Fingerprint</a>
       <a href="#metrics">Metrics</a>
-      <a href="#examples">Examples</a>
-      <a href="#practices">NetworkX</a>
       <a href="#methods">Methods</a>
+      <a href="#examples">Examples</a>
       <a href="#operations">Operations</a>
+      <a href="#practices">NetworkX</a>
       <a href="#references">References</a>
     </div>
   </div>
@@ -1327,11 +1392,11 @@ body.lb-open {
     <ol>
       <li><a href="#fingerprint">The fingerprint</a></li>
       <li><a href="#metrics">Metric atlas</a></li>
-      <li><a href="#examples">Worked examples</a></li>
       <li><a href="#compare">Comparative charts</a></li>
-      <li><a href="#practices">NetworkX</a></li>
       <li><a href="#methods">Analysis methods</a></li>
+      <li><a href="#examples">Worked examples</a></li>
       <li><a href="#operations">Operationalizing</a></li>
+      <li><a href="#practices">NetworkX</a></li>
       <li><a href="#references">References</a></li>
     </ol>
   </aside>
@@ -1404,13 +1469,14 @@ body.lb-open {
       <p class="sec-label">02 · Metric atlas</p>
       <h2>What each number is asking the graph</h2>
       <p>
-        Click a card for the NetworkX call, the biological question, and the caveat that
+        Each card names the NetworkX call, the biological question, and the caveat that
         most often misleads a ranking. Values below are the definitions used in this vault,
         not generic textbook paraphrases.
       </p>
 
       <div class="atlas">
-        <button class="metric" type="button" aria-expanded="false">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge directed">Directed</p>
           <p class="op">G.in_degree / G.out_degree</p>
           <h3>In-degree and out-degree</h3>
           <p class="q">Regulator versus target? Upstream driver versus downstream effector?</p>
@@ -1426,10 +1492,15 @@ body.lb-open {
               Denylisting removes type hubs, but literature-studied nodes still accumulate
               edges. Always pair with a second metric.
             </p>
+            <p class="method-ex"><em>Example:</em> Acid ceramidase (out 17 / in 3) is a source
+              that broadcasts into lipid and ferroptosis nodes; Aging (in 35 / out 13) is a sink
+              that collects triggers. The asymmetry — not the total — tells you which to hit and
+              which to read.</p>
           </div>
         </button>
 
-        <button class="metric" type="button" aria-expanded="false">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge directed">Directed</p>
           <p class="op">nx.pagerank(G, alpha=0.85, max_iter=200)</p>
           <h3>PageRank</h3>
           <p class="q">Foundational importance, weighted by <em>who</em> connects to it.</p>
@@ -1447,10 +1518,15 @@ body.lb-open {
               is the right tool when the question is “relevant to <em>this</em> node,” not
               “important globally.”
             </p>
+            <p class="method-ex"><em>Example:</em> global PageRank endorses Aging (0.0076) over
+              SASP (0.0074) because the important core links to it — when prioritising a
+              <em>foundational</em> hub rather than a driver, follow the endorsed node, not the
+              densest one.</p>
           </div>
         </button>
 
-        <button class="metric" type="button" aria-expanded="false">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">Undirected</p>
           <p class="op">nx.betweenness_centrality(G.to_undirected())</p>
           <h3>Betweenness centrality</h3>
           <p class="q">Bottleneck or bridge — a systemic-leverage target?</p>
@@ -1469,10 +1545,15 @@ body.lb-open {
               being passed as <code>weight</code>. On large graphs, use the <code>k=</code>
               sampling approximation.
             </p>
+            <p class="method-ex"><em>Example:</em> SASP (betweenness 0.060) is the top bridge in
+              the sample — every route from mitochondria and epigenetics into inflammation and
+              paracrine spread passes through it. Cutting a bridge this central is high-leverage
+              but also high-risk.</p>
           </div>
         </button>
 
-        <button class="metric" type="button" aria-expanded="false">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">Undirected</p>
           <p class="op">nx.clustering(G.to_undirected())</p>
           <h3>Clustering coefficient</h3>
           <p class="q">Tight module (complex, cascade) or connector (signaling hub)?</p>
@@ -1489,10 +1570,14 @@ body.lb-open {
               a bridge. Compare to global transitivity and to a degree-preserving null;
               biological networks are typically more clustered than the configuration model.
             </p>
+            <p class="method-ex"><em>Example:</em> GPX4, inducible NOS, and Cataract form a
+              clique (C = 1.0) — a compact redox module to disable as one unit; Acid ceramidase
+              (C ≈ 0.04) is the opposite, a bridge to cut rather than dismantle.</p>
           </div>
         </button>
 
-        <button class="metric" type="button" aria-expanded="false">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">Undirected</p>
           <p class="op">nx.core_number(G.to_undirected())</p>
           <h3>k-core number</h3>
           <p class="q">Resilient backbone versus incidental periphery?</p>
@@ -1509,10 +1594,14 @@ body.lb-open {
               Inner cores enrich for essential proteins in classical PPI work
               (Wuchty &amp; Almaas 2005). They are a triage filter, not a proof of essentiality.
             </p>
+            <p class="method-ex"><em>Example:</em> Aging, SASP, and Senescent cells occupy the
+              k = 6 inner shell, while Acetate and Alagebrium hang at k = 1 — triage the shell
+              first: the leaves are context, the core is the machinery.</p>
           </div>
         </button>
 
-        <button class="metric" type="button" aria-expanded="false">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">Undirected</p>
           <p class="op">Leiden clustering + top-degree community label</p>
           <h3>Community name and size</h3>
           <p class="q">Which emergent pathway or process does the node belong to?</p>
@@ -1529,6 +1618,10 @@ body.lb-open {
               rebuilds, but they are not pathway databases. Divergences between Leiden and
               a Fiedler (spectral) cut are themselves a finding: those nodes sit between processes.
             </p>
+            <p class="method-ex"><em>Example:</em> Acid ceramidase anchors a size-18 community
+              of its own — a local lipid-peroxidation module — while SASP and Aging sit in the
+              larger senescence axis; a node whose neighbours live in other communities is the
+              bridge to prioritise.</p>
           </div>
         </button>
       </div>
@@ -1546,139 +1639,8 @@ body.lb-open {
       </div>
     </section>
 
-    <section id="examples">
-      <p class="sec-label">03 · Worked examples</p>
-      <h2>Successful readings already in the graph</h2>
-      <p>
-        The five cases below are not illustrations of the algorithms. They are cases where
-        the fingerprint recovered a role that the underlying documents already support —
-        which is the validation a professional reader should demand before using the same
-        reading on an unfamiliar node.
-      </p>
-
-            <div class="instance" data-node="acid">
-      <p class="inst-tag">Acid ceramidase · graph bd1894acf7b72406</p>
-<h3>Acid ceramidase — the out-degree spreader</h3>
-      <p>
-        Degree 20, <strong>out-degree 17 / in-degree 3</strong>, PageRank 0.00078,
-        betweenness 0.0083, k-core 4, community “Acid ceramidase” (size 18).
-        The asymmetry marks a source: it pushes effects onto lipid and ferroptosis
-        nodes rather than being acted upon. In the source document, elevated acid
-        ceramidase in senescent cells reshapes membranes toward a PUFA-rich,
-        pro-ferroptotic profile; knockdown or ARN14794 protects cells. The graph
-        also carries a “Senolytic Drug Target” node pointing at it. High out-degree,
-        mid betweenness, and named-community-anchor is the signature of a spreading
-        senolytic or senomorphic candidate.
-      </p>
-
-      <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 2 · Spreader</span></div>
-        <div class="fig-canvas" data-chart="spreader"></div>
-        <figcaption>
-          <strong>Acid ceramidase as a source node.</strong>
-          Three incoming drivers, many outgoing effectors. PageRank stays low because
-          almost nobody points <em>at</em> it; the biology is in the out-star.
-        </figcaption>
-      </figure>
-      </div>
-
-            <div class="instance" data-node="sasp">
-      <p class="inst-tag">SASP · graph bd1894acf7b72406</p>
-<h3>SASP — convergent and divergent secretory hub</h3>
-      <p>
-        Degree 101, <strong>in-degree 56 / out-degree 45</strong>, PageRank 0.0074,
-        betweenness 0.060, k-core 6. Highest betweenness in the surveyed set: SASP
-        sits on shortest paths between mitochondria, epigenetics, inflammation, and
-        senescence. It is a sink for upstream triggers and a source for paracrine
-        cytokines (IL-6, IL-8) that, in the acid-ceramidase document, induce the
-        enzyme in bystander cells. High in, high out, top betweenness: a master
-        program. Perturbing it reverberates network-wide — which is both the
-        therapeutic appeal and the on-target risk.
-      </p>
-
-      <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 3 · Nexus</span></div>
-        <div class="fig-canvas" data-chart="nexus"></div>
-        <figcaption>
-          <strong>Betweenness as path concentration.</strong>
-          Communities on the left must cross SASP to reach effectors on the right.
-          The dashed curve is a schematic shortest path, not a stored walk.
-        </figcaption>
-      </figure>
-      </div>
-
-            <div class="instance" data-node="aging">
-      <p class="inst-tag">Aging · graph bd1894acf7b72406</p>
-<h3>Aging — PageRank and the core backbone</h3>
-      <p>
-        Degree 48, in-degree 35, out-degree 13, <strong>PageRank 0.0076</strong>
-        (highest of the sample), betweenness 0.046, k-core 6. PageRank is high because
-        Aging is connected to <em>other important</em> nodes, not merely to many nodes.
-        k-core 6 places it in the densest mutually reinforcing shell with SASP and
-        Senescent cells. Top PageRank plus inner-core membership is the “common soil”
-        reading: downstream disease communities attach here.
-      </p>
-
-      <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 4 · PageRank endorsement</span></div>
-        <div class="fig-canvas" data-chart="pagerank"></div>
-        <figcaption>
-          <strong>Importance is inherited from neighbours.</strong>
-          Thick arrows from other high-scoring nodes raise Aging’s PageRank.
-          A peripheral leaf with the same raw degree would not.
-        </figcaption>
-      </figure>
-      </div>
-
-            <div class="instance" data-node="gpx4">
-      <p class="inst-tag">GPX4 · graph bd1894acf7b72406</p>
-<h3>GPX4, inducible NOS, Cataract — clustering = 1.0</h3>
-      <p>
-        A clustering coefficient of 1.0 means every neighbour of the node is connected
-        to every other neighbour: a redox complex, an NO cascade, an AGE-cross-linking
-        cluster. GPX4 also sits at k-core 2, consistent with a small clique rather than
-        the global backbone. Contrast Acid ceramidase at clustering ≈ 0.04: a connector.
-        The two patterns are complementary druggability strategies — disable the module,
-        or cut the bridge.
-      </p>
-
-      <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 5 · Clustering</span></div>
-        <div class="fig-canvas" data-chart="clustering"></div>
-        <figcaption>
-          <strong>Clique versus bridge.</strong>
-          Left: a three-node module with C = 1.0 (GPX4-style). Right: a low-clustering
-          connector whose neighbours live in separate clusters (Acid ceramidase-style).
-        </figcaption>
-      </figure>
-      </div>
-
-            <div class="instance" data-node="core">
-      <p class="inst-tag">k-core 6 backbone · graph bd1894acf7b72406</p>
-<h3>The k-core 6 backbone</h3>
-      <p>
-        Nodes at k-core 6 — Aging, SASP, Senescent cells — form the resilient inner
-        machinery of the senescence/aging axis. Everything else hangs off it.
-        k-core decomposition is the fastest “essential versus incidental” ranking in
-        the fingerprint, and the right filter for deciding which nodes merit a deep
-        entity note.
-      </p>
-
-      <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 6 · k-core onion</span></div>
-        <div class="fig-canvas" data-chart="onion"></div>
-        <figcaption>
-          <strong>Nested shells, not a flat ranking.</strong>
-          Inner k = 6 is the senescence backbone. Acid ceramidase occupies k = 4
-          (near-core control). GPX4 occupies k = 2 (local module). Named leaves sit
-          at k = 1.
-        </figcaption>
-      </figure>
-      </div>
-    </section>
-
     <section id="compare">
-      <p class="sec-label">04 · Comparative evidence</p>
+      <p class="sec-label">03 · Comparative evidence</p>
       <h2>The same three nodes, side by side</h2>
       <p>
         Numbers only become a fingerprint when they are compared. The table is the
@@ -1778,179 +1740,20 @@ body.lb-open {
       <figure class="fig">
         <div class="fig-head">
           <span class="fig-num">Figure 8 · Fingerprint (sample-normalized)</span>
-          <div class="fig-tools" data-fp-tools>
-            <button type="button" class="is-on" data-metric="degree">Degree</button>
-            <button type="button" class="is-on" data-metric="pagerank">PageRank</button>
-            <button type="button" class="is-on" data-metric="betweenness">Betweenness</button>
-            <button type="button" class="is-on" data-metric="kCore">k-core</button>
-          </div>
         </div>
         <div class="fig-canvas" data-chart="fingerprint"></div>
         <figcaption>
           <strong>Each metric is scaled to the maximum in this three-node sample</strong>
-          so shape can be compared. Toggle series in the toolbar. Raw values remain
+          so shape can be compared. All four metrics are always shown. Raw values remain
           in the table. PageRank is shown ×10³; betweenness ×10³.
         </figcaption>
       </figure>
       </div>
     </section>
 
-    <section id="practices">
-      <p class="sec-label">05 · NetworkX</p>
-      <h2>NetworkX</h2>
-      <p>
-        NetworkX is a Python package for the creation, manipulation, and study of the
-        structure, dynamics, and functions of complex networks. It provides tools for the
-        study of the structure and dynamics of social, biological, and infrastructure
-        networks, and a standard programming interface and graph implementation that is
-        suitable for many applications.
-      </p>
-      <p>
-        This briefing leans on the biological half of that remit. A knowledge graph of
-        biomedical entities and the typed relations between them — an enzyme remodelling a
-        membrane, a cytokine driving inflammation, a senescent cell broadcasting a secretory
-        program — is precisely the kind of complex network NetworkX was built to describe.
-        Centrality, shortest paths, community detection, and core decomposition are
-        first-class operations here, not bolt-ons, which is why the same calls that map a
-        social network also triage a senescence axis.
-      </p>
-      <div class="note slate">
-        <h4>Why a graph library, not a dataframe</h4>
-        <p>
-          The questions that matter are topological: which node sits on the most shortest
-          paths, which cluster is internally cohesive, which shell of the network is
-          resilient. NetworkX answers them directly on the graph object, so the fingerprint
-          developed in the next sections is computed rather than hand-derived.
-        </p>
-      </div>
-      <p>
-        NetworkX is the right library for graphs of this size (thousands of nodes,
-        not full STRING). The failure mode is not performance. It is an unstated
-        representation choice: directed versus undirected, weight as strength versus
-        weight as distance, whole graph versus giant component, topology versus
-        annotation bias. The list below is the working standard for this vault and
-        for PPI / GRN analysis more generally.
-      </p>
-
-      <ol class="practices">
-        <li>
-          <h3>State the graph you actually computed on</h3>
-          <p>
-            Keep a <code>DiGraph</code> for in/out-degree and PageRank. Project with
-            <code>G.to_undirected()</code> for clustering, betweenness, and k-core.
-            Multi-node analytics in <code>04_node_analysis.py</code> further restrict
-            to the giant component after dropping self-loops. Path metrics on a
-            disconnected graph are otherwise undefined or silently harmonic-flavoured.
-          </p>
-          <pre><code>G_und = G.to_undirected()
-cc = max(nx.connected_components(G_und), key=len)
-U = G_und.subgraph(cc).copy()</code></pre>
-        </li>
-        <li>
-          <h3>Prune type hubs before any centrality</h3>
-          <p>
-            Study bias in PPI (TP53 accumulates interactions because it is studied)
-            has a knowledge-graph analogue: ontology classes collect edges from every
-            instance. The <code>DENYLIST</code> in the rebuild script is the correct
-            first filter. Do not interpret a high-degree “protein” node as a target.
-          </p>
-        </li>
-        <li>
-          <h3>Do not pass a confidence score as a betweenness distance</h3>
-          <p>
-            PageRank wants a <em>strength</em>: high confidence should carry more walk
-            mass (<code>weight="weight"</code>). Betweenness and other shortest-path
-            metrics want a <em>distance</em>: high confidence should be a short hop.
-            Invert first. The current rebuild stores <code>weight = confidence_score</code>
-            <em>after</em> centrality, so the stored fingerprint is unweighted topology.
-            That is a documented limitation, not a secret.
-          </p>
-          <pre><code>for u, v, d in G.edges(data=True):
-    d["weight"] = d.get("confidence_score", 0.7)
-    d["distance"] = 1.0 / max(d["weight"], 1e-9)
-
-pr = nx.pagerank(G, alpha=0.85, weight="weight")
-bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pre>
-        </li>
-        <li>
-          <h3>Never rank on one metric</h3>
-          <p>
-            Degree predicts essentiality in classical yeast PPI (Jeong et al., 2001)
-            but misses bottlenecks whose degree is ordinary (Yu et al., 2007).
-            The worked examples in this vault exist <em>because</em> the fingerprint
-            disagrees with itself in informative ways. Combine: high out-degree plus
-            mid betweenness (spreader); high in and out plus top betweenness (nexus);
-            top PageRank plus inner k-core (backbone).
-          </p>
-        </li>
-        <li>
-          <h3>Test against a degree-preserving null</h3>
-          <p>
-            High-degree nodes score high on almost everything. A configuration-model
-            ensemble (<code>nx.configuration_model</code> / directed variants, 100–1,000
-            draws) gives z-scores or empirical p-values. Effective-resistance in
-            <code>04_node_analysis.py</code> already z-scores commute distance against
-            a random-node sample of 300; the same habit should apply to betweenness
-            and clustering before a node is called a bottleneck.
-          </p>
-        </li>
-        <li>
-          <h3>Approximate betweenness; do not skip it</h3>
-          <p>
-            Brandes is <code>O(nm)</code>. Fine on this vault. On a filtered human
-            interactome, pass <code>k=</code> (sampled sources) and a seed. Prefer
-            that approximation to dropping the metric. Restricting to the k-core or
-            the giant component is the other legitimate speedup.
-          </p>
-          <pre><code>bt = nx.betweenness_centrality(U, k=100, seed=1, normalized=True)</code></pre>
-        </li>
-        <li>
-          <h3>Read clustering and k-core as complementary, not redundant</h3>
-          <p>
-            Clustering is local transitivity. k-core is a nested global peel.
-            GPX4 can be a perfect triangle (C = 1, k = 2) and still sit outside the
-            senescence backbone (k = 6). Inner cores often coincide with complexes
-            in PPI; here they coincide with the aging/SASP program. Report both the
-            core-number distribution and the size of the main core.
-          </p>
-        </li>
-        <li>
-          <h3>Seed PageRank when the question is local</h3>
-          <p>
-            Global PageRank answers “important in the whole graph.” Target
-            prioritization from a process of interest is Personalized PageRank:
-            <code>personalization={seed: 1.0}</code>, alpha 0.85. Sweeping PPR from
-            each k-core-6 node and intersecting the top ranks is the operational
-            next step proposed below.
-          </p>
-        </li>
-        <li>
-          <h3>Pin versions, seeds, and the edge list</h3>
-          <p>
-            PPI and knowledge graphs change with database version and confidence
-            threshold. Record NetworkX version, the denylist, the giant-component
-            rule, <code>RANDOM_SEED = 1</code>, and the source-file provenance on
-            edges. Export GraphML / GEXF if a reviewer needs Cytoscape; do not
-            rely on NetworkX drawing for publication figures of this scale.
-          </p>
-        </li>
-      </ol>
-
-      <div class="note forest">
-        <h4>What this vault already does well</h4>
-        <p>
-          Directed in/out split; undirected projection for module metrics; type-hub
-          denylist; Leiden communities with stable labels; giant-component restriction
-          and a random-node null for commute distance; Personalized PageRank with a
-          documented alpha. The main gap versus PPI best practice is passing weights
-          into PageRank and inverted distances into betweenness, plus a configuration-model
-          envelope around the static fingerprint itself.
-        </p>
-      </div>
-    </section>
 
     <section id="methods">
-      <p class="sec-label">06 · Beyond the static fingerprint</p>
+      <p class="sec-label">04 · Beyond the static fingerprint</p>
       <h2>Relation-aware methods already in the repo</h2>
       <p>
         <code>scripts/04_node_analysis.py</code> runs on the same <code>graph.json</code>
@@ -1971,6 +1774,20 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             (<span class="inst-inline"><code>Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis</code></span><span class="gv">graph bd1894acf7b72406</span>)
             and the first-hop bridges shared across equally short paths.
           </p>
+          <p class="method-bio">
+            Multiplicity is engineering redundancy read off the graph. When many equally short,
+            relationally distinct chains connect a driver to an effector, the program is built
+            to reroute: a block at any single hop is absorbed by parallel compensation rather
+            than propagating failure, the signature of a resilient, evolvable module and a
+            warning against one-node reasoning. Multiplicity of one is the converse — a genuine,
+            rate-limiting choke point whose causative edge is the intervention target. Where only
+            a few bridges link otherwise distant processes, read cross-talk: two modules coupled
+            through scarce intermediaries, not a shared pathway.
+          </p>
+          <p class="method-ex"><em>Example:</em> ask whether SIRT1 reaches NF-κB by one route or
+            several — if three equally short chains (NAD+ competition, direct RelA deacetylation,
+            a chromatin relay) connect them, boosting SIRT1 will be partially absorbed by
+            parallel wiring rather than cleanly silencing NF-κB.</p>
         </article>
         <article class="method">
           <p class="op">neighbour-set Jaccard</p>
@@ -1980,6 +1797,19 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             Low Jaccard with a high-degree partner is a distinct neighbourhood, not
             a restatement of the same module.
           </p>
+          <p class="method-bio">
+            Neighbourhood overlap is a functional-signature prior: entities sharing interaction
+            neighbourhoods are typically co-complexed, co-regulated, or paralogous, and therefore
+            redundant under perturbation. High Jaccard thus flags redundancy and de-risks a
+            target — interrupting one component is likely to register in its twin. The low-Jaccard
+            case against a high-degree partner is where the insight hides: it marks genuinely
+            distinct biology, the evidence that separates true functional twins from off-target
+            hits.
+          </p>
+          <p class="method-ex"><em>Example:</em> PARP1 and PARP2 share NAD+ turnover, PARP
+            inhibitors, and DNA-repair partners — a high Jaccard therefore warns that a supposed
+            PARP1-selective inhibitor is likely to nudge PARP2, a de-risking check before
+            prioritisation.</p>
         </article>
         <article class="method">
           <p class="op">nx.adamic_adar_index</p>
@@ -1989,6 +1819,18 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             edges as a hypothesis queue, not as facts. Requires manual literature check
             before a triple is written back.
           </p>
+          <p class="method-bio">
+            Link prediction is a probabilistic expectation about relationships that exist in
+            biology but aren't yet recorded in the graph. Two entities connected only through
+            rare, otherwise-quiet intermediaries carry the strongest signal for a real but
+            under-curated interaction — a shared neighbour is informative precisely because it is
+            not a promiscuous hub. Use the queue as a curation mandate, not a finding: the
+            mechanism that makes a pair plausible is the same one that manufactures false
+            positives, so every call earns a literature check before it becomes a triple.
+          </p>
+          <p class="method-ex"><em>Example:</em> if SIRT1 and an unconnected kinase share only a
+            single rare scaffold with no curated edge, that pairing warrants a targeted literature
+            search before being written off as unrelated.</p>
         </article>
         <article class="method">
           <p class="op">scipy.linalg.eigh on the Laplacian</p>
@@ -1999,6 +1841,19 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             <code>eigsh(which="SM")</code> returns the trivial zero mode on a singular
             Laplacian and makes the Fiedler vector useless.
           </p>
+          <p class="method-bio">
+            The Fiedler cut severs the network at its weakest functional seam, separating the two
+            least-coupled subsystems — catabolic from anabolic programs, stress responses from
+            housekeeping metabolism. Algebraic connectivity (λ<sub>2</sub>) quantifies how cleanly
+            the graph resists that separation: values approaching zero expose an almost-fragmented
+            network; larger values describe tightly interwoven wiring. Nodes stranded along the cut
+            are the integrative bridges — regulators and metabolite shuttles both partitions depend
+            on, and the most systemically consequential targets.
+          </p>
+          <p class="method-ex"><em>Example:</em> on a senescence corpus the seam tends to fall
+            between the lipid-peroxidation/secretory program and housekeeping metabolism,
+            stranding bridges like Acid ceramidase squarely on the cut — the first place to look
+            for cross-program regulators.</p>
         </article>
         <article class="method">
           <p class="op">Laplacian pseudoinverse</p>
@@ -2009,6 +1864,20 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             and should be ~0. Truncated SVD is <em>not</em> a valid commute-time proxy
             here; the script builds the pseudoinverse from thresholded eigenvalues.
           </p>
+          <p class="method-bio">
+            Effective resistance is a robustness-weighted distance. Two nodes are electrically
+            "close" not when one favourable path exists but when many redundant routes operate
+            in parallel — the currency of signalling resilience. A target reached through
+            abundant parallel wiring is correspondingly hard to disable, whereas a driver reached
+            only by sparse, low-confidence connections is a fragile and therefore druggable link.
+            Because the metric penalises long speculative chains, it answers a genuinely
+            biological question: how far apart are two pathways once redundancy is taken
+            seriously?
+          </p>
+          <p class="method-ex"><em>Example:</em> Ferroptosis can sit electrically close to
+            Inflammation despite no single dominant edge — many parallel routes mean low
+            resistance; a driver reachable by only one thin, low-confidence chain is the fragile,
+            druggable exception.</p>
         </article>
         <article class="method">
           <p class="op">nx.pagerank(..., personalization=)</p>
@@ -2018,12 +1887,227 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             it (or from it, depending on orientation). This is the correct global-to-local
             move when the fingerprint has already named a backbone node.
           </p>
+          <p class="method-bio">
+            Personalized PageRank recovers context-specific importance. Global centrality simply
+            names hubs; a walk seeded on a process redistributes probability mass along its own
+            wiring, ranking the entities that process actually drives — its downstream effectors
+            and recurrent co-targets rather than the well-studied generalists. Intersecting the
+            top ranks across several seeds is where convergence becomes convincing: the effectors
+            shared by related processes are the robust, mechanism-relevant biology, distinct from
+            the idiosyncratic neighbours of any single node.
+          </p>
+          <p class="method-ex"><em>Example:</em> seeding PPR on Senescent cells and intersecting
+            with seeds on Ferroptosis and SASP surfaces the shared effectors — lipid peroxidation,
+            IL-6 — that generalist ranking would bury.</p>
         </article>
       </div>
     </section>
 
+    <section id="examples">
+      <p class="sec-label">05 · Worked examples</p>
+      <h2>Successful readings already in the graph</h2>
+      <p>
+        The five cases below are not illustrations of the algorithms. They are cases where
+        the fingerprint recovered a role that the underlying documents already support —
+        which is the validation a professional reader should demand before using the same
+        reading on an unfamiliar node.
+      </p>
+
+            <div class="instance" data-node="acid">
+      <p class="inst-tag">Acid ceramidase · graph bd1894acf7b72406</p>
+<h3>Acid ceramidase — the out-degree spreader</h3>
+      <p>
+        Degree 20, <strong>out-degree 17 / in-degree 3</strong>, PageRank 0.00078,
+        betweenness 0.0083, k-core 4, community “Acid ceramidase” (size 18).
+        The asymmetry marks a source: it pushes effects onto lipid and ferroptosis
+        nodes rather than being acted upon. In the source document, elevated acid
+        ceramidase in senescent cells reshapes membranes toward a PUFA-rich,
+        pro-ferroptotic profile; knockdown or ARN14794 protects cells.
+        <strong>Source:</strong> <em>Acid ceramidase modulates the lipid profile and
+        exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells</em>
+        (Soriano-Castell, Goujon, Dar, Currais &amp; Maher, <em>Cell Death and Disease</em>,
+        2026; DOI <a href="https://doi.org/10.1038/s41419-026-09108-y">10.1038/s41419-026-09108-y</a>).
+        Note: <code>src/notes/_link/_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md</code>.
+        The graph
+        also carries a “Senolytic Drug Target” node pointing at it. High out-degree,
+        mid betweenness, and named-community-anchor is the signature of a spreading
+        senolytic or senomorphic candidate.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 2 · Spreader</span></div>
+        <div class="fig-canvas">
+          <svg viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase as an out-degree spreader">
+            <title>Acid ceramidase as an out-degree spreader</title>
+            <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
+            <rect x="0" y="0" width="520" height="340" fill="#fbf8f1"/>
+            <defs>
+              <marker id="sp-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#6d665b"/>
+              </marker>
+              <marker id="sp-ar-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#9a7430"/>
+              </marker>
+            </defs>
+
+            <!-- Incoming drivers -> AC: SASP, ARN14794 (highlighted), Carmofur -->
+            <line x1="118" y1="146" x2="219" y2="146" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+            <line x1="118" y1="182" x2="205" y2="182" stroke="#9a7430" stroke-width="2" opacity="0.9" marker-end="url(#sp-ar-gold)"/>
+            <line x1="118" y1="218" x2="219" y2="210" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+            <circle cx="112" cy="146" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="112" cy="182" r="11" fill="none" stroke="#9a7430" stroke-width="1.4" opacity="0.9"/>
+            <circle cx="112" cy="182" r="7" fill="#9a7430" stroke="#1c1915" stroke-width="1.4"/>
+            <circle cx="112" cy="218" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="100" y="150" text-anchor="end" fill="#6d665b" font-size="11">SASP</text>
+            <text x="100" y="186" text-anchor="end" fill="#9a7430" font-size="11" font-weight="600">ARN14794</text>
+            <text x="100" y="222" text-anchor="end" fill="#6d665b" font-size="11">Carmofur</text>
+
+            <!-- Outgoing spread: AC -> effectors -->
+            <line x1="277" y1="146" x2="355" y2="95" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="287" y1="158" x2="395" y2="127" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="292" y1="174" x2="413" y2="167" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="290" y1="190" x2="408" y2="208" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="283" y1="204" x2="379" y2="245" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="271" y1="214" x2="332" y2="272" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="240" y1="219" x2="210" y2="284" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+
+            <circle cx="359" cy="90" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="400" cy="124" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="419" cy="166" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="413" cy="210" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="384" cy="249" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="335" cy="278" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="209" cy="290" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+
+            <text x="368" y="94" fill="#1c1915" font-size="11">PUFA lipids</text>
+            <text x="409" y="128" fill="#1c1915" font-size="11">Lipid peroxidation</text>
+            <text x="428" y="170" fill="#1c1915" font-size="11">Ferroptosis</text>
+            <text x="422" y="214" fill="#1c1915" font-size="11">Membrane remodel</text>
+            <text x="393" y="253" fill="#1c1915" font-size="11">Bystander cells</text>
+            <text x="344" y="282" fill="#1c1915" font-size="11">Senescent cells</text>
+            <text x="218" y="294" fill="#1c1915" font-size="11">Senolytic target</text>
+
+            <!-- AC node -->
+            <circle cx="250" cy="178" r="40" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="250" y="182" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">AC</text>
+            <text x="250" y="190" text-anchor="middle" fill="#fbf8f1" font-size="9" opacity="0.9">out 17</text>
+
+            <text x="16" y="28" fill="#2e4a5d" font-size="11" font-weight="600">in-degree 3</text>
+            <text x="16" y="44" fill="#6d665b" font-size="11">upstream drivers</text>
+            <text x="360" y="28" fill="#7a312c" font-size="11" font-weight="600">out-degree 17</text>
+            <text x="360" y="44" fill="#6d665b" font-size="11">downstream spread</text>
+          </svg>
+        </div>
+        <figcaption>
+          <strong>Acid ceramidase as a source node.</strong>
+          Three incoming drivers, many outgoing effectors. PageRank stays low because
+          almost nobody points <em>at</em> it; the biology is in the out-star.
+          <a href="https://x.com/i/grok/share/f39c23c7740d438db8181ff33b4ea809">Grok ref →</a>
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="sasp">
+      <p class="inst-tag">SASP · graph bd1894acf7b72406</p>
+<h3>SASP — convergent and divergent secretory hub</h3>
+      <p>
+        Degree 101, <strong>in-degree 56 / out-degree 45</strong>, PageRank 0.0074,
+        betweenness 0.060, k-core 6. Highest betweenness in the surveyed set: SASP
+        sits on shortest paths between mitochondria, epigenetics, inflammation, and
+        senescence. It is a sink for upstream triggers and a source for paracrine
+        cytokines (IL-6, IL-8) that, in the acid-ceramidase document, induce the
+        enzyme in bystander cells. High in, high out, top betweenness: a master
+        program. Perturbing it reverberates network-wide — which is both the
+        therapeutic appeal and the on-target risk.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 3 · Nexus</span></div>
+        <div class="fig-canvas" data-chart="nexus"></div>
+        <figcaption>
+          <strong>Betweenness as path concentration.</strong>
+          Communities on the left must cross SASP to reach effectors on the right.
+          <strong>Note:</strong> the gold dotted line traces one such route —
+          <em>Mitochondria → SASP → Paracrine spread</em> — to show a left-side
+          community that can only reach a right-side effector by passing through
+          the nexus, which is exactly what makes SASP's betweenness high.
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="aging">
+      <p class="inst-tag">Aging · graph bd1894acf7b72406</p>
+<h3>Aging — PageRank and the core backbone</h3>
+      <p>
+        Degree 48, in-degree 35, out-degree 13, <strong>PageRank 0.0076</strong>
+        (highest of the sample), betweenness 0.046, k-core 6. PageRank is high because
+        Aging is connected to <em>other important</em> nodes, not merely to many nodes.
+        k-core 6 places it in the densest mutually reinforcing shell with SASP and
+        Senescent cells. Top PageRank plus inner-core membership is the “common soil”
+        reading: downstream disease communities attach here.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 4 · PageRank endorsement</span></div>
+        <div class="fig-canvas" data-chart="pagerank"></div>
+        <figcaption>
+          <strong>Importance is inherited from neighbours.</strong>
+          Thick arrows from other high-scoring nodes raise Aging’s PageRank.
+          A peripheral leaf with the same raw degree would not.
+          Acid ceramidase PR = 0.00078 — sources are not endorsed by in-links.
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="gpx4">
+      <p class="inst-tag">GPX4 · graph bd1894acf7b72406</p>
+<h3>GPX4, inducible NOS, Cataract — clustering = 1.0</h3>
+      <p>
+        A clustering coefficient of 1.0 means every neighbour of the node is connected
+        to every other neighbour: a redox complex, an NO cascade, an AGE-cross-linking
+        cluster. GPX4 also sits at k-core 2, consistent with a small clique rather than
+        the global backbone. Contrast Acid ceramidase at clustering ≈ 0.04: a connector.
+        The two patterns are complementary druggability strategies — disable the module,
+        or cut the bridge.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 5 · Clustering</span></div>
+        <div class="fig-canvas" data-chart="clustering"></div>
+        <figcaption>
+          <strong>Clique versus bridge.</strong>
+          Left: a three-node module with C = 1.0 (GPX4-style). Right: a low-clustering
+          connector whose neighbours live in separate clusters (Acid ceramidase-style).
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="core">
+      <p class="inst-tag">k-core 6 backbone · graph bd1894acf7b72406</p>
+<h3>The k-core 6 backbone</h3>
+      <p>
+        Nodes at k-core 6 — Aging, SASP, Senescent cells — form the resilient inner
+        machinery of the senescence/aging axis. Everything else hangs off it.
+        k-core decomposition is the fastest “essential versus incidental” ranking in
+        the fingerprint, and the right filter for deciding which nodes merit a deep
+        entity note.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 6 · k-core onion</span></div>
+        <div class="fig-canvas" data-chart="onion"></div>
+        <figcaption>
+          <strong>Nested shells, not a flat ranking.</strong>
+          Inner k = 6 is the senescence backbone. Acid ceramidase occupies k = 4
+          (near-core control). GPX4 occupies k = 2 (local module). Named leaves sit
+          at k = 1.
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+
     <section id="operations">
-      <p class="sec-label">07 · From reading to triage</p>
+      <p class="sec-label">06 · From reading to triage</p>
       <h2>A rule layer on top of the fingerprint</h2>
       <p>
         Once the metrics are trusted, a small classifier turns them into roles that a
@@ -2083,17 +2167,177 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
         </p>
       </div>
 
-      <h3>Further work, ordered by effort</h3>
-      <ol>
-        <li>Emit the role tags above as <code>node_roles.json</code> for the three-graph panel.</li>
-        <li>Personalized PageRank sweep from each k-core-6 node; intersect the top ranks for recurrent downstream effectors.</li>
-        <li>Adamic–Adar hypothesis queue of novel triples for literature review.</li>
-        <li>Fiedler cut versus Leiden: nodes that the two partitions disagree on are integrative bridges.</li>
-        <li>Confidence-decay by document recency, and expose <code>source_file</code> on edges in the panel.</li>
-        <li>Render the k-core onion in the live graph view, not only as a stored integer.</li>
-      </ol>
+      <p class="footnote">
+        <strong>Further work, ordered by effort</strong> —
+        <span>(1) emit the role tags above as <code>node_roles.json</code> for the three-graph
+        panel;</span>
+        <span>(2) personalized PageRank from each k-core-6 node, intersect the top ranks for
+        recurrent downstream effectors.</span>
+      </p>
     </section>
 
+    <section id="practices">
+      <p class="sec-label">07 · NetworkX</p>
+      <h2>NetworkX</h2>
+      <p>
+        NetworkX is a Python package for the creation, manipulation, and study of the
+        structure, dynamics, and functions of complex networks. It provides tools for the
+        study of the structure and dynamics of social, biological, and infrastructure
+        networks, and a standard programming interface and graph implementation that is
+        suitable for many applications.
+      </p>
+      <p>
+        This briefing leans on the biological half of that remit. A knowledge graph of
+        biomedical entities and the typed relations between them — an enzyme remodelling a
+        membrane, a cytokine driving inflammation, a senescent cell broadcasting a secretory
+        program — is precisely the kind of complex network NetworkX was built to describe.
+        Centrality, shortest paths, community detection, and core decomposition are
+        first-class operations here, not bolt-ons, which is why the same calls that map a
+        social network also triage a senescence axis.
+      </p>
+      <div class="note slate">
+        <h4>Why a graph library, not a dataframe</h4>
+        <p>
+          The questions that matter are topological: which node sits on the most shortest
+          paths, which cluster is internally cohesive, which shell of the network is
+          resilient. NetworkX answers them directly on the graph object, so the fingerprint
+          developed in the next sections is computed rather than hand-derived.
+        </p>
+      </div>
+      <p>
+        NetworkX is the right library for graphs of this size (thousands of nodes,
+        not full STRING). The failure mode is not performance. It is an unstated
+        representation choice: directed versus undirected, weight as strength versus
+        weight as distance, whole graph versus giant component, topology versus
+        annotation bias. The list below is the working standard for this vault and
+        for PPI / GRN analysis more generally.
+      </p>
+
+      <ol class="practices">
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>State the graph you actually computed on</h3>
+          <p>
+            Keep a <code>DiGraph</code> for in/out-degree and PageRank. Project with
+            <code>G.to_undirected()</code> for clustering, betweenness, and k-core.
+            Multi-node analytics in <code>04_node_analysis.py</code> further restrict
+            to the giant component after dropping self-loops. Path metrics on a
+            disconnected graph are otherwise undefined or silently harmonic-flavoured.
+          </p>
+          <pre><code>G_und = G.to_undirected()
+cc = max(nx.connected_components(G_und), key=len)
+U = G_und.subgraph(cc).copy()</code></pre>
+        </li>
+        <li>
+          <p class="ptag vault">This vault</p>
+          <h3>Prune type hubs before any centrality</h3>
+          <p>
+            Study bias in PPI (TP53 accumulates interactions because it is studied)
+            has a knowledge-graph analogue: ontology classes collect edges from every
+            instance. The <code>DENYLIST</code> in the rebuild script is the correct
+            first filter. Do not interpret a high-degree “protein” node as a target.
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>Do not pass a confidence score as a betweenness distance</h3>
+          <p>
+            PageRank wants a <em>strength</em>: high confidence should carry more walk
+            mass (<code>weight="weight"</code>). Betweenness and other shortest-path
+            metrics want a <em>distance</em>: high confidence should be a short hop.
+            Invert first. The current rebuild stores <code>weight = confidence_score</code>
+            <em>after</em> centrality, so the stored fingerprint is unweighted topology.
+            That is a documented limitation, not a secret.
+          </p>
+          <pre><code>for u, v, d in G.edges(data=True):
+    d["weight"] = d.get("confidence_score", 0.7)
+    d["distance"] = 1.0 / max(d["weight"], 1e-9)
+
+pr = nx.pagerank(G, alpha=0.85, weight="weight")
+bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pre>
+        </li>
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>Never rank on one metric</h3>
+          <p>
+            Degree predicts essentiality in classical yeast PPI (Jeong et al., 2001)
+            but misses bottlenecks whose degree is ordinary (Yu et al., 2007).
+            The worked examples in this vault exist <em>because</em> the fingerprint
+            disagrees with itself in informative ways. Combine: high out-degree plus
+            mid betweenness (spreader); high in and out plus top betweenness (nexus);
+            top PageRank plus inner k-core (backbone).
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>Test against a degree-preserving null</h3>
+          <p>
+            High-degree nodes score high on almost everything. A configuration-model
+            ensemble (<code>nx.configuration_model</code> / directed variants, 100–1,000
+            draws) gives z-scores or empirical p-values. Effective-resistance in
+            <code>04_node_analysis.py</code> already z-scores commute distance against
+            a random-node sample of 300; the same habit should apply to betweenness
+            and clustering before a node is called a bottleneck.
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>Approximate betweenness; do not skip it</h3>
+          <p>
+            Brandes is <code>O(nm)</code>. Fine on this vault. On a filtered human
+            interactome, pass <code>k=</code> (sampled sources) and a seed. Prefer
+            that approximation to dropping the metric. Restricting to the k-core or
+            the giant component is the other legitimate speedup.
+          </p>
+          <pre><code>bt = nx.betweenness_centrality(U, k=100, seed=1, normalized=True)</code></pre>
+        </li>
+        <li>
+          <p class="ptag vault">This vault</p>
+          <h3>Read clustering and k-core as complementary, not redundant</h3>
+          <p>
+            Clustering is local transitivity. k-core is a nested global peel.
+            GPX4 can be a perfect triangle (C = 1, k = 2) and still sit outside the
+            senescence backbone (k = 6). Inner cores often coincide with complexes
+            in PPI; here they coincide with the aging/SASP program. Report both the
+            core-number distribution and the size of the main core.
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>Seed PageRank when the question is local</h3>
+          <p>
+            Global PageRank answers “important in the whole graph.” Target
+            prioritization from a process of interest is Personalized PageRank:
+            <code>personalization={seed: 1.0}</code>, alpha 0.85. Sweeping PPR from
+            each k-core-6 node and intersecting the top ranks is the operational
+            next step proposed below.
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">General practice</p>
+          <h3>Pin versions, seeds, and the edge list</h3>
+          <p>
+            PPI and knowledge graphs change with database version and confidence
+            threshold. Record NetworkX version, the denylist, the giant-component
+            rule, <code>RANDOM_SEED = 1</code>, and the source-file provenance on
+            edges. Export GraphML / GEXF if a reviewer needs Cytoscape; do not
+            rely on NetworkX drawing for publication figures of this scale.
+          </p>
+        </li>
+      </ol>
+
+      <div class="note forest">
+        <h4>What this vault already does well</h4>
+        <p>
+          Directed in/out split; undirected projection for module metrics; type-hub
+          denylist; Leiden communities with stable labels; giant-component restriction
+          and a random-node null for commute distance; Personalized PageRank with a
+          documented alpha. The main gap versus PPI best practice is passing weights
+          into PageRank and inverted distances into betweenness, plus a configuration-model
+          envelope around the static fingerprint itself.
+        </p>
+      </div>
+    </section>
     <section id="references">
       <p class="sec-label">08 · Sources</p>
       <h2>Vault analysis and the surrounding literature</h2>
@@ -2268,12 +2512,12 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     }, svg);
     if (label) {
       text(svg, x, y + (sub ? -1 : 4), label, {
-        anchor: "middle", size: 11, weight: 600, fill: "#fbf8f1"
+        anchor: "middle", size: 14, weight: 600, fill: "#fbf8f1"
       });
     }
     if (sub) {
       text(svg, x, y + 12, sub, {
-        anchor: "middle", size: 9, fill: "#fbf8f1", opacity: 0.9
+        anchor: "middle", size: 14, fill: "#fbf8f1", opacity: 0.9
       });
     }
   }
@@ -2282,7 +2526,12 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
   function drawPipeline() {
     var host = document.querySelector('[data-chart="pipeline"]');
     if (!host) return;
-    var w = 980, h = 168;
+    var boxW = 132, boxH = 72, gap = 22;
+    var startX = 24;
+    var rowTop = 40, vGap = 64, rowPitch = boxH + vGap;
+    var colIdx = [0, 1, 2, 2, 3, 4];   // second row starts under the third box
+    var w = startX + colIdx[5] * (boxW + gap) + boxW + 24;
+    var h = rowTop + boxH + rowPitch + 24;
     var svg = svgRoot(host, w, h, "Metric computation pipeline");
     var steps = [
       { t: "Typed triples", s: "subject–relation–object" },
@@ -2292,78 +2541,48 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       { t: "Leiden", s: "community label" },
       { t: "Fingerprint", s: "per-node vector" }
     ];
-    var boxW = 132, boxH = 72, gap = 22;
-    var startX = 24;
-    var y = 48;
     arrowHead(svg, "pipe-arr", C.mute);
-    steps.forEach(function (step, i) {
-      var x = startX + i * (boxW + gap);
+    var pos = steps.map(function (_, i) {
+      return {
+        x: startX + colIdx[i] * (boxW + gap),
+        y: rowTop + (i < 3 ? 0 : rowPitch)
+      };
+    });
+    pos.forEach(function (p, i) {
       el("rect", {
-        x: x, y: y, width: boxW, height: boxH,
+        x: p.x, y: p.y, width: boxW, height: boxH,
         fill: i === steps.length - 1 ? C.ink : C.paper,
         stroke: C.rule, "stroke-width": 1
       }, svg);
-      text(svg, x + 12, y + 30, step.t, {
-        size: 13, weight: 600,
+      text(svg, p.x + 12, p.y + 30, steps[i].t, {
+        size: 16, weight: 600,
         fill: i === steps.length - 1 ? C.sheet : C.ink
       });
-      text(svg, x + 12, y + 50, step.s, {
-        size: 11,
+      text(svg, p.x + 12, p.y + 50, steps[i].s, {
+        size: 14,
         fill: i === steps.length - 1 ? C.rule : C.mute
       });
-      if (i < steps.length - 1) {
-        el("line", {
-          x1: x + boxW, y1: y + boxH / 2,
-          x2: x + boxW + gap - 2, y2: y + boxH / 2,
-          stroke: C.mute, "stroke-width": 1.2,
-          "marker-end": "url(#pipe-arr)"
-        }, svg);
-      }
     });
+    // horizontal arrows within each row
+    [[0, 1], [1, 2], [3, 4], [4, 5]].forEach(function (pr) {
+      var a = pos[pr[0]], b = pos[pr[1]];
+      el("line", {
+        x1: a.x + boxW, y1: a.y + boxH / 2,
+        x2: b.x - 2, y2: b.y + boxH / 2,
+        stroke: C.mute, "stroke-width": 1.2,
+        "marker-end": "url(#pipe-arr)"
+      }, svg);
+    });
+    // vertical connector: box 2 (row 1) drops straight down to box 3 (row 2)
+    el("line", {
+      x1: pos[2].x + boxW / 2, y1: pos[2].y + boxH,
+      x2: pos[3].x + boxW / 2, y2: pos[3].y,
+      stroke: C.mute, "stroke-width": 1.2,
+      "marker-end": "url(#pipe-arr)"
+    }, svg);
     text(svg, 24, 28, "scripts/03_rebuild_from_triples.py  ·  enrich_graph_metrics()", {
-      size: 11, fill: C.mute, mono: true
+      size: 14, fill: C.mute, mono: true
     });
-  }
-
-  /* ——— Spreader (Acid ceramidase) ——— */
-  function drawSpreader() {
-    var host = document.querySelector('[data-chart="spreader"]');
-    if (!host) return;
-    var w = 520, h = 340;
-    var svg = svgRoot(host, w, h, "Acid ceramidase as an out-degree spreader");
-    arrowHead(svg, "spr-arr", C.mute);
-    var cx = 250, cy = 178;
-    var outs = [
-      "PUFA lipids", "Lipid peroxidation", "Ferroptosis",
-      "Membrane remodel", "Bystander cells", "Senescent cells",
-      "ARN14794", "Senolytic target"
-    ];
-    var ins = ["SASP cytokines", "Senescence", "Document source"];
-    outs.forEach(function (lab, i) {
-      var a = (-50 + i * 22) * Math.PI / 180;
-      var x = cx + Math.cos(a) * 175;
-      var y = cy + Math.sin(a) * 118;
-      el("line", {
-        x1: cx + 28, y1: cy, x2: x - 8, y2: y,
-        stroke: C.acid, "stroke-width": 1.15,
-        "marker-end": "url(#spr-arr)", opacity: 0.85
-      }, svg);
-      text(svg, x, y + 4, lab, { size: 11, fill: C.ink, anchor: a > 0.4 ? "start" : "start" });
-    });
-    ins.forEach(function (lab, i) {
-      var y = 70 + i * 36;
-      el("line", {
-        x1: 118, y1: y, x2: cx - 42, y2: cy - 10 + i * 8,
-        stroke: C.slateSoft, "stroke-width": 1.1,
-        "marker-end": "url(#spr-arr)", opacity: 0.8
-      }, svg);
-      text(svg, 16, y + 4, lab, { size: 11, fill: C.mute });
-    });
-    nodeCircle(svg, cx, cy, 40, C.acid, "AC", "out 17");
-    text(svg, 16, 28, "in-degree 3", { size: 11, fill: C.slate, weight: 600 });
-    text(svg, 16, 44, "upstream drivers", { size: 11, fill: C.mute });
-    text(svg, 360, 28, "out-degree 17", { size: 11, fill: C.acid, weight: 600 });
-    text(svg, 360, 44, "downstream spread", { size: 11, fill: C.mute });
   }
 
   /* ——— SASP nexus ——— */
@@ -2373,12 +2592,14 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     var w = 520, h = 340;
     var svg = svgRoot(host, w, h, "SASP as a betweenness nexus");
     arrowHead(svg, "nx-arr", C.mute);
-    var cx = 260, cy = 175;
+    var cx = 260, cy = 168, r = 44;
+    var lcx = 176;                          // left-community column, pulled inward
+    var rcx = 344;                          // right-community column, mirrored inward
     var left = [
-      { l: "Mitochondria", y: 70 },
-      { l: "Epigenetics", y: 130 },
+      { l: "Mitochondria", y: 104 },
+      { l: "Epigenetics", y: 146 },
       { l: "DNA damage", y: 190 },
-      { l: "Senescent cells", y: 250 }
+      { l: "Senescent cells", y: 232 }
     ];
     var right = [
       { l: "IL-6 / IL-8", y: 70 },
@@ -2386,36 +2607,53 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       { l: "Acid ceramidase", y: 190 },
       { l: "Paracrine spread", y: 250 }
     ];
+    /* Endpoint lands on SASP's LEFT perimeter (fanned vertically) instead of
+       every arrow piling onto one sharp central point. */
+    function leftEnd(ySrc) {
+      var dy = Math.max(-(r - 8), Math.min(r - 8, ySrc - cy));
+      var x = cx - Math.sqrt(Math.max(1, r * r - dy * dy)) - 1;
+      return { x: x, y: cy + dy };
+    }
+    /* Start point on SASP's RIGHT perimeter, fanned so outgoing arrows no
+       longer all leave from one central point. */
+    function rightStart(i) {
+      var span = r - 6;
+      var t = i / (right.length - 1);
+      var dy = (t * 2 - 1) * span * 0.85;
+      var x = cx + Math.sqrt(Math.max(1, r * r - dy * dy)) + 1;
+      return { x: x, y: cy + dy };
+    }
     left.forEach(function (n) {
+      var e = leftEnd(n.y);
       el("line", {
-        x1: 150, y1: n.y, x2: cx - 48, y2: cy,
-        stroke: C.sasp, "stroke-width": 1.2, opacity: 0.75,
+        x1: lcx + 7, y1: n.y, x2: e.x, y2: e.y,
+        stroke: C.sasp, "stroke-width": 1.2, opacity: 0.8,
         "marker-end": "url(#nx-arr)"
       }, svg);
-      el("circle", { cx: 132, cy: n.y, r: 5.5, fill: C.sasp }, svg);
-      text(svg, 16, n.y + 4, n.l, { size: 12, fill: C.ink });
+      el("circle", { cx: lcx, cy: n.y, r: 5.5, fill: C.sasp }, svg);
+      text(svg, lcx - 12, n.y + 4, n.l, { size: 14, fill: C.ink, anchor: "end" });
     });
-    right.forEach(function (n) {
+    right.forEach(function (n, i) {
+      var s = rightStart(i);
       el("line", {
-        x1: cx + 48, y1: cy, x2: 360, y2: n.y,
+        x1: s.x, y1: s.y, x2: rcx - 7, y2: n.y,
         stroke: C.oxblood || C.acid, "stroke-width": 1.2, opacity: 0.7,
         "marker-end": "url(#nx-arr)"
       }, svg);
-      el("circle", { cx: 378, cy: n.y, r: 5.5, fill: C.acid }, svg);
-      text(svg, 392, n.y + 4, n.l, { size: 12, fill: C.ink });
+      el("circle", { cx: rcx, cy: n.y, r: 5.5, fill: C.acid }, svg);
+      text(svg, rcx + 12, n.y + 4, n.l, { size: 14, fill: C.ink });
     });
-    /* crossing dashed shortest-path hint */
+    /* crossing dashed shortest-path hint: Mitochondria -> SASP -> Paracrine spread */
     el("path", {
-      d: "M 132 70 C 200 90, 220 150, 260 175 C 300 200, 330 240, 378 250",
+      d: "M " + lcx + " 104 C 214 120, 228 150, 260 168 C 300 190, 322 232, " + rcx + " 250",
       fill: "none",
       stroke: C.gold,
       "stroke-width": 1.4,
       "stroke-dasharray": "4 3",
       opacity: 0.9
     }, svg);
-    nodeCircle(svg, cx, cy, 44, C.sasp, "SASP", "btw 0.060");
-    text(svg, 16, 28, "in-degree 56  ·  sink for triggers", { size: 11, fill: C.mute });
-    text(svg, 16, 320, "Dashed: a shortest path that must pass the nexus.", { size: 11, fill: C.mute });
+    nodeCircle(svg, cx, cy, r, C.sasp, "SASP", "btw 0.060");
+    text(svg, 16, 28, "in-degree 56  ·  sink for triggers", { size: 16, fill: C.mute });
   }
 
   /* ——— PageRank attractor ——— */
@@ -2432,21 +2670,26 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       { l: "Inflammation", pr: "hub", x: 130, y: 230, c: C.gold }
     ];
     donors.forEach(function (d) {
+      var dx = cx - d.x, dy = cy - d.y;
+      var len = Math.sqrt(dx * dx + dy * dy);
+      var ux = dx / len, uy = dy / len;
+      // start on the donor node's perimeter, end on Aging's perimeter
+      var sx = d.x + ux * 34;
+      var sy = d.y + uy * 34;
+      var ex = cx - ux * 50;
+      var ey = cy - uy * 50;
       el("line", {
-        x1: d.x + 70, y1: d.y, x2: cx - 50, y2: cy,
+        x1: sx, y1: sy, x2: ex, y2: ey,
         stroke: d.c, "stroke-width": 2.2, opacity: 0.8,
         "marker-end": "url(#pr-arr)"
       }, svg);
-      el("circle", { cx: d.x, cy: d.y, r: 22, fill: d.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      el("circle", { cx: d.x, cy: d.y, r: 34, fill: d.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
       text(svg, d.x, d.y + 4, d.l.split(" ")[0], {
-        anchor: "middle", size: 10, weight: 600, fill: C.sheet
+        anchor: "middle", size: 11, weight: 600, fill: C.sheet
       });
     });
     nodeCircle(svg, cx, cy, 48, C.aging, "Aging", "PR 0.0076");
     text(svg, 16, 28, "High-PageRank neighbours vote more strongly", { size: 12, fill: C.mute });
-    text(svg, 16, 280, "Acid ceramidase PR = 0.00078 — sources are not endorsed by in-links.", {
-      size: 11, fill: C.mute
-    });
   }
 
   /* ——— Clique vs bridge ——— */
@@ -2468,14 +2711,14 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
         "stroke-width": 1.6
       }, svg);
       pts.forEach(function (p) {
-        el("circle", { cx: p.x, cy: p.y, r: 16, fill: C.gold, stroke: C.ink, "stroke-width": 0.8 }, svg);
-        text(svg, p.x, p.y + 4, p.l, { anchor: "middle", size: 10, weight: 600, fill: C.sheet });
+        el("circle", { cx: p.x, cy: p.y, r: 22, fill: C.gold, stroke: C.ink, "stroke-width": 0.8 }, svg);
+        text(svg, p.x, p.y + 4, p.l, { anchor: "middle", size: 14, weight: 600, fill: C.sheet });
       });
     }
     triangle(40);
-    text(svg, 150, 36, "Module member  ·  C = 1.0", { size: 13, weight: 600, anchor: "middle" });
+    text(svg, 150, 36, "Module member  ·  C = 1.0", { size: 16, weight: 600, anchor: "middle" });
     text(svg, 150, 270, "Every neighbour is linked to every other.", {
-      size: 11, fill: C.mute, anchor: "middle"
+      size: 16, fill: C.mute, anchor: "middle"
     });
 
     /* bridge */
@@ -2513,10 +2756,10 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       }, svg);
     });
     el("circle", { cx: bx, cy: by, r: 22, fill: C.acid, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, bx, by + 4, "AC", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    text(svg, 720, 36, "Bridge / connector  ·  C ≈ 0.04", { size: 13, weight: 600, anchor: "middle" });
+    text(svg, bx, by + 4, "AC", { anchor: "middle", size: 14, weight: 600, fill: C.sheet });
+    text(svg, 720, 36, "Bridge / connector  ·  C ≈ 0.04", { size: 16, weight: 600, anchor: "middle" });
     text(svg, 720, 270, "Neighbours are not themselves connected.", {
-      size: 11, fill: C.mute, anchor: "middle"
+      size: 16, fill: C.mute, anchor: "middle"
     });
   }
 
@@ -2541,7 +2784,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     });
     function place(x, y, color, label) {
       el("circle", { cx: x, cy: y, r: 7, fill: color, stroke: C.ink, "stroke-width": 0.7 }, svg);
-      text(svg, x + 10, y + 4, label, { size: 12, fill: C.ink });
+      text(svg, x + 10, y + 4, label, { size: 14, fill: C.ink });
     }
     place(cx - 18, cy - 8, C.aging, "Aging");
     place(cx + 14, cy + 16, C.sasp, "SASP");
@@ -2552,7 +2795,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     place(cx - 150, cy - 120, C.periphery, "Alagebrium");
     place(cx + 150, cy - 110, C.periphery, "2-Chlorophenothiazine");
 
-    text(svg, 560, 48, "Nested shells", { size: 14, weight: 600 });
+    text(svg, 560, 48, "Nested shells", { size: 16, weight: 600 });
     var legend = [
       { k: "k = 6", d: "Resilient inner core. Mutually reinforcing senescence / aging machinery.", c: C.aging },
       { k: "k = 4", d: "Near-core control points. Acid ceramidase sits here as a spreader.", c: C.acid },
@@ -2562,8 +2805,8 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     legend.forEach(function (row, i) {
       var y = 80 + i * 72;
       el("rect", { x: 560, y: y, width: 8, height: 48, fill: row.c }, svg);
-      text(svg, 580, y + 16, row.k, { size: 13, weight: 600, mono: true });
-      wrapText(svg, 580, y + 34, row.d, 360, 12);
+      text(svg, 580, y + 16, row.k, { size: 14, weight: 600, mono: true });
+      wrapText(svg, 580, y + 34, row.d, 360, 14);
     });
   }
 
@@ -2594,21 +2837,21 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     var rows = [NODES.acid, NODES.sasp, NODES.aging];
     var max = 101;
     var left = 210, top = 48, barH = 36, gap = 52, usable = 620;
-    text(svg, left, 28, "in-degree", { size: 11, fill: C.sasp, weight: 600 });
-    text(svg, left + 90, 28, "out-degree", { size: 11, fill: C.acid, weight: 600 });
+    text(svg, left, 28, "in-degree", { size: 14, fill: C.sasp, weight: 600 });
+    text(svg, left + 90, 28, "out-degree", { size: 14, fill: C.acid, weight: 600 });
     rows.forEach(function (n, i) {
       var y = top + i * gap;
-      text(svg, 16, y + 24, n.label, { size: 13, weight: 600 });
+      text(svg, 16, y + 24, n.label, { size: 16, weight: 600 });
       var inW = (n.in / max) * usable;
       var outW = (n.out / max) * usable;
       el("rect", { x: left, y: y, width: inW, height: barH, fill: C.sasp }, svg);
       el("rect", { x: left + inW, y: y, width: outW, height: barH, fill: C.acid }, svg);
-      text(svg, left + 8, y + 23, String(n.in), { size: 12, fill: C.sheet, weight: 600 });
+      text(svg, left + 8, y + 23, String(n.in), { size: 14, fill: C.sheet, weight: 600 });
       text(svg, left + inW + outW + 10, y + 23, String(n.out) + "  (" + Math.round(100 * n.out / n.degree) + "% out)", {
-        size: 12, fill: C.ink
+        size: 14, fill: C.ink
       });
     });
-    wrapText(svg, 16, 248, "SASP is balanced. Aging is a sink. Acid ceramidase is a source — the network signature of a spreading control point.", 940, 12);
+    wrapText(svg, 16, 248, "SASP is balanced. Aging is a sink. Acid ceramidase is a source — the network signature of a spreading control point.", 940, 14);
   }
 
   /* ——— Fingerprint grouped bars ——— */
@@ -2663,14 +2906,14 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
         stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "3 4", opacity: 0.7
       }, svg);
       text(svg, left - 8, y + 4, String(Math.round(f * 100)) + "%", {
-        size: 10, fill: C.faint, anchor: "end"
+        size: 14, fill: C.faint, anchor: "end"
       });
     });
 
     metrics.forEach(function (m, gi) {
       var gx = left + gi * groupW;
       text(svg, gx + groupW / 2, h - 48, FINGERPRINT_LABELS[m], {
-        size: 12, fill: C.ink, anchor: "middle"
+        size: 14, fill: C.ink, anchor: "middle"
       });
       series.forEach(function (n, si) {
         var val = rawForChart(n, m);
@@ -2683,14 +2926,14 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
         }, svg);
         rect.setAttribute("data-tip", n.label + " · " + FINGERPRINT_LABELS[m] + " = " + formatRaw(m, n));
         text(svg, x + barW / 2, y - 6, formatShort(m, n), {
-          size: 10, fill: C.mute, anchor: "middle", mono: true
+          size: 14, fill: C.mute, anchor: "middle", mono: true
         });
       });
     });
 
     series.forEach(function (n, i) {
       el("rect", { x: left + i * 150, y: h - 28, width: 10, height: 10, fill: n.color }, svg);
-      text(svg, left + 16 + i * 150, h - 19, n.label, { size: 12, fill: C.ink });
+      text(svg, left + 16 + i * 150, h - 19, n.label, { size: 14, fill: C.ink });
     });
   }
 
@@ -2767,27 +3010,6 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
           btn.setAttribute("aria-expanded", "true");
         }
       });
-    });
-  }
-
-  function initFingerprintToggles() {
-    var tools = document.querySelector("[data-fp-tools]");
-    if (!tools) return;
-    var active = FINGERPRINT_METRICS.slice();
-    tools.addEventListener("click", function (e) {
-      var btn = e.target.closest("button[data-metric]");
-      if (!btn) return;
-      var m = btn.getAttribute("data-metric");
-      var i = active.indexOf(m);
-      if (i >= 0) {
-        if (active.length === 1) return;
-        active.splice(i, 1);
-        btn.classList.remove("is-on");
-      } else {
-        active.push(m);
-        btn.classList.add("is-on");
-      }
-      drawFingerprint(active);
     });
   }
 
@@ -2905,7 +3127,6 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
 
   function ready() {
     drawPipeline();
-    drawSpreader();
     drawNexus();
     drawPageRank();
     drawCliqueVsBridge();
@@ -2915,7 +3136,6 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     drawRoles();
     initNav();
     initMetricCards();
-    initFingerprintToggles();
     initTooltip();
     initLightbox();
     initNavScrollHint();
