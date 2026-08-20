@@ -387,6 +387,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #controls #btn-prompt { order: 2; }
 #controls #btn-notes { order: 3; }
 #controls #btn-reset { order: 4; }
+#controls #btn-unstick { order: 5; }
 .controls-spacer { width: 44px; height: 44px; flex: none; }
 /* Icon buttons in the controls bar — uniform compact squares like #btn-notes.
    44px with a centered .btn-icon, muted color, bright/outlined on hover.
@@ -395,10 +396,12 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #controls .btn-icon svg { width: 100%; height: 100%; display: block; }
 #controls #btn-reset,
 #controls #btn-dataset,
-#controls #btn-save-png { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
+#controls #btn-save-png,
+#controls #btn-unstick { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
-#controls #btn-save-png:hover { color: #e0e0e0; border-color: #4E79A7; }
+#controls #btn-save-png:hover,
+#controls #btn-unstick:hover { color: #e0e0e0; border-color: #4E79A7; }
 #controls #btn-save-png { display: none; }
 #controls #btn-save-png.ok { color: #58D68D; border-color: #58D68D; }
 #controls #btn-save-png.err { color: #E4575E; border-color: #E4575E; }
@@ -571,26 +574,29 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .at-ab button.set-a.on { background: #4E79A7; color: #fff; border-color: #4E79A7; }
 .at-ab button.set-b.on { background: #a78bfa; color: #fff; border-color: #a78bfa; }
 .at-communities { display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; overflow-x: hidden; }
-.at-comm { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+.at-comm { display: flex; flex-direction: column; gap: 3px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-comm:hover { background: rgba(120,120,140,0.12); }
+/* Name on its own full-width line so long community names aren't squeezed. */
+.at-comm .at-comm-main { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.at-comm .at-comm-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-left: 20px; }
 .at-comm .sw { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
-.at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.at-comm .at-comm-count { color: #777; font-size: 11px; flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; text-align: right; }
-.at-comm .at-ab { margin-left: auto; }
+.at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; line-height: 1.35; flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+.at-comm .at-comm-count { color: #777; font-size: 11px; flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; text-align: left; }
+.at-comm .at-ab { margin-left: auto; flex-shrink: 0; }
 
-/* Per-node detail sheet (right-docked, full height, internally scrollable) —
-   slides in over the analysis panel; the body scrolls so long content like a
-   200+ connection list never overflows the viewport. */
+/* Per-node detail sheet (full-page, internally scrollable) — slides up from the
+   bottom to cover the whole viewport over the analysis panel; the body scrolls
+   so long content like a 200+ connection list never overflows. */
 #at-node-detail {
-  position: fixed; top: 0; right: 0; bottom: 0;
-  width: min(360px, 100vw);
-  background: #1a1a2e; border-left: 1px solid #3a3a5e;
-  box-shadow: -16px 0 48px rgba(0, 0, 0, 0.5);
+  position: fixed; inset: 0; width: 100%; height: 100%;
+  background: #1a1a2e;
   padding: 14px; z-index: 620;
   display: flex; flex-direction: column; gap: 10px;
-  animation: at-sheet-in 0.22s ease;
+  overflow: hidden;
+  animation: at-sheet-in 0.28s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transform-origin: bottom;
 }
-@keyframes at-sheet-in { from { transform: translateX(48px); opacity: 0.4; } to { transform: translateX(0); opacity: 1; } }
+@keyframes at-sheet-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
 #at-node-detail[hidden] { display: none; }
 /* Scrollable body between the fixed header and the action bar. */
 #at-node-detail .at-node-scroll {
@@ -602,10 +608,12 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .at-node-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .at-node-close { background: none; border: none; color: #888; font-size: 16px; cursor: pointer; line-height: 1; padding: 0 2px; }
 .at-node-close:hover { color: #ff6b6b; }
+.at-node-back { background: none; border: none; color: #888; font-size: 16px; cursor: pointer; line-height: 1; padding: 0 4px 0 0; }
+.at-node-back:hover { color: #4E79A7; }
 .at-node-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
 #at-node-detail .at-node-title {
   font-size: 13px; font-weight: 600; color: #e0e0e0; overflow: hidden;
-  text-overflow: ellipsis; white-space: nowrap;
+  text-overflow: ellipsis; white-space: nowrap; flex: 1 1 auto; min-width: 0; text-align: center;
 }
 #at-node-detail .neighbor-link {
   display: flex; align-items: center; justify-content: space-between; gap: 6px; flex-wrap: wrap;
@@ -1159,6 +1167,19 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
    match the filter inputs so the row stays aligned. */
 #notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }
 #notes-filters .lang-toggle button { font-size: 12px; padding: 8px 11px; }
+/* Sort toggle: calendar glyph with up/down chevrons. The active direction is
+   highlighted (teal); the other stays muted. */
+.notes-sort-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0; width: 33px; height: 33px; padding: 0; background: #23233f;
+  color: #9a9ab0; border: 1px solid #3a3a5e; border-radius: 6px; cursor: pointer;
+  font-family: inherit;
+}
+.notes-sort-btn:hover { border-color: #4E79A7; color: #e0e0e0; }
+.notes-sort-btn svg { width: 18px; height: 18px; }
+.notes-sort-arrow-up, .notes-sort-arrow-down { color: #6a6a82; transition: color 0.15s; }
+.notes-sort-btn.sort-desc .notes-sort-arrow-up { color: var(--teal); }
+.notes-sort-btn.sort-asc .notes-sort-arrow-down { color: var(--teal); }
 
 /* Gallery — min-height:0 is required so the grid's overflow-y:auto actually
    engages: without it the flex item defaults to min-height:auto and grows to
@@ -1222,6 +1243,13 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .notes-card-meta { color: #7c7c94; font-size: 11px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .notes-badge { background: #2a2a4e; border: 1px solid #3a3a5e; color: #9ec1e8; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; white-space: nowrap; }
 .notes-badge.topic { color: var(--teal); }
+/* Clickable tag badges on gallery cards — toggling a tag filters the set. */
+.notes-badge.tag-filter {
+  cursor: pointer; user-select: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
+}
+.notes-badge.tag-filter:hover { background: #3a3a5e; border-color: var(--teal); color: #eaf3ff; }
+.notes-badge.tag-filter:active { box-shadow: inset 0 0 0 1px var(--teal); }
 .notes-doc { overflow-wrap: anywhere; font-size: 10.5px; color: #7c7c94; }
 .notes-ocr-snip {
   color: inherit; font-size: inherit; line-height: 1.5; max-height: 16em; overflow: hidden;

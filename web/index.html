@@ -59,7 +59,9 @@
     <button id="btn-notes" title="Notes / 筆記" aria-label="Notes panel">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
-    <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
+    <button id="btn-unstick" title="Reset all dragged nodes to physics positions / 取消固定" aria-label="Reset all dragged nodes to physics positions" style="display:none">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 9.9-1"></path></svg></span>
+    </button>
     <button id="btn-settings" hidden title="Settings / 設定" aria-label="Settings / 設定">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
     </button>
@@ -171,6 +173,16 @@
           <svg class="notes-combobox-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
           <div id="notes-combobox-popup" class="notes-popup" role="listbox" hidden></div>
         </div>
+        <button id="notes-sort" type="button" class="notes-sort-btn" title="Sort by updated date — newest first" aria-label="Sort by updated date — newest first">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="17" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+            <polyline class="notes-sort-arrow-up" points="9 14 12 11 15 14"></polyline>
+            <polyline class="notes-sort-arrow-down" points="9 17 12 20 15 17"></polyline>
+          </svg>
+        </button>
         <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
           <button type="button" data-lang="en-US" title="English (US)">EN</button>
           <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>

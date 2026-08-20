@@ -167,12 +167,14 @@ body {
 #controls #btn-dataset,
 #controls #btn-save-png,
 #controls #btn-prompt,
-#controls #btn-notes { color: #7C8698; }
+#controls #btn-notes,
+#controls #btn-unstick { color: #7C8698; }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
 #controls #btn-prompt:hover,
-#controls #btn-notes:hover { color: #22304A; border-color: #0F766E; }
+#controls #btn-notes:hover,
+#controls #btn-unstick:hover { color: #22304A; border-color: #0F766E; }
 #controls #btn-prompt.open, #controls #btn-prompt.active,
 #controls #btn-notes.open { background: #ECE8DD; border-color: #0F766E; color: #22304A; }
 #controls #btn-save-png.ok { color: #1E7A4E; border-color: #1E7A4E; }
@@ -273,10 +275,12 @@ body {
 #prompt-filter-bar .lang-toggle button:hover:not(.active) { color: #22304A; }
 #prompt-filter-bar .lang-toggle button.active { background: #0F766E; color: #fff; }
 #analysis-tools .at-section { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
-#at-node-detail { background: #FFFFFF; border-left-color: #CCC5B2; box-shadow: -16px 0 48px rgba(34, 48, 74, 0.18); }
-.at-node-title { color: #22304A; }
+#at-node-detail { background: #FFFFFF; }
+#at-node-detail .at-node-title { color: #1c2742; }
 .at-node-close { color: #7C8698; }
 .at-node-close:hover { color: #C0392B; }
+.at-node-back { color: #7C8698; }
+.at-node-back:hover { color: #0F766E; }
 .at-kv { background: #F6F3EC; border-color: #E2DCCE; }
 .at-kv .key { color: #7C8698; }
 .at-kv .val { color: #22304A; }
@@ -480,6 +484,13 @@ body {
 .notes-doc { color: #7C8698; }
 .notes-badge { background: #F6F3EC; border-color: #E2DCCE; color: #2563A8; }
 .notes-badge.topic { color: var(--teal); }
+.notes-badge.tag-filter:hover { background: #EAE4D6; border-color: #0F766E; color: #22304A; }
+/* Sort toggle (light theme) */
+.notes-sort-btn { background: #FFFFFF; border-color: #CCC5B2; color: #7C8698; }
+.notes-sort-btn:hover { border-color: #0F766E; color: #22304A; }
+.notes-sort-arrow-up, .notes-sort-arrow-down { color: #B9B3A4; }
+.notes-sort-btn.sort-desc .notes-sort-arrow-up { color: var(--teal); }
+.notes-sort-btn.sort-asc .notes-sort-arrow-down { color: var(--teal); }
 .notes-ocr-snip { color: #7C8698; }
 .notes-empty { color: #7C8698; }
 .notes-loading { color: #7C8698; }

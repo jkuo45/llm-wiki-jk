@@ -55,6 +55,7 @@ function tagLabel(tag) {
 }
 
 loadTagLabels();
+renderSortButton();
 
 // ------------------------------------------------------------
 // DOM refs
@@ -68,6 +69,7 @@ const browseEl = $('notes-browse');
 const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
+const sortBtn = $('notes-sort');
 const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
 const fieldsEl = document.querySelector('.notes-combobox-field');
@@ -111,6 +113,10 @@ let filterQ = '';
 // Selected tag filters (multiselect). Notes must carry every tag in this set
 // (AND semantics), combined with the free-text `filterQ` query.
 const activeTags = new Set();
+// Gallery sort direction by `updated` date. true = newest first (descending),
+// false = oldest first (ascending). Matches the view that was open when the
+// sort toggle last changed.
+let sortDesc = true;
 let uiLang = 'en-US'; // panel + note-content language; persisted across visits
 try {
   const savedLang = localStorage.getItem('llm-wiki-notes-ui-lang');
@@ -147,6 +153,9 @@ const UI_STRINGS = {
     allTopics: 'All topics',
     filterByDocument: 'Filter by document',
     allDocuments: 'All documents',
+    sortDesc: 'Sort by updated date — newest first',
+    sortAsc: 'Sort by updated date — oldest first',
+    filterByTagPrefix: 'Filter by tag: ',
     panelLanguage: 'Panel language',
     langEn: 'English (US)',
     langZh: '繁體中文（台灣）',
@@ -201,6 +210,9 @@ const UI_STRINGS = {
     allTopics: '全部主題',
     filterByDocument: '文件篩選',
     allDocuments: '全部文件',
+    sortDesc: '依更新日期排序 — 最新在前',
+    sortAsc: '依更新日期排序 — 最舊在前',
+    filterByTagPrefix: '以標籤篩選: ',
     panelLanguage: '面板語言',
     langEn: '英語（美國）',
     langZh: '繁體中文（台灣）',
@@ -296,6 +308,7 @@ function applyUiLang(lang) {
   closeCombobox();
 
   renderGallery();
+  renderSortButton();
   setViewMode(viewMode);
   if (!lightboxEl.hidden && currentNote) renderLightbox();
   updateCloseLabel();
@@ -523,16 +536,45 @@ function noteMatchesText(n, q) {
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
   const list = notes.filter((n) => noteHasTags(n, [...activeTags]) && noteMatchesText(n, q));
-  // Default order: newest first by creation date (descending). `created` is an
-  // ISO-ish `YYYY-MM-DD` string, which compares correctly lexicographically.
-  // Missing dates sort last; the note id breaks ties stably.
+  // Sort by `updated` date (falling back to `created` when it is missing),
+  // direction driven by the sort toggle: newest first by default, oldest first
+  // when toggled. `updated`/`created` are ISO-ish `YYYY-MM-DD` strings, which
+  // compare correctly lexicographically. Missing dates sort last; the note id
+  // breaks ties stably.
+  const dateKey = (n) => {
+    const d = (n.updated && /^\d{4}-\d{2}-\d{2}/.test(n.updated)) ? n.updated : (n.created || '');
+    return d;
+  };
   return list.sort((a, b) => {
-    const ad = a.created || '';
-    const bd = b.created || '';
-    if (ad !== bd) return ad < bd ? 1 : -1;
+    const ad = dateKey(a);
+    const bd = dateKey(b);
+    if (ad !== bd) {
+      // Equal dates → newest-first tiebreak is irrelevant; keep stable per direction.
+      if (ad === '' || bd === '') return ad === '' ? 1 : -1; // missing dates last
+      return sortDesc ? (ad < bd ? 1 : -1) : (ad < bd ? -1 : 1);
+    }
     return (b.id || '').localeCompare(a.id || '');
   });
 }
+
+// Reflect the current sort state on the sort-toggle button: highlight whichever
+// chevron matches the active direction and localize its tooltip.
+function renderSortButton() {
+  if (!sortBtn) return;
+  sortBtn.classList.toggle('sort-asc', !sortDesc);
+  sortBtn.classList.toggle('sort-desc', sortDesc);
+  const tip = sortDesc ? t('sortDesc') : t('sortAsc');
+  sortBtn.title = tip;
+  sortBtn.setAttribute('aria-label', tip);
+}
+
+// Flip the gallery sort between updated-date descending and ascending.
+function toggleSort() {
+  sortDesc = !sortDesc;
+  renderSortButton();
+  renderGallery();
+}
+if (sortBtn) sortBtn.addEventListener('click', toggleSort);
 
 // Whether any filter is active: a free-text query and/or selected tag chips.
 function isFiltering() {
@@ -571,7 +613,13 @@ function renderGallery() {
   galleryEl.innerHTML = list.map(cardHTML).join('');
   galleryEl.querySelectorAll('.notes-card').forEach((card) => {
     const id = card.dataset.id;
-    card.addEventListener('click', () => openLightbox(findNote(id)));
+    // A click on a tag badge toggles that tag as a gallery filter; any other
+    // click opens the note's lightbox.
+    card.addEventListener('click', (e) => {
+      const badge = e.target.closest('.notes-badge.tag-filter');
+      if (badge && badge.dataset.tag) { toggleTag(badge.dataset.tag); return; }
+      openLightbox(findNote(id));
+    });
     const note = findNote(id);
     const first = note && (note.pages || [])[0];
     const img = card.querySelector('.notes-card-thumb');
@@ -598,7 +646,7 @@ function cardHTML(n) {
     : '';
   const topic = tagLabel(noteTopic(n)).toUpperCase();
   const tags = (n.tags || []).map((t) =>
-    `<span class="notes-badge topic">#${esc(tagLabel(t))}</span>`).join('');
+    `<span class="notes-badge topic tag-filter" data-tag="${esc(t)}" title="${esc(t('filterByTagPrefix') + tagLabel(t))}">#${esc(tagLabel(t))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
   const meta = (tags || doc)
