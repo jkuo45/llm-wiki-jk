@@ -1778,10 +1778,72 @@ body.lb-open {
 
       <figure class="fig">
         <div class="fig-head"><span class="fig-num">圖 2 · 擴散者</span></div>
-        <div class="fig-canvas" data-chart="spreader"></div>
+        <div class="fig-canvas">
+          <svg viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase 作為出度擴散者">
+            <title>Acid ceramidase 作為出度擴散者</title>
+            <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
+            <rect x="0" y="0" width="520" height="340" fill="#fbf8f1"/>
+            <defs>
+              <marker id="sp-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#6d665b"/>
+              </marker>
+              <marker id="sp-ar-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#9a7430"/>
+              </marker>
+            </defs>
+
+            <!-- 傳入驅動者 -> AC：SASP、ARN14794（金色標示）、Carmofur -->
+            <line x1="118" y1="146" x2="219" y2="146" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+            <line x1="118" y1="182" x2="205" y2="182" stroke="#9a7430" stroke-width="2" opacity="0.9" marker-end="url(#sp-ar-gold)"/>
+            <line x1="118" y1="218" x2="219" y2="210" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+            <circle cx="112" cy="146" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="112" cy="182" r="11" fill="none" stroke="#9a7430" stroke-width="1.4" opacity="0.9"/>
+            <circle cx="112" cy="182" r="7" fill="#9a7430" stroke="#1c1915" stroke-width="1.4"/>
+            <circle cx="112" cy="218" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="100" y="150" text-anchor="end" fill="#6d665b" font-size="11">SASP</text>
+            <text x="100" y="186" text-anchor="end" fill="#9a7430" font-size="11" font-weight="600">ARN14794</text>
+            <text x="100" y="222" text-anchor="end" fill="#6d665b" font-size="11">Carmofur</text>
+
+            <!-- 傳出擴散：AC -> 效應者 -->
+            <line x1="277" y1="146" x2="355" y2="95" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="287" y1="158" x2="395" y2="127" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="292" y1="174" x2="413" y2="167" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="290" y1="190" x2="408" y2="208" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="283" y1="204" x2="379" y2="245" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="271" y1="214" x2="332" y2="272" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+            <line x1="240" y1="219" x2="210" y2="284" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+
+            <circle cx="359" cy="90" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="400" cy="124" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="419" cy="166" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="413" cy="210" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="384" cy="249" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="335" cy="278" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <circle cx="209" cy="290" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+
+            <text x="368" y="94" fill="#1c1915" font-size="11">PUFA 脂質</text>
+            <text x="409" y="128" fill="#1c1915" font-size="11">脂質過氧化</text>
+            <text x="428" y="170" fill="#1c1915" font-size="11">Ferroptosis</text>
+            <text x="422" y="214" fill="#1c1915" font-size="11">膜重塑</text>
+            <text x="393" y="253" fill="#1c1915" font-size="11">旁觀者細胞</text>
+            <text x="344" y="282" fill="#1c1915" font-size="11">衰老細胞</text>
+            <text x="218" y="294" fill="#1c1915" font-size="11">衰老溶解標的</text>
+
+            <!-- AC 節點 -->
+            <circle cx="250" cy="178" r="40" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="250" y="182" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">AC</text>
+            <text x="250" y="190" text-anchor="middle" fill="#fbf8f1" font-size="9" opacity="0.9">出 17</text>
+
+            <text x="16" y="28" fill="#2e4a5d" font-size="11" font-weight="600">入度 3</text>
+            <text x="16" y="44" fill="#6d665b" font-size="11">上游驅動者</text>
+            <text x="360" y="28" fill="#7a312c" font-size="11" font-weight="600">出度 17</text>
+            <text x="360" y="44" fill="#6d665b" font-size="11">下游擴散</text>
+          </svg>
+        </div>
         <figcaption>
           <strong>Acid ceramidase 作為源頭節點。</strong>
           三個傳入驅動者，多個傳出效應者。PageRank 保持低值，因為幾乎沒有節點指向<em>它</em>；其生物學意義在於出向星狀結構（out-star）。
+          <a href="https://x.com/i/grok/share/f39c23c7740d438db8181ff33b4ea809">Grok ref →</a>
         </figcaption>
       </figure>
       </div>
@@ -1800,7 +1862,10 @@ body.lb-open {
         <div class="fig-canvas" data-chart="nexus"></div>
         <figcaption>
           <strong>中介中心性即路徑集中。</strong>
-          左側的社群必須跨越 SASP，才能抵達右側的效應者。虛線曲線是示意的最短路徑，而非儲存的走訪。
+          左側的社群必須跨越 SASP，才能抵達右側的效應者。
+          <strong>註：</strong>金色虛線標示出其中一條路線——
+          <em>粒線體 → SASP → 旁分泌擴散</em>——用以示範一個左側社群唯有穿過此樞紐才能抵達右側效應者，
+          這正是 SASP 中介中心性偏高的原因。
         </figcaption>
       </figure>
       </div>
@@ -1821,6 +1886,7 @@ body.lb-open {
         <figcaption>
           <strong>重要性由鄰居繼承而來。</strong>
           其他高分節點的粗箭頭抬高了 Aging 的 PageRank。一個具有相同原始度數的周邊葉節點則不會。
+          Acid ceramidase PR = 0.00078 — 來源不會被入鏈背書。
         </figcaption>
       </figure>
       </div>
@@ -2213,7 +2279,12 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
   function drawPipeline() {
     var host = document.querySelector('[data-chart="pipeline"]');
     if (!host) return;
-    var w = 980, h = 168;
+    var boxW = 132, boxH = 72, gap = 22;
+    var startX = 24;
+    var rowTop = 40, vGap = 64, rowPitch = boxH + vGap;
+    var colIdx = [0, 1, 2, 2, 3, 4];   // second row starts under the third box
+    var w = startX + colIdx[5] * (boxW + gap) + boxW + 24;
+    var h = rowTop + boxH + rowPitch + 24;
     var svg = svgRoot(host, w, h, "指標計算管線");
     var steps = [
       { t: "帶類型三元組", s: "主詞–關係–受詞" },
@@ -2223,78 +2294,48 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       { t: "Leiden", s: "社群標籤" },
       { t: "指紋", s: "每節點向量" }
     ];
-    var boxW = 132, boxH = 72, gap = 22;
-    var startX = 24;
-    var y = 48;
     arrowHead(svg, "pipe-arr", C.mute);
-    steps.forEach(function (step, i) {
-      var x = startX + i * (boxW + gap);
+    var pos = steps.map(function (_, i) {
+      return {
+        x: startX + colIdx[i] * (boxW + gap),
+        y: rowTop + (i < 3 ? 0 : rowPitch)
+      };
+    });
+    pos.forEach(function (p, i) {
       el("rect", {
-        x: x, y: y, width: boxW, height: boxH,
+        x: p.x, y: p.y, width: boxW, height: boxH,
         fill: i === steps.length - 1 ? C.ink : C.paper,
         stroke: C.rule, "stroke-width": 1
       }, svg);
-      text(svg, x + 12, y + 30, step.t, {
+      text(svg, p.x + 12, p.y + 30, steps[i].t, {
         size: 16, weight: 600,
         fill: i === steps.length - 1 ? C.sheet : C.ink
       });
-      text(svg, x + 12, y + 50, step.s, {
+      text(svg, p.x + 12, p.y + 50, steps[i].s, {
         size: 14,
         fill: i === steps.length - 1 ? C.rule : C.mute
       });
-      if (i < steps.length - 1) {
-        el("line", {
-          x1: x + boxW, y1: y + boxH / 2,
-          x2: x + boxW + gap - 2, y2: y + boxH / 2,
-          stroke: C.mute, "stroke-width": 1.2,
-          "marker-end": "url(#pipe-arr)"
-        }, svg);
-      }
     });
+    // horizontal arrows within each row
+    [[0, 1], [1, 2], [3, 4], [4, 5]].forEach(function (pr) {
+      var a = pos[pr[0]], b = pos[pr[1]];
+      el("line", {
+        x1: a.x + boxW, y1: a.y + boxH / 2,
+        x2: b.x - 2, y2: b.y + boxH / 2,
+        stroke: C.mute, "stroke-width": 1.2,
+        "marker-end": "url(#pipe-arr)"
+      }, svg);
+    });
+    // vertical connector: box 2 (row 1) drops straight down to box 3 (row 2)
+    el("line", {
+      x1: pos[2].x + boxW / 2, y1: pos[2].y + boxH,
+      x2: pos[3].x + boxW / 2, y2: pos[3].y,
+      stroke: C.mute, "stroke-width": 1.2,
+      "marker-end": "url(#pipe-arr)"
+    }, svg);
     text(svg, 24, 28, "scripts/03_rebuild_from_triples.py  ·  enrich_graph_metrics()", {
       size: 14, fill: C.mute, mono: true
     });
-  }
-
-  /* ——— Spreader (Acid ceramidase) ——— */
-  function drawSpreader() {
-    var host = document.querySelector('[data-chart="spreader"]');
-    if (!host) return;
-    var w = 520, h = 340;
-    var svg = svgRoot(host, w, h, "Acid ceramidase 作為出度擴散者");
-    arrowHead(svg, "spr-arr", C.mute);
-    var cx = 250, cy = 178;
-    var outs = [
-      "PUFA 脂質", "脂質過氧化", "Ferroptosis",
-      "膜重塑", "旁觀者細胞", "衰老細胞",
-      "ARN14794", "衰老溶解標的"
-    ];
-    var ins = ["SASP 細胞因子", "衰老", "文件來源"];
-    outs.forEach(function (lab, i) {
-      var a = (-50 + i * 22) * Math.PI / 180;
-      var x = cx + Math.cos(a) * 175;
-      var y = cy + Math.sin(a) * 118;
-      el("line", {
-        x1: cx + 28, y1: cy, x2: x - 8, y2: y,
-        stroke: C.acid, "stroke-width": 1.15,
-        "marker-end": "url(#spr-arr)", opacity: 0.85
-      }, svg);
-      text(svg, x, y + 4, lab, { size: 14, fill: C.ink, anchor: a > 0.4 ? "start" : "start" });
-    });
-    ins.forEach(function (lab, i) {
-      var y = 70 + i * 36;
-      el("line", {
-        x1: 118, y1: y, x2: cx - 42, y2: cy - 10 + i * 8,
-        stroke: C.slateSoft, "stroke-width": 1.1,
-        "marker-end": "url(#spr-arr)", opacity: 0.8
-      }, svg);
-      text(svg, 16, y + 4, lab, { size: 14, fill: C.mute });
-    });
-    nodeCircle(svg, cx, cy, 40, C.acid, "AC", "出 17");
-    text(svg, 16, 28, "in-degree 3", { size: 14, fill: C.slate, weight: 600 });
-    text(svg, 16, 44, "上游驅動者", { size: 14, fill: C.mute });
-    text(svg, 360, 28, "out-degree 17", { size: 14, fill: C.acid, weight: 600 });
-    text(svg, 360, 44, "下游擴散", { size: 14, fill: C.mute });
   }
 
   /* ——— SASP nexus ——— */
@@ -2304,12 +2345,14 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
     var w = 520, h = 340;
     var svg = svgRoot(host, w, h, "SASP 作為中介中心性樞紐");
     arrowHead(svg, "nx-arr", C.mute);
-    var cx = 260, cy = 175;
+    var cx = 260, cy = 168, r = 44;
+    var lcx = 176;                          // left-community column, pulled inward
+    var rcx = 344;                          // right-community column, mirrored inward
     var left = [
-      { l: "粒線體", y: 70 },
-      { l: "表觀遺傳", y: 130 },
+      { l: "粒線體", y: 104 },
+      { l: "表觀遺傳", y: 146 },
       { l: "DNA 損傷", y: 190 },
-      { l: "衰老細胞", y: 250 }
+      { l: "衰老細胞", y: 232 }
     ];
     var right = [
       { l: "IL-6 / IL-8", y: 70 },
@@ -2317,36 +2360,53 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       { l: "Acid ceramidase", y: 190 },
       { l: "旁分泌擴散", y: 250 }
     ];
+    /* Endpoint lands on SASP's LEFT perimeter (fanned vertically) instead of
+       every arrow piling onto one sharp central point. */
+    function leftEnd(ySrc) {
+      var dy = Math.max(-(r - 8), Math.min(r - 8, ySrc - cy));
+      var x = cx - Math.sqrt(Math.max(1, r * r - dy * dy)) - 1;
+      return { x: x, y: cy + dy };
+    }
+    /* Start point on SASP's RIGHT perimeter, fanned so outgoing arrows no
+       longer all leave from one central point. */
+    function rightStart(i) {
+      var span = r - 6;
+      var t = i / (right.length - 1);
+      var dy = (t * 2 - 1) * span * 0.85;
+      var x = cx + Math.sqrt(Math.max(1, r * r - dy * dy)) + 1;
+      return { x: x, y: cy + dy };
+    }
     left.forEach(function (n) {
+      var e = leftEnd(n.y);
       el("line", {
-        x1: 150, y1: n.y, x2: cx - 48, y2: cy,
-        stroke: C.sasp, "stroke-width": 1.2, opacity: 0.75,
+        x1: lcx + 7, y1: n.y, x2: e.x, y2: e.y,
+        stroke: C.sasp, "stroke-width": 1.2, opacity: 0.8,
         "marker-end": "url(#nx-arr)"
       }, svg);
-      el("circle", { cx: 132, cy: n.y, r: 5.5, fill: C.sasp }, svg);
-      text(svg, 16, n.y + 4, n.l, { size: 14, fill: C.ink });
+      el("circle", { cx: lcx, cy: n.y, r: 5.5, fill: C.sasp }, svg);
+      text(svg, lcx - 12, n.y + 4, n.l, { size: 14, fill: C.ink, anchor: "end" });
     });
-    right.forEach(function (n) {
+    right.forEach(function (n, i) {
+      var s = rightStart(i);
       el("line", {
-        x1: cx + 48, y1: cy, x2: 360, y2: n.y,
+        x1: s.x, y1: s.y, x2: rcx - 7, y2: n.y,
         stroke: C.oxblood || C.acid, "stroke-width": 1.2, opacity: 0.7,
         "marker-end": "url(#nx-arr)"
       }, svg);
-      el("circle", { cx: 378, cy: n.y, r: 5.5, fill: C.acid }, svg);
-      text(svg, 392, n.y + 4, n.l, { size: 14, fill: C.ink });
+      el("circle", { cx: rcx, cy: n.y, r: 5.5, fill: C.acid }, svg);
+      text(svg, rcx + 12, n.y + 4, n.l, { size: 14, fill: C.ink });
     });
-    /* crossing dashed shortest-path hint */
+    /* crossing dashed shortest-path hint: Mitochondria -> SASP -> Paracrine spread */
     el("path", {
-      d: "M 132 70 C 200 90, 220 150, 260 175 C 300 200, 330 240, 378 250",
+      d: "M " + lcx + " 104 C 214 120, 228 150, 260 168 C 300 190, 322 232, " + rcx + " 250",
       fill: "none",
       stroke: C.gold,
       "stroke-width": 1.4,
       "stroke-dasharray": "4 3",
       opacity: 0.9
     }, svg);
-    nodeCircle(svg, cx, cy, 44, C.sasp, "SASP", "btw 0.060");
-    text(svg, 16, 28, "in-degree 56  ·  觸發因子匯點", { size: 16, fill: C.mute });
-    text(svg, 16, 320, "虛線：一條必須經過此樞紐的最短路徑。", { size: 14, fill: C.mute });
+    nodeCircle(svg, cx, cy, r, C.sasp, "SASP", "btw 0.060");
+    text(svg, 16, 28, "入度 56  ·  觸發因子匯點", { size: 16, fill: C.mute });
   }
 
   /* ——— PageRank attractor ——— */
@@ -2363,21 +2423,26 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       { l: "Inflammation", pr: "hub", x: 130, y: 230, c: C.gold }
     ];
     donors.forEach(function (d) {
+      var dx = cx - d.x, dy = cy - d.y;
+      var len = Math.sqrt(dx * dx + dy * dy);
+      var ux = dx / len, uy = dy / len;
+      // start on the donor node's perimeter, end on Aging's perimeter
+      var sx = d.x + ux * 34;
+      var sy = d.y + uy * 34;
+      var ex = cx - ux * 50;
+      var ey = cy - uy * 50;
       el("line", {
-        x1: d.x + 70, y1: d.y, x2: cx - 50, y2: cy,
+        x1: sx, y1: sy, x2: ex, y2: ey,
         stroke: d.c, "stroke-width": 2.2, opacity: 0.8,
         "marker-end": "url(#pr-arr)"
       }, svg);
-      el("circle", { cx: d.x, cy: d.y, r: 22, fill: d.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      el("circle", { cx: d.x, cy: d.y, r: 34, fill: d.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
       text(svg, d.x, d.y + 4, d.l.split(" ")[0], {
         anchor: "middle", size: 11, weight: 600, fill: C.sheet
       });
     });
     nodeCircle(svg, cx, cy, 48, C.aging, "Aging", "PR 0.0076");
-    text(svg, 16, 28, "高分 PageRank 鄰居投票更強", { size: 12, fill: C.mute });
-    text(svg, 16, 280, "Acid ceramidase PR = 0.00078 — 源頭不會被入鏈背書。", {
-      size: 11, fill: C.mute
-    });
+    text(svg, 16, 28, "PageRank 高的鄰居投票較強", { size: 12, fill: C.mute });
   }
 
   /* ——— Clique vs bridge ——— */
@@ -2400,7 +2465,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       }, svg);
       pts.forEach(function (p) {
         el("circle", { cx: p.x, cy: p.y, r: 22, fill: C.gold, stroke: C.ink, "stroke-width": 0.8 }, svg);
-        text(svg, p.x, p.y + 4, p.l, { anchor: "middle", size: 10, weight: 600, fill: C.sheet });
+        text(svg, p.x, p.y + 4, p.l, { anchor: "middle", size: 14, weight: 600, fill: C.sheet });
       });
     }
     triangle(40);
@@ -2815,7 +2880,6 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
 
   function ready() {
     drawPipeline();
-    drawSpreader();
     drawNexus();
     drawPageRank();
     drawCliqueVsBridge();
