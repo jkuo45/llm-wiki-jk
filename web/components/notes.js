@@ -69,7 +69,6 @@ const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const sortBtn = $('notes-sort');
-renderSortButton(); // init the sort icon/tooltip once the ref exists
 const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
 const fieldsEl = document.querySelector('.notes-combobox-field');
@@ -575,6 +574,7 @@ function toggleSort() {
   renderGallery();
 }
 if (sortBtn) sortBtn.addEventListener('click', toggleSort);
+renderSortButton(); // paint the default icon/tooltip once all refs/state exist
 
 // Whether any filter is active: a free-text query and/or selected tag chips.
 function isFiltering() {
