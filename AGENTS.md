@@ -5,7 +5,6 @@
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
   - Depending on task, they may or may not be included in context, counts.
-- Commit messages use the style `chore(<scope>): <short lowercase description>` — single line, lowercase after the colon (e.g. `chore: rename chat to prompt`, `chore(analysis): query selection and node info to analysis panel`). Scope is optional; keep the whole subject under ~72 chars.
 - `src/notes` directory:
   - Contains files for wiki, directories within represent topics.
   - Each markdown file within that topic can be counted as a single entity.
@@ -16,6 +15,11 @@
   - Contains task outputs. Default to saving task outputs to this directory.
 - Execute python scripts using `uv run --with`.
 - Graphify is installed as a uv tool.
+- For translation tasks, prefer the Python `deep-translator` library using the Google Translate engine; review the output for biomedical terminology accuracy before publishing.
+- When new pages are created:
+  - Check whether a language-specific version of the page already exists before adding a new one.
+  - Register the new page in the site index artifacts: `web/sitemap.xml`, `web/data/articles.json`, `web/llms.txt`.
+- Commit messages use the style `chore(<scope>): <short lowercase description>` — single line, lowercase after the colon (e.g. `chore: rename chat to prompt`, `chore(analysis): query selection and node info to analysis panel`). Scope is optional; keep the whole subject under ~72 chars.
 
 ## Retrieval Guidelines:
 
