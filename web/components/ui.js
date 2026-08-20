@@ -1,5 +1,6 @@
-// Sidebar UI: search, info panel, community legend, trace panel, controls,
-// zoom bar, mobile sidebar toggle.
+// Analysis-panel UI helpers: node/edge info card, Graph Query (trace) panel,
+// settings popover, controls, zoom bar. The old sidebar was removed — node
+// info and graph queries now live inside the analysis panel (#chat-box).
 
 import * as THREE from 'three';
 
@@ -17,8 +18,6 @@ import {
 import { selectNode, deselectNode } from './interaction.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
-
-export const EMPTY_INFO_HTML = '<span class="empty">Click a node to inspect it / 點擊節點以檢查</span>';
 
 // ------------------------------------------------------------
 // Active-window highlight (dataset panel vs chat panel)
@@ -58,118 +57,22 @@ document.addEventListener('focusin', (e) => {
 });
 
 // ------------------------------------------------------------
-// Sidebar Toggle
+// Node / edge info card (inside the analysis panel)
 // ------------------------------------------------------------
-const mobileToggle = document.getElementById('mobile-toggle');
-const sidebar = document.getElementById('sidebar');
-const sidebarClose = document.getElementById('sidebar-close');
+const infoCard = document.getElementById('at-node-detail');
 
-function openSidebar() {
-  sidebar.classList.add('open');
-  sidebar.classList.remove('closed');
-  mobileToggle.classList.remove('visible');
-  state.sidebarInfoActive = true;
+export function hideNodeInfo() {
+  if (infoCard) infoCard.hidden = true;
 }
 
-function closeSidebar() {
-  sidebar.classList.remove('open');
-  sidebar.classList.add('closed');
-  mobileToggle.classList.add('visible');
-  void mobileToggle.offsetHeight;
-  state.sidebarInfoActive = false;
-  deselectNode();
-}
+const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg>';
 
-function toggleSidebar() {
-  if (!sidebar.classList.contains('open')) {
-    openSidebar();
-  } else {
-    closeSidebar();
-  }
-}
-
-mobileToggle.addEventListener('click', toggleSidebar);
-sidebarClose.addEventListener('click', closeSidebar);
-
-// ------------------------------------------------------------
-// Sidebar tabs (Search & Filters / Settings)
-// ------------------------------------------------------------
-function switchTab(tabName) {
-  document.querySelectorAll('#sidebar-tabs .tab').forEach(t => {
-    const active = t.dataset.tab === tabName;
-    t.classList.toggle('active', active);
-    t.setAttribute('aria-selected', String(active));
-  });
-  const show = document.getElementById(`tab-${tabName}`);
-  document.querySelectorAll('.tab-pane').forEach(p => {
-    if (p === show) {
-      p.hidden = false;
-    } else {
-      p.hidden = true;
-    }
-  });
-}
-
-document.querySelectorAll('#sidebar-tabs .tab').forEach(tab => {
-  tab.addEventListener('click', () => switchTab(tab.dataset.tab));
-});
-
-// Sidebar starts closed (HTML has class="closed")
-document.activeElement?.blur();
-
-// ------------------------------------------------------------
-// Search
-// ------------------------------------------------------------
-const searchInput = document.getElementById('search');
-const searchResults = document.getElementById('search-results');
-
-searchInput.addEventListener('input', () => {
-  const q = searchInput.value.toLowerCase().trim();
-  searchResults.innerHTML = '';
-  if (!q) { searchResults.style.display = 'none'; return; }
-
-  const matches = RAW_NODES.filter(n => {
-    const labelMatch = n.label.toLowerCase().includes(q);
-    const zhTW = TRANSLATIONS[n.label] || '';
-    const zhTWMatch = zhTW.toLowerCase().includes(q);
-    return labelMatch || zhTWMatch;
-  }).slice(0, 20);
-  if (!matches.length) { searchResults.style.display = 'none'; return; }
-
-  searchResults.style.display = 'block';
-  matches.forEach(n => {
-    const el = document.createElement('div');
-    el.className = 'search-item';
-
-    const zhTWLabel = TRANSLATIONS[n.label] || '';
-    const displayText = zhTWLabel && zhTWLabel !== n.label
-      ? `${n.label} / ${zhTWLabel}`
-      : n.label;
-
-    el.textContent = displayText;
-    el.style.borderLeft = `3px solid ${n.color.background}`;
-    el.style.paddingLeft = '8px';
-    el.onclick = () => {
-      selectNode(n.id);
-      searchResults.style.display = 'none';
-      searchInput.value = '';
-    };
-    searchResults.appendChild(el);
-  });
-});
-
-document.addEventListener('click', e => {
-  if (!searchResults.contains(e.target) && e.target !== searchInput) {
-    searchResults.style.display = 'none';
-  }
-});
-
-// ------------------------------------------------------------
-// Node Info Panel
-// ------------------------------------------------------------
-export function showInfo(nodeId) {
+// Render the merged node info card: identity + wiki/source links + context +
+// topology metrics + clickable connections. `actions` (optional) adds the
+// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by chat.js.
+export function showInfo(nodeId, actions) {
   const n = nodeMap.get(nodeId);
-  if (!n) return;
+  if (!n || !infoCard) return;
 
   const neighbors = adjacency.get(nodeId) || [];
   const neighborItems = neighbors.map(({ target, edge }) => {
@@ -189,12 +92,13 @@ export function showInfo(nodeId) {
 
   const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
   const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
+  const commColor = LEGEND.find(c => c.cid === n.community);
 
   // Source (node): deep link to the wiki note when one exists for the label
   // (reconstructed from the manifest), else the triple-source file link.
   const noteHref = noteUrl(n.label) || (n.source_file ? githubSourceUrl(n.source_file) : '');
   const wikiLink = noteHref
-    ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(n.label)} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" class="at-node-link">${esc(n.label)} ${LINK_ICON}</a>`
     : '—';
 
   const wikiDesc = description
@@ -202,21 +106,84 @@ export function showInfo(nodeId) {
     : '';
 
   const edgeSourceLink = n.source_file
-    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" style="color:#4E79A7;text-decoration:none;font-size:14px">${esc(n.source_file.split('/').pop())} <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>`
+    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(n.source_file.split('/').pop())} ${LINK_ICON}</a>`
     : '-';
 
-  document.getElementById('info-content').innerHTML = `
-    <div class="field"><b>${esc(displayName)}</b></div>
-    <div class="field">Type: ${esc(n.file_type || 'unknown')}</div>
-    <div class="field">Community: ${esc(displayCommunity)}</div>
-    <div class="field"><span class="info-muted">Source (node):</span> ${wikiLink}</div>
-    ${wikiDesc}
-    <div class="field info-divider"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>
-    <div class="field">Degree: ${n.degree}</div>
-    ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+  const actionsHTML = actions ? `
+    <div class="at-node-actions">
+      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus" title="Focus / 聚焦">Focus / 聚焦</button>` : ''}
+      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
+      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
+    </div>` : '';
+
+  infoCard.innerHTML = `
+    <div class="at-node-head">
+      <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
+      <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="at-node-scroll">
+      <div class="at-node-metrics">
+        ${commColor ? `<div class="at-kv"><span class="key"><span class="sw" style="background:${esc(commColor.color)}"></span>Community</span><span class="val">${esc(displayCommunity)}</span></div>` : ''}
+        <div class="at-kv"><span class="key">Degree</span><span class="val">${esc(String(n.degree))}</span></div>
+        <div class="at-kv"><span class="key">PageRank</span><span class="val">${esc((n.pagerank || 0).toFixed(5))}</span></div>
+        <div class="at-kv"><span class="key">Betweenness</span><span class="val">${esc((n.betweenness || 0).toFixed(4))}</span></div>
+        <div class="at-kv"><span class="key">Clustering</span><span class="val">${esc((n.clustering || 0).toFixed(3))}</span></div>
+        <div class="at-kv"><span class="key">k-core</span><span class="val">${esc(String(n.k_core || 0))}</span></div>
+      </div>
+      <div class="field node-source-row"><span class="info-muted">Source (node):</span> ${wikiLink}</div>
+      ${wikiDesc}
+      <div class="field info-divider"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>
+      ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+    </div>
+    ${actionsHTML}
   `;
+
+  infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+  if (actions && actions.onFocus) {
+    infoCard.querySelector('.at-focus').addEventListener('click', actions.onFocus);
+  }
+  if (actions && actions.onAddA) {
+    infoCard.querySelector('.at-add[data-set="a"]').addEventListener('click', actions.onAddA);
+  }
+  if (actions && actions.onAddB) {
+    infoCard.querySelector('.at-add[data-set="b"]').addEventListener('click', actions.onAddB);
+  }
+  infoCard.hidden = false;
 }
 
+// Relation card for a selected edge (replaces the old sidebar edge info).
+export function showEdgeInfo(edge) {
+  if (!infoCard) return;
+  const fromNode = nodeMap.get(edge.from);
+  const toNode = nodeMap.get(edge.to);
+  const fromLabel = fromNode ? fromNode.label : edge.from;
+  const toLabel = toNode ? toNode.label : edge.to;
+  const fromZhTW = TRANSLATIONS[fromLabel] || '';
+  const toZhTW = TRANSLATIONS[toLabel] || '';
+  const fromDisplay = fromZhTW && fromZhTW !== fromLabel ? `${fromLabel} / ${fromZhTW}` : fromLabel;
+  const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
+  const relationLabel = edge.label || '';
+  const confidence = edge.confidence || '';
+
+  infoCard.innerHTML = `
+    <div class="at-node-head">
+      <span class="at-node-title">Relation / 關聯</span>
+      <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="at-node-scroll">
+      <div class="field" style="margin-top:6px">
+        <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(edge.from)}">${esc(fromDisplay)}</span>
+        <div class="route-arrow">↓ ${esc(relationLabel)} ${confidence ? `<span class="conf-hint">${esc(confidence)}</span>` : ''}</div>
+        <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(edge.to)}">${esc(toDisplay)}</span>
+      </div>
+    </div>
+  `;
+
+  infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+  infoCard.hidden = false;
+}
+
+// Click-through on connection chips inside the info card.
 document.addEventListener('click', e => {
   const el = e.target.closest('.neighbor-link');
   if (el && el.dataset.nid !== undefined) {
@@ -224,10 +191,61 @@ document.addEventListener('click', e => {
   }
 });
 
+// Community focus cleanup — kept as a no-op-ish reset for chat.js highlights
+// (the old sidebar legend that drove it was removed).
+export function clearCommunityFocus() {
+  state.focusedCommunity = null;
+  if (state.activeTrace) {
+    if (state.activeRouteIdx >= 0) {
+      activateRoute(state.activeTrace, state.activeRouteIdx);
+    } else {
+      highlightTraceNodes(state.activeTrace);
+    }
+  } else {
+    resetVisualState();
+  }
+}
+
 // ------------------------------------------------------------
-// Community Legend (click-to-focus)
+// Graph Query (trace panel) — rendered inside #analysis-tools by chat.js.
+// Element refs are re-bound after every renderAnalysisTools() rebuild.
 // ------------------------------------------------------------
+let traceSelectEl = null;
+let traceSummaryEl = null;
+let traceRoutesEl = null;
+let traceKeyNodesEl = null;
+let traceClearEl = null;
+
+export function rebindTracePanel() {
+  traceSelectEl = document.getElementById('trace-select');
+  traceSummaryEl = document.getElementById('trace-summary');
+  traceRoutesEl = document.getElementById('trace-routes');
+  traceKeyNodesEl = document.getElementById('trace-key-nodes');
+  traceClearEl = document.getElementById('trace-clear');
+  if (!traceSelectEl) return;
+
+  // Repopulate the dropdown (idempotent — the card is rebuilt on re-render).
+  traceSelectEl.innerHTML = '<option value="">Select a query…</option>';
+  TRACES.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.id;
+    opt.textContent = t.title;
+    traceSelectEl.appendChild(opt);
+  });
+  if (state.activeTrace) traceSelectEl.value = state.activeTrace.id;
+
+  traceSelectEl.addEventListener('change', () => {
+    const traceId = traceSelectEl.value;
+    if (!traceId) { clearTrace(); return; }
+    const trace = TRACES.find(t => t.id === traceId);
+    if (trace) activateTrace(trace);
+  });
+
+  if (traceClearEl) traceClearEl.addEventListener('click', clearTrace);
+}
+
 function renderKeyNodeSpans(parent, items) {
+  if (!parent) return;
   parent.innerHTML = '<div class="key-nodes-title">Key Nodes</div>';
   items.forEach(item => {
     const span = document.createElement('span');
@@ -241,144 +259,14 @@ function renderKeyNodeSpans(parent, items) {
   });
 }
 
-function focusOnCommunity(cid) {
-  // If already focused, unfocus
-  if (state.focusedCommunity === cid) {
-    clearCommunityFocus();
-    return;
-  }
-
-  if (state.activeTrace) clearTrace();
-  state.focusedCommunity = cid;
-
-  document.querySelectorAll('.legend-item').forEach(item => {
-    if (item.dataset.cid === String(cid)) {
-      item.classList.add('focused');
-      item.classList.remove('dimmed');
-    } else {
-      item.classList.remove('focused');
-      item.classList.add('dimmed');
-    }
-  });
-
-  const target = new Set();
-  RAW_NODES.forEach(n => {
-    if (n.community === cid) target.add(n.id);
-  });
-  applyNodeState(target, 1, 0.4, 0.08, 0.05);
-  setLabelVisibility(target);
-
-  applyEdgeState(line => {
-    const { edge } = line.userData;
-    const fromNode = nodeMap.get(edge.from);
-    const toNode = nodeMap.get(edge.to);
-    return (fromNode && fromNode.community === cid) || (toNode && toNode.community === cid);
-  }, 0x4E79A7, 0.6, edgeOffColor(), 0.02);
-
-  // Show key nodes for this community (top 15 by degree)
-  const communityKeyNodes = document.getElementById('community-key-nodes');
-  const communityNodes = RAW_NODES
-    .filter(n => n.community === cid)
-    .sort((a, b) => b.degree - a.degree)
-    .slice(0, 15)
-    .map(n => {
-      const zhTW = TRANSLATIONS[n.label] || '';
-      return {
-        id: n.id,
-        label: zhTW && zhTW !== n.label ? `${n.label} / ${zhTW}` : n.label,
-        title: `Degree: ${n.degree}`,
-      };
-    });
-  renderKeyNodeSpans(communityKeyNodes, communityNodes);
-}
-
-export function clearCommunityFocus() {
-  state.focusedCommunity = null;
-  document.querySelectorAll('.legend-item').forEach(item => {
-    item.classList.remove('focused', 'dimmed');
-  });
-  document.getElementById('community-key-nodes').innerHTML = '';
-
-  // Restore to trace state if active, otherwise default
-  if (state.activeTrace) {
-    if (state.activeRouteIdx >= 0) {
-      activateRoute(state.activeTrace, state.activeRouteIdx);
-    } else {
-      highlightTraceNodes(state.activeTrace);
-    }
-  } else {
-    resetVisualState();
-  }
-}
-
-const legendEl = document.getElementById('legend');
-LEGEND.forEach(c => {
-  const item = document.createElement('div');
-  item.className = 'legend-item';
-  item.dataset.cid = c.cid;
-
-  const zhTWLabel = TRANSLATIONS[c.label] || '';
-  const bilingualLabel = zhTWLabel && zhTWLabel !== c.label
-    ? `${c.label}<br><span class="legend-zh">${zhTWLabel}</span>`
-    : c.label;
-
-  item.innerHTML = `
-    <div class="legend-dot" style="background:${c.color}"></div>
-    <span class="legend-label">${bilingualLabel}</span>
-    <span class="legend-count">${c.count}</span>
-  `;
-
-  item.addEventListener('click', () => focusOnCommunity(c.cid));
-  legendEl.appendChild(item);
-});
-
-// ------------------------------------------------------------
-// Trace Panel
-// ------------------------------------------------------------
-const traceSelect = document.getElementById('trace-select');
-const traceSummary = document.getElementById('trace-summary');
-const traceRoutes = document.getElementById('trace-routes');
-const traceKeyNodes = document.getElementById('trace-key-nodes');
-const traceClear = document.getElementById('trace-clear');
-const traceHeader = document.getElementById('trace-header');
-const traceBody = document.getElementById('trace-body');
-const traceChevron = document.getElementById('trace-chevron');
-traceBody.classList.add('open');
-traceChevron.classList.add('open');
-
-// Populate trace dropdown
-TRACES.forEach(t => {
-  const opt = document.createElement('option');
-  opt.value = t.id;
-  opt.textContent = t.title;
-  traceSelect.appendChild(opt);
-});
-
-// Toggle trace panel
-traceHeader.addEventListener('click', () => {
-  traceBody.classList.toggle('open');
-  traceChevron.classList.toggle('open');
-});
-
-// Select trace
-traceSelect.addEventListener('change', () => {
-  const traceId = traceSelect.value;
-  if (!traceId) { clearTrace(); return; }
-  const trace = TRACES.find(t => t.id === traceId);
-  if (trace) activateTrace(trace);
-});
-
-// Clear trace
-traceClear.addEventListener('click', clearTrace);
-
 export function clearTrace() {
   state.activeTrace = null;
   state.activeRouteIdx = -1;
-  traceSelect.value = '';
-  traceSummary.innerHTML = '';
-  traceRoutes.innerHTML = '';
-  traceKeyNodes.innerHTML = '';
-  traceClear.style.display = 'none';
+  if (traceSelectEl) traceSelectEl.value = '';
+  if (traceSummaryEl) traceSummaryEl.innerHTML = '';
+  if (traceRoutesEl) traceRoutesEl.innerHTML = '';
+  if (traceKeyNodesEl) traceKeyNodesEl.innerHTML = '';
+  if (traceClearEl) traceClearEl.style.display = 'none';
   resetVisualState();
   updateHash();
 }
@@ -387,33 +275,31 @@ export function activateTrace(trace) {
   state.activeTrace = trace;
   state.activeRouteIdx = -1;
   state.focusedCommunity = null;
-  traceSelect.value = trace.id;
-  traceClear.style.display = 'block';
-
-  // Clear community focus styling
-  document.querySelectorAll('.legend-item').forEach(item => {
-    item.classList.remove('focused', 'dimmed');
-  });
-  document.getElementById('community-key-nodes').innerHTML = '';
+  if (traceSelectEl) traceSelectEl.value = trace.id;
+  if (traceClearEl) traceClearEl.style.display = 'block';
 
   // Show summary
   const sourceLink = trace.sourceUrl
-    ? `<div style="margin-top:8px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" style="color:#4E79A7;font-size:14px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">📄 Full Document <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
+    ? `<div style="margin-top:8px"><a href="${esc(trace.sourceUrl)}" target="_blank" rel="noopener" class="trace-source-link">📄 Full Document <svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a></div>`
     : '';
-  traceSummary.innerHTML = `<div class="trace-question">${esc(trace.question)}</div><div style="font-size:15px">${esc(trace.summary)}</div>${sourceLink}`;
+  if (traceSummaryEl) {
+    traceSummaryEl.innerHTML = `<div class="trace-question">${esc(trace.question)}</div><div style="font-size:15px">${esc(trace.summary)}</div>${sourceLink}`;
+  }
 
   // Show routes
-  traceRoutes.innerHTML = '';
-  trace.routes.forEach((route, idx) => {
-    const div = document.createElement('div');
-    div.className = 'trace-route';
-    div.innerHTML = `<span class="trace-route-name">${esc(route.name)}</span><span class="trace-route-hops">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span>`;
-    div.addEventListener('click', () => activateRoute(trace, idx));
-    traceRoutes.appendChild(div);
-  });
+  if (traceRoutesEl) {
+    traceRoutesEl.innerHTML = '';
+    trace.routes.forEach((route, idx) => {
+      const div = document.createElement('div');
+      div.className = 'trace-route';
+      div.innerHTML = `<span class="trace-route-name">${esc(route.name)}</span><span class="trace-route-hops">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span>`;
+      div.addEventListener('click', () => activateRoute(trace, idx));
+      traceRoutesEl.appendChild(div);
+    });
+  }
 
   // Show key nodes
-  renderKeyNodeSpans(traceKeyNodes, trace.keyNodes.map(kn => ({
+  renderKeyNodeSpans(traceKeyNodesEl, trace.keyNodes.map(kn => ({
     id: kn.id,
     label: kn.label,
     title: kn.role,
@@ -497,20 +383,27 @@ export function activateRoute(trace, routeIdx) {
 
   setLabelVisibility(routeNodeIds);
 
-  // Show route mechanism in info panel
-  if (state.sidebarInfoActive) {
+  // Show route mechanism in the analysis-panel info card
+  if (state.analysisOpen && infoCard) {
     const pathHtml = route.path.map((id, i) => {
       const n = nodeMap.get(id);
       const label = n ? n.label : id;
       const color = n ? n.color.background : '#555';
-      const arrow = i < route.path.length - 1 ? `<div style="color:#4E79A7;font-size:14px;padding:2px 8px">↓</div>` : '';
+      const arrow = i < route.path.length - 1 ? `<div class="route-arrow">↓</div>` : '';
       return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
     }).join('');
-    document.getElementById('info-content').innerHTML = `
-      <div class="field"><b>${esc(route.name)}</b><span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></div>
-      <div style="margin:10px 0">${pathHtml}</div>
-      <div class="field route-mechanism">${esc(route.mechanism)}</div>
+    infoCard.innerHTML = `
+      <div class="at-node-head">
+        <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
+        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
+      </div>
+      <div class="at-node-scroll">
+        <div class="route-path">${pathHtml}</div>
+        <div class="route-mechanism">${esc(route.mechanism)}</div>
+      </div>
     `;
+    infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
+    infoCard.hidden = false;
   }
 
   // Focus camera on route midpoint
@@ -522,6 +415,32 @@ export function activateRoute(trace, routeIdx) {
     animateCamera(center.clone().add(CAMERA_OFFSET), center);
   }
   updateHash();
+}
+
+// ------------------------------------------------------------
+// Settings popover (standalone gear button, bottom right)
+// ------------------------------------------------------------
+const settingsBtn = document.getElementById('btn-settings');
+const settingsPopover = document.getElementById('settings-popover');
+
+function closeSettings() {
+  if (settingsPopover) settingsPopover.hidden = true;
+  if (settingsBtn) settingsBtn.classList.remove('active');
+}
+
+if (settingsBtn && settingsPopover) {
+  settingsBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    settingsPopover.hidden = !settingsPopover.hidden;
+    settingsBtn.classList.toggle('active', !settingsPopover.hidden);
+  });
+  document.addEventListener('click', (e) => {
+    if (settingsPopover.hidden) return;
+    if (!settingsPopover.contains(e.target) && e.target !== settingsBtn) closeSettings();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeSettings();
+  });
 }
 
 // ------------------------------------------------------------
@@ -565,7 +484,7 @@ export async function exportGraphPNG(filename) {
       im.src = dataUrl;
     });
 
-    const canvas = document.createElement('canvas');  
+    const canvas = document.createElement('canvas');
     canvas.width = pxW; canvas.height = pxH;
     const ctx = canvas.getContext('2d');
 
@@ -672,6 +591,7 @@ document.getElementById('btn-save-png').addEventListener('click', async (e) => {
   }
 });
 
+// Display toggles (settings popover)
 document.getElementById('btn-physics').addEventListener('click', (e) => {
   setPhysics(!state.physicsEnabled);
   e.target.classList.toggle('active', state.physicsEnabled);
@@ -730,3 +650,7 @@ window.addEventListener('pointerup', () => {
 });
 
 updateZoomBar();
+
+// The trace card lives inside #analysis-tools, which chat.js renders at
+// startup — rebind (no-op until those elements exist).
+rebindTracePanel();

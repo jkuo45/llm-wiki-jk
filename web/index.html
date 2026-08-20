@@ -25,7 +25,6 @@
   <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/">
 </head>
 <body>
-<button id="mobile-toggle" class="visible" title="Open search and filters">&#9776;</button>
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
   <button id="btn-reader" title="Read articles / 閱讀文章">Reader / 閱讀器</button>
@@ -60,6 +59,26 @@
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
+    <button id="btn-settings" hidden title="Settings / 設定" aria-label="Settings / 設定">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+    </button>
+    <div id="settings-popover" hidden>
+      <div id="display-panel">
+        <h3>Display / 顯示</h3>
+        <div class="display-grid">
+          <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
+          <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
+          <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+        </div>
+      </div>
+      <div id="theme-panel">
+        <h3>Theme / 主題</h3>
+        <div class="display-grid" id="theme-grid">
+          <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
+          <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="zoom-bar">
     <button id="zoom-in" title="Zoom in">+</button>
@@ -69,63 +88,6 @@
     </div>
     <button id="zoom-out" title="Zoom out">&minus;</button>
     <span class="zoom-label">Zoom</span>
-  </div>
-</div>
-<div id="sidebar" class="closed">
-  <div id="sidebar-header">
-    <div id="sidebar-tabs" role="tablist">
-      <button type="button" class="tab active" id="tab-btn-search" data-tab="search" role="tab" aria-selected="true">Search & Filters<span class="tab-zh">搜尋與篩選</span></button>
-      <button type="button" class="tab" id="tab-btn-settings" data-tab="settings" role="tab" aria-selected="false">Settings<span class="tab-zh">設定</span></button>
-    </div>
-    <button id="sidebar-close" title="Close panel">&times;</button>
-  </div>
-  <div class="tab-pane" id="tab-search">
-    <div id="search-wrap">
-      <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
-      <div id="search-results"></div>
-    </div>
-    <div id="trace-panel">
-      <div id="trace-header">
-        <span>Graph Query / 圖形查詢</span>
-        <span class="chevron" id="trace-chevron">&#9654;</span>
-      </div>
-      <div id="trace-body">
-        <select id="trace-select">
-          <option value="">Select a query...</option>
-        </select>
-        <div id="trace-summary"></div>
-        <div id="trace-routes"></div>
-        <div id="trace-key-nodes"></div>
-        <button id="trace-clear">Clear Trace / 清除追蹤</button>
-      </div>
-    </div>
-    <div id="info-panel">
-      <h3>Node Info / 節點資訊</h3>
-      <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
-    </div>
-    <div id="legend-wrap">
-      <div id="community-key-nodes"></div>
-      <h3>Communities / 社群</h3>
-      <div id="legend"></div>
-    </div>
-    <div id="stats"></div>
-  </div>
-  <div class="tab-pane" id="tab-settings" hidden>
-    <div id="display-panel">
-      <h3>Display / 顯示</h3>
-      <div class="display-grid">
-        <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
-        <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
-        <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
-      </div>
-    </div>
-    <div id="theme-panel">
-      <h3>Theme / 主題</h3>
-      <div class="display-grid" id="theme-grid">
-        <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
-        <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -140,10 +102,6 @@
       <span class="chat-title">Analysis / <span class="chat-title-zh">分析</span></span>
     </div>
     <div class="chat-header-actions">
-      <div class="lang-toggle" id="chat-lang" role="group" aria-label="Panel language">
-        <button type="button" data-lang="en-US" title="English (US)">EN</button>
-        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-      </div>
       <button id="chat-close" title="Close panel / 關閉面板" aria-label="Close panel" data-i18n-title="panelClose">&times;</button>
     </div>
   </div>
@@ -152,13 +110,22 @@
       <button type="button" class="chat-mode-tab active" data-mode="ask" role="tab" aria-selected="true"><span data-i18n="modeAsk">Prompt</span><span class="mode-dot" aria-hidden="true"></span></button>
       <button type="button" class="chat-mode-tab" data-mode="explore" role="tab" aria-selected="false"><span data-i18n="modeGraph">Graph</span><span class="mode-dot" aria-hidden="true"></span></button>
     </div>
-    <label id="chat-filter-toggle" data-i18n-title="filterTitle">
-      <input type="checkbox" id="chat-filter-nodes" disabled>
-      <span><span data-i18n="filterLabel">Filter</span> (<span id="chat-filter-count">0</span>)</span>
-    </label>
+    <div class="chat-filter-right">
+      <label id="chat-filter-toggle" data-i18n-title="filterTitle">
+        <input type="checkbox" id="chat-filter-nodes" disabled>
+        <span><span data-i18n="filterLabel">Filter</span> (<span id="chat-filter-count">0</span>)</span>
+      </label>
+      <div class="lang-toggle" id="chat-lang" role="group" aria-label="Panel language">
+        <button type="button" data-lang="en-US" title="English (US)">EN</button>
+        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+      </div>
+    </div>
   </div>
   <div id="chat-messages"></div>
   <div id="analysis-tools"></div>
+  <!-- Node/edge info card — rendered by ui.js (showInfo / showEdgeInfo / route
+       mechanisms). Lives outside #analysis-tools so it works in both modes. -->
+  <div id="at-node-detail" class="at-node-detail" hidden></div>
   <div id="chat-modes">
     <label id="graphify-toggle" data-i18n-title="graphifyTitle">
       <input type="checkbox" id="graphify-checkbox">

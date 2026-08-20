@@ -10,7 +10,7 @@ import {
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, hideNodeInfo } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
@@ -134,6 +134,13 @@ const UI_STRINGS = {
     resetTitle: 'Reset analysis',
     saveBtn: 'Save',
     saveBtnTitle: 'Export this selection as JSON',
+    graphQuery: 'Graph Query',
+    graphQuerySelect: 'Select a query…',
+    traceClear: 'Clear Trace',
+    searchNodes: 'Search & Filter',
+    searchNodesNote: 'by label — click to focus, A/B to compare',
+    searchPlaceholder: 'Search nodes…',
+    searchEmpty: 'No matching nodes',
     clearHighlights: 'Clear highlights',
     metricNodes: 'Nodes',
     metricEdges: 'Edges',
@@ -232,6 +239,13 @@ const UI_STRINGS = {
     resetTitle: '重設分析',
     saveBtn: '儲存',
     saveBtnTitle: '匯出選擇為 JSON',
+    graphQuery: '圖形查詢',
+    graphQuerySelect: '選擇查詢…',
+    traceClear: '清除追蹤',
+    searchNodes: '搜尋與篩選',
+    searchNodesNote: '依名稱 — 點擊聚焦，A/B 比較',
+    searchPlaceholder: '搜尋節點…',
+    searchEmpty: '沒有相符的節點',
     clearHighlights: '清除高亮',
     metricNodes: '節點',
     metricEdges: '邊',
@@ -404,6 +418,12 @@ chatBtn.addEventListener('click', () => {
   if (chatOpen) chatInput.focus();
   syncChatPanelKeyboard();
   state.analysisOpen = chatOpen;
+  // Surface the info card for whatever is already selected when the panel
+  // opens (node/edge info now lives in the analysis panel, not a sidebar).
+  if (chatOpen) {
+    if (state.selectedNode) showInfo(state.selectedNode);
+    else if (state.selectedEdge) showEdgeInfo(state.selectedEdge);
+  }
   // Do NOT overwrite state.analysisMode here: setPanelMode already keeps it in
   // canonical hash form ('graph' / 'prompt') synced with `panelMode`, while
   // panelMode itself uses the UI tab names ('explore' / 'ask').
@@ -769,6 +789,8 @@ document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
   if (wikiModalOverlay.classList.contains('visible')) { closeWikiModal(); return; }
   if (htmlModeOverlay && htmlModeOverlay.classList.contains('visible')) { closeHtmlMode(); return; }
+  const nodeCard = document.getElementById('at-node-detail');
+  if (nodeCard && !nodeCard.hidden) { closeNodeDetail(); return; }
   if (chatPanel.classList.contains('open')) { closeChat(); return; }
   const datasetPanelEl = document.getElementById('dataset-panel');
   if (datasetPanelEl && datasetPanelEl.classList.contains('visible')) {
@@ -1799,7 +1821,6 @@ function atRowHTML(n, kind, s) {
   return `<li class="at-row" data-id="${n.id}">
     <span class="at-name">${esc(n.label)}${zhText}</span>
     <span class="at-meta">${meta}</span>${ab}
-    <button class="at-info" data-info="${n.id}" title="${esc(t('nodeInfoLabel'))}" aria-label="${esc(t('nodeInfoLabel'))}">&#8942;</button>
   </li>`;
 }
 
@@ -1855,7 +1876,21 @@ function renderAnalysisTools() {
     <section class="at-section at-span-12">
       <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
       <div class="at-cards">${cards}</div>
-      <button class="at-reset" data-action="clear">${esc(t('clearHighlights'))}</button>
+    </section>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('graphQuery'))}</span></h4>
+      <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
+        <option value="">${esc(t('graphQuerySelect'))}</option>
+      </select>
+      <div id="trace-summary"></div>
+      <div id="trace-routes"></div>
+      <div id="trace-key-nodes"></div>
+      <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
+    </section>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
+      <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
+      <div id="at-search-results" class="at-search-results"></div>
     </section>
     <section class="at-section at-span-5">
       <h4 class="at-h">${esc(t('networkTopology'))}</h4>
@@ -1892,33 +1927,9 @@ function renderAnalysisTools() {
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
     </section>
-    <div id="at-node-detail" class="at-node-detail" hidden></div>
   `;
 
-  analysisTools.querySelector('[data-action="clear"]').addEventListener('click', () => {
-    clearChatHighlights();
-    compareA = []; compareB = [];
-    renderCompareSets();
-  });
-  analysisTools.querySelectorAll('.at-row').forEach(row => {
-    const id = row.dataset.id;
-    row.addEventListener('click', (e) => {
-      if (e.target.closest('.at-ab') || e.target.closest('.at-info')) return;
-      exploreFocusNode(id);
-    });
-    row.querySelectorAll('.at-ab button').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        toggleCompare(id, btn.dataset.set);
-      });
-    });
-  });
-  analysisTools.querySelectorAll('.at-info').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      openNodeDetail(btn.dataset.info);
-    });
-  });
+  analysisTools.querySelectorAll('.at-row').forEach(bindAtRow);
   analysisTools.querySelectorAll('.at-comm').forEach(el => {
     const cid = Number(el.dataset.cid);
     const ids = (s.nodesByCommunity.get(cid) || []).map(n => n.id);
@@ -1938,46 +1949,80 @@ function renderAnalysisTools() {
   analysisTools.querySelector('#at-send-prompt').addEventListener('click', sendSelectionToPrompt);
   analysisTools.querySelector('#at-export-json').addEventListener('click', exportSelectionJSON);
   analysisTools.querySelector('#chat-new').addEventListener('click', resetChat);
+  rebindTracePanel();
+  wireAnalysisSearch(s);
   renderCompareSets();
 }
+
+// Shared row binding for the hub / pagerank / connector / search lists.
+// Clicking a row opens the node info sheet (with Focus / A / B actions).
+function bindAtRow(row) {
+  const id = row.dataset.id;
+  row.addEventListener('click', (e) => {
+    if (e.target.closest('.at-ab')) return;
+    openNodeDetail(id);
+  });
+  row.querySelectorAll('.at-ab button').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleCompare(id, btn.dataset.set);
+    });
+  });
+}
+
+// Live node search inside the Graph-mode tools (replaces the old sidebar search).
+function wireAnalysisSearch(s) {
+  const input = analysisTools.querySelector('#at-search-input');
+  const results = analysisTools.querySelector('#at-search-results');
+  if (!input || !results) return;
+  const renderMatches = () => {
+    const q = input.value.toLowerCase().trim();
+    results.innerHTML = '';
+    if (!q) { results.style.display = 'none'; return; }
+    const matches = RAW_NODES.filter(n => {
+      const labelMatch = n.label.toLowerCase().includes(q);
+      const zhTW = TRANSLATIONS[n.label] || '';
+      return labelMatch || zhTW.toLowerCase().includes(q);
+    }).slice(0, 20);
+    if (!matches.length) {
+      results.innerHTML = `<div class="at-search-empty">${esc(t('searchEmpty'))}</div>`;
+      results.style.display = 'block';
+      return;
+    }
+    results.innerHTML = matches.map(n => atRowHTML(n, 'deg', s)).join('');
+    results.querySelectorAll('.at-row').forEach(bindAtRow);
+    results.style.display = 'block';
+  };
+  input.addEventListener('input', renderMatches);
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { input.value = ''; results.innerHTML = ''; results.style.display = 'none'; }
+  });
+}
+
+// Dismiss the search dropdown on outside click — registered once at the module
+// level so it isn't re-attached on every renderAnalysisTools rebuild.
+document.addEventListener('click', (e) => {
+  const results = document.getElementById('at-search-results');
+  const input = document.getElementById('at-search-input');
+  if (!results || !input) return;
+  if (results.style.display !== 'none' && !results.contains(e.target) && e.target !== input) {
+    results.style.display = 'none';
+  }
+});
 
 // Per-node detail popover — a compact card with the node's full metric set
 // (all values are already in memory on each node) plus a wiki summary excerpt
 // and quick actions (focus / add to Set A or B).
 function openNodeDetail(id) {
   const n = nodeMap.get(id);
-  const wrap = document.getElementById('at-node-detail');
-  if (!n || !wrap) return;
-  const comm = LEGEND.find((c) => c.cid === n.community);
-  const zh = TRANSLATIONS[n.label] || '';
-  const desc = descByLabel.get(n.label) || '';
-  const excerpt = desc ? wikiExcerpt(desc) : '';
-  wrap.innerHTML = `
-    <div class="at-node-head">
-      <span class="at-node-title">${esc(n.label)}${zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : ''}</span>
-      <button type="button" class="at-node-close" aria-label="${esc(t('panelClose'))}">&times;</button>
-    </div>
-    <div class="at-node-metrics">
-      ${comm ? `<div class="at-kv"><span class="key"><span class="sw" style="background:${esc(comm.color)}"></span>${esc(t('propertyCommunity'))}</span><span class="val">${esc(comm.label)}</span></div>` : ''}
-      <div class="at-kv"><span class="key">${esc(t('propertyDegree'))}</span><span class="val">${esc(String(n.degree))}</span></div>
-      <div class="at-kv"><span class="key">${esc(t('propertyPagerank'))}</span><span class="val">${esc((n.pagerank || 0).toFixed(5))}</span></div>
-      <div class="at-kv"><span class="key">${esc(t('propertyBetweenness'))}</span><span class="val">${esc((n.betweenness || 0).toFixed(4))}</span></div>
-      <div class="at-kv"><span class="key">${esc(t('propertyClustering'))}</span><span class="val">${esc((n.clustering || 0).toFixed(3))}</span></div>
-      <div class="at-kv"><span class="key">${esc(t('propertyKCore'))}</span><span class="val">${esc(String(n.k_core))}</span></div>
-    </div>
-    ${excerpt ? `<div class="at-node-desc">${esc(excerpt)}</div>` : ''}
-    <div class="at-node-actions">
-      <button type="button" class="at-node-btn at-focus" data-focus="${n.id}">${esc(t('focusNode'))}</button>
-      <button type="button" class="at-node-btn at-add" data-set="a" data-id="${n.id}">${esc(t('addToSetA'))}</button>
-      <button type="button" class="at-node-btn at-add" data-set="b" data-id="${n.id}">${esc(t('addToSetB'))}</button>
-    </div>
-  `;
-  wrap.hidden = false;
-  wrap.querySelector('.at-node-close').addEventListener('click', closeNodeDetail);
-  const focusBtn = wrap.querySelector('.at-focus');
-  if (focusBtn) focusBtn.addEventListener('click', () => { exploreFocusNode(n.id); closeNodeDetail(); });
-  wrap.querySelectorAll('.at-add').forEach((b) => {
-    b.addEventListener('click', (e) => { e.stopPropagation(); toggleCompare(b.dataset.id, b.dataset.set); });
+  if (!n) return;
+  // Render the full node card (metrics + source links + context + connections)
+  // with Graph-mode quick actions, reusing the shared ui.js renderer that node
+  // clicks and trace routes also use.
+  showInfo(id, {
+    onFocus: () => { exploreFocusNode(n.id); hideNodeInfo(); },
+    onAddA: () => toggleCompare(id, 'a'),
+    onAddB: () => toggleCompare(id, 'b'),
   });
 }
 
@@ -1985,14 +2030,6 @@ function closeNodeDetail() {
   const wrap = document.getElementById('at-node-detail');
   if (wrap) wrap.hidden = true;
 }
-
-// Dismiss the per-node detail popover on outside click.
-document.addEventListener('click', (e) => {
-  const wrap = document.getElementById('at-node-detail');
-  if (!wrap || wrap.hidden) return;
-  if (e.target.closest('#at-node-detail') || e.target.closest('.at-info')) return;
-  closeNodeDetail();
-});
 
 // Export the current Graph selection (Compare Sets A/B + selected nodes/edges)
 // as a standalone .json file.

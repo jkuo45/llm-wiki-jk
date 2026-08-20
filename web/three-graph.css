@@ -421,12 +421,8 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .spinner { width: 48px; height: 48px; border: 3px solid #3a3a5e; border-top-color: #4E79A7; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* Desktop overrides */
+/* Desktop overrides — the sidebar is gone, so the graph fills the viewport. */
 @media (min-width: 1200px) {
-  body { flex-direction: row; }
-  #sidebar { position: relative; top: auto; left: auto; right: auto; bottom: auto; width: 360px; transform: none; flex-shrink: 0; border-left: 1px solid #2a2a4e; }
-  #sidebar.closed { display: none; }
-  #mobile-toggle.visible { display: flex; }
   #controls { left: 16px; right: auto; flex-wrap: nowrap; }
   #controls button { flex: none; }
 }
@@ -576,37 +572,101 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .at-comm .at-comm-count { color: #777; font-size: 11px; flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .at-comm .at-ab { margin-left: auto; }
-/* Per-row info button — opens the node detail popover */
-.at-info {
-  flex: none; width: 18px; height: 20px; margin-left: 2px;
-  background: none; border: 1px solid #3a3a5e; border-radius: 4px;
-  color: #888; font-size: 11px; line-height: 1; cursor: pointer; padding: 0;
-  transition: all 0.15s;
-}
-.at-info:hover { border-color: #4E79A7; color: #e0e0e0; }
 
-/* Per-node detail popover (top-right card) */
+/* Per-node detail sheet (right-docked, full height, internally scrollable) —
+   slides in over the analysis panel; the body scrolls so long content like a
+   200+ connection list never overflows the viewport. */
 #at-node-detail {
-  position: fixed; right: 28px; top: 84px; width: 340px; max-width: calc(100vw - 32px);
-  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 10px;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6); padding: 14px; z-index: 620;
+  position: fixed; top: 0; right: 0; bottom: 0;
+  width: min(360px, 100vw);
+  background: #1a1a2e; border-left: 1px solid #3a3a5e;
+  box-shadow: -16px 0 48px rgba(0, 0, 0, 0.5);
+  padding: 14px; z-index: 620;
   display: flex; flex-direction: column; gap: 10px;
+  animation: at-sheet-in 0.22s ease;
 }
+@keyframes at-sheet-in { from { transform: translateX(48px); opacity: 0.4; } to { transform: translateX(0); opacity: 1; } }
 #at-node-detail[hidden] { display: none; }
+/* Scrollable body between the fixed header and the action bar. */
+#at-node-detail .at-node-scroll {
+  flex: 1 1 auto; min-height: 0; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 10px; padding-right: 2px;
+}
+#at-node-detail > .at-node-head { flex-shrink: 0; }
+#at-node-detail > .at-node-actions { flex-shrink: 0; }
 .at-node-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.at-node-title { font-size: 13px; font-weight: 600; color: #e0e0e0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .at-node-close { background: none; border: none; color: #888; font-size: 16px; cursor: pointer; line-height: 1; padding: 0 2px; }
 .at-node-close:hover { color: #ff6b6b; }
-.at-node-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
-.at-kv { display: flex; align-items: center; justify-content: space-between; gap: 6px; background: #16162b; border: 1px solid #2a2a4e; border-radius: 6px; padding: 5px 8px; }
-.at-kv .key { font-size: 10px; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
-.at-kv .key .sw { width: 9px; height: 9px; border-radius: 2px; }
-.at-kv .val { font-size: 12px; color: #e0e0e0; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.at-node-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+#at-node-detail .at-node-title {
+  font-size: 13px; font-weight: 600; color: #e0e0e0; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap;
+}
+#at-node-detail .neighbor-link {
+  display: flex; align-items: center; justify-content: space-between; gap: 6px; flex-wrap: wrap;
+  padding: 4px 8px; margin: 3px 2px 0 0; background: #23233f;
+  border: 1px solid #3a3a5e; border-left-width: 3px; border-radius: 6px;
+  font-size: 12px; color: #ddd; cursor: pointer;
+}
+#at-node-detail .at-node-desc { font-size: 12px; color: #bbb; line-height: 1.55; max-height: 120px; overflow: hidden; }
+.at-kv { display: flex; align-items: center; justify-content: space-between; gap: 6px; background: #16162b; border: 1px solid #2a2a4e; border-radius: 6px; padding: 5px 8px; min-width: 0; flex-wrap: wrap; row-gap: 2px; }
+.at-kv .key { font-size: 10px; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; display: inline-flex; align-items: center; gap: 5px; min-width: 0; white-space: normal; }
+.at-kv .key .sw { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+.at-kv .val { font-size: 12px; color: #e0e0e0; font-variant-numeric: tabular-nums; min-width: 0; white-space: normal; overflow-wrap: anywhere; text-align: right; }
 .at-node-desc { font-size: 12px; color: #bbb; line-height: 1.55; max-height: 120px; overflow: hidden; }
 .at-node-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .at-node-btn { background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 6px; padding: 5px 10px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
 .at-node-btn:hover { border-color: #4E79A7; color: #fff; }
 .at-node-btn.at-focus { border-color: #4E79A7; }
+/* ---- Consolidated node-info card additions (old sidebar removed) ---- */
+#at-node-detail .at-node-title { font-size: 14px; }
+#at-node-detail .field { font-size: 12px; color: #c6c6d4; }
+#at-node-detail .info-muted { color: #9a9ab0; font-size: 11px; margin-right: 6px; }
+#at-node-detail .info-divider { margin-top: 10px; padding-top: 8px; border-top: 1px solid #2a2a4e; }
+#at-node-detail .node-source-row { margin-top: 2px; }
+#at-node-detail .at-node-link { color: #7cb3d4; text-decoration: none; font-size: 12px; display: inline-flex; align-items: center; gap: 3px; }
+#at-node-detail .at-node-link:hover { color: #a0d4f0; }
+#at-node-detail .node-type { font-size: 10px; font-weight: 600; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; margin-left: 6px; }
+#at-node-detail .wiki-context-text { font-size: 12px; color: #bbb; line-height: 1.6; margin-top: 4px; }
+#at-node-detail .info-connections { font-size: 12px; font-weight: 600; color: #ccc; margin-top: 10px; }
+#at-node-detail .neighbor-link:hover { border-color: #4E79A7; color: #fff; }
+#at-node-detail .route-arrow { color: #6b7280; font-size: 13px; }
+#at-node-detail .route-path { display: flex; flex-direction: column; gap: 2px; margin: 4px 0 6px; }
+#at-node-detail .route-meta { color: #9a9ab0; font-size: 11px; margin-left: 8px; }
+#at-node-detail .route-mechanism { font-size: 12px; color: #bbb; line-height: 1.6; }
+#at-node-detail .conf-hint { opacity: 0.5; font-size: 11px; }
+
+/* Graph Query (trace) inside the Graph-mode tools */
+#trace-summary { margin: 10px 0 2px; }
+#trace-summary .trace-question { font-weight: 600; color: #e0e0e0; margin-bottom: 4px; }
+#trace-summary .trace-summary-text { color: #bbb; line-height: 1.6; }
+#trace-clear { display: none; margin-top: 10px; background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 6px; padding: 5px 12px; font-size: 12px; cursor: pointer; }
+#trace-clear:hover { border-color: #4E79A7; color: #fff; }
+.trace-key-node { display: inline-block; margin: 3px 4px 0 0; padding: 3px 8px; background: #23233f; border: 1px solid #3a3a5e; border-radius: 20px; font-size: 12px; color: #ccc; cursor: pointer; }
+.trace-key-node:hover { border-color: #4E79A7; color: #fff; }
+.trace-source-link { color: #7cb3d4; text-decoration: none; font-size: 13px; display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; }
+
+/* Node search (Graph-mode tools) */
+.at-search-input { width: 100%; padding: 10px 12px; background: #16162b; border: 1px solid #3a3a5e; color: #e0e0e0; border-radius: 8px; font-size: 14px; outline: none; box-sizing: border-box; }
+.at-search-input:focus { border-color: #4E79A7; }
+.at-search-result-list { list-style: none; margin: 0; padding: 0; }
+.at-search-results { display: none; margin-top: 8px; max-height: 60vh; overflow-y: auto; border: 1px solid #2a2a4e; border-radius: 8px; }
+.at-search-empty { padding: 12px 14px; color: #888; font-size: 13px; }
+
+/* Settings gear lives in the controls bar (last button); the popover opens above it. */
+#controls #btn-settings { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
+#controls #btn-settings[hidden] { display: none; }
+#controls #btn-settings:hover { color: #e0e0e0; border-color: #4E79A7; }
+#controls #btn-settings.active { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
+#settings-popover { position: absolute; right: 0; bottom: calc(100% + 10px); z-index: 60; width: 280px; background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 10px; box-shadow: 0 16px 48px rgba(0,0,0,0.6); padding: 14px; }
+#settings-popover[hidden] { display: none; }
+#settings-popover h3 { font-size: 12px; font-weight: 600; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 8px; }
+#settings-popover #display-panel { margin-bottom: 12px; }
+#settings-popover .display-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+#settings-popover .display-grid button { background: #23233f; border: 1px solid #3a3a5e; color: #ddd; border-radius: 6px; padding: 6px 4px; font-size: 11px; line-height: 1.3; cursor: pointer; transition: all 0.15s; min-width: 0; white-space: normal; word-break: break-word; }
+#settings-popover .display-grid button:hover { border-color: #4E79A7; color: #fff; }
+#settings-popover .display-grid button.active { background: #4E79A7; border-color: #4E79A7; color: #fff; }
+#settings-popover #theme-grid { grid-template-columns: repeat(2, 1fr); }
 .at-compare-sets { display: flex; gap: 10px; margin-bottom: 8px; }
 .at-set { flex: 1; border: 1px solid #3a3a5e; border-radius: 8px; padding: 6px 8px; min-height: 42px; }
 .at-set.a { border-color: #4E79A7; }
@@ -886,18 +946,21 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .chat-tag-item .tag-kind { color: #7cb3d4; font-size: 11px; flex-shrink: 0; }
 .chat-tag-item .tag-degree { margin-left: auto; color: #666; font-size: 11px; flex-shrink: 0; }
 
-/* Filter-nodes bar lives in the panel body (below the header). */
+/* Filter-nodes bar lives in the panel body (below the header): mode tabs on
+   the left, filter + language toggle on the right. */
 #chat-filter-bar {
-  display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+  display: flex; align-items: center; gap: 8px; flex-shrink: 0; flex-wrap: wrap;
   padding: 8px 16px; border-bottom: 1px solid #2a2a4e; background: #16162b;
 }
+.chat-filter-right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+#chat-filter-bar .lang-toggle { border-radius: 6px; flex-shrink: 0; }
+#chat-filter-bar .lang-toggle button { padding: 5px 11px; font-size: 12px; }
 
 /* Filter-nodes toggle, shown in the body bar while highlights are active. */
 #chat-filter-toggle {
   display: none; align-items: center; gap: 4px; cursor: pointer;
   font-size: 11px; color: #a0d4f0; user-select: none; white-space: nowrap;
   border: 1px solid #3a3a5e; border-radius: 12px; padding: 3px 10px;
-  margin-left: auto;
   transition: border-color 0.15s, color 0.15s;
 }
 #chat-filter-toggle.visible { display: inline-flex; }

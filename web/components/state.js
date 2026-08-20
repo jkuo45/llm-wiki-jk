@@ -12,7 +12,6 @@ export const state = {
   physicsEnabled: false,
   showLabels: true,
   theme: 'light', // 'light' | 'dark' — mirrors the llm-wiki-theme preference
-  sidebarInfoActive: true,
   suppressHashUpdate: false,
   readerId: null,
   readerSection: null,

@@ -267,15 +267,13 @@ body {
 .at-compare-result td:first-child { color: #2563A8; }
 
 /* Analysis dashboard cards + per-node popover (light) */
-#chat-header .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
-#chat-header .lang-toggle button { color: #7C8698; }
-#chat-header .lang-toggle button + button { border-left-color: #CCC5B2; }
-#chat-header .lang-toggle button:hover:not(.active) { color: #22304A; }
-#chat-header .lang-toggle button.active { background: #0F766E; color: #fff; }
+#chat-filter-bar .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
+#chat-filter-bar .lang-toggle button { color: #7C8698; }
+#chat-filter-bar .lang-toggle button + button { border-left-color: #CCC5B2; }
+#chat-filter-bar .lang-toggle button:hover:not(.active) { color: #22304A; }
+#chat-filter-bar .lang-toggle button.active { background: #0F766E; color: #fff; }
 #analysis-tools .at-section { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
-.at-info { border-color: #CCC5B2; color: #7C8698; }
-.at-info:hover { border-color: #0F766E; color: #22304A; }
-#at-node-detail { background: #FFFFFF; border-color: #CCC5B2; box-shadow: 0 16px 48px rgba(34, 48, 74, 0.18); }
+#at-node-detail { background: #FFFFFF; border-left-color: #CCC5B2; box-shadow: -16px 0 48px rgba(34, 48, 74, 0.18); }
 .at-node-title { color: #22304A; }
 .at-node-close { color: #7C8698; }
 .at-node-close:hover { color: #C0392B; }
@@ -286,6 +284,37 @@ body {
 .at-node-btn { background: #F6F3EC; border-color: #CCC5B2; color: #0F766E; }
 .at-node-btn:hover { border-color: #0F766E; color: #0F766E; }
 .at-node-btn.at-focus { border-color: #0F766E; color: #0F766E; }
+#at-node-detail .field { color: #4B5563; }
+#at-node-detail .info-muted { color: #7C8698; }
+#at-node-detail .wiki-context-text { color: #4B5563; }
+#at-node-detail .info-connections { color: #22304A; }
+#at-node-detail .at-node-link { color: #2563A8; }
+#at-node-detail .at-node-link:hover { color: #0B5F59; }
+#at-node-detail .node-type { color: #7C8698; }
+#at-node-detail .neighbor-link { background: #FFFFFF; border-color: #CCC5B2; color: #44648D; }
+#at-node-detail .neighbor-link:hover { border-color: #0F766E; color: #22304A; }
+#at-node-detail .route-arrow { color: #9AA4B3; }
+#at-node-detail .route-meta { color: #7C8698; }
+#at-node-detail .route-mechanism { color: #4B5563; }
+#trace-summary .trace-question { color: #22304A; }
+#trace-summary .trace-summary-text { color: #4B5563; }
+#trace-clear { background: #F6F3EC; border-color: #CCC5B2; color: #0F766E; }
+#trace-clear:hover { border-color: #0F766E; color: #22304A; }
+.trace-key-node { background: #FFFFFF; border-color: #CCC5B2; color: #44648D; }
+.trace-key-node:hover { border-color: #0F766E; color: #22304A; }
+.at-search-input { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
+.at-search-input:focus { border-color: #0F766E; }
+.at-search-results { border-color: #E2DCCE; }
+.at-search-empty { color: #7C8698; }
+/* Settings gear + popover (light) */
+#controls #btn-settings { background: #FFFFFF; border-color: #CCC5B2; color: #7C8698; }
+#controls #btn-settings:hover { color: #22304A; border-color: #0F766E; background: #ECE8DD; }
+#controls #btn-settings.active { color: #22304A; border-color: #0F766E; background: #ECE8DD; }
+#settings-popover { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 16px 48px rgba(34,48,74,0.18); }
+#settings-popover h3 { color: #7C8698; }
+#settings-popover .display-grid button { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
+#settings-popover .display-grid button:hover { background: #ECE8DD; border-color: #0F766E; }
+#settings-popover .display-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
 
 /* Chat suggestions (Ask mode) */
 #chat-new { border-color: #CCC5B2; color: #7C8698; }

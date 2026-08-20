@@ -1,5 +1,5 @@
 // Entry module: wires everything together, drives the render loop, handles
-// resize, stats, dataset panel, and URL-hash restore.
+// resize, dataset panel, and URL-hash restore.
 
 import { RAW_NODES, RAW_EDGES, LEGEND, TRACES } from './data.js';
 import { state } from './state.js';
@@ -16,13 +16,8 @@ import { openReader, closeReader, isReaderOpen } from './reader.js';
 import { applyAnalysisUiLang } from './chat.js';
 // Notes panel (gallery / upload / lightbox).
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
-// Side-effect import: theme.js wires the Settings tab theme toggle.
+// Side-effect import: theme.js wires the settings popover theme toggle.
 import './theme.js';
-
-// ------------------------------------------------------------
-// Stats footer (derived from data)
-// ------------------------------------------------------------
-document.getElementById('stats').textContent = `${RAW_NODES.length} nodes · ${RAW_EDGES.length} edges · ${LEGEND.length} communities`;
 
 // ------------------------------------------------------------
 // Dataset info panel (derived from data)
@@ -54,7 +49,7 @@ datasetScroll.innerHTML = `
   </ul>
 
   <h3>Core Concepts / 核心節點</h3>
-  <p class="dataset-intro"><b>"God" Nodes</b> (most-connected hubs, by degree). Community size matches the sidebar legend:</p>
+  <p class="dataset-intro"><b>"God" Nodes</b> (most-connected hubs, by degree). Community size matches the graph legend:</p>
   <ol class="god-nodes">
     ${godNodes.map(n => {
       const cc = communityCountMap.get(n.community);
@@ -64,7 +59,7 @@ datasetScroll.innerHTML = `
 
   <h3>How to Use / 使用方式</h3>
   <ul class="dataset-list">
-    <li><b>Search</b> nodes in the left panel, or <b>Graph Query</b> to find paths.</li>
+    <li><b>Search</b> nodes and run <b>Graph Query</b> traces from the <b>Analysis panel</b> (Graph mode).</li>
     <li><b>Drag</b> nodes to explore; Cmd/Ctrl-drag moves their neighbors.</li>
     <li><b>Analysis panel</b> — open <b>Prompt</b> to query the graph, or <b>Graph</b> for instant dataset analytics.</li>
     <li><b>Click</b> edges and nodes to inspect relations and jump to source notes.</li>
@@ -205,15 +200,17 @@ async function restoreFromHash(params) {
   // Analysis panel: open/close and restore mode from the hash. Notes wins when
   // both are present — the overlays are mutually exclusive and the hash leads
   // with #notes when the notes panel is shown, so the analysis panel is closed.
+  // A node/edge/trace deep link also opens the panel so the info card surfaces.
   const notesActive = !!(params.notes || params.note);
+  const hasSelection = !!(params.node || params.edge || params.trace);
   const analysisBtn = document.getElementById('btn-chat');
-  if (params.analysis && !notesActive) {
+  if ((params.analysis || hasSelection) && !notesActive) {
     if (!analysisBtn.classList.contains('open')) analysisBtn.click();
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
     const tab = document.querySelector(`.chat-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
     applyAnalysisUiLang(params.uilang);
-  } else if (!notesActive && analysisBtn.classList.contains('open')) {
+  } else if (!notesActive && !hasSelection && analysisBtn.classList.contains('open')) {
     analysisBtn.click();
   }
   state.suppressHashUpdate = false;

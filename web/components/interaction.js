@@ -11,7 +11,7 @@ import {
 } from './core.js';
 import { state, stickyNodes, velocities } from './state.js';
 import { nodeMap, adjacency, TRANSLATIONS } from './data.js';
-import { showInfo, activateRoute, highlightTraceNodes, EMPTY_INFO_HTML } from './ui.js';
+import { showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes } from './ui.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
 
@@ -467,7 +467,7 @@ export function selectNode(nodeId) {
 
   setLabelVisibility(neighborIds);
 
-  if (state.sidebarInfoActive) {
+  if (state.analysisOpen) {
     showInfo(nodeId);
   }
 
@@ -495,13 +495,13 @@ export function deselectNode() {
     } else {
       highlightTraceNodes(state.activeTrace);
     }
-    document.getElementById('info-content').innerHTML = EMPTY_INFO_HTML;
+    hideNodeInfo();
     return;
   }
 
   resetVisualState();
   hideEdgeLabel();
-  document.getElementById('info-content').innerHTML = EMPTY_INFO_HTML;
+  hideNodeInfo();
   updateHash();
 }
 
@@ -524,27 +524,9 @@ export function selectEdge(edge) {
   (adjacency.get(toId) || []).forEach(n => visibleIds.add(n.target));
   setLabelVisibility(visibleIds);
 
-  // Show relation info in sidebar
-  if (state.sidebarInfoActive) {
-    const fromNode = nodeMap.get(fromId);
-    const toNode = nodeMap.get(toId);
-    const fromLabel = fromNode ? fromNode.label : fromId;
-    const toLabel = toNode ? toNode.label : toId;
-    const fromZhTW = TRANSLATIONS[fromLabel] || '';
-    const toZhTW = TRANSLATIONS[toLabel] || '';
-    const fromDisplay = fromZhTW && fromZhTW !== fromLabel ? `${fromLabel} / ${fromZhTW}` : fromLabel;
-    const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
-    const relationLabel = edge.label || '';
-    const confidence = edge.confidence || '';
-
-    document.getElementById('info-content').innerHTML = `
-      <div class="field"><b>Relation / 關聯</b></div>
-      <div class="field" style="margin-top:6px">
-        <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(fromId)}">${esc(fromDisplay)}</span>
-        <div style="color:#4E79A7;font-size:15px;padding:4px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:13px">${esc(confidence)}</span>` : ''}</div>
-        <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(toId)}">${esc(toDisplay)}</span>
-      </div>
-    `;
+  // Show relation info in the analysis-panel card
+  if (state.analysisOpen) {
+    showEdgeInfo(edge);
   }
 
   // Focus camera on midpoint of edge
