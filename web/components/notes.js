@@ -597,7 +597,7 @@ function cardHTML(n) {
     ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(activeTitle(n))}" loading="lazy" decoding="async">`
     : '';
   const topic = tagLabel(noteTopic(n)).toUpperCase();
-  const tags = (n.tags || []).slice(0, 3).map((t) =>
+  const tags = (n.tags || []).map((t) =>
     `<span class="notes-badge topic">#${esc(tagLabel(t))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
