@@ -650,8 +650,11 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .at-node-btn { background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 6px; padding: 2px 10px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
 .at-node-btn:hover { border-color: #4E79A7; color: #fff; }
 .at-node-btn.at-focus { border-color: #4E79A7; }
-/* Solid/active state for Set A / Set B when the node is in the compare set. */
-.at-node-btn.on { background: #4E79A7; border-color: #4E79A7; color: #fff; font-weight: 600; }
+/* Solid/active state for Set A / Set B when the node is in the compare set.
+   Colors match the analysis panel's row buttons: A = blue, B = purple. */
+.at-node-btn.on { font-weight: 600; }
+.at-node-btn.at-add[data-set="a"].on { background: #4E79A7; border-color: #4E79A7; color: #fff; }
+.at-node-btn.at-add[data-set="b"].on { background: #a78bfa; border-color: #a78bfa; color: #fff; }
 .at-node-btn.on:hover { border-color: #69a3d0; color: #fff; }
 /* ---- Consolidated node-info card additions (old sidebar removed) ---- */
 #at-node-detail .at-node-title { font-size: 14px; }

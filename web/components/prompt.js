@@ -1949,6 +1949,7 @@ function renderAnalysisTools() {
         onAddB: () => toggleCompareCommunity(cid, label, ids, 'b'),
         isInA: () => compareA.some(e => e.type === 'community' && e.cid === cid),
         isInB: () => compareB.some(e => e.type === 'community' && e.cid === cid),
+        filterCount: ids.length,
       });
     });
     el.querySelectorAll('.at-ab button').forEach(btn => {
@@ -2038,6 +2039,7 @@ function openNodeDetail(id) {
     onAddB: () => toggleCompare(id, 'b'),
     isInA: () => compareA.some(e => e.type === 'node' && e.id === id),
     isInB: () => compareB.some(e => e.type === 'node' && e.id === id),
+    filterCount: 1 + (adjacency.get(id) || []).length,
   });
 }
 
@@ -2169,17 +2171,29 @@ export function openPromptComposer(text, tags = []) {
 
 function toggleCompare(id, set) {
   const arr = set === 'a' ? compareA : compareB;
+  const other = set === 'a' ? compareB : compareA;
   const i = arr.findIndex(e => e.type === 'node' && e.id === id);
   if (i >= 0) arr.splice(i, 1);
-  else arr.push({ type: 'node', id });
+  else {
+    arr.push({ type: 'node', id });
+    // Radio behavior: a node can only live in one set at a time.
+    const o = other.findIndex(e => e.type === 'node' && e.id === id);
+    if (o >= 0) other.splice(o, 1);
+  }
   renderCompareSets();
 }
 
 function toggleCompareCommunity(cid, label, ids, set) {
   const arr = set === 'a' ? compareA : compareB;
+  const other = set === 'a' ? compareB : compareA;
   const i = arr.findIndex(e => e.type === 'community' && e.cid === cid);
   if (i >= 0) arr.splice(i, 1);
-  else arr.push({ type: 'community', cid, label, ids: ids.slice() });
+  else {
+    arr.push({ type: 'community', cid, label, ids: ids.slice() });
+    // Radio behavior: a community can only live in one set at a time.
+    const o = other.findIndex(e => e.type === 'community' && e.cid === cid);
+    if (o >= 0) other.splice(o, 1);
+  }
   renderCompareSets();
 }
 
