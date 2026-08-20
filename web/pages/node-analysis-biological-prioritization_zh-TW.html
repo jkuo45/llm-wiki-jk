@@ -1,0 +1,2751 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>節點層級網絡分析用於生物學優先排序</title>
+<meta name="description" content="一篇方法論簡報，說明如何使用 NetworkX 的中心性指紋——度數、PageRank、中介中心性、聚類係數與 k-core——在具向知識圖譜中篩選生物醫學實體。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/node-analysis-biological-prioritization_zh-TW.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<style>
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap");
+
+:root {
+  --paper: #f2ece1;
+  --paper-deep: #e7dfd0;
+  --sheet: #fbf8f1;
+  --ink: #1c1915;
+  --ink-soft: #3b352e;
+  --mute: #6d665b;
+  --faint: #8d8578;
+  --rule: #d3c9b6;
+  --rule-strong: #b7ab94;
+  --oxblood: #7a312c;
+  --oxblood-soft: #a24b44;
+  --slate: #2e4a5d;
+  --slate-soft: #4c6e86;
+  --forest: #345443;
+  --forest-soft: #4e7a62;
+  --gold: #9a7430;
+  --gold-soft: #c49a4a;
+  --periphery: #8a8174;
+  --focus: #7a312c;
+  --serif: "Source Serif 4", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --wrap: 1120px;
+  --nav-h: 58px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --shadow: 0 1px 0 rgba(28, 25, 21, 0.05), 0 18px 40px rgba(28, 25, 21, 0.07);
+  --radius: 2px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-h) + 16px);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 480px at 12% -10%, rgba(122, 49, 44, 0.06), transparent 60%),
+    radial-gradient(900px 420px at 92% 0%, rgba(46, 74, 93, 0.07), transparent 55%),
+    var(--paper);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--oxblood);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.skip {
+  position: absolute;
+  left: 12px;
+  top: -40px;
+  background: var(--ink);
+  color: var(--sheet);
+  padding: 8px 12px;
+  z-index: 100;
+  font-family: var(--sans);
+  font-size: 13px;
+}
+
+.skip:focus {
+  top: 12px;
+}
+
+.wrap {
+  width: min(var(--wrap), calc(100% - 40px));
+  margin-inline: auto;
+}
+
+/* ——— Navigation ——— */
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  height: var(--nav-h);
+  background: color-mix(in srgb, var(--paper) 86%, white);
+  backdrop-filter: saturate(1.2) blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-nav .wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.site-nav a.home {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-nav a.home:hover {
+  color: var(--oxblood);
+}
+
+/* Reader/iframe: the graph chrome already provides navigation, so drop this
+   page's standalone "← Back" link there. Full-page view shows it. */
+body.embedded .site-nav a.home {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-links a {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--mute);
+  text-decoration: none;
+  padding: 6px 9px;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--oxblood);
+}
+
+/* ——— Header ——— */
+
+.hero {
+  padding: 56px 0 28px;
+  padding-top: calc(56px + var(--safe-top));
+  border-bottom: 1px solid var(--rule);
+}
+
+.kicker {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  margin: 0 0 16px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4.4vw, 3.15rem);
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.021em;
+  margin: 0 0 18px;
+  max-width: 18ch;
+}
+
+.lede {
+  font-size: 1.18rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  max-width: 62ch;
+  margin: 0 0 22px;
+}
+
+.meta {
+  display: block;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--mute);
+}
+
+.meta p {
+  margin: 0 0 4px;
+  max-width: none;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+/* ——— Layout ——— */
+
+.page {
+  display: grid;
+  /* `minmax(0, 1fr)` — not `1fr` — so the single-column (mobile) track can
+     shrink below its content's min-content. `1fr` is `minmax(auto, 1fr)`, which
+     gives the grid item `min-width: auto` and lets one wide descendant (the
+     comparison table, a <pre> code block, …) blow the whole track — and every
+     section inside it — wider than the viewport. `overflow-x: clip` on <body>
+     then clips that overflow out of frame with no way to scroll. Desktop already
+     uses `minmax(0, 1fr)`; this keeps mobile consistent. */
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  padding: 36px 0 80px;
+}
+
+/* Belt-and-suspenders: the grid item itself must be allowed to shrink below
+   its content's min-content even if a future rule changes the track. */
+main {
+  min-width: 0;
+}
+
+@media (min-width: 1080px) {
+  .page {
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+  }
+}
+
+.toc {
+  display: none;
+}
+
+@media (min-width: 1080px) {
+  .toc {
+    display: block;
+    position: sticky;
+    top: calc(var(--nav-h) + 20px);
+    font-family: var(--sans);
+  }
+
+  .toc p {
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+
+  .toc ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid var(--rule);
+  }
+
+  .toc a {
+    display: block;
+    padding: 5px 0 5px 14px;
+    margin-left: -1px;
+    font-size: 12.5px;
+    line-height: 1.35;
+    color: var(--mute);
+    text-decoration: none;
+    border-left: 1px solid transparent;
+  }
+
+  .toc a:hover,
+  .toc a.is-active {
+    color: var(--ink);
+    border-left-color: var(--oxblood);
+  }
+}
+
+main section {
+  padding: 8px 0 42px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 36px;
+}
+
+main section:last-of-type {
+  border-bottom: 0;
+}
+
+.sec-label {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  margin: 0 0 14px;
+}
+
+h3 {
+  font-family: var(--sans);
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 28px 0 8px;
+}
+
+p {
+  margin: 0 0 1em;
+  max-width: 68ch;
+}
+
+.drop::first-letter {
+  font-weight: 700;
+  font-size: 3.15em;
+  float: left;
+  line-height: 0.78;
+  padding: 10px 10px 0 0;
+  color: var(--oxblood);
+}
+
+ul,
+ol {
+  margin: 0 0 1.1em;
+  padding-left: 1.2em;
+  max-width: 68ch;
+}
+
+li + li {
+  margin-top: 0.35em;
+}
+
+/* ——— Notes / callouts ——— */
+
+.note {
+  max-width: 72ch;
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--oxblood);
+  padding: 14px 16px 12px;
+  margin: 0 0 1.3em;
+  box-shadow: var(--shadow);
+}
+
+.note.slate {
+  border-left-color: var(--slate);
+}
+
+.note.forest {
+  border-left-color: var(--forest);
+}
+
+.note.gold {
+  border-left-color: var(--gold);
+}
+
+.note h4 {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 6px;
+  color: var(--oxblood);
+}
+
+.note.slate h4 { color: var(--slate); }
+.note.forest h4 { color: var(--forest); }
+.note.gold h4 { color: var(--gold); }
+
+.note p:last-child {
+  margin-bottom: 0;
+}
+
+.note p,
+.note li {
+  font-size: 0.95rem;
+}
+
+/* ——— Figures ——— */
+
+.fig {
+  margin: 22px 0 28px;
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow);
+}
+
+.fig-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  padding: 12px 16px 0;
+  font-family: var(--sans);
+}
+
+.fig-num {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+}
+
+.fig-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.fig-tools button,
+.chip {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  border: 1px solid var(--rule-strong);
+  background: transparent;
+  color: var(--ink-soft);
+  padding: 4px 9px;
+  cursor: pointer;
+  border-radius: var(--radius);
+}
+
+.fig-tools button.is-on,
+.chip.is-on {
+  background: var(--ink);
+  color: var(--sheet);
+  border-color: var(--ink);
+}
+
+.fig-canvas {
+  min-height: 220px;
+  padding: 8px 8px 4px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.fig-canvas svg {
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  touch-action: manipulation;
+}
+
+figcaption {
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--mute);
+  padding: 4px 16px 14px;
+  max-width: none;
+}
+
+figcaption strong {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.fig-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 22px 0 28px;
+}
+
+@media (min-width: 760px) {
+  .fig-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fig-grid .fig {
+    margin: 0;
+  }
+}
+
+/* ——— Metric atlas ——— */
+
+.atlas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 18px 0 22px;
+  max-width: none;
+}
+
+@media (min-width: 720px) {
+  .atlas {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.metric {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  padding: 14px 16px 12px;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  box-shadow: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.metric:hover,
+.metric.is-open {
+  border-color: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.metric .op {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--slate);
+  margin: 0 0 4px;
+}
+
+.metric h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.metric .q {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.metric .more {
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.metric.is-open .more {
+  display: block;
+}
+
+.metric .more p {
+  margin: 0 0 0.6em;
+}
+
+.metric .more p:last-child {
+  margin: 0;
+}
+
+/* ——— Tables ——— */
+
+.table-wrap {
+  overflow-x: auto;
+  /* As a regular block (not a flex/grid item), `overflow-x: auto` alone does
+     not zero this box's min-content, so a wide <table> can still push the
+     column wider than the screen. `min-width: 0` lets it shrink to the
+     viewport and scroll the table internally instead. */
+  min-width: 0;
+  margin: 16px 0 24px;
+  border: 1px solid var(--rule);
+  background: var(--sheet);
+  box-shadow: var(--shadow);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+th,
+td {
+  padding: 9px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+th {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  background: var(--paper-deep);
+  white-space: nowrap;
+}
+
+td.num,
+th.num {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+tbody tr[data-node]:hover {
+  background: color-mix(in srgb, var(--gold) 10%, var(--sheet));
+}
+
+.role {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border: 1px solid currentColor;
+}
+
+.role.spreader { color: var(--oxblood); }
+.role.nexus { color: var(--slate); }
+.role.backbone { color: var(--forest); }
+.role.module { color: var(--gold); }
+.role.leaf { color: var(--periphery); }
+
+/* ——— Practice list ——— */
+
+.practices {
+  counter-reset: prac;
+  list-style: none;
+  padding: 0;
+  max-width: none;
+}
+
+.practices > li {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  padding: 16px 18px 8px;
+  margin: 0 0 10px;
+}
+
+.practices > li h3 {
+  margin: 0 0 8px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.practices > li h3::before {
+  counter-increment: prac;
+  content: counter(prac, decimal-leading-zero);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--oxblood);
+  letter-spacing: 0.04em;
+}
+
+pre {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.5;
+  background: #1c1915;
+  color: #efe8d8;
+  padding: 12px 14px;
+  overflow-x: auto;
+  min-width: 0;
+  margin: 0 0 12px;
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 0.86em;
+  background: color-mix(in srgb, var(--paper-deep) 80%, white);
+  padding: 0.05em 0.32em;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* ——— Role board ——— */
+
+.roles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 16px 0 22px;
+}
+
+@media (min-width: 720px) {
+  .roles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.role-card {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  padding: 14px 14px 12px;
+}
+
+.role-card h3 {
+  margin: 0 0 6px;
+}
+
+.role-card p {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+.rule {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--slate);
+}
+
+.hits {
+  margin-top: 10px;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--mute);
+}
+
+/* ——— Methods grid ——— */
+
+.methods {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 720px) {
+  .methods {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.method {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  padding: 14px 16px 10px;
+}
+
+.method h3 {
+  margin: 0 0 6px;
+}
+
+.method p {
+  font-size: 0.92rem;
+  margin: 0 0 0.6em;
+}
+
+.method .op {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--slate);
+}
+
+/* ——— Refs ——— */
+
+.refs {
+  list-style: none;
+  padding: 0;
+  max-width: 78ch;
+}
+
+.refs li {
+  font-size: 0.92rem;
+  padding-left: 2.4em;
+  text-indent: -2.4em;
+  color: var(--ink-soft);
+}
+
+.refs li + li {
+  margin-top: 0.55em;
+}
+
+footer {
+  border-top: 1px solid var(--rule);
+  padding: 28px 0 48px;
+  padding-bottom: calc(48px + var(--safe-bottom));
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--mute);
+}
+
+footer p {
+  max-width: none;
+}
+
+.legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--mute);
+  padding: 0 16px 8px;
+}
+
+.swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  vertical-align: -1px;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  pointer-events: none;
+  background: var(--ink);
+  color: var(--sheet);
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 8px 10px;
+  max-width: 260px;
+  opacity: 0;
+  transform: translate(-50%, -8px);
+  transition: opacity 0.12s ease;
+}
+
+.tooltip.is-on {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .metric,
+  .tooltip,
+  .nav-links a {
+    transition: none;
+  }
+}
+
+/* ——— Responsive hardening (no horizontal overflow) ——— */
+
+/* Long unbreakable tokens (code, file paths, metric calls) wrap instead of
+   pushing the page wider. */
+code,
+.op,
+.rule,
+.hits {
+  overflow-wrap: anywhere;
+}
+
+/* Code inside <pre> keeps unbroken — the block itself scrolls. */
+pre code {
+  overflow-wrap: normal;
+  white-space: pre;
+}
+
+/* Grid/flex children must be allowed to shrink below their content's
+   min-width, otherwise long nav links / monospace operation strings force
+   the row wider than the viewport. */
+.metric,
+.method,
+.role-card,
+.fig-tools,
+.meta,
+.nav-links {
+  min-width: 0;
+}
+
+/* Final guard so nothing can ever drive the page-level horizontal scrollbar;
+   `clip` (unlike `hidden`) does not create a scroll container, so the sticky
+   site nav keeps working. */
+html,
+body {
+  overflow-x: clip;
+}
+
+@supports not (overflow: clip) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* ——— Sticky table first column ——— */
+
+.table-wrap {
+  position: relative;
+}
+
+.table-wrap table th:first-child,
+.table-wrap table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--sheet);
+}
+
+.table-wrap table th:first-child {
+  background: var(--paper-deep);
+  z-index: 3;
+}
+
+.table-wrap table th:first-child::after,
+.table-wrap table td:first-child::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -8px;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.06), transparent);
+  pointer-events: none;
+}
+
+.table-wrap table th:first-child::after {
+  background: linear-gradient(to right, rgba(0,0,0,0.08), transparent);
+}
+
+/* ——— Nav scroll hint ——— */
+
+.site-nav::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(to left, color-mix(in srgb, var(--paper) 86%, white), transparent);
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.site-nav.nav-end::after {
+  opacity: 0;
+}
+
+/* ——— Improved role card grid progression ——— */
+
+@media (min-width: 480px) and (max-width: 719px) {
+  .roles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ——— Diagram lightbox ——— */
+
+.lb {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  padding: max(24px, var(--safe-top)) 24px max(24px, var(--safe-bottom));
+  background: rgba(14, 12, 9, 0.9);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  overscroll-behavior: contain;
+}
+
+.lb.open {
+  display: flex;
+}
+
+.lb-stage {
+  width: 100%;
+  max-width: 96vw;
+  max-height: 82vh;
+  overflow: auto;
+  background: var(--sheet);
+  padding: 8px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.lb-close {
+  position: absolute;
+  top: 14px;
+  top: max(14px, var(--safe-top));
+  right: 18px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+  font-size: 28px;
+  line-height: 1;
+  background: rgba(20, 20, 40, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  color: var(--sheet);
+  cursor: pointer;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lb-close:hover {
+  color: var(--gold-soft);
+}
+
+.lb-cap {
+  color: var(--sheet);
+  font-family: var(--sans);
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+body.lb-open {
+  overflow: hidden;
+}
+
+/* Keep the figure header / toggle toolbar tidy on narrow screens. */
+@media (max-width: 640px) {
+  .fig-head {
+    flex-wrap: wrap;
+  }
+
+  .fig-tools {
+    margin-top: 8px;
+  }
+}
+
+@media print {
+  .site-nav,
+  .toc,
+  .skip,
+  .fig-tools {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    font-size: 11.5pt;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .page {
+    display: block;
+    padding: 0;
+  }
+
+  .fig,
+  .note,
+  .metric,
+  .method,
+  .role-card,
+  .table-wrap {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .hero h1 {
+    max-width: none;
+  }
+}
+
+/* ——— Tablet adjustments ——— */
+
+@media (min-width: 641px) and (max-width: 1079px) {
+  .page {
+    padding: 28px 0 60px;
+  }
+
+  main section {
+    padding: 8px 0 32px;
+    margin-bottom: 28px;
+  }
+
+  .fig + .fig {
+    margin-top: 16px;
+  }
+}
+
+/* ——— Responsive SVG diagrams ——— */
+/* Wide diagrams (viewBox 980) scale down proportionally on narrow
+   viewports — text inside becomes small but remains legible at ~55 %
+   of original size (≈ 7 px effective on a 320 px phone).  The
+   lightbox (tap-to-zoom) provides a full-size view when detail is
+   needed.  No min-width constraints are applied because CSS cannot
+   make a horizontal scrollbar usable when the scrollable child
+   exceeds the visible parent and the parent clips overflow. */
+
+/* ——— Mobile ——— */
+
+@media (max-width: 640px) {
+  body { font-size: 16.5px; }
+  .wrap { width: calc(100% - 28px); }
+  .hero { padding-top: 32px; padding-bottom: 20px; }
+  .drop::first-letter { font-size: 2.5em; }
+  .site-nav .wrap { gap: 8px; }
+  .meta p { flex: 1 1 100%; }
+  .hero h1 { letter-spacing: -0.015em; }
+  .fig-tools { gap: 6px; }
+  .role-card,
+  .method,
+  .metric { padding-left: 12px; padding-right: 12px; }
+
+  /* Tighten vertical rhythm */
+  main section {
+    padding: 6px 0 28px;
+    margin-bottom: 24px;
+  }
+
+  .page {
+    padding: 20px 0 48px;
+  }
+
+  h3 {
+    margin-top: 22px;
+  }
+
+  /* Larger touch targets for metric cards and fig-tools buttons */
+  .metric {
+    padding: 16px 14px;
+    min-height: 44px;
+  }
+
+  .fig-tools button,
+  .chip {
+    padding: 6px 12px;
+    min-height: 36px;
+    font-size: 12px;
+  }
+
+  /* Table: reduce padding and font size */
+  .table-wrap table {
+    font-size: 12.5px;
+  }
+
+  th, td {
+    padding: 7px 8px;
+  }
+
+  .table-wrap table th:first-child,
+  .table-wrap table td:first-child {
+    min-width: 110px;
+  }
+
+  /* Notes: reduce padding */
+  .note {
+    padding: 12px 14px 10px;
+  }
+
+  /* Code blocks: slightly smaller on mobile */
+  pre {
+    font-size: 11.5px;
+    padding: 10px 12px;
+  }
+
+  /* Fig grid: always single column on mobile */
+  .fig-grid {
+    gap: 12px;
+    margin: 16px 0 20px;
+  }
+
+  /* Let SVG diagrams scale down freely on small screens */
+  .fig-canvas svg {
+    min-width: 0;
+  }
+
+  /* Footer tightening */
+  footer {
+    padding: 20px 0 36px;
+    padding-bottom: calc(36px + var(--safe-bottom));
+  }
+
+  /* Nav scroll hint: fade right edge when links overflow */
+  .site-nav::after {
+    display: none;
+  }
+  .nav-links {
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+
+  /* Kicker: reduce spacing */
+  .kicker {
+    margin-bottom: 12px;
+  }
+
+  /* Extra-small screens: reduce drop-cap size */
+  @media (max-width: 380px) {
+    .drop::first-letter { font-size: 2em; }
+  }
+}
+
+/* ——— Instance-specific (worked-example) marker ———
+   Empirical values for specific vault nodes, set apart from the general
+   methodology. Each is tied to graph build bd1894acf7b72406. */
+.instance {
+  position: relative;
+  border-left: 3px solid var(--oxblood);
+  background: color-mix(in srgb, var(--paper) 50%, var(--sheet));
+  padding: 6px 16px 4px;
+  margin: 4px 0 26px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  min-width: 0;
+}
+
+.instance > :first-child { margin-top: 0; }
+.instance > h3 { margin-top: 10px; }
+
+.instance > .inst-tag,
+.note .inst-tag {
+  display: inline-block;
+  max-width: 100%;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  line-height: 1.45;
+  color: var(--oxblood);
+  background: color-mix(in srgb, var(--oxblood) 9%, var(--sheet));
+  border: 1px solid color-mix(in srgb, var(--oxblood) 32%, transparent);
+  padding: 2px 9px;
+  margin: 0 0 8px;
+  border-radius: 3px;
+}
+
+/* Inline empirical phrase pulled from a specific graph build. */
+.inst-inline {
+  background: color-mix(in srgb, var(--oxblood) 12%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--oxblood) 16%, transparent);
+  border-radius: 2px;
+  padding: 0 0.2em;
+}
+
+.gv {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--oxblood);
+  white-space: nowrap;
+  margin-left: 0.3em;
+}
+
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#fingerprint">指紋</a>
+      <a href="#metrics">指標</a>
+      <a href="#examples">實例</a>
+      <a href="#practices">NetworkX</a>
+      <a href="#methods">方法</a>
+      <a href="#operations">操作化</a>
+      <a href="#references">參考文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">方法論簡報 · 計算生物學</p>
+    <h1>節點層級網絡分析用於生物學優先排序</h1>
+    <p class="lede">
+      知識圖譜中的每個實體都帶有一組指標指紋——
+      <code>入度與出度</code>、<code>PageRank</code>、<code>中介中心性</code>、<code>聚類係數</code>、<code>k-core</code>、<code>社群</code>——
+      可將其解讀為一種生物學角色。本頁說明這些讀數如何在 NetworkX 中計算、在本知識庫真實節點上的意義，以及哪些做法能讓這些數字值得信賴。
+    </p>
+    <div class="meta">
+      <p><strong>日期：</strong> 2026 年 8 月 16 日</p>
+      <p><strong>資料來源：</strong> <code>web/data/graph.json</code></p>
+      <p><strong>程式碼：</strong> <code>scripts/03_rebuild_from_triples.py</code>、<code>scripts/04_node_analysis.py</code></p>
+      <p><strong>圖譜建構：</strong> <code>bd1894acf7b72406</code></p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁內容">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#fingerprint">指紋</a></li>
+      <li><a href="#metrics">指標圖譜</a></li>
+      <li><a href="#examples">實作成例</a></li>
+      <li><a href="#compare">比較圖表</a></li>
+      <li><a href="#practices">NetworkX</a></li>
+      <li><a href="#methods">分析方法</a></li>
+      <li><a href="#operations">操作化</a></li>
+      <li><a href="#references">參考文獻</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+    <section id="fingerprint">
+      <p class="sec-label">01 · 框架</p>
+      <h2>每個節點的指紋是一種角色，而非分數</h2>
+      <p class="drop">
+        中心性常被當成一種排名：越高越重要，挑出前十名即可。但對於一個具向、帶有關係類型的生物醫學圖譜來說，這是錯誤的對象。一個將弱點擴散到許多脂質節點的源頭酵素，在 PageRank 下看似不重要，在出度下卻舉足輕重。一個坐落在粒線體、表觀遺傳與發炎之間最短路徑上的分泌程式，用聚類係數看很普通，用中介中心性看卻非比尋常。指紋是指標之間的「型態」，須對照圖譜中既有的生物學來解讀。
+      </p>
+      <p>
+        在本語料中，指紋由 <code>enrich_graph_metrics()</code> 附加，並儲存在 <code>graph.json</code> 的每個節點上：
+        <code>degree</code>、<code>in_degree</code>、<code>out_degree</code>、
+        <code>pagerank</code>、<code>betweenness_centrality</code>、
+        <code>clustering_coefficient</code>、<code>k_core_number</code>、
+        <code>community_size</code>、<code>community_name</code>。
+        有兩個管線選擇讓這些數字可作為生物學來使用，而非共現的人為產物。
+      </p>
+      <ul>
+        <li>
+          <strong>類型中樞拒絕名單（denylist）。</strong> 抽象類別
+          （<code>chemical</code>、<code>protein</code>、<code>enzyme</code>、<code>gene</code>，
+          以及 <code>DENYLIST</code> 的其餘項目）會在計算中心性之前被剪除。否則一個通用的「protein」巨塊會主導每個排名，而使具體實體
+          （ACSL4、GPX4、鐵死亡 ferroptosis）消失。
+        </li>
+        <li>
+          <strong>有向圖、無向指標。</strong> 入度、出度與 PageRank 在 <code>DiGraph</code> 上計算。中介中心性、聚類係數與 k-core 在
+          無向投影上計算——這是當方向不完整，或當問題是模組歸屬而非因果流向時，NetworkX 的常見模式。
+        </li>
+      </ul>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1 · 管線</span></div>
+        <div class="fig-canvas" data-chart="pipeline"></div>
+        <figcaption>
+          <strong>指紋如何產生。</strong>
+          帶類型的三元組先剔除本體中樞，載入為有向圖，投影為無向以計算無向指標，以 Leiden 聚類，再寫回每個節點。邊的 <code>weight</code> 目前附加在中心性計算<em>之後</em>——詳見 NetworkX 小節中的權重說明。
+        </figcaption>
+      </figure>
+
+      <div class="note">
+        <h4>解讀陷阱</h4>
+        <p class="inst-tag">Acid ceramidase vs Aging · graph bd1894acf7b72406</p>
+        <p>
+          PageRank 與出度回答的是相反的問題。PageRank 獎勵被其他重要節點<em>指向</em>的節點。出度標記的是一個<em>向外指向</em>的節點。Acid ceramidase 是擴散者（出度 17，PageRank 0.00078）。Aging 是吸引子（入度 35，PageRank 0.0076）。若單獨使用任一指標，都會顛倒生物學的解讀。
+        </p>
+      </div>
+    </section>
+
+    <section id="metrics">
+      <p class="sec-label">02 · 指標圖譜</p>
+      <h2>每個數字在問圖譜什麼</h2>
+      <p>
+        點擊卡片可查看 NetworkX 呼叫、對應的生物學問題，以及最常在排名中誤導人的注意事項。以下數值為本知識庫使用的定義，而非一般教科書的泛化轉述。
+      </p>
+
+      <div class="atlas">
+        <button class="metric" type="button" aria-expanded="false">
+          <p class="op">G.in_degree / G.out_degree</p>
+          <h3>入度與出度</h3>
+          <p class="q">調節者還是標的？上游驅動者還是下游效應者？</p>
+          <div class="more">
+            <p>
+              此處的總 <code>degree</code> 是有向圖上的 <code>in_degree + out_degree</code>，而非無向的鄰居計數。不對稱性才是訊號：出 ≫ 入 是源頭；入 ≫ 出 是匯點；兩者皆高則是一個既收集又廣播的程式。
+            </p>
+            <p>
+              <strong>注意。</strong> 度數偏向註釋完整的實體。拒絕名單可移除類型中樞，但文獻中受研究的節點仍會累積邊。務必搭配第二個指標一起看。
+            </p>
+          </div>
+        </button>
+
+        <button class="metric" type="button" aria-expanded="false">
+          <p class="op">nx.pagerank(G, alpha=0.85, max_iter=200)</p>
+          <h3>PageRank</h3>
+          <p class="q">根本性重要度，由<em>誰</em>連接到它來加權。</p>
+          <div class="more">
+            <p>
+              在有向圖上、阻尼係數 0.85 的隨機遊走。當其他高分節點連向某節點時，該節點得分高。在本知識庫中，Aging（0.0076）勝過 SASP（0.0074），儘管 SASP 度數較大——Aging 受到其餘重要核心的背書。
+            </p>
+            <p>
+              <strong>注意。</strong> PageRank 目前計算時<em>未</em>使用 <code>weight=</code>。信心分數儲存在邊上，但在本次呼叫之後才附加。個人化 PageRank（在 <code>04_node_analysis.py</code> 中的種子遊走）才是當問題是「與<em>此</em>節點相關」，而非「全局重要」時的正確工具。
+            </p>
+          </div>
+        </button>
+
+        <button class="metric" type="button" aria-expanded="false">
+          <p class="op">nx.betweenness_centrality(G.to_undirected())</p>
+          <h3>中介中心性</h3>
+          <p class="q">瓶頸或橋樑——系統性槓桿靶點？</p>
+          <div class="more">
+            <p>
+              在無向投影上，經過該節點的最短路徑佔比。高中介中心性是一個將原本分離的社群縫合起來的過程的網絡特徵。SASP（0.060）是實作成例中最高者；它座落於從粒線體、表觀遺傳通往發炎與旁分泌擴散的路徑上。
+            </p>
+            <p>
+              <strong>注意。</strong> 無向中介中心性會喪失因果方向。加權中介中心性將權重視為<em>距離</em>，因此信心分數在作為 <code>weight</code> 傳入前必須先反轉（<code>1/confidence</code> 或 <code>−log</code>）。在大型圖上，使用 <code>k=</code> 抽樣近似。
+            </p>
+          </div>
+        </button>
+
+        <button class="metric" type="button" aria-expanded="false">
+          <p class="op">nx.clustering(G.to_undirected())</p>
+          <h3>聚類係數</h3>
+          <p class="q">緊密模組（複合體、級聯）還是連接者（訊號中樞）？</p>
+          <div class="more">
+            <p>
+              局部傳遞性：一個節點的鄰居對中，彼此也有連結的比例。<code>C = 1.0</code> 表示鄰居間形成完全連結的團（clique）——本圖中的 GPX4、inducible NOS（可誘發一氧化氮合酶）、Cataract（白內障）。<span class="inst-inline">Acid ceramidase 座落於 <code>C ≈ 0.04</code> 附近：它的鄰居分布在不同區域。</span><span class="gv">graph bd1894acf7b72406</span>
+            </p>
+            <p>
+              <strong>注意。</strong> 高聚類係數並不代表「更重要」。它標記的是一種不同的可藥性策略：破壞一個緊密機制，對比切斷一座橋樑。請與全局傳遞性以及保留度數的零模型比較；生物網絡通常比配置模型（configuration model）更具聚類性。
+            </p>
+          </div>
+        </button>
+
+        <button class="metric" type="button" aria-expanded="false">
+          <p class="op">nx.core_number(G.to_undirected())</p>
+          <h3>k-core 數</h3>
+          <p class="q">具韌性的骨幹，還是偶然的周邊？</p>
+          <div class="more">
+            <p>
+              最大的 <em>k</em>，使得在反覆刪除所有度數 &lt; <em>k</em> 的節點後，該節點仍然存在。在本圖中，<span class="inst-inline">內層殼為 <code>k = 6</code>：Aging、SASP、Senescent cells（衰老細胞）。位於 <code>k = 1</code> 的葉節點（Acetate、Alagebrium、2-Chlorophenothiazine）掛在該核心之外。</span><span class="gv">graph bd1894acf7b72406</span>
+            </p>
+            <p>
+              <strong>注意。</strong> NetworkX 在有向圖上預設的 core number 使用總度數；本知識庫正確地在無向視圖上計算。在古典 PPI 研究中，內層核心會富集必需蛋白（Wuchty &amp; Almaas 2005）。它們是篩選過濾器，而非必需性的證明。
+            </p>
+          </div>
+        </button>
+
+        <button class="metric" type="button" aria-expanded="false">
+          <p class="op">Leiden 聚類 + 最高度數社群標籤</p>
+          <h3>社群名稱與大小</h3>
+          <p class="q">該節點屬於哪個浮現出的路徑或過程？</p>
+          <div class="more">
+            <p>
+              Leiden 對圖進行分割；每個社群以其度數最高的成員命名。<span class="inst-inline">Acid ceramidase 錨定了一個大小為 18、以其自身命名的社群——一個局部過程模組。</span><span class="gv">graph bd1894acf7b72406</span> SASP 與 Aging 則位於較大的衰老軸（senescence axis）中。一個鄰居大多位於<em>其他</em>社群的節點，是社群橋樑，與中介中心性互補。
+            </p>
+            <p>
+              <strong>注意。</strong> 社群標籤在多輪重建間以多數重疊方式保留，但它們並非路徑資料庫。Leiden 與 Fiedler（譜）切分的差異本身即是一項發現：那些節點座落於過程之間。
+            </p>
+          </div>
+        </button>
+      </div>
+
+      <div class="note slate">
+        <h4>文獻脈絡，而非知識庫指標</h4>
+        <p>
+          度數–必需性（Jeong et al., 2001）、瓶頸蛋白（Yu et al., 2007），以及必需蛋白的 k-shell 富集（Wuchty &amp; Almaas, 2005）是將這些指標視為生物學的古典 PPI 依據。本知識庫是一個源自文獻的知識圖譜，而非物理交互組（interactome）：相同的數學適用，但邊是帶有策展者信心的類型化關係，而非結合事件。請將排名視為假說，並對照來源筆記進行驗證。
+        </p>
+      </div>
+    </section>
+
+    <section id="examples">
+      <p class="sec-label">03 · 實作成例</p>
+      <h2>圖譜中已存在的成功解讀</h2>
+      <p>
+        以下五個案例並非演算法的圖解示範。它們是指紋還原出一個底層文件已經支持的「角色」的案例——這才是專業讀者在對陌生節點套用相同讀法之前，應該要求的驗證。
+      </p>
+
+            <div class="instance" data-node="acid">
+      <p class="inst-tag">Acid ceramidase · graph bd1894acf7b72406</p>
+<h3>Acid ceramidase — 出度擴散者</h3>
+      <p>
+        度數 20，<strong>出度 17 / 入度 3</strong>，PageRank 0.00078，
+        中介中心性 0.0083，k-core 4，社群「Acid ceramidase」（大小 18）。
+        此不對稱性標記出一個源頭：它將效應推送到脂質與鐵死亡節點，而非被動接受作用。在來源文件中，衰老細胞中偏高的 acid
+        ceramidase 使膜重塑為富含 PUFA（多元不飽和脂肪酸）、易致鐵死亡的輪廓；而 knockdown（基因靜默）或 ARN14794 可保護細胞。圖譜中還有一個指向它的「Senolytic Drug Target（衰老溶解藥物標的）」節點。高出度、中等中介中心性，以及以自身命名的社群錨點，是擴散型衰老溶解或衰老調節（senomorphic）候選者的特徵。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 2 · 擴散者</span></div>
+        <div class="fig-canvas" data-chart="spreader"></div>
+        <figcaption>
+          <strong>Acid ceramidase 作為源頭節點。</strong>
+          三個傳入驅動者，多個傳出效應者。PageRank 保持低值，因為幾乎沒有節點指向<em>它</em>；其生物學意義在於出向星狀結構（out-star）。
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="sasp">
+      <p class="inst-tag">SASP · graph bd1894acf7b72406</p>
+<h3>SASP — 收斂與發散的分泌中樞</h3>
+      <p>
+        度數 101，<strong>入度 56 / 出度 45</strong>，PageRank 0.0074，
+        中介中心性 0.060，k-core 6。在受調查集合中中介中心性最高：SASP
+        座落於粒線體、表觀遺傳、發炎與衰老之間的最短路徑上。它是上游觸發因子的匯點，也是旁分泌細胞因子（IL-6、IL-8）的源頭——在 acid-ceramidase 文件中，這些細胞因子會在旁觀者細胞中誘發該酵素。高入度、高出度、頂級中介中心性：一個主控程式。擾動它會在整個網絡中迴盪——這既是治療吸引力，也是靶上風險。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 3 · 樞紐</span></div>
+        <div class="fig-canvas" data-chart="nexus"></div>
+        <figcaption>
+          <strong>中介中心性即路徑集中。</strong>
+          左側的社群必須跨越 SASP，才能抵達右側的效應者。虛線曲線是示意的最短路徑，而非儲存的走訪。
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="aging">
+      <p class="inst-tag">Aging · graph bd1894acf7b72406</p>
+<h3>Aging — PageRank 與核心骨幹</h3>
+      <p>
+        度數 48，入度 35，出度 13，<strong>PageRank 0.0076</strong>
+        （樣本中最高），中介中心性 0.046，k-core 6。PageRank 高，因為
+        Aging 連接到<em>其他重要</em>節點，而不只是連到很多節點。
+        k-core 6 將它與 SASP 及 Senescent cells（衰老細胞）一同置於最緻密、相互強化的殼層中。頂級 PageRank 加上內層核心成員身份，即「共同土壤（common soil）」的解讀：下游疾病社群附著於此。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 4 · PageRank 背書</span></div>
+        <div class="fig-canvas" data-chart="pagerank"></div>
+        <figcaption>
+          <strong>重要性由鄰居繼承而來。</strong>
+          其他高分節點的粗箭頭抬高了 Aging 的 PageRank。一個具有相同原始度數的周邊葉節點則不會。
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="gpx4">
+      <p class="inst-tag">GPX4 · graph bd1894acf7b72406</p>
+<h3>GPX4、inducible NOS、Cataract — 聚類係數 = 1.0</h3>
+      <p>
+        聚類係數 1.0 表示節點的每個鄰居都與其他每個鄰居相連：一個氧化還原複合體、一個 NO 級聯、一個 AGE 交聯叢集。GPX4 也位於 k-core 2，符合小型團（clique）而非全局骨幹。對比聚類係數 ≈ 0.04 的 Acid ceramidase：那是一個連接者。這兩種型態是互補的可藥性策略——破壞模組，或切斷橋樑。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 5 · 聚類</span></div>
+        <div class="fig-canvas" data-chart="clustering"></div>
+        <figcaption>
+          <strong>團（clique）對比橋樑。</strong>
+          左：一個 C = 1.0 的三節點模組（GPX4 型態）。右：低聚類的連接者，其鄰居分布於不同叢集（Acid ceramidase 型態）。
+        </figcaption>
+      </figure>
+      </div>
+
+            <div class="instance" data-node="core">
+      <p class="inst-tag">k-core 6 骨幹 · graph bd1894acf7b72406</p>
+<h3>k-core 6 骨幹</h3>
+      <p>
+        位於 k-core 6 的節點——Aging、SASP、Senescent cells（衰老細胞）——構成衰老／老化軸中具韌性的內層機制。其他一切都依附於它。k-core 分解是指紋中速度最快的「必需對偶然」排名，也是判斷哪些節點值得撰寫深入實體筆記的正確過濾器。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 6 · k-core 洋蔥</span></div>
+        <div class="fig-canvas" data-chart="onion"></div>
+        <figcaption>
+          <strong>嵌套殼層，而非扁平排名。</strong>
+          內層 k = 6 是衰老骨幹。Acid ceramidase 位於 k = 4（近核心控制）。GPX4 位於 k = 2（局部模組）。具名的葉節點位於 k = 1。
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+
+    <section id="compare">
+      <p class="sec-label">04 · 比較證據</p>
+      <h2>相同的三個節點，並列對照</h2>
+      <p>
+        數字唯有在比較時才成為指紋。表格是真相來源；圖表則在本樣本內重新縮放各指標，以使型態可見。SASP 在量體與中介中心性上居冠。Aging 在 PageRank 上居冠，並在內層核心與 SASP 相當。Acid ceramidase 規模小、向外導向，且局部稀疏。
+      </p>
+
+            <div class="instance" data-node="worked">
+      <p class="inst-tag">實作成例節點 · graph bd1894acf7b72406</p>
+<div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>節點</th>
+              <th>角色解讀</th>
+              <th class="num">入</th>
+              <th class="num">出</th>
+              <th class="num">度數</th>
+              <th class="num">PageRank</th>
+              <th class="num">中介中心性</th>
+              <th class="num">聚類係數</th>
+              <th class="num">k-core</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-node="acid" data-tip="源頭 / 擴散者。出度主導，低 PageRank。">
+              <td>Acid ceramidase</td>
+              <td><span class="role spreader">擴散者</span></td>
+              <td class="num">3</td>
+              <td class="num">17</td>
+              <td class="num">20</td>
+              <td class="num">0.00078</td>
+              <td class="num">0.0083</td>
+              <td class="num">≈ 0.04</td>
+              <td class="num">4</td>
+            </tr>
+            <tr data-node="sasp" data-tip="收斂—發散分泌中樞。中介中心性最高。">
+              <td>SASP</td>
+              <td><span class="role nexus">樞紐</span></td>
+              <td class="num">56</td>
+              <td class="num">45</td>
+              <td class="num">101</td>
+              <td class="num">0.0074</td>
+              <td class="num">0.060</td>
+              <td class="num">—</td>
+              <td class="num">6</td>
+            </tr>
+            <tr data-node="aging" data-tip="共同土壤吸引子。PageRank 最高，位於內層核心。">
+              <td>Aging</td>
+              <td><span class="role backbone">骨幹</span></td>
+              <td class="num">35</td>
+              <td class="num">13</td>
+              <td class="num">48</td>
+              <td class="num">0.0076</td>
+              <td class="num">0.046</td>
+              <td class="num">—</td>
+              <td class="num">6</td>
+            </tr>
+            <tr data-node="gpx4" data-tip="凝聚的局部機制，而非全局中樞。">
+              <td>GPX4</td>
+              <td><span class="role module">模組</span></td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">1.0</td>
+              <td class="num">2</td>
+            </tr>
+            <tr data-node="leaf" data-tip="情境性葉節點。勿優先深入探究。">
+              <td>Acetate、Alagebrium、2-Chlorophenothiazine</td>
+              <td><span class="role leaf">周邊</span></td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td class="num">1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 7 · 度數組成</span></div>
+        <div class="fig-canvas" data-chart="composition"></div>
+        <figcaption>
+          <strong>方向是第一步切割。</strong>
+          堆疊長條顯示入度（slate 藍）與出度（oxblood 暗紅）的對比。SASP 是平衡中樞；Aging 是匯點；Acid ceramidase 有 85% 向外導向。
+        </figcaption>
+      </figure>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 8 · 指紋（樣本正規化）</span>
+          <div class="fig-tools" data-fp-tools>
+            <button type="button" class="is-on" data-metric="degree">度數</button>
+            <button type="button" class="is-on" data-metric="pagerank">PageRank</button>
+            <button type="button" class="is-on" data-metric="betweenness">中介中心性</button>
+            <button type="button" class="is-on" data-metric="kCore">k-core</button>
+          </div>
+        </div>
+        <div class="fig-canvas" data-chart="fingerprint"></div>
+        <figcaption>
+          <strong>每個指標皆縮放至本三節點樣本中的最大值</strong>
+          ，以便比較型態。可在工具列切換數列。原始數值仍保留於表格中。PageRank 顯示為 ×10³；中介中心性 ×10³。
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+
+    <section id="practices">
+      <p class="sec-label">05 · NetworkX</p>
+      <h2>NetworkX</h2>
+      <p>
+        NetworkX 是一個用於建立、操作與研究複雜網絡之結構、動態與功能的 Python 套件。它提供研究社交、生物與基礎設施網絡之結構與動態的工具，以及適用於多種應用的標準程式介面與圖形實作。
+      </p>
+      <p>
+        本簡報倚重此職責中的生物學一半。一個由生物醫學實體及其類型化關係組成的知識圖譜——一個重塑膜的酵素、一個驅動發炎的細胞因子、一個廣播分泌程式的衰老細胞——正是 NetworkX 被建構來描述的複雜網絡類型。中心性、最短路徑、社群偵測與核心分解在這裡都是一等公民操作，而非附加元件，這也是為何繪製社交網絡的相同呼叫，也能用來篩選衰老軸。
+      </p>
+      <div class="note slate">
+        <h4>為何用圖形函式庫，而非 dataframe</h4>
+        <p>
+          重要的問題是拓撲性的：哪個節點位於最多最短路徑上、哪個叢集內部凝聚、網絡的哪個殼層具韌性。NetworkX 直接在圖形物件上回答它們，因此後續章節發展出的指紋是計算出來的，而非人工推導的。
+        </p>
+      </div>
+      <p>
+        NetworkX 是此規模圖形（數千個節點，而非完整的 STRING）的合適函式庫。失敗模式不在效能，而在於一個未言明的表示選擇：有向對無向、權重作為強度對權重作為距離、整圖對最大連通分量、拓撲對註釋偏誤。以下清單是本知識庫以及更廣義 PPI / GRN 分析的工作標準。
+      </p>
+
+      <ol class="practices">
+        <li>
+          <h3>說明你實際計算所用的圖</h3>
+          <p>
+            保留一個 <code>DiGraph</code> 用於入／出度與 PageRank。以
+            <code>G.to_undirected()</code> 投影，用於聚類、中介中心性與 k-core。<code>04_node_analysis.py</code> 中的多節點分析進一步在移除自環後，限制於最大連通分量。否則在斷開圖上的路徑指標會未定義，或靜默地變成諧波風格（harmonic-flavoured）。
+          </p>
+          <pre><code>G_und = G.to_undirected()
+cc = max(nx.connected_components(G_und), key=len)
+U = G_und.subgraph(cc).copy()</code></pre>
+        </li>
+        <li>
+          <h3>在任何中心性計算之前，先剪除類型中樞</h3>
+          <p>
+            PPI 中的研究偏誤（TP53 因被廣泛研究而累積交互作用）在知識圖譜中有對應：本體類別從每個實例中收集邊。重建腳本中的 <code>DENYLIST</code> 是正確的第一道過濾器。切勿將高度數的「protein」節點解讀為標的。
+          </p>
+        </li>
+        <li>
+          <h3>切勿將信心分數作為中介中心性的距離</h3>
+          <p>
+            PageRank 需要的是<em>強度</em>：高信心應承載更多遊走質量（<code>weight="weight"</code>）。中介中心性與其他最短路徑指標需要的是<em>距離</em>：高信心應是短跳。先反轉。當前的重建將 <code>weight = confidence_score</code> 儲存於中心性計算<em>之後</em>，因此儲存的指紋是無權重的拓撲。這是已記載的限制，而非秘密。
+          </p>
+          <pre><code>for u, v, d in G.edges(data=True):
+    d["weight"] = d.get("confidence_score", 0.7)
+    d["distance"] = 1.0 / max(d["weight"], 1e-9)
+
+pr = nx.pagerank(G, alpha=0.85, weight="weight")
+bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pre>
+        </li>
+        <li>
+          <h3>絕不單靠一個指標排名</h3>
+          <p>
+            在古典酵母 PPI 中，度數可預測必需性（Jeong et al., 2001），但會錯過度數普通卻是瓶頸的節點（Yu et al., 2007）。本知識庫中的實作成例之所以存在，<em>正是因為</em>指紋以富含資訊的方式與自身相左。組合使用：高出度加中等中介中心性（擴散者）；高入度高出度加頂級中介中心性（樞紐）；頂級 PageRank 加內層 k-core（骨幹）。
+          </p>
+        </li>
+        <li>
+          <h3>以保留度數的零模型檢驗</h3>
+          <p>
+            高度數節點在幾乎所有指標上都得分高。配置模型集成（<code>nx.configuration_model</code> / 有向變體，100–1,000 次抽樣）可給出 z 分數或經驗 p 值。<code>04_node_analysis.py</code> 中的有效電阻（effective resistance）已針對 300 個隨機節點樣本對交換距離做 z 分數標準化；在將某節點稱為瓶頸之前，相同的習慣也應套用於中介中心性與聚類係數。
+          </p>
+        </li>
+        <li>
+          <h3>近似中介中心性，但勿略過</h3>
+          <p>
+            Brandes 演算法為 <code>O(nm)</code>。在本知識庫上沒問題。在經過篩選的人類交互組上，傳入 <code>k=</code>（抽樣源）與種子。寧可採用此近似，也不要捨棄該指標。限制於 k-core 或最大連通分量，是另一個正當的加速方式。
+          </p>
+          <pre><code>bt = nx.betweenness_centrality(U, k=100, seed=1, normalized=True)</code></pre>
+        </li>
+        <li>
+          <h3>將聚類與 k-core 視為互補，而非多餘</h3>
+          <p>
+            聚類是局部傳遞性。k-core 是嵌套的全局剝離。GPX4 可以是一個完美三角（C = 1，k = 2），卻仍位於衰老骨幹（k = 6）之外。在 PPI 中，內層核心常與複合體重合；在此則與老化／SASP 程式重合。應同時報告核心數分布與主核心的大小。
+          </p>
+        </li>
+        <li>
+          <h3>當問題是局部的，對 PageRank 播種</h3>
+          <p>
+            全局 PageRank 回答「在整個圖中很重要」。從感興趣的過程做標的優先排序，是個人化 PageRank：<code>personalization={seed: 1.0}</code>，alpha 0.85。從每個 k-core-6 節點掃描 PPR 並取前幾名的交集，是下方提出的操作化下一步。
+          </p>
+        </li>
+        <li>
+          <h3>固定版本、種子與邊清單</h3>
+          <p>
+            PPI 與知識圖譜會隨資料庫版本與信心門檻而改變。記錄 NetworkX 版本、拒絕名單、最大連通分量規則、<code>RANDOM_SEED = 1</code>，以及邊上的來源檔案溯源。若審閱者需要 Cytoscape，則匯出 GraphML / GEXF；切勿依賴 NetworkX 的繪圖來產生此規模的出版級圖表。
+          </p>
+        </li>
+      </ol>
+
+      <div class="note forest">
+        <h4>本知識庫已做得好的部分</h4>
+        <p>
+          有向入／出分割；用於模組指標的無向投影；類型中樞拒絕名單；帶穩定標籤的 Leiden 社群；針對交換距離的最大連通分量限制與隨機節點零模型；具記載 alpha 的個人化 PageRank。相對於 PPI 最佳實務的主要缺口，在於將權重傳入 PageRank、將反轉距離傳入中介中心性，以及圍繞靜態指紋本身建立配置模型包絡。
+        </p>
+      </div>
+    </section>
+
+    <section id="methods">
+      <p class="sec-label">06 · 超越靜態指紋</p>
+      <h2>儲存庫中已有的關係感知方法</h2>
+      <p>
+        <code>scripts/04_node_analysis.py</code> 運行於相同的 <code>graph.json</code>
+        上，並回答每節點向量無法回答的問題：兩個實體<em>如何</em>連接、它們是否共享鄰域、一條缺失的邊是否合理，以及一旦低信心路徑被降權後，兩條路徑究竟相距多遠。
+      </p>
+      <pre><code>uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+    --sources sirt1 sirt3 --targets adrenochrome</code></pre>
+
+      <div class="methods">
+        <article class="method">
+          <p class="op">nx.all_shortest_paths · edge relation / confidence</p>
+          <h3>最短路徑多重性</h3>
+          <p>
+            不只是 A 能否到達 B，而是帶標籤的鏈
+            （<span class="inst-inline"><code>Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis</code></span><span class="gv">graph bd1894acf7b72406</span>）
+            ，以及跨多條等長最短路徑共享的第一跳橋樑。
+          </p>
+        </article>
+        <article class="method">
+          <p class="op">neighbour-set Jaccard</p>
+          <h3>鄰域相似性</h3>
+          <p>
+            共享鄰居的實體是機制類比物或脫靶孿生體。與高度數夥伴間的低 Jaccard，是截然不同的鄰域，而非對同一模組的重述。
+          </p>
+        </article>
+        <article class="method">
+          <p class="op">nx.adamic_adar_index</p>
+          <h3>連結預測</h3>
+          <p>
+            共享鄰居依 log 度數降權。將合理的缺失邊呈現為假說佇列，而非事實。在寫回三元組之前，需經人工文獻查核。
+          </p>
+        </article>
+        <article class="method">
+          <p class="op">scipy.linalg.eigh on the Laplacian</p>
+          <h3>譜切分（Fiedler）</h3>
+          <p>
+            代數連通度 λ<sub>2</sub> 與 Fiedler 向量將圖切分為兩個連貫的子系統。該腳本使用稠密 <code>eigh</code>，因為
+            <code>eigsh(which="SM")</code> 在奇異（singular）Laplacian 上會回傳無意義的零模態，使 Fiedler 向量失效。
+          </p>
+        </article>
+        <article class="method">
+          <p class="op">Laplacian pseudoinverse</p>
+          <h3>有效電阻</h3>
+          <p>
+            一種能感知指標的距離，對長程、低信心的路徑降權。對 300 個節點的隨機樣本做 z 分數標準化。自電阻（self-resistance）是一項健全性檢查，應約為 0。截斷 SVD 在此<em>並非</em>有效的交換時間（commute-time）代理；該腳本從篩選後的特徵值建構偽逆。
+          </p>
+        </article>
+        <article class="method">
+          <p class="op">nx.pagerank(..., personalization=)</p>
+          <h3>個人化 PageRank</h3>
+          <p>
+            對感興趣的節點播種，並依到達它的遊走質量（或依方向，從它出發）對圖的其餘部分排名。當指紋已指名一個骨幹節點時，這是正確的從全局到局部的移動。
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="operations">
+      <p class="sec-label">07 · 從解讀到篩選</p>
+      <h2>疊加於指紋之上的一層規則</h2>
+      <p>
+        一旦指標被信任，一個小型分類器就能將它們轉化為角色，供標的辨識（target-ID）工作流程排序。這些規則尚屬提案，尚未輸出至
+        <code>nodes.json</code>。每張卡片上列出的命中，是今天會觸發的實作成例。
+      </p>
+
+      <div class="roles">
+        <article class="role-card">
+          <h3>擴散者</h3>
+          <p class="rule">out_degree ≫ in_degree</p>
+          <p>向許多效應者廣播的控制點。當社群是一個損傷程式時，即為衰老溶解／衰老調節（senomorphic）候選者。</p>
+          <p class="hits" data-role-hits="spreader"></p>
+        </article>
+        <article class="role-card">
+          <h3>主控調節者</h3>
+          <p class="rule">high out_degree ∧ high pagerank</p>
+          <p>同時是源頭與受背書的吸引子。三個完整實作節點中，沒有一個同時符合這兩個子句——一項有用的負向控制。</p>
+          <p class="hits" data-role-hits="master"></p>
+        </article>
+        <article class="role-card">
+          <h3>瓶頸</h3>
+          <p class="rule">betweenness in the top decile</p>
+          <p>系統性槓桿，也是系統性副作用風險。SASP 是此圖中的典型代表。</p>
+          <p class="hits" data-role-hits="bottleneck"></p>
+        </article>
+        <article class="role-card">
+          <h3>模組成員</h3>
+          <p class="rule">clustering &gt; 0.5</p>
+          <p>一個凝聚機制的參與者。策略：破壞複合體，而非切斷橋樑。</p>
+          <p class="hits" data-role-hits="module"></p>
+        </article>
+        <article class="role-card">
+          <h3>核心骨幹</h3>
+          <p class="rule">k_core ≥ 5</p>
+          <p>衰老／老化軸的內層殼。一等實體筆記；個人化 PageRank 掃描的種子。</p>
+          <p class="hits" data-role-hits="core"></p>
+        </article>
+        <article class="role-card">
+          <h3>周邊</h3>
+          <p class="rule">k_core == 1</p>
+          <p>情境性葉節點。保留作為支援證據；勿優先投入深入探究的筆記。</p>
+          <p class="hits" data-role-hits="periphery"></p>
+        </article>
+      </div>
+
+      <div class="note gold">
+        <h4>複合衰老溶解分數——一項可驗證的下一步</h4>
+        <p class="inst-tag">Acid ceramidase · graph bd1894acf7b72406</p>
+        <p>
+          結合出度（擴散控制）、中介中心性（槓桿）、社群橋樑狀態（鄰居位於不同的 Leiden 社群），以及低至中等聚類係數（模組可破壞性對比橋樑切斷）。排名後，將前 N 名寫入任務輸出，並要求 Acid ceramidase 浮現在接近頂端的位置。若沒有，則是分數有誤，而非生物學有誤。
+        </p>
+      </div>
+
+      <h3>進一步工作，依工作量排序</h3>
+      <ol>
+        <li>將上述角色標籤輸出為三圖面板用的 <code>node_roles.json</code>。</li>
+        <li>從每個 k-core-6 節點進行個人化 PageRank 掃描；取前幾名的交集，找出反覆出現的下游效應者。</li>
+        <li>用於文獻回顧的 Adamic–Adar 新型三元組假說佇列。</li>
+        <li>Fiedler 切分對比 Leiden：兩個分割方式意見相左的節點，即為整合型橋樑。</li>
+        <li>依文件新近度做信心衰減，並在面板中的邊上公開 <code>source_file</code>。</li>
+        <li>在即時圖形檢視中渲染 k-core 洋蔥，而不僅僅作為一個儲存的整數。</li>
+      </ol>
+    </section>
+
+    <section id="references">
+      <p class="sec-label">08 · 來源</p>
+      <h2>知識庫分析與相關文獻</h2>
+      <ol class="refs">
+        <li>知識庫任務輸出，2026 年 8 月 16 日。<em>用於生物學優先排序的節點層級網絡分析。</em> <code>src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</code>。</li>
+        <li>重建管線。<code>scripts/03_rebuild_from_triples.py</code> — <code>DENYLIST</code>、<code>enrich_graph_metrics()</code>、Leiden 標籤、邊 <code>weight = confidence_score</code>。</li>
+        <li>多節點分析。<code>scripts/04_node_analysis.py</code> — 最大連通分量、路徑多重性、Jaccard、Adamic–Adar、k-core、Fiedler（稠密 <code>eigh</code>）、有效電阻、個人化 PageRank。</li>
+        <li>Jeong H, Mason SP, Barabási A-L, Oltvai ZN. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42.</li>
+        <li>Barabási A-L, Oltvai ZN. Network biology: understanding the cell’s functional organization. <em>Nat Rev Genet</em> 2004;5:101–113.</li>
+        <li>Wuchty S, Almaas E. Peeling the yeast protein network. <em>Proteomics</em> 2005;5:444–449.</li>
+        <li>Yu H, Kim PM, Sprecher E, Trifonov V, Gerstein M. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
+        <li>NetworkX developers. Centrality, clustering, core number, PageRank, Adamic–Adar. <a href="https://networkx.org/documentation/stable/reference/algorithms/centrality.html">networkx.org 文件</a>。</li>
+      </ol>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      llm-wiki-jk 知識圖譜的獨立方法論簡報。
+      獨立的樣式表與腳本——非共享的文章外觀。
+      非醫療建議；排名是針對策展筆記的假說。
+    </p>
+    <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
+</footer>
+<script>
+/* Node-level network analysis — vanilla diagrams and charts. */
+(function () {
+  "use strict";
+
+  // 讀取器／全頁偵測：當本頁載入於圖譜的 Reader iframe 內（self !== top）時，
+  // 上層外觀已提供導覽，因此我們標記 <body class="embedded">，CSS 會隱藏
+  // 獨立的「← 返回」連結。在全頁檢視下，連結保持可見。
+  if (window.self !== window.top) {
+    document.body.classList.add('embedded');
+  }
+
+  var C = {
+    acid: "#7a312c",
+    sasp: "#2e4a5d",
+    aging: "#345443",
+    forest: "#345443",
+    gpx4: "#9a7430",
+    periphery: "#8a8174",
+    ink: "#1c1915",
+    mute: "#6d665b",
+    faint: "#8d8578",
+    rule: "#d3c9b6",
+    sheet: "#fbf8f1",
+    paper: "#f2ece1",
+    gold: "#9a7430",
+    oxblood: "#7a312c",
+    slateSoft: "#4c6e86"
+  };
+
+  var NODES = {
+    acid: {
+      id: "acid",
+      label: "Acid ceramidase",
+      degree: 20, in: 3, out: 17,
+      pagerank: 0.00078, betweenness: 0.0083,
+      clustering: 0.04, kCore: 4,
+      community: "Acid ceramidase", communitySize: 18,
+      role: "spreader",
+      color: C.acid
+    },
+    sasp: {
+      id: "sasp",
+      label: "SASP",
+      degree: 101, in: 56, out: 45,
+      pagerank: 0.0074, betweenness: 0.060,
+      clustering: null, kCore: 6,
+      community: "senescence axis",
+      role: "nexus",
+      color: C.sasp
+    },
+    aging: {
+      id: "aging",
+      label: "Aging",
+      degree: 48, in: 35, out: 13,
+      pagerank: 0.0076, betweenness: 0.046,
+      clustering: null, kCore: 6,
+      community: "senescence axis",
+      role: "backbone",
+      color: C.aging
+    },
+    gpx4: {
+      id: "gpx4",
+      label: "GPX4",
+      degree: null, in: null, out: null,
+      pagerank: null, betweenness: null,
+      clustering: 1.0, kCore: 2,
+      role: "module",
+      color: C.gpx4
+    }
+  };
+
+  var NS = "http://www.w3.org/2000/svg";
+
+  function el(tag, attrs, parent) {
+    var node = document.createElementNS(NS, tag);
+    if (attrs) {
+      Object.keys(attrs).forEach(function (k) {
+        if (attrs[k] !== null && attrs[k] !== undefined) {
+          node.setAttribute(k, String(attrs[k]));
+        }
+      });
+    }
+    if (parent) parent.appendChild(node);
+    return node;
+  }
+
+  function text(parent, x, y, value, opts) {
+    opts = opts || {};
+    var t = el("text", {
+      x: x,
+      y: y,
+      fill: opts.fill || C.ink,
+      "font-family": opts.mono
+        ? 'IBM Plex Mono, ui-monospace, monospace'
+        : 'IBM Plex Sans, Helvetica Neue, sans-serif',
+      "font-size": opts.size || 12,
+      "font-weight": opts.weight || 400,
+      "text-anchor": opts.anchor || "start",
+      "dominant-baseline": opts.baseline || "alphabetic",
+      opacity: opts.opacity || null,
+      transform: opts.transform || null
+    }, parent);
+    t.textContent = value;
+    return t;
+  }
+
+  function clear(host) {
+    while (host.firstChild) host.removeChild(host.firstChild);
+  }
+
+  function svgRoot(host, w, h, title) {
+    clear(host);
+    var svg = el("svg", {
+      viewBox: "0 0 " + w + " " + h,
+      role: "img",
+      "aria-label": title || "Diagram"
+    }, host);
+    el("title", null, svg).textContent = title || "Diagram";
+    el("rect", { x: 0, y: 0, width: w, height: h, fill: C.sheet }, svg);
+    return svg;
+  }
+
+  function arrowHead(svg, id, color) {
+    var defs = svg.querySelector("defs") || el("defs", null, svg);
+    var m = el("marker", {
+      id: id,
+      viewBox: "0 0 10 10",
+      refX: 9,
+      refY: 5,
+      markerWidth: 7,
+      markerHeight: 7,
+      orient: "auto-start-reverse"
+    }, defs);
+    el("path", { d: "M 0 1.2 L 10 5 L 0 8.8 z", fill: color }, m);
+  }
+
+  function nodeCircle(svg, x, y, r, fill, label, sub) {
+    el("circle", {
+      cx: x, cy: y, r: r,
+      fill: fill,
+      stroke: C.ink,
+      "stroke-width": 0.8
+    }, svg);
+    if (label) {
+      text(svg, x, y + (sub ? -1 : 4), label, {
+        anchor: "middle", size: 11, weight: 600, fill: "#fbf8f1"
+      });
+    }
+    if (sub) {
+      text(svg, x, y + 12, sub, {
+        anchor: "middle", size: 9, fill: "#fbf8f1", opacity: 0.9
+      });
+    }
+  }
+
+  /* ——— Pipeline ——— */
+  function drawPipeline() {
+    var host = document.querySelector('[data-chart="pipeline"]');
+    if (!host) return;
+    var w = 980, h = 168;
+    var svg = svgRoot(host, w, h, "指標計算管線");
+    var steps = [
+      { t: "帶類型三元組", s: "主詞–關係–受詞" },
+      { t: "拒絕名單剪除", s: "剔除類型中樞" },
+      { t: "DiGraph G", s: "入 / 出 / PageRank" },
+      { t: "無向 U", s: "betweenness, C, k-core" },
+      { t: "Leiden", s: "社群標籤" },
+      { t: "指紋", s: "每節點向量" }
+    ];
+    var boxW = 132, boxH = 72, gap = 22;
+    var startX = 24;
+    var y = 48;
+    arrowHead(svg, "pipe-arr", C.mute);
+    steps.forEach(function (step, i) {
+      var x = startX + i * (boxW + gap);
+      el("rect", {
+        x: x, y: y, width: boxW, height: boxH,
+        fill: i === steps.length - 1 ? C.ink : C.paper,
+        stroke: C.rule, "stroke-width": 1
+      }, svg);
+      text(svg, x + 12, y + 30, step.t, {
+        size: 13, weight: 600,
+        fill: i === steps.length - 1 ? C.sheet : C.ink
+      });
+      text(svg, x + 12, y + 50, step.s, {
+        size: 11,
+        fill: i === steps.length - 1 ? C.rule : C.mute
+      });
+      if (i < steps.length - 1) {
+        el("line", {
+          x1: x + boxW, y1: y + boxH / 2,
+          x2: x + boxW + gap - 2, y2: y + boxH / 2,
+          stroke: C.mute, "stroke-width": 1.2,
+          "marker-end": "url(#pipe-arr)"
+        }, svg);
+      }
+    });
+    text(svg, 24, 28, "scripts/03_rebuild_from_triples.py  ·  enrich_graph_metrics()", {
+      size: 11, fill: C.mute, mono: true
+    });
+  }
+
+  /* ——— Spreader (Acid ceramidase) ——— */
+  function drawSpreader() {
+    var host = document.querySelector('[data-chart="spreader"]');
+    if (!host) return;
+    var w = 520, h = 340;
+    var svg = svgRoot(host, w, h, "Acid ceramidase 作為出度擴散者");
+    arrowHead(svg, "spr-arr", C.mute);
+    var cx = 250, cy = 178;
+    var outs = [
+      "PUFA 脂質", "脂質過氧化", "Ferroptosis",
+      "膜重塑", "旁觀者細胞", "衰老細胞",
+      "ARN14794", "衰老溶解標的"
+    ];
+    var ins = ["SASP 細胞因子", "衰老", "文件來源"];
+    outs.forEach(function (lab, i) {
+      var a = (-50 + i * 22) * Math.PI / 180;
+      var x = cx + Math.cos(a) * 175;
+      var y = cy + Math.sin(a) * 118;
+      el("line", {
+        x1: cx + 28, y1: cy, x2: x - 8, y2: y,
+        stroke: C.acid, "stroke-width": 1.15,
+        "marker-end": "url(#spr-arr)", opacity: 0.85
+      }, svg);
+      text(svg, x, y + 4, lab, { size: 11, fill: C.ink, anchor: a > 0.4 ? "start" : "start" });
+    });
+    ins.forEach(function (lab, i) {
+      var y = 70 + i * 36;
+      el("line", {
+        x1: 118, y1: y, x2: cx - 42, y2: cy - 10 + i * 8,
+        stroke: C.slateSoft, "stroke-width": 1.1,
+        "marker-end": "url(#spr-arr)", opacity: 0.8
+      }, svg);
+      text(svg, 16, y + 4, lab, { size: 11, fill: C.mute });
+    });
+    nodeCircle(svg, cx, cy, 40, C.acid, "AC", "出 17");
+    text(svg, 16, 28, "in-degree 3", { size: 11, fill: C.slate, weight: 600 });
+    text(svg, 16, 44, "上游驅動者", { size: 11, fill: C.mute });
+    text(svg, 360, 28, "out-degree 17", { size: 11, fill: C.acid, weight: 600 });
+    text(svg, 360, 44, "下游擴散", { size: 11, fill: C.mute });
+  }
+
+  /* ——— SASP nexus ——— */
+  function drawNexus() {
+    var host = document.querySelector('[data-chart="nexus"]');
+    if (!host) return;
+    var w = 520, h = 340;
+    var svg = svgRoot(host, w, h, "SASP 作為中介中心性樞紐");
+    arrowHead(svg, "nx-arr", C.mute);
+    var cx = 260, cy = 175;
+    var left = [
+      { l: "粒線體", y: 70 },
+      { l: "表觀遺傳", y: 130 },
+      { l: "DNA 損傷", y: 190 },
+      { l: "衰老細胞", y: 250 }
+    ];
+    var right = [
+      { l: "IL-6 / IL-8", y: 70 },
+      { l: "發炎", y: 130 },
+      { l: "Acid ceramidase", y: 190 },
+      { l: "旁分泌擴散", y: 250 }
+    ];
+    left.forEach(function (n) {
+      el("line", {
+        x1: 150, y1: n.y, x2: cx - 48, y2: cy,
+        stroke: C.sasp, "stroke-width": 1.2, opacity: 0.75,
+        "marker-end": "url(#nx-arr)"
+      }, svg);
+      el("circle", { cx: 132, cy: n.y, r: 5.5, fill: C.sasp }, svg);
+      text(svg, 16, n.y + 4, n.l, { size: 12, fill: C.ink });
+    });
+    right.forEach(function (n) {
+      el("line", {
+        x1: cx + 48, y1: cy, x2: 360, y2: n.y,
+        stroke: C.oxblood || C.acid, "stroke-width": 1.2, opacity: 0.7,
+        "marker-end": "url(#nx-arr)"
+      }, svg);
+      el("circle", { cx: 378, cy: n.y, r: 5.5, fill: C.acid }, svg);
+      text(svg, 392, n.y + 4, n.l, { size: 12, fill: C.ink });
+    });
+    /* crossing dashed shortest-path hint */
+    el("path", {
+      d: "M 132 70 C 200 90, 220 150, 260 175 C 300 200, 330 240, 378 250",
+      fill: "none",
+      stroke: C.gold,
+      "stroke-width": 1.4,
+      "stroke-dasharray": "4 3",
+      opacity: 0.9
+    }, svg);
+    nodeCircle(svg, cx, cy, 44, C.sasp, "SASP", "btw 0.060");
+    text(svg, 16, 28, "in-degree 56  ·  觸發因子匯點", { size: 11, fill: C.mute });
+    text(svg, 16, 320, "虛線：一條必須經過此樞紐的最短路徑。", { size: 11, fill: C.mute });
+  }
+
+  /* ——— PageRank attractor ——— */
+  function drawPageRank() {
+    var host = document.querySelector('[data-chart="pagerank"]');
+    if (!host) return;
+    var w = 520, h = 300;
+    var svg = svgRoot(host, w, h, "PageRank 作為重要性加權背書");
+    arrowHead(svg, "pr-arr", C.mute);
+    var cx = 360, cy = 158;
+    var donors = [
+      { l: "SASP", pr: "0.0074", x: 120, y: 70, c: C.sasp },
+      { l: "Senescent cells", pr: "core", x: 90, y: 150, c: C.aging },
+      { l: "Inflammation", pr: "hub", x: 130, y: 230, c: C.gold }
+    ];
+    donors.forEach(function (d) {
+      el("line", {
+        x1: d.x + 70, y1: d.y, x2: cx - 50, y2: cy,
+        stroke: d.c, "stroke-width": 2.2, opacity: 0.8,
+        "marker-end": "url(#pr-arr)"
+      }, svg);
+      el("circle", { cx: d.x, cy: d.y, r: 22, fill: d.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, d.x, d.y + 4, d.l.split(" ")[0], {
+        anchor: "middle", size: 10, weight: 600, fill: C.sheet
+      });
+    });
+    nodeCircle(svg, cx, cy, 48, C.aging, "Aging", "PR 0.0076");
+    text(svg, 16, 28, "高分 PageRank 鄰居投票更強", { size: 12, fill: C.mute });
+    text(svg, 16, 280, "Acid ceramidase PR = 0.00078 — 源頭不會被入鏈背書。", {
+      size: 11, fill: C.mute
+    });
+  }
+
+  /* ——— Clique vs bridge ——— */
+  function drawCliqueVsBridge() {
+    var host = document.querySelector('[data-chart="clustering"]');
+    if (!host) return;
+    var w = 980, h = 300;
+    var svg = svgRoot(host, w, h, "聚類係數：模組成員對比橋樑");
+    function triangle(ox) {
+      var pts = [
+        { x: ox + 110, y: 80, l: "GPX4" },
+        { x: ox + 50, y: 200, l: "GSH" },
+        { x: ox + 170, y: 200, l: "Lipid-OOH" }
+      ];
+      el("polygon", {
+        points: pts.map(function (p) { return p.x + "," + p.y; }).join(" "),
+        fill: "rgba(154,116,48,0.16)",
+        stroke: C.gold,
+        "stroke-width": 1.6
+      }, svg);
+      pts.forEach(function (p) {
+        el("circle", { cx: p.x, cy: p.y, r: 16, fill: C.gold, stroke: C.ink, "stroke-width": 0.8 }, svg);
+        text(svg, p.x, p.y + 4, p.l, { anchor: "middle", size: 10, weight: 600, fill: C.sheet });
+      });
+    }
+    triangle(40);
+    text(svg, 150, 36, "模組成員  ·  C = 1.0", { size: 13, weight: 600, anchor: "middle" });
+    text(svg, 150, 270, "每個鄰居都與其他每個相連。", {
+      size: 11, fill: C.mute, anchor: "middle"
+    });
+
+    /* bridge */
+    var bx = 700, by = 150;
+    var leftCluster = [
+      { x: 520, y: 80 }, { x: 560, y: 130 }, { x: 515, y: 190 }
+    ];
+    var rightCluster = [
+      { x: 880, y: 80 }, { x: 920, y: 140 }, { x: 870, y: 210 }
+    ];
+    function cliqueSmall(pts, color) {
+      pts.forEach(function (a, i) {
+        pts.forEach(function (b, j) {
+          if (j <= i) return;
+          el("line", {
+            x1: a.x, y1: a.y, x2: b.x, y2: b.y,
+            stroke: color, "stroke-width": 1.1, opacity: 0.7
+          }, svg);
+        });
+        el("circle", { cx: a.x, cy: a.y, r: 8, fill: color }, svg);
+      });
+    }
+    cliqueSmall(leftCluster, C.sasp);
+    cliqueSmall(rightCluster, C.aging);
+    leftCluster.forEach(function (p) {
+      el("line", {
+        x1: p.x, y1: p.y, x2: bx - 22, y2: by,
+        stroke: C.acid, "stroke-width": 1.15, opacity: 0.8
+      }, svg);
+    });
+    rightCluster.forEach(function (p) {
+      el("line", {
+        x1: bx + 22, y1: by, x2: p.x, y2: p.y,
+        stroke: C.acid, "stroke-width": 1.15, opacity: 0.8
+      }, svg);
+    });
+    el("circle", { cx: bx, cy: by, r: 22, fill: C.acid, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, bx, by + 4, "AC", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
+    text(svg, 720, 36, "橋樑 / 連接者  ·  C ≈ 0.04", { size: 13, weight: 600, anchor: "middle" });
+    text(svg, 720, 270, "鄰居之間彼此並無連結。", {
+      size: 11, fill: C.mute, anchor: "middle"
+    });
+  }
+
+  /* ——— k-core onion ——— */
+  function drawOnion() {
+    var host = document.querySelector('[data-chart="onion"]');
+    if (!host) return;
+    var w = 980, h = 420;
+    var svg = svgRoot(host, w, h, "衰老骨幹的 k-core 洋蔥");
+    var cx = 340, cy = 215;
+    var rings = [
+      { k: 1, r: 180, c: "rgba(138,129,116,0.18)" },
+      { k: 2, r: 148, c: "rgba(154,116,48,0.16)" },
+      { k: 4, r: 108, c: "rgba(122,49,44,0.14)" },
+      { k: 6, r: 62, c: "rgba(52,84,67,0.28)" }
+    ];
+    rings.forEach(function (ring) {
+      el("circle", {
+        cx: cx, cy: cy, r: ring.r,
+        fill: ring.c, stroke: C.rule, "stroke-width": 1
+      }, svg);
+    });
+    function place(x, y, color, label) {
+      el("circle", { cx: x, cy: y, r: 7, fill: color, stroke: C.ink, "stroke-width": 0.7 }, svg);
+      text(svg, x + 10, y + 4, label, { size: 12, fill: C.ink });
+    }
+    place(cx - 18, cy - 8, C.aging, "Aging");
+    place(cx + 14, cy + 16, C.sasp, "SASP");
+    place(cx - 6, cy + 28, C.forest || C.aging, "Senescent cells");
+    place(cx + 70, cy - 40, C.acid, "Acid ceramidase (k=4)");
+    place(cx - 90, cy + 90, C.gpx4, "GPX4 (k=2)");
+    place(cx + 110, cy + 130, C.periphery, "Acetate");
+    place(cx - 150, cy - 120, C.periphery, "Alagebrium");
+    place(cx + 150, cy - 110, C.periphery, "2-Chlorophenothiazine");
+
+    text(svg, 560, 48, "嵌套殼層", { size: 14, weight: 600 });
+    var legend = [
+      { k: "k = 6", d: "具韌性的內層核心。相互強化的衰老 / 老化機制。", c: C.aging },
+      { k: "k = 4", d: "近核心控制點。Acid ceramidase 以此作為擴散者。", c: C.acid },
+      { k: "k = 2", d: "局部模組（氧化還原三角）。凝聚但非全局必需。", c: C.gpx4 },
+      { k: "k = 1", d: "周邊 / 葉節點。有用的脈絡，極少是首輪標的。", c: C.periphery }
+    ];
+    legend.forEach(function (row, i) {
+      var y = 80 + i * 72;
+      el("rect", { x: 560, y: y, width: 8, height: 48, fill: row.c }, svg);
+      text(svg, 580, y + 16, row.k, { size: 13, weight: 600, mono: true });
+      wrapText(svg, 580, y + 34, row.d, 360, 12);
+    });
+  }
+
+  function wrapText(svg, x, y, value, maxW, size) {
+    var words = value.split(" ");
+    var line = "";
+    var dy = 0;
+    var approx = size * 0.58;
+    words.forEach(function (w) {
+      var test = line ? line + " " + w : w;
+      if (test.length * approx > maxW) {
+        text(svg, x, y + dy, line, { size: size, fill: C.mute });
+        line = w;
+        dy += size + 4;
+      } else {
+        line = test;
+      }
+    });
+    if (line) text(svg, x, y + dy, line, { size: size, fill: C.mute });
+  }
+
+  /* ——— Degree composition ——— */
+  function drawComposition() {
+    var host = document.querySelector('[data-chart="composition"]');
+    if (!host) return;
+    var w = 980, h = 280;
+    var svg = svgRoot(host, w, h, "入度對比出度組成");
+    var rows = [NODES.acid, NODES.sasp, NODES.aging];
+    var max = 101;
+    var left = 210, top = 48, barH = 36, gap = 52, usable = 620;
+    text(svg, left, 28, "入度", { size: 11, fill: C.sasp, weight: 600 });
+    text(svg, left + 90, 28, "出度", { size: 11, fill: C.acid, weight: 600 });
+    rows.forEach(function (n, i) {
+      var y = top + i * gap;
+      text(svg, 16, y + 24, n.label, { size: 13, weight: 600 });
+      var inW = (n.in / max) * usable;
+      var outW = (n.out / max) * usable;
+      el("rect", { x: left, y: y, width: inW, height: barH, fill: C.sasp }, svg);
+      el("rect", { x: left + inW, y: y, width: outW, height: barH, fill: C.acid }, svg);
+      text(svg, left + 8, y + 23, String(n.in), { size: 12, fill: C.sheet, weight: 600 });
+      text(svg, left + inW + outW + 10, y + 23, String(n.out) + "  (" + Math.round(100 * n.out / n.degree) + "% out)", {
+        size: 12, fill: C.ink
+      });
+    });
+    wrapText(svg, 16, 248, "SASP 平衡。Aging 是匯點。Acid ceramidase 是源頭——擴散型控制點的網絡特徵。", 940, 12);
+  }
+
+  /* ——— Fingerprint grouped bars ——— */
+  var FINGERPRINT_METRICS = ["degree", "pagerank", "betweenness", "kCore"];
+  var FINGERPRINT_LABELS = {
+    degree: "度數",
+    pagerank: "PageRank ×10³",
+    betweenness: "中介中心性 ×10³",
+    kCore: "k-core"
+  };
+
+  function rawForChart(node, metric) {
+    if (metric === "pagerank") return node.pagerank * 1000;
+    if (metric === "betweenness") return node.betweenness * 1000;
+    return node[metric];
+  }
+
+  function drawFingerprint(active) {
+    var host = document.querySelector('[data-chart="fingerprint"]');
+    if (!host) return;
+    active = active || FINGERPRINT_METRICS.slice();
+    var w = 980, h = 360;
+    var svg = svgRoot(host, w, h, "比較性指標指紋");
+    var series = [NODES.acid, NODES.sasp, NODES.aging];
+    var metrics = FINGERPRINT_METRICS.filter(function (m) { return active.indexOf(m) !== -1; });
+    if (!metrics.length) metrics = FINGERPRINT_METRICS.slice();
+
+    var maxima = {};
+    metrics.forEach(function (m) {
+      maxima[m] = Math.max.apply(null, series.map(function (n) { return rawForChart(n, m); })) || 1;
+    });
+
+    var left = 70, top = 36, bottom = 80, right = 36;
+    var plotW = w - left - right;
+    var plotH = h - top - bottom;
+    var groupW = plotW / metrics.length;
+    var barW = Math.min(28, (groupW - 24) / series.length);
+
+    el("line", {
+      x1: left, y1: top, x2: left, y2: top + plotH,
+      stroke: C.rule, "stroke-width": 1
+    }, svg);
+    el("line", {
+      x1: left, y1: top + plotH, x2: w - right, y2: top + plotH,
+      stroke: C.rule, "stroke-width": 1
+    }, svg);
+
+    [0.25, 0.5, 0.75, 1].forEach(function (f) {
+      var y = top + plotH * (1 - f);
+      el("line", {
+        x1: left, y1: y, x2: w - right, y2: y,
+        stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "3 4", opacity: 0.7
+      }, svg);
+      text(svg, left - 8, y + 4, String(Math.round(f * 100)) + "%", {
+        size: 10, fill: C.faint, anchor: "end"
+      });
+    });
+
+    metrics.forEach(function (m, gi) {
+      var gx = left + gi * groupW;
+      text(svg, gx + groupW / 2, h - 48, FINGERPRINT_LABELS[m], {
+        size: 12, fill: C.ink, anchor: "middle"
+      });
+      series.forEach(function (n, si) {
+        var val = rawForChart(n, m);
+        var hBar = (val / maxima[m]) * (plotH - 8);
+        var x = gx + 18 + si * (barW + 6);
+        var y = top + plotH - hBar;
+        var rect = el("rect", {
+          x: x, y: y, width: barW, height: hBar,
+          fill: n.color
+        }, svg);
+        rect.setAttribute("data-tip", n.label + " · " + FINGERPRINT_LABELS[m] + " = " + formatRaw(m, n));
+        text(svg, x + barW / 2, y - 6, formatShort(m, n), {
+          size: 10, fill: C.mute, anchor: "middle", mono: true
+        });
+      });
+    });
+
+    series.forEach(function (n, i) {
+      el("rect", { x: left + i * 150, y: h - 28, width: 10, height: 10, fill: n.color }, svg);
+      text(svg, left + 16 + i * 150, h - 19, n.label, { size: 12, fill: C.ink });
+    });
+  }
+
+  function formatRaw(metric, node) {
+    if (metric === "pagerank") return node.pagerank.toFixed(5);
+    if (metric === "betweenness") return node.betweenness.toFixed(4);
+    return String(node[metric]);
+  }
+
+  function formatShort(metric, node) {
+    if (metric === "pagerank") return (node.pagerank * 1000).toFixed(2);
+    if (metric === "betweenness") return (node.betweenness * 1000).toFixed(1);
+    return String(node[metric]);
+  }
+
+  /* ——— Role hits ——— */
+  function drawRoles() {
+    document.querySelectorAll("[data-role-hits]").forEach(function (elHits) {
+      var role = elHits.getAttribute("data-role-hits");
+      var hits = [];
+      if (role === "master") hits = ["沒有實作成例完全符合。Aging 具 PageRank；Acid ceramidase 具出度。真正的「主控調節者」應兩者兼具。"];
+      if (role === "bottleneck") hits = ["SASP (betweenness 0.060)", "Aging (0.046)"];
+      if (role === "module") hits = ["GPX4 (C = 1.0)", "Inducible NOS (C = 1.0)", "Cataract (C = 1.0)"];
+      if (role === "core") hits = ["Aging", "SASP", "Senescent cells"];
+      if (role === "periphery") hits = ["2-Chlorophenothiazine", "Acetate", "Alagebrium"];
+      if (role === "spreader") hits = ["Acid ceramidase (out 17 / in 3)"];
+      elHits.textContent = hits.join("  ·  ");
+    });
+  }
+
+  /* ——— Nav scroll spy ——— */
+  function initNav() {
+    var ids = Array.prototype.map.call(
+      document.querySelectorAll("main section[id]"),
+      function (s) { return s.id; }
+    );
+    var links = Array.prototype.slice.call(document.querySelectorAll(".nav-links a, .toc a"));
+
+    function setActive(id) {
+      links.forEach(function (a) {
+        var href = a.getAttribute("href") || "";
+        a.classList.toggle("is-active", href === "#" + id);
+      });
+    }
+
+    if ("IntersectionObserver" in window) {
+      var vis = {};
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          vis[e.target.id] = e.isIntersecting ? e.intersectionRatio : 0;
+        });
+        var best = ids.reduce(function (a, b) {
+          return (vis[b] || 0) > (vis[a] || 0) ? b : a;
+        }, ids[0]);
+        if (best) setActive(best);
+      }, { rootMargin: "-20% 0px -60% 0px", threshold: [0, 0.25, 0.5, 1] });
+      ids.forEach(function (id) {
+        var s = document.getElementById(id);
+        if (s) io.observe(s);
+      });
+    }
+  }
+
+  function initMetricCards() {
+    document.querySelectorAll(".metric").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var open = btn.classList.contains("is-open");
+        document.querySelectorAll(".metric").forEach(function (b) {
+          b.classList.remove("is-open");
+          b.setAttribute("aria-expanded", "false");
+        });
+        if (!open) {
+          btn.classList.add("is-open");
+          btn.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+  }
+
+  function initFingerprintToggles() {
+    var tools = document.querySelector("[data-fp-tools]");
+    if (!tools) return;
+    var active = FINGERPRINT_METRICS.slice();
+    tools.addEventListener("click", function (e) {
+      var btn = e.target.closest("button[data-metric]");
+      if (!btn) return;
+      var m = btn.getAttribute("data-metric");
+      var i = active.indexOf(m);
+      if (i >= 0) {
+        if (active.length === 1) return;
+        active.splice(i, 1);
+        btn.classList.remove("is-on");
+      } else {
+        active.push(m);
+        btn.classList.add("is-on");
+      }
+      drawFingerprint(active);
+    });
+  }
+
+  function initTooltip() {
+    var tip = document.createElement("div");
+    tip.className = "tooltip";
+    tip.setAttribute("role", "tooltip");
+    document.body.appendChild(tip);
+    document.addEventListener("pointerover", function (e) {
+      var t = e.target.closest("[data-tip]");
+      if (!t) return;
+      tip.textContent = t.getAttribute("data-tip");
+      tip.classList.add("is-on");
+    });
+    document.addEventListener("pointermove", function (e) {
+      if (!tip.classList.contains("is-on")) return;
+      tip.style.left = e.clientX + "px";
+      tip.style.top = e.clientY - 12 + "px";
+    });
+    document.addEventListener("pointerout", function (e) {
+      if (e.target.closest("[data-tip]")) tip.classList.remove("is-on");
+    });
+  }
+
+  /* ——— Diagram lightbox (click any chart for full size) ——— */
+  function initLightbox() {
+    var lb = document.createElement("div");
+    lb.className = "lb";
+    lb.setAttribute("role", "dialog");
+    lb.setAttribute("aria-modal", "true");
+    lb.innerHTML =
+      '<button class="lb-close" type="button" aria-label="Close full view">&times;</button>' +
+      '<div class="lb-stage"></div>' +
+      '<p class="lb-cap"></p>';
+    document.body.appendChild(lb);
+
+    var stage = lb.querySelector(".lb-stage");
+    var cap = lb.querySelector(".lb-cap");
+
+    function sizeClone(clone) {
+      var vb = clone.getAttribute("viewBox");
+      var W = 1000, H = 1000;
+      if (vb) {
+        var p = vb.trim().split(/[\s,]+/).map(Number);
+        if (p.length >= 4) { W = p[2]; H = p[3]; }
+      }
+      /* Account for .lb padding (24 px each side) so the SVG stays
+         inside .lb-stage without horizontal overflow. */
+      var maxW = Math.max(window.innerWidth - 48, 200);
+      var maxH = window.innerHeight * 0.78;
+      var w = maxW, h = w * (H / W);
+      if (h > maxH) { h = maxH; w = h * (W / H); }
+      clone.style.width = Math.round(w) + "px";
+      clone.style.height = Math.round(h) + "px";
+    }
+
+    function openDiagram(svg) {
+      var clone = svg.cloneNode(true);
+      clone.removeAttribute("id");
+      sizeClone(clone);
+      stage.innerHTML = "";
+      stage.appendChild(clone);
+      var label = svg.getAttribute("aria-label") || "";
+      cap.textContent = label;
+      cap.style.display = label ? "" : "none";
+      lb.classList.add("open");
+      document.body.classList.add("lb-open");
+      lb.querySelector(".lb-close").focus();
+    }
+
+    function closeDiagram() {
+      lb.classList.remove("open");
+      document.body.classList.remove("lb-open");
+      stage.innerHTML = "";
+    }
+
+    document.body.addEventListener("click", function (e) {
+      if (lb.classList.contains("open")) return;
+      var svg = e.target.closest(".fig-canvas svg");
+      if (svg) openDiagram(svg);
+    });
+
+    lb.addEventListener("click", function (e) {
+      if (e.target.classList.contains("lb-close") || e.target === lb || e.target === stage) {
+        closeDiagram();
+      }
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && lb.classList.contains("open")) closeDiagram();
+    });
+  }
+
+  /* ——— Nav scroll-hint: hide fade when scrolled to end ——— */
+  function initNavScrollHint() {
+    var navLinks = document.querySelector(".nav-links");
+    var siteNav = document.querySelector(".site-nav");
+    if (!navLinks || !siteNav) return;
+
+    function checkEnd() {
+      var atEnd = navLinks.scrollLeft + navLinks.clientWidth >= navLinks.scrollWidth - 4;
+      siteNav.classList.toggle("nav-end", atEnd);
+    }
+
+    navLinks.addEventListener("scroll", checkEnd, { passive: true });
+    checkEnd();
+
+    /* Also re-check on resize (viewport change may reveal/hide overflow). */
+    var resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(checkEnd, 150);
+    }, { passive: true });
+  }
+
+  function ready() {
+    drawPipeline();
+    drawSpreader();
+    drawNexus();
+    drawPageRank();
+    drawCliqueVsBridge();
+    drawOnion();
+    drawComposition();
+    drawFingerprint();
+    drawRoles();
+    initNav();
+    initMetricCards();
+    initFingerprintToggles();
+    initTooltip();
+    initLightbox();
+    initNavScrollHint();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", ready);
+  } else {
+    ready();
+  }
+})();
+</script>
+</body>
+</html>
