@@ -305,6 +305,7 @@ body {
 #at-node-detail .route-meta { color: #7C8698; }
 #at-node-detail .route-mechanism { color: #4B5563; }
 #at-node-detail .at-node-head-langs { background: #FFFFFF; border-color: #CCC5B2; }
+#at-node-detail .at-node-head-actions-row { border-top-color: #E2DCCE; }
 #at-node-detail .at-node-head-langs button { color: #7C8698; }
 #at-node-detail .at-node-head-langs button + button { border-left-color: #CCC5B2; }
 #at-node-detail .at-node-head-langs button:hover:not(.active) { color: #22304A; }

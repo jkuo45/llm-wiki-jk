@@ -217,10 +217,6 @@ function renderNodeInfo(nodeId, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
-      <div class="at-node-head-actions-row">
-        ${actionsHTML}
-        ${headLangToggle()}
-      </div>
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -235,6 +231,10 @@ function renderNodeInfo(nodeId, actions) {
       ${wikiDesc}
       <div class="field info-divider"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>
       ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+    </div>
+    <div class="at-node-head-actions-row">
+      ${actionsHTML}
+      ${headLangToggle()}
     </div>
   `;
 
@@ -391,10 +391,6 @@ function renderCommunityInfo(cid, actions) {
         <span class="at-node-title">${esc(displayName)} <span class="node-type" style="color:${esc(c.color)}">community</span></span>
         <button type="button" class="at-node-close" aria-label="Close">&times;</button>
       </div>
-      <div class="at-node-head-actions-row">
-        ${actionsHTML}
-        ${headLangToggle()}
-      </div>
     </div>
     <div class="at-node-scroll">
       <div class="at-node-metrics">
@@ -406,6 +402,10 @@ function renderCommunityInfo(cid, actions) {
       <div class="field node-source-row"><span class="info-muted">Source:</span> ${wikiLink}</div>
       ${description ? `<div class="field" style="margin-top:8px"><span class="info-muted">Context:</span><br><div class="wiki-context-text">${esc(description.slice(0, 2800))}${description.length > 2800 ? '…' : ''}</div></div>` : ''}
       ${memberLinks ? `<div class="field info-connections">Top members (${members.length})</div><div id="neighbors-list">${memberLinks}</div>` : ''}
+    </div>
+    <div class="at-node-head-actions-row">
+      ${actionsHTML}
+      ${headLangToggle()}
     </div>
   `;
 
