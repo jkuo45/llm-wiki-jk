@@ -5,6 +5,7 @@
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
   - Depending on task, they may or may not be included in context, counts.
+- Commit messages use the style `chore(<scope>): <short lowercase description>` — single line, lowercase after the colon (e.g. `chore: rename chat to prompt`, `chore(analysis): query selection and node info to analysis panel`). Scope is optional; keep the whole subject under ~72 chars.
 - `src/notes` directory:
   - Contains files for wiki, directories within represent topics.
   - Each markdown file within that topic can be counted as a single entity.
