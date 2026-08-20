@@ -55,7 +55,6 @@ function tagLabel(tag) {
 }
 
 loadTagLabels();
-renderSortButton();
 
 // ------------------------------------------------------------
 // DOM refs
@@ -70,6 +69,7 @@ const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const sortBtn = $('notes-sort');
+renderSortButton(); // init the sort icon/tooltip once the ref exists
 const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
 const fieldsEl = document.querySelector('.notes-combobox-field');
