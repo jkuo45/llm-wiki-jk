@@ -2,7 +2,7 @@
    Companion to three-graph.css (dark, default-ish). index.html includes this
    file as a second stylesheet (<link id="theme-light">) placed AFTER
    three-graph.css; components/theme.js toggles it via the `disabled`
-   attribute so the whole app — graph canvas chrome, sidebar, modals, chat,
+   attribute so the whole app — graph canvas chrome, sidebar, modals, prompt,
    notes, reader — follows the site-wide theme.
 
    Palette (shared with pages-light.css / the reader's light chrome):
@@ -109,7 +109,7 @@ body {
 #wiki-modal-close:hover { color: #22304A; }
 #wiki-modal-body { color: #4B5563; }
 #wiki-modal-body h1, #wiki-modal-body h2, #wiki-modal-body h3, #wiki-modal-body h4,
-.chat-msg.bot h1, .chat-msg.bot h2, .chat-msg.bot h3, .chat-msg.bot h4 { color: #22304A; }
+.prompt-msg.bot h1, .prompt-msg.bot h2, .prompt-msg.bot h3, .prompt-msg.bot h4 { color: #22304A; }
 #wiki-modal-body strong, #wiki-modal-body b { color: #22304A; }
 #wiki-modal-body em { color: #2563A8; }
 #wiki-modal-body code { background: #EFEBE1; }
@@ -166,14 +166,14 @@ body {
 #controls #btn-reset,
 #controls #btn-dataset,
 #controls #btn-save-png,
-#controls #btn-chat,
+#controls #btn-prompt,
 #controls #btn-notes { color: #7C8698; }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
-#controls #btn-chat:hover,
+#controls #btn-prompt:hover,
 #controls #btn-notes:hover { color: #22304A; border-color: #0F766E; }
-#controls #btn-chat.open, #controls #btn-chat.active,
+#controls #btn-prompt.open, #controls #btn-prompt.active,
 #controls #btn-notes.open { background: #ECE8DD; border-color: #0F766E; color: #22304A; }
 #controls #btn-save-png.ok { color: #1E7A4E; border-color: #1E7A4E; }
 #controls #btn-save-png.err { color: #C0392B; border-color: #C0392B; }
@@ -200,7 +200,7 @@ body {
   #sidebar { border-left-color: #E2DCCE; }
 }
 
-/* HTML-mode overlay (chat response as standalone page) */
+/* HTML-mode overlay (prompt response as standalone page) */
 #html-mode-overlay { background: #F6F3EC; }
 #html-mode-modal { background: #F6F3EC; }
 #html-mode-header { background: #FFFFFF; border-bottom-color: #E2DCCE; }
@@ -217,20 +217,20 @@ body {
 
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
    opaque so the graph never shows through, mirroring the reader. */
-#chat-panel { background: #FFFFFF; }
-#chat-box { background: #FFFFFF; }
-#chat-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
-#chat-header span { color: #4B5563; }
-#chat-header .chat-title { color: #22304A; }
-#chat-header .chat-title-zh { color: inherit; }
+#prompt-panel { background: #FFFFFF; }
+#prompt-box { background: #FFFFFF; }
+#prompt-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
+#prompt-header span { color: #4B5563; }
+#prompt-header .panel-title { color: #22304A; }
+#prompt-header .panel-title-zh { color: inherit; }
 /* Notes panel header title — mirrors the Reader's light-theme h2 color. */
-#notes-header .chat-title { color: #22304A; }
-#chat-mode-switch { border-color: #CCC5B2; }
-.chat-mode-tab { color: #7C8698; }
-.chat-mode-tab:hover { color: #22304A; }
-.chat-mode-tab.active { background: #0F766E; color: #fff; }
-.chat-activity-dot { border-color: #FFFFFF; }
-.chat-activity-dot.thinking { border-color: #FFFFFF; }
+#notes-header .panel-title { color: #22304A; }
+#prompt-mode-switch { border-color: #CCC5B2; }
+.prompt-mode-tab { color: #7C8698; }
+.prompt-mode-tab:hover { color: #22304A; }
+.prompt-mode-tab.active { background: #0F766E; color: #fff; }
+.prompt-activity-dot { border-color: #FFFFFF; }
+.prompt-activity-dot.thinking { border-color: #FFFFFF; }
 
 /* Explore widgets */
 .at-h { color: #7C8698; }
@@ -241,7 +241,7 @@ body {
 .at-card .k { color: #7C8698; }
 .at-reset { border-color: #CCC5B2; color: #7C8698; }
 .at-reset:hover { border-color: #0F766E; color: #22304A; }
-.at-row:hover, .at-comm:hover, .chat-suggestion:hover { background: #F1ECE0; }
+.at-row:hover, .at-comm:hover, .prompt-suggestion:hover { background: #F1ECE0; }
 .at-row .at-name, .at-comm .at-comm-name { color: #22304A; }
 .at-row .at-meta, .at-comm .at-comm-count { color: #7C8698; }
 .at-ab button { border-color: #CCC5B2; color: #7C8698; }
@@ -267,11 +267,11 @@ body {
 .at-compare-result td:first-child { color: #2563A8; }
 
 /* Analysis dashboard cards + per-node popover (light) */
-#chat-filter-bar .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
-#chat-filter-bar .lang-toggle button { color: #7C8698; }
-#chat-filter-bar .lang-toggle button + button { border-left-color: #CCC5B2; }
-#chat-filter-bar .lang-toggle button:hover:not(.active) { color: #22304A; }
-#chat-filter-bar .lang-toggle button.active { background: #0F766E; color: #fff; }
+#prompt-filter-bar .lang-toggle { background: #FFFFFF; border-color: #CCC5B2; }
+#prompt-filter-bar .lang-toggle button { color: #7C8698; }
+#prompt-filter-bar .lang-toggle button + button { border-left-color: #CCC5B2; }
+#prompt-filter-bar .lang-toggle button:hover:not(.active) { color: #22304A; }
+#prompt-filter-bar .lang-toggle button.active { background: #0F766E; color: #fff; }
 #analysis-tools .at-section { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 #at-node-detail { background: #FFFFFF; border-left-color: #CCC5B2; box-shadow: -16px 0 48px rgba(34, 48, 74, 0.18); }
 .at-node-title { color: #22304A; }
@@ -316,72 +316,72 @@ body {
 #settings-popover .display-grid button:hover { background: #ECE8DD; border-color: #0F766E; }
 #settings-popover .display-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
 
-/* Chat suggestions (Ask mode) */
-#chat-new { border-color: #CCC5B2; color: #7C8698; }
-#chat-new:hover { border-color: #0F766E; color: #22304A; }
-#chat-close { color: #7C8698; }
+/* Prompt suggestions (Ask mode) */
+#prompt-new { border-color: #CCC5B2; color: #7C8698; }
+#prompt-new:hover { border-color: #0F766E; color: #22304A; }
+#prompt-close { color: #7C8698; }
 
 /* Messages */
-.chat-copy-btn { color: #9AA4B3; }
-.chat-msg.bot:hover .chat-copy-btn { opacity: 0.8; }
-.chat-copy-btn:hover { color: #22304A; background: #ECE8DD; }
-.chat-copy-btn.copied { color: #1E7A4E; }
-.chat-msg.bot { background: #F6F3EC; color: #4B5563; border: 1px solid #E2DCCE; }
-.chat-msg.user { background: #0F766E; }
-.chat-badge.wiki { background: #E6F4F0; color: #0F766E; border-color: #BFE3DA; }
-.chat-badge.graphify { background: #EEEAFA; color: #6D5BD0; border-color: #D8D1F4; }
-.chat-analysis-btn { background: rgba(109, 91, 208, 0.1); color: #6D5BD0; border-color: #6D5BD0; }
-.chat-analysis-btn:hover { background: #6D5BD0; color: #fff; border-color: #6D5BD0; }
-.chat-elapsed { color: #9AA4B3; }
-.chat-thinking-summary { color: #7C8698; }
-.chat-thinking-body { background: rgba(34, 48, 74, 0.04); color: #7C8698; }
-.chat-thinking-trace { color: #7C8698; }
-.chat-msg.bot b, .chat-msg.bot strong { color: #22304A; }
-.chat-msg.bot em { color: #2563A8; }
-.chat-msg.bot code { background: #EFEBE1; }
-.chat-msg.bot blockquote { border-left-color: #0F766E; background: rgba(15, 118, 110, 0.05); color: #4B5563; }
-.chat-msg.bot hr { border-top-color: #E2DCCE; }
-.chat-msg.bot a { color: #2563A8; }
-.chat-msg.bot a:hover { color: #0F766E; }
-.chat-msg.bot th, .chat-msg.bot td { border-color: #E2DCCE; }
-.chat-msg.bot th { background: #ECE8DD; color: #4B5563; }
-.chat-msg.bot pre { background: #EFEBE1; }
-.chat-msg.bot details.md-code { border-color: #E2DCCE; background: #FFFFFF; }
-.chat-msg.bot details.md-code > summary { color: #7C8698; }
-.chat-msg.bot details.md-code > summary:hover { color: #2563A8; }
-.chat-msg.bot details.md-code > pre { border-top-color: #E2DCCE; }
-.chat-page-btn { background: #F6F3EC; border-color: #CCC5B2; color: #2563A8; }
-.chat-page-btn:hover { border-color: #0F766E; color: #0F766E; }
+.prompt-copy-btn { color: #9AA4B3; }
+.prompt-msg.bot:hover .prompt-copy-btn { opacity: 0.8; }
+.prompt-copy-btn:hover { color: #22304A; background: #ECE8DD; }
+.prompt-copy-btn.copied { color: #1E7A4E; }
+.prompt-msg.bot { background: #F6F3EC; color: #4B5563; border: 1px solid #E2DCCE; }
+.prompt-msg.user { background: #0F766E; }
+.prompt-badge.wiki { background: #E6F4F0; color: #0F766E; border-color: #BFE3DA; }
+.prompt-badge.graphify { background: #EEEAFA; color: #6D5BD0; border-color: #D8D1F4; }
+.prompt-analysis-btn { background: rgba(109, 91, 208, 0.1); color: #6D5BD0; border-color: #6D5BD0; }
+.prompt-analysis-btn:hover { background: #6D5BD0; color: #fff; border-color: #6D5BD0; }
+.prompt-elapsed { color: #9AA4B3; }
+.prompt-thinking-summary { color: #7C8698; }
+.prompt-thinking-body { background: rgba(34, 48, 74, 0.04); color: #7C8698; }
+.prompt-thinking-trace { color: #7C8698; }
+.prompt-msg.bot b, .prompt-msg.bot strong { color: #22304A; }
+.prompt-msg.bot em { color: #2563A8; }
+.prompt-msg.bot code { background: #EFEBE1; }
+.prompt-msg.bot blockquote { border-left-color: #0F766E; background: rgba(15, 118, 110, 0.05); color: #4B5563; }
+.prompt-msg.bot hr { border-top-color: #E2DCCE; }
+.prompt-msg.bot a { color: #2563A8; }
+.prompt-msg.bot a:hover { color: #0F766E; }
+.prompt-msg.bot th, .prompt-msg.bot td { border-color: #E2DCCE; }
+.prompt-msg.bot th { background: #ECE8DD; color: #4B5563; }
+.prompt-msg.bot pre { background: #EFEBE1; }
+.prompt-msg.bot details.md-code { border-color: #E2DCCE; background: #FFFFFF; }
+.prompt-msg.bot details.md-code > summary { color: #7C8698; }
+.prompt-msg.bot details.md-code > summary:hover { color: #2563A8; }
+.prompt-msg.bot details.md-code > pre { border-top-color: #E2DCCE; }
+.prompt-page-btn { background: #F6F3EC; border-color: #CCC5B2; color: #2563A8; }
+.prompt-page-btn:hover { border-color: #0F766E; color: #0F766E; }
 
 /* Inline HTML bubbles */
-.chat-html-inline { background: #FFFFFF; border-color: #E2DCCE; color: #22304A; }
-.chat-html-inline h1, .chat-html-inline h2, .chat-html-inline h3, .chat-html-inline h4 { color: #22304A; }
-.chat-html-inline a { color: #2563A8; border-bottom-color: rgba(15, 118, 110, 0.4); }
-.chat-html-inline a:hover { color: #0F766E; }
-.chat-html-inline svg text { fill: #22304A; }
-.chat-html-inline code { background: #EFEBE1; }
-.chat-html-inline th, .chat-html-inline td { border-color: #E2DCCE; }
-.chat-html-inline th { background: #ECE8DD; color: #4B5563; }
-.chat-html-inline details.md-code { border-color: #E2DCCE; background: #FFFFFF; }
-.chat-html-inline details.md-code > summary { color: #7C8698; }
-.chat-html-inline details.md-code > summary:hover { color: #2563A8; }
-.chat-html-inline blockquote { border-left-color: #0F766E; background: rgba(15, 118, 110, 0.05); color: #4B5563; }
-.chat-msg.error { background: #FBEAE8; color: #C0392B; border: 1px solid #E8B4AE; }
-.chat-msg.typing { color: #7C8698; }
+.prompt-html-inline { background: #FFFFFF; border-color: #E2DCCE; color: #22304A; }
+.prompt-html-inline h1, .prompt-html-inline h2, .prompt-html-inline h3, .prompt-html-inline h4 { color: #22304A; }
+.prompt-html-inline a { color: #2563A8; border-bottom-color: rgba(15, 118, 110, 0.4); }
+.prompt-html-inline a:hover { color: #0F766E; }
+.prompt-html-inline svg text { fill: #22304A; }
+.prompt-html-inline code { background: #EFEBE1; }
+.prompt-html-inline th, .prompt-html-inline td { border-color: #E2DCCE; }
+.prompt-html-inline th { background: #ECE8DD; color: #4B5563; }
+.prompt-html-inline details.md-code { border-color: #E2DCCE; background: #FFFFFF; }
+.prompt-html-inline details.md-code > summary { color: #7C8698; }
+.prompt-html-inline details.md-code > summary:hover { color: #2563A8; }
+.prompt-html-inline blockquote { border-left-color: #0F766E; background: rgba(15, 118, 110, 0.05); color: #4B5563; }
+.prompt-msg.error { background: #FBEAE8; color: #C0392B; border: 1px solid #E8B4AE; }
+.prompt-msg.typing { color: #7C8698; }
 
 /* Suggest chips + node links */
-.chat-suggestion { border-bottom-color: #E2DCCE; color: #4B5563; }
-.chat-suggestion::before { color: #2563A8; }
-.chat-suggestion:hover { color: #22304A; }
-.chat-suggestion-more { color: #2563A8; }
-.chat-suggestion-more:hover { background: rgba(15, 118, 110, 0.08); color: #0F766E; }
+.prompt-suggestion { border-bottom-color: #E2DCCE; color: #4B5563; }
+.prompt-suggestion::before { color: #2563A8; }
+.prompt-suggestion:hover { color: #22304A; }
+.prompt-suggestion-more { color: #2563A8; }
+.prompt-suggestion-more:hover { background: rgba(15, 118, 110, 0.08); color: #0F766E; }
 
-/* Themed utilities for JS-generated inline content (sidebars, tooltips, chat) */
-.chat-entity-link { color: #2563A8; }
+/* Themed utilities for JS-generated inline content (sidebars, tooltips, prompt) */
+.prompt-entity-link { color: #2563A8; }
 .wiki-tooltip-hint { color: #7C8698; }
 .typing-elapsed { color: #7C8698; }
-.chat-trace-toggle { color: #7C8698; }
-.chat-trace-content { background: rgba(34, 48, 74, 0.04); color: #7C8698; }
+.prompt-trace-toggle { color: #7C8698; }
+.prompt-trace-content { background: rgba(34, 48, 74, 0.04); color: #7C8698; }
 .zh-mini { color: #7C8698; }
 .at-note { color: #7C8698; }
 .legend-zh { color: #7C8698; }
@@ -390,39 +390,39 @@ body {
 .route-mechanism { color: #4B5563; }
 
 /* Modes bar: graphify toggle + response-mode buttons */
-#chat-modes { border-top-color: #E2DCCE; }
+#prompt-modes { border-top-color: #E2DCCE; }
 #graphify-toggle { color: #6D5BD0; }
 #graphify-toggle input { accent-color: #6D5BD0; }
 #graphify-off-hint { color: #0F766E; }
-#chat-modes.graphify-off #graphify-toggle { color: #9AA4B3; }
-.chat-mode-divider { background: #E2DCCE; }
+#prompt-modes.graphify-off #graphify-toggle { color: #9AA4B3; }
+.prompt-mode-divider { background: #E2DCCE; }
 #response-mode { color: #7C8698; }
 .resp-mode-btn { background: #F6F3EC; border-color: #CCC5B2; color: #7C8698; }
 .resp-mode-btn:hover { border-color: #0F766E; color: #22304A; }
 .resp-mode-btn.active { background: #0F766E; border-color: #0F766E; color: #fff; }
 
 /* Composer */
-#chat-input { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
-#chat-input:focus { border-color: #0F766E; }
-#chat-input::placeholder { color: #9AA4B3; }
-#chat-send { background: #0F766E; color: #fff; }
-#chat-send:hover { background: #0B5F59; }
-#chat-send:disabled { background: #ECE8DD; color: #9AA4B3; }
+#prompt-input { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
+#prompt-input:focus { border-color: #0F766E; }
+#prompt-input::placeholder { color: #9AA4B3; }
+#prompt-send { background: #0F766E; color: #fff; }
+#prompt-send:hover { background: #0B5F59; }
+#prompt-send:disabled { background: #ECE8DD; color: #9AA4B3; }
 
 /* @-tag chips + autocomplete popup */
-.chat-tag-chip { background: rgba(37, 99, 168, 0.1); border-color: #2563A8; color: #2563A8; }
-.chat-tag-chip:hover { background: rgba(37, 99, 168, 0.24); border-color: #2563A8; }
-.chat-tag-chip .tag-remove { color: #2563A8; }
-#chat-tag-popup { background: #FFFFFF; border-color: #2563A8; box-shadow: 0 -8px 32px rgba(34, 48, 74, 0.16), 0 8px 32px rgba(34, 48, 74, 0.16); }
-.chat-tag-item { border-bottom-color: #E2DCCE; color: #22304A; }
-.chat-tag-item:hover, .chat-tag-item.active { background: rgba(37, 99, 168, 0.12); }
-.chat-tag-item .tag-kind { color: #2563A8; }
-.chat-tag-item .tag-degree { color: #7C8698; }
+.prompt-tag-chip { background: rgba(37, 99, 168, 0.1); border-color: #2563A8; color: #2563A8; }
+.prompt-tag-chip:hover { background: rgba(37, 99, 168, 0.24); border-color: #2563A8; }
+.prompt-tag-chip .tag-remove { color: #2563A8; }
+#prompt-tag-popup { background: #FFFFFF; border-color: #2563A8; box-shadow: 0 -8px 32px rgba(34, 48, 74, 0.16), 0 8px 32px rgba(34, 48, 74, 0.16); }
+.prompt-tag-item { border-bottom-color: #E2DCCE; color: #22304A; }
+.prompt-tag-item:hover, .prompt-tag-item.active { background: rgba(37, 99, 168, 0.12); }
+.prompt-tag-item .tag-kind { color: #2563A8; }
+.prompt-tag-item .tag-degree { color: #7C8698; }
 
 /* Filter-nodes bar */
-#chat-filter-bar { border-bottom-color: #E2DCCE; background: #F6F3EC; }
-#chat-filter-toggle { color: #2563A8; border-color: #CCC5B2; }
-#chat-filter-toggle input { accent-color: #2563A8; }
+#prompt-filter-bar { border-bottom-color: #E2DCCE; background: #F6F3EC; }
+#prompt-filter-toggle { color: #2563A8; border-color: #CCC5B2; }
+#prompt-filter-toggle input { accent-color: #2563A8; }
 
 /* Notes panel */
 #notes-panel::before { background: rgba(24, 28, 38, 0.45); }

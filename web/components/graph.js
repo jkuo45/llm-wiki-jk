@@ -12,8 +12,8 @@ import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
-// Side-effect import: chat.js attaches its own listeners.
-import { applyAnalysisUiLang } from './chat.js';
+// Side-effect import: prompt.js attaches its own listeners.
+import { applyAnalysisUiLang } from './prompt.js';
 // Notes panel (gallery / upload / lightbox).
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
 // Side-effect import: theme.js wires the settings popover theme toggle.
@@ -160,8 +160,8 @@ async function restoreFromHash(params) {
   if (params && (params.note || params.notes)) {
     // Notes wins over analysis when both are in the hash. Close the analysis
     // panel FIRST — clicking its button while notes is open would close notes
-    // via the notes panel's btn-chat capture listener.
-    const analysisBtn = document.getElementById('btn-chat');
+    // via the notes panel's btn-prompt capture listener.
+    const analysisBtn = document.getElementById('btn-prompt');
     if (analysisBtn.classList.contains('open')) analysisBtn.click();
     // Await the (possibly async) notes restore so hash updates stay suppressed
     // through the gallery fetch + lightbox opening (openLightbox etc. push
@@ -203,11 +203,11 @@ async function restoreFromHash(params) {
   // A node/edge/trace deep link also opens the panel so the info card surfaces.
   const notesActive = !!(params.notes || params.note);
   const hasSelection = !!(params.node || params.edge || params.trace);
-  const analysisBtn = document.getElementById('btn-chat');
+  const analysisBtn = document.getElementById('btn-prompt');
   if ((params.analysis || hasSelection) && !notesActive) {
     if (!analysisBtn.classList.contains('open')) analysisBtn.click();
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
-    const tab = document.querySelector(`.chat-mode-tab[data-mode="${tabMode}"]`);
+    const tab = document.querySelector(`.prompt-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
     applyAnalysisUiLang(params.uilang);
   } else if (!notesActive && !hasSelection && analysisBtn.classList.contains('open')) {

@@ -74,7 +74,7 @@ export const descriptionMap = new Map();
   if (n.description) descriptionMap.set(n.id, n.description);
 });
 
-// Entity summaries keyed by node label (exact + lowercase) — used for chat
+// Entity summaries keyed by node label (exact + lowercase) — used for prompt
 // [[Entity]] tooltips/wiki links instead of the retired wiki-context.json.
 // Every graph.json node carries a description synthesized from triple
 // contexts, so coverage is complete.

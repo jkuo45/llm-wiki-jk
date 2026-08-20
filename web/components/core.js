@@ -1,6 +1,6 @@
 // Three.js scene construction + shared scene-level helpers.
 // Builds nodes/edges/labels once, provides physics, zoom, sticky rings,
-// label-visibility and highlight primitives used by interaction/ui/chat.
+// label-visibility and highlight primitives used by interaction/ui/prompt.
 
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';

@@ -1,11 +1,11 @@
 // Notes panel — gallery + lightbox with OCR transcripts and persistent
 // annotation overlays, deep links to the linked paper and graph entities.
-// Sibling of the analysis (#chat) panel.
+// Sibling of the analysis (#prompt) panel.
 
 import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
-import { openPromptComposer } from './chat.js';
+import { openPromptComposer } from './prompt.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -424,14 +424,14 @@ window.addEventListener('resize', syncNotesKeyboard);
 notesBtn.addEventListener('click', () => {
   if (notesPanel.classList.contains('open')) { closeNotes(); return; }
   // Only one overlay at a time: close the analysis panel if it is open.
-  const chatClose = $('chat-close');
-  const chatOpen = document.getElementById('chat-panel')?.classList.contains('open');
-  if (chatOpen && chatClose) chatClose.click();
+  const promptClose = $('prompt-close');
+  const promptOpen = document.getElementById('prompt-panel')?.classList.contains('open');
+  if (promptOpen && promptClose) promptClose.click();
   openNotes();
 });
 // Conversely, if the analysis panel opens while notes are up, close notes first.
 document.addEventListener('click', (e) => {
-  if (notesPanel.classList.contains('open') && e.target.closest('#btn-chat')) closeNotes();
+  if (notesPanel.classList.contains('open') && e.target.closest('#btn-prompt')) closeNotes();
 }, true);
 // The header close (×) doubles as the back-to-gallery control in the
 // single-image view. It always stays an × icon; only its help text reflects

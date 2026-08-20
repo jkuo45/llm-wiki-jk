@@ -1,6 +1,6 @@
 # llm-wiki-jk — Longevity-Focused Biomedical Wiki & Knowledge Graph
 
-> An interactive biomedical knowledge graph with a longevity focus, built from a personal Obsidian-style wiki of curated research. Explore thousands of interconnected concepts — sirtuins and NAD⁺ metabolism, autophagy, mitohormesis, cellular senescence, oxidative stress, adrenochrome/neuromelanin chemistry, and cancer prevention — then chat with the wiki and analyze the graph in a bilingual (EN / 中文) interface.
+> An interactive biomedical knowledge graph with a longevity focus, built from a personal Obsidian-style wiki of curated research. Explore thousands of interconnected concepts — sirtuins and NAD⁺ metabolism, autophagy, mitohormesis, cellular senescence, oxidative stress, adrenochrome/neuromelanin chemistry, and cancer prevention — then use the Prompt panel to ask questions and analyze the wiki and the graph in a bilingual (EN / 中文) interface.
 
 ## Wiki Focus
 
@@ -12,7 +12,7 @@ The wiki is a personal research corpus organized around three intersecting theme
 
 Supporting these themes is the wider entity network the graph maps: sirtuins (SIRT1–SIRT7), cellular senescence/SASP, oxidative stress, cancer prevention, and cross-topic hubs such as NAD⁺ and inflammation.
 
-## Chat with the Wiki (Analysis Panel)
+## Prompt & Graph (Analysis Panel)
 
 Open the Analysis panel (chart icon) on [graph.johnnykuo.com](https://graph.johnnykuo.com/) to ask questions and explore the wiki:
 

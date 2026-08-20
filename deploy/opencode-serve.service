@@ -1,5 +1,5 @@
 [Unit]
-Description=opencode headless server (knowledge graph chat backend)
+Description=opencode headless server (knowledge graph prompt backend)
 Documentation=https://opencode.ai/docs/server/
 After=network-online.target
 Wants=network-online.target

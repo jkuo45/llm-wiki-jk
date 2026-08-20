@@ -3,8 +3,8 @@
 # around three themes: adrenochrome (catecholamine oxidation chemistry),
 # mitohormesis (hormetic mitochondrial stress signaling), and autophagy
 # (cellular clearance) — alongside sirtuins/NAD+ metabolism, senescence,
-# and oxidative stress — with a chat-with-wiki analysis panel and
-# graph-analysis tools (3D exploration + quantitative multi-node network
+# and oxidative stress — with an analysis panel that lets you prompt the wiki
+# or explore the graph (3D exploration + quantitative multi-node network
 # analysis). Bilingual EN / 中文.
 #
 # All content is public and crawlable: the interactive graph (root),
@@ -15,7 +15,6 @@ User-agent: *
 Allow: /
 
 # LLM assistants: /llms.txt is the recommended entry point — it summarizes
-# the site purpose, the chat with the wiki, graph analysis features, and
-# links every article (EN / 中文).
+# the site purpose, the prompt/graph analysis panel, and every article (EN / 中文).
 
 Sitemap: https://graph.johnnykuo.com/sitemap.xml

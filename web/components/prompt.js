@@ -1,5 +1,5 @@
-// Chat interface: chat panel, suggestion chips, wiki entity tooltips, wiki modal,
-// and graph highlighting for chat turns.
+// Prompt interface: prompt panel, suggestion chips, wiki entity tooltips, wiki modal,
+// and graph highlighting for prompt turns.
 
 import * as THREE from 'three';
 
@@ -19,22 +19,22 @@ import { currentTheme } from './theme.js';
 // ------------------------------------------------------------
 // Elements + API endpoints
 // ------------------------------------------------------------
-const chatBtn = document.getElementById('btn-chat');
-const chatActivityDot = document.getElementById('chat-activity-dot');
-const chatPanel = document.getElementById('chat-panel');
-const chatMessages = document.getElementById('chat-messages');
-const chatInput = document.getElementById('chat-input');
-const chatSend = document.getElementById('chat-send');
-const chatCloseBtn = document.getElementById('chat-close');
-const chatLangBtns = Array.from(document.querySelectorAll('#chat-panel .lang-toggle [data-lang]'));
-const chatFilterToggle = document.getElementById('chat-filter-toggle');
-const chatFilterCheckbox = document.getElementById('chat-filter-nodes');
-const chatFilterCount = document.getElementById('chat-filter-count');
-const chatModes = document.getElementById('chat-modes');
+const promptBtn = document.getElementById('btn-prompt');
+const promptActivityDot = document.getElementById('prompt-activity-dot');
+const promptPanel = document.getElementById('prompt-panel');
+const promptMessages = document.getElementById('prompt-messages');
+const promptInput = document.getElementById('prompt-input');
+const promptSend = document.getElementById('prompt-send');
+const promptCloseBtn = document.getElementById('prompt-close');
+const promptLangBtns = Array.from(document.querySelectorAll('#prompt-panel .lang-toggle [data-lang]'));
+const promptFilterToggle = document.getElementById('prompt-filter-toggle');
+const promptFilterCheckbox = document.getElementById('prompt-filter-nodes');
+const promptFilterCount = document.getElementById('prompt-filter-count');
+const promptModes = document.getElementById('prompt-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
-const chatTagPopup = document.getElementById('chat-tag-popup');
-const chatTags = document.getElementById('chat-tags');
-const chatModeSwitch = document.getElementById('chat-mode-switch');
+const promptTagPopup = document.getElementById('prompt-tag-popup');
+const promptTags = document.getElementById('prompt-tags');
+const promptModeSwitch = document.getElementById('prompt-mode-switch');
 const analysisTools = document.getElementById('analysis-tools');
 const htmlModeOverlay = document.getElementById('html-mode-overlay');
 const htmlModeFrame = document.getElementById('html-mode-frame');
@@ -48,17 +48,17 @@ const INTENT_API = `${API_BASE}/intent`;
 const EXECUTE_STREAM_API = `${API_BASE}/execute/stream`;
 const SESSION_RESET_API = `${API_BASE}/session/reset`;
 
-let chatOpen = false;
-let chatBusy = false;
-let chatHighlightedNodes = [];
+let promptOpen = false;
+let promptBusy = false;
+let promptHighlightedNodes = [];
 // Tracks whether a conversation has started (the message array contents are no
 // longer kept client-side — conversational context now lives server-side, keyed
-// by chatSessionId). Used only to light the Prompt tab's activity dot.
-let chatActive = false;
+// by promptSessionId). Used only to light the Prompt tab's activity dot.
+let promptActive = false;
 // opencode session id, assigned by the server on the first turn. Sending it back
 // keeps follow-up questions in the same conversation without re-uploading the
 // whole transcript on every request.
-let chatSessionId = null;
+let promptSessionId = null;
 
 // ------------------------------------------------------------
 // UI language (EN / 中) — panel chrome strings for the whole analysis panel.
@@ -99,7 +99,7 @@ const UI_STRINGS = {
     serverError: 'Server error',
     streamError: 'Stream error. Please try again.',
     noResponse: 'No response received.',
-    couldNotReach: 'Could not reach the chat server.',
+    couldNotReach: 'Could not reach the prompt server.',
     copy: 'Copy to clipboard',
     copied: 'Copied',
     openHtmlPage: 'Open HTML page ↗',
@@ -293,7 +293,7 @@ function t(key) {
 // ------------------------------------------------------------
 // Checked (default): every turn is routed through a graphify graph operation
 // (explain / path / query / analyze). Unchecked: the turn is answered from the
-// wiki by the chat model, even if the text happens to say "graphify".
+// wiki by the prompt model, even if the text happens to say "graphify".
 // The switch resets to on with the rest of the session state on reload.
 function graphifyEnabled() {
   return !!(graphifyCheckbox && graphifyCheckbox.checked);
@@ -301,15 +301,15 @@ function graphifyEnabled() {
 
 function syncGraphifyUI() {
   const on = graphifyEnabled();
-  chatModes.classList.toggle('graphify-off', !on);
-  chatInput.placeholder = on
+  promptModes.classList.toggle('graphify-off', !on);
+  promptInput.placeholder = on
     ? t('inputPlaceholderGraphOn')
     : t('inputPlaceholderGraphOff');
 }
 
 graphifyCheckbox.addEventListener('change', () => {
   syncGraphifyUI();
-  chatInput.focus();
+  promptInput.focus();
 });
 
 // ------------------------------------------------------------
@@ -323,20 +323,20 @@ function applyUiLang(lang) {
   try { localStorage.setItem('llm-wiki-analysis-ui-lang', uiLang); } catch (e) { /* ignore */ }
   state.analysisUiLang = uiLang;
 
-  chatLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
-  [...chatLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
-  const langToggle = document.getElementById('chat-lang');
+  promptLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
+  [...promptLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
+  const langToggle = document.getElementById('prompt-lang');
   if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
 
-  chatPanel.querySelectorAll('[data-i18n]').forEach((el) => {
+  promptPanel.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
     if (key && t(key)) { el.textContent = t(key); el.setAttribute('aria-label', t(key)); }
   });
-  chatPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
+  promptPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
     const key = el.dataset.i18nTitle;
     if (key && t(key)) el.title = t(key);
   });
-  chatCloseBtn.setAttribute('aria-label', t('panelClose'));
+  promptCloseBtn.setAttribute('aria-label', t('panelClose'));
   // Response-mode button tooltips (chrome without data-i18n markers).
   document.querySelectorAll('#response-mode .resp-mode-btn').forEach((b) => {
     b.title = t(b.dataset.mode === 'md' ? 'respModeAskTitle' : 'respModeHtmlTitle');
@@ -353,7 +353,7 @@ export function applyAnalysisUiLang(lang) {
   if ((lang === 'en-US' || lang === 'zh-TW') && lang !== uiLang) applyUiLang(lang);
 }
 
-chatLangBtns.forEach((btn) => {
+promptLangBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const lang = btn.dataset.lang;
     if (lang && lang !== uiLang) applyUiLang(lang);
@@ -363,7 +363,7 @@ chatLangBtns.forEach((btn) => {
 // ------------------------------------------------------------
 // Response view mode (MD / HTML) — choose how a response is rendered.
 //   html : open the response in the standalone HTML-mode page (pages.css) (default)
-//   md   : render markdown inline in the chat bubble
+//   md   : render markdown inline in the prompt bubble
 // The per-message globe button still lets you open HTML on demand in MD mode.
 // ------------------------------------------------------------
 let responseMode = 'html'; // 'md' | 'html'
@@ -410,17 +410,17 @@ syncGraphifyUI();
 // the other inline icons so they inherit the button's text color). The icon is
 // a static chart/diagram glyph; the button simply toggles the analysis panel.
 
-chatBtn.addEventListener('click', () => {
-  chatOpen = !chatOpen;
-  chatPanel.classList.toggle('open', chatOpen);
-  chatBtn.classList.toggle('open', chatOpen);
-  if (!chatOpen) setActiveWindow(null);
-  if (chatOpen) chatInput.focus();
-  syncChatPanelKeyboard();
-  state.analysisOpen = chatOpen;
+promptBtn.addEventListener('click', () => {
+  promptOpen = !promptOpen;
+  promptPanel.classList.toggle('open', promptOpen);
+  promptBtn.classList.toggle('open', promptOpen);
+  if (!promptOpen) setActiveWindow(null);
+  if (promptOpen) promptInput.focus();
+  syncPromptPanelKeyboard();
+  state.analysisOpen = promptOpen;
   // Surface the info card for whatever is already selected when the panel
   // opens (node/edge info now lives in the analysis panel, not a sidebar).
-  if (chatOpen) {
+  if (promptOpen) {
     if (state.selectedNode) showInfo(state.selectedNode);
     else if (state.selectedEdge) showEdgeInfo(state.selectedEdge);
   }
@@ -436,36 +436,36 @@ chatBtn.addEventListener('click', () => {
 // visible area above the keyboard — raise the panel's bottom edge to match.
 // Android with `interactive-widget=resizes-content` already shrinks
 // `innerHeight`, so the offset self-corrects to zero there.
-function syncChatPanelKeyboard() {
-  if (!chatPanel) return;
-  if (!chatPanel.classList.contains('open') || !window.visualViewport) {
-    chatPanel.style.bottom = '';
+function syncPromptPanelKeyboard() {
+  if (!promptPanel) return;
+  if (!promptPanel.classList.contains('open') || !window.visualViewport) {
+    promptPanel.style.bottom = '';
     return;
   }
   const keyboard = Math.max(0, window.innerHeight - window.visualViewport.height);
-  chatPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
+  promptPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
 }
 if (window.visualViewport) {
-  window.visualViewport.addEventListener('resize', syncChatPanelKeyboard);
+  window.visualViewport.addEventListener('resize', syncPromptPanelKeyboard);
 }
-window.addEventListener('resize', syncChatPanelKeyboard);
-syncChatPanelKeyboard();
+window.addEventListener('resize', syncPromptPanelKeyboard);
+syncPromptPanelKeyboard();
 
-function closeChat() {
-  chatOpen = false;
-  chatPanel.classList.remove('open');
-  chatBtn.classList.remove('open');
+function closePrompt() {
+  promptOpen = false;
+  promptPanel.classList.remove('open');
+  promptBtn.classList.remove('open');
   setActiveWindow(null);
   state.analysisOpen = false;
   updateHash();
 }
 
-chatCloseBtn.addEventListener('click', closeChat);
+promptCloseBtn.addEventListener('click', closePrompt);
 
 // ------------------------------------------------------------
 // Message rendering
 // ------------------------------------------------------------
-function sanitizeChatInput(text) {
+function sanitizePromptInput(text) {
   if (!text || typeof text !== 'string') return '';
   let t = text.replace(/<[^>]+>/g, '');
   t = t.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
@@ -473,12 +473,12 @@ function sanitizeChatInput(text) {
   return t.slice(0, 4000);
 }
 
-function addChatMessage(text, type) {
+function addPromptMessage(text, type) {
   const div = document.createElement('div');
-  div.className = `chat-msg ${type}`;
+  div.className = `prompt-msg ${type}`;
   div.textContent = text;
-  chatMessages.appendChild(div);
-  chatMessages.scrollTop = chatMessages.scrollHeight;
+  promptMessages.appendChild(div);
+  promptMessages.scrollTop = promptMessages.scrollHeight;
   return div;
 }
 
@@ -486,7 +486,7 @@ const COPY_ICON = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" s
 
 function addCopyButton(div, text) {
   const btn = document.createElement('button');
-  btn.className = 'chat-copy-btn';
+  btn.className = 'prompt-copy-btn';
   btn.title = t('copy');
   btn.setAttribute('aria-label', 'Copy message');
   btn.innerHTML = COPY_ICON;
@@ -525,7 +525,7 @@ function addCopyButton(div, text) {
 function addOpenHtmlButton(div, text, query) {
   const btn = document.createElement('button');
   btn.type = 'button';
-  btn.className = 'chat-page-btn';
+  btn.className = 'prompt-page-btn';
   btn.textContent = t('openHtmlPage');
   btn.title = t('openHtmlTitle');
   btn.addEventListener('click', (e) => {
@@ -536,7 +536,7 @@ function addOpenHtmlButton(div, text, query) {
 }
 
 // Entity summaries come straight from graph.json node descriptions (every
-// node has one), keyed by label so chat [[entity]] links can show a brief
+// node has one), keyed by label so prompt [[entity]] links can show a brief
 // excerpt on hover. wiki-context.json is retired.
 
 function formatBotMessage(text) {
@@ -547,7 +547,7 @@ function formatBotMessage(text) {
     const wikiBase = name.trim().replace(/\.md$/i, '');
     if (!wikiBase || !descByLabel.has(wikiBase)) return esc(m);
     const label = (display || name).trim();
-    return `<span class="chat-entity-link" data-wiki="${esc(wikiBase)}">${esc(label)}</span>`;
+    return `<span class="prompt-entity-link" data-wiki="${esc(wikiBase)}">${esc(label)}</span>`;
   });
   // Long code blocks: collapse them so they don't dominate the response.
   html = html.replace(/<pre><code>([\s\S]*?)<\/code><\/pre>/g,
@@ -594,20 +594,20 @@ function hideWikiTooltip() {
   wikiTooltipEl.classList.remove('visible');
 }
 
-chatMessages.addEventListener('mouseover', (e) => {
-  const anchor = e.target.closest('.chat-entity-link');
+promptMessages.addEventListener('mouseover', (e) => {
+  const anchor = e.target.closest('.prompt-entity-link');
   if (!anchor || !anchor.dataset.wiki) { hideWikiTooltip(); return; }
   showWikiTooltip(anchor);
 });
 
-chatMessages.addEventListener('mousemove', (e) => {
+promptMessages.addEventListener('mousemove', (e) => {
   if (!wikiTooltipVisible) return;
-  const anchor = e.target.closest('.chat-entity-link');
+  const anchor = e.target.closest('.prompt-entity-link');
   if (anchor) positionWikiTooltip(anchor);
 });
 
-chatMessages.addEventListener('mouseleave', hideWikiTooltip);
-chatMessages.addEventListener('scroll', hideWikiTooltip, { passive: true });
+promptMessages.addEventListener('mouseleave', hideWikiTooltip);
+promptMessages.addEventListener('scroll', hideWikiTooltip, { passive: true });
 
 // ------------------------------------------------------------
 // Wiki Modal
@@ -639,7 +639,7 @@ wikiModalOverlay.addEventListener('click', (e) => {
 });
 
 // ------------------------------------------------------------
-// HTML mode — render a chat response as a standalone page styled with pages.css
+// HTML mode — render a prompt response as a standalone page styled with pages.css
 // ------------------------------------------------------------
 let htmlModeDoc = '';
 let htmlModeRaw = ''; // raw server HTML — kept so the doc can be rebuilt on theme switch
@@ -655,7 +655,7 @@ function collapseFencedCode(html) {
 }
 
 // Inline HTML render: inject a server-authored HTML document directly into the
-// chat bubble so it renders visually (diagrams, cards, tables) instead of
+// prompt bubble so it renders visually (diagrams, cards, tables) instead of
 // appearing as escaped markdown/code. Scripts are stripped — the iframe modal
 // is script-sandboxed, but inline injection has no sandbox, so this is mandatory
 // defense-in-depth. The <html>/<head>/<body> wrapper is dropped (only the body
@@ -791,7 +791,7 @@ document.addEventListener('keydown', (e) => {
   if (htmlModeOverlay && htmlModeOverlay.classList.contains('visible')) { closeHtmlMode(); return; }
   const nodeCard = document.getElementById('at-node-detail');
   if (nodeCard && !nodeCard.hidden) { closeNodeDetail(); return; }
-  if (chatPanel.classList.contains('open')) { closeChat(); return; }
+  if (promptPanel.classList.contains('open')) { closePrompt(); return; }
   const datasetPanelEl = document.getElementById('dataset-panel');
   if (datasetPanelEl && datasetPanelEl.classList.contains('visible')) {
     datasetPanelEl.classList.remove('visible');
@@ -807,14 +807,14 @@ document.addEventListener('keydown', (e) => {
   const t = e.target;
   if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
       t.tagName === 'SELECT' || t.isContentEditable)) return;
-  if (panelMode !== 'explore' || !chatPanel.classList.contains('open')) return;
+  if (panelMode !== 'explore' || !promptPanel.classList.contains('open')) return;
   e.preventDefault();
   runCompare();
 });
 
-// Delegate click on chat entity links to open modal
-chatMessages.addEventListener('click', (e) => {
-  const anchor = e.target.closest('.chat-entity-link');
+// Delegate click on prompt entity links to open modal
+promptMessages.addEventListener('click', (e) => {
+  const anchor = e.target.closest('.prompt-entity-link');
   if (!anchor || !anchor.dataset.wiki) return;
   e.preventDefault();
   e.stopPropagation();
@@ -822,31 +822,31 @@ chatMessages.addEventListener('click', (e) => {
 });
 
 // ------------------------------------------------------------
-// Send / receive chat
+// Send / receive prompt
 // ------------------------------------------------------------
-async function sendChatMessage() {
-  const raw = chatInput.value;
-  const clean = sanitizeChatInput(raw);
-  if (!clean || chatBusy) return;
+async function sendPromptMessage() {
+  const raw = promptInput.value;
+  const clean = sanitizePromptInput(raw);
+  if (!clean || promptBusy) return;
 
   // Explicitly tagged nodes travel with the request as server-side context.
-  const tags = Array.from(chatTagSet.values()).map(n => n.label);
+  const tags = Array.from(promptTagSet.values()).map(n => n.label);
 
-  chatBusy = true;
-  chatSend.disabled = true;
-  chatInput.value = '';
-  clearChatTags();
-  setChatThinking(true);
+  promptBusy = true;
+  promptSend.disabled = true;
+  promptInput.value = '';
+  clearPromptTags();
+  setPromptThinking(true);
 
   // Hide suggestions after first message
-  const suggestions = document.getElementById('chat-suggestions');
+  const suggestions = document.getElementById('prompt-suggestions');
   if (suggestions) suggestions.remove();
 
-  addChatMessage(clean, 'user');
-  chatActive = true;
+  addPromptMessage(clean, 'user');
+  promptActive = true;
   refreshActivity();
 
-  const typingDiv = addChatMessage(t('thinking'), 'typing');
+  const typingDiv = addPromptMessage(t('thinking'), 'typing');
   typingDiv.innerHTML = '<span id="typing-label">Thinking</span><span id="typing-elapsed" class="typing-elapsed"></span><span class="typing-dots"><span></span><span></span><span></span></span>';
 
   const typingStart = performance.now();
@@ -862,24 +862,24 @@ async function sendChatMessage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         message: withOutputSpec(clean),
-        session_id: chatSessionId,
+        session_id: promptSessionId,
         graphify: graphifyEnabled(),
         tags,
       }),
     });
 
     if (!intentResp.ok) {
-      chatMessages.removeChild(typingDiv);
-      addChatMessage(t('serverError'), 'error');
+      promptMessages.removeChild(typingDiv);
+      addPromptMessage(t('serverError'), 'error');
       return;
     }
 
     const intentData = await intentResp.json();
 
     // Server-side conversation handle; reused for every subsequent turn.
-    if (intentData.session_id) chatSessionId = intentData.session_id;
+    if (intentData.session_id) promptSessionId = intentData.session_id;
 
-    // Update indicator only when a translation pass will actually run. Chat
+    // Update indicator only when a translation pass will actually run. Prompt
     // turns answer in the user's language natively, so no translation step.
     const willTranslate = intentData.lang && intentData.lang !== 'en'
       && ['query', 'explain', 'path', 'analyze'].includes(intentData.intent);
@@ -887,34 +887,34 @@ async function sendChatMessage() {
       typingDiv.querySelector('#typing-label').textContent = t('translating');
     }
 
-    if (intentData.intent === 'chat' && intentData.message) {
-      // Streaming path for chat intent — streams thinking + answer
-      await streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags);
-      typingTimerId = null; // consumed by streamChatResponse
+    if (intentData.intent === 'prompt' && intentData.message) {
+      // Streaming path for prompt intent — streams thinking + answer
+      await streamPromptResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags);
+      typingTimerId = null; // consumed by streamPromptResponse
     } else {
       // Single-event path for graph ops / greeting (still uses streaming endpoint)
       await streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, clean, tags);
       typingTimerId = null;
     }
   } catch (e) {
-    if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage(t('couldNotReach'), 'error');
+    if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
+    addPromptMessage(t('couldNotReach'), 'error');
   } finally {
     if (typingTimerId) { clearInterval(typingTimerId); typingTimerId = null; }
-    chatBusy = false;
-    chatSend.disabled = false;
-    setChatThinking(false);
-    chatInput.focus();
+    promptBusy = false;
+    promptSend.disabled = false;
+    setPromptThinking(false);
+    promptInput.focus();
   }
 }
 
-async function streamChatResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags) {
+async function streamPromptResponse(intentData, typingDiv, typingStart, typingTimerId, clean, tags) {
   const labelEl = typingDiv.querySelector('#typing-label');
   labelEl.textContent = t('thinking');
 
   // Add collapsible thinking trace container
   const traceDiv = document.createElement('div');
-  traceDiv.className = 'chat-thinking-trace';
+  traceDiv.className = 'prompt-thinking-trace';
   traceDiv.style.display = 'none';
   typingDiv.appendChild(traceDiv);
 
@@ -933,7 +933,7 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
       body: JSON.stringify({
         intent: intentData.intent,
         message: withOutputSpec(intentData.message),
-        session_id: chatSessionId,
+        session_id: promptSessionId,
         tags,
       }),
     });
@@ -971,22 +971,22 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
           labelEl.textContent = t('thinking');
           if (!traceContent) {
             traceDiv.style.display = 'block';
-            traceDiv.innerHTML = '<span class="chat-trace-toggle">&#9654; Thinking trace</span>'
-              + '<div class="chat-trace-content"><div></div></div>';
-            traceContent = traceDiv.querySelector('.chat-trace-content');
-            traceDiv.querySelector('.chat-trace-toggle').addEventListener('click', () => {
+            traceDiv.innerHTML = '<span class="prompt-trace-toggle">&#9654; Thinking trace</span>'
+              + '<div class="prompt-trace-content"><div></div></div>';
+            traceContent = traceDiv.querySelector('.prompt-trace-content');
+            traceDiv.querySelector('.prompt-trace-toggle').addEventListener('click', () => {
               traceOpen = !traceOpen;
               traceContent.style.display = traceOpen ? 'block' : 'none';
               if (traceOpen) {
                 traceContent.scrollTop = traceContent.scrollHeight;
-                chatMessages.scrollTop = chatMessages.scrollHeight;
+                promptMessages.scrollTop = promptMessages.scrollHeight;
               }
             });
           }
           traceContent.textContent = reasoningBuf;
           if (traceOpen) {
             traceContent.scrollTop = traceContent.scrollHeight;
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+            promptMessages.scrollTop = promptMessages.scrollHeight;
           }
         } else if (evt.type === 'text' && evt.text) {
           textBuf += evt.text;
@@ -1002,14 +1002,14 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
       }
     }
   } catch (e) {
-    if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage(t('streamError'), 'error');
+    if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
+    addPromptMessage(t('streamError'), 'error');
     if (typingTimerId) clearInterval(typingTimerId);
     throw e; // re-throw so finally in caller handles cleanup
   }
 
   // Remove typing indicator
-  if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+  if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
   if (typingTimerId) clearInterval(typingTimerId);
 
   const responseText = textBuf || t('noResponse');
@@ -1017,34 +1017,34 @@ async function streamChatResponse(intentData, typingDiv, typingStart, typingTime
 
   // Build final message with elapsed time + optional thinking trace
   const div = document.createElement('div');
-  div.className = 'chat-msg bot';
+  div.className = 'prompt-msg bot';
 
   let html = '';
-  if (badge) html += `<span class="chat-badge ${badge}">${badge}</span>`;
+  if (badge) html += `<span class="prompt-badge ${badge}">${badge}</span>`;
 
   // Elapsed time badge
   const secs = finalElapsed > 0 ? finalElapsed : ((performance.now() - typingStart) / 1000);
-  html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
+  html += `<span class="prompt-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
 
   // Thinking trace (collapsible, if any)
   if (reasoningBuf) {
-    html += '<details class="chat-thinking-details">'
-      + '<summary class="chat-thinking-summary">Thinking trace</summary>'
-      + '<div class="chat-thinking-body">' + esc(reasoningBuf) + '</div>'
+    html += '<details class="prompt-thinking-details">'
+      + '<summary class="prompt-thinking-summary">Thinking trace</summary>'
+      + '<div class="prompt-thinking-body">' + esc(reasoningBuf) + '</div>'
       + '</details>';
   }
 
-  html += responseMode === 'html' ? `<div class="chat-html-inline">${renderInlineHtml(responseText)}</div>` : formatBotMessage(responseText);
+  html += responseMode === 'html' ? `<div class="prompt-html-inline">${renderInlineHtml(responseText)}</div>` : formatBotMessage(responseText);
   div.innerHTML = html;
   addCopyButton(div, responseText);
   if (responseMode === 'html') addOpenHtmlButton(div, responseText, clean);
-  chatMessages.appendChild(div);
-  chatMessages.scrollTop = chatMessages.scrollHeight;
+  promptMessages.appendChild(div);
+  promptMessages.scrollTop = promptMessages.scrollHeight;
 
   // Highlight relevant nodes
   const highlighted = highlightForMessage(clean, { text: responseText, highlight_nodes: serverHighlightNodes, highlight_edges: serverHighlightEdges });
   if (highlighted.nodes.length > 0) {
-    highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
+    highlightPromptNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
   }
 }
 
@@ -1069,7 +1069,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
         nodes: intentData.nodes,
         analysis: intentData.analysis,
         message: withOutputSpec(intentData.message || clean),
-        session_id: chatSessionId,
+        session_id: promptSessionId,
         tags,
       }),
     });
@@ -1100,34 +1100,34 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
       }
     }
   } catch (e) {
-    if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
-    addChatMessage(t('serverError'), 'error');
+    if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
+    addPromptMessage(t('serverError'), 'error');
     if (typingTimerId) clearInterval(typingTimerId);
     return;
   }
 
-  if (typingDiv.parentNode) chatMessages.removeChild(typingDiv);
+  if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
   if (typingTimerId) clearInterval(typingTimerId);
 
   // Badge names the graph op that produced the answer (explain / path / analyze / query).
   const op = ['query', 'explain', 'path', 'analyze'].includes(intentData.intent)
     ? intentData.intent : null;
   const div = document.createElement('div');
-  div.className = 'chat-msg bot';
-  let html = `<span class="chat-badge graphify">${op ? `graphify · ${op}` : 'graphify'}</span>`;
+  div.className = 'prompt-msg bot';
+  let html = `<span class="prompt-badge graphify">${op ? `graphify · ${op}` : 'graphify'}</span>`;
   const secs = ((performance.now() - typingStart) / 1000);
-  html += `<span class="chat-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
-  html += responseMode === 'html' ? `<div class="chat-html-inline">${renderInlineHtml(textBuf)}</div>` : formatBotMessage(textBuf);
+  html += `<span class="prompt-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
+  html += responseMode === 'html' ? `<div class="prompt-html-inline">${renderInlineHtml(textBuf)}</div>` : formatBotMessage(textBuf);
   div.innerHTML = html;
   addCopyButton(div, textBuf);
   if (responseMode === 'html') addOpenHtmlButton(div, textBuf, clean);
-  chatMessages.appendChild(div);
-  chatMessages.scrollTop = chatMessages.scrollHeight;
+  promptMessages.appendChild(div);
+  promptMessages.scrollTop = promptMessages.scrollHeight;
 
   if (textBuf || highlightNodes.length) {
     const highlighted = highlightForMessage(clean, { text: textBuf, highlight_nodes: highlightNodes, highlight_edges: highlightEdges, primary_node: primaryNode });
     if (highlighted.nodes.length > 0) {
-      highlightChatNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
+      highlightPromptNodes(highlighted.nodes, highlighted.edges, highlighted.primary);
     }
   }
 
@@ -1144,10 +1144,10 @@ function addAnalysisActions(div, data) {
   const safe = String(primaryLabel).replace(/[^\w\u4e00-\u9fff\-]+/g, '_').slice(0, 60);
 
   const row = document.createElement('div');
-  row.className = 'chat-analysis-actions';
+  row.className = 'prompt-analysis-actions';
 
   const jsonBtn = document.createElement('button');
-  jsonBtn.className = 'chat-analysis-btn';
+  jsonBtn.className = 'prompt-analysis-btn';
   jsonBtn.type = 'button';
   jsonBtn.textContent = '⬇ JSON';
   jsonBtn.title = t('downloadJson');
@@ -1161,7 +1161,7 @@ function addAnalysisActions(div, data) {
   });
 
   const pngBtn = document.createElement('button');
-  pngBtn.className = 'chat-analysis-btn';
+  pngBtn.className = 'prompt-analysis-btn';
   pngBtn.type = 'button';
   pngBtn.textContent = '⬇ PNG';
   pngBtn.title = t('downloadPng');
@@ -1174,10 +1174,10 @@ function addAnalysisActions(div, data) {
   div.appendChild(row);
 }
 
-chatSend.addEventListener('click', sendChatMessage);
-chatInput.addEventListener('keydown', (e) => {
+promptSend.addEventListener('click', sendPromptMessage);
+promptInput.addEventListener('keydown', (e) => {
   // @-tag popup keyboard navigation takes priority over send
-  if (chatTagPopup.classList.contains('visible') && tagMatches.length) {
+  if (promptTagPopup.classList.contains('visible') && tagMatches.length) {
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       tagActiveIdx = (tagActiveIdx + 1) % tagMatches.length;
@@ -1208,14 +1208,14 @@ chatInput.addEventListener('keydown', (e) => {
   }
   if (e.key === 'Enter' && !e.shiftKey) {
     e.preventDefault();
-    sendChatMessage();
+    sendPromptMessage();
   }
 });
 
 // Auto-resize textarea + @-tag popup on input
-chatInput.addEventListener('input', () => {
-  chatInput.style.height = 'auto';
-  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+promptInput.addEventListener('input', () => {
+  promptInput.style.height = 'auto';
+  promptInput.style.height = Math.min(promptInput.scrollHeight, 160) + 'px';
   updateTagPopup();
   refreshActivity();
 });
@@ -1223,7 +1223,7 @@ chatInput.addEventListener('input', () => {
 // ------------------------------------------------------------
 // @-tag node autocomplete
 // ------------------------------------------------------------
-let chatTagSet = new Map(); // nodeId -> node data for currently tagged nodes
+let promptTagSet = new Map(); // nodeId -> node data for currently tagged nodes
 let tagMatches = [];
 let tagActiveIdx = -1;
 
@@ -1231,8 +1231,8 @@ let tagActiveIdx = -1;
 // whitespace/start-of-input counts (so emails/words like "name@host" don't
 // trigger the picker).
 function getTagToken() {
-  const val = chatInput.value;
-  const caret = chatInput.selectionStart;
+  const val = promptInput.value;
+  const caret = promptInput.selectionStart;
   const before = val.slice(0, caret);
   const atIdx = before.lastIndexOf('@');
   if (atIdx === -1) return null;
@@ -1259,16 +1259,16 @@ function tagMatchesFor(query) {
 }
 
 function renderTagPopup() {
-  chatTagPopup.innerHTML = tagMatches.map((n, i) => {
+  promptTagPopup.innerHTML = tagMatches.map((n, i) => {
     const zh = TRANSLATIONS[n.label] || '';
     const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
-    return `<div class="chat-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}">
+    return `<div class="prompt-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}">
       <span class="tag-kind">@</span>
       <span>${esc(n.label)}${zhText}</span>
       <span class="tag-degree">${n.degree}</span>
     </div>`;
   }).join('');
-  chatTagPopup.classList.add('visible');
+  promptTagPopup.classList.add('visible');
 }
 
 function updateTagPopup() {
@@ -1284,15 +1284,15 @@ function updateTagPopup() {
 function closeTagPopup() {
   tagMatches = [];
   tagActiveIdx = -1;
-  chatTagPopup.classList.remove('visible');
-  chatTagPopup.innerHTML = '';
+  promptTagPopup.classList.remove('visible');
+  promptTagPopup.innerHTML = '';
 }
 
 function renderTagChips() {
-  chatTags.innerHTML = '';
-  chatTagSet.forEach(node => {
+  promptTags.innerHTML = '';
+  promptTagSet.forEach(node => {
     const chip = document.createElement('span');
-    chip.className = 'chat-tag-chip';
+    chip.className = 'prompt-tag-chip';
     chip.dataset.id = node.id;
     const labelSpan = document.createElement('span');
     labelSpan.className = 'tag-label';
@@ -1304,66 +1304,66 @@ function renderTagChips() {
     rm.textContent = '×';
     chip.appendChild(labelSpan);
     chip.appendChild(rm);
-    chatTags.appendChild(chip);
+    promptTags.appendChild(chip);
   });
   refreshActivity();
 }
 
 function highlightTaggedNodes() {
-  const ids = Array.from(chatTagSet.keys());
-  if (!ids.length) { clearChatHighlights(); return; }
+  const ids = Array.from(promptTagSet.keys());
+  if (!ids.length) { clearPromptHighlights(); return; }
   const edges = edgesBetween(ids);
-  highlightChatNodes(ids, edges, ids[0]);
+  highlightPromptNodes(ids, edges, ids[0]);
 }
 
 function selectTagNode(node) {
   const token = getTagToken();
   if (!token) return;
-  const val = chatInput.value;
+  const val = promptInput.value;
   const before = val.slice(0, token.atIdx);
-  const after = val.slice(chatInput.selectionStart);
+  const after = val.slice(promptInput.selectionStart);
   const insertion = '@' + node.label;
-  chatInput.value = before + insertion + ' ' + after;
+  promptInput.value = before + insertion + ' ' + after;
   const caret = (before + insertion + ' ').length;
-  chatInput.setSelectionRange(caret, caret);
-  chatInput.style.height = 'auto';
-  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
-  chatTagSet.set(node.id, node);
+  promptInput.setSelectionRange(caret, caret);
+  promptInput.style.height = 'auto';
+  promptInput.style.height = Math.min(promptInput.scrollHeight, 160) + 'px';
+  promptTagSet.set(node.id, node);
   renderTagChips();
   highlightTaggedNodes();
   closeTagPopup();
-  chatInput.focus();
+  promptInput.focus();
 }
 
 function removeTagChip(id) {
-  const node = chatTagSet.get(id);
-  chatTagSet.delete(id);
+  const node = promptTagSet.get(id);
+  promptTagSet.delete(id);
   if (node) {
     const escLabel = escapeRegex(node.label);
     const re = new RegExp('@' + escLabel + '(?=\\s|$|@)', 'i');
-    chatInput.value = chatInput.value.replace(re, '').replace(/\s{2,}/g, ' ').trim();
-    chatInput.style.height = 'auto';
-    chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+    promptInput.value = promptInput.value.replace(re, '').replace(/\s{2,}/g, ' ').trim();
+    promptInput.style.height = 'auto';
+    promptInput.style.height = Math.min(promptInput.scrollHeight, 160) + 'px';
   }
   renderTagChips();
   highlightTaggedNodes();
-  chatInput.focus();
+  promptInput.focus();
 }
 
-function clearChatTags() {
-  chatTagSet = new Map();
-  chatTags.innerHTML = '';
+function clearPromptTags() {
+  promptTagSet = new Map();
+  promptTags.innerHTML = '';
 }
 
-chatTagPopup.addEventListener('pointerdown', (e) => {
+promptTagPopup.addEventListener('pointerdown', (e) => {
   e.preventDefault();
-  const item = e.target.closest('.chat-tag-item');
+  const item = e.target.closest('.prompt-tag-item');
   if (!item) return;
   selectTagNode(tagMatches[Number(item.dataset.idx)]);
 });
 
-chatTagPopup.addEventListener('mousemove', (e) => {
-  const item = e.target.closest('.chat-tag-item');
+promptTagPopup.addEventListener('mousemove', (e) => {
+  const item = e.target.closest('.prompt-tag-item');
   if (!item) return;
   const idx = Number(item.dataset.idx);
   if (idx !== tagActiveIdx) {
@@ -1372,10 +1372,10 @@ chatTagPopup.addEventListener('mousemove', (e) => {
   }
 });
 
-chatTags.addEventListener('click', (e) => {
+promptTags.addEventListener('click', (e) => {
   const rm = e.target.closest('.tag-remove');
-  if (rm) { removeTagChip(rm.closest('.chat-tag-chip').dataset.id); return; }
-  const chip = e.target.closest('.chat-tag-chip');
+  if (rm) { removeTagChip(rm.closest('.prompt-tag-chip').dataset.id); return; }
+  const chip = e.target.closest('.prompt-tag-chip');
   if (chip && nodeMap.has(chip.dataset.id)) selectNode(chip.dataset.id);
 });
 
@@ -1430,7 +1430,7 @@ let suggestionOffset = 0;
 
 function suggestionHTML(q) {
   const tags = (q.tags || []).join(',');
-  return `<button class="chat-suggestion" data-query="${esc(q.q)}" data-tags="${esc(tags)}">&ldquo;${esc(q.q)}&rdquo;</button>`;
+  return `<button class="prompt-suggestion" data-query="${esc(q.q)}" data-tags="${esc(tags)}">&ldquo;${esc(q.q)}&rdquo;</button>`;
 }
 
 function pageSuggestionsHTML() {
@@ -1439,14 +1439,14 @@ function pageSuggestionsHTML() {
     const q = ALL_RECIPES[(suggestionOffset + i) % ALL_RECIPES.length];
     items.push(suggestionHTML(q));
   }
-  return `<div class="chat-suggestion-group">${items.join('')}</div>` +
-    `<button class="chat-suggestion chat-suggestion-more" data-action="generate">${esc(t('suggestMore'))}</button>`;
+  return `<div class="prompt-suggestion-group">${items.join('')}</div>` +
+    `<button class="prompt-suggestion prompt-suggestion-more" data-action="generate">${esc(t('suggestMore'))}</button>`;
 }
 
 function appendSuggestions(parent) {
   const div = document.createElement('div');
-  div.className = 'chat-suggestions';
-  div.id = 'chat-suggestions';
+  div.className = 'prompt-suggestions';
+  div.id = 'prompt-suggestions';
   // Initial page starts at offset 0.
   suggestionOffset = 0;
   div.innerHTML = pageSuggestionsHTML();
@@ -1454,7 +1454,7 @@ function appendSuggestions(parent) {
 }
 
 async function generateSuggestions() {
-  const suggestionsDiv = document.getElementById('chat-suggestions');
+  const suggestionsDiv = document.getElementById('prompt-suggestions');
   if (!suggestionsDiv) return;
 
   // Advance by a full page, wrapping around the flattened recipe pool.
@@ -1466,33 +1466,33 @@ function tagSuggestionNodes(labels) {
   const nodes = [];
   labels.forEach(label => {
     const node = RAW_NODES.find(n => n.label === label);
-    if (node && !chatTagSet.has(node.id)) nodes.push(node);
+    if (node && !promptTagSet.has(node.id)) nodes.push(node);
   });
-  nodes.forEach(node => chatTagSet.set(node.id, node));
+  nodes.forEach(node => promptTagSet.set(node.id, node));
   renderTagChips();
   highlightTaggedNodes();
 }
 
 // Delegate clicks on suggestion chips (initial + generated)
-chatMessages.addEventListener('click', (e) => {
-  const btn = e.target.closest('.chat-suggestion');
+promptMessages.addEventListener('click', (e) => {
+  const btn = e.target.closest('.prompt-suggestion');
   if (!btn) return;
   if (btn.dataset.action === 'generate') {
     generateSuggestions();
   } else {
-    chatInput.value = btn.dataset.query;
+    promptInput.value = btn.dataset.query;
     if (btn.dataset.tags) {
       tagSuggestionNodes(btn.dataset.tags.split(',').map(s => s.trim()).filter(Boolean));
     }
-    chatInput.focus();
+    promptInput.focus();
   }
 });
 
-function resetChat() {
+function resetPrompt() {
   // Release the server-side session so the next turn starts with clean context.
-  if (chatSessionId) {
-    const stale = chatSessionId;
-    chatSessionId = null;
+  if (promptSessionId) {
+    const stale = promptSessionId;
+    promptSessionId = null;
     fetch(SESSION_RESET_API, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -1500,25 +1500,25 @@ function resetChat() {
       keepalive: true,
     }).catch(() => {});
   }
-  chatActive = false;
-  chatMessages.innerHTML = '';
-  clearChatHighlights();
+  promptActive = false;
+  promptMessages.innerHTML = '';
+  clearPromptHighlights();
   compareA = [];
   compareB = [];
   renderCompareSets();
-  clearChatTags();
-  appendSuggestions(chatMessages);
-  chatInput.value = '';
-  chatInput.focus();
+  clearPromptTags();
+  appendSuggestions(promptMessages);
+  promptInput.value = '';
+  promptInput.focus();
   refreshActivity();
 }
 
 // ------------------------------------------------------------
-// Chat Graph Highlighting
+// Prompt Graph Highlighting
 // ------------------------------------------------------------
 // A lowercase word-boundary index of node labels -> node id. Used to find the
 // nodes "most related" to a query/response locally whenever the server does
-// not (or does not fully) specify which nodes a chat turn touches.
+// not (or does not fully) specify which nodes a prompt turn touches.
 const labelDataIndex = new Map();
 RAW_NODES.forEach(n => {
   const label = String(n.label || '').toLowerCase().trim();
@@ -1590,13 +1590,13 @@ function highlightForMessage(queryText, data) {
   return { nodes, edges: serverEdgePresent, primary };
 }
 
-function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
+function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
   // Clear any existing trace or community focus
   if (state.activeTrace) clearTrace();
   if (state.focusedCommunity !== null) clearCommunityFocus();
   if (state.selectedNode) deselectNode();
 
-  chatHighlightedNodes = nodeIds;
+  promptHighlightedNodes = nodeIds;
   const idSet = new Set(nodeIds);
 
   applyNodeState(idSet, 1, 0.6, 0.06, 0.03);
@@ -1613,10 +1613,10 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
   setLabelVisibility(idSet);
 
   // Offer node filtering with a count of highlighted nodes
-  chatFilterToggle.classList.add('visible');
-  chatFilterCheckbox.disabled = false;
-  chatFilterCount.textContent = nodeIds.length;
-  applyChatNodeFilter();
+  promptFilterToggle.classList.add('visible');
+  promptFilterCheckbox.disabled = false;
+  promptFilterCount.textContent = nodeIds.length;
+  applyPromptNodeFilter();
 
   // Frame the camera on the primary node (if any), positioning it toward the
   // top-left of the viewport so the side panel on the right doesn't cover it.
@@ -1634,11 +1634,11 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
 
   if (targetPos) {
     // Camera flies in along the node's direction and looks slightly away from
-    // it, so the node sits in the upper-left quadrant of the view. The chat
+    // it, so the node sits in the upper-left quadrant of the view. The prompt
     // panel (large by default) occupies the right side, so keep the target
     // well inside the visible graph area.
     const hasSidebar = window.innerWidth >= 1200;
-    const chatOpen = chatPanel.classList.contains('open');
+    const promptOpen = promptPanel.classList.contains('open');
     const dist = 320;
     const direction = targetPos.clone().sub(camera.position);
     if (direction.lengthSq() > 0.0001) direction.normalize();
@@ -1646,20 +1646,20 @@ function highlightChatNodes(nodeIds, edgePairs, primaryNodeId) {
     const camPos = targetPos.clone().addScaledVector(direction, dist * 0.4)
       .addScaledVector(offsetDir, dist);
     const lookShift = hasSidebar
-      ? (chatOpen ? new THREE.Vector3(0.55, -0.3, 0) : new THREE.Vector3(0.35, -0.3, 0)).normalize()
+      ? (promptOpen ? new THREE.Vector3(0.55, -0.3, 0) : new THREE.Vector3(0.35, -0.3, 0)).normalize()
       : new THREE.Vector3(0, 0, 0);
     const lookTarget = targetPos.clone().addScaledVector(lookShift, dist * 0.4);
     animateCamera(camPos, lookTarget);
   }
 }
 
-function clearChatHighlights() {
-  chatHighlightedNodes = [];
-  chatFilterToggle.classList.remove('visible');
-  chatFilterCheckbox.checked = false;
-  chatFilterCheckbox.disabled = true;
-  chatFilterCount.textContent = '0';
-  applyChatNodeFilter();
+function clearPromptHighlights() {
+  promptHighlightedNodes = [];
+  promptFilterToggle.classList.remove('visible');
+  promptFilterCheckbox.checked = false;
+  promptFilterCheckbox.disabled = true;
+  promptFilterCount.textContent = '0';
+  applyPromptNodeFilter();
 
   resetVisualState();
 }
@@ -1667,9 +1667,9 @@ function clearChatHighlights() {
 // Toggle whether the graph is cropped down to just the highlighted nodes (and
 // the edges between them). OFF keeps the full graph with the highlight styling;
 // ON hides every node/edge outside the highlighted set.
-function applyChatNodeFilter() {
-  const enabled = !!(chatFilterCheckbox && chatFilterCheckbox.checked);
-  const idSet = new Set(chatHighlightedNodes);
+function applyPromptNodeFilter() {
+  const enabled = !!(promptFilterCheckbox && promptFilterCheckbox.checked);
+  const idSet = new Set(promptHighlightedNodes);
 
   nodeMeshes.forEach(m => {
     m.visible = !enabled || idSet.has(m.userData.nodeId);
@@ -1679,7 +1679,7 @@ function applyChatNodeFilter() {
     line.visible = !enabled || (idSet.has(edge.from) && idSet.has(edge.to));
   });
 
-  if (chatHighlightedNodes.length) {
+  if (promptHighlightedNodes.length) {
     // Whatever the filter state, labels track the highlighted set (visibility
     // of non-highlighted meshes is already handled above).
     setLabelVisibility(idSet);
@@ -1688,7 +1688,7 @@ function applyChatNodeFilter() {
   }
 }
 
-chatFilterCheckbox.addEventListener('change', applyChatNodeFilter);
+promptFilterCheckbox.addEventListener('change', applyPromptNodeFilter);
 
 // ------------------------------------------------------------
 // Panel mode (Prompt / Graph) — the panel is always full-screen
@@ -1698,8 +1698,8 @@ let panelMode = 'explore'; // 'ask' (Prompt) | 'explore' (Graph) — Graph is th
 function setPanelMode(mode) {
   panelMode = mode;
   state.analysisMode = mode === 'explore' ? 'graph' : 'prompt';
-  chatPanel.classList.toggle('mode-explore', mode === 'explore');
-  chatModeSwitch.querySelectorAll('.chat-mode-tab').forEach(t => {
+  promptPanel.classList.toggle('mode-explore', mode === 'explore');
+  promptModeSwitch.querySelectorAll('.prompt-mode-tab').forEach(t => {
     const active = t.dataset.mode === mode;
     t.classList.toggle('active', active);
     t.setAttribute('aria-selected', active ? 'true' : 'false');
@@ -1708,8 +1708,8 @@ function setPanelMode(mode) {
   updateHash();
 }
 
-chatModeSwitch.addEventListener('click', (e) => {
-  const tab = e.target.closest('.chat-mode-tab');
+promptModeSwitch.addEventListener('click', (e) => {
+  const tab = e.target.closest('.prompt-mode-tab');
   if (!tab) return;
   setPanelMode(tab.dataset.mode);
 });
@@ -1718,24 +1718,24 @@ chatModeSwitch.addEventListener('click', (e) => {
 // lights when there are selections (tags / compare sets). The floating
 // analysis button lights when either panel has active work.
 function refreshActivity() {
-  const promptActive = chatActive ||
-    (panelMode !== 'explore' && chatInput.value.trim().length > 0);
+  const conversationActive = promptActive ||
+    (panelMode !== 'explore' && promptInput.value.trim().length > 0);
   const graphActive = compareA.length > 0 || compareB.length > 0;
-  const promptTab = chatPanel.querySelector('.chat-mode-tab[data-mode="ask"]');
-  const graphTab = chatPanel.querySelector('.chat-mode-tab[data-mode="explore"]');
-  if (promptTab) promptTab.classList.toggle('has-activity', promptActive);
+  const promptTab = promptPanel.querySelector('.prompt-mode-tab[data-mode="ask"]');
+  const graphTab = promptPanel.querySelector('.prompt-mode-tab[data-mode="explore"]');
+  if (promptTab) promptTab.classList.toggle('has-activity', conversationActive);
   if (graphTab) graphTab.classList.toggle('has-activity', graphActive);
-  if (chatActivityDot) chatActivityDot.classList.toggle('on', promptActive || graphActive);
+  if (promptActivityDot) promptActivityDot.classList.toggle('on', conversationActive || graphActive);
 }
 
 // Prompt indicator: yellow (pulsing) while the assistant is generating, green
-// when idle/ready. Drives the floating chat button's dot and the Prompt tab dot.
-function setChatThinking(on) {
-  if (chatActivityDot) {
-    chatActivityDot.classList.add('on');
-    chatActivityDot.classList.toggle('thinking', on);
+// when idle/ready. Drives the floating prompt button's dot and the Prompt tab dot.
+function setPromptThinking(on) {
+  if (promptActivityDot) {
+    promptActivityDot.classList.add('on');
+    promptActivityDot.classList.toggle('thinking', on);
   }
-  const promptTab = chatPanel.querySelector('.chat-mode-tab[data-mode="ask"]');
+  const promptTab = promptPanel.querySelector('.prompt-mode-tab[data-mode="ask"]');
   if (promptTab) promptTab.classList.toggle('thinking', on);
 }
 
@@ -1826,16 +1826,16 @@ function atRowHTML(n, kind, s) {
 
 function exploreFocusNode(id) {
   const ids = Array.from(new Set([id, ...(adjacency.get(id) || []).map(a => a.target)]));
-  highlightChatNodes(ids, edgesBetween(ids), id);
-  chatFilterCheckbox.checked = false;
-  applyChatNodeFilter();
+  highlightPromptNodes(ids, edgesBetween(ids), id);
+  promptFilterCheckbox.checked = false;
+  applyPromptNodeFilter();
 }
 
 function exploreIsolate(ids) {
   const primary = ids.slice().sort((a, b) => (nodeMap.get(b)?.degree || 0) - (nodeMap.get(a)?.degree || 0))[0];
-  highlightChatNodes(ids, edgesBetween(ids), primary);
-  chatFilterCheckbox.checked = true;
-  applyChatNodeFilter();
+  highlightPromptNodes(ids, edgesBetween(ids), primary);
+  promptFilterCheckbox.checked = true;
+  applyPromptNodeFilter();
 }
 
 function renderAnalysisTools() {
@@ -1922,7 +1922,7 @@ function renderAnalysisTools() {
       <div class="at-actions">
         <button class="at-compare-btn" id="at-compare-go" title="${esc(t('runCompareTitle'))}"><span class="enter-ico">&#9166;</span> ${esc(t('runCompare'))}</button>
         <button class="at-prompt-btn" id="at-send-prompt" title="${esc(t('promptBtnTitle'))}">${esc(t('promptBtn'))}</button>
-        <button id="chat-new" title="${esc(t('resetTitle'))}">${esc(t('reset'))}</button>
+        <button id="prompt-new" title="${esc(t('resetTitle'))}">${esc(t('reset'))}</button>
         <button class="at-export-json-btn" id="at-export-json" title="${esc(t('saveBtnTitle'))}">${esc(t('saveBtn'))}</button>
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
@@ -1948,7 +1948,7 @@ function renderAnalysisTools() {
   analysisTools.querySelector('#at-compare-go').addEventListener('click', runCompare);
   analysisTools.querySelector('#at-send-prompt').addEventListener('click', sendSelectionToPrompt);
   analysisTools.querySelector('#at-export-json').addEventListener('click', exportSelectionJSON);
-  analysisTools.querySelector('#chat-new').addEventListener('click', resetChat);
+  analysisTools.querySelector('#prompt-new').addEventListener('click', resetPrompt);
   rebindTracePanel();
   wireAnalysisSearch(s);
   renderCompareSets();
@@ -2052,7 +2052,7 @@ function exportSelectionJSON() {
     exported_at: new Date().toISOString(),
     selection: { node_count: ids.size, edge_count: edges.length },
     sets: { A: compareA, B: compareB },
-    tagged_nodes: Array.from(chatTagSet.values()).map(n => ({ id: n.id, label: n.label })),
+    tagged_nodes: Array.from(promptTagSet.values()).map(n => ({ id: n.id, label: n.label })),
     nodes,
     edges,
   };
@@ -2096,26 +2096,26 @@ function sendSelectionToPrompt() {
     text = `Analyze the following nodes: ${all.map(l => '@' + l).join(', ')}.\nExplain their roles, interactions, and relevance to longevity and disease.`;
   }
   setPanelMode('ask');
-  chatInput.value = text;
-  chatInput.style.height = 'auto';
-  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+  promptInput.value = text;
+  promptInput.style.height = 'auto';
+  promptInput.style.height = Math.min(promptInput.scrollHeight, 160) + 'px';
   // Tag the selected nodes so they travel as structured context.
-  chatTagSet.clear();
+  promptTagSet.clear();
   ids.forEach(id => {
     const n = nodeMap.get(id);
-    if (n) chatTagSet.set(id, n);
+    if (n) promptTagSet.set(id, n);
   });
   renderTagChips();
-  chatInput.focus();
+  promptInput.focus();
   refreshActivity();
 }
 
 // Open the analysis panel in Prompt (ask) mode with `text` pre-loaded into the
 // composer and `tags` (@-tagged graph node labels) pinned as structured context.
-// Used by the Notes panel to hand a note's transcript to the chat agent — closes
+// Used by the Notes panel to hand a note's transcript to the prompt agent — closes
 // Notes first (they share the full-screen overlay) so only Analysis is visible.
 export function openPromptComposer(text, tags = []) {
-  // Both panels are full-viewport overlays — dismiss Notes before showing chat.
+  // Both panels are full-viewport overlays — dismiss Notes before showing prompt.
   const notesPanel = document.getElementById('notes-panel');
   const notesClose = document.getElementById('notes-close');
   if (notesPanel && notesPanel.classList.contains('open') && notesClose) {
@@ -2123,32 +2123,32 @@ export function openPromptComposer(text, tags = []) {
   }
   state.analysisOpen = true;
   setPanelMode('ask');
-  if (!chatPanel.classList.contains('open')) {
-    chatOpen = true;
-    chatPanel.classList.add('open');
-    chatBtn.classList.add('open');
-    syncChatPanelKeyboard();
+  if (!promptPanel.classList.contains('open')) {
+    promptOpen = true;
+    promptPanel.classList.add('open');
+    promptBtn.classList.add('open');
+    syncPromptPanelKeyboard();
     updateHash();
   }
   // Hide the suggestion chips only when we're handing over a real message to
   // review; an empty composer keeps them as a starting point.
   if (text) {
-    const suggestions = document.getElementById('chat-suggestions');
+    const suggestions = document.getElementById('prompt-suggestions');
     if (suggestions) suggestions.remove();
   }
-  chatInput.value = text || '';
-  chatInput.style.height = 'auto';
-  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+  promptInput.value = text || '';
+  promptInput.style.height = 'auto';
+  promptInput.style.height = Math.min(promptInput.scrollHeight, 160) + 'px';
   // Tag the resolved graph nodes so they travel as structured context (and get
   // highlighted on the graph).
-  chatTagSet.clear();
+  promptTagSet.clear();
   (tags || []).forEach(label => {
     const node = RAW_NODES.find(n => n.label === label);
-    if (node && !chatTagSet.has(node.id)) chatTagSet.set(node.id, node);
+    if (node && !promptTagSet.has(node.id)) promptTagSet.set(node.id, node);
   });
   renderTagChips();
   highlightTaggedNodes();
-  chatInput.focus();
+  promptInput.focus();
   refreshActivity();
 }
 
@@ -2205,8 +2205,8 @@ function renderCompareSets() {
   const hasSelection = compareA.length > 0 || compareB.length > 0;
   const exportBtn = document.getElementById('at-export-json');
   if (exportBtn) exportBtn.disabled = !hasSelection;
-  const promptBtn = document.getElementById('at-send-prompt');
-  if (promptBtn) promptBtn.disabled = !hasSelection;
+  const atPromptBtn = document.getElementById('at-send-prompt');
+  if (atPromptBtn) atPromptBtn.disabled = !hasSelection;
   refreshActivity();
 }
 
@@ -2253,9 +2253,9 @@ function runCompare() {
 
   const highlightIds = Array.from(new Set([...idsA, ...idsB, ...inter]));
   const primary = idsA.size ? [...idsA][0] : null;
-  highlightChatNodes(highlightIds, edgesBetween(highlightIds), primary);
-  chatFilterCheckbox.checked = false;
-  applyChatNodeFilter();
+  highlightPromptNodes(highlightIds, edgesBetween(highlightIds), primary);
+  promptFilterCheckbox.checked = false;
+  applyPromptNodeFilter();
 
   res.innerHTML = `
     <div>${esc(t('compareSetA'))}: <span class="at-metric">${idsA.size}</span> ${esc(t('metricNodes'))} · ${esc(t('compareSetB'))}: <span class="at-metric">${idsB.size}</span> ${esc(t('metricNodes'))}</div>
@@ -2276,5 +2276,5 @@ state.suppressHashUpdate = true;
 setPanelMode(panelMode);
 applyUiLang(uiLang);
 state.suppressHashUpdate = false;
-appendSuggestions(chatMessages);
+appendSuggestions(promptMessages);
 refreshActivity();

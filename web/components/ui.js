@@ -1,6 +1,6 @@
 // Analysis-panel UI helpers: node/edge info card, Graph Query (trace) panel,
 // settings popover, controls, zoom bar. The old sidebar was removed — node
-// info and graph queries now live inside the analysis panel (#chat-box).
+// info and graph queries now live inside the analysis panel (#prompt-box).
 
 import * as THREE from 'three';
 
@@ -20,19 +20,19 @@ import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
 
 // ------------------------------------------------------------
-// Active-window highlight (dataset panel vs chat panel)
+// Active-window highlight (dataset panel vs prompt panel)
 // ------------------------------------------------------------
 const activeDatasetPanel = document.getElementById('dataset-panel');
-const activeChatPanel = document.getElementById('chat-panel');
+const activePromptPanel = document.getElementById('prompt-panel');
 
 export function setActiveWindow(name) {
-  const panels = [activeDatasetPanel, activeChatPanel];
+  const panels = [activeDatasetPanel, activePromptPanel];
   panels.forEach(el => el.classList.remove('active', 'dimmed'));
 
   const activeEl = name === 'dataset' && activeDatasetPanel.classList.contains('visible')
     ? activeDatasetPanel
-    : name === 'chat' && activeChatPanel.classList.contains('open')
-      ? activeChatPanel
+    : name === 'prompt' && activePromptPanel.classList.contains('open')
+      ? activePromptPanel
       : null;
 
   if (activeEl) {
@@ -48,12 +48,12 @@ export function setActiveWindow(name) {
 
 document.addEventListener('pointerdown', (e) => {
   if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
-  else if (activeChatPanel.contains(e.target)) setActiveWindow('chat');
+  else if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
   else setActiveWindow(null);
 });
 document.addEventListener('focusin', (e) => {
   if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
-  else if (activeChatPanel.contains(e.target)) setActiveWindow('chat');
+  else if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
 });
 
 // ------------------------------------------------------------
@@ -69,7 +69,7 @@ const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" s
 
 // Render the merged node info card: identity + wiki/source links + context +
 // topology metrics + clickable connections. `actions` (optional) adds the
-// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by chat.js.
+// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by prompt.js.
 export function showInfo(nodeId, actions) {
   const n = nodeMap.get(nodeId);
   if (!n || !infoCard) return;
@@ -191,7 +191,7 @@ document.addEventListener('click', e => {
   }
 });
 
-// Community focus cleanup — kept as a no-op-ish reset for chat.js highlights
+// Community focus cleanup — kept as a no-op-ish reset for prompt.js highlights
 // (the old sidebar legend that drove it was removed).
 export function clearCommunityFocus() {
   state.focusedCommunity = null;
@@ -207,7 +207,7 @@ export function clearCommunityFocus() {
 }
 
 // ------------------------------------------------------------
-// Graph Query (trace panel) — rendered inside #analysis-tools by chat.js.
+// Graph Query (trace panel) — rendered inside #analysis-tools by prompt.js.
 // Element refs are re-bound after every renderAnalysisTools() rebuild.
 // ------------------------------------------------------------
 let traceSelectEl = null;
@@ -651,6 +651,6 @@ window.addEventListener('pointerup', () => {
 
 updateZoomBar();
 
-// The trace card lives inside #analysis-tools, which chat.js renders at
+// The trace card lives inside #analysis-tools, which prompt.js renders at
 // startup — rebind (no-op until those elements exist).
 rebindTracePanel();
