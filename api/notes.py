@@ -3,20 +3,20 @@
 Serves + accepts photos of handwritten notes about papers. Two posting paths
 feed one place:
 
-  - committed curation  : data/notes/manifest.json  (durable, ships with the wiki)
-  - live uploads        : data/notes/.staged.json   (browser uploads, served immediately)
+  - committed curation  : src/images/manifest.json  (durable, ships with the wiki)
+  - live uploads        : src/images/.staged.json   (browser uploads, served immediately)
 
 The GET index merges both. Manifest entries may also carry a `path` field
 pointing at an image that stays in place elsewhere in the repo (resolved
-relative to data/notes/, e.g. '../biology/<topic>/<file>'); such notes are
-served from that location and their thumbnail lives in data/notes/<id>/.
+relative to src/images/, e.g. '../data/biology/<topic>/<file>'); such notes are
+served from that location and their thumbnail lives in src/images/<id>/.
 
 Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
 the site. OCR runs ONCE per note through the read-only wiki-util agent: the
 endpoint short-circuits when a transcript already exists.
 
 IMAGE SERVING IS GITHUB-FIRST. The web client (web/components/notes.js) builds
-image URLs directly from the deterministic repo path data/notes/<id>/<file>
+image URLs directly from the deterministic repo path src/images/<id>/<file>
 (thumbnail <stem>.thumb.<ext>) hosted on raw.githubusercontent.com, so the
 browser loads note images from GitHub's CDN rather than proxying bytes through
 this server. This endpoint therefore acts only as a fallback for images not yet
@@ -42,9 +42,9 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/v1/notes", tags=["notes"])
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_NOTES_DIR = REPO_ROOT / "data" / "notes"
-MANIFEST_FILE = DATA_NOTES_DIR / "manifest.json"
-STAGED_FILE = DATA_NOTES_DIR / ".staged.json"
+IMAGES_DIR = REPO_ROOT / "src" / "images"
+MANIFEST_FILE = IMAGES_DIR / "manifest.json"
+STAGED_FILE = IMAGES_DIR / ".staged.json"
 NOTES_DIR = REPO_ROOT / "src" / "notes"
 
 MAX_FILE_BYTES = 30 * 1024 * 1024  # 30 MB per image
@@ -150,19 +150,19 @@ def _note_dir(note_id: str) -> Path:
     safe = Path(note_id).name
     if safe != note_id:
         raise HTTPException(status_code=400, detail="Invalid note id")
-    return DATA_NOTES_DIR / safe
+    return IMAGES_DIR / safe
 
 
 def _resolve_page_file(note: dict, fname: str) -> Path:
     """Resolve a note page to an actual file on disk.
 
     In-place ('path'-carrying) notes carry a `path` that is resolved relative
-    to data/notes/ (e.g. '../biology/<topic>/<file>' points at the physical
-    file under data/biology/); legacy notes hold the file inside their own
-    data/notes/<id>/ folder. Kept inside the repo so we can never serve an
+    to src/images/ (e.g. '../data/biology/<topic>/<file>' points at the physical
+    file under src/data/biology/); legacy notes hold the file inside their own
+    src/images/<id>/ folder. Kept inside the repo so we can never serve an
     arbitrary path."""
     if note.get("path"):
-        p = (DATA_NOTES_DIR / note["path"]).resolve()
+        p = (IMAGES_DIR / note["path"]).resolve()
         if p.is_relative_to(REPO_ROOT):
             return p
         raise HTTPException(status_code=400, detail="Invalid note path")
@@ -181,7 +181,7 @@ def _thumb_path(page_path: Path, note: dict | None = None) -> Path:
 
     get_image() looks up `<stem>.thumb.<ext>` and serves it when present;
     otherwise it falls back to the full-res original. For in-place notes the
-    thumb lives in the note's own data/notes/<id>/ folder (sibling of the full
+    thumb lives in the note's own src/images/<id>/ folder (sibling of the full
     image only for legacy notes whose image already sits inside that folder)."""
     if note is not None and note.get("path"):
         return _note_dir(note["id"]) / (page_path.stem + ".thumb" + page_path.suffix)
@@ -380,8 +380,8 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not save the note on the server ({e}). "
-                "The API user needs write access to data/notes "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/data)."
+                "The API user needs write access to src/images "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
             ),
         )
 
@@ -417,8 +417,8 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not register the note ({e}). "
-                "The API user needs write access to data/notes "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/data)."
+                "The API user needs write access to src/images "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
             ),
         )
     logger.info(f"notes upload: {note_id} ({len(pages)} pages)")
@@ -528,7 +528,7 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
 def _persist_note(note: dict) -> None:
     """Write an edit back to wherever the note already lives.
 
-    Committed notes update data/notes/manifest.json; drafts and
+    Committed notes update src/images/manifest.json; drafts and
     new edits go to .staged.json.
     """
     committed = _committed_notes()

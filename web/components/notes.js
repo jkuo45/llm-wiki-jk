@@ -11,14 +11,14 @@ const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').repla
 const NOTES_API = `${API_BASE}/notes`;
 
 // GitHub-first image host. Every committed note image lives at the
-// deterministic path data/notes/<id>/<file> (thumbnail: <stem>.thumb.<ext>) in
+// deterministic path src/images/<id>/<file> (thumbnail: <stem>.thumb.<ext>) in
 // this repo, so the browser loads it straight from raw.githubusercontent
 // instead of proxying image bytes through the API. The API `/v1/notes/image`
 // endpoint remains only as the onerror fallback (staged drafts, not-yet-pushed
 // images, or raw.githubusercontent cache lag). Override for local dev or a
 // different deploy branch with:  window.GRAPH_NOTES_IMAGE_BASE = '…';
 const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
-  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/data/notes').replace(/\/$/, '');
+  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images').replace(/\/$/, '');
 
 // Bilingual (zh-TW) display labels for the controlled tag vocabulary. The raw
 // slug remains the source of truth for filtering/search — only the rendered

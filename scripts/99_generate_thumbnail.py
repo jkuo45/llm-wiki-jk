@@ -7,7 +7,7 @@ falls back to the full-resolution original (330 KB–1.5 MB each), which makes
 the gallery slow to load. Nothing previously generated those thumbnails.
 
 This script backfills (and keeps in sync) a `.thumb` file next to every page
-image under data/notes/: manifest.json (committed curation) plus .staged.json
+image under src/images/: manifest.json (committed curation) plus .staged.json
 (live browser uploads). It is idempotent — fresh thumbnails are left alone
 unless `--force` is passed.
 
@@ -30,9 +30,9 @@ except ImportError as exc:  # pragma: no cover - hard to trigger deterministical
     sys.exit(f"Pillow is required: run with  uv run --with pillow python {Path(__file__).name}  ({exc})")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_NOTES_DIR = REPO_ROOT / "data" / "notes"
-MANIFEST = DATA_NOTES_DIR / "manifest.json"
-STAGED = DATA_NOTES_DIR / ".staged.json"
+IMAGES_DIR = REPO_ROOT / "src" / "images"
+MANIFEST = IMAGES_DIR / "manifest.json"
+STAGED = IMAGES_DIR / ".staged.json"
 
 DEFAULT_THUMB_SIZE = 400  # longest edge in pixels — plenty for the small gallery cards
 
@@ -48,10 +48,10 @@ def read_json(path: Path) -> list:
 
 
 def resolve_page_file(note: dict, fname: str) -> Path:
-    # `path` is resolved relative to data/notes/ (e.g. '../biology/<topic>/<file>').
+    # `path` is resolved relative to src/images/ (e.g. '../data/biology/<topic>/<file>').
     if note.get("path"):
-        return (DATA_NOTES_DIR / note["path"]).resolve()
-    return DATA_NOTES_DIR / note.get("id", "") / fname
+        return (IMAGES_DIR / note["path"]).resolve()
+    return IMAGES_DIR / note.get("id", "") / fname
 
 
 def page_paths() -> list[tuple[Path, dict]]:
@@ -73,8 +73,8 @@ def page_paths() -> list[tuple[Path, dict]]:
 
 def thumb_path(src: Path, note: dict | None = None) -> Path:
     if note is not None and note.get("path"):
-        # in-place note -> thumb lives in its own data/notes/<id>/ folder
-        return DATA_NOTES_DIR / note["id"] / (src.stem + ".thumb" + src.suffix)
+        # in-place note -> thumb lives in its own src/images/<id>/ folder
+        return IMAGES_DIR / note["id"] / (src.stem + ".thumb" + src.suffix)
     return src.parent / (src.stem + ".thumb" + src.suffix)
 
 
@@ -110,7 +110,7 @@ def main() -> int:
 
     sources = page_paths()
     if not sources:
-        print("[note-thumbs] no note page images found in data/notes/")
+        print("[note-thumbs] no note page images found in src/images/")
         return 0
 
     made = skipped = failed = 0
@@ -129,7 +129,7 @@ def main() -> int:
             failed += 1
 
     print(f"[note-thumbs] generated {made}, skipped {skipped}, failed {failed} "
-          f"thumbnail(s) in {DATA_NOTES_DIR}")
+          f"thumbnail(s) in {IMAGES_DIR}")
     return 1 if failed else 0
 
 

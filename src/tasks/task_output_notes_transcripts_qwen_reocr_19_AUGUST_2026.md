@@ -4,7 +4,7 @@
 
 ## Goal
 
-Improve the readability of `data/notes/manifest.json` OCR transcripts for the
+Improve the readability of `src/images/manifest.json` OCR transcripts for the
 web notes panel: strip OCR-model editorial narration, fix line-wrap/duplicate
 artifacts, flag genuinely ambiguous segments as `[AMBIGUOUS]`, and salvage the
 handwritten (`notes`-tagged) entries whose gemma3 transcripts were garbled or
