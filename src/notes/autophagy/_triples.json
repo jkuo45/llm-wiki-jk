@@ -6,12 +6,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Yoshinori Ohsumi was awarded the 2016 Nobel Prize in Physiology or Medicine for his pioneering work using yeast genetics to identify the core autophagy-related (ATG) genes that govern the process. Through systematic mutagenesis screens, he uncovered the molecular machinery responsible for autophagosome formation, including the ubiquitin-like conjugation systems that build the phagophore membrane. His discoveries established autophagy as a genetically tractable and evolutionarily conserved degradation pathway, providing the conceptual framework for all subsequent mammalian autophagy research. The recognition underscored the fundamental importance of autophagy in cellular homeostasis, development, and human disease.",
-      "zh-TW": ""
+      "zh-TW": "大隅良典（Yoshinori Ohsumi）因開創性地利用酵母遺傳學鑑定出主導此過程的核心自噬相關（ATG）基因，而獲頒2016年諾貝爾生理學或醫學獎。透過系統性的突變篩選，他揭示了負責自噬體形成的分子機制，包括建構吞噬泡膜的泛素樣共軛系統。他的發現確立了自噬作為一種可遺傳操作且演化上保守的降解途徑，為後續所有哺乳動物自噬研究提供了概念框架。此項榮譽凸顯了自噬在細胞穩態、發育和人類疾病中的根本重要性。"
     },
     "confidence": 0.95,
     "source_document": "Yoshinori Ohsumi.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "73f2294ff77e",
@@ -20,12 +20,12 @@
     "object": "Lysosomal catabolic process",
     "context": {
       "en-US": "Autophagy is a conserved lysosome-dependent catabolic process in which cytoplasmic constituents—including misfolded proteins, protein aggregates, damaged organelles, and intracellular pathogens—are sequestered into double-membrane autophagosomes and delivered to lysosomes for enzymatic degradation. The resulting macromolecular building blocks such as amino acids, fatty acids, and nucleotides are recycled to sustain metabolism and biosynthetic capacity during nutrient stress. As the cell's principal quality-control and nutrient-recycling system, autophagy is essential for maintaining proteostasis and organellar integrity across nearly all eukaryotic cells. Defects in autophagic flux are causally linked to aging, neurodegeneration, cancer, and metabolic disease, making it a central node in cellular homeostasis.",
-      "zh-TW": ""
+      "zh-TW": "自噬是一種保守的、依賴溶酶體的分解代謝過程，其中細胞質成分——包括錯誤折疊蛋白、蛋白聚集物、受損胞器和細胞內病原體——被隔離進入雙層膜自噬體，並遞送至溶酶體進行酶解降解。所產生的巨分子建構單元如胺基酸、脂肪酸和核苷酸被回收，以在營養壓力下維持代謝和生合成能力。作為細胞主要的品質控制和營養回收系統，自噬對於在幾乎所有真核細胞中維持蛋白質穩態和胞器完整性至關重要。自噬流缺陷與老化、神經退化、癌症和代謝疾病有因果關聯，使其成為細胞穩態中的核心節點。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "b6705852ec9a",
@@ -34,12 +34,12 @@
     "object": "Macroautophagy",
     "context": {
       "en-US": "Macroautophagy (commonly termed autophagy) is the best-characterized form, in which a de novo formed double-membrane structure called the phagophore expands to engulf cytoplasmic cargo and seals into an autophagosome. The autophagosome then fuses with a lysosome, forming an autolysosome where luminal contents are degraded by acidic hydrolases. This bulk and selective degradative route is orchestrated by the conserved ATG machinery, including the ULK1 initiation complex and the PI3K III/Beclin 1 nucleation complex. Macroautophagy is the dominant pathway induced by starvation, stress, and many pharmacological interventions and is the primary focus of most therapeutic autophagy modulation.",
-      "zh-TW": ""
+      "zh-TW": "巨自噬（通常稱為自噬）是特徵最清楚的形式，其中一種稱為吞噬泡、從頭形成的雙層膜結構擴展以吞噬細胞質貨物並封閉成自噬體。自噬體隨後與溶酶體融合，形成自噬溶酶體，其腔內容物被酸性水解酶降解。此種大規模且選擇性的降解途徑由保守的ATG機制協調，包括ULK1起始複合體和PI3K III/Beclin 1成核複合體。巨自噬是由飢餓、壓力和許多藥理介入所誘導的主要途徑，也是大多數治療性自噬調控的主要焦點。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "39f8d14ec24d",
@@ -48,12 +48,12 @@
     "object": "Microautophagy",
     "context": {
       "en-US": "Microautophagy involves the direct engulfment of cytoplasmic cargo by the lysosomal (or vacuolar) membrane through invagination, tubulation, or protrusion of the limiting membrane, without the requirement for a distinct autophagosome intermediate. The entrapped material is then internalized into the lysosomal lumen for degradation, a process that is particularly prominent in yeast vacuoles and in mammalian late endosomes/multivesicular bodies. Compared with macroautophagy, microautophagy operates with less selectivity and is regulated by distinct machineries, though it similarly contributes to organelle and protein turnover. It plays roles in lipid droplet turnover, membrane protein degradation, and quality control under both basal and stress conditions.",
-      "zh-TW": ""
+      "zh-TW": "微自噬涉及溶酶體（或液泡）膜透過界膜的內陷、成管或突起直接吞噬細胞質貨物，不需要獨立的自噬體中間體。被困住的物質隨後被內化進入溶酶體腔進行降解，此過程在酵母液泡和哺乳動物晚期內體／多泡體中特別顯著。與巨自噬相比，微自噬的選擇性較低，並由不同的機制調控，儘管它同樣有助於胞器和蛋白質的更新。它在脂滴更新、膜蛋白降解以及基礎和壓力條件下的品質控制中發揮作用。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "50df6e85279e",
@@ -62,12 +62,12 @@
     "object": "Chaperone-Mediated Autophagy",
     "context": {
       "en-US": "Chaperone-mediated autophagy (CMA) is a selective form of lysosomal degradation in which individual soluble cytosolic proteins bearing a pentapeptide KFERQ-like targeting motif are recognized by the cytosolic chaperone HSC70. The substrate-chaperone complex is then delivered to the lysosomal membrane, where the receptor LAMP-2A monomers translocate the unfolded substrate across the membrane into the lumen for degradation. Unlike macro- and microautophagy, CMA degrades one protein at a time and does not require membrane engulfment or autophagosome formation. CMA activity declines with age and is implicated in neurodegeneration and cancer, and it is subject to regulation by mTORC2 and other signaling nodes.",
-      "zh-TW": ""
+      "zh-TW": "伴護蛋白介導的自噬（CMA）是一種選擇性的溶酶體降解形式，其中帶有五肽KFERQ樣標靶基序的個別可溶性細胞質蛋白被細胞質伴護蛋白HSC70辨識。隨後受質—伴護蛋白複合體被遞送至溶酶體膜，由受體LAMP-2A單體將未折疊的受質跨膜轉運至腔內進行降解。不同於巨自噬和微自噬，CMA一次降解一個蛋白質，且不需要膜吞噬或自噬體形成。CMA活性隨年齡下降，並與神經退化和癌症有關，且受mTORC2和其他訊號節點的調控。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "ecdedcbd5d11",
@@ -76,12 +76,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "The ULK1 complex, composed of ULK1 or ULK2 kinase together with Atg13, FIP200, and Atg101, acts as the primary initiator of autophagosome formation downstream of nutrient sensing. Under starvation, AMPK directly activates ULK1 while mTORC1 is withdrawn, allowing the complex to phosphorylate targets and recruit the downstream PI3K III/Beclin 1 nucleation machinery. ULK1 kinase activity is essential for the localized recruitment of ATG proteins to the phagophore assembly site and for the earliest steps of membrane expansion. Thus the ULK1 complex serves as the integration point that converts nutrient and energy signals into the physical initiation of autophagosome biogenesis.",
-      "zh-TW": ""
+      "zh-TW": "ULK1複合體由ULK1或ULK2激酶與Atg13、FIP200和Atg101組成，作為營養感知下游自噬體形成的主要起始者。在飢餓下，AMPK直接活化ULK1，同時mTORC1被撤除，使該複合體能磷酸化標靶並招募下游的PI3K III/Beclin 1成核機制。ULK1激酶活性對於ATG蛋白局部招募至吞噬泡組裝位點以及膜擴展的最早步驟至關重要。因此，ULK1複合體作為將營養和能量訊號轉化為自噬體生物發生實質起始的整合點。"
     },
     "confidence": 0.95,
     "source_document": "ULK1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "0abf11960105",
@@ -90,12 +90,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "The class III phosphatidylinositol 3-kinase (PI3K III) complex, centered on Vps34 and including Beclin 1, Atg14, Vps15, and Ambra-1, generates phosphatidylinositol 3-phosphate (PI3P) at membranes to drive autophagosome nucleation. PI3P recruits effector proteins carrying PI3P-binding domains that organize the expanding phagophore and tether downstream ATG conjugation systems. Beclin 1 is a tumor suppressor whose activity is modulated by interacting partners and by anti-apoptotic Bcl-2 family proteins that restrain autophagy under fed conditions. This nucleation complex functions immediately downstream of the ULK1 initiator and is a critical control node for the magnitude of autophagic responses.",
-      "zh-TW": ""
+      "zh-TW": "第三類磷脂醯肌醇3-激酶（PI3K III）複合體以Vps34為核心，並包含Beclin 1、Atg14、Vps15和Ambra-1，在膜上生成磷脂醯肌醇3-磷酸（PI3P）以驅動自噬體成核。PI3P招募帶有PI3P結合域的效應蛋白，這些蛋白組織擴展中的吞噬泡並繫留下游的ATG共軛系統。Beclin 1是一種腫瘤抑制因子，其活性受交互作用夥伴以及抗凋亡Bcl-2家族蛋白的調節，後者在進食狀態下抑制自噬。此成核複合體作用於ULK1起始者緊接的下游，是自噬反應強度的關鍵控制節點。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "ec919e5eaa18",
@@ -104,12 +104,12 @@
     "object": "Intermittent Fasting",
     "context": {
       "en-US": "Intermittent fasting (IF) is a dietary intervention that periodically restricts caloric intake, producing the nutrient deprivation signals that robustly induce autophagy in many tissues. In preclinical cancer models, cycles of IF combined with chemotherapy have been shown to slow tumor growth and improve therapeutic index by exploiting the differential stress resistance of normal versus malignant cells. The protective effect of autophagy during fasting helps normal cells tolerate chemotherapy, while many tumors remain reliant on constitutive autophagy for survival. These findings position IF as a translational strategy to modulate autophagic tone for anti-cancer and pro-longevity benefits.",
-      "zh-TW": ""
+      "zh-TW": "間歇性斷食（IF）是一種週期性限制熱量攝取的飲食介入，產生營養剝奪訊號，在許多組織中強力誘導自噬。在臨床前癌症模型中，IF週期與化療相結合已被證明可減緩腫瘤生長並改善治療指數，這是透過利用正常細胞與惡性細胞的差異性壓力抵抗。斷食期間自噬的保護作用幫助正常細胞耐受化療，而許多腫瘤仍依賴組成型自噬以存活。這些發現將IF定位為一種轉譯策略，用於調節自噬張力以獲得抗癌和促長壽的益處。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "40c920b68d3e",
@@ -118,12 +118,12 @@
     "object": "Cancer",
     "context": {
       "en-US": "Autophagy exerts a context-dependent, dual role in cancer that is determined by tumor stage, genetic background, and microenvironment. In initiated cells and early neoplasia, basal autophagy acts as a tumor-suppressive quality-control mechanism by removing damaged mitochondria, suppressing oxidative stress, and limiting genomic instability and inflammation. In established tumors, however, autophagy is frequently upregulated and co-opted to support the metabolic demands of rapidly proliferating cancer cells and to promote survival under hypoxia, nutrient limitation, and therapy. This dualism means that autophagy inhibition can be either anti-tumor or, paradoxically, tumor-promoting, depending on context.",
-      "zh-TW": ""
+      "zh-TW": "自噬在癌症中發揮依情境而定的雙重角色，由腫瘤分期、遺傳背景和微環境決定。在起始細胞和早期腫瘤發生中，基礎自噬透過移除受損粒線體、抑制氧化壓力和限制基因組不穩定與發炎，作為腫瘤抑制性的品質控制機制。然而，在已形成的腫瘤中，自噬經常上調並被徵用以支持快速增殖癌細胞的代謝需求，並促進在缺氧、營養限制和治療下的存活。這種雙重性意味著自噬抑制可以是抗腫瘤的，或者矛盾地是促腫瘤的，取決於情境。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "a489f1e02f60",
@@ -132,12 +132,12 @@
     "object": "Tumor suppressor",
     "context": {
       "en-US": "Beclin 1 is a core autophagy protein and a haploinsufficient tumor suppressor whose monoallelic deletion is frequently observed in human ovarian, breast, and prostate cancers. Loss of one BECN1 allele reduces autophagic flux, increasing susceptibility to oxidative damage, genomic instability, and inflammation that favor tumor initiation. Mechanistically, Beclin 1 functions as the scaffold of the PI3K III nucleation complex, and its interaction with Bcl-2 family members further couples autophagy to apoptotic regulation. Its frequent deletion in epithelial cancers established autophagy as a genuine tumor-suppression pathway.",
-      "zh-TW": ""
+      "zh-TW": "Beclin 1是一種核心自噬蛋白和單倍體不足型腫瘤抑制因子，其單等位基因缺失常見於人類卵巢癌、乳腺癌和前列腺癌。失去一個BECN1等位基因會降低自噬流，增加對氧化損傷、基因組不穩定和發炎的易感性，有利於腫瘤起始。在機制上，Beclin 1作為PI3K III成核複合體的支架，其與Bcl-2家族成員的交互作用進一步將自噬與凋亡調控耦合。它在上皮癌中的頻繁缺失確立了自噬作為一條真正的腫瘤抑制途徑。"
     },
     "confidence": 0.95,
     "source_document": "Tumor Suppressor.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "5c2bcfc9b503",
@@ -146,12 +146,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Oncogenic RAS signaling drives a metabolic reprogramming in which transformed cells upregulate basal autophagy to supply the amino acids, lipids, and nucleotides needed for sustained proliferation. Mutant RAS activates both mTOR and, via nutrient and energy stress feedback, the autophagic machinery, allowing tumor cells to survive in nutrient-poor microenvironments. Pharmacologic or genetic blockade of autophagy selectively impairs the viability of RAS-driven tumors, highlighting autophagy as a dependency in these cancers. This dependency has motivated clinical efforts to combine RAS pathway-targeted or standard therapies with autophagy inhibition.",
-      "zh-TW": ""
+      "zh-TW": "致癌性RAS訊號驅動一種代謝重編程，其中轉化細胞上調基礎自噬以供应持續增殖所需的胺基酸、脂質和核苷酸。突變RAS同時活化mTOR，並透過營養和能量壓力回饋活化自噬機制，使腫瘤細胞能在營養貧乏的微環境中存活。藥理或遺傳性阻斷自噬會選擇性地損害RAS驅動腫瘤的存活能力，凸顯自噬在這些癌症中的依賴性。此依賴性推動了將RAS路徑標靶或標準療法與自噬抑制相結合的臨床努力。"
     },
     "confidence": 0.95,
     "source_document": "RAS.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "df9f9b45f4d8",
@@ -160,12 +160,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Dietary restriction (DR) and its variants are among the most potent physiological activators of autophagy, engaging the pathway in most cultured cells and across many organs in vivo. By lowering circulating nutrients and insulin while raising AMP/ATP ratios, DR relieves mTORC1 inhibition and activates AMPK, thereby de-repressing the ULK1 complex and TFEB-dependent lysosomal programs. In model organisms such as C. elegans, DR induces autophagy through coordinated transcriptional changes mediated by orthologs like HLH-30/TFEB. The health- and lifespan-extending effects of DR are widely attributed in substantial part to this induction of adaptive autophagy.",
-      "zh-TW": ""
+      "zh-TW": "飲食限制（DR）及其變體是最強效的自噬生理活化因子之一，在大多數培養細胞和體內許多器官中啟動該途徑。透過降低循環營養素和胰島素，同時提高AMP/ATP比值，DR解除mTORC1的抑制並活化AMPK，從而解除對ULK1複合體和TFEB依賴性溶酶體程序的抑制。在如C. elegans等模式生物中，DR透過HLH-30/TFEB等同源蛋白介導的協調轉錄變化誘導自噬。DR促進健康和延長壽命的效應，在很大程度上被歸因於此適應性自噬的誘導。"
     },
     "confidence": 0.95,
     "source_document": "Dietary Restriction.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "13ded5bd7e26",
@@ -174,12 +174,12 @@
     "object": "Caloric Restriction",
     "context": {
       "en-US": "Caloric restriction mimetics are pharmacological agents that reproduce the metabolic and autophagic benefits of caloric restriction without sustained food reduction. Representatives such as 2-deoxyglucose, metformin, and spermidine activate AMPK and/or inhibit mTORC1, recapitulating the low-energy signaling state that drives autophagy. By mimicking nutrient scarcity at the signaling level, these compounds induce lysosomal and autophagic gene programs similar to those engaged during DR. They are attractive translationally because they avoid the practical and compliance limitations of long-term dietary restriction in humans.",
-      "zh-TW": ""
+      "zh-TW": "熱量限制擬似物是能再現熱量限制的代謝和自噬益處而無需持續減少食物的藥理劑。代表物如2-deoxyglucose、metformin和spermidine活化AMPK和／或抑制mTORC1，重現驅動自噬的低能量訊號狀態。透過在訊號層面模擬營養匱乏，這些化合物誘導與DR期間相似的溶酶體和自噬基因程序。它們在轉譯上具吸引力，因為它們避免了人類長期飲食限制的實際和依從性限制。"
     },
     "confidence": 0.95,
     "source_document": "Caloric Restriction Mimetics.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "a85024f4b41e",
@@ -188,12 +188,12 @@
     "object": "IGF1",
     "context": {
       "en-US": "Intermittent fasting lowers circulating insulin-like growth factor 1 (IGF-1), a potent mitogenic and pro-survival hormone whose signaling converges on the PI3K-Akt-mTOR axis to inhibit autophagy. In a breast cancer model, a 48-hour fasting period reduced IGF-1 levels by approximately 70%, dampening pro-tumorigenic IGF-1 receptor signaling. The resulting reduction in mTORC1 activity contributes to the fasting-induced activation of autophagy and the enhanced stress resistance of normal tissues. Lower IGF-1 during fasting is therefore a key endocrine mechanism linking IF to both tumor suppression and longevity.",
-      "zh-TW": ""
+      "zh-TW": "間歇性斷食降低循環的類胰島素生長因子1（IGF-1），這是一種強效的促有絲分裂和促存活激素，其訊號匯聚於PI3K-Akt-mTOR軸以抑制自噬。在乳腺癌模型中，48小時斷食使IGF-1水平降低約70%，減弱促腫瘤生成的IGF-1受體訊號。由此產生的mTORC1活性降低有助於斷食誘導的自噬活化和正常組織增強的壓力抵抗。因此，斷食期間較低的IGF-1是將IF與腫瘤抑制和長壽連結的關鍵內分泌機制。"
     },
     "confidence": 0.95,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "9c5d2ab7d1c7",
@@ -202,12 +202,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Intermittent fasting induces autophagy as an early cellular adaptation to the periodic nutrient and energy deficit it imposes. In vitro, fasting-mimetic conditions activate the autophagic machinery and concurrently downregulate the ectonucleotidase CD73, altering extracellular adenosine metabolism. The induction is largely mediated through AMPK activation and mTORC1 inhibition as nutrient and insulin signals fall during the fasting window. This autophagic engagement is thought to underlie many of the cytoprotective and anti-aging effects attributed to IF regimens.",
-      "zh-TW": ""
+      "zh-TW": "間歇性斷食誘導自噬，作為對其所施加的週期性營養和能量虧損的早期細胞適應。在體外，斷食模擬條件活化自噬機制並同時下調胞外核苷酸酶CD73，改變細胞外腺苷代謝。此誘導主要透過AMPK活化和mTORC1抑制介導，因為在斷食窗口期間營養和胰島素訊號下降。這種自噬的參與被認為是歸因於IF方案的許多細胞保護和抗老化效應的基礎。"
     },
     "confidence": 0.95,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "f984155d7f1f",
@@ -216,12 +216,12 @@
     "object": "Intermittent Fasting",
     "context": {
       "en-US": "Cisplatin is a platinum-based chemotherapeutic whose efficacy is augmented when combined with intermittent fasting in both cellular and animal models. Fasting generates a differential stress resistance in which normal cells enter a protective, autophagy-dependent quiescent state while many tumor cells remain vulnerable to platinum-DNA adduct formation. The improved therapeutic window reduces chemotherapy-associated toxicity while slowing tumor growth, suggesting a combinatorial strategy. These findings support IF as an adjunct to sensitize tumors and protect host tissue during cisplatin-based regimens.",
-      "zh-TW": ""
+      "zh-TW": "Cisplatin是一種鉑類化療藥，在細胞和動物模型中與間歇性斷食合併使用時其療效增強。斷食產生一種差異性壓力抵抗，其中正常細胞進入保護性的、依賴自噬的靜止狀態，而許多腫瘤細胞仍易受鉑—DNA加合物形成的影響。改善的治療窗口在減緩腫瘤生長的同時降低化療相關毒性，提示一種組合策略。這些發現支持將IF作為輔助手段，在以cisplatin為基礎的療程中增敏腫瘤並保護宿主組織。"
     },
     "confidence": 0.95,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "2148c38bba95",
@@ -230,12 +230,12 @@
     "object": "Intermittent Fasting",
     "context": {
       "en-US": "CD73, the rate-limiting ectonucleotidase that converts AMP to immunosuppressive adenosine in the tumor microenvironment, is downregulated following intermittent fasting. Reduced CD73 expression leads to diminished extracellular adenosine, which can relieve adenosine-mediated immune suppression and enhance anti-tumor immunity. The regulation is observed in vitro under fasting-mimetic conditions, linking IF to both metabolic and immunological remodeling. Because adenosine signaling promotes tumor evasion, CD73 downregulation represents a plausible mechanism by which fasting improves cancer therapy outcomes.",
-      "zh-TW": ""
+      "zh-TW": "CD73是腫瘤微環境中將AMP轉化為免疫抑制性腺苷的限速胞外核苷酸酶，在間歇性斷食後下調。CD73表現降低導致細胞外腺苷減少，可緩解腺苷介導的免疫抑制並增強抗腫瘤免疫。此調節在體外斷食模擬條件下觀察到，將IF與代謝和免疫重塑連結。由於腺苷訊號促進腫瘤逃避免疫，CD73下調代表斷食改善癌症治療結果的一個合理機制。"
     },
     "confidence": 0.75,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "ac8f52dfe0e6",
@@ -244,12 +244,12 @@
     "object": "Aging",
     "context": {
       "en-US": "Autophagic flux—the complete rate of cargo delivery to and degradation within lysosomes—declines progressively with age in many tissues. This decline stems from impaired initiation, reduced lysosomal proteolytic capacity, and accumulated lipofuscin that compromises lysosomal function, producing a state of proteostatic insufficiency. The resulting accumulation of damaged organelles and protein aggregates contributes centrally to the aging phenotype and to age-related diseases such as neurodegeneration and sarcopenia. Restoration of autophagic flux is therefore a major hypothesized mechanism through which longevity interventions exert their benefits.",
-      "zh-TW": ""
+      "zh-TW": "自噬流——即貨物遞送至溶酶體及在溶酶體內降解的完整速率——在許多組織中隨年齡漸進下降。此下降源於起始受損、溶酶體蛋白水解能力降低，以及累積的脂褐質損害溶酶體功能，產生蛋白質穩態不足的狀態。由此導致的受損胞器和蛋白聚集物累積，對老化表型和神經退化、肌肉減少症等與年齡相關疾病有核心貢獻。因此，恢復自噬流是長壽介入發揮其益處的一個主要假設機制。"
     },
     "confidence": 0.95,
     "source_document": "Autophagic Flux.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "3ccde42b8c5b",
@@ -258,12 +258,12 @@
     "object": "Immune Aging",
     "context": {
       "en-US": "Autophagy-inducing interventions have been shown to rejuvenate features of adaptive immune aging, a process characterized by thymic involution, reduced naïve T cell output, and diminished responses to vaccination and infection. By clearing damaged mitochondria and improving proteostasis in lymphocytes, autophagy inducers restore hematopoietic stem cell function and enhance memory CD8+ T cell generation. Pharmacological or dietary activation of autophagy counteracts the functional defects that accumulate in immune cells with age. These effects position autophagy enhancement as a plausible strategy to mitigate immunosenescence.",
-      "zh-TW": ""
+      "zh-TW": "誘導自噬的介入已被證明可恢復適應性免疫老化的特徵，此過程以胸腺退化、初始T細胞產出減少以及對疫苗和感染的反應減弱為特徵。透過清除受損粒線體並改善淋巴細胞中的蛋白質穩態，自噬誘導劑恢復造血幹細胞功能並增強記憶性CD8+ T細胞的生成。藥理或飲食性活化自噬可抵消免疫細胞隨年齡累積的功能缺陷。這些效應將增強自噬定位為減緩免疫老化的合理策略。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy Inducer.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "baee7b80e54f",
@@ -272,12 +272,12 @@
     "object": "mTORC1",
     "context": {
       "en-US": "Rapamycin is a potent allosteric inhibitor of mTOR complex 1 (mTORC1), binding the intracellular immunophilin FKBP12 to form a complex that occludes the mTORC1 active site. By inhibiting mTORC1, rapamycin relieves the constitutive repression of the ULK1 complex and of TFEB/TFE3, thereby inducing autophagy and lysosomal biogenesis. Its specificity for mTORC1 (with weaker, delayed effects on mTORC2) makes it a canonical tool for dissecting nutrient-signaling pathways. Rapamycin and its analogs are foundational longevity and immunosuppressive agents whose benefits are largely attributed to mTORC1 inhibition.",
-      "zh-TW": ""
+      "zh-TW": "Rapamycin，1970年代從復活節島（Rapanui）的吸水鏈黴菌中發現的抗生素，抑制mTORC1，這是mTOR途徑中的主激酶，調節細胞生長、蛋白質合成和代謝。透過抑制mTORC1，rapamycin模擬由熱量限制實現的營養稀缺的生物化學，將細胞活性從合成代謝過程轉向維護和修復途徑，促進自噬和改善蛋白質恆定性。mTORC1活性隨年齡增長而增加，導致年齡相關病理，因此其理論上可以減緩老化。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T06:11:05Z"
   },
   {
     "id": "e43add586696",
@@ -286,12 +286,12 @@
     "object": "Immune Aging",
     "context": {
       "en-US": "Rapamycin delays immune aging by inhibiting mTORC1, an intervention shown to restore hematopoietic stem cell function and enhance the generation and persistence of memory CD8+ T cells in aged subjects. Mechanistically, mTORC1 inhibition shifts lymphocytes toward a more naïve, less exhausted state and promotes autophagy-mediated quality control within immune cells. In preclinical and clinical studies, transient rapamycin treatment improved immune responses to vaccination in the elderly. These effects illustrate how targeting the mTOR-autophagy axis can functionally rejuvenate the aging immune system.",
-      "zh-TW": ""
+      "zh-TW": "Rapamycin透過抑制mTORC1來延緩免疫老化，此介入已被證明可恢復造血幹細胞功能並增強老年個體中記憶性CD8+ T細胞的生成與持續。在機制上，mTORC1抑制將淋巴細胞推向更初始、較不耗竭的狀態，並促進免疫細胞內自噬介導的品質控制。在臨床前和臨床研究中，短暫的rapamycin治療改善了老年人對疫苗的免疫反應。這些效應說明了標靶mTOR—自噬軸如何能在功能上使老化的免疫系統恢復年輕。"
     },
     "confidence": 0.95,
     "source_document": "Immune Aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "8ded304beda8",
@@ -300,12 +300,12 @@
     "object": "AMPK",
     "context": {
       "en-US": "Metformin, the first-line type 2 diabetes drug, activates AMP-activated protein kinase (AMPK) primarily by inhibiting mitochondrial respiratory complex I, which mildly elevates the cellular AMP/ATP ratio. Activated AMPK phosphorylates downstream targets that restore energy homeostasis, including TSC2 and Raptor, which in turn suppress mTORC1. This indirect, energy-stress-mediated activation distinguishes metformin from direct AMPK agonists and underlies many of its metabolic benefits. AMPK activation by metformin also accounts for its autophagy-inducing and potential anti-aging effects.",
-      "zh-TW": ""
+      "zh-TW": "Metformin是一線第二型糖尿病藥物，主要透過抑制粒線體呼吸鏈複合體I來活化AMP活化蛋白激酶（AMPK），輕微提高細胞AMP/ATP比值。活化的AMPK磷酸化下游標靶以恢復能量穩態，包括TSC2和Raptor，後者進而抑制mTORC1。這種間接的、能量壓力介導的活化使metformin有別於直接的AMPK激動劑，並構成其許多代謝益處的基礎。Metformin對AMPK的活化也解釋了其誘導自噬和潛在抗老化的效應。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Autophagy takes it all – autophagy inducers target immune aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "c84ae3d55817",
@@ -314,12 +314,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Metformin induces autophagy by activating AMPK and thereby inhibiting mTORC1, relieving the brake on the autophagic machinery. In primary CD4+ T cells isolated from older individuals, metformin treatment restored autophagic flux, suggesting a mechanism to counter age-associated immune dysfunction. The induction is consistent with the drug's broader metabolic and putative longevity effects mediated through energy-sensing pathways. By enhancing autophagic clearance, metformin may reduce senescence-associated inflammation and improve cellular resilience.",
-      "zh-TW": ""
+      "zh-TW": "Metformin透過活化AMPK並從而抑制mTORC1來誘導自噬，解除對自噬機制的制動。在從老年人分離的原代CD4+ T細胞中，metformin治療恢復了自噬流，提示一種抵消與年齡相關免疫功能障碍的機制。此誘導與該藥物透過能量感知途徑發揮的更廣泛代謝和假定長壽效應一致。透過增強自噬清除，metformin可能減少衰老相關發炎並改善細胞韌性。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "d7b5aadb954a",
@@ -328,12 +328,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Spermidine is a naturally occurring polyamine with conserved anti-aging properties that acts as a potent inducer of autophagy across organisms from yeast to humans. It promotes autophagy through multiple mechanisms, including enhancement of histone H3 deacetylation and, via hypusination of eIF5A, facilitation of TFEB translation and lysosomal gene expression. Dietary spermidine supplementation extends lifespan and protects against cardiovascular and cognitive decline in preclinical models. Its ability to engage the autophagy-lysosomal network safely makes it a leading caloric-restriction mimetic candidate.",
-      "zh-TW": ""
+      "zh-TW": "Spermidine是一種天然存在、具有保守抗老化特性的多胺，作為從酵母到人類各生物中強效的自噬誘導劑。它透過多種機制促進自噬，包括增強組蛋白H3去乙醯化和透過eIF5A的hypusination促進TFEB轉譯及溶酶體基因表現。飲食補充spermidine在臨床前模型中延長壽命並保護免受心血管和認知衰退。其安全參與自噬—溶酶體網絡的能力，使其成為領先的熱量限制擬似物候選者。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "02317f76188c",
@@ -342,12 +342,12 @@
     "object": "B Cell responses",
     "context": {
       "en-US": "Spermidine supplementation rejuvenates age-impaired B cell responses by inducing autophagy in memory T and B lymphocytes, restoring their functional competence. The polyamine's ability to clear damaged organelles and enhance proteostasis in these cells counteracts the decline in vaccine responsiveness seen with immune aging. By supporting lymphoid cell fitness, spermidine addresses a key component of immunosenescence through an autophagy-dependent mechanism. These effects complement its broader rejuvenation of adaptive immunity.",
-      "zh-TW": ""
+      "zh-TW": "補充spermidine透過在記憶性T和B淋巴細胞中誘導自噬，恢復因年齡受損的B細胞反應，使其功能能力復原。此多胺清除受損胞器和增強這些細胞中蛋白質穩態的能力，抵消了免疫老化所見的疫苗反應性下降。透過支持淋巴樣細胞健康，spermidine透過依賴自噬的機制解決免疫老化的關鍵組成部分。這些效應補充了其對適應性免疫更廣泛的恢復作用。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - The autophagy enhancer spermidine reverses arterial aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "5770d7490769",
@@ -356,12 +356,12 @@
     "object": "eIF5A",
     "context": {
       "en-US": "Spermidine serves as the essential aminobutyl donor for the post-translational hypusination of eukaryotic translation initiation factor 5A (eIF5A), a modification catalyzed by deoxyhypusine synthase and deoxyhypusine hydroxylase. Hypusinated eIF5A is required for efficient translation of a subset of mRNAs with polyproline tracts, including that encoding the master autophagy regulator TFEB. By facilitating TFEB protein synthesis, spermidine upregulates the entire autophagy-lysosomal transcriptional program. This hypusination-dependent axis is a distinctive mechanistic link between polyamine metabolism and autophagic control.",
-      "zh-TW": ""
+      "zh-TW": "Spermidine作為真核轉譯起始因子5A（eIF5A）轉譯後hypusination所必需的胺基丁基供體，此修飾由deoxyhypusine synthase和deoxyhypusine hydroxylase催化。經hypusination的eIF5A是高效轉譯含多脯胺酸序列的一類mRNA所必需的，包括編碼自噬主調控因子TFEB者。透過促進TFEB蛋白合成，spermidine上調整個自噬—溶酶體轉錄程序。此依賴hypusination的軸線是多胺代謝與自噬控制之間一個獨特的機制連結。"
     },
     "confidence": 0.95,
     "source_document": "eIF5A.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "30740809f04a",
@@ -370,12 +370,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "mTORC1 is the master nutrient-sensitive repressor of autophagy, integrating signals from growth factors, amino acids, and energy to suppress the pathway when resources are abundant. Active mTORC1 phosphorylates ULK1 and Atg13, preventing initiation complex assembly, and phosphorylates TFEB/TFE3 to retain them in the cytosol, blocking lysosomal gene expression. Only when mTORC1 is inhibited—by starvation, AMPK, or rapamycin—does autophagy proceed. This inhibitory relationship places mTORC1 at the apex of autophagic control in mammalian cells.",
-      "zh-TW": ""
+      "zh-TW": "mTORC1是mTOR通路中的主激酶，通常透過磷酸化Unc-51樣自噬啟動激酶1（ULK1）複合物的成分來抑制自噬。當雷帕霉素抑制mTORC1時，這種抑制被解除，自噬體形成啟動，激活降解蛋白質聚集物和受損細胞器的細胞回收過程。這種自噬抑制的解除是雷帕霉素提出的geroprotective機制的核心，維持蛋白質穩定並減少有絲分裂後細胞中的「毒性負擔」，但網路上抗衰老背景下從該通路得出的長壽聲稱並非基於正式的geroscience，缺乏精確的生物學...。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T06:07:10Z"
   },
   {
     "id": "aa05016e8435",
@@ -384,12 +384,12 @@
     "object": "Autophagy",
     "context": {
       "en-US": "AMPK is a canonical inducer of autophagy that responds to rising AMP/ATP ratios during metabolic stress by directly phosphorylating and activating ULK1 at sites that promote phagophore formation. Simultaneously, AMPK inhibits mTORC1 by phosphorylating TSC2 and the mTORC1 subunit Raptor, removing the dominant brake on autophagy. AMPK can also phosphorylate TFEB/STBD1 to further enhance autophagic and glycogenolytic responses. Through these parallel actions, AMPK couples cellular energy scarcity to the rapid deployment of autophagic degradation.",
-      "zh-TW": ""
+      "zh-TW": "AMPK是自噬的典型誘導劑，在代謝壓力期間透過上升的AMP/ATP比值，直接磷酸化並活化促進吞噬泡形成的ULK1位點來回應。同時，AMPK透過磷酸化TSC2和mTORC1次單元Raptor來抑制mTORC1，移除對自噬的主要制動。AMPK還可磷酸化TFEB/STBD1以進一步增強自噬和糖原分解反應。透過這些並行作用，AMPK將細胞能量匱乏與自噬降解的快速部署耦合。"
     },
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-07-28T17:48:14Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "6e3ae9f82c5b",

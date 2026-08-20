@@ -34,11 +34,11 @@
     "object": "Senescent Cells",
     "context": {
       "en-US": "ACase is overexpressed 5- to 20-fold in replicatively senescent WI-38 fibroblasts compared to proliferative controls, creating a pro-ferroptotic membrane lipid profile.",
-      "zh-TW": ""
+      "zh-TW": "酸甘油酯酶 (ACase/ASAH1) 在複製衰老的人類 WI-38  fibroblasts 中，與增生細胞相比，表達量明顯上調，Western blot 驗證表達量高出 5-20 倍。與鐵蛋白死亡 (ferroptosis) 調節因子 ACSL4 一起，ACase 在衰老中被上調表達的脂質代謝酶之一。ACase 下調顯著降低了衰老細胞中的其水平（儘管未完全，與衰老中 ACase 的增加穩定性一致），並且衰老表型本身——p21 表現、SA-β-gal 活性和 IL-6/IL-8 的分泌——在下調後仍然保持完整。"
     },
     "confidence": "0.95",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-15T04:42:45Z",
+    "updated": "2026-08-20T04:58:59Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
   },
   {
@@ -104,11 +104,11 @@
     "object": "Reactive Oxygen Species",
     "context": {
       "en-US": "Adrenochrome semiquinone radical generates ROS through redox cycling. The autoxidation/redox cycling pathway produces superoxide, amplifying oxidative stress.",
-      "zh-TW": ""
+      "zh-TW": "Adrenochrome 的氧化還原循環在生理條件下產生活性氧物種並耗竭麩胱甘肽等細胞抗氧化劑，這是其心臟毒性的基礎。其 indoline-dione（o-quinone）核心的反覆還原與再氧化會產生超氧陰離子與下游氧化劑，損害細胞組分。由於游離、未共軛的 adrenochrome 極不穩定，此促氧化活性通常透過共軛（如 adrenochrome monoaminoguanidine）而減緩。若該共軛物發生顯著的全身性水解，局部釋出的游離 adrenochrome 可能無意間促進而非緩解氧化壓力。"
     },
     "confidence": "0.95",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-15T04:42:45Z",
+    "updated": "2026-08-20T06:56:15Z",
     "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
   },
   {
@@ -692,11 +692,11 @@
     "object": "Epinephrine",
     "context": {
       "en-US": "Activated neutrophils oxidize local epinephrine to adrenochrome via ROS and myeloperoxidase, accounting for >80% of adrenaline oxidation in neutrophil-rich environments. [HYPOTHESIS: quantitative claim]",
-      "zh-TW": ""
+      "zh-TW": "Neutrophils are polymorphonuclear leukocytes whose respiratory burst generates large amounts of reactive oxygen species, including superoxide and hydroxyl radicals。Both stimulated neutrophils and cell-free granulocyte homogenates oxidize epinephrine to adrenochrome through a radical chain process, and medium released from activated cells can oxidize adrenaline extracellularly。This oxidation can account for more than 80% of adrenaline breakdown in certain inflammatory conditions, far outpacing the normal enzymatic routes such as catechol-O-methyltransferase and monoamine oxidase。Superoxide dismutase and catalase inhibit the reaction, confirming its dependence on reactive oxygen species。This mechanism provides a cellular basis for adrenochrome formation wherever neutrophils accumulate。"
     },
     "confidence": "0.50",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-15T04:42:45Z",
+    "updated": "2026-08-20T06:43:53Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
   },
   {
@@ -986,11 +986,11 @@
     "object": "Epinephrine",
     "context": {
       "en-US": "COMT is the primary clearance route for epinephrine (~60-70% via O-methylation). Competition with the oxidative cyclization pathway determines adrenochrome formation.",
-      "zh-TW": ""
+      "zh-TW": "Catechol-O-methyltransferase（COMT）是兒茶酚胺代謝中的主要酶，它甲基化 epinephrine 的其中一個兒茶酚羥基，使用 S-adenosylmethionine 作為甲基供體將其轉化為 metanephrine。COMT 介導的甲基化是終止 adrenaline 訊號並為其排泄做準備的兩大主要途徑之一，與 MAO 介導的氧化脫胺並行。由於 COMT 迅速清除 adrenaline，epinephrine 氧化為 adrenochrome 在正常條件下仍是次要的旁路。抑制 COMT 會升高兒茶酚胺濃度，並可使更大比例的 epinephrine 轉向氧化轉化為 adrenochrome。"
     },
     "confidence": "0.95",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-15T04:42:45Z",
+    "updated": "2026-08-20T06:56:15Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
   },
   {
@@ -2680,11 +2680,11 @@
     "object": "Antioxidants",
     "context": {
       "en-US": "Chronic antioxidant supplementation can inhibit the hormetic response and thereby block the cytoprotective adaptations mitohormesis induces. This may explain disappointing antioxidant clinical trials (SELECT, HOPE, Bjelakovic meta-analysis) where large meta-analyses generally failed to show benefit and sometimes suggested increased mortality.",
-      "zh-TW": ""
+      "zh-TW": "長期抗氧化補充可抑制促效應反應，從而阻斷粒線體促效應通常誘導的細胞保護適應。這可能解釋了抗氧化臨床試驗令人失望的結果，大型薈萃分析通常未能顯示益處，在某些情況下甚至顯示死亡率增加。支持性證據來自人體研究，顯示抗氧化補充劑抑制運動的有益效果，而運動本身被視為輕度壓力源。抗氧化劑可能阻止觸發適應性反應所需的粒線體 ROS 升高。"
     },
     "confidence": "0.90",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-15T04:42:45Z",
+    "updated": "2026-08-20T06:05:15Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
   },
   {
@@ -2974,11 +2974,11 @@
     "object": "Autophagy",
     "context": {
       "en-US": "Intermittent fasting (16:8 or 20:4) is the primary shred-phase tool to drive autophagy, with fasted training maximizing the AMPK signal. Refined sugars and alcohol shut the autophagic process down, so timing and macronutrient strategy are essential to the cleanup benefit.",
-      "zh-TW": ""
+      "zh-TW": "間歇性斷食誘導自噬，作為對其所施加的週期性營養和能量虧損的早期細胞適應。在體外，斷食模擬條件活化自噬機制並同時下調胞外核苷酸酶CD73，改變細胞外腺苷代謝。此誘導主要透過AMPK活化和mTORC1抑制介導，因為在斷食窗口期間營養和胰島素訊號下降。這種自噬的參與被認為是歸因於IF方案的許多細胞保護和抗老化效應的基礎。"
     },
     "confidence": "0.90",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-15T04:42:45Z",
+    "updated": "2026-08-20T07:39:11Z",
     "source": "task_output_physiologist_shred_vs_bulk.md"
   }
 ]

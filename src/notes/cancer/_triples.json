@@ -5802,12 +5802,12 @@
     "object": "Tubulin",
     "context": {
       "en-US": "Mebendazole binds the colchicine site of beta-tubulin, inhibiting microtubule polymerization (Sasaki et al., Mol Cancer Ther 2002).",
-      "zh-TW": ""
+      "zh-TW": "Mebendazole 在秋水仙鹼位點結合 β-微管蛋白，抑制微管組裝（Sasaki et al., Mol Cancer Ther 2002）。"
     },
     "confidence": 0.95,
     "source_document": "Mebendazole.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-16T22:55:28Z"
+    "updated": "2026-08-20T06:19:41Z"
   },
   {
     "id": "6c1edb2033eb",

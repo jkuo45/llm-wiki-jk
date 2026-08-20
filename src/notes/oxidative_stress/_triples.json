@@ -2400,12 +2400,12 @@
     "object": "NRF2",
     "context": {
       "en-US": "Sulforaphane activates NRF2 by alkylating KEAP1 cysteines, displacing NRF2 and inducing antioxidant and phase-II genes; in asthma models it restores antioxidant gene expression in the airway. This makes it a prototype NRF2-activating phytochemical. The directionality is electrophile to NRF2-dependent defense. A caveat is that clinical benefit in asthma is promising but not yet definitive, and effects depend on dose and bioavailability. Because sulforaphane is derived from glucoraphanin in broccoli, dietary intake and supplementation are both being studied in respiratory and metabolic conditions.",
-      "zh-TW": ""
+      "zh-TW": "蘿蔔硫素，在西蘭花芽中大量發現，被強調為NRF2的強效激活劑和II期解毒酶的上調劑。NRF2是定義mitohormesis的急性ROS脈衝激活的關鍵應激反應通路之一，與AMPK、PGC-1α和SIRT1並列。因此，十字花科蔬菜在飲食方案中被推薦為富含多酚的xenohormetins和NRF2激活劑，支持hormetic反應。"
     },
     "confidence": 0.75,
     "source_document": "Asthma.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T06:14:36Z"
   },
   {
     "id": "b63a4e88d731",
@@ -2694,12 +2694,12 @@
     "object": "Lipid Peroxidation",
     "context": {
       "en-US": "Ferroptosis is driven by lipid peroxidation, specifically iron-dependent accumulation of oxidized phosphatidylethanolamines that rupture the membrane in this regulated cell-death program. GPx4 normally holds this in check by reducing phospholipid hydroperoxides. The directionality is peroxidation to lethal membrane failure. A caveat is that ferroptosis also requires labile iron and polyunsaturated phospholipids, so lipid peroxidation is necessary but not solely sufficient. Inhibitors of GPX4 or of system xc- trigger ferroptosis by unleashing the same peroxidation pathway, providing pharmacological probes of this death mode.",
-      "zh-TW": ""
+      "zh-TW": "Ferroptosis是一種受調控的細胞死亡途徑，由脂質過氧化物的毒性累積所驅動。當細胞失去調節脂肪的能力時，便會死於ferroptosis，而膜中的多元不飽和脂肪酸成為過氧化損傷的受質。健康細胞在麩胱甘肽（一種可抵禦ferroptosis的抗氧化劑）的幫助下，將脂質過氧化物維持在穩定水平。此途徑依賴鐵，並已被連結至老化與神經退化，包括阿茲海默症與帕金森氏症。理解脂質過氧化物累積作為核心執行者機制，說明了為何膜脂質重塑——例如由酸性神經醯胺酶（acid ceramidase）所引起的重塑——能使細胞對ferroptosis敏感化。"
     },
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T05:46:48Z"
   },
   {
     "id": "4e961394749d",

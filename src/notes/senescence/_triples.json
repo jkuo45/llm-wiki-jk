@@ -2974,12 +2974,12 @@
     "object": "mTOR",
     "context": {
       "en-US": "Rapamycin inhibits mTOR, primarily mTORC1 via FKBP12 binding, suppressing SASP protein production and the p38 MAPK-IL-1a-NF-kB signaling axis. This direct target engagement is the mechanistic basis of its senomorphic and longevity effects, and by lowering secretome output it mitigates paracrine senescence and inflammaging. The inhibition is direct, specific, and extensively characterized, and it also engages autophagy, limiting mitochondrial DAMP release. Rapamycin's mTOR inhibition is among the best-established senomorphic mechanisms in the field.",
-      "zh-TW": ""
+      "zh-TW": "Rapamycin，也稱為sirolimus，是由吸水鏈黴菌產生的有機化合物，由Georges Nogrady在1960年代末從復活節島Rapa Nui的土壤樣本中分離出來。在分子水平上，它透過與免疫亲合蛋白FKBP12形成複合物作為mTOR的特異性抑制劑，然後結合mTOR並抑制其激酶活性。因此，rapamycin下調蛋白質合成、細胞生長和合成代謝，同時促進自噬，將細胞從合成代謝轉向維護和修復過程，這是其延壽效應的關鍵機制。"
     },
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-09T20:00:33Z"
+    "updated": "2026-08-20T06:11:05Z"
   },
   {
     "id": "d864718fa4d9",
@@ -3016,12 +3016,12 @@
     "object": "AMPK",
     "context": {
       "en-US": "Metformin activates AMPK (AMP-activated protein kinase), primarily by mildly inhibiting mitochondrial complex I and raising the AMP/ATP ratio, which then suppresses mTOR and reduces SASP translation. AMPK activation also promotes catabolic, autophagy-associated programs that counter senescence and improve mitochondrial quality. This metabolic switch underlies many of metformin's senomorphic and longevity effects and links cellular energy status to the secretome. The activation is a well-established upstream event in metformin's mechanism of action.",
-      "zh-TW": ""
+      "zh-TW": "Metformin是一線第二型糖尿病藥物，主要透過抑制粒線體呼吸鏈複合體I來活化AMP活化蛋白激酶（AMPK），輕微提高細胞AMP/ATP比值。活化的AMPK磷酸化下游標靶以恢復能量穩態，包括TSC2和Raptor，後者進而抑制mTORC1。這種間接的、能量壓力介導的活化使metformin有別於直接的AMPK激動劑，並構成其許多代謝益處的基礎。Metformin對AMPK的活化也解釋了其誘導自噬和潛在抗老化的效應。"
     },
     "confidence": 0.92,
     "source_document": "_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-09T20:00:33Z"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "4ae613e5ecab",
@@ -3212,12 +3212,12 @@
     "object": "SASP",
     "context": {
       "en-US": "IL-6 is a prototypical SASP cytokine and one of the most consistently secreted factors in senescent cells, acting as an essential mediator of paracrine senescence and immune modulation. It signals through JAK/STAT3 to promote inflammation and, in some contexts, stemness, and it is widely used as a biomarker of the senescent secretome and of aging. IL-6 also contributes to the feed-forward loop sustaining the SASP and to inflammaging. Its prominence and reliability make it a canonical reference SASP component, frequently measured with IL-8.",
-      "zh-TW": ""
+      "zh-TW": "介白素-6（IL-6）與 IL-8 同為衰老相關分泌表型（SASP）中最知名的細胞激素之一。衰老細胞分泌 IL-6，重塑局部組織微環境並發揮旁分泌效應，甚至將衰老表型傳播給健康細胞。在本研究中，重組 IL-6（以 2:1 比例與 IL-8 合併）在增生細胞中誘導酸性神經醯胺酶表現並提高脂質過氧化，使旁觀細胞對鐵死亡敏感，並放大組織功能障礙。"
     },
     "confidence": 0.96,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-09T20:00:33Z"
+    "updated": "2026-08-20T05:49:31Z"
   },
   {
     "id": "98cd22dd8894",
@@ -3226,12 +3226,12 @@
     "object": "SASP",
     "context": {
       "en-US": "IL-8 (CXCL8) is a prototypical SASP chemokine secreted by senescent cells, essential for neutrophil recruitment and, in tumors, cancer stemness via CXCR2 signaling. It is co-induced with IL-6 downstream of NF-kB and IL-1a and is frequently measured alongside IL-6 as a SASP readout. IL-8's roles in both inflammation and tumor promotion underscore the dual nature of the secretome, supporting wound-healing neutrophil influx acutely while contributing to chronic inflammation and therapy resistance. It is a canonical component of the senescent secretome.",
-      "zh-TW": ""
+      "zh-TW": "介白素-8（IL-8）與 IL-6 同為衰老相關分泌表型（SASP）中最知名的細胞激素之一。IL-8 由衰老細胞分泌，重塑局部組織微環境並對鄰近細胞發揮旁分泌效應。在本研究中，重組 IL-8（以 1:2 比例與 IL-6 合併）在增生細胞中誘導酸性神經醯胺酶表現，此現象可由衰老細胞共培養重現，導致脂質過氧化升高並使旁觀細胞對鐵死亡敏感。"
     },
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-09T20:00:33Z"
+    "updated": "2026-08-20T05:49:31Z"
   },
   {
     "id": "82c175c35874",

@@ -342,12 +342,12 @@
     "object": "Epinephrine",
     "context": {
       "en-US": "COMT metabolizes epinephrine by methylating its catechol ring to form metanephrine, an essential inactivation step that operates in parallel with neuronal reuptake and monoamine oxidase-mediated oxidation. Because epinephrine is a catecholamine and direct substrate, impaired COMT activity, whether genetic or pharmacological, prolongs epinephrine signaling and allows accumulation of the parent compound. This underlies the rise in epinephrine and downstream oxidative products such as adrenochrome when COMT is blocked. It also contributes to the adrenergic side effects associated with COMT inhibition in Parkinson's disease therapy.",
-      "zh-TW": ""
+      "zh-TW": "兒茶酚-O-甲基轉移酶 (COMT) 是清除腎上腺素的主要酶之一，腎上腺素是 adrenochrome 的兒茶酚胺前體。與單胺氧化酶 (MAO) 一起，COMT 在腎上腺素氧化之前迅速捕獲它，甲基化兒茶酚羥基並為分子排泄做準備。在正常健康狀態下，這些清理酶與穀胱甘肽等抗氧化系統协同工作，效率如此之高，以至於血液中 adrenochrome 濃度實際上為零或不可檢測。然而，當 COMT 和 MAO 被大量腎上腺素釋放或氧化應激壓倒時，腎上腺素逃脫酶清除，導致 adrenochrome 的氧化途徑變得顯著。因此，COMT 活性充當閘門，決定循環中的腎上腺素是被乾淨降解還是被轉移到反應性氧化化學中。"
     },
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-12T20:21:14Z"
+    "updated": "2026-08-20T06:19:41Z"
   },
   {
     "id": "e0e165421ab3",
