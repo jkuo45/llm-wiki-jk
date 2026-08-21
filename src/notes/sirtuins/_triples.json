@@ -11727,7 +11727,7 @@
       "zh-TW": "該綜述強調天然化合物，特別是 Curcumin，作為活化或以其他方式調節 sirtuin 的候選物，將其定位為低毒性的抗老化介入措施。方向性上 Curcumin 作為推定的 sirtuin 調節劑位於上游。需要注意的是該綜述將此定位為希望/積極研究的領域而非已確立的臨床療效，且 Curcumin 對 sirtuin 的活化在機制上的定義不如 resveratrol 明確。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11741,7 +11741,7 @@
       "zh-TW": "SIRT1 轉錄本的 3'UTR 包含一個 miR-34a 響應元件；活性 miR-34a 抑制 SIRT1 的翻譯。方向性上 miR-34a 位於上游以降低 SIRT1 蛋白水平。由於 SIRT1 去乙醯化並抑制 p53，這種抑制是負回饋迴路的一部分，有助於解釋在衰老過程中觀察到的 SIRT1 下降。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11755,7 +11755,7 @@
       "zh-TW": "活性 p53 在轉錄水平上誘導 miR-34a，一種腫瘤抑制性 microRNA。方向性上 p53 位於 miR-34a 表現的上游。然後 miR-34a 回饋抑制 SIRT1 的翻譯，將 p53 損傷反應程序與 sirtuin-NAD+ 軸線偶聯。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11769,7 +11769,7 @@
       "zh-TW": "NF-κB 可以透過調節 miR-34a 的表現來降低 SIRT1 活性，反映了 p53-miR-34a-SIRT1 迴路。方向性上 NF-κB 透過 miR-34a 臂抑制 SIRT1 的翻譯。這提供了慢性發炎訊號在老化過程中削弱 sirtuin 活性的路徑。"
     },
     "confidence": 0.85,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11783,7 +11783,7 @@
       "zh-TW": "熱量限制提高除 SIRT4 外幾乎所有 sirtuin 的水平；SIRT2 是被 CR 提高的 sirtuin 之一（在 CR 小鼠的白色脂肪和腎臟中觀察到）。方向性上 CR 是上游刺激，SIRT2 升高是下游介導因子。這將 CR-sirtuin 軸線從 SIRT1/SIRT3 推廣到更廣泛的範圍。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11797,7 +11797,7 @@
       "zh-TW": "熱量限制提高 SIRT3 水平，與 SIRT3 作為粒線體代謝感測器在 CR 和禁食期間被動員的角色一致。方向性上 CR 增加 SIRT3 的豐度/活性。這支持了 CR 益處透過 sirtuin 家族介導而不僅僅是 SIRT1 的觀點。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11811,7 +11811,7 @@
       "zh-TW": "熱量限制提高 SIRT5 水平以及其他 sirtuin（除 SIRT4 外）。方向性上 CR 位於 SIRT5 升高的上游。SIRT5 去琥珀醯基化/去丙二醯基化代謝酵素，因此其 CR 誘導符合 CR 驅動的粒線體醯基化重塑的更廣泛範圍。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11825,7 +11825,7 @@
       "zh-TW": "熱量限制提高 SIRT6 水平；SIRT6 在衰老的纖維母細胞和血管細胞中反而被耗竭。方向性上 CR 提高 SIRT6，支持其基因組穩定性和代謝功能。這將 SIRT6 與 CR 和健康壽命保護性 sirtuin 程序對齊。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11839,7 +11839,7 @@
       "zh-TW": "熱量限制提高 SIRT7 水平；SIRT7 在衰老的纖維母細胞中反而下降。方向性上 CR 位於 SIRT7 升高的上游。鑑於 SIRT7 的核仁/核糖體和壓力功能，其 CR 誘導將 sirtuin 介導的適應延伸到核仁。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11853,7 +11853,7 @@
       "zh-TW": "SIRT2 水平在衰老細胞中無論觸發因素為何（壓力、癌基因、複製耗竭）都會升高，但在靜止或凋亡細胞中不會，且 SIRT3 不是誘導衰老所必需的。方向性上衰老導致 SIRT2 升高而非相反。這使 SIRT2 成為衰老狀態的有用生物標記。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11867,7 +11867,7 @@
       "zh-TW": "SIRT1 結合 P66shc 啟動子並在該處去乙醯化組蛋白 H3，降低 P66shc 的轉錄並降低此促氧化接頭蛋白。方向性上 SIRT1 抑制 P66shc。此軸線降低粒線體活性氧，是 P66shc 基因敲除小鼠所見約 30% 壽命延長以及熱量限制益處的可能貢獻因素。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11881,7 +11881,7 @@
       "zh-TW": "P66shc 抑制 FOXO3a 轉錄因子的活性，削弱了關鍵的抗壓力和抗氧化程序。方向性上 P66shc 抑制 FOXO3a 的輸出。由於 SIRT1 抑制 P66shc，sirtuin 活性間接釋放了 FOXO3a 依賴的防禦途徑。"
     },
     "confidence": 0.85,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11895,7 +11895,7 @@
       "zh-TW": "P66shc 基因敲除小鼠比野生型對照多活約 30%，並表現出對氧化壓力和年齡相關病變的增強抵抗力，表明 P66shc 是壽命的負向調節因子。方向性上 P66shc 的缺失延長壽命。這使 P66shc 成為一個有吸引力的節點，以 SIRT1 作為上游抑制因子，用於長壽介入措施。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11909,7 +11909,7 @@
       "zh-TW": "SIRT6 在 DNA 損傷反應中去乙醯化端粒區域的 H3K9，並在端粒處穩定 WRN 解旋酶，緊密化端粒結構並防止複製過程中的功能障礙。方向性上 SIRT6 維護端粒完整性。SIRT6 的缺失導致端粒處 H3K9 超乙醯化和染色質鬆弛，將其與老化的基因組穩定性聯繫起來。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11923,7 +11923,7 @@
       "zh-TW": "在壓力下，SIRT3 的細胞核部分去乙醯化 H4K16 和 H3K9，調節參與粒線體生成和代謝的基因表現。方向性上 SIRT3 在細胞核中以酵素方式作用於染色質。這揭示了 otherwise 為粒線體 sirtuin 的 SIRT3 的核、染色質層面，補充了其代謝功能。"
     },
     "confidence": 0.85,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11937,7 +11937,7 @@
       "zh-TW": "SIRT5 去琥珀醯基化超氧化物歧化酶 1（SOD1），增加其活性，從而增強細胞質抗氧化防禦。方向性上 SIRT5 以酵素方式活化 SIRT1。這將 sirtuin 對抗氧化酵素的控制從 SIRT3 對粒線體 MnSOD/IDH2 的活化延伸到更廣泛的範圍。"
     },
     "confidence": 0.85,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11951,7 +11951,7 @@
       "zh-TW": "SIRT7 去乙醯化組蛋白 H3 的 K18（以及 H2A/H2B），此活性與腫瘤抑制基因的抑制相關；因此 SIRT7 有助於維持癌症表型而不驅動轉化。方向性上 SIRT7 以酵素方式重塑染色質以有利於致癌性轉錄。這將核仁 SIRT7 與腫瘤生物學聯繫起來。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11965,7 +11965,7 @@
       "zh-TW": "在體內或體外老化的鼠卵母細胞中，SIRT1、SIRT2 和 SIRT3 的表現顯著降低；延長這些 sirtuin 的表現可減少排卵後卵母細胞老化。方向性上 SIRT3（連同 SIRT1/2）的缺失伴隨卵母細胞老化。SIRT1 和 SIRT3 在卵母細胞中作為氧化還原感測器，將它們與女性生育力和年齡相關的生殖功能衰退聯繫起來。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11979,7 +11979,7 @@
       "zh-TW": "老化的小鼠卵母細胞表現出 SIRT1（連同 SIRT2 和 SIRT3）的急劇下降；維持 SIRT1 表現可在體外和體內減少排卵後卵母細胞老化。方向性上 SIRT1 的下降導致卵母細胞老化。這將 SIRT3 定位為保護卵母細胞氧化還原狀態和女性生育力的 sirtuin 之一。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -11993,7 +11993,7 @@
       "zh-TW": "在人類中，較低的血清 SIRT1 水平與衰弱相關，相較於非衰弱個體，提示循環 sirtuin 作為非侵入性衰弱標記。方向性上此關聯為相關性：SIRT1 降低追蹤衰弱表型。需要注意的是這是生物標記的相關性，而非因果關係的證據。"
     },
     "confidence": 0.8,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -12007,7 +12007,7 @@
       "zh-TW": "與 SIRT1 並列，較低的血清 SIRT3 水平與老年人的衰弱相關，支持血清 sirtuin 作為候選的非侵入性衰弱生物標記。方向性上此關聯為相關性。需要進行纵向驗證，但此發現激勵了在老化群組中進行 sirtuin 水平監測。"
     },
     "confidence": 0.8,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -12021,7 +12021,7 @@
       "zh-TW": "尼可醯胺（NAM）是 sirtuin 去乙醯化反應的產物，是 sirtuin 活性的非競爭性回饋抑制劑。方向性上 NAM 的累積抑制了產生它的酵素本身，透過 NAD+/NAM 比率調控 sirtuin 通量。這種回饋是 NAD+ 可用性（以及 NAMPT 補救途徑相對於 PARP1 消耗）在老化過程中限制 sirtuin 活性的關鍵原因。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -12035,7 +12035,7 @@
       "zh-TW": "NAMPT 是限速的 NAD+ 補救酵素，受 CLOCK:BMAL1 昼夜節律複合物調節，將 NAD+ 生合成從而將 sirtuin 活性與每日節律偶聯。方向性上 CLOCK/BMAL1 迴路驅動節律性的 NAMPT 和 NAD+ 水平。這解釋了 sirtuin 依賴過程的晝夜節律調控，並將時鐘紊亂與 sirtuin 活性改變聯繫起來。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process",
+    "source_document": "_document_ - Sirtuins, a promising target in slowing down the ageing process.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
   },
@@ -13340,5 +13340,229 @@
     "source_document": "Age-related Hearing Loss.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-08-20T08:16:51Z"
+  },
+  {
+    "id": "f5995071f648",
+    "subject": "SIRT3",
+    "predicate": "senses",
+    "object": "Intracellular acetyl-CoA and NAD+ levels",
+    "context": {
+      "en-US": "Emerging evidence indicates that SIRT3 acts as a key metabolic regulator that senses intracellular acetyl-coenzyme A (CoA) and NAD+ levels by transducing these cues through deacetylation of mitochondrial proteins. Directionally, acetyl-CoA and NAD+ abundance sits upstream of SIRT3 activity. This nutrient-sensing role lets SIRT3 tune mitochondrial enzymatic efficiency under fasting and caloric restriction, positioning it as the mitochondrial arm of cellular energy sensing.",
+      "zh-TW": "新出現的證據表明，SIRT3 是一種關鍵的代謝調節因子，可透過粒線體蛋白的去乙醯化轉導這些訊號來感知細胞內乙醯輔酶 A (CoA) 和 NAD+ 水平。從方向來看，乙醯輔酶A和NAD+豐度位於SIRT3活性的上游。這種營養感應作用讓 SIRT3 在禁食和熱量限制下調節粒線體酶效率，將其定位為細胞能量感應的粒線體臂。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "5a61f66d622f",
+    "subject": "SIRT3",
+    "predicate": "negatively_regulates",
+    "object": "SASP (senescence-associated secretory phenotype)",
+    "context": {
+      "en-US": "SIRT3 functions as a negative regulator of the senescence-associated secretory phenotype through its control over mitochondrial function. Loss of SIRT3 increases expression of SASP components including TNF-alpha, IL-1beta, and matrix metalloproteinase-9 (MMP9), whereas activation of SIRT3 ameliorates inflammatory tissue damage. Directionally, SIRT3 sits upstream of restrained SASP output, linking mitochondrial quality control to the inflammatory dimension of cellular senescence during aging.",
+      "zh-TW": "SIRT3 透過控製粒線體功能，作為老化相關分泌表型的負調節因子。 SIRT3 的缺失會增加 SASP 成分的表達，包括 TNF-α、IL-1β 和基質金屬蛋白酶-9 (MMP9)，而 SIRT3 的活化可改善發炎組織損傷。從方向上看，SIRT3 位於受限制的 SASP 輸出的上游，將粒線體品質控制與老化過程中細胞老化的發炎維度聯繫起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "3a533d59d105",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "p53/p21 axis (senescence initiation)",
+    "context": {
+      "en-US": "SIRT3 regulates canonical senescence markers such as SA-beta-gal and inhibits the p53/p21 axis, thereby delaying senescence initiation. Directionally, SIRT3 activity sits upstream of suppressed p53-p21 checkpoint engagement. By restraining this axis alongside its antioxidant and metabolic programs, SIRT3 minimizes DNA damage accumulation and postpones entry into the senescent state during aging.",
+      "zh-TW": "SIRT3 調節經典老化標記物（例如 SA-β-gal）並抑制 p53/p21 軸，從而延遲老化起始。從方向上看，SIRT3 活性位於受抑制的 p53-p21 檢查點參與的上游。透過抑制此軸及其抗氧化和代謝程序，SIRT3 最大限度地減少 DNA 損傷積累，並在老化過程中推遲進入衰老狀態。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "5d4f2fb8e2a7",
+    "subject": "SIRT3",
+    "predicate": "is_most_abundantly_expressed_sirtuin_in",
+    "object": "Central nervous system",
+    "context": {
+      "en-US": "Among the sirtuin family of proteins, SIRT3 is the most abundantly expressed in the central nervous system. This neuronal predominance positions SIRT3 as the primary mitochondrial deacetylase governing brain energy metabolism. However, its mRNA expression exhibits progressive decline from clinical Alzheimer's specimens to experimental rodent models, making SIRT3 loss a candidate early biomarker of neurodegenerative mitochondrial dysfunction.",
+      "zh-TW": "在 Sirtuin 蛋白家族中，SIRT3 在中樞神經系統中表現最豐富。這種神經元優勢使 SIRT3 成為控制大腦能量代謝的主要粒線體去乙醯化酶。然而，从临床阿尔茨海默病标本到实验啮齿动物模型，其 mRNA 表达逐渐下降，这使得 SIRT3 的丧失成为神经退行性线粒体功能障碍的候选早期生物标志物。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "baaca83b4e61",
+    "subject": "PACAP (pituitary adenylate cyclase-activating polypeptide)",
+    "predicate": "interacts_with",
+    "object": "SIRT3 (neuroprotection against amyloid-beta)",
+    "context": {
+      "en-US": "SIRT3 modulates neuropeptide signaling pathways: its interaction with pituitary adenylate cyclase-activating polypeptide (PACAP) enhances neuroprotective effects by alleviating amyloid-beta toxicity. Directionally, the SIRT3-PACAP interaction sits upstream of reduced Aβ-mediated neuronal injury. This indicates that SIRT3 can bridge neurotrophic and metabolic signaling in the aging brain, extending its neuroprotective repertoire beyond mitochondrial homeostasis.",
+      "zh-TW": "SIRT3 調節神經肽訊號通路：它與垂體腺苷酸環化酶激活多肽 (PACAP) 的相互作用可透過減輕澱粉樣蛋白 - β 的毒性來增強神經保護作用。從方向上看，SIRT3-PACAP 相互作用位於減少 Aβ 介導的神經元損傷的上游。這表明 SIRT3 可以在老化大腦中橋接神經營養和代謝信號傳導，將其神經保護功能擴展到粒線體穩態之外。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "f1e15a700797",
+    "subject": "miR-297 and miR-421",
+    "predicate": "repress",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "The microRNAs miR-297 and miR-421 act as upstream modulators of SIRT3, repressing its expression and consequently influencing apoptosis-related pathways. Directionally, these microRNAs sit upstream of diminished SIRT3 output. Their dysregulation shifts the apoptotic balance in stressed cells and adds a noncoding-RNA regulatory layer to SIRT3's control of cell fate decisions in aging and malignancy.",
+      "zh-TW": "microRNA miR-297 和 miR-421 作为 SIRT3 的上游调节剂，抑制其表达，从而影响细胞凋亡相关途径。从方向上看，这些 microRNA 位于 SIRT3 输出减少的上游。它們的失調改變了壓力細胞中的凋亡平衡，並為 SIRT3 對老化和惡性腫瘤中細胞命運決定的控制添加了非編碼 RNA 調節層。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "a45a6a4cfb26",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "Bcl-2 (preventing mitochondrial outer membrane permeabilization)",
+    "context": {
+      "en-US": "SIRT3 regulates apoptotic commitment by deacetylating Bcl-2, thus preventing mitochondrial outer membrane permeabilization (MOMP). Additionally, SIRT3 delays cytochrome c release kinetics and subsequent caspase activation, modulating apoptotic signaling pathways. Directionally, SIRT3-mediated Bcl-2 deacetylation sits upstream of preserved mitochondrial integrity and cell viability under stress.",
+      "zh-TW": "SIRT3 透過使 Bcl-2 去乙醯化來調節細胞凋亡，從而防止粒線體外膜透化 (MOMP)。此外，SIRT3 延遲細胞色素 c 釋放動力學和隨後的 caspase 激活，調節細胞凋亡信號通路。從方向上看，SIRT3 介導的 Bcl-2 去乙醯化位於壓力下線粒體完整性和細胞活力得以保留的上游。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "059556cc6ea4",
+    "subject": "SIRT3",
+    "predicate": "suppresses",
+    "object": "ox-LDL-induced foam cell formation (via AMPK and UCP1 modulation)",
+    "context": {
+      "en-US": "In atherosclerosis, SIRT3 promotes AMPK activation and modulates the activity of uncoupling protein-1 (UCP1), thereby suppressing oxidized-LDL-induced foam cell formation. Directionally, SIRT3 sits upstream of reduced macrophage lipid loading. Gut microbiota-derived metabolites further influence the SIRT3/SOD2/FOXO3a axis that antagonizes lipogenic programming governed by the SREBP1c/FAS/DGAT2 cascade, indicating functional linkage between SIRT3 activity and host-microbiome interactions in vascular disease.",
+      "zh-TW": "在動脈粥狀硬化中，SIRT3 促進 AMPK 活化並調節解偶聯蛋白 1 (UCP1) 的活性，從而抑制氧化 LDL 誘導的泡沫細胞形成。從方向上看，SIRT3 位於巨噬細胞脂質負荷減少的上游。腸道微生物群衍生的代謝物進一步影響 SIRT3/SOD2/FOXO3a 軸，該軸拮抗由 SREBP1c/FAS/DGAT2 級聯控制的脂肪生成程序，顯示血管疾病中 SIRT3 活性與宿主微生物組相互作用之間的功能連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "e041ba08b847",
+    "subject": "SIRT3/ATG5 axis",
+    "predicate": "preserves",
+    "object": "Endothelial nitric oxide bioavailability",
+    "context": {
+      "en-US": "SIRT3 plays a pivotal role in maintaining endothelial cell function by preserving mitochondrial integrity via the SIRT3/ATG5 axis, thereby reducing ROS levels and sustaining nitric oxide bioavailability. Directionally, the axis sits upstream of maintained endothelial NO signaling. Conversely, absence of SIRT3 in EC-specific knockout models leads to exaggerated NLRP3 inflammasome activation and endothelial dysfunction, fostering a pro-inflammatory, pro-atherogenic phenotype.",
+      "zh-TW": "SIRT3 透過 SIRT3/ATG5 軸保持粒線體完整性，從而降低 ROS 水平並維持一氧化氮生物利用度，從而在維持內皮細胞功能中發揮關鍵作用。從方向上看，該軸位於維持的內皮 NO 訊號傳導的上游。相反，EC特異性敲除模型中SIRT3的缺失會導致NLRP3發炎小體過度活化和內皮功能障礙，進而形成促發炎、促動脈粥狀硬化的表型。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "d3b827f2d221",
+    "subject": "FGF21 signaling",
+    "predicate": "restores",
+    "object": "SIRT3 expression (diabetic myocardium)",
+    "context": {
+      "en-US": "Restoring SIRT3 expression via lifestyle interventions or fibroblast growth factor-21 (FGF21) signaling improves mitochondrial integrity and myocardial function in diabetes. Directionally, FGF21 sits upstream of recovered SIRT3-dependent mitochondrial quality control. This points to metabolic reprogramming as a promising avenue for diabetic patients, coupling endocrine FGF21 biology to the mitochondrial deacetylase axis.",
+      "zh-TW": "透過生活方式介入或纖維母細胞生長因子 21 (FGF21) 訊號恢復 SIRT3 表現可改善糖尿病患者的粒線體完整性和心肌功能。從方向上看，FGF21 位於恢復的 SIRT3 依賴性粒線體品質控制的上游。這表明代謝重編程對於糖尿病患者來說是一條有前途的途徑，將內分泌 FGF21 生物學與粒線體去乙醯化酶軸結合起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "920f4e03c0e2",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "Src kinase oxidation (mammary carcinoma metastasis)",
+    "context": {
+      "en-US": "In mammary carcinoma, SIRT3 inhibits Src kinase oxidation to suppress metastatic dissemination. Directionally, SIRT3-controlled redox state sits upstream of restrained Src-driven migratory signaling. This illustrates a tumor-suppressive facet of SIRT3's ROS management, whereby maintenance of mitochondrial redox homeostasis prevents oxidative activation of pro-metastatic kinases.",
+      "zh-TW": "在乳癌中，SIRT3 抑制 Src 激酶氧化以抑制轉移擴散。從方向上看，SIRT3 控制的氧化還原狀態位於受抑制的 Src 驅動的遷移訊號的上游。這說明了 SIRT3 ROS 管理的腫瘤抑制方面，即維持粒線體氧化還原穩態可防止促轉移激酶的氧化活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "6b12168588af",
+    "subject": "SIRT3",
+    "predicate": "recruits_to_viral_episomes",
+    "object": "Histone methyltransferase complexes",
+    "context": {
+      "en-US": "In the context of viral infection, SIRT3 dynamically modulates the transcriptional output and replicative capacity of viral genomes by guiding histone methyltransferase complexes to viral episomes. Exogenous SIRT3 overexpression significantly attenuates viral gene expression, whereas deletion potentiates viral replication efficiency. Directionally, SIRT3-mediated chromatin targeting of episomal DNA sits upstream of suppressed viral transcription.",
+      "zh-TW": "在病毒感染的情況下，SIRT3 透過將組蛋白甲基轉移酶複合物引導至病毒附加體來動態調節病毒基因組的轉錄輸出和複製能力。外源SIRT3過度表達會顯著減弱病毒基因表達，而缺失會增強病毒複製效率。從方向上講，SIRT3 介導的附加型 DNA 染色質靶向位於受抑制的病毒轉錄的上游。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "cc13331f87b5",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "PYCR1 at Lys228 (proline biosynthesis)",
+    "context": {
+      "en-US": "SIRT3 catalyzes Lys228 deacetylation on pyrroline-5-carboxylate reductase 1 (PYCR1), facilitating proline biosynthesis, a critical process for tumor cell proliferation. Directionally, SIRT3 enzymatic modification of PYCR1 sits upstream of enhanced proline-dependent anabolic support for tumor growth. This exemplifies the oncogenic facet of SIRT3's metabolic-enzyme control in certain genetic or microenvironmental contexts.",
+      "zh-TW": "SIRT3 催化吡咯啉 5 羧酸還原酶 1 (PYCR1) 上的 Lys228 去乙醯化，促進脯胺酸生物合成，這是腫瘤細胞增殖的關鍵過程。從方向上看，PYCR1 的 SIRT3 酶促修飾位於增強的脯氨酸依賴性合成代謝支持腫瘤生長的上游。這例證了 SIRT3 在某些遺傳或微環境背景下代謝酵素控制的致癌方面。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "9fec56555754",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "SHMT2 at Lys95 (serine metabolism)",
+    "context": {
+      "en-US": "In colorectal malignancies, SIRT3 optimizes serine metabolism via serine hydroxymethyltransferase 2 (SHMT2) deacetylation at Lys95, enhancing tumor aggressiveness. Directionally, SIRT3-mediated SHMT2 activation sits upstream of intensified one-carbon metabolism supporting colorectal cancer cell proliferation and survival.",
+      "zh-TW": "在結直腸惡性腫瘤中，SIRT3 透過絲胺酸羥甲基轉移酶 2 (SHMT2) 在 Lys95 處去乙醯化來優化絲胺酸代謝，從而增強腫瘤侵襲性。從方向上看，SIRT3 介導的 SHMT2 活化位於強化一碳代謝的上游，支持大腸直腸癌細胞增殖和存活。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "0202b04cd2f3",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "GLDC at Lys514 (nucleotide biosynthesis)",
+    "context": {
+      "en-US": "In glioblastoma models, SIRT3 promotes nucleotide biosynthesis by deacetylating glycine decarboxylase (GLDC) at Lys514. Directionally, SIRT3-mediated GLDC activation sits upstream of expanded nucleotide pools fueling glioblastoma proliferation. Together with PYCR1 and SHMT2 regulation, this underscores how SIRT3's control of amino-acid metabolism can be co-opted to support aggressive tumor growth in specific contexts.",
+      "zh-TW": "在膠質母細胞瘤模型中，SIRT3 透過在 Lys514 處去乙醯甘氨酸脫羧酶 (GLDC) 來促進核苷酸生物合成。從方向上講，SIRT3 介導的 GLDC 活化位於擴大的核苷酸庫的上游，促進膠質母細胞瘤增殖。與 PYCR1 和 SHMT2 調節一起，這強調了 SIRT3 對氨基酸代謝的控制如何能夠在特定情況下支持侵襲性腫瘤生長。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "c8d8b6bd5faf",
+    "subject": "SIRT3",
+    "predicate": "deacetylates_IDH2_at",
+    "object": "Lys143 (suppressing ROS-mediated mutagenesis)",
+    "context": {
+      "en-US": "By deacetylating IDH2 at K143, SIRT3 suppresses ROS-mediated mutagenesis and tumorigenesis. Distinct from the caloric-restriction-linked K413 activation that drives NADPH antioxidant regeneration, the K143 modification couples mitochondrial redox control directly to genomic protection. Directionally, SIRT3-IDH2 crosstalk sits upstream of reduced oxidative DNA damage in transformed cells.",
+      "zh-TW": "SIRT3 透過在 K143 處去乙醯 IDH2 來抑制 ROS 介導的突變和腫瘤發生。與驅動 NADPH 抗氧化劑再生的熱量限制相關的 K413 活化不同，K143 修飾將粒線體氧化還原控制直接與基因組保護結合。從方向上看，SIRT3-IDH2 串擾位於轉化細胞中減少氧化 DNA 損傷的上游。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+    "created": "2026-08-21T18:59:11Z",
+    "updated": "2026-08-21T18:59:11Z"
   }
 ]
