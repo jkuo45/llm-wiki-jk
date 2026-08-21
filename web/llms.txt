@@ -41,7 +41,8 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [(Speculative) Adrenochrome MB/AG Protocol](https://graph.johnnykuo.com/pages/adrenochrome-protocol.html): Interactive explorer of a speculative adrenochrome methylene-blue / ascorbate-glutathione protocol — clearly labeled as speculative, not medical advice.
 - [Sirtuins — Articles, Figures & Images (index)](https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures.html): Index of sirtuin-related article figures and images from the wiki.
 - [Senescence — Articles, Figures & Images (index)](https://graph.johnnykuo.com/pages/senescence-articles-and-figures.html): Index of senescence-related article figures and images from the wiki.
-- [Node-level Network Analysis for Biological Prioritization](https://graph.johnnykuo.com/pages/node-analysis-biological-prioritization.html): Methods briefing on using NetworkX centrality fingerprints (degree, PageRank, betweenness, clustering, k-core, community) to triage biomedical entities in the directed knowledge graph — worked examples on real nodes in this vault.
+- [Node-level Network Analysis for Biological Prioritization](https://graph.johnnykuo.com/pages/node-analysis-examples-biology.html): Methods briefing on using NetworkX centrality fingerprints (degree, PageRank, betweenness, clustering, k-core, community) to triage biomedical entities in the directed knowledge graph — worked examples on real nodes in this vault.
+- [One Mito/Hormetic Trigger, Three Adaptive Programs](https://graph.johnnykuo.com/pages/adrenochrome-mitohormesis-node-analysis.html): Four-node network study design on this knowledge graph, reframing adrenochrome as a mito/hormetic trigger whose redox signal engages mitohormesis, autophagy, and sirtuins through single rate-limiting bridges — fingerprints, relation-aware metrics, perturbation sweeps, and validation arms.
 
 ## Articles (Traditional Chinese / 中文)
 
@@ -51,7 +52,8 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [（推測性）Adrenochrome MB/AG 方案](https://graph.johnnykuo.com/pages/adrenochrome-protocol_zh-TW.html): 互動式解說器 — 推測性方案，非醫療建議。
 - [Sirtuins — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/sirtuins-articles-and-figures_zh-TW.html): Sirtuin 相關文章圖像與圖表的索引。
 - [細胞衰老 — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/senescence-articles-and-figures_zh-TW.html): 細胞衰老相關文章圖像與圖表的索引。
-- [用於生物學優先排序的節點層級網絡分析](https://graph.johnnykuo.com/pages/node-analysis-biological-prioritization_zh-TW.html): 一篇方法論簡報——運用 NetworkX 中心性指紋（度數、PageRank、中介中心性、聚類係數、k-core、社群）在具向知識圖譜中篩選生物醫學實體，並以本知識庫真實節點作為實作成例。
+- [用於生物學優先排序的節點層級網絡分析](https://graph.johnnykuo.com/pages/node-analysis-examples-biology_zh-TW.html): 一篇方法論簡報——運用 NetworkX 中心性指紋（度數、PageRank、中介中心性、聚類係數、k-core、社群）在具向知識圖譜中篩選生物醫學實體，並以本知識庫真實節點作為實作成例。
+- [一個粒體誘發／激效觸發器，三套適應性程序](https://graph.johnnykuo.com/pages/adrenochrome-mitohormesis-node-analysis_zh-TW.html): 一份四節點網絡研究設計——把腎上腺素紅重新詮釋為粒體誘發／激效觸發器，其氧化還原訊號透過單一限速橋接連結促粒線體生發、自噬、沉默調節蛋白；指紋、關係感知指標、擾動掃描與驗證分支。
 
 ## Data & Source
 

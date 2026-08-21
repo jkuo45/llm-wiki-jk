@@ -127,18 +127,36 @@
     }
   },
   {
-    "id": "node-analysis-biological-prioritization",
-    "active": false,
+    "id": "node-analysis-examples-biology",
+    "active": true,
     "langs": {
       "en-US": {
         "title": "Node-level Network Analysis for Biological Prioritization",
-        "path": "pages/node-analysis-biological-prioritization.html",
+        "path": "pages/node-analysis-examples-biology.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
       },
       "zh-TW": {
         "title": "用於生物學優先排序的節點層級網絡分析",
-        "path": "pages/node-analysis-biological-prioritization_zh-TW.html",
+        "path": "pages/node-analysis-examples-biology_zh-TW.html",
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    }
+  },
+  {
+    "id": "adrenochrome-mitohormesis-node-analysis",
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "One Mitohormetic Trigger, Three Adaptive Programs",
+        "path": "pages/adrenochrome-mitohormesis-node-analysis.html",
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
+      },
+      "zh-TW": {
+        "title": "一個粒體誘發／激效觸發器，三套適應性程序",
+        "path": "pages/adrenochrome-mitohormesis-node-analysis_zh-TW.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
       }
