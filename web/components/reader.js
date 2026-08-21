@@ -216,6 +216,20 @@ function stopSectionTracking() {
 }
 
 frame.addEventListener('load', () => {
+  // If navigation happened via an in-frame link (rather than the dropdown),
+  // reconcile the dropdown / lang toggle / hash with the page now loaded.
+  const matched = matchFrameArticle();
+  if (matched && matched.id !== state.readerId) {
+    if (readerStack[readerStack.length - 1] !== matched.id) {
+      readerStack.push(matched.id);
+    }
+    state.readerId = matched.id;
+    state.readerSection = null;
+    setSelectFor(matched);
+    setLangToggleFor(matched);
+    updateHash();
+    updatePrevBtn();
+  }
   // Opened without a section → default to the top of the page. Guards against
   // the browser restoring a previous iframe scroll position on reload.
   if (!state.readerSection) {
@@ -224,6 +238,19 @@ frame.addEventListener('load', () => {
   }
   startSectionTracking();
 });
+
+// Match the iframe's current location against the registry by page path.
+function matchFrameArticle() {
+  try {
+    const path = frame.contentWindow.location.pathname;
+    return (
+      ACTIVE_ARTICLES.find((a) => path.endsWith('/' + a.path)) ||
+      ACTIVE_ARTICLES.find((a) => path.endsWith(a.path.split('/').pop()))
+    ) || null;
+  } catch {
+    return null; // cross-origin or inaccessible location
+  }
+}
 
 // ------------------------------------------------------------
 // Wire up (button, select, language toggle, overlay, keyboard)

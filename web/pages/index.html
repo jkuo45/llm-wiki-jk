@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Articles — Index</title>
+<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, with en-US editions and zh-TW editions alongside.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/index.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<style>
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap");
+
+:root {
+  --paper: #f2ece1;
+  --sheet: #fbf8f1;
+  --ink: #1c1915;
+  --ink-soft: #3b352e;
+  --mute: #6d665b;
+  --faint: #8d8578;
+  --rule: #d3c9b6;
+  --oxblood: #7a312c;
+  --oxblood-soft: #a24b44;
+  --slate: #2e4a5d;
+  --forest: #345443;
+  --gold: #9a7430;
+  --focus: #7a312c;
+  --serif: "Source Serif 4", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --shadow: 0 1px 0 rgba(28, 25, 21, 0.05), 0 18px 40px rgba(28, 25, 21, 0.07);
+}
+
+*,
+*::before { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 480px at 12% -10%, rgba(122, 49, 44, 0.06), transparent 60%),
+    radial-gradient(900px 420px at 92% 0%, rgba(46, 74, 93, 0.07), transparent 55%),
+    var(--paper);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--oxblood);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover { color: var(--ink); }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.wrap {
+  width: min(1120px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.index {
+  padding: 28px 0 48px;
+}
+
+.article-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article-card {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--oxblood);
+  box-shadow: var(--shadow);
+  border-radius: 2px;
+  padding: 20px 22px 16px;
+  margin-bottom: 18px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.article-card:hover {
+  border-left-color: var(--oxblood-soft);
+  transform: translateY(-1px);
+}
+
+.article-card.slate { border-left-color: var(--slate); }
+.article-card.forest { border-left-color: var(--forest); }
+.article-card.gold { border-left-color: var(--gold); }
+
+.article-title {
+  font-family: var(--serif);
+  font-size: 1.22rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+}
+
+.article-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.article-title a:hover { color: var(--oxblood); }
+
+.article-zh {
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+  margin: 0 0 12px;
+}
+
+.article-zh a {
+  color: var(--mute);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.article-zh a:hover {
+  color: var(--oxblood);
+  border-bottom-color: var(--oxblood);
+}
+
+.article-meta {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--faint);
+  margin: 0 0 4px;
+}
+
+.article-meta:last-child { margin-bottom: 0; }
+
+.badge {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: var(--mute);
+  border-radius: 2px;
+  padding: 2px 7px;
+}
+
+.article-card.slate .badge { background: var(--slate); }
+.article-card.forest .badge { background: var(--forest); }
+.article-card.gold .badge { background: var(--gold); }
+
+.empty-note {
+  font-style: italic;
+  color: var(--mute);
+  padding: 24px 0;
+}
+
+@media (max-width: 640px) {
+  .article-card { padding: 16px 16px 14px; }
+}
+</style>
+</head>
+<body>
+
+<main class="index">
+  <div class="wrap">
+    <ul class="article-list" id="articleList"></ul>
+    <p class="empty-note" id="emptyNote" hidden></p>
+  </div>
+</main>
+
+<script>
+(function(){
+  const ACCENTS = ['', 'slate', 'forest', 'gold'];
+  const list = document.getElementById('articleList');
+  const emptyNote = document.getElementById('emptyNote');
+
+  function esc(s){
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  fetch('../data/articles.json')
+    .then(r => r.json())
+    .then(data => {
+      const articles = data
+        .filter(a => a.active !== false && a.id !== 'articles-index' && a.langs && a.langs['en-US'])
+        .map(a => {
+          const en = a.langs['en-US'];
+          const zh = a.langs['zh-TW'];
+          return {
+            id: a.id,
+            display: en.title,
+            zhTitle: zh ? zh.title : '',
+            enPath: en.path.replace(/^pages\//, ''),
+            zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
+            created: en.created || ''
+          };
+        })
+        .sort((x, y) => (y.created || '').localeCompare(x.created || ''));
+
+      list.innerHTML = articles.map((a, i) => `
+        <li class="article-card ${ACCENTS[i % ACCENTS.length]}">
+          <h2 class="article-title"><a href="${esc(a.enPath)}">${esc(a.display)}</a></h2>
+          <p class="article-zh"><a href="${esc(a.zhPath)}" lang="zh-TW">${esc(a.zhTitle)}</a></p>
+          <p class="article-meta"><span class="badge">${esc(a.id)}</span></p>
+          <p class="article-meta">created ${esc(a.created)}</p>
+        </li>`).join('');
+      emptyNote.hidden = articles.length > 0;
+      if (!articles.length) emptyNote.textContent = 'No active articles found.';
+    })
+    .catch(err => {
+      emptyNote.textContent = 'Failed to load data/articles.json: ' + err.message;
+      emptyNote.hidden = false;
+    });
+})();
+</script>
+</body>
+</html>
