@@ -2,7 +2,6 @@
   {
     "id": "sirtuin-pleiotropy",
     "active": true,
-    "default": true,
     "langs": {
       "en-US": {
         "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
@@ -75,6 +74,7 @@
   {
     "id": "sirtuins-articles-and-figures",
     "active": true,
+    "default": true,
     "langs": {
       "en-US": {
         "title": "Sirtuins - Articles, figures, images (index)",
@@ -128,7 +128,7 @@
   },
   {
     "id": "node-analysis-biological-prioritization",
-    "active": true,
+    "active": false,
     "langs": {
       "en-US": {
         "title": "Node-level Network Analysis for Biological Prioritization",
