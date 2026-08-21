@@ -8,18 +8,18 @@ const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 const DATA_BASE = new URL('../data/', import.meta.url).href;
 
 // Cache busting: the rebuild script writes data/version.json containing a
-// content-hash tag. The tiny version file is fetched with a no-cache query
-// string; the larger data files then use the tag (stable within a build, so
+// content hash. The tiny version file is fetched with a no-cache query
+// string; the larger data files then use the hash (stable within a build, so
 // browsers can cache them across visits) instead of Date.now(), which forced
 // re-downloading ~11 MB on every page load.
-let CACHE_TAG = '';
+let CACHE_HASH = '';
 
 async function loadCacheTag() {
   try {
     const resp = await fetch(DATA_BASE + 'version.json?x=' + Date.now());
     if (resp.ok) {
       const v = await resp.json();
-      CACHE_TAG = (v && (v.tag || v.generated)) || '';
+      CACHE_HASH = (v && (v.hash || v.tag || v.generated)) || '';
     }
   } catch (e) {
     /* version.json missing -> fall back to Date.now() busting below */
@@ -28,7 +28,7 @@ async function loadCacheTag() {
 
 async function getJSON(name, logName) {
   try {
-    const q = CACHE_TAG ? ('?v=' + CACHE_TAG) : ('?v=' + Date.now());
+    const q = CACHE_HASH ? ('?v=' + CACHE_HASH) : ('?v=' + Date.now());
     const resp = await fetch(DATA_BASE + name + q);
     if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText} for ${name}`);
     return await resp.json();

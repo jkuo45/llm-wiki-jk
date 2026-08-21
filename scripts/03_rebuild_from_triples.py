@@ -5,29 +5,13 @@ This is the canonical rebuild used for this vault (the consolidated
 src/notes/_triples.json was retired in favour of topic-scoped files).
 
 What it does, in order:
-  1. Iterates every src/**/_triples.json and accumulates nodes/edges.
-  2. Prunes generic type/category hubs (e.g. 'chemical', 'protein', 'enzyme').
-  3. Prunes document-title nodes (sources of 'discusses' edges).
-  4. Re-clusters (Leiden), preserving old community labels by majority overlap.
-   5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
-   6. Regenerates graph.html via `graphify export html`.
-   7. Exports nodes.json, edges.json, legend.json for the web app
-      (web/data/), copies the shared graphify JSON the app consumes
-      (graph.json, manifest.json) into web/data/, and writes
-      web/data/version.json with a content-hash tag the app uses for
-      cache busting (tooltips/modals read entity descriptions straight
-      from graph.json nodes; wiki-context.json is retired).
-   8. Multilingual contexts: /_triples.json v2 carries `context` as a BCP-47
-      map (en-US canonical, zh-TW translation), plus `created`/`updated`. Node
-      descriptions resolve to the most recently updated triple (en + zh-TW),
-      edges carry context/context_zh_TW + timestamps, and an i18n coverage
-      report is appended to GRAPH_REPORT.md and written to
-      web/data/i18n-coverage.json. Missing zh-TW falls back to en-US.
-   9. Leaves the hand-maintained web-root files untouched. Files at the
-      web root — llms.txt, robots.txt, sitemap.xml, index.html,
-      components/, pages/ — describe the site for crawlers/LLMs and are
-      curated by hand; this script only ever writes under web/data/ and
-      graphify-out/.
+1. Iterates every src/**/_triples.json and accumulates nodes/edges.
+2. Prunes generic type/category hubs (e.g. 'chemical', 'protein', 'enzyme').
+3. Prunes document-title nodes (sources of 'discusses' edges).
+4. Re-clusters (Leiden), preserving old community labels by majority overlap.
+5. Regenerates GRAPH_REPORT.md, .graphify_labels.json, and graph.json.
+6. Regenerates graph.html via `graphify export html`.
+7. Exports nodes.json, edges.json, legend.json, node_roles.json
 
 Run:  python3 scripts/03_rebuild_from_triples.py
 """
@@ -51,18 +35,18 @@ from graphify.export import to_json
 from graphify.report import generate
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root
-GP = ROOT / "graphify-out"          # canonical graphify analysis artifacts
-WEB = ROOT / "web"                  # standalone three-graph web app (deployed)
-DATA_DIR = WEB / "data"             # runtime data JSONs consumed by the web app
+GP = ROOT / "graphify-out"  # canonical graphify analysis artifacts
+WEB = ROOT / "web"  # standalone three-graph web app (deployed)
+DATA_DIR = WEB / "data"  # runtime data JSONs consumed by the web app
 NOTES_DIR = ROOT / "src" / "notes"  # topic-scoped entity notes (topic = directory)
 
 # Hand-maintained data files the script does NOT produce but that must exist
 # alongside the generated ones in web/data/ (checked by ensure_manual_data_files).
 MANUAL_DATA_FILES = (
-    "query.json",               # curated graph-query traces for the Trace panel
+    "query.json",  # curated graph-query traces for the Trace panel
     "translations-zh-TW.json",  # zh-TW translation dictionary for UI/node labels
-    "predicates-zh-TW.json",    # zh-TW relationship-predicate labels (display only)
-    "articles.json",            # article registry for the Reader (EN + zh-TW)
+    "predicates-zh-TW.json",  # zh-TW relationship-predicate labels (display only)
+    "articles.json",  # article registry for the Reader (EN + zh-TW)
 )
 
 # generic type/category vocabulary to drop (abstract ontology hubs)
@@ -242,6 +226,112 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     for entry in legend:
         entry["color"] = color_map[entry["cid"]]
 
+    # --- Classify per-node biological roles ---
+    # Roles are derived from the same static fingerprint already on each node.
+    # Percentile thresholds are computed from the live graph so the classifier
+    # stays in sync with the current build. The result is baked into each
+    # node object (nodes.json) and also emitted as the standalone
+    # web/data/node_roles.json artifact (replacing the old scripts/05_emit_node_roles.py).
+    def _percentile(sorted_vals: list[float], p: float) -> float:
+        if not sorted_vals:
+            return 0.0
+        if len(sorted_vals) == 1:
+            return float(sorted_vals[0])
+        k = (len(sorted_vals) - 1) * p / 100.0
+        f = int(k)
+        c = min(f + 1, len(sorted_vals) - 1)
+        return sorted_vals[f] + (sorted_vals[c] - sorted_vals[f]) * (k - f)
+
+    _btw = sorted(float(n.get("betweenness_centrality", 0) or 0) for n in nodes)
+    _pr = sorted(float(n.get("pagerank", 0) or 0) for n in nodes)
+    _out = sorted(float(n.get("out_degree", 0) or 0) for n in nodes)
+    _btw_p90 = _percentile(_btw, 90)
+    _pr_p90 = _percentile(_pr, 90)
+    _pr_p95 = _percentile(_pr, 95)
+    _out_p90 = _percentile(_out, 90)
+    _out_p95 = _percentile(_out, 95)
+
+    ROLE_DEFS = [
+        ("Spreader", "out_degree > in_degree AND out_degree >= 3 AND k_core >= 2"),
+        ("Master regulator", "pagerank >= p95 AND out_degree >= p95"),
+        ("Bottleneck", "betweenness >= p90(betweenness)"),
+        ("Module member", "clustering > 0.5"),
+        ("Core backbone", "k_core >= 5"),
+        ("Periphery", "k_core == 1"),
+    ]
+
+    def _roles_for(n: dict) -> list[str]:
+        out = float(n.get("out_degree", 0) or 0)
+        indeg = float(n.get("in_degree", 0) or 0)
+        pr = float(n.get("pagerank", 0) or 0)
+        btw = float(n.get("betweenness_centrality", 0) or 0)
+        clust = float(n.get("clustering_coefficient", 0) or 0)
+        kc = float(n.get("k_core_number", 0) or 0)
+        roles: list[str] = []
+        if out > indeg and out >= 3 and kc >= 2:
+            roles.append("Spreader")
+        if pr >= _pr_p95 and out >= _out_p95:
+            roles.append("Master regulator")
+        if btw >= _btw_p90:
+            roles.append("Bottleneck")
+        if clust > 0.5:
+            roles.append("Module member")
+        if kc >= 5:
+            roles.append("Core backbone")
+        if kc == 1:
+            roles.append("Periphery")
+        return roles
+
+    # Build the per-node role map (for nodes.json) and the standalone
+    # node_roles.json document in one pass.
+    node_roles: dict[str, list[str]] = {}
+    role_records = []
+    role_counts = {name: 0 for name, _ in ROLE_DEFS}
+    multi = 0
+    for n in nodes:
+        roles = _roles_for(n)
+        node_roles[n["id"]] = roles
+        for r in roles:
+            role_counts[r] += 1
+        if len(roles) > 1:
+            multi += 1
+        role_records.append({
+            "id": n.get("id"),
+            "label": n.get("label", n.get("id")),
+            "roles": roles,
+            "metrics": {
+                "degree": float(n.get("degree", 0) or 0),
+                "in_degree": float(n.get("in_degree", 0) or 0),
+                "out_degree": float(n.get("out_degree", 0) or 0),
+                "pagerank": float(n.get("pagerank", 0) or 0),
+                "betweenness": float(n.get("betweenness_centrality", 0) or 0),
+                "clustering": float(n.get("clustering_coefficient", 0) or 0),
+                "k_core": float(n.get("k_core_number", 0) or 0),
+            },
+        })
+
+    node_roles_doc = {
+        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "source_graph": "web/data/graph.json",
+        "graph_build": graph.get("built_at_commit", ""),
+        "rules": {
+            name: {"definition": expr, "operational": True} for name, expr in ROLE_DEFS
+        },
+        "thresholds": {
+            "betweenness_p90": round(_btw_p90, 10),
+            "pagerank_p90": round(_pr_p90, 10),
+            "pagerank_p95": round(_pr_p95, 10),
+            "out_degree_p90": round(_out_p90, 10),
+            "out_degree_p95": round(_out_p95, 10),
+        },
+        "summary": {
+            "node_count": len(role_records),
+            "role_counts": role_counts,
+            "nodes_with_multiple_roles": multi,
+        },
+        "nodes": role_records,
+    }
+
     # Build node objects for web/ (use pre-computed metrics)
     node_objects = []
     node_id_set = {n["id"] for n in nodes}
@@ -253,7 +343,9 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "label": n["label"],
             "file_type": n.get("file_type", "concept"),
             "community": cid,
-            "community_name": n.get("community_name", labels.get(cid, f"Community {cid}")),
+            "community_name": n.get(
+                "community_name", labels.get(cid, f"Community {cid}")
+            ),
             "degree": deg,
             "size": max(3, min(20, 3 + deg * 0.8)),
             "pagerank": n.get("pagerank", 0.0),
@@ -265,6 +357,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "description": n.get("description", ""),
             "description_zh_TW": n.get("description_zh_TW", ""),
             "updated": n.get("updated", ""),
+            "roles": node_roles.get(n["id"], []),
             "color": {"background": color_map.get(cid, "#888888")},
         })
 
@@ -302,8 +395,13 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
         json.dumps(legend, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    (DATA_DIR / "node_roles.json").write_text(
+        json.dumps(node_roles_doc, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
     print(
-        f"Three-graph export: {len(node_objects)} nodes, {len(edge_objects)} edges, {len(legend)} communities"
+        f"Three-graph export: {len(node_objects)} nodes, {len(edge_objects)} edges, "
+        f"{len(legend)} communities, {len(role_records)} role-tagged nodes"
     )
 
 
@@ -351,27 +449,111 @@ def copy_shared_json() -> None:
     print(f"Copied {copied} shared graphify JSON files into web/data/")
 
 
+# Keys dropped from the version hash. Two classes:
+#   1. Provenance / timestamps that differ every run but aren't consumed data
+#      (git commit, generation timestamps, per-entity updated/created).
+#   2. The Leiden clustering OUTPUT — community assignment and everything
+#      derived from it (labels, cohesion, sizes, node color, god/surprising
+#      connection reports). Leiden is non-deterministic run-to-run (a +-1
+#      community drift) yet adds no semantic signal beyond the deterministic
+#      graph topology, so including it would make the tag churn on every
+#      rebuild with no real change.
+# Excluding both makes the tag stable for identical logical data (topology,
+# metrics, roles, descriptions, edges) while still changing on any genuine
+# node/edge/metric/role/description change.
+HASH_EXCLUDE_KEYS = {
+    # provenance / timestamps
+    "generated_at",
+    "built_at_commit",
+    "metrics_computed_at",
+    "generated",
+    "timestamp",
+    "updated",
+    "created",
+    "description_updated",
+    # non-deterministic Leiden clustering output
+    "community",
+    "community_name",
+    "community_size",
+    "community_labels",
+    "community_cohesion",
+    "community_sizes",
+    "color",
+    "god_nodes",
+    "surprising_connections",
+}
+
+# Files that are *entirely* clustering-derived and therefore never stable across
+# runs (legend.json is a pure community-id -> label/color/count map). Skipped
+# from the hash so they don't churn the tag; still listed in version.json's
+# files array for reference.
+HASH_SKIP_FILES = {"legend.json"}
+
+
+def _stable_bytes(obj) -> bytes:
+    """Canonical, hash-excluded JSON bytes for content hashing.
+
+    Recursively drops HASH_EXCLUDE_KEYS and emits key-sorted, compact JSON.
+    Two files with identical semantic content hash the same even if their
+    embedded timestamps or community assignments differ.
+
+    Assembled manually (not via ``json.dumps`` over a dict whose values are
+    already bytes) so no ``bytes`` value is ever handed back to ``json.dumps``
+    — that would raise and silently fall back to hashing raw volatile bytes.
+    Lists are order-independent: elements are sorted by their canonical bytes,
+    so array reordering (nodes grouped by a drifting Leiden community, edges
+    emitted in a different sequence) does not churn the tag when the *set* of
+    elements is unchanged.
+    """
+    if isinstance(obj, dict):
+        parts = []
+        for k in sorted(obj):
+            if k in HASH_EXCLUDE_KEYS:
+                continue
+            parts.append(
+                json.dumps(k, ensure_ascii=False, sort_keys=True).encode("utf-8")
+                + b":"
+                + _stable_bytes(obj[k])
+            )
+        return b"{" + b",".join(parts) + b"}"
+    if isinstance(obj, list):
+        parts = sorted(_stable_bytes(v) for v in obj)
+        return b"[" + b",".join(parts) + b"]"
+    return json.dumps(obj, ensure_ascii=False, sort_keys=True).encode("utf-8")
+
+
 def write_version_file() -> None:
-    """Write web/data/version.json with a content-hash cache tag.
+    """Write web/data/version.json with a content hash (cache-busting).
 
     The web app fetches this tiny file with a no-cache query string and uses
-    the tag (`?v=...`) to cache-bust the larger data files, so browsers only
+    the hash (`?v=...`) to cache-bust the larger data files, so browsers only
     re-download them when the data actually changed (instead of on every page
-    load). The tag covers all data files, including hand-maintained ones, so
+    load). The hash covers all data files, including hand-maintained ones, so
     manual edits to query.json/translations also bump it. Written last so a
-    failed rebuild never leaves a fresh tag pointing at stale data.
+    failed rebuild never leaves a fresh hash pointing at stale data.
+
+    The hash is idempotent to content: it runs over a key-sorted view of each
+    file with provenance timestamps AND the non-deterministic Leiden clustering
+    output (community assignment, labels, legend) excluded, so a rebuild that
+    yields the same logical data keeps the same hash. File names are still
+    included, so adding or removing a data file still changes the hash.
     """
     files = sorted(p for p in DATA_DIR.glob("*.json") if p.name != "version.json")
     h = hashlib.sha256()
     for p in files:
+        if p.name in HASH_SKIP_FILES:
+            continue
         h.update(p.name.encode("utf-8"))
-        h.update(p.read_bytes())
-    tag = h.hexdigest()[:16]
+        try:
+            h.update(_stable_bytes(json.loads(p.read_text(encoding="utf-8"))))
+        except Exception:  # noqa: BLE001 - fall back to raw bytes for non-JSON
+            h.update(p.read_bytes())
+    data_hash = h.hexdigest()[:16]
     (DATA_DIR / "version.json").write_text(
         json.dumps(
             {
                 "generated": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "tag": tag,
+                "hash": data_hash,
                 "files": [p.name for p in files],
             },
             ensure_ascii=False,
@@ -379,7 +561,7 @@ def write_version_file() -> None:
         ),
         encoding="utf-8",
     )
-    print(f"Wrote data version tag {tag} over {len(files)} files")
+    print(f"Wrote data version hash {data_hash} over {len(files)} files")
 
 
 def write_topics_json() -> None:
@@ -468,8 +650,12 @@ def enrich_graph_metrics(
             node_community[m] = cid
     for n in G.nodes():
         cid = node_community.get(n)
-        G.nodes[n]["community_size"] = community_sizes.get(cid, 0) if cid is not None else 0
-        G.nodes[n]["community_name"] = new_labels.get(cid, f"Community {cid}") if cid is not None else ""
+        G.nodes[n]["community_size"] = (
+            community_sizes.get(cid, 0) if cid is not None else 0
+        )
+        G.nodes[n]["community_name"] = (
+            new_labels.get(cid, f"Community {cid}") if cid is not None else ""
+        )
 
     # --- edge weight from confidence_score ---
     for u, v, d in G.edges(data=True):
@@ -580,16 +766,14 @@ def main() -> int:
                         source_file=src,
                         source_triples=rel,
                     )
-                node_candidates[nid].append(
-                    {
-                        "created": created,
-                        "updated": updated,
-                        "score": score,
-                        "en": en,
-                        "zh": zh if has_zh else "",
-                        "id": t.get("id", ""),
-                    }
-                )
+                node_candidates[nid].append({
+                    "created": created,
+                    "updated": updated,
+                    "score": score,
+                    "en": en,
+                    "zh": zh if has_zh else "",
+                    "id": t.get("id", ""),
+                })
 
             key = (sid, t["predicate"], tid)
             rec = edge_records.get(key)
@@ -610,10 +794,7 @@ def main() -> int:
                 if has_zh:
                     edge["context_zh_TW"] = zh
                 edge_records[key] = edge
-        print(
-            f"  {rel}: +{G.number_of_nodes() - n0}n "
-            f"(running {G.number_of_nodes()}n)"
-        )
+        print(f"  {rel}: +{G.number_of_nodes() - n0}n (running {G.number_of_nodes()}n)")
 
     # --- add edges (latest-`updated` triple wins for an identical edge key) ---
     for (sid, _pred, tid), rec in edge_records.items():
@@ -716,7 +897,9 @@ def main() -> int:
     questions = suggest_questions(G, communities, new_labels)
 
     # --- enrich graph with pre-computed metrics ---
-    graph_meta = enrich_graph_metrics(G, communities, new_labels, cohesion, gods, surprises)
+    graph_meta = enrich_graph_metrics(
+        G, communities, new_labels, cohesion, gods, surprises
+    )
     graph_meta["i18n"] = dict(i18n)
 
     # Count topic triple files (the actual graph sources)
@@ -786,8 +969,11 @@ def main() -> int:
     # --- write the i18n coverage report the web app can surface ---
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     (DATA_DIR / "i18n-coverage.json").write_text(
-        json.dumps({"generated": time.strftime("%Y-%m-%d %H:%M:%S"), **dict(i18n)},
-                   ensure_ascii=False, indent=2),
+        json.dumps(
+            {"generated": time.strftime("%Y-%m-%d %H:%M:%S"), **dict(i18n)},
+            ensure_ascii=False,
+            indent=2,
+        ),
         encoding="utf-8",
     )
 
