@@ -130,7 +130,7 @@
     "active": true,
     "langs": {
       "en-US": {
-        "title": "Node-level Network Analysis for Biological Knowledge Graph",
+        "title": "Node-level Network Analysis for Biological Knowledge Graphs",
         "path": "pages/node-analysis-examples-biology.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
