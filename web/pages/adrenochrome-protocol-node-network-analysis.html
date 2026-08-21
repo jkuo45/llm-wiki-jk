@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Adrenochrome Protocol: Agent–Trigger Network Traces</title>
-<meta name="description" content="A living network-trace atlas for the methylene blue + aminoguanidine adrenochrome protocol on the llm-wiki-jk knowledge graph: trace-logged relations between methylene blue, aminoguanidine, carbazochrome, ascorbic acid and the adrenochrome trigger — coupling ladders, direct vs bridge-edge wiring, spectral seams, adaptive-arm baseline, and falsifiable hypotheses H1–H8.">
+<title>The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy</title>
+<meta name="description" content="A network-trace atlas for the methylene blue + aminoguanidine adrenochrome protocol on the llm-wiki-jk knowledge graph: trace-logged relations between methylene blue, aminoguanidine, carbazochrome, ascorbic acid and the adrenochrome trigger — coupling ladders, direct vs bridge-edge wiring, spectral seams, adaptive-arm baseline, and falsifiable hypotheses H1–H8.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/adrenochrome-protocol-node-network-analysis.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <style>
@@ -1355,24 +1355,21 @@ body.lb-open {
 
 <header class="hero">
   <div class="wrap">
-    <p class="kicker">Living trace atlas · The adrenochrome protocol on the knowledge graph</p>
-    <h1>The Adrenochrome Protocol: Agent–Trigger Network Traces</h1>
+    <p class="kicker">Graph Trace Log · Adrenochrome</p>
+    <h1>[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy</h1>
     <p class="lede">
       The protocol pairs <strong>methylene blue</strong> (an electron-shunt amplifier) with
       <strong>aminoguanidine</strong> (a dicarbonyl/AGE quencher) to steer a controlled
       <strong>adrenochrome</strong> hormetic pulse toward the cell's adaptive programs —
       <strong>mitohormesis</strong>, <strong>autophagy</strong>, and <strong>sirtuins</strong>.
       This page traces every protocol agent's wiring to the adrenochrome node on the
-      <code>llm-wiki-jk</code> knowledge graph. It is a <strong>living document</strong>:
-      numbers are pinned to a specific graph build, and the
-      <a href="#log">trace log</a> is appended each time a new run lands.
+      <code>llm-wiki-jk</code> knowledge graph.
     </p>
     <div class="meta">
       <p><strong>Date:</strong> 20 August 2026 (updated)</p>
-      <p><strong>Data Source:</strong> <code>graphify-out/graph.json</code> — build <code>867a5ae5fdb8a46c</code> (2,596 nodes / 3,737 edges)</p>
-      <p><strong>Code:</strong> <code>scripts/04_node_analysis.py</code>, supplementary scans against the build</p>
+      <p><strong>Data Source:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> — build <code>867a5ae5fdb8a46c</code> (2,596 nodes / 3,737 edges)</p>
+      <p><strong>Code:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a>, supplementary scans against the build</p>
       <p><strong>Methods basis:</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Prioritization</a></p>
-      <p><strong>Status:</strong> living — trace log appended as more runs land (see <a href="#log">§09</a>)</p>
       <p><strong>Protocol documents</strong> (repo · <em>dev</em>): <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md">US4501923A</a></p>
     </div>
   </div>
@@ -1390,7 +1387,7 @@ body.lb-open {
       <li><a href="#structure">Structural findings</a></li>
       <li><a href="#seam">Spectral seam</a></li>
       <li><a href="#hypotheses">Hypotheses H1–H8</a></li>
-      <li><a href="#log">Trace log (living)</a></li>
+      <li><a href="#log">Trace log</a></li>
       <li><a href="#repro">Reproducibility &amp; next traces</a></li>
       <li><a href="#references">References</a></li>
     </ol>
@@ -1400,7 +1397,7 @@ body.lb-open {
 
     <section id="question">
       <p class="sec-label">01 · Framing</p>
-      <h2>From a four-node study to a protocol trace atlas</h2>
+      <h2>Damage vs. Hormetic Reading</h2>
       <p class="drop">
         Adrenochrome has two honest readings in the vault. The first is the damage reading: a
         redox-cycling catecholamine oxidation product that generates ROS, depletes glutathione, and is
@@ -1467,7 +1464,7 @@ body.lb-open {
         bioenergetic fuel; the <strong>Glyco-Oxidative Proteostasis Shield (GOPS)</strong> —
         aminoguanidine trapping dicarbonyls and AGEs; and the <strong>SASP-Remodeling Aminochrome
         Complex (SRAC)</strong> — adrenochrome/AMM as the senomorphic-redox component. Each agent was
-        traced against the living graph (build <code>867a5ae5fdb8a46c</code>).
+        traced against the current graph build <code>867a5ae5fdb8a46c</code>.
       </p>
 
       <div class="table-wrap">
@@ -1923,12 +1920,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
 
     <section id="log">
       <p class="sec-label">09 · Trace log</p>
-      <h2>A living contract between this page and the graph build</h2>
-      <p>
-        This page is bound to build <code>867a5ae5fdb8a46c</code>. Each time a trace runs, its log is
-        archived and a row appended below. If a rebuild changes the graph, the affected rows are
-        re-marked and re-run before figures are trusted again.
-      </p>
+      <h2>Query/Trace Log (build: 867a5ae5fdb8a46c)</h2>
       <div class="table-wrap">
         <table>
           <thead>
@@ -1988,29 +1980,20 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
       <h2>Vault analysis, protocol documents, and the surrounding literature</h2>
       <ol class="refs">
         <li>Vault methods briefing, 16 August 2026. <em>Node-level network analysis for biological prioritization.</em> <a href="node-analysis-examples-biology.html">web/pages/node-analysis-examples-biology.html</a>.</li>
-        <li>Protocol outline (task reference). <code>src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md</code> — MRR / GOPS / SRAC framing.</li>
-        <li>Wiki entity notes. <code>src/notes/adrenochrome/Adrenochrome monoaminoguanidine.md</code> (GOPS/SRAC details); <code>src/notes/_link/Methylene blue.md</code>; <code>src/notes/_link/Aminoguanidine.md</code>; <code>src/notes/_link/Hormetic Window.md</code>; <code>src/notes/adrenochrome/_document_ - US4501923A - Process for preparing adrenochrome.md</code>.</li>
-        <li>Prior task outputs: <code>adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md</code>; <code>task_output_research-scientist_combo_therapy_11_JUN_2026.md</code>; <code>task_output_mitohormetic_window_13_JUL_2026.md</code>; <code>task_output_adrenochrome_gap_analysis_09_JUL_2026.md</code>; <code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code>; <code>task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md</code>; <code>task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md</code>.</li>
-        <li>Quartet baseline study. <code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md</code>.</li>
-        <li>This protocol trace set. <code>src/tasks/adrenochrome_protocol_traces/task_output_adrenochrome_protocol_traces_20_AUG_2026.md</code> and the <code>run_log_A…D_*.txt</code> archives.</li>
-        <li>Multi-node analytics tooling. <code>scripts/04_node_analysis.py</code>; rebuild pipeline <code>scripts/03_rebuild_from_triples.py</code>.</li>
+        <li>Protocol outline (task reference). <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"><code>src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md</code></a> — MRR / GOPS / SRAC framing.</li>
+        <li>Wiki entity notes. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md"><code>src/notes/adrenochrome/Adrenochrome monoaminoguanidine.md</code></a> (GOPS/SRAC details); <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md"><code>src/notes/_link/Methylene blue.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md"><code>src/notes/_link/Aminoguanidine.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md"><code>src/notes/_link/Hormetic Window.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md"><code>src/notes/adrenochrome/_document_ - US4501923A - Process for preparing adrenochrome.md</code></a>.</li>
+        <li>Prior task outputs: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"><code>adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"><code>task_output_research-scientist_combo_therapy_11_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"><code>task_output_mitohormetic_window_13_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"><code>task_output_adrenochrome_gap_analysis_09_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"><code>task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"><code>task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md</code></a>.</li>
+        <li>Quartet baseline study. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md</code></a>.</li>
+        <li>This protocol trace set. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_protocol_traces/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"><code>src/tasks/adrenochrome_protocol_traces/task_output_adrenochrome_protocol_traces_20_AUG_2026.md</code></a> and the <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/adrenochrome_protocol_traces"><code>run_log_A…D_*.txt</code></a> archives.</li>
+        <li>Multi-node analytics tooling. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a>; rebuild pipeline <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py"><code>scripts/03_rebuild_from_triples.py</code></a>.</li>
         <li>Jeong H, et al. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42. Yu H, et al. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
       </ol>
     </section>
-
   </main>
 </div>
 
 <footer>
   <div class="wrap">
-    <p>
-      Living trace-atlas page for the llm-wiki-jk knowledge graph.
-      Independent stylesheet and scripts — not the shared article chrome.
-      Not medical advice; every claim is a hypothesis against curated notes
-      and is bound to graph build 867a5ae5fdb8a46c. The hormetic-trigger reading is a
-      low-dose hypothesis to be adjudicated against primary literature, not an established fact.
-      The trace log (§09) is appended as further runs land.
-    </p>
     <p><strong>Linked vault documents</strong> (repo · <em>dev</em> branch): <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md">US4501923A</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md">pharmacologist feasibility</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md">combo therapy</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md">mitohormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md">gap analysis</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md">lipid-peroxidation bridge</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md">foam-cell autophagy trace</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md">sirtuins/MnSOD·adrenochrome</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md">quartet study</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_protocol_traces/task_output_adrenochrome_protocol_traces_20_AUG_2026.md">protocol trace set</a>.</p>
     <p><strong>Cited papers</strong> (outbound): Jeong H, et al. <em>Nature</em> 2001;411:41–42 — <a href="https://doi.org/10.1038/35075138">doi:10.1038/35075138</a> · Yu H, et al. <em>PLoS Comput Biol</em> 2007;3:e59 — <a href="https://doi.org/10.1371/journal.pcbi.0030059">doi:10.1371/journal.pcbi.0030059</a>.</p>
     <p><a href="https://graph.johnnykuo.com">Return to the graph</a></p>

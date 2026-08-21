@@ -145,10 +145,10 @@
   },
   {
     "id": "adrenochrome-protocol-node-network-analysis",
-    "active": false,
+    "active": true,
     "langs": {
       "en-US": {
-        "title": "[Speculative] The Adrenochrome Protocol: Network Analysis",
+        "title": "The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
         "path": "pages/adrenochrome-protocol-node-network-analysis.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
