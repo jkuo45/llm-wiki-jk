@@ -215,6 +215,25 @@ function stopSectionTracking() {
   }
 }
 
+/* In-frame article links announce themselves via postMessage so the
+   dropdown / lang toggle update immediately on click (the frame `load`
+   handler below is the fallback that reconciles after navigation). */
+window.addEventListener('message', (e) => {
+  if (e.origin !== window.location.origin) return;
+  if (!e.data || e.data.type !== 'reader-navigate') return;
+  const article = getArticle(e.data.id);
+  if (!article || article.id === state.readerId) return;
+  if (readerStack[readerStack.length - 1] !== article.id) {
+    readerStack.push(article.id);
+  }
+  state.readerId = article.id;
+  state.readerSection = null;
+  setSelectFor(article);
+  setLangToggleFor(article);
+  updateHash();
+  updatePrevBtn();
+});
+
 frame.addEventListener('load', () => {
   // If navigation happened via an in-frame link (rather than the dropdown),
   // reconcile the dropdown / lang toggle / hash with the page now loaded.

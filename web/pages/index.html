@@ -204,13 +204,28 @@ a:hover { color: var(--ink); }
 
       list.innerHTML = articles.map((a, i) => `
         <li class="article-card ${ACCENTS[i % ACCENTS.length]}">
-          <h2 class="article-title"><a href="${esc(a.enPath)}">${esc(a.display)}</a></h2>
-          <p class="article-zh"><a href="${esc(a.zhPath)}" lang="zh-TW">${esc(a.zhTitle)}</a></p>
+          <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${esc(a.display)}</a></h2>
+          <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${esc(a.zhTitle)}</a></p>
           <p class="article-meta"><span class="badge">${esc(a.id)}</span></p>
           <p class="article-meta">created ${esc(a.created)}</p>
         </li>`).join('');
       emptyNote.hidden = articles.length > 0;
       if (!articles.length) emptyNote.textContent = 'No active articles found.';
+
+      /* Embedded in the Reader: announce navigation so the parent
+         dropdown/lang toggle updates immediately (before iframe load). */
+      list.addEventListener('click', (e) => {
+        const a = e.target.closest('a[data-article-id]');
+        if (!a) return;
+        try {
+          if (window.parent && window.parent !== window) {
+            window.parent.postMessage({
+              type: 'reader-navigate',
+              id: a.dataset.articleId
+            }, window.location.origin);
+          }
+        } catch { /* standalone view — nothing to notify */ }
+      });
     })
     .catch(err => {
       emptyNote.textContent = 'Failed to load data/articles.json: ' + err.message;
