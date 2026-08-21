@@ -74,7 +74,6 @@
   {
     "id": "sirtuins-articles-and-figures",
     "active": true,
-    "default": true,
     "langs": {
       "en-US": {
         "title": "Sirtuins - Articles, figures, images (index)",
@@ -131,7 +130,7 @@
     "active": true,
     "langs": {
       "en-US": {
-        "title": "Node-level Network Analysis for Biological Prioritization",
+        "title": "Node-level Network Analysis for Biological Knowledge Graph",
         "path": "pages/node-analysis-examples-biology.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
@@ -145,18 +144,19 @@
     }
   },
   {
-    "id": "adrenochrome-mitohormesis-node-analysis",
+    "id": "adrenochrome-protocol-node-network-analysis",
     "active": true,
+    "default": true,
     "langs": {
       "en-US": {
-        "title": "One Mitohormetic Trigger, Three Adaptive Programs",
-        "path": "pages/adrenochrome-mitohormesis-node-analysis.html",
+        "title": "The Adrenochrome Protocol: Agent–Trigger Network Traces",
+        "path": "pages/adrenochrome-protocol-node-network-analysis.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
       },
       "zh-TW": {
-        "title": "一個粒體誘發／激效觸發器，三套適應性程序",
-        "path": "pages/adrenochrome-mitohormesis-node-analysis_zh-TW.html",
+        "title": "腎上腺素紅方案：作用劑—觸發器網絡追蹤",
+        "path": "pages/adrenochrome-protocol-node-network-analysis_zh-TW.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
       }
