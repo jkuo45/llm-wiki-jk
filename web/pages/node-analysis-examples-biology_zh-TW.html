@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>節點層級網絡分析用於生物學優先排序</title>
-<meta name="description" content="一篇方法論簡報，說明如何使用 NetworkX 的中心性指紋——度數、PageRank、中介中心性、聚類係數與 k-core——在具向知識圖譜中篩選生物醫學實體。">
+<title>節點層級網絡分析 — 方法與指標參考</title>
+<meta name="description" content="一本參考，說明如何在具向知識圖譜中分析生物節點：NetworkX 管線、中心性指標（度數、PageRank、中介中心性、聚類係數、k-core、社群），以及關係感知的方法，還有如何解讀每個節點的角色。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/node-analysis-examples-biology_zh-TW.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <style>
@@ -403,6 +403,11 @@ li + li {
 .note.forest h4 { color: var(--forest); }
 .note.gold h4 { color: var(--gold); }
 
+.note.gold .lede {
+  color: var(--mute);
+  margin: 0 0 8px;
+}
+
 .note p:last-child {
   margin-bottom: 0;
 }
@@ -704,10 +709,10 @@ tbody tr[data-node]:hover {
 }
 
 /* Scope tag — flags whether a practice is a portable NetworkX rule
-   ("General practice") or wiring specific to this vault ("This vault"). */
+   ("General practice") or wiring specific to this implementation ("This implementation"). */
 .ptag {
   position: absolute;
-  top: 12px;
+  bottom: 12px;
   right: 16px;
   font-family: var(--mono);
   font-size: 10px;
@@ -719,7 +724,7 @@ tbody tr[data-node]:hover {
 }
 
 .ptag.general { color: var(--forest-soft); }
-.ptag.vault { color: var(--gold-soft); }
+.ptag.implementation { color: var(--gold-soft); }
 
 .practices > li h3::before {
   counter-increment: prac;
@@ -1332,8 +1337,8 @@ body.lb-open {
 }
 
 /* ——— Instance-specific (worked-example) marker ———
-   Empirical values for specific vault nodes, set apart from the general
-   methodology. Each is tied to graph build 867a5ae5fdb8a46c. */
+   Empirical values for specific implementation nodes, set apart from the general
+   methodology. Each is tied to a specific graph build. */
 .instance {
   position: relative;
   border-left: 3px solid var(--oxblood);
@@ -1391,7 +1396,7 @@ body.lb-open {
       <a href="#metrics">指標</a>
       <a href="#methods">方法</a>
       <a href="#examples">實例</a>
-      <a href="#operations">操作化</a>
+      <a href="#operations">節點角色</a>
       <a href="#practices">NetworkX</a>
       <a href="#references">參考文獻</a>
     </div>
@@ -1400,12 +1405,12 @@ body.lb-open {
 
 <header class="hero">
   <div class="wrap">
-    <p class="kicker">方法論簡報 · 計算生物學</p>
-    <h1>節點層級網絡分析用於生物學優先排序</h1>
+    <p class="kicker">參考 · 計算生物學方法論</p>
+    <h1>生物知識圖譜的節點層級網絡分析</h1>
     <p class="lede">
       知識圖譜中的每個實體都帶有一套指標指紋——
       <code>入度與出度</code>、<code>PageRank</code>、<code>中介中心性</code>、<code>聚類係數</code>、<code>k-core</code>、<code>社群</code>——
-      可將其解讀為一種生物學角色。本頁說明這些讀數如何在 NetworkX 中計算、在本知識庫真實節點上的意義，以及哪些做法能讓這些數字值得信賴。
+      可將其解讀為一種生物學角色。本頁是關於分析管線、各項指標及其 NetworkX 呼叫，以及將節點指紋轉化為可執行解讀之關係感知方法，的一份可重用參考。同一套流程適用於任何生物節點：從 <code>graph.json</code> 讀取其指紋，與同儕比較，並以下方方法加以檢驗。
     </p>
     <div class="meta">
       <p><strong>日期：</strong> 2026 年 8 月 16 日</p>
@@ -1423,10 +1428,9 @@ body.lb-open {
     <ol>
       <li><a href="#fingerprint">指紋</a></li>
       <li><a href="#metrics">指標圖譜</a></li>
-      <li><a href="#compare">比較圖表</a></li>
       <li><a href="#methods">分析方法</a></li>
+      <li><a href="#operations">節點角色</a></li>
       <li><a href="#examples">實作成例</a></li>
-      <li><a href="#operations">操作化</a></li>
       <li><a href="#practices">NetworkX</a></li>
       <li><a href="#references">參考文獻</a></li>
     </ol>
@@ -1445,10 +1449,9 @@ body.lb-open {
         <code>pagerank</code>、<code>betweenness_centrality</code>、
         <code>clustering_coefficient</code>、<code>k_core_number</code>、
         <code>community_size</code>、<code>community_name</code>。
-        有兩個管線選擇讓這些數字可作為生物學來使用，而非共現的人為產物。
       </p>
       <div class="note gold">
-        <h4>本知識庫</h4>
+        <p class="lede">有兩個管線選擇讓這些數字可作為生物學來使用，而非共現的人為產物。</p>
         <ul>
           <li>
             <strong>類型中樞拒絕名單（denylist）。</strong> 抽象類別
@@ -1472,20 +1475,13 @@ body.lb-open {
         </figcaption>
       </figure>
 
-      <div class="note">
-        <h4>解讀陷阱</h4>
-        <p class="inst-tag">Acid ceramidase vs Aging · graph 867a5ae5fdb8a46c</p>
-        <p>
-          PageRank 與出度回答的是相反的問題。PageRank 獎勵被其他重要節點<em>指向</em>的節點。出度標記的是一個<em>向外指向</em>的節點。Acid ceramidase 是擴散者（出度 17，PageRank 0.000758）。Aging 是吸引子（入度 35，PageRank 0.00739）。若單獨使用任一指標，都會顛倒生物學的解讀。
-        </p>
-      </div>
     </section>
 
     <section id="metrics">
       <p class="sec-label">02 · 指標圖譜</p>
       <h2>每個數字在問圖譜什麼</h2>
       <p>
-        每個卡片都列出了 NetworkX 呼叫、對應的生物學問題，以及最常在排名中誤導人的注意事項。以下數值為本知識庫使用的定義，而非一般教科書的泛化轉述。
+        每個卡片都列出了 NetworkX 呼叫、對應的生物學問題，以及最常在排名中誤導人的注意事項。以下數值為本實作使用的定義，而非一般教科書的泛化轉述。
       </p>
 
       <div class="note">
@@ -1520,7 +1516,7 @@ body.lb-open {
           <p class="q">根本性重要度，由<em>誰</em>連接到它來加權。</p>
           <div class="more">
             <p>
-              在有向圖上、阻尼係數 0.85 的隨機遊走。當其他高分節點連向某節點時，該節點得分高。在本知識庫中，Aging（0.00739）勝過 SASP（0.00712），儘管 SASP 度數較大——Aging 受到其餘重要核心的背書。
+              在有向圖上、阻尼係數 0.85 的隨機遊走。當其他高分節點連向某節點時，該節點得分高。在本實作中，Aging（0.00739）勝過 SASP（0.00712），儘管 SASP 度數較大——Aging 受到其餘重要核心的背書。
             </p>
             <p>
               <strong>注意。</strong> PageRank 目前計算時<em>未</em>使用 <code>weight=</code>。信心分數儲存在邊上，但在本次呼叫之後才附加。個人化 PageRank（在 <code>04_node_analysis.py</code> 中的種子遊走）才是當問題是「與<em>此</em>節點相關」，而非「全局重要」時的正確工具。
@@ -1552,7 +1548,7 @@ body.lb-open {
           <p class="q">緊密模組（複合體、級聯）還是連接者（訊號中樞）？</p>
           <div class="more">
             <p>
-              局部傳遞性：一個節點的鄰居對中，彼此也有連結的比例。<code>C = 1.0</code> 表示鄰居間形成完全連結的團（clique）——本圖中的 GPX4、inducible NOS（可誘發一氧化氮合酶）、Cataract（白內障）。<span class="inst-inline">Acid ceramidase 座落於 <code>C ≈ 0.04</code> 附近：它的鄰居分布在不同區域。</span><span class="gv">graph 867a5ae5fdb8a46c</span>
+              局部傳遞性：一個節點的鄰居對中，彼此也有連結的比例。<code>C = 1.0</code> 表示鄰居間形成完全連結的團（clique）——本圖中的 GPX4、inducible NOS（可誘發一氧化氮合酶）、Cataract（白內障）。<span class="inst-inline">Acid ceramidase 座落於 <code>C ≈ 0.04</code> 附近：它的鄰居分布在不同區域。</span>
             </p>
             <p>
               <strong>注意。</strong> 高聚類係數並不代表「更重要」。它標記的是一種不同的可藥性策略：破壞一個緊密機制，對比切斷一座橋樑。請與全局傳遞性以及保留度數的零模型比較；生物網絡通常比配置模型（configuration model）更具聚類性。
@@ -1568,10 +1564,10 @@ body.lb-open {
           <p class="q">具韌性的骨幹，還是偶然的周邊？</p>
           <div class="more">
             <p>
-              最大的 <em>k</em>，使得在反覆刪除所有度數 &lt; <em>k</em> 的節點後，該節點仍然存在。在本圖中，<span class="inst-inline">內層殼為 <code>k = 6</code>：Aging、SASP、Senescent cells（衰老細胞）。位於 <code>k = 1</code> 的葉節點（Acetate、Alagebrium、2-Chlorophenothiazine）掛在該核心之外。</span><span class="gv">graph 867a5ae5fdb8a46c</span>
+              最大的 <em>k</em>，使得在反覆刪除所有度數 &lt; <em>k</em> 的節點後，該節點仍然存在。在本圖中，<span class="inst-inline">內層殼為 <code>k = 6</code>：Aging、SASP、Senescent cells（衰老細胞）。位於 <code>k = 1</code> 的葉節點（Acetate、Alagebrium、2-Chlorophenothiazine）掛在該核心之外。</span>
             </p>
             <p>
-              <strong>注意。</strong> NetworkX 在有向圖上預設的 core number 使用總度數；本知識庫正確地在無向視圖上計算。在古典 PPI 研究中，內層核心會富集必需蛋白（Wuchty &amp; Almaas 2005）。它們是篩選過濾器，而非必需性的證明。
+              <strong>注意。</strong> NetworkX 在有向圖上預設的 core number 使用總度數；本實作正確地在無向視圖上計算。在古典 PPI 研究中，內層核心會富集必需蛋白（Wuchty &amp; Almaas 2005）。它們是篩選過濾器，而非必需性的證明。
             </p>
             <p class="method-ex"><em>範例：</em>Aging、SASP 與 Senescent cells 位於 k = 6 的內層殼，而 Acetate、Alagebrium 則在 k = 1——先篩內層殼：葉節點是脈絡，核心才是機制。</p>
           </div>
@@ -1584,7 +1580,7 @@ body.lb-open {
           <p class="q">該節點屬於哪個浮現出的路徑或過程？</p>
           <div class="more">
             <p>
-              Leiden 對圖進行分割；每個社群以其度數最高的成員命名。<span class="inst-inline">Acid ceramidase 錨定了一個大小為 17、以其自身命名的社群——一個局部過程模組。</span><span class="gv">graph 867a5ae5fdb8a46c</span> SASP 與 Aging 則位於較大的衰老軸（senescence axis）中。一個鄰居大多位於<em>其他</em>社群的節點，是社群橋樑，與中介中心性互補。
+              Leiden 對圖進行分割；每個社群以其度數最高的成員命名。<span class="inst-inline">Acid ceramidase 錨定了一個大小為 17、以其自身命名的社群——一個局部過程模組。</span> SASP 與 Aging 則位於較大的衰老軸（senescence axis）中。一個鄰居大多位於<em>其他</em>社群的節點，是社群橋樑，與中介中心性互補。
             </p>
             <p>
               <strong>注意。</strong> 社群標籤在多輪重建間以多數重疊方式保留，但它們並非路徑資料庫。Leiden 與 Fiedler（譜）切分的差異本身即是一項發現：那些節點座落於過程之間。
@@ -1597,21 +1593,400 @@ body.lb-open {
       <div class="note slate">
         <h4>文獻脈絡，而非知識庫指標</h4>
         <p>
-          度數–必需性（Jeong et al., 2001）、瓶頸蛋白（Yu et al., 2007），以及必需蛋白的 k-shell 富集（Wuchty &amp; Almaas, 2005）是將這些指標視為生物學的古典 PPI 依據。本知識庫是一個源自文獻的知識圖譜，而非物理交互組（interactome）：相同的數學適用，但邊是帶有策展者信心的類型化關係，而非結合事件。請將排名視為假說，並對照來源筆記進行驗證。
+          度數–必需性（Jeong et al., 2001）、瓶頸蛋白（Yu et al., 2007），以及必需蛋白的 k-shell 富集（Wuchty &amp; Almaas, 2005）是將這些指標視為生物學的古典 PPI 依據。本實作是一個源自文獻的知識圖譜，而非物理交互組（interactome）：相同的數學適用，但邊是帶有策展者信心的類型化關係，而非結合事件。請將排名視為假說，並對照來源筆記進行驗證。
+        </p>
+      </div>
+      <div class="note">
+        <h4>解讀陷阱</h4>
+        <p class="inst-tag">Acid ceramidase vs Aging · graph 867a5ae5fdb8a46c</p>
+        <p>
+          PageRank 與出度回答的是相反的問題。PageRank 獎勵被其他重要節點<em>指向</em>的節點。出度標記的是一個<em>向外指向</em>的節點。Acid ceramidase 是擴散者（出度 17，PageRank 0.000758）。Aging 是吸引子（入度 35，PageRank 0.00739）。若單獨使用任一指標，都會顛倒生物學的解讀。
         </p>
       </div>
     </section>
 
-    <section id="compare">
-      <p class="sec-label">03 · 比較證據</p>
-      <h2>相同的三個節點，並列對照</h2>
+    <section id="methods">
+      <p class="sec-label">03 · 超越靜態指紋</p>
+      <h2>儲存庫中已有的關係感知方法</h2>
+      <p>
+        <code>scripts/04_node_analysis.py</code> 運行於相同的 <code>graph.json</code>
+        上，並回答每節點向量無法回答的問題：兩個實體<em>如何</em>連接、它們是否共享鄰域、一條缺失的邊是否合理，以及一旦低信心路徑被降權後，兩條路徑究竟相距多遠。
+      </p>
+      <pre><code>uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+    --sources sirt1 sirt3 --targets adrenochrome</code></pre>
+
+      <div class="methods">
+        <article class="method">
+          <p class="op">nx.all_shortest_paths · edge relation / confidence</p>
+          <h3>最短路徑多重性</h3>
+          <p>
+            不只 A 能否到達 B，還有帶標籤的鏈
+            （<span class="inst-inline"><code>Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis</code></span>），
+            以及跨多條等長最短路徑共享的第一跳橋樑。
+          </p>
+          <p class="method-bio">
+            在驅動子與效應子之間、等長且關係上各自不同的鏈的計數，從無向圖讀取。高多重性是專為繞道而建構之模組的網絡特徵：任何單一跳點上的阻斷都會被平行補償吸收，而非傳播失效。SIRT1 透過三條鏈到達 NF-κB（NAD+ 競爭、直接 RelA 去乙醯化、一個染色質接力），因此增強 SIRT1 只能透過冗餘線路部分地抑制 NF-κB。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 多重性為一是一個真實、限速的瓶頸點，其單一因果邊才是精確的介入標的。將只有少數稀缺橋樑的連結讀作交互作用——兩個模組透過罕見的中介耦合，而非共享線性路徑。
+          </p>
+          <p class="method-ex"><em>範例：</em>問 SIRT1 是透過一條還是多條路線到達 NF-κB——如果三條等長鏈（NAD+ 競爭、直接 RelA 去乙醯化、一個染色質接力）連接兩者，增強 SIRT1 將部分被平行線路吸收，而非乾淨地沉默 NF-κB。</p>
+        </article>
+        <article class="method">
+          <p class="op">neighbour-set Jaccard</p>
+          <h3>鄰域相似性</h3>
+          <p>
+            共享鄰居的實體是機制類比物或脫靶孿生體。與高度數夥伴間的低 Jaccard，是截然不同的鄰域，而非對同一模組的重述。
+          </p>
+          <p class="method-bio">
+            兩實體間共享鄰居的比例（Jaccard），在無向投影上計算。高重疊是互為迴響之實體的網絡特徵——共複合、共調控、或有功（paralogous）——因此命中其一會被另一者聽聞。PARP1 與 PARP2 共享 NAD+ 周轉、PARP 抑制劑與 DNA 修復夥伴，所以號稱 PARP1 選擇性的抑制劑很可能會波及 PARP2。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 相對於高度數夥伴的低 Jaccard 並非同一生物學的弱複製，而是真正不同的地址——這是區分真正功能孿生與脫靶混雜的關鍵。分離讀作機制獨立：兩個名稱相鄰、卻未共享實際交互者的節點，論證了各自的機制。
+          </p>
+          <p class="method-ex"><em>範例：</em>PARP1 與 PARP2 共享 NAD+ 周轉、PARP 抑制劑與 DNA 修復夥伴——因此高 Jaccard 警告：一個號稱 PARP1 選擇性的抑制劑很可能會波及 PARP2，這是在優先排序之前的一項去風險檢查。</p>
+        </article>
+        <article class="method">
+          <p class="op">nx.adamic_adar_index</p>
+          <h3>連結預測</h3>
+          <p>
+            共享鄰居依 log 度數降權。將合理的缺失邊呈現為假說佇列，而非事實。在寫回三元組之前，需經人工文獻查核。
+          </p>
+          <p class="method-bio">
+            由共享鄰居（依 log 度數降權，Adamic–Adar）所得的合理缺失邊分數，在無向投影上計算。高分是真實、但紀錄不足之交互的網絡特徵：一個安靜的共享鄰居是強烈暗示，因為一個濫交的樞紐會使該訊號失去意義。SIRT1 與一個未連接、僅共享單一罕見支架的激酶，在被判定為無關之前，值得一次鎖定的文獻搜尋。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 產生一項預測的同一種稀疏性，也會製造假的孿生體——策展不足會同時產生缺失的邊與人為產物。請將每筆呼籲都視為待讀清單，絕非發現：在寫回三元組之前，必須先做一次初級文獻查核。
+          </p>
+          <p class="method-ex"><em>範例：</em>如果 SIRT1 與一個未連接的激酶只共享單一罕見支架、且沒有策展過的邊，那麼這個配對在被判定為無關之前，值得一次鎖定的文獻搜尋。</p>
+        </article>
+        <article class="method">
+          <p class="op">scipy.linalg.eigh on the Laplacian</p>
+          <h3>譜切分（Fiedler）</h3>
+          <p>
+            該腳本使用稠密 <code>eigh</code>，因為 <code>eigsh(which="SM")</code> 在奇異（singular）Laplacian 上會回傳無意義的零模態，使 Fiedler 向量失效。
+          </p>
+          <p class="method-bio">
+            代數連通度 λ<sub>2</sub> 與 Fiedler 向量在無向投影的 Laplacian 上計算，將圖切分為兩個連貫的子系統。該切分是網絡中最弱機能接縫的特徵：它將分解代謝與合成代謝程式、或壓力反應與維持代謝切開。在衰老語料上，接縫落在脂質過氧化／分泌程式與維持代謝之間，使像 Acid ceramidase 這樣的橋樑正好卡在切口上。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 趨近零的 λ<sub>2</sub> 暴露一個近乎碎裂、易於分離的架構；較大的值則描述緊密交織的狀態。深深座落於一半的節點，僅臣服於該程式——是局部專家，而非跨程式槓桿。
+          </p>
+          <p class="method-ex"><em>範例：</em>在衰老語料上，接縫往往落在脂質過氧化／分泌程式與維持代謝之間，使像 Acid ceramidase 這樣的橋樑正好卡在切口上——這是尋找跨程式調節者的第一站。</p>
+        </article>
+        <article class="method">
+          <p class="op">Laplacian pseudoinverse</p>
+          <h3>有效電阻</h3>
+          <p>
+            自電阻（self-resistance）是一項健全性檢查，應約為 0。截斷 SVD 在此<em>並非</em>有效的交換時間（commute-time）代理；該腳本從篩選後的特徵值建構偽逆。
+          </p>
+          <p class="method-bio">
+            從 Laplacian 偽逆所得的、能感知指標的距離，會降權長程、低信心的路徑，並對照隨機節點零樣本做 z 分數標準化。低電阻是豐富平行線路的網絡特徵：兩個過程之所以電性相近，是因為許多冗餘路線並行，而非單一優越的邊連接它們。Ferroptosis 儘管沒有單一主導邊，仍與 Inflammation 電性相近，所以多條平行路線意味著低電阻；僅由一條單薄、低信心鏈可達的驅動子，才是脆弱、可成藥的例外。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 與中介中心性相同，請傳入反轉的信心（1/confidence 或 −log）作為距離，絕不傳入原始分數。
+          </p>
+          <p class="method-ex"><em>範例：</em>Ferroptosis 儘管沒有單一主導邊，仍可與 Inflammation 電性相近——許多平行路線意味著低電阻；僅由一條單薄、低信心鏈可達的驅動子，才是脆弱、可成藥的例外。</p>
+        </article>
+        <article class="method">
+          <p class="op">nx.pagerank(..., personalization=)</p>
+          <h3>個人化 PageRank</h3>
+          <p>
+            播種一個感興趣的節點，並依從該播種節點流出的遊走質量，對圖的其餘部分排名。當指紋已指名一個骨幹節點時，這是正確的從全局到局部的移動。
+          </p>
+          <p class="method-bio">
+            從播種節點（<code>personalization=</code>）所得的遊走質量排名，在無向圖上計算。高局部排名是一個過程實際驅動之效應者的網絡特徵，透過沿著該節點自己的線路重新分配機率，而非那些著名的全局樞紐來浮現。播種 Senescent cells，並與 Ferroptosis 和 SASP 的播種取交集，會浮現共享的效應子——脂質過氧化、IL-6——那些通才排行會埋沒它們。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 單一種子的頂級排名反映的是起源的選擇，與底層網絡一樣多，切勿過度解讀一次遊走。請播種數個獨立節點並對頂級排名取交集；跨種子反覆出現的效應子，才是強健、與機制相關的生物學。
+          </p>
+          <p class="method-ex"><em>範例：</em>在 Senescent cells 上播種 PPR，並與在 Ferroptosis 和 SASP 上的種子交集，會浮現共享的效應子——脂質過氧化、IL-6——那些通才排行會埋沒它們。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="operations">
+      <p class="sec-label">04 · 節點角色</p>
+      <h2>疊加於指紋之上的一層規則</h2>
+      <p>
+        節點角色是位於指紋之上的解讀層。一套精簡的規則集讀取每個節點的指標型態——度數不對稱性、中介中心性、k-core 深度、聚類——並指派一個或多個角色：擴散者（spreader）、瓶頸（bottleneck）、核心骨幹（core backbone）、模組成員（module member）、主控調節子（master regulator），以及周邊（periphery）。角色是關於功能的宣稱，而不只是排名；正因如此，角色會重疊而非分割整張圖：單一節點可以同時是擴散者與主控調節子，因此各角色的佔比總和不到 100%。同一套角色映射可用於任何下游問題——標的排序、假說生成、比較性節點研究、文獻策展檢核——而下方的表格列出此一分類法及其數量，其下的卡片則展示觸發的規則，以及具現每個角色的實作成例。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>角色</th>
+              <th class="num">節點</th>
+              <th class="num">佔圖譜%</th>
+              <th>解讀</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>周邊</td><td class="num">1,925</td><td class="num">74.2%</td><td>情境性葉節點——支援證據，非首輪標的。</td></tr>
+            <tr><td>瓶頸</td><td class="num">260</td><td class="num">10.0%</td><td>頂級十分位中介中心性——系統性槓桿與副作用風險。</td></tr>
+            <tr><td>擴散者</td><td class="num">205</td><td class="num">7.9%</td><td>出度 ≫ 入度——向外的控制點。</td></tr>
+            <tr><td>核心骨幹</td><td class="num">99</td><td class="num">3.8%</td><td>k-core ≥ 5——衰老／老化內層殼。</td></tr>
+            <tr><td>模組成員</td><td class="num">71</td><td class="num">2.7%</td><td>聚類係數 &gt; 0.5——凝聚機制的參與者。</td></tr>
+            <tr><td>主控調節者</td><td class="num">51</td><td class="num">2.0%</td><td>高出度 ∧ 高 PageRank——源頭兼受背書的吸引子。</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="panel">
+        <p class="panel-head">角色分布</p>
+        <div class="roles">
+          <article class="role-card">
+            <h3>擴散者</h3>
+            <p class="rule">out_degree ≫ in_degree</p>
+            <p>向許多效應者廣播的控制點。當社群是一個損傷程式時，即為衰老溶解／衰老調節（senomorphic）候選者。</p>
+            <p class="hits">205 節點（7.9%）· Acid ceramidase（出 17／入 3）</p>
+          </article>
+          <article class="role-card">
+            <h3>主控調節者</h3>
+            <p class="rule">high out_degree ∧ high pagerank</p>
+            <p>同時是源頭與受背書的吸引子。在整圖規模上有 51 個節點符合——包括 SASP 與 Aging，這兩者在三節點調查中曾被標記為「負向控制」。51 個中有 38 個也是核心骨幹。</p>
+            <p class="hits">51 節點（2.0%）· SASP、Aging、SIRT1、NF-κB</p>
+          </article>
+          <article class="role-card">
+            <h3>瓶頸</h3>
+            <p class="rule">betweenness in the top decile</p>
+            <p>系統性槓桿，也是系統性副作用風險。SASP 是此圖中的典型代表。</p>
+            <p class="hits">260 節點（10.0%）· SASP（0.055）、Aging（0.042）</p>
+          </article>
+          <article class="role-card">
+            <h3>模組成員</h3>
+            <p class="rule">clustering &gt; 0.5</p>
+            <p>一個凝聚機制的參與者。策略：破壞複合體，而非切斷橋樑。</p>
+            <p class="hits">71 節點（2.7%）· GPX4、Inducible NOS、Cataract（C = 1.0）</p>
+          </article>
+          <article class="role-card">
+            <h3>核心骨幹</h3>
+            <p class="rule">k_core ≥ 5</p>
+            <p>衰老／老化軸的內層殼。一等實體筆記；個人化 PageRank 掃描的種子。</p>
+            <p class="hits">99 節點（3.8%）· Aging、SASP、Senescent cells</p>
+          </article>
+          <article class="role-card">
+            <h3>周邊</h3>
+            <p class="rule">k_core == 1</p>
+            <p>情境性葉節點。保留作為支援證據；勿優先投入深入探究的筆記。</p>
+            <p class="hits">1,925 節點（74.2%）· Acetate、Alagebrium、2-Chlorophenothiazine</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="note gold">
+        <h4>複合衰老溶解分數——一項可驗證的下一步</h4>
+        <p class="inst-tag">Acid ceramidase · graph 867a5ae5fdb8a46c</p>
+        <p>
+          結合出度（擴散控制）、中介中心性（槓桿）、社群橋樑狀態（鄰居位於不同的 Leiden 社群），以及低至中等聚類係數（模組可破壞性對比橋樑切斷）。排名後，將前 N 名寫入任務輸出，並要求 Acid ceramidase 浮現在接近頂端的位置。若沒有，則是分數有誤，而非生物學有誤。
+        </p>
+        <p>
+          以權重 0.30 來源不對稱性 · 0.20 中介中心性 ·
+          0.30 橋樑比例 · 0.20 低聚類係數在整圖上運行，該分數讓已知的
+          長壽／衰老溶解機制浮現在頂端（SIRT1、SIRT3、Rapamycin、Caloric
+          Restriction、Urolithin A、Nicotinamide Riboside），並將
+          <strong>Acid ceramidase 置於 2,596 個中的第 107 名——前 4.1%</strong>，如規則所要求的接近頂端。
+        </p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>排名</th>
+                <th>候選者</th>
+                <th class="num">分數</th>
+                <th class="num">出</th>
+                <th class="num">橋樑</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>SIRT1</td><td class="num">0.787</td><td class="num">187</td><td class="num">0.42</td></tr>
+              <tr><td>2</td><td>SIRT3</td><td class="num">0.733</td><td class="num">153</td><td class="num">0.43</td></tr>
+              <tr><td>3</td><td>Superoxide Dismutase</td><td class="num">0.725</td><td class="num">4</td><td class="num">0.75</td></tr>
+              <tr><td>4</td><td>Alpha-Lipoic Acid</td><td class="num">0.722</td><td class="num">5</td><td class="num">0.80</td></tr>
+              <tr><td>5</td><td>Ascorbic Acid</td><td class="num">0.701</td><td class="num">6</td><td class="num">0.83</td></tr>
+              <tr><td>6</td><td>Nicotinamide Riboside</td><td class="num">0.680</td><td class="num">50</td><td class="num">0.58</td></tr>
+              <tr><td>107</td><td><strong>Acid ceramidase</strong></td><td class="num">0.568</td><td class="num">17</td><td class="num">0.37</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="examples">
+      <p class="sec-label">05 · 實作成例</p>
+      <h2>圖譜中已存在的成功解讀</h2>
+      <p>
+        以下五個案例並非演算法的圖解示範。它們是指紋還原出一個底層文件已經支持的「角色」的案例——這才是專業讀者在對陌生節點套用相同讀法之前，應該要求的驗證。
+      </p>
+
+      <div class="instance" data-node="acid">
+                <h3>Acid ceramidase — 出度擴散者</h3>
+        <p>
+          度數 20，<strong>出度 17 / 入度 3</strong>，PageRank 0.000758，
+          中介中心性 0.00798，k-core 4，社群「Acid ceramidase」（大小 17）。
+          此不對稱性標記出一個源頭：它將效應推送到脂質與鐵死亡節點，而非被動接受作用。在來源文件中，衰老細胞中偏高的 acid
+          ceramidase 使膜重塑為富含 PUFA（多元不飽和脂肪酸）、易致鐵死亡的輪廓；而 knockdown（基因靜默）或 ARN14794 可保護細胞。
+          <strong>來源：</strong><em>Acid ceramidase modulates the lipid profile and
+          exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells</em>
+          （Soriano-Castell, Goujon, Dar, Currais &amp; Maher, <em>Cell Death and Disease</em>,
+          2026；DOI <a href="https://doi.org/10.1038/s41419-026-09108-y">10.1038/s41419-026-09108-y</a>）。
+          註：<code>src/notes/_link/_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md</code>。
+          圖譜中還有一個指向它的「Senolytic Drug Target（衰老溶解藥物標的）」節點。高出度、中等中介中心性，以及以自身命名的社群錨點，是擴散型衰老溶解或衰老調節（senomorphic）候選者的特徵。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 2 · 擴散者</span></div>
+          <div class="fig-canvas">
+            <svg viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase 作為出度擴散者">
+              <title>Acid ceramidase 作為出度擴散者</title>
+              <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
+              <rect x="0" y="0" width="520" height="340" fill="#fbf8f1"/>
+              <defs>
+                <marker id="sp-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#6d665b"/>
+                </marker>
+                <marker id="sp-ar-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#9a7430"/>
+                </marker>
+              </defs>
+
+              <!-- 傳入驅動者 -> AC：SASP、ARN14794（金色標示）、Carmofur -->
+              <line x1="118" y1="146" x2="219" y2="146" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+              <line x1="118" y1="182" x2="205" y2="182" stroke="#9a7430" stroke-width="2" opacity="0.9" marker-end="url(#sp-ar-gold)"/>
+              <line x1="118" y1="218" x2="219" y2="210" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+              <circle cx="112" cy="146" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="112" cy="182" r="11" fill="none" stroke="#9a7430" stroke-width="1.4" opacity="0.9"/>
+              <circle cx="112" cy="182" r="7" fill="#9a7430" stroke="#1c1915" stroke-width="1.4"/>
+              <circle cx="112" cy="218" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+              <text x="100" y="150" text-anchor="end" fill="#6d665b" font-size="11">SASP</text>
+              <text x="100" y="186" text-anchor="end" fill="#9a7430" font-size="11" font-weight="600">ARN14794</text>
+              <text x="100" y="222" text-anchor="end" fill="#6d665b" font-size="11">Carmofur</text>
+
+              <!-- 傳出擴散：AC -> 效應者 -->
+              <line x1="277" y1="146" x2="355" y2="95" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="287" y1="158" x2="395" y2="127" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="292" y1="174" x2="413" y2="167" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="290" y1="190" x2="408" y2="208" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="283" y1="204" x2="379" y2="245" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="271" y1="214" x2="332" y2="272" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="240" y1="219" x2="210" y2="284" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+
+              <circle cx="359" cy="90" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="400" cy="124" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="419" cy="166" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="413" cy="210" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="384" cy="249" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="335" cy="278" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="209" cy="290" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+
+              <text x="368" y="94" fill="#1c1915" font-size="11">PUFA 脂質</text>
+              <text x="409" y="128" fill="#1c1915" font-size="11">脂質過氧化</text>
+              <text x="428" y="170" fill="#1c1915" font-size="11">Ferroptosis</text>
+              <text x="422" y="214" fill="#1c1915" font-size="11">膜重塑</text>
+              <text x="393" y="253" fill="#1c1915" font-size="11">旁觀者細胞</text>
+              <text x="344" y="282" fill="#1c1915" font-size="11">衰老細胞</text>
+              <text x="218" y="294" fill="#1c1915" font-size="11">衰老溶解標的</text>
+
+              <!-- AC 節點 -->
+              <circle cx="250" cy="178" r="40" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <text x="250" y="182" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">AC</text>
+              <text x="250" y="190" text-anchor="middle" fill="#fbf8f1" font-size="9" opacity="0.9">out 17</text>
+
+              <text x="16" y="28" fill="#2e4a5d" font-size="11" font-weight="600">入度 3</text>
+              <text x="16" y="44" fill="#6d665b" font-size="11">上游驅動者</text>
+              <text x="360" y="28" fill="#7a312c" font-size="11" font-weight="600">出度 17</text>
+              <text x="360" y="44" fill="#6d665b" font-size="11">下游擴散</text>
+            </svg>
+          </div>
+          <figcaption>
+            <strong>Acid ceramidase 作為源頭節點。</strong>
+            三個傳入驅動者，多個傳出效應者。PageRank 保持低值，因為幾乎沒有節點指向<em>它</em>；其生物學意義在於出向星狀結構（out-star）。
+            <a href="https://x.com/i/grok/share/f39c23c7740d438db8181ff33b4ea809">Grok ref →</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="sasp">
+                <h3>SASP — 收斂與發散的分泌中樞</h3>
+        <p>
+          度數 101，<strong>入度 56 / 出度 45</strong>，PageRank 0.00712，
+          中介中心性 0.0555，k-core 6。在受調查集合中中介中心性最高：SASP
+          座落於粒線體、表觀遺傳、發炎與衰老之間的最短路徑上。它是上游觸發因子的匯點，也是旁分泌細胞因子（IL-6、IL-8）的源頭——在 acid-ceramidase 文件中，這些細胞因子會在旁觀者細胞中誘發該酵素。高入度、高出度、頂級中介中心性：一個主控程式。擾動它會在整個網絡中迴盪——這既是治療吸引力，也是靶上風險。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 3 · 樞紐</span></div>
+          <div class="fig-canvas" data-chart="nexus"></div>
+          <figcaption>
+            <strong>中介中心性即路徑集中。</strong>
+            左側的社群必須跨越 SASP，才能抵達右側的效應者。
+            <strong>註：</strong>金色虛線標示出其中一條路線——
+            <em>粒線體 → SASP → 旁分泌擴散</em>——用以示範一個左側社群唯有穿過此樞紐才能抵達右側效應者，
+            這正是 SASP 中介中心性偏高的原因。
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="aging">
+                <h3>Aging — PageRank 與核心骨幹</h3>
+        <p>
+          度數 48，入度 35，出度 13，<strong>PageRank 0.00739</strong>
+          （樣本中最高），中介中心性 0.0421，k-core 6。PageRank 高，因為
+          Aging 連接到<em>其他重要</em>節點，而不只是連到很多節點。
+          k-core 6 將它與 SASP 及 Senescent cells（衰老細胞）一同置於最緻密、相互強化的殼層中。頂級 PageRank 加上內層核心成員身份，即「共同土壤（common soil）」的解讀：下游疾病社群附著於此。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 4 · PageRank 背書</span></div>
+          <div class="fig-canvas" data-chart="pagerank"></div>
+          <figcaption>
+            <strong>重要性由鄰居繼承而來。</strong>
+            其他高分節點的粗箭頭抬高了 Aging 的 PageRank。一個具有相同原始度數的周邊葉節點則不會。
+            Acid ceramidase PR = 0.000758 — 來源不會被入鏈背書。
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="gpx4">
+                <h3>GPX4、inducible NOS、Cataract — 聚類係數 = 1.0</h3>
+        <p>
+          聚類係數 1.0 表示節點的每個鄰居都與其他每個鄰居相連：一個氧化還原複合體、一個 NO 級聯、一個 AGE 交聯叢集。GPX4 也位於 k-core 2，符合小型團（clique）而非全局骨幹。對比聚類係數 ≈ 0.04 的 Acid ceramidase：那是一個連接者。這兩種型態是互補的可藥性策略——破壞模組，或切斷橋樑。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 5 · 聚類</span></div>
+          <div class="fig-canvas" data-chart="clustering"></div>
+          <figcaption>
+            <strong>團（clique）對比橋樑。</strong>
+            左：一個 C = 1.0 的三節點模組（GPX4 型態）。右：低聚類的連接者，其鄰居分布於不同叢集（Acid ceramidase 型態）。
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="core">
+                <h3>k-core 6 骨幹</h3>
+        <p>
+          位於 k-core 6 的節點——Aging、SASP、Senescent cells（衰老細胞）——構成衰老／老化軸中具韌性的內層機制。其他一切都依附於它。k-core 分解是指紋中速度最快的「必需對偶然」排名，也是判斷哪些節點值得撰寫深入實體筆記的正確過濾器。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 6 · k-core 洋蔥</span></div>
+          <div class="fig-canvas" data-chart="onion"></div>
+          <figcaption>
+            <strong>嵌套殼層，而非扁平排名。</strong>
+            內層 k = 6 是衰老骨幹。Acid ceramidase 位於 k = 4（近核心控制）。GPX4 位於 k = 2（局部模組）。具名的葉節點位於 k = 1。
+          </figcaption>
+        </figure>
+      </div>
+      <h3>相同的三個節點，並列對照</h3>
       <p>
         數字唯有在比較時才成為指紋。表格是真相來源；圖表則在本樣本內重新縮放各指標，以使型態可見。SASP 在量體與中介中心性上居冠。Aging 在 PageRank 上居冠，並在內層核心與 SASP 相當。Acid ceramidase 規模小、向外導向，且局部稀疏。
       </p>
 
       <div class="instance" data-node="worked">
-        <p class="inst-tag">實作成例節點 · graph 867a5ae5fdb8a46c</p>
-        <div class="table-wrap">
+                <div class="table-wrap">
           <table>
             <thead>
               <tr>
@@ -1708,399 +2083,8 @@ body.lb-open {
       </div>
     </section>
 
-    <section id="methods">
-      <p class="sec-label">04 · 超越靜態指紋</p>
-      <h2>儲存庫中已有的關係感知方法</h2>
-      <p>
-        <code>scripts/04_node_analysis.py</code> 運行於相同的 <code>graph.json</code>
-        上，並回答每節點向量無法回答的問題：兩個實體<em>如何</em>連接、它們是否共享鄰域、一條缺失的邊是否合理，以及一旦低信心路徑被降權後，兩條路徑究竟相距多遠。
-      </p>
-      <pre><code>uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
-    --sources sirt1 sirt3 --targets adrenochrome</code></pre>
-
-      <div class="methods">
-        <article class="method">
-          <p class="op">nx.all_shortest_paths · edge relation / confidence</p>
-          <h3>最短路徑多重性</h3>
-          <p>
-            不只 A 能否到達 B，還有帶標籤的鏈
-            （<span class="inst-inline"><code>Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis</code></span><span class="gv">graph 867a5ae5fdb8a46c</span>），
-            以及跨多條等長最短路徑共享的第一跳橋樑。
-          </p>
-          <p class="method-bio">
-            在驅動子與效應子之間、等長且關係上各自不同的鏈的計數，從無向圖讀取。高多重性是專為繞道而建構之模組的網絡特徵：任何單一跳點上的阻斷都會被平行補償吸收，而非傳播失效。SIRT1 透過三條鏈到達 NF-κB（NAD+ 競爭、直接 RelA 去乙醯化、一個染色質接力），因此增強 SIRT1 只能透過冗餘線路部分地抑制 NF-κB。
-          </p>
-          <p class="method-caveat">
-            <strong>注意。</strong> 多重性為一是一個真實、限速的瓶頸點，其單一因果邊才是精確的介入標的。將只有少數稀缺橋樑的連結讀作交互作用——兩個模組透過罕見的中介耦合，而非共享線性路徑。
-          </p>
-          <p class="method-ex"><em>範例：</em>問 SIRT1 是透過一條還是多條路線到達 NF-κB——如果三條等長鏈（NAD+ 競爭、直接 RelA 去乙醯化、一個染色質接力）連接兩者，增強 SIRT1 將部分被平行線路吸收，而非乾淨地沉默 NF-κB。</p>
-        </article>
-        <article class="method">
-          <p class="op">neighbour-set Jaccard</p>
-          <h3>鄰域相似性</h3>
-          <p>
-            共享鄰居的實體是機制類比物或脫靶孿生體。與高度數夥伴間的低 Jaccard，是截然不同的鄰域，而非對同一模組的重述。
-          </p>
-          <p class="method-bio">
-            兩實體間共享鄰居的比例（Jaccard），在無向投影上計算。高重疊是互為迴響之實體的網絡特徵——共複合、共調控、或有功（paralogous）——因此命中其一會被另一者聽聞。PARP1 與 PARP2 共享 NAD+ 周轉、PARP 抑制劑與 DNA 修復夥伴，所以號稱 PARP1 選擇性的抑制劑很可能會波及 PARP2。
-          </p>
-          <p class="method-caveat">
-            <strong>注意。</strong> 相對於高度數夥伴的低 Jaccard 並非同一生物學的弱複製，而是真正不同的地址——這是區分真正功能孿生與脫靶混雜的關鍵。分離讀作機制獨立：兩個名稱相鄰、卻未共享實際交互者的節點，論證了各自的機制。
-          </p>
-          <p class="method-ex"><em>範例：</em>PARP1 與 PARP2 共享 NAD+ 周轉、PARP 抑制劑與 DNA 修復夥伴——因此高 Jaccard 警告：一個號稱 PARP1 選擇性的抑制劑很可能會波及 PARP2，這是在優先排序之前的一項去風險檢查。</p>
-        </article>
-        <article class="method">
-          <p class="op">nx.adamic_adar_index</p>
-          <h3>連結預測</h3>
-          <p>
-            共享鄰居依 log 度數降權。將合理的缺失邊呈現為假說佇列，而非事實。在寫回三元組之前，需經人工文獻查核。
-          </p>
-          <p class="method-bio">
-            由共享鄰居（依 log 度數降權，Adamic–Adar）所得的合理缺失邊分數，在無向投影上計算。高分是真實、但紀錄不足之交互的網絡特徵：一個安靜的共享鄰居是強烈暗示，因為一個濫交的樞紐會使該訊號失去意義。SIRT1 與一個未連接、僅共享單一罕見支架的激酶，在被判定為無關之前，值得一次鎖定的文獻搜尋。
-          </p>
-          <p class="method-caveat">
-            <strong>注意。</strong> 產生一項預測的同一種稀疏性，也會製造假的孿生體——策展不足會同時產生缺失的邊與人為產物。請將每筆呼籲都視為待讀清單，絕非發現：在寫回三元組之前，必須先做一次初級文獻查核。
-          </p>
-          <p class="method-ex"><em>範例：</em>如果 SIRT1 與一個未連接的激酶只共享單一罕見支架、且沒有策展過的邊，那麼這個配對在被判定為無關之前，值得一次鎖定的文獻搜尋。</p>
-        </article>
-        <article class="method">
-          <p class="op">scipy.linalg.eigh on the Laplacian</p>
-          <h3>譜切分（Fiedler）</h3>
-          <p>
-            該腳本使用稠密 <code>eigh</code>，因為 <code>eigsh(which="SM")</code> 在奇異（singular）Laplacian 上會回傳無意義的零模態，使 Fiedler 向量失效。
-          </p>
-          <p class="method-bio">
-            代數連通度 λ<sub>2</sub> 與 Fiedler 向量在無向投影的 Laplacian 上計算，將圖切分為兩個連貫的子系統。該切分是網絡中最弱機能接縫的特徵：它將分解代謝與合成代謝程式、或壓力反應與維持代謝切開。在衰老語料上，接縫落在脂質過氧化／分泌程式與維持代謝之間，使像 Acid ceramidase 這樣的橋樑正好卡在切口上。
-          </p>
-          <p class="method-caveat">
-            <strong>注意。</strong> 趨近零的 λ<sub>2</sub> 暴露一個近乎碎裂、易於分離的架構；較大的值則描述緊密交織的狀態。深深座落於一半的節點，僅臣服於該程式——是局部專家，而非跨程式槓桿。
-          </p>
-          <p class="method-ex"><em>範例：</em>在衰老語料上，接縫往往落在脂質過氧化／分泌程式與維持代謝之間，使像 Acid ceramidase 這樣的橋樑正好卡在切口上——這是尋找跨程式調節者的第一站。</p>
-        </article>
-        <article class="method">
-          <p class="op">Laplacian pseudoinverse</p>
-          <h3>有效電阻</h3>
-          <p>
-            自電阻（self-resistance）是一項健全性檢查，應約為 0。截斷 SVD 在此<em>並非</em>有效的交換時間（commute-time）代理；該腳本從篩選後的特徵值建構偽逆。
-          </p>
-          <p class="method-bio">
-            從 Laplacian 偽逆所得的、能感知指標的距離，會降權長程、低信心的路徑，並對照隨機節點零樣本做 z 分數標準化。低電阻是豐富平行線路的網絡特徵：兩個過程之所以電性相近，是因為許多冗餘路線並行，而非單一優越的邊連接它們。Ferroptosis 儘管沒有單一主導邊，仍與 Inflammation 電性相近，所以多條平行路線意味著低電阻；僅由一條單薄、低信心鏈可達的驅動子，才是脆弱、可成藥的例外。
-          </p>
-          <p class="method-caveat">
-            <strong>注意。</strong> 與中介中心性相同，請傳入反轉的信心（1/confidence 或 −log）作為距離，絕不傳入原始分數。
-          </p>
-          <p class="method-ex"><em>範例：</em>Ferroptosis 儘管沒有單一主導邊，仍可與 Inflammation 電性相近——許多平行路線意味著低電阻；僅由一條單薄、低信心鏈可達的驅動子，才是脆弱、可成藥的例外。</p>
-        </article>
-        <article class="method">
-          <p class="op">nx.pagerank(..., personalization=)</p>
-          <h3>個人化 PageRank</h3>
-          <p>
-            播種一個感興趣的節點，並依從該播種節點流出的遊走質量，對圖的其餘部分排名。當指紋已指名一個骨幹節點時，這是正確的從全局到局部的移動。
-          </p>
-          <p class="method-bio">
-            從播種節點（<code>personalization=</code>）所得的遊走質量排名，在無向圖上計算。高局部排名是一個過程實際驅動之效應者的網絡特徵，透過沿著該節點自己的線路重新分配機率，而非那些著名的全局樞紐來浮現。播種 Senescent cells，並與 Ferroptosis 和 SASP 的播種取交集，會浮現共享的效應子——脂質過氧化、IL-6——那些通才排行會埋沒它們。
-          </p>
-          <p class="method-caveat">
-            <strong>注意。</strong> 單一種子的頂級排名反映的是起源的選擇，與底層網絡一樣多，切勿過度解讀一次遊走。請播種數個獨立節點並對頂級排名取交集；跨種子反覆出現的效應子，才是強健、與機制相關的生物學。
-          </p>
-          <p class="method-ex"><em>範例：</em>在 Senescent cells 上播種 PPR，並與在 Ferroptosis 和 SASP 上的種子交集，會浮現共享的效應子——脂質過氧化、IL-6——那些通才排行會埋沒它們。</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="examples">
-      <p class="sec-label">05 · 實作成例</p>
-      <h2>圖譜中已存在的成功解讀</h2>
-      <p>
-        以下五個案例並非演算法的圖解示範。它們是指紋還原出一個底層文件已經支持的「角色」的案例——這才是專業讀者在對陌生節點套用相同讀法之前，應該要求的驗證。
-      </p>
-
-      <div class="instance" data-node="acid">
-        <p class="inst-tag">Acid ceramidase · graph 867a5ae5fdb8a46c</p>
-        <h3>Acid ceramidase — 出度擴散者</h3>
-        <p>
-          度數 20，<strong>出度 17 / 入度 3</strong>，PageRank 0.000758，
-          中介中心性 0.00798，k-core 4，社群「Acid ceramidase」（大小 17）。
-          此不對稱性標記出一個源頭：它將效應推送到脂質與鐵死亡節點，而非被動接受作用。在來源文件中，衰老細胞中偏高的 acid
-          ceramidase 使膜重塑為富含 PUFA（多元不飽和脂肪酸）、易致鐵死亡的輪廓；而 knockdown（基因靜默）或 ARN14794 可保護細胞。
-          <strong>來源：</strong><em>Acid ceramidase modulates the lipid profile and
-          exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells</em>
-          （Soriano-Castell, Goujon, Dar, Currais &amp; Maher, <em>Cell Death and Disease</em>,
-          2026；DOI <a href="https://doi.org/10.1038/s41419-026-09108-y">10.1038/s41419-026-09108-y</a>）。
-          註：<code>src/notes/_link/_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md</code>。
-          圖譜中還有一個指向它的「Senolytic Drug Target（衰老溶解藥物標的）」節點。高出度、中等中介中心性，以及以自身命名的社群錨點，是擴散型衰老溶解或衰老調節（senomorphic）候選者的特徵。
-        </p>
-
-        <figure class="fig">
-          <div class="fig-head"><span class="fig-num">圖 2 · 擴散者</span></div>
-          <div class="fig-canvas">
-            <svg viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase 作為出度擴散者">
-              <title>Acid ceramidase 作為出度擴散者</title>
-              <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
-              <rect x="0" y="0" width="520" height="340" fill="#fbf8f1"/>
-              <defs>
-                <marker id="sp-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-                  <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#6d665b"/>
-                </marker>
-                <marker id="sp-ar-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-                  <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#9a7430"/>
-                </marker>
-              </defs>
-
-              <!-- 傳入驅動者 -> AC：SASP、ARN14794（金色標示）、Carmofur -->
-              <line x1="118" y1="146" x2="219" y2="146" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
-              <line x1="118" y1="182" x2="205" y2="182" stroke="#9a7430" stroke-width="2" opacity="0.9" marker-end="url(#sp-ar-gold)"/>
-              <line x1="118" y1="218" x2="219" y2="210" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
-              <circle cx="112" cy="146" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="112" cy="182" r="11" fill="none" stroke="#9a7430" stroke-width="1.4" opacity="0.9"/>
-              <circle cx="112" cy="182" r="7" fill="#9a7430" stroke="#1c1915" stroke-width="1.4"/>
-              <circle cx="112" cy="218" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
-              <text x="100" y="150" text-anchor="end" fill="#6d665b" font-size="11">SASP</text>
-              <text x="100" y="186" text-anchor="end" fill="#9a7430" font-size="11" font-weight="600">ARN14794</text>
-              <text x="100" y="222" text-anchor="end" fill="#6d665b" font-size="11">Carmofur</text>
-
-              <!-- 傳出擴散：AC -> 效應者 -->
-              <line x1="277" y1="146" x2="355" y2="95" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-              <line x1="287" y1="158" x2="395" y2="127" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-              <line x1="292" y1="174" x2="413" y2="167" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-              <line x1="290" y1="190" x2="408" y2="208" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-              <line x1="283" y1="204" x2="379" y2="245" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-              <line x1="271" y1="214" x2="332" y2="272" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-              <line x1="240" y1="219" x2="210" y2="284" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
-
-              <circle cx="359" cy="90" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="400" cy="124" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="419" cy="166" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="413" cy="210" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="384" cy="249" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="335" cy="278" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <circle cx="209" cy="290" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-
-              <text x="368" y="94" fill="#1c1915" font-size="11">PUFA 脂質</text>
-              <text x="409" y="128" fill="#1c1915" font-size="11">脂質過氧化</text>
-              <text x="428" y="170" fill="#1c1915" font-size="11">Ferroptosis</text>
-              <text x="422" y="214" fill="#1c1915" font-size="11">膜重塑</text>
-              <text x="393" y="253" fill="#1c1915" font-size="11">旁觀者細胞</text>
-              <text x="344" y="282" fill="#1c1915" font-size="11">衰老細胞</text>
-              <text x="218" y="294" fill="#1c1915" font-size="11">衰老溶解標的</text>
-
-              <!-- AC 節點 -->
-              <circle cx="250" cy="178" r="40" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
-              <text x="250" y="182" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">AC</text>
-              <text x="250" y="190" text-anchor="middle" fill="#fbf8f1" font-size="9" opacity="0.9">out 17</text>
-
-              <text x="16" y="28" fill="#2e4a5d" font-size="11" font-weight="600">入度 3</text>
-              <text x="16" y="44" fill="#6d665b" font-size="11">上游驅動者</text>
-              <text x="360" y="28" fill="#7a312c" font-size="11" font-weight="600">出度 17</text>
-              <text x="360" y="44" fill="#6d665b" font-size="11">下游擴散</text>
-            </svg>
-          </div>
-          <figcaption>
-            <strong>Acid ceramidase 作為源頭節點。</strong>
-            三個傳入驅動者，多個傳出效應者。PageRank 保持低值，因為幾乎沒有節點指向<em>它</em>；其生物學意義在於出向星狀結構（out-star）。
-            <a href="https://x.com/i/grok/share/f39c23c7740d438db8181ff33b4ea809">Grok ref →</a>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="instance" data-node="sasp">
-        <p class="inst-tag">SASP · graph 867a5ae5fdb8a46c</p>
-        <h3>SASP — 收斂與發散的分泌中樞</h3>
-        <p>
-          度數 101，<strong>入度 56 / 出度 45</strong>，PageRank 0.00712，
-          中介中心性 0.0555，k-core 6。在受調查集合中中介中心性最高：SASP
-          座落於粒線體、表觀遺傳、發炎與衰老之間的最短路徑上。它是上游觸發因子的匯點，也是旁分泌細胞因子（IL-6、IL-8）的源頭——在 acid-ceramidase 文件中，這些細胞因子會在旁觀者細胞中誘發該酵素。高入度、高出度、頂級中介中心性：一個主控程式。擾動它會在整個網絡中迴盪——這既是治療吸引力，也是靶上風險。
-        </p>
-
-        <figure class="fig">
-          <div class="fig-head"><span class="fig-num">圖 3 · 樞紐</span></div>
-          <div class="fig-canvas" data-chart="nexus"></div>
-          <figcaption>
-            <strong>中介中心性即路徑集中。</strong>
-            左側的社群必須跨越 SASP，才能抵達右側的效應者。
-            <strong>註：</strong>金色虛線標示出其中一條路線——
-            <em>粒線體 → SASP → 旁分泌擴散</em>——用以示範一個左側社群唯有穿過此樞紐才能抵達右側效應者，
-            這正是 SASP 中介中心性偏高的原因。
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="instance" data-node="aging">
-        <p class="inst-tag">Aging · graph 867a5ae5fdb8a46c</p>
-        <h3>Aging — PageRank 與核心骨幹</h3>
-        <p>
-          度數 48，入度 35，出度 13，<strong>PageRank 0.00739</strong>
-          （樣本中最高），中介中心性 0.0421，k-core 6。PageRank 高，因為
-          Aging 連接到<em>其他重要</em>節點，而不只是連到很多節點。
-          k-core 6 將它與 SASP 及 Senescent cells（衰老細胞）一同置於最緻密、相互強化的殼層中。頂級 PageRank 加上內層核心成員身份，即「共同土壤（common soil）」的解讀：下游疾病社群附著於此。
-        </p>
-
-        <figure class="fig">
-          <div class="fig-head"><span class="fig-num">圖 4 · PageRank 背書</span></div>
-          <div class="fig-canvas" data-chart="pagerank"></div>
-          <figcaption>
-            <strong>重要性由鄰居繼承而來。</strong>
-            其他高分節點的粗箭頭抬高了 Aging 的 PageRank。一個具有相同原始度數的周邊葉節點則不會。
-            Acid ceramidase PR = 0.000758 — 來源不會被入鏈背書。
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="instance" data-node="gpx4">
-        <p class="inst-tag">GPX4 · graph 867a5ae5fdb8a46c</p>
-        <h3>GPX4、inducible NOS、Cataract — 聚類係數 = 1.0</h3>
-        <p>
-          聚類係數 1.0 表示節點的每個鄰居都與其他每個鄰居相連：一個氧化還原複合體、一個 NO 級聯、一個 AGE 交聯叢集。GPX4 也位於 k-core 2，符合小型團（clique）而非全局骨幹。對比聚類係數 ≈ 0.04 的 Acid ceramidase：那是一個連接者。這兩種型態是互補的可藥性策略——破壞模組，或切斷橋樑。
-        </p>
-
-        <figure class="fig">
-          <div class="fig-head"><span class="fig-num">圖 5 · 聚類</span></div>
-          <div class="fig-canvas" data-chart="clustering"></div>
-          <figcaption>
-            <strong>團（clique）對比橋樑。</strong>
-            左：一個 C = 1.0 的三節點模組（GPX4 型態）。右：低聚類的連接者，其鄰居分布於不同叢集（Acid ceramidase 型態）。
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="instance" data-node="core">
-        <p class="inst-tag">k-core 6 骨幹 · graph 867a5ae5fdb8a46c</p>
-        <h3>k-core 6 骨幹</h3>
-        <p>
-          位於 k-core 6 的節點——Aging、SASP、Senescent cells（衰老細胞）——構成衰老／老化軸中具韌性的內層機制。其他一切都依附於它。k-core 分解是指紋中速度最快的「必需對偶然」排名，也是判斷哪些節點值得撰寫深入實體筆記的正確過濾器。
-        </p>
-
-        <figure class="fig">
-          <div class="fig-head"><span class="fig-num">圖 6 · k-core 洋蔥</span></div>
-          <div class="fig-canvas" data-chart="onion"></div>
-          <figcaption>
-            <strong>嵌套殼層，而非扁平排名。</strong>
-            內層 k = 6 是衰老骨幹。Acid ceramidase 位於 k = 4（近核心控制）。GPX4 位於 k = 2（局部模組）。具名的葉節點位於 k = 1。
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="operations">
-      <p class="sec-label">06 · 從解讀到篩選</p>
-      <h2>疊加於指紋之上的一層規則</h2>
-      <p>
-        一旦指標被信任，一個小型分類器就能將它們轉化為角色，供標的辨識（target-ID）工作流程排序。這些規則是在本頁提出的，此後已由 <code>scripts/03_rebuild_from_triples.py</code> 在整個圖譜上運行：
-        每個節點現在都已標記，角色地圖會輸出至
-        <code>web/data/node_roles.json</code>，且一個 <code>roles</code> 陣列會烘焙進
-        <code>nodes.json</code>。下表是目前建構（<code>867a5ae5fdb8a46c</code>，2,596 節點）的實際分布；其下的卡片承載觸發的實作成例。角色會重疊——200 個節點（7.7%）承載多於一個角色——因此百分比總和不到 100。
-      </p>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>角色</th>
-              <th class="num">節點</th>
-              <th class="num">佔圖譜%</th>
-              <th>解讀</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>周邊</td><td class="num">1,925</td><td class="num">74.2%</td><td>情境性葉節點——支援證據，非首輪標的。</td></tr>
-            <tr><td>瓶頸</td><td class="num">260</td><td class="num">10.0%</td><td>頂級十分位中介中心性——系統性槓桿與副作用風險。</td></tr>
-            <tr><td>擴散者</td><td class="num">205</td><td class="num">7.9%</td><td>出度 ≫ 入度——向外的控制點。</td></tr>
-            <tr><td>核心骨幹</td><td class="num">99</td><td class="num">3.8%</td><td>k-core ≥ 5——衰老／老化內層殼。</td></tr>
-            <tr><td>模組成員</td><td class="num">71</td><td class="num">2.7%</td><td>聚類係數 &gt; 0.5——凝聚機制的參與者。</td></tr>
-            <tr><td>主控調節者</td><td class="num">51</td><td class="num">2.0%</td><td>高出度 ∧ 高 PageRank——源頭兼受背書的吸引子。</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="panel">
-        <p class="panel-head">角色分布 · graph <code>867a5ae5fdb8a46c</code></p>
-        <div class="roles">
-          <article class="role-card">
-            <h3>擴散者</h3>
-            <p class="rule">out_degree ≫ in_degree</p>
-            <p>向許多效應者廣播的控制點。當社群是一個損傷程式時，即為衰老溶解／衰老調節（senomorphic）候選者。</p>
-            <p class="hits">205 節點（7.9%）· Acid ceramidase（出 17／入 3）</p>
-          </article>
-          <article class="role-card">
-            <h3>主控調節者</h3>
-            <p class="rule">high out_degree ∧ high pagerank</p>
-            <p>同時是源頭與受背書的吸引子。在整圖規模上有 51 個節點符合——包括 SASP 與 Aging，這兩者在三節點調查中曾被標記為「負向控制」。51 個中有 38 個也是核心骨幹。</p>
-            <p class="hits">51 節點（2.0%）· SASP、Aging、SIRT1、NF-κB</p>
-          </article>
-          <article class="role-card">
-            <h3>瓶頸</h3>
-            <p class="rule">betweenness in the top decile</p>
-            <p>系統性槓桿，也是系統性副作用風險。SASP 是此圖中的典型代表。</p>
-            <p class="hits">260 節點（10.0%）· SASP（0.055）、Aging（0.042）</p>
-          </article>
-          <article class="role-card">
-            <h3>模組成員</h3>
-            <p class="rule">clustering &gt; 0.5</p>
-            <p>一個凝聚機制的參與者。策略：破壞複合體，而非切斷橋樑。</p>
-            <p class="hits">71 節點（2.7%）· GPX4、Inducible NOS、Cataract（C = 1.0）</p>
-          </article>
-          <article class="role-card">
-            <h3>核心骨幹</h3>
-            <p class="rule">k_core ≥ 5</p>
-            <p>衰老／老化軸的內層殼。一等實體筆記；個人化 PageRank 掃描的種子。</p>
-            <p class="hits">99 節點（3.8%）· Aging、SASP、Senescent cells</p>
-          </article>
-          <article class="role-card">
-            <h3>周邊</h3>
-            <p class="rule">k_core == 1</p>
-            <p>情境性葉節點。保留作為支援證據；勿優先投入深入探究的筆記。</p>
-            <p class="hits">1,925 節點（74.2%）· Acetate、Alagebrium、2-Chlorophenothiazine</p>
-          </article>
-        </div>
-      </div>
-
-      <div class="note gold">
-        <h4>複合衰老溶解分數——一項可驗證的下一步</h4>
-        <p class="inst-tag">Acid ceramidase · graph 867a5ae5fdb8a46c</p>
-        <p>
-          結合出度（擴散控制）、中介中心性（槓桿）、社群橋樑狀態（鄰居位於不同的 Leiden 社群），以及低至中等聚類係數（模組可破壞性對比橋樑切斷）。排名後，將前 N 名寫入任務輸出，並要求 Acid ceramidase 浮現在接近頂端的位置。若沒有，則是分數有誤，而非生物學有誤。
-        </p>
-        <p>
-          以權重 0.30 來源不對稱性 · 0.20 中介中心性 ·
-          0.30 橋樑比例 · 0.20 低聚類係數在整圖上運行，該分數讓已知的
-          長壽／衰老溶解機制浮現在頂端（SIRT1、SIRT3、Rapamycin、Caloric
-          Restriction、Urolithin A、Nicotinamide Riboside），並將
-          <strong>Acid ceramidase 置於 2,596 個中的第 107 名——前 4.1%</strong>，如規則所要求的接近頂端。
-        </p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>排名</th>
-                <th>候選者</th>
-                <th class="num">分數</th>
-                <th class="num">出</th>
-                <th class="num">橋樑</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>1</td><td>SIRT1</td><td class="num">0.787</td><td class="num">187</td><td class="num">0.42</td></tr>
-              <tr><td>2</td><td>SIRT3</td><td class="num">0.733</td><td class="num">153</td><td class="num">0.43</td></tr>
-              <tr><td>3</td><td>Superoxide Dismutase</td><td class="num">0.725</td><td class="num">4</td><td class="num">0.75</td></tr>
-              <tr><td>4</td><td>Alpha-Lipoic Acid</td><td class="num">0.722</td><td class="num">5</td><td class="num">0.80</td></tr>
-              <tr><td>5</td><td>Ascorbic Acid</td><td class="num">0.701</td><td class="num">6</td><td class="num">0.83</td></tr>
-              <tr><td>6</td><td>Nicotinamide Riboside</td><td class="num">0.680</td><td class="num">50</td><td class="num">0.58</td></tr>
-              <tr><td>107</td><td><strong>Acid ceramidase</strong></td><td class="num">0.568</td><td class="num">17</td><td class="num">0.37</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <p class="footnote">
-        <strong>進一步工作，依工作量排序</strong> —
-        <span>(1) <s>輸出上述角色標籤為三圖面板用的 <code>node_roles.json</code></s> — 已完成：<code>web/data/node_roles.json</code>，加上被烘焙進
-        <code>nodes.json</code> 的 <code>roles</code> 陣列（scripts/03_rebuild_from_triples.py）；</span>
-        <span>(2) 從每個 k-core-6 節點進行個人化 PageRank，對頂級排名取交集，找出反覆出現的下游效應者。</span>
-      </p>
-    </section>
-
     <section id="practices">
-      <p class="sec-label">07 · NetworkX</p>
+      <p class="sec-label">06 · NetworkX</p>
       <h2>NetworkX</h2>
       <p>
         NetworkX 是一個用於建立、操作與研究複雜網絡之結構、動態與功能的 Python 套件。它提供研究社交、生物與基礎設施網絡之結構與動態的工具，以及適用於多種應用的標準程式介面與圖形實作。
@@ -2121,7 +2105,7 @@ cc = max(nx.connected_components(G_und), key=len)
 U = G_und.subgraph(cc).copy()</code></pre>
         </li>
         <li>
-          <p class="ptag vault">本資料庫</p>
+          <p class="ptag implementation">本實作</p>
           <h3>在任何中心性計算之前，先剪除類型中樞</h3>
           <p>
             PPI 中的研究偏誤（TP53 因被廣泛研究而累積交互作用）在知識圖譜中有對應：本體類別從每個實例中收集邊。重建腳本中的 <code>DENYLIST</code> 是正確的第一道過濾器。切勿將高度數的「protein」節點解讀為標的。
@@ -2144,7 +2128,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
           <p class="ptag general">一般做法</p>
           <h3>絕不單靠一個指標排名</h3>
           <p>
-            在古典酵母 PPI 中，度數可預測必需性（Jeong et al., 2001），但會錯過度數普通卻是瓶頸的節點（Yu et al., 2007）。本知識庫中的實作成例之所以存在，<em>正是因為</em>指紋以富含資訊的方式與自身相左。組合使用：高出度加中等中介中心性（擴散者）；高入度高出度加頂級中介中心性（樞紐）；頂級 PageRank 加內層 k-core（骨幹）。
+            在古典酵母 PPI 中，度數可預測必需性（Jeong et al., 2001），但會錯過度數普通卻是瓶頸的節點（Yu et al., 2007）。本實作中的實作成例之所以存在，<em>正是因為</em>指紋以富含資訊的方式與自身相左。組合使用：高出度加中等中介中心性（擴散者）；高入度高出度加頂級中介中心性（樞紐）；頂級 PageRank 加內層 k-core（骨幹）。
           </p>
         </li>
         <li>
@@ -2158,12 +2142,12 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
           <p class="ptag general">一般做法</p>
           <h3>近似中介中心性，但勿略過</h3>
           <p>
-            Brandes 演算法為 <code>O(nm)</code>。在本知識庫上沒問題。在經過篩選的人類交互組上，傳入 <code>k=</code>（抽樣源）與種子。寧可採用此近似，也不要捨棄該指標。限制於 k-core 或最大連通分量，是另一個正當的加速方式。
+            Brandes 演算法為 <code>O(nm)</code>。在本實作上沒問題。在經過篩選的人類交互組上，傳入 <code>k=</code>（抽樣源）與種子。寧可採用此近似，也不要捨棄該指標。限制於 k-core 或最大連通分量，是另一個正當的加速方式。
           </p>
           <pre><code>bt = nx.betweenness_centrality(U, k=100, seed=1, normalized=True)</code></pre>
         </li>
         <li>
-          <p class="ptag vault">本資料庫</p>
+          <p class="ptag implementation">本實作</p>
           <h3>將聚類與 k-core 視為互補，而非多餘</h3>
           <p>
             聚類是局部傳遞性。k-core 是嵌套的全局剝離。GPX4 可以是一個完美三角（C = 1，k = 2），卻仍位於衰老骨幹（k = 6）之外。在 PPI 中，內層核心常與複合體重合；在此則與老化／SASP 程式重合。應同時報告核心數分布與主核心的大小。
@@ -2184,26 +2168,19 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
           </p>
         </li>
       </ol>
-
-      <div class="note forest">
-        <h4>本知識庫中的客製化</h4>
-        <p>
-          標準的 NetworkX 工作流程在此以數種方式客製化：有向入／出分割；用於模組指標的無向投影；類型中樞拒絕名單；帶穩定標籤的 Leiden 社群；針對交換距離的最大連通分量限制與隨機節點零樣本；以及具記載 alpha 的個人化 PageRank。相對於 PPI 最佳實務仍開放的項目：將權重傳入 PageRank、將反轉距離傳入中介中心性，以及圍繞靜態指紋本身建立配置模型包絡。
-        </p>
-      </div>
     </section>
 
     <section id="references">
-      <p class="sec-label">08 · 來源</p>
+      <p class="sec-label">07 · 來源</p>
       <h2>知識庫分析與相關文獻</h2>
       <ol class="refs">
-        <li>知識庫任務輸出，2026 年 8 月 16 日。<em>用於生物學優先排序的節點層級網絡分析。</em> <code>src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</code>。</li>
-        <li>重建管線。<code>scripts/03_rebuild_from_triples.py</code> — <code>DENYLIST</code>、<code>enrich_graph_metrics()</code>、Leiden 標籤、邊 <code>weight = confidence_score</code>。</li>
-        <li>多節點分析。<code>scripts/04_node_analysis.py</code> — 最大連通分量、路徑多重性、Jaccard、Adamic–Adar、k-core、Fiedler（稠密 <code>eigh</code>）、有效電阻、個人化 PageRank。</li>
-        <li>Jeong H, Mason SP, Barabási A-L, Oltvai ZN. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42.</li>
-        <li>Barabási A-L, Oltvai ZN. Network biology: understanding the cell’s functional organization. <em>Nat Rev Genet</em> 2004;5:101–113.</li>
-        <li>Wuchty S, Almaas E. Peeling the yeast protein network. <em>Proteomics</em> 2005;5:444–449.</li>
-        <li>Yu H, Kim PM, Sprecher E, Trifonov V, Gerstein M. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
+        <li>知識庫任務輸出，2026 年 8 月 16 日。<em>用於生物學優先排序的節點層級網絡分析。</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md"><code>src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</code></a>。</li>
+        <li>重建管線。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py"><code>scripts/03_rebuild_from_triples.py</code></a> — <code>DENYLIST</code>、<code>enrich_graph_metrics()</code>、Leiden 標籤、邊 <code>weight = confidence_score</code>。</li>
+        <li>多節點分析。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> — 最大連通分量、路徑多重性、Jaccard、Adamic–Adar、k-core、Fiedler（稠密 <code>eigh</code>）、有效電阻、個人化 PageRank。</li>
+        <li>Jeong H, Mason SP, Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/35075138">Lethality and centrality in protein networks</a>. <em>Nature</em> 2001;411:41–42.</li>
+        <li>Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/nrg1272">Network biology: understanding the cell’s functional organization</a>. <em>Nat Rev Genet</em> 2004;5:101–113.</li>
+        <li>Wuchty S, Almaas E. <a href="https://doi.org/10.1002/pmic.200400962">Peeling the yeast protein network</a>. <em>Proteomics</em> 2005;5:444–449.</li>
+        <li>Yu H, Kim PM, Sprecher E, Trifonov V, Gerstein M. <a href="https://doi.org/10.1371/journal.pcbi.0030059">The importance of bottlenecks in protein networks</a>. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
         <li>NetworkX developers. Centrality, clustering, core number, PageRank, Adamic–Adar. <a href="https://networkx.org/documentation/stable/reference/algorithms/centrality.html">networkx.org 文件</a>。</li>
       </ol>
     </section>
@@ -2217,6 +2194,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       獨立的樣式表與腳本——非共享的文章外觀。
       非醫療建議；排名是針對策展筆記的假說。
     </p>
+    <p><strong>圖譜建構：</strong> <code>867a5ae5fdb8a46c</code></p>
     <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
   </div>
 </footer>
