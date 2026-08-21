@@ -16,7 +16,7 @@
   var KEY = 'llm-wiki-theme';
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'shared/pages-light.css';
+  link.href = 'themes/theme-01/pages-light.css';
   link.id = 'theme-light';
   try {
     link.disabled = localStorage.getItem(KEY) === 'dark';

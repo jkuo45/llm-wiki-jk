@@ -5,7 +5,7 @@ if (window.self !== window.top) {
 }
 
 /* ============================= THEME =============================
-   The <head> bootstrap (shared/page-theme.js) starts pages-light.css in the
+   The <head> bootstrap (themes/theme-01/page-theme.js) starts pages-light.css in the
    right state before first paint. Here we listen for parent 'wiki-theme'
    messages / storage events, re-apply the link, and notify diagram renderers
    (wiki-theme event) so they re-render on switch. */
