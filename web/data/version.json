@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20 09:49:22",
-  "tag": "bd1894acf7b72406",
+  "generated": "2026-08-20 18:21:45",
+  "hash": "867a5ae5fdb8a46c",
   "files": [
     "articles.json",
     "edges.json",
@@ -8,6 +8,7 @@
     "i18n-coverage.json",
     "legend.json",
     "manifest.json",
+    "node_roles.json",
     "nodes.json",
     "notes-tags-zh-TW.json",
     "predicates-zh-TW.json",
