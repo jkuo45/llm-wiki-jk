@@ -2056,5 +2056,117 @@
     "source_document": "_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md",
     "created": "2026-07-28T17:48:14Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "829c747c7bb0",
+    "subject": "Peroxisome",
+    "predicate": "performs_beta-oxidation_of",
+    "object": "Very Long Chain Fatty Acids",
+    "context": {
+      "en-US": "Peroxisomes are the primary site where very long chain fatty acids are shortened into shorter-chain products such as acetyl-CoA that can enter mitochondria for complete oxidation. Impaired peroxisomal beta-oxidation causes toxic VLCFA accumulation, the hallmark of Zellweger syndrome and adrenoleukodystrophy.",
+      "zh-TW": "Peroxisome 是極長鏈脂肪酸進行縮短代謝的主要場所，產物如 acetyl-CoA 可進入粒線體完成氧化。過氧化物體 beta-oxidation 功能受損會導致有毒的 VLCFA 累積，這是 Zellweger syndrome 與 adrenoleukodystrophy 的標誌性特徵。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "cb7d88776139",
+    "subject": "Catalase",
+    "predicate": "decomposes",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Catalase, constitutively present in the peroxisomal matrix, decomposes hydrogen peroxide — a toxic byproduct of peroxisomal oxidase reactions — into water and oxygen (2 H2O2 -> 2 H2O + O2). This makes peroxisomes central to cellular detoxification of reactive oxygen species.",
+      "zh-TW": "Catalase 恆定存在於過氧化體基質中，可將過氧化氫（過氧化物體氧化酶反應產生的毒性副產物）分解為水與氧（2 H2O2 -> 2 H2O + O2）。這使過氧化物體成為細胞解毒活性氧族群的核心場所。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "63c90a6cb306",
+    "subject": "Peroxisome Biogenesis Network",
+    "predicate": "is_supplied_with_lipids_by",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "The Peroxisome Biogenesis Network (PBN), a dynamic pool of pre-peroxisomal precursors residing in the cytosol, receives lipids and membrane material from the endoplasmic reticulum through direct ER-PBN contact sites. Pre-peroxisomal vesicles bud from the ER membrane and mature by importing peroxisomal proteins and lipids.",
+      "zh-TW": "Peroxisome Biogenesis Network（PBN，位於細胞質的前過氧化物體前驅池）透過直接的 ER-PBN 接觸位点，自內質網獲得脂質與膜物質。前過氧化物體囊泡自內質網膜出芽，並藉由輸入過氧化物體蛋白與脂質而成熟。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "d5f8a78ab919",
+    "subject": "Selective Autophagy",
+    "predicate": "degrades_damaged",
+    "object": "Peroxisome",
+    "context": {
+      "en-US": "Damaged or dysfunctional peroxisomes are selectively targeted for autophagic degradation: they are tagged with specific ubiquitin chains (notably Lys48-linked), recognized by autophagic machinery including LC3-interacting proteins and ESCRT components, sealed into autophagosomes, and delivered to lysosomes for breakdown and recycling. This continuous turnover maintains a healthy peroxisome pool.",
+      "zh-TW": "受損或功能失常的過氧化物體會被選擇性地標記以進行自噬降解：先被特定泛素鏈（尤其是 Lys48 鏈）標記，再由含 LC3 交互作用蛋白與 ESCRT 成分的自噬機制辨識，包入自噬體後送至溶酶體分解回收。此持續週轉維持了健康的過氧化物體儲備。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "7ff2d07f124f",
+    "subject": "PEX1 mutation",
+    "predicate": "causes",
+    "object": "Zellweger syndrome",
+    "context": {
+      "en-US": "Mutations in PEX genes, which encode peroxisomal membrane proteins required for biogenesis, account for over 80% of autosomal recessive peroxisomal biogenesis disorders. Loss of PEX1, essential for assembly of the peroxisomal membrane and import of other PEX proteins, results in a complete absence of peroxisomes — the most severe Zellweger spectrum presentation with profound neurological impairment.",
+      "zh-TW": "編碼過氧化物體膜蛋白（生物生成所需）的 PEX 基因突變，佔體染色體隱性過氧化物體生成疾病的 80% 以上。PEX1 對過氧化物體膜組裝與其他 PEX 蛋白的輸入至關重要，其缺失會導致過氧化物體完全缺失，造成最嚴重、伴隨深度神經損傷的 Zellweger 光譜疾病表現。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "c729a1ca8e37",
+    "subject": "ABCD1 mutation",
+    "predicate": "causes",
+    "object": "Adrenoleukodystrophy",
+    "context": {
+      "en-US": "Mutations in ABCD1, an ATP-binding cassette transporter that exports very long chain fatty acids from peroxisomes, cause X-linked adrenoleukodystrophy. Defective VLCFA transport leads to lipid accumulation that primarily damages the brain and adrenal glands; gene therapy delivering functional ABCD1 via AAV9 vectors has shown early promise.",
+      "zh-TW": "ABCD1 是將極長鏈脂肪酸自過氧化物體輸出的 ABC 轉運蛋白，其突變會導致 X 染色體連鎖腎上腺腦白質失養症。VLCFA 運輸缺陷造成脂質累積，主要傷害大腦與腎上腺；利用 AAV9 載體遞送功能性 ABCD1 的基因療法在早期試驗已展現潛力。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "fc76cda90c60",
+    "subject": "AMPK activation",
+    "predicate": "promotes",
+    "object": "Peroxisome Biogenesis",
+    "context": {
+      "en-US": "AMP-activated protein kinase (AMPK), a master energy sensor activated by rising AMP/ATP ratios, lipid stress, or low glucose, promotes peroxisome biogenesis by stimulating lipid synthesis and incorporation of lipids into developing peroxisomal membranes. In disorders like ALD, however, VLCFA-driven AMPK activation is overwhelmed by the massive lipid load.",
+      "zh-TW": "AMPK（AMP-activated protein kinase）是主要的能量感測器，會因 AMP/ATP 比值上升、脂質壓力或低血糖而活化；它透過刺激脂質合成並促進脂質嵌入發育中的過氧化物體膜來促進過氧化物體生成。然而在 ALD 等疾病中，VLCFA 驅動的 AMPK 活化仍敵不過巨大的脂質負荷。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "1c965c2eda74",
+    "subject": "DNA Methylation",
+    "predicate": "regulates_expression_of",
+    "object": "PEX genes",
+    "context": {
+      "en-US": "Aberrant DNA methylation has been observed around PEX genes, ABCD1, and AMPK regulatory genes in peroxisomal disorder cells, suggesting epigenetic silencing downstream of primary genetic defects can further impair peroxisome biogenesis. DNMT inhibitors and HDAC inhibitors are being explored as potential epigenetic therapies, though causation versus correlation remains unresolved.",
+      "zh-TW": "在過氧化物體疾病細胞中，已觀察到 PEX 基因、ABCD1 及 AMPK 調控基因周圍出現異常 DNA 甲基化，顯示初級基因缺陷下游的表觀遺傳沉默可能進一步削弱過氧化物體生成。DNMT 抑制劑與 HDAC 抑制劑正被探索為潛在表觀遺傳療法，惟因果關係仍未釐清。"
+    },
+    "confidence": "low",
+    "source_document": "_document_ - peroxisomes, autophagy.md",
+    "created": "2026-08-21T00:00:00Z",
+    "updated": "2026-08-21T00:00:00Z"
   }
 ]
