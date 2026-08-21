@@ -1126,7 +1126,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 /* Filters bar */
 #notes-filters {
   display: flex; align-items: center; gap: 8px; padding: 10px 14px;
-  border-bottom: 1px solid #2a2a4e; flex-wrap: wrap; flex-shrink: 0;
+  border-bottom: 1px solid #2a2a4e; flex-wrap: nowrap; flex-shrink: 0;
 }
 /* Search + document combobox: one field with free-text search, a document
    chip (active doc filter), and a dropdown listing documents + note matches. */
