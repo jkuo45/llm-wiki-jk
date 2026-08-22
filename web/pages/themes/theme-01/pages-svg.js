@@ -36,7 +36,69 @@ function svgToPngBlob(svgId, scale){
     img.src = url;
   });
 }
-document.querySelectorAll('.copy-btn').forEach(btn=>{
+/* ============================= COPY TABLE TO CLIPBOARD ============================= */
+function tableToTsv(table){
+  return Array.from(table.querySelectorAll('tr'))
+    .map(tr => Array.from(tr.children).map(c => c.innerText.replace(/\s+/g,' ').trim()).join('\t'))
+    .join('\n');
+}
+function tableToHtml(table){
+  const clone = table.cloneNode(true);
+  clone.removeAttribute('id');
+  return '<table>' + clone.innerHTML + '</table>';
+}
+async function copyTableToClipboard(table){
+  const tsv = tableToTsv(table);
+  if (navigator.clipboard && window.ClipboardItem){
+    try {
+      await navigator.clipboard.write([new ClipboardItem({
+        'text/plain': tsv,
+        'text/html': tableToHtml(table)
+      })]);
+      return 'copied';
+    } catch(_){ /* fall through to text fallback */ }
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    await navigator.clipboard.writeText(tsv);
+    return 'copied';
+  }
+  throw new Error('clipboard-unsupported');
+}
+document.querySelectorAll('.copy-btn[data-copy-table]').forEach(btn=>{
+  btn.addEventListener('click', async ()=>{
+    const tableId = btn.getAttribute('data-copy-table');
+    const table = document.getElementById(tableId);
+    const origTitle = btn.getAttribute('title') || 'Copy table';
+    const origIcon = btn.innerHTML;
+    btn.disabled = true;
+    try {
+      if (!table) throw new Error('no-table');
+      await copyTableToClipboard(table);
+      btn.classList.add('ok');
+      btn.title = 'Copied ✓';
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+    } catch (err) {
+      try {
+        const tsv = table ? tableToTsv(table) : '';
+        const a = document.createElement('a');
+        a.download = tableId + '.tsv';
+        a.href = URL.createObjectURL(new Blob([tsv], {type:'text/tab-separated-values'}));
+        a.click();
+        URL.revokeObjectURL(a.href);
+        btn.classList.add('ok');
+        btn.title = 'Downloaded TSV';
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
+      } catch (_) {
+        btn.classList.add('err');
+        btn.title = 'Copy failed';
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+      }
+    }
+    btn.disabled = false;
+    setTimeout(()=>{ btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok','err'); }, 1800);
+  });
+});
+document.querySelectorAll('.copy-btn[data-copy]').forEach(btn=>{
   btn.addEventListener('click', async ()=>{
     const svgId = btn.getAttribute('data-copy');
     const origTitle = btn.getAttribute('title') || 'Copy as PNG';

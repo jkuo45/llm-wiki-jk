@@ -1394,3 +1394,42 @@ body.lb-open {
   margin-left: 0.3em;
 }
 
+
+/* ——— Copy-to-clipboard buttons (diagrams & tables) ——— */
+
+.copy-host {
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  z-index: 5;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 7px;
+  background: color-mix(in srgb, var(--sheet) 88%, transparent);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  color: var(--mute);
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+.copy-btn:hover { border-color: var(--rule-strong); color: var(--ink); }
+.copy-btn:disabled { opacity: .7; cursor: wait; }
+.copy-btn svg { width: 100%; height: 100%; display: block; }
+.copy-btn.ok { color: var(--forest); border-color: var(--forest); }
+.copy-btn.err { color: var(--oxblood); border-color: var(--oxblood); }
+
+/* Table copy buttons sit top-right so they stay visible while scrolling rows */
+.table-host > .copy-btn { top: 6px; bottom: auto; }
+
+@media (max-width: 720px) {
+  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 4px; bottom: 4px; }
+  .table-host > .copy-btn { top: 4px; bottom: auto; }
+}

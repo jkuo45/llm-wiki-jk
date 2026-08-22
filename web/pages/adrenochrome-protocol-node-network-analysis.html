@@ -149,7 +149,7 @@
       </p>
 
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable">
           <thead>
             <tr>
               <th>Agent</th>
@@ -173,7 +173,7 @@
             <tr><td><strong>NR / NMN</strong></td><td>NAD<sup>+</sup> fuel (MRR)</td><td><code>Nicotinamide Riboside</code> (57)</td><td>not yet traced — queued (§10)</td><td class="num">—</td></tr>
             <tr><td><strong>GlyNAC</strong></td><td>glycine + NAC precursor</td><td>absent from graph</td><td>entity note queued</td><td class="num">—</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <div class="note slate">
@@ -332,7 +332,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
       </p>
 
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable1" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable1">
           <thead>
             <tr>
               <th>Node</th>
@@ -352,7 +352,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
             <tr><td><strong>Autophagy</strong></td><td class="num">23</td><td class="num">16</td><td class="num">39</td><td class="num">0.00429</td><td class="num">0.0276</td><td class="num">0.0390</td><td class="num">6</td><td>Autophagy (19)</td></tr>
             <tr><td><strong>Sirtuins</strong></td><td class="num">11</td><td class="num">13</td><td class="num">24</td><td class="num">0.00203</td><td class="num">0.0112</td><td class="num">0.0119</td><td class="num">5</td><td>Sirtuins (17)</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <figure class="fig">
@@ -376,7 +376,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
       </figure>
 
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable2" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable2">
           <thead>
             <tr>
               <th>Adaptive program ↔ Trigger</th>
@@ -391,7 +391,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
             <tr><td><strong>Autophagy ↔ Adrenochrome</strong><br><code>Auto —associated_with(0.95)→ NM —sequesters(0.8)→ Adr</code></td><td class="num">0.011</td><td class="num">0.271</td><td class="num">0.138 (−1.72)</td><td class="num">#93 / #58</td></tr>
             <tr><td><strong>Sirtuins ↔ Adrenochrome</strong><br><code>Sirt —suppress(0.86)→ SASP ←is_regulated_by(0.96)— NF-κB ←inhibits(0.6⚠)— Adr</code></td><td class="num">0.000</td><td class="num">0.000</td><td class="num">0.227 (−1.57)</td><td class="num">#305 / #147</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <div class="note slate">
@@ -436,7 +436,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
       <figure class="fig">
         <div class="fig-head"><span class="fig-num">Figure 5 · Corrected Arm C semantics</span></div>
         <div class="fig-canvas">
-          <svg viewBox="0 0 980 240" role="img" aria-label="Corrected direction semantics on Arm C">
+          <div class="copy-host"><svg id="CorrecteddirectionseSvg" viewBox="0 0 980 240" role="img" aria-label="Corrected direction semantics on Arm C">
             <title>Corrected direction semantics on Arm C</title>
             <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
             <rect x="0" y="0" width="980" height="240" fill="#fbf8f1"/>
@@ -454,7 +454,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
             <line x1="712" y1="150" x2="833" y2="150" stroke="#8a8174" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#inv-grey)"/><line x1="716" y1="154" x2="832" y2="146" stroke="#8a8174" stroke-width="1.2"/><text x="773" y="172" text-anchor="middle" fill="#8a8174" font-size="11.5">undirected print suggests: "NF-κB inhibits Adrenochrome" ✕</text>
             <path d="M 900 93 C 855 40, 740 40, 668 80" fill="none" stroke="#7a312c" stroke-width="2.2" marker-end="url(#inv-ox)"/><text x="784" y="38" text-anchor="middle" fill="#7a312c" font-size="12" font-weight="600">stored triple: Adrenochrome --inhibits--> NF-κB · 0.6 ⚠ AMBIGUOUS</text>
             <text x="490" y="212" text-anchor="middle" fill="#1c1915" font-size="14"><tspan x="490" dy="0">Corrected reading: two parallel levers on the same SASP/NF-κB axis —</tspan><tspan x="490" dy="20">sirtuins suppress SASP from above; adrenochrome (hypothetically) presses NF-κB from below.</tspan></text>
-          </svg>
+          </svg><button class="copy-btn" data-copy="CorrecteddirectionseSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
         </div>
         <figcaption>
           <strong>Audit every path edge before citation.</strong> The stored triple runs
@@ -478,7 +478,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
 
       <h3>Bridge-perturbation sweep</h3>
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable3" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable3">
           <thead>
             <tr>
               <th>Perturbation</th>
@@ -498,7 +498,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
             <tr><td>remove edge Sirtuins–SASP</td><td class="num">+0.9%</td><td class="num">+3.3%</td><td class="num"><strong>−4.7%</strong></td><td>weak</td></tr>
             <tr><td>delete node SASP</td><td class="num">+2.6%</td><td class="num">+3.7%</td><td class="num">−3.1%</td><td>inverted!</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <figure class="fig">
@@ -581,7 +581,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
         "falsifies" column names the re-analysis that would break each claim.
       </p>
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable4" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable4">
           <thead>
             <tr><th>#</th><th>Hypothesis</th><th>Network basis</th><th>Prediction that would falsify it</th></tr>
           </thead>
@@ -595,7 +595,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
             <tr><td class="num"><strong>H7</strong></td><td>Coupling mode splits by chemistry: reaction/derivation/reduction agents use <strong>direct edges</strong> (AG, Carbazochrome, Ascorbate); modulators ride <strong>shared bridges</strong> (MB, stack).</td><td>Direct-edge membership exactly AG/Carb/Asc; MB proposals an edge via AA 2.641 but stores none.</td><td>Post-entity-resolution run materializes a direct MB–Adrenochrome edge, or drops AG's direct edge.</td></tr>
             <tr><td class="num"><strong>H8</strong></td><td>Adrenochrome sits on the trigger side with its own <strong>chemical family</strong>, not isolated — so the "one node alone vs three programs" story is really "a chemistry module vs a program layer".</td><td>Negative Fiedler set {Adr, Carb, Asc, Creatine, Fisetin, Resveratrol}.</td><td>Seam re-drawn with more validated low-degree members shows the chemistry set is not consistently sign-consistent.</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
     </section>
 
@@ -603,7 +603,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
       <p class="sec-label">09 · Trace log</p>
       <h2>Query/Trace Log (build: 867a5ae5fdb8a46c)</h2>
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable5" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable5">
           <thead>
             <tr>
               <th>Run</th>
@@ -619,7 +619,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
             <tr><td>20 Aug · PM · <strong>C</strong></td><td><code>--sources mitohormesis autophagy sirtuins --targets adrenochrome</code></td><td>Baseline reproduced exactly; <code>requires</code> confidence prints 0.9 (earlier log 0.92).</td><td><code>…/run_log_C_sources_arms_targets_adrenochrome.txt</code></td></tr>
             <tr><td>20 Aug · PM · <strong>D</strong></td><td><code>--sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid --targets adrenochrome</code></td><td>Direct edges Carb/Asc; ladder completed (#14/#15); Jaccard(Carb,Asc)=0.143 highest pairwise; Carb in AMM community #98.</td><td><code>…/run_log_D_sources_protocol_stack_targets_adrenochrome.txt</code></td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <h3>Queued next traces</h3>
@@ -1136,5 +1136,6 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
   }
 })();
 </script>
+  <script src="themes/theme-01/pages-svg.js"></script>
 </body>
 </html>

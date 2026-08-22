@@ -340,7 +340,7 @@
       </p>
 
       <div class="table-wrap">
-        <table>
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable">
           <thead>
             <tr>
               <th>角色</th>
@@ -357,7 +357,7 @@
             <tr><td>模組成員</td><td class="num">71</td><td class="num">2.7%</td><td>聚類係數 &gt; 0.5——凝聚機制的參與者。</td></tr>
             <tr><td>主控調節者</td><td class="num">51</td><td class="num">2.0%</td><td>高出度 ∧ 高 PageRank——源頭兼受背書的吸引子。</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <div class="panel">
@@ -416,7 +416,7 @@
           <strong>Acid ceramidase 置於 2,596 個中的第 107 名——前 4.1%</strong>，如規則所要求的接近頂端。
         </p>
         <div class="table-wrap">
-          <table>
+          <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable1" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable1">
             <thead>
               <tr>
                 <th>排名</th>
@@ -435,7 +435,7 @@
               <tr><td>6</td><td>Nicotinamide Riboside</td><td class="num">0.680</td><td class="num">50</td><td class="num">0.58</td></tr>
               <tr><td>107</td><td><strong>Acid ceramidase</strong></td><td class="num">0.568</td><td class="num">17</td><td class="num">0.37</td></tr>
             </tbody>
-          </table>
+          </table></div>
         </div>
       </div>
 
@@ -466,7 +466,7 @@
         <figure class="fig">
           <div class="fig-head"><span class="fig-num">圖 2 · 擴散者</span></div>
           <div class="fig-canvas">
-            <svg viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase 作為出度擴散者">
+            <div class="copy-host"><svg id="AcidceramidaseSvg" viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase 作為出度擴散者">
               <title>Acid ceramidase 作為出度擴散者</title>
               <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
               <rect x="0" y="0" width="520" height="340" fill="#fbf8f1"/>
@@ -525,7 +525,7 @@
               <text x="16" y="44" fill="#6d665b" font-size="11">上游驅動者</text>
               <text x="360" y="28" fill="#7a312c" font-size="11" font-weight="600">出度 17</text>
               <text x="360" y="44" fill="#6d665b" font-size="11">下游擴散</text>
-            </svg>
+            </svg><button class="copy-btn" data-copy="AcidceramidaseSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
           </div>
           <figcaption>
             <strong>Acid ceramidase 作為源頭節點。</strong>
@@ -614,7 +614,7 @@
 
       <div class="instance" data-node="worked">
                 <div class="table-wrap">
-          <table>
+          <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable2" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable2">
             <thead>
               <tr>
                 <th>節點</th>
@@ -685,7 +685,7 @@
                 <td class="num">1</td>
               </tr>
             </tbody>
-          </table>
+          </table></div>
         </div>
 
         <figure class="fig">
@@ -1351,5 +1351,6 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
   }
 })();
 </script>
+  <script src="themes/theme-01/pages-svg.js"></script>
 </body>
 </html>
