@@ -2,6 +2,10 @@
    Overrides the paper-&-ink light tokens from theme.css when
    <html data-theme="dark"> is set (see themes/theme-02/theme.js).
 
+   Palette matches the graph app's default dark theme (theme-00 /
+   themes/theme-01/pages.css :root): deep navy surfaces (#0f0f1a,
+   #1a1a2e), cool grey text, teal/red/amber accents.
+
    Loaded AFTER each page's page-specific inline <style> so these
    declarations win without !important (same specificity, later order).
 
@@ -12,47 +16,55 @@
 
 [data-theme="dark"] {
   /* surfaces */
-  --paper: #161310;
-  --paper-deep: #100d0b;
-  --sheet: #201b15;
+  --paper: #0f0f1a;
+  --paper-deep: #111122;
+  --sheet: #1a1a2e;
 
   /* text */
-  --ink: #ece4d4;
-  --ink-soft: #d3c8b4;
-  --mute: #a3977f;
-  --faint: #7d735f;
+  --ink: #e0e0e0;
+  --ink-soft: #c9c9dd;
+  --mute: #9a9ab0;
+  --faint: #6b6b85;
 
   /* rules & structure */
-  --rule: #383126;
-  --rule-strong: #514636;
+  --rule: #2a2a4e;
+  --rule-strong: #3a3a5e;
 
-  /* accents (brightened for dark ground) */
-  --oxblood: #d08078;
-  --oxblood-soft: #e09a90;
-  --slate: #7ba7c4;
-  --slate-soft: #8fb8d4;
-  --forest: #6fa284;
-  --forest-soft: #85b89a;
-  --gold: #c99f4f;
-  --gold-soft: #ddb86a;
-  --periphery: #948a77;
-  --focus: #d08078;
+  /* accents (theme-00 dark accent set) */
+  --oxblood: #e4575e;      /* --red */
+  --oxblood-soft: #f283b2; /* --pink */
+  --slate: #5da8ff;        /* --blue */
+  --slate-soft: #8cc2ff;
+  --forest: #58d68d;       /* --green */
+  --forest-soft: #7fe3a5;
+  --gold: #e8a33d;         /* --amber */
+  --gold-soft: #f5a65b;    /* --orange */
+  --periphery: #8b8bb0;
+  --focus: #3ec9a7;        /* --teal */
 
   --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 18px 40px rgba(0, 0, 0, 0.35);
 }
 
-/* Body backdrop: same composition as light, but glow tints on a dark
+/* Body backdrop: same composition as light, but glow tints on the navy
    paper base instead of a warm cream one. */
 [data-theme="dark"] body {
   background:
-    radial-gradient(1200px 480px at 12% -10%, rgba(208, 128, 120, 0.07), transparent 60%),
-    radial-gradient(900px 420px at 92% 0%, rgba(123, 167, 196, 0.08), transparent 55%),
+    radial-gradient(1200px 480px at 12% -10%, rgba(228, 87, 94, 0.06), transparent 60%),
+    radial-gradient(900px 420px at 92% 0%, rgba(93, 168, 255, 0.07), transparent 55%),
     var(--paper);
 }
 
-/* Sticky nav tint follows the dark paper. */
+/* Sticky nav tint follows the dark navy paper. */
 [data-theme="dark"] .site-nav {
   background: color-mix(in srgb, var(--paper) 86%, black);
+}
+
+/* Code blocks are hardcoded to a warm near-black in light mode; on the navy
+   theme they shift to the app's code surface so they don't read brown. */
+[data-theme="dark"] pre,
+[data-theme="dark"] code[class*="language-"] {
+  background: #23233f;
+  color: #e0e0e0;
 }
 
 /* ——— SVG diagram remapping ———
@@ -85,17 +97,18 @@
 [data-theme="dark"] [fill="#8a8174"] { fill: var(--periphery); }
 [data-theme="dark"] [stroke="#d3c9b6"] { stroke: var(--rule-strong); }
 
-/* paper/sheet surfaces inside figures flip to dark surfaces */
+/* paper/sheet surfaces inside figures flip to dark navy surfaces */
 [data-theme="dark"] [fill="#f2ece1"] { fill: var(--paper); }
 [data-theme="dark"] [fill="#fbf8f1"] { fill: var(--sheet); }
 [data-theme="dark"] [fill="#efe8d8"] { fill: var(--paper-deep); }
 
-/* Text drawn on top of accent-colored nodes must stay light. */
-[data-theme="dark"] [fill="#fbf8f1"][font-weight] { fill: #161310; }
+/* Text drawn on top of accent-colored nodes must stay dark against the
+   now-bright accent fills. */
+[data-theme="dark"] [fill="#fbf8f1"][font-weight] { fill: #191934; }
 
 /* JS figure palettes also emit rgba() strokes/fills for halos; soften the
    white ones that would glare on dark ground. */
 [data-theme="dark"] .fig-svg [stroke="rgba(255, 255, 255, 0.28)"],
 [data-theme="dark"] svg [stroke="rgba(255,255,255,0.28)"] {
-  stroke: rgba(236, 228, 212, 0.25);
+  stroke: rgba(224, 224, 224, 0.25);
 }
