@@ -1403,8 +1403,8 @@ body.lb-open {
 
 .copy-btn {
   position: absolute;
-  right: 6px;
-  top: 6px;
+  right: 2px;
+  top: 2px;
   z-index: 5;
   width: 34px;
   height: 34px;
@@ -1429,5 +1429,5 @@ body.lb-open {
 /* Copy buttons anchor top-right uniformly (SVGs, tables, pre blocks) */
 
 @media (max-width: 720px) {
-  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 4px; bottom: auto; top: 4px; }
+  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 2px; top: 2px; }
 }
