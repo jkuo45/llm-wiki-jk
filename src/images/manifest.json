@@ -13,7 +13,9 @@
       "notes",
       "cell-death",
       "mitochondria",
-      "lysosome"
+      "lysosome",
+      "ivermectin",
+      "fenbendazole"
     ],
     "pages": [
       {
@@ -34,7 +36,7 @@
       }
     ],
     "created": "2026-03-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -63,7 +65,12 @@
       "mitochondria",
       "redox",
       "metabolism",
-      "nad-metabolism"
+      "nad-metabolism",
+      "methylene-blue",
+      "nervous-system",
+      "hematopoietic",
+      "endocrine",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -73,7 +80,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -102,7 +109,9 @@
       "mitochondria",
       "growth",
       "nad-metabolism",
-      "neurodegeneration"
+      "neurodegeneration",
+      "methylene-blue",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -112,7 +121,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -140,7 +149,10 @@
       "autophagy",
       "diagrams-charts",
       "autophagosome",
-      "lysosome"
+      "lysosome",
+      "lc3",
+      "ulk1",
+      "atg7"
     ],
     "pages": [
       {
@@ -150,7 +162,7 @@
     ],
     "annotations": [],
     "created": "2023-08-09",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -181,7 +193,13 @@
       "metabolism",
       "metabolic-fasting",
       "autophagosome",
-      "growth"
+      "growth",
+      "ampk",
+      "mtorc1",
+      "insulin",
+      "fasting",
+      "mtor",
+      "endocrine"
     ],
     "pages": [
       {
@@ -191,7 +209,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -222,7 +240,14 @@
       "metabolism",
       "metabolic-fasting",
       "stem-cells",
-      "senescence"
+      "senescence",
+      "intermittent-fasting",
+      "caloric-restriction",
+      "autophagy",
+      "fasting",
+      "nervous-system",
+      "digestive",
+      "immune-system"
     ],
     "pages": [
       {
@@ -232,7 +257,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -263,7 +288,12 @@
       "redox",
       "antioxidants",
       "leukocytes",
-      "oxidative-stress"
+      "oxidative-stress",
+      "epinephrine",
+      "ros",
+      "cardiovascular",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -273,7 +303,7 @@
     ],
     "annotations": [],
     "created": "2026-05-17",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -301,7 +331,11 @@
       "adrenochrome",
       "diagrams-charts",
       "catecholamines",
-      "redox"
+      "redox",
+      "epinephrine",
+      "adrenaline-quinone",
+      "leuco-adrenochrome",
+      "endocrine"
     ],
     "pages": [
       {
@@ -311,7 +345,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -343,7 +377,8 @@
       "growth",
       "development",
       "physiology",
-      "spermidine"
+      "spermidine",
+      "immune-system"
     ],
     "pages": [
       {
@@ -353,7 +388,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -376,7 +411,9 @@
       "notes",
       "polyamines",
       "metabolism",
-      "nutrition"
+      "nutrition",
+      "digestive",
+      "immune-system"
     ],
     "pages": [
       {
@@ -386,7 +423,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-18",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -413,7 +450,10 @@
       "polyamines",
       "circadian-rhythm",
       "physiology",
-      "neurochemistry"
+      "neurochemistry",
+      "phenethylamine",
+      "cardiovascular",
+      "digestive"
     ],
     "pages": [
       {
@@ -423,7 +463,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -455,7 +495,11 @@
       "antioxidants",
       "sod",
       "oxidative-stress",
-      "metal-chelation"
+      "metal-chelation",
+      "epinephrine",
+      "ros",
+      "glutathione",
+      "integumentary"
     ],
     "pages": [
       {
@@ -465,7 +509,7 @@
     ],
     "annotations": [],
     "created": "2026-05-17",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -496,7 +540,17 @@
       "blood-cells",
       "notes",
       "leukocytes",
-      "hematology"
+      "hematology",
+      "monocyte",
+      "lymphocyte",
+      "neutrophil",
+      "eosinophil",
+      "basophil",
+      "macrophage",
+      "erythrocytes",
+      "platelets",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -506,7 +560,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -539,7 +593,14 @@
       "antioxidants",
       "adrenergic",
       "hematology",
-      "oxidative-stress"
+      "oxidative-stress",
+      "epinephrine",
+      "dopamine",
+      "ros",
+      "superoxide",
+      "vitamin-c",
+      "hematopoietic",
+      "endocrine"
     ],
     "pages": [
       {
@@ -549,7 +610,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -579,7 +640,13 @@
       "catecholamines",
       "redox",
       "hematology",
-      "adrenergic"
+      "adrenergic",
+      "epinephrine",
+      "norepinephrine",
+      "superoxide",
+      "hemoglobin",
+      "hematopoietic",
+      "endocrine"
     ],
     "pages": [
       {
@@ -589,7 +656,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -621,7 +688,14 @@
       "antioxidants",
       "nad-metabolism",
       "catecholamines",
-      "redox"
+      "redox",
+      "erythrocytes",
+      "glutathione",
+      "nadh",
+      "hemoglobin",
+      "catalase",
+      "hematopoietic",
+      "endocrine"
     ],
     "pages": [
       {
@@ -631,7 +705,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -662,7 +736,17 @@
       "blood-cells",
       "diagrams-charts",
       "leukocytes",
-      "hematology"
+      "hematology",
+      "monocyte",
+      "lymphocyte",
+      "neutrophil",
+      "eosinophil",
+      "basophil",
+      "macrophage",
+      "erythrocytes",
+      "platelets",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -672,7 +756,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -699,7 +783,11 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
-      "mutations"
+      "mutations",
+      "genomic-instability",
+      "dna-methylation",
+      "histone",
+      "chromatin"
     ],
     "pages": [
       {
@@ -709,7 +797,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -746,7 +834,16 @@
       "growth",
       "senolytics",
       "sasp",
-      "spermidine"
+      "spermidine",
+      "caloric-restriction",
+      "rapamycin",
+      "metformin",
+      "mtor",
+      "ampk",
+      "sirt1",
+      "foxo",
+      "autophagy",
+      "endocrine"
     ],
     "pages": [
       {
@@ -756,7 +853,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -792,7 +889,15 @@
       "neurochemistry",
       "cardiovascular",
       "neuromelanin",
-      "oxidative-stress"
+      "oxidative-stress",
+      "epinephrine",
+      "ros",
+      "neutrophils",
+      "chromaffin-cells",
+      "nervous-system",
+      "immune-system",
+      "endocrine",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -802,7 +907,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -832,7 +937,12 @@
       "diagrams-charts",
       "ncrna",
       "mutations",
-      "development"
+      "development",
+      "dna-methylation",
+      "histone",
+      "non-coding-rna",
+      "chromatin",
+      "gene-expression"
     ],
     "pages": [
       {
@@ -842,7 +952,7 @@
     ],
     "annotations": [],
     "created": "2026-05-12",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -866,7 +976,10 @@
     ],
     "tags": [
       "epigenetics",
-      "diagrams-charts"
+      "diagrams-charts",
+      "dna-methylation",
+      "histone",
+      "chromatin"
     ],
     "pages": [
       {
@@ -876,7 +989,7 @@
     ],
     "annotations": [],
     "created": "2026-05-12",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -906,7 +1019,15 @@
       "eye",
       "vision",
       "anatomy",
-      "diagrams-charts"
+      "diagrams-charts",
+      "retina",
+      "photoreceptors",
+      "retinal-pigment-epithelium",
+      "rod-cells",
+      "cone-cells",
+      "ganglion-cells",
+      "choroid",
+      "ocular"
     ],
     "pages": [
       {
@@ -916,7 +1037,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -949,7 +1070,13 @@
       "metabolic-fasting",
       "mitochondria",
       "growth",
-      "spermidine"
+      "spermidine",
+      "rapamycin",
+      "metformin",
+      "caloric-restriction",
+      "mtorc1",
+      "ampk",
+      "mtor"
     ],
     "pages": [
       {
@@ -959,7 +1086,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -992,7 +1119,13 @@
       "diagrams-charts",
       "autophagosome",
       "lysosome",
-      "growth"
+      "growth",
+      "ulk1",
+      "vps34",
+      "atg12",
+      "atg16l1",
+      "mtorc1",
+      "mtor"
     ],
     "pages": [
       {
@@ -1002,7 +1135,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1038,7 +1171,8 @@
       "angiogenesis",
       "neurochemistry",
       "cardiovascular",
-      "spermidine"
+      "spermidine",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -1048,7 +1182,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1083,7 +1217,14 @@
       "metabolic-fasting",
       "cell-death",
       "metastasis",
-      "mutations"
+      "mutations",
+      "caloric-restriction",
+      "e-cadherin",
+      "mmp",
+      "caspase-3",
+      "adiponectin",
+      "leptin",
+      "fasting"
     ],
     "pages": [
       {
@@ -1093,7 +1234,7 @@
     ],
     "annotations": [],
     "created": "2026-05-16",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1122,7 +1263,11 @@
       "adrenochrome",
       "diagrams-charts",
       "catecholamines",
-      "redox"
+      "redox",
+      "epinephrine",
+      "adrenaline-quinone",
+      "leuco-adrenochrome",
+      "endocrine"
     ],
     "pages": [
       {
@@ -1132,7 +1277,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1165,7 +1310,12 @@
       "redox",
       "hematology",
       "catecholamines",
-      "antioxidants"
+      "antioxidants",
+      "superoxide",
+      "hemoglobin",
+      "erythrocytes",
+      "epinephrine",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -1175,7 +1325,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1211,7 +1361,16 @@
       "sod",
       "redox",
       "antioxidants",
-      "catecholamines"
+      "catecholamines",
+      "methemoglobin",
+      "methemoglobin-reductase",
+      "nadh",
+      "erythrocytes",
+      "hemoglobin",
+      "catalase",
+      "epinephrine",
+      "adrenochrome",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -1221,7 +1380,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1252,7 +1411,14 @@
       "metabolism",
       "physiology",
       "comt",
-      "neuromelanin"
+      "neuromelanin",
+      "dopamine",
+      "norepinephrine",
+      "epinephrine",
+      "mao",
+      "nervous-system",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -1262,7 +1428,7 @@
     ],
     "annotations": [],
     "created": "2026-05-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1295,7 +1461,14 @@
       "antioxidants",
       "redox",
       "cardiovascular",
-      "physiology"
+      "physiology",
+      "epinephrine",
+      "erythrocytes",
+      "hemoglobin",
+      "glutathione",
+      "oxidative-stress",
+      "methemoglobin",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -1305,7 +1478,7 @@
     ],
     "annotations": [],
     "created": "2026-05-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1334,7 +1507,13 @@
       "oxidative-stress",
       "diagrams-charts",
       "hematology",
-      "diagnosis"
+      "diagnosis",
+      "methemoglobin",
+      "hemoglobin",
+      "methemoglobinemia",
+      "pulse-oximetry",
+      "erythrocytes",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -1344,7 +1523,7 @@
     ],
     "annotations": [],
     "created": "2026-05-20",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1377,7 +1556,13 @@
       "stem-cells",
       "drug-resistance",
       "growth",
-      "cancer"
+      "cancer",
+      "ivermectin",
+      "pyroptosis",
+      "mtor",
+      "wnt",
+      "mapk",
+      "cancer-stem-cells"
     ],
     "pages": [
       {
@@ -1387,7 +1572,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1422,7 +1607,15 @@
       "metabolic-fasting",
       "growth",
       "physiology",
-      "cancer"
+      "cancer",
+      "ampk",
+      "mtorc1",
+      "akt",
+      "ulk1",
+      "rapamycin",
+      "tsc2",
+      "mtor",
+      "endocrine"
     ],
     "pages": [
       {
@@ -1432,7 +1625,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1468,7 +1661,24 @@
       "stem-cells",
       "mitochondria",
       "drug-resistance",
-      "growth"
+      "growth",
+      "ivermectin",
+      "wnt",
+      "akt",
+      "mtor",
+      "mapk",
+      "yap1",
+      "pak1",
+      "hsp27",
+      "cancer-stem-cells",
+      "multidrug-resistance",
+      "nervous-system",
+      "digestive",
+      "hematopoietic",
+      "respiratory",
+      "urinary",
+      "reproductive",
+      "integumentary"
     ],
     "pages": [
       {
@@ -1478,7 +1688,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1507,7 +1717,13 @@
       "diagrams-charts",
       "filariasis",
       "vector-borne",
-      "cancer"
+      "cancer",
+      "onchocerciasis",
+      "ivermectin",
+      "microfilariae",
+      "simulium",
+      "parasite-life-cycle",
+      "integumentary"
     ],
     "pages": [
       {
@@ -1517,7 +1733,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1551,7 +1767,13 @@
       "metabolism",
       "growth",
       "pathology",
-      "oxidative-stress"
+      "oxidative-stress",
+      "fenbendazole",
+      "microtubules",
+      "tubulin",
+      "mapk",
+      "microtubule",
+      "respiratory"
     ],
     "pages": [
       {
@@ -1561,7 +1783,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1598,7 +1820,17 @@
       "mitochondria",
       "metastasis",
       "angiogenesis",
-      "growth"
+      "growth",
+      "ivermectin",
+      "multidrug-resistance",
+      "cancer-stem-cells",
+      "akt",
+      "mtor",
+      "wnt",
+      "yap1",
+      "p-glycoprotein",
+      "hsp27",
+      "p2x7"
     ],
     "pages": [
       {
@@ -1608,7 +1840,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1638,7 +1870,10 @@
       "circadian-rhythm",
       "adrenochrome",
       "oxidative-stress",
-      "spermidine"
+      "spermidine",
+      "ivermectin",
+      "fenbendazole",
+      "caloric-restriction"
     ],
     "pages": [
       {
@@ -1648,7 +1883,7 @@
     ],
     "annotations": [],
     "created": "2026-05-23",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1681,7 +1916,14 @@
       "nad-metabolism",
       "redox",
       "catecholamines",
-      "inflammation"
+      "inflammation",
+      "neutrophils",
+      "nadph-oxidase",
+      "ros",
+      "epinephrine",
+      "cardiovascular",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -1691,7 +1933,7 @@
     ],
     "annotations": [],
     "created": "2026-05-25",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1724,7 +1966,17 @@
       "diagrams-charts",
       "leukocytes",
       "hematology",
-      "immunology"
+      "immunology",
+      "neutrophil",
+      "eosinophil",
+      "basophil",
+      "monocyte",
+      "macrophage",
+      "dendritic-cells",
+      "lymphocyte",
+      "t-cells",
+      "b-cells",
+      "immune-system"
     ],
     "pages": [
       {
@@ -1734,7 +1986,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1764,7 +2016,17 @@
       "cancer",
       "diagrams-charts",
       "cell-adhesion",
-      "metastasis"
+      "metastasis",
+      "integrins",
+      "rgd-peptide",
+      "breast-cancer",
+      "lung-cancer",
+      "colorectal-cancer",
+      "digestive",
+      "immune-system",
+      "respiratory",
+      "urinary",
+      "reproductive"
     ],
     "pages": [
       {
@@ -1774,7 +2036,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1805,7 +2067,10 @@
       "microbiome",
       "cognition",
       "metabolism",
-      "neurochemistry"
+      "neurochemistry",
+      "faecalibacterium",
+      "nervous-system",
+      "digestive"
     ],
     "pages": [
       {
@@ -1815,7 +2080,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1842,7 +2107,11 @@
       "cancer",
       "diagrams-charts",
       "cell-adhesion",
-      "drug-delivery"
+      "drug-delivery",
+      "rgd-peptide",
+      "integrins",
+      "nanoparticles",
+      "endocytosis"
     ],
     "pages": [
       {
@@ -1852,7 +2121,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1878,7 +2147,10 @@
       "blood-cells",
       "leukocytes",
       "circadian-rhythm",
-      "physiology"
+      "physiology",
+      "hematology",
+      "immune-system",
+      "reproductive"
     ],
     "pages": [
       {
@@ -1888,7 +2160,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1923,7 +2195,13 @@
       "leukocytes",
       "catecholamines",
       "cardiovascular",
-      "oxidative-stress"
+      "oxidative-stress",
+      "ros",
+      "myeloperoxidase",
+      "neutrophils",
+      "epinephrine",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -1933,7 +2211,7 @@
     ],
     "annotations": [],
     "created": "2026-05-27",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -1966,7 +2244,12 @@
       "leukocytes",
       "vaccines",
       "adjuvants",
-      "pathology"
+      "pathology",
+      "immune-system",
+      "dendritic-cells",
+      "macrophages",
+      "vaccination",
+      "cytokines"
     ],
     "pages": [
       {
@@ -1976,7 +2259,7 @@
     ],
     "annotations": [],
     "created": "2026-05-27",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2011,7 +2294,17 @@
       "lysosome",
       "mitochondria",
       "metabolism",
-      "growth"
+      "growth",
+      "mtor",
+      "mtorc1",
+      "ampk",
+      "pi3k",
+      "akt",
+      "pten",
+      "tsc1",
+      "rheb",
+      "tfeb",
+      "protein-synthesis"
     ],
     "pages": [
       {
@@ -2021,7 +2314,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2052,7 +2345,17 @@
     "tags": [
       "autophagy",
       "metabolism",
-      "growth"
+      "growth",
+      "mtor",
+      "mtorc1",
+      "mtorc2",
+      "raptor",
+      "rictor",
+      "akt",
+      "s6k1",
+      "4e-bp1",
+      "rapamycin",
+      "endocrine"
     ],
     "pages": [
       {
@@ -2062,7 +2365,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2095,7 +2398,16 @@
       "angiogenesis",
       "mutations",
       "inflammation",
-      "growth"
+      "growth",
+      "proto-oncogene",
+      "tumor-suppressor",
+      "digestive",
+      "immune-system",
+      "hematopoietic",
+      "respiratory",
+      "reproductive",
+      "integumentary",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -2105,7 +2417,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2142,7 +2454,16 @@
       "inflammation",
       "mitochondria",
       "mutations",
-      "growth"
+      "growth",
+      "caspase-9",
+      "caspase-3",
+      "cytochrome-c",
+      "bax",
+      "momp",
+      "death-receptor",
+      "tnf-alpha",
+      "fas",
+      "caspases"
     ],
     "pages": [
       {
@@ -2152,7 +2473,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2189,7 +2510,17 @@
       "cell-death",
       "mitochondria",
       "mutations",
-      "growth"
+      "growth",
+      "bcl-2",
+      "bax",
+      "bak",
+      "bim",
+      "momp",
+      "cytochrome-c",
+      "apaf-1",
+      "caspase-9",
+      "caspases",
+      "intrinsic-pathway"
     ],
     "pages": [
       {
@@ -2199,7 +2530,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2230,7 +2561,10 @@
       "cardiovascular",
       "development",
       "pathology",
-      "physiology"
+      "physiology",
+      "immune-system",
+      "viral-infection",
+      "reproductive"
     ],
     "pages": [
       {
@@ -2240,7 +2574,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2271,7 +2605,14 @@
       "cancer",
       "diagrams-charts",
       "cell-death",
-      "mutations"
+      "mutations",
+      "bcl-2",
+      "bax",
+      "bak",
+      "p53",
+      "iap",
+      "caspase",
+      "caspases"
     ],
     "pages": [
       {
@@ -2281,7 +2622,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2310,7 +2651,11 @@
       "filariasis",
       "dec",
       "cancer",
-      "clinical-trial"
+      "clinical-trial",
+      "ivermectin",
+      "microfilariae",
+      "onchocerciasis",
+      "diethylcarbamazine"
     ],
     "pages": [
       {
@@ -2320,7 +2665,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2356,7 +2701,16 @@
       "innate-immunity",
       "immunology",
       "parasitology",
-      "hematology"
+      "hematology",
+      "neutrophil",
+      "eosinophil",
+      "basophil",
+      "monocyte",
+      "macrophage",
+      "lymphocyte",
+      "natural-killer-cells",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -2366,7 +2720,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2399,7 +2753,14 @@
       "nad-metabolism",
       "redox",
       "inflammation",
-      "leukocytes"
+      "leukocytes",
+      "myeloperoxidase",
+      "epinephrine",
+      "nadph-oxidase",
+      "ros",
+      "immune-system",
+      "endocrine",
+      "integumentary"
     ],
     "pages": [
       {
@@ -2409,7 +2770,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2441,7 +2802,14 @@
       "nad-metabolism",
       "redox",
       "inflammation",
-      "innate-immunity"
+      "innate-immunity",
+      "myeloperoxidase",
+      "neutrophils",
+      "hypochlorous-acid",
+      "nadph-oxidase",
+      "ros",
+      "cardiovascular",
+      "immune-system"
     ],
     "pages": [
       {
@@ -2451,7 +2819,7 @@
     ],
     "annotations": [],
     "created": "2026-08-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2482,7 +2850,12 @@
       "adrenochrome",
       "diagrams-charts",
       "catecholamines",
-      "redox"
+      "redox",
+      "leuco-adrenochrome",
+      "adrenaline-quinone",
+      "electrophile",
+      "epinephrine",
+      "endocrine"
     ],
     "pages": [
       {
@@ -2492,7 +2865,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2532,7 +2905,13 @@
       "sasp",
       "pathology",
       "oxidative-stress",
-      "senescence"
+      "senescence",
+      "chromatin-condensation",
+      "biological-process",
+      "dna-damage",
+      "caspase-1",
+      "chromatin",
+      "immune-system"
     ],
     "pages": [
       {
@@ -2542,7 +2921,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2579,7 +2958,15 @@
       "cell-death",
       "mitochondria",
       "inflammation",
-      "nf-kappab"
+      "nf-kappab",
+      "genomic-instability",
+      "cell-cycle-arrest",
+      "intrinsic-pathway",
+      "death-receptor",
+      "bcl-2-family",
+      "caspase-8",
+      "tnf-alpha",
+      "caspases"
     ],
     "pages": [
       {
@@ -2589,7 +2976,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2625,7 +3012,13 @@
       "cell-death",
       "mitochondria",
       "pathology",
-      "physiology"
+      "physiology",
+      "extrinsic-pathway",
+      "death-receptor",
+      "bcl-2-family",
+      "caspase",
+      "bcl-2",
+      "immune-system"
     ],
     "pages": [
       {
@@ -2635,7 +3028,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2673,7 +3066,13 @@
       "redox",
       "lysosome",
       "neurochemistry",
-      "cognition"
+      "cognition",
+      "macrophages",
+      "euchromatin",
+      "chromosome",
+      "cytoplasm",
+      "chromatin",
+      "immune-system"
     ],
     "pages": [
       {
@@ -2683,7 +3082,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2715,7 +3114,9 @@
       "metastasis",
       "cell-death",
       "mutations",
-      "physiology"
+      "physiology",
+      "caspases",
+      "caspase"
     ],
     "pages": [
       {
@@ -2725,7 +3126,7 @@
     ],
     "annotations": [],
     "created": "2026-06-01",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2759,7 +3160,15 @@
       "cancer",
       "notes",
       "mutations",
-      "cell-death"
+      "cell-death",
+      "genomic-instability",
+      "intrinsic-pathway",
+      "gene-expression",
+      "dna-methylation",
+      "gene-silencing",
+      "methylation",
+      "hypoxia",
+      "bcl-2"
     ],
     "pages": [
       {
@@ -2769,7 +3178,7 @@
     ],
     "annotations": [],
     "created": "2026-06-01",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2803,7 +3212,16 @@
       "notes",
       "cell-death",
       "mutations",
-      "growth"
+      "growth",
+      "gene-expression",
+      "bcl-2-family",
+      "lung-cancer",
+      "bcl-xl",
+      "bcl-2",
+      "mcl-1",
+      "p53",
+      "immune-system",
+      "respiratory"
     ],
     "pages": [
       {
@@ -2813,7 +3231,7 @@
     ],
     "annotations": [],
     "created": "2026-06-01",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2850,7 +3268,13 @@
       "cell-death",
       "mitochondria",
       "inflammation",
-      "oxidative-stress"
+      "oxidative-stress",
+      "iap",
+      "extrinsic-pathway",
+      "intrinsic-pathway",
+      "cytochrome-c",
+      "smac-diablo",
+      "omi-htra2"
     ],
     "pages": [
       {
@@ -2860,7 +3284,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2896,7 +3320,15 @@
       "cell-death",
       "mitochondria",
       "inflammation",
-      "oxidative-stress"
+      "oxidative-stress",
+      "extrinsic-pathway",
+      "cytochrome-c",
+      "smac-diablo",
+      "omi-htra2",
+      "hypoxia",
+      "caspase",
+      "disc",
+      "fadd"
     ],
     "pages": [
       {
@@ -2906,7 +3338,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2938,7 +3370,16 @@
     ],
     "tags": [
       "cancer",
-      "cell-death"
+      "cell-death",
+      "bcl-xl",
+      "bcl-w",
+      "bcl-2",
+      "mcl-1",
+      "noxa",
+      "bmf",
+      "bid",
+      "bad",
+      "bik"
     ],
     "pages": [
       {
@@ -2948,7 +3389,7 @@
     ],
     "annotations": [],
     "created": "2026-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -2980,7 +3421,18 @@
     ],
     "tags": [
       "cancer",
-      "cell-death"
+      "cell-death",
+      "caspases",
+      "bcl-w",
+      "mcl-1",
+      "noxa",
+      "puma",
+      "bmf",
+      "bid",
+      "bad",
+      "bik",
+      "bax",
+      "bim"
     ],
     "pages": [
       {
@@ -2990,7 +3442,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3025,7 +3477,16 @@
       "generated-image",
       "diagrams-charts",
       "cell-death",
-      "growth"
+      "growth",
+      "bcl-2-family",
+      "caspase-2",
+      "caspases",
+      "caspase",
+      "bcl-2",
+      "mcl-1",
+      "noxa",
+      "puma",
+      "bmf"
     ],
     "pages": [
       {
@@ -3035,7 +3496,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3072,7 +3533,15 @@
       "sasp",
       "innate-immunity",
       "immunology",
-      "senescence"
+      "senescence",
+      "metabolic-reprogramming",
+      "thymic-involution",
+      "senescent-cells",
+      "hematopoiesis",
+      "immune-system",
+      "immune-aging",
+      "antigens",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -3082,7 +3551,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3116,7 +3585,15 @@
       "notes",
       "inflammation",
       "autophagosome",
-      "growth"
+      "growth",
+      "chaperone-mediated-autophagy",
+      "age-related-diseases",
+      "microautophagy",
+      "rapamycin",
+      "er-stress",
+      "mtorc1",
+      "ampk",
+      "immune-system"
     ],
     "pages": [
       {
@@ -3126,7 +3603,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3163,7 +3640,14 @@
       "polyamines",
       "metabolism",
       "growth",
-      "spermidine"
+      "spermidine",
+      "mitochondrial-dna",
+      "drug-discovery",
+      "cytoplasm",
+      "exercise",
+      "ampk",
+      "digestive",
+      "immune-system"
     ],
     "pages": [
       {
@@ -3173,7 +3657,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3210,7 +3694,10 @@
       "cell-death",
       "circadian-rhythm",
       "pathology",
-      "physiology"
+      "physiology",
+      "chaperone-mediated-autophagy",
+      "adaptive-autophagy",
+      "immune-system"
     ],
     "pages": [
       {
@@ -3220,7 +3707,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3257,7 +3744,13 @@
       "leukocytes",
       "lysosome",
       "autophagosome",
-      "pathology"
+      "pathology",
+      "endoplasmic-reticulum-stress",
+      "excessive-autophagy",
+      "amino-acids",
+      "pyroptosis",
+      "platelets",
+      "glucose"
     ],
     "pages": [
       {
@@ -3267,7 +3760,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3306,7 +3799,15 @@
       "autophagosome",
       "cell-death",
       "metabolism",
-      "metabolic-fasting"
+      "metabolic-fasting",
+      "extracellular-matrix",
+      "phospholipid",
+      "amino-acids",
+      "nervous-system",
+      "digestive",
+      "immune-system",
+      "endocrine",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -3316,7 +3817,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3353,7 +3854,13 @@
       "innate-immunity",
       "inflammation",
       "metastasis",
-      "immunology"
+      "immunology",
+      "caloric-restriction",
+      "immune-system",
+      "circulation",
+      "amino-acids",
+      "cytokines",
+      "glucose"
     ],
     "pages": [
       {
@@ -3363,7 +3870,7 @@
     ],
     "annotations": [],
     "created": "2026-05-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3399,7 +3906,14 @@
       "cell-death",
       "metabolism",
       "metastasis",
-      "cancer"
+      "cancer",
+      "extracellular-matrix",
+      "e-cadherin",
+      "caspase-3",
+      "insulin",
+      "leptin",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -3409,7 +3923,7 @@
     ],
     "annotations": [],
     "created": "2026-05-16",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3436,7 +3950,11 @@
       "diagrams-charts",
       "vaccines",
       "autophagy",
-      "spermidine"
+      "spermidine",
+      "vaccination",
+      "metformin",
+      "rapamycin",
+      "immune-system"
     ],
     "pages": [
       {
@@ -3446,7 +3964,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3476,7 +3994,12 @@
       "adjuvants",
       "leukocytes",
       "metabolism",
-      "cancer"
+      "cancer",
+      "ascorbic-acid",
+      "adjuvant",
+      "kinase",
+      "t-cell",
+      "immune-system"
     ],
     "pages": [
       {
@@ -3486,7 +4009,7 @@
     ],
     "annotations": [],
     "created": "2026-06-17",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3517,7 +4040,15 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
-      "mutations"
+      "mutations",
+      "transposable-elements",
+      "transcriptional-drift",
+      "dna-methylation",
+      "methyl-groups",
+      "methylation",
+      "chromosome",
+      "chromatin",
+      "histone"
     ],
     "pages": [
       {
@@ -3527,7 +4058,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3563,7 +4094,16 @@
       "growth",
       "sasp",
       "epigenetics",
-      "spermidine"
+      "spermidine",
+      "caloric-restriction",
+      "heterochromatin",
+      "dna-methylation",
+      "methylation",
+      "metformin",
+      "rapamycin",
+      "insulin",
+      "stacs",
+      "endocrine"
     ],
     "pages": [
       {
@@ -3573,7 +4113,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3607,7 +4147,17 @@
       "diagrams-charts",
       "metabolism",
       "growth",
-      "epigenetics"
+      "epigenetics",
+      "glucose-metabolism",
+      "insulin-signaling",
+      "cytoplasm",
+      "glucose",
+      "insulin",
+      "stacs",
+      "sirt1",
+      "ampk",
+      "mtor",
+      "endocrine"
     ],
     "pages": [
       {
@@ -3617,7 +4167,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3645,7 +4195,11 @@
     "tags": [
       "epigenetics",
       "notes",
-      "stem-cells"
+      "stem-cells",
+      "cellular-reprogramming",
+      "epigenetic-drift",
+      "epigenome",
+      "ocular"
     ],
     "pages": [
       {
@@ -3655,7 +4209,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3688,7 +4242,14 @@
       "mutations",
       "ncrna",
       "sasp",
-      "senescence"
+      "senescence",
+      "epigenetic-information",
+      "transposable-elements",
+      "genomic-instability",
+      "gene-expression",
+      "non-coding-rna",
+      "chromatin",
+      "histone"
     ],
     "pages": [
       {
@@ -3698,7 +4259,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3735,7 +4296,19 @@
       "sasp",
       "mutations",
       "ncrna",
-      "cell-death"
+      "cell-death",
+      "mitochondrial-dysfunction",
+      "global-hypomethylation",
+      "age-related-diseases",
+      "senescence",
+      "genomic-instability",
+      "physical-activity",
+      "gene-expression",
+      "heterochromatin",
+      "dna-methylation",
+      "non-coding-rna",
+      "methylation",
+      "immune-system"
     ],
     "pages": [
       {
@@ -3745,7 +4318,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3775,7 +4348,14 @@
     "tags": [
       "epigenetics",
       "notes",
-      "cell-death"
+      "cell-death",
+      "histone-acetylation",
+      "dna-methylation",
+      "rejuvenation",
+      "methylation",
+      "chromosome",
+      "chromatin",
+      "histone"
     ],
     "pages": [
       {
@@ -3785,7 +4365,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3809,7 +4389,8 @@
       "epigenetics",
       "diagrams-charts",
       "sasp",
-      "senescence"
+      "senescence",
+      "gene-expression"
     ],
     "pages": [
       {
@@ -3819,7 +4400,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3849,7 +4430,12 @@
       "notes",
       "neurochemistry",
       "parasitology",
-      "oxidative-stress"
+      "oxidative-stress",
+      "benzimidazole",
+      "microtubules",
+      "microtubule",
+      "glucose",
+      "digestive"
     ],
     "pages": [
       {
@@ -3859,7 +4445,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3892,7 +4478,16 @@
       "cancer",
       "notes",
       "leukocytes",
-      "metabolism"
+      "metabolism",
+      "cell-membrane",
+      "macrophages",
+      "glycolysis",
+      "macrophage",
+      "pyruvate",
+      "lactate",
+      "glucose",
+      "atp",
+      "respiratory"
     ],
     "pages": [
       {
@@ -3902,7 +4497,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3940,7 +4535,15 @@
       "neurochemistry",
       "growth",
       "nad-metabolism",
-      "pathology"
+      "pathology",
+      "cell-proliferation",
+      "glucose-metabolism",
+      "colorectal-cancer",
+      "schizophrenia",
+      "glycolysis",
+      "caspase-3",
+      "glucose",
+      "digestive"
     ],
     "pages": [
       {
@@ -3950,7 +4553,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -3977,7 +4580,13 @@
     ],
     "tags": [
       "nutrition",
-      "polyphenols"
+      "polyphenols",
+      "kaempferol",
+      "flavonoids",
+      "quercetin",
+      "genistein",
+      "edamame",
+      "milk"
     ],
     "pages": [
       {
@@ -3987,7 +4596,7 @@
     ],
     "annotations": [],
     "created": "2026-06-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4021,7 +4630,15 @@
       "antioxidants",
       "catecholamines",
       "adrenochrome",
-      "oxidative-stress"
+      "oxidative-stress",
+      "aminoguanidine",
+      "dicarbonyls",
+      "glutathione",
+      "epinephrine",
+      "prodrug",
+      "ros",
+      "cardiovascular",
+      "endocrine"
     ],
     "pages": [
       {
@@ -4031,7 +4648,7 @@
     ],
     "annotations": [],
     "created": "2026-06-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4057,7 +4674,9 @@
     ],
     "tags": [
       "nutrition",
-      "glycation"
+      "glycation",
+      "milk",
+      "cml"
     ],
     "pages": [
       {
@@ -4067,7 +4686,7 @@
     ],
     "annotations": [],
     "created": "2026-06-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4099,7 +4718,15 @@
     "tags": [
       "nutrition",
       "diagrams-charts",
-      "glycation"
+      "glycation",
+      "advanced-glycation-end-products",
+      "glycated-proteins",
+      "glycemic-control",
+      "amadori-products",
+      "pyridoxamine",
+      "alagebrium",
+      "metformin",
+      "glucose"
     ],
     "pages": [
       {
@@ -4109,7 +4736,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4132,7 +4759,11 @@
     ],
     "tags": [
       "cancer",
-      "diagrams-charts"
+      "diagrams-charts",
+      "breast-cancer",
+      "her2",
+      "digestive",
+      "immune-system"
     ],
     "pages": [
       {
@@ -4142,7 +4773,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4176,7 +4807,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4211,7 +4842,18 @@
       "notes",
       "leukocytes",
       "cell-death",
-      "growth"
+      "growth",
+      "triple-negative-breast-cancer",
+      "breast-cancer",
+      "melanocytes",
+      "lymphocyte",
+      "brca1",
+      "her2",
+      "il-6",
+      "hematopoietic",
+      "respiratory",
+      "reproductive",
+      "integumentary"
     ],
     "pages": [
       {
@@ -4221,7 +4863,7 @@
     ],
     "annotations": [],
     "created": "2026-05-20",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4246,7 +4888,12 @@
     "tags": [
       "cancer",
       "notes",
-      "diagnosis"
+      "diagnosis",
+      "pancreatic-cancer",
+      "appetite",
+      "digestive",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -4256,7 +4903,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4295,7 +4942,15 @@
       "cell-death",
       "immunology",
       "growth",
-      "physiology"
+      "physiology",
+      "immune-system",
+      "gene-expression",
+      "vasculature",
+      "integrins",
+      "kinase",
+      "pi3k",
+      "cardiovascular",
+      "digestive"
     ],
     "pages": [
       {
@@ -4305,7 +4960,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4339,7 +4994,13 @@
       "metastasis",
       "cell-death",
       "growth",
-      "parasitology"
+      "parasitology",
+      "chemotherapy",
+      "nervous-system",
+      "digestive",
+      "respiratory",
+      "musculoskeletal",
+      "ocular"
     ],
     "pages": [
       {
@@ -4349,7 +5010,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4386,7 +5047,15 @@
       "inflammation",
       "immunology",
       "mutations",
-      "growth"
+      "growth",
+      "breast-cancer",
+      "immune-system",
+      "e-cadherin",
+      "kinase",
+      "pi3k",
+      "yap1",
+      "digestive",
+      "integumentary"
     ],
     "pages": [
       {
@@ -4396,7 +5065,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4431,7 +5100,18 @@
       "notes",
       "metabolism",
       "cell-death",
-      "growth"
+      "growth",
+      "hepatocellular-carcinoma",
+      "renal-cell-carcinoma",
+      "cholangiocarcinoma",
+      "prostate-cancer",
+      "atp-production",
+      "caspase-3",
+      "digestive",
+      "respiratory",
+      "urinary",
+      "reproductive",
+      "endocrine"
     ],
     "pages": [
       {
@@ -4441,7 +5121,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4474,7 +5154,13 @@
       "notes",
       "stem-cells",
       "cell-death",
-      "mitochondria"
+      "mitochondria",
+      "hematopoietic-stem-cells",
+      "ovarian-cancer",
+      "cisplatin",
+      "caspase",
+      "hematopoietic",
+      "reproductive"
     ],
     "pages": [
       {
@@ -4484,7 +5170,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4522,7 +5208,15 @@
       "growth",
       "sasp",
       "diagnosis",
-      "cancer"
+      "cancer",
+      "immune-system",
+      "microtubule",
+      "kinase",
+      "mtorc1",
+      "pkc",
+      "nervous-system",
+      "cardiovascular",
+      "digestive"
     ],
     "pages": [
       {
@@ -4532,7 +5226,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4567,7 +5261,16 @@
       "notes",
       "neurodegeneration",
       "metastasis",
-      "growth"
+      "growth",
+      "lung-cancer",
+      "mapk-erk",
+      "braf",
+      "il-6",
+      "mapk",
+      "emt",
+      "nervous-system",
+      "respiratory",
+      "integumentary"
     ],
     "pages": [
       {
@@ -4577,7 +5280,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4613,7 +5316,15 @@
       "notes",
       "mitochondria",
       "cell-death",
-      "lysosome"
+      "lysosome",
+      "mitochondrial-membrane-potential",
+      "chromatin-condensation",
+      "death-receptor",
+      "cytochrome-c",
+      "apoptosome",
+      "cytoplasm",
+      "caspase-3",
+      "chromatin"
     ],
     "pages": [
       {
@@ -4623,7 +5334,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4657,7 +5368,10 @@
       "lysosome",
       "mitochondria",
       "growth",
-      "cancer"
+      "cancer",
+      "chemotherapy",
+      "lkb1",
+      "integumentary"
     ],
     "pages": [
       {
@@ -4667,7 +5381,7 @@
     ],
     "annotations": [],
     "created": "2026-05-21",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4691,7 +5405,10 @@
     "tags": [
       "cancer",
       "notes",
-      "parasitology"
+      "parasitology",
+      "immune-system",
+      "integumentary",
+      "ocular"
     ],
     "pages": [
       {
@@ -4701,7 +5418,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4727,7 +5444,11 @@
     "tags": [
       "cancer",
       "notes",
-      "parasitology"
+      "parasitology",
+      "microfilariae",
+      "digestive",
+      "integumentary",
+      "ocular"
     ],
     "pages": [
       {
@@ -4737,7 +5458,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4772,7 +5493,12 @@
       "inflammation",
       "immunology",
       "parasitology",
-      "physiology"
+      "physiology",
+      "neurotransmitters",
+      "immune-system",
+      "nervous-system",
+      "integumentary",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -4782,7 +5508,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4807,7 +5533,9 @@
       "cancer",
       "notes",
       "microbiome",
-      "parasitology"
+      "parasitology",
+      "digestive",
+      "integumentary"
     ],
     "pages": [
       {
@@ -4817,7 +5545,7 @@
     ],
     "annotations": [],
     "created": "2026-05-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4854,7 +5582,13 @@
       "sasp",
       "cancer",
       "senescence",
-      "spermidine"
+      "spermidine",
+      "immune-aging",
+      "vaccination",
+      "metformin",
+      "rapamycin",
+      "mtorc1",
+      "immune-system"
     ],
     "pages": [
       {
@@ -4864,7 +5598,7 @@
     ],
     "annotations": [],
     "created": "2026-05-14",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4903,7 +5637,13 @@
       "cell-death",
       "growth",
       "stem-cells",
-      "cancer"
+      "cancer",
+      "multidrug-resistance",
+      "cell-cycle-arrest",
+      "beta-catenin",
+      "ivermectin",
+      "mtor",
+      "mapk"
     ],
     "pages": [
       {
@@ -4913,7 +5653,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4941,7 +5681,10 @@
       "diagrams-charts",
       "vector-borne",
       "filariasis",
-      "cancer"
+      "cancer",
+      "microfilariae",
+      "simulium",
+      "integumentary"
     ],
     "pages": [
       {
@@ -4951,7 +5694,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -4976,7 +5719,9 @@
       "parasitology",
       "diagrams-charts",
       "dec",
-      "cancer"
+      "cancer",
+      "microfilariae",
+      "ivermectin"
     ],
     "pages": [
       {
@@ -4986,7 +5731,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5024,7 +5769,20 @@
       "inflammation",
       "leukocytes",
       "hematology",
-      "immunology"
+      "immunology",
+      "nucleic-acids",
+      "immune-system",
+      "neutrophils",
+      "lymphocytes",
+      "hemoglobin",
+      "lymphocyte",
+      "cytoplasm",
+      "antigens",
+      "nucleus",
+      "digestive",
+      "hematopoietic",
+      "respiratory",
+      "urinary"
     ],
     "pages": [
       {
@@ -5034,7 +5792,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5064,7 +5822,15 @@
       "inflammation",
       "leukocytes",
       "immunology",
-      "parasitology"
+      "parasitology",
+      "neutrophils",
+      "neurotoxin",
+      "cytoplasm",
+      "antigen",
+      "cardiovascular",
+      "digestive",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -5074,7 +5840,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5113,7 +5879,20 @@
       "lysosome",
       "immunology",
       "neurochemistry",
-      "cognition"
+      "cognition",
+      "peripheral-tissues",
+      "dendritic-cells",
+      "macrophages",
+      "neutrophils",
+      "macrophage",
+      "cytokines",
+      "monocytes",
+      "basophils",
+      "platelets",
+      "antigens",
+      "cardiovascular",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -5123,7 +5902,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5162,7 +5941,17 @@
       "cell-death",
       "immunology",
       "neurochemistry",
-      "cognition"
+      "cognition",
+      "immune-system",
+      "macrophages",
+      "lymphocytes",
+      "macrophage",
+      "lymphocyte",
+      "fas-ligand",
+      "cytokines",
+      "b-cells",
+      "antigen",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -5172,7 +5961,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5197,7 +5986,9 @@
     "tags": [
       "blood-cells",
       "diagrams-charts",
-      "leukocytes"
+      "leukocytes",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -5207,7 +5998,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5236,7 +6027,10 @@
       "autophagy",
       "diagrams-charts",
       "autophagosome",
-      "lysosome"
+      "lysosome",
+      "lipophagy",
+      "hlh-30",
+      "mxl-3"
     ],
     "pages": [
       {
@@ -5246,7 +6040,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5281,7 +6075,13 @@
       "lysosome",
       "development",
       "autophagosome",
-      "cell-adhesion"
+      "cell-adhesion",
+      "phagocytic-lysosome-reformation",
+      "autolysosome",
+      "microtubule",
+      "endocytosis",
+      "phagophore",
+      "trpml1"
     ],
     "pages": [
       {
@@ -5291,7 +6091,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5327,7 +6127,15 @@
       "lysosome",
       "metabolism",
       "metabolic-fasting",
-      "growth"
+      "growth",
+      "signaling-molecules",
+      "cytosol",
+      "nucleus",
+      "mtorc1",
+      "stub1",
+      "gcn5",
+      "tfeb",
+      "mtor"
     ],
     "pages": [
       {
@@ -5337,7 +6145,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5370,7 +6178,11 @@
       "stem-cells",
       "development",
       "lysosome",
-      "mutations"
+      "mutations",
+      "hematopoietic-stem-cells",
+      "lifespan",
+      "nucleus",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -5380,7 +6192,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5414,7 +6226,11 @@
       "autophagosome",
       "cell-adhesion",
       "mitophagy",
-      "lysosome"
+      "lysosome",
+      "adaptor-protein",
+      "endocytosis",
+      "phagophore",
+      "lc3"
     ],
     "pages": [
       {
@@ -5424,7 +6240,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5459,7 +6275,16 @@
       "notes",
       "lysosome",
       "metabolism",
-      "growth"
+      "growth",
+      "protein-synthesis",
+      "lysosomal-surface",
+      "amino-acids",
+      "rapamycin",
+      "glucose",
+      "leucine",
+      "kinase",
+      "mtorc1",
+      "pras40"
     ],
     "pages": [
       {
@@ -5469,7 +6294,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5508,7 +6333,17 @@
       "metabolism",
       "mutations",
       "growth",
-      "cancer"
+      "cancer",
+      "stress-resistance",
+      "breast-cancer",
+      "antigen",
+      "egfr",
+      "mtor",
+      "nervous-system",
+      "digestive",
+      "immune-system",
+      "urinary",
+      "endocrine"
     ],
     "pages": [
       {
@@ -5518,7 +6353,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5546,7 +6381,9 @@
       "autophagy",
       "notes",
       "cell-adhesion",
-      "metabolism"
+      "metabolism",
+      "cytoskeletal-organization",
+      "mitosis"
     ],
     "pages": [
       {
@@ -5556,7 +6393,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5590,7 +6427,16 @@
     "tags": [
       "autophagy",
       "notes",
-      "growth"
+      "growth",
+      "protein-synthesis",
+      "cell-membrane",
+      "akt",
+      "beta-catenin",
+      "mtorc1",
+      "pdcd4",
+      "mtor",
+      "s6k1",
+      "fak"
     ],
     "pages": [
       {
@@ -5600,7 +6446,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5634,7 +6480,13 @@
       "cell-death",
       "mitochondria",
       "metabolism",
-      "growth"
+      "growth",
+      "cholesterol",
+      "rapamycin",
+      "mtorc1",
+      "mtorc2",
+      "mtor",
+      "atp"
     ],
     "pages": [
       {
@@ -5644,7 +6496,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5682,7 +6534,17 @@
       "mitochondria",
       "metabolism",
       "mutations",
-      "growth"
+      "growth",
+      "protein-synthesis",
+      "rapamycin",
+      "pyruvate",
+      "kinase",
+      "mtorc1",
+      "atg12",
+      "lkb1",
+      "tsc2",
+      "rsk",
+      "endocrine"
     ],
     "pages": [
       {
@@ -5692,7 +6554,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5727,7 +6589,16 @@
       "notes",
       "mutations",
       "metabolism",
-      "growth"
+      "growth",
+      "dna-damage-response",
+      "mtor-signaling",
+      "tumorigenesis",
+      "dna-damage",
+      "hypoxia",
+      "insulin",
+      "kinase",
+      "mtorc1",
+      "endocrine"
     ],
     "pages": [
       {
@@ -5737,7 +6608,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5765,7 +6636,12 @@
     "tags": [
       "autophagy",
       "notes",
-      "growth"
+      "growth",
+      "amino-acids",
+      "acetyl-coa",
+      "cytoplasm",
+      "glutamate",
+      "raptor"
     ],
     "pages": [
       {
@@ -5775,7 +6651,7 @@
     ],
     "annotations": [],
     "created": "2026-05-29",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5813,7 +6689,17 @@
       "inflammation",
       "mitophagy",
       "nf-kappab",
-      "growth"
+      "growth",
+      "cytoskeletal-organization",
+      "mitochondrial-biogenesis",
+      "mitochondrial-function",
+      "ribosome-biogenesis",
+      "protein-synthesis",
+      "mtorc1",
+      "mtorc2",
+      "lipid-synthesis",
+      "mtor-signaling",
+      "amino-acids"
     ],
     "pages": [
       {
@@ -5823,7 +6709,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5862,7 +6748,15 @@
       "hematology",
       "redox",
       "neurochemistry",
-      "physiology"
+      "physiology",
+      "norepinephrine",
+      "epinephrine",
+      "glutathione",
+      "methionine",
+      "hemoglobin",
+      "superoxide",
+      "catalase",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -5872,7 +6766,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5909,7 +6803,16 @@
       "redox",
       "mitochondria",
       "metal-chelation",
-      "sod"
+      "sod",
+      "hydrogen-peroxide",
+      "superoxide",
+      "manganese",
+      "cytosol",
+      "nucleus",
+      "iron",
+      "immune-system",
+      "hematopoietic",
+      "endocrine"
     ],
     "pages": [
       {
@@ -5919,7 +6822,7 @@
     ],
     "annotations": [],
     "created": "2026-05-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5949,7 +6852,12 @@
       "oxidative-stress",
       "notes",
       "hematology",
-      "metal-chelation"
+      "metal-chelation",
+      "hemoglobin",
+      "cyanosis",
+      "iron",
+      "hematopoietic",
+      "integumentary"
     ],
     "pages": [
       {
@@ -5959,7 +6867,7 @@
     ],
     "annotations": [],
     "created": "2026-05-20",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -5996,7 +6904,19 @@
       "drug-delivery",
       "mitochondria",
       "cell-death",
-      "oxidative-stress"
+      "oxidative-stress",
+      "anti-cancer-activity",
+      "nanoparticles",
+      "lung-cancer",
+      "melittin",
+      "her2",
+      "nervous-system",
+      "cardiovascular",
+      "digestive",
+      "immune-system",
+      "hematopoietic",
+      "respiratory",
+      "reproductive"
     ],
     "pages": [
       {
@@ -6006,7 +6926,7 @@
     ],
     "annotations": [],
     "created": "2026-05-20",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6046,7 +6966,13 @@
       "inflammation",
       "autophagosome",
       "mitophagy",
-      "neurochemistry"
+      "neurochemistry",
+      "mitochondrial-quality-control",
+      "ros",
+      "neuroinflammation",
+      "neuron",
+      "adp",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -6056,7 +6982,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6093,7 +7019,14 @@
       "mitochondria",
       "mitophagy",
       "nad-metabolism",
-      "mitohormesis"
+      "mitohormesis",
+      "methylene-blue",
+      "atp-production",
+      "redox-cycling",
+      "urolithin-a",
+      "superoxide",
+      "complex-i",
+      "sirt1"
     ],
     "pages": [
       {
@@ -6103,7 +7036,7 @@
     ],
     "annotations": [],
     "created": "2026-06-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6141,7 +7074,18 @@
       "polyphenols",
       "metabolism",
       "metabolic-fasting",
-      "clinical-trial"
+      "clinical-trial",
+      "mitochondrial-function",
+      "stress-resistance",
+      "stress-responses",
+      "resveratrol",
+      "vitamin-e",
+      "exercise",
+      "lifespan",
+      "hypoxia",
+      "nervous-system",
+      "immune-system",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -6151,7 +7095,7 @@
     ],
     "annotations": [],
     "created": "2026-06-16",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6189,7 +7133,13 @@
       "redox",
       "mitohormesis",
       "cell-death",
-      "clinical-trial"
+      "clinical-trial",
+      "glutathione-peroxidase",
+      "mitochondrial-stress",
+      "glutathione",
+      "superoxide",
+      "vitamin-e",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -6199,7 +7149,7 @@
     ],
     "annotations": [],
     "created": "2026-06-16",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6241,7 +7191,17 @@
       "growth",
       "nad-metabolism",
       "neurochemistry",
-      "sirtuins"
+      "sirtuins",
+      "mitochondrial-respiration",
+      "mitochondrial-dysfunction",
+      "mitochondrial-dynamics",
+      "antioxidant-response",
+      "selective-autophagy",
+      "methylene-blue",
+      "atp-production",
+      "redox-cycling",
+      "adrenochrome",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -6251,7 +7211,7 @@
     ],
     "annotations": [],
     "created": "2026-06-18",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6283,7 +7243,15 @@
       "cardiovascular",
       "metabolism",
       "metabolic-fasting",
-      "angiogenesis"
+      "angiogenesis",
+      "parasympathetic-nervous-system",
+      "sympathetic-nervous-system",
+      "autonomic-nervous-system",
+      "heart-rate-variability",
+      "cardiovascular-system",
+      "vagus-nerve",
+      "fasting",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -6293,7 +7261,7 @@
     ],
     "annotations": [],
     "created": "2026-06-22",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6323,7 +7291,12 @@
       "diagrams-charts",
       "mitochondria",
       "metal-chelation",
-      "mitohormesis"
+      "mitohormesis",
+      "mitochondrial-stress",
+      "cytosol",
+      "nucleus",
+      "atf4",
+      "iron"
     ],
     "pages": [
       {
@@ -6333,7 +7306,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6362,7 +7335,11 @@
       "sirtuins",
       "diagrams-charts",
       "mitochondria",
-      "cell-death"
+      "cell-death",
+      "mitochondrial-quality-control",
+      "proteasome",
+      "cytosol",
+      "nucleus"
     ],
     "pages": [
       {
@@ -6372,7 +7349,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6407,7 +7384,18 @@
       "diagrams-charts",
       "metabolism",
       "pathology",
-      "mitochondria"
+      "mitochondria",
+      "insulin-sensitivity",
+      "hepatic-steatosis",
+      "chromatin",
+      "nucleus",
+      "insulin",
+      "mots-c",
+      "mtdna",
+      "gdf15",
+      "fgf21",
+      "digestive",
+      "endocrine"
     ],
     "pages": [
       {
@@ -6417,7 +7405,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6458,7 +7446,21 @@
       "pathology",
       "nf-kappab",
       "inflammation",
-      "mitohormesis"
+      "mitohormesis",
+      "mitochondrial-protein-import",
+      "mitochondrial-dysfunction",
+      "tumor-microenvironment",
+      "huntingtons-disease",
+      "extracellular-matrix",
+      "alzheimers-disease",
+      "parkinsons-disease",
+      "insulin-resistance",
+      "hepatic-steatosis",
+      "mitochondrial-ros",
+      "nlrp3-inflammasome",
+      "nervous-system",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -6468,7 +7470,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6497,7 +7499,12 @@
       "sirtuins",
       "diagrams-charts",
       "mitochondria",
-      "metabolism"
+      "metabolism",
+      "mitochondrial-biogenesis",
+      "age-related-diseases",
+      "lifespan-extension",
+      "lifespan",
+      "endocrine"
     ],
     "pages": [
       {
@@ -6507,7 +7514,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6538,7 +7545,15 @@
       "inflammation",
       "microbiome",
       "nad-metabolism",
-      "metabolism"
+      "metabolism",
+      "anti-inflammatory",
+      "neuroprotection",
+      "parps",
+      "nmn",
+      "nervous-system",
+      "cardiovascular",
+      "digestive",
+      "immune-system"
     ],
     "pages": [
       {
@@ -6548,7 +7563,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6578,7 +7593,12 @@
       "diagrams-charts",
       "nad-metabolism",
       "redox",
-      "metabolism"
+      "metabolism",
+      "nmn",
+      "nr",
+      "parps",
+      "nmnat",
+      "cd157"
     ],
     "pages": [
       {
@@ -6588,7 +7608,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6624,7 +7644,18 @@
       "nad-metabolism",
       "metabolism",
       "mitochondria",
-      "redox"
+      "redox",
+      "nicotinamide-riboside",
+      "histone-deacetylase",
+      "quinolinic-acid",
+      "nicotinic-acid",
+      "nicotinamide",
+      "glycolysis",
+      "tryptophan",
+      "cytoplasm",
+      "histone",
+      "obesity",
+      "nucleus"
     ],
     "pages": [
       {
@@ -6634,7 +7665,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6671,7 +7702,22 @@
       "nad-metabolism",
       "neurochemistry",
       "angiogenesis",
-      "cardiovascular"
+      "cardiovascular",
+      "fatty-acid-oxidation",
+      "insulin-sensitivity",
+      "insulin-secretion",
+      "anti-inflammatory",
+      "nicotinamide",
+      "lipogenesis",
+      "exercise",
+      "insulin",
+      "nervous-system",
+      "digestive",
+      "immune-system",
+      "urinary",
+      "reproductive",
+      "endocrine",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -6681,7 +7727,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6713,7 +7759,13 @@
       "oxidative-stress",
       "diagrams-charts",
       "nad-metabolism",
-      "sirtuins"
+      "sirtuins",
+      "nampt",
+      "nadph",
+      "sirt1",
+      "naad",
+      "nadh",
+      "nmn"
     ],
     "pages": [
       {
@@ -6723,7 +7775,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6756,7 +7808,14 @@
       "diagrams-charts",
       "cardiovascular",
       "nad-metabolism",
-      "growth"
+      "growth",
+      "heart-failure",
+      "glucose",
+      "nampt",
+      "nmrk2",
+      "ampk",
+      "nmn",
+      "atp"
     ],
     "pages": [
       {
@@ -6766,7 +7825,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6788,7 +7847,8 @@
     ],
     "tags": [
       "cancer",
-      "diagrams-charts"
+      "diagrams-charts",
+      "digestive"
     ],
     "pages": [
       {
@@ -6798,7 +7858,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6829,7 +7889,15 @@
       "senescence",
       "diagrams-charts",
       "lysosome",
-      "spermidine"
+      "spermidine",
+      "methylation",
+      "cytoplasm",
+      "nucleus",
+      "smad3",
+      "eif5a",
+      "xbp1",
+      "tfeb",
+      "myc"
     ],
     "pages": [
       {
@@ -6839,7 +7907,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6869,7 +7937,16 @@
       "diagrams-charts",
       "stem-cells",
       "leukocytes",
-      "neurochemistry"
+      "neurochemistry",
+      "hematopoietic-stem-cells",
+      "skeletal-muscle",
+      "lymphocytes",
+      "nervous-system",
+      "digestive",
+      "immune-system",
+      "hematopoietic",
+      "reproductive",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -6879,7 +7956,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6906,7 +7983,10 @@
       "diagrams-charts",
       "sasp",
       "mutations",
-      "growth"
+      "growth",
+      "extracellular-matrix",
+      "quiescence",
+      "dna-damage"
     ],
     "pages": [
       {
@@ -6916,7 +7996,7 @@
     ],
     "annotations": [],
     "created": "2020-10-12",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6951,7 +8031,9 @@
       "metabolism",
       "growth",
       "development",
-      "senescence"
+      "senescence",
+      "ros",
+      "nucleus"
     ],
     "pages": [
       {
@@ -6961,7 +8043,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -6997,7 +8079,18 @@
       "metabolism",
       "metabolic-fasting",
       "polyphenols",
-      "physiology"
+      "physiology",
+      "caloric-restriction",
+      "insulin-resistance",
+      "recombinant-sirt1",
+      "synthetic-stac",
+      "resveratrol",
+      "srt1720",
+      "insulin",
+      "butein",
+      "stacs",
+      "sirt1",
+      "endocrine"
     ],
     "pages": [
       {
@@ -7007,7 +8100,7 @@
     ],
     "annotations": [],
     "created": "2026-07-02",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7049,7 +8142,18 @@
       "hematology",
       "growth",
       "nad-metabolism",
-      "cardiovascular"
+      "cardiovascular",
+      "cell-proliferation",
+      "anti-inflammatory",
+      "bioavailability",
+      "gene-expression",
+      "angiotensin-ii",
+      "vasodilation",
+      "nitric-oxide",
+      "superoxide",
+      "digestive",
+      "immune-system",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -7059,7 +8163,7 @@
     ],
     "annotations": [],
     "created": "2026-07-05",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7097,7 +8201,18 @@
       "metabolism",
       "metastasis",
       "growth",
-      "cardiovascular"
+      "cardiovascular",
+      "low-density-lipoprotein",
+      "glucose-homeostasis",
+      "angiotensin-ii",
+      "homocysteine",
+      "nitric-oxide",
+      "cholesterol",
+      "macrophage",
+      "monocyte",
+      "immune-system",
+      "hematopoietic",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -7107,7 +8222,7 @@
     ],
     "annotations": [],
     "created": "2013-01-11",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7133,7 +8248,12 @@
     "tags": [
       "cancer",
       "notes",
-      "diagnosis"
+      "diagnosis",
+      "pancreatic-cancer",
+      "appetite",
+      "digestive",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -7143,7 +8263,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7185,7 +8305,14 @@
       "inflammation",
       "immunology",
       "neurochemistry",
-      "cognition"
+      "cognition",
+      "mitochondrial-function",
+      "senescence",
+      "genomic-instability",
+      "immune-system",
+      "proteostasis",
+      "nervous-system",
+      "digestive"
     ],
     "pages": [
       {
@@ -7195,7 +8322,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7228,7 +8355,13 @@
       "cell-adhesion",
       "drug-delivery",
       "angiogenesis",
-      "immunology"
+      "immunology",
+      "immune-system",
+      "wound-healing",
+      "nanoparticles",
+      "integrins",
+      "cardiovascular",
+      "integumentary"
     ],
     "pages": [
       {
@@ -7238,7 +8371,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7272,7 +8405,16 @@
       "angiogenesis",
       "metastasis",
       "cell-adhesion",
-      "drug-delivery"
+      "drug-delivery",
+      "platelet-aggregation",
+      "vasculature",
+      "integrins",
+      "platelets",
+      "nervous-system",
+      "immune-system",
+      "hematopoietic",
+      "reproductive",
+      "integumentary"
     ],
     "pages": [
       {
@@ -7282,7 +8424,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7318,7 +8460,16 @@
       "cell-adhesion",
       "angiogenesis",
       "immunology",
-      "growth"
+      "growth",
+      "immune-system",
+      "nitric-oxide",
+      "rgd-peptide",
+      "integrins",
+      "kinase",
+      "pi3k",
+      "mapk",
+      "cardiovascular",
+      "integumentary"
     ],
     "pages": [
       {
@@ -7328,7 +8479,7 @@
     ],
     "annotations": [],
     "created": "2026-05-26",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7360,7 +8511,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7385,7 +8536,9 @@
       "cancer",
       "diagrams-charts",
       "cell-adhesion",
-      "drug-delivery"
+      "drug-delivery",
+      "endocytosis",
+      "integrins"
     ],
     "pages": [
       {
@@ -7395,7 +8548,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7426,7 +8579,13 @@
       "senescence",
       "diagrams-charts",
       "senolytics",
-      "sasp"
+      "sasp",
+      "rejuvenation",
+      "doxorubicin",
+      "navitoclax",
+      "healthspan",
+      "rapamycin",
+      "lifespan"
     ],
     "pages": [
       {
@@ -7436,7 +8595,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7465,7 +8624,10 @@
       "sasp",
       "cell-adhesion",
       "drug-delivery",
-      "senescence"
+      "senescence",
+      "senescent-cells",
+      "chemotherapy",
+      "immune-system"
     ],
     "pages": [
       {
@@ -7475,7 +8637,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7515,7 +8677,17 @@
       "growth",
       "sasp",
       "development",
-      "senescence"
+      "senescence",
+      "tumor-microenvironment",
+      "antigen-presentation",
+      "neutrophil",
+      "macrophage",
+      "stemness",
+      "antigen",
+      "t-cell",
+      "il-8",
+      "il-6",
+      "immune-system"
     ],
     "pages": [
       {
@@ -7525,7 +8697,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7559,7 +8731,17 @@
       "senescence",
       "diagrams-charts",
       "mutations",
-      "sasp"
+      "sasp",
+      "epigenetic-regulation",
+      "methylation",
+      "dna-damage",
+      "chromatin",
+      "h3k27me3",
+      "histone",
+      "h3k9me3",
+      "h3k27ac",
+      "h3k9ac",
+      "hmgb2"
     ],
     "pages": [
       {
@@ -7569,7 +8751,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7605,7 +8787,14 @@
       "mitochondria",
       "redox",
       "nf-kappab",
-      "sasp"
+      "sasp",
+      "electron-transport-chain",
+      "ros",
+      "p16",
+      "p21",
+      "mtdna",
+      "atm",
+      "jnk"
     ],
     "pages": [
       {
@@ -7615,7 +8804,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7656,7 +8845,12 @@
       "nad-metabolism",
       "metabolism",
       "neurodegeneration",
-      "pathology"
+      "pathology",
+      "mitochondrial-dysfunction",
+      "electron-transport-chain",
+      "ros",
+      "adenosine-triphosphate",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -7666,7 +8860,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7702,7 +8896,17 @@
       "sasp",
       "leukocytes",
       "mutations",
-      "growth"
+      "growth",
+      "cell-cycle-arrest",
+      "senescent-cells",
+      "dna-damage",
+      "p16ink4a",
+      "lamin-b1",
+      "sahf",
+      "cdk2",
+      "p53",
+      "p16",
+      "immune-system"
     ],
     "pages": [
       {
@@ -7712,7 +8916,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7746,7 +8950,18 @@
       "senescence",
       "diagrams-charts",
       "development",
-      "sasp"
+      "sasp",
+      "embryonic-development",
+      "paracrine-senescence",
+      "wound-healing",
+      "tgf-beta",
+      "il-1beta",
+      "vegf",
+      "ccl2",
+      "mmp",
+      "wnt",
+      "immune-system",
+      "integumentary"
     ],
     "pages": [
       {
@@ -7756,7 +8971,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7793,7 +9008,12 @@
       "redox",
       "mutations",
       "mitochondria",
-      "nf-kappab"
+      "nf-kappab",
+      "ros",
+      "dna-damage-response",
+      "dna-damage",
+      "line-1",
+      "immune-system"
     ],
     "pages": [
       {
@@ -7803,7 +9023,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7843,7 +9063,12 @@
       "redox",
       "mutations",
       "sasp",
-      "senescence"
+      "senescence",
+      "mitochondrial-dysfunction",
+      "antioxidant-response",
+      "parkinsons-disease",
+      "aminochrome",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -7853,7 +9078,7 @@
     ],
     "annotations": [],
     "created": "2026-06-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7893,7 +9118,15 @@
       "nf-kappab",
       "growth",
       "cardiovascular",
-      "senescence"
+      "senescence",
+      "senescent-cells",
+      "wound-healing",
+      "neurogenesis",
+      "dna-damage",
+      "cytokines",
+      "tnf-alpha",
+      "immune-system",
+      "integumentary"
     ],
     "pages": [
       {
@@ -7903,7 +9136,7 @@
     ],
     "annotations": [],
     "created": "2026-06-15",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7944,7 +9177,15 @@
       "cell-death",
       "redox",
       "angiogenesis",
-      "growth"
+      "growth",
+      "mitochondrial-dysfunction",
+      "cardiovascular-disease",
+      "mitochondrial-ros",
+      "oxidative-stress",
+      "muscle-mass",
+      "vitamin-c",
+      "immune-system",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -7954,7 +9195,7 @@
     ],
     "annotations": [],
     "created": "2026-06-16",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -7995,7 +9236,16 @@
       "pathology",
       "cell-death",
       "angiogenesis",
-      "physiology"
+      "physiology",
+      "cardiovascular-disease",
+      "embryonic-development",
+      "osteoarthritis",
+      "wound-healing",
+      "macrophage",
+      "fibrosis",
+      "immune-system",
+      "integumentary",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -8005,7 +9255,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8031,7 +9281,11 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "mutations"
+      "mutations",
+      "dna-damage",
+      "chromatin",
+      "p16",
+      "p21"
     ],
     "pages": [
       {
@@ -8041,7 +9295,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8074,7 +9328,11 @@
       "inflammation",
       "mutations",
       "pathology",
-      "senescence"
+      "senescence",
+      "chronic-sasp",
+      "dna-damage",
+      "p53",
+      "immune-system"
     ],
     "pages": [
       {
@@ -8084,7 +9342,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8114,7 +9372,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8147,7 +9405,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8184,7 +9442,17 @@
       "nf-kappab",
       "inflammation",
       "nad-metabolism",
-      "growth"
+      "growth",
+      "protein-synthesis",
+      "gene-expression",
+      "nf-kappab-p65",
+      "cytokines",
+      "tnf-alpha",
+      "il-1beta",
+      "sirt3",
+      "parp1",
+      "sirt1",
+      "immune-system"
     ],
     "pages": [
       {
@@ -8194,7 +9462,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8234,7 +9502,18 @@
       "nad-metabolism",
       "inflammation",
       "antioxidants",
-      "nf-kappab"
+      "nf-kappab",
+      "mitochondrial-biogenesis",
+      "ammonia-detoxification",
+      "mitochondrial-function",
+      "metabolic-homeostasis",
+      "fatty-acid-oxidation",
+      "insulin-secretion",
+      "adp-ribosylation",
+      "deacetylation",
+      "microtubule",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -8244,7 +9523,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8287,7 +9566,19 @@
       "metabolism",
       "sasp",
       "cell-death",
-      "nf-kappab"
+      "nf-kappab",
+      "mitochondrial-biogenesis",
+      "cardiovascular-disease",
+      "telomere-maintenance",
+      "fatty-acid-oxidation",
+      "senescence",
+      "insulin-sensitivity",
+      "stress-resilience",
+      "oxidative-stress",
+      "type-2-diabetes",
+      "nervous-system",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -8297,7 +9588,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8340,7 +9631,18 @@
       "polyphenols",
       "mutations",
       "sasp",
-      "cell-death"
+      "cell-death",
+      "mitochondrial-biogenesis",
+      "ros",
+      "cardiovascular-disease",
+      "lipid-metabolism",
+      "nad-precursors",
+      "resveratrol",
+      "dna-repair",
+      "senescence",
+      "superoxide",
+      "nervous-system",
+      "immune-system"
     ],
     "pages": [
       {
@@ -8350,7 +9652,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8393,7 +9695,19 @@
       "nad-metabolism",
       "inflammation",
       "cell-death",
-      "angiogenesis"
+      "angiogenesis",
+      "mitochondrial-biogenesis",
+      "cardiovascular-disease",
+      "telomere-maintenance",
+      "senescence",
+      "insulin-sensitivity",
+      "stress-resistance",
+      "type-2-diabetes",
+      "nad-precursors",
+      "dna-repair",
+      "nervous-system",
+      "immune-system",
+      "endocrine"
     ],
     "pages": [
       {
@@ -8403,7 +9717,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8445,7 +9759,19 @@
       "catecholamines",
       "inflammation",
       "innate-immunity",
-      "sirtuins"
+      "sirtuins",
+      "ros",
+      "hydrogen-peroxide",
+      "respiratory-burst",
+      "hypochlorous-acid",
+      "myeloperoxidase",
+      "nad-depletion",
+      "nadph-oxidase",
+      "adrenochrome",
+      "immune-system",
+      "hematopoietic",
+      "respiratory",
+      "endocrine"
     ],
     "pages": [
       {
@@ -8455,7 +9781,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8494,7 +9820,17 @@
       "mitochondria",
       "hematology",
       "leukocytes",
-      "sirtuins"
+      "sirtuins",
+      "fenton-reaction",
+      "erythrocytes",
+      "autoxidation",
+      "hemoglobin",
+      "superoxide",
+      "neutrophil",
+      "nucleus",
+      "immune-system",
+      "hematopoietic",
+      "endocrine"
     ],
     "pages": [
       {
@@ -8504,7 +9840,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8545,7 +9881,19 @@
       "inflammation",
       "mutations",
       "growth",
-      "neurochemistry"
+      "neurochemistry",
+      "caloric-restriction",
+      "cell-proliferation",
+      "glucose-metabolism",
+      "mitochondrial-dna",
+      "pancreatic-cancer",
+      "gene-expression",
+      "nicotinamide",
+      "dna-repair",
+      "nervous-system",
+      "digestive",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -8555,7 +9903,7 @@
     ],
     "annotations": [],
     "created": "2026-06-30",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8595,7 +9943,18 @@
       "inflammation",
       "antioxidants",
       "angiogenesis",
-      "growth"
+      "growth",
+      "cardiovascular-disease",
+      "glucose-homeostasis",
+      "biological-process",
+      "nf-kappab-p65",
+      "beta-catenin",
+      "hif-1alpha",
+      "pgc1-alpha",
+      "adiposity",
+      "ppargamma",
+      "nervous-system",
+      "immune-system"
     ],
     "pages": [
       {
@@ -8605,7 +9964,7 @@
     ],
     "annotations": [],
     "created": "2014-05-31",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8639,7 +9998,17 @@
       "mutations",
       "growth",
       "sasp",
-      "sirtuins"
+      "sirtuins",
+      "chromatin-condensation",
+      "base-excision-repair",
+      "igf-akt-signaling",
+      "warburg-effect",
+      "rejuvenation",
+      "dna-repair",
+      "chromatin",
+      "telomere",
+      "ubcs039",
+      "cardiovascular"
     ],
     "pages": [
       {
@@ -8649,7 +10018,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8690,7 +10059,15 @@
       "metabolism",
       "metastasis",
       "growth",
-      "sirtuins"
+      "sirtuins",
+      "pancreatic-cancer",
+      "prostate-cancer",
+      "gastric-cancer",
+      "ovarian-cancer",
+      "breast-cancer",
+      "colon-cancer",
+      "necroptosis",
+      "lung-cancer"
     ],
     "pages": [
       {
@@ -8700,7 +10077,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8735,7 +10112,17 @@
     "tags": [
       "sirtuins",
       "nf-kappab",
-      "inflammation"
+      "inflammation",
+      "nlrp3-inflammasome",
+      "anti-inflammatory",
+      "tnf-alpha",
+      "il-1beta",
+      "tgfbeta",
+      "sirt3",
+      "nlrp3",
+      "sirt1",
+      "tgf-beta",
+      "immune-system"
     ],
     "pages": [
       {
@@ -8745,7 +10132,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8769,7 +10156,8 @@
     "tags": [
       "spermidine",
       "diagrams-charts",
-      "microbiome"
+      "microbiome",
+      "digestive"
     ],
     "pages": [
       {
@@ -8779,7 +10167,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8809,7 +10197,14 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "lysosome"
+      "lysosome",
+      "methylation",
+      "cytoplasm",
+      "nucleus",
+      "pdcd4",
+      "smad3",
+      "tfeb",
+      "myc"
     ],
     "pages": [
       {
@@ -8819,7 +10214,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8849,7 +10244,13 @@
       "autophagy",
       "diagrams-charts",
       "lysosome",
-      "growth"
+      "growth",
+      "calcineurin",
+      "cytoplasm",
+      "nucleus",
+      "mtorc1",
+      "map4k3",
+      "tfeb"
     ],
     "pages": [
       {
@@ -8859,7 +10260,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8892,7 +10293,13 @@
       "generated-image",
       "diagrams-charts",
       "lysosome",
-      "growth"
+      "growth",
+      "gene-expression",
+      "calcineurin",
+      "nucleus",
+      "mtorc1",
+      "map4k3",
+      "tfeb"
     ],
     "pages": [
       {
@@ -8902,7 +10309,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8932,7 +10339,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -8966,7 +10373,13 @@
       "mitophagy",
       "metabolism",
       "metabolic-fasting",
-      "growth"
+      "growth",
+      "pathogen-infection",
+      "calcineurin",
+      "ragulator",
+      "er-stress",
+      "mtorc1",
+      "parkin"
     ],
     "pages": [
       {
@@ -8976,7 +10389,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9017,7 +10430,18 @@
       "inflammation",
       "immunology",
       "neurochemistry",
-      "cardiovascular"
+      "cardiovascular",
+      "mitochondrial-biogenesis",
+      "intracellular-signaling",
+      "lysosomal-exocytosis",
+      "antigen-presentation",
+      "lysosomal-biogenesis",
+      "lipid-catabolism",
+      "immune-system",
+      "macrophages",
+      "antigen",
+      "nervous-system",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -9027,7 +10451,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9069,7 +10493,18 @@
       "metabolism",
       "microbiome",
       "cell-death",
-      "growth"
+      "growth",
+      "anti-inflammatory",
+      "mitochondrial-function",
+      "glutathione-peroxidase",
+      "glucose-metabolism",
+      "bifidobacterium",
+      "gene-expression",
+      "proteobacteria",
+      "digestive",
+      "immune-system",
+      "urinary",
+      "musculoskeletal"
     ],
     "pages": [
       {
@@ -9079,7 +10514,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9109,7 +10544,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9141,7 +10576,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9166,7 +10601,12 @@
     "tags": [
       "epigenetics",
       "notes",
-      "leukocytes"
+      "leukocytes",
+      "lymphocytes",
+      "collagen",
+      "b-cells",
+      "immune-system",
+      "hematopoietic"
     ],
     "pages": [
       {
@@ -9176,7 +10616,7 @@
     ],
     "annotations": [],
     "created": "2026-05-13",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9203,7 +10643,11 @@
       "vision",
       "anatomy",
       "diagrams-charts",
-      "epigenetics"
+      "epigenetics",
+      "choroid",
+      "macula",
+      "retina",
+      "ocular"
     ],
     "pages": [
       {
@@ -9213,7 +10657,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9245,7 +10689,12 @@
       "development",
       "nad-metabolism",
       "stem-cells",
-      "epigenetics"
+      "epigenetics",
+      "nicotinamide",
+      "activin-a",
+      "ipsc",
+      "wnt",
+      "ocular"
     ],
     "pages": [
       {
@@ -9255,7 +10704,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9285,7 +10734,13 @@
       "vision",
       "anatomy",
       "diagrams-charts",
-      "epigenetics"
+      "epigenetics",
+      "inner-nuclear-layer",
+      "outer-nuclear-layer",
+      "photoreceptors",
+      "choroid",
+      "retina",
+      "ocular"
     ],
     "pages": [
       {
@@ -9295,7 +10750,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9326,7 +10781,14 @@
       "vision",
       "anatomy",
       "diagrams-charts",
-      "epigenetics"
+      "epigenetics",
+      "retinal-pigment-epithelium",
+      "inner-nuclear-layer",
+      "outer-nuclear-layer",
+      "photoreceptors",
+      "choroid",
+      "retina",
+      "ocular"
     ],
     "pages": [
       {
@@ -9336,7 +10798,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9364,7 +10826,11 @@
       "vision",
       "anatomy",
       "diagrams-charts",
-      "epigenetics"
+      "epigenetics",
+      "retinal-pigment-epithelium",
+      "photoreceptors",
+      "retina",
+      "ocular"
     ],
     "pages": [
       {
@@ -9374,7 +10840,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9408,7 +10874,17 @@
       "diagrams-charts",
       "neurodegeneration",
       "pathology",
-      "epigenetics"
+      "epigenetics",
+      "cellular-reprogramming",
+      "partial-reprogramming",
+      "disease-modeling",
+      "yamanaka-factors",
+      "somatic-cells",
+      "rejuvenation",
+      "chemotherapy",
+      "c-myc",
+      "oct4",
+      "nervous-system"
     ],
     "pages": [
       {
@@ -9418,7 +10894,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
@@ -9454,7 +10930,16 @@
       "mutations",
       "stem-cells",
       "development",
-      "senescence"
+      "senescence",
+      "telomere-attrition",
+      "oxidative-stress",
+      "dna-repair",
+      "chromatin",
+      "telomere",
+      "c-myc",
+      "oct4",
+      "sox2",
+      "immune-system"
     ],
     "pages": [
       {
@@ -9464,7 +10949,7 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-19",
+    "updated": "2026-08-21",
     "author": "you",
     "draft": false,
     "translations": {
