@@ -194,6 +194,7 @@ window.T2 = (function () {
     }
     document.body.addEventListener("click", function (e) {
       if (lb.classList.contains("open")) return;
+      if (e.target.closest(".copy-btn")) return; // copy button must not open the full view
       var svg = e.target.closest(".fig-canvas svg");
       if (svg) openDiagram(svg);
     });

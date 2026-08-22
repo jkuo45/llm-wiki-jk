@@ -100,7 +100,8 @@ async function withFeedback(btn, action, download){
 function bindSvgCopyBtn(btn){
   if (btn._bound) return;
   btn._bound = true;
-  btn.addEventListener('click', ()=>{
+  btn.addEventListener('click', (e)=>{
+    e.stopPropagation(); // keep diagram lightbox / fullscreen handlers from firing
     const svgId = btn.getAttribute('data-copy');
     withFeedback(btn,
       async ()=>{
@@ -121,7 +122,8 @@ function bindSvgCopyBtn(btn){
 function bindTableCopyBtn(btn){
   if (btn._bound) return;
   btn._bound = true;
-  btn.addEventListener('click', ()=>{
+  btn.addEventListener('click', (e)=>{
+    e.stopPropagation();
     const tableId = btn.getAttribute('data-copy-table');
     const table = document.getElementById(tableId);
     withFeedback(btn,
@@ -139,35 +141,8 @@ function bindTableCopyBtn(btn){
       });
   });
 }
-function bindPreCopyBtn(btn){
-  if (btn._bound) return;
-  btn._bound = true;
-  btn.addEventListener('click', ()=>{
-    const preId = btn.getAttribute('data-copy-pre');
-    const pre = document.getElementById(preId);
-    withFeedback(btn,
-      async ()=>{
-        if (!pre) throw new Error('no-pre');
-        const text = pre.innerText;
-        if (navigator.clipboard && navigator.clipboard.writeText){
-          await navigator.clipboard.writeText(text);
-        } else {
-          throw new Error('clipboard-unsupported');
-        }
-      },
-      async ()=>{
-        if (!pre) throw new Error('no-pre');
-        const a = document.createElement('a');
-        a.download = preId + '.txt';
-        a.href = URL.createObjectURL(new Blob([pre.innerText], {type:'text/plain'}));
-        a.click();
-        URL.revokeObjectURL(a.href);
-      });
-  });
-}
 document.querySelectorAll('.copy-btn[data-copy-table]').forEach(bindTableCopyBtn);
 document.querySelectorAll('.copy-btn[data-copy]').forEach(bindSvgCopyBtn);
-document.querySelectorAll('.copy-btn[data-copy-pre]').forEach(bindPreCopyBtn);
 
 /* ============================= RUNTIME SWEEP =============================
    Ensures every diagram SVG and data table has a copy button — including
@@ -175,7 +150,6 @@ document.querySelectorAll('.copy-btn[data-copy-pre]').forEach(bindPreCopyBtn);
    Idempotent: skips SVGs/tables that already carry a button.            */
 const COPY_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
 const TABLE_COPY_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg>';
-const CODE_COPY_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/></svg>';
 let _copySweepUid = 0;
 
 function isIconSvg(svg){
@@ -247,35 +221,9 @@ function ensureTableCopyButton(table){
   }
   bindTableCopyBtn(btn);
 }
-function ensurePreCopyButton(pre){
-  if (pre.closest('button, a')) return;
-  const id = pre.id || (pre.id = uniqId('codeBlock'));
-  if (document.querySelector('.copy-btn[data-copy-pre="' + id + '"]')) return;
-  const existingHost = pre.parentElement && pre.parentElement.classList.contains('copy-host')
-    ? pre.parentElement : null;
-  let btn;
-  if (existingHost && existingHost.querySelector('.copy-btn')){
-    btn = existingHost.querySelector('.copy-btn');
-    btn.setAttribute('data-copy-pre', id);
-  } else {
-    const host = document.createElement('div');
-    host.className = 'copy-host';
-    pre.parentNode.insertBefore(host, pre);
-    btn = document.createElement('button');
-    btn.className = 'copy-btn';
-    btn.setAttribute('data-copy-pre', id);
-    btn.title = 'Copy code';
-    btn.setAttribute('aria-label', 'Copy code to clipboard');
-    btn.innerHTML = CODE_COPY_ICON;
-    host.appendChild(btn);
-    host.appendChild(pre);
-  }
-  bindPreCopyBtn(btn);
-}
 function runCopySweep(){
   document.querySelectorAll('svg').forEach(ensureSvgCopyButton);
   document.querySelectorAll('table').forEach(ensureTableCopyButton);
-  document.querySelectorAll('pre').forEach(ensurePreCopyButton);
 }
 if (document.readyState === 'loading'){
   document.addEventListener('DOMContentLoaded', runCopySweep);

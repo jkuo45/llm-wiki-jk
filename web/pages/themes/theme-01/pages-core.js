@@ -165,6 +165,7 @@ window.addEventListener('scroll', hideTip, true);
 
   document.addEventListener('click', (e)=>{
     if (lb.classList.contains('open')) return;
+    if (e.target.closest && e.target.closest('.copy-btn')) return; // copy button must not open the full view
     const svg = e.target.closest && e.target.closest('svg[role="img"]');
     if (svg) openDiagram(svg);
   });
