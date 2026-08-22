@@ -3038,20 +3038,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "baa1d13f4de5",
-    "subject": "Resveratrol",
-    "predicate": "activates",
-    "object": "SIRT1",
-    "context": {
-      "en-US": "Resveratrol activates SIRT1, the NAD+-dependent deacetylase, which reduces H3K9 and H4K16 acetylation at SASP gene promoters and limits NF-kB-driven inflammation. SIRT1 activation also supports mitochondrial function and stress resistance, and it connects resveratrol's effects to the sirtuin-dependent control of the secretome. This is the principal mechanism by which resveratrol exerts senomorphic and longevity-associated effects. The activation is direct, though dependent on cellular NAD+ availability and limited in vivo by resveratrol's bioavailability.",
-      "zh-TW": "Resveratrol 活化 SIRT1，即 NAD+ 依賴的去乙醯酶，其降低 SASP 基因啟動子處的 H3K9 與 H4K16 乙醯化並限制 NF-κB 驅動的發炎。SIRT1 活化也支持粒線體功能與壓力抵抗，並將 resveratrol 的效應連結到分泌組的 sirtuin 依賴控制。這是 resveratrol 發揮 senomorphic 與延壽相關效應的主要機制。此活化直接，但依細胞 NAD+ 存量而定，並受 resveratrol 生體可用率限制。"
-    },
-    "confidence": 0.85,
-    "source_document": "_document_ - cellular_senescence_ipf_diseases-14-00201.md",
-    "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "b40d7949a398",
     "subject": "Sirtuins",
     "predicate": "suppress",
