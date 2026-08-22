@@ -1698,8 +1698,16 @@ function renderChips() {
   if (!currentNote) return;
   const tags = currentNote.tags || [];
   lbTags.innerHTML = tags.length
-    ? tags.map((tag) => `<span class="notes-chip tag-chip">${esc(tagLabel(tag))}</span>`).join('')
+    ? tags.map((tag) => `<button type="button" class="notes-chip tag-chip" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix'))}${esc(tagLabel(tag))}">${esc(tagLabel(tag))}</button>`).join('')
     : `<span class="notes-muted">${esc(t('none'))}</span>`;
+  // Clicking a tag chip goes back to the gallery view with that tag applied
+  // as a filter (same multiselect semantics as the gallery card badges).
+  lbTags.querySelectorAll('.tag-chip[data-tag]').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      if (!activeTags.has(chip.dataset.tag)) toggleTag(chip.dataset.tag);
+      goBackToGallery();
+    });
+  });
 }
 
 // ------------------------------------------------------------
