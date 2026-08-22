@@ -148,7 +148,7 @@
     "active": true,
     "langs": {
       "en-US": {
-        "title": "The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
+        "title": "[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
         "path": "pages/adrenochrome-protocol-node-network-analysis.html",
         "created": "2026-08-20",
         "updated": "2026-08-20"
@@ -167,7 +167,7 @@
     "default": true,
     "langs": {
       "en-US": {
-        "title": "Articles (index)",
+        "title": "[index] articles",
         "path": "pages/index.html",
         "created": "2026-08-21",
         "updated": "2026-08-21"
