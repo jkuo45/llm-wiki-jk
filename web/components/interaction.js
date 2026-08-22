@@ -36,7 +36,11 @@ function nodeTooltipHTML(nodeData) {
     ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
     : esc(nodeData.label);
   const sticky = stickyNodes.has(nodeData.id) ? '<br><span style="color:#4E79A7">Sticky / 已固定</span>' : '';
-  return `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${sticky}`;
+  const roles = Array.isArray(nodeData.roles) ? nodeData.roles.filter(Boolean) : [];
+  const rolesHTML = roles.length
+    ? `<br>${roles.map(r => `<span class="role-badge" data-role="${esc(r)}">${esc(r)}</span>`).join(' ')}`
+    : '';
+  return `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${rolesHTML}${sticky}`;
 }
 
 function showNodeTooltip(nodeData, left, top) {

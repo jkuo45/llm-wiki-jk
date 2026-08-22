@@ -196,6 +196,14 @@ function renderNodeInfo(nodeId, actions) {
   const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
   const commColor = LEGEND.find(c => c.cid === n.community);
 
+  // Biological role badges (from the auto-role classifier baked into
+  // nodes.json by scripts/03_rebuild_from_triples.py). Periphery is omitted
+  // from display — at ~74% of nodes it carries no signal.
+  const roles = (Array.isArray(n.roles) ? n.roles : []).filter(r => r && r !== 'Periphery');
+  const rolesHTML = roles.length
+    ? roles.map(r => `<span class="role-badge" data-role="${esc(r)}">${esc(r)}</span>`).join(' ')
+    : '';
+
   // Source (node): deep link to the wiki note when one exists for the label
   // (reconstructed from the manifest), else the triple-source file link.
   const noteHref = noteUrl(n.label) || (n.source_file ? githubSourceUrl(n.source_file) : '');
@@ -243,6 +251,7 @@ function renderNodeInfo(nodeId, actions) {
         <div class="at-kv"><span class="key">Betweenness</span><span class="val">${esc((n.betweenness || 0).toFixed(4))}</span></div>
         <div class="at-kv"><span class="key">Clustering</span><span class="val">${esc((n.clustering || 0).toFixed(3))}</span></div>
         <div class="at-kv"><span class="key">k-core</span><span class="val">${esc(String(n.k_core || 0))}</span></div>
+        ${rolesHTML ? `<div class="at-kv at-kv-roles"><span class="key">Roles</span><span class="val">${rolesHTML}</span></div>` : ''}
       </div>
       <div class="field node-source-row"><span class="info-muted">Source (node):</span> ${wikiLink}</div>
       ${wikiDesc}

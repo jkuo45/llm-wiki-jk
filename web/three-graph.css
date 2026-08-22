@@ -659,6 +659,27 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .at-kv .key { font-size: 10px; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; display: inline-flex; align-items: center; gap: 5px; min-width: 0; white-space: normal; }
 .at-kv .key .sw { width: 9px; height: 9px; border-radius: 2px; flex: none; }
 .at-kv .val { font-size: 12px; color: #e0e0e0; font-variant-numeric: tabular-nums; min-width: 0; white-space: normal; overflow-wrap: anywhere; text-align: right; }
+
+/* Biological role badges (auto-role classifier, see scripts/05_role_query.py).
+   Shown in the hover tooltip and the analysis-panel node info card. */
+.role-badge {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 1px 6px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  vertical-align: middle;
+}
+.role-badge[data-role="Master regulator"] { background: rgba(214,86,108,0.16); color: #ff9aab; border-color: #d6566c; }
+.role-badge[data-role="Bottleneck"] { background: rgba(230,158,60,0.15); color: #f2c078; border-color: #b57a26; }
+.role-badge[data-role="Spreader"] { background: rgba(64,190,160,0.15); color: #7fe0c8; border-color: #2f9c80; }
+.role-badge[data-role="Core backbone"] { background: rgba(167,139,250,0.16); color: #cbb8ff; border-color: #8b74e0; }
+.role-badge[data-role="Module member"] { background: rgba(78,121,167,0.20); color: #a0d4f0; border-color: #4E79A7; }
+.role-badge[data-role="Periphery"] { background: rgba(140,140,150,0.14); color: #9a9ab0; border-color: #55556a; }
+.at-kv-roles .val { display: flex; flex-wrap: wrap; gap: 3px; justify-content: flex-end; }
 .at-node-desc { font-size: 12px; color: #bbb; line-height: 1.55; max-height: 120px; overflow: hidden; }
 .at-node-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .at-node-btn { background: #2a2a4e; border: 1px solid #3a3a5e; color: #cfe3f5; border-radius: 6px; padding: 3px 11px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
