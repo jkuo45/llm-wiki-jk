@@ -1404,7 +1404,7 @@ body.lb-open {
 .copy-btn {
   position: absolute;
   right: 6px;
-  bottom: 6px;
+  top: 6px;
   z-index: 5;
   width: 34px;
   height: 34px;
@@ -1426,10 +1426,8 @@ body.lb-open {
 .copy-btn.ok { color: var(--forest); border-color: var(--forest); }
 .copy-btn.err { color: var(--oxblood); border-color: var(--oxblood); }
 
-/* Table copy buttons sit top-right so they stay visible while scrolling rows */
-.table-host > .copy-btn { top: 6px; bottom: auto; }
+/* Copy buttons anchor top-right uniformly (SVGs, tables, pre blocks) */
 
 @media (max-width: 720px) {
-  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 4px; bottom: 4px; }
-  .table-host > .copy-btn { top: 4px; bottom: auto; }
+  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 4px; bottom: auto; top: 4px; }
 }

@@ -146,18 +146,16 @@ footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute);
 .btn{display:inline-block; background:var(--teal); color:var(--btn-fg); font-weight:700; padding:8px 18px; border-radius:8px; font-size:.85rem; cursor:pointer; border:none;}
 .btn:hover{filter:brightness(1.1); text-decoration:none;}
 /* copy button */
-.copy-btn{position:absolute; right:2px; bottom:2px; margin:0; z-index:5; width:38px; height:38px; display:flex; align-items:center; justify-content:center;
+.copy-btn{position:absolute; right:2px; top:2px; margin:0; z-index:5; width:38px; height:38px; display:flex; align-items:center; justify-content:center;
   background:var(--copy-btn-bg); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:8px; backdrop-filter:blur(4px);}
 .copy-btn:hover{border-color:var(--teal); filter:brightness(1.15);}
 .copy-btn:disabled{opacity:.7; cursor:wait;}
 .copy-btn svg{width:100%; height:100%; display:block;}
 .copy-btn.ok{color:var(--green); border-color:var(--green);}
 .copy-btn.err{color:var(--red); border-color:var(--red);}
-/* Positioned host for copy buttons (SVGs and tables) */
+/* Positioned host for copy buttons (SVGs, tables, pre blocks).
+   Buttons anchor to the top-right corner uniformly. */
 .copy-host{position:relative;}
-.copy-host > .copy-btn{position:absolute; right:2px; bottom:2px;}
-/* Table copy buttons sit top-right so they stay visible while scrolling rows */
-.copy-host.table-host > .copy-btn{top:2px; bottom:auto;}
 /* disease breakdown */
 .sys-tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;}
 .sys-tab{background:var(--card); border:1px solid var(--line2); border-radius:999px; padding:6px 14px; font-size:.82rem; color:var(--dim); cursor:pointer;}
