@@ -70,7 +70,8 @@ This document outlines novel combination therapies leveraging the redox-cycling 
 
 - **Phenotypic Reprogramming:** Adrenochrome-induced ROS signals modulate NF-κB and AP-1 transcription factors. With Rapamycin present, signaling is diverted from pro-inflammatory SASP production toward a quiescent-like "senomorphic" state.
 
-> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> [!NOTE]
+> **Rapamycin shows a biphasic (hormetic) dose-response**
 > Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 - **Selective Senolysis:** Fisetin exploits the altered metabolic state of senescent cells (potentially sensitized by adrenochrome-induced stress) to induce apoptosis specifically in high-SASP sub-populations.
 - **Glutathione Homeostasis:** GlyNAC provides precursors to maintain high intracellular [[Glutathione]] levels, preventing adrenochrome from crossing the threshold into cytotoxic "vicious" [[Redox Cycling]].
@@ -131,7 +132,8 @@ Use AI-driven simulations to predict optimal dosing ratios for Strategy I (MRR).
 ---
 ## Safety & Guardrails
 
-> [!warning] Safety Considerations
+> [!WARNING]
+> **Safety Considerations**
 > Cardiovascular monitoring and targeted delivery are essential to manage aminochrome-related risks.
 
 - **Cardiovascular Monitoring:** Continuous ECG in animal models to detect arrhythmias (potential side effect of aminochromes).

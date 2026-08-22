@@ -74,7 +74,8 @@ updated: 2026-07-27
 
 ## The Ferroptosis Connection: ACase as a Novel GPX4/GSH/Iron-Independent Regulator
 
-> [!info] Source: Soriano-Castell, Goujon, Dar, Currais & Maher, 2026, *Cell Death Dis* (DOI: 10.1038/s41419-026-09108-y)
+> [!NOTE]
+> **Source: Soriano-Castell, Goujon, Dar, Currais & Maher, 2026, *Cell Death Dis* (DOI: 10.1038/s41419-026-09108-y)**
 > The central finding: [[Acid ceramidase]] is overexpressed 5- to 20-fold in [[Replicative Senescence|replicatively senescent]] [[Fibroblast|fibroblasts]], where it creates a pro-[[Ferroptosis|ferroptotic]] membrane lipid profile independent of [[GPX4]]/[[Glutathione|GSH]] and [[Iron]].
 
 ### Key Discovery
@@ -91,7 +92,8 @@ Replicatively senescent [[WI-38]] [[Fibroblast|fibroblasts]] overexpress [[Acid 
 
 ### Independence from Classical Ferroptosis Regulators
 
-> [!important] Novel regulatory axis
+> [!IMPORTANT]
+> **Novel regulatory axis**
 > This axis operates independently of the three canonical [[Ferroptosis]] pathways — [[GPX4]], [[Glutathione|GSH]], and labile [[Iron|Fe²⁺]] — and also independently of [[ACSL4]].
 
 | Classical Regulator | Effect After ACase KD | Interpretation |
@@ -105,7 +107,8 @@ Replicatively senescent [[WI-38]] [[Fibroblast|fibroblasts]] overexpress [[Acid 
 
 ### Paracrine Propagation via SASP
 
-> [!tip] Bystander ferroptotic sensitization
+> [!TIP]
+> **Bystander ferroptotic sensitization**
 > [[SASP]] cytokines [[IL-6]] and [[IL-8]] induce [[Acid ceramidase]] upregulation and ferroptotic sensitization in neighboring proliferative cells, establishing a SASP→ACase→pro-ferroptotic lipid profile axis that spreads both senescence *and* ferroptotic vulnerability through tissue.
 
 - Co-culture of proliferative [[WI-38]] cells with [[Senescent Cells|senescent cells]] (trans-well inserts) induces [[Acid ceramidase|ACase]] upregulation in the proliferative cells
@@ -124,7 +127,8 @@ Replicatively senescent [[WI-38]] [[Fibroblast|fibroblasts]] overexpress [[Acid 
 
 Elevated [[Acid ceramidase|ACase]] raises [[Sphingosine]]/[[Sphingosine-1-phosphate|S1P]], which is classically anti-[[Apoptosis|apoptotic]] and helps [[Senescent Cells|senescent cells]] resist apoptosis — a known [[Senescent cell anti-apoptotic pathways|senescent cell anti-apoptotic pathway (SCAP)]]. This same metabolic shift, however, **inadvertently creates pro-ferroptotic vulnerability** as an unintended consequence. [[Acid ceramidase|ACase]] inhibition therefore represents a selective strategy: it removes ferroptotic vulnerability while leaving the senescence arrest and [[SASP]] intact.
 
-> [!note] Senescence features persist after ACase KD
+> [!NOTE]
+> **Senescence features persist after ACase KD**
 > siACase [[Senescent Cells|senescent cells]] retain high [[p21]] expression, high SA-β-gal activity, and elevated [[IL-6]]/[[IL-8]] secretion (Soriano-Castell et al., 2026).
 
 ---

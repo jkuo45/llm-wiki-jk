@@ -26,7 +26,8 @@ author:
 
 The graph connects [[Adrenochrome]] to [[Lipid Peroxidation]] across 4 hops (Adrenochrome → [[Compound C]] → [[AMPK]] → sirtuins review → Lipid Peroxidation). However, the *actual* mechanistic bridge is more direct and chemically explicit: Adrenochrome, as a redox-cycling *o*-quinone, generates [[Superoxide]] and [[Hydrogen Peroxide]] via one-electron reduction of O₂ by its [[Leuco-adrenochrome]] / adrenochrome semiquinone radical intermediate. These [[Reactive Oxygen Species|ROS]] species, in the presence of transition metals (Fe²⁺, Cu⁺), undergo [[Fenton Reaction|Fenton chemistry]] to produce [[Hydroxyl Radicals]] (•OH), which abstracts bis-allylic hydrogens from [[Polyunsaturated fatty acids]] — the rate-limiting initiation step of lipid peroxidation. This mechanism is documented in the wiki (`notes/adrenochrome/Redox cycle.md`, `notes/oxidative_stress/Lipid Peroxidation.md`) but the extracted graph lacks a direct edge between Adrenochrome and Lipid Peroxidation — a gap that reflects incomplete cross-topic linking rather than absent biology.
 
-> [!info] Core Finding
+> [!NOTE]
+> **Core Finding**
 > The mechanistic bridge from Adrenochrome to Lipid Peroxidation is chemically direct (redox-cycling *o*-quinone → superoxide → H₂O₂ → •OH → PUFA hydrogen abstraction) but underconnected in the wiki graph. The graph currently routes through a serendipitous 4-hop path via Compound C → AMPK → sirtuins review rather than the direct chemical mechanism.
 
 ---
@@ -53,7 +54,8 @@ Superoxide is rapidly dismutated by [[Superoxide Dismutase|superoxide dismutase]
 
 > Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻
 
-> [!important] Catalytic Amplification
+> [!IMPORTANT]
+> **Catalytic Amplification**
 > Adrenochrome's redox cycling is **catalytic**, not stoichiometric. Each molecule can cycle multiple times, continuously generating ROS as long as reducing equivalents (NADPH, GSH) are available. This is the key distinction from a one-off oxidant source — adrenochrome is an amplification engine for oxidative stress.
 
 ### Hydroxyl Radical Initiates Lipid Peroxidation
@@ -89,7 +91,8 @@ And in `notes/adrenochrome/Redox cycle.md`:
 
 > "The conversion between [[Leuco-adrenochrome]] and [[Adrenochrome]] is a classic example of a redox cycle. This cycling can continuously generate [[Superoxide anion]] radicals, contributing to cellular [[Oxidative Stress]]."
 
-> [!note] File Reference Correction
+> [!NOTE]
+> **File Reference Correction**
 > The document originally referenced `notes/adrenochrome/Peroxidation.md` — this file does not exist. The quoted passage is from `notes/oxidative_stress/Lipid Peroxidation.md`, which has frontmatter `title: Peroxidation` and contains the full catecholamine–lipid peroxidation connection under a dedicated subheading. The wiki has a `notes/oxidative_stress/Lipid Peroxidation.md` that serves as the canonical source for this mechanism. The orphaned reference has been corrected in this markup.
 
 ---
@@ -125,7 +128,8 @@ This is not a limitation of the graph tool — it is a **scientifically meaningf
 
 **Recommendation:** Strengthen the direct connection from `notes/adrenochrome/Adrenochrome.md` to `notes/oxidative_stress/Lipid Peroxidation.md` with relation `generates_ros_which_initiates` and confidence EXTRACTED, citing `notes/oxidative_stress/Lipid Peroxidation.md` as the source.
 
-> [!tip] Graph Gap → Research Opportunity
+> [!TIP]
+> **Graph Gap → Research Opportunity**
 > The missing edge between Adrenochrome and Lipid Peroxidation is itself a scientifically meaningful finding — it reflects a real gap in the literature where pharmacology (catecholamine oxidation) and oxidative stress biology (lipid peroxidation, ferroptosis) rarely intersect. Filling this gap with direct experimental data (C11-BODIPY, TBARS, GPX4 activity) would be novel and impactful.
 
 ---
@@ -152,7 +156,8 @@ These conditions share a common thread: adrenochrome-mediated lipid peroxidation
 
 If adrenochrome directly inhibits GPX4's [[Selenocysteine|selenocysteine]] active site (analogous to [[RSL3]]), then adrenochrome is a **catalytic ferroptosis inducer** — both generating the lethal signal (lipid peroxides) and disabling the brake (GPX4). This would be a novel mechanism of ferroptosis initiation not previously described.
 
-> [!important] Dual Mechanism Hypothesis
+> [!IMPORTANT]
+> **Dual Mechanism Hypothesis**
 > **Hypothesis:** Adrenochrome induces ferroptosis in cells with high catecholamine turnover (cardiomyocytes, dopaminergic neurons) through a dual mechanism: (1) ROS generation via redox cycling → lipid peroxidation, and (2) GPX4 inhibition via *o*-quinone electrophilic arylation. Direct experimental testing (C11-BODIPY, TBARS, GPX4 activity, ferroptosis rescue panel) is warranted, low-risk, and high-impact if the GPX4 inhibition hypothesis holds.
 
 ### Dopaminergic Neuron Vulnerability
@@ -196,7 +201,8 @@ To make this bridge directly queryable in the next graph build:
 
 **Bottom Line:** The graph bridge from [[Adrenochrome]] to [[Lipid Peroxidation]] is real but underconnected. The mechanistic connection is chemically robust (redox-cycling *o*-quinone → superoxide → H₂O₂ → •OH → PUFA hydrogen abstraction), varies from the extracted co-occurrence path (which runs through [[AMPK]] and a sirtuins review paper), and points to a potentially novel role for adrenochrome as a dual ferroptosis initiator (ROS generation + GPX4 inhibition). Direct experimental testing ([[C11-BODIPY]], [[TBARS]], GPX4 activity, ferroptosis rescue panel) is warranted, low-risk, and high-impact if the GPX4 inhibition hypothesis holds.
 
-> [!note] Linking Note
+> [!NOTE]
+> **Linking Note**
 > This is a task output that was ingested into the wiki via the Document Ingestion Workflow. It serves as an analysis document connecting themes across `notes/adrenochrome/` and `notes/oxidative_stress/` topics. The research recommendations herein should be considered for future experimental validation.
 
 #

@@ -15,7 +15,7 @@ tags:
 type: document
 ---
 
-> [!abstract]
+> [!NOTE]
 > A shingles shot might do more than prevent a painful rash — it could actually help slow down the aging process. In a large national study of more than 3,800 Americans age 70 and older, those who received the [[Shingles Vaccine|shingles vaccine]] showed slower biological aging compared to those who didn't. Researchers found lower levels of chronic [[Inflammation|inflammation]] and slower changes in gene activity linked to aging, suggesting the vaccine may calm the body's "[[Inflammaging|inflammaging]]" — the low-grade inflammation tied to heart disease, frailty, and cognitive decline.
 
 *Source:* University of Southern California (USC Leonard Davis School of Gerontology). Originally reported by ScienceDaily, 26 February 2026. Study: Kim JK, Crimmins EM. *J Gerontol A*. 2026; DOI: [10.1093/gerona/glag008](http://dx.doi.org/10.1093/gerona/glag008)
@@ -28,7 +28,7 @@ type: document
 
 Scientists analyzed the nationally representative U.S. [[Health and Retirement Study]] (HRS), focusing on more than 3,800 adults who were age 70 and older in 2016. After adjusting for health status and demographic factors, those who had received the [[Shingles Vaccine|shingles vaccine]] showed slower overall biological aging than unvaccinated participants. Earlier studies have linked adult vaccines, including shingles and influenza shots, to lower risks of dementia and other neurodegenerative diseases.
 
-> [!quote] Study author (Jung Ki Kim)
+>
 > "This study adds to emerging evidence that vaccines could play a role in promoting healthy aging by modulating biological systems beyond infection prevention."
 
 ## Biological aging versus chronological age
@@ -49,14 +49,16 @@ These were combined into an overall biological aging score.
 
 On average, vaccinated participants had lower levels of [[Inflammation|inflammation]], slower [[Epigenetic Aging|epigenetic]] and [[Transcriptomic Aging|transcriptomic aging]], and better overall biological aging scores than unvaccinated participants.
 
-> [!info] Inflammaging mechanism
+> [!NOTE]
+> **Inflammaging mechanism**
 > Long-lasting, low-grade [[Inflammation|inflammation]] contributes to many age-related conditions — heart disease, frailty, cognitive decline. Researchers call this persistent inflammation "[[Inflammaging|inflammaging]]." By helping reduce this background inflammation — possibly by preventing reactivation of the [[Varicella Zoster Virus|varicella zoster virus]] — the vaccine may support healthier aging.
 
 ## Benefits that may last for years
 
 Participants vaccinated four or more years before providing a blood sample still showed slower [[Epigenetic Aging|epigenetic]], [[Transcriptomic Aging|transcriptomic]] and overall biological aging than unvaccinated individuals, suggesting effects may persist for several years.
 
-> [!note] Relevance to the adrenochrome → inflammaging trace
+> [!NOTE]
+> **Relevance to the adrenochrome → inflammaging trace**
 > Interventions that reduce [[Inflammaging|inflammaging]] — here, a [[Shingles Vaccine|vaccine]] that dampens chronic viral-reactivation-driven inflammation — are relevant to the broader question of what modulates the age-related inflammatory state that the [[Adrenochrome]] → [[Inflammaging]] trace seeks to explain. Calming background inflammation is a cross-cutting geroprotective strategy.
 
 ## About the study

@@ -17,7 +17,8 @@ source: graphify-out/graph.json
 
 # Graphify Trace — Adrenochrome → Autophagy/Mitophagy & Foam Cells
 
-> [!info] Method
+> [!NOTE]
+> **Method**
 > Traces generated via graphify BFS/shortest-path traversal of `graphify-out/graph.json`, cross-referenced against source wiki notes. Edge provenance (EXTRACTED / INFERRED) noted where relevant per the honesty rules.
 
 ---

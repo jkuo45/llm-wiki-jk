@@ -74,7 +74,8 @@ Notes: [[Intermittent Fasting|TRF]] = "simplest way to activate [[AMPK]] and mit
 
 ## Lifestyle Adjustments for Mitophagy (NOT required for Autophagy)
 
-> [!important] Key Insight
+> [!IMPORTANT]
+> **Key Insight**
 > Fasting triggers autophagic machinery but often stops short of the PINK1/Parkin depolarization threshold that only **mitochondrial work** crosses. A purely fasted approach to mitophagy is sub-threshold without exercise or selective enhancers.
 
 Research confirms fasting triggers autophagic machinery but often stops short of the [[PINK1]]/[[Parkin]] depolarization threshold that only **mitochondrial work** crosses.

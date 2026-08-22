@@ -37,7 +37,8 @@ SRAC now specifies two phases:
 
 - **Phase 1 (Weeks 1–4):** Rapamycin 5 mg weekly + GlyNAC daily + Carbazochrome intermittent. Senomorphic priming.
 
-> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> [!NOTE]
+> **Rapamycin shows a biphasic (hormetic) dose-response**
 > Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 - **Washout (1–2 weeks):** Rapamycin discontinued. GlyNAC continues.
 - **Phase 2 (Weeks 5–6):** Fisetin intermittent pulses (20 mg/kg × 2–3 days) + GlyNAC daily. Senolytic strike.

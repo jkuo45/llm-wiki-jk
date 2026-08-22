@@ -278,7 +278,8 @@ FENBENDAZOLE — aging net
 | ROS / oxidative stress | ✅ Yes (mitochondrial/Cl⁻) | ✅ Yes (MEK3/6–p38 + NADPH depletion) |
 | Net aging skew | Mixed pro/anti (paradoxical) | **Skewed anti-longevity / cancer-selective** |
 
-> [!warning] **Context is decisive.** In a tumor context both compounds are desirable. In a *longevity/anti-aging* context, ivermectin carries at least one clean pro-longevity mechanism (autophagy induction) and one senomorphic mechanism (NF-κB/STAT3 suppression); fenbendazole's dominant aging-relevant actions (p53-driven senescence, microtubule destabilization, ROS) point the opposite way, leaving NF-κB modulation as its lone wiki-grounded pro-longevity node.
+> [!WARNING]
+> ****Context is decisive.** In a tumor context both compounds are desirable. In a *longevity/anti-aging* context, ivermectin carries at least one clean pro-longevity mechanism (autophagy induction) and one senomorphic mechanism (NF-κB/STAT3 suppression); fenbendazole's dominant aging-relevant actions (p53-driven senescence, microtubule destabilization, ROS) point the opposite way, leaving NF-κB modulation as its lone wiki-grounded pro-longevity node.**
 
 ---
 

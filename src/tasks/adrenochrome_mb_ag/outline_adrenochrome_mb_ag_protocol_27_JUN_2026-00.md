@@ -126,10 +126,12 @@ _Note: Aminoguanidine remains an experimental compound, and oral methylene blue 
 
 - Because **oral** rapamycin is metabolized by intestinal [[CYP3A4]], consuming it with inhibitors like grapefruit juice can spike blood levels by up to 350%, effectively multiplying the dose. Similarly, taking it with a high-fat meal significantly increases its absorption compared to a fasted state.
 
-> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> [!NOTE]
+> **Rapamycin shows a biphasic (hormetic) dose-response**
 > Cerrillo, Vidakovic & Míguez (2026, _bioRxiv_ 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated _in vitro_. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 
-> [!tip] Predictive biomarker — [[SIRT3-SIRT4 Ratio]]
+> [!TIP]
+> **Predictive biomarker — [[SIRT3-SIRT4 Ratio]]**
 > The [[SIRT3-SIRT4 Ratio]] (mitochondrial sirtuin redox dial) is a predictive **biomarker** for individual responsiveness to adrenochrome-derived hormesis: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance versus retention, and thus whether the MRR pulse is adaptive or toxic.
 > [[MitoSOX]]
 
@@ -154,8 +156,10 @@ _Note: Aminoguanidine remains an experimental compound, and oral methylene blue 
   - **Liposomal formulations:** Under preclinical investigation for enhanced brain penetration.
 - For the purposes of this protocol, **unformulated oral fisetin at 20 mg/kg** remains the clinical standard, with the understanding that actual systemic exposure of parent fisetin is far lower than the administered dose suggests.
 
-> [!warning] Fisetin has significant CYP450 inhibitory activity
+> [!WARNING]
+> **Fisetin has significant CYP450 inhibitory activity**
 > Fisetin inhibits **CYP2C9, CYP2C19, and CYP1A2** in vitro. Concurrent medications that are narrow-therapeutic-index substrates of these enzymes (e.g., warfarin, phenytoin, clopidogrel, theophylline, certain PPIs) must be held during the 2-day dosing window. All current clinical trials mandate a medication review and hold period around fisetin administration.
 
-> [!info] Senolytic mechanism vs. dose-response
+> [!NOTE]
+> **Senolytic mechanism vs. dose-response**
 > Fisetin's senolytic effect depends on **sufficient peak plasma concentration** to inhibit BCL-2/BCL-xL anti-apoptotic pathways in senescent cells, combined with **intermittent dosing** to allow senescent cell clearance between cycles. The very low bioavailability of unformulated fisetin means that the 20 mg/kg oral dose is pharmacologically conservative — actual systemic exposure of parent fisetin is likely in the low nanomolar range, sufficient for senolytic signaling but far below concentrations used in in vitro studies (typically 10–100 µM). This pharmacokinetic mismatch underscores why formulation-enhanced fisetin (FF-20, SNEDDS) may prove superior for achieving consistent senolysis.

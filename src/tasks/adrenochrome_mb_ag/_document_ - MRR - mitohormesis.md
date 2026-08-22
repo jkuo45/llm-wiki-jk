@@ -12,7 +12,8 @@ tags:
 aliases: []
 ---
 
-> [!info] Source
+> [!NOTE]
+> **Source**
 > AI-generated research analysis from Google AI Studio examining the [[_document_ - Mitohormetic Redox-Relay]] (MRR) — a multi-component therapeutic strategy combining [[Carbazochrome]], [[Methylene blue]], [[Nicotinamide Riboside]]/[[Nicotinamide Mononucleotide]], and [[Urolithin A]] to counteract [[Mitochondrial Dysfunction]] through controlled [[Mitohormesis]].
 
 The **[[_document_ - Mitohormetic Redox-Relay]] (MRR)** is a highly structured and biochemically coherent approach to tackling [[Mitochondrial Dysfunction|mitochondrial decay]]. By combining a controlled, localized pro-oxidant stimulus ([[Mitohormesis|hormesis]]) with concurrent metabolic buffering, bioenergetic fueling, and targeted organelle clearance, the strategy addresses several classic failure modes of mitochondrial therapeutics (such as the "antioxidant paradox," where blunt antioxidants inadvertently suppress adaptive signaling).
@@ -37,7 +38,8 @@ The **[[_document_ - Mitohormetic Redox-Relay]] (MRR)** is a highly structured a
 - **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular [[NADH]]/[[NAD+|NAD⁺]] ratio toward [[NAD+|NAD⁺]].
 - **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly [[NAD+|NAD⁺]]-dependent. By priming the system with [[NAD+|NAD⁺]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out [[PGC-1α]]/[[SIRT1]]-driven [[Mitochondrial Biogenesis]].
 
-> [!tip] Predictive biomarker — [[SIRT3-SIRT4 Ratio]]
+> [!TIP]
+> **Predictive biomarker — [[SIRT3-SIRT4 Ratio]]**
 > The [[SIRT3-SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the carbazochrome/adrenochrome-derived signal is adaptive or toxic.
 
 #### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)

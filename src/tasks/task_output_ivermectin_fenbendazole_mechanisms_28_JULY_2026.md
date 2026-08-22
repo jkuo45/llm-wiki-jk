@@ -18,7 +18,8 @@ author: []
 
 Synthesized from the wiki knowledge base: entity notes (`Ivermectin.md`, `Fenbendazole.md`, `Benzimidazole.md`, `GLUT1.md`, `Hexokinase 2.md`) and source review documents (Tang et al. 2020; Nguyen et al. 2024). All evidence is preclinical (cell lines + xenograft models). No clinical trials exist for either compound as an anticancer agent.
 
-> [!tip] These two repurposed antiparasitics target fundamentally different nodes of cancer biology — ivermectin at kinase/signaling hubs, fenbendazole at structural/metabolic machinery. Their mechanisms are largely non-overlapping, which is why they are increasingly discussed as potential combination agents in the drug repositioning literature.
+> [!TIP]
+> **These two repurposed antiparasitics target fundamentally different nodes of cancer biology — ivermectin at kinase/signaling hubs, fenbendazole at structural/metabolic machinery. Their mechanisms are largely non-overlapping, which is why they are increasingly discussed as potential combination agents in the drug repositioning literature.**
 
 ---
 
@@ -36,7 +37,8 @@ Downstream consequences of PAK1 loss:
 - **NF-κB suppressed** — PAK1 facilitates nuclear activation of NF-κB; its loss dampens pro-survival inflammatory signaling.
 - **STAT3 axis severed** — The PAK1-STAT3 axis drives cancer stem cell self-renewal. Ivermectin breaks this link, suppressing NANOG, OCT-4, and SOX-2 expression in CSCs.
 
-> [!important] PAK1 is not just one target among many — it is the *hub* through which ivermectin coordinates most of its anticancer effects. The review calls it ivermectin's "primary host kinase target" across breast, ovarian, nasopharyngeal, and melanoma cancers.
+> [!IMPORTANT]
+> **PAK1 is not just one target among many — it is the *hub* through which ivermectin coordinates most of its anticancer effects. The review calls it ivermectin's "primary host kinase target" across breast, ovarian, nasopharyngeal, and melanoma cancers.**
 
 ### YAP1 Inhibition
 
@@ -67,7 +69,8 @@ YAP1 is a *different* target than PAK1 — ivermectin has genuinely distinct mec
 - In breast cancer (MCF-7, MDA-MB-231): autophagy is the *primary* death mode — inhibiting autophagy (chloroquine, wortmannin, Beclin-1/Atg5 siRNA) reduces ivermectin's anticancer activity
 - In melanoma (SK-MEL-28): autophagy is *protective* — inhibiting it *enhances* apoptosis. TFE3 nuclear translocation (dephosphorylation at Ser321) drives autophagy via the ROS pathway.
 
-> [!warning] The autophagy paradox: In some cancers autophagy kills, in others it protects. The review notes this cross-talk is context-dependent and not fully resolved.
+> [!WARNING]
+> **The autophagy paradox: In some cancers autophagy kills, in others it protects. The review notes this cross-talk is context-dependent and not fully resolved.**
 
 #### Pyroptosis (inflammatory cell death)
 
@@ -178,7 +181,8 @@ Both compounds funnel through the intrinsic (mitochondrial) apoptotic pathway, b
 - **Ivermectin** directly depolarizes the mitochondrial membrane, collapses ATP production, upregulates Bax/downregulates Bcl-2, and releases cytochrome c — primarily through PAK1 degradation and ROS generation.
 - **Fenbendazole** achieves a similar endpoint indirectly: by inhibiting HK2, it detaches the enzyme from the mitochondrial VDAC channel. HK2 binding to VDAC normally *blocks* apoptosome assembly; its removal de-represses cytochrome c release and caspase activation.
 
-> [!important] **Synergy point:** Ivermectin attacks mitochondria from the signaling side (PAK1 → Akt/mTOR → mitochondrial priming), while fenbendazole attacks from the metabolic side (HK2 detachment from VDAC). Combined, they may push cells past the apoptotic threshold that neither reaches alone.
+> [!IMPORTANT]
+> ****Synergy point:** Ivermectin attacks mitochondria from the signaling side (PAK1 → Akt/mTOR → mitochondrial priming), while fenbendazole attacks from the metabolic side (HK2 detachment from VDAC). Combined, they may push cells past the apoptotic threshold that neither reaches alone.**
 
 ### Amplified ROS Cascade
 
@@ -187,7 +191,8 @@ Both drugs independently induce ROS — but through distinct mechanisms, and fen
 - **Ivermectin** generates ROS via mitochondrial depolarization and chloride channel-mediated membrane hyperpolarization.
 - **Fenbendazole** generates ROS via oxidative stress induction (MEK3/6 → p38 MAPK axis), *and* by collapsing the glycolytic supply of NADPH — the primary reducing equivalent that sustains glutathione recycling and the cell's antioxidant defense.
 
-> [!important] **Synergy point:** Fenbendazole's metabolic starvation depletes the NADPH/glutathione buffer that cancer cells normally use to neutralize ROS. This lowers the threshold for ivermectin's ROS-generating effects, potentially converting sub-lethal oxidative stress into lethal damage. The combination may achieve a "redox catastrophe" — overwhelming the tumor's antioxidant capacity from two directions simultaneously.
+> [!IMPORTANT]
+> ****Synergy point:** Fenbendazole's metabolic starvation depletes the NADPH/glutathione buffer that cancer cells normally use to neutralize ROS. This lowers the threshold for ivermectin's ROS-generating effects, potentially converting sub-lethal oxidative stress into lethal damage. The combination may achieve a "redox catastrophe" — overwhelming the tumor's antioxidant capacity from two directions simultaneously.**
 
 ### Multi-Level Cell Cycle Blockade
 
@@ -198,7 +203,8 @@ The two drugs arrest the cell cycle at different checkpoints through different m
 - **Fenbendazole** → p21-mediated arrest via p53 stabilization (MDM2/MdmX suppression)
 - **Ivermectin** → cell cycle effects mediated through PAK1 loss and downstream pathway suppression
 
-> [!important] **Synergy point:** Cells caught at G2/M by fenbendazole's tubulin disruption cannot escape into S-phase, while cells arrested at G1/S by ivermectin cannot reach mitosis. Dual-checkpoint trapping makes it harder for tumors to proliferate through either block alone.
+> [!IMPORTANT]
+> ****Synergy point:** Cells caught at G2/M by fenbendazole's tubulin disruption cannot escape into S-phase, while cells arrested at G1/S by ivermectin cannot reach mitosis. Dual-checkpoint trapping makes it harder for tumors to proliferate through either block alone.**
 
 ### Dual Attack on the Warburg Effect
 
@@ -207,7 +213,8 @@ Cancer's metabolic reprogramming — the [[Warburg Effect]] — is targeted by f
 - **Fenbendazole** directly suppresses GLUT1 (glucose import) and HK2 (first glycolytic step), collapsing the glycolytic pipeline.
 - **Ivermectin** suppresses the Akt/mTOR signaling axis (via PAK1 degradation), which is a primary transcriptional and post-translational regulator of both GLUT1 expression and HK2 activity. Akt phosphorylates HK2 to promote its mitochondrial binding; mTOR upregulates HIF-1α, which induces GLUT1 and other glycolytic enzymes.
 
-> [!important] **Synergy point:** Fenbendazole attacks the metabolic machinery (the proteins doing the work), while ivermectin attacks the signaling pathways that *upregulate* that machinery in cancer. Combined, they may achieve deeper metabolic disruption than either alone — fenbendazole removes the enzymes, ivermectin removes the signals that would otherwise restore them.
+> [!IMPORTANT]
+> ****Synergy point:** Fenbendazole attacks the metabolic machinery (the proteins doing the work), while ivermectin attacks the signaling pathways that *upregulate* that machinery in cancer. Combined, they may achieve deeper metabolic disruption than either alone — fenbendazole removes the enzymes, ivermectin removes the signals that would otherwise restore them.**
 
 ### Convergent NF-κB Suppression
 
@@ -223,7 +230,8 @@ Combined NF-κB suppression from two independent directions may more effectively
 - **Ivermectin** is a direct, potent inhibitor of P-glycoprotein (P-gp) and MDR-associated proteins (MRP1/2/3), actively blocking drug efflux pumps.
 - **Fenbendazole** (as a benzimidazole) has a mechanism that partially evades classical P-gp efflux — benzimidazoles are not always recognized by the pump.
 
-> [!important] **Synergy point:** Ivermectin's P-gp blockade may increase intracellular retention of fenbendazole (and other co-administered chemotherapeutics), raising effective tumor drug concentrations without increasing systemic dose.
+> [!IMPORTANT]
+> ****Synergy point:** Ivermectin's P-gp blockade may increase intracellular retention of fenbendazole (and other co-administered chemotherapeutics), raising effective tumor drug concentrations without increasing systemic dose.**
 
 ---
 

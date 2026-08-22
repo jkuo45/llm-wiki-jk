@@ -30,7 +30,8 @@ graphify path + BFS traversal on graphify-out/graph.json, supplemented by wiki e
 
 [[DJ-1]] (encoded by [[PARK7]]) occupies **Line 1** of a three-layer enzymatic defense against [[Glycation]] — the non-enzymatic damage of proteins by sugars that drives [[Aging]], [[Diabetes Mellitus|diabetes]], and [[Cardiovascular Disease]]. DJ-1 is a [[Glutathione]]-independent [[Glyoxalase I|glyoxalase]] that stereospecifically detoxifies [[Methylglyoxal]] and [[Glyoxal]] into [[L-lactate]] and [[Glycolic acid]], bypassing the glutathione requirement of the canonical [[Glyoxalase System]]. This makes DJ-1 the critical backup defense precisely when [[Oxidative Stress]] depletes glutathione — the same conditions created by [[Adrenochrome]] redox cycling.
 
-> [!important] The Double Hit
+> [!IMPORTANT]
+> **The Double Hit**
 > [[Adrenochrome]]-driven oxidative stress creates a **double hit**: it depletes [[Glutathione]] that the primary glyoxalase system needs, AND it activates [[DJ-1]] through [[Cysteine]]106 oxidation — making DJ-1 the last line of defense against dicarbonyl-mediated protein damage.
 
 ## Routes
@@ -79,7 +80,8 @@ graphify path + BFS traversal on graphify-out/graph.json, supplemented by wiki e
 Cys-SH → Cys-SO⁻ (sulfenate) → Cys-SO₂⁻ (sulfinate) → Cys-SO₃⁻ (sulfonate)
 ```
 
-> [!tip] The Sulfinate Trigger
+> [!TIP]
+> **The Sulfinate Trigger**
 > The **sulfinate** form triggers conformational shift → [[Mitochondrion|mitochondrial]]/nuclear translocation → antioxidant program. This is one of the most sensitive redox switches in the cell.
 
 L166P ([[Parkinson's Disease|Parkinson's]] mutation) disrupts dimerization → proteasomal degradation → functional knockout.
@@ -166,7 +168,8 @@ GLO1/GLO2   PARK7          FN3K          Cathepsins   HemF-like
                                           If DJ-1 also compromised → AGE explosion
 ```
 
-> [!warning] Double Hit Mechanism
+> [!WARNING]
+> **Double Hit Mechanism**
 > [[Adrenochrome]]-driven [[Oxidative Stress]] creates a **double hit**: it depletes [[Glutathione]] that the primary [[Glyoxalase System]] needs, AND it activates [[DJ-1]] through Cys106 oxidation — making DJ-1 the last line of defense against dicarbonyl-mediated protein damage.
 
 ## Disease Context

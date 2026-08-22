@@ -76,7 +76,8 @@ Superoxide is a poor signaling molecule but a potent radical source. MnSOD conve
 
 The same H₂O₂/superoxide tone that drives mitohormesis also regulates the **lysosomal** limb: redox signaling activates **[[TFEB]]/TFE3** (lysosomal biogenesis) and primes **mitophagy** (PINK1/Parkin). The Phase I MnSOD axis therefore **upstreams** the Phase III [[SIRT2]]/TFEB/[[Lysosome]] program. A single MnSOD-redox readout thus co-reports on the mitochondria+hormesis axis (Phase I) *and* predicts readiness of the lysosomal clearance axis (Phase III) — making it a cross-domain indicator for the broader mitochondria–hormesis–lysosome combination strategy.
 
-> [!important] Verdict
+> [!IMPORTANT]
+> **Verdict**
 > **Yes — the MnSOD Redox Axis is the mechanistically strongest available indicator of the mitohormetic window.** It sets window position (via SIRT3/SIRT4), window width (via superoxide dwell time), and the H₂O₂ signaling stoichiometry. Its limitation is operational, not conceptual: *direct* ratio measurement is hard, so we measure the axis via a surrogate panel (Section 4).
 
 ---

@@ -67,5 +67,6 @@ Fiedler coordinates (λ₂ = 0.0463): **trigger side (−)**: Creatine −0.0024
 3. Hormetic Window / SIRT3-SIRT4 ratio ego-graph trace (`SIRT3/SIRT4 ratio --determines(0.95)--> Hormetic Window`).
 4. Post-entity-resolution re-run (NF-κB dedup) — expect Arm C and Resveratrol/Fisetin multi-path counts to change most.
 
-> [!done] Queue executed 21 August 2026
+> [!TIP]
+> **Queue executed 21 August 2026**
 > All queued traces ran as round 2 in `src/tasks/node_network_adrenochrome_traces2_21_AUG_2026/` (runs E–I; NR/NMN fuel folded in via run E). Headline surprises: the NF-κB merge is a **quantified null** for path topology (item 4's expectation falsified — H3 survives entity resolution), the MB ⇄ carbazochrome Complex-I conflict is **graph-silent** (carbazochrome carries no ETC wiring), the SIRT3/SIRT4-ratio biomarker chain is a **two-edge stub** disconnected from its own constituents, and NMN is a degree-1 node **outside the giant component**. See `task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md` and the living page §09 log.

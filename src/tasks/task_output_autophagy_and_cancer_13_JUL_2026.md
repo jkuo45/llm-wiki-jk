@@ -12,7 +12,8 @@ updated: 2026-07-13
 
 # Autophagy During Chemotherapy: Conflicting and Agreeing Views
 
-> [!note] Source Context
+> [!NOTE]
+> **Source Context**
 > This report was compiled from wiki notes (primarily the sirtuins, autophagy, and cancer directories) and web literature (2013–2025). It was triggered by the passage describing SIRT5-mediated LDHB deacetylation and autophagy hyperactivation in gastric and colorectal cancer.
 
 ---

@@ -20,7 +20,7 @@ tags:
 type: document
 ---
 
-> [!abstract]
+> [!NOTE]
 > [[Idiopathic Pulmonary Fibrosis|Idiopathic pulmonary fibrosis (IPF)]] has been linked to chronic lung inflammation. [[Drosha]] ribonuclease III, a class 2 ribonuclease III enzyme, plays a key role in [[MicroRNA|microRNA]] (miRNA) biogenesis. However, the mechanisms by which DROSHA affects the lung inflammation during IPF remain unclear. Here, we demonstrate that [[Drosha]] regulates the absent in melanoma 2 ([[AIM2]]) inflammasome activation during IPF. Both [[Drosha]] and [[AIM2]] protein expression were elevated in [[Alveolar Macrophages|alveolar macrophages]] of patients with IPF. [[Drosha]] deficiency suppressed [[AIM2]] inflammasome-dependent [[Caspase-1]] activation and [[Interleukin 1β|interleukin (IL)-1β]] and [[IL-18]] secretion. Transduction of [[MicroRNA|miRNA]] increased formation of [[ASC]] specks, required for [[AIM2]] inflammasome activation. Our results suggest that [[Drosha]] promotes [[AIM2]] inflammasome activation-dependent lung inflammation during IPF.
 
 *Cells* **2019**, *8*(8), 938; [https://doi.org/10.3390/cells8080938](https://doi.org/10.3390/cells8080938)
@@ -37,21 +37,24 @@ The [[AIM2]] inflammasome is a cytosolic double-stranded DNA sensor that assembl
 
 Both [[Drosha]] and [[AIM2]] protein expression were elevated in [[Alveolar Macrophages|alveolar macrophages]] of patients with [[Idiopathic Pulmonary Fibrosis|IPF]]. The same elevation was observed in alveolar macrophages of lung tissue from a mouse model of bleomycin-induced pulmonary fibrosis — a standard experimental proxy for IPF.
 
-> [!info] Human and mouse concordance
+> [!NOTE]
+> **Human and mouse concordance**
 > Elevated [[Drosha]] and [[AIM2]] in human IPF alveolar macrophages is recapitulated in bleomycin-induced fibrotic mouse lung, validating the model for mechanistic dissection of the DROSHA→AIM2 axis.
 
 ## DROSHA deficiency suppresses AIM2 inflammasome activation
 
 [[Drosha]] deficiency suppressed [[AIM2]] inflammasome-dependent [[Caspase-1]] activation and secretion of [[Interleukin 1β|IL-1β]] and [[IL-18]] in primary mouse [[Alveolar Macrophages|alveolar macrophages]] and bone marrow-derived macrophages (BMDMs). Conversely, transduction of [[MicroRNA|miRNA]] increased formation of [[ASC]] specks — the supramolecular foci required for [[AIM2]] inflammasome activation in BMDMs [^13][^15][^42].
 
-> [!important] Mechanistic direction
+> [!IMPORTANT]
+> **Mechanistic direction**
 > [[Drosha]] (and by extension Microprocessor/[[MicroRNA|miRNA]] processing) promotes — rather than suppresses — [[AIM2]] inflammasome activation and downstream [[Caspase-1]]/[[Interleukin 1β|IL-1β]]/[[IL-18]] release in IPF lung macrophages. Loss of [[Drosha]] dampens this innate immune inflammatory output.
 
 ## Significance for inflammaging and the adrenochrome trace
 
 This study provides a direct, experimentally supported link between the [[Microprocessor complex|Microprocessor]] ([[Drosha]]/[[DGCR8]]) and innate immune [[Inflammation|inflammation]] via the [[AIM2]] inflammasome. Within the broader [[Adrenochrome]] → [[Inflammaging]] trace, it reinforces the principle that Microprocessor dysfunction can unleash pro-inflammatory programs: here, elevated [[Drosha]] in diseased macrophages drives an inflammasome-dependent inflammatory phenotype, paralleling how Microprocessor disruption is proposed to feed [[Senescence]] and the [[SASP]] that drive [[Inflammaging]].
 
-> [!note] Therapeutic implication
+> [!NOTE]
+> **Therapeutic implication**
 > Targeting [[Drosha]]/[[Microprocessor complex|Microprocessor]] activity or the [[AIM2]]–[[ASC]]–[[Caspase-1]] axis in alveolar macrophages may attenuate lung inflammation in [[Idiopathic Pulmonary Fibrosis|IPF]], a disease of aging in which chronic inflammation and fibrosis are intertwined.
 
 ## References

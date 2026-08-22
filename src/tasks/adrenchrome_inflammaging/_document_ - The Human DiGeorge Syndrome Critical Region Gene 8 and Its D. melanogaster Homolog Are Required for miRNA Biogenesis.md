@@ -16,7 +16,7 @@ tags:
 type: document
 ---
 
-> [!abstract]
+> [!NOTE]
 > Here, we characterize the human [[DGCR8]] (DiGeorge Syndrome Critical Region gene 8) and its *Drosophila melanogaster* homolog (dmDGCR8). RNAi knockdown of fly and human [[DGCR8]] resulted in accumulation of pri-miRNAs and reduction of pre-miRNAs and mature miRNAs. Our results suggest that [[DGCR8]] and [[Drosha]] interact in human cells and reside in a functional pri-miRNA processing complex.
 
 *Current Biology* 2004;14(23):2162–2167. doi: [10.1016/j.cub.2004.11.001](https://doi.org/10.1016/j.cub.2004.11.001)
@@ -29,7 +29,8 @@ type: document
 
 RNAi depletion of dmDGCR8 in *Drosophila* S2 cells reduced mature miR-2 by 12-fold and pre-miR-2 hairpin by 10–12-fold versus GFP dsRNA control. Depletion of [[Drosha]] reduced mature miR-2 by 4.5-fold. By contrast, depletion of cytoplasmic [[Dicer]]-1 increased pre-miRNA ~6.5-fold with no mature miRNA reduction, and Dicer-2 (siRNA pathway) had no effect. qRT-PCR showed 5- to 23-fold accumulation of pri-miRNAs for intronic miR-2 loci upon dmDGCR8 or [[Drosha]] knockdown.
 
-> [!info] Pri-miRNA accumulation is the signature of nuclear processing loss
+> [!NOTE]
+> **Pri-miRNA accumulation is the signature of nuclear processing loss**
 > Accumulation of unprocessed pri-miRNAs with concurrent loss of pre- and mature miRNAs indicates [[DGCR8]] acts upstream at the nuclear cleavage step, not at transcription or export.
 
 ## Human DGCR8 knockdown phenocopies Drosha loss
@@ -42,7 +43,8 @@ A HeLa EGFP reporter assay sensing endogenous miR-21-guided cleavage confirmed t
 
 Co-immunoprecipitation of epitope-tagged hDrosha and [[DGCR8]] in HEK 293 cells showed mutual coprecipitation that was unaffected by RNase A/T1 treatment — the interaction is **RNA-independent**. Immunopurified hDrosha cleaved radiolabeled pri-miR-27a into a ~64 nt product; complexes co-expressing [[DGCR8]] and hDrosha did the same, while GFP control complexes did not.
 
-> [!success] Key conclusion
+> [!TIP]
+> **Key conclusion**
 > [[DGCR8]] and [[Drosha]] interact in vivo and reside in a functional pri-miRNA-processing complex (the [[Microprocessor complex|Microprocessor]]). DGCR8 is required for [[MicroRNA|miRNA]] maturation in both *D. melanogaster* and humans.
 
 ## Domain model

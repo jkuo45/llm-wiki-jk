@@ -1,6 +1,6 @@
 # Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Their Targets & Substrates
 
-> [!info]
+> [!NOTE]
 > **Task**: Run `scripts/04_node_analysis.py` on the seven mammalian sirtuins against the intracellular **targets and substrates** catalogued in the target/substrate table of the source review *"Sirtuins, a promising target in slowing down the ageing process"* ([[Sirtuins, a promising target in slowing down the ageing process]]; Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017; [PMC5514220](https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/); DOI 10.1007/s10522-017-9685-9) — organized by the review's three target columns: **Modification**, **Activation**, **Inhibition** — supplemented with web research.
 > **Date**: 17_AUGUST_2026 10:20 AM PDT
 > **Graph**: `graphify-out/graph.json` — 2506 nodes / 2055 giant-component nodes / 3213 edges
@@ -26,7 +26,8 @@ Reconstructed from the source document's substrate/target table ([[Sirtuins, a p
 | **SIRT6** (nuclear, chromatin) | Deacetylase + ADP-ribosyltransferase | H2B/H3 (**H2BK12**, **H3K9**, **H3K56**), **WRN** (stabilization) | **FOXO**, **PARP1**, **CtIP** | **NFκB** *(→NF-κB)*, **IGF-1** |
 | **SIRT7** (nucleolar/nuclear) | Deacetylase | **H2A**, **H2B**, H3 (**H3K18** → *H3K18ac*) | **FOXO** | **RNA polymerase I** *(→RNA Polymerase I)* |
 
-> [!tip] Graph coverage
+> [!TIP]
+> **Graph coverage**
 > **31 of 34** distinct target concepts from the source document (91%) exist in `graphify-out/graph.json`. Variant mappings used: Mn-SOD→`MnSOD`, α-tubulin→`Tubulin`, p66shc→`p66Shc`, NFκB→`NF-κB`, H3K18→`H3K18ac`, SOD1→`SOD1 (via desuccinylation)`. Not represented as canonical nodes: core histone H1/H3 as standalone molecules (residue-mark nodes exist instead: `H3K9`, `H3K56`, `H3K14`, `Histone H3K9`, `H3K18ac` — see Caveats, Gaps & Entity-Resolution Notes).
 
 ## Sirtuin Node Fingerprints
@@ -41,7 +42,7 @@ Reconstructed from the source document's substrate/target table ([[Sirtuins, a p
 | **SIRT5** | 43 (1/42) | 0.000317 | 0.0237 | 5 | SIRT5 (30) | — |
 | **SIRT7** | 40 (0/40) | 0.000225 | 0.0221 | 5 | SIRT7 (28) | pure source (in-degree 0) |
 
-> [!important]
+> [!IMPORTANT]
 > Every sirtuin is a **source-type node** (`out_degree` ≫ `in_degree`): the graph encodes them as upstream regulators acting *on* their targets, not as entities acted upon — exactly matching the source document's framing. SIRT1 is the vault's single highest-degree node (212), 3 of the top-5 god nodes are sirtuins, and only SIRT1 reaches k-core 6 (sharing the inner backbone with [[p53]], [[NF-κB]] and [[mTOR]]).
 
 ## Modification Targets — Deacylation Substrates
@@ -84,7 +85,8 @@ All sirtuins are **far closer to every catalogued substrate than random** (z ≈
 - Communities are **substrate-annotated**: H3K56 sits in the SIRT1 community; H3K9 + H4K16 in SIRT3; H2BK12 + WRN in SIRT6; H2A + H2B + H3K18ac in SIRT7 — Leiden clustering recovered the source document's substrate ownership without being given the table.
 - Adamic-Adar: only SIRT1 shows non-zero proximity to foreign substrates (p53 0.711; H2A/H2B/H3K18ac 0.271 via SIRT7; H2BK12/WRN 0.212 via SIRT6) — i.e., SIRT1 is the most likely sirtuin to acquire *new* substrate links.
 
-> [!warning] Gap found
+> [!WARNING]
+> **Gap found**
 > No direct `SIRT1→H3K9` edge, although the source document and the review body (and Vaquero et al. 2007) establish SIRT1 as the principal H3K9 deacetylase. The graph routes SIRT1→H3K9 through 19 three-hop paths (first hop via `Cellular Senescence`, `NF-κB`, `FOXO1`… into SIRT3). SIRT6→H3K9/H3K56 are likewise indirect (via SIRT1 or Cellular Senescence). Candidate triples for a future triples pass.
 
 ## Activation Targets — Activated by Sirtuins
@@ -126,7 +128,8 @@ SIRT1 is the closest sirtuin to AMPK (0.088), FOXO (0.240, z = −1.88), PGC-1α
 
 Highest scores: **SIRT3→AMPK 1.846** and **SIRT1→AMPK 1.606** (both exist as edges — confirming AA recovers known links), then SIRT1→PGC-1α 0.725, SIRT5→AMPK 0.721, SIRT6→LKB1 0.521, SIRT1→FOXO 0.483, SIRT1/SIRT5→LKB1 0.334.
 
-> [!note] k-core
+> [!NOTE]
+> **k-core**
 > Activation targets are much more core-embedded than modification substrates: AMPK, MnSOD, FOXO are k-core 5; PGC-1α/Catalase k-core 4; LKB1/PARP1 k-core 3. Activated targets are network hubs (signaling/energy enzymes), whereas modified substrates (histone marks) are peripheral leaves — a clean structural separation of the two source-document categories.
 
 ## Inhibition Targets — Inhibited by Sirtuins
@@ -166,7 +169,7 @@ SIRT1 closest to NF-κB (R_eff 0.056 — the tightest sirtuin–target commute d
 
 **SIRT1→NF-κB 1.786** is the highest inhibition-category score; then SIRT6→NF-κB 1.261, SIRT7→NF-κB 1.097, SIRT3→NF-κB 0.731, SIRT1→p53 0.711, SIRT1→mTOR 0.498, SIRT1→HIF-1α 0.483. NF-κB is the strongest predicted-link hub for every sirtuin — consistent with the review's framing of NF-κB as the central sirtuin-regulated pro-ageing transcription factor (SASP driver).
 
-> [!important]
+> [!IMPORTANT]
 > **NF-κB is the only target that is itself a god-tier hub**: degree 47, PageRank 0.00441 (higher than SIRT1's 0.00351), k-core 6, own Leiden community. Inhibiting NF-κB is the single most network-central action the sirtuin family performs. [[p53]], [[mTOR]] (k-core 6) and [[HIF-1α]] (k-core 5) follow.
 
 ## Cross-Category Synthesis
@@ -207,7 +210,8 @@ The three source-document target columns occupy **distinct network shells**: sir
 
 ## Therapeutic Takeaways — Targets, Substrates & Druggable Levers
 
-> [!important] Goal framing
+> [!IMPORTANT]
+> **Goal framing**
 > The network structure of sirtuin–target relationships is itself a priority map for therapeutics: the most **network-central** and **most-shared** targets are the highest-value intervention points, while per-sirtuin **selective niches** point to where specificity (and thus safety) can be won.
 
 ### Network-centrality ranking of therapeutic levers

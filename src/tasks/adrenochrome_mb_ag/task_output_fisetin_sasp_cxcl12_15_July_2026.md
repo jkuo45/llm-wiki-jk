@@ -48,7 +48,8 @@ tags:
 
 ### Surprising Connections (from this update)
 
-> [!tip] Fisetin ↔ CXCL12 Bridge
+> [!TIP]
+> **Fisetin ↔ CXCL12 Bridge**
 > [[Fisetin]] normalizes a single circulating [[SASP]] factor to rescue endothelial function — a "humoral senescence" mechanism. This is the only node bridging the senescence community (62 edges) to the vascular dysfunction community (9 edges).
 
 - **[[ACKR3]] ↔ [[Endothelial Cells]]**: Scavenger receptor shift from [[CXCR4]] to [[ACKR3]]-dominant signaling acts as a molecular switch reinforcing the senescent phenotype
@@ -69,7 +70,8 @@ CXCL12 --[references]--> Endothelial Dysfunction
 - LIT-927 (CXCL12 neutraligand) restores endothelial function in aged mice
 - [[Fisetin]] treatment normalizes circulating CXCL12
 
-> [!info] Evidence: EXTRACTED reference edge (confidence: EXTRACTED)
+> [!NOTE]
+> **Evidence: EXTRACTED reference edge (confidence: EXTRACTED)**
 
 ---
 
@@ -86,7 +88,8 @@ CXCL12 --[references]--> Nitric Oxide
 3. LIT-927 restores NO production (+10%), confirming the causal link
 4. [[Fisetin]] normalizes CXCL12 → restores eNOS coupling → restores NO
 
-> [!info] Feed-forward loop
+> [!NOTE]
+> **Feed-forward loop**
 > NO scavenging by superoxide reduces bioavailability, which further impairs [[Mitochondria]] function — a feed-forward loop connecting NO loss to mitochondrial dysfunction.
 
 **The graph also shows:**
@@ -111,7 +114,8 @@ CXCL12 --[references]--> Mitochondria
 3. [[Fisetin]] reduces mitochondrial superoxide by **58%**
 4. The combination of fisetin + LIT-927 reduces superoxide further than either alone
 
-> [!warning] Feed-forward loop identified
+> [!WARNING]
+> **Feed-forward loop identified**
 > ```
 > CXCL12 → Mitochondria → Superoxide → NO scavenging → Endothelial Dysfunction
 >      ↑                                                           |
@@ -137,7 +141,8 @@ CXCL12 --[references]--> Endothelial-to-Mesenchymal Transition
 | [[TGFβ]] (TGFB1) | ↑ | +5.4-fold |
 | [[ACTA2]] (α-SMA) | ↑ | +5.4-fold |
 
-> [!info] EndoMT markers
+> [!NOTE]
+> **EndoMT markers**
 > The EndoMT node connects to CDH5, PECAM1, TGFB1, ACTA2 — all EXTRACTED edges from the Mahoney paper — and to [[Endothelial Dysfunction]] as the downstream consequence.
 
 **Evidence strength:** Direct EXTRACTED reference edge
@@ -158,7 +163,8 @@ CXCL12 --[references]--> p16 INK4a
 - This creates a paracrine senescence spread — senescent cells induce senescence in healthy neighbors
 - [[Fisetin]] eliminates the senescent EC source → breaks the cycle
 
-> [!tip] Paracrine senescence spread
+> [!TIP]
+> **Paracrine senescence spread**
 > CXCL12 acts as a paracrine senescence inducer: senescent cells secrete it, and it activates p21/p16 in healthy neighbors, amplifying the senescent burden.
 
 **Evidence strength:** Direct EXTRACTED reference edges
@@ -202,12 +208,14 @@ This is the longest rescue path in the graph. The chain:
 
 ### The Critical Bridge Role
 
-> [!important] Fisetin as the critical bridge
+> [!IMPORTANT]
+> **Fisetin as the critical bridge**
 > [[Fisetin]] is the **only node** in the graph that directly references both [[CXCL12]] and [[Endothelial Dysfunction]]. Without fisetin, the [[SASP]] community (62 edges) and the vascular dysfunction community (9 edges) would be structurally isolated in the graph. Fisetin bridges these two communities, making it the **critical connector** in this subgraph.
 
 ### The Bcl-2 Validation
 
-> [!warning] Senolytic vs. senomorphic mechanism
+> [!WARNING]
+> **Senolytic vs. senomorphic mechanism**
 > The Mahoney paper shows that when senescent ECs are restored via [[Bcl-2]] transfection (preventing fisetin-induced [[Apoptosis]]):
 > - Endothelial dysfunction returns
 > - CXCL12 levels rise again
@@ -233,7 +241,8 @@ This is the longest rescue path in the graph. The chain:
 - **Cellular organelles:** [[Mitochondria]]
 - **Signaling molecules:** [[Nitric Oxide]]
 
-> [!info] CXCL12 as a high-value therapeutic target
+> [!NOTE]
+> **CXCL12 as a high-value therapeutic target**
 > This hub structure means CXCL12 is a **high-value therapeutic target** — modulating it affects multiple pathological pathways simultaneously.
 
 ### The Senescence → Vascular Dysfunction Bridge

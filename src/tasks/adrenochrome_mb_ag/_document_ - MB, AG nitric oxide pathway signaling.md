@@ -1,6 +1,7 @@
 # Nitric Oxide Pathway Inhibitors
 
-> [!abstract] Summary
+> [!NOTE]
+> **Summary**
 > A comparison of two pharmacological agents — **[[Aminoguanidine]]** and **[[Methylene blue]]** — that intersect at the **[[Nitric Oxide]]** signaling cascade. Aminoguanidine blocks nitric oxide synthesis upstream (via [[Inducible Nitric Oxide Synthase|iNOS]] inhibition), whereas methylene blue blocks its downstream action (via [[Soluble Guanylyl Cyclase|sGC]] inhibition), making them mechanistically complementary tools in inflammation, shock, and transplant research.
 
 ### Overview of the Compounds

@@ -106,7 +106,8 @@ The resveratrol-SIRT1 axis has been studied extensively across several broad dom
 
 Despite the robust biochemistry observed in laboratory settings, translating resveratrol's SIRT1-activating properties to human clinical therapies has faced significant hurdles:
 
-> [!warning] Bioavailability Challenge
+> [!WARNING]
+> **Bioavailability Challenge**
 > Resveratrol is highly lipophilic and rapidly absorbed in the human gastrointestinal tract, but it undergoes extensive first-pass metabolism (rapid glucuronidation and sulfation in the gut and liver). Extremely low concentrations of free, active resveratrol reach the systemic circulation and target tissues.
 
 - **Hormetic (Biphasic) Effects:** Resveratrol often exhibits a biphasic dose-response curve. At low to moderate concentrations, it acts as a mild stressor that triggers beneficial adaptive responses (SIRT1 activation, antioxidant upregulation). However, at very high concentrations, it can induce off-target effects, cell cycle arrest, or pro-oxidant states depending on the cell type.
@@ -231,7 +232,8 @@ For the remaining sirtuins, therapeutic strategies generally focus on **inhibiti
 | **[SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md)** | Nucleus | Deacetylation, Deacylation | [UBCS039](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/UBCS039.md), [MDL-801](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/MDL-801.md), [Cyanidin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Cyanidin.md) | H3K9/H3K56, DNA repair, autophagy |
 | **[SIRT7](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT7.md)** | Nucleolus | Deacetylation | None prominent | H3K18, ribosome biogenesis |
 
-> [!tip] Universal NAD+ Boosters
+> [!TIP]
+> **Universal NAD+ Boosters**
 > To boost NAD+ levels, precursors like **NMN (Nicotinamide Mononucleotide)** and **NR (Nicotinamide Riboside)** serve as universal, indirect pan-sirtuin activators by raising the concentration of their required co-substrate.
 
 ---
@@ -254,7 +256,8 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
   - **Red Wine:** At an average concentration of ~1.9 mg/L, you would need to drink approximately **263 liters** (~1,778 standard glasses) of red wine.
   - **Red Grapes:** At an average concentration of ~1.08 mg/100g, you would need to consume approximately **46 kg (~102 lbs)** of fresh red grapes.
 
-> [!danger] Not Achievable Through Diet
+> [!CAUTION]
+> **Not Achievable Through Diet**
 > **Feasibility:** Not achievable through diet or beverage. Supplementation is required for therapeutic dosing.
 
 ### Dihydromyricetin / DHM (SIRT3 Activator)
@@ -267,7 +270,8 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
 - **Dietary Estimate to Reach 300 mg:**
   - **Vine Tea:** Because of its high concentration, you only need to brew **1 to 1.5 grams of dry vine tea leaves** in hot water to extract a 300 mg dose of highly water-soluble DHM. This is equivalent to about **one to two standard cups** of brewed tea.
 
-> [!success] Highly Attainable
+> [!TIP]
+> **Highly Attainable**
 > **Feasibility:** Highly attainable via diet. Drinking a single cup of traditional Chinese vine tea easily provides a therapeutic dose of DHM.
 
 ### Cyanidin / Cyanidin-3-Glucoside (SIRT6 Activator)
@@ -283,7 +287,8 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
   - **Black Elderberries:** You would need to consume **70 to 85 grams** (slightly less than 1 cup) of fresh elderberries.
   - **Blackberries:** You would need approximately **216 to 352 grams** (roughly 1.5 to 2.5 cups) of fresh blackberries, depending on the cultivar.
 
-> [!success] Highly Attainable
+> [!TIP]
+> **Highly Attainable**
 > **Feasibility:** Highly attainable via diet. A single serving of elderberries or a modest bowl of blackberries covers the therapeutic threshold.
 
 ### Honokiol (SIRT3 Activator)
@@ -297,7 +302,8 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
   - **Magnolia Bark Tea:** You would need to brew and drink a strong tea made from **4 to 20 grams of raw, dried magnolia bark**.
 - **Solubility Caveat:** Honokiol is highly lipophilic and has extremely poor solubility in plain water. A traditional hot-water tea will only extract a tiny fraction of the available honokiol. To achieve a therapeutic dose, it must be extracted using solvents like ethanol (tinctures) or supercritical CO2.
 
-> [!warning] Difficult to Achieve via Tea
+> [!WARNING]
+> **Difficult to Achieve via Tea**
 > **Feasibility:** Moderately difficult and biochemically active. While brewing the raw bark is possible, magnolia compounds are highly sedating and interact strongly with GABA receptors. Consuming large doses via homemade teas is difficult to standardize and may cause unwanted drowsiness, making purified extracts a safer choice.
 
 ### Summary Checklist

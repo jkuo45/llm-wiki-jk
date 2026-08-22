@@ -1,6 +1,6 @@
 # Node-Level Network Analysis for Biological Prioritization
 
-> [!info]
+> [!NOTE]
 > **Task**: Synthesize how the per-node centrality metrics in `graphify-out/graph.json` can be used to triage biomedical entities, walk through concrete worked examples already present in the vault's graph, document the analysis methods available, and propose concrete next steps to push this line of work forward.
 > **Date**: 16_AUG_2026
 > **Scope**: `graphify-out/graph.json` node metrics + `scripts/04_node_analysis.py` + `scripts/03_rebuild_from_triples.py`
@@ -81,7 +81,7 @@ Run form (from README):
 
 ## 5. Suggestions to Further This Along
 
-> [!tip]
+> [!TIP]
 > Concrete, buildable next steps — ordered by effort/impact.
 
 1. **Auto-role classifier from the fingerprint.** Add a small rule layer (in `node_analysis.py` or a new `scripts/role_classify.py`) that tags each node with a biological role from its metrics, e.g.:

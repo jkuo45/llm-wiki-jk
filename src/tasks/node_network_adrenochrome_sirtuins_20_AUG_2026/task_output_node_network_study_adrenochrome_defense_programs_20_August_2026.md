@@ -1,6 +1,6 @@
 # Study Design — One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins
 
-> [!info]
+> [!NOTE]
 > **Task**: Design a study on the current knowledge graph focused on four nodes — [[Adrenochrome]], [[Mitohormesis]], [[Autophagy]], [[Sirtuins]] — using the metric fingerprint and relation-aware methods documented in `web/pages/node-analysis-examples-biology.html` and implemented in `scripts/04_node_analysis.py`. All baseline metrics below are **already computed** against the live graph; the study design turns them into falsifiable hypotheses, an in-silico perturbation experiment, validation arms, and a remediation queue.
 > **Date**: 20_August_2026 07:43 PM PDT
 > **Graph**: `graphify-out/graph.json` — build `867a5ae5fdb8a46c` (metrics computed 2026-08-20 18:21:44) · 2,596 nodes / 3,737 edges · giant component 2,110 nodes / 3,295 edges
@@ -15,7 +15,8 @@ The vault's notes describe [[Adrenochrome]] as a redox-cycling catecholamine oxi
 
 The graph encodes this damage/defense opposition with **zero direct edges among the four nodes** — all coupling is multi-hop through intermediate bridges. That makes the quartet an ideal test bed for the central claim of the methods briefing: *the pattern across metrics is a biological role, and relation-aware methods explain how and why two entities connect.*
 
-> [!important] Primary study question
+> [!IMPORTANT]
+> **Primary study question**
 > **Which defense program is most tightly coupled to the adrenochrome damage module, through which rate-limiting bridges — and do independent metric families (topology, spectral, flow) agree on the ranking?**
 
 Secondary questions: (a) are the bridges single points of failure (rate-limiting choke points)? (b) does the undirected projection distort causal direction anywhere? (c) which cross-program regulators recur across all four neighborhoods?
@@ -70,7 +71,8 @@ Defense-program pairwise controls: Jaccard(Mitohormesis, Autophagy) = 0.076 — 
 
 λ₂ (algebraic connectivity) = 0.0463. Fiedler coordinates: Adrenochrome **−0.0015**; Mitohormesis +0.0034; Autophagy +0.0033; Sirtuins +0.0043.
 
-> [!tip] H2 supported at baseline
+> [!TIP]
+> **H2 supported at baseline**
 > The damage node sits alone on one side of the weakest functional seam; all three defense programs sit on the other. Cross-seam nodes — ROS, Neuromelanin, SASP/NF-κB — are exactly the bridges H1 names, which is what the briefing predicts for nodes stranded on a spectral cut.
 
 ### 3.4 Null-model validation (configuration model, 30 degree-preserving draws)
@@ -129,7 +131,8 @@ Arms A and B are short, high-confidence, and mechanistically direct. Arm C is lo
 
 ### 4.2 ⚠️ The direction-inversion trap on Arm C
 
-> [!warning] Undirected shortest-path reading inverts the terminal edge
+> [!WARNING]
+> **Undirected shortest-path reading inverts the terminal edge**
 > The analysis script prints `NF-κB --[inhibits|0.6]--> Adrenochrome`, but the stored triple is the reverse: **`Adrenochrome --inhibits--> NF-κB`** (confidence 0.6, flagged AMBIGUOUS, from `_document_ - as senotherapeutic agent.md`). The context: the *senomorphic hypothesis* — adrenochrome's electrophilic o-quinone chemistry covalently modifies p65/IKK cysteines, blunting NF-κB-driven SASP transcription.
 >
 > Read correctly, Arm C does **not** say "sirtuins control adrenochrome production." It says **[[Sirtuins]] and [[Adrenochrome]] are two parallel levers on the same SASP/NF-κB axis** — sirtuins suppress SASP from above; adrenochrome (hypothetically) suppresses the same axis from below via electrophile alkylation. This is precisely the "undirected projection loses causal direction" caveat from the briefing, caught red-handed inside the study's own data. Any downstream claim built on Arm C must be restated in these terms.
@@ -173,7 +176,8 @@ Each arm pairs a graph-level manipulation with literature adjudication and, wher
 | **C. Sirtuin/NAD+** | Nicotinamide Riboside, NAD+ repletion | Weak, indirect, direction-inverted coupling (#305/#147 ranks) | **Smallest direct prediction** — effect mediated via SASP suppression, not adrenochrome chemistry | SIRT1 activity, SASP cytokines (IL-6/IL-8), NF-κB acetylation status |
 | **D. Control (antagonist)** | Antioxidant megadose (NAC, high-dose antioxidants) | Graph encodes `N-Acetylcysteine --blocks(0.95)--> Mitohormesis` and `Mitohormesis --is_blocked_by(0.9)--> Antioxidants` | Decouples Arm A entirely — the graph's own negative control | Blunted GDF15/FGF21 response; loss of hormetic conditioning |
 
-> [!note] Why Arm D matters
+> [!NOTE]
+> **Why Arm D matters**
 > The vault already documents the antioxidant-vs-mitohormesis paradox (`task_output_mitohormesis_antioxidants_05_August_2026.md`). The graph independently encodes the blockade as two high-confidence edges into Mitohormesis. If Arm D fails to decouple Arm A's markers empirically, both the triples and the study's bridge logic need re-examination — the briefing's rule: *if the check fails, the score is wrong, not the biology.*
 
 ---

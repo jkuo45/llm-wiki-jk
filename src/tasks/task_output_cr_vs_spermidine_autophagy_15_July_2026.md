@@ -47,7 +47,8 @@ Spermidine → HAT (p300) inhibition → deacetylation of Atg proteins → Autop
 Spermidine → eIF5A hypusination → TFEB translation → Autophagy + Lysosomal biogenesis
 ```
 
-> [!tip] Convergence Point
+> [!TIP]
+> **Convergence Point**
 > CR and spermidine converge on [[TFEB]] but from opposite directions: CR via energy-sensing (AMPK/SIRT1), spermidine via translational control (eIF5A). Both suppress [[mTORC1]] activity indirectly, but through different primary mechanisms.
 
 ---
@@ -63,7 +64,8 @@ CR doesn't just flip the autophagy switch — it **reprograms the entire metabol
 - Induces [[PGC-1α]]-driven mitochondrial biogenesis via [[SIRT1]]
 - Increases circulating adiponectin and improves insulin sensitivity globally
 
-> [!note] Source
+> [!NOTE]
+> **Source**
 > `notes/_link/Caloric Restriction.md:43` — "CR induces epigenetic changes in genes related to lipid metabolism and inflammation, shifting the body from a 'growth' mode to a 'maintenance and repair' mode."
 
 ### Epigenetic Clock Slowing
@@ -74,7 +76,8 @@ CR is uniquely documented to **slow DNA methylation drift** — the epigenetic a
 - Silences pro-aging genes like p16INK4a via both DNA methylation and histone deacetylation
 - Prevents age-related loss of heterochromatin
 
-> [!tip] Key distinction
+> [!TIP]
+> **Key distinction**
 > Spermidine and rapamycin affect histone acetylation at autophagy gene promoters, but they don't demonstrably slow the **global** epigenetic drift that CR does. The `epigenetics/` directory notes (line 177) confirm: *"Calorie restriction prevents increased retrotransposon expression, changes in DNA methylation, histone post-translational modifications, and the age-related loss of heterochromatin."*
 
 ### Multi-Sirtuin Activation Cascade
@@ -87,7 +90,8 @@ CR activates **SIRT1, SIRT3** (and downregulates SIRT4) in a coordinated fashion
 | [[SIRT3]] | **Upregulated** | Mitochondrial biogenesis, AceCS2 activation, thermogenesis |
 | [[SIRT4]] | **Downregulated** | Allows increased GDH activity, glutamine-stimulated insulin secretion |
 
-> [!info] Spermidine does not activate sirtuins
+> [!NOTE]
+> **Spermidine does not activate sirtuins**
 > Spermidine works through HAT inhibition and eIF5A hypusination — it doesn't elevate NAD+ or engage the sirtuin axis at all.
 
 ### FOXO3a Transactivation of Bnip3
@@ -100,7 +104,8 @@ CR → NAD+ ↑ → SIRT1 → deacetylates FOXO3a → transactivates BNIP3 → m
 
 This is a **selective autophagy** pathway that clears damaged mitochondria specifically, not just bulk autophagy. Diet-based inducers generally don't engage this Bnip3 axis.
 
-> [!warning] Source
+> [!WARNING]
+> **Source**
 > `notes/autophagy/_document_ - rubinsztein2011_autophagy_and_aging.md:181` — "FOXO3a inhibition or depletion prevents autophagy induction by starvation in vivo in mouse muscle."
 
 ### TOR-Independent Longevity Pathway
@@ -113,7 +118,8 @@ CR engages **both** sirtuin-dependent and TOR-independent pathways simultaneousl
 
 Rapamycin only hits the TOR branch. Spermidine only hits the HAT/eIF5A branch. **No single inducer replicates the full CR constellation.**
 
-> [!important] Additive, not redundant
+> [!IMPORTANT]
+> **Additive, not redundant**
 > From the Rubinsztein document: *"CR does not further increase life span when TOR signaling is already reduced"* — but rapamycin **can** extend lifespan of flies already maximized by DR, indicating **additional mechanisms** beyond TOR.
 
 ### Immune System Remodeling
@@ -147,7 +153,8 @@ CR has **multi-mechanistic** anti-cancer effects that simple inducers don't:
 | Stem cell maintenance | ✅ | ❌ | ✅ | ❌ |
 | NF-κB suppression | ✅ | ❌ | ✅ | ✅ |
 
-> [!tip] The takeaway
+> [!TIP]
+> **The takeaway**
 > Diet-based autophagy inducers (spermidine, resveratrol, rapamycin) are **partial CR mimetics** — they capture the autophagy arm but miss the systemic metabolic reprogramming, epigenetic remodeling, and multi-pathway coordination that make CR the gold standard. CR is not just an autophagy inducer; it's a **whole-organism state change**.
 
 ---
@@ -204,7 +211,8 @@ This means:
 | **Middle-aged** | ✅ Still beneficial | ✅ Strong benefit (transient 3-month treatment → 60% lifespan increase in mice) |
 | **Old age** | ❌ Fails to inhibit mTOR in old mice | ✅ Still works — strongly inhibits mTORC1 at any age |
 
-> [!important] The critical gap CR cannot fill
+> [!IMPORTANT]
+> **The critical gap CR cannot fill**
 > From the rapamycin document: *"CR is of little benefit when started in old age. Fasting inhibits the mTOR pathway in young but not old mice. By contrast, rapamycin strongly inhibits mTORC1 at any age."*
 
 ---
@@ -279,7 +287,8 @@ Day 2-3: CR/fasting window (AMPK ↑, SIRT1 ↑, NAD+ ↑)
 | **Rapamycin + Exercise** | Lipolysis → fuel → mitochondrial biogenesis | Rapamycin liberates fat; exercise burns it and triggers AMPK/PGC-1α |
 | **CR + Rapamycin + Exercise** | Full-spectrum longevity intervention | Covers all major nutrient-sensing pathways: AMPK, SIRT1, mTORC1, IGF-1, FOXO, TFEB |
 
-> [!tip] The principle
+> [!TIP]
+> **The principle**
 > No single intervention covers all longevity pathways. The additive effect comes from **pathway complementarity** — each intervention fills the gaps the others leave. CR misses late-life mTOR inhibition. Rapamycin misses epigenetic clock slowing. Spermidine misses sirtuin activation. Exercise bridges them all through AMPK.
 
 ---

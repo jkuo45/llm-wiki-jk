@@ -15,7 +15,8 @@ aliases: []
 
 The **SASP-Remodeling Aminochrome Complex (SRAC)** is a sequential senomorphic-senolytic strategy designed to reprogram the senescent phenotype and mitigate inflammaging. It uses a two-phase protocol: AMM + methylene blue + rapamycin-mediated SASP suppression (Phase 1) followed by fisetin-mediated senescent cell clearance (Phase 2), with GlyNAC as a continuous redox buffer.
 
-> [!warning] Protocol Revision (08–09 July 2026)
+> [!WARNING]
+> **Protocol Revision (08–09 July 2026)**
 > **Two revisions applied:**
 >
 > 1. **Nanoparticle delivery removed** — replaced with AMM (adrenochrome monoaminoguanidine, a pre-stabilized complex) + Methylene Blue (mitochondrial self-targeting). No physical targeting vehicle needed.
@@ -30,7 +31,8 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a sequential senomorphic-s
 - **Strike:** [[Fisetin|Fisetin]] (senolytic; intermittent pulses, **Phase 2 only**).
 - **Buffer:** [[GlyNAC]] (Glycine + N-Acetylcysteine; daily, **continuous across both phases**).
 
-> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> [!NOTE]
+> **Rapamycin shows a biphasic (hormetic) dose-response**
 > Cerrillo, Vidakovic & Míguez (2026, _bioRxiv_ 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated _in vitro_. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 
 ## Mechanism of Action (MOA)
@@ -47,7 +49,8 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a sequential senomorphic-s
 5. **Selective Senolysis:** [[Fisetin]] exploits the sensitized metabolic state of senescent cells — autophagy-primed, SASP-suppressed, redox-stressed — to induce selective apoptosis via PI3K/Akt and BCL-2 family inhibition.
 6. **Continued Buffering:** GlyNAC continues throughout Phase 2 to protect healthy tissue from collateral oxidative stress during senescent cell lysis and debris clearance.
 
-> [!important] Rationale for Sequential Dosing
+> [!IMPORTANT]
+> **Rationale for Sequential Dosing**
 > Rapamycin suppresses the pro-survival signaling loops that fisetin targets for selective senolysis. Concurrent administration may shield senescent cells from apoptosis. A 1–2 week washout restores the SASP signaling environment that fisetin exploits.
 
 ## Selectivity Without Physical Targeting
@@ -71,7 +74,8 @@ The SRAC achieves senescent cell selectivity through **three layers of biologica
 
 ## Biomarkers for SRAC Monitoring
 
-> [!info] Reference — SASP biomarker framework
+> [!NOTE]
+> **Reference — SASP biomarker framework**
 > Per [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|Wang et al. (2024, Nat Rev Mol Cell Biol)]], SASP products measured at a single time point cannot discriminate beneficial from detrimental senescence, so SRAC should track biomarkers **longitudinally** (pre, end of Phase 1, post-Phase 2, and during washout).
 
 ### Primary SRAC readouts (already specified)
@@ -98,7 +102,8 @@ The ratio therefore determines how the AMM-generated mitochondrial superoxide bu
 - **High ratio (SIRT3 dominant):** Superoxide is rapidly quenched → narrow hormetic window; SRAC's redox priming is well-tolerated but may under-signal for adaptive mitohormesis.
 - **Low ratio (SIRT4 dominant):** Superoxide persists → wide hormetic window; greater risk of oxidative damage, SASP flare, or cytokine-storm during senescent-cell lysis.
 
-> [!tip] Use in SRAC
+> [!TIP]
+> **Use in SRAC**
 > Because the SRAC redox pulse and the SASP-suppression/readout are both redox-coupled, the [[SIRT3-SIRT4 Ratio]] acts as a **companion biomarker** to the SASP panel: it predicts _who_ will tolerate and benefit from AMM/MB dosing, and can personalize the AMM dose and the MB low-end setting (0.5 mg) to keep the signal within each individual's hormetic window. [[Caloric Restriction]] and NAD⁺ precursors ([[NMN]]/[[Nicotinamide Riboside]]) shift the ratio toward SIRT3 dominance, dovetailing with the SRAC redox-buffer logic.
 
 ### Mechanistic rationale

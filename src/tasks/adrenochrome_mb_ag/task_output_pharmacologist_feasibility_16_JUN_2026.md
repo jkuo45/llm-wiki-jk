@@ -33,7 +33,8 @@ The MRR leverages [[Carbazochrome]] to generate a controlled "oxidative pulse" (
 ## SASP-Remodeling Aminochrome Complex (SRAC)
 **Primary Target:** Cellular Senescence & Inflammaging
 
-> [!warning] Protocol Revised (08–10 July 2026)
+> [!WARNING]
+> **Protocol Revised (08–10 July 2026)**
 > Nanoparticle delivery of adrenochrome has been **removed** from SRAC. There is zero published literature on adrenochrome nanoparticle formulations, and the molecule's rapid autoxidation makes encapsulation impractical. The aminochrome stressor (originally adrenochrome → later [[Carbazochrome]] / [[Adrenochrome monoaminoguanidine]] (AMM)) has now been **fully replaced by [[Methylene blue]] as the sole mitohormetic stressor**. At low (nM) doses MB generates a calibrated H₂O₂ pulse that activates **Nrf2/ARE** → mitochondrial biogenesis, while its electron-cycling (NADH → cytochrome c, bypassing Complex I/III) caps runaway superoxide — i.e. MB is both the trigger *and* its own safeguard. Rapamycin and Fisetin are dosed **sequentially** (Phase 1 → washout → Phase 2) rather than concurrently.
 
 ### Scientific Rationale & Mechanistic Synergy
@@ -41,14 +42,16 @@ SRAC now uses **Methylene Blue** as the controlled metabolic stressor that sensi
 - **Synergy (Phase 1 — senomorphic):** **Rapamycin** (mTORi) decouples the ROS signal from pro-inflammatory SASP production (NF-κB inhibition) and primes autophagy. **Methylene Blue** accumulates in mitochondria via membrane potential, delivers the hormetic H₂O₂ pulse (Nrf2 activation), and prevents runaway ROS via Complex I/III bypass. **GlyNAC** serves as the continuous "Redox Buffer."
 - **Synergy (Phase 2 — senolytic):** **Fisetin** exploits the primed/stressed state to induce selective senolysis after rapamycin washout, avoiding the antagonism of concurrent dosing.
 
-> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> [!NOTE]
+> **Rapamycin shows a biphasic (hormetic) dose-response**
 > Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 
 ### Proposed Combo & Dosing Strategy
 - **Agents:** Methylene Blue (0.5–2 mg/day, the sole stressor), Rapamycin (5 mg weekly, Phase 1 only), Fisetin (intermittent pulses, Phase 2 only), GlyNAC (daily, continuous).
 - **Rationale:** MB alone supplies both the hormetic trigger and ROS control, eliminating the need for any aminochrome (adrenochrome/carbazochrome/AMM). Selectivity rests on SNC biochemical vulnerability (GSH differential, SCAP dependence, autophagy priming) plus MB's mitochondrial self-targeting.
 
-> [!warning] Cross-Strategy Gap — GOPS AGE Component
+> [!WARNING]
+> **Cross-Strategy Gap — GOPS AGE Component**
 > Removing carbazochrome/AMM severs the aminoguanidine-mediated **AGE-inhibition** that previously bridged SRAC to the **GOPS** (Glyco-Oxidative Proteostasis Shield) strategy. GOPS must now retain its own AGE-trapping agent (e.g., [[Aminoguanidine]] or [[Carnosine]]) to preserve the cross-strategy synergy.
 
 ### Feasibility Assessment (Score: ~7.8/10)
@@ -62,7 +65,8 @@ SRAC now uses **Methylene Blue** as the controlled metabolic stressor that sensi
 ## Glyco-Oxidative Proteostasis Shield (GOPS)
 **Primary Target:** Protein Aggregation & Advanced Glycation End-products (AGEs)
 
-> [!warning] Decoupled from the AMM Hybrid (10 July 2026)
+> [!WARNING]
+> **Decoupled from the AMM Hybrid (10 July 2026)**
 > With SRAC dropping [[Adrenochrome monoaminoguanidine]] (AMM), the cross-strategy AGE-inhibition bridge is severed. GOPS is therefore **decoupled from the custom-synthesized hybrid** and rebuilt from independent, readily available agents: the mitohormetic engine ([[Methylene blue]] + NAD⁺ precursors) is shared with MRR/SRAC for UPR/chaperone (HSP) hormesis, while **[[Aminoguanidine]]** is now explicitly owned by GOPS for AGE/carbonyl trapping. This removes the synthesis hurdle and closes the AGE gap.
 
 ### Scientific Rationale & Mechanistic Synergy

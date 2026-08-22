@@ -11,7 +11,8 @@
 
 [[Fisetin]] (3,3′,4′,7-tetrahydroxyflavone) is a natural [[Flavonoid]] with demonstrated [[Senolytic|senolytic]], neuroprotective, anti-inflammatory, and antioxidant properties. It is also a validated inhibitor of [[COMT]] (catechol-O-methyltransferase), with [[IC50]] values in the low micromolar range (2.6–5.8 µM) against human liver COMT. This dual activity—simultaneously clearing [[Senescent Cells]] and modulating [[Catecholamines|catecholamine]]/[[Dopamine]] metabolism—creates a pharmacologically interesting but mechanistically complex intersection. This report evaluates the empirical basis for COMT modulation by fisetin, its implications for longevity research, and proposes a rigorous experimental plan.
 
-> [!important] Key Finding
+> [!IMPORTANT]
+> **Key Finding**
 > Fisetin is not merely a passive COMT inhibitor. It is a **substrate-inhibitor** that is itself O-methylated by COMT, generating the active metabolite [[Geraldol]] (3′,4′,7-trihydroxy-3′-methoxyflavone). This means COMT activity directly shapes fisetin's pharmacokinetic fate, and fisetin's COMT inhibition is substrate-competitive—raising dose- and genotype-dependent complexity that has been inadequately explored in longevity studies.
 
 ---
@@ -39,7 +40,8 @@ Fisetin contains a catechol moiety (3′,4′-dihydroxy B-ring) that serves as a
 - At low concentrations: fisetin acts primarily as a substrate (undergoes methylation)
 - At higher concentrations: fisetin acts as a competitive inhibitor (occupies the active site without being efficiently methylated)
 
-> [!warning] Critical Implication
+> [!WARNING]
+> **Critical Implication**
 > Fisetin's COMT inhibition is not a simple on/off pharmacological effect. It is concentration-dependent, genotype-sensitive, and generates an active metabolite (geraldol) that may itself have distinct biological activity. Any study examining fisetin's neurological or longevity effects must account for this metabolic interplay.
 
 ### Structure–Activity Relationship Context
@@ -111,7 +113,8 @@ Fisetin has notoriously poor oral [[Bioavailability|bioavailability]]:
 | S-[[SNEDDS]] colon-targeted | 4.4–6.9-fold | Rat model |
 | [[Nanoparticles\|Nanosuspension]] | Improved (rat data) | ~225 nm particles |
 
-> [!info] Bioavailability vs. COMT Threshold
+> [!NOTE]
+> **Bioavailability vs. COMT Threshold**
 > Even with the best current formulations, peak plasma fisetin concentrations (~0.8 µM) remain below the IC₅₀ for COMT inhibition. This suggests that **dietary fisetin supplementation at standard nutraceutical doses (100–500 mg) is unlikely to produce meaningful systemic COMT inhibition in peripheral tissues.** However:
 > - **Local concentrations in the GI tract** may transiently exceed the IC₅₀, potentially affecting enteric COMT
 > - **Brain penetration** may achieve higher local concentrations due to fisetin's lipophilicity (log P = 3.2) and reported [[Blood-Brain Barrier|BBB]] crossing
@@ -240,7 +243,8 @@ Fisetin is a legitimate [[COMT Inhibitors|COMT inhibitor]] and COMT substrate wi
 
 The overlap between COMT-inhibitory and senolytic concentration ranges is uncertain and likely cell-type and tissue-dependent. Current evidence does not support the conclusion that dietary fisetin supplementation produces meaningful COMT inhibition in vivo, but the hypothesis has not been adequately tested, particularly with enhanced bioavailability formulations or at senolytic dosing protocols.
 
-> [!tip] Bottom Line
+> [!TIP]
+> **Bottom Line**
 > Fisetin is worth investigating as a dual COMT modulator and [[Senolytic|senolytic]], but the COMT axis has been almost entirely neglected in the longevity literature. A systematic pharmacogenomic investigation—beginning with mouse studies stratified by COMT genotype and measuring brain COMT activity directly—is essential before any claims about COMT-related mechanisms of fisetin's healthspan benefits can be made.
 
 ---

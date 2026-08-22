@@ -61,7 +61,8 @@ From Rubinsztein et al. (Cell 2011) and subsequent work consolidated in vault no
 2. **Longevity interventions require autophagy** — life-extension by caloric restriction, rapamycin, spermidine, resveratrol/SIRT1, and reduced IIS is abolished when autophagy is blocked.
 3. **Age reduces autophagic capacity** — lower ATG expression, impaired lysosomal acidification, CMA decline (LAMP-2A), epigenetic repression of autophagy genes.
 
-> [!important] Flux, not snapshots
+> [!IMPORTANT]
+> **Flux, not snapshots**
 > Elevated LC3-II or Beclin1 can mean **induction** *or* **block of clearance**. Longevity-relevant phenotype is **completed flux** (cargo → lysosome → recycling), ideally with lower p62 when flux is competent.
 
 ---
@@ -100,7 +101,8 @@ Geriatric dog muscle vs young:
 - ↑ Beclin1, ↑ LC3-II; ↓ p62 in 80% of old samples
 - Authors interpret **enhanced autophagy** as a contributor to age-related muscle atrophy
 
-> [!warning] Interpretation nuance
+> [!WARNING]
+> **Interpretation nuance**
 > Lower p62 + higher LC3-II is consistent with **active flux**, but chronic hyperactivation of catabolism without anabolic compensation can **drive** sarcopenia. Longevity goal in muscle is **balanced** quality control (mitophagy of damaged organelles) without unchecked bulk protein loss — ideally paired with resistance-type loading and adequate amino acids (esp. leucine).
 
 ### Cardiac valve aging — MMVD (high clinical impact)
@@ -145,7 +147,8 @@ PubMed-specific hits for *feline autophagy + aging* are scarce. What can be stat
 3. **Clinical aging syndromes** (CKD, cognitive dysfunction, osteoarthritis, cancer) are autophagy-plausible targets by homology to dog/mouse/human, but **direct flux measurements in aged cat tissues are largely missing**.
 4. Companion animal nutrition literature (e.g. Hill, *Proc Nutr Soc* 2009) documents large survival effects of dietary restriction in dogs (Labrador CR ~+2 years; protein/P restriction doubles median survival in CKD contexts) — **feline CR longevity RCTs with autophagy endpoints do not exist at comparable rigor**.
 
-> [!tip] Research gap ranking
+> [!TIP]
+> **Research gap ranking**
 > Highest-value missing experiment: age-stratified autophagic flux (LC3 turnover ± bafilomycin, p62, TFEB localization, LAMP-2A) in cat kidney, heart, skeletal muscle, and brain — parallel to existing canine datasets.
 
 ---

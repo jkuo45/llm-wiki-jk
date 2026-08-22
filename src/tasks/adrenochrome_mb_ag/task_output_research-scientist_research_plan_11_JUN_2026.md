@@ -25,7 +25,8 @@ updated: 2026-06-11
 
 Adrenochrome (3-hydroxy-1-methyl-2,3-dihydro-1H-indole-5,6-dione) has traditionally been dismissed as a toxic, non-functional byproduct of [[Epinephrine]] oxidation, primarily associated with [[Cardiotoxicity]] and neurodegenerative pathology.
 
-> [!important] Core Hypothesis
+> [!IMPORTANT]
+> **Core Hypothesis**
 > Controlled redox cycling of adrenochrome represents an endogenous "stress-sensor" that can be leveraged to enhance cellular resilience and target fundamental hallmarks of aging — challenging the traditional "toxin-only" dogma through a **mitohormetic lens**.
 
 ---
@@ -44,7 +45,8 @@ The central mechanism of adrenochrome toxicity is its ability to undergo [[Redox
 
 Derivatives such as **[[Adrenochrome monoaminoguanidine]]** combine the indoline-dione core with [[Aminoguanidine]], a known inhibitor of **Advanced Glycation End-products (AGEs)**.
 
-> [!tip] Novel Class
+> [!TIP]
+> **Novel Class**
 > This molecule represents a "glyco-oxidative" modulator that could simultaneously address two primary hallmarks of aging: oxidative damage and protein cross-linking.
 
 ### Senomorphic Potential
@@ -72,7 +74,8 @@ Preliminary data on related [[Aminochromes]] suggest they may modulate the **Sen
 - **SAR Studies:** Modify the N-methyl group and position 3-hydroxyl group to optimize stability and blood-brain barrier (BBB) permeability.
 - **Comparator:** Benchmarking against [[Metformin]], [[Rapamycin]], and Nicotinamide Mononucleotide (NMN).
 
-> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> [!NOTE]
+> **Rapamycin shows a biphasic (hormetic) dose-response**
 > Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
 
 ### Phase IV: In Vivo Longevity Assays
@@ -92,7 +95,8 @@ Preliminary data on related [[Aminochromes]] suggest they may modulate the **Sen
 
 ## Risk Assessment & Mitigation
 
-> [!warning] Key Risks
+> [!WARNING]
+> **Key Risks**
 > The most significant risks are cardiotoxicity and neurotoxicity. Mitigation strategies focus on stabilized derivatives and targeted delivery.
 
 - **Cardiotoxicity:** Use of **stabilized derivatives** and targeted delivery (e.g., nanoparticle-mediated release in specific tissues).
@@ -103,7 +107,8 @@ Preliminary data on related [[Aminochromes]] suggest they may modulate the **Sen
 
 ## Conclusion
 
-> [!abstract] Recommendation
+> [!NOTE]
+> **Recommendation**
 > Proceed to Phase I pilot studies immediately.
 
 Adrenochrome warrants serious investigation as a "dark horse" in the longevity field. Its unique ability to act as an endogenous redox-cycling catalyst provides a mechanism for precision-tuning cellular stress responses that traditional antioxidants cannot replicate.
@@ -135,7 +140,8 @@ A multi-phase research program was proposed:
 - **Research Plan:** Full structured proposal available in `notes/adrenochrome/tasks/adrenochrome_research_11_Jun_2026.md`.
 - **Wiki Indexing:** README.md updated to reflect 162 entities and latest research findings.
 
-> [!note] Summary
+> [!NOTE]
+> **Summary**
 > While the risks (cardiotoxicity) are significant, the potential for adrenochrome-derived modulators to serve as precision mitohormetic triggers warrants rigorous, evidence-based exploration.
 
 ---
