@@ -20,36 +20,36 @@ The **[[_document_ - Mitohormetic Redox-Relay]] (MRR)** is a highly structured a
 
 ---
 
-### 1. Biochemical Analysis of the Components and Synergy
+### Biochemical Analysis of the Components and Synergy
 
-#### 1.1. [[Carbazochrome]] as the Trigger (The Hormetic Pulse)
+- **[[Carbazochrome]] as the Trigger (The Hormetic Pulse)**
 
-- **The Science:** Classic research demonstrates that [[Epinephrine]] and its oxidation product, [[Adrenochrome]], undergo direct [[Redox Cycling]] mediated by mitochondrial Complex I (and carbonyl reductases), producing a controlled flux of [[Superoxide anion]] (O₂⁻).
-- **The MRR Strategy:** Using sub-micromolar concentrations of [[Carbazochrome]] (adrenochrome monosemicarbazone) is a strategic choice. Free [[Adrenochrome]] is notoriously unstable and highly reactive, making it difficult to dose safely. [[Carbazochrome]] provides a stabilized quinoid structure suitable for controlled administration.
-- **The Mitohormetic Transition:** This controlled generation of low-amplitude mitochondrial ROS (mtROS) acts as a signaling "eustress." Rather than causing catastrophic [[Lipid Peroxidation]], the localized pulse is designed to transiently modify [[Keap1]] cysteine residues, allowing [[NRF2]] to translocate to the nucleus and transcribe [[Antioxidant Response Element]] (ARE) genes. Simultaneously, it can activate the [[SIRT1]]/[[AMPK]]/[[PGC-1α]] network to stimulate [[Mitochondrial Biogenesis]].
+    - **The Science:** Classic research demonstrates that [[Epinephrine]] and its oxidation product, [[Adrenochrome]], undergo direct [[Redox Cycling]] mediated by mitochondrial Complex I (and carbonyl reductases), producing a controlled flux of [[Superoxide anion]] (O₂⁻).
+    - **The MRR Strategy:** Using sub-micromolar concentrations of [[Carbazochrome]] (adrenochrome monosemicarbazone) is a strategic choice. Free [[Adrenochrome]] is notoriously unstable and highly reactive, making it difficult to dose safely. [[Carbazochrome]] provides a stabilized quinoid structure suitable for controlled administration.
+    - **The Mitohormetic Transition:** This controlled generation of low-amplitude mitochondrial ROS (mtROS) acts as a signaling "eustress." Rather than causing catastrophic [[Lipid Peroxidation]], the localized pulse is designed to transiently modify [[Keap1]] cysteine residues, allowing [[NRF2]] to translocate to the nucleus and transcribe [[Antioxidant Response Element]] (ARE) genes. Simultaneously, it can activate the [[SIRT1]]/[[AMPK]]/[[PGC-1α]] network to stimulate [[Mitochondrial Biogenesis]].
 
-#### 1.2. [[Methylene blue]] as the Amplifier/Shunt (The Safety Valve)
+- **[[Methylene blue]] as the Amplifier/Shunt (The Safety Valve)**
 
-- **The Science:** [[Methylene blue]] (MB) acts as an alternative electron cycler. It can accept electrons directly from [[NADH]] (bypassing Complex I) or FADH₂ (bypassing Complex II) and transfer them directly to [[Cytochrome c]], driving ATP synthesis even with compromised respiratory complexes.
-- **The MRR Synergy:** MB acts as a crucial "safety valve." Because Complex I is a major site of [[Carbazochrome]]/[[Adrenochrome]]-mediated [[Redox Cycling]], there is a danger of runaway [[Superoxide anion]] generation. MB can shunt excess electrons past damaged or overworked complexes, ensuring the [[Carbazochrome]]-induced oxidative pulse remains strictly low-amplitude and signaling-focused rather than escalating into oxidative distress.
+    - **The Science:** [[Methylene blue]] (MB) acts as an alternative electron cycler. It can accept electrons directly from [[NADH]] (bypassing Complex I) or FADH₂ (bypassing Complex II) and transfer them directly to [[Cytochrome c]], driving ATP synthesis even with compromised respiratory complexes.
+    - **The MRR Synergy:** MB acts as a crucial "safety valve." Because Complex I is a major site of [[Carbazochrome]]/[[Adrenochrome]]-mediated [[Redox Cycling]], there is a danger of runaway [[Superoxide anion]] generation. MB can shunt excess electrons past damaged or overworked complexes, ensuring the [[Carbazochrome]]-induced oxidative pulse remains strictly low-amplitude and signaling-focused rather than escalating into oxidative distress.
 
-#### 1.3. Fuel: [[Nicotinamide Riboside]]/[[Nicotinamide Mononucleotide]] (The Bioenergetic Engine)
+- **Fuel: [[Nicotinamide Riboside]]/[[Nicotinamide Mononucleotide]] (The Bioenergetic Engine)**
 
-- **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular [[NADH]]/[[NAD+|NAD⁺]] ratio toward [[NAD+|NAD⁺]].
-- **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly [[NAD+|NAD⁺]]-dependent. By priming the system with [[NAD+|NAD⁺]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out [[PGC-1α]]/[[SIRT1]]-driven [[Mitochondrial Biogenesis]].
+    - **The Science:** [[Methylene blue]]'s cycling mechanism naturally shifts the intracellular [[NADH]]/[[NAD+|NAD⁺]] ratio toward [[NAD+|NAD⁺]].
+    - **The MRR Synergy:** Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC-1α]] by [[SIRT1]] and [[SIRT3]]) are highly [[NAD+|NAD⁺]]-dependent. By priming the system with [[NAD+|NAD⁺]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out [[PGC-1α]]/[[SIRT1]]-driven [[Mitochondrial Biogenesis]].
 
-> [!TIP]
-> **Predictive biomarker — [[SIRT3-SIRT4 Ratio]]**
-> The [[SIRT3-SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the carbazochrome/adrenochrome-derived signal is adaptive or toxic.
+    > [!TIP]
+    > **Predictive biomarker — [[SIRT3-SIRT4 Ratio]]**
+    > The [[SIRT3-SIRT4 Ratio]] is a predictive **biomarker** for individual responsiveness to the MRR pulse: it sets the [[Hormetic Window]] by determining MnSOD-mediated superoxide clearance vs. retention, dictating whether the carbazochrome/adrenochrome-derived signal is adaptive or toxic.
 
-#### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)
+- **Cleanup: [[Urolithin A]] (The Quality Control)**
 
-- **The Science:** [[Autophagy]] and selective [[Mitophagy]] are essential for clearing dysfunctional [[Mitochondria]] that fail to recover from stress.
-- **The MRR Synergy:** Even with a controlled hormetic pulse, some compromised [[Mitochondria]] will undergo irreversible depolarization. [[Urolithin A]] ensures these damaged organelles are efficiently sequestered into autophagosomes and degraded, preventing leakage of pro-apoptotic proteins or generation of uncoupled, toxic levels of ROS. The net outcome is a younger, more efficient mitochondrial pool.
+    - **The Science:** [[Autophagy]] and selective [[Mitophagy]] are essential for clearing dysfunctional [[Mitochondria]] that fail to recover from stress.
+    - **The MRR Synergy:** Even with a controlled hormetic pulse, some compromised [[Mitochondria]] will undergo irreversible depolarization. [[Urolithin A]] ensures these damaged organelles are efficiently sequestered into autophagosomes and degraded, preventing leakage of pro-apoptotic proteins or generation of uncoupled, toxic levels of ROS. The net outcome is a younger, more efficient mitochondrial pool.
 
 ---
 
-### 2. Critical Challenges and Biochemical Hurdles
+### Critical Challenges and Biochemical Hurdles
 
 While conceptually robust, several scientific challenges require careful attention:
 
@@ -63,7 +63,7 @@ While conceptually robust, several scientific challenges require careful attenti
 
 ---
 
-### 3. Suggested Research and Validation Framework
+### Suggested Research and Validation Framework
 
 To transition this theoretical relay into an empirical protocol, the following in vitro and in organello validation steps are recommended:
 

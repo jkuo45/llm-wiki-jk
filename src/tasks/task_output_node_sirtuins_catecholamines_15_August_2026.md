@@ -30,7 +30,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 - All source–target pairs lie ≤2 hops apart; hop distance is non-discriminating. All signal comes from the networkx/scipy metrics below.
 - Bridges listed are first-hop nodes on the shortest paths; multiple bridges = redundant routes into the target's neighborhood.
 
-## 1. Shortest-Path Multiplicity (NetworkX)
+## Shortest-Path Multiplicity (NetworkX)
 
 | Source → Target | Shortest paths | Bridge nodes (1st hop) |
 |---|---|---|
@@ -49,7 +49,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 - **SIRT3 → Dopamine has exactly one route** — through [[Oxidative Stress]] (the only latent redox edge a sirtuin holds to a catecholamine).
 - COMT sits 1 hop from both substrates (direct metabolic adjacency); MAO reaches Dopamine only via Epinephrine.
 
-## 2. Neighborhood Distinctness (degree + pairwise Jaccard)
+## Neighborhood Distinctness (degree + pairwise Jaccard)
 
 | Node | Degree |
 |---|---|
@@ -65,7 +65,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 - Enzyme–substrate overlap is the only substantive one (COMT–Dopamine 0.015, COMT–Epinephrine 0.013, MAO–Epinephrine 0.045).
 - Signature neighbors: SIRT1 | geroscience/proteostasis ([[Senescence]], [[Lifespan]], [[p53]], [[LC3]]); SIRT3 | mitochondrial metabolism ([[HIF-1α]], ketogenesis, [[H3K56ac]]); Dopamine | neurotoxicology ([[Dopaminochrome]], [[Neuromelanin]], Substantia Nigra Pars Compacta); Epinephrine | cardiometabolic oxidation ([[Adrenochrome]], [[Myeloperoxidase]], [[Metanephrine]]).
 
-## 3. Adamic-Adar Link-Prediction Proximity
+## Adamic-Adar Link-Prediction Proximity
 
 | Pair | Adamic-Adar |
 |---|---|
@@ -76,10 +76,10 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 | SIRT1/2 → either | 0.000 |
 | MAO → Dopamine | 0.000 |
 
-- The only sirtuin with a nonzero latent edge to a catecholamine is **SIRT3 → Dopamine** (shared-neighbor pull via the redox zone), consistent with §1's single Oxidative-Stress bridge.
+- The only sirtuin with a nonzero latent edge to a catecholamine is **SIRT3 → Dopamine** (shared-neighbor pull via the redox zone), consistent with the single Oxidative-Stress bridge in Shortest-Path Multiplicity.
 - COMT is the dominant latent-link hub; MAO has latent pull only to Epinephrine.
 
-## 4. k-Core Nesting (NetworkX)
+## k-Core Nesting (NetworkX)
 
 | Node | k-core |
 |---|---|
@@ -91,13 +91,13 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 | Epinephrine | 4 |
 | MAO | **2** |
 
-## 5. Spectral Analysis (SciPy — dense eigh)
+## Spectral Analysis (SciPy — dense eigh)
 
 - **Algebraic connectivity** λ₂ = **0.0495** (healthy giant component, consistent across runs).
 - **Fiedler vector**: sirtuins sit on the bisection boundary (−0.0028 to −0.0032); COMT **+0.0274** is the most offset node (genotype/metabolic cluster cleanly separated); catecholamines +0.005 to +0.007; MAO +0.0028.
 - Reading: the graph's natural bisection separates the sirtuin governance zone (boundary) from the catecholamine-metabolism zone (COMT clearly inside the latter).
 
-## 6. Effective-Resistance / Commute Distance (pseudoinverse Laplacian)
+## Effective-Resistance / Commute Distance (pseudoinverse Laplacian)
 
 `R_eff` via thresholded dense `eigh`; null model = 300 random nodes per target.
 
@@ -112,7 +112,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 - Sirtuins are marginally closer to both catecholamines than COMT (all significantly vs null, z ≤ −1.66).
 - MAO is ~3–4× more distant and only marginally-significantly close to Epinephrine (z = −1.07) — the peripheral byproduct mode.
 
-## 7. Personalized PageRank — Random-Walk Proximity
+## Personalized PageRank — Random-Walk Proximity
 
 | Target seed | SIRT1 | SIRT3 | SIRT2 | COMT | MAO |
 |---|---|---|---|---|---|
@@ -121,7 +121,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 
 - COMT receives >100× the diffusion flow of any sirtuin (direct adjacency → strong walk-residency); sirtuins rank mid-pack; MAO is near-invisible from Dopamine but jumps to #14 when seeded at Epinephrine (its only strong edge).
 
-## 8. Cross-Metric Synthesis — Three Distinct Modes of Catecholamine Proximity
+## Cross-Metric Synthesis — Three Distinct Modes of Catecholamine Proximity
 
 | Mode | Nodes | Signature measures |
 |---|---|---|

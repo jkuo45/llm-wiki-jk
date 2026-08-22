@@ -25,7 +25,7 @@ tags:
 
 ---
 
-## 1. OMM Fusion — MFN1/MFN2
+## OMM Fusion — MFN1/MFN2
 
 | Gap | Current State | Source |
 |-----|--------------|--------|
@@ -34,7 +34,7 @@ tags:
 | **Single-TM topology vs. classical two-TM model** | Updated cryo-EM/biochemistry supports a single transmembrane domain placing HR2 in the IMS. Functional implications of this topology for how MFNs actually deform and merge lipid bilayers remain to be elucidated structurally. | Adebayo et al. 2021 |
 | **MFN1 vs. MFN2 functional redundancy vs. specialization** | They share ~80% homology and can rescue each other's loss in fibroblasts, yet MFN2 mutations cause CMT2A while MFN1 mutations are linked to HCC/TNBC. How their tissue-specific expression and non-overlapping interactomes produce distinct disease phenotypes is poorly understood. | Wang et al. 2023 |
 
-## 2. IMM Fusion — OPA1 & Cardiolipin
+## IMM Fusion — OPA1 & Cardiolipin
 
 | Gap | Current State | Source |
 |-----|--------------|--------|
@@ -43,7 +43,7 @@ tags:
 | **Cardiolipin's precise role in IMM fusion** | CL is required for OPA1-mediated fusion in liposomes and also stimulates DRP1 GTPase activity for fission. How CL balances these opposing roles — what triggers its differential actions — is unknown. | Adebayo et al. 2021 |
 | **Structural mechanism of IMM merger** | No high-resolution structure exists for the actual fusion pore formed by OPA1 oligomers on cardiolipin-rich membranes. The biophysics of inner membrane remodeling remains a black box. | Adebayo et al. 2021 |
 
-## 3. Fission — DRP1 & Adaptors
+## Fission — DRP1 & Adaptors
 
 | Gap | Current State | Source |
 |-----|--------------|--------|
@@ -53,7 +53,7 @@ tags:
 | **MID49/MID51 dose-dependent paradox** | Low MID levels enhance fission, but overexpression elongates mitochondria (by recruiting inactive DRP1). The mechanistic basis for this biphasic behavior is unresolved. | Wang et al. 2023 |
 | **Mammalian FIS1 functional significance** | FIS1 is essential in yeast but mammalian FIS1-KO shows little fission defect. Its role appears shifted toward mitophagy rather than fission — why and how this evolutionary divergence occurred is not understood. | Wang et al. 2023 |
 
-## 4. DRP1 Post-Translational Regulation
+## DRP1 Post-Translational Regulation
 
 | Gap | Current State | Source |
 |-----|--------------|--------|
@@ -61,7 +61,7 @@ tags:
 | **No unified PTM code for DRP1** | Phosphorylation, SUMOylation (SUMO1 vs. SUMO2/3 have opposite effects), S-nitrosylation, O-GlcNAcylation, and ubiquitination all regulate DRP1. How these are integrated in a given cellular context to produce a specific fission outcome is unknown. | Wang et al. 2023 |
 | **Cryo-EM mechanism incomplete** | Cryo-EM of MID49/51–DRP1–GTP complexes shows GTP binding forms linear oligomers, GTP hydrolysis curls them into helical rings (16 nm inner diameter). How this ring actually breaks two membranes simultaneously is not captured. | Wang et al. 2023 |
 
-## 5. Fission–Fusion–Mitophagy Coupling
+## Fission–Fusion–Mitophagy Coupling
 
 | Gap | Current State | Source |
 |-----|--------------|--------|
@@ -71,7 +71,7 @@ tags:
 | **Alternative compensatory fission pathways** | Whether alternative pathways compensate for PINK1-DRP1 fission defects in dendritic spines is unknown. Multiple backup systems (MUL1, Ambra-1/HUWE1, DRP1-mediated OMM rupture, receptor-mediated pathways) exist but their relative contributions in different neuronal subtypes are unmapped. | Yang et al. 2026 |
 | **Fission/fusion uncoupling in HD** | mHTT does not simply suppress or enhance mitophagy — it *uncouples* fission from degradation while disrupting autophagic flux. Broad-spectrum autophagy activators like rapamycin may be insufficient or detrimental if downstream transport and lysosomal fusion remain blocked. | Yang et al. 2026 |
 
-## 6. Therapeutic Targeting Gaps
+## Therapeutic Targeting Gaps
 
 | Gap | Current State | Source |
 |-----|--------------|--------|
@@ -81,7 +81,7 @@ tags:
 | **Cancer: fission vs. fusion as target** | DRP1 upregulation promotes proliferation/metastasis in most cancers, but mitochondrial fusion also supports tumor growth in some contexts (leflunomide in breast cancer). Whether to promote or inhibit dynamics depends on tumor type — no generalizable principle exists. | Wang et al. 2023 |
 | **Mito-lysosomal mismatch** | Inducing mitophagy is insufficient if downstream lysosomes cannot process sequestered waste ("autophagic stress"). Future drug screening should prioritize dual mito-lysosomal repair. | Yang et al. 2026 |
 
-## 7. Disease-Causation Ambiguity
+## Disease-Causation Ambiguity
 
 | Gap | Current State | Source |
 |-----|--------------|--------|

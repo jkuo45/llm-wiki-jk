@@ -26,7 +26,7 @@ source: graphify-out/graph.json + networkx/scipy analysis
 - **Node ids** in the current `graph.json` are snake_case strings (`sirt1`, `adrenochrome`), unlike earlier graph builds that used topic-prefixed ids (e.g. `notes__link_sirt1`). Any downstream script must normalize ids from labels.
 - **Hop distance is non-discriminating**: SIRT1, SIRT2, SIRT3 are all exactly **2 hops** from Adrenochrome. Every metric below exists to answer "which is *functionally* closer" where hop-count fails.
 
-## 1. Shortest-Path Multiplicity (NetworkX)
+## Shortest-Path Multiplicity (NetworkX)
 
 Count of *all* distinct shortest paths and their first-hop bridge nodes:
 
@@ -39,7 +39,7 @@ Count of *all* distinct shortest paths and their first-hop bridge nodes:
 - SIRT3 reaches Adrenochrome's zone through **two independent routes** — redundancy/robustness.
 - SIRT1 and SIRT2 depend on a **single bridge** ([[NF-κB]]), a single point of failure.
 
-## 2. Neighborhood Distinctness (degree + Jaccard)
+## Neighborhood Distinctness (degree + Jaccard)
 
 | Measure | SIRT1 | SIRT3 |
 |---|---|---|
@@ -50,16 +50,16 @@ Count of *all* distinct shortest paths and their first-hop bridge nodes:
 - SIRT3's unique neighbors are mitochondrial metabolism/aging: [[HIF-1α]] (inhibits glycolysis), ketogenesis, pyruvate dehydrogenase E1α, [[H3K56ac]], [[Intermittent Fasting]], [[ATM]], ischemia-reperfusion injury, obesity, epilepsy, Human aging (longevity).
 - Conclusion: despite sharing the "sirtuin" label, SIRT1 and SIRT3 touch **nearly disjoint functional neighborhoods** in the graph.
 
-## 3. Common-Neighbor / Link-Prediction Proximity (Adamic-Adar, NetworkX)
+## Common-Neighbor / Link-Prediction Proximity (Adamic-Adar, NetworkX)
 
 | Pair | Adamic-Adar score |
 |---|---|
 | SIRT3 → Adrenochrome | **0.556** |
 | SIRT1 → Adrenochrome | 0.268 |
 
-- The latent (missing-edge) pull toward Adrenochrome is **strongest for SIRT3**, consistent with the 2-path redundancy from §1.
+- The latent (missing-edge) pull toward Adrenochrome is **strongest for SIRT3**, consistent with the 2-path redundancy from the Shortest-Path Multiplicity section.
 
-## 4. k-Core Nesting (NetworkX)
+## k-Core Nesting (NetworkX)
 
 | Node | k-core |
 |---|---|
@@ -70,13 +70,13 @@ Count of *all* distinct shortest paths and their first-hop bridge nodes:
 
 - SIRT1 sits in the densest nested core of the four; Adrenochrome is peripheral to it.
 
-## 5. Spectral Analysis (SciPy — dense `eigh`)
+## Spectral Analysis (SciPy — dense `eigh`)
 
 - **Algebraic connectivity** λ₂ = **0.0495** — the giant component is healthy (well above the ~0 disconnection threshold).
 - **Fiedler vector** (smallest non-trivial eigenvector, spectral bisection axis): SIRT1 +0.0029, SIRT3 +0.0028, SIRT2 +0.0032, Adrenochrome **−0.0017**.
 - Interpretation: the natural bisection axis of the graph separates Adrenochrome (redox/catecholamine side) from the sirtuin governance cluster; all three sirtuins sit essentially **on the boundary**, consistent with their redox-regulatory gatekeeper role.
 
-## 6. Effective-Resistance / Commute Distance (SciPy — pseudoinverse Laplacian)
+## Effective-Resistance / Commute Distance (SciPy — pseudoinverse Laplacian)
 
 `R_eff(a,b) = pinv(L)[a,a] + pinv(L)[b,b] − 2·pinv(L)[a,b]`, computed via dense `scipy.linalg.eigh` (thresholded eigenvalues) on the 2028-node giant component.
 
@@ -89,7 +89,7 @@ Count of *all* distinct shortest paths and their first-hop bridge nodes:
 - All three sirtuins are meaningfully closer to Adrenochrome than random expectation (z ≈ −1.7), but only marginally different from one another by this global-flow metric.
 - SIRT1 nominally closest; SIRT2 most distant.
 
-## 7. Personalized PageRank — Random-Walk Proximity (NetworkX)
+## Personalized PageRank — Random-Walk Proximity (NetworkX)
 
 `nx.pagerank(personalization={Adrenochrome: 1.0}, α=0.85)` — diffusion flow originating at Adrenochrome:
 
@@ -101,7 +101,7 @@ Count of *all* distinct shortest paths and their first-hop bridge nodes:
 
 - By random-walk flow, SIRT1 is closest to Adrenochrome, SIRT3 second, SIRT2 far behind.
 
-## 8. Cross-Metric Synthesis — the Ranking Flips
+## Cross-Metric Synthesis — the Ranking Flips
 
 | Metric class | Winner | Meaning |
 |---|---|---|

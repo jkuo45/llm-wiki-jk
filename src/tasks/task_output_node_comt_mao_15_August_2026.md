@@ -29,7 +29,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 - Graph node ids are snake_case strings; script resolves entity labels case-insensitively.
 - **Hop distance is trivially non-discriminating**: every source–target pair sits exactly **1 edge** apart (they are metabolically adjacent in the corpus). All discriminating signal comes from the networkx/scipy metrics below.
 
-## 1. Shortest-Path Multiplicity (NetworkX)
+## Shortest-Path Multiplicity (NetworkX)
 
 | Pair | Shortest paths | Bridges (1st hop) |
 |---|---|---|
@@ -40,7 +40,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 
 - COMT links directly to both catecholamines; MAO reaches Dopamine **only through Epinephrine** (no direct edge).
 
-## 2. Neighborhood Distinctness (degree + Jaccard)
+## Neighborhood Distinctness (degree + Jaccard)
 
 | Measure | COMT | MAO | Dopamine | Epinephrine |
 |---|---|---|---|---|
@@ -52,7 +52,7 @@ Pairwise Jaccard: COMT–MAO **0.017**, COMT–Dopamine 0.015, COMT–Epinephrin
 - COMT's unique neighborhood is genotype/pharmacology: [[Berberine]], [[Betaine]], COMT Val allele, Catechols, D2 receptor, chromosome 22q11.21, COMT inhibitor supplements.
 - Dopamine's orbit is neurotoxicology ([[Dopaminochrome]], [[Dopamine o-quinone]], [[Neuromelanin]], [[Substantia Nigra Pars Compacta]]); Epinephrine's is cardiometabolic oxidation ([[Adrenochrome]], [[Adrenaline-quinone]], [[Myeloperoxidase]], [[Neutrophils]], [[Metanephrine]]).
 
-## 3. Adamic-Adar Link-Prediction Proximity (every source × every target)
+## Adamic-Adar Link-Prediction Proximity (every source × every target)
 
 | Pair | Adamic-Adar |
 |---|---|
@@ -63,7 +63,7 @@ Pairwise Jaccard: COMT–MAO **0.017**, COMT–Dopamine 0.015, COMT–Epinephrin
 
 - COMT's strongest latent edge pull is toward Epinephrine; MAO has nothing latent toward Dopamine and a moderate pull to Epinephrine.
 
-## 4. k-Core Nesting (NetworkX)
+## k-Core Nesting (NetworkX)
 
 | Node | k-core |
 |---|---|
@@ -74,13 +74,13 @@ Pairwise Jaccard: COMT–MAO **0.017**, COMT–Dopamine 0.015, COMT–Epinephrin
 
 - MAO is excluded from the denser enzymatic/genealogy core shared by COMT and both catecholamines.
 
-## 5. Spectral Analysis (SciPy — dense eigh)
+## Spectral Analysis (SciPy — dense eigh)
 
 - **Algebraic connectivity** λ₂ = **0.0495** (same giant component as all analyses).
 - **Fiedler vector** (bisection axis): COMT **+0.0274** (well off the boundary), MAO +0.0028, Dopamine +0.0066, Epinephrine +0.0050.
 - COMT is the node most distinctly placed on one side of the graph's natural bisection among the four — its metabolism/genotype cluster is cleanly separable from the rest of the graph.
 
-## 6. Effective-Resistance / Commute Distance (pseudoinverse Laplacian)
+## Effective-Resistance / Commute Distance (pseudoinverse Laplacian)
 
 `R_eff` via thresholded dense `eigh`, null model = 300 random nodes per target.
 
@@ -94,7 +94,7 @@ Pairwise Jaccard: COMT–MAO **0.017**, COMT–Dopamine 0.015, COMT–Epinephrin
 - COMT is significantly closer to both catecholamines than random expectation; MAO is only marginally / not significantly closer (Dopamine z = −0.70).
 - Despite both being "enzymes of catecholamine metabolism", MAO has ~3–4× larger commute distance to the target zone than COMT.
 
-## 7. Personalized PageRank — Random-Walk Proximity (networkx)
+## Personalized PageRank — Random-Walk Proximity (networkx)
 
 | Target seed | COMT | MAO |
 |---|---|---|
@@ -105,7 +105,7 @@ Pairwise Jaccard: COMT–MAO **0.017**, COMT–Dopamine 0.015, COMT–Epinephrin
 - Seeded at Epinephrine, COMT still #3, but MAO rises to #14 (diffusion flows through the direct MAO–Epinephrine edge).
 - Ranking coherence: COMT = high-flow hub for both substrates; MAO = peripheral, only locally coupled to Epinephrine.
 
-## 8. Cross-Metric Synthesis
+## Cross-Metric Synthesis
 
 | Metric | COMT | MAO |
 |---|---|---|

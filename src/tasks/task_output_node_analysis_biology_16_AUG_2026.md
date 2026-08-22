@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Objective
+## Objective
 
 The vault's knowledge graph is not just a lookup table — each node carries a **metric fingerprint** computed in `scripts/03_rebuild_from_triples.py:441` (`enrich_graph_metrics`):
 
@@ -17,7 +17,7 @@ The goal of this task is to (a) show *why* this fingerprint is biologically mean
 
 ---
 
-## 2. The Metrics and Their Biological Reading
+## The Metrics and Their Biological Reading
 
 | Metric | Graph op (line) | Biological question it answers |
 | :--- | :--- | :--- |
@@ -34,35 +34,35 @@ Two pipeline choices make these readings trustworthy for biology:
 
 ---
 
-## 3. Worked Examples from the Current Graph
+## Worked Examples from the Current Graph
 
-### 3.1 Acid ceramidase — the out-degree "spreader" that becomes a senolytic target
-- `degree 20`, **`out_degree 17` / `in_degree 3`**, `pagerank 0.00078`, `betweenness 0.0083`, `k_core 4`, community *"Acid ceramidase"* (size 18).
-- The asymmetry (17 outgoing vs. 3 incoming) marks it as a **source node**: it pushes effects onto many lipid/ferroptosis nodes rather than being acted upon. In the underlying document *"Could this enzyme help remove 'zombie' cells from our tissues?"*, elevated acid ceramidase in senescent cells reshapes membranes toward a PUFA-rich, pro-ferroptotic profile — and its knockdown (or inhibition by ARN14794) protects cells. The out-degree dominance is the network signature of exactly this *spreading* vulnerability: it is the control point through which a few senescent cells sensitize neighbors to ferroptosis. That is why the graph also carries a *"Senolytic Drug Target"* node pointing at it.
-- **Reading**: high `out_degree` + mid `betweenness` + named-community-anchor ⇒ strong senolytic/senomorphic candidate.
+- **Acid ceramidase — the out-degree "spreader" that becomes a senolytic target**
+    - `degree 20`, **`out_degree 17` / `in_degree 3`**, `pagerank 0.00078`, `betweenness 0.0083`, `k_core 4`, community *"Acid ceramidase"* (size 18).
+    - The asymmetry (17 outgoing vs. 3 incoming) marks it as a **source node**: it pushes effects onto many lipid/ferroptosis nodes rather than being acted upon. In the underlying document *"Could this enzyme help remove 'zombie' cells from our tissues?"*, elevated acid ceramidase in senescent cells reshapes membranes toward a PUFA-rich, pro-ferroptotic profile — and its knockdown (or inhibition by ARN14794) protects cells. The out-degree dominance is the network signature of exactly this *spreading* vulnerability: it is the control point through which a few senescent cells sensitize neighbors to ferroptosis. That is why the graph also carries a *"Senolytic Drug Target"* node pointing at it.
+    - **Reading**: high `out_degree` + mid `betweenness` + named-community-anchor ⇒ strong senolytic/senomorphic candidate.
 
-### 3.2 SASP — the convergent-and-divergent secretory hub
-- `degree 101`, **`in_degree 56` / `out_degree 45`**, `pagerank 0.0074`, `betweenness 0.060`, `k_core 6`.
-- Highest betweenness in the examples surveyed: SASP sits on the shortest paths between many communities (mitochondria → epigenetics → inflammation → senescence). It is both a sink for upstream senescence triggers and a source for the paracrine SASP cytokines (IL-6, IL-8) that, per *"Acid_ceramidase_modulates_the_lipid_profile_and_ex"*, induce acid ceramidase in bystander cells.
-- **Reading**: high `in_degree` + high `out_degree` + top `betweenness` ⇒ master program / signaling nexus; perturbing it has network-wide reverberation.
+- **SASP — the convergent-and-divergent secretory hub**
+    - `degree 101`, **`in_degree 56` / `out_degree 45`**, `pagerank 0.0074`, `betweenness 0.060`, `k_core 6`.
+    - Highest betweenness in the examples surveyed: SASP sits on the shortest paths between many communities (mitochondria → epigenetics → inflammation → senescence). It is both a sink for upstream senescence triggers and a source for the paracrine SASP cytokines (IL-6, IL-8) that, per *"Acid_ceramidase_modulates_the_lipid_profile_and_ex"*, induce acid ceramidase in bystander cells.
+    - **Reading**: high `in_degree` + high `out_degree` + top `betweenness` ⇒ master program / signaling nexus; perturbing it has network-wide reverberation.
 
-### 3.3 Aging — the PageRank/core backbone
-- `degree 48`, `in_degree 35`, `out_degree 13`, `pagerank 0.0076`, `betweenness 0.046`, `k_core 6`.
-- PageRank (0.0076) is the highest among the sampled nodes, reflecting that Aging is connected to *other important* nodes across communities. k-core 6 places it in the densest mutually-reinforcing core alongside SASP and Senescent Cells.
-- **Reading**: top `pagerank` + `k_core 6` ⇒ foundational, non-peripheral driver; the "common soil" node that downstream disease/age-related communities attach to.
+- **Aging — the PageRank/core backbone**
+    - `degree 48`, `in_degree 35`, `out_degree 13`, `pagerank 0.0076`, `betweenness 0.046`, `k_core 6`.
+    - PageRank (0.0076) is the highest among the sampled nodes, reflecting that Aging is connected to *other important* nodes across communities. k-core 6 places it in the densest mutually-reinforcing core alongside SASP and Senescent Cells.
+    - **Reading**: top `pagerank` + `k_core 6` ⇒ foundational, non-peripheral driver; the "common soil" node that downstream disease/age-related communities attach to.
 
-### 3.4 GPX4 / iNOS / Cataract — clustering = 1.0 module members
-- GPX4 `clustering 1.0`, `k_core 2`; Inducible NOS `clustering 1.0`; Cataract `clustering 1.0`.
-- A clustering coefficient of 1.0 means every neighbor of the node is also connected to every other neighbor — a tightly-knit local module (a redox complex, a NO-cascade, an AGE-cross-linking cluster). Contrast with bridging nodes (Acid ceramidase clustering ≈ 0.04), which connect otherwise-separate regions.
-- **Reading**: `clustering ≈ 1.0` ⇒ participant inside a cohesive mechanism; `clustering ≈ 0` ⇒ connector/bottleneck. The two are complementary druggability strategies (disable the module vs. cut the bridge).
+- **GPX4 / iNOS / Cataract — clustering = 1.0 module members**
+    - GPX4 `clustering 1.0`, `k_core 2`; Inducible NOS `clustering 1.0`; Cataract `clustering 1.0`.
+    - A clustering coefficient of 1.0 means every neighbor of the node is also connected to every other neighbor — a tightly-knit local module (a redox complex, a NO-cascade, an AGE-cross-linking cluster). Contrast with bridging nodes (Acid ceramidase clustering ≈ 0.04), which connect otherwise-separate regions.
+    - **Reading**: `clustering ≈ 1.0` ⇒ participant inside a cohesive mechanism; `clustering ≈ 0` ⇒ connector/bottleneck. The two are complementary druggability strategies (disable the module vs. cut the bridge).
 
-### 3.5 The k-core 6 backbone
-- Nodes at `k_core 6`: Aging, SASP, Senescent Cells. These form the resilient inner core — the mutually-reinforced machinery of the senescence/aging axis. Everything else (periphery at k-core 1, e.g. 2-Chlorophenothiazine, Acetate, Alagebrium) hangs off this core.
-- **Reading**: k-core decomposition gives an instant "essential vs. incidental" ranking — useful for deciding which nodes merit deep-dive entity notes vs. which are contextual leaves.
+- **The k-core 6 backbone**
+    - Nodes at `k_core 6`: Aging, SASP, Senescent Cells. These form the resilient inner core — the mutually-reinforced machinery of the senescence/aging axis. Everything else (periphery at k-core 1, e.g. 2-Chlorophenothiazine, Acetate, Alagebrium) hangs off this core.
+    - **Reading**: k-core decomposition gives an instant "essential vs. incidental" ranking — useful for deciding which nodes merit deep-dive entity notes vs. which are contextual leaves.
 
 ---
 
-## 4. Analysis Methods Already Available
+## Analysis Methods Already Available
 
 Beyond the static fingerprint, `scripts/04_node_analysis.py` (referenced in README "Node Analysis") adds multi-node, relation-aware analytics on top of the same `graph.json`:
 
@@ -79,7 +79,7 @@ Run form (from README):
 
 ---
 
-## 5. Suggestions to Further This Along
+## Suggestions to Further This Along
 
 > [!TIP]
 > Concrete, buildable next steps — ordered by effort/impact.
@@ -108,7 +108,7 @@ Run form (from README):
 
 ---
 
-## 6. Summary
+## Summary
 
 The `graph.json` node fingerprint is biologically meaningful because it runs on a **directed, relation-typed, confidence-weighted** graph and explicitly removes abstract type hubs. The worked examples (Acid ceramidase's out-degree spread, SASP's betweenness nexus, Aging's PageRank/core backbone, GPX4/iNOS/Cataract's unit clustering, the k-core-6 senescence core) show the fingerprint already recovers real, literature-backed biological roles. Pairing the static fingerprint with `scripts/04_node_analysis.py`'s relation-aware analytics — and adding the role classifier, senolytic score, PPR sweep, and link-prediction queue above — would turn the graph from a navigation aid into an active target-prioritization engine for the vault's longevity research.
 

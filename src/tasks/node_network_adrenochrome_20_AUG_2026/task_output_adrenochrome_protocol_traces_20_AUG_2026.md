@@ -15,7 +15,7 @@
 
 ## Headline findings
 
-### 1. The protocol agents are the tightest-coupled exogenous nodes to adrenochrome
+### The protocol agents are the tightest-coupled exogenous nodes to adrenochrome
 
 Personalized PageRank **seeded at Adrenochrome** (rank of agent):
 
@@ -37,21 +37,21 @@ Personalized PageRank **seeded at Adrenochrome** (rank of agent):
 
 Reverse direction: seeded at **Aminoguanidine**, Adrenochrome ranks **#3** (0.02318); seeded at **Methylene blue**, **#7** (0.01090). Both directions top-10 — tighter than any adaptive program (#89/#93/#305 forward; #60/#58/#147 reverse).
 
-### 2. Three direct chemical edges into the trigger (multiplicity 1, no bridge)
+### Three direct chemical edges into the trigger (multiplicity 1, no bridge)
 
 - `Aminoguanidine --[reacts_with|0.9]--> Adrenochrome` (source: `_document_ - US4501923A - Process for preparing adrenochrome.md`)
 - `Carbazochrome --[is_an_intermediate_for|0.95]--> Adrenochrome` (same patent document; stored direction Adr → Carbazochrome, undirected print reverses)
 - `Ascorbic Acid --[reduces|0.75]--> Adrenochrome`; additionally `Ascorbic Acid --[inhibits|0.9]--> Adrenochrome formation`
 
-### 3. MB couples through shared redox/injury bridges, not chemistry
+### MB couples through shared redox/injury bridges, not chemistry
 
 Three co-shortest paths, first-hop bridges **Complex I**, **Oxidative Stress**, **Hemolysis**. Direction-audited wiring: `Complex I --[reduces|0.9]--> Adrenochrome`; `Methylene blue --[bypasses|0.9]--> Complex I/III`, `--[accepts_electrons_from|0.96]--> NADH`, `--[shunts_electrons_to|0.95]--> Cytochrome c`, `--[induces|0.88]--> Oxidative Stress`, `--[causes|0.94]--> Hemolysis` (and `Adrenochrome --[induces|0.75]--> Hemolysis`). MB also carries `--[follows|0.95]--> Hormetic Window`.
 
-### 4. Spectral seam splits chemistry-layer from program-layer
+### Spectral seam splits chemistry-layer from program-layer
 
 Fiedler coordinates (λ₂ = 0.0463): **trigger side (−)**: Creatine −0.0024, Ascorbic Acid −0.0023, Adrenochrome −0.0015, Fisetin −0.0010, Carbazochrome −0.0008, Resveratrol −0.0006. **Adaptive side (+)**: Methylene blue +0.0013, Aminoguanidine +0.0021, Autophagy +0.0033, Urolithin A +0.0033, Mitohormesis +0.0034, Rapamycin +0.0036, Spermidine +0.0037, Sirtuins +0.0043. Reading: adrenochrome's redox partners (ascorbate, Complex-I reduction, carbazochrome) group with the trigger; the protocol's systemic modulators (MB, AG) sit with the adaptive programs and reach across the seam.
 
-### 5. Other notables
+### Other notables
 
 - Effective resistance vs Adrenochrome (null 1.164 ± 0.595): Rapamycin 0.130 (z −1.74) closest; MB 0.164 (z −1.68); AG 0.186 (z −1.64); Carbazochrome 0.747 (z −0.70) farthest despite the direct edge — pendant chemistry node.
 - Adamic–Adar: MB → Adr **2.641** (highest in any trace so far; shared Complex I/Ox Stress/Hemolysis neighbourhood proposes an MB–Adr edge), Rapamycin 1.999, Ascorbic 0.910, UA 0.885, AG 0.558; Fisetin/Resveratrol/Carbazochrome 0.000.
