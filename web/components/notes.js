@@ -674,7 +674,7 @@ function cardHTML(n) {
     : '';
   const topic = tagLabel(noteTopic(n)).toUpperCase();
   const tags = (n.tags || []).map((tag) =>
-    `<span class="notes-badge topic tag-filter" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix') + tagLabel(tag))}">#${esc(tagLabel(tag))}</span>`).join('');
+    `<span class="notes-badge topic tag-filter" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix') + tagLabel(tag))}">${esc(tagLabel(tag))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
   const meta = (tags || doc)
@@ -830,7 +830,7 @@ function tagItemHTML(tag, count) {
   const check = activeTags.has(tag) ? '<span class="popup-check" aria-hidden="true">✓</span>' : '';
   return `<button type="button" class="notes-popup-item${selected}${zero}" data-tag="${esc(tag)}" role="option">
     ${check}
-    <span class="popup-topic">#${esc(tagLabel(tag))}</span>
+    <span class="popup-topic">${esc(tagLabel(tag))}</span>
     <span class="popup-sub">${sub}</span>
   </button>`;
 }
@@ -867,7 +867,7 @@ function renderTagChips() {
   for (const tag of activeTags) {
     const chip = document.createElement('span');
     chip.className = 'notes-tag-chip';
-    chip.textContent = `#${tagLabel(tag)}`;
+    chip.textContent = tagLabel(tag);
     chip.title = tag;
     const remove = document.createElement('button');
     remove.type = 'button';
@@ -1698,7 +1698,7 @@ function renderChips() {
   if (!currentNote) return;
   const tags = currentNote.tags || [];
   lbTags.innerHTML = tags.length
-    ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tagLabel(tag))}</span>`).join('')
+    ? tags.map((tag) => `<span class="notes-chip tag-chip">${esc(tagLabel(tag))}</span>`).join('')
     : `<span class="notes-muted">${esc(t('none'))}</span>`;
 }
 
