@@ -228,68 +228,29 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     # --- Classify per-node biological roles ---
     # Roles are derived from the same static fingerprint already on each node.
-    # Percentile thresholds are computed from the live graph so the classifier
-    # stays in sync with the current build. The result is baked into each
-    # node object (nodes.json) and also emitted as the standalone
-    # web/data/node_roles.json artifact (replacing the old scripts/05_emit_node_roles.py).
-    def _percentile(sorted_vals: list[float], p: float) -> float:
-        if not sorted_vals:
-            return 0.0
-        if len(sorted_vals) == 1:
-            return float(sorted_vals[0])
-        k = (len(sorted_vals) - 1) * p / 100.0
-        f = int(k)
-        c = min(f + 1, len(sorted_vals) - 1)
-        return sorted_vals[f] + (sorted_vals[c] - sorted_vals[f]) * (k - f)
+    # The classifier lives in scripts/node_roles_lib.py (single source of truth,
+    # shared with scripts/05_role_query.py) and computes all thresholds from the
+    # live graph so it stays calibrated as the build evolves. The result is
+    # baked into each node object (nodes.json) and also emitted as the standalone
+    # web/data/node_roles.json artifact.
+    import node_roles_lib
 
-    _btw = sorted(float(n.get("betweenness_centrality", 0) or 0) for n in nodes)
-    _pr = sorted(float(n.get("pagerank", 0) or 0) for n in nodes)
-    _out = sorted(float(n.get("out_degree", 0) or 0) for n in nodes)
-    _btw_p90 = _percentile(_btw, 90)
-    _pr_p90 = _percentile(_pr, 90)
-    _pr_p95 = _percentile(_pr, 95)
-    _out_p90 = _percentile(_out, 90)
-    _out_p95 = _percentile(_out, 95)
-
-    ROLE_DEFS = [
-        ("Spreader", "out_degree > in_degree AND out_degree >= 3 AND k_core >= 2"),
-        ("Master regulator", "pagerank >= p95 AND out_degree >= p95"),
-        ("Bottleneck", "betweenness >= p90(betweenness)"),
-        ("Module member", "clustering > 0.5"),
-        ("Core backbone", "k_core >= 5"),
-        ("Periphery", "k_core == 1"),
-    ]
-
-    def _roles_for(n: dict) -> list[str]:
-        out = float(n.get("out_degree", 0) or 0)
-        indeg = float(n.get("in_degree", 0) or 0)
-        pr = float(n.get("pagerank", 0) or 0)
-        btw = float(n.get("betweenness_centrality", 0) or 0)
-        clust = float(n.get("clustering_coefficient", 0) or 0)
-        kc = float(n.get("k_core_number", 0) or 0)
-        roles: list[str] = []
-        if out > indeg and out >= 3 and kc >= 2:
-            roles.append("Spreader")
-        if pr >= _pr_p95 and out >= _out_p95:
-            roles.append("Master regulator")
-        if btw >= _btw_p90:
-            roles.append("Bottleneck")
-        if clust > 0.5:
-            roles.append("Module member")
-        if kc >= 5:
-            roles.append("Core backbone")
-        if kc == 1:
-            roles.append("Periphery")
-        return roles
+    fps = [node_roles_lib._fingerprint(n) for n in nodes]
+    thresholds = node_roles_lib.compute_thresholds(fps)
+    _pr_p90 = thresholds["pagerank_p90"]
+    _pr_p95 = thresholds["pagerank_p95"]
+    _out_p90 = thresholds["out_degree_p90"]
+    _out_p95 = thresholds["out_degree_p95"]
+    _btw_p90 = thresholds["betweenness_p90"]
 
     # Build the per-node role map (for nodes.json) and the standalone
     # node_roles.json document in one pass.
     node_roles: dict[str, list[str]] = {}
     role_records = []
-    role_counts = {name: 0 for name, _ in ROLE_DEFS}
+    role_counts = {name: 0 for name, _ in node_roles_lib.ROLE_DEFS}
     multi = 0
-    for n in nodes:
-        roles = _roles_for(n)
+    for n, fp in zip(nodes, fps):
+        roles = node_roles_lib.classify(fp, thresholds)
         node_roles[n["id"]] = roles
         for r in roles:
             role_counts[r] += 1
@@ -299,15 +260,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "id": n.get("id"),
             "label": n.get("label", n.get("id")),
             "roles": roles,
-            "metrics": {
-                "degree": float(n.get("degree", 0) or 0),
-                "in_degree": float(n.get("in_degree", 0) or 0),
-                "out_degree": float(n.get("out_degree", 0) or 0),
-                "pagerank": float(n.get("pagerank", 0) or 0),
-                "betweenness": float(n.get("betweenness_centrality", 0) or 0),
-                "clustering": float(n.get("clustering_coefficient", 0) or 0),
-                "k_core": float(n.get("k_core_number", 0) or 0),
-            },
+            "metrics": fp,
         })
 
     node_roles_doc = {
@@ -315,15 +268,10 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
         "source_graph": "web/data/graph.json",
         "graph_build": graph.get("built_at_commit", ""),
         "rules": {
-            name: {"definition": expr, "operational": True} for name, expr in ROLE_DEFS
+            name: {"definition": expr, "operational": True}
+            for name, expr in node_roles_lib.ROLE_DEFS
         },
-        "thresholds": {
-            "betweenness_p90": round(_btw_p90, 10),
-            "pagerank_p90": round(_pr_p90, 10),
-            "pagerank_p95": round(_pr_p95, 10),
-            "out_degree_p90": round(_out_p90, 10),
-            "out_degree_p95": round(_out_p95, 10),
-        },
+        "thresholds": {k: round(v, 10) for k, v in thresholds.items()},
         "summary": {
             "node_count": len(role_records),
             "role_counts": role_counts,
@@ -983,5 +931,25 @@ def main() -> int:
     return 0
 
 
+def refresh_roles_only() -> int:
+    """Re-run ONLY the role classification + web export (no triple rebuild).
+
+    Use after a graph.json update when metrics are already current but the
+    role artifact / nodes.json roles need recalculating against the new
+    fingerprint table. Community labels are reconstructed from the nodes'
+    stored community_name so legend output matches a full rebuild.
+    """
+    graph = json.loads((GP / "graph.json").read_text(encoding="utf-8"))
+    labels: dict[int, str] = {}
+    for n in graph["nodes"]:
+        cid = n.get("community")
+        labels.setdefault(cid, n.get("community_name") or f"Community {cid}")
+    export_three_json(GP, labels)
+    write_version_file()
+    return 0
+
+
 if __name__ == "__main__":
+    if "--roles-only" in sys.argv:
+        raise SystemExit(refresh_roles_only())
     raise SystemExit(main())
