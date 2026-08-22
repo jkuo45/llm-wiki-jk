@@ -195,21 +195,42 @@ function ensureSvgCopyButton(svg){
   host.appendChild(btn);
   bindSvgCopyBtn(btn);
 }
+function getScrollParent(el){
+  let e = el.parentElement;
+  while (e && e !== document.body){
+    const ox = getComputedStyle(e).overflowX;
+    if (ox === 'auto' || ox === 'scroll') return e;
+    e = e.parentElement;
+  }
+  return null;
+}
 function ensureTableCopyButton(table){
   if (table.closest('button, a')) return;
   const id = table.id || (table.id = uniqId('dataTable'));
-  if (document.querySelector('.copy-btn[data-copy-table="' + id + '"]')) return;
-  const existingHost = table.parentElement && table.parentElement.classList.contains('copy-host')
-    ? table.parentElement : null;
+  // If the table sits in a horizontally scrollable wrapper (.table-wrap etc.),
+  // anchor the button OUTSIDE that wrapper so it stays fixed while rows scroll.
+  const scrollParent = getScrollParent(table);
+  const anchorEl = scrollParent || table;
+  let host = anchorEl.parentElement && anchorEl.parentElement.classList.contains('copy-host')
+    ? anchorEl.parentElement : null;
   let btn;
-  if (existingHost && existingHost.querySelector('.copy-btn')){
-    btn = existingHost.querySelector('.copy-btn');
+  if (host && host.querySelector('.copy-btn[data-copy-table]')){
+    btn = host.querySelector('.copy-btn[data-copy-table]');
     btn.setAttribute('data-copy-table', id);
-    existingHost.classList.add('table-host');
   } else {
-    const host = document.createElement('div');
+    host = document.createElement('div');
     host.className = 'copy-host table-host';
-    table.parentNode.insertBefore(host, table);
+    anchorEl.parentNode.insertBefore(host, anchorEl);
+    // adopt any stale button left inside the old wrapper and unwrap its host
+    const stale = document.querySelector('.copy-btn[data-copy-table="' + id + '"]');
+    if (stale){
+      const oldHost = stale.closest('.copy-host');
+      stale.remove();
+      if (oldHost && oldHost !== host){
+        while (oldHost.firstChild) oldHost.parentNode.insertBefore(oldHost.firstChild, oldHost);
+        oldHost.remove();
+      }
+    }
     btn = document.createElement('button');
     btn.className = 'copy-btn';
     btn.setAttribute('data-copy-table', id);
@@ -217,7 +238,7 @@ function ensureTableCopyButton(table){
     btn.setAttribute('aria-label', 'Copy table to clipboard');
     btn.innerHTML = TABLE_COPY_ICON;
     host.appendChild(btn);
-    host.appendChild(table);
+    host.appendChild(anchorEl);
   }
   bindTableCopyBtn(btn);
 }

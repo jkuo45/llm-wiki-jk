@@ -1419,12 +1419,13 @@ body.lb-open {
   color: var(--mute);
   cursor: pointer;
   backdrop-filter: blur(4px);
+  opacity: .55;
 }
-.copy-btn:hover { border-color: var(--rule-strong); color: var(--ink); }
+.copy-btn:hover, .copy-btn:focus-visible { border-color: var(--rule-strong); color: var(--ink); opacity: 1; }
 .copy-btn:disabled { opacity: .7; cursor: wait; }
 .copy-btn svg { width: 100%; height: 100%; display: block; }
-.copy-btn.ok { color: var(--forest); border-color: var(--forest); }
-.copy-btn.err { color: var(--oxblood); border-color: var(--oxblood); }
+.copy-btn.ok { color: var(--forest); border-color: var(--forest); opacity: 1; }
+.copy-btn.err { color: var(--oxblood); border-color: var(--oxblood); opacity: 1; }
 
 /* Copy buttons anchor top-right uniformly (SVGs, tables, pre blocks) */
 

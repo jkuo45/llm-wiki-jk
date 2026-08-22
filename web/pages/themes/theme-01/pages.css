@@ -147,12 +147,12 @@ footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute);
 .btn:hover{filter:brightness(1.1); text-decoration:none;}
 /* copy button */
 .copy-btn{position:absolute; right:2px; top:2px; margin:0; z-index:5; width:38px; height:38px; display:flex; align-items:center; justify-content:center;
-  background:var(--copy-btn-bg); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:8px; backdrop-filter:blur(4px);}
-.copy-btn:hover{border-color:var(--teal); filter:brightness(1.15);}
+  background:var(--copy-btn-bg); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:8px; backdrop-filter:blur(4px); opacity:.55;}
+.copy-btn:hover, .copy-btn:focus-visible{border-color:var(--teal); filter:brightness(1.15); opacity:1;}
 .copy-btn:disabled{opacity:.7; cursor:wait;}
 .copy-btn svg{width:100%; height:100%; display:block;}
-.copy-btn.ok{color:var(--green); border-color:var(--green);}
-.copy-btn.err{color:var(--red); border-color:var(--red);}
+.copy-btn.ok{color:var(--green); border-color:var(--green); opacity:1;}
+.copy-btn.err{color:var(--red); border-color:var(--red); opacity:1;}
 /* Positioned host for copy buttons (SVGs, tables, pre blocks).
    Buttons anchor to the top-right corner uniformly. */
 .copy-host{position:relative;}
