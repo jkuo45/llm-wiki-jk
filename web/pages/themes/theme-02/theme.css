@@ -429,11 +429,15 @@ li + li {
 /* ——— Figures ——— */
 
 .fig {
+  position: relative;
   margin: 22px 0 28px;
   background: var(--sheet);
   border: 1px solid var(--rule);
   box-shadow: var(--shadow);
 }
+
+/* Copy buttons anchor to the outer .fig container, not their .copy-host */
+.fig .copy-host { position: static; }
 
 .fig-head {
   display: flex;
@@ -1403,8 +1407,8 @@ body.lb-open {
 
 .copy-btn {
   position: absolute;
-  right: 2px;
-  top: 2px;
+  right: 4px;
+  top: 4px;
   z-index: 5;
   width: 34px;
   height: 34px;
@@ -1430,5 +1434,5 @@ body.lb-open {
 /* Copy buttons anchor top-right uniformly (SVGs, tables, pre blocks) */
 
 @media (max-width: 720px) {
-  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 2px; top: 2px; }
+  .copy-btn { width: 30px; height: 30px; padding: 6px; right: 4px; top: 4px; }
 }

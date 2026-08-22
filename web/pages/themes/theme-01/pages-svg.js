@@ -1,7 +1,28 @@
 /* ============================= COPY DIAGRAM AS PNG ============================= */
-function svgToPngBlob(svgId, scale){
+/* Resolve CSS custom properties (var(--ink), var(--sheet), ...) into concrete
+   values on the clone, paired element-by-element with the live DOM. Serialized
+   data-URL SVGs are rendered in isolation, where stylesheets and CSS variables
+   don't exist — without this, copied/diagram PNGs fall back to default black
+   regardless of the current light/dark mode. */
+function resolveCssVars(clone, src){
+  const cloneEls = [clone].concat(Array.from(clone.querySelectorAll('*')));
+  const srcEls = [src].concat(Array.from(src.querySelectorAll('*')));
+  const PROPS = ['fill', 'stroke', 'stop-color', 'flood-color'];
+  for (let i = 0; i < cloneEls.length; i++){
+    const cel = cloneEls[i], sel = srcEls[i];
+    if (!sel || sel.nodeType !== 1 || !cel.getAttribute) continue;
+    let cs;
+    try { cs = getComputedStyle(sel); } catch(_){ continue; }
+    PROPS.forEach(p => {
+      const v = cs.getPropertyValue(p);
+      if (v) cel.setAttribute(p, v.trim());
+    });
+  }
+}
+function svgToPngBlob(svgId, scale, opts){
   const svg = document.getElementById(svgId);
   const clone = svg.cloneNode(true);
+  resolveCssVars(clone, svg);
   clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
   clone.setAttribute('xmlns:xlink','http://www.w3.org/1999/xlink');
   let w, h;
@@ -11,8 +32,36 @@ function svgToPngBlob(svgId, scale){
     w = r.width || 800; h = r.height || 500;
     clone.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
   }
+  const bodyH = h; // diagram height stays fixed — caption space is canvas-only
+  // optional figcaption: measured against the LIVE element's computed style,
+  // then rendered as wrapped text below the diagram
+  const capEl = opts && opts.captionEl;
+  let cap = null;
+  if (capEl){
+    const capCS = getComputedStyle(capEl);
+    const font = parseFloat(capCS.fontSize) || 13;
+    const lineH = parseFloat(capCS.lineHeight) || Math.round(font * 1.45);
+    const padTop = parseFloat(capCS.paddingTop) || 12;
+    const padBot = parseFloat(capCS.paddingBottom) || 12;
+    const weight = capCS.fontWeight || '400';
+    const family = capCS.fontFamily || 'sans-serif';
+    const fontSpec = weight + ' ' + font + 'px ' + family;
+    const mctx = document.createElement('canvas').getContext('2d');
+    mctx.font = fontSpec;
+    const maxW = w - 32;
+    const lines = [];
+    capEl.textContent.replace(/\s+/g, ' ').trim().split(' ').forEach(word => {
+      const last = lines.length - 1;
+      const test = last >= 0 ? lines[last] + ' ' + word : word;
+      if (last >= 0 && mctx.measureText(test).width <= maxW) lines[last] = test;
+      else lines.push(word);
+    });
+    h += padTop + lines.length * lineH + padBot;
+    cap = { lines: lines, fontSpec: fontSpec, font: font, lineH: lineH,
+            padTop: padTop, padBot: padBot, color: capCS.color };
+  }
   clone.setAttribute('width', w);
-  clone.setAttribute('height', h);
+  clone.setAttribute('height', bodyH);
   const svgCS = getComputedStyle(svg);
   let bg = '';
   const sBgImage = svgCS.backgroundImage && svgCS.backgroundImage !== 'none' ? svgCS.backgroundImage : '';
@@ -34,7 +83,15 @@ function svgToPngBlob(svgId, scale){
       const ctx = canvas.getContext('2d');
       ctx.scale(scale, scale);
       if (bg && bg !== 'transparent'){ ctx.fillStyle = bg; ctx.fillRect(0,0,w,h); }
-      ctx.drawImage(img, 0, 0, w, h);
+      else { ctx.fillStyle = '#ffffff'; ctx.fillRect(0,0,w,h); }
+      ctx.drawImage(img, 0, 0, w, bodyH);
+      if (cap){
+        ctx.fillStyle = cap.color;
+        ctx.font = cap.fontSpec;
+        ctx.textBaseline = 'top';
+        let ty = h - cap.padBot - cap.lines.length * cap.lineH;
+        cap.lines.forEach(line => { ctx.fillText(line, 16, ty); ty += cap.lineH; });
+      }
       canvas.toBlob(b=> b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
     };
     img.onerror = ()=>reject(new Error('svg-load'));
@@ -103,14 +160,18 @@ function bindSvgCopyBtn(btn){
   btn.addEventListener('click', (e)=>{
     e.stopPropagation(); // keep diagram lightbox / fullscreen handlers from firing
     const svgId = btn.getAttribute('data-copy');
+    const svgEl = document.getElementById(svgId);
+    const figureEl = svgEl && svgEl.closest('figure');
+    const caption = figureEl ? figureEl.querySelector('figcaption') : null;
+    const pngOpts = { captionEl: caption || null };
     withFeedback(btn,
       async ()=>{
-        const blob = await svgToPngBlob(svgId, 2);
+        const blob = await svgToPngBlob(svgId, 2, pngOpts);
         if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
         await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
       },
       async ()=>{
-        const blob = await svgToPngBlob(svgId, 2);
+        const blob = await svgToPngBlob(svgId, 2, pngOpts);
         const a = document.createElement('a');
         a.download = svgId + '.png';
         a.href = URL.createObjectURL(blob);
