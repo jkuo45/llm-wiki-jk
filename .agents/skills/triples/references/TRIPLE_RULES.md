@@ -90,4 +90,4 @@ When updating an existing `_triples.json`, do not duplicate identical triples (s
 
 ## Normalization
 
-Run `scripts/normalize_triples_schema.py` (idempotent) after any triples edit — it fills `id`/`created`/`updated`, upgrades a legacy string `context` to the `en-US`/`zh-TW` map, validates the schema, and reports missing `zh-TW` coverage.
+Run `scripts/03_normalize_triples_schema.py` (idempotent) after any triples edit — it fills `id`/`created`/`updated`, upgrades a legacy string `context` to the `en-US`/`zh-TW` map, validates the schema, and reports missing `zh-TW` coverage.

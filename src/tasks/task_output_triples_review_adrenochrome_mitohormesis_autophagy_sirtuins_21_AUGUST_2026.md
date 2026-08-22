@@ -122,7 +122,7 @@ Triples below are grouped into three review tiers.
 ## Suggested review workflow
 
 1. **Verify against source documents first** — every flagged triple carries `source_document`; open the cited section before editing.
-2. For Tier 1 items, edit subject/predicate/object and bump `updated:` (keep `id`/`created`); run `uv run scripts/normalize_triples_schema.py` afterwards.
+2. For Tier 1 items, edit subject/predicate/object and bump `updated:` (keep `id`/`created`); run `uv run scripts/03_normalize_triples_schema.py` afterwards.
 3. For conflicting-view pairs (T1-4, T1-5, T2-4), prefer adding context qualifiers over deleting either side — the disagreement is often the scientifically valuable content.
 4. After fixes, regenerate visualizations for affected topics (sirtuins, adrenochrome) since hub-node descriptions are drawn from triple contexts.
 

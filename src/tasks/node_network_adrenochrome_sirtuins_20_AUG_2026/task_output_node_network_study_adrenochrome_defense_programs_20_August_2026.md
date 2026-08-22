@@ -200,7 +200,7 @@ Decision rules:
 | Phase | Work | Tooling | Output |
 | :--- | :--- | :--- | :--- |
 | **0a. Direction audit** | Re-state every study-cited path with stored edge directions; fix the Arm C inversion in prose and flag the triple for curator review (AMBIGUOUS, 0.6) | manual + `graph.json` link inspection | Corrected path table (done in §4.2) |
-| **0b. Entity resolution** | Merge NF-κB variants (≥ 7 nodes listed in §4.3) into canonical `NF-κB`; audit analogous fragments (e.g., ROS vs. Reactive Oxygen Species vs. Mitochondrial ROS) | extend `normalize_triples_schema.py` / rebuild pipeline | Rebuilt graph; re-run §3.2 battery; quantify ΔH3 |
+| **0b. Entity resolution** | Merge NF-κB variants (≥ 7 nodes listed in §4.3) into canonical `NF-κB`; audit analogous fragments (e.g., ROS vs. Reactive Oxygen Species vs. Mitochondrial ROS) | extend `03_normalize_triples_schema.py` / rebuild pipeline | Rebuilt graph; re-run §3.2 battery; quantify ΔH3 |
 | **1. Weighted re-analysis** | Pass `weight="weight"` into PageRank (strength) and inverted confidence `1/confidence` as `distance` into betweenness/effective-resistance (the briefing's documented open limitation) | modify `04_node_analysis.py` flags | Weighted vs. unweighted comparison table |
 | **2. Full null envelope** | Extend configuration-model z-scores (30 → 100–1,000 draws) to clustering and PageRank, not just betweenness | supplementary script (seeded, versioned) | Null-envelope table for all four nodes |
 | **3. Formal PPR intersection** | Confidence-weighted PPR from all four seeds; intersect top-K (K ∈ {25, 40, 100}); report stability across K | `04_node_analysis.py` + wrapper | Recurrent-effector list with robustness notes |

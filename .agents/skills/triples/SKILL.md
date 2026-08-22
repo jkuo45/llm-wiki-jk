@@ -42,7 +42,7 @@ Each triple is authored in **English (`en-US`)** with a **`zh-TW` translation** 
 Run the schema normalizer after authoring/editing triples — it idempotently fills `id` / `created` / `updated` and validates the schema:
 
 ```
-uv run scripts/normalize_triples_schema.py [--check]
+uv run scripts/03_normalize_triples_schema.py [--check]
 ```
 
 See [TRIPLE_RULES.md](references/TRIPLE_RULES.md) for detailed extraction guidelines.
