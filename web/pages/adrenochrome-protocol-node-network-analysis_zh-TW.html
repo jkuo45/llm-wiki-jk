@@ -767,12 +767,13 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
     });
 
     // legend
-    el("rect", { x: 620, y: 14, width: 12, height: 12, fill: C.ag }, svg);
-    text(svg, 640, 25, "seeded at Adrenochrome (rank of node)", { size: 12.5, fill: C.mute });
-    el("circle", { cx: 626, cy: 44, r: 6, fill: C.sheet, stroke: C.mb, "stroke-width": 2 }, svg);
-    text(svg, 640, 48, "reverse (rank of Adrenochrome, where run)", { size: 12.5, fill: C.mute });
-    el("rect", { x: 824, y: 12, width: 8, height: 8, fill: C.mb }, svg);
-    text(svg, 838, 21, "■ direct stored edge", { size: 12.5, fill: C.mute });
+    var lx = w - 272, ly = top + 4;
+    el("rect", { x: lx, y: ly + 2, width: 12, height: 12, fill: C.ag }, svg);
+    text(svg, lx + 20, ly + 13, "seeded at Adrenochrome (rank of node)", { size: 12.5, fill: C.mute });
+    el("circle", { cx: lx + 6, cy: ly + 36, r: 6, fill: C.sheet, stroke: C.mb, "stroke-width": 2 }, svg);
+    text(svg, lx + 20, ly + 41, "reverse (rank of Adrenochrome, where run)", { size: 12.5, fill: C.mute });
+    el("rect", { x: lx + 4, y: ly + 58, width: 8, height: 8, fill: C.mb }, svg);
+    text(svg, lx + 20, ly + 69, "■ direct stored edge", { size: 12.5, fill: C.mute });
   }
 
   /* ——— Figure 3: degree composition ——— */
