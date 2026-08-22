@@ -398,6 +398,54 @@ li + li {
   border-left-color: var(--gold);
 }
 
+/* ——— Cards ——— */
+/* Shared surface chrome for list-style cards (articles index). Same recipe
+   as .note; pair with an accent modifier: .slate / .forest / .gold */
+.card {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--oxblood);
+  box-shadow: var(--shadow);
+  border-radius: 2px;
+}
+
+.card.slate {
+  border-left-color: var(--slate);
+}
+
+.card.forest {
+  border-left-color: var(--forest);
+}
+
+.card.gold {
+  border-left-color: var(--gold);
+}
+
+/* Filled badge variant (vs. the outlined mono default). */
+.badge.fill {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--paper);
+  background: var(--mute);
+  border: 0;
+  border-radius: 2px;
+  padding: 2px 7px;
+}
+
+.badge.fill.slate {
+  background: var(--slate);
+}
+
+.badge.fill.forest {
+  background: var(--forest);
+}
+
+.badge.fill.gold {
+  background: var(--gold);
+}
+
 .note h4 {
   font-family: var(--sans);
   font-size: 11.5px;

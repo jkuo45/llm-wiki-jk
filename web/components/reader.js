@@ -89,6 +89,7 @@ const openLink = document.getElementById('page-modal-open');
 const select = document.getElementById('reader-select');
 const langBtns = Array.from(document.querySelectorAll('#reader-lang [data-lang]'));
 const prevBtn = document.getElementById('reader-prev');
+const modalTitle = document.getElementById('page-modal-title');
 
 // ------------------------------------------------------------
 // Session stack of visited articles (route history)
@@ -304,6 +305,12 @@ langBtns.forEach((btn) => {
 
 prevBtn.addEventListener('click', () => {
   if (readerStack.length > 1) history.back();
+});
+
+// Clicking the modal title returns to the reader index page.
+modalTitle.addEventListener('click', () => {
+  const idx = getArticle('articles-index');
+  if (idx && idx.id !== state.readerId) openReader(idx.id);
 });
 
 overlay.addEventListener('click', (e) => {
