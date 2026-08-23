@@ -132,6 +132,7 @@ const UI_STRINGS = {
     saveBtn: 'Save',
     saveBtnTitle: 'Export this selection as JSON',
     graphQuery: 'Graph Query',
+    graphQueryNote: 'curated multi-hop traces — each with its question, routes, key nodes, and source doc',
     graphQuerySelect: 'Select a query…',
     traceClear: 'Clear Trace',
     searchNodes: 'Search & Filter',
@@ -249,6 +250,7 @@ const UI_STRINGS = {
     saveBtn: '儲存',
     saveBtnTitle: '匯出選擇為 JSON',
     graphQuery: '圖形查詢',
+    graphQueryNote: '精選多跳追蹤查詢 — 各附問題、路徑、關鍵節點與來源文件',
     graphQuerySelect: '選擇查詢…',
     traceClear: '清除追蹤',
     searchNodes: '搜尋與篩選',
@@ -1917,7 +1919,7 @@ function renderAnalysisTools() {
     </section>
     <div class="at-row-pair">
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('graphQuery'))}</span></h4>
+        <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
         <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
           <option value="">${esc(t('graphQuerySelect'))}</option>
         </select>
