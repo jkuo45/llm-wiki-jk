@@ -529,6 +529,16 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #analysis-tools .at-span-6 { grid-column: span 6; }
 #analysis-tools .at-span-5 { grid-column: span 5; }
 #analysis-tools .at-span-4 { grid-column: span 4; }
+/* Fixed two-card row (Graph Query + Search & Filter): the wrapper owns a
+   persistent 1fr/1fr split that survives every breakpoint — only its outer
+   grid span resets below 1024px. */
+#analysis-tools .at-row-pair {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  min-width: 0;
+}
 @media (max-width: 1023px) {
   #analysis-tools { grid-template-columns: 1fr; }
   #analysis-tools .at-span-12,
@@ -536,6 +546,9 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   #analysis-tools .at-span-6,
   #analysis-tools .at-span-5,
   #analysis-tools .at-span-4 { grid-column: span 1; }
+  /* The pair wrapper drops to span 1 of the single outer column but keeps
+     its internal 1fr/1fr split — the two cards stay side-by-side. */
+  #analysis-tools .at-row-pair { grid-column: span 1; }
 }
 
 /* In the dashboard each section is an independent card (the base .at-section

@@ -1915,21 +1915,23 @@ function renderAnalysisTools() {
       <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
       <div class="at-cards">${cards}</div>
     </section>
-    <section class="at-section at-span-6">
-      <h4 class="at-h"><span>${esc(t('graphQuery'))}</span></h4>
-      <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
-        <option value="">${esc(t('graphQuerySelect'))}</option>
-      </select>
-      <div id="trace-summary"></div>
-      <div id="trace-routes"></div>
-      <div id="trace-key-nodes"></div>
-      <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
-    </section>
-    <section class="at-section at-span-6">
-      <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
-      <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
-      <div id="at-search-results" class="at-search-results"></div>
-    </section>
+    <div class="at-row-pair">
+      <section class="at-section">
+        <h4 class="at-h"><span>${esc(t('graphQuery'))}</span></h4>
+        <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
+          <option value="">${esc(t('graphQuerySelect'))}</option>
+        </select>
+        <div id="trace-summary"></div>
+        <div id="trace-routes"></div>
+        <div id="trace-key-nodes"></div>
+        <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
+      </section>
+      <section class="at-section">
+        <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
+        <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
+        <div id="at-search-results" class="at-search-results"></div>
+      </section>
+    </div>
     <section class="at-section at-span-12">
       <h4 class="at-h">${esc(t('roleExplorer'))}<span class="at-note">${esc(t('roleExplorerNote'))}</span></h4>
       <div id="at-role-chips" class="at-role-chips"></div>
