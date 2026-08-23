@@ -510,7 +510,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #prompt-header .panel-title-zh { color: inherit; font-weight: 700; }
 #prompt-mode-switch { display: inline-flex; border: 1px solid #3a3a5e; border-radius: 6px; overflow: hidden; flex-shrink: 0; }
 .prompt-mode-tab {
-  background: none; border: none; color: #888; font-size: 11px; padding: 5px 9px;
+  background: none; border: none; color: #888; font-size: 12px; padding: 6px 12px;
   cursor: pointer; font-family: inherit; transition: all 0.15s; line-height: 1;
   display: inline-flex; align-items: center;
 }
@@ -518,7 +518,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .prompt-mode-tab.active { background: #4E79A7; color: #fff; }
 /* Activity dot: lit when that panel has active work (prompt / selections). */
 .prompt-mode-tab .mode-dot {
-  width: 7px; height: 7px; border-radius: 50%; margin-left: 6px;
+  width: 7px; height: 7px; border-radius: 50%; margin-left: 4px;
   background: #3ad17a; box-shadow: 0 0 6px rgba(58, 209, 122, 0.75);
   display: none; flex: none;
 }
