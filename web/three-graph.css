@@ -238,23 +238,12 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .reader-source-toggle button.active { background: #2a2a4e; color: #a0d4f0; }
 
 /* "Last modified" freshness chip next to the reader title */
-.updated-chip {
-  display: inline-block; margin-left: 8px; padding: 2px 9px;
-  border-radius: 999px; border: 1px solid #3a3a5e; background: #1a1a2e;
-  color: #888; font-size: 11px; white-space: nowrap; vertical-align: middle;
-}
-.updated-chip[data-bucket="0"] { color: #38c793; border-color: #2b5c48; }
-.updated-chip[data-bucket="1"] { color: #ffb020; border-color: #6b5524; }
-
-#page-modal-overlay.light-theme .reader-source-toggle,
-#page-modal-overlay.light-theme .updated-chip {
+#page-modal-overlay.light-theme .reader-source-toggle {
   background: #F6F3EC; border-color: #CCC5B2; color: #22304A;
 }
 #page-modal-overlay.light-theme .reader-source-toggle button.active {
   background: #E4EDF0; color: #0F766E;
 }
-#page-modal-overlay.light-theme .updated-chip[data-bucket="0"] { color: #15803d; border-color: #86cfa4; }
-#page-modal-overlay.light-theme .updated-chip[data-bucket="1"] { color: #b45309; border-color: #e2c184; }
 
 #page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; margin-left: auto; }
 #page-modal-open {

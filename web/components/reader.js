@@ -118,7 +118,6 @@ const langBtns = Array.from(document.querySelectorAll('#reader-lang [data-lang]'
 const prevBtn = document.getElementById('reader-prev');
 const modalTitle = document.getElementById('page-modal-title');
 const sourceBtns = Array.from(document.querySelectorAll('#reader-source [data-source]'));
-const updatedChip = document.getElementById('page-modal-updated');
 
 // ------------------------------------------------------------
 // Session stack of visited articles (route history)
@@ -167,18 +166,6 @@ const BUCKET_LABELS = [
   'Updated this month / 本月更新',
   'Older / 較早',
 ];
-
-// Update the "last modified" chip next to the modal title.
-function updateUpdatedChip(article) {
-  const updated = latestUpdated(article.group);
-  if (!updated) {
-    updatedChip.hidden = true;
-    return;
-  }
-  updatedChip.hidden = false;
-  updatedChip.textContent = `Updated ${relativeAge(updated)} ago`;
-  updatedChip.dataset.bucket = String(recencyBucket(updated));
-}
 
 function optionHTML(rows, group) {
   const title = groupTitle(rows, group);
@@ -254,7 +241,6 @@ export function openReader(id, { restore = false, section = null } = {}) {
   }
   setSelectFor(article);
   setLangToggleFor(article);
-  updateUpdatedChip(article);
   overlay.classList.add('visible');
   state.readerId = article.id;
   state.readerSection = section;
