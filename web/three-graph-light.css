@@ -127,6 +127,9 @@ body {
 .panel-lang button + button { border-left-color: #CCC5B2; }
 .panel-lang button:hover:not(.active) { color: #22304A; }
 .panel-lang button.active { background: #0F766E; color: #fff; }
+/* Top-left links */
+#top-links a, #top-links button { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
+#top-links a:hover, #top-links button:hover { background: #ECE8DD; border-color: #0F766E; }
 #controls #btn-dataset { color: #7C8698; }
 
 /* Dataset info panel */

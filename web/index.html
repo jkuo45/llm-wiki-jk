@@ -105,10 +105,6 @@
       <span class="panel-title">Analysis / <span class="panel-title-zh">分析</span></span>
     </div>
     <div class="panel-header-actions">
-      <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
-        <button type="button" data-lang="en-US" title="English (US)">EN</button>
-        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-      </div>
       <button id="prompt-close" title="Close panel / 關閉面板" aria-label="Close panel" data-i18n-title="panelClose">&times;</button>
     </div>
   </div>
@@ -122,6 +118,10 @@
         <input type="checkbox" id="prompt-filter-nodes" disabled>
         <span><span data-i18n="filterLabel">Filter</span> (<span id="prompt-filter-count">0</span>)</span>
       </label>
+      <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
+        <button type="button" data-lang="en-US" title="English (US)">EN</button>
+        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+      </div>
     </div>
   </div>
   <div id="prompt-messages"></div>
@@ -159,10 +159,6 @@
         <span class="panel-title">Notes / <span class="panel-title-zh">筆記</span></span>
       </div>
       <div class="panel-header-actions">
-        <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
-          <button type="button" data-lang="en-US" title="English (US)">EN</button>
-          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-        </div>
         <button id="notes-close" aria-label="Close panel" title="Close panel">&times;</button>
       </div>
     </div>
@@ -187,6 +183,10 @@
             <polyline class="notes-sort-arrow-down" points="9 17 12 20 15 17"></polyline>
           </svg>
         </button>
+        <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
+          <button type="button" data-lang="en-US" title="English (US)">EN</button>
+          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+        </div>
       </div>
       <div id="notes-gallery"></div>
       <div id="notes-empty" class="notes-empty" hidden></div>
@@ -325,10 +325,6 @@
         <h2 id="page-modal-title">Reader / 閱讀器</h2>
         <div class="page-modal-actions">
           <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
-          <div class="lang-toggle panel-lang" id="reader-lang" role="group" aria-label="Language / 語言">
-            <button type="button" data-lang="en-US" title="English (US)">EN</button>
-            <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-          </div>
           <a id="page-modal-open" href="#" target="_blank" rel="noopener" title="Open in new tab / 新分頁開啟" aria-label="Open in new tab">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
