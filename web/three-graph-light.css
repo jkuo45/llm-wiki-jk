@@ -275,6 +275,9 @@ body {
 #prompt-filter-bar .lang-toggle button:hover:not(.active) { color: #22304A; }
 #prompt-filter-bar .lang-toggle button.active { background: #0F766E; color: #fff; }
 #analysis-tools .at-section { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
+/* Graph Query + Search & Filter share one paper — match the light card chrome. */
+#analysis-tools .at-row-pair { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
+#analysis-tools .at-row-pair > .at-section + .at-section { border-left-color: #E2DCCE; }
 #at-node-detail { background: #FFFFFF; }
 #at-node-detail .at-node-title { color: #1c2742; }
 .at-node-close { color: #7C8698; }
