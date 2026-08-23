@@ -224,13 +224,48 @@ def task_id_stem(basename):
     return stem, lang
 
 
+def scan_web_zh_tasks(args):
+    """Scan hand-maintained zh-TW translations in web/tasks/zh-TW/.
+
+    Translated task outputs are stored web-only (not in src/tasks), so they
+    are discovered directly at their serving location and registered in
+    tasks.json without being copied. Marked `in_place` so build_web_tasks
+    skips the copy step for them.
+    """
+    out = []
+    zh_dir = os.path.join(args.web_tasks_dir, "zh-TW")
+    if not os.path.isdir(zh_dir):
+        return out
+    for dirpath, dirnames, filenames in os.walk(zh_dir):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fname in sorted(filenames):
+            if fname.endswith(".md") and not fname.startswith("."):
+                fpath = os.path.join(dirpath, fname)
+                mtime_dt = datetime.fromtimestamp(
+                    os.path.getmtime(fpath)
+                ).astimezone()
+                out.append({
+                    "datetime": mtime_dt,
+                    "path": fpath,
+                    "in_place": True,
+                })
+    return out
+
+
 def build_web_tasks(task_data, args):
     """Emit web/data/tasks.json and copy task markdown into web/tasks/<lang>/."""
-    # web/tasks is fully generated output: wipe it first so stale flat copies
-    # from older builds don't linger alongside the language-split tree.
+    # en-US content is fully generated from src/tasks: wipe it plus any stale
+    # flat copies from older builds. web/tasks/zh-TW is hand-maintained
+    # (translations are stored web-only) and must survive rebuilds.
+    en_dir = os.path.join(args.web_tasks_dir, "en-US")
+    if os.path.isdir(en_dir):
+        shutil.rmtree(en_dir)
     if os.path.isdir(args.web_tasks_dir):
-        shutil.rmtree(args.web_tasks_dir)
-    os.makedirs(args.web_tasks_dir, exist_ok=True)
+        for fname in os.listdir(args.web_tasks_dir):
+            fp = os.path.join(args.web_tasks_dir, fname)
+            if os.path.isfile(fp):
+                os.remove(fp)
+    os.makedirs(en_dir, exist_ok=True)
 
     groups = OrderedDict()
     copied = 0
@@ -249,15 +284,23 @@ def build_web_tasks(task_data, args):
             # Raw filename (unquoted) so reader cards can show it directly.
             "filename": basename,
         }
-        # Preserve topical subfolders (relative to src/tasks) under the
-        # language dir: web/tasks/<lang>/<relative-subpath>.
-        rel = os.path.relpath(t["path"], args.tasks_dir)
-        dest_rel = os.path.join(lang, rel)
+        if t.get("in_place"):
+            # zh-TW translations live only under web/tasks/zh-TW/ — already
+            # at their serving location; register but do not copy. The path
+            # relative to web/tasks already carries the zh-TW/ prefix.
+            dest_rel = os.path.relpath(t["path"], args.web_tasks_dir)
+        else:
+            # Preserve topical subfolders (relative to src/tasks) under the
+            # language dir: web/tasks/<lang>/<relative-subpath>.
+            rel = os.path.relpath(t["path"], args.tasks_dir)
+            dest_rel = os.path.join(lang, rel)
         entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
         group = groups.setdefault(stem, {"id": f"task:{stem}", "kind": "task", "langs": {}})
         if lang not in group["langs"]:
             group["langs"][lang] = entry
 
+        if t.get("in_place"):
+            continue
         dest_path = os.path.join(args.web_tasks_dir, dest_rel)
         os.makedirs(os.path.dirname(dest_path), exist_ok=True)
         try:
@@ -467,7 +510,9 @@ def main():
 
     # --- Emit web artifacts for the reader panel (tasks.json + md copies) ---
     if not args.skip_web:
-        build_web_tasks(task_data, args)
+        # Hand-maintained zh-TW translations live web-only under
+        # web/tasks/zh-TW/; register them alongside the src/tasks scan.
+        build_web_tasks(task_data + scan_web_zh_tasks(args), args)
 
     # Prepare new content
     new_timestamp = get_timestamp()

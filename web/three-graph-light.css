@@ -121,19 +121,12 @@ body {
 #wiki-modal-body th, #wiki-modal-body td { border-color: #E2DCCE; }
 #wiki-modal-body th { background: #F6F3EC; color: #4B5563; }
 
-/* Unified top nav */
-#top-nav a, #top-nav button { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
-#top-nav a:hover, #top-nav button:hover { background: #ECE8DD; border-color: #0F766E; }
-.top-nav-screens button { color: #7C8698; }
-.top-nav-screens button:hover { color: #22304A; }
-.top-nav-screens button.open,
-.top-nav-screens button.active { background: #ECE8DD; border-color: #0F766E; color: #22304A; }
-/* Global UI-language toggle */
-#global-lang { background: #FFFFFF; border-color: #CCC5B2; }
-#global-lang button { color: #7C8698; }
-#global-lang button + button { border-left-color: #CCC5B2; }
-#global-lang button:hover:not(.active) { color: #22304A; }
-#global-lang button.active { background: #0F766E; color: #fff; }
+/* Shared EN/中 toggle chrome inside each screen's header */
+.panel-lang { background: #FFFFFF; border-color: #CCC5B2; }
+.panel-lang button { color: #7C8698; }
+.panel-lang button + button { border-left-color: #CCC5B2; }
+.panel-lang button:hover:not(.active) { color: #22304A; }
+.panel-lang button.active { background: #0F766E; color: #fff; }
 #controls #btn-dataset { color: #7C8698; }
 
 /* Dataset info panel */
@@ -176,11 +169,17 @@ body {
 #controls #btn-reset,
 #controls #btn-dataset,
 #controls #btn-save-png,
+#controls #btn-prompt,
+#controls #btn-notes,
 #controls #btn-unstick { color: #7C8698; }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
+#controls #btn-prompt:hover,
+#controls #btn-notes:hover,
 #controls #btn-unstick:hover { color: #22304A; border-color: #0F766E; }
+#controls #btn-prompt.open, #controls #btn-prompt.active,
+#controls #btn-notes.open { background: #ECE8DD; border-color: #0F766E; color: #22304A; }
 #controls #btn-save-png.ok { color: #1E7A4E; border-color: #1E7A4E; }
 #controls #btn-save-png.err { color: #C0392B; border-color: #C0392B; }
 
@@ -273,8 +272,7 @@ body {
 .at-compare-result td:first-child { color: #2563A8; }
 
 /* Analysis dashboard cards + per-node popover (light) */
-/* (Panel-local EN/中 toggles removed — the global #global-lang toggle in the
-   top nav now drives UI language everywhere.) */
+/* Shared EN/中 toggle chrome inside each screen's header */
 #analysis-tools .at-section { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 /* Graph Query + Search & Filter share one paper — match the light card chrome. */
 #analysis-tools .at-row-pair { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }

@@ -245,7 +245,7 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (82 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (79 total)</strong> — click to expand</summary>
 
 - [`node_network_adrenochrome_sirtuins_20_AUG_2026/` task_output_node_network_study_adrenochrome_defense_programs_20_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md) [[src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md|wiki]] (23_AUG_2026 10:36 AM PDT)
 - [`adrenochrome_mb_ag/` _document_ - GOPS - glyco-oxidative proteostasis](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md) [[src/tasks/adrenochrome_mb_ag/_document_ - GOPS - glyco-oxidative proteostasis.md|wiki]] (23_AUG_2026 10:36 AM PDT)
@@ -288,11 +288,9 @@
 - [task_output_autophagy_vs_mitophagy_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md) [[src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [task_output_caspase_01_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_caspase_01_JUN_2026.md) [[src/tasks/task_output_caspase_01_JUN_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
-- [task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md) [[src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [task_output_dj1_glycation_trace_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md) [[src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
-- [task_output_sirtuins_resveratrol_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_resveratrol_zh-TW.md) [[src/tasks/task_output_sirtuins_resveratrol_zh-TW.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - SRAC - SASP-Remodeling Aminochrome Complex](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md) [[src/tasks/adrenochrome_mb_ag/_document_ - SRAC - SASP-Remodeling Aminochrome Complex.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [`adrenochrome_mb_ag/` outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md) [[src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md|wiki]] (22_AUG_2026 03:30 PM PDT)
 - [`adrenochrome_mb_ag/` task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md) [[src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md|wiki]] (22_AUG_2026 03:30 PM PDT)
@@ -327,7 +325,6 @@
 - [`cd38_sarm1_nad_trace/` task_output_research_CD38_SARM1_gaps_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md) [[src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md|wiki]] (09_AUG_2026 06:08 PM PDT)
 - [`cd38_sarm1_nad_trace/` task_output_nad_to_bnip3_trace_21_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md) [[src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md|wiki]] (22_JUL_2026 04:13 PM PDT)
 - [task_output_ap1_trace_21_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ap1_trace_21_JUL_2026.md) [[src/tasks/task_output_ap1_trace_21_JUL_2026.md|wiki]] (22_JUL_2026 03:32 PM PDT)
-- [task_output_ivermectin_cancer_14_JUL_2026_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md) [[src/tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 - [`adrenochrome_mb_ag/` _document_ - Mitohormetic Redox-Relay](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md) [[src/tasks/adrenochrome_mb_ag/_document_ - Mitohormetic Redox-Relay.md|wiki]] (21_JUL_2026 07:57 PM PDT)
 
 </details>
