@@ -1,3 +1,23 @@
+---
+title: Bulk vs. Shred Scenario Analysis — Elevated RMR & Bio-Entity Interplay
+description: Physiologist-style protocol comparison of bulking (anabolism + elevated resting metabolic rate) vs. shredding (caloric deficit + autophagy) — covering catecholamine/adrenochrome toxicity risk during surplus, COMT-supported detoxification nutrients, AMPK/SIRT1-driven cleanup during deficit, epigenome protection, and prioritized food/supplement/behavioral recommendations per scenario.
+created: 2026-08-23
+updated: 2026-08-23
+source: physiologist skill synthesis over vault entity notes (COMT, Adrenochrome, Autophagy, mTORC1, SIRT1, Methylation Cycle)
+tags:
+  - task-output
+  - physiology
+  - body-composition
+  - adrenochrome
+  - comt
+  - autophagy
+  - mtorc1
+  - sirt1
+  - oxidative-stress
+author:
+  - Physiologist Agent
+---
+
 # Bulk vs. Shred Scenario Analysis: Elevated RMR & Bio-Entity Interplay
 
 **Overview of Priority Shift:**

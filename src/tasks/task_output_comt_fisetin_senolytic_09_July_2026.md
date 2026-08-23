@@ -1,3 +1,20 @@
+---
+title: Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan
+description: Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.
+created: 2026-07-09
+updated: 2026-08-23
+source: wiki entity notes (COMT, Fisetin, Senolytic, Catecholamines) + primary literature synthesis
+tags:
+  - task-output
+  - fisetin
+  - comt
+  - senolytic
+  - catecholamines
+  - geraldol
+  - flavonoid
+  - longevity
+author: []
+---
 
 # COMT × Fisetin: Research Evaluation and Experimental Proposal
 
@@ -6,6 +23,8 @@
 **Subject:** Evaluation of fisetin as a COMT modulator and its dual senolytic–neuromodulatory potential for longevity
 
 ---
+
+
 
 ## Summary
 

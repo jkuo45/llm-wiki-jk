@@ -7,15 +7,18 @@ aliases:
   - Dietary Sirtuin Sources
 source: https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C
 author:
-published:
+  - Google AI Studio (Gemini)
 created: 2026-07-02
 updated: 2026-07-05
-description: "Resveratrol role in SIRT1 activation, compounds targeting other sirtuins (SIRT2–SIRT7), dietary sources and therapeutic doses"
+description: "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations"
 tags:
   - gemini
   - clippings
   - sirtuins
   - resveratrol
+  - sirt1
+  - stacs
+  - polyphenols
 ---
 
 # Resveratrol, Sirtuins & Dietary Sources
