@@ -27,7 +27,7 @@ const promptMessages = document.getElementById('prompt-messages');
 const promptInput = document.getElementById('prompt-input');
 const promptSend = document.getElementById('prompt-send');
 const promptCloseBtn = document.getElementById('prompt-close');
-const promptLangBtns = Array.from(document.querySelectorAll('#prompt-panel .lang-toggle [data-lang]'));
+const promptLangBtns = Array.from(document.querySelectorAll('#global-lang [data-lang]'));
 const promptFilterToggle = document.getElementById('prompt-filter-toggle');
 const promptFilterCheckbox = document.getElementById('prompt-filter-nodes');
 const promptFilterCount = document.getElementById('prompt-filter-count');
@@ -348,7 +348,7 @@ function applyUiLang(lang) {
 
   promptLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
   [...promptLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
-  const langToggle = document.getElementById('prompt-lang');
+  const langToggle = document.getElementById('global-lang');
   if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
 
   promptPanel.querySelectorAll('[data-i18n]').forEach((el) => {

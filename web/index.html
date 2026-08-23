@@ -25,9 +25,28 @@
   <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/">
 </head>
 <body>
-<div id="top-links">
-  <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
-  <button id="btn-reader" title="Read articles / 閱讀文章">Reader / 閱讀器</button>
+<!-- Unified top nav: screen switches (Reader / Analysis / Notes) on the left,
+     global UI language toggle on the right. The button IDs (btn-reader,
+     btn-prompt, btn-notes) are wired by reader.js / prompt.js / notes.js. -->
+<div id="top-nav">
+  <div class="top-nav-left">
+    <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
+    <div class="top-nav-screens" role="group" aria-label="Screens / 畫面">
+      <button id="btn-reader" title="Read articles / 閱讀文章">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></span>
+        <span class="nav-label">Reader / 閱讀器</span>
+      </button>
+      <button id="btn-prompt" title="Analysis panel / 分析面板">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
+        <span class="nav-label">Analysis / 分析</span>
+        <span id="prompt-activity-dot" class="prompt-activity-dot" aria-hidden="true"></span>
+      </button>
+      <button id="btn-notes" title="Notes / 筆記">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
+        <span class="nav-label">Notes / 筆記</span>
+      </button>
+    </div>
+  </div>
 </div>
 <div id="graph">
   <div id="loading">
@@ -38,7 +57,6 @@
   <div id="tooltip"></div>
   <div id="wiki-tooltip"></div>
   <div id="controls">
-    <div class="controls-spacer" aria-hidden="true"></div>
     <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
     </button>
@@ -51,13 +69,6 @@
     </button>
     <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></span>
-    </button>
-    <button id="btn-prompt" title="Analysis panel / 分析面板" aria-label="Analysis panel">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
-      <span id="prompt-activity-dot" class="prompt-activity-dot" aria-hidden="true"></span>
-    </button>
-    <button id="btn-notes" title="Notes / 筆記" aria-label="Notes panel">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions / 取消固定" aria-label="Reset all dragged nodes to physics positions" style="display:none">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 9.9-1"></path></svg></span>
@@ -118,10 +129,6 @@
         <input type="checkbox" id="prompt-filter-nodes" disabled>
         <span><span data-i18n="filterLabel">Filter</span> (<span id="prompt-filter-count">0</span>)</span>
       </label>
-      <div class="lang-toggle" id="prompt-lang" role="group" aria-label="Panel language">
-        <button type="button" data-lang="en-US" title="English (US)">EN</button>
-        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-      </div>
     </div>
   </div>
   <div id="prompt-messages"></div>
@@ -183,10 +190,6 @@
             <polyline class="notes-sort-arrow-down" points="9 17 12 20 15 17"></polyline>
           </svg>
         </button>
-        <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
-          <button type="button" data-lang="en-US" title="English (US)">EN</button>
-          <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-        </div>
       </div>
       <div id="notes-gallery"></div>
       <div id="notes-empty" class="notes-empty" hidden></div>
@@ -236,10 +239,6 @@
           <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Gallery</button>
           <button id="notes-lb-top-prev" type="button" title="Previous image" data-i18n="prevNav" data-i18n-title="prevImg" disabled>&larr; Previous</button>
           <button id="notes-lb-top-next" type="button" title="Next image" data-i18n="nextNav" data-i18n-title="nextImg" aria-label="Next →" disabled>Next &rarr;</button>
-          <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
-            <button type="button" data-lang="en-US" title="English (US)">EN</button>
-            <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-          </div>
         </div>
         <div class="notes-lb-title" id="notes-lb-title"></div>
       </div>

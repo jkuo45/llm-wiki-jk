@@ -74,8 +74,8 @@ const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
 const fieldsEl = document.querySelector('.notes-combobox-field');
 const notesSearchClear = $('notes-search-clear');
-const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-toggle'));
-const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang]'));
+const langToggles = Array.from(document.querySelectorAll('#global-lang'));
+const langBtns = Array.from(document.querySelectorAll('#global-lang [data-lang]'));
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
 

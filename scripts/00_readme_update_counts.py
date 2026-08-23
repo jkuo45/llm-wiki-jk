@@ -167,6 +167,7 @@ def format_top_items(items, limit=5):
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 ZH_TW_SUFFIX_RE = re.compile(r"[_-]zh[-_]tw$", re.IGNORECASE)
+EN_US_SUFFIX_RE = re.compile(r"[_-]en[-_]us$", re.IGNORECASE)
 
 
 def parse_frontmatter(filepath):
@@ -216,11 +217,21 @@ def task_id_stem(basename):
     if ZH_TW_SUFFIX_RE.search(stem):
         lang = "zh-TW"
         stem = ZH_TW_SUFFIX_RE.sub("", stem)
+    else:
+        # Strip an explicit en-US suffix too so pairs like
+        # foo_en-US.md / foo_zh-TW.md group as one logical task.
+        stem = EN_US_SUFFIX_RE.sub("", stem)
     return stem, lang
 
 
 def build_web_tasks(task_data, args):
-    """Emit web/data/tasks.json and copy task markdown into web/tasks/."""
+    """Emit web/data/tasks.json and copy task markdown into web/tasks/<lang>/."""
+    # web/tasks is fully generated output: wipe it first so stale flat copies
+    # from older builds don't linger alongside the language-split tree.
+    if os.path.isdir(args.web_tasks_dir):
+        shutil.rmtree(args.web_tasks_dir)
+    os.makedirs(args.web_tasks_dir, exist_ok=True)
+
     groups = OrderedDict()
     copied = 0
     for t in task_data:
@@ -237,16 +248,20 @@ def build_web_tasks(task_data, args):
             "tags": fm.get("tags") or [],
             # Raw filename (unquoted) so reader cards can show it directly.
             "filename": basename,
-            "path": f"tasks/{urllib.parse.quote(basename)}",
         }
+        # Preserve topical subfolders (relative to src/tasks) under the
+        # language dir: web/tasks/<lang>/<relative-subpath>.
+        rel = os.path.relpath(t["path"], args.tasks_dir)
+        dest_rel = os.path.join(lang, rel)
+        entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
         group = groups.setdefault(stem, {"id": f"task:{stem}", "kind": "task", "langs": {}})
         if lang not in group["langs"]:
             group["langs"][lang] = entry
 
-        dest_dir = args.web_tasks_dir
-        os.makedirs(dest_dir, exist_ok=True)
+        dest_path = os.path.join(args.web_tasks_dir, dest_rel)
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
         try:
-            shutil.copy2(t["path"], os.path.join(dest_dir, basename))
+            shutil.copy2(t["path"], dest_path)
             copied += 1
         except OSError as e:
             print(f"Warning: could not copy {t['path']}: {e}")

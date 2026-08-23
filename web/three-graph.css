@@ -178,12 +178,37 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #wiki-modal-body th, #wiki-modal-body td { border: 1px solid #2a2a4e; padding: 6px 10px; font-size: 13px; }
 #wiki-modal-body th { background: #16162b; color: #aaa; text-align: left; }
 
-/* Top-left links */
-#top-links { position: absolute; top: 12px; left: 12px; z-index: 10; display: flex; gap: 8px; }
-#top-links a { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; }
-#top-links a:hover { background: #2a2a4e; border-color: #4E79A7; }
-#top-links button { background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 18px; border-radius: 8px; text-decoration: none; font-size: 15px; transition: all 0.15s; cursor: pointer; font-family: inherit; line-height: 1.2; }
-#top-links button:hover { background: #2a2a4e; border-color: #4E79A7; }
+/* Unified top nav — screen switches on the left, global language toggle on
+   the right. One consistent control row across Reader / Analysis / Notes. */
+#top-nav {
+  position: absolute; top: 12px; left: 12px; right: 12px; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; pointer-events: none; /* children re-enable */
+}
+#top-nav a, #top-nav button {
+  pointer-events: auto;
+  background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0;
+  padding: 10px 16px; border-radius: 8px; text-decoration: none;
+  font-size: 14px; transition: all 0.15s; cursor: pointer;
+  font-family: inherit; line-height: 1.2; white-space: nowrap;
+}
+#top-nav a:hover, #top-nav button:hover { background: #2a2a4e; border-color: #4E79A7; }
+.top-nav-left { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.top-nav-screens { display: inline-flex; gap: 8px; }
+/* Screen toggle buttons: icon + bilingual label, active state matches panels */
+.top-nav-screens button {
+  display: inline-flex; align-items: center; gap: 8px;
+  position: relative; color: #9a9ab0;
+}
+.top-nav-screens button:hover { color: #e0e0e0; }
+.top-nav-screens button.open,
+.top-nav-screens button.active { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
+.top-nav-screens .btn-icon { display: flex; align-items: center; justify-content: center; width: 18px; height: 18px; flex: none; }
+.top-nav-screens .btn-icon svg { width: 100%; height: 100%; display: block; }
+.top-nav-right { display: flex; align-items: center; gap: 8px; }
+/* Global UI-language toggle (drives every panel via i18n.js) */
+#global-lang { flex-shrink: 0; border-radius: 6px; }
+#global-lang button { padding: 9px 13px; font-size: 13px; }
 
 /* Dataset info panel */
 #controls #btn-dataset { flex: none; white-space: nowrap; color: #9a9ab0; display: none; }
@@ -410,21 +435,14 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #zoom-slider-thumb { position: absolute; left: 3px; right: 3px; height: 12px; background: #888; border-radius: 4px; transform: translateY(-50%); pointer-events: none; transition: bottom 0.05s; }
 #zoom-bar .zoom-label { color: #666; font-size: 11px; margin-top: 6px; letter-spacing: 0.05em; text-transform: uppercase; user-select: none; flex-shrink: 0; }
 
-/* Controls overlay — vertical icon rail at the top-right. */
-#controls { position: absolute; top: 16px; right: 16px; left: auto; bottom: auto; display: flex; flex-direction: column; align-items: center; gap: 10px; z-index: 10; }
+/* Controls overlay — vertical icon rail on the right, below the top nav. */
+#controls { position: absolute; top: 72px; right: 16px; left: auto; bottom: auto; display: flex; flex-direction: column; align-items: center; gap: 10px; z-index: 10; }
 #controls button { display: flex; align-items: center; justify-content: center; background: #1a1a2e; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 0 1 auto; min-width: 0; white-space: nowrap; }
 #controls button:hover { background: #2a2a4e; border-color: #4E79A7; }
 #controls button.active { background: #4E79A7; border-color: #4E79A7; }
-/* Visual order in the vertical rail: blank slot (top), analysis, notes, reset. */
-#controls .controls-spacer { order: 1; }
-#controls #btn-prompt { order: 2; }
-#controls #btn-notes { order: 3; }
-#controls #btn-reset { order: 4; }
-#controls #btn-unstick { order: 5; }
-.controls-spacer { width: 44px; height: 44px; flex: none; }
-/* Icon buttons in the controls bar — uniform compact squares like #btn-notes.
-   44px with a centered .btn-icon, muted color, bright/outlined on hover.
-   save-png and dataset stay hidden until used. */
+.controls-spacer { flex: 1 1 auto; }
+/* Icon buttons in the controls rail — uniform compact squares, muted color,
+   bright/outlined on hover. save-png and dataset stay hidden until used. */
 #controls .btn-icon { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
 #controls .btn-icon svg { width: 100%; height: 100%; display: block; }
 #controls #btn-reset,
@@ -467,11 +485,6 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 @media (min-width: 1200px) {
   #controls button { flex: none; }
 }
-
-/* Prompt button (in controls bar) */
-#controls #btn-prompt { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
-#controls #btn-prompt:hover { color: #e0e0e0; border-color: #4E79A7; }
-#controls #btn-prompt.open, #controls #btn-prompt.active { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
 
 /* Analysis panel — full-viewport overlay like the reader: opaque and edge-to-edge,
    slides up over the graph. #prompt-box fills the entire view. */
@@ -615,14 +628,6 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   border-radius: 10px; padding: 12px 14px; min-width: 0;
 }
 #analysis-tools .at-section > .at-h { margin-bottom: 10px; }
-
-/* In-panel language toggle (header) — same font-size/centering as the
-   Prompt/Graph mode tabs so the EN/中 labels render identically. */
-#prompt-header .lang-toggle { border-radius: 6px; }
-#prompt-header .lang-toggle button {
-  font-size: 11px; padding: 5px 9px; line-height: 1;
-  display: inline-flex; align-items: center; justify-content: center;
-}
 
 /* Explore widgets */
 .at-section { border-bottom: 1px solid #2a2a4e; padding-bottom: 12px; }
@@ -1178,8 +1183,6 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   padding: 8px 16px; border-bottom: 1px solid #2a2a4e; background: #16162b;
 }
 .prompt-filter-right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
-#prompt-filter-bar .lang-toggle { border-radius: 6px; flex-shrink: 0; }
-#prompt-filter-bar .lang-toggle button { padding: 5px 11px; font-size: 12px; }
 
 /* Filter-nodes toggle, shown in the body bar while highlights are active. */
 #prompt-filter-toggle {
@@ -1199,8 +1202,9 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 @media (min-width: 481px) and (max-width: 1199px) {
   #sidebar { top: 12px; left: 50%; right: auto; transform: translate(-50%, calc(100% + 12px)); width: min(680px, calc(100vw - 24px)); border-radius: 16px; border: 1px solid #2a2a4e; box-shadow: 0 16px 48px rgba(0,0,0,0.6); }
   #sidebar.open { transform: translate(-50%, 0); }
-  #top-links { right: 76px; flex-wrap: wrap; gap: 6px; }
-  #top-links a, #top-links button { padding: 8px 12px; font-size: 13px; }
+  #top-nav .nav-label { display: none; }
+  #top-nav a, #top-nav button { padding: 8px 12px; font-size: 13px; }
+  #controls { top: 64px; }
 }
 
 @media (max-width: 480px) {
@@ -1228,8 +1232,10 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
     max-width: calc(100vw - 20px);
     max-height: calc(100dvh - 32px);
   }
-  #top-links { right: 76px; flex-wrap: wrap; gap: 6px; }
-  #top-links a, #top-links button { padding: 8px 10px; font-size: 12px; }
+  #top-nav { flex-wrap: wrap; }
+  #top-nav .nav-label { display: none; }
+  #top-nav a, #top-nav button { padding: 8px 10px; font-size: 12px; }
+  #controls { top: 64px; }
 }
 
 /* Reader modal: header must fit within the viewport on smaller screens */
@@ -1242,9 +1248,6 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 /* ---------------------------------------------------------------------------
    Notes panel (#notes-panel) — sibling of the analysis panel
    --------------------------------------------------------------------------- */
-#controls #btn-notes { position: relative; flex: none; width: 44px; padding: 10px; color: #9a9ab0; }
-#controls #btn-notes:hover { color: #e0e0e0; border-color: #4E79A7; }
-#controls #btn-notes.open { background: #2a2a4e; border-color: #4E79A7; color: #e0e0e0; }
 
 #notes-panel {
   position: fixed; inset: 0; z-index: 490;
@@ -1375,10 +1378,8 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   color: #9ec1e8; font-size: 13px; font-family: inherit; cursor: pointer;
 }
 .notes-popup-done:hover { background: #23233f; color: #e0e0e0; }
-/* EN/中 toggle inside the filters bar — same look as the Reader's, sized to
-   match the filter inputs so the row stays aligned. */
-#notes-filters .lang-toggle { border-radius: 6px; flex-shrink: 0; }
-#notes-filters .lang-toggle button { font-size: 12px; padding: 8px 11px; }
+/* EN/中 toggle inside the filters bar — moved to the global top-nav toggle;
+   the filters row keeps only search + sort now. */
 /* Sort toggle: calendar glyph with up/down chevrons. The active direction is
    highlighted (teal); the other stays muted. */
 .notes-sort-btn {
@@ -1497,17 +1498,6 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #notes-lb-back { flex: 0 0 auto; margin-right: auto; }
 #notes-lb-top-next { flex: 0 0 auto; white-space: nowrap; }
 #notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; }
-/* EN/中 toggle in the lightbox top bar — same component as the gallery filters
-   bar (and its segmented look), pinned to the far right of the row. */
-.notes-lb-topbar > .lang-toggle { margin-left: auto; border-radius: 6px; }
-.notes-lb-topbar > .lang-toggle button,
-.notes-lb-topbar > .lang-toggle button:hover {
-  background: transparent; border: none; border-radius: 0; color: #888;
-  font-size: 12px; line-height: 1; padding: 8px 11px;
-}
-.notes-lb-topbar > .lang-toggle button:hover:not(.active) { color: #e0e0e0; }
-.notes-lb-topbar > .lang-toggle button.active,
-.notes-lb-topbar > .lang-toggle button.active:hover { background: #4E79A7; color: #fff; }
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
 .notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
