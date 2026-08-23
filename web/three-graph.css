@@ -210,7 +210,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .page-modal-header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 #page-modal-header h2 { font-size: 16px; color: #e0e0e0; margin: 0; padding-right: 8px; white-space: nowrap; cursor: pointer; }
 #page-modal-header h2:hover { color: #fff; }
-.page-modal-controls { display: flex; align-items: center; gap: 8px; width: 100%; }
+.page-modal-controls { display: flex; align-items: center; gap: 8px; width: 100%; flex-wrap: wrap; }
 .page-modal-controls #reader-select { flex: 1; }
 .page-modal-controls .lang-toggle { flex-shrink: 0; }
 
