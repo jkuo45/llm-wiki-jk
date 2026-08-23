@@ -1,5 +1,5 @@
 {
-  "generated": "23_AUG_2026 09:57 AM PDT",
+  "generated": "23_AUG_2026 10:14 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,79 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)",
+          "description": "AlphaFold-derived pLDDT confidence and PAE domain-boundary analysis for nine NAD+ metabolism proteins — CD38, BST1, SARM1, NAMPT, NT5E (CD73), SIRT1, SIRT3, SIRT6, and PARP1 — assessing structural reliability for downstream modeling of NAD+-boosting intervention targets.",
+          "created": "2026-06-26",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "alphafold",
+            "structural-biology",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "nampt",
+            "sirtuins",
+            "parp1"
+          ],
+          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
+          "path": "tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
+          "description": "Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.",
+          "created": "2026-07-09",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "fisetin",
+            "comt",
+            "senolytic",
+            "catecholamines",
+            "geraldol",
+            "flavonoid",
+            "longevity"
+          ],
+          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+          "path": "tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing",
+          "description": "Answer to whether antioxidant supplementation interferes with mitohormetic adaptation — ranked by strength of evidence across NAC, vitamin C/E, and other antioxidants, with timing considerations (chronic daily use vs. acute post-exercise) and implications drawn from failed clinical trials (SELECT, HOPE, Bjelakovic meta-analysis).",
+          "created": "2026-08-05",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "mitohormesis",
+            "hormesis",
+            "antioxidants",
+            "ros",
+            "nac",
+            "exercise",
+            "mitochondrial-biogenesis"
+          ],
+          "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
+          "path": "tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
         }
       }
     },
@@ -71,55 +144,6 @@
           ],
           "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
           "path": "tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing",
-          "description": "Answer to whether antioxidant supplementation interferes with mitohormetic adaptation — ranked by strength of evidence across NAC, vitamin C/E, and other antioxidants, with timing considerations (chronic daily use vs. acute post-exercise) and implications drawn from failed clinical trials (SELECT, HOPE, Bjelakovic meta-analysis).",
-          "created": "2026-08-05",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "mitohormesis",
-            "hormesis",
-            "antioxidants",
-            "ros",
-            "nac",
-            "exercise",
-            "mitochondrial-biogenesis"
-          ],
-          "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
-          "path": "tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)",
-          "description": "AlphaFold-derived pLDDT confidence and PAE domain-boundary analysis for nine NAD+ metabolism proteins — CD38, BST1, SARM1, NAMPT, NT5E (CD73), SIRT1, SIRT3, SIRT6, and PARP1 — assessing structural reliability for downstream modeling of NAD+-boosting intervention targets.",
-          "created": "2026-06-26",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "alphafold",
-            "structural-biology",
-            "nad-plus",
-            "cd38",
-            "sarm1",
-            "nampt",
-            "sirtuins",
-            "parp1"
-          ],
-          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
-          "path": "tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
         }
       }
     },
@@ -289,21 +313,6 @@
           "tags": [],
           "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
           "path": "tasks/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_comt_fisetin_senolytic_09_July_2026",
-          "description": "",
-          "created": "2026-08-22",
-          "updated": "2026-08-22",
-          "tags": [],
-          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
-          "path": "tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
         }
       }
     },
@@ -1380,6 +1389,40 @@
       }
     },
     {
+      "id": "task:task_output_ivermectin_cancer_14_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Ivermectin as a Preventative / Cancer Measure — Graphified Findings",
+          "description": "Graph-traced findings on ivermectin's anticancer repositioning — the wiki corpus frames it as a repurposed therapeutic/adjuvant (inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance) rather than a primary preventive measure, with all evidence limited to preclinical models.",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "graphify-query"
+          ],
+          "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
+          "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
+          "description": "關於伊維菌素抗癌老藥新用（repositioning）的追蹤發現，取自 wiki 知識圖譜（graphify 查詢 + 節點閱讀）。",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "graphify-query"
+          ],
+          "filename": "task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md",
+          "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_cr_vs_spermidine_autophagy_15_July_2026",
       "kind": "task",
       "langs": {
@@ -1434,40 +1477,6 @@
           ],
           "filename": "task_output_fisetin_sasp_cxcl12_15_July_2026.md",
           "path": "tasks/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_ivermectin_cancer_14_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Ivermectin as a Preventative / Cancer Measure — Graphified Findings",
-          "description": "Traced findings on ivermectin's anticancer repositioning, drawn from the wiki knowledge graph (graphify query + node reads).",
-          "created": "2026-07-15",
-          "updated": "2026-07-15",
-          "tags": [
-            "cancer",
-            "drug-repositioning",
-            "ivermectin",
-            "graphify-query"
-          ],
-          "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
-          "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
-          "description": "透過 wiki 知識圖譜追蹤伊維菌素抗癌老藥新用的發現——涵蓋對癌細胞的選擇性毒殺、自噬/P21 活化、WNT-TCF、PAK1 與粒線體機制，並註明所有證據仍限於臨床前研究。",
-          "created": "2026-07-15",
-          "updated": "2026-07-15",
-          "tags": [
-            "cancer",
-            "drug-repositioning",
-            "ivermectin",
-            "graphify-query"
-          ],
-          "filename": "task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md",
-          "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md"
         }
       }
     },
@@ -1688,7 +1697,7 @@
       "langs": {
         "en-US": {
           "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Gemini-generated overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
+          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
           "created": "2026-07-02",
           "updated": "2026-07-05",
           "tags": [
@@ -1711,17 +1720,14 @@
       "langs": {
         "zh-TW": {
           "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "Gemini 生成綜述：白藜蘆醇在 SIRT1 活化中的角色（K 型別構調節機制、直接與間接活化的爭議）、標靶 SIRT2–SIRT7 的化合物、膳食多酚來源與治療劑量考量",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
           "created": "2026-07-02",
           "updated": "2026-07-05",
           "tags": [
             "gemini",
             "clippings",
             "sirtuins",
-            "resveratrol",
-            "sirt1",
-            "stacs",
-            "polyphenols"
+            "resveratrol"
           ],
           "filename": "task_output_sirtuins_resveratrol_zh-TW.md",
           "path": "tasks/task_output_sirtuins_resveratrol_zh-TW.md"
