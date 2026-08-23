@@ -73,8 +73,9 @@
 
   function relAge(updated){
     if (!updated) return '';
-    const days = Math.floor((Date.now() - new Date(updated).getTime()) / 864e5);
-    if (days <= 0) return 'today';
+    const ms = Date.now() - new Date(updated).getTime();
+    if (ms < 864e5) return 'today';
+    const days = Math.floor(ms / 864e5);
     if (days < 7) return days + 'd';
     if (days < 30) return Math.floor(days / 7) + 'w';
     if (days < 365) return Math.floor(days / 30) + 'mo';
@@ -128,7 +129,8 @@
             <p class="task-title"><a href="${esc(viewerHref(t.enPath))}" data-task-id="${esc(t.id)}">${esc(t.display)}</a></p>
             ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${esc(t.zhTitle)}</a></p>` : ''}
             ${t.desc ? `<p class="task-desc">${esc(t.desc)}</p>` : ''}
-            <p class="task-meta"><code>${esc(t.file)}</code> · <span class="${cls}">updated ${esc(t.age)} ago (${esc(t.updated)})</span></p>
+            <p class="task-meta"><code>${esc(t.file)}</code></p>
+            <p class="task-meta"><span class="${cls}">${t.age === 'today' ? 'updated today' : `updated ${esc(t.age)} ago`} (${esc(t.updated)})</span></p>
           </li>`).join('');
         html += '</ul>';
       });

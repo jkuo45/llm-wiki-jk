@@ -142,10 +142,11 @@ function loadArticle(article, section) {
   openLink.href = url;
 }
 
-// Relative age label for the freshness highlight ("2d", "3w", "5mo").
+// Relative age label for the freshness highlight ("today", "2d", "5mo").
 function relativeAge(updated) {
-  const days = Math.floor((Date.now() - new Date(updated).getTime()) / 864e5);
-  if (days <= 0) return 'today';
+  const ms = Date.now() - new Date(updated).getTime();
+  if (ms < 864e5) return 'today';
+  const days = Math.floor(ms / 864e5);
   if (days < 7) return `${days}d`;
   if (days < 30) return `${Math.floor(days / 7)}w`;
   if (days < 365) return `${Math.floor(days / 30)}mo`;
