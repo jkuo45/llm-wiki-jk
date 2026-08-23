@@ -61,11 +61,16 @@ const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 function safeSrc() {
   const raw = new URLSearchParams(location.search).get('src') || '';
   const decoded = decodeURIComponent(raw);
-  // Optional "../" prefix (page-relative), single flat filename — no traversal.
-  if (/^(?:\.\.\/)?tasks\/[^/\\]+\.(?:md|markdown)$/.test(decoded)) {
-    return decoded.replace(/^\.\.\//, '../');
-  }
-  return null;
+  // Optional "../" prefix (page-relative). Allow nested subdirectories
+  // (e.g. tasks/en-US/<task>/file.md) but no traversal (".." segments),
+  // no backslashes, no empty segments.
+  const m = decoded.match(/^(?:\.\.\/)?(tasks\/.+)$/);
+  if (!m) return null;
+  const segs = m[1].split('/');
+  const ok = segs.length >= 2 &&
+    segs.every((s) => s && s !== '.' && s !== '..' && !s.includes('\\')) &&
+    /\.(?:md|markdown)$/.test(segs[segs.length - 1]);
+  return ok ? '../' + m[1] : null;
 }
 
 function stripFrontmatter(text) {
