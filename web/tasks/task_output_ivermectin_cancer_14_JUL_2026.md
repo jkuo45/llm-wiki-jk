@@ -1,6 +1,6 @@
 ---
 title: Ivermectin as a Preventative / Cancer Measure — Graphified Findings
-description: Traced findings on ivermectin's anticancer repositioning, drawn from the wiki knowledge graph (graphify query + node reads).
+description: Graph-traced findings on ivermectin's anticancer repositioning — the wiki corpus frames it as a repurposed therapeutic/adjuvant (inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance) rather than a primary preventive measure, with all evidence limited to preclinical models.
 created: 2026-07-15
 updated: 2026-07-15
 tags:

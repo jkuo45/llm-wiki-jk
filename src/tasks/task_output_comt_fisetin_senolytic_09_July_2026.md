@@ -25,7 +25,6 @@ author: []
 ---
 
 
-
 ## Summary
 
 [[Fisetin]] (3,3′,4′,7-tetrahydroxyflavone) is a natural [[Flavonoid]] with demonstrated [[Senolytic|senolytic]], neuroprotective, anti-inflammatory, and antioxidant properties. It is also a validated inhibitor of [[COMT]] (catechol-O-methyltransferase), with [[IC50]] values in the low micromolar range (2.6–5.8 µM) against human liver COMT. This dual activity—simultaneously clearing [[Senescent Cells]] and modulating [[Catecholamines|catecholamine]]/[[Dopamine]] metabolism—creates a pharmacologically interesting but mechanistically complex intersection. This report evaluates the empirical basis for COMT modulation by fisetin, its implications for longevity research, and proposes a rigorous experimental plan.

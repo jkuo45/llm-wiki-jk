@@ -10,7 +10,7 @@ author:
   - Google AI Studio (Gemini)
 created: 2026-07-02
 updated: 2026-07-05
-description: "Gemini-generated overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations"
+description: "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations"
 tags:
   - gemini
   - clippings
