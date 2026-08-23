@@ -1,13 +1,14 @@
 ---
-title: Grok
+title: MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)
 source: https://x.com/i/grok?conversation=2067825256228966450
 author:
 published:
 created: 2026-06-19
-description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.
+description: Speculative mitohormetic stack using low-dose carbazochrome redox pulsing, methylene blue electron shunting, NAD+ precursors (NR/NMN), and urolithin A mitophagy to address mitochondrial dysfunction through controlled oxidative eustress and biogenesis signaling.
 tags:
   - clippings
-  - grok
+  - mitohormesis
+  - mitochondria
 ---
 ## **Primary Target:** Mitochondrial Dysfunction & Energy Failure
 ### Composition

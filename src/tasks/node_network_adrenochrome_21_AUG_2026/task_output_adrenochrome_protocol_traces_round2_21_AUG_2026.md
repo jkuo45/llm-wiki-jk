@@ -1,3 +1,15 @@
+---
+title: "Adrenochrome Protocol Network Traces, Round 2"
+description: Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.
+created: 2026-08-21
+tags:
+  - task-output
+  - adrenochrome
+  - knowledge-graph
+  - nad-plus
+  - network-analysis
+---
+
 # Task Output - Adrenochrome Protocol Network Traces, Round 2 (fuel line, amplifier conflict, biomarker, weighted re-rank, NF-κB dedup) - 21 August 2026
 
 **Graph build:** `graphify-out/graph.json` — 2,596 nodes / 3,737 edges (giant component 2,110 / 3,295), build `867a5ae5fdb8a46c` (unchanged from round 1)

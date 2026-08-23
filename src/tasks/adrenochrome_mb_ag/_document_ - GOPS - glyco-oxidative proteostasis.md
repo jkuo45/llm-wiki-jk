@@ -1,13 +1,14 @@
 ---
-title: Grok
+title: GOPS - Glyco-Oxidative Proteostasis Shield
 source: https://x.com/i/grok?conversation=2067971072436420814
 author:
 published:
 created: 2026-06-19
-description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.
+description: Conceptual longevity protocol combining the adrenochrome monoaminoguanidine hybrid molecule, spermidine autophagy induction, and carnosine/EDTA metal chelation to counter glycation (AGEs), oxidative stress, and impaired proteostasis in aging and metabolic stress contexts.
 tags:
   - clippings
-  - grok
+  - glycation
+  - proteostasis
 ---
 ### Scientific Rationale & Mechanistic Synergy
 

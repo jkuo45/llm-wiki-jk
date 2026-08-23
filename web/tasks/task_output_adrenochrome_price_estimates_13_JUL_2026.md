@@ -1,3 +1,14 @@
+---
+title: "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol"
+description: Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.
+created: 2026-07-13
+tags:
+  - task-output
+  - methylene-blue
+  - aminoguanidine
+  - cost-analysis
+---
+
 # Supplier & Price Estimates — Adrenochrome (MB, AG) Protocol
 
 *Generated for: 75 kg healthy adult male*

@@ -1,5 +1,5 @@
 {
-  "generated": "23_AUG_2026 10:14 AM PDT",
+  "generated": "23_AUG_2026 10:34 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,6 +25,30 @@
       }
     },
     {
+      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
+          "description": "Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.",
+          "created": "2026-07-09",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "fisetin",
+            "comt",
+            "senolytic",
+            "catecholamines",
+            "geraldol",
+            "flavonoid",
+            "longevity"
+          ],
+          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+          "path": "tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
       "kind": "task",
       "langs": {
@@ -46,30 +70,6 @@
           ],
           "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
           "path": "tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
-          "description": "Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.",
-          "created": "2026-07-09",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "fisetin",
-            "comt",
-            "senolytic",
-            "catecholamines",
-            "geraldol",
-            "flavonoid",
-            "longevity"
-          ],
-          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
-          "path": "tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
         }
       }
     },
@@ -291,11 +291,18 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
-          "description": "",
-          "created": "2026-08-22",
+          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
+          "created": "2026-08-20",
           "updated": "2026-08-22",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
           "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
           "path": "tasks/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
         }
@@ -306,11 +313,18 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_adrenochrome_protocol_traces_20_AUG_2026",
-          "description": "",
-          "created": "2026-08-22",
+          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
+          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
+          "created": "2026-08-20",
           "updated": "2026-08-22",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
           "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
           "path": "tasks/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
         }
@@ -321,11 +335,16 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "_document_ - MB, AG nitric oxide pathway signaling",
-          "description": "",
-          "created": "2026-08-22",
+          "title": "Nitric Oxide Pathway Inhibitors - Aminoguanidine and Methylene Blue",
+          "description": "Comparison of aminoguanidine (upstream iNOS inhibition) and methylene blue (downstream soluble guanylyl cyclase inhibition) as mechanistically complementary modulators of the nitric oxide–cGMP signaling cascade in inflammation, shock, and transplant research.",
+          "created": "2026-06-19",
           "updated": "2026-08-22",
-          "tags": [],
+          "tags": [
+            "clippings",
+            "nitric-oxide",
+            "aminoguanidine",
+            "methylene-blue"
+          ],
           "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
           "path": "tasks/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
         }
@@ -336,13 +355,14 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Grok",
-          "description": "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
+          "title": "SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)",
+          "description": "Original SRAC senotherapeutic hypothesis (superseded) using nanoparticle-delivered adrenochrome to sensitize senescent cells, combined with rapamycin SASP suppression, fisetin senolysis, and GlyNAC redox buffering to target cellular senescence and inflammaging.",
           "created": "2026-06-19",
           "updated": "2026-08-22",
           "tags": [
             "clippings",
-            "grok"
+            "senescence",
+            "inflammaging"
           ],
           "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
           "path": "tasks/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
@@ -355,7 +375,7 @@
       "langs": {
         "en-US": {
           "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "notes asking gemini about protocol components",
+          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
           "created": "2026-07-21",
           "updated": "2026-08-22",
           "tags": [
@@ -371,11 +391,18 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
-          "description": "",
-          "created": "2026-08-22",
+          "title": "Outline - Adrenochrome (MB, AG) Protocol",
+          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
+          "created": "2026-06-27",
           "updated": "2026-08-22",
-          "tags": [],
+          "tags": [
+            "outline",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "methylene-blue",
+            "aminoguanidine"
+          ],
           "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
           "path": "tasks/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
         }
@@ -386,11 +413,17 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_SRAC_revision_log_08_JULY_2026",
-          "description": "",
-          "created": "2026-08-22",
+          "title": "SRAC Protocol Revision Log",
+          "description": "Revision log documenting two structural changes to the SRAC senotherapy protocol — sequential rapamycin-to-fisetin dosing to resolve the senomorphic/senolytic timing conflict, and carbazochrome substitution for adrenochrome to remove nanoparticle delivery.",
+          "created": "2026-07-08",
           "updated": "2026-08-22",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "senescence",
+            "rapamycin",
+            "fisetin",
+            "carbazochrome"
+          ],
           "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
           "path": "tasks/task_output_SRAC_revision_log_08_JULY_2026.md"
         }
@@ -401,11 +434,18 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_pharmacologist_feasibility_16_JUN_2026",
-          "description": "",
-          "created": "2026-08-22",
+          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
+          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
+          "created": "2026-06-16",
           "updated": "2026-08-22",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
           "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
           "path": "tasks/task_output_pharmacologist_feasibility_16_JUN_2026.md"
         }
@@ -496,11 +536,17 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
-          "description": "",
+          "title": "Adrenochrome Protocol Network Traces, Round 2",
+          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
           "created": "2026-08-21",
           "updated": "2026-08-21",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
           "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
           "path": "tasks/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
         }
@@ -928,11 +974,17 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
-          "description": "",
-          "created": "2026-07-22",
+          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
+          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
+          "created": "2026-07-04",
           "updated": "2026-07-22",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
           "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
           "path": "tasks/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
         }
@@ -968,13 +1020,14 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Grok",
-          "description": "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
+          "title": "GOPS - Glyco-Oxidative Proteostasis Shield",
+          "description": "Conceptual longevity protocol combining the adrenochrome monoaminoguanidine hybrid molecule, spermidine autophagy induction, and carnosine/EDTA metal chelation to counter glycation (AGEs), oxidative stress, and impaired proteostasis in aging and metabolic stress contexts.",
           "created": "2026-06-19",
           "updated": "2026-07-21",
           "tags": [
             "clippings",
-            "grok"
+            "glycation",
+            "proteostasis"
           ],
           "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
           "path": "tasks/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
@@ -986,13 +1039,14 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Grok",
-          "description": "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
+          "title": "MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)",
+          "description": "Speculative mitohormetic stack using low-dose carbazochrome redox pulsing, methylene blue electron shunting, NAD+ precursors (NR/NMN), and urolithin A mitophagy to address mitochondrial dysfunction through controlled oxidative eustress and biogenesis signaling.",
           "created": "2026-06-19",
           "updated": "2026-07-21",
           "tags": [
             "clippings",
-            "grok"
+            "mitohormesis",
+            "mitochondria"
           ],
           "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
           "path": "tasks/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
@@ -1004,11 +1058,17 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_adrenochrome_gap_analysis_09_JUL_2026",
-          "description": "",
-          "created": "2026-07-21",
+          "title": "Gap Analysis - _triples.json vs. Task Docs (Adrenochrome)",
+          "description": "Coverage gap analysis comparing the adrenochrome triples knowledge base (184 entities) against task documents, surfacing unexplored clusters such as the methemoglobinemia safety paradox of methylene blue's dual electron-shuttle and antidote roles.",
+          "created": "2026-07-09",
           "updated": "2026-07-21",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "gap-analysis",
+            "adrenochrome",
+            "methemoglobinemia"
+          ],
           "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
           "path": "tasks/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
         }
@@ -1019,11 +1079,16 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
-          "description": "",
-          "created": "2026-07-21",
+          "title": "Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)",
+          "description": "Hypothetical replenishment protocol grounded in adrenochrome chemistry — instability and redox cycling risks, endogenous production at neutrophil-rich inflammatory sites, stabilization with antioxidants and inert-atmosphere storage, and carbazochrome as a stable delivery form.",
+          "created": "2026-05-25",
           "updated": "2026-07-21",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "carbazochrome",
+            "redox-cycling"
+          ],
           "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
           "path": "tasks/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
         }
@@ -1034,11 +1099,17 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
-          "description": "",
-          "created": "2026-07-21",
+          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
+          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
+          "created": "2026-05-25",
           "updated": "2026-07-21",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
           "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
           "path": "tasks/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
         }
@@ -1049,11 +1120,16 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_adrenochrome_price_estimates_13_JUL_2026",
-          "description": "",
-          "created": "2026-07-21",
+          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
+          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
+          "created": "2026-07-13",
           "updated": "2026-07-21",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
           "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
           "path": "tasks/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
         }
@@ -1064,11 +1140,17 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
-          "description": "",
-          "created": "2026-07-21",
+          "title": "Adrenochrome → Inflammaging Trace",
+          "description": "Knowledge-graph shortest-path traces linking adrenochrome to inflammaging, identifying the DGCR8/Drosha miRNA-biogenesis axis as the dominant two-hop epigenetic bridge between catecholamine oxidation products and chronic inflammatory aging.",
+          "created": "2026-07-16",
           "updated": "2026-07-21",
-          "tags": [],
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "inflammaging",
+            "knowledge-graph",
+            "microrna"
+          ],
           "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
           "path": "tasks/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
         }

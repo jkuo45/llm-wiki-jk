@@ -1,3 +1,15 @@
+---
+title: "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework"
+description: Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.
+created: 2026-07-04
+tags:
+  - task-output
+  - adrenochrome
+  - sirtuins
+  - redox-signaling
+  - research-plan
+---
+
 # Research Plan: Investigating [[Adrenochrome]] as a [[Sirtuins|Sirtuin]]-Modulating Agent Within the Five-Pillar Longevity Framework
 
 **Principal Investigator:** Computational Systems Pharmacology & Longevity Medicine Lab  

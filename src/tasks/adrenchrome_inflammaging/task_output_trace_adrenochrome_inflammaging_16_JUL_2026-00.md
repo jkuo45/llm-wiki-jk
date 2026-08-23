@@ -1,3 +1,15 @@
+---
+title: "Adrenochrome → Inflammaging Trace"
+description: Knowledge-graph shortest-path traces linking adrenochrome to inflammaging, identifying the DGCR8/Drosha miRNA-biogenesis axis as the dominant two-hop epigenetic bridge between catecholamine oxidation products and chronic inflammatory aging.
+created: 2026-07-16
+tags:
+  - task-output
+  - adrenochrome
+  - inflammaging
+  - knowledge-graph
+  - microrna
+---
+
 # Adrenochrome → Inflammaging Trace
 
 **Date:** 16_July_2026 12:00 PM PDT

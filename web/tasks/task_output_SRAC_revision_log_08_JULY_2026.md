@@ -1,3 +1,15 @@
+---
+title: "SRAC Protocol Revision Log"
+description: Revision log documenting two structural changes to the SRAC senotherapy protocol — sequential rapamycin-to-fisetin dosing to resolve the senomorphic/senolytic timing conflict, and carbazochrome substitution for adrenochrome to remove nanoparticle delivery.
+created: 2026-07-08
+tags:
+  - task-output
+  - senescence
+  - rapamycin
+  - fisetin
+  - carbazochrome
+---
+
 # SRAC Protocol Revision Log
 
 **Date:** 08 July 2026  

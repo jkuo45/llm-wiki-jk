@@ -1,13 +1,14 @@
 ---
-title: Grok
+title: SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)
 source: https://x.com/i/grok?conversation=2067972044739002581
 author:
 published:
 created: 2026-06-19
-description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.
+description: Original SRAC senotherapeutic hypothesis (superseded) using nanoparticle-delivered adrenochrome to sensitize senescent cells, combined with rapamycin SASP suppression, fisetin senolysis, and GlyNAC redox buffering to target cellular senescence and inflammaging.
 tags:
   - clippings
-  - grok
+  - senescence
+  - inflammaging
 ---
 > [!WARNING]
 > **Protocol Superseded (08 July 2026)**

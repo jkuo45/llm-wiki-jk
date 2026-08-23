@@ -1,3 +1,14 @@
+---
+title: "Nitric Oxide Pathway Inhibitors - Aminoguanidine and Methylene Blue"
+description: Comparison of aminoguanidine (upstream iNOS inhibition) and methylene blue (downstream soluble guanylyl cyclase inhibition) as mechanistically complementary modulators of the nitric oxide–cGMP signaling cascade in inflammation, shock, and transplant research.
+created: 2026-06-19
+tags:
+  - clippings
+  - nitric-oxide
+  - aminoguanidine
+  - methylene-blue
+---
+
 # Nitric Oxide Pathway Inhibitors
 
 > [!NOTE]

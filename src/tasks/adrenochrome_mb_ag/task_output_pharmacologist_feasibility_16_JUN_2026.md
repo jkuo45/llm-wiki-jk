@@ -1,3 +1,16 @@
+---
+title: "Pharmacological Analysis - Adrenochrome Combination Therapies"
+description: Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.
+created: 2026-06-16
+tags:
+  - task-output
+  - adrenochrome
+  - mitohormesis
+  - senescence
+  - proteostasis
+  - feasibility-assessment
+---
+
 # Pharmacological Analysis: Adrenochrome Combination Therapies
 
 **Date:** 16_June_2026  

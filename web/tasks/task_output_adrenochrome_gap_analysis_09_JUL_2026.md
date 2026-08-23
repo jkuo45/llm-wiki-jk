@@ -1,3 +1,15 @@
+---
+title: "Gap Analysis - _triples.json vs. Task Docs (Adrenochrome)"
+description: Coverage gap analysis comparing the adrenochrome triples knowledge base (184 entities) against task documents, surfacing unexplored clusters such as the methemoglobinemia safety paradox of methylene blue's dual electron-shuttle and antidote roles.
+created: 2026-07-09
+tags:
+  - task-output
+  - knowledge-graph
+  - gap-analysis
+  - adrenochrome
+  - methemoglobinemia
+---
+
 # Gap Analysis: `_triples.json` vs. Task Docs
 
 **Analyzed:** 09_July_2026

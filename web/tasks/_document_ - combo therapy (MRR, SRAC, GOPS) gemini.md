@@ -2,7 +2,7 @@
 title: outline_adrenochrome_combo_therapy_gemini
 tags:
   - gemini
-description: notes asking gemini about protocol components
+description: Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale
 created: 2026-07-21
 ---
 # Adrenochrome Combination Therapy — Outline (gemini feedback)

@@ -1,3 +1,16 @@
+---
+title: "Adrenochrome Protocol Network Traces (MB + AG + Stack)"
+description: Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.
+created: 2026-08-20
+tags:
+  - task-output
+  - adrenochrome
+  - knowledge-graph
+  - methylene-blue
+  - aminoguanidine
+  - network-analysis
+---
+
 # Task Output - Adrenochrome Protocol Network Traces (MB + AG + stack) - 20 August 2026
 
 **Graph build:** `graphify-out/graph.json` — 2,596 nodes / 3,737 edges (giant component 2,110 / 3,295), metrics computed 2026-08-20 18:21:44 (build `867a5ae5fdb8a46c`)

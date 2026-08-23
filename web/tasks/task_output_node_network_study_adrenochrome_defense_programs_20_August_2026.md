@@ -1,3 +1,16 @@
+---
+title: "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins"
+description: Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.
+created: 2026-08-20
+tags:
+  - task-output
+  - adrenochrome
+  - mitohormesis
+  - autophagy
+  - sirtuins
+  - knowledge-graph
+---
+
 # Study Design — One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins
 
 > [!NOTE]

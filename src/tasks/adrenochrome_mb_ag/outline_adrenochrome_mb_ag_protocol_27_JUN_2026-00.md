@@ -1,3 +1,16 @@
+---
+title: "Outline - Adrenochrome (MB, AG) Protocol"
+description: Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.
+created: 2026-06-27
+tags:
+  - outline
+  - adrenochrome
+  - mitohormesis
+  - autophagy
+  - methylene-blue
+  - aminoguanidine
+---
+
 # Outline - adrenochrome (mb, ag) protocol as of 27_JUN_2026
 
 Goal: optimize for mitohormesis, autophagy
