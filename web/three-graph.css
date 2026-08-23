@@ -213,6 +213,41 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .page-modal-controls { display: flex; align-items: center; gap: 8px; width: 100%; }
 .page-modal-controls #reader-select { flex: 1; }
 .page-modal-controls .lang-toggle { flex-shrink: 0; }
+
+/* Reader source tabs (Articles vs Task Outputs) */
+.reader-source-toggle {
+  display: inline-flex; flex-shrink: 0; width: 100%;
+  background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
+  overflow: hidden; margin-bottom: 6px;
+}
+.reader-source-toggle button {
+  flex: 1; background: transparent; border: none; color: #888;
+  font-size: 12px; padding: 7px 10px; cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.reader-source-toggle button + button { border-left: 1px solid #3a3a5e; }
+.reader-source-toggle button:hover:not(.active) { color: #e0e0e0; }
+.reader-source-toggle button.active { background: #2a2a4e; color: #a0d4f0; }
+
+/* "Last modified" freshness chip next to the reader title */
+.updated-chip {
+  display: inline-block; margin-left: 8px; padding: 2px 9px;
+  border-radius: 999px; border: 1px solid #3a3a5e; background: #1a1a2e;
+  color: #888; font-size: 11px; white-space: nowrap; vertical-align: middle;
+}
+.updated-chip[data-bucket="0"] { color: #38c793; border-color: #2b5c48; }
+.updated-chip[data-bucket="1"] { color: #ffb020; border-color: #6b5524; }
+
+#page-modal-overlay.light-theme .reader-source-toggle,
+#page-modal-overlay.light-theme .updated-chip {
+  background: #F6F3EC; border-color: #CCC5B2; color: #22304A;
+}
+#page-modal-overlay.light-theme .reader-source-toggle button.active {
+  background: #E4EDF0; color: #0F766E;
+}
+#page-modal-overlay.light-theme .updated-chip[data-bucket="0"] { color: #15803d; border-color: #86cfa4; }
+#page-modal-overlay.light-theme .updated-chip[data-bucket="1"] { color: #b45309; border-color: #e2c184; }
+
 #page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; margin-left: auto; }
 #page-modal-open {
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;

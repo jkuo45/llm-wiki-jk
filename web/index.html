@@ -327,6 +327,7 @@
     <div id="page-modal-header">
       <div class="page-modal-header-row">
         <h2 id="page-modal-title">Reader / 閱讀器</h2>
+        <span id="page-modal-updated" class="updated-chip" hidden></span>
         <div class="page-modal-actions">
           <button id="reader-prev" title="Previous article / 上一篇文章" disabled>&larr;</button>
           <a id="page-modal-open" href="#" target="_blank" rel="noopener" title="Open in new tab / 新分頁開啟" aria-label="Open in new tab">
@@ -337,6 +338,10 @@
         </div>
       </div>
       <div class="page-modal-controls">
+        <div class="reader-source-toggle" id="reader-source" role="group" aria-label="Content source / 內容來源">
+          <button type="button" data-source="articles" class="active" title="Articles / 文章">Articles / 文章</button>
+          <button type="button" data-source="tasks" title="Task outputs / 任務輸出">Task Outputs / 任務輸出</button>
+        </div>
         <select id="reader-select" title="Choose article / 選擇文章"></select>
         <div class="lang-toggle" id="reader-lang" role="group" aria-label="Language / 語言">
           <button type="button" data-lang="en-US" title="English (US)">EN</button>

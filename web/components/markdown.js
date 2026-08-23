@@ -23,17 +23,41 @@ export function wikiExcerpt(text) {
 }
 
 // Minimal, dependency-free markdown renderer for wiki modal bodies.
-export function renderMarkdown(text) {
-  let html = esc(String(text || ''));
+// opts.wikiHref(label) may resolve [[Entity]] links to a URL; when it
+// returns a falsy value the link renders as an inert .wikilink span.
+export function renderMarkdown(text, opts = {}) {
+  const slug = (s) => s.toLowerCase().trim().replace(/[^a-z0-9\u4e00-\u9fff]+/g, '-').replace(/^-+|-+$/g, '');
+  // Obsidian callouts are extracted from the RAW text up front into
+  // placeholders so their inner content isn't double-escaped by the main
+  // escape-then-replace pipeline below.
+  const raw = String(text || '');
+  const callouts = [];
+  const src = raw.replace(/^> \[!(\w+)\][ \t]*([^\n]*)\n((?:>[^\n]*\n?)*)/gm, (m, type, title, body) => {
+    const inner = renderMarkdown(body.replace(/^> ?/gm, ''), opts);
+    const label = title.trim() || type.charAt(0).toUpperCase() + type.slice(1);
+    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${label}</div>${inner}</div>`);
+    return `\u0000CALLOUT${callouts.length - 1}\u0000`;
+  });
+  let html = esc(src);
+  // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref
+  html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, display) => {
+    const label = target.trim();
+    const href = opts.wikiHref ? opts.wikiHref(label) : null;
+    const text = (display || label).trim();
+    return href
+      ? `<a class="wikilink" href="${href}" target="_blank" rel="noopener">${text}</a>`
+      : `<span class="wikilink">${text}</span>`;
+  });
   // Code blocks: ```...```
   html = html.replace(/```(\w*)\n?([\s\S]*?)```/g, (m, lang, code) => `<pre><code>${code.trim()}</code></pre>`);
   // Inline code: `...`
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
-  // Headers: ### ... (must come before bold/italic)
-  html = html.replace(/^#### (.+)$/gm, '<h4>$1</h4>');
-  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
-  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
-  html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+  // Headers: #### ... (must come before bold/italic); slugged ids so the
+  // reader's section tracking / deep links work on rendered markdown.
+  html = html.replace(/^#### (.+)$/gm, (m, t) => `<h4 id="${slug(t)}">${t}</h4>`);
+  html = html.replace(/^### (.+)$/gm, (m, t) => `<h3 id="${slug(t)}">${t}</h3>`);
+  html = html.replace(/^## (.+)$/gm, (m, t) => `<h2 id="${slug(t)}">${t}</h2>`);
+  html = html.replace(/^# (.+)$/gm, (m, t) => `<h1 id="${slug(t)}">${t}</h1>`);
   // Horizontal rules
   html = html.replace(/^---+$/gm, '<hr>');
   // Bold: **...**
@@ -68,5 +92,8 @@ export function renderMarkdown(text) {
   html = html.replace(/<p>\s*<\/p>/g, '');
   // Merge adjacent blockquotes
   html = html.replace(/<\/blockquote>\s*<blockquote>/g, '<br>');
+  // Restore extracted callouts (unwrap placeholder-only paragraphs first)
+  html = html.replace(/<p>\s*\u0000CALLOUT(\d+)\u0000\s*<\/p>/g, '\u0000CALLOUT$1\u0000');
+  html = html.replace(/\u0000CALLOUT(\d+)\u0000/g, (m, i) => callouts[i]);
   return html;
 }

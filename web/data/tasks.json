@@ -1,0 +1,1580 @@
+{
+  "generated": "22_AUG_2026 06:42 PM PDT",
+  "tasks": [
+    {
+      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
+          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "path": "tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_node_analysis_biology_16_AUG_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_node_analysis_biology_16_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_20_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_adrenochrome_protocol_traces_20_AUG_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_comt_fisetin_senolytic_09_July_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - MB, AG nitric oxide pathway signaling",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "_document_ - MB, AG nitric oxide pathway signaling",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - SRAC - senescent, ligand-conjugated",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Grok",
+          "description": "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
+          "created": "2026-06-19",
+          "updated": "2026-08-22",
+          "tags": [
+            "clippings",
+            "grok"
+          ],
+          "path": "tasks/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "notes asking gemini about protocol components",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "gemini"
+          ],
+          "path": "tasks/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        }
+      }
+    },
+    {
+      "id": "task:outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_SRAC_revision_log_08_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_SRAC_revision_log_08_JULY_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_SRAC_revision_log_08_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_pharmacologist_feasibility_16_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_pharmacologist_feasibility_16_JUN_2026",
+          "description": "",
+          "created": "2026-08-22",
+          "updated": "2026-08-22",
+          "tags": [],
+          "path": "tasks/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
+          "description": "DGCR8 knockout ES cells show global loss of miRNAs, failure to silence pluripotency upon differentiation, G1 accumulation, and prolonged doubling time — establishing DGCR8/miRNA as essential for silencing embryonic stem cell self-renewal.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "stem-cells"
+          ],
+          "path": "tasks/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
+          "description": "In IPF, DROSHA is elevated in alveolar macrophages and promotes AIM2 inflammasome activation, caspase-1 cleavage, and IL-1β/IL-18 release; DROSHA deficiency suppresses this lung inflammation. Links Microprocessor dysfunction to innate immune inflammation.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "inflammaging",
+            "innate-immunity"
+          ],
+          "path": "tasks/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Shingles vaccine may slow biological aging and reduce inflammation",
+          "description": "A U.S. population-based cohort study (HRS, n>3,800 adults ≥70) found shingles vaccination associated with slower biological aging, lower chronic inflammation (inflammaging), and slower epigenetic/transcriptomic aging — effects persisting ≥4 years.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "inflammaging",
+            "vaccine",
+            "aging"
+          ],
+          "path": "tasks/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
+          "description": "Biochemical and RNAi evidence that DGCR8 (human) and dmDGCR8 (Drosophila) are essential Microprocessor cofactors that recognize pri-miRNAs, interact with Drosha, and are required for pre-/mature miRNA production.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "rna-processing"
+          ],
+          "path": "tasks/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
+          "description": "",
+          "created": "2026-08-21",
+          "updated": "2026-08-21",
+          "tags": [],
+          "path": "tasks/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_senescence_research_gaps_18_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Research Gaps in Cellular Senescence Biology — Most Recent Documents",
+          "description": "Consolidated research gaps and open questions about cellular senescence extracted from the most recently updated wiki documents (Aug 2026).",
+          "created": "2026-08-18",
+          "updated": "2026-08-18",
+          "tags": [
+            "senescence",
+            "research-gaps",
+            "geroscience",
+            "literature-review"
+          ],
+          "path": "tasks/task_output_senescence_research_gaps_18_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuin_research_gaps_14_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Research Gaps in Sirtuin Biology — Most Recent Documents",
+          "description": "Consolidated research gaps and open questions about sirtuins extracted from the most recently updated wiki documents (Aug 2026).",
+          "created": "2026-08-14",
+          "updated": "2026-08-18",
+          "tags": [
+            "sirtuins",
+            "research-gaps",
+            "geroscience",
+            "literature-review"
+          ],
+          "path": "tasks/task_output_sirtuin_research_gaps_14_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_comt_mao_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
+          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py.",
+          "created": "2026-08-15",
+          "updated": "2026-08-15",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "path": "tasks/task_output_node_comt_mao_15_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026",
+          "description": "Comparative node analysis of SIRT1/SIRT2/SIRT3 proximity to Adrenochrome in the wiki knowledge graph. Hop distance is non-discriminating (all 2 hops); path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, effective-resistance, personalized PageRank, and Fiedler analysis resolve a metric-dependent ranking where SIRT3 wins on route redundancy but SIRT1 wins on flow proximity.",
+          "created": "2026-08-15",
+          "updated": "2026-08-15",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "adrenochrome",
+            "graph-theory"
+          ],
+          "path": "tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
+          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
+          "created": "2026-08-15",
+          "updated": "2026-08-15",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "path": "tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirt1_ktype_allosteric_activation_14_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "SIRT1 K-type Allosteric Activation by STACs & Natural Polyphenols",
+          "description": "Synthesis of the SIRT1 K-type allosteric activation mechanism (lowering substrate Km) shared by a dozen chemical classes of STACs and the named natural anti-aging polyphenols (quercetin, butein, fisetin, kaempferol, catechins, proanthocyanidins), grounded in the wiki knowledge graph.",
+          "created": "2026-08-14",
+          "updated": "2026-08-14",
+          "tags": [
+            "sirt1",
+            "stacs",
+            "allosteric-activation",
+            "k-type",
+            "polyphenols",
+            "flavonoids",
+            "anti-aging"
+          ],
+          "path": "tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_benign_tumor_longevity_14_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Benign Tumors & Longevity",
+          "description": "Synthesis of whether tumor growth can be beneficial for longevity, grounded in the wiki knowledge graph (senescence, OIS, teratoma, mTOR/hamartomas, hyperfunction theory) with graphify trace.",
+          "created": "2026-08-14",
+          "updated": "2026-08-14",
+          "tags": [
+            "benign-tumor",
+            "senescence",
+            "longevity",
+            "oncogene-induced-senescence",
+            "mtor",
+            "cancer"
+          ],
+          "path": "tasks/task_output_benign_tumor_longevity_14_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_pleiotropic_roles_12_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Pleiotropic Roles of SIRTs in Tumor Cell Metabolism and Therapeutic Targeting",
+          "description": "Synthesis of the pleiotropic roles of the seven mammalian sirtuins (SIRT1–SIRT7) in tumor cell metabolism — glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis — the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents with development stage and indications.",
+          "created": "2026-08-12",
+          "updated": "2026-08-12",
+          "tags": [
+            "task-output",
+            "sirtuins",
+            "tumor-metabolism",
+            "warburg-effect",
+            "sirtuin-therapeutics",
+            "nad-plus",
+            "cancer",
+            "longevity",
+            "review"
+          ],
+          "path": "tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_disease",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins in Health and Disease — Complication-by-Complication Excerpt Compilation",
+          "description": "Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic value, and their mechanistic role (tumor suppressor/promoter, protective/harmful) in each condition.",
+          "created": "2026-08-11",
+          "updated": "2026-08-11",
+          "tags": [
+            "task-output",
+            "sirtuins",
+            "cancer",
+            "cardiovascular-disease",
+            "respiratory-disease",
+            "digestive-disease",
+            "nervous-system",
+            "diabetes",
+            "kidney-disease",
+            "motor-system",
+            "aging",
+            "review"
+          ],
+          "path": "tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins in Health and Disease — SIRT-by-SIRT Disease Landscape",
+          "description": "Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by sirtuin (SIRT1–SIRT7), showing for each member the diseases and complications it is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.",
+          "created": "2026-08-11",
+          "updated": "2026-08-11",
+          "tags": [
+            "task-output",
+            "sirtuins",
+            "SIRT1",
+            "SIRT2",
+            "SIRT3",
+            "SIRT4",
+            "SIRT5",
+            "SIRT6",
+            "SIRT7",
+            "disease",
+            "review"
+          ],
+          "path": "tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_mitohormesis_antioxidants_05_August_2026",
+          "description": "",
+          "created": "2026-08-05",
+          "updated": "2026-08-05",
+          "tags": [],
+          "path": "tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Anticancer Mechanisms: Ivermectin & Fenbendazole — Synergy and Combined Impact",
+          "description": "Analysis of the complementary anticancer mechanisms of ivermectin and fenbendazole, focusing on synergy, convergent pathways, and rationale for combination use in drug repositioning.",
+          "created": "2026-07-28",
+          "updated": "2026-07-28",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "fenbendazole",
+            "mechanisms",
+            "synergy"
+          ],
+          "path": "tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Ivermectin, Yamanaka Factors & Aging — graphify exploration",
+          "description": "Multi-part exploration of ivermectin's intersection with aging biology — Yamanaka factors, mTOR/TFEB autophagy, STAT3/NF-κB inflammaging, SASP/senomorphic overlap, and the central paradox of pro-longevity vs. anti-rejuvenation mechanisms",
+          "created": "2026-07-28",
+          "updated": "2026-07-28",
+          "tags": [
+            "task-output",
+            "ivermectin",
+            "yamanaka-factors",
+            "aging",
+            "autophagy",
+            "graphify",
+            "stat3",
+            "nf-kb",
+            "inflammaging",
+            "sasp",
+            "senomorphic",
+            "mtor",
+            "longevity",
+            "fenbendazole"
+          ],
+          "path": "tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitochondria_fusion_fission_27_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Research Gaps in Mitochondrial Fission & Fusion Mechanisms",
+          "description": "Comprehensive analysis of what is known and what remains unknown about the exact mechanisms of mitochondrial fission and fusion, drawn from ingested review documents and supporting literature.",
+          "created": "2026-07-27",
+          "updated": "2026-07-27",
+          "tags": [
+            "mitochondrial-dynamics",
+            "research-gaps",
+            "fission",
+            "fusion",
+            "drp1",
+            "mfn1",
+            "mfn2",
+            "opa1",
+            "mitophagy"
+          ],
+          "path": "tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_acid_ceramidase_27_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Acid Ceramidase in Ferroptosis & Cellular Senescence",
+          "description": "Research synthesis on acid ceramidase (ASAH1) as a novel GPX4/GSH/iron-independent regulator of ferroptosis in senescent cells, including paracrine propagation via SASP, mechanistic model via the Lands cycle, and therapeutic implications as a senolytic/senomorphic target.",
+          "created": "2026-07-27",
+          "updated": "2026-07-27",
+          "tags": [
+            "ferroptosis",
+            "senescence",
+            "lipid-metabolism",
+            "sphingolipid-metabolism",
+            "enzyme",
+            "senolytic"
+          ],
+          "path": "tasks/task_output_acid_ceramidase_27_July_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_dj1_glycation_trace_27_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "DJ-1 / Glycation Defense Trace",
+          "description": "Graph trace of DJ-1's role in glycation and AGE defense, mapping the three-line enzymatic defense architecture and the adrenochrome-driven double-hit mechanism that makes DJ-1 the last line of dicarbonyl defense.",
+          "created": "2026-07-27",
+          "updated": "2026-07-27",
+          "tags": [
+            "trace",
+            "glycation",
+            "dj-1",
+            "park7",
+            "age-defense",
+            "adrenochrome"
+          ],
+          "path": "tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_autophagy_mammals_longevity_22_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy in Companion Mammals (Dogs/Cats) and Longevity",
+          "description": "Research synthesis of autophagy–aging biology in domesticated dogs and cats, translational interventions, TRIAD trial context, evidence gaps, and proposed experimental roadmap",
+          "created": "2026-07-22",
+          "updated": "2026-07-22",
+          "tags": [
+            "autophagy",
+            "longevity",
+            "canine",
+            "feline",
+            "companion-animals",
+            "rapamycin",
+            "caloric-restriction",
+            "mtor",
+            "triad",
+            "dog-aging-project"
+          ],
+          "path": "tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_nad_to_bnip3_trace_21_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Graph Trace: NAD+ to BNIP3 — Metabolic Signaling to Mitophagy",
+          "description": "Graphify shortest-path trace of how NAD+ Biosynthesis connects to BNIP3/BNIP3L via Autophagy and HIF1A in the src/ knowledge graph (2,733 files, 62,276 edges, 355 communities).",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "nad",
+            "bnip3",
+            "mitophagy",
+            "autophagy",
+            "hif1a",
+            "hypoxia",
+            "mitochondria",
+            "aging"
+          ],
+          "path": "tasks/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
+          "description": "",
+          "created": "2026-07-22",
+          "updated": "2026-07-22",
+          "tags": [],
+          "path": "tasks/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ap1_trace_21_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
+          "description": "Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "graph-trace",
+            "ap-1",
+            "senescence",
+            "sasp",
+            "nrf2",
+            "autophagy",
+            "neuroinflammation",
+            "transcription-factor",
+            "aging"
+          ],
+          "path": "tasks/task_output_ap1_trace_21_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_alphafold_report_NAD+_26_JUN_2026",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_physiologist_shred_vs_bulk",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_physiologist_shred_vs_bulk",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_physiologist_shred_vs_bulk.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_recommendations_03_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_sirtuins_recommendations_03_JULY_2026",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_sirtuins_recommendations_03_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_senescent_compounds_normalized",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "tbl_senescent_compounds_normalized",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/tbl_senescent_compounds_normalized.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_tfeb_target_mechanisms",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "tbl_tfeb_target_mechanisms",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/tbl_tfeb_target_mechanisms.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - GOPS - glyco-oxidative proteostasis",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Grok",
+          "description": "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
+          "created": "2026-06-19",
+          "updated": "2026-07-21",
+          "tags": [
+            "clippings",
+            "grok"
+          ],
+          "path": "tasks/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - MRR - mitohormesis, MB, NAD",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Grok",
+          "description": "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
+          "created": "2026-06-19",
+          "updated": "2026-07-21",
+          "tags": [
+            "clippings",
+            "grok"
+          ],
+          "path": "tasks/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_gap_analysis_09_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_adrenochrome_gap_analysis_09_JUL_2026",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_neutrophil_protocol_25_May_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_price_estimates_13_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_adrenochrome_price_estimates_13_JUL_2026",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
+          "description": "",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [],
+          "path": "tasks/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_autophagy_vs_mitophagy_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
+          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "path": "tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Graphify Trace — Adrenochrome → Autophagy/Mitophagy & Foam Cells",
+          "description": "Graphify knowledge-graph traces linking adrenochrome (beneficial/hormetic framing) to autophagy/mitophagy via the Mitohormetic Redox-Relay, plus a foam-cell trace bridging oxidative stress, glycation, atherosclerosis, and TFEB-controlled lipophagy.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "graphify",
+            "adrenochrome",
+            "autophagy",
+            "mitophagy",
+            "foam-cells",
+            "atherosclerosis",
+            "mitohormesis"
+          ],
+          "path": "tasks/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome → Lipid Peroxidation: Mechanistic Bridge and Research Opportunities",
+          "description": "A task output analyzing the mechanistic bridge between Adrenochrome redox cycling and Lipid Peroxidation, identifying graph gaps and proposing new connections.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "chemical-process",
+            "oxidative-stress",
+            "graph-analysis",
+            "adrenochrome"
+          ],
+          "path": "tasks/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_sirtuins_trace_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome → Sirtuins Counter-Defense Trace — Graph-Derived Mechanistic Map",
+          "description": "Comprehensive trace of how sirtuins counter adrenochrome-driven oxidative stress, extracted from the graphify knowledge graph. Covers the mitohormesis/NAD+ rescue route, the SIRT3-MnSOD-PGC-1α enzymatic defense axis, the apoptosis failure boundary, and the redox-homeostasis convergence node.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "oxidative-stress",
+            "mitohormesis",
+            "nad-plus",
+            "redox-homeostasis",
+            "apoptosis",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Microglia-CD38 vs Neuronal-SARM1 — CNS NAD+ Competition Map",
+          "description": "Trace of the central nervous system compartmentalization of NAD+ consumption, mapping CD38 activity in microglia (neuroinflammation, chronic) against SARM1 activity in neurons/axons (acute degeneration). Extracted from the graphify knowledge graph (4714 nodes, 8624 edges, 363 communities). Bridges the CD38-SARM1 competition and synergy traces into brain-specific biology.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "sarm1",
+            "microglia",
+            "neuron",
+            "nad-plus",
+            "neuroinflammation",
+            "traumatic-brain-injury",
+            "neurodegeneration",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "CD38–NAD+ Consumption — Parallel Trace to Adrenochrome Counter-Defense",
+          "description": "Parallel graph trace showing how CD38-driven NAD+ depletion compounds adrenochrome's oxidative burden and starves the sirtuin defense system. Bridges to task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md. Extracted from the graphify knowledge graph (4714 nodes, 8624 edges, 363 communities).",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "nad-plus",
+            "sirtuins",
+            "sirt3",
+            "parp1",
+            "inflammaging",
+            "adrenochrome",
+            "redox-homeostasis",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_CD38_NADplus_trace_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "CD38–NAD+ Trace — Graph-Derived Mechanistic Map",
+          "description": "Comprehensive trace of the CD38-NAD+ relationship extracted from the graphify knowledge graph (notes corpus, 4714 nodes, 8624 edges). Covers CD38's enzymatic activities, its role as the primary age-related NAD+ consumer, downstream effects on SIRT3/PARP1, therapeutic interventions, and cross-community connections to inflammaging.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "nad-plus",
+            "aging",
+            "inflammaging",
+            "sirtuins",
+            "parp1",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_CD38_NADplus_trace_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_CD38_SARM1_NADplus_competition_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "CD38 ↔ SARM1 NAD+ Competition — Graph-Derived Mechanistic Map",
+          "description": "Trace of the CD38-SARM1 NAD+ competition axis, extracted from the graphify knowledge graph (4714 nodes, 8624 edges, 363 communities). Updates the prior gap note — the current graph now resolves a direct CD38↔SARM1 edge plus shared NAD+ and cADPR neighbors. Covers the NMN bridging metabolite, compartmentalized competition for the NAD+ pool, CZ-48 pharmacological divergence, and the sirtuin/redox defense convergence with the adrenochrome trace.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "sarm1",
+            "nad-plus",
+            "nmn",
+            "cadr",
+            "nicotinamide-riboside",
+            "sirtuins",
+            "axonal-degeneration",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_CD38_SARM1_bridging_gaps_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "CD38–SARM1 Bridging Gaps — Missing Edges, Metabolic Overlap, and Research Opportunities",
+          "description": "Research synthesis identifying all missing connections between the CD38 and SARM1 traces. Covers shared NAD+ substrate competition, NMN bridging node, cADPR production overlap, CZ-48 pharmacological divergence, tissue compartmentalization, NAD+ consumer hierarchy, and proposed graph edges to add.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "sarm1",
+            "nad-plus",
+            "nmn",
+            "knowledge-graph-gaps",
+            "research-synthesis"
+          ],
+          "path": "tasks/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_CD38_SARM1_synergy_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Combined CD38 + SARM1 Inhibition Synergy — Graph-Derived Mechanistic Map",
+          "description": "Trace of the synergistic potential of combined CD38 and SARM1 inhibition, extracted from the graphify knowledge graph (4714 nodes, 8624 edges, 363 communities). Integrates the chronic NAD+ drain (CD38), acute catastrophic drain (SARM1), and the sirtuin/redox defense (adrenochrome axis) into a single intervention logic. Covers NR repletion, 78c/quercetin/apigenin CD38 inhibitors, Disulfiram/DSRM-3716/GSK-428 SARM1 inhibitors, and the NMN-sensitization paradox.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "sarm1",
+            "nad-plus",
+            "nicotinamide-riboside",
+            "sirtuins",
+            "combination-therapy",
+            "axonal-degeneration",
+            "inflammaging",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_SARM1_NADplus_trace_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "SARM1–NAD+ Trace — Graph-Derived Mechanistic Map",
+          "description": "Comprehensive trace of the SARM1-NAD+ relationship extracted from the graphify knowledge graph. Covers SARM1's NADase activity, NMN/NAD+ ratio sensing, Wallerian degeneration mechanism, signaling through MAPK/JNK/TRAF6, disease connections, and therapeutic intervention (Disulfiram).",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "sarm1",
+            "nad-plus",
+            "wallerian-degeneration",
+            "axon-degeneration",
+            "nmnat2",
+            "neurodegenration",
+            "knowledge-graph"
+          ],
+          "path": "tasks/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_research_CD38_SARM1_gaps_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "CD38–SARM1 Research Gaps — Literature Investigation",
+          "description": "Targeted literature investigation of 4 high-priority research questions identified in the CD38-SARM1 bridging analysis. Examines: (1) whether CD38-mediated NMN depletion protects against SARM1 activation, (2) CD38 KO sensitization to SARM1, (3) combined CD38+SARM1 inhibition synergy, (4) CD38/SARM1 co-expression in microglia. Includes direct evidence, contradictory findings, and updated graph edge recommendations.",
+          "created": "2026-07-17",
+          "updated": "2026-07-17",
+          "tags": [
+            "task-output",
+            "cd38",
+            "sarm1",
+            "research-synthesis",
+            "nad-plus",
+            "nmn",
+            "axon-degeneration",
+            "microglia",
+            "literature-review"
+          ],
+          "path": "tasks/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_caspase_01_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Molecular Mechanisms of Caspase and Bcl-2 Family Regulation",
+          "description": "Research report exploring five critical molecular connections within the apoptotic signaling network, focusing on biochemical mechanisms of caspase and Bcl-2 family regulation in cancer and cell survival.",
+          "created": "2026-07-16",
+          "updated": "2026-07-16",
+          "tags": [
+            "apoptosis",
+            "caspase",
+            "bcl-2-family",
+            "cancer",
+            "phosphorylation",
+            "phosphatase",
+            "cell-death"
+          ],
+          "path": "tasks/task_output_caspase_01_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cr_vs_spermidine_autophagy_15_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
+          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
+          ],
+          "path": "tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+        },
+        "zh-TW": {
+          "title": "热量限制 vs 亚精胺饮食自噬 — 差异与叠加效应",
+          "description": "CR诱导自噬与饮食自噬诱导剂（亚精胺、雷帕霉素）之间的机制差异分析，以及组合策略叠加效应的追踪",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
+          ],
+          "path": "tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_fisetin_sasp_cxcl12_15_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "CXCL12 → Endothelial Dysfunction Mechanistic Trace & Fisetin Rescue Path",
+          "description": "Mechanistic trace linking CXCL12 to endothelial dysfunction via SASP, with evaluation of fisetin as a rescue path.",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "graph-trace",
+            "cxcl12",
+            "fisetin",
+            "endothelial-dysfunction",
+            "sasp",
+            "senolytics"
+          ],
+          "path": "tasks/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ivermectin_cancer_14_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Ivermectin as a Preventative / Cancer Measure — Graphified Findings",
+          "description": "Traced findings on ivermectin's anticancer repositioning, drawn from the wiki knowledge graph (graphify query + node reads).",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "graphify-query"
+          ],
+          "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
+          "description": "關於伊維菌素抗癌老藥新用（repositioning）的追蹤發現，取自 wiki 知識圖譜（graphify 查詢 + 節點閱讀）。",
+          "created": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "graphify-query"
+          ],
+          "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Commercial Product Map — Non-Invasive Surrogate Readouts (MnSOD Redox Axis \"Alternatives\")",
+          "description": "Commercially available products and links matching each non-invasive/accessible surrogate readout listed in the Alternatives section of the SIRT3/SIRT4 biomarker feasibility analysis.",
+          "created": "2026-07-14",
+          "updated": "2026-07-14",
+          "tags": [
+            "sirtuins",
+            "mitohormesis",
+            "biomarker",
+            "redox",
+            "product-map"
+          ],
+          "path": "tasks/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "SIRT3/SIRT4 Biomarker Feasibility & MnSOD Redox Axis as a Mitohormetic-Window Indicator",
+          "description": "Structured feasibility analysis of directly measuring the SIRT3/SIRT4 ratio, viable biomarker alternatives, and an evaluation of whether the MnSOD Redox Axis (Phase I target pathway of the Strategic Translation Roadmap) can serve as a quantitative indicator of the mitohormetic window.",
+          "created": "2026-07-14",
+          "updated": "2026-07-14",
+          "tags": [
+            "sirtuins",
+            "mitohormesis",
+            "biomarker",
+            "redox",
+            "hormetic-window",
+            "mitochondria"
+          ],
+          "path": "tasks/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_autophagy_and_cancer_13_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy During Chemotherapy — Conflicting and Agreeing Views",
+          "description": "Research findings on the dual role of autophagy in cancer chemotherapy, compiled from wiki notes and web literature (2013–2025)",
+          "created": "2026-07-13",
+          "updated": "2026-07-13",
+          "tags": [
+            "autophagy",
+            "cancer",
+            "chemotherapy"
+          ],
+          "path": "tasks/task_output_autophagy_and_cancer_13_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitohormetic_window_13_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Mitohormetic Window — Difficulty Review & Personalized Protocol (75 kg healthy male)",
+          "description": "Focused analysis of the difficulty of titrating the mitohormetic window within the adrenochrome (MB, AG) protocol, integrating diet, exercise, components, supplements, and IV preference for low-bioavailability agents. Scenario healthy male, middle age, 75 kg.",
+          "created": "2026-07-13",
+          "updated": "2026-07-13",
+          "tags": [
+            "mitohormesis",
+            "hormetic-window",
+            "adrenochrome",
+            "methylene-blue",
+            "pharmacology",
+            "protocol"
+          ],
+          "path": "tasks/task_output_mitohormetic_window_13_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - MRR - mitohormesis",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Mitohormetic Redox-Relay (MRR) — A Multi-Component Mitochondrial Rejuvenation Strategy",
+          "description": "Analysis of the Mitohormetic Redox-Relay (MRR) therapeutic concept combining carbazochrome (stabilized adrenochrome derivative) as a hormetic trigger, methylene blue as an electron shunt/safety valve, NR/NMN as NAD+ precursors for bioenergetic fueling, and urolithin A for mitophagic clearance of damaged mitochondria.",
+          "created": "2026-06-15",
+          "updated": "2026-07-09",
+          "tags": [
+            "mitohormesis",
+            "mitochondrial-dysfunction",
+            "aging",
+            "therapeutic-strategy"
+          ],
+          "path": "tasks/_document_%20-%20MRR%20-%20mitohormesis.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - SRAC - SASP-Remodeling Aminochrome Complex",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "SASP-Remodeling Aminochrome Complex",
+          "description": "The SASP-Remodeling Aminochrome Complex (SRAC) is a sequential",
+          "created": "2026-07-04",
+          "updated": "2026-07-09",
+          "tags": [
+            "scientific-concept",
+            "senescence"
+          ],
+          "path": "tasks/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_research-scientist_combo_therapy_11_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome-Based Combination Therapies",
+          "description": "Research-scientist analysis of adrenochrome-based combination therapies (MRR, SRAC, GOPS).",
+          "created": "2026-06-11",
+          "updated": "2026-07-08",
+          "tags": [
+            "adrenochrome",
+            "combination-therapy",
+            "senescence",
+            "mitochondrial-dysfunction",
+            "longevity"
+          ],
+          "path": "tasks/task_output_research-scientist_combo_therapy_11_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - Mitohormetic Redox-Relay",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Mitohormetic Redox-Relay",
+          "description": "The Mitohormetic Redox-Relay (MRR) is a therapeutic strategy designed",
+          "created": "2026-07-04",
+          "updated": "2026-07-07",
+          "tags": [
+            "scientific-concept",
+            "mitochondria",
+            "oxidative-stress",
+            "mitohormesis"
+          ],
+          "path": "tasks/_document_%20-%20Mitohormetic%20Redox-Relay.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_review_notes_epinephrine_sirtuins_06_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins: Mechanistic Connections and Longevity Implications",
+          "description": "notes mapping the biochemical, cellular, and pharmacological connections between epinephrine metabolism, neutrophil/erythrocyte biology, and sirtuin signaling. Focuses on oxidative stress, NAD+ homeostasis, inflammaging, and therapeutic implications for longevity.",
+          "created": "2026-07-06",
+          "updated": "2026-07-06",
+          "tags": [
+            "epinephrine",
+            "sirtuins",
+            "neutrophils",
+            "erythrocytes",
+            "inflammaging",
+            "oxidative-stress",
+            "longevity",
+            "nad"
+          ],
+          "path": "tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "MnSOD in Sirtuin Signaling vs. Adrenochrome Pathway: A Comparative Mechanistic Analysis",
+          "description": "Comparative analysis of MnSOD (SOD2) reaction mechanisms in sirtuin-mediated longevity signaling and adrenochrome redox cycling pathways",
+          "created": "2026-07-06",
+          "updated": "2026-07-06",
+          "tags": [
+            "mnsod",
+            "sod2",
+            "sirtuins",
+            "adrenochrome",
+            "redox",
+            "hormesis",
+            "mitochondria",
+            "ros"
+          ],
+          "path": "tasks/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_resveratrol_en-US",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
+          "description": "Resveratrol role in SIRT1 activation, compounds targeting other sirtuins (SIRT2–SIRT7), dietary sources and therapeutic doses",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
+          ],
+          "path": "tasks/task_output_sirtuins_resveratrol_en-US.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_resveratrol",
+      "kind": "task",
+      "langs": {
+        "zh-TW": {
+          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
+          ],
+          "path": "tasks/task_output_sirtuins_resveratrol_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "mb, aminoguanidine",
+          "description": "outline to sync with obsidian and notion",
+          "created": "2026-06-27",
+          "updated": "2026-06-27",
+          "tags": [
+            "adrenochrome",
+            "outline",
+            "notion"
+          ],
+          "path": "tasks/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_research-scientist_research_plan_11_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Longevity Research Plan",
+          "description": "Adrenochrome longevity research plan synthesizing pathways, biomarkers, and protocols.",
+          "created": "2026-06-11",
+          "updated": "2026-06-11",
+          "tags": [
+            "adrenochrome",
+            "longevity",
+            "research-plan",
+            "mitohormesis"
+          ],
+          "path": "tasks/task_output_research-scientist_research_plan_11_JUN_2026.md"
+        }
+      }
+    }
+  ]
+}

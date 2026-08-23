@@ -42,7 +42,7 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES, I18N_COVERAGE] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, TASKS, PREDICATES, I18N_COVERAGE] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
@@ -51,6 +51,7 @@ async function loadAllData() {
     getJSON('query.json', 'traces'),
     getJSON('translations-zh-TW.json', 'translations'),
     getJSON('articles.json', 'articles'),
+    getJSON('tasks.json', 'tasks'),
     getJSON('predicates-zh-TW.json', 'predicates'),
     getJSON('i18n-coverage.json', 'i18n-coverage'),
   ]);
@@ -63,12 +64,13 @@ async function loadAllData() {
     TRACES: TRACES || [],
     TRANSLATIONS: TRANSLATIONS || {},
     ARTICLES: ARTICLES || [],
+    TASKS: (TASKS && TASKS.tasks) || [],
     PREDICATES: PREDICATES || {},
     I18N_COVERAGE: I18N_COVERAGE || {},
   };
 }
 
-export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES, I18N_COVERAGE } = await loadAllData();
+export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, TASKS, PREDICATES, I18N_COVERAGE } = await loadAllData();
 
 // ------------------------------------------------------------
 // Lazy analysis artifacts — fetched on first Graph-mode open rather

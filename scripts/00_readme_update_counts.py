@@ -3,9 +3,10 @@ import glob
 import json
 import os
 import re
+import shutil
 import subprocess
 import urllib.parse
-from collections import Counter
+from collections import Counter, OrderedDict
 from datetime import datetime
 
 
@@ -163,6 +164,114 @@ def format_top_items(items, limit=5):
     return ", ".join(f"{k} ({v})" for k, v in items[:limit])
 
 
+# --- Web artifacts: task outputs for the reader panel -----------------------
+# While building the README this script also emits web/data/tasks.json and
+# copies task markdown into web/tasks/ so the site's reader can render them
+# client-side. tasks.json mirrors articles.json's shape ({id, langs}) with a
+# kind: "task" discriminator; dates prefer frontmatter, then git commit date,
+# then filesystem mtime.
+
+FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+ZH_TW_SUFFIX_RE = re.compile(r"[_-]zh[-_]tw$", re.IGNORECASE)
+
+
+def parse_frontmatter(filepath):
+    """Parse a simple YAML frontmatter block (scalar keys + flat lists)."""
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            head = f.read(8192)
+    except Exception:
+        return {}
+    m = FRONTMATTER_RE.match(head)
+    if not m:
+        return {}
+    props = {}
+    key = None
+    for line in m.group(1).splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if not line[:1] in (" ", "\t"):
+            key, _, value = line.partition(":")
+            key = key.strip()
+            value = value.strip()
+            if value.startswith("[") and value.endswith("]"):
+                inner = value[1:-1]
+                props[key] = [v.strip().strip("\"'") for v in inner.split(",") if v.strip()]
+            else:
+                props[key] = value.strip("\"'") if value else []
+        elif key is not None:
+            item = re.sub(r"^-\s+", "", stripped).rstrip(",").strip("\"'")
+            if isinstance(props[key], list) and item:
+                props[key].append(item)
+    return props
+
+
+def parse_iso_date(value, fallback=None):
+    """Parse a YYYY-MM-DD (or full ISO) string to an aware datetime."""
+    try:
+        return datetime.fromisoformat(str(value)[:10]).astimezone()
+    except Exception:
+        return fallback
+
+
+def task_id_stem(basename):
+    """Split a task filename stem into (logical id stem, language)."""
+    stem = re.sub(r"\.md$", "", basename)
+    lang = "en-US"
+    if ZH_TW_SUFFIX_RE.search(stem):
+        lang = "zh-TW"
+        stem = ZH_TW_SUFFIX_RE.sub("", stem)
+    return stem, lang
+
+
+def build_web_tasks(task_data, args):
+    """Emit web/data/tasks.json and copy task markdown into web/tasks/."""
+    groups = OrderedDict()
+    copied = 0
+    for t in task_data:
+        basename = os.path.basename(t["path"])
+        stem, lang = task_id_stem(basename)
+        fm = parse_frontmatter(t["path"])
+        created_dt = parse_iso_date(fm.get("created"), t.get("datetime"))
+        updated_dt = parse_iso_date(fm.get("updated"), t.get("datetime"))
+        entry = {
+            "title": fm.get("title") or stem,
+            "description": fm.get("description", ""),
+            "created": created_dt.date().isoformat() if created_dt else "",
+            "updated": updated_dt.date().isoformat() if updated_dt else "",
+            "tags": fm.get("tags") or [],
+            "path": f"tasks/{urllib.parse.quote(basename)}",
+        }
+        group = groups.setdefault(stem, {"id": f"task:{stem}", "kind": "task", "langs": {}})
+        if lang not in group["langs"]:
+            group["langs"][lang] = entry
+
+        dest_dir = args.web_tasks_dir
+        os.makedirs(dest_dir, exist_ok=True)
+        try:
+            shutil.copy2(t["path"], os.path.join(dest_dir, basename))
+            copied += 1
+        except OSError as e:
+            print(f"Warning: could not copy {t['path']}: {e}")
+
+    ordered = sorted(
+        groups.values(),
+        key=lambda g: max((l.get("updated") or "" for l in g["langs"].values()), default=""),
+        reverse=True,
+    )
+    os.makedirs(args.web_data_dir, exist_ok=True)
+    out_path = os.path.join(args.web_data_dir, "tasks.json")
+    payload = {
+        "generated": get_timestamp(),
+        "tasks": ordered,
+    }
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"Wrote {out_path} ({len(ordered)} tasks, {copied} files copied to {args.web_tasks_dir}/)")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Update root README.md with topic counts and document lists."
@@ -181,6 +290,21 @@ def main():
         "--output",
         default="README.md",
         help="Path to the output README file (default: README.md)",
+    )
+    parser.add_argument(
+        "--web_data_dir",
+        default="web/data",
+        help="Directory for generated web data files (default: web/data)",
+    )
+    parser.add_argument(
+        "--web_tasks_dir",
+        default="web/tasks",
+        help="Directory task markdown is copied to for the reader (default: web/tasks)",
+    )
+    parser.add_argument(
+        "--skip-web",
+        action="store_true",
+        help="Only update the README; skip emitting web/tasks.json and copying markdown",
     )
     args = parser.parse_args()
 
@@ -303,6 +427,10 @@ def main():
                             "words": word_count,
                         })
         task_data.sort(key=lambda x: x["datetime"], reverse=True)
+
+    # --- Emit web artifacts for the reader panel (tasks.json + md copies) ---
+    if not args.skip_web:
+        build_web_tasks(task_data, args)
 
     # Prepare new content
     new_timestamp = get_timestamp()
