@@ -105,6 +105,7 @@
             display: en.title,
             desc: en.description || '',
             enPath: en.path,
+            file: en.filename || decodeURIComponent((en.path || '').split('/').pop()),
             zhPath: zh ? zh.path : en.path,
             zhTitle: zh ? zh.title : '',
             updated,
@@ -127,7 +128,7 @@
             <p class="task-title"><a href="${esc(viewerHref(t.enPath))}" data-task-id="${esc(t.id)}">${esc(t.display)}</a></p>
             ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${esc(t.zhTitle)}</a></p>` : ''}
             ${t.desc ? `<p class="task-desc">${esc(t.desc)}</p>` : ''}
-            <p class="task-meta"><span class="${cls}">● updated ${esc(t.age)} ago (${esc(t.updated)})</span></p>
+            <p class="task-meta"><code>${esc(t.file)}</code> · <span class="${cls}">updated ${esc(t.age)} ago (${esc(t.updated)})</span></p>
           </li>`).join('');
         html += '</ul>';
       });

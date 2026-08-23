@@ -1,5 +1,5 @@
 {
-  "generated": "22_AUG_2026 07:02 PM PDT",
+  "generated": "23_AUG_2026 09:57 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,6 +25,221 @@
       }
     },
     {
+      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node-Level Network Analysis for Biological Prioritization",
+          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
+          "created": "2026-08-16",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
+          "path": "tasks/task_output_node_analysis_biology_16_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
+          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
+          "created": "2026-08-17",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "path": "tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing",
+          "description": "Answer to whether antioxidant supplementation interferes with mitohormetic adaptation — ranked by strength of evidence across NAC, vitamin C/E, and other antioxidants, with timing considerations (chronic daily use vs. acute post-exercise) and implications drawn from failed clinical trials (SELECT, HOPE, Bjelakovic meta-analysis).",
+          "created": "2026-08-05",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "mitohormesis",
+            "hormesis",
+            "antioxidants",
+            "ros",
+            "nac",
+            "exercise",
+            "mitochondrial-biogenesis"
+          ],
+          "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
+          "path": "tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)",
+          "description": "AlphaFold-derived pLDDT confidence and PAE domain-boundary analysis for nine NAD+ metabolism proteins — CD38, BST1, SARM1, NAMPT, NT5E (CD73), SIRT1, SIRT3, SIRT6, and PARP1 — assessing structural reliability for downstream modeling of NAD+-boosting intervention targets.",
+          "created": "2026-06-26",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "alphafold",
+            "structural-biology",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "nampt",
+            "sirtuins",
+            "parp1"
+          ],
+          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
+          "path": "tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_physiologist_shred_vs_bulk",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Bulk vs. Shred Scenario Analysis — Elevated RMR & Bio-Entity Interplay",
+          "description": "Physiologist-style protocol comparison of bulking (anabolism + elevated resting metabolic rate) vs. shredding (caloric deficit + autophagy) — covering catecholamine/adrenochrome toxicity risk during surplus, COMT-supported detoxification nutrients, AMPK/SIRT1-driven cleanup during deficit, epigenome protection, and prioritized food/supplement/behavioral recommendations per scenario.",
+          "created": "2026-08-23",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "physiology",
+            "body-composition",
+            "adrenochrome",
+            "comt",
+            "autophagy",
+            "mtorc1",
+            "sirt1",
+            "oxidative-stress"
+          ],
+          "filename": "task_output_physiologist_shred_vs_bulk.md",
+          "path": "tasks/task_output_physiologist_shred_vs_bulk.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_recommendations_03_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Strategic Research Recommendations — Sirtuin-Centric Longevity & Regenerative Medicine",
+          "description": "Five evidence-grounded research recommendations from network analysis of 1,521 sirtuin interaction triples — SIRT6 allosteric activation, opposing SIRT3 activation / SIRT4 inhibition for fibrosis and hypertrophy, the cytoplasmic SIRT2–TFEB autophagy axis, CD38 inhibition for NAD+ restoration, and SIRT1 derepression via microRNA antagomirs.",
+          "created": "2026-07-03",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "sirtuins",
+            "longevity",
+            "drug-discovery",
+            "nad-plus",
+            "cd38",
+            "research-strategy"
+          ],
+          "filename": "task_output_sirtuins_recommendations_03_JULY_2026.md",
+          "path": "tasks/task_output_sirtuins_recommendations_03_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cancer Connections of Apoptotic Regulators — Caspases, Bcl-2 Family & Phosphorylation Sites",
+          "description": "HTML table excerpt mapping protease enzymes (caspases) and Bcl-2 family proteins to their phosphorylation sites, responsible kinases/phosphatases, functional outcomes, and cancer connections (loss or amplification), extracted from an NCI/PMC source document.",
+          "created": "2026-06-01",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "apoptosis",
+            "caspases",
+            "bcl-2-family",
+            "cancer",
+            "phosphorylation"
+          ],
+          "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
+          "path": "tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_senescent_compounds_normalized",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Normalized Table — Senescence-Inducing Small Compounds by Mechanism of Action",
+          "description": "Normalized compilation of small compounds that induce cellular senescence, grouped by mechanism (DNA replication stress, DNA damage/topoisomerase inhibition, etc.) with cell lines used, senescence markers documented (SA-beta-Gal, gamma-H2A.X, p53-p21/p16-Rb), signaling pathways involved, cell-cycle arrest phase, triggering conditions, and references.",
+          "created": "2026-08-23",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "senescence",
+            "dna-damage",
+            "replication-stress",
+            "topoisomerase-inhibitors",
+            "doxorubicin",
+            "cell-cycle-arrest"
+          ],
+          "filename": "tbl_senescent_compounds_normalized.md",
+          "path": "tasks/tbl_senescent_compounds_normalized.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_tfeb_target_mechanisms",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "TFEB Targeting Regulatory Mechanisms Across Disease Models",
+          "description": "Table of TFEB-targeting strategies by regulatory mechanism — gene therapy (AAV/lentiviral TFEB overexpression), transcriptional induction (PGC-1alpha), and PTM modulation via mTORC1/MAPK-ERK/Akt/p38 MAPK phosphorylation and SIRT1 deacetylation — mapped to disease models (Pompe, asthma, cystinosis, stroke, pancreatitis, HD, NAFLD, Alzheimer's, Parkinson's, MI, AKI) with phenotypic improvements and PMIDs.",
+          "created": "2026-08-23",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "tfeb",
+            "autophagy",
+            "lysosome",
+            "gene-therapy",
+            "phosphorylation",
+            "neurodegeneration"
+          ],
+          "filename": "tbl_tfeb_target_mechanisms.md",
+          "path": "tasks/tbl_tfeb_target_mechanisms.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
       "kind": "task",
       "langs": {
@@ -42,6 +257,7 @@
             "autophagy",
             "sirtuins"
           ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
           "path": "tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
         }
       }
@@ -56,21 +272,8 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
           "path": "tasks/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_node_analysis_biology_16_AUG_2026",
-          "description": "",
-          "created": "2026-08-22",
-          "updated": "2026-08-22",
-          "tags": [],
-          "path": "tasks/task_output_node_analysis_biology_16_AUG_2026.md"
         }
       }
     },
@@ -84,6 +287,7 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
           "path": "tasks/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
         }
       }
@@ -98,21 +302,8 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
           "path": "tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
-          "description": "",
-          "created": "2026-08-22",
-          "updated": "2026-08-22",
-          "tags": [],
-          "path": "tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
         }
       }
     },
@@ -126,6 +317,7 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
           "path": "tasks/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
         }
       }
@@ -143,6 +335,7 @@
             "clippings",
             "grok"
           ],
+          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
           "path": "tasks/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
         }
       }
@@ -159,6 +352,7 @@
           "tags": [
             "gemini"
           ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
           "path": "tasks/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
         }
       }
@@ -173,6 +367,7 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
           "path": "tasks/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
         }
       }
@@ -187,6 +382,7 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
           "path": "tasks/task_output_SRAC_revision_log_08_JULY_2026.md"
         }
       }
@@ -201,6 +397,7 @@
           "created": "2026-08-22",
           "updated": "2026-08-22",
           "tags": [],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
           "path": "tasks/task_output_pharmacologist_feasibility_16_JUN_2026.md"
         }
       }
@@ -220,6 +417,7 @@
             "epigenetics",
             "stem-cells"
           ],
+          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
           "path": "tasks/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
         }
       }
@@ -239,6 +437,7 @@
             "inflammaging",
             "innate-immunity"
           ],
+          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
           "path": "tasks/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
         }
       }
@@ -258,6 +457,7 @@
             "vaccine",
             "aging"
           ],
+          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
           "path": "tasks/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
         }
       }
@@ -277,6 +477,7 @@
             "epigenetics",
             "rna-processing"
           ],
+          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
           "path": "tasks/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
         }
       }
@@ -291,6 +492,7 @@
           "created": "2026-08-21",
           "updated": "2026-08-21",
           "tags": [],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
           "path": "tasks/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
         }
       }
@@ -310,6 +512,7 @@
             "geroscience",
             "literature-review"
           ],
+          "filename": "task_output_senescence_research_gaps_18_August_2026.md",
           "path": "tasks/task_output_senescence_research_gaps_18_August_2026.md"
         }
       }
@@ -329,6 +532,7 @@
             "geroscience",
             "literature-review"
           ],
+          "filename": "task_output_sirtuin_research_gaps_14_August_2026.md",
           "path": "tasks/task_output_sirtuin_research_gaps_14_August_2026.md"
         }
       }
@@ -355,6 +559,7 @@
             "epinephrine",
             "graph-theory"
           ],
+          "filename": "task_output_node_comt_mao_15_August_2026.md",
           "path": "tasks/task_output_node_comt_mao_15_August_2026.md"
         }
       }
@@ -379,6 +584,7 @@
             "adrenochrome",
             "graph-theory"
           ],
+          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
           "path": "tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
         }
       }
@@ -406,6 +612,7 @@
             "epinephrine",
             "graph-theory"
           ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
           "path": "tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md"
         }
       }
@@ -428,6 +635,7 @@
             "flavonoids",
             "anti-aging"
           ],
+          "filename": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
           "path": "tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
         }
       }
@@ -449,6 +657,7 @@
             "mtor",
             "cancer"
           ],
+          "filename": "task_output_benign_tumor_longevity_14_August_2026.md",
           "path": "tasks/task_output_benign_tumor_longevity_14_August_2026.md"
         }
       }
@@ -473,6 +682,7 @@
             "longevity",
             "review"
           ],
+          "filename": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
           "path": "tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
         }
       }
@@ -500,6 +710,7 @@
             "aging",
             "review"
           ],
+          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
           "path": "tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
         }
       }
@@ -526,21 +737,8 @@
             "disease",
             "review"
           ],
+          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
           "path": "tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_mitohormesis_antioxidants_05_August_2026",
-          "description": "",
-          "created": "2026-08-05",
-          "updated": "2026-08-05",
-          "tags": [],
-          "path": "tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
         }
       }
     },
@@ -561,6 +759,7 @@
             "mechanisms",
             "synergy"
           ],
+          "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
           "path": "tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
         }
       }
@@ -590,6 +789,7 @@
             "longevity",
             "fenbendazole"
           ],
+          "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
           "path": "tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
         }
       }
@@ -614,6 +814,7 @@
             "opa1",
             "mitophagy"
           ],
+          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
           "path": "tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
         }
       }
@@ -635,6 +836,7 @@
             "enzyme",
             "senolytic"
           ],
+          "filename": "task_output_acid_ceramidase_27_July_2026.md",
           "path": "tasks/task_output_acid_ceramidase_27_July_2026.md"
         }
       }
@@ -656,6 +858,7 @@
             "age-defense",
             "adrenochrome"
           ],
+          "filename": "task_output_dj1_glycation_trace_27_JUL_2026.md",
           "path": "tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
         }
       }
@@ -681,6 +884,7 @@
             "triad",
             "dog-aging-project"
           ],
+          "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
           "path": "tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
         }
       }
@@ -705,6 +909,7 @@
             "mitochondria",
             "aging"
           ],
+          "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
           "path": "tasks/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
         }
       }
@@ -719,6 +924,7 @@
           "created": "2026-07-22",
           "updated": "2026-07-22",
           "tags": [],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
           "path": "tasks/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
         }
       }
@@ -743,91 +949,8 @@
             "transcription-factor",
             "aging"
           ],
+          "filename": "task_output_ap1_trace_21_JUL_2026.md",
           "path": "tasks/task_output_ap1_trace_21_JUL_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_alphafold_report_NAD+_26_JUN_2026",
-          "description": "",
-          "created": "2026-07-21",
-          "updated": "2026-07-21",
-          "tags": [],
-          "path": "tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_physiologist_shred_vs_bulk",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_physiologist_shred_vs_bulk",
-          "description": "",
-          "created": "2026-07-21",
-          "updated": "2026-07-21",
-          "tags": [],
-          "path": "tasks/task_output_physiologist_shred_vs_bulk.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_sirtuins_recommendations_03_JULY_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "task_output_sirtuins_recommendations_03_JULY_2026",
-          "description": "",
-          "created": "2026-07-21",
-          "updated": "2026-07-21",
-          "tags": [],
-          "path": "tasks/task_output_sirtuins_recommendations_03_JULY_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
-          "description": "",
-          "created": "2026-07-21",
-          "updated": "2026-07-21",
-          "tags": [],
-          "path": "tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
-        }
-      }
-    },
-    {
-      "id": "task:tbl_senescent_compounds_normalized",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "tbl_senescent_compounds_normalized",
-          "description": "",
-          "created": "2026-07-21",
-          "updated": "2026-07-21",
-          "tags": [],
-          "path": "tasks/tbl_senescent_compounds_normalized.md"
-        }
-      }
-    },
-    {
-      "id": "task:tbl_tfeb_target_mechanisms",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "tbl_tfeb_target_mechanisms",
-          "description": "",
-          "created": "2026-07-21",
-          "updated": "2026-07-21",
-          "tags": [],
-          "path": "tasks/tbl_tfeb_target_mechanisms.md"
         }
       }
     },
@@ -844,6 +967,7 @@
             "clippings",
             "grok"
           ],
+          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
           "path": "tasks/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
         }
       }
@@ -861,6 +985,7 @@
             "clippings",
             "grok"
           ],
+          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
           "path": "tasks/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
         }
       }
@@ -875,6 +1000,7 @@
           "created": "2026-07-21",
           "updated": "2026-07-21",
           "tags": [],
+          "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
           "path": "tasks/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
         }
       }
@@ -889,6 +1015,7 @@
           "created": "2026-07-21",
           "updated": "2026-07-21",
           "tags": [],
+          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
           "path": "tasks/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
         }
       }
@@ -903,6 +1030,7 @@
           "created": "2026-07-21",
           "updated": "2026-07-21",
           "tags": [],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
           "path": "tasks/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
         }
       }
@@ -917,6 +1045,7 @@
           "created": "2026-07-21",
           "updated": "2026-07-21",
           "tags": [],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
           "path": "tasks/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
         }
       }
@@ -931,6 +1060,7 @@
           "created": "2026-07-21",
           "updated": "2026-07-21",
           "tags": [],
+          "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
           "path": "tasks/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
         }
       }
@@ -951,6 +1081,7 @@
             "fasting",
             "exercise"
           ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
           "path": "tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
         }
       }
@@ -974,6 +1105,7 @@
             "atherosclerosis",
             "mitohormesis"
           ],
+          "filename": "task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
           "path": "tasks/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
         }
       }
@@ -994,6 +1126,7 @@
             "graph-analysis",
             "adrenochrome"
           ],
+          "filename": "task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md",
           "path": "tasks/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"
         }
       }
@@ -1018,6 +1151,7 @@
             "apoptosis",
             "knowledge-graph"
           ],
+          "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
           "path": "tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
         }
       }
@@ -1043,6 +1177,7 @@
             "neurodegeneration",
             "knowledge-graph"
           ],
+          "filename": "task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md",
           "path": "tasks/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
         }
       }
@@ -1068,6 +1203,7 @@
             "redox-homeostasis",
             "knowledge-graph"
           ],
+          "filename": "task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
           "path": "tasks/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
         }
       }
@@ -1091,6 +1227,7 @@
             "parp1",
             "knowledge-graph"
           ],
+          "filename": "task_output_CD38_NADplus_trace_17_JUL_2026.md",
           "path": "tasks/task_output_CD38_NADplus_trace_17_JUL_2026.md"
         }
       }
@@ -1116,6 +1253,7 @@
             "axonal-degeneration",
             "knowledge-graph"
           ],
+          "filename": "task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
           "path": "tasks/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
         }
       }
@@ -1138,6 +1276,7 @@
             "knowledge-graph-gaps",
             "research-synthesis"
           ],
+          "filename": "task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
           "path": "tasks/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
         }
       }
@@ -1163,6 +1302,7 @@
             "inflammaging",
             "knowledge-graph"
           ],
+          "filename": "task_output_CD38_SARM1_synergy_17_JUL_2026.md",
           "path": "tasks/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
         }
       }
@@ -1186,6 +1326,7 @@
             "neurodegenration",
             "knowledge-graph"
           ],
+          "filename": "task_output_SARM1_NADplus_trace_17_JUL_2026.md",
           "path": "tasks/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
         }
       }
@@ -1210,6 +1351,7 @@
             "microglia",
             "literature-review"
           ],
+          "filename": "task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
           "path": "tasks/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
         }
       }
@@ -1232,6 +1374,7 @@
             "phosphatase",
             "cell-death"
           ],
+          "filename": "task_output_caspase_01_JUN_2026.md",
           "path": "tasks/task_output_caspase_01_JUN_2026.md"
         }
       }
@@ -1252,6 +1395,7 @@
             "rapamycin",
             "longevity"
           ],
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
           "path": "tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
         },
         "zh-TW": {
@@ -1266,6 +1410,7 @@
             "rapamycin",
             "longevity"
           ],
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md",
           "path": "tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md"
         }
       }
@@ -1287,6 +1432,7 @@
             "sasp",
             "senolytics"
           ],
+          "filename": "task_output_fisetin_sasp_cxcl12_15_July_2026.md",
           "path": "tasks/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
         }
       }
@@ -1306,11 +1452,12 @@
             "ivermectin",
             "graphify-query"
           ],
+          "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
           "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
         },
         "zh-TW": {
           "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
-          "description": "關於伊維菌素抗癌老藥新用（repositioning）的追蹤發現，取自 wiki 知識圖譜（graphify 查詢 + 節點閱讀）。",
+          "description": "透過 wiki 知識圖譜追蹤伊維菌素抗癌老藥新用的發現——涵蓋對癌細胞的選擇性毒殺、自噬/P21 活化、WNT-TCF、PAK1 與粒線體機制，並註明所有證據仍限於臨床前研究。",
           "created": "2026-07-15",
           "updated": "2026-07-15",
           "tags": [
@@ -1319,6 +1466,7 @@
             "ivermectin",
             "graphify-query"
           ],
+          "filename": "task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md",
           "path": "tasks/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md"
         }
       }
@@ -1339,6 +1487,7 @@
             "redox",
             "product-map"
           ],
+          "filename": "task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md",
           "path": "tasks/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md"
         }
       }
@@ -1360,6 +1509,7 @@
             "hormetic-window",
             "mitochondria"
           ],
+          "filename": "task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md",
           "path": "tasks/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md"
         }
       }
@@ -1378,6 +1528,7 @@
             "cancer",
             "chemotherapy"
           ],
+          "filename": "task_output_autophagy_and_cancer_13_JUL_2026.md",
           "path": "tasks/task_output_autophagy_and_cancer_13_JUL_2026.md"
         }
       }
@@ -1399,6 +1550,7 @@
             "pharmacology",
             "protocol"
           ],
+          "filename": "task_output_mitohormetic_window_13_JUL_2026.md",
           "path": "tasks/task_output_mitohormetic_window_13_JUL_2026.md"
         }
       }
@@ -1418,6 +1570,7 @@
             "aging",
             "therapeutic-strategy"
           ],
+          "filename": "_document_ - MRR - mitohormesis.md",
           "path": "tasks/_document_%20-%20MRR%20-%20mitohormesis.md"
         }
       }
@@ -1435,6 +1588,7 @@
             "scientific-concept",
             "senescence"
           ],
+          "filename": "_document_ - SRAC - SASP-Remodeling Aminochrome Complex.md",
           "path": "tasks/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md"
         }
       }
@@ -1455,6 +1609,7 @@
             "mitochondrial-dysfunction",
             "longevity"
           ],
+          "filename": "task_output_research-scientist_combo_therapy_11_JUN_2026.md",
           "path": "tasks/task_output_research-scientist_combo_therapy_11_JUN_2026.md"
         }
       }
@@ -1474,6 +1629,7 @@
             "oxidative-stress",
             "mitohormesis"
           ],
+          "filename": "_document_ - Mitohormetic Redox-Relay.md",
           "path": "tasks/_document_%20-%20Mitohormetic%20Redox-Relay.md"
         }
       }
@@ -1497,6 +1653,7 @@
             "longevity",
             "nad"
           ],
+          "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
           "path": "tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
         }
       }
@@ -1520,6 +1677,7 @@
             "mitochondria",
             "ros"
           ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md",
           "path": "tasks/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
         }
       }
@@ -1530,15 +1688,19 @@
       "langs": {
         "en-US": {
           "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Resveratrol role in SIRT1 activation, compounds targeting other sirtuins (SIRT2–SIRT7), dietary sources and therapeutic doses",
+          "description": "Gemini-generated overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
           "created": "2026-07-02",
           "updated": "2026-07-05",
           "tags": [
             "gemini",
             "clippings",
             "sirtuins",
-            "resveratrol"
+            "resveratrol",
+            "sirt1",
+            "stacs",
+            "polyphenols"
           ],
+          "filename": "task_output_sirtuins_resveratrol_en-US.md",
           "path": "tasks/task_output_sirtuins_resveratrol_en-US.md"
         }
       }
@@ -1549,15 +1711,19 @@
       "langs": {
         "zh-TW": {
           "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "description": "Gemini 生成綜述：白藜蘆醇在 SIRT1 活化中的角色（K 型別構調節機制、直接與間接活化的爭議）、標靶 SIRT2–SIRT7 的化合物、膳食多酚來源與治療劑量考量",
           "created": "2026-07-02",
           "updated": "2026-07-05",
           "tags": [
             "gemini",
             "clippings",
             "sirtuins",
-            "resveratrol"
+            "resveratrol",
+            "sirt1",
+            "stacs",
+            "polyphenols"
           ],
+          "filename": "task_output_sirtuins_resveratrol_zh-TW.md",
           "path": "tasks/task_output_sirtuins_resveratrol_zh-TW.md"
         }
       }
@@ -1576,6 +1742,7 @@
             "outline",
             "notion"
           ],
+          "filename": "outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md",
           "path": "tasks/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md"
         }
       }
@@ -1595,6 +1762,7 @@
             "research-plan",
             "mitohormesis"
           ],
+          "filename": "task_output_research-scientist_research_plan_11_JUN_2026.md",
           "path": "tasks/task_output_research-scientist_research_plan_11_JUN_2026.md"
         }
       }
