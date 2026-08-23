@@ -3,7 +3,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, graphData, loadRolesMeta, loadLinkPrediction } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeObjects, edgeOffColor, animateCamera,
@@ -175,6 +175,18 @@ const UI_STRINGS = {
     // Analysis download actions
     downloadJson: 'Download analysis as JSON',
     downloadPng: 'Download highlighted subgraph as PNG',
+    roleExplorer: 'Role Explorer',
+    roleExplorerNote: 'auto-classified from the metric fingerprint — click to list, again to clear',
+    roleRule: 'Rule',
+    roleThresholds: 'Live thresholds',
+    predictedTitle: 'Predicted Connections',
+    predictedNote: 'Adamic-Adar link prediction — non-adjacent entities whose shared neighbours imply unstated biology',
+    predictedVia: 'via',
+    crossCommFlag: 'cross-community',
+    surprisingTitle: 'Surprising Connections',
+    surprisingNote: 'cross-community anomalies flagged at build time',
+    looseCommunity: 'loose',
+    looseCommunityTitle: 'Low intra-community cohesion (edge density) — members are mostly wired to other communities',
   },
   'zh-TW': {
     panelClose: '關閉面板',
@@ -278,6 +290,18 @@ const UI_STRINGS = {
     propertySource: '來源檔案',
     downloadJson: '下載分析 JSON',
     downloadPng: '下載高亮子圖 PNG',
+    roleExplorer: '角色探索',
+    roleExplorerNote: '由指標指紋自動分類 — 點擊列出，再點清除',
+    roleRule: '規則',
+    roleThresholds: '即時閾值',
+    predictedTitle: '預測連結',
+    predictedNote: 'Adamic-Adar 連結預測 — 無直接相連但共用鄰居暗示尚未記錄的生物學關聯之實體',
+    predictedVia: '經由',
+    crossCommFlag: '跨社群',
+    surprisingTitle: '意外連結',
+    surprisingNote: '建構時標記的跨社群異常連結',
+    looseCommunity: '鬆散',
+    looseCommunityTitle: '社群內聚度（邊密度）偏低 — 成員大多與其他社群相連',
   },
 };
 
@@ -1861,13 +1885,20 @@ function renderAnalysisTools() {
   const prRows = s.pagerankLeaders.slice(0, 40).map(n => atRowHTML(n, 'pr', s)).join('');
   const connRows = s.connectors.slice(0, 32).map(n => atRowHTML(n, 'btw', s)).join('');
 
+  const cohesionMap = (graphData.metadata && graphData.metadata.community_cohesion) || {};
   const commHTML = LEGEND.slice().sort((a, b) => b.count - a.count).map(c => {
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
+    // Intra-community edge density from the build's Leiden scoring. Values
+    // < 0.15 flag "spaghetti" communities whose members are wired mostly
+    // elsewhere — the same threshold scripts/04 reports on.
+    const coh = cohesionMap[String(c.cid)];
+    const loose = typeof coh === 'number' && coh < 0.15;
     return `<div class="at-comm" data-cid="${c.cid}">
       <div class="at-comm-main">
         <span class="sw" style="background:${esc(c.color)}"></span>
         <span class="at-comm-name">${esc(c.label)}</span>
+        ${loose ? `<span class="at-comm-loose" title="${esc(t('looseCommunityTitle'))}">${esc(t('looseCommunity'))}</span>` : ''}
       </div>
       <div class="at-comm-foot">
         <span class="at-comm-count">${c.count} · ${esc(top)}</span>
@@ -1898,6 +1929,21 @@ function renderAnalysisTools() {
       <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
       <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
       <div id="at-search-results" class="at-search-results"></div>
+    </section>
+    <section class="at-section at-span-12">
+      <h4 class="at-h">${esc(t('roleExplorer'))}<span class="at-note">${esc(t('roleExplorerNote'))}</span></h4>
+      <div id="at-role-chips" class="at-role-chips"></div>
+      <div id="at-role-info" class="at-role-info" hidden></div>
+      <ul class="at-list" id="at-role-list"></ul>
+    </section>
+    <section class="at-section at-span-6">
+      <h4 class="at-h"><span>${esc(t('surprisingTitle'))}</span><span class="at-note">${esc(t('surprisingNote'))}</span></h4>
+      <div id="at-surprise-list" class="at-surprise-list"></div>
+    </section>
+    <section class="at-section at-span-6">
+      <h4 class="at-h"><span>${esc(t('predictedTitle'))}</span></h4>
+      <p class="at-hint">${esc(t('predictedNote'))}</p>
+      <div id="at-predicted-list" class="at-surprise-list"><div class="at-loading">…</div></div>
     </section>
     <section class="at-section at-span-5">
       <h4 class="at-h">${esc(t('networkTopology'))}</h4>
@@ -1970,6 +2016,155 @@ function renderAnalysisTools() {
   rebindTracePanel();
   wireAnalysisSearch(s);
   renderCompareSets();
+  // Async sections: filled once their lazy artifacts arrive.
+  hydrateSurpriseList();
+  hydratePredictedList();
+  hydrateRoleExplorer(s);
+}
+
+// ------------------------------------------------------------
+// Surprising Connections (graph.json build metadata)
+// ------------------------------------------------------------
+// metadata.surprising_connections stores LABELS ("NF-kappaB"), not ids.
+let labelToId = null;
+function ensureLabelToId() {
+  if (labelToId) return labelToId;
+  labelToId = new Map();
+  RAW_NODES.forEach(n => {
+    const lower = n.label.toLowerCase();
+    if (!labelToId.has(lower)) labelToId.set(lower, n.id);
+  });
+  return labelToId;
+}
+
+function hydrateSurpriseList() {
+  const host = document.getElementById('at-surprise-list');
+  if (!host) return;
+  const items = (graphData.metadata && graphData.metadata.surprising_connections) || [];
+  if (!items.length) {
+    host.innerHTML = `<div class="at-empty">—</div>`;
+    return;
+  }
+  const l2i = ensureLabelToId();
+  host.innerHTML = items.map(sc => {
+    const idA = l2i.get(String(sc.source || '').toLowerCase());
+    const idB = l2i.get(String(sc.target || '').toLowerCase());
+    return `<div class="at-surprise-row" ${idA && idB ? `data-a="${esc(idA)}" data-b="${esc(idB)}"` : ''}>
+      <div class="at-surprise-pair">
+        <b>${esc(sc.source)}</b> <span class="at-surprise-rel">→[${esc(sc.relation || '')}]→</span> <b>${esc(sc.target)}</b>
+      </div>
+      <div class="at-surprise-why" title="${esc(sc.why || '')}">${esc(sc.why || '')}</div>
+    </div>`;
+  }).join('');
+  host.querySelectorAll('.at-surprise-row[data-a]').forEach(row => {
+    row.addEventListener('click', () => exploreIsolate([row.dataset.a, row.dataset.b]));
+  });
+}
+
+// ------------------------------------------------------------
+// Predicted Connections (scripts/05_link_prediction.py artifact)
+// ------------------------------------------------------------
+async function hydratePredictedList() {
+  const host = document.getElementById('at-predicted-list');
+  if (!host) return;
+  const lp = await loadLinkPrediction();
+  // Re-find the host: a panel reset during the await would orphan this one.
+  const live = document.getElementById('at-predicted-list');
+  if (!live || host !== live) return;
+  const cands = lp.candidates || [];
+  if (!cands.length) {
+    live.innerHTML = `<div class="at-empty">—</div>`;
+    return;
+  }
+  const maxScore = cands[0].score || 1;
+  const crossLabel = esc(t('crossCommFlag'));
+  live.innerHTML = cands.slice(0, 40).map(c => `
+    <div class="at-surprise-row at-pair-row" data-a="${esc(c.a)}" data-b="${esc(c.b)}">
+      <div class="at-surprise-pair">
+        <span class="at-name">${esc(c.label_a)} ↔ ${esc(c.label_b)}</span>
+        ${c.cross_community ? `<span class="at-comm-loose">${crossLabel}</span>` : ''}
+      </div>
+      <div class="at-scorebar" title="Adamic-Adar ${c.score}">
+        <span style="width:${Math.max(4, Math.round((c.score / maxScore) * 100))}%"></span>
+      </div>
+      <div class="at-surprise-why">${esc(t('predictedVia'))} [${esc((c.shared_top || []).join(', '))}] · ${c.shared_neighbors}</div>
+    </div>`).join('');
+  live.querySelectorAll('.at-pair-row').forEach(row => {
+    row.addEventListener('click', () => exploreIsolate([row.dataset.a, row.dataset.b]));
+  });
+}
+
+// ------------------------------------------------------------
+// Role Explorer (roles-meta.json: rules + live thresholds + counts)
+// ------------------------------------------------------------
+const ROLE_CHIP_ORDER = ['Spreader', 'Master regulator', 'Bottleneck', 'Module member', 'Core backbone'];
+let activeRole = null;
+
+function fmtThreshold(v) {
+  if (typeof v !== 'number') return String(v);
+  if (Math.abs(v) >= 100) return v.toFixed(0);
+  if (Math.abs(v) >= 1) return v.toFixed(2);
+  return v.toExponential(2);
+}
+
+async function hydrateRoleExplorer(s) {
+  const chipsHost = document.getElementById('at-role-chips');
+  if (!chipsHost) return;
+  let meta;
+  try {
+    meta = await loadRolesMeta();
+  } catch (e) {
+    return;
+  }
+  const liveChips = document.getElementById('at-role-chips');
+  if (!liveChips || chipsHost !== liveChips) return; // panel was reset mid-fetch
+
+  const counts = (meta.summary && meta.summary.role_counts) || {};
+  liveChips.innerHTML = ROLE_CHIP_ORDER.map(role =>
+    `<button class="at-chip${activeRole === role ? ' active' : ''}" data-role="${esc(role)}">
+      ${esc(role)} <span class="at-chip-count">${counts[role] || 0}</span>
+    </button>`
+  ).join('');
+
+  const info = document.getElementById('at-role-info');
+  const list = document.getElementById('at-role-list');
+
+  const renderInfo = (role) => {
+    if (!info) return;
+    const def = meta.rules && meta.rules[role] && meta.rules[role].definition;
+    const th = meta.thresholds || {};
+    if (!def) { info.hidden = true; return; }
+    info.hidden = false;
+    info.innerHTML =
+      `<div><span class="key">${esc(t('roleRule'))}:</span> <code>${esc(def)}</code></div>` +
+      `<div><span class="key">${esc(t('roleThresholds'))}:</span> ${Object.entries(th)
+        .map(([k, v]) => `${esc(k.replace(/_/g, ' '))} <code>${fmtThreshold(v)}</code>`)
+        .join(' · ')}</div>`;
+  };
+
+  const renderList = (role) => {
+    if (!list) return;
+    if (!role) { list.innerHTML = ''; return; }
+    const members = RAW_NODES
+      .filter(n => Array.isArray(n.roles) && n.roles.includes(role))
+      .sort((a, b) => (b.pagerank || 0) - (a.pagerank || 0))
+      .slice(0, 12);
+    list.innerHTML = members.map(n => atRowHTML(n, 'deg', s)).join('');
+    list.querySelectorAll('.at-row').forEach(bindAtRow);
+  };
+
+  liveChips.querySelectorAll('.at-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      activeRole = activeRole === chip.dataset.role ? null : chip.dataset.role;
+      liveChips.querySelectorAll('.at-chip').forEach(c2 =>
+        c2.classList.toggle('active', c2.dataset.role === activeRole));
+      renderInfo(activeRole);
+      renderList(activeRole);
+    });
+  });
+
+  // Restore state if the panel re-rendered while a role stayed active.
+  if (activeRole) { renderInfo(activeRole); renderList(activeRole); }
 }
 
 // Shared row binding for the hub / pagerank / connector / search lists.

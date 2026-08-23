@@ -47,6 +47,7 @@ MANUAL_DATA_FILES = (
     "translations-zh-TW.json",  # zh-TW translation dictionary for UI/node labels
     "predicates-zh-TW.json",  # zh-TW relationship-predicate labels (display only)
     "articles.json",  # article registry for the Reader (EN + zh-TW)
+    "notes-tags-zh-TW.json",  # zh-TW tag labels for the Notes panel gallery
 )
 
 # generic type/category vocabulary to drop (abstract ontology hubs)
@@ -345,6 +346,20 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     )
     (DATA_DIR / "node_roles.json").write_text(
         json.dumps(node_roles_doc, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    # Client-facing slice of the role artifact (~1 KB): the full node table
+    # stays in node_roles.json (CLI-only); the web app only needs the rule
+    # catalog, live thresholds, and summary counts to explain role badges.
+    roles_meta = {
+        "generated_at": node_roles_doc["generated_at"],
+        "graph_build": node_roles_doc["graph_build"],
+        "rules": node_roles_doc["rules"],
+        "thresholds": node_roles_doc["thresholds"],
+        "summary": node_roles_doc["summary"],
+    }
+    (DATA_DIR / "roles-meta.json").write_text(
+        json.dumps(roles_meta, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     print(
@@ -651,10 +666,76 @@ def _format_i18n_report(i18n: Counter) -> str:
         f"| Triples processed | {i18n.get('triples_total', 0)} |",
         f"| Missing zh-TW context (falls back to en-US) | {i18n.get('missing_zh', 0)} |",
         f"| Missing created/updated timestamps | {i18n.get('missing_dates', 0)} |",
-        f"| Stale triples (`updated` < source file mtime) | {i18n.get('stale_triples', 0)} |",
+        f"| Stale triples (`updated` < source note mtime) | {i18n.get('stale_triples', 0)} |",
         "",
     ]
     return "\n".join(lines)
+
+
+def _load_source_doc_mtimes() -> dict[str, str]:
+    """Basename -> ISO mtime for every .md tracked in graphify-out/manifest.json.
+
+    Used to date a triple against the *source note* it was extracted from
+    rather than the `_triples.json` container. The container is rewritten
+    wholesale whenever any note in the topic re-extracts, so its mtime flags
+    nearly every triple stale (the old behaviour: ~99.9% false positives).
+    Falls back to the container mtime only when the document is missing from
+    the manifest.
+    """
+    manifest_path = GP / "manifest.json"
+    if not manifest_path.exists():
+        return {}
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    mtimes: dict[str, str] = {}
+    for path, meta in manifest.items():
+        if not path.endswith(".md") or not isinstance(meta, dict):
+            continue
+        mtime = meta.get("mtime")
+        if not isinstance(mtime, (int, float)):
+            continue
+        base = path.rsplit("/", 1)[-1]
+        iso = datetime.fromtimestamp(mtime, tz=timezone.utc).strftime(
+            "%Y-%m-%dT%H:%M:%SZ"
+        )
+        # First wins; vault convention keeps basenames unique across src/.
+        mtimes.setdefault(base, iso)
+    return mtimes
+
+
+def run_link_prediction() -> None:
+    """Refresh web/data/link-prediction.json via scripts/05_link_prediction.py.
+
+    Runs as a subprocess (same pattern as the graphify HTML export) so the
+    networkx dependency stays isolated and a failure degrades to a warning
+    instead of failing the rebuild. Must run BEFORE write_version_file(): the
+    version hash covers every web/data/*.json, so the artifact participates in
+    cache busting automatically. Output is deterministic (sorted candidates),
+    so an unchanged topology keeps the hash stable.
+    """
+    script = ROOT / "scripts" / "05_link_prediction.py"
+    if not script.exists():
+        print(f"link prediction skipped (missing): {script.name}")
+        return
+    try:
+        subprocess.run(
+            [sys.executable, str(script), "--quiet"],
+            cwd=str(ROOT),
+            check=True,
+            timeout=600,
+        )
+    except subprocess.TimeoutExpired:
+        print("link prediction skipped (timed out after 600s)")
+    except OSError as e:
+        print(f"link prediction skipped (could not launch {sys.executable}): {e}")
+    except subprocess.CalledProcessError as e:
+        print(
+            f"link prediction failed (exit {e.returncode}); artifact left as-is. "
+            "Re-run manually: uv run --with networkx python3 "
+            "scripts/05_link_prediction.py"
+        )
 
 
 def main() -> int:
@@ -668,6 +749,8 @@ def main() -> int:
     edge_records: dict[tuple, dict] = {}
     node_candidates: dict[str, list[dict]] = defaultdict(list)
     i18n = Counter()
+    src_doc_mtime = _load_source_doc_mtimes()
+    stale_basis = Counter()  # doc | container — how staleness was judged
     print("=== Iterating topics ===")
     for f in topics:
         rel = str(Path(f).relative_to(ROOT))
@@ -702,8 +785,16 @@ def main() -> int:
                 i18n["missing_zh"] += 1
             if not (created and updated):
                 i18n["missing_dates"] += 1
-            elif f_mtime_iso and updated < f_mtime_iso:
-                i18n["stale_triples"] += 1
+            else:
+                # Prefer the source note's mtime (genuine staleness: the note
+                # was edited after this triple was last updated). Fall back to
+                # the triples container mtime only when the document is not in
+                # the manifest.
+                doc_iso = src_doc_mtime.get(src, "")
+                ref_iso = doc_iso or f_mtime_iso
+                stale_basis["doc" if doc_iso else "container"] += 1
+                if ref_iso and updated < ref_iso:
+                    i18n["stale_triples"] += 1
 
             for nid, raw in ((sid, subj), (tid, obj)):
                 if nid not in G:
@@ -916,6 +1007,11 @@ def main() -> int:
 
     # --- write the i18n coverage report the web app can surface ---
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    print(
+        "Staleness basis: "
+        f"{stale_basis.get('doc', 0)} triples vs source-note mtime, "
+        f"{stale_basis.get('container', 0)} vs container mtime (doc not in manifest)"
+    )
     (DATA_DIR / "i18n-coverage.json").write_text(
         json.dumps(
             {"generated": time.strftime("%Y-%m-%d %H:%M:%S"), **dict(i18n)},
@@ -924,6 +1020,9 @@ def main() -> int:
         ),
         encoding="utf-8",
     )
+
+    # --- refresh predicted-connection artifact (subprocess, warn-and-skip) ---
+    run_link_prediction()
 
     # --- write content-hash version tag for web-app cache busting ---
     write_version_file()
@@ -945,6 +1044,7 @@ def refresh_roles_only() -> int:
         cid = n.get("community")
         labels.setdefault(cid, n.get("community_name") or f"Community {cid}")
     export_three_json(GP, labels)
+    run_link_prediction()
     write_version_file()
     return 0
 

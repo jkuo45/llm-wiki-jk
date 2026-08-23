@@ -42,7 +42,7 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES, I18N_COVERAGE] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
@@ -52,6 +52,7 @@ async function loadAllData() {
     getJSON('translations-zh-TW.json', 'translations'),
     getJSON('articles.json', 'articles'),
     getJSON('predicates-zh-TW.json', 'predicates'),
+    getJSON('i18n-coverage.json', 'i18n-coverage'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
@@ -63,10 +64,33 @@ async function loadAllData() {
     TRANSLATIONS: TRANSLATIONS || {},
     ARTICLES: ARTICLES || [],
     PREDICATES: PREDICATES || {},
+    I18N_COVERAGE: I18N_COVERAGE || {},
   };
 }
 
-export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES } = await loadAllData();
+export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, PREDICATES, I18N_COVERAGE } = await loadAllData();
+
+// ------------------------------------------------------------
+// Lazy analysis artifacts — fetched on first Graph-mode open rather
+// than at page load. roles-meta.json (~1 KB) carries the role rule
+// catalog + live thresholds; link-prediction.json holds the
+// Adamic-Adar missing-link candidates and god-node PPR profiles
+// emitted by scripts/05_link_prediction.py.
+// ------------------------------------------------------------
+let ROLES_META = null;
+export async function loadRolesMeta() {
+  if (ROLES_META) return ROLES_META;
+  ROLES_META = (await getJSON('roles-meta.json', 'roles-meta')) || {};
+  return ROLES_META;
+}
+
+let LINK_PREDICTION = null;
+export async function loadLinkPrediction() {
+  if (LINK_PREDICTION) return LINK_PREDICTION;
+  const empty = { params: {}, summary: {}, candidates: [], ppr_similar: {} };
+  LINK_PREDICTION = (await getJSON('link-prediction.json', 'link-prediction')) || empty;
+  return LINK_PREDICTION;
+}
 
 export const nodeMap = new Map();
 RAW_NODES.forEach(n => nodeMap.set(n.id, n));

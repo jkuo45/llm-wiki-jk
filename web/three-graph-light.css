@@ -291,6 +291,14 @@ body {
 .role-badge[data-role="Core backbone"] { background: rgba(167,139,250,0.14); color: #5b43b8; border-color: #8b74e0; }
 .role-badge[data-role="Module member"] { background: rgba(78,121,167,0.14); color: #2a5578; border-color: #4E79A7; }
 .role-badge[data-role="Periphery"] { background: rgba(140,140,150,0.12); color: #6b6b78; border-color: #9a9aa8; }
+
+/* Role explorer / connection rows (light theme) — darken accents */
+.at-chip { border-color: #b8b8c4; }
+.at-chip.active { background: rgba(78,121,167,0.14); }
+.at-surprise-row { border-color: rgba(60,60,80,0.15); }
+.at-surprise-row:hover { background: rgba(78,121,167,0.06); }
+.at-scorebar { background: rgba(60,60,80,0.14); }
+.at-comm-loose { color: #8a5c10; }
 .at-node-desc { color: #4B5563; }
 .at-node-btn { background: #F6F3EC; border-color: #CCC5B2; color: #0F766E; }
 .at-node-btn:hover { border-color: #0F766E; color: #0F766E; }

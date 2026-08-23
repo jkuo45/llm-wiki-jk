@@ -27,6 +27,8 @@ Open the Analysis panel (chart icon) on [graph.johnnykuo.com](https://graph.john
 - Curated graph-query traces (e.g. "What connects NAD⁺ metabolism to inflammation?") that replay as highlighted node/edge routes.
 - **Quantitative multi-node analysis** — compare any set of source entities against anchor targets across the full entity network: shortest-path multiplicity and first-hop bridge nodes; neighborhood distinctness (degree, pairwise Jaccard overlap, signature neighbors); Adamic-Adar link-prediction proximity between every source–target pair; k-core nesting depth; spectral geometry (algebraic connectivity, Fiedler vector); effective-resistance / commute distance z-scored against random-node null samples; and personalized PageRank flow seeded at each target.
 - Pre-computed graph context (god nodes, surprising connections, community cohesion) surfaces high-leverage entities before drilling in.
+- **Predicted Connections** — Adamic-Adar link prediction over non-adjacent entities (`web/data/link-prediction.json`, regenerated each build): shared-neighbour pairs whose implied biology no document states yet, with cross-community flags and personalized-PageRank similarity profiles for hub seeds.
+- **Role Explorer** — per-node biological roles (Spreader, Master regulator, Bottleneck, Module member, Core backbone) auto-classified from live percentile fingerprints, with the rule catalog and thresholds exposed (`web/data/roles-meta.json`).
 - Full-text node search, physics / label / edge toggles, camera reset, and PNG export of the current view.
 
 ## Notes Panel
