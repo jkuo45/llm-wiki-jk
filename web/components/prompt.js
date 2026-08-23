@@ -1915,7 +1915,7 @@ function renderAnalysisTools() {
       <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
       <div class="at-cards">${cards}</div>
     </section>
-    <section class="at-section at-span-12">
+    <section class="at-section at-span-6">
       <h4 class="at-h"><span>${esc(t('graphQuery'))}</span></h4>
       <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
         <option value="">${esc(t('graphQuerySelect'))}</option>
@@ -1925,7 +1925,7 @@ function renderAnalysisTools() {
       <div id="trace-key-nodes"></div>
       <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
     </section>
-    <section class="at-section at-span-12">
+    <section class="at-section at-span-6">
       <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
       <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
       <div id="at-search-results" class="at-search-results"></div>
