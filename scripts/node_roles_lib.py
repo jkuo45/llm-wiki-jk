@@ -20,6 +20,7 @@ from __future__ import annotations
 # Each entry pairs the role name with its operational expression.
 ROLE_DEFS: list[tuple[str, str]] = [
     ("Spreader", "out_degree > in_degree AND out_degree >= 3 AND k_core >= 2"),
+    ("Sink", "in_degree > out_degree AND in_degree >= p90(in_degree) AND k_core >= 2"),
     ("Master regulator", "pagerank >= p95 AND out_degree >= p95"),
     ("Bottleneck", "betweenness >= p90(betweenness)"),
     ("Module member", "clustering > 0.5"),
@@ -71,6 +72,7 @@ def compute_thresholds(fingerprints: list[dict[str, float]]) -> dict:
     btw = sorted(f["betweenness"] for f in fingerprints)
     pr = sorted(f["pagerank"] for f in fingerprints)
     out = sorted(f["out_degree"] for f in fingerprints)
+    ind = sorted(f["in_degree"] for f in fingerprints)
     max_core = max((f["k_core"] for f in fingerprints), default=0)
     return {
         "betweenness_p90": percentile(btw, 90),
@@ -78,6 +80,7 @@ def compute_thresholds(fingerprints: list[dict[str, float]]) -> dict:
         "pagerank_p95": percentile(pr, 95),
         "out_degree_p90": percentile(out, 90),
         "out_degree_p95": percentile(out, 95),
+        "in_degree_p90": percentile(ind, 90),
         "max_k_core": max_core,
     }
 
@@ -87,6 +90,12 @@ def classify(fp: dict[str, float], t: dict) -> list[str]:
     roles: list[str] = []
     if fp["out_degree"] > fp["in_degree"] and fp["out_degree"] >= 3 and fp["k_core"] >= 2:
         roles.append("Spreader")
+    if (
+        fp["in_degree"] > fp["out_degree"]
+        and fp["in_degree"] >= t["in_degree_p90"]
+        and fp["k_core"] >= 2
+    ):
+        roles.append("Sink")
     if fp["pagerank"] >= t["pagerank_p95"] and fp["out_degree"] >= t["out_degree_p95"]:
         roles.append("Master regulator")
     if fp["betweenness"] >= t["betweenness_p90"]:

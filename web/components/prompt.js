@@ -2099,7 +2099,7 @@ async function hydratePredictedList() {
 // ------------------------------------------------------------
 // Role Explorer (roles-meta.json: rules + live thresholds + counts)
 // ------------------------------------------------------------
-const ROLE_CHIP_ORDER = ['Spreader', 'Master regulator', 'Bottleneck', 'Module member', 'Core backbone'];
+const ROLE_CHIP_ORDER = ['Spreader', 'Sink', 'Master regulator', 'Bottleneck', 'Module member', 'Core backbone'];
 let activeRole = null;
 
 function fmtThreshold(v) {
