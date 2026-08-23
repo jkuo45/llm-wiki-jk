@@ -691,7 +691,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .role-badge[data-role="Master regulator"] { background: rgba(214,86,108,0.16); color: #ff9aab; border-color: #d6566c; }
 .role-badge[data-role="Bottleneck"] { background: rgba(230,158,60,0.15); color: #f2c078; border-color: #b57a26; }
 .role-badge[data-role="Spreader"] { background: rgba(64,190,160,0.15); color: #7fe0c8; border-color: #2f9c80; }
-.role-badge[data-role="Sink"] { background: rgba(34,184,207,0.16); color: #8fdcec; border-color: #2a9db5; }
+.role-badge[data-role="Sink"] { background: rgba(86,120,180,0.16); color: #a8c0ee; border-color: #5678b4; }
 .role-badge[data-role="Core backbone"] { background: rgba(167,139,250,0.16); color: #cbb8ff; border-color: #8b74e0; }
 .role-badge[data-role="Module member"] { background: rgba(78,121,167,0.20); color: #a0d4f0; border-color: #4E79A7; }
 .role-badge[data-role="Periphery"] { background: rgba(140,140,150,0.14); color: #9a9ab0; border-color: #55556a; }
