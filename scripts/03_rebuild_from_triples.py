@@ -264,6 +264,31 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "metrics": fp,
         })
 
+    # Per-role exemplars: the top-3 nodes for each role, ranked by that
+    # role's driving metric. Gives every role an at-a-glance sanity anchor
+    # in node_roles.json / roles-meta.json (mirrors 05_role_query.py --role).
+    _EXEMPLAR_METRIC = {
+        "Spreader": "out_degree",
+        "Sink": "in_degree",
+        "Master regulator": "pagerank",
+        "Bottleneck": "betweenness",
+        "Module member": "clustering",
+        "Core backbone": "k_core",
+        "Periphery": "pagerank",
+    }
+    exemplars: dict[str, list[dict]] = {}
+    for role_name, metric in _EXEMPLAR_METRIC.items():
+        pool = [r for r in role_records if role_name in r["roles"]]
+        pool.sort(key=lambda r: r["metrics"].get(metric, 0.0), reverse=True)
+        exemplars[role_name] = [
+            {
+                "id": r["id"],
+                "label": r["label"],
+                "value": round(float(r["metrics"].get(metric, 0.0)), 8),
+            }
+            for r in pool[:3]
+        ]
+
     node_roles_doc = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "source_graph": "web/data/graph.json",
@@ -277,6 +302,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "node_count": len(role_records),
             "role_counts": role_counts,
             "nodes_with_multiple_roles": multi,
+            "exemplars": exemplars,
         },
         "nodes": role_records,
     }
