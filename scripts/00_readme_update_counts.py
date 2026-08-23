@@ -260,6 +260,32 @@ def build_web_tasks(task_data, args):
         key=lambda g: max((l.get("updated") or "" for l in g["langs"].values()), default=""),
         reverse=True,
     )
+    # Index pseudo-entry (no markdown behind it): opened when the reader's
+    # Task Outputs tab is clicked. Empty dates keep it out of the newest
+    # sort position and the "Older" recency bucket.
+    ordered.insert(0, {
+        "id": "tasks-index",
+        "kind": "task",
+        "active": True,
+        "langs": {
+            "en-US": {
+                "title": "[index] task outputs",
+                "description": "Index of all task outputs, grouped by how recently they were modified.",
+                "created": "",
+                "updated": "",
+                "tags": [],
+                "path": "pages/tasks-index.html",
+            },
+            "zh-TW": {
+                "title": "任務輸出索引",
+                "description": "所有任務輸出的索引，依最後修改時間分組。",
+                "created": "",
+                "updated": "",
+                "tags": [],
+                "path": "pages/tasks-index.html",
+            },
+        },
+    })
     os.makedirs(args.web_data_dir, exist_ok=True)
     out_path = os.path.join(args.web_data_dir, "tasks.json")
     payload = {

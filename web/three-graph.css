@@ -210,20 +210,24 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 .page-modal-header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 #page-modal-header h2 { font-size: 16px; color: #e0e0e0; margin: 0; padding-right: 8px; white-space: nowrap; cursor: pointer; }
 #page-modal-header h2:hover { color: #fff; }
-.page-modal-controls { display: flex; align-items: center; gap: 8px; width: 100%; flex-wrap: wrap; }
-.page-modal-controls #reader-select { flex: 1 1 100%; }
+.page-modal-controls { display: flex; align-items: center; gap: 10px; width: 100%; flex-wrap: wrap; row-gap: 8px; }
+.page-modal-controls #reader-select { display: none; /* selection moved to the source index pages */ }
 .page-modal-controls .lang-toggle { flex-shrink: 0; }
 
 /* Reader source tabs (Articles vs Task Outputs) — top-left, language
-   toggle sits at the right of the same row; select spans the row below. */
+   toggle pushed to the right of the same row via the spacer; sized to
+   match the toggle's height. The dropdown stays hidden since selection
+   happens on the source index pages. */
 .reader-source-toggle {
-  display: inline-flex; flex: 1 1 auto;
+  display: inline-flex; flex: 0 1 auto; height: 30px;
   background: #1a1a2e; border: 1px solid #3a3a5e; border-radius: 4px;
-  overflow: hidden; margin-bottom: 6px;
+  overflow: hidden;
 }
+.page-modal-controls .controls-spacer { flex: 1 1 auto; }
 .reader-source-toggle button {
-  flex: 1; background: transparent; border: none; color: #888;
-  font-size: 12px; padding: 7px 10px; cursor: pointer;
+  background: transparent; border: none; color: #888;
+  font-size: 11px; line-height: 1; white-space: nowrap;
+  padding: 0 10px; cursor: pointer;
   transition: background 0.15s, color 0.15s;
 }
 .reader-source-toggle button + button { border-left: 1px solid #3a3a5e; }

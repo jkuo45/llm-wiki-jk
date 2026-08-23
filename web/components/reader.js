@@ -134,8 +134,9 @@ function updatePrevBtn() {
 // ------------------------------------------------------------
 function loadArticle(article, section) {
   const anchor = section ? '#' + encodeURIComponent(section) : '';
-  const url = article.kind === 'task'
-    // Task outputs are raw markdown rendered by the viewer shell page.
+  const url = article.kind === 'task' && article.path.endsWith('.md')
+    // Task outputs are raw markdown rendered by the viewer shell page;
+    // task index pages are plain HTML and load directly.
     ? 'pages/task-viewer.html?src=' + encodeURIComponent('../' + article.path) + anchor
     : article.path + anchor;
   frame.src = url;
@@ -359,13 +360,21 @@ frame.addEventListener('load', () => {
 });
 
 // Match the iframe's current location against the registry by page path.
+// Full-path match first; the basename fallback requires an exact basename
+// match unique across both registries (endsWith would wrongly map
+// tasks-index.html onto articles-index's index.html).
 function matchFrameArticle() {
   try {
     const path = frame.contentWindow.location.pathname;
-    return (
-      ACTIVE_ARTICLES.find((a) => path.endsWith('/' + a.path)) ||
-      ACTIVE_ARTICLES.find((a) => path.endsWith(a.path.split('/').pop()))
-    ) || null;
+    const exact = ALL_ROWS.find((a) => path.endsWith('/' + a.path));
+    if (exact) return exact;
+    const file = path.split('/').pop();
+    const groups = new Set(
+      ALL_ROWS.filter((a) => a.path.split('/').pop() === file).map((a) => a.group)
+    );
+    if (groups.size !== 1) return null;
+    const group = groups.values().next().value;
+    return ALL_ROWS.find((a) => a.group === group) || null;
   } catch {
     return null; // cross-origin or inaccessible location
   }
@@ -391,19 +400,24 @@ readerBtn.addEventListener('click', openSelected);
 
 select.addEventListener('change', openSelected);
 
+// Index entry for a source mode — opened when its tab is clicked and when
+// the modal title is clicked (mirrors the articles behavior).
+const indexIdForMode = (mode) => (mode === 'tasks' ? 'tasks-index' : 'articles-index');
+
 // Source tabs: swap the dropdown between articles and task outputs. If the
-// reader is already open, jump straight to that source's newest entry.
+// reader is already open, jump straight to that source's index page.
 sourceBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const mode = btn.dataset.source;
     if (mode === sourceMode) return;
     setSourceMode(mode);
     buildOptions();
-    const first = rowsForMode()[0];
-    if (first && isReaderOpen()) {
-      openReader(first.id, { section: null });
-    } else if (first) {
-      select.value = first.group;
+    const idx = getArticle(indexIdForMode(mode)) || rowsForMode()[0];
+    if (!idx) return;
+    if (isReaderOpen()) {
+      openReader(idx.id, { section: null });
+    } else {
+      select.value = idx.group;
     }
   });
 });
@@ -423,9 +437,9 @@ prevBtn.addEventListener('click', () => {
   if (readerStack.length > 1) history.back();
 });
 
-// Clicking the modal title returns to the reader index page.
+// Clicking the modal title returns to the current source's index page.
 modalTitle.addEventListener('click', () => {
-  const idx = getArticle('articles-index');
+  const idx = getArticle(indexIdForMode(sourceMode));
   if (idx && idx.id !== state.readerId) openReader(idx.id);
 });
 

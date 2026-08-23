@@ -1,6 +1,29 @@
 {
-  "generated": "22_AUG_2026 06:42 PM PDT",
+  "generated": "22_AUG_2026 07:02 PM PDT",
   "tasks": [
+    {
+      "id": "tasks-index",
+      "kind": "task",
+      "active": true,
+      "langs": {
+        "en-US": {
+          "title": "[index] task outputs",
+          "description": "Index of all task outputs, grouped by how recently they were modified.",
+          "created": "",
+          "updated": "",
+          "tags": [],
+          "path": "pages/tasks-index.html"
+        },
+        "zh-TW": {
+          "title": "任務輸出索引",
+          "description": "所有任務輸出的索引，依最後修改時間分組。",
+          "created": "",
+          "updated": "",
+          "tags": [],
+          "path": "pages/tasks-index.html"
+        }
+      }
+    },
     {
       "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
       "kind": "task",
