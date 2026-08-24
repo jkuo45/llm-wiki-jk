@@ -8,7 +8,7 @@
       "en-US": "Acid ceramidase (ACase, aCDase) is encoded by ASAH1. It is a lysosomal hydrolase that cleaves ceramide into sphingosine and a free fatty acid.",
       "zh-TW": "酸性神經醯胺酶（ACase、aCDase）由 ASAH1 編碼。它是一種溶酶體水解酶，可將神經醯胺裂解為鞘氨醇與游離脂肪酸。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -22,7 +22,7 @@
       "en-US": "ACase catalyzes the primary reaction: Ceramide + H2O → Sphingosine + Free fatty acid. It is a cysteine amidase with activity blocked by thiol-reactive agents targeting Cys143.",
       "zh-TW": "ACase 催化主要反應：Ceramide + H2O → Sphingosine + Free fatty acid。它是一種半胱氨酸醯胺酶，其活性可被針對 Cys143 的硫醇反應性試劑阻斷。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -36,7 +36,7 @@
       "en-US": "ACase is overexpressed 5- to 20-fold in replicatively senescent WI-38 fibroblasts compared to proliferative controls, creating a pro-ferroptotic membrane lipid profile.",
       "zh-TW": "酸甘油酯酶 (ACase/ASAH1) 在複製衰老的人類 WI-38  fibroblasts 中，與增生細胞相比，表達量明顯上調，Western blot 驗證表達量高出 5-20 倍。與鐵蛋白死亡 (ferroptosis) 調節因子 ACSL4 一起，ACase 在衰老中被上調表達的脂質代謝酶之一。ACase 下調顯著降低了衰老細胞中的其水平（儘管未完全，與衰老中 ACase 的增加穩定性一致），並且衰老表型本身——p21 表現、SA-β-gal 活性和 IL-6/IL-8 的分泌——在下調後仍然保持完整。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T04:58:59Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -50,7 +50,7 @@
       "en-US": "ACase overexpression creates a pro-ferroptotic membrane lipid profile independent of GPX4/GSH and iron axes, sensitizing senescent cells to ferroptotic death.",
       "zh-TW": "ACase 過度表現產生一種不依賴 GPX4/GSH 與鐵軸的促鐵蛋白死亡（ferroptotic）膜脂質輪廓，使衰老細胞對鐵蛋白死亡敏感。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -64,7 +64,7 @@
       "en-US": "SASP cytokines IL-6 and IL-8 induce ACase upregulation and ferroptotic sensitization in neighboring proliferative cells via paracrine signaling.",
       "zh-TW": "SASP 細胞激素 IL-6 與 IL-8 透過旁分泌訊號，誘導鄰近增生細胞中 ACase 的上調與鐵蛋白死亡（ferroptosis）敏感化。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -78,7 +78,7 @@
       "en-US": "ARN14794 has IC50 ~100 nM against acid ceramidase and was specifically used in the Soriano-Castell 2026 ferroptosis study to reduce membrane PL-PUFA content.",
       "zh-TW": "ARN14794 對酸性神經醯胺酶的 IC50 約為 100 nM，並在 Soriano-Castell 2026 年的鐵蛋白死亡研究中被專門用於降低膜磷脂中 PL-PUFA 的含量。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -92,7 +92,7 @@
       "en-US": "Carmofur has IC50 29 nM against acid ceramidase, is clinically approved in Japan, crosses the BBB, and is a repurposing candidate for senolytic therapy.",
       "zh-TW": "Carmofur 對酸性神經醯胺酶的 IC50 為 29 nM，已在日本獲臨床核准，可穿過血腦屏障（BBB），是去衰老（senolytic）治療的再利用候選藥物。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -106,7 +106,7 @@
       "en-US": "Adrenochrome semiquinone radical generates ROS through redox cycling. The autoxidation/redox cycling pathway produces superoxide, amplifying oxidative stress.",
       "zh-TW": "Adrenochrome 的氧化還原循環在生理條件下產生活性氧物種並耗竭麩胱甘肽等細胞抗氧化劑，這是其心臟毒性的基礎。其 indoline-dione（o-quinone）核心的反覆還原與再氧化會產生超氧陰離子與下游氧化劑，損害細胞組分。由於游離、未共軛的 adrenochrome 極不穩定，此促氧化活性通常透過共軛（如 adrenochrome monoaminoguanidine）而減緩。若該共軛物發生顯著的全身性水解，局部釋出的游離 adrenochrome 可能無意間促進而非緩解氧化壓力。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T06:56:15Z",
     "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
@@ -120,7 +120,7 @@
       "en-US": "NR (nicotinamide riboside) is an NAD+ precursor that restores SIRT activity. NAD+ repletion via NR restores sirtuin function depleted by adrenochrome redox cycling.",
       "zh-TW": "NR（nicotinamide riboside）是一種 NAD+ 前驅物，可恢復 SIRT 活性。透過 NR 補充 NAD+ 能恢復被 adrenochrome 氧化還原循環耗竭的 sirtuin 功能。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
@@ -134,7 +134,7 @@
       "en-US": "SIRT3 deacetylates and activates MnSOD (manganese superoxide dismutase), the mitochondrial superoxide scavenger, at residues K68 and K122.",
       "zh-TW": "SIRT3 去乙醯化並活化 MnSOD（manganese superoxide dismutase，錳超氧化物歧化酶），即粒線體超氧化物清除劑，作用位點為 K68 與 K122 殘基。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
@@ -148,7 +148,7 @@
       "en-US": "PGC-1α drives MnSOD expression, which then feeds sirtuins. This is the SIRT3-mediated activation axis forming the enzymatic defense against adrenochrome-generated ROS.",
       "zh-TW": "PGC-1α 驅動 MnSOD 的表現，進而供養 sirtuin。這是 SIRT3 介導的活化軸，構成對抗 adrenochrome 所產生活性氧物種的酵素防禦。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
@@ -162,7 +162,7 @@
       "en-US": "AP-1 acts as a pioneer factor opening closed chromatin at SASP super-enhancers, co-bound with BRD4 and C/EBPα. It drives SASP enhancer activity in senescent cells.",
       "zh-TW": "AP-1 作為先鋒因子，在 SASP 超級增強子處打開緻密染色質，並與 BRD4 和 C/EBPα 共同結合。它驅動衰老細胞中的 SASP 增強子活性。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ap1_trace_21_JUL_2026.md"
@@ -176,7 +176,7 @@
       "en-US": "AP-1 and NF-κB are co-regulators of inflammatory SASP genes. They share transcriptional targets including IL-6, IL-8, and TNFα.",
       "zh-TW": "AP-1 與 NF-κB 是發炎型 SASP 基因的共調節因子。它們共享包括 IL-6、IL-8 與 TNFα 在內的轉錄標的。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ap1_trace_21_JUL_2026.md"
@@ -190,7 +190,7 @@
       "en-US": "AP-1 transactivates CXCL5 (a SASP chemokine), which feeds inflammaging. Caloric restriction suppresses inflammaging and activates autophagy via mTOR/AMPK.",
       "zh-TW": "AP-1 轉活化 CXCL5（一種 SASP 趨化因子），促成發炎性老化（inflammaging）。熱量限制可抑制發炎性老化，並透過 mTOR/AMPK 活化自噬。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ap1_trace_21_JUL_2026.md"
@@ -204,7 +204,7 @@
       "en-US": "BRD4 co-binds H3K27ac at SASP super-enhancers alongside AP-1, facilitating the senescence-associated secretory phenotype program.",
       "zh-TW": "BRD4 與 AP-1 一起，在 SASP 超級增強子處共結合 H3K27ac，促進衰老相關分泌表型（SASP）程序。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ap1_trace_21_JUL_2026.md"
@@ -218,7 +218,7 @@
       "en-US": "In established tumors, autophagy acts as a survival mechanism allowing cancer cells to survive nutrient-poor and hypoxic conditions. This is the majority view supported by multiple clinical trials using HCQ.",
       "zh-TW": "在既成的腫瘤中，自噬作為一種存活機制，使癌細胞能在營養貧乏與缺氧條件下存活。這是以多項使用 HCQ 的臨床試驗為支持的普遍觀點。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_and_cancer_13_JUL_2026.md"
@@ -232,7 +232,7 @@
       "en-US": "HCQ blocks cytoprotective autophagy in cancer cells and is combined with chemotherapy in clinical trials. Results have been modest and inconsistent across cancer types.",
       "zh-TW": "HCQ 阻斷癌細胞中的細胞保護性自噬，並在臨床試驗中與化療合併使用。其結果在不同癌種間溫和且不一致。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_and_cancer_13_JUL_2026.md"
@@ -246,7 +246,7 @@
       "en-US": "Longevity interventions including caloric restriction require autophagy — life-extension by CR is abolished when autophagy is blocked in model organisms.",
       "zh-TW": "包括熱量限制在內的長壽介入需要自噬——在模式生物中，若自噬被阻斷，則 CR 所帶來的壽命延長即被取消。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
@@ -260,7 +260,7 @@
       "en-US": "SQSTM1/p62-mediated selective autophagy directly degrades p16 and p21 (independent of UPS), reversing the senescent phenotype in canine MMVD valve cells.",
       "zh-TW": "SQSTM1/p62 介導的選擇性自噬直接降解 p16 與 p21（不依賴 UPS），逆轉犬隻 MMVD 瓣膜細胞中的衰老表型。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
@@ -274,7 +274,7 @@
       "en-US": "TRIAD (Test of Rapamycin In Aging Dogs) is a parallel-group, double-masked, randomized, placebo-controlled trial testing rapamycin's effect on lifespan and healthspan in companion dogs.",
       "zh-TW": "TRIAD（Test of Rapamycin In Aging Dogs）是一項平行分組、雙盲、隨機、安慰劑對照的試驗，測試 rapamycin 對伴侶犬壽命與健康壽命的影響。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
@@ -288,7 +288,7 @@
       "en-US": "Mitophagy is a subtype of selective autophagy targeting only damaged/dysfunctional mitochondria. It converges on the same terminal step (autophagosome → lysosome) but differs in selectivity and initiation.",
       "zh-TW": "Mitophagy 是選擇性自噬的一個亞型，僅靶向受損／功能異常的粒線體。它匯聚於相同的終端步驟（自噬體 → 溶酶體），但在選擇性與起始機制上有所不同。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
@@ -302,7 +302,7 @@
       "en-US": "PINK1 stabilization on depolarized mitochondria triggers a positive-feedback threshold for Parkin recruitment, initiating mitophagy. Sub-threshold stress does not engage the pathway.",
       "zh-TW": "PINK1 在去極化粒線體上的穩定化，觸發 Parkin 招募的正回饋閾值，起始 mitophagy。未達閾值的壓力則不會啟動該途徑。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
@@ -316,7 +316,7 @@
       "en-US": "DRP1-mediated mitochondrial fission is a prerequisite step for mitophagy — it severs the damaged segment for autophagosomal engulfment. However, cardiac-specific DRP1-KO shows mitophagy can occur without it.",
       "zh-TW": "DRP1 介導的粒線體分裂是 mitophagy 的先決步驟——它將受損片段切斷以供自噬體包吞。然而，心臟專一性 DRP1-KO 顯示 mitophagy 可在缺乏它時仍發生。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
@@ -330,7 +330,7 @@
       "en-US": "SHP1 (PTPN6) removes inhibitory phosphate groups from Caspase-8 at Tyr380/397/465, restoring the cell's sensitivity to death ligands TRAIL and FasL.",
       "zh-TW": "SHP1（PTPN6）移除 Caspase-8 在 Tyr380/397/465 的抑制性磷酸基團，恢復細胞對死亡配體 TRAIL 與 FasL 的敏感性。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_caspase_01_JUN_2026.md"
@@ -344,7 +344,7 @@
       "en-US": "PAK2 directly binds and phosphorylates Caspase-7 at Ser30, Thr173, and Ser239, neutralizing its effector function and promoting survival in breast cancer.",
       "zh-TW": "PAK2 直接結合並在 Ser30、Thr173 與 Ser239 磷酸化 Caspase-7，中和其效應器功能並在乳癌中促進存活。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_caspase_01_JUN_2026.md"
@@ -358,7 +358,7 @@
       "en-US": "Pin1 binding to phosphorylated BAX (Thr167) catalyzes a conformational change that locks Bax in an inactive state, preventing mitochondrial translocation and MOMP.",
       "zh-TW": "Pin1 與磷酸化的 BAX（Thr167）結合，催化構形變化，將 Bax 鎖定於不活化狀態，阻止粒線體轉位與 MOMP。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_caspase_01_JUN_2026.md"
@@ -372,7 +372,7 @@
       "en-US": "PTPN5 (STEP), along with PTPN2 and PTPN23, dephosphorylates BAK at Tyr108, licensing it for mitochondrial outer membrane permeabilization and apoptosis.",
       "zh-TW": "PTPN5（STEP）與 PTPN2、PTPN23 一起，在 Tyr108 去磷酸化 BAK，使其獲得粒線體外膜通透化與凋亡的許可。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_caspase_01_JUN_2026.md"
@@ -386,7 +386,7 @@
       "en-US": "TBK1 and IKKε phosphorylate XIAP at Ser430 within its RING finger domain, triggering Lys48-linked autoubiquitination and proteasomal degradation, sensitizing cells to apoptosis.",
       "zh-TW": "TBK1 與 IKKε 在 XIAP 的 RING 指狀結構域內的 Ser430 磷酸化，觸發 Lys48 連結的自身泛素化與蛋白酶體降解，使細胞對凋亡敏感。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_caspase_01_JUN_2026.md"
@@ -400,7 +400,7 @@
       "en-US": "In K-RAS mutated cancers, hyperactive ERK1/2 phosphorylates and inactivates PTPN5, locking BAK in its inactive phosphorylated state and providing resistance to apoptosis.",
       "zh-TW": "在 K-RAS 突變的癌症中，過度活化的 ERK1/2 磷酸化並使 PTPN5 失活，將 BAK 鎖定於其不活化的磷酸化狀態，從而產生對凋亡的抗性。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_caspase_01_JUN_2026.md"
@@ -414,7 +414,7 @@
       "en-US": "Fisetin is a mixed-type COMT inhibitor with IC50 2.6-5.8 µM. It is also a COMT substrate — itself O-methylated to geraldol — making inhibition concentration-dependent and genotype-sensitive.",
       "zh-TW": "Fisetin 是一種混合型 COMT 抑制劑，IC50 為 2.6–5.8 µM。它也是 COMT 受質——本身被 O-甲基化為 geraldol——使得抑制呈濃度依賴且對基因型敏感。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
@@ -428,7 +428,7 @@
       "en-US": "Fisetin is metabolized by COMT to geraldol (3'-O-methylfisetin). This metabolic activation is concentration-dependent and consumes SAMe, generating SAH.",
       "zh-TW": "Fisetin 被 COMT 代謝為 geraldol（3'-O-methylfisetin）。此代謝活化呈濃度依賴，並消耗 SAMe，生成 SAH。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
@@ -442,7 +442,7 @@
       "en-US": "Fisetin binds the hydrophobic groove of anti-apoptotic Bcl-2 family proteins, sensitizing senescent cells to apoptosis. Bcl-2:fisetin binding energy = -22.2 to -35.1 kcal/mol.",
       "zh-TW": "Fisetin 結合抗凋亡 Bcl-2 家族蛋白的疏水溝，使衰老細胞對凋亡敏感。Bcl-2:fisetin 結合能為 -22.2 至 -35.1 kcal/mol。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
@@ -456,7 +456,7 @@
       "en-US": "CR induces autophagy via energy deficit — increased AMP/ATP ratio activates AMPK, which phosphorylates and activates ULK1 while inhibiting mTORC1.",
       "zh-TW": "CR 透過能量虧損誘導自噬——AMP/ATP 比值上升活化 AMPK，後者磷酸化並活化 ULK1，同時抑制 mTORC1。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
@@ -470,7 +470,7 @@
       "en-US": "Spermidine induces autophagy without caloric deficit by directly inhibiting histone acetyltransferase p300, causing global deacetylation and upregulation of Atg gene transcription.",
       "zh-TW": "Spermidine 在無熱量虧損下，透過直接抑制組蛋白乙醯轉移酶 p300 誘導自噬，造成全域去乙醯化並上調 Atg 基因的轉錄。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
@@ -484,7 +484,7 @@
       "en-US": "Spermidine drives eIF5A hypusination, which promotes TFEB translation, leading to autophagy and lysosomal biogenesis.",
       "zh-TW": "Spermidine 驅動 eIF5A 的 hypusination，促進 TFEB 轉譯，進而引發自噬與溶酶體生成。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
@@ -498,7 +498,7 @@
       "en-US": "DJ-1 is a glutathione-independent glyoxalase that stereospecifically detoxifies methylglyoxal into L-lactate, bypassing the glutathione requirement of the canonical glyoxalase system.",
       "zh-TW": "DJ-1 是一種不依賴麩胱甘肽的乙二醛酶，立體專一性地將甲基乙二醛解毒為 L-lactate，繞過典型乙二醛酶系統對麩胱甘肽的需求。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
@@ -512,7 +512,7 @@
       "en-US": "DJ-1 stabilizes Nrf2 by blocking KEAP1, driving GLO1/GLO2 transcription for enhanced dicarbonyl clearance and HO-1/NQO1 for antioxidant defense.",
       "zh-TW": "DJ-1 透過阻斷 KEAP1 穩定 Nrf2，驅動 GLO1/GLO2 轉錄以增強二羰基清除，以及 HO-1/NQO1 以進行抗氧化防禦。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
@@ -526,7 +526,7 @@
       "en-US": "PARK7 mutations (L166P, M26I) cause early-onset autosomal recessive Parkinson's disease. DJ-1-deficient neurons show fragmented mitochondria, Complex I impairment, and accelerated α-synuclein aggregation.",
       "zh-TW": "PARK7 突變（L166P、M26I）造成早發性體染色體隱性遺傳帕金森氏症。DJ-1 缺失的神經元呈現粒線體碎片化、Complex I 功能受損與 α-synuclein 聚集加速。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
@@ -540,7 +540,7 @@
       "en-US": "Nrf2 drives SIRT6 transcription via ARE in its promoter. SIRT6 co-activates Nrf2, creating a feed-forward amplification loop for antioxidant defense.",
       "zh-TW": "Nrf2 透過其啟動子中的 ARE 驅動 SIRT6 轉錄。SIRT6 共活化 Nrf2，形成抗氧化防禦的前饋放大迴路。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
@@ -554,7 +554,7 @@
       "en-US": "Ivermectin promotes proteasomal degradation of PAK1 via the ubiquitin-proteasome pathway without affecting PAK1 mRNA levels. This is its primary host kinase target for anticancer effects.",
       "zh-TW": "Ivermectin 透過泛素—蛋白酶體途徑促進 PAK1 的蛋白酶體降解，且不影響 PAK1 mRNA 水平。這是其抗癌作用的主要宿主激酶標的。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_cancer_14_JUL_2026.md"
@@ -568,7 +568,7 @@
       "en-US": "Ivermectin is a potent P-glycoprotein inhibitor, reversing multidrug resistance by blocking drug efflux. Also inhibits MRP1/2/3.",
       "zh-TW": "Ivermectin 是一種強效的 P-glycoprotein 抑制劑，透過阻斷藥物外排逆轉多重抗藥性。亦抑制 MRP1/2/3。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_cancer_14_JUL_2026.md"
@@ -582,7 +582,7 @@
       "en-US": "Fenbendazole binds the colchicine site of β-tubulin, preventing polymerization into microtubules. This causes mitotic spindle disruption, G2/M arrest, and mitotic catastrophe.",
       "zh-TW": "Fenbendazole 結合 β-tubulin 的 colchicine 位點，阻止聚合為微管。這造成有絲分裂紡錘體破壞、G2/M 停滯與有絲分裂災難。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
@@ -596,7 +596,7 @@
       "en-US": "Fenbendazole reduces surface expression of GLUT1, the primary glucose transporter overexpressed in cancer cells, directly impairing glucose uptake and starving tumors.",
       "zh-TW": "Fenbendazole 降低 GLUT1 的表面表現——GLUT1 是在癌細胞中過度表現的主要葡萄糖轉運蛋白——直接損害葡萄糖攝取並使腫瘤挨餓。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
@@ -610,7 +610,7 @@
       "en-US": "Fenbendazole down-regulates/inhibits HK2, collapsing glycolytic flux and de-repressing apoptosis at the mitochondrial level by detaching HK2 from VDAC.",
       "zh-TW": "Fenbendazole 下調／抑制 HK2，瓦解糖解通量，並經由將 HK2 從 VDAC 脫離，在粒線體層級去抑制凋亡。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
@@ -624,7 +624,7 @@
       "en-US": "Fenbendazole down-regulates MDM2 and MdmX, preventing p53 degradation and allowing stabilized p53 to transactivate pro-apoptotic targets (Bax, PUMA, Noxa).",
       "zh-TW": "Fenbendazole 下調 MDM2 與 MdmX，防止 p53 降解，使穩定的 p53 能轉活化促凋亡標的（Bax、PUMA、Noxa）。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
@@ -638,7 +638,7 @@
       "en-US": "OPA1 is the inner mitochondrial membrane fusion GTPase with 8 splice variants processed by OMA1 (stress) and YME1L (constitutive). Cardiolipin is required for OPA1-mediated fusion.",
       "zh-TW": "OPA1 是內粒線體膜融合 GTPase，具有 8 個剪接變異體，由 OMA1（壓力下）與 YME1L（組成性）加工。Cardiolipin 是 OPA1 介導融合所必需的。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
@@ -652,7 +652,7 @@
       "en-US": "Cardiolipin stimulates DRP1 GTPase activity for fission AND is required for OPA1-mediated fusion — it has dual pro-fusion and pro-fission roles depending on context.",
       "zh-TW": "Cardiolipin 刺激 DRP1 的 GTPase 活性以進行使分裂，同時也是 OPA1 介導融合所必需的——依情境不同，它具有促融合與促分裂的雙重角色。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
@@ -666,7 +666,7 @@
       "en-US": "SIRT3 deacetylates OPA1 at Lys926/Lys931 to activate mitochondrial fusion. The mechanism of mtSIRTs on autophagy is still unclear.",
       "zh-TW": "SIRT3 在 Lys926/Lys931 去乙醯化 OPA1 以活化粒線體融合。mtSIRT 對自噬的作用機制仍不明確。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
@@ -680,7 +680,7 @@
       "en-US": "CD38 is the primary enzymatic consumer of NAD+ in mammalian tissues during aging. Chronic inflammaging causes CD38 upregulation on neutrophils and macrophages, starving sirtuins.",
       "zh-TW": "CD38 是哺乳動物組織在老化過程中主要的 NAD+ 酵素消耗者。慢性發炎性老化造成嗜中性球與巨噬細胞上 CD38 上調，使 sirtuin 飢餓。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
@@ -694,7 +694,7 @@
       "en-US": "Activated neutrophils oxidize local epinephrine to adrenochrome via ROS and myeloperoxidase, accounting for >80% of adrenaline oxidation in neutrophil-rich environments. [HYPOTHESIS: quantitative claim]",
       "zh-TW": "Neutrophils are polymorphonuclear leukocytes whose respiratory burst generates large amounts of reactive oxygen species, including superoxide and hydroxyl radicals。Both stimulated neutrophils and cell-free granulocyte homogenates oxidize epinephrine to adrenochrome through a radical chain process, and medium released from activated cells can oxidize adrenaline extracellularly。This oxidation can account for more than 80% of adrenaline breakdown in certain inflammatory conditions, far outpacing the normal enzymatic routes such as catechol-O-methyltransferase and monoamine oxidase。Superoxide dismutase and catalase inhibit the reaction, confirming its dependence on reactive oxygen species。This mechanism provides a cellular basis for adrenochrome formation wherever neutrophils accumulate。"
     },
-    "confidence": "0.50",
+    "confidence": 0.5,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T06:43:53Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
@@ -708,7 +708,7 @@
       "en-US": "SIRT1 deacetylates RelA/p65 at Lys310, inhibiting NF-κB-dependent pro-inflammatory gene expression (TNF-α, IL-6, IL-1β). This is an established anti-inflammatory mechanism.",
       "zh-TW": "SIRT1 在 Lys310 去乙醯化 RelA/p65，抑制 NF-κB 依賴的促發炎基因表現（TNF-α、IL-6、IL-1β）。這是一個已確立的抗炎機制。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
@@ -722,7 +722,7 @@
       "en-US": "Male transgenic mice overexpressing SIRT6 show ~30% lifespan extension. SIRT6 KO mice die within ~4 weeks with dramatic progeroid phenotype. [ESTABLISHED: animal data]",
       "zh-TW": "雄性轉基因小鼠過度表現 SIRT6 顯示約 30% 的壽命延長。SIRT6 KO 小鼠在約 4 週內死亡，呈現顯著的早老表型。[ESTABLISHED: 動物數據]"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
@@ -736,7 +736,7 @@
       "en-US": "SIRT3 deacetylates MnSOD at K68 and K122, dramatically increasing its ROS-scavenging activity. Honokiol enhances this deacetylation.",
       "zh-TW": "SIRT3 在 K68 與 K122 去乙醯化 MnSOD，大幅提升其清除 ROS 的活性。Honokiol 可增強此去乙醯化作用。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
@@ -750,7 +750,7 @@
       "en-US": "Cytoplasmic SIRT2 directly binds to the 3'-UTR of TFEB mRNA and facilitates its stability, promoting lysosomal biogenesis and autophagosome-lysosome fusion. [HYPOTHESIS: novel finding from triple database]",
       "zh-TW": "胞質 SIRT2 直接結合 TFEB mRNA 的 3'-UTR 並促進其穩定性，推動溶酶體生成與自噬體—溶酶體融合。[HYPOTHESIS: 來自三元資料庫的新發現]"
     },
-    "confidence": "0.50",
+    "confidence": 0.5,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
@@ -764,7 +764,7 @@
       "en-US": "Daratumumab is a clinically approved IgG1 antibody for multiple myeloma that binds and neutralizes CD38. Potential repurposing at low doses for NAD+ preservation. [HYPOTHESIS: repurposing proposal]",
       "zh-TW": "Daratumumab 是一種臨床核准的 IgG1 抗體，用於多發性骨髓瘤，可結合並中和 CD38。在低劑量下具有用於 NAD+ 保存的再利用潛力。[HYPOTHESIS: 再利用提案]"
     },
-    "confidence": "0.40",
+    "confidence": 0.4,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
@@ -778,7 +778,7 @@
       "en-US": "Resveratrol acts as a competitive inhibitor of cAMP phosphodiesterases (PDE4), leading to cAMP accumulation, Epac1 activation, Ca2+ release, and AMPK activation.",
       "zh-TW": "Resveratrol 作為 cAMP 磷酸二酯酶（PDE4）的競爭性抑制劑，導致 cAMP 累積、Epac1 活化、Ca2+ 釋放與 AMPK 活化。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_resveratrol_en-US.md"
@@ -792,7 +792,7 @@
       "en-US": "CDK1/CYCLIN B1 phosphorylates Caspase-2 at Ser308, suppressing caspase activity and suppressing mitotic cell death.",
       "zh-TW": "CDK1/CYCLIN B1 在 Ser308 磷酸化 Caspase-2，抑制 caspase 活性並抑制有絲分裂細胞死亡。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -806,7 +806,7 @@
       "en-US": "AKT phosphorylates Caspase-9 at Ser196 (human specific), suppressing caspase activity in prostate and colon cancer cells.",
       "zh-TW": "AKT 在 Ser196（人類專一）磷酸化 Caspase-9，在攝護腺與大腸癌細胞中抑制 caspase 活性。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -820,7 +820,7 @@
       "en-US": "ERK phosphorylates BIM at Ser55/Ser65/Ser100, causing inactivation under the control of cytokine IL3.",
       "zh-TW": "ERK 在 Ser55/Ser65/Ser100 磷酸化 BIM，在細胞激素 IL3 的控制下造成不活化。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -834,7 +834,7 @@
       "en-US": "JNK and p38 MAPK phosphorylate BIM at Ser65, activating it for pro-apoptotic function.",
       "zh-TW": "JNK 與 p38 MAPK 在 Ser65 磷酸化 BIM，活化其促凋亡功能。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -848,7 +848,7 @@
       "en-US": "ERK1/2 phosphorylates BAX at Thr167, causing inactivation via interaction with Pin1.",
       "zh-TW": "ERK1/2 在 Thr167 磷酸化 BAX，經由與 Pin1 的交互作用造成不活化。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -862,7 +862,7 @@
       "en-US": "CDK5 phosphorylates NOXA at Ser13, causing inactivation in metabolically regulated T-cell leukemia cells.",
       "zh-TW": "CDK5 在 Ser13 磷酸化 NOXA，在代謝調節的 T 細胞白血病細胞中造成不活化。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -876,7 +876,7 @@
       "en-US": "Trehalose activates TFEB via inhibiting Akt, increasing clearance of proteolipid aggregates in Batten disease and reducing cardiac hypertrophy/fibrosis in chronic MI models.",
       "zh-TW": "Trehalose 透過抑制 Akt 活化 TFEB，增加 Batten 疾病中蛋白脂質聚集體的清除，並降低慢性 MI 模型中的心臟肥大／纖維化。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_tfeb_target_mechanisms.md"
@@ -890,7 +890,7 @@
       "en-US": "Celastrol activates TFEB via inhibiting mTORC1, reducing insoluble phosphorylated Tau aggregates and improving memory deficiency in Alzheimer's disease models.",
       "zh-TW": "Celastrol 透過抑制 mTORC1 活化 TFEB，減少不溶性磷酸化 Tau 聚集體，並改善阿茲海默症模型中的記憶缺陷。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_tfeb_target_mechanisms.md"
@@ -904,7 +904,7 @@
       "en-US": "Doxorubicin induces premature senescence across multiple cell lines via DNA intercalation and topoisomerase II poisoning. Effects can be p53-dependent or independent.",
       "zh-TW": "Doxorubicin 透過 DNA 嵌入與 topoisomerase II 毒化，在多種細胞株中誘發早衰。其效應可為 p53 依賴或非依賴。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_senescent_compounds_normalized.md"
@@ -918,7 +918,7 @@
       "en-US": "Cisplatin induces premature senescence via DNA intrastrand cross-links. Mechanism involves p53-p21 pathway activation and ROS-dependent signaling.",
       "zh-TW": "Cisplatin 透過 DNA 鏈內交聯誘發早衰。其機制涉及 p53-p21 路徑活化與 ROS 依賴的訊號傳遞。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_senescent_compounds_normalized.md"
@@ -932,7 +932,7 @@
       "en-US": "Bleomycin induces premature senescence via DNA breaks, activating p53-p21 and p16 pathways with SASP secretion.",
       "zh-TW": "Bleomycin 透過 DNA 斷裂誘發早衰，活化 p53-p21 與 p16 路徑並伴隨 SASP 分泌。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_senescent_compounds_normalized.md"
@@ -946,7 +946,7 @@
       "en-US": "Sodium butyrate (HDAC inhibitor) induces senescence-like state via p21 upregulation, which can be both p53-dependent and independent.",
       "zh-TW": "Sodium butyrate（HDAC 抑制劑）透過 p21 上調誘發類衰老狀態，可為 p53 依賴或非依賴。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_senescent_compounds_normalized.md"
@@ -960,7 +960,7 @@
       "en-US": "AMPK directly interacts with and activates sirtuins (SIRT1/SIRT3). Both are nutrient-sensing longevity pathways that converge on autophagy and mitochondrial biogenesis.",
       "zh-TW": "AMPK 直接交互作用並活化 sirtuin（SIRT1/SIRT3）。兩者皆為營養感測的長壽路徑，匯聚於自噬與粒線體生成。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
@@ -974,7 +974,7 @@
       "en-US": "Fisetin reduces circulating SASP factors including CXCL12, partially rescuing age-related endothelial dysfunction. [HYPOTHESIS: limited in vivo data]",
       "zh-TW": "Fisetin 降低循環中的 SASP 因子，包括 CXCL12，部分挽救年齡相關的內皮功能障礙。[HYPOTHESIS: 有限的體內數據]"
     },
-    "confidence": "0.50",
+    "confidence": 0.5,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
@@ -988,7 +988,7 @@
       "en-US": "COMT is the primary clearance route for epinephrine (~60-70% via O-methylation). Competition with the oxidative cyclization pathway determines adrenochrome formation.",
       "zh-TW": "Catechol-O-methyltransferase（COMT）是兒茶酚胺代謝中的主要酶，它甲基化 epinephrine 的其中一個兒茶酚羥基，使用 S-adenosylmethionine 作為甲基供體將其轉化為 metanephrine。COMT 介導的甲基化是終止 adrenaline 訊號並為其排泄做準備的兩大主要途徑之一，與 MAO 介導的氧化脫胺並行。由於 COMT 迅速清除 adrenaline，epinephrine 氧化為 adrenochrome 在正常條件下仍是次要的旁路。抑制 COMT 會升高兒茶酚胺濃度，並可使更大比例的 epinephrine 轉向氧化轉化為 adrenochrome。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T06:56:15Z",
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
@@ -1002,7 +1002,7 @@
       "en-US": "mTOR-dependent autophagy induction by rapamycin attenuates senescence, lowers CDKN2A/p16 and CDKN1A/p21, and reduces SASP in canine MMVD valve interstitial cells.",
       "zh-TW": "Rapamycin 透過 mTOR 依賴的自噬誘導減緩衰老，降低 CDKN2A/p16 與 CDKN1A/p21，並在犬隻 MMVD 瓣膜間質細胞中減少 SASP。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
@@ -1016,7 +1016,7 @@
       "en-US": "The Lands cycle exchanges fatty acids into the sn-2 position of membrane phospholipids. ACase-liberated fatty acids enter this cycle, enriching PUFA-containing species.",
       "zh-TW": "Lands cycle 將脂肪酸交換至膜磷脂的 sn-2 位置。ACase 釋放的脂肪酸進入此循環，富集含 PUFA 的種類。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -1030,7 +1030,7 @@
       "en-US": "ACase overexpression raises sphingosine/S1P levels, which is classically anti-apoptotic and helps senescent cells resist apoptosis via SCAP pathways.",
       "zh-TW": "ACase 過度表現提高 sphingosine/S1P 水平，此在經典上為抗凋亡，並透過 SCAP 路徑幫助衰老細胞抵抗凋亡。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_acid_ceramidase_27_July_2026.md"
@@ -1044,7 +1044,7 @@
       "en-US": "PINK1 promotes fission via DRP1 S616 phosphorylation but also supports fusion (stabilizing OPA1, modulating MFN2). Its effects are species/cell-type dependent. [HYPOTHESIS: context-dependent paradox]",
       "zh-TW": "PINK1 透過 DRP1 S616 磷酸化促進分裂，但也支持融合（穩定 OPA1、調節 MFN2）。其效應依物種／細胞類型而異。[HYPOTHESIS: 情境依賴的矛盾]"
     },
-    "confidence": "0.50",
+    "confidence": 0.5,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
@@ -1058,7 +1058,7 @@
       "en-US": "Mutant huntingtin (mHTT) uncouples fission from degradation while disrupting autophagic flux. Broad-spectrum autophagy activators like rapamycin may be insufficient if downstream transport remains blocked.",
       "zh-TW": "突變 huntingtin（mHTT）使分裂與降解脫鉤，同時破壞自噬流。若下游運輸仍受阻，則 rapamycin 等廣譜自噬活化劑可能不足。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
@@ -1072,7 +1072,7 @@
       "en-US": "GSK3, JNK, and p38 MAPK phosphorylate BAX at Thr167, causing activation in hepatoma cells.",
       "zh-TW": "GSK3、JNK 與 p38 MAPK 在 Thr167 磷酸化 BAX，在肝細胞癌細胞中造成活化。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -1086,7 +1086,7 @@
       "en-US": "PLK3 phosphorylates BCL-XL at Ser49, causing cell cycle G2 arrest in lymphoma cells.",
       "zh-TW": "PLK3 在 Ser49 磷酸化 BCL-XL，在淋巴瘤細胞中造成細胞週期 G2 停滯。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -1100,7 +1100,7 @@
       "en-US": "c-ABL phosphorylates Caspase-9 at Tyr153, promoting caspase activation and DNA damage-induced apoptosis.",
       "zh-TW": "c-ABL 在 Tyr153 磷酸化 Caspase-9，促進 caspase 活化與 DNA 損傷誘發的凋亡。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -1114,7 +1114,7 @@
       "en-US": "AKT phosphorylates XIAP at Ser87, preventing ubiquitination and degradation, promoting tumor survival in ovarian cancer cells.",
       "zh-TW": "AKT 在 Ser87 磷酸化 XIAP，防止泛素化與降解，在卵巢癌細胞中促進腫瘤存活。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -1128,7 +1128,7 @@
       "en-US": "RSK phosphorylates APAF-1 at Ser268, causing inhibition in prostate cancer cells.",
       "zh-TW": "RSK 在 Ser268 磷酸化 APAF-1，在攝護腺癌細胞中造成抑制。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
@@ -1142,7 +1142,7 @@
       "en-US": "SIRT1 is elevated in breast cancer tissue versus adjacent normal tissue and predicts poor prognosis. In triple-negative breast cancer it regulates EMT-associated programming that drives invasion and metastasis, while also repressing ER-alpha-mediated estrogen proliferative responses. It promotes metadherin-driven chemoresistance and causes tamoxifen resistance through MRP2 upregulation via FoxO1 deacetylation, so SIRT1 inhibition augments paclitaxel and doxorubicin cytotoxicity.",
       "zh-TW": "SIRT1 在乳癌組織中相較於鄰近正常組織升高，並預測不良預後。在三陰性乳癌中，它調節驅動侵犯與轉移的 EMT 相關編程，同時也抑制 ER-alpha 介導的雌激素增生反應。它促進 metadherin 驅動的化療抗性，並透過 FoxO1 去乙醯化上調 MRP2 造成 tamoxifen 抗性，因此抑制 SIRT1 可增強 paclitaxel 與 doxorubicin 的細胞毒性。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1156,7 +1156,7 @@
       "en-US": "SIRT2 is downregulated in breast cancer tissue and increased expression is associated with longer survival, indicating a predominantly tumor-suppressive role. It acts as a tumor suppressor by promoting BRCA1-BARD1 heterodimerization and homologous recombination DNA repair. However, SIRT2 also has a promoter role in basal-like breast cancer, where it deacetylates and stabilizes Slug to drive tumorigenesis and invasion, giving it a binary role.",
       "zh-TW": "SIRT2 在乳癌組織中下調，且表現增加與較長存活相關，顯示主要為腫瘤抑制角色。它透過促進 BRCA1-BARD1 異二聚體化與同源重組 DNA 修復，作為腫瘤抑制因子。然而，SIRT2 在基底樣乳癌中亦有促進角色，去乙醯化並穩定 Slug 以驅動腫瘤發生與侵犯，呈現二元角色。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1170,7 +1170,7 @@
       "en-US": "Serum SIRT3 distinguishes lung cancer patients from healthy controls with an AUC of 0.918, sensitivity of 86.4%, and specificity of 94%. High SIRT1-3 expression correlates with poor survival in NSCLC. In the tumor SIRT3 reduces cisplatin resistance through the FoxO3/CDT1 axis and promotes DNA repair and radioresistance via ATM-Chk2, illustrating how a single sirtuin affects both diagnosis and therapy response.",
       "zh-TW": "血清 SIRT3 區分肺癌患者與健康對照，AUC 為 0.918，敏感度 86.4%，特異度 94%。SIRT1-3 高度表現與 NSCLC 不良存活相關。在腫瘤中 SIRT3 透過 FoxO3/CDT1 軸降低 cisplatin 抗性，並經由 ATM-Chk2 促進 DNA 修復與放射抗性，說明單一 sirtuin 如何同時影響診斷與治療反應。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1184,7 +1184,7 @@
       "en-US": "SIRT3 expression is lower in HCC tissue than in adjacent tissue. Modulating SIRT3 enhances sorafenib therapy, and SIRT3 downregulates GST-pi1 to enhance chemo- and sorafenib-induced apoptosis. Its loss therefore correlates with tumor aggressiveness and reduced treatment efficacy in hepatocellular carcinoma.",
       "zh-TW": "SIRT3 在 HCC 組織中的表現低於鄰近組織。調節 SIRT3 可增強 sorafenib 治療，且 SIRT3 下調 GST-pi1 以增強化療與 sorafenib 誘發的凋亡。因此，其缺失與肝細胞癌中的腫瘤侵襲性與治療效能降低相關。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1198,7 +1198,7 @@
       "en-US": "SIRT4 is a mitochondrial ADP-ribosyl transferase that suppresses glutamine metabolism as its central tumor-suppressive mechanism in breast cancer, HCC, colorectal cancer, and gastric cancer. In breast cancer this represses SIRT1 activity via mitochondrial-nuclear crosstalk, and in colorectal cancer it upregulates E-cadherin while suppressing proliferation, migration, and invasion. SIRT4 also increases sensitivity to 5-fluorouracil by inhibiting the cell cycle.",
       "zh-TW": "SIRT4 是一種粒線體 ADP-ribosyl 轉移酶，在乳癌、HCC、大腸癌與胃癌中，透過抑制麩醯胺代謝作為其中心的腫瘤抑制機制。在乳癌中，這透過粒線體—核交互作用抑制 SIRT1 活性；在大腸癌中，它上調 E-cadherin 同時抑制增生、遷移與侵犯。SIRT4 亦透過抑制細胞週期增加對 5-fluorouracil 的敏感性。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1212,7 +1212,7 @@
       "en-US": "SIRT4 is expressed at lower levels in HCC tissue and low tumor levels predict decreased survival. It functions as a tumor suppressor by inhibiting glutamine metabolism, and it upregulates p16 and p21 while suppressing CyclinB1, Cdc2, and Cdc25c to induce apoptosis. Low SIRT4 therefore marks an aggressive, therapy-resistant HCC phenotype.",
       "zh-TW": "SIRT4 在 HCC 組織中表現較低，且腫瘤低水平預測存活下降。它透過抑制麩醯胺代謝作為腫瘤抑制因子，並上調 p16 與 p21，同時抑制 CyclinB1、Cdc2 與 Cdc25c 以誘發凋亡。因此低 SIRT4 標記出侵襲性、治療抗性的 HCC 表型。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1226,7 +1226,7 @@
       "en-US": "SIRT6 suppresses glycolysis and metabolic reprogramming in hepatocellular carcinoma by deacetylating hnRNP A1, and USP48-stabilized SIRT6 further attenuates glycolysis. In lung cancer the same metabolic suppression enhances radiosensitivity, although SIRT6 has a pro-carcinogenic dual role there through snail-dependent transrepression of KLF4 that drives EMT and metastasis. Overall SIRT6 acts as a metabolic tumor suppressor across most cancers.",
       "zh-TW": "SIRT6 透過去乙醯化 hnRNP A1 抑制肝細胞癌中的糖解與代謝重編程，且 USP48 穩定的 SIRT6 進一步減弱糖解。在肺癌中，相同的代謝抑制增強放射敏感性，儘管 SIRT6 在該處透過 snail 依賴的 KLF4 轉錄抑制（驅動 EMT 與轉移）具有促癌的雙重角色。整體而言，SIRT6 在多數癌症中作為代謝腫瘤抑制因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1240,7 +1240,7 @@
       "en-US": "SIRT7 is upregulated in breast cancer tissue and increased expression predicts poor prognosis. Depletion of SIRT7 inhibits tumor growth through p38/MAPK activation, positioning it as an oncogenic driver. This contrasts with the nucleolar sirtuin's role in ribosome biogenesis and rRNA transcription, linking proliferation to tumor progression.",
       "zh-TW": "SIRT7 在乳癌組織中上調，且表現增加預測不良預後。耗竭 SIRT7 透過 p38/MAPK 活化抑制腫瘤生長，將其定位為致癌驅動因子。這與該核仁 sirtuin 在核糖體生成與 rRNA 轉錄中的角色形成對比，將增生與腫瘤進展連結。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1254,7 +1254,7 @@
       "en-US": "SIRT1 has a dose-dependent dual effect in angiotensin II-induced cardiac hypertrophy: low (2.5x) and moderate (7.5x) overexpression attenuate hypertrophy while high (12.5x) overexpression exacerbates it. Protective mechanisms include reduced apoptosis and promoted autophagy plus PKC-zeta inhibition, whereas the harmful arm operates through Akt/PDK1 membrane localization. SIRT1 therefore protects or harms the heart depending on expression level.",
       "zh-TW": "SIRT1 在血管張力素 II 誘發的心臟肥大中具有劑量依賴的雙重效應：低（2.5 倍）與中（7.5 倍）度過度表現減輕肥大，而高（12.5 倍）度過度表現加劇之。保護機制包括減少凋亡、促進自噬以及 PKC-zeta 抑制，而有害臂則透過 Akt/PDK1 膜定位運作。因此 SIRT1 依表現水平保護或傷害心臟。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1268,7 +1268,7 @@
       "en-US": "SIRT6 inhibits isoproterenol-induced cardiac hypertrophy through multiple parallel pathways: promoting autophagy via FoxO3 nuclear retention from Akt attenuation, decreasing p300 and NF-kB p65 acetylation, blocking IGF-Akt signaling through c-Jun, and suppressing STAT3. Each of these inputs converges on dampening the pathological growth response, making SIRT6 a consistently protective factor in cardiac hypertrophy.",
       "zh-TW": "SIRT6 透過多條平行路徑抑制 isoproterenol 誘發的心臟肥大：經由 Akt 減弱導致 FoxO3 核保留而促進自噬、降低 p300 與 NF-kB p65 乙醯化、透過 c-Jun 阻斷 IGF-Akt 訊號，以及抑制 STAT3。這些輸入皆匯聚於減弱病理性生長反應，使 SIRT6 在心臟肥大中始終為保護因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1282,7 +1282,7 @@
       "en-US": "SIRT4 overexpression aggravates angiotensin II-induced cardiac hypertrophy by inhibiting MnSOD activity, and global SIRT4 knockout confers resistance to angiotensin II infusion with reduced cardiac fibrosis. SIRT4 is therefore the sirtuin most clearly associated with adverse cardiac effects, unlike the protective mitochondrial roles of SIRT3. This cardiac-harmful action is unusual among sirtuins.",
       "zh-TW": "SIRT4 過度表現透過抑制 MnSOD 活性加劇血管張力素 II 誘發的心臟肥大，且全球性 SIRT4 基因敲除賦予對血管張力素 II 灌注的抗性，伴隨心臟纖維化減少。因此 SIRT4 是與不良心臟效應最明確相關的 sirtuin，不同於 SIRT3 的保護性粒線體角色。此心臟有害作用在 sirtuin 中十分少見。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1296,7 +1296,7 @@
       "en-US": "SIRT7 ameliorates stress-induced cardiac hypertrophy by deacetylating the transcription factor GATA4. This protective action contrasts with SIRT7's pro-fibrotic role in cardiac fibrosis, where enhanced expression promotes fibrosis via Smad2/ERK signaling. The same nucleolar sirtuin therefore has divergent, context-dependent cardiovascular effects.",
       "zh-TW": "SIRT7 透過去乙醯化轉錄因子 GATA4 改善壓力誘發的心臟肥大。此保護作用與 SIRT7 在心臟纖維化中的促纖維化角色形成對比，後者中增強的表現透過 Smad2/ERK 訊號促進纖維化。同一核仁 sirtuin 因此具有分歧、情境依賴的心血管效應。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1310,7 +1310,7 @@
       "en-US": "SIRT1 protects against atherosclerosis through multiple mechanisms: endothelial SIRT1 overexpression activates eNOS, SRT1720 activation ameliorates endothelial dysfunction, and SIRT1 reduces Lox-1-mediated foam cell formation via NF-kB. It also protects vascular smooth muscle cells from DNA damage via NBS1. Collectively SIRT1 is a consistent anti-atherosclerotic factor in the endothelium and vasculature.",
       "zh-TW": "SIRT1 透過多種機制保護對抗動脈粥樣硬化：內皮 SIRT1 過度表現活化 eNOS、SRT1720 活化改善內皮功能障礙，且 SIRT1 經由 NF-kB 減少 Lox-1 介導的泡沫細胞形成。它亦透過 NBS1 保護血管平滑肌細胞免於 DNA 損傷。整體而言，SIRT1 在內皮與血管中是穩定的抗動脈粥樣硬化因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1324,7 +1324,7 @@
       "en-US": "SIRT6 is decreased in chronic heart failure, and its overexpression increases survival after TAC-induced heart failure via telomerase activation involving TERT and TRF1. SIRT6 therefore connects telomere maintenance and genomic stability to cardiac resilience under pressure overload, making it a candidate target for heart-failure therapy.",
       "zh-TW": "SIRT6 在慢性心臟衰竭中下降，其過度表現透過涉及 TERT 與 TRF1 的端粒酶活化，增加 TAC 誘發心臟衰竭後的存活。SIRT6 因此將端粒維護與基因體穩定性連結至壓力超負荷下的心臟韌性，使其成為心臟衰竭治療的候選標的。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1338,7 +1338,7 @@
       "en-US": "SIRT1 protects against myocardial ischemia-reperfusion injury: knockout increases infarct size while overexpression upregulates FoxO1 and MnSOD and downregulates caspase-3 and Bax. Signaling upstream of SIRT1 includes miR-132 inhibition leading to PGC-1alpha/Nrf2, and lncRNA Oip5-as1 acting through the SIRT1/AMPK/PGC-1alpha axis. SIRT1 is thus an endogenous cardioprotective factor against reperfusion damage.",
       "zh-TW": "SIRT1 在心肌缺血—再灌流損傷中受保護：基因敲除增加梗塞面積，而過度表現上調 FoxO1 與 MnSOD 並下調 caspase-3 與 Bax。SIRT1 上游的訊號包括 miR-132 抑制導致 PGC-1alpha/Nrf2，以及 lncRNA Oip5-as1 經由 SIRT1/AMPK/PGC-1alpha 軸作用。SIRT1 因此是對抗再灌流損傷的內源性心臟保護因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1352,7 +1352,7 @@
       "en-US": "SIRT3 deficiency exacerbates myocardial ischemia-reperfusion injury, and SIRT3 protects the heart through mitochondrial quality control and oxidative-stress defense. As the primary mitochondrial deacetylase it sustains OXPHOS and antioxidant enzymes such as SOD2, so its loss amplifies reperfusion damage. This makes SIRT3 a key mitochondrial cardioprotective factor.",
       "zh-TW": "SIRT3 缺失加劇心肌缺血—再灌流損傷，且 SIRT3 透過粒線體品質控制與氧化壓力防禦保護心臟。作為主要的粒線體去乙醯酶，它維持 OXPHOS 與 SOD2 等抗氧化酵素，因此其缺失放大再灌流損傷。這使 SIRT3 成為關鍵的粒線體心臟保護因子。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1366,7 +1366,7 @@
       "en-US": "SIRT1 is substantially decreased in COPD and emphysema lungs, contributing to disease pathogenesis through loss of anti-inflammatory, anti-apoptotic, and antioxidant effects that involve NF-kB, FoxO3, and p53. Pharmacologic activation with SRT1720 inhibits LPS-induced cytokine release in COPD peripheral blood mononuclear cells, supporting SIRT1 restoration as a therapeutic strategy in COPD.",
       "zh-TW": "SIRT1 在 COPD 與肺氣腫肺中大幅減少，經由涉及 NF-kB、FoxO3 與 p53 的抗發炎、抗凋亡與抗氧化效應喪失而促成疾病致病機轉。以 SRT1720 藥理活化可抑制 COPD 周邊血單核細胞中的 LPS 誘發細胞激素釋放，支持將 SIRT1 恢復作為 COPD 的治療策略。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1380,7 +1380,7 @@
       "en-US": "Serum SIRT3 levels are associated with clinical outcome and prognosis in COVID-19, being markedly lower in severe patients. This positions serum SIRT3 as a potential prognostic biomarker that reflects mitochondrial health and antioxidant reserve during systemic viral inflammation, analogous to its diagnostic value in lung cancer.",
       "zh-TW": "血清 SIRT3 水平與 COVID-19 的臨床結果和預後相關，在重症患者中明顯較低。這將血清 SIRT3 定位為潛在預後生物標記，反映全身性病毒性發炎期間的粒線體健康與抗氧化儲備，類似其在肺癌中的診斷價值。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1394,7 +1394,7 @@
       "en-US": "SIRT2 enhances allergic asthmatic inflammation: pharmacologic ablation attenuates the phenotype while genetic overexpression exaggerates it, and SIRT2 aggravates asthma through Th2 responses and macrophage polarization. Unlike the protective SIRT1 and SIRT3 in asthma, SIRT2 is harmful, exemplifying the counter-regulatory relationship between SIRT2 and the protective sirtuins in allergic airway disease.",
       "zh-TW": "SIRT2 增強過敏性氣喘發炎：藥理去除減弱表型，而基因過度表現誇大之，且 SIRT2 透過 Th2 反應與巨噬細胞極化加劇氣喘。不同於氣喘中保護性的 SIRT1 與 SIRT3，SIRT2 是有害的，體現了過敏性氣道疾病中 SIRT2 與保護性 sirtuin 之間的相反調節關係。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1408,7 +1408,7 @@
       "en-US": "SIRT3 promotes MnSOD expression to protect against hyperoxia-induced acute lung injury, and SIRT3-deficient mice develop more severe ALI through NLRP3 activation in macrophages. SIRT3 therefore defends the lung epithelium against oxidative and inflammatory damage by sustaining mitochondrial antioxidant capacity.",
       "zh-TW": "SIRT3 促進 MnSOD 表現以對抗高氧誘發的急性肺損傷，且 SIRT3 缺失小鼠透過巨噬細胞中 NLRP3 活化發展更嚴重的 ALI。SIRT3 因此透過維持粒線體抗氧化能力，防禦肺上皮免於氧化與發炎損傷。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1422,7 +1422,7 @@
       "en-US": "SIRT1 deacetylates the lipogenic transcription factors ChREBP and SREBP-1c to maintain hepatic lipid homeostasis, thereby opposing NAFLD and hepatic steatosis. SIRT1 also blocks hepatic stellate cell activation to exert anti-fibrotic effects. However, SIRT1 is harmful in alcoholic hepatitis where myeloid SIRT1 prevents p-FoxO3-driven apoptosis, and intestinal SIRT1 is harmful via hepatic ferroptosis and inflammation from the gut microbiota, giving SIRT1 a dual role in fatty liver disease.",
       "zh-TW": "SIRT1 去乙醯化脂生成轉錄因子 ChREBP 與 SREBP-1c 以維持肝臟脂質穩態，從而對抗 NAFLD 與肝臟脂肪變性。SIRT1 亦阻斷肝星狀細胞活化以發揮抗纖維化效應。然而，SIRT1 在酒精性肝炎中是有害的，其中骨髓性 SIRT1 阻止 p-FoxO3 驅動的凋亡，而腸道 SIRT1 透過來自腸道菌叢的肝臟鐵蛋白死亡與發炎而有害，使 SIRT1 在脂肪肝疾病中具有雙重角色。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1436,7 +1436,7 @@
       "en-US": "SIRT6 deacetylates ChREBP and SREBP-1c to suppress hepatic lipogenesis, and hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice. SIRT6 also antagonizes liver fibrosis by blocking hepatic stellate cell activation. These actions position SIRT6 as a protective metabolic regulator in NAFLD and NASH.",
       "zh-TW": "SIRT6 去乙醯化 ChREBP 與 SREBP-1c 以抑制肝臟脂生成，且肝細胞專一性 SIRT6 基因敲除在 NASH 小鼠中升高纖維化與氧化壓力。SIRT6 亦透過阻斷肝星狀細胞活化來對抗肝纖維化。這些作用將 SIRT6 定位為 NAFLD 與 NASH 中的保護性代謝調節因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1450,7 +1450,7 @@
       "en-US": "SIRT3 protects against liver ischemia-reperfusion injury: systemic GPCR5 knockout suppresses SIRT3, driving proinflammatory macrophages and exacerbated injury. As the dominant mitochondrial sirtuin, SIRT3 sustains mitochondrial function in hepatocytes during reperfusion stress. This protective role parallels SIRT3's cardioprotective function in myocardial ischemia-reperfusion injury.",
       "zh-TW": "SIRT3 保護對抗肝缺血—再灌流損傷：全身性 GPCR5 基因敲除抑制 SIRT3，驅動促發炎巨噬細胞與加劇的損傷。作為優勢的粒線體 sirtuin，SIRT3 在再灌流壓力下維持肝細胞的粒線體功能。此保護角色平行於 SIRT3 在心肌缺血—再灌流損傷中的心臟保護功能。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1464,7 +1464,7 @@
       "en-US": "SIRT3 is downregulated in HBV-positive patients and inhibits HBV replication via H3K9 deacetylation on cccDNA. This epigenetic silencing of the viral genome at the chromatin level provides a mitochondrial-to-nuclear link in antiviral defense. SIRT6 exerts an analogous H3K9-deacetylation-mediated suppression of HBV on cccDNA.",
       "zh-TW": "SIRT3 在 HBV 陽性患者中下調，並經由 cccDNA 上的 H3K9 去乙醯化抑制 HBV 複製。這種在染色質層級對病毒基因體的表觀遺傳靜默，提供了抗病毒防禦中粒線體至核的連結。SIRT6 在 cccDNA 上施加類似的 H3K9 去乙醯化介導的 HBV 抑制。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1478,7 +1478,7 @@
       "en-US": "SIRT3 alleviates mitochondrial oxidative damage and apoptosis in intestinal ischemia-reperfusion injury by deacetylating peroxiredoxin 3. Deacetylation restores peroxiredoxin 3's antioxidant activity within mitochondria, limiting the oxidative burst on reperfusion. This is a canonical example of SIRT3's mitochondrial quality-control function protecting the intestine.",
       "zh-TW": "SIRT3 透過去乙醯化 peroxiredoxin 3，減輕腸缺血—再灌流損傷中的粒線體氧化損傷與凋亡。去乙醯化恢復 peroxiredoxin 3 在粒線體內的抗氧化活性，限制再灌流時的氧化爆發。這是 SIRT3 粒線體品質控制功能保護腸道的典型例子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1492,7 +1492,7 @@
       "en-US": "SIRT1 is protective in acute pancreatitis via deacetylation of p53 and HSF1, dampening acinar-cell damage. In chronic pancreatitis, however, SIRT1 is upregulated and drives inflammation-induced EMT through the miR-278 axis, illustrating a context-dependent switch from protection to pathogenesis within the same organ.",
       "zh-TW": "SIRT1 在急性胰臟炎中透過 p53 與 HSF1 去乙醯化具有保護性，減弱腺泡細胞損傷。然而在慢性胰臟炎中，SIRT1 上調並透過 miR-278 軸驅動發炎誘發的 EMT，體現同一器官內從保護到致病的情境依賴轉換。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1506,7 +1506,7 @@
       "en-US": "SIRT2 suppression alleviates amyloid-beta pathology and cognitive deficits in Alzheimer's disease by inhibiting beta-secretase 1 (BACE1) via reticulon 4B deacetylation. Nuclear SIRT2 is hyperactivated in AD, recruited by FoxO1 to the Fzd1 and Fzd7 promoters to reduce H4K16ac, and SIRT2 inhibition recovers microtubule stabilization and autophagic flux. SIRT2 is thus a harmful, druggable target in AD, opposing protective SIRT1 and SIRT3.",
       "zh-TW": "SIRT2 抑制透過網狀蛋白 4B（reticulon 4B）去乙醯化抑制 beta-secretase 1（BACE1），減輕阿茲海默症的類澱粉-beta 病理與認知缺陷。核 SIRT2 在 AD 中過度活化，被 FoxO1 招募至 Fzd1 與 Fzd7 啟動子以降低 H4K16ac，且 SIRT2 抑制可恢復微管穩定與自噬流。SIRT2 因此是 AD 中一個有害、可藥物化的標的，對抗保護性的 SIRT1 與 SIRT3。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1520,7 +1520,7 @@
       "en-US": "SIRT3 protects against amyloid-beta pathology and excitotoxicity in Alzheimer's disease, and its dysfunction leads to mitochondrial and neuronal damage. Intermittent food deprivation is beneficial in a SIRT3-dependent manner, and SIRT3 is upregulated in the AD temporal neocortex mirroring amyloid-beta deposition. SIRT3 thereby links mitochondrial quality control to AD neuroprotection.",
       "zh-TW": "SIRT3 保護對抗阿茲海默症中的類澱粉-beta 病理與興奮毒性，其功能不全導致粒線體與神經元損傷。間歇性禁食以 SIRT3 依賴的方式有益，且 SIRT3 在 AD 顳葉新皮質中上調，反映類澱粉-beta 沉積。SIRT3 因此將粒線體品質控制與 AD 神經保護連結。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1534,7 +1534,7 @@
       "en-US": "SIRT1 ameliorates the autophagic degradation of alpha-synuclein by deacetylating LC3 and improves motor defects in Parkinson's disease. This connects sirtuin activity directly to clearance of the pathological protein aggregate central to PD. SIRT1's pro-autophagy action here contrasts with SIRT2, which mediates exacerbation of alpha-synuclein toxicity.",
       "zh-TW": "SIRT1 透過去乙醯化 LC3 改善 alpha-synuclein 的自噬降解，並改善帕金森氏症的運動缺陷。這將 sirtuin 活性直接連結至 PD 核心病理蛋白聚集體的清除。SIRT1 此處的促自噬作用與介導加劇 alpha-synuclein 毒性的 SIRT2 形成對比。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1548,7 +1548,7 @@
       "en-US": "SIRT2 mediates exacerbation of alpha-synuclein toxicity in Parkinson's disease, and SIRT2 deletion is protective. NAD+ metabolism alterations activate SIRT2, which decreases acetylated alpha-tubulin and contributes to cytoskeletal dysfunction. This is the rationale behind testing SIRT2 inhibitors such as AK-7 and SirReal2 for PD, although results remain preclinical.",
       "zh-TW": "SIRT2 介導帕金森氏症中 alpha-synuclein 毒性的加劇，且 SIRT2 缺失具保護性。NAD+ 代謝改變活化 SIRT2，後者降低乙醯化 alpha-tubulin 並促成細胞骨架功能障礙。這是在 PD 中測試 SIRT2 抑制劑（如 AK-7 與 SirReal2）的理據，儘管結果仍處於臨床前階段。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1562,7 +1562,7 @@
       "en-US": "Brain-specific SIRT1 knockout exacerbates Huntington's disease, while SIRT1 overexpression rescues CREB-CRTC1 interaction to restore BDNF transcription. SIRT1 therefore supports neuronal survival and transcriptional resilience in HD. SIRT2 inhibition also achieves neuroprotection in HD models by mimicking the beneficial effects of sterol-biosynthesis manipulation.",
       "zh-TW": "腦專一性 SIRT1 基因敲除加劇亨廷頓氏症，而 SIRT1 過度表現透過恢復 CREB-CRTC1 交互作用以重建 BDNF 轉錄來挽救。SIRT1 因此支持 HD 中的神經元存活與轉錄韌性。SIRT2 抑制亦透過模擬固醇生物合成操縱的有益效應，在 HD 模型中達成神經保護。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1576,7 +1576,7 @@
       "en-US": "Serum SIRT2 is increased in acute ischemic stroke and serves as a risk and prognosis marker. Inhibition of SIRT2 is neuroprotective after brain injury through downregulation of the Akt/FoxO3a and MAPK pathways. SIRT2 therefore functions as a harmful factor in stroke, in contrast to SIRT1 and SIRT3 which are neuroprotective in cerebral ischemia.",
       "zh-TW": "血清 SIRT2 在急性缺血性腦中風中上升，並作為風險與預後標記。抑制 SIRT2 透過下調 Akt/FoxO3a 與 MAPK 路徑，在腦損傷後具神經保護性。因此 SIRT2 在中風中為有害因子，不同於在腦缺血中具有神經保護性的 SIRT1 與 SIRT3。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1590,7 +1590,7 @@
       "en-US": "SIRT3 is a prosurvival factor protective in ischemic stroke through HIF-1alpha/VEGF signaling in astrocytes, and it is downregulated in cerebral ischemia-reperfusion injury where enhancing SIRT3 with Wnt/beta-catenin is proposed as a therapeutic target. This extends SIRT3's mitochondrial protective axis to the neurovascular unit.",
       "zh-TW": "SIRT3 在缺血性腦中風中是透過星形細胞中 HIF-1alpha/VEGF 訊號的促存活保護因子，且其在腦缺血—再灌流損傷中下調，其中提議以 Wnt/beta-catenin 增強 SIRT3 作為治療標的。這將 SIRT3 的粒線體保護軸延伸至神經血管單元。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1604,7 +1604,7 @@
       "en-US": "SIRT1 shows an inverse serum and saliva relationship with Alzheimer's disease, giving it diagnostic potential as a peripheral biomarker. Lower peripheral SIRT1 accompanies AD pathology, while brain SIRT1 reduces amyloid-beta-induced senescence and mitochondrial dysfunction. SIRT6 shows the same inverse serum/saliva relationship with AD, suggesting a shared peripheral readout for the protective sirtuins.",
       "zh-TW": "SIRT1 與阿茲海默症呈現相反的血清與唾液關係，賦予其作為周邊生物標記的診斷潛力。較低的周邊 SIRT1 伴隨 AD 病理，而腦 SIRT1 減少類澱粉-beta 誘發的衰老與粒線體功能障礙。SIRT6 與 AD 呈現相同的血清／唾液反比關係，暗示保護性 sirtuin 共享的周邊讀數。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1618,7 +1618,7 @@
       "en-US": "SIRT1 has a dual role in diabetes mellitus: overexpression improves insulin sensitivity while hepatic SIRT1 knockdown prevents fasting hyperglycemia by increasing hepatic insulin responsiveness. SIRT1 therefore both enhances systemic insulin action and constrains hepatic glucose output. This context-dependence is characteristic of SIRT1's master-regulator role in metabolic disease.",
       "zh-TW": "SIRT1 在糖尿病 mellitus 中具有雙重角色：過度表現改善胰島素敏感性，而肝 SIRT1 敲低透過增加肝臟胰島素反應性防止空腹高血糖。SIRT1 因此既增強全身性胰島素作用，又限制肝臟葡萄糖輸出。此情境依賴性是其作為代謝疾病主控調節因子的特徵。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1632,7 +1632,7 @@
       "en-US": "SIRT3 is protective in diabetes mellitus: knockout impairs insulin-stimulated muscle glucose uptake leading to insulin resistance. In diabetic cardiomyopathy SIRT3 regulates fibrosis, inflammation, apoptosis, and oxidative stress, attenuating damage via reduced p53 acetylation and PFKFB3 upregulation. Deficiency aggravates hyperglycemic mitochondrial damage, ROS, necroptosis, and NLRP3 activation.",
       "zh-TW": "SIRT3 在糖尿病 mellitus 中具有保護性：基因敲除損害胰島素刺激的肌肉葡萄糖攝取，導致胰島素抗性。在糖尿病性心肌病中，SIRT3 調節纖維化、發炎、凋亡與氧化壓力，經由降低 p53 乙醯化與 PFKFB3 上調來減弱損傷。缺失加劇高血糖粒線體損傷、ROS、壞死性凋亡與 NLRP3 活化。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1646,7 +1646,7 @@
       "en-US": "SIRT5 promotes the progression of diabetes mellitus: its inhibition facilitates pancreatic beta-cell proliferation and insulin secretion, and SIRT5 negatively regulates PDX1 transcription to aggravate DM. As a desuccinylase it reprograms beta-cell metabolism toward impaired insulin production. This pro-disease stance contrasts with the protective roles of SIRT1, SIRT3, and SIRT6 in DM.",
       "zh-TW": "SIRT5 促進糖尿病 mellitus 的進展：其抑制促進胰島 beta 細胞增生與胰島素分泌，且 SIRT5 負調節 PDX1 轉錄以加劇 DM。作為去琥珀醯酶，它將 beta 細胞代謝重編程為受損的胰島素生產。此促疾病立場與 SIRT1、SIRT3 與 SIRT6 在 DM 中的保護角色形成對比。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1660,7 +1660,7 @@
       "en-US": "SIRT6 is protective in diabetes mellitus by inducing PGC-1alpha acetylation and suppressing hepatic glucose production, and by cooperating with p53 to deacetylate FoxO1 and suppress gluconeogenic genes. Through these transcriptional controls SIRT6 reduces the pathological hepatic glucose output that drives hyperglycemia.",
       "zh-TW": "SIRT6 在糖尿病 mellitus 中具有保護性，透過誘發 PGC-1alpha 乙醯化並抑制肝臟葡萄糖生成，且透過與 p53 合作去乙醯化 FoxO1 並抑制糖質新生基因。透過這些轉錄控制，SIRT6 減少驅動高血糖的病理性肝臟葡萄糖輸出。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1674,7 +1674,7 @@
       "en-US": "SIRT3 suppresses obesity by activating macroautophagy through the AMPK-ULK1 pathway to produce smaller lipid droplets, and by inducing the perilipin-1-Hsc71-LAMP2 complex to drive chaperone-mediated autophagy. These mitochondrial-autophagy actions promote lipid catabolism and energy expenditure, opposing adipose accumulation.",
       "zh-TW": "SIRT3 透過 AMPK-ULK1 路徑活化巨自噬以產生較小的脂滴，並誘發 perilipin-1-Hsc71-LAMP2 複合體以驅動伴侶介導的自噬，從而抑制肥胖。這些粒線體—自噬作用促進脂質分解與能量消耗，對抗脂肪堆積。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1688,7 +1688,7 @@
       "en-US": "SIRT6 overexpression exacerbates diet-induced obesity by decreasing STAT3 acetylation and lowering proopiomelanocortin in the hypothalamus. This hypothalamic action reduces satiety signaling, promoting weight gain. SIRT6 therefore has an unusual pro-obesity stance in the CNS, despite being protective across most other disease systems.",
       "zh-TW": "SIRT6 過度表現透過降低 STAT3 乙醯化並降低下視丘中 proopiomelanocortin，加劇飲食誘發的肥胖。此下視丘作用減少飽足訊號，促進體重增加。因此儘管在大多數其他疾病系統中具保護性，SIRT6 在 CNS 中具有不尋常的促肥胖立場。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1702,7 +1702,7 @@
       "en-US": "SIRT1 is protective in diabetic kidney disease by deacetylating p53 and activating FoxO3a and Nrf2, and resveratrol promotes resistance to diabetic renal fibrosis via Nrf2. These antioxidant and anti-apoptotic actions defend podocytes and the renal tubulointerstitium against hyperglycemic damage.",
       "zh-TW": "SIRT1 在糖尿病腎臟疾病中具保護性，透過去乙醯化 p53 並活化 FoxO3a 與 Nrf2，且 resveratrol 透過 Nrf2 促進對糖尿病腎纖維化的抗性。這些抗氧化與抗凋亡作用防禦足細胞與腎小管間質免於高血糖損傷。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1716,7 +1716,7 @@
       "en-US": "SIRT3 has a central protective role in acute kidney injury: deficiency exacerbates sepsis-induced tubular damage and apoptosis with increased Bax and caspase-3 and decreased Bcl-2, and aggravates fatty acid oxidation dysfunction. Honokiol activation increases ATP and reduces ROS and lipid peroxidation, while overexpression attenuates ischemia-reperfusion mitochondrial damage in the kidney.",
       "zh-TW": "SIRT3 在急性腎損傷中具有核心保護角色：缺失加劇敗血症誘發的管狀損傷與凋亡，伴隨 Bax 與 caspase-3 增加、Bcl-2 減少，並加劇脂肪酸氧化功能障礙。Honokiol 活化增加 ATP 並減少 ROS 與脂質過氧化，而過度表現減弱腎臟中的缺血—再灌流粒線體損傷。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1730,7 +1730,7 @@
       "en-US": "SIRT2 is detrimental in acute kidney injury: systemic SIRT2 knockout ameliorates cisplatin-induced renal injury while transgenic overexpression aggravates it, through deacetylation of MAPK phosphatase-1 leading to sustained MAPK activation and increased inflammation and cell death. SIRT2 therefore opposes the protective SIRT1 and SIRT3 in the kidney.",
       "zh-TW": "SIRT2 在急性腎損傷中是有害的：全身性 SIRT2 基因敲除改善 cisplatin 誘發的腎損傷，而轉基因過度表現加劇之，透過 MAPK 磷酸酶-1 去乙醯化導致持續 MAPK 活化與增加的發炎和細胞死亡。SIRT2 因此對抗腎臟中保護性的 SIRT1 與 SIRT3。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1744,7 +1744,7 @@
       "en-US": "SIRT6 is markedly downregulated in chronic kidney disease and vascular calcification patients, and it suppresses osteogenic transdifferentiation of vascular smooth muscle cells via runt-related transcription factor 2. MSC exosomes inhibit high-phosphate aortic calcification through SIRT6-HMGB1 deacetylation, and proximal tubule-specific SIRT6 knockout aggravates UUO fibrosis. SIRT6 thereby protects the kidney and vasculature in CKD.",
       "zh-TW": "SIRT6 在慢性腎病與血管鈣化患者中明顯下調，且它透過 runt-related transcription factor 2 抑制血管平滑肌細胞的成骨轉分化。MSC 外泌體透過 SIRT6-HMGB1 去乙醯化抑制高磷酸血 aortic 鈣化，且近曲小管專一性 SIRT6 基因敲除加劇 UUO 纖維化。SIRT6 因此保護 CKD 中的腎臟與血管。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1758,7 +1758,7 @@
       "en-US": "SIRT1 overexpression abolishes TGF-beta1-induced apoptosis and fibrosis through CTGF suppression, and SRT1720 attenuates UUO fibrosis, while SIRT1 represses HIF2alpha. However, SIRT1 downregulation may also inhibit fibroblast activation via EGFR/PDGFR-beta, creating therapeutic ambiguity. The dominant role is renoprotective, opposing tubulointerstitial fibrosis.",
       "zh-TW": "SIRT1 過度表現透過抑制 CTGF 廢除 TGF-beta1 誘發的凋亡與纖維化，且 SRT1720 減弱 UUO 纖維化，而 SIRT1 抑制 HIF2alpha。然而，SIRT1 下調亦可經由 EGFR/PDGFR-beta 抑制纖維母細胞活化，造成治療上的曖昧。其優勢角色為腎保護，對抗小管間質纖維化。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1772,7 +1772,7 @@
       "en-US": "SIRT1 is protective in osteoarthritis by reducing chondrocyte apoptosis and ECM degradation via Wnt/beta-catenin signaling, reversing homocysteine-induced changes through the PGC-1alpha/PPAR-gamma cascade, inhibiting EGFR ubiquitination, and inhibiting chondrocyte senescence. SIRT1 therefore maintains cartilage homeostasis on multiple axes.",
       "zh-TW": "SIRT1 在骨關節炎中具保護性，透過 Wnt/beta-catenin 訊號減少軟骨細胞凋亡與 ECM 降解，經由 PGC-1alpha/PPAR-gamma 級聯逆轉同半胱氨酸誘發的變化，抑制 EGFR 泛素化，並抑制軟骨細胞衰老。SIRT1 因此在多軸線上維持軟骨穩態。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1786,7 +1786,7 @@
       "en-US": "SIRT3 has a dual role in osteoarthritis: it inhibits degeneration through mitochondrial homeostasis by restoring SOD2 acetylation, but SIRT3 overexpression promotes chondrocyte apoptosis and reduced proliferation, accelerating OA progression. The protective mitochondrial arm therefore depends on balanced SIRT3 activity, not simple upregulation.",
       "zh-TW": "SIRT3 在骨關節炎中具有雙重角色：它透過恢復 SOD2 乙醯化以粒線體穩態抑制退化，但 SIRT3 過度表現促進軟骨細胞凋亡與增生減少，加速 OA 進展。因此保護性粒線體臂依賴平衡的 SIRT3 活性，而非簡單的上調。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1800,7 +1800,7 @@
       "en-US": "SIRT1 is protective in osteoporosis: SIRT1 knockout mice have low bone mass, SIRT1 increases osteoblast osteogenesis via FoxO3a, and it deacetylates sclerostin to promote Wnt/beta-catenin signaling. Resveratrol restores alkaline phosphatase and osteocalcin via NF-kB. SIRT1 thus supports bone formation and opposes age-related bone loss.",
       "zh-TW": "SIRT1 在骨質疏鬆症中具保護性：SIRT1 基因敲除小鼠骨量低，SIRT1 透過 FoxO3a 增加造骨細胞成骨，且去乙醯化 sclerostin 以促進 Wnt/beta-catenin 訊號。Resveratrol 透過 NF-kB 恢復鹼性磷酸酶與骨鈣素。SIRT1 因此支持骨形成並對抗年齡相關骨流失。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1814,7 +1814,7 @@
       "en-US": "SIRT6 inhibits age-related bone loss by stabilizing estrogen receptor alpha in preosteoblastic cells, maintaining the bone-forming capacity that declines with age. This estrogen-dependent mechanism complements SIRT1's FoxO3a-driven osteogenesis, giving SIRT6 a distinct but complementary role in osteoporosis protection.",
       "zh-TW": "SIRT6 透過在前成骨細胞中穩定 estrogen receptor alpha 抑制年齡相關骨流失，維持隨年齡衰退的成骨能力。此雌激素依賴機制補充 SIRT1 的 FoxO3a 驅動成骨，賦予 SIRT6 在骨質疏鬆保護中獨特但互補的角色。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1828,7 +1828,7 @@
       "en-US": "SIRT6 inhibition shortens vascular smooth muscle cell lifespan and induces senescence via telomeric H3K9 hyperacetylation and 53BP1 binding, while SIRT6 overexpression preserves telomere integrity. SIRT6 deacetylates Pol-beta to confer DNA-damage resistance and prevent progeroid pathologies. SIRT6 is therefore a genome-stability guardian whose loss drives senescence and whose gain extends cellular lifespan.",
       "zh-TW": "SIRT6 抑制透過端粒 H3K9 過乙醯化與 53BP1 結合縮短血管平滑肌細胞壽命並誘發衰老，而 SIRT6 過度表現維持端粒完整性。SIRT6 去乙醯化 Pol-beta 以賦予 DNA 損傷抗性並防止早老病理。SIRT6 因此是基因體穩定性守護者，其缺失驅動衰老，而其增益延長細胞壽命。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -1842,7 +1842,7 @@
       "en-US": "SIRT1 causes tamoxifen resistance in ER-alpha-positive breast cancer by upregulating multidrug resistance protein 2 (MRP2) through FoxO1 deacetylation. SIRT1 inhibition therefore augments paclitaxel and doxorubicin cytotoxicity, while SIRT4 enhances tamoxifen sensitivity via STAT3 inhibition. This makes SIRT1 status a determinant of endocrine-therapy response in breast cancer.",
       "zh-TW": "SIRT1 在 ER-alpha 陽性乳癌中透過 FoxO1 去乙醯化上調多重抗藥性蛋白 2（MRP2），造成 tamoxifen 抗性。因此 SIRT1 抑制增強 paclitaxel 與 doxorubicin 細胞毒性，而 SIRT4 透過 STAT3 抑制增強 tamoxifen 敏感性。這使 SIRT1 狀態成為乳癌內分泌治療反應的決定因子。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1856,7 +1856,7 @@
       "en-US": "SIRT1 promotes cisplatin resistance in lung cancer via VEGF-A signaling, whereas SIRT2 upregulation and SIRT3 (via the FoxO3/CDT1 axis) each increase cisplatin sensitivity. SIRT3 also promotes DNA repair and radioresistance through ATM-Chk2. The opposing SIRT1 vs SIRT2/SIRT3 actions define the chemo-resistance balance in NSCLC.",
       "zh-TW": "SIRT1 在肺癌中透過 VEGF-A 訊號促進 cisplatin 抗性，而 SIRT2 上調與 SIRT3（經由 FoxO3/CDT1 軸）各自增加 cisplatin 敏感性。SIRT3 亦透過 ATM-Chk2 促進 DNA 修復與放射抗性。相反的 SIRT1 對 SIRT2/SIRT3 作用定義了 NSCLC 中的化療抗性平衡。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1870,7 +1870,7 @@
       "en-US": "SIRT2 suppresses NSCLC migration by deacetylating AKR1C1 and inhibiting STAT3. In a counteracting oncogenic axis SIRT2 deacetylates phosphoglycerate mutase at K100 to generate NADPH and accelerate tumor growth, giving SIRT2 a context-dependent dual role in lung cancer.",
       "zh-TW": "SIRT2 透過去乙醯化 AKR1C1 並抑制 STAT3 抑制 NSCLC 遷移。在一條相抗的致癌軸中，SIRT2 在 K100 去乙醯化 phosphoglycerate mutase 以生成 NADPH 並加速腫瘤生長，賦予 SIRT2 在肺癌中情境依賴的雙重角色。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1884,7 +1884,7 @@
       "en-US": "SIRT6 is anticarcinogenic in lung cancer through CHD4 coordination that enables chromatin relaxation and DNA repair, but pro-carcinogenic via snail-dependent transrepression of KLF4 that drives EMT and metastasis. SIRT6 also inhibits glycolysis to enhance radiosensitivity, so its overall effect depends on the EMT/metabolic state of the tumor.",
       "zh-TW": "SIRT6 在肺癌中透過 CHD4 協調（使染色質鬆弛與 DNA 修復成為可能）而抗癌，但透過 snail 依賴的 KLF4 轉錄抑制（驅動 EMT 與轉移）而促癌。SIRT6 亦抑制糖解以增強放射敏感性，因此其整體效應取決於腫瘤的 EMT／代謝狀態。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1898,7 +1898,7 @@
       "en-US": "SIRT4 upregulates E-cadherin in colorectal cancer while suppressing proliferation, migration, and invasion via glutamine-metabolism inhibition. SIRT4 also increases sensitivity to 5-fluorouracil by inhibiting the cell cycle, cementing its tumor-suppressive role in CRC.",
       "zh-TW": "SIRT4 在大腸癌中上調 E-cadherin，同時透過抑制麩醯胺代謝抑制增生、遷移與侵犯。SIRT4 亦透過抑制細胞週期增加對 5-fluorouracil 的敏感性，鞏固其在 CRC 中的腫瘤抑制角色。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1912,7 +1912,7 @@
       "en-US": "SIRT5 enhances glutaminolysis in colorectal cancer in a deglutarylation-dependent manner to drive colorectal carcinogenesis, and it deacetylates lactate dehydrogenase B to induce hyperactive autophagy and tumorigenesis. SIRT5 overexpression is associated with poor prognosis in CRC, contrasting with protective SIRT6.",
       "zh-TW": "SIRT5 以去戊二醯化依賴的方式增強大腸癌中的麩醯胺分解，驅動大腸癌發生，且去乙醯化 lactate dehydrogenase B 以誘發過度活化的自噬與腫瘤發生。SIRT5 過度表現與 CRC 不良預後相關，與保護性 SIRT6 形成對比。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1926,7 +1926,7 @@
       "en-US": "SIRT6 is downregulated in gastric cancer where low expression negatively correlates with tumor size and pathological grade and predicts poor prognosis. It inhibits the JAK2/STAT3 pathway to suppress growth, and SIRT6 silencing overcomes sorafenib resistance by promoting ferroptosis.",
       "zh-TW": "SIRT6 在胃癌中下調，其中低表現與腫瘤大小與病理分級負相關，並預測不良預後。它抑制 JAK2/STAT3 路徑以抑制生長，且 SIRT6 靜默透過促進鐵蛋白死亡克服 sorafenib 抗性。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1940,7 +1940,7 @@
       "en-US": "SIRT3 overexpression suppresses ovarian cancer metastasis via Twist-downregulation-driven EMT inhibition. In contrast SIRT3 promotes viability in glioma by stabilizing the Ku70-Bax interaction, and in cervical cancer it promotes invasion and metastasis by reprogramming fatty acid synthesis through ACC1 upregulation. The metastatic effect of SIRT3 is therefore tumor-type dependent.",
       "zh-TW": "SIRT3 過度表現透過 Twist 下調驅動的 EMT 抑制，抑制卵巢癌轉移。相對地，SIRT3 在膠質瘤中透過穩定 Ku70-Bax 交互作用促進存活，而在子宮頸癌中透過 ACC1 上調重編程脂肪酸合成來促進侵犯與轉移。因此 SIRT3 的轉移效應依腫瘤類型而異。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1954,7 +1954,7 @@
       "en-US": "SIRT5 promotes cisplatin resistance in ovarian cancer via Nrf2/HO-1-mediated ROS-dependent DNA-damage suppression, while SIRT2 overexpression enhances cisplatin sensitivity in resistant ovarian cancer cells. High SIRT5 expression in ovarian cancer is nonetheless associated with favorable survival.",
       "zh-TW": "SIRT5 在卵巢癌中透過 Nrf2/HO-1 介導的 ROS 依賴 DNA 損傷抑制促進 cisplatin 抗性，而 SIRT2 過度表現在抗性卵巢癌細胞中增強 cisplatin 敏感性。儘管如此，卵巢癌中高 SIRT5 表現與有利存活相關。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1968,7 +1968,7 @@
       "en-US": "SIRT1 is overexpressed in HPV-infected cervical cancer cells and nullifies AIM2 inflammasome-mediated immunity, correlating with poor clinical outcomes. This immunosuppressive action allows cervical cancer cells to evade inflammasome-driven clearance, positioning SIRT1 as an oncogenic factor in HPV-driven cervical cancer.",
       "zh-TW": "SIRT1 在 HPV 感染的子宮頸癌細胞中過度表現，並使 AIM2 發炎體介導的免疫失效，與不良臨床結果相關。此免疫抑制作用使子宮頸癌細胞逃避免炎體驅動的清除，將 SIRT1 定位為 HPV 驅動子宮頸癌中的致癌因子。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1982,7 +1982,7 @@
       "en-US": "SIRT1 promotes T-ALL progression by deacetylating CDK2, which drives p27 phosphorylation and degradation, and SIRT1 knockdown sensitizes AML to tyrosine kinase inhibitor treatment. SIRT2 activation by NAMPT reduces proliferation and induces apoptosis in AML blasts via the Akt/GSK-3beta/beta-catenin axis, showing opposing leukemic roles for the two sirtuins.",
       "zh-TW": "SIRT1 透過去乙醯化 CDK2 促進 T-ALL 進展，後者驅動 p27 磷酸化與降解，且 SIRT1 敲低使 AML 對酪胺酸激酶抑制劑治療敏感。SIRT2 經由 NAMPT 活化透過 Akt/GSK-3beta/beta-catenin 軸減少增生並誘發 AML 母細胞凋亡，顯示兩個 sirtuin 相反的白血病角色。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -1996,7 +1996,7 @@
       "en-US": "SIRT2 is protective in cardiac hypertrophy by deacetylating NFATc2, and loss of SIRT2 reduces AMPK to promote aging-related and angiotensin II-induced hypertrophy. SIRT2 also protects against cardiac fibrosis by deacetylating LKB1 to activate AMPK. These cardiovascular roles contrast with SIRT2's harmful actions in neurodegenerative disease.",
       "zh-TW": "SIRT2 在心肌肥大中具保護性，透過去乙醯化 NFATc2，且 SIRT2 缺失減少 AMPK 以促進老化相關與血管張力素 II 誘發的肥大。SIRT2 亦透過去乙醯化 LKB1 活化 AMPK 來對抗心臟纖維化。這些心血管角色與 SIRT2 在神經退化疾病中的有害作用形成對比。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2010,7 +2010,7 @@
       "en-US": "SIRT1 restores SERCA2a activity in failing hearts via deacetylation at K492, recovering calcium handling and contractility. SIRT1 is decreased in advanced heart failure, and its loss attenuates the anti-oxidative, anti-apoptotic defenses mediated by MnSOD, thioredoxin 1, Bcl-xL, and FoxO1 nuclear translocation.",
       "zh-TW": "SIRT1 透過在 K492 去乙醯化恢復衰竭心臟中 SERCA2a 活性，恢復鈣處理與收縮性。SIRT1 在晚期心臟衰竭中減少，其缺失減弱由 MnSOD、thioredoxin 1、Bcl-xL 與 FoxO1 核轉位介導的抗氧化、抗凋亡防禦。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2024,7 +2024,7 @@
       "en-US": "SIRT4 suppresses the PI3K/Akt/NF-kB pathway to relieve oxLDL-induced HUVEC injury, protecting the endothelium in atherosclerosis. SIRT4 is downregulated after myocardial ischemia/reperfusion, and its overexpression decreases infarct size through mitochondrial preservation and reduced apoptosis.",
       "zh-TW": "SIRT4 抑制 PI3K/Akt/NF-kB 路徑以緩解 oxLDL 誘發的 HUVEC 損傷，保護動脈粥樣硬化中的內皮。SIRT4 在心肌缺血／再灌流後下調，其過度表現透過粒線體保存與減少凋亡降低梗塞面積。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2038,7 +2038,7 @@
       "en-US": "Loss of SIRT5 increases myocardial infarct size through modulation of protein succinylation, and SIRT5 knockout mice show increased cardiac fibrosis versus age-matched wild-type. SIRT5 also prevents age-related cardiac hypertrophy, giving it a broadly protective cardiovascular profile.",
       "zh-TW": "SIRT5 缺失透過蛋白質琥珀醯化調節增加心肌梗塞面積，且 SIRT5 基因敲除小鼠相較於年齡匹配野生型顯示增加的心臟纖維化。SIRT5 亦防止年齡相關心臟肥大，賦予其廣泛保護的心血管特徵。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2052,7 +2052,7 @@
       "en-US": "Genetic SIRT1 polymorphisms are associated with coronary artery disease risk, and SIRT1 expression is reduced in CAD patients where its downregulation is linked to acetylated p53 in CAD monocytes. The lncRNA C2dat1 promotes SIRT1 to suppress miR-34a, driving VSMC proliferation and migration in the vessel wall.",
       "zh-TW": "SIRT1 基因多型性與冠狀動脈疾病風險相關，且 SIRT1 表現在 CAD 患者中減少，其下調與 CAD 單核細胞中乙醯化 p53 相關。lncRNA C2dat1 促進 SIRT1 以抑制 miR-34a，驅動血管壁中 VSMC 增生與遷移。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2066,7 +2066,7 @@
       "en-US": "Reduced SIRT6 expression contributes to COPD through insufficient autophagy and cellular senescence during cigarette-smoke exposure, while SIRT6 overexpression weakens autophagy via the IGF-Akt-mTOR axis. SIRT3 inhibits airway epithelial mitochondrial oxidative stress to attenuate COPD progression, and SIRT1 is substantially decreased in COPD and emphysema lungs.",
       "zh-TW": "SIRT6 表現減少透過香菸煙霧暴露期間自噬不足與細胞衰老促成 COPD，而 SIRT6 過度表現經由 IGF-Akt-mTOR 軸減弱自噬。SIRT3 抑制氣道上皮粒線體氧化壓力以減緩 COPD 進展，且 SIRT1 在 COPD 與肺氣腫肺中大幅減少。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2080,7 +2080,7 @@
       "en-US": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
       "zh-TW": "SIRT6 使 TGF-beta1/Smad2 訊號失效以阻止肌纖維母細胞分化，抑制 TGF-beta 誘發的細胞衰老，並在 IPF 中透過 TGF-beta1/Smad3 阻斷 EMT。SIRT6 因此是肺纖維化中纖維化級聯的主抑制因子，而 SIRT7 下降透過 Smad3 變化具有促纖維化效應。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2094,7 +2094,7 @@
       "en-US": "SIRT6 inactivates TGF-beta1/Smad2 signaling to prevent myofibroblast differentiation, inhibits TGF-beta-induced cellular senescence, and blocks EMT during IPF through TGF-beta1/Smad3. SIRT6 is thus a master suppressor of the fibrotic cascade in lung fibrosis, whereas SIRT7 decline has a profibrotic effect via Smad3 changes.",
       "zh-TW": "SIRT6 使 TGF-beta1/Smad2 訊號失效以阻止肌纖維母細胞分化，抑制 TGF-beta 誘發的細胞衰老，並在 IPF 中透過 TGF-beta1/Smad3 阻斷 EMT。SIRT6 因此是肺纖維化中纖維化級聯的主抑制因子，而 SIRT7 下降透過 Smad3 變化具有促纖維化效應。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2108,7 +2108,7 @@
       "en-US": "SIRT6 regulates macrophage polarization to alleviate sepsis-induced acute respiratory distress syndrome through both autophagy-dependent and autophagy-independent mechanisms. In asthma SIRT6 is upregulated in bronchial epithelial cells and ameliorates airway remodeling via EMT regulation, while SIRT2 enhances allergic asthmatic inflammation through Th2 responses and macrophage polarization.",
       "zh-TW": "SIRT6 調節巨噬細胞極化以透過自噬依賴與自噬獨立機制減輕敗血症誘發的急性呼吸窘迫症候群。在氣喘中，SIRT6 在支氣管上皮細胞中上調並經由 EMT 調節改善氣道重塑，而 SIRT2 透過 Th2 反應與巨噬細胞極化增強過敏性氣喘發炎。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2122,7 +2122,7 @@
       "en-US": "SIRT2 prevents NAFLD by deacetylating hepatocyte nuclear factor 4 alpha, but is deleterious in hepatic fibrosis through the SIRT2/ERK/c-Myc axis. SIRT4 upregulation inhibits high-fat-diet-induced lipid accumulation, inflammation, and fibrogenesis via the SIRT4/Smad4 axis, though SIRT4 is harmful in NAFLD by destabilizing mitochondrial trifunctional protein alpha.",
       "zh-TW": "SIRT2 透過去乙醯化肝細胞核因子 4 alpha 防止 NAFLD，但在肝纖維化中透過 SIRT2/ERK/c-Myc 軸是有害的。SIRT4 上調透過 SIRT4/Smad4 軸抑制高脂飲食誘發的脂質堆積、發炎與纖維生成，儘管 SIRT4 在 NAFLD 中因不穩定粒線體三功能蛋白質 alpha 而有害。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2136,7 +2136,7 @@
       "en-US": "SIRT1 and SIRT6 both deacetylate the lipogenic transcription factors ChREBP and SREBP-1c to maintain hepatic lipid homeostasis and oppose fatty liver disease. SIRT1 additionally antagonizes liver fibrosis by blocking hepatic stellate cell activation, while hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice.",
       "zh-TW": "SIRT1 與 SIRT6 皆去乙醯化脂生成轉錄因子 ChREBP 與 SREBP-1c 以維持肝臟脂質穩態並對抗脂肪肝疾病。SIRT1 亦透過阻斷肝星狀細胞活化對抗肝纖維化，而肝細胞專一性 SIRT6 基因敲除在 NASH 小鼠中升高纖維化與氧化壓力。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2150,7 +2150,7 @@
       "en-US": "SIRT2 is detrimental in liver ischemia-reperfusion injury: it deacetylates MAPK phosphatase-1 to activate MAPK and augment inflammatory responses and cell death, whereas SIRT1 and SIRT3 are protective. SIRT1 is decreased after IRI and its high levels predict superior survival in human liver transplants via suppression of mitochondrial dysfunction through MFN2.",
       "zh-TW": "SIRT2 在肝缺血—再灌流損傷中是有害的：它去乙醯化 MAPK 磷酸酶-1 以活化 MAPK 並加劇發炎反應與細胞死亡，而 SIRT1 與 SIRT3 具保護性。SIRT1 在 IRI 後減少，且其高水平透過 MFN2 抑制粒線體功能障礙預測人類肝移植的優越存活。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2164,7 +2164,7 @@
       "en-US": "SIRT6 preserves Rspo1 expression to confer intestinal epithelium injury resistance in inflammatory bowel disease, and SIRT6 deletion promotes inflammation via NF-kB. SIRT2 similarly inhibits Wnt/beta-catenin to maintain gut homeostasis, while SIRT3, SIRT5, and SIRT7 knockout mice are susceptible to colitis.",
       "zh-TW": "SIRT6 維持 Rspo1 表現以賦予發炎性腸道疾病中腸上皮損傷抗性，且 SIRT6 缺失透過 NF-kB 促進發炎。SIRT2 同樣抑制 Wnt/beta-catenin 以維持腸道穩態，而 SIRT3、SIRT5 與 SIRT7 基因敲除小鼠易罹結腸炎。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2178,7 +2178,7 @@
       "en-US": "SIRT1 suppresses intestinal epithelial ROS accumulation and apoptosis after ischemia-reperfusion, and resveratrol protects through the SIRT1-NF-kB-iNOS-NO pathway. SIRT3 alleviates mitochondrial oxidative damage and apoptosis via peroxiredoxin 3 deacetylation, while SIRT6 downregulation by miR-351-5p aggravates intestinal IRI injury.",
       "zh-TW": "SIRT1 抑制缺血—再灌流後的腸上皮 ROS 累積與凋亡，且 resveratrol 透過 SIRT1-NF-kB-iNOS-NO 路徑保護。SIRT3 經由 peroxiredoxin 3 去乙醯化減輕粒線體氧化損傷與凋亡，而 SIRT6 經由 miR-351-5p 下調加劇腸 IRI 損傷。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2192,7 +2192,7 @@
       "en-US": "SIRT1 reduces O-GlcNAcylation of tau via CREB in Alzheimer's disease, and SIRT3 plays a role in tau acetylation as a potential therapy target. SIRT2 affects tau phosphorylation and autophagic flux, and nuclear SIRT2 is hyperactivated in AD where FoxO1 recruits it to Fzd1/Fzd7 promoters to reduce H4K16ac.",
       "zh-TW": "SIRT1 在阿茲海默症中透過 CREB 減少 tau 的 O-GlcNAcylation，且 SIRT3 在 tau 乙醯化中扮演角色，作為潛在治療標的。SIRT2 影響 tau 磷酸化與自噬流，核 SIRT2 在 AD 中過度活化，其中 FoxO1 將其招募至 Fzd1/Fzd7 啟動子以降低 H4K16ac。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2206,7 +2206,7 @@
       "en-US": "SIRT1 enhances beneficial autophagy in Alzheimer's disease by deacetylating Beclin-1, and in Parkinson's disease it ameliorates LC3-deacetylation-mediated autophagic degradation of alpha-synuclein to improve motor defects. Pro-autophagic SIRT1 action thereby helps clear pathological protein aggregates in neurodegeneration.",
       "zh-TW": "SIRT1 透過去乙醯化 Beclin-1 增強阿茲海默症中的有益自噬，且在帕金森氏症中改善 LC3 去乙醯化介導的 alpha-synuclein 自噬降解以改進運動缺陷。促自噬的 SIRT1 作用因此有助清除神經退化中的病理蛋白聚集體。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2220,7 +2220,7 @@
       "en-US": "SIRT5 mediates ischemia-reperfusion-induced brain damage by increasing blood-brain barrier permeability through occludin degradation, whereas SIRT1 and SIRT3 are neuroprotective in ischemic stroke. Serum SIRT2 is increased in acute ischemic stroke patients as a risk and prognosis marker, and SIRT2 inhibition is neuroprotective via downregulation of Akt/FoxO3a and MAPK.",
       "zh-TW": "SIRT5 透過 occludin 降解增加血腦屏障通透性介導缺血—再灌流誘發的腦損傷，而 SIRT1 與 SIRT3 在缺血性中風中具有神經保護性。血清 SIRT2 在急性缺血性中風患者中上升作為風險與預後標記，且 SIRT2 抑制透過下調 Akt/FoxO3a 與 MAPK 具神經保護性。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2234,7 +2234,7 @@
       "en-US": "Enhanced SIRT6 activity abrogates the neurotoxicity of ALS-linked mutant SOD1 astrocytes, making SIRT6 a therapeutic target in ALS. SIRT1 is increased in SOD1-G93A mice and SIRT3 is increased in ALS spinal cord, with functional implications still unclear, while SIRT6 upregulation also alleviates inflammation, oxidative stress, and apoptosis after spinal cord injury.",
       "zh-TW": "增強的 SIRT6 活性消除 ALS 連結突變 SOD1 星狀細胞的神經毒性，使 SIRT6 成為 ALS 的治療標的。SIRT1 在 SOD1-G93A 小鼠中增加，SIRT3 在 ALS 脊髓中增加，功能意義仍不明，而 SIRT6 上調亦減輕脊髓損傷後的發炎、氧化壓力與凋亡。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2248,7 +2248,7 @@
       "en-US": "SIRT3 protects against kainic acid excitotoxicity in epilepsy via miR-134-5p inhibition, and SIRT5 deficiency increases mortality and seizure severity, indicating a neuroprotective role. SIRT1 is a therapeutic target to rescue circadian rhythm genes and the SIRT1 agonist CAY10602 is neuroprotective against seizure-related damage.",
       "zh-TW": "SIRT3 透過抑制 miR-134-5p 保護對抗癲癇中的 kainic acid 興奮毒性，且 SIRT5 缺失增加死亡率與癲癇嚴重度，顯示神經保護角色。SIRT1 是挽救晝夜節律基因與 SIRT1 促效劑 CAY10602 對抗癲癇相關損傷具神經保護性的治療標的。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2262,7 +2262,7 @@
       "en-US": "SIRT2 promotes glucose-dependent hepatic glucose uptake by deacetylating GKRP at K126, and its downregulation ameliorates reduced Akt activity while increasing insulin-stimulated glucose uptake in insulin-resistant neuro-2a cells. SIRT1 overexpression improves insulin sensitivity, but hepatic SIRT1 knockdown prevents fasting hyperglycemia by increasing hepatic insulin responsiveness, illustrating SIRT1's dual role in diabetes.",
       "zh-TW": "SIRT2 透過在 K126 去乙醯化 GKRP 促進葡萄糖依賴的肝臟葡萄糖攝取，且其下調改善降低的 Akt 活性，同時在胰島素抗性 neuro-2a 細胞中增加胰島素刺激的葡萄糖攝取。SIRT1 過度表現改善胰島素敏感性，但肝 SIRT1 敲低透過增加肝臟胰島素反應性防止空腹高血糖，體現 SIRT1 在糖尿病中的雙重角色。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2276,7 +2276,7 @@
       "en-US": "SIRT4 overexpression leads to dyslipidemia, lipogenesis, and decreased fatty acid oxidation while deactivating AMPK and inhibiting insulin secretion, yet is described as protective against diabetes mellitus progression. SIRT5 promotes DM progression by negatively regulating PDX1 transcription, and SIRT6 protects by inducing PGC-1alpha acetylation to suppress hepatic glucose production.",
       "zh-TW": "SIRT4 過度表現導致血脂異常、脂肪生成與脂肪酸氧化減少，同時使 AMPK 失活並抑制胰島素分泌，然而被描述為對抗糖尿病 mellitus 進展的保護性。SIRT5 透過負調節 PDX1 轉錄促進 DM 進展，且 SIRT6 透過誘發 PGC-1alpha 乙醯化抑制肝臟葡萄糖生成而保護。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2290,7 +2290,7 @@
       "en-US": "SIRT1 overexpression prevents capillary cell apoptosis and degenerative capillary formation in diabetic retinopathy, reduces DM-induced retinal inflammation, and improves visual function. In diabetic cardiomyopathy SIRT1 activation inhibits ROS-induced oxidative stress and fibrosis, while SIRT3 regulates fibrosis, inflammation, apoptosis, and oxidative stress in the diabetic myocardium.",
       "zh-TW": "SIRT1 過度表現防止糖尿病視網膜病變中的微血管細胞凋亡與退行性微血管形成，減少 DM 誘發的視網膜發炎，並改善視覺功能。在糖尿病性心肌病中，SIRT1 活化抑制 ROS 誘發的氧化壓力與纖維化，而 SIRT3 調節糖尿病心肌中的纖維化、發炎、凋亡與氧化壓力。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2304,7 +2304,7 @@
       "en-US": "SIRT5 protects against acute kidney injury by regulating the balance between mitochondrial and peroxisomal fatty acid oxidation in proximal tubular epithelial cells, and SIRT6 inhibits LPS-induced apoptosis while promoting autophagy in HK-2 cells. SIRT7-deficient mice are protected against AKI, indicating SIRT7 promotes tubular damage and kidney inflammation.",
       "zh-TW": "SIRT5 透過調節近曲小管上皮細胞中粒線體與過氧化體脂肪酸氧化的平衡保護對抗急性腎損傷，且 SIRT6 抑制 LPS 誘發的凋亡同時在 HK-2 細胞中促進自噬。SIRT7 缺失小鼠免受 AKI 保護，顯示 SIRT7 促進小管損傷與腎臟發炎。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2318,7 +2318,7 @@
       "en-US": "SIRT3 knockout mice are susceptible to severe kidney fibrosis due to PDH E1alpha hyperacetylation at K385, and SIRT6 proximal-tubule knockout aggravates UUO fibrosis with the MDL-800 activator mitigating it. SIRT1 overexpression abolishes TGF-beta1-induced apoptosis and fibrosis through CTGF suppression, and SRT1720 attenuates UUO-induced fibrosis.",
       "zh-TW": "SIRT3 基因敲除小鼠因 PDH E1alpha 在 K385 過乙醯化而易罹嚴重腎纖維化，且 SIRT6 近曲小管敲除加劇 UUO 纖維化，而 MDL-800 活化劑減輕之。SIRT1 過度表現透過 CTGF 抑制廢除 TGF-beta1 誘發的凋亡與纖維化，且 SRT1720 減弱 UUO 誘發的纖維化。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2332,7 +2332,7 @@
       "en-US": "SIRT3 is downregulated in kidney stone patients and protects via the Nrf2/heme oxygenase-1 pathway, while suppressing SIRT1 promotes calcium oxalate crystal-cell adhesion and exacerbates injury. SIRT1 also protects against aging-induced kidney injury through HIF-1alpha deacetylation of tubulointerstitial damage.",
       "zh-TW": "SIRT3 在腎結石患者中下調，並透過 Nrf2/heme oxygenase-1 路徑保護，而抑制 SIRT1 促進草酸鈣晶體—細胞黏附並加劇損傷。SIRT1 亦透過 HIF-1alpha 去乙醯化對抗老化誘發的腎損傷中的小管間質損傷。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2346,7 +2346,7 @@
       "en-US": "SIRT6 is markedly downregulated in CKD and vascular calcification patients and suppresses osteogenic transdifferentiation of vascular smooth muscle cells via runt-related transcription factor 2. MSC exosomes inhibit high-phosphate aortic calcification through SIRT6-HMGB1 deacetylation, and soluble epoxide hydrolase destabilizes SIRT3 to accelerate VSMC calcification.",
       "zh-TW": "SIRT6 在 CKD 與血管鈣化患者中明顯下調，並透過 runt-related transcription factor 2 抑制血管平滑肌細胞的成骨轉分化。MSC 外泌體透過 SIRT6-HMGB1 去乙醯化抑制高磷酸血 aortic 鈣化，且 soluble epoxide hydrolase 不穩定 SIRT3 以加速 VSMC 鈣化。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2360,7 +2360,7 @@
       "en-US": "SIRT2 is protective in osteoarthritis by preventing p65 acetylation to inhibit ECM degradation, and SIRT6 inhibits chondrocyte senescence by negatively regulating NF-kB-mediated inflammatory responses. SIRT1 reduces chondrocyte apoptosis and ECM degradation via Wnt/beta-catenin, while SIRT3 has a dual role dependent on SOD2 acetylation status.",
       "zh-TW": "SIRT2 在骨關節炎中具保護性，透過防止 p65 乙醯化以抑制 ECM 降解，且 SIRT6 透過負調節 NF-kB 介導的發炎反應抑制軟骨細胞衰老。SIRT1 透過 Wnt/beta-catenin 減少軟骨細胞凋亡與 ECM 降解，而 SIRT3 具有依賴 SOD2 乙醯化狀態的雙重角色。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2374,7 +2374,7 @@
       "en-US": "SIRT1 deacetylates sclerostin to activate Wnt/beta-catenin signaling and increase bone anabolism, and SIRT1 knockout mice have a low bone-mass phenotype while SIRT1 overexpression increases osteoblast osteogenesis via FoxO3a. SIRT6 inhibits age-related bone loss by stabilizing estrogen receptor alpha in preosteoblastic cells.",
       "zh-TW": "SIRT1 去乙醯化 sclerostin 以活化 Wnt/beta-catenin 訊號並增加骨合成代謝，且 SIRT1 基因敲除小鼠具有低骨量表型，而 SIRT1 過度表現透過 FoxO3a 增加造骨細胞成骨。SIRT6 透過在前成骨細胞中穩定 estrogen receptor alpha 抑制年齡相關骨流失。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2388,7 +2388,7 @@
       "en-US": "SIRT1 is reduced in degenerative nucleus pulposus tissues with severity, and inhibits NF-kB transcriptional activity while suppressing c-Fos/c-Jun phosphorylation. SIRT2 reverses IL-1beta action by inhibiting the p53/p21 pathway, SIRT3 maintains nucleus pulposus cell homeostasis, and SIRT6 inhibits inflammatory responses and senescence via NF-kB in IDD.",
       "zh-TW": "SIRT1 在退行性髓核組織中隨嚴重程度減少，並抑制 NF-kB 轉錄活性同時抑制 c-Fos/c-Jun 磷酸化。SIRT2 透過抑制 p53/p21 路徑逆轉 IL-1beta 作用，SIRT3 維持髓核細胞穩態，且 SIRT6 在 IDD 中透過 NF-kB 抑制發炎反應與衰老。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2402,7 +2402,7 @@
       "en-US": "SIRT3 deficiency causes lamina-associated domain detachment, increased chromatin accessibility, and aberrant repetitive-sequence transcription leading to senescence of human MSCs. SIRT1 activation of La Ribonucleoprotein 7 dampens p53 and NF-kB p65 transcriptional activity to ameliorate cellular senescence, while SIRT6 preserves telomere integrity and deacetylates Pol-beta for DNA-damage resistance.",
       "zh-TW": "SIRT3 缺失造成板層相關域脫離、染色質可及性增加與異常重複序列轉錄，導致人類 MSC 的衰老。SIRT1 活化 La Ribonucleoprotein 7 減弱 p53 與 NF-kB p65 轉錄活性以改善細胞衰老，而 SIRT6 維持端粒完整性並去乙醯化 Pol-beta 以賦予 DNA 損傷抗性。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
@@ -2416,7 +2416,7 @@
       "en-US": "Oncogene-induced senescence (OIS) is the permanent cell-cycle arrest triggered in cells carrying BRAF/RAS/MYC mutations. The benign melanocytic nevus (mole) is the in-vivo embodiment of OIS and prevents melanoma; bypass of OIS via p53/PTEN loss or TERT activation is required for malignancy. Capped, arrested growth is therefore tumor-suppressive.",
       "zh-TW": "致癌基因誘發衰老（OIS）是在帶有 BRAF/RAS/MYC 突變的細胞中觸發的永久性細胞週期停滯。良性黑色素細胞痣（痣）是 OIS 的體內體現，並防止黑色素瘤；經由 p53/PTEN 缺失或 TERT 活化繞過 OIS 是惡性化所必需的。受封頂、停滯的生長因此是腫瘤抑制性的。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2430,7 +2430,7 @@
       "en-US": "Oncogenic BRAF (V600E), RAS, or MYC drive a hyperproliferative burst that causes DNA replication stress and a DNA damage response, permanently arresting the cell via p53/p21 and p16/Rb. OIS is therefore induced by oncogenic signaling yet confronts it with a tumor-suppressive barrier in benign lesions.",
       "zh-TW": "致癌性 BRAF（V600E）、RAS 或 MYC 驅動高增生爆發，造成 DNA 複製壓力與 DNA 損傷反應，經由 p53/p21 與 p16/Rb 永久性停滯細胞。OIS 因此由致癌訊號誘發，卻在良性病灶中以腫瘤抑制屏障對抗之。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2444,7 +2444,7 @@
       "en-US": "OIS derepresses the CDKN2A locus to upregulate p16INK4A, reinforcing the p16/Rb cell-cycle arrest that locks the benign lesion in a permanent frozen, tumor-suppressive state. This p16-mediated arrest is the mechanistic backbone of the protective benign nevus.",
       "zh-TW": "OIS 去抑制 CDKN2A 基因座以上調 p16INK4A，強化將良性病灶鎖定於永久性凍結、腫瘤抑制狀態的 p16/Rb 細胞週期停滯。此 p16 介導的停滯是保護性良性痣的機制骨幹。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2458,7 +2458,7 @@
       "en-US": "OIS cells in benign/premalignant lesions are vulnerable to Navitoclax-class senolytics. Eliminating them may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier — the senolytic paradox — so retaining certain benign tumors is functionally protective against cancer.",
       "zh-TW": "良性／癌前病灶中的 OIS 細胞易受 Navitoclax 類去衰老藥物攻擊。清除它們可能矛盾地透過移除細胞自主的癌症屏障而促進腫瘤生長——即去衰老悖論——因此保留某些良性腫瘤在功能上對抗癌症具保護性。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2472,7 +2472,7 @@
       "en-US": "Benign tumors are dual-natured: OIS-type arrested lesions (nevi) are longevity-positive cancer barriers, whereas growth-signal-driven benign growths such as TSC1/TSC2-loss mTORC1 hamartomas are themselves disease (Tuberous Sclerosis, angiomyolipoma, epilepsy). Arrested growth is good; ongoing growth is bad.",
       "zh-TW": "良性腫瘤具有雙重本質：OIS 型停滯病灶（痣）是長壽正向的癌症屏障，而由生長訊號驅動的良性生長（如 TSC1/TSC2 缺失 mTORC1 錯構瘤）本身即是疾病（結節性硬化症、血管肌脂肪瘤、癲癇）。停滯的生長是好的；持續的生長是壞的。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2486,7 +2486,7 @@
       "en-US": "Loss of TSC1 or TSC2 removes the GAP that restrains Rheb, causing constitutive mTORC1 hyperactivation that drives benign hamartomas (Tuberous Sclerosis, renal angiomyolipoma, epilepsy, autism). Here benign growth is itself the disease, contrasting with the protective OIS-type benign lesion.",
       "zh-TW": "TSC1 或 TSC2 缺失移除抑制 Rheb 的 GAP，造成組成性 mTORC1 過度活化，驅動良性錯構瘤（結節性硬化症、腎血管肌脂肪瘤、癲癇、自閉症）。此處良性生長本身就是疾病，與保護性 OIS 型良性病灶形成對比。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2500,7 +2500,7 @@
       "en-US": "The hyperfunction theory of aging holds that aging is the quasi-programmed continuation of developmental growth signaling; mTOR is the engine of aging and Rapamycin extends lifespan by suppressing mTOR. This frames the key distinction that arrested growth (OIS) is protective while ongoing, unopposed growth signaling is pathogenic.",
       "zh-TW": "老化的功能亢進理論主張，老化是發育生長訊號的準程式化延續；mTOR 是老化的引擎，而 Rapamycin 透過抑制 mTOR 延長壽命。這框定了關鍵區分：停滯的生長（OIS）具保護性，而持續、無對抗的生長訊號具致病性。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2514,7 +2514,7 @@
       "en-US": "Teratoma formation is the gold-standard assay of pluripotency, validating induced pluripotent stem cells (iPSC) and embryonic stem cells (ESC) for rejuvenation medicine. This is an instrumental, research-level benefit of a benign tumor rather than an organismal longevity benefit.",
       "zh-TW": "畸胎瘤形成是分化多能性的黃金標準檢定，驗證誘導性多能幹細胞（iPSC）與胚胎幹細胞（ESC）用於回春醫學。這是良性腫瘤的器械性、研究層級益處，而非生物體層級的長壽益處。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2528,7 +2528,7 @@
       "en-US": "The immune system clears oncogene-induced senescent cells in benign lesions; surveillance failure accelerates tumorigenesis. p16/p21 double-knockout raises cancer rates, evidencing that senescence in benign/premalignant lesions is tumor-suppressive and that retaining it is beneficial.",
       "zh-TW": "免疫系統清除良性病灶中的致癌基因誘發衰老細胞；監測失敗加速腫瘤發生。p16/p21 雙重基因敲除提高癌症率，證明良性／癌前病灶中的衰老具腫瘤抑制性，且保留它是有益的。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_benign_tumor_longevity_14_August_2026.md"
@@ -2542,7 +2542,7 @@
       "en-US": "SIRT4 is the clearest anti-glutamine sirtuin: it mono-ADP-ribosylates glutamate dehydrogenase (GDH), limiting glutamate to alpha-ketoglutarate flux and restricting the anaplerotic carbon supply to the TCA cycle that glutamine-addicted cancers depend on. Loss of SIRT4 is common in HCC, gastric, CRC, bladder, and breast cancer, marking it a metabolic tumor suppressor.",
       "zh-TW": "SIRT4 是最明確的抗麩醯胺 sirtuin：它單-ADP-核糖基化 glutamate dehydrogenase（GDH），限制麩胺酸至 alpha-ketoglutarate 的通量，並限制麩醯胺依賴癌細胞所依賴的 TCA 循環回補碳供應。SIRT4 缺失在 HCC、胃、CRC、膀胱與乳癌中常見，標記其為代謝腫瘤抑制因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2556,7 +2556,7 @@
       "en-US": "SIRT3 opposes aerobic glycolysis indirectly through redox: it activates MnSOD/SOD2 and IDH2, lowering ROS, which destabilizes HIF-1alpha and cuts the master glycolytic transcription factor. SIRT3 loss therefore skews cells toward the Warburg effect and supports tumor metabolism.",
       "zh-TW": "SIRT3 間接透過氧化還原對抗有氧糖解：它活化 MnSOD/SOD2 與 IDH2，降低 ROS，進而不穩定 HIF-1alpha 並切斷主控糖解轉錄因子。SIRT3 缺失因此使細胞偏向前 Warburg 效應並支持腫瘤代謝。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2570,7 +2570,7 @@
       "en-US": "SIRT6 is the clearest anti-Warburg sirtuin: it corepresses HIF-1alpha and suppresses transcription of glycolytic enzymes (glucose transporters, Hexokinase 2) and deacetylates histone H3 at ERK1/2 promoters. Loss of SIRT6 permits Warburg-like aerobic glycolysis; its restoration suppresses glycolysis in HCC/glioma and enhances radiosensitivity in lung cancer.",
       "zh-TW": "SIRT6 是最明確的抗 Warburg sirtuin：它共抑制 HIF-1alpha 並抑制糖解酵素（葡萄糖轉運蛋白、Hexokinase 2）的轉錄，並在 ERK1/2 啟動子去乙醯化 histones H3。SIRT6 缺失容許 Warburg 樣有氧糖解；其恢復抑制 HCC／神經膠質瘤中的糖解並增強肺癌中的放射敏感性。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2584,7 +2584,7 @@
       "en-US": "SIRT7 drives ribosome biogenesis by activating RNA Pol I at rDNA and suppresses p21 via H3K18 deacetylation, fueling the biosynthetic capacity tumors need; it is overexpressed in breast, thyroid, and HCC. This proliferative, biosynthetic driver role makes SIRT7 an oncogenic sirtuin.",
       "zh-TW": "SIRT7 透過在 rDNA 活化 RNA Pol I 並經由 H3K18 去乙醯化抑制 p21，驅動核糖體生成，供應腫瘤所需的生物合成能力；它在乳癌、甲狀腺與 HCC 中過度表現。此增生性、生物合成驅動角色使 SIRT7 成為致癌 sirtuin。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2598,7 +2598,7 @@
       "en-US": "SIRT2 promotes tumor glycolysis in some settings by deacetylating phosphoglycerate mutase at Lys100, channeling carbon into NADPH production and accelerating tumor growth in lung cancer. This illustrates SIRT2's context-dependent, often harmful, metabolic face versus the protective SIRT1/3/6 axis.",
       "zh-TW": "SIRT2 在某些情境下透過在 Lys100 去乙醯化 phosphoglycerate mutase 促進腫瘤糖解，將碳引導至 NADPH 生成並加速肺癌中的腫瘤生長。這體現 SIRT2 相對於保護性 SIRT1/3/6 軸、常為有害的、情境依賴的代謝面貌。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2612,7 +2612,7 @@
       "en-US": "SIRT5 is protumorigenic in CRC, HCC, and NSCLC by reprogramming metabolism toward glycolysis and glutaminolysis; it desuccinylates lactate dehydrogenase B (LDHB) to hyperactivate autophagy, feeding cancer cells recycled nutrients. SIRT5 is a desuccinylase largely resistant to nicotinamide inhibition.",
       "zh-TW": "SIRT5 在 CRC、HCC 與 NSCLC 中透過將代謝重編程為糖解與麩醯胺分解而促腫瘤；它去琥珀醯化 lactate dehydrogenase B（LDHB）以過度活化自噬，供養癌細胞回收的營養。SIRT5 是主要對菸鹼醯胺抑制具抗性的去琥珀醯酶。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2626,7 +2626,7 @@
       "en-US": "Resveratrol is a SIRT1-activating compound (STAC) evaluated clinically with mixed results and now largely a research/nutraceutical. As a SIRT1 activator it improves insulin sensitivity and opposes several age-related diseases, though in bulk-phase physiology it protects the epigenome without inhibiting COMT.",
       "zh-TW": "Resveratrol 是一種 SIRT1 活化化合物（STAC），臨床評估結果好壞參半，現在主要為研究／營養保健品。作為 SIRT1 活化劑，它改善胰島素敏感性並對抗多種年齡相關疾病，儘管在整體相（bulk-phase）生理學中它保護表觀基因組而不抑制 COMT。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2640,7 +2640,7 @@
       "en-US": "EX-527 (Selisistat) is the most advanced isoform-selective SIRT1 inhibitor, taken to Phase I/II in Huntington's disease and explored for oncology chemo-sensitization. It is one of the few sirtuin-directed agents to have reached human trials, contrasting with the purely preclinical SIRT2/3/4/5/6/7 chemistry.",
       "zh-TW": "EX-527（Selisistat）是最先進的異構型選擇性 SIRT1 抑制劑，在亨廷頓氏症中進入第一期／二期，並探討用於腫瘤學化療增敏。它是少數進入人體試驗的 sirtuin 導向藥劑之一，與純粹臨床前的 SIRT2/3/4/5/6/7 化學品形成對比。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2654,7 +2654,7 @@
       "en-US": "The sirtuin family (SIRT1-SIRT7) are NAD+-dependent acyltransferases whose output is gated by NAD+ availability. Tumor metabolic state (Complex I activity, glutaminolysis, NAMPT/CD38) directly sets sirtuin activity, which is why NAD+ depletion is emerging as a synthetic-lethal lever in MYC-high and glutamine-dependent cancers.",
       "zh-TW": "Sirtuin 家族（SIRT1-SIRT7）是 NAD+ 依賴的醯基轉移酶，其產出受 NAD+ 可用性節制。腫瘤代謝狀態（Complex I 活性、麩醯胺分解、NAMPT/CD38）直接設定 sirtuin 活性，這就是為何在 MYC 高與麩醯胺依賴癌中，NAD+ 耗竭正成為合成致死槓桿。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
@@ -2668,7 +2668,7 @@
       "en-US": "Mitohormesis requires a transient, acute ROS pulse as the signal to trigger adaptive cytoprotective responses (catalase upregulation, chaperone expression, UPRmt, mitochondrial biogenesis). Mitochondrial ROS are active signaling molecules rather than mere damage agents; quenching the pulse blocks the entire adaptive program.",
       "zh-TW": "粒線體促效應需要短暫、急性的 ROS 脈衝作為觸發適應性細胞保護反應（catalase 上調、伴侶表現、UPRmt、粒線體生成）的訊號。粒線體 ROS 是活躍的訊號分子而非單純的損傷因子；熄滅此脈衝會阻斷整個適應程序。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2682,7 +2682,7 @@
       "en-US": "Chronic antioxidant supplementation can inhibit the hormetic response and thereby block the cytoprotective adaptations mitohormesis induces. This may explain disappointing antioxidant clinical trials (SELECT, HOPE, Bjelakovic meta-analysis) where large meta-analyses generally failed to show benefit and sometimes suggested increased mortality.",
       "zh-TW": "長期抗氧化補充可抑制促效應反應，從而阻斷粒線體促效應通常誘導的細胞保護適應。這可能解釋了抗氧化臨床試驗令人失望的結果，大型薈萃分析通常未能顯示益處，在某些情況下甚至顯示死亡率增加。支持性證據來自人體研究，顯示抗氧化補充劑抑制運動的有益效果，而運動本身被視為輕度壓力源。抗氧化劑可能阻止觸發適應性反應所需的粒線體 ROS 升高。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T06:05:15Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2696,7 +2696,7 @@
       "en-US": "In C. elegans, glucose restriction normally raises mitochondrial respiration and ROS, inducing catalase and extending lifespan; NAC pre-treatment completely abolished both the ROS rise and the longevity benefit. NAC is the strongest direct evidence that scavenging the ROS signal blocks mitohormesis.",
       "zh-TW": "在 C. elegans 中，葡萄糖限制通常升高粒線體呼吸與 ROS，誘發 catalase 並延長壽命；NAC 預處理完全廢除 ROS 升高與長壽益處。NAC 是最強的直接證據，顯示清除 ROS 訊號會阻斷粒線體促效應。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2710,7 +2710,7 @@
       "en-US": "Gomez-Cabrera et al. (2008, PMID 18175748) showed oral vitamin C decreases muscle mitochondrial biogenesis and hampers training-induced endurance adaptations. This is among the cleanest human studies showing antioxidant interference with a hormetic stressor (exercise), blunting the necessary acute ROS signal.",
       "zh-TW": "Gomez-Cabrera 等人（2008，PMID 18175748）顯示口服維生素 C 降低肌肉粒線體生成並妨礙訓練誘發的耐力適應。這是最乾淨的人體研究之一，顯示抗氧化劑干擾促效應壓力源（運動），減弱必要的急性 ROS 訊號。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2724,7 +2724,7 @@
       "en-US": "The SELECT trial (Lippman et al., 2009, JAMA, PMID 19066370) found vitamin E supplementation (400 IU/day) increased prostate cancer risk by 17% in healthy men, cited as a key example of antioxidant supplementation failure. The HOPE trial similarly showed no cardiovascular benefit and a trend to increased heart failure.",
       "zh-TW": "SELECT 試驗（Lippman 等人，2009，JAMA，PMID 19066370）發現維生素 E 補充（400 IU/天）在健康男性中將攝護腺癌風險增加 17%，被引為抗氧化補充失敗的關鍵例子。HOPE 試驗同樣顯示無心血管益處且有心臟衰竭增加的趨勢。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2738,7 +2738,7 @@
       "en-US": "Exogenous antioxidants prevent the upregulation of endogenous defense enzymes (SOD, GPx) that exercise normally induces via NRF2. The Ristow 2009 study showed antioxidant-supplemented subjects failed to upregulate endogenous SOD/GPx and lost the insulin-sensitizing benefit of exercise.",
       "zh-TW": "外源性抗氧化劑防止運動通常經由 NRF2 誘發的內生防禦酵素（SOD、GPx）上調。Ristow 2009 研究顯示補充抗氧化劑的受試者未能上調內生 SOD/GPx，並喪失運動的胰島素增敏益處。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2752,7 +2752,7 @@
       "en-US": "Caloric restriction is a canonical mitohormetic stressor: a transient energy deficit activates AMPK, PGC-1alpha, SIRT1, and NRF2, driving mitochondrial biogenesis, mitophagy, and endogenous antioxidant defenses. Glucose restriction and CR are among the best-established triggers of the hormetic longevity response.",
       "zh-TW": "熱量限制是典型粒線體促效應壓力源：短暫的能量虧損活化 AMPK、PGC-1alpha、SIRT1 與 NRF2，驅動粒線體生成、mitophagy 與內生抗氧化防禦。葡萄糖限制與 CR 是最確立的促效應長壽反應觸發因子之一。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2766,7 +2766,7 @@
       "en-US": "Exercise generates acute ROS bursts that drive mitochondrial biogenesis, antioxidant upregulation, and metabolic adaptation via NRF2 and PGC-1alpha. Post-workout high-dose synthetic antioxidants (vitamin C/E) blunt this necessary ROS signal, so letting endogenous adaptation occur is the therapeutic goal.",
       "zh-TW": "運動產生急性 ROS 爆發，透過 NRF2 與 PGC-1alpha 驅動粒線體生成、抗氧化上調與代謝適應。運動後高劑量合成抗氧化劑（維生素 C/E）減弱此必要的 ROS 訊號，因此讓內生適應發生是治療目標。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2780,7 +2780,7 @@
       "en-US": "Beyond ROS scavenging, NAC is a selective inhibitor of the peroxidase activity of PRDX6 (IC50 ~15.5 uM), a distinct antioxidant-enzyme interaction. This dual action underscores why NAC, used as a timed redox buffer in hormetic protocols, can also blunt adaptive signaling when taken chronically.",
       "zh-TW": "除 ROS 清除外，NAC 是 PRDX6 過氧化物酶活性的選擇性抑制劑（IC50 ~15.5 uM），一種不同的抗氧化酵素交互作用。此雙重作用說明為何在促效應方案中使用作為定時 redox 緩衝的 NAC，長期服用時亦能減弱適應性訊號。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2794,7 +2794,7 @@
       "en-US": "The mitohormetic trigger activates key nutrient-sensing and stress-response pathways including AMPK, PGC-1alpha, SIRT1, and NRF2. AMPK then drives mitochondrial biogenesis and autophagy, leaving a resilient metabolic engine; this is why mild, pulsed stress enhances longevity and metabolic efficiency.",
       "zh-TW": "粒線體促效應觸發因子活化包括 AMPK、PGC-1alpha、SIRT1 與 NRF2 在內的關鍵營養感測與壓力反應路徑。AMPK 接著驅動粒線體生成與自噬，留下具韌性的代謝引擎；這就是為何溫和、脈衝式壓力增強長壽與代謝效率。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
@@ -2808,7 +2808,7 @@
       "en-US": "Ivermectin promotes proteasomal degradation of PAK1, which in turn suppresses STAT3. This damps IL-6 transcription, Th17 inflammaging in aging CD4+ T cells, and the OCT4/NANOG/SOX2 stemness loop — entering the same inflammaging/SASP axis that metformin targets, but via PAK1 rather than AMPK.",
       "zh-TW": "Ivermectin 促進 PAK1 的蛋白酶體降解，後者進而抑制 STAT3。這減弱 IL-6 轉錄、老化 CD4+ T 細胞中的 Th17 發炎性老化，以及 OCT4/NANOG/SOX2 幹性迴路——進入 metformin 標靶的相同發炎性老化／SASP 軸，但經由 PAK1 而非 AMPK。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2822,7 +2822,7 @@
       "en-US": "PAK1 facilitates NF-kB nuclear activation; ivermectin's PAK1 degradation therefore dampens NF-kB signaling. Because NF-kB is the master transcriptional regulator of the SASP, this overlaps with the senomorphic strategy — targeting SASP production without killing senescent cells.",
       "zh-TW": "PAK1 促進 NF-kB 核活化；ivermectin 的 PAK1 降解因此減弱 NF-kB 訊號。由於 NF-kB 是 SASP 的主控轉錄調節因子，這與 senomorphic 策略——標靶 SASP 產生而不殺死衰老細胞——重疊。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2836,7 +2836,7 @@
       "en-US": "Ivermectin inhibits expression of Nanog, Oct4, and Sox2 in cancer stem cells via the PAK1-STAT3 axis. Because Oct4 and Sox2 are core Yamanaka factors, this lowers reprogramming capacity and opposes partial reprogramming, while being therapeutically desirable against CSCs.",
       "zh-TW": "Ivermectin 經由 PAK1-STAT3 軸抑制癌幹細胞中 Nanog、Oct4 與 Sox2 的表現。由於 Oct4 與 Sox2 是核心 Yamanaka 因子，這降低重編程能力並對抗部分重編程，同時在治療上對抗 CSC 是理想的。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2850,7 +2850,7 @@
       "en-US": "Through PAK1-STAT3, ivermectin downregulates Sox2 (with Oct4 and Nanog), suppressing the transcription factors rejuvenation requires turned on. This is mechanistically opposing to Yamanaka-factor rejuvenation, though exogenous OSKM delivery may partially bypass the suppression.",
       "zh-TW": "Ivermectin 經由 PAK1-STAT3 下調 Sox2（與 Oct4 和 Nanog 一起），抑制回春所需的轉錄因子開啟。這在機制上對抗 Yamanaka 因子回春，儘管外源 OSKM 遞送可能部分繞過此抑制。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2864,7 +2864,7 @@
       "en-US": "By suppressing Oct4 and Sox2 via PAK1-STAT3, ivermectin reduces reprogramming capacity and opposes partial reprogramming. Its separate mTOR inhibition/autophagy induction sits in the same longevity space as rapamycin, but the OSKM-suppressive action is counterproductive for epigenetic rejuvenation.",
       "zh-TW": "Ivermectin 透過抑制 Oct4 與 Sox2（經由 PAK1-STAT3）降低重編程能力並對抗部分重編程。其分開的 mTOR 抑制／自噬誘發位於與 rapamycin 相同的長壽空間，但 OSKM 抑制性作用對表觀遺傳回春適得其反。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2878,7 +2878,7 @@
       "en-US": "Ivermectin inhibits the PAK1/Akt/mTOR axis, allowing calcineurin to dephosphorylate TFEB (Ser142/211) and drive its nuclear translocation to the CLEAR network, inducing lysosomal biogenesis and autophagic flux. This is the same axis rapamycin, metformin, spermidine, and CR use for healthspan, independent of Yamanaka factors.",
       "zh-TW": "Ivermectin 抑制 PAK1/Akt/mTOR 軸，使 calcineurin 能去磷酸化 TFEB（Ser142/211）並驅動其核轉位至 CLEAR 網絡，誘發溶酶體生成與自噬流。這與 rapamycin、metformin、spermidine 與 CR 用於健康壽命的同一軸，獨立於 Yamanaka 因子。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2892,7 +2892,7 @@
       "en-US": "Fenbendazole downregulates MDM2/MdmX, stabilizing p53, which arrests or apoptoses transduced (reprogramming-competent) cells — p53 is the dominant upstream roadblock to iPSC induction. This is a more direct opposition to rejuvenation than ivermectin's downstream Oct4/Sox2 suppression.",
       "zh-TW": "Fenbendazole 下調 MDM2/MdmX，穩定 p53，後者使被轉導（具重編程能力）的細胞停滯或凋亡——p53 是 iPSC 誘發的主要上游障礙。這比 ivermectin 下游 Oct4/Sox2 抑制更直接的對抗回春。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2906,7 +2906,7 @@
       "en-US": "p53 is the most significant biological barrier to efficient iPSC induction: damage activates p53, which initiates apoptosis or senescence in transduced cells, sharply reducing reprogramming yield. Fenbendazole's p53 stabilization therefore directly undermines epigenetic rejuvenation strategies requiring reprogramming.",
       "zh-TW": "p53 是高效 iPSC 誘發最重要的生物屏障：損傷活化 p53，後者啟動轉導細胞中的凋亡或衰老，大幅降低重編程產量。Fenbendazole 的 p53 穩定因此直接破壞需要重編程的表觀遺傳回春策略。"
     },
-    "confidence": "0.95",
+    "confidence": 0.95,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2920,7 +2920,7 @@
       "en-US": "Ivermectin preferentially targets and inhibits cancer stem cells, suppressing Nanog, Oct4, and Sox2 expression through the PAK1-STAT3 axis. This kills CSCs therapeutically in breast cancer but simultaneously lowers the reprogramming factors needed for Yamanaka-factor rejuvenation.",
       "zh-TW": "Ivermectin 優先標靶並抑制癌幹細胞，透過 PAK1-STAT3 軸抑制 Nanog、Oct4 與 Sox2 表現。這在乳癌中治療性地殺死 CSC，但同時降低 Yamanaka 因子回春所需的重編程因子。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
@@ -2934,7 +2934,7 @@
       "en-US": "Berberine activates AMPK to manage blood glucose and prevent excessive glycation during high-calorie bulk phases, mimicking caloric restriction. As an AMPK activator it supports the nutrient-sensing axis that drives autophagy and metabolic health.",
       "zh-TW": "Berberine 活化 AMPK 以管理血糖並在高熱量整體期間防止過度糖化，模擬熱量限制。作為 AMPK 活化劑，它支持驅動自噬與代謝健康的營養感測軸。"
     },
-    "confidence": "0.85",
+    "confidence": 0.85,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_physiologist_shred_vs_bulk.md"
@@ -2948,7 +2948,7 @@
       "en-US": "High-catechol flavonoids such as quercetin, fisetin, and luteolin can inhibit COMT, leading to catecholamine accumulation and worrier-type symptoms during a bulk phase. Slow-COMT individuals are especially advised to avoid these during high catecholamine turnover to prevent adrenochrome pathway fueling.",
       "zh-TW": "高兒茶酚類黃酮如 quercetin、fisetin 與 luteolin 可抑制 COMT，導致兒茶酚胺累積與整體期間的憂慮者型（worrier-type）症狀。慢 COMT 個體特別建議在高兒茶酚胺周轉期間避免這些，以防止 adrenochrome 路徑燃料供應。"
     },
-    "confidence": "0.80",
+    "confidence": 0.8,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_physiologist_shred_vs_bulk.md"
@@ -2962,7 +2962,7 @@
       "en-US": "During a bulk (anabolism) phase, high nutrient availability activates mTORC1, promoting protein synthesis and growth but naturally suppressing autophagy. The shred scenario instead leverages nutrient scarcity to inhibit mTOR and maximize autophagic housecleaning and fat oxidation.",
       "zh-TW": "在整體（合成代謝）期間，高營養可用性活化 mTORC1，促進蛋白質合成與生長但自然抑制自噬。削減（shred）情境則利用營養匱乏抑制 mTOR 並最大化自噬清理與脂肪氧化。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z",
     "source": "task_output_physiologist_shred_vs_bulk.md"
@@ -2976,9 +2976,401 @@
       "en-US": "Intermittent fasting (16:8 or 20:4) is the primary shred-phase tool to drive autophagy, with fasted training maximizing the AMPK signal. Refined sugars and alcohol shut the autophagic process down, so timing and macronutrient strategy are essential to the cleanup benefit.",
       "zh-TW": "間歇性斷食誘導自噬，作為對其所施加的週期性營養和能量虧損的早期細胞適應。在體外，斷食模擬條件活化自噬機制並同時下調胞外核苷酸酶CD73，改變細胞外腺苷代謝。此誘導主要透過AMPK活化和mTORC1抑制介導，因為在斷食窗口期間營養和胰島素訊號下降。這種自噬的參與被認為是歸因於IF方案的許多細胞保護和抗老化效應的基礎。"
     },
-    "confidence": "0.90",
+    "confidence": 0.9,
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T07:39:11Z",
     "source": "task_output_physiologist_shred_vs_bulk.md"
+  },
+  {
+    "id": "a37154f76010",
+    "subject": "STACs",
+    "predicate": "activate_sirtuins_via",
+    "object": "K-type allosteric activation (lowers Km)",
+    "context": {
+      "en-US": "STACs (sirtuin-activating compounds) activate sirtuins through a K-type allosteric mechanism that lowers the Michaelis constant (Km) for both NAD+ and the acetylated substrate peptide, raising catalytic efficiency without changing Vmax. This is the canonical mechanism encoded for the dozen chemical classes of STACs, distinct from the NAD+-boosting strategy (NMN/NR/CD38 inhibition) that restores co-substrate availability.",
+      "zh-TW": "STACs（sirtuin 活化化合物）透過 K 型別構機制活化 sirtuins，降低 NAD+ 與乙醯化受質胜肽的米氏常數（Km），在不改變 Vmax 的情況下提升催化效率。這是一打化學類別 STACs 的典型機制，不同於 NAD+ 提升策略（NMN/NR/CD38 抑制）——後者是恢復輔受質的可及性。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "dfe677650611",
+    "subject": "Quercetin",
+    "predicate": "activates_via_k_type",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Quercetin is a flavonol that directly activates SIRT1 via the K-type allosteric mechanism (lowering Km for NAD+ and substrate), placing it among the natural polyphenol STACs alongside resveratrol, piceatannol, butein, fisetin and kaempferol. It also independently boosts SIRT1 by inhibiting CD38 and raising NAD+, giving it a dual (direct STAC + NAD+-modulator) role.",
+      "zh-TW": "Quercetin 是一種黄酮醇，透過 K 型別構機制（降低 NAD+ 與受質的 Km）直接活化 SIRT1，與白藜蘆醇、piceatannol、butein、fisetin、kaempferol 同屬天然多酚類 STACs。它也能透過抑制 CD38、提升 NAD+ 來獨立增強 SIRT1，因此兼具雙重角色（直接 STAC + NAD+ 調節劑）。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "b52021231119",
+    "subject": "Butein",
+    "predicate": "activates_via_k_type",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Butein, a chalcone, is among the first-reported SIRT1 polyphenolic STACs (with resveratrol, piceatannol, quercetin, myricetin), activating SIRT1 via K-type allosteric lowering of Km. It attenuates sepsis-induced brain injury through SIRT1 signaling.",
+      "zh-TW": "Butein 是一種查耳酮，是最早被報導的 SIRT1 多酚類 STACs 之一（與白藜蘆醇、piceatannol、quercetin、myricetin 並列），透過 K 型別構降低 Km 來活化 SIRT1。它透過 SIRT1 訊號減緩敗血症誘發的腦損傷。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "441c25e307c6",
+    "subject": "Fisetin",
+    "predicate": "activates_via_k_type",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Fisetin, a flavonol, activates SIRT1 via the K-type allosteric mechanism and is also a well-characterized senolytic in the wiki; it increases yeast replicative lifespan by ~33% in the source literature. Its SIRT1 activation is part of the natural-polyphenol STAC cluster.",
+      "zh-TW": "Fisetin 是一種黄酮醇，透過 K 型別構機制活化 SIRT1，同時也是 wiki 中特徵明確的 senolytic；在來源文獻中可將酵母複製壽命延長約 33%。其 SIRT1 活化屬於天然多酚類 STAC 群集。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "e19986159240",
+    "subject": "Kaempferol",
+    "predicate": "activates_via_k_type",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Kaempferol, a flavonol (3,5,7,4'-tetrahydroxyflavone) and sister compound to quercetin/apigenin, directly activates SIRT1 as a natural polyphenol STAC via K-type allosteric Km lowering, and is frequently co-studied for anti-aging and cancer-risk reduction.",
+      "zh-TW": "Kaempferol 是一種黄酮醇（3,5,7,4'-四羥基黄酮），是 quercetin/apigenin 的姊妹化合物，作為天然多酚類 STAC 透過 K 型別構降低 Km 直接活化 SIRT1，常與抗老化和降低癌症風險的研究並提。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "5d3d7cb5b5c7",
+    "subject": "Catechin",
+    "predicate": "activates_via_k_type",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Catechin (tea flavan-3-ol, parent of EGCG) is a natural polyphenol STAC that activates SIRT1 via the K-type allosteric mechanism, contributing to its antioxidant/anti-inflammatory and anti-aging profile.",
+      "zh-TW": "Catechin（茶類黃烷-3-醇，EGCG 的前體）是一種天然多酚類 STAC，透過 K 型別構機制活化 SIRT1，是其抗氧化/抗發炎與抗老化特性的來源之一。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "d1ec131f3a24",
+    "subject": "Quercetin",
+    "predicate": "inhibits",
+    "object": "CD38",
+    "context": {
+      "en-US": "Beyond direct K-type SIRT1 activation, quercetin (with apigenin) inhibits CD38, an NAD+ hydrolase, thereby boosting cellular NAD+ availability — a NAD+-boosting mechanism distinct from allostery. This dual role means quercetin sits in both the direct-STAC and the NAD+-modulator camps.",
+      "zh-TW": "除了直接 K 型活化 SIRT1，quercetin（與 apigenin）還抑制 CD38（一種 NAD+ 水解酶），從而提升細胞 NAD+ 可及性——這是不同於別構的 NAD+ 提升機制。此雙重角色使 quercetin 同時處於直接 STAC 與 NAD+ 調節劑兩個陣營。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "d3da39281574",
+    "subject": "Proanthocyanidins",
+    "predicate": "modulates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Proanthocyanidins (oligomeric/polymeric flavan-3-ols from grape seed, cocoa) are documented SIRT1 modulators in the primary literature and are vascular/neuroprotective, yet they lack a dedicated wiki note — a flagged gap. They belong to the natural-polyphenol STAC cluster alongside catechins.",
+      "zh-TW": "Proanthocyanidins（來自葡萄籽、可可的寡聚/多聚黃烷-3-醇）在原始文獻中是被記載的 SIRT1 調節劑，具有血管/神經保護作用，但缺少專屬 wiki 條目——這是一個已標記的缺口。它們與 catechins 同屬天然多酚類 STAC 群集。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+  },
+  {
+    "id": "c1a1e15a11c0",
+    "subject": "SIRT1",
+    "predicate": "contains",
+    "object": "Intrinsically Disordered Region",
+    "context": {
+      "en-US": "AlphaFold predicts SIRT1 with a global pLDDT of only 65.0, with 46.6% of residues in very-low-confidence (<50) regions — a mixture of confidently structured catalytic domain and extensive intrinsically disordered N- and C-terminal regions. This disorder complicates structure-based modeling of the STAC-binding N-terminal activation domain and helps explain the difficulty of resolving allosteric activation structurally.",
+      "zh-TW": "AlphaFold 預測 SIRT1 的整體 pLDDT 僅 65.0，其中 46.6% 的殘基位於極低置信度（<50）區域——即確信結構的催化結構域與廣泛的內在無序 N 端、C 端區域混合。這種無序性使基於結構的 STAC 結合 N 端活化結構域建模變得困難，也有助於解釋從結構上解析別構活化的難度。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_alphafold_report_NAD+_26_JUN_2026.md"
+  },
+  {
+    "id": "4c89b4421330",
+    "subject": "SIRT1",
+    "predicate": "has_lower_structural_confidence_than",
+    "object": "SIRT6",
+    "context": {
+      "en-US": "Among the nine NAD+ metabolism proteins assessed by AlphaFold, SIRT1 has the lowest prediction confidence (global pLDDT 65.0, 46.6% very-low) whereas SIRT6 is confidently predicted (pLDDT 87.5, 78.6% very-high). This ranking matters when selecting NAD+-target structures for downstream homology modeling or docking of sirtuin activators.",
+      "zh-TW": "在 AlphaFold 評估的九個 NAD+ 代謝蛋白中，SIRT1 的預測置信度最低（整體 pLDDT 65.0，46.6% 極低），而 SIRT6 預測信心高（pLDDT 87.5，78.6% 極高）。此排序在選擇 NAD+ 標的蛋白結構進行同源性建模或 sirtuin 活化劑對接時十分重要。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:29:14Z",
+    "updated": "2026-08-24T21:29:14Z",
+    "source": "task_output_alphafold_report_NAD+_26_JUN_2026.md"
+  },
+  {
+    "id": "ea798462cfe7",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "H3K9",
+    "context": {
+      "en-US": "SIRT1 is the principal H3K9 deacetylase (Vaquero et al., 2007). The vault graph lacked a direct SIRT1→H3K9 edge, routing it through 19 three-hop paths; this triple fills that curation gap, consistent with the source review's substrate catalogue.",
+      "zh-TW": "SIRT1 是主要的 H3K9 去乙醯酶（Vaquero et al., 2007）。vault 圖譜原本缺少直接的 SIRT1→H3K9 邊，需經 19 條三跳路徑繞行；此三元組填補該策展缺口，與來源回顧的受質目錄一致。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+  },
+  {
+    "id": "e9278d4c7eec",
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "H3K9",
+    "context": {
+      "en-US": "SIRT6 deacetylates H3K9 (Michishita et al., 2008/2009), contributing to its chromatin/DNA-repair program. The direct edge was missing from the graph and is restored here per the node-analysis curation-gap flag.",
+      "zh-TW": "SIRT6 去乙醯化 H3K9（Michishita et al., 2008/2009），參與其染色質/DNA 修復程序。此直接邊原本缺漏，依節點分析的策展缺口標記在此補回。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+  },
+  {
+    "id": "5ed42fd5f2ed",
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "H3K56",
+    "context": {
+      "en-US": "SIRT6 deacetylates H3K56 (Yang et al., 2009), a mark also touched by SIRT1; the node analysis flagged the missing direct SIRT6→H3K56 edge as a curation gap to fill in the next triples pass.",
+      "zh-TW": "SIRT6 去乙醯化 H3K56（Yang et al., 2009），此標記亦受 SIRT1 作用；節點分析將缺失的 SIRT6→H3K56 直接邊標記為應補回的策展缺口。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+  },
+  {
+    "id": "f8a148237046",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Tubulin",
+    "context": {
+      "en-US": "SIRT1 deacetylates α-tubulin (confidence ~0.9 in the source review), a direct substrate edge recovered by the node analysis as part of the sirtuin target/substrate catalogue.",
+      "zh-TW": "SIRT1 去乙醯化 α-tubulin（來源回顧中置信度約 0.9），是節點分析從 sirtuin 受質目錄中還原的直接受質邊。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+  },
+  {
+    "id": "5955b10dd932",
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "Tubulin",
+    "context": {
+      "en-US": "SIRT2 is the dominant α-tubulin/H4K16 deacetylase (confidence ~0.95), recovered as a direct edge by the node analysis; its Tubulin–SIRT2 axis is now an active drug-discovery hot spot (selective inhibitors/degraders).",
+      "zh-TW": "SIRT2 是主要的 α-tubulin/H4K16 去乙醯酶（置信度約 0.95），由節點分析還原為直接邊；其 Tubulin–SIRT2 軸現為活躍的藥物開發熱點（選擇性抑制劑/降解劑）。"
+    },
+    "confidence": 0.95,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+  },
+  {
+    "id": "214fe1a804a3",
+    "subject": "SIRT5",
+    "predicate": "promotes",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "SIRT5 is protumorigenic in CRC, HCC and NSCLC, reprogramming metabolism toward glycolysis and glutaminolysis; it desuccinylates LDHB to hyperactivate autophagy, feeding recycled nutrients to tumor cells. Its desuccinylase chemistry makes it resistant to nicotinamide inhibition.",
+      "zh-TW": "SIRT5 在 CRC、HCC 與 NSCLC 中具促癌性，將代謝重新編程朝向糖酵解與谷氨酰胺分解；它去琥珀酰化 LDHB 以過度活化自噬，為腫瘤細胞提供回收營養。其去琥珀酰酶化學特性使其對煙鹼醯胺抑制具抗性。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "id": "1ab4046bced2",
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "Lipogenesis",
+    "context": {
+      "en-US": "SIRT6 suppresses de novo lipogenesis by deacetylating histone H3 at the SREBP promoter, inhibiting SREBP1/2 and ChREBP — reinforcing its anti-Warburg, anti-cancer metabolic program.",
+      "zh-TW": "SIRT6 透過在 SREBP 啟動子處去乙醯化組蛋白 H3 來抑制從頭脂肪生成，進而抑制 SREBP1/2 與 ChREBP——強化其抗 Warburg、抗癌的代謝程序。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "id": "a653e6482a10",
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "Warburg Effect",
+    "context": {
+      "en-US": "SIRT6 is the clearest anti-Warburg sirtuin: it corepresses HIF-1α and suppresses transcription of glycolytic enzymes (glucose transporters, Hexokinase 2), and its loss permits Warburg-like aerobic glycolysis. Restoration suppresses glycolysis in HCC/glioma.",
+      "zh-TW": "SIRT6 是最明確的抗 Warburg sirtuin：它協同抑制 HIF-1α 並抑制糖酵解酶（葡萄糖轉運體、Hexokinase 2）的轉錄，其缺失會容許 Warburg 樣的有氧糖酵解。恢復 SIRT6 可抑制 HCC/神經膠質瘤中的糖酵解。"
+    },
+    "confidence": 0.75,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+  },
+  {
+    "id": "30675a39143a",
+    "subject": "COMT",
+    "predicate": "is_direct_metabolic_hub_for",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Graph node-analysis (networkx/scipy, 15 Aug 2026): COMT sits 1 hop from both Dopamine and Epinephrine with the highest Adamic-Adar latent pull (0.51–0.72) and #3 personalized-PageRank rank for both — the direct enzymatic gateway/hub of catecholamine handling, versus MAO which is peripheral.",
+      "zh-TW": "圖譜節點分析（networkx/scipy，2026-08-15）：COMT 距 Dopamine 與 Epinephrine 皆 1 跳，具最高的 Adamic-Adar 潛在連結拉力（0.51–0.72）與兩者皆 #3 的個人化 PageRank 排名——是兒茶酚胺處理的直接酵素樞紐/閘門，相對於周邊的 MAO。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_comt_mao_15_August_2026.md"
+  },
+  {
+    "id": "9e6d224da904",
+    "subject": "COMT",
+    "predicate": "is_direct_metabolic_hub_for",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Graph node-analysis: COMT links directly to Epinephrine (1 hop) and carries the strongest latent link pull (Adamic-Adar 0.721) of any source–target pair, placing it as the systemic catecholamine-metabolism hub in the wiki graph.",
+      "zh-TW": "圖譜節點分析：COMT 直接連結 Epinephrine（1 跳）並帶有所有來源–標的對中最強的潛在連結拉力（Adamic-Adar 0.721），在 wiki 圖譜中居於系統性兒茶酚胺代謝樞紐。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_comt_mao_15_August_2026.md"
+  },
+  {
+    "id": "9222efe20aa8",
+    "subject": "MAO",
+    "predicate": "is_peripheral_relative_to",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Graph node-analysis: MAO (degree 2, k-core 2) reaches Dopamine only through Epinephrine (no direct edge), with ~3–4× larger commute distance and near-null resistance z (Dopamine z = −0.70) — a peripheral metabolic spoke versus COMT's hub status.",
+      "zh-TW": "圖譜節點分析：MAO（degree 2、k-core 2）僅能透過 Epinephrine 到達 Dopamine（無直接邊），通勤距離約大 3–4 倍且阻力 z 近於零（Dopamine z = −0.70）——相對於 COMT 的樞紐地位，它是周邊的代謝輻條。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_comt_mao_15_August_2026.md"
+  },
+  {
+    "id": "0836dd888b2a",
+    "subject": "MAO",
+    "predicate": "metabolizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Graph node-analysis (and catecholamine biochemistry): MAO has a direct edge to Epinephrine and is the only substantive graph footprint (with Hydrogen Peroxide) linking MAO to the catecholamine lineage; its pull to Dopamine is only indirect via Epinephrine.",
+      "zh-TW": "圖譜節點分析（及兒茶酚胺生化）：MAO 與 Epinephrine 有直接邊，且是 MAO 連結兒茶酚胺譜系的唯一實質圖譜足跡（與 Hydrogen Peroxide 並列）；其對 Dopamine 的拉力僅經由 Epinephrine 間接產生。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_comt_mao_15_August_2026.md"
+  },
+  {
+    "id": "6b41e7ab32d9",
+    "subject": "SIRT3",
+    "predicate": "has_redundant_path_to",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Graph node-analysis (15 Aug 2026): SIRT3 reaches Adrenochrome through TWO independent shortest paths (via Oxidative Stress and NF-κB), versus SIRT1/SIRT2's single NF-κB bridge — i.e. SIRT3 is wired INTO Adrenochrome's stress zone with route redundancy/robustness.",
+      "zh-TW": "圖譜節點分析（2026-08-15）：SIRT3 經由兩條獨立最短路徑（透過 Oxidative Stress 與 NF-κB）到達 Adrenochrome，相對於 SIRT1/SIRT2 單一 NF-κB 橋樑——即 SIRT3 以路徑冗餘/穩健性被編入 Adrenochrome 的壓力區。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+  },
+  {
+    "id": "7107706dc731",
+    "subject": "SIRT1",
+    "predicate": "has_single_bridge_to",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Graph node-analysis: SIRT1 depends on a single bridge (NF-κB) to reach Adrenochrome, a single point of failure, whereas SIRT3 has two independent routes. By flow metrics (PPR #63, lowest effective resistance 0.094) SIRT1 is nevertheless the closest sirtuin to Adrenochrome.",
+      "zh-TW": "圖譜節點分析：SIRT1 依賴單一橋樑（NF-κB）到達 Adrenochrome，為單點失效；而 SIRT3 有兩條獨立路徑。然而依流量指標（PPR #63、最低有效電阻 0.094）SIRT1 仍是距 Adrenochrome 最近的 sirtuin。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+  },
+  {
+    "id": "51d59dbc1cba",
+    "subject": "SIRT3",
+    "predicate": "has_stronger_latent_link_to",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Graph node-analysis: SIRT3 shows the strongest latent (missing-edge) link pull toward Adrenochrome (Adamic-Adar 0.556 vs SIRT1 0.268), consistent with its two-path redundancy — the sirtuin the graph encodes as 'belonging' in the adrenochrome neighborhood.",
+      "zh-TW": "圖譜節點分析：SIRT3 對 Adrenochrome 展現最強的潛在（缺失邊）連結拉力（Adamic-Adar 0.556，對 SIRT1 的 0.268），與其雙路徑冗餘一致——圖譜將此 sirtuin 編碼為「屬於」adrenochrome 鄰域。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+  },
+  {
+    "id": "9194f49ccf94",
+    "subject": "SIRT1",
+    "predicate": "is_route_rich_to",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Graph node-analysis: SIRT1→Dopamine is the single most route-rich relationship in the sirtuin×catecholamine set (7 distinct shortest paths via Aging, Parkinson's Disease, Senescence, Tau, Resveratrol) — the dopamine link is indirect and aging/neurodegeneration-contextual, not enzymatic.",
+      "zh-TW": "圖譜節點分析：SIRT1→Dopamine 是 sirtuin×兒茶酚酚胺組中路徑最豐富的關係（7 條經由 Aging、Parkinson's Disease、Senescence、Tau、Resveratrol 的不同最短路徑）——其多巴胺連結是間接且老化/神經退化脈絡性的，而非酵素性的。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_sirtuins_catecholamines_15_August_2026.md"
+  },
+  {
+    "id": "41d3c665b52e",
+    "subject": "SIRT3",
+    "predicate": "has_redox_link_to",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Graph node-analysis: SIRT3→Dopamine has exactly one route, through Oxidative Stress — the only latent redox edge any sirtuin holds to a catecholamine — making SIRT3 the sirtuin with a genuine redox/genotoxic link to dopamine.",
+      "zh-TW": "圖譜節點分析：SIRT3→Dopamine 僅有一條路徑，經由 Oxidative Stress——任何 sirtuin 對兒茶酚胺持有的唯一潛在氧化還原邊——使 SIRT3 成為與多巴胺具真正氧化還原/基因毒性連結的 sirtuin。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_sirtuins_catecholamines_15_August_2026.md"
+  },
+  {
+    "id": "39eb9bbce724",
+    "subject": "COMT",
+    "predicate": "is_direct_metabolic_gateway_to",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Graph node-analysis (combined sirtuin/catecholamine drill): COMT is the actual enzymatic gateway to Dopamine (1-hop adjacency, #3 PageRank seed at Dopamine, highest Adamic-Adar), while the sirtuins' dopamine relevance is an aging/neurodegeneration-context phenomenon.",
+      "zh-TW": "圖譜節點分析（sirtuin/兒茶酚胺合併演練）：COMT 是通往 Dopamine 的真正酵素閘門（1 跳相鄰、Dopamine 種子 #3 PageRank、最高 Adamic-Adar），而 sirtuins 的多巴胺相關性是老化/神經退化脈絡現象。"
+    },
+    "confidence": 0.4,
+    "created": "2026-08-24T21:33:07Z",
+    "updated": "2026-08-24T21:33:07Z",
+    "source": "task_output_node_sirtuins_catecholamines_15_August_2026.md"
   }
 ]
