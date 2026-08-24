@@ -43,6 +43,22 @@
           ],
           "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
           "path": "tasks/en-US/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "FSP1–CoQ10–NAD(P)H 鐵死亡軸（深度剖析）",
+          "description": "綜整 Doll 等人（2019）的發現：FSP1 利用 NAD(P)H 在細胞膜上將泛醌（CoQ10）再生為泛醇，作為不依賴 GPX4 的平行煞車機制抑制鐵死亡；以及甲羥戊酸途徑因泛醌流失而匯聚於 FSP1，如何預測鐵死亡敏感性。",
+          "created": "2026-08-24",
+          "updated": "2026-08-24",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "fsp1",
+            "coenzyme-q10",
+            "lipid-peroxidation",
+            "mevalonate-pathway"
+          ],
+          "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026_zh-TW.md"
         }
       }
     },
