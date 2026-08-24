@@ -1131,7 +1131,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "a36f3a646549",
@@ -1145,7 +1145,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "976dd073f5c7",
@@ -1159,7 +1159,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "47a459b3343e",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "1da347611cc5",
@@ -3218,5 +3218,19 @@
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c91dd48c59bc",
+    "subject": "Coenzyme Q10",
+    "predicate": "reduced_to_ubiquinol_by",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Ubiquinone (CoQ10, oxidized) is the direct electron acceptor for FSP1, a plasma-membrane flavoprotein that uses NAD(P)H to reduce CoQ10 to ubiquinol (CoQ10H2), a lipophilic radical-trapping antioxidant that terminates phospholipid peroxyl-radical chains and suppresses ferroptosis. This FSP1–CoQ10–NAD(P)H axis is glutathione-independent and acts in parallel to GPX4. Because CoQ10 is a non-sterol product of the mevalonate pathway, statin-mediated depletion starves FSP1 of substrate and sensitizes cells to ferroptosis.",
+      "zh-TW": "泛醌（CoQ10，氧化態）是 FSP1 的直接電子受體；FSP1 是一種質膜黃素蛋白，利用 NAD(P)H 將 CoQ10 還原為泛醇（CoQ10H2），後者是脂溶性自由基捕獲抗氧化劑，能終止磷脂過氧自由基鏈並抑制鐵死亡。這條 FSP1–CoQ10–NAD(P)H 軸不依賴谷胱甘肽，並與 GPX4 平行運作。由於 CoQ10 是甲羥戊酸路徑的非固醇產物，statin 介導的耗竭會使 FSP1 缺乏受質並使細胞對鐵死亡增敏。"
+    },
+    "confidence": 0.95,
+    "source_document": "Coenzyme Q10.md",
+    "created": "2026-08-24T21:25:02Z",
+    "updated": "2026-08-24T21:25:02Z"
   }
 ]
