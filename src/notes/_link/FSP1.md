@@ -73,7 +73,7 @@ The substrate for FSP1 — **ubiquinone/CoQ10** — is a **non-sterol product of
 
 ## Vitamin K Cycle Extension
 
-A 2022 extension showed that FSP1 is also a **warfarin-resistant vitamin K reductase**. FSP1 reduces vitamin K to its hydroquinone form (VKH₂), sustaining a **non-canonical vitamin K redox cycle** that, like the CoQ10 cycle, supplies a reduced radical-trapping antioxidant independent of GPX4. This broadens FSP1 into a general **quinone-reductase ferroptosis suppressor** and explains its antidotal activity against warfarin poisoning. (Wan et al., *Nature* 2022; DOI to be verified at curation.)
+A 2022 extension showed that FSP1 is also a **warfarin-resistant vitamin K reductase**. FSP1 reduces vitamin K to its hydroquinone form (VKH₂), sustaining a **non-canonical vitamin K redox cycle** that, like the CoQ10 cycle, supplies a reduced radical-trapping antioxidant independent of GPX4. This broadens FSP1 into a general **quinone-reductase ferroptosis suppressor** and explains its antidotal activity against warfarin poisoning. (Mishima et al., *Nature* 608:778–783 (2022); doi:10.1038/s41586-022-05022-3.)
 
 ## Regulation of Expression
 

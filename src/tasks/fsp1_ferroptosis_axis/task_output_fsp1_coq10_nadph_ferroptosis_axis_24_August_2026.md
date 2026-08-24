@@ -81,7 +81,7 @@ In other words, **loss of ubiquinone converges on FSP1**, and because FSP1 is th
 
 ## 6. Extension — the non-canonical vitamin K cycle (2022)
 
-A 2022 *Nature* study extended the model: FSP1 is also a **warfarin-resistant vitamin K reductase**, reducing vitamin K to its hydroquinone (VKH₂) and sustaining a **non-canonical vitamin K redox cycle** that likewise supplies a reduced radical-trapping antioxidant. This reframed FSP1 as a general **quinone-reductase ferroptosis suppressor** and explained its ability to overcome warfarin poisoning. (Wan et al., *Nature* 2022 — DOI to be verified at curation.)
+A 2022 *Nature* study extended the model: FSP1 is also a **warfarin-resistant vitamin K reductase**, reducing vitamin K to its hydroquinone (VKH₂) and sustaining a **non-canonical vitamin K redox cycle** that likewise supplies a reduced radical-trapping antioxidant. This reframed FSP1 as a general **quinone-reductase ferroptosis suppressor** and explained its ability to overcome warfarin poisoning. (Mishima et al., *Nature* 608:778–783 (2022); doi:10.1038/s41586-022-05022-3.)
 
 ## 7. Regulation of FSP1 expression
 

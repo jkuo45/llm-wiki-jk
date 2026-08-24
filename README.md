@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 24_AUG_2026 | 33 | 1681 | 1,031,901 | 9.16 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 24_AUG_2026 | 33 | 1681 | 1,032,069 | 9.16 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 24_AUG_2026 | 19 | 259 | 198,105 | 2.56 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 24_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 24_AUG_2026 | 11 | 280 | 244,149 | 2.77 MB |
@@ -15,7 +15,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 24_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 24_AUG_2026 | 16 | 172 | 305,382 | 3.82 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 24_AUG_2026 | **120** | **3121** | **2,486,260** | **26.20 MB** |
+| **subtotal** | 24_AUG_2026 | **120** | **3121** | **2,486,428** | **26.20 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -250,7 +250,7 @@
 <details>
 <summary><strong>Tasks (80 total)</strong> — click to expand</summary>
 
-- [`fsp1_ferroptosis_axis/` task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md) [[src/tasks/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md|wiki]] (24_AUG_2026 12:36 PM PDT)
+- [`fsp1_ferroptosis_axis/` task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md) [[src/tasks/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md|wiki]] (24_AUG_2026 12:48 PM PDT)
 - [`node_network_adrenochrome_sirtuins_20_AUG_2026/` task_output_node_network_study_adrenochrome_defense_programs_20_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md) [[src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md|wiki]] (23_AUG_2026 10:36 AM PDT)
 - [`adrenochrome_mb_ag/` _document_ - GOPS - glyco-oxidative proteostasis](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md) [[src/tasks/adrenochrome_mb_ag/_document_ - GOPS - glyco-oxidative proteostasis.md|wiki]] (23_AUG_2026 10:36 AM PDT)
 - [`adrenochrome_mb_ag/` _document_ - MB, AG nitric oxide pathway signaling](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md) [[src/tasks/adrenochrome_mb_ag/_document_ - MB, AG nitric oxide pathway signaling.md|wiki]] (23_AUG_2026 10:36 AM PDT)

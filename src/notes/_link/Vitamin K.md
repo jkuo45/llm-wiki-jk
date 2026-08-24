@@ -17,7 +17,7 @@ aliases: [Phylloquinone, Menaquinone, Menadione, VK]
 
 ## Ferroptosis relevance — the non-canonical vitamin K cycle
 
-A 2022 *Nature* study showed that **FSP1** is a **warfarin-resistant vitamin K reductase**: FSP1 reduces vitamin K to VKH₂ at the expense of **NAD(P)H**, sustaining a **non-canonical vitamin K redox cycle** independent of GPX4/glutathione (Wan et al., *Nature* 2022; DOI to be verified at curation). This extended the FSP1 model from a CoQ10 reductase to a general **quinone-reductase ferroptosis suppressor**, and explained FSP1's ability to overcome warfarin poisoning (warfarin inhibits the canonical VKOR cycle, not the FSP1 cycle).
+A 2022 *Nature* study showed that **FSP1** is a **warfarin-resistant vitamin K reductase**: FSP1 reduces vitamin K to VKH₂ at the expense of **NAD(P)H**, sustaining a **non-canonical vitamin K redox cycle** independent of GPX4/glutathione (Mishima et al., *Nature* 608:778–783 (2022); doi:10.1038/s41586-022-05022-3). This extended the FSP1 model from a CoQ10 reductase to a general **quinone-reductase ferroptosis suppressor**, and explained FSP1's ability to overcome warfarin poisoning (warfarin inhibits the canonical VKOR cycle, not the FSP1 cycle).
 
 > [!info] Parallel radical traps
 > Both **ubiquinol (CoQ10)** and **VKH₂ (vitamin K hydroquinone)** are FSP1-generated reduced quinones that halt phospholipid peroxidation. Vitamin K thus provides a second, warfarin-insensitive branch of the FSP1 defense alongside the [[Coenzyme Q10|CoQ10/ubiquinone]] branch.
