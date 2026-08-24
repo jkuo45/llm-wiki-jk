@@ -25,7 +25,6 @@
   <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/">
 </head>
 <body>
-<button id="mobile-toggle" class="visible" title="Open search and filters">&#9776;</button>
 <div id="top-links">
   <a href="https://www.johnnykuo.com" title="Back to Notebook / 返回筆記本">&#8592; Notebook / 筆記本</a>
   <button id="btn-reader" title="Read articles / 閱讀文章">Reader / 閱讀器</button>
@@ -39,6 +38,14 @@
   <div id="tooltip"></div>
   <div id="wiki-tooltip"></div>
   <div id="controls">
+    <div class="controls-spacer" aria-hidden="true"></div>
+    <button id="btn-prompt" title="Analysis panel / 分析面板" aria-label="Analysis panel">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
+      <span id="prompt-activity-dot" class="prompt-activity-dot" aria-hidden="true"></span>
+    </button>
+    <button id="btn-notes" title="Notes / 筆記" aria-label="Notes panel">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
+    </button>
     <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
     </button>
@@ -52,14 +59,29 @@
     <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></span>
     </button>
-    <button id="btn-chat" title="Analysis panel / 分析面板" aria-label="Analysis panel">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="20" x2="6" y2="14"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="18" y1="20" x2="18" y2="10"></line></svg></span>
-      <span id="chat-activity-dot" class="chat-activity-dot" aria-hidden="true"></span>
+    <button id="btn-unstick" title="Reset all dragged nodes to physics positions / 取消固定" aria-label="Reset all dragged nodes to physics positions" style="display:none">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg></span>
     </button>
-    <button id="btn-notes" title="Notes / 笔记" aria-label="Notes panel">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
+    <button id="btn-settings" hidden title="Settings / 設定" aria-label="Settings / 設定">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
     </button>
-    <button id="btn-unstick" title="Reset all dragged nodes to physics positions" style="display:none">Unstick All / 取消固定</button>
+    <div id="settings-popover" hidden>
+      <div id="display-panel">
+        <h3>Display / 顯示</h3>
+        <div class="display-grid">
+          <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
+          <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
+          <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+        </div>
+      </div>
+      <div id="theme-panel">
+        <h3>Theme / 主題</h3>
+        <div class="display-grid" id="theme-grid">
+          <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
+          <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="zoom-bar">
     <button id="zoom-in" title="Zoom in">+</button>
@@ -71,109 +93,60 @@
     <span class="zoom-label">Zoom</span>
   </div>
 </div>
-<div id="sidebar" class="closed">
-  <div id="sidebar-header">
-    <div id="sidebar-tabs" role="tablist">
-      <button type="button" class="tab active" id="tab-btn-search" data-tab="search" role="tab" aria-selected="true">Search & Filters<span class="tab-zh">搜尋與篩選</span></button>
-      <button type="button" class="tab" id="tab-btn-settings" data-tab="settings" role="tab" aria-selected="false">Settings<span class="tab-zh">設定</span></button>
-    </div>
-    <button id="sidebar-close" title="Close panel">&times;</button>
-  </div>
-  <div class="tab-pane" id="tab-search">
-    <div id="search-wrap">
-      <input id="search" type="text" placeholder="Search nodes / 搜尋節點..." autocomplete="off">
-      <div id="search-results"></div>
-    </div>
-    <div id="trace-panel">
-      <div id="trace-header">
-        <span>Graph Query / 圖形查詢</span>
-        <span class="chevron" id="trace-chevron">&#9654;</span>
-      </div>
-      <div id="trace-body">
-        <select id="trace-select">
-          <option value="">Select a query...</option>
-        </select>
-        <div id="trace-summary"></div>
-        <div id="trace-routes"></div>
-        <div id="trace-key-nodes"></div>
-        <button id="trace-clear">Clear Trace / 清除追蹤</button>
-      </div>
-    </div>
-    <div id="info-panel">
-      <h3>Node Info / 節點資訊</h3>
-      <div id="info-content"><span class="empty">Click a node to inspect it / 點擊節點以檢查</span></div>
-    </div>
-    <div id="legend-wrap">
-      <div id="community-key-nodes"></div>
-      <h3>Communities / 社群</h3>
-      <div id="legend"></div>
-    </div>
-    <div id="stats"></div>
-  </div>
-  <div class="tab-pane" id="tab-settings" hidden>
-    <div id="display-panel">
-      <h3>Display / 顯示</h3>
-      <div class="display-grid">
-        <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
-        <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
-        <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
-      </div>
-    </div>
-    <div id="theme-panel">
-      <h3>Theme / 主題</h3>
-      <div class="display-grid" id="theme-grid">
-        <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
-        <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Dataset info panel (content rendered by graph.js from loaded data) -->
 <div id="dataset-panel">
   <div class="panel-scroll" id="dataset-scroll"></div>
 </div>
-<div id="chat-panel">
-  <div id="chat-box">
-  <div id="chat-header">
-    <div class="chat-header-left">
-      <span class="chat-title">Analysis <span class="chat-title-zh">分析</span></span>
-      <div id="chat-mode-switch" role="tablist" aria-label="Analysis mode">
-        <button type="button" class="chat-mode-tab active" data-mode="ask" role="tab" aria-selected="true">Prompt<span class="mode-dot" aria-hidden="true"></span></button>
-        <button type="button" class="chat-mode-tab" data-mode="explore" role="tab" aria-selected="false">Graph<span class="mode-dot" aria-hidden="true"></span></button>
+<div id="prompt-panel">
+  <div id="prompt-box">
+  <div id="prompt-header">
+    <div class="panel-header-left">
+      <span class="panel-title">Analysis / <span class="panel-title-zh">分析</span></span>
+    </div>
+    <div class="panel-header-actions">
+      <button id="prompt-close" title="Close panel / 關閉面板" aria-label="Close panel" data-i18n-title="panelClose">&times;</button>
+    </div>
+  </div>
+  <div id="prompt-filter-bar">
+    <div id="prompt-mode-switch" role="tablist" aria-label="Analysis mode" data-i18n-title="modeSwitchLabel">
+      <button type="button" class="prompt-mode-tab active" data-mode="ask" role="tab" aria-selected="true"><span data-i18n="modeAsk">Prompt</span><span class="mode-dot" aria-hidden="true"></span></button>
+      <button type="button" class="prompt-mode-tab" data-mode="explore" role="tab" aria-selected="false"><span data-i18n="modeGraph">Graph</span><span class="mode-dot" aria-hidden="true"></span></button>
+    </div>
+    <div class="prompt-filter-right">
+      <label id="prompt-filter-toggle" data-i18n-title="filterTitle">
+        <input type="checkbox" id="prompt-filter-nodes" disabled>
+        <span><span data-i18n="filterLabel">Filter</span> (<span id="prompt-filter-count">0</span>)</span>
+      </label>
+      <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
+        <button type="button" data-lang="en-US" title="English (US)">EN</button>
+        <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
       </div>
     </div>
-    <div class="chat-header-actions">
-      <button id="chat-new" title="Reset analysis / 重設分析">Reset</button>
-      <button id="chat-close" title="Close panel / 關閉面板" aria-label="Close panel">&times;</button>
-    </div>
   </div>
-  <div id="chat-filter-bar">
-    <label id="chat-filter-toggle" title="Only show the highlighted nodes and their links">
-      <input type="checkbox" id="chat-filter-nodes" disabled>
-      <span>Filter (<span id="chat-filter-count">0</span>)</span>
-    </label>
-  </div>
-  <div id="chat-messages"></div>
+  <div id="prompt-messages"></div>
   <div id="analysis-tools"></div>
-  <div id="chat-modes">
-    <label id="graphify-toggle" title="On: run graph operations (explain / trace / path). Off: answer from the wiki.">
+  <!-- Node/edge info card — rendered by ui.js (showInfo / showEdgeInfo / route
+       mechanisms). Lives outside #analysis-tools so it works in both modes. -->
+  <div id="at-node-detail" class="at-node-detail" hidden></div>
+  <div id="prompt-modes">
+    <label id="graphify-toggle" data-i18n-title="graphifyTitle">
       <input type="checkbox" id="graphify-checkbox">
-      <span>Graphify</span>
+      <span data-i18n="graphifyLabel">Graphify</span>
     </label>
-    <span id="graphify-off-hint">Wiki retrieval</span>
-    <span class="chat-mode-divider"></span>
+    <span id="graphify-off-hint" data-i18n="graphifyOff">Wiki retrieval</span>
+    <span class="prompt-mode-divider"></span>
     <div id="response-mode" role="group" aria-label="Response view mode">
-      <span class="resp-mode-label">MODE</span>
+      <span class="resp-mode-label" data-i18n="respModeLabel">MODE</span>
       <button type="button" class="resp-mode-btn" data-mode="md" title="Render response as inline markdown">MD</button>
       <button type="button" class="resp-mode-btn active" data-mode="html" title="Render response as a standalone HTML page">HTML</button>
     </div>
   </div>
-  <div id="chat-tags"></div>
-  <div id="chat-input-wrap">
-    <div id="chat-tag-popup"></div>
-    <textarea id="chat-input" rows="3" enterkeyhint="send" maxlength="4000" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
-    <button id="chat-send" title="Send">Send</button>
+  <div id="prompt-tags"></div>
+  <div id="prompt-input-wrap">
+    <div id="prompt-tag-popup"></div>
+    <textarea id="prompt-input" rows="3" enterkeyhint="send" maxlength="4000" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
+    <button id="prompt-send" data-i18n="sendLabel" data-i18n-title="sendTitle">Send</button>
   </div>
   </div>
 </div>
@@ -182,10 +155,10 @@
 <div id="notes-panel">
   <div id="notes-box">
     <div id="notes-header">
-      <div class="chat-header-left">
-        <span class="chat-title">Notes <span class="chat-title-zh">筆記</span></span>
+      <div class="panel-header-left">
+        <span class="panel-title">Notes / <span class="panel-title-zh">筆記</span></span>
       </div>
-      <div class="chat-header-actions">
+      <div class="panel-header-actions">
         <button id="notes-close" aria-label="Close panel" title="Close panel">&times;</button>
       </div>
     </div>
@@ -200,7 +173,17 @@
           <svg class="notes-combobox-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
           <div id="notes-combobox-popup" class="notes-popup" role="listbox" hidden></div>
         </div>
-        <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
+        <button id="notes-sort" type="button" class="notes-sort-btn" title="Sort by created date — newest first" aria-label="Sort by created date — newest first">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="17" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+            <polyline class="notes-sort-arrow-up" points="9 14 12 11 15 14"></polyline>
+            <polyline class="notes-sort-arrow-down" points="9 17 12 20 15 17"></polyline>
+          </svg>
+        </button>
+        <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
           <button type="button" data-lang="en-US" title="English (US)">EN</button>
           <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
         </div>
@@ -252,11 +235,7 @@
         <div class="notes-lb-topbar">
           <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Gallery</button>
           <button id="notes-lb-top-prev" type="button" title="Previous image" data-i18n="prevNav" data-i18n-title="prevImg" disabled>&larr; Previous</button>
-          <button id="notes-lb-top-next" type="button" title="Next image" data-i18n-title="nextImg" disabled>Next &rarr;</button>
-          <div class="lang-toggle" id="notes-lang" role="group" aria-label="Panel language">
-            <button type="button" data-lang="en-US" title="English (US)">EN</button>
-            <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
-          </div>
+          <button id="notes-lb-top-next" type="button" title="Next image" data-i18n="nextNav" data-i18n-title="nextImg" aria-label="Next →" disabled>Next &rarr;</button>
         </div>
         <div class="notes-lb-title" id="notes-lb-title"></div>
       </div>
@@ -265,29 +244,17 @@
           <div class="notes-lb-nav"><button id="notes-lb-prev" title="Previous image" data-i18n-title="prevImg" disabled>&larr;</button></div>
           <div class="notes-lb-imgwrap" id="notes-lb-imgwrap">
             <div class="notes-lb-zoomable" id="notes-lb-zoomable">
-              <img id="notes-lb-img" alt="Note page">
+              <img id="notes-lb-img" alt="Note page" draggable="false">
               <svg id="notes-lb-svg" xmlns="http://www.w3.org/2000/svg"></svg>
             </div>
             <div class="notes-lb-zoom">
-              <button id="notes-lb-zoomin" title="Zoom in" data-i18n-title="zoomIn">+</button>
-              <button id="notes-lb-zoomout" title="Zoom out" data-i18n-title="zoomOut">&minus;</button>
-              <button id="notes-lb-fit" title="Fit" data-i18n="fit" data-i18n-title="fit">Fit</button>
-              <button id="notes-lb-view" type="button" title="Fullscreen view of the note">⛶ View</button>
-              <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" data-i18n-title="annDownload" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
+              <button id="notes-lb-view" type="button" title="Fullscreen view of the note">⛶ Full</button>
             </div>
           </div>
           <div class="notes-lb-nav"><button id="notes-lb-next" title="Next image" data-i18n-title="nextImg" disabled>&rarr;</button></div>
         </div>
         <div class="notes-lb-pages" id="notes-lb-pages"></div>
         <div class="notes-lb-side">
-          <div class="at-h">
-            <span data-i18n="transcript">Transcript</span>
-            <span class="at-h-right">
-              <span id="notes-lb-status" class="notes-lb-status" role="status"></span>
-              <button id="notes-lb-send-prompt" type="button" class="notes-prompt-btn" data-i18n="sendPromptBtn" data-i18n-title="sendPrompt">→ Prompt</button>
-            </span>
-          </div>
-          <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
           <div class="at-h" data-i18n="tags">Tags</div>
           <div id="notes-lb-tags" class="notes-chip-row"></div>
           <div class="at-h" id="notes-ann-start">
@@ -298,7 +265,6 @@
             <button data-tool="rect" title="Rectangle highlight" data-i18n="toolRectLabel" data-i18n-title="toolRect">▭ Rect</button>
             <button data-tool="arrow" title="Arrow" data-i18n="toolArrowLabel" data-i18n-title="toolArrow">→ Arrow</button>
             <button data-tool="label" title="Text label" data-i18n="toolLabelLabel" data-i18n-title="toolLabel">A Label</button>
-            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page" data-i18n="clearAnn" data-i18n-title="clearAnnTitle">Clear</button>
           </div>
           <div class="notes-ann-colors" id="notes-ann-colors">
             <button data-color="#ffcc00" style="background:#ffcc00" title="Yellow" data-i18n-title="colorYellow"></button>
@@ -307,6 +273,18 @@
             <button data-color="#ff7b72" style="background:#ff7b72" title="Red" data-i18n-title="colorRed"></button>
             <button data-color="#d2a8ff" style="background:#d2a8ff" title="Purple" data-i18n-title="colorPurple"></button>
           </div>
+          <div class="notes-ann-actions">
+            <button id="notes-lb-ann-clear" type="button" title="Clear annotations on current page" data-i18n="clearAnn" data-i18n-title="clearAnnTitle">Clear</button>
+            <button id="notes-lb-ann-download" type="button" class="notes-ann-download" title="Download this page as a PNG with the annotations drawn in" data-i18n-title="annDownload" aria-label="Download with annotations"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
+          </div>
+          <div class="at-h">
+            <span data-i18n="transcript">Transcript</span>
+            <span class="at-h-right">
+              <span id="notes-lb-status" class="notes-lb-status" role="status"></span>
+              <button id="notes-lb-send-prompt" type="button" class="notes-prompt-btn" data-i18n="sendPromptBtn" data-i18n-title="sendPrompt">→ Prompt</button>
+            </span>
+          </div>
+          <div id="notes-lb-ocr" class="notes-lb-ocr"><span class="notes-muted">No transcript yet.</span></div>
         </div>
       </div>
     </div>
@@ -355,18 +333,23 @@
         </div>
       </div>
       <div class="page-modal-controls">
-        <select id="reader-select" title="Choose article / 選擇文章"></select>
-        <div class="lang-toggle" id="reader-lang" role="group" aria-label="Language / 語言">
+        <div class="reader-source-toggle" id="reader-source" role="group" aria-label="Content source / 內容來源">
+          <button type="button" data-source="articles" class="active" title="Articles / 文章">Articles / 文章</button>
+          <button type="button" data-source="tasks" title="Task outputs / 任務輸出">Task Outputs / 任務輸出</button>
+        </div>
+        <div class="controls-spacer" aria-hidden="true"></div>
+        <div class="lang-toggle panel-lang" id="reader-lang" role="group" aria-label="Language / 語言">
           <button type="button" data-lang="en-US" title="English (US)">EN</button>
           <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
         </div>
+        <select id="reader-select" title="Choose article / 選擇文章" hidden></select>
       </div>
     </div>
     <iframe id="page-modal-frame" title="Reader"></iframe>
   </div>
 </div>
 
-<!-- HTML mode overlay — renders a chat response as a standalone page (pages.css) -->
+<!-- HTML mode overlay — renders a prompt response as a standalone page (pages.css) -->
 <div id="html-mode-overlay">
   <div id="html-mode-modal">
     <div id="html-mode-header">

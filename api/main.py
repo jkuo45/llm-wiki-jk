@@ -1,10 +1,10 @@
 """FastAPI adapter between the graph UI and a headless `opencode serve`.
 
 Responsibilities:
-  - translate the opencode event bus into the SSE contract graphify-out/components/chat.js
+  - translate the opencode event bus into the SSE contract web/components/prompt.js
     already speaks ({type: reasoning|text|highlight|done|error})
   - run read-only networkx graph operations (query/explain/path/analyze)
-  - map browser chat windows onto long-lived opencode sessions
+  - map browser Prompt-panel sessions onto long-lived opencode sessions
 
 The opencode server itself is never exposed publicly; it binds to loopback and
 this process is the only client.
@@ -73,7 +73,7 @@ LOCAL_ORIGIN_HINTS = (
     "file://",
 )
 
-# Idle chat sessions are reaped so a long-running server does not accumulate
+# Idle prompt sessions are reaped so a long-running server does not accumulate
 # opencode sessions from abandoned browser tabs.
 SESSION_TTL_SECONDS = int(os.environ.get("SESSION_TTL_SECONDS", "3600"))
 SESSION_SWEEP_SECONDS = 300
@@ -127,7 +127,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Knowledge Graph Chat API",
+    title="Knowledge Graph Prompt API",
     version="2.0.0",
     lifespan=lifespan,
 )
@@ -188,12 +188,12 @@ async def unhandled_exception_handler(request: Request, exc: Exception):
     )
 
 
-class ChatRequest(BaseModel):
+class PromptRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=4000)
     session_id: str | None = None
-    # Client-side routing switch (the "Graphify" checkbox in the chat composer).
+    # Client-side routing switch (the "Graphify" checkbox in the prompt composer).
     # True  -> always attempt a graph op (query/explain/path/analyze)
-    # False -> always answer from the wiki via chat, even if the text says "graphify"
+    # False -> always answer from the wiki via prompt, even if the text says "graphify"
     # None  -> legacy behaviour: sniff for an explicit "graphify <op>" phrase
     graphify: bool | None = None
     # @-tagged node names from the composer (explicit context for the turn).
@@ -241,7 +241,7 @@ async def _touch_session(session_id: str | None) -> str:
             _sessions.pop(oldest, None)
             asyncio.create_task(delete_session(oldest))
 
-    new_id = await create_session(title="graph-chat")
+    new_id = await create_session(title="graph-prompt")
     async with _session_lock:
         _sessions[new_id] = time.monotonic()
     logger.info(f"Created session {new_id} (active={len(_sessions)})")
@@ -274,12 +274,12 @@ GREETING_WORDS = {
 
 
 @api_v1.post("/intent", response_model=IntentResponse)
-async def intent_endpoint(request: ChatRequest):
-    """Phase 1: route the turn to a graph op or to wiki chat.
+async def intent_endpoint(request: PromptRequest):
+    """Phase 1: route the turn to a graph op or to wiki prompt.
 
     The client's `graphify` switch is authoritative when present; otherwise we
     fall back to sniffing for an explicit "graphify <op>" phrase. Only the
-    graph-op branch costs a classifier call — greetings and ordinary chat are
+    graph-op branch costs a classifier call — greetings and ordinary prompts are
     resolved locally.
     """
     clean = sanitize_input(request.message)
@@ -312,7 +312,7 @@ async def intent_endpoint(request: ChatRequest):
         lang = raw_intent.get("lang") or detect_lang(clean)
         logger.info(f"Graphify intent: {intent}, lang: {lang}")
         # A forced graphify turn that the classifier cannot map to an op falls
-        # back to wiki chat instead of dead-ending on "I couldn't understand".
+        # back to wiki prompt instead of dead-ending on "I couldn't understand".
         if intent.get("intent") != "unknown" or request.graphify is None:
             return IntentResponse(
                 intent=intent.get("intent", "unknown"),
@@ -325,16 +325,16 @@ async def intent_endpoint(request: ChatRequest):
                 analysis=intent.get("analysis"),
                 session_id=request.session_id,
             )
-        logger.info("Graphify op unresolved; falling back to wiki chat")
+        logger.info("Graphify op unresolved; falling back to wiki prompt")
 
     try:
         session_id = await _touch_session(request.session_id)
     except OpencodeUnavailable as e:
         logger.error(f"Cannot allocate session: {e}")
-        raise HTTPException(status_code=503, detail="Chat service unavailable") from e
+        raise HTTPException(status_code=503, detail="Prompt service unavailable") from e
 
     return IntentResponse(
-        intent="chat",
+        intent="prompt",
         lang=detect_lang(clean),
         message=clean,
         session_id=session_id,
@@ -342,8 +342,8 @@ async def intent_endpoint(request: ChatRequest):
 
 
 @api_v1.post("/session/reset")
-async def reset_session(request: ChatRequest):
-    """Drop a chat session so the next turn starts with clean context."""
+async def reset_session(request: PromptRequest):
+    """Drop a prompt session so the next turn starts with clean context."""
     if request.session_id:
         async with _session_lock:
             existed = _sessions.pop(request.session_id, None) is not None
@@ -430,7 +430,7 @@ async def _with_heartbeat(
 
 @api_v1.post("/execute/stream")
 async def execute_stream(request: ExecuteRequest):
-    """SSE endpoint. Chat streams reasoning + text; graph ops emit one event."""
+    """SSE endpoint. Prompt streams reasoning + text; graph ops emit one event."""
     if request.message:
         request.message = sanitize_input(request.message)
     if request.node:
@@ -447,7 +447,7 @@ async def execute_stream(request: ExecuteRequest):
         request.analysis = sanitize_analysis(request.analysis)
     request.tags = sanitize_tags(request.tags)
 
-    ALLOWED_INTENTS = {"greeting", "chat", "query", "explain", "path", "analyze"}
+    ALLOWED_INTENTS = {"greeting", "prompt", "query", "explain", "path", "analyze"}
     if request.intent not in ALLOWED_INTENTS:
         async def _unknown():
             yield _sse({"type": "text", "text": _unknown_result()["text"]})
@@ -457,21 +457,21 @@ async def execute_stream(request: ExecuteRequest):
             _unknown(), media_type="text/event-stream", headers=SSE_HEADERS
         )
 
-    # Chat intent — stream reasoning + answer, then emit graph highlights.
-    if request.intent == "chat" and request.message:
+    # Prompt intent — stream reasoning + answer, then emit graph highlights.
+    if request.intent == "prompt" and request.message:
         try:
             session_id = await _touch_session(request.session_id)
         except OpencodeUnavailable as e:
             logger.error(f"Cannot allocate session: {e}")
 
             async def _down():
-                yield _sse({"type": "error", "text": "Chat service unavailable."})
+                yield _sse({"type": "error", "text": "Prompt service unavailable."})
 
             return StreamingResponse(
                 _down(), media_type="text/event-stream", headers=SSE_HEADERS
             )
 
-        async def _chat():
+        async def _prompt():
             text_buf = ""
             done_seen = False
             # Explicit @-tagged nodes are pinned into the prompt as context so
@@ -499,7 +499,7 @@ async def execute_stream(request: ExecuteRequest):
                     yield _sse({"type": "highlight", **highlights})
 
         return StreamingResponse(
-            _with_heartbeat(_chat()),
+            _with_heartbeat(_prompt()),
             media_type="text/event-stream",
             headers=SSE_HEADERS,
         )

@@ -40,12 +40,20 @@ export function updateHash(pushState = true) {
   if (state.analysisOpen) {
     parts.push('analysis');
     parts.push(`mode=${encodeURIComponent(state.analysisMode)}`);
+    if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
+      parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
+    }
+  } else if (state.activeTrace || state.selectedNode || state.selectedEdge) {
+    // Panel closed but a selection persists: mark `analysis=off` so the hash
+    // round-trips faithfully (restore keeps the panel closed) while a
+    // hand-authored `#node=…` deep link (no marker) still opens it on restore.
+    parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
   const url = window.location.pathname + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
-  // note runs openLightbox → setViewMode → setPage). Compare full
+  // note runs openLightbox → setPage). Compare full
   // URLs: the relative `url` above rewrites against the current location.
   if (new URL(url, window.location.href).href === window.location.href) return;
   if (pushState) {

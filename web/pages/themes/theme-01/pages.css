@@ -1,0 +1,233 @@
+/* ===== Shared base CSS for graphify-out pages ===== */
+/* Dark theme is the default (:root). The light theme lives in
+   pages-light.css, which pages include as a second stylesheet and toggle
+   with the `disabled` attribute (#theme-light). */
+:root{
+  --bg:#0f0f1a; --bg2:#16162b; --card:#1a1a2e; --line:#2a2a4e; --line2:#3a3a5e;
+  --text:#e0e0e0; --dim:#9a9ab0; --mute:#6b6b85;
+  --teal:#3EC9A7; --teal-hover:#5fe3c0; --red:#E4575E; --amber:#E8A33D; --purple:#9D8DF1; --blue:#5DA8FF; --pink:#F283B2;
+  --green:#58D68D; --orange:#F5A65B;
+  /* surfaces & states */
+  --nav-bg:rgba(15,15,26,.92);
+  --code-bg:#23233f;
+  --img-plate-bg:#111122;
+  --row-hover:#202038;
+  --copy-btn-bg:rgba(35,35,63,.9);
+  --tip-bg:#23233f; --tip-shadow:0 6px 24px rgba(0,0,0,.5);
+  --link-dash:rgba(62,201,167,.55);
+  --md-code-bg:#0f0f1a;
+  /* diagram canvases */
+  --net-bg:radial-gradient(circle at 50% 45%, #191934 0%, #0f0f1a 70%);
+  --net-node:#8b8bb0; --net-text:#c9c9dd; --net-line-on:#5a5a8a; --net-line-off:#1a1a30;
+  /* tinted panels & chips */
+  --amber-bg:rgba(232,163,61,.08); --amber-border:rgba(232,163,61,.3);
+  --face-green-bg:rgba(88,214,141,.08); --face-green-border:rgba(88,214,141,.25);
+  --face-red-bg:rgba(228,87,94,.08); --face-red-border:rgba(228,87,94,.25);
+  --chip-p-bg:rgba(88,214,141,.08); --chip-p-border:rgba(88,214,141,.4);
+  --chip-h-bg:rgba(228,87,94,.08); --chip-h-border:rgba(228,87,94,.4);
+  --chip-d-bg:rgba(232,163,61,.08); --chip-d-border:rgba(232,163,61,.4);
+  --chip-n-bg:rgba(224,224,224,.04);
+  --badge-amber-bg:#E8A33D; --badge-amber-fg:#191934;
+  --badge-preclin-bg:#E8A33D; --badge-preclin-fg:#FFFFFF;
+  --btn-fg:#0b1220;
+  --lightbox-bg:rgba(8,8,16,.92);
+  --scroll-thumb:rgba(107,107,133,.45);
+  --wrap-width:1240px;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+html{scroll-behavior:smooth;}
+html,body{overflow-x:hidden; overflow-x:clip;}
+body{
+  background:var(--bg); color:var(--text);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+html[lang="zh-TW"] body{
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang TC","Microsoft JhengHei",Helvetica,Arial,sans-serif;
+}
+a{color:var(--teal); text-decoration:none;}
+a:hover{text-decoration:underline;}
+code{background:var(--code-bg); padding:1px 6px; border-radius:4px; font-size:.9em; overflow-wrap:anywhere;}
+.wrap{max-width:var(--wrap-width); margin:0 auto; padding:0 24px;}
+section{padding:56px 0; border-top:1px solid var(--line); scroll-margin-top:60px;}
+h1{font-size:2.3rem; line-height:1.2; letter-spacing:-.5px;}
+h2{font-size:1.5rem; margin-bottom:6px; letter-spacing:-.3px;}
+h3{font-size:1.05rem; margin:18px 0 8px;}
+.sub{color:var(--dim);}
+.lead{color:var(--dim); max-width:900px; font-size:1.05rem;}
+.badge{display:inline-block; background:var(--code-bg); border:1px solid var(--line); color:var(--dim);
+  padding:2px 10px; border-radius:999px; font-size:.75rem; margin-right:6px; margin-bottom:6px;}
+.badge.teal{color:var(--teal); border-color:var(--teal);}
+.badge.red{color:var(--red); border-color:var(--red);}
+.badge.amber{background:var(--badge-amber-bg); color:var(--badge-amber-fg); border-color:var(--badge-amber-bg); font-weight:700;}
+.badge.speculative{background:var(--red); color:#fff; border-color:var(--red); font-weight:700;}
+.badge.preclinical{background:var(--badge-preclin-bg); color:var(--badge-preclin-fg); border-color:var(--badge-preclin-bg); font-weight:700;}
+.grid{display:grid; gap:16px;}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+.card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px;}
+.card h3{margin-top:0;}
+.kicker{text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--teal); margin-bottom:8px; font-weight:700;}
+/* nav */
+nav{position:sticky; top:0; z-index:50; background:var(--nav-bg); backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line); padding:0 24px;}
+nav .wrap{display:flex; align-items:center; gap:18px; overflow-x:auto; overflow-y:hidden; white-space:nowrap;
+  height:52px; padding:0; overscroll-behavior-x:contain;
+  scrollbar-width:thin; scrollbar-color:var(--scroll-thumb) transparent;}
+nav .wrap::-webkit-scrollbar{height:4px;}
+nav .wrap::-webkit-scrollbar-track{background:transparent;}
+nav .wrap::-webkit-scrollbar-thumb{background:var(--scroll-thumb); border-radius:4px;}
+nav a.n{color:var(--dim); font-size:.85rem;}
+nav a.n:hover{color:var(--teal); text-decoration:none;}
+nav a.back-home{display:inline-block; margin-right:4px; color:var(--text); font-size:.85rem; font-weight:700; background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px;}
+nav a.back-home:hover{color:var(--teal); border-color:var(--teal); text-decoration:none;}
+body.embedded nav a.back-home{display:none;}
+/* hero */
+header{padding:64px 0 40px;}
+header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
+.pill-row{margin-top:14px;}
+/* spectrum */
+.spectrum-card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;}
+#spectrumSvg{width:100%; height:auto; display:block;}
+.legend{display:flex; flex-wrap:wrap; gap:14px; font-size:.8rem; color:var(--dim); margin-top:10px;}
+.legend span{display:flex; align-items:center; gap:6px;}
+.sw{width:12px; height:12px; border-radius:3px; display:inline-block;}
+/* matrix */
+#matrixSvg{width:100%; height:auto;}
+/* network */
+.net-head{display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:8px;}
+#netSvg{width:100%; height:560px; background:var(--net-bg); border:1px solid var(--line); border-radius:12px;}
+.net-legend{display:flex; flex-wrap:wrap; gap:10px; font-size:.75rem; color:var(--dim); margin-top:8px;}
+#netTip{position:fixed; pointer-events:none; background:var(--tip-bg); border:1px solid var(--line2);
+  padding:8px 12px; border-radius:8px; font-size:.78rem; max-width:320px; display:none; box-shadow:var(--tip-shadow); z-index:60;}
+/* wiki-link tooltips (spans created at runtime from wiki-context.json) */
+.wikilink{color:var(--teal); cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='%2316162b' stroke='%235fe3c0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4'/%3E%3Cpath d='M12 8h.01'/%3E%3C/svg%3E") 2 2, help; text-decoration:none;
+  border-bottom:1px dotted var(--link-dash);}
+.wikilink:hover{color:var(--teal-hover);}
+/* sirt cards */
+.sirt-card{border-radius:14px; border:1px solid var(--line); background:var(--card); overflow:hidden;}
+.sirt-head{padding:16px 20px; display:flex; align-items:flex-start; gap:12px; border-bottom:1px solid var(--line);}
+.sirt-head h3{font-size:1.15rem; margin:0; min-width:64px; line-height:1.25; flex-shrink:0;}
+.sirt-head .tagline{flex:1; min-width:0; color:var(--dim); font-size:.78rem;}
+.sirt-head .comp{color:var(--dim); font-size:.8rem; margin-left:auto; text-align:right; white-space:nowrap; flex-shrink:0; line-height:1.4;}
+.sirt-body{padding:16px 20px;}
+.faces{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+.face{padding:12px; border-radius:10px; font-size:.85rem;}
+.face h4{font-size:.78rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;}
+.face ul{padding-left:16px; margin:0;}
+.face li{margin-bottom:5px;}
+.face.green{background:var(--face-green-bg); border:1px solid var(--face-green-border);}
+.face.green h4{color:var(--green);}
+.face.red{background:var(--face-red-bg); border:1px solid var(--face-red-border);}
+.face.red h4{color:var(--red);}
+/* therapeutic modifiers */
+td .mod-act{color:var(--green);}
+td .mod-inh{color:var(--red);}
+td .mod-ind{color:var(--blue);}
+/* substrates table */
+/* fixed-width (wrapping) tables — reusable */
+.tbl-fixed{table-layout:fixed; width:100%;}
+.tbl-fixed td{white-space:normal; vertical-align:top; line-height:1.45;}
+.tbl-fixed th{white-space:normal; line-height:1.4; padding:16px 12px; vertical-align:top;}
+.sirt{font-weight:700; font-size:.9rem;}
+.context{padding:12px; border-radius:10px; background:var(--code-bg); border:1px solid var(--line); font-size:.82rem; margin-top:12px;}
+.context b{color:var(--amber);}
+/* tables */
+.tbl-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:12px; max-height:520px; overflow-y:auto;}
+table{border-collapse:collapse; width:100%; font-size:.83rem;}
+th,td{padding:8px 12px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap;}
+th{position:sticky; top:0; background:var(--bg2); color:var(--dim); font-size:.72rem; text-transform:uppercase; letter-spacing:1px; z-index:2;}
+tbody tr:hover{background:var(--row-hover);}
+/* patterns & footer */
+.pattern{border-left:3px solid var(--teal); padding:4px 0 4px 16px; margin-bottom:14px;}
+.pattern b{color:var(--teal);}
+.caveat{background:var(--amber-bg); border:1px solid var(--amber-border); border-radius:12px; padding:18px 22px; margin-top:24px;}
+.caveat b{color:var(--amber);}
+footer{border-top:1px solid var(--line); padding:30px 0 60px; color:var(--mute); font-size:.8rem;}
+.btn{display:inline-block; background:var(--teal); color:var(--btn-fg); font-weight:700; padding:8px 18px; border-radius:8px; font-size:.85rem; cursor:pointer; border:none;}
+.btn:hover{filter:brightness(1.1); text-decoration:none;}
+/* copy button */
+.copy-btn{position:absolute; right:2px; top:2px; margin:0; z-index:5; width:38px; height:38px; display:flex; align-items:center; justify-content:center;
+  background:var(--copy-btn-bg); border:1px solid var(--line2); border-radius:8px; color:var(--dim); cursor:pointer; padding:8px; backdrop-filter:blur(4px); opacity:.55;}
+.copy-btn:hover, .copy-btn:focus-visible{border-color:var(--teal); filter:brightness(1.15); opacity:1;}
+.copy-btn:disabled{opacity:.7; cursor:wait;}
+.copy-btn svg{width:100%; height:100%; display:block;}
+.copy-btn.ok{color:var(--green); border-color:var(--green); opacity:1;}
+.copy-btn.err{color:var(--red); border-color:var(--red); opacity:1;}
+/* Positioned host for copy buttons (SVGs, tables, pre blocks).
+   Buttons anchor to the top-right corner uniformly. */
+.copy-host{position:relative;}
+/* disease breakdown */
+.sys-tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;}
+.sys-tab{background:var(--card); border:1px solid var(--line2); border-radius:999px; padding:6px 14px; font-size:.82rem; color:var(--dim); cursor:pointer;}
+.sys-tab:hover{border-color:var(--teal); color:var(--teal);}
+.sys-tab.active{background:var(--teal); color:var(--btn-fg); border-color:var(--teal); font-weight:700;}
+.dis-grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));}
+.dis-card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px;}
+.dis-card h4{font-size:.98rem; margin:0 0 4px;}
+.dis-card .note{color:var(--dim); font-size:.8rem; margin:8px 0 10px; line-height:1.45;}
+.chips{display:flex; flex-wrap:wrap; gap:5px;}
+.chip{font-size:.7rem; padding:2px 8px; border-radius:999px; font-weight:700; border:1px solid; letter-spacing:.3px;}
+.chip.P{color:var(--green); border-color:var(--chip-p-border); background:var(--chip-p-bg);}
+.chip.H{color:var(--red); border-color:var(--chip-h-border); background:var(--chip-h-bg);}
+.chip.D{color:var(--amber); border-color:var(--chip-d-border); background:var(--chip-d-bg);}
+.chip.N{color:var(--mute); border-color:var(--line2); background:var(--chip-n-bg);}
+/* compartment map */
+#compSvg{width:100%; height:auto;}
+/* disease atlas */
+#mapSvg{width:100%; height:560px; background:var(--net-bg); border:1px solid var(--line); border-radius:12px;}
+.d-list{padding-left:16px; margin:8px 0 0; font-size:.8rem; color:var(--dim); line-height:1.5;}
+.d-list li{margin-bottom:4px;}
+.d-list li b{color:var(--text);}
+.dis-card{display:flex; flex-direction:column;}
+.dis-card .d-list{margin-top:6px;}
+.stat-num{font-size:1.6rem; line-height:1.1;}
+.flip th{white-space:nowrap;}
+.flip td{vertical-align:top; white-space:normal; line-height:1.45;}
+table thead th:first-child,
+table tbody th:first-child,
+table tbody td:first-child{position:sticky; left:0; z-index:1; background:var(--bg);}
+table thead th:first-child{z-index:4;}
+.spectrum-card table thead th:first-child,
+.spectrum-card table tbody th:first-child,
+.spectrum-card table tbody td:first-child{background:var(--card);}
+.tbl-wrap table{min-width:820px;}
+.tbl-wrap td{word-wrap:break-word; overflow-wrap:break-word; white-space:normal;}
+.face ul li b{color:var(--text);}
+/* responsive */
+@media (max-width:720px){ .faces{grid-template-columns:1fr;} h1{font-size:1.7rem;} section{padding:40px 0;} .dis-grid{grid-template-columns:1fr;}
+  nav .wrap{scrollbar-width:none;}
+  nav .wrap::-webkit-scrollbar{display:none;} }
+
+/* ===== Diagram lightbox (tap a diagram to view full-screen) ===== */
+svg[role="img"]{ cursor: zoom-in; touch-action: manipulation; }
+#diagram-lightbox{
+  position: fixed; inset: 0; z-index: 1000;
+  display: none; align-items: center; justify-content: center;
+  padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+  background: var(--lightbox-bg);
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  overscroll-behavior: contain;
+}
+#diagram-lightbox.open{ display: flex; }
+#diagram-lightbox .diagram-lightbox-stage{
+  display: flex; align-items: center; justify-content: center;
+  max-width: 100%; max-height: 100%; overflow: auto;
+}
+#diagram-lightbox .diagram-lightbox-svg{
+  display: block; background: var(--card); border-radius: 14px; padding: 14px;
+  box-shadow: 0 24px 70px rgba(0,0,0,.6);
+}
+#diagram-lightbox .diagram-lightbox-caption{
+  position: absolute; left: 0; right: 0; bottom: max(14px, env(safe-area-inset-bottom));
+  text-align: center; color: var(--dim); font-size: .82rem; padding: 0 16px;
+  pointer-events: none;
+}
+#diagram-lightbox-close{
+  position: absolute; top: max(14px, env(safe-area-inset-top)); right: 14px;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.28); background: rgba(20,20,40,.85);
+  color: #fff; font-size: 30px; line-height: 1; cursor: pointer; z-index: 2;
+  display: flex; align-items: center; justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+}
+#diagram-lightbox-close:hover{ border-color: var(--teal); color: var(--teal); }

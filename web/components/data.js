@@ -8,18 +8,18 @@ const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 const DATA_BASE = new URL('../data/', import.meta.url).href;
 
 // Cache busting: the rebuild script writes data/version.json containing a
-// content-hash tag. The tiny version file is fetched with a no-cache query
-// string; the larger data files then use the tag (stable within a build, so
+// content hash. The tiny version file is fetched with a no-cache query
+// string; the larger data files then use the hash (stable within a build, so
 // browsers can cache them across visits) instead of Date.now(), which forced
 // re-downloading ~11 MB on every page load.
-let CACHE_TAG = '';
+let CACHE_HASH = '';
 
 async function loadCacheTag() {
   try {
     const resp = await fetch(DATA_BASE + 'version.json?x=' + Date.now());
     if (resp.ok) {
       const v = await resp.json();
-      CACHE_TAG = (v && (v.tag || v.generated)) || '';
+      CACHE_HASH = (v && (v.hash || v.tag || v.generated)) || '';
     }
   } catch (e) {
     /* version.json missing -> fall back to Date.now() busting below */
@@ -28,7 +28,7 @@ async function loadCacheTag() {
 
 async function getJSON(name, logName) {
   try {
-    const q = CACHE_TAG ? ('?v=' + CACHE_TAG) : ('?v=' + Date.now());
+    const q = CACHE_HASH ? ('?v=' + CACHE_HASH) : ('?v=' + Date.now());
     const resp = await fetch(DATA_BASE + name + q);
     if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText} for ${name}`);
     return await resp.json();
@@ -42,7 +42,7 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, TASKS, PREDICATES, I18N_COVERAGE] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
@@ -51,6 +51,9 @@ async function loadAllData() {
     getJSON('query.json', 'traces'),
     getJSON('translations-zh-TW.json', 'translations'),
     getJSON('articles.json', 'articles'),
+    getJSON('tasks.json', 'tasks'),
+    getJSON('predicates-zh-TW.json', 'predicates'),
+    getJSON('i18n-coverage.json', 'i18n-coverage'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
@@ -61,10 +64,35 @@ async function loadAllData() {
     TRACES: TRACES || [],
     TRANSLATIONS: TRANSLATIONS || {},
     ARTICLES: ARTICLES || [],
+    TASKS: (TASKS && TASKS.tasks) || [],
+    PREDICATES: PREDICATES || {},
+    I18N_COVERAGE: I18N_COVERAGE || {},
   };
 }
 
-export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES } = await loadAllData();
+export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, TASKS, PREDICATES, I18N_COVERAGE } = await loadAllData();
+
+// ------------------------------------------------------------
+// Lazy analysis artifacts — fetched on first Graph-mode open rather
+// than at page load. roles-meta.json (~1 KB) carries the role rule
+// catalog + live thresholds; link-prediction.json holds the
+// Adamic-Adar missing-link candidates and god-node PPR profiles
+// emitted by scripts/05_link_prediction.py.
+// ------------------------------------------------------------
+let ROLES_META = null;
+export async function loadRolesMeta() {
+  if (ROLES_META) return ROLES_META;
+  ROLES_META = (await getJSON('roles-meta.json', 'roles-meta')) || {};
+  return ROLES_META;
+}
+
+let LINK_PREDICTION = null;
+export async function loadLinkPrediction() {
+  if (LINK_PREDICTION) return LINK_PREDICTION;
+  const empty = { params: {}, summary: {}, candidates: [], ppr_similar: {} };
+  LINK_PREDICTION = (await getJSON('link-prediction.json', 'link-prediction')) || empty;
+  return LINK_PREDICTION;
+}
 
 export const nodeMap = new Map();
 RAW_NODES.forEach(n => nodeMap.set(n.id, n));
@@ -74,7 +102,17 @@ export const descriptionMap = new Map();
   if (n.description) descriptionMap.set(n.id, n.description);
 });
 
-// Entity summaries keyed by node label (exact + lowercase) — used for chat
+// zh-TW entity descriptions, keyed like the EN maps. The rebuild emits
+// description_zh_TW on every graph.json node (falls back to en-US when a
+// triple is untranslated), so coverage mirrors the EN maps.
+export const descriptionZhMap = new Map();
+(graphData.nodes || []).forEach(n => {
+  if (n.description_zh_TW && n.description_zh_TW !== n.description) {
+    descriptionZhMap.set(n.id, n.description_zh_TW);
+  }
+});
+
+// Entity summaries keyed by node label (exact + lowercase) — used for prompt
 // [[Entity]] tooltips/wiki links instead of the retired wiki-context.json.
 // Every graph.json node carries a description synthesized from triple
 // contexts, so coverage is complete.
@@ -85,6 +123,24 @@ export const descByLabel = new Map();
   const lower = n.label.toLowerCase();
   if (!descByLabel.has(lower)) descByLabel.set(lower, n.description);
 });
+
+// zh-TW variant of descByLabel (only set when a real translation exists).
+export const descByLabelZh = new Map();
+(graphData.nodes || []).forEach(n => {
+  const zh = n.description_zh_TW;
+  if (!zh || zh === n.description) return;
+  if (!descByLabelZh.has(n.label)) descByLabelZh.set(n.label, zh);
+  const lower = n.label.toLowerCase();
+  if (!descByLabelZh.has(lower)) descByLabelZh.set(lower, zh);
+});
+
+// Localize a relationship predicate for display in the zh UI. Falls back to
+// the English predicate when untranslated. Hand-maintained in
+// web/data/predicates-zh-TW.json.
+export function predicateZh(pred) {
+  if (!pred) return pred;
+  return PREDICATES[pred] || PREDICATES[pred.replace(/_/g, ' ')] || pred;
+}
 
 export const adjacency = new Map();
 RAW_EDGES.forEach(e => {

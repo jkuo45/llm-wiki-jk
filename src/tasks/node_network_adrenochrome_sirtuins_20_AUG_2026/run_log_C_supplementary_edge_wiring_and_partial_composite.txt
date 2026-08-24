@@ -1,0 +1,121 @@
+=== 1. Direct edges among the four focus nodes ===
+  (none)
+
+=== 2. Edge-level wiring: in/out edges of each focus node ===
+
+  Adrenochrome IN (18):
+    <- [oxidizes_to|0.95] Epinephrine
+    <- [oxidizes_to|0.95] Leuco-adrenochrome
+    <- [stabilizes|0.9] Hydrazines
+    <- [is_synthesized_from|0.9] Adrenochrome monoaminoguanidine
+    <- [reacts_with|0.9] Aminoguanidine
+    <- [reduces|0.9] Complex I
+    <- [reacts_with|0.9] Semicarbazide
+    <- [produces|0.9] Adrenochrome Pathway
+    <- [cyclizes_to|0.9] o-quinone
+    <- [does_not_produce|0.85] Erythrocytes
+    <- [reduces|0.85] NADPH-cytochrome P450 reductase
+    <- [detects|0.8] HPLC
+  Adrenochrome OUT (42):
+    -> [has_xlogp|0.95] -1.3
+    -> [has_molecular_weight|0.95] 179.17 g/mol
+    -> [has_molecular_formula|0.95] C9H9NO3
+    -> [is_a|0.95] oxidation product of epinephrine
+    -> [is_a|0.95] Indoles
+    -> [is_a|0.95] Aminochrome
+    -> [is_an_intermediate_for|0.95] Adrenochrome monoaminoguanidine
+    -> [is_an_intermediate_for|0.95] Carbazochrome
+    -> [is_a|0.95] indoline-5,6-dione
+    -> [participates_in|0.95] Redox Cycling
+    -> [generates|0.95] Reactive Oxygen Species
+    -> [converts_to|0.95] Adrenochrome Semiquinone Radical
+
+  Mitohormesis IN (7):
+    <- [blocks|0.95] N-Acetylcysteine
+    <- [activates|0.95] Low-level oxidative stress
+    <- [triggers|0.9] Caloric Restriction
+    <- [induces|0.9] Exercise
+    <- [exploits|0.9] Metformin
+    <- [is_activated_by|0.9] AMPK
+    <- [mediates|0.85] NRF2
+  Mitohormesis OUT (27):
+    -> [is_a_type_of|0.97] Hormesis
+    -> [activates|0.95] Integrated Stress Response
+    -> [is_induced_by|0.95] Mitochondrial Dysfunction
+    -> [extends|0.94] Longevity
+    -> [relies_on|0.93] Mitochondrial ROS
+    -> [induces|0.92] ATF4
+    -> [induces|0.92] GDF15
+    -> [upregulates|0.92] Mitochondrial Biogenesis
+    -> [requires|0.92] Heart Rate Variability
+    -> [induces|0.91] FGF21
+    -> [requires|0.91] ROS
+    -> [is_blocked_by|0.9] Antioxidants
+
+  Autophagy IN (23):
+    <- [activates|0.95] AMPK
+    <- [activates|0.95] Dietary Restriction
+    <- [impairs|0.95] Glucocerebrosidase
+    <- [inhibits|0.95] Insulin signaling
+    <- [induces|0.95] Intermittent Fasting
+    <- [requires|0.95] Caloric Restriction
+    <- [induces|0.95] Metformin
+    <- [is_a_subtype_of|0.95] Mitophagy
+    <- [upregulates|0.95] RAS
+    <- [bidirectionally_linked_with|0.95] Proteostasis
+    <- [induces|0.95] Rapamycin
+    <- [enhances|0.95] Spermidine
+  Autophagy OUT (16):
+    -> [bidirectionally_linked_with|0.95] TFEB
+    -> [impairs|0.95] Parkinson's Disease
+    -> [is_a|0.95] Lysosomal catabolic process
+    -> [associated_with|0.95] Neuromelanin
+    -> [prevents|0.95] Arterial aging
+    -> [protects_against|0.95] Alpha-Synuclein Aggregation
+    -> [regulates|0.95] Proteostasis
+    -> [has_types|0.95] Chaperone-Mediated Autophagy
+    -> [has_dual_role_in|0.95] Cancer treatment
+    -> [modulated_by|0.95] Intermittent Fasting
+    -> [has_types|0.95] Macroautophagy
+    -> [has_types|0.95] Microautophagy
+
+  Sirtuins IN (11):
+    <- [interacts_with|0.95] AMPK
+    <- [inhibits|0.95] Amurensin G
+    <- [inhibits|0.95] Aristoforin
+    <- [feedback_inhibits|0.95] Nicotinamide
+    <- [are_nad_consuming_enzymes_competing_with|0.95] PARP1 and PARP2
+    <- [is_a_nad_consuming_enzyme_competing_with|0.95] SARM1
+    <- [inhibits|0.95] Tanikolide
+    <- [includes_class|0.95] Histone Deacetylase
+    <- [is_required_for|0.94] NAD+
+    <- [activates|0.9] Nicotinamide Riboside
+    <- [is_a_candidate_regulator_of|0.9] Curcumin
+  Sirtuins OUT (13):
+    -> [exhibit_activity_as|0.95] Mono-ADP-ribosyl transferases
+    -> [counterbalance_anabolic|0.95] mTOR signaling
+    -> [extend_lifespan_in|0.95] Yeast
+    -> [share|0.95] Adenosine-binding site with kinases
+    -> [are_nad_dependent|0.95] Deacetylases
+    -> [promote_per_guardians_review|0.95] Healthspan
+    -> [contain|0.95] Rossmann fold domain
+    -> [are_a_family_of|0.95] NAD+-dependent enzyme
+    -> [are_classified_into|0.95] five classes (I-IV and U)
+    -> [downregulated_in|0.9] Non-alcoholic Fatty Liver Disease
+    -> [regulates|0.9] DNA Repair
+    -> [depend_on|0.9] NAD+
+
+=== 3. Composite senolytic-style score (HTML weights: .30 source-asymmetry, .20 betweenness, .30 bridge-fraction, .20 low-clustering) ===
+Traceback (most recent call last):
+  File "/Users/johnnykuo/Documents/llm-wiki-jk/.venv/lib/python3.14/site-packages/networkx/classes/graph.py", line 1383, in neighbors
+    return iter(self._adj[n])
+                ~~~~~~~~~^^^
+KeyError: 'colon_cancer_cell_proliferation_invasion_and_migration'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 48, in <module>
+  File "/Users/johnnykuo/Documents/llm-wiki-jk/.venv/lib/python3.14/site-packages/networkx/classes/graph.py", line 1385, in neighbors
+    raise NetworkXError(f"The node {n} is not in the graph.") from err
+networkx.exception.NetworkXError: The node colon_cancer_cell_proliferation_invasion_and_migration is not in the graph.

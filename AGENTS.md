@@ -15,7 +15,11 @@
   - Contains task outputs. Default to saving task outputs to this directory.
 - Execute python scripts using `uv run --with`.
 - Graphify is installed as a uv tool.
-- **Graphify updates** use `scripts/03_rebuild_from_triples.py` (the vault's canonical rebuild from per-topic `src/**/_triples.json`), NOT standard graphify ingest. Run it to regenerate `graphify-out/` (graph.json, GRAPH_REPORT.md, labels, html) for analysis, and export the standalone web app into `web/` (index.html, three-graph.css, components/, pages/) with its runtime data JSONs in `web/data/` (nodes/edges/legend.json, copies of graph.json/manifest.json, and version.json with a content-hash cache tag the app uses to cache-bust its fetches). `web/data/query.json` and `web/data/translations-zh-TW.json` are hand-maintained alongside the generated files — update translation files as needed. The web app sources entity summaries for tooltips/modals directly from graph.json node `description` fields (wiki-context.json is retired).
+- For translation tasks, prefer the Python `deep-translator` library using the Google Translate engine; review the output for biomedical terminology accuracy before publishing.
+- When new pages are created:
+  - Check whether a language-specific version of the page already exists before adding a new one.
+  - Register the new page in the site index artifacts: `web/sitemap.xml`, `web/data/articles.json`, `web/llms.txt`.
+- Commit messages use the style `chore(<scope>): <short lowercase description>` — single line, lowercase after the colon (e.g. `chore: rename chat to prompt`, `chore(analysis): query selection and node info to analysis panel`). Scope is optional; keep the whole subject under ~72 chars.
 
 ## Retrieval Guidelines:
 

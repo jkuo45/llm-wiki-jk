@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 OPENCODE_URL = os.environ.get("OPENCODE_URL", "http://127.0.0.1:4096")
 OPENCODE_USERNAME = os.environ.get("OPENCODE_SERVER_USERNAME", "opencode")
 OPENCODE_PASSWORD = os.environ.get("OPENCODE_SERVER_PASSWORD", "")
-CHAT_AGENT = os.environ.get("OPENCODE_CHAT_AGENT", "wiki-chat")
+PROMPT_AGENT = os.environ.get("OPENCODE_PROMPT_AGENT", "wiki-prompt")
 UTILITY_AGENT = os.environ.get("OPENCODE_UTILITY_AGENT", "wiki-util")
 
 _AUTH = (OPENCODE_USERNAME, OPENCODE_PASSWORD) if OPENCODE_PASSWORD else None
@@ -88,7 +88,7 @@ async def health() -> dict:
         raise OpencodeUnavailable(str(e)) from e
 
 
-async def create_session(title: str = "graph-chat") -> str:
+async def create_session(title: str = "graph-prompt") -> str:
     """Create an opencode session and return its id."""
     try:
         async with _client() as c:
@@ -150,7 +150,7 @@ async def stream_answer(
     message: str,
     session_id: str,
     timeout: float = 240.0,
-    agent: str = CHAT_AGENT,
+    agent: str = PROMPT_AGENT,
 ) -> AsyncGenerator[dict, None]:
     """Stream a turn as SSE-compatible dicts.
 
@@ -208,7 +208,7 @@ async def stream_answer(
             # Subscribe BEFORE prompting so no events are missed.
             async with c.stream("GET", "/event") as events:
                 if events.status_code != 200:
-                    yield {"type": "error", "text": "Chat service unavailable."}
+                    yield {"type": "error", "text": "Prompt service unavailable."}
                     return
 
                 post = await c.post(
@@ -223,7 +223,7 @@ async def stream_answer(
                     logger.error(
                         f"prompt_async failed: {post.status_code} {post.text[:200]}"
                     )
-                    yield {"type": "error", "text": "Chat service unavailable."}
+                    yield {"type": "error", "text": "Prompt service unavailable."}
                     return
 
                 lines = events.aiter_lines()
@@ -325,7 +325,7 @@ async def stream_answer(
 
     except httpx.ConnectError as e:
         logger.error(f"opencode server unreachable: {e}")
-        yield {"type": "error", "text": "Chat service unavailable."}
+        yield {"type": "error", "text": "Prompt service unavailable."}
         return
     except Exception as e:
         logger.error(f"stream_answer error: {e}")
@@ -340,7 +340,7 @@ async def stream_answer(
 # Intent parsing
 # ----------------------------------------------------------------------------
 
-INTENT_PROMPT = """You are an intent classifier for a biomedical knowledge graph chatbot.
+INTENT_PROMPT = """You are an intent classifier for a biomedical knowledge graph assistant.
 
 Given the user's message, classify it into EXACTLY ONE of these intents and respond with ONLY a JSON object (no markdown, no explanation).
 
@@ -383,7 +383,7 @@ Respond with ONLY the JSON object:"""
 async def parse_intent(message: str, timeout: float = 60.0) -> dict:
     """Classify a graphify operation request into a structured intent.
 
-    Uses a throwaway session so classifier turns never pollute chat history.
+    Uses a throwaway session so classifier turns never pollute prompt history.
     """
     prompt = INTENT_PROMPT.replace("{message}", message)
     session_id = None
@@ -416,7 +416,7 @@ Rules:
 - Narrate ONLY what the supplied data supports. Do not invent nodes, edges, scores, or relationships that are not in the data.
 - Use the exact node labels from the data, wrapped as [[Node Name]] so the UI can highlight them.
 - Where a finding has a biological meaning, connect it to the wiki; otherwise keep the interpretation strictly to graph structure.
-- Keep it concise: 3-6 short paragraphs or a tight bulleted list. This renders in a small chat panel beside a 3D graph.
+- Keep it concise: 3-6 short paragraphs or a tight bulleted list. This renders in a small prompt panel beside a 3D graph.
 
 User request: {request}
 

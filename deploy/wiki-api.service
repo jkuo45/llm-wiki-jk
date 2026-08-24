@@ -1,5 +1,5 @@
 [Unit]
-Description=Knowledge graph chat API (FastAPI adapter for opencode serve)
+Description=Knowledge graph prompt API (FastAPI adapter for opencode serve)
 After=network-online.target opencode-serve.service
 Wants=network-online.target
 Requires=opencode-serve.service

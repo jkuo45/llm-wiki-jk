@@ -10,8 +10,8 @@ import {
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
 } from './core.js';
 import { state, stickyNodes, velocities } from './state.js';
-import { nodeMap, adjacency, TRANSLATIONS } from './data.js';
-import { showInfo, activateRoute, highlightTraceNodes, EMPTY_INFO_HTML } from './ui.js';
+import { nodeMap, adjacency, TRANSLATIONS, predicateZh } from './data.js';
+import { showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes } from './ui.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
 
@@ -36,7 +36,11 @@ function nodeTooltipHTML(nodeData) {
     ? `${esc(nodeData.label)} / ${esc(zhTWName)}`
     : esc(nodeData.label);
   const sticky = stickyNodes.has(nodeData.id) ? '<br><span style="color:#4E79A7">Sticky / 已固定</span>' : '';
-  return `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${sticky}`;
+  const roles = Array.isArray(nodeData.roles) ? nodeData.roles.filter(Boolean) : [];
+  const rolesHTML = roles.length
+    ? `<br>${roles.map(r => `<span class="role-badge" data-role="${esc(r)}">${esc(r)}</span>`).join(' ')}`
+    : '';
+  return `<b>${displayName}</b><br>Type: ${esc(nodeData.file_type || 'concept')}<br>Community: ${esc(nodeData.community_name)}<br>Degree: ${nodeData.degree}${rolesHTML}${sticky}`;
 }
 
 function showNodeTooltip(nodeData, left, top) {
@@ -53,7 +57,9 @@ function showEdgeLabel(line) {
   const { edge, fromMesh, toMesh } = line.userData;
   edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
 
-  const labelText = edge.label || '';
+  const labelText = state.analysisUiLang === 'zh-TW'
+    ? (predicateZh(edge.label) || edge.label || '')
+    : (edge.label || '');
   const confidence = edge.confidence || '';
   edgeLabelDiv.innerHTML = `<b>${esc(labelText)}</b> <span style="opacity:0.6;font-size:9px">${esc(confidence)}</span>`;
   edgeLabelDiv.style.display = 'block';
@@ -387,7 +393,7 @@ function onMouseUp() {
       addStickyRing(mesh);
     });
 
-    btnUnstick.style.display = 'block';
+    btnUnstick.style.display = 'flex';
   }
   isDragging = false;
   draggedNode = null;
@@ -443,6 +449,9 @@ btnUnstick.addEventListener('click', () => {
 // ------------------------------------------------------------
 export function selectNode(nodeId) {
   state.selectedNode = nodeId;
+  // A node selection supersedes any edge selection (selectEdge clears the node
+  // in kind), so the hash/restore never carry both at once.
+  state.selectedEdge = null;
   const mesh = nodeObjects.get(nodeId);
   if (!mesh) return;
 
@@ -467,7 +476,7 @@ export function selectNode(nodeId) {
 
   setLabelVisibility(neighborIds);
 
-  if (state.sidebarInfoActive) {
+  if (state.analysisOpen) {
     showInfo(nodeId);
   }
 
@@ -495,13 +504,13 @@ export function deselectNode() {
     } else {
       highlightTraceNodes(state.activeTrace);
     }
-    document.getElementById('info-content').innerHTML = EMPTY_INFO_HTML;
+    hideNodeInfo();
     return;
   }
 
   resetVisualState();
   hideEdgeLabel();
-  document.getElementById('info-content').innerHTML = EMPTY_INFO_HTML;
+  hideNodeInfo();
   updateHash();
 }
 
@@ -524,27 +533,9 @@ export function selectEdge(edge) {
   (adjacency.get(toId) || []).forEach(n => visibleIds.add(n.target));
   setLabelVisibility(visibleIds);
 
-  // Show relation info in sidebar
-  if (state.sidebarInfoActive) {
-    const fromNode = nodeMap.get(fromId);
-    const toNode = nodeMap.get(toId);
-    const fromLabel = fromNode ? fromNode.label : fromId;
-    const toLabel = toNode ? toNode.label : toId;
-    const fromZhTW = TRANSLATIONS[fromLabel] || '';
-    const toZhTW = TRANSLATIONS[toLabel] || '';
-    const fromDisplay = fromZhTW && fromZhTW !== fromLabel ? `${fromLabel} / ${fromZhTW}` : fromLabel;
-    const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
-    const relationLabel = edge.label || '';
-    const confidence = edge.confidence || '';
-
-    document.getElementById('info-content').innerHTML = `
-      <div class="field"><b>Relation / 關聯</b></div>
-      <div class="field" style="margin-top:6px">
-        <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(fromId)}">${esc(fromDisplay)}</span>
-        <div style="color:#4E79A7;font-size:15px;padding:4px 8px">↓ ${esc(relationLabel)} ${confidence ? `<span style="opacity:0.5;font-size:13px">${esc(confidence)}</span>` : ''}</div>
-        <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(toId)}">${esc(toDisplay)}</span>
-      </div>
-    `;
+  // Show relation info in the analysis-panel card
+  if (state.analysisOpen) {
+    showEdgeInfo(edge);
   }
 
   // Focus camera on midpoint of edge

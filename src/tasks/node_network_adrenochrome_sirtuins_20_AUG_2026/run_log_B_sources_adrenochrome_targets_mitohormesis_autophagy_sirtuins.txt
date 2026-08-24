@@ -1,0 +1,145 @@
+graph: 2596 nodes / 2110 giant-component nodes / 3295 edges
+sources: ['Adrenochrome']   targets: ['Mitohormesis', 'Autophagy', 'Sirtuins']
+
+
+0. Pre-computed node metrics
+    Adrenochrome:
+      degree=60  in=18  out=42  pagerank=0.00500527
+      betweenness=0.03867342  clustering=0.00942761  k_core=4
+      community=7 (Adrenochrome, size=33)
+    Mitohormesis:
+      degree=34  in=7  out=27  pagerank=0.0008263
+      betweenness=0.01660619  clustering=0.01426025  k_core=5
+      community=6 (Mitohormesis, size=35)
+    Autophagy:
+      degree=39  in=23  out=16  pagerank=0.00429276
+      betweenness=0.02757509  clustering=0.03903904  k_core=6
+      community=34 (Autophagy, size=19)
+    Sirtuins:
+      degree=24  in=11  out=13  pagerank=0.0020292
+      betweenness=0.01122729  clustering=0.01185771  k_core=5
+      community=43 (Sirtuins, size=17)
+
+    God nodes (top 10 by degree):
+      SIRT1: degree=216
+      SIRT3: degree=170
+      SIRT6: degree=117
+      SASP: degree=101
+      SIRT2: degree=81
+      Cancer: degree=74
+      Adrenochrome: degree=60
+      COMT: degree=59
+      Nicotinamide Riboside: degree=57
+      TFEB: degree=54
+
+    Surprising connections (5 found):
+      SIRT1 --[deacetylates]--> NF-kappaB: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `NF-kappaB` unexpectedly reaches hub `SIRT1`
+      SIRT1 --[is_protective_in]--> Kidney Fibrosis: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Kidney Fibrosis` unexpectedly reaches hub `SIRT1`
+      SIRT1 --[is_protective_in]--> Osteoporosis: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Osteoporosis` unexpectedly reaches hub `SIRT1`
+      SIRT1 --[deacetylates]--> ChREBP: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `ChREBP` unexpectedly reaches hub `SIRT1`
+      SIRT3 --[is_downregulated_in]--> Hepatocellular Carcinoma: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Hepatocellular Carcinoma` unexpectedly reaches hub `SIRT3`
+
+    Low-cohesion communities (<0.15): 45
+      SIRT1 (id=0): 0.0164
+      SIRT3 (id=1): 0.0226
+      SIRT6 (id=2): 0.0290
+      SIRT2 (id=3): 0.0351
+      Mitohormesis (id=6): 0.0571
+
+0b. Community context
+    Community 7 (Adrenochrome): ['Adrenochrome']
+    Community 6 (Mitohormesis): ['Mitohormesis']
+    Community 34 (Autophagy): ['Autophagy']
+    Community 43 (Sirtuins): ['Sirtuins']
+    Cross-community analysis: 4 distinct communities
+
+    Source document provenance (4 documents):
+      Adrenochrome (pubchem).md: ['Adrenochrome']
+      Mitohormesis - 2023_NOV.md: ['Mitohormesis']
+      Plant flavone apigenin An emerging anticancer agent.md: ['Autophagy']
+      mitohormesis, heart rate variability.md: ['Sirtuins']
+
+1. Shortest-path multiplicity (bridges = first hop, NetworkX)
+    Adrenochrome -> Mitohormesis: 1 shortest path(s), bridges = ['Reactive Oxygen Species']
+      Path: Adrenochrome --[generates|0.95]--> Reactive Oxygen Species  Reactive Oxygen Species --[requires|0.9]--> Mitohormesis
+    Adrenochrome -> Autophagy: 1 shortest path(s), bridges = ['Neuromelanin']
+      Path: Adrenochrome --[sequesters|0.8]--> Neuromelanin  Neuromelanin --[associated_with|0.95]--> Autophagy
+    Adrenochrome -> Sirtuins: 1 shortest path(s), bridges = ['NF-κB']
+      Path: Adrenochrome --[inhibits|0.6]--> NF-κB  NF-κB --[is_regulated_by|0.96]--> SASP  SASP --[suppress|0.86]--> Sirtuins
+
+2. Neighborhood distinctness (degree + pairwise Jaccard)
+    degree Adrenochrome: 55  pagerank=0.00500527  betweenness=0.03867342
+    degree Mitohormesis: 34  pagerank=0.0008263  betweenness=0.01660619
+    degree Autophagy: 37  pagerank=0.00429276  betweenness=0.02757509
+    degree Sirtuins: 23  pagerank=0.0020292  betweenness=0.01122729
+    Jaccard(Adrenochrome vs Mitohormesis) = 0.011
+      shared (1): ['Reactive Oxygen Species']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+      Mitohormesis-only: ['Age-Related Diseases', "Alzheimer's Disease", 'AMPK', 'Antioxidants', 'ATF4', 'Caloric Restriction', 'cGAS-STING Pathway', 'Chemoresistance', 'Exercise', 'Ferroptosis', 'FGF21', 'GDF15', 'Heart Rate Variability', 'Hormesis', 'HSF1']
+    Jaccard(Adrenochrome vs Autophagy) = 0.011
+      shared (1): ['Neuromelanin']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+      Autophagy-only: ['Alpha-Synuclein Aggregation', 'AMPK', 'Apigenin', 'Arterial aging', 'Caloric Restriction', 'Cancer', 'Cancer treatment', 'Chaperone-Mediated Autophagy', 'Dietary Restriction', 'Glucocerebrosidase', 'Hydroxychloroquine', 'Inflammasome', 'Insulin signaling', 'Intermittent Fasting', 'Ivermectin']
+    Jaccard(Adrenochrome vs Sirtuins) = 0.000
+      shared (0): []
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+      Sirtuins-only: ['Adenosine-binding site with kinases', 'AMPK', 'Amurensin G', 'Aristoforin', 'Curcumin', 'Deacetylases', 'DNA Repair', 'five classes (I-IV and U)', 'Healthspan', 'Histone Deacetylase', 'Mono-ADP-ribosyl transferases', 'mTOR signaling', 'NAD+', 'NAD+-dependent enzyme', 'Nicotinamide']
+    Jaccard(Mitohormesis vs Autophagy) = 0.076
+      shared (5): ['AMPK', 'Caloric Restriction', 'Metformin', 'Mitochondrial ROS', 'Mitophagy']
+      Mitohormesis-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Antioxidants', 'ATF4', 'cGAS-STING Pathway', 'Chemoresistance', 'Exercise', 'Ferroptosis', 'FGF21', 'GDF15', 'Heart Rate Variability', 'Hormesis', 'HSF1', 'Integrated Stress Response', 'Longevity']
+      Autophagy-only: ['Alpha-Synuclein Aggregation', 'Apigenin', 'Arterial aging', 'Cancer', 'Cancer treatment', 'Chaperone-Mediated Autophagy', 'Dietary Restriction', 'Glucocerebrosidase', 'Hydroxychloroquine', 'Inflammasome', 'Insulin signaling', 'Intermittent Fasting', 'Ivermectin', 'Ketogenic Diet', 'Lysosomal catabolic process']
+    Jaccard(Mitohormesis vs Sirtuins) = 0.018
+      shared (1): ['AMPK']
+      Mitohormesis-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Antioxidants', 'ATF4', 'Caloric Restriction', 'cGAS-STING Pathway', 'Chemoresistance', 'Exercise', 'Ferroptosis', 'FGF21', 'GDF15', 'Heart Rate Variability', 'Hormesis', 'HSF1', 'Integrated Stress Response']
+      Sirtuins-only: ['Adenosine-binding site with kinases', 'Amurensin G', 'Aristoforin', 'Curcumin', 'Deacetylases', 'DNA Repair', 'five classes (I-IV and U)', 'Healthspan', 'Histone Deacetylase', 'Mono-ADP-ribosyl transferases', 'mTOR signaling', 'NAD+', 'NAD+-dependent enzyme', 'Nicotinamide', 'Nicotinamide Riboside']
+    Jaccard(Autophagy vs Sirtuins) = 0.034
+      shared (2): ['AMPK', 'SASP']
+      Autophagy-only: ['Alpha-Synuclein Aggregation', 'Apigenin', 'Arterial aging', 'Caloric Restriction', 'Cancer', 'Cancer treatment', 'Chaperone-Mediated Autophagy', 'Dietary Restriction', 'Glucocerebrosidase', 'Hydroxychloroquine', 'Inflammasome', 'Insulin signaling', 'Intermittent Fasting', 'Ivermectin', 'Ketogenic Diet']
+      Sirtuins-only: ['Adenosine-binding site with kinases', 'Amurensin G', 'Aristoforin', 'Curcumin', 'Deacetylases', 'DNA Repair', 'five classes (I-IV and U)', 'Healthspan', 'Histone Deacetylase', 'Mono-ADP-ribosyl transferases', 'mTOR signaling', 'NAD+', 'NAD+-dependent enzyme', 'Nicotinamide', 'Nicotinamide Riboside']
+
+3. Adamic-Adar link-prediction proximity (every source x every target)
+    Adamic-Adar(Adrenochrome -> Mitohormesis) = 0.328
+    Adamic-Adar(Adrenochrome -> Autophagy) = 0.271
+    Adamic-Adar(Adrenochrome -> Sirtuins) = 0.000
+
+4. k-core nesting depth
+    k-core Adrenochrome: 4
+    k-core Mitohormesis: 5
+    k-core Autophagy: 6
+    k-core Sirtuins: 5
+
+5. Spectral (dense eigh)
+    algebraic connectivity lambda2 = 0.0463
+    Fiedler Adrenochrome: -0.0015  (sign is arbitrary)
+    Fiedler Mitohormesis: +0.0034  (sign is arbitrary)
+    Fiedler Autophagy: +0.0033  (sign is arbitrary)
+    Fiedler Sirtuins: +0.0043  (sign is arbitrary)
+
+6. Effective-resistance / commute distance (pseudoinverse Laplacian)
+    vs Mitohormesis (null mean 1.141 +/- 0.595, n=300):
+      Adrenochrome: 0.141   z = -1.68
+    self-check R_eff(Mitohormesis, Mitohormesis) = 0.0000 (~0 expected)
+    vs Autophagy (null mean 1.183 +/- 0.600, n=300):
+      Adrenochrome: 0.138   z = -1.74
+    self-check R_eff(Autophagy, Autophagy) = 0.0000 (~0 expected)
+    vs Sirtuins (null mean 1.256 +/- 0.604, n=300):
+      Adrenochrome: 0.227   z = -1.70
+    self-check R_eff(Sirtuins, Sirtuins) = 0.0000 (~0 expected)
+
+7. Personalized PageRank (random-walk flow seeded at each target)
+    Standard PageRank (pre-computed):
+      Adrenochrome: 0.00500527
+      Autophagy: 0.00429276
+      Sirtuins: 0.00202920
+      Mitohormesis: 0.00082630
+
+    PPR seeded at Mitohormesis:
+      Adrenochrome: rank #60 (score 0.00304)
+
+    PPR seeded at Autophagy:
+      Adrenochrome: rank #58 (score 0.00246)
+
+    PPR seeded at Sirtuins:
+      Adrenochrome: rank #147 (score 0.00064)
+
+Cross-metric note: hop distance is frequently non-discriminating; rankings by route-multiplicity vs flow metrics can disagree (see task output).

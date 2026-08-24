@@ -3,20 +3,20 @@
 Serves + accepts photos of handwritten notes about papers. Two posting paths
 feed one place:
 
-  - committed curation  : data/notes/manifest.json  (durable, ships with the wiki)
-  - live uploads        : data/notes/.staged.json   (browser uploads, served immediately)
+  - committed curation  : src/images/manifest.json  (durable, ships with the wiki)
+  - live uploads        : src/images/.staged.json   (browser uploads, served immediately)
 
 The GET index merges both. Manifest entries may also carry a `path` field
 pointing at an image that stays in place elsewhere in the repo (resolved
-relative to data/notes/, e.g. '../biology/<topic>/<file>'); such notes are
-served from that location and their thumbnail lives in data/notes/<id>/.
+relative to src/images/, e.g. '../data/biology/<topic>/<file>'); such notes are
+served from that location and their thumbnail lives in src/images/<id>/.
 
 Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
 the site. OCR runs ONCE per note through the read-only wiki-util agent: the
 endpoint short-circuits when a transcript already exists.
 
 IMAGE SERVING IS GITHUB-FIRST. The web client (web/components/notes.js) builds
-image URLs directly from the deterministic repo path data/notes/<id>/<file>
+image URLs directly from the deterministic repo path src/images/<id>/<file>
 (thumbnail <stem>.thumb.<ext>) hosted on raw.githubusercontent.com, so the
 browser loads note images from GitHub's CDN rather than proxying bytes through
 this server. This endpoint therefore acts only as a fallback for images not yet
@@ -42,9 +42,9 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/v1/notes", tags=["notes"])
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_NOTES_DIR = REPO_ROOT / "data" / "notes"
-MANIFEST_FILE = DATA_NOTES_DIR / "manifest.json"
-STAGED_FILE = DATA_NOTES_DIR / ".staged.json"
+IMAGES_DIR = REPO_ROOT / "src" / "images"
+MANIFEST_FILE = IMAGES_DIR / "manifest.json"
+STAGED_FILE = IMAGES_DIR / ".staged.json"
 NOTES_DIR = REPO_ROOT / "src" / "notes"
 
 MAX_FILE_BYTES = 30 * 1024 * 1024  # 30 MB per image
@@ -73,6 +73,28 @@ _OCR_FAIL_RE = re.compile(
 
 def _looks_like_ocr_failure(text: str) -> bool:
     return bool(text and _OCR_FAIL_RE.search(text))
+
+
+# OCR locale aliases → canonical BCP-47 keys used in note.translations. English
+# (en-US) is the default locale; Traditional Chinese is this wiki's second.
+_LOCALE_ALIASES = {
+    "en": "en-US",
+    "en-us": "en-US",
+    "en_us": "en-US",
+    "zh": "zh-TW",
+    "zh-tw": "zh-TW",
+    "zh_tw": "zh-TW",
+    "zh-hant": "zh-TW",
+    "zh-hant-tw": "zh-TW",
+    "zh-hk": "zh-TW",
+    "zh-cn": "zh-CN",
+    "zh-hans": "zh-CN",
+}
+
+
+def _locale_of(code: str) -> str:
+    """Map a loose language code to a canonical translations key (en-US default)."""
+    return _LOCALE_ALIASES.get((code or "").strip().lower(), "en-US")
 
 
 def _now_iso() -> str:
@@ -128,19 +150,19 @@ def _note_dir(note_id: str) -> Path:
     safe = Path(note_id).name
     if safe != note_id:
         raise HTTPException(status_code=400, detail="Invalid note id")
-    return DATA_NOTES_DIR / safe
+    return IMAGES_DIR / safe
 
 
 def _resolve_page_file(note: dict, fname: str) -> Path:
     """Resolve a note page to an actual file on disk.
 
     In-place ('path'-carrying) notes carry a `path` that is resolved relative
-    to data/notes/ (e.g. '../biology/<topic>/<file>' points at the physical
-    file under data/biology/); legacy notes hold the file inside their own
-    data/notes/<id>/ folder. Kept inside the repo so we can never serve an
+    to src/images/ (e.g. '../data/biology/<topic>/<file>' points at the physical
+    file under src/data/biology/); legacy notes hold the file inside their own
+    src/images/<id>/ folder. Kept inside the repo so we can never serve an
     arbitrary path."""
     if note.get("path"):
-        p = (DATA_NOTES_DIR / note["path"]).resolve()
+        p = (IMAGES_DIR / note["path"]).resolve()
         if p.is_relative_to(REPO_ROOT):
             return p
         raise HTTPException(status_code=400, detail="Invalid note path")
@@ -159,7 +181,7 @@ def _thumb_path(page_path: Path, note: dict | None = None) -> Path:
 
     get_image() looks up `<stem>.thumb.<ext>` and serves it when present;
     otherwise it falls back to the full-res original. For in-place notes the
-    thumb lives in the note's own data/notes/<id>/ folder (sibling of the full
+    thumb lives in the note's own src/images/<id>/ folder (sibling of the full
     image only for legacy notes whose image already sits inside that folder)."""
     if note is not None and note.get("path"):
         return _note_dir(note["id"]) / (page_path.stem + ".thumb" + page_path.suffix)
@@ -213,17 +235,28 @@ def _list_documents() -> list[dict]:
     return out
 
 
+def _tr(n: dict, code: str) -> dict:
+    """Resolve a locale block from a note's translations map (empty dict if absent)."""
+    tr = n.get("translations") or {}
+    loc = tr.get(code)
+    return loc if isinstance(loc, dict) else {}
+
+
 def _public_note(n: dict, with_private: bool = False) -> dict:
+    # Default content reads from translations["en-US"]; legacy root title/ocr
+    # fields remain as fallbacks for un-migrated or staged entries.
+    en = _tr(n, "en-US")
+    title = en.get("title") or n.get("title") or n.get("id", "Untitled note")
+    ocr = en.get("ocr") or n.get("ocr") or ""
     pub = {
         "id": n.get("id"),
-        "title": n.get("title") or n.get("id", "Untitled note"),
+        "title": title,
         "document": n.get("document") or "",
         "entities": n.get("entities") or [],
         "tags": n.get("tags") or [],
         "pages": n.get("pages") or [],
-        "ocr": n.get("ocr") or "",
-        "ocr_lang": n.get("ocr_lang") or "en",
-        "has_ocr": bool(n.get("ocr")) and not _looks_like_ocr_failure(n.get("ocr", "")),
+        "ocr": ocr,
+        "has_ocr": bool(ocr) and not _looks_like_ocr_failure(ocr),
         "annotations": n.get("annotations") or [],
         "translations": n.get("translations") or {},
         "created": n.get("created") or _today(),
@@ -347,20 +380,23 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not save the note on the server ({e}). "
-                "The API user needs write access to data/notes "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/data)."
+                "The API user needs write access to src/images "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
             ),
         )
 
     note = {
         "id": note_id,
-        "title": title.strip() or note_id,
         "document": document.strip(),
         "entities": parsed_entities,
         "tags": parsed_tags,
         "pages": pages,
-        "ocr": "",
-        "ocr_lang": "en",
+        "translations": {
+            "en-US": {
+                "title": title.strip() or note_id,
+                "ocr": "",
+            }
+        },
         "annotations": [],
         "created": _today(),
         "updated": _today(),
@@ -381,8 +417,8 @@ async def upload_notes(
             status_code=500,
             detail=(
                 f"Could not register the note ({e}). "
-                "The API user needs write access to data/notes "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/data)."
+                "The API user needs write access to src/images "
+                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
             ),
         )
     logger.info(f"notes upload: {note_id} ({len(pages)} pages)")
@@ -398,10 +434,20 @@ async def transcribe_note(payload: dict) -> dict:
     note = _note_lookup().get(note_id)
     if note is None:
         raise HTTPException(status_code=404, detail="Note not found")
-    if note.get("ocr") and not _looks_like_ocr_failure(note["ocr"]):
-        return {"id": note_id, "ocr": note["ocr"], "cached": True}
 
-    lang = payload.get("lang") or note.get("ocr_lang") or "en"
+    # Transcripts live in translations[<locale>]; en-US is the default and
+    # legacy root `ocr` is a fallback for un-migrated/staged entries.
+    lang = payload.get("lang") or "en"
+    locale = _locale_of(lang)
+    existing = (
+        _tr(note, locale).get("ocr")
+        or _tr(note, "en-US").get("ocr")
+        or note.get("ocr")
+        or ""
+    )
+    if existing and not _looks_like_ocr_failure(existing):
+        return {"id": note_id, "ocr": existing, "cached": True}
+
     chunks = []
     try:
         for p in note.get("pages", []):
@@ -422,11 +468,11 @@ async def transcribe_note(payload: dict) -> dict:
     except RuntimeError as e:
         raise HTTPException(status_code=502, detail=str(e))
 
-    note["ocr"] = "\n\n".join(chunks)
-    note["ocr_lang"] = lang
+    transcript = "\n\n".join(chunks)
+    note.setdefault("translations", {}).setdefault(locale, {})["ocr"] = transcript
     note["updated"] = _today()
     _persist_note(note)
-    return {"id": note_id, "ocr": note["ocr"], "cached": False}
+    return {"id": note_id, "ocr": transcript, "cached": False}
 
 
 @router.post("/{note_id}/annotations")
@@ -465,7 +511,9 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
     if note is None:
         raise HTTPException(status_code=404, detail="Note not found")
     if "title" in payload and payload["title"] is not None:
-        note["title"] = str(payload["title"]).strip() or note["title"]
+        new_title = str(payload["title"]).strip()
+        if new_title:
+            note.setdefault("translations", {}).setdefault("en-US", {})["title"] = new_title
     if "document" in payload and payload["document"] is not None:
         note["document"] = str(payload["document"]).strip()
     if "entities" in payload and isinstance(payload["entities"], list):
@@ -480,7 +528,7 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
 def _persist_note(note: dict) -> None:
     """Write an edit back to wherever the note already lives.
 
-    Committed notes update data/notes/manifest.json; drafts and
+    Committed notes update src/images/manifest.json; drafts and
     new edits go to .staged.json.
     """
     committed = _committed_notes()

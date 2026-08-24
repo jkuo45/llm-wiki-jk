@@ -2,7 +2,6 @@
   {
     "id": "sirtuin-pleiotropy",
     "active": true,
-    "default": true,
     "langs": {
       "en-US": {
         "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
@@ -123,6 +122,61 @@
         "path": "pages/senescence-articles-and-figures_zh-TW.html",
         "created": "2026-08-18",
         "updated": "2026-08-18"
+      }
+    }
+  },
+  {
+    "id": "node-analysis-examples-biology",
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "Node-level Network Analysis for Biological Knowledge Graphs",
+        "path": "pages/node-analysis-examples-biology.html",
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
+      },
+      "zh-TW": {
+        "title": "用於生物學優先排序的節點層級網絡分析",
+        "path": "pages/node-analysis-examples-biology_zh-TW.html",
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    }
+  },
+  {
+    "id": "adrenochrome-protocol-node-network-analysis",
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
+        "path": "pages/adrenochrome-protocol-node-network-analysis.html",
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
+      },
+      "zh-TW": {
+        "title": "腎上腺素紅方案：作用劑—觸發器網絡追蹤",
+        "path": "pages/adrenochrome-protocol-node-network-analysis_zh-TW.html",
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    }
+  },
+  {
+    "id": "articles-index",
+    "active": true,
+    "default": true,
+    "langs": {
+      "en-US": {
+        "title": "[index] articles",
+        "path": "pages/index.html",
+        "created": "2026-08-21",
+        "updated": "2026-08-21"
+      },
+      "zh-TW": {
+        "title": "文章索引",
+        "path": "pages/index.html",
+        "created": "2026-08-21",
+        "updated": "2026-08-21"
       }
     }
   }

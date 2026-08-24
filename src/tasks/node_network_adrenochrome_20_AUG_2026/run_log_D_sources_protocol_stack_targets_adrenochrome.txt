@@ -1,0 +1,332 @@
+graph: 2596 nodes / 2110 giant-component nodes / 3295 edges
+sources: ['Urolithin A', 'Spermidine', 'Rapamycin', 'Fisetin', 'Creatine', 'Resveratrol', 'Carbazochrome', 'Ascorbic Acid']   targets: ['Adrenochrome']
+
+
+0. Pre-computed node metrics
+    Urolithin A:
+      degree=32  in=4  out=28  pagerank=0.00108144
+      betweenness=0.01810129  clustering=0.00806452  k_core=5
+      community=48 (Urolithin A, size=15)
+    Spermidine:
+      degree=9  in=2  out=7  pagerank=0.00038963
+      betweenness=0.00313307  clustering=0.08333333  k_core=5
+      community=34 (Autophagy, size=19)
+    Rapamycin:
+      degree=41  in=6  out=35  pagerank=0.00116973
+      betweenness=0.02232821  clustering=0.03461538  k_core=6
+      community=26 (Rapamycin, size=22)
+    Fisetin:
+      degree=28  in=3  out=25  pagerank=0.00044986
+      betweenness=0.01898933  clustering=0.02279202  k_core=5
+      community=30 (Fisetin, size=21)
+    Creatine:
+      degree=39  in=0  out=39  pagerank=0.00021864
+      betweenness=0.03747386  clustering=0.00269906  k_core=4
+      community=19 (Creatine, size=27)
+    Resveratrol:
+      degree=36  in=4  out=32  pagerank=0.00056461
+      betweenness=0.03727386  clustering=0.00672269  k_core=5
+      community=14 (Resveratrol, size=28)
+    Carbazochrome:
+      degree=2  in=1  out=1  pagerank=0.00032009
+      betweenness=0.00023445  clustering=0  k_core=2
+      community=98 (Adrenochrome monoaminoguanidine, size=6)
+    Ascorbic Acid:
+      degree=6  in=0  out=6  pagerank=0.00021864
+      betweenness=0.00324697  clustering=0.26666667  k_core=4
+      community=90 (Glutathione, size=7)
+    Adrenochrome:
+      degree=60  in=18  out=42  pagerank=0.00500527
+      betweenness=0.03867342  clustering=0.00942761  k_core=4
+      community=7 (Adrenochrome, size=33)
+
+    God nodes (top 10 by degree):
+      SIRT1: degree=216
+      SIRT3: degree=170
+      SIRT6: degree=117
+      SASP: degree=101
+      SIRT2: degree=81
+      Cancer: degree=74
+      Adrenochrome: degree=60
+      COMT: degree=59
+      Nicotinamide Riboside: degree=57
+      TFEB: degree=54
+
+    Surprising connections (5 found):
+      SIRT1 --[deacetylates]--> NF-kappaB: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `NF-kappaB` unexpectedly reaches hub `SIRT1`
+      SIRT1 --[is_protective_in]--> Kidney Fibrosis: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Kidney Fibrosis` unexpectedly reaches hub `SIRT1`
+      SIRT1 --[is_protective_in]--> Osteoporosis: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Osteoporosis` unexpectedly reaches hub `SIRT1`
+      SIRT1 --[deacetylates]--> ChREBP: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `ChREBP` unexpectedly reaches hub `SIRT1`
+      SIRT3 --[is_downregulated_in]--> Hepatocellular Carcinoma: crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Hepatocellular Carcinoma` unexpectedly reaches hub `SIRT3`
+
+    Low-cohesion communities (<0.15): 45
+      SIRT1 (id=0): 0.0164
+      SIRT3 (id=1): 0.0226
+      SIRT6 (id=2): 0.0290
+      SIRT2 (id=3): 0.0351
+      Mitohormesis (id=6): 0.0571
+
+0b. Community context
+    Community 48 (Urolithin A): ['Urolithin A']
+    Community 34 (Autophagy): ['Spermidine']
+    Community 26 (Rapamycin): ['Rapamycin']
+    Community 30 (Fisetin): ['Fisetin']
+    Community 19 (Creatine): ['Creatine']
+    Community 14 (Resveratrol): ['Resveratrol']
+    Community 98 (Adrenochrome monoaminoguanidine): ['Carbazochrome']
+    Community 90 (Glutathione): ['Ascorbic Acid']
+    Community 7 (Adrenochrome): ['Adrenochrome']
+    Cross-community analysis: 9 distinct communities
+
+    Source document provenance (9 documents):
+      Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista : ['Urolithin A']
+      Autophagy.md: ['Spermidine']
+      The Mechanistic Target of Rapamycin (mTOR) Pathway as a Targ: ['Rapamycin']
+      Fisetin—In Search of Better Bioavailability—From Macro to Na: ['Fisetin']
+      Creatine in Health and Disease.md: ['Creatine']
+      COMT.md: ['Resveratrol']
+      molecular composition, mechanism.md: ['Carbazochrome']
+      formation, chemical stability.md: ['Ascorbic Acid']
+      Adrenochrome (pubchem).md: ['Adrenochrome']
+
+1. Shortest-path multiplicity (bridges = first hop, NetworkX)
+    Urolithin A -> Adrenochrome: 3 shortest path(s), bridges = ['NF-κB', 'Oxidative Stress', 'Reactive Oxygen Species']
+      Path: Urolithin A --[scavenges|0.9]--> Reactive Oxygen Species  Reactive Oxygen Species --[generates|0.95]--> Adrenochrome
+    Spermidine -> Adrenochrome: 1 shortest path(s), bridges = ['Oxidative Stress']
+      Path: Spermidine --[reduces|0.95]--> Oxidative Stress  Oxidative Stress --[induces|0.85]--> Adrenochrome
+    Rapamycin -> Adrenochrome: 3 shortest path(s), bridges = ['NF-κB', 'Oxidative Phosphorylation', 'Oxidative Stress']
+      Path: Rapamycin --[improves|0.92]--> Oxidative Phosphorylation  Oxidative Phosphorylation --[uncouples|0.85]--> Adrenochrome
+    Fisetin -> Adrenochrome: 7 shortest path(s), bridges = ['Cellular Senescence', 'COMT', 'Flavonoids', 'SASP', 'Senomorphic']
+      Path: Fisetin --[is_exhibited_by|0.7]--> Senomorphic  Senomorphic --[targets|0.91]--> NF-κB  NF-κB --[inhibits|0.6]--> Adrenochrome
+    Creatine -> Adrenochrome: 1 shortest path(s), bridges = ['Reactive Oxygen Species']
+      Path: Creatine --[reduces|0.88]--> Reactive Oxygen Species  Reactive Oxygen Species --[generates|0.95]--> Adrenochrome
+    Resveratrol -> Adrenochrome: 8 shortest path(s), bridges = ['COMT', 'SAMD', 'SASP', 'SIRT1', 'SIRT3']
+      Path: Resveratrol --[is_suppressed_by|0.68]--> SAMD  SAMD --[activates|0.88]--> NF-κB  NF-κB --[inhibits|0.6]--> Adrenochrome
+    Carbazochrome -> Adrenochrome: 1 shortest path(s), bridges = []
+      Path: Carbazochrome --[is_an_intermediate_for|0.95]--> Adrenochrome
+    Ascorbic Acid -> Adrenochrome: 1 shortest path(s), bridges = []
+      Path: Ascorbic Acid --[reduces|0.75]--> Adrenochrome
+
+2. Neighborhood distinctness (degree + pairwise Jaccard)
+    degree Urolithin A: 32  pagerank=0.00108144  betweenness=0.01810129
+    degree Spermidine: 9  pagerank=0.00038963  betweenness=0.00313307
+    degree Rapamycin: 40  pagerank=0.00116973  betweenness=0.02232821
+    degree Fisetin: 27  pagerank=0.00044986  betweenness=0.01898933
+    degree Creatine: 39  pagerank=0.00021864  betweenness=0.03747386
+    degree Resveratrol: 35  pagerank=0.00056461  betweenness=0.03727386
+    degree Carbazochrome: 2  pagerank=0.00032009  betweenness=0.00023445
+    degree Ascorbic Acid: 6  pagerank=0.00021864  betweenness=0.00324697
+    degree Adrenochrome: 55  pagerank=0.00500527  betweenness=0.03867342
+    Jaccard(Urolithin A vs Spermidine) = 0.025
+      shared (1): ['Oxidative Stress']
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1']
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'TFEB']
+    Jaccard(Urolithin A vs Rapamycin) = 0.043
+      shared (3): ['mTOR', 'NF-κB', 'Oxidative Stress']
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'MuRF1', 'Muscle Atrophy']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia']
+    Jaccard(Urolithin A vs Fisetin) = 0.000
+      shared (0): []
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1']
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'COMT', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption']
+    Jaccard(Urolithin A vs Creatine) = 0.029
+      shared (2): ['AMPK', 'Reactive Oxygen Species']
+      Urolithin A-only: ['Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1', 'Muscle Atrophy']
+      Creatine-only: ['ADP', 'Amino Acids', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'COMT', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation', 'Exercise']
+    Jaccard(Urolithin A vs Resveratrol) = 0.000
+      shared (0): []
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1']
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'COMT', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage']
+    Jaccard(Urolithin A vs Carbazochrome) = 0.000
+      shared (0): []
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1']
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+    Jaccard(Urolithin A vs Ascorbic Acid) = 0.027
+      shared (1): ['Oxidative Stress']
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'o-quinone', 'Silver compounds']
+    Jaccard(Urolithin A vs Adrenochrome) = 0.036
+      shared (3): ['NF-κB', 'Oxidative Stress', 'Reactive Oxygen Species']
+      Urolithin A-only: ['AMPK', 'Apoptosis', 'ATP synthesis', 'Atrogin-1', 'Bax/Bcl-2 ratio', 'CDK', 'Ellagitannins', 'FOXO', 'Gut Microbiome', 'Kidney', 'Liver', 'Mitochondrial Function', 'Mitophagy', 'mTOR', 'MuRF1']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Spermidine vs Rapamycin) = 0.089
+      shared (4): ['Autophagy', 'Caloric Restriction', 'Immunosenescence', 'Oxidative Stress']
+      Spermidine-only: ['Arterial aging', 'B Cell responses', 'eIF5A', 'HAT', 'TFEB']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy Inducer', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia', 'Immune Aging', 'Immune System']
+    Jaccard(Spermidine vs Fisetin) = 0.000
+      shared (0): []
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'Oxidative Stress', 'TFEB']
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'COMT', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption']
+    Jaccard(Spermidine vs Creatine) = 0.000
+      shared (0): []
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'Oxidative Stress', 'TFEB']
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'COMT', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation']
+    Jaccard(Spermidine vs Resveratrol) = 0.000
+      shared (0): []
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'Oxidative Stress', 'TFEB']
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'COMT', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage']
+    Jaccard(Spermidine vs Carbazochrome) = 0.000
+      shared (0): []
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'Oxidative Stress', 'TFEB']
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+    Jaccard(Spermidine vs Ascorbic Acid) = 0.071
+      shared (1): ['Oxidative Stress']
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'TFEB']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'o-quinone', 'Silver compounds']
+    Jaccard(Spermidine vs Adrenochrome) = 0.016
+      shared (1): ['Oxidative Stress']
+      Spermidine-only: ['Arterial aging', 'Autophagy', 'B Cell responses', 'Caloric Restriction', 'eIF5A', 'HAT', 'Immunosenescence', 'TFEB']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Rapamycin vs Fisetin) = 0.063
+      shared (4): ['Cellular Senescence', 'Inflammation', 'SASP', 'Senomorphic']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia', 'Immune Aging']
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'COMT', 'Flavonoids', 'Geraldol', 'Healthspan', 'Lifespan', 'Limited Oral Absorption', 'Low Water Solubility', 'Neuroprotective Activity']
+    Jaccard(Rapamycin vs Creatine) = 0.026
+      shared (2): ['Cancer', 'Sarcopenia']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia', 'Immune Aging']
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer Metabolism', 'Cognition', 'COMT', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation', 'Exercise']
+    Jaccard(Rapamycin vs Resveratrol) = 0.027
+      shared (2): ['SASP', 'Senomorphic Therapy']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia']
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'COMT', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage']
+    Jaccard(Rapamycin vs Carbazochrome) = 0.000
+      shared (0): []
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia']
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+    Jaccard(Rapamycin vs Ascorbic Acid) = 0.022
+      shared (1): ['Oxidative Stress']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'o-quinone', 'Silver compounds']
+    Jaccard(Rapamycin vs Adrenochrome) = 0.033
+      shared (3): ['NF-κB', 'Oxidative Phosphorylation', 'Oxidative Stress']
+      Rapamycin-only: ['Age-Related Diseases', "Alzheimer's Disease", 'Autophagy', 'Autophagy Inducer', 'Caloric Restriction', 'Cancer', 'Cardiovascular System', 'Cell Proliferation', 'Cellular Senescence', 'Cognitive Decline', 'Colorectal Cancer', 'CYP3A4', 'Glucose Intolerance', 'Hormesis', 'Hyperlipidemia']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Fisetin vs Creatine) = 0.015
+      shared (1): ['COMT']
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption', 'Low Water Solubility']
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation', 'Exercise']
+    Jaccard(Fisetin vs Resveratrol) = 0.033
+      shared (2): ['COMT', 'SASP']
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption', 'Low Water Solubility']
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage', 'Glucose metabolism']
+    Jaccard(Fisetin vs Carbazochrome) = 0.000
+      shared (0): []
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'COMT', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption']
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+    Jaccard(Fisetin vs Ascorbic Acid) = 0.000
+      shared (0): []
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'COMT', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'o-quinone', 'Oxidative Stress', 'Silver compounds']
+    Jaccard(Fisetin vs Adrenochrome) = 0.000
+      shared (0): []
+      Fisetin-only: ['Anti-cancer Activity', 'Anti-diabetic Activity', 'Anti-oxidative Activity', 'Bcl-2', 'Bcl-xL', 'Bioavailability', 'catechol flavonoid', 'Cellular Senescence', 'COMT', 'Flavonoids', 'Geraldol', 'Healthspan', 'Inflammation', 'Lifespan', 'Limited Oral Absorption']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Creatine vs Resveratrol) = 0.014
+      shared (1): ['COMT']
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation', 'Exercise']
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage', 'Glucose metabolism']
+    Jaccard(Creatine vs Carbazochrome) = 0.000
+      shared (0): []
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'COMT', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation']
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+    Jaccard(Creatine vs Ascorbic Acid) = 0.000
+      shared (0): []
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'COMT', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'o-quinone', 'Oxidative Stress', 'Silver compounds']
+    Jaccard(Creatine vs Adrenochrome) = 0.011
+      shared (1): ['Reactive Oxygen Species']
+      Creatine-only: ['ADP', 'Amino Acids', 'AMPK', 'Antioxidant Properties', 'Arginine', 'ATP', 'Cancer', 'Cancer Metabolism', 'Cognition', 'COMT', 'Creatine Kinase', 'Creatine Phosphate', 'Creatine Synthesis Deficiency', 'Dietary Supplement', 'DNA Methylation']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Resveratrol vs Carbazochrome) = 0.000
+      shared (0): []
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'COMT', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage']
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+    Jaccard(Resveratrol vs Ascorbic Acid) = 0.000
+      shared (0): []
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'COMT', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'o-quinone', 'Oxidative Stress', 'Silver compounds']
+    Jaccard(Resveratrol vs Adrenochrome) = 0.000
+      shared (0): []
+      Resveratrol-only: ['0.15 to 1.3 mg per 100g', '1.5 to 3 mg per liter', '~8–14 minutes', 'Anti-neoplastic effects', 'Anti-viral effects', 'Bleeding risk with concurrent anticoagulant use', 'Blood glucose and insulin', 'calorie restriction in lower organisms', 'COMT', 'Coronary relaxation', 'Cytochrome P450', 'Cytochrome P450 activity', 'Direct antioxidant (weaker than vitamin C)', 'Dual mechanism (direct + indirect)', 'Endothelial cells from lipid damage']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Carbazochrome vs Ascorbic Acid) = 0.143
+      shared (1): ['Adrenochrome']
+      Carbazochrome-only: ['Hemostatics']
+      Ascorbic Acid-only: ['Adrenochrome formation', 'Dopamine', 'o-quinone', 'Oxidative Stress', 'Silver compounds']
+    Jaccard(Carbazochrome vs Adrenochrome) = 0.000
+      shared (0): []
+      Carbazochrome-only: ['Adrenochrome', 'Hemostatics']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+    Jaccard(Ascorbic Acid vs Adrenochrome) = 0.034
+      shared (2): ['o-quinone', 'Oxidative Stress']
+      Ascorbic Acid-only: ['Adrenochrome', 'Adrenochrome formation', 'Dopamine', 'Silver compounds']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenolutin', 'Aminochrome', 'Aminoguanidine', 'Aqueous solutions at physiological pH', 'Arrhythmias', 'Ascorbic Acid', 'Biological fluids']
+
+3. Adamic-Adar link-prediction proximity (every source x every target)
+    Adamic-Adar(Urolithin A -> Adrenochrome) = 0.885
+    Adamic-Adar(Spermidine -> Adrenochrome) = 0.289
+    Adamic-Adar(Rapamycin -> Adrenochrome) = 1.999
+    Adamic-Adar(Fisetin -> Adrenochrome) = 0.000
+    Adamic-Adar(Creatine -> Adrenochrome) = 0.328
+    Adamic-Adar(Resveratrol -> Adrenochrome) = 0.000
+    Adamic-Adar(Carbazochrome -> Adrenochrome) = 0.000
+    Adamic-Adar(Ascorbic Acid -> Adrenochrome) = 0.910
+
+4. k-core nesting depth
+    k-core Urolithin A: 5
+    k-core Spermidine: 5
+    k-core Rapamycin: 6
+    k-core Fisetin: 5
+    k-core Creatine: 4
+    k-core Resveratrol: 5
+    k-core Carbazochrome: 2
+    k-core Ascorbic Acid: 4
+    k-core Adrenochrome: 4
+
+5. Spectral (dense eigh)
+    algebraic connectivity lambda2 = 0.0463
+    Fiedler Urolithin A: +0.0033  (sign is arbitrary)
+    Fiedler Spermidine: +0.0037  (sign is arbitrary)
+    Fiedler Rapamycin: +0.0036  (sign is arbitrary)
+    Fiedler Fisetin: -0.0010  (sign is arbitrary)
+    Fiedler Creatine: -0.0024  (sign is arbitrary)
+    Fiedler Resveratrol: -0.0006  (sign is arbitrary)
+    Fiedler Carbazochrome: -0.0008  (sign is arbitrary)
+    Fiedler Ascorbic Acid: -0.0023  (sign is arbitrary)
+    Fiedler Adrenochrome: -0.0015  (sign is arbitrary)
+
+6. Effective-resistance / commute distance (pseudoinverse Laplacian)
+    vs Adrenochrome (null mean 1.164 +/- 0.595, n=300):
+      Urolithin A: 0.159   z = -1.69
+      Spermidine: 0.291   z = -1.47
+      Rapamycin: 0.130   z = -1.74
+      Fisetin: 0.172   z = -1.67
+      Creatine: 0.200   z = -1.62
+      Resveratrol: 0.252   z = -1.53
+      Carbazochrome: 0.747   z = -0.70
+      Ascorbic Acid: 0.282   z = -1.48
+    self-check R_eff(Adrenochrome, Adrenochrome) = 0.0000 (~0 expected)
+
+7. Personalized PageRank (random-walk flow seeded at each target)
+    Standard PageRank (pre-computed):
+      Adrenochrome: 0.00500527
+      Rapamycin: 0.00116973
+      Urolithin A: 0.00108144
+      Resveratrol: 0.00056461
+      Fisetin: 0.00044986
+      Spermidine: 0.00038963
+      Carbazochrome: 0.00032009
+      Creatine: 0.00021864
+      Ascorbic Acid: 0.00021864
+
+    PPR seeded at Adrenochrome:
+      Urolithin A: rank #90 (score 0.00187)
+      Spermidine: rank #174 (score 0.00061)
+      Rapamycin: rank #59 (score 0.00432)
+      Fisetin: rank #147 (score 0.00072)
+      Creatine: rank #95 (score 0.00164)
+      Resveratrol: rank #181 (score 0.00057)
+      Carbazochrome: rank #14 (score 0.00716)
+      Ascorbic Acid: rank #15 (score 0.00689)
+
+Cross-metric note: hop distance is frequently non-discriminating; rankings by route-multiplicity vs flow metrics can disagree (see task output).

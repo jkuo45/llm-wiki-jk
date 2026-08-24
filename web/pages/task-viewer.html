@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task Output</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="themes/theme-01/pages.css">
+<script src="themes/theme-01/page-theme.js"></script>
+<style>
+/* Task-output specific rendering (callouts, wiki links, tables) layered
+   on top of the shared article stylesheet. */
+.task-body { padding-bottom:64px; }
+.task-body h1 { margin-top:8px; }
+.task-body section { padding:20px 0; }
+.task-body table { border-collapse:collapse; min-width:max-content; width:100%; font-size:.92rem; }
+.table-wrap { overflow-x:auto; margin:14px 0; -webkit-overflow-scrolling:touch; }
+.table-wrap table { margin:0; }
+.task-body th, .task-body td { border:1px solid var(--line2); padding:7px 10px; text-align:left; vertical-align:top; }
+.task-body th { background:var(--card); }
+/* Frozen first column: solid opaque background so horizontally scrolled
+   rows don't show through (zebra striping must not override this). */
+.task-body table thead th:first-child,
+.task-body table tbody th:first-child,
+.task-body table tbody td:first-child {
+  position:sticky; left:0; z-index:1;
+  background:var(--bg);
+  box-shadow:1px 0 0 var(--line2);
+}
+.task-body table thead th:first-child { z-index:3; }
+.task-body tr:nth-child(even) td { background:color-mix(in srgb, var(--card) 45%, transparent); }
+.task-body pre { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; overflow-x:auto; }
+/* Deeper indentation for (nested) bullet points */
+.task-body ul, .task-body ol { padding-left:32px; }
+.task-body ul ul, .task-body ol ul, .task-body ul ol, .task-body ol ol { padding-left:36px; }
+.task-body code { font-size:.88em; }
+.task-body blockquote { border-left:3px solid var(--teal); margin:10px 0; padding:4px 14px; color:var(--dim); }
+.callout { border:1px solid var(--line2); border-left-width:4px; border-radius:8px;
+           padding:10px 16px; margin:16px 0; background:var(--card); }
+.callout-title { font-weight:700; margin-bottom:4px; }
+.callout-info   { border-left-color:#4da3ff; }
+.callout-tip    { border-left-color:#38c793; }
+.callout-important { border-left-color:#a78bfa; }
+.callout-warning   { border-left-color:#ffb020; }
+.callout-caution   { border-left-color:#ff6b6b; }
+.callout-note      { border-left-color:#4da3ff; }
+.callout-example   { border-left-color:#38c793; }
+.callout-quote     { border-left-color:var(--dim); }
+a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
+span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
+.task-meta { color:var(--dim); font-size:.85rem; margin:2px 0 18px; }
+.loading { color:var(--dim); padding-top:48px; }
+.error { color:#ff6b6b; padding-top:48px; }
+/* Sticky-nav section picker (replaces the horizontal-scrolling link list) */
+.toc-select { max-width:min(420px, 50vw); height:30px; font-size:.85rem; color:var(--text);
+  background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:0 8px; }
+.toc-next { height:30px; margin-left:auto; font-size:.85rem; font-weight:700; color:var(--text);
+  background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px; cursor:pointer; }
+.toc-next:hover { color:var(--teal); border-color:var(--teal); }
+</style>
+</head>
+<body style="--wrap-width:1100px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-index" class="back-home" href="tasks-index.html" title="Back to task outputs index / 返回任務輸出索引">&#8592; Back</a>
+    <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
+    <button id="toc-next" class="toc-next" type="button" title="Next task output">Next &#8594;</button>
+  </div>
+</nav>
+
+<div class="wrap task-body" id="content">
+  <p class="loading">Loading…</p>
+</div>
+
+<script type="module">
+import { renderMarkdown } from '../components/markdown.js';
+
+const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
+
+// Only files under tasks/ may be loaded through this viewer.
+function safeSrc() {
+  const raw = new URLSearchParams(location.search).get('src') || '';
+  const decoded = decodeURIComponent(raw);
+  // Optional "../" prefix (page-relative). Allow nested subdirectories
+  // (e.g. tasks/en-US/<task>/file.md) but no traversal (".." segments),
+  // no backslashes, no empty segments.
+  const m = decoded.match(/^(?:\.\.\/)?(tasks\/.+)$/);
+  if (!m) return null;
+  const segs = m[1].split('/');
+  const ok = segs.length >= 2 &&
+    segs.every((s) => s && s !== '.' && s !== '..' && !s.includes('\\')) &&
+    /\.(?:md|markdown)$/.test(segs[segs.length - 1]);
+  return ok ? '../' + m[1] : null;
+}
+
+function stripFrontmatter(text) {
+  return text.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '');
+}
+
+// Resolve [[Entity]] links against the note manifest (basename match),
+// mirroring data.js noteUrl() without pulling in the full data module.
+async function loadWikiResolver() {
+  let byBase = new Map();
+  try {
+    const resp = await fetch('../data/manifest.json');
+    if (resp.ok) {
+      const manifest = await resp.json();
+      Object.keys(manifest).forEach((p) => {
+        if (p.endsWith('.md')) {
+          const base = p.split('/').pop().replace(/\.md$/, '').toLowerCase();
+          if (!byBase.has(base)) byBase.set(base, GITHUB_BASE + 'src/' + p);
+        }
+      });
+    }
+  } catch (e) { /* manifest unavailable → inert wiki links */ }
+  return (label) => byBase.get(label.toLowerCase()) || '';
+}
+
+// Group rendered blocks under <section id> per h1/h2 so the reader's
+// scroll tracking and #section deep links work like article pages.
+function structureSections(container) {
+  const headings = container.querySelectorAll('h1[id], h2[id]');
+  let current = null;
+  Array.from(container.children).forEach((node) => {
+    if (node.matches('h1[id], h2[id]')) {
+      current = document.createElement('section');
+      current.id = node.id;
+      container.insertBefore(current, node);
+    }
+    if (current) current.appendChild(node);
+  });
+  return Array.from(container.querySelectorAll(':scope > section'));
+}
+
+const src = safeSrc();
+if (!src) {
+  document.getElementById('content').innerHTML =
+    '<p class="error">Invalid or missing ?src= parameter.</p>';
+} else {
+  try {
+    const [resp, wikiHref] = await Promise.all([
+      fetch(src),
+      loadWikiResolver(),
+    ]);
+    if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText}`);
+    const md = stripFrontmatter(await resp.text());
+    const content = document.getElementById('content');
+    content.innerHTML = renderMarkdown(md, { wikiHref });
+    // Wrap tables so wide ones scroll horizontally instead of overflowing.
+    content.querySelectorAll('table').forEach((t) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'table-wrap';
+      t.parentNode.insertBefore(wrap, t);
+      wrap.appendChild(t);
+    });
+    const sections = structureSections(content);
+    const firstH1 = content.querySelector('h1');
+    if (firstH1) document.title = firstH1.textContent;
+    // Next button → open the next task output document (registry order,
+    // newest first — mirrors the reader dropdown). The registry is fetched
+    // lazily; the button stays inert until a next document resolves.
+    const NAV_OFFSET = 60; // matches nav height + breathing room
+    const tocSelect = document.getElementById('toc-select');
+    const nextBtn = document.getElementById('toc-next');
+    let nextHref = null;
+
+    async function initNextTask() {
+      try {
+        const resp = await fetch('../data/tasks.json');
+        if (!resp.ok) return;
+        const data = await resp.json();
+        // Flatten to one row per entry (prefer en-US), keep .md docs only.
+        const rows = (data.tasks || [])
+          .filter((t) => t.active !== false)
+          .map((t) => t.langs?.['en-US'] || Object.values(t.langs || {})[0])
+          .filter((l) => l && l.path && /\.md$/.test(l.path))
+          .sort((a, b) => (b.created || '').localeCompare(a.created || ''));
+        const curPath = decodeURIComponent(
+          new URLSearchParams(location.search).get('src') || ''
+        ).replace(/^\.\.\//, '');
+        const idx = rows.findIndex((l) => l.path === curPath);
+        const next = idx >= 0 ? rows[idx + 1] : rows[0];
+        if (next) {
+          nextHref = 'task-viewer.html?src=' +
+            encodeURIComponent('../' + next.path);
+          nextBtn.title = 'Next task output: ' + next.title;
+        }
+      } catch (e) { /* registry unavailable → button stays inert */ }
+    }
+    initNextTask();
+
+    nextBtn.addEventListener('click', () => {
+      if (nextHref) location.href = nextHref;
+    });
+
+    tocSelect.innerHTML = '<option value="">Top</option>' + sections.map((s) => {
+      const label = s.querySelector('h1,h2')?.textContent || s.id;
+      return `<option value="#${s.id}">${label}</option>`;
+    }).join('');
+
+    const scrollToSection = (id) => {
+      if (!id) { window.scrollTo(0, 0); return; }
+      const el = document.getElementById(id);
+      if (el) window.scrollTo(0, el.offsetTop - NAV_OFFSET);
+    };
+
+    tocSelect.addEventListener('change', () => {
+      const id = tocSelect.value.replace(/^#/, '');
+      scrollToSection(id);
+      history.replaceState(null, '', id ? '#' + id : location.pathname + location.search);
+    });
+
+    // Section currently scrolled under the sticky nav → sync the select.
+    const currentSectionId = () => {
+      let active = '';
+      for (const s of sections) {
+        if (s.getBoundingClientRect().top <= NAV_OFFSET + 1) active = s.id;
+      }
+      return active;
+    };
+    const syncToc = () => {
+      const id = currentSectionId();
+      if (('#' + id) !== tocSelect.value) {
+        tocSelect.value = id ? '#' + id : '';
+      }
+    };
+    window.addEventListener('scroll', syncToc, { passive: true });
+    syncToc();
+  } catch (e) {
+    document.getElementById('content').innerHTML =
+      `<p class="error">Failed to load task output: ${e.message}</p>`;
+  }
+}
+</script>
+</body>
+</html>

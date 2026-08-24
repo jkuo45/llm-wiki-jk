@@ -1,9 +1,9 @@
-"""Input sanitization for the chat API.
+"""Input sanitization for the prompt API.
 
 Prompts are delivered to opencode over HTTP as JSON, never as shell argv, so
 the historical shell-injection blocklist is gone. It rejected legitimate
 biomedical questions (backticks, `&&`, "erase", "truncate") for no benefit.
-What remains guards against XSS reflected into the chat panel and against
+What remains guards against XSS reflected into the prompt panel and against
 oversized or malformed payloads.
 """
 

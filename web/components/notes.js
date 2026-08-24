@@ -1,59 +1,83 @@
 // Notes panel — gallery + lightbox with OCR transcripts and persistent
 // annotation overlays, deep links to the linked paper and graph entities.
-// The upload screen (files) is hidden for now. Sibling of the
-// analysis (#chat) panel.
+// Sibling of the analysis (#prompt) panel.
 
-import { descByLabel, noteUrl } from './data.js';
-import { esc, renderMarkdown } from './markdown.js';
+import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
-import { openPromptComposer } from './chat.js';
+import { openPromptComposer } from './prompt.js';
+import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
 
 const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
 
 // GitHub-first image host. Every committed note image lives at the
-// deterministic path data/notes/<id>/<file> (thumbnail: <stem>.thumb.<ext>) in
+// deterministic path src/images/<id>/<file> (thumbnail: <stem>.thumb.<ext>) in
 // this repo, so the browser loads it straight from raw.githubusercontent
 // instead of proxying image bytes through the API. The API `/v1/notes/image`
 // endpoint remains only as the onerror fallback (staged drafts, not-yet-pushed
 // images, or raw.githubusercontent cache lag). Override for local dev or a
 // different deploy branch with:  window.GRAPH_NOTES_IMAGE_BASE = '…';
 const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
-  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/data/notes').replace(/\/$/, '');
-const MAX_PAGES = 24;
-const MAX_BYTES = 30 * 1024 * 1024;
+  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images').replace(/\/$/, '');
+
+// Bilingual (zh-TW) display labels for the controlled tag vocabulary. The raw
+// slug remains the source of truth for filtering/search — only the rendered
+// text is localized via `tagLabel()`. Resolve relative to this module so it
+// works no matter where the server root is (same convention as components/data.js).
+const NOTES_DATA_BASE = new URL('../data/', import.meta.url).href;
+let TAG_LABELS = null;            // { <slug>: '繁體中文 label' } once loaded
+let tagLabelsPending = false;
+
+function refreshTagLabels() {
+  renderGallery();                                          // cards + card badges
+  if (!comboboxPopup.hidden) renderCombobox();              // tag suggestions
+  if (!lightboxEl.hidden && currentNote) renderLightbox();  // lightbox tag chips
+}
+
+function loadTagLabels() {
+  if (TAG_LABELS !== null || tagLabelsPending) return;
+  tagLabelsPending = true;
+  fetch(NOTES_DATA_BASE + 'notes-tags-zh-TW.json?v=' + Date.now())
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((d) => {
+      TAG_LABELS = d || {};
+      if (uiLang === 'zh-TW') refreshTagLabels();
+    })
+    .catch(() => { TAG_LABELS = {}; })
+    .finally(() => { tagLabelsPending = false; });
+}
+
+// Localized display label for a tag slug. Returns the zh-TW label when the
+// panel language is 繁體中文 and a label exists; otherwise the raw slug.
+function tagLabel(tag) {
+  if (uiLang !== 'zh-TW') return tag;
+  return (TAG_LABELS && TAG_LABELS[tag]) || tag;
+}
+
+loadTagLabels();
 
 // ------------------------------------------------------------
 // DOM refs
 // ------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const notesPanel = $('notes-panel');
-const notesBox = $('notes-box');
+
 const notesBtn = $('btn-notes');
 const notesClose = $('notes-close');
 const browseEl = $('notes-browse');
 const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
+const sortBtn = $('notes-sort');
 const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
+const fieldsEl = document.querySelector('.notes-combobox-field');
 const notesSearchClear = $('notes-search-clear');
 const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-toggle'));
 const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang]'));
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
-
-const drop = $('notes-drop');
-const fileInput = $('notes-file');
-const pickBtn = $('notes-pick');
-const pagesPreview = $('notes-pages-preview');
-const titleField = $('notes-title-field');
-const docField = $('notes-doc-field');
-const topicField = $('notes-topic-field');
-const tagsField = $('notes-tags-field');
-const submitBtn = $('notes-submit');
-const uploadStatus = $('notes-upload-status');
 
 const lbBack = $('notes-lb-back');
 const lbTopPrev = $('notes-lb-top-prev');
@@ -79,9 +103,6 @@ const labelModal = $('notes-label-modal');
 const labelInput = $('notes-label-input');
 const labelOk = $('notes-label-ok');
 const labelCancel = $('notes-label-cancel');
-const zoomIn = $('notes-lb-zoomin');
-const zoomOut = $('notes-lb-zoomout');
-const fitBtn = $('notes-lb-fit');
 
 // ------------------------------------------------------------
 // State
@@ -89,11 +110,14 @@ const fitBtn = $('notes-lb-fit');
 let notes = [];
 let documents = [];
 let filterQ = '';
-let uiLang = 'en-US'; // panel + note-content language; persisted across visits
-try {
-  const savedLang = localStorage.getItem('llm-wiki-notes-ui-lang');
-  if (savedLang === 'en-US' || savedLang === 'zh-TW') uiLang = savedLang;
-} catch (e) { /* localStorage unavailable — keep the default */ }
+// Selected tag filters (multiselect). Notes must carry every tag in this set
+// (AND semantics), combined with the free-text `filterQ` query.
+const activeTags = new Set();
+// Gallery sort direction by `updated` date. true = newest first (descending),
+// false = oldest first (ascending). Matches the view that was open when the
+// sort toggle last changed.
+let sortDesc = true;
+let uiLang = getUiLang(); // panel + note-content language; shared across screens
 let loaded = false;
 let loading = false;
 let apiDown = false;
@@ -109,40 +133,40 @@ let drawing = null;          // in-progress shape
 let panning = null;
 let viewMode = false;        // fullscreen image view (side details hidden)
 
-let draftFiles = [];         // { file, thumb }
-let statusTimer = null;
-
 // ------------------------------------------------------------
 // UI language (EN / 中) — panel chrome strings + note-content selection.
 // Sibling of the Reader's article language toggle: `uiLang` picks both the
 // panel's own labels and, per note, `note.translations[uiLang]` when present
-// (falling back to the root/original fields).
+// (falling back to `note.translations['en-US']`, then to legacy root fields).
 // ------------------------------------------------------------
 const UI_STRINGS = {
   'en-US': {
     panelClose: 'Close panel',
     searchPlaceholder: '🔎 Search notes, transcripts, tags, etc.',
+    done: 'Done',
     sectionNotes: 'Notes',
     filterByTopic: 'Filter by topic',
     allTopics: 'All topics',
     filterByDocument: 'Filter by document',
     allDocuments: 'All documents',
+    sortDesc: 'Sort by created date — newest first',
+    sortAsc: 'Sort by created date — oldest first',
+    filterByTagPrefix: 'Filter by tag: ',
     panelLanguage: 'Panel language',
     langEn: 'English (US)',
     langZh: '繁體中文（台灣）',
     galleryLoading: 'Loading notes…',
     galleryApiDown: 'Notes API unreachable — could not load notes.',
     galleryNoMatch: 'No notes match your filters.',
-    galleryEmpty: 'No handwritten notes yet.',
+    galleryEmpty: 'No notes yet.',
+    removeTagFilter: 'Remove tag filter',
     back: '← Gallery',
     backToGallery: 'Back to gallery',
     prevImg: 'Previous image',
     prevNav: '← Previous',
+    nextNav: 'Next →',
     nextImg: 'Next image',
-    zoomIn: 'Zoom in',
-    zoomOut: 'Zoom out',
-    fit: 'Fit',
-    viewLabel: '⛶ View',
+    viewLabel: '⛶ Full',
     detailsLabel: '⛶ Details',
     viewFull: 'Fullscreen view of the note',
     viewDetails: 'Show details panel',
@@ -176,27 +200,30 @@ const UI_STRINGS = {
   'zh-TW': {
     panelClose: '關閉面板',
     searchPlaceholder: '搜尋轉錄筆記、標籤',
+    done: '完成',
     sectionNotes: '筆記',
     filterByTopic: '主題篩選',
     allTopics: '全部主題',
     filterByDocument: '文件篩選',
     allDocuments: '全部文件',
+    sortDesc: '依建立日期排序 — 最新在前',
+    sortAsc: '依建立日期排序 — 最舊在前',
+    filterByTagPrefix: '以標籤篩選: ',
     panelLanguage: '面板語言',
     langEn: '英語（美國）',
     langZh: '繁體中文（台灣）',
     galleryLoading: '載入筆記中…',
     galleryApiDown: '無法連線 Notes API — 無法載入筆記。',
     galleryNoMatch: '沒有符合篩選條件的筆記。',
-    galleryEmpty: '尚無手寫筆記。',
+    galleryEmpty: '尚無任何筆記。',
+    removeTagFilter: '移除標籤篩選',
     back: '← 圖庫',
     backToGallery: '返回圖庫',
     prevImg: '上一張',
     prevNav: '← 上一張',
+    nextNav: '下一張 →',
     nextImg: '下一張',
-    zoomIn: '放大',
-    zoomOut: '縮小',
-    fit: '重設',
-    viewLabel: '⛶ 檢視',
+    viewLabel: '⛶ 全螢幕',
     detailsLabel: '⛶ 詳情',
     viewFull: '筆記全螢幕檢視',
     viewDetails: '顯示詳情面板',
@@ -233,16 +260,16 @@ function t(key) {
   return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
 }
 
-// Manifest notes may carry per-language content in `note.translations`
-// (e.g. translations.zh-TW.ocr). Prefer the active language, then fall back
-// to the root (original) fields.
+// Manifest notes carry per-language content in `note.translations`
+// (e.g. translations.en-US.title/ocr). Prefer the active language, then fall
+// back to the default locale (en-US), then to legacy root fields.
 function activeTitle(note) {
-  const tr = (note.translations || {})[uiLang];
+  const tr = (note.translations || {})[uiLang] || (note.translations || {})['en-US'];
   return (tr && tr.title) || note.title || '';
 }
 
 function activeOcr(note) {
-  const tr = (note.translations || {})[uiLang];
+  const tr = (note.translations || {})[uiLang] || (note.translations || {})['en-US'];
   return (tr && tr.ocr) || note.ocr || '';
 }
 
@@ -252,7 +279,7 @@ function activeOcr(note) {
 function applyUiLang(lang) {
   if (lang !== 'en-US' && lang !== 'zh-TW') lang = 'en-US';
   uiLang = lang;
-  try { localStorage.setItem('llm-wiki-notes-ui-lang', uiLang); } catch (e) { /* ignore */ }
+  persistUiLang(uiLang);
 
   langBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
   notesPanel.querySelectorAll('.ui-en').forEach((el) => { el.hidden = uiLang !== 'en-US'; });
@@ -275,9 +302,9 @@ function applyUiLang(lang) {
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('searchPlaceholder');
   closeCombobox();
-  populatePickers();
 
   renderGallery();
+  renderSortButton();
   setViewMode(viewMode);
   if (!lightboxEl.hidden && currentNote) renderLightbox();
   updateCloseLabel();
@@ -287,9 +314,11 @@ function applyUiLang(lang) {
 langBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const lang = btn.dataset.lang;
-    if (lang && lang !== uiLang) applyUiLang(lang);
+    if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
   });
 });
+// Re-render this panel whenever the shared language changes elsewhere.
+onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 
 const ARROW_MARKER = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
 ARROW_MARKER.setAttribute('id', 'notes-arrowhead');
@@ -344,16 +373,46 @@ lbImg.addEventListener('error', () => {
 
 // Notes no longer carry a `topic` field — categorization lives in tags.
 // Derive a display topic from the tags list (prefer the topic-style
-// tag when present, otherwise the first tag).
-const KNOWN_TOPICS = [
-  'adrenochrome', 'autophagy', 'blood-cells', 'cancer', 'comt', 'creatine',
-  'diagrams-charts', 'epigenetics', 'misc', 'neuromelanin', 'oxidative-stress',
-  'senescence', 'sirtuins', 'spermidine',
-];
+// tag when present, otherwise the first tag). The controlled vocabulary
+// of valid topic slugs is auto-derived from the src/notes/*/ directory
+// layout and exported to web/data/topics.json by 03_rebuild_from_triples.py,
+// so adding a topic folder needs no code change. Until that JSON loads
+// (null), fall back to the tag list as before.
+let KNOWN_TOPICS = null;        // string[] once loaded from topics.json
+let topicsPending = false;
+
+function loadTopics() {
+  if (KNOWN_TOPICS !== null || topicsPending) return;
+  topicsPending = true;
+  fetch(NOTES_DATA_BASE + 'topics.json?v=' + Date.now())
+    .then((r) => (r.ok ? r.json() : []))
+    .then((d) => {
+      KNOWN_TOPICS = Array.isArray(d) ? d : [];
+      refreshTagLabels();        // re-render cards with the resolved topic
+    })
+    .catch(() => { KNOWN_TOPICS = []; })
+    .finally(() => { topicsPending = false; });
+}
+
+loadTopics();                  // kick off the fetch after KNOWN_TOPICS is initialized
+
 function noteTopic(note) {
   const tags = note.tags || [];
-  const hit = tags.find((t) => KNOWN_TOPICS.includes(t));
+  const list = KNOWN_TOPICS || [];
+  const hit = tags.find((t) => list.includes(t));
   return (hit || tags[0] || 'misc').trim();
+}
+
+const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+// Short "MMM YYYY" (uppercase) banner date for a note, derived from its
+// `created` date (falling back to `updated`), matching the gallery sort order.
+function noteMonthYear(n) {
+  const d = (n.created && /^\d{4}-\d{2}-\d{2}/.test(n.created)) ? n.created
+    : (n.updated && /^\d{4}-\d{2}-\d{2}/.test(n.updated)) ? n.updated : '';
+  if (!d) return '';
+  const [y, m] = d.split('-');
+  const mon = MONTHS_SHORT[parseInt(m, 10) - 1];
+  return (mon && y) ? `${mon} ${y}` : '';
 }
 
 // ------------------------------------------------------------
@@ -370,7 +429,7 @@ function closeNotes() {
   closeCombobox();
   notesPanel.classList.remove('open');
   notesBtn.classList.remove('open');
-  setLightbox(null);
+  currentNote = null;
   // Reset to the gallery view so reopening always lands there.
   lightboxEl.hidden = true;
   browseEl.hidden = false;
@@ -407,14 +466,14 @@ window.addEventListener('resize', syncNotesKeyboard);
 notesBtn.addEventListener('click', () => {
   if (notesPanel.classList.contains('open')) { closeNotes(); return; }
   // Only one overlay at a time: close the analysis panel if it is open.
-  const chatClose = $('chat-close');
-  const chatOpen = document.getElementById('chat-panel')?.classList.contains('open');
-  if (chatOpen && chatClose) chatClose.click();
+  const promptClose = $('prompt-close');
+  const promptOpen = document.getElementById('prompt-panel')?.classList.contains('open');
+  if (promptOpen && promptClose) promptClose.click();
   openNotes();
 });
 // Conversely, if the analysis panel opens while notes are up, close notes first.
 document.addEventListener('click', (e) => {
-  if (notesPanel.classList.contains('open') && e.target.closest('#btn-chat')) closeNotes();
+  if (notesPanel.classList.contains('open') && e.target.closest('#btn-prompt')) closeNotes();
 }, true);
 // The header close (×) doubles as the back-to-gallery control in the
 // single-image view. It always stays an × icon; only its help text reflects
@@ -460,7 +519,6 @@ async function loadIndex() {
     const data = await resp.json();
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
-    populatePickers();
     // If the user opened the combobox before the fetch resolved, fill it now.
     if (!comboboxPopup.hidden) renderCombobox();
     loaded = true;
@@ -484,32 +542,77 @@ function ensureIndexLoaded() {
   return loadPromise.finally(() => { loadPromise = null; });
 }
 
-function populatePickers() {
-  // Search placeholder (kept in sync on load / lang swap).
-  searchInput.placeholder = t('searchPlaceholder');
+// Case-insensitive AND check: does the note carry every tag in the set?
+function noteHasTags(n, tags) {
+  if (!tags.length) return true;
+  const noteTags = (n.tags || []).map((t) => String(t).toLowerCase());
+  const wanted = tags.map((t) => String(t).toLowerCase());
+  return wanted.every((t) => noteTags.includes(t));
+}
 
-  // NOTE: The Upload screen is disabled (its tab and view are hidden, and
-  // setView() snaps any non-browse request back to browse). It therefore does
-  // NOT populate the upload-only controls here — populating them was expensive
-  // because the document picker grew with every src/notes document, all for a
-  // view that can't be reached. If upload is re-enabled, restore population here.
+// Free-text query match against title/OCR/doc/tags/entities.
+function noteMatchesText(n, q) {
+  if (!q) return true;
+  const hay = [
+    activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
+    (n.tags || []).join(' '), (n.entities || []).join(' '),
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
 }
 
 function filteredNotes() {
   const q = filterQ.trim().toLowerCase();
-  return notes.filter((n) => {
-    if (!q) return true;
-    const hay = [
-      activeTitle(n), noteTopic(n), n.document, (activeOcr(n) || ''),
-      (n.tags || []).join(' '), (n.entities || []).join(' '),
-    ].join(' ').toLowerCase();
-    return hay.includes(q);
+  const list = notes.filter((n) => noteHasTags(n, [...activeTags]) && noteMatchesText(n, q));
+  // Sort by `created` date (falling back to `updated` when it is missing),
+  // direction driven by the sort toggle: newest first by default, oldest first
+  // when toggled. `created`/`updated` are ISO-ish `YYYY-MM-DD` strings, which
+  // compare correctly lexicographically. Missing dates sort last; the note id
+  // breaks ties stably.
+  const dateKey = (n) => {
+    const d = (n.created && /^\d{4}-\d{2}-\d{2}/.test(n.created)) ? n.created : (n.updated || '');
+    return d;
+  };
+  return list.sort((a, b) => {
+    const ad = dateKey(a);
+    const bd = dateKey(b);
+    if (ad !== bd) {
+      // Equal dates → newest-first tiebreak is irrelevant; keep stable per direction.
+      if (ad === '' || bd === '') return ad === '' ? 1 : -1; // missing dates last
+      return sortDesc ? (ad < bd ? 1 : -1) : (ad < bd ? -1 : 1);
+    }
+    return (b.id || '').localeCompare(a.id || '');
   });
+}
+
+// Reflect the current sort state on the sort-toggle button: highlight whichever
+// chevron matches the active direction and localize its tooltip.
+function renderSortButton() {
+  if (!sortBtn) return;
+  sortBtn.classList.toggle('sort-asc', !sortDesc);
+  sortBtn.classList.toggle('sort-desc', sortDesc);
+  const tip = sortDesc ? t('sortDesc') : t('sortAsc');
+  sortBtn.title = tip;
+  sortBtn.setAttribute('aria-label', tip);
+}
+
+// Flip the gallery sort between updated-date descending and ascending.
+function toggleSort() {
+  sortDesc = !sortDesc;
+  renderSortButton();
+  renderGallery();
+}
+if (sortBtn) sortBtn.addEventListener('click', toggleSort);
+renderSortButton(); // paint the default icon/tooltip once all refs/state exist
+
+// Whether any filter is active: a free-text query and/or selected tag chips.
+function isFiltering() {
+  return !!filterQ.trim() || activeTags.size > 0;
 }
 
 function renderGallery() {
   // Show the clear-× (in place of the caret) whenever a filter/search is active.
-  notesCombobox.classList.toggle('filtering', !!filterQ.trim());
+  notesCombobox.classList.toggle('filtering', isFiltering());
+  renderTagChips();
   const list = filteredNotes();
   if (apiDown) {
     galleryEl.classList.add('centered');
@@ -538,7 +641,13 @@ function renderGallery() {
   galleryEl.innerHTML = list.map(cardHTML).join('');
   galleryEl.querySelectorAll('.notes-card').forEach((card) => {
     const id = card.dataset.id;
-    card.addEventListener('click', () => openLightbox(findNote(id)));
+    // A click on a tag badge toggles that tag as a gallery filter; any other
+    // click opens the note's lightbox.
+    card.addEventListener('click', (e) => {
+      const badge = e.target.closest('.notes-badge.tag-filter');
+      if (badge && badge.dataset.tag) { toggleTag(badge.dataset.tag); return; }
+      openLightbox(findNote(id));
+    });
     const note = findNote(id);
     const first = note && (note.pages || [])[0];
     const img = card.querySelector('.notes-card-thumb');
@@ -558,21 +667,14 @@ function findNote(id) {
   return notes.find((n) => n.id === id) || currentNote;
 }
 
-// Keep the in-memory gallery in sync after edits/OCR so cards reflect the
-// latest state without a manual refresh.
-function syncGalleryNote(n) {
-  const i = notes.findIndex((x) => x.id === n.id);
-  if (i >= 0) notes[i] = n;
-}
-
 function cardHTML(n) {
   const first = (n.pages || [])[0];
   const img = first
     ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(activeTitle(n))}" loading="lazy" decoding="async">`
     : '';
-  const topic = noteTopic(n).toUpperCase();
-  const tags = (n.tags || []).slice(0, 3).map((t) =>
-    `<span class="notes-badge topic">#${esc(t)}</span>`).join('');
+  const topic = tagLabel(noteTopic(n)).toUpperCase();
+  const tags = (n.tags || []).map((tag) =>
+    `<span class="notes-badge topic tag-filter" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix') + tagLabel(tag))}">${esc(tagLabel(tag))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
   const doc = n.document ? `<div class="notes-doc">${esc(n.document)}</div>` : '';
   const meta = (tags || doc)
@@ -581,10 +683,11 @@ function cardHTML(n) {
         ${doc}
       </div>`
     : '';
+  const monthYear = noteMonthYear(n);
   return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(activeTitle(n))}">
     <div class="img-wrap">${img}</div>
     <div class="notes-card-body">
-      <div class="fig-label">${esc(`Note · ${topic}`)}</div>
+      <div class="fig-label">${esc(`Note · ${topic}`)}${monthYear ? `<span class="fig-label-date">${esc(monthYear)}</span>` : ''}</div>
       <h3 class="notes-card-title">${esc(activeTitle(n))}</h3>
       ${snip ? `<p class="caption notes-ocr-snip">${esc(snip)}</p>` : ''}
       ${meta}
@@ -612,6 +715,8 @@ notesSearchClear.addEventListener('click', (e) => {
   e.stopPropagation();
   searchInput.value = '';
   filterQ = '';
+  activeTags.clear();
+  renderTagChips();
   renderGallery();
   searchInput.focus();   // refocus the field; focus() reopens the dropdown...
   closeCombobox();       // ...so close it again for a clean cleared state
@@ -644,6 +749,16 @@ function searchMatches() {
   }).slice(0, 12);
 }
 
+// Faceted count for a candidate tag in the dropdown: how many notes match the
+// current filters (free-text query + every selected tag) AND also carry this
+// tag. This is exactly what the gallery would show if the user added it, so
+// the numbers always stay consistent with the result set.
+function countWithTag(tag) {
+  const q = filterQ.trim().toLowerCase();
+  return notes.filter((n) =>
+    noteHasTags(n, [...activeTags, tag]) && noteMatchesText(n, q)).length;
+}
+
 // Distinct tag labels across every note, most-referenced first, so the
 // empty-query dropdown surfaces the most useful suggestions up front.
 function distinctTags() {
@@ -666,13 +781,18 @@ function renderCombobox() {
   const q = filterQ.trim().toLowerCase();
   const cap = q ? 12 : 100; // keep the empty-query dropdown from ballooning
   const tagCounts = q
-    ? distinctTags().filter(([t]) => t.toLowerCase().includes(q)).slice(0, cap)
+    ? distinctTags().filter(([t]) =>
+        t.toLowerCase().includes(q)
+        || (tagLabel(t) || '').toLowerCase().includes(q)).slice(0, cap)
     : distinctTags().slice(0, cap);
   const matches = q ? searchMatches() : notes;
   const parts = [];
   if (tagCounts.length) {
     parts.push(`<div class="notes-section-label">${esc(t('tags'))}</div>`);
-    parts.push(tagCounts.map(([t, c]) => tagItemHTML(t, c)).join(''));
+    // Dynamic faceted counts: each number predicts how many notes that tag
+    // would yield *in addition to* the current text query + selected tags,
+    // so the dropdown always matches what the gallery shows.
+    parts.push(tagCounts.map(([t]) => tagItemHTML(t, countWithTag(t))).join(''));
   }
   if (matches.length) {
     parts.push(`<div class="notes-section-label">${esc(t('sectionNotes'))}</div>`);
@@ -680,13 +800,19 @@ function renderCombobox() {
   } else if (!tagCounts.length) {
     parts.push(`<div class="notes-section-label">${esc(t('galleryNoMatch'))}</div>`);
   }
+  // Sticky footer so the dropdown always has an explicit close affordance on
+  // touch (tap-away deliberately does NOT open a card — see the outside-tap
+  // handler above). No data-note/data-tag → stays out of arrow-key items.
+  parts.push(`<button type="button" class="notes-popup-done" data-combobox-done>${esc(t('done'))}</button>`);
   comboboxPopup.innerHTML = parts.join('');
   comboboxItems = Array.from(comboboxPopup.querySelectorAll('[data-note], [data-tag]'));
   comboboxIdx = -1;
   comboboxPopup.querySelectorAll('[data-note]').forEach((b) =>
     b.addEventListener('click', () => openNoteFromCombobox(b.dataset.note)));
   comboboxPopup.querySelectorAll('[data-tag]').forEach((b) =>
-    b.addEventListener('click', () => applyValueFilter(b.dataset.tag)));
+    b.addEventListener('click', () => toggleTag(b.dataset.tag)));
+  const doneBtn = comboboxPopup.querySelector('[data-combobox-done]');
+  if (doneBtn) doneBtn.addEventListener('click', dismissCombobox);
 }
 
 function noteItemHTML(n) {
@@ -697,8 +823,14 @@ function noteItemHTML(n) {
 }
 function tagItemHTML(tag, count) {
   const sub = count != null ? `(${count})` : esc(t('tags'));
-  return `<button type="button" class="notes-popup-item" data-tag="${esc(tag)}" role="option">
-    <span class="popup-topic">#${esc(tag)}</span>
+  const selected = activeTags.has(tag) ? ' selected' : '';
+  // Unselected tags that would yield zero notes with the current filter are
+  // dimmed (still toggleable) so users don't chase dead-end combinations.
+  const zero = !selected && count === 0 ? ' zero' : '';
+  const check = activeTags.has(tag) ? '<span class="popup-check" aria-hidden="true">✓</span>' : '';
+  return `<button type="button" class="notes-popup-item${selected}${zero}" data-tag="${esc(tag)}" role="option">
+    ${check}
+    <span class="popup-topic">${esc(tagLabel(tag))}</span>
     <span class="popup-sub">${sub}</span>
   </button>`;
 }
@@ -710,20 +842,47 @@ function highlightCombobox() {
 function openNoteFromCombobox(id) {
   const n = findNote(id);
   if (!n) return;
-  closeCombobox();
+  dismissCombobox();   // close the list + drop focus so the keyboard collapses
   searchInput.value = activeTitle(n);
   filterQ = activeTitle(n);
   renderGallery();
   openLightbox(n);
 }
 
-// A tag suggestion filters the gallery to notes carrying that value —
-// filteredNotes() already matches against note.tags.
-function applyValueFilter(value) {
-  closeCombobox();
-  searchInput.value = value;
-  filterQ = value;
+// A tag suggestion toggles it in the multiselect filter (adds/removes from
+// `activeTags`) and re-renders the gallery + chips + dropdown state.
+function toggleTag(tag) {
+  if (activeTags.has(tag)) activeTags.delete(tag);
+  else activeTags.add(tag);
+  renderTagChips();
   renderGallery();
+  renderCombobox();
+}
+
+// Render the selected-tag chips inside the combobox field, ahead of the search
+// input. Each chip shows its tag with an inline × to drop just that tag.
+function renderTagChips() {
+  fieldsEl.querySelectorAll('.notes-tag-chip').forEach((el) => el.remove());
+  const insertBefore = searchInput;
+  for (const tag of activeTags) {
+    const chip = document.createElement('span');
+    chip.className = 'notes-tag-chip';
+    chip.textContent = tagLabel(tag);
+    chip.title = tag;
+    const remove = document.createElement('button');
+    remove.type = 'button';
+    remove.className = 'notes-chip-remove';
+    remove.setAttribute('aria-label', t('removeTagFilter'));
+    remove.title = t('removeTagFilter');
+    remove.textContent = '×';
+    remove.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleTag(tag);
+    });
+    chip.appendChild(remove);
+    fieldsEl.insertBefore(chip, insertBefore);
+  }
 }
 
 function closeCombobox() {
@@ -734,15 +893,67 @@ function closeCombobox() {
   searchInput.setAttribute('aria-expanded', 'false');
 }
 
-// Clicking anywhere outside the combobox closes its dropdown.
+// Fully dismiss the search dropdown: close the popup AND drop focus from the
+// input so the mobile keyboard collapses. Used by the Done button and by the
+// outside-tap dismissal (Escape alone would close the list but leave the
+// keyboard floating over the gallery).
+function dismissCombobox() {
+  closeCombobox();
+  searchInput.blur();
+}
+
+// Clicking anywhere outside the combobox closes its dropdown. On touch, that
+// same pointerdown would then fire a click on the gallery card beneath,
+// accidentally opening it — so swallow the click that follows a dismissal tap,
+// but only when it lands on a card (deliberate taps like the lang toggle or
+// the panel close still work normally).
+let suppressOutsideTap = false;
+let tapOrigin = null;   // { x, y, id } of the dismissal pointerdown
+
 document.addEventListener('pointerdown', (e) => {
-  if (!e.target.closest('.notes-combobox')) closeCombobox();
+  // A fresh pointerdown while the popup is already closed clears any stale
+  // flag from a dismissal gesture that never produced a click (defensive).
+  if (comboboxPopup.hidden) { suppressOutsideTap = false; return; }
+  if (e.target.closest('.notes-combobox')) return;
+  dismissCombobox();
+  // A touch/pen tap-away is frequently a dismissal gesture — swallow its
+  // click so it can't accidentally open a card. Mouse clicks are deliberate,
+  // so they can open the card in the same click after the dropdown closes.
+  if (e.pointerType !== 'mouse') {
+    suppressOutsideTap = true;
+    tapOrigin = { x: e.clientX, y: e.clientY, id: e.pointerId };
+  }
+}, true);
+
+// If the finger travelled, it was a scroll/drag, not a tap — nothing to swallow.
+document.addEventListener('pointerup', (e) => {
+  if (!suppressOutsideTap || !tapOrigin || e.pointerId !== tapOrigin.id) return;
+  if (Math.hypot(e.clientX - tapOrigin.x, e.clientY - tapOrigin.y) > 10) {
+    suppressOutsideTap = false;
+    tapOrigin = null;
+  }
+}, true);
+
+document.addEventListener('pointercancel', () => {
+  suppressOutsideTap = false;
+  tapOrigin = null;
+});
+
+document.addEventListener('click', (e) => {
+  if (!suppressOutsideTap) return;
+  suppressOutsideTap = false;
+  tapOrigin = null;
+  if (e.target.closest('.notes-card')) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
 }, true);
 
 // ------------------------------------------------------------
 // Lightbox
 // ------------------------------------------------------------
 function openLightbox(note) {
+  pointers.clear(); pinch = null;
   currentNote = note;
   currentPage = (note.pages && note.pages[0] && note.pages[0].page) || 1;
   browseEl.hidden = true;
@@ -753,13 +964,10 @@ function openLightbox(note) {
   renderLightbox();
   syncNotesHash();
 }
-function setLightbox(note) {
-  if (!note) { currentNote = null; return; }
-  openLightbox(note);
-}
 lbBack.addEventListener('click', goBackToGallery);
 
 function goBackToGallery() {
+  pointers.clear(); pinch = null;
   lightboxEl.hidden = true;
   browseEl.hidden = false;
   uploadEl.hidden = true;
@@ -772,6 +980,8 @@ function goBackToGallery() {
 }
 
 // Toggle the fullscreen image view (side details hidden, image fills the panel).
+// The floating "Full" button over the image toggles this; the overlay ←/→
+// arrows keep navigating next/previous image while in full view.
 function setViewMode(on) {
   viewMode = on;
   lbBody.classList.toggle('view-mode', viewMode);
@@ -826,26 +1036,24 @@ function setPage(page) {
     lbImg.removeAttribute('src');
     lbSvg.removeAttribute('viewBox');
   }
-  // ←/→ flip pages WITHIN the open note only. With a single page
-  // (e.g. one image per folder), both arrows stay disabled.
-  const pageCount = (n.pages || []).length;
-  lbPrev.disabled = pageCount <= 1 || currentPage <= 1;
-  lbNext.disabled = pageCount <= 1 || currentPage >= pageCount;
-  // The top-bar Next advances to the next image in the current (filtered)
-  // gallery — with one image per folder that means the next note — so it is
-  // only disabled at the very last image.
+  // The overlay ←/→ arrows and the top-bar Previous/Next all step through the
+  // gallery one image at a time: within a multi-page note that moves
+  // page-to-page; past its last page it hops to the next/previous note. All
+  // four are disabled only at the very first / very last image of the gallery.
   const entries = imageEntries();
   const idx = currentImageIndex();
-  lbTopNext.disabled = !entries.length || idx < 0 || idx >= entries.length - 1;
-  lbTopPrev.disabled = !entries.length || idx <= 0;
+  const atStart = !entries.length || idx <= 0;
+  const atEnd = !entries.length || idx < 0 || idx >= entries.length - 1;
+  lbPrev.disabled = atStart;
+  lbNext.disabled = atEnd;
+  lbTopPrev.disabled = atStart;
+  lbTopNext.disabled = atEnd;
   renderPagesStrip();
 }
 
-// The bottom filmstrip is the cross-note switcher: it renders EVERY image in
-// the current (filtered) gallery — one thumbnail per note (and per page for
-// multi-page notes) — highlights the one being viewed, and clicking any
-// thumbnail jumps to it. The ←/→ arrows above are page-only navigation within
-// the open note, so the filmstrip is what lets you move between notes.
+// The bottom filmstrip shows every image in the current (filtered) gallery —
+// one thumbnail per note (and per page for multi-page notes) — highlights the
+// one being viewed, and clicking any thumbnail jumps straight to it.
 function renderPagesStrip() {
   const entries = imageEntries();
   if (!entries.length) {
@@ -895,8 +1103,8 @@ function changePage(page) {
 
 // ------------------------------------------------------------
 // Gallery image index (filmstrip): flat, gallery-ordered list of { note, page }
-// for every image. The filmstrip + currentImageIndex drive cross-note hopping;
-// the lightbox ←/→ arrows are page-only within the open note.
+// for every image. The filmstrip thumbnails and all four navigation arrows
+// (overlay ←/→ + top-bar Previous/Next) drive navigation through this list.
 // ------------------------------------------------------------
 // Flat, gallery-ordered list of { note, page } for every image.
 function imageEntries() {
@@ -913,72 +1121,195 @@ function currentImageIndex() {
   return idx !== -1 ? idx : 0;
 }
 
-lbPrev.addEventListener('click', () => changePage(currentPage - 1));
-lbNext.addEventListener('click', () => changePage(currentPage + 1));
-// Top-bar Next: advance to the next image in the current (filtered) gallery.
-// `goToImage` crosses note boundaries as needed; single-page notes therefore
-// step note-to-note. The button's disabled state (managed in setPage) guards
-// the last image.
-lbTopNext.addEventListener('click', () => {
+// Step to the previous image in the current (filtered) gallery. `goToImage`
+// crosses note boundaries as needed: single-page notes step note-to-note, while
+// multi-page notes first step page-to-page within the open note.
+function goPrevImage() {
+  const idx = currentImageIndex();
+  if (idx > 0) goToImage(idx - 1);
+}
+function goNextImage() {
   const entries = imageEntries();
   const idx = currentImageIndex();
   if (idx >= 0 && idx < entries.length - 1) goToImage(idx + 1);
-});
-// Top-bar Previous: step back to the previous image in the current (filtered)
-// gallery, mirroring the top-bar Next. `goToImage` crosses note boundaries as
-// needed; the button's disabled state (managed in setPage) guards the start.
-lbTopPrev.addEventListener('click', () => {
-  const entries = imageEntries();
-  const idx = currentImageIndex();
-  if (idx > 0) goToImage(idx - 1);
-});
-// Arrow keys flip pages within the open note while the lightbox is open
-// (ignored while typing in a metadata field). They respect the button disabled
-// state so a single-page note stays non-navigable.
+}
+// The overlay ←/→ arrows and the top-bar Previous/Next are equivalent — they
+// both navigate next/previous image. The disabled states are managed in setPage.
+lbPrev.addEventListener('click', goPrevImage);
+lbNext.addEventListener('click', goNextImage);
+lbTopPrev.addEventListener('click', goPrevImage);
+lbTopNext.addEventListener('click', goNextImage);
+// Arrow keys navigate the same way while the lightbox is open (ignored while
+// typing in a metadata field). They respect the button disabled state so the
+// very first/last image stays non-navigable.
 document.addEventListener('keydown', (e) => {
   if (lightboxEl.hidden) return;
   const t = e.target;
   if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-  if (e.key === 'ArrowLeft') { if (lbPrev && !lbPrev.disabled) changePage(currentPage - 1); e.preventDefault(); }
-  else if (e.key === 'ArrowRight') { if (lbNext && !lbNext.disabled) changePage(currentPage + 1); e.preventDefault(); }
+  if (e.key === 'ArrowLeft') { if (lbPrev && !lbPrev.disabled) goPrevImage(); e.preventDefault(); }
+  else if (e.key === 'ArrowRight') { if (lbNext && !lbNext.disabled) goNextImage(); e.preventDefault(); }
 });
 
 // ------------------------------------------------------------
 // Zoom / pan
 // ------------------------------------------------------------
+// Apply the current zoom/pan state to the stage. Rendering is always instant:
+// the on-image zoom controls are gone, so every interaction (wheel, drag, pinch)
+// must track the pointer 1:1 with no transition lag.
 function updateZoom() {
   lbZoomable.style.transform = `translate(${panX}px, ${panY}px) scale(${zoom})`;
 }
-zoomIn.addEventListener('click', () => { zoom = Math.min(6, zoom * 1.35); updateZoom(); });
-zoomOut.addEventListener('click', () => { zoom = Math.max(1, zoom / 1.35); if (zoom === 1) { panX = 0; panY = 0; } updateZoom(); });
-fitBtn.addEventListener('click', () => { zoom = 1; panX = 0; panY = 0; updateZoom(); });
 
+// On-screen size of the fitted (natural) image inside the current stage.
+function fitScale() {
+  if (!naturalW || !naturalH) return 0;
+  const rect = lbImgwrap.getBoundingClientRect();
+  const w = rect.width, h = rect.height;
+  if (w <= 0 || h <= 0) return 0;
+  return Math.min(w / naturalW, h / naturalH);
+}
+
+// Keep the zoomed image inside the viewport so the user can never "lose" it by
+// panning it off-screen. Because at zoom 1 the image always fits the stage,
+// clamping also forces the pan back to center — which clears any leftover
+// offset from a previous zoom-out.
+function clampPan() {
+  const rect = lbImgwrap.getBoundingClientRect();
+  const w = rect.width, h = rect.height;
+  if (w <= 0 || h <= 0) return;
+  const s = fitScale();
+  if (!s) return;
+  const imgW = naturalW * s * zoom;
+  const imgH = naturalH * s * zoom;
+  const maxX = Math.max(0, (imgW - w) / 2);
+  const maxY = Math.max(0, (imgH - h) / 2);
+  panX = Math.max(-maxX, Math.min(maxX, panX));
+  panY = Math.max(-maxY, Math.min(maxY, panY));
+}
+
+// Apply one zoom step of `factor`, keeping the wrapper-space point under the
+// cursor anchored so the area you are looking at stays put while you zoom — no
+// drift. Driven by the wheel and pinch now that the on-image buttons are gone.
+function zoomFocal(factor, clientX, clientY) {
+  const old = zoom;
+  const next = Math.min(6, Math.max(1, old * factor));
+  const rect = lbImgwrap.getBoundingClientRect();
+  if (next !== old && rect.width > 0 && rect.height > 0) {
+    const ox = rect.left + rect.width / 2;
+    const oy = rect.top + rect.height / 2;
+    const k = next / old;
+    panX = (clientX - ox) - (clientX - ox - panX) * k;
+    panY = (clientY - oy) - (clientY - oy - panY) * k;
+  }
+  zoom = next;
+  clampPan();
+  updateZoom();
+}
+
+// Wheel zooms toward the cursor and stays anchored there.
 lbImgwrap.addEventListener('wheel', (e) => {
   e.preventDefault();
-  zoom = Math.min(6, Math.max(1, zoom * (e.deltaY > 0 ? 0.85 : 1.18)));
-  updateZoom();
+  zoomFocal(e.deltaY > 0 ? 0.85 : 1.18, e.clientX, e.clientY);
 }, { passive: false });
 
+// Pointer bookkeeping for pan + two-finger pinch. Kept in a Map keyed by
+// pointerId so multiple pointers (pinch) can be tracked independently.
+const pointers = new Map();
+let pinch = null;
+
 lbImgwrap.addEventListener('pointerdown', (e) => {
+  // Clicks on the floating controls overlaid on the image (the Full button)
+  // must pass through untouched: grabbing the pointer here would retarget the
+  // subsequent click away from the button.
+  if (e.target.closest('.notes-lb-zoom')) return;
+  try { lbImgwrap.setPointerCapture(e.pointerId); } catch (_) { /* capture unsupported */ }
+  pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+  if (pointers.size === 2) {
+    // A second finger turns the gesture into a pinch: cancel whatever the
+    // first finger was doing (pan or draw) and start tracking the two points.
+    panning = null;
+    drawing = null;
+    lbImgwrap.classList.remove('panning');
+    const ps = [...pointers.values()];
+    pinch = { x1: ps[0].x, y1: ps[0].y, x2: ps[1].x, y2: ps[1].y, zoom, panX, panY };
+    return;
+  }
+  if (pointers.size > 1) return;
+
   if (annTool) { beginDraw(e); return; }
   if (zoom > 1) {
     panning = { startX: e.clientX, startY: e.clientY, px: panX, py: panY };
     lbImgwrap.classList.add('panning');
   }
+  e.preventDefault();
 });
+
+function updatePinch() {
+  const ps = [...pointers.values()];
+  if (ps.length < 2) return;
+  const [a, b] = ps;
+  const dist = Math.hypot(a.x - b.x, a.y - b.y);
+  const midX = (a.x + b.x) / 2;
+  const midY = (a.y + b.y) / 2;
+  const startDist = Math.hypot(pinch.x2 - pinch.x1, pinch.y2 - pinch.y1);
+  const startMidX = (pinch.x1 + pinch.x2) / 2;
+  const startMidY = (pinch.y1 + pinch.y2) / 2;
+
+  zoom = Math.min(6, Math.max(1, pinch.zoom * (startDist > 0 ? dist / startDist : 1)));
+  const rect = lbImgwrap.getBoundingClientRect();
+  if (rect.width > 0 && rect.height > 0) {
+    const ox = rect.left + rect.width / 2;
+    const oy = rect.top + rect.height / 2;
+    // Content point that sat under the fingers at pinch start…
+    const cX = (startMidX - ox - pinch.panX) / pinch.zoom;
+    const cY = (startMidY - oy - pinch.panY) / pinch.zoom;
+    // …stays anchored under the fingers now (zooms about the moving midpoint,
+    // which also lets the pinch pan two-dimensionally).
+    panX = (midX - ox) - cX * zoom;
+    panY = (midY - oy) - cY * zoom;
+  }
+  clampPan();
+  updateZoom();
+}
+
 window.addEventListener('pointermove', (e) => {
+  const p = pointers.get(e.pointerId);
+  if (p) { p.x = e.clientX; p.y = e.clientY; }
+  if (pinch) { updatePinch(); return; }
   if (panning) {
     panX = panning.px + (e.clientX - panning.startX);
     panY = panning.py + (e.clientY - panning.startY);
+    clampPan();
     updateZoom();
   } else if (drawing) {
     updateDraw(e);
   }
 });
+
+function endNotePointer(e) {
+  pointers.delete(e.pointerId);
+  if (pointers.size < 2) pinch = null;
+}
+window.addEventListener('pointerup', endNotePointer);
+window.addEventListener('pointercancel', endNotePointer);
+window.addEventListener('lostpointercapture', endNotePointer);
+
 window.addEventListener('pointerup', () => {
   if (panning) { panning = null; lbImgwrap.classList.remove('panning'); }
   if (drawing) finishDraw();
 });
+
+// Re-clamp the pan when the stage changes size (collapsing the side panel or
+// resizing the window) so the note never silently ends up off-center/off-screen.
+if (typeof ResizeObserver !== 'undefined') {
+  const lbWrapResize = new ResizeObserver(() => {
+    if (lightboxEl.hidden || !currentNote) return;
+    clampPan();
+    updateZoom();
+  });
+  lbWrapResize.observe(lbImgwrap);
+}
 
 // ------------------------------------------------------------
 // Annotation overlay
@@ -999,7 +1330,10 @@ annColors.addEventListener('click', (e) => {
 });
 
 function annPos(e) {
-  const r = lbZoomable.getBoundingClientRect();
+  // Map against the image's on-screen box, not the wrapping stage. The wrapper
+  // now fills the whole stage (the image is centered/letterboxed inside it), so
+  // that rect would include margins and misplace annotations on portrait notes.
+  const r = lbImg.getBoundingClientRect();
   if (r.width <= 0 || r.height <= 0) return { x: 0.5, y: 0.5 };
   const x = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
   const y = Math.min(1, Math.max(0, (e.clientY - r.top) / r.height));
@@ -1224,7 +1558,7 @@ function drawAnnotationsToCanvas(ctx, W, H) {
 async function downloadAnnotationsImage() {
   const n = currentNote;
   if (!n) return;
-  if (!naturalW || !naturalH) { setStatus('Page image not ready yet.', false); return; }
+  if (!naturalW || !naturalH) { flashTranscriptStatus('Page image not ready yet.'); return; }
   const canvas = document.createElement('canvas');
   canvas.width = naturalW;
   canvas.height = naturalH;
@@ -1243,7 +1577,7 @@ async function downloadAnnotationsImage() {
     await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; });
     ctx.drawImage(img, 0, 0, naturalW, naturalH);
   } catch (err) {
-    setStatus('Could not load the page image for export.', false);
+    flashTranscriptStatus('Could not load the page image for export.');
     console.warn('annotated-image export: page load failed:', err);
     return;
   }
@@ -1252,7 +1586,7 @@ async function downloadAnnotationsImage() {
   a.download = `${n.id}-p${currentPage}-annotated.png`;
   a.href = canvas.toDataURL('image/png');
   a.click();
-  setStatus('Downloaded annotated page.', true);
+  flashTranscriptStatus('Downloaded annotated page.');
 }
 
 // ------------------------------------------------------------
@@ -1307,7 +1641,7 @@ function updatePromptAvailability() {
 
 // Build the analysis prompt: instruction line + note metadata + OCR transcript.
 function buildTranscriptPrompt(note) {
-  const ocr = (note.ocr || '').trim();
+  const ocr = (activeOcr(note) || '').trim();
   // Merge tags + entities into one labeled list (deduped) so both travel to the
   // analysis agent as plain text.
   const combined = [...new Set([...(note.tags || []), ...(note.entities || []).map(String)])]
@@ -1358,188 +1692,22 @@ applyUiLang(uiLang);
 state.suppressHashUpdate = false;
 
 // ------------------------------------------------------------
-// Entity / tag chips + wiki modal
+// Tag chips
 // ------------------------------------------------------------
-function openWikiModal(key, event) {
-  const overlay = $('wiki-modal-overlay');
-  const desc = descByLabel.get(key);
-  if (!desc) {
-    const url = noteUrl(key);
-    if (url) window.open(url, '_blank', 'noopener');
-    return;
-  }
-  $('wiki-modal-title').textContent = key.replace(/_/g, ' ');
-  $('wiki-modal-body').innerHTML = renderMarkdown(desc);
-  $('wiki-modal-link').href = noteUrl(key) || '#';
-  overlay.classList.add('visible');
-  event && event.stopPropagation();
-}
-
 function renderChips() {
   if (!currentNote) return;
   const tags = currentNote.tags || [];
   lbTags.innerHTML = tags.length
-    ? tags.map((tag) => `<span class="notes-chip tag-chip">#${esc(tag)}</span>`).join('')
+    ? tags.map((tag) => `<button type="button" class="notes-chip tag-chip" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix'))}${esc(tagLabel(tag))}">${esc(tagLabel(tag))}</button>`).join('')
     : `<span class="notes-muted">${esc(t('none'))}</span>`;
-}
-
-// ------------------------------------------------------------
-// Upload
-// ------------------------------------------------------------
-function tokens(str) {
-  return String(str || '').split(',').map((s) => s.trim()).filter(Boolean);
-}
-
-pickBtn.addEventListener('click', () => fileInput.click());
-drop.addEventListener('click', () => fileInput.click());
-fileInput.addEventListener('change', () => { addFiles([...fileInput.files]); fileInput.value = ''; });
-
-['dragenter', 'dragover'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('drag'); }));
-['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('drag'); }));
-drop.addEventListener('drop', (e) => addFiles([...e.dataTransfer.files]));
-
-async function addFiles(fileList) {
-  const ok = [];
-  let skipped = 0;
-  for (const f of fileList) {
-    if (!/^image\/(jpe?g|png|webp|gif)$/.test(f.type || '')) { skipped += 1; continue; }
-    if (f.size > MAX_BYTES) { skipped += 1; continue; }
-    if (draftFiles.length + ok.length >= MAX_PAGES) { skipped += 1; break; }
-    const compressed = await compressImage(f);
-    ok.push({ upload: compressed.blob, thumb: compressed.thumb, name: f.name });
-  }
-  if (skipped > 0) {
-    setStatus(`${skipped} file(s) skipped — accepted formats: JPG, PNG, WebP, GIF (≤30 MB).`, false);
-  }
-  draftFiles.push(...ok);
-  renderDraftPreview();
-}
-
-// Downscale + JPEG-encode a photo in the browser before upload. Photos are
-// typically 2–8 MB straight off a phone; compressed pages upload in a few
-// hundred KB so they survive restrictive proxy body limits and load faster.
-// PNG/WebP lose transparency — acceptable for handwritten notes. GIFs are
-// passed through untouched to preserve animation.
-function compressImage(file, maxDim = 2400, quality = 0.82) {
-  return new Promise((resolve) => {
-    const type = (file.type || '').toLowerCase();
-    if (type === 'image/gif') {
-      resolve({ blob: file, thumb: null });
-      return;
-    }
-    const url = URL.createObjectURL(file);
-    const img = new Image();
-    img.onload = () => {
-      const scale = Math.min(1, maxDim / Math.max(img.width, img.height));
-      const w = Math.max(1, Math.round(img.width * scale));
-      const h = Math.max(1, Math.round(img.height * scale));
-      const cv = document.createElement('canvas');
-      cv.width = w; cv.height = h;
-      cv.getContext('2d').drawImage(img, 0, 0, w, h);
-
-      // Thumbnail (≈320px) for the preview grid.
-      const tw = Math.min(320, w);
-      const th = Math.max(1, Math.round(h * (tw / w)));
-      const tc = document.createElement('canvas');
-      tc.width = tw; tc.height = th;
-      tc.getContext('2d').drawImage(cv, 0, 0, tw, th);
-      const thumb = tc.toDataURL('image/jpeg', 0.72);
-
-      cv.toBlob((blob) => {
-        URL.revokeObjectURL(url);
-        resolve({
-          blob: blob && blob.size < file.size ? blob : file,
-          thumb,
-        });
-      }, 'image/jpeg', quality);
-    };
-    img.onerror = () => { URL.revokeObjectURL(url); resolve({ blob: file, thumb: null }); };
-    img.src = url;
+  // Clicking a tag chip goes back to the gallery view with that tag applied
+  // as a filter (same multiselect semantics as the gallery card badges).
+  lbTags.querySelectorAll('.tag-chip[data-tag]').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      if (!activeTags.has(chip.dataset.tag)) toggleTag(chip.dataset.tag);
+      goBackToGallery();
+    });
   });
-}
-
-function renderDraftPreview() {
-  pagesPreview.innerHTML = draftFiles.map((d, i) =>
-    `<div class="notes-page-thumb">
-      ${d.thumb ? `<img src="${d.thumb}" alt="Page ${i + 1}">` : '<img alt="">'}
-      <span class="page-num">${i + 1}</span>
-      <button class="rm" data-i="${i}" title="Remove page">×</button>
-    </div>`).join('');
-  pagesPreview.querySelectorAll('.rm').forEach((b) =>
-    b.addEventListener('click', () => {
-      draftFiles.splice(parseInt(b.dataset.i, 10), 1);
-      renderDraftPreview();
-    }));
-}
-
-submitBtn.addEventListener('click', async () => {
-  if (!draftFiles.length) { setStatus('Add at least one image first.', false); return; }
-  // Guard against restrictive proxy body limits (nginx defaults to 1 MB): warn
-  // before a doomed round-trip. The server still accepts up to 30 MB/file.
-  const totalBytes = draftFiles.reduce((s, d) => s + (d.upload ? d.upload.size : 0), 0);
-  if (totalBytes > 1024 * 1024) {
-    setStatus(`Upload is ~${(totalBytes / (1024 * 1024)).toFixed(1)} MB total — if the server rejects it, raise nginx client_max_body_size (see deploy/README). Common default is 1 MB.`, false);
-  } else {
-    uploadStatus.textContent = '';
-  }
-  submitBtn.disabled = true;
-  uploadStatus.className = 'notes-upload-status';
-  uploadStatus.textContent = 'Uploading…';
-  const fd = new FormData();
-  draftFiles.forEach((d) => fd.append('files', d.upload, d.name || 'page.jpg'));
-  fd.append('title', titleField.value.trim());
-  fd.append('topic', topicField.value.trim());
-  fd.append('document', docField.value);
-  fd.append('tags', JSON.stringify(tokens(tagsField.value)));
-  try {
-    const resp = await fetch(`${NOTES_API}/upload`, { method: 'POST', body: fd });
-    if (!resp.ok) {
-      let detail = `HTTP ${resp.status}`;
-      try {
-        const body = await resp.json();
-        if (body && body.detail) detail = String(body.detail);
-      } catch (_) { /* non-JSON error body */ }
-      throw new Error(detail);
-    }
-    const note = await resp.json();
-    draftFiles = [];
-    renderDraftPreview();
-    titleField.value = ''; topicField.value = ''; tagsField.value = ''; docField.value = '';
-    setStatus('Uploaded. You can now open it and run OCR.', true);
-    await loadIndex();
-    setView('browse');
-    openLightbox(note);
-  } catch (err) {
-    const isFetchAbort = typeof err === 'object' && err && err.name === 'AbortError';
-    console.warn('upload failed:', err);
-    setStatus(isFetchAbort ? 'Upload aborted.' : `Upload failed — ${netErrorText(err)}`, false);
-  } finally {
-    submitBtn.disabled = false;
-  }
-});
-
-function setStatus(msg, ok) {
-  uploadStatus.className = 'notes-upload-status' + (ok ? '' : ' error');
-  uploadStatus.textContent = msg;
-  clearTimeout(statusTimer);
-  statusTimer = setTimeout(() => { uploadStatus.textContent = ''; }, 8000);
-}
-
-// A fetch that rejects with `TypeError: Failed to fetch` means the request
-// never completed (server unreachable, or the browser blocked the cross-origin
-// call because the response carried no CORS headers). Turn that into a
-// readable, actionable message.
-function netErrorText(err) {
-  const base = (err && err.message) || 'Unknown error';
-  const local = location.protocol === 'file:' ||
-    ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
-  const parts = [`${base} (${API_BASE})`];
-  if (navigator.onLine === false) parts.push('you appear to be offline.');
-  else if (local)
-    parts.push('running locally? start the dev API with ./deploy/dev.sh (this page auto-points at http://127.0.0.1:8000/v1 when served from localhost).');
-  else
-    parts.push('the API may be down, the page origin not in ALLOWED_ORIGINS, or the request exceeded the proxy body-size limit (raise nginx client_max_body_size).');
-  return parts.join(' — ');
 }
 
 // ------------------------------------------------------------
@@ -1553,7 +1721,7 @@ export function isNotesOpen() {
 //   #notes          → open the panel to the gallery (browse) view
 //   &note=<id>      → open that note in the lightbox
 //   &page=N         → open that page of the note
-//   &noteview=full  → toggle the fullscreen image view
+//   &noteview=full  → open in fullscreen image view
 // Called by graph.js's restoreFromHash; updateHash is suppressed during restore.
 export async function restoreNotes(params) {
   if (!notesPanel.classList.contains('open')) openNotes();
@@ -1580,4 +1748,4 @@ export async function restoreNotes(params) {
 }
 
 // Kick the panel open on initial load if already referenced (no-op guard).
-export { openNotes, closeNotes };
+export { closeNotes };

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task Outputs — Index</title>
+<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by how recently they were modified.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="themes/theme-02/theme.css">
+<script src="themes/theme-02/theme.js"></script>
+<script src="themes/theme-02/pages-core.js"></script>
+<style>
+.index { padding: 28px 0 48px; }
+
+.bucket-heading {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  margin: 34px 0 14px;
+}
+.bucket-heading:first-child { margin-top: 0; }
+.bucket-count {
+  font-family: var(--mono); font-size: 12px; color: var(--faint);
+  vertical-align: middle; margin-left: 8px;
+}
+
+.task-list { list-style: none; margin: 0; padding: 0; }
+.task-card {
+  padding: 16px 20px 13px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.task-card:hover {
+  border-left-color: var(--oxblood-soft);
+  transform: translateY(-1px);
+}
+.task-title { font-size: 1.05rem; font-weight: 600; line-height: 1.35; margin: 0 0 4px; }
+.task-title a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.task-title a:hover { color: var(--oxblood); }
+.task-zh { font-size: .95rem; color: var(--ink-soft); margin: 0 0 10px; }
+.task-zh a { color: var(--mute); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.task-zh a:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
+.task-meta { font-family: var(--mono); font-size: 12px; color: var(--faint); margin: 0 0 4px; }
+.task-meta:last-child { margin-bottom: 0; }
+.task-desc { color: var(--mute); font-size: .92rem; margin: 0 0 10px; }
+
+/* Freshness badge mirrors the reader's updated chip buckets */
+.fresh { color: #15803d; }
+.recent { color: #b45309; }
+.old { color: var(--faint); }
+[data-theme="dark"] .fresh { color: #38c793; }
+[data-theme="dark"] .recent { color: #ffb020; }
+
+.empty-note { font-style: italic; color: var(--mute); padding: 24px 0; }
+@media (max-width: 640px) { .task-card { padding: 14px 14px 12px; } }
+</style>
+<link rel="stylesheet" href="themes/theme-02/dark.css">
+</head>
+<body>
+<main class="index" id="content">
+  <div class="wrap" id="taskIndex"></div>
+  <div class="wrap"><p class="empty-note" id="emptyNote" hidden></p></div>
+</main>
+
+<script>
+(function(){
+  const list = document.getElementById('taskIndex');
+  const emptyNote = document.getElementById('emptyNote');
+
+  function esc(s){
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function relAge(updated){
+    if (!updated) return '';
+    const ms = Date.now() - new Date(updated).getTime();
+    if (ms < 864e5) return 'today';
+    const days = Math.floor(ms / 864e5);
+    if (days < 7) return days + 'd';
+    if (days < 30) return Math.floor(days / 7) + 'w';
+    if (days < 365) return Math.floor(days / 30) + 'mo';
+    return (days / 365).toFixed(1) + 'y';
+  }
+  function bucket(updated){
+    if (!updated) return 2;
+    const days = (Date.now() - new Date(updated).getTime()) / 864e5;
+    return days <= 7 ? 0 : days <= 30 ? 1 : 2;
+  }
+  const BUCKETS = [
+    ['Updated this week', '本週更新', 'fresh'],
+    ['Updated this month', '本月更新', 'recent'],
+    ['Older', '較早', 'old'],
+  ];
+
+  fetch('../data/tasks.json')
+    .then(r => r.json())
+    .then(data => {
+      const tasks = (data.tasks || [])
+        .filter(t => t.active !== false && t.id !== 'tasks-index' && t.langs && t.langs['en-US'])
+        .map(t => {
+          const en = t.langs['en-US'];
+          const zh = t.langs['zh-TW'];
+          const updated = en.updated || zh?.updated || '';
+          return {
+            id: t.id,
+            display: en.title,
+            desc: en.description || '',
+            enPath: en.path,
+            file: en.filename || decodeURIComponent((en.path || '').split('/').pop()),
+            zhPath: zh ? zh.path : en.path,
+            zhTitle: zh ? zh.title : '',
+            updated,
+            age: relAge(updated),
+            bucket: bucket(updated),
+          };
+        })
+        .sort((x, y) => y.updated.localeCompare(x.updated));
+
+      const viewerHref = (path) =>
+        'task-viewer.html?src=' + encodeURIComponent('../' + path);
+      let html = '';
+      BUCKETS.forEach(([label, zhLabel, cls], bi) => {
+        const group = tasks.filter(t => t.bucket === bi);
+        if (!group.length) return;
+        html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
+                `<span class="bucket-count">${group.length}</span></h2><ul class="task-list">`;
+        html += group.map(t => `
+          <li class="task-card card">
+            <p class="task-title"><a href="${esc(viewerHref(t.enPath))}" data-task-id="${esc(t.id)}">${esc(t.display)}</a></p>
+            ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${esc(t.zhTitle)}</a></p>` : ''}
+            ${t.desc ? `<p class="task-desc">${esc(t.desc)}</p>` : ''}
+            <p class="task-meta"><code>${esc(t.file)}</code></p>
+            <p class="task-meta"><span class="${cls}">${t.age === 'today' ? 'updated today' : `updated ${esc(t.age)} ago`} (${esc(t.updated)})</span></p>
+          </li>`).join('');
+        html += '</ul>';
+      });
+      list.innerHTML = html;
+      emptyNote.hidden = tasks.length > 0;
+      if (!tasks.length) emptyNote.textContent = 'No active task outputs found.';
+
+      /* Embedded in the Reader: announce navigation so the parent dropdown
+         updates immediately (before iframe load). The real href above still
+         navigates the frame, mirroring how pages/index.html works. */
+      list.addEventListener('click', (e) => {
+        const a = e.target.closest('a[data-task-id]');
+        if (!a) return;
+        try {
+          if (window.parent && window.parent !== window) {
+            window.parent.postMessage({
+              type: 'reader-navigate',
+              id: a.dataset.taskId
+            }, window.location.origin);
+          }
+        } catch { /* standalone view — nothing to notify */ }
+      });
+    })
+    .catch(err => {
+      emptyNote.textContent = 'Failed to load data/tasks.json: ' + err.message;
+      emptyNote.hidden = false;
+    });
+})();
+</script>
+</body>
+</html>

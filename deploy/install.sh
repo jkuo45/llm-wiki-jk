@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Server bootstrap for the knowledge graph chat backend.
+# Server bootstrap for the knowledge graph prompt backend.
 #
 # Run on the SERVER (Debian/Ubuntu with systemd), not on the laptop:
 #   sudo ./deploy/install.sh
@@ -27,7 +27,7 @@ command -v systemctl >/dev/null || die "systemd required"
 
 # Sanity-check that WIKI_ROOT really is the repo, not just any directory.
 for required in api/main.py api/requirements.txt graphify-out/graph.json \
-                .opencode/agent/wiki-chat.md .opencode/agent/wiki-util.md; do
+                .opencode/agent/wiki-prompt.md .opencode/agent/wiki-util.md; do
   [[ -f "${WIKI_ROOT}/${required}" ]] \
     || die "not a valid checkout: ${WIKI_ROOT}/${required} is missing
        Set the right path with:  sudo WIKI_ROOT=/path/to/repo $0"
@@ -136,10 +136,10 @@ OPENCODE_SERVER_USERNAME=opencode
 # Where the adapter reaches opencode. Loopback only — never bind this publicly.
 OPENCODE_URL=http://127.0.0.1:4096
 
-# Agents used for public chat turns and read-only utility prompts (intent
+# Agents used for public prompt turns and read-only utility prompts (intent
 # classification, translation, graph narration). Must have bash/edit/write
 # disabled.
-OPENCODE_CHAT_AGENT=wiki-chat
+OPENCODE_PROMPT_AGENT=wiki-prompt
 OPENCODE_UTILITY_AGENT=wiki-util
 
 # Provider credentials for the model opencode calls. Set whichever applies, or
@@ -197,7 +197,7 @@ Next:
      API keys in ${ENV_FILE}:
        sudo -u ${SERVICE_USER} HOME=/home/${SERVICE_USER} opencode auth login
        sudo systemctl restart opencode-serve
-  2. Confirm the chat agent is loaded and locked down:
+  2. Confirm the prompt agent is loaded and locked down:
        PW=\$(grep OPENCODE_SERVER_PASSWORD ${ENV_FILE} | cut -d= -f2)
        curl -s -u "opencode:\$PW" http://127.0.0.1:4096/agent | python3 -m json.tool
   3. Set up the reverse proxy — see deploy/README.md, section "Reverse proxy (nginx)".

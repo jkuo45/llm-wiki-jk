@@ -1,0 +1,114 @@
+=== 3. Composite senolytic-style score (weights: .30 source-asymmetry, .20 betweenness, .30 bridge-fraction, .20 low-clustering) ===
+  total ranked (giant component): 2110
+  #85  Mitohormesis: score=0.537
+  #451  Adrenochrome: score=0.455
+  #578  Sirtuins: score=0.343
+  #593  Autophagy: score=0.333
+  Top 10 overall:
+    #1 Superoxide Dismutase: 0.725
+    #2 Alpha-Lipoic Acid: 0.720
+    #3 Ascorbic Acid: 0.698
+    #4 Caspase-10: 0.681
+    #5 Caspase-6: 0.680
+    #6 JNK: 0.680
+    #7 PARK7: 0.650
+    #8 Ghrelin: 0.650
+    #9 Butein: 0.650
+    #10 EX-527: 0.650
+
+=== 4. PPR seeded at each focus node (alpha=0.85): top-15 + focus-node ranks ===
+
+  Seed = Adrenochrome:
+    #1 Adrenochrome (0.30475) <== FOCUS
+    #2 Epinephrine (0.01649)
+    #3 Neuromelanin (0.01602)
+    #4 Aminoguanidine (0.01345)
+    #5 Oxidative Stress (0.01241)
+    #6 Leuco-adrenochrome (0.01235)
+    #7 Adrenochrome monoaminoguanidine (0.00951)
+    #8 Methylene blue (0.00938)
+    #9 Glutathione (0.00871)
+    #10 o-quinone (0.00850)
+    #11 Reactive Oxygen Species (0.00845)
+    #12 Adrenochrome Pathway (0.00821)
+    #13 NF-κB (0.00765)
+    #14 Ascorbic Acid (0.00758)
+    #15 Redox Cycling (0.00681)
+    #87 Mitohormesis (0.00199)
+    #95 Autophagy (0.00174)
+    #305 Sirtuins (0.00030)
+
+  Seed = Mitohormesis:
+    #1 Mitohormesis (0.21495) <== FOCUS
+    #2 SIRT1 (0.01798)
+    #3 SIRT3 (0.01755)
+    #4 SASP (0.01161)
+    #5 Caloric Restriction (0.01079)
+    #6 Heart Rate Variability (0.00976)
+    #7 Hormesis (0.00966)
+    #8 AMPK (0.00942)
+    #9 Metformin (0.00916)
+    #10 Mitochondrial ROS (0.00915)
+    #11 Exercise (0.00911)
+    #12 NRF2 (0.00907)
+    #13 Reactive Oxygen Species (0.00905)
+    #14 Longevity (0.00899)
+    #15 Rapamycin (0.00871)
+    #57 Adrenochrome (0.00322)
+    #32 Autophagy (0.00597)
+    #84 Sirtuins (0.00171)
+
+  Seed = Autophagy:
+    #1 Autophagy (0.21774) <== FOCUS
+    #2 TFEB (0.01432)
+    #3 SASP (0.01428)
+    #4 SIRT1 (0.01423)
+    #5 Neuromelanin (0.01378)
+    #6 Rapamycin (0.01352)
+    #7 mTORC1 (0.01315)
+    #8 Parkinson's Disease (0.01238)
+    #9 SIRT3 (0.01218)
+    #10 Cancer (0.01161)
+    #11 Spermidine (0.01067)
+    #12 Caloric Restriction (0.01059)
+    #13 Senescence (0.00998)
+    #14 Apigenin (0.00964)
+    #15 Ivermectin (0.00904)
+    #56 Adrenochrome (0.00258)
+    #31 Mitohormesis (0.00549)
+    #78 Sirtuins (0.00168)
+
+  Seed = Sirtuins:
+    #1 Sirtuins (0.28096) <== FOCUS
+    #2 Nicotinamide Riboside (0.02873)
+    #3 NAD+ (0.02145)
+    #4 Histone Deacetylase (0.01789)
+    #5 SIRT1 (0.01783)
+    #6 SASP (0.01730)
+    #7 DNA Repair (0.01482)
+    #8 Nicotinamide (0.01312)
+    #9 AMPK (0.01308)
+    #10 SARM1 (0.01300)
+    #11 Healthspan (0.01177)
+    #12 Non-alcoholic Fatty Liver Disease (0.01138)
+    #13 SIRT3 (0.01107)
+    #14 SIRT6 (0.01092)
+    #15 Yeast (0.01038)
+    #134 Adrenochrome (0.00071)
+    #45 Mitohormesis (0.00253)
+    #41 Autophagy (0.00270)
+
+=== 5. PPR intersection: nodes recurring in top-40 of >=3 of 4 seeds ===
+    3/4 seeds: SIRT1
+    3/4 seeds: SIRT6
+    3/4 seeds: Caloric Restriction
+    3/4 seeds: SASP
+    3/4 seeds: Rapamycin
+    3/4 seeds: AMPK
+    3/4 seeds: SIRT3
+
+=== 6. Configuration-model null z-scores for betweenness (30 draws) ===
+  Adrenochrome: obs=0.0586  null=0.0367±0.0037  z=+5.87
+  Mitohormesis: obs=0.0251  null=0.0180±0.0022  z=+3.22
+  Autophagy: obs=0.0418  null=0.0210±0.0027  z=+7.76
+  Sirtuins: obs=0.0170  null=0.0104±0.0017  z=+3.85

@@ -1,0 +1,150 @@
+======================================================================
+RUN F - Confidence-weighted PPR re-rank of the full ladder
+======================================================================
+    node                        unw rank  w rank  unw score    w score  delta
+    Aminoguanidine             #4        #4         0.01345    0.01401     +0
+    Methylene blue             #8        #8         0.00938    0.00929     +0
+    Carbazochrome              #19       #14        0.00645    0.00716     -5
+    Ascorbic Acid              #14       #15        0.00758    0.00689     +1
+    Rapamycin                  #63       #59        0.00431    0.00432     -4
+    Mitohormesis               #87       #89        0.00199    0.00195     +2
+    Urolithin A                #88       #90        0.00193    0.00187     +2
+    Autophagy                  #95       #93        0.00174    0.00174     -2
+    Creatine                   #96       #95        0.00165    0.00164     -1
+    Fisetin                    #149      #147       0.00073    0.00072     -2
+    Spermidine                 #176      #174       0.00061    0.00061     -2
+    Resveratrol                #167      #181       0.00065    0.00057    +14
+    Nicotinamide Riboside      #85       #86        0.00206    0.00197     +1
+    NAD+                       #229      #224       0.00041    0.00040     -5
+    N-Acetylcysteine           #777      #764       0.00007    0.00007    -13
+    Sirtuins                   #305      #305       0.00030    0.00029     +0
+
+======================================================================
+RUN G - MB <-> carbazochrome Complex-I competition subgraph
+======================================================================
+    Focus-node presence: {'Methylene blue': True, 'Carbazochrome': True, 'Complex I': True, 'Complex III': True, 'Adrenochrome': True, 'Adrenochrome formation': True}
+
+    All stored edges of Methylene blue (45):
+      Methylene blue --[is_used_as|0.9]--> Antimalarial Agent
+      Methylene blue --[maintains|0.85]--> ATP
+      Methylene blue --[crosses|0.95]--> Blood-Brain Barrier
+      Methylene blue --[improves|0.8]--> Cognition
+      Methylene blue --[bypasses|0.9]--> Complex I
+      Methylene blue --[bypasses|0.9]--> Complex III
+      Methylene blue --[upregulates|0.92]--> Complex IV
+      Methylene blue --[shunts_electrons_to|0.95]--> Cytochrome c
+      Methylene blue --[reduces|0.75]--> Depression
+      Methylene blue --[exhibits|0.95]--> Dose-dependent Toxicity
+      G6PD deficiency --[contraindicates|0.85]--> Methylene blue
+      Methylene blue --[is_contraindicated_in|0.95]--> Glucose-6-Phosphate Dehydrogenase
+      Methylene blue --[fails_to_protect_against|0.95]--> Glucose Oxidase
+      Methylene blue --[protects_against|0.95]--> Glutamate
+      Methylene blue --[suppresses|0.9]--> Glycolysis
+      Methylene blue --[causes|0.94]--> Hemolysis
+      Methylene blue --[follows|0.95]--> Hormetic Window
+      Methylene blue --[treats|0.92]--> Ifosfamide-induced Encephalopathy
+      Methylene blue --[is_used_for|0.92]--> Intraoperative Staining
+      Methylene blue --[protects_against|0.9]--> Iodoacetic Acid
+      Methylene blue --[converts_to|0.93]--> LeucoMB
+      Methylene blue --[induces|0.8]--> Methemoglobin
+      Methylene blue --[activates|0.8]--> Methemoglobin Reductase
+      Methylene blue --[treats|0.97]--> Methemoglobinemia
+      Methylene blue --[enhances|0.9]--> Mitochondrial Electron Transport Chain
+      Methylene blue --[preserves|0.93]--> Mitochondrial Membrane Potential
+      Methylene blue --[enhances|0.94]--> Mitochondrial Respiration
+      Methylene blue --[reduces|0.93]--> Mitochondrial Superoxide
+      Methylene blue --[inhibits|0.92]--> Monoamine oxidase
+      Methylene blue --[acts_as|0.95]--> Monoamine Oxidase Inhibitor
+      Methylene blue --[accepts_electrons_from|0.96]--> NADH
+      Methylene blue --[provides|0.92]--> Neuroprotection
+      Methylene blue --[inhibits|0.93]--> Nitric Oxide Synthase
+      Methylene blue --[induces|0.88]--> Oxidative Stress
+      Methylene blue --[is_neuroprotective_in|0.88]--> Parkinson's Disease
+      Methylene blue --[is_a_derivative_of|0.96]--> Phenothiazine
+      Methylene blue --[interferes_with|0.93]--> Pulse Oximetry
+      Methylene blue --[protects_against|0.94]--> Rotenone
+      Methylene blue --[interacts_with|0.95]--> Selective Serotonin Reuptake Inhibitors
+      Methylene blue --[increases|0.85]--> Serotonin
+      Methylene blue --[triggers|0.9]--> Serotonin Syndrome
+      Methylene blue --[inhibits|0.93]--> Soluble Guanylyl Cyclase
+      Methylene blue --[is_neuroprotective_in|0.85]--> Stroke
+      Methylene blue --[reduces|0.6]--> Tau
+      Methylene blue --[treats|0.93]--> Vasoplegic Shock
+
+    All stored edges of Carbazochrome (2):
+      Adrenochrome --[is_an_intermediate_for|0.95]--> Carbazochrome
+      Carbazochrome --[is_a_type_of|0.95]--> Hemostatics
+
+    All stored edges of Complex I (3):
+      Complex I --[reduces|0.9]--> Adrenochrome
+      Methylene blue --[bypasses|0.9]--> Complex I
+      Complex I --[impairs|0.95]--> Mitochondrial Dysfunction
+
+    Shortest path Carbazochrome -> Complex I: Carbazochrome  Adrenochrome  Complex I
+    multiplicity = 1
+
+    |N(MB)|=45  |N(Carb)|=2  shared=[]
+    Jaccard(MB, Carbazochrome) = 0.000
+    ETC-family nodes within 3 hops of Carbazochrome: ['IKK complex', 'Complex I', 'Major histocompatibility complex class I']
+
+    Complex I neighbourhood (radius 1): ['Adrenochrome', 'Methylene blue', 'Mitochondrial Dysfunction']
+
+======================================================================
+RUN H - Hormetic Window / SIRT3-SIRT4 ratio ego-graphs
+======================================================================
+
+    Ego(Hormetic Window, r=2): 47 nodes / 48 edges
+      Methylene blue --[follows|0.95]--> Hormetic Window
+      SIRT3/SIRT4 ratio --[determines|0.95]--> Hormetic Window
+
+    Ego(SIRT3/SIRT4 ratio, r=2): 3 nodes / 2 edges
+      SIRT3/SIRT4 ratio --[determines|0.95]--> Hormetic Window
+
+    SIRT3: degree 163
+      MnSOD-family neighbours: ['MnSOD (K68, K122)', 'SOD2 and PGC-1α regulation', 'SOD2 and Catalase', 'SOD2', 'MnSOD']
+
+    SIRT4: degree 43
+      MnSOD-family neighbours: ['MnSOD']
+
+    SIRT4 -> Hormetic Window shortest path: SIRT4  Caspases  Cytochrome c  Methylene blue  Hormetic Window
+
+======================================================================
+RUN I - Post-entity-resolution re-run (NF-kB variant merge)
+======================================================================
+    Merged 6 variants into 'NF-κB'; edges 3737 -> 3554
+
+    --- BEFORE dedup ---
+    [pre] MH -> Adrenochrome: 1 shortest path(s), bridges=['Reactive Oxygen Species'], hops=3
+    [pre] Auto -> Adrenochrome: 1 shortest path(s), bridges=['Neuromelanin'], hops=3
+    [pre] Sirt -> Adrenochrome: 1 shortest path(s), bridges=['SASP'], hops=4
+    [pre] Jaccard(Sirtuins, Adrenochrome) = 0.0000 shared=[]
+
+    --- AFTER dedup ---
+    [post] MH -> Adrenochrome: 1 shortest path(s), bridges=['Reactive Oxygen Species'], hops=3
+    [post] Auto -> Adrenochrome: 1 shortest path(s), bridges=['Neuromelanin'], hops=3
+    [post] Sirt -> Adrenochrome: 1 shortest path(s), bridges=['SASP'], hops=4
+    [post] Jaccard(Sirtuins, Adrenochrome) = 0.0000 shared=[]
+
+    node                        pre   post
+    Aminoguanidine           #4     #4    
+    Methylene blue           #8     #8    
+    Carbazochrome            #19    #19   
+    Ascorbic Acid            #14    #14   
+    Rapamycin                #63    #63   
+    Mitohormesis             #87    #87   
+    Urolithin A              #88    #90   
+    Autophagy                #95    #95   
+    Creatine                 #96    #96   
+    Fisetin                  #149   #149  
+    Spermidine               #176   #177  
+    Resveratrol              #167   #168  
+    Nicotinamide Riboside    #85    #85   
+    NAD+                     #229   #229  
+    N-Acetylcysteine         #777   #783  
+    Sirtuins                 #305   #304  
+    [pre] Fisetin -> Adr: 7 shortest path(s), bridges=['COMT', 'Cellular Senescence', 'Flavonoids', 'SASP', 'Senomorphic']
+    [post] Fisetin -> Adr: 7 shortest path(s), bridges=['COMT', 'Cellular Senescence', 'Flavonoids', 'SASP', 'Senomorphic']
+    [pre] Resveratrol -> Adr: 8 shortest path(s), bridges=['COMT', 'SAMD', 'SASP', 'SIRT1', 'SIRT3']
+    [post] Resveratrol -> Adr: 8 shortest path(s), bridges=['COMT', 'SAMD', 'SASP', 'SIRT1', 'SIRT3']
+    [pre] Sirtuins->Adr example path: Sirtuins  SASP  NF-κB  Adrenochrome
+    [post] Sirtuins->Adr example path: Sirtuins  SASP  NF-κB  Adrenochrome

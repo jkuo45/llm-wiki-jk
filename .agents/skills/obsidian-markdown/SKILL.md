@@ -7,6 +7,16 @@ description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, 
 
 Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark and GFM with wikilinks, embeds, callouts, properties, comments, and other syntax. This skill covers only Obsidian-specific extensions -- standard Markdown (headings, bold, italic, lists, quotes, code blocks, tables) is assumed knowledge.
 
+## GitHub Compatibility Rules
+
+Obsidian notes in this repo are also rendered by GitHub. Follow these rules so content renders correctly in both:
+
+1. **Callout markers must be alone on the first line** (`> [!type]`, nothing else on that line). Write all text — including any intended title — on a following `> ` line. Single-line callouts (`> [!note] text`) and inline titles fall back to plain blockquotes on GitHub.
+2. **Use only GitHub's five alert types** (`note`, `tip`, `important`, `warning`, `caution`) when GitHub rendering matters. Map other Obsidian types per the [Alert Type Mapping](#github-alert-type-mapping).
+3. **No display-text wikilinks inside tables** (`[[Note|Display]]` breaks GFM table parsing). Use bare `[[Note]]` or restructure.
+4. **Prefer standard Markdown where possible**: `[text](url)` for external links, fenced code blocks with language tags, GFM tables, standard task lists.
+5. **Obsidian-only syntax degrades on GitHub**: wikilinks render as plain text, `==highlight==` and `%%comments%%` are not rendered, embeds (`![[...]]`) show as literal text. Acceptable in vault-only notes; avoid in files published to GitHub, or provide fallbacks (e.g., a standard markdown link alongside the wikilink).
+
 ## Workflow: Creating an Obsidian Note
 
 1. **Add frontmatter** with properties (title, tags, aliases) at the top of the file. See [PROPERTIES.md](references/PROPERTIES.md) for all property types. For entity notes, set `entity_type_1` as a tag — see [ENTITY_TYPES.md](references/ENTITY_TYPES.md) for the full schema.
@@ -61,7 +71,7 @@ See [EMBEDS.md](references/EMBEDS.md) for audio, video, search embeds, and exter
 
 ## Callouts
 
-Callouts use `> [!type]` with the marker on its own line and the content on the following lines. Use this form so callouts render correctly in both Obsidian and GitHub:
+Callouts use `> [!type]` with the marker alone on the first line and the content on the following lines (see rule 1 in [GitHub Compatibility Rules](#github-compatibility-rules)):
 
 ```markdown
 > [!note]
@@ -69,15 +79,28 @@ Callouts use `> [!type]` with the marker on its own line and the content on the 
 
 > [!warning]
 > Title text goes here as the first content line.
-
-> [!faq]- Collapsed by default
-> Foldable callout (- collapsed, + expanded). Obsidian-only; GitHub will not render it as an alert.
 ```
 
-> [!important]
-> Always put the marker on its own line — GitHub does not render single-line callouts or inline titles (`> [!note] text`, `> [!info] Custom Title`) as alerts; they fall back to plain blockquotes. Keep `> [!type]` alone on the first line and move all text (including any intended title) to a following `> ` line. Obsidian accepts this form too, so it is the default.
+Obsidian-only callout features — custom titles, foldable callouts (`+`/`-`), nesting, custom CSS types — work in Obsidian but will not render as alerts on GitHub:
 
-Obsidian-only callout features — custom titles, foldable callouts (`+`/`-`), and nesting — work in Obsidian but will not render as alerts on GitHub. Use them only when GitHub rendering is not a concern.
+```markdown
+> [!faq]- Collapsed by default
+> Foldable callout (- collapsed, + expanded).
+```
+
+### GitHub Alert Type Mapping
+
+GitHub alerts support only five types: `note`, `tip`, `important`, `warning`, `caution`. When GitHub rendering matters, restrict callouts to these types and map other Obsidian types accordingly. Note that `important` is an alias of `tip` in Obsidian but a distinct alert type on GitHub — pick deliberately:
+
+| Obsidian type | Use on GitHub |
+|---------------|---------------|
+| `info`, `abstract`, `todo` | `[!note]` |
+| `tip`, `hint` | `[!tip]` |
+| `important` | `[!important]` (GitHub-distinct; alias of `tip` in Obsidian) |
+| `success`, `example` | `[!tip]` |
+| `question`, `faq`, `quote` | `[!note]` or plain blockquote (no true equivalent) |
+| `warning`, `caution`, `attention` | `[!warning]` |
+| `danger`, `error`, `failure`, `bug` | `[!caution]` |
 
 Common types: `note`, `tip`, `warning`, `info`, `example`, `quote`, `bug`, `danger`, `success`, `failure`, `question`, `abstract`, `todo`.
 
@@ -249,4 +272,5 @@ Each new connection must describe HOW the entities interact, not just that they 
 - [Internal links](https://help.obsidian.md/links)
 - [Embed files](https://help.obsidian.md/embeds)
 - [Callouts](https://help.obsidian.md/callouts)
+- [GitHub Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
 - [Properties](https://help.obsidian.md/properties)

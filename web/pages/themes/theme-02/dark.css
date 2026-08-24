@@ -1,0 +1,114 @@
+/* ===== theme-02 — dark palette =====
+   Overrides the paper-&-ink light tokens from theme.css when
+   <html data-theme="dark"> is set (see themes/theme-02/theme.js).
+
+   Palette matches the graph app's default dark theme (theme-00 /
+   themes/theme-01/pages.css :root): deep navy surfaces (#0f0f1a,
+   #1a1a2e), cool grey text, teal/red/amber accents.
+
+   Loaded AFTER each page's page-specific inline <style> so these
+   declarations win without !important (same specificity, later order).
+
+   Diagrams: static inline SVGs and JS-drawn figures hardcode light-theme
+   hexes as fill/stroke presentation attributes, which CSS variables can't
+   reach — so the attribute-selector block at the bottom remaps them.
+*/
+
+[data-theme="dark"] {
+  /* surfaces */
+  --paper: #0f0f1a;
+  --paper-deep: #111122;
+  --sheet: #1a1a2e;
+
+  /* text */
+  --ink: #e0e0e0;
+  --ink-soft: #c9c9dd;
+  --mute: #9a9ab0;
+  --faint: #6b6b85;
+
+  /* rules & structure */
+  --rule: #2a2a4e;
+  --rule-strong: #3a3a5e;
+
+  /* accents (theme-00 dark accent set) */
+  --oxblood: #e4575e;      /* --red */
+  --oxblood-soft: #f283b2; /* --pink */
+  --slate: #5da8ff;        /* --blue */
+  --slate-soft: #8cc2ff;
+  --forest: #58d68d;       /* --green */
+  --forest-soft: #7fe3a5;
+  --gold: #e8a33d;         /* --amber */
+  --gold-soft: #f5a65b;    /* --orange */
+  --periphery: #8b8bb0;
+  --focus: #3ec9a7;        /* --teal */
+
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* Body backdrop: same composition as light, but glow tints on the navy
+   paper base instead of a warm cream one. */
+[data-theme="dark"] body {
+  background:
+    radial-gradient(1200px 480px at 12% -10%, rgba(228, 87, 94, 0.06), transparent 60%),
+    radial-gradient(900px 420px at 92% 0%, rgba(93, 168, 255, 0.07), transparent 55%),
+    var(--paper);
+}
+
+/* Sticky nav tint follows the dark navy paper. */
+[data-theme="dark"] .site-nav {
+  background: color-mix(in srgb, var(--paper) 86%, black);
+}
+
+/* Code blocks are hardcoded to a warm near-black in light mode; on the navy
+   theme they shift to the app's code surface so they don't read brown. */
+[data-theme="dark"] pre,
+[data-theme="dark"] code[class*="language-"] {
+  background: #23233f;
+  color: #e0e0e0;
+}
+
+/* ——— SVG diagram remapping ———
+   Presentation attributes (fill="…"/stroke="…") beat inherited CSS but lose
+   to author CSS rules, so plain attribute selectors are enough. Each selector
+   targets one hardcoded light-palette hex used across the inline and
+   JS-generated figures. */
+
+/* ink → light text */
+[data-theme="dark"] [fill="#1c1915"] { fill: var(--ink); }
+[data-theme="dark"] [stroke="#1c1915"] { stroke: var(--ink); }
+
+/* oxblood accents */
+[data-theme="dark"] [fill="#7a312c"] { fill: var(--oxblood); }
+[data-theme="dark"] [stroke="#7a312c"] { stroke: var(--oxblood); }
+[data-theme="dark"] [fill="#a24b44"] { fill: var(--oxblood-soft); }
+
+/* slate / forest / gold families */
+[data-theme="dark"] [fill="#2e4a5d"] { fill: var(--slate); }
+[data-theme="dark"] [fill="#345443"] { fill: var(--forest); }
+[data-theme="dark"] [fill="#9a7430"] { fill: var(--gold); }
+[data-theme="dark"] [stroke="#9a7430"] { stroke: var(--gold); }
+[data-theme="dark"] [fill="#4c6e86"] { fill: var(--slate-soft); }
+[data-theme="dark"] [fill="#4e7a62"] { fill: var(--forest-soft); }
+[data-theme="dark"] [fill="#c49a4a"] { fill: var(--gold-soft); }
+
+/* muted annotation text & rules */
+[data-theme="dark"] [fill="#6d665b"] { fill: var(--mute); }
+[data-theme="dark"] [fill="#8d8578"] { fill: var(--faint); }
+[data-theme="dark"] [fill="#8a8174"] { fill: var(--periphery); }
+[data-theme="dark"] [stroke="#d3c9b6"] { stroke: var(--rule-strong); }
+
+/* paper/sheet surfaces inside figures flip to dark navy surfaces */
+[data-theme="dark"] [fill="#f2ece1"] { fill: var(--paper); }
+[data-theme="dark"] [fill="#fbf8f1"] { fill: var(--sheet); }
+[data-theme="dark"] [fill="#efe8d8"] { fill: var(--paper-deep); }
+
+/* Text drawn on top of accent-colored nodes must stay dark against the
+   now-bright accent fills. */
+[data-theme="dark"] [fill="#fbf8f1"][font-weight] { fill: #191934; }
+
+/* JS figure palettes also emit rgba() strokes/fills for halos; soften the
+   white ones that would glare on dark ground. */
+[data-theme="dark"] .fig-svg [stroke="rgba(255, 255, 255, 0.28)"],
+[data-theme="dark"] svg [stroke="rgba(255,255,255,0.28)"] {
+  stroke: rgba(224, 224, 224, 0.25);
+}

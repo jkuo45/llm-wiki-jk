@@ -1,7 +1,7 @@
 // Entry module: wires everything together, drives the render loop, handles
-// resize, stats, dataset panel, and URL-hash restore.
+// resize, dataset panel, and URL-hash restore.
 
-import { RAW_NODES, RAW_EDGES, LEGEND, TRACES } from './data.js';
+import { RAW_NODES, RAW_EDGES, LEGEND, TRACES, graphData, nodeMap, I18N_COVERAGE } from './data.js';
 import { state } from './state.js';
 import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
@@ -12,17 +12,12 @@ import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
-// Side-effect import: chat.js attaches its own listeners.
-import './chat.js';
+// Side-effect import: prompt.js attaches its own listeners.
+import { applyAnalysisUiLang } from './prompt.js';
 // Notes panel (gallery / upload / lightbox).
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
-// Side-effect import: theme.js wires the Settings tab theme toggle.
+// Side-effect import: theme.js wires the settings popover theme toggle.
 import './theme.js';
-
-// ------------------------------------------------------------
-// Stats footer (derived from data)
-// ------------------------------------------------------------
-document.getElementById('stats').textContent = `${RAW_NODES.length} nodes · ${RAW_EDGES.length} edges · ${LEGEND.length} communities`;
 
 // ------------------------------------------------------------
 // Dataset info panel (derived from data)
@@ -39,6 +34,17 @@ RAW_EDGES.forEach(e => {
 const confidencePct = (c) => `${((confidenceCounts[c] || 0) / RAW_EDGES.length * 100).toFixed(1)}%`;
 const godNodes = [...RAW_NODES].sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 10);
 const communityCountMap = new Map(LEGEND.map(c => [c.cid, c.count]));
+// Curated top-10 from the build (graphify.analyze.god_nodes — noise-filtered,
+// recomputed every rebuild). Falls back to the naive degree ranking above
+// when absent.
+const curatedGods = graphData.metadata && Array.isArray(graphData.metadata.god_nodes)
+  ? graphData.metadata.god_nodes
+  : godNodes.map(n => ({ id: n.id, label: n.label, degree: n.degree }));
+// i18n coverage counters emitted by the rebuild (i18n-coverage.json).
+const i18nTotal = I18N_COVERAGE.triples_total || RAW_EDGES.length;
+const i18nStalePct = i18nTotal ? (((I18N_COVERAGE.stale_triples || 0) / i18nTotal) * 100).toFixed(1) : '—';
+const i18nMissingZh = I18N_COVERAGE.missing_zh ?? '—';
+const i18nGenerated = I18N_COVERAGE.generated || '';
 
 const datasetScroll = document.getElementById('dataset-scroll');
 datasetScroll.innerHTML = `
@@ -51,20 +57,22 @@ datasetScroll.innerHTML = `
     <li><b>${totalCommunities}</b> communities <small>(${LEGEND.length} shown, ${thinCount} thin omitted)</small></li>
     <li><b>${sourceDocCount}</b> source documents</li>
     <li><b>${confidencePct('EXTRACTED')}</b> EXTRACTED &middot; <b>${confidencePct('INFERRED')}</b> INFERRED &middot; <b>${confidencePct('AMBIGUOUS')}</b> AMBIGUOUS</li>
+    ${i18nTotal ? `<li><b>${i18nTotal.toLocaleString()}</b> triples &middot; <b>${i18nStalePct}%</b> stale (note edited after extraction) &middot; <b>${i18nMissingZh}</b> missing zh-TW<small>${i18nGenerated ? ` · ${esc(i18nGenerated)}` : ''}</small></li>` : ''}
   </ul>
 
   <h3>Core Concepts / 核心節點</h3>
-  <p class="dataset-intro"><b>"God" Nodes</b> (most-connected hubs, by degree). Community size matches the sidebar legend:</p>
+  <p class="dataset-intro"><b>"God" Nodes</b> (most-connected hubs, noise-filtered at build time). Community size matches the graph legend:</p>
   <ol class="god-nodes">
-    ${godNodes.map(n => {
-      const cc = communityCountMap.get(n.community);
-      return `<li><b>${esc(n.label)}</b> <span class="degree">${n.degree} edges</span>${cc ? ` <span class="degree muted">&middot; ${cc}-node community</span>` : ''}</li>`;
+    ${curatedGods.map(g => {
+      const full = nodeMap.get(g.id);
+      const cc = full ? communityCountMap.get(full.community) : null;
+      return `<li><b>${esc(g.label)}</b> <span class="degree">${g.degree} edges</span>${cc ? ` <span class="degree muted">&middot; ${cc}-node community</span>` : ''}</li>`;
     }).join('')}
   </ol>
 
   <h3>How to Use / 使用方式</h3>
   <ul class="dataset-list">
-    <li><b>Search</b> nodes in the left panel, or <b>Graph Query</b> to find paths.</li>
+    <li><b>Search</b> nodes and run <b>Graph Query</b> traces from the <b>Analysis panel</b> (Graph mode).</li>
     <li><b>Drag</b> nodes to explore; Cmd/Ctrl-drag moves their neighbors.</li>
     <li><b>Analysis panel</b> — open <b>Prompt</b> to query the graph, or <b>Graph</b> for instant dataset analytics.</li>
     <li><b>Click</b> edges and nodes to inspect relations and jump to source notes.</li>
@@ -165,8 +173,8 @@ async function restoreFromHash(params) {
   if (params && (params.note || params.notes)) {
     // Notes wins over analysis when both are in the hash. Close the analysis
     // panel FIRST — clicking its button while notes is open would close notes
-    // via the notes panel's btn-chat capture listener.
-    const analysisBtn = document.getElementById('btn-chat');
+    // via the notes panel's btn-prompt capture listener.
+    const analysisBtn = document.getElementById('btn-prompt');
     if (analysisBtn.classList.contains('open')) analysisBtn.click();
     // Await the (possibly async) notes restore so hash updates stay suppressed
     // through the gallery fetch + lightbox opening (openLightbox etc. push
@@ -202,17 +210,31 @@ async function restoreFromHash(params) {
   } else if (!params.edge) {
     deselectNode();
   }
-  // Analysis panel: open/close and restore mode from the hash. Notes wins when
-  // both are present — the overlays are mutually exclusive and the hash leads
-  // with #notes when the notes panel is shown, so the analysis panel is closed.
-  const notesActive = !!(params.notes || params.note);
-  const analysisBtn = document.getElementById('btn-chat');
-  if (params.analysis && !notesActive) {
-    if (!analysisBtn.classList.contains('open')) analysisBtn.click();
+  // Analysis panel: open/close and restore mode/lang from the hash.
+  // Notes wins when both are requested. The analysis flag has three states:
+  //   bare `analysis`      → panel was OPEN: restore it + surface the info card
+  //   `analysis=off`       → selection persisted but panel CLOSED: keep it
+  //                          closed (faithful round-trip of an app-produced
+  //                          "#node=…" closed state — never reopen)
+  //   absent               → no analysis state recorded
+  // A selection with NO analysis marker still opens the panel (hand-authored
+  // deep-link intent), but a closed-with-selection state carries `analysis=off`
+  // and is never auto-reopened.
+  const notesActive = !!(params && (params.notes || params.note));
+  const hasSelection = !!(params && (params.node || params.edge || params.trace));
+  const analysisBtn = document.getElementById('btn-prompt');
+  const panelOpen = analysisBtn.classList.contains('open');
+  const hasAnalysisKey = !!(params && 'analysis' in params);
+  const shouldOpen = !notesActive && (params.analysis === true || (!hasAnalysisKey && hasSelection));
+  const shouldClose = !notesActive && (params.analysis === 'off' || (!hasAnalysisKey && !hasSelection && panelOpen));
+
+  if (shouldOpen && !panelOpen) {
+    analysisBtn.click();
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
-    const tab = document.querySelector(`.chat-mode-tab[data-mode="${tabMode}"]`);
+    const tab = document.querySelector(`.prompt-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
-  } else if (!notesActive && analysisBtn.classList.contains('open')) {
+    applyAnalysisUiLang(params.uilang);
+  } else if (shouldClose && panelOpen) {
     analysisBtn.click();
   }
   state.suppressHashUpdate = false;
