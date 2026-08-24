@@ -2,7 +2,7 @@
 title: Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing
 description: Answer to whether antioxidant supplementation interferes with mitohormetic adaptation — ranked by strength of evidence across NAC, vitamin C/E, and other antioxidants, with timing considerations (chronic daily use vs. acute post-exercise) and implications drawn from failed clinical trials (SELECT, HOPE, Bjelakovic meta-analysis).
 created: 2026-08-05
-updated: 2026-08-23
+updated: 2026-08-05
 source: wiki knowledge base (_triples.json confidence-scored triples + Mitohormesis document corpus)
 tags:
   - task-output

@@ -13,9 +13,8 @@ tags:
   - park7
   - age-defense
   - adrenochrome
-updated: 2026-07-27
+updated: 2026-08-22
 ---
-
 # DJ-1 / 糖化防禦追蹤
 
 ## 問題

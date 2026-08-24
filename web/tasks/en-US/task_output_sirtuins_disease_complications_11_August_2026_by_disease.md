@@ -1,8 +1,8 @@
 ---
 title: Sirtuins in Health and Disease — Complication-by-Complication Excerpt Compilation
 description: Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic value, and their mechanistic role (tumor suppressor/promoter, protective/harmful) in each condition.
-created: 2026-08-11
-updated: 2026-08-11
+created: 2026-08-14
+updated: 2026-08-14
 tags:
   - task-output
   - sirtuins

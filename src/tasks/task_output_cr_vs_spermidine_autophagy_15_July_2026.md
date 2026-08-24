@@ -1,7 +1,7 @@
 ---
 title: Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects
 description: Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies
-created: 2026-07-15
+created: 2026-07-21
 source: Wiki knowledge graph traversal + manual synthesis
 tags:
   - autophagy
@@ -9,7 +9,7 @@ tags:
   - spermidine
   - rapamycin
   - longevity
-updated: 2026-07-15
+updated: 2026-08-22
 ---
 
 # CR vs Spermidine Diet Autophagy — Differences and Additive Effects

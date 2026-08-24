@@ -1,8 +1,8 @@
 ---
 title: 自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整
 description: 比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。
-created: 2026-07-17
-updated: 2026-07-17
+created: 2026-07-21
+updated: 2026-08-22
 tags:
   - task-output
   - autophagy
@@ -11,7 +11,6 @@ tags:
   - exercise
 source: wiki notes (Autophagy, Mitophagy, Fasting, Intermittent Fasting, AMPK, mTORC1, PINK1, Parkin, DRP1, Urolithin A) + web research
 ---
-
 # 自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整
 
 > 綜合自 wiki 筆記（[[Autophagy]]、[[Mitophagy]]、[[Fasting]]、[[Intermittent Fasting]]、[[AMPK]]、[[mTORC1]]、[[PINK1]]、[[Parkin]]、[[DRP1]]、[[Urolithin A]]）與網路研究（Nature Metabolism 2023；Cell Reports 2023 PINK1 閾值；Cell Reports Medicine 2022 UA RCT；Frontiers 2024 運動/粒線體自噬；ScienceDirect 2025 PINK1-Parkin 動力學）。

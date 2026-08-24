@@ -1,8 +1,8 @@
 ---
 title: Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments
 description: Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.
-created: 2026-07-17
-updated: 2026-07-17
+created: 2026-07-21
+updated: 2026-08-22
 tags:
   - task-output
   - autophagy

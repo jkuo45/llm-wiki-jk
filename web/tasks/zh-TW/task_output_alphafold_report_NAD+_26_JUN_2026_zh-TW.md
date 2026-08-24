@@ -1,8 +1,8 @@
 ---
 title: AlphaFold 結構分析報告 — NAD+ 代謝蛋白（CD38、BST1、SARM1、NAMPT、NT5E、SIRT1/3/6、PARP1）
 description: 針對九種 NAD+ 代謝蛋白——CD38、BST1、SARM1、NAMPT、NT5E（CD73）、SIRT1、SIRT3、SIRT6 與 PARP1——由 AlphaFold 衍生的 pLDDT 信心度與 PAE 結構域邊界分析，評估用於 NAD+ 提升介入標的下游建模的結構可靠性。
-created: 2026-06-26
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: AlphaFold DB predicted structures (UniProt accessions P28907, Q10588, Q8WXF7 et al.) via pLDDT/PAE metric extraction
 tags:
   - task-output
@@ -16,7 +16,6 @@ tags:
   - parp1
 author: []
 ---
-
 # AlphaFold 結構分析報告
 
 ## CD38

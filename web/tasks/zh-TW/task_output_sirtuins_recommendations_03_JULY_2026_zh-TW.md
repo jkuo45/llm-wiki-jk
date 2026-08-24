@@ -2,8 +2,8 @@
 title: 策略研究建議 — 以 Sirtuin 為核心的長壽與再生醫學
 description: 來自 1,521 個 sirtuin 交互三元組網絡分析的五項以證據為基礎的研究建議 — SIRT6 異位活化、SIRT3 活化 / SIRT4 抑制以對抗纖維化與肥大、胞質 SIRT2–TFEB 自噬軸、CD38 抑制以恢復 NAD+、以及經由微 RNA 拮抗寡核苷酸對 SIRT1 去抑制。
 published: 2026-07-03
-created: 2026-07-03
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: notes/sirtuins/task_output_triples_sirtuins.json (1,521 interaction triples)
 author:
   - Principal Investigator, Computational Systems Pharmacology & Longevity Medicine Lab
@@ -16,7 +16,6 @@ tags:
   - cd38
   - research-strategy
 ---
-
 # 策略研究建議：以 Sirtuin 為核心的長壽與再生醫學
 
 **作者：** Principal Investigator, Computational Systems Pharmacology & Longevity Medicine Lab  

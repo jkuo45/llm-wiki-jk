@@ -8,8 +8,8 @@ aliases:
 source: https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C
 author:
   - Google AI Studio (Gemini)
-created: 2026-07-02
-updated: 2026-07-05
+created: 2026-07-21
+updated: 2026-08-22
 description: "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations"
 tags:
   - gemini

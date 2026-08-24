@@ -2,7 +2,7 @@
 title: Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review
 description: Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.
 created: 2026-08-17
-updated: 2026-08-23
+updated: 2026-08-22
 source: graphify-out/graph.json (2506 nodes / 3213 edges) + scripts/04_node_analysis.py + Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017 (PMC5514220)
 tags:
   - task-output

@@ -1,8 +1,8 @@
 ---
 title: Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026
 description: Comparative node analysis of SIRT1/SIRT2/SIRT3 proximity to Adrenochrome in the wiki knowledge graph. Hop distance is non-discriminating (all 2 hops); path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, effective-resistance, personalized PageRank, and Fiedler analysis resolve a metric-dependent ranking where SIRT3 wins on route redundancy but SIRT1 wins on flow proximity.
-created: 2026-08-15
-updated: 2026-08-15
+created: 2026-08-16
+updated: 2026-08-22
 tags:
   - task-output
   - knowledge-graph

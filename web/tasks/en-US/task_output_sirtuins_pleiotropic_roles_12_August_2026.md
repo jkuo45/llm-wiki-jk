@@ -1,8 +1,8 @@
 ---
 title: Pleiotropic Roles of SIRTs in Tumor Cell Metabolism and Therapeutic Targeting
 description: Synthesis of the pleiotropic roles of the seven mammalian sirtuins (SIRT1–SIRT7) in tumor cell metabolism — glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis — the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents with development stage and indications.
-created: 2026-08-12
-updated: 2026-08-12
+created: 2026-08-13
+updated: 2026-08-13
 tags:
   - task-output
   - sirtuins

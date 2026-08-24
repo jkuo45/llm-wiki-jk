@@ -17,9 +17,8 @@ tags:
   - sphingolipid-metabolism
   - enzyme
   - senolytic
-updated: 2026-07-27
+updated: 2026-08-22
 ---
-
 # 研究報告：酸性神經醯胺酶在鐵死亡與細胞衰老中的角色
 
 **日期：** 27_July_2026 09:12 AM PDT

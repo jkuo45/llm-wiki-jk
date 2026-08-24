@@ -1,8 +1,8 @@
 ---
 title: 增肌（Bulk）vs. 減脂（Shred）情境分析 — 提高的靜息代謝率與生物實體交互作用
 description: 以生理學家視角的協定比較：增肌（合成代謝 + 提高的靜息代謝率）對比減脂（熱量缺口 + 自噬）——涵蓋盈餘期間兒茶酚胺 / 腎上腺紅質（Adrenochrome）毒性風險、COMT 支持的解毒營養素、缺口期間 AMPK/SIRT1 驅動的清理、表觀基因體保護，以及依情境排序的飲食 / 補給 / 行為建議。
-created: 2026-08-23
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: physiologist skill synthesis over vault entity notes (COMT, Adrenochrome, Autophagy, mTORC1, SIRT1, Methylation Cycle)
 tags:
   - task-output
@@ -17,7 +17,6 @@ tags:
 author:
   - Physiologist Agent
 ---
-
 # 增肌 vs. 減脂情境分析：提高的靜息代謝率與生物實體交互作用
 
 **優先順序轉換概覽：**

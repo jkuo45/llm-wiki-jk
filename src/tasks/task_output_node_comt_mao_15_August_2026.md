@@ -1,8 +1,8 @@
 ---
 title: COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026
 description: "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py."
-created: 2026-08-15
-updated: 2026-08-15
+created: 2026-08-16
+updated: 2026-08-22
 tags:
   - task-output
   - knowledge-graph

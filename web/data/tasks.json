@@ -1,5 +1,5 @@
 {
-  "generated": "24_AUG_2026 12:52 PM PDT",
+  "generated": "24_AUG_2026 01:25 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -641,46 +641,6 @@
       }
     },
     {
-      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
-          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
-          "created": "2026-08-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
-          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
-          "created": "2026-08-21",
-          "updated": "2026-08-24",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md"
-        }
-      }
-    },
-    {
       "id": "task:_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
       "kind": "task",
       "langs": {
@@ -823,8 +783,8 @@
         "en-US": {
           "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
           "description": "Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.",
-          "created": "2026-07-09",
-          "updated": "2026-08-23",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
             "fisetin",
@@ -841,8 +801,8 @@
         "zh-TW": {
           "title": "非瑟酮作為 COMT 抑制劑 — 衰老溶解交集與實驗計畫",
           "description": "評估非瑟酮作為衰老溶解類黃酮與 COMT（兒茶酚-O-甲基轉移酶）受質-抑制劑的雙重活性（IC50 2.6–5.8 µM），包含其 O-甲基化為 Geraldol、依劑量與基因型而定的藥物動力學複雜性、對長壽方案的意涵，以及提出的實驗計畫。",
-          "created": "2026-07-09",
-          "updated": "2026-08-23",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
             "fisetin",
@@ -859,92 +819,6 @@
       }
     },
     {
-      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)",
-          "description": "AlphaFold-derived pLDDT confidence and PAE domain-boundary analysis for nine NAD+ metabolism proteins — CD38, BST1, SARM1, NAMPT, NT5E (CD73), SIRT1, SIRT3, SIRT6, and PARP1 — assessing structural reliability for downstream modeling of NAD+-boosting intervention targets.",
-          "created": "2026-06-26",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "alphafold",
-            "structural-biology",
-            "nad-plus",
-            "cd38",
-            "sarm1",
-            "nampt",
-            "sirtuins",
-            "parp1"
-          ],
-          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
-          "path": "tasks/en-US/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
-        },
-        "zh-TW": {
-          "title": "AlphaFold 結構分析報告 — NAD+ 代謝蛋白（CD38、BST1、SARM1、NAMPT、NT5E、SIRT1/3/6、PARP1）",
-          "description": "針對九種 NAD+ 代謝蛋白——CD38、BST1、SARM1、NAMPT、NT5E（CD73）、SIRT1、SIRT3、SIRT6 與 PARP1——由 AlphaFold 衍生的 pLDDT 信心度與 PAE 結構域邊界分析，評估用於 NAD+ 提升介入標的下游建模的結構可靠性。",
-          "created": "2026-06-26",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "alphafold",
-            "structural-biology",
-            "nad-plus",
-            "cd38",
-            "sarm1",
-            "nampt",
-            "sirtuins",
-            "parp1"
-          ],
-          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_alphafold_report_NAD%2B_26_JUN_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing",
-          "description": "Answer to whether antioxidant supplementation interferes with mitohormetic adaptation — ranked by strength of evidence across NAC, vitamin C/E, and other antioxidants, with timing considerations (chronic daily use vs. acute post-exercise) and implications drawn from failed clinical trials (SELECT, HOPE, Bjelakovic meta-analysis).",
-          "created": "2026-08-05",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "mitohormesis",
-            "hormesis",
-            "antioxidants",
-            "ros",
-            "nac",
-            "exercise",
-            "mitochondrial-biogenesis"
-          ],
-          "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
-          "path": "tasks/en-US/task_output_mitohormesis_antioxidants_05_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "抗氧化劑會阻斷粒線體荷爾蒙效應嗎？— 證據排名與時機",
-          "description": "關於抗氧化補充是否干擾粒線體荷爾蒙適應的回答——按 NAC、維生素 C/E 與其他抗氧化劑的證據強度排名，並考量時機（長期每日使用 vs. 運動後急性使用）以及失敗臨床試驗（SELECT、HOPE、Bjelakovic 統合分析）所得到的啟示。",
-          "created": "2026-08-05",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "mitohormesis",
-            "hormesis",
-            "antioxidants",
-            "ros",
-            "nac",
-            "exercise",
-            "mitochondrial-biogenesis"
-          ],
-          "filename": "task_output_mitohormesis_antioxidants_05_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_mitohormesis_antioxidants_05_August_2026_zh-TW.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_node_analysis_biology_16_AUG_2026",
       "kind": "task",
       "langs": {
@@ -952,7 +826,7 @@
           "title": "Node-Level Network Analysis for Biological Prioritization",
           "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
           "created": "2026-08-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
             "knowledge-graph",
@@ -970,7 +844,7 @@
           "title": "用於生物學優先排序的節點層級網絡分析",
           "description": "方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
           "created": "2026-08-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
             "knowledge-graph",
@@ -994,7 +868,7 @@
           "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
           "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
           "created": "2026-08-17",
-          "updated": "2026-08-23",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
             "knowledge-graph",
@@ -1014,7 +888,7 @@
           "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
           "description": "以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
           "created": "2026-08-17",
-          "updated": "2026-08-23",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
             "knowledge-graph",
@@ -1033,204 +907,623 @@
       }
     },
     {
-      "id": "task:task_output_physiologist_shred_vs_bulk",
+      "id": "task:task_output_sirtuins_resveratrol",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Bulk vs. Shred Scenario Analysis — Elevated RMR & Bio-Entity Interplay",
-          "description": "Physiologist-style protocol comparison of bulking (anabolism + elevated resting metabolic rate) vs. shredding (caloric deficit + autophagy) — covering catecholamine/adrenochrome toxicity risk during surplus, COMT-supported detoxification nutrients, AMPK/SIRT1-driven cleanup during deficit, epigenome protection, and prioritized food/supplement/behavioral recommendations per scenario.",
-          "created": "2026-08-23",
-          "updated": "2026-08-23",
+          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
+          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
-            "physiology",
-            "body-composition",
-            "adrenochrome",
-            "comt",
-            "autophagy",
-            "mtorc1",
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol",
             "sirt1",
-            "oxidative-stress"
+            "stacs",
+            "polyphenols"
           ],
-          "filename": "task_output_physiologist_shred_vs_bulk.md",
-          "path": "tasks/en-US/task_output_physiologist_shred_vs_bulk.md"
+          "filename": "task_output_sirtuins_resveratrol_en-US.md",
+          "path": "tasks/en-US/task_output_sirtuins_resveratrol_en-US.md"
         },
         "zh-TW": {
-          "title": "增肌（Bulk）vs. 減脂（Shred）情境分析 — 提高的靜息代謝率與生物實體交互作用",
-          "description": "以生理學家視角的協定比較：增肌（合成代謝 + 提高的靜息代謝率）對比減脂（熱量缺口 + 自噬）——涵蓋盈餘期間兒茶酚胺 / 腎上腺紅質（Adrenochrome）毒性風險、COMT 支持的解毒營養素、缺口期間 AMPK/SIRT1 驅動的清理、表觀基因體保護，以及依情境排序的飲食 / 補給 / 行為建議。",
-          "created": "2026-08-23",
-          "updated": "2026-08-23",
+          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
           "tags": [
-            "task-output",
-            "physiology",
-            "body-composition",
-            "adrenochrome",
-            "comt",
-            "autophagy",
-            "mtorc1",
-            "sirt1",
-            "oxidative-stress"
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
           ],
-          "filename": "task_output_physiologist_shred_vs_bulk_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_physiologist_shred_vs_bulk_zh-TW.md"
+          "filename": "task_output_sirtuins_resveratrol_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol_zh-TW.md"
         }
       }
     },
     {
-      "id": "task:task_output_sirtuins_recommendations_03_JULY_2026",
+      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Strategic Research Recommendations — Sirtuin-Centric Longevity & Regenerative Medicine",
-          "description": "Five evidence-grounded research recommendations from network analysis of 1,521 sirtuin interaction triples — SIRT6 allosteric activation, opposing SIRT3 activation / SIRT4 inhibition for fibrosis and hypertrophy, the cytoplasmic SIRT2–TFEB autophagy axis, CD38 inhibition for NAD+ restoration, and SIRT1 derepression via microRNA antagomirs.",
-          "created": "2026-07-03",
-          "updated": "2026-08-23",
+          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
+          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
-            "sirtuins",
-            "longevity",
-            "drug-discovery",
-            "nad-plus",
-            "cd38",
-            "research-strategy"
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
           ],
-          "filename": "task_output_sirtuins_recommendations_03_JULY_2026.md",
-          "path": "tasks/en-US/task_output_sirtuins_recommendations_03_JULY_2026.md"
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
         },
         "zh-TW": {
-          "title": "策略研究建議 — 以 Sirtuin 為核心的長壽與再生醫學",
-          "description": "來自 1,521 個 sirtuin 交互三元組網絡分析的五項以證據為基礎的研究建議 — SIRT6 異位活化、SIRT3 活化 / SIRT4 抑制以對抗纖維化與肥大、胞質 SIRT2–TFEB 自噬軸、CD38 抑制以恢復 NAD+、以及經由微 RNA 拮抗寡核苷酸對 SIRT1 去抑制。",
-          "created": "2026-07-03",
-          "updated": "2026-08-23",
+          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
+          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
-            "sirtuins",
-            "longevity",
-            "drug-discovery",
-            "nad-plus",
-            "cd38",
-            "research-strategy"
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
           ],
-          "filename": "task_output_sirtuins_recommendations_03_JULY_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_recommendations_03_JULY_2026_zh-TW.md"
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md"
         }
       }
     },
     {
-      "id": "task:tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
+      "id": "task:task_output_mitochondria_fusion_fission_27_JUL_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Cancer Connections of Apoptotic Regulators — Caspases, Bcl-2 Family & Phosphorylation Sites",
-          "description": "HTML table excerpt mapping protease enzymes (caspases) and Bcl-2 family proteins to their phosphorylation sites, responsible kinases/phosphatases, functional outcomes, and cancer connections (loss or amplification), extracted from an NCI/PMC source document.",
-          "created": "2026-06-01",
-          "updated": "2026-08-23",
+          "title": "Research Gaps in Mitochondrial Fission & Fusion Mechanisms",
+          "description": "Comprehensive analysis of what is known and what remains unknown about the exact mechanisms of mitochondrial fission and fusion, drawn from ingested review documents and supporting literature.",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "mitochondrial-dynamics",
+            "research-gaps",
+            "fission",
+            "fusion",
+            "drp1",
+            "mfn1",
+            "mfn2",
+            "opa1",
+            "mitophagy"
+          ],
+          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+          "path": "tasks/en-US/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "粒線體分裂與融合機制的研究缺口",
+          "description": "關於粒線體分裂與融合確切機制中已知與未知之處的綜合分析，取材自攝入的回顧文獻與支援文獻。",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "mitochondrial-dynamics",
+            "research-gaps",
+            "fission",
+            "fusion",
+            "drp1",
+            "mfn1",
+            "mfn2",
+            "opa1",
+            "mitophagy"
+          ],
+          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_comt_mao_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
+          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_comt_mao_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
+          "description": "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_comt_mao_15_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026",
+          "description": "Comparative node analysis of SIRT1/SIRT2/SIRT3 proximity to Adrenochrome in the wiki knowledge graph. Hop distance is non-discriminating (all 2 hops); path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, effective-resistance, personalized PageRank, and Fiedler analysis resolve a metric-dependent ranking where SIRT3 wins on route redundancy but SIRT1 wins on flow proximity.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "adrenochrome",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy — 15 August 2026",
+          "description": "SIRT1 / SIRT2 / SIRT3 與 Adrenochrome 在 wiki 知識圖譜中接近度的比較節點分析。跳數距離無鑑別力（皆為 2 跳）；路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、有效電阻、個人化 PageRank 與 Fiedler 分析解析出一個依指標而定的排名——SIRT3 在路線冗餘度上勝出，而 SIRT1 在流量接近度上勝出。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "adrenochrome",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
+          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
+          "description": "SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_acid_ceramidase_27_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Acid Ceramidase in Ferroptosis & Cellular Senescence",
+          "description": "Research synthesis on acid ceramidase (ASAH1) as a novel GPX4/GSH/iron-independent regulator of ferroptosis in senescent cells, including paracrine propagation via SASP, mechanistic model via the Lands cycle, and therapeutic implications as a senolytic/senomorphic target.",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "ferroptosis",
+            "senescence",
+            "lipid-metabolism",
+            "sphingolipid-metabolism",
+            "enzyme",
+            "senolytic"
+          ],
+          "filename": "task_output_acid_ceramidase_27_July_2026.md",
+          "path": "tasks/en-US/task_output_acid_ceramidase_27_July_2026.md"
+        },
+        "zh-TW": {
+          "title": "酸性神經醯胺酶在鐵死亡與細胞衰老中的角色",
+          "description": "關於酸性神經醯胺酶（ASAH1）作為衰老細胞中一種新型、不依賴 GPX4/GSH/鐵的鐵死亡調節因子的研究綜述，包含透過 SASP 的旁分泌傳播、經由 Lands cycle 的機制模型，以及作為 senolytic/senomorphic 標的的治療意涵。",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "ferroptosis",
+            "senescence",
+            "lipid-metabolism",
+            "sphingolipid-metabolism",
+            "enzyme",
+            "senolytic"
+          ],
+          "filename": "task_output_acid_ceramidase_27_July_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_autophagy_and_cancer_13_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy During Chemotherapy — Conflicting and Agreeing Views",
+          "description": "Research findings on the dual role of autophagy in cancer chemotherapy, compiled from wiki notes and web literature (2013–2025)",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "cancer",
+            "chemotherapy"
+          ],
+          "filename": "task_output_autophagy_and_cancer_13_JUL_2026.md",
+          "path": "tasks/en-US/task_output_autophagy_and_cancer_13_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "化療期間的自噬 — 衝突與一致的觀點",
+          "description": "關於自噬在癌症化療中雙重角色的研究發現，編纂自 wiki 筆記與網路文獻（2013–2025）",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "cancer",
+            "chemotherapy"
+          ],
+          "filename": "task_output_autophagy_and_cancer_13_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_autophagy_and_cancer_13_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_autophagy_mammals_longevity_22_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy in Companion Mammals (Dogs/Cats) and Longevity",
+          "description": "Research synthesis of autophagy–aging biology in domesticated dogs and cats, translational interventions, TRIAD trial context, evidence gaps, and proposed experimental roadmap",
+          "created": "2026-07-23",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "longevity",
+            "canine",
+            "feline",
+            "companion-animals",
+            "rapamycin",
+            "caloric-restriction",
+            "mtor",
+            "triad",
+            "dog-aging-project"
+          ],
+          "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+          "path": "tasks/en-US/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "伴侶哺乳動物（犬/貓）中的自噬與壽命",
+          "description": "關於家犬與家貓自噬–老化生物學的研究綜述，涵蓋轉譯介入、TRIAD 試驗脈絡、證據缺口，以及提出的實驗路線圖",
+          "created": "2026-07-23",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "longevity",
+            "canine",
+            "feline",
+            "companion-animals",
+            "rapamycin",
+            "caloric-restriction",
+            "mtor",
+            "triad",
+            "dog-aging-project"
+          ],
+          "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_autophagy_mammals_longevity_22_JULY_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_autophagy_vs_mitophagy_17_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
+          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "path": "tasks/en-US/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整",
+          "description": "比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_caspase_01_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Molecular Mechanisms of Caspase and Bcl-2 Family Regulation",
+          "description": "Research report exploring five critical molecular connections within the apoptotic signaling network, focusing on biochemical mechanisms of caspase and Bcl-2 family regulation in cancer and cell survival.",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
             "apoptosis",
-            "caspases",
+            "caspase",
             "bcl-2-family",
             "cancer",
-            "phosphorylation"
+            "phosphorylation",
+            "phosphatase",
+            "cell-death"
           ],
-          "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
-          "path": "tasks/en-US/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+          "filename": "task_output_caspase_01_JUN_2026.md",
+          "path": "tasks/en-US/task_output_caspase_01_JUN_2026.md"
         },
         "zh-TW": {
-          "title": "凋亡調節因子的癌症關聯 — Caspase、Bcl-2 家族與磷酸化位點",
-          "description": "HTML 表格節錄，將蛋白酶（caspase）與 Bcl-2 家族蛋白對應至其磷酸化位點、負責的激酶／磷酸酶、功能結果，以及癌症關聯（缺失或擴增），擷取自 NCI/PMC 來源文件。",
-          "created": "2026-06-01",
-          "updated": "2026-08-23",
+          "title": "Caspase 與 Bcl-2 家族調控的分子機制",
+          "description": "探討凋亡訊號網絡內五個關鍵分子連結的研究報告，聚焦於癌症與細胞存活中 caspase 與 Bcl-2 家族調控的生化機制。",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
             "apoptosis",
-            "caspases",
+            "caspase",
             "bcl-2-family",
             "cancer",
-            "phosphorylation"
+            "phosphorylation",
+            "phosphatase",
+            "cell-death"
           ],
-          "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00_zh-TW.md",
-          "path": "tasks/zh-TW/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00_zh-TW.md"
+          "filename": "task_output_caspase_01_JUN_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_caspase_01_JUN_2026_zh-TW.md"
         }
       }
     },
     {
-      "id": "task:tbl_senescent_compounds_normalized",
+      "id": "task:task_output_cr_vs_spermidine_autophagy_15_July_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Normalized Table — Senescence-Inducing Small Compounds by Mechanism of Action",
-          "description": "Normalized compilation of small compounds that induce cellular senescence, grouped by mechanism (DNA replication stress, DNA damage/topoisomerase inhibition, etc.) with cell lines used, senescence markers documented (SA-beta-Gal, gamma-H2A.X, p53-p21/p16-Rb), signaling pathways involved, cell-cycle arrest phase, triggering conditions, and references.",
-          "created": "2026-08-23",
-          "updated": "2026-08-23",
+          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
+          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
-            "senescence",
-            "dna-damage",
-            "replication-stress",
-            "topoisomerase-inhibitors",
-            "doxorubicin",
-            "cell-cycle-arrest"
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
           ],
-          "filename": "tbl_senescent_compounds_normalized.md",
-          "path": "tasks/en-US/tbl_senescent_compounds_normalized.md"
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
         },
         "zh-TW": {
-          "title": "標準化表格 — 依作用機制分類的衰老誘導小分子化合物",
-          "description": "誘導細胞衰老之小分子化合物的標準化彙編，依作用機制分組（DNA 複製壓力、DNA 損傷／拓撲異構酶抑制等），包含所用細胞株、已記錄的衰老標記（SA-beta-Gal、gamma-H2A.X、p53-p21/p16-Rb）、涉及的訊息傳遞路徑、細胞週期停滯階段、觸發條件與參考文獻。",
-          "created": "2026-08-23",
-          "updated": "2026-08-23",
+          "title": "热量限制 vs 亚精胺饮食自噬 — 差异与叠加效应",
+          "description": "CR诱导自噬与饮食自噬诱导剂（亚精胺、雷帕霉素）之间的机制差异分析，以及组合策略叠加效应的追踪",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
-            "senescence",
-            "dna-damage",
-            "replication-stress",
-            "topoisomerase-inhibitors",
-            "doxorubicin",
-            "cell-cycle-arrest"
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
           ],
-          "filename": "tbl_senescent_compounds_normalized_zh-TW.md",
-          "path": "tasks/zh-TW/tbl_senescent_compounds_normalized_zh-TW.md"
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md"
         }
       }
     },
     {
-      "id": "task:tbl_tfeb_target_mechanisms",
+      "id": "task:task_output_dj1_glycation_trace_27_JUL_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "TFEB Targeting Regulatory Mechanisms Across Disease Models",
-          "description": "Table of TFEB-targeting strategies by regulatory mechanism — gene therapy (AAV/lentiviral TFEB overexpression), transcriptional induction (PGC-1alpha), and PTM modulation via mTORC1/MAPK-ERK/Akt/p38 MAPK phosphorylation and SIRT1 deacetylation — mapped to disease models (Pompe, asthma, cystinosis, stroke, pancreatitis, HD, NAFLD, Alzheimer's, Parkinson's, MI, AKI) with phenotypic improvements and PMIDs.",
-          "created": "2026-08-23",
-          "updated": "2026-08-23",
+          "title": "DJ-1 / Glycation Defense Trace",
+          "description": "Graph trace of DJ-1's role in glycation and AGE defense, mapping the three-line enzymatic defense architecture and the adrenochrome-driven double-hit mechanism that makes DJ-1 the last line of dicarbonyl defense.",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
           "tags": [
-            "task-output",
-            "tfeb",
-            "autophagy",
-            "lysosome",
-            "gene-therapy",
-            "phosphorylation",
-            "neurodegeneration"
+            "trace",
+            "glycation",
+            "dj-1",
+            "park7",
+            "age-defense",
+            "adrenochrome"
           ],
-          "filename": "tbl_tfeb_target_mechanisms.md",
-          "path": "tasks/en-US/tbl_tfeb_target_mechanisms.md"
+          "filename": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+          "path": "tasks/en-US/task_output_dj1_glycation_trace_27_JUL_2026.md"
         },
         "zh-TW": {
-          "title": "TFEB 標靶調控機制跨疾病模型",
-          "description": "依調控機制的 TFEB 標靶策略表格 — 基因治療（AAV／慢病毒 TFEB 過度表現）、轉錄誘導（PGC-1alpha），以及透過 mTORC1/MAPK-ERK/Akt/p38 MAPK 磷酸化與 SIRT1 去乙醯化的 PTM 調控 — 對應至疾病模型（龐貝氏症、氣喘、胱胺酸症、中風、胰臟炎、HD、NAFLD、阿茲海默症、帕金森氏症、MI、AKI），並列出表型改善與 PMID。",
-          "created": "2026-08-23",
-          "updated": "2026-08-23",
+          "title": "DJ-1 / 糖化防禦追蹤",
+          "description": "DJ-1 在糖化與 AGE 防禦中角色的圖譜追蹤，描繪三層酵素防禦架構，以及腎上腺色素（adrenochrome）驅動的雙重打擊機制——使 DJ-1 成為二羰基防禦的最後一道防線。",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "trace",
+            "glycation",
+            "dj-1",
+            "park7",
+            "age-defense",
+            "adrenochrome"
+          ],
+          "filename": "task_output_dj1_glycation_trace_27_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_dj1_glycation_trace_27_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Anticancer Mechanisms: Ivermectin & Fenbendazole — Synergy and Combined Impact",
+          "description": "Analysis of the complementary anticancer mechanisms of ivermectin and fenbendazole, focusing on synergy, convergent pathways, and rationale for combination use in drug repositioning.",
+          "created": "2026-07-28",
+          "updated": "2026-08-22",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "fenbendazole",
+            "mechanisms",
+            "synergy"
+          ],
+          "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "抗癌機制：伊維菌素與芬苯達唑 — 協同作用與綜合影響",
+          "description": "分析伊維菌素與芬苯達唑互補的抗癌機制，聚焦於協同作用、收斂路徑，以及藥物老藥新用中併用治療的依據。",
+          "created": "2026-07-28",
+          "updated": "2026-08-22",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "fenbendazole",
+            "mechanisms",
+            "synergy"
+          ],
+          "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Ivermectin, Yamanaka Factors & Aging — graphify exploration",
+          "description": "Multi-part exploration of ivermectin's intersection with aging biology — Yamanaka factors, mTOR/TFEB autophagy, STAT3/NF-κB inflammaging, SASP/senomorphic overlap, and the central paradox of pro-longevity vs. anti-rejuvenation mechanisms",
+          "created": "2026-07-28",
+          "updated": "2026-08-22",
           "tags": [
             "task-output",
-            "tfeb",
+            "ivermectin",
+            "yamanaka-factors",
+            "aging",
             "autophagy",
-            "lysosome",
-            "gene-therapy",
-            "phosphorylation",
-            "neurodegeneration"
+            "graphify",
+            "stat3",
+            "nf-kb",
+            "inflammaging",
+            "sasp",
+            "senomorphic",
+            "mtor",
+            "longevity",
+            "fenbendazole"
           ],
-          "filename": "tbl_tfeb_target_mechanisms_zh-TW.md",
-          "path": "tasks/zh-TW/tbl_tfeb_target_mechanisms_zh-TW.md"
+          "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
+          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "伊維菌素、山中因子與老化 — graphify 探索",
+          "description": "多部分探索伊維菌素與老化生物學的交會——山中因子、mTOR/TFEB 自噬、STAT3/NF-κB 發炎老化、SASP/衰老修飾（senomorphic）重疊，以及促長壽 vs. 抗回春機制的核心悖論",
+          "created": "2026-07-28",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "ivermectin",
+            "yamanaka-factors",
+            "aging",
+            "autophagy",
+            "graphify",
+            "stat3",
+            "nf-kb",
+            "inflammaging",
+            "sasp",
+            "senomorphic",
+            "mtor",
+            "longevity",
+            "fenbendazole"
+          ],
+          "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026_zh-TW.md"
         }
       }
     },
@@ -1303,144 +1596,100 @@
       }
     },
     {
-      "id": "task:task_output_node_comt_mao_15_August_2026",
+      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_disease",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
-          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py.",
-          "created": "2026-08-15",
-          "updated": "2026-08-15",
+          "title": "Sirtuins in Health and Disease — Complication-by-Complication Excerpt Compilation",
+          "description": "Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic value, and their mechanistic role (tumor suppressor/promoter, protective/harmful) in each condition.",
+          "created": "2026-08-14",
+          "updated": "2026-08-14",
           "tags": [
             "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
+            "sirtuins",
+            "cancer",
+            "cardiovascular-disease",
+            "respiratory-disease",
+            "digestive-disease",
+            "nervous-system",
+            "diabetes",
+            "kidney-disease",
+            "motor-system",
+            "aging",
+            "review"
           ],
-          "filename": "task_output_node_comt_mao_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
+          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
+          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
         },
         "zh-TW": {
-          "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
-          "description": "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。",
-          "created": "2026-08-15",
-          "updated": "2026-08-15",
+          "title": "健康與疾病中的 Sirtuins — 依併發症分類的節錄彙編",
+          "description": "從 sirtuins 綜述（s41392-022-01257-8）中依疾病系統與併發症整理出的節錄彙編，顯示各 SIRT 的上升/下降調控、其預後價值，以及在各病症中的機制角色（腫瘤抑制因子/促癌因子、保護性/有害性）。",
+          "created": "2026-08-14",
+          "updated": "2026-08-14",
           "tags": [
             "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
+            "sirtuins",
+            "cancer",
+            "cardiovascular-disease",
+            "respiratory-disease",
+            "digestive-disease",
+            "nervous-system",
+            "diabetes",
+            "kidney-disease",
+            "motor-system",
+            "aging",
+            "review"
           ],
-          "filename": "task_output_node_comt_mao_15_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026_zh-TW.md"
+          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_disease_zh-TW.md"
         }
       }
     },
     {
-      "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
+      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026",
-          "description": "Comparative node analysis of SIRT1/SIRT2/SIRT3 proximity to Adrenochrome in the wiki knowledge graph. Hop distance is non-discriminating (all 2 hops); path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, effective-resistance, personalized PageRank, and Fiedler analysis resolve a metric-dependent ranking where SIRT3 wins on route redundancy but SIRT1 wins on flow proximity.",
-          "created": "2026-08-15",
-          "updated": "2026-08-15",
+          "title": "Sirtuins in Health and Disease — SIRT-by-SIRT Disease Landscape",
+          "description": "Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by sirtuin (SIRT1–SIRT7), showing for each member the diseases and complications it is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.",
+          "created": "2026-08-11",
+          "updated": "2026-08-14",
           "tags": [
             "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
             "sirtuins",
-            "adrenochrome",
-            "graph-theory"
+            "SIRT1",
+            "SIRT2",
+            "SIRT3",
+            "SIRT4",
+            "SIRT5",
+            "SIRT6",
+            "SIRT7",
+            "disease",
+            "review"
           ],
-          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
+          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
         },
         "zh-TW": {
-          "title": "Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy — 15 August 2026",
-          "description": "SIRT1 / SIRT2 / SIRT3 與 Adrenochrome 在 wiki 知識圖譜中接近度的比較節點分析。跳數距離無鑑別力（皆為 2 跳）；路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、有效電阻、個人化 PageRank 與 Fiedler 分析解析出一個依指標而定的排名——SIRT3 在路線冗餘度上勝出，而 SIRT1 在流量接近度上勝出。",
-          "created": "2026-08-15",
-          "updated": "2026-08-15",
+          "title": "健康與疾病中的 Sirtuins — 依 Sirtuin 分類的疾病圖景",
+          "description": "從 sirtuins 綜述（s41392-022-01257-8）中依 sirtuin（SIRT1–SIRT7）整理出的節錄彙編，顯示每個成員所涉及的相關疾病與併發症、其角色（保護性/有害性/雙重）、表現變化與機制。",
+          "created": "2026-08-11",
+          "updated": "2026-08-14",
           "tags": [
             "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
             "sirtuins",
-            "adrenochrome",
-            "graph-theory"
+            "SIRT1",
+            "SIRT2",
+            "SIRT3",
+            "SIRT4",
+            "SIRT5",
+            "SIRT6",
+            "SIRT7",
+            "disease",
+            "review"
           ],
-          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
-          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
-          "created": "2026-08-15",
-          "updated": "2026-08-15",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
-          "description": "SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。",
-          "created": "2026-08-15",
-          "updated": "2026-08-15",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md"
+          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin_zh-TW.md"
         }
       }
     },
@@ -1529,8 +1778,8 @@
         "en-US": {
           "title": "Pleiotropic Roles of SIRTs in Tumor Cell Metabolism and Therapeutic Targeting",
           "description": "Synthesis of the pleiotropic roles of the seven mammalian sirtuins (SIRT1–SIRT7) in tumor cell metabolism — glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis — the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents with development stage and indications.",
-          "created": "2026-08-12",
-          "updated": "2026-08-12",
+          "created": "2026-08-13",
+          "updated": "2026-08-13",
           "tags": [
             "task-output",
             "sirtuins",
@@ -1548,8 +1797,8 @@
         "zh-TW": {
           "title": "SIRT 在腫瘤細胞代謝與治療標靶中的多效角色",
           "description": "綜合七種哺乳動物 sirtuin（SIRT1–SIRT7）在腫瘤細胞代謝中的多效角色 — 糖解/Warburg 效應、麩醯胺酸代謝/TCA 回補、ROS/氧化還原、脂質恆定 — 各亞型雙重、依脈絡而定的腫瘤抑制 vs. 致癌行為，以及當前 sirtuin 標靶治療藥物的比較表（含發展階段與適應症）。",
-          "created": "2026-08-12",
-          "updated": "2026-08-12",
+          "created": "2026-08-13",
+          "updated": "2026-08-13",
           "tags": [
             "task-output",
             "sirtuins",
@@ -1567,358 +1816,130 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_disease",
+      "id": "task:task_output_adrenochrome_sirtuins_trace_17_JUL_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Sirtuins in Health and Disease — Complication-by-Complication Excerpt Compilation",
-          "description": "Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic value, and their mechanistic role (tumor suppressor/promoter, protective/harmful) in each condition.",
-          "created": "2026-08-11",
-          "updated": "2026-08-11",
+          "title": "Adrenochrome → Sirtuins Counter-Defense Trace — Graph-Derived Mechanistic Map",
+          "description": "Comprehensive trace of how sirtuins counter adrenochrome-driven oxidative stress, extracted from the graphify knowledge graph. Covers the mitohormesis/NAD+ rescue route, the SIRT3-MnSOD-PGC-1α enzymatic defense axis, the apoptosis failure boundary, and the redox-homeostasis convergence node.",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
           "tags": [
             "task-output",
+            "adrenochrome",
             "sirtuins",
-            "cancer",
-            "cardiovascular-disease",
-            "respiratory-disease",
-            "digestive-disease",
-            "nervous-system",
-            "diabetes",
-            "kidney-disease",
-            "motor-system",
-            "aging",
-            "review"
+            "oxidative-stress",
+            "mitohormesis",
+            "nad-plus",
+            "redox-homeostasis",
+            "apoptosis",
+            "knowledge-graph"
           ],
-          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
-          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+          "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
+          "path": "tasks/en-US/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
         },
         "zh-TW": {
-          "title": "健康與疾病中的 Sirtuins — 依併發症分類的節錄彙編",
-          "description": "從 sirtuins 綜述（s41392-022-01257-8）中依疾病系統與併發症整理出的節錄彙編，顯示各 SIRT 的上升/下降調控、其預後價值，以及在各病症中的機制角色（腫瘤抑制因子/促癌因子、保護性/有害性）。",
-          "created": "2026-08-11",
-          "updated": "2026-08-11",
+          "title": "Adrenochrome → Sirtuins 反防禦追蹤 — 源自圖譜的機制圖譜",
+          "description": "關於 sirtuins 如何對抗 adrenochrome 驅動的氧化壓力的完整追蹤，提取自 graphify 知識圖譜。涵蓋 mitohormesis/NAD+ 救援路線、SIRT3-MnSOD-PGC-1α 酵素防禦軸、凋亡失敗邊界，以及 redox-homeostasis 收斂節點。",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
           "tags": [
             "task-output",
+            "adrenochrome",
             "sirtuins",
-            "cancer",
-            "cardiovascular-disease",
-            "respiratory-disease",
-            "digestive-disease",
-            "nervous-system",
-            "diabetes",
-            "kidney-disease",
-            "motor-system",
-            "aging",
-            "review"
+            "oxidative-stress",
+            "mitohormesis",
+            "nad-plus",
+            "redox-homeostasis",
+            "apoptosis",
+            "knowledge-graph"
           ],
-          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_disease_zh-TW.md"
+          "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_adrenochrome_sirtuins_trace_17_JUL_2026_zh-TW.md"
         }
       }
     },
     {
-      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin",
+      "id": "task:task_output_review_notes_epinephrine_sirtuins_06_July_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Sirtuins in Health and Disease — SIRT-by-SIRT Disease Landscape",
-          "description": "Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by sirtuin (SIRT1–SIRT7), showing for each member the diseases and complications it is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.",
-          "created": "2026-08-11",
-          "updated": "2026-08-11",
+          "title": "Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins: Mechanistic Connections and Longevity Implications",
+          "description": "notes mapping the biochemical, cellular, and pharmacological connections between epinephrine metabolism, neutrophil/erythrocyte biology, and sirtuin signaling. Focuses on oxidative stress, NAD+ homeostasis, inflammaging, and therapeutic implications for longevity.",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
           "tags": [
-            "task-output",
+            "epinephrine",
             "sirtuins",
-            "SIRT1",
-            "SIRT2",
-            "SIRT3",
-            "SIRT4",
-            "SIRT5",
-            "SIRT6",
-            "SIRT7",
-            "disease",
-            "review"
-          ],
-          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
-          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
-        },
-        "zh-TW": {
-          "title": "健康與疾病中的 Sirtuins — 依 Sirtuin 分類的疾病圖景",
-          "description": "從 sirtuins 綜述（s41392-022-01257-8）中依 sirtuin（SIRT1–SIRT7）整理出的節錄彙編，顯示每個成員所涉及的相關疾病與併發症、其角色（保護性/有害性/雙重）、表現變化與機制。",
-          "created": "2026-08-11",
-          "updated": "2026-08-11",
-          "tags": [
-            "task-output",
-            "sirtuins",
-            "SIRT1",
-            "SIRT2",
-            "SIRT3",
-            "SIRT4",
-            "SIRT5",
-            "SIRT6",
-            "SIRT7",
-            "disease",
-            "review"
-          ],
-          "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Anticancer Mechanisms: Ivermectin & Fenbendazole — Synergy and Combined Impact",
-          "description": "Analysis of the complementary anticancer mechanisms of ivermectin and fenbendazole, focusing on synergy, convergent pathways, and rationale for combination use in drug repositioning.",
-          "created": "2026-07-28",
-          "updated": "2026-07-28",
-          "tags": [
-            "cancer",
-            "drug-repositioning",
-            "ivermectin",
-            "fenbendazole",
-            "mechanisms",
-            "synergy"
-          ],
-          "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
-          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "抗癌機制：伊維菌素與芬苯達唑 — 協同作用與綜合影響",
-          "description": "分析伊維菌素與芬苯達唑互補的抗癌機制，聚焦於協同作用、收斂路徑，以及藥物老藥新用中併用治療的依據。",
-          "created": "2026-07-28",
-          "updated": "2026-07-28",
-          "tags": [
-            "cancer",
-            "drug-repositioning",
-            "ivermectin",
-            "fenbendazole",
-            "mechanisms",
-            "synergy"
-          ],
-          "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Ivermectin, Yamanaka Factors & Aging — graphify exploration",
-          "description": "Multi-part exploration of ivermectin's intersection with aging biology — Yamanaka factors, mTOR/TFEB autophagy, STAT3/NF-κB inflammaging, SASP/senomorphic overlap, and the central paradox of pro-longevity vs. anti-rejuvenation mechanisms",
-          "created": "2026-07-28",
-          "updated": "2026-07-28",
-          "tags": [
-            "task-output",
-            "ivermectin",
-            "yamanaka-factors",
-            "aging",
-            "autophagy",
-            "graphify",
-            "stat3",
-            "nf-kb",
+            "neutrophils",
+            "erythrocytes",
             "inflammaging",
-            "sasp",
-            "senomorphic",
-            "mtor",
+            "oxidative-stress",
             "longevity",
-            "fenbendazole"
+            "nad"
           ],
-          "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+          "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+          "path": "tasks/en-US/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
         },
         "zh-TW": {
-          "title": "伊維菌素、山中因子與老化 — graphify 探索",
-          "description": "多部分探索伊維菌素與老化生物學的交會——山中因子、mTOR/TFEB 自噬、STAT3/NF-κB 發炎老化、SASP/衰老修飾（senomorphic）重疊，以及促長壽 vs. 抗回春機制的核心悖論",
-          "created": "2026-07-28",
-          "updated": "2026-07-28",
+          "title": "Epinephrine（腎上腺素）↔ Neutrophils（嗜中性球）/ Erythrocytes（紅血球）↔ Sirtuins（去乙醯化酶）：機制連結與長壽意涵",
+          "description": "筆記描繪 epinephrine 代謝、neutrophil / erythrocyte 生物學與 sirtuin 訊號之間的生化、細胞與藥理連結。聚焦於氧化壓力、NAD+ 恆定、發炎性老化（inflammaging）與對長壽的治療意涵。",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
+          "tags": [
+            "epinephrine",
+            "sirtuins",
+            "neutrophils",
+            "erythrocytes",
+            "inflammaging",
+            "oxidative-stress",
+            "longevity",
+            "nad"
+          ],
+          "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_review_notes_epinephrine_sirtuins_06_July_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing",
+          "description": "Answer to whether antioxidant supplementation interferes with mitohormetic adaptation — ranked by strength of evidence across NAC, vitamin C/E, and other antioxidants, with timing considerations (chronic daily use vs. acute post-exercise) and implications drawn from failed clinical trials (SELECT, HOPE, Bjelakovic meta-analysis).",
+          "created": "2026-08-05",
+          "updated": "2026-08-05",
           "tags": [
             "task-output",
-            "ivermectin",
-            "yamanaka-factors",
-            "aging",
-            "autophagy",
-            "graphify",
-            "stat3",
-            "nf-kb",
-            "inflammaging",
-            "sasp",
-            "senomorphic",
-            "mtor",
-            "longevity",
-            "fenbendazole"
+            "mitohormesis",
+            "hormesis",
+            "antioxidants",
+            "ros",
+            "nac",
+            "exercise",
+            "mitochondrial-biogenesis"
           ],
-          "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_mitochondria_fusion_fission_27_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Research Gaps in Mitochondrial Fission & Fusion Mechanisms",
-          "description": "Comprehensive analysis of what is known and what remains unknown about the exact mechanisms of mitochondrial fission and fusion, drawn from ingested review documents and supporting literature.",
-          "created": "2026-07-27",
-          "updated": "2026-07-27",
-          "tags": [
-            "mitochondrial-dynamics",
-            "research-gaps",
-            "fission",
-            "fusion",
-            "drp1",
-            "mfn1",
-            "mfn2",
-            "opa1",
-            "mitophagy"
-          ],
-          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
-          "path": "tasks/en-US/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+          "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
+          "path": "tasks/en-US/task_output_mitohormesis_antioxidants_05_August_2026.md"
         },
         "zh-TW": {
-          "title": "粒線體分裂與融合機制的研究缺口",
-          "description": "關於粒線體分裂與融合確切機制中已知與未知之處的綜合分析，取材自攝入的回顧文獻與支援文獻。",
-          "created": "2026-07-27",
-          "updated": "2026-07-27",
+          "title": "抗氧化劑會阻斷粒線體荷爾蒙效應嗎？— 證據排名與時機",
+          "description": "關於抗氧化補充是否干擾粒線體荷爾蒙適應的回答——按 NAC、維生素 C/E 與其他抗氧化劑的證據強度排名，並考量時機（長期每日使用 vs. 運動後急性使用）以及失敗臨床試驗（SELECT、HOPE、Bjelakovic 統合分析）所得到的啟示。",
+          "created": "2026-08-05",
+          "updated": "2026-08-05",
           "tags": [
-            "mitochondrial-dynamics",
-            "research-gaps",
-            "fission",
-            "fusion",
-            "drp1",
-            "mfn1",
-            "mfn2",
-            "opa1",
-            "mitophagy"
+            "task-output",
+            "mitohormesis",
+            "hormesis",
+            "antioxidants",
+            "ros",
+            "nac",
+            "exercise",
+            "mitochondrial-biogenesis"
           ],
-          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_acid_ceramidase_27_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Acid Ceramidase in Ferroptosis & Cellular Senescence",
-          "description": "Research synthesis on acid ceramidase (ASAH1) as a novel GPX4/GSH/iron-independent regulator of ferroptosis in senescent cells, including paracrine propagation via SASP, mechanistic model via the Lands cycle, and therapeutic implications as a senolytic/senomorphic target.",
-          "created": "2026-07-27",
-          "updated": "2026-07-27",
-          "tags": [
-            "ferroptosis",
-            "senescence",
-            "lipid-metabolism",
-            "sphingolipid-metabolism",
-            "enzyme",
-            "senolytic"
-          ],
-          "filename": "task_output_acid_ceramidase_27_July_2026.md",
-          "path": "tasks/en-US/task_output_acid_ceramidase_27_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "酸性神經醯胺酶在鐵死亡與細胞衰老中的角色",
-          "description": "關於酸性神經醯胺酶（ASAH1）作為衰老細胞中一種新型、不依賴 GPX4/GSH/鐵的鐵死亡調節因子的研究綜述，包含透過 SASP 的旁分泌傳播、經由 Lands cycle 的機制模型，以及作為 senolytic/senomorphic 標的的治療意涵。",
-          "created": "2026-07-27",
-          "updated": "2026-07-27",
-          "tags": [
-            "ferroptosis",
-            "senescence",
-            "lipid-metabolism",
-            "sphingolipid-metabolism",
-            "enzyme",
-            "senolytic"
-          ],
-          "filename": "task_output_acid_ceramidase_27_July_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_dj1_glycation_trace_27_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "DJ-1 / Glycation Defense Trace",
-          "description": "Graph trace of DJ-1's role in glycation and AGE defense, mapping the three-line enzymatic defense architecture and the adrenochrome-driven double-hit mechanism that makes DJ-1 the last line of dicarbonyl defense.",
-          "created": "2026-07-27",
-          "updated": "2026-07-27",
-          "tags": [
-            "trace",
-            "glycation",
-            "dj-1",
-            "park7",
-            "age-defense",
-            "adrenochrome"
-          ],
-          "filename": "task_output_dj1_glycation_trace_27_JUL_2026.md",
-          "path": "tasks/en-US/task_output_dj1_glycation_trace_27_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "DJ-1 / 糖化防禦追蹤",
-          "description": "DJ-1 在糖化與 AGE 防禦中角色的圖譜追蹤，描繪三層酵素防禦架構，以及腎上腺色素（adrenochrome）驅動的雙重打擊機制——使 DJ-1 成為二羰基防禦的最後一道防線。",
-          "created": "2026-07-27",
-          "updated": "2026-07-27",
-          "tags": [
-            "trace",
-            "glycation",
-            "dj-1",
-            "park7",
-            "age-defense",
-            "adrenochrome"
-          ],
-          "filename": "task_output_dj1_glycation_trace_27_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_dj1_glycation_trace_27_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_autophagy_mammals_longevity_22_JULY_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Autophagy in Companion Mammals (Dogs/Cats) and Longevity",
-          "description": "Research synthesis of autophagy–aging biology in domesticated dogs and cats, translational interventions, TRIAD trial context, evidence gaps, and proposed experimental roadmap",
-          "created": "2026-07-22",
-          "updated": "2026-07-22",
-          "tags": [
-            "autophagy",
-            "longevity",
-            "canine",
-            "feline",
-            "companion-animals",
-            "rapamycin",
-            "caloric-restriction",
-            "mtor",
-            "triad",
-            "dog-aging-project"
-          ],
-          "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "伴侶哺乳動物（犬/貓）中的自噬與壽命",
-          "description": "關於家犬與家貓自噬–老化生物學的研究綜述，涵蓋轉譯介入、TRIAD 試驗脈絡、證據缺口，以及提出的實驗路線圖",
-          "created": "2026-07-22",
-          "updated": "2026-07-22",
-          "tags": [
-            "autophagy",
-            "longevity",
-            "canine",
-            "feline",
-            "companion-animals",
-            "rapamycin",
-            "caloric-restriction",
-            "mtor",
-            "triad",
-            "dog-aging-project"
-          ],
-          "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_autophagy_mammals_longevity_22_JULY_2026_zh-TW.md"
+          "filename": "task_output_mitohormesis_antioxidants_05_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_mitohormesis_antioxidants_05_August_2026_zh-TW.md"
         }
       }
     },
@@ -1974,7 +1995,7 @@
           "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
           "description": "Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.",
           "created": "2026-07-21",
-          "updated": "2026-07-21",
+          "updated": "2026-07-22",
           "tags": [
             "graph-trace",
             "ap-1",
@@ -1993,7 +2014,7 @@
           "title": "圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑",
           "description": "關於 AP-1 如何經由 src/ 知識圖譜（2,711 個檔案、63,384 條邊、413 個社群）橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation 的 graphify 追蹤。建構於 21_JUL_2026，使用 --mode deep --directed。",
           "created": "2026-07-21",
-          "updated": "2026-07-21",
+          "updated": "2026-07-22",
           "tags": [
             "graph-trace",
             "ap-1",
@@ -2011,38 +2032,282 @@
       }
     },
     {
-      "id": "task:task_output_autophagy_vs_mitophagy_17_JUL_2026",
+      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
-          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
-          "created": "2026-07-17",
-          "updated": "2026-07-17",
+          "title": "AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)",
+          "description": "AlphaFold-derived pLDDT confidence and PAE domain-boundary analysis for nine NAD+ metabolism proteins — CD38, BST1, SARM1, NAMPT, NT5E (CD73), SIRT1, SIRT3, SIRT6, and PARP1 — assessing structural reliability for downstream modeling of NAD+-boosting intervention targets.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
           "tags": [
             "task-output",
-            "autophagy",
-            "mitophagy",
-            "fasting",
-            "exercise"
+            "alphafold",
+            "structural-biology",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "nampt",
+            "sirtuins",
+            "parp1"
           ],
-          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
+          "path": "tasks/en-US/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
         },
         "zh-TW": {
-          "title": "自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整",
-          "description": "比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。",
-          "created": "2026-07-17",
-          "updated": "2026-07-17",
+          "title": "AlphaFold 結構分析報告 — NAD+ 代謝蛋白（CD38、BST1、SARM1、NAMPT、NT5E、SIRT1/3/6、PARP1）",
+          "description": "針對九種 NAD+ 代謝蛋白——CD38、BST1、SARM1、NAMPT、NT5E（CD73）、SIRT1、SIRT3、SIRT6 與 PARP1——由 AlphaFold 衍生的 pLDDT 信心度與 PAE 結構域邊界分析，評估用於 NAD+ 提升介入標的下游建模的結構可靠性。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
           "tags": [
             "task-output",
-            "autophagy",
-            "mitophagy",
-            "fasting",
-            "exercise"
+            "alphafold",
+            "structural-biology",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "nampt",
+            "sirtuins",
+            "parp1"
           ],
-          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026_zh-TW.md"
+          "filename": "task_output_alphafold_report_NAD+_26_JUN_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_alphafold_report_NAD%2B_26_JUN_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ivermectin_cancer_14_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Ivermectin as a Preventative / Cancer Measure — Graphified Findings",
+          "description": "Graph-traced findings on ivermectin's anticancer repositioning — the wiki corpus frames it as a repurposed therapeutic/adjuvant (inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance) rather than a primary preventive measure, with all evidence limited to preclinical models.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "graphify-query"
+          ],
+          "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
+          "path": "tasks/en-US/task_output_ivermectin_cancer_14_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
+          "description": "關於伊維菌素抗癌老藥新用（repositioning）的追蹤發現，取自 wiki 知識圖譜（graphify 查詢 + 節點閱讀）。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "graphify-query"
+          ],
+          "filename": "task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_physiologist_shred_vs_bulk",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Bulk vs. Shred Scenario Analysis — Elevated RMR & Bio-Entity Interplay",
+          "description": "Physiologist-style protocol comparison of bulking (anabolism + elevated resting metabolic rate) vs. shredding (caloric deficit + autophagy) — covering catecholamine/adrenochrome toxicity risk during surplus, COMT-supported detoxification nutrients, AMPK/SIRT1-driven cleanup during deficit, epigenome protection, and prioritized food/supplement/behavioral recommendations per scenario.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "physiology",
+            "body-composition",
+            "adrenochrome",
+            "comt",
+            "autophagy",
+            "mtorc1",
+            "sirt1",
+            "oxidative-stress"
+          ],
+          "filename": "task_output_physiologist_shred_vs_bulk.md",
+          "path": "tasks/en-US/task_output_physiologist_shred_vs_bulk.md"
+        },
+        "zh-TW": {
+          "title": "增肌（Bulk）vs. 減脂（Shred）情境分析 — 提高的靜息代謝率與生物實體交互作用",
+          "description": "以生理學家視角的協定比較：增肌（合成代謝 + 提高的靜息代謝率）對比減脂（熱量缺口 + 自噬）——涵蓋盈餘期間兒茶酚胺 / 腎上腺紅質（Adrenochrome）毒性風險、COMT 支持的解毒營養素、缺口期間 AMPK/SIRT1 驅動的清理、表觀基因體保護，以及依情境排序的飲食 / 補給 / 行為建議。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "physiology",
+            "body-composition",
+            "adrenochrome",
+            "comt",
+            "autophagy",
+            "mtorc1",
+            "sirt1",
+            "oxidative-stress"
+          ],
+          "filename": "task_output_physiologist_shred_vs_bulk_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_physiologist_shred_vs_bulk_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_recommendations_03_JULY_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Strategic Research Recommendations — Sirtuin-Centric Longevity & Regenerative Medicine",
+          "description": "Five evidence-grounded research recommendations from network analysis of 1,521 sirtuin interaction triples — SIRT6 allosteric activation, opposing SIRT3 activation / SIRT4 inhibition for fibrosis and hypertrophy, the cytoplasmic SIRT2–TFEB autophagy axis, CD38 inhibition for NAD+ restoration, and SIRT1 derepression via microRNA antagomirs.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "sirtuins",
+            "longevity",
+            "drug-discovery",
+            "nad-plus",
+            "cd38",
+            "research-strategy"
+          ],
+          "filename": "task_output_sirtuins_recommendations_03_JULY_2026.md",
+          "path": "tasks/en-US/task_output_sirtuins_recommendations_03_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "策略研究建議 — 以 Sirtuin 為核心的長壽與再生醫學",
+          "description": "來自 1,521 個 sirtuin 交互三元組網絡分析的五項以證據為基礎的研究建議 — SIRT6 異位活化、SIRT3 活化 / SIRT4 抑制以對抗纖維化與肥大、胞質 SIRT2–TFEB 自噬軸、CD38 抑制以恢復 NAD+、以及經由微 RNA 拮抗寡核苷酸對 SIRT1 去抑制。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "sirtuins",
+            "longevity",
+            "drug-discovery",
+            "nad-plus",
+            "cd38",
+            "research-strategy"
+          ],
+          "filename": "task_output_sirtuins_recommendations_03_JULY_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_recommendations_03_JULY_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cancer Connections of Apoptotic Regulators — Caspases, Bcl-2 Family & Phosphorylation Sites",
+          "description": "HTML table excerpt mapping protease enzymes (caspases) and Bcl-2 family proteins to their phosphorylation sites, responsible kinases/phosphatases, functional outcomes, and cancer connections (loss or amplification), extracted from an NCI/PMC source document.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "apoptosis",
+            "caspases",
+            "bcl-2-family",
+            "cancer",
+            "phosphorylation"
+          ],
+          "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
+          "path": "tasks/en-US/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+        },
+        "zh-TW": {
+          "title": "凋亡調節因子的癌症關聯 — Caspase、Bcl-2 家族與磷酸化位點",
+          "description": "HTML 表格節錄，將蛋白酶（caspase）與 Bcl-2 家族蛋白對應至其磷酸化位點、負責的激酶／磷酸酶、功能結果，以及癌症關聯（缺失或擴增），擷取自 NCI/PMC 來源文件。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "apoptosis",
+            "caspases",
+            "bcl-2-family",
+            "cancer",
+            "phosphorylation"
+          ],
+          "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00_zh-TW.md",
+          "path": "tasks/zh-TW/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_senescent_compounds_normalized",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Normalized Table — Senescence-Inducing Small Compounds by Mechanism of Action",
+          "description": "Normalized compilation of small compounds that induce cellular senescence, grouped by mechanism (DNA replication stress, DNA damage/topoisomerase inhibition, etc.) with cell lines used, senescence markers documented (SA-beta-Gal, gamma-H2A.X, p53-p21/p16-Rb), signaling pathways involved, cell-cycle arrest phase, triggering conditions, and references.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "senescence",
+            "dna-damage",
+            "replication-stress",
+            "topoisomerase-inhibitors",
+            "doxorubicin",
+            "cell-cycle-arrest"
+          ],
+          "filename": "tbl_senescent_compounds_normalized.md",
+          "path": "tasks/en-US/tbl_senescent_compounds_normalized.md"
+        },
+        "zh-TW": {
+          "title": "標準化表格 — 依作用機制分類的衰老誘導小分子化合物",
+          "description": "誘導細胞衰老之小分子化合物的標準化彙編，依作用機制分組（DNA 複製壓力、DNA 損傷／拓撲異構酶抑制等），包含所用細胞株、已記錄的衰老標記（SA-beta-Gal、gamma-H2A.X、p53-p21/p16-Rb）、涉及的訊息傳遞路徑、細胞週期停滯階段、觸發條件與參考文獻。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "senescence",
+            "dna-damage",
+            "replication-stress",
+            "topoisomerase-inhibitors",
+            "doxorubicin",
+            "cell-cycle-arrest"
+          ],
+          "filename": "tbl_senescent_compounds_normalized_zh-TW.md",
+          "path": "tasks/zh-TW/tbl_senescent_compounds_normalized_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:tbl_tfeb_target_mechanisms",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "TFEB Targeting Regulatory Mechanisms Across Disease Models",
+          "description": "Table of TFEB-targeting strategies by regulatory mechanism — gene therapy (AAV/lentiviral TFEB overexpression), transcriptional induction (PGC-1alpha), and PTM modulation via mTORC1/MAPK-ERK/Akt/p38 MAPK phosphorylation and SIRT1 deacetylation — mapped to disease models (Pompe, asthma, cystinosis, stroke, pancreatitis, HD, NAFLD, Alzheimer's, Parkinson's, MI, AKI) with phenotypic improvements and PMIDs.",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "tfeb",
+            "autophagy",
+            "lysosome",
+            "gene-therapy",
+            "phosphorylation",
+            "neurodegeneration"
+          ],
+          "filename": "tbl_tfeb_target_mechanisms.md",
+          "path": "tasks/en-US/tbl_tfeb_target_mechanisms.md"
+        },
+        "zh-TW": {
+          "title": "TFEB 標靶調控機制跨疾病模型",
+          "description": "依調控機制的 TFEB 標靶策略表格 — 基因治療（AAV／慢病毒 TFEB 過度表現）、轉錄誘導（PGC-1alpha），以及透過 mTORC1/MAPK-ERK/Akt/p38 MAPK 磷酸化與 SIRT1 去乙醯化的 PTM 調控 — 對應至疾病模型（龐貝氏症、氣喘、胱胺酸症、中風、胰臟炎、HD、NAFLD、阿茲海默症、帕金森氏症、MI、AKI），並列出表型改善與 PMID。",
+          "created": "2026-07-21",
+          "updated": "2026-07-21",
+          "tags": [
+            "task-output",
+            "tfeb",
+            "autophagy",
+            "lysosome",
+            "gene-therapy",
+            "phosphorylation",
+            "neurodegeneration"
+          ],
+          "filename": "tbl_tfeb_target_mechanisms_zh-TW.md",
+          "path": "tasks/zh-TW/tbl_tfeb_target_mechanisms_zh-TW.md"
         }
       }
     },
@@ -2121,50 +2386,6 @@
           ],
           "filename": "task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026_zh-TW.md",
           "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_sirtuins_trace_17_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome → Sirtuins Counter-Defense Trace — Graph-Derived Mechanistic Map",
-          "description": "Comprehensive trace of how sirtuins counter adrenochrome-driven oxidative stress, extracted from the graphify knowledge graph. Covers the mitohormesis/NAD+ rescue route, the SIRT3-MnSOD-PGC-1α enzymatic defense axis, the apoptosis failure boundary, and the redox-homeostasis convergence node.",
-          "created": "2026-07-17",
-          "updated": "2026-07-17",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "oxidative-stress",
-            "mitohormesis",
-            "nad-plus",
-            "redox-homeostasis",
-            "apoptosis",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
-          "path": "tasks/en-US/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "Adrenochrome → Sirtuins 反防禦追蹤 — 源自圖譜的機制圖譜",
-          "description": "關於 sirtuins 如何對抗 adrenochrome 驅動的氧化壓力的完整追蹤，提取自 graphify 知識圖譜。涵蓋 mitohormesis/NAD+ 救援路線、SIRT3-MnSOD-PGC-1α 酵素防禦軸、凋亡失敗邊界，以及 redox-homeostasis 收斂節點。",
-          "created": "2026-07-17",
-          "updated": "2026-07-17",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "oxidative-stress",
-            "mitohormesis",
-            "nad-plus",
-            "redox-homeostasis",
-            "apoptosis",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_adrenochrome_sirtuins_trace_17_JUL_2026_zh-TW.md"
         }
       }
     },
@@ -2521,116 +2742,6 @@
       }
     },
     {
-      "id": "task:task_output_caspase_01_JUN_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Molecular Mechanisms of Caspase and Bcl-2 Family Regulation",
-          "description": "Research report exploring five critical molecular connections within the apoptotic signaling network, focusing on biochemical mechanisms of caspase and Bcl-2 family regulation in cancer and cell survival.",
-          "created": "2026-07-16",
-          "updated": "2026-07-16",
-          "tags": [
-            "apoptosis",
-            "caspase",
-            "bcl-2-family",
-            "cancer",
-            "phosphorylation",
-            "phosphatase",
-            "cell-death"
-          ],
-          "filename": "task_output_caspase_01_JUN_2026.md",
-          "path": "tasks/en-US/task_output_caspase_01_JUN_2026.md"
-        },
-        "zh-TW": {
-          "title": "Caspase 與 Bcl-2 家族調控的分子機制",
-          "description": "探討凋亡訊號網絡內五個關鍵分子連結的研究報告，聚焦於癌症與細胞存活中 caspase 與 Bcl-2 家族調控的生化機制。",
-          "created": "2026-07-16",
-          "updated": "2026-07-16",
-          "tags": [
-            "apoptosis",
-            "caspase",
-            "bcl-2-family",
-            "cancer",
-            "phosphorylation",
-            "phosphatase",
-            "cell-death"
-          ],
-          "filename": "task_output_caspase_01_JUN_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_caspase_01_JUN_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_ivermectin_cancer_14_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Ivermectin as a Preventative / Cancer Measure — Graphified Findings",
-          "description": "Graph-traced findings on ivermectin's anticancer repositioning — the wiki corpus frames it as a repurposed therapeutic/adjuvant (inhibiting proliferation, metastasis, angiogenesis, and reversing multidrug resistance) rather than a primary preventive measure, with all evidence limited to preclinical models.",
-          "created": "2026-07-15",
-          "updated": "2026-07-15",
-          "tags": [
-            "cancer",
-            "drug-repositioning",
-            "ivermectin",
-            "graphify-query"
-          ],
-          "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ivermectin_cancer_14_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
-          "description": "關於伊維菌素抗癌老藥新用（repositioning）的追蹤發現，取自 wiki 知識圖譜（graphify 查詢 + 節點閱讀）。",
-          "created": "2026-07-15",
-          "updated": "2026-07-15",
-          "tags": [
-            "cancer",
-            "drug-repositioning",
-            "ivermectin",
-            "graphify-query"
-          ],
-          "filename": "task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_ivermectin_cancer_14_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_cr_vs_spermidine_autophagy_15_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
-          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
-          "created": "2026-07-15",
-          "updated": "2026-07-15",
-          "tags": [
-            "autophagy",
-            "caloric-restriction",
-            "spermidine",
-            "rapamycin",
-            "longevity"
-          ],
-          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "热量限制 vs 亚精胺饮食自噬 — 差异与叠加效应",
-          "description": "CR诱导自噬与饮食自噬诱导剂（亚精胺、雷帕霉素）之间的机制差异分析，以及组合策略叠加效应的追踪",
-          "created": "2026-07-15",
-          "updated": "2026-07-15",
-          "tags": [
-            "autophagy",
-            "caloric-restriction",
-            "spermidine",
-            "rapamycin",
-            "longevity"
-          ],
-          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_fisetin_sasp_cxcl12_15_July_2026",
       "kind": "task",
       "langs": {
@@ -2739,38 +2850,6 @@
           ],
           "filename": "task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026_zh-TW.md",
           "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_autophagy_and_cancer_13_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Autophagy During Chemotherapy — Conflicting and Agreeing Views",
-          "description": "Research findings on the dual role of autophagy in cancer chemotherapy, compiled from wiki notes and web literature (2013–2025)",
-          "created": "2026-07-13",
-          "updated": "2026-07-13",
-          "tags": [
-            "autophagy",
-            "cancer",
-            "chemotherapy"
-          ],
-          "filename": "task_output_autophagy_and_cancer_13_JUL_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_and_cancer_13_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "化療期間的自噬 — 衝突與一致的觀點",
-          "description": "關於自噬在癌症化療中雙重角色的研究發現，編纂自 wiki 筆記與網路文獻（2013–2025）",
-          "created": "2026-07-13",
-          "updated": "2026-07-13",
-          "tags": [
-            "autophagy",
-            "cancer",
-            "chemotherapy"
-          ],
-          "filename": "task_output_autophagy_and_cancer_13_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_autophagy_and_cancer_13_JUL_2026_zh-TW.md"
         }
       }
     },
@@ -2947,48 +3026,6 @@
       }
     },
     {
-      "id": "task:task_output_review_notes_epinephrine_sirtuins_06_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins: Mechanistic Connections and Longevity Implications",
-          "description": "notes mapping the biochemical, cellular, and pharmacological connections between epinephrine metabolism, neutrophil/erythrocyte biology, and sirtuin signaling. Focuses on oxidative stress, NAD+ homeostasis, inflammaging, and therapeutic implications for longevity.",
-          "created": "2026-07-06",
-          "updated": "2026-07-06",
-          "tags": [
-            "epinephrine",
-            "sirtuins",
-            "neutrophils",
-            "erythrocytes",
-            "inflammaging",
-            "oxidative-stress",
-            "longevity",
-            "nad"
-          ],
-          "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
-          "path": "tasks/en-US/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "Epinephrine（腎上腺素）↔ Neutrophils（嗜中性球）/ Erythrocytes（紅血球）↔ Sirtuins（去乙醯化酶）：機制連結與長壽意涵",
-          "description": "筆記描繪 epinephrine 代謝、neutrophil / erythrocyte 生物學與 sirtuin 訊號之間的生化、細胞與藥理連結。聚焦於氧化壓力、NAD+ 恆定、發炎性老化（inflammaging）與對長壽的治療意涵。",
-          "created": "2026-07-06",
-          "updated": "2026-07-06",
-          "tags": [
-            "epinephrine",
-            "sirtuins",
-            "neutrophils",
-            "erythrocytes",
-            "inflammaging",
-            "oxidative-stress",
-            "longevity",
-            "nad"
-          ],
-          "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_review_notes_epinephrine_sirtuins_06_July_2026_zh-TW.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026",
       "kind": "task",
       "langs": {
@@ -3027,43 +3064,6 @@
           ],
           "filename": "task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026_zh-TW.md",
           "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_sirtuins_resveratrol",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
-          "created": "2026-07-02",
-          "updated": "2026-07-05",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol",
-            "sirt1",
-            "stacs",
-            "polyphenols"
-          ],
-          "filename": "task_output_sirtuins_resveratrol_en-US.md",
-          "path": "tasks/en-US/task_output_sirtuins_resveratrol_en-US.md"
-        },
-        "zh-TW": {
-          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
-          "created": "2026-07-02",
-          "updated": "2026-07-05",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol"
-          ],
-          "filename": "task_output_sirtuins_resveratrol_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol_zh-TW.md"
         }
       }
     },

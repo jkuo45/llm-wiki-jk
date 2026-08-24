@@ -2,7 +2,7 @@
 title: "抗癌機制：伊維菌素與芬苯達唑 — 協同作用與綜合影響"
 description: 分析伊維菌素與芬苯達唑互補的抗癌機制，聚焦於協同作用、收斂路徑，以及藥物老藥新用中併用治療的依據。
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-22
 tags:
   - cancer
   - drug-repositioning
@@ -13,7 +13,6 @@ tags:
 source: wiki knowledge base (entity notes + ingested review documents)
 author: []
 ---
-
 # 抗癌機制：伊維菌素與芬苯達唑 — 協同作用與綜合影響
 
 根據 wiki 知識庫綜合整理：實體筆記（`Ivermectin.md`、`Fenbendazole.md`、`Benzimidazole.md`、`GLUT1.md`、`Hexokinase 2.md`）與來源回顧文獻（Tang et al. 2020；Nguyen et al. 2024）。所有證據皆屬臨床前階段（細胞株 + 異種移植模型）。兩種化合物作為抗癌藥物皆無臨床試驗。

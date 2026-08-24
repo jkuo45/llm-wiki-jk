@@ -4,7 +4,7 @@ source: Synthesis from vault knowledge base and primary literature
 author:
   - Research Scientist Agent
 published: 2026-07-06
-created: 2026-07-06
+created: 2026-07-21
 description: 筆記描繪 epinephrine 代謝、neutrophil / erythrocyte 生物學與 sirtuin 訊號之間的生化、細胞與藥理連結。聚焦於氧化壓力、NAD+ 恆定、發炎性老化（inflammaging）與對長壽的治療意涵。
 tags:
   - epinephrine
@@ -15,9 +15,8 @@ tags:
   - oxidative-stress
   - longevity
   - nad
-updated: 2026-07-06
+updated: 2026-08-09
 ---
-
 # Epinephrine（腎上腺素）↔ Neutrophils（嗜中性球）/ Erythrocytes（紅血球）↔ Sirtuins（去乙醯化酶）
 
 ## 核心論點

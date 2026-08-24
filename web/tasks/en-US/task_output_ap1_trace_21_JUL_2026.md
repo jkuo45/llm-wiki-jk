@@ -3,7 +3,7 @@ title: 'Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph
 description: 'Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.'
 tags: [graph-trace, ap-1, senescence, sasp, nrf2, autophagy, neuroinflammation, transcription-factor, aging]
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 # Graph Trace: AP-1 as a Cross-Community Bridge

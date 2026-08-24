@@ -1,8 +1,8 @@
 ---
 title: AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)
 description: AlphaFold-derived pLDDT confidence and PAE domain-boundary analysis for nine NAD+ metabolism proteins — CD38, BST1, SARM1, NAMPT, NT5E (CD73), SIRT1, SIRT3, SIRT6, and PARP1 — assessing structural reliability for downstream modeling of NAD+-boosting intervention targets.
-created: 2026-06-26
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: AlphaFold DB predicted structures (UniProt accessions P28907, Q10588, Q8WXF7 et al.) via pLDDT/PAE metric extraction
 tags:
   - task-output

@@ -2,7 +2,7 @@
 title: 伊維菌素、山中因子與老化 — graphify 探索
 description: 多部分探索伊維菌素與老化生物學的交會——山中因子、mTOR/TFEB 自噬、STAT3/NF-κB 發炎老化、SASP/衰老修飾（senomorphic）重疊，以及促長壽 vs. 抗回春機制的核心悖論
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-22
 tags:
   - task-output
   - ivermectin
@@ -20,7 +20,6 @@ tags:
   - fenbendazole
 source: graphify query on graphify-out/graph.json
 ---
-
 # 伊維菌素、山中因子與老化 — 透過知識圖譜的探索
 
 **方法：** 在 `graphify-out/graph.json`（預建圖譜）上執行 `graphify query`，再 grounding 於 wiki 筆記。經由 wiki 全域搜尋 STAT3、NF-κB、mTOR 與老化路徑連結來擴展。**日期：** 2026 年 7 月 28 日

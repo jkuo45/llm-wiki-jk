@@ -2,7 +2,7 @@
 title: Molecular Mechanisms of Caspase and Bcl-2 Family Regulation
 description: Research report exploring five critical molecular connections within the apoptotic signaling network, focusing on biochemical mechanisms of caspase and Bcl-2 family regulation in cancer and cell survival.
 published: 2026-06-01
-created: 2026-07-16
+created: 2026-07-21
 source: tasks/task_output_caspase_01_JUN_2026.md
 author: []
 tags:
@@ -13,7 +13,7 @@ tags:
   - phosphorylation
   - phosphatase
   - cell-death
-updated: 2026-07-16
+updated: 2026-08-22
 ---
 
 # Research Report: Molecular Mechanisms of Caspase and Bcl-2 Family Regulation

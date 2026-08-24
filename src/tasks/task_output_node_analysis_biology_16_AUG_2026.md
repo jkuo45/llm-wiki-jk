@@ -2,7 +2,7 @@
 title: Node-Level Network Analysis for Biological Prioritization
 description: Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.
 created: 2026-08-16
-updated: 2026-08-23
+updated: 2026-08-22
 source: graphify-out/graph.json node metrics + scripts/04_node_analysis.py + scripts/03_rebuild_from_triples.py
 tags:
   - task-output

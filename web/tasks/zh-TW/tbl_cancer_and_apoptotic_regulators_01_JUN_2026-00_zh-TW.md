@@ -2,8 +2,8 @@
 title: 凋亡調節因子的癌症關聯 — Caspase、Bcl-2 家族與磷酸化位點
 description: HTML 表格節錄，將蛋白酶（caspase）與 Bcl-2 家族蛋白對應至其磷酸化位點、負責的激酶／磷酸酶、功能結果，以及癌症關聯（缺失或擴增），擷取自 NCI/PMC 來源文件。
 published: 2026-06-01
-created: 2026-06-01
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: PMC article table export (cancer and apoptotic regulators)
 tags:
   - task-output
@@ -14,7 +14,6 @@ tags:
   - phosphorylation
 author: []
 ---
-
 <table class="content" frame="box" rules="all">
   <thead>
     <tr>

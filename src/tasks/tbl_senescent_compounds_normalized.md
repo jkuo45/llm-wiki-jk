@@ -1,8 +1,8 @@
 ---
 title: Normalized Table — Senescence-Inducing Small Compounds by Mechanism of Action
 description: Normalized compilation of small compounds that induce cellular senescence, grouped by mechanism (DNA replication stress, DNA damage/topoisomerase inhibition, etc.) with cell lines used, senescence markers documented (SA-beta-Gal, gamma-H2A.X, p53-p21/p16-Rb), signaling pathways involved, cell-cycle arrest phase, triggering conditions, and references.
-created: 2026-08-23
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: normalized from multiple senescence review documents (Marusyk 2007, Maya-Mendoza 2014, Chang 1999, Elmore 2002 et al.)
 tags:
   - task-output

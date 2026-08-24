@@ -1,8 +1,8 @@
 ---
 title: Autophagy in Companion Mammals (Dogs/Cats) and Longevity
 description: Research synthesis of autophagy–aging biology in domesticated dogs and cats, translational interventions, TRIAD trial context, evidence gaps, and proposed experimental roadmap
-created: 2026-07-22
-updated: 2026-07-22
+created: 2026-07-23
+updated: 2026-08-22
 source: Wiki notes (autophagy/) + PubMed companion-animal literature + research-scientist synthesis
 tags:
   - autophagy
