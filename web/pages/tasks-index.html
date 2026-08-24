@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Task Outputs — Index</title>
-<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by how recently they were modified.">
+<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by when they were created.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
 <script src="themes/theme-02/theme.js"></script>
@@ -93,14 +93,14 @@
     if (days < 365) return Math.floor(days / 30) + 'mo';
     return (days / 365).toFixed(1) + 'y';
   }
-  function bucket(updated){
-    if (!updated) return 2;
-    const days = (Date.now() - new Date(updated).getTime()) / 864e5;
+  function bucket(created){
+    if (!created) return 2;
+    const days = (Date.now() - new Date(created).getTime()) / 864e5;
     return days <= 7 ? 0 : days <= 30 ? 1 : 2;
   }
   const BUCKETS = [
-    ['Updated this week', '本週更新', 'fresh'],
-    ['Updated this month', '本月更新', 'recent'],
+    ['Created this week', '本週建立', 'fresh'],
+    ['Created this month', '本月建立', 'recent'],
     ['Older', '較早', 'old'],
   ];
 
@@ -112,7 +112,7 @@
         .map(t => {
           const en = t.langs['en-US'];
           const zh = t.langs['zh-TW'];
-          const updated = en.updated || zh?.updated || '';
+          const created = en.created || zh?.created || '';
           return {
             id: t.id,
             display: en.title,
@@ -122,12 +122,12 @@
             file: en.filename || decodeURIComponent((en.path || '').split('/').pop()),
             zhPath: zh ? zh.path : en.path,
             zhTitle: zh ? zh.title : '',
-            updated,
-            age: relAge(updated),
-            bucket: bucket(updated),
+            created,
+            age: relAge(created),
+            bucket: bucket(created),
           };
         })
-        .sort((x, y) => (y.starred - x.starred) || y.updated.localeCompare(x.updated));
+        .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
 
       const viewerHref = (path) =>
         'task-viewer.html?src=' + encodeURIComponent('../' + path);
@@ -144,7 +144,7 @@
             ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${esc(t.zhTitle)}</a></p>` : ''}
             ${t.desc ? `<p class="task-desc">${esc(t.desc)}</p>` : ''}
             <p class="task-meta"><code>${esc(t.file)}</code></p>
-            <p class="task-meta"><span class="${cls}">${t.age === 'today' ? 'updated today' : `updated ${esc(t.age)} ago`} (${esc(t.updated)})</span></p>
+            <p class="task-meta"><span class="${cls}">${t.age === 'today' ? 'created today' : `created ${esc(t.age)} ago`} (${esc(t.created)})</span></p>
           </li>`).join('');
         html += '</ul>';
       });
