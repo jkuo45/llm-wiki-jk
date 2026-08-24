@@ -38,39 +38,81 @@ async function getJSON(name, logName) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Critical path vs deferred load
+//
+// First paint needs: nodes, edges, legend, graph metadata, translations,
+// i18n coverage, traces, article/task registries, and predicates. The full
+// graph.json (9.5 MB) is NOT loaded — its node array merely duplicated the
+// descriptions already present in nodes.json, and only its small `metadata`
+// block was consumed (now split into graph-meta.json, ~25 KB).
+//
+// MANIFEST (~0.5 MB) is deferred: it is only used to resolve GitHub source
+// URLs at runtime (hover/click tooltips), so its lookup maps are built
+// lazily on first use once the background fetch completes.
+// ---------------------------------------------------------------------------
 async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, TASKS, PREDICATES, I18N_COVERAGE] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, I18N_COVERAGE, TRACES, ARTICLES, TASKS, PREDICATES] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
-    getJSON('graph.json', 'graph'),
-    getJSON('manifest.json', 'manifest'),
-    getJSON('query.json', 'traces'),
+    getJSON('graph-meta.json', 'graph-meta'),
     getJSON('translations-zh-TW.json', 'translations'),
+    getJSON('i18n-coverage.json', 'i18n-coverage'),
+    getJSON('query.json', 'traces'),
     getJSON('articles.json', 'articles'),
     getJSON('tasks.json', 'tasks'),
     getJSON('predicates-zh-TW.json', 'predicates'),
-    getJSON('i18n-coverage.json', 'i18n-coverage'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
     RAW_EDGES: RAW_EDGES || [],
     LEGEND: LEGEND || [],
-    graphData: graphData || {},
-    MANIFEST: MANIFEST || {},
-    TRACES: TRACES || [],
+    GRAPH_META: GRAPH_META || {},
     TRANSLATIONS: TRANSLATIONS || {},
+    I18N_COVERAGE: I18N_COVERAGE || {},
+    TRACES: TRACES || [],
     ARTICLES: ARTICLES || [],
     TASKS: (TASKS && TASKS.tasks) || [],
     PREDICATES: PREDICATES || {},
-    I18N_COVERAGE: I18N_COVERAGE || {},
   };
 }
 
-export const { RAW_NODES, RAW_EDGES, LEGEND, graphData, MANIFEST, TRACES, TRANSLATIONS, ARTICLES, TASKS, PREDICATES, I18N_COVERAGE } = await loadAllData();
+// Live bindings: importers see reassigned values because they reference the
+// exported name directly (no destructuring-into-const at their top level).
+export let RAW_NODES = [];
+export let RAW_EDGES = [];
+export let LEGEND = [];
+export let GRAPH_META = {};
+export let MANIFEST = {};
+export let TRACES = [];
+export let TRANSLATIONS = {};
+export let ARTICLES = [];
+export let TASKS = [];
+export let PREDICATES = {};
+export let I18N_COVERAGE = {};
+
+const loaded = await loadAllData();
+RAW_NODES = loaded.RAW_NODES;
+RAW_EDGES = loaded.RAW_EDGES;
+LEGEND = loaded.LEGEND;
+GRAPH_META = loaded.GRAPH_META;
+TRANSLATIONS = loaded.TRANSLATIONS;
+I18N_COVERAGE = loaded.I18N_COVERAGE;
+TRACES = loaded.TRACES;
+ARTICLES = loaded.ARTICLES;
+TASKS = loaded.TASKS;
+PREDICATES = loaded.PREDICATES;
+
+// Fetch the heavier manifest in the background — it is not needed for first
+// paint, only for source-link resolution at runtime.
+loadCacheTag().then(() => {
+  const q = CACHE_HASH ? ('?v=' + CACHE_HASH) : ('?v=' + Date.now());
+  return fetch(DATA_BASE + 'manifest.json' + q);
+}).then(r => r.ok ? r.json() : null).then(m => { if (m) MANIFEST = m; }).catch(() => {});
 
 // ------------------------------------------------------------
 // Lazy analysis artifacts — fetched on first Graph-mode open rather
@@ -94,44 +136,31 @@ export async function loadLinkPrediction() {
   return LINK_PREDICTION;
 }
 
+// ------------------------------------------------------------
+// Derived lookup structures (built from RAW_NODES / RAW_EDGES so the
+// 9.5 MB graph.json is no longer required for descriptions).
+// ------------------------------------------------------------
 export const nodeMap = new Map();
 RAW_NODES.forEach(n => nodeMap.set(n.id, n));
 
 export const descriptionMap = new Map();
-(graphData.nodes || []).forEach(n => {
-  if (n.description) descriptionMap.set(n.id, n.description);
-});
-
-// zh-TW entity descriptions, keyed like the EN maps. The rebuild emits
-// description_zh_TW on every graph.json node (falls back to en-US when a
-// triple is untranslated), so coverage mirrors the EN maps.
 export const descriptionZhMap = new Map();
-(graphData.nodes || []).forEach(n => {
-  if (n.description_zh_TW && n.description_zh_TW !== n.description) {
-    descriptionZhMap.set(n.id, n.description_zh_TW);
-  }
-});
-
-// Entity summaries keyed by node label (exact + lowercase) — used for prompt
-// [[Entity]] tooltips/wiki links instead of the retired wiki-context.json.
-// Every graph.json node carries a description synthesized from triple
-// contexts, so coverage is complete.
 export const descByLabel = new Map();
-(graphData.nodes || []).forEach(n => {
-  if (!n.description) return;
-  if (!descByLabel.has(n.label)) descByLabel.set(n.label, n.description);
-  const lower = n.label.toLowerCase();
-  if (!descByLabel.has(lower)) descByLabel.set(lower, n.description);
-});
-
-// zh-TW variant of descByLabel (only set when a real translation exists).
 export const descByLabelZh = new Map();
-(graphData.nodes || []).forEach(n => {
+RAW_NODES.forEach(n => {
+  if (n.description) {
+    descriptionMap.set(n.id, n.description);
+    if (!descByLabel.has(n.label)) descByLabel.set(n.label, n.description);
+    const lower = n.label.toLowerCase();
+    if (!descByLabel.has(lower)) descByLabel.set(lower, n.description);
+  }
   const zh = n.description_zh_TW;
-  if (!zh || zh === n.description) return;
-  if (!descByLabelZh.has(n.label)) descByLabelZh.set(n.label, zh);
-  const lower = n.label.toLowerCase();
-  if (!descByLabelZh.has(lower)) descByLabelZh.set(lower, zh);
+  if (zh && zh !== n.description) {
+    descriptionZhMap.set(n.id, zh);
+    if (!descByLabelZh.has(n.label)) descByLabelZh.set(n.label, zh);
+    const lower = n.label.toLowerCase();
+    if (!descByLabelZh.has(lower)) descByLabelZh.set(lower, zh);
+  }
 });
 
 // Localize a relationship predicate for display in the zh UI. Falls back to
@@ -150,33 +179,36 @@ RAW_EDGES.forEach(e => {
   adjacency.get(e.to).push({ target: e.from, edge: e });
 });
 
-const fileToPath = new Map();
-Object.keys(MANIFEST).forEach(p => {
-  if (p.endsWith('.md')) {
-    fileToPath.set(p.split('/').pop(), p);
-  }
-});
-
 // Case-insensitive basename -> exact manifest path, so note links survive
-// label/file-name case differences.
+// label/file-name case differences. Built lazily once MANIFEST has loaded.
+let _manifestMapsBuilt = false;
+const fileToPath = new Map();
 const fileToPathLower = new Map();
-Object.keys(MANIFEST).forEach(p => {
-  if (p.endsWith('.md')) {
-    const base = p.split('/').pop();
-    const lower = base.toLowerCase();
-    if (!fileToPathLower.has(lower)) fileToPathLower.set(lower, p);
-  }
-});
+function ensureManifestMaps() {
+  if (_manifestMapsBuilt || !MANIFEST) return;
+  Object.keys(MANIFEST).forEach(p => {
+    if (p.endsWith('.md')) fileToPath.set(p.split('/').pop(), p);
+  });
+  Object.keys(MANIFEST).forEach(p => {
+    if (p.endsWith('.md')) {
+      const base = p.split('/').pop();
+      const lower = base.toLowerCase();
+      if (!fileToPathLower.has(lower)) fileToPathLower.set(lower, p);
+    }
+  });
+  _manifestMapsBuilt = true;
+}
 
 export function githubSourceUrl(sourceFile) {
+  ensureManifestMaps();
   const fullPath = fileToPath.get(sourceFile);
   return GITHUB_BASE + (fullPath ? 'src/' + fullPath : sourceFile);
 }
 
 // GitHub URL of the wiki note for a node label, when a matching note file
-// exists in the manifest ('' otherwise). Replaces the wiki_url field of the
-// retired wiki-context.json.
+// exists in the manifest ('' otherwise).
 export function noteUrl(label) {
+  ensureManifestMaps();
   const p = fileToPath.get(label + '.md') || fileToPathLower.get((label + '.md').toLowerCase());
   return p ? GITHUB_BASE + 'src/' + p : '';
 }

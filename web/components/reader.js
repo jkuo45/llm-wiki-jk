@@ -276,11 +276,11 @@ export function isReaderOpen() {
 // section is persisted in the hash (`&section=<id>`) and restored
 // on reload / back navigation.
 // ------------------------------------------------------------
-const SECTION_POLL_MS = 150;
-let sectionTimer = null;
+let scrollRaf = null;
+let trackingDoc = null;
 
 function pollActiveSection() {
-  const doc = frame.contentDocument;
+  const doc = trackingDoc;
   if (!doc || !isReaderOpen()) return;
   const sections = Array.from(doc.querySelectorAll('section[id]'));
   if (!sections.length) return;
@@ -298,16 +298,33 @@ function pollActiveSection() {
   }
 }
 
+function onScroll() {
+  if (scrollRaf !== null) return;
+  scrollRaf = requestAnimationFrame(() => {
+    scrollRaf = null;
+    pollActiveSection();
+  });
+}
+
 function startSectionTracking() {
   stopSectionTracking();
-  sectionTimer = setInterval(pollActiveSection, SECTION_POLL_MS);
+  try {
+    trackingDoc = frame.contentDocument;
+    frame.contentWindow.addEventListener('scroll', onScroll, { passive: true });
+  } catch (e) {
+    /* cross-origin or inaccessible document */
+  }
 }
 
 function stopSectionTracking() {
-  if (sectionTimer) {
-    clearInterval(sectionTimer);
-    sectionTimer = null;
+  if (trackingDoc && frame.contentWindow) {
+    frame.contentWindow.removeEventListener('scroll', onScroll);
   }
+  if (scrollRaf !== null) {
+    cancelAnimationFrame(scrollRaf);
+    scrollRaf = null;
+  }
+  trackingDoc = null;
 }
 
 /* In-frame article links announce themselves via postMessage so the

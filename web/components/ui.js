@@ -10,7 +10,7 @@ import {
 } from './data.js';
 import { state } from './state.js';
 import {
-  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeGroup, labelObjects,
+  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeSegments, labelObjects,
   edgeOffColor, setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
@@ -605,8 +605,7 @@ export function highlightTraceNodes(trace) {
 
   applyNodeState(traceIds, 1, 0.5, 0.08, 0.05);
 
-  applyEdgeState(line => {
-    const { edge } = line.userData;
+  applyEdgeState(edge => {
     const key = `${edge.from}::${edge.to}`;
     return traceEdges.has(key);
   }, 0x4E79A7, 0.8, edgeOffColor(), 0.02);
@@ -646,8 +645,7 @@ export function activateRoute(trace, routeIdx) {
     routePairs.add(`${route.path[i]}::${route.path[i + 1]}`);
     routePairs.add(`${route.path[i + 1]}::${route.path[i]}`);
   }
-  applyEdgeState(line => {
-    const { edge } = line.userData;
+  applyEdgeState(edge => {
     return routePairs.has(`${edge.from}::${edge.to}`);
   }, 0x7cb3d4, 1, edgeOffColor(), 0.02);
 
@@ -884,8 +882,8 @@ document.getElementById('btn-labels').addEventListener('click', (e) => {
 });
 
 document.getElementById('btn-edges').addEventListener('click', (e) => {
-  edgeGroup.visible = !edgeGroup.visible;
-  e.target.classList.toggle('active', edgeGroup.visible);
+  edgeSegments.visible = !edgeSegments.visible;
+  e.target.classList.toggle('active', edgeSegments.visible);
 });
 
 // Initialize button active states

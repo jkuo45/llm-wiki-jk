@@ -1,11 +1,11 @@
 // Entry module: wires everything together, drives the render loop, handles
 // resize, dataset panel, and URL-hash restore.
 
-import { RAW_NODES, RAW_EDGES, LEGEND, TRACES, graphData, nodeMap, I18N_COVERAGE } from './data.js';
+import { RAW_NODES, RAW_EDGES, LEGEND, TRACES, GRAPH_META, nodeMap, I18N_COVERAGE } from './data.js';
 import { state } from './state.js';
 import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
-  applyForces, updateStickyRings, updateZoomBar,
+  applyForces, updateStickyRings, updateZoomBar, renderState,
 } from './core.js';
 import { parseHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.js';
@@ -37,8 +37,8 @@ const communityCountMap = new Map(LEGEND.map(c => [c.cid, c.count]));
 // Curated top-10 from the build (graphify.analyze.god_nodes — noise-filtered,
 // recomputed every rebuild). Falls back to the naive degree ranking above
 // when absent.
-const curatedGods = graphData.metadata && Array.isArray(graphData.metadata.god_nodes)
-  ? graphData.metadata.god_nodes
+const curatedGods = GRAPH_META && Array.isArray(GRAPH_META.god_nodes)
+  ? GRAPH_META.god_nodes
   : godNodes.map(n => ({ id: n.id, label: n.label, degree: n.degree }));
 // i18n coverage counters emitted by the rebuild (i18n-coverage.json).
 const i18nTotal = I18N_COVERAGE.triples_total || RAW_EDGES.length;
@@ -260,23 +260,43 @@ window.addEventListener('hashchange', () => restoreFromHashEvent(parseHash()));
 document.getElementById('loading').classList.add('hidden');
 
 // ------------------------------------------------------------
-// Animation loop
+// Animation loop (on-demand: only draws when dirty / damping / physics)
 // ------------------------------------------------------------
+let renderPaused = false;
+
 function animate() {
+  if (renderPaused) return;
   requestAnimationFrame(animate);
 
   if (state.physicsEnabled) {
     applyForces();
+    renderState.dirty = true;
   }
 
   updateStickyRings();
-  controls.update();
+  const controlsChanged = controls.update();
   updateZoomBar();
-  renderer.render(scene, camera);
-  labelRenderer.render(scene, camera);
+
+  if (renderState.dirty || controlsChanged) {
+    renderer.render(scene, camera);
+    labelRenderer.render(scene, camera);
+    renderState.dirty = false;
+  }
 }
 
 animate();
+
+// Pause the entire rAF loop when the tab is hidden (saves CPU/GPU/battery);
+// resume and force one redraw when it becomes visible again.
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    renderPaused = true;
+  } else if (renderPaused) {
+    renderPaused = false;
+    renderState.dirty = true;
+    animate();
+  }
+});
 
 // ------------------------------------------------------------
 // Resize handler

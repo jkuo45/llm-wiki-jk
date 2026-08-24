@@ -10,6 +10,12 @@ import { RAW_NODES, RAW_EDGES, LEGEND, TRANSLATIONS, nodeMap, adjacency } from '
 import { state, stickyNodes, velocities } from './state.js';
 import { esc } from './markdown.js';
 
+// On-demand rendering: the render loop only draws when something changed
+// (dirty flag, damping controls, or active physics) so the GPU/CPU is not
+// burned 60×/sec while the scene is idle.
+export const renderState = { dirty: true };
+export function requestRender() { renderState.dirty = true; }
+
 // ------------------------------------------------------------
 // Theme-driven 3D colors. The site defaults to light (matching the reader /
 // article pages); theme.js calls applyGraphTheme() at startup and on toggle
@@ -37,11 +43,10 @@ export function applyGraphTheme(light) {
   const newOff = edgeOffColor();
   // Only reset edges currently at the previous off color; highlighted/selected
   // edges keep their accent color across the switch.
-  edgeObjects.forEach(line => {
-    if (line.material.color.getHex() === oldOff) {
-      line.material.color.set(newOff);
-    }
-  });
+  for (let i = 0; i < edgeList.length; i++) {
+    if (edgeHex[i] === oldOff) setEdgeVisual(edgeList[i].edge, newOff, edgeAlphaVal[i]);
+  }
+  requestRender();
 }
 
 // ------------------------------------------------------------
@@ -57,7 +62,7 @@ camera.position.set(-120, 0, 500);
 
 export const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(container.clientWidth, container.clientHeight);
-renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
 container.appendChild(renderer.domElement);
 
 export const labelRenderer = new CSS2DRenderer();
@@ -77,6 +82,7 @@ controls.dampingFactor = 0.05;
 controls.minDistance = 50;
 controls.maxDistance = 2000;
 controls.zoomSpeed = 1.2;
+controls.addEventListener('change', requestRender);
 
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
 scene.add(ambientLight);
@@ -144,29 +150,129 @@ RAW_NODES.forEach(n => {
 });
 
 // ------------------------------------------------------------
-// Edge objects
+// Edge objects — merged into a single THREE.LineSegments so all edges
+// render in ONE draw call (was one THREE.Line per edge = thousands of
+// draw calls). Per-edge visual state (color + alpha + filter) is stored in
+// typed arrays and pushed to vertex attributes on change.
 // ------------------------------------------------------------
-export const edgeObjects = [];
-export const edgeGroup = new THREE.Group();
-scene.add(edgeGroup);
+export const EDGE_ACCENT = 0x4E79A7;
+export const edgeList = [];            // [{ edge, fromMesh, toMesh }] indexed by segment
+export let edgeSegments = null;        // THREE.LineSegments (raycast target)
+const edgeToIndex = new Map();         // edge object -> segment index
+const edgeBaseAlpha = [];              // resting alpha per edge
+const edgeHex = [];                    // last-set color hex per edge (theme restore)
+const edgeAlphaVal = [];               // last-set alpha per edge
+const edgeFiltered = [];               // 1 = hidden by prompt node filter
+export let edgePositions, edgePosAttr;
+let edgeColors, edgeAlphas, edgeColorAttr, edgeAlphaAttr;
+const _edgeColor = new THREE.Color();
+
+function writeEdge(i) {
+  const p = i * 6;
+  const hidden = edgeFiltered[i];
+  _edgeColor.set(edgeHex[i]);
+  for (let k = 0; k < 2; k++) {
+    const o = p + k * 3;
+    edgeColors[o] = _edgeColor.r;
+    edgeColors[o + 1] = _edgeColor.g;
+    edgeColors[o + 2] = _edgeColor.b;
+  }
+  const a = hidden ? 0 : edgeAlphaVal[i];
+  edgeAlphas[i * 2] = a;
+  edgeAlphas[i * 2 + 1] = a;
+}
+
+export function setEdgeVisual(edge, hex, alpha) {
+  const i = edgeToIndex.get(edge);
+  if (i == null) return;
+  edgeHex[i] = hex;
+  edgeAlphaVal[i] = alpha;
+  writeEdge(i);
+  edgeColorAttr.needsUpdate = true;
+  edgeAlphaAttr.needsUpdate = true;
+  requestRender();
+}
+
+export function setEdgeFilter(edge, hidden) {
+  const i = edgeToIndex.get(edge);
+  if (i == null) return;
+  edgeFiltered[i] = hidden ? 1 : 0;
+  writeEdge(i);
+  edgeColorAttr.needsUpdate = true;
+  edgeAlphaAttr.needsUpdate = true;
+  requestRender();
+}
 
 RAW_EDGES.forEach(e => {
   const fromMesh = nodeObjects.get(e.from);
   const toMesh = nodeObjects.get(e.to);
   if (!fromMesh || !toMesh) return;
-
-  const geometry = new THREE.BufferGeometry().setFromPoints([fromMesh.position.clone(), toMesh.position.clone()]);
-  const material = new THREE.LineBasicMaterial({
-    color: EDGE_OFF_DARK,
-    transparent: true,
-    opacity: e.color.opacity * 0.6,
-    linewidth: 1,
-  });
-  const line = new THREE.Line(geometry, material);
-  line.userData = { edge: e, fromMesh, toMesh };
-  edgeGroup.add(line);
-  edgeObjects.push(line);
+  edgeList.push({ edge: e, fromMesh, toMesh });
 });
+
+const E = edgeList.length;
+edgePositions = new Float32Array(E * 6);
+edgeColors = new Float32Array(E * 6);
+edgeAlphas = new Float32Array(E * 2);
+const off = edgeOffColor();
+for (let i = 0; i < E; i++) {
+  const { fromMesh, toMesh, edge } = edgeList[i];
+  const p = i * 6;
+  edgePositions[p] = fromMesh.position.x;
+  edgePositions[p + 1] = fromMesh.position.y;
+  edgePositions[p + 2] = fromMesh.position.z;
+  edgePositions[p + 3] = toMesh.position.x;
+  edgePositions[p + 4] = toMesh.position.y;
+  edgePositions[p + 5] = toMesh.position.z;
+  const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
+  edgeBaseAlpha[i] = ba;
+  edgeHex[i] = off;
+  edgeAlphaVal[i] = ba;
+  edgeFiltered[i] = 0;
+  _edgeColor.set(off);
+  for (let k = 0; k < 2; k++) {
+    const o = p + k * 3;
+    edgeColors[o] = _edgeColor.r;
+    edgeColors[o + 1] = _edgeColor.g;
+    edgeColors[o + 2] = _edgeColor.b;
+  }
+  edgeAlphas[i * 2] = ba;
+  edgeAlphas[i * 2 + 1] = ba;
+  edgeToIndex.set(edge, i);
+}
+
+const edgeGeometry = new THREE.BufferGeometry();
+edgePosAttr = new THREE.BufferAttribute(edgePositions, 3);
+edgeColorAttr = new THREE.BufferAttribute(edgeColors, 3);
+edgeAlphaAttr = new THREE.BufferAttribute(edgeAlphas, 1);
+edgeGeometry.setAttribute('position', edgePosAttr);
+edgeGeometry.setAttribute('aColor', edgeColorAttr);
+edgeGeometry.setAttribute('aAlpha', edgeAlphaAttr);
+const edgeMaterial = new THREE.ShaderMaterial({
+  transparent: true,
+  depthWrite: false,
+  vertexShader: [
+    'attribute vec3 aColor;',
+    'attribute float aAlpha;',
+    'varying vec3 vColor;',
+    'varying float vAlpha;',
+    'void main() {',
+    '  vColor = aColor;',
+    '  vAlpha = aAlpha;',
+    '  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);',
+    '}',
+  ].join('\n'),
+  fragmentShader: [
+    'varying vec3 vColor;',
+    'varying float vAlpha;',
+    'void main() {',
+    '  gl_FragColor = vec4(vColor, vAlpha);',
+    '}',
+  ].join('\n'),
+});
+edgeSegments = new THREE.LineSegments(edgeGeometry, edgeMaterial);
+edgeSegments.frustumCulled = false;
+scene.add(edgeSegments);
 
 // ------------------------------------------------------------
 // Labels (only for high-degree nodes initially). Event handlers
@@ -266,8 +372,7 @@ export function applyForces() {
   }
 
   // Attraction along edges
-  edgeObjects.forEach(line => {
-    const { fromMesh, toMesh, edge } = line.userData;
+  edgeList.forEach(({ fromMesh, toMesh, edge }) => {
     const fromSticky = stickyNodes.has(edge.from);
     const toSticky = stickyNodes.has(edge.to);
     if (fromSticky && toSticky) return;
@@ -329,18 +434,23 @@ export function applyForces() {
   });
 
   // Update edge positions
-  edgeObjects.forEach(line => {
-    const { fromMesh, toMesh } = line.userData;
-    const positions = line.geometry.attributes.position;
-    positions.setXYZ(0, fromMesh.position.x, fromMesh.position.y, fromMesh.position.z);
-    positions.setXYZ(1, toMesh.position.x, toMesh.position.y, toMesh.position.z);
-    positions.needsUpdate = true;
-  });
+  for (let i = 0; i < edgeList.length; i++) {
+    const { fromMesh, toMesh } = edgeList[i];
+    const p = i * 6;
+    edgePositions[p] = fromMesh.position.x;
+    edgePositions[p + 1] = fromMesh.position.y;
+    edgePositions[p + 2] = fromMesh.position.z;
+    edgePositions[p + 3] = toMesh.position.x;
+    edgePositions[p + 4] = toMesh.position.y;
+    edgePositions[p + 5] = toMesh.position.z;
+  }
+  edgePosAttr.needsUpdate = true;
 
   // Update edge label position if hovering an edge
   if (state.hoveredEdge && edgeLabel.visible) {
-    const { fromMesh, toMesh } = state.hoveredEdge.userData;
-    edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
+    const fromMesh = nodeObjects.get(state.hoveredEdge.from);
+    const toMesh = nodeObjects.get(state.hoveredEdge.to);
+    if (fromMesh && toMesh) edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
   }
 
   physicsIterations++;
@@ -365,6 +475,7 @@ export function addStickyRing(mesh) {
   ring.lookAt(camera.position);
   scene.add(ring);
   stickyRings.set(mesh.userData.nodeId, ring);
+  requestRender();
 }
 
 export function removeStickyRing(nodeId) {
@@ -372,6 +483,7 @@ export function removeStickyRing(nodeId) {
   if (ring) {
     scene.remove(ring);
     stickyRings.delete(nodeId);
+    requestRender();
   }
 }
 
@@ -393,6 +505,7 @@ export function setLabelVisibility(visibleIds) {
     const mesh = nodeObjects.get(id);
     label.visible = visibleIds.has(id) && mesh && mesh.visible && state.showLabels;
   });
+  requestRender();
 }
 
 export function setAllLabelVisibility() {
@@ -401,6 +514,7 @@ export function setAllLabelVisibility() {
     const mesh = nodeObjects.get(id);
     label.visible = state.showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
   });
+  requestRender();
 }
 
 export function restoreDefaultLabels() {
@@ -416,6 +530,7 @@ export function showHoverLabels(nodeId) {
   const neighborIds = new Set(neighbors.map(n => n.target));
   neighborIds.add(nodeId);
   setLabelVisibility(neighborIds);
+  requestRender();
 }
 
 export function restoreSelectedLabels() {
@@ -427,6 +542,7 @@ export function restoreSelectedLabels() {
   const neighborIds = new Set(neighbors.map(n => n.target));
   neighborIds.add(state.selectedNode);
   setLabelVisibility(neighborIds);
+  requestRender();
 }
 
 // ------------------------------------------------------------
@@ -438,14 +554,15 @@ export function applyNodeState(onSet, onOpacity, onEmissive, offOpacity, offEmis
     m.material.opacity = on ? onOpacity : offOpacity;
     m.material.emissiveIntensity = on ? onEmissive : offEmissive;
   });
+  requestRender();
 }
 
 export function applyEdgeState(isOn, onColor, onOpacity, offColor, offOpacity) {
-  edgeObjects.forEach(line => {
-    const on = isOn(line);
-    line.material.color.set(on ? onColor : offColor);
-    line.material.opacity = on ? onOpacity : offOpacity;
+  edgeList.forEach(({ edge }) => {
+    const on = isOn(edge);
+    setEdgeVisual(edge, on ? onColor : offColor, on ? onOpacity : offOpacity);
   });
+  requestRender();
 }
 
 export function resetVisualState() {
@@ -453,11 +570,12 @@ export function resetVisualState() {
     m.material.emissiveIntensity = 0.15;
     m.material.opacity = 0.92;
   });
-  edgeObjects.forEach(line => {
-    line.material.opacity = line.userData.edge.color.opacity * 0.6;
-    line.material.color.set(edgeOffColor());
+  edgeList.forEach(({ edge }) => {
+    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
+    setEdgeVisual(edge, edgeOffColor(), ba);
   });
   restoreDefaultLabels();
+  requestRender();
 }
 
 // ------------------------------------------------------------

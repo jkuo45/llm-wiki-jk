@@ -4,8 +4,10 @@
 import * as THREE from 'three';
 
 import {
-  container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeObjects,
-  edgeLabel, edgeLabelDiv, edgeOffColor, animateCamera, CAMERA_OFFSET, midpoint,
+  container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeSegments,
+  edgeList, edgePositions, edgePosAttr,
+  edgeLabel, edgeLabelDiv, edgeOffColor, EDGE_ACCENT, setEdgeVisual, setEdgeFilter,
+  animateCamera, CAMERA_OFFSET, midpoint,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
 } from './core.js';
@@ -21,8 +23,16 @@ import { esc } from './markdown.js';
 const raycaster = new THREE.Raycaster();
 raycaster.params.Points = { threshold: 2 };
 raycaster.params.Line = { threshold: 5 };
-const mouse = new THREE.Vector2();
-const tooltip = document.getElementById('tooltip');
+  const mouse = new THREE.Vector2();
+  const tooltip = document.getElementById('tooltip');
+
+  // Map a LineSegments raycast hit to its edge object (hit.index is the first
+  // vertex of the segment; two vertices per edge => segment = index / 2).
+  function edgeFromIntersect(hit) {
+    if (!hit) return null;
+    const entry = edgeList[Math.floor(hit.index / 2)];
+    return entry ? entry.edge : null;
+  }
 let lastHoveredNodeId = null;
 
 const btnUnstick = document.getElementById('btn-unstick');
@@ -53,9 +63,10 @@ function showNodeTooltip(nodeData, left, top) {
 // ------------------------------------------------------------
 // Edge labels
 // ------------------------------------------------------------
-function showEdgeLabel(line) {
-  const { edge, fromMesh, toMesh } = line.userData;
-  edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
+function showEdgeLabel(edge) {
+  const fromMesh = nodeObjects.get(edge.from);
+  const toMesh = nodeObjects.get(edge.to);
+  if (fromMesh && toMesh) edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
 
   const labelText = state.analysisUiLang === 'zh-TW'
     ? (predicateZh(edge.label) || edge.label || '')
@@ -65,12 +76,11 @@ function showEdgeLabel(line) {
   edgeLabelDiv.style.display = 'block';
   edgeLabel.visible = true;
 
-  if (state.hoveredEdge && state.hoveredEdge !== line) {
+  if (state.hoveredEdge && state.hoveredEdge !== edge) {
     resetEdgeStyle(state.hoveredEdge);
   }
-  state.hoveredEdge = line;
-  line.material.color.set(0x4E79A7);
-  line.material.opacity = 0.9;
+  state.hoveredEdge = edge;
+  setEdgeVisual(edge, EDGE_ACCENT, 0.9);
 }
 
 function hideEdgeLabel() {
@@ -82,26 +92,23 @@ function hideEdgeLabel() {
   }
 }
 
-function resetEdgeStyle(line) {
-  const { edge } = line.userData;
+function resetEdgeStyle(edge) {
   if (state.selectedNode) {
     const connected = edge.from === state.selectedNode || edge.to === state.selectedNode;
-    line.material.color.set(connected ? 0x4E79A7 : edgeOffColor());
-    line.material.opacity = connected ? 0.8 : 0.05;
+    setEdgeVisual(edge, connected ? EDGE_ACCENT : edgeOffColor(), connected ? 0.8 : 0.05);
   } else if (state.selectedEdge) {
     const sel = edge === state.selectedEdge;
-    line.material.color.set(sel ? 0x4E79A7 : edgeOffColor());
-    line.material.opacity = sel ? 0.9 : 0.05;
+    setEdgeVisual(edge, sel ? EDGE_ACCENT : edgeOffColor(), sel ? 0.9 : 0.05);
   } else {
-    line.material.color.set(edgeOffColor());
-    line.material.opacity = edge.color.opacity * 0.6;
+    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
+    setEdgeVisual(edge, edgeOffColor(), ba);
   }
 }
 
 edgeLabelDiv.addEventListener('click', (e) => {
   e.stopPropagation();
   if (state.hoveredEdge) {
-    selectEdge(state.hoveredEdge.userData.edge);
+    selectEdge(state.hoveredEdge);
   }
 });
 
@@ -139,7 +146,7 @@ function attachLabelHandlers() {
 // ------------------------------------------------------------
 // Mouse move: hover + raycasting
 // ------------------------------------------------------------
-function onMouseMove(event) {
+function processHover(event) {
   if (event.target !== renderer.domElement) return;
   const rect = container.getBoundingClientRect();
   mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
@@ -151,14 +158,14 @@ function onMouseMove(event) {
 
   // When a node is selected, check edges first so edge labels show up
   if (state.selectedNode) {
-    const edgeIntersects = raycaster.intersectObjects(edgeObjects);
+    const edgeIntersects = raycaster.intersectObject(edgeSegments, false);
     if (edgeIntersects.length > 0) {
-      const line = edgeIntersects[0].object;
-      if (line.userData.edge) {
+      const edge = edgeFromIntersect(edgeIntersects[0]);
+      if (edge) {
         state.hoveredNode = null;
         tooltip.classList.remove('visible');
         container.style.cursor = 'pointer';
-        showEdgeLabel(line);
+        showEdgeLabel(edge);
         return;
       }
     }
@@ -207,14 +214,14 @@ function onMouseMove(event) {
     }
   }
 
-  const edgeIntersects = raycaster.intersectObjects(edgeObjects);
+  const edgeIntersects = raycaster.intersectObject(edgeSegments, false);
   if (edgeIntersects.length > 0) {
-    const line = edgeIntersects[0].object;
-    if (line.userData.edge) {
+    const edge = edgeFromIntersect(edgeIntersects[0]);
+    if (edge) {
       state.hoveredNode = null;
       tooltip.classList.remove('visible');
       container.style.cursor = 'pointer';
-      showEdgeLabel(line);
+      showEdgeLabel(edge);
       return;
     }
   }
@@ -255,12 +262,26 @@ function onClick(event) {
       selectNode(clickedNodeId);
     }
   } else if (state.hoveredEdge) {
-    selectEdge(state.hoveredEdge.userData.edge);
+    selectEdge(state.hoveredEdge);
   } else {
     deselectNode();
   }
 }
 
+// Throttle hover raycasting to one rAF: a flood of mousemove events should
+// not trigger one raycast each (2.6k node meshes + edges). Skip entirely
+// while dragging, and coalesce multiple moves within a frame into one pass.
+let hoverFrame = null;
+let pendingHoverEvent = null;
+function onMouseMove(event) {
+  if (event.target !== renderer.domElement) return;
+  pendingHoverEvent = event;
+  if (isDragging || hoverFrame !== null) return;
+  hoverFrame = requestAnimationFrame(() => {
+    hoverFrame = null;
+    if (pendingHoverEvent) processHover(pendingHoverEvent);
+  });
+}
 container.addEventListener('mousemove', onMouseMove);
 container.addEventListener('click', onClick);
 
@@ -405,15 +426,19 @@ function onMouseUp() {
 
 function updateEdgesForNode(mesh) {
   const nodeId = mesh.userData.nodeId;
-  edgeObjects.forEach(line => {
-    const { edge, fromMesh, toMesh } = line.userData;
+  for (let i = 0; i < edgeList.length; i++) {
+    const { edge, fromMesh, toMesh } = edgeList[i];
     if (edge.from === nodeId || edge.to === nodeId) {
-      const positions = line.geometry.attributes.position;
-      positions.setXYZ(0, fromMesh.position.x, fromMesh.position.y, fromMesh.position.z);
-      positions.setXYZ(1, toMesh.position.x, toMesh.position.y, toMesh.position.z);
-      positions.needsUpdate = true;
+      const p = i * 6;
+      edgePositions[p] = fromMesh.position.x;
+      edgePositions[p + 1] = fromMesh.position.y;
+      edgePositions[p + 2] = fromMesh.position.z;
+      edgePositions[p + 3] = toMesh.position.x;
+      edgePositions[p + 4] = toMesh.position.y;
+      edgePositions[p + 5] = toMesh.position.z;
     }
-  });
+  }
+  edgePosAttr.needsUpdate = true;
 }
 
 container.addEventListener('pointerdown', onMouseDown);
@@ -469,8 +494,7 @@ export function selectNode(nodeId) {
     }
   });
 
-  applyEdgeState(line => {
-    const { edge } = line.userData;
+  applyEdgeState(edge => {
     return edge.from === nodeId || edge.to === nodeId || edge === state.selectedEdge;
   }, 0x4E79A7, 0.8, edgeOffColor(), 0.05);
 
@@ -525,7 +549,7 @@ export function selectEdge(edge) {
   // Dim all nodes, highlight source and target
   applyNodeState(new Set([fromId, toId]), 0.95, 0.5, 0.3, 0.15);
 
-  applyEdgeState(line => line.userData.edge === edge, 0x4E79A7, 0.9, edgeOffColor(), 0.05);
+  applyEdgeState(e => e === edge, 0x4E79A7, 0.9, edgeOffColor(), 0.05);
 
   // Show labels for both nodes and their neighbors
   const visibleIds = new Set([fromId, toId]);
