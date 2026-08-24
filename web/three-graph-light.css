@@ -321,6 +321,7 @@ body {
 #at-node-detail .info-connections { color: #22304A; }
 #at-node-detail .at-node-link { color: #2563A8; }
 #at-node-detail .at-node-link:hover { color: #0B5F59; }
+#at-node-detail .at-node-note-link { cursor: pointer; }
 #at-node-detail .node-type { color: #7C8698; }
 #at-node-detail .neighbor-link { background: #FFFFFF; border-color: #CCC5B2; color: #44648D; }
 #at-node-detail .neighbor-link:hover { border-color: #0F766E; color: #22304A; }

@@ -17,7 +17,7 @@ import {
 } from './core.js';
 import { selectNode, deselectNode } from './interaction.js';
 import { updateHash } from './routing.js';
-import { esc } from './markdown.js';
+import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
 
 // ------------------------------------------------------------
@@ -61,6 +61,103 @@ document.addEventListener('focusin', (e) => {
 // Node / edge info card (inside the analysis panel)
 // ------------------------------------------------------------
 const infoCard = document.getElementById('at-node-detail');
+
+// ------------------------------------------------------------
+// Entity-note tooltip + modal. The DOM (#wiki-tooltip / #wiki-modal*) lives in
+// index.html and prompt.js wires the close handlers, so here we only populate
+// and show. Entity note links in the node/community cards render as tooltip
+// spans (.at-node-note-link) instead of navigating straight to GitHub.
+// ------------------------------------------------------------
+const wikiTooltipEl = document.getElementById('wiki-tooltip');
+const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
+const wikiModalTitle = document.getElementById('wiki-modal-title');
+const wikiModalBody = document.getElementById('wiki-modal-body');
+const wikiModalLink = document.getElementById('wiki-modal-link');
+let nodeWikiTooltipVisible = false;
+
+function nodeDescById(nid) {
+  const nd = nodeMap.get(nid);
+  if (!nd) return '';
+  const useZh = state.analysisUiLang === 'zh-TW';
+  return useZh ? (nd.description_zh_TW || nd.description || '') : (nd.description || '');
+}
+
+function positionNodeWikiTooltip(anchor) {
+  if (!nodeWikiTooltipVisible) return;
+  const r = anchor.getBoundingClientRect();
+  let left = r.left;
+  let top = r.bottom + 8;
+  const tw = wikiTooltipEl.offsetWidth || 340;
+  const th = wikiTooltipEl.offsetHeight || 160;
+  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
+  if (top + th > window.innerHeight - 8) top = r.top - th - 8;
+  if (left < 8) left = 8;
+  if (top < 8) top = 8;
+  wikiTooltipEl.style.left = left + 'px';
+  wikiTooltipEl.style.top = top + 'px';
+}
+
+function showNodeWikiTooltip(anchor) {
+  const title = anchor.dataset.wiki || '';
+  const gh = anchor.dataset.gh || '';
+  const desc = nodeDescById(anchor.dataset.nid);
+  if (!desc) {
+    if (!gh) return;
+    wikiTooltipEl.innerHTML = `<b>${esc(title)}</b><span class="wiki-tooltip-hint">View note on GitHub ↗</span>`;
+    nodeWikiTooltipVisible = true;
+    wikiTooltipEl.classList.add('visible');
+    positionNodeWikiTooltip(anchor);
+    return;
+  }
+  const excerpt = wikiExcerpt(desc);
+  if (!excerpt) return;
+  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
+  nodeWikiTooltipVisible = true;
+  wikiTooltipEl.classList.add('visible');
+  positionNodeWikiTooltip(anchor);
+}
+
+function hideNodeWikiTooltip() {
+  if (!nodeWikiTooltipVisible) return;
+  nodeWikiTooltipVisible = false;
+  wikiTooltipEl.classList.remove('visible');
+}
+
+function openNodeWikiModal(anchor) {
+  const title = anchor.dataset.wiki || '';
+  const gh = anchor.dataset.gh || '';
+  const desc = nodeDescById(anchor.dataset.nid);
+  wikiModalTitle.textContent = title.replace(/_/g, ' ');
+  if (desc) {
+    wikiModalBody.innerHTML = renderMarkdown(desc);
+  } else {
+    wikiModalBody.innerHTML = '<p>No summary is stored for this entity. Open the full note on GitHub.</p>';
+  }
+  wikiModalLink.href = gh || '#';
+  wikiModalOverlay.classList.add('visible');
+  hideNodeWikiTooltip();
+}
+
+infoCard.addEventListener('mouseover', (e) => {
+  const a = e.target.closest('.at-node-note-link');
+  if (!a) { hideNodeWikiTooltip(); return; }
+  showNodeWikiTooltip(a);
+});
+infoCard.addEventListener('mousemove', (e) => {
+  if (!nodeWikiTooltipVisible) return;
+  const a = e.target.closest('.at-node-note-link');
+  if (a) positionNodeWikiTooltip(a);
+});
+infoCard.addEventListener('mouseleave', hideNodeWikiTooltip);
+infoCard.addEventListener('click', (e) => {
+  const a = e.target.closest('.at-node-note-link');
+  if (a) { e.preventDefault(); openNodeWikiModal(a); }
+});
+infoCard.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const a = e.target.closest('.at-node-note-link');
+  if (a) { e.preventDefault(); openNodeWikiModal(a); }
+});
 
 export function hideNodeInfo() {
   if (infoCard) infoCard.hidden = true;
@@ -205,10 +302,12 @@ function renderNodeInfo(nodeId, actions) {
     : '';
 
   // Source (node): deep link to the wiki note when one exists for the label
-  // (reconstructed from the manifest), else the triple-source file link.
+  // (reconstructed from the manifest), else the triple-source file link. The
+  // note renders as a tooltip span (not an outbound link) — the GitHub link
+  // moves into the shared entity modal opened on click/hover.
   const noteHref = noteUrl(n.label) || (n.source_file ? githubSourceUrl(n.source_file) : '');
   const wikiLink = noteHref
-    ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" class="at-node-link">${esc(n.label)} ${LINK_ICON}</a>`
+    ? `<span class="at-node-link at-node-note-link" data-wiki="${esc(n.label)}" data-nid="${esc(n.id)}" data-gh="${esc(noteHref)}" role="button" tabindex="0">${esc(n.label)} ${LINK_ICON}</span>`
     : '—';
 
   const edgeSourceLink = n.source_file
@@ -383,8 +482,9 @@ function renderCommunityInfo(cid, actions) {
     ? (useZh ? (descNode.description_zh_TW || descNode.description || '') : (descNode.description || ''))
     : '';
 
-  const wikiLink = (hub && (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')))
-    ? `<a href="${esc(noteUrl(hub.label) || githubSourceUrl(hub.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(hub.label)} ${LINK_ICON}</a>`
+  const hubNoteHref = hub ? (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')) : '';
+  const wikiLink = hubNoteHref
+    ? `<span class="at-node-link at-node-note-link" data-wiki="${esc(hub.label)}" data-nid="${esc(hub.id)}" data-gh="${esc(hubNoteHref)}" role="button" tabindex="0">${esc(hub.label)} ${LINK_ICON}</span>`
     : '—';
 
   const memberLinks = members.slice(0, 12).map(n => {

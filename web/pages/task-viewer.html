@@ -234,10 +234,21 @@ function showWikiTooltip(anchor) {
   const key = anchor.dataset.wiki;
   const zh = activeUiLang === 'zh-TW' ? activeByLabelZh.get(key) : null;
   const desc = zh || activeByLabel.get(key);
-  if (!desc) { hideWikiTooltip(); return; }
+  const title = anchor.textContent.trim() || key;
+  const gh = anchor.dataset.gh || (activeHref && activeHref(key)) || '';
+  // GitHub-note-only entities: surface a "View note on GitHub" hint so the
+  // link still works (via the modal) without being an inline outbound link.
+  if (!desc) {
+    if (!gh) { hideWikiTooltip(); return; }
+    wikiTooltipEl.innerHTML =
+      `<b>${esc(title)}</b><span class="wiki-tooltip-hint">View note on GitHub ↗</span>`;
+    wikiTooltipVisible = true;
+    wikiTooltipEl.classList.add('visible');
+    positionWikiTooltip(anchor);
+    return;
+  }
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
-  const title = anchor.textContent.trim() || key;
   wikiTooltipEl.innerHTML =
     `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
   wikiTooltipVisible = true;
@@ -251,13 +262,21 @@ function hideWikiTooltip() {
   wikiTooltipEl.classList.remove('visible');
 }
 
-function openWikiModal(key) {
+function openWikiModal(key, gh) {
   const zh = activeUiLang === 'zh-TW' ? activeByLabelZh.get(key) : null;
   const desc = zh || activeByLabel.get(key);
-  if (!desc) return;
+  const ghUrl = gh || (activeHref && activeHref(key)) || '';
+  // GitHub-note-only entities have no stored summary; still open the modal so
+  // the GitHub link (in the header) is reachable instead of an inline link.
+  if (!desc && !ghUrl) return;
   wikiModalTitle.textContent = key.replace(/_/g, ' ');
-  wikiModalBody.innerHTML = renderMarkdown(desc);
-  wikiModalLink.href = (activeHref && activeHref(key)) || '#';
+  if (desc) {
+    wikiModalBody.innerHTML = renderMarkdown(desc);
+  } else {
+    wikiModalBody.innerHTML =
+      '<p>No summary is stored for this entity. Open the full note on GitHub.</p>';
+  }
+  wikiModalLink.href = ghUrl || '#';
   wikiModalOverlay.classList.add('visible');
   hideWikiTooltip();
 }
@@ -310,14 +329,19 @@ if (!src) {
     activeByLabel = entity.byLabel;
     activeByLabelZh = entity.byLabelZh;
     activeHref = wikiHref;
-    content.querySelectorAll('a.wikilink').forEach((a) => {
-      const key = wikiKeyFor(a.textContent, entity.byLabel);
-      if (!key) return;
+    content.querySelectorAll('a.wikilink, span.wikilink').forEach((el) => {
+      const label = el.textContent.trim();
+      const key = wikiKeyFor(label, entity.byLabel);
+      const gh = wikiHref ? wikiHref(label) : '';
+      // Upgrade to a tooltip span when the entity has either a stored
+      // description or a GitHub note (the GitHub link moves into the modal).
+      if (!key && !gh) return;
       const span = document.createElement('span');
       span.className = 'task-entity-link';
-      span.dataset.wiki = key;
-      span.textContent = a.textContent;
-      a.replaceWith(span);
+      span.dataset.wiki = key || label;
+      if (gh) span.dataset.gh = gh;
+      span.textContent = label;
+      el.replaceWith(span);
     });
     content.addEventListener('mouseover', (e) => {
       const a = e.target.closest('.task-entity-link');
@@ -332,7 +356,7 @@ if (!src) {
     content.addEventListener('mouseleave', hideWikiTooltip);
     content.addEventListener('click', (e) => {
       const a = e.target.closest('.task-entity-link');
-      if (a) { e.preventDefault(); openWikiModal(a.dataset.wiki); }
+      if (a) { e.preventDefault(); openWikiModal(a.dataset.wiki, a.dataset.gh); }
     });
     // Wrap tables so wide ones scroll horizontally instead of overflowing.
     content.querySelectorAll('table').forEach((t) => {

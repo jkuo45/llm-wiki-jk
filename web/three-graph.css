@@ -842,6 +842,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #at-node-detail .node-source-row { margin-top: 2px; }
 #at-node-detail .at-node-link { color: #7cb3d4; text-decoration: none; font-size: 12px; display: inline-flex; align-items: center; gap: 3px; }
 #at-node-detail .at-node-link:hover { color: #a0d4f0; }
+#at-node-detail .at-node-note-link { cursor: pointer; }
 #at-node-detail .node-type { font-size: 10px; font-weight: 600; color: #9a9ab0; text-transform: uppercase; letter-spacing: 0.04em; margin-left: 6px; }
 #at-node-detail .wiki-context-text { font-size: 12px; color: #bbb; line-height: 1.6; margin-top: 4px; }
 /* Context section as a card, matching the metrics-card look (.at-kv). The node
