@@ -57,6 +57,13 @@ span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
 .toc-next { height:30px; margin-left:auto; font-size:.85rem; font-weight:700; color:var(--text);
   background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px; cursor:pointer; }
 .toc-next:hover { color:var(--teal); border-color:var(--teal); }
+/* Mobile: keep Back / select / Next on one row without overflowing */
+@media (max-width:720px) {
+  nav .wrap { gap:8px; }
+  .back-home { margin-right:0; padding:4px 10px; white-space:nowrap; }
+  .toc-select { flex:1; min-width:0; max-width:none; }
+  .toc-next { padding:4px 10px; white-space:nowrap; flex-shrink:0; }
+}
 </style>
 </head>
 <body style="--wrap-width:1100px;">
