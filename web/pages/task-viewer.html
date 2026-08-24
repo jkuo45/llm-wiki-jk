@@ -50,14 +50,21 @@ span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
 .task-meta { color:var(--dim); font-size:.85rem; margin:2px 0 18px; }
 .loading { color:var(--dim); padding-top:48px; }
 .error { color:#ff6b6b; padding-top:48px; }
+/* Sticky-nav section picker (replaces the horizontal-scrolling link list) */
+.toc-select { max-width:min(420px, 50vw); height:30px; font-size:.85rem; color:var(--text);
+  background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:0 8px; }
+.toc-next { height:30px; margin-left:auto; font-size:.85rem; font-weight:700; color:var(--text);
+  background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px; cursor:pointer; }
+.toc-next:hover { color:var(--teal); border-color:var(--teal); }
 </style>
 </head>
 <body style="--wrap-width:1100px;">
 
 <nav>
   <div class="wrap">
-    <a id="back-index" class="back-home" href="tasks-index.html" title="Back to task outputs index / 返回任務輸出索引">&#8592; Task Outputs</a>
-    <span id="nav-toc"></span>
+    <a id="back-index" class="back-home" href="tasks-index.html" title="Back to task outputs index / 返回任務輸出索引">&#8592; Back</a>
+    <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
+    <button id="toc-next" class="toc-next" type="button" title="Next task output">Next &#8594;</button>
   </div>
 </nav>
 
@@ -149,12 +156,76 @@ if (!src) {
     const sections = structureSections(content);
     const firstH1 = content.querySelector('h1');
     if (firstH1) document.title = firstH1.textContent;
-    // Sticky-nav TOC (one link per section)
-    const toc = document.getElementById('nav-toc');
-    toc.innerHTML = sections.map((s) => {
+    // Next button → open the next task output document (registry order,
+    // newest first — mirrors the reader dropdown). The registry is fetched
+    // lazily; the button stays inert until a next document resolves.
+    const NAV_OFFSET = 60; // matches nav height + breathing room
+    const tocSelect = document.getElementById('toc-select');
+    const nextBtn = document.getElementById('toc-next');
+    let nextHref = null;
+
+    async function initNextTask() {
+      try {
+        const resp = await fetch('../data/tasks.json');
+        if (!resp.ok) return;
+        const data = await resp.json();
+        // Flatten to one row per entry (prefer en-US), keep .md docs only.
+        const rows = (data.tasks || [])
+          .filter((t) => t.active !== false)
+          .map((t) => t.langs?.['en-US'] || Object.values(t.langs || {})[0])
+          .filter((l) => l && l.path && /\.md$/.test(l.path))
+          .sort((a, b) => (b.created || '').localeCompare(a.created || ''));
+        const curPath = decodeURIComponent(
+          new URLSearchParams(location.search).get('src') || ''
+        ).replace(/^\.\.\//, '');
+        const idx = rows.findIndex((l) => l.path === curPath);
+        const next = idx >= 0 ? rows[idx + 1] : rows[0];
+        if (next) {
+          nextHref = 'task-viewer.html?src=' +
+            encodeURIComponent('../' + next.path);
+          nextBtn.title = 'Next task output: ' + next.title;
+        }
+      } catch (e) { /* registry unavailable → button stays inert */ }
+    }
+    initNextTask();
+
+    nextBtn.addEventListener('click', () => {
+      if (nextHref) location.href = nextHref;
+    });
+
+    tocSelect.innerHTML = '<option value="">Top</option>' + sections.map((s) => {
       const label = s.querySelector('h1,h2')?.textContent || s.id;
-      return `<a class="n" href="#${s.id}">${label}</a>`;
+      return `<option value="#${s.id}">${label}</option>`;
     }).join('');
+
+    const scrollToSection = (id) => {
+      if (!id) { window.scrollTo(0, 0); return; }
+      const el = document.getElementById(id);
+      if (el) window.scrollTo(0, el.offsetTop - NAV_OFFSET);
+    };
+
+    tocSelect.addEventListener('change', () => {
+      const id = tocSelect.value.replace(/^#/, '');
+      scrollToSection(id);
+      history.replaceState(null, '', id ? '#' + id : location.pathname + location.search);
+    });
+
+    // Section currently scrolled under the sticky nav → sync the select.
+    const currentSectionId = () => {
+      let active = '';
+      for (const s of sections) {
+        if (s.getBoundingClientRect().top <= NAV_OFFSET + 1) active = s.id;
+      }
+      return active;
+    };
+    const syncToc = () => {
+      const id = currentSectionId();
+      if (('#' + id) !== tocSelect.value) {
+        tocSelect.value = id ? '#' + id : '';
+      }
+    };
+    window.addEventListener('scroll', syncToc, { passive: true });
+    syncToc();
   } catch (e) {
     document.getElementById('content').innerHTML =
       `<p class="error">Failed to load task output: ${e.message}</p>`;
