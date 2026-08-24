@@ -37,6 +37,18 @@
 .task-title { font-size: 1.05rem; font-weight: 600; line-height: 1.35; margin: 0 0 4px; }
 .task-title a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
 .task-title a:hover { color: var(--oxblood); }
+/* Star badge: gray outline when not starred, filled accent when starred */
+.task-card { position: relative; }
+.star-badge {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 1rem;
+  line-height: 1;
+  pointer-events: none;
+}
+.star-badge.on { color: #d4a017; }
+.star-badge.off { color: var(--rule); -webkit-text-stroke: 0.5px var(--faint); }
 .task-zh { font-size: .95rem; color: var(--ink-soft); margin: 0 0 10px; }
 .task-zh a { color: var(--mute); text-decoration: none; border-bottom: 1px solid var(--rule); }
 .task-zh a:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
@@ -104,6 +116,7 @@
           return {
             id: t.id,
             display: en.title,
+            starred: t.starred === true,
             desc: en.description || '',
             enPath: en.path,
             file: en.filename || decodeURIComponent((en.path || '').split('/').pop()),
@@ -114,7 +127,7 @@
             bucket: bucket(updated),
           };
         })
-        .sort((x, y) => y.updated.localeCompare(x.updated));
+        .sort((x, y) => (y.starred - x.starred) || y.updated.localeCompare(x.updated));
 
       const viewerHref = (path) =>
         'task-viewer.html?src=' + encodeURIComponent('../' + path);
@@ -126,6 +139,7 @@
                 `<span class="bucket-count">${group.length}</span></h2><ul class="task-list">`;
         html += group.map(t => `
           <li class="task-card card">
+            <span class="star-badge ${t.starred ? 'on' : 'off'}" title="${t.starred ? 'Starred' : ''}">${t.starred ? '★' : '☆'}</span>
             <p class="task-title"><a href="${esc(viewerHref(t.enPath))}" data-task-id="${esc(t.id)}">${esc(t.display)}</a></p>
             ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${esc(t.zhTitle)}</a></p>` : ''}
             ${t.desc ? `<p class="task-desc">${esc(t.desc)}</p>` : ''}

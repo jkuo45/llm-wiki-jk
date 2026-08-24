@@ -298,6 +298,10 @@ def build_web_tasks(task_data, args):
         group = groups.setdefault(stem, {"id": f"task:{stem}", "kind": "task", "langs": {}})
         if lang not in group["langs"]:
             group["langs"][lang] = entry
+        # `starred` is a group-level flag (like `active`): any language
+        # variant marking it stars the logical task for both languages.
+        if str(fm.get("starred", "")).lower() == "true":
+            group["starred"] = True
 
         if t.get("in_place"):
             continue
