@@ -291,7 +291,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     node_roles_doc = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "source_graph": "web/data/graph.json",
+        "source_graph": "graphify-out/graph.json",
         "graph_build": graph.get("built_at_commit", ""),
         "rules": {
             name: {"definition": expr, "operational": True}
@@ -417,7 +417,6 @@ def ensure_manual_data_files() -> None:
 
 # Graphify-standard artifacts the web app fetches (components/data.js).
 WEB_SHARED_JSON = (
-    "graph.json",
     "manifest.json",
 )
 
@@ -1005,6 +1004,15 @@ def main() -> int:
 
     # --- inject graph-level metadata ---
     inject_graph_metadata(GP, graph_meta)
+
+    # --- emit the slim web-only metadata file (graph-meta.json) ---
+    # Derived from the same graph_meta dict injected into the canonical
+    # graphify-out/graph.json, so the frontend's metadata never goes stale.
+    (DATA_DIR / "graph-meta.json").write_text(
+        json.dumps(graph_meta, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    print("Wrote web/data/graph-meta.json")
 
     print(
         f"FINAL: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges, {len(communities)} communities"

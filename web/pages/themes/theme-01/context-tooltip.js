@@ -1,14 +1,14 @@
 "use strict";
 
-/* Wiki-link tooltips sourced directly from web/data/graph.json node
+/* Wiki-link tooltips sourced directly from web/data/nodes.json node
  * descriptions. Converts [[Entity]] / [[Entity|Display]] in page prose into
  * hover-tooltip spans. Reuses the shared #netTip element and
  * showTip/moveTip/hideTip helpers from pages-core.js.
  *
  * Highlighting is applied immediately (no network needed); the definition
- * tooltip is enriched once graph.json has loaded. The graph file is fetched
- * from a path relative to this page (web/pages/ -> ../data/graph.json), and
- * every node carries a description, so tooltip coverage is complete.
+ * tooltip is enriched once nodes.json has loaded. The file is fetched from a
+ * path relative to this page (web/pages/ -> ../data/nodes.json), and every
+ * node carries a description, so tooltip coverage is complete.
  *
  * A MutationObserver also processes content rendered after load (e.g.
  * explorer tabs that swap innerHTML), so wiki links in dynamic cards get
@@ -18,7 +18,7 @@
 (function () {
   if (typeof showTip !== "function") return; // tooltip infra missing
 
-  var CTX_URL = "../data/graph.json";
+  var CTX_URL = "../data/nodes.json";
   var MAP = null; // populated after fetch
 
   function esc(s) {
@@ -33,11 +33,11 @@
     return String(s).trim().toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
   }
 
-  // Build lookup maps from graph.json nodes: keyed by node label (exact and
-  // lowercase) and by normalized node id.
-  function buildMap(graph) {
+  // Build lookup maps from nodes.json (a top-level array of node objects):
+  // keyed by node label (exact and lowercase) and by normalized node id.
+  function buildMap(nodes) {
     var byLabel = {}, byId = {};
-    (graph.nodes || []).forEach(function (n) {
+    (nodes || []).forEach(function (n) {
       if (!n.description) return;
       var info = { description: n.description, label: n.label };
       byId[n.id] = info;
@@ -166,17 +166,17 @@
 
   function loadContext() {
     // Pages may embed a lightweight node subset as window.__WIKI_CTX__
-    // (generated from web/data/graph.json) so tooltips work even when the
+    // (generated from web/data/nodes.json) so tooltips work even when the
     // page is opened directly from disk (file://), where fetch() is blocked
-    // by CORS. Falls back to fetching the full graph over HTTP when absent.
+    // by CORS. Falls back to fetching the full node list over HTTP when absent.
     if (window.__WIKI_CTX__ && Array.isArray(window.__WIKI_CTX__) && window.__WIKI_CTX__.length) {
-      MAP = buildMap({ nodes: window.__WIKI_CTX__ });
+      MAP = buildMap(window.__WIKI_CTX__);
       return;
     }
     if (typeof fetch !== "function") return;
     fetch(CTX_URL)
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-      .then(function (graph) { MAP = buildMap(graph); })
+      .then(function (nodes) { MAP = buildMap(nodes); })
       .catch(function () { /* tooltips stay unavailable; highlight still works */ });
   }
 
