@@ -143,7 +143,7 @@ datasetScroll.innerHTML = `
 const datasetPanel = document.getElementById('dataset-panel');
 const datasetBtn = document.getElementById('btn-dataset');
 
-datasetBtn.addEventListener('click', (e) => {
+datasetBtn?.addEventListener('click', (e) => {
   e.stopPropagation();
   datasetPanel.classList.toggle('visible');
 });

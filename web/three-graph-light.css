@@ -349,10 +349,15 @@ body {
 #controls #btn-settings:hover { color: #22304A; border-color: #0F766E; background: #ECE8DD; }
 #controls #btn-settings.active { color: #22304A; border-color: #0F766E; background: #ECE8DD; }
 #settings-popover { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 16px 48px rgba(34,48,74,0.18); }
-#settings-popover h3 { color: #7C8698; }
-#settings-popover .display-grid button { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
+#settings-popover h3 { color: #7C8698; border-bottom-color: #E2DCCE; }
+#settings-popover .display-grid button { background: #F6F3EC; border-color: #E2DCCE; color: #22304A; }
+#settings-popover .display-grid button::after { background: #DDD6C6; }
+#settings-popover .display-grid button::before { background: #B9B2A0; }
 #settings-popover .display-grid button:hover { background: #ECE8DD; border-color: #0F766E; }
-#settings-popover .display-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
+#settings-popover .display-grid button.active { background: rgba(15,118,110,0.08); border-color: #0F766E; color: #22304A; }
+#settings-popover .display-grid button.active::after { background: #0F766E; }
+#settings-popover .display-grid button.active::before { background: #FFFFFF; }
+#settings-popover #theme-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
 
 /* Prompt suggestions (Ask mode) */
 #prompt-new { border-color: #CCC5B2; color: #7C8698; }

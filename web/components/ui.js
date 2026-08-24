@@ -707,8 +707,9 @@ function closeSettings() {
   if (settingsBtn) settingsBtn.classList.remove('active');
 }
 
-if (settingsBtn && settingsPopover) {
-  settingsBtn.addEventListener('click', (e) => {
+  if (settingsBtn && settingsPopover) {
+    settingsPopover.addEventListener('click', (e) => e.stopPropagation());
+    settingsBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     settingsPopover.hidden = !settingsPopover.hidden;
     settingsBtn.classList.toggle('active', !settingsPopover.hidden);
