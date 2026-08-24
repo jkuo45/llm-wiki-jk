@@ -52,6 +52,9 @@ List of documents that mention this entity
   - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Salk press release — "Could this enzyme help remove 'zombie' cells…"]]
     - Public summary framing ACase as a druggable [[Senolytic|senotherapeutic]] target for clearing senescent "zombie" cells via ferroptosis.
 
+  - [[_document_ - Ferroptosis past present and future|Ferroptosis: past, present and future]]
+    - Landmark 2020 review (Li et al., *Cell Death & Disease*) systematically summarizing ferroptosis mechanisms — system Xc⁻/[[SLC7A11]] cystine uptake, [[GPX4]] inactivation, iron metabolism ([[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]]), lipid remodeling ([[ACSL4]], [[LPCAT3]], [[Phosphatidylethanolamine]]), the [[FSP1]]–[[Coenzyme Q10|CoQ10]] axis — and its roles across cancer, neurodegeneration, AKI, I/R injury and other diseases. Primary source for the entity notes created in this ingestion ([[Erastin]], [[SAT1]], [[ALOX15]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], etc.).
+
 
 ## Connections
 
@@ -63,14 +66,26 @@ List of documents that mention this entity
 - [[NCOA4]] — interacts with
 - [[FSP1]] — interacts with
 - [[DHODH]] — interacts with
-- [[System Xc⁻]] — interacts with
+- [[System Xc-]] — interacts with
 - [[ACSL4]] — interacts with
 - [[Acid ceramidase]] — Novel positive regulator in senescence: over-expression enriches membrane PL-PUFAs via ceramide catabolism, sensitizing cells to ferroptosis through a GPX4/GSH/iron-independent axis; knockdown protects
 - [[LPCAT3]] — interacts with
 - [[NOX]] — interacts with
 - [[Adrenochrome]] — Hypothesized dual ferroptosis inducer: generates ROS via redox cycling and may directly inhibit GPX4 via electrophilic arylation, analogous to RSL3
+- [[System Xc-]] — Core cystine/glutamate antiporter; inhibition (e.g., by [[Erastin]]) depletes [[Glutathione|GSH]] and is the classic ferroptosis trigger
+- [[SLC7A11]] — Catalytic light chain of system Xc-; transcriptionally repressed by [[p53]] to promote ferroptosis
+- [[Erastin]] — Prototype ferroptosis inducer; inhibits system Xc- and activates chaperone-mediated autophagy of [[GPX4]]
+- [[ALOX15]] — Arachidonate lipoxygenase downstream of the [[p53]]–SAT1 axis that amplifies lipid peroxidation
+- [[SAT1]] — Polyamine-catabolism enzyme, p53 transcriptional target, engages [[ALOX15]] to drive ferroptosis
+- [[Iron]] — Redox-active Fe²⁺ fuels the [[Fenton Reaction]] that propagates lipid radical chain reactions
+- [[Transferrin]] — Iron-delivery protein; endocytosis via [[Transferrin receptor 1]] supplies labile iron for ferroptosis
+- [[Sorafenib]] — HCC therapy whose ferroptosis induction is enabled by [[Retinoblastoma|Rb]] loss
+- [[Artesunate]] — Anti-malarial that activates ferroptosis in pancreatic, ovarian, and HNC models
+- [[Mitotane]] — ACC therapy; ACCs show exquisite sensitivity to ferroptosis induction
+- [[Apoptosis-Inducing Factor]] — Mitochondrial flavoprotein; FSP1 was formerly named AIFM2
+- [[Mevalonate pathway]] — Regulates selenocysteine tRNA maturation and thus [[GPX4]] levels
 
 ## Linking Summary
-- New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]]
+- New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc-]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]], [[SLC7A11]], [[Erastin]], [[SAT1]], [[ALOX15]], [[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], [[Phosphatidylethanolamine]], [[CISD1]], [[NFS1]], [[Clear cell renal cell carcinoma]], [[Head and neck cancer]], [[Adrenocortical carcinomas]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Gastric Cancer]], [[Colorectal Cancer]], [[Lung Cancer]], [[Stroke]], [[Traumatic Brain Injury]]
   - Strong connections to strengthen: [[Ferroptosis]] ↔ Lipid Peroxidation, [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ Fenton Reaction, [[Ferroptosis]] ↔ Ferritin, [[Ferroptosis]] ↔ [[Adrenochrome]] (dual mechanism hypothesis)
 

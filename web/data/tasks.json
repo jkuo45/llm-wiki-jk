@@ -1,5 +1,5 @@
 {
-  "generated": "24_AUG_2026 01:46 AM PDT",
+  "generated": "24_AUG_2026 11:40 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -48,7 +48,7 @@
           "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
           "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
           "created": "2026-08-20",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -83,7 +83,7 @@
           "title": "GOPS - 糖氧化蛋白穩態防護盾",
           "description": "一個概念性的長壽方案，結合腎上腺紅質單胺基胍雜合分子、精胺（spermidine）自噬誘導，以及肌肽／EDTA 金屬螯合，以對抗老化與代謝壓力情境下的糖化（AGEs）、氧化壓力與受損的蛋白穩態。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "clippings",
             "glycation",
@@ -116,7 +116,7 @@
           "title": "一氧化氮路徑抑制劑 - Aminoguanidine 與 Methylene Blue",
           "description": "比較 aminoguanidine（上游 iNOS 抑制）與 methylene blue（下游可溶性鳥苷酸環化酶抑制）作為一氧化氮–cGMP 訊號級聯在發炎、休克與移植研究中機制互補的調節劑。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "clippings",
             "nitric-oxide",
@@ -149,7 +149,7 @@
           "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
           "description": "一個推測性的粒線體激效性堆疊，使用低劑量 carbazochrome 氧化還原脈衝、methylene blue 電子分流、NAD+ 前驅物（NR/NMN），以及 urolithin A 粒線體自噬，透過受控的氧化性良性壓力與生合成訊號來處理粒線體功能障礙。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "clippings",
             "mitohormesis",
@@ -181,7 +181,7 @@
           "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
           "description": "原始的 SRAC 衰老治療假說（已被取代），使用奈米顆粒遞送的腎上腺紅質來致敏衰老細胞，結合 rapamycin 的 SASP 抑制、fisetin 的衰老溶解，以及 GlyNAC 的氧化還原緩衝，以標靶細胞衰老與發炎老化。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "剪報",
             "老化",
@@ -211,7 +211,7 @@
           "title": "outline_adrenochrome_combo_therapy_gemini",
           "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
           "created": "2026-07-21",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "雙子座"
           ],
@@ -244,7 +244,7 @@
           "title": "大綱 - Adrenochrome (MB, AG) 協定",
           "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
           "created": "2026-06-27",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "大綱",
             "腎上腺素紅",
@@ -281,7 +281,7 @@
           "title": "SRAC 協定修訂日誌",
           "description": "記錄 SRAC 衰老治療協定兩項結構性變更的修訂日誌——序列性 rapamycin 至 fisetin 給藥以解決衰老修飾／衰老溶解的時程衝突，以及以 carbazochrome 取代腎上腺紅質以移除奈米顆粒遞送。",
           "created": "2026-07-08",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "senescence",
@@ -317,7 +317,7 @@
           "title": "差距分析 - _triples.json vs. 任務文件（Adrenochrome）",
           "description": "覆蓋率差距分析，將 adrenochrome triples 知識庫（184 個實體）與任務文件進行比較，揭示未探索的叢集，例如 methylene blue 雙重電子穿梭與解毒角色所構成的變性血紅素血症安全性悖論。",
           "created": "2026-07-09",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "knowledge-graph",
@@ -352,7 +352,7 @@
           "title": "人類腎上腺素紅補充的分析和方案（假設）",
           "description": "假設的補充方案是基於腎上腺素紅化學——不穩定性和氧化還原循環風險、富含嗜中性球的發炎部位的內源性產生、抗氧化劑的穩定和惰性氣氛儲存以及卡唑鉻作為穩定的遞送形式。",
           "created": "2026-05-25",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -387,7 +387,7 @@
           "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
           "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
           "created": "2026-05-25",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -422,7 +422,7 @@
           "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
           "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
           "created": "2026-07-13",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "methylene-blue",
@@ -458,7 +458,7 @@
           "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
           "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
           "created": "2026-06-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -495,7 +495,7 @@
           "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
           "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
           "created": "2026-07-04",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -531,7 +531,7 @@
           "title": "Adrenochrome → Inflammaging Trace",
           "description": "知識圖譜最短路徑追蹤，連結腎上腺色素至發炎性老化，辨識 DGCR8/Drosha miRNA 生成軸作為兒茶酚胺氧化產物與慢性發炎性老化之間的主導性兩跳表觀遺傳橋樑。",
           "created": "2026-07-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -567,7 +567,7 @@
           "title": "腎上腺色素協定網路追蹤，第二輪",
           "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
           "created": "2026-08-21",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -604,7 +604,7 @@
           "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
           "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
           "created": "2026-08-20",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -615,6 +615,182 @@
           ],
           "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026_zh-TW.md",
           "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
+          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+        },
+        "zh-TW": {
+          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
+          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
+          "created": "2026-08-21",
+          "updated": "2026-08-24",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
+          "description": "DGCR8 knockout ES cells show global loss of miRNAs, failure to silence pluripotency upon differentiation, G1 accumulation, and prolonged doubling time — establishing DGCR8/miRNA as essential for silencing embryonic stem cell self-renewal.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "stem-cells"
+          ],
+          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
+        },
+        "zh-TW": {
+          "title": "DGCR8 對微小 RNA 生成及胚胎幹細胞自我更新沉默至關重要",
+          "description": "DGCR8 基因剔除的 ES 細胞顯示 miRNA 全面喪失、分化時無法沉默多潛能性、G1 期堆積以及群體倍增時間延長——確立 DGCR8/miRNA 對胚胎幹細胞自我更新沉默的必要性。",
+          "created": "2026-07-16",
+          "updated": "2026-08-24",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "stem-cells"
+          ],
+          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal_zh-TW.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
+          "description": "In IPF, DROSHA is elevated in alveolar macrophages and promotes AIM2 inflammasome activation, caspase-1 cleavage, and IL-1β/IL-18 release; DROSHA deficiency suppresses this lung inflammation. Links Microprocessor dysfunction to innate immune inflammation.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "inflammaging",
+            "innate-immunity"
+          ],
+          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
+        },
+        "zh-TW": {
+          "title": "DROSHA 依賴性 AIM2 發炎體活化參與特發性肺纖維化期間的肺部發炎",
+          "description": "在 IPF 中，DROSHA 在肺泡巨噬細胞中升高，並促進 AIM2 發炎體活化、caspase-1 切割以及 IL-1β/IL-18 釋放；DROSHA 缺失可抑制此肺部發炎。將微處理複體功能障礙連結至先天免疫發炎。",
+          "created": "2026-07-16",
+          "updated": "2026-08-24",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "inflammaging",
+            "innate-immunity"
+          ],
+          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis_zh-TW.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Shingles vaccine may slow biological aging and reduce inflammation",
+          "description": "A U.S. population-based cohort study (HRS, n>3,800 adults ≥70) found shingles vaccination associated with slower biological aging, lower chronic inflammation (inflammaging), and slower epigenetic/transcriptomic aging — effects persisting ≥4 years.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "inflammaging",
+            "vaccine",
+            "aging"
+          ],
+          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
+        },
+        "zh-TW": {
+          "title": "帶狀皰疹疫苗或可減緩生物性老化並降低發炎",
+          "description": "一項美國基於族群的世代研究（HRS，n>3,800 名 70 歲以上成人）發現，帶狀皰疹疫苗接種與較慢的生物性老化、較低的慢性發炎（發炎性老化）以及較慢的表觀遺傳/轉錄體老化相關——效果持續至少 4 年。",
+          "created": "2026-07-16",
+          "updated": "2026-08-24",
+          "tags": [
+            "adrenochrome-trace",
+            "inflammaging",
+            "vaccine",
+            "aging"
+          ],
+          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation_zh-TW.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
+          "description": "Biochemical and RNAi evidence that DGCR8 (human) and dmDGCR8 (Drosophila) are essential Microprocessor cofactors that recognize pri-miRNAs, interact with Drosha, and are required for pre-/mature miRNA production.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "rna-processing"
+          ],
+          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
+        },
+        "zh-TW": {
+          "title": "人類迪喬治症候群關鍵區域基因 8 及其 D. melanogaster 同源基因對 miRNA 生成不可或缺",
+          "description": "生化合與 RNAi 證據顯示，DGCR8（人類）與 dmDGCR8（果蠅）為不可或缺的微處理複體輔因子，可辨識 pri-miRNA、與 Drosha 交互作用，並對 pre-/成熟 miRNA 產生所需。",
+          "created": "2026-07-16",
+          "updated": "2026-08-24",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "rna-processing"
+          ],
+          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis_zh-TW.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis_zh-TW.md"
         }
       }
     },
@@ -1033,182 +1209,6 @@
           ],
           "filename": "tbl_tfeb_target_mechanisms_zh-TW.md",
           "path": "tasks/zh-TW/tbl_tfeb_target_mechanisms_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
-          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
-          "created": "2026-08-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
-          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
-          "created": "2026-08-21",
-          "updated": "2026-08-23",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
-          "description": "DGCR8 knockout ES cells show global loss of miRNAs, failure to silence pluripotency upon differentiation, G1 accumulation, and prolonged doubling time — establishing DGCR8/miRNA as essential for silencing embryonic stem cell self-renewal.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "stem-cells"
-          ],
-          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
-        },
-        "zh-TW": {
-          "title": "DGCR8 對微小 RNA 生成及胚胎幹細胞自我更新沉默至關重要",
-          "description": "DGCR8 基因剔除的 ES 細胞顯示 miRNA 全面喪失、分化時無法沉默多潛能性、G1 期堆積以及群體倍增時間延長——確立 DGCR8/miRNA 對胚胎幹細胞自我更新沉默的必要性。",
-          "created": "2026-07-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "stem-cells"
-          ],
-          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal_zh-TW.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
-          "description": "In IPF, DROSHA is elevated in alveolar macrophages and promotes AIM2 inflammasome activation, caspase-1 cleavage, and IL-1β/IL-18 release; DROSHA deficiency suppresses this lung inflammation. Links Microprocessor dysfunction to innate immune inflammation.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "inflammaging",
-            "innate-immunity"
-          ],
-          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
-        },
-        "zh-TW": {
-          "title": "DROSHA 依賴性 AIM2 發炎體活化參與特發性肺纖維化期間的肺部發炎",
-          "description": "在 IPF 中，DROSHA 在肺泡巨噬細胞中升高，並促進 AIM2 發炎體活化、caspase-1 切割以及 IL-1β/IL-18 釋放；DROSHA 缺失可抑制此肺部發炎。將微處理複體功能障礙連結至先天免疫發炎。",
-          "created": "2026-07-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "inflammaging",
-            "innate-immunity"
-          ],
-          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis_zh-TW.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Shingles vaccine may slow biological aging and reduce inflammation",
-          "description": "A U.S. population-based cohort study (HRS, n>3,800 adults ≥70) found shingles vaccination associated with slower biological aging, lower chronic inflammation (inflammaging), and slower epigenetic/transcriptomic aging — effects persisting ≥4 years.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "inflammaging",
-            "vaccine",
-            "aging"
-          ],
-          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
-        },
-        "zh-TW": {
-          "title": "帶狀皰疹疫苗或可減緩生物性老化並降低發炎",
-          "description": "一項美國基於族群的世代研究（HRS，n>3,800 名 70 歲以上成人）發現，帶狀皰疹疫苗接種與較慢的生物性老化、較低的慢性發炎（發炎性老化）以及較慢的表觀遺傳/轉錄體老化相關——效果持續至少 4 年。",
-          "created": "2026-07-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "adrenochrome-trace",
-            "inflammaging",
-            "vaccine",
-            "aging"
-          ],
-          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation_zh-TW.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
-          "description": "Biochemical and RNAi evidence that DGCR8 (human) and dmDGCR8 (Drosophila) are essential Microprocessor cofactors that recognize pri-miRNAs, interact with Drosha, and are required for pre-/mature miRNA production.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "rna-processing"
-          ],
-          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
-        },
-        "zh-TW": {
-          "title": "人類迪喬治症候群關鍵區域基因 8 及其 D. melanogaster 同源基因對 miRNA 生成不可或缺",
-          "description": "生化合與 RNAi 證據顯示，DGCR8（人類）與 dmDGCR8（果蠅）為不可或缺的微處理複體輔因子，可辨識 pri-miRNA、與 Drosha 交互作用，並對 pre-/成熟 miRNA 產生所需。",
-          "created": "2026-07-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "rna-processing"
-          ],
-          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis_zh-TW.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis_zh-TW.md"
         }
       }
     },

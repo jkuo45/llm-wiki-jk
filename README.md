@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 18_AUG_2026 | 30 | 1621 | 993,948 | 8.83 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 16_AUG_2026 | 19 | 259 | 198,105 | 2.56 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 16_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 16_AUG_2026 | 11 | 280 | 244,149 | 2.77 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 16_AUG_2026 | 2 | 44 | 25,881 | 0.46 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 16_AUG_2026 | 9 | 209 | 202,666 | 1.88 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 16_AUG_2026 | 1 | 94 | 78,773 | 0.98 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 18_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 18_AUG_2026 | 16 | 172 | 305,382 | 3.82 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 24_AUG_2026 | 33 | 1664 | 1,023,885 | 9.10 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 24_AUG_2026 | 19 | 259 | 198,105 | 2.56 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 24_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 24_AUG_2026 | 11 | 280 | 244,149 | 2.77 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 24_AUG_2026 | 2 | 44 | 25,881 | 0.46 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 24_AUG_2026 | 9 | 209 | 202,666 | 1.88 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 24_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,773 | 0.98 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 24_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 24_AUG_2026 | 16 | 172 | 305,382 | 3.82 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 18_AUG_2026 | **117** | **3061** | **2,448,081** | **25.87 MB** |
+| **subtotal** | 24_AUG_2026 | **120** | **3104** | **2,478,018** | **26.14 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -118,8 +118,11 @@
 ## Documents
 
 <details>
-<summary><strong>Documents (117 total)</strong> — click to expand</summary>
+<summary><strong>Documents (120 total)</strong> — click to expand</summary>
 
+- `_link`: [Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Selenocysteine%20tRNA%20methylation%20promotes%20oxidative%20stress%20resistance%20in%20melanoma%20metastasis.md) [[src/notes/_link/_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis.md|wiki]] (24_AUG_2026 11:20 AM PDT)
+- `_link`: [How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20How%20Cysteine%20and%20Selenocysteine%20Guard%20Cells%20Against%20Aging%20and%20Oxidative%20Damage.md) [[src/notes/_link/_document_ - How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage.md|wiki]] (24_AUG_2026 11:20 AM PDT)
+- `_link`: [Ferroptosis past present and future](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Ferroptosis%20past%20present%20and%20future.md) [[src/notes/_link/_document_ - Ferroptosis past present and future.md|wiki]] (24_AUG_2026 10:14 AM PDT)
 - `sirtuins`: [Roles of SIRT3 in aging and aging-related diseases](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Roles%20of%20SIRT3%20in%20aging%20and%20aging-related%20diseases.md) [[src/notes/sirtuins/_document_ - Roles of SIRT3 in aging and aging-related diseases.md|wiki]] (18_AUG_2026 11:02 AM PDT)
 - `senescence`: [Cellular senescence and SASP in tumor progression and therapeutic opportunities](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20SASP%20in%20tumor%20progression%20and%20therapeutic%20opportunities.md) [[src/notes/senescence/_document_ - Cellular senescence and SASP in tumor progression and therapeutic opportunities.md|wiki]] (18_AUG_2026 09:22 AM PDT)
 - `senescence`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pa...](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[src/notes/senescence/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md|wiki]] (18_AUG_2026 09:22 AM PDT)
