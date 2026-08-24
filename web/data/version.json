@@ -1,6 +1,8 @@
 {
   "generated": "2026-08-22 17:21:34",
   "hash": "735723dfbf371c56",
+  "graph_build": "867a5ae5fdb8a46c",
+  "graph_stats": "2,596 nodes / 3,737 edges",
   "files": [
     "articles.json",
     "edges.json",

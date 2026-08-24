@@ -1,3 +1,9 @@
+<!--
+  Entity descriptions are sourced from the canonical knowledge graph
+  graphify-out/graph.json — build 867a5ae5fdb8a46c (2,596 nodes / 3,737 edges).
+  The frontend serves the derived web/data/nodes.json (same build); the backend
+  reads graphify-out/graph.json directly. web/data/graph.json has been retired.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +54,7 @@
 .callout-quote     { border-left-color:var(--dim); }
  a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
  span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
-/* Entities backed by a graph.json description get a hover tooltip + click-to-expand
+/* Entities backed by a graphify-out/graph.json description get a hover tooltip + click-to-expand
    modal, mirroring the reader/prompt panel behaviour. */
 .task-entity-link { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); cursor:help; }
 .task-entity-link:hover { color:var(--teal-hover); }
@@ -160,17 +166,18 @@ async function loadWikiResolver() {
   return (label) => byBase.get(label.toLowerCase()) || '';
 }
 
-// Load entity descriptions straight from graph.json (every node carries one),
-// keyed by label + lowercase label, so [[Entity]] links can show a brief
-// excerpt on hover — mirroring the reader/prompt panel. zh-TW variants are
-// kept separately and only used when a real translation exists.
+// Load entity descriptions straight from graphify-out/graph.json (every node
+// carries one), keyed by label + lowercase label, so [[Entity]] links can show
+// a brief excerpt on hover — mirroring the reader/prompt panel. The frontend
+// serves the derived web/data/nodes.json (same build). zh-TW variants are kept
+// separately and only used when a real translation exists.
 async function loadEntityDescriptions() {
   const byLabel = new Map();
   const byLabelZh = new Map();
   try {
-    const resp = await fetch('../data/graph.json?v=' + Date.now());
+    const resp = await fetch('../data/nodes.json?v=' + Date.now());
     const g = await resp.json();
-    (g.nodes || []).forEach((n) => {
+    (Array.isArray(g) ? g : (g.nodes || [])).forEach((n) => {
       if (!n.description) return;
       if (!byLabel.has(n.label)) byLabel.set(n.label, n.description);
       const lo = n.label.toLowerCase();
@@ -181,7 +188,7 @@ async function loadEntityDescriptions() {
         if (!byLabelZh.has(lo)) byLabelZh.set(lo, zh);
       }
     });
-  } catch (e) { /* graph.json unavailable → entities stay plain links */ }
+  } catch (e) { /* graphify-out/graph.json (via nodes.json) unavailable → entities stay plain links */ }
   return { byLabel, byLabelZh };
 }
 
@@ -194,7 +201,7 @@ function wikiKeyFor(label, byLabel) {
 }
 
 // ------------------------------------------------------------
-// Wiki entity tooltip + expand modal (graph.json descriptions)
+// Wiki entity tooltip + expand modal (graphify-out/graph.json descriptions)
 // ------------------------------------------------------------
 const wikiTooltipEl = document.getElementById('wiki-tooltip');
 const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
@@ -297,7 +304,7 @@ if (!src) {
     const content = document.getElementById('content');
     content.innerHTML = renderMarkdown(md, { wikiHref });
 
-    // Upgrade [[Entity]] links that have a graph.json description into
+    // Upgrade [[Entity]] links that have a graphify-out/graph.json description into
     // tooltip-enabled entity links (the rest keep their GitHub fallback).
     activeUiLang = src.includes('/zh-TW/') ? 'zh-TW' : 'en-US';
     activeByLabel = entity.byLabel;
@@ -413,7 +420,7 @@ if (!src) {
   }
 }
 </script>
-<!-- Wiki entity tooltip + expand modal (graph.json descriptions) -->
+<!-- Wiki entity tooltip + expand modal (graphify-out/graph.json descriptions) -->
 <div id="wiki-tooltip"></div>
 <div id="wiki-modal-overlay">
   <div id="wiki-modal">
