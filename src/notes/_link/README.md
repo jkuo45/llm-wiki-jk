@@ -3,11 +3,11 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1563 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1570 entities** across **110 categories** and **32 documents**.
 
 > [!note]
 > `_link` index. Total entities: 1563 | Categories: 110 | Documents: 32
@@ -149,7 +149,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[FoxO1]] | Protein | Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesis, and beta-cell function. |
 | [[FOXO3a]] | Protein | Forkhead box O3 (FOXO3A) is a transcription factor involved in regulating genes related to apoptosis, cell cycle progression, and oxidative stress resistance. Deacetylation of FOXO3A by sirtuins li... |
 | [[FOXO4]] | Protein | FOXO4 (Forkhead Box O4) is a transcription factor belonging to the FOXO family, involved in cellular senescence, stress response, and Autophagy. |
-| [[FSP1]] | Protein | Overview: FSP1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
+| [[FSP1]] | Protein | Ferroptosis suppressor protein 1 (formerly AIFM2), a plasma-membrane flavoprotein that uses NAD(P)H to reduce ubiquinone (CoQ10) to ubiquinol, a lipophilic radical-trapping antioxidant; a GPX4-independent, parallel brake on ferroptosis. |
+| [[AIFM2]] | Gene | AIFM2 (apoptosis-inducing factor mitochondria-associated 2) is the gene encoding FSP1; originally described as pro-apoptotic, renamed ferroptosis suppressor protein 1. |
 | [[FUNDC1]] | Protein | Outer mitochondrial membrane protein that functions as a receptor for ubiquitin-independent mitophagy, particularly under hypoxic conditions. |
 | [[Fzo]] | Protein | Drosophila fuzzy onion protein, the ancestral ortholog of mammalian MFN1 and MFN2. |
 | [[G3BP1]] | Protein | Ras-GAP SH3-domain-binding protein 1, a stress-granule scaffold that assists cGAS recognition of cytoplasmic chromatin fragments to trigger SASP via cGAS–STING. |
@@ -366,10 +367,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ZFP36L1]] | Protein | Zinc finger protein 36 C3H1-like 1 (TTP-family RNA-binding protein) that degrades AU-rich-element mRNAs; inhibited by MK2 to stabilize SASP transcripts. |
 | [[β-Catenin]] | Protein | β-Catenin is a dual-function protein central to canonical Wnt signaling as a transcriptional coactivator and to cell adhesion as a component of adherens junctions. Its transcriptional activity is s... |
 
-### Enzyme (192)
+### Enzyme (193)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[HMG-CoA reductase]] | Enzyme | Rate-limiting enzyme of the mevalonate pathway; statin target whose inhibition lowers CoQ10, converging on FSP1 to sensitize ferroptosis. |
 | [[FTSJ1]] | Enzyme | X-linked tRNA 2′-O-methyltransferase that installs the Um34 modification on tRNA[Ser]Sec, required for efficient UGA recoding of selenocysteine. |
 | [[Deiodinase]] | Enzyme | Iodothyronine deiodinases (DIO1–DIO3) — selenium-dependent selenoenzymes that activate/inactivate thyroid hormone; each contains an essential selenocysteine. |
 | [[PSTK]] | Enzyme | O-phosphoseryl-tRNA kinase that phosphorylates Ser-tRNA[Ser]Sec to O-phosphoseryl-tRNA[Ser]Sec in selenocysteine biosynthesis. |
@@ -643,10 +645,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[LKB1]] | Kinase | Liver kinase B1 (STK11) is a tumor suppressor serine/threonine kinase and the primary upstream kinase activating AMPK under energy stress; deacetylated by SIRT1 and SIRT3 to coordinate metabolic ad... |
 
-### Biological Molecule (78)
+### Biological Molecule (79)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Vitamin K]] | Biological Molecule | Naphthoquinone group (phylloquinone, menaquinone) whose reduced form (VKH2) is an FSP1-generated radical-trapping antioxidant via the non-canonical vitamin K cycle. |
 | [[Proteasome]] | Biological Molecule | The 20S Proteasome is a core catalytic particle of the ubiquitin-proteasome system that degrades oxidized, misfolded, and damaged proteins independently of ubiquitination, serving as a primary ... |
 | [[Acetate]] | Biological Molecule | Acetate is a two-carbon short-chain fatty acid and the most abundant SCFA in the gut, playing a role in lipid metabolism and systemic immune regulation. |
 | [[Acetyl-CoA]] | Biological Molecule | Acetyl-coenzyme A (Acetyl-CoA) is a central metabolic intermediate that serves as the acetyl group donor for Histone Acetylation. |
@@ -703,7 +706,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[N6-methyladenosine]] | Biological Molecule | The most abundant internal mRNA methylation mark (m6A), deposited by the METTL3-METTL14 writer complex and implicated in senescence-associated transcriptomic and 3D-genome remodeling. |
 | [[NADH]] | Biological Molecule | Biochemical properties: NADH is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux an... |
 | [[NADP+]] | Biological Molecule | NADP+ is the oxidized cousin of NAD+ that accepts electrons to form NADPH, fueling reductive biosynthesis and glutathione-dependent antioxidant defense. |
-| [[NADPH]] | Biological Molecule | Biochemical properties: NADPH is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux a... |
+| [[NADPH]] | Biological Molecule | Reduced nicotinamide adenine dinucleotide phosphate, the principal cellular reducing equivalent; fuels FSP1 (ubiquinone→ubiquinol) and glutathione reductase (GSH recycling), gating both ferroptosis-defense axes. |
 | [[Neurotransmitters]] | Biological Molecule | Neurotransmitters are endogenous chemical messengers that transmit signals across a Synapse from one neuron to another. |
 | [[Niacin]] | Biological Molecule | Biochemical properties: Niacin is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux ... |
 | [[Nicotinamide Riboside]] | Biological Molecule | Nicotinamide Riboside (NR) is a naturally occurring pyridine nucleoside form of vitamin B3 (niacin) and a direct precursor to NAD+ (nicotinamide adenine dinucleotide). NR is phosphorylated by nicot... |
@@ -722,14 +725,16 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Transposable Elements]] | Biological Molecule | Transposable elements ("jumping genes") are mobile DNA sequences whose age-related derepression drives genomic instability and inflammation. |
 | [[Triiodothyronine]] | Biological Molecule | The biologically active thyroid hormone, produced largely by peripheral deiodination of thyroxine (T4). T3 regulates basal metabolic rate via genomic and non-genomic actions across nearly all tissues. |
 | [[Trimethylamine N-oxide]] | Biological Molecule | Gut microbiota-derived metabolite (TMAO) implicated in cardiovascular inflammation; its effects are attenuated by SIRT1 in vascular smooth muscle cells. |
-| [[Ubiquinone]] | Biological Molecule | Biochemical properties: Ubiquinone is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic f... |
+| [[Ubiquinone]] | Biological Molecule | Oxidized coenzyme Q10 (CoQ10); the direct FSP1 substrate reduced to ubiquinol, the membrane radical trap, and a non-sterol product of the mevalonate pathway whose loss converges on FSP1. |
 | [[Uric Acid Crystals]] | Biological Molecule | Monosodium urate (MSU) and uric acid crystals are potent NLRP3 inflammasome activators that cause gouty inflammation through lysosomal rupture and IL-1β secretion. |
 | [[Very Low Density Lipoprotein]] | Biological Molecule | Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression to... |
 
-### Chemical Compound (151)
+### Chemical Compound (153)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[FIN56]] | Chemical Compound | Class III ferroptosis inducer that activates squalene synthase, depleting CoQ10 (FSP1 substrate) and promoting GPX4 degradation. |
+| [[iFSP1]] | Chemical Compound | First-in-class, human-specific FSP1 inhibitor (F360 pocket, IC50 ~103 nM) that synergizes with GPX4 inhibitors to induce ferroptosis. |
 | [[2-Chlorophenothiazine]] | Chemical Compound | 2-Chlorophenothiazine is a chlorinated phenothiazine nucleus lacking amine side chains; it is a direct mitochondrial ROS scavenger with nanomolar neuroprotection but no alternative electron-transfe... |
 | [[3-Hydroxykynurenine]] | Chemical Compound | 3-Hydroxykynurenine (3-HK) is a redox-active intermediate of the kynurenine pathway produced from kynurenine by kynurenine 3-monooxygenase, and serves as a precursor for quinolinic acid. |
 | [[5Z-7-oxozeaenol]] | Chemical Compound | A selective TAK1 inhibitor that diminishes the SASP by restraining the ATM-TRAF6-TAK1 axis; a pharmacological comparator for apigenin's ASAP→SASP blockade. |
@@ -1185,10 +1190,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Serotonin-Norepinephrine Reuptake Inhibitors]] | Medical Product | Serotonin-norepinephrine reuptake inhibitors (SNRIs) are antidepressants raising synaptic serotonin and norepinephrine; dangerous with MAOIs. |
 | [[Tricyclic Antidepressant]] | Medical Product | Tricyclic antidepressants (TCAs) are an older antidepressant class with serotonergic and anticholinergic effects; dangerous with MAOIs. |
 
-### Biological Process (144)
+### Biological Process (145)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Myristoylation]] | Biological Process | N-terminal myristoyl attachment that tethers FSP1 to the plasma membrane, positioning its ubiquinol-regenerating activity where lipid peroxidation begins. |
 | [[Metastatic colonization]] | Biological Process | Final, rate-limiting step of metastasis — growth of disseminated cells into distant lesions; restricted by oxidative stress, supported by selenocysteine translation. |
 | [[Adaptive Immune System]] | Biological Process | Antigen-specific immunity (T/B cells) shaped by cGAS-STING priming and chemokine-driven CNS infiltration. |
 | [[adipogenesis]] | Biological Process | Biological process of differentiation of mesenchymal preadipocytes into lipid-accumulating mature adipocytes. |
@@ -1344,10 +1350,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Methylation]] | Chemical Process | Methylation is a fundamental biochemical and epigenetic process involving the transfer of a methyl group to a substrate. It is critical for the regulation of gene expression, neurotransmitter m... |
 | [[Oxidation]] | Chemical Process | Oxidation is a concept related to Adrenochrome and catecholamine metabolism. |
 
-### Scientific Concept (76)
+### Scientific Concept (77)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Radical-trapping Antioxidant]] | Scientific Concept | Molecule that terminates peroxidation chains by donating H to a lipid peroxyl radical; endogenous examples include ubiquinol, VKH2, and vitamin E. |
 | [[Alpha Diversity]] | Scientific Concept | Alpha diversity is a measure of the richness and evenness of species within a single community or sample, often used to describe the internal diversity of the gut microbiome. |
 | [[Antagonistic Pleiotropy]] | Scientific Concept | An evolutionary concept wherein a trait beneficial to early-life fitness becomes detrimental later in life, proposed as the reason RCM evolved as a short-term survival response that drives aging. |
 | [[Beta Diversity]] | Scientific Concept | Beta diversity is a measure of the difference in species composition between different communities or samples, allowing for comparisons across various stages of aging or environmental conditions. |

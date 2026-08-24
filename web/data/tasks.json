@@ -1,5 +1,5 @@
 {
-  "generated": "24_AUG_2026 11:40 AM PDT",
+  "generated": "24_AUG_2026 12:42 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,28 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "FSP1–CoQ10–NAD(P)H Ferroptosis Axis (deep dive)",
+          "description": "Synthesis of the Doll et al. (2019) discovery that FSP1 uses NAD(P)H to regenerate ubiquinone (CoQ10) to ubiquinol at the plasma membrane, acting as a GPX4-independent parallel brake on ferroptosis, and how mevalonate-pathway loss of ubiquinone converges on FSP1 to predict ferroptosis sensitivity.",
+          "created": "2026-08-24",
+          "updated": "2026-08-24",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "fsp1",
+            "coenzyme-q10",
+            "lipid-peroxidation",
+            "mevalonate-pathway"
+          ],
+          "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+          "path": "tasks/en-US/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
         }
       }
     },
