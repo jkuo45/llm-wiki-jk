@@ -70,6 +70,7 @@
 #wiki-modal-header .wiki-modal-actions { display:flex; gap:8px; align-items:center; }
 .wiki-modal-link { color:var(--teal); text-decoration:none; font-size:13px; display:inline-flex; align-items:center; gap:4px; padding:4px 8px; border-radius:4px; border:1px solid var(--line2); }
 .wiki-modal-link:hover { border-color:var(--teal); }
+.wiki-modal-link[disabled] { opacity:.45; cursor:default; pointer-events:none; }
 #wiki-modal-close { background:none; border:none; color:var(--dim); font-size:22px; cursor:pointer; line-height:1; }
 #wiki-modal-close:hover { color:var(--text); }
 #wiki-modal-body { padding:16px 20px; overflow-y:auto; }
@@ -277,6 +278,7 @@ function openWikiModal(key, gh) {
       '<p>No summary is stored for this entity. Open the full note on GitHub.</p>';
   }
   wikiModalLink.href = ghUrl || '#';
+  wikiModalLink.toggleAttribute('disabled', !ghUrl);
   wikiModalOverlay.classList.add('visible');
   hideWikiTooltip();
 }
@@ -451,7 +453,7 @@ if (!src) {
     <div id="wiki-modal-header">
       <h2 id="wiki-modal-title"></h2>
       <div class="wiki-modal-actions">
-        <a id="wiki-modal-link" href="#" target="_blank" rel="noopener" class="wiki-modal-link">GitHub <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>
+        <a id="wiki-modal-link" href="#" target="_blank" rel="noopener" class="wiki-modal-link">Full Note <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>
         <button id="wiki-modal-close" title="Close">&times;</button>
       </div>
     </div>

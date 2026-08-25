@@ -654,7 +654,9 @@ function openWikiModal(wikiKey) {
   const title = wikiKey.replace(/_/g, ' ');
   wikiModalTitle.textContent = title;
   wikiModalBody.innerHTML = renderMarkdown(desc);
-  wikiModalLink.href = noteUrl(wikiKey) || '#';
+  const ghHref = noteUrl(wikiKey);
+  wikiModalLink.href = ghHref || '#';
+  wikiModalLink.toggleAttribute('disabled', !ghHref);
   wikiModalOverlay.classList.add('visible');
   hideWikiTooltip();
 }

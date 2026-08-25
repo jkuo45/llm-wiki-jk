@@ -146,6 +146,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #wiki-modal-header .wiki-modal-actions { display: flex; gap: 8px; align-items: center; }
 #wiki-modal-header .wiki-modal-link { color: #7cb3d4; text-decoration: none; font-size: 13px; display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 4px; border: 1px solid #3a3a5e; transition: all 0.15s; white-space: nowrap; }
 #wiki-modal-header .wiki-modal-link:hover { border-color: #4E79A7; background: rgba(78,121,167,0.1); }
+#wiki-modal-header .wiki-modal-link[disabled] { opacity: 0.45; cursor: default; pointer-events: none; }
 #wiki-modal-close {
   background: none; border: none; color: #888; font-size: 24px; cursor: pointer;
   padding: 4px 8px; line-height: 1; transition: color 0.15s;

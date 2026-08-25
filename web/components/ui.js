@@ -131,9 +131,12 @@ function openNodeWikiModal(anchor) {
   if (desc) {
     wikiModalBody.innerHTML = renderMarkdown(desc);
   } else {
-    wikiModalBody.innerHTML = '<p>No summary is stored for this entity. Open the full note on GitHub.</p>';
+    wikiModalBody.innerHTML = gh
+      ? '<p>No summary is stored for this entity. Open the full note on GitHub.</p>'
+      : '<p>No summary is stored for this entity.</p>';
   }
   wikiModalLink.href = gh || '#';
+  wikiModalLink.toggleAttribute('disabled', !gh);
   wikiModalOverlay.classList.add('visible');
   hideNodeWikiTooltip();
 }

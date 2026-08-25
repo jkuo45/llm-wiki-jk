@@ -105,6 +105,7 @@ body {
 #wiki-modal-header h2 { color: #22304A; }
 #wiki-modal-header .wiki-modal-link { color: #2563A8; border-color: #CCC5B2; }
 #wiki-modal-header .wiki-modal-link:hover { border-color: #0F766E; background: rgba(15, 118, 110, 0.08); }
+#wiki-modal-header .wiki-modal-link[disabled] { opacity: 0.45; cursor: default; pointer-events: none; }
 #wiki-modal-close { color: #7C8698; }
 #wiki-modal-close:hover { color: #22304A; }
 #wiki-modal-body { color: #4B5563; }
