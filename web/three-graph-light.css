@@ -468,9 +468,10 @@ body {
 #prompt-filter-toggle { color: #2563A8; border-color: #CCC5B2; }
 #prompt-filter-toggle input { accent-color: #2563A8; }
 
-/* Notes panel */
-#notes-panel::before { background: rgba(24, 28, 38, 0.45); }
-#notes-box { background: #FFFFFF; border-color: #CCC5B2; box-shadow: 0 12px 48px rgba(34, 48, 74, 0.22); }
+/* Notes panel — full-viewport overlay like the Reader / Analysis panel */
+#notes-panel { background: #FFFFFF; }
+#notes-panel::before { display: none; }
+#notes-box { background: #FFFFFF; border: none; border-radius: 0; box-shadow: none; }
 #notes-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
 #notes-header button#notes-close { color: #7C8698; }
 #notes-header button#notes-close:hover { color: #C0392B; background: rgba(192, 57, 43, 0.1); }
@@ -500,6 +501,8 @@ body {
 .notes-card .fig-label { color: var(--teal); }
 .notes-card-title { color: #22304A; }
 .notes-card .fig-label .fig-label-date { color: #7C8698; }
+.notes-star { color: #5b6172; }
+.notes-star.on { color: #E0A800; }
 .notes-card .caption { color: #7C8698; }
 .notes-card .context { color: #7C8698; border-top-color: #E2DCCE; }
 .notes-card-meta { color: #7C8698; }

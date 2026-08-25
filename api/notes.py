@@ -263,6 +263,7 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
         "updated": n.get("updated") or _today(),
         "author": n.get("author") or "you",
         "draft": n.get("draft", False),
+        "starred": bool(n.get("starred", False)),
     }
     if with_private:
         pub["image_dir"] = str(_note_dir(n["id"]))
