@@ -1,5 +1,5 @@
 {
-  "generated": "25_AUG_2026 04:11 PM PDT",
+  "generated": "25_AUG_2026 04:20 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -47,7 +47,7 @@
           "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
           "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
           "created": "2026-08-24",
-          "updated": "2026-08-24",
+          "updated": "2026-08-25",
           "tags": [
             "task-output",
             "adrenochrome",

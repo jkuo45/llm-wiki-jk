@@ -94,11 +94,12 @@
     return (days / 365).toFixed(1) + 'y';
   }
   function bucket(created){
-    if (!created) return 2;
+    if (!created) return 3;
     const days = (Date.now() - new Date(created).getTime()) / 864e5;
-    return days <= 7 ? 0 : days <= 30 ? 1 : 2;
+    return days <= 7 ? 1 : days <= 30 ? 2 : 3;
   }
   const BUCKETS = [
+    ['Starred', '星標', ''],
     ['Created this week', '本週建立', 'fresh'],
     ['Created this month', '本月建立', 'recent'],
     ['Older', '較早', 'old'],
@@ -124,7 +125,7 @@
             zhTitle: zh ? zh.title : '',
             created,
             age: relAge(created),
-            bucket: bucket(created),
+            bucket: t.starred === true ? 0 : bucket(created),
           };
         })
         .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
