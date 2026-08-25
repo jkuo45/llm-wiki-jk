@@ -183,6 +183,77 @@ async def origin_gate(request: Request, call_next):
     return JSONResponse(status_code=403, content={"detail": "Origin not allowed"})
 
 
+# ---------------------------------------------------------------------------
+# Rate limiting (defense-in-depth on the PUBLIC write endpoints)
+# ---------------------------------------------------------------------------
+# The notes write routes are unauthenticated by design ("auth lands later"), so
+# we cap them per client IP. This is an in-process fixed-window limiter: correct
+# for the single-worker deployment (see wiki-api.service). If the server is ever
+# scaled to multiple workers, swap this state for a shared store (e.g. Redis)
+# — the interface (keyed counters) stays the same.
+from collections import defaultdict, deque  # noqa: E402
+
+_RATE_STATE: dict[str, deque] = defaultdict(deque)
+_RATE_LOCK = asyncio.Lock()
+
+
+def _client_ip(request: Request) -> str:
+    """Best-effort client IP behind Cloudflare / a reverse proxy."""
+    fwd = request.headers.get("x-forwarded-for")
+    if fwd:
+        return fwd.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
+
+
+# path -> (max requests, window seconds). More specific paths take precedence.
+_RATE_LIMITS: dict[str, tuple[int, int]] = {
+    "/v1/notes/upload": (8, 60),
+    "/v1/notes/transcribe": (20, 60),
+    "/v1/notes/": (60, 60),  # annotations / metadata edits
+    "/v1/intent": (40, 60),
+    "/v1/execute/stream": (40, 60),
+    "/v1/session/reset": (40, 60),
+}
+
+
+def _limit_for(path: str) -> tuple[int, int] | None:
+    if path in _RATE_LIMITS:
+        return _RATE_LIMITS[path]
+    if path.startswith("/v1/notes/"):
+        return _RATE_LIMITS["/v1/notes/"]
+    return None
+
+
+@app.middleware("http")
+async def rate_limit_middleware(request: Request, call_next):
+    limit = _limit_for(request.url.path)
+    if limit is None or request.method != "POST":
+        return await call_next(request)
+
+    key = f"{request.url.path}:{_client_ip(request)}"
+    max_hits, window = limit
+    now = time.monotonic()
+    dq = _RATE_STATE[key]
+    # Drop hits outside the window.
+    while dq and dq[0] <= now - window:
+        dq.popleft()
+    # If everything expired, drop the key so the dict doesn't grow across many
+    # distinct clients, then grab a fresh empty deque.
+    if not dq:
+        _RATE_STATE.pop(key, None)
+        dq = _RATE_STATE[key]
+    if len(dq) >= max_hits:
+        retry = int(window - (now - dq[0])) if dq else window
+        logger.warning(f"Rate limit hit for {key}")
+        return JSONResponse(
+            status_code=429,
+            headers={"Retry-After": str(retry)},
+            content={"detail": "Rate limit exceeded. Try again later."},
+        )
+    dq.append(now)
+    return await call_next(request)
+
+
 @app.exception_handler(Exception)
 async def unhandled_exception_handler(request: Request, exc: Exception):
     """Convert unhandled server errors into clean JSON so the CORS middleware
