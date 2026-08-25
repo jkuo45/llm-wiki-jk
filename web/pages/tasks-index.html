@@ -96,6 +96,13 @@
 .search-clear:hover { color: var(--oxblood); border-color: var(--oxblood); }
 mark.search-hit { background: transparent; color: var(--oxblood); }
 
+/* Mobile: keep the bar in normal flow so opening the keyboard doesn't
+   snap the viewport — sticky elements re-anchor when the visual viewport
+   resizes for the on-screen keyboard. */
+@media (max-width: 640px) {
+  .search-row { position: static; padding-top: 8px; }
+}
+
 .empty-note { font-style: italic; color: var(--mute); padding: 24px 0; }
 @media (max-width: 640px) { .task-card { padding: 14px 14px 12px; } }
 </style>
