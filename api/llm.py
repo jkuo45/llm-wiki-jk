@@ -39,6 +39,36 @@ UTILITY_AGENT = os.environ.get("OPENCODE_UTILITY_AGENT", "wiki-util")
 _AUTH = (OPENCODE_USERNAME, OPENCODE_PASSWORD) if OPENCODE_PASSWORD else None
 
 
+# A single shared client keeps one connection pool to opencode so every
+# health/parse/translate/OCR turn reuses TCP+keepalive instead of opening a new
+# pool per call (the old `async with _client()` design churned 5+ sockets per
+# typical turn). The client is never used as a context manager here, so it is
+# not closed between calls; close_client() tears it down on app shutdown.
+_CLIENT: httpx.AsyncClient | None = None
+
+
+def _client(timeout: float | None = 30.0) -> httpx.AsyncClient:
+    global _CLIENT
+    if _CLIENT is None:
+        _CLIENT = httpx.AsyncClient(
+            base_url=OPENCODE_URL,
+            auth=_AUTH,
+            timeout=httpx.Timeout(connect=5.0, read=30.0, write=30.0, pool=10.0),
+            limits=httpx.Limits(
+                max_connections=20, max_keepalive_connections=10
+            ),
+        )
+    return _CLIENT
+
+
+async def close_client() -> None:
+    """Close the shared opencode client (called from the app lifespan)."""
+    global _CLIENT
+    if _CLIENT is not None:
+        await _CLIENT.aclose()
+        _CLIENT = None
+
+
 # ----------------------------------------------------------------------------
 # Language detection
 # ----------------------------------------------------------------------------
@@ -80,10 +110,10 @@ class OpencodeUnavailable(RuntimeError):
 async def health() -> dict:
     """Return opencode server health, or raise OpencodeUnavailable."""
     try:
-        async with _client(timeout=5.0) as c:
-            r = await c.get("/global/health")
-            r.raise_for_status()
-            return r.json()
+        c = _client()
+        r = await c.get("/global/health", timeout=5.0)
+        r.raise_for_status()
+        return r.json()
     except Exception as e:
         raise OpencodeUnavailable(str(e)) from e
 
@@ -91,10 +121,10 @@ async def health() -> dict:
 async def create_session(title: str = "graph-prompt") -> str:
     """Create an opencode session and return its id."""
     try:
-        async with _client() as c:
-            r = await c.post("/session", json={"title": title})
-            r.raise_for_status()
-            return r.json()["id"]
+        c = _client()
+        r = await c.post("/session", json={"title": title}, timeout=30.0)
+        r.raise_for_status()
+        return r.json()["id"]
     except Exception as e:
         raise OpencodeUnavailable(f"create_session failed: {e}") from e
 
@@ -102,8 +132,8 @@ async def create_session(title: str = "graph-prompt") -> str:
 async def delete_session(session_id: str) -> None:
     """Best-effort session teardown."""
     try:
-        async with _client(timeout=10.0) as c:
-            await c.delete(f"/session/{session_id}")
+        c = _client()
+        await c.delete(f"/session/{session_id}", timeout=10.0)
     except Exception as e:
         logger.warning(f"delete_session({session_id}) failed: {e}")
 
@@ -111,8 +141,8 @@ async def delete_session(session_id: str) -> None:
 async def abort_session(session_id: str) -> None:
     """Best-effort abort of an in-flight turn."""
     try:
-        async with _client(timeout=10.0) as c:
-            await c.post(f"/session/{session_id}/abort")
+        c = _client()
+        await c.post(f"/session/{session_id}/abort", timeout=10.0)
     except Exception as e:
         logger.warning(f"abort_session({session_id}) failed: {e}")
 
@@ -126,13 +156,14 @@ async def _prompt_sync(
     session_id: str, text: str, timeout: float = 60.0, agent: str = UTILITY_AGENT
 ) -> str:
     """Send a prompt and wait for the full reply. Returns concatenated text."""
-    async with _client(timeout=timeout) as c:
-        r = await c.post(
-            f"/session/{session_id}/message",
-            json={"agent": agent, "parts": [{"type": "text", "text": text}]},
-        )
-        r.raise_for_status()
-        data = r.json()
+    c = _client()
+    r = await c.post(
+        f"/session/{session_id}/message",
+        json={"agent": agent, "parts": [{"type": "text", "text": text}]},
+        timeout=timeout,
+    )
+    r.raise_for_status()
+    data = r.json()
 
     return "".join(
         p.get("text", "")
@@ -204,27 +235,27 @@ async def stream_answer(
         return {"type": kind, "text": full[len(have):]}
 
     try:
-        async with _client(timeout=None) as c:
-            # Subscribe BEFORE prompting so no events are missed.
-            async with c.stream("GET", "/event") as events:
-                if events.status_code != 200:
-                    yield {"type": "error", "text": "Prompt service unavailable."}
-                    return
+        c = _client()
+        # Subscribe BEFORE prompting so no events are missed.
+        async with c.stream("GET", "/event") as events:
+            if events.status_code != 200:
+                yield {"type": "error", "text": "Prompt service unavailable."}
+                return
 
-                post = await c.post(
-                    f"/session/{session_id}/prompt_async",
-                    json={
-                        "agent": agent,
-                        "parts": [{"type": "text", "text": message}],
-                    },
-                    timeout=30.0,
+            post = await c.post(
+                f"/session/{session_id}/prompt_async",
+                json={
+                    "agent": agent,
+                    "parts": [{"type": "text", "text": message}],
+                },
+                timeout=30.0,
+            )
+            if post.status_code >= 400:
+                logger.error(
+                    f"prompt_async failed: {post.status_code} {post.text[:200]}"
                 )
-                if post.status_code >= 400:
-                    logger.error(
-                        f"prompt_async failed: {post.status_code} {post.text[:200]}"
-                    )
-                    yield {"type": "error", "text": "Prompt service unavailable."}
-                    return
+                yield {"type": "error", "text": "Prompt service unavailable."}
+                return
 
                 lines = events.aiter_lines()
                 while True:

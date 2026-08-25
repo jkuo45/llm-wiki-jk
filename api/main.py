@@ -19,6 +19,7 @@ from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
 from fastapi import APIRouter, FastAPI, HTTPException, Request
+from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
@@ -30,10 +31,12 @@ from .graph_ops import (
     graph_path,
     graph_query,
     match_nodes_in_text,
+    warm_index,
 )
 from .notes import router as notes_router
 from .llm import (
     OpencodeUnavailable,
+    close_client,
     create_session,
     delete_session,
     detect_lang,
@@ -114,6 +117,11 @@ async def lifespan(app: FastAPI):
     except OpencodeUnavailable as e:
         logger.error(f"opencode server NOT reachable at startup: {e}")
 
+    # Warm graph-global indexes (centrality metrics + entity matcher) off the
+    # event loop. Until this finishes, the first analyze/query calls compute
+    # inline (slower but correct) — see graph_ops.warm_index().
+    asyncio.create_task(asyncio.to_thread(warm_index))
+
     reaper = asyncio.create_task(_reap_sessions())
     try:
         yield
@@ -124,6 +132,7 @@ async def lifespan(app: FastAPI):
             _sessions.clear()
         for sid in ids:
             await delete_session(sid)
+        await close_client()
 
 
 app = FastAPI(
@@ -489,12 +498,16 @@ async def execute_stream(request: ExecuteRequest):
                     done_seen = True
                     # Highlights must land before the client stops listening.
                     if text_buf:
-                        highlights = match_nodes_in_text(text_buf, request.message)
+                        highlights = await run_in_threadpool(
+                            match_nodes_in_text, text_buf, request.message
+                        )
                         if highlights["highlight_nodes"]:
                             yield _sse({"type": "highlight", **highlights})
                 yield _sse(chunk)
             if not done_seen and text_buf:
-                highlights = match_nodes_in_text(text_buf, request.message)
+                highlights = await run_in_threadpool(
+                    match_nodes_in_text, text_buf, request.message
+                )
                 if highlights["highlight_nodes"]:
                     yield _sse({"type": "highlight", **highlights})
 
@@ -504,13 +517,14 @@ async def execute_stream(request: ExecuteRequest):
             headers=SSE_HEADERS,
         )
 
-    # Graph ops — computed synchronously, emitted as a single cumulative event.
+    # Graph ops — CPU-bound networkx work. Offload to a thread so the single
+    # worker event loop keeps streaming prompts / heartbeats / health checks.
     if request.intent == "greeting":
         result = _greeting_result()
     elif request.intent == "query" and request.question:
-        result = graph_query(request.question)
+        result = await run_in_threadpool(graph_query, request.question)
     elif request.intent == "explain" and request.node:
-        result = graph_explain(request.node)
+        result = await run_in_threadpool(graph_explain, request.node)
     elif request.intent == "path" and (
         (request.nodes and len(request.nodes) >= 2)
         or (request.from_node and request.to_node)
@@ -520,31 +534,13 @@ async def execute_stream(request: ExecuteRequest):
             if request.nodes and len(request.nodes) >= 2
             else [request.from_node, request.to_node]
         )
-        result = graph_path(waypoints)
+        result = await run_in_threadpool(graph_path, waypoints)
     elif request.intent == "analyze" and request.nodes:
-        result = graph_analyze(
-            request.nodes, request.message or request.analysis or ""
+        result = await run_in_threadpool(
+            graph_analyze, request.nodes, request.message or request.analysis or ""
         )
-        # Layer an LLM narrative over the computed summary (best-effort).
-        analysis_data = result.get("analysis_data")
-        if analysis_data:
-            try:
-                narrative = await write_analysis_narrative(
-                    analysis_data, request.analysis or ""
-                )
-                if narrative:
-                    result = {**result, "text": narrative}
-            except Exception as e:  # noqa: BLE001 - keep computed text on failure
-                logger.error(f"analyze narrative failed: {e}")
     else:
         result = _unknown_result()
-
-    if (
-        request.lang
-        and request.lang != "en"
-        and request.intent in ("query", "explain", "path", "analyze")
-    ):
-        result["text"] = await translate_text(result["text"], request.message)
 
     logger.info(
         f"Reply nodes: intent={request.intent}, "
@@ -553,20 +549,48 @@ async def execute_stream(request: ExecuteRequest):
     )
 
     async def _single():
+        # Narrative + translation run INSIDE the stream so _with_heartbeat keeps
+        # the proxy alive across these (up to ~210s of) network waits; the client
+        # receives the single cumulative text event only once they finish.
+        final = result
+        if request.intent == "analyze" and (analysis_data := result.get("analysis_data")):
+            try:
+                narrative = await write_analysis_narrative(
+                    analysis_data, request.analysis or ""
+                )
+                if narrative:
+                    final = {**result, "text": narrative}
+            except Exception as e:  # noqa: BLE001 - keep computed text on failure
+                logger.error(f"analyze narrative failed: {e}")
+
+        text = final["text"]
+        if (
+            request.lang
+            and request.lang != "en"
+            and request.intent in ("query", "explain", "path", "analyze")
+        ):
+            try:
+                text = await translate_text(text, request.message)
+            except Exception as e:  # noqa: BLE001 - keep untranslated text on failure
+                logger.error(f"analyze translation failed: {e}")
+
         yield _sse(
             {
                 "type": "text",
-                "text": result["text"],
-                "highlight_nodes": result.get("highlight_nodes", []),
-                "highlight_edges": result.get("highlight_edges", []),
-                "primary_node": result.get("primary_node"),
-                "analysis_data": result.get("analysis_data"),
+                "text": text,
+                "highlight_nodes": final.get("highlight_nodes", []),
+                "highlight_edges": final.get("highlight_edges", []),
+                "primary_node": final.get("primary_node"),
+                "analysis_data": final.get("analysis_data"),
             }
         )
         yield _sse({"type": "done", "elapsed": 0})
 
+    # Heartbeat the single-event graph-op response too: the analyze path can
+    # sit idle for the LLM narrative (120s) + translation (90s) before the
+    # first byte, which exceeds Cloudflare's ~100s idle-drop window.
     return StreamingResponse(
-        _single(), media_type="text/event-stream", headers=SSE_HEADERS
+        _with_heartbeat(_single()), media_type="text/event-stream", headers=SSE_HEADERS
     )
 
 
