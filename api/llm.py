@@ -257,102 +257,102 @@ async def stream_answer(
                 yield {"type": "error", "text": "Prompt service unavailable."}
                 return
 
-                lines = events.aiter_lines()
-                while True:
-                    remaining = timeout - (time.monotonic() - start)
-                    if remaining <= 0:
-                        await abort_session(session_id)
-                        yield {"type": "error", "text": "Request timed out."}
-                        return
+            lines = events.aiter_lines()
+            while True:
+                remaining = timeout - (time.monotonic() - start)
+                if remaining <= 0:
+                    await abort_session(session_id)
+                    yield {"type": "error", "text": "Request timed out."}
+                    return
 
-                    try:
-                        line = await asyncio.wait_for(
-                            lines.__anext__(), timeout=remaining
-                        )
-                    except StopAsyncIteration:
-                        break
-                    except asyncio.TimeoutError:
-                        await abort_session(session_id)
-                        yield {"type": "error", "text": "Request timed out."}
-                        return
+                try:
+                    line = await asyncio.wait_for(
+                        lines.__anext__(), timeout=remaining
+                    )
+                except StopAsyncIteration:
+                    break
+                except asyncio.TimeoutError:
+                    await abort_session(session_id)
+                    yield {"type": "error", "text": "Request timed out."}
+                    return
 
-                    if not line.startswith("data: "):
+                if not line.startswith("data: "):
+                    continue
+                try:
+                    event = json.loads(line[6:])
+                except json.JSONDecodeError:
+                    continue
+
+                etype = event.get("type")
+                props = event.get("properties", {})
+
+                # The bus is global; ignore other sessions.
+                evt_session = props.get("sessionID")
+                if evt_session is not None and evt_session != session_id:
+                    continue
+
+                if etype == "message.updated":
+                    info = props.get("info", {})
+                    mid = info.get("id")
+                    if mid:
+                        message_roles[mid] = info.get("role", "")
+
+                elif etype == "message.part.updated":
+                    part = props.get("part", {})
+                    pid = part.get("id")
+                    ptype = part.get("type")
+                    if pid:
+                        part_types[pid] = ptype
+                        if part.get("messageID"):
+                            part_messages[pid] = part["messageID"]
+                        if ptype in ("text", "reasoning"):
+                            snap_text[pid] = part.get("text") or ""
+                    chunk = _flush(part)
+                    if chunk:
+                        yield chunk
+
+                elif etype == "message.part.delta":
+                    if props.get("field") != "text":
                         continue
-                    try:
-                        event = json.loads(line[6:])
-                    except json.JSONDecodeError:
+                    pid = props.get("partID")
+                    kind = part_types.get(pid)
+                    if kind not in ("text", "reasoning"):
                         continue
-
-                    etype = event.get("type")
-                    props = event.get("properties", {})
-
-                    # The bus is global; ignore other sessions.
-                    evt_session = props.get("sessionID")
-                    if evt_session is not None and evt_session != session_id:
+                    if _is_user_part(pid):
                         continue
-
-                    if etype == "message.updated":
-                        info = props.get("info", {})
-                        mid = info.get("id")
-                        if mid:
-                            message_roles[mid] = info.get("role", "")
-
-                    elif etype == "message.part.updated":
-                        part = props.get("part", {})
-                        pid = part.get("id")
-                        ptype = part.get("type")
-                        if pid:
-                            part_types[pid] = ptype
-                            if part.get("messageID"):
-                                part_messages[pid] = part["messageID"]
-                            if ptype in ("text", "reasoning"):
-                                snap_text[pid] = part.get("text") or ""
-                        chunk = _flush(part)
-                        if chunk:
-                            yield chunk
-
-                    elif etype == "message.part.delta":
-                        if props.get("field") != "text":
-                            continue
-                        pid = props.get("partID")
-                        kind = part_types.get(pid)
-                        if kind not in ("text", "reasoning"):
-                            continue
-                        if _is_user_part(pid):
-                            continue
-                        delta = props.get("delta") or ""
-                        if not delta:
-                            continue
-                        # Deltas are incremental slices of a cumulative string. If
-                        # the most recent part.updated snapshot already contains
-                        # this slice, it has been (or will be) relayed by the
-                        # snapshot flush — do not re-emit it or the trace greps
-                        # it twice. Otherwise it is a genuine continuation.
-                        have = sented.get(pid, "")
-                        cand = have + delta
-                        snap = snap_text.get(pid)
-                        if snap and snap.startswith(cand):
-                            sented[pid] = cand
-                            continue
+                    delta = props.get("delta") or ""
+                    if not delta:
+                        continue
+                    # Deltas are incremental slices of a cumulative string. If
+                    # the most recent part.updated snapshot already contains
+                    # this slice, it has been (or will be) relayed by the
+                    # snapshot flush — do not re-emit it or the trace greps
+                    # it twice. Otherwise it is a genuine continuation.
+                    have = sented.get(pid, "")
+                    cand = have + delta
+                    snap = snap_text.get(pid)
+                    if snap and snap.startswith(cand):
                         sented[pid] = cand
-                        yield {"type": kind, "text": delta}
+                        continue
+                    sented[pid] = cand
+                    yield {"type": kind, "text": delta}
 
-                    elif etype == "session.error":
-                        err = props.get("error", {})
-                        logger.error(f"session.error: {err}")
-                        yield {
-                            "type": "error",
-                            "text": "Sorry, I couldn't process that request.",
-                        }
-                        return
+                elif etype == "session.error":
+                    err = props.get("error", {})
+                    logger.error(f"session.error: {err}")
+                    yield {
+                        "type": "error",
+                        "text": "Sorry, I couldn't process that request.",
+                    }
+                    return
 
-                    elif etype == "session.idle":
-                        emitted_done = True
-                        yield {
-                            "type": "done",
-                            "elapsed": round(time.monotonic() - start, 1),
-                        }
-                        return
+                elif etype == "session.idle":
+                    emitted_done = True
+                    yield {
+                        "type": "done",
+                        "elapsed": round(time.monotonic() - start, 1),
+                    }
+                    return
 
     except httpx.ConnectError as e:
         logger.error(f"opencode server unreachable: {e}")
