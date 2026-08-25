@@ -22,11 +22,11 @@ Determinism: candidates are ordered by (-score, a, b) and PPR lists by
 so the artifact participates in the version cache tag without churning it.
 
 Run:
-  uv run --with networkx python3 scripts/05_link_prediction.py
-  uv run --with networkx python3 scripts/05_link_prediction.py --top 20
-  uv run --with networkx --with scipy python3 scripts/05_link_prediction.py \
+  uv run --with networkx python3 scripts/04_link_prediction.py
+  uv run --with networkx python3 scripts/04_link_prediction.py --top 20
+  uv run --with networkx --with scipy python3 scripts/04_link_prediction.py \
       --spectral
-  uv run --with networkx python3 scripts/05_link_prediction.py --validate
+  uv run --with networkx python3 scripts/04_link_prediction.py --validate
 """
 
 from __future__ import annotations
@@ -237,7 +237,7 @@ def spectral_resistance(
 
 
 # ------------------------------------------------------------------
-# Validation (mirrors 05_role_query.py's drift-adaptive philosophy)
+# Validation (mirrors 04_role_query.py's drift-adaptive philosophy)
 # ------------------------------------------------------------------
 def validate(doc: dict, G: nx.Graph) -> list[str]:
     """Recompute checks against the artifact; no hardcoded expectations.

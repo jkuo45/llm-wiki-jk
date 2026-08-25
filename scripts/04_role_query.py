@@ -22,12 +22,12 @@ updates and roles recalculate, validation adapts automatically and only
 fails when something is genuinely inconsistent.
 
 Run:
-  uv run python3 scripts/05_role_query.py --role Spreader --top 10
-  uv run python3 scripts/05_role_query.py \
+  uv run python3 scripts/04_role_query.py --role Spreader --top 10
+  uv run python3 scripts/04_role_query.py \
       --role Bottleneck --exclude-role Periphery --sort pagerank --top 20
-  uv run python3 scripts/05_role_query.py --node "Acid ceramidase"
-  uv run python3 scripts/05_role_query.py --validate
-  uv run python3 scripts/05_role_query.py --summary
+  uv run python3 scripts/04_role_query.py --node "Acid ceramidase"
+  uv run python3 scripts/04_role_query.py --validate
+  uv run python3 scripts/04_role_query.py --summary
 """
 
 from __future__ import annotations

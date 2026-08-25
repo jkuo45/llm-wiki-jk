@@ -2065,7 +2065,7 @@ function hydrateSurpriseList() {
 }
 
 // ------------------------------------------------------------
-// Predicted Connections (scripts/05_link_prediction.py artifact)
+// Predicted Connections (scripts/04_link_prediction.py artifact)
 // ------------------------------------------------------------
 async function hydratePredictedList() {
   const host = document.getElementById('at-predicted-list');

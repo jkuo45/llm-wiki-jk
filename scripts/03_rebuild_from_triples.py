@@ -230,7 +230,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     # --- Classify per-node biological roles ---
     # Roles are derived from the same static fingerprint already on each node.
     # The classifier lives in scripts/node_roles_lib.py (single source of truth,
-    # shared with scripts/05_role_query.py) and computes all thresholds from the
+    # shared with scripts/04_role_query.py) and computes all thresholds from the
     # live graph so it stays calibrated as the build evolves. The result is
     # baked into each node object (nodes.json) and also emitted as the standalone
     # web/data/node_roles.json artifact.
@@ -266,7 +266,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     # Per-role exemplars: the top-3 nodes for each role, ranked by that
     # role's driving metric. Gives every role an at-a-glance sanity anchor
-    # in node_roles.json / roles-meta.json (mirrors 05_role_query.py --role).
+    # in node_roles.json / roles-meta.json (mirrors 04_role_query.py --role).
     _EXEMPLAR_METRIC = {
         "Spreader": "out_degree",
         "Sink": "in_degree",
@@ -731,7 +731,7 @@ def _load_source_doc_mtimes() -> dict[str, str]:
 
 
 def run_link_prediction() -> None:
-    """Refresh web/data/link-prediction.json via scripts/05_link_prediction.py.
+    """Refresh web/data/link-prediction.json via scripts/04_link_prediction.py.
 
     Runs as a subprocess (same pattern as the graphify HTML export) so the
     networkx dependency stays isolated and a failure degrades to a warning
@@ -740,7 +740,7 @@ def run_link_prediction() -> None:
     cache busting automatically. Output is deterministic (sorted candidates),
     so an unchanged topology keeps the hash stable.
     """
-    script = ROOT / "scripts" / "05_link_prediction.py"
+    script = ROOT / "scripts" / "04_link_prediction.py"
     if not script.exists():
         print(f"link prediction skipped (missing): {script.name}")
         return
@@ -759,7 +759,7 @@ def run_link_prediction() -> None:
         print(
             f"link prediction failed (exit {e.returncode}); artifact left as-is. "
             "Re-run manually: uv run --with networkx python3 "
-            "scripts/05_link_prediction.py"
+            "scripts/04_link_prediction.py"
         )
 
 
